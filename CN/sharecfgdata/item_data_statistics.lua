@@ -16041,6 +16041,37 @@ _G.pg.base.item_data_statistics[21049] = {
 }
 
 
+_G.pg.base.item_data_statistics[21050] = {
+	open_directly = 0,
+	name = "结晶：敦刻尔克·META",
+	type = 4,
+	display = "敦刻尔克·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21050",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -27254,6 +27285,503 @@ _G.pg.base.item_data_statistics[30369] = {
 }
 
 
+_G.pg.base.item_data_statistics[30370] = {
+	open_directly = 1,
+	name = "外观装备箱(炼金工房II)",
+	type = 11,
+	display = "可以获得一件随机的炼金工房II风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiya",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30370",
+	id = 30370,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30371] = {
+	open_directly = 0,
+	name = "未知外观装备(炼金工房II)",
+	type = 13,
+	display = "可以获得一件随机的炼金工房II风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 30371,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30372] = {
+	open_directly = 0,
+	name = "外观装备箱(炼金工房II)",
+	type = 11,
+	display = "可以获得一件随机的炼金工房II风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiya",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30370",
+	id = 30372,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30373] = {
+	open_directly = 0,
+	name = "外观装备箱(炼金工房)",
+	type = 11,
+	display = "可以获得一件随机的炼金工房风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxlaisha",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30340",
+	id = 30373,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1200,
+			1
+		},
+		{
+			9,
+			1201,
+			1
+		},
+		{
+			9,
+			1202,
+			1
+		},
+		{
+			9,
+			1203,
+			1
+		},
+		{
+			9,
+			1204,
+			1
+		},
+		{
+			9,
+			1205,
+			1
+		},
+		{
+			9,
+			1206,
+			1
+		},
+		{
+			9,
+			1207,
+			1
+		},
+		{
+			9,
+			1208,
+			1
+		},
+		{
+			9,
+			1209,
+			1
+		},
+		{
+			9,
+			1210,
+			1
+		},
+		{
+			9,
+			1211,
+			1
+		},
+		{
+			9,
+			1212,
+			1
+		},
+		{
+			9,
+			1213,
+			1
+		},
+		{
+			9,
+			1214,
+			1
+		},
+		{
+			9,
+			1215,
+			1
+		},
+		{
+			9,
+			1216,
+			1
+		},
+		{
+			9,
+			1217,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -28771,6 +29299,58 @@ _G.pg.base.item_data_statistics[30429] = {
 		{
 			9,
 			1474,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30430] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111224",
+	id = 30430,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2101,
+			1
+		},
+		{
+			9,
+			2102,
+			1
+		},
+		{
+			9,
+			2103,
+			1
+		},
+		{
+			9,
+			2104,
 			1
 		}
 	},
@@ -40689,6 +41269,219 @@ _G.pg.base.item_data_statistics[30556] = {
 		{
 			9,
 			4203,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30557] = {
+	open_directly = 0,
+	name = "定向外观装备箱(炼金工房II)",
+	type = 13,
+	display = "使用后可从「炼金工房」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiyazixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30557,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
 			1
 		}
 	},
@@ -116844,6 +117637,357 @@ _G.pg.base.item_data_statistics[68089] = {
 	combination_display = {},
 	usage_arg = {
 		90362
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68091] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(我们家的甜点师)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>优米雅·利斯菲尔德</color>换装<color=#92fc63FF>我们家的甜点师</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906621",
+	id = 68091,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68094,
+			1
+		},
+		{
+			2,
+			68097,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68092] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(料理挑战！)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>莱莎琳·斯托特</color>换装<color=#92fc63FF>料理挑战！</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906622",
+	id = 68092,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68095,
+			1
+		},
+		{
+			2,
+			68098,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68093] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(假日的户外风格)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>艾菈·冯·杜勒</color>换装<color=#92fc63FF>假日的户外风格</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906623",
+	id = 68093,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68096,
+			1
+		},
+		{
+			2,
+			68099,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68094] = {
+	open_directly = 0,
+	name = "换装抵扣券(我们家的甜点师)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>优米雅·利斯菲尔德</color>换装<color=#92fc63FF>我们家的甜点师</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68094,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71158
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68095] = {
+	open_directly = 0,
+	name = "换装抵扣券(料理挑战！)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>莱莎琳·斯托特</color>换装<color=#92fc63FF>料理挑战！</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68095,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71163
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68096] = {
+	open_directly = 0,
+	name = "换装抵扣券(假日的户外风格)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>艾菈·冯·杜勒</color>换装<color=#92fc63FF>假日的户外风格</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68096,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71159
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68097] = {
+	open_directly = 0,
+	name = "换装体验券(我们家的甜点师)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>优米雅·利斯菲尔德</color>换装<color=#92fc63FF>我们家的甜点师</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68097,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90363
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68098] = {
+	open_directly = 0,
+	name = "换装体验券(料理挑战！)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>莱莎琳·斯托特</color>换装<color=#92fc63FF>料理挑战！</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68098,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90364
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68099] = {
+	open_directly = 0,
+	name = "换装体验券(假日的户外风格)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>艾菈·冯·杜勒</color>换装<color=#92fc63FF>假日的户外风格</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月6日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68099,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90365
 	},
 	limit = {}
 }

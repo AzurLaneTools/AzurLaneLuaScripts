@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-5",
 			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "我是莱莎琳·斯托特——人们一般叫我莱莎，是一个平凡无奇的农家女。",

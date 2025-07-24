@@ -121,7 +121,7 @@ slot0.ShowAdmiral = function(slot0)
 			after = slot1
 		})
 		uv0:Hide()
-	end, SFX_CONFIGM)
+	end, SFX_CONFIRM)
 
 	slot0.paintingInfo = {}
 	slot2, slot3 = PlayerVitaeShipsPage.GetSlotMaxCnt()

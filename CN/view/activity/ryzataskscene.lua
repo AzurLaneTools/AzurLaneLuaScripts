@@ -331,8 +331,6 @@ slot0.didEnter = function(slot0)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.detailBtnDetail, function ()
 		if uv0.selectTask and tonumber(uv0.selectTask:getConfig("target_id_2")) and slot0 > 0 then
-			slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
-
 			uv0:emit(RyzaTaskMediator.SHOW_DETAIL, AtelierMaterial.New({
 				configId = slot0,
 				count = uv0.selectTask:getConfig("target_num")

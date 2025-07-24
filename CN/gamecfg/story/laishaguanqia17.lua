@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_134",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-11",
 			stopbgm = true,
 			say = "过去的片段————",
 			flashout = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			bgmDelay = 2,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-13",
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·起始之地 莱莎的临时炼金工房",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			bgmDelay = 1,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-9",
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·南方水面 潜航舰内",
 			typewriter = {

@@ -24,11 +24,7 @@ slot0.OnDataSetting = function(slot0)
 end
 
 slot0.BuildDatas = function(slot0)
-	slot1 = pg.activity_limit_item_guide.get_id_list_by_activity[slot0.activity.id]
-	slot5 = slot0.activity.id
-
-	assert(slot1, "activity_limit_item_guide not exist activity id: " .. slot5)
-
+	slot1 = pg.activity_limit_item_guide.get_id_list_by_activity[slot0.activity.id] or {}
 	slot0.dataList = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -144,15 +140,7 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		id = slot3.config.drop_id
 	})
 	onButton(slot0, slot4, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_LIKN_COLLECT_GUIDE,
-			show_type = Msgbox4LinkCollectGuide.SHOW_TYPE_LIMIT,
-			drop_type = uv0.config.type,
-			drop_id = uv0.config.drop_id,
-			count = uv0.count,
-			count_limit = uv0.config.count,
-			skipable_list = uv0.config.link_params
-		})
+		uv0:OnClickItem(uv1)
 	end, SFX_PANEL)
 	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
 		type = slot3.config.type,
@@ -164,6 +152,18 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 	setActive(slot0:findTF("got", slot2), slot3.count == slot3.config.count)
 	setActive(slot0:findTF("new", slot2), slot3.config.is_new == "1")
+end
+
+slot0.OnClickItem = function(slot0, slot1)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		type = MSGBOX_TYPE_LIKN_COLLECT_GUIDE,
+		show_type = Msgbox4LinkCollectGuide.SHOW_TYPE_LIMIT,
+		drop_type = slot1.config.type,
+		drop_id = slot1.config.drop_id,
+		count = slot1.count,
+		count_limit = slot1.config.count,
+		skipable_list = slot1.config.link_params
+	})
 end
 
 slot0.UpdatePage = function(slot0, slot1)

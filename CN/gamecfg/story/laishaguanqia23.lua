@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-5",
 			stopbgm = true,
 			say = "随着磁卡插入大门，海面上出现了一条无障碍的航路，周围的防御系统也停止了运作。",
 			flashout = {

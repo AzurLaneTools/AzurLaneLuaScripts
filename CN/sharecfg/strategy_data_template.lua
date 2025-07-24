@@ -325,11 +325,33 @@ pg.strategy_data_template = setmetatable({
 		201386,
 		201410,
 		201411,
+		201461,
+		201462,
 		205001,
 		205002,
 		205003,
 		205004,
-		205005
+		205005,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006,
+		300007,
+		300008,
+		300009,
+		300010,
+		300011,
+		300012,
+		300013,
+		300014,
+		300015,
+		300016,
+		300017,
+		300018,
+		300019,
+		300020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4022,6 +4044,37 @@ META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效�
 		icon = "201411",
 		arg = {}
 	},
+	[201461] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = "注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201461,
+		icon = "200908",
+		arg = {}
+	},
+	[201462] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = [[
+注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。
+
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，子弹无视护盾。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时附带短暂无敌效果。
+
+以下技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201462,
+		icon = "200908",
+		arg = {}
+	},
 	[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -4075,6 +4128,226 @@ META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效�
 		buff_type = 0,
 		id = 205005,
 		icon = "",
+		arg = {}
+	},
+	[300001] = {
+		buff_id = 0,
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300001,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300002] = {
+		buff_id = 0,
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300002,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300003] = {
+		buff_id = 0,
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300003,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300004] = {
+		buff_id = 0,
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300004,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300005] = {
+		buff_id = 0,
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300005,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300006] = {
+		buff_id = 0,
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300006,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300007] = {
+		buff_id = 0,
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300007,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300008] = {
+		buff_id = 0,
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300008,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300009] = {
+		buff_id = 0,
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300009,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300010] = {
+		buff_id = 0,
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300010,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300011] = {
+		buff_id = 0,
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300011,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300012] = {
+		buff_id = 0,
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300012,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300013] = {
+		buff_id = 0,
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300013,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300014] = {
+		buff_id = 0,
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300014,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300015] = {
+		buff_id = 0,
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300015,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300016] = {
+		buff_id = 0,
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300016,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300017] = {
+		buff_id = 0,
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300017,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300018] = {
+		buff_id = 0,
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300018,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300019] = {
+		buff_id = 0,
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300019,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300020] = {
+		buff_id = 0,
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300020,
+		icon = "buff_yumia_4",
 		arg = {}
 	}
 }

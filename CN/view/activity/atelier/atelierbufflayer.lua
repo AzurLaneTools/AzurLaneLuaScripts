@@ -8,7 +8,7 @@ slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = slot1:GetItems()
 	slot0.buffItems = _.map(_.filter(AtelierMaterial.bindConfigTable().all, function (slot0)
-		return AtelierMaterial.bindConfigTable()[slot0].type == AtelierMaterial.TYPE.STRENGTHEN
+		return uv0[slot0].type == AtelierMaterial.TYPE.STRENGTHEN
 	end), function (slot0)
 		return uv0[slot0] or AtelierMaterial.New({
 			configId = slot0
@@ -30,9 +30,6 @@ slot0.init = function(slot0)
 
 	setText(slot0._tf:Find("Items/List"):GetChild(0):Find("Max/Text"), i18n("ryza_tip_control_buff_limit"))
 	setText(slot0._tf:Find("Items/List"):GetChild(0):Find("Min/Text"), i18n("ryza_tip_control_buff_not_obtain"))
-
-	slot0.buffItemTFs = CustomIndexLayer.Clone2Full(slot0._tf:Find("Items/List"), 8)
-
 	setText(slot0._tf:Find("Top/Tips"), i18n("ryza_tip_control"))
 	setText(slot0._tf:Find("Effects/Total"), i18n("ryza_tip_control_buff"))
 
@@ -40,6 +37,8 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	slot0.buffItemTFs = CustomIndexLayer.Clone2Full(slot0._tf:Find("Items/List"), #slot0.buffItems)
+
 	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)

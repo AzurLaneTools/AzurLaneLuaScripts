@@ -11299,6 +11299,301 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70297] = {
+		id = 70297,
+		name = "2025优米雅联动EX 小怪移动1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 20,
+					z = 50,
+					antiClockWise = true,
+					duration = 1,
+					x = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -10,
+					z = -80
+				}
+			}
+		}
+	},
+	[70298] = {
+		id = 70298,
+		name = "2025优米雅联动EX 小怪移动2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 20,
+					z = 50,
+					antiClockWise = false,
+					duration = 1,
+					x = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -10,
+					z = 80
+				}
+			}
+		}
+	},
+	[70299] = {
+		id = 70299,
+		name = "2025优米雅联动EX 小怪移动3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -50
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 50,
+					antiClockWise = false,
+					duration = 1,
+					x = -20
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -100,
+					z = -10
+				}
+			}
+		}
+	},
+	[70300] = {
+		id = 70300,
+		name = "2025优米雅联动EX 小怪移动4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 50,
+					antiClockWise = true,
+					duration = 1,
+					x = -20
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 2,
+				param = {
+					x = -100,
+					z = 10
+				}
+			}
+		}
+	},
+	[70301] = {
+		id = 70301,
+		name = "2025优米雅联动EX 小怪移动5",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -35,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 2,
+				param = {
+					x = 100,
+					z = 0
+				}
+			}
+		}
+	},
+	[70302] = {
+		id = 70302,
+		name = "2025优米雅联动EX 小怪移动6",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 2,
+				param = {
+					x = -500,
+					z = 0
+				}
+			}
+		}
+	},
+	[70303] = {
+		id = 70303,
+		name = "2025优米雅联动EX 小怪移动7",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 9
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 2,
+				param = {
+					x = 100,
+					z = 0
+				}
+			}
+		}
+	},
+	[70304] = {
+		id = 70304,
+		name = "2025优米雅联动EX 小怪移动8",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 0.1
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -30,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 0,
+				param = {
+					duration = 12
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 2,
+				param = {
+					x = 100,
+					z = 0
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

@@ -242,7 +242,23 @@ slot7.InitCameraGestureSlider = function(slot0)
 end
 
 slot7.InitAlchemistAPView = function(slot0)
-	slot0._alchemistAP = uv0.Battle.BattleReisalinAPView.New(slot0._ui:findTF("APPanel"))
+	if not slot0._alchemistAP then
+		slot1 = uv0.Battle.BattleResourceManager.GetInstance():InstReisalinAPUI()
+
+		setParent(slot1, slot0._ui.uiCanvas, false)
+
+		slot0._alchemistAP = uv0.Battle.BattleReisalinAPView.New(slot1.transform:Find("APPanel"))
+	end
+end
+
+slot7.InitAlchemistManaView = function(slot0)
+	if not slot0._alchemistMana then
+		slot1 = uv0.Battle.BattleResourceManager.GetInstance():InstYumiaManaUI()
+
+		setParent(slot1, slot0._ui.uiCanvas, false)
+
+		slot0._alchemistMana = uv0.Battle.BattleYumiaManaView.New(slot1.transform:Find("ManaPanel"))
+	end
 end
 
 slot7.InitGuide = function(slot0)
@@ -519,6 +535,10 @@ slot7.onAddUnit = function(slot0, slot1)
 	if table.contains(uv1.ALCHEMIST_AP_UI, slot3:GetTemplate().nationality) and slot3:GetIFF() == uv1.FRIENDLY_CODE then
 		slot0:InitAlchemistAPView()
 	end
+
+	if table.contains(uv1.YUMIA_MANA_UI, slot4) and slot3:GetIFF() == uv1.FRIENDLY_CODE then
+		slot0:InitAlchemistManaView()
+	end
 end
 
 slot7.onSubmarineDetected = function(slot0, slot1)
@@ -681,13 +701,12 @@ slot7.onFleetHorizonUpdate = function(slot0, slot1)
 end
 
 slot7.onFleetAttrUpdate = function(slot0, slot1)
-	if slot0._alchemistAP then
-		slot2 = slot1.Dispatcher
-		slot4 = slot1.Data.value
+	if slot0._alchemistAP and slot1.Data.attr == slot0._alchemistAP:GetAttrName() then
+		slot0._alchemistAP:UpdateAP(slot1.Data.value)
+	end
 
-		if slot1.Data.attr == slot0._alchemistAP:GetAttrName() then
-			slot0._alchemistAP:UpdateAP(slot4)
-		end
+	if slot0._alchemistMana and slot1.Data.attr == slot0._alchemistMana:GetAttrName() then
+		slot0._alchemistMana:UpdateMana(slot1.Data.value)
 	end
 end
 
@@ -859,6 +878,12 @@ slot7.Dispose = function(slot0)
 		slot0._alchemistAP:Dispose()
 
 		slot0._alchemistAP = nil
+	end
+
+	if slot0._alchemistMana then
+		slot0._alchemistMana:Dispose()
+
+		slot0._alchemistMana = nil
 	end
 
 	if slot0._gridmanSkillFloat then

@@ -123,19 +123,6 @@ slot0.addTranDrop = function(slot0, slot1)
 	end
 end
 
-slot0.BonusItemMarker = function(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0) do
-		if slot6.type == DROP_TYPE_VITEM and slot6:getConfig("virtual_type") == 20 then
-			slot6.catchupActTag = slot1[slot6.id]
-			slot1[slot6.id] = true
-		end
-	end
-
-	return slot0
-end
-
 slot3, slot4 = nil
 
 slot0.MergePassItemDrop = function(slot0)
@@ -318,7 +305,7 @@ slot0.CanDropItem = function(slot0)
 		end
 	end
 
-	return table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0
+	return table.getCount(slot0) > 0
 end
 
 slot5 = nil
@@ -378,6 +365,31 @@ slot0.CheckMedalAllCollectionTrack = function()
 	if PlayerPrefs.GetInt("MEDAL_ALL_COLLECTION:" .. getProxy(PlayerProxy):getRawData().id, 0) < slot2 then
 		PlayerPrefs.SetInt("MEDAL_ALL_COLLECTION:" .. slot4, slot2)
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20001, slot2))
+	end
+end
+
+slot0.UpdateLinkActivity = function(slot0)
+	slot1 = getProxy(ActivityProxy)
+
+	for slot6, slot7 in ipairs(underscore.filter(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_LINK_COLLECT), function (slot0)
+		return not slot0:isEnd()
+	end)) do
+		slot8 = pg.activity_limit_item_guide.get_id_list_by_activity[slot7.id]
+		slot12 = slot7.id
+
+		assert(slot8, "activity_limit_item_guide not exist activity id: " .. slot12)
+
+		for slot12, slot13 in ipairs(slot8) do
+			slot14 = pg.activity_limit_item_guide[slot13]
+
+			for slot18, slot19 in ipairs(slot0) do
+				if slot19.type == slot14.type and slot19.id == slot14.drop_id then
+					slot7:updateKVPList(1, slot14.id, slot7:getKVPList(1, slot14.id) + slot19.count)
+				end
+			end
+		end
+
+		slot1:updateActivity(slot7)
 	end
 end
 

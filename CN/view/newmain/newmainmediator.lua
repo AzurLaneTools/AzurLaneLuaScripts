@@ -65,15 +65,15 @@ slot0.register = function(slot0)
 			mapIdx = slot2.id
 		})
 	end)
-	slot0:bind(uv0.SKIP_ACTIVITY_MAP, function (slot0)
-		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
+	slot0:bind(uv0.SKIP_ACTIVITY_MAP, function (slot0, slot1)
+		slot3, slot4 = getProxy(ChapterProxy):getLastMapForActivity(slot1)
 
-		if not slot2 or not slot1:getMapById(slot2):isUnlock() then
+		if not slot3 or not slot2:getMapById(slot3):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		else
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-				chapterId = slot3,
-				mapIdx = slot2
+				chapterId = slot4,
+				mapIdx = slot3
 			})
 		end
 	end)

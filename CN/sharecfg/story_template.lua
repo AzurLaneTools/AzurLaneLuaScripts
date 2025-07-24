@@ -220,6 +220,46 @@ pg.story_template = {
 			0.4
 		}
 	},
+	[6959] = {
+		name = "SP",
+		id = 6959,
+		icon = "story-doujichang",
+		story = "YOUMIYAGUANQIAPIAN9",
+		pos = {
+			0.5,
+			0.3
+		}
+	},
+	[6969] = {
+		name = "SP",
+		id = 6969,
+		icon = "story-doujichang",
+		story = "YOUMIYAGUANQIAPIAN18",
+		pos = {
+			0.5,
+			0.3
+		}
+	},
+	[6976] = {
+		name = "SP",
+		id = 6976,
+		icon = "story-doujichang",
+		story = "YOUMIYAGUANQIAPIAN24",
+		pos = {
+			0.5,
+			0.3
+		}
+	},
+	[6979] = {
+		name = "SP",
+		id = 6979,
+		icon = "story-doujichang",
+		story = "YOUMIYAGUANQIAPIAN27",
+		pos = {
+			0.5,
+			0.3
+		}
+	},
 	all = {
 		4342,
 		4343,
@@ -242,6 +282,10 @@ pg.story_template = {
 		6181,
 		6182,
 		6183,
-		6184
+		6184,
+		6959,
+		6969,
+		6976,
+		6979
 	}
 }

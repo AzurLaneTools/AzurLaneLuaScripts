@@ -189,19 +189,9 @@ slot0.UpdateView = function(slot0)
 			uv2:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
-			slot1 = true
-
-			for slot5, slot6 in pairs(uv0.storyNodesDict) do
-				if slot6:GetStory() and slot7 ~= "" then
-					slot1 = slot1 and pg.NewStoryMgr.GetInstance():IsPlayed(slot7)
-				end
-
-				if not slot1 then
-					break
-				end
-			end
-
-			if slot1 then
+			if underscore.all(underscore.values(uv0.storyNodesDict), function (slot0)
+				return slot0:IsReaded()
+			end) then
 				uv0:PlayStory(uv0.activity:getConfig("config_client").endStory, function (slot0)
 					uv0()
 
@@ -278,135 +268,90 @@ slot2 = {
 }
 
 slot0.UpdateStory = function(slot0)
-	slot1 = {}
-	slot2 = pg.NewStoryMgr.GetInstance()
-	slot3 = 1
-	slot4 = 2
-	slot5 = 3
-	slot6 = 0
-	slot7 = 0
+	slot1 = pg.NewStoryMgr.GetInstance()
 
-	for slot11, slot12 in pairs(slot0.storyNodesDict) do
-		slot1[slot11] = {}
-		slot14 = true
-
-		if slot12:GetStory() and slot13 ~= "" then
-			slot6 = slot6 + (slot2:IsPlayed(slot13) and 1 or 0)
-			slot7 = slot7 + 1
-		end
-
-		slot1[slot11].status = slot14 and slot5 or slot3
-	end
-
-	slot10 = _.sort(_.values(slot0.storyNodesDict), function (slot0, slot1)
-		return slot0.id < slot1.id
-	end)
-
-	_.each(slot10, function (slot0)
-		slot1 = slot0:GetTriggers()
-
-		if uv0[slot0.id].status == uv1 then
-			return
-		end
-
-		if not _.any(slot1, function (slot0)
-			if slot0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
-				return uv0.ptActivity.data1 < slot0.value
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.SERIES_PASSED then
-				return not BossRushSeriesData.New({
-					id = slot0.value,
-					actId = uv0.activity.id
-				}):IsUnlock(uv0.activity)
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.STORY_READED then
-				return uv1[slot0.value].status < uv2
-			end
-		end) then
-			uv0[slot0.id].status = uv3
-		end
-	end)
-	_.each(slot10, function (slot0)
-		_.each(slot0:GetTriggers(), function (slot0)
-			if slot0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
-				if uv2 < uv0[uv1.id].status then
-					uv3 = uv3 and math.max(slot0.value, uv3) or slot0.value
-				elseif uv0[uv1.id].status == uv2 then
-					uv4 = uv4 and math.min(slot0.value, uv4) or slot0.value
-				end
-			end
-		end)
-	end)
-	setText(slot0._tf:Find("Story/PassLevel/PT/Text"), slot0.ptActivity.data1 .. "/" .. (nil or slot9 or ""))
-	setText(slot0._tf:Find("Story/PassLevel/Values"):GetChild(0), slot6)
-	setText(slot0._tf:Find("Story/PassLevel/Values"):GetChild(2), slot7)
 	slot0:ReturnLinks()
 	table.Foreach(slot0.storyNodesDict, function (slot0, slot1)
 		slot2 = uv0.nodes[slot1:GetIconName()].trans
-		slot3 = uv1[slot0].status == uv2
+		slot3 = slot1:IsActive(uv0.activity, uv0.ptActivity)
+		slot4 = slot1:IsReaded()
 
 		if slot1:GetType() == BossRushStoryNode.NODE_TYPE.NORMAL then
 			uv0.loader:GetSprite(uv0:GetAtalsName(), slot3 and "story_green_active" or "story_green", slot2:GetChild(0), true)
-		elseif slot4 == BossRushStoryNode.NODE_TYPE.EVENT then
-			setActive(slot2, uv3 < uv1[slot0].status)
+		elseif slot5 == BossRushStoryNode.NODE_TYPE.EVENT then
+			setActive(slot2, slot3)
 			uv0.loader:GetSprite(uv0:GetAtalsName(), slot3 and "story_yellow_active" or "story_yellow", slot2:GetChild(0), true)
-		elseif slot4 == BossRushStoryNode.NODE_TYPE.BATTLE then
+		elseif slot5 == BossRushStoryNode.NODE_TYPE.BATTLE then
 			-- Nothing
 		end
 
 		if slot3 then
 			setAnchoredPosition(uv0.storyBar, uv0._tf:Find("Story"):InverseTransformPoint(slot2.position))
 			setText(uv0.storyBar:Find("Text"), slot1:GetName())
-			uv0.loader:GetSprite(uv0:GetAtalsName(), uv4[slot4], uv0.storyBar, true)
+			uv0.loader:GetSprite(uv0:GetAtalsName(), uv1[slot5], uv0.storyBar, true)
 			onButton(uv0, uv0.storyBar, function ()
 				uv1:PlayStory(uv0:GetStory(), function ()
 					uv0:UpdateView()
 				end)
 			end)
 
-			uv5 = true
+			uv2 = true
 		end
 
-		slot5 = slot1:GetActiveLink()
+		slot6 = slot1:GetActiveLink()
 
 		(function ()
-			if uv0 == 0 or uv1[uv0].status ~= uv2 then
+			if uv0 == 0 or not uv1 then
 				return
 			end
 
-			slot2 = uv3.plural:Dequeue()
+			slot2 = uv2.plural:Dequeue()
 
-			table.insert(uv3.links, go(slot2))
+			table.insert(uv2.links, go(slot2))
 			setActive(slot2, true)
-			setParent(slot2, uv3.linksContainer)
+			setParent(slot2, uv2.linksContainer)
 
-			slot3 = uv3.linksContainer:InverseTransformPoint(uv4.position)
-			slot5 = uv3.linksContainer:InverseTransformPoint(uv3.nodes[uv3.storyNodesDict[uv0]:GetIconName()].trans.position) - slot3
+			slot3 = uv2.linksContainer:InverseTransformPoint(uv3.position)
+			slot5 = uv2.linksContainer:InverseTransformPoint(uv2.nodes[uv2.storyNodesDict[uv0]:GetIconName()].trans.position) - slot3
 			tf(slot2).sizeDelta = Vector2(Vector2.Magnitude(slot5), 2)
 			tf(slot2).anchoredPosition = slot3
 			tf(slot2).localRotation = Quaternion.FromToRotation(Vector3.right, slot5)
 		end)()
+		_.each(slot1:GetTriggers(), function (slot0)
+			if slot0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
+				if uv0 then
+					uv1 = uv1 and math.max(slot0.value, uv1) or slot0.value
+				else
+					uv2 = uv2 and math.min(slot0.value, uv2) or slot0.value
+				end
+			end
+		end)
 	end)
+	setText(slot0._tf:Find("Story/PassLevel/PT/Text"), slot0.ptActivity.data1 .. "/" .. (nil or slot5 or ""))
+	setText(slot0._tf:Find("Story/PassLevel/Values"):GetChild(0), 0)
+	setText(slot0._tf:Find("Story/PassLevel/Values"):GetChild(2), 0)
 	setActive(slot0.storyBar, false)
 	setActive(slot0.storyAward, tobool(slot0.storyTask))
 
 	if slot0.storyTask then
-		slot12 = slot0.storyTask:getConfig("award_display")
+		slot7 = slot0.storyTask:getConfig("award_display")
 
 		updateDrop(slot0.storyAward:Find("Mask"):GetChild(0), {
-			type = slot12[1][1],
-			id = slot12[1][2],
-			count = slot12[1][3]
+			type = slot7[1][1],
+			id = slot7[1][2],
+			count = slot7[1][3]
 		})
 		onButton(slot0, slot0.storyAward:Find("Mask"):GetChild(0), function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end)
 		setActive(slot0.storyAward:Find("Got"), slot0.storyTask:getTaskStatus() == 2)
 
-		if slot14 == 1 then
+		if slot9 == 1 then
 			slot0:emit(BossRushKurskMediator.ON_TASK_SUBMIT, slot0.storyTask)
 		end
 	end
 
-	setActive(slot0._tf:Find("Battle/Story/New"), slot11)
+	setActive(slot0._tf:Find("Battle/Story/New"), slot6)
 end
 
 slot0.ReturnLinks = function(slot0, slot1)

@@ -54,7 +54,18 @@ slot0.execute = function(slot0, slot1)
 				end
 
 				uv5:AddFurnitrues(uv4)
-				uv6:UpdateLinkActivity(uv4)
+
+				for slot6, slot7 in ipairs(uv4) do
+					-- Nothing
+				end
+
+				PlayerConst.UpdateLinkActivity(underscore.map(uv4, function (slot0)
+					return Drop.New({
+						count = 1,
+						type = DROP_TYPE_FURNITURE,
+						id = slot0
+					})
+				end))
 				uv6:sendNotification(GAME.BUY_FURNITURE_DONE, uv5:getData(), uv4)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 			else
@@ -89,24 +100,6 @@ slot0.execute = function(slot0, slot1)
 		end
 	else
 		slot9()
-	end
-end
-
-slot0.UpdateLinkActivity = function(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINK_COLLECT) and not slot3:isEnd() then
-		slot8 = slot3.id
-
-		assert(pg.activity_limit_item_guide.get_id_list_by_activity[slot3.id], "activity_limit_item_guide not exist activity id: " .. slot8)
-
-		for slot8, slot9 in ipairs(slot1) do
-			for slot13, slot14 in ipairs(slot4) do
-				if pg.activity_limit_item_guide[slot14].type == DROP_TYPE_FURNITURE and slot9 == slot15.drop_id then
-					slot3:updateKVPList(1, slot15.id, slot3:getKVPList(1, slot15.id) + 1)
-				end
-			end
-		end
-
-		slot2:updateActivity(slot3)
 	end
 end
 

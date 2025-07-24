@@ -118,6 +118,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[108] = {
+		name = "自然律动",
+		key = "SkinNormal_20250724",
+		display_icon = "ui_108",
+		unlock = "世界巡游二十四期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "飞鸟翱翔于树海界面之上，辅以律动水流等要素，营造出生机勃勃万物竞发的氛围。",
+		id = 108,
+		icon = "108",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "圣诞雪境",
 		key = "SkinNormal_20241209",
@@ -195,6 +210,7 @@ pg.item_data_battleui = {
 		105,
 		106,
 		107,
+		108,
 		201,
 		202,
 		203,

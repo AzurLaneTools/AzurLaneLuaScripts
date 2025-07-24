@@ -52,6 +52,7 @@ slot0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
 slot0.GO_SPECIAL_EXERCISE = "go Special exercise"
 slot0.GO_SINGLE_PRECOMBAT = "ActivityMediator.GO_SINGLE_PRECOMBAT"
 slot0.ON_BOSSRUSH_MAP = "ActivityMediator.ON_BOSSRUSH_MAP"
+slot0.SKIP_ACTIVITY_MAP = "ActivityMediator.SKIP_ACTIVITY_MAP"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
@@ -228,6 +229,18 @@ slot0.register = function(slot0)
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 				chapterId = slot2,
 				mapIdx = slot1
+			})
+		end
+	end)
+	slot0:bind(uv0.SKIP_ACTIVITY_MAP, function (slot0, slot1)
+		slot3, slot4 = getProxy(ChapterProxy):getLastMapForActivity(slot1)
+
+		if not slot3 or not slot2:getMapById(slot3):isUnlock() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+		else
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot4,
+				mapIdx = slot3
 			})
 		end
 	end)

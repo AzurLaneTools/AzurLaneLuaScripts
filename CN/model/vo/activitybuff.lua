@@ -42,27 +42,37 @@ slot0.isActivate = function(slot0)
 				slot1 = true
 			end
 		else
-			slot1 = (function ()
-				if uv0:getConfig("benefit_condition")[1] == "lv" then
-					return uv1(getProxy(PlayerProxy):getRawData().level, slot0[2], slot0[3])
-				elseif slot0[1] == "activity" then
-					if slot0[3] == 0 then
+			slot1 = not noEmptyStr(slot0:getConfig("benefit_condition")) and true or switch(slot4[1], {
+				lv = function ()
+					return uv0(getProxy(PlayerProxy):getRawData().level, uv1[2], uv1[3])
+				end,
+				activity = function ()
+					if uv0[3] == 0 then
 						return true
 					end
 
-					if uv2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or uv2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
-						return (uv2.data1KeyValueList[2][slot0[3][1]] or 1) == slot0[3][2]
+					if uv1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or uv1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+						return (uv1.data1KeyValueList[2][uv0[3][1]] or 1) == uv0[3][2]
 					end
-				end
-
-				if slot0 == "" then
+				end,
+				chapter = function (slot0)
 					return true
 				end
-			end)() or false
+			}, function ()
+				return false
+			end) or false
 		end
 	end
 
 	return slot1
+end
+
+slot0.checkChaper = function(slot0, slot1)
+	if not noEmptyStr(slot0:getConfig("benefit_condition")) or slot2[1] ~= "chapter" then
+		return true
+	else
+		return table.contains(slot2[2], slot1)
+	end
 end
 
 slot0.getLeftTime = function(slot0)

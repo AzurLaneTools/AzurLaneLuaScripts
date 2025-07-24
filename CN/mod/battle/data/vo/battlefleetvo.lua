@@ -224,6 +224,16 @@ slot8.SetUnitBound = function(slot0, slot1, slot2)
 	slot0._fleetUnitBound:SwtichCommon()
 end
 
+slot8.SetChapterPlayType = function(slot0, slot1)
+	slot0._chapterType = slot1
+end
+
+slot8.GetLeftBoundDistance = function(slot0)
+	if slot0._chapterType and slot0._chapterType == 5 then
+		return math.abs(slot0._motionVO:GetPos().x - slot0._leftBound)
+	end
+end
+
 slot8.UpdateScoutUnitBound = function(slot0)
 	slot1, slot2, slot3, slot4, slot5, slot6 = slot0._fleetUnitBound:GetBound()
 

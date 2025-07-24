@@ -657,6 +657,18 @@ slot0.readyToAchieve = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_DAILY_STAGE_BONUS] = function (slot0)
 			return slot0:NeedLoginRedPoint()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_TASK_RYZA] = function (slot0)
+			for slot5, slot6 in ipairs(getProxy(ActivityTaskProxy):getTaskById(slot0.id)) do
+				if slot6:getTaskStatus() == 1 then
+					return true
+				end
+			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_MINIGAME] = function (slot0)
+			if getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 then
+				return true
+			end
 		end
 	}
 
@@ -732,7 +744,8 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID_2] = DormSignTwoPage.IsShowRed,
-		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed
+		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed,
+		[ActivityConst.YUMIA_BASE_ACT_ID] = YoumiyaStrongholdLayer.ShouldShowTip
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 
@@ -1048,6 +1061,10 @@ end
 
 slot0.GetPlayerID = function(slot0)
 	return getProxy(PlayerProxy):getPlayerId()
+end
+
+slot0.GetConfigClientSetting = function(slot0, slot1)
+	return slot0:getConfig("config_client")[slot1]
 end
 
 return slot0

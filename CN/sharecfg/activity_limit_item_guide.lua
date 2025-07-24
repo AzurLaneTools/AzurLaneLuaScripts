@@ -1580,7 +1580,7 @@ pg.activity_limit_item_guide = {
 	[99] = {
 		is_new = 1,
 		activity = 5988,
-		count = 1,
+		count = 0,
 		type = 21,
 		order = 0,
 		id = 99,
@@ -1591,6 +1591,710 @@ pg.activity_limit_item_guide = {
 				3,
 				5984,
 				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[101] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 101,
+		drop_id = 89420,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[102] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 102,
+		drop_id = 89440,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[103] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 103,
+		drop_id = 89460,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[104] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 104,
+		drop_id = 89480,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[105] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 105,
+		drop_id = 89500,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[106] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 106,
+		drop_id = 89520,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[107] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 107,
+		drop_id = 89540,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[108] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 108,
+		drop_id = 89560,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[109] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 109,
+		drop_id = 89580,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[110] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 110,
+		drop_id = 89600,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[111] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 111,
+		drop_id = 89620,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[112] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 112,
+		drop_id = 95108,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[113] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 113,
+		drop_id = 95113,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[114] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 114,
+		drop_id = 95115,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[116] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 116,
+		drop_id = 95127,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[117] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 117,
+		drop_id = 95128,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[118] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 118,
+		drop_id = 95132,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[120] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 120,
+		drop_id = 95140,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			}
+		}
+	},
+	[122] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 122,
+		drop_id = 95142,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50049,
+				"「噗尼的异世界之旅」活动奖励"
+			}
+		}
+	},
+	[123] = {
+		is_new = 0,
+		activity = 50064,
+		count = 10,
+		type = 5,
+		order = 0,
+		id = 123,
+		drop_id = 95144,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			},
+			{
+				3,
+				50046,
+				"「温泉开发战」奖励"
+			}
+		}
+	},
+	[124] = {
+		is_new = 0,
+		activity = 50064,
+		count = 4,
+		type = 9,
+		order = 0,
+		id = 124,
+		drop_id = 1218,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「港区委托版」任务奖励"
+			},
+			{
+				3,
+				50046,
+				"「温泉开发战」奖励"
+			}
+		}
+	},
+	[125] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 125,
+		drop_id = 10360,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[126] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 126,
+		drop_id = 10380,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[127] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 127,
+		drop_id = 10400,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[128] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 128,
+		drop_id = 10420,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[129] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 129,
+		drop_id = 10440,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[130] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 130,
+		drop_id = 10460,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[131] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 131,
+		drop_id = 150680,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[132] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 132,
+		drop_id = 150700,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[133] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 133,
+		drop_id = 150720,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[134] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 134,
+		drop_id = 150740,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[135] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 135,
+		drop_id = 150760,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[136] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 136,
+		drop_id = 150780,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[137] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 137,
+		drop_id = 150800,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50058,
+				"累计「天际微尘」领取"
+			}
+		}
+	},
+	[138] = {
+		is_new = 1,
+		activity = 50066,
+		count = 5,
+		type = 5,
+		order = 0,
+		id = 138,
+		drop_id = 325110,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成活动任务"
+			},
+			{
+				3,
+				50063,
+				"「据点建装」奖励"
+			}
+		}
+	},
+	[139] = {
+		is_new = 1,
+		activity = 50066,
+		count = 4,
+		type = 9,
+		order = 0,
+		id = 139,
+		drop_id = 1499,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成活动任务"
+			},
+			{
+				3,
+				50063,
+				"「据点建装」奖励"
+			}
+		}
+	},
+	[140] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 140,
+		drop_id = 14320,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[141] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 141,
+		drop_id = 14340,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[142] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 142,
+		drop_id = 14360,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
+			}
+		}
+	},
+	[143] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 143,
+		drop_id = 14380,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"「炼金工房」调合获得"
 			}
 		}
 	},
@@ -1684,6 +2388,50 @@ pg.activity_limit_item_guide = {
 			97,
 			98,
 			99
+		},
+		[50064] = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			116,
+			117,
+			118,
+			120,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129,
+			130
+		},
+		[50066] = {
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143
 		}
 	},
 	all = {
@@ -1770,6 +2518,46 @@ pg.activity_limit_item_guide = {
 		96,
 		97,
 		98,
-		99
+		99,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		116,
+		117,
+		118,
+		120,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
+		142,
+		143
 	}
 }

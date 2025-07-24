@@ -1,117 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103248] = {
-		name = "幸福的轨迹",
-		change_skin = "",
-		desc = "3、2、1！嘿咻！指挥官，有抓拍到扔捧花的瞬间吧？嘿嘿~下一条状态就更新这个了，指挥官，要和我同步更新哦，这也是我们俩的另一种……“爱的誓言”哦！",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 8,
-		purchase_offset = "",
-		painting = "bulaimodun_h",
-		bg_sp = "",
-		skin_type = 1,
-		shop_type_id = 9998,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103248,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.716,
-					0.874,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.72,
-					0.875,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.361,
-							2.431,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103250] = {
 		name = "巴尔的摩(μ兵装)",
 		change_skin = "",
@@ -14515,6 +14404,229 @@ pg.base.ship_skin_template_3 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[107231] = {
+		name = "浅海的特别训练",
+		change_skin = "",
+		desc = "这不是指挥官吗，你是来游泳的吗？…我？想说即使是在海边，也有很多能锻炼的东西，为此我特地带了一些装备过来。",
+		illustrator2 = -1,
+		ship_group = 10723,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "pulinsidun_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "106",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107231,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70433,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.176,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.308,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107232] = {
+		name = "心跳的糖果乐园",
+		change_skin = "",
+		desc = "总算来了吗？…咳咳！那个…其实我也没等多久，所以没关系的，嗯。那我们就…出发吧？",
+		illustrator2 = -1,
+		ship_group = 10723,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "pulinsidun_3",
+		bg_sp = "1102",
+		skin_type = 4,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "108",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107232,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70503,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.126,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.14,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		},
+		time = {
+			{
+				2021,
+				2,
+				14
+			},
+			{
+				0,
+				0,
+				0
 			}
 		}
 	}

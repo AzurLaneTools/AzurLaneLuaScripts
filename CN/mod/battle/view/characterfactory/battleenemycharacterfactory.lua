@@ -49,7 +49,7 @@ end
 
 slot1.MakeArrowBar = function(slot0, slot1)
 	slot1:AddArrowBar(slot0:GetArrowPool():GetArrow())
-	slot1:UpdateArrowBarPostition()
+	slot1:UpdateArrowBarPosition()
 end
 
 slot1.GetArrowPool = function(slot0)

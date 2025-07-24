@@ -1,138 +1,14 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
-	{
-		rarity = 3,
-		display = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
-		name = "寂静镰刀",
-		type = 3,
-		item_num = 1,
-		id = 1,
-		icon = "props/ryza_item_4",
-		item_id = {
-			1001,
-			4
-		},
-		recipe_circle = {
-			10,
-			12,
-			13,
-			14,
-			15,
-			16,
-			19,
-			17,
-			11,
-			18
-		}
-	},
-	{
-		rarity = 3,
-		display = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
-		name = "黄金之斧",
-		type = 3,
-		item_num = 1,
-		id = 2,
-		icon = "props/ryza_item_3",
-		item_id = {
-			1001,
-			3
-		},
-		recipe_circle = {
-			20,
-			23,
-			24,
-			25,
-			27,
-			28,
-			21,
-			29,
-			1,
-			22,
-			26
-		}
-	},
-	{
-		rarity = 3,
-		display = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
-		name = "蓝炎烧杖",
-		type = 3,
-		item_num = 1,
-		id = 3,
-		icon = "props/ryza_item_2",
-		item_id = {
-			1001,
-			2
-		},
-		recipe_circle = {
-			30,
-			31,
-			35,
-			32,
-			33,
-			34,
-			36,
-			37,
-			38,
-			39,
-			2
-		}
-	},
-	{
-		rarity = 3,
-		display = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
-		name = "神杆慈悲",
-		type = 3,
-		item_num = 1,
-		id = 4,
-		icon = "props/ryza_item_1",
-		item_id = {
-			1001,
-			1
-		},
-		recipe_circle = {
-			40,
-			42,
-			43,
-			45,
-			47,
-			49,
-			41,
-			44,
-			46,
-			48,
-			50,
-			51
-		}
-	},
-	{
-		rarity = 3,
-		display = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
-		name = "激光切割器",
-		type = 3,
-		item_num = 1,
-		id = 5,
-		icon = "props/ryza_item_5",
-		item_id = {
-			1001,
-			5
-		},
-		recipe_circle = {
-			60,
-			62,
-			63,
-			64,
-			66,
-			67,
-			65,
-			61
-		}
-	},
 	[10] = {
 		rarity = 4,
-		display = "莱莎琳·斯托特使用的武器。\n散发强烈光芒的手杖。即使什么都不做也会持续闪烁耀眼光辉。沐浴在这道光芒中，不仅装备者，连四周的人都会感觉内心变得光明。",
-		name = "闪耀梦想",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n莱莎琳·斯托特使用的武器。\n散发强烈光芒的手杖。即使什么都不做也会持续闪烁耀眼光辉。沐浴在这道光芒中，不仅装备者，连四周的人都会感觉内心变得光明。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "闪耀梦想",
+		version = 1,
+		shape = 0,
 		id = 10,
 		icon = "equips/10360",
 		item_id = {
@@ -155,10 +31,13 @@ pg.activity_ryza_recipe = {
 	},
 	[20] = {
 		rarity = 4,
-		display = "科洛蒂娅·巴兰茨使用的武器。\n射出的箭矢会在黑暗中如星星般闪耀，因此而得名。应该谁都不想在黑暗中被这种弓瞄准吧。",
-		name = "暗夜星矢",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n科洛蒂娅·巴兰茨使用的武器。\n射出的箭矢会在黑暗中如星星般闪耀，因此而得名。应该谁都不想在黑暗中被这种弓瞄准吧。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "暗夜星矢",
+		version = 1,
+		shape = 0,
 		id = 20,
 		icon = "equips/10380",
 		item_id = {
@@ -181,10 +60,13 @@ pg.activity_ryza_recipe = {
 	},
 	[30] = {
 		rarity = 4,
-		display = "帕特莉夏·阿贝尔海姆使用的武器。\n据说这把剑具有意志，会自己选择使用者。如果没有高尚的灵魂，再厉害的高手都无法驾驭。",
-		name = "爱瑟尔剑",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n帕特莉夏·阿贝尔海姆使用的武器。\n据说这把剑具有意志，会自己选择使用者。如果没有高尚的灵魂，再厉害的高手都无法驾驭。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "爱瑟尔剑",
+		version = 1,
+		shape = 0,
 		id = 30,
 		icon = "equips/10400",
 		item_id = {
@@ -208,10 +90,13 @@ pg.activity_ryza_recipe = {
 	},
 	[40] = {
 		rarity = 4,
-		display = "莉拉·德西亚斯使用的武器。\n欧兰族曾经使用的传统武器之一。据称，将武器背在身上，周遭居住的精灵便会赋予其力量。",
-		name = "幽兰爪",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n莉拉·德西亚斯使用的武器。\n欧兰族曾经使用的传统武器之一。据称，将武器背在身上，周遭居住的精灵便会赋予其力量。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "幽兰爪",
+		version = 1,
+		shape = 0,
 		id = 40,
 		icon = "equips/10420",
 		item_id = {
@@ -237,10 +122,13 @@ pg.activity_ryza_recipe = {
 	},
 	[50] = {
 		rarity = 4,
-		display = "赛莉·古劳斯使用的武器。\n据说曾被称为“花之贤者”的人物戴过的手环。佩戴者行走在路上，四周的花朵就会盛开，因此“花之贤者”的周围好像总是一片花田。",
-		name = "百花盛开",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n赛莉·古劳斯使用的武器。\n据说曾被称为“花之贤者”的人物戴过的手环。佩戴者行走在路上，四周的花朵就会盛开，因此“花之贤者”的周围好像总是一片花田。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "百花盛开",
+		version = 1,
+		shape = 0,
 		id = 50,
 		icon = "equips/10440",
 		item_id = {
@@ -264,10 +152,13 @@ pg.activity_ryza_recipe = {
 	},
 	[60] = {
 		rarity = 4,
-		display = "卡菈·伊迪亚斯使用的武器。\n奇形怪状的战锤。平坦的部分另一侧的造型纯粹是为了美观。",
-		name = "百合长老",
+		display = "<color=#ff5c5c>（重复获得将自动转化为特殊兵装核心*2）</color>\n卡菈·伊迪亚斯使用的武器。\n奇形怪状的战锤。平坦的部分另一侧的造型纯粹是为了美观。",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "百合长老",
+		version = 1,
+		shape = 0,
 		id = 60,
 		icon = "equips/10460",
 		item_id = {
@@ -294,9 +185,12 @@ pg.activity_ryza_recipe = {
 	[70] = {
 		rarity = 4,
 		display = "一种威力强大的火属性炸弹，使用后可以对敌人造成伤害。",
-		name = "炙烈炎烧",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "炙烈炎烧",
+		version = 1,
+		shape = 0,
 		id = 70,
 		icon = "equips/89420",
 		item_id = {
@@ -324,9 +218,12 @@ pg.activity_ryza_recipe = {
 	[80] = {
 		rarity = 4,
 		display = "一种威力强大的冰属性炸弹，使用后可以对敌人造成伤害。",
-		name = "结晶冰精",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "结晶冰精",
+		version = 1,
+		shape = 0,
 		id = 80,
 		icon = "equips/89440",
 		item_id = {
@@ -354,9 +251,12 @@ pg.activity_ryza_recipe = {
 	[90] = {
 		rarity = 4,
 		display = "一种威力强大的雷属性炸弹，使用后可以对敌人造成伤害。",
-		name = "震耳雷球",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "震耳雷球",
+		version = 1,
+		shape = 0,
 		id = 90,
 		icon = "equips/89460",
 		item_id = {
@@ -384,9 +284,12 @@ pg.activity_ryza_recipe = {
 	[100] = {
 		rarity = 4,
 		display = "一种威力强大的风属性炸弹，使用后可以对敌人造成伤害。",
-		name = "涡旋风精",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "涡旋风精",
+		version = 1,
+		shape = 0,
 		id = 100,
 		icon = "equips/89480",
 		item_id = {
@@ -413,9 +316,12 @@ pg.activity_ryza_recipe = {
 	[110] = {
 		rarity = 4,
 		display = "用力一敲就能让大地剧烈摇晃的槌子。大地摇晃时空气振动及天空传来鸣响的样子，让人联想到创世的景象，所以如此命名。",
-		name = "创世之槌",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "创世之槌",
+		version = 1,
+		shape = 0,
 		id = 110,
 		icon = "equips/89580",
 		item_id = {
@@ -444,9 +350,12 @@ pg.activity_ryza_recipe = {
 	[120] = {
 		rarity = 4,
 		display = "不需要枪管的子弹。将前端对准目标发射，子弹会先在上空盘旋，然后笔直地朝目标前进，在打中的瞬间爆炸。",
-		name = "泡云弹车",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "泡云弹车",
+		version = 1,
+		shape = 0,
 		id = 120,
 		icon = "equips/89600",
 		item_id = {
@@ -478,9 +387,12 @@ pg.activity_ryza_recipe = {
 	[130] = {
 		rarity = 4,
 		display = "一种威力强大的炸弹，使用后可以降低敌人的防御力。",
-		name = "Ｎ／Ａ",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "Ｎ／Ａ",
+		version = 1,
+		shape = 0,
 		id = 130,
 		icon = "equips/89560",
 		item_id = {
@@ -509,9 +421,12 @@ pg.activity_ryza_recipe = {
 	[140] = {
 		rarity = 4,
 		display = "一种威力强大的道具，使用后可以降低敌人属性，但使用时会消耗使用者的HP。",
-		name = "默示录",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "默示录",
+		version = 1,
+		shape = 0,
 		id = 140,
 		icon = "equips/89540",
 		item_id = {
@@ -548,9 +463,12 @@ pg.activity_ryza_recipe = {
 	[150] = {
 		rarity = 4,
 		display = "色调带有神秘感的羽衣。虽然是薄得可以一眼看透的布料，但展开之后可以保护自己不受任何攻击。",
-		name = "神秘的羽衣",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "神秘的羽衣",
+		version = 1,
+		shape = 0,
 		id = 150,
 		icon = "equips/89520",
 		item_id = {
@@ -585,9 +503,12 @@ pg.activity_ryza_recipe = {
 	[160] = {
 		rarity = 4,
 		display = "不仅能治好任何伤和疾病，就连死亡也能应对的超强力药剂。只有极少数的炼金术士才做得出来，被视为炼金术的终极技术之一。",
-		name = "万灵药剂",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "万灵药剂",
+		version = 1,
+		shape = 0,
 		id = 160,
 		icon = "equips/89500",
 		item_id = {
@@ -620,9 +541,12 @@ pg.activity_ryza_recipe = {
 	[170] = {
 		rarity = 4,
 		display = "可将意志化作音色的口琴。不仅吹奏的人，听到口琴音色的人也会被赋予各种力量。",
-		name = "形意口琴",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "形意口琴",
+		version = 1,
+		shape = 0,
 		id = 170,
 		icon = "equips/89620",
 		item_id = {
@@ -645,14 +569,17 @@ pg.activity_ryza_recipe = {
 	[180] = {
 		rarity = 4,
 		display = "可以获得一件随机的炼金工房风格外观装备",
-		name = "装备外观箱(炼金工房)",
+		prop_type = "",
 		type = 2,
 		item_num = 10,
+		name = "装备外观箱(炼金工房)",
+		version = 1,
+		shape = 0,
 		id = 180,
 		icon = "props/appearanceboxlaisha",
 		item_id = {
 			2,
-			30340
+			30373
 		},
 		recipe_circle = {
 			1800,
@@ -676,9 +603,12 @@ pg.activity_ryza_recipe = {
 	[190] = {
 		rarity = 3,
 		display = "借助炼金术融合四把钥匙之后形成的类似门卡的装置，形状似乎能与核心之所大门上的凹槽完美对应。",
-		name = "遗迹之钥·核心之所",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "遗迹之钥·核心之所",
+		version = 1,
+		shape = 0,
 		id = 190,
 		icon = "props/ryza_item_31",
 		item_id = {
@@ -695,10 +625,13 @@ pg.activity_ryza_recipe = {
 	},
 	[200] = {
 		rarity = 4,
-		display = "利用从遗迹中回收的素材制作的精美雕塑，纪念这一段充满惊喜的秘密遗迹群岛冒险之旅。——「炼金术士与秘密遗迹群岛」活动纪念\n「……嗯，这也是桶子！」",
-		name = "遗迹冒险之证",
+		display = "<color=#ff5c5c>（重复获得将自动转化为物资*2000）</color>\n利用从遗迹中回收的素材制作的精美雕塑，纪念这一段充满惊喜的秘密遗迹群岛冒险之旅。——「炼金术士与秘密遗迹群岛」活动纪念\n「……嗯，这也是桶子！」",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "遗迹冒险之证",
+		version = 1,
+		shape = 0,
 		id = 200,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
 		item_id = {
@@ -729,9 +662,12 @@ pg.activity_ryza_recipe = {
 	[210] = {
 		rarity = 2,
 		display = "小瓶中封存了以炼金术人工制造的精灵之力。可适应任何属性，却不易使用。",
-		name = "精灵的小瓶",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "精灵的小瓶",
+		version = 1,
+		shape = 0,
 		id = 210,
 		icon = "props/ryza_item_21",
 		item_id = {
@@ -747,9 +683,12 @@ pg.activity_ryza_recipe = {
 	[220] = {
 		rarity = 3,
 		display = "频繁出现在炼金术调合中的基础药剂。为红色液体，与火属性素材的契合度高。",
-		name = "中和剂·红",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剂·红",
+		version = 1,
+		shape = 0,
 		id = 220,
 		icon = "props/ryza_item_22",
 		item_id = {
@@ -766,9 +705,12 @@ pg.activity_ryza_recipe = {
 	[230] = {
 		rarity = 3,
 		display = "频繁出现在炼金术调合中的基础药剂。为蓝色液体，与冰属性素材的契合度高。",
-		name = "中和剂·蓝",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剂·蓝",
+		version = 1,
+		shape = 0,
 		id = 230,
 		icon = "props/ryza_item_23",
 		item_id = {
@@ -785,9 +727,12 @@ pg.activity_ryza_recipe = {
 	[240] = {
 		rarity = 3,
 		display = "频繁出现在炼金术调合中的基础药剂。为黄色液体，与雷属性素材的契合度高。",
-		name = "中和剂·黄",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剂·黄",
+		version = 1,
+		shape = 0,
 		id = 240,
 		icon = "props/ryza_item_25",
 		item_id = {
@@ -804,9 +749,12 @@ pg.activity_ryza_recipe = {
 	[250] = {
 		rarity = 3,
 		display = "频繁出现在炼金术调合中的基础药剂。为绿色液体，与风属性素材的契合度高。",
-		name = "中和剂·绿",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剂·绿",
+		version = 1,
+		shape = 0,
 		id = 250,
 		icon = "props/ryza_item_24",
 		item_id = {
@@ -823,9 +771,12 @@ pg.activity_ryza_recipe = {
 	[260] = {
 		rarity = 4,
 		display = "从四种元素核心制作而成的最高阶素材之一。具备全属性与高属性值，进行高阶调合时可派上用场。",
-		name = "核水晶元素",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "核水晶元素",
+		version = 1,
+		shape = 0,
 		id = 260,
 		icon = "props/ryza_item_26",
 		item_id = {
@@ -843,9 +794,12 @@ pg.activity_ryza_recipe = {
 	[270] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得炮击、航空、雷击属性提高的效果",
-		name = "输出提升核心",
+		prop_type = "",
 		type = 2,
 		item_num = 2,
+		name = "输出提升核心",
+		version = 1,
+		shape = 0,
 		id = 270,
 		icon = "props/ryza_item_34",
 		item_id = {
@@ -867,9 +821,12 @@ pg.activity_ryza_recipe = {
 	[280] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得伤害降低的效果",
-		name = "防御提升核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "防御提升核心",
+		version = 1,
+		shape = 0,
 		id = 280,
 		icon = "props/ryza_item_35",
 		item_id = {
@@ -891,9 +848,12 @@ pg.activity_ryza_recipe = {
 	[290] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得恢复耐久的效果",
-		name = "缓慢修复核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "缓慢修复核心",
+		version = 1,
+		shape = 0,
 		id = 290,
 		icon = "props/ryza_item_36",
 		item_id = {
@@ -915,9 +875,12 @@ pg.activity_ryza_recipe = {
 	[300] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得损伤管控的效果",
-		name = "损伤管控核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "损伤管控核心",
+		version = 1,
+		shape = 0,
 		id = 300,
 		icon = "props/ryza_item_37",
 		item_id = {
@@ -939,9 +902,12 @@ pg.activity_ryza_recipe = {
 	[310] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得点燃弹幕支援的效果",
-		name = "点燃支援核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "点燃支援核心",
+		version = 1,
+		shape = 0,
 		id = 310,
 		icon = "props/ryza_item_38",
 		item_id = {
@@ -963,9 +929,12 @@ pg.activity_ryza_recipe = {
 	[320] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得易伤弹幕支援的效果",
-		name = "易伤支援核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "易伤支援核心",
+		version = 1,
+		shape = 0,
 		id = 320,
 		icon = "props/ryza_item_39",
 		item_id = {
@@ -987,9 +956,12 @@ pg.activity_ryza_recipe = {
 	[330] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得经验提升的效果",
-		name = "经验提升核心",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "经验提升核心",
+		version = 1,
+		shape = 0,
 		id = 330,
 		icon = "props/ryza_item_40",
 		item_id = {
@@ -1011,9 +983,12 @@ pg.activity_ryza_recipe = {
 	[340] = {
 		rarity = 4,
 		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得好感提升的效果",
-		name = "好感提升核心",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "好感提升核心",
+		version = 1,
+		shape = 0,
 		id = 340,
 		icon = "props/ryza_item_41",
 		item_id = {
@@ -1035,9 +1010,12 @@ pg.activity_ryza_recipe = {
 	[350] = {
 		rarity = 3,
 		display = "兵装强化石，主要用于特殊兵装的制造、强化、突破。",
-		name = "兵装强化石T2",
+		prop_type = "",
 		type = 2,
 		item_num = 100,
+		name = "兵装强化石T2",
+		version = 1,
+		shape = 0,
 		id = 350,
 		icon = "props/15016",
 		item_id = {
@@ -1050,12 +1028,596 @@ pg.activity_ryza_recipe = {
 			3503
 		}
 	},
+	[1001] = {
+		rarity = 3,
+		display = "优米雅·利斯菲尔德使用的武器。\n为了将射击与打击的威力发挥到极限而制作的枪杖。上面有着以凝缩的玛娜为光源的照明灯。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "刹那追忆",
+		version = 2,
+		shape = 1,
+		id = 1001,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14320
+		},
+		recipe_circle = {
+			10001,
+			10002,
+			10003,
+			10004,
+			10005,
+			10006,
+			10007
+		}
+	},
+	[1002] = {
+		rarity = 3,
+		display = "艾菈·冯·杜勒使用的武器。\n枪尖材质为宝石的长枪，可随时替换枪尖。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "秘枪三叉戟",
+		version = 2,
+		shape = 1,
+		id = 1002,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14340
+		},
+		recipe_circle = {
+			10011,
+			10012,
+			10013,
+			10014,
+			10015,
+			10016,
+			10017
+		}
+	},
+	[1003] = {
+		rarity = 3,
+		display = "妮娜·弗里德使用的武器。\n尺寸便于使用的短枪和短剑，短剑轻巧锋利，但短枪的威力和后坐力较强。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "女猎人",
+		version = 2,
+		shape = 1,
+		id = 1003,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14360
+		},
+		recipe_circle = {
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027
+		}
+	},
+	[1004] = {
+		rarity = 3,
+		display = "蕾妮雅使用的武器。\n攻击方式更接近锯的武器，造成的伤势难以愈合，还很容易留下疤痕。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "黄泉之螳螂",
+		version = 2,
+		shape = 1,
+		id = 1004,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14380
+		},
+		recipe_circle = {
+			10031,
+			10032,
+			10033,
+			10034,
+			10035,
+			10036,
+			10037
+		}
+	},
+	[1011] = {
+		rarity = 3,
+		display = "缠绕着火与雷两种力量的双头剑。熟练使用的话可以迅速发挥两种力量。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "最终陨石",
+		version = 2,
+		shape = 1,
+		id = 1011,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150720
+		},
+		recipe_circle = {
+			10041,
+			10042,
+			10043,
+			10044,
+			10045,
+			10046,
+			10047
+		}
+	},
+	[1012] = {
+		rarity = 3,
+		display = "封印了强大风之力的魔导书，只要打开便可解放书中的力量。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "高级魔导书",
+		version = 2,
+		shape = 1,
+		id = 1012,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150700
+		},
+		recipe_circle = {
+			10051,
+			10052,
+			10053,
+			10054,
+			10055,
+			10056,
+			10057
+		}
+	},
+	[1013] = {
+		rarity = 3,
+		display = "绽放七彩光芒的大剑，兼具所有种类的力量。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "宏伟光辉",
+		version = 2,
+		shape = 1,
+		id = 1013,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150680
+		},
+		recipe_circle = {
+			10061,
+			10062,
+			10063,
+			10064,
+			10065,
+			10066,
+			10067
+		}
+	},
+	[1014] = {
+		rarity = 3,
+		display = "映照着美丽花田与晴空的水晶球，具有可以治愈所有伤势的效果。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "神药球",
+		version = 2,
+		shape = 1,
+		id = 1014,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150740
+		},
+		recipe_circle = {
+			10071,
+			10072,
+			10073,
+			10074,
+			10075,
+			10076,
+			10077
+		}
+	},
+	[1015] = {
+		rarity = 3,
+		display = "拥有再生之力的天球仪，中心的宝石蕴含治愈之力。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "天恩浑仪",
+		version = 2,
+		shape = 1,
+		id = 1015,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150780
+		},
+		recipe_circle = {
+			10081,
+			10082,
+			10083,
+			10084,
+			10085,
+			10086,
+			10087
+		}
+	},
+	[1016] = {
+		rarity = 3,
+		display = "封印着太古时代可怕魔物的立方体，禁止擅自解除封印。",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "地狱立方体",
+		version = 2,
+		shape = 1,
+		id = 1016,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150760
+		},
+		recipe_circle = {
+			10091,
+			10092,
+			10093,
+			10094,
+			10095,
+			10096,
+			10097
+		}
+	},
+	[1017] = {
+		rarity = 3,
+		display = "Ⅰ级调节器，用于调节天际塔能源的专属设备。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "天际塔能源调节器I",
+		version = 2,
+		shape = 3,
+		id = 1017,
+		icon = "props/yumia_item_28",
+		item_id = {
+			1001,
+			134
+		},
+		recipe_circle = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10105,
+			10106,
+			10107,
+			10108
+		}
+	},
+	[1018] = {
+		rarity = 3,
+		display = "Ⅱ级调节器，用于调节天际塔能源的专属设备。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "天际塔能源调节器II",
+		version = 2,
+		shape = 3,
+		id = 1018,
+		icon = "props/yumia_item_29",
+		item_id = {
+			1001,
+			135
+		},
+		recipe_circle = {
+			10111,
+			10112,
+			10113,
+			10114,
+			10115,
+			10116,
+			10117,
+			10118
+		}
+	},
+	[1019] = {
+		rarity = 3,
+		display = "Ⅲ级调节器，用于调节天际塔能源的专属设备。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "天际塔能源调节器III",
+		version = 2,
+		shape = 3,
+		id = 1019,
+		icon = "props/yumia_item_30",
+		item_id = {
+			1001,
+			136
+		},
+		recipe_circle = {
+			10121,
+			10122,
+			10123,
+			10124,
+			10125,
+			10126,
+			10127,
+			10128
+		}
+	},
+	[1020] = {
+		rarity = 3,
+		display = "Ⅳ级调节器，用于调节天际塔能源的专属设备。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "天际塔能源调节器IV",
+		version = 2,
+		shape = 3,
+		id = 1020,
+		icon = "props/yumia_item_31",
+		item_id = {
+			1001,
+			137
+		},
+		recipe_circle = {
+			10131,
+			10132,
+			10133,
+			10134,
+			10135,
+			10136,
+			10137,
+			10138
+		}
+	},
+	[1021] = {
+		rarity = 3,
+		display = "频繁运用于炼金术的基础药剂，红色中和剂与火属性具有良好的契合度。",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剂·红",
+		version = 2,
+		shape = 2,
+		id = 1021,
+		icon = "props/yumia_item_23",
+		item_id = {
+			1001,
+			129
+		},
+		recipe_circle = {
+			10141,
+			10142,
+			10143
+		}
+	},
+	[1022] = {
+		rarity = 3,
+		display = "频繁运用于炼金术的基础药剂，蓝色中和剂与冰属性具有良好的契合度。",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剂·蓝",
+		version = 2,
+		shape = 2,
+		id = 1022,
+		icon = "props/yumia_item_24",
+		item_id = {
+			1001,
+			130
+		},
+		recipe_circle = {
+			10151,
+			10152,
+			10153
+		}
+	},
+	[1023] = {
+		rarity = 3,
+		display = "频繁运用于炼金术的基础药剂，黄色中和剂与雷属性具有良好的契合度。",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剂·黄",
+		version = 2,
+		shape = 2,
+		id = 1023,
+		icon = "props/yumia_item_25",
+		item_id = {
+			1001,
+			131
+		},
+		recipe_circle = {
+			10161,
+			10162,
+			10163
+		}
+	},
+	[1024] = {
+		rarity = 3,
+		display = "频繁运用于炼金术的基础药剂，绿色中和剂与风属性具有良好的契合度。",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剂·绿",
+		version = 2,
+		shape = 2,
+		id = 1024,
+		icon = "props/yumia_item_26",
+		item_id = {
+			1001,
+			132
+		},
+		recipe_circle = {
+			10171,
+			10172,
+			10173
+		}
+	},
+	[1025] = {
+		rarity = 3,
+		display = "频繁用于炼金术的基础药剂。经过改良后，成了与任何素材均可高度契合的万能中和剂。",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剂·七彩",
+		version = 2,
+		shape = 2,
+		id = 1025,
+		icon = "props/yumia_item_27",
+		item_id = {
+			1001,
+			133
+		},
+		recipe_circle = {
+			10181,
+			10182,
+			10183,
+			10184,
+			10185
+		}
+	},
+	[1026] = {
+		rarity = 3,
+		display = "可以获得一件随机的炼金工房II风格外观装备",
+		prop_type = "",
+		type = 2,
+		item_num = 5,
+		name = "随机外观装备(炼金工房II)",
+		version = 2,
+		shape = 3,
+		id = 1026,
+		icon = "Props/appearanceboxyoumiya",
+		item_id = {
+			2,
+			30372
+		},
+		recipe_circle = {
+			10191,
+			10192,
+			10193,
+			10194
+		}
+	},
+	[1027] = {
+		rarity = 3,
+		display = "兵装强化石，主要用于特殊兵装的制造、强化、突破。",
+		prop_type = "",
+		type = 2,
+		item_num = 100,
+		name = "兵装强化石T2",
+		version = 2,
+		shape = 3,
+		id = 1027,
+		icon = "props/15016",
+		item_id = {
+			2,
+			15016
+		},
+		recipe_circle = {
+			10201,
+			10202,
+			10203,
+			10204
+		}
+	},
+	[1028] = {
+		rarity = 3,
+		display = "通用建筑材料，可用于建设任何木类建筑。",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "通用建设木板",
+		version = 2,
+		shape = 3,
+		id = 1028,
+		icon = "Props/65653",
+		item_id = {
+			1001,
+			138
+		},
+		recipe_circle = {
+			10211,
+			10212,
+			10213
+		}
+	},
+	[1029] = {
+		rarity = 3,
+		display = "通用建筑素材，可用于制作任何石类建筑。",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "通用建设石材",
+		version = 2,
+		shape = 3,
+		id = 1029,
+		icon = "Props/65654",
+		item_id = {
+			1001,
+			139
+		},
+		recipe_circle = {
+			10221,
+			10222,
+			10223
+		}
+	},
+	[1030] = {
+		rarity = 3,
+		display = "通用建筑素材，可用于制作任何金属类建筑。",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "通用建设金属",
+		version = 2,
+		shape = 3,
+		id = 1030,
+		icon = "Props/65655",
+		item_id = {
+			1001,
+			140
+		},
+		recipe_circle = {
+			10231,
+			10232,
+			10233
+		}
+	},
+	[1031] = {
+		rarity = 3,
+		display = "通用建筑素材，可用于制作任何植被类建筑。",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "通用建设植被",
+		version = 2,
+		shape = 3,
+		id = 1031,
+		icon = "Props/65656",
+		item_id = {
+			1001,
+			141
+		},
+		recipe_circle = {
+			10241,
+			10242,
+			10243
+		}
+	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
 		10,
 		20,
 		30,
@@ -1090,6 +1652,31 @@ pg.activity_ryza_recipe = {
 		320,
 		330,
 		340,
-		350
+		350,
+		1001,
+		1002,
+		1003,
+		1004,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030,
+		1031
 	}
 }

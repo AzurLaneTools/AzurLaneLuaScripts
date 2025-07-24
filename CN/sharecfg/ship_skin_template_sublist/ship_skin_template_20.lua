@@ -1,962 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[11100031] = {
-		name = "“梦”醒时分",
-		change_skin = "",
-		desc = "哎呀，指挥官，您醒了吗？但是您刚刚好像睡得不太好呢……是做了噩梦吗？没关系哦，现在已经不用再难受了。",
-		illustrator2 = -1,
-		ship_group = 1110003,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "mengmeng_2_tolove",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "story-richang-refreshing",
-		special_effects = "",
-		bg = "193",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100031,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "mengmeng_2_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71074,
-		voice_actor = 405,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.79,
-					0.94,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.82,
-					0.93,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.71,
-					2.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.36,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100040] = {
-		name = "金色暗影",
-		change_skin = "",
-		desc = "金色暗影……请多指教。",
-		illustrator2 = -1,
-		ship_group = 1110004,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "jinseanying_tolove",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100040,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "jinseanying_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 107,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.25,
-					0.69,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.25,
-					0.72,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.798,
-					2.188,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.367,
-							2.373,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100041] = {
-		name = "朋友们的睡衣装备",
-		change_skin = "",
-		desc = "指挥官……你怎么随便就进来了。杀了你哦。",
-		illustrator2 = -1,
-		ship_group = 1110004,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "jinseanying_2_tolove",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "story-richang-refreshing",
-		special_effects = "",
-		bg = "193",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100041,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "jinseanying_2_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71075,
-		voice_actor = 107,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.19,
-					0.65,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.2,
-					0.65,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.783,
-					2.195,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.329,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100050] = {
-		name = "西连寺春菜",
-		change_skin = "",
-		desc = "你好，指挥官，我是西连寺春菜，之后会在港区叨扰你一段时间，请多关照。有什么我能够帮上忙的，随时告诉我哦。",
-		illustrator2 = -1,
-		ship_group = 1110005,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "xiliansi_tolove",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100050,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "xiliansi_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 214,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.085,
-					0.489,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.09,
-					0.48,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.685,
-					2.376,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.359,
-							2.441,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100051] = {
-		name = "静谧的谈心之夜",
-		change_skin = "",
-		desc = "指挥官，我泡了红茶，要不要……一起来喝呢？是我推荐的茶叶哦。",
-		illustrator2 = -1,
-		ship_group = 1110005,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "xiliansi_2_tolove",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "story-richang-refreshing",
-		special_effects = "",
-		bg = "109",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100051,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "xiliansi_2_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71076,
-		voice_actor = 214,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.04,
-					0.61,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.035,
-					0.592,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.761,
-					2.399,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.329,
-							2.418,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100060] = {
-		name = "古手川唯",
-		change_skin = "",
-		desc = "你就是指挥官吗？初次见面，我是古手川唯。因为一些小意外才来到这里的……不过既然要承蒙你照顾，我就一定会好好维护港区的纪律的！",
-		illustrator2 = -1,
-		ship_group = 1110006,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "gushouchuan_tolove",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100060,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "gushouchuan_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 434,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-1.24,
-					2.31,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-1.27,
-					2.35,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.821,
-					2.186,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.285,
-							2.353,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100061] = {
-		name = "风纪委员的休息日",
-		change_skin = "",
-		desc = "来来来~别害怕哦~……咦，指挥官！？等、等一下！不要随便闯进来哦！小猫也会被吓到的吧！",
-		illustrator2 = -1,
-		ship_group = 1110006,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "gushouchuan_2_tolove",
-		bg_sp = "",
-		skin_type = 4,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "story-richang-refreshing",
-		special_effects = "",
-		bg = "185",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100061,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "gushouchuan_2_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71077,
-		voice_actor = 434,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-1.25,
-					2.36,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-1.24,
-					2.36,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.871,
-					2.128,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.318,
-							2.287,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11200010] = {
-		name = "BLACK★ROCK SHOOTER",
-		change_skin = "",
-		desc = "……你是……“敌人”？……不，我没有感受到恶意。但是……我能感受到你那强烈的意志。原来如此，这个世界也同样充斥着“战斗”呢。你是……指挥官？我是BLACK★ROCK SHOOTER……我会保护你的。",
-		illustrator2 = -1,
-		ship_group = 1120001,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "heiyansheshou",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11200010,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "heiyansheshou",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 459,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.585,
-					0.915,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.658,
-					0.965,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.321,
-					1.918,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.808,
-							2.348,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[11200011] = {
 		name = "黑之女神",
 		change_skin = "",
@@ -1377,6 +421,1084 @@ pg.base.ship_skin_template_20 = {
 					2,
 					-70,
 					-70,
+					2
+				}
+			}
+		}
+	},
+	[11300010] = {
+		name = "优米雅·利斯菲尔德",
+		change_skin = "",
+		desc = "咦？这是什么地方？既不是尤斯特拉，也不是阿拉迪斯……欸，那个，不好意思，虽然不知道你是哪位，但能告诉我这个世界的基本情况吗？啊，我是优米雅……优米雅·利斯菲尔德，是一名炼金术士……话说，你知道什么是炼金术吗？",
+		illustrator2 = -1,
+		ship_group = 1130001,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "youmiya",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "youmiya",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 383,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.204,
+					1.12,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.312,
+					1.156,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.625,
+					2.431,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.668,
+							2.321,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11300011] = {
+		name = "我们家的甜点师",
+		change_skin = "",
+		desc = "啊，好，请再等一下好吗？马上就要烤好了。嗯～好香啊！这次一定是我的最佳杰作！话说回来，做甜点和炼金术之间，意外地有很多相似之处呢~",
+		illustrator2 = -1,
+		ship_group = 1130001,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "youmiya_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "yumia-az-story",
+		special_effects = "",
+		bg = "163",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300011,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "youmiya_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71158,
+		voice_actor = 383,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.371,
+					1.187,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.351,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.602,
+					2.401,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.808,
+							2.348,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-24,
+			-1667.28,
+			0,
+			0.64
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					181,
+					463,
+					2,
+					-200,
+					0,
+					2
+				},
+				{
+					-583,
+					113,
+					2,
+					0,
+					-120,
+					2
+				},
+				{
+					-286,
+					-533,
+					2,
+					120,
+					0,
+					2
+				}
+			}
+		}
+	},
+	[11300020] = {
+		name = "艾菈·冯·杜勒",
+		change_skin = "",
+		desc = "我是艾菈‧冯‧杜勒！叫我艾菈就好！隶属于尤斯特拉骑士团，同时也是阿拉迪斯调查团的一员。不过……我是怎么到这里来的呢！？你是不是知道些什么呀？",
+		illustrator2 = -1,
+		ship_group = 1130002,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "aila",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "aila",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 291,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.353,
+					0.833,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.338,
+					0.922,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.977,
+					2.229,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.609,
+							2.334,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11300021] = {
+		name = "假日的户外风格",
+		change_skin = "",
+		desc = "欢迎光临艾菈的露天美食派对～！今天准备了各种特别的烧烤食谱哦！怎么样？每一道看起来都超美味吧？欸？我？我可不在菜单里啦！",
+		illustrator2 = -1,
+		ship_group = 1130002,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "aila_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "yumia-az-story",
+		special_effects = "",
+		bg = "158",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300021,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "aila_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71159,
+		voice_actor = 291,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.391,
+					1.265,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.332,
+					1.052,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.051,
+					2.212,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.808,
+							2.348,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			53.7,
+			-978.8,
+			0,
+			0.792
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					743,
+					57,
+					2,
+					0,
+					-120,
+					2
+				},
+				{
+					598,
+					-768,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-519,
+					-454,
+					2,
+					0,
+					120,
+					2
+				}
+			}
+		}
+	},
+	[11300030] = {
+		name = "妮娜·弗里德",
+		change_skin = "",
+		desc = "嗨，我是妮娜。虽说我也是调查团的一员……但进行那些说明看起来也没什么意义呢。话说回来，接下来该干些什么好呢……欸？要我去你家吗？哎呀~你这么说真的没问题吗？",
+		illustrator2 = -1,
+		ship_group = 1130003,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "nina",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300030,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "nina",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 98,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.431,
+					1.367,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.924,
+					1.28,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.788,
+					2.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.824,
+							2.438,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11300031] = {
+		name = "Cafe & Diner mode",
+		change_skin = "",
+		desc = "呵呵，指挥官？您怎么发起呆来了呀？怎么啦？是在意热乎乎的汉堡吗？还是说……呵呵……更进一步的话……就·留·到·之·后·吧♪",
+		illustrator2 = -1,
+		ship_group = 1130003,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "nina_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "yumia-az-story",
+		special_effects = "",
+		bg = "160",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300031,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "nina_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71160,
+		voice_actor = 98,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.983,
+					1.409,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.009,
+					1.469,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.758,
+					2.433,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.808,
+							2.348,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			42.8,
+			-739.7,
+			0,
+			0.65
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1120,
+					628,
+					2,
+					180,
+					-60,
+					2
+				},
+				{
+					-411,
+					0,
+					2,
+					100,
+					-100,
+					2
+				},
+				{
+					-360,
+					-555,
+					2,
+					-120,
+					-60,
+					2
+				}
+			}
+		}
+	},
+	[11300040] = {
+		name = "蕾妮雅",
+		change_skin = "",
+		desc = "啊，那个……我、我是蕾妮雅……不、不知道您是哪位……呃、那个……对、对对对不起——！！我也不是很明白现在的情况，不过，可、可以麻烦您……收留我吗？",
+		illustrator2 = -1,
+		ship_group = 1130004,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "leiniya",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300040,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "leiniya",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 371,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.416,
+					1.077,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.793,
+					2.291,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11300041] = {
+		name = "夏日假期",
+		change_skin = "",
+		desc = "那个……这种事情，蕾妮雅还是第一次体验……所以……没错！难得的机会，一定要大家一起享受才行！！",
+		illustrator2 = -1,
+		ship_group = 1130004,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "leiniya_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 16,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "yumia-az-story",
+		special_effects = "",
+		bg = "106",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 11300041,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "leiniya_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71161,
+		voice_actor = 371,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.344,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.747,
+					2.206,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.681,
+							2.382,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-246.4,
+			-834.3,
+			0,
+			0.93
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1195,
+					-533,
+					2,
+					0,
+					200,
+					2
+				},
+				{
+					-695,
+					188,
+					2,
+					200,
+					0,
+					2
+				},
+				{
+					44,
+					-310,
+					2,
+					180,
+					-60,
 					2
 				}
 			}

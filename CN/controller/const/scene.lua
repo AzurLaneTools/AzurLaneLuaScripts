@@ -701,8 +701,24 @@ slot0 = {
 		slot0.viewComponent = MonopolyPtScene
 	end,
 	[SCENE.ATELIER_COMPOSITE] = function (slot0, slot1)
+		slot3 = nil
+
+		if slot0.data.activityID and not getProxy(ActivityProxy):RawGetActivityById(slot2.activityID) or not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot3.isEnd(slot3) then
+			return
+		end
+
+		slot2.activityID = defaultValue(slot2.activityID, slot3.id)
+
+		if not slot2.versionIndex then
+			if slot2.formulaId then
+				slot2.versionIndex = pg.activity_ryza_recipe[slot2.formulaId].version
+			else
+				slot2.versionIndex = 1
+			end
+		end
+
 		slot0.mediator = AtelierCompositeMediator
-		slot0.viewComponent = AtelierCompositeScene
+		slot0.viewComponent = _G[slot3.getConfig(slot3, "config_client")[slot2.versionIndex].scene]
 	end,
 	[SCENE.RYZA_URBAN_AREA] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -1200,10 +1216,6 @@ slot1 = {
 			end
 		})
 	end,
-	ActivityMediator = function (slot0, slot1)
-		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS)
-		slot1()
-	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)
 
@@ -1419,6 +1431,18 @@ slot1 = {
 	CommanderManualMediator = function (slot0, slot1)
 		getProxy(CommanderManualProxy):GetPagesTasks()
 		slot1()
+	end,
+	ActivityMediator = function (slot0, slot1)
+		if slot0.context.data.id and getProxy(ActivityProxy):getActivityById(slot2.data.id) and not slot3.isEnd(slot3) and noEmptyStr(slot3.getConfig(slot3, "page_core")) then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
+				coreName = slot3:getConfig("page_core"),
+				id = slot3.id
+			})
+		else
+			pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
+				callback = slot1
+			})
+		end
 	end
 }
 

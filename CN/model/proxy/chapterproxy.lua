@@ -506,16 +506,33 @@ slot0.getRemasterMaps = function(slot0, slot1)
 	end
 end
 
-slot0.getMapsByActivities = function(slot0)
+slot0.getMapsByActivities = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
+	slot3 = nil
 
-	underscore.each(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
-		if not slot0:isEnd() then
-			uv0 = table.mergeArray(uv0, uv1:getMapsByActId(slot0.id))
-		end
-	end)
+	if slot1 then
+		slot3 = slot2:getActivityById(slot1)
+	else
+		slot4 = slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
 
-	return {}
+		table.sort(slot4, CompareFuncs({
+			function (slot0)
+				return defaultValue(slot0:GetConfigClientSetting("order"), 1)
+			end
+		}))
+
+		slot3 = slot4[1]
+	end
+
+	if not slot3 then
+		return {}
+	end
+
+	if getProxy(ActivityProxy):IsActivityNotEnd(pg.expedition_data_by_map[pg.chapter_template[slot3:getConfig("config_data")[1]].map].on_activity) then
+		return slot0:getMapsByActId(slot5)
+	else
+		return {}
+	end
 end
 
 slot0.getLastUnlockMap = function(slot0)
@@ -717,14 +734,14 @@ slot0.GetLastNormalMap = function(slot0)
 	return slot0:getLastUnlockMap().id
 end
 
-slot0.getLastMapForActivity = function(slot0)
-	slot1, slot2 = nil
+slot0.getLastMapForActivity = function(slot0, slot1)
+	slot2, slot3 = nil
 
-	if slot0:getActiveChapter() and slot0:getMapById(slot2:getConfig("map")):isActivity() and not slot1:isRemaster() then
-		return slot1.id, slot2.id
+	if slot0:getActiveChapter() and slot0:getMapById(slot3:getConfig("map")):isActivity() and not slot2:isRemaster() then
+		return slot2.id, slot3.id
 	end
 
-	if Map.lastMapForActivity and slot0:getMapById(Map.lastMapForActivity) and not slot1:isRemaster() and slot1:isUnlock() then
+	if Map.lastMapForActivity and slot0:getMapById(Map.lastMapForActivity) and not slot2:isRemaster() and slot2:isUnlock() and (not slot1 or slot2:getConfig("on_activity") == slot1) then
 		return Map.lastMapForActivity
 	end
 
@@ -732,41 +749,37 @@ slot0.getLastMapForActivity = function(slot0)
 		slot0:recordLastMap(uv0.LAST_MAP_FOR_ACTIVITY, 0)
 	end
 
-	slot3 = slot0:getMapsByActivities()
+	return slot0:getActivityLastUnlockMap(slot1)
+end
 
-	table.sort(slot3, function (slot0, slot1)
-		return slot1.id < slot0.id
-	end)
-
-	slot4 = {}
-
-	if _.all(slot3, function (slot0)
+slot0.getActivityLastUnlockMap = function(slot0, slot1)
+	if not _.all(slot0:getMapsByActivities(slot1), function (slot0)
 		return slot0:getConfig("type") == Map.EVENT
 	end) then
-		slot4 = slot3
-	else
-		for slot8, slot9 in ipairs({
+		for slot6, slot7 in ipairs({
 			Map.ACTIVITY_EASY,
 			Map.ACTIVITY_HARD
 		}) do
-			if #underscore.filter(slot3, function (slot0)
+			if #underscore.filter(slot2, function (slot0)
 				return slot0:getMapType() == uv0
-			end) > 0 and underscore.any(slot10, function (slot0)
+			end) > 0 and underscore.any(slot8, function (slot0)
 				return not slot0:isClearForActivity()
 			end) then
+				slot2 = slot8
+
 				break
 			end
 		end
 	end
 
-	for slot8 = #slot4, 1, -1 do
-		if slot4[slot8]:isUnlock() then
-			return slot9.id
+	for slot6 = #slot2, 1, -1 do
+		if slot2[slot6]:isUnlock() then
+			return slot7.id
 		end
 	end
 
-	if #slot3 > 0 then
-		return slot3[1].id
+	if #slot2 > 0 then
+		return slot2[1].id
 	end
 end
 
@@ -990,11 +1003,13 @@ slot0.getLastMap = function(slot0, slot1)
 	end
 end
 
-slot0.IsActivitySPChapterActive = function(slot0)
-	return _.any(_.reduce(slot0:getMapsByActivities(), {}, function (slot0, slot1)
-		return table.mergeArray(slot0, _.select(slot1:getChapters(), function (slot0)
+slot0.IsActivitySPChapterActive = function(slot0, slot1)
+	return _.any(_.reduce(slot0:getMapsByActivities(slot1), {}, function (slot0, slot1)
+		table.insertto(slot0, _.select(slot1:getChapters(), function (slot0)
 			return slot0:IsSpChapter()
 		end))
+
+		return slot0
 	end), function (slot0)
 		return slot0:isUnlock() and slot0:isPlayerLVUnlock() and slot0:enoughTimes2Start()
 	end)

@@ -85,7 +85,7 @@ slot5.Update = function(slot0)
 	slot0:UpdateMatrix()
 
 	if not slot0._inViewArea or not slot0._alwaysHideArrow then
-		slot0:UpdateArrowBarPostition()
+		slot0:UpdateArrowBarPosition()
 	end
 
 	if slot0._unitData:GetOxyState() then
@@ -98,6 +98,20 @@ slot5.Update = function(slot0)
 
 		if not slot0._inViewArea or not slot0._alwaysHideArrow then
 			slot0:UpdateCloakBarPosition()
+		end
+	end
+end
+
+slot5.UpdateArrowBarPosition = function(slot0)
+	uv0.super.UpdateArrowBarPosition(slot0)
+
+	slot1 = slot0._unitData:GetFleetVO():GetLeftBoundDistance()
+
+	if slot0._arrowCG and slot1 then
+		if slot1 < 6 then
+			slot0._arrowCG.alpha = 0.1
+		else
+			slot0._arrowCG.alpha = 1
 		end
 	end
 end
@@ -135,6 +149,7 @@ end
 slot5.AddArrowBar = function(slot0, slot1)
 	uv0.super.AddArrowBar(slot0, slot1)
 
+	slot0._arrowCG = GetOrAddComponent(slot0._arrowBarTf, typeof(CanvasGroup))
 	slot0._vectorProgress = slot0._arrowBarTf:Find("HPBar/HPProgress"):GetComponent(typeof(Image))
 
 	setImageSprite(findTF(slot0._arrowBar, "icon"), uv1.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(slot0._unitData:GetTemplate().painting))
