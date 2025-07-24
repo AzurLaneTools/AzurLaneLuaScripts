@@ -35732,7 +35732,7 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -36365,7 +36365,7 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -36843,7 +36843,7 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					13
+					6
 				},
 				{
 					23,
@@ -36931,10 +36931,7 @@ pg.activity_template = {
 		config_client = {
 			furniture_theme_link = {
 				3,
-				{
-					50063,
-					{}
-				}
+				50063
 			},
 			medal_link = {
 				2,

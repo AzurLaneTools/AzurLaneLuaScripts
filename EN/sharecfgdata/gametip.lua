@@ -12895,7 +12895,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Yumia Liessfeldt"
+	tip = "Rate UP for Yumia Liessfeldt, Nina Friede, and Lenja!"
 }
 
 
