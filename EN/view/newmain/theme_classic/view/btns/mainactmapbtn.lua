@@ -5,12 +5,8 @@ slot0.GetEventName = function(slot0)
 end
 
 slot0.GetActivity = function(slot0)
-	if slot0.config and slot0.config.time and slot0.config.time[1] == "default" then
-		slot3 = getProxy(ActivityProxy)
-
-		return _.detect(slot3:getActivitiesByType(pg.activity_template[slot0.config.time[2]].type), function (slot0)
-			return not slot0:isEnd()
-		end)
+	if slot0.config and slot0.config.time and slot0.config.time[1] == "default" and getProxy(ActivityProxy):getActivityById(slot0.config.time[2]) and not slot2:isEnd() then
+		return slot2
 	end
 
 	return nil
@@ -29,7 +25,7 @@ slot0.IsShowTip = function(slot0)
 		return OtherworldMapScene.IsShowTip()
 	end
 
-	return getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()
+	return getProxy(ChapterProxy):IsActivitySPChapterActive(slot1) and SettingsProxy.IsShowActivityMapSPTip()
 end
 
 slot0.CustomOnClick = function(slot0)

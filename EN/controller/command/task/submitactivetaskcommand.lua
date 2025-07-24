@@ -108,11 +108,9 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 				}, uv1.task_ids)
 			end
 
-			if slot1 and #slot1 >= 0 then
-				uv2:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
-					awards = slot1
-				}, uv1.task_ids)
-			end
+			uv2:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+				awards = slot1
+			}, uv1.task_ids)
 
 			if uv5 then
 				uv5(true)

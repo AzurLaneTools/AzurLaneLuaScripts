@@ -230,7 +230,7 @@ slot7.getBulletCldShipList = function(slot0, slot1, slot2)
 			slot8 = slot1:GetBoxSize()
 			slot11 = slot1:GetPosition()
 			slot12 = slot8.x
-			slot4 = slot2:GetCldListGradient(slot5, slot8.z * 2, slot8.x * 2, Vector3(slot11.x - slot12 * slot6, 1, slot11.z - slot12 * slot7))
+			slot4 = slot2:GetCldListGradient(slot5, slot8.z * 2, slot8.x * 2, Vector3(slot11.x + slot12 * slot6, 1, slot11.z + slot12 * slot7))
 		else
 			slot4 = slot2:GetCldList(slot3, uv1)
 		end

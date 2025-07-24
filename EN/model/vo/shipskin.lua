@@ -15,6 +15,7 @@ slot0.WITH_BGM = 5
 slot0.WITH_SPINE = 6
 slot0.WITH_SPINE_PLUS = 7
 slot0.WITH_CHANGE = 8
+slot0.WITH_LIVE2D_PLUS = 9
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
@@ -26,7 +27,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_LIVE2D] = "live2d",
 			[uv0.WITH_SPINE] = "spine",
 			[uv0.WITH_SPINE_PLUS] = "spine_plus",
-			[uv0.WITH_CHANGE] = "change"
+			[uv0.WITH_CHANGE] = "change",
+			[uv0.WITH_LIVE2D_PLUS] = "live2d_plus"
 		}
 	end
 

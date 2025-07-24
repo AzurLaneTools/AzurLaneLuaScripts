@@ -47,7 +47,21 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50013
+			50054
+		}
+	},
+	[11] = {
+		param = "0",
+		name = "event_map_sub",
+		text_pic = "text_event_map_sub",
+		type = 0,
+		pic = "event_map_sub",
+		id = 11,
+		group_id = 3,
+		order = 1,
+		time = {
+			"default",
+			50042
 		}
 	},
 	[20] = {
@@ -278,17 +292,59 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "BRSCoreActivityUI",
+		param = "RyzaCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_brs",
+		text_pic = "text_event_ryza",
 		type = 16,
-		pic = "event_brs",
+		pic = "event_ryza",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			5985
+			50042
+		}
+	},
+	[110] = {
+		param = "ALYCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_yumia",
+		type = 16,
+		pic = "event_yumia",
+		id = 110,
+		group_id = 2,
+		order = 2,
+		time = {
+			"default",
+			50054
+		}
+	},
+	[111] = {
+		param = "ALYCoreActivityUI",
+		name = "event_map_2",
+		text_pic = "text_event_ryzaAtelierRe",
+		type = 16,
+		pic = "event_ryzaAtelierRe",
+		id = 111,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50042
+		}
+	},
+	[112] = {
+		param = "0",
+		name = "event_second_map",
+		text_pic = "text_event_ryza_map",
+		type = 0,
+		pic = "event_ryza_map",
+		id = 112,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50042
 		}
 	},
 	get_id_list_by_name = {
@@ -299,6 +355,9 @@ pg.activity_link_button = {
 		},
 		event_map = {
 			10
+		},
+		event_map_sub = {
+			11
 		},
 		event_minigame = {
 			20,
@@ -348,6 +407,15 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109
+		},
+		event_core_2 = {
+			110
+		},
+		event_map_2 = {
+			111
+		},
+		event_second_map = {
+			112
 		}
 	},
 	all = {
@@ -355,6 +423,7 @@ pg.activity_link_button = {
 		2,
 		9,
 		10,
+		11,
 		20,
 		21,
 		30,
@@ -371,6 +440,9 @@ pg.activity_link_button = {
 		105,
 		107,
 		108,
-		109
+		109,
+		110,
+		111,
+		112
 	}
 }

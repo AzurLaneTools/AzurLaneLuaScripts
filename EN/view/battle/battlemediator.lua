@@ -519,9 +519,25 @@ slot0.GenBattleData = function(slot0)
 	slot1.bossConfigId = slot0.contextData.bossConfigId
 
 	if pg.battle_cost_template[slot0.contextData.system].global_buff_effected > 0 then
-		slot1.GlobalBuffIDs = _.map(BuffHelper.GetBattleBuffs(slot2), function (slot0)
-			return slot0:getConfig("benefit_effect")
-		end) or {}
+		slot4 = {}
+
+		for slot8, slot9 in ipairs(BuffHelper.GetBattleBuffs(slot2)) do
+			slot11 = false
+
+			if slot9:getConfig("benefit_condition")[1] == "chapter" then
+				if slot2 == SYSTEM_SCENARIO and table.contains(slot10[2], getProxy(ChapterProxy):getActiveChapter().id) then
+					slot11 = true
+				end
+			else
+				slot11 = true
+			end
+
+			if slot11 then
+				table.insert(slot4, slot9:getConfig("benefit_effect"))
+			end
+		end
+
+		slot1.GlobalBuffIDs = slot4
 	end
 
 	slot3 = pg.battle_cost_template[slot2]
@@ -543,6 +559,7 @@ slot0.GenBattleData = function(slot0)
 		slot1.ChapterWeatherIDS = slot7:GetWeather(slot8.line.row, slot8.line.column)
 		slot1.MapAuraSkills = slot6.GetChapterAuraBuffs(slot7)
 		slot1.MapAidSkills = {}
+		slot1.ChapterType = slot7:getPlayType()
 
 		for slot13, slot14 in pairs(slot6.GetChapterAidBuffs(slot7)) do
 			table.insert(slot1.AidUnitList, uv0(slot2, slot13, _.values(slot7:getFleetByShipVO(slot13):getCommanders())))

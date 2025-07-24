@@ -59,31 +59,21 @@ slot1 = function(slot0, slot1)
 		end
 	end
 
-	for slot5, slot6 in pairs(slot1:GetBuffList()) do
-		table.insert(slot0, slot6)
-	end
+	table.insertto(slot0, slot1:GetBuffList())
 end
 
-slot0.GetAllBuff = function(slot0)
-	slot1 = {}
+slot0.GetAllBuff = function()
+	slot0 = {}
 
-	for slot6, slot7 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
-		table.insert(slot1, CommonBuff.New(slot7))
+	for slot5, slot6 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
+		table.insert(slot0, CommonBuff.New(slot6))
 	end
 
-	for slot7, slot8 in pairs(getProxy(ActivityProxy):getRawData()) do
-		if (function ()
-			if uv0 and uv0.system and uv0.system == SYSTEM_SCENARIO and uv1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK and (getProxy(ChapterProxy):getActiveChapter(true) and getProxy(ChapterProxy):getMapById(slot0:getConfig("map")) or nil) and not AtelierActivity.IsActivityBuffMap(slot1) then
-				return false
-			end
-
-			return true
-		end)() then
-			uv0(slot1, slot8)
-		end
+	for slot6, slot7 in pairs(getProxy(ActivityProxy):getRawData()) do
+		uv0(slot0, slot7)
 	end
 
-	return slot1
+	return slot0
 end
 
 slot0.GetBackYardExpBuffs = function()
@@ -98,8 +88,28 @@ slot0.GetBackYardExpBuffs = function()
 	return slot0
 end
 
+slot0.GetBackYardEnergyBuffs = function()
+	slot0 = {}
+
+	for slot5, slot6 in ipairs(uv0.GetAllBuff()) do
+		if slot6:BackyardEnergyUsage() then
+			table.insert(slot0, slot6)
+		end
+	end
+
+	return slot0
+end
+
 slot0.GetShipModExpBuff = function()
-	return getProxy(ActivityProxy):getShipModExpActivity()
+	slot0 = {}
+
+	for slot5, slot6 in ipairs(uv0.GetAllBuff()) do
+		if slot6:ShipModExpUsage() then
+			table.insert(slot0, slot6)
+		end
+	end
+
+	return slot0
 end
 
 slot0.GetBackYardPlayerBuffs = function()
@@ -117,9 +127,7 @@ end
 slot0.GetBattleBuffs = function(slot0)
 	slot1 = {}
 
-	for slot6, slot7 in ipairs(uv0.GetAllBuff({
-		system = slot0
-	})) do
+	for slot6, slot7 in ipairs(uv0.GetAllBuff()) do
 		if slot7:BattleUsage() then
 			table.insert(slot1, slot7)
 		end

@@ -183,6 +183,22 @@ pg.skill_data_display = setmetatable({
 		60541,
 		60543,
 		60545,
+		60862,
+		60863,
+		60865,
+		60864,
+		60866,
+		60868,
+		60872,
+		60873,
+		60882,
+		60883,
+		60891,
+		60892,
+		60901,
+		60902,
+		60911,
+		60912,
 		7000,
 		7500,
 		8521,
@@ -2902,6 +2918,45 @@ pg.skill_data_display = setmetatable({
 		112072,
 		112073,
 		112074,
+		112092,
+		112093,
+		112094,
+		112114,
+		112115,
+		112116,
+		112117,
+		112121,
+		112123,
+		112134,
+		112135,
+		112136,
+		112137,
+		112140,
+		112160,
+		112152,
+		112181,
+		112182,
+		112192,
+		112193,
+		112202,
+		112203,
+		112204,
+		112223,
+		112224,
+		112225,
+		112231,
+		112243,
+		112244,
+		112245,
+		112246,
+		112270,
+		112271,
+		112272,
+		112280,
+		112282,
+		112290,
+		112291,
+		112292,
 		190001,
 		190002,
 		190003,
@@ -3214,6 +3269,7 @@ pg.skill_data_display = setmetatable({
 		801777,
 		801778,
 		801779,
+		801845,
 		902201,
 		1010140,
 		1010143,
@@ -3436,6 +3492,7 @@ pg.skill_data_display = setmetatable({
 		201420,
 		201426,
 		201454,
+		201462,
 		1011540,
 		1011541,
 		1090010,
@@ -4360,6 +4417,70 @@ pg.base.skill_data_display = {
 	[60545] = {
 		id = 60545,
 		name = "Blessing of Desserts and Tea Parties?"
+	},
+	[60862] = {
+		id = 60862,
+		name = "Granshine - Fire"
+	},
+	[60863] = {
+		id = 60863,
+		name = "Granshine - Air"
+	},
+	[60865] = {
+		id = 60865,
+		name = "Granshine - Bolt"
+	},
+	[60864] = {
+		id = 60864,
+		name = "Granshine - Ice"
+	},
+	[60866] = {
+		id = 60866,
+		name = "Granshine - Mana Flow Boost"
+	},
+	[60868] = {
+		id = 60868,
+		name = "Granshine"
+	},
+	[60872] = {
+		id = 60872,
+		name = "Superior Grimoire"
+	},
+	[60873] = {
+		id = 60873,
+		name = "Superior Grimoire - Mana Flow Boost"
+	},
+	[60882] = {
+		id = 60882,
+		name = "Endemeteo"
+	},
+	[60883] = {
+		id = 60883,
+		name = "Endemeteo - Mana Flow Boost"
+	},
+	[60891] = {
+		id = 60891,
+		name = "Panacea Sphere"
+	},
+	[60892] = {
+		id = 60892,
+		name = "Panacea Sphere - Mana Flow Boost"
+	},
+	[60901] = {
+		id = 60901,
+		name = "Enfer Cube"
+	},
+	[60902] = {
+		id = 60902,
+		name = "Enfer Cube - Mana Flow Boost"
+	},
+	[60911] = {
+		id = 60911,
+		name = "Heavenly Armillary"
+	},
+	[60912] = {
+		id = 60912,
+		name = "Heavenly Armillary - Mana Flow Boost"
 	},
 	[7000] = {
 		id = 7000,
@@ -15237,6 +15358,162 @@ pg.base.skill_data_display = {
 		id = 112074,
 		name = "Trial of Death+"
 	},
+	[112092] = {
+		id = 112092,
+		name = "Rapid Fire"
+	},
+	[112093] = {
+		id = 112093,
+		name = "Rapid Fire"
+	},
+	[112094] = {
+		id = 112094,
+		name = "Snipe"
+	},
+	[112114] = {
+		id = 112114,
+		name = "Piercing Arts"
+	},
+	[112115] = {
+		id = 112115,
+		name = "Strike Arts"
+	},
+	[112116] = {
+		id = 112116,
+		name = "Piercing Arts"
+	},
+	[112117] = {
+		id = 112117,
+		name = "Strike Arts"
+	},
+	[112121] = {
+		id = 112121,
+		name = "Synthesize"
+	},
+	[112123] = {
+		id = 112123,
+		name = "Synthesize"
+	},
+	[112134] = {
+		id = 112134,
+		name = "Piercing Arts"
+	},
+	[112135] = {
+		id = 112135,
+		name = "Strike Arts"
+	},
+	[112136] = {
+		id = 112136,
+		name = "Piercing Arts"
+	},
+	[112137] = {
+		id = 112137,
+		name = "Strike Arts"
+	},
+	[112140] = {
+		id = 112140,
+		name = "Requiem Trigger"
+	},
+	[112160] = {
+		id = 112160,
+		name = "Requiem Trigger"
+	},
+	[112152] = {
+		id = 112152,
+		name = "Time Compression"
+	},
+	[112181] = {
+		id = 112181,
+		name = "Spinning Edge"
+	},
+	[112182] = {
+		id = 112182,
+		name = "Wide Slash"
+	},
+	[112192] = {
+		id = 112192,
+		name = "Throwing Dagger Gained"
+	},
+	[112193] = {
+		id = 112193,
+		name = "Lionhearted"
+	},
+	[112202] = {
+		id = 112202,
+		name = "Lionhearted"
+	},
+	[112203] = {
+		id = 112203,
+		name = "Throwing Dagger Gained"
+	},
+	[112204] = {
+		id = 112204,
+		name = "Throwing Dagger Gained"
+	},
+	[112223] = {
+		id = 112223,
+		name = "Blazing Trigger"
+	},
+	[112224] = {
+		id = 112224,
+		name = "Blazing Trigger"
+	},
+	[112225] = {
+		id = 112225,
+		name = "Blazing Trigger"
+	},
+	[112231] = {
+		id = 112231,
+		name = "Mercenary's Combat Techniques"
+	},
+	[112243] = {
+		id = 112243,
+		name = "Blazing Trigger+"
+	},
+	[112244] = {
+		id = 112244,
+		name = "Blazing Trigger+"
+	},
+	[112245] = {
+		id = 112245,
+		name = "Zero Chance"
+	},
+	[112246] = {
+		id = 112246,
+		name = "Blazing Trigger+"
+	},
+	[112270] = {
+		id = 112270,
+		name = "Knights Can Be Maidens Too"
+	},
+	[112271] = {
+		id = 112271,
+		name = "Knights Can Be Maidens Too"
+	},
+	[112272] = {
+		id = 112272,
+		name = "Knights Can Be Maidens Too"
+	},
+	[112280] = {
+		id = 112280,
+		name = "Alber's Assistance"
+	},
+	[112282] = {
+		id = 112282,
+		name = "Isolation"
+	},
+	[112290] = {
+		id = 112290,
+		name = "Alber's Assistance+"
+	},
+	[112291] = {
+		id = 112291,
+		name = "Heartbreaker"
+	},
+	[112292] = {
+		id = 112292,
+		name = "Isolation"
+	},
 	[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -16485,6 +16762,10 @@ pg.base.skill_data_display = {
 		id = 801779,
 		name = "Thorned Reprisal 30/40"
 	},
+	[801845] = {
+		id = 801845,
+		name = "The Dessert Demon's Temptation"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -17372,6 +17653,10 @@ pg.base.skill_data_display = {
 	[201454] = {
 		id = 201454,
 		name = "Transcend Worlds - Limit Released"
+	},
+	[201462] = {
+		id = 201462,
+		name = "Core Level 3"
 	},
 	[1011540] = {
 		id = 1011540,

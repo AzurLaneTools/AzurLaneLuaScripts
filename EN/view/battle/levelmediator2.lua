@@ -339,14 +339,16 @@ slot0.register = function(slot0)
 		slot4:duplicateSupportFleet(slot3)
 		uv0.viewComponent:RefreshFleetSelectView(slot3)
 	end)
-	slot0:bind(uv0.ON_ACTIVITY_MAP, function ()
-		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
+	slot0:bind(uv0.ON_ACTIVITY_MAP, function (slot0, slot1)
+		slot3, slot4 = getProxy(ChapterProxy):getLastMapForActivity(slot1)
 
-		if not slot1 or not slot0:getMapById(slot1):isUnlock() then
+		if not slot3 or not slot2:getMapById(slot3):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
 		end
 
-		uv0.viewComponent:ShowSelectedMap(slot1, function ()
+		uv0.viewComponent:ShowSelectedMap(slot3, function ()
 			if uv0 then
 				uv2.viewComponent:switchToChapter(uv1:getChapterById(uv0))
 			end
@@ -362,14 +364,16 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CLUE_MAP)
 	end)
 	slot0:bind(uv0.GO_ACT_SHOP, function ()
-		slot0 = pg.gameset.activity_res_id.key_value
+		slot0 = uv0.contextData.map and uv0.contextData.map:getConfig("on_activity") or nil
+		slot1 = slot0 and slot0 ~= 0 and getProxy(ActivityProxy):getActivityById(slot0)
+		slot2 = slot1 and not slot1:isEnd() and slot1:GetConfigClientSetting("PTID")
 
-		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot1:getConfig("config_client").resId == slot0 and not slot1:isEnd() then
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot3:getConfig("config_client").resId == slot2 and not slot3:isEnd() then
 			uv0:addSubLayers(Context.New({
 				mediator = LotteryMediator,
 				viewComponent = LotteryLayer,
 				data = {
-					activityId = slot1.id
+					activityId = slot3.id
 				}
 			}), false)
 		else
@@ -377,15 +381,22 @@ slot0.register = function(slot0)
 				warp = NewShopsScene.TYPE_ACTIVITY,
 				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 					return slot0:getConfig("config_client").pt_id == uv0
-				end) and slot2.id
+				end) and slot4.id
 			})
 		end
 	end)
-	slot0:bind(uv0.SHOW_ATELIER_BUFF, function (slot0)
-		uv0:addSubLayers(Context.New({
-			mediator = AtelierBuffMediator,
-			viewComponent = AtelierBuffLayer
-		}))
+	slot0:bind(uv0.SHOW_ATELIER_BUFF, function (slot0, slot1)
+		if slot1 then
+			uv0:addSubLayers(Context.New({
+				mediator = AterialYumiaCoreBuffMediator,
+				viewComponent = AterialYumiaCoreBuffLayer
+			}))
+		else
+			uv0:addSubLayers(Context.New({
+				mediator = AtelierBuffMediator,
+				viewComponent = AtelierBuffLayer
+			}))
+		end
 	end)
 	slot0:bind(uv0.ON_SHIP_DETAIL, function (slot0, slot1)
 		uv0.contextData.selectedChapterVO = slot1.chapter
@@ -566,17 +577,11 @@ slot0.register = function(slot0)
 	slot0.viewComponent:updateEvent(getProxy(EventProxy))
 	slot0.viewComponent:updateFleet(getProxy(FleetProxy):GetRegularFleets())
 	slot0.viewComponent:setShips(getProxy(BayProxy):getRawData())
+
+	slot6 = getProxy(ActivityProxy)
+
 	slot0.viewComponent:updateVoteBookBtn()
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
-
-	for slot12, slot13 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
-		if slot13:getConfig("config_id") == pg.gameset.activity_res_id.key_value then
-			slot0.viewComponent:updatePtActivity(slot13)
-
-			break
-		end
-	end
-
 	slot0.viewComponent:setEliteQuota(getProxy(DailyLevelProxy).eliteCount, pg.gameset.elite_quota.key_value)
 	getProxy(ChapterProxy):updateActiveChapterShips()
 	slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))
@@ -586,7 +591,7 @@ slot0.DidEnterLevelMainUI = function(slot0, slot1)
 	slot0.viewComponent:setMap(slot1)
 
 	if slot0.contextData.openChapterId then
-		slot0.viewComponent.mapBuilder:TryOpenChapter(slot0.contextData.openChapterId)
+		slot0.viewComponent.mapBuilder:ActionInvoke("TryOpenChapter", slot0.contextData.openChapterId)
 
 		slot0.contextData.openChapterId = nil
 	end
@@ -1122,7 +1127,7 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
 			slot0.viewComponent.mapBuilder:UpdateMapItems()
 		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
-			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
+			if slot3 and slot0.viewComponent.ptActivity and slot3.id == slot0.viewComponent.ptActivity.id then
 				slot0.viewComponent:updatePtActivity(slot3)
 			end
 		elseif slot2 == GAME.GET_REMASTER_TICKETS_DONE then

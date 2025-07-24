@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[501052] = {
+		name = "Invitation to Jade Seas",
+		change_skin = "",
+		desc = "Woah, the corals look so pretty as they swish and sway... There's a whole world of color underneath the sea... I can come visit again any time I'd like? Thank you so much, Commander!",
+		illustrator2 = -1,
+		ship_group = 50105,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "longwu_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "story-richang-7 ",
+		special_effects = "",
+		bg = "173",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 501052,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "longwu_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 396,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.66,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.73,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.67,
+					1.68,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501060] = {
 		name = "Hu Pen",
 		change_skin = "",
@@ -4831,6 +4951,160 @@ pg.base.ship_skin_template_13 = {
 		},
 		ship_l2d_id = {
 			5020521
+		}
+	},
+	[502053] = {
+		name = "Azure Ripples, Shimmering Sun",
+		change_skin = "",
+		desc = "H-hey, you, warn me before you come in next time! I was just looking for my swimsuit... F-forget it, okay? I'm not trying to chase you out! If you're coming in, then come in already!",
+		illustrator2 = -1,
+		ship_group = 50205,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "zhaohe_4",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "117",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 502053,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "zhaohe_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71162,
+		voice_actor = 260,
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.816,
+					2.738,
+					0
+				}
+			},
+			plane = {
+				{
+					1.078,
+					1.41,
+					0
+				}
+			},
+			cannon = {
+				{
+					1.151,
+					1.299,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.17,
+					1.292,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.653,
+							2.301,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-81.1,
+			-697.7,
+			0,
+			0.73
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					724,
+					-195,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					125,
+					31,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-373,
+					-400,
+					2,
+					0,
+					-100,
+					2
+				}
+			}
 		}
 	},
 	[502070] = {
@@ -14979,244 +15253,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.814,
 							1.512,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[605050] = {
-		name = "Conte di Cavour",
-		change_skin = "",
-		desc = "Conte di Cavour-class battleship – Conte di Cavour.",
-		illustrator2 = -1,
-		ship_group = 60505,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "jiafuerbojue",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 605050,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "jiafuerbojue",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 201,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.01,
-					1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0,
-					0.845,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.06,
-					0.99,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.62,
-							2.3,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[605051] = {
-		name = "Fierce Beachside Battle",
-		change_skin = "",
-		desc = "Commander, take this. Good, for the time being, you are a now a disciple under my command. It is time for us to mete out punishment to the unruly.",
-		illustrator2 = -1,
-		ship_group = 60505,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "jiafuerbojue_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "106",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 605051,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "jiafuerbojue_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70538,
-		voice_actor = 201,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.927,
-					1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.921,
-					1.009,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.019,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.89,
-					0.997,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.446,
 							0
 						}
 					}

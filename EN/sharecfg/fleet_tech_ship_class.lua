@@ -4029,6 +4029,17 @@ pg.fleet_tech_ship_class = {
 			970405
 		}
 	},
+	[970406] = {
+		shiptype = 4,
+		name = "Dunkerque META",
+		t_level = 3,
+		id = 970406,
+		t_level_1 = 18,
+		nation = 97,
+		ships = {
+			970406
+		}
+	},
 	[970501] = {
 		shiptype = 5,
 		name = "Fusou META",
@@ -4620,6 +4631,7 @@ pg.fleet_tech_ship_class = {
 		970403,
 		970404,
 		970405,
+		970406,
 		970501,
 		970502,
 		970503,

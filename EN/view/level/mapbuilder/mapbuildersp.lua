@@ -113,7 +113,14 @@ slot0.UpdateButtons = function(slot0)
 	slot4 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 
 	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
-	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd())
+
+	slot5 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	slot6 = slot5 and not slot5:isEnd() and slot5:GetConfigClientSetting("PTID")
+
+	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
+		return slot0:getConfig("config_id") == uv0
+	end))
+	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot4)
 end
 
 slot0.OnHide = function(slot0)
@@ -225,7 +232,7 @@ slot0.UpdateView = function(slot0)
 	setActive(slot0._tf:Find("Battle"), slot3)
 	setActive(slot0._tf:Find("Story"), not slot3)
 	setActive(slot0.battleLayer:Find("Story/BattleTip"), false)
-	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive(slot0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip())
 	slot0:UpdateStoryTask()
 
 	if slot3 then
@@ -397,7 +404,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 
 		setText(slot25:Find("label"), i18n("levelScene_chapter_count_tip"))
 		setText(slot25:Find("Text"), setColorStr(slot27 - slot2:getTodayDefeatCount() .. "/" .. slot27, slot27 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
-		setActive(slot25:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+		setActive(slot25:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot2:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
 	end
 
 	slot27 = slot2:GetDailyBonusQuota()

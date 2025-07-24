@@ -45,7 +45,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				number = 0.01,
+				number = 0.1,
 				label = {
 					"DB"
 				}
@@ -57,7 +57,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				number = 0.01,
+				number = 0.1,
 				label = {
 					"TB"
 				}

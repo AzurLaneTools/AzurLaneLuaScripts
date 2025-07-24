@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-5",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "SHREEEE!",

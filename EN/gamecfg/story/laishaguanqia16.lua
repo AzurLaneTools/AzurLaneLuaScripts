@@ -262,7 +262,7 @@ return {
 			bgName = "bg_ryza_1",
 			side = 2,
 			bgmDelay = 2,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-12",
 			nameColor = "#A9F548FF",
 			say = "Having successfully retreated, the girls returned to the Land of Beginnings.",
 			typewriter = {

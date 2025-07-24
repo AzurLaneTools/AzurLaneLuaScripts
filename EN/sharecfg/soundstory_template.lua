@@ -295,9 +295,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					1,
-					30
+					2025,
+					7,
+					24
 				},
 				{
 					0,
@@ -307,9 +307,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					2,
-					6
+					2025,
+					7,
+					30
 				},
 				{
 					23,
@@ -1115,6 +1115,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "\"Cleaning\" a Collection Piece",
+		story_resource_JP = "soundStory24_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "HINATA YUKA",
+		audition_resource_JP = "ss-960003-1",
+		overview = "\"Do you know how to keep your collection in good condition?\"\nThat's Golden Hind's question to you. In the spirit of \"show, don't tell,\" she provides a demonstration on her \"most precious thing.\"",
+		order = 2,
+		audition_text = "Heheh. Look at you, still twitching so much. Aww, my cute little precious thing. If you're still feeling cold, why don't you come in for a big hug?",
+		ship_id = 960003,
+		id = 24,
+		captions_color = "#57515e",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "Another Day, Another Date!",
+		story_resource_JP = "soundStory25_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Satomi Arai",
+		audition_resource_JP = "ss-40152-1",
+		overview = "It's been an awesome day for you and Z52, but now night has come.\nShe lies down in bed and wants you to join her...",
+		order = 2,
+		audition_text = "Ahh, so comfy... Don't just stand there, Commander! Hop into the bed with me!",
+		ship_id = 40152,
+		id = 25,
+		captions_color = "#4c4240",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1138,6 +1244,8 @@ pg.soundstory_template = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24,
+		25
 	}
 }

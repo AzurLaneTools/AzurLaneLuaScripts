@@ -20,10 +20,6 @@ slot0.init = function(slot0)
 	slot0.pageContainer = slot1:Find("page_list")
 	slot1 = slot0._tf
 	slot0.tabs = slot1:Find("adapt/tabs")
-	slot1 = slot0._tf
-	slot0.huanyingmituzhe_lan = slot1:Find("adapt/mark/huanyingmituzhe_lan")
-	slot1 = slot0._tf
-	slot0.huanyingmituzhe_lv = slot1:Find("adapt/mark/huanyingmituzhe_lv")
 	slot0.windowList = {}
 	slot0.awardWindow = AwardWindow.New(slot0._tf, slot0.event)
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
@@ -33,9 +29,15 @@ slot0.init = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if uv0.pageDic[underscore.detect(uv0.activities, function (slot0)
+			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
-			end).id] ~= nil then
+			end) or not uv0.pageDic[slot3.id] then
+				warning(slot2.name, slot3.id)
+
+				return
+			end
+
+			if uv0.pageDic[slot3.id] ~= nil then
 				slot5 = uv0
 
 				setActive(slot5:findTF("tip", slot2), slot3:readyToAchieve())
@@ -130,9 +132,6 @@ end
 
 slot0.selectActivity = function(slot0, slot1)
 	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
-		SetActive(slot0.huanyingmituzhe_lan, slot1.id ~= 5984)
-		SetActive(slot0.huanyingmituzhe_lv, slot1.id == 5984)
-
 		slot2 = slot0.pageDic[slot1.id]
 
 		assert(slot2, "找不到id:" .. slot1.id .. "的活动页，请检查")

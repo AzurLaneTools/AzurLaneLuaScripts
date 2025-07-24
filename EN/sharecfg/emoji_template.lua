@@ -845,6 +845,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[68] = {
+		achieve = 1,
+		index = 1027,
+		pic = "yingrui_4",
+		desc = "<color=#92fc63>[Look here!]</color>",
+		item_name = "Sticker: Look here!",
+		item_desc = "Sticker: Look here! (Can be found in the Animated section of chat stickers.)",
+		id = 68,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2406,6 +2419,7 @@ pg.emoji_template = {
 		65,
 		66,
 		67,
+		68,
 		100,
 		101,
 		102,

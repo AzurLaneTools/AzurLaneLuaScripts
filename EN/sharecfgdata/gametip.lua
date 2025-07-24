@@ -5251,7 +5251,7 @@ _G.pg.base.gametip.levelScene_chapter_level_limit = {
 
 
 _G.pg.base.gametip.levelScene_chapter_count_tip = {
-	tip = "Attempts Remaining:"
+	tip = "Attempts Remaining:  "
 }
 
 
@@ -7126,6 +7126,11 @@ _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 
 _G.pg.base.gametip.word_shipNation_brs = {
 	tip = "BLACK★ROCK SHOOTER"
+}
+
+
+_G.pg.base.gametip.word_shipNation_yumia = {
+	tip = "Atelier Yumia"
 }
 
 
@@ -12890,7 +12895,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Admiral Zenker and U-552!"
+	tip = "Rate UP for Yumia Liessfeldt"
 }
 
 
@@ -19664,7 +19669,7 @@ _G.pg.base.gametip.guild_event_info_desc2 = {
 
 
 _G.pg.base.gametip.guild_join_member_cnt = {
-	tip = "participate:"
+	tip = "Participants"
 }
 
 
@@ -20480,7 +20485,7 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 		},
 		{
 			info = [[
-1. Completing the weekly mission ""Complete 20/50 daily missions"" will yield a large amount of Specialized Cores.
+1. Completing weekly missions and reaching reward phase 5, 10 and 15 will yield a large amount of Specialized Cores.
 2. Sortieing and defeating the Boss Fleet of any Normal, Hard, Event, or War Archives stage will yield a small amount of Specialized Cores.
 3. Completing Research Projects in the Research Lab will yield a small amount of Specialized Cores.
 4. Retiring any non-retrofit UR shipgirl will yield some Specialized Cores.]]
@@ -26291,6 +26296,69 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 
 
 _G.pg.base.gametip.cruise_task_help_2506 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2508 = {
+	tip = "Complete seasonal missions <icon name=pt w=0.5 h=0.5/> during the 2025.8.1 - 2025.9.30 Cruise Mission season and obtain rewards such as <color=#854747>Dunkerque META</color> and more!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2508 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+8/1/2025 00:00 – 9/30/2025 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Dunkerque META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Montpelier, "Heat Relief for the Tipsy."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2508 = {
 	tip = {
 		{
 			info = [[
@@ -36385,6 +36453,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2508 = {
+	tip = "Cruise Missions S24"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "Time Remaining:"
 }
@@ -36955,6 +37028,16 @@ _G.pg.base.gametip.levelscene_mapselect_normal = {
 
 _G.pg.base.gametip.levelscene_mapselect_advanced = {
 	tip = "Challenge"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_material = {
+	tip = "Materials"
+}
+
+
+_G.pg.base.gametip.levelscene_title_story = {
+	tip = "· Story"
 }
 
 
@@ -39388,4 +39471,409 @@ _G.pg.base.gametip.open_today = {
 
 _G.pg.base.gametip.daily_level_go = {
 	tip = "Go"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_1 = {
+	tip = "Build"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_2 = {
+	tip = "Sortie"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_3 = {
+	tip = "Skins"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_4 = {
+	tip = "$1 day(s) left (until Aug 7th maintenance)"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_5 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_6 = {
+	tip = "Atelier"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_7 = {
+	tip = "Base Building"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_8 = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_9 = {
+	tip = "Reward List"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_1 = {
+	tip = "Atelier Workspace"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_2 = {
+	tip = "Atelier Break Space"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_3 = {
+	tip = "Atelier Courtyard"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_1 = {
+	tip = "Base Building"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_2 = {
+	tip = "Complete Base Building to get limited furniture!"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_3 = {
+	tip = "Comfort Lv."
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_4 = {
+	tip = "Chance to Get"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_5 = {
+	tip = "Comfort Rewards"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_6 = {
+	tip = "Obtained"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_7 = {
+	tip = "Finished"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_8 = {
+	tip = "Materials Needed"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_9 = {
+	tip = "Obtain"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_10 = {
+	tip = "Make Furniture"
+}
+
+
+_G.pg.base.gametip.yumia_award_1 = {
+	tip = "Gear"
+}
+
+
+_G.pg.base.gametip.yumia_award_2 = {
+	tip = "Furniture"
+}
+
+
+_G.pg.base.gametip.yumia_award_3 = {
+	tip = "Gear Skins"
+}
+
+
+_G.pg.base.gametip.yumia_award_4 = {
+	tip = "Augment Modules"
+}
+
+
+_G.pg.base.gametip.yumia_pt_1 = {
+	tip = "Participate in the event to get milestone rewards! Claimable until: 23:59, August 13th"
+}
+
+
+_G.pg.base.gametip.yumia_pt_2 = {
+	tip = "Collect All"
+}
+
+
+_G.pg.base.gametip.yumia_pt_3 = {
+	tip = "Exchange"
+}
+
+
+_G.pg.base.gametip.yumia_mana_battle_tip = {
+	tip = "When Environmental Mana reaches 100%, all Atelier Yumia collab units enter the Mana Surge status and Environmental Mana returns to 0%."
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_1 = {
+	tip = "Core: Entrance Area"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_2 = {
+	tip = "Core: L1 Area"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_3 = {
+	tip = "Core: L2 Area"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_4 = {
+	tip = "Core: L3 Area"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_5 = {
+	tip = "Core: Top"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_1 = {
+	tip = "Core effect applies to the stage TS1.\nObtain the following materials to level up:"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_2 = {
+	tip = "Core effect applies to the stage TS2.\nObtain the following materials to level up:"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_3 = {
+	tip = "Core effect applies to the stage TS3.\nObtain the following materials to level up:"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_4 = {
+	tip = "Core effect applies to the stage TS4.\nObtain the following materials to level up:"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_5 = {
+	tip = "Core effect applies to the stage TS5.\nObtain the following materials to level up:"
+}
+
+
+_G.pg.base.gametip.yumia_buff_1 = {
+	tip = "Materials Needed"
+}
+
+
+_G.pg.base.gametip.yumia_buff_2 = {
+	tip = "Level Up"
+}
+
+
+_G.pg.base.gametip.yumia_buff_3 = {
+	tip = "Level MAX"
+}
+
+
+_G.pg.base.gametip.yumia_buff_4 = {
+	tip = "Unlocked at <color=#7bd2ceff>Core Lv.$1</color>"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip1 = {
+	tip = "Clear Event Stage EP1-6 to Unlock Atelier"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip2 = {
+	tip = "Gear"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip3 = {
+	tip = "Items"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip4 = {
+	tip = "Recipes"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip5 = {
+	tip = "Select Recipe on the Left"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip6 = {
+	tip = "Atelier"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip7 = {
+	tip = "Select Core and Add Materials"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip8 = {
+	tip = "Synthesizable"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip9 = {
+	tip = "Back to Recipes"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip10 = {
+	tip = "Usable Materials"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip11 = {
+	tip = "Obtained Materials"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip12 = {
+	tip = "Missing Materials"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip13 = {
+	tip = "Tap to Return"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip14 = {
+	tip = "Details"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip15 = {
+	tip = "Amount Made: $1"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip16 = {
+	tip = "Storage"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip17 = {
+	tip = "Tap a slot to add materials."
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip18 = {
+	tip = "Begin Synthesis"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip19 = {
+	tip = "Would you like to synthesize $1?"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip20 = {
+	tip = "Would you like to synthesize $1 x $2?"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip21 = {
+	tip = "Cannot synthesize any more."
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip22 = {
+	tip = {
+		{
+			"atelier_yumia_1",
+			"What should I make?"
+		},
+		{
+			"atelier_yumia_2",
+			"Which should I choose?"
+		},
+		{
+			"atelier_yumia_3",
+			"Let's see..."
+		},
+		{
+			"atelier_yumia_4",
+			"Maybe I could use..."
+		},
+		{
+			"atelier_yumia_5",
+			"Will this do?"
+		},
+		{
+			"atelier_yumia_6",
+			"This should work!"
+		},
+		{
+			"atelier_yumia_7",
+			"Yeah! Perfect!"
+		},
+		{
+			"atelier_yumia_8",
+			"Let's hope this works..."
+		},
+		{
+			"atelier_yumia_9",
+			"I wonder how this will turn out?"
+		},
+		{
+			"atelier_yumia_10",
+			"Okay! It was a success!"
+		},
+		{
+			"atelier_yumia_11",
+			"Something like this?"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip23 = {
+	tip = "Batch Add"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip24 = {
+	tip = "Enter Atelier"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip1 = {
+	tip = "Obtain $1 to Unlock"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip2 = {
+	tip = "Obtained From Synthesis in the Atelier"
+}
+
+
+_G.pg.base.gametip.yumia_pt_tip = {
+	tip = "Total"
+}
+
+
+_G.pg.base.gametip.yumia_pt_4 = {
+	tip = "Obtained"
 }

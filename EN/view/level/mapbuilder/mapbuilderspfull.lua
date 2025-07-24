@@ -58,7 +58,7 @@ end
 slot0.UpdateSwitchMapButtons = function(slot0)
 	slot3 = nil
 
-	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
 		return slot0:getMapType() ~= Map.ACTIVITY_HARD
 	end), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
@@ -91,7 +91,7 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 		end
 
 		if slot4 == Map.ACT_EXTRA and slot3:getChapters()[1]:IsSpChapter() then
-			setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+			setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot7:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		setText(slot2:Find("Unselect/Text"), slot5)
@@ -146,15 +146,21 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 
 	slot5(slot6, slot7)
 	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot2 and slot0.sceneParent:IsActShopActive())
-	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd())
-	slot0.sceneParent:updateActivityRes()
+
+	slot5 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	slot6 = slot5 and not slot5:isEnd() and slot5:GetConfigClientSetting("PTID")
+
+	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
+		return slot0:getConfig("config_id") == uv0
+	end))
+	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot2 and isMutilMap and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and isBattle)
 	slot0.sceneParent:updateCountDown()
 end
 
 slot0.PlayEnterAnim = function(slot0)
 	slot3 = nil
 
-	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
 		return slot0:getMapType() ~= Map.ACTIVITY_HARD
 	end), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then

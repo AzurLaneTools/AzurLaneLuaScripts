@@ -22,7 +22,6 @@ slot0.register = function(slot0)
 		uv0.data = {}
 		uv0.params = {}
 		uv0.hxList = {}
-		uv0.buffActs = {}
 		uv0.stopList = {}
 
 		if slot0.hx_list then
@@ -43,8 +42,6 @@ slot0.register = function(slot0)
 					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BUFF then
-					table.insert(uv0.buffActs, slot6.id)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
@@ -58,8 +55,6 @@ slot0.register = function(slot0)
 				uv0.data[slot5.id] = slot6
 			end
 		end
-
-		uv0:refreshActivityBuffs()
 
 		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot1:isEnd() then
 			uv0:sendNotification(GAME.CHALLENGE2_INFO, {})
@@ -640,11 +635,6 @@ slot0.addActivity = function(slot0, slot1)
 			end
 		}))
 	end
-
-	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
-		table.insert(slot0.buffActs, slot1.id)
-		slot0:refreshActivityBuffs()
-	end
 end
 
 slot0.deleteActivityById = function(slot0, slot1)
@@ -867,16 +857,26 @@ slot0.getEnterReadyActivity = function(slot0)
 			return true
 		end
 	}
+	slot2 = {}
 
-	for slot5, slot6 in pairs(slot0.data) do
-		if switch(slot6:getConfig("type"), slot1, function (slot0)
+	for slot6, slot7 in pairs(slot0.data) do
+		if switch(slot7:getConfig("type"), slot1, function (slot0)
 			return false
-		end) and not slot6:isEnd() and tobool(slot6:getConfig("config_client").entrance_bg) then
-			return slot6
+		end) and not slot7:isEnd() and tobool(slot7:getConfig("config_client").entrance_bg) then
+			table.insert(slot2, slot7)
 		end
 	end
 
-	return nil
+	table.sort(slot2, CompareFuncs({
+		function (slot0)
+			return slot0:getConfig("config_client").order or 1
+		end,
+		function (slot0)
+			return -slot0.id
+		end
+	}))
+
+	return slot2
 end
 
 slot0.AtelierActivityAllSlotIsEmpty = function(slot0)
@@ -899,55 +899,6 @@ slot0.OwnAtelierActivityItemCnt = function(slot0, slot1, slot2)
 	end
 
 	return slot3:GetItems()[slot1] and slot2 <= slot5.count
-end
-
-slot0.refreshActivityBuffs = function(slot0)
-	slot0.actBuffs = {}
-	slot1 = 1
-
-	while slot1 <= #slot0.buffActs do
-		if not slot0.data[slot0.buffActs[slot1]] or slot2:isEnd() then
-			table.remove(slot0.buffActs, slot1)
-		else
-			slot1 = slot1 + 1
-
-			if ({
-				slot2:getConfig("config_id")
-			})[1] == 0 then
-				slot3 = slot2:getConfig("config_data")
-			end
-
-			for slot7, slot8 in ipairs(slot3) do
-				if ActivityBuff.New(slot2.id, slot8):isActivate() then
-					table.insert(slot0.actBuffs, slot9)
-				end
-			end
-		end
-	end
-end
-
-slot0.getActivityBuffs = function(slot0)
-	if underscore.any(slot0.buffActs, function (slot0)
-		return not uv0.data[slot0] or uv0.data[slot0]:isEnd()
-	end) or underscore.any(slot0.actBuffs, function (slot0)
-		return not slot0:isActivate()
-	end) then
-		slot0:refreshActivityBuffs()
-	end
-
-	return slot0.actBuffs
-end
-
-slot0.getShipModExpActivity = function(slot0)
-	return underscore.select(slot0:getActivityBuffs(), function (slot0)
-		return slot0:ShipModExpUsage()
-	end)
-end
-
-slot0.getBackyardEnergyActivityBuffs = function(slot0)
-	return underscore.select(slot0:getActivityBuffs(), function (slot0)
-		return slot0:BackyardEnergyUsage()
-	end)
 end
 
 slot0.InitContinuousTime = function(slot0, slot1)

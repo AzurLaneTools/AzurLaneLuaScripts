@@ -1538,6 +1538,31 @@ pg.equip_skin_theme_template = {
 			4203
 		}
 	},
+	[71] = {
+		id = 71,
+		name = "Alchemist's Workshop (Yumia)",
+		ids = {
+			1481,
+			1482,
+			1483,
+			1484,
+			1485,
+			1486,
+			1487,
+			1488,
+			1489,
+			1490,
+			1491,
+			1492,
+			1493,
+			1494,
+			1495,
+			1496,
+			1497,
+			1498,
+			1499
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1676,6 +1701,16 @@ pg.equip_skin_theme_template = {
 			2100
 		}
 	},
+	[108] = {
+		id = 108,
+		name = "Calligraphic Essence",
+		ids = {
+			2101,
+			2102,
+			2103,
+			2104
+		}
+	},
 	[199] = {
 		id = 199,
 		name = "Misc",
@@ -1806,6 +1841,7 @@ pg.equip_skin_theme_template = {
 		68,
 		69,
 		70,
+		71,
 		101,
 		102,
 		103,
@@ -1813,6 +1849,7 @@ pg.equip_skin_theme_template = {
 		105,
 		106,
 		107,
+		108,
 		199
 	}
 }

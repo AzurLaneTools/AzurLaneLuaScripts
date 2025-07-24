@@ -325,11 +325,33 @@ pg.strategy_data_template = setmetatable({
 		201386,
 		201410,
 		201411,
+		201461,
+		201462,
 		205001,
 		205002,
 		205003,
 		205004,
-		205005
+		205005,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006,
+		300007,
+		300008,
+		300009,
+		300010,
+		300011,
+		300012,
+		300013,
+		300014,
+		300015,
+		300016,
+		300017,
+		300018,
+		300019,
+		300020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4004,6 +4026,37 @@ The following effects activate based on your Exploration Count on this stage:
 		icon = "201411",
 		arg = {}
 	},
+	[201461] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = "Note: <color=#ffc038>Adds will continuously spawn</color> until the boss appears. While the boss will appear after a certain amount of time, sinking enemy BBs and CVs early <color=#92fc63>will make the boss appear sooner</color>. Your Main Fleet will not take DMG even if the enemy reaches their side of the screen.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201461,
+		icon = "200908",
+		arg = {}
+	},
+	[201462] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+Note: <color=#ffc038>Adds will continuously spawn</color> until the boss appears. While the boss will appear after a certain amount of time, sinking enemy BBs and CVs early <color=#92fc63>will make the boss appear sooner</color>. Your Main Fleet will not take DMG even if the enemy reaches their side of the screen.
+
+- Hard Mode Details -
+Enemies deal <color=#ffc038>significantly more DMG</color>. Their shells ignore shields and penetrate through targets.
+<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox,</color> while the rest of them cannot be damaged.
+Your ships become briefly invulnerable after taking DMG.
+
+
+· The skills "Operation Rainbow," "Fiercer When Cornered," and "Eleventh Hour" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201462,
+		icon = "200908",
+		arg = {}
+	},
 	[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -4057,6 +4110,226 @@ The following effects activate based on your Exploration Count on this stage:
 		buff_type = 0,
 		id = 205005,
 		icon = "",
+		arg = {}
+	},
+	[300001] = {
+		buff_id = 0,
+		name = "Core Level 1",
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300001,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300002] = {
+		buff_id = 0,
+		name = "Core Level 2",
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300002,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300003] = {
+		buff_id = 0,
+		name = "Core Level 3",
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300003,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300004] = {
+		buff_id = 0,
+		name = "Core Level 4",
+		desc = "Increases the Affinity your ships earn from battles.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300004,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300005] = {
+		buff_id = 0,
+		name = "Core Level 1",
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300005,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300006] = {
+		buff_id = 0,
+		name = "Core Level 2",
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300006,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300007] = {
+		buff_id = 0,
+		name = "Core Level 3",
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300007,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300008] = {
+		buff_id = 0,
+		name = "Core Level 4",
+		desc = "Increases the Affinity your ships earn from battles.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300008,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300009] = {
+		buff_id = 0,
+		name = "Core Level 1",
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300009,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300010] = {
+		buff_id = 0,
+		name = "Core Level 2",
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300010,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300011] = {
+		buff_id = 0,
+		name = "Core Level 3",
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300011,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300012] = {
+		buff_id = 0,
+		name = "Core Level 4",
+		desc = "Increases the Affinity your ships earn from battles.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300012,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300013] = {
+		buff_id = 0,
+		name = "Core Level 1",
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300013,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300014] = {
+		buff_id = 0,
+		name = "Core Level 2",
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300014,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300015] = {
+		buff_id = 0,
+		name = "Core Level 3",
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300015,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300016] = {
+		buff_id = 0,
+		name = "Core Level 4",
+		desc = "Increases the Affinity your ships earn from battles.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300016,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300017] = {
+		buff_id = 0,
+		name = "Core Level 1",
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 3.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300017,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300018] = {
+		buff_id = 0,
+		name = "Core Level 2",
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300018,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300019] = {
+		buff_id = 0,
+		name = "Core Level 3",
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 3.0% for 8s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300019,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300020] = {
+		buff_id = 0,
+		name = "Core Level 4",
+		desc = "Increases the Affinity your ships earn from battles.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300020,
+		icon = "buff_yumia_4",
 		arg = {}
 	}
 }

@@ -442,7 +442,9 @@ slot0.Preload = function(slot0)
 					}
 
 					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
-						slot14.equipments[slot20] = slot13.equipment[slot20] or false
+						slot14.equipments[slot20] = slot13.equipment[slot20] and {
+							configId = slot13.equipment[slot20]
+						} or false
 					end
 
 					slot14.getActiveEquipments = function(slot0)
@@ -463,7 +465,9 @@ slot0.Preload = function(slot0)
 					}
 
 					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
-						slot14.equipments[slot20] = slot13.equipment[slot20] or false
+						slot14.equipments[slot20] = slot13.equipment[slot20] and {
+							configId = slot13.equipment[slot20]
+						} or false
 					end
 
 					slot14.getActiveEquipments = function(slot0)
@@ -484,7 +488,9 @@ slot0.Preload = function(slot0)
 					}
 
 					for slot20 = 1, math.max(#slot13.equipment, #ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot13.configId).default_equip_list) do
-						slot14.equipments[slot20] = slot13.equipment[slot20] or false
+						slot14.equipments[slot20] = slot13.equipment[slot20] and {
+							configId = slot13.equipment[slot20]
+						} or false
 					end
 
 					slot14.getActiveEquipments = function(slot0)

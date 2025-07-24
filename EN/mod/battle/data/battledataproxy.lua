@@ -619,6 +619,7 @@ slot9.GetFleetByIFF = function(slot0, slot1)
 		slot2:SetUnitBound(slot0._currentStageData.totalArea, slot0._currentStageData.playerArea)
 		slot2:SetExposeLine(slot0._expeditionTmp.horizon_line[slot1], slot0._expeditionTmp.expose_line[slot1])
 		slot2:CalcSubmarineBaseLine(slot0._battleInitData.battleType)
+		slot2:SetChapterPlayType(slot0._battleInitData.ChapterType)
 
 		if slot0._battleInitData.battleType == SYSTEM_CARDPUZZLE then
 			slot3 = slot2:AttachCardPuzzleComponent()

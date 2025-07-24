@@ -4,14 +4,6 @@ slot0.GetEventName = function(slot0)
 	return "event_core"
 end
 
-slot0.GetTipImage = function(slot0)
-	return "tip_1920"
-end
-
-slot0.GetActivityID = function(slot0)
-	return nil
-end
-
 slot0.OnInit = function(slot0)
 	slot0:PickPriortyActAsyn(function (slot0, slot1)
 		uv0.priority = slot0
@@ -41,24 +33,20 @@ slot0.PickPriortyActAsyn = function(slot0, slot1)
 end
 
 slot0.CollectActivity = function(slot0)
-	slot1 = 0
-	slot2 = nil
-	slot3 = slot0:InShowTime() and getProxy(ActivityProxy):getCorePanelActivity(slot0.config.param) or {}
+	slot3 = 0
+	slot4 = nil
 
-	for slot7, slot8 in pairs(slot3) do
-		if slot8:readyToAchieve() then
-			slot1 = slot1 + 1
+	for slot9, slot10 in pairs(getProxy(ActivityProxy):getCorePanelActivity(pg.activity_template[slot0:GetLinkConfig().time[2]].page_core)) do
+		if slot10:readyToAchieve() then
+			slot3 = slot3 + 1
 
-			if not slot2 or slot2 and slot8.id < slot2.id then
-				slot2 = slot8
+			if not slot4 or slot4 and slot10.id < slot4.id then
+				slot4 = slot10
 			end
 		end
 	end
 
-	return slot1, slot2
-end
-
-slot0.CustomOnClick = function(slot0)
+	return slot3, slot4
 end
 
 return slot0

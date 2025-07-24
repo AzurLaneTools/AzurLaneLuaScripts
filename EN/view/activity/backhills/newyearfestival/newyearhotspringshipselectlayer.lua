@@ -99,7 +99,7 @@ slot0.AddCard = function(slot0, slot1, slot2, slot3)
 				slot8 = slot8 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			for slot13, slot14 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+			for slot13, slot14 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
 				slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
 			end
 		end

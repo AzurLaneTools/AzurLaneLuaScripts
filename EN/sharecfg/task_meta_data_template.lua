@@ -312,6 +312,11 @@ pg.task_meta_data_template = setmetatable({
 		100443,
 		100444,
 		100445,
+		100451,
+		100452,
+		100453,
+		100454,
+		100455,
 		200001,
 		200002,
 		200003,
@@ -451,7 +456,11 @@ pg.task_meta_data_template = setmetatable({
 		200351,
 		200352,
 		200353,
-		200354
+		200354,
+		200361,
+		200362,
+		200363,
+		200364
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2936,6 +2945,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Kawakaze META in your fleet."
 	},
+	[100451] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100451,
+		target_num = 1,
+		desc = "Win 1 battle with Dunkerque META in your fleet."
+	},
+	[100452] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100452,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Dunkerque META in your fleet."
+	},
+	[100453] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100453,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Dunkerque META in your fleet."
+	},
+	[100454] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100454,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Dunkerque META in your fleet."
+	},
+	[100455] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970406",
+		id = 100455,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Dunkerque META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4055,5 +4104,37 @@ pg.base.task_meta_data_template = {
 		id = 200354,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kawakaze META in your fleet."
+	},
+	[200361] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200361,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Dunkerque META in your fleet."
+	},
+	[200362] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200362,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Dunkerque META in your fleet."
+	},
+	[200363] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200363,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Dunkerque META in your fleet."
+	},
+	[200364] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970406",
+		id = 200364,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Dunkerque META in your fleet."
 	}
 }

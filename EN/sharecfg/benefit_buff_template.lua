@@ -180,7 +180,28 @@ pg.benefit_buff_template = setmetatable({
 		300109,
 		300110,
 		300111,
-		300112
+		300112,
+		300201,
+		300202,
+		300203,
+		300204,
+		300205,
+		300206,
+		300207,
+		300208,
+		300209,
+		300210,
+		300211,
+		300212,
+		300213,
+		300214,
+		300215,
+		300216,
+		300217,
+		300218,
+		300219,
+		300220,
+		300221
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3465,5 +3486,378 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
+	},
+	[300201] = {
+		icon = "Props/buff_yumia_1",
+		name = "Core Level 1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 5.0%.",
+		benefit_effect = "201455",
+		id = 300201,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300202] = {
+		icon = "Props/buff_yumia_2",
+		name = "Core Level 2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 5s.",
+		benefit_effect = "201456",
+		id = 300202,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300203] = {
+		icon = "Props/buff_yumia_3",
+		name = "Core Level 3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 10.0% for 8s.",
+		benefit_effect = "201459",
+		id = 300203,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300204] = {
+		icon = "Props/buff_yumia_4",
+		name = "Core Level 4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "Increases the Affinity your ships earn from battles.",
+		benefit_effect = "1",
+		id = 300204,
+		type_priority = 0,
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300205] = {
+		icon = "Props/buff_yumia_1",
+		name = "Core Level 1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 5.0%.",
+		benefit_effect = "201455",
+		id = 300205,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300206] = {
+		icon = "Props/buff_yumia_2",
+		name = "Core Level 2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 5s.",
+		benefit_effect = "201456",
+		id = 300206,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300207] = {
+		icon = "Props/buff_yumia_3",
+		name = "Core Level 3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 10.0% for 8s.",
+		benefit_effect = "201459",
+		id = 300207,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300208] = {
+		icon = "Props/buff_yumia_4",
+		name = "Core Level 4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "Increases the Affinity your ships earn from battles.",
+		benefit_effect = "1",
+		id = 300208,
+		type_priority = 0,
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300209] = {
+		icon = "Props/buff_yumia_1",
+		name = "Core Level 1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 5.0%.",
+		benefit_effect = "201455",
+		id = 300209,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300210] = {
+		icon = "Props/buff_yumia_2",
+		name = "Core Level 2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 5s.",
+		benefit_effect = "201456",
+		id = 300210,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300211] = {
+		icon = "Props/buff_yumia_3",
+		name = "Core Level 3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 10.0% for 8s.",
+		benefit_effect = "201459",
+		id = 300211,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300212] = {
+		icon = "Props/buff_yumia_4",
+		name = "Core Level 4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "Increases the Affinity your ships earn from battles.",
+		benefit_effect = "1",
+		id = 300212,
+		type_priority = 0,
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300213] = {
+		icon = "Props/buff_yumia_1",
+		name = "Core Level 1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 5.0%.",
+		benefit_effect = "201455",
+		id = 300213,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300214] = {
+		icon = "Props/buff_yumia_2",
+		name = "Core Level 2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 5s.",
+		benefit_effect = "201456",
+		id = 300214,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300215] = {
+		icon = "Props/buff_yumia_3",
+		name = "Core Level 3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 10.0% for 8s.",
+		benefit_effect = "201459",
+		id = 300215,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300216] = {
+		icon = "Props/buff_yumia_4",
+		name = "Core Level 4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "Increases the Affinity your ships earn from battles.",
+		benefit_effect = "1",
+		id = 300216,
+		type_priority = 0,
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300217] = {
+		icon = "Props/buff_yumia_1",
+		name = "Core Level 1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, increases your ships' FP, AVI, and TRP by 5.0%.",
+		benefit_effect = "201455",
+		id = 300217,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300218] = {
+		icon = "Props/buff_yumia_2",
+		name = "Core Level 2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "During battle, the ship with the lowest current HP percentage in your fleet recovers 1.0% HP every 5s.",
+		benefit_effect = "201456",
+		id = 300218,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300219] = {
+		icon = "Props/buff_yumia_3",
+		name = "Core Level 3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "15s after the battle starts, and every 20s after that: your fleet receives supporting barrages; enemies hit by these barrages have their DMG taken increased by 10.0% for 8s.",
+		benefit_effect = "201459",
+		id = 300219,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300220] = {
+		icon = "Props/buff_yumia_4",
+		name = "Core Level 4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "Increases the Affinity your ships earn from battles.",
+		benefit_effect = "1",
+		id = 300220,
+		type_priority = 0,
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300221] = {
+		icon = "Props/buff_yumia_ryzare",
+		name = "The Alchemist and the Archipelago of Secrets Special Buff",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "You obtain +200% Crystal Clusters and synthesis materials from The Alchemist and the Archipelago of Secrets event stages.",
+		benefit_effect = "0",
+		id = 300221,
+		type_priority = 0,
+		benefit_type = "desc"
 	}
 }

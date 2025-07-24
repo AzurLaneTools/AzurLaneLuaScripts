@@ -138,19 +138,9 @@ slot0.UpdateView = function(slot0)
 			uv2:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
-			slot1 = true
-
-			for slot5, slot6 in pairs(uv0.storyNodesDict) do
-				if slot6:GetStory() and slot7 ~= "" then
-					slot1 = slot1 and pg.NewStoryMgr.GetInstance():IsPlayed(slot7)
-				end
-
-				if not slot1 then
-					break
-				end
-			end
-
-			if slot1 and uv0.storyTask and uv0.storyTask:getTaskStatus() == 2 then
+			if underscore.all(underscore.values(uv0.storyNodesDict), function (slot0)
+				return slot0:IsReaded()
+			end) and uv0.storyTask and uv0.storyTask:getTaskStatus() == 2 then
 				uv0:PlayStory(uv0.activity:getConfig("config_client").endStory, function (slot0)
 					uv0()
 
@@ -220,55 +210,12 @@ slot0.UpdateBattle = function(slot0)
 end
 
 slot0.UpdateStory = function(slot0)
-	slot1 = {}
-	slot2 = pg.NewStoryMgr.GetInstance()
-	slot3 = 1
-	slot4 = 2
-	slot5 = 3
-	slot6 = 0
-	slot7 = 0
+	slot1 = pg.NewStoryMgr.GetInstance()
 
-	for slot11, slot12 in pairs(slot0.storyNodesDict) do
-		slot1[slot11] = {}
-		slot14 = true
-
-		if slot12:GetStory() and slot13 ~= "" then
-			slot6 = slot6 + (slot2:IsPlayed(slot13) and 1 or 0)
-			slot7 = slot7 + 1
-		end
-
-		slot1[slot11].status = slot14 and slot5 or slot3
-	end
-
-	setText(slot0.progressText, slot6 .. "/" .. slot7)
-	_.each(_.sort(_.values(slot0.storyNodesDict), function (slot0, slot1)
-		return slot0.id < slot1.id
-	end), function (slot0)
-		slot1 = slot0:GetTriggers()
-
-		if uv0[slot0.id].status == uv1 then
-			return
-		end
-
-		if not _.any(slot1, function (slot0)
-			if slot0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
-				return uv0.ptActivity.data1 < slot0.value
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.SERIES_PASSED then
-				return not BossRushSeriesData.New({
-					id = slot0.value,
-					actId = uv0.activity.id
-				}):IsUnlock(uv0.activity)
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.STORY_READED then
-				return uv1[slot0.value].status < uv2
-			end
-		end) then
-			uv0[slot0.id].status = uv3
-		end
-	end)
 	table.Foreach(slot0.storyNodesDict, function (slot0, slot1)
 		slot3 = isActive(uv0.nodes[tostring(slot1.id)])
 
-		if uv2 < uv1[slot0].status then
+		if slot1:IsActive(uv0.activity, uv0.ptActivity) then
 			if not slot3 then
 				setActive(slot2, true)
 			end
@@ -284,23 +231,22 @@ slot0.UpdateStory = function(slot0)
 
 		setText(slot2:Find("main/Text"), slot1:GetName())
 
-		slot5 = uv1[slot0].status == uv3
-
 		if slot1:GetType() == BossRushStoryNode.NODE_TYPE.NORMAL then
 			setActive(slot2:Find("tags/story"), true)
 			setActive(slot2:Find("tags/battle"), false)
-		elseif slot6 == BossRushStoryNode.NODE_TYPE.EVENT then
+		elseif slot5 == BossRushStoryNode.NODE_TYPE.EVENT then
 			-- Nothing
-		elseif slot6 == BossRushStoryNode.NODE_TYPE.BATTLE then
+		elseif slot5 == BossRushStoryNode.NODE_TYPE.BATTLE then
 			setActive(slot2:Find("tags/story"), false)
 			setActive(slot2:Find("tags/battle"), true)
 		end
 
-		slot7 = uv1[slot0].status == uv4
+		uv1 = uv1 + (slot1:IsReaded() and 1 or 0)
+		uv2 = uv2 + 1
 
-		setActive(slot2:Find("main"), not slot7)
-		setActive(slot2:Find("finish"), slot7)
-		setActive(slot2:Find("finish_tag"), slot7)
+		setActive(slot2:Find("main"), not slot6)
+		setActive(slot2:Find("finish"), slot6)
+		setActive(slot2:Find("finish_tag"), slot6)
 		onButton(uv0, slot2, function ()
 			if not uv0 or uv1 then
 				return
@@ -311,20 +257,21 @@ slot0.UpdateStory = function(slot0)
 			end)
 		end)
 	end)
+	setText(slot0.progressText, 0 .. "/" .. 0)
 	setActive(slot0.storyAward, tobool(slot0.storyTask))
 
 	if slot0.storyTask then
-		slot9 = slot0.storyTask:getConfig("award_display")
+		slot4 = slot0.storyTask:getConfig("award_display")
 
 		updateDrop(slot0.storyAward:GetChild(0), Drop.New({
-			type = slot9[1][1],
-			id = slot9[1][2],
-			count = slot9[1][3]
+			type = slot4[1][1],
+			id = slot4[1][2],
+			count = slot4[1][3]
 		}))
 		setActive(slot0.storyAward:Find("get"), slot0.storyTask:getTaskStatus() == 1)
-		setActive(slot0.storyAward:Find("got"), slot11 == 2)
+		setActive(slot0.storyAward:Find("got"), slot6 == 2)
 
-		if slot11 == 1 then
+		if slot6 == 1 then
 			slot0:emit(BossRushAlvitMediator.ON_TASK_SUBMIT, slot0.storyTask)
 		end
 

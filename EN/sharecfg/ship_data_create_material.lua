@@ -62,7 +62,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "Limited Build",
-		build_anim = "building",
+		build_anim = "building_yumia",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
@@ -76,15 +76,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Admiral Zenker</color>: 2.0% <color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Yumia Liessfeldt</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>U-552</color>: 2.0% <color=#92FC63>(up!)</color>"
+			"<color=#ffde38>Nina Friede</color>: 2.0% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>Lenja</color>: 2.0% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>Isla von Duerer</color>: 0.5%"
 		}
 	},
 	{
 		use_gold = 1500,
 		name = "Limited Build",
-		build_anim = "building",
+		build_anim = "building_laisha",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",

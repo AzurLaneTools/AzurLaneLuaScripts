@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					6
 				},
 				{
 					23,
@@ -40,9 +40,10 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp3",
 		param = {
-			"scene charge",
+			"scene get boat",
 			{
-				wrap = 4
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -50,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -62,7 +63,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					6
 				},
 				{
 					23,
@@ -73,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50031",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "ALYCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -94,7 +100,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					6
 				},
 				{
 					23,
@@ -119,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -130,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					23
+					8,
+					6
 				},
 				{
 					23,
@@ -146,14 +152,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp1",
 		param = {
-			"dorm 3d select"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					17
+					8,
+					1
 				},
 				{
 					0,
@@ -164,8 +170,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					23
+					8,
+					13
 				},
 				{
 					23,
@@ -176,16 +182,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50033",
-		type = 3,
+		type = 2,
 		id = 6,
 		pic = "temp7",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -196,8 +207,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					6
 				},
 				{
 					23,
@@ -212,14 +223,17 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp8",
 		param = {
-			"scene level"
+			"scene core activity",
+			{
+				coreName = "RyzaCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					18
+					26
 				},
 				{
 					0,
@@ -230,8 +244,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					6
 				},
 				{
 					23,
@@ -259,14 +273,15 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp6",
 		param = {
-			"scene level"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					18
+					24
 				},
 				{
 					0,
@@ -278,7 +293,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					24
+					30
 				},
 				{
 					23,
@@ -298,7 +313,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -309,8 +324,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					23
+					8,
+					6
 				},
 				{
 					23,
@@ -336,10 +351,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -380,15 +420,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
+			6,
 			7,
 			8,
 			9
-		},
-		[3] = {
-			3,
-			6
 		},
 		[9] = {
 			90,

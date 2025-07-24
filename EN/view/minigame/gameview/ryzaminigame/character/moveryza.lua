@@ -239,7 +239,7 @@ slot0.TimeUpdate = function(slot0, slot1)
 
 		slot2, slot3 = slot0:GetMoveInfo()
 
-		if RyzaMiniGameConfig.GetEightDirMark(slot3) == "" then
+		if RyzaMiniGameConfig.GetEightDirMark(RyzaMiniGameConfig.ReSetDir(slot3)) == "" then
 			if slot0.spirit then
 				slot0.neglectTime = 0
 

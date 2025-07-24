@@ -360,6 +360,13 @@ pg.skill_data_template = setmetatable({
 		60830,
 		60840,
 		60850,
+		60860,
+		60870,
+		60880,
+		60890,
+		60900,
+		60910,
+		60920,
 		7000,
 		9010,
 		9020,
@@ -2214,6 +2221,24 @@ pg.skill_data_template = setmetatable({
 		112060,
 		112070,
 		112080,
+		112090,
+		112100,
+		112110,
+		112130,
+		112150,
+		112180,
+		112190,
+		112200,
+		112210,
+		112220,
+		112230,
+		112240,
+		112250,
+		112260,
+		112270,
+		112280,
+		112290,
+		112300,
 		190000,
 		190010,
 		201017,
@@ -2544,6 +2569,12 @@ pg.skill_data_template = setmetatable({
 		801832,
 		801835,
 		801837,
+		801840,
+		801850,
+		801861,
+		801862,
+		801865,
+		801867,
 		901010,
 		901020,
 		902010,
@@ -13032,6 +13063,109 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "Changes the battle BGM when equipped. If there are several BGM-altering gear equipped at the same time, only one will apply at random.",
 		id = 60850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60860] = {
+		desc_get = "",
+		name = "Granshine",
+		type = 0,
+		max_level = 0,
+		desc = [[
+When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after the battle starts, activates the Item effect. Item effect: performs a special attack (DMG is based on this ship's AVI stat; Mana Flow can improve this attack) that applies one of the following effects to the enemy hit based on the element used for 5s (this effect cannot stack):
+1) Fire: inflicts a special Burn ailment;
+2) Air: increases DMG taken by 5.0%;
+3) Ice: decreases SPD by 30.0%;
+4) Bolt: decreases Crit Rate by 10.0%.]],
+		id = 60860,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60870] = {
+		desc_get = "",
+		name = "Superior Grimoire",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Yumia Liessfeldt: decreases the loading time of this ship's first airstrike by 20.0% and, 25s after the battle starts, activates the Item effect. Item effect: performs a special attack (DMG is based on this ship's AVI stat; Mana Flow can improve this attack).",
+		id = 60870,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60880] = {
+		desc_get = "",
+		name = "Endemeteo",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Yumia Liessfeldt: 25s after the battle starts, activates the Item effect. Item effect: performs a special attack that inflicts special Armor Break (increases aircraft DMG taken by 10.0%) for 5s on the enemy hit (DMG is based on this ship's AVI stat; Mana Flow can improve this attack).",
+		id = 60880,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60890] = {
+		desc_get = "",
+		name = "Panacea Sphere",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an Atelier Yumia collab character: 40s after the battle starts, activates the Item effect. Item effect: restores 1.0% of your Vanguard's HP (Mana Flow can improve this effect into: restores 2.5% of your Vanguard's HP and additionally restores 40 HP for the ship with the lowest current HP in your Vanguard).",
+		id = 60890,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60900] = {
+		desc_get = "",
+		name = "Enfer Cube",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an Atelier Yumia collab character: 20s after the battle starts, activates the Item effect. Item effect: decreases a random enemy's DMG dealt by 8.0% for 5s (prioritizes humanoid enemies; when multiple DMG-decreasing effects are applied, only the biggest one is used; Mana Flow can improve this effect into: decreases the enemy's DMG dealt by 10.0% and decreases their EVA and AA by 5.0% for 5s).",
+		id = 60900,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60910] = {
+		desc_get = "",
+		name = "Heavenly Armillary",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by an Atelier Yumia collab character: every 10s, activates the Item effect. Item effect: accumulates 10.0% Environmental Mana (Mana Flow can improve this effect into: accumulates 25.0% Environmental Mana).",
+		id = 60910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60920] = {
+		desc_get = "",
+		name = "Flammi",
+		type = 0,
+		max_level = 0,
+		desc = "Changes the combat BGM when equipped. If additional gear that changes the BGM is equipped at the same time, only a randomly chosen one will take effect. If equipped by Yumia Liessfeldt: makes Flammi appear and increases her AVI by 118.",
+		id = 60920,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -150873,6 +151007,1391 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[112090] = {
+		desc_get = "",
+		name = "Alchemy of Taboo and Hope",
+		type = 1,
+		max_level = 10,
+		desc = "Every 10s: randomly selects and activates 1 random effect among this ship's equipped Items and performs a $1 Snipe attack against a random enemy (DMG is based on the skill's level); if there is an enemy within 65 units of this ship when this effect activates, instead performs $1 Rapid Fire against the closest enemy to this ship (DMG is based on the skill's level) and inflicts Armor Break on the enemy hit.",
+		id = 112090,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112100] = {
+		desc_get = "",
+		name = "The Alchemist of Memories",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $1. When this ship launches an airstrike or performs a special attack: gains 1 stack of Mana Flow (can be stacked up to 10 times); when the effect of an Atelier Yumia collab character's equipped Item activates: spends 1 stack of Mana Flow and improves that Item's effect. When this ship performs a special attack: synthesizes ammunition for the special attack based on the Armor Type of the target.",
+		id = 112100,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[112110] = {
+		desc_get = "",
+		name = "One Step Toward Tomorrow",
+		type = 1,
+		max_level = 10,
+		desc = "Every 5s: uses $1 Piercing Arts or Strike Arts against a random enemy (DMG is based on the skill's level). When the effect of an Atelier Yumia collab character's equipped Item activates: accumulates 25.0% Environmental Mana.\nWhen Environmental Mana is at 50.0% or higher, or when this ship is in the Mana Surge status: every time this ship performs a special attack, additionally performs Synthesize (improves the special attack and gains 1 stack of Mana Flow).",
+		id = 112110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112130] = {
+		desc_get = "",
+		name = "One Step Toward Tomorrow+",
+		type = 1,
+		max_level = 10,
+		desc = "Every 5s: uses $1 Piercing Arts or Strike Arts against a random enemy (DMG is based on the skill's level). When the effect of an Atelier Yumia collab character's equipped Item activates: accumulates 25.0% Environmental Mana.\nWhen Environmental Mana is at 50.0% or higher, or when this ship is in the Mana Surge status: every time this ship performs a special attack, additionally performs Synthesize (improves the special attack and gains 1 stack of Mana Flow).\nWhen this ship launches an airstrike while in the Mana Surge status: additionally spends all stacks of Mana Flow and activates a $1 Maximized Mana Surge - Requiem Trigger (DMG is based on the skill's level and the number of Mana Flow stacks consumed; pattern is based on the number of Mana Flow stacks consumed), then dispells the Mana Surge status on this ship.",
+		id = 112130,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112150] = {
+		desc_get = "",
+		name = "Time Compression",
+		type = 1,
+		max_level = 1,
+		desc = "When the effect of Yumia Liessfeldt's equipped Item activates: decreases the time until all of this ship's next special attacks by 2s.",
+		id = 112150,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[112180] = {
+		desc_get = "",
+		name = "Welleks's Assault",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's RLD and ACC by $1. Every 10 times this ship fires her Main Guns, if there is an enemy within 30 units of this ship: performs a $2 Spinning Edge attack (DMG is based on the skill's level); if there is no such enemy, instead performs a $2 Wide Slash attack (DMG is based on the skill's level).",
+		id = 112180,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112190] = {
+		desc_get = "",
+		name = "Pride of the Welleks's",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: accumulates 2.0% Environmental Mana; when this ship fires her Main Guns with 10.0% or more Environmental Mana: spends 10.0% Environmental Mana and gains 1 stack of Throwing Dagger (can be stacked up to 5 times).\nIncreases this ship's FP, TRP, and EVA by $1 for each stack of Throwing Dagger this ship has. Every 20s, when this ship is in the Mana Surge status: spends all stacks of Throwing Dagger to activate a $2 Maximized Mana Surge - Lionhearted (DMG is based on the skill's level), dispels the Mana Surge status, and, for 15s, increases this ship's DMG dealt to enemies below 10.0% HP by $3.",
+		id = 112190,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"3.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[112200] = {
+		desc_get = "",
+		name = "Pride of the Welleks's+",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: accumulates 2.0% Environmental Mana; when this ship fires her Main Guns with 10.0% or more Environmental Mana: spends 10.0% Environmental Mana and gains 1 stack of Throwing Dagger (can be stacked up to 5 times).\nIncreases this ship's FP, TRP, and EVA by $1 for each stack of Throwing Dagger she has. Every 20s, when this ship is in the Mana Surge status: spends all stacks of Throwing Dagger to activate a $2 Maximized Mana Surge - Lionhearted (DMG is based on the skill's level), dispels the Mana Surge status, and, for 15s, increases this ship's DMG dealt to enemies below 30.0% HP by $3; gains 1 stack of Throwing Dagger for each enemy sunk during this effect's duration.",
+		id = 112200,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"4.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[112210] = {
+		desc_get = "",
+		name = "Hellion Mantis",
+		type = 1,
+		max_level = 1,
+		desc = "When the battle starts: gains 3 stacks of Throwing Dagger. During battle, decreases this ship's DMG taken by 5.0%. When this ship sinks an enemy: increases this ship's RLD by 3.0% (can be stacked up to 5 times).",
+		id = 112210,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[112220] = {
+		desc_get = "",
+		name = "Blazing Trigger",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. Every 5s, or when this ship's Main Guns finish loading: accumulates 10.0% Environmental Mana. When this ship fires her Main Guns: $3 chance to fire a $2 special barrage (DMG is based on the skill's level); if there is an enemy within 65 units when this effect activates: changes the barrage fired. Every 20s: fires a powerful $2 slashing barrage (DMG is based on the skill's level).",
+		id = 112220,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"40%",
+				"70%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[112230] = {
+		desc_get = "",
+		name = "Mercenary's Combat Techniques",
+		type = 3,
+		max_level = 10,
+		desc = "Every time this ship's Main Guns finish loading: gains 2 stacks of Battle Rate (can be stacked up to 10 times). Increases this ship's ACC and Main Gun Crit Rate by $1 for every stack of Battle Rate she has. When this ship has 5 or more stacks of Battle Rate: multiplies the Environmental Mana accumulated by the skill Blazing Trigger by 1.5. When another ship in your fleet scores a hit with her Main Guns or Secondary Guns: $2 chance for Nina to additionally gain 1 stack of Battle Rate; if said ship is an Atelier Yumia collab character, the action chance of this effect increases to $3.",
+		id = 112230,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"2.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"15.0%",
+				"35.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+1.5%"
+				},
+				{
+					"19.5%",
+					"+2.0%"
+				},
+				{
+					"21.5%",
+					"+2.0%"
+				},
+				{
+					"23.5%",
+					"+2.5%"
+				},
+				{
+					"26.0%",
+					"+2.5%"
+				},
+				{
+					"28.5%",
+					"+3.0%"
+				},
+				{
+					"31.5%",
+					"+3.5%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
+	[112240] = {
+		desc_get = "",
+		name = "Blazing Trigger+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. Every 5s, or when this ship's Main Guns finish loading: accumulates 10.0% Environmental Mana. When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level); if there is an enemy within 65 units when this effect activates: changes the barrage fired. Every 20s: fires a powerful $2 slashing barrage (DMG is based on the skill's level); when this barrage fires, if this ship is in the Mana Surge status: instead activates a $2 Maximized Mana Surge - Zero Chance (DMG is based on the skill's level), then dispells the Mana Surge status on this ship.",
+		id = 112240,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112250] = {
+		desc_get = "",
+		name = "Unlimited Stamina",
+		type = 1,
+		max_level = 1,
+		desc = "Increases this ship's DMG dealt by 1.0% for each stack of Battle Rate she has.",
+		id = 112250,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[112260] = {
+		desc_get = "",
+		name = "优米雅阵营环境玛那技能",
+		type = 1,
+		max_level = 1,
+		desc = "",
+		id = 112260,
+		system_transform = {},
+		world_death_mark = {
+			0
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[112270] = {
+		desc_get = "",
+		name = "Knights Can Be Maidens Too",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. Every 5s: fires a $2 special barrage and accumulates 15.0% Environmental Mana (DMG is based on the skill's level); if there is no enemy within 35 units of this ship when firing, the barrage fired is changed.\nInflicts 3 stacks of Break Symbol on all the enemies on the battlefield; when this ship's special barrage or Maximized Mana Surge hits an enemy: removes 1 stack of Break Symbol from the enemy; when an enemy's Break Symbol stack is reduced to 0: inflicts a special Armor Break status on that enemy for 3s, after which the enemy's Break Symbol stack is reset to 3.",
+		id = 112270,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112280] = {
+		desc_get = "",
+		name = "Alber's Assistance",
+		type = 3,
+		max_level = 10,
+		desc = "Every 3 times this ship fires her Main Guns: gains 1 stack of Alber's Assistance (can be stacked up to 3 times); increases this ship's FP by $1 for each stack of Alber's Assistance she has. When the Alber's Assistance stack reaches 3: activates a $2 special attack, Isolation (DMG is based on the skill's level), and resets the stack to 0 after 2s.",
+		id = 112280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112290] = {
+		desc_get = "",
+		name = "Alber's Assistance+",
+		type = 3,
+		max_level = 10,
+		desc = "Every 3 times this ship fires her Main Guns: gains 1 stack of Alber's Assistance (can be stacked up to 3 times); increases this ship's FP and TRP by $1 for each stack of Alber's Assistance she has. When the Alber's Assistance stack reaches 3: activates a $2 special attack, Isolation (DMG is based on the skill's level), and resets the stack to 0 after 2s. When this ship is in the Mana Surge status: instead of Isolation, activates a $3 Maximized Mana Surge - Heartbreaker (DMG is based on the skill's level) and dispels the Mana Surge status.",
+		id = 112290,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[112300] = {
+		desc_get = "",
+		name = "Open Wounds",
+		type = 3,
+		max_level = 1,
+		desc = "When activating the special attack Isolation or Maximized Mana Surge - Heartbreaker, decreases the reload time of this ship's currently loading torpedoes by 2s.",
+		id = 112300,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[190000] = {
 		desc_get = "",
 		name = "Steelsurge Concerto",
@@ -167941,6 +169460,320 @@ Additionally, once per battle each, the following effects activate based on the 
 		id = 801837,
 		system_transform = {
 			[51.0] = 801837
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801840] = {
+		desc_get = "",
+		name = "The Dessert Demon's Temptation",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level); enemies hit by this barrage have their SPD decreased by 30.0% and EVA by 3.0% for 8s.",
+		id = 801840,
+		system_transform = {
+			[3.0] = 801845
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801850] = {
+		desc_get = "",
+		name = "Templar's Presence",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. Every 20s: decreases the FP of all enemies on the battlefield by $2 for 8s; if this debuff was applied to 2 enemies or more at once: restores this ship's HP and the HP of a random ship in your Vanguard by $3 of their max HP.",
+		id = 801850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[801861] = {
+		desc_get = "",
+		name = "Cinders of Hope - Dunkerque",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801861,
+		system_transform = {
+			[51.0] = 801865
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801862] = {
+		desc_get = "",
+		name = "Cinders of Hope - Dunkerque",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801862,
+		system_transform = {
+			[51.0] = 801867
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801865] = {
+		desc_get = "",
+		name = "Cinders of Hope - Dunkerque",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801865,
+		system_transform = {
+			[51.0] = 801865
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801867] = {
+		desc_get = "",
+		name = "Cinders of Hope - Dunkerque",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801867,
+		system_transform = {
+			[51.0] = 801867
 		},
 		world_death_mark = {
 			1
