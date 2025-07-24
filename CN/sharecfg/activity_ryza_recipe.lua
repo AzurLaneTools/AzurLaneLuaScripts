@@ -1030,7 +1030,7 @@ pg.activity_ryza_recipe = {
 	},
 	[1001] = {
 		rarity = 3,
-		display = "优米雅·利斯菲尔德使用的武器。\n为了将射击与打击的威力发挥到极限而制作的枪杖。上面有着以凝缩的玛娜为光源的照明灯。",
+		display = "优米雅·利斯菲尔德使用的武器。\n为了将射击与打击的威力发挥到极限而制作的枪杖。上面有着以凝缩的玛那为光源的照明灯。",
 		prop_type = "",
 		type = 1,
 		item_num = 1,
@@ -1495,7 +1495,7 @@ pg.activity_ryza_recipe = {
 		prop_type = "",
 		type = 2,
 		item_num = 5,
-		name = "随机外观装备(炼金工房II)",
+		name = "外观装备箱(炼金工房II)",
 		version = 2,
 		shape = 3,
 		id = 1026,

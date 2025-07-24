@@ -39304,7 +39304,7 @@ _G.pg.base.gametip.yumia_pt_3 = {
 
 
 _G.pg.base.gametip.yumia_mana_battle_tip = {
-	tip = "环境玛娜达到100%时，所有Atelier Yumia联动角色进入【降临】状态，随后环境玛娜降至0%"
+	tip = "环境玛那达到100%时，所有Atelier Yumia联动角色进入【降临】状态，随后环境玛那降至0%"
 }
 
 
@@ -39555,4 +39555,9 @@ _G.pg.base.gametip.yumia_storymode_tip2 = {
 
 _G.pg.base.gametip.yumia_pt_tip = {
 	tip = "已获得"
+}
+
+
+_G.pg.base.gametip.yumia_pt_4 = {
+	tip = "已获取"
 }

@@ -28115,10 +28115,7 @@ pg.activity_template = {
 		config_client = {
 			furniture_theme_link = {
 				3,
-				{
-					50063,
-					{}
-				}
+				50063
 			},
 			medal_link = {
 				2,

@@ -176274,10 +176274,10 @@ _G.pg.base.equip_data_statistics[150800] = {
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
-	attribute_1 = "air",
+	attribute_1 = "durability",
 	value_2 = 0,
 	icon = "150800",
-	value_1 = "40",
+	value_1 = "250",
 	rarity = 5,
 	descrip = "辅助探索用的奇特装置，自称“功能完备性能高超”。",
 	nationality = 113,
@@ -176310,7 +176310,7 @@ _G.pg.base.equip_data_statistics[150800] = {
 
 _G.pg.base.equip_data_statistics[150801] = {
 	id = 150801,
-	value_1 = "46",
+	value_1 = "280",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176318,7 +176318,7 @@ _G.pg.base.equip_data_statistics[150801] = {
 
 _G.pg.base.equip_data_statistics[150802] = {
 	id = 150802,
-	value_1 = "52",
+	value_1 = "310",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176326,7 +176326,7 @@ _G.pg.base.equip_data_statistics[150802] = {
 
 _G.pg.base.equip_data_statistics[150803] = {
 	id = 150803,
-	value_1 = "58",
+	value_1 = "340",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176334,7 +176334,7 @@ _G.pg.base.equip_data_statistics[150803] = {
 
 _G.pg.base.equip_data_statistics[150804] = {
 	id = 150804,
-	value_1 = "64",
+	value_1 = "370",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176342,7 +176342,7 @@ _G.pg.base.equip_data_statistics[150804] = {
 
 _G.pg.base.equip_data_statistics[150805] = {
 	id = 150805,
-	value_1 = "70",
+	value_1 = "400",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176350,7 +176350,7 @@ _G.pg.base.equip_data_statistics[150805] = {
 
 _G.pg.base.equip_data_statistics[150806] = {
 	id = 150806,
-	value_1 = "76",
+	value_1 = "430",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176358,7 +176358,7 @@ _G.pg.base.equip_data_statistics[150806] = {
 
 _G.pg.base.equip_data_statistics[150807] = {
 	id = 150807,
-	value_1 = "82",
+	value_1 = "460",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176366,7 +176366,7 @@ _G.pg.base.equip_data_statistics[150807] = {
 
 _G.pg.base.equip_data_statistics[150808] = {
 	id = 150808,
-	value_1 = "88",
+	value_1 = "490",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176374,7 +176374,7 @@ _G.pg.base.equip_data_statistics[150808] = {
 
 _G.pg.base.equip_data_statistics[150809] = {
 	id = 150809,
-	value_1 = "94",
+	value_1 = "520",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176382,7 +176382,7 @@ _G.pg.base.equip_data_statistics[150809] = {
 
 _G.pg.base.equip_data_statistics[150810] = {
 	id = 150810,
-	value_1 = "100",
+	value_1 = "550",
 	base = 150800,
 	hidden_skill_id = {}
 }
@@ -176392,7 +176392,7 @@ _G.pg.base.equip_data_statistics[150811] = {
 	anti_siren = 100,
 	base = 150800,
 	id = 150811,
-	value_1 = "106",
+	value_1 = "580",
 	hidden_skill_id = {}
 }
 
@@ -176401,7 +176401,7 @@ _G.pg.base.equip_data_statistics[150812] = {
 	anti_siren = 200,
 	base = 150800,
 	id = 150812,
-	value_1 = "112",
+	value_1 = "610",
 	hidden_skill_id = {}
 }
 
@@ -176410,7 +176410,7 @@ _G.pg.base.equip_data_statistics[150813] = {
 	anti_siren = 300,
 	base = 150800,
 	id = 150813,
-	value_1 = "118",
+	value_1 = "640",
 	hidden_skill_id = {}
 }
 

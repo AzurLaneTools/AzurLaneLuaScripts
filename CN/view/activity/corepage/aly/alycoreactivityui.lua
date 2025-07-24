@@ -27,7 +27,7 @@ slot0.init = function(slot0, ...)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
 			end).id] ~= nil then
 				if slot3.id == 50063 or slot3.id == 50058 then
-					setActive(uv0:findTF("tip/tip_1", slot2), slot3:readyToAchieve())
+					setActive(uv0:findTF("tip", slot2), slot3:readyToAchieve())
 				else
 					setActive(uv0:findTF("tip", slot2), false)
 				end
