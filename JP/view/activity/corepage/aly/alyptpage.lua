@@ -100,7 +100,7 @@ slot0.UpdateNextAward = function(slot0, slot1)
 
 			break
 		elseif slot5 == #slot0.importantPos then
-			-- Nothing
+			slot0:UpdateAward(slot6.index - 1, slot0.spAward)
 		end
 	end
 end

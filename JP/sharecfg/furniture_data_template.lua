@@ -22197,7 +22197,7 @@ pg.base.furniture_data_template = {
 	},
 	[311] = {
 		can_rotate = 0,
-		describe = "天际高塔的分区段模型，可以周期性自我变换状态。——「炼金术士与天际交汇之塔」活动纪念",
+		describe = "天穹の塔のエリア別に区切られたミニチュア、一定の周期で自ら外観を変える――「錬金術士と天空邂逅の塔」に参加した指揮官に贈る",
 		gain_by = "炼金术士与天际交汇之塔",
 		type = 7,
 		dir = 0,
@@ -22216,7 +22216,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "天际高塔模型",
+		name = "天穹の塔ミニチュア",
 		advice = 0,
 		id = 311,
 		icon = "tianjitaxunzhangicon",
