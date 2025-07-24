@@ -256,6 +256,7 @@ slot0.didEnter = function(slot0)
 				end
 
 				setActive(uv0.selectview, true)
+				uv0:openCoinLayer(true)
 
 				GetOrAddComponent(uv0.selectview, "CanvasGroup").blocksRaycasts = true
 
@@ -313,6 +314,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_UI_CLICK)
 	slot0:addRingDragListenter()
 	setActive(slot0.selectview, true)
+	slot0:openCoinLayer(true)
 
 	GetOrAddComponent(slot0.selectview, "CanvasGroup").blocksRaycasts = true
 end
@@ -1092,6 +1094,7 @@ slot0.showSelevtView = function(slot0)
 
 	slot0.selectview:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
 		setActive(uv0.selectview, false)
+		uv0:openCoinLayer(false)
 	end)
 	onButton(slot0, slot6:Find("help_btn"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -1700,6 +1703,7 @@ slot0.locadScoreView = function(slot0)
 
 		uv0:stopTimer()
 		setActive(uv0.selectview, true)
+		uv0:openCoinLayer(true)
 
 		GetOrAddComponent(uv0.selectview, "CanvasGroup").blocksRaycasts = true
 

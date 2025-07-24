@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "응? 전투식량 통조림의 포장만 청어 통조림으로 바꾼 거였어?",
+			say = "응?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

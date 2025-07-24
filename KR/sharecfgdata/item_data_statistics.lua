@@ -10042,6 +10042,192 @@ _G.pg.base.item_data_statistics[13048] = {
 }
 
 
+_G.pg.base.item_data_statistics[13049] = {
+	open_directly = 0,
+	name = "파일럿형 305mm 4연장포 SKC39T0 설계도면",
+	type = 9,
+	display = "파일럿형 305mm 4연장포 SKC39T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/44320",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13050] = {
+	open_directly = 0,
+	name = "파일럿형 283mm/54.5 3연장포 T0 설계도면",
+	type = 9,
+	display = "파일럿형 283mm/54.5 3연장포 T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/44420",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13051] = {
+	open_directly = 0,
+	name = "파일럿형 406mm/45 3연장포 MK7T0 설계도면",
+	type = 9,
+	display = "파일럿형 406mm/45 3연장포 MK7T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/14480",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13052] = {
+	open_directly = 0,
+	name = "파일럿형 20mm 6연장 Scotti 기관포 Model1941T0 설계도면",
+	type = 9,
+	display = "파일럿형 20mm 6연장 Scotti 기관포 Model1941T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/56260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13053] = {
+	open_directly = 0,
+	name = "파일럿형 533mm 4연장 Si 270어뢰 T0 설계도면",
+	type = 9,
+	display = "파일럿형 533mm 4연장 Si 270 어뢰 T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/56280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13054] = {
+	open_directly = 0,
+	name = "파일럿형 180mm 3연장포 B-1-P Model1932 개조 T0 설계도면",
+	type = 9,
+	display = "파일럿형 180mm 3연장포 B-1-P Model1932 개조 T0 설계도면",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/85640",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "원형 과학 연구 도면·S-I",
@@ -43736,6 +43922,122 @@ _G.pg.base.item_data_statistics[40061] = {
 }
 
 
+_G.pg.base.item_data_statistics[40062] = {
+	open_directly = 1,
+	name = "PR함선 Ⅴ기 교환 아이템＋강화 유닛 세트",
+	type = 17,
+	display = "대량의 아이템을 입수할 수 있습니다. ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4063",
+	id = 40062,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40140,
+			1
+		},
+		{
+			2,
+			42040,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40063] = {
+	open_directly = 1,
+	name = "PR함선 Ⅴ기 교환 아이템",
+	type = 17,
+	display = "대량의 아이템을 입수할 수 있습니다. ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_normal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4064",
+	id = 40063,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40140,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40064] = {
+	open_directly = 1,
+	name = "PR특별 계획함Ⅴ기강화 유닛 세트",
+	type = 17,
+	display = "대량의 아이템을 입수할 수 있습니다. ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech5_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4065",
+	id = 40064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42040,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "백년가약 패키지",
@@ -45401,6 +45703,84 @@ _G.pg.base.item_data_statistics[40139] = {
 		{
 			ship_unlock,
 			69901
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[40140] = {
+	open_directly = 0,
+	name = "PR함선 Ⅴ기 교환권",
+	type = 17,
+	display = [[
+사용하면 아래의 PR특별 계획함을 1척 개방(입수·강화레벨1)가능. 
+ 프린츠 루프레히트, 하얼빈, 치칼로프 
+<color=#92fc63>상기 함선을 모두 입수완료한 경우</color> 창고에서 사용하면 아래의 아이템을 입수할 수 있습니다: 
+전술 데이터팩·V기*300
+지향형 개조도면 T3*5
+지향형 개조도면 T2*10
+큐브*5
+자금*20000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4210",
+	id = 40140,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20105,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			49907
+		},
+		{
+			ship_unlock,
+			59901
+		},
+		{
+			ship_unlock,
+			79901
 		}
 	}
 }
@@ -71808,6 +72188,672 @@ _G.pg.base.item_data_statistics[42066] = {
 	shiptrans_id = {},
 	combination_display = {},
 	usage_arg = {
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42070] = {
+	open_directly = 0,
+	name = "지향형 강화 유닛·Ⅷ기",
+	type = 13,
+	display = "사용하면 특별 계획함Ⅰ～Ⅷ기 PR함선의 강화 유닛을 1개 선택하여 입수 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42070",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42070,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42071] = {
+	open_directly = 0,
+	name = "강화 유닛: 캔자스",
+	type = 12,
+	display = "유니온 전함 「캔자스」의 강화 유닛. \n<color=#92fc63>「캔자스」개발 완료 후, 「개발도크」에서 「캔자스」강화 가능. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42071",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42071,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42072] = {
+	open_directly = 0,
+	name = "강화 유닛: 메클렌부르크",
+	type = 12,
+	display = "메탈 블러드 전함 「메클렌부르크」의 강화 유닛. \n<color=#92fc63>「메클렌부르크」개발 완료 후, 「개발도크」에서 「메클렌부르크」 강화 가능. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42072",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42072,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42073] = {
+	open_directly = 0,
+	name = "강화 유닛: 비토리오 쿠니베르티",
+	type = 12,
+	display = "사르데냐 구축함 「비토리오 쿠니베르티」의 강화 유닛. \n<color=#92fc63>「비토리오 쿠니베르티」개발 완료 후, 「개발도크」에서 「비토리오 쿠니베르티」 강화 가능. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42073",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42073,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42074] = {
+	open_directly = 0,
+	name = "강화 유닛: 드미트리 돈스코이",
+	type = 12,
+	display = "노스 유니온 순양함 「드미트리 돈스코이」의 강화 유닛. \n<color=#92fc63>「드미트리 돈스코이」개발 완료 후, 「개발도크」에서 「드미트리 돈스코이」 강화 가능. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42074",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42075] = {
+	open_directly = 0,
+	name = "강화 유닛: 하우덴 리우",
+	type = 12,
+	display = "튤리퍼 순양함 「하우덴 리우」의 강화 유닛. \n<color=#92fc63>「하우덴 리우」 개발 완료 후, 「개발도크」에서 「하우덴 리우」 강화 가능. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42075",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42076] = {
+	open_directly = 0,
+	name = "상급 지향형 강화 유닛·Ⅷ기",
+	type = 13,
+	display = "사용하면 특별 계획함Ⅱ～Ⅷ기 DR함선의 강화 유닛을 1개 선택하여 입수 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42076",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42076,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
 		{
 			2,
 			42063,

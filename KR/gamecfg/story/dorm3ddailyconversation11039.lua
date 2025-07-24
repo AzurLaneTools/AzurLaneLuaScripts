@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？这坨毛线是……",
+			say = "뉴저지? 그 털 뭉치는 뭐야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

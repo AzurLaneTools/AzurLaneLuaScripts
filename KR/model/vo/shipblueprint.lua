@@ -409,12 +409,20 @@ end
 slot0.specialStrengthens = function(slot0)
 	slot1 = {}
 
-	for slot5, slot6 in ipairs(slot0.strengthenConfig) do
-		if slot6.special == 1 then
+	if noEmptyStr(slot0:getConfig("normal_display")) then
+		table.insert(slot1, {
+			level = 0,
+			des = {},
+			extraDes = slot2
+		})
+	end
+
+	for slot6, slot7 in ipairs(slot0.strengthenConfig) do
+		if slot7.special == 1 then
 			table.insert(slot1, {
-				des = slot6.special_effect,
-				extraDes = slot6.extra_desc,
-				level = slot6.lv
+				des = slot7.special_effect,
+				extraDes = slot7.extra_desc,
+				level = slot7.lv
 			})
 		end
 	end

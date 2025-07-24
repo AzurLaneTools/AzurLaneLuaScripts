@@ -224,7 +224,7 @@ slot7.AddWeapon = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot7:SetEquipmentLabel(slot2)
 	end
 
-	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK or slot8 == uv1.MANUAL_METEOR or slot8 == uv1.MANUAL_MISSILE then
+	if slot7:GetTemplateData().type == uv1.POINT_HIT_AND_LOCK or slot8 == uv1.MANUAL_METEOR or slot8 == uv1.MANUAL_MISSILE or slot8 == uv1.POINT_AIR_STRIKE then
 		slot0._chargeList[#slot0._chargeList + 1] = slot7
 
 		slot0._weaponQueue:AppendChargeWeapon(slot7)
@@ -553,4 +553,20 @@ slot7.InitCldComponent = function(slot0)
 		UID = slot0:GetUniqueID(),
 		Mass = uv1.CldMass.L2
 	})
+end
+
+slot7.AddPointAirStrike = function(slot0, slot1, slot2, slot3)
+	slot0:GetFleetVO():GetChargeWeaponVO():AppendWeapon(slot0:AddWeapon(slot1, {}, nil, 1, -1))
+
+	if slot3 then
+		slot4:OverHeat()
+		slot4:EnterCoolDown()
+	end
+
+	slot0:GetFleetVO():GetChargeWeaponVO():DispatchCountChange()
+	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CREATE_POINT_AIR_STRIKE, {
+		weapon = slot4
+	}))
+
+	return slot4
 end

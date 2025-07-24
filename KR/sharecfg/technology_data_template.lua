@@ -13926,6 +13926,206 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[633] = {
+		id = 633,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-191-MI",
+		lv_limit = 50,
+		desc = "현재 배치 중인 장비를 분해하여 기초 설계를 수정하고, 미래의 개발이 예정된 신장비의 기초 연구를 실시한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13044,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[634] = {
+		id = 634,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-166-MI",
+		lv_limit = 50,
+		desc = "현재 배치 중인 장비를 분해하여 기초 설계를 수정하고, 미래의 개발이 예정된 신장비의 기초 연구를 실시한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13045,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[635] = {
+		id = 635,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-167-MI",
+		lv_limit = 50,
+		desc = "현재 배치 중인 장비를 분해하여 기초 설계를 수정하고, 미래의 개발이 예정된 신장비의 기초 연구를 실시한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13046,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[636] = {
+		id = 636,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-13-MI",
+		lv_limit = 50,
+		desc = "현재 배치 중인 장비를 분해하여 기초 설계를 수정하고, 미래의 개발이 예정된 신장비의 기초 연구를 실시한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13047,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[637] = {
+		id = 637,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-158-MI",
+		lv_limit = 50,
+		desc = "현재 배치 중인 장비를 분해하여 기초 설계를 수정하고, 미래의 개발이 예정된 신장비의 기초 연구를 실시한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30033,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13048,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[641] = {
 		id = 641,
 		rarity = 1,
@@ -15312,6 +15512,1994 @@ pg.technology_data_template = {
 			{
 				2,
 				52081,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[701] = {
+		id = 701,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "C-153-MI",
+		lv_limit = 30,
+		desc = "성정 큐브에 관한 기초 이론은 큐브의 구조에 대한 인식에서 시작된다. 큐브의 기초 구조에 대한 이론 구축 작업은 여전히 전력으로 이루어지고 있다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[702] = {
+		id = 702,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "C-153-MI",
+		lv_limit = 30,
+		desc = "성정 큐브에 관한 기초 이론은 큐브의 구조에 대한 인식에서 시작된다. 큐브의 기초 구조에 대한 이론 구축 작업은 여전히 전력으로 이루어지고 있다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[703] = {
+		id = 703,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "C-185-MI",
+		lv_limit = 30,
+		desc = "성정 큐브에 관한 기초 이론은 큐브의 구조에 대한 인식에서 시작된다. 큐브의 기초 구조에 대한 이론 구축 작업은 여전히 전력으로 이루어지고 있다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "대형 항목",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[704] = {
+		id = 704,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "C-185-MI",
+		lv_limit = 30,
+		desc = "성정 큐브에 관한 기초 이론은 큐브의 구조에 대한 인식에서 시작된다. 큐브의 기초 구조에 대한 이론 구축 작업은 여전히 전력으로 이루어지고 있다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "대형 항목",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[711] = {
+		id = 711,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-622-MI",
+		lv_limit = 30,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52001,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[712] = {
+		id = 712,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-636-MI",
+		lv_limit = 30,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52002,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[713] = {
+		id = 713,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-654-MI",
+		lv_limit = 30,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52003,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[714] = {
+		id = 714,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "B-682-MI",
+		lv_limit = 40,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52004,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[715] = {
+		id = 715,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-235-MI",
+		lv_limit = 50,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52005,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[716] = {
+		id = 716,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-268-MI",
+		lv_limit = 60,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52006,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[717] = {
+		id = 717,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-128-MI",
+		lv_limit = 65,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52007,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[718] = {
+		id = 718,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-164-MI",
+		lv_limit = 70,
+		desc = "성정 큐브의 구조에 관한 다양한 가설에 대하여 실증 실험을 실시하는 연구 프로젝트. 실전에서 데이터를 수집하여 아이디어의 과학적 증명에 기여하자. ",
+		condition = 52008,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[721] = {
+		id = 721,
+		rarity = 1,
+		time = 10800,
+		type = 1,
+		name = "T-018-MI",
+		lv_limit = 30,
+		desc = "「건조」 이외에, 성정 큐브의 민간 이용에 관한 연구의 제안도 들어왔다. 기술 전용의 가능성을 모색하는 프로젝트를 위해서는 군의 조력도 필요하다. ",
+		condition = 52021,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[722] = {
+		id = 722,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "T-384-MI",
+		lv_limit = 30,
+		desc = "「건조」 이외에, 성정 큐브의 민간 이용에 관한 연구의 제안도 들어왔다. 기술 전용의 가능성을 모색하는 프로젝트를 위해서는 군의 조력도 필요하다. ",
+		condition = 52022,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[723] = {
+		id = 723,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "T-249-MI",
+		lv_limit = 30,
+		desc = "「건조」 이외에, 성정 큐브의 민간 이용에 관한 연구의 제안도 들어왔다. 기술 전용의 가능성을 모색하는 프로젝트를 위해서는 군의 조력도 필요하다. ",
+		condition = 52023,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[731] = {
+		id = 731,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "E-031-MI",
+		lv_limit = 30,
+		desc = "성정 큐브와 「의장」의 관련성을 조사하는 수많은 시도는 막대한 실험 데이터를 토대로 실시되고 있어. 불필요한 의장을 제공해서 실험 샘플로 돌리자. ",
+		condition = 52031,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[732] = {
+		id = 732,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "E-315-MI",
+		lv_limit = 30,
+		desc = "성정 큐브와 「의장」의 관련성을 조사하는 수많은 시도는 막대한 실험 데이터를 토대로 실시되고 있어. 불필요한 의장을 제공해서 실험 샘플로 돌리자. ",
+		condition = 52032,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[741] = {
+		id = 741,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "G-412-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[742] = {
+		id = 742,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "G-412-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[743] = {
+		id = 743,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "G-236-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[744] = {
+		id = 744,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "G-236-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[745] = {
+		id = 745,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "G-531-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[746] = {
+		id = 746,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "G-531-MI",
+		lv_limit = 30,
+		desc = "뛰어난 과학의 발전을 지탱하는 것은 우수한 두뇌, 그리고... 지원자로부터 제공되는 연구자금이다. 남은 자금을 기부하여 기술 연구를 응원하자. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[751] = {
+		id = 751,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-780-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[752] = {
+		id = 752,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-736-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[753] = {
+		id = 753,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-787-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[754] = {
+		id = 754,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-711-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[755] = {
+		id = 755,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "D-764-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[761] = {
+		id = 761,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-380-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "chara_meikelunbao",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42072,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[762] = {
+		id = 762,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-336-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "chara_jinshi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42075,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[763] = {
+		id = 763,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-387-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "chara_dimiteli",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42074,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[764] = {
+		id = 764,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-311-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "chara_kansasi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42071,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[765] = {
+		id = 765,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "D-364-MI",
+		lv_limit = 30,
+		desc = "성정 큐브가 불특정 다수 인간의 집합인식――이미지를 구현화한다면, 그것을 원하는 방향으로 「지향」시킴으로써, 어떤 결과를 가져올 수 있을까. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_red",
+		bg_icon = "chara_kunibeierdi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42073,
+				1
+			},
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[771] = {
+		id = 771,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-302-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17001,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[772] = {
+		id = 772,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-310-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17011,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[773] = {
+		id = 773,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-351-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17021,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[774] = {
+		id = 774,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-368-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17031,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[775] = {
+		id = 775,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "Q-389-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17041,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[776] = {
+		id = 776,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-202-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17002,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[777] = {
+		id = 777,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-210-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17012,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[778] = {
+		id = 778,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-251-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17022,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[779] = {
+		id = 779,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-268-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17032,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[780] = {
+		id = 780,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "Q-289-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17042,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[781] = {
+		id = 781,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-002-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[782] = {
+		id = 782,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-010-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17013,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[783] = {
+		id = 783,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-051-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17023,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[784] = {
+		id = 784,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-068-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17033,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[785] = {
+		id = 785,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "Q-089-MI",
+		lv_limit = 30,
+		desc = "의장과 성정 큐브의 공명 현상 제어 가능하도록, 모든 수단으로 해당 현상이 발생하는 장면을 재현하여, 이 현상을 가장 효과적으로 이용할 수 있는 장면을 검토한다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "중형 항목",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52092,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[791] = {
+		id = 791,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "성정 큐브를 문자 그대로 물리적으로 「분해」하여, 구조를 분석한다. 성공 사례는 없으나 실험할 가치는 다분히 있다고 생각된다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[792] = {
+		id = 792,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "성정 큐브를 문자 그대로 물리적으로 「분해」하여, 구조를 분석한다. 성공 사례는 없으나 실험할 가치는 다분히 있다고 생각된다. ",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[793] = {
+		id = 793,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "성정 큐브를 문자 그대로 물리적으로 「분해」하여, 구조를 분석한다. 성공 사례는 없으나 실험할 가치는 다분히 있다고 생각된다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[794] = {
+		id = 794,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "성정 큐브를 문자 그대로 물리적으로 「분해」하여, 구조를 분석한다. 성공 사례는 없으나 실험할 가치는 다분히 있다고 생각된다. ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "소형 항목",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52091,
 				1
 			},
 			{
@@ -23846,6 +26034,11 @@ pg.technology_data_template = {
 		623,
 		631,
 		632,
+		633,
+		634,
+		635,
+		636,
+		637,
 		641,
 		642,
 		643,
@@ -23881,6 +26074,58 @@ pg.technology_data_template = {
 		692,
 		693,
 		694,
+		701,
+		702,
+		703,
+		704,
+		711,
+		712,
+		713,
+		714,
+		715,
+		716,
+		717,
+		718,
+		721,
+		722,
+		723,
+		731,
+		732,
+		741,
+		742,
+		743,
+		744,
+		745,
+		746,
+		751,
+		752,
+		753,
+		754,
+		755,
+		761,
+		762,
+		763,
+		764,
+		765,
+		771,
+		772,
+		773,
+		774,
+		775,
+		776,
+		777,
+		778,
+		779,
+		780,
+		781,
+		782,
+		783,
+		784,
+		785,
+		791,
+		792,
+		793,
+		794,
 		1001,
 		1002,
 		1003,

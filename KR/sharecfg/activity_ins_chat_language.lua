@@ -45690,7 +45690,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4571] = {
-		param = "이모티콘: 잘 자",
+		param = "20",
 		ship_group = 40814,
 		option = "",
 		type = 4,

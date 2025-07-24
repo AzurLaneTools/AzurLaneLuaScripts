@@ -279,6 +279,12 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.canUpdate = true
 
 		slot0.viewComponent:setEquipmentUpdate()
+
+		if #slot3 > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3
+			})
+		end
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		if slot0.canUpdate then
 			slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())

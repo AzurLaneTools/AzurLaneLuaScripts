@@ -161,6 +161,10 @@ pg.pay_data_display = setmetatable({
 		2050,
 		2051,
 		2052,
+		2053,
+		2054,
+		2055,
+		2056,
 		5011,
 		5012,
 		5013,
@@ -15772,6 +15776,256 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40061,
+				1
+			}
+		}
+	},
+	[2053] = {
+		picture = "tech5_display",
+		name = "PR 특별 계획함팩·Ⅴ기",
+		type = 0,
+		limit_arg = 0,
+		descrip = "특별 계획함・Ⅴ와 교환가능한 아이템 등을 입수할 수 있습니다. ",
+		subject = "PR 특별 계획함팩·Ⅴ기",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 20000,
+		descrip_extra = "此处不会被看到",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift150",
+		extra_gem = 0,
+		id = 2053,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		name_display = "PR 특별 계획함팩·Ⅴ기",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2054] = {
+		picture = "tech5_promotion",
+		name = "PR함선 Ⅴ기 교환 아이템＋강화 유닛 세트",
+		type = 0,
+		limit_arg = 1,
+		descrip = "내용",
+		subject = "PR함선 Ⅴ기 교환 아이템＋강화 유닛 세트",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 20000,
+		descrip_extra = "*이미 Ⅴ기 PR함선을 모두 소유한 경우, 사용시에 아이템으로 변환됩니다(아이콘 탭에서 확인).",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift150",
+		extra_gem = 0,
+		id = 2054,
+		airijp_id = "com.yostarjp.azurlane.tech13",
+		name_display = "PR함선 Ⅴ기 교환 아이템\n＋강화 유닛 세트",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40062,
+				1
+			}
+		}
+	},
+	[2055] = {
+		picture = "tech5_normal",
+		name = "PR함선 Ⅴ기 교환 아이템",
+		type = 0,
+		limit_arg = 2,
+		descrip = "내용",
+		subject = "PR함선 Ⅴ기 교환 아이템",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "*이미 Ⅴ기 PR함선을 모두 소유한 경우, 사용시에 아이템으로 변환됩니다(아이콘 탭에서 확인).",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift149",
+		extra_gem = 0,
+		id = 2055,
+		airijp_id = "com.yostarjp.azurlane.tech14",
+		name_display = "PR함선 Ⅴ기 교환 아이템",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40063,
+				1
+			}
+		}
+	},
+	[2056] = {
+		picture = "tech5_promotion",
+		name = "PR 특별 계획함 Ⅴ기 강화 유닛 세트",
+		type = 0,
+		limit_arg = 3,
+		descrip = "내용",
+		subject = "강화 유닛",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 8900,
+		descrip_extra = "구입하면 지향형 강화 유닛・Ⅴ기×343개 입수 가능",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift151",
+		extra_gem = 0,
+		id = 2056,
+		airijp_id = "com.yostarjp.azurlane.tech15",
+		name_display = "강화 유닛",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40064,
 				1
 			}
 		}

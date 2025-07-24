@@ -4,10 +4,6 @@ slot0.getUIName = function(slot0)
 	return "SelectDorm3DUI"
 end
 
-slot0.optionsPath = {
-	"Main/option"
-}
-
 slot0.init = function(slot0)
 	slot0.rtMap = slot0._tf:Find("Map")
 	slot0.rtIconTip = slot0.rtMap:Find("tip")
@@ -47,6 +43,12 @@ slot0.init = function(slot0)
 		uv0:emit(SelectDorm3DMediator.OPEN_SHOP_LAYER, function ()
 			setActive(uv0.rtMain:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
 		end)
+	end)
+	onButton(slot0, slot0.rtMain:Find("option/setting"), function ()
+		uv0:emit(SelectDorm3DMediator.OPEN_SETTING_LAYER)
+	end)
+	onButton(slot0, slot0.rtMain:Find("option/home"), function ()
+		uv0:emit(BaseUI.ON_HOME)
 	end)
 
 	slot0.rtStamina = slot0.rtMain:Find("stamina")

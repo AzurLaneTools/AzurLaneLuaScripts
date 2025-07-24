@@ -30,7 +30,7 @@ slot0.register = function(slot0)
 		end
 
 		uv0.data:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.battle_ui or 0)
-		uv0:SetDeviceMaxPlayerLevel(slot1.level)
+		uv1.SetDeviceMaxPlayerLevel(slot1.level)
 	end)
 	slot0:on(11004, function (slot0)
 		if not uv0.data then
@@ -256,14 +256,14 @@ slot0.IsShowCommssionTip = function(slot0)
 	return slot18 or slot2 or slot8 or slot9 or slot12 ~= 0 and slot10 > slot12 - 10 or slot13 or slot15 > 0 or slot16 > 0 or slot20
 end
 
-slot0.SetDeviceMaxPlayerLevel = function(slot0, slot1)
-	if slot0:GetDeviceMaxPlayerLevel() < slot1 then
-		PlayerPrefs.SetInt("DeviceMaxPlayerLevel", slot1)
+slot0.SetDeviceMaxPlayerLevel = function(slot0)
+	if uv0.GetDeviceMaxPlayerLevel() < slot0 then
+		PlayerPrefs.SetInt("DeviceMaxPlayerLevel", slot0)
 		PlayerPrefs.Save()
 	end
 end
 
-slot0.GetDeviceMaxPlayerLevel = function(slot0)
+slot0.GetDeviceMaxPlayerLevel = function()
 	return PlayerPrefs.GetInt("DeviceMaxPlayerLevel", 0)
 end
 

@@ -116,6 +116,16 @@ slot6.UpdateWeapon = function(slot0)
 	end
 end
 
+slot6.SetStrikePoint = function(slot0, slot1)
+	slot0._strikePoint = slot1
+
+	slot0:SetPosition(Vector3(slot0._pos.x, slot0._pos.y, slot1.z))
+end
+
+slot6.GetStrikePoint = function(slot0)
+	return slot0._strikePoint
+end
+
 slot6.GetWeapon = function(slot0)
 	return slot0._weapon
 end

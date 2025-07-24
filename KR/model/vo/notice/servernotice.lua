@@ -11,6 +11,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.icon = slot1.icon
 	slot0.track = slot1.track
 	slot0.priority = slot1.priority
+	slot0.need_level = slot1.need_level
 
 	if #string.split(slot0.title, "&") > 1 then
 		slot0.title = slot2[1]
@@ -42,6 +43,10 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.code = slot0:prefKey()
+end
+
+slot0.ShouldShow = function(slot0)
+	return slot0.need_level < getProxy(PlayerProxy):getRawData().level
 end
 
 slot0.prefKey = function(slot0)

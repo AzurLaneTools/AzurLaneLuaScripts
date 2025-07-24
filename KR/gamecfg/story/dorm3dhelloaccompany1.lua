@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "저기… {dorm3d}?",
+			say = "으음…{dorm3d}？\n아뇨, 시리우스는 잔 적 없습니다만?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14499,6 +14499,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 }
 
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 406mm/45 3연장포 MK7
+127mm 연장 양용포 MK12
+ 4연장 보포스 40mm 기관포 
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 305mm 4연장포 SKC39
+127mm KM40 연장포
+파일럿형 55mm Gerät 58 대공포
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+135mm 연장포 Model1938
+파일럿형 533mm 4연장 어뢰 Si 270
+파일럿형 20mm Scotti 6연장 기관포 Model1941
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 180mm 3연장포 B-1-P Model1932 개조
+550mm 3연장 어뢰 발사관 
+2연장 57mm/L60 보포스 대공 기관포 Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 283mm/54.5 3연장포 
+100mm 2연장 98식 고각포 개조
+2연장 57mm/L60 보포스 대공 기관포 Mle1951
+</color></size>]]
+}
+
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "안전 구역의 범위가 제한됩니다."
 }
@@ -36973,7 +37038,7 @@ _G.pg.base.gametip.word_got_pt = {
 
 
 _G.pg.base.gametip.word_activity_not_open = {
-	tip = "진행 기간 외"
+	tip = "개최 기간 외"
 }
 
 
@@ -38663,4 +38728,19 @@ _G.pg.base.gametip.battleui_display3 = {
 
 _G.pg.base.gametip.zengke_series_serverinfo = {
 	tip = "서버"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom = {
+	tip = "블룸"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
+	tip = "낮음"
 }

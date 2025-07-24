@@ -1,15 +1,16 @@
 pg = pg or {}
 pg.ship_data_blueprint = {
 	[29901] = {
+		unlock_word = "도감의 로열 네이비 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "海王星",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK29901",
 		strengthen_item = 42001,
-		unlock_word = "도감의 로열 네이비 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		blueprint_version = 1,
 		id = 29901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60011
 		},
@@ -104,15 +105,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29902] = {
+		unlock_word = "도감의 로열 네이비 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		name = "君主",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK29902",
 		strengthen_item = 42002,
-		unlock_word = "도감의 로열 네이비 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		blueprint_version = 1,
 		id = 29902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60021
 		},
@@ -207,15 +209,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39901] = {
+		unlock_word = "도감의 사쿠라 엠파이어 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "伊吹",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK39901",
 		strengthen_item = 42003,
-		unlock_word = "도감의 사쿠라 엠파이어 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		blueprint_version = 1,
 		id = 39901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60031
 		},
@@ -310,15 +313,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39902] = {
+		unlock_word = "도감의 사쿠라 엠파이어 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		name = "出云",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK39902",
 		strengthen_item = 42004,
-		unlock_word = "도감의 사쿠라 엠파이어 주력함대 함선 등록 갯수 <color=#92fc63>10</color> 이상",
 		blueprint_version = 1,
 		id = 39902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60041
 		},
@@ -413,15 +417,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49901] = {
+		unlock_word = "도감의 메탈 블러드 선봉함대 함선 등록 갯수 <color=#92fc63>7</color> 이상",
 		name = "罗恩",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK49901",
 		strengthen_item = 42005,
-		unlock_word = "도감의 메탈 블러드 선봉함대 함선 등록 갯수 <color=#92fc63>7</color> 이상",
 		blueprint_version = 1,
 		id = 49901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60051
 		},
@@ -516,15 +521,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89901] = {
+		unlock_word = "도감의 이글 유니온 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		name = "路易九世",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK89901",
 		strengthen_item = 42006,
-		unlock_word = "도감의 이글 유니온 선봉함대 함선 등록 갯수 <color=#92fc63>20</color> 이상",
 		blueprint_version = 1,
 		id = 89901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60061
 		},
@@ -619,15 +625,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19901] = {
+		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상",
 		name = "西雅图",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9907,
 		luck_story = "LUCK19901",
 		strengthen_item = 42011,
-		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상",
 		blueprint_version = 2,
 		id = 19901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60071
 		},
@@ -722,15 +729,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19902] = {
+		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>810</color>이상",
 		name = "佐治亚",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9908,
 		luck_story = "LUCK19902",
 		strengthen_item = 42012,
-		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>810</color>이상",
 		blueprint_version = 2,
 		id = 19902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60081
 		},
@@ -825,15 +833,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39903] = {
+		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>780</color>이상",
 		name = "北风",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9909,
 		luck_story = "LUCK39903",
 		strengthen_item = 42013,
-		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>780</color>이상",
 		blueprint_version = 2,
 		id = 39903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60091
 		},
@@ -928,15 +937,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39904] = {
+		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>900</color>이상",
 		name = "吾妻",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9910,
 		luck_story = "LUCK39904",
 		strengthen_item = 42014,
-		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>900</color>이상",
 		blueprint_version = 2,
 		id = 39904,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60101
 		},
@@ -1033,15 +1043,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49902] = {
+		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>630</color>이상",
 		name = "腓特烈大帝",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9911,
 		luck_story = "LUCK49902",
 		strengthen_item = 42015,
-		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>630</color>이상",
 		blueprint_version = 2,
 		id = 49902,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60111
 		},
@@ -1138,15 +1149,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99901] = {
+		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상、메탈 블러드 진영 기술Pt<color=#92fc63>420</color>이상",
 		name = "加斯科涅",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9912,
 		luck_story = "LUCK99901",
 		strengthen_item = 42016,
-		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>760</color>이상、메탈 블러드 진영 기술Pt<color=#92fc63>420</color>이상",
 		blueprint_version = 2,
 		id = 99901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60120,
 			60121
@@ -1242,15 +1254,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29903] = {
+		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>700</color> 달성",
 		name = "柴郡",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9913,
 		luck_story = "LUCK29903",
 		strengthen_item = 42021,
-		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>700</color> 달성",
 		blueprint_version = 3,
 		id = 29903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60131
 		},
@@ -1345,15 +1358,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29904] = {
+		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>820</color> 달성",
 		name = "德雷克",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9914,
 		luck_story = "LUCK29904",
 		strengthen_item = 42022,
-		unlock_word = "로열 네이비 진영 과학 기술 포인트 <color=#92fc63>820</color> 달성",
 		blueprint_version = 3,
 		id = 29904,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60141
 		},
@@ -1450,15 +1464,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49903] = {
+		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>550</color> 달성",
 		name = "美因茨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9915,
 		luck_story = "LUCK49903",
 		strengthen_item = 42023,
-		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>550</color> 달성",
 		blueprint_version = 3,
 		id = 49903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60151
 		},
@@ -1553,15 +1568,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49904] = {
+		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>600</color> 달성",
 		name = "奥丁",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9916,
 		luck_story = "LUCK49904",
 		strengthen_item = 42024,
-		unlock_word = "메탈 블러드 진영 과학 기술 포인트 <color=#92fc63>600</color> 달성",
 		blueprint_version = 3,
 		id = 49904,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60161
 		},
@@ -1656,15 +1672,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89902] = {
+		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		name = "香槟",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9917,
 		luck_story = "LUCK89902",
 		strengthen_item = 42025,
-		unlock_word = "이글 유니온 진영 과학 기술 포인트 <color=#92fc63>760</color> 달성, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		blueprint_version = 3,
 		id = 89902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60170,
 			60171
@@ -1760,15 +1777,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19903] = {
+		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>850</color>이상",
 		name = "安克雷奇",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9918,
 		luck_story = "LUCK19903",
 		strengthen_item = 42031,
-		unlock_word = "이글 유니온 진영 기술Pt<color=#92fc63>850</color>이상",
 		blueprint_version = 4,
 		id = 19903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60181
 		},
@@ -1863,15 +1881,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39905] = {
+		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>950</color>이상",
 		name = "白龙",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9919,
 		luck_story = "LUCK39905",
 		strengthen_item = 42032,
-		unlock_word = "사쿠라 엠파이어 진영 기술Pt<color=#92fc63>950</color>이상",
 		blueprint_version = 4,
 		id = 39905,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60191
 		},
@@ -1968,15 +1987,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49905] = {
+		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>700</color>이상",
 		name = "埃吉尔",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9920,
 		luck_story = "",
 		strengthen_item = 42033,
-		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>700</color>이상",
 		blueprint_version = 4,
 		id = 49905,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60201
 		},
@@ -2058,15 +2078,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49906] = {
+		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상",
 		name = "奥古斯特·冯·帕塞瓦尔",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9921,
 		luck_story = "LUCK49906",
 		strengthen_item = 42034,
-		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상",
 		blueprint_version = 4,
 		id = 49906,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60211
 		},
@@ -2161,15 +2182,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[69901] = {
+		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		name = "马可波罗",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9922,
 		luck_story = "LUCK69901",
 		strengthen_item = 42035,
-		unlock_word = "메탈 블러드 진영 기술Pt<color=#92fc63>600</color>이상, 로열 네이비 진영 과학 기술 포인트<color=#92fc63>700</color> 달성",
 		blueprint_version = 4,
 		id = 69901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60220,
 			60221
@@ -2265,15 +2287,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29905] = {
+		unlock_word = "로열 네이비 진영 기술PT <color=#92fc63>900</color> 도달",
 		name = "普利茅斯",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9923,
 		luck_story = "",
 		strengthen_item = 42041,
-		unlock_word = "로열 네이비 진영 기술PT <color=#92fc63>900</color> 도달",
 		blueprint_version = 5,
 		id = 29905,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60231
 		},
@@ -2355,15 +2378,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49907] = {
+		unlock_word = "메탈 블러드 진영 기술PT <color=#92fc63>700</color> 도달",
 		name = "鲁普雷希特亲王",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9924,
 		luck_story = "LUCK49907",
 		strengthen_item = 42042,
-		unlock_word = "메탈 블러드 진영 기술PT <color=#92fc63>700</color> 도달",
 		blueprint_version = 5,
 		id = 49907,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60241
 		},
@@ -2453,18 +2477,21 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40140
+		}
 	},
 	[59901] = {
+		unlock_word = "이스트 글림 진영 기술PT <color=#92fc63>160</color> 도달",
 		name = "哈尔滨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9925,
 		luck_story = "LUCK59901",
 		strengthen_item = 42043,
-		unlock_word = "이스트 글림 진영 기술PT <color=#92fc63>160</color> 도달",
 		blueprint_version = 5,
 		id = 59901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60251
 		},
@@ -2554,18 +2581,21 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40140
+		}
 	},
 	[79901] = {
+		unlock_word = "이글 유니온 진영 기술PT <color=#92fc63>760</color> 도달, 사르데냐 엠파이어 진영 기술PT <color=#92fc63>300</color> 도달",
 		name = "契卡洛夫",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9926,
 		luck_story = "LUCK79901",
 		strengthen_item = 42044,
-		unlock_word = "이글 유니온 진영 기술PT <color=#92fc63>760</color> 도달, 사르데냐 엠파이어 진영 기술PT <color=#92fc63>300</color> 도달",
 		blueprint_version = 5,
 		id = 79901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60260,
 			60261
@@ -2656,18 +2686,21 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40140
+		}
 	},
 	[89903] = {
+		unlock_word = "아이리스 리브레 진영 기술PT <color=#92fc63>250</color> 도달",
 		name = "布雷斯特",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9927,
 		luck_story = "",
 		strengthen_item = 42045,
-		unlock_word = "아이리스 리브레 진영 기술PT <color=#92fc63>250</color> 도달",
 		blueprint_version = 5,
 		id = 89903,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60271
 		},
@@ -2749,15 +2782,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19904] = {
+		unlock_word = "이글 유니온 진영 기술 Pt <color=#92fc63>1,000</color> 이상",
 		name = "奇尔沙治",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9928,
 		luck_story = "",
 		strengthen_item = 42051,
-		unlock_word = "이글 유니온 진영 기술 Pt <color=#92fc63>1,000</color> 이상",
 		blueprint_version = 6,
 		id = 19904,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60281
 		},
@@ -2839,15 +2873,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39906] = {
+		unlock_word = "사쿠라 엠파이어 진영 기술 Pt <color=#92fc63>900</color> 이상",
 		name = "四万十",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9929,
 		luck_story = "LUCK39906",
 		strengthen_item = 42052,
-		unlock_word = "사쿠라 엠파이어 진영 기술 Pt <color=#92fc63>900</color> 이상",
 		blueprint_version = 6,
 		id = 39906,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60291
 		},
@@ -2940,15 +2975,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49908] = {
+		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>850</color> 이상",
 		name = "菲利克斯·舒尔茨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9930,
 		luck_story = "LUCK49908",
 		strengthen_item = 42053,
-		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>850</color> 이상",
 		blueprint_version = 6,
 		id = 49908,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60301
 		},
@@ -3041,15 +3077,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49909] = {
+		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "兴登堡",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9931,
 		luck_story = "",
 		strengthen_item = 42054,
-		unlock_word = "메탈 블러드 진영 기술 Pt <color=#92fc63>950</color> 이상",
 		blueprint_version = 6,
 		id = 49909,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60311
 		},
@@ -3131,15 +3168,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99902] = {
+		unlock_word = "비시아 성좌 진영 기술 Pt <color=#92fc63>180</color> 이상, 메탈 블러드 진영 기술 Pt <color=#92fc63>800</color> 이상",
 		name = "弗兰德尔",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9932,
 		luck_story = "LUCK99902",
 		strengthen_item = 42055,
-		unlock_word = "비시아 성좌 진영 기술 Pt <color=#92fc63>180</color> 이상, 메탈 블러드 진영 기술 Pt <color=#92fc63>800</color> 이상",
 		blueprint_version = 6,
 		id = 99902,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60320,
 			60321
@@ -3233,15 +3271,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19905] = {
+		unlock_word = "이글 유니온 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "哈尔福德",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9933,
 		luck_story = "",
 		strengthen_item = 42061,
-		unlock_word = "이글 유니온 기술 Pt <color=#92fc63>950</color> 이상",
 		blueprint_version = 7,
 		id = 19905,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60331
 		},
@@ -3323,15 +3362,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39907] = {
+		unlock_word = "사쿠라 엠파이어 기술 Pt <color=#92fc63>950</color> 이상",
 		name = "大山",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9934,
 		luck_story = "",
 		strengthen_item = 42062,
-		unlock_word = "사쿠라 엠파이어 기술 Pt <color=#92fc63>950</color> 이상",
 		blueprint_version = 7,
 		id = 39907,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60341
 		},
@@ -3413,15 +3453,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[69902] = {
+		unlock_word = "사르데냐 엠파이어 기술 Pt <color=#92fc63>300</color> 이상, 노스 유니온 기술 Pt <color=#92fc63>200</color> 이상",
 		name = "那不勒斯",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9935,
 		luck_story = "",
 		strengthen_item = 42063,
-		unlock_word = "사르데냐 엠파이어 기술 Pt <color=#92fc63>300</color> 이상, 노스 유니온 기술 Pt <color=#92fc63>200</color> 이상",
 		blueprint_version = 7,
 		id = 69902,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60350,
 			60351
@@ -3504,15 +3545,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79902] = {
+		unlock_word = "노스 유니온 기술 Pt <color=#92fc63>300</color> 이상, 사르데냐 엠파이어 기술 Pt <color=#92fc63>200</color> 이상",
 		name = "纳希莫夫",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9936,
 		luck_story = "",
 		strengthen_item = 42064,
-		unlock_word = "노스 유니온 기술 Pt <color=#92fc63>300</color> 이상, 사르데냐 엠파이어 기술 Pt <color=#92fc63>200</color> 이상",
 		blueprint_version = 7,
 		id = 79902,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60360,
 			60361
@@ -3595,15 +3637,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[89904] = {
+		unlock_word = "아이리스 리브레 기술 Pt <color=#92fc63>230</color> 이상",
 		name = "贝亚德",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9937,
 		luck_story = "",
 		strengthen_item = 42065,
-		unlock_word = "아이리스 리브레 기술 Pt <color=#92fc63>230</color> 이상",
 		blueprint_version = 7,
 		id = 89904,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60371
 		},
@@ -3684,6 +3727,466 @@ pg.ship_data_blueprint = {
 		},
 		gain_item_id = {}
 	},
+	[19906] = {
+		unlock_word = "유니온 기술Pt<color=#92fc63>950</color>이상",
+		name = "堪萨斯",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9938,
+		luck_story = "",
+		strengthen_item = 42071,
+		blueprint_version = 8,
+		id = 19906,
+		unlock_task_open_condition = {
+			60381
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60382,
+				0
+			},
+			{
+				60383,
+				86400
+			},
+			{
+				60384,
+				172800
+			},
+			{
+				60385,
+				259200
+			},
+			{
+				60386,
+				345600
+			},
+			{
+				60387,
+				432000
+			},
+			{
+				60388,
+				518400
+			},
+			{
+				60389,
+				518400
+			}
+		},
+		strengthen_effect = {
+			3801,
+			3802,
+			3803,
+			3804,
+			3805,
+			3806,
+			3807,
+			3808,
+			3809,
+			3810,
+			3811,
+			3812,
+			3813,
+			3814,
+			3815,
+			3816,
+			3817,
+			3818,
+			3819,
+			3820,
+			3821,
+			3822,
+			3823,
+			3824,
+			3825,
+			3826,
+			3827,
+			3828,
+			3829,
+			3830
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {},
+		normal_display = {
+			"주포 포좌+1"
+		}
+	},
+	[49910] = {
+		unlock_word = "메탈 블러드 기술Pt<color=#92fc63>950</color>이상",
+		name = "梅克伦堡",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
+		simulate_dungeon = 9939,
+		luck_story = "",
+		strengthen_item = 42072,
+		blueprint_version = 8,
+		id = 49910,
+		unlock_task_open_condition = {
+			60391
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60392,
+				0
+			},
+			{
+				60393,
+				86400
+			},
+			{
+				60394,
+				172800
+			},
+			{
+				60395,
+				259200
+			},
+			{
+				60396,
+				345600
+			},
+			{
+				60397,
+				432000
+			},
+			{
+				60398,
+				518400
+			},
+			{
+				60399,
+				518400
+			}
+		},
+		strengthen_effect = {
+			3901,
+			3902,
+			3903,
+			3904,
+			3905,
+			3906,
+			3907,
+			3908,
+			3909,
+			3910,
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917,
+			3918,
+			3919,
+			3920,
+			3921,
+			3922,
+			3923,
+			3924,
+			3925,
+			3926,
+			3927,
+			3928,
+			3929,
+			3930
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[69903] = {
+		unlock_word = "사르데냐 기술Pt<color=#92fc63>300</color>이상",
+		name = "维托里奥·库尼贝尔蒂",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9940,
+		luck_story = "",
+		strengthen_item = 42073,
+		blueprint_version = 8,
+		id = 69903,
+		unlock_task_open_condition = {
+			60401
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60402,
+				0
+			},
+			{
+				60403,
+				86400
+			},
+			{
+				60404,
+				172800
+			},
+			{
+				60405,
+				259200
+			},
+			{
+				60406,
+				345600
+			},
+			{
+				60407,
+				432000
+			},
+			{
+				60408,
+				518400
+			},
+			{
+				60409,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4001,
+			4002,
+			4003,
+			4004,
+			4005,
+			4006,
+			4007,
+			4008,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014,
+			4015,
+			4016,
+			4017,
+			4018,
+			4019,
+			4020,
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			4029,
+			4030
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[79903] = {
+		unlock_word = "노스 유니온 기술Pt<color=#92fc63>300</color>이상",
+		name = "迪米特里·顿斯科伊",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9941,
+		luck_story = "",
+		strengthen_item = 42074,
+		blueprint_version = 8,
+		id = 79903,
+		unlock_task_open_condition = {
+			60411
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60412,
+				0
+			},
+			{
+				60413,
+				86400
+			},
+			{
+				60414,
+				172800
+			},
+			{
+				60415,
+				259200
+			},
+			{
+				60416,
+				345600
+			},
+			{
+				60417,
+				432000
+			},
+			{
+				60418,
+				518400
+			},
+			{
+				60419,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4101,
+			4102,
+			4103,
+			4104,
+			4105,
+			4106,
+			4107,
+			4108,
+			4109,
+			4110,
+			4111,
+			4112,
+			4113,
+			4114,
+			4115,
+			4116,
+			4117,
+			4118,
+			4119,
+			4120,
+			4121,
+			4122,
+			4123,
+			4124,
+			4125,
+			4126,
+			4127,
+			4128,
+			4129,
+			4130
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	},
+	[119901] = {
+		unlock_word = "메탈 블러드 기술Pt<color=#92fc63>800</color>이상, 사르데냐 기술Pt<color=#92fc63>200</color>이상",
+		name = "金狮",
+		price = 6000,
+		is_pursuing = 0,
+		simulate_dungeon = 9942,
+		luck_story = "",
+		strengthen_item = 42075,
+		blueprint_version = 8,
+		id = 119901,
+		unlock_task_open_condition = {
+			60420,
+			60421
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60422,
+				0
+			},
+			{
+				60423,
+				86400
+			},
+			{
+				60424,
+				172800
+			},
+			{
+				60425,
+				259200
+			},
+			{
+				60426,
+				345600
+			},
+			{
+				60427,
+				432000
+			},
+			{
+				60428,
+				518400
+			},
+			{
+				60429,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4201,
+			4202,
+			4203,
+			4204,
+			4205,
+			4206,
+			4207,
+			4208,
+			4209,
+			4210,
+			4211,
+			4212,
+			4213,
+			4214,
+			4215,
+			4216,
+			4217,
+			4218,
+			4219,
+			4220,
+			4221,
+			4222,
+			4223,
+			4224,
+			4225,
+			4226,
+			4227,
+			4228,
+			4229,
+			4230
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {},
+		normal_display = {
+			"폭탄 공습Lv.1"
+		}
+	},
 	all = {
 		29901,
 		29902,
@@ -3721,6 +4224,11 @@ pg.ship_data_blueprint = {
 		39907,
 		69902,
 		79902,
-		89904
+		89904,
+		19906,
+		49910,
+		69903,
+		79903,
+		119901
 	}
 }

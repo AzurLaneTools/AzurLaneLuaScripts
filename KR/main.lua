@@ -36,7 +36,6 @@ QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.Ski
 
 GraphicSettingConst.ClearPlayerPrefs()
 GraphicSettingConst.InitDefautQuality()
-GraphicSettingConst.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false

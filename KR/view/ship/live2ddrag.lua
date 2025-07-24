@@ -963,7 +963,7 @@ slot0.updateTrigger = function(slot0)
 		if slot0._active then
 			slot0:setAbleWithFlag(true)
 
-			if slot3 <= Time.time - slot0.mouseInputDownTime then
+			if slot3 <= Time.time - slot0.mouseInputDownTime and not slot0.l2dIsPlaying then
 				print("触发按压动作")
 				slot0:setAbleWithFlag(false)
 				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)

@@ -2905,6 +2905,13 @@ pg.name_code = {
 		code = "U-37",
 		nation = 0
 	},
+	[550] = {
+		name = "메클렌부르크",
+		type = 1,
+		id = 550,
+		code = "메클렌부르크",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,
