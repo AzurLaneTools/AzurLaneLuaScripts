@@ -30531,7 +30531,7 @@ _G.pg.base.spweapon_data_statistics[14340] = {
 	skill_upgrade = {
 		{
 			0,
-			112280
+			112290
 		}
 	},
 	hide_buff_upgrade = {},

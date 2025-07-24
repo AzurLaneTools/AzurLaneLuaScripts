@@ -39289,7 +39289,7 @@ _G.pg.base.gametip.yumia_award_4 = {
 
 
 _G.pg.base.gametip.yumia_pt_1 = {
-	tip = "活动期间，累计Pt可获取活动限定奖励。※领取时间延长至8月6日 24时"
+	tip = "活动期间，累计Pt可获取活动限定奖励。※领取时间延长至8月13日 24时"
 }
 
 

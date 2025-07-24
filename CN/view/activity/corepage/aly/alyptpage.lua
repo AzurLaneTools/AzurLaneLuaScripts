@@ -74,6 +74,7 @@ slot0.UpdateAward = function(slot0, slot1, slot2)
 	slot5 = slot3 <= slot0.ptData:GetLevel()
 	slot6 = not slot5 and slot3 <= slot0.ptData:GetMaxAvailableTargetIndex()
 
+	setText(slot2:Find("got/got_text"), i18n("yumia_pt_4"))
 	setActive(slot2:Find("got"), slot5)
 	setActive(slot2:Find("get"), slot6)
 	setActive(slot2:Find("lock"), not slot5 and not slot6)
