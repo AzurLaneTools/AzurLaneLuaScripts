@@ -29,7 +29,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168652,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -48,7 +48,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168653,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -67,7 +67,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168654,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -86,7 +86,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168655,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -105,7 +105,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168656,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -124,7 +124,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168657,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -143,7 +143,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168658,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -162,7 +162,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168659,
 					ship_tag_list = {
 						"NinaAdvent"
 					}
@@ -181,7 +181,7 @@ return {
 					"TargetHarmRandomByWeight"
 				},
 				arg_list = {
-					weapon_id = 168651,
+					weapon_id = 168660,
 					ship_tag_list = {
 						"NinaAdvent"
 					}

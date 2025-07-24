@@ -74,7 +74,7 @@ slot0.UpdateAward = function(slot0, slot1, slot2)
 	slot5 = slot3 <= slot0.ptData:GetLevel()
 	slot6 = not slot5 and slot3 <= slot0.ptData:GetMaxAvailableTargetIndex()
 
-	setText(slot0:findTF("got/got_text", slot2), i18n("yumia_pt_4"))
+	setText(slot2:Find("got/got_text"), i18n("yumia_pt_4"))
 	setActive(slot2:Find("got"), slot5)
 	setActive(slot2:Find("get"), slot6)
 	setActive(slot2:Find("lock"), not slot5 and not slot6)
@@ -114,12 +114,6 @@ slot0.OnUpdateFlush = function(slot0)
 
 	setText(slot0.get, i18n("word_got_pt"))
 	setText(slot0.ptCount, slot0.ptData.count)
-
-	if slot0.ptData:GetMaxAvailableTargetIndex() ~= slot0.ptData:GetLevel() then
-		setGray(slot0.getBtn, false, true)
-	else
-		setGray(slot0.getBtn, true, true)
-	end
 end
 
 slot0.OnHideFlush = function(slot0)

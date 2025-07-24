@@ -39800,7 +39800,7 @@ _G.pg.base.gametip.yumia_award_4 = {
 
 
 _G.pg.base.gametip.yumia_pt_1 = {
-	tip = "イベントに参加し、累計PT報酬を手に入れよう！"
+	tip = "イベントに参加し、累計PT報酬を手に入れよう！取得期限：8.13 23:59まで"
 }
 
 
