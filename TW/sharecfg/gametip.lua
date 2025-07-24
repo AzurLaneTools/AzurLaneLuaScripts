@@ -28640,5 +28640,20 @@ cs.gametip = {
 		1008647,
 		86,
 		true
+	},
+	battleui_display1 = {
+		1008733,
+		93,
+		true
+	},
+	battleui_display2 = {
+		1008826,
+		93,
+		true
+	},
+	battleui_display3 = {
+		1008919,
+		90,
+		true
 	}
 }

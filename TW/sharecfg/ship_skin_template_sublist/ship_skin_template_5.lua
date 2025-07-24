@@ -251,7 +251,7 @@ pg.base.ship_skin_template_5 = {
 		}
 	},
 	[201354] = {
-		name = "檯球桌上的猫與“兔”",
+		name = "撞球桌上的貓與「兔子」 ",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,

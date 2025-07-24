@@ -23366,7 +23366,7 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 			info = [[
 <size=31><color=#92fc63>TIPS：
 在沒有許願有效次數時無法進行許願</color></size>
-1.活動期間指揮官每天獲得<color=#92fc63>1次幫助艦船掛繪馬的祈願次數</color>，次數可疊加，消耗祈願次數可以獲得新年的祝福和2次許願有效次數，<color=#ff5c5c>最多可獲得14次許願有效次數</color>
+1.活動期間指揮官每天獲得<color=#92fc63>1次幫助艦船掛繪馬的祈願次數</color>，次數可疊加，消耗祈願次數可以獲得夏日的祝福和2次許願有效次數，<color=#ff5c5c>最多可獲得14次許願有效次數</color>
 2.幫助艦船掛繪馬會獲得對應艦船的祈願加成和夏日的祝福，集齊7個夏日的祝福可獲得「夏日祭邀請函」
 3.同一時間只能存在一種艦船的祝福的祈願加成
 4.擁有有效次數的情況下消耗5物資進行許願可以選擇不同加成效果：
@@ -37633,4 +37633,19 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "前往"
+}
+
+
+_G.pg.base.gametip.battleui_display1 = {
+	tip = "全新介面"
+}
+
+
+_G.pg.base.gametip.battleui_display2 = {
+	tip = "豐富特效"
+}
+
+
+_G.pg.base.gametip.battleui_display3 = {
+	tip = "暫停欄"
 }
