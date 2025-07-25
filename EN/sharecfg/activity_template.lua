@@ -36800,7 +36800,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"Merit Shop"
+						"Shop"
 					},
 					{
 						2,
@@ -36951,7 +36951,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"Merit Shop"
+						"Shop"
 					},
 					{
 						2,
