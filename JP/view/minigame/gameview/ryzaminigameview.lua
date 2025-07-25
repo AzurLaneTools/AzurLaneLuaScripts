@@ -103,8 +103,11 @@ slot0.updateMainUI = function(slot0)
 	slot0:checkGet()
 
 	if slot3 == 1 and slot5 == 2 then
-		scrollTo(slot6, nil, 1)
-		pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+		if PlayerPrefs.GetInt("ryza_minigame_guide", 0) == 0 then
+			scrollTo(slot6, nil, 1)
+			pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+			PlayerPrefs.SetInt("ryza_minigame_guide", 1)
+		end
 	elseif PlayerPrefs.GetInt("ryza_minigame_help", 0) == 0 then
 		triggerButton(slot0.rtTitlePage:Find("main/btn_rule"))
 	end
