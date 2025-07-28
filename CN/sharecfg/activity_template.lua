@@ -27984,7 +27984,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"军需商店兑换"
+						"军火商店兑换"
 					},
 					{
 						2,
@@ -28135,7 +28135,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"军需商店兑换"
+						"军火商店兑换"
 					},
 					{
 						2,

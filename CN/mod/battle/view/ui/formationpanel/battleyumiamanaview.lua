@@ -27,8 +27,8 @@ slot3.init = function(slot0)
 	slot0._barVector = rtf(slot0._progress).sizeDelta
 
 	slot0:UpdateMana(0)
-	setText(findTF(slot0._tf, "tips/text", i18n("yumia_mana_battle_tip")))
-	setText(findTF(slot0._tf, "tips/text_shade", i18n("yumia_mana_battle_tip")))
+	setText(findTF(slot0._tf, "tips/text"), i18n("yumia_mana_battle_tip"))
+	setText(findTF(slot0._tf, "tips/text_shade"), i18n("yumia_mana_battle_tip"))
 	onButton(slot0, slot0._tf, function ()
 		uv0:showTips()
 	end)

@@ -31,9 +31,7 @@ slot0.SetUp = function(slot0, slot1)
 	slot0:Show()
 	seriesAsync({
 		function (slot0)
-			uv0:playAnima("Anim_NewBattleResultYumiaRewardPages_In", slot0)
-		end,
-		function (slot0)
+			uv0:playAnima("Anim_NewBattleResultYumiaRewardPages_In")
 			uv0:UpdateItem()
 			uv0:UpdateLine()
 			uv0:RegisterEvent(slot0)

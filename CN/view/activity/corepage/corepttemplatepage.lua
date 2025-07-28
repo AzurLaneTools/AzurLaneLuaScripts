@@ -23,6 +23,7 @@ end
 slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.displayBtn, function ()
 		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
+			blur = true,
 			type = uv0.ptData.type,
 			dropList = uv0.ptData.dropList,
 			targets = uv0.ptData.targets,
