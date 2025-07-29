@@ -2930,7 +2930,6 @@ pg.base.ship_skin_template_20 = {
 		gyro = 0,
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		spine_offset_profile = "",
 		shop_offset = "",
 		ship_l2d_id = "",
 		id = 11300041,
@@ -2959,6 +2958,12 @@ pg.base.ship_skin_template_20 = {
 			0,
 			0,
 			0
+		},
+		spine_offset_profile = {
+			72.5,
+			-714.7,
+			0,
+			0.85
 		},
 		fx_container = {
 			{
