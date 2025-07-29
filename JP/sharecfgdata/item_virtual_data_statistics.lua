@@ -220395,11 +220395,6 @@ _G.pg.base.item_virtual_data_statistics[200507] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -220527,11 +220522,6 @@ _G.pg.base.item_virtual_data_statistics[200508] = {
 		{
 			4,
 			101031,
-			1
-		},
-		{
-			4,
-			101071,
 			1
 		},
 		{
@@ -220667,11 +220657,6 @@ _G.pg.base.item_virtual_data_statistics[200509] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -220799,11 +220784,6 @@ _G.pg.base.item_virtual_data_statistics[200510] = {
 		{
 			4,
 			101031,
-			1
-		},
-		{
-			4,
-			101071,
 			1
 		},
 		{
@@ -220944,11 +220924,6 @@ _G.pg.base.item_virtual_data_statistics[200511] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -221081,11 +221056,6 @@ _G.pg.base.item_virtual_data_statistics[200512] = {
 		{
 			4,
 			101031,
-			1
-		},
-		{
-			4,
-			101071,
 			1
 		},
 		{
@@ -221226,11 +221196,6 @@ _G.pg.base.item_virtual_data_statistics[200513] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -221363,11 +221328,6 @@ _G.pg.base.item_virtual_data_statistics[200514] = {
 		{
 			4,
 			101031,
-			1
-		},
-		{
-			4,
-			101071,
 			1
 		},
 		{
@@ -221508,11 +221468,6 @@ _G.pg.base.item_virtual_data_statistics[200515] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -221649,11 +221604,6 @@ _G.pg.base.item_virtual_data_statistics[200516] = {
 		},
 		{
 			4,
-			101071,
-			1
-		},
-		{
-			4,
 			101141,
 			1
 		},
@@ -221786,11 +221736,6 @@ _G.pg.base.item_virtual_data_statistics[200517] = {
 		{
 			4,
 			101031,
-			1
-		},
-		{
-			4,
-			101071,
 			1
 		},
 		{
