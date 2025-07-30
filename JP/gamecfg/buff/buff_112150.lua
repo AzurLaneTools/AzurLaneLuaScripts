@@ -13,11 +13,22 @@ return {
 		{
 			type = "BattleBuffAddTag",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
-				tag = "YUMIASKILLCOOLDOWN112152",
-				skill_id = 112152
+				tag = "YUMIASKILLCOOLDOWN112151",
+				skill_id = 112151
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "Yumia_TimeCompression"
 			}
 		}
 	}

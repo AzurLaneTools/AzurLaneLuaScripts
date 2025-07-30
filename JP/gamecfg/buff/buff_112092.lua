@@ -37,6 +37,23 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 112155,
+				minTargetNumber = 1,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Yumia_TimeCompression"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
 				check_target = "TargetHarmNearest",
 				range = 65,
 				skill_id = 112091,
