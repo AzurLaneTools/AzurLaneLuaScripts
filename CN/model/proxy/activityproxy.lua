@@ -80,6 +80,8 @@ slot0.register = function(slot0)
 		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot5:isEnd() then
 			getProxy(EventProxy):CheckAddActivityEvent()
 		end
+
+		BuffHelper.GetAllBuff()
 	end)
 	slot0:on(11201, function (slot0)
 		slot1 = Activity.Create(slot0.activity_info)
@@ -166,6 +168,10 @@ slot0.register = function(slot0)
 
 	slot0.requestTime = {}
 	slot0.extraDatas = {}
+end
+
+slot0.remove = function(slot0)
+	BuffHelper.ClearAllCache()
 end
 
 slot0.timeCall = function(slot0)
@@ -614,6 +620,7 @@ slot0.updateActivity = function(slot0, slot1)
 	slot0:sendNotification(GAME.SYN_GRAFTING_ACTIVITY, {
 		id = slot1.id
 	})
+	BuffHelper.GenBuffsForActivity(slot1)
 end
 
 slot0.addActivity = function(slot0, slot1)

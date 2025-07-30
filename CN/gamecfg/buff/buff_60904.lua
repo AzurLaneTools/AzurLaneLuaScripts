@@ -41,17 +41,6 @@ return {
 				skill_id = 60902,
 				fleetAttr = "YumiaManaFlow>=1"
 			}
-		},
-		{
-			type = "BattleBuffCastSkillRandom",
-			trigger = {
-				"onAttach",
-				"onStack"
-			},
-			arg_list = {
-				target = "TargetSelf",
-				random_skill_tag = "YUMIASKILLCOOLDOWN"
-			}
 		}
 	}
 }

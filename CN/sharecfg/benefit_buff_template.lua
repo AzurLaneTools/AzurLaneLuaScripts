@@ -2910,7 +2910,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -2928,7 +2928,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -2946,7 +2946,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -2964,7 +2964,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -2982,7 +2982,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000.0
 		}
@@ -3000,7 +3000,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3018,7 +3018,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3036,7 +3036,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3054,7 +3054,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3072,7 +3072,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000.0
 		}
@@ -3090,7 +3090,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3108,7 +3108,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3126,7 +3126,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3144,7 +3144,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3162,7 +3162,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000.0
 		}
@@ -3180,7 +3180,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3198,7 +3198,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3216,7 +3216,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3234,7 +3234,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3252,7 +3252,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000.0
 		}
