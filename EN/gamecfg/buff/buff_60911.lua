@@ -27,6 +27,18 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
+				buff_id = 60913,
+				quota = 1,
+				target = "TargetSelf",
+				countType = 60910
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
 				buff_id = 60912,
 				quota = 1,
 				target = "TargetSelf",

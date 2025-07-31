@@ -11,6 +11,15 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 112152
+			}
+		},
+		{
 			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach",
