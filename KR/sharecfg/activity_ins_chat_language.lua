@@ -47067,7 +47067,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4716] = {
-		param = "指挥官，还在忙吗？",
+		param = "지휘관, 아직 일하는 중이야?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47075,7 +47075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4717] = {
-		param = "我路过指挥室门口的时候，看到里面的灯还亮着",
+		param = "좀전에 집무실 앞을 지나갔을 때, 안의 불빛이 켜져 있었으니까.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47083,7 +47083,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4718] = {
-		param = "已经这么晚了，还在工作吗？",
+		param = "이렇게 늦었는데 아직도 야근…?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47091,7 +47091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4719] = {
-		param = "偶尔休息一下吧",
+		param = "휴식은 확실히 취해야 해. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47099,7 +47099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4720] = {
-		param = "我放了一盘小点心在你的门口",
+		param = "문 앞에 간단한 과자를 두고 갈게.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47107,7 +47107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4721] = {
-		param = "是我亲手做的哦",
+		param = "내가 만든 거야.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47115,7 +47115,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4722] = {
-		param = "没有敲门，因为怕打扰你",
+		param = "방해하면 안될 것 같아서 노크는 안 했지만 ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47123,7 +47123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4723] = {
-		param = "请不要介意",
+		param = "신경 안 써도 돼.",
 		ship_group = 90401,
 		type = 1,
 		id = 4723,
@@ -47131,12 +47131,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"专程为我做的点心吗？"
+				"나를 위해 일부러 과자를?"
 			}
 		}
 	},
 	[4724] = {
-		param = "专程为我做的点心吗？",
+		param = "나를 위해 일부러 과자를?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47152,7 +47152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4726] = {
-		param = "没有啦！",
+		param = "일부러, 라고 할 정도는 아니야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47160,7 +47160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4727] = {
-		param = "是我晚上突然想吃些点心",
+		param = "갑자기 과자가 먹고 싶어졌거든. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4727,
@@ -47168,12 +47168,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"然后顺便路过了指挥室？"
+				"그래서 우연히 집무실 앞에?"
 			}
 		}
 	},
 	[4728] = {
-		param = "然后顺便路过了指挥室？",
+		param = "그래서 우연히 집무실 앞에?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47181,7 +47181,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4729] = {
-		param = "顺便看到我还没睡，顺便给我也送了点心？",
+		param = "우연히 내가 아직 일하는 중인 걸 보고, 우연히 가지고 있던 과자를 나눠주러…?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47197,7 +47197,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4731] = {
-		param = "好吧……是我专程为你做的",
+		param = "……사실은 지휘관을 위해 만든 거야.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47205,7 +47205,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4732] = {
-		param = "很简单的小点心，不是什么高级甜品",
+		param = "그냥 간단한 과자야. 딱히 정성 들여 만든 고급품도 아니야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47213,7 +47213,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4733] = {
-		param = "但……味道应该不会太差！",
+		param = "맛은……꽤 좋을 거야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47221,7 +47221,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4734] = {
-		param = "我对这个部分还是有点自信的",
+		param = "그쪽은 자신이 있어. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4734,
@@ -47229,12 +47229,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我已经品尝过了"
+				"벌써 먹었어. "
 			}
 		}
 	},
 	[4735] = {
-		param = "我已经品尝过了",
+		param = "벌써 먹었어. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47242,7 +47242,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4736] = {
-		param = "味道怎么样？",
+		param = "어땠어?",
 		ship_group = 90401,
 		type = 1,
 		id = 4736,
@@ -47250,16 +47250,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"有点甜"
+				"조금 달콤한 느낌"
 			},
 			{
 				5,
-				"还想再来一盘！"
+				"더 먹고 싶어!"
 			}
 		}
 	},
 	[4737] = {
-		param = "有点甜",
+		param = "조금 달콤한 느낌",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47267,7 +47267,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4738] = {
-		param = "怎么会这样……？",
+		param = "그럴 수가……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47275,7 +47275,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4739] = {
-		param = "我明明把控了糖分",
+		param = "설탕 계량은 제대로 했을 텐데……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47283,7 +47283,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4740] = {
-		param = "点心很好吃，我是说你专门来送点心这件事",
+		param = "아니야, 아니야. 과자가 아니라 됭케르크 말이야. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47291,7 +47291,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4741] = {
-		param = "很甜",
+		param = "일부러 과자를 가져다 줘서…달콤한 기분이 들었어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47299,7 +47299,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4742] = {
-		param = "好吃到还想再来一盘！",
+		param = "더 먹고 싶어!",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47307,7 +47307,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4743] = {
-		param = "呵呵~",
+		param = "더 먹고 싶어질 정도로 맛있었어!",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47315,7 +47315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4744] = {
-		param = "那明天继续？",
+		param = "후후후.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47323,7 +47323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4745] = {
-		param = "请务必明天再顺便来一趟！",
+		param = "그럼, 내일도 가지고 올까?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47339,7 +47339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4747] = {
-		param = "你能喜欢，就再好不过了",
+		param = "꼭, 내일도 「우연히」 지나갔으면 좋겠어!",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47347,7 +47347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4748] = {
-		param = "点心本来就是为了让人感到幸福的",
+		param = "과자는, 먹는 사람을 행복하게 해주는 거니까. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47355,7 +47355,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4749] = {
-		param = "如果今晚你真的因此感到开心，那我就安心了",
+		param = "나의 과자로 행복을 느껴 주었다면 기쁜 걸. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47363,7 +47363,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4750] = {
-		param = "但也要答应我，吃完早点休息哦？",
+		param = "그래도 약속해, 먹으면 제대로 쉬어야해!",
 		ship_group = 90401,
 		type = 1,
 		id = 4750,
@@ -47371,12 +47371,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"这次一定！"
+				"알겠어!"
 			}
 		}
 	},
 	[4751] = {
-		param = "这次一定！",
+		param = "알겠어!",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47384,7 +47384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4752] = {
-		param = "指挥官，你现在方便回消息吗",
+		param = "지휘관, 지금 괜찮을까?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47392,7 +47392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4753] = {
-		param = "没有急事，只是……",
+		param = "급한 용무, 같은 것은 아니지만……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47400,7 +47400,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4754] = {
-		param = "想请教你一个有些微妙的问题",
+		param = "잠깐, 묻고 싶은 것이 있어서.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47416,12 +47416,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"什么问题？"
+				"무슨 일이야?"
 			}
 		}
 	},
 	[4756] = {
-		param = "什么问题？",
+		param = "무슨 일이야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47429,7 +47429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4757] = {
-		param = "我每次做完甜点，身上总是会留下味道",
+		param = "과자를 만든 다음은, 아무래도 몸에 향이 스며들어 버려.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47437,7 +47437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4758] = {
-		param = "但并不是每次都来得及回去换衣服、洗澡",
+		param = "그래도 매번 옷을 갈아입거나 샤워를 할 여유는 없고…",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47445,7 +47445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4759] = {
-		param = "你知道的，奶油、香草、橙皮那些气味",
+		param = "알잖아, 생크림, 바닐라와 오렌지껍질 같은 것의 향……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47453,7 +47453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4760] = {
-		param = "可能闻起来甜腻腻的吧……",
+		param = "상당히 달콤한 느낌인데 알겠어?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47461,7 +47461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4761] = {
-		param = "自己闻久了其实不太会察觉",
+		param = "익숙해져 있으니까 그렇게 신경 쓰이지 않지만.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47469,7 +47469,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4762] = {
-		param = "但被别人注意到的话……",
+		param = "그래도 만약 다른 아이가 눈치챈다고 생각하면……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47485,16 +47485,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"注意到了"
+				"눈치채고 있었어."
 			},
 			{
 				3,
-				"没太注意……"
+				"딱히 신경은 안 썼지만."
 			}
 		}
 	},
 	[4764] = {
-		param = "其实我注意到了",
+		param = "실은 눈치채고 있었어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47502,7 +47502,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4765] = {
-		param = "那种味道，就像你做的点心一样",
+		param = "됭케르크가 만든 과자와 닮은 향이었으니까.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47510,7 +47510,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4766] = {
-		param = "闻到的时候，会让人觉得心情变好了",
+		param = "훅 하고 향이 날 때마다, 어쩐지 기분도 누그러져. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47518,7 +47518,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4767] = {
-		param = "欸？这样啊……你是第一个这么说的",
+		param = "그, 그래……? 그런 식으로 말해준 건 처음이야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47526,7 +47526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4768] = {
-		param = "谢谢你",
+		param = "고마워.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47534,7 +47534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4769] = {
-		param = "能让你觉得心情变好的话",
+		param = "지휘관이 그렇게 생각해 준다면,",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47542,7 +47542,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4770] = {
-		param = "那大概也算是一种，值得保留的香气吧？",
+		param = "이 향을 남겨둬도 좋을지도. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4770,
@@ -47550,12 +47550,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"以后只要闻到这种香气…"
+				"그런 향이 났을 때는……"
 			}
 		}
 	},
 	[4771] = {
-		param = "我没特别注意，但现在回想一下……",
+		param = "딱히 신경은 안 썼지만, 지금 생각하면……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47563,7 +47563,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4772] = {
-		param = "好像每次你靠近的时候，的确有闻到过",
+		param = "됭케르크가 옆에 올 때마다, 그런 향이 났던 느낌이 들어. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47571,7 +47571,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4773] = {
-		param = "不张扬，但很舒服，像是刚出炉没多久的烘焙香气",
+		param = "아무렇지도 않지만 기분이 좋고, 마치 막 구워낸 과자 같은.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47579,7 +47579,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4774] = {
-		param = "原来……真的会被记住啊",
+		param = "정말로……그렇게 느껴주고 있었구나.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47587,7 +47587,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4775] = {
-		param = "我不是特意想让谁记住这些味道的",
+		param = "별로 그런 인상을 남기려고 생각한 적은 없지만.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47595,7 +47595,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4776] = {
-		param = "不过，如果那个记住的人是你",
+		param = "그래도 지휘관이라면 이야기가 달라져.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47603,7 +47603,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4777] = {
-		param = "那我想，我不会觉得尴尬",
+		param = "조금, 기쁠지도. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4777,
@@ -47611,12 +47611,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"以后只要闻到这种香气…"
+				"그런 향이 났을 때는……"
 			}
 		}
 	},
 	[4778] = {
-		param = "以后只要闻到这种香气，就知道你在附近了！",
+		param = "그런 향이 났을 때는 됭케르크가 가까운 곳에 있다는 것을 알수 있지. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47624,7 +47624,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4779] = {
-		param = "欸？还可以起到这样的作用吗？",
+		param = "에? 내가……?",
 		ship_group = 90401,
 		type = 1,
 		id = 4779,
@@ -47632,12 +47632,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"当然"
+				"물론."
 			}
 		}
 	},
 	[4780] = {
-		param = "当然",
+		param = "물론.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47645,7 +47645,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4781] = {
-		param = "对我来说，这种味道已经和你绑定在一起了",
+		param = "그러니까 이 향은, 이미 됭케르크의 일부 같은 것이니까.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47653,7 +47653,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4782] = {
-		param = "说起来……",
+		param = "그러면……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47661,7 +47661,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4783] = {
-		param = "这样算不算是一种特别的 专属标记 呢？",
+		param = "이건 어떤 의미론, 특별한 「심볼」 같은 것일까?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47669,7 +47669,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4784] = {
-		param = "这样的话，以后我做完甜点……",
+		param = "앞으로도 과자 만들기가 끝나면……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47677,7 +47677,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4785] = {
-		param = "就不用刻意洗掉味道了吧？",
+		param = "일부러 향을 빼지 않아도 괜찮은 거지?",
 		ship_group = 90401,
 		type = 1,
 		id = 4785,
@@ -47685,7 +47685,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"[惊了]"
+				"[깜짝]"
 			}
 		}
 	},
@@ -47698,7 +47698,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4787] = {
-		param = "开玩笑的啦",
+		param = "후훗, 농담이야.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47706,7 +47706,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4788] = {
-		param = "不过，说实话……",
+		param = "그래도 솔직하게 말하면……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47714,7 +47714,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4789] = {
-		param = "我其实也并不讨厌自己身上留着点甜甜的香气",
+		param = "달콤한 향이 남는 것은 별로 싫지 않아.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47722,7 +47722,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4790] = {
-		param = "毕竟，能让指挥官记住、甚至喜欢上的香气……",
+		param = "지휘관이 기억해 주고, 좋아해준 향인걸. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47730,7 +47730,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4791] = {
-		param = "对我来说，好像比甜点本身还要重要一些呢",
+		param = "이제 과자 그 자체보다 훨씬 소중하게 생각하게 될 거야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47738,7 +47738,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4792] = {
-		param = "指挥官，你还没睡？",
+		param = "지휘관, 혹시 아직 일어나 있어?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47746,7 +47746,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4793] = {
-		param = "现在几点了你知道吗",
+		param = "정말, 지금이 몇 시인 줄 알아…?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47762,12 +47762,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你怎么知道的？"
+				"어떻게 알았어?"
 			}
 		}
 	},
 	[4795] = {
-		param = "你怎么知道的？",
+		param = "어떻게 알았어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47775,7 +47775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4796] = {
-		param = "……只是诈一下你，没想到你真的还没睡",
+		param = "……잠깐 떠볼 생각이었는데, 정말 일어나 있었다니. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47783,7 +47783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4797] = {
-		param = "看你白天那么忙，估计晚上肯定要加班了",
+		param = "오후에 그렇게 바빴으니까 밤에도 야근하고 있는 거 아닌가 했더니, 생각대로네. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4797,
@@ -47791,12 +47791,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"其实有点失眠"
+				"실은 조금 잠이 안 와서."
 			}
 		}
 	},
 	[4798] = {
-		param = "没在加班，其实是有点失眠",
+		param = "야근은 아닌데, 조금 잠이 안 와서……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47804,7 +47804,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4799] = {
-		param = "怎么了？",
+		param = "어머, 무슨 일이야?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47812,7 +47812,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4800] = {
-		param = "脑子太乱？难道还在想工作吗",
+		param = "머리를 너무 써서 엉망진창이 됐어? 혹시, 아직 업무에 대해 생각하고 있는 걸까?",
 		ship_group = 90401,
 		type = 1,
 		id = 4800,
@@ -47820,16 +47820,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"或许……"
+				"그럴지도 몰라"
 			},
 			{
 				4,
-				"不知道……"
+				"나도 잘 모르겠어"
 			}
 		}
 	},
 	[4801] = {
-		param = "或许……",
+		param = "그럴지도 몰라",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47837,7 +47837,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4802] = {
-		param = "不知道……",
+		param = "나도 잘 모르겠어",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47845,7 +47845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4803] = {
-		param = "要不要我讲个睡前故事？",
+		param = "그럼 잠 잘 오게 동화책이라도 읽어 줄까?",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47853,7 +47853,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4804] = {
-		param = "有点无聊但是很温柔的那种",
+		param = "조금 지루하지만 다정한 이야기야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47861,7 +47861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4805] = {
-		param = "听完后能做个好梦",
+		param = "들으면 꼭 좋은 꿈을 꿀 수 있을 거야. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4805,
@@ -47869,12 +47869,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好啊"
+				"부탁할까"
 			}
 		}
 	},
 	[4806] = {
-		param = "好啊",
+		param = "부탁할까",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47882,7 +47882,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4807] = {
-		param = "一只小羊，穿着围裙走进厨房",
+		param = "새끼 양이 한 마리, 앞치마를 하고 부엌에 들어갔어요.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47890,7 +47890,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4808] = {
-		param = "它在搅奶油，还偷吃糖",
+		param = "생크림을 섞으면서 살짝 입에 설탕을 한 꼬집.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47898,7 +47898,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4809] = {
-		param = "两只小羊，在阳台上跳舞",
+		param = "새끼 양이 두 마리, 베란다에서 춤을 추다가…",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47906,7 +47906,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4810] = {
-		param = "跳得很笨，撞在了一起",
+		param = "조금 서툴러서, 통통 부딪쳐 버렸어요.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47914,7 +47914,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4811] = {
-		param = "三只小羊，偷偷溜进指挥室",
+		param = "새끼 양이 세 마리, 살짝 집무실로 숨어 들어가서…",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47922,7 +47922,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4812] = {
-		param = "说想陪着指挥官，永远待在里面",
+		param = "지휘관의 곁에, 계속 같이 있고 싶대요. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47930,7 +47930,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4813] = {
-		param = "正在输入中",
+		param = "【입력중】",
 		ship_group = 1,
 		type = 5,
 		id = 4813,
@@ -47938,12 +47938,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"然后呢？"
+				"그래서?"
 			}
 		}
 	},
 	[4814] = {
-		param = "然后呢？",
+		param = "그래서?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47951,7 +47951,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4815] = {
-		param = "啊！",
+		param = "앗",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47959,7 +47959,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4816] = {
-		param = "差点睡着了……",
+		param = "미안. 잠깐 잠들어 버릴 뻔했어……",
 		ship_group = 90401,
 		type = 1,
 		id = 4816,
@@ -47967,16 +47967,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"你先睡吧"
+				"먼저 자도 괜찮아"
 			},
 			{
 				8,
-				"故事很有效"
+				"그 동화책, 제대로 효과가 있는데……"
 			}
 		}
 	},
 	[4817] = {
-		param = "你先睡吧",
+		param = "먼저 자도 괜찮아.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -47984,7 +47984,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4818] = {
-		param = "不行哦，怎么可以说这种话呢",
+		param = "안돼. 그런 말하면.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -47992,7 +47992,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4819] = {
-		param = "看来你的故事很有效",
+		param = "그 동화책, 제대로 효과가 있는데……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -48000,7 +48000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[4820] = {
-		param = "只对我有效可不行啊……",
+		param = "그래도 나한테만 효과가 있어도 의미가 없어……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48008,7 +48008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[4821] = {
-		param = "明明是我在哄你睡觉……",
+		param = "너를 재우고 싶었는데……",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48016,7 +48016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4822] = {
-		param = "指挥官，下次要是再睡不着",
+		param = "지휘관, 다음에 또 잠이 안 올 때는",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48024,7 +48024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4823] = {
-		param = "干脆早点告诉我好了",
+		param = "나한테 연락해줘.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48032,7 +48032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4824] = {
-		param = "我们可以试着一起数羊",
+		param = "같이 양을 세는 것도 좋고,",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48040,7 +48040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4825] = {
-		param = "或者随便说说话",
+		param = "시시한 수다도 좋으니까.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48048,7 +48048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4826] = {
-		param = "总之，我会陪着你的",
+		param = "뭐든지 상대해 줄게. ",
 		ship_group = 90401,
 		type = 1,
 		id = 4826,
@@ -48056,12 +48056,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"下次一定"
+				"응, 약속이야. "
 			}
 		}
 	},
 	[4827] = {
-		param = "下次一定",
+		param = "응, 약속이야. ",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -48069,7 +48069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4828] = {
-		param = "你不许再发消息了，看着我发的消息就好",
+		param = "이제 답장하면 안 돼. 내 메시지만 읽는 거야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48077,7 +48077,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4829] = {
-		param = "把手收进被子里，酝酿睡意",
+		param = "이불에 손을 넣고 잘 준비를 해.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48085,7 +48085,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4830] = {
-		param = "我们继续来数羊",
+		param = "계속 양을 세는 거야. ",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48093,7 +48093,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4831] = {
-		param = "四只小羊，溜进你的被窝",
+		param = "새끼 양이 네 마리, 당신의 이불에 숨어 들어가.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48101,7 +48101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4832] = {
-		param = "帮你暖床，快快睡着",
+		param = "빨리 잘 수 있도록 이불을 따끈따끈하게 해주고.",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48109,7 +48109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4833] = {
-		param = "五只小羊，去",
+		param = "새끼 양이 다섯 마리, 외출…",
 		ship_group = 90401,
 		option = "",
 		type = 1,
@@ -48117,7 +48117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[4834] = {
-		param = "正在输入中",
+		param = "【입력중】",
 		ship_group = 1,
 		type = 5,
 		id = 4834,
@@ -48125,12 +48125,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"……敦刻尔克？"
+				"……됭케르크？"
 			}
 		}
 	},
 	[4835] = {
-		param = "……敦刻尔克？",
+		param = "……됭케르크？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -48138,7 +48138,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[4836] = {
-		param = "睡着了吗？",
+		param = "잠들어버린 걸까?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -48146,7 +48146,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[4837] = {
-		param = "晚安",
+		param = "잘 자.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -48154,7 +48154,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[4838] = {
-		param = "做个美梦",
+		param = "좋은 꿈 꾸길.",
 		ship_group = 0,
 		option = "",
 		type = 1,

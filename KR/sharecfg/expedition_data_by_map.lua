@@ -28931,7 +28931,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100501] = {
 		map = 2100501,
-		name = "虹彩的终幕曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "레인보우 피날레·전편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 4,
 		title = "EX",
@@ -28984,7 +28984,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100502] = {
 		map = 2100502,
-		name = "虹彩的终幕曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "레인보우 피날레·후편|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 4,
 		title = "EX",
@@ -29037,7 +29037,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100511] = {
 		map = 2100511,
-		name = "虹彩的终幕曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "레인보우 피날레·전편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 5,
 		title = "EX",
@@ -29090,7 +29090,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100512] = {
 		map = 2100512,
-		name = "虹彩的终幕曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "레인보우 피날레·후편|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 5,
 		title = "EX",

@@ -6259,10 +6259,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "甜点派送",
+		name = "과자 배달",
 		id = 141,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "캐릭터 입수",
 		trigger_type = 1,
 		content = {
 			4716,
@@ -6305,10 +6305,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "香味残留",
+		name = "잔향",
 		id = 142,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "호감도 '사랑' 달성",
 		trigger_type = 2,
 		content = {
 			4752,
@@ -6355,10 +6355,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "哄睡服务",
+		name = "곁잠",
 		id = 143,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			4792,

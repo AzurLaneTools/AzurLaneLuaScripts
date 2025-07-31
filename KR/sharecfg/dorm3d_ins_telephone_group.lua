@@ -20,7 +20,7 @@ pg.base.dorm3d_ins_telephone_group = {
 		background = "voice_placeholder",
 		type = 1,
 		id = 10517301,
-		unlock_desc = "进入{namecode:199}宿舍",
+		unlock_desc = "뉴저지 룸에 진입",
 		content = {
 			11,
 			110602
@@ -28,11 +28,11 @@ pg.base.dorm3d_ins_telephone_group = {
 	},
 	[10517302] = {
 		ship_group = 10517,
-		name = "{namecode:199}视频通话",
+		name = "영상통화・뉴저지",
 		background = "voice_placeholder",
 		type = 1,
 		id = 10517302,
-		unlock_desc = "{namecode:199}契合度12级",
+		unlock_desc = "영상통화・뉴저지",
 		content = {
 			11,
 			110603

@@ -37166,7 +37166,7 @@ _G.pg.base.equip_data_statistics[14473] = {
 
 
 _G.pg.base.equip_data_statistics[14480] = {
-	name = "파일럿형 406mm/45 3연장포 MK7",
+	name = "시제형 406mm/45 3연장포 MK7",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -110852,7 +110852,7 @@ _G.pg.base.equip_data_statistics[44313] = {
 
 
 _G.pg.base.equip_data_statistics[44320] = {
-	name = "파일럿형 305mm 4연장포 SKC39",
+	name = "시제형 305mm 4연장포 SKC39",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -111253,7 +111253,7 @@ _G.pg.base.equip_data_statistics[44413] = {
 
 
 _G.pg.base.equip_data_statistics[44420] = {
-	name = "파일럿형 283mm/54.5 3연장포 ",
+	name = "시제형 283mm/54.5 3연장포 ",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
@@ -146475,7 +146475,7 @@ _G.pg.base.equip_data_statistics[85633] = {
 
 
 _G.pg.base.equip_data_statistics[85640] = {
-	name = "파일럿형 180mm 3연장포 B-1-P Model1932 개조",
+	name = "시제형 180mm 3연장포 B-1-P Model1932 개조",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -170131,7 +170131,7 @@ _G.pg.base.equip_data_statistics[96253] = {
 
 
 _G.pg.base.equip_data_statistics[96260] = {
-	name = "파일럿형 20mm Scotti 6연장 기관포 Model1941",
+	name = "시제형 20mm Scotti 6연장 기관포 Model1941",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -170346,7 +170346,7 @@ _G.pg.base.equip_data_statistics[96273] = {
 
 
 _G.pg.base.equip_data_statistics[96280] = {
-	name = "파일럿형 533mm 4연장 어뢰Si 270",
+	name = "시제형 533mm 4연장 어뢰Si 270",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,

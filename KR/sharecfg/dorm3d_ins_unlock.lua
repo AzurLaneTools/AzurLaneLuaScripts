@@ -199,7 +199,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517101] = {
-		text = "",
+		text = "뉴저지 룸에 1일 진입",
 		trigger_num = 1,
 		trigger_id = 0,
 		type = 1,
@@ -208,7 +208,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	[10517102] = {
-		text = "",
+		text = "뉴저지 룸에 4일 진입",
 		trigger_num = 4,
 		trigger_id = 0,
 		type = 1,
@@ -217,7 +217,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517103] = {
-		text = "",
+		text = "뉴저지 룸에 7일 진입",
 		trigger_num = 7,
 		trigger_id = 0,
 		type = 1,
@@ -226,7 +226,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517104] = {
-		text = "",
+		text = "뉴저지 수집 가능 물품이 20개 도달",
 		trigger_num = 20,
 		trigger_id = 0,
 		type = 1,
@@ -235,7 +235,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	[10517201] = {
-		text = "",
+		text = "뉴저지 친밀도 Lv5 도달",
 		trigger_num = 5,
 		trigger_id = 0,
 		type = 3,
@@ -244,7 +244,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517202] = {
-		text = "",
+		text = "뉴저지 친밀도 Lv10 도달",
 		trigger_num = 10,
 		trigger_id = 0,
 		type = 3,
@@ -253,7 +253,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517203] = {
-		text = "新泽西契合度11级",
+		text = "뉴저지 친밀도 Lv11 도달",
 		trigger_num = 11,
 		trigger_id = 0,
 		type = 3,
@@ -262,7 +262,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517301] = {
-		text = "",
+		text = "뉴저지 룸에 1일 진입",
 		trigger_num = 1,
 		trigger_id = 0,
 		type = 2,
@@ -271,7 +271,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	[10517302] = {
-		text = "新泽西契合度12级",
+		text = "뉴저지 친밀도 Lv12 도달",
 		trigger_num = 12,
 		trigger_id = 0,
 		type = 2,

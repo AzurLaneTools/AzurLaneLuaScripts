@@ -16,7 +16,7 @@ pg.expedition_daily_template = {
 		expedition_and_lv_limit_list = {}
 	},
 	[201] = {
-		tips = "매주 월·목·일요일 개방!",
+		tips = "월・목・일요일 개방!",
 		limit_type = 1,
 		pic = "daily1",
 		limit_time = 3,
@@ -26,7 +26,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_period = "",
 		id = 201,
-		des = "아군 상선을 노리는 적 어뢰정을 처리하고, 보상으로 강화 재료를 손에 넣어라!",
+		des = "해상 통상을 담당하는 상선으로부터 적 PT보트군을 끌어와, 강화 파츠 보상을 손에 넣어라!",
 		weekday = {
 			1,
 			4,
@@ -84,7 +84,7 @@ pg.expedition_daily_template = {
 		}
 	},
 	[301] = {
-		tips = "매주 화·금·일요일 개방!",
+		tips = "화・금・일요일 개방!",
 		limit_type = 1,
 		pic = "daily2",
 		limit_time = 3,
@@ -94,7 +94,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_period = "",
 		id = 301,
-		des = "해역에서 난동을 부리는 자폭선을 처리하고, 스킬 훈련용 교본을 찾아내라!",
+		des = "해역에 발호하는 자폭 보트를 소탕하여, 스킬숙달 훈련용 교재를 수색하라!",
 		weekday = {
 			2,
 			5,
@@ -128,7 +128,7 @@ pg.expedition_daily_template = {
 		}
 	},
 	[401] = {
-		tips = "매주 수·토·일요일 개방!",
+		tips = "수・토・일요일 개방!",
 		limit_type = 1,
 		pic = "daily3",
 		limit_time = 3,
@@ -138,7 +138,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_period = "",
 		id = 401,
-		des = "대량으로 출현한 적 주력함을 격파하고, 장비상자를 손에 넣어라!",
+		des = "대량으로 출현하는 적 주력함을 격파하여, 장비함을 입수하라!",
 		weekday = {
 			3,
 			6,
@@ -172,17 +172,17 @@ pg.expedition_daily_template = {
 		}
 	},
 	[501] = {
-		tips = "매일 오픈 (매주 4회까지)",
+		tips = "매일 개방 (매주 4회까지)",
 		limit_type = 2,
 		pic = "daily5",
 		limit_time = 4,
 		insert_daily = 0,
-		title = "통상 파괴",
+		title = "통상파괴",
 		sort = "5",
 		show_with_count = 0,
 		limit_period = "",
 		id = 501,
-		des = "잠수 편대가 통상 파괴 작전을 개시했습니다. 성공 시 각종 잠수함 장비 설계도를 획득합니다.",
+		des = "잠수함으로 통상파괴 훈련을 실시하여, 각종 잠수함 장비의 설계도를 입수하기",
 		weekday = {
 			1,
 			2,
@@ -220,12 +220,12 @@ pg.expedition_daily_template = {
 		}
 	},
 	[601] = {
-		tips = "전술 리서치는 매일 개방됩니다.",
+		tips = "전술연구는 매일 개방됩니다.",
 		limit_type = 1,
 		pic = "daily6",
 		limit_time = 3,
 		insert_daily = 0,
-		title = "전술 리서치",
+		title = "전술연구",
 		sort = "4",
 		show_with_count = 0,
 		limit_period = "",

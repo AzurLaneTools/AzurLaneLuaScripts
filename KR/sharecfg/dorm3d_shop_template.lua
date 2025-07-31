@@ -466,7 +466,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "安逸时光",
+		name = "편안한 시간",
 		type = 1,
 		room_id = 30221,
 		unlock = "",

@@ -6162,7 +6162,7 @@ _G.pg.base.gametip.dailyLevel_opened = {
 
 
 _G.pg.base.gametip.dailyLevel_bonus_activity = {
-	tip = "限时up奖励"
+	tip = "한정 보너스"
 }
 
 
@@ -12468,12 +12468,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「로마」, 「볼차노」 상시 건조 추가!"
+	tip = "「뤼초」 「자이틀리츠」 「요르크」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「주세페 가리발디」, 「알프레도 오리아니」  상시 건조 추가!"
+	tip = "「엠덴」 「엘빙」 상시 건조 추가!"
 }
 
 
@@ -14507,12 +14507,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
-사용 병장: <color=#92fc63>
-파일럿형 406mm/45 3연장포 MK7
-127mm 연장 양용포 MK12
- 4연장 보포스 40mm 기관포 
+탄막확인 기능(모의전)을 기동하시겠습니까?
+(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
+사용장비：<color=#92fc63>
+시제형406mm/45 3연장포MK7
+127mm연장 양용포MK12
+4연장 보포스 40mm기관포
 </color></size>]]
 }
 
@@ -14520,12 +14520,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
-사용 병장: <color=#92fc63>
-파일럿형 305mm 4연장포 SKC39
-127mm KM40 연장포
-파일럿형 55mm Gerät 58 대공포
+탄막확인 기능(모의전)을 기동하시겠습니까?
+(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
+사용장비：<color=#92fc63>
+시제형305mm4연장포SKC39
+127mmKM40연장포
+시제형55mm Gerät 58대공포
 </color></size>]]
 }
 
@@ -14533,12 +14533,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
-사용 병장: <color=#92fc63>
-135mm 연장포 Model1938
-파일럿형 533mm 4연장 어뢰 Si 270
-파일럿형 20mm Scotti 6연장 기관포 Model1941
+탄막확인 기능(모의전)을 기동하시겠습니까?
+(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
+사용장비：<color=#92fc63>
+135mm연장포Model1938
+시제형533mm4연장 어뢰Si 270
+시제형20mmScotti4연장 기관 Model1941
 </color></size>]]
 }
 
@@ -14546,12 +14546,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
-사용 병장: <color=#92fc63>
-파일럿형 180mm 3연장포 B-1-P Model1932 개조
-550mm 3연장 어뢰 발사관 
-2연장 57mm/L60 보포스 대공 기관포 Mle1951
+탄막확인 기능(모의전)을 기동하시겠습니까?
+(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
+사용장비：<color=#92fc63>
+시제형180mm 3연장포B-1-P Model1932개조
+550mm3연장 어뢰 발사관
+2연장57mm/L60보포스 대공 기관포 Mle1951
 </color></size>]]
 }
 
@@ -14559,12 +14559,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
-사용 병장: <color=#92fc63>
-파일럿형 283mm/54.5 3연장포 
-100mm 2연장 98식 고각포 개조
-2연장 57mm/L60 보포스 대공 기관포 Mle1951
+탄막확인 기능(모의전)을 기동하시겠습니까?
+(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
+사용장비：<color=#92fc63>
+시제형283mm/54.5 3연장포
+100mm2연장98식 고각포改
+2연장57mm/L60보포스 대공 기관포 Mle1951
 </color></size>]]
 }
 
@@ -32896,7 +32896,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "<color=#92fc63>$1×1</color>을 소비하여 할인가 <icon name=gem w=0.7 h=0.7/> $2로 $3 스킨을 구매하시겠습니까?"
+	tip = "<size=30><color=#92fc63>$1*1</color>를 소비하여, 할인가격<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で\n<color=#92fc63>$3</color>스킨을 구입하시겠습니까?</size>"
 }
 
 
@@ -38742,29 +38742,29 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
-	tip = "높음"
+	tip = "고"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
-	tip = "낮음"
+	tip = "저"
 }
 
 
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「嘉年华」系列换装或一个换装礼盒(嘉年华)时，可领取一张<color=#92fc63>换装折扣券（嘉年华）</color>\n2.<color=#92fc63>换装折扣券（嘉年华）</color>可用于购买「嘉年华」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（嘉年华）</color>将会在活动结束后（2025年8月13日23:59:59）消失"
+			info = "1.이벤트 기간중, <color=#92fc63>쿠폰을 사용하지 않고</color>「카니발」シ시리즈 스킨을 구입하거나, 스킨 패키지(카니발)을 구입한 경우, 이벤트 페이지에서<color=#92fc63>스킨 할인권(카니발)</color>을 입수할 수 있습니다\n2.<color=#92fc63>스킨 할인권(카니발)</color>은 「카니발」시리즈의 스킨을 구입할 때, 다이아×300만큼 할인됩니다(패키지를 구입하는 경우는 사용할 수 없습니다)\n3.이벤트 종료시【2025년 8월 27일(수)23:59:59】, 미사용 <color=#92fc63>스킨 할인권(카니발)</color>은 삭제됩니다"
 		}
 	}
 }
 
 
 _G.pg.base.gametip.open_today = {
-	tip = "今日开放："
+	tip = "오늘 개방"
 }
 
 
 _G.pg.base.gametip.daily_level_go = {
-	tip = "前往"
+	tip = "확인"
 }

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"微醺心事\n\n<size=45>四 温柔的秘密</size>",
+					"마음, 도취되어\n\n<size=45>4 상냥함의 비밀</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "葡萄庄园·餐厅",
+			say = "포도원-레스토랑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			dir = 1,
-			say = "阳光静静洒落在桌面上，映出葡萄藤斑驳的影子。",
+			say = "햇살이 조용하게 테이블에 쏟아져, 포도 덩굴의 그림자를 부각시켰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "敦刻尔克站在光与影之间，像是酝酿了一场温柔的秘密。",
+			say = "그런 빛과 그림자의 틈새에 우두커니 있는 됭케르크는 상냥하기도하고 미스테리어스한 분위기를 지니고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实啊——",
+			say = "……사실은",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天邀请指挥官来这里……不只是想让你散心。",
+			say = "오늘, 지휘관을 초대한 것은……단순히 기분전환을 해주었으면 좋겠다는 것만은 아니야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我一直想做出……“只属于指挥官”的甜点。",
+			say = "계속 생각했어……「지휘관만을 위한 과자」를 어떻게 만들까라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只属于我的？",
+			say = "나만을 위한?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……味道、香气、口感、甚至搭配的小细节……",
+			say = "응……맛, 향기, 혀의 감촉, 데코레이션의 사소한 부분까지",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都是专门为你一个人设计的。",
+			say = "지휘관만을 위해 끝까지 신경써서 만들고 싶었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，今天一切……",
+			say = "그러니까, 오늘의 모든 것……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我都有好好记下来。",
+			say = "제대로 메모를 하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "她小心翼翼地翻开笔记本。",
+			say = "정중하게 노트를 펼쳐 이쪽에게 내용을 보여주었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,21 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "里面夹着几张精美的手绘甜点设计图。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_506",
-			dir = 1,
-			actor = 904010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这个，是我之前画好的草稿。",
+			say = "그곳에는 손으로 그린 과자의 디자인안이 몇개 끼워져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,44 +203,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要根据今天的灵感，和指挥官的口味，再做些调整。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_506",
-			hidePaintObj = true,
-			say = "纸上描绘着几款不同的甜点，细节处标注着各种巧思。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 904010,
-			side = 2,
-			bgName = "star_level_bg_506",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "比如用深色葡萄果酱制成的赤霞珠果酱挞。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 904010,
-			side = 2,
-			bgName = "star_level_bg_506",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "还有内部卷入葡萄干与香草奶酪的蛋糕卷……",
+			say = "……전에 그려둔 밑그림이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,18 +217,69 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，这些都还需要调整。",
+			say = "오늘의 영감, 그리고 지휘관이 기호를 참고로 좀더 조정해 볼 생각이야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_506",
+			hidePaintObj = true,
+			say = "종이 위에는 과자가 몇 개 그려져 있고, 작은 부분까지 많은 궁리가 깔려 있는 것을 알 수 있었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 904010,
+			side = 2,
+			bgName = "star_level_bg_506",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "포도잼을 사용한 까베르네 쇼비뇽의 타르트……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 904010,
+			side = 2,
+			bgName = "star_level_bg_506",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "건포도와 바닐라 치즈의 롤케이크……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_506",
+			dir = 1,
+			actor = 904010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "뭐, 모두 아직 조정의 여지가 있지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "都听你的",
+					content = "됭케르크에게 맡긴다",
 					flag = 1
 				},
 				{
-					content = "我也要参与",
+					content = "나도 같이 생각해 볼게.",
 					flag = 2
 				}
 			}
@@ -292,7 +292,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都听你的，毕竟甜点的事情，要交给甜点专家来决定。",
+			say = "됭케르크에게 맡길게. 과자에 대해서라면 과자의 프로가 정해주는 것이 제일이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但如果有指挥官帮忙出主意的话……",
+			say = "그래도, 만약 지휘관의 아이디어를 받을 수 있다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许能做出更符合你口味的甜点！",
+			say = "좀더 기호에 딱 맞게 마무리할 수 있을 거라고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果是为我做的，那我也要参与才行。",
+			say = "나를 위해 만들어 준다면 같이 생각해 보지 않으면.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和指挥官一起完成的话，味道……一定会更特别。",
+			say = "후후훗, 지휘관과 함께 만든다면 반드시 맛도……각별한 것이 될거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请多多关照啦，我的小助手。",
+			say = "그럼 부탁해. 도우미군♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,21 +376,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "我们并肩坐在餐桌边，铺开笔记本，一个个调整着甜点的配方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_506",
-			dir = 1,
-			actor = 904010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "嗯……原本打算用新鲜的白葡萄制作白葡萄慕斯千层。",
+			say = "됭케르크와 나란히 앉아서 테이블에 노트를 펼쳐, 과자의 레시피를 하나하나 수정해 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +390,21 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "层层堆叠的酥皮和慕斯之间，夹入清爽的白葡萄果冻……",
+			say = "으음……신선한 백포도를 사용한 무스 밀푀유를 만들 작정이었는데…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_506",
+			dir = 1,
+			actor = 904010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "바삭바삭한 파이생지와 무스 사이에 상큼한 백포도의 젤리를 끼워넣고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但今天巡视下来，庄园这一批白葡萄还没完全成熟。",
+			say = "그래도 본 느낌으로는, 이곳의 백포도는 조금 이른 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "或许可以换一种水果？",
+			say = "그렇다면 다른 과일로 해 보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有道理……白李子应该是个不错的选择。",
+			say = "그래……화이트 플럼이라면 괜찮을지도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,21 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它们的酸甜度恰好，而且香气清新。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_506",
-			dir = 1,
-			actor = 904010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "可以改做成白李子果冻慕斯蛋糕",
+			say = "산미와 달콤함의 밸런스가 적당하고, 향기도 가벼우니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +470,21 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "层次感还在，但风味会更活泼一点。",
+			say = "화이트 플럼의 젤리와 무스의 케이크도 좋을지도.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_506",
+			dir = 1,
+			actor = 904010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "풍부한 감촉은 그대로, 맛이 조금 가벼워 질거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然计划变了，但好像更贴合今天的气氛了。",
+			say = "예정이 달라졌지만, 그쪽이 지금의 기분에는 딱 맞아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有这款——本来想做成赤霞珠酒香巴巴蛋糕",
+			say = "그리고 이것도, 원래는 까베르네의 깊은 향기를 살린 바바케이크를 만들려고 생각했지만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想……要不要试试更大胆一点的组合？",
+			say = "그래도……좀더 대담한 조합을 시도해 보는 것도 좋을까나라는 기분이 들었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "大胆一点？比如？",
+			say = "대담한 조합? 예를 들면?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如，在赤霞珠果酱挞上，撒上一层微微火炙过的海盐焦糖碎。",
+			say = "예를 들면……까베르네잼의 타르트에, 가볍게 표면을 구운 소금 캬라멜 크런치를 뿌려 본다던가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让浓郁甜香中，夹杂一点点独特的咸味。",
+			say = "풍부한 달콤함에 희미하게 소금맛을 살릴 수 있을지 않을까라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咸味确实能让甜味更加突出……",
+			say = "짠맛은 단맛을 강조해 주니까 말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "比起从始至终的甜腻，这样更耐人寻味。",
+			say = "시종 달기만 한 것이 아니라 맛의 「깊이」를 느끼게 해주는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然，指挥官也能理解这种感觉呢。",
+			say = "과연 지휘관, 제대로 알아 주는구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "敦刻尔克在笔记上又添了几笔，",
+			say = "됭케르크는 펜을 움직였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "指尖微颤着，像是压抑不住内心的雀跃。",
+			say = "그 손끝은 살짝 떨리고 있었고…채 억누르지 못한 고양감을 이야기하고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

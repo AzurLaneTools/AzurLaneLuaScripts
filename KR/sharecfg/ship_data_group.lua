@@ -23505,7 +23505,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
@@ -23548,7 +23548,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
@@ -24436,7 +24436,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
@@ -24651,7 +24651,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
@@ -24694,7 +24694,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
@@ -24993,14 +24993,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 레인보우 피날레",
+				"이벤트: 레인보우 피날레",
 				{
 					""
 				},
 				0
 			},
 			{
-				"특별 보급(랜덤 출현)",
+				"특별보급(랜덤출현)",
 				{
 					"SHOP",
 					{
@@ -25771,7 +25771,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 네온 시티의 탐색자",
+				"이벤트: 네온시티의 탐색자",
 				{
 					""
 				},

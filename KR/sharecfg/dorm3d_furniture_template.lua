@@ -498,10 +498,10 @@ pg.dorm3d_furniture_template = {
 	},
 	[223] = {
 		rarity = 4,
-		name = "安逸时光",
+		name = "편안한 시간",
 		type = 5,
 		room_id = 2,
-		desc = "柔软的布艺包裹着疲惫的身躯，靠枕轻轻拥住每一个慵懒的姿态。\n这里是一天中最温柔的角落，让人不自觉沉醉其中。",
+		desc = "부드러운 쿠션이 지친 몸을 감싸고, 자세를 부드럽게 받쳐 준다. \n 바쁜 하루 중 가장 상냥한 이 장소에 사람들은 빠져 버린다. ",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_livingroom01",
 		is_special = 0,

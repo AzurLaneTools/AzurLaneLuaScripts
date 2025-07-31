@@ -7944,7 +7944,7 @@ pg.base.memory_group = {
 		}
 	},
 	[612] = {
-		title = "微醺心事",
+		title = "마음, 도취되어",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
