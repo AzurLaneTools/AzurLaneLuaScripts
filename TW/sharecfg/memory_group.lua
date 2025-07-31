@@ -204,6 +204,7 @@ pg.memory_group = setmetatable({
 		312,
 		313,
 		314,
+		315,
 		316,
 		317,
 		318,
@@ -5049,6 +5050,22 @@ pg.base.memory_group = {
 			4124,
 			4125,
 			4126
+		}
+	},
+	[315] = {
+		title = "港區時尚特刊：夏日旖旎[2]",
+		subtype = 3,
+		link_event = 5735,
+		type = 2,
+		id = 315,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4131,
+			4132,
+			4133,
+			4134,
+			4135
 		}
 	},
 	[316] = {

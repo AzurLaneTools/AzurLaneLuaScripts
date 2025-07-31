@@ -15094,6 +15094,37 @@ _G.pg.base.item_data_statistics[21043] = {
 }
 
 
+_G.pg.base.item_data_statistics[21046] = {
+	open_directly = 0,
+	name = "結晶：內華達·META",
+	type = 4,
+	display = "內華達·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21046",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21046,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21048] = {
 	open_directly = 0,
 	name = "結晶：光榮·META",
@@ -26781,6 +26812,58 @@ _G.pg.base.item_data_statistics[30426] = {
 		{
 			9,
 			2092,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30427] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111222",
+	id = 30427,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2093,
+			1
+		},
+		{
+			9,
+			2094,
+			1
+		},
+		{
+			9,
+			2095,
+			1
+		},
+		{
+			9,
+			2096,
 			1
 		}
 	},
@@ -85595,6 +85678,73 @@ _G.pg.base.item_data_statistics[81208] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81209] = {
+	open_directly = 1,
+	name = "港區遊戲之夜禮盒·II",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2025，心智單元*50，心智魔方*20，高級定向藍圖·七期*2，快速完成工具*10，家具幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai20",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998311",
+	id = 81209,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86209,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

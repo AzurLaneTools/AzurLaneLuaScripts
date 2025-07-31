@@ -23710,6 +23710,73 @@ pg.activity_template = {
 			ui_name = "VampireSkinPage2"
 		}
 	},
+	[5735] = {
+		mark = 20250731,
+		type = 86,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 45,
+		title_res_tag = "skin_magazine5",
+		id = 5735,
+		page_core = "",
+		config_data = {
+			21062,
+			21063,
+			21064,
+			21065,
+			21066
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazinePage7",
+			ui_name = "SkinMagazinePage7"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANHEDINGJIWU1"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU2"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU3"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU4"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU5"
+				}
+			}
+		}
+	},
 	[5736] = {
 		mark = 20250109,
 		type = 11,
@@ -23823,6 +23890,97 @@ pg.activity_template = {
 				0,
 				0,
 				0
+			}
+		}
+	},
+	[5738] = {
+		mark = 20250731,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5738,
+		page_core = "",
+		config_data = {
+			21067
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5739] = {
+		mark = 20250731,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5739,
+		page_core = "",
+		config_data = {
+			523,
+			524,
+			525,
+			526,
+			527,
+			528,
+			529,
+			530
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					14,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -29213,6 +29371,8 @@ pg.activity_template = {
 			12014,
 			12015,
 			12016,
+			12026,
+			12027,
 			12029,
 			12030,
 			12031
@@ -68810,6 +68970,59 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage21"
 		}
 	},
+	[45921] = {
+		mark = 20250731,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 45921,
+		page_core = "",
+		config_data = {
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage22"
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			40030,
@@ -69126,6 +69339,7 @@ pg.activity_template = {
 			5714,
 			5723,
 			5733,
+			5738,
 			5768,
 			5769,
 			5774,
@@ -70404,6 +70618,7 @@ pg.activity_template = {
 			5622,
 			5693,
 			5732,
+			5739,
 			5767,
 			5791,
 			5876,
@@ -70498,6 +70713,7 @@ pg.activity_template = {
 			5311,
 			5504,
 			5721,
+			5735,
 			5777,
 			5790,
 			5911,
@@ -70923,7 +71139,8 @@ pg.activity_template = {
 			45917,
 			45918,
 			45919,
-			45920
+			45920,
+			45921
 		}
 	},
 	all = {
@@ -71570,8 +71787,11 @@ pg.activity_template = {
 		5732,
 		5733,
 		5734,
+		5735,
 		5736,
 		5737,
+		5738,
+		5739,
 		5765,
 		5766,
 		5767,
@@ -72832,6 +73052,7 @@ pg.activity_template = {
 		45917,
 		45918,
 		45919,
-		45920
+		45920,
+		45921
 	}
 }

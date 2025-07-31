@@ -15,7 +15,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官，这样的表情和姿势如何？有什么问题请直接告诉我。",
+			say = "指揮官，這樣的表情和姿勢如何？有什麼問題請直接告訴我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,11 +39,11 @@ return {
 			},
 			options = {
 				{
-					content = "给出动作方面的建议",
+					content = "給予動作方面的建議",
 					flag = 1
 				},
 				{
-					content = "给出表情方面的建议",
+					content = "給予表情方面的建議",
 					flag = 2
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "左腿再往下压一压，在画面里的呈现会更好。",
+			say = "左腿再往下壓一壓，在畫面裡的呈現會更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "笑得再开心一些？",
+			say = "笑得再開心一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "整个人也尝试再放松一些吧。",
+			say = "整個人也嘗試再放鬆一點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "在拍摄完了影片的第一部分后，她彻底放松下来，坐在原地舒展着身体。",
+			say = "在拍攝完了影片的第一部分後，她徹底放鬆下來，坐在原地舒展著身體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "累么？",
+			say = "累嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "还好，比起累，更多的还是紧张。",
+			say = "還好，比起累，更多的還是緊張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "幸好你来探班了，指挥官。",
+			say = "幸好你來探班了，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在你来之前，我一直无法进入状态。",
+			say = "在你來之前，我一直無法進入狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……也不知道大家为什么会推选我来担任宣传影片的主角。",
+			say = "嗯……也不知道大家為什麼會推選我來擔任宣傳影片的主角。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,18 +187,18 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明明她们更加可爱，也更加适合这支影片。",
+			say = "明明她們更加可愛，也更加適合這支影片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我认为你也很合适。",
+					content = "我認為妳也很適合。",
 					flag = 1
 				},
 				{
-					content = "你也很可爱。",
+					content = "妳也很可愛。",
 					flag = 2
 				}
 			}
@@ -224,7 +224,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女的表情仍是淡淡的，但偏头避开了我的目光，头上的猫耳也随着她的动作轻轻摇晃。",
+			say = "少女的表情仍是淡淡的，但偏頭避開了我的目光，頭上的貓耳也隨著她的動作輕輕搖晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "说起来，为什么大家都是兔耳，而纳希莫夫是猫耳？",
+			say = "說起來，為什麼大家都是兔耳，而納希莫夫是貓耳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "这不是猫耳，是辅助观测的设备。",
+			say = "這不是貓耳，是輔助觀測的設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过这不是重点。",
+			say = "不過這不是重點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我认为这样的款式比较适合我，而且你也更喜欢我佩戴这种款式的观测设备吧？",
+			say = "我認為這樣的款式比較適合我，而且你也比較喜歡我戴這種款式的觀測設備吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,18 +294,18 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她用一贯的冷静姿态回应着，可是脸上的晕开的绯红却难以掩饰。",
+			say = "她用一貫的冷靜姿態回應著，可是臉上的暈開的緋紅卻難以掩飾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "猫耳确实不错",
+					content = "貓耳確實不錯",
 					flag = 1
 				},
 				{
-					content = "你戴什么都可以",
+					content = "妳戴什麼都可以",
 					flag = 2
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "猫耳的款式确实不错，下次也可以试试兔耳？",
+			say = "貓耳的款式確實不錯，下次也可以試試兔耳？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过无论纳希莫夫戴什么款式，我应该都会觉得可爱。",
+			say = "不過無論納希莫夫戴什麼款式，我應該都會覺得可愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "纳希莫夫戴什么都可以，毕竟无论你戴什么……",
+			say = "納希莫夫戴什麼都可以，畢竟無論妳戴什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我应该都会觉得可爱。",
+			say = "我應該都會覺得可愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女看上去依旧波澜不惊，然而在谈话间，有什么东西触碰到了我的手臂。",
+			say = "少女看起來依舊波瀾不驚，然而在談話間，有什麼東西觸碰到了我的手臂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "——是她的“尾巴”摇摆着缠绕住了我。",
+			say = "――是她的「尾巴」搖擺著纏繞住了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸——？！等、等等……！线缆……！",
+			say = "欸――？！等等、等等……！線纜……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不要因为太开心就擅自缠住指挥官啊！",
+			say = "不要因為太開心就擅自纏住指揮官啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "等到解开“尾巴”的束缚后，纳希莫夫肉眼可见的又有些紧张了起来。",
+			say = "等到解開「尾巴」的束縛後，納希莫夫肉眼可見的又有些緊張了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（如果继续让她这样紧张下去，接下来的拍摄应该也不会太顺利……）",
+			say = "（如果繼續讓她這樣緊張下去，接下來的拍攝應該不會太順利……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "就在思考着如何安抚纳希莫夫的情绪时，瞥到了她正在调整那对“猫耳”。",
+			say = "就在思考著如何安撫納希莫夫的情緒時，瞥到了她正在調整那對「貓耳」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……对了！",
+			say = "……對了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么了，指挥官？",
+			say = "怎麼了，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,18 +535,18 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（看来，是时候展现在猫咖和其他人学会的、真正的撸猫技术了！）",
+			say = "（看來，是時候展現在貓咖和其他人學會的、真正的擼貓技術了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸她的头",
+					content = "摸摸她的頭",
 					flag = 1
 				},
 				{
-					content = "摸摸她的下巴",
+					content = "摸她的下巴",
 					flag = 2
 				}
 			}
@@ -572,7 +572,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "纳希莫夫海军上将有些情难自禁地、舒服地半阖着双眼，睫毛轻颤。",
+			say = "納希莫夫海軍上將有些情難自禁地、舒服地半閔著雙眼，睫毛輕顫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "随后——",
+			say = "隨後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 799021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，这……喵~~~♡！",
+			say = "指揮官，這……喵~~~♡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

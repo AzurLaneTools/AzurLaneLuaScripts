@@ -3992,6 +3992,17 @@ pg.fleet_tech_ship_class = {
 			970507
 		}
 	},
+	[970509] = {
+		shiptype = 5,
+		name = "內華達·META",
+		t_level = 1,
+		id = 970509,
+		t_level_1 = 14,
+		nation = 97,
+		ships = {
+			970509
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "飛鷹·META",
@@ -4459,6 +4470,7 @@ pg.fleet_tech_ship_class = {
 		970505,
 		970506,
 		970507,
+		970509,
 		970601,
 		970602,
 		970603,

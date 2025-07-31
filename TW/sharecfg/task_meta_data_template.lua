@@ -277,6 +277,11 @@ pg.task_meta_data_template = setmetatable({
 		100383,
 		100384,
 		100385,
+		100411,
+		100412,
+		100413,
+		100414,
+		100415,
 		100431,
 		100432,
 		100433,
@@ -399,6 +404,10 @@ pg.task_meta_data_template = setmetatable({
 		200292,
 		200293,
 		200294,
+		200321,
+		200322,
+		200323,
+		200324,
 		200341,
 		200342,
 		200343,
@@ -2607,6 +2616,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用博爾扎諾·META擊破等級＞100的敵方1次"
 	},
+	[100411] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970509",
+		id = 100411,
+		target_num = 1,
+		desc = "使用內華達·META獲得1次勝利"
+	},
+	[100412] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970509",
+		id = 100412,
+		target_num = 1,
+		desc = "使用內華達·META擊破等級＞30的敵方1次"
+	},
+	[100413] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970509",
+		id = 100413,
+		target_num = 1,
+		desc = "使用內華達·META擊破等級＞55的敵方1次"
+	},
+	[100414] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970509",
+		id = 100414,
+		target_num = 1,
+		desc = "使用內華達·META擊破等級＞80的敵方1次"
+	},
+	[100415] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970509",
+		id = 100415,
+		target_num = 1,
+		desc = "使用內華達·META擊破等級＞100的敵方1次"
+	},
 	[100431] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3582,6 +3631,38 @@ pg.base.task_meta_data_template = {
 		id = 200294,
 		target_num = 1,
 		desc = "大型作戰內使用博爾扎諾·META擊破等級＞100的敵方1次"
+	},
+	[200321] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970509",
+		id = 200321,
+		target_num = 1,
+		desc = "大型作戰內使用內華達·META獲得1次勝利"
+	},
+	[200322] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970509",
+		id = 200322,
+		target_num = 1,
+		desc = "大型作戰內使用內華達·META擊破等級＞70的敵方1次"
+	},
+	[200323] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970509",
+		id = 200323,
+		target_num = 1,
+		desc = "大型作戰內使用內華達·META擊破等級＞90的敵方1次"
+	},
+	[200324] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970509",
+		id = 200324,
+		target_num = 1,
+		desc = "大型作戰內使用內華達·META擊破等級＞100的敵方1次"
 	},
 	[200341] = {
 		target_id = "0",

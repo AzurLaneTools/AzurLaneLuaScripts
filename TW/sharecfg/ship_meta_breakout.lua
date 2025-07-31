@@ -126,6 +126,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705072,
 		9705073,
 		9705074,
+		9705091,
+		9705092,
+		9705093,
+		9705094,
 		9706011,
 		9706012,
 		9706013,
@@ -2171,6 +2175,73 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9705074,
 		item1 = 21040,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9705091] = {
+		breakout_view = "習得技能【破敵之炬·內華達】/主炮底座+1/主炮效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9705092,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705091,
+		item1 = 21046,
+		level = 10,
+		weapon_ids = {
+			14100,
+			14100
+		}
+	},
+	[9705092] = {
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		item2 = 21001,
+		pre_id = 9705091,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9705093,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705092,
+		item1 = 21046,
+		level = 30,
+		weapon_ids = {
+			11100,
+			11100,
+			11100
+		}
+	},
+	[9705093] = {
+		breakout_view = "【破敵之炬·內華達】升級/主炮底座+1/主炮效率提高15%",
+		item2 = 21001,
+		pre_id = 9705092,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9705094,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9705093,
+		item1 = 21046,
+		level = 70,
+		weapon_ids = {
+			14100,
+			14100,
+			14100
+		}
+	},
+	[9705094] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9705093,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9705094,
+		item1 = 21046,
 		level = 0,
 		weapon_ids = {}
 	},

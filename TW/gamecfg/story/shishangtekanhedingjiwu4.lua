@@ -15,7 +15,7 @@ return {
 			bgm = "story-richang-light",
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "亲爱的客人，到我这里坐下吧，无论吃饭还是聊天，都由我来陪着你哦~",
+			say = "親愛的客人，到我這裡坐下吧，無論吃飯或聊天，都由我來陪你喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "（人称用的是“我”和“你”……？）",
+			say = "（人稱用的是「我」和「你」……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "仔细打量了一番哈尔福德，虽然她的脸上带着甜美明媚的笑容，但眸中却毫无光彩。",
+			say = "仔細打量了一番哈爾福德，雖然她的臉上帶著甜美明媚的笑容，但眸中卻毫無光彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "（以哈尔福德喜欢工作的程度来说，不应该会这样……）",
+			say = "（以哈爾福德喜歡的工作程度來說，不應該會這樣……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "（难道是那个绿头猫威胁了她什么么？）",
+			say = "（難道是那個綠頭貓威脅了她什麼？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "……干嘛一直盯着吾？",
+			say = "……幹嘛一直盯著吾？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "哈尔福德收起了刚刚的笑容，微鼓着双颊看向我。",
+			say = "哈爾福德收起了剛剛的笑容，微鼓著雙頰看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "我在想你是不是被{namecode:98:明石}胁迫了，不然不至于这么明显的状态不对。",
+			say = "我在想妳是不是被明石脅迫了，不然不至於這麼明顯的狀態不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "没有啦，{namecode:98:明石}并没有胁迫吾，吾只是……",
+			say = "沒有啦，明石並沒有脅迫吾，吾只是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她抱着“小德拉”玩偶，轻轻呼出一口气，犹豫了一会儿才继续往下说。",
+			say = "她抱著「小德拉」玩偶，輕輕呼出一口氣，猶豫了一陣子才繼續往下說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾只是有些不满这份工作过于轻松……",
+			say = "吾只是有些不滿這份工作過於輕鬆……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "因为这份工作只要求吾用“甜美可爱的口吻”坐在这里陪汝聊天而已。",
+			say = "因為這份工作只要求吾用「甜美可愛的口吻」坐在這裡陪汝聊天而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾真的能心安理得地获得工作的报酬么？",
+			say = "吾真的能心安理得地獲得工作的報酬麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,14 +231,14 @@ return {
 			fontsize = 24,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "而且陪伴对象是汝的话，怎么想都是奖励吧……",
+			say = "而且陪伴對像是汝的話，怎麼想都是獎勵吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那就不当做工作，如何？",
+					content = "那就不當做工作，如何？",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那就不把它视作工作，如何？",
+			say = "既然如此，那就不把它視作工作，如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "单纯视为陪我聊天，会不会令你安心一些？",
+			say = "單純視為陪我聊天，會不會令妳安心一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "嗯……听起来好像也可以……？",
+			say = "嗯……聽起來好像也可以……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "不对、不可以！工作就是工作，不可以跟其他事情混为一谈的！",
+			say = "不對、不可以！工作就是工作，不可以跟其他事情混為一談的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾可是很认真地对待这份工作的！",
+			say = "吾可是很認真地對待這份工作的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "在得知要陪汝的时候，吾可是连玩偶都精挑细选、仔细培训过的！",
+			say = "在得知要陪汝的時候，吾可是連玩偶都精挑細選、仔細訓練過的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "哈尔福德慌乱地将玩偶举到面前，似乎是在掩饰自己的害羞。",
+			say = "哈爾福德慌亂地將玩偶舉到眼前，似乎在掩飾自己的害羞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "给玩偶的培训？难道它们还会说话么？",
+			say = "給玩偶的培訓？難道它們還會說話嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "这是吾的比喻！玩偶当然不会说话，但是吾可是认真将它们打扮了一番。",
+			say = "這是吾的比喻！玩偶當然不會說話，但是吾可是認真將它們打扮了一番。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾总结的陪伴要义第一条，就是要用可爱的外表治愈吾的眷属。",
+			say = "吾總結的陪伴要義第一條，就是要用可愛的外表來治癒吾的眷屬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "……怎么样，看着可爱的玩偶小德拉，汝有没有被治愈到？",
+			say = "……怎麼樣，看著可愛的玩偶小德拉，汝有沒有被治癒到？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "没有的话……唔，汝也可以另选自己喜欢的！",
+			say = "沒有的話……唔，汝也可以另選自己喜歡的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "直到被治愈了为止！",
+			say = "直到被治癒了為止！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "这个沙发上的全都可以任由我选么？",
+			say = "這個沙發上的全都可以任由我選嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			},
 			options = {
 				{
-					content = "那，选哈尔福德也可以？",
+					content = "那，選哈爾福德也可以？",
 					flag = 1
 				}
 			}
@@ -473,7 +473,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "那，选哈尔福德也可以么？毕竟哈尔福德也在沙发上。",
+			say = "那，選哈爾福德也可以嗎？畢竟哈爾福德也在沙發上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女惊讶出声，回味过我话中的意思后，白皙的脸颊上染上了粉霞，眼眸满是羞赧。",
+			say = "少女驚訝出聲，回味過來我話中的意思後，白皙的臉頰上染上了粉霞，眼眸滿是羞覷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾可不是玩偶，吾可是高贵的第一百二十六任血族亲王！",
+			say = "吾可不是玩偶，吾可是高貴的第一百二十六任血族親王！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,18 +528,18 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "汝只是我的眷属而已！怎能提出这样的请求？！",
+			say = "汝只是我的眷屬而已！怎能提出這樣的請求？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我开玩笑的。",
+					content = "我開玩笑的。",
 					flag = 1
 				},
 				{
-					content = "是哈尔福德事先同意的。",
+					content = "是哈爾福德事先同意的。",
 					flag = 2
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "和你开个玩笑，缓和一下你因为工作太简单而不安的情绪而已。",
+			say = "跟妳開個玩笑，緩和一下妳因為工作太簡單而不安的情緒而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "现在有没有感觉好一点？",
+			say = "現在有沒有感覺好一點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			fontsize = 24,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "原来只是玩笑么……",
+			say = "原來只是個玩笑嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			optionFlag = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "不管了！总之吾当真了哦！",
+			say = "不管了！總之吾當真了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "是哈尔福德事先同意的，不是么？",
+			say = "是哈爾福德事先同意的，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "当我问这个沙发上是不是可以任意挑选的时候，你说“自然”。",
+			say = "當我問這個沙發上是不是可以任意挑選的時候，妳說「自然」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "而且你也只说了……“另选我喜欢的”，可没限制说只能挑选玩偶。",
+			say = "而且妳也只說了……「另選我喜歡的」，可沒限制說只能挑選玩偶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "尔后，娇小可爱的少女起身，鼓着脸颊坐到了我的怀中。",
+			say = "爾後，嬌小可愛的少女起身，鼓著臉頰坐到了我的懷中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "柔软的兔耳轻轻擦过我的脸颊，而她将红透的脸慢慢埋入我的肩窝。",
+			say = "柔軟的兔耳輕輕擦過我的臉頰，而她將紅透的臉慢慢埋入我的肩窩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "亲爱的客人，这样子……汝有被治愈到么？",
+			say = "親愛的客人，這樣子……汝有被治癒到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

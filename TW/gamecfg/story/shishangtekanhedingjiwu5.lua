@@ -14,7 +14,7 @@ return {
 			bgm = "story-richang-7",
 			hideRecordIco = true,
 			actorName = "{playername}",
-			say = "（店里最新报批修建的部分就在这里了……）",
+			say = "（店裡最新報告建造的部分就在這裡了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "咯吱——",
+			say = "咯吱――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "轻微的异响传来，打断了我的思绪，循声看去——",
+			say = "輕微的異響傳來，打斷了我的思緒，循聲看去――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "欸？是指挥官大人？您怎么来了？",
+			say = "欸？是指揮官大人？您怎麼來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:299:大山}躺在方台之上，腿部被悬挂装饰用的红绳缠绕着。",
+			say = "大山躺在方台之上，腿部被懸掛裝飾用的紅繩纏繞著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "因为她腿部的动作，红绳被轻轻牵引，上面的装饰也被连带着摇晃出声响。",
+			say = "因為她腿部的動作，紅繩被輕輕牽引，上面的裝飾也被連帶著搖晃出聲響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "{namecode:299:大山}……？这是什么情况？",
+			say = "大山……？這是什麼情況？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "啊……让指挥官大人您见笑了……",
+			say = "啊……讓指揮官大人您見笑了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "因为此处新修建好不久，{namecode:299:大山}便想在这里挂些装饰，结果一不小心被缠住了。",
+			say = "因為此處新修建好不久，大山便想在這裡掛些裝飾，結果一不小心被纏住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "是{namecode:299:大山}招待不周，还望指挥官大人见谅。",
+			say = "是大山招待不周，還望指揮官大人見諒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "没关系。你现在这个样子应该也没办法自己解决吧？我帮你。",
+			say = "沒關係。妳現在這個樣子應該也沒辦法自己解決吧？我幫你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "那就麻烦指挥官大人帮我解开了。",
+			say = "那就麻煩指揮官大人幫我解開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女露出了“得救了”一般的神情。",
+			say = "少女露出了「得救了」一般的神情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "还好您来了……不然{namecode:299:大山}还不知道要何时才能从这些绳结中脱困。",
+			say = "還好您來了……不然大山還不知道要何時才能從這些繩結中脫困。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "点点头后靠近了方台，这时我才发现缠绕的情况比我预想中要麻烦一些。",
+			say = "點點頭後靠近了方台，這時我才發現纏繞的情況比我預想中要麻煩一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "有什么需要注意的么？比如不能弄坏这些装饰？",
+			say = "有什麼需要注意的麼？例如不能弄壞這些裝飾？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "没关系，这些装饰本来就因为{namecode:299:大山}的失误而乱了……",
+			say = "沒關係，這些裝飾本來就因為大山的失誤而亂了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "待会再重新布置一下即可。",
+			say = "待會再重新佈置即可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "小心翼翼地拆解着在少女腿上缠绕交错的暗红丝绳。",
+			say = "小心翼翼地拆解著在少女腿上纏繞交錯的暗紅絲繩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "大概是缠绕太久的缘故，红绳在她的腿上留下了浅浅的痕迹。",
+			say = "大概是纏繞太久的緣故，紅繩在她的腿上留下了淺淺的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "暗色的红绳与浅红的勒痕遍布在莹白的肌肤之上，异常显眼。",
+			say = "暗色的紅繩與淺紅色的勒痕遍布在瑩白的肌膚之上，異常顯眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "指挥官大人////……",
+			say = "指揮官大人////……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "弄疼你了么？",
+			say = "弄痛妳了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "没有，只是……指挥官大人不必那么温柔谨慎。",
+			say = "沒有，只是……指揮官大人不必那麼溫柔謹慎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,18 +377,18 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "稍微粗暴一些，{namecode:299:大山}也是能够接受的……",
+			say = "稍微粗暴一些，大山也是能夠接受的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "还是谨慎一些比较好",
+					content = "還是謹慎一些比較好。",
 					flag = 1
 				},
 				{
-					content = "我不想弄疼你",
+					content = "我不想弄疼大山。",
 					flag = 2
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "还是谨慎一些为好，免得弄坏了装饰。",
+			say = "還是謹慎一些為好，免得弄壞了裝飾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "这是{namecode:299:大山}精心布置的吧，不能让你的心血白费。",
+			say = "這是大山精心佈置的吧，不能讓妳的心血白費。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "当然，最重要的是我不想弄疼你。",
+			say = "當然，最重要的是我不想弄疼妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "我不想弄疼你。",
+			say = "我不想弄疼大山。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "而且这些装饰也是你耗费了很多心思挂好的，我也不想让你的心血彻底白费。",
+			say = "而且這些裝飾也是妳耗費了很多心思掛好的，我也不想讓妳的心血徹底白費。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "{namecode:299:大山}知道了……///",
+			say = "大山知道了……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "嗯……还差一点了，把腿再稍微抬高一些？",
+			say = "嗯……還差一點了，把腿再稍微抬高一些？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:299:大山}将腿又抬高了一些，在一番努力过后，缠绕的丝绳总算全部得以解开。",
+			say = "大山將腿又抬高了一些，在一番努力過後，纏繞的絲繩總算全部得以解開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "谢谢您，指挥官大人……",
+			say = "謝謝您，指揮官大人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "不用跟我客气。对了，我记得报批的申请书上说这里是祈愿区域？",
+			say = "不用跟我客氣。對了，我記得報告的申請書上說這裡是祈願區域？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "为什么会想到在店里增设祈愿区域？",
+			say = "為什麼會想到在店裡增設祈願區域？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "唔……{namecode:98:明石}说这样比较“潮流”，说是以后可以开放这片区域给其他的同伴用来“打卡”……",
+			say = "唔……明石說這樣比較「潮流」，說是以後可以開放這片區域給其他的同伴用來「打卡」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "还说要做一个“首次祈愿资格抽奖”之类的活动。",
+			say = "還說要做一個「首次祈願資格抽獎」之類的活動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "嗯……不过这个活动应该做不了了吧。",
+			say = "嗯……不過這個活動應該做不了了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			hideRecordIco = true,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "为什么？",
+			say = "為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "因为{namecode:299:大山}已经在准备装饰的时候就祈愿过了呢。",
+			say = "因為大山已經在準備裝飾的時候就祈願過了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			actor = 399071,
 			nameColor = "#A9F548FF",
-			say = "愿指挥官平安顺遂，愿{namecode:299:大山}能够永远守护在您的身边。",
+			say = "願指揮官平安順遂，願大山能永遠守護在您的身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

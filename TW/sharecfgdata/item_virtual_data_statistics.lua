@@ -183532,6 +183532,64 @@ _G.pg.base.item_virtual_data_statistics[86208] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86209] = {
+	drop_gold_max = 0,
+	name = "隨機遊戲之夜換裝II",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86209,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307084,
+			1000
+		},
+		{
+			699021,
+			1000
+		},
+		{
+			799021,
+			1000
+		},
+		{
+			199051,
+			1100
+		},
+		{
+			399071,
+			1100
+		},
+		{
+			899041,
+			1600
+		},
+		{
+			402102,
+			1600
+		},
+		{
+			303061,
+			1600
+		}
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[86210] = {
 	drop_gold_max = 0,
 	name = "隨機換裝",

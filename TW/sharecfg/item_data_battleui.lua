@@ -88,6 +88,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[106] = {
+		name = "惡魔契約",
+		key = "SkinNormal_20250327",
+		display_icon = "ui_106",
+		unlock = "世界巡遊二十二期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "惡魔的氣息從指揮介面中溢出，流經血液覆蓋的邊框與不祥的法陣交織，營造出黑暗又危險的氛圍。",
+		id = 106,
+		icon = "106",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "聖誕雪境",
 		key = "SkinNormal_20241209",
@@ -146,6 +161,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
+		106,
 		201,
 		203,
 		204

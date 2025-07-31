@@ -26,6 +26,8 @@ pg.pay_data_display = setmetatable({
 		73,
 		82,
 		83,
+		84,
+		85,
 		86,
 		87,
 		91,
@@ -158,7 +160,8 @@ pg.pay_data_display = setmetatable({
 		4917,
 		4918,
 		4919,
-		4920
+		4920,
+		4921
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2446,6 +2449,244 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81200,
+				1
+			}
+		}
+	},
+	[84] = {
+		picture = "fudai20",
+		name = "港區遊戲之夜禮盒·II",
+		type = 1,
+		limit_arg = 1,
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "港區遊戲之夜禮盒·II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*禮盒將會寄到信箱，請注意查收。\n*重複取得已擁有的換裝時，則自動置換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao141",
+		extra_gem = 0,
+		id = 84,
+		airijp_id = "com.yostarjp.azurlane.diamond172",
+		name_display = "港區遊戲之夜禮盒·II",
+		akashi_pick = 1,
+		skin_inquire_relation = 86209,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81209,
+				1
+			}
+		}
+	},
+	[85] = {
+		picture = "fudai10",
+		name = "絢爛繽紛夜福袋·II復刻",
+		type = 1,
+		limit_arg = 1,
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "絢爛繽紛夜福袋·II復刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。\n*重複取得已擁有的換裝時，則自動置換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao142",
+		extra_gem = 0,
+		id = 85,
+		airijp_id = "com.yostarjp.azurlane.diamond173",
+		name_display = "絢爛繽紛夜福袋·II復刻",
+		akashi_pick = 1,
+		skin_inquire_relation = 86201,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81201,
 				1
 			}
 		}
@@ -15018,6 +15259,87 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45920,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4921] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十二期）",
+		type = 0,
+		limit_arg = 1,
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·神速限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass22",
+		extra_gem = 0,
+		id = 4921,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass22",
+		name_display = "特許巡遊憑證",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4022,
+				1500
+			},
+			{
+				8,
+				65086,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45921,
 			1500
 		},
 		ignorePlatform = {},

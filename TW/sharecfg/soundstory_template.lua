@@ -559,6 +559,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	[19] = {
+		story_pic = "",
+		name = "烏龍麵的製作方法？ ！",
+		story_resource_JP = "soundStory19_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "澤田姬",
+		audition_resource_JP = "ss-39906-1",
+		overview = "體驗著傳統製作方式來開啟新年的龍神大人，\n意外地無法馴服變得越發濕潤柔軟的麵團，\n在如此膠著的狀態下，似乎只能施以援手了……",
+		order = 2,
+		audition_text = "這些比較硬的地方……用腳仔細地按下去……如果不聽話的話……就再按一按……",
+		ship_id = 39906,
+		id = 19,
+		captions_color = "#2e2f31",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[20] = {
 		story_pic = "",
 		name = "和你的海灘約會",
@@ -733,6 +786,7 @@ pg.soundstory_template = {
 		12,
 		13,
 		14,
+		19,
 		20,
 		21,
 		22,
