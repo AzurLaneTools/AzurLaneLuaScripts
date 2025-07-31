@@ -88,6 +88,7 @@ pg.pay_data_display = setmetatable({
 		92,
 		93,
 		94,
+		95,
 		1000,
 		1001,
 		1002,
@@ -9762,6 +9763,110 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81205,
+				1
+			}
+		}
+	},
+	[95] = {
+		picture = "fudai26",
+		name = "스킨 패키지(카니발) ",
+		type = 1,
+		limit_arg = 2,
+		descrip = "<size=18>다음 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아로 변환), 그리고 기타 아이템을 획득할 수 있습니다.</size>",
+		subject = "스킨 패키지(카니발) ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 9900,
+		descrip_extra = "※복주머니는 우편함으로 발송됩니다.\n※모두 소지하고 있는 경우에는 자동으로 다이아×680개로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift152",
+		extra_gem = 0,
+		id = 95,
+		airijp_id = "com.yostarjp.azurlane.diamond183",
+		name_display = "스킨 패키지(카니발) ",
+		akashi_pick = 1,
+		skin_inquire_relation = 86215,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86215,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86215,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81215,
 				1
 			}
 		}

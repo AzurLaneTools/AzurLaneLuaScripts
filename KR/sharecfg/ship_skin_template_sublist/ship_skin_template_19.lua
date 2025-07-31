@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[10100051] = {
+		name = "여신의 약속",
+		change_skin = "",
+		desc = "지휘관. 잠시, 나와 얘기하지 않을래? 플라네튠에 대해 알려줄게. 그리고, 언젠가 당신들이 찾아올 날을 기다리고 있을게.",
+		illustrator2 = -1,
+		ship_group = 1010005,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "HDN102_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 9999,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "201",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 10100051,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "HDN102_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70038,
+		voice_actor = 79,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "neppurple",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.01,
+					1.09,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.94,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100060] = {
 		name = "블랙 하트",
 		change_skin = "",
@@ -14262,124 +14375,6 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.384,
 							2.427,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11100030] = {
-		name = "모모 베리아 데빌룩",
-		change_skin = "",
-		desc = "안녕하세요. 당신이 여기 지휘관님이시죠? 저는 모모 베리아 데빌룩이라고 해요. 모모라고 불러주세요. 앞으로 잘 부탁드려요. 친해지면 좋겠네요♪",
-		illustrator2 = -1,
-		ship_group = 1110003,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "mengmeng_tolove",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 11100030,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "mengmeng_tolove",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 405,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.791,
-					0.602,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.772,
-					0.607,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					2.173,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.32,
 							0
 						}
 					}

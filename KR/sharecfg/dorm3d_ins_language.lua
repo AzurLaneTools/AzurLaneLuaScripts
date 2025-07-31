@@ -150,6 +150,31 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_2_2_1",
 		is_active = "0"
 	},
+	xinzexi_3 = {
+		value = "听完节奏感很强的音乐，果然心情会很不一样♪♪",
+		key = "xinzexi_3",
+		is_active = "0"
+	},
+	xinzexi_3_1 = {
+		value = "难道是重金属摇滚吗？",
+		key = "xinzexi_3_1",
+		is_active = "0"
+	},
+	xinzexi_3_1_1 = {
+		value = "当然不是啦~Honey来一起听听吧！说不定会爱上和我一起听音乐~！",
+		key = "xinzexi_3_1_1",
+		is_active = "0"
+	},
+	xinzexi_3_2 = {
+		value = "现在心情是如何？",
+		key = "xinzexi_3_2",
+		is_active = "0"
+	},
+	xinzexi_3_2_1 = {
+		value = "现在心里痒痒的~竟然还有这样特殊的节奏！",
+		key = "xinzexi_3_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -180,6 +205,11 @@ pg.dorm3d_ins_language = {
 		"xinzexi_2_1",
 		"xinzexi_2_1_1",
 		"xinzexi_2_2",
-		"xinzexi_2_2_1"
+		"xinzexi_2_2_1",
+		"xinzexi_3",
+		"xinzexi_3_1",
+		"xinzexi_3_1_1",
+		"xinzexi_3_2",
+		"xinzexi_3_2_1"
 	}
 }

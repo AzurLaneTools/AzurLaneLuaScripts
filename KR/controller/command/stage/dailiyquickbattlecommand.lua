@@ -21,7 +21,12 @@ slot0.execute = function(slot0, slot1)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0.reward_list) do
-				slot1[slot5] = PlayerConst.addTranDrop(slot6.drop_list)
+				table.insertto(slot1, PlayerConst.addTranDrop(slot6.drop_list))
+				table.insertto(slot1, underscore.map(PlayerConst.addTranDrop(slot6.extra_drop_list or {}), function (slot0)
+					slot0.riraty = true
+
+					return slot0
+				end))
 			end
 
 			uv0.data[uv1] = (uv0.data[uv1] or 0) + uv2

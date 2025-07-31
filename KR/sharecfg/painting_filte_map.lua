@@ -734,7 +734,8 @@ pg.painting_filte_map = {
 		key = "aimannuaier_2",
 		res_list = {
 			"painting/aimannuaier_2_tex",
-			"painting/aimannuaier_2_n_tex",
+			"painting/aimannuaier_2_rw_tex",
+			"painting/aimannuaier_2_n_rw_tex",
 			"painting/aimannuaier_2_n",
 			"painting/aimannuaier_2"
 		}
@@ -2736,6 +2737,16 @@ pg.painting_filte_map = {
 			"painting/bulvxieer_3_hx",
 			"painting/bulvxieer_3_bj_tex",
 			"painting/bulvxieer_3"
+		}
+	},
+	bulvxieer_4 = {
+		key = "bulvxieer_4",
+		res_list = {
+			"painting/bulvxieer_4_tex",
+			"painting/bulvxieer_4_rw_tex",
+			"painting/bulvxieer_4_n_rw_tex",
+			"painting/bulvxieer_4_n",
+			"painting/bulvxieer_4"
 		}
 	},
 	bunao = {
@@ -10412,8 +10423,10 @@ pg.painting_filte_map = {
 		key = "lvzuofu_2",
 		res_list = {
 			"painting/lvzuofu_2_tex",
-			"painting/lvzuofu_2_n_tex",
+			"painting/lvzuofu_2_rw_tex",
+			"painting/lvzuofu_2_n_rw_tex",
 			"painting/lvzuofu_2_n",
+			"painting/lvzuofu_2_bj_tex",
 			"painting/lvzuofu_2"
 		}
 	},
@@ -11121,6 +11134,9 @@ pg.painting_filte_map = {
 		key = "mingyunnvshen_2",
 		res_list = {
 			"painting/mingyunnvshen_2_tex",
+			"painting/mingyunnvshen_2_rw_tex",
+			"painting/mingyunnvshen_2_n_rw_tex",
+			"painting/mingyunnvshen_2_n",
 			"painting/mingyunnvshen_2"
 		}
 	},

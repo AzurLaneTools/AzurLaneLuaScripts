@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[404033] = {
+		name = "오피서즈 스트리트!",
+		change_skin = "",
+		desc = "자이틀리츠, 상관님께 경례! ……평소와는 분위기가 사뭇 다르다니… 그렇습니까? 하핫! 상관님께서 말씀하신 대로 가끔은 이미지 변신을 해볼까 했습니다. 아, 오늘은 기온을 고려해서 음료도 준비했습니다. 드십시오!",
+		illustrator2 = -1,
+		ship_group = 40403,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "saidelici_7",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 9,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "148",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 404033,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "saidelici_7",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71001,
+		voice_actor = 144,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.488,
+					0.785,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.207,
+					0.767,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.037,
+					1.166,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.837,
+							1.846,
+							-0.73
+						}
+					}
+				}
+			}
+		}
+	},
 	[404040] = {
 		name = "뤼초",
 		change_skin = "",
@@ -136,7 +256,7 @@ pg.base.ship_skin_template_12 = {
 		lip_smoothing = 0,
 		bgm = "",
 		special_effects = "",
-		bg = "156",
+		bg = "107",
 		gyro = 0,
 		spine_use_live2d = 0,
 		spine_action_offset = false,
@@ -158,7 +278,6 @@ pg.base.ship_skin_template_12 = {
 		rarity_bg = "",
 		time = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
@@ -166,8 +285,15 @@ pg.base.ship_skin_template_12 = {
 		},
 		live2d_offset = {
 			42,
+			48,
 			0,
-			0
+			33
+		},
+		live2d_offset_profile = {
+			42,
+			48,
+			0,
+			33
 		},
 		fx_container = {
 			{
@@ -14569,137 +14695,6 @@ pg.base.ship_skin_template_12 = {
 							-0.946,
 							4.368,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[502020] = {
-		name = "닝하이",
-		change_skin = "",
-		desc = "닝하이급 경순양함·닝하이",
-		illustrator2 = -1,
-		ship_group = 50202,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "ninghai",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 15,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 502020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "ninghai",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 43,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.34,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.48,
-					0.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							0.75,
-							-0.27
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.8,
-							2.45,
-							-0.05
 						}
 					}
 				}

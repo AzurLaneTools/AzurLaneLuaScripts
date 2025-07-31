@@ -23510,6 +23510,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23540,6 +23551,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 레인보우 피날레",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24419,6 +24441,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24623,6 +24656,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24653,6 +24697,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 레인보우 피날레",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24941,6 +24996,16 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 레인보우 피날레",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

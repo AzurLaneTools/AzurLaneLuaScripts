@@ -1,6 +1,137 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[502020] = {
+		name = "닝하이",
+		change_skin = "",
+		desc = "닝하이급 경순양함·닝하이",
+		illustrator2 = -1,
+		ship_group = 50202,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "ninghai",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 502020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "ninghai",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 43,
+		spine_offset = "",
+		illustrator = 5,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.31,
+					0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.48,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							0.75,
+							-0.27
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							2.45,
+							-0.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[502021] = {
 		name = "식욕의 여름!",
 		change_skin = "",
@@ -8623,7 +8754,7 @@ pg.base.ship_skin_template_13 = {
 		l2d_animations = "",
 		bgm = "",
 		special_effects = "",
-		bg = "109",
+		bg = "185",
 		gyro = 0,
 		spine_use_live2d = 0,
 		spine_action_offset = false,
@@ -15198,110 +15329,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.556,
 							2.471,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[608020] = {
-		name = "레오나르도 다 빈치",
-		change_skin = "",
-		desc = "굴리엘모 마르코니급 잠수함 - 레오나르도 다 빈치",
-		illustrator2 = -1,
-		ship_group = 60802,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "dafenqi",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 608020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "dafenqi",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 332,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.03,
-					0.612,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.696,
-							2.006,
 							0
 						}
 					}

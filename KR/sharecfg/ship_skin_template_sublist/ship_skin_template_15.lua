@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[803021] = {
+		name = "연주자의 칼끝",
+		change_skin = "",
+		desc = "집검자여, 마침 잘 왔다. 조금 도움을 받았으면 하는군. 응? 왜 그런 표정을 짓는 거지? 집검자를 위해 입은 \"의상\"을 정돈해달라는 것뿐, 그리 어려운 일은 아닐 터인데…?",
+		illustrator2 = -1,
+		ship_group = 80302,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "bulunnusi_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "180",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 803021,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "bulunnusi_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71007,
+		voice_actor = 407,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.768,
+					0.392,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.826,
+					0.434,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.66,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.258,
+							2.458,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[805010] = {
 		name = "리슐리외 ",
 		change_skin = "",
@@ -15442,119 +15562,6 @@ pg.base.ship_skin_template_15 = {
 		part_scale = "",
 		get_showing = "",
 		prefab = "Jiahe_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 0,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.86,
-					0.54,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.28,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900096] = {
-		name = "赤城",
-		change_skin = "",
-		desc = "无描述",
-		illustrator2 = -1,
-		ship_group = 900096,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "Chicheng_2",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 900096,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "Chicheng_2",
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,

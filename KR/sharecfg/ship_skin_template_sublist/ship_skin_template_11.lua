@@ -9763,6 +9763,126 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[403023] = {
+		name = "방과 후의 기다림",
+		change_skin = "",
+		desc = "냐하☆ 역시 지휘관이라면 절대로 마중나와 줄거라고 생각했어~! 다음부터는 그렇게 서두르지 않아도 좋아! 블뤼허는 얼마든지 기다려 줄거고, 정말정말정말 좋아하는 지휘관이 지쳐버리면 안되니깐!",
+		illustrator2 = -1,
+		ship_group = 40302,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "bulvxieer_4",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "147",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 403023,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "bulvxieer_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 132,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.075,
+					0.829,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.127,
+					0.922,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.278,
+					-0.064,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.852,
+					2.133,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.568,
+							2.259,
+							-0.081
+						}
+					}
+				}
+			}
+		}
+	},
 	[403030] = {
 		name = "프린츠 오이겐",
 		change_skin = "",
@@ -15391,126 +15511,6 @@ pg.base.ship_skin_template_11 = {
 		l2d_voice_calibrate = "",
 		tag = {
 			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.488,
-					0.785,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.207,
-					0.767,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.019,
-					-0.008,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.037,
-					1.166,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.837,
-							1.846,
-							-0.73
-						}
-					}
-				}
-			}
-		}
-	},
-	[404033] = {
-		name = "오피서즈 스트리트!",
-		change_skin = "",
-		desc = "자이틀리츠, 상관님께 경례! ……평소와는 분위기가 사뭇 다르다니… 그렇습니까? 하핫! 상관님께서 말씀하신 대로 가끔은 이미지 변신을 해볼까 했습니다. 아, 오늘은 기온을 고려해서 음료도 준비했습니다. 드십시오!",
-		illustrator2 = -1,
-		ship_group = 40403,
-		group_index = 3,
-		purchase_offset = "",
-		painting = "saidelici_7",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 9,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "148",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 404033,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "saidelici_7",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71001,
-		voice_actor = 144,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
 		},
 		live2d_offset = {
 			0,
