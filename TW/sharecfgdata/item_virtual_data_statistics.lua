@@ -152156,8 +152156,8 @@ _G.pg.base.item_virtual_data_statistics[58992] = {
 
 _G.pg.base.item_virtual_data_statistics[58993] = {
 	drop_gold_max = 0,
-	name = "外观装备(港区喧嚣夜)",
-	display = "有機率獲得以下裝備外觀之一",
+	name = "外觀裝備(港區喧囂夜)",
+	display = "隨機獲得一件「港區喧囂夜」主題外觀裝備",
 	type = 99,
 	is_world = 0,
 	shop_id = -1,
