@@ -6162,7 +6162,7 @@ _G.pg.base.gametip.dailyLevel_opened = {
 
 
 _G.pg.base.gametip.dailyLevel_bonus_activity = {
-	tip = "한정 보너스"
+	tip = "限时up奖励"
 }
 
 
@@ -6778,6 +6778,11 @@ _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 
 _G.pg.base.gametip.word_shipNation_brs = {
 	tip = "BLACK★ROCK SHOOTER"
+}
+
+
+_G.pg.base.gametip.word_shipNation_yumia = {
+	tip = "Atelier Yumia"
 }
 
 
@@ -12463,17 +12468,17 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「U-552」, 「아드미랄 젠커」 등장 확률 UP!"
+	tip = "「유미아 리스펠트」, 「니나 프리드」, 「레이냐」 등장 확률 UP!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「뤼초」 「자이틀리츠」 「요르크」 상시 건조 추가!"
+	tip = "「로마」, 「볼차노」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「엠덴」 「엘빙」 상시 건조 추가!"
+	tip = "「주세페 가리발디」, 「알프레도 오리아니」  상시 건조 추가!"
 }
 
 
@@ -14507,12 +14512,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
 	tip = [[
 <size=28>
-탄막확인 기능(모의전)을 기동하시겠습니까?
-(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
-사용장비：<color=#92fc63>
-시제형406mm/45 3연장포MK7
-127mm연장 양용포MK12
-4연장 보포스 40mm기관포
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 406mm/45 3연장포 MK7
+127mm 연장 양용포 MK12
+ 4연장 보포스 40mm 기관포 
 </color></size>]]
 }
 
@@ -14520,12 +14525,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
 	tip = [[
 <size=28>
-탄막확인 기능(모의전)을 기동하시겠습니까?
-(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
-사용장비：<color=#92fc63>
-시제형305mm4연장포SKC39
-127mmKM40연장포
-시제형55mm Gerät 58대공포
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 305mm 4연장포 SKC39
+127mm KM40 연장포
+파일럿형 55mm Gerät 58 대공포
 </color></size>]]
 }
 
@@ -14533,12 +14538,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
 	tip = [[
 <size=28>
-탄막확인 기능(모의전)을 기동하시겠습니까?
-(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
-사용장비：<color=#92fc63>
-135mm연장포Model1938
-시제형533mm4연장 어뢰Si 270
-시제형20mmScotti4연장 기관 Model1941
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+135mm 연장포 Model1938
+파일럿형 533mm 4연장 어뢰 Si 270
+파일럿형 20mm Scotti 6연장 기관포 Model1941
 </color></size>]]
 }
 
@@ -14546,12 +14551,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
 	tip = [[
 <size=28>
-탄막확인 기능(모의전)을 기동하시겠습니까?
-(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
-사용장비：<color=#92fc63>
-시제형180mm 3연장포B-1-P Model1932개조
-550mm3연장 어뢰 발사관
-2연장57mm/L60보포스 대공 기관포 Mle1951
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 180mm 3연장포 B-1-P Model1932 개조
+550mm 3연장 어뢰 발사관 
+2연장 57mm/L60 보포스 대공 기관포 Mle1951
 </color></size>]]
 }
 
@@ -14559,12 +14564,12 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 	tip = [[
 <size=28>
-탄막확인 기능(모의전)을 기동하시겠습니까?
-(<color=#ff5c5c>※실제의 함의 성능과 다릅니다</color>）
-사용장비：<color=#92fc63>
-시제형283mm/54.5 3연장포
-100mm2연장98식 고각포改
-2연장57mm/L60보포스 대공 기관포 Mle1951
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>※실제 함선의 성능과 다릅니다. </color>)
+사용 병장: <color=#92fc63>
+파일럿형 283mm/54.5 3연장포 
+100mm 2연장 98식 고각포 개조
+2연장 57mm/L60 보포스 대공 기관포 Mle1951
 </color></size>]]
 }
 
@@ -26053,6 +26058,75 @@ _G.pg.base.gametip.cruise_task_help_2506 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2508 = {
+	tip = "2025/8/15 ~ 2025/10/14 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 보상으로 <color=#854747>「됭케르크·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2508 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2025.8.8 0:00 ~ 2025.10.7 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「됭케르크·META」, 특허 투어 보상으로는 구축함 「몬트필리어」의 한정 스킨인 「살짝 취했을 때의 해열법」을 획득할 수 있습니다. 
+
+■플레이 방법
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2508 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -32896,7 +32970,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "<size=30><color=#92fc63>$1*1</color>를 소비하여, 할인가격<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で\n<color=#92fc63>$3</color>스킨을 구입하시겠습니까?</size>"
+	tip = "<color=#92fc63>$1×1</color>을 소비하여 할인가 <icon name=gem w=0.7 h=0.7/> $2로 $3 스킨을 구매하시겠습니까?"
 }
 
 
@@ -35724,6 +35798,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2508 = {
+	tip = "월드 투어·24기"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "이번 남은 시간:"
 }
@@ -36294,6 +36373,16 @@ _G.pg.base.gametip.levelscene_mapselect_normal = {
 
 _G.pg.base.gametip.levelscene_mapselect_advanced = {
 	tip = "도전"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_material = {
+	tip = "재료"
+}
+
+
+_G.pg.base.gametip.levelscene_title_story = {
+	tip = "·스토리"
 }
 
 
@@ -38742,29 +38831,434 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
-	tip = "고"
+	tip = "높음"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
-	tip = "저"
+	tip = "낮음"
 }
 
 
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1.이벤트 기간중, <color=#92fc63>쿠폰을 사용하지 않고</color>「카니발」シ시리즈 스킨을 구입하거나, 스킨 패키지(카니발)을 구입한 경우, 이벤트 페이지에서<color=#92fc63>스킨 할인권(카니발)</color>을 입수할 수 있습니다\n2.<color=#92fc63>스킨 할인권(카니발)</color>은 「카니발」시리즈의 스킨을 구입할 때, 다이아×300만큼 할인됩니다(패키지를 구입하는 경우는 사용할 수 없습니다)\n3.이벤트 종료시【2025년 8월 27일(수)23:59:59】, 미사용 <color=#92fc63>스킨 할인권(카니발)</color>은 삭제됩니다"
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「嘉年华」系列换装或一个换装礼盒(嘉年华)时，可领取一张<color=#92fc63>换装折扣券（嘉年华）</color>\n2.<color=#92fc63>换装折扣券（嘉年华）</color>可用于购买「嘉年华」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（嘉年华）</color>将会在活动结束后（2025年8月13日23:59:59）消失"
 		}
 	}
 }
 
 
 _G.pg.base.gametip.open_today = {
-	tip = "오늘 개방"
+	tip = "今日开放："
 }
 
 
 _G.pg.base.gametip.daily_level_go = {
 	tip = "확인"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_1 = {
+	tip = "한정 건조"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_2 = {
+	tip = "한정 해역"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_3 = {
+	tip = "스킨"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_4 = {
+	tip = "남은 기간 $1일 (8.21 점검까지)"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_5 = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_6 = {
+	tip = "아틀리에"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_7 = {
+	tip = "거점 건설"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_8 = {
+	tip = "합계 PT"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_9 = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_1 = {
+	tip = "아틀리에 작업실"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_2 = {
+	tip = "아틀리에 휴게실"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_3 = {
+	tip = "아틀리에 정원"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_1 = {
+	tip = "거점으로"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_2 = {
+	tip = "거점을 건설하여 한정 가구 GET!"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_3 = {
+	tip = "쾌적도"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_4 = {
+	tip = "획득률"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_5 = {
+	tip = "쾌적도 보상"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_6 = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_7 = {
+	tip = "제작 완료"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_8 = {
+	tip = "필요 재료"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_9 = {
+	tip = "획득"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_10 = {
+	tip = "가구 제작"
+}
+
+
+_G.pg.base.gametip.yumia_award_1 = {
+	tip = "장비"
+}
+
+
+_G.pg.base.gametip.yumia_award_2 = {
+	tip = "가구"
+}
+
+
+_G.pg.base.gametip.yumia_award_3 = {
+	tip = "장비 스킨"
+}
+
+
+_G.pg.base.gametip.yumia_award_4 = {
+	tip = "전용 특수 장비"
+}
+
+
+_G.pg.base.gametip.yumia_pt_1 = {
+	tip = "이벤트에 참여하여 합계 포인트 보상을 획득하자! 수령 기간: 8.27 23:59까지"
+}
+
+
+_G.pg.base.gametip.yumia_pt_2 = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.yumia_pt_3 = {
+	tip = "상점"
+}
+
+
+_G.pg.base.gametip.yumia_mana_battle_tip = {
+	tip = "환경 마나가 100%가 되면, 『유미아의 아틀리에』의 모든 콜라보 캐릭터가 [어드벤트] 상태가 되고, 이와 동시에 환경 마나가 0%로 돌아간다."
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_1 = {
+	tip = "코어: 시작 구역"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_2 = {
+	tip = "코어: L1 구역"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_3 = {
+	tip = "코어: L2 구역"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_4 = {
+	tip = "코어: L3 구역"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_5 = {
+	tip = "코어: 정상 구역"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_1 = {
+	tip = "코어 효과 적용 스테이지: TS1 \n 다음 재료를 넣으면 레벨 업"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_2 = {
+	tip = "코어 효과 적용 스테이지: TS2 \n 다음 재료를 넣으면 레벨 업"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_3 = {
+	tip = "코어 효과 적용 스테이지: TS3 \n 다음 재료를 넣으면 레벨 업"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_4 = {
+	tip = "코어 효과 적용 스테이지: TS4 \n 다음 재료를 넣으면 레벨 업"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_5 = {
+	tip = "코어 효과 적용 스테이지: TS5 \n 다음 재료를 넣으면 레벨 업"
+}
+
+
+_G.pg.base.gametip.yumia_buff_1 = {
+	tip = "필요 재료"
+}
+
+
+_G.pg.base.gametip.yumia_buff_2 = {
+	tip = "강화"
+}
+
+
+_G.pg.base.gametip.yumia_buff_3 = {
+	tip = "강화 완료"
+}
+
+
+_G.pg.base.gametip.yumia_buff_4 = {
+	tip = "코어 레벨 <color=#7bd2ceff>LV.$1</color> 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip1 = {
+	tip = "아틀리에는 이벤트 스토리 EP 1-6 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip2 = {
+	tip = "장비"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip3 = {
+	tip = "아이템"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip4 = {
+	tip = "레시피"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip5 = {
+	tip = "좌측 레시피 목록에서 레시피 선택"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip6 = {
+	tip = "아틀리에"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip7 = {
+	tip = "코어를 탭하여 재료 추가"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip8 = {
+	tip = "남은 조합 가능 횟수"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip9 = {
+	tip = "레시피로 돌아가기"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip10 = {
+	tip = "사용 가능 재료"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip11 = {
+	tip = "획득 완료 재료"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip12 = {
+	tip = "미획득 재료"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip13 = {
+	tip = "탭하여 돌아가기"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip14 = {
+	tip = "상세 내용"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip15 = {
+	tip = "제작 수: $1"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip16 = {
+	tip = "창고"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip17 = {
+	tip = "슬롯을 탭하여 재료 추가"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip18 = {
+	tip = "조합 시작"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip19 = {
+	tip = "$1(을)를 조합하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip20 = {
+	tip = "$1 * $2(을)를 조합하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip21 = {
+	tip = "더 이상 조합할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip22 = {
+	tip = {
+		{
+			"atelier_yumia_1",
+			"뭘 만들어 볼까? "
+		},
+		{
+			"atelier_yumia_2",
+			"뭐가 좋을까? "
+		},
+		{
+			"atelier_yumia_3",
+			"어떻게 하지…"
+		},
+		{
+			"atelier_yumia_4",
+			"쓸만한 건…"
+		},
+		{
+			"atelier_yumia_5",
+			"이러면 되려나? "
+		},
+		{
+			"atelier_yumia_6",
+			"이러면 되겠다! "
+		},
+		{
+			"atelier_yumia_7",
+			"응, 좋아! "
+		},
+		{
+			"atelier_yumia_8",
+			"제발 성공하길……"
+		},
+		{
+			"atelier_yumia_9",
+			"어떤 느낌으로 완성될까? "
+		},
+		{
+			"atelier_yumia_10",
+			"좋아! 성공했어! "
+		},
+		{
+			"atelier_yumia_11",
+			"대충 이런 느낌이려나? "
+		}
+	}
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip23 = {
+	tip = "일괄 투입"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip24 = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip1 = {
+	tip = "$1 획득 시 오픈"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip2 = {
+	tip = "조합으로 획득 가능"
+}
+
+
+_G.pg.base.gametip.yumia_pt_tip = {
+	tip = "합계 PT"
+}
+
+
+_G.pg.base.gametip.yumia_pt_4 = {
+	tip = "획득 완료"
 }

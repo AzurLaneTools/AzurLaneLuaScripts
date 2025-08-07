@@ -30,7 +30,7 @@ slot2.Update = function(slot0)
 	uv0.super.Update(slot0)
 	slot0:UpdatePosition()
 	slot0:UpdateMatrix()
-	slot0:UpdateArrowBarPostition()
+	slot0:UpdateArrowBarPosition()
 	slot0:UpdateArrowBarRotation()
 
 	if slot0._vigilantBar then

@@ -5,7 +5,7 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.InShowTime = function(slot0)
-	return getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK) and not slot1:isEnd()
+	return slot1 and not slot1:isEnd() and (getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK) and slot1:getConfig("config_client").hide_main_btn or nil) ~= 1
 end
 
 slot0.GetUIName = function(slot0)

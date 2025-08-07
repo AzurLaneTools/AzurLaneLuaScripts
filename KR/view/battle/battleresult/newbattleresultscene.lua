@@ -51,12 +51,18 @@ slot1 = function(slot0)
 end
 
 slot0.InitData = function(slot0)
-	slot0.pages = NewBattleResultSystem2Pages[slot0.contextData.system] or {
+	slot0.pages = NewBattleResultSystem2Pages[slot0.contextData.system] or (NewBattleResultYumiaMaterialPage.NeedShowYumiaMaterailDrop(slot0.contextData.drops) and {
+		NewBattleResultGradePage,
+		NewBattleResultDisplayAwardPage,
+		NewBattleResultYumiaMaterialPage,
+		NewBattleResultDisplayPaintingsPage,
+		NewBattleResultStatisticsPage
+	} or {
 		NewBattleResultGradePage,
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewBattleResultStatisticsPage
-	}
+	})
 
 	uv0(slot0.pages)
 

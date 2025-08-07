@@ -370,6 +370,22 @@ slot5.InstGridmanSkillUI = function(slot0)
 	return slot2
 end
 
+slot5.InstReisalinAPUI = function(slot0)
+	slot1 = slot0._allPool["UI/combatreisalinapui"]
+	slot2 = slot1:GetObject()
+	slot0._ob2Pool[slot2] = slot1
+
+	return slot2
+end
+
+slot5.InstYumiaManaUI = function(slot0)
+	slot1 = slot0._allPool["UI/combatyumiamanaui"]
+	slot2 = slot1:GetObject()
+	slot0._ob2Pool[slot2] = slot1
+
+	return slot2
+end
+
 slot5.InstPainting = function(slot0, slot1)
 	slot3 = nil
 
@@ -578,6 +594,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				uv4()
 			end)
 		elseif string.find(slot9, "UI/") then
+			print(slot11)
 			LoadAndInstantiateAsync("UI", slot11, function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
@@ -595,6 +612,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 					end
 				end
 
+				print(uv0)
 				uv1:InitPool(uv0, slot0)
 				uv3()
 			end, true, true)
@@ -708,6 +726,10 @@ slot5.InitPool = function(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 7, 20, false, false):InitSize()
 	elseif slot1 == "UI/combatgridmanskillfloat" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/combatreisalinapui" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
+	elseif slot1 == "UI/combatyumiamanaui" then
+		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
 	elseif slot1 == "UI/CombatHPBar" .. uv1.Battle.BattleState.GetCombatSkinKey() then
 		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
 	elseif string.find(slot1, "UI/CombatHPPop") then
@@ -746,6 +768,8 @@ slot5.GetCommonResource = function()
 		uv0.GetFXPath("weaponrange"),
 		uv0.GetUIPath("SkillPainting"),
 		uv0.GetUIPath("MonsterAppearUI"),
+		uv0.GetUIPath("combatreisalinapui"),
+		uv0.GetUIPath("combatyumiamanaui"),
 		uv0.GetUIPath("CombatHPBar" .. uv1.Battle.BattleState.GetCombatSkinKey()),
 		uv0.GetUIPath("CombatHPPop" .. uv1.Battle.BattleState.GetCombatSkinKey())
 	}

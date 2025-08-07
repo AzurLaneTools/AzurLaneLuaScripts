@@ -264,19 +264,9 @@ slot0.UpdateView = function(slot0)
 			uv2:PlayStory(slot1, slot0)
 		end,
 		function (slot0)
-			slot1 = true
-
-			for slot5, slot6 in pairs(uv0.storyNodesDict) do
-				if slot6:GetStory() and slot7 ~= "" then
-					slot1 = slot1 and pg.NewStoryMgr.GetInstance():IsPlayed(slot7)
-				end
-
-				if not slot1 then
-					break
-				end
-			end
-
-			if not uv1 and slot1 and uv0.storyTask and uv0.storyTask:getTaskStatus() == 2 then
+			if underscore.all(underscore.values(uv0.storyNodesDict), function (slot0)
+				return slot0:IsReaded()
+			end) and uv0.storyTask and uv0.storyTask:getTaskStatus() == 2 then
 				uv0:PlayStory(uv0.activity:getConfig("config_client").endStory, slot0)
 			else
 				slot0()
@@ -352,81 +342,49 @@ slot0.UpdateBattle = function(slot0)
 end
 
 slot0.UpdateStory = function(slot0)
-	slot1 = {}
-	slot2 = pg.NewStoryMgr.GetInstance()
-	slot3 = 1
-	slot4 = 2
-	slot5 = 3
-	slot6 = 0
-	slot7 = 0
+	slot1 = pg.NewStoryMgr.GetInstance()
+	slot2 = 0
+	slot3 = 0
 
-	for slot11, slot12 in pairs(slot0.storyNodesDict) do
-		slot1[slot11] = {}
-		slot14 = true
+	for slot7, slot8 in pairs(slot0.storyNodesDict) do
+		slot9 = slot0.nodes[tostring(slot8.id)]
+		slot10 = slot8:IsActive(slot0.activity, slot0.ptActivity)
 
-		if slot12:GetStory() and slot13 ~= "" then
-			slot6 = slot6 + (slot2:IsPlayed(slot13) and 1 or 0)
-			slot7 = slot7 + 1
-		end
+		setActive(slot9, slot9)
+		setText(slot9:Find("main/char/bg/Text"), slot8:GetName())
 
-		slot1[slot11].status = slot14 and slot5 or slot3
-	end
+		slot2 = slot2 + (slot8:IsReaded() and 1 or 0)
+		slot3 = slot3 + 1
 
-	setText(slot0.progressText, i18n("zengke_story_reward_count") .. string.format("(" .. setColorStr("%d/%d", "#AEB2E3") .. ")", slot6, slot7))
-
-	slot8 = underscore(slot0.storyNodesDict)
-	slot8 = slot8:chain()
-	slot8 = slot8:values()
-	slot11 = {
-		slot12
-	}
-
-	slot12 = function(slot0)
-		return slot0.id
-	end
-
-	slot8 = slot8:sort(CompareFuncs(slot11))
-
-	slot8:each(function (slot0)
-		slot1 = slot0:GetTriggers()
-
-		if uv0[slot0.id].status == uv1 then
-			return
-		end
-
-		if not _.any(slot1, function (slot0)
-			if slot0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
-				return uv0.ptActivity.data1 < slot0.value
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.SERIES_PASSED then
-				return not BossRushSeriesData.New({
-					id = slot0.value,
-					actId = uv0.activity.id
-				}):IsUnlock(uv0.activity)
-			elseif slot0.type == BossRushStoryNode.TRIGGER_TYPE.STORY_READED then
-				return uv1[slot0.value].status < uv2
-			end
-		end) then
-			uv0[slot0.id].status = uv3
-		end
-	end)
-
-	for slot11, slot12 in pairs(slot0.storyNodesDict) do
-		setActive(slot0.nodes[tostring(slot12.id)], slot3 < slot1[slot11].status)
-		setText(slot13:Find("main/char/bg/Text"), slot12:GetName())
-
-		slot14 = slot1[slot11].status == slot5
-
-		setActive(slot13:Find("main/char"), not slot14)
-		setActive(slot13:Find("main/talk"), slot14)
-		onButton(slot0, slot13, function ()
-			if not isActive or uv0 then
+		setActive(slot9:Find("main/char"), not slot11)
+		setActive(slot9:Find("main/talk"), slot11)
+		onButton(slot0, slot9, function ()
+			if not uv0 or uv1 then
 				return
 			end
 
-			uv2:PlayStory(uv1:GetStory(), function ()
+			uv3:PlayStory(uv2:GetStory(), function ()
 				uv0:UpdateView()
 			end)
 		end)
+	end
+
+	setText(slot0.progressText, i18n("zengke_story_reward_count") .. slot2 .. "/" .. slot3)
+	setActive(slot0.storyAward, tobool(slot0.storyTask))
+
+	if slot0.storyTask then
+		slot6 = slot0.storyAward:Find("award_bg")
+
+		updateDrop(slot6:Find("IconTpl"), Drop.Create(slot0.storyTask:getConfig("award_display")[1]))
+		onButton(slot0, slot6, function ()
+			uv0:emit(BaseUI.ON_DROP, uv1)
+		end, SFX_PANEL)
+		setActive(slot6:Find("get"), slot0.storyTask:getTaskStatus() == 1)
+		setActive(slot6:Find("got"), slot7 == 2)
+
+		if slot7 == 1 then
+			slot0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, slot0.storyTask)
+		end
 	end
 end
 

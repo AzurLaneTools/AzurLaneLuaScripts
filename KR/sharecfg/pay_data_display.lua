@@ -112,6 +112,7 @@ pg.pay_data_display = setmetatable({
 		1020,
 		1021,
 		1022,
+		1023,
 		2001,
 		2002,
 		2003,
@@ -11728,6 +11729,87 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7023,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1023] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(25 여름)",
+		type = 0,
+		limit_arg = 1,
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(25 여름)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift153",
+		extra_gem = 0,
+		id = 1023,
+		airijp_id = "com.yostarjp.azurlane.seasonpass24",
+		name_display = "특허 투어 패스(25 여름)",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4024,
+				1500
+			},
+			{
+				8,
+				65101,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7024,
 			1500
 		},
 		ignorePlatform = {},

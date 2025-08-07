@@ -60,11 +60,15 @@ slot0.GetCircleList = function(slot0)
 	return slot0:getConfig("recipe_circle")
 end
 
-slot0.IsFormualCanComposite = function(slot0, slot1)
-	slot2 = {}
-	slot3 = slot1:GetItems()
+slot0.GetShapeID = function(slot0)
+	return slot0:getConfig("shape")
+end
 
-	slot4 = function(slot0)
+slot0.IsFormualCanComposite = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = slot1:GetItems()
+
+	slot5 = function(slot0)
 		slot1 = uv0[slot0:GetConfigID()] or Clone(uv1[slot0:GetConfigID()])
 
 		assert(slot1, "Using Unexist material")
@@ -78,8 +82,8 @@ slot0.IsFormualCanComposite = function(slot0, slot1)
 			configId = slot0
 		})
 	end), function (slot0)
-		if slot0:GetType() == AtelierFormulaCircle.TYPE.BASE or slot0:GetType() == AtelierFormulaCircle.TYPE.SAIREN then
-			if (uv0[slot0:GetLimitItemID()] or uv1[slot1]) and slot2.count > 0 then
+		if slot0:GetLimitItemID() ~= 0 then
+			if (uv0[slot1] or uv1[slot1]) and slot2.count > 0 then
 				uv2(slot2)
 			else
 				return true
@@ -89,12 +93,12 @@ slot0.IsFormualCanComposite = function(slot0, slot1)
 		return false
 	end
 
-	slot6 = AtelierMaterial.bindConfigTable()
+	slot7 = AtelierMaterial.bindConfigTable()
 
-	slot7 = function(slot0)
+	slot8 = function(slot0)
 		for slot4, slot5 in ipairs(uv0.all) do
-			if (uv1[slot5] or uv2[slot5]) and slot6.count > 0 and slot0:CanUseMaterial(slot6, uv3) then
-				uv4(slot6)
+			if (uv1[slot5] or uv2[slot5]) and slot6.count > 0 and slot0:CanUseMaterial(slot6, uv3, uv4) then
+				uv5(slot6)
 
 				return
 			end
@@ -103,20 +107,25 @@ slot0.IsFormualCanComposite = function(slot0, slot1)
 		return true
 	end
 
-	if _.any(slot5, function (slot0)
-		if slot0:GetType() == AtelierFormulaCircle.TYPE.NORMAL then
-			return uv0(slot0)
+	for slot13, slot14 in ipairs({
+		AtelierFormulaCircle.TYPE.NORMAL,
+		AtelierFormulaCircle.TYPE.ANY,
+		AtelierFormulaCircle.TYPE.ELEMENT_CATEGORY,
+		AtelierFormulaCircle.TYPE.CATEGORY,
+		AtelierFormulaCircle.TYPE.ELEMENT,
+		AtelierFormulaCircle.TYPE.NONE
+	}) do
+		if _.any(slot6, function (slot0)
+			if slot0:GetLimitItemID() == 0 then
+				if slot0:GetType() == uv0 then
+					return uv1(slot0)
+				end
+			else
+				return false
+			end
+		end) then
+			return false
 		end
-	end) then
-		return false
-	end
-
-	if _.any(slot5, function (slot0)
-		if slot0:GetType() == AtelierFormulaCircle.TYPE.ANY then
-			return uv0(slot0)
-		end
-	end) then
-		return false
 	end
 
 	return true

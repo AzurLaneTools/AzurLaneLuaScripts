@@ -1925,6 +1925,41 @@ pg.player_resource = {
 		name = "limit_skinticket30",
 		itemid = 68089
 	},
+	[522] = {
+		id = 522,
+		name = "ryza_task_pt_2",
+		itemid = 65651
+	},
+	[523] = {
+		id = 523,
+		name = "ryza_pt_2",
+		itemid = 65652
+	},
+	[524] = {
+		id = 524,
+		name = "limit_skinticket31",
+		itemid = 68097
+	},
+	[525] = {
+		id = 525,
+		name = "limit_skinticket32",
+		itemid = 68098
+	},
+	[526] = {
+		id = 526,
+		name = "limit_skinticket33",
+		itemid = 68099
+	},
+	[527] = {
+		id = 527,
+		name = "skinTicket96",
+		itemid = 65662
+	},
+	[528] = {
+		id = 528,
+		name = "youmiya_pt",
+		itemid = 65663
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2309,6 +2344,11 @@ pg.player_resource = {
 		id = 4023,
 		name = "Battlepass_23",
 		itemid = 65100
+	},
+	[4024] = {
+		id = 4024,
+		name = "Battlepass_24",
+		itemid = 65101
 	},
 	[4186] = {
 		id = 4186,
@@ -3521,6 +3561,27 @@ pg.player_resource = {
 		limit_skinticket30 = {
 			521
 		},
+		ryza_task_pt_2 = {
+			522
+		},
+		ryza_pt_2 = {
+			523
+		},
+		limit_skinticket31 = {
+			524
+		},
+		limit_skinticket32 = {
+			525
+		},
+		limit_skinticket33 = {
+			526
+		},
+		skinTicket96 = {
+			527
+		},
+		youmiya_pt = {
+			528
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3751,6 +3812,9 @@ pg.player_resource = {
 		},
 		Battlepass_23 = {
 			4023
+		},
+		Battlepass_24 = {
+			4024
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4172,6 +4236,13 @@ pg.player_resource = {
 		519,
 		520,
 		521,
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
 		950,
 		951,
 		952,
@@ -4249,6 +4320,7 @@ pg.player_resource = {
 		4021,
 		4022,
 		4023,
+		4024,
 		4186,
 		4276,
 		4599,

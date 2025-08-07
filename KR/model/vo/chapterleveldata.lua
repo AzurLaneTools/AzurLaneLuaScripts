@@ -737,8 +737,28 @@ slot0.getFleetStates = function(slot0, slot1)
 		end
 	end)
 
-	if slot0:getPlayType() == ChapterConst.TypeDOALink and slot0:GetBuffOfLinkAct() then
-		table.insert(slot2, pg.gameset.doa_fever_strategy.description[table.indexof(pg.gameset.doa_fever_buff.description, slot8)])
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.YUMIA_EXPEDITION_BUFF_ACT_ID) and not slot8:isEnd() then
+		slot9, slot10 = unpack(getGameset("yumia_buff_mapping")[2])
+		slot11 = {}
+
+		for slot15 = 1, #slot9 do
+			slot11[slot9[slot15]] = slot10[slot15]
+		end
+
+		slot12 = underscore.filter(slot8:GetBuffList(), function (slot0)
+			return slot0:isActivate() and slot0:checkChaper(uv0.id)
+		end)
+
+		table.sort(slot12, CompareFuncs({
+			function (slot0)
+				return slot0.id
+			end
+		}))
+		underscore.each(slot12, function (slot0)
+			if uv0[slot0.id] then
+				table.insert(uv1, uv0[slot0.id])
+			end
+		end)
 	end
 
 	return slot2

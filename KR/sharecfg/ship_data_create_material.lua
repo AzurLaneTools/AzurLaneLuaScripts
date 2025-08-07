@@ -67,7 +67,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "기간 한정",
-		build_anim = "building",
+		build_anim = "building_yumia",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
@@ -89,7 +89,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "한정건조",
-		build_anim = "building",
+		build_anim = "building_laisha",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",

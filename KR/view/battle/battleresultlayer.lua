@@ -413,7 +413,7 @@ slot0.showRewardInfo = function(slot0)
 			end
 		end
 
-		if table.getCount(PlayerConst.BonusItemMarker(slot0)) > 0 then
+		if table.getCount(slot0) > 0 then
 			slot6 = uv0.skipFlag
 			slot7 = false
 

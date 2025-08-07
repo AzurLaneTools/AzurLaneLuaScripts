@@ -278,7 +278,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 
 		setText(slot18:Find("label"), i18n("levelScene_chapter_count_tip"))
 		setText(slot18:Find("Text"), setColorStr(slot20 - slot2:getTodayDefeatCount() .. "/" .. slot20, slot20 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
-		setActive(slot18:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+		setActive(slot18:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot2:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
 	end
 
 	slot20 = slot2:GetDailyBonusQuota()

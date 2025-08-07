@@ -1,53 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_3 = {
-	[50067] = {
-		antiaircraft_growth = 8300,
-		name = "兔兔打击者",
-		armor_growth = 0,
-		cannon_growth = 8300,
-		durability_growth = 0,
-		fog_fx = "",
-		bubble_fx = "",
-		reload_growth = 8300,
-		dodge_growth = 4150,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 800,
-		torpedo_growth = 8300,
-		luck_growth = 10000,
-		hit_growth = 8300,
-		id = 50067,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50068] = {
-		antiaircraft_growth = 8850,
-		name = "兔兔打击者",
-		armor_growth = 0,
-		cannon_growth = 8850,
-		durability_growth = 0,
-		fog_fx = "",
-		bubble_fx = "",
-		reload_growth = 8850,
-		dodge_growth = 4425,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50061,
-		durability = 850,
-		torpedo_growth = 8850,
-		luck_growth = 10000,
-		hit_growth = 8850,
-		id = 50068,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[50069] = {
 		antiaircraft_growth = 9400,
 		name = "兔兔打击者",
@@ -1590,6 +1542,69 @@ pg.enemy_data_statistics_3 = {
 		id = 50102,
 		equipment_list = {
 			167082
+		}
+	},
+	[50103] = {
+		antiaircraft_growth = 6100,
+		name = "오니솝터 프테라",
+		torpedo_growth = 0,
+		cannon_growth = 6100,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 6100,
+		dodge_growth = 3400,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 6100,
+		id = 50103,
+		equipment_list = {
+			167083
+		}
+	},
+	[50104] = {
+		antiaircraft_growth = 6650,
+		name = "오니솝터 프테라",
+		torpedo_growth = 0,
+		cannon_growth = 6650,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 6650,
+		dodge_growth = 3600,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 6650,
+		id = 50104,
+		equipment_list = {
+			167084
+		}
+	},
+	[50105] = {
+		antiaircraft_growth = 7200,
+		name = "오니솝터 프테라",
+		torpedo_growth = 0,
+		cannon_growth = 7200,
+		luck_growth = 10000,
+		fog_fx = "",
+		reload_growth = 7200,
+		dodge_growth = 3800,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50101,
+		armor_growth = 0,
+		durability_growth = 0,
+		bubble_fx = "",
+		hit_growth = 7200,
+		id = 50105,
+		equipment_list = {
+			167085
 		}
 	}
 }

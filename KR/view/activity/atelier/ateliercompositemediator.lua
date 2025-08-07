@@ -10,17 +10,22 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(AtelierMaterialDetailMediator.SHOW_DETAIL, function (slot0, slot1)
+		slot3 = nil
+
 		uv0:addSubLayers(Context.New({
 			mediator = AtelierMaterialDetailMediator,
-			viewComponent = AtelierMaterialDetailLayer,
+			viewComponent = (slot1:GetVersion() ~= 1 or AtelierMaterialDetailLayer) and AtelierMaterialDetailYumiaLayer,
 			data = {
 				material = slot1
 			}
 		}))
 	end)
-	slot0.viewComponent:SetEnabled(getProxy(ChapterProxy):getChapterById(1690005, true):isClear())
-	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) and not slot3:isEnd())
-	slot0.viewComponent:SetActivity(slot3)
+	slot0.viewComponent:InitView()
+
+	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+
+	slot0.viewComponent:SetEnabled(AtelierTools.IsUnlockAtelier(slot1, slot0.contextData.versionIndex or 1))
+	slot0.viewComponent:SetActivity(slot1)
 end
 
 slot0.listNotificationInterests = function(slot0)

@@ -845,6 +845,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[68] = {
+		achieve = 1,
+		index = 1027,
+		pic = "yingrui_4",
+		desc = "<color=#92fc63>[여기야! ]</color>",
+		item_name = "이모티콘: 여기야!",
+		item_desc = "이모티콘: 여기야! 채팅의 애니메이션 이모티콘 세트로 사용 가능",
+		id = 68,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2471,6 +2484,7 @@ pg.emoji_template = {
 		65,
 		66,
 		67,
+		68,
 		100,
 		101,
 		102,

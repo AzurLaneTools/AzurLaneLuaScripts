@@ -66,6 +66,8 @@ slot0.handleNotification = function(slot0, slot1)
 		if slot0.viewComponent.ShowTask then
 			slot0.viewComponent:ShowTask()
 		end
+	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE and slot0.viewComponent.OnSendMiniGameOPDoneShrine then
+		slot0.viewComponent:OnSendMiniGameOPDoneShrine()
 	end
 end
 

@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			bgm = "story-1",
+			bgm = "ryza-11",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -768,7 +768,7 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,

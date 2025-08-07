@@ -15939,6 +15939,37 @@ _G.pg.base.item_data_statistics[21049] = {
 }
 
 
+_G.pg.base.item_data_statistics[21050] = {
+	open_directly = 0,
+	name = "결정: 됭케르크·META",
+	type = 4,
+	display = "됭케르크·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21050",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -27096,6 +27127,503 @@ _G.pg.base.item_data_statistics[30369] = {
 }
 
 
+_G.pg.base.item_data_statistics[30370] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (유미아의 아틀리에)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiya",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30370",
+	id = 30370,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30371] = {
+	open_directly = 0,
+	name = "랜덤 장비 스킨 (유미아의 아틀리에)",
+	type = 13,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 30371,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30372] = {
+	open_directly = 0,
+	name = "장비 스킨 상자 (유미아의 아틀리에)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiya",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30370",
+	id = 30372,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30373] = {
+	open_directly = 0,
+	name = "장비 스킨 상자 (콜라보레이션)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxlaisha",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30340",
+	id = 30373,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1200,
+			1
+		},
+		{
+			9,
+			1201,
+			1
+		},
+		{
+			9,
+			1202,
+			1
+		},
+		{
+			9,
+			1203,
+			1
+		},
+		{
+			9,
+			1204,
+			1
+		},
+		{
+			9,
+			1205,
+			1
+		},
+		{
+			9,
+			1206,
+			1
+		},
+		{
+			9,
+			1207,
+			1
+		},
+		{
+			9,
+			1208,
+			1
+		},
+		{
+			9,
+			1209,
+			1
+		},
+		{
+			9,
+			1210,
+			1
+		},
+		{
+			9,
+			1211,
+			1
+		},
+		{
+			9,
+			1212,
+			1
+		},
+		{
+			9,
+			1213,
+			1
+		},
+		{
+			9,
+			1214,
+			1
+		},
+		{
+			9,
+			1215,
+			1
+		},
+		{
+			9,
+			1216,
+			1
+		},
+		{
+			9,
+			1217,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -28613,6 +29141,58 @@ _G.pg.base.item_data_statistics[30429] = {
 		{
 			9,
 			1474,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30430] = {
+	open_directly = 1,
+	name = "랜덤 장비 스킨",
+	type = 11,
+	display = "월드 투어 보상 장비 스킨을 랜덤으로 하나 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111224",
+	id = 30430,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2101,
+			1
+		},
+		{
+			9,
+			2102,
+			1
+		},
+		{
+			9,
+			2103,
+			1
+		},
+		{
+			9,
+			2104,
 			1
 		}
 	},
@@ -40302,6 +40882,219 @@ _G.pg.base.item_data_statistics[30556] = {
 		{
 			9,
 			4203,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30557] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (유미아의 아틀리에)",
+	type = 13,
+	display = "사용하면 장비 스킨(유미아의 아틀리에) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyoumiyazixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30557,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
 			1
 		}
 	},

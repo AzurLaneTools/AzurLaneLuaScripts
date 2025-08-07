@@ -82,42 +82,17 @@ slot1 = {
 		end
 	},
 	{
-		id = "NG0031",
+		id = "NG0032_1",
 		condition = function ()
 			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0030")
 		end,
 		args = function ()
-			slot0 = PlayerPrefs.GetInt("ryza_task_help_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0
-
-			warning(slot0)
-
-			return slot0 and {
+			return PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK).id), 0) == 0 and {
 				1,
 				2
 			} or {
 				1
 			}
-		end
-	},
-	{
-		id = "NG0032_1",
-		condition = function ()
-			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0031")
-		end,
-		args = function ()
-			return PlayerPrefs.GetInt("first_enter_ryza_atelier_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 and {
-				1,
-				2
-			} or {
-				1
-			}
-		end,
-		nextOne = function ()
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA) and not slot0:isEnd() and table.contains(slot0.data1_list, 56205) then
-				return "NG0032_2", {}
-			else
-				return nil
-			end
 		end
 	},
 	{
@@ -164,6 +139,19 @@ slot1 = {
 		id = "JUUS_GUIDE01",
 		condition = function ()
 			return true
+		end,
+		args = function ()
+			return {}
+		end
+	},
+	{
+		id = "Yumia_atelier",
+		condition = function ()
+			if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then
+				return false
+			end
+
+			return AtelierTools.IsUnlockAtelier(slot0, 2)
 		end,
 		args = function ()
 			return {}

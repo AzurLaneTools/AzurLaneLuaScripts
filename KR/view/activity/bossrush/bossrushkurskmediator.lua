@@ -33,26 +33,31 @@ slot0.register = function(slot0)
 			viewComponent = PtAwardLayer,
 			data = {
 				ptData = slot1,
-				ptId = pg.gameset.activity_res_id.key_value
+				ptId = slot1.resId
 			}
 		}))
 	end)
 	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
-	slot0.viewComponent:SetActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH))
 
-	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
-		if slot7:getDataConfig("pt") == pg.gameset.activity_res_id.key_value then
-			slot0.viewComponent:SetPtActivity(slot7)
+	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH)
+
+	slot0.viewComponent:SetActivity(slot1)
+
+	slot2 = slot1:GetConfigClientSetting("PTID")
+
+	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+		if slot8:getDataConfig("pt") == slot2 then
+			slot0.viewComponent:SetPtActivity(slot8)
 
 			break
 		end
 	end
 
-	slot3 = slot0.viewComponent
+	slot4 = slot0.viewComponent
 
-	slot3:addbubbleMsgBox(function (slot0)
+	slot4:addbubbleMsgBox(function (slot0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
 			return
 		end
@@ -60,9 +65,9 @@ slot0.register = function(slot0)
 		slot0()
 	end)
 
-	slot3 = slot0.viewComponent
+	slot4 = slot0.viewComponent
 
-	slot3:addbubbleMsgBox(function (slot0)
+	slot4:addbubbleMsgBox(function (slot0)
 		pg.GuildMsgBoxMgr.GetInstance():NotificationForBattle(slot0)
 	end)
 end
@@ -89,10 +94,10 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 		if slot3 then
-			if slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			if slot5.id == slot0.viewComponent.activity.id then
 				slot0.viewComponent:SetActivity(slot5)
 				slot0.viewComponent:UpdateView()
-			elseif slot5:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and slot5:getDataConfig("pt") == pg.gameset.activity_res_id.key_value then
+			elseif slot5.id == slot0.viewComponent.ptActivity.id then
 				slot0.viewComponent:SetPtActivity(slot5)
 				slot0.viewComponent:UpdateView()
 			end

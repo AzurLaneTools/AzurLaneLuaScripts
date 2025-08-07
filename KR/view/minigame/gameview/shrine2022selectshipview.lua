@@ -114,6 +114,7 @@ slot0.initUI = function(slot0)
 			uv0.onConfirmFunc(uv0.curSelectIndex)
 		end
 
+		setActive(uv0.confirmBtn, false)
 		uv0:closeSelf()
 	end, SFX_PANEL)
 

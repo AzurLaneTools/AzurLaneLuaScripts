@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_134",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-11",
 			stopbgm = true,
 			say = "거울 해역 (해저)·과거",
 			flashout = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			bgmDelay = 2,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-13",
 			nameColor = "#A9F548FF",
 			say = "유적의 거울 해역·'시작의 땅' 임시 아틀리에",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			bgmDelay = 1,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-9",
 			nameColor = "#A9F548FF",
 			say = "유적의 거울 해역·남쪽 해역·잠수함",
 			typewriter = {

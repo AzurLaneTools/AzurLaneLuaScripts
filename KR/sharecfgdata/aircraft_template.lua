@@ -89574,6 +89574,161 @@ _G.pg.base.aircraft_template[168420] = {
 }
 
 
+_G.pg.base.aircraft_template[180010] = {
+	name = "优米雅道具陨石轰炸机-普通",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "yinxingfeiji",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1.11,
+	attack_power = 2,
+	dodge_limit = 4,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 113,
+	hp_growth = 3000,
+	speed = 80,
+	id = 180010,
+	scale = 1,
+	weapon_ID = {
+		180012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[180011] = {
+	name = "优米雅道具陨石轰炸机-强化",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "yinxingfeiji",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1.11,
+	attack_power = 2,
+	dodge_limit = 4,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 113,
+	hp_growth = 3000,
+	speed = 80,
+	id = 180011,
+	scale = 1,
+	weapon_ID = {
+		180012,
+		180013
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -204193,6 +204348,406 @@ _G.pg.base.aircraft_template[1003559] = {
 }
 
 
+_G.pg.base.aircraft_template[1004261] = {
+	name = "【精英】执棋者IV型 浮游炮 I",
+	max_hp = 116,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2760,
+	speed = 70,
+	id = 1004261,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004266
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1004262] = {
+	name = "【精英】执棋者IV型 浮游炮 II",
+	max_hp = 156,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 142,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3220,
+	speed = 70,
+	id = 1004262,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004267
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1004263] = {
+	name = "【精英】执棋者IV型 浮游炮 III",
+	max_hp = 198,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 182,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3680,
+	speed = 70,
+	id = 1004263,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004268
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1004264] = {
+	name = "【精英】执棋者IV型 浮游炮 IV",
+	max_hp = 243,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 232,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 4140,
+	speed = 70,
+	id = 1004264,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004269
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1004265] = {
+	name = "【精英】执棋者IV型 浮游炮 V",
+	max_hp = 290,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 294,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 4600,
+	speed = 70,
+	id = 1004265,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004270
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[1004066] = {
 	name = "量产型塞壬航母IV型轰炸机T1 (飞机 I",
 	max_hp = 90,
@@ -277869,6 +278424,2501 @@ _G.pg.base.aircraft_template[3289074] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3294503] = {
+	name = "【2025优米雅联动 TS5】BOSS 炼金武装航母 轰炸机",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3294503,
+	scale = 0.75,
+	weapon_ID = {
+		3299089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3294504] = {
+	name = "【2025优米雅联动 TS5】BOSS 炼金武装航母 战斗机",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3294504,
+	scale = 0.75,
+	weapon_ID = {
+		3299094,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3294505] = {
+	name = "【2025优米雅联动 TS5】BOSS 炼金武装航母 浮游炮",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 57,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2040,
+	speed = 70,
+	id = 3294505,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004270
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3296012] = {
+	name = "【2025优米雅联动 EX普通】航母小怪舰载机",
+	max_hp = 300,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3296012,
+	scale = 0.75,
+	weapon_ID = {
+		3296013
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3296112] = {
+	name = "【2025优米雅联动 EX困难】航母小怪舰载机",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3296112,
+	scale = 0.75,
+	weapon_ID = {
+		3296113
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3297001] = {
+	name = "【2025优米雅联动 剧情战】我方优米雅战斗机",
+	max_hp = 130,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.309,
+	attack_power = 2,
+	dodge_limit = 12,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 4996,
+	speed = 49,
+	id = 3297001,
+	scale = 1,
+	weapon_ID = {
+		50473,
+		52373
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				1.05,
+				-1.5,
+				0
+			},
+			{
+				1.09,
+				1.2,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.41,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3297002] = {
+	name = "【2025优米雅联动 剧情战】我方优米雅鱼雷机",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 168,
+	dodge = 1.05,
+	attack_power = 2,
+	dodge_limit = 5,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 4,
+	hp_growth = 4305,
+	speed = 51,
+	id = 3297002,
+	scale = 1,
+	weapon_ID = {
+		59353,
+		59713
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.69,
+				-1.22,
+				0
+			},
+			{
+				0.75,
+				1.26,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299075] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3299075,
+	scale = 0.75,
+	weapon_ID = {
+		3299085
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299076] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3299076,
+	scale = 0.75,
+	weapon_ID = {
+		3299086
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299077] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3299077,
+	scale = 0.75,
+	weapon_ID = {
+		3299087
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299078] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3299078,
+	scale = 0.75,
+	weapon_ID = {
+		3299088
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299079] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3299079,
+	scale = 0.75,
+	weapon_ID = {
+		3299089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299080] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3299080,
+	scale = 0.75,
+	weapon_ID = {
+		3299090,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299081] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3299081,
+	scale = 0.75,
+	weapon_ID = {
+		3299091,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299082] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3299082,
+	scale = 0.75,
+	weapon_ID = {
+		3299092,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299083] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3299083,
+	scale = 0.75,
+	weapon_ID = {
+		3299093,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299084] = {
+	name = "【2025优米雅联动】航母-炼金魔物飞龙 战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3299084,
+	scale = 0.75,
+	weapon_ID = {
+		3299094,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299115] = {
+	name = "【2025优米雅联动】炼金武装航母 轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3299115,
+	scale = 0.75,
+	weapon_ID = {
+		3299085
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299116] = {
+	name = "【2025优米雅联动】炼金武装航母 轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3299116,
+	scale = 0.75,
+	weapon_ID = {
+		3299086
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299117] = {
+	name = "【2025优米雅联动】炼金武装航母 轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3299117,
+	scale = 0.75,
+	weapon_ID = {
+		3299087
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299118] = {
+	name = "【2025优米雅联动】炼金武装航母 轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3299118,
+	scale = 0.75,
+	weapon_ID = {
+		3299088
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299119] = {
+	name = "【2025优米雅联动】炼金武装航母 轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3299119,
+	scale = 0.75,
+	weapon_ID = {
+		3299089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299120] = {
+	name = "【2025优米雅联动】炼金武装航母 战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3299120,
+	scale = 0.75,
+	weapon_ID = {
+		3299090,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299121] = {
+	name = "【2025优米雅联动】炼金武装航母 战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3299121,
+	scale = 0.75,
+	weapon_ID = {
+		3299091,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299122] = {
+	name = "【2025优米雅联动】炼金武装航母 战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3299122,
+	scale = 0.75,
+	weapon_ID = {
+		3299092,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299123] = {
+	name = "【2025优米雅联动】炼金武装航母 战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3299123,
+	scale = 0.75,
+	weapon_ID = {
+		3299093,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299124] = {
+	name = "【2025优米雅联动】炼金武装航母 战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "sairenfeiji_lianjin_II",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_lianjin_II",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3299124,
+	scale = 0.75,
+	weapon_ID = {
+		3299094,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299125] = {
+	name = "【2025优米雅联动】炼金武装航母 浮游炮 Lv1",
+	max_hp = 116,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2760,
+	speed = 70,
+	id = 3299125,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004266
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299126] = {
+	name = "【2025优米雅联动】炼金武装航母 浮游炮 Lv2",
+	max_hp = 156,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 142,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3220,
+	speed = 70,
+	id = 3299126,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004267
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299127] = {
+	name = "【2025优米雅联动】炼金武装航母 浮游炮 Lv3",
+	max_hp = 198,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 182,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3680,
+	speed = 70,
+	id = 3299127,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004268
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299128] = {
+	name = "【2025优米雅联动】炼金武装航母 浮游炮 Lv4",
+	max_hp = 243,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 232,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 4140,
+	speed = 70,
+	id = 3299128,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004269
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3299129] = {
+	name = "【2025优米雅联动】炼金武装航母 浮游炮 Lv5",
+	max_hp = 290,
+	accuracy = 23,
+	model_ID = "fuyoupao4",
+	ACC_growth = 0,
+	crash_DMG = 294,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao4",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 4600,
+	speed = 70,
+	id = 3299129,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		1004270
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
 				0
 			}
 		}

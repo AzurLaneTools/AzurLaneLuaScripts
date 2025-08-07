@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-5",
 			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "나는 라이잘린 스타우트. 다들 날 라이자라고 불러. 평범한 농가의 딸이야.",

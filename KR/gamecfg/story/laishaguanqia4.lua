@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-11",
 			stopbgm = true,
 			say = "과거의 거울해역",
 			flashout = {

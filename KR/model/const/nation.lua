@@ -17,6 +17,7 @@ slot0.BURIN = 98
 slot0.SIRE = 99
 slot0.LINK = 100
 slot0.IDOL_LINK = 107
+slot0.YUMIA = 113
 
 slot0.IsLinkType = function(slot0)
 	return uv0.LINK < slot0
@@ -42,21 +43,22 @@ slot0.Nation2Print = function(slot0)
 			"ff",
 			"nl",
 			[96.0] = "mot",
-			[101.0] = "np",
+			[113.0] = "um",
 			[104.0] = "um",
 			[112.0] = "um",
-			[99.0] = "sr",
 			[97.0] = "meta",
-			[107.0] = "um",
-			[108.0] = "um",
-			[109.0] = "um",
-			[102.0] = "bili",
-			[106.0] = "um",
-			[110.0] = "um",
 			[111.0] = "um",
+			[102.0] = "bili",
+			[110.0] = "um",
 			[103.0] = "um",
-			[105.0] = "um",
-			[98.0] = "cm"
+			[109.0] = "um",
+			[108.0] = "um",
+			[101.0] = "np",
+			[107.0] = "um",
+			[98.0] = "cm",
+			[106.0] = "um",
+			[99.0] = "sr",
+			[105.0] = "um"
 		}
 	end
 
@@ -92,7 +94,8 @@ slot0.Nation2Side = function(slot0)
 			[111.0] = "Jp",
 			[101.0] = "Jp",
 			[103.0] = "Jp",
-			[105.0] = "Jp"
+			[105.0] = "Jp",
+			[113.0] = "West"
 		}
 	end
 
@@ -128,7 +131,8 @@ slot0.Nation2BG = function(slot0)
 			[111.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
-			[105.0] = "bg/bg_church"
+			[105.0] = "bg/bg_church",
+			[113.0] = "bg/bg_church"
 		}
 	end
 
@@ -164,7 +168,8 @@ slot0.Nation2Name = function(slot0)
 			[109] = i18n("word_shipNation_ryza"),
 			[110] = i18n("word_shipNation_senran"),
 			[111] = i18n("word_shipNation_tolove"),
-			[112] = i18n("word_shipNation_brs")
+			[112] = i18n("word_shipNation_brs"),
+			[113] = i18n("word_shipNation_yumia")
 		}
 	end
 
@@ -200,7 +205,8 @@ slot0.Nation2facionName = function(slot0)
 			[109] = i18n("guild_faction_unknown"),
 			[110] = i18n("guild_faction_unknown"),
 			[111] = i18n("guild_faction_unknown"),
-			[112] = i18n("guild_faction_unknown")
+			[112] = i18n("guild_faction_unknown"),
+			[113] = i18n("guild_faction_unknown")
 		}
 	end
 

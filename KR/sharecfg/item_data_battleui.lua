@@ -118,6 +118,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[108] = {
+		name = "네이처",
+		key = "SkinNormal_20250724",
+		display_icon = "ui_108",
+		unlock = "특허 투어 패스 24기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "울창한 숲 위를 나는 새들과 흐르는 물이 어우러져 자아내는 생동감 넘치는 자연의 리듬.",
+		id = 108,
+		icon = "108",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -195,6 +210,7 @@ pg.item_data_battleui = {
 		105,
 		106,
 		107,
+		108,
 		201,
 		202,
 		203,

@@ -103,8 +103,11 @@ slot0.updateMainUI = function(slot0)
 	slot0:checkGet()
 
 	if slot3 == 1 and slot5 == 2 then
-		scrollTo(slot6, nil, 1)
-		pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+		if PlayerPrefs.GetInt("ryza_minigame_guide", 0) == 0 then
+			scrollTo(slot6, nil, 1)
+			pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+			PlayerPrefs.SetInt("ryza_minigame_guide", 1)
+		end
 	elseif PlayerPrefs.GetInt("ryza_minigame_help", 0) == 0 then
 		triggerButton(slot0.rtTitlePage:Find("main/btn_rule"))
 	end
@@ -786,7 +789,7 @@ slot0.onTimer = function(slot0)
 	if slot0.responder:GetJoyStick().x ~= 0 or slot1.y ~= 0 then
 		slot2 = slot0.reactorUIs[slot0.responder.reactorRyza]:Find("dir")
 
-		if slot1.x == 0 then
+		if RyzaMiniGameConfig.ReSetDir(slot1).x == 0 then
 			setLocalEulerAngles(slot2, {
 				z = slot1.y > 0 and 270 or 90
 			})
@@ -822,7 +825,7 @@ slot0.onBackPressed = function(slot0)
 		result = function ()
 		end
 	}, function ()
-		assert(uv0.gameStartFlag)
+		assert(uv0.gameStartFlag, "game start false")
 		uv0:openUI("pause")
 	end)
 end

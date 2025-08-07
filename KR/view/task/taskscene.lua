@@ -45,7 +45,8 @@ slot1 = {
 	[slot0.PAGE_TYPE_ACT] = {
 		[36.0] = true,
 		[6.0] = true,
-		[26.0] = true
+		[26.0] = true,
+		[16.0] = true
 	}
 }
 

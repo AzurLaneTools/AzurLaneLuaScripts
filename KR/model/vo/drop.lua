@@ -369,7 +369,11 @@ slot0.InitSwitch = function()
 			return (getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0) + getProxy(BayProxy):GetEquipSkinCountInShips(slot0.id)
 		end,
 		[DROP_TYPE_RYZA_DROP] = function (slot0)
-			return getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id):GetItemById(slot0.id) and slot1.count or 0
+			if not getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id) then
+				return 0
+			end
+
+			return slot1:GetItemById(slot0.id) and slot2.count or 0
 		end,
 		[DROP_TYPE_ICON_FRAME] = function (slot0)
 			return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
@@ -518,14 +522,21 @@ slot0.InitSwitch = function()
 	uv0.TransCase = {
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			slot1 = Drop.New({
-				type = DROP_TYPE_RESOURCE,
+				type = slot0:getConfig("type"),
 				id = slot0:getConfig("resource_type"),
 				count = slot0:getConfig("resource_num") * slot0.count
 			})
-			slot1.name = string.format("%s(%s)", slot1:getName(), Drop.New({
+			slot2 = Drop.New({
 				type = slot0:getConfig("target_type"),
-				id = slot0:getConfig("target_id")
-			}):getName())
+				id = slot0:getConfig("target_id"),
+				count = slot0.count
+			})
+
+			PlayerConst.UpdateLinkActivity({
+				slot2
+			})
+
+			slot1.name = string.format("%s(%s)", slot1:getName(), slot2:getName())
 
 			return slot1
 		end,
@@ -635,6 +646,9 @@ slot0.InitSwitch = function()
 			})
 
 			return slot0
+		end,
+		[DROP_TYPE_BUFF] = function (slot0)
+			return nil, slot0
 		end
 	}
 

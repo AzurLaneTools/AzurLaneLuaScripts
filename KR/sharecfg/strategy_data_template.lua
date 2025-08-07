@@ -324,11 +324,33 @@ pg.strategy_data_template = setmetatable({
 		201386,
 		201410,
 		201411,
+		201461,
+		201462,
 		205001,
 		205002,
 		205003,
 		205004,
-		205005
+		205005,
+		300001,
+		300002,
+		300003,
+		300004,
+		300005,
+		300006,
+		300007,
+		300008,
+		300009,
+		300010,
+		300011,
+		300012,
+		300013,
+		300014,
+		300015,
+		300016,
+		300017,
+		300018,
+		300019,
+		300020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4002,6 +4024,37 @@ META 캐릭터는 침식 등급에 따라 공격 데미지만 증가하며 디�
 		icon = "201411",
 		arg = {}
 	},
+	[201461] = {
+		buff_id = 0,
+		name = "챌린지 모드",
+		desc = "주의: 전투 중 적 보스가 출현할 때까지 <color=#ffc038>잡몹들이 출현한다</color>. 일정 시간이 경과하면 보스가 출현하지만, 적 전함·항공모함을 빠르게 격퇴하면 <color=#92fc63>보스의 출현 시간을 앞당길 수 있다</color>. 적이 화면 좌측에 도달해도 아군 주력함대는 피해를 입지 않는다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201461,
+		icon = "200908",
+		arg = {}
+	},
+	[201462] = {
+		buff_id = 0,
+		name = "EX 설명",
+		desc = [[
+주의: 전투 중 적 보스가 출현할 때까지 <color=#ffc038>잡몹들이 출현한다</color>. 일정 시간이 경과하면 보스가 출현하지만, 적 전함·항공모함을 빠르게 격퇴하면 <color=#92fc63>보스의 출현 시간을 앞당길 수 있다</color>. 적이 화면 좌측에 도달해도 아군 주력함대는 피해를 입지 않는다. 
+
+ 어려움 모드 특징:
+ 적이 주는 피해량이 <color=#ffc038>대폭 상승</color>한다. 적탄이 실드를 무시한다. 
+ 아군 선봉함대의 <color=#92fc63>피격 판정이 대폭 축소되며, 이와 동시에 선두 위치의 함선만 피격 판정을 받고 </color>나머지 함선은 무적 상태가 된다. 
+ 함선이 피격되면 짧은 시간동안 무적 상태가 된다. 
+
+ 다음 장비 및 스킬은 무효화된다.
+[래빗 라스트 스탠드], [레인보우 프로젝트], [절체절명]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201462,
+		icon = "200908",
+		arg = {}
+	},
 	[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -4055,6 +4108,226 @@ META 캐릭터는 침식 등급에 따라 공격 데미지만 증가하며 디�
 		buff_type = 0,
 		id = 205005,
 		icon = "",
+		arg = {}
+	},
+	[300001] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv1",
+		desc = "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300001,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300002] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv2",
+		desc = "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300002,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300003] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv3",
+		desc = "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300003,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300004] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv4",
+		desc = "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300004,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300005] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv1",
+		desc = "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300005,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300006] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv2",
+		desc = "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300006,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300007] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv3",
+		desc = "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300007,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300008] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv4",
+		desc = "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300008,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300009] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv1",
+		desc = "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300009,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300010] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv2",
+		desc = "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300010,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300011] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv3",
+		desc = "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300011,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300012] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv4",
+		desc = "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300012,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300013] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv1",
+		desc = "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300013,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300014] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv2",
+		desc = "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300014,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300015] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv3",
+		desc = "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300015,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300016] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv4",
+		desc = "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300016,
+		icon = "buff_yumia_4",
+		arg = {}
+	},
+	[300017] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv1",
+		desc = "전투 중 아군의 포격·항공·뇌장이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300017,
+		icon = "buff_yumia_1",
+		arg = {}
+	},
+	[300018] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv2",
+		desc = "전투 중 15초마다 내구 수치가 가장 낮은 아군 캐릭터의 내구가 최대치의 1%만큼 회복된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300018,
+		icon = "buff_yumia_2",
+		arg = {}
+	},
+	[300019] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv3",
+		desc = "전투 시작 15초 후 및 그 후 20초마다 지원 탄막을 전개하고, 해당 탄막이 명중한 적은 8초 동안 받는 피해량이 3% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300019,
+		icon = "buff_yumia_3",
+		arg = {}
+	},
+	[300020] = {
+		buff_id = 0,
+		name = "코어 레벨 Lv4",
+		desc = "전투로 아군 캐릭터가 획득하는 호감도가 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 300020,
+		icon = "buff_yumia_4",
 		arg = {}
 	}
 }

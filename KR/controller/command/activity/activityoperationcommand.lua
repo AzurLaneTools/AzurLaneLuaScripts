@@ -602,6 +602,29 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 			slot3:updateDataList(slot1.arg1)
 			getProxy(ActivityProxy):updateActivity(slot3)
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_STRONGHOLD then
+		if slot1.cmd == 1 then
+			slot3:updateDataList(slot1.arg1)
+
+			slot8 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+
+			for slot12, slot13 in ipairs(slot1.consumes) do
+				slot15 = slot13[3]
+
+				if slot13[2] == 6 then
+					slot16 = slot6:getData()
+
+					slot16:consume({
+						[id2res(slot14)] = slot15
+					})
+					slot6:updatePlayer(slot16)
+				else
+					slot8:subItemCount(slot14, slot15)
+				end
+			end
+		elseif slot1.cmd == 2 then
+			slot3:updateKVPList(1, slot1.arg1, slot1.canGetIndex)
+		end
 	end
 
 	return slot3

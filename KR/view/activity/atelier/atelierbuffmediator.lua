@@ -5,9 +5,11 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.UPDATE_ATELIER_BUFF, slot1)
 	end)
 	slot0:bind(AtelierMaterialDetailMediator.SHOW_DETAIL, function (slot0, slot1)
+		slot3 = nil
+
 		uv0:addSubLayers(Context.New({
 			mediator = AtelierMaterialDetailMediator,
-			viewComponent = AtelierMaterialDetailLayer,
+			viewComponent = (slot1:GetVersion() ~= 1 or AtelierMaterialDetailLayer) and AtelierMaterialDetailYumiaLayer,
 			data = {
 				material = slot1
 			}

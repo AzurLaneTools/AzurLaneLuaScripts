@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					7
 				},
 				{
 					0,
@@ -25,7 +25,45 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp3",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
 					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					21
 				},
 				{
 					12,
@@ -37,20 +75,20 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp3",
+		id = 3,
+		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				wrap = 4
+				coreName = "ALYCoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					7
 				},
 				{
 					0,
@@ -62,39 +100,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50031",
-		type = 3,
-		id = 3,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2025,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					7
+					21
 				},
 				{
 					12,
@@ -118,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					7
 				},
 				{
 					0,
@@ -131,12 +137,12 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
+					20
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -146,14 +152,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp1",
 		param = {
-			"dorm 3d select"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					8
 				},
 				{
 					0,
@@ -165,39 +171,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50033",
-		type = 3,
-		id = 6,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2025,
-					7,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					7
+					28
 				},
 				{
 					12,
@@ -209,17 +183,20 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
-		pic = "temp8",
+		id = 6,
+		pic = "temp7",
 		param = {
-			"scene level"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					8,
-					1
+					7
 				},
 				{
 					0,
@@ -231,7 +208,44 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp8",
+		param = {
+			"scene core activity",
+			{
+				coreName = "RyzaCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
 					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					21
 				},
 				{
 					12,
@@ -259,14 +273,15 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp6",
 		param = {
-			"scene level"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					7
 				},
 				{
 					0,
@@ -278,12 +293,12 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
+					13
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -297,8 +312,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					31
+					8,
+					7
 				},
 				{
 					0,
@@ -310,12 +325,12 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
+					20
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -336,10 +351,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -380,15 +420,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
+			6,
 			7,
 			8,
 			9
-		},
-		[3] = {
-			3,
-			6
 		},
 		[9] = {
 			90,
