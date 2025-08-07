@@ -4640,6 +4640,46 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[1130001] = {
+		ship_group = 1130001,
+		name = "Yumia Liessfeldt",
+		background = "",
+		sculpture = "youmiya",
+		nationality = 0,
+		type = 1
+	},
+	[1130002] = {
+		ship_group = 1130002,
+		name = "Isla von Duerer",
+		background = "",
+		sculpture = "aila",
+		nationality = 0,
+		type = 1
+	},
+	[1130003] = {
+		ship_group = 1130003,
+		name = "Nina Friede",
+		background = "",
+		sculpture = "nina",
+		nationality = 0,
+		type = 1
+	},
+	[1130004] = {
+		ship_group = 1130004,
+		name = "Lenja",
+		background = "",
+		sculpture = "leiniya",
+		nationality = 0,
+		type = 1
+	},
+	[301541] = {
+		ship_group = 301541,
+		name = "Kiyonami",
+		background = "",
+		sculpture = "qingbo",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5220,6 +5260,11 @@ pg.activity_ins_ship_group_template = {
 		20236,
 		10509,
 		10510,
-		10511
+		10511,
+		1130001,
+		1130002,
+		1130003,
+		1130004,
+		301541
 	}
 }

@@ -137,12 +137,12 @@ slot0.InitEvent = function(slot0)
 		if uv0:GetShipVO().preferenceTag == Ship.PREFERENCE_TAG_COMMON ~= slot0 then
 			uv0:emit(ShipMainMediator.ON_TAG, uv0:GetShipVO().id, (slot1 ~= Ship.PREFERENCE_TAG_COMMON or Ship.PREFERENCE_TAG_NONE) and Ship.PREFERENCE_TAG_COMMON)
 		end
-	end, SFX_CONFIGM)
+	end, SFX_CONFIRM)
 	onToggle(slot0, slot0.randomFlagToggle, function (slot0)
 		if uv0:GetShipVO():getRandomFlag() ~= slot0 then
 			uv0:emit(ShipMainMediator.CHANGE_RANDOM_FLAG, uv0:GetShipVO():GetShipPhantomMark(), slot0)
 		end
-	end, SFX_CONFIGM)
+	end, SFX_CONFIRM)
 	onButton(slot0, slot0.lockBtn, function ()
 		uv0:emit(ShipMainMediator.ON_LOCK, {
 			uv0:GetShipVO().id

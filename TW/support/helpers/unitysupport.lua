@@ -35,6 +35,12 @@ end
 destroy = Destroy
 
 SetActive = function(slot0, slot1)
+	if slot0 == nil then
+		print("<color=red>SetActive Object is NIL!!!!</color>")
+
+		return
+	end
+
 	LuaHelper.SetActiveForLua(slot0, tobool(slot1))
 end
 
@@ -422,13 +428,15 @@ RemoveComponent = function(slot0, slot1)
 	end
 end
 
-SetCompomentEnabled = function(slot0, slot1, slot2)
+SetComponentEnabled = function(slot0, slot1, slot2)
 	slot3 = slot0:GetComponent(slot1)
 
 	assert(slot3, "compoment not found")
 
 	slot3.enabled = tobool(slot2)
 end
+
+SetCompomentEnabled = SetComponentEnabled
 
 GetInChildren = function(slot0, slot1)
 	return (function (slot0, slot1)

@@ -261,7 +261,7 @@ return {
 	},
 	time = 0.1,
 	name = "",
-	init_effect = "jinengchufared",
+	init_effect = "",
 	id = 151076,
 	picture = "",
 	desc = "",

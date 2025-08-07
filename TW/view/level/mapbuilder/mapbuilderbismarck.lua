@@ -80,7 +80,7 @@ slot0.UpdateCustomButtons = function(slot0)
 		setActive(slot0.sceneParent.btnNext, false)
 
 		slot4 = getProxy(ChapterProxy)
-		slot4 = slot4:getMapsByActivities()
+		slot4 = slot4:getMapsByActivities(slot1:getConfig("on_activity"))
 
 		setActive(slot0.buttonDown, _.detect(slot4, function (slot0)
 			return slot0.id == uv0.id + 1

@@ -143,7 +143,8 @@ slot0.Sort = function(slot0)
 				13,
 				5,
 				2,
-				1
+				1,
+				16
 			})
 		elseif slot0:getTaskStatus() == 1 then
 			return uv1(slot0:GetRealType(), slot1:GetRealType(), {
@@ -155,7 +156,8 @@ slot0.Sort = function(slot0)
 				13,
 				2,
 				5,
-				3
+				3,
+				16
 			})
 		end
 	end

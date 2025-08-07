@@ -5793,6 +5793,11 @@ _G.pg.base.gametip.dailyLevel_opened = {
 }
 
 
+_G.pg.base.gametip.dailyLevel_bonus_activity = {
+	tip = "限時up獎勵"
+}
+
+
 _G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "該船已經是秘書艦"
 }
@@ -6400,6 +6405,11 @@ _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 
 _G.pg.base.gametip.word_shipNation_brs = {
 	tip = "BLACK★ROCK SHOOTER"
+}
+
+
+_G.pg.base.gametip.word_shipNation_yumia = {
+	tip = "Atelier Yumia"
 }
 
 
@@ -12031,7 +12041,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦艇{namecode:542}(最多4次)"
+	tip = "優米雅‧利斯菲爾德、妮娜‧弗里德、蕾妮雅 建造機率UP！"
 }
 
 
@@ -35421,6 +35431,16 @@ _G.pg.base.gametip.levelscene_mapselect_advanced = {
 }
 
 
+_G.pg.base.gametip.levelscene_mapselect_material = {
+	tip = "素材"
+}
+
+
+_G.pg.base.gametip.levelscene_title_story = {
+	tip = "·劇情"
+}
+
+
 _G.pg.base.gametip.juuschat_filter_title = {
 	tip = "篩選"
 }
@@ -37733,4 +37753,419 @@ _G.pg.base.gametip.battleui_display2 = {
 
 _G.pg.base.gametip.battleui_display3 = {
 	tip = "暫停欄"
+}
+
+
+_G.pg.base.gametip.open_today = {
+	tip = "今日開放："
+}
+
+
+_G.pg.base.gametip.daily_level_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_1 = {
+	tip = "限時建造"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_2 = {
+	tip = "活動關卡"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_3 = {
+	tip = "換裝商店"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_4 = {
+	tip = "剩餘$1天,於8.21維護後結束"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_5 = {
+	tip = "活動匯總"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_6 = {
+	tip = "鍊金工房"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_7 = {
+	tip = "據點建裝"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_8 = {
+	tip = "累計PT"
+}
+
+
+_G.pg.base.gametip.yumia_main_tip_9 = {
+	tip = "獎勵一覽"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_1 = {
+	tip = "鍊金工作區"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_2 = {
+	tip = "工房休息區"
+}
+
+
+_G.pg.base.gametip.yumia_base_name_3 = {
+	tip = "工房庭院"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_1 = {
+	tip = "前往據點"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_2 = {
+	tip = "完成據點建造，獲得限定獎勵"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_3 = {
+	tip = "舒適度"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_4 = {
+	tip = "收集度"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_5 = {
+	tip = "舒適度獎勵"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_6 = {
+	tip = "已獲取"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_7 = {
+	tip = "製作完成"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_8 = {
+	tip = "所需素材"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_9 = {
+	tip = "獲得更多"
+}
+
+
+_G.pg.base.gametip.yumia_stronghold_10 = {
+	tip = "製作傢俱"
+}
+
+
+_G.pg.base.gametip.yumia_award_1 = {
+	tip = "裝備"
+}
+
+
+_G.pg.base.gametip.yumia_award_2 = {
+	tip = "傢俱"
+}
+
+
+_G.pg.base.gametip.yumia_award_3 = {
+	tip = "外觀裝備"
+}
+
+
+_G.pg.base.gametip.yumia_award_4 = {
+	tip = "特殊兵裝"
+}
+
+
+_G.pg.base.gametip.yumia_pt_1 = {
+	tip = "活動期間，累計Pt可獲取活動限定獎勵。※領取時間延長至8月27日 24時"
+}
+
+
+_G.pg.base.gametip.yumia_pt_2 = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.yumia_pt_3 = {
+	tip = "兌換商店"
+}
+
+
+_G.pg.base.gametip.yumia_mana_battle_tip = {
+	tip = "環境瑪那達到100%時，所有Atelier Yumia聯動角色進入【降臨】狀態，隨後環境瑪那降至0%"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_1 = {
+	tip = "核心：起始區段"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_2 = {
+	tip = "核心：L1區段"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_3 = {
+	tip = "核心：L2區段"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_4 = {
+	tip = "核心：L3區段"
+}
+
+
+_G.pg.base.gametip.yumia_buff_name_5 = {
+	tip = "核心：塔尖區段"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_1 = {
+	tip = "此核心效果生效於：TS1採集地：起始層 \n 提交以下素材升級能源核心"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_2 = {
+	tip = "此核心效果生效於：TS2採集地：豐饒層 \n 提交以下素材升級能源核心"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_3 = {
+	tip = "此核心效果生效於：TS3採集地：腐蝕層 \n 提交以下素材升級能源核心"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_4 = {
+	tip = "此核心效果生效於：TS4採集地：墟骸層 \n 提交以下材料升級能源核心"
+}
+
+
+_G.pg.base.gametip.yumia_buff_desc_5 = {
+	tip = "此核心效果生效於：TS5採集地：天際層 \n 提交以下素材升級能源核心"
+}
+
+
+_G.pg.base.gametip.yumia_buff_1 = {
+	tip = "所需素材"
+}
+
+
+_G.pg.base.gametip.yumia_buff_2 = {
+	tip = "升級"
+}
+
+
+_G.pg.base.gametip.yumia_buff_3 = {
+	tip = "已滿級"
+}
+
+
+_G.pg.base.gametip.yumia_buff_4 = {
+	tip = "核心等級<color=#7bd2ceff>LV.$1</color>解鎖"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip1 = {
+	tip = "鍊金工房準備中\n完成劇情EP1-6後開放"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip2 = {
+	tip = "裝備"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip3 = {
+	tip = "道具"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip4 = {
+	tip = "配方列表"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip5 = {
+	tip = "點選左側配方清單選擇配方"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip6 = {
+	tip = "鍊金工房"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip7 = {
+	tip = "點選星盤核心放入對應素材"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip8 = {
+	tip = "剩餘可調合數量"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip9 = {
+	tip = "返回配方列表"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip10 = {
+	tip = "可用素材列表"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip11 = {
+	tip = "目前配方已獲得素材"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip12 = {
+	tip = "目前配方未獲得素材"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip13 = {
+	tip = "點擊空白處關閉"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip14 = {
+	tip = "詳情"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip15 = {
+	tip = "製作個數：$1"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip16 = {
+	tip = "倉庫"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip17 = {
+	tip = "點擊材料槽放入對應素材"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip18 = {
+	tip = "開始調合"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip19 = {
+	tip = "是否確認調合 $1？"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip20 = {
+	tip = "是否確認調合 $1 * $2？"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip21 = {
+	tip = "目前已達最大可調合數量"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip22 = {
+	tip = {
+		{
+			"atelier_yumia_1",
+			"要做什麼好呢？"
+		},
+		{
+			"atelier_yumia_2",
+			"哪個比較好呢？"
+		},
+		{
+			"atelier_yumia_3",
+			"怎麼辦呢……"
+		},
+		{
+			"atelier_yumia_4",
+			"能用上的有……"
+		},
+		{
+			"atelier_yumia_5",
+			"這個可以嗎？"
+		},
+		{
+			"atelier_yumia_6",
+			"這個應該可以！"
+		},
+		{
+			"atelier_yumia_7",
+			"嗯，完美！"
+		},
+		{
+			"atelier_yumia_8",
+			"希望能成功……"
+		},
+		{
+			"atelier_yumia_9",
+			"會變成什麼樣子呢？"
+		},
+		{
+			"atelier_yumia_10",
+			"好，成功了！"
+		},
+		{
+			"atelier_yumia_11",
+			"大概就是這樣吧？"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip23 = {
+	tip = "一鍵放入"
+}
+
+
+_G.pg.base.gametip.yumia_atelier_tip24 = {
+	tip = "進入"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip1 = {
+	tip = "獲得$1後解鎖"
+}
+
+
+_G.pg.base.gametip.yumia_storymode_tip2 = {
+	tip = "鍊金工房調合獲得"
+}
+
+
+_G.pg.base.gametip.yumia_pt_tip = {
+	tip = "已獲得"
+}
+
+
+_G.pg.base.gametip.yumia_pt_4 = {
+	tip = "已獲取"
 }

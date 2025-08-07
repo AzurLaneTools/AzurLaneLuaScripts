@@ -1,141 +1,195 @@
 slot0 = class("BuffHelper")
+slot1 = {}
+slot2 = {}
+slot3 = {}
+slot4 = {}
 
-slot1 = function(slot0, slot1)
-	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
-		if slot1 and not slot1:isEnd() then
-			slot3 = {}
+slot0.GenBuffsForActivity = function(slot0)
+	if slot0 and not slot0:isEnd() and uv0[slot0.id] == slot0 then
+		return underscore.map(uv1[slot0.id], function (slot0)
+			return uv0[slot0]
+		end)
+	end
 
-			if slot1:getConfig("config_id") == 0 then
-				slot3 = slot1:getConfig("config_data")
-			else
-				table.insert(slot3, slot2)
+	if uv1[slot0.id] then
+		underscore.each(uv1[slot0.id], function (slot0)
+			if uv0[slot0] then
+				uv1[uv0[slot0]:getConfig("benefit_type")][slot0] = nil
 			end
 
-			for slot7, slot8 in ipairs(slot3) do
-				if ActivityBuff.New(slot1.id, slot8):isActivate() then
-					table.insert(slot0, slot9)
+			uv0[slot0] = nil
+		end)
+	end
+
+	uv0[slot0.id] = nil
+	uv1[slot0.id] = nil
+
+	if not slot0 or slot0:isEnd() then
+		return {}
+	end
+
+	slot1 = slot0:GetBuffList() or {}
+
+	switch(slot0:getConfig("type"), {
+		[ActivityConst.ACTIVITY_TYPE_BUFF] = function ()
+			slot1 = {}
+
+			if uv0:getConfig("config_id") == 0 then
+				slot1 = uv0:getConfig("config_data")
+			else
+				table.insert(slot1, slot0)
+			end
+
+			for slot5, slot6 in ipairs(slot1) do
+				table.insert(uv1, ActivityBuff.New(uv0.id, slot6))
+			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF] = function ()
+			for slot4, slot5 in pairs(uv0:GetBuildingIds()) do
+				if pg.activity_event_building[slot5] then
+					_.each(slot6.buff, function (slot0)
+						table.insert(uv0, ActivityBuff.New(uv1.id, slot0))
+					end)
 				end
 			end
-		end
-	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
-		if slot1 and not slot1:isEnd() then
-			for slot6, slot7 in pairs(slot1:GetBuildingIds()) do
-				if pg.activity_event_building[slot7] then
-					_.each(slot8.buff, function (slot0)
-						if ActivityBuff.New(uv0.id, slot0):isActivate() then
-							table.insert(uv1, slot1)
-						end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2] = function ()
+			for slot4, slot5 in pairs(uv0:GetBuildingIds()) do
+				if pg.activity_event_building[slot5] then
+					_.each(slot6.buff, function (slot0)
+						table.insert(uv0, ActivityBuff.New(uv1.id, slot0))
 					end)
 				end
 			end
 
-			if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and slot1:GetSceneBuildingId() > 0 and pg.activity_event_building[slot3] then
-				_.each(slot4.buff, function (slot0)
-					if ActivityBuff.New(uv0.id, slot0):isActivate() then
-						table.insert(uv1, slot1)
-					end
+			if uv0:GetSceneBuildingId() > 0 and pg.activity_event_building[slot1] then
+				_.each(slot2.buff, function (slot0)
+					table.insert(uv0, ActivityBuff.New(uv1.id, slot0))
 				end)
 			end
-		end
-	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
-		if slot1 then
-			slot2 = ActivityPtData.New(slot1)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = function ()
+			for slot4, slot5 in pairs(uv0.data3_list) do
+				table.insert(uv1, ActivityBuff.New(uv0.id, slot5))
+			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_ATELIER_LINK] = function ()
+			for slot4, slot5 in ipairs(uv0:GetSlots()) do
+				slot7 = slot5[2]
 
-			if not slot1:isEnd() and slot2:isInBuffTime() then
-				for slot7, slot8 in pairs(slot1.data3_list) do
-					table.insert(slot0, ActivityBuff.New(slot1.id, slot8))
+				if slot5[1] > 0 and slot7 > 0 then
+					table.insert(uv1, ActivityBuff.New(uv0.id, AtelierMaterial.New({
+						configId = slot6
+					}):GetBuffs()[slot7]))
 				end
 			end
 		end
-	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK and slot1 then
-		for slot6, slot7 in ipairs(slot1:GetSlots()) do
-			slot9 = slot7[2]
+	})
 
-			if slot7[1] > 0 and slot9 > 0 then
-				table.insert(slot0, ActivityBuff.New(slot1.id, AtelierMaterial.New({
-					configId = slot8
-				}):GetBuffs()[slot9]))
-			end
-		end
-	end
+	uv0[slot0.id] = slot0
+	uv1[slot0.id] = underscore.map(slot1, function (slot0)
+		uv0[slot0.id] = slot0
+		uv1[slot1] = uv1[slot0:getConfig("benefit_type")] or {}
+		uv1[slot1][slot0.id] = true
 
-	for slot5, slot6 in pairs(slot1:GetBuffList()) do
-		table.insert(slot0, slot6)
-	end
-end
-
-slot0.GetAllBuff = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
-		table.insert(slot1, CommonBuff.New(slot7))
-	end
-
-	for slot7, slot8 in pairs(getProxy(ActivityProxy):getRawData()) do
-		if (function ()
-			if uv0 and uv0.system and uv0.system == SYSTEM_SCENARIO and uv1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK and (getProxy(ChapterProxy):getActiveChapter(true) and getProxy(ChapterProxy):getMapById(slot0:getConfig("map")) or nil) and not AtelierActivity.IsActivityBuffMap(slot1) then
-				return false
-			end
-
-			return true
-		end)() then
-			uv0(slot1, slot8)
-		end
-	end
+		return slot0.id
+	end)
 
 	return slot1
 end
 
-slot0.GetBackYardExpBuffs = function()
-	slot0 = {}
+slot0.ClearAllCache = function()
+	uv0 = {}
+	uv1 = {}
+	uv2 = {}
+	uv3 = {}
+end
 
-	for slot5, slot6 in ipairs(uv0.GetAllBuff()) do
-		if slot6:BackYardExpUsage() then
-			table.insert(slot0, slot6)
+slot0.GetBenefitTypeBuffs = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
+		if CommonBuff.New(slot6):getConfig("benefit_type") == slot0 then
+			table.insert(slot1, slot7)
 		end
 	end
 
-	return slot0
+	slot2 = pairs
+	slot3 = uv0[slot0] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot6 and tobool(uv1[slot5]) then
+			table.insert(slot1, uv1[slot5])
+		end
+	end
+
+	return underscore.filter(slot1, function (slot0)
+		return slot0:isActivate()
+	end)
+end
+
+slot0.GetAllBuff = function()
+	slot0 = underscore.map(getProxy(PlayerProxy):getRawData():GetBuffs(), function (slot0)
+		return CommonBuff.New(slot0)
+	end)
+
+	for slot5, slot6 in pairs(getProxy(ActivityProxy):getRawData()) do
+		table.insertto(slot0, uv0.GenBuffsForActivity(slot6))
+	end
+
+	return underscore.filter(slot0, function (slot0)
+		return slot0:isActivate()
+	end)
+end
+
+slot0.GetBackYardExpBuffs = function()
+	return underscore.filter(uv0.GetBenefitTypeBuffs(BuffUsageConst.DORM_EXP), function (slot0)
+		return slot0:isActivate()
+	end)
+end
+
+slot0.GetBackYardEnergyBuffs = function()
+	return underscore.filter(uv0.GetBenefitTypeBuffs(BuffUsageConst.DORM_ENERGY), function (slot0)
+		return slot0:isActivate()
+	end)
 end
 
 slot0.GetShipModExpBuff = function()
-	return getProxy(ActivityProxy):getShipModExpActivity()
+	return underscore.filter(uv0.GetBenefitTypeBuffs(BuffUsageConst.SHIP_MOD_EXP), function (slot0)
+		return slot0:isActivate()
+	end)
 end
 
 slot0.GetBackYardPlayerBuffs = function()
 	slot0 = {}
 
-	for slot5, slot6 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
-		if CommonBuff.New(slot6):BackYardExpUsage() then
-			table.insert(slot0, slot7)
+	for slot4, slot5 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
+		if CommonBuff.New(slot5):getConfig("benefit_type") == BuffUsageConst.DORM_EXP then
+			table.insert(slot0, slot6)
 		end
 	end
 
-	return slot0
+	return underscore.filter(slot0, function (slot0)
+		return slot0:isActivate()
+	end)
 end
 
 slot0.GetBattleBuffs = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(uv0.GetAllBuff({
-		system = slot0
-	})) do
-		if slot7:BattleUsage() then
-			table.insert(slot1, slot7)
-		end
-	end
-
-	return slot1
+	return underscore.filter(uv0.GetBenefitTypeBuffs(BuffUsageConst.BATTLE), function (slot0)
+		return slot0:isActivate()
+	end)
 end
 
 slot0.GetBuffsByActivityType = function(slot0)
 	slot2 = getProxy(ActivityProxy)
 
 	_.each(slot2:getActivitiesByType(slot0), function (slot0)
-		uv0(uv1, slot0)
+		table.insertto(uv0, uv1.GenBuffsForActivity(slot0))
 	end)
 
-	return {}
+	return underscore.filter({}, function (slot0)
+		return slot0:isActivate()
+	end)
 end
 
 slot0.GetBuffsForMainUI = function()

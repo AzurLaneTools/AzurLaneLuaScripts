@@ -1182,5 +1182,30 @@ pg.enemy_data_statistics_1 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
+	},
+	[50027] = {
+		antiaircraft_growth = 8300,
+		name = "革律翁",
+		cannon_growth = 8300,
+		speed_growth = 10000,
+		torpedo_growth = 8300,
+		fog_fx = "",
+		bubble_fx = "",
+		reload_growth = 8300,
+		dodge_growth = 10000,
+		armor_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50021,
+		durability_growth = 8300,
+		luck_growth = 10000,
+		hit_growth = 8300,
+		id = 50027,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

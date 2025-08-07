@@ -22,6 +22,9 @@ slot0.Type2Tag = function(slot0)
 			nil,
 			nil,
 			"subtitle_week",
+			nil,
+			nil,
+			"subtitle_activity",
 			[26.0] = "subtitle_activity",
 			[36.0] = "subtitle_activity"
 		}

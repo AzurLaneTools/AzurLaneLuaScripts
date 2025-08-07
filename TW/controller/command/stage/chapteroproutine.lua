@@ -15,6 +15,12 @@ end
 
 slot0.doDropUpdate = function(slot0)
 	slot0.items = PlayerConst.addTranDrop(slot0.data.drop_list)
+
+	table.insertto(slot0.items, underscore.map(PlayerConst.addTranDrop(slot0.data.extra_drop_list), function (slot0)
+		slot0.riraty = true
+
+		return slot0
+	end))
 end
 
 slot0.doMapUpdate = function(slot0)

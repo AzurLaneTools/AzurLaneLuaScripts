@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_drop_type = {
 	[1001] = {
 		id = 1001,
-		activity_id = 40949,
+		activity_id = 50043,
 		relevance = ""
 	},
 	[1002] = {
@@ -26,7 +26,7 @@ pg.activity_drop_type = {
 		relevance = ""
 	},
 	get_id_list_by_activity_id = {
-		[40949] = {
+		[50043] = {
 			1001
 		},
 		[4852] = {

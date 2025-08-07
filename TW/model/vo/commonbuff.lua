@@ -18,30 +18,6 @@ slot0.checkShow = function(slot0)
 	return slot0:getConfig("hide") ~= 1
 end
 
-slot0.BackYardExpUsage = function(slot0)
-	return slot0:getConfig("benefit_type") == BuffUsageConst.DORM_EXP
-end
-
-slot0.BattleUsage = function(slot0)
-	return slot0:getConfig("benefit_type") == BuffUsageConst.BATTLE
-end
-
-slot0.RookieBattleExpUsage = function(slot0)
-	return slot0:getConfig("benefit_type") == BuffUsageConst.ROOKIEBATTLEEXP
-end
-
-slot0.ShipModExpUsage = function(slot0)
-	return slot0:getConfig("benefit_type") == BuffUsageConst.SHIP_MOD_EXP
-end
-
-slot0.BackyardEnergyUsage = function(slot0)
-	return slot0:getConfig("benefit_type") == BuffUsageConst.DORM_ENERGY
-end
-
-slot0.GetRookieBattleExpMaxLevel = function(slot0)
-	return slot0:getConfig("benefit_condition")[3]
-end
-
 slot0.isActivate = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() <= slot0.timestamp
 end

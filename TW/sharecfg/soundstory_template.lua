@@ -347,7 +347,60 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[11] = {
+	{
+		story_pic = "",
+		name = "少女的小小心思",
+		story_resource_JP = "soundStory10_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "依田菜津",
+		audition_resource_JP = "ss-10730-1",
+		overview = "接受了聖哈辛托的邀請，來泳池為她提升泳技。\n僅有彼此兩人的場合，少女的笑聲混雜著飛濺的水花……令人心盪神迷。",
+		order = 2,
+		audition_text = "呵呵……是呢，也許我會累得全身無力，動不了呢？",
+		ship_id = 10730,
+		id = 10,
+		captions_color = "#1b3e80",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		story_pic = "",
 		name = "沉醉餘音",
 		story_resource_JP = "soundStory11_JP",
@@ -400,7 +453,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[12] = {
+	{
 		story_pic = "",
 		name = "藏匿在暗處的親密",
 		story_resource_JP = "soundStory12_JP",
@@ -453,7 +506,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[13] = {
+	{
 		story_pic = "",
 		name = "微醺之愛的夏夜邂逅",
 		story_resource_JP = "soundStory13_JP",
@@ -506,7 +559,7 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[14] = {
+	{
 		story_pic = "",
 		name = "受困於甜蜜陷阱",
 		story_resource_JP = "soundStory14_JP",
@@ -550,6 +603,59 @@ pg.soundstory_template = {
 					2024,
 					11,
 					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[16] = {
+		story_pic = "",
+		name = "床邊的瑪麗小姐",
+		story_resource_JP = "soundStory16_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "佐藤日向",
+		audition_resource_JP = "ss-960004-1",
+		overview = "夜晚，進入指揮官房間的瑪麗發覺到指揮官還未入睡，\n於是講了一個有關於玩偶「瑪麗」的有些恐怖的，怪談故事。",
+		order = 2,
+		audition_text = "不過我可不一樣哦……我會很珍惜指揮官，永遠最愛指揮官的，對吧。",
+		ship_id = 960004,
+		id = 16,
+		captions_color = "#321a1a",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					20
 				},
 				{
 					23,
@@ -782,10 +888,12 @@ pg.soundstory_template = {
 		7,
 		8,
 		9,
+		10,
 		11,
 		12,
 		13,
 		14,
+		16,
 		19,
 		20,
 		21,

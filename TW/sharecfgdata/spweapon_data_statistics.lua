@@ -25929,3 +25929,655 @@ _G.pg.base.spweapon_data_statistics[14270] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[14320] = {
+	attribute_1 = "air",
+	name = "剎那追憶",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112150,
+	value_2_random = 0,
+	effect_id = 112150,
+	attribute_2 = "hit",
+	next = 14321,
+	upgrade_id = 10001,
+	value_2 = 10,
+	icon = "14320",
+	value_1 = 20,
+	level = 1,
+	descrip = "為了將射擊與打擊的威力發揮到極限而製作的槍杖。上面有著以凝縮的瑪那為光源的照明燈",
+	uncraftable = 1,
+	unique = 1130001,
+	important = 2,
+	prev = 0,
+	id = 14320,
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			112130
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14321] = {
+	upgrade_id = 10002,
+	prev = 14320,
+	next = 14322,
+	base = 14320,
+	id = 14321,
+	value_2 = 11,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14322] = {
+	upgrade_id = 10003,
+	prev = 14321,
+	next = 14323,
+	base = 14320,
+	id = 14322,
+	value_2 = 12,
+	value_1 = 24,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14323] = {
+	upgrade_id = 10004,
+	prev = 14322,
+	next = 14324,
+	base = 14320,
+	id = 14323,
+	value_2 = 13,
+	value_1 = 26,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14324] = {
+	upgrade_id = 10005,
+	prev = 14323,
+	next = 14325,
+	base = 14320,
+	id = 14324,
+	value_2 = 14,
+	value_1 = 28,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14325] = {
+	upgrade_id = 10006,
+	prev = 14324,
+	next = 14326,
+	base = 14320,
+	id = 14325,
+	value_2 = 15,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14326] = {
+	upgrade_id = 10007,
+	prev = 14325,
+	next = 14327,
+	base = 14320,
+	id = 14326,
+	value_2 = 16,
+	value_1 = 32,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14327] = {
+	upgrade_id = 10008,
+	prev = 14326,
+	next = 14328,
+	base = 14320,
+	id = 14327,
+	value_2 = 17,
+	value_1 = 34,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14328] = {
+	upgrade_id = 10009,
+	prev = 14327,
+	next = 14329,
+	base = 14320,
+	id = 14328,
+	value_2 = 18,
+	value_1 = 36,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14329] = {
+	upgrade_id = 10010,
+	prev = 14328,
+	next = 14330,
+	base = 14320,
+	id = 14329,
+	value_2 = 19,
+	value_1 = 38,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14330] = {
+	id = 14330,
+	upgrade_id = 10011,
+	base = 14320,
+	next = 0,
+	prev = 14329,
+	value_2 = 20,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			112110,
+			112130
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14340] = {
+	attribute_1 = "cannon",
+	name = "祕槍三叉戟",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112300,
+	value_2_random = 0,
+	effect_id = 112300,
+	attribute_2 = "reload",
+	next = 14341,
+	upgrade_id = 10001,
+	value_2 = 10,
+	icon = "14340",
+	value_1 = 25,
+	level = 1,
+	descrip = "槍尖材質為寶石的長槍，可隨時替換槍尖",
+	uncraftable = 1,
+	unique = 1130002,
+	important = 2,
+	prev = 0,
+	id = 14340,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			112290
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14341] = {
+	upgrade_id = 10002,
+	prev = 14340,
+	next = 14342,
+	base = 14340,
+	id = 14341,
+	value_2 = 11,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14342] = {
+	upgrade_id = 10003,
+	prev = 14341,
+	next = 14343,
+	base = 14340,
+	id = 14342,
+	value_2 = 12,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14343] = {
+	upgrade_id = 10004,
+	prev = 14342,
+	next = 14344,
+	base = 14340,
+	id = 14343,
+	value_2 = 13,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14344] = {
+	upgrade_id = 10005,
+	prev = 14343,
+	next = 14345,
+	base = 14340,
+	id = 14344,
+	value_2 = 14,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14345] = {
+	upgrade_id = 10006,
+	prev = 14344,
+	next = 14346,
+	base = 14340,
+	id = 14345,
+	value_2 = 15,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14346] = {
+	upgrade_id = 10007,
+	prev = 14345,
+	next = 14347,
+	base = 14340,
+	id = 14346,
+	value_2 = 16,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14347] = {
+	upgrade_id = 10008,
+	prev = 14346,
+	next = 14348,
+	base = 14340,
+	id = 14347,
+	value_2 = 17,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14348] = {
+	upgrade_id = 10009,
+	prev = 14347,
+	next = 14349,
+	base = 14340,
+	id = 14348,
+	value_2 = 18,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14349] = {
+	upgrade_id = 10010,
+	prev = 14348,
+	next = 14350,
+	base = 14340,
+	id = 14349,
+	value_2 = 19,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14350] = {
+	id = 14350,
+	upgrade_id = 10011,
+	base = 14340,
+	next = 0,
+	prev = 14349,
+	value_2 = 20,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			112280,
+			112290
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14360] = {
+	attribute_1 = "cannon",
+	name = "女獵人",
+	type = 6,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112250,
+	value_2_random = 0,
+	effect_id = 112250,
+	attribute_2 = "reload",
+	next = 14361,
+	upgrade_id = 10001,
+	value_2 = 6,
+	icon = "14360",
+	value_1 = 25,
+	level = 1,
+	descrip = "尺寸便於使用的短槍和短劍，短劍輕巧鋒利，但短槍的威力和後座力較強。",
+	uncraftable = 1,
+	unique = 1130003,
+	important = 2,
+	prev = 0,
+	id = 14360,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			112240
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14361] = {
+	upgrade_id = 10002,
+	prev = 14360,
+	next = 14362,
+	base = 14360,
+	id = 14361,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14362] = {
+	upgrade_id = 10003,
+	prev = 14361,
+	next = 14363,
+	base = 14360,
+	id = 14362,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14363] = {
+	upgrade_id = 10004,
+	prev = 14362,
+	next = 14364,
+	base = 14360,
+	id = 14363,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14364] = {
+	upgrade_id = 10005,
+	prev = 14363,
+	next = 14365,
+	base = 14360,
+	id = 14364,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14365] = {
+	upgrade_id = 10006,
+	prev = 14364,
+	next = 14366,
+	base = 14360,
+	id = 14365,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14366] = {
+	upgrade_id = 10007,
+	prev = 14365,
+	next = 14367,
+	base = 14360,
+	id = 14366,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14367] = {
+	upgrade_id = 10008,
+	prev = 14366,
+	next = 14368,
+	base = 14360,
+	id = 14367,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14368] = {
+	upgrade_id = 10009,
+	prev = 14367,
+	next = 14369,
+	base = 14360,
+	id = 14368,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14369] = {
+	upgrade_id = 10010,
+	prev = 14368,
+	next = 14370,
+	base = 14360,
+	id = 14369,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14370] = {
+	id = 14370,
+	upgrade_id = 10011,
+	base = 14360,
+	next = 0,
+	prev = 14369,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			112220,
+			112240
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14380] = {
+	attribute_1 = "torpedo",
+	name = "黃泉之螳螂",
+	type = 1,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112210,
+	value_2_random = 0,
+	effect_id = 112210,
+	attribute_2 = "hit",
+	next = 14381,
+	upgrade_id = 10001,
+	value_2 = 6,
+	icon = "14380",
+	value_1 = 25,
+	level = 1,
+	descrip = "攻擊方式更接近鋸的武器，造成的傷勢難以癒合，還容易留下疤痕。",
+	uncraftable = 1,
+	unique = 1130004,
+	important = 2,
+	prev = 0,
+	id = 14380,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			112200
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14381] = {
+	upgrade_id = 10002,
+	prev = 14380,
+	next = 14382,
+	base = 14380,
+	id = 14381,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14382] = {
+	upgrade_id = 10003,
+	prev = 14381,
+	next = 14383,
+	base = 14380,
+	id = 14382,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14383] = {
+	upgrade_id = 10004,
+	prev = 14382,
+	next = 14384,
+	base = 14380,
+	id = 14383,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14384] = {
+	upgrade_id = 10005,
+	prev = 14383,
+	next = 14385,
+	base = 14380,
+	id = 14384,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14385] = {
+	upgrade_id = 10006,
+	prev = 14384,
+	next = 14386,
+	base = 14380,
+	id = 14385,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14386] = {
+	upgrade_id = 10007,
+	prev = 14385,
+	next = 14387,
+	base = 14380,
+	id = 14386,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14387] = {
+	upgrade_id = 10008,
+	prev = 14386,
+	next = 14388,
+	base = 14380,
+	id = 14387,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14388] = {
+	upgrade_id = 10009,
+	prev = 14387,
+	next = 14389,
+	base = 14380,
+	id = 14388,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14389] = {
+	upgrade_id = 10010,
+	prev = 14388,
+	next = 14390,
+	base = 14380,
+	id = 14389,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14390] = {
+	id = 14390,
+	upgrade_id = 10011,
+	base = 14380,
+	next = 0,
+	prev = 14389,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			112190,
+			112200
+		}
+	}
+}

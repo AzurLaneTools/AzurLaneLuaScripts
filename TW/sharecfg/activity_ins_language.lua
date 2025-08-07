@@ -6624,7 +6624,65 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_567_1_1",
 		"op_reply_567_1_1",
 		"ins_op_567_1_2",
-		"op_reply_567_1_2"
+		"op_reply_567_1_2",
+		"ins_574",
+		"ins_discuss_574_1",
+		"ins_reply_574_1_1",
+		"ins_reply_574_1_2",
+		"ins_reply_574_1_3",
+		"ins_reply_574_1_4",
+		"ins_discuss_574_2",
+		"ins_reply_574_2_1",
+		"ins_reply_574_2_2",
+		"ins_reply_574_2_3",
+		"ins_reply_574_2_4",
+		"ins_op_574_1_1",
+		"op_reply_574_1_1",
+		"ins_op_574_1_2",
+		"op_reply_574_1_2",
+		"ins_575",
+		"ins_discuss_575_1",
+		"ins_reply_575_1_1",
+		"ins_reply_575_1_2",
+		"ins_reply_575_1_3",
+		"ins_reply_575_1_4",
+		"ins_discuss_575_2",
+		"ins_reply_575_2_1",
+		"ins_reply_575_2_2",
+		"ins_reply_575_2_3",
+		"ins_reply_575_2_4",
+		"ins_op_575_1_1",
+		"op_reply_575_1_1",
+		"ins_op_575_1_2",
+		"op_reply_575_1_2",
+		"ins_576",
+		"ins_discuss_576_1",
+		"ins_reply_576_1_1",
+		"ins_reply_576_1_2",
+		"ins_reply_576_1_3",
+		"ins_discuss_576_2",
+		"ins_reply_576_2_1",
+		"ins_reply_576_2_2",
+		"ins_reply_576_2_3",
+		"ins_reply_576_2_4",
+		"ins_op_576_1_1",
+		"op_reply_576_1_1",
+		"ins_op_576_1_2",
+		"op_reply_576_1_2",
+		"ins_577",
+		"ins_discuss_577_1",
+		"ins_reply_577_1_1",
+		"ins_reply_577_1_2",
+		"ins_reply_577_1_3",
+		"ins_discuss_577_2",
+		"ins_reply_577_2_1",
+		"ins_reply_577_2_2",
+		"ins_reply_577_2_3",
+		"ins_reply_577_2_4",
+		"ins_op_577_1_1",
+		"op_reply_577_1_1",
+		"ins_op_577_1_2",
+		"op_reply_577_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24279,664 +24337,664 @@ pg.base.activity_ins_language = {
 		value = "沒關係，雖然很辛苦，但我習慣了，所以一個人也沒問題的，謝謝你！"
 	},
 	ins_518 = {
-		value = ""
+		value = "「就這樣倒在指揮官的懷裡，感受溫度……」這樣真的能拉近距離麼嗎？"
 	},
 	ins_discuss_518_1 = {
-		value = ""
+		value = "不能。"
 	},
 	ins_reply_518_1_1 = {
-		value = ""
+		value = "不能"
 	},
 	ins_reply_518_1_2 = {
-		value = ""
+		value = "不能！"
 	},
 	ins_reply_518_1_3 = {
-		value = ""
+		value = "……啊？喔……"
 	},
 	ins_discuss_518_2 = {
-		value = ""
+		value = "倒、倒在指揮官的懷中嗎？這種事情光是想想就覺得感情模組要爆炸了！"
 	},
 	ins_reply_518_2_1 = {
-		value = ""
+		value = "冷靜一些，別炸壞了東西！"
 	},
 	ins_discuss_518_3 = {
-		value = ""
+		value = "感覺書上的內容很有趣呢，之後可以借我看看嗎？"
 	},
 	ins_reply_518_3_1 = {
-		value = ""
+		value = "其實這本書是歐根借我的，可以問問她"
 	},
 	ins_reply_518_3_2 = {
-		value = ""
+		value = "當然可以，還有《在約會中偷走指揮官的心》也寫得不錯，推薦給妳~"
 	},
 	ins_reply_518_3_3 = {
-		value = ""
+		value = "好，謝謝~"
 	},
 	ins_reply_518_3_4 = {
-		value = ""
+		value = "這些書都是哪裡來的？"
 	},
 	ins_reply_518_3_5 = {
-		value = ""
+		value = "秘密~"
 	},
 	ins_op_518_1_1 = {
-		value = ""
+		value = "倒進誰的懷裡？我嗎？"
 	},
 	op_reply_518_1_1 = {
-		value = ""
+		value = "是的，不要懷疑，這本書就是圍繞著你展開的"
 	},
 	ins_op_518_1_2 = {
-		value = ""
+		value = "……為什麼會有這種書？"
 	},
 	op_reply_518_1_2 = {
-		value = ""
+		value = "或許是因為市場需求旺盛吧，指揮官要來讀看嗎？"
 	},
 	ins_519 = {
-		value = ""
+		value = "全新的妝容，自拍分享~"
 	},
 	ins_discuss_519_1 = {
-		value = ""
+		value = "試著用了這個濾鏡和動作，但沒辦法達到一樣的效果……"
 	},
 	ins_reply_519_1_1 = {
-		value = ""
+		value = "我也試了一下，雖然很可愛，但總覺得差了什麼！"
 	},
 	ins_reply_519_1_2 = {
-		value = ""
+		value = "可能是妝容的原因~？我去幫妳看看吧！"
 	},
 	ins_reply_519_1_3 = {
-		value = ""
+		value = "我可以幫妳客製化妝容哦~！"
 	},
 	ins_reply_519_1_4 = {
-		value = ""
+		value = "差了點什麼不是很明顯嗎？"
 	},
 	ins_reply_519_1_5 = {
-		value = ""
+		value = "(▼へ▼メ)！"
 	},
 	ins_discuss_519_2 = {
-		value = ""
+		value = "好可愛的貓貓濾鏡，請問是在哪裡設定的呀~？"
 	},
 	ins_reply_519_2_1 = {
-		value = ""
+		value = "這個是在濾鏡商城的付費分類下載的~！"
 	},
 	ins_reply_519_2_2 = {
-		value = ""
+		value = "居然是要付費的……"
 	},
 	ins_reply_519_2_3 = {
-		value = ""
+		value = "稍等，我去溝通一下。"
 	},
 	ins_reply_519_2_4 = {
-		value = ""
+		value = "老闆大氣喵！現在改成七天限時免費體驗了喵！"
 	},
 	ins_discuss_519_3 = {
-		value = ""
+		value = "\\\\(0.<)V，快看，這個顏文字跟妳一模一樣吧！"
 	},
 	ins_reply_519_3_1 = {
-		value = ""
+		value = "一模一樣！好可愛\\\\(0.<)V"
 	},
 	ins_reply_519_3_2 = {
-		value = ""
+		value = "\\\\(0.<)V！"
 	},
 	ins_reply_519_3_3 = {
-		value = ""
+		value = "\\\\(0.<)V~"
 	},
 	ins_op_519_1_1 = {
-		value = ""
+		value = "好看，很適合妳！"
 	},
 	op_reply_519_1_1 = {
-		value = ""
+		value = "嘿嘿~指揮官覺得適合就最好啦~"
 	},
 	ins_op_519_1_2 = {
-		value = ""
+		value = "濾鏡很可愛，之後也可以多嘗試一些"
 	},
 	op_reply_519_1_2 = {
-		value = ""
+		value = "嗯~那下次我就試試兔子耳朵吧♪"
 	},
 	ins_520 = {
-		value = ""
+		value = "跑個痛快吧！"
 	},
 	ins_discuss_520_1 = {
-		value = ""
+		value = "少女，我看妳根骨清奇，頗有大冒險之姿，考慮一下組隊麼？"
 	},
 	ins_reply_520_1_1 = {
-		value = ""
+		value = "……大冒險是什麼？我不懂啊？"
 	},
 	ins_reply_520_1_2 = {
-		value = ""
+		value = "沒事，我懂！沒有人比我更懂大冒險！"
 	},
 	ins_reply_520_1_3 = {
-		value = ""
+		value = "聽起來好厲害……回頭跟我講講！"
 	},
 	ins_reply_520_1_4 = {
-		value = ""
+		value = "必須的，回頭細說！"
 	},
 	ins_discuss_520_2 = {
-		value = ""
+		value = "這是誰拍的照片？明明{namecode:540}已經是跑出火花的高速了……照片還能這麼清晰……！"
 	},
 	ins_reply_520_2_1 = {
-		value = ""
+		value = "當然是我啦！厲害吧！"
 	},
 	ins_reply_520_2_2 = {
-		value = ""
+		value = "不過除此之外還要感謝——廣告位招租！"
 	},
 	ins_discuss_520_3 = {
-		value = ""
+		value = "這不是我發明的超級鼠鼠跑輪三號嗎？可是我還有半盒螺絲沒裝上呢？"
 	},
 	ins_reply_520_3_1 = {
-		value = ""
+		value = "…………"
 	},
 	ins_reply_520_3_2 = {
-		value = ""
+		value = "{namecode:540}，要是還在就打個字？"
 	},
 	ins_reply_520_3_3 = {
-		value = ""
+		value = "啊？我感覺現在蠻好的啊？"
 	},
 	ins_reply_520_3_4 = {
-		value = ""
+		value = "原來妳喜歡這種的嗎……那半盒螺絲省了，祝妳好運~"
 	},
 	ins_op_520_1_1 = {
-		value = ""
+		value = "爆燃模式，啟動——！"
 	},
 	op_reply_520_1_1 = {
-		value = ""
+		value = "嘿嘿！啟動——！"
 	},
 	ins_op_520_1_2 = {
-		value = ""
+		value = "注意安全！"
 	},
 	op_reply_520_1_2 = {
-		value = ""
+		value = "奇怪……怎麼好像越來越快了？"
 	},
 	ins_521 = {
-		value = ""
+		value = "嗚嗚嗚……又弄破了……"
 	},
 	ins_discuss_521_1 = {
-		value = ""
+		value = "這種把襪子扯破的感覺我懂，別哭了，我來找妳吧，嗚嗚……"
 	},
 	ins_reply_521_1_1 = {
-		value = ""
+		value = "{namecode:538}不要哭了，我來幫妳……嗚嗚嗚……為什麼我也跟著哭出來了……！"
 	},
 	ins_reply_521_1_2 = {
-		value = ""
+		value = "嗚嗚嗚……嗚嗚嗚……"
 	},
 	ins_reply_521_1_3 = {
-		value = ""
+		value = "不哭不哭，我也帶針線包去幫妳"
 	},
 	ins_discuss_521_2 = {
-		value = ""
+		value = "這不就是當下最受歡迎的破洞襪時尚嗎！"
 	},
 	ins_reply_521_2_1 = {
-		value = ""
+		value = "這、這樣嗎？可是洞破在膝蓋上，不是很奇怪嗎……"
 	},
 	ins_reply_521_2_2 = {
-		value = ""
+		value = "等等、現在已經不流行這個了啦！"
 	},
 	ins_discuss_521_3 = {
-		value = ""
+		value = "新三年，舊三年，縫縫補補又三年！"
 	},
 	ins_reply_521_3_1 = {
-		value = ""
+		value = "可是……這才買了第一天……"
 	},
 	ins_reply_521_3_2 = {
-		value = ""
+		value = "呃……節哀"
 	},
 	ins_op_521_1_1 = {
-		value = ""
+		value = "摔倒了嗎？我去找妳！"
 	},
 	op_reply_521_1_1 = {
-		value = ""
+		value = "沒事，只是扯壞了……嗚嗚……指揮官抱抱"
 	},
 	ins_op_521_1_2 = {
-		value = ""
+		value = "……還有備用的嗎？"
 	},
 	op_reply_521_1_2 = {
-		value = ""
+		value = "正在找……嗚嗚……指揮官抱抱"
 	},
 	ins_522 = {
-		value = ""
+		value = "假期果然還是得癱著啊……"
 	},
 	ins_discuss_522_1 = {
-		value = ""
+		value = "欸——這麼好的假期不一起出來玩嗎？一起吃東西看電影去遊樂園！"
 	},
 	ins_reply_522_1_1 = {
-		value = ""
+		value = "還有當然不能缺少聚會啦~！一起去卡拉OK或是劇本殺什麼的！"
 	},
 	ins_reply_522_1_2 = {
-		value = ""
+		value = "現充的光芒實在太閃耀了……睜不開眼了，還是睡覺吧……Zzz……"
 	},
 	ins_reply_522_1_3 = {
-		value = ""
+		value = "一想到出門還要打扮什麼的……對不起，我不出去！"
 	},
 	ins_discuss_522_2 = {
-		value = ""
+		value = "假期……假期……我怎麼記得妳還有工作……"
 	},
 	ins_reply_522_2_1 = {
-		value = ""
+		value = "居然還有工作……！居然還能安心放假？！"
 	},
 	ins_reply_522_2_2 = {
-		value = ""
+		value = "哇……這層評論上班味好重……別捲了……"
 	},
 	ins_reply_522_2_3 = {
-		value = ""
+		value = "欸……工作的截止時間是假期後，之後的事情之後再說就好了……"
 	},
 	ins_reply_522_2_4 = {
-		value = ""
+		value = "同意同意，休假的時候就不要想工作~"
 	},
 	ins_discuss_522_3 = {
-		value = ""
+		value = "賽車，三等一，速來"
 	},
 	ins_reply_522_3_1 = {
-		value = ""
+		value = "快來，待會我外送就到了"
 	},
 	ins_reply_522_3_2 = {
-		value = ""
+		value = "等妳……的說"
 	},
 	ins_reply_522_3_3 = {
-		value = ""
+		value = "申請了，組我！"
 	},
 	ins_reply_522_3_4 = {
-		value = ""
+		value = "在哪賽車，我也來！"
 	},
 	ins_reply_522_3_5 = {
-		value = ""
+		value = "在自己的房間裡哦~"
 	},
 	ins_reply_522_3_6 = {
-		value = ""
+		value = "嗯？？"
 	},
 	ins_op_522_1_1 = {
-		value = ""
+		value = "好好享受假期！"
 	},
 	op_reply_522_1_1 = {
-		value = ""
+		value = "嘿嘿……好，不過也有點想見指揮官呢，我們來打視訊電話吧？"
 	},
 	ins_op_522_1_2 = {
-		value = ""
+		value = "明天妳就要上班了（低語）"
 	},
 	op_reply_522_1_2 = {
-		value = ""
+		value = "嗚嗚嗚……指揮官37度的嘴怎麼能說出這麼冰冷的話！！"
 	},
 	ins_523 = {
-		value = ""
+		value = "聖誕節要到了呢，大家都希望收到什麼禮物呢？"
 	},
 	ins_discuss_523_1 = {
-		value = ""
+		value = "我的願望單Top.1是冰淇淋機！"
 	},
 	ins_reply_523_1_1 = {
-		value = ""
+		value = "得令，立刻去進貨喵！"
 	},
 	ins_discuss_523_2 = {
-		value = ""
+		value = "黑膠唱片是不錯的選擇呢"
 	},
 	ins_reply_523_2_1 = {
-		value = ""
+		value = "得令，立刻去進貨喵！"
 	},
 	ins_discuss_523_3 = {
-		value = ""
+		value = "……嗯，北極兔玩偶？"
 	},
 	ins_reply_523_3_1 = {
-		value = ""
+		value = "得令，立刻去進貨喵！"
 	},
 	ins_discuss_523_4 = {
-		value = ""
+		value = "呵呵，希望大家都能收到心儀的禮物~"
 	},
 	ins_op_523_1_1 = {
-		value = ""
+		value = "我也幫妳準備好禮物了，期待一下吧。"
 	},
 	op_reply_523_1_1 = {
-		value = ""
+		value = "好，我期待著。謝謝你，指揮官"
 	},
 	ins_op_523_1_2 = {
-		value = ""
+		value = "我已經把襪子掛好了！"
 	},
 	op_reply_523_1_2 = {
-		value = ""
+		value = "那就請期待明早的到來吧，指揮官"
 	},
 	ins_524 = {
-		value = ""
+		value = "偶爾換換口味，黑咖啡還挺不錯的~"
 	},
 	ins_discuss_524_1 = {
-		value = ""
+		value = "鰹魚口味的咖啡也還不錯，要不要試試看？"
 	},
 	ins_reply_524_1_1 = {
-		value = ""
+		value = "這麼說的話，我就不得不推薦加入了鯡魚的拿鐵了，我前幾天剛研究出來的~"
 	},
 	ins_reply_524_1_2 = {
-		value = ""
+		value = "呃還有鰻魚拿鐵！"
 	},
 	ins_reply_524_1_3 = {
-		value = ""
+		value = "？？？這些我就不試了吧……！"
 	},
 	ins_discuss_524_2 = {
-		value = ""
+		value = "優雅，實在太優雅了！"
 	},
 	ins_reply_524_2_1 = {
-		value = ""
+		value = "當然，畢竟我可是深淵之神啊！"
 	},
 	ins_reply_524_2_2 = {
-		value = ""
+		value = "深淵之神，低頭看看衣服呢？"
 	},
 	ins_reply_524_2_3 = {
-		value = ""
+		value = "……？！什、什麼時候弄髒的？"
 	},
 	ins_discuss_524_3 = {
-		value = ""
+		value = "看來妳也明白了黑咖啡的美味之處"
 	},
 	ins_reply_524_3_1 = {
-		value = ""
+		value = "呃，我加了牛奶和糖的"
 	},
 	ins_reply_524_3_2 = {
-		value = ""
+		value = "黑咖啡很難入口吧？總之先加一罐糖"
 	},
 	ins_reply_524_3_3 = {
-		value = ""
+		value = "我通常也是先加10塊方糖！"
 	},
 	ins_reply_524_3_4 = {
-		value = ""
+		value = "……妳們在幹嘛！牛奶和砂糖可是對咖啡的褻瀆！"
 	},
 	ins_op_524_1_1 = {
-		value = ""
+		value = "想喝鰹魚鰻魚鯡魚咖啡"
 	},
 	op_reply_524_1_1 = {
-		value = ""
+		value = "？？？？？？？？？？？"
 	},
 	ins_op_524_1_2 = {
-		value = ""
+		value = "幫我也準備一杯吧"
 	},
 	op_reply_524_1_2 = {
-		value = ""
+		value = "如果指揮官很真誠地拜託我的話，也不是不行~"
 	},
 	ins_525 = {
-		value = ""
+		value = "球被小貓佔領了，怎麼辦呢……"
 	},
 	ins_discuss_525_1 = {
-		value = ""
+		value = "把貓拎起來放到一邊就好了"
 	},
 	ins_reply_525_1_1 = {
-		value = ""
+		value = "可、可是小貓睡得好香，吵醒它是不是不大好……"
 	},
 	ins_reply_525_1_2 = {
-		value = ""
+		value = "雅努斯就是太溫柔了，既然不想吵醒小貓，下次再做撞球練習吧"
 	},
 	ins_discuss_525_2 = {
-		value = ""
+		value = "別擔心，讓·巴爾已經過去了，很快小貓就會跟著她走了"
 	},
 	ins_reply_525_2_1 = {
-		value = ""
+		value = "讓·巴爾小姐來了……可是她的身後怎麼跟了這麼多小貓……嗚嗚……"
 	},
 	ins_reply_525_2_2 = {
-		value = ""
+		value = "什麼？有很多小貓！那我也來了！！"
 	},
 	ins_discuss_525_3 = {
-		value = ""
+		value = "黑白各半……是太極呀！"
 	},
 	ins_reply_525_3_1 = {
-		value = ""
+		value = "什、什麼？"
 	},
 	ins_reply_525_3_2 = {
-		value = ""
+		value = "易有太極，是生兩儀，兩儀生四象，四象生八卦……！"
 	},
 	ins_reply_525_3_3 = {
-		value = ""
+		value = "八卦？哪裡有八卦！！"
 	},
 	ins_op_525_1_1 = {
-		value = ""
+		value = "沒事，我來帶走它吧"
 	},
 	op_reply_525_1_1 = {
-		value = ""
+		value = "好，那我在這裡等指揮官，嗚嗚……"
 	},
 	ins_op_525_1_2 = {
-		value = ""
+		value = "貓條在旁邊櫃子裡"
 	},
 	op_reply_525_1_2 = {
-		value = ""
+		value = "太好了，小貓被貓條引走了！"
 	},
 	ins_526 = {
-		value = ""
+		value = "還差最後兩張……有些難呢……"
 	},
 	ins_discuss_526_1 = {
-		value = ""
+		value = "我來助妳一臂之力！雖然我沒搭過紙牌橋，但我相信我與卡牌之間的羈絆！"
 	},
 	ins_reply_526_1_1 = {
-		value = ""
+		value = "太好了，是卡牌大師！紙牌橋有救了！"
 	},
 	ins_reply_526_1_2 = {
-		value = ""
+		value = "那就麻煩競技神了吧~我們一起加油搭好吧！"
 	},
 	ins_reply_526_1_3 = {
-		value = ""
+		value = "不愧是大前輩，我也要努力趕上大前輩的腳步！"
 	},
 	ins_discuss_526_2 = {
-		value = ""
+		value = "還是偷偷用膠水固定吧？"
 	},
 	ins_reply_526_2_1 = {
-		value = ""
+		value = "我這裡有「包不沾手膠水」，要試試嗎！"
 	},
 	ins_reply_526_2_2 = {
-		value = ""
+		value = "謝謝，不過我還是想自己再努力看看~"
 	},
 	ins_discuss_526_3 = {
-		value = ""
+		value = "最後兩張用今日的幸運卡牌，成功率應該會更高一些的~"
 	},
 	ins_reply_526_3_1 = {
-		value = ""
+		value = "這樣……可是我今日的幸運卡牌是什麼呢？"
 	},
 	ins_reply_526_3_2 = {
-		value = ""
+		value = "稍等，我用咖啡渣幫妳預測~"
 	},
 	ins_op_526_1_1 = {
-		value = ""
+		value = "金字塔也可以是平頂的"
 	},
 	op_reply_526_1_1 = {
-		value = ""
+		value = "原來如此……這樣的話，我完工了！"
 	},
 	ins_op_526_1_2 = {
-		value = ""
+		value = "還差一點，加油！"
 	},
 	op_reply_526_1_2 = {
-		value = ""
+		value = "最後一張，無論如何都無法搭好……指揮官能來幫我看看嗎？"
 	},
 	ins_527 = {
-		value = ""
+		value = "這種衣服一般用在什麼場合？"
 	},
 	ins_discuss_527_1 = {
-		value = ""
+		value = "這種時候還這麼冷靜，納希莫夫的感情模組好先進！"
 	},
 	ins_reply_527_1_1 = {
-		value = ""
+		value = "……我哪來的感情模組？"
 	},
 	ins_reply_527_1_2 = {
-		value = ""
+		value = "偵測到困惑情緒佔比52.31%，判定為略感困惑"
 	},
 	ins_reply_527_1_3 = {
-		value = ""
+		value = "所以妳們能解答一下嗎……"
 	},
 	ins_reply_527_1_4 = {
-		value = ""
+		value = "判定——不能，紀錄中暫未收錄這類服飾"
 	},
 	ins_discuss_527_2 = {
-		value = ""
+		value = "那當然是用在能夠刺激指揮官消費的場合喵~"
 	},
 	ins_reply_527_2_1 = {
-		value = ""
+		value = "刺激指揮官消費的場合又是……？"
 	},
 	ins_reply_527_2_2 = {
-		value = ""
+		value = "哇綠頭貓咪同框了！"
 	},
 	ins_reply_527_2_3 = {
-		value = ""
+		value = "歷史性的時刻！"
 	},
 	ins_reply_527_2_4 = {
-		value = ""
+		value = "綠頭貓咪……是指明石和……我嗎？"
 	},
 	ins_discuss_527_3 = {
-		value = ""
+		value = "根據時尚趨勢及服飾造型推測，一般可用於海邊渡假，或是推廣時尚"
 	},
 	ins_reply_527_3_1 = {
-		value = ""
+		value = "海邊……？游泳麼會掉的吧？"
 	},
 	ins_reply_527_3_2 = {
-		value = ""
+		value = "不下水就不會掉了哦~"
 	},
 	ins_reply_527_3_3 = {
-		value = ""
+		value = "不下水也可以掉哦！"
 	},
 	ins_reply_527_3_4 = {
-		value = ""
+		value = "……？"
 	},
 	ins_op_527_1_1 = {
-		value = ""
+		value = "拍宣傳片的時候可以用"
 	},
 	op_reply_527_1_1 = {
-		value = ""
+		value = "原來如此，這個答案我倒是可以理解……"
 	},
 	ins_op_527_1_2 = {
-		value = ""
+		value = "一般用在需要用到它的場合"
 	},
 	op_reply_527_1_2 = {
-		value = ""
+		value = "……原來如此？"
 	},
 	ins_528 = {
-		value = ""
+		value = "專業團隊，專業培訓！"
 	},
 	ins_discuss_528_1 = {
-		value = ""
+		value = "這種現代化的專業培訓，血族親王下屬此等遠古的靈魂真的能夠回應嗎？"
 	},
 	ins_reply_528_1_1 = {
-		value = ""
+		value = "當然，吾輩用來溝通的文字可不是凡人肉眼所見的那般膚淺！"
 	},
 	ins_reply_528_1_2 = {
-		value = ""
+		value = "原來如此……這麼說……吾似乎也看到了不一樣的、來自遠古的文字……！"
 	},
 	ins_reply_528_1_3 = {
-		value = ""
+		value = "……妳們說這些誰懂啊！"
 	},
 	ins_discuss_528_2 = {
-		value = ""
+		value = "這個聚會，阿蒂利奧的小兔子也能參加嗎？"
 	},
 	ins_reply_528_2_1 = {
-		value = ""
+		value = "那噗噗也可以參加嗎？"
 	},
 	ins_reply_528_2_2 = {
-		value = ""
+		value = "那優醬也可以嗎……？我陪她一起來"
 	},
 	ins_reply_528_2_3 = {
-		value = ""
+		value = "這可不是孩子氣的聚會哦，是員工培訓……不過也可以讓汝等來就是了！"
 	},
 	ins_reply_528_2_4 = {
-		value = ""
+		value = "那我也來，這麼多驅逐艦妹妹參加的聚會，一定要有人來維護治安的吧！"
 	},
 	ins_reply_528_2_5 = {
-		value = ""
+		value = "也不是不行……不過都說了這不是聚會！是培訓！"
 	},
 	ins_discuss_528_3 = {
-		value = ""
+		value = "能看出來，準備的真充分"
 	},
 	ins_reply_528_3_1 = {
-		value = ""
+		value = "那是，吾為了這次的訓練可是準備了很久的時間啊！"
 	},
 	ins_reply_528_3_2 = {
-		value = ""
+		value = "那天凌晨四點，我下班經過會議室還看見哈爾福德在準備教程"
 	},
 	ins_reply_528_3_3 = {
-		value = ""
+		value = "一時之間不知道妳們兩個誰更卷……"
 	},
 	ins_reply_528_3_4 = {
-		value = ""
+		value = "為了上班都不睡覺的嗎？"
 	},
 	ins_op_528_1_1 = {
-		value = ""
+		value = "好像有點意思"
 	},
 	op_reply_528_1_1 = {
-		value = ""
+		value = "稍等，吾把全部的教學給汝發過去"
 	},
 	ins_op_528_1_2 = {
-		value = ""
+		value = "現場配樂選的什麼？"
 	},
 	op_reply_528_1_2 = {
-		value = ""
+		value = "反正不是汝想的那首！"
 	},
 	ins_529 = {
-		value = ""
+		value = "這是……成為優秀騎士的修行"
 	},
 	ins_discuss_529_1 = {
-		value = ""
+		value = "學到了，我也想成為更優秀的騎士！"
 	},
 	ins_reply_529_1_1 = {
-		value = ""
+		value = "我也要開始進行這項修行……手銬的話，我該去哪裡借用比較好？"
 	},
 	ins_reply_529_1_2 = {
-		value = ""
+		value = "等等，這不對吧！別亂學！"
 	},
 	ins_reply_529_1_3 = {
-		value = ""
+		value = "嗯？可是明石小姐說這確實是一種全新的修行方式……"
 	},
 	ins_reply_529_1_4 = {
-		value = ""
+		value = "事情我了解了，回頭我會給明石也去送一副手銬的，呵呵~"
 	},
 	ins_discuss_529_2 = {
-		value = ""
+		value = "《震驚，鳶尾騎士竟然用如此方式修行！》"
 	},
 	ins_reply_529_2_1 = {
-		value = ""
+		value = "《解密，鳶尾騎士的全新「修行」法》"
 	},
 	ins_reply_529_2_2 = {
-		value = ""
+		value = "《鳶尾騎士神秘修行事件調查》"
 	},
 	ins_reply_529_2_3 = {
-		value = ""
+		value = "……《鳶尾騎士的束縛訓練法》？"
 	},
 	ins_reply_529_2_4 = {
-		value = ""
+		value = "感謝諸位提供的標題靈感，有想法了~"
 	},
 	ins_op_529_1_1 = {
-		value = ""
+		value = "這種修行有點意思！"
 	},
 	op_reply_529_1_1 = {
-		value = ""
+		value = "真的嗎？那我們一起向鳶尾騎士推廣下去吧！"
 	},
 	ins_op_529_1_2 = {
-		value = ""
+		value = "要不還是換一種修行吧？"
 	},
 	op_reply_529_1_2 = {
-		value = ""
+		value = "欸？指揮官是不推薦這種嗎？那就換一種好了……"
 	},
 	ins_530 = {
-		value = ""
+		value = "希望大家都能平安順遂~"
 	},
 	ins_discuss_530_1 = {
-		value = ""
+		value = "這位是為了祈願而掛的裝飾嗎？我來幫忙吧？"
 	},
 	ins_reply_530_1_1 = {
-		value = ""
+		value = "姐姐！大山！我也可以來幫忙嗎？我一定會很小心的！"
 	},
 	ins_reply_530_1_2 = {
-		value = ""
+		value = "謝謝妳們，我們一起掛上裝飾，為港區的同伴們一起祈福吧~"
 	},
 	ins_discuss_530_2 = {
-		value = ""
+		value = "裝飾的話，要不要考慮掛上大家的幸運物呢？"
 	},
 	ins_reply_530_2_1 = {
-		value = ""
+		value = "啊，確實是個新奇的好點子，看到這條動態的人可以把自己的幸運物送過來喔~"
 	},
 	ins_reply_530_2_2 = {
-		value = ""
+		value = "我現在就把鯡魚罐頭送過來！"
 	},
 	ins_reply_530_2_3 = {
-		value = ""
+		value = "把雷火之心也掛上起好了！"
 	},
 	ins_reply_530_2_4 = {
-		value = ""
+		value = "……尋寶鐵棍"
 	},
 	ins_reply_530_2_5 = {
-		value = ""
+		value = "嘿嘿……我的斗篷也可以……掛上去就不用穿了……嘿嘿……"
 	},
 	ins_op_530_1_1 = {
-		value = ""
+		value = "希望大山也能平安順遂"
 	},
 	op_reply_530_1_1 = {
-		value = ""
+		value = "指揮官大人，感謝您的祝福~"
 	},
 	ins_op_530_1_2 = {
-		value = ""
+		value = "我來幫妳！"
 	},
 	op_reply_530_1_2 = {
-		value = ""
+		value = "好，那大山便在此處等待指揮官大人。"
 	},
 	ins_531 = {
 		value = "聽說邊喝人參水邊鍛煉，可以有效緩解疲勞"
@@ -26497,5 +26555,179 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_567_1_2 = {
 		value = "嗯。指揮官有興趣的話，我教你……"
+	},
+	ins_574 = {
+		value = ""
+	},
+	ins_discuss_574_1 = {
+		value = ""
+	},
+	ins_reply_574_1_1 = {
+		value = ""
+	},
+	ins_reply_574_1_2 = {
+		value = ""
+	},
+	ins_reply_574_1_3 = {
+		value = ""
+	},
+	ins_reply_574_1_4 = {
+		value = ""
+	},
+	ins_discuss_574_2 = {
+		value = ""
+	},
+	ins_reply_574_2_1 = {
+		value = ""
+	},
+	ins_reply_574_2_2 = {
+		value = ""
+	},
+	ins_reply_574_2_3 = {
+		value = ""
+	},
+	ins_reply_574_2_4 = {
+		value = ""
+	},
+	ins_op_574_1_1 = {
+		value = ""
+	},
+	op_reply_574_1_1 = {
+		value = ""
+	},
+	ins_op_574_1_2 = {
+		value = ""
+	},
+	op_reply_574_1_2 = {
+		value = ""
+	},
+	ins_575 = {
+		value = ""
+	},
+	ins_discuss_575_1 = {
+		value = ""
+	},
+	ins_reply_575_1_1 = {
+		value = ""
+	},
+	ins_reply_575_1_2 = {
+		value = ""
+	},
+	ins_reply_575_1_3 = {
+		value = ""
+	},
+	ins_reply_575_1_4 = {
+		value = ""
+	},
+	ins_discuss_575_2 = {
+		value = ""
+	},
+	ins_reply_575_2_1 = {
+		value = ""
+	},
+	ins_reply_575_2_2 = {
+		value = ""
+	},
+	ins_reply_575_2_3 = {
+		value = ""
+	},
+	ins_reply_575_2_4 = {
+		value = ""
+	},
+	ins_op_575_1_1 = {
+		value = ""
+	},
+	op_reply_575_1_1 = {
+		value = ""
+	},
+	ins_op_575_1_2 = {
+		value = ""
+	},
+	op_reply_575_1_2 = {
+		value = ""
+	},
+	ins_576 = {
+		value = ""
+	},
+	ins_discuss_576_1 = {
+		value = ""
+	},
+	ins_reply_576_1_1 = {
+		value = ""
+	},
+	ins_reply_576_1_2 = {
+		value = ""
+	},
+	ins_reply_576_1_3 = {
+		value = ""
+	},
+	ins_discuss_576_2 = {
+		value = ""
+	},
+	ins_reply_576_2_1 = {
+		value = ""
+	},
+	ins_reply_576_2_2 = {
+		value = ""
+	},
+	ins_reply_576_2_3 = {
+		value = ""
+	},
+	ins_reply_576_2_4 = {
+		value = ""
+	},
+	ins_op_576_1_1 = {
+		value = ""
+	},
+	op_reply_576_1_1 = {
+		value = ""
+	},
+	ins_op_576_1_2 = {
+		value = ""
+	},
+	op_reply_576_1_2 = {
+		value = ""
+	},
+	ins_577 = {
+		value = ""
+	},
+	ins_discuss_577_1 = {
+		value = ""
+	},
+	ins_reply_577_1_1 = {
+		value = ""
+	},
+	ins_reply_577_1_2 = {
+		value = ""
+	},
+	ins_reply_577_1_3 = {
+		value = ""
+	},
+	ins_discuss_577_2 = {
+		value = ""
+	},
+	ins_reply_577_2_1 = {
+		value = ""
+	},
+	ins_reply_577_2_2 = {
+		value = ""
+	},
+	ins_reply_577_2_3 = {
+		value = ""
+	},
+	ins_reply_577_2_4 = {
+		value = ""
+	},
+	ins_op_577_1_1 = {
+		value = ""
+	},
+	op_reply_577_1_1 = {
+		value = ""
+	},
+	ins_op_577_1_2 = {
+		value = ""
+	},
+	op_reply_577_1_2 = {
+		value = ""
 	}
 }

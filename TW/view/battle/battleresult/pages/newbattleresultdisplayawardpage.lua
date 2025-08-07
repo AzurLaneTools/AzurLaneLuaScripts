@@ -88,27 +88,32 @@ end
 slot0.CollectDrops = function(slot0)
 	slot1 = false
 	slot2 = {}
-	slot3 = ipairs
-	slot4 = slot0.contextData.drops or {}
+	slot3 = NewBattleResultYumiaMaterialPage.YUMIA_MATERIAL_DROP_TYPE_LIST
+	slot4 = ipairs
+	slot5 = slot0.contextData.drops or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot2, slot7)
-	end
-
-	slot3 = ipairs
-	slot4 = slot0.contextData.extraDrops or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		slot7.riraty = true
-
-		table.insert(slot2, slot7)
+	for slot7, slot8 in slot4(slot5) do
+		if not table.contains(slot3, slot8.type) then
+			table.insert(slot2, slot8)
+		end
 	end
 
 	slot4 = ipairs
-	slot5 = slot0.contextData.extraBuffList or {}
+	slot5 = slot0.contextData.extraDrops or {}
 
 	for slot7, slot8 in slot4(slot5) do
-		if pg.benefit_buff_template[slot8].benefit_type == Chapter.OPERATION_BUFF_TYPE_REWARD then
+		slot8.riraty = true
+
+		if not table.contains(slot3, slot8.type) then
+			table.insert(slot2, slot8)
+		end
+	end
+
+	slot5 = ipairs
+	slot6 = slot0.contextData.extraBuffList or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		if pg.benefit_buff_template[slot9].benefit_type == Chapter.OPERATION_BUFF_TYPE_REWARD then
 			slot1 = true
 
 			break

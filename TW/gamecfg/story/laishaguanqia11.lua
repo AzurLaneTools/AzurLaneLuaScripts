@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-8",
 			stopbgm = true,
 			say = "遺跡群島·爭鬥之城 一段時間後",
 			flashout = {

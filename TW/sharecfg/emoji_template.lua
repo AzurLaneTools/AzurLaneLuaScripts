@@ -871,6 +871,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	{
+		achieve = 1,
+		index = 1027,
+		pic = "yingrui_4",
+		desc = "<color=#92fc63>[看這裡！ ]</color>",
+		item_name = "聊天表情：看這裡！",
+		item_desc = "聊天表情：看這裡！可以在表情選項的「動態」標籤中找到並發出此表情。",
+		id = 68,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2434,6 +2447,7 @@ pg.emoji_template = {
 		65,
 		66,
 		67,
+		68,
 		100,
 		101,
 		102,

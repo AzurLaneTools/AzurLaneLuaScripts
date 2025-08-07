@@ -886,7 +886,7 @@ pg.activity_const = {
 		act_id = 40948
 	},
 	RYZA_TASK = {
-		act_id = 40950
+		act_id = 50044
 	},
 	MINIGAME_FIREWORK_VS_SAIREN = {
 		act_id = 4602
@@ -1154,5 +1154,11 @@ pg.activity_const = {
 	},
 	ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID = {
 		act_id = 50013
+	},
+	YUMIA_BASE_ACT_ID = {
+		act_id = 50063
+	},
+	YUMIA_EXPEDITION_BUFF_ACT_ID = {
+		act_id = 50065
 	}
 }

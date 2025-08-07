@@ -45,21 +45,23 @@ slot0.initBtn = function(slot0)
 			end)
 		end,
 		shop = function (slot0)
-			slot2 = getProxy(ActivityProxy)
-			slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
-			end)
-
 			onButton(uv0, slot0, function ()
-				if uv0.shopLinkActID and uv1(uv0.shopLinkActID) then
+				if not uv0.shopLinkActID or not getProxy(ActivityProxy):getActivitiesById(uv0.shopLinkActID) then
+					slot1 = getProxy(ActivityProxy)
+					slot0 = underscore.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+						return not slot0:isEnd()
+					end)
+				end
+
+				if not slot0 or slot0:isEnd() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 					return
 				end
 
-				uv2:emit(ActivityMediator.GO_SHOPS_LAYER, {
+				uv1:emit(ActivityMediator.GO_SHOPS_LAYER, {
 					warp = NewShopsScene.TYPE_ACTIVITY,
-					actId = uv3 and uv3.id
+					actId = slot0.id
 				})
 			end)
 		end,

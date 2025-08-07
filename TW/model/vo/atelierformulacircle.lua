@@ -1,9 +1,13 @@
 slot0 = class("AtelierFormulaCircle", import("model.vo.BaseVO"))
 slot0.TYPE = {
-	ANY = 4,
+	NONE = 5,
 	SAIREN = 3,
+	ELEMENT_CATEGORY = 8,
+	BASE = 1,
+	CATEGORY = 7,
+	ELEMENT = 6,
 	NORMAL = 2,
-	BASE = 1
+	ANY = 4
 }
 slot0.ELEMENT_TYPE = {
 	CRYO = 2,
@@ -27,6 +31,14 @@ slot0.ELEMENT_RING_COLOR = {
 	[slot0.ELEMENT_TYPE.ANEMO] = "B0E860",
 	[slot0.ELEMENT_TYPE.SAIREN] = "AF97FF"
 }
+slot0.ELEMENT_LIGHT_COLOR = {
+	[slot0.ELEMENT_TYPE.ANY] = "7F96FF",
+	[slot0.ELEMENT_TYPE.PYRO] = "FF7072",
+	[slot0.ELEMENT_TYPE.CRYO] = "73E2FF",
+	[slot0.ELEMENT_TYPE.ELECTRO] = "FFD782",
+	[slot0.ELEMENT_TYPE.ANEMO] = "75FB8F",
+	[slot0.ELEMENT_TYPE.SAIREN] = "EB84FF"
+}
 
 slot0.bindConfigTable = function(slot0)
 	return pg.activity_ryza_recipe_circle
@@ -46,6 +58,10 @@ end
 
 slot0.GetProp = function(slot0)
 	return slot0:getConfig("prop")
+end
+
+slot0.GetCategory = function(slot0)
+	return slot0:getConfig("prop_type")
 end
 
 slot0.GetElement = function(slot0)
@@ -76,6 +92,10 @@ slot0.GetElementRingColor = function(slot0, slot1)
 	return SummerFeastScene.TransformColor(uv0.ELEMENT_RING_COLOR[slot0:GetRingElement(slot1)])
 end
 
+slot0.GetElementLightColor = function(slot0, slot1)
+	return SummerFeastScene.TransformColor(uv0.ELEMENT_LIGHT_COLOR[slot0:GetRingElement(slot1)])
+end
+
 slot0.GetLevel = function(slot0)
 	return slot0:getConfig("prop_level")
 end
@@ -92,8 +112,20 @@ slot0.GetFormulaId = function(slot0)
 	return slot0:getConfig("recipe_id")
 end
 
-slot0.CanUseMaterial = function(slot0, slot1, slot2)
-	slot3 = function()
+slot0.GetStarList = function(slot0)
+	return slot0:getConfig("star_list")
+end
+
+slot0.CanUseMaterial = function(slot0, slot1, slot2, slot3)
+	if slot1:GetVersion() ~= (slot3 or 1) then
+		return false
+	end
+
+	slot4 = slot0:GetType()
+	slot5 = slot1:GetType()
+	slot6 = slot1:GetCategory()
+
+	slot7 = function()
 		if uv0:GetProduction()[1] ~= DROP_TYPE_RYZA_DROP then
 			return false
 		end
@@ -104,13 +136,13 @@ slot0.CanUseMaterial = function(slot0, slot1, slot2)
 
 		return AtelierMaterial.New({
 			configId = uv0:GetProduction()[2]
-		}):GetType() == AtelierMaterial.TYPE.NEUTRALIZER and uv1:GetType() == AtelierMaterial.TYPE.NEUTRALIZER and slot0:GetLevel() == uv1:GetLevel()
+		}):GetType() == AtelierMaterial.TYPE.NEUTRALIZER and uv2 == AtelierMaterial.TYPE.NEUTRALIZER and slot0:GetLevel() == uv1:GetLevel()
 	end
 
-	if slot0:GetType() == uv0.TYPE.BASE or slot0:GetType() == uv0.TYPE.SAIREN then
-		return slot0:GetLimitItemID() == slot1:GetConfigID()
-	elseif slot0:GetType() == uv0.TYPE.NORMAL then
-		if slot1:GetType() ~= AtelierMaterial.TYPE.NORMAL and slot1:GetType() ~= AtelierMaterial.TYPE.NEUTRALIZER then
+	if slot0:GetLimitItemID() ~= 0 then
+		return slot8 == slot1:GetConfigID()
+	elseif slot4 == uv0.TYPE.NORMAL then
+		if slot5 ~= AtelierMaterial.TYPE.NORMAL and slot5 ~= AtelierMaterial.TYPE.NEUTRALIZER then
 			return false
 		end
 
@@ -118,21 +150,29 @@ slot0.CanUseMaterial = function(slot0, slot1, slot2)
 			return false
 		end
 
-		if slot3() then
+		if slot7() then
 			return false
 		end
 
 		return slot1:GetLevel() == slot0:GetLevel()
-	elseif slot0:GetType() == uv0.TYPE.ANY then
-		if slot1:GetType() ~= AtelierMaterial.TYPE.NORMAL and slot1:GetType() ~= AtelierMaterial.TYPE.NEUTRALIZER and slot1:GetType() ~= AtelierMaterial.TYPE.SAIREN then
+	elseif slot4 == uv0.TYPE.ANY then
+		if slot5 ~= AtelierMaterial.TYPE.NORMAL and slot5 ~= AtelierMaterial.TYPE.NEUTRALIZER and slot5 ~= AtelierMaterial.TYPE.SAIREN then
 			return false
 		end
 
-		if slot3() then
+		if slot7() then
 			return false
 		end
 
 		return slot1:GetLevel() == slot0:GetLevel()
+	elseif slot4 == uv0.TYPE.NONE then
+		return slot6 ~= 0
+	elseif slot4 == uv0.TYPE.ELEMENT then
+		return table.contains(slot1:GetProps(), slot0:GetElement()) and slot6 ~= 0
+	elseif slot4 == uv0.TYPE.CATEGORY then
+		return slot6 == slot0:GetCategory()
+	elseif slot4 == uv0.TYPE.ELEMENT_CATEGORY then
+		return table.contains(slot1:GetProps(), slot0:GetElement()) and slot6 == slot0:GetCategory()
 	end
 end
 

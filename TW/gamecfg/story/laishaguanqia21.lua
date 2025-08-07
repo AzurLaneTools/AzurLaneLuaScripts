@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-12",
 			stopbgm = true,
 			say = "傍晚時分，結束了水下迷宮探索的一行人帶著滿載而歸的戰利品返回了起始之地。",
 			flashout = {

@@ -137,8 +137,9 @@ end
 
 slot0.initData = function(slot0)
 	slot0.tweens = {}
-	slot0.mapWidth = 1920
-	slot0.mapHeight = 1440
+	slot1 = slot0._tf.rect.size
+	slot0.mapHeight = slot1.y
+	slot0.mapWidth = slot1.x
 	slot0.levelCamIndices = 1
 	slot0.frozenCount = 0
 	slot0.currentBG = nil
@@ -194,8 +195,7 @@ slot0.initUI = function(slot0)
 	setActive(slot0.mainLayer:Find("title_chapter_lines"), false)
 
 	slot0.rightChapter = slot0:findTF("main/right_chapter")
-	slot1 = slot0.rightChapter
-	slot0.rightCanvasGroup = slot1:GetComponent(typeof(CanvasGroup))
+	slot0.rightCanvasGroup = slot0.rightChapter:GetComponent(typeof(CanvasGroup))
 	slot0.eventContainer = slot0:findTF("event_btns/event_container", slot0.rightChapter)
 	slot0.btnSpecial = slot0:findTF("btn_task", slot0.eventContainer)
 	slot0.challengeBtn = slot0:findTF("btn_challenge", slot0.eventContainer)
@@ -213,6 +213,8 @@ slot0.initUI = function(slot0)
 
 	slot0.actExchangeShopBtn = slot0:findTF("event_btns/BottomList/btn_exchange", slot0.rightChapter)
 	slot0.actAtelierBuffBtn = slot0:findTF("event_btns/BottomList/btn_control_center", slot0.rightChapter)
+	slot1 = slot0.rightChapter
+	slot0.actAtelierYumiaBuffBtn = slot1:Find("event_btns/BottomList/btn_yumia_buff")
 	slot0.actExtraRank = slot0:findTF("event_btns/BottomList/act_extra_rank", slot0.rightChapter)
 
 	setActive(slot0.rightChapter, true)
@@ -256,22 +258,21 @@ slot0.initUI = function(slot0)
 		slot5:GetComponent(typeof(Image)).enabled = false
 	end
 
-	slot1 = slot0.map:GetComponent(typeof(AspectRatioFitter))
-	slot1.aspectRatio = 1
-	slot1.aspectRatio = slot1.aspectRatio
 	slot0.UIFXList = slot0:findTF("maps/UI_FX_list")
 
-	for slot7, slot8 in ipairs(slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)):ToTable()) do
-		slot8.sortingOrder = -1
+	for slot5, slot6 in ipairs(slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)):ToTable()) do
+		slot6.sortingOrder = -1
 	end
 
-	slot4 = pg.UIMgr.GetInstance()
-	slot0.levelCam = slot4.levelCamera:GetComponent(typeof(Camera))
-	slot0.uiMain = slot4.LevelMain
+	slot0.rtRightPanel = slot0._tf:Find("entrance/enters/right_panel")
+	slot0.actBtnTpl = slot0.rtRightPanel:Find("content/tpl")
+	slot2 = pg.UIMgr.GetInstance()
+	slot0.levelCam = slot2.levelCamera:GetComponent(typeof(Camera))
+	slot0.uiMain = slot2.LevelMain
 
 	setActive(slot0.uiMain, false)
 
-	slot0.uiCam = slot4.uiCamera:GetComponent(typeof(Camera))
+	slot0.uiCam = slot2.uiCamera:GetComponent(typeof(Camera))
 	slot0.levelGrid = slot0.uiMain:Find("LevelGrid")
 
 	setActive(slot0.levelGrid, true)
@@ -395,6 +396,10 @@ end
 
 slot0.updatePtActivity = function(slot0, slot1)
 	slot0.ptActivity = slot1
+
+	if not slot0.ptActivity then
+		return
+	end
 
 	slot0:updateActivityRes()
 end
@@ -526,9 +531,9 @@ slot0.didEnter = function(slot0)
 			return
 		end
 
-		switch(getProxy(ActivityProxy):getEnterReadyActivity():getConfig("type"), {
+		switch(uv0.entranceActivity:getConfig("type"), {
 			[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = function ()
-				uv0:emit(LevelMediator2.ON_ACTIVITY_MAP)
+				uv0:emit(LevelMediator2.ON_ACTIVITY_MAP, uv0.entranceActivity.id)
 			end,
 			[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function ()
 				uv0:emit(LevelMediator2.ON_OPEN_ACT_BOSS_BATTLE)
@@ -596,40 +601,42 @@ slot0.didEnter = function(slot0)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/enter"), not WORLD_ENTER_LOCK)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/nothing"), WORLD_ENTER_LOCK)
 
-	slot1 = getProxy(ActivityProxy):getEnterReadyActivity()
+	slot0.entranceActivity = getProxy(ActivityProxy):getEnterReadyActivity()[1]
 
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot1))
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot1))
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot0.entranceActivity))
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot0.entranceActivity))
 
-	if tobool(slot1) and slot1:getConfig("config_client").entrance_bg then
-		GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
+	if tobool(slot0.entranceActivity) and slot0.entranceActivity:getConfig("config_client").entrance_bg then
+		GetImageSpriteFromAtlasAsync(slot1, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
 	end
 
-	slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
+	slot0:updateRightPanel()
 
-	setActive(slot0.btnSpecial:Find("lock"), not slot2)
-	setActive(slot0.entranceLayer:Find("btns/btn_task/lock"), not slot2)
+	slot1 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator")
 
-	slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "DailyLevelMediator")
+	setActive(slot0.btnSpecial:Find("lock"), not slot1)
+	setActive(slot0.entranceLayer:Find("btns/btn_task/lock"), not slot1)
 
-	setActive(slot0.dailyBtn:Find("lock"), not slot3)
-	setActive(slot0.entranceLayer:Find("btns/btn_daily/lock"), not slot3)
+	slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "DailyLevelMediator")
 
-	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "MilitaryExerciseMediator")
+	setActive(slot0.dailyBtn:Find("lock"), not slot2)
+	setActive(slot0.entranceLayer:Find("btns/btn_daily/lock"), not slot2)
 
-	setActive(slot0.militaryExerciseBtn:Find("lock"), not slot4)
-	setActive(slot0.entranceLayer:Find("btns/btn_pvp/lock"), not slot4)
+	slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "MilitaryExerciseMediator")
+
+	setActive(slot0.militaryExerciseBtn:Find("lock"), not slot3)
+	setActive(slot0.entranceLayer:Find("btns/btn_pvp/lock"), not slot3)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/enter/lock"), not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "WorldMediator"))
 
-	slot6 = LimitChallengeConst.IsOpen()
+	slot5 = LimitChallengeConst.IsOpen()
 
-	setActive(slot0.challengeBtn:Find("lock"), not slot6)
-	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot6)
+	setActive(slot0.challengeBtn:Find("lock"), not slot5)
+	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot5)
 
-	slot7 = LimitChallengeConst.IsInAct()
+	slot6 = LimitChallengeConst.IsInAct()
 
-	setActive(slot0.challengeBtn, slot7)
-	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot7)
+	setActive(slot0.challengeBtn, slot6)
+	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge/tip"), LimitChallengeConst.IsShowRedPoint())
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
@@ -645,7 +652,7 @@ slot0.didEnter = function(slot0)
 		slot0.contextData.selectedChapterVO = nil
 	end
 
-	if not slot0.contextData.chapterVO or not slot9.active then
+	if not slot0.contextData.chapterVO or not slot8.active then
 		slot0:tryPlaySubGuide()
 	end
 
@@ -665,6 +672,42 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:emit(LevelMediator2.ON_DIDENTER)
+end
+
+slot0.updateRightPanel = function(slot0)
+	slot6 = slot0.event
+	slot7 = false
+	slot0.rightActivityBtns = defaultValue(slot0.rightActivityBtns, {
+		LevelSecondMapBtn.New(slot0.actBtnTpl, slot6, slot7)
+	})
+	slot1 = {}
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.rightActivityBtns) do
+		if slot7:InShowTime() then
+			table.insert(slot1, slot7)
+		else
+			table.insert(slot2, slot7)
+		end
+	end
+
+	slot6 = {
+		slot7
+	}
+
+	slot7 = function(slot0)
+		return slot0.config.group_id
+	end
+
+	table.sort(slot1, CompareFuncs(slot6))
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot7:Init(slot6)
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot7:Clear()
+	end
 end
 
 slot0.checkChallengeOpen = function(slot0)
@@ -1050,6 +1093,7 @@ slot0.HideBtns = function(slot0)
 	setActive(slot0.ticketTxt.parent, false)
 	setActive(slot0.countDown, false)
 	setActive(slot0.actAtelierBuffBtn, false)
+	setActive(slot0.actAtelierYumiaBuffBtn, false)
 	setActive(slot0.actExtraRank, false)
 	setActive(slot0.actExchangeShopBtn, false)
 	setActive(slot0.mapHelpBtn, false)
@@ -1068,38 +1112,33 @@ slot0.updateActivityBtns = function(slot0)
 	slot4 = slot1:isRemaster()
 	slot7 = slot1:getConfig("type")
 
-	if underscore(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)):chain():select(function (slot0)
-		return not slot0:isEnd()
-	end):sort(function (slot0, slot1)
-		return slot0.id < slot1.id
-	end):value()[1] and not slot2 and not slot1:isSkirmish() and not slot1:isEscort() then
-		slot11 = setmetatable({}, MainActMapBtn)
-		slot11.image = slot0.activityBtn:Find("Image"):GetComponent(typeof(Image))
-		slot11.subImage = slot0.activityBtn:Find("sub_Image"):GetComponent(typeof(Image))
-		slot11.tipTr = slot0.activityBtn:Find("Tip"):GetComponent(typeof(Image))
-		slot11.tipTxt = slot0.activityBtn:Find("Tip/Text"):GetComponent(typeof(Text))
+	if setmetatable({}, MainActMapBtn):InShowTime() and not slot2 and not slot1:isSkirmish() and not slot1:isEscort() then
+		slot8.image = slot0.activityBtn:Find("Image"):GetComponent(typeof(Image))
+		slot8.subImage = slot0.activityBtn:Find("sub_Image"):GetComponent(typeof(Image))
+		slot8.tipTr = slot0.activityBtn:Find("Tip"):GetComponent(typeof(Image))
+		slot8.tipTxt = slot0.activityBtn:Find("Tip/Text"):GetComponent(typeof(Text))
 
-		if slot11:InShowTime() then
-			slot11:InitTipImage()
-			slot11:InitSubImage()
-			slot11:InitImage(function ()
+		if slot8:InShowTime() then
+			slot8:InitTipImage()
+			slot8:InitSubImage()
+			slot8:InitImage(function ()
 			end)
-			slot11:OnInit()
+			slot8:OnInit()
 		end
 	end
 
-	setActive(slot0.activityBtn, slot10)
+	setActive(slot0.activityBtn, slot9)
 	slot0:updateRemasterInfo()
 
 	if slot2 and slot3 then
-		slot11 = nil
+		slot10 = nil
 
-		setActive(slot0.actExtraBtn, underscore.any((not slot1:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+		setActive(slot0.actExtraBtn, underscore.any((not slot1:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
 			return slot0:isActExtra()
 		end) and slot7 ~= Map.ACT_EXTRA)
 
 		if isActive(slot0.actExtraBtn) then
-			if underscore.all(underscore.filter(slot11, function (slot0)
+			if underscore.all(underscore.filter(slot10, function (slot0)
 				return slot0:getMapType() == Map.ACTIVITY_EASY or slot1 == Map.ACTIVITY_HARD
 			end), function (slot0)
 				return slot0:isAllChaptersClear()
@@ -1109,7 +1148,7 @@ slot0.updateActivityBtns = function(slot0)
 				setActive(slot0.actExtraBtnAnim, false)
 			end
 
-			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive(slot1:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		setActive(slot0.actEliteBtn, checkExist(slot1:getBindMap(), {
@@ -1117,12 +1156,12 @@ slot0.updateActivityBtns = function(slot0)
 		}) and slot7 ~= Map.ACTIVITY_HARD)
 		setActive(slot0.actNormalBtn, slot7 ~= Map.ACTIVITY_EASY)
 
-		slot14 = setActive
-		slot15 = slot0.actExtraRank
+		slot13 = setActive
+		slot14 = slot0.actExtraRank
 
 		if slot7 == Map.ACT_EXTRA then
-			slot17 = getProxy(ActivityProxy)
-			slot16 = _.any(slot17:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
+			slot16 = getProxy(ActivityProxy)
+			slot15 = _.any(slot16:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
 				if not slot0 or slot0:isEnd() then
 					return
 				end
@@ -1139,13 +1178,19 @@ slot0.updateActivityBtns = function(slot0)
 				end)
 			end)
 		else
-			slot16 = false
+			slot15 = false
 		end
 
-		slot14(slot15, slot16)
+		slot13(slot14, slot15)
 		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0:IsActShopActive())
+
+		slot13 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+		slot14 = slot13 and not slot13:isEnd() and slot13:GetConfigClientSetting("PTID")
+
+		slot0:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
+			return slot0:getConfig("config_id") == uv0
+		end))
 		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0.ptActivity and not slot0.ptActivity:isEnd())
-		slot0:updateActivityRes()
 	else
 		setActive(slot0.actExtraBtn, false)
 		setActive(slot0.actEliteBtn, false)
@@ -1153,6 +1198,7 @@ slot0.updateActivityBtns = function(slot0)
 		setActive(slot0.actExtraRank, false)
 		setActive(slot0.actExchangeShopBtn, false)
 		setActive(slot0.actAtelierBuffBtn, false)
+		setActive(slot0.actAtelierYumiaBuffBtn, false)
 		setActive(slot0.ptTotal, false)
 	end
 
@@ -1262,7 +1308,7 @@ slot0.updateCountDown = function(slot0)
 	slot2 = 0
 
 	if slot0.contextData.map:isActivity() and not slot0.contextData.map:isRemaster() then
-		_.each(slot1:getMapsByActivities(), function (slot0)
+		_.each(slot1:getMapsByActivities(slot0.contextData.map:getConfig("on_activity")), function (slot0)
 			slot1 = slot0:getChapterTimeLimit()
 
 			if uv0 == 0 then
@@ -1329,12 +1375,19 @@ slot0.registerActBtn = function(slot0)
 
 		uv0:emit(LevelMediator2.SHOW_ATELIER_BUFF)
 	end, SFX_UI_CLICK)
+	onButton(slot0, slot0.actAtelierYumiaBuffBtn, function ()
+		if uv0:isfrozen() then
+			return
+		end
+
+		uv0:emit(LevelMediator2.SHOW_ATELIER_BUFF, true)
+	end, SFX_UI_CLICK)
 
 	slot1 = getProxy(ChapterProxy)
 
 	slot2 = function(slot0, slot1, slot2)
 		slot3 = nil
-		slot3 = _.select((not slot0:isRemaster() or uv0:getRemasterMaps(slot0.remasterId)) and uv0:getMapsByActivities(), function (slot0)
+		slot3 = _.select((not slot0:isRemaster() or uv0:getRemasterMaps(slot0.remasterId)) and uv0:getMapsByActivities(slot0:getConfig("on_activity")), function (slot0)
 			return slot0:getMapType() == uv0
 		end)
 
@@ -1503,7 +1556,10 @@ slot6 = {
 	[slot5.TYPEATELIER] = "MapBuilderAtelier",
 	[slot5.TYPESENRANKAGURA] = "MapBuilderSenrankagura",
 	[slot5.TYPESP] = "MapBuilderSP",
-	[slot5.TYPESPFULL] = "MapBuilderSPFull"
+	[slot5.TYPESPFULL] = "MapBuilderSPFull",
+	[slot5.TYPESPSERIES] = "MapBuilderSPSeries",
+	[slot5.TYPESPSERIESFULL] = "MapBuilderSPSeriesFull",
+	[slot5.TYPEATELIERYUMIA] = "MapBuilderAtelierYumia"
 }
 
 slot0.SwitchMapBuilder = function(slot0, slot1)
@@ -1532,7 +1588,7 @@ end
 
 slot0.updateMap = function(slot0, slot1)
 	slot4 = nil
-	slot0.map.pivot = (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot3))
+	slot0.map.pivot = (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2(0.5, 0.5)) and Vector2(unpack(slot3))
 	slot5 = slot2:getConfig("uifx")
 
 	for slot9 = 1, slot0.UIFXList.childCount do
@@ -3389,15 +3445,16 @@ slot0.RecordLastMapOnExit = function(slot0)
 end
 
 slot0.IsActShopActive = function(slot0)
-	slot1 = pg.gameset.activity_res_id.key_value
+	slot1 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	slot2 = slot1 and not slot1:isEnd() and slot1:GetConfigClientSetting("PTID")
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and not slot2:isEnd() and slot2:getConfig("config_client").resId == slot1 then
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and not slot3:isEnd() and slot3:getConfig("config_client").resId == slot2 then
 		return true
 	end
 
-	slot4 = getProxy(ActivityProxy)
+	slot5 = getProxy(ActivityProxy)
 
-	if _.detect(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+	if _.detect(slot5:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 		return not slot0:isEnd() and slot0:getConfig("config_client").pt_id == uv0
 	end) then
 		return true

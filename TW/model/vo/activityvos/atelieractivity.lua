@@ -4,7 +4,7 @@ slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.items = {}
-	slot0.completeAllTools = false
+	slot0.completeAllTools = {}
 	slot0.slots = _.map({
 		1,
 		2,
@@ -91,6 +91,18 @@ slot0.GetFormulas = function(slot0)
 	return slot0.formulas
 end
 
+slot0.GetFormulasByVersion = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.formulas) do
+		if slot7:getConfig("version") == slot1 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 slot0.InitAllFormulas = function(slot0)
 	slot0.formulas = {}
 
@@ -105,34 +117,30 @@ slot0.InitFormulaUseCounts = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		uv0.formulas[slot0.key]:SetUsedCount(slot0.value)
 	end)
-	slot0:CheckCompleteAllTool()
 end
 
 slot0.AddFormulaUseCount = function(slot0, slot1, slot2)
 	slot0.formulas[slot1]:SetUsedCount(slot0.formulas[slot1]:GetUsedCount() + slot2)
-	slot0:CheckCompleteAllTool()
 end
 
-slot0.CheckCompleteAllTool = function(slot0)
-	if slot0.completeAllTools then
-		return
+slot0.IsCompleteAllTools = function(slot0, slot1)
+	if slot0.completeAllTools[slot1 or 1] then
+		return true
 	end
 
-	slot0.completeAllTools = _.all(_.values(slot0.formulas), function (slot0)
-		if slot0:GetType() ~= AtelierFormula.TYPE.TOOL then
-			return true
+	slot0.completeAllTools[slot1] = _.all(_.values(slot0.formulas), function (slot0)
+		if slot0:getConfig("version") == uv0 then
+			if slot0:GetType() ~= AtelierFormula.TYPE.TOOL then
+				return true
+			end
+
+			return not slot0:IsAvaliable()
 		end
 
-		return not slot0:IsAvaliable()
+		return true
 	end)
-end
 
-slot0.IsCompleteAllTools = function(slot0)
-	return slot0.completeAllTools
-end
-
-slot0.IsActivityBuffMap = function(slot0)
-	return ChapterConst.IsAtelierMap(slot0) and Map.ACTIVITY_EASY < slot0:getMapType()
+	return slot0.completeAllTools[slot1]
 end
 
 return slot0

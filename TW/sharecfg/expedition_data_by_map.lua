@@ -365,6 +365,10 @@ pg.expedition_data_by_map = setmetatable({
 		1920012,
 		1920025,
 		1920026,
+		1940001,
+		1940002,
+		1940003,
+		1940004,
 		2100000,
 		2100001,
 		2100010,
@@ -13442,7 +13446,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1690001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 40948,
+		on_activity = 50042,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -13492,7 +13496,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1690002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 40948,
+		on_activity = 50042,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -13542,7 +13546,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1690002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 40948,
+		on_activity = 50042,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -13592,7 +13596,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1690002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 40948,
+		on_activity = 50042,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -20831,6 +20835,406 @@ pg.base.expedition_data_by_map = {
 			224,
 			225,
 			226
+		}
+	},
+	[1940001] = {
+		map = 1940001,
+		name = "天際交會之塔|| ||CHAPTER EX||E.X.",
+		bgm = "yumia-az-theme-pv",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1940001",
+		default_background = "bg_yumia_story_mode_1",
+		on_activity = 50054,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1940001,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1940002,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1940003,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1940004,
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					1940005,
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					1940001,
+					"map_1940001"
+				}
+			},
+			{
+				2,
+				{
+					1940002,
+					"map_1940002"
+				}
+			},
+			{
+				2,
+				{
+					1940003,
+					"map_1940003"
+				}
+			},
+			{
+				2,
+				{
+					1940004,
+					"map_1940004"
+				}
+			},
+			{
+				2,
+				{
+					1940005,
+					"map_1940005"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1940001
+			},
+			{
+				1940002
+			},
+			{
+				1940003
+			},
+			{
+				1940004
+			},
+			{
+				1940005
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940002] = {
+		map = 1940002,
+		name = "天際交會之塔·採集地|| ||CHAPTER EX||E.X.",
+		bgm = "yumia-az-story",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1940001",
+		ani_controller = "",
+		default_background = "bg_yumia_story_mode_1",
+		on_activity = 50054,
+		map_name = "levelscene_mapselect_material",
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		bind_map = 1940001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940021
+			},
+			{
+				1940022
+			},
+			{
+				1940023
+			},
+			{
+				1940024
+			},
+			{
+				1940025
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940003] = {
+		map = 1940003,
+		name = "天際交會之塔·SP|| ||CHAPTER EX||E.X.",
+		bgm = "yumia-79",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1940001",
+		ani_controller = "",
+		default_background = "bg_yumia_story_mode_1",
+		on_activity = 50054,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940041
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940004] = {
+		map = 1940004,
+		name = "天際交會之塔·EX|| ||CHAPTER EX||E.X.",
+		bgm = "yumia-az-battle",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1940001",
+		ani_controller = "",
+		default_background = "bg_yumia_story_mode_1",
+		on_activity = 50054,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940051,
+				1940052
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
 		}
 	},
 	[2100000] = {

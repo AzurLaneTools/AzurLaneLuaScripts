@@ -21556,6 +21556,106 @@ pg.activity_ins_template = {
 			6052
 		}
 	},
+	[574] = {
+		ship_group = 1130001,
+		name = "Yumia Liessfeldt",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "youmiya",
+		id = 574,
+		group_id = 574,
+		order = 64,
+		time = {
+			{
+				2025,
+				8,
+				7
+			},
+			{
+				15,
+				5,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[575] = {
+		ship_group = 1130002,
+		name = "Isla von Duerer",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "aila",
+		id = 575,
+		group_id = 575,
+		order = 64,
+		time = {
+			{
+				2025,
+				8,
+				8
+			},
+			{
+				10,
+				16,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[576] = {
+		ship_group = 1130003,
+		name = "Nina Friede",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "nina",
+		id = 576,
+		group_id = 576,
+		order = 64,
+		time = {
+			{
+				2025,
+				8,
+				9
+			},
+			{
+				16,
+				17,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[577] = {
+		ship_group = 1130004,
+		name = "Lenja",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "leiniya",
+		id = 577,
+		group_id = 577,
+		order = 64,
+		time = {
+			{
+				2025,
+				8,
+				10
+			},
+			{
+				11,
+				43,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -22107,6 +22207,10 @@ pg.activity_ins_template = {
 		564,
 		565,
 		566,
-		567
+		567,
+		574,
+		575,
+		576,
+		577
 	}
 }

@@ -790,10 +790,8 @@ end
 
 slot0.GetSPBuffByItem = function(slot0)
 	for slot4, slot5 in ipairs(pg.benefit_buff_template.all) do
-		buffConfig = pg.benefit_buff_template[slot5]
-
-		if buffConfig.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(buffConfig.benefit_condition) == slot0 then
-			return buffConfig.id
+		if pg.benefit_buff_template[slot5].benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(slot6.benefit_condition) == slot0 then
+			return slot6.id
 		end
 	end
 end

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-5",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "轟—————————！",
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 601080,
 			nameColor = "#A9F548FF",
-			say = "那肯定這片核心區的守護者了，也就是我們要在遺跡中的面對的最後一戰！",
+			say = "那肯定是這片核心區的守護者了，也就是我們要在遺跡中的面對的最後一戰！",
 			painting = {
 				alpha = 0.3,
 				time = 1

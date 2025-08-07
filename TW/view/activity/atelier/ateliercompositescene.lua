@@ -1454,7 +1454,9 @@ slot0.ShowCompositeResult = function(slot0, slot1)
 	setActive(slot0.layerCompositeResult, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.layerCompositeResult)
 
-	slot2 = slot1[1]
+	if slot1[1] == nil then
+		return
+	end
 
 	slot0:UpdateRyzaDrop(slot0.layerCompositeResult:Find("Window/Icon"), slot2)
 	setScrollText(slot0.layerCompositeResult:Find("Window/NameBG/Rect/Name"), slot2:getName())

@@ -4,6 +4,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.activityBtn = slot1
 
 	pg.DelegateInfo.New(slot0)
+
+	slot0.__cname = slot1.__cname
+
 	setmetatable(slot0, {
 		__index = function (slot0, slot1)
 			return rawget(slot0, "class")[slot1] and slot2[slot1] or uv0.activityBtn[slot1]

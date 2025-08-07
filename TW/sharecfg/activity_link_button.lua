@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5711",
+		param = "50013",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,11 +11,11 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5711
+			50013
 		}
 	},
 	{
-		param = "0",
+		param = "5871",
 		name = "event_all",
 		time = "stop",
 		text_pic = "text_event_all",
@@ -47,78 +47,95 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5711
+			50054
 		}
 	},
 	[20] = {
+		param = "0",
+		name = "event_map_sub",
+		text_pic = "text_event_map_sub",
+		type = 0,
+		pic = "event_map_sub",
+		id = 20,
+		group_id = 3,
+		order = 1,
+		time = {
+			"default",
+			50042
+		}
+	},
+	[21] = {
 		name = "event_minigame",
 		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
-		id = 20,
+		id = 21,
 		group_id = 5,
 		order = 1,
 		param = {
 			"holiday villa map"
 		}
 	},
-	[21] = {
-		param = "5951",
+	[30] = {
 		name = "event_holidayVilla",
+		time = "stop",
 		text_pic = "text_event_minigame",
-		type = 3,
+		type = 0,
 		pic = "event_minigame",
-		id = 21,
+		id = 30,
 		group_id = 5,
 		order = 1,
-		time = {
-			"default",
-			5951
+		param = {
+			"holiday villa map",
+			5922
 		}
 	},
-	[30] = {
+	[40] = {
 		param = "0",
 		name = "event_boss",
 		time = "stop",
 		text_pic = "text_event_boss",
 		type = 0,
 		pic = "event_boss",
-		id = 30,
+		id = 40,
 		group_id = 3,
 		order = 1
 	},
-	[40] = {
+	[60] = {
 		param = "0",
 		name = "event_escort",
 		text_pic = "text_event_escort",
 		type = 0,
 		pic = "event_escort",
-		id = 40,
+		id = 60,
 		group_id = 6,
 		order = 1,
 		time = {
 			"default"
 		}
 	},
-	[60] = {
+	[70] = {
 		param = "0",
 		name = "event_LanternFestival",
-		time = "stop",
 		text_pic = "text_event_LanternFestival",
 		type = 0,
 		pic = "event_LanternFestival",
-		id = 60,
+		id = 70,
 		group_id = 7,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			5803
+		}
 	},
-	[70] = {
+	[80] = {
 		param = "0",
 		name = "event_aprilFool",
 		text_pic = "text_event_aprilFool",
 		type = 0,
 		pic = "event_aprilFool",
-		id = 70,
+		id = 80,
 		group_id = 8,
 		order = 1,
 		time = {
@@ -126,12 +143,12 @@ pg.activity_link_button = {
 			5267
 		}
 	},
-	[80] = {
+	[1000] = {
 		name = "event_Atelier",
 		text_pic = "text_event_Atelier",
 		type = 2,
 		pic = "event_Atelier",
-		id = 80,
+		id = 1000,
 		group_id = 9,
 		order = 1,
 		time = {
@@ -140,19 +157,6 @@ pg.activity_link_button = {
 		},
 		param = {
 			"ATELIER_COMPOSITE"
-		}
-	},
-	[1000] = {
-		name = "event_minigame",
-		time = "stop",
-		text_pic = "text_event_minigame",
-		type = 7,
-		pic = "event_minigame",
-		id = 1000,
-		group_id = 5,
-		order = 1,
-		param = {
-			28
 		}
 	},
 	[90] = {
@@ -249,10 +253,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5717
+			5765
 		},
 		param = {
-			72
+			73
 		}
 	},
 	[106] = {
@@ -304,17 +308,59 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "BRSCoreActivityUI",
+		param = "RyzaCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_brs",
+		text_pic = "text_event_ryza",
 		type = 16,
-		pic = "event_brs",
+		pic = "event_ryza",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			5985
+			50042
+		}
+	},
+	[110] = {
+		param = "ALYCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_yumia",
+		type = 16,
+		pic = "event_yumia",
+		id = 110,
+		group_id = 2,
+		order = 2,
+		time = {
+			"default",
+			50054
+		}
+	},
+	[111] = {
+		param = "ALYCoreActivityUI",
+		name = "event_map_2",
+		text_pic = "text_event_ryzaAtelierRe",
+		type = 16,
+		pic = "event_ryzaAtelierRe",
+		id = 111,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50042
+		}
+	},
+	[112] = {
+		param = "0",
+		name = "event_second_map",
+		text_pic = "text_event_ryza_map",
+		type = 0,
+		pic = "event_ryza_map",
+		id = 112,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50042
 		}
 	},
 	get_id_list_by_name = {
@@ -326,28 +372,30 @@ pg.activity_link_button = {
 		event_map = {
 			10
 		},
+		event_map_sub = {
+			20
+		},
 		event_minigame = {
-			20,
-			1000,
+			21,
 			108
 		},
 		event_holidayVilla = {
-			21
-		},
-		event_boss = {
 			30
 		},
-		event_escort = {
+		event_boss = {
 			40
 		},
-		event_LanternFestival = {
+		event_escort = {
 			60
 		},
-		event_aprilFool = {
+		event_LanternFestival = {
 			70
 		},
-		event_Atelier = {
+		event_aprilFool = {
 			80
+		},
+		event_Atelier = {
+			1000
 		},
 		event_series = {
 			90
@@ -378,6 +426,15 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109
+		},
+		event_core_2 = {
+			110
+		},
+		event_map_2 = {
+			111
+		},
+		event_second_map = {
+			112
 		}
 	},
 	all = {
@@ -403,6 +460,9 @@ pg.activity_link_button = {
 		106,
 		107,
 		108,
-		109
+		109,
+		110,
+		111,
+		112
 	}
 }

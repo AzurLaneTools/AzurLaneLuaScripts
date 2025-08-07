@@ -527,7 +527,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "當然是歡迎你加入抵抗軍的歡迎會啦~要是缺了你這個主角的話，杜伊斯堡她們可是會很傷心新的哦！",
+			say = "當然是歡迎你加入抵抗軍的歡迎會啦~要是缺了你這個主角的話，杜伊斯堡她們可是會很傷心的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

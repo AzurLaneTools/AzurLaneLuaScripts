@@ -85,37 +85,59 @@ slot0.isFinish = function(slot0)
 end
 
 slot0.getProgress = function(slot0)
-	slot1 = slot0.progress
+	return switch(slot0:getConfig("sub_type"), {
+		[TASK_SUB_TYPE_GIVE_ITEM] = function ()
+			return getProxy(BagProxy):getItemCountById(tonumber(tonumber(uv0:getConfig("target_id"))))
+		end,
+		[TASK_SUB_TYPE_PT] = function ()
+			return getProxy(ActivityProxy):getActivityById(tonumber(uv0:getConfig("target_id_2"))) and slot0.data1 or 0
+		end,
+		[TASK_SUB_TYPE_PLAYER_RES] = function ()
+			return getProxy(PlayerProxy):getData():getResById(tonumber(uv0:getConfig("target_id")))
+		end,
+		[TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM] = function ()
+			return getProxy(ActivityProxy):getVirtualItemNumber(tonumber(uv0:getConfig("target_id")))
+		end,
+		[TASK_SUB_TYPE_BOSS_PT] = function ()
+			return getProxy(PlayerProxy):getData():getResById(tonumber(uv0:getConfig("target_id")))
+		end,
+		[TASK_SUB_STROY] = function ()
+			_.each(uv0:getConfig("target_id"), function (slot0)
+				if pg.NewStoryMgr.GetInstance():GetPlayedFlag(slot0) then
+					uv0 = uv0 + 1
+				end
+			end)
 
-	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-		slot1 = getProxy(BagProxy):getItemCountById(tonumber(tonumber(slot0:getConfig("target_id"))))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PT then
-		slot1 = getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) and slot2.data1 or 0
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
-		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-		slot1 = getProxy(ActivityProxy):getVirtualItemNumber(tonumber(slot0:getConfig("target_id")))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_BOSS_PT then
-		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_STROY then
-		_.each(slot0:getConfig("target_id"), function (slot0)
-			if pg.NewStoryMgr.GetInstance():GetPlayedFlag(slot0) then
-				uv0 = uv0 + 1
+			return 0
+		end,
+		[TASK_SUB_TYPE_TECHNOLOGY_POINT] = function ()
+			return math.min(getProxy(TechnologyNationProxy):getNationPoint(tonumber(uv0:getConfig("target_id"))), uv0:getConfig("target_num"))
+		end,
+		[TASK_SUB_TYPE_VITEM] = function ()
+			slot1 = tonumber(uv0:getConfig("target_id_2"))
+
+			if getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[tonumber(uv0:getConfig("target_id"))].activity_id) then
+				return slot3:getVitemNumber(slot1)
 			end
-		end)
+		end,
+		[TASK_SUB_TYPE_VITEMS] = function ()
+			slot0 = tonumber(uv0:getConfig("target_id"))
 
-		slot1 = 0
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_TECHNOLOGY_POINT then
-		slot1 = math.min(getProxy(TechnologyNationProxy):getNationPoint(tonumber(slot0:getConfig("target_id"))), slot0:getConfig("target_num"))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_VITEM then
-		slot3 = tonumber(slot0:getConfig("target_id_2"))
+			if underscore.all(uv0:getConfig("target_id_2"), function (slot0)
+				slot1 = Drop.New({
+					type = uv0,
+					id = slot0[1],
+					count = slot0[2]
+				})
 
-		if getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[tonumber(slot0:getConfig("target_id"))].activity_id) then
-			slot1 = slot5:getVitemNumber(slot3)
+				return slot1.count <= slot1:getOwnedCount()
+			end) then
+				return 1
+			end
 		end
-	end
-
-	return slot1 or 0
+	}, function ()
+		return uv0.progress
+	end) or 0
 end
 
 slot0.getTargetNumber = function(slot0)
@@ -375,6 +397,25 @@ end
 
 slot0.getAutoSubmit = function(slot0)
 	return slot0._autoSubmit
+end
+
+slot0.getGiveDrops = function(slot0)
+	slot1 = {}
+
+	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_VITEMS then
+		slot2 = tonumber(slot0:getConfig("target_id"))
+		slot6 = "target_id_2"
+
+		for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+			table.insert(slot1, Drop.New({
+				type = slot2,
+				id = slot7[1],
+				count = slot7[2]
+			}))
+		end
+	end
+
+	return slot1
 end
 
 return slot0
