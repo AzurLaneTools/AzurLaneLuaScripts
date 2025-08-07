@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "崖の反対側では、強風、荒波、立ち込める海霧、断絶した通信といった困難の数々を経験した大冒険チームが——",

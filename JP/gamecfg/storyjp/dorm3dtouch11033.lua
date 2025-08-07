@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit4_tone3",
 			nameColor = "#FFFFFF",
-			say = "现在的气氛……让人有点心动呢。",
+			hidePaintObj = true,
+			say = "このポーズ、なんか⋯あたしでもちょっと恥ずかしいかも⋯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,27 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_sp01_idle01_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_kaixing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							id = 2010,
+							name = "IK_sp01_idle01_fb01_DC",
+							type = "item_action"
+						},
+						{
+							id = 2011,
+							name = "IK_sp01_idle01_fb01_DC_vfx",
+							type = "item_action"
 						},
 						{
 							skip = false,

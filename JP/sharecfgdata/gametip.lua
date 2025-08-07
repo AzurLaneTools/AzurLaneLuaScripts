@@ -39685,7 +39685,7 @@ _G.pg.base.gametip.yumia_main_tip_3 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_4 = {
-	tip = "残り$1日（8.7メンテまで）"
+	tip = "残り$1日（8.13 23:59まで）"
 }
 
 
@@ -39695,12 +39695,12 @@ _G.pg.base.gametip.yumia_main_tip_5 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_6 = {
-	tip = "アトリエ"
+	tip = "拠点建設"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_7 = {
-	tip = "拠点建設"
+	tip = "アトリエ"
 }
 
 

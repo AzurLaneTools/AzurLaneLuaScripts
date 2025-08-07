@@ -7,7 +7,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			actor = 501090,
 			nameColor = "#A9F548FF",
 			say = "もう進めないみたい……",

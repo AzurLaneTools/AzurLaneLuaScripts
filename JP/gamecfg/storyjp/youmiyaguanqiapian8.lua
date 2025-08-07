@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "二隻の船が接近してくる…数々の困難を乗り越え海岸に辿り着いた大冒険小隊もその状況に気がついた。",

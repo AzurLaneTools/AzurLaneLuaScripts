@@ -43,7 +43,10 @@ end
 slot1.SwitchIcon = function(slot0, slot1, slot2)
 	slot0._iconIndex = slot1
 	slot3 = uv0.ICON_BY_INDEX[slot1]
-	slot4 = slot2 or uv1.Battle.BattleState.GetCombatSkinKey()
+
+	if (slot2 or uv1.Battle.BattleState.GetCombatSkinKey()) ~= "Standard" then
+		slot4 = ""
+	end
 
 	setImageSprite(slot0._unfill, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "weapon_unfill_" .. slot3))
 	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "filled_combined_" .. slot3))
@@ -51,7 +54,10 @@ end
 
 slot1.SwitchIconEffect = function(slot0, slot1, slot2)
 	slot3 = uv0.ICON_BY_INDEX[slot1]
-	slot4 = slot2 or uv1.Battle.BattleState.GetCombatSkinKey()
+
+	if (slot2 or uv1.Battle.BattleState.GetCombatSkinKey()) ~= "Standard" then
+		slot4 = ""
+	end
 
 	setImageSprite(slot0._filledEffect, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "filled_effect_" .. slot3), true)
 	setImageSprite(slot0._jam, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "skill_jam_" .. slot3), true)

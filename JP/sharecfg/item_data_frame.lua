@@ -666,6 +666,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>リゾート島で完璧なバカンスを楽しもう！</color>「盛夏再び！リゾート再建計画！」参加で入手可能",
 		scene = {}
 	},
+	[611] = {
+		name = "林間の清き風",
+		gain_by = "",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>森を吹き抜ける清き風を感じながら、いつもと違う休暇を楽しもう♪</color>「林間休暇準備」参加で入手可能",
+		scene = {}
+	},
 	[1001] = {
 		name = "スイートランデブー",
 		gain_by = "",
@@ -921,6 +930,7 @@ pg.item_data_frame = {
 		607,
 		609,
 		610,
+		611,
 		1001,
 		1002,
 		1003,

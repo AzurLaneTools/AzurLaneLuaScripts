@@ -99907,6 +99907,53 @@ _G.pg.base.item_data_statistics[59559] = {
 }
 
 
+_G.pg.base.item_data_statistics[59560] = {
+	open_directly = 1,
+	name = "幻惑の不死鳥",
+	type = 17,
+	display = "装備外装幻惑の不死鳥(攻撃)、幻惑の不死鳥(戦闘)、幻惑の不死鳥(戦闘)1個ずつ入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/96331",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998521",
+	id = 59560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2019,
+			1
+		},
+		{
+			9,
+			2020,
+			1
+		},
+		{
+			9,
+			2021,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59561] = {
 	open_directly = 0,
 	name = "選べる着せ替えチケット（クロンシュタット）",

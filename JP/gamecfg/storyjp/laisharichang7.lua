@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			bgm = "ryza-12",
+			bgm = "story-1",
 			flashout = {
 				dur = 1,
 				black = true,

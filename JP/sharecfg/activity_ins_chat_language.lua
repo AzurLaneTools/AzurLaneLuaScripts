@@ -4838,7 +4838,97 @@ pg.activity_ins_chat_language = setmetatable({
 		4835,
 		4836,
 		4837,
-		4838
+		4838,
+		4839,
+		4840,
+		4841,
+		4842,
+		4843,
+		4844,
+		4845,
+		4846,
+		4847,
+		4848,
+		4849,
+		4850,
+		4851,
+		4852,
+		4853,
+		4854,
+		4855,
+		4856,
+		4857,
+		4858,
+		4859,
+		4860,
+		4861,
+		4862,
+		4863,
+		4864,
+		4865,
+		4866,
+		4867,
+		4868,
+		4869,
+		4870,
+		4871,
+		4872,
+		4873,
+		4874,
+		4875,
+		4876,
+		4877,
+		4878,
+		4879,
+		4880,
+		4881,
+		4882,
+		4883,
+		4884,
+		4885,
+		4886,
+		4887,
+		4888,
+		4889,
+		4890,
+		4891,
+		4892,
+		4893,
+		4894,
+		4895,
+		4896,
+		4897,
+		4898,
+		4899,
+		4900,
+		4901,
+		4902,
+		4903,
+		4904,
+		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
+		4925,
+		4926,
+		4927,
+		4928
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -48150,5 +48240,803 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 4838,
 		flag = 10
+	},
+	[4839] = {
+		param = "ねぇ～指揮官！何を見つけたと思う！？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4839,
+		flag = 0
+	},
+	[4840] = {
+		param = "超ミステリアスなノート！",
+		ship_group = 90105,
+		type = 1,
+		id = 4840,
+		flag = 0,
+		option = {
+			{
+				1,
+				"超ミステリアスって…？"
+			}
+		}
+	},
+	[4841] = {
+		param = "超ミステリアスって…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4841,
+		flag = 1
+	},
+	[4842] = {
+		param = "突然カバンの中に現れたんだよ！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4842,
+		flag = 1
+	},
+	[4843] = {
+		param = "まるで手品で出したみたいに！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4843,
+		flag = 1
+	},
+	[4844] = {
+		param = "それでね、このノートにはたくさん変わった記録が残されてるの～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4844,
+		flag = 1
+	},
+	[4845] = {
+		param = "しかも全部あたしと指揮官に関する記録だよ～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4845,
+		flag = 1
+	},
+	[4846] = {
+		param = "例えばこれ、「指揮官は昨日、何回フルーレに雑魚って言わせた？」",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4846,
+		flag = 1
+	},
+	[4847] = {
+		param = "答えは「9回！」",
+		ship_group = 90105,
+		type = 1,
+		id = 4847,
+		flag = 1,
+		option = {
+			{
+				2,
+				"そんなことあったっけ？"
+			},
+			{
+				3,
+				"なんで1回足りないんだ？"
+			}
+		}
+	},
+	[4848] = {
+		param = "そんなことあったっけ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4848,
+		flag = 2
+	},
+	[4849] = {
+		param = "あったよ！指揮官はもう少し記憶力を鍛えたほうがいいみたいね～！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4849,
+		flag = 2
+	},
+	[4850] = {
+		param = "なんで1回足りないんだ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4850,
+		flag = 3
+	},
+	[4851] = {
+		param = "あれ～そんなにはっきりと覚えてるの？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4851,
+		flag = 3
+	},
+	[4852] = {
+		param = "でもこれだけじゃないよ～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4852,
+		flag = 0
+	},
+	[4853] = {
+		param = "「フルーレが指揮官に見せた手品の成功率」とか、他にもいろいろあるよ",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4853,
+		flag = 0
+	},
+	[4854] = {
+		param = "そんな事まで記録してるなんて、ノートの持ち主もすごいよね～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4854,
+		flag = 0
+	},
+	[4855] = {
+		param = "ふふっ、指揮官もあたしと関係する出来事を言ってみてよ！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4855,
+		flag = 0
+	},
+	[4856] = {
+		param = "ここに記録されてないものがあるかもしれないし",
+		ship_group = 90105,
+		type = 1,
+		id = 4856,
+		flag = 0,
+		option = {
+			{
+				4,
+				"カード飛ばしの練習とか？"
+			},
+			{
+				5,
+				"いたずらに失敗した話とか？"
+			}
+		}
+	},
+	[4857] = {
+		param = "例えば、カード飛ばしの練習をした時、何組もトランプを使ってしまったとか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4857,
+		flag = 4
+	},
+	[4858] = {
+		param = "手品で驚かそうとしたところ、時間を間違えて何時間も待ち続けてたとか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4858,
+		flag = 5
+	},
+	[4859] = {
+		param = "えっ……？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4859,
+		flag = 0
+	},
+	[4860] = {
+		param = "そんなことがあったの？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4860,
+		flag = 0
+	},
+	[4861] = {
+		param = "全然覚えてないなぁ……本当に……すごいミステリアスね！",
+		ship_group = 90105,
+		type = 1,
+		id = 4861,
+		flag = 0,
+		option = {
+			{
+				6,
+				"どうやらそのノートには記されてないみたいだね"
+			}
+		}
+	},
+	[4862] = {
+		param = "どうも記されていないみたい",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4862,
+		flag = 6
+	},
+	[4863] = {
+		param = "でも大丈夫、今それらの出来事を記録してもいいと思うよ、謎の記録係さん",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4863,
+		flag = 6
+	},
+	[4864] = {
+		param = "とっくにノートがあたしのものだって気づいてたのに、ノリに合わせてくれたんだ",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4864,
+		flag = 6
+	},
+	[4865] = {
+		param = "待って。指揮官ってもしかして、良くないことばかり覚えてるんじゃないよね？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4865,
+		flag = 6
+	},
+	[4866] = {
+		param = "制限時間1分！指揮官が他の事を思い出せないなら……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4866,
+		flag = 6
+	},
+	[4867] = {
+		param = "あたしと一対一で、じっくり話してもらうよ～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4867,
+		flag = 6
+	},
+	[4868] = {
+		param = "指揮官～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4868,
+		flag = 0
+	},
+	[4869] = {
+		param = "執務室の変化に気づいた？",
+		ship_group = 90105,
+		type = 1,
+		id = 4869,
+		flag = 0,
+		option = {
+			{
+				1,
+				"あの大きなキャビネットって、フルーレが持ってきたのか？"
+			}
+		}
+	},
+	[4870] = {
+		param = "あの大きなキャビネット…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4870,
+		flag = 1
+	},
+	[4871] = {
+		param = "あれはただのキャビネットじゃないわ！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4871,
+		flag = 1
+	},
+	[4872] = {
+		param = "あたしが大掛かりなマジックをするときに使う、マジックキャビネットだよ！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4872,
+		flag = 1
+	},
+	[4873] = {
+		param = "かなりすごいものだからね～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4873,
+		flag = 1
+	},
+	[4874] = {
+		param = "中に何があるか、気になるでしょ？そうでしょ？指揮官～",
+		ship_group = 90105,
+		type = 1,
+		id = 4874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"うん、確かに気になる"
+			}
+		}
+	},
+	[4875] = {
+		param = "うん、確かに気になる",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4875,
+		flag = 2
+	},
+	[4876] = {
+		param = "すっごく気になる",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4876,
+		flag = 2
+	},
+	[4877] = {
+		param = "そんなに気になるなら、キャビネットを開けてもいいよ～",
+		ship_group = 90105,
+		type = 1,
+		id = 4877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"開けてみたけど…"
+			}
+		}
+	},
+	[4878] = {
+		param = "開けてみたけど、中には何もなかった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4878,
+		flag = 3
+	},
+	[4879] = {
+		param = "ふふ～ん、そうそう。確かに何もない～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4879,
+		flag = 3
+	},
+	[4880] = {
+		param = "マジックって魔法じゃないからね",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4880,
+		flag = 3
+	},
+	[4881] = {
+		param = "何もないところから、何かをいきなり出現させることはできないの",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4881,
+		flag = 3
+	},
+	[4882] = {
+		param = "もし実現できたら、人間を一人ポンと出してみたいね～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4882,
+		flag = 3
+	},
+	[4883] = {
+		param = "353",
+		ship_group = 90105,
+		type = 4,
+		id = 4883,
+		flag = 3,
+		option = {
+			{
+				4,
+				"ちょっと待った…"
+			}
+		}
+	},
+	[4884] = {
+		param = "ちょっと待った……キャビネットの後ろに、隠し扉があるようだな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4884,
+		flag = 4
+	},
+	[4885] = {
+		param = "待って",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4885,
+		flag = 4
+	},
+	[4886] = {
+		param = "待って！待って！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4886,
+		flag = 4
+	},
+	[4887] = {
+		param = "えっと",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4887,
+		flag = 4
+	},
+	[4888] = {
+		param = "外にほかの面白い手品道具も置いてあるの！中まで運んでくれないかな～",
+		ship_group = 90105,
+		type = 1,
+		id = 4888,
+		flag = 4,
+		option = {
+			{
+				5,
+				"中に運ぶ？"
+			}
+		}
+	},
+	[4889] = {
+		param = "中に運ぶ？まさか…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4889,
+		flag = 5
+	},
+	[4890] = {
+		param = "指揮官！これは本当にただの収納用のキャビネットだから",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4890,
+		flag = 5
+	},
+	[4891] = {
+		param = "何も特別なところはないよ、本当にないから～",
+		ship_group = 90105,
+		type = 1,
+		id = 4891,
+		flag = 5,
+		option = {
+			{
+				6,
+				"うっかり口が滑った？"
+			}
+		}
+	},
+	[4892] = {
+		param = "うっかり口が滑った？じゃあ……開けるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4892,
+		flag = 6
+	},
+	[4893] = {
+		param = "いや！やめて！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4893,
+		flag = 6
+	},
+	[4894] = {
+		param = "手品道具を壊さないで、指揮官！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4894,
+		flag = 6
+	},
+	[4895] = {
+		param = "指揮官はまずキャビネットの前に立って",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4895,
+		flag = 6
+	},
+	[4896] = {
+		param = "うんうん、観客席に着いたね",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4896,
+		flag = 6
+	},
+	[4897] = {
+		param = "今から指揮官にイリュージョンマジックを見せてあげる！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4897,
+		flag = 6
+	},
+	[4898] = {
+		param = "じゃじゃん～フルーレ、間もなく出てくるよ～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4898,
+		flag = 6
+	},
+	[4899] = {
+		param = "指揮官～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4899,
+		flag = 0
+	},
+	[4900] = {
+		param = "プレゼントを用意したよ～",
+		ship_group = 90105,
+		type = 1,
+		id = 4900,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ありがとう"
+			}
+		}
+	},
+	[4901] = {
+		param = "ありがとう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4901,
+		flag = 1
+	},
+	[4902] = {
+		param = "指揮官の返事ってなんだかフツーだよね～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4902,
+		flag = 1
+	},
+	[4903] = {
+		param = "でも本当は心の中ではドキドキしちゃってたりして～？まさかね～？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4903,
+		flag = 1
+	},
+	[4904] = {
+		param = "353",
+		ship_group = 90105,
+		option = "",
+		type = 4,
+		id = 4904,
+		flag = 1
+	},
+	[4905] = {
+		param = "ふふん、今からあたしのプレゼントを見せてあげる♪",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4905,
+		flag = 1
+	},
+	[4906] = {
+		param = "準備はいい？奇跡を見届ける瞬間だよ！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4906,
+		flag = 1
+	},
+	[4907] = {
+		param = "??????ｫ??ｼ??",
+		ship_group = 90105,
+		type = 1,
+		id = 4907,
+		flag = 1,
+		option = {
+			{
+				2,
+				"この文字化けが……プレゼント？"
+			}
+		}
+	},
+	[4908] = {
+		param = "この文字化けが……プレゼント？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4908,
+		flag = 2
+	},
+	[4909] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4909,
+		flag = 2
+	},
+	[4910] = {
+		param = "あれ、想像してたのと少し違う……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4910,
+		flag = 2
+	},
+	[4911] = {
+		param = "いや、かなり違う！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4911,
+		flag = 2
+	},
+	[4912] = {
+		param = "まさか何か忘れてしまって……少し待って、もう一度試してみるから……",
+		ship_group = 90105,
+		type = 1,
+		id = 4912,
+		flag = 2,
+		option = {
+			{
+				3,
+				"待ってるよー"
+			}
+		}
+	},
+	[4913] = {
+		param = "待ってるよー",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4913,
+		flag = 3
+	},
+	[4914] = {
+		param = "大丈夫！もう完全に理解した！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4914,
+		flag = 3
+	},
+	[4915] = {
+		param = "今度こそ大丈夫なはず！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4915,
+		flag = 3
+	},
+	[4916] = {
+		param = "<color=#583b28>??????ｫ??ｼ??</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4916,
+		flag = 3
+	},
+	[4917] = {
+		param = "<color=#583b28>うっ……まだダメなの……</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4917,
+		flag = 3
+	},
+	[4918] = {
+		param = "<color=#583b28>あれ？入力した文字の色が変わった！</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4918,
+		flag = 3
+	},
+	[4919] = {
+		param = "<color=#583b28>これでも……一応……成功だよね！そうだよね！？</color>",
+		ship_group = 90105,
+		type = 1,
+		id = 4919,
+		flag = 3,
+		option = {
+			{
+				4,
+				"おめでとう"
+			}
+		}
+	},
+	[4920] = {
+		param = "<color=#583b28>おめでとう</color>",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4920,
+		flag = 4
+	},
+	[4921] = {
+		param = "<color=#583b28>？指揮官もできたの？……プレゼントを渡すと言ったからには、絶対に諦めないんだから！</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4921,
+		flag = 4
+	},
+	[4922] = {
+		param = "<color=#3E3D3D>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4922,
+		flag = 4
+	},
+	[4923] = {
+		param = "<color=#A24942>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4923,
+		flag = 4
+	},
+	[4924] = {
+		param = "<color=#E7C355>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4924,
+		flag = 4
+	},
+	[4925] = {
+		param = "フルーレからお花のプレゼント～",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4925,
+		flag = 4
+	},
+	[4926] = {
+		param = "今から、本当のプレゼントを贈るね",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4926,
+		flag = 4
+	},
+	[4927] = {
+		param = "ドアを開けて受け取ってね！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4927,
+		flag = 4
+	},
+	[4928] = {
+		param = "<color=#D80000>♥</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4928,
+		flag = 4
 	}
 }

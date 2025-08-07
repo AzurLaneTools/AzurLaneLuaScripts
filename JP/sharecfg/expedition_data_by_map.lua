@@ -1158,7 +1158,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 0,
+		bind_map = 213,
 		clouds_pos = {
 			{
 				332,

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "あたしはライザリン・シュタウト――みんなからはライザって呼ばれてる、なんてことない農家の娘",

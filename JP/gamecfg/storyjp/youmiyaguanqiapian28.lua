@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			say = "ああ——潮風と波の音ぉ～やっぱり海を自由に駆けるのこそ、トレジャーハンターの生き様だよね！",

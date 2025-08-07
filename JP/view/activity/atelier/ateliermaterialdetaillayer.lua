@@ -44,10 +44,16 @@ slot0.UpdateItemDetail = function(slot0)
 
 	onButton(slot0, slot5:Find("Window/Go"), function ()
 		if uv0.chapterid then
-			slot2, slot3 = getProxy(ChapterProxy):getMapById(getProxy(ChapterProxy):getChapterById(uv0.chapterid):getConfig("map")):isUnlock()
+			if not getProxy(ActivityProxy):getActivityByType(getProxy(ChapterProxy):getMapById(getProxy(ChapterProxy):getChapterById(uv0.chapterid):getConfig("map")):getConfig("on_activity")) or slot2:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
-			if not slot2 then
-				pg.TipsMgr.GetInstance():ShowTips(slot3)
+				return
+			end
+
+			slot3, slot4 = slot1:isUnlock()
+
+			if not slot3 then
+				pg.TipsMgr.GetInstance():ShowTips(slot4)
 
 				return
 			end

@@ -817,9 +817,9 @@ pg.game_room_template = {
 		order = 12,
 		unlock_time = {
 			{
-				2025,
-				6,
-				5
+				2026,
+				4,
+				18
 			},
 			{
 				0,

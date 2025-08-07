@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "とある日、とある洞窟の奥深くにて、アラディス調査団の一行は重要な任務を遂行していた——",

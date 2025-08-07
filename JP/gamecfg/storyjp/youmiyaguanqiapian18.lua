@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "魔物を倒し材料を集めながら進んでいくと、再び高く聳え立つ塔が目の前に現れた。",
@@ -68,7 +68,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_172",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくの後——「安全快適休憩ホール」",

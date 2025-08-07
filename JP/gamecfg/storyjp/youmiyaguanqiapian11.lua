@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "エレベーターで「はじまりのエリア」を離れると、青く輝く湖が一行の目に映った。",

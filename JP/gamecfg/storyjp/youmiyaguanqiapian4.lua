@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-1",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "青い空、白い雲、碧い海、砂浜、そして雲を突き抜けるほど高くそびえ立つ山々。",

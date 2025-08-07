@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_596",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "翌日、一行は同じような方法でL1エリアにあるエレベーターを起動させた。",
