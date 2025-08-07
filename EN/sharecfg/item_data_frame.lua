@@ -648,6 +648,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>To a perfect vacation on the resort island!</color> Obtained by participating in the Midsummer Returns: The Villa Reconstruction event.",
 		scene = {}
 	},
+	[611] = {
+		name = "Sylvan Breeze",
+		gain_by = "",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Take in the atmosphere and feel the wind blow through the trees on this extraordinary vacation.</color> Obtained by participating in the A Sylvan Retreat event.",
+		scene = {}
+	},
 	[1001] = {
 		name = "Sweet Rendezvous",
 		gain_by = "",
@@ -901,6 +910,7 @@ pg.item_data_frame = {
 		607,
 		608,
 		610,
+		611,
 		1001,
 		1002,
 		1003,

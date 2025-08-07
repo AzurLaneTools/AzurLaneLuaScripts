@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			bgm = "yumia-79",
+			bgm = "yumia-az-story",
 			say = "Port - Research Department",
 			typewriter = {
 				speed = 0.05,

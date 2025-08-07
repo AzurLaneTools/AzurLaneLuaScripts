@@ -219,6 +219,19 @@ pg.dorm3d_recall = {
 			1990301
 		}
 	},
+	[52] = {
+		story_id = 30550,
+		name = "Collage",
+		type = 1,
+		id = 52,
+		image = "recall_52",
+		unlock_text = "Gift the Elegant Frame to unlock.",
+		desc = "Anchorage is earnestly working on a collage. You can't help but wonder: What's the subject?",
+		unlock = {
+			3,
+			1990302
+		}
+	},
 	[101] = {
 		story_id = 110510,
 		name = "Cute Adornment",
@@ -323,6 +336,9 @@ pg.dorm3d_recall = {
 		[30510] = {
 			51
 		},
+		[30550] = {
+			52
+		},
 		[110510] = {
 			101
 		},
@@ -353,6 +369,7 @@ pg.dorm3d_recall = {
 		42,
 		43,
 		51,
+		52,
 		101,
 		102,
 		103,

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_596",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The girls boarded the destroyer and sailed onward, eventually finding a sign floating on the water.",

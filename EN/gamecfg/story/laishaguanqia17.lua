@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_134",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "Under the Mirror Sea - In the past",
 			flashout = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			bgmDelay = 2,
-			bgm = "ryza-13",
+			bgm = "ryza-az-theme",
 			nameColor = "#A9F548FF",
 			say = "Land of Beginnings - Provisional Atelier",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			bgmDelay = 1,
-			bgm = "ryza-9",
+			bgm = "ryza-az-theme",
 			nameColor = "#A9F548FF",
 			say = "South Sector - Inside the submarine",
 			typewriter = {

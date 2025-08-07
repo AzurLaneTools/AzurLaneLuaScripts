@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "My name is Reisalin Stout, but everyone calls me Ryza. I'm the ordinary daughter of an ordinary farmer.",

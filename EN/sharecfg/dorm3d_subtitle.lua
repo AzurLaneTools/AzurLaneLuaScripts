@@ -73,6 +73,13 @@ pg.dorm3d_subtitle = setmetatable({
 		3305,
 		3201,
 		3202,
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
 		2401,
 		2402,
 		2403,
@@ -395,6 +402,34 @@ pg.base.dorm3d_subtitle = {
 	[3202] = {
 		id = 3202,
 		subtitle = "Give me a hug...!"
+	},
+	[3501] = {
+		id = 3501,
+		subtitle = "Mmh…"
+	},
+	[3502] = {
+		id = 3502,
+		subtitle = "Anchorage is... sorting through these!"
+	},
+	[3503] = {
+		id = 3503,
+		subtitle = "It's tricky... but I'll try to do it myself!"
+	},
+	[3504] = {
+		id = 3504,
+		subtitle = "A leaf? Stuck to me?"
+	},
+	[3505] = {
+		id = 3505,
+		subtitle = "Where...? I can't see it!"
+	},
+	[3506] = {
+		id = 3506,
+		subtitle = "Teacher... help Anchorage!"
+	},
+	[3507] = {
+		id = 3507,
+		subtitle = "Thank you! I'm so happy!"
 	},
 	[2401] = {
 		id = 2401,

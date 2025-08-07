@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-12",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "Come evening, the girls had returned from their search at the bottom of the sea, bringing with them plenty of spoils.",
 			flashout = {

@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			say = "Ahh... Sea breeze, crashin' waves. A treasure hunter's only truly free if she's ridin' on the open seas!",

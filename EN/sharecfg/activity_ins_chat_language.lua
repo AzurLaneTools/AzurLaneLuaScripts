@@ -4838,7 +4838,97 @@ pg.activity_ins_chat_language = setmetatable({
 		4835,
 		4836,
 		4837,
-		4838
+		4838,
+		4839,
+		4840,
+		4841,
+		4842,
+		4843,
+		4844,
+		4845,
+		4846,
+		4847,
+		4848,
+		4849,
+		4850,
+		4851,
+		4852,
+		4853,
+		4854,
+		4855,
+		4856,
+		4857,
+		4858,
+		4859,
+		4860,
+		4861,
+		4862,
+		4863,
+		4864,
+		4865,
+		4866,
+		4867,
+		4868,
+		4869,
+		4870,
+		4871,
+		4872,
+		4873,
+		4874,
+		4875,
+		4876,
+		4877,
+		4878,
+		4879,
+		4880,
+		4881,
+		4882,
+		4883,
+		4884,
+		4885,
+		4886,
+		4887,
+		4888,
+		4889,
+		4890,
+		4891,
+		4892,
+		4893,
+		4894,
+		4895,
+		4896,
+		4897,
+		4898,
+		4899,
+		4900,
+		4901,
+		4902,
+		4903,
+		4904,
+		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
+		4925,
+		4926,
+		4927,
+		4928
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -48150,5 +48240,803 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 4838,
 		flag = 10
+	},
+	[4839] = {
+		param = "Hey Commander, guess what I found!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4839,
+		flag = 0
+	},
+	[4840] = {
+		param = "A super mysterious notebook!",
+		ship_group = 90105,
+		type = 1,
+		id = 4840,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What's so mysterious about it?"
+			}
+		}
+	},
+	[4841] = {
+		param = "What's so mysterious about it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4841,
+		flag = 1
+	},
+	[4842] = {
+		param = "It just suddenly appeared in my backpack!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4842,
+		flag = 1
+	},
+	[4843] = {
+		param = "Like it was a magic trick!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4843,
+		flag = 1
+	},
+	[4844] = {
+		param = "What's more, there are loads of weird entries in it.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4844,
+		flag = 1
+	},
+	[4845] = {
+		param = "And those entries are all about you and me!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4845,
+		flag = 1
+	},
+	[4846] = {
+		param = "For example: \"How many times did the Commander make Fleuret say 'loser' yesterday?\"",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4846,
+		flag = 1
+	},
+	[4847] = {
+		param = "The answer? 9!",
+		ship_group = 90105,
+		type = 1,
+		id = 4847,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Did that even happen?"
+			},
+			{
+				3,
+				"Shouldn't it be 10?"
+			}
+		}
+	},
+	[4848] = {
+		param = "Did that even happen?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4848,
+		flag = 2
+	},
+	[4849] = {
+		param = "It sure did! Sounds like you need to work on your memory.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4849,
+		flag = 2
+	},
+	[4850] = {
+		param = "Shouldn't it be 10?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4850,
+		flag = 3
+	},
+	[4851] = {
+		param = "Oh wow! I'm surprised you remember it so clearly.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4851,
+		flag = 3
+	},
+	[4852] = {
+		param = "There's more!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4852,
+		flag = 0
+	},
+	[4853] = {
+		param = "There's also a table showing how often my tricks worked, among lots of other things.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4853,
+		flag = 0
+	},
+	[4854] = {
+		param = "Can you believe the notebook's author is that meticulous in recording things?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4854,
+		flag = 0
+	},
+	[4855] = {
+		param = "Okay, your turn! Think of something you and I have done together!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4855,
+		flag = 0
+	},
+	[4856] = {
+		param = "I wouldn't be surprised if it's listed in here.",
+		ship_group = 90105,
+		type = 1,
+		id = 4856,
+		flag = 0,
+		option = {
+			{
+				4,
+				"Your card-throwing practice."
+			},
+			{
+				5,
+				"That time your trick didn't work."
+			}
+		}
+	},
+	[4857] = {
+		param = "How about the time you were practicing card throwing and had to use several decks?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4857,
+		flag = 4
+	},
+	[4858] = {
+		param = "How about the time you were gonna surprise me with a trick but got the time wrong and had to wait for hours?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4858,
+		flag = 5
+	},
+	[4859] = {
+		param = "What?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4859,
+		flag = 0
+	},
+	[4860] = {
+		param = "Are you sure that happened?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4860,
+		flag = 0
+	},
+	[4861] = {
+		param = "Cause I have no memory of it. How mysterious!",
+		ship_group = 90105,
+		type = 1,
+		id = 4861,
+		flag = 0,
+		option = {
+			{
+				6,
+				"So it's not recorded in the notebook, then."
+			}
+		}
+	},
+	[4862] = {
+		param = "So it's not recorded in the notebook, then.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4862,
+		flag = 6
+	},
+	[4863] = {
+		param = "I suppose we can leave it to our mysterious record keeper to note that down now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4863,
+		flag = 6
+	},
+	[4864] = {
+		param = "You're such a goober, playing along even though you knew the notebook was mine all along.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4864,
+		flag = 6
+	},
+	[4865] = {
+		param = "Wait, surely my embarrassments and failures aren't the ONLY things you remember, right?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4865,
+		flag = 6
+	},
+	[4866] = {
+		param = "I'll give you 1 hour! You have until then to remember better stuff!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4866,
+		flag = 6
+	},
+	[4867] = {
+		param = "When time's up, you and I are gonna have a looong chat!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4867,
+		flag = 6
+	},
+	[4868] = {
+		param = "Commander, Commander!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4868,
+		flag = 0
+	},
+	[4869] = {
+		param = "Notice anything unusual in your office?",
+		ship_group = 90105,
+		type = 1,
+		id = 4869,
+		flag = 0,
+		option = {
+			{
+				1,
+				"There's a big cabinet here now…"
+			}
+		}
+	},
+	[4870] = {
+		param = "There's a big cabinet here now. Did you move that in?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4870,
+		flag = 1
+	},
+	[4871] = {
+		param = "It's not JUST a big cabinet!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4871,
+		flag = 1
+	},
+	[4872] = {
+		param = "It's my magic cabinet that I use when doing big magic tricks!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4872,
+		flag = 1
+	},
+	[4873] = {
+		param = "It's a heck of a thing, let me tell you!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4873,
+		flag = 1
+	},
+	[4874] = {
+		param = "Bet you're wondering what's inside it, huh? Aren't you dying to know?",
+		ship_group = 90105,
+		type = 1,
+		id = 4874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I'll admit, I am curious."
+			}
+		}
+	},
+	[4875] = {
+		param = "I'll admit, I am curious.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4875,
+		flag = 2
+	},
+	[4876] = {
+		param = "VERY curious, even.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4876,
+		flag = 2
+	},
+	[4877] = {
+		param = "If you just have to know, go ahead and open it!",
+		ship_group = 90105,
+		type = 1,
+		id = 4877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I just did, but there was nothing inside."
+			}
+		}
+	},
+	[4878] = {
+		param = "I just did, but there was nothing inside.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4878,
+		flag = 3
+	},
+	[4879] = {
+		param = "Heheh. That's right, there's nothing inside.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4879,
+		flag = 3
+	},
+	[4880] = {
+		param = "Magic may be magical, but it's not witchcraft.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4880,
+		flag = 3
+	},
+	[4881] = {
+		param = "You can't just make something appear out of thin air.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4881,
+		flag = 3
+	},
+	[4882] = {
+		param = "If I could do that, I'd poof a person into existence.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4882,
+		flag = 3
+	},
+	[4883] = {
+		param = "353",
+		ship_group = 90105,
+		type = 4,
+		id = 4883,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Hang on a second…"
+			}
+		}
+	},
+	[4884] = {
+		param = "Hang on a second... There's a hidden door behind the cabinet.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4884,
+		flag = 4
+	},
+	[4885] = {
+		param = "Wait",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4885,
+		flag = 4
+	},
+	[4886] = {
+		param = "Wait! Don't!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4886,
+		flag = 4
+	},
+	[4887] = {
+		param = "That's uhh",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4887,
+		flag = 4
+	},
+	[4888] = {
+		param = "Right, I also left some cool magic tools outside the door! Could you bring them inside?",
+		ship_group = 90105,
+		type = 1,
+		id = 4888,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Bring them inside?"
+			}
+		}
+	},
+	[4889] = {
+		param = "Bring them inside? I think I know what you're planning here...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4889,
+		flag = 5
+	},
+	[4890] = {
+		param = "Look, it really is just an ordinary storage cabinet!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4890,
+		flag = 5
+	},
+	[4891] = {
+		param = "There's nothing special about it, no tricks, nada!",
+		ship_group = 90105,
+		type = 1,
+		id = 4891,
+		flag = 5,
+		option = {
+			{
+				6,
+				"So you're fessing up to it."
+			}
+		}
+	},
+	[4892] = {
+		param = "So you're fessing up to it. Guess what? I'm opening it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4892,
+		flag = 6
+	},
+	[4893] = {
+		param = "No! Don't!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4893,
+		flag = 6
+	},
+	[4894] = {
+		param = "You'll break my magic tools if you do!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4894,
+		flag = 6
+	},
+	[4895] = {
+		param = "Just relax and stand in front of the cabinet.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4895,
+		flag = 6
+	},
+	[4896] = {
+		param = "There we go. The audience has been seated.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4896,
+		flag = 6
+	},
+	[4897] = {
+		param = "I'm now going to perform a magic trick just for you!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4897,
+		flag = 6
+	},
+	[4898] = {
+		param = "Brace yourself, cause I'm coming out in just a moment!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4898,
+		flag = 6
+	},
+	[4899] = {
+		param = "Commander, Commander!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4899,
+		flag = 0
+	},
+	[4900] = {
+		param = "I've got a present for you!",
+		ship_group = 90105,
+		type = 1,
+		id = 4900,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Thanks a bunch."
+			}
+		}
+	},
+	[4901] = {
+		param = "Thanks a bunch.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4901,
+		flag = 1
+	},
+	[4902] = {
+		param = "Wow, talk about a boooring reply.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4902,
+		flag = 1
+	},
+	[4903] = {
+		param = "But on the inside, you're so excited you can't wait, right? Am I right or am I right?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4903,
+		flag = 1
+	},
+	[4904] = {
+		param = "353",
+		ship_group = 90105,
+		option = "",
+		type = 4,
+		id = 4904,
+		flag = 1
+	},
+	[4905] = {
+		param = "Well, hold onto your hat cause I'm about to show you my present!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4905,
+		flag = 1
+	},
+	[4906] = {
+		param = "Ready? Here comes the miracle!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4906,
+		flag = 1
+	},
+	[4907] = {
+		param = "ᝉᴠ≬᭩ūɥ〠όᙯ⽵†ᙬͯቴᕳ",
+		ship_group = 90105,
+		type = 1,
+		id = 4907,
+		flag = 1,
+		option = {
+			{
+				2,
+				"That's the present? This garbled text?"
+			}
+		}
+	},
+	[4908] = {
+		param = "That's the present? This garbled text?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4908,
+		flag = 2
+	},
+	[4909] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4909,
+		flag = 2
+	},
+	[4910] = {
+		param = "Huh? That's not exactly how I thought it'd look...",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4910,
+		flag = 2
+	},
+	[4911] = {
+		param = "Or ANYTHING like how I thought it'd look!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4911,
+		flag = 2
+	},
+	[4912] = {
+		param = "I must've forgotten something... Hang on, let me try again.",
+		ship_group = 90105,
+		type = 1,
+		id = 4912,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Standing by."
+			}
+		}
+	},
+	[4913] = {
+		param = "Standing by.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4913,
+		flag = 3
+	},
+	[4914] = {
+		param = "I've got it! I've figured it out!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4914,
+		flag = 3
+	},
+	[4915] = {
+		param = "It's gonna work this time!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4915,
+		flag = 3
+	},
+	[4916] = {
+		param = "ᝉᴠ≬᭩ūɥ〠όᙯ⽵†ᙬͯቴᕳ",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4916,
+		flag = 3
+	},
+	[4917] = {
+		param = "<color=#583b28>Dang it! That didn't work either...</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4917,
+		flag = 3
+	},
+	[4918] = {
+		param = "<color=#583b28>Hey wait! The color of my message changed!</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4918,
+		flag = 3
+	},
+	[4919] = {
+		param = "<color=#583b28>That's basically a success, right? Let's call it that!</color>",
+		ship_group = 90105,
+		type = 1,
+		id = 4919,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Congrats."
+			}
+		}
+	},
+	[4920] = {
+		param = "<color=#583b28>Congrats.</color>",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4920,
+		flag = 4
+	},
+	[4921] = {
+		param = "<color=#583b28>Wait, you can do that too? Fine! I said I'd give you a present, and that's what I'm gonna do!</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4921,
+		flag = 4
+	},
+	[4922] = {
+		param = "✿",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4922,
+		flag = 4
+	},
+	[4923] = {
+		param = "✿",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4923,
+		flag = 4
+	},
+	[4924] = {
+		param = "✿",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4924,
+		flag = 4
+	},
+	[4925] = {
+		param = "Tadah! Flowers from me!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4925,
+		flag = 4
+	},
+	[4926] = {
+		param = "But seriously, here comes your real present.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4926,
+		flag = 4
+	},
+	[4927] = {
+		param = "Just open your door to receive it!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4927,
+		flag = 4
+	},
+	[4928] = {
+		param = "♥",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4928,
+		flag = 4
 	}
 }

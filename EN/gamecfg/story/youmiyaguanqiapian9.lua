@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Beyond a long, narrow passage, the team was faced with an incomprehensible, towering structure.",
@@ -144,7 +144,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_109",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shortly after, at the \"safe and comfy rest area\"...",

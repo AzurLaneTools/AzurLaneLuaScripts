@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The girls sailed on, collecting materials from fallen monsters as they went. Eventually, they came upon another section of the tower that reached for the clouds.",
@@ -68,7 +68,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_172",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shortly after, at the \"safe and comfy rest area\"...",

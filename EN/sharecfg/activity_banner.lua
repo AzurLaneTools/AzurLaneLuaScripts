@@ -1,19 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "https://app.adjust.com/1r54aoy0?redirect=https%3A%2F%2Fwww.youtube.com%2Flive%2FiPQH2XObbBI",
+		type = 1,
 		id = 1,
 		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
-		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -25,17 +22,18 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					9
 				},
 				{
-					23,
-					59,
-					59
+					20,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp3",
@@ -45,50 +43,19 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		type = 2,
+		param = "50069",
+		type = 3,
 		id = 3,
 		pic = "temp4",
-		param = {
-			"scene core activity",
-			{
-				coreName = "ALYCoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -100,7 +67,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -111,6 +78,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp5",
@@ -118,32 +86,6 @@ pg.activity_banner = {
 			"scene charge",
 			{
 				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -159,7 +101,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					1
+					7
 				},
 				{
 					0,
@@ -186,17 +128,14 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp7",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -208,7 +147,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -219,21 +158,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "50070",
+		type = 3,
 		id = 7,
 		pic = "temp8",
-		param = {
-			"scene core activity",
-			{
-				coreName = "RyzaCoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					26
+					8,
+					7
 				},
 				{
 					0,
@@ -245,7 +179,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -256,7 +190,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp9",
@@ -266,22 +199,13 @@ pg.activity_banner = {
 				designPage = 2,
 				warp = "WARP_TO_DESIGN"
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 9,
-		pic = "temp6",
-		param = {
-			"scene Cryptolalia",
-			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -292,8 +216,40 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					30
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "50068",
+		type = 3,
+		id = 9,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
 				},
 				{
 					23,
@@ -305,35 +261,10 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
+		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99",
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -351,35 +282,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -417,15 +323,19 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
-			1,
+		{
+			1
+		},
+		{
 			2,
-			3,
 			4,
 			5,
 			6,
+			8
+		},
+		{
+			3,
 			7,
-			8,
 			9
 		},
 		[9] = {

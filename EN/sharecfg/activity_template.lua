@@ -35029,6 +35029,7 @@ pg.activity_template = {
 	},
 	[50033] = {
 		mark = 20250717,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -35065,33 +35066,6 @@ pg.activity_template = {
 			{
 				23908,
 				23909
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -35141,6 +35115,7 @@ pg.activity_template = {
 	},
 	[50042] = {
 		mark = 20250724,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -35162,33 +35137,6 @@ pg.activity_template = {
 			1690041,
 			1690051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaMainRePage",
 			ui_name = "RyzaMainRePage"
@@ -35204,7 +35152,7 @@ pg.activity_template = {
 		type = 88,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 2,
+		is_show = 3,
 		title_res_tag = "",
 		id = 50043,
 		page_core = "ALYCoreActivityUI",
@@ -35227,7 +35175,7 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -35255,6 +35203,7 @@ pg.activity_template = {
 	},
 	[50044] = {
 		mark = 20250724,
+		time = "stop",
 		type = 89,
 		login_pop = 0,
 		config_id = 0,
@@ -35322,33 +35271,6 @@ pg.activity_template = {
 			{
 				24189,
 				24190
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -35425,6 +35347,7 @@ pg.activity_template = {
 	[50045] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
@@ -35455,37 +35378,11 @@ pg.activity_template = {
 			300099,
 			300100,
 			300221
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50046] = {
 		mark = 20250724,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 36,
@@ -35494,33 +35391,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50046,
 		page_core = "RyzaCoreActivityUI",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaMGPage",
 			ui_name = "RyzaMGPage"
@@ -35548,6 +35418,7 @@ pg.activity_template = {
 	[50047] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -35561,38 +35432,12 @@ pg.activity_template = {
 				31961,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50048] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -35619,33 +35464,6 @@ pg.activity_template = {
 			24211,
 			24212,
 			24213
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50049] = {
@@ -35851,6 +35669,7 @@ pg.activity_template = {
 	[50053] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 5,
@@ -35859,33 +35678,6 @@ pg.activity_template = {
 		id = 50053,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 5,
 			bg = "loadingbg/bg_build_5_act",
@@ -35909,6 +35701,7 @@ pg.activity_template = {
 	},
 	[50054] = {
 		mark = 20250724,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -35930,33 +35723,6 @@ pg.activity_template = {
 			1940041,
 			1940051,
 			1940052
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ALYMainPage",
@@ -36073,7 +35839,7 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -36090,6 +35856,7 @@ pg.activity_template = {
 	[50056] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -36103,38 +35870,12 @@ pg.activity_template = {
 				31933,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50057] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -36207,33 +35948,6 @@ pg.activity_template = {
 			24275,
 			24276,
 			24277
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50058] = {
@@ -36291,6 +36005,7 @@ pg.activity_template = {
 	[50059] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -36306,33 +36021,6 @@ pg.activity_template = {
 			0.36,
 			0.58,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50060] = {
@@ -36484,6 +36172,7 @@ pg.activity_template = {
 	[50062] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -36492,41 +36181,15 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50062,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50063] = {
 		mark = 20250724,
+		time = "stop",
 		type = 127,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 2,
 		title_res_tag = "",
 		id = 50063,
 		page_core = "ALYCoreActivityUI",
@@ -36592,33 +36255,6 @@ pg.activity_template = {
 						130,
 						906784
 					}
-				}
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		},
@@ -36735,6 +36371,7 @@ pg.activity_template = {
 	},
 	[50064] = {
 		mark = 20250724,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -36743,33 +36380,6 @@ pg.activity_template = {
 		id = 50064,
 		page_core = "RyzaCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaAwardRePage",
 			ui_name = "RyzaAwardRePage"
@@ -36817,6 +36427,7 @@ pg.activity_template = {
 	[50065] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 128,
 		login_pop = 0,
 		config_id = 0,
@@ -36825,33 +36436,6 @@ pg.activity_template = {
 		id = 50065,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			core_tasks = {
 				{
@@ -36889,6 +36473,7 @@ pg.activity_template = {
 	},
 	[50066] = {
 		mark = 20250724,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -36897,33 +36482,6 @@ pg.activity_template = {
 		id = 50066,
 		page_core = "ALYCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ALYAwardPage",
 			ui_name = "ALYAwardPage"
@@ -36968,6 +36526,7 @@ pg.activity_template = {
 	[50067] = {
 		mark = 20250724,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -36978,14 +36537,55 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			24234
+		}
+	},
+	[50068] = {
+		mark = 20250807,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "forestframe",
+		id = 50068,
+		page_core = "",
+		config_data = {
+			{
+				21788,
+				21789
+			},
+			{
+				21790,
+				21791
+			},
+			{
+				21792,
+				21793
+			},
+			{
+				21794,
+				21795
+			},
+			{
+				21796,
+				21797
+			},
+			{
+				21798,
+				21799
+			},
+			{
+				21800,
+				21801
+			}
 		},
 		time = {
 			"timer",
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -36997,12 +36597,122 @@ pg.activity_template = {
 				{
 					2025,
 					8,
-					6
+					27
 				},
 				{
 					23,
 					59,
 					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ForestVacationSkinPage",
+			ui_name = "ForestVacationSkinPage"
+		}
+	},
+	[50069] = {
+		mark = 20250807,
+		type = 69,
+		login_pop = 0,
+		config_id = 32,
+		is_show = 42,
+		title_res_tag = "Georgia_catchup",
+		id = 50069,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KearsargeTecCatchupPage",
+			ui_name = "KearsargeTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42051
+		}
+	},
+	[50070] = {
+		mark = 20250807,
+		type = 3,
+		login_pop = 0,
+		config_id = 75,
+		is_show = 40,
+		title_res_tag = "z46skin",
+		id = 50070,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "Z46SkinRePage",
+			ui_name = "Z46SkinRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"YINYOUZHEZHISHI1"
+				},
+				{
+					"YINYOUZHEZHISHI2"
+				},
+				{
+					"YINYOUZHEZHISHI3"
+				},
+				{
+					"YINYOUZHEZHISHI4"
+				},
+				{
+					"YINYOUZHEZHISHI5"
 				}
 			}
 		}
@@ -63570,6 +63280,7 @@ pg.activity_template = {
 			5895,
 			5960,
 			50002,
+			50070,
 			8009,
 			8050,
 			8053,
@@ -64195,6 +63906,7 @@ pg.activity_template = {
 			50000,
 			50032,
 			50033,
+			50068,
 			6000,
 			6001,
 			6002,
@@ -64879,6 +64591,7 @@ pg.activity_template = {
 			5698,
 			5808,
 			5921,
+			50069,
 			30457,
 			30705,
 			30810
@@ -66051,6 +65764,9 @@ pg.activity_template = {
 		50065,
 		50066,
 		50067,
+		50068,
+		50069,
+		50070,
 		7001,
 		7011,
 		7012,

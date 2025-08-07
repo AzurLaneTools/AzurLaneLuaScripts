@@ -327,6 +327,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[1990302] = {
+		display = "A union of wavy ribbons and a wooden frame – a point where color and inspiration converge. Her creativity blooms with a burst of joy.",
+		name = "Elegant Frame",
+		unlock_dialogue_id = 30550,
+		rarity = 4,
+		ship_group_id = 19903,
+		favor_trigger_id = 1004,
+		id = 1990302,
+		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift2",
+		reply_dialogue_id = {
+			{
+				19903,
+				30305
+			}
+		},
+		shop_id = {
+			260332
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				19903,
+				{
+					"banner_gift1990302"
+				}
+			}
+		}
+	},
 	[1051701] = {
 		display = "The transparent glass jar is full of shiny, colorful candy. When you open the lid, you smell the sweet scent of bliss.",
 		name = "Crystal Candy",
@@ -372,7 +402,8 @@ pg.dorm3d_gift = {
 			3022102
 		},
 		[19903] = {
-			1990301
+			1990301,
+			1990302
 		},
 		[10517] = {
 			1051701
@@ -387,6 +418,7 @@ pg.dorm3d_gift = {
 		3022101,
 		3022102,
 		1990301,
+		1990302,
 		1051701
 	}
 }

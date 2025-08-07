@@ -1198,7 +1198,7 @@ slot1 = {
 	end,
 	SixthAnniversaryIslandMediator = function (slot0, slot1)
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND) or slot2.isEnd(slot2) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
@@ -1227,7 +1227,7 @@ slot1 = {
 			})
 			slot1()
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		end
 	end,
 	HolidayVillaShopMediator = function (slot0, slot1)
@@ -1241,7 +1241,7 @@ slot1 = {
 			})
 			slot1()
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		end
 	end,
 	AnniversaryIslandComposite2023Mediator = function (slot0, slot1)
@@ -1433,10 +1433,18 @@ slot1 = {
 		slot1()
 	end,
 	ActivityMediator = function (slot0, slot1)
-		if slot0.context.data.id and getProxy(ActivityProxy):getActivityById(slot2.data.id) and not slot3.isEnd(slot3) and noEmptyStr(slot3.getConfig(slot3, "page_core")) then
+		slot4 = slot0.context.data.id and getProxy(ActivityProxy):getActivityById(slot3)
+
+		if slot3 and slot3 ~= 0 and (not slot4 or slot4.isEnd(slot4)) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		if slot4 and noEmptyStr(slot4.getConfig(slot4, "page_core")) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
-				coreName = slot3:getConfig("page_core"),
-				id = slot3.id
+				coreName = slot4:getConfig("page_core"),
+				id = slot4.id
 			})
 		else
 			pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {

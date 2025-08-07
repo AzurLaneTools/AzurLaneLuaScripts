@@ -3615,6 +3615,11 @@ pg.skill_data_display = setmetatable({
 		1010883,
 		1011250,
 		1011251,
+		1014341,
+		1010720,
+		1010721,
+		1010722,
+		1010723,
 		1090020,
 		1090042,
 		1090043,
@@ -18145,6 +18150,26 @@ pg.base.skill_data_display = {
 	[1011251] = {
 		id = 1011251,
 		name = "Leyte Gulf's Blitz+"
+	},
+	[1014341] = {
+		id = 1014341,
+		name = "Halo of Flames+"
+	},
+	[1010720] = {
+		id = 1010720,
+		name = "Guarding Shield+"
+	},
+	[1010721] = {
+		id = 1010721,
+		name = "Guarding Shield+"
+	},
+	[1010722] = {
+		id = 1010722,
+		name = "Guarding Shield+"
+	},
+	[1010723] = {
+		id = 1010723,
+		name = "Guarding Shield+"
 	},
 	[1090020] = {
 		id = 1090020,

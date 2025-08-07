@@ -1049,6 +1049,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1152] = {
+		rarity = 5,
+		name = "Exercise Bike",
+		type = 5,
+		room_id = 11,
+		desc = "A serious exercise machine that even puts thought into the user's emotional and recreational needs.\nSimply put your feet on the pedals and go on a heart-racing journey from the comfort of your own home!",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		acesses = "",
+		id = 1152,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051750
+			}
+		},
+		shop_id = {
+			270204
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1152"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1097,7 +1131,8 @@ pg.dorm3d_furniture_template = {
 			1106,
 			1107,
 			1108,
-			1151
+			1151,
+			1152
 		}
 	},
 	all = {
@@ -1141,6 +1176,7 @@ pg.dorm3d_furniture_template = {
 		1106,
 		1107,
 		1108,
-		1151
+		1151,
+		1152
 	}
 }

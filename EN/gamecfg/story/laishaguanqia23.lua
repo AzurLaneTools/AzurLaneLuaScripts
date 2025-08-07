@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-5",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "The girls inserted the keycard into a device on the barrier's door, causing all Siren defenses in the area to halt operation. On the other side, a long path across the surface of the water revealed itself.",
 			flashout = {

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/ui/koushao",
-			bgm = "yumia-28",
+			bgm = "yumia-az-story",
 			actor = 201390,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -530,7 +530,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_187",
-			bgm = "yumia-79",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Later that night...",

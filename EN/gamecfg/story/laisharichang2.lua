@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			bgm = "ryza-1",
+			bgm = "story-1",
 			stopbgm = true,
 			say = "After a lot of hard work, the girls manage to gather the ingredients needed to – hopefully – make bombs.",
 			typewriter = {

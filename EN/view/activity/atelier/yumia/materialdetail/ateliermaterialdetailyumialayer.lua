@@ -58,10 +58,16 @@ slot0.UpdateItemDetail = function(slot0)
 	setScrollText(slot0:findTF("Window/sourceBg/mask/sourceText"), slot1:GetSource()[1])
 	onButton(slot0, slot0:findTF("Window/Go"), function ()
 		if uv0.chapterid then
-			slot2, slot3 = getProxy(ChapterProxy):getMapById(getProxy(ChapterProxy):getChapterById(uv0.chapterid):getConfig("map")):isUnlock()
+			if not getProxy(ActivityProxy):getActivityByType(getProxy(ChapterProxy):getMapById(getProxy(ChapterProxy):getChapterById(uv0.chapterid):getConfig("map")):getConfig("on_activity")) or slot2:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
-			if not slot2 then
-				pg.TipsMgr.GetInstance():ShowTips(slot3)
+				return
+			end
+
+			slot3, slot4 = slot1:isUnlock()
+
+			if not slot3 then
+				pg.TipsMgr.GetInstance():ShowTips(slot4)
 
 				return
 			end
@@ -98,10 +104,22 @@ slot0.UpdateItemDetail = function(slot0)
 
 			uv1:emit(AtelierMaterialDetailMediator.GO_RECIPE, uv0.recipeid)
 		elseif uv0.taskid then
+			if not getProxy(TaskProxy):getTaskVO(uv0.taskid) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
 			uv1:emit(GAME.GO_SCENE, SCENE.TASK, {
 				targetId = uv0.taskid
 			})
 		elseif uv0.strongholdid then
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_STRONGHOLD) or slot0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
 			pg.m02:retrieveMediator(getProxy(ContextProxy):getCurrentContext().mediator.__cname):addSubLayers(Context.New({
 				mediator = YoumiyaStrongholdMediator,
 				viewComponent = YoumiyaStrongholdLayer

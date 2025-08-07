@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit1_tone1",
 			nameColor = "#FFFFFF",
-			say = "This is just the perfect distance...",
+			hidePaintObj = true,
+			say = "Just right... Let's stay like this all day, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,22 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_sp01_idle03_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_kaixing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							id = 2010,
+							name = "IK_sp01_idle03_fb01_Dc",
+							type = "item_action"
 						},
 						{
 							skip = false,

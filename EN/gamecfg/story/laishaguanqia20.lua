@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-9",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "Another while later...",
 			flashout = {

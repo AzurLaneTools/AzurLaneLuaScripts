@@ -1,5 +1,5 @@
 slot0 = class("ALYCoreActivityUI", import("view.activity.CorePage.CoreActivityMainScene"))
-slot1 = 50054
+slot1 = 50055
 
 slot0.getUIName = function(slot0)
 	return "ALYCoreActivityUI"
@@ -18,14 +18,23 @@ slot0.init = function(slot0, ...)
 	slot5 = slot0._tf
 
 	setText(slot5:Find("adapt/top/btn_home/text_tip/Text (Legacy)"), i18n("yumia_main_tip_4", slot3))
+	slot0:Reset()
 
 	slot4 = slot0.tabsList
 
 	slot4:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			if uv0.pageDic[underscore.detect(uv0.activities, function (slot0)
+			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
-			end).id] ~= nil then
+			end) then
+				setActive(slot2, false)
+			elseif not uv0.pageDic[slot3.id] then
+				warning(string.format("without page in act:", slot3.id))
+			else
+				slot4 = uv0.pageDic[slot3.id]
+
 				if slot3.id == 50063 or slot3.id == 50058 then
 					setActive(uv0:findTF("tip", slot2), slot3:readyToAchieve())
 				else
@@ -33,18 +42,17 @@ slot0.init = function(slot0, ...)
 				end
 
 				onToggle(uv0, slot2, function (slot0)
+					warning(uv0, slot0)
+
 					if slot0 then
-						if uv0 + 1 == 3 then
+						if uv0 == 3 then
 							setActive(uv1._tf:Find("Image/VX"), false)
 						else
 							setActive(uv1._tf:Find("Image/VX"), true)
 						end
 
-						quickPlayAnimation(uv1._tf, "Anim_ALYCoreActivityUI_Low_bg_In")
 						uv1:selectActivity(uv2)
-						uv1:Reset()
-						setActive(uv1:findTF("off", uv3), false)
-						setActive(uv1:findTF("on", uv3), true)
+						quickPlayAnimation(uv1:findTF("on", uv3), "Anim_ALYCoreActivityUI_tabs_selected")
 					end
 				end, SFX_PANEL)
 			end
@@ -127,8 +135,6 @@ slot0.Reset = function(slot0)
 	for slot4 = 1, 5 do
 		setText(slot0._tf:Find("adapt/tabs/" .. slot4 .. "/off/Label/name_bg/name"), i18n("yumia_main_tip_" .. slot4 + 4))
 		setText(slot0._tf:Find("adapt/tabs/" .. slot4 .. "/on/Label/name_bg/name"), i18n("yumia_main_tip_" .. slot4 + 4))
-		setActive(slot0._tf:Find("adapt/tabs/" .. slot4 .. "/off"), true)
-		setActive(slot0._tf:Find("adapt/tabs/" .. slot4 .. "/on"), false)
 	end
 end
 

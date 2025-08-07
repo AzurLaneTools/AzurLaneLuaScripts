@@ -39490,7 +39490,7 @@ _G.pg.base.gametip.yumia_main_tip_3 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_4 = {
-	tip = "$1 day(s) left (until Aug 7th maintenance)"
+	tip = "$1 day(s) left (until August 13th, 23:59 UTC-7)"
 }
 
 
@@ -39500,12 +39500,12 @@ _G.pg.base.gametip.yumia_main_tip_5 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_6 = {
-	tip = "Atelier"
+	tip = "Base Building"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_7 = {
-	tip = "Base Building"
+	tip = "Atelier"
 }
 
 
