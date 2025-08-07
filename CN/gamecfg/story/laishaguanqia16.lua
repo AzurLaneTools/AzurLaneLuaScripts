@@ -262,7 +262,7 @@ return {
 			bgName = "bg_ryza_1",
 			side = 2,
 			bgmDelay = 2,
-			bgm = "ryza-12",
+			bgm = "ryza-az-theme",
 			nameColor = "#A9F548FF",
 			say = "归途中——",
 			typewriter = {

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在齐心协力搭建的坚固帐篷中，众人各显本事下厨，一同享受了丰盛的午餐会。",

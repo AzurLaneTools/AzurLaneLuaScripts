@@ -67,7 +67,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168702
 				}
 			},
 			{
@@ -118,7 +118,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168703
 				}
 			},
 			{
@@ -169,7 +169,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168704
 				}
 			},
 			{
@@ -220,7 +220,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168705
 				}
 			},
 			{
@@ -271,7 +271,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168706
 				}
 			},
 			{
@@ -322,7 +322,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168707
 				}
 			},
 			{
@@ -373,7 +373,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168708
 				}
 			},
 			{
@@ -424,7 +424,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168709
 				}
 			},
 			{
@@ -475,7 +475,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168710
 				}
 			},
 			{

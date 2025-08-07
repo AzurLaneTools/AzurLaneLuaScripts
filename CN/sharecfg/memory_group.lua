@@ -352,6 +352,7 @@ pg.memory_group = setmetatable({
 		610,
 		611,
 		612,
+		613,
 		1000,
 		1001,
 		1002,
@@ -8149,6 +8150,26 @@ pg.base.memory_group = {
 			4475,
 			4476,
 			4477
+		},
+		group_id = {
+			10000
+		}
+	},
+	[613] = {
+		title = "花与剑的魔术师",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 613,
+		icon = "title_chara_huajian",
+		memories = {
+			4531,
+			4532,
+			4533,
+			4534,
+			4535,
+			4536,
+			4537
 		},
 		group_id = {
 			10000

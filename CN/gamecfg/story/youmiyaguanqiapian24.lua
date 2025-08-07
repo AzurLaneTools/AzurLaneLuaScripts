@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_115",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "等到大冒险小分队再次睁开眼睛时，她们对于自己身处何方产生了深深的困惑。",

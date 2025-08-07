@@ -504,5 +504,12 @@ pg.ship_spine_shift = {
 			31,
 			-28
 		}
+	},
+	jialimaoxian_2 = {
+		spine = "jialimaoxian_2",
+		mainui_shift = {
+			0,
+			-40
+		}
 	}
 }

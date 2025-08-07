@@ -31,13 +31,12 @@ slot0.init = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
-			end) or not uv0.pageDic[slot3.id] then
-				warning(slot2.name, slot3.id)
-
-				return
-			end
-
-			if uv0.pageDic[slot3.id] ~= nil then
+			end) then
+				setActive(slot2, false)
+			elseif not uv0.pageDic[slot3.id] then
+				warning(string.format("without page in act:", slot3.id))
+			else
+				slot4 = uv0.pageDic[slot3.id]
 				slot5 = uv0
 
 				setActive(slot5:findTF("tip", slot2), slot3:readyToAchieve())
@@ -127,7 +126,7 @@ slot0.updateEntrances = function(slot0)
 end
 
 slot0.flushTabs = function(slot0)
-	slot0.tabsList:align(#slot0.activities)
+	slot0.tabsList:align(slot0.tabs.childCount)
 end
 
 slot0.selectActivity = function(slot0, slot1)

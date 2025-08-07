@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "某日，某处洞穴之中，阿拉迪斯调查团的一行人正在执行一项任务——",

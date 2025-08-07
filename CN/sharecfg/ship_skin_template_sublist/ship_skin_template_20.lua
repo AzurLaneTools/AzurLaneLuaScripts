@@ -15966,6 +15966,11 @@ pg.base.ship_skin_template_20 = {
 					2.152,
 					0
 				}
+			},
+			remote = {
+				-50,
+				0,
+				0
 			}
 		},
 		smoke = {
@@ -16086,6 +16091,11 @@ pg.base.ship_skin_template_20 = {
 					2.109,
 					0
 				}
+			},
+			remote = {
+				-50,
+				0,
+				0
 			}
 		},
 		smoke = {

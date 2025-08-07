@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_582",
-			bgm = "yumia-51",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "搭乘维修完毕的升降电梯，一行人顺利进入了全新的区域。",

@@ -7,7 +7,7 @@ return {
 			bgName = "star_level_bg_650",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			actor = 201390,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

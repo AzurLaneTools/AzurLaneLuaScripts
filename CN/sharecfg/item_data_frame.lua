@@ -684,6 +684,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>在别墅岛上度过一个完美假期吧！</color>通过参与「夏日重建！海岛别墅度假计划！」活动获取",
 		scene = {}
 	},
+	[611] = {
+		name = "林间清风",
+		gain_by = "",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>感受着林间的清风，来一场别样的度假体验吧~</color>通过参与「林间度假准备」活动获取",
+		scene = {}
+	},
 	[1001] = {
 		name = "甜蜜邀约",
 		gain_by = "",
@@ -941,6 +950,7 @@ pg.item_data_frame = {
 		607,
 		609,
 		610,
+		611,
 		1001,
 		1002,
 		1003,

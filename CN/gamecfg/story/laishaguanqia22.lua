@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-1",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "过去的片段————",
 			flashout = {
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			bgmDelay = 2,
-			bgm = "ryza-4",
+			bgm = "ryza-az-theme",
 			nameColor = "#A9F548FF",
 			say = "遗迹群岛·起始之地 翌日",
 			typewriter = {

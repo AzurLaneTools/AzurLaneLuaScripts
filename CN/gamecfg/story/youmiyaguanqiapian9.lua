@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "穿过狭长的通道后，起始区段内的复杂金属建筑群呈现在众人眼前。",
@@ -144,7 +144,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_109",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一段时间后，安全舒适休息大厅内——",

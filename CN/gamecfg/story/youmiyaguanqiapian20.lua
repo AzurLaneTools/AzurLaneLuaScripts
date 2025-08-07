@@ -7,7 +7,7 @@ return {
 			bgName = "bg_yumia_3",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			actor = 501090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

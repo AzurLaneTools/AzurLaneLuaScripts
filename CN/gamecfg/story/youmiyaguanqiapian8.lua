@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在两艘大船接近的同时，历尽千辛万苦终于抵达海滩的大冒险小分队也立刻发现了这一情况。",

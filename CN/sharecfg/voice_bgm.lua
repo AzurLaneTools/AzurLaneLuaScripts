@@ -41,9 +41,9 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "yumia-61",
+		default_bgm = "backyard",
 		special_bgm = "",
-		bgm = "yumia-61"
+		bgm = "backyard"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "yumia-79",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "yumia-79"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -2340,9 +2340,19 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "yumia-az-theme-pv"
 	},
-	NewSkinShopScene = {
-		default_bgm = "yumia-81",
+	KearsargeTecCatchUpPage = {
+		default_bgm = "theme-designshipVI",
 		special_bgm = "",
-		bgm = "yumia-81"
+		bgm = "theme-designshipVI"
+	},
+	Z46SkinRePage = {
+		default_bgm = "theme-tulipa",
+		special_bgm = "",
+		bgm = "theme-tulipa"
+	},
+	ForestVacationSkinPage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
 	}
 }

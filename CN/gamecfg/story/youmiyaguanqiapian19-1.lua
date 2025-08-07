@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_596",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "翌日，按照此前的方案如法炮制，众人成功启动了L1区段的电梯。",

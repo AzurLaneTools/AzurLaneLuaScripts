@@ -327,6 +327,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[1990302] = {
+		display = "波浪般的丝带缠绕上原木画框，色彩与灵感即将在此交汇，让属于她的创作将在此间快乐绽放。 ",
+		name = "精致画框",
+		unlock_dialogue_id = 30550,
+		rarity = 4,
+		ship_group_id = 19903,
+		favor_trigger_id = 1004,
+		id = 1990302,
+		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift2",
+		reply_dialogue_id = {
+			{
+				19903,
+				30305
+			}
+		},
+		shop_id = {
+			260332
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				19903,
+				{
+					"banner_gift1990302"
+				}
+			}
+		}
+	},
 	[1051701] = {
 		display = "透明的玻璃罐里，装满了晶莹剔透的彩色糖果。打开罐子，甜蜜的香气扑鼻而来，那是幸福的味道~",
 		name = "水晶糖",
@@ -372,7 +402,8 @@ pg.dorm3d_gift = {
 			3022102
 		},
 		[19903] = {
-			1990301
+			1990301,
+			1990302
 		},
 		[10517] = {
 			1051701
@@ -387,6 +418,7 @@ pg.dorm3d_gift = {
 		3022101,
 		3022102,
 		1990301,
+		1990302,
 		1051701
 	}
 }

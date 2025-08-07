@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			bgm = "ryza-1",
+			bgm = "story-1",
 			stopbgm = true,
 			say = "在四人的不懈努力下，制作炸弹所需要的材料收集完成了。",
 			typewriter = {

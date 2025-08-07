@@ -29263,346 +29263,346 @@ cs.gametip = {
 	},
 	yumia_main_tip_4 = {
 		1054733,
-		113,
+		111,
 		true
 	},
 	yumia_main_tip_5 = {
-		1054846,
+		1054844,
 		92,
 		true
 	},
 	yumia_main_tip_6 = {
-		1054938,
+		1054936,
 		92,
 		true
 	},
 	yumia_main_tip_7 = {
-		1055030,
+		1055028,
 		92,
 		true
 	},
 	yumia_main_tip_8 = {
-		1055122,
+		1055120,
 		88,
 		true
 	},
 	yumia_main_tip_9 = {
-		1055210,
+		1055208,
 		92,
 		true
 	},
 	yumia_base_name_1 = {
-		1055302,
+		1055300,
 		96,
 		true
 	},
 	yumia_base_name_2 = {
-		1055398,
+		1055396,
 		96,
 		true
 	},
 	yumia_base_name_3 = {
-		1055494,
+		1055492,
 		93,
 		true
 	},
 	yumia_stronghold_1 = {
-		1055587,
+		1055585,
 		94,
 		true
 	},
 	yumia_stronghold_2 = {
-		1055681,
+		1055679,
 		121,
 		true
 	},
 	yumia_stronghold_3 = {
-		1055802,
+		1055800,
 		91,
 		true
 	},
 	yumia_stronghold_4 = {
-		1055893,
+		1055891,
 		91,
 		true
 	},
 	yumia_stronghold_5 = {
-		1055984,
+		1055982,
 		97,
 		true
 	},
 	yumia_stronghold_6 = {
-		1056081,
+		1056079,
 		91,
 		true
 	},
 	yumia_stronghold_7 = {
-		1056172,
+		1056170,
 		94,
 		true
 	},
 	yumia_stronghold_8 = {
-		1056266,
+		1056264,
 		94,
 		true
 	},
 	yumia_stronghold_9 = {
-		1056360,
+		1056358,
 		94,
 		true
 	},
 	yumia_stronghold_10 = {
-		1056454,
+		1056452,
 		95,
 		true
 	},
 	yumia_award_1 = {
-		1056549,
+		1056547,
 		83,
 		true
 	},
 	yumia_award_2 = {
-		1056632,
+		1056630,
 		83,
 		true
 	},
 	yumia_award_3 = {
-		1056715,
+		1056713,
 		89,
 		true
 	},
 	yumia_award_4 = {
-		1056804,
+		1056802,
 		89,
 		true
 	},
 	yumia_pt_1 = {
-		1056893,
+		1056891,
 		167,
 		true
 	},
 	yumia_pt_2 = {
-		1057060,
+		1057058,
 		86,
 		true
 	},
 	yumia_pt_3 = {
-		1057146,
+		1057144,
 		86,
 		true
 	},
 	yumia_mana_battle_tip = {
-		1057232,
+		1057230,
 		199,
 		true
 	},
 	yumia_buff_name_1 = {
-		1057431,
+		1057429,
 		102,
 		true
 	},
 	yumia_buff_name_2 = {
-		1057533,
+		1057531,
 		98,
 		true
 	},
 	yumia_buff_name_3 = {
-		1057631,
+		1057629,
 		98,
 		true
 	},
 	yumia_buff_name_4 = {
-		1057729,
+		1057727,
 		98,
 		true
 	},
 	yumia_buff_name_5 = {
-		1057827,
+		1057825,
 		102,
 		true
 	},
 	yumia_buff_desc_1 = {
-		1057929,
+		1057927,
 		172,
 		true
 	},
 	yumia_buff_desc_2 = {
-		1058101,
+		1058099,
 		172,
 		true
 	},
 	yumia_buff_desc_3 = {
-		1058273,
+		1058271,
 		172,
 		true
 	},
 	yumia_buff_desc_4 = {
-		1058445,
+		1058443,
 		172,
 		true
 	},
 	yumia_buff_desc_5 = {
-		1058617,
+		1058615,
 		172,
 		true
 	},
 	yumia_buff_1 = {
-		1058789,
+		1058787,
 		88,
 		true
 	},
 	yumia_buff_2 = {
-		1058877,
+		1058875,
 		82,
 		true
 	},
 	yumia_buff_3 = {
-		1058959,
+		1058957,
 		85,
 		true
 	},
 	yumia_buff_4 = {
-		1059044,
+		1059042,
 		124,
 		true
 	},
 	yumia_atelier_tip1 = {
-		1059168,
+		1059166,
 		131,
 		true
 	},
 	yumia_atelier_tip2 = {
-		1059299,
+		1059297,
 		88,
 		true
 	},
 	yumia_atelier_tip3 = {
-		1059387,
+		1059385,
 		88,
 		true
 	},
 	yumia_atelier_tip4 = {
-		1059475,
+		1059473,
 		94,
 		true
 	},
 	yumia_atelier_tip5 = {
-		1059569,
+		1059567,
 		118,
 		true
 	},
 	yumia_atelier_tip6 = {
-		1059687,
+		1059685,
 		94,
 		true
 	},
 	yumia_atelier_tip7 = {
-		1059781,
+		1059779,
 		118,
 		true
 	},
 	yumia_atelier_tip8 = {
-		1059899,
+		1059897,
 		103,
 		true
 	},
 	yumia_atelier_tip9 = {
-		1060002,
+		1060000,
 		100,
 		true
 	},
 	yumia_atelier_tip10 = {
-		1060102,
+		1060100,
 		101,
 		true
 	},
 	yumia_atelier_tip11 = {
-		1060203,
+		1060201,
 		110,
 		true
 	},
 	yumia_atelier_tip12 = {
-		1060313,
+		1060311,
 		110,
 		true
 	},
 	yumia_atelier_tip13 = {
-		1060423,
+		1060421,
 		104,
 		true
 	},
 	yumia_atelier_tip14 = {
-		1060527,
+		1060525,
 		89,
 		true
 	},
 	yumia_atelier_tip15 = {
-		1060616,
+		1060614,
 		100,
 		true
 	},
 	yumia_atelier_tip16 = {
-		1060716,
+		1060714,
 		89,
 		true
 	},
 	yumia_atelier_tip17 = {
-		1060805,
+		1060803,
 		116,
 		true
 	},
 	yumia_atelier_tip18 = {
-		1060921,
+		1060919,
 		95,
 		true
 	},
 	yumia_atelier_tip19 = {
-		1061016,
+		1061014,
 		107,
 		true
 	},
 	yumia_atelier_tip20 = {
-		1061123,
+		1061121,
 		112,
 		true
 	},
 	yumia_atelier_tip21 = {
-		1061235,
+		1061233,
 		119,
 		true
 	},
 	yumia_atelier_tip22 = {
-		1061354,
+		1061352,
 		635,
 		true
 	},
 	yumia_atelier_tip23 = {
-		1061989,
+		1061987,
 		95,
 		true
 	},
 	yumia_atelier_tip24 = {
-		1062084,
+		1062082,
 		89,
 		true
 	},
 	yumia_storymode_tip1 = {
-		1062173,
+		1062171,
 		101,
 		true
 	},
 	yumia_storymode_tip2 = {
-		1062274,
+		1062272,
 		108,
 		true
 	},
 	yumia_pt_tip = {
-		1062382,
+		1062380,
 		85,
 		true
 	},
 	yumia_pt_4 = {
-		1062467,
+		1062465,
 		83,
 		true
 	}

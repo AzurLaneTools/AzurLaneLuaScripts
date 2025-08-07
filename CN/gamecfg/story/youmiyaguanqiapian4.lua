@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-1",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "蓝天、白云、碧海、沙滩，还有高耸入云的山脉。",

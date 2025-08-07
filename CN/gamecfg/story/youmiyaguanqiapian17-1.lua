@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_596",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "众人乘坐着勇气号进入了大湖后，很快便看到一个漂浮在水面上的路牌。",

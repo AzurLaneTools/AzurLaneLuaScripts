@@ -4838,7 +4838,97 @@ pg.activity_ins_chat_language = setmetatable({
 		4835,
 		4836,
 		4837,
-		4838
+		4838,
+		4839,
+		4840,
+		4841,
+		4842,
+		4843,
+		4844,
+		4845,
+		4846,
+		4847,
+		4848,
+		4849,
+		4850,
+		4851,
+		4852,
+		4853,
+		4854,
+		4855,
+		4856,
+		4857,
+		4858,
+		4859,
+		4860,
+		4861,
+		4862,
+		4863,
+		4864,
+		4865,
+		4866,
+		4867,
+		4868,
+		4869,
+		4870,
+		4871,
+		4872,
+		4873,
+		4874,
+		4875,
+		4876,
+		4877,
+		4878,
+		4879,
+		4880,
+		4881,
+		4882,
+		4883,
+		4884,
+		4885,
+		4886,
+		4887,
+		4888,
+		4889,
+		4890,
+		4891,
+		4892,
+		4893,
+		4894,
+		4895,
+		4896,
+		4897,
+		4898,
+		4899,
+		4900,
+		4901,
+		4902,
+		4903,
+		4904,
+		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
+		4925,
+		4926,
+		4927,
+		4928
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -48160,5 +48250,803 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 4838,
 		flag = 10
+	},
+	[4839] = {
+		param = "指挥官指挥官！你猜猜我发现了什么？！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4839,
+		flag = 0
+	},
+	[4840] = {
+		param = "一个超神秘的记事本哦！",
+		ship_group = 90105,
+		type = 1,
+		id = 4840,
+		flag = 0,
+		option = {
+			{
+				1,
+				"超神秘是指…？"
+			}
+		}
+	},
+	[4841] = {
+		param = "超神秘是指…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4841,
+		flag = 1
+	},
+	[4842] = {
+		param = "它是突然出现在我包里的！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4842,
+		flag = 1
+	},
+	[4843] = {
+		param = "就像用神秘魔术变出来的一样！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4843,
+		flag = 1
+	},
+	[4844] = {
+		param = "然后，这个记事本上有好多奇奇怪怪的记录~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4844,
+		flag = 1
+	},
+	[4845] = {
+		param = "还都是关于我和指挥官的~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4845,
+		flag = 1
+	},
+	[4846] = {
+		param = "就比如这个：“昨天指挥官要求花剑说了几次杂鱼？”",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4846,
+		flag = 1
+	},
+	[4847] = {
+		param = "答：“九次！”",
+		ship_group = 90105,
+		type = 1,
+		id = 4847,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有过这种事么？"
+			},
+			{
+				3,
+				"故事很有效"
+			}
+		}
+	},
+	[4848] = {
+		param = "有过这种事么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4848,
+		flag = 2
+	},
+	[4849] = {
+		param = "有的哦！~看来指挥官的记忆力有待增强呢！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4849,
+		flag = 2
+	},
+	[4850] = {
+		param = "怎么漏了一次？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4850,
+		flag = 3
+	},
+	[4851] = {
+		param = "哎呀~原来指挥官记得这么清楚吗~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4851,
+		flag = 3
+	},
+	[4852] = {
+		param = "还不止这些呢~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4852,
+		flag = 0
+	},
+	[4853] = {
+		param = "还有什么“花剑给指挥官表演魔术的成功率”之类的",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4853,
+		flag = 0
+	},
+	[4854] = {
+		param = "就连这种事都记得那么清楚，这记事本的主人真是厉害呐~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4854,
+		flag = 0
+	},
+	[4855] = {
+		param = "嘿嘿~对了对了，指挥官也说几件与花剑有关的事吧！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4855,
+		flag = 0
+	},
+	[4856] = {
+		param = "说不定会有没被记录的事呢~",
+		ship_group = 90105,
+		type = 1,
+		id = 4856,
+		flag = 0,
+		option = {
+			{
+				4,
+				"比如关于飞牌练习的事？"
+			},
+			{
+				5,
+				"比如关于恶作剧失败的事？"
+			}
+		}
+	},
+	[4857] = {
+		param = "比如你偷偷练习飞牌用了好几副扑克的事？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4857,
+		flag = 4
+	},
+	[4858] = {
+		param = "比如你想用魔术偷偷吓唬我，结果记错时间白等了好久的事？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4858,
+		flag = 5
+	},
+	[4859] = {
+		param = "欸……？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4859,
+		flag = 0
+	},
+	[4860] = {
+		param = "原来还发生过这种是么？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4860,
+		flag = 0
+	},
+	[4861] = {
+		param = "我怎么完全不记得了呢……好神秘啊！",
+		ship_group = 90105,
+		type = 1,
+		id = 4861,
+		flag = 0,
+		option = {
+			{
+				6,
+				"看来记事本上没写这些事啊"
+			}
+		}
+	},
+	[4862] = {
+		param = "看来记事本上没写这些事啊",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4862,
+		flag = 6
+	},
+	[4863] = {
+		param = "不过没关系，现在同样神秘的记录员小姐，也可以写上去了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4863,
+		flag = 6
+	},
+	[4864] = {
+		param = "哼~原来指挥官看出来记事本是我的了呀，还陪我演了这么久",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4864,
+		flag = 6
+	},
+	[4865] = {
+		param = "等等，指挥官不会只记得这些糟糕的事情吧~？",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4865,
+		flag = 6
+	},
+	[4866] = {
+		param = "限时1分钟！如果指挥官说不出来其他事的话……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4866,
+		flag = 6
+	},
+	[4867] = {
+		param = "我就要和你好·好·聊·聊了哦~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4867,
+		flag = 6
+	},
+	[4868] = {
+		param = "指挥官~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4868,
+		flag = 0
+	},
+	[4869] = {
+		param = "你看到指挥室的变化了吗？",
+		ship_group = 90105,
+		type = 1,
+		id = 4869,
+		flag = 0,
+		option = {
+			{
+				1,
+				"那个大——衣柜，是你搬来的？"
+			}
+		}
+	},
+	[4870] = {
+		param = "那个大——衣柜，是你搬来的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4870,
+		flag = 1
+	},
+	[4871] = {
+		param = "那可不是衣柜哦！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4871,
+		flag = 1
+	},
+	[4872] = {
+		param = "是花剑的大型魔术表演装置——魔术衣柜！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4872,
+		flag = 1
+	},
+	[4873] = {
+		param = "超厉害的哦~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4873,
+		flag = 1
+	},
+	[4874] = {
+		param = "是不是很好奇里面有什么呀？指挥官~",
+		ship_group = 90105,
+		type = 1,
+		id = 4874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"对，很好奇"
+			}
+		}
+	},
+	[4875] = {
+		param = "对，很好奇",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4875,
+		flag = 2
+	},
+	[4876] = {
+		param = "非常好奇",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4876,
+		flag = 2
+	},
+	[4877] = {
+		param = "这么想知道的话，就打开柜子吧~",
+		ship_group = 90105,
+		type = 1,
+		id = 4877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"打开看过了……"
+			}
+		}
+	},
+	[4878] = {
+		param = "打开看过了，里面是空的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4878,
+		flag = 3
+	},
+	[4879] = {
+		param = "嘿嘿~没错，里面什么都没有~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4879,
+		flag = 3
+	},
+	[4880] = {
+		param = "魔术，可不是魔法哟",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4880,
+		flag = 3
+	},
+	[4881] = {
+		param = "可不会凭空变出来什么的",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4881,
+		flag = 3
+	},
+	[4882] = {
+		param = "要是能做到的话，干脆直接变出一个人好了~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4882,
+		flag = 3
+	},
+	[4883] = {
+		param = "353",
+		ship_group = 90105,
+		type = 4,
+		id = 4883,
+		flag = 3,
+		option = {
+			{
+				4,
+				"等一下……"
+			}
+		}
+	},
+	[4884] = {
+		param = "等一下……柜子背后，好像有个暗门",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4884,
+		flag = 4
+	},
+	[4885] = {
+		param = "等下",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4885,
+		flag = 4
+	},
+	[4886] = {
+		param = "等下等下",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4886,
+		flag = 4
+	},
+	[4887] = {
+		param = "那个",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4887,
+		flag = 4
+	},
+	[4888] = {
+		param = "我在门口放了其他有趣的魔术道具！指挥官先帮我挪进来吧~",
+		ship_group = 90105,
+		type = 1,
+		id = 4888,
+		flag = 4,
+		option = {
+			{
+				5,
+				"挪进来？"
+			}
+		}
+	},
+	[4889] = {
+		param = "挪进来？难道说？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4889,
+		flag = 5
+	},
+	[4890] = {
+		param = "指挥官！这真的只是一个普通的道具柜子而已",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4890,
+		flag = 5
+	},
+	[4891] = {
+		param = "没有什么特别的啦，绝对没有~",
+		ship_group = 90105,
+		type = 1,
+		id = 4891,
+		flag = 5,
+		option = {
+			{
+				6,
+				"不打自招？"
+			}
+		}
+	},
+	[4892] = {
+		param = "不打自招？那……我要打开了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4892,
+		flag = 6
+	},
+	[4893] = {
+		param = "不！不要！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4893,
+		flag = 6
+	},
+	[4894] = {
+		param = "不要破坏魔术道具啊指挥官！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4894,
+		flag = 6
+	},
+	[4895] = {
+		param = "你先到柜子正面去",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4895,
+		flag = 6
+	},
+	[4896] = {
+		param = "嗯嗯，听到你已经在观众席就位了",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4896,
+		flag = 6
+	},
+	[4897] = {
+		param = "那我马上就要给指挥官表演大变活人了哦！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4897,
+		flag = 6
+	},
+	[4898] = {
+		param = "锵锵~花剑要出现了哦~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4898,
+		flag = 6
+	},
+	[4899] = {
+		param = "指挥官~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4899,
+		flag = 0
+	},
+	[4900] = {
+		param = "我有礼物要送给你哦~",
+		ship_group = 90105,
+		type = 1,
+		id = 4900,
+		flag = 0,
+		option = {
+			{
+				1,
+				"感谢"
+			}
+		}
+	},
+	[4901] = {
+		param = "感谢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4901,
+		flag = 1
+	},
+	[4902] = {
+		param = "指挥官的答复，相当的平静呢~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4902,
+		flag = 1
+	},
+	[4903] = {
+		param = "该不会，心里已经小鹿乱撞了吧~不会吧不会吧~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4903,
+		flag = 1
+	},
+	[4904] = {
+		param = "353",
+		ship_group = 90105,
+		option = "",
+		type = 4,
+		id = 4904,
+		flag = 1
+	},
+	[4905] = {
+		param = "嘻嘻，就给指挥官看看，我精心准备的礼物吧~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4905,
+		flag = 1
+	},
+	[4906] = {
+		param = "准备好了吗？见证奇迹的时刻到了！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4906,
+		flag = 1
+	},
+	[4907] = {
+		param = "锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤",
+		ship_group = 90105,
+		type = 1,
+		id = 4907,
+		flag = 1,
+		option = {
+			{
+				2,
+				"这是……礼物？"
+			}
+		}
+	},
+	[4908] = {
+		param = "这是……礼物？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4908,
+		flag = 2
+	},
+	[4909] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4909,
+		flag = 2
+	},
+	[4910] = {
+		param = "效果和我预想的有些出入……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4910,
+		flag = 2
+	},
+	[4911] = {
+		param = "不，是差别有点太大了",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4911,
+		flag = 2
+	},
+	[4912] = {
+		param = "难道是我漏了什么步骤……等下我再试试……",
+		ship_group = 90105,
+		type = 1,
+		id = 4912,
+		flag = 2,
+		option = {
+			{
+				3,
+				"在线等待中"
+			}
+		}
+	},
+	[4913] = {
+		param = "在线等待中",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4913,
+		flag = 3
+	},
+	[4914] = {
+		param = "我现在已经完全搞明白了！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4914,
+		flag = 3
+	},
+	[4915] = {
+		param = "这次一定没问题了！",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4915,
+		flag = 3
+	},
+	[4916] = {
+		param = "<color=#583b28>锟斤拷锟斤拷锟斤拷屯屯锟斤拷锟斤拷锟斤拷烫烫烫<color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4916,
+		flag = 3
+	},
+	[4917] = {
+		param = "<color=#583b28>好像还是没有用……</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4917,
+		flag = 3
+	},
+	[4918] = {
+		param = "<color=#583b28>嗯？打出来的字变色了！</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4918,
+		flag = 3
+	},
+	[4919] = {
+		param = "<color=#583b28>也算是……也算是……成功了！对不对！</color>",
+		ship_group = 90105,
+		type = 1,
+		id = 4919,
+		flag = 3,
+		option = {
+			{
+				4,
+				"恭喜你"
+			}
+		}
+	},
+	[4920] = {
+		param = "<color=#583b28>恭喜你</color>",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4920,
+		flag = 4
+	},
+	[4921] = {
+		param = "<color=#583b28>？你竟然也会了？……既然说了要送指挥官礼物，我就不会放弃！</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4921,
+		flag = 4
+	},
+	[4922] = {
+		param = "<color=#3E3D3D>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4922,
+		flag = 4
+	},
+	[4923] = {
+		param = "<color=#A24942>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4923,
+		flag = 4
+	},
+	[4924] = {
+		param = "<color=#E7C355>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4924,
+		flag = 4
+	},
+	[4925] = {
+		param = "指挥官，这是花剑送给你的花哦~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4925,
+		flag = 4
+	},
+	[4926] = {
+		param = "接下来，真正的礼物就要送达了",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4926,
+		flag = 4
+	},
+	[4927] = {
+		param = "请打开门查收吧",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4927,
+		flag = 4
+	},
+	[4928] = {
+		param = "<color=#D80000>♥</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4928,
+		flag = 4
 	}
 }

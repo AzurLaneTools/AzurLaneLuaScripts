@@ -39174,7 +39174,7 @@ _G.pg.base.gametip.yumia_main_tip_3 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_4 = {
-	tip = "剩余$1天,于8.7维护后结束"
+	tip = "剩余$1天,于8.13 24时结束"
 }
 
 
@@ -39184,12 +39184,12 @@ _G.pg.base.gametip.yumia_main_tip_5 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_6 = {
-	tip = "炼金工房"
+	tip = "据点建装"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_7 = {
-	tip = "据点建装"
+	tip = "炼金工房"
 }
 
 
