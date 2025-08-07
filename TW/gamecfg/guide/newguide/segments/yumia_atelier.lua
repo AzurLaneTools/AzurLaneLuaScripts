@@ -28,7 +28,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "點選煉金工房",
+				text = "點選鍊金工房",
 				mode = 1,
 				char = "char",
 				posY = 0,
