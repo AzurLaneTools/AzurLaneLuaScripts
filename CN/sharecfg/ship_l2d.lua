@@ -571,7 +571,7 @@ pg.ship_l2d = {
 		revert_action_index = 0,
 		draw_able_name = "TouchDrag1",
 		ship_skin_id = 301292,
-		mode = 2,
+		mode = 1,
 		react_pos_y = 0,
 		revert = 200,
 		react_pos_x = 0,
@@ -579,13 +579,13 @@ pg.ship_l2d = {
 		id = 3012921,
 		offset_y = 80,
 		revert_smooth = 200,
-		limit_time = 0.1,
+		limit_time = 0,
 		parts_data = "",
 		relation_parameter = "",
 		ignore_react = 1,
 		gyro = 0,
 		gyro_x = 0,
-		ignore_action = 0,
+		ignore_action = 1,
 		parameter = "touch_drag1",
 		save_parameter = 0,
 		revert_idle_index = 0,
@@ -599,9 +599,10 @@ pg.ship_l2d = {
 			1
 		},
 		action_trigger = {
-			focus = 1,
+			time = 0.5,
+			num = 1,
 			action = "touch_drag1",
-			type = 2
+			type = 1
 		}
 	},
 	[3012922] = {

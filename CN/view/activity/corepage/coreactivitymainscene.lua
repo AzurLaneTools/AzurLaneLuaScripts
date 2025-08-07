@@ -82,7 +82,7 @@ slot0.setActivities = function(slot0, slot1)
 
 	table.sort(slot0.activities, CompareFuncs({
 		function (slot0)
-			return -slot0:getShowPriority()
+			return slot0:getShowPriority()
 		end,
 		function (slot0)
 			return -slot0.id
@@ -148,9 +148,7 @@ slot0.selectActivity = function(slot0, slot1)
 end
 
 slot0.verifyTabs = function(slot0, slot1)
-	triggerToggle(slot0.tabs:Find(tostring(underscore.detect(slot0.activities, function (slot0)
-		return slot0.id == uv0
-	end) and slot2:getConfig("is_show") or 1)), true)
+	triggerToggle(slot0.tabs:Find(tostring(slot0.activities[slot0:getActivityIndex(slot1) or 1]:getConfig("is_show"))), true)
 end
 
 slot0.getActClass = function(slot0, slot1)
