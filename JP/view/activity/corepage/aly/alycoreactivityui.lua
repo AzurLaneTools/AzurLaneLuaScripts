@@ -5,8 +5,6 @@ slot0.getUIName = function(slot0)
 	return "ALYCoreActivityUI"
 end
 
-slot2 = 0
-
 slot0.init = function(slot0, ...)
 	uv0.super.init(slot0, ...)
 
@@ -25,6 +23,8 @@ slot0.init = function(slot0, ...)
 	slot4 = slot0.tabsList
 
 	slot4:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
 			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
@@ -42,8 +42,10 @@ slot0.init = function(slot0, ...)
 				end
 
 				onToggle(uv0, slot2, function (slot0)
+					warning(uv0, slot0)
+
 					if slot0 then
-						if uv0 + 1 == 3 then
+						if uv0 == 3 then
 							setActive(uv1._tf:Find("Image/VX"), false)
 						else
 							setActive(uv1._tf:Find("Image/VX"), true)
@@ -127,37 +129,6 @@ slot0.UpdateAdapt = function(slot0)
 		y = 0
 	})
 	SetComponentEnabled(slot0._tf:Find("adapt"), "NotchAdapt", NotchAdapt.CheckNotchRatio == math.clamp(NotchAdapt.CheckNotchRatio, slot1, slot2))
-end
-
-slot0.updateActivity = function(slot0, slot1)
-	if ActivityConst.PageIdLink[slot1.id] then
-		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
-	end
-
-	if slot1:isShow() and slot1:isCorePage(slot0.contextData.coreName) and not slot1:isEnd() then
-		slot0.activities[slot0:getActivityIndex(slot1.id) or #slot0.activities + 1] = slot1
-
-		table.sort(slot0.activities, CompareFuncs({
-			function (slot0)
-				return -slot0:getShowPriority()
-			end,
-			function (slot0)
-				return -slot0.id
-			end
-		}))
-
-		if not slot0.pageDic[slot1.id] then
-			slot0:instanceActivityPage(slot1)
-		end
-
-		slot0:flushTabs()
-
-		if slot0.activity and slot0.activity.id == slot1.id then
-			slot0.activity = slot1
-
-			slot0:verifyTabs(slot1.id)
-		end
-	end
 end
 
 slot0.Reset = function(slot0)
