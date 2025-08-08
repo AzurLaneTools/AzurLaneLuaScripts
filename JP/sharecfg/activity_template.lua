@@ -26935,7 +26935,6 @@ pg.activity_template = {
 	[50059] = {
 		mark = 20250724,
 		page_info = "",
-		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -26951,6 +26950,33 @@ pg.activity_template = {
 			0.36,
 			0.58,
 			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[50060] = {

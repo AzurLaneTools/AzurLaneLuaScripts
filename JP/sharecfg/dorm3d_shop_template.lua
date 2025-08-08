@@ -496,7 +496,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1152,
 		id = 23,
-		order = "20",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -518,7 +518,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1990302,
 		id = 24,
-		order = "21",
+		order = "3",
 		panel = {
 			2,
 			3,
