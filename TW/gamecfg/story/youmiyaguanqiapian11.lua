@@ -204,12 +204,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_307",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "蕾妮雅……也來幫忙！",
 			typewriter = {
 				speed = 0.05,

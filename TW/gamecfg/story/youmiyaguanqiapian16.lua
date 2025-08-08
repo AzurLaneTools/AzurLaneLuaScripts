@@ -74,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這些具有腐蝕性的水流……應該是從更上方順著瀑布流下來的。",
 			typewriter = {
 				speed = 0.05,

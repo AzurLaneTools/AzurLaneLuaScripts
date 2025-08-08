@@ -174,12 +174,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那個……優米雅小姐！",
 			typewriter = {
 				speed = 0.05,
@@ -378,12 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……我們還不熟悉此地的狀況……！！先逃跑比較好！",
 			typewriter = {
 				speed = 0.05,
