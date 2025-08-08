@@ -35744,7 +35744,6 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learns Siren Killer",
-			"Salvo capacity +1",
 			"Main Gun base +1",
 			"Main Gun efficiency +5%"
 		}
@@ -36019,6 +36018,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Improves Siren Killer",
+			"Salvo capacity +1",
 			"Secondary Gun base +2",
 			"Main Gun efficiency +10%"
 		}
