@@ -883,7 +883,7 @@ pg.activity_const = {
 		act_id = 40799
 	},
 	RYZA_MAP_ACT_ID = {
-		act_id = 40948
+		act_id = 50042
 	},
 	RYZA_TASK = {
 		act_id = 50044
