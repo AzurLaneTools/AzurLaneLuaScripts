@@ -222,7 +222,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"<size=80>——「炼金术士与天际交汇之塔」·END</size>",
+					"<size=80>——「연금술사와 하늘 끝이 만나는 탑」·END</size>",
 					2
 				}
 			}
