@@ -26,7 +26,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	setActive(slot0.discountTF, false)
 	setActive(slot0.tf:Find("group_locked"), false)
-	setActive(slot0.tf:Find("group_locked/Text"), i18n("shop_item_unobtained"))
+	setText(slot0.tf:Find("group_locked/Text"), i18n("shop_item_unobtained"))
 	setActive(slot0.tf:Find("limit_time_sell"), false)
 	setActive(slot0.tf:Find("itemBg/item/icon_bg/slv"), false)
 	eachChild(slot0.tf:Find("mask/tag"), function (slot0)

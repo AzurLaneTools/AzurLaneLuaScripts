@@ -71,7 +71,7 @@ slot0.createDymItem = function(slot0, slot1)
 	slot4 = slot0:getItemData(slot2.key_flag, slot1.final)
 	slot5 = slot0:createItemTf(slot4.prefab)
 	slot6 = GetComponent(slot5, typeof(Animator))
-	slot6.speed = 0
+	slot6.speed = 1
 
 	table.insert(slot0.dymItems, {
 		check = true,
@@ -217,10 +217,6 @@ slot0.onStep = function(slot0)
 			slot9 = slot6.track.begin_time - slot1
 
 			if slot6.active then
-				if not slot6.trigger and 1 - (slot8 + uv0 - slot1) / (slot6.data.distance_time + uv0) >= 0 and slot12 <= 1 then
-					slot6.anim:Play("item_fly", -1, slot12)
-				end
-
 				if slot8 <= slot1 and uv0 < slot1 - slot8 then
 					slot6.active = false
 					slot6.remove = true
@@ -273,6 +269,22 @@ slot0.onStep = function(slot0)
 	end
 end
 
+slot0.onStop = function(slot0)
+	for slot4 = 1, #slot0.dymItems do
+		if slot0.dymItems[slot4].anim then
+			slot5.speed = 0
+		end
+	end
+end
+
+slot0.onResume = function(slot0)
+	for slot4 = 1, #slot0.dymItems do
+		if slot0.dymItems[slot4].anim then
+			slot5.speed = 1
+		end
+	end
+end
+
 slot0.changeLife = function(slot0, slot1)
 	slot0.lifeCount = slot0.lifeCount + slot1
 
@@ -313,6 +325,10 @@ slot0.activeDymItem = function(slot0, slot1)
 	setActive(slot1.tf, true)
 
 	slot1.active = true
+
+	slot1.anim:Play("item_fly", -1, 0)
+
+	slot1.anim.speed = 1
 end
 
 slot0.setCharAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5)

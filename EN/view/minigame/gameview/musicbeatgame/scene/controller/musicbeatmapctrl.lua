@@ -55,7 +55,7 @@ end
 
 slot0.resume = function(slot0)
 	for slot4 = 1, #slot0.mapScenes do
-		slot0.mapScenes[slot4]:step()
+		slot0.mapScenes[slot4]:resume()
 	end
 end
 

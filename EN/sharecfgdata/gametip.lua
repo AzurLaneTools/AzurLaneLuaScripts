@@ -11409,7 +11409,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>$1</COLOR>)!"
+	tip = "※<color=#2E852C>Gear Skins</color> are purchasable during(<color=#2E852C>$1</COLOR>)!"
 }
 
 
@@ -15387,7 +15387,7 @@ Event Information:
  a. Active Commander 
  b. Returning/New Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between May 6th, 2025 and before the maintenance on May 20th, 2025.
+- - Logged in at least once at any point between July 31st, 2025 and before the maintenance on August 14th, 2025.
 3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
@@ -40245,7 +40245,7 @@ _G.pg.base.gametip.shop_new_gift = {
 
 
 _G.pg.base.gametip.shop_new_gem_transform = {
-	tip = "If you receive a duplicate skin, it will be converted into a corresponding sum of Gems."
+	tip = "Duplicate skin is converted to Gems."
 }
 
 
@@ -40476,4 +40476,19 @@ _G.pg.base.gametip.shop_fragment_resolve = {
 
 _G.pg.base.gametip.beat_game_my_record = {
 	tip = "My Rank"
+}
+
+
+_G.pg.base.gametip.shop_filter_all = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.shop_filter_trial = {
+	tip = "Rental"
+}
+
+
+_G.pg.base.gametip.shop_filter_retro = {
+	tip = "Rerun"
 }

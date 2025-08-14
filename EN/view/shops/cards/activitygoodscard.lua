@@ -8,7 +8,6 @@ slot0.DefaultColor = {
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
-	setActive(slot0.limitCountLabelTF, true)
 
 	slot0.tagImg = slot0.tf:Find("mask/tag"):GetComponent(typeof(Image))
 	slot0.limitPassTag = slot0.tf:Find("mask/tag/pass_tag")
@@ -93,6 +92,8 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 	else
 		setText(slot0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot10)
 	end
+
+	setActive(slot0.limitCountLabelTF, true)
 end
 
 slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)

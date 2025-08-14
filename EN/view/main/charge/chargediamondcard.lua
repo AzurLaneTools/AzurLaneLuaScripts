@@ -71,7 +71,7 @@ slot0.updateForMonthTF = function(slot0, slot1, slot2)
 
 	setScrollText(slot0.monthTF:Find("Tip/Text"), slot1:getConfig("first_text"))
 	setScrollText(slot0.monthTF:Find("Tip2/Text"), slot1:getConfig("second_text"))
-	setScrollText(slot0.monthTF:Find("title"), slot1:getConfig("name_display"))
+	setScrollText(slot0.monthTF:Find("title/Text"), slot1:getConfig("name_display"))
 	setText(slot0.monthTF:Find("ResCountText"), slot1:getConfig("gem") + slot1:getConfig("extra_gem"))
 	setText(slot0.monthTF:Find("Price/Text"), slot1:getConfig("money"))
 
@@ -95,6 +95,7 @@ slot0.updateForMonthTF = function(slot0, slot1, slot2)
 		slot17 = slot1:getConfig("limit_arg") or 0
 
 		setScrollText(slot10, i18n("charge_month_card_lefttime_tip", slot16))
+		setScrollText(slot0.monthTF:Find("Mask/leftTimeGo/Text"), i18n("charge_month_card_lefttime_tip", slot16))
 		setActive(slot10, true)
 		setActive(slot8, slot17 < slot16)
 		setActive(slot0.monthTF:Find("NewTag"), false)
