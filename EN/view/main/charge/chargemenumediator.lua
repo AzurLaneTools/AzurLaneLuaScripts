@@ -47,7 +47,7 @@ slot0.bindEvent = function(slot0)
 	end)
 	slot0:bind(uv0.GO_CHARGE_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = slot1
+			warp = slot1
 		})
 	end)
 end

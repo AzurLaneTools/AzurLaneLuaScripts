@@ -216,7 +216,8 @@ pg.pay_data_display = setmetatable({
 		155,
 		156,
 		157,
-		158
+		158,
+		159
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -225,7 +226,7 @@ pg.base.pay_data_display = {
 		picture = "month",
 		name = "Trade License (30 days)",
 		type = 0,
-		limit_arg = 7,
+		second_text = "Get Every Day for 30 Days",
 		descrip = "Receive $1 Gems immediately and resources every day for \n30 days.",
 		subject = "Trade License",
 		first_pay_double = 0,
@@ -236,7 +237,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 1,
+		limit_arg = 7,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport1",
@@ -244,6 +247,7 @@ pg.base.pay_data_display = {
 		id = 1,
 		airijp_id = "com.yostaren.azurlane.passport1",
 		name_display = "Trade License (30 days)",
+		first_text = "Get Now",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -303,14 +307,21 @@ pg.base.pay_data_display = {
 				20001,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				500
+			}
 		}
 	},
 	{
 		picture = "boxNewplayer",
 		name = "Novice sailing supplies",
 		type = 0,
-		limit_arg = 1,
-		descrip = "Three Supplies",
+		second_text = "",
+		descrip = "Contains Gems and shipbuilding materials.",
 		subject = "Novice sailing supplies",
 		first_pay_double = 0,
 		gem = 0,
@@ -320,7 +331,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "Good for\nBeginners",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond101",
@@ -328,6 +342,7 @@ pg.base.pay_data_display = {
 		id = 2,
 		airijp_id = "com.yostaren.azurlane.diamond101",
 		name_display = "Novice sailing supplies",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -388,7 +403,7 @@ pg.base.pay_data_display = {
 		picture = "1",
 		name = "Handful of Gems",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "60 Gems",
 		first_pay_double = 1,
@@ -399,7 +414,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond1",
@@ -407,6 +425,7 @@ pg.base.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostaren.azurlane.diamond1",
 		name_display = "Handful of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -424,7 +443,7 @@ pg.base.pay_data_display = {
 		picture = "2",
 		name = "Pile of Gems",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "300 Gems",
 		first_pay_double = 1,
@@ -435,7 +454,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond2",
@@ -443,6 +465,7 @@ pg.base.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostaren.azurlane.diamond2",
 		name_display = "Pile of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -460,7 +483,7 @@ pg.base.pay_data_display = {
 		picture = "3",
 		name = "Sack of Gems",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "980 Gems",
 		first_pay_double = 1,
@@ -471,7 +494,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond3",
@@ -479,6 +505,7 @@ pg.base.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostaren.azurlane.diamond3",
 		name_display = "Sack of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -496,7 +523,7 @@ pg.base.pay_data_display = {
 		picture = "4",
 		name = "Box of Gems",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "1980 Gems",
 		first_pay_double = 1,
@@ -507,7 +534,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond4",
@@ -515,6 +545,7 @@ pg.base.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostaren.azurlane.diamond4",
 		name_display = "Box of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -532,7 +563,7 @@ pg.base.pay_data_display = {
 		picture = "5",
 		name = "Chest of Gems",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "3280 Gems",
 		first_pay_double = 1,
@@ -543,7 +574,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond5",
@@ -551,6 +585,7 @@ pg.base.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostaren.azurlane.diamond5",
 		name_display = "Chest of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -568,7 +603,7 @@ pg.base.pay_data_display = {
 		picture = "6",
 		name = "Ship of Gems",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Get $1 Gems as bonus",
 		subject = "6480 Gems",
 		first_pay_double = 1,
@@ -579,7 +614,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond6",
@@ -587,6 +625,7 @@ pg.base.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostaren.azurlane.diamond6",
 		name_display = "Ship of Gems",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -604,7 +643,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "2020 Party Dress Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "2020 Party Dress Lucky Bag",
 		first_pay_double = 0,
@@ -615,7 +654,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond138",
@@ -623,6 +665,7 @@ pg.base.pay_data_display = {
 		id = 24,
 		airijp_id = "com.yostaren.azurlane.diamond138",
 		name_display = "2020 Party Dress Lucky Bag",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -723,7 +766,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "Shougatsu Lucky Bag 2021 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Bag 2021",
 		first_pay_double = 0,
@@ -734,7 +777,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond142",
@@ -742,6 +788,7 @@ pg.base.pay_data_display = {
 		id = 25,
 		airijp_id = "com.yostaren.azurlane.diamond142",
 		name_display = "Shougatsu Lucky Bag 2021 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -842,7 +889,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "Shougatsu Lucky Bag 2020 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Bag 2020",
 		first_pay_double = 0,
@@ -853,7 +900,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond126",
@@ -861,6 +911,7 @@ pg.base.pay_data_display = {
 		id = 26,
 		airijp_id = "com.yostaren.azurlane.diamond126",
 		name_display = "Shougatsu Lucky Bag 2020 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -961,7 +1012,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "Lunar New Year Lucky Bag (2021)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2021)",
 		first_pay_double = 0,
@@ -972,7 +1023,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond143",
@@ -980,6 +1034,7 @@ pg.base.pay_data_display = {
 		id = 27,
 		airijp_id = "com.yostaren.azurlane.diamond143",
 		name_display = "Lunar New Year Lucky Bag (2021)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1080,7 +1135,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "Lunar New Year Lucky Bag (2020)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2020)",
 		first_pay_double = 0,
@@ -1091,7 +1146,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond128",
@@ -1099,6 +1157,7 @@ pg.base.pay_data_display = {
 		id = 28,
 		airijp_id = "com.yostaren.azurlane.diamond128",
 		name_display = "Lunar New Year Lucky Bag (2020)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1199,7 +1258,7 @@ pg.base.pay_data_display = {
 		picture = "lihe6_l",
 		name = "Exquisite Lucky Box 2021 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Box 2021 ",
 		first_pay_double = 0,
@@ -1210,7 +1269,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond146",
@@ -1218,6 +1280,7 @@ pg.base.pay_data_display = {
 		id = 29,
 		airijp_id = "com.yostaren.azurlane.diamond146",
 		name_display = "Exquisite Lucky Box 2021 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1318,7 +1381,7 @@ pg.base.pay_data_display = {
 		picture = "lihe1_l",
 		name = "Exquisite Lucky Bag 2020 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Bag 2020 ",
 		first_pay_double = 0,
@@ -1329,7 +1392,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond147",
@@ -1337,6 +1403,7 @@ pg.base.pay_data_display = {
 		id = 30,
 		airijp_id = "com.yostaren.azurlane.diamond147",
 		name_display = "Exquisite Lucky Bag 2020 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1437,7 +1504,7 @@ pg.base.pay_data_display = {
 		picture = "support4",
 		name = "New Commanders Support Pack IV ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "+Resources",
 		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",
 		subject = "New Commanders Support Pack IV ",
 		first_pay_double = 0,
@@ -1448,7 +1515,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond148",
@@ -1456,6 +1525,7 @@ pg.base.pay_data_display = {
 		id = 31,
 		airijp_id = "com.yostaren.azurlane.diamond148",
 		name_display = "New Commanders Support Pack IV ",
+		first_text = "Get Gems",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -1550,13 +1620,20 @@ pg.base.pay_data_display = {
 				40015,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				1980
+			}
 		}
 	},
 	[32] = {
 		picture = "lihe6_l",
 		name = "2021 Party Dress Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "2021 Party Dress Lucky Box",
 		first_pay_double = 0,
@@ -1567,7 +1644,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond151",
@@ -1575,6 +1655,7 @@ pg.base.pay_data_display = {
 		id = 32,
 		airijp_id = "com.yostaren.azurlane.diamond151",
 		name_display = "2021 Party Dress Lucky Box",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1675,7 +1756,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "2020 Party Dress Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
 		subject = "2020 Party Dress Lucky Box",
 		first_pay_double = 0,
@@ -1686,7 +1767,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond150",
@@ -1694,6 +1778,7 @@ pg.base.pay_data_display = {
 		id = 33,
 		airijp_id = "com.yostaren.azurlane.diamond150",
 		name_display = "2020 Party Dress Lucky Box",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1794,7 +1879,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "Shougatsu Lucky Box 2022 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Box 2022 ",
 		first_pay_double = 0,
@@ -1805,7 +1890,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond154",
@@ -1813,6 +1901,7 @@ pg.base.pay_data_display = {
 		id = 34,
 		airijp_id = "com.yostaren.azurlane.diamond154",
 		name_display = "Shougatsu Lucky Box 2022 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1913,7 +2002,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "Shougatsu Lucky Bag 2021 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Shougatsu Lucky Bag 2021 ",
 		first_pay_double = 0,
@@ -1924,7 +2013,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond153",
@@ -1932,6 +2024,7 @@ pg.base.pay_data_display = {
 		id = 35,
 		airijp_id = "com.yostaren.azurlane.diamond153",
 		name_display = "Shougatsu Lucky Bag 2021 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2032,7 +2125,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "Lunar New Year Lucky Bag (2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2022)",
 		first_pay_double = 0,
@@ -2043,7 +2136,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond156",
@@ -2051,6 +2147,7 @@ pg.base.pay_data_display = {
 		id = 36,
 		airijp_id = "com.yostaren.azurlane.diamond156",
 		name_display = "Lunar New Year Lucky Bag (2022)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2151,7 +2248,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "Lunar New Year Lucky Bag (2021)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Lunar New Year Lucky Bag (2021)",
 		first_pay_double = 0,
@@ -2162,7 +2259,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond155",
@@ -2170,6 +2270,7 @@ pg.base.pay_data_display = {
 		id = 37,
 		airijp_id = "com.yostaren.azurlane.diamond155",
 		name_display = "Lunar New Year Lucky Bag (2021)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2270,7 +2371,7 @@ pg.base.pay_data_display = {
 		picture = "lihe8_l",
 		name = "Exquisite Lucky Box 2022 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Box 2022 ",
 		first_pay_double = 0,
@@ -2281,7 +2382,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond167",
@@ -2289,6 +2393,7 @@ pg.base.pay_data_display = {
 		id = 38,
 		airijp_id = "com.yostaren.azurlane.diamond167",
 		name_display = "Exquisite Lucky Box 2022 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2389,7 +2494,7 @@ pg.base.pay_data_display = {
 		picture = "lihe6_l",
 		name = "Exquisite Lucky Box 2021 ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
 		subject = "Exquisite Lucky Box 2021 ",
 		first_pay_double = 0,
@@ -2400,7 +2505,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond168",
@@ -2408,6 +2516,7 @@ pg.base.pay_data_display = {
 		id = 39,
 		airijp_id = "com.yostaren.azurlane.diamond168",
 		name_display = "Exquisite Lucky Box 2021 ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2508,7 +2617,7 @@ pg.base.pay_data_display = {
 		picture = "lihe6_l",
 		name = "Party Dress Lucky Box 2021 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies.",
 		subject = "Party Dress Lucky Box 2021 Rerun",
 		first_pay_double = 0,
@@ -2519,7 +2628,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond175",
@@ -2527,6 +2639,7 @@ pg.base.pay_data_display = {
 		id = 42,
 		airijp_id = "com.yostaren.azurlane.diamond175",
 		name_display = "Party Dress Lucky Box 2021 Rerun",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2627,7 +2740,7 @@ pg.base.pay_data_display = {
 		picture = "lihe8_l",
 		name = "Party Dress Lucky Box 2022",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
 		subject = "Party Dress Lucky Box 2022",
 		first_pay_double = 0,
@@ -2638,7 +2751,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond176",
@@ -2646,6 +2762,7 @@ pg.base.pay_data_display = {
 		id = 43,
 		airijp_id = "com.yostaren.azurlane.diamond176",
 		name_display = "Party Dress Lucky Box 2022",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2746,7 +2863,7 @@ pg.base.pay_data_display = {
 		picture = "support6",
 		name = "Welcome Back Pack",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains loads of valuable rewads.",
 		subject = "Welcome Back Pack",
 		first_pay_double = 0,
@@ -2757,7 +2874,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond179",
@@ -2765,6 +2885,7 @@ pg.base.pay_data_display = {
 		id = 44,
 		airijp_id = "com.yostaren.azurlane.diamond179",
 		name_display = "Welcome Back Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2905,7 +3026,7 @@ pg.base.pay_data_display = {
 		picture = "lihe10_l",
 		name = "Winter Swimsuit Lucky Bag 2022 A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Winter Swimsuit Lucky Bag 2022 A",
 		first_pay_double = 0,
@@ -2916,7 +3037,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag2",
@@ -2924,6 +3048,7 @@ pg.base.pay_data_display = {
 		id = 45,
 		airijp_id = "com.yostaren.azurlane.luckybag2",
 		name_display = "Winter Swimsuit Lucky Bag 2022 A",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3024,7 +3149,7 @@ pg.base.pay_data_display = {
 		picture = "lihe11_l",
 		name = "Winter Swimsuit Lucky Bag 2022 B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Winter Swimsuit Lucky Bag 2022 B",
 		first_pay_double = 0,
@@ -3035,7 +3160,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag3",
@@ -3043,6 +3171,7 @@ pg.base.pay_data_display = {
 		id = 46,
 		airijp_id = "com.yostaren.azurlane.luckybag3",
 		name_display = "Winter Swimsuit Lucky Bag 2022 B",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3143,7 +3272,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "Shougatsu Lucky Box 2022 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
 		subject = "Shougatsu Lucky Box 2022 Rerun",
 		first_pay_double = 0,
@@ -3154,7 +3283,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag1",
@@ -3162,6 +3294,7 @@ pg.base.pay_data_display = {
 		id = 47,
 		airijp_id = "com.yostaren.azurlane.luckybag1",
 		name_display = "Shougatsu Lucky Box 2022 Rerun",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3262,7 +3395,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp1",
 		name = "Spring Lucky Bag 2023 A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2023 A",
 		first_pay_double = 0,
@@ -3273,7 +3406,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag5",
@@ -3281,6 +3417,7 @@ pg.base.pay_data_display = {
 		id = 48,
 		airijp_id = "com.yostaren.azurlane.luckybag5",
 		name_display = "Spring Lucky Bag 2023 A",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3381,7 +3518,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp2",
 		name = "Spring Lucky Bag 2023 B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2023 B",
 		first_pay_double = 0,
@@ -3392,7 +3529,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag7",
@@ -3400,6 +3540,7 @@ pg.base.pay_data_display = {
 		id = 49,
 		airijp_id = "com.yostaren.azurlane.luckybag7",
 		name_display = "Spring Lucky Bag 2023 B",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3500,7 +3641,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "Lunar New Year Lucky Bag 2022 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
 		subject = "Lunar New Year Lucky Bag 2022 Rerun",
 		first_pay_double = 0,
@@ -3511,7 +3652,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag6",
@@ -3519,6 +3663,7 @@ pg.base.pay_data_display = {
 		id = 50,
 		airijp_id = "com.yostaren.azurlane.luckybag6",
 		name_display = "Lunar New Year Lucky Bag 2022 Rerun",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3619,7 +3764,7 @@ pg.base.pay_data_display = {
 		picture = "lihecn6ss_l",
 		name = "Swimsuit Lucky Bag 2023",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains items, resources, and a random Summer 2023 swimsuit skin.",
 		subject = "Swimsuit Lucky Bag 2023",
 		first_pay_double = 0,
@@ -3630,7 +3775,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag10",
@@ -3638,6 +3785,7 @@ pg.base.pay_data_display = {
 		id = 51,
 		airijp_id = "com.yostaren.azurlane.luckybag10",
 		name_display = "Swimsuit Lucky Bag 2023",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -3709,18 +3857,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -3732,13 +3880,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[52] = {
 		picture = "liheus6lf_l",
 		name = "Exquisite Lucky Box 2023",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Exquisite Lucky Box 2023",
 		first_pay_double = 0,
@@ -3749,7 +3909,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag11",
@@ -3757,6 +3919,7 @@ pg.base.pay_data_display = {
 		id = 52,
 		airijp_id = "com.yostaren.azurlane.luckybag11",
 		name_display = "Exquisite Lucky Box 2023",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -3828,18 +3991,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -3851,13 +4014,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[53] = {
 		picture = "lihe8_l",
 		name = "Exquisite Lucky Box 2022 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
 		subject = "Exquisite Lucky Box 2022 Rerun",
 		first_pay_double = 0,
@@ -3868,7 +4043,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag12",
@@ -3876,6 +4053,7 @@ pg.base.pay_data_display = {
 		id = 53,
 		airijp_id = "com.yostaren.azurlane.luckybag12",
 		name_display = "Exquisite Lucky Box 2022 Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69919,
 		extra_service = 3,
@@ -3947,18 +4125,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69919,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42036,
+				2
 			},
 			{
 				2,
-				42036,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -3970,13 +4148,25 @@ pg.base.pay_data_display = {
 				40919,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[55] = {
 		picture = "lihejp6lf_l",
 		name = "Autumn Classics Lucky Box ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Autumn Classics Lucky Box ",
 		first_pay_double = 0,
@@ -3987,7 +4177,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag16",
@@ -3995,6 +4187,7 @@ pg.base.pay_data_display = {
 		id = 55,
 		airijp_id = "com.yostaren.azurlane.luckybag16",
 		name_display = "Autumn Classics Lucky Box ",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -4066,18 +4259,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4089,13 +4282,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[56] = {
 		picture = "lihe8_l",
 		name = "Party Dress Lucky Box 2022 Rerun ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
 		subject = "Party Dress Lucky Box 2022 Rerun ",
 		first_pay_double = 0,
@@ -4106,7 +4311,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag17",
@@ -4114,6 +4321,7 @@ pg.base.pay_data_display = {
 		id = 56,
 		airijp_id = "com.yostaren.azurlane.luckybag17",
 		name_display = "Party Dress Lucky Box 2022 Rerun ",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69920,
 		extra_service = 3,
@@ -4185,18 +4393,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69920,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4208,13 +4416,25 @@ pg.base.pay_data_display = {
 				40920,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[57] = {
 		picture = "lihejp6ss_l",
 		name = "Fashion Collection Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Fashion Collection Lucky Bag ",
 		first_pay_double = 0,
@@ -4225,7 +4445,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag15",
@@ -4233,6 +4455,7 @@ pg.base.pay_data_display = {
 		id = 57,
 		airijp_id = "com.yostaren.azurlane.luckybag15",
 		name_display = "Fashion Collection Lucky Bag ",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -4304,18 +4527,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4327,13 +4550,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[61] = {
 		picture = "fudai9",
 		name = "Resplendent Night Lucky Bag I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Resplendent Night Lucky Bag I",
 		first_pay_double = 0,
@@ -4344,7 +4579,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag21",
@@ -4352,6 +4589,7 @@ pg.base.pay_data_display = {
 		id = 61,
 		airijp_id = "com.yostaren.azurlane.luckybag21",
 		name_display = "Resplendent Night Lucky Bag I",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -4423,18 +4661,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4446,13 +4684,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[62] = {
 		picture = "lihe10_l",
 		name = "Winter Swimsuit Lucky Bag 2022 A Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Winter Swimsuit Lucky Bag 2022 A Rerun",
 		first_pay_double = 0,
@@ -4463,7 +4713,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag20",
@@ -4471,6 +4723,7 @@ pg.base.pay_data_display = {
 		id = 62,
 		airijp_id = "com.yostaren.azurlane.luckybag20",
 		name_display = "Winter Swimsuit Lucky Bag 2022 A Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69922,
 		extra_service = 3,
@@ -4542,18 +4795,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69922,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4565,13 +4818,25 @@ pg.base.pay_data_display = {
 				40922,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[63] = {
 		picture = "fudai10",
 		name = "Resplendent Night Lucky Bag II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Resplendent Night Lucky Bag II",
 		first_pay_double = 0,
@@ -4582,7 +4847,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag23",
@@ -4590,6 +4857,7 @@ pg.base.pay_data_display = {
 		id = 63,
 		airijp_id = "com.yostaren.azurlane.luckybag23",
 		name_display = "Resplendent Night Lucky Bag II",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -4661,18 +4929,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4684,13 +4952,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[64] = {
 		picture = "lihe11_l",
 		name = "Winter Swimsuit Lucky Bag 2022 B Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Winter Swimsuit Lucky Bag 2022 B Rerun",
 		first_pay_double = 0,
@@ -4701,7 +4981,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag22",
@@ -4709,6 +4991,7 @@ pg.base.pay_data_display = {
 		id = 64,
 		airijp_id = "com.yostaren.azurlane.luckybag22",
 		name_display = "Winter Swimsuit Lucky Bag 2022 B Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69923,
 		extra_service = 3,
@@ -4780,18 +5063,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69923,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4803,13 +5086,25 @@ pg.base.pay_data_display = {
 				40923,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[65] = {
 		picture = "fudai11",
 		name = "Spring Lucky Box 2024 A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Box 2024 A",
 		first_pay_double = 0,
@@ -4820,7 +5115,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag25",
@@ -4828,6 +5125,7 @@ pg.base.pay_data_display = {
 		id = 65,
 		airijp_id = "com.yostaren.azurlane.luckybag25",
 		name_display = "Spring Lucky Box 2024 A",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -4899,18 +5197,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -4922,13 +5220,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[66] = {
 		picture = "fudaiqp1",
 		name = "Spring Lucky Bag 2023 A Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2023 A Rerun",
 		first_pay_double = 0,
@@ -4939,7 +5249,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag24",
@@ -4947,6 +5259,7 @@ pg.base.pay_data_display = {
 		id = 66,
 		airijp_id = "com.yostaren.azurlane.luckybag24",
 		name_display = "Spring Lucky Bag 2023 A Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69924,
 		extra_service = 3,
@@ -5018,18 +5331,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69924,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5041,13 +5354,25 @@ pg.base.pay_data_display = {
 				40924,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[67] = {
 		picture = "fudai12",
 		name = "Spring Lucky Box 2024 B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Box 2024 B",
 		first_pay_double = 0,
@@ -5058,7 +5383,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag27",
@@ -5066,6 +5393,7 @@ pg.base.pay_data_display = {
 		id = 67,
 		airijp_id = "com.yostaren.azurlane.luckybag27",
 		name_display = "Spring Lucky Box 2024 B",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -5137,18 +5465,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5160,13 +5488,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[68] = {
 		picture = "fudaiqp2",
 		name = "Spring Lucky Bag 2023 B Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2023 B Rerun",
 		first_pay_double = 0,
@@ -5177,7 +5517,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag26",
@@ -5185,6 +5527,7 @@ pg.base.pay_data_display = {
 		id = 68,
 		airijp_id = "com.yostaren.azurlane.luckybag26",
 		name_display = "Spring Lucky Bag 2023 B Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69925,
 		extra_service = 3,
@@ -5256,18 +5599,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69925,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5279,13 +5622,25 @@ pg.base.pay_data_display = {
 				40925,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[69] = {
 		picture = "fudai13",
 		name = "Swimsuit Lucky Bag 2024",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Swimsuit Lucky Bag 2024",
 		first_pay_double = 0,
@@ -5296,7 +5651,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag31",
@@ -5304,6 +5661,7 @@ pg.base.pay_data_display = {
 		id = 69,
 		airijp_id = "com.yostaren.azurlane.luckybag31",
 		name_display = "Swimsuit Lucky Bag 2024",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -5375,18 +5733,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5398,13 +5756,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[70] = {
 		picture = "lihecn6ss_l",
 		name = "Swimsuit Lucky Bag 2023 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Swimsuit Lucky Bag 2023 Rerun",
 		first_pay_double = 0,
@@ -5415,7 +5785,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag32",
@@ -5423,6 +5795,7 @@ pg.base.pay_data_display = {
 		id = 70,
 		airijp_id = "com.yostaren.azurlane.luckybag32",
 		name_display = "Swimsuit Lucky Bag 2023 Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -5494,18 +5867,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5517,13 +5890,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[71] = {
 		picture = "fudai14",
 		name = "Exquisite Lucky Envelope 2024",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Exquisite Lucky Envelope 2024",
 		first_pay_double = 0,
@@ -5534,7 +5919,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag33",
@@ -5542,6 +5929,7 @@ pg.base.pay_data_display = {
 		id = 71,
 		airijp_id = "com.yostaren.azurlane.luckybag33",
 		name_display = "Exquisite Lucky Envelope 2024",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -5613,18 +6001,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5636,13 +6024,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[72] = {
 		picture = "lihecn6lf_l",
 		name = "Exquisite Lucky Box 2023 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Exquisite Lucky Box 2023 Rerun",
 		first_pay_double = 0,
@@ -5653,7 +6053,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag34",
@@ -5661,6 +6063,7 @@ pg.base.pay_data_display = {
 		id = 72,
 		airijp_id = "com.yostaren.azurlane.luckybag34",
 		name_display = "Exquisite Lucky Box 2023 Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -5732,18 +6135,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5755,13 +6158,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[73] = {
 		picture = "fudai15",
 		name = "Dreamland Lucky Bag A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Dreamland Lucky Bag A",
 		first_pay_double = 0,
@@ -5772,7 +6187,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag38",
@@ -5780,6 +6197,7 @@ pg.base.pay_data_display = {
 		id = 73,
 		airijp_id = "com.yostaren.azurlane.luckybag38",
 		name_display = "Dreamland Lucky Bag A",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86206,
 		extra_service = 3,
@@ -5851,18 +6269,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86206,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5874,13 +6292,25 @@ pg.base.pay_data_display = {
 				81206,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[74] = {
 		picture = "lihejp6ss_l",
 		name = "Fashion Collection Lucky Bag Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Fashion Collection Lucky Bag Rerun",
 		first_pay_double = 0,
@@ -5891,7 +6321,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag39",
@@ -5899,6 +6331,7 @@ pg.base.pay_data_display = {
 		id = 74,
 		airijp_id = "com.yostaren.azurlane.luckybag39",
 		name_display = "Fashion Collection Lucky Bag Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -5970,18 +6403,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5993,13 +6426,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[75] = {
 		picture = "fudai16",
 		name = "Dreamland Lucky Bag B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Dreamland Lucky Bag B",
 		first_pay_double = 0,
@@ -6010,7 +6455,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag40",
@@ -6018,6 +6465,7 @@ pg.base.pay_data_display = {
 		id = 75,
 		airijp_id = "com.yostaren.azurlane.luckybag40",
 		name_display = "Dreamland Lucky Bag B",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86207,
 		extra_service = 3,
@@ -6089,18 +6537,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86207,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6112,13 +6560,25 @@ pg.base.pay_data_display = {
 				81207,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[76] = {
 		picture = "lihejp6lf_l",
 		name = "Autumn Classics Lucky Box Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
 		subject = "Autumn Classics Lucky Box Rerun",
 		first_pay_double = 0,
@@ -6129,7 +6589,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag41",
@@ -6137,6 +6599,7 @@ pg.base.pay_data_display = {
 		id = 76,
 		airijp_id = "com.yostaren.azurlane.luckybag41",
 		name_display = "Autumn Classics Lucky Box Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -6208,18 +6671,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6231,13 +6694,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[77] = {
 		picture = "pack_2024_98",
 		name = "Choose-Your-Own Gift Pack I",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
 		subject = "Choose-Your-Own Gift Pack I",
 		first_pay_double = 0,
@@ -6248,7 +6723,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfchoosebag3",
@@ -6256,6 +6734,7 @@ pg.base.pay_data_display = {
 		id = 77,
 		airijp_id = "com.yostaren.azurlane.bfchoosebag3",
 		name_display = "Choose-Your-Own Gift Pack I",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -6341,7 +6820,7 @@ pg.base.pay_data_display = {
 		picture = "pack_2024_198",
 		name = "Choose-Your-Own Gift Pack II",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
 		subject = "Choose-Your-Own Gift Pack II",
 		first_pay_double = 0,
@@ -6352,7 +6831,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfchoosebag4",
@@ -6360,6 +6842,7 @@ pg.base.pay_data_display = {
 		id = 78,
 		airijp_id = "com.yostaren.azurlane.bfchoosebag4",
 		name_display = "Choose-Your-Own Gift Pack II",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -6450,7 +6933,7 @@ pg.base.pay_data_display = {
 		picture = "pack_2024_328",
 		name = "Choose-Your-Own Gift Pack III",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
 		subject = "Choose-Your-Own Gift Pack III",
 		first_pay_double = 0,
@@ -6461,7 +6944,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfchoosebag5",
@@ -6469,6 +6955,7 @@ pg.base.pay_data_display = {
 		id = 79,
 		airijp_id = "com.yostaren.azurlane.bfchoosebag5",
 		name_display = "Choose-Your-Own Gift Pack III",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -6574,7 +7061,7 @@ pg.base.pay_data_display = {
 		picture = "fudai19",
 		name = "Game Night Lucky Bag A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains items, resources, and a random skin.",
 		subject = "Game Night Lucky Bag A",
 		first_pay_double = 0,
@@ -6585,7 +7072,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag45",
@@ -6593,6 +7082,7 @@ pg.base.pay_data_display = {
 		id = 82,
 		airijp_id = "com.yostaren.azurlane.luckybag45",
 		name_display = "Game Night Lucky Bag A",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86208,
 		extra_service = 3,
@@ -6664,18 +7154,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86208,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6687,13 +7177,25 @@ pg.base.pay_data_display = {
 				81208,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[83] = {
 		picture = "fudai9",
 		name = "Resplendent Night Lucky Bag I Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains items, resources, and a random skin.",
 		subject = "Resplendent Night Lucky Bag I Rerun",
 		first_pay_double = 0,
@@ -6704,7 +7206,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag46",
@@ -6712,6 +7216,7 @@ pg.base.pay_data_display = {
 		id = 83,
 		airijp_id = "com.yostaren.azurlane.luckybag46",
 		name_display = "Resplendent Night Lucky Bag I Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -6783,18 +7288,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6806,13 +7311,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[84] = {
 		picture = "fudai20",
 		name = "Game Night Lucky Bag B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains items, resources, and a random skin.",
 		subject = "Game Night Lucky Bag B",
 		first_pay_double = 0,
@@ -6823,7 +7340,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag47",
@@ -6831,6 +7350,7 @@ pg.base.pay_data_display = {
 		id = 84,
 		airijp_id = "com.yostaren.azurlane.luckybag47",
 		name_display = "Game Night Lucky Bag B",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86209,
 		extra_service = 3,
@@ -6902,18 +7422,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86209,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6925,13 +7445,25 @@ pg.base.pay_data_display = {
 				81209,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[85] = {
 		picture = "fudai10",
 		name = "Resplendent Night Lucky Bag II Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains items, resources, and a random skin.",
 		subject = "Resplendent Night Lucky Bag II Rerun",
 		first_pay_double = 0,
@@ -6942,7 +7474,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag48",
@@ -6950,6 +7484,7 @@ pg.base.pay_data_display = {
 		id = 85,
 		airijp_id = "com.yostaren.azurlane.luckybag48",
 		name_display = "Resplendent Night Lucky Bag II Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -7021,18 +7556,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7044,13 +7579,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[86] = {
 		picture = "fudai21",
 		name = "Spring Lucky Bag 2025 A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2025 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2025 A",
 		first_pay_double = 0,
@@ -7061,7 +7608,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag49",
@@ -7069,6 +7618,7 @@ pg.base.pay_data_display = {
 		id = 86,
 		airijp_id = "com.yostaren.azurlane.luckybag49",
 		name_display = "Spring Lucky Bag 2025 A",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86210,
 		extra_service = 3,
@@ -7140,18 +7690,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86210,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7163,13 +7713,25 @@ pg.base.pay_data_display = {
 				81210,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[87] = {
 		picture = "fudai22",
 		name = "Spring Lucky Bag 2025 B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2025 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Bag 2025 B",
 		first_pay_double = 0,
@@ -7180,7 +7742,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag51",
@@ -7188,6 +7752,7 @@ pg.base.pay_data_display = {
 		id = 87,
 		airijp_id = "com.yostaren.azurlane.luckybag51",
 		name_display = "Spring Lucky Bag 2025 B",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86211,
 		extra_service = 3,
@@ -7259,18 +7824,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86211,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7282,13 +7847,25 @@ pg.base.pay_data_display = {
 				81211,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[88] = {
 		picture = "fudai11",
 		name = "Spring Lucky Box 2024 A (Rerun)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Box 2024 A (Rerun)",
 		first_pay_double = 0,
@@ -7299,7 +7876,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag50",
@@ -7307,6 +7886,7 @@ pg.base.pay_data_display = {
 		id = 88,
 		airijp_id = "com.yostaren.azurlane.luckybag50",
 		name_display = "Spring Lucky Box 2024 A (Rerun)",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -7378,18 +7958,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7401,13 +7981,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[89] = {
 		picture = "fudai12",
 		name = "Spring Lucky Box 2024 B (Rerun)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Spring Lucky Box 2024 B (Rerun)",
 		first_pay_double = 0,
@@ -7418,7 +8010,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag52",
@@ -7426,6 +8020,7 @@ pg.base.pay_data_display = {
 		id = 89,
 		airijp_id = "com.yostaren.azurlane.luckybag52",
 		name_display = "Spring Lucky Box 2024 B (Rerun)",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -7497,18 +8092,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7520,13 +8115,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[90] = {
 		picture = "fudai23",
 		name = "School Return Lucky Box",
 		type = 1,
-		limit_arg = 2,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
 		subject = "School Return Lucky Box",
 		first_pay_double = 0,
@@ -7537,7 +8144,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag55",
@@ -7545,6 +8154,7 @@ pg.base.pay_data_display = {
 		id = 90,
 		airijp_id = "com.yostaren.azurlane.luckybag55",
 		name_display = "School Return Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86212,
 		extra_service = 3,
@@ -7600,9 +8210,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86212,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -7624,13 +8234,20 @@ pg.base.pay_data_display = {
 				81212,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86212,
+				1
+			}
 		}
 	},
 	[91] = {
 		picture = "fudai24",
 		name = "Swimsuit Lucky Bag 2025 A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
 		subject = "Swimsuit Lucky Bag 2025 A",
 		first_pay_double = 0,
@@ -7641,7 +8258,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag57",
@@ -7649,6 +8268,7 @@ pg.base.pay_data_display = {
 		id = 91,
 		airijp_id = "com.yostaren.azurlane.luckybag57",
 		name_display = "Swimsuit Lucky Bag 2025 A",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86213,
 		extra_service = 3,
@@ -7720,18 +8340,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86213,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7743,13 +8363,25 @@ pg.base.pay_data_display = {
 				81213,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[92] = {
 		picture = "fudai13",
 		name = "Swimsuit Lucky Bag 2024 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
 		subject = "Swimsuit Lucky Bag 2024 Rerun",
 		first_pay_double = 0,
@@ -7760,7 +8392,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag58",
@@ -7768,6 +8402,7 @@ pg.base.pay_data_display = {
 		id = 92,
 		airijp_id = "com.yostaren.azurlane.luckybag58",
 		name_display = "Swimsuit Lucky Bag 2024 Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -7839,18 +8474,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7862,13 +8497,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[93] = {
 		picture = "fudai25",
 		name = "Swimsuit Lucky Bag 2025 B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
 		subject = "Swimsuit Lucky Bag 2025 B",
 		first_pay_double = 0,
@@ -7879,7 +8526,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag59",
@@ -7887,6 +8536,7 @@ pg.base.pay_data_display = {
 		id = 93,
 		airijp_id = "com.yostaren.azurlane.luckybag59",
 		name_display = "Swimsuit Lucky Bag 2025 B",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86214,
 		extra_service = 3,
@@ -7958,18 +8608,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86214,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7981,13 +8631,25 @@ pg.base.pay_data_display = {
 				81214,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[94] = {
 		picture = "fudai14",
 		name = "Exquisite Lucky Envelope 2024 Rerun",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
 		subject = "Exquisite Lucky Envelope 2024 Rerun",
 		first_pay_double = 0,
@@ -7998,7 +8660,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag60",
@@ -8006,6 +8670,7 @@ pg.base.pay_data_display = {
 		id = 94,
 		airijp_id = "com.yostaren.azurlane.luckybag60",
 		name_display = "Exquisite Lucky Envelope 2024 Rerun",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -8077,18 +8742,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8100,13 +8765,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[95] = {
 		picture = "fudai26",
 		name = "Bunny Girl Return Lucky Box",
 		type = 1,
-		limit_arg = 2,
+		second_text = "Many Rewards",
 		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
 		subject = "Bunny Girl Return Lucky Box",
 		first_pay_double = 0,
@@ -8117,7 +8794,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag62",
@@ -8125,6 +8804,7 @@ pg.base.pay_data_display = {
 		id = 95,
 		airijp_id = "com.yostaren.azurlane.luckybag62",
 		name_display = "Bunny Girl Return Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86215,
 		extra_service = 3,
@@ -8180,9 +8860,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86215,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -8204,13 +8884,20 @@ pg.base.pay_data_display = {
 				81215,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86215,
+				1
+			}
 		}
 	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8221,7 +8908,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport2",
@@ -8229,6 +8919,7 @@ pg.base.pay_data_display = {
 		id = 1000,
 		airijp_id = "com.yostaren.azurlane.passport2",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8291,7 +8982,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8302,7 +8993,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport3",
@@ -8310,6 +9004,7 @@ pg.base.pay_data_display = {
 		id = 1001,
 		airijp_id = "com.yostaren.azurlane.passport3",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8372,7 +9067,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8383,7 +9078,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport4",
@@ -8391,6 +9089,7 @@ pg.base.pay_data_display = {
 		id = 1002,
 		airijp_id = "com.yostaren.azurlane.passport4",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8453,7 +9152,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8464,7 +9163,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport5",
@@ -8472,6 +9174,7 @@ pg.base.pay_data_display = {
 		id = 1003,
 		airijp_id = "com.yostaren.azurlane.passport5",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8534,7 +9237,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8545,7 +9248,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport6",
@@ -8553,6 +9259,7 @@ pg.base.pay_data_display = {
 		id = 1004,
 		airijp_id = "com.yostaren.azurlane.passport6",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8615,7 +9322,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8626,7 +9333,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport7",
@@ -8634,6 +9344,7 @@ pg.base.pay_data_display = {
 		id = 1005,
 		airijp_id = "com.yostaren.azurlane.passport7",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8696,7 +9407,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8707,7 +9418,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport8",
@@ -8715,6 +9429,7 @@ pg.base.pay_data_display = {
 		id = 1006,
 		airijp_id = "com.yostaren.azurlane.passport8",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8777,7 +9492,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8788,7 +9503,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport10",
@@ -8796,6 +9514,7 @@ pg.base.pay_data_display = {
 		id = 1007,
 		airijp_id = "com.yostaren.azurlane.passport10",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8858,7 +9577,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8869,7 +9588,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport11",
@@ -8877,6 +9599,7 @@ pg.base.pay_data_display = {
 		id = 1008,
 		airijp_id = "com.yostaren.azurlane.passport11",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -8939,7 +9662,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -8950,7 +9673,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport12",
@@ -8958,6 +9684,7 @@ pg.base.pay_data_display = {
 		id = 1009,
 		airijp_id = "com.yostaren.azurlane.passport12",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9020,7 +9747,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9031,7 +9758,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport13",
@@ -9039,6 +9769,7 @@ pg.base.pay_data_display = {
 		id = 1010,
 		airijp_id = "com.yostaren.azurlane.passport13",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9101,7 +9832,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9112,7 +9843,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport14",
@@ -9120,6 +9854,7 @@ pg.base.pay_data_display = {
 		id = 1011,
 		airijp_id = "com.yostaren.azurlane.passport14",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9182,7 +9917,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.10)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9193,7 +9928,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport15",
@@ -9201,6 +9939,7 @@ pg.base.pay_data_display = {
 		id = 1012,
 		airijp_id = "com.yostaren.azurlane.passport15",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9263,7 +10002,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2023.12)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9274,7 +10013,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport16",
@@ -9282,6 +10024,7 @@ pg.base.pay_data_display = {
 		id = 1013,
 		airijp_id = "com.yostaren.azurlane.passport16",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9344,7 +10087,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9355,7 +10098,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport17",
@@ -9363,6 +10109,7 @@ pg.base.pay_data_display = {
 		id = 1014,
 		airijp_id = "com.yostaren.azurlane.passport17",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9425,7 +10172,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9436,7 +10183,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport18",
@@ -9444,6 +10194,7 @@ pg.base.pay_data_display = {
 		id = 1015,
 		airijp_id = "com.yostaren.azurlane.passport18",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9506,7 +10257,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9517,7 +10268,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport19",
@@ -9525,6 +10279,7 @@ pg.base.pay_data_display = {
 		id = 1016,
 		airijp_id = "com.yostaren.azurlane.passport19",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9587,7 +10342,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9598,7 +10353,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport20",
@@ -9606,6 +10364,7 @@ pg.base.pay_data_display = {
 		id = 1017,
 		airijp_id = "com.yostaren.azurlane.passport20",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9668,7 +10427,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.10)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9679,7 +10438,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport21",
@@ -9687,6 +10449,7 @@ pg.base.pay_data_display = {
 		id = 1018,
 		airijp_id = "com.yostaren.azurlane.passport21",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9749,7 +10512,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2024.12)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9760,7 +10523,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport22",
@@ -9768,6 +10534,7 @@ pg.base.pay_data_display = {
 		id = 1019,
 		airijp_id = "com.yostaren.azurlane.passport22",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9830,7 +10597,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9841,7 +10608,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport23",
@@ -9849,6 +10619,7 @@ pg.base.pay_data_display = {
 		id = 1020,
 		airijp_id = "com.yostaren.azurlane.passport23",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9911,7 +10682,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass 2025.4",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -9922,7 +10693,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport24",
@@ -9930,6 +10704,7 @@ pg.base.pay_data_display = {
 		id = 1021,
 		airijp_id = "com.yostaren.azurlane.passport24",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9992,7 +10767,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -10003,7 +10778,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport25",
@@ -10011,6 +10789,7 @@ pg.base.pay_data_display = {
 		id = 1022,
 		airijp_id = "com.yostaren.azurlane.passport25",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10073,7 +10852,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass (2025.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "Unlock Special Rewards",
 		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
 		subject = "Fair Winds Cruise Pass",
 		first_pay_double = 0,
@@ -10084,7 +10863,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.passport26",
@@ -10092,6 +10874,7 @@ pg.base.pay_data_display = {
 		id = 1023,
 		airijp_id = "com.yostaren.azurlane.passport26",
 		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10154,7 +10937,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_display",
 		name = "PR Construction Pack - Series 1",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+Blueprints",
 		descrip = "Contains one PR Voucher - Series 1 and 343 General Blueprints - Series 1.",
 		subject = "PR Construction Pack - Series 1",
 		first_pay_double = 0,
@@ -10165,7 +10948,9 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond158",
@@ -10173,6 +10958,7 @@ pg.base.pay_data_display = {
 		id = 2001,
 		airijp_id = "com.yostaren.azurlane.diamond158",
 		name_display = "PR Construction Pack - Series 1",
+		first_text = "Development Ship",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10194,11 +10980,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40124,
-				1
-			},
-			{
-				2,
 				42000,
 				343
 			}
@@ -10211,13 +10992,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40124,
+				1
+			}
+		}
 	},
 	[2002] = {
 		picture = "tech1_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 1",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Voucher & Blueprint Bundle",
 		first_pay_double = 0,
@@ -10228,7 +11016,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond158",
@@ -10236,6 +11027,7 @@ pg.base.pay_data_display = {
 		id = 2002,
 		airijp_id = "com.yostaren.azurlane.diamond158",
 		name_display = "PR Voucher & Blueprint \n         Bundle - Series 1",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10286,7 +11078,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_normal",
 		name = "PR Voucher - Series 1",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Voucher",
 		first_pay_double = 0,
@@ -10297,7 +11089,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond159",
@@ -10305,6 +11100,7 @@ pg.base.pay_data_display = {
 		id = 2003,
 		airijp_id = "com.yostaren.azurlane.diamond159",
 		name_display = "PR Voucher - Series 1",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10345,7 +11141,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_promotion",
 		name = "PR Blueprint Pack - Series 1",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Blueprints",
 		first_pay_double = 0,
@@ -10356,7 +11152,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond160",
@@ -10364,6 +11163,7 @@ pg.base.pay_data_display = {
 		id = 2004,
 		airijp_id = "com.yostaren.azurlane.diamond160",
 		name_display = "PR Blueprint Pack - Series 1",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10404,7 +11204,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_display",
 		name = "PR Construction Pack - Series 2",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+Blueprints",
 		descrip = "Contains one PR Voucher - Series 2 and 343 General Blueprints - Series 2.",
 		subject = "PR Construction Pack - Series 2",
 		first_pay_double = 0,
@@ -10415,7 +11215,9 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond161",
@@ -10423,6 +11225,7 @@ pg.base.pay_data_display = {
 		id = 2005,
 		airijp_id = "com.yostaren.azurlane.diamond161",
 		name_display = "PR Construction Pack - Series 2",
+		first_text = "Development Ship",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10444,11 +11247,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40125,
-				1
-			},
-			{
-				2,
 				42010,
 				343
 			}
@@ -10461,13 +11259,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40125,
+				1
+			}
+		}
 	},
 	[2006] = {
 		picture = "tech2_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 2",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher & Blueprint Bundle - Series 2",
 		first_pay_double = 0,
@@ -10478,7 +11283,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond161",
@@ -10486,6 +11294,7 @@ pg.base.pay_data_display = {
 		id = 2006,
 		airijp_id = "com.yostaren.azurlane.diamond161",
 		name_display = "PR Voucher & Blueprint \n         Bundle - Series 2",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10536,7 +11345,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_normal",
 		name = "PR Voucher - Series 2",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Voucher",
 		first_pay_double = 0,
@@ -10547,7 +11356,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond162",
@@ -10555,6 +11367,7 @@ pg.base.pay_data_display = {
 		id = 2007,
 		airijp_id = "com.yostaren.azurlane.diamond162",
 		name_display = "PR Voucher - Series 2",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10595,7 +11408,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_promotion",
 		name = "PR Blueprint Pack - Series 2",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Blueprints",
 		first_pay_double = 0,
@@ -10606,7 +11419,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond163",
@@ -10614,6 +11430,7 @@ pg.base.pay_data_display = {
 		id = 2008,
 		airijp_id = "com.yostaren.azurlane.diamond163",
 		name_display = "PR Blueprint Pack - Series 2",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10654,7 +11471,7 @@ pg.base.pay_data_display = {
 		picture = "lv_70",
 		name = "Commander Level Boost Pack",
 		type = 0,
-		limit_arg = 1,
+		second_text = "In Addition",
 		descrip = "Buying this pack will raise your Commander Level to 70 and grant you many useful items.",
 		subject = "Commander Level Boost Pack",
 		first_pay_double = 0,
@@ -10665,7 +11482,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 7,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond164",
@@ -10673,6 +11492,7 @@ pg.base.pay_data_display = {
 		id = 2009,
 		airijp_id = "com.yostaren.azurlane.diamond164",
 		name_display = "Commander Level Boost Pack",
+		first_text = "Upgrade to Commander Lv. 70",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -10709,11 +11529,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40126,
-				1
-			},
-			{
-				2,
 				16502,
 				200
 			},
@@ -10737,13 +11552,20 @@ pg.base.pay_data_display = {
 				40022,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				40126,
+				1
+			}
 		}
 	},
 	[2010] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -10754,7 +11576,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond165",
@@ -10762,6 +11587,7 @@ pg.base.pay_data_display = {
 		id = 2010,
 		airijp_id = "com.yostaren.azurlane.diamond165",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -10857,7 +11683,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -10868,7 +11694,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond172",
@@ -10876,6 +11705,7 @@ pg.base.pay_data_display = {
 		id = 2011,
 		airijp_id = "com.yostaren.azurlane.diamond172",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -10971,7 +11801,7 @@ pg.base.pay_data_display = {
 		picture = "usfudai1",
 		name = "Nep's Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
 		subject = "Nep's Lucky Bag",
 		first_pay_double = 0,
@@ -10982,7 +11812,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond110",
@@ -10990,6 +11823,7 @@ pg.base.pay_data_display = {
 		id = 100,
 		airijp_id = "com.yostaren.azurlane.diamond110",
 		name_display = "Nep's Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11079,7 +11913,7 @@ pg.base.pay_data_display = {
 		picture = "usfudai2",
 		name = "Black Friday Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x School Girl Ship skin, 3 x School Gear skins, and other rewards.",
 		subject = "Black Friday Lucky Bag",
 		first_pay_double = 0,
@@ -11090,7 +11924,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond111",
@@ -11098,6 +11935,7 @@ pg.base.pay_data_display = {
 		id = 101,
 		airijp_id = "com.yostaren.azurlane.diamond111",
 		name_display = "Black Friday Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11197,7 +12035,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "Christmas Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Christmas Ship skin, 3 x Christmas Gear skins, and other rewards. ",
 		subject = "Christmas Lucky Bag ",
 		first_pay_double = 0,
@@ -11208,7 +12046,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond112",
@@ -11216,6 +12057,7 @@ pg.base.pay_data_display = {
 		id = 102,
 		airijp_id = "com.yostaren.azurlane.diamond112",
 		name_display = "Christmas Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11305,7 +12147,7 @@ pg.base.pay_data_display = {
 		picture = "fudai49",
 		name = "Heartthrob Pack",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
 		subject = "Heartthrob Pack",
 		first_pay_double = 0,
@@ -11316,7 +12158,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond113",
@@ -11324,6 +12169,7 @@ pg.base.pay_data_display = {
 		id = 103,
 		airijp_id = "com.yostaren.azurlane.diamond113",
 		name_display = "Heartthrob Pack",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11403,7 +12249,7 @@ pg.base.pay_data_display = {
 		picture = "fudai50",
 		name = "Santa's Lucky Sack (Daily)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
 		subject = "Santa's Lucky Sack (Daily)",
 		first_pay_double = 0,
@@ -11414,7 +12260,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond114",
@@ -11422,6 +12271,7 @@ pg.base.pay_data_display = {
 		id = 104,
 		airijp_id = "com.yostaren.azurlane.diamond114",
 		name_display = "Santa's Lucky Sack (Daily)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11506,7 +12356,7 @@ pg.base.pay_data_display = {
 		picture = "fudai51",
 		name = "Shougatsu Lucky Bag (2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Shogatsu Lucky Bag ",
 		first_pay_double = 0,
@@ -11517,7 +12367,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond115",
@@ -11525,6 +12378,7 @@ pg.base.pay_data_display = {
 		id = 105,
 		airijp_id = "com.yostaren.azurlane.diamond115",
 		name_display = "Shougatsu Lucky Bag (2019)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11614,7 +12468,7 @@ pg.base.pay_data_display = {
 		picture = "fudai52",
 		name = "Lunar New Year Lucky Bag (2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag ",
 		first_pay_double = 0,
@@ -11625,7 +12479,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond116",
@@ -11633,6 +12490,7 @@ pg.base.pay_data_display = {
 		id = 106,
 		airijp_id = "com.yostaren.azurlane.diamond116",
 		name_display = "Lunar New Year Lucky Bag (2019)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11727,7 +12585,7 @@ pg.base.pay_data_display = {
 		picture = "fudai53",
 		name = "Glacier Blast ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
 		subject = "Glacier Blast ",
 		first_pay_double = 0,
@@ -11738,7 +12596,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond117",
@@ -11746,6 +12607,7 @@ pg.base.pay_data_display = {
 		id = 107,
 		airijp_id = "com.yostaren.azurlane.diamond117",
 		name_display = "Glacier Blast ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11835,7 +12697,7 @@ pg.base.pay_data_display = {
 		picture = "fudai54",
 		name = "Hanami Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
 		subject = "Hanami Lucky Bag ",
 		first_pay_double = 0,
@@ -11846,7 +12708,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond118",
@@ -11854,6 +12719,7 @@ pg.base.pay_data_display = {
 		id = 108,
 		airijp_id = "com.yostaren.azurlane.diamond118",
 		name_display = "Hanami Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -11943,7 +12809,7 @@ pg.base.pay_data_display = {
 		picture = "fudai55",
 		name = "Research Supply (daily) ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
 		subject = "Research Supply (daily) ",
 		first_pay_double = 0,
@@ -11954,7 +12820,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond119",
@@ -11962,6 +12831,7 @@ pg.base.pay_data_display = {
 		id = 109,
 		airijp_id = "com.yostaren.azurlane.diamond119",
 		name_display = "Research Supply (daily) ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12046,7 +12916,7 @@ pg.base.pay_data_display = {
 		picture = "lihe1_l",
 		name = "Scherzo Lucky Box ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Scherzo Lucky Box ",
 		first_pay_double = 0,
@@ -12057,7 +12927,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond120",
@@ -12065,6 +12938,7 @@ pg.base.pay_data_display = {
 		id = 110,
 		airijp_id = "com.yostaren.azurlane.diamond120",
 		name_display = "Scherzo Lucky Box ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12154,7 +13028,7 @@ pg.base.pay_data_display = {
 		picture = "fudai56",
 		name = "1st Anniversary Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "1st Anniversary Lucky Bag ",
 		first_pay_double = 0,
@@ -12165,7 +13039,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond121",
@@ -12173,6 +13050,7 @@ pg.base.pay_data_display = {
 		id = 111,
 		airijp_id = "com.yostaren.azurlane.diamond121",
 		name_display = "1st Anniversary Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12262,7 +13140,7 @@ pg.base.pay_data_display = {
 		picture = "fudai57",
 		name = "Yukata Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Yukata Lucky Bag",
 		first_pay_double = 0,
@@ -12273,7 +13151,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond122",
@@ -12281,6 +13162,7 @@ pg.base.pay_data_display = {
 		id = 112,
 		airijp_id = "com.yostaren.azurlane.diamond122",
 		name_display = "Yukata Lucky Bag",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12370,7 +13252,7 @@ pg.base.pay_data_display = {
 		picture = "fudai58",
 		name = "Full Dress Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Full Dress Lucky Bag ",
 		first_pay_double = 0,
@@ -12381,7 +13263,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond123",
@@ -12389,6 +13274,7 @@ pg.base.pay_data_display = {
 		id = 113,
 		airijp_id = "com.yostaren.azurlane.diamond123",
 		name_display = "Full Dress Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12478,7 +13364,7 @@ pg.base.pay_data_display = {
 		picture = "fudai59",
 		name = "Black Friday Lucky Box ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2450 x Gems, and other rewards ",
 		subject = "Black Friday Lucky Box ",
 		first_pay_double = 0,
@@ -12489,7 +13375,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond124",
@@ -12497,6 +13386,7 @@ pg.base.pay_data_display = {
 		id = 114,
 		airijp_id = "com.yostaren.azurlane.diamond124",
 		name_display = "Black Friday Lucky Box ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12591,7 +13481,7 @@ pg.base.pay_data_display = {
 		picture = "fudai60",
 		name = "Christmas Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
 		subject = "Christmas Lucky Bag ",
 		first_pay_double = 0,
@@ -12602,7 +13492,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond125",
@@ -12610,6 +13503,7 @@ pg.base.pay_data_display = {
 		id = 115,
 		airijp_id = "com.yostaren.azurlane.diamond125",
 		name_display = "Christmas Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12699,7 +13593,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "Shougatsu Lucky Bag (2020)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Shougatsu Lucky Bag (2020)",
 		first_pay_double = 0,
@@ -12710,7 +13604,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond126",
@@ -12718,6 +13615,7 @@ pg.base.pay_data_display = {
 		id = 116,
 		airijp_id = "com.yostaren.azurlane.diamond126",
 		name_display = "Shougatsu Lucky Bag (2020)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12812,7 +13710,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "Shougatsu Lucky Bag (2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Shougatsu Lucky Bag (2019)",
 		first_pay_double = 0,
@@ -12823,7 +13721,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond127",
@@ -12831,6 +13732,7 @@ pg.base.pay_data_display = {
 		id = 117,
 		airijp_id = "com.yostaren.azurlane.diamond127",
 		name_display = "Shougatsu Lucky Bag (2019)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12920,7 +13822,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "Lunar New Year Lucky Bag (2020)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag (2020)",
 		first_pay_double = 0,
@@ -12931,7 +13833,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond128",
@@ -12939,6 +13844,7 @@ pg.base.pay_data_display = {
 		id = 118,
 		airijp_id = "com.yostaren.azurlane.diamond128",
 		name_display = "Lunar New Year Lucky Bag (2020)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13033,7 +13939,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "Lunar New Year Lucky Bag (2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag (2019)",
 		first_pay_double = 0,
@@ -13044,7 +13950,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond129",
@@ -13052,6 +13961,7 @@ pg.base.pay_data_display = {
 		id = 119,
 		airijp_id = "com.yostaren.azurlane.diamond129",
 		name_display = "Lunar New Year Lucky Bag (2019)",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13141,7 +14051,7 @@ pg.base.pay_data_display = {
 		picture = "support1",
 		name = "New Commanders Support Pack I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack I",
 		first_pay_double = 0,
@@ -13152,7 +14062,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond130",
@@ -13160,6 +14073,7 @@ pg.base.pay_data_display = {
 		id = 120,
 		airijp_id = "com.yostaren.azurlane.diamond130",
 		name_display = "New Commanders Support Pack I",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13240,7 +14154,7 @@ pg.base.pay_data_display = {
 		picture = "support2",
 		name = "New Commanders Support Pack II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack II",
 		first_pay_double = 0,
@@ -13251,7 +14165,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond131",
@@ -13259,6 +14176,7 @@ pg.base.pay_data_display = {
 		id = 121,
 		airijp_id = "com.yostaren.azurlane.diamond131",
 		name_display = "New Commanders Support Pack II",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13364,7 +14282,7 @@ pg.base.pay_data_display = {
 		picture = "support3",
 		name = "New Commanders Support Pack III",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack III",
 		first_pay_double = 0,
@@ -13375,7 +14293,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond132",
@@ -13383,6 +14304,7 @@ pg.base.pay_data_display = {
 		id = 122,
 		airijp_id = "com.yostaren.azurlane.diamond132",
 		name_display = "New Commanders Support Pack III",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13493,7 +14415,7 @@ pg.base.pay_data_display = {
 		picture = "fudai61",
 		name = "Crimson Echoes' Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Crimson Echoes' Lucky Bag",
 		first_pay_double = 0,
@@ -13504,7 +14426,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond133",
@@ -13512,6 +14437,7 @@ pg.base.pay_data_display = {
 		id = 123,
 		airijp_id = "com.yostaren.azurlane.diamond133",
 		name_display = "Crimson Echoes' Lucky Bag",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13601,7 +14527,7 @@ pg.base.pay_data_display = {
 		picture = "lihe1_l",
 		name = "Night Out Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
 		subject = "Night Out Lucky Bag ",
 		first_pay_double = 0,
@@ -13612,7 +14538,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond134",
@@ -13620,6 +14549,7 @@ pg.base.pay_data_display = {
 		id = 124,
 		airijp_id = "com.yostaren.azurlane.diamond134",
 		name_display = "Night Out Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13714,7 +14644,7 @@ pg.base.pay_data_display = {
 		picture = "fudai63",
 		name = "Skybound Oratorio Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Skybound Oratorio Lucky Bag ",
 		first_pay_double = 0,
@@ -13725,7 +14655,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond135",
@@ -13733,6 +14666,7 @@ pg.base.pay_data_display = {
 		id = 125,
 		airijp_id = "com.yostaren.azurlane.diamond135",
 		name_display = "Skybound Oratorio Lucky Bag",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13822,7 +14756,7 @@ pg.base.pay_data_display = {
 		picture = "fudai64",
 		name = "Aurora Noctis Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Aurora Noctis Lucky Bag ",
 		first_pay_double = 0,
@@ -13833,7 +14767,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond136",
@@ -13841,6 +14778,7 @@ pg.base.pay_data_display = {
 		id = 126,
 		airijp_id = "com.yostaren.azurlane.diamond136",
 		name_display = "Aurora Noctis Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13930,7 +14868,7 @@ pg.base.pay_data_display = {
 		picture = "fudai65",
 		name = "Summer Scherzo Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Summer Scherzo Lucky Bag ",
 		first_pay_double = 0,
@@ -13941,7 +14879,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond137",
@@ -13949,6 +14890,7 @@ pg.base.pay_data_display = {
 		id = 127,
 		airijp_id = "com.yostaren.azurlane.diamond137",
 		name_display = "Summer Scherzo Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14038,7 +14980,7 @@ pg.base.pay_data_display = {
 		picture = "fudai66",
 		name = "Shining Star Lucky Bag ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Shining Star Lucky Bag ",
 		first_pay_double = 0,
@@ -14049,7 +14991,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond139",
@@ -14057,6 +15002,7 @@ pg.base.pay_data_display = {
 		id = 128,
 		airijp_id = "com.yostaren.azurlane.diamond139",
 		name_display = "Shining Star Lucky Bag ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14151,7 +15097,7 @@ pg.base.pay_data_display = {
 		picture = "fudai67",
 		name = "Azur Black Friday Lucky Box ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Azur Black Friday Lucky Box ",
 		first_pay_double = 0,
@@ -14162,7 +15108,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond140",
@@ -14170,6 +15119,7 @@ pg.base.pay_data_display = {
 		id = 129,
 		airijp_id = "com.yostaren.azurlane.diamond140",
 		name_display = "Azur Black Friday Lucky Box ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14264,7 +15214,7 @@ pg.base.pay_data_display = {
 		picture = "fudai68",
 		name = "Crimson Black Friday Lucky Box ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Crimson Black Friday Lucky Box ",
 		first_pay_double = 0,
@@ -14275,7 +15225,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond141",
@@ -14283,6 +15236,7 @@ pg.base.pay_data_display = {
 		id = 130,
 		airijp_id = "com.yostaren.azurlane.diamond141",
 		name_display = "Crimson Black Friday Lucky Box ",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14377,7 +15331,7 @@ pg.base.pay_data_display = {
 		picture = "fudai69",
 		name = "Dawn's Rime Lucky Pack",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Dawn's Rime Lucky Pack",
 		first_pay_double = 0,
@@ -14388,7 +15342,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond144",
@@ -14396,6 +15353,7 @@ pg.base.pay_data_display = {
 		id = 131,
 		airijp_id = "com.yostaren.azurlane.diamond144",
 		name_display = "Dawn's Rime Lucky Pack",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14490,7 +15448,7 @@ pg.base.pay_data_display = {
 		picture = "fudai70",
 		name = "Daedalian Hymn's Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Daedalian Hymn's Lucky Bag",
 		first_pay_double = 0,
@@ -14501,7 +15459,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond145",
@@ -14509,6 +15470,7 @@ pg.base.pay_data_display = {
 		id = 132,
 		airijp_id = "com.yostaren.azurlane.diamond145",
 		name_display = "Daedalian Hymn's Lucky Bag",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14603,7 +15565,7 @@ pg.base.pay_data_display = {
 		picture = "fudai71",
 		name = "Microlayer Medley Lucky Box 2021",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Microlayer Medley Lucky Box 2021",
 		first_pay_double = 0,
@@ -14614,7 +15576,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond149",
@@ -14622,6 +15587,7 @@ pg.base.pay_data_display = {
 		id = 133,
 		airijp_id = "com.yostaren.azurlane.diamond149",
 		name_display = "Microlayer Medley Lucky Box 2021",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14716,7 +15682,7 @@ pg.base.pay_data_display = {
 		picture = "fudai72",
 		name = "Black Friday Lucky Music Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Black Friday Lucky Music Box",
 		first_pay_double = 0,
@@ -14727,7 +15693,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond152",
@@ -14735,6 +15704,7 @@ pg.base.pay_data_display = {
 		id = 134,
 		airijp_id = "com.yostaren.azurlane.diamond152",
 		name_display = "Black Friday Lucky Music Box",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14829,7 +15799,7 @@ pg.base.pay_data_display = {
 		picture = "fudai73",
 		name = "Abyssal Refrain Lucky Pack",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Abyssal Refrain Lucky Pack",
 		first_pay_double = 0,
@@ -14840,7 +15810,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond157",
@@ -14848,6 +15821,7 @@ pg.base.pay_data_display = {
 		id = 135,
 		airijp_id = "com.yostaren.azurlane.diamond157",
 		name_display = "Abyssal Refrain Lucky Pack",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14942,7 +15916,7 @@ pg.base.pay_data_display = {
 		picture = "fudai74",
 		name = "Crimson Offering Lucky Chalice",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Crimson Offering Lucky Chalice",
 		first_pay_double = 0,
@@ -14953,7 +15927,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond166",
@@ -14961,6 +15938,7 @@ pg.base.pay_data_display = {
 		id = 136,
 		airijp_id = "com.yostaren.azurlane.diamond166",
 		name_display = "Crimson Offering Lucky Chalice",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15055,7 +16033,7 @@ pg.base.pay_data_display = {
 		picture = "fudai75",
 		name = "Aquilifer's Ballade Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Aquilifer's Ballade Lucky Box",
 		first_pay_double = 0,
@@ -15066,7 +16044,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond169",
@@ -15074,6 +16055,7 @@ pg.base.pay_data_display = {
 		id = 137,
 		airijp_id = "com.yostaren.azurlane.diamond169",
 		name_display = "Aquilifer's Ballade Lucky Box",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15168,7 +16150,7 @@ pg.base.pay_data_display = {
 		picture = "fudai76",
 		name = "4th Anniversary Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "4th Anniversary Lucky Box",
 		first_pay_double = 0,
@@ -15179,7 +16161,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond171",
@@ -15187,6 +16172,7 @@ pg.base.pay_data_display = {
 		id = 138,
 		airijp_id = "com.yostaren.azurlane.diamond171",
 		name_display = "4th Anniversary Lucky Box",
+		first_text = "",
 		akashi_pick = 0,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15281,7 +16267,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -15292,7 +16278,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack1",
@@ -15300,6 +16289,7 @@ pg.base.pay_data_display = {
 		id = 2014,
 		airijp_id = "com.yostaren.azurlane.pack1",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15395,7 +16385,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_display",
 		name = "PR Construction Pack - Series 3",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+Blueprints",
 		descrip = "Contains one PR Voucher - Series 3 and 343 General Blueprints - Series 3.",
 		subject = "PR Construction Pack - Series 3",
 		first_pay_double = 0,
@@ -15406,7 +16396,9 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack4",
@@ -15414,6 +16406,7 @@ pg.base.pay_data_display = {
 		id = 2015,
 		airijp_id = "com.yostaren.azurlane.pack4",
 		name_display = "PR Construction Pack - Series 3",
+		first_text = "Development Ship",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -15435,11 +16428,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40130,
-				1
-			},
-			{
-				2,
 				42020,
 				343
 			}
@@ -15452,13 +16440,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40130,
+				1
+			}
+		}
 	},
 	[2016] = {
 		picture = "tech3_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 3",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher & Blueprint Bundle - Series 3",
 		first_pay_double = 0,
@@ -15469,7 +16464,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack4",
@@ -15477,6 +16475,7 @@ pg.base.pay_data_display = {
 		id = 2016,
 		airijp_id = "com.yostaren.azurlane.pack4",
 		name_display = "PR Voucher & Blueprint \n         Bundle - Series 3",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -15527,7 +16526,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_normal",
 		name = "PR Voucher Pack - Series 3",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Voucher",
 		first_pay_double = 0,
@@ -15538,7 +16537,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack2",
@@ -15546,6 +16548,7 @@ pg.base.pay_data_display = {
 		id = 2017,
 		airijp_id = "com.yostaren.azurlane.pack2",
 		name_display = "PR Voucher - Series 3",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -15586,7 +16589,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_promotion",
 		name = "PR Blueprint Pack - Series 3",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "Blueprints",
 		first_pay_double = 0,
@@ -15597,7 +16600,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack3",
@@ -15605,6 +16611,7 @@ pg.base.pay_data_display = {
 		id = 2018,
 		airijp_id = "com.yostaren.azurlane.pack3",
 		name_display = "PR Voucher - Series 3",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -15645,7 +16652,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -15656,7 +16663,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack5",
@@ -15664,6 +16674,7 @@ pg.base.pay_data_display = {
 		id = 2019,
 		airijp_id = "com.yostaren.azurlane.pack5",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15759,7 +16770,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "Premium Winter Gift Pack",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
 		subject = "Premium Winter Gift Pack",
 		first_pay_double = 0,
@@ -15770,7 +16781,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.winterpack1",
@@ -15778,6 +16792,7 @@ pg.base.pay_data_display = {
 		id = 2020,
 		airijp_id = "com.yostaren.azurlane.winterpack1",
 		name_display = "Premium Winter Gift Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15873,7 +16888,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan1",
 		name = "Wisdom Cube Supply Pack I",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains 10 Wisdom Cubes.",
 		subject = "Wisdom Cube Supply Pack I",
 		first_pay_double = 0,
@@ -15884,7 +16899,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.cubepack1",
@@ -15892,6 +16910,7 @@ pg.base.pay_data_display = {
 		id = 2022,
 		airijp_id = "com.yostaren.azurlane.cubepack1",
 		name_display = "Wisdom Cube Supply Pack I",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -15952,7 +16971,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan2",
 		name = "Wisdom Cube Supply Pack II",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains 20 Wisdom Cubes.",
 		subject = "Wisdom Cube Supply Pack II",
 		first_pay_double = 0,
@@ -15963,7 +16982,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.cubepack2",
@@ -15971,6 +16993,7 @@ pg.base.pay_data_display = {
 		id = 2023,
 		airijp_id = "com.yostaren.azurlane.cubepack2",
 		name_display = "Wisdom Cube Supply Pack II",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16031,7 +17054,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan3",
 		name = "Wisdom Cube Supply Pack III",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains 30 Wisdom Cubes.",
 		subject = "Wisdom Cube Supply Pack III",
 		first_pay_double = 0,
@@ -16042,7 +17065,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.cubepack3",
@@ -16050,6 +17076,7 @@ pg.base.pay_data_display = {
 		id = 2024,
 		airijp_id = "com.yostaren.azurlane.cubepack3",
 		name_display = "Wisdom Cube Supply Pack III",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16110,7 +17137,7 @@ pg.base.pay_data_display = {
 		picture = "richang",
 		name = "Daily Sortie Refuel Pack",
 		type = 0,
-		limit_arg = 1,
+		second_text = "Buyable Daily",
 		descrip = "Contains 1 Wisdom Cube and 1200 Oil.",
 		subject = "Daily Sortie Refuel Pack",
 		first_pay_double = 0,
@@ -16121,7 +17148,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 4,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.dailybag1",
@@ -16129,6 +17159,7 @@ pg.base.pay_data_display = {
 		id = 2025,
 		airijp_id = "com.yostaren.azurlane.dailybag1",
 		name_display = "Daily Sortie Refuel Pack",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16174,7 +17205,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -16185,7 +17216,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack6",
@@ -16193,6 +17227,7 @@ pg.base.pay_data_display = {
 		id = 2026,
 		airijp_id = "com.yostaren.azurlane.pack6",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16288,7 +17323,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_display",
 		name = "PR Construction Pack - Series 4",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+Blueprints",
 		descrip = "Contains one PR Voucher - Series 4 and 343 General Blueprints - Series 4.",
 		subject = "PR Construction Pack - Series 4",
 		first_pay_double = 0,
@@ -16299,7 +17334,9 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack9",
@@ -16307,6 +17344,7 @@ pg.base.pay_data_display = {
 		id = 2027,
 		airijp_id = "com.yostaren.azurlane.pack9",
 		name_display = "PR Construction Pack - Series 4",
+		first_text = "Development Ship",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16328,11 +17366,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40139,
-				1
-			},
-			{
-				2,
 				42030,
 				343
 			}
@@ -16345,13 +17378,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40139,
+				1
+			}
+		}
 	},
 	[2028] = {
 		picture = "tech4_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 4",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher & Blueprint Bundle - Series 4",
 		first_pay_double = 0,
@@ -16362,7 +17402,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack9",
@@ -16370,6 +17413,7 @@ pg.base.pay_data_display = {
 		id = 2028,
 		airijp_id = "com.yostaren.azurlane.pack9",
 		name_display = "PR Voucher & Blueprint \n         Bundle - Series 4",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16420,7 +17464,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_normal",
 		name = "PR Voucher - Series 4",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher - Series 4",
 		first_pay_double = 0,
@@ -16431,7 +17475,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack7",
@@ -16439,6 +17486,7 @@ pg.base.pay_data_display = {
 		id = 2029,
 		airijp_id = "com.yostaren.azurlane.pack7",
 		name_display = "PR Voucher Pack - Series 4",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16479,7 +17527,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_promotion",
 		name = "PR Blueprint Pack - Series 4",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Blueprint Pack - Series 4",
 		first_pay_double = 0,
@@ -16490,7 +17538,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack8",
@@ -16498,6 +17549,7 @@ pg.base.pay_data_display = {
 		id = 2030,
 		airijp_id = "com.yostaren.azurlane.pack8",
 		name_display = "PR Blueprint Pack - Series 4",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16538,7 +17590,7 @@ pg.base.pay_data_display = {
 		picture = "daofeng_package",
 		name = "Outfit Selection Pack (Shimakaze)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
 		subject = "Outfit Selection Pack (Shimakaze)",
 		first_pay_double = 0,
@@ -16549,7 +17601,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "Great\nDeal",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack11",
@@ -16557,6 +17612,7 @@ pg.base.pay_data_display = {
 		id = 2031,
 		airijp_id = "com.yostaren.azurlane.pack11",
 		name_display = "Outfit Selection Pack (Shimakaze)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16642,7 +17698,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Iridescent Fantasy Pack",
 		first_pay_double = 0,
@@ -16653,7 +17709,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack12",
@@ -16661,6 +17720,7 @@ pg.base.pay_data_display = {
 		id = 2032,
 		airijp_id = "com.yostaren.azurlane.pack12",
 		name_display = "Iridescent Fantasy Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16715,7 +17775,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack (Basic)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Iridescent Fantasy Pack (Basic)",
 		first_pay_double = 0,
@@ -16726,7 +17786,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack12",
@@ -16734,6 +17797,7 @@ pg.base.pay_data_display = {
 		id = 2033,
 		airijp_id = "com.yostaren.azurlane.pack12",
 		name_display = "Iridescent Fantasy Pack (Basic)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16794,7 +17858,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "Iridescent Fantasy Pack (Premium)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme and Gems x 3,060.",
 		subject = "Iridescent Fantasy Pack (Premium)",
 		first_pay_double = 0,
@@ -16805,7 +17869,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack13",
@@ -16813,6 +17880,7 @@ pg.base.pay_data_display = {
 		id = 2034,
 		airijp_id = "com.yostaren.azurlane.pack13",
 		name_display = "Iridescent Fantasy Pack (Premium)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16883,7 +17951,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "Outfit Selection Pack (Ulrich von Hutten)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
 		subject = "Outfit Selection Pack (Ulrich von Hutten)",
 		first_pay_double = 0,
@@ -16894,7 +17962,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack14",
@@ -16902,6 +17973,7 @@ pg.base.pay_data_display = {
 		id = 2035,
 		airijp_id = "com.yostaren.azurlane.pack14",
 		name_display = "Outfit Selection Pack (Ulrich von Hutten)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16987,7 +18059,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack (2024.11)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -16998,7 +18070,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack15",
@@ -17006,6 +18081,7 @@ pg.base.pay_data_display = {
 		id = 2036,
 		airijp_id = "com.yostaren.azurlane.pack15",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17101,7 +18177,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack - Christmas",
 		first_pay_double = 0,
@@ -17112,7 +18188,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack17",
@@ -17120,6 +18199,7 @@ pg.base.pay_data_display = {
 		id = 2037,
 		airijp_id = "com.yostaren.azurlane.pack17",
 		name_display = "Battle UI Pack - Christmas",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17174,7 +18254,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas (Basic)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack - Christmas (Basic)",
 		first_pay_double = 0,
@@ -17185,7 +18265,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack17",
@@ -17193,6 +18276,7 @@ pg.base.pay_data_display = {
 		id = 2038,
 		airijp_id = "com.yostaren.azurlane.pack17",
 		name_display = "Battle UI Pack - Christmas (Basic)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17253,7 +18337,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "Battle UI Pack - Christmas (Premium)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme and Gems x 3,060.",
 		subject = "Battle UI Pack - Christmas (Premium)",
 		first_pay_double = 0,
@@ -17264,7 +18348,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack18",
@@ -17272,6 +18359,7 @@ pg.base.pay_data_display = {
 		id = 2039,
 		airijp_id = "com.yostaren.azurlane.pack18",
 		name_display = "Battle UI Pack - Christmas (Premium)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17342,7 +18430,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "Premium Winter Gift Pack",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
 		subject = "Premium Winter Gift Pack",
 		first_pay_double = 0,
@@ -17353,7 +18441,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack16",
@@ -17361,6 +18452,7 @@ pg.base.pay_data_display = {
 		id = 2040,
 		airijp_id = "com.yostaren.azurlane.pack16",
 		name_display = "Premium Winter Gift Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17456,7 +18548,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "Outfit Pack (Kronshtadt)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains an Outfit Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
 		subject = "Outfit Pack (Kronshtadt)",
 		first_pay_double = 0,
@@ -17467,7 +18559,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "Great\nDeal",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack19",
@@ -17475,6 +18570,7 @@ pg.base.pay_data_display = {
 		id = 2041,
 		airijp_id = "com.yostaren.azurlane.pack19",
 		name_display = "Outfit Pack (Kronshtadt)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -17560,7 +18656,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "Battle UI Pack – Pharaoh",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack – Pharaoh",
 		first_pay_double = 0,
@@ -17571,7 +18667,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack20",
@@ -17579,6 +18678,7 @@ pg.base.pay_data_display = {
 		id = 2042,
 		airijp_id = "com.yostaren.azurlane.pack20",
 		name_display = "Battle UI Pack – Pharaoh",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17633,7 +18733,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "Battle UI Pack - Pharaoh (Basic)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = " Battle UI Pack - Pharaoh (Basic)",
 		first_pay_double = 0,
@@ -17644,7 +18744,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack20",
@@ -17652,6 +18755,7 @@ pg.base.pay_data_display = {
 		id = 2043,
 		airijp_id = "com.yostaren.azurlane.pack20",
 		name_display = "Battle UI Pack - Pharaoh (Basic)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17712,7 +18816,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "Battle UI Pack - Pharaoh (Premium)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme and Gems x 3,060.",
 		subject = "Battle UI Pack - Pharaoh (Premium)",
 		first_pay_double = 0,
@@ -17723,7 +18827,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack21",
@@ -17731,6 +18838,7 @@ pg.base.pay_data_display = {
 		id = 2044,
 		airijp_id = "com.yostaren.azurlane.pack21",
 		name_display = "Battle UI Pack - Pharaoh (Premium)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17801,7 +18909,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack - Genetic Origin",
 		first_pay_double = 0,
@@ -17812,7 +18920,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack22",
@@ -17820,6 +18931,7 @@ pg.base.pay_data_display = {
 		id = 2045,
 		airijp_id = "com.yostaren.azurlane.pack22",
 		name_display = "Battle UI Pack - Genetic Origin",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17874,7 +18986,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin (Basic)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack - Genetic Origin (Basic)",
 		first_pay_double = 0,
@@ -17885,7 +18997,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack22",
@@ -17893,6 +19008,7 @@ pg.base.pay_data_display = {
 		id = 2046,
 		airijp_id = "com.yostaren.azurlane.pack22",
 		name_display = "Battle UI Pack - Genetic Origin (Basic)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -17953,7 +19069,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "Battle UI Pack - Genetic Origin (Premium)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a new combat UI theme and Gems x 3,060.",
 		subject = "Battle UI Pack - Genetic Origin (Premium)",
 		first_pay_double = 0,
@@ -17964,7 +19080,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack23",
@@ -17972,6 +19091,7 @@ pg.base.pay_data_display = {
 		id = 2047,
 		airijp_id = "com.yostaren.azurlane.pack23",
 		name_display = "Battle UI Pack - Genetic Origin (Premium)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -18042,7 +19162,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "Outfit Pack (Vanguard)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains an Outfit Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
 		subject = "Outfit Pack (Vanguard)",
 		first_pay_double = 0,
@@ -18053,7 +19173,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "Great\nDeal",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack24",
@@ -18061,6 +19184,7 @@ pg.base.pay_data_display = {
 		id = 2048,
 		airijp_id = "com.yostaren.azurlane.pack24",
 		name_display = "Outfit Pack (Vanguard)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -18146,7 +19270,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "Buy to receive a large amount of Skill Books.",
 		subject = "Skill Book Pack",
 		first_pay_double = 0,
@@ -18157,7 +19281,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack25",
@@ -18165,6 +19292,7 @@ pg.base.pay_data_display = {
 		id = 2049,
 		airijp_id = "com.yostaren.azurlane.pack25",
 		name_display = "Skill Book Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -18260,7 +19388,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "Contains a new combat UI theme.",
 		subject = "Battle UI Pack - Seaside Splash",
 		first_pay_double = 0,
@@ -18271,7 +19399,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack26",
@@ -18279,6 +19410,7 @@ pg.base.pay_data_display = {
 		id = 2050,
 		airijp_id = "com.yostaren.azurlane.pack26",
 		name_display = "Battle UI Pack - Seaside Splash",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -18333,7 +19465,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash (Basic)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains the Battle UI - Seaside Splash theme and 1,000 Coins.",
 		subject = "Battle UI Pack - Seaside Splash (Basic)",
 		first_pay_double = 0,
@@ -18344,7 +19476,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack26",
@@ -18352,6 +19487,7 @@ pg.base.pay_data_display = {
 		id = 2051,
 		airijp_id = "com.yostaren.azurlane.pack26",
 		name_display = "Battle UI Pack - Seaside Splash (Basic)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -18422,7 +19558,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "Battle UI Pack - Seaside Splash (Premium)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains the Battle UI - Seaside Splash theme and 3,060 Gems.",
 		subject = "Battle UI Pack - Seaside Splash (Premium)",
 		first_pay_double = 0,
@@ -18433,7 +19569,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack27",
@@ -18441,6 +19580,7 @@ pg.base.pay_data_display = {
 		id = 2052,
 		airijp_id = "com.yostaren.azurlane.pack27",
 		name_display = "Battle UI Pack - Seaside Splash (Premium)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -18511,7 +19651,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_display",
 		name = "PR Construction Pack - Series 5",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+Blueprints",
 		descrip = "Contains one PR Voucher - Series 5 and 343 General Blueprints - Series 5.",
 		subject = "PR Construction Pack - Series 5",
 		first_pay_double = 0,
@@ -18522,7 +19662,9 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack30",
@@ -18530,6 +19672,7 @@ pg.base.pay_data_display = {
 		id = 2053,
 		airijp_id = "com.yostaren.azurlane.pack30",
 		name_display = "PR Construction Pack - Series 5",
+		first_text = "Development Ship",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18551,11 +19694,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40140,
-				1
-			},
-			{
-				2,
 				42040,
 				343
 			}
@@ -18568,13 +19706,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40140,
+				1
+			}
+		}
 	},
 	[2054] = {
 		picture = "tech5_promotion",
 		name = "PR Voucher & Blueprint Bundle - Series 5",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher & Blueprint Bundle - Series 5",
 		first_pay_double = 0,
@@ -18585,7 +19730,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack30",
@@ -18593,6 +19741,7 @@ pg.base.pay_data_display = {
 		id = 2054,
 		airijp_id = "com.yostaren.azurlane.pack30",
 		name_display = "PR Voucher & Blueprint \n         Bundle - Series 5",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18643,7 +19792,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_normal",
 		name = "PR Voucher - Series 5",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Voucher - Series 5",
 		first_pay_double = 0,
@@ -18654,7 +19803,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack28",
@@ -18662,6 +19814,7 @@ pg.base.pay_data_display = {
 		id = 2055,
 		airijp_id = "com.yostaren.azurlane.pack28",
 		name_display = "PR Voucher Pack - Series 5",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18702,7 +19855,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_promotion",
 		name = "PR Blueprint Pack - Series 5",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "Contains:",
 		subject = "PR Blueprint Pack - Series 5",
 		first_pay_double = 0,
@@ -18713,7 +19866,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.pack29",
@@ -18721,6 +19877,7 @@ pg.base.pay_data_display = {
 		id = 2056,
 		airijp_id = "com.yostaren.azurlane.pack29",
 		name_display = "PR Blueprint Pack - Series 5",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18761,7 +19918,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day1",
 		name = "Daily Paid Pack (Day 1)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 6.",
 		subject = "Daily Paid Pack (Day 1)",
 		first_pay_double = 0,
@@ -18772,7 +19929,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag8",
@@ -18780,6 +19940,7 @@ pg.base.pay_data_display = {
 		id = 5011,
 		airijp_id = "com.yostaren.azurlane.bfdailybag8",
 		name_display = "Daily Paid Pack (Day 1)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -18850,7 +20011,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day2",
 		name = "Daily Paid Pack (Day 2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 200x Gems.",
 		subject = "Daily Paid Pack (Day 2)",
 		first_pay_double = 0,
@@ -18861,7 +20022,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag9",
@@ -18869,6 +20033,7 @@ pg.base.pay_data_display = {
 		id = 5012,
 		airijp_id = "com.yostaren.azurlane.bfdailybag9",
 		name_display = "Daily Paid Pack (Day 2)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -18929,7 +20094,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day3",
 		name = "Daily Paid Pack (Day 3)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 200x Cognitive Chips, 5x Universal T4 Parts.",
 		subject = "Daily Paid Pack (Day 3)",
 		first_pay_double = 0,
@@ -18940,7 +20105,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag10",
@@ -18948,6 +20116,7 @@ pg.base.pay_data_display = {
 		id = 5013,
 		airijp_id = "com.yostaren.azurlane.bfdailybag10",
 		name_display = "Daily Paid Pack (Day 3)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -19018,7 +20187,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day4",
 		name = "Daily Paid Pack (Day 4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 60x Gems, 1x Prototype Bulin MKII.",
 		subject = "Daily Paid Pack (Day 4)",
 		first_pay_double = 0,
@@ -19029,7 +20198,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag11",
@@ -19037,6 +20209,7 @@ pg.base.pay_data_display = {
 		id = 5014,
 		airijp_id = "com.yostaren.azurlane.bfdailybag11",
 		name_display = "Daily Paid Pack (Day 4)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -19107,7 +20280,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day5",
 		name = "Daily Paid Pack (Day 5)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 60x T2 EXP Data Packs.",
 		subject = "Daily Paid Pack (Day 5)",
 		first_pay_double = 0,
@@ -19118,7 +20291,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag12",
@@ -19126,6 +20302,7 @@ pg.base.pay_data_display = {
 		id = 5015,
 		airijp_id = "com.yostaren.azurlane.bfdailybag12",
 		name_display = "Daily Paid Pack (Day 5)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -19186,7 +20363,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day6",
 		name = "Daily Paid Pack (Day 6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 10x Wisdom Cubes, 5x Quick Finishers.",
 		subject = "Daily Paid Pack (Day 6)",
 		first_pay_double = 0,
@@ -19197,7 +20374,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag13",
@@ -19205,6 +20385,7 @@ pg.base.pay_data_display = {
 		id = 5016,
 		airijp_id = "com.yostaren.azurlane.bfdailybag13",
 		name_display = "Daily Paid Pack (Day 6)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -19275,7 +20456,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day7",
 		name = "Daily Paid Pack (Day 7)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 7.",
 		subject = "Daily Paid Pack (Day 7)",
 		first_pay_double = 0,
@@ -19286,7 +20467,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.bfdailybag14",
@@ -19294,6 +20478,7 @@ pg.base.pay_data_display = {
 		id = 5017,
 		airijp_id = "com.yostaren.azurlane.bfdailybag14",
 		name_display = "Daily Paid Pack (Day 7)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -19364,7 +20549,7 @@ pg.base.pay_data_display = {
 		picture = "fudai77",
 		name = "Black Friday Lucky Bag (2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Black Friday Lucky Bag (2022)",
 		first_pay_double = 0,
@@ -19375,7 +20560,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.diamond177",
@@ -19383,6 +20571,7 @@ pg.base.pay_data_display = {
 		id = 139,
 		airijp_id = "com.yostaren.azurlane.diamond177",
 		name_display = "Black Friday Lucky Bag (2022)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -19459,7 +20648,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				4,
+				14,
 				2022
 			},
 			{
@@ -19483,7 +20672,7 @@ pg.base.pay_data_display = {
 		picture = "fudai78",
 		name = "New Semester Lucky Pack",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "New Semester Lucky Pack",
 		first_pay_double = 0,
@@ -19494,7 +20683,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag8",
@@ -19502,6 +20694,7 @@ pg.base.pay_data_display = {
 		id = 140,
 		airijp_id = "com.yostaren.azurlane.luckybag8",
 		name_display = "New Semester Lucky Pack",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -19602,7 +20795,7 @@ pg.base.pay_data_display = {
 		picture = "fudai79",
 		name = "Onsen Souvenir Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Onsen Souvenir Lucky Bag",
 		first_pay_double = 0,
@@ -19613,7 +20806,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag9",
@@ -19621,6 +20817,7 @@ pg.base.pay_data_display = {
 		id = 141,
 		airijp_id = "com.yostaren.azurlane.luckybag9",
 		name_display = "Onsen Souvenir Lucky Bag",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -19721,7 +20918,7 @@ pg.base.pay_data_display = {
 		picture = "fudai80",
 		name = "Office Hour Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Office Hour Lucky Box",
 		first_pay_double = 0,
@@ -19732,7 +20929,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag13",
@@ -19740,6 +20939,7 @@ pg.base.pay_data_display = {
 		id = 142,
 		airijp_id = "com.yostaren.azurlane.luckybag13",
 		name_display = "Office Hour Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69980,
 		extra_service = 3,
@@ -19811,18 +21011,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69980,
-				1
-			},
-			{
-				1,
-				4,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -19834,13 +21034,25 @@ pg.base.pay_data_display = {
 				40985,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69980,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[143] = {
 		picture = "fudai81",
 		name = "5th Anniversary Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "5th Anniversary Lucky Box",
 		first_pay_double = 0,
@@ -19851,7 +21063,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag14",
@@ -19859,6 +21073,7 @@ pg.base.pay_data_display = {
 		id = 143,
 		airijp_id = "com.yostaren.azurlane.luckybag14",
 		name_display = "5th Anniversary Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69981,
 		extra_service = 3,
@@ -19930,18 +21145,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69981,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -19953,13 +21168,25 @@ pg.base.pay_data_display = {
 				40986,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[144] = {
 		picture = "fudai82",
 		name = "Halloween Lucky Box 2023",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Halloween Lucky Box 2023",
 		first_pay_double = 0,
@@ -19970,7 +21197,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag18",
@@ -19978,6 +21207,7 @@ pg.base.pay_data_display = {
 		id = 144,
 		airijp_id = "com.yostaren.azurlane.luckybag18",
 		name_display = "Halloween Lucky Box 2023",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69982,
 		extra_service = 3,
@@ -20049,18 +21279,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69982,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20072,13 +21302,25 @@ pg.base.pay_data_display = {
 				40987,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69982,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[145] = {
 		picture = "fudai82",
 		name = "Black Friday Lucky Bag (2023)",
 		type = 2,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Black Friday Lucky Bag (2023)",
 		first_pay_double = 0,
@@ -20089,7 +21331,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag19",
@@ -20097,6 +21341,7 @@ pg.base.pay_data_display = {
 		id = 145,
 		airijp_id = "com.yostaren.azurlane.luckybag19",
 		name_display = "Black Friday Lucky Bag (2023)",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 69983,
 		extra_service = 3,
@@ -20168,18 +21413,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69983,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
 			}
 		},
 		sub_display = {},
@@ -20191,13 +21436,25 @@ pg.base.pay_data_display = {
 				40997,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69983,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[146] = {
 		picture = "fudai84",
 		name = "Cyber City Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
 		subject = "Cyber City Lucky Box",
 		first_pay_double = 0,
@@ -20208,7 +21465,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag28",
@@ -20216,6 +21475,7 @@ pg.base.pay_data_display = {
 		id = 146,
 		airijp_id = "com.yostaren.azurlane.luckybag28",
 		name_display = "Cyber City Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86400,
 		extra_service = 3,
@@ -20287,18 +21547,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86400,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20310,13 +21570,25 @@ pg.base.pay_data_display = {
 				81400,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[147] = {
 		picture = "fudai85",
 		name = "Adventurer's Lucky Chest",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Adventurer's Lucky Chest",
 		first_pay_double = 0,
@@ -20327,7 +21599,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag29",
@@ -20335,6 +21609,7 @@ pg.base.pay_data_display = {
 		id = 147,
 		airijp_id = "com.yostaren.azurlane.luckybag29",
 		name_display = "Adventurer's Lucky Chest",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86401,
 		extra_service = 3,
@@ -20406,18 +21681,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86401,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20429,13 +21704,25 @@ pg.base.pay_data_display = {
 				81401,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[148] = {
 		picture = "fudai86",
 		name = "Lavish Lucky Boombox",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Lavish Lucky Boombox",
 		first_pay_double = 0,
@@ -20446,7 +21733,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag30",
@@ -20454,6 +21743,7 @@ pg.base.pay_data_display = {
 		id = 148,
 		airijp_id = "com.yostaren.azurlane.luckybag30",
 		name_display = "Lavish Lucky Boombox",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86402,
 		extra_service = 3,
@@ -20525,18 +21815,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86402,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20548,13 +21838,25 @@ pg.base.pay_data_display = {
 				81402,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86402,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[149] = {
 		picture = "fudai87",
 		name = "School Time Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "School Time Lucky Bag",
 		first_pay_double = 0,
@@ -20565,7 +21867,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag35",
@@ -20573,6 +21877,7 @@ pg.base.pay_data_display = {
 		id = 149,
 		airijp_id = "com.yostaren.azurlane.luckybag35",
 		name_display = "School Time Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86403,
 		extra_service = 3,
@@ -20644,18 +21949,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86403,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20667,13 +21972,25 @@ pg.base.pay_data_display = {
 				81403,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[150] = {
 		picture = "fudai88",
 		name = "High Speed Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "High Speed Lucky Bag",
 		first_pay_double = 0,
@@ -20684,7 +22001,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag36",
@@ -20692,6 +22011,7 @@ pg.base.pay_data_display = {
 		id = 150,
 		airijp_id = "com.yostaren.azurlane.luckybag36",
 		name_display = "High Speed Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86404,
 		extra_service = 3,
@@ -20763,18 +22083,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86404,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20786,13 +22106,25 @@ pg.base.pay_data_display = {
 				81404,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[151] = {
 		picture = "fudai89",
 		name = "6th Anniversary Lucky Barrel",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "6th Anniversary Lucky Barrel",
 		first_pay_double = 0,
@@ -20803,7 +22135,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag37",
@@ -20811,6 +22145,7 @@ pg.base.pay_data_display = {
 		id = 151,
 		airijp_id = "com.yostaren.azurlane.luckybag37",
 		name_display = "6th Anniversary Lucky Barrel",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86405,
 		extra_service = 3,
@@ -20882,18 +22217,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86405,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -20905,13 +22240,25 @@ pg.base.pay_data_display = {
 				81405,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[152] = {
 		picture = "fudai90",
 		name = "Halloween Lucky Box 2024",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Halloween Lucky Box 2024",
 		first_pay_double = 0,
@@ -20922,7 +22269,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag42",
@@ -20930,6 +22279,7 @@ pg.base.pay_data_display = {
 		id = 152,
 		airijp_id = "com.yostaren.azurlane.luckybag42",
 		name_display = "Halloween Lucky Box 2024",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86406,
 		extra_service = 3,
@@ -21001,18 +22351,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86406,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -21024,13 +22374,25 @@ pg.base.pay_data_display = {
 				81406,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[153] = {
 		picture = "fudai_L2d_new",
 		name = "Live2D Surprise Lucky Bag (2024)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "Many Rewards",
 		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
 		subject = "Black Friday Lucky Bag (2024)",
 		first_pay_double = 0,
@@ -21041,7 +22403,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag44",
@@ -21049,6 +22413,7 @@ pg.base.pay_data_display = {
 		id = 153,
 		airijp_id = "com.yostaren.azurlane.luckybag44",
 		name_display = "Live2D Surprise Lucky Bag (2024)",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86407,
 		extra_service = 3,
@@ -21104,9 +22469,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86407,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -21128,13 +22493,20 @@ pg.base.pay_data_display = {
 				81417,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86407,
+				1
+			}
 		}
 	},
 	[154] = {
 		picture = "fudai92",
 		name = "Black Friday Lucky Bag (2024)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Black Friday Lucky Bag (2024)",
 		first_pay_double = 0,
@@ -21145,7 +22517,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag43",
@@ -21153,6 +22527,7 @@ pg.base.pay_data_display = {
 		id = 154,
 		airijp_id = "com.yostaren.azurlane.luckybag43",
 		name_display = "Black Friday Lucky Bag (2024)",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86408,
 		extra_service = 3,
@@ -21224,18 +22599,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86408,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
 			}
 		},
 		sub_display = {},
@@ -21247,13 +22622,25 @@ pg.base.pay_data_display = {
 				81418,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[155] = {
 		picture = "fudai93",
 		name = "Nile Colors Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Nile Colors Lucky Box",
 		first_pay_double = 0,
@@ -21264,7 +22651,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag53",
@@ -21272,6 +22661,7 @@ pg.base.pay_data_display = {
 		id = 155,
 		airijp_id = "com.yostaren.azurlane.luckybag53",
 		name_display = "Nile Colors Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86413,
 		extra_service = 3,
@@ -21343,18 +22733,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86211,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -21366,13 +22756,25 @@ pg.base.pay_data_display = {
 				81422,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86413,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[156] = {
 		picture = "fudai94",
 		name = "Hospital Adventure Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Hospital Adventure Lucky Bag",
 		first_pay_double = 0,
@@ -21383,7 +22785,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag54",
@@ -21391,6 +22795,7 @@ pg.base.pay_data_display = {
 		id = 156,
 		airijp_id = "com.yostaren.azurlane.luckybag54",
 		name_display = "Hospital Adventure Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86414,
 		extra_service = 3,
@@ -21462,18 +22867,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86414,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -21485,13 +22890,25 @@ pg.base.pay_data_display = {
 				81423,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86414,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[157] = {
 		picture = "fudai95",
 		name = "Pajama Party Lucky Bag",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Pajama Party Lucky Bag",
 		first_pay_double = 0,
@@ -21502,7 +22919,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag56",
@@ -21510,6 +22929,7 @@ pg.base.pay_data_display = {
 		id = 157,
 		airijp_id = "com.yostaren.azurlane.luckybag56",
 		name_display = "Pajama Party Lucky Bag",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86415,
 		extra_service = 3,
@@ -21581,18 +23001,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86415,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -21604,13 +23024,25 @@ pg.base.pay_data_display = {
 				81424,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[158] = {
 		picture = "fudai96",
 		name = "Office Cabinet Lucky Box",
 		type = 1,
-		limit_arg = 1,
+		second_text = "Many Rewards",
 		descrip = "Contains a random character outfit and a large amount of supplies ",
 		subject = "Office Cabinet Lucky Box",
 		first_pay_double = 0,
@@ -21621,7 +23053,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.yostaren.azurlane.luckybag61",
@@ -21629,6 +23063,7 @@ pg.base.pay_data_display = {
 		id = 158,
 		airijp_id = "com.yostaren.azurlane.luckybag61",
 		name_display = "Office Cabinet Lucky Box",
+		first_text = "Random Skin & Abundant Gems",
 		akashi_pick = 1,
 		skin_inquire_relation = 86416,
 		extra_service = 3,
@@ -21700,18 +23135,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86416,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -21722,6 +23157,152 @@ pg.base.pay_data_display = {
 				2,
 				81426,
 				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86416,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[159] = {
+		picture = "fudai97",
+		name = "7th Anniversary Lucky bag",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "7th Anniversary Lucky bag",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag63",
+		extra_gem = 0,
+		id = 159,
+		airijp_id = "com.yostaren.azurlane.luckybag63",
+		name_display = "7th Anniversary Lucky bag",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86417,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86417,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81427,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86417,
+				1
+			},
+			{
+				1,
+				14,
+				2025
 			}
 		}
 	}

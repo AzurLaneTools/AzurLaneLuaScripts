@@ -1871,6 +1871,26 @@ pg.skill_data_display = setmetatable({
 		151352,
 		151361,
 		151362,
+		151391,
+		151392,
+		151412,
+		151431,
+		151441,
+		151442,
+		151471,
+		151491,
+		151492,
+		151493,
+		151494,
+		151495,
+		151501,
+		151502,
+		151503,
+		151504,
+		151510,
+		151511,
+		151512,
+		151520,
 		18010,
 		18040,
 		18041,
@@ -1940,6 +1960,8 @@ pg.skill_data_display = setmetatable({
 		18761,
 		18762,
 		18763,
+		18781,
+		18791,
 		19000,
 		19001,
 		19002,
@@ -2349,6 +2371,10 @@ pg.skill_data_display = setmetatable({
 		28242,
 		28271,
 		28272,
+		28281,
+		28282,
+		250211,
+		250212,
 		29011,
 		29012,
 		29021,
@@ -2547,6 +2573,8 @@ pg.skill_data_display = setmetatable({
 		30486,
 		30501,
 		30502,
+		30511,
+		30512,
 		39000,
 		39001,
 		39002,
@@ -3493,6 +3521,9 @@ pg.skill_data_display = setmetatable({
 		201426,
 		201454,
 		201462,
+		201496,
+		201497,
+		201498,
 		1011540,
 		1011541,
 		1090010,
@@ -11175,6 +11206,86 @@ pg.base.skill_data_display = {
 		id = 151362,
 		name = "Roter Teufel"
 	},
+	[151391] = {
+		id = 151391,
+		name = "Lucky Target"
+	},
+	[151392] = {
+		id = 151392,
+		name = "Beyond Blessed"
+	},
+	[151412] = {
+		id = 151412,
+		name = "The Blade and Its Swift Partner"
+	},
+	[151431] = {
+		id = 151431,
+		name = "Purity Through Flames"
+	},
+	[151441] = {
+		id = 151441,
+		name = "Honour Through Bravery"
+	},
+	[151442] = {
+		id = 151442,
+		name = "Honour Through Bravery"
+	},
+	[151471] = {
+		id = 151471,
+		name = "Next Generation"
+	},
+	[151491] = {
+		id = 151491,
+		name = "Dreadknight Peureux"
+	},
+	[151492] = {
+		id = 151492,
+		name = "Dreadknight Peureux"
+	},
+	[151493] = {
+		id = 151493,
+		name = "Dreadknight Peureux"
+	},
+	[151494] = {
+		id = 151494,
+		name = "Dreadknight Peureux"
+	},
+	[151495] = {
+		id = 151495,
+		name = "Dreadknight Peureux"
+	},
+	[151501] = {
+		id = 151501,
+		name = "The Fearless Le Hardi"
+	},
+	[151502] = {
+		id = 151502,
+		name = "The Fearless Le Hardi"
+	},
+	[151503] = {
+		id = 151503,
+		name = "The Fearless Le Hardi"
+	},
+	[151504] = {
+		id = 151504,
+		name = "The Fearless Le Hardi"
+	},
+	[151510] = {
+		id = 151510,
+		name = "Guardian of the Sky"
+	},
+	[151511] = {
+		id = 151511,
+		name = "Guardian of the Sky"
+	},
+	[151512] = {
+		id = 151512,
+		name = "Guardian of the Sky"
+	},
+	[151520] = {
+		id = 151520,
+		name = "Divine Deeds Done Dreamily"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -11450,6 +11561,14 @@ pg.base.skill_data_display = {
 	[18763] = {
 		id = 18763,
 		name = "Divine Presence+"
+	},
+	[18781] = {
+		id = 18781,
+		name = "Blade of Iris Aspirations+"
+	},
+	[18791] = {
+		id = 18791,
+		name = "Nocturnal Judgment+"
 	},
 	[19000] = {
 		id = 19000,
@@ -13087,6 +13206,22 @@ pg.base.skill_data_display = {
 		id = 28272,
 		name = "All Out Assault II"
 	},
+	[28281] = {
+		id = 28281,
+		name = "All Out Assault I"
+	},
+	[28282] = {
+		id = 28282,
+		name = "All Out Assault II"
+	},
+	[250211] = {
+		id = 250211,
+		name = "All Out Assault I"
+	},
+	[250212] = {
+		id = 250212,
+		name = "All Out Assault II"
+	},
 	[29011] = {
 		id = 29011,
 		name = "EX Barrage: England Ⅰ"
@@ -13877,6 +14012,14 @@ pg.base.skill_data_display = {
 	},
 	[30502] = {
 		id = 30502,
+		name = "All Out Assault II"
+	},
+	[30511] = {
+		id = 30511,
+		name = "All Out Assault I"
+	},
+	[30512] = {
+		id = 30512,
 		name = "All Out Assault II"
 	},
 	[39000] = {
@@ -17662,6 +17805,18 @@ pg.base.skill_data_display = {
 	[201462] = {
 		id = 201462,
 		name = "Core Level 3"
+	},
+	[201496] = {
+		id = 201496,
+		name = "Cannon Volley"
+	},
+	[201497] = {
+		id = 201497,
+		name = "Torpedo Barrage"
+	},
+	[201498] = {
+		id = 201498,
+		name = "Saturation Bombardment"
 	},
 	[1011540] = {
 		id = 1011540,

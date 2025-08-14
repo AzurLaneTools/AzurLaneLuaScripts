@@ -50,7 +50,7 @@ slot0.didEnter = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = Goods.Create(uv0.goodsList[slot3], Goods.TYPE_WORLD)
 
-			GoodsCard.New(slot2):update(slot4)
+			WorldGoodsCard.New(slot2):update(slot4)
 
 			slot6 = slot4:getLimitCount()
 

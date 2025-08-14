@@ -118,4 +118,10 @@ slot0.updateGoods = function(slot0, slot1)
 	slot0.goods[slot1.id] = slot1
 end
 
+slot0.GetResList = function(slot0)
+	return {
+		12
+	}
+end
+
 return slot0

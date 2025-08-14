@@ -1181,8 +1181,8 @@ slot0.updateItem = function(slot0, slot1, slot2)
 						end
 
 						uv1:emit(EquipmentMediator.ITEM_ADD_LAYER, Context.New({
-							viewComponent = SelectSkinLayer,
-							mediator = SkinAtlasMediator,
+							viewComponent = NewSelectSkinLayer,
+							mediator = NewSkinAtlasMediator,
 							data = {
 								mode = SelectSkinLayer.MODE_SELECT,
 								itemId = uv0.id,

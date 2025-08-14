@@ -9901,6 +9901,16 @@ _G.pg.base.gametip.ship_remould_warning_105234 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_107974 = {
+	tip = [[
+The retrofitting process will use up your <color=#92fc63>Necessary Prep Work</color>.
+Proceed with the retrofit?
+Completing the retrofit will have the following effects: 
+<color=#92fc63>This ship can now equip all aircraft types in her Dive Bomber slot.</color>
+The skill <color=#92fc63>Valorous Avengers</color> will be upgraded into <color=#92fc63>Valorous Avengers+</color>.]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "Fully retrofitting this ship will give her <color=#92fc63>Fighters +1 and Torpedo Bombers +1</color>.\nDo you want to proceed with this retrofit? "
 }
@@ -12895,7 +12905,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Yumia Liessfeldt, Nina Friede, and Lenja!"
+	tip = "Rate UP for Masséna, Bois Belleau, and Duquesne!"
 }
 
 
@@ -39876,4 +39886,594 @@ _G.pg.base.gametip.yumia_pt_tip = {
 
 _G.pg.base.gametip.yumia_pt_4 = {
 	tip = "Obtained"
+}
+
+
+_G.pg.base.gametip.masaina_main_title = {
+	tip = "Secrets of the Abyss"
+}
+
+
+_G.pg.base.gametip.masaina_main_title_en = {
+	tip = "Secrets of the Abyss"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet1 = {
+	tip = "Main Event"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet2 = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet3 = {
+	tip = "Fashion"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet4 = {
+	tip = "Minigame"
+}
+
+
+_G.pg.base.gametip.masaina_main_skin_tag = {
+	tip = "$1h left"
+}
+
+
+_G.pg.base.gametip.masaina_main_other_tag = {
+	tip = "Ending Soon"
+}
+
+
+_G.pg.base.gametip.shop_title = {
+	tip = "Shop"
+}
+
+
+_G.pg.base.gametip.shop_recommend = {
+	tip = "Top"
+}
+
+
+_G.pg.base.gametip.shop_recommend_en = {
+	tip = "Top"
+}
+
+
+_G.pg.base.gametip.shop_skin = {
+	tip = "Skins"
+}
+
+
+_G.pg.base.gametip.shop_skin_en = {
+	tip = "Skins"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop = {
+	tip = "Supply"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop_en = {
+	tip = "Supply"
+}
+
+
+_G.pg.base.gametip.shop_skin_new = {
+	tip = "Limited"
+}
+
+
+_G.pg.base.gametip.shop_skin_permanent = {
+	tip = "Hot"
+}
+
+
+_G.pg.base.gametip.shop_month = {
+	tip = "Monthly"
+}
+
+
+_G.pg.base.gametip.shop_supply = {
+	tip = "Supply"
+}
+
+
+_G.pg.base.gametip.shop_activity = {
+	tip = "Event Exchange"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_0 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_0 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_1 = {
+	tip = "New Commanders"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_1 = {
+	tip = "New Commanders"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_2 = {
+	tip = "Level"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_2 = {
+	tip = "Level"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_3 = {
+	tip = "PR"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_3 = {
+	tip = "PR"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_day = {
+	tip = "$1d left"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_hour = {
+	tip = "$1h left"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_minute = {
+	tip = "$1m left"
+}
+
+
+_G.pg.base.gametip.shop_refresh_time = {
+	tip = "Resets in $1"
+}
+
+
+_G.pg.base.gametip.shop_side_lable_en = {
+	tip = "Recommend"
+}
+
+
+_G.pg.base.gametip.street_shop_titleen = {
+	tip = "Shop"
+}
+
+
+_G.pg.base.gametip.military_shop_titleen = {
+	tip = "Merit"
+}
+
+
+_G.pg.base.gametip.guild_shop_titleen = {
+	tip = "Guild"
+}
+
+
+_G.pg.base.gametip.meta_shop_titleen = {
+	tip = "META"
+}
+
+
+_G.pg.base.gametip.mini_game_shop_titleen = {
+	tip = "Prize"
+}
+
+
+_G.pg.base.gametip.shop_item_unlock = {
+	tip = "Pack Content"
+}
+
+
+_G.pg.base.gametip.shop_item_unobtained = {
+	tip = "Unobtained"
+}
+
+
+_G.pg.base.gametip.beat_game_rule = {
+	tip = "Rules"
+}
+
+
+_G.pg.base.gametip.beat_game_rank = {
+	tip = "Ranking"
+}
+
+
+_G.pg.base.gametip.beat_game_go = {
+	tip = "Go"
+}
+
+
+_G.pg.base.gametip.beat_game_start = {
+	tip = "Start Game"
+}
+
+
+_G.pg.base.gametip.beat_game_high_score = {
+	tip = "High Score"
+}
+
+
+_G.pg.base.gametip.beat_game_current_score = {
+	tip = "Current Score"
+}
+
+
+_G.pg.base.gametip.beat_game_exit_desc = {
+	tip = "Your current score will be used to calculate your ranking."
+}
+
+
+_G.pg.base.gametip.musicbeat_minigame_help = {
+	tip = {
+		{
+			info = [[
+Sway to the beat alongside Essex and Enterprise to sort through the depot!
+
+· Play the minigame to receive the <b>Necessary Prep Work</b>, Essex's retrofit material!
+· New rewards will be unlocked every up to August 20th.
+
+· Tap the <b><color=#F55656>red button on the left</color></b> to <color=#F55656><b>throw</b></color> an item.
+· Tap the <b><color=#FAF065>yellow button on the right</color></b> to <color=#FAF065><b>catch</b></color> an item.
+· Instruct Enterprise to <color=#F55656><b>throw all the fruit</b></color> and <color=#FAF065><b>capture all the aircraft</b></color>!
+
+· Playing correctly will increase your score. Catching a fruit will lower your health. When your health reaches 0, the minigame ends.
+The minigame's speed will get faster and faster the longer it goes on.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.masaina_pt_claimed = {
+	tip = "Obtained"
+}
+
+
+_G.pg.base.gametip.activity_shop_titleen = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.shop_diamond_title_en = {
+	tip = "Gems"
+}
+
+
+_G.pg.base.gametip.shop_gift_title_en = {
+	tip = "Packs"
+}
+
+
+_G.pg.base.gametip.shop_item_title_en = {
+	tip = "Items"
+}
+
+
+_G.pg.base.gametip.shop_pack_empty = {
+	tip = "No pack available"
+}
+
+
+_G.pg.base.gametip.shop_new_unfound = {
+	tip = "You have no skins that match the search terms."
+}
+
+
+_G.pg.base.gametip.shop_new_shop = {
+	tip = "Shop"
+}
+
+
+_G.pg.base.gametip.shop_new_during_day = {
+	tip = "$1d left"
+}
+
+
+_G.pg.base.gametip.shop_new_during_hour = {
+	tip = "$1h left"
+}
+
+
+_G.pg.base.gametip.shop_new_during_minite = {
+	tip = "$1m left"
+}
+
+
+_G.pg.base.gametip.shop_new_sort = {
+	tip = "Filter"
+}
+
+
+_G.pg.base.gametip.shop_new_search = {
+	tip = "Tap to search"
+}
+
+
+_G.pg.base.gametip.shop_new_purchased = {
+	tip = "Purchased"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase = {
+	tip = "Purchase"
+}
+
+
+_G.pg.base.gametip.shop_new_claim = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.shop_new_furniture = {
+	tip = "Furniture Shop"
+}
+
+
+_G.pg.base.gametip.shop_new_discount = {
+	tip = "Discounted"
+}
+
+
+_G.pg.base.gametip.shop_new_try = {
+	tip = "Rental"
+}
+
+
+_G.pg.base.gametip.shop_new_gift = {
+	tip = "Free"
+}
+
+
+_G.pg.base.gametip.shop_new_gem_transform = {
+	tip = "If you receive a duplicate skin, it will be converted into a corresponding sum of Gems."
+}
+
+
+_G.pg.base.gametip.shop_new_review = {
+	tip = "Check"
+}
+
+
+_G.pg.base.gametip.shop_new_all = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.shop_new_owned = {
+	tip = "Owned"
+}
+
+
+_G.pg.base.gametip.shop_new_havent_own = {
+	tip = "Unowned"
+}
+
+
+_G.pg.base.gametip.shop_new_unused = {
+	tip = "Owned not in use"
+}
+
+
+_G.pg.base.gametip.shop_new_type = {
+	tip = "Type"
+}
+
+
+_G.pg.base.gametip.shop_new_static = {
+	tip = "Static"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic = {
+	tip = "Dynamic"
+}
+
+
+_G.pg.base.gametip.shop_new_static_bg = {
+	tip = "Regular BG"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic_bg = {
+	tip = "Animated BG"
+}
+
+
+_G.pg.base.gametip.shop_new_bgm = {
+	tip = "BGM"
+}
+
+
+_G.pg.base.gametip.shop_new_index = {
+	tip = "Sort"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_owned = {
+	tip = "Owned Ship"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_havent_owned = {
+	tip = "Unowned Ship"
+}
+
+
+_G.pg.base.gametip.shop_new_nation = {
+	tip = "Faction"
+}
+
+
+_G.pg.base.gametip.shop_new_rarity = {
+	tip = "Rarity"
+}
+
+
+_G.pg.base.gametip.shop_new_category = {
+	tip = "Shiptype"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_theme = {
+	tip = "Theme"
+}
+
+
+_G.pg.base.gametip.shop_new_confirm = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.shop_new_during_time = {
+	tip = "Time Left"
+}
+
+
+_G.pg.base.gametip.shop_new_daily = {
+	tip = "Daily"
+}
+
+
+_G.pg.base.gametip.shop_new_recommend = {
+	tip = "Top"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_shop = {
+	tip = "Skins"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase_gem = {
+	tip = "Gems"
+}
+
+
+_G.pg.base.gametip.shop_new_akashi_recommend = {
+	tip = "Recommended"
+}
+
+
+_G.pg.base.gametip.shop_new_packs = {
+	tip = "Packs"
+}
+
+
+_G.pg.base.gametip.shop_new_props = {
+	tip = "Items"
+}
+
+
+_G.pg.base.gametip.shop_new_ptshop = {
+	tip = "Supply"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_new = {
+	tip = "Limited"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_permanent = {
+	tip = "Hot"
+}
+
+
+_G.pg.base.gametip.shop_new_in_use = {
+	tip = "In Use"
+}
+
+
+_G.pg.base.gametip.shop_new_unable_to_use = {
+	tip = "Unusable"
+}
+
+
+_G.pg.base.gametip.shop_new_owned_skin = {
+	tip = "Owned"
+}
+
+
+_G.pg.base.gametip.shop_new_wear = {
+	tip = "Wear"
+}
+
+
+_G.pg.base.gametip.shop_new_get_now = {
+	tip = "Get $1 now"
+}
+
+
+_G.pg.base.gametip.shop_new_remaining_time = {
+	tip = "Already purchased. $1 day(s) remaining"
+}
+
+
+_G.pg.base.gametip.shop_new_remove = {
+	tip = "Removed after $1"
+}
+
+
+_G.pg.base.gametip.shop_new_retro = {
+	tip = "Rerun"
+}
+
+
+_G.pg.base.gametip.shop_new_able_to_exchange = {
+	tip = "Can be exchanged"
+}
+
+
+_G.pg.base.gametip.shop_countdown = {
+	tip = "Ends in $1d $2h $3m"
+}
+
+
+_G.pg.base.gametip.quota_shop_title1en = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.sham_shop_titleen = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.medal_shop_titleen = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.fragment_shop_titleen = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.shop_fragment_resolve = {
+	tip = "Blueprint Analysis"
+}
+
+
+_G.pg.base.gametip.beat_game_my_record = {
+	tip = "My Rank"
 }

@@ -3418,6 +3418,566 @@ pg.roll_attr = {
 			"SSS"
 		}
 	},
+	[3194] = {
+		ID = 3194,
+		name = "Nature's Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3195] = {
+		ID = 3195,
+		name = "Vitality's Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3196] = {
+		ID = 3196,
+		name = "Thunder's Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3197] = {
+		ID = 3197,
+		name = "Lightning's Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3198] = {
+		ID = 3198,
+		name = "Adventurer's Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3199] = {
+		ID = 3199,
+		name = "Magic Trick",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3200] = {
+		ID = 3200,
+		name = "Spell of Soothing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3201] = {
+		ID = 3201,
+		name = "Cannon Volley",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3202] = {
+		ID = 3202,
+		name = "Torpedo Barrage",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3203] = {
+		ID = 3203,
+		name = "Saturation Bombardment",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3204] = {
+		ID = 3204,
+		name = "Mind Spear",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3205] = {
+		ID = 3205,
+		name = "Shadowstorm",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3206] = {
+		ID = 3206,
+		name = "Everlasting Light",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3207] = {
+		ID = 3207,
+		name = "Dimensional Gate",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3208] = {
+		ID = 3208,
+		name = "Celestial Summoning",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3209] = {
+		ID = 3209,
+		name = "Heal",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3210] = {
+		ID = 3210,
+		name = "Mind Barrier",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3211] = {
+		ID = 3211,
+		name = "Illusion",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3212] = {
+		ID = 3212,
+		name = "Spell of Mirages",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3213] = {
+		ID = 3213,
+		name = "Spell of Binding",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3214] = {
+		ID = 3214,
+		name = "Underworld Gate",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3215] = {
+		ID = 3215,
+		name = "Sacrificial Cage",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3216] = {
+		ID = 3216,
+		name = "Mind Degradation",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3217] = {
+		ID = 3217,
+		name = "Blight",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3218] = {
+		ID = 3218,
+		name = "Spell of Foresight",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3219] = {
+		ID = 3219,
+		name = "Mass Heal",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3220] = {
+		ID = 3220,
+		name = "Demon Princess' Kiss",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3221] = {
+		ID = 3221,
+		name = "Winter General's Fury",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3222] = {
+		ID = 3222,
+		name = "Summon Ancient Golem",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3223] = {
+		ID = 3223,
+		name = "The Three Sages' Light",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3224] = {
+		ID = 3224,
+		name = "Ancient Blessing",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3225] = {
+		ID = 3225,
+		name = "Pathfinding",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3226] = {
+		ID = 3226,
+		name = "Mapmaking",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3227] = {
+		ID = 3227,
+		name = "Summon Slimejuu",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3228] = {
+		ID = 3228,
+		name = "Blessing of Pure White",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3639,6 +4199,41 @@ pg.roll_attr = {
 		3189,
 		3190,
 		3192,
-		3193
+		3193,
+		3194,
+		3195,
+		3196,
+		3197,
+		3198,
+		3199,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3211,
+		3212,
+		3213,
+		3214,
+		3215,
+		3216,
+		3217,
+		3218,
+		3219,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228
 	}
 }

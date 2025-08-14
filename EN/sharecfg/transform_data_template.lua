@@ -1067,6 +1067,18 @@ pg.transform_data_template = setmetatable({
 		35109,
 		35110,
 		35111,
+		35701,
+		35702,
+		35703,
+		35704,
+		35705,
+		35706,
+		35707,
+		35708,
+		35709,
+		35710,
+		35711,
+		35712,
 		36101,
 		36102,
 		36103,
@@ -41660,6 +41672,500 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		},
 		gear_score = {
 			50
+		}
+	},
+	[35701] = {
+		level_limit = 1,
+		name = "Hull Improvement Ⅰ",
+		descrip = "HP +60",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 3,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 35701,
+		condition_id = {},
+		effect = {
+			{
+				durability = 60
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[35702] = {
+		level_limit = 5,
+		name = "Reload Enhancement Ⅰ",
+		descrip = "RLD +5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "rl_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 35702,
+		condition_id = {
+			35701
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[35703] = {
+		level_limit = 20,
+		name = "Air Elite Ⅰ",
+		descrip = "Fighter efficiency +5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "ffup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 35703,
+		condition_id = {
+			35701
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[35704] = {
+		level_limit = 25,
+		name = "Aviation Enhancement Ⅰ",
+		descrip = "AVI +10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "air_1",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 35704,
+		condition_id = {
+			35703
+		},
+		effect = {
+			{
+				air = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[35705] = {
+		level_limit = 35,
+		name = "Bombing Elite Ⅰ",
+		descrip = "Dive Bomber efficiency +5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "bfup_1",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 35705,
+		condition_id = {
+			35703
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					5
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[35706] = {
+		level_limit = 40,
+		name = "Aviation Enhancement Ⅱ",
+		descrip = "AVI +10/AVI +15",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "air_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 35706,
+		condition_id = {
+			35705
+		},
+		effect = {
+			{
+				air = 10
+			},
+			{
+				air = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18032,
+					2
+				}
+			},
+			{
+				{
+					18032,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[35707] = {
+		level_limit = 50,
+		name = "Hull Improvement Ⅱ",
+		descrip = "HP +60/HP +90",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 35707,
+		condition_id = {
+			35705
+		},
+		effect = {
+			{
+				durability = 60
+			},
+			{
+				durability = 90
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				}
+			},
+			{
+				{
+					18033,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[35708] = {
+		level_limit = 55,
+		name = "Reload Enhancement Ⅱ",
+		descrip = "RLD +5/RLD +10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "rl_2",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 35708,
+		condition_id = {
+			35707,
+			35702
+		},
+		effect = {
+			{
+				reload = 5
+			},
+			{
+				reload = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				}
+			},
+			{
+				{
+					18033,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[35709] = {
+		level_limit = 70,
+		name = "Torpedo Dive Ⅱ",
+		descrip = "Torpedo Bomber efficiency +5%/Torpedo Bomber efficiency +5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "tfup_2",
+		skill_id = 0,
+		use_gold = 4000,
+		id = 35709,
+		condition_id = {
+			35707
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			},
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					2
+				}
+			},
+			{
+				{
+					18033,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[35710] = {
+		level_limit = 75,
+		name = "Aviation Enhancement Ⅲ",
+		descrip = "AVI +10/AVI +15/AVI +20",
+		max_level = 3,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "Air_3",
+		skill_id = 0,
+		use_gold = 5000,
+		id = 35710,
+		condition_id = {
+			35709
+		},
+		effect = {
+			{
+				air = 10
+			},
+			{
+				air = 15
+			},
+			{
+				air = 20
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					1
+				},
+				{
+					17043,
+					10
+				}
+			},
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17043,
+					20
+				}
+			},
+			{
+				{
+					18033,
+					3
+				},
+				{
+					17043,
+					30
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15,
+			20
+		}
+	},
+	[35711] = {
+		level_limit = 85,
+		name = "Modernization",
+		descrip = [[
+Completing the retrofit will have the following effects:
+ACC +10, AA +35.
+<color=#92fc63>This ship can now equip all aircraft types in her Dive Bomber slot.</color>
+The skill Valorous Avengers will be upgraded into Valorous Avengers+.]],
+		max_level = 1,
+		skin_id = 107099,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 7500,
+		id = 35711,
+		condition_id = {
+			35709,
+			35710
+		},
+		effect = {
+			{
+				antiaircraft = 35,
+				hit = 10
+			}
+		},
+		ship_id = {
+			{
+				107094,
+				107974
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					59856,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[35712] = {
+		level_limit = 90,
+		name = "Tactical Learning",
+		descrip = "Learn Next Generation",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "skill_red",
+		skill_id = 151460,
+		use_gold = 5000,
+		id = 35712,
+		condition_id = {
+			35711
+		},
+		effect = {
+			{
+				skill_id = 151460
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18033,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			25
 		}
 	},
 	[36101] = {

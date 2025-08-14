@@ -3421,7 +3421,7 @@ pg.backyard_theme_template = {
 		desc = "\"Won't you stay for dinner? Don't be afraid – I won't bite.\"",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -4973,6 +4973,43 @@ pg.backyard_theme_template = {
 			327302
 		}
 	},
+	[127] = {
+		Cfg_1 = 5,
+		name = "Sylvan Hot Springs",
+		desc = "Soak in the warm water and breathe in the forest air.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 128,
+		id = 127,
+		icon = "wq2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			328001,
+			328002,
+			328101,
+			328102,
+			328103,
+			328104,
+			328105,
+			328106,
+			328107,
+			328108,
+			328109,
+			328110,
+			328111,
+			328112,
+			328113,
+			328114,
+			328115,
+			328116,
+			328117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5087,6 +5124,7 @@ pg.backyard_theme_template = {
 		123,
 		124,
 		125,
-		126
+		126,
+		127
 	}
 }

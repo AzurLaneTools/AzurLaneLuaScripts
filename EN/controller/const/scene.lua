@@ -135,6 +135,7 @@ SCENE = {
 	ANNIVERSARY_ISLAND_SPRING_TASK = "anniversary island spring task",
 	IMAS_STAGE = "IdolMaster Stage",
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
+	NEW_SHOP = "new shop",
 	PROBABILITY_SKINSHOP = "scene probability skinshop",
 	NEW_EDUCATE_SELECT = "NEW_EDUCATE_SELECT",
 	BOSSRUSH_MAIN = "bossrush main",
@@ -351,8 +352,20 @@ slot0 = {
 		slot0.viewComponent = DailyLevelScene
 	end,
 	[SCENE.CHARGE] = function (slot0, slot1)
-		slot0.mediator = ChargeMediator
-		slot0.viewComponent = ChargeScene
+		slot0.mediator = NewShopMainMediator
+		slot0.viewComponent = NewShopMainScene
+
+		if slot0.data.type == nil then
+			slot0.extendData(slot0, {
+				type = "charge"
+			})
+		end
+
+		if slot0.data.wrap then
+			slot0.data.warp = slot0.data.wrap
+		end
+
+		slot0.cleanChild = true
 	end,
 	[SCENE.CHARGE_MENU] = function (slot0, slot1)
 		slot0.mediator = ChargeMenuMediator
@@ -391,8 +404,16 @@ slot0 = {
 		slot0.viewComponent = BillboardScene
 	end,
 	[SCENE.SHOP] = function (slot0, slot1)
-		slot0.mediator = NewShopsMediator
-		slot0.viewComponent = NewShopsScene
+		slot0.mediator = NewShopMainMediator
+		slot0.viewComponent = NewShopMainScene
+
+		if slot0.data.type == nil then
+			slot0.extendData(slot0, {
+				type = "supply"
+			})
+		end
+
+		slot0.cleanChild = true
 	end,
 	[SCENE.VOTE] = function (slot0, slot1)
 		slot0.mediator = VoteMediator
@@ -463,20 +484,28 @@ slot0 = {
 		slot0.viewComponent = NewBulletinBoardLayer
 	end,
 	[SCENE.SKINSHOP] = function (slot0, slot1)
-		slot0.mediator = NewSkinShopMediator
-		slot0.viewComponent = NewSkinShopScene
+		slot0.mediator = NewShopMainMediator
+		slot0.viewComponent = NewShopMainScene
+
+		if slot0.data.type == nil then
+			slot0.extendData(slot0, {
+				type = "skin"
+			})
+		end
+
+		slot0.cleanChild = true
 	end,
 	[SCENE.PROBABILITY_SKINSHOP] = function (slot0, slot1)
-		slot0.mediator = NewProbabilitySkinShopMediator
-		slot0.viewComponent = NewProbabilitySkinShopScene
+		slot0.mediator = LatestSkinShopMediator
+		slot0.viewComponent = LatestSkinGiftPackLayer
 	end,
 	[SCENE.SKINATALAS] = function (slot0, slot1)
 		slot0.mediator = SkinAtlasMediator
 		slot0.viewComponent = SkinAtlasScene
 	end,
 	[SCENE.SELECT_SKIN] = function (slot0, slot1)
-		slot0.mediator = SkinAtlasMediator
-		slot0.viewComponent = SelectSkinLayer
+		slot0.mediator = NewSkinAtlasMediator
+		slot0.viewComponent = NewSelectSkinLayer
 	end,
 	[SCENE.WORLDBOSS] = function (slot0, slot1)
 		slot0.mediator = WorldBossMediator
@@ -1016,6 +1045,11 @@ slot0 = {
 	[SCENE.COLLECTION_BOOK] = function (slot0, slot1)
 		slot0.mediator = CollectionBookMediator
 		slot0.viewComponent = CollectionBookLayer
+	end,
+	[SCENE.NEW_SHOP] = function (slot0, slot1)
+		slot0.mediator = NewShopMainMediator
+		slot0.viewComponent = NewShopMainScene
+		slot0.cleanChild = true
 	end
 }
 
@@ -1211,6 +1245,16 @@ slot1 = {
 			callback = function (slot0)
 				uv0.context:extendData({
 					shops = slot0
+				})
+				uv1()
+			end
+		})
+	end,
+	NewShopMainMediator = function (slot0, slot1)
+		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
+			callback = function (slot0)
+				uv0.context:extendData({
+					supplyShopList = slot0
 				})
 				uv1()
 			end

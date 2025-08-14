@@ -31350,6 +31350,163 @@ pg.ship_strengthen_blueprint = {
 			"Stats gained from auxiliary gear +30%"
 		}
 	},
+	[3331] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3331,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[3332] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3332,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[3333] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +3",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3333,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		},
+		effect_base = {
+			1,
+			1,
+			2
+		}
+	},
+	[3334] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3334,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[3335] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +5|Upgrades Nocturnal Judgment to Nocturnal Judgment+",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3335,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19790,
+			18790
+		}
+	},
 	[3401] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -32169,6 +32326,159 @@ pg.ship_strengthen_blueprint = {
 			"Improves Siren Killer",
 			"Main Gun base +1",
 			"Main Gun efficiency +15%"
+		}
+	},
+	[3431] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3431,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[3432] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3432,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[3433] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3433,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[3434] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3434,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[3435] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +5|Upgrades Causality Anchor to Causality Anchor+",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3435,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19860,
+			18860
 		}
 	},
 	[3501] = {
@@ -34649,6 +34959,159 @@ pg.ship_strengthen_blueprint = {
 			"Main Gun efficiency +10%"
 		}
 	},
+	[3731] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3731,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[3732] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3732,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[3733] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3733,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[3734] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3734,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[3735] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +5|Upgrades Blade of Iris Aspirations to Blade of Iris Aspirations+",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3735,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19780,
+			18780
+		}
+	},
 	[3801] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -35744,6 +36207,7 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learns Siren Killer",
+			"Salvo capacity +1",
 			"Main Gun base +1",
 			"Main Gun efficiency +5%"
 		}
@@ -36018,7 +36482,6 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Improves Siren Killer",
-			"Salvo capacity +1",
 			"Secondary Gun base +2",
 			"Main Gun efficiency +10%"
 		}
@@ -39886,6 +40349,11 @@ pg.ship_strengthen_blueprint = {
 		3328,
 		3329,
 		3330,
+		3331,
+		3332,
+		3333,
+		3334,
+		3335,
 		3401,
 		3402,
 		3403,
@@ -39916,6 +40384,11 @@ pg.ship_strengthen_blueprint = {
 		3428,
 		3429,
 		3430,
+		3431,
+		3432,
+		3433,
+		3434,
+		3435,
 		3501,
 		3502,
 		3503,
@@ -40006,6 +40479,11 @@ pg.ship_strengthen_blueprint = {
 		3728,
 		3729,
 		3730,
+		3731,
+		3732,
+		3733,
+		3734,
+		3735,
 		3801,
 		3802,
 		3803,

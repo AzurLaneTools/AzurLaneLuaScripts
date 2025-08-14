@@ -14,8 +14,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.InitChatPosition = function(slot0)
-	slot3 = slot0.chat.parent:InverseTransformPoint(slot0._painting.parent:TransformPoint(slot0._painting.localPosition + slot0.chatTrOffset))
-	slot0.chat.localPosition = Vector3(slot3.x, slot3.y, 0)
 end
 
 slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
@@ -198,6 +196,15 @@ slot0.UnLoad = function(slot0)
 
 		slot0.name = nil
 		slot0.iShopPainting = nil
+	end
+end
+
+slot0.Show = function(slot0, slot1)
+	if slot1 then
+		setActive(slot0._painting, true)
+	else
+		setActive(slot0._painting, false)
+		slot0:StopCV()
 	end
 end
 

@@ -13,7 +13,7 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.OpenMall = function(slot0)
-	slot0:emit(NewMainMediator.GO_SCENE, SCENE.CHARGE_MENU)
+	slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEW_SHOP)
 	pg.m02:sendNotification(GAME.TRACK, TrackConst.GetTrackData(TrackConst.SYSTEM_SHOP, TrackConst.ACTION_ENTER_MAIN, isActive(slot0.sellTag) or isActive(slot0.skinTag) or isActive(slot0.mallTip)))
 	PlayerPrefs.SetInt("Tec_Ship_Gift_Enter_Tag", 1)
 	PlayerPrefs.Save()

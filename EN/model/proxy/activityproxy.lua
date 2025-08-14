@@ -53,6 +53,18 @@ slot0.register = function(slot0)
 				end
 
 				uv0.data[slot5.id] = slot6
+
+				if slot6.stopTime > 0 then
+					table.insert(uv0.stopList, {
+						slot6.stopTime,
+						slot6.id
+					})
+					table.sort(uv0.stopList, CompareFuncs({
+						function (slot0)
+							return slot0[1]
+						end
+					}))
+				end
 			end
 		end
 

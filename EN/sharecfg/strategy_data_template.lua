@@ -327,6 +327,8 @@ pg.strategy_data_template = setmetatable({
 		201411,
 		201461,
 		201462,
+		201463,
+		201464,
 		205001,
 		205002,
 		205003,
@@ -4054,6 +4056,37 @@ Your ships become briefly invulnerable after taking DMG.
 		iconSize = "",
 		buff_type = 0,
 		id = 201462,
+		icon = "200908",
+		arg = {}
+	},
+	[201463] = {
+		buff_id = 0,
+		name = "Challenge Conditions",
+		desc = "The boss has <color=#92fc63>2 forms, Black and White,</color> each with its own health and fighting style. In the Black form, <color=#92fc63>her DMG taken is set to 1</color>.\nOnce the boss has performed all her attacks in the current form, and as long as the other form has health remaining, she changes forms. When the boss' HP reaches 0 in the current form, she changes to the other, and upon doing so, she gains the <color=#92fc63>Berserk</color> status, increasing her DMG dealt and taken by 100.0% (in the Black form, her DMG taken is set to 2).",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201463,
+		icon = "200908",
+		arg = {}
+	},
+	[201464] = {
+		buff_id = 0,
+		name = "Challenge Conditions",
+		desc = [[
+The boss has <color=#92fc63>2 forms, Black and White,</color> each with its own health and fighting style. In the Black form, <color=#92fc63>her DMG taken is set to 1</color>.
+Once the boss has performed all her attacks in the current form, and as long as the other form has health remaining, she changes forms. When the boss' HP reaches 0 in the current form, she changes to the other, and upon doing so, she gains the <color=#92fc63>Berserk</color> status, increasing her DMG dealt and taken by 100.0% (in the Black form, her DMG taken is set to 2).
+
+- Hard Mode Details -
+Enemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or launching an airstrike.
+<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox,</color> while the rest of your Vanguard cannot be damaged.
+Your ships become briefly invulnerable after taking DMG.
+
+· The skills "Operation Rainbow," "Fiercer When Cornered," and "Eleventh Hour" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201464,
 		icon = "200908",
 		arg = {}
 	},

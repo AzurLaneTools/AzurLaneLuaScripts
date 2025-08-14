@@ -3611,7 +3611,12 @@ _G.pg.base.spweapon_data_statistics[9000] = {
 			9037
 		}
 	},
-	hide_buff_upgrade = {},
+	hide_buff_upgrade = {
+		{
+			9036,
+			9037
+		}
+	},
 	label = {}
 }
 

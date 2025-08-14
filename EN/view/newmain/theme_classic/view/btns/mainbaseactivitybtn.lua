@@ -200,7 +200,21 @@ slot0.Skip = function(slot0, slot1)
 	elseif slot1.type == GAMEUI_BANNER_15 then
 		slot0:emit(NewMainMediator.SKIP_INS)
 	elseif slot1.type == GAMEUI_BANNER_16 then
-		slot0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, slot1.param)
+		if type(slot1.param) == "table" then
+			slot0.IsPlayeds = pg.NewStoryMgr.GetInstance():IsPlayed(slot1.param[2])
+
+			if not slot0.IsPlayeds then
+				slot2 = pg.NewStoryMgr.GetInstance()
+
+				slot2:Play(slot1.param[2], function ()
+					uv0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, uv1.param[1])
+				end)
+			else
+				slot0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, slot1.param[1])
+			end
+		else
+			slot0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, slot1.param)
+		end
 	end
 end
 

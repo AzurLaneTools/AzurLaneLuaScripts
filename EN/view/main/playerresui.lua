@@ -178,7 +178,7 @@ slot0.ClickGem = function(slot0)
 	slot1 = slot0:GetPlayer()
 
 	slot2 = function()
-		if not pg.m02:hasMediator(ChargeMediator.__cname) then
+		if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 				wrap = ChargeScene.TYPE_DIAMOND
 			})

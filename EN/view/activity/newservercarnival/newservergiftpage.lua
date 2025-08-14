@@ -40,7 +40,7 @@ slot0.initUI = function(slot0)
 end
 
 slot0.initGift = function(slot0, slot1)
-	slot2 = ChargeCard.New(slot1)
+	slot2 = OldChargeCard.New(slot1)
 
 	onButton(slot0, slot2.tr, function ()
 		uv0:confirm(uv1.goods)

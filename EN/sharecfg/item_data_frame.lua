@@ -81,6 +81,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for six years.</color>\nEarned by participating in the 6th Anniversary limited event.",
 		scene = {}
 	},
+	[109] = {
+		name = "7th Anniversary",
+		gain_by = "",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for seven years.</color>\nEarned by participating in the 7th Anniversary limited event.",
+		scene = {}
+	},
 	[201] = {
 		name = "Achievement Chat Bubbles",
 		gain_by = "",
@@ -847,6 +856,7 @@ pg.item_data_frame = {
 		106,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,

@@ -13,10 +13,24 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.UIlist = UIItemList.New(findTF(slot0._tf, "panel/list"), findTF(slot0._tf, "panel/list/Tasktpl"))
 
 	onButton(slot0, slot0._mask, function ()
-		uv0:SetActive(false)
+		if uv0._parent.TASK_CLOSE_ANIM and uv0._parent.TASK_CLOSE_ANIM_Time then
+			quickPlayAnimation(uv0._go, uv0._parent.TASK_CLOSE_ANIM)
+			onDelayTick(function ()
+				uv0:SetActive(false)
+			end, uv0._parent.TASK_CLOSE_ANIM_Time)
+		else
+			uv0:SetActive(false)
+		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._backBtn, function ()
-		uv0:SetActive(false)
+		if uv0._parent.TASK_CLOSE_ANIM and uv0._parent.TASK_CLOSE_ANIM_Time then
+			quickPlayAnimation(uv0._go, uv0._parent.TASK_CLOSE_ANIM)
+			onDelayTick(function ()
+				uv0:SetActive(false)
+			end, uv0._parent.TASK_CLOSE_ANIM_Time)
+		else
+			uv0:SetActive(false)
+		end
 	end, SFX_CANCEL)
 end
 
@@ -72,6 +86,25 @@ slot0.UpdateList = function(slot0, slot1)
 		end
 	end)
 	slot0.UIlist:align(#slot1)
+
+	if slot0._parent.TASK_ANIM and slot0._parent.TASK_ENTER_ANIM_Time and slot0._parent.TASK_Time then
+		slot2 = findTF(slot0._tf, "panel/list").transform.childCount
+
+		onDelayTick(function ()
+			for slot3 = 0, uv0 - 1 do
+				slot4 = findTF(uv1._tf, "panel/list")
+				slot4 = slot4:GetChild(slot3)
+
+				onDelayTick(function ()
+					if uv0._parent.exited then
+						return
+					end
+
+					quickPlayAnimation(uv1, uv0._parent.TASK_ANIM)
+				end, uv1._parent.TASK_Time * (slot3 + 1))
+			end
+		end, slot0._parent.TASK_ENTER_ANIM_Time)
+	end
 end
 
 slot0.updateAwards = function(slot0, slot1, slot2, slot3)
@@ -142,6 +175,12 @@ slot0.SetActive = function(slot0, slot1)
 		})
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._go, slot0._parent._tf)
+
+		if slot0._parent.TASK_ANIM and slot0._parent.TASK_ENTER_ANIM_Time and slot0._parent.TASK_Time then
+			for slot6 = 0, findTF(slot0._tf, "panel/list").transform.childCount - 1 do
+				setCanvasGroupAlpha(findTF(slot0._tf, "panel/list"):GetChild(slot6), 0)
+			end
+		end
 	end
 end
 

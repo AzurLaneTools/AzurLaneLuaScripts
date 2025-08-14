@@ -1803,5 +1803,21 @@ pg.voice_actor_CN = {
 	[467] = {
 		actor_name = "Non Harusaki",
 		code = 467
+	},
+	[468] = {
+		actor_name = "Coco Hayashi",
+		code = 468
+	},
+	[469] = {
+		actor_name = "Yuu Wakui",
+		code = 469
+	},
+	[470] = {
+		actor_name = "Rie Kawamura",
+		code = 470
+	},
+	[471] = {
+		actor_name = "Marika Suzuki",
+		code = 471
 	}
 }
