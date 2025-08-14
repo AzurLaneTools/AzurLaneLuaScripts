@@ -49,6 +49,19 @@ slot0.init = function(slot0)
 	slot0.buttonList = slot1
 	slot0.backBtn = slot0:findTF("top/closeBtn", slot1)
 	slot0.homeBtn = slot0:findTF("top/homeBtn", slot1)
+	slot0.resourcePanel = slot0:findTF("top/resources", slot1)
+
+	setActive(slot0.resourcePanel, false)
+
+	slot0.goldBtn = slot0:findTF("top/resources/gold", slot1)
+	slot0.goldText = slot0:findTF("top/resources/gold/Text", slot1):GetComponent(typeof(Text))
+	slot0.goldMax = slot0:findTF("top/resources/gold/max", slot1):GetComponent(typeof(Text))
+	slot0.oilBtn = slot0:findTF("top/resources/oil", slot1)
+	slot0.oilText = slot0:findTF("top/resources/oil/Text", slot1):GetComponent(typeof(Text))
+	slot0.oilMax = slot0:findTF("top/resources/oil/max", slot1):GetComponent(typeof(Text))
+	slot0.diamondBtn = slot0:findTF("top/resources/gem", slot1)
+	slot2 = slot0:findTF("top/resources/gem/Text", slot1)
+	slot0.diamondText = slot2:GetComponent(typeof(Text))
 
 	setText(slot0:findTF("top/title/Text", slot1), i18n("shop_title"))
 	setText(slot0:findTF("shop1List/recommendation/shop1Tg/name", slot1), i18n("shop_recommend"))
@@ -114,6 +127,10 @@ slot0.setPlayer = function(slot0, slot1)
 
 	if slot0.subViewList[slot0.curSubViewNum] and slot0.subViewList[slot0.curSubViewNum]:IsSupplyShop() then
 		slot0.subViewList[slot0.curSubViewNum]:SetPlayer(slot1)
+	end
+
+	if slot0.goldMax then
+		PlayerResUI.StaticFlush(slot0.player, slot0.goldMax, slot0.goldText, slot0.oilMax, slot0.oilText, slot0.diamondText)
 	end
 end
 
@@ -213,6 +230,15 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.goldBtn, function ()
+		pg.playerResUI:ClickGold()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.oilBtn, function ()
+		pg.playerResUI:ClickOil()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.diamondBtn, function ()
+		pg.playerResUI:ClickGem()
+	end, SFX_PANEL)
 	onToggle(slot0, slot0:findTF("shop1List/recommendation/shop1Tg", slot0.buttonList), function (slot0)
 		if slot0 then
 			uv0.contextData.shop1 = nil
@@ -471,15 +497,7 @@ slot0.ShowResourceBar = function(slot0, slot1)
 
 	slot0.resourceBarFlag = slot1
 
-	pg.playerResUI:SetActive({
-		canvasOrder = false,
-		anim = false,
-		showType = PlayerResUI.TYPE_ALL,
-		active = slot1,
-		clear = not slot1 and not slot0:isLayer(),
-		weight = slot0:getWeightFromData(),
-		groupName = slot0:getGroupNameFromData()
-	})
+	setActive(slot0.resourcePanel, slot1)
 end
 
 slot0.willExit = function(slot0)

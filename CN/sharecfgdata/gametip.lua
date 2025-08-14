@@ -40152,6 +40152,11 @@ _G.pg.base.gametip.fragment_shop_titleen = {
 }
 
 
+_G.pg.base.gametip.shop_fragment_resolve = {
+	tip = "蓝图解析"
+}
+
+
 _G.pg.base.gametip.beat_game_my_record = {
 	tip = "我的排名"
 }

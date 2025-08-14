@@ -28,7 +28,7 @@ slot0.init = function(slot0, ...)
 		if slot0 == UIItemList.EventUpdate then
 			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
-			end) then
+			end) or slot3:isEnd() then
 				setActive(slot2, false)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))

@@ -153,11 +153,10 @@ slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 	findTF(slot4, "consume/contain/Text"):GetComponent(typeof(Text)).text = slot1:getConfig("resource_num")
 
 	setScrollText(findTF(slot4, "name_mask/name"), slot15:getConfig("name") or "??")
-
-	findTF(slot4, "consume/contain/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas(Drop.New({
+	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}):getIcon(), "")
+	}):getIcon(), "", findTF(slot4, "consume/contain/icon"):GetComponent(typeof(Image)))
 
 	if slot1:getConfig("num_limit") == 0 then
 		setText(slot12, i18n("common_no_limit"))

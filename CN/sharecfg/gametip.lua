@@ -30176,8 +30176,13 @@ cs.gametip = {
 		97,
 		true
 	},
-	beat_game_my_record = {
+	shop_fragment_resolve = {
 		1074150,
+		97,
+		true
+	},
+	beat_game_my_record = {
+		1074247,
 		95,
 		true
 	}

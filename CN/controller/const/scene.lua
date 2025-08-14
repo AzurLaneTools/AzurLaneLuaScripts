@@ -496,8 +496,8 @@ slot0 = {
 		slot0.cleanChild = true
 	end,
 	[SCENE.PROBABILITY_SKINSHOP] = function (slot0, slot1)
-		slot0.mediator = NewProbabilitySkinShopMediator
-		slot0.viewComponent = NewProbabilitySkinShopScene
+		slot0.mediator = LatestSkinShopMediator
+		slot0.viewComponent = LatestSkinGiftPackLayer
 	end,
 	[SCENE.SKINATALAS] = function (slot0, slot1)
 		slot0.mediator = SkinAtlasMediator

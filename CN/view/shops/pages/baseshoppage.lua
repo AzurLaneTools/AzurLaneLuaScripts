@@ -19,6 +19,8 @@ slot0.init = function(slot0)
 	slot0.refreshBtn = slot0:findTF("timeBtn")
 	slot0.timerText = slot0:findTF("timeBtn/Text"):GetComponent(typeof(Text))
 	slot0.resolveBtn = slot0:findTF("resolveBtn")
+
+	setText(slot0:findTF("resolveBtn/Text"), i18n("shop_fragment_resolve"))
 end
 
 slot0.CustomInit = function(slot0)

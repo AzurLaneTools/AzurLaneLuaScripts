@@ -9,7 +9,7 @@ return {
 	{},
 	{},
 	{},
-	time = 8,
+	time = 10,
 	name = "破盾监听",
 	init_effect = "",
 	picture = "",

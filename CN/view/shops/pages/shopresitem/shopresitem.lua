@@ -3,7 +3,7 @@ slot0 = class("ShopResItem")
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = Object.Instantiate(slot1, slot2)
 	slot0._tf = slot0._go.transform
-	slot0.icon = findTF(slot0._tf, "icon")
+	slot0.icon = findTF(slot0._tf, "icon"):GetComponent(typeof(Image))
 	slot0.cntText = findTF(slot0._tf, "Text")
 end
 

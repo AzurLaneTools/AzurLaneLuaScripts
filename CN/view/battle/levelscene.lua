@@ -1052,36 +1052,34 @@ slot0.updateCouldAnimator = function(slot0, slot1, slot2)
 
 			(function ()
 				for slot3, slot4 in ipairs(uv0) do
-					if type(slot4[2][1]) == "table" then
-						slot5 = false
+					slot5 = false
 
-						for slot10, slot11 in ipairs(slot4[2][1]) do
-							if uv1:GetChapterItemById(slot11) and slot12:isClear() then
-								slot5 = true
+					for slot10, slot11 in ipairs(slot4[2][1]) do
+						if uv1:GetChapterItemById(slot11) and slot12:isClear() then
+							slot5 = true
 
-								break
-							end
+							break
 						end
 					end
 
 					if slot4[1] == uv2 then
-						for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv3:Find(slot10)) and not anyClear then
-								setActive(slot11, false)
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, false)
 							end
 						end
 					elseif slot4[1] == uv4 then
-						for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv3:Find(slot10)) and not anyClear then
-								setActive(slot11, true)
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, true)
 
 								return
 							end
 						end
 					elseif slot4[1] == uv5 then
-						for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv3:Find(slot10)) and not anyClear then
-								setActive(slot11, true)
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, true)
 							end
 						end
 					end

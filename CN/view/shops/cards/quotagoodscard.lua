@@ -28,11 +28,11 @@ slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 
 	setScrollText(slot0.nameTxt, slot6 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot7].name or "??") or slot8:getConfig("name") or "??")
 	setText(slot0.countTF, slot1:getConfig("resource_num"))
-
-	slot0.resIconTF.sprite = GetSpriteFromAtlas(Drop.New({
+	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}):getIcon(), "")
+	}):getIcon(), "", slot0.resIconTF)
+
 	slot11 = slot1:GetLimitGoodCount()
 
 	setText(slot0.limitCountLabelTF, i18n("quota_shop_owned") .. slot11 - slot1:GetPurchasableCnt() .. "/" .. slot11)

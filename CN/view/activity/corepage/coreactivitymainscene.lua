@@ -31,7 +31,7 @@ slot0.init = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			if not underscore.detect(uv0.activities, function (slot0)
 				return tostring(slot0:getConfig("is_show")) == uv0.name
-			end) then
+			end) or slot3:isEnd() then
 				setActive(slot2, false)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
@@ -70,15 +70,15 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.setActivities = function(slot0, slot1)
-	slot0.activities = slot1 or {}
+	slot0.activities = underscore.filter(slot1 or {}, function (slot0)
+		return not slot0:isEnd()
+	end)
 	slot0.shareData = slot0.shareData or ActivityShareData.New()
 	slot0.pageDic = slot0.pageDic or {}
 
-	for slot5, slot6 in ipairs(slot1) do
+	for slot5, slot6 in ipairs(slot0.activities) do
 		slot0:instanceActivityPage(slot6)
 	end
-
-	slot0.activity = nil
 
 	table.sort(slot0.activities, CompareFuncs({
 		function (slot0)

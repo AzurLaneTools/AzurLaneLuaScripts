@@ -2,13 +2,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.05,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -16,13 +16,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.061,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -30,13 +30,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.072,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -44,13 +44,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.083,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -58,13 +58,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.094,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -72,13 +72,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.105,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -86,13 +86,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.116,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -100,13 +100,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.127,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -114,13 +114,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.138,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -128,13 +128,13 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddBulletAttr",
+				type = "BattleBuffAddAttr",
 				trigger = {
-					"onBulletCreate"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "damageRatioBullet"
+					attr = "damageRatioByCannon"
 				}
 			}
 		}
@@ -158,13 +158,13 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddBulletAttr",
+			type = "BattleBuffAddAttr",
 			trigger = {
-				"onBulletCreate"
+				"onAttach"
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "damageRatioBullet"
+				attr = "damageRatioByCannon"
 			}
 		}
 	}

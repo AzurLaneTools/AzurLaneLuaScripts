@@ -14,9 +14,26 @@ slot0.UnOverlay = function(slot0)
 end
 
 slot0.GetAllCommodities = function(slot0)
-	slot0.giftPackCommodity = slot0.contextData.giftPackCommodity
-	slot0.commodities = slot0.contextData.skinCommodities
-	slot0.skinProbabilitys = slot0.contextData.skinProbabilitys
+	if slot0.contextData.commodityId then
+		slot0.giftPackCommodity = slot0:GetCommodity(slot0.contextData.commodityId)
+		slot1 = slot0.giftPackCommodity:GetSkinProbability()
+		slot0.commodities = getProxy(ShipSkinProxy):GetProbabilitySkins(slot1)
+		slot0.skinProbabilitys = getProxy(ShipSkinProxy):GetSkinProbabilitys(slot1)
+	else
+		slot0.giftPackCommodity = slot0.contextData.giftPackCommodity
+		slot0.commodities = slot0.contextData.skinCommodities
+		slot0.skinProbabilitys = slot0.contextData.skinProbabilitys
+	end
+end
+
+slot0.GetCommodity = function(slot0, slot1)
+	slot2 = Goods.Create({
+		shop_id = slot1
+	}, Goods.TYPE_CHARGE)
+
+	slot2:updateBuyCount(ChargeConst.getBuyCount(getProxy(ShopsProxy):getChargedList() or {}, slot2.id))
+
+	return slot2
 end
 
 slot0.SetGiftPackLayer = function(slot0)
