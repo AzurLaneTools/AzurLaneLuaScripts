@@ -316,6 +316,8 @@ slot0.StartTimer = function(slot0, slot1)
 		slot0.timers = {}
 	end
 
+	slot1()
+
 	slot2 = Timer.New(function ()
 		uv0()
 	end, 1, -1)

@@ -895,8 +895,6 @@ slot0.addRefreshTimer = function(slot0, slot1)
 		if uv0 + 1 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1()
 			uv2:emit(NewShopMainMediator.GET_CHARGE_LIST)
-		else
-			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end
 	end, 1, -1)
 

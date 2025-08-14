@@ -40160,3 +40160,18 @@ _G.pg.base.gametip.shop_fragment_resolve = {
 _G.pg.base.gametip.beat_game_my_record = {
 	tip = "我的排名"
 }
+
+
+_G.pg.base.gametip.shop_filter_all = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.shop_filter_trial = {
+	tip = "体验"
+}
+
+
+_G.pg.base.gametip.shop_filter_retro = {
+	tip = "返场"
+}

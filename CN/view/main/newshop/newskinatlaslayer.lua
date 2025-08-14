@@ -16,7 +16,7 @@ slot0.init = function(slot0)
 	slot0.search = slot0._tf:Find("adapt/top/search")
 	slot0.scrollrect = slot0._tf:Find("scroll"):GetComponent("LScrollRect")
 	slot0.filterUI = slot0._tf:Find("subPage/filterUI")
-	slot0.filterContent = slot0.filterUI:Find("panel/filterScroll/Viewport/Content")
+	slot0.filterContent = slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content")
 
 	setActive(slot0.filterUI, false)
 	setText(slot0.empty:Find("Text"), i18n("shop_new_unfound"))
@@ -24,30 +24,30 @@ slot0.init = function(slot0)
 	setText(slot0._tf:Find("adapt/top/have/Text"), i18n("shop_new_owned_skin"))
 	setText(slot0.filterBtn:Find("Text"), i18n("shop_new_sort"))
 	setText(slot0.search:Find("holder"), i18n("shop_new_search"))
-	setText(slot0.filterUI:Find("panel/title"), i18n("shop_new_sort"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/own/subTitleFrame/subTitle"), i18n("shop_new_review"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/0/Text"), i18n("shop_new_all"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/1/Text"), i18n("shop_new_unused"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("shop_new_type"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/0/Text"), i18n("shop_new_all"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/2/Text"), i18n("shop_new_static"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/3/Text"), i18n("shop_new_dynamic"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/4/Text"), i18n("shop_new_static_bg"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/5/Text"), i18n("shop_new_dynamic_bg"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/6/Text"), i18n("shop_new_bgm"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/subTitleFrame/subTitle"), i18n("shop_new_index"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/0/Text"), i18n("shop_new_all"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/1/Text"), i18n("shop_new_ship_owned"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/2/Text"), i18n("shop_new_ship_havent_owned"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/camp/subTitleFrame/subTitle"), i18n("shop_new_nation"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/rarity/subTitleFrame/subTitle"), i18n("shop_new_rarity"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/shipType/subTitleFrame/subTitle"), i18n("shop_new_category"))
-	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/themeType/subTitleFrame/subTitle"), i18n("shop_new_skin_theme"))
-	setText(slot0.filterUI:Find("panel/bottom/ok/Text"), i18n("shop_new_confirm"))
+	setText(slot0.filterUI:Find("panelMask/panel/title"), i18n("shop_new_sort"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/subTitleFrame/subTitle"), i18n("shop_new_review"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/0/Text"), i18n("shop_new_all"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/1/Text"), i18n("shop_new_unused"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("shop_new_type"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/0/Text"), i18n("shop_new_all"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/2/Text"), i18n("shop_new_static"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/3/Text"), i18n("shop_new_dynamic"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/4/Text"), i18n("shop_new_static_bg"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/5/Text"), i18n("shop_new_dynamic_bg"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/6/Text"), i18n("shop_new_bgm"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/subTitleFrame/subTitle"), i18n("shop_new_index"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/0/Text"), i18n("shop_new_all"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/1/Text"), i18n("shop_new_ship_owned"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/2/Text"), i18n("shop_new_ship_havent_owned"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/camp/subTitleFrame/subTitle"), i18n("shop_new_nation"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/rarity/subTitleFrame/subTitle"), i18n("shop_new_rarity"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipType/subTitleFrame/subTitle"), i18n("shop_new_category"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/themeType/subTitleFrame/subTitle"), i18n("shop_new_skin_theme"))
+	setText(slot0.filterUI:Find("panelMask/panel/bottom/ok/Text"), i18n("shop_new_confirm"))
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0.bg,
-			slot0.filterUI:Find("panel")
+			slot0.filterUI:Find("panelMask/panel")
 		}
 	})
 end
@@ -399,7 +399,7 @@ slot0.SetFilterPanel = function(slot0)
 
 	slot10 = slot0.filterUI
 
-	onButton(slot0, slot10:Find("panel/closeBtn"), function ()
+	onButton(slot0, slot10:Find("panelMask/panel/closeBtn"), function ()
 		for slot3, slot4 in pairs(uv0.filterValues) do
 			uv0.filterValuesTemp[slot3] = Clone(uv0.filterValues[slot3])
 		end
@@ -409,7 +409,7 @@ slot0.SetFilterPanel = function(slot0)
 
 	slot10 = slot0.filterUI
 
-	onButton(slot0, slot10:Find("panel/bottom/ok"), function ()
+	onButton(slot0, slot10:Find("panelMask/panel/bottom/ok"), function ()
 		for slot3, slot4 in pairs(uv0.filterValues) do
 			uv0.filterValues[slot3] = Clone(uv0.filterValuesTemp[slot3])
 		end

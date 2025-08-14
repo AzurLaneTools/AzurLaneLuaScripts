@@ -4,6 +4,7 @@ slot0.SWITCH_TO_SHOP = "NewShopMainMediator:SWITCH_TO_SHOP"
 slot0.CHARGE = "NewShopMainMediator:CHARGE"
 slot0.BUY_ITEM = "NewShopMainMediator:BUY_ITEM"
 slot0.CLICK_MING_SHI = "NewShopMainMediator:CLICK_MING_SHI"
+slot0.GET_CHARGE_LIST = "NewShopMainMediator:GET_CHARGE_LIST"
 slot0.OPEN_CHARGE_ITEM_PANEL = "NewShopMainMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "NewShopMainMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "NewShopMainMediator:OPEN_CHARGE_BIRTHDAY"
@@ -62,6 +63,9 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
 			commodityId = slot1
 		})
+	end)
+	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
@@ -289,6 +293,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ON_GUILD_SHOP_PURCHASE_DONE,
 		GAME.ON_MEDAL_SHOP_PURCHASE_DONE,
 		ShopsProxy.GUILD_SHOP_UPDATED,
+		ShopsProxy.GUILD_SHOP_ADDED,
 		ShopsProxy.MEDAL_SHOP_UPDATED,
 		GAME.ON_META_SHOPPING_DONE,
 		ShopsProxy.META_SHOP_GOODS_UPDATED,
@@ -440,7 +445,7 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.ON_MEDAL_SHOP_PURCHASE_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
-	elseif slot2 == ShopsProxy.GUILD_SHOP_UPDATED then
+	elseif slot2 == ShopsProxy.GUILD_SHOP_UPDATED or slot2 == ShopsProxy.GUILD_SHOP_ADDED then
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_GUILD, slot3.shop)
 	elseif slot2 == ShopsProxy.MEDAL_SHOP_UPDATED then
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_MEDAL, slot3)

@@ -36,6 +36,7 @@ slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 	slot11 = slot1:GetLimitGoodCount()
 
 	setText(slot0.limitCountLabelTF, i18n("quota_shop_owned") .. slot11 - slot1:GetPurchasableCnt() .. "/" .. slot11)
+	setActive(slot0.limitCountLabelTF, true)
 end
 
 slot0.setAsLastSibling = function(slot0)

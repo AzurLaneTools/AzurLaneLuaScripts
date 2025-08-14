@@ -169,21 +169,28 @@ slot0.UpdateStory = function(slot0)
 	table.sort(slot5, function (slot0, slot1)
 		return slot0:getConfig("id") < slot1:getConfig("id")
 	end)
-	setActive(slot0.personalBtn, #slot5 > 0)
 
-	if #slot5 < 2 then
-		slot0.personalPage:SetBossRushNode(slot5[1], slot5[1])
-	elseif #slot5 - 1 > 0 then
-		while slot6 > 0 do
-			if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot6]) > 0 then
-				slot0.personalPage:SetBossRushNode(slot5[#slot5], slot5[slot6])
+	slot6 = slot5[#slot5]
+	slot7 = nil
+	slot8 = #slot5 - 1
 
-				break
-			end
+	while slot8 > 0 do
+		if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot8]) > 0 then
+			slot7 = slot5[slot8]
 
-			slot6 = slot6 - 1
+			break
 		end
+
+		slot8 = slot8 - 1
 	end
+
+	if slot6 and #slot0.personalPage:GetActivitySingleEventOption(slot6) > 0 or slot7 and #slot0.personalPage:GetActivitySingleEventOption(slot7) > 0 then
+		setActive(slot0.personalBtn, true)
+	else
+		setActive(slot0.personalBtn, false)
+	end
+
+	slot0.personalPage:SetBossRushNode(slot6, slot7 and slot7 or slot6)
 
 	if slot3 == slot4 then
 		slot0.personalPage:UnlockRandom()

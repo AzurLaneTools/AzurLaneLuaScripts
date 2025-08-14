@@ -4,9 +4,7 @@ slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "GameHallMediator")
 end
 
-slot0.init = function(slot0)
-	uv0.super.init(slot0)
-
+slot0.CustomInit = function(slot0)
 	slot0.purchaseWindow = MiniGameShopPurchasePanel.New(slot0._tf, slot0.event)
 	slot0.multiWindow = MiniGameShopMultiWindow.New(slot0._tf, slot0.event)
 end
