@@ -1,41 +1,27 @@
-slot0 = class("BaseShopPage", import("...base.BaseSubView"))
+slot0 = class("BaseShopPage", import("...base.BasePanel"))
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
+	slot0:attach(slot1)
 
-	slot0.lScrollrect = slot4
-	slot0.scrollbar = slot1:Find("Scrollbar")
+	slot0.event = slot1.event
 
-	assert(slot0.lScrollrect)
+	slot0:CustomInit()
 end
 
-slot0.Load = function(slot0)
-	if slot0._state ~= uv0.STATES.NONE then
-		return
-	end
-
-	slot0._state = uv0.STATES.LOADING
-
-	pg.UIMgr.GetInstance():LoadingOn()
-
-	if IsNil(findTF(GameObject.Find("__Pool__"), slot0:getUIName())) then
-		slot3 = PoolMgr.GetInstance()
-
-		slot3:GetUI(slot0:getUIName(), true, function (slot0)
-			uv0:Loaded(slot0)
-			uv0:Init()
-		end)
-	else
-		slot0:Loaded(slot2.gameObject)
-		slot0:Init()
-	end
+slot0.init = function(slot0)
+	slot0.canvasGroup = slot0._go:GetComponent(typeof(CanvasGroup))
+	slot0.lScrollrect = GetComponent(slot0:findTF("scroll"), "LScrollRect")
+	slot0.scrollbar = slot0:findTF("scroll/Scrollbar")
+	slot0.tipTextGo = slot0:findTF("bg/tipBg")
+	slot0.tipText = slot0:findTF("bg/tipBg/tipText"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0:findTF("bg/resList/helpBtn")
+	slot0.refreshBtn = slot0:findTF("timeBtn")
+	slot0.timerText = slot0:findTF("timeBtn/Text"):GetComponent(typeof(Text))
+	slot0.resolveBtn = slot0:findTF("resolveBtn")
 end
 
-slot0.Loaded = function(slot0, slot1)
-	slot0.canvasGroup = slot1:GetComponent(typeof(CanvasGroup))
-
-	assert(slot0.canvasGroup)
-	uv0.super.Loaded(slot0, slot1)
+slot0.CustomInit = function(slot0)
 end
 
 slot0.SetShop = function(slot0, slot1)
@@ -62,6 +48,7 @@ slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0:InitCommodities()
 	slot0:OnSetUp()
 	slot0:SetPainting()
+	slot0:RefreshUI()
 end
 
 slot0.InitCommodities = function(slot0)
@@ -69,7 +56,13 @@ slot0.InitCommodities = function(slot0)
 	slot0.displays = slot0.shop:GetCommodities()
 
 	slot0.lScrollrect:SetTotalCount(#slot0.displays, 0)
-	setActive(slot0.scrollbar, #slot0.displays > 10)
+end
+
+slot0.RefreshUI = function(slot0)
+	setActive(slot0.tipTextGo, false)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
 end
 
 slot0.Show = function(slot0)
@@ -83,8 +76,6 @@ slot0.Show = function(slot0)
 
 	slot0.canvasGroup.alpha = 1
 	slot0.canvasGroup.blocksRaycasts = true
-
-	slot0:ShowOrHideResUI(true)
 end
 
 slot0.Hide = function(slot0)
@@ -99,16 +90,18 @@ slot0.Hide = function(slot0)
 
 	slot0.canvasGroup.alpha = 0
 	slot0.canvasGroup.blocksRaycasts = false
-
-	slot0:ShowOrHideResUI(false)
 end
 
-slot0.Destroy = function(slot0)
-	if slot0:isShowing() then
-		slot0:Hide()
-	end
+slot0.GetResDataList = function(slot0)
+	return {}
+end
 
-	uv0.super.Destroy(slot0)
+slot0.RefreshResItemList = function(slot0)
+	slot0.parent:RefreshResItemList(slot0:GetResDataList() or {})
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0:detach()
 end
 
 slot0.SetPainting = function(slot0)

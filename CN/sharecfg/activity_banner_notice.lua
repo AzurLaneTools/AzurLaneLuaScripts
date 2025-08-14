@@ -128,6 +128,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 17,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SecretsAbyssCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -144,6 +153,7 @@ pg.activity_banner_notice = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

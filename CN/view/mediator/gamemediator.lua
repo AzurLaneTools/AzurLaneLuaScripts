@@ -24,25 +24,31 @@ slot0.handleNotification = function(slot0, slot1)
 		})
 	elseif slot2 == GAME.GO_MINI_GAME then
 		slot4 = Context.New()
-		slot5 = slot3
+		slot5, slot6 = nil
 
-		slot4:extendData({
-			miniGameId = slot5
-		})
+		if type(slot3) == "number" then
+			slot6 = {
+				miniGameId = slot3
+			}
+		else
+			slot3.miniGameId = slot3.id
+		end
 
-		slot6 = pg.mini_game[slot5]
-		slot4.mediator = _G[slot6.mediator_name]
-		slot4.viewComponent = _G[slot6.view_name]
-		slot4.scene = slot6.view_name
+		slot4:extendData(slot6)
 
-		print("load minigame: " .. slot6.view_name)
+		slot7 = pg.mini_game[slot5]
+		slot4.mediator = _G[slot7.mediator_name]
+		slot4.viewComponent = _G[slot7.view_name]
+		slot4.scene = slot7.view_name
 
-		slot7 = {
+		print("load minigame: " .. slot7.view_name)
+
+		slot8 = {
 			context = slot4
 		}
 
-		table.merge(slot7, slot1:getType())
-		slot0:sendNotification(GAME.LOAD_SCENE, slot7)
+		table.merge(slot8, slot1:getType())
+		slot0:sendNotification(GAME.LOAD_SCENE, slot8)
 	elseif slot2 == GAME.LOAD_SCENE_DONE then
 		print("scene loaded: ", slot3)
 

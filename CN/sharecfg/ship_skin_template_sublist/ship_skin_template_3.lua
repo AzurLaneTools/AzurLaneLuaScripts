@@ -12252,6 +12252,120 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[107099] = {
+		name = "埃塞克斯.改",
+		change_skin = "",
+		desc = "埃塞克斯，改造完成！这样的表现应该能让前辈……不，能让指挥官120%满意！总之，埃塞克斯级航母埃塞克斯，请多关照！",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "aisaikesi_g",
+		bg_sp = "",
+		skin_type = 2,
+		shop_type_id = 9997,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107099,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "aisaikesi_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 149,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		spine_offset_profile = {
+			62,
+			-1006,
+			0,
+			0.85
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.806,
+					2.193,
+					0
+				}
+			},
+			plane = {
+				{
+					1.638,
+					1.068,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.825,
+							2.402,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			76,
+			-987,
+			0,
+			0.86
+		}
+	},
 	[107100] = {
 		name = "约克城II",
 		change_skin = "",

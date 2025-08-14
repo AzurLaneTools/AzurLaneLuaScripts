@@ -4510,6 +4510,210 @@ pg.base.ship_skin_template_4 = {
 			1370604
 		}
 	},
+	[137061] = {
+		name = "雨霁于心晴之时",
+		change_skin = "",
+		desc = "指挥官，你来了？抱歉，刚刚泡得太热了，我还有点晕，只能这样见你了……嗯？你身上有青草的气味，闻起来很舒服呢。",
+		illustrator2 = -1,
+		ship_group = 10706,
+		group_index = 11,
+		painting = "qiye_10",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 22,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		id = 137061,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "qiye_10",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71174,
+		voice_actor = 31,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1
+		},
+		live2d_offset = {
+			-80,
+			0,
+			0,
+			27
+		},
+		shop_offset = {
+			240,
+			0,
+			0,
+			27
+		},
+		purchase_offset = {
+			240,
+			0,
+			0,
+			27
+		},
+		live2d_offset_profile = {
+			260,
+			0,
+			0,
+			27
+		},
+		spine_offset_profile = {
+			-80,
+			0,
+			0,
+			27
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.783,
+					2.348,
+					0
+				}
+			},
+			plane = {
+				{
+					0.93,
+					0.899,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							2.322,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			13706101,
+			13706102,
+			13706103,
+			13706104,
+			13706105,
+			13706106,
+			13706107,
+			13706108,
+			13706109,
+			13706110,
+			13706111,
+			13706112,
+			13706113,
+			13706114,
+			13706115,
+			13706116,
+			13706117,
+			13706118,
+			13706119,
+			13706120,
+			13706121,
+			13706122,
+			13706123,
+			13706124,
+			13706125,
+			13706126,
+			13706127,
+			13706128,
+			13706129,
+			13706130,
+			13706131,
+			13706132,
+			13706133
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-773,
+					147,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					519,
+					807,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					1251,
+					-256,
+					2,
+					0,
+					-100,
+					2
+				}
+			}
+		}
+	},
 	[201010] = {
 		name = "女将",
 		change_skin = "",

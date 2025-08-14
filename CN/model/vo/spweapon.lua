@@ -199,6 +199,17 @@ slot0.GetActiveUpgradableSkillList = function(slot0, slot1)
 		end
 	end
 
+	for slot7, slot8 in ipairs(pg.ship_data_template[slot1.configId].hide_buff_list) do
+		slot9, slot10 = slot0:RemapSkillId(slot8)
+
+		if slot10 then
+			table.insert(slot2, {
+				mapSkillID = slot9,
+				originalSkillID = slot8
+			})
+		end
+	end
+
 	return slot2
 end
 

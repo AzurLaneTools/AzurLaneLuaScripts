@@ -1,30 +1,39 @@
 slot0 = class("MiniGameShopPage", import(".BaseShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "MiniGameShop"
-end
-
 slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "GameHallMediator")
 end
 
-slot0.OnLoaded = function(slot0)
-	slot0.mothMaxTF = slot0:findTF("mothMax")
+slot0.init = function(slot0)
+	uv0.super.init(slot0)
 
-	setText(slot0.mothMaxTF, i18n("game_ticket_current_month") .. getProxy(GameRoomProxy):getMonthlyTicket() .. "/" .. pg.gameset.game_ticket_month.key_value)
-end
-
-slot0.OnInit = function(slot0)
 	slot0.purchaseWindow = MiniGameShopPurchasePanel.New(slot0._tf, slot0.event)
 	slot0.multiWindow = MiniGameShopMultiWindow.New(slot0._tf, slot0.event)
-	slot0.ticketTf = findTF(slot0._tf, "res/Text")
-
-	setText(slot0.ticketTf, getProxy(GameRoomProxy):getTicket())
 end
 
 slot0.OnSetUp = function(slot0)
+	slot0:RefreshResItemList()
 	slot0:RemoveTimer()
 	slot0:AddTimer()
+end
+
+slot0.Hide = function(slot0)
+	uv0.super.Hide(slot0)
+	slot0:RemoveTimer()
+end
+
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
+		table.insert(slot1, {
+			type = DROP_TYPE_RESOURCE,
+			resID = slot7,
+			cnt = getProxy(GameRoomProxy):getTicket()
+		})
+	end
+
+	return slot1
 end
 
 slot0.OnUpdateAll = function(slot0)
@@ -38,8 +47,6 @@ slot0.OnUpdateAll = function(slot0)
 	if slot0.multiWindow:isShowing() then
 		slot0.multiWindow:ExecuteAction("Hide")
 	end
-
-	setText(slot0.ticketTf, getProxy(GameRoomProxy):getTicket())
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1)
@@ -56,6 +63,14 @@ slot0.OnUpdateCommodity = function(slot0, slot1)
 	if slot2 then
 		slot2:update(slot1)
 	end
+end
+
+slot0.RefreshUI = function(slot0)
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
+	setText(slot0.tipText, i18n("game_ticket_current_month") .. getProxy(GameRoomProxy):getMonthlyTicket() .. "/" .. pg.gameset.game_ticket_month.key_value)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -94,7 +109,7 @@ slot0.OnClickCommodity = function(slot0, slot1)
 			displays = slot2:getConfig("goods"),
 			num = slot2:getConfig("num"),
 			confirm = function (slot0, slot1)
-				uv0:emit(NewShopsMediator.ON_MINI_GAME_SHOP_BUY, {
+				uv0:emit(NewShopMainMediator.ON_MINI_GAME_SHOP_BUY, {
 					id = slot0,
 					list = slot1
 				})
@@ -117,7 +132,7 @@ slot0.OnClickCommodity = function(slot0, slot1)
 					num = slot0,
 					id = uv0:getConfig("goods")[1]
 				})
-				uv1:emit(NewShopsMediator.ON_MINI_GAME_SHOP_BUY, {
+				uv1:emit(NewShopMainMediator.ON_MINI_GAME_SHOP_BUY, {
 					id = uv0.id,
 					list = slot1
 				})
@@ -142,7 +157,7 @@ slot0.OnClickCommodity = function(slot0, slot1)
 						})
 					end
 
-					uv1:emit(NewShopsMediator.ON_MINI_GAME_SHOP_BUY, {
+					uv1:emit(NewShopMainMediator.ON_MINI_GAME_SHOP_BUY, {
 						id = uv0.id,
 						list = slot0
 					})
@@ -157,7 +172,7 @@ slot0.AddTimer = function(slot0)
 		slot0 = tonumber(os.date("%d", pg.TimeMgr.GetInstance():GetServerTime()))
 
 		if not uv0.flush and uv0.day and uv0.day == slot0 then
-			uv0:emit(NewShopsMediator.ON_MINI_GAME_SHOP_FLUSH)
+			uv0:emit(NewShopMainMediator.ON_MINI_GAME_SHOP_FLUSH)
 
 			uv0.flush = true
 		end
@@ -186,6 +201,7 @@ slot0.OnDestroy = function(slot0)
 	end
 
 	slot0:RemoveTimer()
+	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

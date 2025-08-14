@@ -195,7 +195,7 @@ pg.base.pay_data_display = {
 		picture = "month",
 		name = "贸易许可证（30日）",
 		type = 0,
-		limit_arg = 7,
+		second_text = "30日内每日可获得",
 		descrip = "购买后立即获得$1钻,30日内每天获得资源",
 		subject = "贸易许可证",
 		first_pay_double = 0,
@@ -206,7 +206,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 1,
+		limit_arg = 7,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi102",
@@ -214,6 +216,7 @@ pg.base.pay_data_display = {
 		id = 1,
 		airijp_id = "com.yostarjp.azurlane.passport1",
 		name_display = "贸易许可证（30日）",
+		first_text = "立即获得",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -273,13 +276,20 @@ pg.base.pay_data_display = {
 				20001,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				500
+			}
 		}
 	},
 	{
 		picture = "boxNewplayer",
 		name = "新手启航补给",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得建造及钻石资源",
 		subject = "新手起航补给",
 		first_pay_double = 0,
@@ -290,7 +300,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "新手\n推荐",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi101",
@@ -298,6 +311,7 @@ pg.base.pay_data_display = {
 		id = 2,
 		airijp_id = "com.yostarjp.azurlane.diamond101",
 		name_display = "新手启航补给",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -353,7 +367,7 @@ pg.base.pay_data_display = {
 		picture = "1",
 		name = "几个钻石",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*60",
 		first_pay_double = 1,
@@ -364,7 +378,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi1",
@@ -372,6 +389,7 @@ pg.base.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		name_display = "几个钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -389,7 +407,7 @@ pg.base.pay_data_display = {
 		picture = "2",
 		name = "一小堆钻石",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*300",
 		first_pay_double = 1,
@@ -400,7 +418,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi2",
@@ -408,6 +429,7 @@ pg.base.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		name_display = "一小堆钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -425,7 +447,7 @@ pg.base.pay_data_display = {
 		picture = "3",
 		name = "一大袋钻石",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*980",
 		first_pay_double = 1,
@@ -436,7 +458,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi3",
@@ -444,6 +469,7 @@ pg.base.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		name_display = "一大袋钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -461,7 +487,7 @@ pg.base.pay_data_display = {
 		picture = "4",
 		name = "一小箱钻石",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*1980",
 		first_pay_double = 1,
@@ -472,7 +498,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi4",
@@ -480,6 +509,7 @@ pg.base.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		name_display = "一小箱钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -497,7 +527,7 @@ pg.base.pay_data_display = {
 		picture = "5",
 		name = "一大箱钻石",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*3280",
 		first_pay_double = 1,
@@ -508,7 +538,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi5",
@@ -516,6 +549,7 @@ pg.base.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		name_display = "一大箱钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -533,7 +567,7 @@ pg.base.pay_data_display = {
 		picture = "6",
 		name = "一整船钻石",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "额外赠送$1钻",
 		subject = "钻石*6480",
 		first_pay_double = 1,
@@ -544,7 +578,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi6",
@@ -552,6 +589,7 @@ pg.base.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		name_display = "一整船钻石",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -569,7 +607,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "新年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色新年换装，3个外观装备箱，和大量其他奖励",
 		subject = "新年福袋",
 		first_pay_double = 0,
@@ -580,7 +618,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi103",
@@ -588,6 +629,7 @@ pg.base.pay_data_display = {
 		id = 9,
 		airijp_id = "com.yostarjp.azurlane.diamond103",
 		name_display = "新年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -683,7 +725,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "国庆福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "国庆福袋",
 		first_pay_double = 0,
@@ -694,7 +736,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi108",
@@ -702,6 +747,7 @@ pg.base.pay_data_display = {
 		id = 11,
 		airijp_id = "com.yostarjp.azurlane.diamond105",
 		name_display = "国庆福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -797,7 +843,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "2019新年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019新年福袋",
 		first_pay_double = 0,
@@ -808,7 +854,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi109",
@@ -816,6 +865,7 @@ pg.base.pay_data_display = {
 		id = 12,
 		airijp_id = "com.yostarjp.azurlane.diamond106",
 		name_display = "2019新年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -911,7 +961,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "2019春节福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019春节福袋",
 		first_pay_double = 0,
@@ -922,7 +972,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi110",
@@ -930,6 +983,7 @@ pg.base.pay_data_display = {
 		id = 13,
 		airijp_id = "com.yostarjp.azurlane.diamond107",
 		name_display = "2019春节福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1025,7 +1079,7 @@ pg.base.pay_data_display = {
 		picture = "lihe2_l",
 		name = "二周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "二周年礼盒",
 		first_pay_double = 0,
@@ -1036,7 +1090,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi111",
@@ -1044,6 +1101,7 @@ pg.base.pay_data_display = {
 		id = 14,
 		airijp_id = "com.yostarjp.azurlane.diamond108",
 		name_display = "二周年礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1139,7 +1197,7 @@ pg.base.pay_data_display = {
 		picture = "lihe1_l",
 		name = "2019国庆礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "2019国庆礼盒",
 		first_pay_double = 0,
@@ -1150,7 +1208,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi113",
@@ -1158,6 +1219,7 @@ pg.base.pay_data_display = {
 		id = 15,
 		airijp_id = "com.yostarjp.azurlane.diamond109",
 		name_display = "2019国庆礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1253,7 +1315,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "新年福袋2020",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "新年福袋2020",
 		first_pay_double = 0,
@@ -1264,7 +1326,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi118",
@@ -1272,6 +1337,7 @@ pg.base.pay_data_display = {
 		id = 16,
 		airijp_id = "com.yostarjp.azurlane.diamond110",
 		name_display = "新年福袋2020",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1372,7 +1438,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "新年福袋复刻(2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "新年福袋复刻(2019)",
 		first_pay_double = 0,
@@ -1383,7 +1449,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi119",
@@ -1391,6 +1460,7 @@ pg.base.pay_data_display = {
 		id = 17,
 		airijp_id = "com.yostarjp.azurlane.diamond111",
 		name_display = "新年福袋复刻(2019)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1486,7 +1556,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "春节福袋2020",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "春节福袋2020",
 		first_pay_double = 0,
@@ -1497,7 +1567,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi120",
@@ -1505,6 +1578,7 @@ pg.base.pay_data_display = {
 		id = 18,
 		airijp_id = "com.yostarjp.azurlane.diamond112",
 		name_display = "春节福袋2020",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1605,7 +1679,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "春节福袋复刻(2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
 		subject = "春节福袋复刻(2019)",
 		first_pay_double = 0,
@@ -1616,7 +1690,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi121",
@@ -1624,6 +1701,7 @@ pg.base.pay_data_display = {
 		id = 19,
 		airijp_id = "com.yostarjp.azurlane.diamond113",
 		name_display = "春节福袋复刻(2019)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1719,7 +1797,7 @@ pg.base.pay_data_display = {
 		picture = "support1",
 		name = "新晋指挥官支援包·I",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+更多资源",
 		descrip = "可获得180钻，石油储备箱(1000)x2和其他奖励",
 		subject = "新晋指挥官支援包·I ",
 		first_pay_double = 0,
@@ -1730,7 +1808,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao101",
@@ -1738,6 +1818,7 @@ pg.base.pay_data_display = {
 		id = 20,
 		airijp_id = "com.yostarjp.azurlane.package101",
 		name_display = "新晋指挥官支援包·I",
+		first_text = "包含钻石",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -1788,9 +1869,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				180
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -1798,9 +1879,9 @@ pg.base.pay_data_display = {
 				2
 			},
 			{
-				4,
-				100001,
-				1
+				2,
+				15001,
+				30
 			}
 		},
 		sub_display = {},
@@ -1812,13 +1893,20 @@ pg.base.pay_data_display = {
 				40012,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				180
+			}
 		}
 	},
 	[21] = {
 		picture = "support2",
 		name = "新晋指挥官支援包·II",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+更多资源",
 		descrip = "可获得780钻，定向装备箱·超稀有x2，石油储备箱(1000)x4和其他奖励",
 		subject = "新晋指挥官支援包·II ",
 		first_pay_double = 0,
@@ -1829,7 +1917,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao102",
@@ -1837,6 +1927,7 @@ pg.base.pay_data_display = {
 		id = 21,
 		airijp_id = "com.yostarjp.azurlane.package102",
 		name_display = "新晋指挥官支援包·II",
+		first_text = "包含钻石",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -1912,9 +2003,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				780
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -1936,13 +2027,20 @@ pg.base.pay_data_display = {
 				40013,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				780
+			}
 		}
 	},
 	[22] = {
 		picture = "support3",
 		name = "新晋指挥官支援包·III",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+更多资源",
 		descrip = "可获得1680钻，定向装备箱·超稀有x4，石油储备箱(1000)x8和其他奖励",
 		subject = "新晋指挥官支援包·III ",
 		first_pay_double = 0,
@@ -1953,7 +2051,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao103",
@@ -1961,6 +2061,7 @@ pg.base.pay_data_display = {
 		id = 22,
 		airijp_id = "com.yostarjp.azurlane.package103",
 		name_display = "新晋指挥官支援包·III",
+		first_text = "包含钻石",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -2041,9 +2142,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1680
+				4,
+				100011,
+				1
 			},
 			{
 				2,
@@ -2065,13 +2166,20 @@ pg.base.pay_data_display = {
 				40014,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				1680
+			}
 		}
 	},
 	[23] = {
 		picture = "lihe4_l",
 		name = "三周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "三周年礼盒",
 		first_pay_double = 0,
@@ -2082,7 +2190,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi122",
@@ -2090,6 +2201,7 @@ pg.base.pay_data_display = {
 		id = 23,
 		airijp_id = "com.yostarjp.azurlane.diamond114",
 		name_display = "三周年礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2190,7 +2302,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "2020国庆礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "2020国庆礼盒",
 		first_pay_double = 0,
@@ -2201,7 +2313,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi123",
@@ -2209,6 +2324,7 @@ pg.base.pay_data_display = {
 		id = 24,
 		airijp_id = "com.yostarjp.azurlane.diamond115",
 		name_display = "2020国庆礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2309,7 +2425,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "新年福袋2021",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "新年福袋2021",
 		first_pay_double = 0,
@@ -2320,7 +2436,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi124",
@@ -2328,6 +2447,7 @@ pg.base.pay_data_display = {
 		id = 25,
 		airijp_id = "com.yostarjp.azurlane.diamond116",
 		name_display = "新年福袋2021",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2428,7 +2548,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "新年福袋复刻(2020)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "新年福袋复刻(2020)",
 		first_pay_double = 0,
@@ -2439,7 +2559,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi125",
@@ -2447,6 +2570,7 @@ pg.base.pay_data_display = {
 		id = 26,
 		airijp_id = "com.yostarjp.azurlane.diamond117",
 		name_display = "新年福袋复刻(2020)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2547,7 +2671,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "春节福袋2021",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "春节福袋2021",
 		first_pay_double = 0,
@@ -2558,7 +2682,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi126",
@@ -2566,6 +2693,7 @@ pg.base.pay_data_display = {
 		id = 27,
 		airijp_id = "com.yostarjp.azurlane.diamond118",
 		name_display = "春节福袋2021",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2666,7 +2794,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "春节福袋复刻(2020)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "春节福袋复刻(2020)",
 		first_pay_double = 0,
@@ -2677,7 +2805,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi127",
@@ -2685,6 +2816,7 @@ pg.base.pay_data_display = {
 		id = 28,
 		airijp_id = "com.yostarjp.azurlane.diamond119",
 		name_display = "春节福袋复刻(2020)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2785,7 +2917,7 @@ pg.base.pay_data_display = {
 		picture = "lihe5_l",
 		name = "四周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "四周年礼盒",
 		first_pay_double = 0,
@@ -2796,7 +2928,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi128",
@@ -2804,6 +2939,7 @@ pg.base.pay_data_display = {
 		id = 29,
 		airijp_id = "com.yostarjp.azurlane.diamond120",
 		name_display = "四周年礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2904,7 +3040,7 @@ pg.base.pay_data_display = {
 		picture = "lihe4_l",
 		name = "三周年礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "三周年礼盒复刻",
 		first_pay_double = 0,
@@ -2915,7 +3051,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi129",
@@ -2923,6 +3062,7 @@ pg.base.pay_data_display = {
 		id = 30,
 		airijp_id = "com.yostarjp.azurlane.diamond121",
 		name_display = "三周年礼盒复刻",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3023,7 +3163,7 @@ pg.base.pay_data_display = {
 		picture = "support4",
 		name = "大型作战攻略支援包",
 		type = 1,
-		limit_arg = 1,
+		second_text = "+更多资源",
 		descrip = "可获得1980钻，定向部件T4x35，定向装备箱·研发装备①x1和其他奖励",
 		subject = "大型作战攻略支援包",
 		first_pay_double = 0,
@@ -3034,7 +3174,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi130",
@@ -3042,6 +3184,7 @@ pg.base.pay_data_display = {
 		id = 31,
 		airijp_id = "com.yostarjp.azurlane.diamond122",
 		name_display = "大型作战攻略支援包",
+		first_text = "包含钻石",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -3112,9 +3255,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1980
+				2,
+				14004,
+				25
 			},
 			{
 				2,
@@ -3136,13 +3279,20 @@ pg.base.pay_data_display = {
 				40015,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				1980
+			}
 		}
 	},
 	[32] = {
 		picture = "lihe6_l",
 		name = "2021国庆礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "2021国庆礼盒",
 		first_pay_double = 0,
@@ -3153,7 +3303,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi131",
@@ -3161,6 +3314,7 @@ pg.base.pay_data_display = {
 		id = 32,
 		airijp_id = "com.yostarjp.azurlane.diamond123",
 		name_display = "2021国庆礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3261,7 +3415,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "国庆礼盒复刻（2020）",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
 		subject = "国庆礼盒复刻(2020)",
 		first_pay_double = 0,
@@ -3272,7 +3426,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi132",
@@ -3280,6 +3437,7 @@ pg.base.pay_data_display = {
 		id = 33,
 		airijp_id = "com.yostarjp.azurlane.diamond124",
 		name_display = "国庆礼盒复刻（2020）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3380,7 +3538,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "新年福袋2022",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "新年福袋2022",
 		first_pay_double = 0,
@@ -3391,7 +3549,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi133",
@@ -3399,6 +3560,7 @@ pg.base.pay_data_display = {
 		id = 34,
 		airijp_id = "com.yostarjp.azurlane.diamond125",
 		name_display = "新年福袋2022",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3499,7 +3661,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "新年福袋复刻(2021)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "新年福袋复刻(2021)",
 		first_pay_double = 0,
@@ -3510,7 +3672,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi134",
@@ -3518,6 +3683,7 @@ pg.base.pay_data_display = {
 		id = 35,
 		airijp_id = "com.yostarjp.azurlane.diamond126",
 		name_display = "新年福袋复刻(2021)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3618,7 +3784,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "春节福袋2022",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "春节福袋2022",
 		first_pay_double = 0,
@@ -3629,7 +3795,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi135",
@@ -3637,6 +3806,7 @@ pg.base.pay_data_display = {
 		id = 36,
 		airijp_id = "com.yostarjp.azurlane.diamond127",
 		name_display = "春节福袋2022",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3737,7 +3907,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "春节福袋复刻(2021)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "春节福袋复刻(2021)",
 		first_pay_double = 0,
@@ -3748,7 +3918,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi136",
@@ -3756,6 +3929,7 @@ pg.base.pay_data_display = {
 		id = 37,
 		airijp_id = "com.yostarjp.azurlane.diamond128",
 		name_display = "春节福袋复刻(2021)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3856,7 +4030,7 @@ pg.base.pay_data_display = {
 		picture = "lihe7_l",
 		name = "五周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "五周年礼盒",
 		first_pay_double = 0,
@@ -3867,7 +4041,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi137",
@@ -3875,6 +4052,7 @@ pg.base.pay_data_display = {
 		id = 38,
 		airijp_id = "com.yostarjp.azurlane.diamond129",
 		name_display = "五周年礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3975,7 +4153,7 @@ pg.base.pay_data_display = {
 		picture = "lihe5_l",
 		name = "四周年礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "四周年礼盒复刻",
 		first_pay_double = 0,
@@ -3986,7 +4164,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi138",
@@ -3994,6 +4175,7 @@ pg.base.pay_data_display = {
 		id = 39,
 		airijp_id = "com.yostarjp.azurlane.diamond130",
 		name_display = "四周年礼盒复刻",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4094,7 +4276,7 @@ pg.base.pay_data_display = {
 		picture = "lihe8_l",
 		name = "金秋庆典礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "金秋庆典礼盒",
 		first_pay_double = 0,
@@ -4105,7 +4287,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi139",
@@ -4113,6 +4298,7 @@ pg.base.pay_data_display = {
 		id = 40,
 		airijp_id = "com.yostarjp.azurlane.diamond131",
 		name_display = "金秋庆典礼盒",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4213,7 +4399,7 @@ pg.base.pay_data_display = {
 		picture = "lihe6_l",
 		name = "金秋庆典礼盒（2021）",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
 		subject = "金秋庆典礼盒（2021）",
 		first_pay_double = 0,
@@ -4224,7 +4410,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi140",
@@ -4232,6 +4421,7 @@ pg.base.pay_data_display = {
 		id = 41,
 		airijp_id = "com.yostarjp.azurlane.diamond132",
 		name_display = "金秋庆典礼盒（2021）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4332,7 +4522,7 @@ pg.base.pay_data_display = {
 		picture = "support6",
 		name = "回归礼包",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得大量材料奖励",
 		subject = "回归礼包",
 		first_pay_double = 0,
@@ -4343,7 +4533,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi141",
@@ -4351,6 +4544,7 @@ pg.base.pay_data_display = {
 		id = 44,
 		airijp_id = "com.yostarjp.azurlane.diamond133",
 		name_display = "回归礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4491,7 +4685,7 @@ pg.base.pay_data_display = {
 		picture = "lihe10_l",
 		name = "2023泳装礼盒·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023泳装礼盒·I",
 		first_pay_double = 0,
@@ -4502,7 +4696,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi142",
@@ -4510,6 +4707,7 @@ pg.base.pay_data_display = {
 		id = 45,
 		airijp_id = "com.yostarjp.azurlane.diamond134",
 		name_display = "2023泳装礼盒·I",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4610,7 +4808,7 @@ pg.base.pay_data_display = {
 		picture = "lihe11_l",
 		name = "2023泳装礼盒·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023泳装礼盒·II",
 		first_pay_double = 0,
@@ -4621,7 +4819,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi143",
@@ -4629,6 +4830,7 @@ pg.base.pay_data_display = {
 		id = 46,
 		airijp_id = "com.yostarjp.azurlane.diamond135",
 		name_display = "2023泳装礼盒·II",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4729,7 +4931,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "新年福袋复刻(2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "新年福袋2022",
 		first_pay_double = 0,
@@ -4740,7 +4942,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi144",
@@ -4748,6 +4953,7 @@ pg.base.pay_data_display = {
 		id = 47,
 		airijp_id = "com.yostarjp.azurlane.diamond136",
 		name_display = "新年福袋复刻(2022)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4848,7 +5054,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp1",
 		name = "2023年春节福袋·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023年春节福袋·I",
 		first_pay_double = 0,
@@ -4859,7 +5065,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi145",
@@ -4867,6 +5076,7 @@ pg.base.pay_data_display = {
 		id = 48,
 		airijp_id = "com.yostarjp.azurlane.diamond137",
 		name_display = "2023年春节福袋·I",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4967,7 +5177,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp2",
 		name = "2023年春节福袋·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023年春节福袋·II",
 		first_pay_double = 0,
@@ -4978,7 +5188,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi146",
@@ -4986,6 +5199,7 @@ pg.base.pay_data_display = {
 		id = 49,
 		airijp_id = "com.yostarjp.azurlane.diamond138",
 		name_display = "2023年春节福袋·II",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -5086,7 +5300,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "春节福袋复刻(2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "春节福袋复刻(2022)",
 		first_pay_double = 0,
@@ -5097,7 +5311,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi147",
@@ -5105,6 +5322,7 @@ pg.base.pay_data_display = {
 		id = 50,
 		airijp_id = "com.yostarjp.azurlane.diamond139",
 		name_display = "春节福袋复刻(2022)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -5205,7 +5423,7 @@ pg.base.pay_data_display = {
 		picture = "lihecn6ss_l",
 		name = "六周年泳装礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "六周年泳装礼盒",
 		first_pay_double = 0,
@@ -5216,7 +5434,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi151",
@@ -5224,6 +5444,7 @@ pg.base.pay_data_display = {
 		id = 51,
 		airijp_id = "com.yostarjp.azurlane.diamond140",
 		name_display = "六周年泳装礼盒",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -5295,18 +5516,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5318,13 +5539,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[52] = {
 		picture = "lihecn6lf_l",
 		name = "六周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "六周年礼盒",
 		first_pay_double = 0,
@@ -5335,7 +5568,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi152",
@@ -5343,6 +5578,7 @@ pg.base.pay_data_display = {
 		id = 52,
 		airijp_id = "com.yostarjp.azurlane.diamond141",
 		name_display = "六周年礼盒",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -5414,18 +5650,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5437,13 +5673,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[53] = {
 		picture = "lihe7_l",
 		name = "五周年礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "五周年礼盒复刻",
 		first_pay_double = 0,
@@ -5454,7 +5702,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi153",
@@ -5462,6 +5712,7 @@ pg.base.pay_data_display = {
 		id = 53,
 		airijp_id = "com.yostarjp.azurlane.diamond142",
 		name_display = "五周年礼盒复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69919,
 		extra_service = 3,
@@ -5533,18 +5784,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69919,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42036,
+				2
 			},
 			{
 				2,
-				42036,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5556,13 +5807,25 @@ pg.base.pay_data_display = {
 				40919,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[55] = {
 		picture = "lihejp6lf_l",
 		name = "金秋庆典礼盒(2023)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "金秋庆典礼盒(2023)",
 		first_pay_double = 0,
@@ -5573,7 +5836,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi155",
@@ -5581,6 +5846,7 @@ pg.base.pay_data_display = {
 		id = 55,
 		airijp_id = "com.yostarjp.azurlane.diamond144",
 		name_display = "金秋庆典礼盒(2023)",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -5652,18 +5918,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5675,13 +5941,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[56] = {
 		picture = "lihe8_l",
 		name = "金秋庆典礼盒复刻(2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
 		subject = "金秋庆典礼盒复刻(2022)",
 		first_pay_double = 0,
@@ -5692,7 +5970,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi156",
@@ -5700,6 +5980,7 @@ pg.base.pay_data_display = {
 		id = 56,
 		airijp_id = "com.yostarjp.azurlane.diamond145",
 		name_display = "金秋庆典礼盒复刻(2022)",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69920,
 		extra_service = 3,
@@ -5771,18 +6052,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69920,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5794,13 +6075,25 @@ pg.base.pay_data_display = {
 				40920,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[57] = {
 		picture = "lihejp6ss_l",
 		name = "金秋礼盒2023",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "金秋礼盒2023",
 		first_pay_double = 0,
@@ -5811,7 +6104,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi157",
@@ -5819,6 +6114,7 @@ pg.base.pay_data_display = {
 		id = 57,
 		airijp_id = "com.yostarjp.azurlane.diamond143",
 		name_display = "金秋礼盒2023",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -5890,18 +6186,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5913,13 +6209,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[58] = {
 		picture = "pack_198",
 		name = "茗的促销大礼包",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
 		subject = "茗的促销大礼包",
 		first_pay_double = 0,
@@ -5930,7 +6238,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi158",
@@ -5938,6 +6249,7 @@ pg.base.pay_data_display = {
 		id = 58,
 		airijp_id = "com.yostarjp.azurlane.diamond155",
 		name_display = "茗的促销大礼包",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -6023,7 +6335,7 @@ pg.base.pay_data_display = {
 		picture = "pack_328",
 		name = "茗的豪华促销大礼包",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
 		subject = "茗的豪华促销大礼包",
 		first_pay_double = 0,
@@ -6034,7 +6346,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi159",
@@ -6042,6 +6357,7 @@ pg.base.pay_data_display = {
 		id = 59,
 		airijp_id = "com.yostarjp.azurlane.diamond156",
 		name_display = "茗的豪华促销大礼包",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -6122,7 +6438,7 @@ pg.base.pay_data_display = {
 		picture = "fudai8",
 		name = "促销心动福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "促销心动福袋",
 		first_pay_double = 0,
@@ -6133,7 +6449,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi160",
@@ -6141,6 +6459,7 @@ pg.base.pay_data_display = {
 		id = 60,
 		airijp_id = "com.yostarjp.azurlane.diamond146",
 		name_display = "促销心动福袋",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 69984,
@@ -6187,18 +6506,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69984,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
 			}
 		},
 		sub_display = {},
@@ -6210,13 +6529,25 @@ pg.base.pay_data_display = {
 				40998,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69984,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[61] = {
 		picture = "fudai9",
 		name = "绚烂缤纷夜福袋·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "绚烂缤纷夜福袋·I",
 		first_pay_double = 0,
@@ -6227,7 +6558,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi161",
@@ -6235,6 +6568,7 @@ pg.base.pay_data_display = {
 		id = 61,
 		airijp_id = "com.yostarjp.azurlane.diamond147",
 		name_display = "绚烂缤纷夜福袋·I",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -6306,18 +6640,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6329,13 +6663,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[62] = {
 		picture = "lihe10_l",
 		name = "2023泳装礼盒·I复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023泳装礼盒·I复刻",
 		first_pay_double = 0,
@@ -6346,7 +6692,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi162",
@@ -6354,6 +6702,7 @@ pg.base.pay_data_display = {
 		id = 62,
 		airijp_id = "com.yostarjp.azurlane.diamond148",
 		name_display = "2023泳装礼盒·I复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69922,
 		extra_service = 3,
@@ -6425,18 +6774,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69922,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6448,13 +6797,25 @@ pg.base.pay_data_display = {
 				40922,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[63] = {
 		picture = "fudai10",
 		name = "绚烂缤纷夜福袋·Ⅱ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "绚烂缤纷夜福袋·Ⅱ",
 		first_pay_double = 0,
@@ -6465,7 +6826,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi163",
@@ -6473,6 +6836,7 @@ pg.base.pay_data_display = {
 		id = 63,
 		airijp_id = "com.yostarjp.azurlane.diamond149",
 		name_display = "绚烂缤纷夜福袋·Ⅱ",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -6544,18 +6908,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6567,13 +6931,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[64] = {
 		picture = "lihe11_l",
 		name = "2023泳装礼盒·Ⅱ复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023泳装礼盒·Ⅱ复刻",
 		first_pay_double = 0,
@@ -6584,7 +6960,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi164",
@@ -6592,6 +6970,7 @@ pg.base.pay_data_display = {
 		id = 64,
 		airijp_id = "com.yostarjp.azurlane.diamond150",
 		name_display = "2023泳装礼盒·Ⅱ复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69923,
 		extra_service = 3,
@@ -6663,18 +7042,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69923,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6686,13 +7065,25 @@ pg.base.pay_data_display = {
 				40923,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[65] = {
 		picture = "fudai11",
 		name = "2024年春节福袋·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "2024年春节福袋·I",
 		first_pay_double = 0,
@@ -6703,7 +7094,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi165",
@@ -6711,6 +7104,7 @@ pg.base.pay_data_display = {
 		id = 65,
 		airijp_id = "com.yostarjp.azurlane.diamond151",
 		name_display = "2024年春节福袋·I",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -6782,18 +7176,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6805,13 +7199,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[66] = {
 		picture = "fudaiqp1",
 		name = "2023年春节福袋·I复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023年春节福袋·I复刻",
 		first_pay_double = 0,
@@ -6822,7 +7228,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi166",
@@ -6830,6 +7238,7 @@ pg.base.pay_data_display = {
 		id = 66,
 		airijp_id = "com.yostarjp.azurlane.diamond152",
 		name_display = "2023年春节福袋·I复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69924,
 		extra_service = 3,
@@ -6901,18 +7310,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69924,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6924,13 +7333,25 @@ pg.base.pay_data_display = {
 				40924,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[67] = {
 		picture = "fudai12",
 		name = "2024年春节福袋·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "2024年春节福袋·II",
 		first_pay_double = 0,
@@ -6941,7 +7362,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi167",
@@ -6949,6 +7372,7 @@ pg.base.pay_data_display = {
 		id = 67,
 		airijp_id = "com.yostarjp.azurlane.diamond153",
 		name_display = "2024年春节福袋·II",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -7020,18 +7444,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7043,13 +7467,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[68] = {
 		picture = "fudaiqp2",
 		name = "2023年春节福袋·II复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "2023年春节福袋·II复刻",
 		first_pay_double = 0,
@@ -7060,7 +7496,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi168",
@@ -7068,6 +7506,7 @@ pg.base.pay_data_display = {
 		id = 68,
 		airijp_id = "com.yostarjp.azurlane.diamond154",
 		name_display = "2023年春节福袋·II复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69925,
 		extra_service = 3,
@@ -7139,18 +7578,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69925,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7162,13 +7601,25 @@ pg.base.pay_data_display = {
 				40925,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[69] = {
 		picture = "fudai13",
 		name = "七周年泳装礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "七周年泳装礼盒",
 		first_pay_double = 0,
@@ -7179,7 +7630,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi169",
@@ -7187,6 +7640,7 @@ pg.base.pay_data_display = {
 		id = 69,
 		airijp_id = "com.yostarjp.azurlane.diamond157",
 		name_display = "七周年泳装礼盒",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -7258,18 +7712,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7281,13 +7735,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[70] = {
 		picture = "lihecn6ss_l",
 		name = "六周年泳装礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "六周年泳装礼盒复刻",
 		first_pay_double = 0,
@@ -7298,7 +7764,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi172",
@@ -7306,6 +7774,7 @@ pg.base.pay_data_display = {
 		id = 70,
 		airijp_id = "com.yostarjp.azurlane.diamond158",
 		name_display = "六周年泳装礼盒复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -7377,18 +7846,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7400,13 +7869,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[71] = {
 		picture = "fudai14",
 		name = "七周年礼盒",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "七周年礼盒",
 		first_pay_double = 0,
@@ -7417,7 +7898,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi170",
@@ -7425,6 +7908,7 @@ pg.base.pay_data_display = {
 		id = 71,
 		airijp_id = "com.yostarjp.azurlane.diamond159",
 		name_display = "七周年礼盒",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -7496,18 +7980,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7519,13 +8003,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[72] = {
 		picture = "lihecn6lf_l",
 		name = "六周年礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "六周年礼盒复刻",
 		first_pay_double = 0,
@@ -7536,7 +8032,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi171",
@@ -7544,6 +8042,7 @@ pg.base.pay_data_display = {
 		id = 72,
 		airijp_id = "com.yostarjp.azurlane.diamond160",
 		name_display = "六周年礼盒复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -7615,18 +8114,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7638,13 +8137,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[73] = {
 		picture = "fudai15",
 		name = "梦幻乐园换装礼盒I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "梦幻乐园换装礼盒I",
 		first_pay_double = 0,
@@ -7655,7 +8166,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi173",
@@ -7663,6 +8176,7 @@ pg.base.pay_data_display = {
 		id = 73,
 		airijp_id = "com.yostarjp.azurlane.diamond161",
 		name_display = "梦幻乐园换装礼盒I",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86206,
 		extra_service = 3,
@@ -7734,18 +8248,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86206,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7757,13 +8271,25 @@ pg.base.pay_data_display = {
 				81206,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[74] = {
 		picture = "lihejp6ss_l",
 		name = "金秋礼盒2023复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "金秋礼盒2023复刻",
 		first_pay_double = 0,
@@ -7774,7 +8300,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi174",
@@ -7782,6 +8310,7 @@ pg.base.pay_data_display = {
 		id = 74,
 		airijp_id = "com.yostarjp.azurlane.diamond162",
 		name_display = "金秋礼盒2023复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -7853,18 +8382,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7876,13 +8405,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[75] = {
 		picture = "fudai16",
 		name = "梦幻乐园换装礼盒II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "梦幻乐园换装礼盒II",
 		first_pay_double = 0,
@@ -7893,7 +8434,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi175",
@@ -7901,6 +8444,7 @@ pg.base.pay_data_display = {
 		id = 75,
 		airijp_id = "com.yostarjp.azurlane.diamond163",
 		name_display = "梦幻乐园换装礼盒II",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86207,
 		extra_service = 3,
@@ -7972,18 +8516,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86207,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7995,13 +8539,25 @@ pg.base.pay_data_display = {
 				81207,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[76] = {
 		picture = "lihejp6lf_l",
 		name = "金秋庆典礼盒(2023)复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
 		subject = "金秋庆典礼盒(2023)复刻",
 		first_pay_double = 0,
@@ -8012,7 +8568,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi176",
@@ -8020,6 +8578,7 @@ pg.base.pay_data_display = {
 		id = 76,
 		airijp_id = "com.yostarjp.azurlane.diamond164",
 		name_display = "金秋庆典礼盒(2023)复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -8091,18 +8650,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8114,13 +8673,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[77] = {
 		picture = "pack_2024_98",
 		name = "冬日自选礼包1",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
 		subject = "冬日自选礼包1",
 		first_pay_double = 0,
@@ -8131,7 +8702,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi177",
@@ -8139,6 +8713,7 @@ pg.base.pay_data_display = {
 		id = 77,
 		airijp_id = "com.yostarjp.azurlane.diamond165",
 		name_display = "冬日自选礼包1",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -8224,7 +8799,7 @@ pg.base.pay_data_display = {
 		picture = "pack_2024_198",
 		name = "冬日自选礼包2",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
 		subject = "冬日自选礼包2",
 		first_pay_double = 0,
@@ -8235,7 +8810,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi178",
@@ -8243,6 +8821,7 @@ pg.base.pay_data_display = {
 		id = 78,
 		airijp_id = "com.yostarjp.azurlane.diamond166",
 		name_display = "冬日自选礼包2",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -8333,7 +8912,7 @@ pg.base.pay_data_display = {
 		picture = "pack_2024_328",
 		name = "冬日自选礼包3",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
 		subject = "冬日自选礼包3",
 		first_pay_double = 0,
@@ -8344,7 +8923,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi179",
@@ -8352,6 +8934,7 @@ pg.base.pay_data_display = {
 		id = 79,
 		airijp_id = "com.yostarjp.azurlane.diamond167",
 		name_display = "冬日自选礼包3",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -8457,7 +9040,7 @@ pg.base.pay_data_display = {
 		picture = "fudai17",
 		name = "豪华冬至促销礼盒(2024)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "豪华冬至促销礼盒(2024)",
 		first_pay_double = 0,
@@ -8468,7 +9051,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi180",
@@ -8476,6 +9061,7 @@ pg.base.pay_data_display = {
 		id = 80,
 		airijp_id = "com.yostarjp.azurlane.diamond168",
 		name_display = "豪华冬至促销礼盒(2024)",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 86411,
@@ -8522,18 +9108,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86411,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
 			}
 		},
 		sub_display = {},
@@ -8545,13 +9131,25 @@ pg.base.pay_data_display = {
 				81419,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[81] = {
 		picture = "fudai18",
 		name = "冬至促销礼盒(2024)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "大量奖励",
 		descrip = "可获得列表中未拥有的L2D换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
 		subject = "冬至促销礼盒(2024)",
 		first_pay_double = 0,
@@ -8562,7 +9160,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi181",
@@ -8570,6 +9170,7 @@ pg.base.pay_data_display = {
 		id = 81,
 		airijp_id = "com.yostarjp.azurlane.diamond169",
 		name_display = "冬至促销礼盒(2024)",
+		first_text = "随机换装",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 86412,
@@ -8600,9 +9201,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86412,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -8624,13 +9225,20 @@ pg.base.pay_data_display = {
 				81420,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86412,
+				1
+			}
 		}
 	},
 	[82] = {
 		picture = "fudai19",
 		name = "港区游戏之夜礼盒·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "港区游戏之夜礼盒·I",
 		first_pay_double = 0,
@@ -8641,7 +9249,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi182",
@@ -8649,6 +9259,7 @@ pg.base.pay_data_display = {
 		id = 82,
 		airijp_id = "com.yostarjp.azurlane.diamond170",
 		name_display = "港区游戏之夜礼盒·I",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86208,
 		extra_service = 3,
@@ -8720,18 +9331,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86208,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8743,13 +9354,25 @@ pg.base.pay_data_display = {
 				81208,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[83] = {
 		picture = "fudai9",
 		name = "绚烂缤纷夜福袋·I复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "绚烂缤纷夜福袋·I复刻",
 		first_pay_double = 0,
@@ -8760,7 +9383,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi183",
@@ -8768,6 +9393,7 @@ pg.base.pay_data_display = {
 		id = 83,
 		airijp_id = "com.yostarjp.azurlane.diamond171",
 		name_display = "绚烂缤纷夜福袋·I复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -8839,18 +9465,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8862,13 +9488,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[84] = {
 		picture = "fudai20",
 		name = "港区游戏之夜礼盒·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "港区游戏之夜礼盒·II",
 		first_pay_double = 0,
@@ -8879,7 +9517,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi184",
@@ -8887,6 +9527,7 @@ pg.base.pay_data_display = {
 		id = 84,
 		airijp_id = "com.yostarjp.azurlane.diamond172",
 		name_display = "港区游戏之夜礼盒·II",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86209,
 		extra_service = 3,
@@ -8958,18 +9599,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86209,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8981,13 +9622,25 @@ pg.base.pay_data_display = {
 				81209,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[85] = {
 		picture = "fudai10",
 		name = "绚烂缤纷夜福袋·II复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "绚烂缤纷夜福袋·II复刻",
 		first_pay_double = 0,
@@ -8998,7 +9651,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi185",
@@ -9006,6 +9661,7 @@ pg.base.pay_data_display = {
 		id = 85,
 		airijp_id = "com.yostarjp.azurlane.diamond173",
 		name_display = "绚烂缤纷夜福袋·II复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -9077,18 +9733,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9100,13 +9756,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[86] = {
 		picture = "fudai21",
 		name = "2025年春节福袋一",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "2025年春节福袋一",
 		first_pay_double = 0,
@@ -9117,7 +9785,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi186",
@@ -9125,6 +9795,7 @@ pg.base.pay_data_display = {
 		id = 86,
 		airijp_id = "com.yostarjp.azurlane.diamond174",
 		name_display = "2025年春节福袋一",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86210,
 		extra_service = 3,
@@ -9196,18 +9867,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86210,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9219,13 +9890,25 @@ pg.base.pay_data_display = {
 				81210,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[87] = {
 		picture = "fudai22",
 		name = "2025年春节福袋·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "2025年春节福袋·II",
 		first_pay_double = 0,
@@ -9236,7 +9919,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi187",
@@ -9244,6 +9929,7 @@ pg.base.pay_data_display = {
 		id = 87,
 		airijp_id = "com.yostarjp.azurlane.diamond175",
 		name_display = "2025年春节福袋二",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86211,
 		extra_service = 3,
@@ -9315,18 +10001,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86211,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9338,13 +10024,25 @@ pg.base.pay_data_display = {
 				81211,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[88] = {
 		picture = "fudai11",
 		name = "2024年春节福袋·I复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "2024年春节福袋·I复刻",
 		first_pay_double = 0,
@@ -9355,7 +10053,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi188",
@@ -9363,6 +10063,7 @@ pg.base.pay_data_display = {
 		id = 88,
 		airijp_id = "com.yostarjp.azurlane.diamond176",
 		name_display = "2024年春节福袋·I复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -9434,18 +10135,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9457,13 +10158,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[89] = {
 		picture = "fudai12",
 		name = "2024年春节福袋·II复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "2024年春节福袋·II复刻",
 		first_pay_double = 0,
@@ -9474,7 +10187,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi189",
@@ -9482,6 +10197,7 @@ pg.base.pay_data_display = {
 		id = 89,
 		airijp_id = "com.yostarjp.azurlane.diamond177",
 		name_display = "2024年春节福袋·II复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -9553,18 +10269,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9576,13 +10292,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[90] = {
 		picture = "fudai23",
 		name = "换装礼盒(校园生活)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "大量奖励",
 		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
 		subject = "换装礼盒(校园生活)",
 		first_pay_double = 0,
@@ -9593,7 +10321,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi190",
@@ -9601,6 +10331,7 @@ pg.base.pay_data_display = {
 		id = 90,
 		airijp_id = "com.yostarjp.azurlane.diamond178",
 		name_display = "换装礼盒(校园生活)",
+		first_text = "随机换装",
 		akashi_pick = 1,
 		skin_inquire_relation = 86212,
 		extra_service = 3,
@@ -9656,9 +10387,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86212,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -9680,13 +10411,20 @@ pg.base.pay_data_display = {
 				81212,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86212,
+				1
+			}
 		}
 	},
 	[91] = {
 		picture = "fudai24",
 		name = "八周年泳装礼盒·I",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "八周年泳装礼盒·I",
 		first_pay_double = 0,
@@ -9697,7 +10435,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi191",
@@ -9705,6 +10445,7 @@ pg.base.pay_data_display = {
 		id = 91,
 		airijp_id = "com.yostarjp.azurlane.diamond179",
 		name_display = "八周年泳装礼盒·I",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86213,
 		extra_service = 3,
@@ -9776,18 +10517,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86213,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9799,13 +10540,25 @@ pg.base.pay_data_display = {
 				81213,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[92] = {
 		picture = "fudai13",
 		name = "七周年泳装礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "七周年泳装礼盒复刻",
 		first_pay_double = 0,
@@ -9816,7 +10569,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi192",
@@ -9824,6 +10579,7 @@ pg.base.pay_data_display = {
 		id = 92,
 		airijp_id = "com.yostarjp.azurlane.diamond180",
 		name_display = "七周年泳装礼盒复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -9895,18 +10651,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9918,13 +10674,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[93] = {
 		picture = "fudai25",
 		name = "八周年泳装礼盒·II",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
 		subject = "八周年泳装礼盒·II",
 		first_pay_double = 0,
@@ -9935,7 +10703,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi193",
@@ -9943,6 +10713,7 @@ pg.base.pay_data_display = {
 		id = 93,
 		airijp_id = "com.yostarjp.azurlane.diamond181",
 		name_display = "八周年泳装礼盒·II",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86214,
 		extra_service = 3,
@@ -10014,18 +10785,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86214,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -10037,13 +10808,25 @@ pg.base.pay_data_display = {
 				81214,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[94] = {
 		picture = "fudai14",
 		name = "七周年礼盒复刻",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量奖励",
 		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
 		subject = "七周年礼盒复刻",
 		first_pay_double = 0,
@@ -10054,7 +10837,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi194",
@@ -10062,6 +10847,7 @@ pg.base.pay_data_display = {
 		id = 94,
 		airijp_id = "com.yostarjp.azurlane.diamond182",
 		name_display = "七周年礼盒复刻",
+		first_text = "随机换装和大量钻石",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -10133,18 +10919,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -10156,13 +10942,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[95] = {
 		picture = "fudai26",
 		name = "换装礼盒(嘉年华)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "大量奖励",
 		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
 		subject = "换装礼盒(嘉年华)",
 		first_pay_double = 0,
@@ -10173,7 +10971,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi195",
@@ -10181,6 +10981,7 @@ pg.base.pay_data_display = {
 		id = 95,
 		airijp_id = "com.yostarjp.azurlane.diamond183",
 		name_display = "换装礼盒(嘉年华)",
+		first_text = "随机换装",
 		akashi_pick = 1,
 		skin_inquire_relation = 86215,
 		extra_service = 3,
@@ -10236,9 +11037,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86215,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -10260,13 +11061,20 @@ pg.base.pay_data_display = {
 				81215,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86215,
+				1
+			}
 		}
 	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:约克城限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10277,7 +11085,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass1",
@@ -10285,6 +11096,7 @@ pg.base.pay_data_display = {
 		id = 1000,
 		airijp_id = "com.yostarjp.azurlane.seasonpass1",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10347,7 +11159,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2021.12.1-1.31)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:科罗拉多限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10358,7 +11170,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass2",
@@ -10366,6 +11181,7 @@ pg.base.pay_data_display = {
 		id = 1001,
 		airijp_id = "com.yostarjp.azurlane.seasonpass2",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10428,7 +11244,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:哥伦比亚限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10439,7 +11255,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass3",
@@ -10447,6 +11266,7 @@ pg.base.pay_data_display = {
 		id = 1002,
 		airijp_id = "com.yostarjp.azurlane.seasonpass3",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10509,7 +11329,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·企业限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10520,7 +11340,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass4",
@@ -10528,6 +11351,7 @@ pg.base.pay_data_display = {
 		id = 1003,
 		airijp_id = "com.yostarjp.azurlane.seasonpass4",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10590,7 +11414,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·枫限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10601,7 +11425,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass5",
@@ -10609,6 +11436,7 @@ pg.base.pay_data_display = {
 		id = 1004,
 		airijp_id = "com.yostarjp.azurlane.seasonpass5",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10671,7 +11499,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·苝限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10682,7 +11510,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass6",
@@ -10690,6 +11521,7 @@ pg.base.pay_data_display = {
 		id = 1005,
 		airijp_id = "com.yostarjp.azurlane.seasonpass6",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10752,7 +11584,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.10)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·水星纪念限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10763,7 +11595,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass7",
@@ -10771,6 +11606,7 @@ pg.base.pay_data_display = {
 		id = 1006,
 		airijp_id = "com.yostarjp.azurlane.seasonpass7",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10833,7 +11669,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2022.12)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·克利夫兰限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10844,7 +11680,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass8",
@@ -10852,6 +11691,7 @@ pg.base.pay_data_display = {
 		id = 1007,
 		airijp_id = "com.yostarjp.azurlane.seasonpass8",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10914,7 +11754,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·棭限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -10925,7 +11765,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass9",
@@ -10933,6 +11776,7 @@ pg.base.pay_data_display = {
 		id = 1008,
 		airijp_id = "com.yostarjp.azurlane.seasonpass9",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10995,7 +11839,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·沃克兰限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11006,7 +11850,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass10",
@@ -11014,6 +11861,7 @@ pg.base.pay_data_display = {
 		id = 1009,
 		airijp_id = "com.yostarjp.azurlane.seasonpass10",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11076,7 +11924,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·鸾限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11087,7 +11935,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass12",
@@ -11095,6 +11946,7 @@ pg.base.pay_data_display = {
 		id = 1010,
 		airijp_id = "com.yostarjp.azurlane.seasonpass11",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11157,7 +12009,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·福煦限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11168,7 +12020,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass13",
@@ -11176,6 +12031,7 @@ pg.base.pay_data_display = {
 		id = 1011,
 		airijp_id = "com.yostarjp.azurlane.seasonpass12",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11238,7 +12094,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.10)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·优斯伊丽限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11249,7 +12105,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass14",
@@ -11257,6 +12116,7 @@ pg.base.pay_data_display = {
 		id = 1012,
 		airijp_id = "com.yostarjp.azurlane.seasonpass13",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11319,7 +12179,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2023.12)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梅限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11330,7 +12190,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass15",
@@ -11338,6 +12201,7 @@ pg.base.pay_data_display = {
 		id = 1013,
 		airijp_id = "com.yostarjp.azurlane.seasonpass14",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11400,7 +12264,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梧限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11411,7 +12275,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass16",
@@ -11419,6 +12286,7 @@ pg.base.pay_data_display = {
 		id = 1014,
 		airijp_id = "com.yostarjp.azurlane.seasonpass15",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11481,7 +12349,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·柏限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11492,7 +12360,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass17",
@@ -11500,6 +12371,7 @@ pg.base.pay_data_display = {
 		id = 1015,
 		airijp_id = "com.yostarjp.azurlane.seasonpass16",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11562,7 +12434,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·阿蒂利奥·雷戈洛限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11573,7 +12445,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass18",
@@ -11581,6 +12456,7 @@ pg.base.pay_data_display = {
 		id = 1016,
 		airijp_id = "com.yostarjp.azurlane.seasonpass17",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11643,7 +12519,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·罗马限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11654,7 +12530,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass19",
@@ -11662,6 +12541,7 @@ pg.base.pay_data_display = {
 		id = 1017,
 		airijp_id = "com.yostarjp.azurlane.seasonpass18",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11724,7 +12604,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.10)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·絮弗伦限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11735,7 +12615,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass20",
@@ -11743,6 +12626,7 @@ pg.base.pay_data_display = {
 		id = 1018,
 		airijp_id = "com.yostarjp.azurlane.seasonpass19",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11805,7 +12689,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2024.12)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·威悉限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11816,7 +12700,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass21",
@@ -11824,6 +12711,7 @@ pg.base.pay_data_display = {
 		id = 1019,
 		airijp_id = "com.yostarjp.azurlane.seasonpass20",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11886,7 +12774,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2025.2)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·反击限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11897,7 +12785,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass22",
@@ -11905,6 +12796,7 @@ pg.base.pay_data_display = {
 		id = 1020,
 		airijp_id = "com.yostarjp.azurlane.seasonpass21",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11967,7 +12859,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2025.4)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·神速限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -11978,7 +12870,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass23",
@@ -11986,6 +12881,7 @@ pg.base.pay_data_display = {
 		id = 1021,
 		airijp_id = "com.yostarjp.azurlane.seasonpass22",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -12048,7 +12944,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2025.6)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·檚限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -12059,7 +12955,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass24",
@@ -12067,6 +12966,7 @@ pg.base.pay_data_display = {
 		id = 1022,
 		airijp_id = "com.yostarjp.azurlane.seasonpass23",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -12129,7 +13029,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证(2025.8)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "解锁特许奖励",
 		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·檚限定换装和其他奖励",
 		subject = "特许巡游凭证",
 		first_pay_double = 0,
@@ -12140,7 +13040,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass25",
@@ -12148,6 +13051,7 @@ pg.base.pay_data_display = {
 		id = 1023,
 		airijp_id = "com.yostarjp.azurlane.seasonpass24",
 		name_display = "特许巡游凭证",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -12210,7 +13114,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_display",
 		name = "最高方案研发礼包(一期)",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+大量蓝图",
 		descrip = "可获得最高方案快速研发券·一期*1、定向蓝图·一期*343",
 		subject = "最高方案研发礼包(一期)",
 		first_pay_double = 0,
@@ -12221,7 +13125,9 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -12229,6 +13135,7 @@ pg.base.pay_data_display = {
 		id = 2001,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "最高方案研发礼包(一期)",
+		first_text = "快速研发",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12250,11 +13157,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40124,
-				1
-			},
-			{
-				2,
 				42000,
 				343
 			}
@@ -12267,13 +13169,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40124,
+				1
+			}
+		}
 	},
 	[2002] = {
 		picture = "tech1_promotion",
 		name = "最高方案研发礼包(一期)高级版",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(一期)高级版",
 		first_pay_double = 0,
@@ -12284,7 +13193,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan1",
@@ -12292,6 +13204,7 @@ pg.base.pay_data_display = {
 		id = 2002,
 		airijp_id = "com.yostarjp.azurlane.tech1",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12342,7 +13255,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_normal",
 		name = "最高方案研发礼包(一期)标准版",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(一期)标准版",
 		first_pay_double = 0,
@@ -12353,7 +13266,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan2",
@@ -12361,6 +13277,7 @@ pg.base.pay_data_display = {
 		id = 2003,
 		airijp_id = "com.yostarjp.azurlane.tech2",
 		name_display = "标准版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12401,7 +13318,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_promotion",
 		name = "最高方案研发礼包(一期)升级版",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(一期)升级版",
 		first_pay_double = 0,
@@ -12412,7 +13329,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan3",
@@ -12420,6 +13340,7 @@ pg.base.pay_data_display = {
 		id = 2004,
 		airijp_id = "com.yostarjp.azurlane.tech3",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12460,7 +13381,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_display",
 		name = "最高方案研发礼包(二期)",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+大量蓝图",
 		descrip = "可获得最高方案快速研发券·二期*1、定向蓝图·二期*343",
 		subject = "最高方案研发礼包(二期)",
 		first_pay_double = 0,
@@ -12471,7 +13392,9 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -12479,6 +13402,7 @@ pg.base.pay_data_display = {
 		id = 2005,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "最高方案研发礼包(二期)",
+		first_text = "快速研发",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12500,11 +13424,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40125,
-				1
-			},
-			{
-				2,
 				42010,
 				343
 			}
@@ -12517,13 +13436,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40125,
+				1
+			}
+		}
 	},
 	[2006] = {
 		picture = "tech2_promotion",
 		name = "最高方案研发礼包(二期)高级版",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(二期)高级版",
 		first_pay_double = 0,
@@ -12534,7 +13460,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan4",
@@ -12542,6 +13471,7 @@ pg.base.pay_data_display = {
 		id = 2006,
 		airijp_id = "com.yostarjp.azurlane.tech4",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12592,7 +13522,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_normal",
 		name = "最高方案研发礼包(二期)标准版",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(二期)标准版",
 		first_pay_double = 0,
@@ -12603,7 +13533,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan5",
@@ -12611,6 +13544,7 @@ pg.base.pay_data_display = {
 		id = 2007,
 		airijp_id = "com.yostarjp.azurlane.tech5",
 		name_display = "标准版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12651,7 +13585,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_promotion",
 		name = "最高方案研发礼包(二期)升级版",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(二期)升级版",
 		first_pay_double = 0,
@@ -12662,7 +13596,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan6",
@@ -12670,6 +13607,7 @@ pg.base.pay_data_display = {
 		id = 2008,
 		airijp_id = "com.yostarjp.azurlane.tech6",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12710,7 +13648,7 @@ pg.base.pay_data_display = {
 		picture = "lv_70",
 		name = "即刻出战礼包",
 		type = 0,
-		limit_arg = 1,
+		second_text = "还可获得",
 		descrip = "购买后指挥官等级将提升至70级和大量其他奖励",
 		subject = "即刻出战礼包",
 		first_pay_double = 0,
@@ -12721,7 +13659,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 7,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao104",
@@ -12729,6 +13669,7 @@ pg.base.pay_data_display = {
 		id = 2009,
 		airijp_id = "com.yostarjp.azurlane.package104",
 		name_display = "即刻出战礼包",
+		first_text = "直升至70级",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12765,11 +13706,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40126,
-				1
-			},
-			{
-				2,
 				16502,
 				200
 			},
@@ -12793,13 +13729,20 @@ pg.base.pay_data_display = {
 				40022,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				40126,
+				1
+			}
 		}
 	},
 	[2010] = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -12810,7 +13753,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao105",
@@ -12818,6 +13764,7 @@ pg.base.pay_data_display = {
 		id = 2010,
 		airijp_id = "com.yostarjp.azurlane.package105",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12913,7 +13860,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2022秋)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -12924,7 +13871,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao106",
@@ -12932,6 +13882,7 @@ pg.base.pay_data_display = {
 		id = 2011,
 		airijp_id = "com.yostarjp.azurlane.package106",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13027,7 +13978,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi1",
 		name = "冬至礼包1",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得1280钻，定向部件T4x15和其他奖励",
 		subject = "冬至礼包1",
 		first_pay_double = 0,
@@ -13038,7 +13989,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao107",
@@ -13046,6 +14000,7 @@ pg.base.pay_data_display = {
 		id = 2012,
 		airijp_id = "com.yostarjp.azurlane.package107",
 		name_display = "冬至礼包1",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13141,7 +14096,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi2",
 		name = "冬至礼包2",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得2480钻，定向外观装备箱(星辰无垠)x2和其他奖励",
 		subject = "冬至礼包2",
 		first_pay_double = 0,
@@ -13152,7 +14107,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao108",
@@ -13160,6 +14118,7 @@ pg.base.pay_data_display = {
 		id = 2013,
 		airijp_id = "com.yostarjp.azurlane.package108",
 		name_display = "冬至礼包2",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13255,7 +14214,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2023春)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -13266,7 +14225,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao109",
@@ -13274,6 +14236,7 @@ pg.base.pay_data_display = {
 		id = 2014,
 		airijp_id = "com.yostarjp.azurlane.package109",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13369,7 +14332,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_display",
 		name = "最高方案研发礼包(三期)",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+大量蓝图",
 		descrip = "可获得最高方案快速研发券·三期*1、定向蓝图·三期*343",
 		subject = "最高方案研发礼包(三期)",
 		first_pay_double = 0,
@@ -13380,7 +14343,9 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -13388,6 +14353,7 @@ pg.base.pay_data_display = {
 		id = 2015,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "最高方案研发礼包(三期)",
+		first_text = "快速研发",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13409,11 +14375,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40130,
-				1
-			},
-			{
-				2,
 				42020,
 				343
 			}
@@ -13426,13 +14387,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40130,
+				1
+			}
+		}
 	},
 	[2016] = {
 		picture = "tech3_promotion",
 		name = "最高方案研发礼包(三期)高级版",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(三期)高级版",
 		first_pay_double = 0,
@@ -13443,7 +14411,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan7",
@@ -13451,6 +14422,7 @@ pg.base.pay_data_display = {
 		id = 2016,
 		airijp_id = "com.yostarjp.azurlane.tech7",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13501,7 +14473,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_normal",
 		name = "最高方案研发礼包(三期)标准版",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(三期)标准版",
 		first_pay_double = 0,
@@ -13512,7 +14484,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan8",
@@ -13520,6 +14495,7 @@ pg.base.pay_data_display = {
 		id = 2017,
 		airijp_id = "com.yostarjp.azurlane.tech8",
 		name_display = "标准版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13560,7 +14536,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_promotion",
 		name = "最高方案研发礼包(三期)升级版",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(三期)升级版",
 		first_pay_double = 0,
@@ -13571,7 +14547,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan9",
@@ -13579,6 +14558,7 @@ pg.base.pay_data_display = {
 		id = 2018,
 		airijp_id = "com.yostarjp.azurlane.tech9",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13619,7 +14599,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2023秋)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -13630,7 +14610,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao110",
@@ -13638,6 +14621,7 @@ pg.base.pay_data_display = {
 		id = 2019,
 		airijp_id = "com.yostarjp.azurlane.package110",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13733,7 +14717,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "冬至礼包(2023冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
 		subject = "冬至礼包(2023冬)",
 		first_pay_double = 0,
@@ -13744,7 +14728,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao111",
@@ -13752,6 +14739,7 @@ pg.base.pay_data_display = {
 		id = 2020,
 		airijp_id = "com.yostarjp.azurlane.package111",
 		name_display = "冬至礼包(2023冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13847,7 +14835,7 @@ pg.base.pay_data_display = {
 		picture = "haishangchuanqi",
 		name = "海上传奇支援组合包",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
 		subject = "海上传奇支援组合包",
 		first_pay_double = 0,
@@ -13858,7 +14846,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao112",
@@ -13866,6 +14857,7 @@ pg.base.pay_data_display = {
 		id = 2021,
 		airijp_id = "com.yostarjp.azurlane.package112",
 		name_display = "海上传奇支援组合包",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -13951,7 +14943,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan1",
 		name = "魔方支援礼包1",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "可获得心智魔方*10",
 		subject = "魔方支援礼包1",
 		first_pay_double = 0,
@@ -13962,7 +14954,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao113",
@@ -13970,6 +14965,7 @@ pg.base.pay_data_display = {
 		id = 2022,
 		airijp_id = "com.yostarjp.azurlane.package113",
 		name_display = "魔方支援礼包1",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14030,7 +15026,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan2",
 		name = "魔方支援礼包2",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "可获得心智魔方*20",
 		subject = "魔方支援礼包2",
 		first_pay_double = 0,
@@ -14041,7 +15037,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao114",
@@ -14049,6 +15048,7 @@ pg.base.pay_data_display = {
 		id = 2023,
 		airijp_id = "com.yostarjp.azurlane.package114",
 		name_display = "魔方支援礼包2",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14109,7 +15109,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan3",
 		name = "魔方支援礼包3",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "可获得心智魔方*30",
 		subject = "魔方支援礼包3",
 		first_pay_double = 0,
@@ -14120,7 +15120,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao115",
@@ -14128,6 +15131,7 @@ pg.base.pay_data_display = {
 		id = 2024,
 		airijp_id = "com.yostarjp.azurlane.package115",
 		name_display = "魔方支援礼包3",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14188,7 +15192,7 @@ pg.base.pay_data_display = {
 		picture = "richang",
 		name = "日常补给礼包",
 		type = 0,
-		limit_arg = 1,
+		second_text = "每日可购",
 		descrip = "购买礼包可获得心智魔方*1和石油*1200",
 		subject = "日常补给礼包",
 		first_pay_double = 0,
@@ -14199,7 +15203,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 4,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao116",
@@ -14207,6 +15214,7 @@ pg.base.pay_data_display = {
 		id = 2025,
 		airijp_id = "com.yostarjp.azurlane.package116",
 		name_display = "日常补给礼包",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -14252,7 +15260,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2024春)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -14263,7 +15271,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao118",
@@ -14271,6 +15282,7 @@ pg.base.pay_data_display = {
 		id = 2026,
 		airijp_id = "com.yostarjp.azurlane.package118",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14366,7 +15378,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_display",
 		name = "最高方案研发礼包(四期)",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+大量蓝图",
 		descrip = "可获得最高方案快速研发券·四期*1、定向蓝图·四期*343",
 		subject = "最高方案研发礼包(四期)",
 		first_pay_double = 0,
@@ -14377,7 +15389,9 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -14385,6 +15399,7 @@ pg.base.pay_data_display = {
 		id = 2027,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "最高方案研发礼包(四期)",
+		first_text = "快速研发",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -14406,11 +15421,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40139,
-				1
-			},
-			{
-				2,
 				42030,
 				343
 			}
@@ -14423,13 +15433,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40139,
+				1
+			}
+		}
 	},
 	[2028] = {
 		picture = "tech4_promotion",
 		name = "最高方案研发礼包(四期)高级版",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(四期)高级版",
 		first_pay_double = 0,
@@ -14440,7 +15457,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan10",
@@ -14448,6 +15468,7 @@ pg.base.pay_data_display = {
 		id = 2028,
 		airijp_id = "com.yostarjp.azurlane.tech10",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -14498,7 +15519,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_normal",
 		name = "最高方案研发礼包(四期)标准版",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(四期)标准版",
 		first_pay_double = 0,
@@ -14509,7 +15530,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan11",
@@ -14517,6 +15541,7 @@ pg.base.pay_data_display = {
 		id = 2029,
 		airijp_id = "com.yostarjp.azurlane.tech11",
 		name_display = "标准版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -14557,7 +15582,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_promotion",
 		name = "最高方案研发礼包(四期)升级版",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(四期)升级版",
 		first_pay_double = 0,
@@ -14568,7 +15593,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan12",
@@ -14576,6 +15604,7 @@ pg.base.pay_data_display = {
 		id = 2030,
 		airijp_id = "com.yostarjp.azurlane.tech12",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -14616,7 +15645,7 @@ pg.base.pay_data_display = {
 		picture = "daofeng_package",
 		name = "海上传奇支援组合包(240718)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
 		subject = "海上传奇支援组合包(240718)",
 		first_pay_double = 0,
@@ -14627,7 +15656,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "超值\n推荐",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao119",
@@ -14635,6 +15667,7 @@ pg.base.pay_data_display = {
 		id = 2031,
 		airijp_id = "com.yostarjp.azurlane.package119",
 		name_display = "海上传奇支援组合包(240718)",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14720,7 +15753,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "梦幻霓虹主题礼包",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "可获得战斗界面主题 梦幻霓虹*1",
 		subject = "梦幻霓虹主题礼包",
 		first_pay_double = 0,
@@ -14731,7 +15764,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui",
@@ -14739,6 +15775,7 @@ pg.base.pay_data_display = {
 		id = 2032,
 		airijp_id = "com.yostarjp.azurlane.ui",
 		name_display = "梦幻霓虹主题礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14793,7 +15830,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "梦幻霓虹主题礼包（基础版）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 梦幻霓虹*1",
 		subject = "梦幻霓虹主题礼包（基础版）",
 		first_pay_double = 0,
@@ -14804,7 +15841,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui1",
@@ -14812,6 +15852,7 @@ pg.base.pay_data_display = {
 		id = 2033,
 		airijp_id = "com.yostarjp.azurlane.ui1",
 		name_display = "梦幻霓虹主题礼包（基础版）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14872,7 +15913,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "梦幻霓虹主题礼包（豪华版）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 梦幻霓虹*1,3060钻石",
 		subject = "梦幻霓虹主题礼包（豪华版）",
 		first_pay_double = 0,
@@ -14883,7 +15924,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui2",
@@ -14891,6 +15935,7 @@ pg.base.pay_data_display = {
 		id = 2034,
 		airijp_id = "com.yostarjp.azurlane.ui2",
 		name_display = "梦幻霓虹主题礼包（豪华版）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14961,7 +16006,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "海上传奇支援组合包(241017)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
 		subject = "海上传奇支援组合包(241017)",
 		first_pay_double = 0,
@@ -14972,7 +16017,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao120",
@@ -14980,6 +16028,7 @@ pg.base.pay_data_display = {
 		id = 2035,
 		airijp_id = "com.yostarjp.azurlane.package120",
 		name_display = "海上传奇支援组合包",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -15065,7 +16114,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2024冬)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -15076,7 +16125,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao121",
@@ -15084,6 +16136,7 @@ pg.base.pay_data_display = {
 		id = 2036,
 		airijp_id = "com.yostarjp.azurlane.package121",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15179,7 +16232,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "圣诞雪境主题礼包",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣诞雪境*1",
 		subject = "圣诞雪境主题礼包",
 		first_pay_double = 0,
@@ -15190,7 +16243,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui3",
@@ -15198,6 +16254,7 @@ pg.base.pay_data_display = {
 		id = 2037,
 		airijp_id = "com.yostarjp.azurlane.ui3",
 		name_display = "圣诞雪境主题礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15252,7 +16309,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "圣诞雪境主题礼包（基础版）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣诞雪境*1",
 		subject = "圣诞雪境主题礼包（基础版）",
 		first_pay_double = 0,
@@ -15263,7 +16320,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui4",
@@ -15271,6 +16331,7 @@ pg.base.pay_data_display = {
 		id = 2038,
 		airijp_id = "com.yostarjp.azurlane.ui4",
 		name_display = "圣诞雪境主题礼包（基础版）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15331,7 +16392,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "圣诞雪境主题礼包（豪华版）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣诞雪境*1,3060钻石",
 		subject = "圣诞雪境主题礼包（豪华版）",
 		first_pay_double = 0,
@@ -15342,7 +16403,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui5",
@@ -15350,6 +16414,7 @@ pg.base.pay_data_display = {
 		id = 2039,
 		airijp_id = "com.yostarjp.azurlane.ui5",
 		name_display = "圣诞雪境主题礼包（豪华版）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15420,7 +16485,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "冬至礼包(2024冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
 		subject = "冬至礼包(2024冬)",
 		first_pay_double = 0,
@@ -15431,7 +16496,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao122",
@@ -15439,6 +16507,7 @@ pg.base.pay_data_display = {
 		id = 2040,
 		airijp_id = "com.yostarjp.azurlane.package122",
 		name_display = "冬至礼包(2024冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15534,7 +16603,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "海上传奇支援组合包(250109)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
 		subject = "海上传奇支援组合包(250109)",
 		first_pay_double = 0,
@@ -15545,7 +16614,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "超值\n推荐",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao123",
@@ -15553,6 +16625,7 @@ pg.base.pay_data_display = {
 		id = 2041,
 		airijp_id = "com.yostarjp.azurlane.package123",
 		name_display = "海上传奇支援组合包",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -15638,7 +16711,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "圣砂之约主题礼包",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣砂之约*1",
 		subject = "圣砂之约主题礼包",
 		first_pay_double = 0,
@@ -15649,7 +16722,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui6",
@@ -15657,6 +16733,7 @@ pg.base.pay_data_display = {
 		id = 2042,
 		airijp_id = "com.yostarjp.azurlane.ui6",
 		name_display = "圣砂之约主题礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15711,7 +16788,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "圣砂之约主题礼包(基础版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣砂之约*1",
 		subject = "圣砂之约主题礼包(基础版)",
 		first_pay_double = 0,
@@ -15722,7 +16799,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui7",
@@ -15730,6 +16810,7 @@ pg.base.pay_data_display = {
 		id = 2043,
 		airijp_id = "com.yostarjp.azurlane.ui7",
 		name_display = "圣砂之约主题礼包(基础版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15790,7 +16871,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "圣砂之约主题礼包(豪华版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 圣砂之约*1,3060钻石",
 		subject = "圣砂之约主题礼包(豪华版)",
 		first_pay_double = 0,
@@ -15801,7 +16882,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui8",
@@ -15809,6 +16893,7 @@ pg.base.pay_data_display = {
 		id = 2044,
 		airijp_id = "com.yostarjp.azurlane.ui8",
 		name_display = "圣砂之约主题礼包(豪华版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15879,7 +16964,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "基因之源主题礼包",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "可获得战斗界面主题 基因之源*1",
 		subject = "基因之源主题礼包",
 		first_pay_double = 0,
@@ -15890,7 +16975,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui9",
@@ -15898,6 +16986,7 @@ pg.base.pay_data_display = {
 		id = 2045,
 		airijp_id = "com.yostarjp.azurlane.ui9",
 		name_display = "基因之源主题礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15952,7 +17041,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "基因之源主题礼包(基础版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 基因之源*1",
 		subject = "基因之源主题礼包(基础版)",
 		first_pay_double = 0,
@@ -15963,7 +17052,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui10",
@@ -15971,6 +17063,7 @@ pg.base.pay_data_display = {
 		id = 2046,
 		airijp_id = "com.yostarjp.azurlane.ui10",
 		name_display = "基因之源主题礼包(基础版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16031,7 +17124,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "基因之源主题礼包(豪华版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 基因之源*1,3060钻石",
 		subject = "基因之源主题礼包(豪华版)",
 		first_pay_double = 0,
@@ -16042,7 +17135,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui11",
@@ -16050,6 +17146,7 @@ pg.base.pay_data_display = {
 		id = 2047,
 		airijp_id = "com.yostarjp.azurlane.ui11",
 		name_display = "基因之源主题礼包(豪华版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16120,7 +17217,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "海上传奇支援组合包(250417)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
 		subject = "海上传奇支援组合包(250417)",
 		first_pay_double = 0,
@@ -16131,7 +17228,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "超值\n推荐",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao124",
@@ -16139,6 +17239,7 @@ pg.base.pay_data_display = {
 		id = 2048,
 		airijp_id = "com.yostarjp.azurlane.package124",
 		name_display = "海上传奇支援组合包",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16224,7 +17325,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "舰艇教材礼包(2025春)",
 		type = 0,
-		limit_arg = 4,
+		second_text = "大量教材",
 		descrip = "可获得大量教材奖励",
 		subject = "舰艇教材礼包",
 		first_pay_double = 0,
@@ -16235,7 +17336,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao125",
@@ -16243,6 +17347,7 @@ pg.base.pay_data_display = {
 		id = 2049,
 		airijp_id = "com.yostarjp.azurlane.package125",
 		name_display = "舰艇教材礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16338,7 +17443,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "海滨假日主题礼包",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "可获得战斗界面主题 海滨假日*1",
 		subject = "海滨假日主题礼包",
 		first_pay_double = 0,
@@ -16349,7 +17454,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui12",
@@ -16357,6 +17465,7 @@ pg.base.pay_data_display = {
 		id = 2050,
 		airijp_id = "com.yostarjp.azurlane.ui12",
 		name_display = "海滨假日主题礼包",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16411,7 +17520,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "海滨假日主题礼包(基础版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 海滨假日*1,1000物资",
 		subject = "海滨假日主题礼包(基础版)",
 		first_pay_double = 0,
@@ -16422,7 +17531,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui13",
@@ -16430,6 +17542,7 @@ pg.base.pay_data_display = {
 		id = 2051,
 		airijp_id = "com.yostarjp.azurlane.ui13",
 		name_display = "海滨假日主题礼包(基础版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16500,7 +17613,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "海滨假日主题礼包(豪华版)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得战斗界面主题 海滨假日*1,3060钻石",
 		subject = "海滨假日主题礼包(豪华版)",
 		first_pay_double = 0,
@@ -16511,7 +17624,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui14",
@@ -16519,6 +17635,7 @@ pg.base.pay_data_display = {
 		id = 2052,
 		airijp_id = "com.yostarjp.azurlane.ui14",
 		name_display = "海滨假日主题礼包(豪华版)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16589,7 +17706,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_display",
 		name = "最高方案研发礼包(五期)",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+大量蓝图",
 		descrip = "可获得最高方案快速研发券·五期*1、定向蓝图·五期*343",
 		subject = "最高方案研发礼包(五期)",
 		first_pay_double = 0,
@@ -16600,7 +17717,9 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -16608,6 +17727,7 @@ pg.base.pay_data_display = {
 		id = 2053,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "最高方案研发礼包(五期)",
+		first_text = "快速研发",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16629,11 +17749,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40140,
-				1
-			},
-			{
-				2,
 				42040,
 				343
 			}
@@ -16646,13 +17761,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40140,
+				1
+			}
+		}
 	},
 	[2054] = {
 		picture = "tech5_promotion",
 		name = "最高方案研发礼包(五期)高级版",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(五期)高级版",
 		first_pay_double = 0,
@@ -16663,7 +17785,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan13",
@@ -16671,6 +17796,7 @@ pg.base.pay_data_display = {
 		id = 2054,
 		airijp_id = "com.yostarjp.azurlane.tech13",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16721,7 +17847,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_normal",
 		name = "最高方案研发礼包(五期)标准版",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(五期)标准版",
 		first_pay_double = 0,
@@ -16732,7 +17858,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan14",
@@ -16740,6 +17869,7 @@ pg.base.pay_data_display = {
 		id = 2055,
 		airijp_id = "com.yostarjp.azurlane.tech14",
 		name_display = "标准版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16780,7 +17910,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_promotion",
 		name = "最高方案研发礼包(五期)升级版",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "礼包内容",
 		subject = "最高方案研发礼包(五期)升级版",
 		first_pay_double = 0,
@@ -16791,7 +17921,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan15",
@@ -16799,6 +17932,7 @@ pg.base.pay_data_display = {
 		id = 2056,
 		airijp_id = "com.yostarjp.azurlane.tech15",
 		name_display = "高级版",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16839,7 +17973,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day1",
 		name = "促销礼包I",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得60钻，高级定向蓝图·五期*2",
 		subject = "促销礼包I",
 		first_pay_double = 0,
@@ -16850,7 +17984,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao201",
@@ -16858,6 +17995,7 @@ pg.base.pay_data_display = {
 		id = 5001,
 		airijp_id = "com.yostarjp.azurlane.package201",
 		name_display = "促销礼包I",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -16903,7 +18041,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day2",
 		name = "促销礼包II",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得200钻",
 		subject = "促销礼包II",
 		first_pay_double = 0,
@@ -16914,7 +18052,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao202",
@@ -16922,6 +18063,7 @@ pg.base.pay_data_display = {
 		id = 5002,
 		airijp_id = "com.yostarjp.azurlane.package202",
 		name_display = "促销礼包II",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -16957,7 +18099,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day3",
 		name = "促销礼包III",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得定向装备箱·超稀有*1，定向部件T4*5",
 		subject = "促销礼包III",
 		first_pay_double = 0,
@@ -16968,7 +18110,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao203",
@@ -16976,6 +18121,7 @@ pg.base.pay_data_display = {
 		id = 5003,
 		airijp_id = "com.yostarjp.azurlane.package203",
 		name_display = "促销礼包III",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -17021,7 +18167,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day4",
 		name = "促销礼包IV",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得60钻，试作型布里MKII*1",
 		subject = "促销礼包IV",
 		first_pay_double = 0,
@@ -17032,7 +18178,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao204",
@@ -17040,6 +18189,7 @@ pg.base.pay_data_display = {
 		id = 5004,
 		airijp_id = "com.yostarjp.azurlane.package204",
 		name_display = "促销礼包IV",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -17085,7 +18235,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day5",
 		name = "促销礼包V",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得舰艇演习数据T2*60",
 		subject = "促销礼包V",
 		first_pay_double = 0,
@@ -17096,7 +18246,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao205",
@@ -17104,6 +18257,7 @@ pg.base.pay_data_display = {
 		id = 5005,
 		airijp_id = "com.yostarjp.azurlane.package205",
 		name_display = "促销礼包V",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -17139,7 +18293,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day6",
 		name = "促销礼包VI",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得心智魔方*10，快速完成工具*5",
 		subject = "促销礼包VI",
 		first_pay_double = 0,
@@ -17150,7 +18304,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao206",
@@ -17158,6 +18315,7 @@ pg.base.pay_data_display = {
 		id = 5006,
 		airijp_id = "com.yostarjp.azurlane.package206",
 		name_display = "促销礼包VI",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -17203,7 +18361,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day7",
 		name = "促销礼包VII",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "可获得60钻，高级定向蓝图·六期*2",
 		subject = "促销礼包VII",
 		first_pay_double = 0,
@@ -17214,7 +18372,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao207",
@@ -17222,6 +18383,7 @@ pg.base.pay_data_display = {
 		id = 5007,
 		airijp_id = "com.yostarjp.azurlane.package207",
 		name_display = "促销礼包VII",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		skin_inquire_relation = 0,
@@ -17267,7 +18429,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day1",
 		name = "促销礼包I(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得60钻，高级定向蓝图·六期*2",
 		subject = "促销礼包I",
 		first_pay_double = 0,
@@ -17278,7 +18440,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao211",
@@ -17286,6 +18451,7 @@ pg.base.pay_data_display = {
 		id = 5011,
 		airijp_id = "com.yostarjp.azurlane.package211",
 		name_display = "促销礼包I",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17331,7 +18497,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day2",
 		name = "促销礼包II(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得200钻",
 		subject = "促销礼包II",
 		first_pay_double = 0,
@@ -17342,7 +18508,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao212",
@@ -17350,6 +18519,7 @@ pg.base.pay_data_display = {
 		id = 5012,
 		airijp_id = "com.yostarjp.azurlane.package212",
 		name_display = "促销礼包II",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17385,7 +18555,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day3",
 		name = "促销礼包III(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得定向部件T4*5，心智单元*200",
 		subject = "促销礼包III",
 		first_pay_double = 0,
@@ -17396,7 +18566,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao213",
@@ -17404,6 +18577,7 @@ pg.base.pay_data_display = {
 		id = 5013,
 		airijp_id = "com.yostarjp.azurlane.package213",
 		name_display = "促销礼包III",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17449,7 +18623,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day4",
 		name = "促销礼包IV(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得60钻，试作型布里MKII*1",
 		subject = "促销礼包IV",
 		first_pay_double = 0,
@@ -17460,7 +18634,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao214",
@@ -17468,6 +18645,7 @@ pg.base.pay_data_display = {
 		id = 5014,
 		airijp_id = "com.yostarjp.azurlane.package214",
 		name_display = "促销礼包IV",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17513,7 +18691,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day5",
 		name = "促销礼包V(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得舰艇演习数据T2*60",
 		subject = "促销礼包V",
 		first_pay_double = 0,
@@ -17524,7 +18702,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao215",
@@ -17532,6 +18713,7 @@ pg.base.pay_data_display = {
 		id = 5015,
 		airijp_id = "com.yostarjp.azurlane.package215",
 		name_display = "促销礼包V",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17567,7 +18749,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day6",
 		name = "促销礼包VI(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得心智魔方*10，快速完成工具*5",
 		subject = "促销礼包VI",
 		first_pay_double = 0,
@@ -17578,7 +18760,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao216",
@@ -17586,6 +18771,7 @@ pg.base.pay_data_display = {
 		id = 5016,
 		airijp_id = "com.yostarjp.azurlane.package216",
 		name_display = "促销礼包VI",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",
@@ -17631,7 +18817,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day7",
 		name = "促销礼包VII(2024)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "购买礼包可获得60钻，高级定向蓝图·七期*2",
 		subject = "促销礼包VII",
 		first_pay_double = 0,
@@ -17642,7 +18828,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao217",
@@ -17650,6 +18839,7 @@ pg.base.pay_data_display = {
 		id = 5017,
 		airijp_id = "com.yostarjp.azurlane.package217",
 		name_display = "促销礼包VII",
+		first_text = "",
 		akashi_pick = 1,
 		time = "stop",
 		sub_display = "",

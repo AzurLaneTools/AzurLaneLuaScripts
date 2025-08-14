@@ -171,12 +171,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……优米雅小姐，妮娜小姐……或许，我们很快就能出去了……",
 			typewriter = {
 				speed = 0.05,

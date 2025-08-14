@@ -2590,6 +2590,27 @@ pg.medal_template = {
 		explain1 = "「迷彩都市的寻踪者」",
 		explain2 = "活动纪念"
 	},
+	[200081] = {
+		target_id = "50087",
+		name = "奇渊之下纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "你发现了奇渊下的秘密，阻止了灾厄之子的阴谋，我们尊敬的指挥官，希望你在这段冒险中玩得尽兴。\n\n——《大型港区虚拟现实体验计划2.0》制作委员会",
+		next = 0,
+		icon = "9081",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9081",
+		condition = "收集8个「奇渊下的秘密」纪念贴纸。",
+		rank = 1,
+		id = 200081,
+		explain1 = "「奇渊下的秘密」",
+		explain2 = "活动纪念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2708,6 +2729,7 @@ pg.medal_template = {
 		200041,
 		200051,
 		200061,
-		200071
+		200071,
+		200081
 	}
 }

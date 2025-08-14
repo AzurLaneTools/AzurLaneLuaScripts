@@ -1867,5 +1867,21 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "春咲暖",
 		code = 467
+	},
+	{
+		actor_name = "林鼓子",
+		code = 468
+	},
+	{
+		actor_name = "和久井优",
+		code = 469
+	},
+	{
+		actor_name = "河村梨惠",
+		code = 470
+	},
+	{
+		actor_name = "橘茉莉花",
+		code = 471
 	}
 }

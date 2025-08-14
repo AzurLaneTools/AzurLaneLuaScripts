@@ -1,26 +1,5 @@
 slot0 = class("StreetShopPage", import(".BaseShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "StreetShop"
-end
-
-slot0.OnLoaded = function(slot0)
-	slot0.timerText = slot0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
-	slot0.refreshBtn = slot0:findTF("refresh_btn")
-	slot0.actTip = slot0:findTF("tip/tip_activity"):GetComponent(typeof(Text))
-
-	setActive(slot0.actTip, #_.select(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP_STREET), function (slot0)
-		return slot0 and not slot0:isEnd()
-	end) > 0)
-
-	slot0.actTip.text = slot0:GenTip(slot2)
-	slot0.helpBtn = slot0:findTF("tip/help")
-
-	setActive(slot0.helpBtn, #slot2 > 1)
-
-	slot0.activitys = slot2
-end
-
 slot0.GenTip = function(slot0, slot1)
 	slot2 = ""
 
@@ -67,7 +46,65 @@ slot0.GenHelpContent = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.OnInit = function(slot0)
+slot0.OnUpdatePlayer = function(slot0)
+	slot0:RefreshResItemList()
+end
+
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
+
+	table.insert(slot1, {
+		type = DROP_TYPE_RESOURCE,
+		resID = PlayerConst.ResGold,
+		cnt = slot0.player:getResource(PlayerConst.ResGold)
+	})
+
+	return slot1
+end
+
+slot0.OnSetUp = function(slot0)
+	slot0:RemoveTimer()
+	slot0:AddTimer()
+end
+
+slot0.Hide = function(slot0)
+	uv0.super.Hide(slot0)
+	slot0:RemoveTimer()
+end
+
+slot0.OnUpdateAll = function(slot0)
+	slot0:InitCommodities()
+	slot0:OnSetUp()
+end
+
+slot0.OnUpdateCommodity = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0.cards) do
+		if slot7.goodsVO.id == slot1.id then
+			slot2 = slot7
+		end
+	end
+
+	if slot2 then
+		slot2:update(slot1)
+	end
+end
+
+slot0.RefreshUI = function(slot0)
+	setActive(slot0.tipTextGo, #_.select(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP_STREET), function (slot0)
+		return slot0 and not slot0:isEnd()
+	end) > 0)
+
+	slot0.tipText.text = slot0:GenTip(slot2)
+
+	setActive(slot0.helpBtn, #slot2 > 1)
+
+	slot0.activitys = slot2
+
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, true)
 	onButton(slot0, slot0.helpBtn, function ()
 		table.sort(uv0.activitys, function (slot0, slot1)
 			return slot0:getStartTime() < slot1:getStartTime()
@@ -94,44 +131,11 @@ slot0.OnInit = function(slot0)
 			noText = "text_cancel",
 			content = i18n("refresh_shopStreet_question", i18n("word_" .. id2res(slot1.resource_type) .. "_icon"), slot1.resource_num, uv0.shop.flashCount),
 			onYes = function ()
-				uv0:emit(NewShopsMediator.REFRESH_STREET_SHOP, uv1)
+				uv0:emit(NewShopMainMediator.REFRESH_STREET_SHOP, uv1)
 			end
 		})
 	end, SFX_PANEL)
-end
-
-slot0.ResUISettings = function(slot0)
-	return {
-		showType = PlayerResUI.TYPE_ALL
-	}
-end
-
-slot0.OnUpdatePlayer = function(slot0)
-	slot1 = slot0.player
-end
-
-slot0.OnSetUp = function(slot0)
-	slot0:RemoveTimer()
-	slot0:AddTimer()
-end
-
-slot0.OnUpdateAll = function(slot0)
-	slot0:InitCommodities()
-	slot0:OnSetUp()
-end
-
-slot0.OnUpdateCommodity = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in pairs(slot0.cards) do
-		if slot7.goodsVO.id == slot1.id then
-			slot2 = slot7
-		end
-	end
-
-	if slot2 then
-		slot2:update(slot1)
-	end
+	setButtonEnabled(slot0.refreshBtn, true)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -180,11 +184,11 @@ slot0.Purchase = function(slot0, slot1)
 				id = slot1:getConfig("effect_args")[1]
 			}):getConfig("name")),
 			onYes = function ()
-				uv0:emit(NewShopsMediator.ON_SHOPPING, uv1.id, 1)
+				uv0:emit(NewShopMainMediator.BUY_ITEM, uv1.id, 1)
 			end
 		})
 	else
-		slot0:emit(NewShopsMediator.ON_SHOPPING, slot1.id, 1)
+		slot0:emit(NewShopMainMediator.BUY_ITEM, slot1.id, 1)
 	end
 end
 
@@ -201,9 +205,9 @@ slot0.AddTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		if uv0:isUpdateGoods() then
 			uv1:RemoveTimer()
-			uv1:emit(NewShopsMediator.REFRESH_STREET_SHOP)
+			uv1:emit(NewShopMainMediator.REFRESH_STREET_SHOP)
 		else
-			uv1.timerText.text = pg.TimeMgr.GetInstance():DescCDTime(uv0.nextFlashTime - pg.TimeMgr.GetInstance():GetServerTime())
+			uv1.timerText.text = i18n("shop_refresh_time", pg.TimeMgr.GetInstance():DescCDTime(uv0.nextFlashTime - pg.TimeMgr.GetInstance():GetServerTime()))
 		end
 	end, 1, -1)
 
@@ -213,10 +217,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
-
-	if slot0:isShowing() then
-		slot0:Hide()
-	end
+	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

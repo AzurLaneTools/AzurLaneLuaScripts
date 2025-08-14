@@ -1,124 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
-	[805010] = {
-		name = "黎塞留",
-		change_skin = "",
-		desc = "自由鸢尾黎塞留级战列舰—黎塞留",
-		illustrator2 = -1,
-		ship_group = 80501,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "lisailiu",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 805010,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "lisailiu",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 148,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.67,
-					1.335,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.66,
-					1.365,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.66,
-					1.299,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[805011] = {
 		name = "潮风的Fleuron",
 		change_skin = "",
@@ -910,6 +792,349 @@ pg.base.ship_skin_template_15 = {
 			80503109,
 			80503110,
 			80503111
+		}
+	},
+	[806010] = {
+		name = "贝劳森林",
+		change_skin = "",
+		desc = "独立级轻型航空母舰——贝劳森林",
+		illustrator2 = -1,
+		ship_group = 80601,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "beilaosenlin",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 806010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "beilaosenlin",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 469,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.478,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.747,
+					1.114,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.098,
+					0.131,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.784,
+					2.525,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.835,
+							2.539,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[806011] = {
+		name = "水色疗愈",
+		change_skin = "",
+		desc = "指挥官的工作结束了？为了让指挥官放松，我研究了一下温泉疗法……这是一种很温暖、舒适、柔软的调理方式。现在……一起入浴吧。",
+		illustrator2 = -1,
+		ship_group = 80601,
+		group_index = 1,
+		painting = "beilaosenlin_2",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 22,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		id = 806011,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "beilaosenlin_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71166,
+		voice_actor = 469,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			9
+		},
+		live2d_offset = {
+			12,
+			0,
+			0,
+			55.55
+		},
+		shop_offset = {
+			12,
+			0,
+			0,
+			55.55
+		},
+		purchase_offset = {
+			12,
+			0,
+			0,
+			55.55
+		},
+		live2d_offset_profile = {
+			12,
+			0,
+			0,
+			55.55
+		},
+		spine_offset_profile = {
+			12,
+			0,
+			0,
+			55.55
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.768,
+					1.11,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.826,
+					1.221,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.116,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.757,
+					2.412,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.721,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamEyeBallX = {
+				-0.4,
+				0.4
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		ship_l2d_id = {
+			80601101,
+			80601102,
+			80601103,
+			80601104,
+			80601105,
+			80601106,
+			80601107,
+			80601108,
+			80601109,
+			80601110,
+			80601111,
+			80601112,
+			80601113,
+			80601114,
+			80601115,
+			80601116,
+			80601117,
+			80601118,
+			80601119,
+			80601120,
+			80601121,
+			80601122,
+			80601123,
+			80601124,
+			80601125,
+			80601126,
+			80601127,
+			80601128,
+			80601129,
+			80601130,
+			80601131
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1583,
+					399,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					295,
+					399,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					-568,
+					-408,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
 		}
 	},
 	[807010] = {

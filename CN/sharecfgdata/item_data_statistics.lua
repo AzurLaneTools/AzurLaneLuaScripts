@@ -27782,6 +27782,131 @@ _G.pg.base.item_data_statistics[30373] = {
 }
 
 
+_G.pg.base.item_data_statistics[30374] = {
+	open_directly = 1,
+	name = "外观装备箱(奇渊奇境)",
+	type = 11,
+	display = "可以获得一件随机的奇渊奇境风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxqiyuanqijing",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30371",
+	id = 30374,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -41482,6 +41607,219 @@ _G.pg.base.item_data_statistics[30557] = {
 		{
 			9,
 			1498,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30558] = {
+	open_directly = 0,
+	name = "定向外观装备箱(奇渊奇境)",
+	type = 13,
+	display = "使用后可从「奇渊奇境」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxqiyuanqijingzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30558,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
 			1
 		}
 	},
@@ -104672,6 +105010,39 @@ _G.pg.base.item_data_statistics[59855] = {
 }
 
 
+_G.pg.base.item_data_statistics[59856] = {
+	open_directly = 0,
+	name = "必要的准备",
+	type = 7,
+	display = "埃塞克斯为了改造顺利进行所进行的必要准备。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/59856",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59856,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		107974
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "核心数据",
@@ -117988,6 +118359,357 @@ _G.pg.base.item_data_statistics[68099] = {
 	combination_display = {},
 	usage_arg = {
 		90365
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68100] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(醉甜之泉)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>马塞纳</color>换装<color=#92fc63FF>醉甜之泉</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906851",
+	id = 68100,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68103,
+			1
+		},
+		{
+			2,
+			68106,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68101] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(水色疗愈)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>贝劳森林</color>换装<color=#92fc63FF>水色疗愈</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906852",
+	id = 68101,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68104,
+			1
+		},
+		{
+			2,
+			68107,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68102] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(香甜牛奶味之夜)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>安克雷奇</color>换装<color=#92fc63FF>香甜牛奶味之夜</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906853",
+	id = 68102,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68105,
+			1
+		},
+		{
+			2,
+			68108,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68103] = {
+	open_directly = 0,
+	name = "换装抵扣券(醉甜之泉)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>马塞纳</color>换装<color=#92fc63FF>醉甜之泉</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68103,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71165
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68104] = {
+	open_directly = 0,
+	name = "换装抵扣券(水色疗愈)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>贝劳森林</color>换装<color=#92fc63FF>水色疗愈</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68104,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71166
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68105] = {
+	open_directly = 0,
+	name = "换装抵扣券(香甜牛奶味之夜)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>安克雷奇</color>换装<color=#92fc63FF>香甜牛奶味之夜</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68105,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71173
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68106] = {
+	open_directly = 0,
+	name = "换装体验券(醉甜之泉)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>马塞纳</color>换装<color=#92fc63FF>醉甜之泉</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68106,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90369
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68107] = {
+	open_directly = 0,
+	name = "换装体验券(水色疗愈)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>贝劳森林</color>换装<color=#92fc63FF>水色疗愈</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68107,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90370
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68108] = {
+	open_directly = 0,
+	name = "换装体验券(香甜牛奶味之夜)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>安克雷奇</color>换装<color=#92fc63FF>香甜牛奶味之夜</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年8月16日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68108,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90371
 	},
 	limit = {}
 }

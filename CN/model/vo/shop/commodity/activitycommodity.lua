@@ -46,11 +46,8 @@ end
 slot1 = function(slot0, slot1)
 	if getProxy(BayProxy):getMetaShipByGroupId(slot1) then
 		slot4 = slot2:getMetaCharacter():getSpecialMaterialInfoToMaxStar()
-		slot5 = getProxy(BagProxy):getItemCountById(slot4.itemID)
 
-		print(slot4, slot5)
-
-		return math.max(slot4.count - slot5, 0)
+		return math.max(slot4.count - getProxy(BagProxy):getItemCountById(slot4.itemID), 0)
 	else
 		return slot0:getConfig("num_limit") - slot0.buyCount
 	end

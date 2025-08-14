@@ -9179,6 +9179,15 @@ _G.pg.base.gametip.ship_remould_warning_105234 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_107974 = {
+	tip = [[
+此次改造操作将消耗<color=#92fc63>必要的准备</color>
+是否确认继续操作？
+改造后 <color=#92fc63>轰炸机武器栏位可以装备任意舰载机</color>
+技能<color=#92fc63>【善战之舰】</color>将升级为<color=#92fc63>【善战之舰.改】</color>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作后<color=#92fc63>【所有战斗机+1】、【所有鱼雷机+1】</color>\n是否确认继续操作？"
 }
@@ -10951,7 +10960,7 @@ _G.pg.base.gametip.help_activitypool_3 = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "*活动期间(<color=#A1E400FF>$1</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>"
+	tip = "*活动期间(<color=#539b2c>$1</COLOR>)每次刷新必定出现<color=#539b2c>外观装备箱</color>"
 }
 
 
@@ -11856,7 +11865,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*兑换开放时间:\n<color=#FFF693>$1</color>"
+	tip = "*兑换开放时间:<color=#539b2c>$1</color>"
 }
 
 
@@ -12436,7 +12445,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "优米雅·利斯菲尔德、妮娜·弗里德、蕾妮雅 建造概率UP！"
+	tip = "马塞纳、贝劳森林、迪凯纳建造概率UP！"
 }
 
 
@@ -37400,11 +37409,11 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		{
 			info = [[
 1. 回忆页面内新增「纪念手册」系统入口。
-2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动勋章。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动纪念章家具和活动勋章。
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至7月16日24时；]]
+ ※ 奖励领取界面将延长至9月3日24时；]]
 		}
 	}
 }
@@ -39560,4 +39569,589 @@ _G.pg.base.gametip.yumia_pt_tip = {
 
 _G.pg.base.gametip.yumia_pt_4 = {
 	tip = "已获取"
+}
+
+
+_G.pg.base.gametip.masaina_main_title = {
+	tip = "奇渊之下"
+}
+
+
+_G.pg.base.gametip.masaina_main_title_en = {
+	tip = "Secrets of the Abyss"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet1 = {
+	tip = "奇渊之下"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet2 = {
+	tip = "奇渊补给站"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet3 = {
+	tip = "港区时尚特刊"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet4 = {
+	tip = "律动储物间"
+}
+
+
+_G.pg.base.gametip.masaina_main_skin_tag = {
+	tip = "剩余$1小时"
+}
+
+
+_G.pg.base.gametip.masaina_main_other_tag = {
+	tip = "即将结束"
+}
+
+
+_G.pg.base.gametip.shop_title = {
+	tip = "商店"
+}
+
+
+_G.pg.base.gametip.shop_recommend = {
+	tip = "推荐"
+}
+
+
+_G.pg.base.gametip.shop_recommend_en = {
+	tip = "Recommend"
+}
+
+
+_G.pg.base.gametip.shop_skin = {
+	tip = "换装商店"
+}
+
+
+_G.pg.base.gametip.shop_skin_en = {
+	tip = "NewClothes"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop = {
+	tip = "补给道具"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop_en = {
+	tip = "Props"
+}
+
+
+_G.pg.base.gametip.shop_skin_new = {
+	tip = "精选换装"
+}
+
+
+_G.pg.base.gametip.shop_skin_permanent = {
+	tip = "热门换装"
+}
+
+
+_G.pg.base.gametip.shop_month = {
+	tip = "月度商店"
+}
+
+
+_G.pg.base.gametip.shop_supply = {
+	tip = "补给商店"
+}
+
+
+_G.pg.base.gametip.shop_activity = {
+	tip = "活动商店"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_0 = {
+	tip = "AllPacks"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_1 = {
+	tip = "新晋指挥官支援包"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_1 = {
+	tip = "ForNewCommander"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_2 = {
+	tip = "等级礼包"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_2 = {
+	tip = "LevelPack"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_3 = {
+	tip = "研发礼包"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_3 = {
+	tip = "ResearchPack"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_day = {
+	tip = "剩余$1天"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_hour = {
+	tip = "剩余$1小时"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_minute = {
+	tip = "剩余$1分"
+}
+
+
+_G.pg.base.gametip.shop_refresh_time = {
+	tip = "$1后刷新"
+}
+
+
+_G.pg.base.gametip.shop_side_lable_en = {
+	tip = "RecommendShop"
+}
+
+
+_G.pg.base.gametip.street_shop_titleen = {
+	tip = "StreetShop"
+}
+
+
+_G.pg.base.gametip.military_shop_titleen = {
+	tip = "MilitaryShop"
+}
+
+
+_G.pg.base.gametip.guild_shop_titleen = {
+	tip = "GuildShop"
+}
+
+
+_G.pg.base.gametip.meta_shop_titleen = {
+	tip = "METAShop"
+}
+
+
+_G.pg.base.gametip.mini_game_shop_titleen = {
+	tip = "GameShop"
+}
+
+
+_G.pg.base.gametip.shop_item_unlock = {
+	tip = "礼包内容"
+}
+
+
+_G.pg.base.gametip.shop_item_unobtained = {
+	tip = "未获取"
+}
+
+
+_G.pg.base.gametip.beat_game_rule = {
+	tip = "规则"
+}
+
+
+_G.pg.base.gametip.beat_game_rank = {
+	tip = "排行榜"
+}
+
+
+_G.pg.base.gametip.beat_game_go = {
+	tip = "前往游戏"
+}
+
+
+_G.pg.base.gametip.beat_game_start = {
+	tip = "开始游戏"
+}
+
+
+_G.pg.base.gametip.beat_game_high_score = {
+	tip = "最高分数"
+}
+
+
+_G.pg.base.gametip.beat_game_current_score = {
+	tip = "本局得分"
+}
+
+
+_G.pg.base.gametip.beat_game_exit_desc = {
+	tip = "将以当前分数计入排行"
+}
+
+
+_G.pg.base.gametip.musicbeat_minigame_help = {
+	tip = {
+		{
+			info = [[
+埃塞克斯和企业正跟着律动整理港区仓库！来加入她们吧！
+
+·参与游戏可获得埃塞克斯改造道具<b>「必要的准备」</b>
+·8月20日为止每日解锁一档奖励。
+
+·点击<b><color=#F55656>左侧红色按钮</color></b>可将飞行物<color=#F55656><b>打飞</b></color>
+·点击<b><color=#FAF065>右侧黄色按钮</color></b>可将飞行物<color=#FAF065><b>接住</b></color>
+·指挥官需要指挥企业<color=#F55656><b>打飞各种水果</b></color>，并<color=#FAF065><b>接住所有舰载机</b></color>！
+
+·每次进行正确的操作时会加分，如果接住了水果则会扣除生命值，当生命值归零后游戏结束。
+※随着游戏进行，音乐将逐渐变快。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.masaina_pt_claimed = {
+	tip = "已获取"
+}
+
+
+_G.pg.base.gametip.activity_shop_titleen = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.shop_diamond_title_en = {
+	tip = "Diamond"
+}
+
+
+_G.pg.base.gametip.shop_gift_title_en = {
+	tip = "Pack"
+}
+
+
+_G.pg.base.gametip.shop_item_title_en = {
+	tip = "Item"
+}
+
+
+_G.pg.base.gametip.shop_pack_empty = {
+	tip = "暂无可用礼包"
+}
+
+
+_G.pg.base.gametip.shop_new_unfound = {
+	tip = "未找到符合条件的换装"
+}
+
+
+_G.pg.base.gametip.shop_new_shop = {
+	tip = "商店"
+}
+
+
+_G.pg.base.gametip.shop_new_during_day = {
+	tip = "剩余$1天"
+}
+
+
+_G.pg.base.gametip.shop_new_during_hour = {
+	tip = "剩余$1小时"
+}
+
+
+_G.pg.base.gametip.shop_new_during_minite = {
+	tip = "剩余$1分钟"
+}
+
+
+_G.pg.base.gametip.shop_new_sort = {
+	tip = "筛选"
+}
+
+
+_G.pg.base.gametip.shop_new_search = {
+	tip = "点击搜索"
+}
+
+
+_G.pg.base.gametip.shop_new_purchased = {
+	tip = "已购买"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase = {
+	tip = "购买"
+}
+
+
+_G.pg.base.gametip.shop_new_claim = {
+	tip = "前往获取"
+}
+
+
+_G.pg.base.gametip.shop_new_furniture = {
+	tip = "家具商店"
+}
+
+
+_G.pg.base.gametip.shop_new_discount = {
+	tip = "优惠购买"
+}
+
+
+_G.pg.base.gametip.shop_new_try = {
+	tip = "体验"
+}
+
+
+_G.pg.base.gametip.shop_new_gift = {
+	tip = "赠送"
+}
+
+
+_G.pg.base.gametip.shop_new_gem_transform = {
+	tip = "如果该换装已拥有，则会转化为等价钻石"
+}
+
+
+_G.pg.base.gametip.shop_new_review = {
+	tip = "查看"
+}
+
+
+_G.pg.base.gametip.shop_new_all = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.shop_new_owned = {
+	tip = "已拥有"
+}
+
+
+_G.pg.base.gametip.shop_new_havent_own = {
+	tip = "未拥有"
+}
+
+
+_G.pg.base.gametip.shop_new_unused = {
+	tip = "未使用"
+}
+
+
+_G.pg.base.gametip.shop_new_type = {
+	tip = "类型"
+}
+
+
+_G.pg.base.gametip.shop_new_static = {
+	tip = "静态"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic = {
+	tip = "动态"
+}
+
+
+_G.pg.base.gametip.shop_new_static_bg = {
+	tip = "静态背景"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic_bg = {
+	tip = "动态背景"
+}
+
+
+_G.pg.base.gametip.shop_new_bgm = {
+	tip = "音乐"
+}
+
+
+_G.pg.base.gametip.shop_new_index = {
+	tip = "索引"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_owned = {
+	tip = "已拥有舰船"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_havent_owned = {
+	tip = "未拥有舰船"
+}
+
+
+_G.pg.base.gametip.shop_new_nation = {
+	tip = "阵营"
+}
+
+
+_G.pg.base.gametip.shop_new_rarity = {
+	tip = "稀有度"
+}
+
+
+_G.pg.base.gametip.shop_new_category = {
+	tip = "舰种"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_theme = {
+	tip = "换装主题"
+}
+
+
+_G.pg.base.gametip.shop_new_confirm = {
+	tip = "确认"
+}
+
+
+_G.pg.base.gametip.shop_new_during_time = {
+	tip = "剩余时间"
+}
+
+
+_G.pg.base.gametip.shop_new_daily = {
+	tip = "每日"
+}
+
+
+_G.pg.base.gametip.shop_new_recommend = {
+	tip = "推荐"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_shop = {
+	tip = "换装商店"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase_gem = {
+	tip = "购买钻石"
+}
+
+
+_G.pg.base.gametip.shop_new_akashi_recommend = {
+	tip = "明石精选"
+}
+
+
+_G.pg.base.gametip.shop_new_packs = {
+	tip = "优惠礼包"
+}
+
+
+_G.pg.base.gametip.shop_new_props = {
+	tip = "功能道具"
+}
+
+
+_G.pg.base.gametip.shop_new_ptshop = {
+	tip = "补给商店"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_new = {
+	tip = "精选换装"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_permanent = {
+	tip = "热门换装"
+}
+
+
+_G.pg.base.gametip.shop_new_in_use = {
+	tip = "使用中"
+}
+
+
+_G.pg.base.gametip.shop_new_unable_to_use = {
+	tip = "无法使用"
+}
+
+
+_G.pg.base.gametip.shop_new_owned_skin = {
+	tip = "已有换装"
+}
+
+
+_G.pg.base.gametip.shop_new_wear = {
+	tip = "穿戴"
+}
+
+
+_G.pg.base.gametip.shop_new_get_now = {
+	tip = "立即获得$1"
+}
+
+
+_G.pg.base.gametip.shop_new_remaining_time = {
+	tip = "已购买，剩余$1天"
+}
+
+
+_G.pg.base.gametip.shop_new_remove = {
+	tip = "$1后下架"
+}
+
+
+_G.pg.base.gametip.shop_new_retro = {
+	tip = "返场"
+}
+
+
+_G.pg.base.gametip.shop_new_able_to_exchange = {
+	tip = "可兑换换装"
+}
+
+
+_G.pg.base.gametip.shop_countdown = {
+	tip = "$1天$2小时$3分后下架"
+}
+
+
+_G.pg.base.gametip.quota_shop_title1en = {
+	tip = "QuotaShop"
+}
+
+
+_G.pg.base.gametip.sham_shop_titleen = {
+	tip = "MonthlyShop"
+}
+
+
+_G.pg.base.gametip.medal_shop_titleen = {
+	tip = "MedalShop"
+}
+
+
+_G.pg.base.gametip.fragment_shop_titleen = {
+	tip = "FragmentShop"
+}
+
+
+_G.pg.base.gametip.beat_game_my_record = {
+	tip = "我的排名"
 }
