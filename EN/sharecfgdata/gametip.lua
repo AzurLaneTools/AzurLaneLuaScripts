@@ -12330,7 +12330,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*Available During:\n<color=#FFCF81>$1</color>"
+	tip = "*Available During:<color=#FFCF81>$1</color>"
 }
 
 

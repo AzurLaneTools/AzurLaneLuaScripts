@@ -257,7 +257,7 @@ pg.roll_attr = {
 	[1004] = {
 		ID = 1004,
 		name = "Blessing",
-		default_value = "Goddess of Luck and Riches",
+		default_value = "Goddess of Luck \nand Riches",
 		random_value = {
 			"Goddess of Beginnings and Ends",
 			"Goddess of Desserts and Tea Parties",

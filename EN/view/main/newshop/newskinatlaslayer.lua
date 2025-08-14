@@ -543,7 +543,7 @@ slot0.GetSkinClassify = function(slot0)
 
 	for slot4, slot5 in ipairs(slot0.classifyIds) do
 		if slot5 == uv0 then
-			table.insert(slot0.classifyNames, "全部")
+			table.insert(slot0.classifyNames, i18n("index_all"))
 		else
 			table.insert(slot0.classifyNames, pg.skin_page_template[slot5].name)
 		end
