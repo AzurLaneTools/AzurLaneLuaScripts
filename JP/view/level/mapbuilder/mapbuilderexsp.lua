@@ -170,25 +170,27 @@ slot0.UpdateStory = function(slot0)
 		return slot0:getConfig("id") < slot1:getConfig("id")
 	end)
 
-	slot6 = nil
+	slot6 = slot5[#slot5]
+	slot7 = nil
+	slot8 = #slot5 - 1
 
-	if #slot5 < 2 then
-		slot0.personalPage:SetBossRushNode(slot5[1], slot5[1])
-	elseif #slot5 - 1 > 0 then
-		while slot7 > 0 do
-			if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot7]) > 0 then
-				slot6 = true
+	while slot8 > 0 do
+		if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot8]) > 0 then
+			slot7 = slot5[slot8]
 
-				slot0.personalPage:SetBossRushNode(slot5[#slot5], slot5[slot7])
-
-				break
-			end
-
-			slot7 = slot7 - 1
+			break
 		end
+
+		slot8 = slot8 - 1
 	end
 
-	setActive(slot0.personalBtn, slot6)
+	if slot6 and #slot0.personalPage:GetActivitySingleEventOption(slot6) > 0 or slot7 and #slot0.personalPage:GetActivitySingleEventOption(slot7) > 0 then
+		setActive(slot0.personalBtn, true)
+	else
+		setActive(slot0.personalBtn, false)
+	end
+
+	slot0.personalPage:SetBossRushNode(slot6, slot7 and slot7 or slot6)
 
 	if slot3 == slot4 then
 		slot0.personalPage:UnlockRandom()
@@ -200,10 +202,6 @@ slot0.UpdateStory = function(slot0)
 end
 
 slot0.CheckAutoShowPersonal = function(slot0)
-	if not slot0.personalPage:GetCurrentEvent() then
-		return
-	end
-
 	if #slot0.personalPage:GetActivitySingleEventOption(slot0.personalPage:GetCurrentEvent()) > 0 then
 		slot0.personalPage:SetUpgrade()
 		slot0.personalPage:ExecuteAction("Show")

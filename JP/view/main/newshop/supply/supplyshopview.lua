@@ -242,8 +242,18 @@ slot0.OnUpdateShop = function(slot0, slot1, slot2)
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1, slot2, slot3)
-	if slot0.page == slot0.pages[slot1] then
-		slot0.page:UpdateCommodity(slot2, slot3)
+	slot4 = slot0.pages[slot1]
+
+	for slot8, slot9 in ipairs(slot0.packageSortList) do
+		if slot9.shopData:IsSameKind(slot2) then
+			slot9.shopData = slot2
+
+			if slot0.page == slot4 then
+				slot0.page:UpdateCommodity(slot2, slot3)
+			end
+
+			break
+		end
 	end
 end
 

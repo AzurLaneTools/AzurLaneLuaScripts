@@ -40671,3 +40671,18 @@ _G.pg.base.gametip.shop_fragment_resolve = {
 _G.pg.base.gametip.beat_game_my_record = {
 	tip = "自己順位"
 }
+
+
+_G.pg.base.gametip.shop_filter_all = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.shop_filter_trial = {
+	tip = "体験"
+}
+
+
+_G.pg.base.gametip.shop_filter_retro = {
+	tip = "復刻"
+}

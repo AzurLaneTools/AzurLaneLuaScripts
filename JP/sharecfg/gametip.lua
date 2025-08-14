@@ -30735,5 +30735,20 @@ cs.gametip = {
 		1248585,
 		95,
 		true
+	},
+	shop_filter_all = {
+		1248680,
+		85,
+		true
+	},
+	shop_filter_trial = {
+		1248765,
+		87,
+		true
+	},
+	shop_filter_retro = {
+		1248852,
+		87,
+		true
 	}
 }

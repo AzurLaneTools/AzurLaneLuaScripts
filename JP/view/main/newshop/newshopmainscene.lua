@@ -247,6 +247,7 @@ slot0.didEnter = function(slot0)
 			uv0:ShowChargeWarp(false)
 			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 			uv0:emit(NewShopMainMediator.OPEN_LAYER, NewRecommendationShopLayer, NewRecommendationShopMediator)
+			uv0:findTF("shop1List/recommendation/shop1Tg", uv0.buttonList):GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected1")
 		end
 	end, SFX_PANEL)
 	setActive(slot0:findTF("shop1List/skinShop/shop1Tg/timeLimit", slot0.buttonList), #getProxy(ShipSkinProxy):GetInTimeSkins() > 0)
@@ -261,6 +262,7 @@ slot0.didEnter = function(slot0)
 				type = "newSkin",
 				mode = uv0.contextData.mode
 			})
+			uv0:findTF("shop1List/skinShop/shop2List/newSkin", uv0.buttonList):GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected1")
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0:findTF("shop1List/skinShop/shop2List/permanentSkin", slot0.buttonList), function (slot0)
@@ -273,6 +275,7 @@ slot0.didEnter = function(slot0)
 				type = "permanentSkin",
 				mode = uv0.contextData.mode
 			})
+			uv0:findTF("shop1List/skinShop/shop2List/permanentSkin", uv0.buttonList):GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected1")
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0:findTF("shop1List/skinShop/shop1Tg", slot0.buttonList), function (slot0)
@@ -286,6 +289,8 @@ slot0.didEnter = function(slot0)
 
 				triggerToggle(uv0.buttonList:Find("shop1List/skinShop/shop2List/" .. (#uv1 > 0 and "newSkin" or "permanentSkin")), true)
 			end
+
+			uv0:findTF("shop1List/skinShop/shop1Tg", uv0.buttonList):GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected1")
 		end
 	end, SFX_PANEL)
 
@@ -302,6 +307,7 @@ slot0.didEnter = function(slot0)
 				uv0.contextData.shop2 = nil
 
 				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
+				uv3:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected1")
 			end
 		end, SFX_PANEL)
 	end
@@ -311,6 +317,7 @@ slot0.didEnter = function(slot0)
 
 		if slot0 then
 			triggerToggle(uv0:findTF("shop1List/supplyShop/shop2List/" .. uv0:GetDefaultSupplyShopName(), uv0.buttonList), true)
+			uv0:findTF("shop1List/supplyShop/shop1Tg", uv0.buttonList):GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected1")
 		end
 	end, SFX_PANEL)
 
@@ -343,6 +350,7 @@ slot0.didEnter = function(slot0)
 				uv0.contextData.shop2 = nil
 
 				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
+				uv1.go:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected1")
 			end
 		end, SFX_PANEL)
 	end
