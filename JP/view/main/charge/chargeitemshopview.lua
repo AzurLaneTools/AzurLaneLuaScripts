@@ -11,6 +11,8 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:unBlurView()
+
 	for slot4, slot5 in ipairs(slot0.cardList) do
 		slot5:Dispose()
 	end
@@ -19,18 +21,27 @@ end
 slot0.initData = function(slot0)
 	slot0.itemGoodsVOList = {}
 	slot0.player = getProxy(PlayerProxy):getData()
+	slot0.packageSortList = {
+		0
+	}
+	slot0.selectedPackageType = nil
+	slot0.prevBtn = nil
 
 	slot0:updateData()
 end
 
 slot0.initUI = function(slot0)
-	slot0.contextTF = slot0:findTF("content")
+	slot0.contextTF = slot0:findTF("scroll")
 	slot0.lScrollRect = GetComponent(slot0.contextTF, "LScrollRect")
 	slot0.cardTable = {}
 	slot0.cardList = {}
 
 	slot0:initScrollRect()
+	slot0:initToggleList()
+	slot0:updateToggleList()
 	slot0:updateScrollRect()
+	triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
+	slot0:blurView()
 end
 
 slot0.initScrollRect = function(slot0)
@@ -41,7 +52,7 @@ slot0.initScrollRect = function(slot0)
 		slot1 = ChargeGoodsCard.New(slot0)
 
 		table.insert(uv0.cardList, slot1)
-		onButton(uv0, slot1.tr, function ()
+		onButton(uv0, slot1.tf, function ()
 			if uv0.goodsVO:isLevelLimit(uv1.player.level) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_level_limit"))
 
@@ -120,7 +131,7 @@ slot0.initScrollRect = function(slot0)
 								id = uv0
 							}):getConfig("name")),
 							onYes = function ()
-								uv0:emit(ChargeMediator.BUY_ITEM, uv1.goodsVO.id, 1)
+								uv0:emit(NewShopMainMediator.BUY_ITEM, uv1.goodsVO.id, 1)
 							end
 						})
 					end
@@ -138,7 +149,7 @@ slot0.initScrollRect = function(slot0)
 			slot2 = uv0.cardTable[slot1]
 		end
 
-		slot3 = uv0.itemGoodsVOList[slot0 + 1]
+		slot3 = uv0.filterList[slot0 + 1]
 
 		slot2:update(slot3)
 		slot2:setLevelMask(uv0.player.level)
@@ -147,11 +158,56 @@ slot0.initScrollRect = function(slot0)
 end
 
 slot0.updateScrollRect = function(slot0)
-	slot0.lScrollRect:SetTotalCount(#slot0.itemGoodsVOList, slot0.lScrollRect.value)
+	slot0.filterList = slot0:getFilterList()
+
+	slot0.lScrollRect:SetTotalCount(#slot0.filterList, slot0.lScrollRect.value)
+end
+
+slot0.updateToggleList = function(slot0)
+	slot0.uiToggleList:align(#slot0.packageSortList)
+end
+
+slot0.initToggleList = function(slot0)
+	slot0.uiToggleList = UIItemList.New(slot0:findTF("toggleGroup"), slot0:findTF("toggleGroup/Toggle"))
+	slot1 = slot0.uiToggleList
+
+	slot1:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventInit then
+			slot3 = uv0.packageSortList[slot1 + 1]
+
+			setText(uv0:findTF("selected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(uv0:findTF("selected/enText", slot2), i18n(string.format("shop_package_sort_en_%s", slot3)))
+			setText(uv0:findTF("unselected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setActive(slot2:Find("unselected"), true)
+			setActive(slot2:Find("selected"), false)
+		elseif slot0 == UIItemList.EventUpdate then
+			onButton(uv0, slot2, function ()
+				if uv0.selectedPackageType == uv0.packageSortList[uv1 + 1] then
+					return
+				end
+
+				setActive(uv2:Find("unselected"), false)
+				setActive(uv2:Find("selected"), true)
+
+				if uv0.prevBtn then
+					setActive(uv0.prevBtn:Find("unselected"), true)
+					setActive(uv0.prevBtn:Find("selected"), false)
+				end
+
+				uv0.prevBtn = uv2
+				uv0.selectedPackageType = slot0
+
+				uv0:updateScrollRect()
+			end, SFX_PANEL)
+		end
+	end)
 end
 
 slot0.updateItemGoodsVOList = function(slot0)
 	slot0.itemGoodsVOList = {}
+	slot0.packageSortList = {
+		0
+	}
 
 	for slot5, slot6 in pairs(pg.shop_template.all) do
 		if slot1[slot6].genre == "gem_shop" then
@@ -190,6 +246,16 @@ slot0.updateItemGoodsVOList = function(slot0)
 			table.remove(slot0.itemGoodsVOList, slot5)
 		end
 	end
+
+	for slot5, slot6 in ipairs(slot0.itemGoodsVOList) do
+		if not table.contains(slot0.packageSortList, slot1[slot6.id].package_sort_id) then
+			table.insert(slot0.packageSortList, slot7)
+		end
+	end
+
+	table.sort(slot0.packageSortList, function (slot0, slot1)
+		return slot0 < slot1
+	end)
 end
 
 slot0.sortItemGoodsVOList = function(slot0)
@@ -207,6 +273,22 @@ slot0.sortItemGoodsVOList = function(slot0)
 			return slot4 < slot5
 		end
 	end)
+end
+
+slot0.getFilterList = function(slot0)
+	if slot0.selectedPackageType == 0 then
+		return slot0.itemGoodsVOList
+	end
+
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.itemGoodsVOList) do
+		if slot6:getConfig("package_sort_id") == slot0.selectedPackageType then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
 end
 
 slot0.updateGoodsData = function(slot0)
@@ -230,9 +312,29 @@ slot0.updateData = function(slot0)
 	slot0:sortItemGoodsVOList()
 end
 
+slot0.blurView = function(slot0)
+	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
+		pbList = {
+			slot0:findTF("bg")
+		}
+	})
+end
+
+slot0.unBlurView = function(slot0)
+	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf, slot0._parentTf)
+end
+
+slot0.IsSupplyShop = function(slot0)
+	return false
+end
+
 slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
 	slot0:updateScrollRect()
+end
+
+slot0.ShowPanel = function(slot0, slot1)
+	setActive(slot0._go, slot1)
 end
 
 return slot0

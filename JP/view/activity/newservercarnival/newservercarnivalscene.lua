@@ -84,7 +84,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("gem/add_btn", slot0.resPanel), function ()
 		slot0 = function()
-			if not pg.m02:hasMediator(ChargeMediator.__cname) then
+			if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 					wrap = ChargeScene.TYPE_DIAMOND
 				})

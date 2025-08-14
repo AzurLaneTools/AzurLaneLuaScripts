@@ -9892,6 +9892,15 @@ _G.pg.base.gametip.ship_remould_warning_105234 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_107974 = {
+	tip = [[
+改造は<color=#92fc63>マストな準備事項</color>
+を消費します、改造を続けますか？
+改造すると <color=#92fc63>爆撃機枠にすべての艦載機が装備可能</color>
+スキル<color=#92fc63>【善戦のファーストライン】</color>が<color=#92fc63>【善戦のファーストライン改】に変更</color>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "近代化改修で<color=#92fc63>【戦闘機機数+1】、【攻撃機機数+1】</color>\n近代化改修を行いますか？"
 }
@@ -12231,7 +12240,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "※交換可能期間：\n<color=#FFF693>$1</color>"
+	tip = "※交換可能期間：<color=#539b2c>$1</color>"
 }
 
 
@@ -12808,7 +12817,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ユミア・リースフェルト」「ニーナ・フリーデ」「レイニャ」出現確率UP！"
+	tip = "「マッセナ」「ボア・ベロー」「デュケーヌ」出現確率UP！"
 }
 
 
@@ -40071,4 +40080,594 @@ _G.pg.base.gametip.yumia_pt_tip = {
 
 _G.pg.base.gametip.yumia_pt_4 = {
 	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.masaina_main_title = {
+	tip = "淵層界の秘密"
+}
+
+
+_G.pg.base.gametip.masaina_main_title_en = {
+	tip = "Secrets of the Abyss"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet1 = {
+	tip = "淵層界の秘密"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet2 = {
+	tip = "淵層補給地"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet3 = {
+	tip = "母港ファッション"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet4 = {
+	tip = "リズム倉庫"
+}
+
+
+_G.pg.base.gametip.masaina_main_skin_tag = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.masaina_main_other_tag = {
+	tip = "終了間近"
+}
+
+
+_G.pg.base.gametip.shop_title = {
+	tip = "ショップ"
+}
+
+
+_G.pg.base.gametip.shop_recommend = {
+	tip = "トップ"
+}
+
+
+_G.pg.base.gametip.shop_recommend_en = {
+	tip = "Recommend"
+}
+
+
+_G.pg.base.gametip.shop_skin = {
+	tip = "着せ替え"
+}
+
+
+_G.pg.base.gametip.shop_skin_en = {
+	tip = "NewClothes"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop = {
+	tip = "購買部"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop_en = {
+	tip = "Props"
+}
+
+
+_G.pg.base.gametip.shop_skin_new = {
+	tip = "期間限定"
+}
+
+
+_G.pg.base.gametip.shop_skin_permanent = {
+	tip = "人気衣装"
+}
+
+
+_G.pg.base.gametip.shop_month = {
+	tip = "マンスリー"
+}
+
+
+_G.pg.base.gametip.shop_supply = {
+	tip = "定常"
+}
+
+
+_G.pg.base.gametip.shop_activity = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_0 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_0 = {
+	tip = "AllPacks"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_1 = {
+	tip = "新規着任パック"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_1 = {
+	tip = "ForNewCommander"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_2 = {
+	tip = "レベルパック"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_2 = {
+	tip = "LevelPack"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_3 = {
+	tip = "PR艦船パック"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_3 = {
+	tip = "ResearchPack"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_day = {
+	tip = "残り$1日"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_hour = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_minute = {
+	tip = "残り$1分"
+}
+
+
+_G.pg.base.gametip.shop_refresh_time = {
+	tip = "$1後にリセット"
+}
+
+
+_G.pg.base.gametip.shop_side_lable_en = {
+	tip = "RecommendShop"
+}
+
+
+_G.pg.base.gametip.street_shop_titleen = {
+	tip = "StreetShop"
+}
+
+
+_G.pg.base.gametip.military_shop_titleen = {
+	tip = "MilitaryShop"
+}
+
+
+_G.pg.base.gametip.guild_shop_titleen = {
+	tip = "GuildShop"
+}
+
+
+_G.pg.base.gametip.meta_shop_titleen = {
+	tip = "METAShop"
+}
+
+
+_G.pg.base.gametip.mini_game_shop_titleen = {
+	tip = "GameShop"
+}
+
+
+_G.pg.base.gametip.shop_item_unlock = {
+	tip = "パック内容"
+}
+
+
+_G.pg.base.gametip.shop_item_unobtained = {
+	tip = "未入手"
+}
+
+
+_G.pg.base.gametip.beat_game_rule = {
+	tip = "ルール"
+}
+
+
+_G.pg.base.gametip.beat_game_rank = {
+	tip = "順位"
+}
+
+
+_G.pg.base.gametip.beat_game_go = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.beat_game_start = {
+	tip = "ゲーム開始"
+}
+
+
+_G.pg.base.gametip.beat_game_high_score = {
+	tip = "ハイスコア"
+}
+
+
+_G.pg.base.gametip.beat_game_current_score = {
+	tip = "スコア"
+}
+
+
+_G.pg.base.gametip.beat_game_exit_desc = {
+	tip = "現在のスコアで順位が集計されます"
+}
+
+
+_G.pg.base.gametip.musicbeat_minigame_help = {
+	tip = {
+		{
+			info = [[
+エセックス、エンタープライズと一緒に、リズムよく母校の倉庫を整理しよう！
+
+·ゲームに参加し、エセックス改造素材<b>「マストな準備事項」</b>
+·8月20日（水）まで毎日報酬が開放されます。
+
+·画面の<b><color=#F55656>左側の赤いボタン</color></b>をタップすると、アイテムを<color=#F55656><b>ぶっとばす</b></color>ことができます
+·画面の<b><color=#FAF065>右側の黄色いボタン</color></b>をタップすると、アイテムを<color=#FAF065><b>受け止める</b></color>ことができます
+·エンタープライズを指揮し、<color=#F55656><b>フルーツを全部ふっとばし</b></color>、<color=#FAF065><b>艦載機を全部受け止めましょう</b></color>！
+
+·正しい操作をするとスコアを獲得できますが、フルーツを受け止めてしまうとライフが減ります。ライフが0になると、ゲームが終了します。
+※ゲーム進行とともにスピードがどんどん上昇していきます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.masaina_pt_claimed = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.activity_shop_titleen = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.shop_diamond_title_en = {
+	tip = "Diamond"
+}
+
+
+_G.pg.base.gametip.shop_gift_title_en = {
+	tip = "Pack"
+}
+
+
+_G.pg.base.gametip.shop_item_title_en = {
+	tip = "Item"
+}
+
+
+_G.pg.base.gametip.shop_pack_empty = {
+	tip = "お得パックはありません"
+}
+
+
+_G.pg.base.gametip.shop_new_unfound = {
+	tip = "条件を満たしている着せ替えはありません"
+}
+
+
+_G.pg.base.gametip.shop_new_shop = {
+	tip = "ショップ"
+}
+
+
+_G.pg.base.gametip.shop_new_during_day = {
+	tip = "残り$1日"
+}
+
+
+_G.pg.base.gametip.shop_new_during_hour = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.shop_new_during_minite = {
+	tip = "残り$1分"
+}
+
+
+_G.pg.base.gametip.shop_new_sort = {
+	tip = "絞り込み"
+}
+
+
+_G.pg.base.gametip.shop_new_search = {
+	tip = "タップで検索"
+}
+
+
+_G.pg.base.gametip.shop_new_purchased = {
+	tip = "購入済"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase = {
+	tip = "購入"
+}
+
+
+_G.pg.base.gametip.shop_new_claim = {
+	tip = "確認へ"
+}
+
+
+_G.pg.base.gametip.shop_new_furniture = {
+	tip = "家具ショップ"
+}
+
+
+_G.pg.base.gametip.shop_new_discount = {
+	tip = "割引購入"
+}
+
+
+_G.pg.base.gametip.shop_new_try = {
+	tip = "体験"
+}
+
+
+_G.pg.base.gametip.shop_new_gift = {
+	tip = "無料"
+}
+
+
+_G.pg.base.gametip.shop_new_gem_transform = {
+	tip = "所持中の着せ替えを再度入手すると自動でダイヤに変換されます"
+}
+
+
+_G.pg.base.gametip.shop_new_review = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.shop_new_all = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.shop_new_owned = {
+	tip = "所持中"
+}
+
+
+_G.pg.base.gametip.shop_new_havent_own = {
+	tip = "未所持"
+}
+
+
+_G.pg.base.gametip.shop_new_unused = {
+	tip = "所持中未適用"
+}
+
+
+_G.pg.base.gametip.shop_new_type = {
+	tip = "タイプ"
+}
+
+
+_G.pg.base.gametip.shop_new_static = {
+	tip = "通常"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic = {
+	tip = "プチMOTION"
+}
+
+
+_G.pg.base.gametip.shop_new_static_bg = {
+	tip = "通常背景"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic_bg = {
+	tip = "特殊背景"
+}
+
+
+_G.pg.base.gametip.shop_new_bgm = {
+	tip = "BGM"
+}
+
+
+_G.pg.base.gametip.shop_new_index = {
+	tip = "ソート"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_owned = {
+	tip = "入手済艦船"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_havent_owned = {
+	tip = "未入手艦船"
+}
+
+
+_G.pg.base.gametip.shop_new_nation = {
+	tip = "陣営"
+}
+
+
+_G.pg.base.gametip.shop_new_rarity = {
+	tip = "レアリティ"
+}
+
+
+_G.pg.base.gametip.shop_new_category = {
+	tip = "艦首"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_theme = {
+	tip = "テーマ"
+}
+
+
+_G.pg.base.gametip.shop_new_confirm = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.shop_new_during_time = {
+	tip = "残り時間"
+}
+
+
+_G.pg.base.gametip.shop_new_daily = {
+	tip = "毎日"
+}
+
+
+_G.pg.base.gametip.shop_new_recommend = {
+	tip = "トップ"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_shop = {
+	tip = "着せ替え"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase_gem = {
+	tip = "ダイヤ購入"
+}
+
+
+_G.pg.base.gametip.shop_new_akashi_recommend = {
+	tip = "オススメ"
+}
+
+
+_G.pg.base.gametip.shop_new_packs = {
+	tip = "お得パック"
+}
+
+
+_G.pg.base.gametip.shop_new_props = {
+	tip = "機能購入"
+}
+
+
+_G.pg.base.gametip.shop_new_ptshop = {
+	tip = "購買部"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_new = {
+	tip = "期間限定"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_permanent = {
+	tip = "人気衣装"
+}
+
+
+_G.pg.base.gametip.shop_new_in_use = {
+	tip = "適用中"
+}
+
+
+_G.pg.base.gametip.shop_new_unable_to_use = {
+	tip = "適用不可"
+}
+
+
+_G.pg.base.gametip.shop_new_owned_skin = {
+	tip = "所持衣装"
+}
+
+
+_G.pg.base.gametip.shop_new_wear = {
+	tip = "適用"
+}
+
+
+_G.pg.base.gametip.shop_new_get_now = {
+	tip = "すぐに入手$1"
+}
+
+
+_G.pg.base.gametip.shop_new_remaining_time = {
+	tip = "購入済み　残り$1日"
+}
+
+
+_G.pg.base.gametip.shop_new_remove = {
+	tip = "$1後に販売終了"
+}
+
+
+_G.pg.base.gametip.shop_new_retro = {
+	tip = "復刻"
+}
+
+
+_G.pg.base.gametip.shop_new_able_to_exchange = {
+	tip = "交換可能衣装"
+}
+
+
+_G.pg.base.gametip.shop_countdown = {
+	tip = "$1日$2時間$3分後に終了"
+}
+
+
+_G.pg.base.gametip.quota_shop_title1en = {
+	tip = "Core(Ltd.)"
+}
+
+
+_G.pg.base.gametip.sham_shop_titleen = {
+	tip = "Core(Mo.)"
+}
+
+
+_G.pg.base.gametip.medal_shop_titleen = {
+	tip = "Medal"
+}
+
+
+_G.pg.base.gametip.fragment_shop_titleen = {
+	tip = "Proto"
+}
+
+
+_G.pg.base.gametip.shop_fragment_resolve = {
+	tip = "強化ユニット分解"
+}
+
+
+_G.pg.base.gametip.beat_game_my_record = {
+	tip = "自己順位"
 }

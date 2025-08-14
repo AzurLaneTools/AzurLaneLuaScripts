@@ -174,12 +174,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの……ユミアさん！",
 			typewriter = {
 				speed = 0.05,
@@ -378,12 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ま、まだここの状況もわかりませんし、土地勘もありません……！！一旦逃げた方がいいかもしれないですっ！！",
 			typewriter = {
 				speed = 0.05,

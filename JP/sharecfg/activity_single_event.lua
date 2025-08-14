@@ -1629,6 +1629,1203 @@ pg.activity_single_event = {
 		},
 		options = {}
 	},
+	[3001] = {
+		story_type = 1,
+		name = "EP1-1 いきなり卒業式！？",
+		pre_event = 0,
+		type = 1,
+		story = "QIYUANXIADEMIMI2",
+		mode = 1,
+		id = 3001,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"9"
+			},
+			{
+				2001,
+				"500"
+			},
+			{
+				2002,
+				"250"
+			},
+			{
+				2003,
+				"100"
+			},
+			{
+				2004,
+				"90"
+			},
+			{
+				2005,
+				"21"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			}
+		}
+	},
+	[3002] = {
+		story_type = 1,
+		name = "EP1-2 初めての淵層",
+		pre_event = 3001,
+		type = 1,
+		story = "QIYUANXIADEMIMI3",
+		mode = 1,
+		id = 3002,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3003] = {
+		story_type = 1,
+		name = "EP1-3 またしても卒業式？",
+		pre_event = 3002,
+		type = 1,
+		story = "QIYUANXIADEMIMI4",
+		mode = 1,
+		id = 3003,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"20"
+			},
+			{
+				2001,
+				"2000"
+			},
+			{
+				2002,
+				"500"
+			},
+			{
+				2003,
+				"420"
+			},
+			{
+				2004,
+				"320"
+			},
+			{
+				2005,
+				"32"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			}
+		}
+	},
+	[3004] = {
+		story_type = 1,
+		name = "EP1-4 再び旅立ちへ",
+		pre_event = 3003,
+		type = 1,
+		story = "QIYUANXIADEMIMI5",
+		mode = 1,
+		id = 3004,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3005] = {
+		story_type = 1,
+		name = "EP2-1 アイススロート峡谷",
+		pre_event = 3004,
+		type = 1,
+		story = "QIYUANXIADEMIMI6",
+		mode = 1,
+		id = 3005,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3006] = {
+		story_type = 1,
+		name = "EP2-2 極光の地",
+		pre_event = 3005,
+		type = 1,
+		story = "QIYUANXIADEMIMI7",
+		mode = 1,
+		id = 3006,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"33"
+			},
+			{
+				2001,
+				"3870"
+			},
+			{
+				2002,
+				"3000"
+			},
+			{
+				2003,
+				"600"
+			},
+			{
+				2004,
+				"510"
+			},
+			{
+				2005,
+				"45"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3161,
+				"B"
+			}
+		}
+	},
+	[3007] = {
+		story_type = 1,
+		name = "EP2-3 罠",
+		pre_event = 3006,
+		type = 1,
+		story = "QIYUANXIADEMIMI8",
+		mode = 1,
+		id = 3007,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3008] = {
+		story_type = 1,
+		name = "EP2-4 再開",
+		pre_event = 3007,
+		type = 1,
+		story = "QIYUANXIADEMIMI9",
+		mode = 1,
+		id = 3008,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3009] = {
+		story_type = 1,
+		name = "EP2-5 過去",
+		pre_event = 3008,
+		type = 1,
+		story = "QIYUANXIADEMIMI10",
+		mode = 1,
+		id = 3009,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"100"
+			},
+			{
+				2001,
+				"11700"
+			},
+			{
+				2002,
+				"10000"
+			},
+			{
+				2003,
+				"1400"
+			},
+			{
+				2004,
+				"1800"
+			},
+			{
+				2005,
+				"112"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3161,
+				"B"
+			},
+			{
+				3192,
+				"C"
+			}
+		}
+	},
+	[3010] = {
+		story_type = 1,
+		name = "EP2-6 古の贈り物",
+		pre_event = 3009,
+		type = 1,
+		story = "QIYUANXIADEMIMI11",
+		mode = 1,
+		id = 3010,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"137"
+			},
+			{
+				2001,
+				"14000"
+			},
+			{
+				2002,
+				"11000"
+			},
+			{
+				2003,
+				"1500"
+			},
+			{
+				2004,
+				"2000"
+			},
+			{
+				2005,
+				"149"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3161,
+				"B"
+			},
+			{
+				3192,
+				"SSS"
+			}
+		}
+	},
+	[3011] = {
+		story_type = 1,
+		name = "EP2-7 寒冬要塞",
+		pre_event = 3010,
+		type = 1,
+		story = "QIYUANXIADEMIMI12",
+		mode = 1,
+		id = 3011,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3012] = {
+		story_type = 2,
+		name = "EP3-1 瘴気の沼地の戦",
+		pre_event = 3011,
+		type = 1,
+		story = "1956001",
+		mode = 1,
+		id = 3012,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"298"
+			},
+			{
+				2001,
+				"97000"
+			},
+			{
+				2002,
+				"79600"
+			},
+			{
+				2003,
+				"2200"
+			},
+			{
+				2004,
+				"2700"
+			},
+			{
+				2005,
+				"310"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3161,
+				"B"
+			},
+			{
+				3192,
+				"SSS"
+			}
+		}
+	},
+	[3013] = {
+		story_type = 1,
+		name = "EP3-2 魔法使いの野営地",
+		pre_event = 3012,
+		type = 1,
+		story = "QIYUANXIADEMIMI14",
+		mode = 1,
+		id = 3013,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"300"
+			},
+			{
+				2001,
+				"100000"
+			},
+			{
+				2002,
+				"80000"
+			},
+			{
+				2003,
+				"2210"
+			},
+			{
+				2004,
+				"2710"
+			},
+			{
+				2005,
+				"312"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3014] = {
+		story_type = 1,
+		name = "EP3-3 同盟の調印式",
+		pre_event = 3013,
+		type = 1,
+		story = "QIYUANXIADEMIMI15",
+		mode = 1,
+		id = 3014,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3015] = {
+		story_type = 2,
+		name = "EP3-4 交渉の異変",
+		pre_event = 3014,
+		type = 1,
+		story = "1956002",
+		mode = 1,
+		id = 3015,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"345"
+			},
+			{
+				2001,
+				"185000"
+			},
+			{
+				2002,
+				"137000"
+			},
+			{
+				2003,
+				"2400"
+			},
+			{
+				2004,
+				"2970"
+			},
+			{
+				2005,
+				"357"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3001,
+				"B"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3016] = {
+		story_type = 1,
+		name = "EP3-5 予言の子",
+		pre_event = 3015,
+		type = 1,
+		story = "QIYUANXIADEMIMI17",
+		mode = 1,
+		id = 3016,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3017] = {
+		story_type = 2,
+		name = "EP4-1 忘れ去られた地",
+		pre_event = 3016,
+		type = 1,
+		story = "1956003",
+		mode = 1,
+		id = 3017,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"370"
+			},
+			{
+				2001,
+				"217000"
+			},
+			{
+				2002,
+				"197000"
+			},
+			{
+				2003,
+				"2450"
+			},
+			{
+				2004,
+				"3050"
+			},
+			{
+				2005,
+				"382"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3002,
+				"SSS"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3018] = {
+		story_type = 1,
+		name = "EP4-2 不落の要塞",
+		pre_event = 3017,
+		type = 1,
+		story = "QIYUANXIADEMIMI19",
+		mode = 1,
+		id = 3018,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3019] = {
+		story_type = 2,
+		name = "EP4-3 幻影の境",
+		pre_event = 3018,
+		type = 1,
+		story = "1956004",
+		mode = 1,
+		id = 3019,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"450"
+			},
+			{
+				2001,
+				"560000"
+			},
+			{
+				2002,
+				"526000"
+			},
+			{
+				2003,
+				"3010"
+			},
+			{
+				2004,
+				"4500"
+			},
+			{
+				2005,
+				"462"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3002,
+				"SSS"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3020] = {
+		story_type = 1,
+		name = "EP4-4 黎明の終戦",
+		pre_event = 3019,
+		type = 1,
+		story = "QIYUANXIADEMIMI21",
+		mode = 1,
+		id = 3020,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3021] = {
+		story_type = 1,
+		name = "EP4-5 神殿の探索",
+		pre_event = 3020,
+		type = 1,
+		story = "QIYUANXIADEMIMI22",
+		mode = 1,
+		id = 3021,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3022] = {
+		story_type = 1,
+		name = "EP4-6 覚醒する記憶",
+		pre_event = 3021,
+		type = 1,
+		story = "QIYUANXIADEMIMI23",
+		mode = 1,
+		id = 3022,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"570"
+			},
+			{
+				2001,
+				"600000"
+			},
+			{
+				2002,
+				"580000"
+			},
+			{
+				2003,
+				"4800"
+			},
+			{
+				2004,
+				"5740"
+			},
+			{
+				2005,
+				"582"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3002,
+				"SSS"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3023] = {
+		story_type = 1,
+		name = "EP4-7 寂滅の魔法塔",
+		pre_event = 3022,
+		type = 1,
+		story = "QIYUANXIADEMIMI24",
+		mode = 1,
+		id = 3023,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3024] = {
+		story_type = 1,
+		name = "EP4-8 過ぎ去りし時代",
+		pre_event = 3023,
+		type = 1,
+		story = "QIYUANXIADEMIMI25",
+		mode = 1,
+		id = 3024,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3025] = {
+		story_type = 1,
+		name = "EP4-9 眠りの地",
+		pre_event = 3024,
+		type = 1,
+		story = "QIYUANXIADEMIMI26",
+		mode = 1,
+		id = 3025,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"900"
+			},
+			{
+				2001,
+				"900000"
+			},
+			{
+				2002,
+				"900000"
+			},
+			{
+				2003,
+				"9000"
+			},
+			{
+				2004,
+				"9000"
+			},
+			{
+				2005,
+				"912"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3002,
+				"SSS"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3026] = {
+		story_type = 1,
+		name = "EP5-1 反攻の狼煙",
+		pre_event = 3025,
+		type = 1,
+		story = "QIYUANXIADEMIMI27",
+		mode = 1,
+		id = 3026,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
+	[3027] = {
+		story_type = 2,
+		name = "EP5-2 アズィル城の戦い",
+		pre_event = 3026,
+		type = 1,
+		story = "1956005",
+		mode = 1,
+		id = 3027,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {
+			{
+				1002,
+				"999"
+			},
+			{
+				2001,
+				"999999"
+			},
+			{
+				2002,
+				"999999"
+			},
+			{
+				2003,
+				"9999"
+			},
+			{
+				2004,
+				"9999"
+			},
+			{
+				2005,
+				"999"
+			},
+			{
+				2006,
+				"750"
+			},
+			{
+				3000,
+				"C"
+			},
+			{
+				3002,
+				"SSS"
+			},
+			{
+				3003,
+				"SSS"
+			},
+			{
+				3004,
+				"SSS"
+			},
+			{
+				3005,
+				"SSS"
+			},
+			{
+				3168,
+				"SSS"
+			},
+			{
+				3192,
+				"SSS"
+			},
+			{
+				3193,
+				"SSS"
+			}
+		}
+	},
+	[3028] = {
+		story_type = 1,
+		name = "EP5-3 終結と新生",
+		pre_event = 3027,
+		type = 1,
+		story = "QIYUANXIADEMIMI29",
+		mode = 1,
+		id = 3028,
+		icon = "tag_story_main",
+		map_options = "1",
+		pos = {
+			0,
+			0
+		},
+		options = {}
+	},
 	all = {
 		1001,
 		1002,
@@ -1669,6 +2866,34 @@ pg.activity_single_event = {
 		2011,
 		2012,
 		2013,
-		2014
+		2014,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3016,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3027,
+		3028
 	}
 }

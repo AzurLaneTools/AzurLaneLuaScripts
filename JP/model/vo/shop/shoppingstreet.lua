@@ -112,4 +112,20 @@ slot0.getGoodsById = function(slot0, slot1)
 	end
 end
 
+slot0.GetResList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.goods) do
+		slot1[slot6:getConfig("resource_type")] = true
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		table.insert(slot2, slot6)
+	end
+
+	return slot2
+end
+
 return slot0

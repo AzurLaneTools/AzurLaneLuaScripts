@@ -37,8 +37,20 @@ slot0.getBGM = function(slot0)
 			if uv0.contextData.map:getConfig("ani_controller") and #slot1 > 0 then
 				for slot5, slot6 in ipairs(slot1) do
 					for slot11, slot12 in ipairs(_.rest(slot6[2], 2)) do
-						if string.find(slot12, "^bgm_") and slot6[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot6[2][1]) and not slot14:isClear() then
-							return string.sub(slot12, 5)
+						if string.find(slot12, "^bgm_") and slot6[1] == uv1 then
+							slot14 = false
+
+							for slot18, slot19 in ipairs(slot6[2][1]) do
+								if chapterProxy:GetChapterItemById(slot19) and slot20:isClear() then
+									slot14 = true
+
+									break
+								end
+							end
+
+							if not slot14 then
+								return string.sub(slot12, 5)
+							end
 						end
 					end
 				end
@@ -769,6 +781,12 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
+	if slot0.contextData.map and slot0.contextData.map:getConfig("ui_type") == MapBuilder.TYPEEXSP and slot0.mapBuilder.personalPage:IsActive() then
+		slot0.mapBuilder.personalPage:Hide()
+
+		return
+	end
+
 	if isActive(slot0.helpPage) then
 		setActive(slot0.helpPage, false)
 
@@ -1030,32 +1048,38 @@ slot0.updateCouldAnimator = function(slot0, slot1, slot2)
 		slot0.localScale = slot1
 
 		if uv0 and #uv0 > 0 then
+			slot2 = getProxy(ChapterProxy)
+
 			(function ()
 				for slot3, slot4 in ipairs(uv0) do
-					if slot4[1] == uv1 then
-						slot5 = slot4[2][1]
+					slot5 = false
 
-						for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
-								setActive(slot12, false)
+					for slot10, slot11 in ipairs(slot4[2][1]) do
+						if uv1:GetChapterItemById(slot11) and slot12:isClear() then
+							slot5 = true
+
+							break
+						end
+					end
+
+					if slot4[1] == uv2 then
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, false)
 							end
 						end
-					elseif slot4[1] == uv3 then
-						slot5 = slot4[2][1]
-
-						for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
-								setActive(slot12, true)
+					elseif slot4[1] == uv4 then
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, true)
 
 								return
 							end
 						end
-					elseif slot4[1] == uv4 then
-						slot5 = slot4[2][1]
-
-						for slot10, slot11 in ipairs(_.rest(slot4[2], 2)) do
-							if not IsNil(uv2:Find(slot11)) and getProxy(ChapterProxy):GetChapterItemById(slot5) and not slot13:isClear() then
-								setActive(slot12, true)
+					elseif slot4[1] == uv5 then
+						for slot11, slot12 in ipairs(_.rest(slot4[2], 2)) do
+							if not IsNil(uv3:Find(slot12)) and not slot5 then
+								setActive(slot13, true)
 							end
 						end
 					end
@@ -1559,7 +1583,8 @@ slot6 = {
 	[slot5.TYPESPFULL] = "MapBuilderSPFull",
 	[slot5.TYPESPSERIES] = "MapBuilderSPSeries",
 	[slot5.TYPESPSERIESFULL] = "MapBuilderSPSeriesFull",
-	[slot5.TYPEATELIERYUMIA] = "MapBuilderAtelierYumia"
+	[slot5.TYPEATELIERYUMIA] = "MapBuilderAtelierYumia",
+	[slot5.TYPEEXSP] = "MapBuilderEXSP"
 }
 
 slot0.SwitchMapBuilder = function(slot0, slot1)
@@ -2406,12 +2431,26 @@ slot0.GetMapElement = function(slot0, slot1)
 
 	if slot1:getConfig("ani_controller") and #slot3 > 0 then
 		(function ()
-			for slot3, slot4 in ipairs(uv0) do
-				for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
-					if string.find(slot10, "^map_") and slot4[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot4[2][1]) and not slot12:isClear() then
-						uv2 = slot10
+			slot0 = getProxy(ChapterProxy)
 
-						return
+			for slot4, slot5 in ipairs(uv0) do
+				for slot10, slot11 in ipairs(_.rest(slot5[2], 2)) do
+					if string.find(slot11, "^map_") and slot5[1] == uv1 then
+						slot13 = false
+
+						for slot17, slot18 in ipairs(slot5[2][1]) do
+							if slot0:GetChapterItemById(slot18) and slot19:isClear() then
+								slot13 = true
+
+								break
+							end
+						end
+
+						if not slot13 then
+							uv2 = slot11
+
+							return
+						end
 					end
 				end
 			end
@@ -2433,12 +2472,26 @@ slot0.GetMapAnimator = function(slot0, slot1)
 	if slot1:getConfig("animtor") == 1 and slot2 and #slot2 > 0 then
 		if slot1:getConfig("ani_controller") and #slot3 > 0 then
 			(function ()
-				for slot3, slot4 in ipairs(uv0) do
-					for slot9, slot10 in ipairs(_.rest(slot4[2], 2)) do
-						if string.find(slot10, "^effect_") and slot4[1] == uv1 and getProxy(ChapterProxy):GetChapterItemById(slot4[2][1]) and not slot12:isClear() then
-							uv2 = "map_" .. string.sub(slot10, 8)
+				slot0 = getProxy(ChapterProxy)
 
-							return
+				for slot4, slot5 in ipairs(uv0) do
+					for slot10, slot11 in ipairs(_.rest(slot5[2], 2)) do
+						if string.find(slot11, "^effect_") and slot5[1] == uv1 then
+							slot13 = false
+
+							for slot17, slot18 in ipairs(slot5[2][1]) do
+								if slot0:GetChapterItemById(slot18) and slot19:isClear() then
+									slot13 = true
+
+									break
+								end
+							end
+
+							if not slot13 then
+								uv2 = "map_" .. string.sub(slot11, 8)
+
+								return
+							end
 						end
 					end
 				end

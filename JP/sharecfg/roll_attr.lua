@@ -3418,6 +3418,566 @@ pg.roll_attr = {
 			"SSS"
 		}
 	},
+	[3194] = {
+		ID = 3194,
+		name = "自然の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3195] = {
+		ID = 3195,
+		name = "生命の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3196] = {
+		ID = 3196,
+		name = "雷の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3197] = {
+		ID = 3197,
+		name = "電の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3198] = {
+		ID = 3198,
+		name = "大冒険の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3199] = {
+		ID = 3199,
+		name = "マジックトリック",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3200] = {
+		ID = 3200,
+		name = "安神の術",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3201] = {
+		ID = 3201,
+		name = "艦砲斉射",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3202] = {
+		ID = 3202,
+		name = "魚雷斉射",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3203] = {
+		ID = 3203,
+		name = "飽和爆撃",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3204] = {
+		ID = 3204,
+		name = "マインドスピア",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3205] = {
+		ID = 3205,
+		name = "シャドウストーム",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3206] = {
+		ID = 3206,
+		name = "永続光",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3207] = {
+		ID = 3207,
+		name = "次元門",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3208] = {
+		ID = 3208,
+		name = "サモンヘヴンリー",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3209] = {
+		ID = 3209,
+		name = "ヒール",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3210] = {
+		ID = 3210,
+		name = "マインドバリア",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3211] = {
+		ID = 3211,
+		name = "イリュージョン",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3212] = {
+		ID = 3212,
+		name = "蜃気楼の術",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3213] = {
+		ID = 3213,
+		name = "金縛りの術",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3214] = {
+		ID = 3214,
+		name = "異界門",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3215] = {
+		ID = 3215,
+		name = "サクリファイスジェイル",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3216] = {
+		ID = 3216,
+		name = "フィーブルマインド",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3217] = {
+		ID = 3217,
+		name = "ブライト",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3218] = {
+		ID = 3218,
+		name = "予見の術",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3219] = {
+		ID = 3219,
+		name = "マスヒール",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3220] = {
+		ID = 3220,
+		name = "魔姫の口づけ",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3221] = {
+		ID = 3221,
+		name = "冬将軍の怒り",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3222] = {
+		ID = 3222,
+		name = "古代ゴーレム召喚",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3223] = {
+		ID = 3223,
+		name = "三賢者の光",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3224] = {
+		ID = 3224,
+		name = "古代の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3225] = {
+		ID = 3225,
+		name = "パスファインディング",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3226] = {
+		ID = 3226,
+		name = "地図制作",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3227] = {
+		ID = 3227,
+		name = "饅頭スライム召喚",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3228] = {
+		ID = 3228,
+		name = "純白の加護",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3639,6 +4199,41 @@ pg.roll_attr = {
 		3189,
 		3190,
 		3192,
-		3193
+		3193,
+		3194,
+		3195,
+		3196,
+		3197,
+		3198,
+		3199,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3211,
+		3212,
+		3213,
+		3214,
+		3215,
+		3216,
+		3217,
+		3218,
+		3219,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228
 	}
 }

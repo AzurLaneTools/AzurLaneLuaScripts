@@ -188,7 +188,7 @@ pg.base.pay_data_display = {
 		picture = "month",
 		name = "貿易許可証（30日間）",
 		type = 0,
-		limit_arg = 7,
+		second_text = "30日間毎日入手",
 		descrip = "ダイヤ$1個+30日間毎日資源が貰える",
 		subject = "貿易許可証（30日間）",
 		first_pay_double = 0,
@@ -199,7 +199,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 1,
+		limit_arg = 7,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi102",
@@ -207,6 +209,7 @@ pg.base.pay_data_display = {
 		id = 1,
 		airijp_id = "com.yostarjp.azurlane.passport1",
 		name_display = "貿易許可証（30日間）",
+		first_text = "すぐに入手",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -266,13 +269,20 @@ pg.base.pay_data_display = {
 				20001,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				500
+			}
 		}
 	},
 	{
 		picture = "boxNewplayer",
 		name = "新規着任パック",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤなどのアイテムを入手可能",
 		subject = "新規着任パック",
 		first_pay_double = 0,
@@ -281,9 +291,12 @@ pg.base.pay_data_display = {
 		money = 160,
 		descrip_extra = "",
 		limit_group = 0,
-		package_tag = "新人 ",
+		package_tag = "新人",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi101",
@@ -291,6 +304,7 @@ pg.base.pay_data_display = {
 		id = 2,
 		airijp_id = "com.yostarjp.azurlane.diamond101",
 		name_display = "新規着任パック",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -346,7 +360,7 @@ pg.base.pay_data_display = {
 		picture = "1",
 		name = "ダイヤ一摘み",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一摘み",
 		first_pay_double = 1,
@@ -357,7 +371,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi1",
@@ -365,6 +382,7 @@ pg.base.pay_data_display = {
 		id = 3,
 		airijp_id = "com.yostarjp.azurlane.diamond1",
 		name_display = "ダイヤ一摘み",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -382,7 +400,7 @@ pg.base.pay_data_display = {
 		picture = "2",
 		name = "ダイヤ一握り",
 		type = 0,
-		limit_arg = 10,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一握り",
 		first_pay_double = 1,
@@ -393,7 +411,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 99,
+		first_icon = "",
+		limit_arg = 10,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi2",
@@ -401,6 +422,7 @@ pg.base.pay_data_display = {
 		id = 4,
 		airijp_id = "com.yostarjp.azurlane.diamond2",
 		name_display = "ダイヤ一握り",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -418,7 +440,7 @@ pg.base.pay_data_display = {
 		picture = "3",
 		name = "ダイヤ一袋",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一袋",
 		first_pay_double = 1,
@@ -429,7 +451,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi3",
@@ -437,6 +462,7 @@ pg.base.pay_data_display = {
 		id = 5,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		name_display = "ダイヤ一袋",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -454,7 +480,7 @@ pg.base.pay_data_display = {
 		picture = "4",
 		name = "ダイヤ小箱",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ小箱",
 		first_pay_double = 1,
@@ -465,7 +491,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi4",
@@ -473,6 +502,7 @@ pg.base.pay_data_display = {
 		id = 6,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		name_display = "ダイヤ小箱",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -490,7 +520,7 @@ pg.base.pay_data_display = {
 		picture = "5",
 		name = "ダイヤ大箱",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ大箱",
 		first_pay_double = 1,
@@ -501,7 +531,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi5",
@@ -509,6 +542,7 @@ pg.base.pay_data_display = {
 		id = 7,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		name_display = "ダイヤ大箱",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -526,7 +560,7 @@ pg.base.pay_data_display = {
 		picture = "6",
 		name = "ダイヤ一船",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "+おまけ$1個",
 		subject = "ダイヤ一船",
 		first_pay_double = 1,
@@ -537,7 +571,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 0,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi6",
@@ -545,6 +582,7 @@ pg.base.pay_data_display = {
 		id = 8,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		name_display = "ダイヤ一船",
+		first_text = "",
 		akashi_pick = 0,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -562,7 +600,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
 		first_pay_double = 0,
@@ -573,7 +611,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi103",
@@ -581,6 +622,7 @@ pg.base.pay_data_display = {
 		id = 9,
 		airijp_id = "com.yostarjp.azurlane.diamond103",
 		name_display = "福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -676,7 +718,7 @@ pg.base.pay_data_display = {
 		picture = "box-act",
 		name = "新生活キャンペｰン",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "など6つのアイテム",
 		subject = "新生活キャンペｰン",
 		first_pay_double = 0,
@@ -687,7 +729,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi104",
@@ -695,6 +740,7 @@ pg.base.pay_data_display = {
 		id = 10,
 		airijp_id = "com.yostarjp.azurlane.diamond104",
 		name_display = "新生活キャンペｰン",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -790,7 +836,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "一周年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
 		first_pay_double = 0,
@@ -801,7 +847,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi108",
@@ -809,6 +858,7 @@ pg.base.pay_data_display = {
 		id = 11,
 		airijp_id = "com.yostarjp.azurlane.diamond105",
 		name_display = "一周年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -904,7 +954,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "福袋2019",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月シリーズの着せ替え衣装を入手可能",
 		subject = "福袋2019",
 		first_pay_double = 0,
@@ -915,7 +965,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi109",
@@ -923,6 +976,7 @@ pg.base.pay_data_display = {
 		id = 12,
 		airijp_id = "com.yostarjp.azurlane.diamond106",
 		name_display = "福袋2019",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1018,7 +1072,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "春節福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
 		first_pay_double = 0,
@@ -1029,7 +1083,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi110",
@@ -1037,6 +1094,7 @@ pg.base.pay_data_display = {
 		id = 13,
 		airijp_id = "com.yostarjp.azurlane.diamond107",
 		name_display = "春節福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1132,7 +1190,7 @@ pg.base.pay_data_display = {
 		picture = "lihe1_l",
 		name = "福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "福袋",
 		first_pay_double = 0,
@@ -1143,7 +1201,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi111",
@@ -1151,6 +1212,7 @@ pg.base.pay_data_display = {
 		id = 14,
 		airijp_id = "com.yostarjp.azurlane.diamond108",
 		name_display = "福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1246,7 +1308,7 @@ pg.base.pay_data_display = {
 		picture = "lihe2_l",
 		name = "二週年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
 		subject = "二週年福袋",
 		first_pay_double = 0,
@@ -1257,7 +1319,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi113",
@@ -1265,6 +1330,7 @@ pg.base.pay_data_display = {
 		id = 15,
 		airijp_id = "com.yostarjp.azurlane.diamond109",
 		name_display = "二週年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1360,7 +1426,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "新年福袋2020",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020",
 		first_pay_double = 0,
@@ -1371,7 +1437,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi118",
@@ -1379,6 +1448,7 @@ pg.base.pay_data_display = {
 		id = 16,
 		airijp_id = "com.yostarjp.azurlane.diamond110",
 		name_display = "新年福袋2020",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1479,7 +1549,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "新年福袋復刻(2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋復刻(2019)",
 		first_pay_double = 0,
@@ -1490,7 +1560,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi119",
@@ -1498,6 +1571,7 @@ pg.base.pay_data_display = {
 		id = 17,
 		airijp_id = "com.yostarjp.azurlane.diamond111",
 		name_display = "新年福袋復刻(2019)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1593,7 +1667,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "春節福袋2020",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020",
 		first_pay_double = 0,
@@ -1604,7 +1678,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi120",
@@ -1612,6 +1689,7 @@ pg.base.pay_data_display = {
 		id = 18,
 		airijp_id = "com.yostarjp.azurlane.diamond112",
 		name_display = "春節福袋2020",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1712,7 +1790,7 @@ pg.base.pay_data_display = {
 		picture = "fudai",
 		name = "春節福袋復刻(2019)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋復刻(2019)",
 		first_pay_double = 0,
@@ -1723,7 +1801,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi121",
@@ -1731,6 +1812,7 @@ pg.base.pay_data_display = {
 		id = 19,
 		airijp_id = "com.yostarjp.azurlane.diamond113",
 		name_display = "春節福袋復刻(2019)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -1826,7 +1908,7 @@ pg.base.pay_data_display = {
 		picture = "support1",
 		name = "着任応援パック・Ⅰ",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+資源",
 		descrip = "ダイヤ×180、燃料貯蔵箱(1000)×2などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅰ",
 		first_pay_double = 0,
@@ -1837,7 +1919,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao101",
@@ -1845,6 +1929,7 @@ pg.base.pay_data_display = {
 		id = 20,
 		airijp_id = "com.yostarjp.azurlane.package101",
 		name_display = "着任応援パック・Ⅰ",
+		first_text = "ダイヤ入手",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -1919,13 +2004,20 @@ pg.base.pay_data_display = {
 				40012,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				180
+			}
 		}
 	},
 	{
 		picture = "support2",
 		name = "着任応援パック・Ⅱ",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+資源",
 		descrip = "ダイヤ×780、SSR選択装備箱×2、燃料貯蔵箱(1000)×4などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅱ",
 		first_pay_double = 0,
@@ -1936,7 +2028,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao102",
@@ -1944,6 +2038,7 @@ pg.base.pay_data_display = {
 		id = 21,
 		airijp_id = "com.yostarjp.azurlane.package102",
 		name_display = "着任応援パック・Ⅱ",
+		first_text = "ダイヤ入手",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -2043,13 +2138,20 @@ pg.base.pay_data_display = {
 				40013,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				780
+			}
 		}
 	},
 	{
 		picture = "support3",
 		name = "着任応援パック・Ⅲ",
 		type = 0,
-		limit_arg = 1,
+		second_text = "+資源",
 		descrip = "ダイヤ×1680、SSR選択装備箱×4、燃料貯蔵箱(1000)×8などのアイテムを入手可能",
 		subject = "着任応援パック・Ⅲ",
 		first_pay_double = 0,
@@ -2060,7 +2162,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao103",
@@ -2068,6 +2172,7 @@ pg.base.pay_data_display = {
 		id = 22,
 		airijp_id = "com.yostarjp.azurlane.package103",
 		name_display = "着任応援パック・Ⅲ",
+		first_text = "ダイヤ入手",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -2172,13 +2277,20 @@ pg.base.pay_data_display = {
 				40014,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				1680
+			}
 		}
 	},
 	{
 		picture = "lihe3_l",
 		name = "福袋（夏2020）",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋（夏2020）",
 		first_pay_double = 0,
@@ -2189,7 +2301,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi122",
@@ -2197,6 +2312,7 @@ pg.base.pay_data_display = {
 		id = 23,
 		airijp_id = "com.yostarjp.azurlane.diamond114",
 		name_display = "福袋（夏2020）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2297,7 +2413,7 @@ pg.base.pay_data_display = {
 		picture = "lihe4_l",
 		name = "三周年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "三周年福袋",
 		first_pay_double = 0,
@@ -2308,7 +2424,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi123",
@@ -2316,6 +2435,7 @@ pg.base.pay_data_display = {
 		id = 24,
 		airijp_id = "com.yostarjp.azurlane.diamond115",
 		name_display = "三周年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2416,7 +2536,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "新年福袋2021",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2021",
 		first_pay_double = 0,
@@ -2427,7 +2547,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi124",
@@ -2435,6 +2558,7 @@ pg.base.pay_data_display = {
 		id = 25,
 		airijp_id = "com.yostarjp.azurlane.diamond116",
 		name_display = "新年福袋2021",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2535,7 +2659,7 @@ pg.base.pay_data_display = {
 		picture = "fudai1",
 		name = "新年福袋2020(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2020(復刻)",
 		first_pay_double = 0,
@@ -2546,7 +2670,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi125",
@@ -2554,6 +2681,7 @@ pg.base.pay_data_display = {
 		id = 26,
 		airijp_id = "com.yostarjp.azurlane.diamond117",
 		name_display = "新年福袋2020(復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2654,7 +2782,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "春節福袋2021",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2021",
 		first_pay_double = 0,
@@ -2665,7 +2793,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi126",
@@ -2673,6 +2804,7 @@ pg.base.pay_data_display = {
 		id = 27,
 		airijp_id = "com.yostarjp.azurlane.diamond118",
 		name_display = "春節福袋2021",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2773,7 +2905,7 @@ pg.base.pay_data_display = {
 		picture = "fudai2",
 		name = "春節福袋2020(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2020(復刻)",
 		first_pay_double = 0,
@@ -2784,7 +2916,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi127",
@@ -2792,6 +2927,7 @@ pg.base.pay_data_display = {
 		id = 28,
 		airijp_id = "com.yostarjp.azurlane.diamond119",
 		name_display = "春節福袋2020(復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -2892,7 +3028,7 @@ pg.base.pay_data_display = {
 		picture = "lihe6_l",
 		name = "福袋(夏2021)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
 		subject = "四周年礼盒",
 		first_pay_double = 0,
@@ -2903,7 +3039,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi128",
@@ -2911,6 +3050,7 @@ pg.base.pay_data_display = {
 		id = 29,
 		airijp_id = "com.yostarjp.azurlane.diamond120",
 		name_display = "福袋(夏2021)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3011,7 +3151,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "福袋(夏2020) (復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
 		subject = "三周年礼盒复刻",
 		first_pay_double = 0,
@@ -3022,7 +3162,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi129",
@@ -3030,6 +3173,7 @@ pg.base.pay_data_display = {
 		id = 30,
 		airijp_id = "com.yostarjp.azurlane.diamond121",
 		name_display = "福袋(夏2020) (復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3130,7 +3274,7 @@ pg.base.pay_data_display = {
 		picture = "support4",
 		name = "着任応援パック・Ⅳ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "+資源",
 		descrip = "ダイヤ×1980、兵装開発専用①・選択装備箱×1などのアイテムを入手可能！",
 		subject = "着任応援パック・Ⅳ",
 		first_pay_double = 0,
@@ -3141,7 +3285,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi130",
@@ -3149,6 +3295,7 @@ pg.base.pay_data_display = {
 		id = 31,
 		airijp_id = "com.yostarjp.azurlane.diamond122",
 		name_display = "着任応援パック・Ⅳ",
+		first_text = "ダイヤ入手",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -3219,9 +3366,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1980
+				2,
+				14004,
+				25
 			},
 			{
 				2,
@@ -3243,13 +3390,20 @@ pg.base.pay_data_display = {
 				40015,
 				1
 			}
+		},
+		first_icon = {
+			{
+				1,
+				14,
+				1980
+			}
 		}
 	},
 	{
 		picture = "lihe6_l",
 		name = "四周年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "四周年福袋",
 		first_pay_double = 0,
@@ -3260,7 +3414,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi131",
@@ -3268,6 +3425,7 @@ pg.base.pay_data_display = {
 		id = 32,
 		airijp_id = "com.yostarjp.azurlane.diamond123",
 		name_display = "四周年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3368,7 +3526,7 @@ pg.base.pay_data_display = {
 		picture = "lihe3_l",
 		name = "三周年福袋 (復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "三周年福袋 (復刻)",
 		first_pay_double = 0,
@@ -3379,7 +3537,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi132",
@@ -3387,6 +3548,7 @@ pg.base.pay_data_display = {
 		id = 33,
 		airijp_id = "com.yostarjp.azurlane.diamond124",
 		name_display = "三周年福袋 (復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3487,7 +3649,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "新年福袋2022",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2022シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2022",
 		first_pay_double = 0,
@@ -3498,7 +3660,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi133",
@@ -3506,6 +3671,7 @@ pg.base.pay_data_display = {
 		id = 34,
 		airijp_id = "com.yostarjp.azurlane.diamond125",
 		name_display = "新年福袋2022",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3606,7 +3772,7 @@ pg.base.pay_data_display = {
 		picture = "fudai3",
 		name = "新年福袋2021(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2021(復刻)",
 		first_pay_double = 0,
@@ -3617,7 +3783,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi134",
@@ -3625,6 +3794,7 @@ pg.base.pay_data_display = {
 		id = 35,
 		airijp_id = "com.yostarjp.azurlane.diamond126",
 		name_display = "新年福袋2021(復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3725,7 +3895,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "春節福袋2022",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2022",
 		first_pay_double = 0,
@@ -3736,7 +3906,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi135",
@@ -3744,6 +3917,7 @@ pg.base.pay_data_display = {
 		id = 36,
 		airijp_id = "com.yostarjp.azurlane.diamond127",
 		name_display = "春節福袋2022",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3844,7 +4018,7 @@ pg.base.pay_data_display = {
 		picture = "fudai4",
 		name = "春節福袋2021(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2021(復刻)",
 		first_pay_double = 0,
@@ -3855,7 +4029,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi136",
@@ -3863,6 +4040,7 @@ pg.base.pay_data_display = {
 		id = 37,
 		airijp_id = "com.yostarjp.azurlane.diamond128",
 		name_display = "春節福袋2021(復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -3963,7 +4141,7 @@ pg.base.pay_data_display = {
 		picture = "lihe7_l",
 		name = "福袋(夏2022)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋(夏2022)",
 		first_pay_double = 0,
@@ -3974,7 +4152,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi137",
@@ -3982,6 +4163,7 @@ pg.base.pay_data_display = {
 		id = 38,
 		airijp_id = "com.yostarjp.azurlane.diamond129",
 		name_display = "福袋(夏2022)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4082,7 +4264,7 @@ pg.base.pay_data_display = {
 		picture = "lihe5_l",
 		name = "福袋(夏2021) (復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋(夏2021) (復刻)",
 		first_pay_double = 0,
@@ -4093,7 +4275,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi138",
@@ -4101,6 +4286,7 @@ pg.base.pay_data_display = {
 		id = 39,
 		airijp_id = "com.yostarjp.azurlane.diamond130",
 		name_display = "福袋(夏2021) (復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4201,7 +4387,7 @@ pg.base.pay_data_display = {
 		picture = "lihe7_l",
 		name = "五周年福袋",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "五周年福袋",
 		first_pay_double = 0,
@@ -4212,7 +4398,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi139",
@@ -4220,6 +4409,7 @@ pg.base.pay_data_display = {
 		id = 40,
 		airijp_id = "com.yostarjp.azurlane.diamond131",
 		name_display = "五周年福袋",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4320,7 +4510,7 @@ pg.base.pay_data_display = {
 		picture = "lihe5_l",
 		name = "四周年福袋 (復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "四周年福袋 (復刻)",
 		first_pay_double = 0,
@@ -4331,7 +4521,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi140",
@@ -4339,6 +4532,7 @@ pg.base.pay_data_display = {
 		id = 41,
 		airijp_id = "com.yostarjp.azurlane.diamond132",
 		name_display = "四周年福袋 (復刻)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4439,7 +4633,7 @@ pg.base.pay_data_display = {
 		picture = "support6",
 		name = "カムバックパック",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると材料を大量に入手可能",
 		subject = "カムバックパック",
 		first_pay_double = 0,
@@ -4450,7 +4644,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi141",
@@ -4458,6 +4655,7 @@ pg.base.pay_data_display = {
 		id = 44,
 		airijp_id = "com.yostarjp.azurlane.diamond133",
 		name_display = "カムバックパック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4598,7 +4796,7 @@ pg.base.pay_data_display = {
 		picture = "lihe10_l",
 		name = "冬の水着福袋2023①",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
 		subject = "冬の水着福袋2023①",
 		first_pay_double = 0,
@@ -4609,7 +4807,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi142",
@@ -4617,6 +4818,7 @@ pg.base.pay_data_display = {
 		id = 45,
 		airijp_id = "com.yostarjp.azurlane.diamond134",
 		name_display = "冬の水着福袋2023①",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4717,7 +4919,7 @@ pg.base.pay_data_display = {
 		picture = "lihe11_l",
 		name = "冬の水着福袋2023②",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
 		subject = "冬の水着福袋2023②",
 		first_pay_double = 0,
@@ -4728,7 +4930,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi143",
@@ -4736,6 +4941,7 @@ pg.base.pay_data_display = {
 		id = 46,
 		airijp_id = "com.yostarjp.azurlane.diamond135",
 		name_display = "冬の水着福袋2023②",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4836,7 +5042,7 @@ pg.base.pay_data_display = {
 		picture = "fudai6",
 		name = "新年福袋2022(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムにお正月2022シリーズの着せ替え衣装を入手可能",
 		subject = "新年福袋2022",
 		first_pay_double = 0,
@@ -4847,7 +5053,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi144",
@@ -4855,6 +5064,7 @@ pg.base.pay_data_display = {
 		id = 47,
 		airijp_id = "com.yostarjp.azurlane.diamond136",
 		name_display = "新年福袋2022(復刻) ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -4955,7 +5165,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp1",
 		name = "春節福袋2023・Ⅰ ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2023・Ⅰ ",
 		first_pay_double = 0,
@@ -4966,7 +5176,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi145",
@@ -4974,6 +5187,7 @@ pg.base.pay_data_display = {
 		id = 48,
 		airijp_id = "com.yostarjp.azurlane.diamond137",
 		name_display = "春節福袋2023・Ⅰ ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -5074,7 +5288,7 @@ pg.base.pay_data_display = {
 		picture = "fudaiqp2",
 		name = "春節福袋2023・Ⅱ ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2023・Ⅱ ",
 		first_pay_double = 0,
@@ -5085,7 +5299,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi146",
@@ -5093,6 +5310,7 @@ pg.base.pay_data_display = {
 		id = 49,
 		airijp_id = "com.yostarjp.azurlane.diamond138",
 		name_display = "春節福袋2023・Ⅱ ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -5193,7 +5411,7 @@ pg.base.pay_data_display = {
 		picture = "fudai7",
 		name = "春節福袋2022(復刻) ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
 		subject = "春節福袋2022(復刻) ",
 		first_pay_double = 0,
@@ -5204,7 +5422,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi147",
@@ -5212,6 +5433,7 @@ pg.base.pay_data_display = {
 		id = 50,
 		airijp_id = "com.yostarjp.azurlane.diamond139",
 		name_display = "春節福袋2022(復刻) ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -5312,7 +5534,7 @@ pg.base.pay_data_display = {
 		picture = "lihecn6ss_l",
 		name = "夏の水着福袋2023",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな夏の水着2023シリーズの着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2023",
 		first_pay_double = 0,
@@ -5323,7 +5545,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi151",
@@ -5331,6 +5555,7 @@ pg.base.pay_data_display = {
 		id = 51,
 		airijp_id = "com.yostarjp.azurlane.diamond140",
 		name_display = "夏の水着福袋2023",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -5402,18 +5627,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5425,13 +5650,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[52] = {
 		picture = "lihecn6lf_l",
 		name = "福袋(夏2023)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムなドレス（夏2023）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋(夏2023)",
 		first_pay_double = 0,
@@ -5442,7 +5679,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi152",
@@ -5450,6 +5689,7 @@ pg.base.pay_data_display = {
 		id = 52,
 		airijp_id = "com.yostarjp.azurlane.diamond141",
 		name_display = "福袋(夏2023)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -5521,18 +5761,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5544,13 +5784,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[53] = {
 		picture = "lihe7_l",
 		name = "福袋(夏2022) (復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
 		subject = "福袋(夏2022) (復刻)",
 		first_pay_double = 0,
@@ -5561,7 +5813,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi153",
@@ -5569,6 +5823,7 @@ pg.base.pay_data_display = {
 		id = 53,
 		airijp_id = "com.yostarjp.azurlane.diamond142",
 		name_display = "福袋(夏2022) (復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69919,
 		extra_service = 3,
@@ -5640,18 +5895,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69919,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42036,
+				2
 			},
 			{
 				2,
-				42036,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5663,13 +5918,25 @@ pg.base.pay_data_display = {
 				40919,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69919,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[55] = {
 		picture = "lihejp6lf_l",
 		name = "六周年福袋②",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな六周年②の着せ替え衣装を入手可能",
 		subject = "六周年福袋②",
 		first_pay_double = 0,
@@ -5680,7 +5947,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi155",
@@ -5688,6 +5957,7 @@ pg.base.pay_data_display = {
 		id = 55,
 		airijp_id = "com.yostarjp.azurlane.diamond144",
 		name_display = "六周年福袋②",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -5759,18 +6029,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5782,13 +6052,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[56] = {
 		picture = "lihe8_l",
 		name = "五周年福袋(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
 		subject = "五周年福袋(復刻)",
 		first_pay_double = 0,
@@ -5799,7 +6081,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi156",
@@ -5807,6 +6091,7 @@ pg.base.pay_data_display = {
 		id = 56,
 		airijp_id = "com.yostarjp.azurlane.diamond145",
 		name_display = "五周年福袋(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69920,
 		extra_service = 3,
@@ -5878,18 +6163,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69920,
-				1
-			},
-			{
-				1,
-				14,
-				2022
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -5901,13 +6186,25 @@ pg.base.pay_data_display = {
 				40920,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			}
 		}
 	},
 	[57] = {
 		picture = "lihejp6ss_l",
 		name = "六周年福袋①",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな六周年①の着せ替え衣装を入手可能",
 		subject = "六周年福袋①",
 		first_pay_double = 0,
@@ -5918,7 +6215,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi157",
@@ -5926,6 +6225,7 @@ pg.base.pay_data_display = {
 		id = 57,
 		airijp_id = "com.yostarjp.azurlane.diamond143",
 		name_display = "六周年福袋①",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -5997,18 +6297,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6020,13 +6320,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[58] = {
 		picture = "pack_198",
 		name = "選べる迎春福袋①",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×1980と、選べるアイテムボックス×1などを入手可能",
 		subject = "選べる迎春福袋①",
 		first_pay_double = 0,
@@ -6037,7 +6349,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi158",
@@ -6045,6 +6360,7 @@ pg.base.pay_data_display = {
 		id = 58,
 		airijp_id = "com.yostarjp.azurlane.diamond155",
 		name_display = "選べる迎春福袋①",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -6155,7 +6471,7 @@ pg.base.pay_data_display = {
 		picture = "pack_328",
 		name = "選べる迎春福袋②",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×3280と、選べるアイテムボックス・Ⅱ×1などを入手可能",
 		subject = "選べる迎春福袋②",
 		first_pay_double = 0,
@@ -6166,7 +6482,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi159",
@@ -6174,6 +6493,7 @@ pg.base.pay_data_display = {
 		id = 59,
 		airijp_id = "com.yostarjp.azurlane.diamond156",
 		name_display = "選べる迎春福袋②",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -6279,7 +6599,7 @@ pg.base.pay_data_display = {
 		picture = "fudai9",
 		name = "新年福袋2024①",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2024①",
 		first_pay_double = 0,
@@ -6290,7 +6610,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi161",
@@ -6298,6 +6620,7 @@ pg.base.pay_data_display = {
 		id = 61,
 		airijp_id = "com.yostarjp.azurlane.diamond147",
 		name_display = "新年福袋2024①",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -6369,18 +6692,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6392,13 +6715,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[62] = {
 		picture = "lihe10_l",
 		name = "冬の水着福袋2023①(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "冬の水着福袋2023①(復刻)",
 		first_pay_double = 0,
@@ -6409,7 +6744,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi162",
@@ -6417,6 +6754,7 @@ pg.base.pay_data_display = {
 		id = 62,
 		airijp_id = "com.yostarjp.azurlane.diamond148",
 		name_display = "冬の水着福袋2023①(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69922,
 		extra_service = 3,
@@ -6488,18 +6826,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69922,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6511,13 +6849,25 @@ pg.base.pay_data_display = {
 				40922,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69922,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[63] = {
 		picture = "fudai10",
 		name = "新年福袋2024②",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2024②",
 		first_pay_double = 0,
@@ -6528,7 +6878,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi163",
@@ -6536,6 +6888,7 @@ pg.base.pay_data_display = {
 		id = 63,
 		airijp_id = "com.yostarjp.azurlane.diamond149",
 		name_display = "新年福袋2024②",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -6607,18 +6960,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6630,13 +6983,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[64] = {
 		picture = "lihe11_l",
 		name = "冬の水着福袋2023②(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "冬の水着福袋2023②(復刻)",
 		first_pay_double = 0,
@@ -6647,7 +7012,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi164",
@@ -6655,6 +7022,7 @@ pg.base.pay_data_display = {
 		id = 64,
 		airijp_id = "com.yostarjp.azurlane.diamond150",
 		name_display = "冬の水着福袋2023②(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69923,
 		extra_service = 3,
@@ -6726,18 +7094,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69923,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6749,13 +7117,25 @@ pg.base.pay_data_display = {
 				40923,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69923,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[65] = {
 		picture = "fudai11",
 		name = "春節福袋2024①",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2024①",
 		first_pay_double = 0,
@@ -6766,7 +7146,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi165",
@@ -6774,6 +7156,7 @@ pg.base.pay_data_display = {
 		id = 65,
 		airijp_id = "com.yostarjp.azurlane.diamond151",
 		name_display = "春節福袋2024①",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -6845,18 +7228,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6868,13 +7251,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[66] = {
 		picture = "fudaiqp1",
 		name = "春節福袋2023①(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2023①(復刻)",
 		first_pay_double = 0,
@@ -6885,7 +7280,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi166",
@@ -6893,6 +7290,7 @@ pg.base.pay_data_display = {
 		id = 66,
 		airijp_id = "com.yostarjp.azurlane.diamond152",
 		name_display = "春節福袋2023①(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69924,
 		extra_service = 3,
@@ -6964,18 +7362,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69924,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -6987,13 +7385,25 @@ pg.base.pay_data_display = {
 				40924,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69924,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[67] = {
 		picture = "fudai12",
 		name = "春節福袋2024②",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2024②",
 		first_pay_double = 0,
@@ -7004,7 +7414,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi167",
@@ -7012,6 +7424,7 @@ pg.base.pay_data_display = {
 		id = 67,
 		airijp_id = "com.yostarjp.azurlane.diamond153",
 		name_display = "春節福袋2024②",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -7083,18 +7496,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7106,13 +7519,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[68] = {
 		picture = "fudaiqp2",
 		name = "春節福袋2023②(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2023②(復刻)",
 		first_pay_double = 0,
@@ -7123,7 +7548,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi168",
@@ -7131,6 +7558,7 @@ pg.base.pay_data_display = {
 		id = 68,
 		airijp_id = "com.yostarjp.azurlane.diamond154",
 		name_display = "春節福袋2023②(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69925,
 		extra_service = 3,
@@ -7202,18 +7630,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69925,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7225,13 +7653,25 @@ pg.base.pay_data_display = {
 				40925,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69925,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[69] = {
 		picture = "fudai13",
 		name = "夏の水着福袋2024",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2024",
 		first_pay_double = 0,
@@ -7242,7 +7682,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi169",
@@ -7250,6 +7692,7 @@ pg.base.pay_data_display = {
 		id = 69,
 		airijp_id = "com.yostarjp.azurlane.diamond157",
 		name_display = "夏の水着福袋2024",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -7321,18 +7764,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7344,13 +7787,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[70] = {
 		picture = "lihecn6ss_l",
 		name = "夏の水着福袋2023(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2023(復刻)",
 		first_pay_double = 0,
@@ -7361,7 +7816,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi172",
@@ -7369,6 +7826,7 @@ pg.base.pay_data_display = {
 		id = 70,
 		airijp_id = "com.yostarjp.azurlane.diamond158",
 		name_display = "夏の水着福袋2023(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69926,
 		extra_service = 3,
@@ -7440,18 +7898,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69926,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7463,13 +7921,25 @@ pg.base.pay_data_display = {
 				40926,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[71] = {
 		picture = "fudai14",
 		name = "福袋(夏2024)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "福袋(夏2024)",
 		first_pay_double = 0,
@@ -7480,7 +7950,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi170",
@@ -7488,6 +7960,7 @@ pg.base.pay_data_display = {
 		id = 71,
 		airijp_id = "com.yostarjp.azurlane.diamond159",
 		name_display = "福袋(夏2024)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -7559,18 +8032,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7582,13 +8055,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[72] = {
 		picture = "lihecn6lf_l",
 		name = "福袋(夏2023)(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "福袋(夏2023)(復刻)",
 		first_pay_double = 0,
@@ -7599,7 +8084,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi171",
@@ -7607,6 +8094,7 @@ pg.base.pay_data_display = {
 		id = 72,
 		airijp_id = "com.yostarjp.azurlane.diamond160",
 		name_display = "福袋(夏2023)(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69927,
 		extra_service = 3,
@@ -7678,18 +8166,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69927,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42046,
+				2
 			},
 			{
 				2,
-				42046,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7701,13 +8189,25 @@ pg.base.pay_data_display = {
 				40927,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[73] = {
 		picture = "fudai15",
 		name = "七周年福袋①",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "七周年福袋① ",
 		first_pay_double = 0,
@@ -7718,7 +8218,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi173",
@@ -7726,6 +8228,7 @@ pg.base.pay_data_display = {
 		id = 73,
 		airijp_id = "com.yostarjp.azurlane.diamond161",
 		name_display = "七周年福袋① ",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86206,
 		extra_service = 3,
@@ -7797,18 +8300,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86206,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7820,13 +8323,25 @@ pg.base.pay_data_display = {
 				81206,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[74] = {
 		picture = "lihejp6ss_l",
 		name = "六周年福袋①(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "六周年福袋①(復刻)",
 		first_pay_double = 0,
@@ -7837,7 +8352,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 3,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi174",
@@ -7845,6 +8362,7 @@ pg.base.pay_data_display = {
 		id = 74,
 		airijp_id = "com.yostarjp.azurlane.diamond162",
 		name_display = "六周年福袋①(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69928,
 		extra_service = 3,
@@ -7916,18 +8434,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69928,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -7939,13 +8457,25 @@ pg.base.pay_data_display = {
 				40928,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69928,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[75] = {
 		picture = "fudai16",
 		name = "七周年福袋② ",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "七周年福袋② ",
 		first_pay_double = 0,
@@ -7956,7 +8486,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi175",
@@ -7964,6 +8496,7 @@ pg.base.pay_data_display = {
 		id = 75,
 		airijp_id = "com.yostarjp.azurlane.diamond163",
 		name_display = "七周年福袋② ",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86207,
 		extra_service = 3,
@@ -8035,18 +8568,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86207,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8058,13 +8591,25 @@ pg.base.pay_data_display = {
 				81207,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[76] = {
 		picture = "lihejp6lf_l",
 		name = "六周年福袋②(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "六周年福袋②(復刻)",
 		first_pay_double = 0,
@@ -8075,7 +8620,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi176",
@@ -8083,6 +8630,7 @@ pg.base.pay_data_display = {
 		id = 76,
 		airijp_id = "com.yostarjp.azurlane.diamond164",
 		name_display = "六周年福袋②(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 69929,
 		extra_service = 3,
@@ -8154,18 +8702,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69929,
-				1
-			},
-			{
-				1,
-				14,
-				2023
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8177,13 +8725,25 @@ pg.base.pay_data_display = {
 				40929,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			}
 		}
 	},
 	[82] = {
 		picture = "fudai19",
 		name = "新年福袋2025A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2025A",
 		first_pay_double = 0,
@@ -8194,7 +8754,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi182",
@@ -8202,6 +8764,7 @@ pg.base.pay_data_display = {
 		id = 82,
 		airijp_id = "com.yostarjp.azurlane.diamond170",
 		name_display = "新年福袋2025A",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86208,
 		extra_service = 3,
@@ -8273,18 +8836,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86208,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8296,13 +8859,25 @@ pg.base.pay_data_display = {
 				81208,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[83] = {
 		picture = "fudai9",
 		name = "新年福袋2024A(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2024A(復刻)",
 		first_pay_double = 0,
@@ -8313,7 +8888,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi183",
@@ -8321,6 +8898,7 @@ pg.base.pay_data_display = {
 		id = 83,
 		airijp_id = "com.yostarjp.azurlane.diamond171",
 		name_display = "新年福袋2024A(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86200,
 		extra_service = 3,
@@ -8392,18 +8970,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86200,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8415,13 +8993,25 @@ pg.base.pay_data_display = {
 				81200,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[84] = {
 		picture = "fudai20",
 		name = "新年福袋2025B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2025B",
 		first_pay_double = 0,
@@ -8432,7 +9022,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi184",
@@ -8440,6 +9032,7 @@ pg.base.pay_data_display = {
 		id = 84,
 		airijp_id = "com.yostarjp.azurlane.diamond172",
 		name_display = "新年福袋2025B",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86209,
 		extra_service = 3,
@@ -8511,18 +9104,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86209,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8534,13 +9127,25 @@ pg.base.pay_data_display = {
 				81209,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[85] = {
 		picture = "fudai10",
 		name = "新年福袋2024B(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "新年福袋2024B(復刻)",
 		first_pay_double = 0,
@@ -8551,7 +9156,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi185",
@@ -8559,6 +9166,7 @@ pg.base.pay_data_display = {
 		id = 85,
 		airijp_id = "com.yostarjp.azurlane.diamond173",
 		name_display = "新年福袋2024B(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86201,
 		extra_service = 3,
@@ -8630,18 +9238,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86201,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8653,13 +9261,25 @@ pg.base.pay_data_display = {
 				81201,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[86] = {
 		picture = "fudai21",
 		name = "春節福袋2025A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2025A",
 		first_pay_double = 0,
@@ -8670,7 +9290,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi186",
@@ -8678,6 +9300,7 @@ pg.base.pay_data_display = {
 		id = 86,
 		airijp_id = "com.yostarjp.azurlane.diamond174",
 		name_display = "春節福袋2025A",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86210,
 		extra_service = 3,
@@ -8749,18 +9372,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86210,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8772,13 +9395,25 @@ pg.base.pay_data_display = {
 				81210,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[87] = {
 		picture = "fudai22",
 		name = "春節福袋2025B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2025B",
 		first_pay_double = 0,
@@ -8789,7 +9424,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi187",
@@ -8797,6 +9434,7 @@ pg.base.pay_data_display = {
 		id = 87,
 		airijp_id = "com.yostarjp.azurlane.diamond175",
 		name_display = "春節福袋2025B",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86211,
 		extra_service = 3,
@@ -8868,18 +9506,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86211,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -8891,13 +9529,25 @@ pg.base.pay_data_display = {
 				81211,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[88] = {
 		picture = "fudai11",
 		name = "春節福袋2024A(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2024A(復刻)",
 		first_pay_double = 0,
@@ -8908,7 +9558,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi188",
@@ -8916,6 +9568,7 @@ pg.base.pay_data_display = {
 		id = 88,
 		airijp_id = "com.yostarjp.azurlane.diamond176",
 		name_display = "春節福袋2024A(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86202,
 		extra_service = 3,
@@ -8987,18 +9640,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86202,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9010,13 +9663,25 @@ pg.base.pay_data_display = {
 				81202,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[89] = {
 		picture = "fudai12",
 		name = "春節福袋2024B(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "春節福袋2024B(復刻)",
 		first_pay_double = 0,
@@ -9027,7 +9692,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi189",
@@ -9035,6 +9702,7 @@ pg.base.pay_data_display = {
 		id = 89,
 		airijp_id = "com.yostarjp.azurlane.diamond177",
 		name_display = "春節福袋2024B(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86203,
 		extra_service = 3,
@@ -9106,18 +9774,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86203,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9129,13 +9797,25 @@ pg.base.pay_data_display = {
 				81203,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				4,
+				2024
+			}
 		}
 	},
 	[90] = {
 		picture = "fudai23",
 		name = "着せ替えパック(学園)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "大量な報酬",
 		descrip = "<size=18>下記着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
 		subject = "着せ替えパック(学園)",
 		first_pay_double = 0,
@@ -9146,7 +9826,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi190",
@@ -9154,6 +9836,7 @@ pg.base.pay_data_display = {
 		id = 90,
 		airijp_id = "com.yostarjp.azurlane.diamond178",
 		name_display = "着せ替えパック(学園)",
+		first_text = "ランダム着せ替え",
 		akashi_pick = 1,
 		skin_inquire_relation = 86212,
 		extra_service = 3,
@@ -9209,9 +9892,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86212,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -9233,13 +9916,20 @@ pg.base.pay_data_display = {
 				81212,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86212,
+				1
+			}
 		}
 	},
 	[91] = {
 		picture = "fudai24",
 		name = "夏の水着福袋2025A",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2025A",
 		first_pay_double = 0,
@@ -9250,7 +9940,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi191",
@@ -9258,6 +9950,7 @@ pg.base.pay_data_display = {
 		id = 91,
 		airijp_id = "com.yostarjp.azurlane.diamond179",
 		name_display = "夏の水着福袋2025A",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86213,
 		extra_service = 3,
@@ -9329,18 +10022,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86213,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9352,13 +10045,25 @@ pg.base.pay_data_display = {
 				81213,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[92] = {
 		picture = "fudai13",
 		name = "夏の水着福袋2024(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2024(復刻)",
 		first_pay_double = 0,
@@ -9369,7 +10074,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi192",
@@ -9377,6 +10084,7 @@ pg.base.pay_data_display = {
 		id = 92,
 		airijp_id = "com.yostarjp.azurlane.diamond180",
 		name_display = "夏の水着福袋2024(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86204,
 		extra_service = 3,
@@ -9448,18 +10156,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86204,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9471,13 +10179,25 @@ pg.base.pay_data_display = {
 				81204,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[93] = {
 		picture = "fudai25",
 		name = "夏の水着福袋2025B",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "夏の水着福袋2025B",
 		first_pay_double = 0,
@@ -9488,7 +10208,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi193",
@@ -9496,6 +10218,7 @@ pg.base.pay_data_display = {
 		id = 93,
 		airijp_id = "com.yostarjp.azurlane.diamond181",
 		name_display = "夏の水着福袋2025B",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86214,
 		extra_service = 3,
@@ -9567,18 +10290,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86214,
-				1
-			},
-			{
-				1,
-				14,
-				2025
+				42066,
+				2
 			},
 			{
 				2,
-				42066,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9590,13 +10313,25 @@ pg.base.pay_data_display = {
 				81214,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86214,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
 		}
 	},
 	[94] = {
 		picture = "fudai14",
 		name = "福袋(夏2024)(復刻)",
 		type = 1,
-		limit_arg = 1,
+		second_text = "大量な報酬",
 		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
 		subject = "福袋(夏2024)(復刻)",
 		first_pay_double = 0,
@@ -9607,7 +10342,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi194",
@@ -9615,6 +10352,7 @@ pg.base.pay_data_display = {
 		id = 94,
 		airijp_id = "com.yostarjp.azurlane.diamond182",
 		name_display = "福袋(夏2024)(復刻)",
+		first_text = "ランダム着せ替えとダイヤ",
 		akashi_pick = 1,
 		skin_inquire_relation = 86205,
 		extra_service = 3,
@@ -9686,18 +10424,18 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				86205,
-				1
-			},
-			{
-				1,
-				14,
-				2024
+				42056,
+				2
 			},
 			{
 				2,
-				42056,
-				2
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
 			}
 		},
 		sub_display = {},
@@ -9709,13 +10447,25 @@ pg.base.pay_data_display = {
 				81205,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
 		}
 	},
 	[95] = {
 		picture = "fudai26",
 		name = "着せ替えパック(バニー)",
 		type = 1,
-		limit_arg = 2,
+		second_text = "大量な報酬",
 		descrip = "<size=18>下記着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
 		subject = "着せ替えパック(バニー)",
 		first_pay_double = 0,
@@ -9726,7 +10476,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 2,
+		package_sort_id = 0,
 		limit_type = 2,
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.zuanshi195",
@@ -9734,6 +10486,7 @@ pg.base.pay_data_display = {
 		id = 95,
 		airijp_id = "com.yostarjp.azurlane.diamond183",
 		name_display = "着せ替えパック(バニー)",
+		first_text = "ランダム着せ替え",
 		akashi_pick = 1,
 		skin_inquire_relation = 86215,
 		extra_service = 3,
@@ -9789,9 +10542,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				2,
-				86215,
-				1
+				1,
+				1,
+				2000
 			},
 			{
 				1,
@@ -9813,13 +10566,20 @@ pg.base.pay_data_display = {
 				81215,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				86215,
+				1
+			}
 		}
 	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "クルーズパス",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス",
 		first_pay_double = 0,
@@ -9830,7 +10590,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass1",
@@ -9838,6 +10601,7 @@ pg.base.pay_data_display = {
 		id = 1000,
 		airijp_id = "com.yostarjp.azurlane.seasonpass1",
 		name_display = "クルーズパス",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9900,7 +10664,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(21初冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(21初冬)",
 		first_pay_double = 0,
@@ -9911,7 +10675,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass2",
@@ -9919,6 +10686,7 @@ pg.base.pay_data_display = {
 		id = 1001,
 		airijp_id = "com.yostarjp.azurlane.seasonpass2",
 		name_display = "クルーズパス(21初冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -9981,7 +10749,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22冬)",
 		first_pay_double = 0,
@@ -9992,7 +10760,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass3",
@@ -10000,6 +10771,7 @@ pg.base.pay_data_display = {
 		id = 1002,
 		airijp_id = "com.yostarjp.azurlane.seasonpass3",
 		name_display = "クルーズパス(22冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10062,7 +10834,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22春)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22春)",
 		first_pay_double = 0,
@@ -10073,7 +10845,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass4",
@@ -10081,6 +10856,7 @@ pg.base.pay_data_display = {
 		id = 1003,
 		airijp_id = "com.yostarjp.azurlane.seasonpass4",
 		name_display = "クルーズパス(22春)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10143,7 +10919,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22初夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22初夏)",
 		first_pay_double = 0,
@@ -10154,7 +10930,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass5",
@@ -10162,6 +10941,7 @@ pg.base.pay_data_display = {
 		id = 1004,
 		airijp_id = "com.yostarjp.azurlane.seasonpass5",
 		name_display = "クルーズパス(22初夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10224,7 +11004,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22夏)",
 		first_pay_double = 0,
@@ -10235,7 +11015,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass6",
@@ -10243,6 +11026,7 @@ pg.base.pay_data_display = {
 		id = 1005,
 		airijp_id = "com.yostarjp.azurlane.seasonpass6",
 		name_display = "クルーズパス(22夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10305,7 +11089,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22秋)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22秋)",
 		first_pay_double = 0,
@@ -10316,7 +11100,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass7",
@@ -10324,6 +11111,7 @@ pg.base.pay_data_display = {
 		id = 1006,
 		airijp_id = "com.yostarjp.azurlane.seasonpass7",
 		name_display = "クルーズパス(22秋)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10386,7 +11174,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(22初冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(22初冬)",
 		first_pay_double = 0,
@@ -10397,7 +11185,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass8",
@@ -10405,6 +11196,7 @@ pg.base.pay_data_display = {
 		id = 1007,
 		airijp_id = "com.yostarjp.azurlane.seasonpass8",
 		name_display = "クルーズパス(22初冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10467,7 +11259,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23冬)",
 		first_pay_double = 0,
@@ -10478,7 +11270,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass9",
@@ -10486,6 +11281,7 @@ pg.base.pay_data_display = {
 		id = 1008,
 		airijp_id = "com.yostarjp.azurlane.seasonpass9",
 		name_display = "クルーズパス(23冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10548,7 +11344,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23春)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23春)",
 		first_pay_double = 0,
@@ -10559,7 +11355,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass10",
@@ -10567,6 +11366,7 @@ pg.base.pay_data_display = {
 		id = 1009,
 		airijp_id = "com.yostarjp.azurlane.seasonpass10",
 		name_display = "クルーズパス(23春)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10629,7 +11429,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23初夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23初夏)",
 		first_pay_double = 0,
@@ -10640,7 +11440,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass12",
@@ -10648,6 +11451,7 @@ pg.base.pay_data_display = {
 		id = 1010,
 		airijp_id = "com.yostarjp.azurlane.seasonpass11",
 		name_display = "クルーズパス(23初夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10710,7 +11514,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23夏)",
 		first_pay_double = 0,
@@ -10721,7 +11525,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass13",
@@ -10729,6 +11536,7 @@ pg.base.pay_data_display = {
 		id = 1011,
 		airijp_id = "com.yostarjp.azurlane.seasonpass12",
 		name_display = "クルーズパス(23夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10791,7 +11599,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23秋)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23秋)",
 		first_pay_double = 0,
@@ -10802,7 +11610,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass14",
@@ -10810,6 +11621,7 @@ pg.base.pay_data_display = {
 		id = 1012,
 		airijp_id = "com.yostarjp.azurlane.seasonpass13",
 		name_display = "クルーズパス(23秋)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10872,7 +11684,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(23初冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(23初冬)",
 		first_pay_double = 0,
@@ -10883,7 +11695,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass15",
@@ -10891,6 +11706,7 @@ pg.base.pay_data_display = {
 		id = 1013,
 		airijp_id = "com.yostarjp.azurlane.seasonpass14",
 		name_display = "クルーズパス(23初冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -10953,7 +11769,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24冬)",
 		first_pay_double = 0,
@@ -10964,7 +11780,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass16",
@@ -10972,6 +11791,7 @@ pg.base.pay_data_display = {
 		id = 1014,
 		airijp_id = "com.yostarjp.azurlane.seasonpass15",
 		name_display = "クルーズパス(24冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11034,7 +11854,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24春)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24春)",
 		first_pay_double = 0,
@@ -11045,7 +11865,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass17",
@@ -11053,6 +11876,7 @@ pg.base.pay_data_display = {
 		id = 1015,
 		airijp_id = "com.yostarjp.azurlane.seasonpass16",
 		name_display = "クルーズパス(24春)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11115,7 +11939,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24初夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24初夏)",
 		first_pay_double = 0,
@@ -11126,7 +11950,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass18",
@@ -11134,6 +11961,7 @@ pg.base.pay_data_display = {
 		id = 1016,
 		airijp_id = "com.yostarjp.azurlane.seasonpass17",
 		name_display = "クルーズパス(24初夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11196,7 +12024,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24夏)",
 		first_pay_double = 0,
@@ -11207,7 +12035,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass19",
@@ -11215,6 +12046,7 @@ pg.base.pay_data_display = {
 		id = 1017,
 		airijp_id = "com.yostarjp.azurlane.seasonpass18",
 		name_display = "クルーズパス(24夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11277,7 +12109,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24秋)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24秋)",
 		first_pay_double = 0,
@@ -11288,7 +12120,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass20",
@@ -11296,6 +12131,7 @@ pg.base.pay_data_display = {
 		id = 1018,
 		airijp_id = "com.yostarjp.azurlane.seasonpass19",
 		name_display = "クルーズパス(24秋)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11358,7 +12194,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(24初冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(24初冬)",
 		first_pay_double = 0,
@@ -11369,7 +12205,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass21",
@@ -11377,6 +12216,7 @@ pg.base.pay_data_display = {
 		id = 1019,
 		airijp_id = "com.yostarjp.azurlane.seasonpass20",
 		name_display = "クルーズパス(24初冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11439,7 +12279,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(25冬)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(25冬)",
 		first_pay_double = 0,
@@ -11450,7 +12290,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass22",
@@ -11458,6 +12301,7 @@ pg.base.pay_data_display = {
 		id = 1020,
 		airijp_id = "com.yostarjp.azurlane.seasonpass21",
 		name_display = "クルーズパス(25冬)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11520,7 +12364,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(25春)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(25春)",
 		first_pay_double = 0,
@@ -11531,7 +12375,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass23",
@@ -11539,6 +12386,7 @@ pg.base.pay_data_display = {
 		id = 1021,
 		airijp_id = "com.yostarjp.azurlane.seasonpass22",
 		name_display = "クルーズパス(25春)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11601,7 +12449,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(25初夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(25初夏)",
 		first_pay_double = 0,
@@ -11612,7 +12460,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass24",
@@ -11620,6 +12471,7 @@ pg.base.pay_data_display = {
 		id = 1022,
 		airijp_id = "com.yostarjp.azurlane.seasonpass23",
 		name_display = "クルーズパス(25初夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11682,7 +12534,7 @@ pg.base.pay_data_display = {
 		picture = "battlepass_1",
 		name = "クルーズパス(25夏)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "特別報酬開放",
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		subject = "クルーズパス(25夏)",
 		first_pay_double = 0,
@@ -11693,7 +12545,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.battlepass25",
@@ -11701,6 +12556,7 @@ pg.base.pay_data_display = {
 		id = 1023,
 		airijp_id = "com.yostarjp.azurlane.seasonpass24",
 		name_display = "クルーズパス(25夏)",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 4,
@@ -11763,7 +12619,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_display",
 		name = "PR特別計画艦パック・Ⅰ期",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+強化ユニット",
 		descrip = "特別計画艦・Ⅰ期と交換できるアイテムなどを入手できます",
 		subject = "PR特別計画艦パック・Ⅰ期",
 		first_pay_double = 0,
@@ -11774,7 +12630,9 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -11782,6 +12640,7 @@ pg.base.pay_data_display = {
 		id = 2001,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "PR特別計画艦パック・Ⅰ期",
+		first_text = "特別計画艦",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -11803,11 +12662,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40124,
-				1
-			},
-			{
-				2,
 				42000,
 				343
 			}
@@ -11820,13 +12674,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40124,
+				1
+			}
+		}
 	},
 	[2002] = {
 		picture = "tech1_promotion",
 		name = "PR艦船Ⅰ期交換アイテム＋強化ユニットセット",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅰ期交換アイテム＋強化ユニットセット",
 		first_pay_double = 0,
@@ -11837,7 +12698,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan1",
@@ -11845,6 +12709,7 @@ pg.base.pay_data_display = {
 		id = 2002,
 		airijp_id = "com.yostarjp.azurlane.tech1",
 		name_display = "PR艦船Ⅰ期交換アイテム\n＋強化ユニットセット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -11895,7 +12760,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_normal",
 		name = "PR艦船Ⅰ期交換アイテム",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅰ期交換アイテム",
 		first_pay_double = 0,
@@ -11906,7 +12771,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan2",
@@ -11914,6 +12782,7 @@ pg.base.pay_data_display = {
 		id = 2003,
 		airijp_id = "com.yostarjp.azurlane.tech2",
 		name_display = "PR艦船Ⅰ期交換アイテム",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -11954,7 +12823,7 @@ pg.base.pay_data_display = {
 		picture = "tech1_promotion",
 		name = "PR特別計画艦Ⅰ期強化ユニットセット",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "内容",
 		subject = "強化ユニット",
 		first_pay_double = 0,
@@ -11965,7 +12834,10 @@ pg.base.pay_data_display = {
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan3",
@@ -11973,6 +12845,7 @@ pg.base.pay_data_display = {
 		id = 2004,
 		airijp_id = "com.yostarjp.azurlane.tech3",
 		name_display = "強化ユニット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12013,7 +12886,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_display",
 		name = "PR特別計画艦パック・Ⅱ期",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+強化ユニット",
 		descrip = "特別計画艦・Ⅱ期と交換できるアイテムなどを入手できます",
 		subject = "PR特別計画艦パック・Ⅱ期",
 		first_pay_double = 0,
@@ -12024,7 +12897,9 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -12032,6 +12907,7 @@ pg.base.pay_data_display = {
 		id = 2005,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "PR特別計画艦パック・Ⅱ期",
+		first_text = "特別計画艦",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12053,11 +12929,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40125,
-				1
-			},
-			{
-				2,
 				42010,
 				343
 			}
@@ -12070,13 +12941,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40125,
+				1
+			}
+		}
 	},
 	[2006] = {
 		picture = "tech2_promotion",
 		name = "PR艦船Ⅱ期交換アイテム＋強化ユニットセット",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅱ期交換アイテム＋強化ユニットセット",
 		first_pay_double = 0,
@@ -12087,7 +12965,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan4",
@@ -12095,6 +12976,7 @@ pg.base.pay_data_display = {
 		id = 2006,
 		airijp_id = "com.yostarjp.azurlane.tech4",
 		name_display = "PR艦船Ⅱ期交換アイテム\n＋強化ユニットセット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12145,7 +13027,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_normal",
 		name = "PR艦船Ⅱ期交換アイテム",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅱ期交換アイテム",
 		first_pay_double = 0,
@@ -12156,7 +13038,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan5",
@@ -12164,6 +13049,7 @@ pg.base.pay_data_display = {
 		id = 2007,
 		airijp_id = "com.yostarjp.azurlane.tech5",
 		name_display = "PR艦船Ⅱ期交換アイテム",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12204,7 +13090,7 @@ pg.base.pay_data_display = {
 		picture = "tech2_promotion",
 		name = "PR特別計画艦Ⅱ期強化ユニットセット",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "内容",
 		subject = "強化ユニット",
 		first_pay_double = 0,
@@ -12215,7 +13101,10 @@ pg.base.pay_data_display = {
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan6",
@@ -12223,6 +13112,7 @@ pg.base.pay_data_display = {
 		id = 2008,
 		airijp_id = "com.yostarjp.azurlane.tech6",
 		name_display = "強化ユニット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12263,7 +13153,7 @@ pg.base.pay_data_display = {
 		picture = "lv_70",
 		name = "指揮官レベルアップパック",
 		type = 0,
-		limit_arg = 1,
+		second_text = "さらに",
 		descrip = "購入すると指揮官レベルがLv70に上がり、さらにアイテムを大量に入手可能",
 		subject = "指揮官レベルアップパック",
 		first_pay_double = 0,
@@ -12274,7 +13164,9 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 7,
+		package_sort_id = 1,
 		limit_type = 2,
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao104",
@@ -12282,6 +13174,7 @@ pg.base.pay_data_display = {
 		id = 2009,
 		airijp_id = "com.yostarjp.azurlane.package104",
 		name_display = "指揮官レベルアップパック",
+		first_text = "指揮官Lv70に",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12318,11 +13211,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40126,
-				1
-			},
-			{
-				2,
 				16502,
 				200
 			},
@@ -12346,13 +13234,20 @@ pg.base.pay_data_display = {
 				40022,
 				1
 			}
+		},
+		first_icon = {
+			{
+				2,
+				40126,
+				1
+			}
 		}
 	},
 	[2010] = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -12363,7 +13258,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao105",
@@ -12371,6 +13269,7 @@ pg.base.pay_data_display = {
 		id = 2010,
 		airijp_id = "com.yostarjp.azurlane.package105",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12466,7 +13365,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -12477,7 +13376,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 1,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao106",
@@ -12485,6 +13387,7 @@ pg.base.pay_data_display = {
 		id = 2011,
 		airijp_id = "com.yostarjp.azurlane.package106",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12580,7 +13483,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -12591,7 +13494,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao109",
@@ -12599,6 +13505,7 @@ pg.base.pay_data_display = {
 		id = 2014,
 		airijp_id = "com.yostarjp.azurlane.package109",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -12694,7 +13601,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_display",
 		name = "PR特別計画艦パック・Ⅲ期",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+強化ユニット",
 		descrip = "特別計画艦・Ⅲ期と交換できるアイテムなどを入手できます",
 		subject = "PR特別計画艦パック・Ⅲ期",
 		first_pay_double = 0,
@@ -12705,7 +13612,9 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -12713,6 +13622,7 @@ pg.base.pay_data_display = {
 		id = 2015,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "PR特別計画艦パック・Ⅲ期",
+		first_text = "特別計画艦",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12734,11 +13644,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40130,
-				1
-			},
-			{
-				2,
 				42020,
 				343
 			}
@@ -12751,13 +13656,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40130,
+				1
+			}
+		}
 	},
 	[2016] = {
 		picture = "tech3_promotion",
 		name = "PR艦船Ⅲ期交換アイテム＋強化ユニットセット",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
 		first_pay_double = 0,
@@ -12768,7 +13680,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan7",
@@ -12776,6 +13691,7 @@ pg.base.pay_data_display = {
 		id = 2016,
 		airijp_id = "com.yostarjp.azurlane.tech7",
 		name_display = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12826,7 +13742,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_normal",
 		name = "PR艦船Ⅲ期交換アイテム",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅲ期交換アイテム",
 		first_pay_double = 0,
@@ -12837,7 +13753,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan8",
@@ -12845,6 +13764,7 @@ pg.base.pay_data_display = {
 		id = 2017,
 		airijp_id = "com.yostarjp.azurlane.tech8",
 		name_display = "PR艦船Ⅲ期交換アイテム",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12885,7 +13805,7 @@ pg.base.pay_data_display = {
 		picture = "tech3_promotion",
 		name = "PR特別計画艦Ⅲ期強化ユニットセット",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "内容",
 		subject = "強化ユニット",
 		first_pay_double = 0,
@@ -12896,7 +13816,10 @@ pg.base.pay_data_display = {
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan9",
@@ -12904,6 +13827,7 @@ pg.base.pay_data_display = {
 		id = 2018,
 		airijp_id = "com.yostarjp.azurlane.tech9",
 		name_display = "強化ユニット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -12944,7 +13868,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -12955,7 +13879,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao110",
@@ -12963,6 +13890,7 @@ pg.base.pay_data_display = {
 		id = 2019,
 		airijp_id = "com.yostarjp.azurlane.package110",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13058,7 +13986,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "冬のお得福袋・2024",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
 		subject = "冬のお得福袋・2024",
 		first_pay_double = 0,
@@ -13069,7 +13997,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao111",
@@ -13077,6 +14008,7 @@ pg.base.pay_data_display = {
 		id = 2020,
 		airijp_id = "com.yostarjp.azurlane.package111",
 		name_display = "冬のお得福袋・2024",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13172,7 +14104,7 @@ pg.base.pay_data_display = {
 		picture = "haishangchuanqi",
 		name = "選べるUR着せ替え福袋①",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
 		subject = "選べるUR着せ替え福袋①",
 		first_pay_double = 0,
@@ -13183,7 +14115,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao112",
@@ -13191,6 +14126,7 @@ pg.base.pay_data_display = {
 		id = 2021,
 		airijp_id = "com.yostarjp.azurlane.package112",
 		name_display = "選べるUR着せ替え福袋①",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -13276,7 +14212,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan1",
 		name = "キューブ補給パック①",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "キューブ10個を入手可能",
 		subject = "キューブ補給パック①",
 		first_pay_double = 0,
@@ -13287,7 +14223,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao113",
@@ -13295,6 +14234,7 @@ pg.base.pay_data_display = {
 		id = 2022,
 		airijp_id = "com.yostarjp.azurlane.package113",
 		name_display = "キューブ補給パック①",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -13355,7 +14295,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan2",
 		name = "キューブ補給パック②",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "キューブ20個を入手可能",
 		subject = "キューブ補給パック②",
 		first_pay_double = 0,
@@ -13366,7 +14306,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao114",
@@ -13374,6 +14317,7 @@ pg.base.pay_data_display = {
 		id = 2023,
 		airijp_id = "com.yostarjp.azurlane.package114",
 		name_display = "キューブ補給パック②",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -13434,7 +14378,7 @@ pg.base.pay_data_display = {
 		picture = "mofangzhiyuan3",
 		name = "キューブ補給パック③",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "キューブ30個を入手可能",
 		subject = "キューブ補給パック③",
 		first_pay_double = 0,
@@ -13445,7 +14389,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao115",
@@ -13453,6 +14400,7 @@ pg.base.pay_data_display = {
 		id = 2024,
 		airijp_id = "com.yostarjp.azurlane.package115",
 		name_display = "キューブ補給パック③",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -13513,7 +14461,7 @@ pg.base.pay_data_display = {
 		picture = "richang",
 		name = "お得パック(デイリー)",
 		type = 0,
-		limit_arg = 1,
+		second_text = "毎日購入可能",
 		descrip = "購入するとキューブ1個、燃料1200を入手可能",
 		subject = "お得パック(デイリー)",
 		first_pay_double = 0,
@@ -13524,7 +14472,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 6,
+		package_sort_id = 0,
 		limit_type = 4,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao116",
@@ -13532,6 +14483,7 @@ pg.base.pay_data_display = {
 		id = 2025,
 		airijp_id = "com.yostarjp.azurlane.package116",
 		name_display = "お得パック(デイリー)",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13577,7 +14529,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック ",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -13588,7 +14540,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao118",
@@ -13596,6 +14551,7 @@ pg.base.pay_data_display = {
 		id = 2026,
 		airijp_id = "com.yostarjp.azurlane.package118",
 		name_display = "教科書パック ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -13691,7 +14647,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_display",
 		name = "PR特別計画艦パック·Ⅳ期",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+強化ユニット",
 		descrip = "特別計画艦・Ⅳ期と交換できるアイテムなどを入手できます",
 		subject = "PR特別計画艦パック・Ⅳ期",
 		first_pay_double = 0,
@@ -13702,7 +14658,9 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -13710,6 +14668,7 @@ pg.base.pay_data_display = {
 		id = 2027,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "PR特別計画艦パック·Ⅳ期",
+		first_text = "特別計画艦",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13731,11 +14690,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40139,
-				1
-			},
-			{
-				2,
 				42030,
 				343
 			}
@@ -13748,13 +14702,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40139,
+				1
+			}
+		}
 	},
 	[2028] = {
 		picture = "tech4_promotion",
 		name = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
 		first_pay_double = 0,
@@ -13765,7 +14726,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan10",
@@ -13773,6 +14737,7 @@ pg.base.pay_data_display = {
 		id = 2028,
 		airijp_id = "com.yostarjp.azurlane.tech10",
 		name_display = "PR艦船Ⅳ期交換アイテム\n＋強化ユニットセット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13823,7 +14788,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_normal",
 		name = "PR艦船Ⅳ期交換アイテム",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅳ期交換アイテム",
 		first_pay_double = 0,
@@ -13834,7 +14799,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan11",
@@ -13842,6 +14810,7 @@ pg.base.pay_data_display = {
 		id = 2029,
 		airijp_id = "com.yostarjp.azurlane.tech11",
 		name_display = "PR艦船Ⅳ期交換アイテム",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13882,7 +14851,7 @@ pg.base.pay_data_display = {
 		picture = "tech4_promotion",
 		name = "PR特別計画艦Ⅳ期強化ユニットセット",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "内容",
 		subject = "強化ユニット",
 		first_pay_double = 0,
@@ -13893,7 +14862,10 @@ pg.base.pay_data_display = {
 		limit_group = 4,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan12",
@@ -13901,6 +14873,7 @@ pg.base.pay_data_display = {
 		id = 2030,
 		airijp_id = "com.yostarjp.azurlane.tech12",
 		name_display = "強化ユニット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -13941,7 +14914,7 @@ pg.base.pay_data_display = {
 		picture = "daofeng_package",
 		name = "選べるUR着せ替え福袋②",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
 		subject = "選べるUR着せ替え福袋②",
 		first_pay_double = 0,
@@ -13950,9 +14923,12 @@ pg.base.pay_data_display = {
 		money = 2600,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao119",
@@ -13960,6 +14936,7 @@ pg.base.pay_data_display = {
 		id = 2031,
 		airijp_id = "com.yostarjp.azurlane.package119",
 		name_display = "選べるUR着せ替え福袋②",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14045,7 +15022,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "戦闘UI・レインボー",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "戦闘UIテーマ・レインボーを入手できます",
 		subject = "戦闘UI・レインボー",
 		first_pay_double = 0,
@@ -14056,7 +15033,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui",
@@ -14064,6 +15044,7 @@ pg.base.pay_data_display = {
 		id = 2032,
 		airijp_id = "com.yostarjp.azurlane.ui",
 		name_display = "戦闘UI・レインボー",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14118,7 +15099,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "戦闘UI・レインボー（単品）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UIテーマ・レインボーを入手できます",
 		subject = "戦闘UI・レインボー（単品）",
 		first_pay_double = 0,
@@ -14129,7 +15110,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui1",
@@ -14137,6 +15121,7 @@ pg.base.pay_data_display = {
 		id = 2033,
 		airijp_id = "com.yostarjp.azurlane.ui1",
 		name_display = "戦闘UI・レインボー（単品）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14197,7 +15182,7 @@ pg.base.pay_data_display = {
 		picture = "ui1",
 		name = "戦闘UI・レインボー（セット）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UIテーマ・レインボー,ダイヤ×3060を入手できます",
 		subject = "戦闘UI・レインボー（セット）",
 		first_pay_double = 0,
@@ -14208,7 +15193,10 @@ pg.base.pay_data_display = {
 		limit_group = 101,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui2",
@@ -14216,6 +15204,7 @@ pg.base.pay_data_display = {
 		id = 2034,
 		airijp_id = "com.yostarjp.azurlane.ui2",
 		name_display = "戦闘UI・レインボー（セット）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14286,7 +15275,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "選べるUR着せ替え福袋③",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
 		subject = "選べるUR着せ替え福袋③",
 		first_pay_double = 0,
@@ -14295,9 +15284,12 @@ pg.base.pay_data_display = {
 		money = 2600,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 0,
-		package_tag = "お得 ",
+		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao120",
@@ -14305,6 +15297,7 @@ pg.base.pay_data_display = {
 		id = 2035,
 		airijp_id = "com.yostarjp.azurlane.package120",
 		name_display = "選べるUR着せ替え福袋③",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14390,7 +15383,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -14401,7 +15394,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao121",
@@ -14409,6 +15405,7 @@ pg.base.pay_data_display = {
 		id = 2036,
 		airijp_id = "com.yostarjp.azurlane.package121",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14504,7 +15501,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "戦闘UI・クリスマス",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "戦闘UI・クリスマスを入手できます",
 		subject = "戦闘UI・クリスマス",
 		first_pay_double = 0,
@@ -14515,7 +15512,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui3",
@@ -14523,6 +15523,7 @@ pg.base.pay_data_display = {
 		id = 2037,
 		airijp_id = "com.yostarjp.azurlane.ui3",
 		name_display = "戦闘UI・クリスマス",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14577,7 +15578,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "戦闘UI・クリスマス（単品）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・クリスマスを入手できます",
 		subject = "戦闘UI・クリスマス（単品）",
 		first_pay_double = 0,
@@ -14588,7 +15589,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui4",
@@ -14596,6 +15600,7 @@ pg.base.pay_data_display = {
 		id = 2038,
 		airijp_id = "com.yostarjp.azurlane.ui4",
 		name_display = "戦闘UI・クリスマス（単品）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14656,7 +15661,7 @@ pg.base.pay_data_display = {
 		picture = "ui2",
 		name = "戦闘UI・クリスマス（セット）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・クリスマス,ダイヤ×3060を入手できます",
 		subject = "戦闘UI・クリスマス（セット）",
 		first_pay_double = 0,
@@ -14667,7 +15672,10 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui5",
@@ -14675,6 +15683,7 @@ pg.base.pay_data_display = {
 		id = 2039,
 		airijp_id = "com.yostarjp.azurlane.ui5",
 		name_display = "戦闘UI・クリスマス（セット）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14745,7 +15754,7 @@ pg.base.pay_data_display = {
 		picture = "dongzhi3",
 		name = "冬のお得福袋・2025",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
 		subject = "冬のお得福袋・2025",
 		first_pay_double = 0,
@@ -14756,7 +15765,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao122",
@@ -14764,6 +15776,7 @@ pg.base.pay_data_display = {
 		id = 2040,
 		airijp_id = "com.yostarjp.azurlane.package122",
 		name_display = "冬のお得福袋・2025",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -14859,7 +15872,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "選べるUR着せ替え福袋D",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
 		subject = "選べるUR着せ替え福袋D",
 		first_pay_double = 0,
@@ -14868,9 +15881,12 @@ pg.base.pay_data_display = {
 		money = 2600,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao123",
@@ -14878,6 +15894,7 @@ pg.base.pay_data_display = {
 		id = 2041,
 		airijp_id = "com.yostarjp.azurlane.package123",
 		name_display = "選べるUR着せ替え福袋D",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -14963,7 +15980,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "戦闘UI・ファラオ",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "戦闘UI・ファラオを入手できます",
 		subject = "戦闘UI・ファラオ",
 		first_pay_double = 0,
@@ -14974,7 +15991,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui6",
@@ -14982,6 +16002,7 @@ pg.base.pay_data_display = {
 		id = 2042,
 		airijp_id = "com.yostarjp.azurlane.ui6",
 		name_display = "戦闘UI・ファラオ",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15036,7 +16057,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "戦闘UI・ファラオ（単品）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・ファラオを入手できます",
 		subject = "戦闘UI・ファラオ（単品）",
 		first_pay_double = 0,
@@ -15047,7 +16068,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui7",
@@ -15055,6 +16079,7 @@ pg.base.pay_data_display = {
 		id = 2043,
 		airijp_id = "com.yostarjp.azurlane.ui7",
 		name_display = "戦闘UI・ファラオ（単品）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15115,7 +16140,7 @@ pg.base.pay_data_display = {
 		picture = "ui3",
 		name = "戦闘UI・ファラオ（セット）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・ファラオ,ダイヤ×3060を入手できます",
 		subject = "戦闘UI・ファラオ（セット）",
 		first_pay_double = 0,
@@ -15126,7 +16151,10 @@ pg.base.pay_data_display = {
 		limit_group = 103,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui8",
@@ -15134,6 +16162,7 @@ pg.base.pay_data_display = {
 		id = 2044,
 		airijp_id = "com.yostarjp.azurlane.ui8",
 		name_display = "戦闘UI・ファラオ（セット）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15204,7 +16233,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "戦闘UI・ジーン",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "戦闘UI・ジーンを入手できます",
 		subject = "戦闘UI・ジーン",
 		first_pay_double = 0,
@@ -15213,9 +16242,12 @@ pg.base.pay_data_display = {
 		money = 1600,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 104,
-		package_tag = "お得 ",
+		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui9",
@@ -15223,6 +16255,7 @@ pg.base.pay_data_display = {
 		id = 2045,
 		airijp_id = "com.yostarjp.azurlane.ui9",
 		name_display = "戦闘UI・ジーン",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15277,7 +16310,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "戦闘UI・ジーン（単品）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・ジーンを入手できます",
 		subject = "戦闘UI・ジーン（単品）",
 		first_pay_double = 0,
@@ -15288,7 +16321,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui10",
@@ -15296,6 +16332,7 @@ pg.base.pay_data_display = {
 		id = 2046,
 		airijp_id = "com.yostarjp.azurlane.ui10",
 		name_display = "戦闘UI・ジーン（単品）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15356,7 +16393,7 @@ pg.base.pay_data_display = {
 		picture = "ui4",
 		name = "戦闘UI・ジーン（セット）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・ジーン,ダイヤ×3060を入手できます",
 		subject = "戦闘UI・ジーン（セット）",
 		first_pay_double = 0,
@@ -15367,7 +16404,10 @@ pg.base.pay_data_display = {
 		limit_group = 104,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui11",
@@ -15375,6 +16415,7 @@ pg.base.pay_data_display = {
 		id = 2047,
 		airijp_id = "com.yostarjp.azurlane.ui11",
 		name_display = "戦闘UI・ジーン（セット）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15445,7 +16486,7 @@ pg.base.pay_data_display = {
 		picture = "huteng_package",
 		name = "選べるUR着せ替え福袋E",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
 		subject = "選べるUR着せ替え福袋E",
 		first_pay_double = 0,
@@ -15454,9 +16495,12 @@ pg.base.pay_data_display = {
 		money = 2600,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao124",
@@ -15464,6 +16508,7 @@ pg.base.pay_data_display = {
 		id = 2048,
 		airijp_id = "com.yostarjp.azurlane.package124",
 		name_display = "選べるUR着せ替え福袋E",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -15549,7 +16594,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		limit_arg = 4,
+		second_text = "教科書",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,
@@ -15560,7 +16605,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao125",
@@ -15568,6 +16616,7 @@ pg.base.pay_data_display = {
 		id = 2049,
 		airijp_id = "com.yostarjp.azurlane.package125",
 		name_display = "教科書パック",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15663,7 +16712,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "戦闘UI・シーサイド",
 		type = 0,
-		limit_arg = 0,
+		second_text = "",
 		descrip = "戦闘UI・シーサイドを入手できます",
 		subject = "戦闘UI・シーサイド",
 		first_pay_double = 0,
@@ -15674,7 +16723,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui12",
@@ -15682,6 +16734,7 @@ pg.base.pay_data_display = {
 		id = 2050,
 		airijp_id = "com.yostarjp.azurlane.ui12",
 		name_display = "戦闘UI・シーサイド",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15736,7 +16789,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "戦闘UI・シーサイド（単品）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・シーサイドを入手できます",
 		subject = "戦闘UI・シーサイド（単品）",
 		first_pay_double = 0,
@@ -15747,7 +16800,10 @@ pg.base.pay_data_display = {
 		limit_group = 105,
 		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui13",
@@ -15755,6 +16811,7 @@ pg.base.pay_data_display = {
 		id = 2051,
 		airijp_id = "com.yostarjp.azurlane.ui13",
 		name_display = "戦闘UI・シーサイド（単品）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15825,7 +16882,7 @@ pg.base.pay_data_display = {
 		picture = "ui5",
 		name = "戦闘UI・シーサイド（セット）",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "戦闘UI・シーサイド,ダイヤ×3060を入手できます",
 		subject = "戦闘UI・シーサイド（セット）",
 		first_pay_double = 0,
@@ -15834,9 +16891,12 @@ pg.base.pay_data_display = {
 		money = 4700,
 		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		limit_group = 105,
-		package_tag = "お得 ",
+		package_tag = "",
 		type_order = 4,
+		package_sort_id = 0,
 		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.ui14",
@@ -15844,6 +16904,7 @@ pg.base.pay_data_display = {
 		id = 2052,
 		airijp_id = "com.yostarjp.azurlane.ui14",
 		name_display = "戦闘UI・シーサイド（セット）",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -15914,7 +16975,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_display",
 		name = "PR特別計画艦パック·Ⅴ期",
 		type = 0,
-		limit_arg = 0,
+		second_text = "+強化ユニット",
 		descrip = "特別計画艦・Ⅴ期と交換できるアイテムなどを入手できます",
 		subject = "PR特別計画艦パック・Ⅴ期",
 		first_pay_double = 0,
@@ -15925,7 +16986,9 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan",
@@ -15933,6 +16996,7 @@ pg.base.pay_data_display = {
 		id = 2053,
 		airijp_id = "com.yostarjp.azurlane.tech",
 		name_display = "PR特別計画艦パック·Ⅴ期",
+		first_text = "特別計画艦",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -15954,11 +17018,6 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				40140,
-				1
-			},
-			{
-				2,
 				42040,
 				343
 			}
@@ -15971,13 +17030,20 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40140,
+				1
+			}
+		}
 	},
 	[2054] = {
 		picture = "tech5_promotion",
 		name = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
 		first_pay_double = 0,
@@ -15988,7 +17054,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan13",
@@ -15996,6 +17065,7 @@ pg.base.pay_data_display = {
 		id = 2054,
 		airijp_id = "com.yostarjp.azurlane.tech13",
 		name_display = "PR艦船Ⅴ期交換アイテム\n＋強化ユニットセット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16046,7 +17116,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_normal",
 		name = "PR艦船Ⅴ期交換アイテム",
 		type = 0,
-		limit_arg = 2,
+		second_text = "",
 		descrip = "内容",
 		subject = "PR艦船Ⅴ期交換アイテム",
 		first_pay_double = 0,
@@ -16057,7 +17127,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan14",
@@ -16065,6 +17138,7 @@ pg.base.pay_data_display = {
 		id = 2055,
 		airijp_id = "com.yostarjp.azurlane.tech14",
 		name_display = "PR艦船Ⅴ期交換アイテム",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16105,7 +17179,7 @@ pg.base.pay_data_display = {
 		picture = "tech5_promotion",
 		name = "PR特別計画艦Ⅴ期強化ユニットセット",
 		type = 0,
-		limit_arg = 3,
+		second_text = "",
 		descrip = "内容",
 		subject = "強化ユニット",
 		first_pay_double = 0,
@@ -16116,7 +17190,10 @@ pg.base.pay_data_display = {
 		limit_group = 5,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 3,
 		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.keyan15",
@@ -16124,6 +17201,7 @@ pg.base.pay_data_display = {
 		id = 2056,
 		airijp_id = "com.yostarjp.azurlane.tech15",
 		name_display = "強化ユニット",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -16164,7 +17242,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day1",
 		name = "お得デイリーパック①",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、上級指向型強化ユニット・五期目×2を入手可能",
 		subject = "お得デイリーパック①",
 		first_pay_double = 0,
@@ -16175,7 +17253,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao201",
@@ -16183,6 +17264,7 @@ pg.base.pay_data_display = {
 		id = 5001,
 		airijp_id = "com.yostarjp.azurlane.package201",
 		name_display = "お得デイリーパック①",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16253,7 +17335,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day2",
 		name = "お得デイリーパック②",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×200を入手可能",
 		subject = "お得デイリーパック②",
 		first_pay_double = 0,
@@ -16264,7 +17346,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao202",
@@ -16272,6 +17357,7 @@ pg.base.pay_data_display = {
 		id = 5002,
 		airijp_id = "com.yostarjp.azurlane.package202",
 		name_display = "お得デイリーパック②",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16332,7 +17418,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day3",
 		name = "お得デイリーパック③",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "SSR選択装備箱×1と、指向性強化パーツT4×5を入手可能",
 		subject = "お得デイリーパック③",
 		first_pay_double = 0,
@@ -16343,7 +17429,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao203",
@@ -16351,6 +17440,7 @@ pg.base.pay_data_display = {
 		id = 5003,
 		airijp_id = "com.yostarjp.azurlane.package203",
 		name_display = "お得デイリーパック③",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16421,7 +17511,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day4",
 		name = "お得デイリーパック④",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
 		subject = "お得デイリーパック④",
 		first_pay_double = 0,
@@ -16432,7 +17522,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao204",
@@ -16440,6 +17533,7 @@ pg.base.pay_data_display = {
 		id = 5004,
 		airijp_id = "com.yostarjp.azurlane.package204",
 		name_display = "お得デイリーパック④",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16510,7 +17604,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day5",
 		name = "お得デイリーパック⑤",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "艦船経験値パックT2×60を入手可能",
 		subject = "お得デイリーパック⑤",
 		first_pay_double = 0,
@@ -16521,7 +17615,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao205",
@@ -16529,6 +17626,7 @@ pg.base.pay_data_display = {
 		id = 5005,
 		airijp_id = "com.yostarjp.azurlane.package205",
 		name_display = "お得デイリーパック⑤",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16589,7 +17687,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day6",
 		name = "お得デイリーパック⑥",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "キューブ×10と、高速建造材×5を入手可能",
 		subject = "お得デイリーパック⑥",
 		first_pay_double = 0,
@@ -16600,7 +17698,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao206",
@@ -16608,6 +17709,7 @@ pg.base.pay_data_display = {
 		id = 5006,
 		airijp_id = "com.yostarjp.azurlane.package206",
 		name_display = "お得デイリーパック⑥",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16678,7 +17780,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day7",
 		name = "お得デイリーパック⑦",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、上級指向型強化ユニット・六期目×2を入手可能",
 		subject = "お得デイリーパック⑦",
 		first_pay_double = 0,
@@ -16689,7 +17791,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 0,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao207",
@@ -16697,6 +17802,7 @@ pg.base.pay_data_display = {
 		id = 5007,
 		airijp_id = "com.yostarjp.azurlane.package207",
 		name_display = "お得デイリーパック⑦",
+		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,
 		extra_service = 3,
@@ -16767,7 +17873,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day1",
 		name = "お得デイリーパック2025A",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅵ期目×2を入手可能",
 		subject = "お得デイリーパック2025A",
 		first_pay_double = 0,
@@ -16778,7 +17884,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao211",
@@ -16786,6 +17895,7 @@ pg.base.pay_data_display = {
 		id = 5011,
 		airijp_id = "com.yostarjp.azurlane.package211",
 		name_display = "お得デイリーパック2025A",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16856,7 +17966,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day2",
 		name = "お得デイリーパック2025B",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×200を入手可能",
 		subject = "お得デイリーパック2025B",
 		first_pay_double = 0,
@@ -16867,7 +17977,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao212",
@@ -16875,6 +17988,7 @@ pg.base.pay_data_display = {
 		id = 5012,
 		airijp_id = "com.yostarjp.azurlane.package212",
 		name_display = "お得デイリーパック2025B",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -16935,7 +18049,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day3",
 		name = "お得デイリーパック2025C",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "指向性強化パーツT4×5、メンタルユニット×200を入手可能",
 		subject = "お得デイリーパック2025C",
 		first_pay_double = 0,
@@ -16946,7 +18060,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao213",
@@ -16954,6 +18071,7 @@ pg.base.pay_data_display = {
 		id = 5013,
 		airijp_id = "com.yostarjp.azurlane.package213",
 		name_display = "お得デイリーパック2025C",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -17024,7 +18142,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day4",
 		name = "お得デイリーパック2025D",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
 		subject = "お得デイリーパック2025D",
 		first_pay_double = 0,
@@ -17035,7 +18153,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao214",
@@ -17043,6 +18164,7 @@ pg.base.pay_data_display = {
 		id = 5014,
 		airijp_id = "com.yostarjp.azurlane.package214",
 		name_display = "お得デイリーパック2025D",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -17113,7 +18235,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day5",
 		name = "お得デイリーパック2025E",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "艦船経験値パックT2×60を入手可能",
 		subject = "お得デイリーパック2025E",
 		first_pay_double = 0,
@@ -17124,7 +18246,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao215",
@@ -17132,6 +18257,7 @@ pg.base.pay_data_display = {
 		id = 5015,
 		airijp_id = "com.yostarjp.azurlane.package215",
 		name_display = "お得デイリーパック2025E",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -17192,7 +18318,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day6",
 		name = "お得デイリーパック2025F",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "キューブ×10と、高速建造材×5を入手可能",
 		subject = "お得デイリーパック2025F",
 		first_pay_double = 0,
@@ -17203,7 +18329,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao216",
@@ -17211,6 +18340,7 @@ pg.base.pay_data_display = {
 		id = 5016,
 		airijp_id = "com.yostarjp.azurlane.package216",
 		name_display = "お得デイリーパック2025F",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,
@@ -17281,7 +18411,7 @@ pg.base.pay_data_display = {
 		picture = "pack_day7",
 		name = "お得デイリーパック2025G",
 		type = 0,
-		limit_arg = 1,
+		second_text = "",
 		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅶ期目×2を入手可能",
 		subject = "お得デイリーパック2025G",
 		first_pay_double = 0,
@@ -17292,7 +18422,10 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		package_tag = "",
 		type_order = 5,
+		package_sort_id = 0,
 		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
 		tip = "",
 		tip_open = 0,
 		id_str = "com.bilibili.blhx.libao217",
@@ -17300,6 +18433,7 @@ pg.base.pay_data_display = {
 		id = 5017,
 		airijp_id = "com.yostarjp.azurlane.package217",
 		name_display = "お得デイリーパック2025G",
+		first_text = "",
 		akashi_pick = 1,
 		sub_display = "",
 		skin_inquire_relation = 0,

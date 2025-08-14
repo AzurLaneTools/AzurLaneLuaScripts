@@ -80,4 +80,10 @@ slot0.getLimitGoodCount = function(slot0, slot1)
 	assert(false, "good not limit_args 'quota' with good id: " .. slot1)
 end
 
+slot0.GetResList = function(slot0)
+	return {
+		59900
+	}
+end
+
 return slot0

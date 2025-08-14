@@ -52,6 +52,7 @@ slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 slot0.ON_SPITEM_CHANGED = "LevelMediator2:ON_SPITEM_CHANGED"
 slot0.ON_BOSSSINGLE_MAP = "LevelMediator2:ON_BOSSSINGLE_MAP"
 slot0.ON_CLUE_MAP = "LevelMediator2:ON_CLUE_MAP"
+slot0.ON_UPDATE_LOWPRIORITY_TASK = "LevelMediator2:ON_UPDATE_LOWPRIORITY_TASK"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
@@ -563,6 +564,11 @@ slot0.register = function(slot0)
 				ship_list = slot0
 			})
 		end), slot2, slot3)
+	end)
+	slot0:bind(uv0.ON_UPDATE_LOWPRIORITY_TASK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.UPDATE_LOW_PRIORITY_TASK_PROGRESS, {
+			taskId = slot1
+		})
 	end)
 
 	slot0.player = getProxy(PlayerProxy):getData()

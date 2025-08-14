@@ -1160,7 +1160,13 @@ slot0.createLive2D = function(slot0, slot1)
 		Live2D.SetL2dSortingLayer(slot0, LayerWeightConst.L2D_DEFAULT_LAYER)
 
 		slot1.localPosition = BuildVector3(pg.ship_skin_template[slot3].live2d_offset) + Vector3(0, 0, 100)
-		slot1.localScale = Vector3(65, 65, 520)
+		slot4 = 52
+
+		if pg.ship_skin_template[slot3].live2d_offset and #pg.ship_skin_template[slot3].live2d_offset >= 4 then
+			slot4 = pg.ship_skin_template[slot3].live2d_offset[4]
+		end
+
+		slot1.localScale = Vector3(slot4, slot4, slot4)
 		uv0.l2dChar = GetComponent(slot0, "Live2dChar")
 		uv0.l2dChar.name = uv1
 
@@ -1172,15 +1178,15 @@ slot0.createLive2D = function(slot0, slot1)
 
 		uv0.l2dChar:SetAction(pg.AssistantInfo.action2Id.idle)
 
-		slot5 = pg.ship_skin_template[slot3]
-		slot7 = slot5.lip_smoothing
+		slot6 = pg.ship_skin_template[slot3]
+		slot8 = slot6.lip_smoothing
 
-		if slot5.lip_sync_gain and slot6 ~= 0 then
-			slot2:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot6
+		if slot6.lip_sync_gain and slot7 ~= 0 then
+			slot2:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot7
 		end
 
-		if slot7 and slot7 ~= 0 then
-			slot2:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot7
+		if slot8 and slot8 ~= 0 then
+			slot2:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot8
 		end
 	end)
 end

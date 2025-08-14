@@ -2590,6 +2590,27 @@ pg.medal_template = {
 		explain1 = "「ネオンシティの探索者」",
 		explain2 = "イベント"
 	},
+	[200081] = {
+		target_id = "50087",
+		name = "淵層探索記念章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "淵層界の秘密を明かし、厄災の子の陰謀を阻止した。尊敬なる指揮官、この旅を楽しんでいただけたのかな？\n\n——「母港大型VR体験プロジェクト2.0」製作委員会による",
+		next = 0,
+		icon = "9081",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9081",
+		condition = "「淵層界の秘密」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200081,
+		explain1 = "「淵層界の秘密」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2708,6 +2729,7 @@ pg.medal_template = {
 		200041,
 		200051,
 		200061,
-		200071
+		200071,
+		200081
 	}
 }

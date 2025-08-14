@@ -247,10 +247,7 @@ slot0.stopDrag = function(slot0, slot1)
 	if slot0._active then
 		slot0._active = false
 
-		if slot0.revert > 0 then
-			slot0.parameterToStart = slot0.revert / 1000
-			slot0.parameterSmoothTime = slot0.smoothRevert
-		end
+		slot0:setParameterRevert()
 
 		if slot0.offsetDragX then
 			slot0.offsetDragTargetX = slot0:fixParameterTargetValue(slot0.offsetDragX, slot0.range, slot0.rangeAbs, slot0.dragDirect)
@@ -269,6 +266,13 @@ slot0.stopDrag = function(slot0, slot1)
 
 		slot0:updatePartsParameter()
 		slot0:saveData()
+	end
+end
+
+slot0.setParameterRevert = function(slot0)
+	if slot0.revert > 0 then
+		slot0.parameterToStart = slot0.revert / 1000
+		slot0.parameterSmoothTime = slot0.smoothRevert
 	end
 end
 
@@ -587,6 +591,10 @@ slot0.updateParameterUpdateFlag = function(slot0)
 	elseif slot0.actionTrigger.type == Live2D.DRAG_DOWN_TOUCH then
 		slot0._parameterUpdateFlag = true
 	elseif slot0.actionTrigger.type == Live2D.DRAG_LISTENER_EVENT then
+		slot0._parameterUpdateFlag = true
+	elseif slot0.actionTrigger.type == Live2D.DRAG_ANIMATION_PLAY then
+		slot0._parameterUpdateFlag = true
+	elseif slot0.actionTrigger.type == Live2D.DRAG_WITH_PARAMETER_MOVE then
 		slot0._parameterUpdateFlag = true
 	else
 		slot0._parameterUpdateFlag = false
@@ -921,19 +929,15 @@ slot0.updateTrigger = function(slot0)
 	end
 
 	if slot1 == Live2D.DRAG_TIME_ACTION then
-		if slot0._active then
-			if math.abs(slot0.parameterValue - slot4) < math.abs(slot4) * 0.25 then
-				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
+		if slot0._active and math.abs(slot0.parameterValue - slot4) < math.abs(slot4) * 0.25 then
+			slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
-				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
-						if slot0 then
-							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_TRIGGER)
-						end
-					end)
-				end
-			else
-				slot0.triggerActionTime = slot0.triggerActionTime + 0
+			if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
+				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+					if slot0 then
+						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_TRIGGER)
+					end
+				end)
 			end
 		end
 	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
@@ -1075,14 +1079,67 @@ slot0.updateTrigger = function(slot0)
 				slot6 = true
 			end
 
-			if slot6 and slot0.actionTrigger.trigger_rate <= slot0.normalTime then
+			if slot6 and slot0.actionTrigger.trigger_rate <= slot0.normalTime and not slot0.animationPlayApply then
 				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function ()
 				end)
 				slot0:setTriggerActionFlag(false)
+
+				slot0.animationPlayApply = true
+			end
+
+			return
+		end
+
+		if slot0.animationPlayApply then
+			slot0.animationPlayApply = false
+		end
+	elseif slot1 == Live2D.DRAG_EXTEND_ACTION_RULE then
+		if not slot0.extendActionFlag then
+			slot0.extendActionFlag = true
+		end
+	elseif slot1 == Live2D.DRAG_WITH_PARAMETER_MOVE and not slot0.l2dIsPlaying then
+		slot5, slot6 = nil
+
+		if slot4 then
+			slot5 = slot4 and math.abs(slot0.parameterValue - slot4) or 0
+			slot6 = math.abs(slot4) * 0.1
+		end
+
+		if slot4 and slot5 <= slot6 and not slot0.parameterMoveTrigger then
+			slot0.parameterMoveTrigger = true
+
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+			end)
+		else
+			if not slot0.moveCheckStep then
+				slot0.moveCheckStep = 10
+			end
+
+			if slot0.parameterMoveTrigger then
+				slot0.parameterMoveTrigger = false
+
+				slot0:setParameterValue(slot0.startValue)
+				slot0:setTargetValue(slot0.startValue)
+			end
+
+			slot0.moveCheckStep = slot0.moveCheckStep - 1
+
+			if slot0.moveCheckStep <= 0 then
+				slot0.moveCheckStep = 10
+				slot0.lastParameterMove = slot0.parameterMove
+
+				slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+					name = slot0.actionTrigger.parameter
+				}, function (slot0)
+					uv0.parameterMove = slot0
+				end)
+
+				if slot0.lastParameterMove and slot0.parameterMove and math.abs(slot0.parameterMove - slot0.lastParameterMove) ~= 0 then
+					slot0:setTargetValue(slot0:fixParameterTargetValue(slot0.parameterTargetValue + slot8 * (slot0.actionTrigger.rate and slot0.actionTrigger.rate or 0), slot0.range, slot0.rangeAbs, slot0.dragDirect))
+					print("检测数值发生改变 = " .. slot0.parameterTargetValue)
+				end
 			end
 		end
-	elseif slot1 == Live2D.DRAG_EXTEND_ACTION_RULE and not slot0.extendActionFlag then
-		slot0.extendActionFlag = true
 	end
 end
 

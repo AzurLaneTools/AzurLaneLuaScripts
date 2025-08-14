@@ -1,9 +1,5 @@
 slot0 = class("MetaShopPage", import(".ActivitySelectableShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "MetaShop"
-end
-
 slot0.ResId2ItemId = function(slot0, slot1)
 	return slot1
 end
@@ -13,12 +9,12 @@ slot0.SetResIcon = function(slot0)
 end
 
 slot0.UpdateTip = function(slot0)
-	slot0.time.text = i18n("meta_shop_tip")
+	slot0.tipText.text = i18n("meta_shop_tip")
 end
 
 slot0.SetPurchaseConfirmCb = function(slot0, slot1)
 	slot0.purchaseWindow:ExecuteAction("SetConfirmCb", function (slot0, slot1, slot2)
-		uv0:emit(NewShopsMediator.ON_META_SHOP, uv0.shop.activityId, 1, slot0, slot2, slot1)
+		uv0:emit(NewShopMainMediator.ON_META_SHOP, uv0.shop.activityId, 1, slot0, slot2, slot1)
 	end)
 	slot0.purchaseWindow:ExecuteAction("Hide")
 end
@@ -27,25 +23,36 @@ slot0.OnUpdatePlayer = function(slot0)
 end
 
 slot0.OnUpdateItems = function(slot0)
-	slot1 = slot0.shop:GetResList()
+	slot0:RefreshResItemList()
+end
 
-	for slot5, slot6 in pairs(slot0.resTrList) do
-		slot8 = slot6[2]
-		slot9 = slot6[3]
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
 
-		setActive(slot6[1], slot1[slot5] ~= nil)
-
-		if slot10 ~= nil then
-			slot9.text = (slot0.items[slot10] or Item.New({
+	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
+		table.insert(slot1, {
+			type = DROP_TYPE_ITEM,
+			resID = slot7,
+			cnt = (slot0.items[slot7] or Item.New({
 				count = 0,
-				id = slot10
+				id = slot7
 			})).count
-		end
+		})
 	end
+
+	return slot1
+end
+
+slot0.RefreshUI = function(slot0)
+	slot0:UpdateTip()
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)
-	slot0:emit(NewShopsMediator.ON_META_SHOP, slot0.shop.activityId, 1, slot1.id, slot2, {
+	slot0:emit(NewShopMainMediator.ON_META_SHOP, slot0.shop.activityId, 1, slot1.id, slot2, {
 		{
 			key = slot1:getConfig("commodity_id"),
 			value = slot2

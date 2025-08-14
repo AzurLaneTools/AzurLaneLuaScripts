@@ -756,6 +756,102 @@ pg.activity_medal_template = {
 		id = 5002108,
 		medal_asset = "ActivityMedal/5002108"
 	},
+	[5008701] = {
+		activity_medal_desc = "流星落ちて淵層が形作られ、災い来たりし時に聖典現る",
+		next_medal = 0,
+		item = 65666,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "1",
+		task_id = 21803,
+		activity_medal_name = "ステッカー：淵層より",
+		id = 5008701,
+		medal_asset = "ActivityMedal/5008701"
+	},
+	[5008702] = {
+		activity_medal_desc = "ウロボロス魔法学院がある街。ありとあらゆる営みがかの淵層と関わっている",
+		next_medal = 0,
+		item = 65667,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "2",
+		task_id = 21804,
+		activity_medal_name = "ステッカー：アズィル城",
+		id = 5008702,
+		medal_asset = "ActivityMedal/5008702"
+	},
+	[5008703] = {
+		activity_medal_desc = "これぐらいプルーズに任せればいいわよ♪",
+		next_medal = 0,
+		item = 65668,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "3",
+		task_id = 21805,
+		activity_medal_name = "ステッカー：武装制御ファクタ",
+		id = 5008703,
+		medal_asset = "ActivityMedal/5008703"
+	},
+	[5008704] = {
+		activity_medal_desc = "敵を屈服させる最善の方法は、大火力でねじ伏せることだ！",
+		next_medal = 0,
+		item = 65669,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "4",
+		task_id = 21806,
+		activity_medal_name = "ステッカー：古代ゴーレム",
+		id = 5008704,
+		medal_asset = "ActivityMedal/5008704"
+	},
+	[5008705] = {
+		activity_medal_desc = "枯れ枝を必死に空に伸ばすそれは神々の色褪せた王冠の如く、凋落していく定めの中で最後のエルフの血筋を必死に守ろうとしている",
+		next_medal = 0,
+		item = 65670,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "5",
+		task_id = 21807,
+		activity_medal_name = "ステッカー：母なる精霊の木",
+		id = 5008705,
+		medal_asset = "ActivityMedal/5008705"
+	},
+	[5008706] = {
+		activity_medal_desc = "魔姫はあんたのことを見ているわ――",
+		next_medal = 0,
+		item = 65671,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "6",
+		task_id = 21808,
+		activity_medal_name = "ステッカー：悪魔の目",
+		id = 5008706,
+		medal_asset = "ActivityMedal/5008706"
+	},
+	[5008707] = {
+		activity_medal_desc = "天を衝く古の巨木は、今や忘れ去られし切り株だけが残った。",
+		next_medal = 0,
+		item = 65672,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "7",
+		task_id = 21809,
+		activity_medal_name = "ステッカー：腐朽の木",
+		id = 5008707,
+		medal_asset = "ActivityMedal/5008707"
+	},
+	[5008708] = {
+		activity_medal_desc = "寒冬要塞よ、あなたたちの冬将軍が戻ってきた！",
+		next_medal = 0,
+		item = 65673,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "8",
+		task_id = 21810,
+		activity_medal_name = "ステッカー：氷雪の王冠",
+		id = 5008708,
+		medal_asset = "ActivityMedal/5008708"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -835,6 +931,16 @@ pg.activity_medal_template = {
 			5002106,
 			5002107,
 			5002108
+		},
+		[50087] = {
+			5008701,
+			5008702,
+			5008703,
+			5008704,
+			5008705,
+			5008706,
+			5008707,
+			5008708
 		}
 	},
 	all = {
@@ -900,6 +1006,14 @@ pg.activity_medal_template = {
 		5002105,
 		5002106,
 		5002107,
-		5002108
+		5002108,
+		5008701,
+		5008702,
+		5008703,
+		5008704,
+		5008705,
+		5008706,
+		5008707,
+		5008708
 	}
 }

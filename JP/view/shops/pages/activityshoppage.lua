@@ -1,13 +1,9 @@
 slot0 = class("ActivityShopPage", import(".BaseShopPage"))
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
-	slot0.scrollRectSpecial = slot5
-end
-
-slot0.getUIName = function(slot0)
-	return "ActivityShop"
+	slot0.scrollRectSpecial = scrollRectSpecial
 end
 
 slot0.GetPaintingName = function(slot0)
@@ -22,7 +18,7 @@ slot0.GetPaintingName = function(slot0)
 
 			return slot0.tempFlagShip:getPainting(), true, "build"
 		elseif slot1.config_client.painting then
-			return slot1.config_client.painting
+			return slot1.config_client.painting, true
 		end
 	end
 
@@ -57,23 +53,8 @@ slot0.GetPaintingTouchVoice = function(slot0)
 	return slot2, slot1, slot3
 end
 
-slot0.OnLoaded = function(slot0)
-	slot0.resTrList = {
-		{
-			slot0:findTF("res_battery"):GetComponent(typeof(Image)),
-			slot0:findTF("res_battery/icon"):GetComponent(typeof(Image)),
-			slot0:findTF("res_battery/Text"):GetComponent(typeof(Text)),
-			slot0:findTF("res_battery/label"):GetComponent(typeof(Text))
-		},
-		{
-			slot0:findTF("res_battery1"):GetComponent(typeof(Image)),
-			slot0:findTF("res_battery1/icon"):GetComponent(typeof(Image)),
-			slot0:findTF("res_battery1/Text"):GetComponent(typeof(Text)),
-			slot0:findTF("res_battery1/label"):GetComponent(typeof(Text))
-		}
-	}
-	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
-	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
+slot0.init = function(slot0)
+	uv0.super.init(slot0)
 
 	if slot0.scrollRectSpecial then
 		slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
@@ -84,22 +65,21 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnUpdatePlayer = function(slot0)
-	if slot0.shop:IsEventShop() then
-		slot0.eventResCnt.text = slot0.player:getResource(slot0.shop:getResId())
-	else
-		slot1 = slot0.shop:GetResList()
+	slot0:RefreshResItemList()
+end
 
-		for slot5, slot6 in pairs(slot0.resTrList) do
-			slot8 = slot6[2]
-			slot9 = slot6[3]
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
 
-			setActive(slot6[1], slot1[slot5] ~= nil)
-
-			if slot10 ~= nil then
-				slot9.text = slot0.player:getResource(slot10)
-			end
-		end
+	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
+		table.insert(slot1, {
+			type = DROP_TYPE_RESOURCE,
+			resID = slot7,
+			cnt = slot0.player:getResource(slot7)
+		})
 	end
+
+	return slot1
 end
 
 slot0.OnSetUp = function(slot0)
@@ -130,44 +110,25 @@ slot0.OnUpdateCommodity = function(slot0, slot1)
 end
 
 slot0.SetResIcon = function(slot0, slot1)
-	slot2 = slot0.shop:GetResList()
+	slot0:RefreshResItemList()
+end
 
-	for slot6, slot7 in ipairs(slot0.resTrList) do
-		slot8 = slot7[1]
-		slot9 = slot7[2]
-		slot10 = slot7[3]
-		slot11 = slot7[4]
-
-		if slot2[slot6] ~= nil then
-			slot13 = Drop.New({
-				type = slot1 or DROP_TYPE_RESOURCE,
-				id = slot12
-			})
-
-			GetSpriteFromAtlasAsync(slot13:getIcon(), "", function (slot0)
-				uv0.sprite = slot0
-			end)
-
-			slot11.text = slot13:getName()
-		end
-	end
-
-	slot3 = slot0.shop:IsEventShop()
-
-	setActive(slot0:findTF("res_battery"), not slot3)
-	setActive(slot0:findTF("res_battery1"), not slot3 and #slot2 > 1)
-	setActive(slot0:findTF("event_res_battery"), slot3)
+slot0.RefreshUI = function(slot0)
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
 end
 
 slot0.UpdateTip = function(slot0)
-	slot0.time.text = "<size=" .. (#slot0.shop:GetResList() > 1 and 25 or 27) .. ">" .. i18n("activity_shop_lable", slot0.shop:getOpenTime()) .. "</size>"
+	slot0.tipText.text = "<size=" .. (#slot0.shop:GetResList() > 1 and 25 or 27) .. ">" .. i18n("activity_shop_lable", slot0.shop:getOpenTime()) .. "</size>"
 end
 
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
 	slot2.tagImg.raycastTarget = false
 
-	onButton(slot0, slot2.tr, function ()
+	onButton(slot0, slot2.tf, function ()
 		slot0 = uv0
 
 		slot0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
@@ -212,7 +173,7 @@ slot0.OnPurchase = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot0:emit(NewShopsMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
+	slot0:emit(NewShopMainMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
 end
 
 slot0.OnClickCommodity = function(slot0, slot1, slot2)
@@ -246,6 +207,7 @@ end
 
 slot0.Show = function(slot0)
 	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
+		print("TODO:当前的界面不支持这中情况，需要找美术出资源")
 		setActive(go(slot0.lScrollrect), false)
 		setActive(slot0.scrollRectSpecial, true)
 		slot0.groupList:make(function (slot0, slot1, slot2)
@@ -260,7 +222,7 @@ slot0.Show = function(slot0)
 						uv0.cards[slot2] = slot3
 						slot3.tagImg.raycastTarget = false
 
-						onButton(uv0, slot3.tr, function ()
+						onButton(uv0, slot3.tf, function ()
 							uv0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
 								uv0:OnPurchase(slot0, slot1)
 							end)
@@ -335,6 +297,7 @@ slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0:InitCommodities()
 	slot0:OnSetUp()
 	slot0:SetPainting()
+	slot0:RefreshUI()
 end
 
 slot0.InitCommodities = function(slot0)

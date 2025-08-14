@@ -36,7 +36,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnConfirm = function(slot0)
-	slot0:emit(NewShopsMediator.ON_GUILD_SHOPPING, slot0.data.id, slot0.selectedList)
+	slot0:emit(NewShopMainMediator.ON_GUILD_SHOPPING, slot0.data.id, slot0.selectedList)
 end
 
 slot0.Show = function(slot0, slot1)
