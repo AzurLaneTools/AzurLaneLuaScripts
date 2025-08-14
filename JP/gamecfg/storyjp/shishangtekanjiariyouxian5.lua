@@ -97,7 +97,7 @@ return {
 			hideRecordIco = true,
 			actor = 102054,
 			nameColor = "#A9F548FF",
-			say = "何ともすごい姿のヘレナがいた。…",
+			say = "何ともすごい姿のヘレナがいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

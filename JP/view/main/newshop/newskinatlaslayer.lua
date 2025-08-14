@@ -551,6 +551,7 @@ slot0.GetSkinClassify = function(slot0)
 end
 
 slot0.filterOk = function(slot0, slot1)
+	slot2 = slot0.filterValues.ownType
 	slot3 = slot0.filterValues.typeType
 	slot4 = slot0.filterValues.shipHaveType
 	slot5 = slot0.filterValues.campType
@@ -558,9 +559,14 @@ slot0.filterOk = function(slot0, slot1)
 	slot7 = slot0.filterValues.shipType
 	slot8 = slot0.filterValues.themeType
 	slot9 = slot1.id
-	slot11 = slot0:ToVShip(slot1:GetDefaultShipConfig())
 
-	if slot0.filterValues.ownType ~= 0 then
+	if not slot1:GetDefaultShipConfig() then
+		return false
+	end
+
+	slot11 = slot0:ToVShip(slot10)
+
+	if slot2 ~= 0 then
 		slot12 = false
 		slot13 = getProxy(ShipSkinProxy):hasSkin(slot9)
 		slot14 = slot1:NoUse()

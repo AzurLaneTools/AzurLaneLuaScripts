@@ -1980,9 +1980,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				180
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -1990,9 +1990,9 @@ pg.base.pay_data_display = {
 				2
 			},
 			{
-				4,
-				100001,
-				1
+				2,
+				15001,
+				30
 			}
 		},
 		sub_display = {},
@@ -2114,9 +2114,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				780
+				4,
+				100001,
+				1
 			},
 			{
 				2,
@@ -2253,9 +2253,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1680
+				4,
+				100011,
+				1
 			},
 			{
 				2,
@@ -14461,7 +14461,7 @@ pg.base.pay_data_display = {
 		picture = "richang",
 		name = "お得パック(デイリー)",
 		type = 0,
-		second_text = "毎日購入可能",
+		second_text = "",
 		descrip = "購入するとキューブ1個、燃料1200を入手可能",
 		subject = "お得パック(デイリー)",
 		first_pay_double = 0,
@@ -16594,7 +16594,7 @@ pg.base.pay_data_display = {
 		picture = "boxSkill",
 		name = "教科書パック",
 		type = 0,
-		second_text = "教科書",
+		second_text = "",
 		descrip = "購入すると教科書を大量に入手可能",
 		subject = "教科書パック",
 		first_pay_double = 0,

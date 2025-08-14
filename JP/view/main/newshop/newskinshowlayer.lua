@@ -84,7 +84,7 @@ slot0.didEnter = function(slot0)
 		setActive(uv0.charContainer, slot0)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.hideUITg, function (slot0)
-		setActive(uv0._tf:Find("top"), not slot0)
+		setActive(uv0._tf:Find("adapt/top"), not slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.equipBtn, function ()
 		if uv0.shipSkin:CantUse() then

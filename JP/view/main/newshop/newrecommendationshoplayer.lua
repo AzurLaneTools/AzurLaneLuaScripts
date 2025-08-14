@@ -6,7 +6,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.resources = slot0._tf:Find("top/resources")
+	slot0.resources = slot0._tf:Find("adapt/top/resources")
 	slot0.banners = {
 		banner_big = BannerScrollRectDorm3dShop.New(slot0._tf:Find("panel/banner_big/banner/mask/content"), slot0._tf:Find("panel/banner_big/banner/dots")),
 		banner_middle = BannerScrollRectDorm3dShop.New(slot0._tf:Find("panel/banner_middle/banner/mask/content"), slot0._tf:Find("panel/banner_middle/banner/dots")),
@@ -315,6 +315,8 @@ slot0.StartTimer = function(slot0, slot1)
 	if not slot0.timers then
 		slot0.timers = {}
 	end
+
+	slot1()
 
 	slot2 = Timer.New(function ()
 		uv0()

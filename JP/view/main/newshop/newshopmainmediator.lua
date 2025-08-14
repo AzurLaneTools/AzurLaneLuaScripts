@@ -4,6 +4,7 @@ slot0.SWITCH_TO_SHOP = "NewShopMainMediator:SWITCH_TO_SHOP"
 slot0.CHARGE = "NewShopMainMediator:CHARGE"
 slot0.BUY_ITEM = "NewShopMainMediator:BUY_ITEM"
 slot0.CLICK_MING_SHI = "NewShopMainMediator:CLICK_MING_SHI"
+slot0.GET_CHARGE_LIST = "NewShopMainMediator:GET_CHARGE_LIST"
 slot0.OPEN_CHARGE_ITEM_PANEL = "NewShopMainMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "NewShopMainMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "NewShopMainMediator:OPEN_CHARGE_BIRTHDAY"
@@ -62,6 +63,9 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
 			commodityId = slot1
 		})
+	end)
+	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
 	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)

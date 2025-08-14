@@ -3,8 +3,7 @@ slot0.GO_SHOP = "NewRecommendationShopMediator.GO_SHOP"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_SHOP, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.GO_BACK)
-		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
+		uv0:sendNotification(GAME.CHANGE_SCENE, slot1, slot2)
 	end)
 end
 

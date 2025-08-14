@@ -169,21 +169,26 @@ slot0.UpdateStory = function(slot0)
 	table.sort(slot5, function (slot0, slot1)
 		return slot0:getConfig("id") < slot1:getConfig("id")
 	end)
-	setActive(slot0.personalBtn, #slot5 > 0)
+
+	slot6 = nil
 
 	if #slot5 < 2 then
 		slot0.personalPage:SetBossRushNode(slot5[1], slot5[1])
 	elseif #slot5 - 1 > 0 then
-		while slot6 > 0 do
-			if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot6]) > 0 then
-				slot0.personalPage:SetBossRushNode(slot5[#slot5], slot5[slot6])
+		while slot7 > 0 do
+			if #slot0.personalPage:GetActivitySingleEventOption(slot5[slot7]) > 0 then
+				slot6 = true
+
+				slot0.personalPage:SetBossRushNode(slot5[#slot5], slot5[slot7])
 
 				break
 			end
 
-			slot6 = slot6 - 1
+			slot7 = slot7 - 1
 		end
 	end
+
+	setActive(slot0.personalBtn, slot6)
 
 	if slot3 == slot4 then
 		slot0.personalPage:UnlockRandom()
@@ -195,6 +200,10 @@ slot0.UpdateStory = function(slot0)
 end
 
 slot0.CheckAutoShowPersonal = function(slot0)
+	if not slot0.personalPage:GetCurrentEvent() then
+		return
+	end
+
 	if #slot0.personalPage:GetActivitySingleEventOption(slot0.personalPage:GetCurrentEvent()) > 0 then
 		slot0.personalPage:SetUpgrade()
 		slot0.personalPage:ExecuteAction("Show")
