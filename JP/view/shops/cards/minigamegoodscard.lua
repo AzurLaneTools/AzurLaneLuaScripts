@@ -61,6 +61,7 @@ slot0.update = function(slot0, slot1)
 	slot5 = ""
 
 	setText(slot0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. slot1:GetMaxCnt() .. "/" .. slot1:getConfig("goods_purchase_limit"))
+	setActive(slot0.limitCountLabelTF, true)
 	setActive(slot0.discountTF, false)
 	setText(slot0.countTF, math.ceil(slot1:getConfig("price")))
 	GetSpriteFromAtlasAsync("ui/ShopsUI_atlas", "minigameRes", function (slot0)

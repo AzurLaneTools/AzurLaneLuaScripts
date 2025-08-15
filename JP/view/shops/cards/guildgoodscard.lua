@@ -15,6 +15,7 @@ slot0.update = function(slot0, slot1)
 	end
 
 	setText(slot0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. slot0.goodsVO.count .. "/" .. slot0.goodsVO:GetLimit())
+	setActive(slot0.limitCountLabelTF, true)
 
 	slot2 = slot0.goodsVO:CanPurchase()
 
