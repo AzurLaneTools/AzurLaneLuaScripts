@@ -20589,7 +20589,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[283] = {
 		can_rotate = 0,
 		name = "Mont-Saint-Michel Miniature",
-		gain_by = "",
+		gain_by = "Interlude of Illusions",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -20712,7 +20712,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[286] = {
 		can_rotate = 0,
 		name = "Party for Pioneers",
-		gain_by = "",
+		gain_by = "Cursed Western Town",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21250,7 +21250,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[297] = {
 		can_rotate = 0,
 		name = "Logistics Center Miniature",
-		gain_by = "",
+		gain_by = "Letters from Valley Hospital",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21287,7 +21287,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[298] = {
 		can_rotate = 0,
 		name = "Recuperation Center Miniature",
-		gain_by = "",
+		gain_by = "Letters from Valley Hospital",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21324,7 +21324,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[299] = {
 		can_rotate = 0,
 		name = "Research Center Miniature",
-		gain_by = "",
+		gain_by = "Letters from Valley Hospital",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21361,7 +21361,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[300] = {
 		can_rotate = 0,
 		name = "Medical Center Miniature",
-		gain_by = "",
+		gain_by = "Letters from Valley Hospital",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21398,7 +21398,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[301] = {
 		can_rotate = 0,
 		name = "Inpatient Building Miniature",
-		gain_by = "",
+		gain_by = "Letters from Valley Hospital",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

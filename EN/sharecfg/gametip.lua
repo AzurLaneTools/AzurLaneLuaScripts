@@ -30963,101 +30963,101 @@ cs.gametip = {
 	},
 	shop_new_skin_permanent = {
 		1151863,
-		90,
+		94,
 		true
 	},
 	shop_new_in_use = {
-		1151953,
+		1151957,
 		85,
 		true
 	},
 	shop_new_unable_to_use = {
-		1152038,
+		1152042,
 		94,
 		true
 	},
 	shop_new_owned_skin = {
-		1152132,
+		1152136,
 		88,
 		true
 	},
 	shop_new_wear = {
-		1152220,
+		1152224,
 		81,
 		true
 	},
 	shop_new_get_now = {
-		1152301,
+		1152305,
 		90,
 		true
 	},
 	shop_new_remaining_time = {
-		1152391,
+		1152395,
 		125,
 		true
 	},
 	shop_new_remove = {
-		1152516,
+		1152520,
 		95,
 		true
 	},
 	shop_new_retro = {
-		1152611,
+		1152615,
 		83,
 		true
 	},
 	shop_new_able_to_exchange = {
-		1152694,
+		1152698,
 		105,
 		true
 	},
 	shop_countdown = {
-		1152799,
+		1152803,
 		97,
 		true
 	},
 	quota_shop_title1en = {
-		1152896,
+		1152900,
 		83,
 		true
 	},
 	sham_shop_titleen = {
-		1152979,
+		1152983,
 		81,
 		true
 	},
 	medal_shop_titleen = {
-		1153060,
+		1153064,
 		82,
 		true
 	},
 	fragment_shop_titleen = {
-		1153142,
+		1153146,
 		85,
 		true
 	},
 	shop_fragment_resolve = {
-		1153227,
+		1153231,
 		103,
 		true
 	},
 	beat_game_my_record = {
-		1153330,
+		1153334,
 		90,
 		true
 	},
 	shop_filter_all = {
-		1153420,
+		1153424,
 		82,
 		true
 	},
 	shop_filter_trial = {
-		1153502,
+		1153506,
 		87,
 		true
 	},
 	shop_filter_retro = {
-		1153589,
+		1153593,
 		86,
 		true
 	}

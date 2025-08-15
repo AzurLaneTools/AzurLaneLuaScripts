@@ -40395,7 +40395,7 @@ _G.pg.base.gametip.shop_new_skin_new = {
 
 
 _G.pg.base.gametip.shop_new_skin_permanent = {
-	tip = "Hot"
+	tip = "Popular"
 }
 
 

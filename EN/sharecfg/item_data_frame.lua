@@ -56,7 +56,7 @@ pg.item_data_frame = {
 	},
 	[106] = {
 		name = "Gunslinger's Glory",
-		gain_by = "",
+		gain_by = "3rd Anniversary Event",
 		time_second = 0,
 		id = 106,
 		time_limit_type = 0,
@@ -290,7 +290,7 @@ pg.item_data_frame = {
 	},
 	[310] = {
 		name = "Laffey's Gift",
-		gain_by = "",
+		gain_by = "2nd Anniversary Event",
 		time_second = 0,
 		id = 310,
 		time_limit_type = 0,
@@ -632,7 +632,7 @@ pg.item_data_frame = {
 	},
 	[607] = {
 		name = "A Trip to the Prairie",
-		gain_by = "",
+		gain_by = "Wild West Vacation Log",
 		time_second = 0,
 		id = 607,
 		time_limit_type = 0,
@@ -641,7 +641,7 @@ pg.item_data_frame = {
 	},
 	[608] = {
 		name = "Black Friday Frenzy",
-		gain_by = "",
+		gain_by = "Akashi's Fire Sale",
 		time_second = 0,
 		id = 608,
 		time_limit_type = 0,
@@ -650,7 +650,7 @@ pg.item_data_frame = {
 	},
 	[610] = {
 		name = "Resort Island Vacation",
-		gain_by = "",
+		gain_by = "The Villa Reconstruction",
 		time_second = 0,
 		id = 610,
 		time_limit_type = 0,
@@ -659,7 +659,7 @@ pg.item_data_frame = {
 	},
 	[611] = {
 		name = "Sylvan Breeze",
-		gain_by = "",
+		gain_by = "A Sylvan Retreat",
 		time_second = 0,
 		id = 611,
 		time_limit_type = 0,
@@ -668,7 +668,7 @@ pg.item_data_frame = {
 	},
 	[1001] = {
 		name = "Sweet Rendezvous",
-		gain_by = "",
+		gain_by = "Private Quarters: Sirius",
 		time_second = 0,
 		id = 1001,
 		time_limit_type = 0,
@@ -677,7 +677,7 @@ pg.item_data_frame = {
 	},
 	[1002] = {
 		name = "Afternoon Tea",
-		gain_by = "",
+		gain_by = "Private Quarters: Sirius",
 		time_second = 0,
 		id = 1002,
 		time_limit_type = 0,
@@ -686,7 +686,7 @@ pg.item_data_frame = {
 	},
 	[1003] = {
 		name = "Style of the Golden Sakura",
-		gain_by = "",
+		gain_by = "Private Quarters: Noshiro",
 		time_second = 0,
 		id = 1003,
 		time_limit_type = 0,
@@ -695,7 +695,7 @@ pg.item_data_frame = {
 	},
 	[1004] = {
 		name = "Floral Rain, Homecoming Bird, and You",
-		gain_by = "",
+		gain_by = "Private Quarters: Noshiro",
 		time_second = 0,
 		id = 1004,
 		time_limit_type = 0,
@@ -704,7 +704,7 @@ pg.item_data_frame = {
 	},
 	[1005] = {
 		name = "Angelic Light",
-		gain_by = "0",
+		gain_by = "Private Quarters: Anchorage",
 		time_second = 0,
 		id = 1005,
 		time_limit_type = 0,
@@ -713,7 +713,7 @@ pg.item_data_frame = {
 	},
 	[1006] = {
 		name = "Adventure on the Blue Seas",
-		gain_by = "0",
+		gain_by = "Private Quarters: Anchorage",
 		time_second = 0,
 		id = 1006,
 		time_limit_type = 0,
@@ -722,7 +722,7 @@ pg.item_data_frame = {
 	},
 	[1007] = {
 		name = "Stars and Snow",
-		gain_by = "",
+		gain_by = "Private Quarters: New Jersey",
 		time_second = 0,
 		id = 1007,
 		time_limit_type = 0,
@@ -731,7 +731,7 @@ pg.item_data_frame = {
 	},
 	[1008] = {
 		name = "Dazzling Steps",
-		gain_by = "",
+		gain_by = "Private Quarters: New Jersey",
 		time_second = 0,
 		id = 1008,
 		time_limit_type = 0,
