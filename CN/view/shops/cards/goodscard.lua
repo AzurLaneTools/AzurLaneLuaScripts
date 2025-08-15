@@ -33,7 +33,7 @@ slot0.setLevelMask = function(slot0, slot1)
 	setActive(slot0.mask, slot3)
 
 	if slot3 then
-		setText(slot0.levelTag, tostring(slot2) .. i18n("shop_charge_level_limit"))
+		setScrollText(slot0.levelTag:Find("TextGo/Text"), tostring(slot2) .. i18n("shop_charge_level_limit"))
 		setActive(slot0.levelTag, true)
 		setActive(slot0.selloutTag, false)
 

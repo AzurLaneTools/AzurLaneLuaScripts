@@ -114,6 +114,7 @@ slot0.init = function(slot0)
 			go = slot0:findTF("shop1List/specialShop/shop1Tg", slot1)
 		}
 	}
+	GetComponent(slot0:findTF("shop1List/supplyShop/shop2List/supplyShop", slot1), typeof(Toggle)).isOn = true
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
 	slot0:LoadMingshi()
@@ -244,6 +245,13 @@ slot0.didEnter = function(slot0)
 			uv0.contextData.shop1 = nil
 			uv0.contextData.shop2 = nil
 
+			if uv0.shop1 == "recommendation" then
+				return
+			end
+
+			uv0.shop1 = "recommendation"
+			uv0.shop2 = nil
+
 			uv0:ShowChargeWarp(false)
 			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 			uv0:emit(NewShopMainMediator.OPEN_LAYER, NewRecommendationShopLayer, NewRecommendationShopMediator)
@@ -254,6 +262,12 @@ slot0.didEnter = function(slot0)
 	onToggle(slot0, slot0:findTF("shop1List/skinShop/shop2List/newSkin", slot0.buttonList), function (slot0)
 		if slot0 then
 			uv0.contextData.shop2 = "newSkin"
+
+			if uv0.shop2 == "newSkin" then
+				return
+			end
+
+			uv0.shop2 = "newSkin"
 
 			uv0:ShowChargeWarp(false)
 			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
@@ -267,6 +281,12 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0.contextData.shop2 = "permanentSkin"
 
+			if uv0.shop2 == "permanentSkin" then
+				return
+			end
+
+			uv0.shop2 = "permanentSkin"
+
 			uv0:ShowChargeWarp(false)
 			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 			uv0:emit(NewShopMainMediator.OPEN_LAYER, LatestSkinShopLayer, LatestSkinShopMediator, {
@@ -279,6 +299,12 @@ slot0.didEnter = function(slot0)
 		setActive(uv0:findTF("shop1List/skinShop/shop2List", uv0.buttonList), slot0)
 
 		if slot0 then
+			if uv0.shop1 == "skinShop" then
+				return
+			end
+
+			uv0.shop1 = "skinShop"
+
 			if uv0.contextData.shop1 and uv0.contextData.shop2 then
 				triggerToggle(uv0.buttonList:Find("shop1List/skinShop/shop2List/" .. uv0.contextData.shop2), true)
 			else
@@ -300,6 +326,8 @@ slot0.didEnter = function(slot0)
 
 				uv0.contextData.shop1 = nil
 				uv0.contextData.shop2 = nil
+				uv0.shop1 = nil
+				uv0.shop2 = nil
 
 				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
 			end
@@ -341,6 +369,8 @@ slot0.didEnter = function(slot0)
 
 				uv0.contextData.shop1 = nil
 				uv0.contextData.shop2 = nil
+				uv0.shop1 = nil
+				uv0.shop2 = nil
 
 				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
 			end
@@ -622,6 +652,9 @@ slot0.SwitchPainting = function(slot0, slot1)
 
 	if slot1 then
 		slot0:StopLive2dTimer()
+
+		slot0.chatFlag = nil
+
 		slot0:stopCV()
 		setActive(slot0.stamp, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
