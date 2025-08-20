@@ -116,12 +116,11 @@ slot0.SetPainting = function(slot0)
 			slot0, slot1, slot2 = uv0:GetPaintingEnterVoice()
 
 			uv0.contextData.paintingView:Chat(slot0, slot1, slot2, true)
-		end)
-		onButton(slot0, slot0.contextData.paintingView.touch, function ()
+		end, function ()
 			slot0, slot1, slot2 = uv0:GetPaintingTouchVoice()
 
 			uv0.contextData.paintingView:Chat(slot0, slot1, slot2, false)
-		end, SFX_PANEL)
+		end)
 	end
 end
 

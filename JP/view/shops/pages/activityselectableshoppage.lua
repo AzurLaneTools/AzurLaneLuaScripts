@@ -20,7 +20,6 @@ end
 
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
-	slot2.tagImg.raycastTarget = false
 
 	onButton(slot0, slot2.tf, function ()
 		if uv0.goodsVO:Selectable() then

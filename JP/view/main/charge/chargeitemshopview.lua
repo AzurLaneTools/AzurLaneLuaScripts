@@ -33,6 +33,19 @@ end
 slot0.initUI = function(slot0)
 	slot0.contextTF = slot0:findTF("scroll")
 	slot0.lScrollRect = GetComponent(slot0.contextTF, "LScrollRect")
+	slot0.scrollContent = slot0:findTF("scroll/content")
+	slot0.scrollRectTF = GetComponent(slot0.scrollContent, typeof(RectTransform))
+	slot0.layoutGroup = GetComponent(slot0.scrollContent, typeof(GridLayoutGroup))
+	slot1 = slot0.scrollRectTF.rect.width
+	slot2 = slot0.layoutGroup.cellSize.x
+
+	if slot1 % slot2 / math.floor(slot1 / slot2) < 12 then
+		slot3 = slot3 - 1
+		slot5 = (slot1 - slot2 * slot3) / slot3
+	end
+
+	slot0.layoutGroup.spacing = Vector2(slot5, slot5)
+	slot0.layoutGroup.padding.left = slot5 / 2
 	slot0.cardTable = {}
 	slot0.cardList = {}
 
