@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			flashout = {
 				dur = 1,
 				black = true,

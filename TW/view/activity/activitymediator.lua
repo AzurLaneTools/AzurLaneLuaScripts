@@ -656,7 +656,7 @@ slot0.showNextActivity = function(slot0)
 			slot0:showNextActivity()
 		end
 	elseif not slot0.viewComponent.activity then
-		slot0.viewComponent:verifyTabs(slot0.contextData.id or slot0.contextData.type and checkExist(_.detect(slot1:getPanelActivities(), function (slot0)
+		slot0.viewComponent:verifyTabs(slot0.contextData.id or slot0.contextData.type and checkExist(_.detect(slot0:getDisplayActivity(), function (slot0)
 			return slot0:getConfig("type") == uv0.contextData.type
 		end), {
 			"id"

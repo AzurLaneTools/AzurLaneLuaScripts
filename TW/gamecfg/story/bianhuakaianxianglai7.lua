@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"重樱■■·■■■■",
+					"重櫻■■·■■■■",
 					1
 				},
 				{
-					"■■■■赏花会",
+					"■■■■賞花會",
 					2
 				},
 				{
-					"■■■■■■■■■■",
+					"■■■■■■■■■■■",
 					3
 				}
 			},
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			bgm = "story-tiancheng",
-			say = "石板路上，两个红色的身影正在花海中穿行。",
+			say = "石板路上，兩個紅色的身影正在花海中穿梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人~已经能看到亭子了！",
+			say = "姐姐大人~已經看得到亭子了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看上去赏花会已经开始了……",
+			say = "看起來賞花會已經開始了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过位置还留着，看来我们也没有迟到很久。",
+			say = "不過位置還留著，看來我們也沒遲到很久。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，让诸位久等了。",
+			say = "抱歉，讓諸位久等了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非常抱歉，让诸位久等了！",
+			say = "非常抱歉，讓各位久等了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,11 +152,11 @@ return {
 			portrait = 301300,
 			side = 2,
 			bgName = "bg_map_tiancheng",
-			actorName = "神风",
+			actorName = "神風",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，我就说{namecode:161:天城}大人本日虽会迟到，但不会错过吧。",
+			say = "妳看，我就說天城大人本日雖會遲到，但不會錯過吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,11 +170,11 @@ return {
 			portrait = 301300,
 			side = 2,
 			bgName = "bg_map_tiancheng",
-			actorName = "神风",
+			actorName = "神風",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你输了，点心拿来。",
+			say = "妳輸了，點心拿來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都和你说了，别和她打赌。",
+			say = "都跟妳說了，別跟她打賭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			portrait = 302140,
 			actorName = "那珂",
 			hidePaintObj = true,
-			say = "呜呜呜……给。",
+			say = "嗚嗚嗚……給妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 306030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}大人，{namecode:91:赤城}大人，欢迎两位本日赏光而来。",
+			say = "天城大人，赤城大人，歡迎兩位本日賞光而來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让你久等了，{namecode:89:凤翔}大人。",
+			say = "讓妳久等了，鳳翔大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像没看到{namecode:82:三笠}大人的身影，她还没到么？",
+			say = "好像沒看到三笠大人的身影，她還沒到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			actor = 306030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}她在来的路上被抓去参加紧急会议了。",
+			say = "三笠她在來的路上被抓去參加緊急會議了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 306030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还担心你这边也出现了同样的“惨状”呢……",
+			say = "我還擔心妳這邊也出現了同樣的「慘狀」呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 306030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说来，是路上遇到了突发事件？",
+			say = "這麼說來，是路上遇到了突發事件？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个嘛……",
+			say = "這個嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多半是在家里照顾妹妹耽误了太长时间呗。",
+			say = "多半是在家裡照顧妹妹耽誤了太長時間唄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}的妹妹可是出了名的让人不省心呢~",
+			say = "天城的妹妹可是出了名的讓人不省心呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好{namecode:82:三笠}前辈没来，不然看你这么不守时，肯定得好好说教你一下。",
+			say = "還好三笠前輩沒來，不然看你這麼不守時，一定得好好說教妳一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么你这个白毛老妖怪也来了啊！",
+			say = "為什麼你這個白毛老妖怪也來了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我收到邀请函不是理所当然~",
+			say = "我收到邀請函不是理所當然~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过某些人是不是因为沾了自己姐姐的光就说不定了~",
+			say = "不過某些人是不是因為沾了妹妹的光就說不定了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~原来{namecode:81:土佐}的邀请函是这么来的啊~",
+			say = "啊~原來土佐的邀請函是這麼來的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,11 +503,11 @@ return {
 			portrait = 305080,
 			side = 2,
 			bgName = "bg_map_tiancheng",
-			actorName = "{namecode:81:土佐}",
+			actorName = "土佐",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……请不要扩大火力伤及无辜，谢谢。",
+			say = "……請不要擴大火力傷及無辜，謝謝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、几天不见嘴巴倒是厉害了不少！",
+			say = "妳、幾天不見嘴巴倒是厲害了不少！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都是跟那个老——",
+			say = "都是跟那個老——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老……老谋深算的{namecode:161:天城}学的吧！",
+			say = "老……老謀深算的天城學的吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，先让我们入座吧，可以么，{namecode:92:加贺}大人？",
+			say = "好啦，先讓我們入座吧，可以嗎，加賀大人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……干嘛要问我，请自便。",
+			say = "……幹嘛要問我，請自便。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "红衣少女做了个鬼脸，随{namecode:161:天城}前往了自己的座位。",
+			say = "紅衣少女做了個鬼臉，隨天城前往了自己的座位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "左右摇动的尾巴宣告着少女此刻胜利的心情。",
+			say = "左右搖動的尾巴宣告少女此刻勝利的心情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			bgm = "theme-akagi-inside",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "落座后，红衣少女发现自己正身处一片花海之中。",
+			say = "落座後，紅衣少女發現自己正身處一片花海之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}，我在路上摘了朵花给你。",
+			say = "赤城，我在路上摘了朵花給妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "你看这是什么？",
+			say = "妳看這是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "一抹朱红从少女的茶杯中绽放。",
+			say = "一抹朱紅從少女的茶杯中綻放。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这朵花……难道是彼岸花？",
+			say = "這朵花……難道是彼岸花？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "没错。",
+			say = "沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "彼岸花，艳丽、张扬、有毒。",
+			say = "彼岸花，艷麗、張揚、有毒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "就像你一样，不是么？",
+			say = "就像妳一樣，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像我一样……",
+			say = "像我一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			actor = 900298,
 			actorName = "天城？",
 			hidePaintObj = true,
-			say = "让彼岸花开满世界，让这抹朱红点燃世界吧。",
+			say = "讓彼岸花開滿世界，讓這抹朱紅點燃世界吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

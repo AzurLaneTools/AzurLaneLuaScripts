@@ -12,7 +12,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位请举杯——",
+			say = "各位請舉杯——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们一同为了我们的外交成就，干杯~！",
+			say = "讓我們一同為了我們的外交成就，乾杯~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,19 +63,19 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯~",
+			say = "乾杯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "撒丁帝国众人",
+			actorName = "薩丁帝國眾人",
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯！！",
+			say = "乾杯！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "装饰华丽的大厅中，一场属于撒丁帝国内部的宴会正在热烈进行着。",
+			say = "裝飾華麗的大廳中，一場屬於薩丁帝國內部的宴會正在熱烈進行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "联盟合并的会议在我们的协调下正如火如荼地召开。",
+			say = "聯盟合併的會議正在我們的協調下正如火如荼地召開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与鸢尾盟约的成功签订，既是各方对于我们协调人身份的最大认可。",
+			say = "與鳶尾盟約的成功簽訂，既是各方對於我們協調人身分的最大認可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "也是一次我们外交能力的充分展现。",
+			say = "也是一次我們外交能力的充分展現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在这里衷心感谢诸位所做出的贡献。",
+			say = "我在這裡衷心感謝諸位所做的貢獻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~这样一来，不论今后局势如何变化，我们都有应对的把握了。",
+			say = "哼哼~這樣一來，不論今後局勢如何變化，我們都有應對的把握了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 602010,
-			say = "这应该是鸢尾合并之后签订的第一个外交协议吧……还是如此重量级的。",
+			say = "這應該是鳶尾合併之後簽訂的第一個外交協議吧……還是如此重量級的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么会选我们呢……？",
+			say = "為什麼會選我們呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这还用问，肯定是看到了我们撒丁帝国的潜力。",
+			say = "這還用問，肯定是看到了我們薩丁帝國的潛力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从博览会之后，随着我们在国际舞台上的频繁亮相，我们的影响力是蒸蒸日上。",
+			say = "自從博覽會之後，隨著我們在國際舞台上的頻繁亮相，我們的影響力是蒸蒸日上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今后，说不定能在合并后的联盟内成为举足轻重的一极呢。",
+			say = "今後，說不定能在合併後的聯盟內成為舉足輕重的一極。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们如今取得的成就离不开大家的齐心协力，不过现在只是一个开始。",
+			say = "我們如今所取得的成就離不開大家的齊心協力，不過現在只是個開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "为了帝国的今后，还需要大家继续努力，不要松懈才是。",
+			say = "為了帝國的今後，還需要大家繼續努力，不要鬆懈才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就让我们再次共同举杯。",
+			say = "那就讓我們再次共同舉杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为了撒丁帝国的伟大与复兴，干杯！",
+			say = "為了薩丁帝國的偉大與復興，乾杯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "干杯~！",
+			say = "乾杯~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actorName = "撒丁帝国众人",
+			actorName = "薩丁帝國眾人",
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯！！",
+			say = "乾杯！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

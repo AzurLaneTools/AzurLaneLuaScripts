@@ -162,6 +162,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707042,
 		9707043,
 		9707044,
+		9707051,
+		9707052,
+		9707053,
+		9707054,
 		9707071,
 		9707072,
 		9707073,
@@ -2794,6 +2798,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707044,
 		item1 = 21033,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707051] = {
+		breakout_view = "習得技能【搖曳之火·{namecode:97}】/所有轟炸機+1/轟炸機效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707051,
+		item1 = 21041,
+		level = 10,
+		weapon_ids = {
+			60331,
+			54014
+		}
+	},
+	[9707052] = {
+		breakout_view = "機庫容量+1/所有魚雷機+1/戰鬥機效率提高10%",
+		item2 = 21001,
+		pre_id = 9707051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707052,
+		item1 = 21041,
+		level = 30,
+		weapon_ids = {
+			60332,
+			54014,
+			60332,
+			54014
+		}
+	},
+	[9707053] = {
+		breakout_view = "【搖曳之火·{namecode:97}】升級/所有艦載機+1/魚雷機效率提高15%",
+		item2 = 21001,
+		pre_id = 9707052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707053,
+		item1 = 21041,
+		level = 70,
+		weapon_ids = {
+			60333,
+			54015,
+			60333,
+			54015
+		}
+	},
+	[9707054] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9707053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707054,
+		item1 = 21041,
 		level = 0,
 		weapon_ids = {}
 	},

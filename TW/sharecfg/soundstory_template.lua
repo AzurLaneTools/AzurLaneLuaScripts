@@ -612,7 +612,60 @@ pg.soundstory_template = {
 			}
 		}
 	},
-	[16] = {
+	{
+		story_pic = "",
+		name = "雨霧迷濛",
+		story_resource_JP = "soundStory15_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "優木加奈",
+		audition_resource_JP = "ss-10710-1",
+		overview = "在無人的公車站裡躲避暴雨，\n濡濕的衣物、肌膚相貼的溫度……再多停留一刻，可以嗎？",
+		order = 2,
+		audition_text = "靠近你……到彼此觸手可及的距離……在能感受到你呼吸的位置……",
+		ship_id = 10710,
+		id = 15,
+		captions_color = "#2d3a45",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		story_pic = "",
 		name = "床邊的瑪麗小姐",
 		story_resource_JP = "soundStory16_JP",
@@ -656,6 +709,59 @@ pg.soundstory_template = {
 					2025,
 					8,
 					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "拉近關係的秘訣",
+		story_resource_JP = "soundStory17_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "春花蘭",
+		audition_resource_JP = "ss-70207-1",
+		overview = "溫泉之中，正準備依照計畫一步步發動攻擊的伏羅希洛夫，\n卻在關鍵時刻出了意外……",
+		order = 2,
+		audition_text = "這一定也是一種特別的緣分吧……和你的相遇，一起享受這美好的時光……",
+		ship_id = 70207,
+		id = 17,
+		captions_color = "#32353a",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
 				},
 				{
 					23,
@@ -893,7 +999,9 @@ pg.soundstory_template = {
 		12,
 		13,
 		14,
+		15,
 		16,
+		17,
 		19,
 		20,
 		21,

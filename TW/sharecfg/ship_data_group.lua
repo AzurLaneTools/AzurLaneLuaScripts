@@ -2261,6 +2261,9 @@ pg.ship_data_group = setmetatable({
 		[970507] = {
 			30040
 		},
+		[970705] = {
+			30041
+		},
 		[970305] = {
 			30042
 		},
@@ -3035,6 +3038,7 @@ pg.ship_data_group = setmetatable({
 			30038,
 			30039,
 			30040,
+			30041,
 			30042,
 			30043,
 			30046,
@@ -3795,6 +3799,7 @@ pg.ship_data_group = setmetatable({
 		30038,
 		30039,
 		30040,
+		30041,
 		30042,
 		30043,
 		30046,
@@ -17051,6 +17056,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17081,6 +17097,16 @@ pg.base.ship_data_group = {
 				"限時活動：碧海光粼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -18339,6 +18365,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -18481,6 +18518,17 @@ pg.base.ship_data_group = {
 				"限時活動：碧海光粼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21530,6 +21578,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23085,6 +23144,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23510,6 +23580,17 @@ pg.base.ship_data_group = {
 				"限時活動：逆轉彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24024,6 +24105,17 @@ pg.base.ship_data_group = {
 				"限時活動：逆轉彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24955,6 +25047,16 @@ pg.base.ship_data_group = {
 				"限時活動：逆轉彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -34263,6 +34365,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9705071
+					}
+				},
+				0
+			}
+		}
+	},
+	[30041] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970705,
+		index_id = 30041,
+		code = 30041,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707051
 					}
 				},
 				0

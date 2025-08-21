@@ -242,7 +242,7 @@ pg.base.box_data_template = {
 		effect_id = 10105
 	},
 	[1001] = {
-		effect_arg = 0,
+		effect_arg = 1,
 		name = "事件",
 		type = 2,
 		id = 1001,
@@ -250,7 +250,7 @@ pg.base.box_data_template = {
 		effect_id = 1
 	},
 	[1002] = {
-		effect_arg = 0,
+		effect_arg = 1,
 		name = "事件",
 		type = 2,
 		id = 1002,
@@ -258,7 +258,7 @@ pg.base.box_data_template = {
 		effect_id = 2
 	},
 	[1003] = {
-		effect_arg = 0,
+		effect_arg = 1,
 		name = "事件",
 		type = 2,
 		id = 1003,
@@ -266,7 +266,7 @@ pg.base.box_data_template = {
 		effect_id = 3
 	},
 	[1004] = {
-		effect_arg = 0,
+		effect_arg = 1,
 		name = "事件",
 		type = 2,
 		id = 1004,

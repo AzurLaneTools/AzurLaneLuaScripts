@@ -15802,6 +15802,712 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5280] = {
+		mark = 20250821,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5280,
+		page_core = "",
+		config_data = {
+			19919
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5281] = {
+		mark = 20250821,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5281,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5282] = {
+		mark = 20250821,
+		type = 87,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "maoxiV3_frame",
+		id = 5282,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV3FrameLightPage",
+			ui_name = "MaoxiV3FrameLightPage"
+		}
+	},
+	[5283] = {
+		mark = 20250821,
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5283,
+		page_core = "",
+		config_data = {
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			59546
+		}
+	},
+	[5284] = {
+		mark = 20250821,
+		type = 3,
+		login_pop = 0,
+		config_id = 56,
+		is_show = 44,
+		config_client = "",
+		title_res_tag = "YidaliV2_login",
+		id = 5284,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LoginSignRe1Page",
+			ui_name = "LoginSignRe1Page"
+		}
+	},
+	[5285] = {
+		mark = 20250821,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5285,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5286] = {
+		mark = 20250821,
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 5285,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5286,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5287] = {
+		mark = 20250821,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 48,
+		title_res_tag = "maoxiV3_main",
+		id = 5287,
+		page_core = "",
+		config_data = {
+			1620001,
+			1620002,
+			1620003,
+			1620004,
+			1620005,
+			1620006
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV3MainPage",
+			ui_name = "MaoxiV3MainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10",
+			PTID = 403
+		}
+	},
+	[5288] = {
+		mark = 20250821,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5288,
+		page_core = "",
+		config_data = {
+			1620021,
+			1620022,
+			1620023,
+			1620024,
+			1620025,
+			1620026,
+			1620041,
+			1620051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5289] = {
+		mark = 20250821,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5289,
+		page_core = "",
+		config_data = {
+			19900,
+			19901,
+			19902,
+			19903,
+			19904,
+			19905,
+			19906,
+			19907,
+			19908,
+			19909,
+			19910,
+			19911,
+			19912,
+			19913,
+			19914,
+			19915,
+			19916,
+			19917,
+			19918,
+			19919
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5290] = {
+		mark = 20250821,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 403,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 5290,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5291] = {
+		mark = 20250821,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5291,
+		page_core = "",
+		config_data = {
+			1625001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5292] = {
+		mark = 20250821,
+		type = 74,
+		login_pop = 0,
+		config_id = 5292,
+		is_show = 45,
+		config_client = "",
+		title_res_tag = "maoxiV3_pt",
+		id = 5292,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV3PtPage",
+			ui_name = "MaoxiV3PtPage"
+		}
+	},
+	[5293] = {
+		mark = 20250821,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5293,
+		page_core = "",
+		config_data = {
+			2471,
+			2472,
+			2473,
+			2474,
+			2475,
+			2476,
+			2477,
+			2478,
+			2479,
+			2480,
+			2481,
+			2482,
+			2483,
+			2484,
+			2485,
+			2486,
+			2487,
+			2488,
+			2489,
+			2490,
+			2491,
+			2492
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_maoxiv3",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 403,
+			use_secretary = false,
+			painting = "jifu_pt"
+		}
+	},
+	[5294] = {
+		mark = 20250821,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5294,
+		page_core = "",
+		config_data = {
+			{
+				31970,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5295] = {
 		mark = 20240418,
 		time = "stop",
@@ -15822,6 +16528,102 @@ pg.activity_template = {
 			ui_name = "VotingResulitAwardPage"
 		},
 		config_client = {}
+	},
+	[5305] = {
+		mark = 20250821,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 40,
+		title_res_tag = "bianhuakaianxianglai",
+		id = 5305,
+		page_core = "",
+		config_data = {
+			{
+				19967,
+				19968
+			},
+			{
+				19969,
+				19970
+			},
+			{
+				19971,
+				19972
+			},
+			{
+				19973,
+				19974
+			},
+			{
+				19975,
+				19976
+			},
+			{
+				19977,
+				19978
+			},
+			{
+				19979,
+				19980
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					11
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LycorisActivationPage",
+			ui_name = "LycorisActivationPage"
+		},
+		config_client = {
+			story = {
+				{
+					"BIANHUAKAIANXIANGLAI1"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI2"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI3"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI4"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI5"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI6"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI7"
+				}
+			}
+		}
 	},
 	[5301] = {
 		mark = 20240815,
@@ -29501,7 +30303,7 @@ pg.activity_template = {
 		type = 88,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 2,
+		is_show = 3,
 		title_res_tag = "",
 		id = 50043,
 		page_core = "ALYCoreActivityUI",
@@ -30823,7 +31625,7 @@ pg.activity_template = {
 		type = 127,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 2,
 		title_res_tag = "",
 		id = 50063,
 		page_core = "ALYCoreActivityUI",
@@ -31302,6 +32104,78 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[50068] = {
+		mark = 20250821,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "forestframe",
+		id = 50068,
+		page_core = "",
+		config_data = {
+			{
+				21788,
+				21789
+			},
+			{
+				21790,
+				21791
+			},
+			{
+				21792,
+				21793
+			},
+			{
+				21794,
+				21795
+			},
+			{
+				21796,
+				21797
+			},
+			{
+				21798,
+				21799
+			},
+			{
+				21800,
+				21801
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					11
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ForestVacationSkinPage",
+			ui_name = "ForestVacationSkinPage"
 		}
 	},
 	[7104] = {
@@ -71000,6 +71874,7 @@ pg.activity_template = {
 			5223,
 			5240,
 			5273,
+			5285,
 			5307,
 			5352,
 			5401,
@@ -71079,6 +71954,7 @@ pg.activity_template = {
 			5191,
 			5242,
 			5243,
+			5284,
 			5348,
 			5782,
 			5960,
@@ -71260,6 +72136,8 @@ pg.activity_template = {
 			5263,
 			5269,
 			5272,
+			5280,
+			5289,
 			5312,
 			5315,
 			5320,
@@ -71590,6 +72468,7 @@ pg.activity_template = {
 			5140,
 			5192,
 			5212,
+			5305,
 			5324,
 			5341,
 			5360,
@@ -71610,6 +72489,7 @@ pg.activity_template = {
 			5979,
 			5982,
 			5990,
+			50068,
 			6000,
 			6001,
 			6002,
@@ -71706,6 +72586,7 @@ pg.activity_template = {
 			5230,
 			5238,
 			5245,
+			5293,
 			5317,
 			5354,
 			5508,
@@ -71871,6 +72752,7 @@ pg.activity_template = {
 			5247,
 			5270,
 			5274,
+			5292,
 			5308,
 			5314,
 			5321,
@@ -72052,6 +72934,8 @@ pg.activity_template = {
 			5221,
 			5222,
 			5233,
+			5287,
+			5288,
 			5301,
 			5331,
 			5332,
@@ -72173,6 +73057,7 @@ pg.activity_template = {
 			5176,
 			5231,
 			5271,
+			5294,
 			5313,
 			5343,
 			5410,
@@ -72244,6 +73129,7 @@ pg.activity_template = {
 			5174,
 			5226,
 			5235,
+			5291,
 			5303,
 			5334,
 			5503,
@@ -72315,6 +73201,7 @@ pg.activity_template = {
 			5227,
 			5236,
 			5268,
+			5290,
 			5302,
 			5333,
 			5408,
@@ -72396,6 +73283,7 @@ pg.activity_template = {
 			5065,
 			5163,
 			5241,
+			5283,
 			41251,
 			41282,
 			41353,
@@ -72490,6 +73378,7 @@ pg.activity_template = {
 			5104,
 			5162,
 			5211,
+			5282,
 			5340,
 			5513,
 			5552,
@@ -72525,6 +73414,7 @@ pg.activity_template = {
 			5161,
 			5213,
 			5249,
+			5281,
 			5316,
 			5342,
 			5506,
@@ -72836,6 +73726,7 @@ pg.activity_template = {
 			5149,
 			5166,
 			5232,
+			5286,
 			5353,
 			5574,
 			5725,
@@ -73580,7 +74471,23 @@ pg.activity_template = {
 		5272,
 		5273,
 		5274,
+		5280,
+		5281,
+		5282,
+		5283,
+		5284,
+		5285,
+		5286,
+		5287,
+		5288,
+		5289,
+		5290,
+		5291,
+		5292,
+		5293,
+		5294,
 		5295,
+		5305,
 		5301,
 		5302,
 		5303,
@@ -73902,6 +74809,7 @@ pg.activity_template = {
 		50065,
 		50066,
 		50067,
+		50068,
 		7104,
 		7501,
 		8009,

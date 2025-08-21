@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "yumia-81",
+		default_bgm = "battle-deepecho",
 		special_bgm = "",
 		bgm = "yumia-81"
 	},
@@ -2024,6 +2024,21 @@ pg.voice_bgm = {
 		default_bgm = "yumia-az-theme-pv",
 		special_bgm = "",
 		bgm = "yumia-az-theme-pv"
+	},
+	KearsargeTecCatchUpPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	Z46SkinRePage = {
+		default_bgm = "theme-tulipa",
+		special_bgm = "",
+		bgm = "theme-tulipa"
+	},
+	ForestVacationSkinPage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
 	},
 	NewSkinShopScene = {
 		default_bgm = "yumia-81",

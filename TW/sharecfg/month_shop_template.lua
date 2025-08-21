@@ -85,7 +85,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -233,7 +236,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -381,7 +387,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -529,7 +538,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -677,7 +689,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -825,7 +840,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -973,7 +991,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -1121,7 +1142,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -1269,7 +1293,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -1417,7 +1444,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -1565,7 +1595,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,
@@ -1713,7 +1746,10 @@ pg.month_shop_template = {
 			10086,
 			10088,
 			10083,
-			10084
+			10084,
+			10089,
+			10090,
+			10091
 		},
 		blueprint_shop_goods = {
 			11004,

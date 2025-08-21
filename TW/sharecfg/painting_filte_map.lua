@@ -3563,11 +3563,6 @@ pg.painting_filte_map = {
 		key = "dafeng",
 		res_list = {
 			"painting/dafeng_tex",
-			"painting/dafeng_alter_tex",
-			"painting/dafeng_alter_rw_tex",
-			"painting/dafeng_alter_n_tex",
-			"painting/dafeng_alter_n",
-			"painting/dafeng_alter",
 			"painting/dafeng"
 		}
 	},
@@ -3625,6 +3620,16 @@ pg.painting_filte_map = {
 			"painting/dafeng_7_n_rw_tex",
 			"painting/dafeng_7_n",
 			"painting/dafeng_7"
+		}
+	},
+	dafeng_alter = {
+		key = "dafeng_alter",
+		res_list = {
+			"painting/dafeng_alter_tex",
+			"painting/dafeng_alter_rw_tex",
+			"painting/dafeng_alter_n_tex",
+			"painting/dafeng_alter_n",
+			"painting/dafeng_alter"
 		}
 	},
 	dafeng_h = {

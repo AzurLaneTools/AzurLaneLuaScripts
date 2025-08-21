@@ -173,6 +173,7 @@ pg.memory_group = setmetatable({
 		280,
 		281,
 		282,
+		283,
 		284,
 		285,
 		286,
@@ -4317,6 +4318,24 @@ pg.base.memory_group = {
 			3471,
 			3472,
 			3473
+		}
+	},
+	[283] = {
+		title = "彼岸花開暗香來",
+		subtype = 1,
+		link_event = 5305,
+		type = 2,
+		id = 283,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			3491,
+			3492,
+			3493,
+			3494,
+			3495,
+			3496,
+			3497
 		}
 	},
 	[284] = {

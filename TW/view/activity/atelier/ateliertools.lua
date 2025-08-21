@@ -5,7 +5,7 @@ return {
 		slot5 = true
 
 		if tonumber(slot2.unlockStageID) then
-			slot5 = getProxy(ChapterProxy):getChapterById(slot3, true) and slot7.isClear(slot7) and slot6:getMapById(slot6:getLastMapForActivity())
+			slot5 = getProxy(ChapterProxy):getChapterById(slot3, true) and slot7.isClear(slot7)
 		end
 
 		if slot4 then

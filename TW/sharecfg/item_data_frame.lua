@@ -621,6 +621,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>在別墅島上度過一個完美假期吧！ </color>透過參與「夏日重建！海島別墅渡假計畫！」活動獲取",
 		scene = {}
 	},
+	[611] = {
+		name = "林間清風",
+		gain_by = "",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>感受著林間的清風，來一場別樣的渡假體驗吧~</color>透過參與「林間渡假準備」活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		gain_by = "",
@@ -862,6 +871,7 @@ pg.item_data_frame = {
 		607,
 		609,
 		610,
+		611,
 		1001,
 		1002,
 		1003,

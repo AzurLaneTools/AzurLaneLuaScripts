@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沿著腐蝕河流逆流而上，眾人來到了一片廢棄的村莊。",

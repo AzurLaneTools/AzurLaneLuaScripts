@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			say = "啊——海風與浪花，在大海上肆意馳騁，才是尋寶獵人的生存之道啊！",

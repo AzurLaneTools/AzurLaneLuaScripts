@@ -9,7 +9,7 @@ return {
 			bgm = "story-tiancheng",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:82:三笠}宅邸附近",
+			say = "重櫻本島·三笠宅邸附近",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "距离宅邸大门有段距离的长椅上，白衣少女双手托腮郁闷地思索着。",
+			say = "距離宅邸大門有段距離的長椅上，白衣少女雙手托腮鬱悶地思索著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不光是大前辈……{namecode:74:长门}大人和姐姐的通讯也全都打不通。",
+			say = "不只是大前輩……長門大人和姊姊的通訊也全都打不通。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算临时有事出门……宅子里也不至于一个人都不留吧。",
+			say = "就算臨時有事出門……宅子裡也不至於一個人都不留吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且看上去屋里明显是有人的样子。不但亮着灯还……",
+			say = "而且看起來屋裡明顯是有人的樣子。不但亮著燈還……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还…………咦？",
+			say = "還…………咦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大前辈把院墙重新粉刷了么……？",
+			say = "大前輩把院牆重新粉刷了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……这么说来，这条路的路况以前有这么差么？",
+			say = "嗯……這麼說來，這條路的路況以前有這麼差嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有这些街边的小吃摊……上次来的时候，我怎么一点印象都没有。",
+			say = "還有這些街邊的小吃攤……上次來的時候，我怎麼一點印象都沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉姐姐大人，是我收拾时间太长了！",
+			say = "抱歉姊姊大人，是我收拾時間太長了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要迟到了……要被{namecode:82:三笠}前辈说教了……",
+			say = "要遲到了……要被三笠前輩說教了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……不着急。",
+			say = "呵呵……不急。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然迟到已经不可避免，那就以安全为第一位慢慢走过去吧。",
+			say = "既然遲到已經不可避免，那就以安全為第一位慢慢走過去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要是赶路太急把妆弄花了，岂不是白迟到了。",
+			say = "要是趕路太急把妝弄花了，豈不是白遲到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "恍惚间，白衣少女听到了一个似曾相识的声音。",
+			say = "恍惚間，白衣少女聽到了一個似曾相識的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "她急忙抬起头来张望，终于在街角处捕捉到了两个一闪而过的红色身影。",
+			say = "她急忙抬起頭來張望，終於在街角捕捉到了兩個一閃而過的紅色身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……刚才的声音好像确实是……但……",
+			say = "咦……剛才的聲音好像確實是……但……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不会吧……",
+			say = "不、不會吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "白衣少女急忙起身，向着红色身影消失的街角飞奔而去。",
+			say = "白衣少女急忙起身，朝著著紅色身影消失的街角飛奔而去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgm = "stopbgm",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "碰——（撞击声）",
+			say = "碰到——（撞擊聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "没事吧，小姑娘！",
+			say = "沒事吧，小女孩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……这不是{namecode:96:瑞鹤}么，你这么急急忙忙地跑，是迷路了么？",
+			say = "欸……這不是瑞鶴嗎，妳這麼急急忙忙地跑來，是迷路了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怪不得在路口等不到你……",
+			say = "怪不得在路口等不到妳……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大、大前辈？！",
+			say = "大、大前輩？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您怎么会在这里？",
+			say = "您怎麼會在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？因为知道你今天要回来，所以特意来路口接你。",
+			say = "……嗯？因為知道妳今天要回來，所以特意來路口接妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里的路不太好走，最近道路施工又很频繁。",
+			say = "這裡的路不太好走，最近道路施工又很頻繁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大前辈您一直……等在这里？",
+			say = "大前輩您一直……等在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（奇怪……我明明就是从这条路来的当时绝对没有见到大前辈啊……）",
+			say = "（奇怪……我明明就是從這條路來的當時絕對沒有見到大前輩啊……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（而且四周的路……和刚才不一样了？！）",
+			say = "（而且四周的路……和剛才不一樣了？！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（路边的摊贩也不见了……？！）",
+			say = "（路邊的攤販也不見了……？！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这难道是……）",
+			say = "（這難道是……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……如果是以前，我可能只会觉得是不是太累眼花了。）",
+			say = "（……如果是以前，我可能只會覺得是不是太累眼花了。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（但是……这一路上的经历告诉我，刚刚看到的景象绝对不是眼花那么简单。）",
+			say = "（但是……這一路上的經驗告訴我，剛剛看到的景象絕對不是眼花那麼簡單。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这难道是……某种特殊的袭击么？）",
+			say = "（這難道是……某種特殊的攻擊嗎？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:96:瑞鹤}，你的表情很差，出什么事了么？",
+			say = "瑞鶴，妳的表情很差，出什麼事了呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大前辈，{namecode:74:长门}大人和姐姐她们现在在哪里？",
+			say = "大前輩，長門大人和姊姊她們現在在哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们都在宅子里等你呢，我没让她们出来。",
+			say = "她們都在宅子裡等妳呢，我沒讓她們出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼太好了……那我们就快回去吧。",
+			say = "呼太好了……那我們就快回去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,7 +748,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就在不久前，就在您的宅子门口，我经历了一件非同寻常的事……",
+			say = "就在不久前，就在您的宅子門口，我經歷了一件非同尋常的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想立刻分享给你们听！",
+			say = "我想立刻分享給妳們聽！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -9,7 +9,7 @@ return {
 			bgm = "china-party",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东煌·？？？",
+			say = "東煌·？？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "「朱雀坠九天」……没想到，寰昌的卜算这么快就应验了一半啊。",
+			say = "「朱雀墜九天」……沒想到，寰昌的卜算這麼快就應驗了一半啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，现在安塔迪卡的局势可是糟糕到夸张的地步了哦。",
+			say = "是啊，現在南極的局勢可是糟糕到誇張的地步了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎是因为观察者主机正处于危险之中，目前，各处海域的塞壬大军正在向着安塔迪卡集结。",
+			say = "似乎是因為觀察者主機正處於危險之中，目前，各處海域的塞壬大軍正在向南極集結。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它们正在多地同时修建一条圆环防线，意图将整个安塔迪卡大陆包围起来。",
+			say = "它們正在同時建造多環防線，意圖將整個南極大陸包圍起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，引发事件的幕后黑手似乎还没有放弃，安塔迪卡大陆上的战斗依然在持续。",
+			say = "同時，引發事件的幕後黑手似乎還沒有放棄，南極大陸上的戰鬥仍在持續。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过具体战况如何就不得而知了……",
+			say = "不過具體戰況如何就不得而知了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。目前指挥部已经撤离了安塔迪卡战区内的所有人员，暂停了一切科考活动。",
+			say = "嗯。目前指揮部已經撤離了南極戰區內的所有人員，暫停了一切科考活動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由白鹰、皇家，还有主动要求协同作战的铁血，一同在塞壬的防线外部部署力量。",
+			say = "由白鷹、皇家，還有主動要求協同作戰的鐵血，一同在塞壬的防線外部部署力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在监视安塔迪卡战况的同时，也防止可能的风险外溢。",
+			say = "在監視南極戰況的同時，也防止可能的風險外溢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 501010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真是风云诡谲的局势，一向稳定的安塔迪卡竟然会在转瞬间变成这样。",
+			say = "……真是風雲詭譎的局勢，一向穩定的南極竟然會在轉瞬間變成這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			actor = 501010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们建设安塔迪卡科考站的计划……也得无限期推迟了呢。",
+			say = "我們建造南極科研站的計劃……也得無限期推遲了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很遗憾，但这也是没办法的事。",
+			say = "很遺憾，但這也是沒辦法的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且不光是在安塔迪卡，全球各处海域中的塞壬也出现了一系列全新部署。",
+			say = "而且不光是在南極，全球各處海域中的塞壬也出現了一系列全新部署。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本被塞壬放弃的各处海域中，塞壬巡逻舰队重新出现了。",
+			say = "原本被塞壬放棄的各處海域中，塞壬巡邏艦隊重新出現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就连已经被指挥部通过摧毁构建者主机而彻底夺回控制权的NA海域中也是如此。",
+			say = "就連已經被指揮部透過摧毀構建者主機而徹底奪回控制權的NA海域中也是如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据指挥部提供的情报，这些巡逻队的型号虽然没有变化，但是智能得到了显著增强。",
+			say = "根據指揮部提供的情報，這些巡邏隊的型號雖然沒有變化，但是智慧得到了顯著增強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不但会主动避战，在被迫进行战斗的时候也展现出了与以往截然不同的战术能力。",
+			say = "不但會主動避戰，在被迫進行戰鬥的時候也展現了與以往截然不同的戰術能力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就好像随时随地，都被某个看不见的高阶塞壬所直接指挥一样。",
+			say = "就好像隨時隨地，都被某個看不見的高階塞壬所直接指揮一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 501010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "构建者的主机被重建了？",
+			say = "構建者的主機被重建了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也有所怀疑，不过指挥部的资料中并没有任何构建者的目击报告。",
+			say = "我也有所懷疑，不過指揮部的資料中並沒有任何構建者的目擊報告。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒不如说，资料中没有提到任何一个高阶塞壬的目击报告。",
+			say = "倒不如說，資料中沒有提到任何一個高階塞壬的目擊報告。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "活跃在各处海域中的只有棋子和量产型，似乎所有实验机关都不见了。",
+			say = "活躍在各處海域中的只有棋子和量產型，似乎所有實驗機關都不見了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总参谋部认为，净化者、测试者等高阶塞壬的消失是观察者将其力量主力集中至安塔迪卡的结果。",
+			say = "總參謀部認為，淨化者、測試者等高階塞壬的消失是觀察者將其力量主力集中至南極的結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而外部海域中塞壬常规力量的智能增强与行为模式改变可能与其背后操纵者的变更有关。",
+			say = "而外在海域中塞壬常規力量的智慧增強與行為模式改變可能與其背後操縱者的變更有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "观察者在专心应对安塔迪卡战局的同时，很可能将外部海域的管理权交给了另一个高阶塞壬。",
+			say = "觀察者在專心應對南極戰局的同時，很可能將外部海域的管理權交給了另一個高階塞壬。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而这个高阶塞壬，很有可能是一个我们曾经交手过、或尚未见过的仲裁机关。",
+			say = "而這個高階塞壬，很有可能是我們曾經交手過、或尚未見過的仲裁機關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			actor = 501010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总参谋部的分析很有道理……",
+			say = "總參謀部的分析很有道理……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "一个能给世界上全部塞壬量产型和棋子进行能力升级的仲裁机关……？",
+			say = "一個能為世界上全部塞壬量產型和棋子進行能力升級的仲裁機關……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还真是来了个不得了的强敌啊……",
+			say = "還真是來了個不得了的強敵啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "更糟的是，大风暴之外同样出现了高密度的塞壬巡逻队。",
+			say = "更糟的是，大風暴之外同樣出現了高密度的塞壬巡邏隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎是终于察觉到了我们正在解析大风暴的行为，并企图做些什么。",
+			say = "似乎是終於察覺到了我們正在解析大風暴的行為，並企圖做些什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "种种迹象都表明，寰昌在卜算中提到的另一个事件，将会出现远超此前预料的不确定性。",
+			say = "種種跡象都表明，寰昌在卜算中提到的另一個事件，將會出現遠超先前預料的不確定性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情况可能会变得极端糟糕。",
+			say = "情況可能會變得極端糟糕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "我懂了，今天叫我和鞍山来，是打算给我们新任务了。",
+			say = "我懂了，今天叫我和鞍山來，是打算給我們新任務了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，鉴于情况变化，总参谋部决定暂停你和鞍山级手头正在执行的任务。",
+			say = "沒錯，鑑於情況變化，總參謀部決定暫停妳和鞍山級手頭上正在執行的任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来一段时间，你们将加入济安带领的东海风暴解析舰队。",
+			say = "接下來一段時間，妳們將加入濟安帶領的東海風暴解析艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时鞍山，你们已经获得许可。",
+			say = "同時鞍山，妳們已經獲得許可。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当在前线遭遇到突发状况时，你们可以根据实际情况，自行决定是否使用先进设备。",
+			say = "當在前線遭遇到突發狀況時，妳們可以根據實際情況，自行決定是否使用先進設備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是这样，接下来一段时间就请诸位多关照了哦~",
+			say = "就是這樣，接下來一段時間就請諸位多關照了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "搭乘電梯離開起始區段後，一片蔚藍的大湖映入了眾人的眼簾。",

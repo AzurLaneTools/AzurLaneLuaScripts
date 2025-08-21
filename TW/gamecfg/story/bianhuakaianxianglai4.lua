@@ -9,7 +9,7 @@ return {
 			bgm = "theme-vichy-church",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾教国境内·某处",
+			say = "鳶尾教國境內·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "这是一座远离都市喧嚣的郊外小镇。",
+			say = "這是一座遠離都市喧囂的郊外小鎮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "平凡、安静，充满自然风光。",
+			say = "平凡、安靜，充滿自然風光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有地下密室、没有异常电波、没有可疑人员……",
+			say = "沒有地下密室、沒有異常電波、沒有可疑人員……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里也不是么……",
+			say = "這裡也不是嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧……没有情报也没有线索，只能靠运气大海捞针的局面还真是令人讨厌啊。",
+			say = "嘖……沒有情報也沒有線索，只能靠運氣大海撈針的局面還真是令人討厭啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官突然和鸢尾高层走得这么近……",
+			say = "指揮官突然和鳶尾高層走得這麼近……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是被抓到了什么把柄，就是双方共享了某个至关重要的秘密……",
+			say = "不是被抓到了什麼把柄，就是雙方共享了某個至關重要的秘密……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不论是哪种情况，都需要尽快查清原委才行……",
+			say = "不論是哪一種情況，都需要盡快查清原委才行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭是个极其危险的女人，指挥官真是不知厉害，羊送虎口……",
+			say = "克里蒙梭是個極度危險的女人，指揮官真是不知厲害，羊送虎口……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,10 +198,10 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_530",
-			actorName = "霞飞",
+			actorName = "霞飛",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢菲尔德小姐，没想到会在这里与你相遇。",
+			say = "謝菲爾德小姐，沒想到會在這裡與妳相遇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……霞飞。",
+			say = "……霞飛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢菲尔德小姐，你不是应该在会场负责皇家代表团的安全么？",
+			say = "謝菲爾德小姐，妳不是應該在會場負責皇家代表團的安全嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会来到这处偏僻的小镇。",
+			say = "怎麼會來到這裡偏僻的小鎮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们审判庭的会场安保工作做得很出色，让我在会场都没什么事可做了。",
+			say = "妳們審判庭的會場保全工作做得很出色，讓我在會場都沒什麼事可做了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 202081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我觉得不如来附近的景点转转，就当享受一下公款旅游。",
+			say = "所以我覺得不如來附近的景點轉轉，就當作享受一下公費旅遊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，多谢你对于审判庭工作的肯定。",
+			say = "呵呵，多謝妳對於審判庭工作的肯定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过工作摸鱼可不值得鼓励哦。",
+			say = "不過工作摸魚可不值得鼓勵哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，谢菲尔德小姐是客人，你能对鸢尾的景点有兴趣我还是很开心的。",
+			say = "當然，謝菲爾德小姐是客人，妳能對鳶尾的景點有興趣我還是很開心的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "碰到就是缘分，附近有一处我很喜欢的景点，要一起来么？",
+			say = "碰到就是緣分，附近有一個我很喜歡的景點，要一起來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "提供全程导游服务哦——",
+			say = "提供全程導覽服務哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1

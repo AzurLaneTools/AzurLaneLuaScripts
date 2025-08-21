@@ -19295,7 +19295,7 @@ _G.pg.base.equip_data_statistics[3680] = {
 	value_2 = 12,
 	icon = "3680",
 	attribute_2 = "cannon",
-	descrip = "说明未填写",
+	descrip = "中型火炮，可發射多種類型彈丸，令敵人聞風喪膽。",
 	rarity = 3,
 	damage = "5 x 3",
 	nationality = 96,
@@ -19426,7 +19426,7 @@ _G.pg.base.equip_data_statistics[3700] = {
 	value_2 = 25,
 	icon = "3680",
 	attribute_2 = "cannon",
-	descrip = "说明未填写",
+	descrip = "中型火炮，可發射多種類型彈丸，令敵人聞風喪膽。",
 	rarity = 4,
 	damage = "5 x 3",
 	nationality = 96,
@@ -19601,7 +19601,7 @@ _G.pg.base.equip_data_statistics[3720] = {
 	value_2 = 35,
 	icon = "3680",
 	attribute_2 = "cannon",
-	descrip = "中型火炮，可发射多种类型弹丸，令敌人闻风丧胆。",
+	descrip = "中型火炮，可發射多種類型彈丸，令敵人聞風喪膽。",
 	rarity = 5,
 	damage = "6 x 3",
 	nationality = 96,
@@ -19816,7 +19816,7 @@ _G.pg.base.equip_data_statistics[3740] = {
 	attribute_2 = "reload",
 	rarity = 4,
 	nationality = 96,
-	descrip = "用它们承载力量和勇气，轰碎敌人吧！",
+	descrip = "用它們承載力量和勇氣，轟碎敵人吧！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -19965,7 +19965,7 @@ _G.pg.base.equip_data_statistics[3760] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 96,
-	descrip = "扬帆起航，让我们征服大海！",
+	descrip = "揚帆起航，讓我們征服大海！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -165302,6 +165302,139 @@ _G.pg.base.equip_data_statistics[150293] = {
 	base = 150280,
 	id = 150293,
 	value_1 = "640",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150300] = {
+	name = "被定格的彼岸花",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "air",
+	value_2 = 0,
+	icon = "150300",
+	value_1 = "28",
+	rarity = 4,
+	descrip = "一朵彼岸花，被定格在了最美的瞬間。艷麗、張揚、有毒。",
+	nationality = 3,
+	ammo = 10,
+	value_3 = 0,
+	id = 150300,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60550,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		7
+	},
+	part_sub = {
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150301] = {
+	id = 150301,
+	value_1 = "32",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150302] = {
+	id = 150302,
+	value_1 = "36",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150303] = {
+	id = 150303,
+	value_1 = "40",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150304] = {
+	id = 150304,
+	value_1 = "44",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150305] = {
+	id = 150305,
+	value_1 = "49",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150306] = {
+	id = 150306,
+	value_1 = "53",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150307] = {
+	id = 150307,
+	value_1 = "57",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150308] = {
+	id = 150308,
+	value_1 = "61",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150309] = {
+	id = 150309,
+	value_1 = "65",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150310] = {
+	id = 150310,
+	value_1 = "70",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150311] = {
+	anti_siren = 100,
+	base = 150300,
+	id = 150311,
+	value_1 = "75",
 	hidden_skill_id = {}
 }
 

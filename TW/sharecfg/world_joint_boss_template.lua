@@ -266,7 +266,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "亞利桑那·META",
 		boss_level_id = 121,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "yalisangna",
 		meta_id = 970503,
@@ -512,6 +512,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "長門·META",
 		boss_level_id = 226,
+		state = "stop",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -528,12 +529,44 @@ pg.world_joint_boss_template = {
 				"戰鬥中會出現櫻花結界，<color=#92fc63>結界的效果會跟隨月虧月盈的狀態改變</color>。\n月虧狀態下，我方角色身處於櫻花結界中時會持續損失耐久。\n月盈狀態下，我方角色身處於櫻花結界時會減少受到的傷害。"
 			}
 		},
+		p_offset = {
+			-50,
+			680,
+			1,
+			1
+		},
+		p_offset_other = {
+			630,
+			620,
+			1,
+			1
+		}
+	},
+	{
+		name = "大鳳·META",
+		boss_level_id = 241,
+		item_id = 100000,
+		painting = "dafeng",
+		meta_id = 970705,
+		id = 17,
+		description = {
+			{
+				"彼岸領域",
+				2,
+				"大鳳·META<color=#92fc63>單場戰鬥內損失血量超過50%</color>時，會開啟全螢幕領域。\n領域內大鳳·META及其召喚物造成的傷害提高20%，我方單位受到的<color=#92fc63>所有回復效果反轉為傷害</color>。\n領域持續期間，我方艦隊每次損失單位，都會令大鳳·META獲得傷害強化。"
+			},
+			{
+				"百鬼之影",
+				1,
+				"戰鬥中大鳳·META會週期性召喚出幻形之息協助作戰，其<color=#92fc63>受到的傷害會同等傳遞至大鳳·META自身</color>。\n幻形之息會在持續一段時間後自行消失。"
+			}
+		},
 		state = {
 			{
 				{
 					2025,
-					6,
-					5
+					8,
+					21
 				},
 				{
 					0,
@@ -544,8 +577,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2025,
-					8,
-					21
+					10,
+					23
 				},
 				{
 					23,
@@ -555,14 +588,14 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-50,
-			680,
+			-26,
+			648,
 			1,
 			1
 		},
 		p_offset_other = {
-			630,
-			620,
+			580,
+			676,
 			1,
 			1
 		}
@@ -583,6 +616,7 @@ pg.world_joint_boss_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "山崖的另一側，經歷了狂風、巨浪、海霧瀰漫、通訊中斷等一系列波折的大冒險小分隊——",

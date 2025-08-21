@@ -445,6 +445,14 @@ pg.expedition_data_by_map = setmetatable({
 		2100362,
 		2100371,
 		2100372,
+		2100381,
+		2100382,
+		2100391,
+		2100392,
+		2100421,
+		2100422,
+		2100431,
+		2100432,
 		2200000,
 		2200010,
 		2200020,
@@ -11483,7 +11491,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -11533,7 +11541,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -11583,7 +11591,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610003",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -11633,7 +11641,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -11683,7 +11691,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -11733,7 +11741,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1610004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 41083,
+		on_activity = 5287,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -24930,6 +24938,406 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 2100362,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100381] = {
+		map = 2100381,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||EX",
+		bgm = "battle-pacific",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1560001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100391,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100382] = {
+		map = 2100382,
+		name = "碧海光粼下篇|| ||CHAPTER EX||EX",
+		bgm = "map-longgong",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1560002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100392,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100391] = {
+		map = 2100391,
+		name = "碧海光粼·上篇|| ||CHAPTER EX||EX",
+		bgm = "battle-pacific",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560011",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1560011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100381,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100392] = {
+		map = 2100392,
+		name = "碧海光粼下篇|| ||CHAPTER EX||EX",
+		bgm = "map-longgong",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560012",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1560012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100382,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100421] = {
+		map = 2100421,
+		name = "逆轉彩虹之塔·上篇|| ||CHAPTER EX||EX",
+		bgm = "story-midgard",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1600001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1600001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100431,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100422] = {
+		map = 2100422,
+		name = "逆轉彩虹之塔·下篇|| ||CHAPTER EX||EX",
+		bgm = "battle-midgard-hunting",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1600002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1600002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100432,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100431] = {
+		map = 2100431,
+		name = "逆轉彩虹之塔·上篇|| ||CHAPTER EX||EX",
+		bgm = "story-midgard",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1600003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1600003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100421,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100432] = {
+		map = 2100432,
+		name = "逆轉彩虹之塔·下篇|| ||CHAPTER EX||EX",
+		bgm = "battle-midgard-hunting",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1600004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1600004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100422,
 		clouds_pos = {
 			{
 				332,

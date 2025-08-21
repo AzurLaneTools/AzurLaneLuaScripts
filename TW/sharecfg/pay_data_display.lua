@@ -41,9 +41,11 @@ pg.pay_data_display = setmetatable({
 		2028,
 		2029,
 		2030,
+		2031,
 		2032,
 		2033,
 		2034,
+		2035,
 		2037,
 		2038,
 		2039,
@@ -3797,6 +3799,110 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2031] = {
+		picture = "daofeng_package",
+		name = "海上傳奇支援組合包（島風）",
+		type = 0,
+		limit_arg = 1,
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		subject = "海上傳奇支援組合包（島風）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 670,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 5,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package58",
+		extra_gem = 0,
+		id = 2031,
+		airijp_id = "com.yostarjp.azurlane.package119",
+		name_display = "海上傳奇支援組合包（島風）",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40047,
+				1
+			}
+		}
+	},
 	[2032] = {
 		picture = "ui1",
 		name = "夢幻霓虹主題禮包",
@@ -4034,6 +4140,110 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40049,
+				1
+			}
+		}
+	},
+	[2035] = {
+		picture = "huteng_package",
+		name = "海上傳奇支援組合包（烏爾里希·馮·胡滕）",
+		type = 0,
+		limit_arg = 1,
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		subject = "海上傳奇支援組合包（烏爾里希·馮·胡滕）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 670,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 5,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package59",
+		extra_gem = 0,
+		id = 2035,
+		airijp_id = "com.yostarjp.azurlane.package120",
+		name_display = "海上傳奇支援組合包（烏爾里希·馮·胡滕）",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}

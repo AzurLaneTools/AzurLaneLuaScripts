@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "奢华的休息室内，两位女王正在享受着茶歇的悠闲时光。",
+			say = "在奢華的休息室內，兩位女王正享受著喝茶的悠閒時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈……好，不愧是我们的大侦探。",
+			say = "啊哈哈……好，不愧是我們的大偵探。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算时代背景变了，苏格兰场的形象还是一如既往……",
+			say = "就算時代背景變了，蘇格蘭場的形象還是一如既往……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，给我用点心啊！",
+			say = "真是的，給我用點心啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就是说啊——",
+			say = "就是說啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真没想到能用这种方式看到小说的新篇章。",
+			say = "真沒想到能用這種方式看到小說的新篇章。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你平时就是通过这些报纸刊物获取不同实验场消息的？",
+			say = "妳平常就是透過這些報紙刊物獲取不同實驗場的消息？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不错的选择吧？",
+			say = "不錯的選擇吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不但能最大程度减少对于不同实验场的干涉，降低风险。",
+			say = "不但能最大程度減少對於不同實驗場的干涉，降低風險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "况且，喝茶的时候，总得有报纸看不是么。",
+			say = "況且，喝茶的時候，總得有報紙看不是嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赞同。",
+			say = "贊同。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快来看这篇报道，有一个匪徒试图抢劫，可目标却是武器店……",
+			say = "快來看這篇報導，有個匪徒試圖搶劫，但目標卻是武器店……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "噗……结果呢？",
+			say = "噗……結果呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结果……除了匪徒本身被消灭之外，没有其他人受伤。",
+			say = "結果……除了匪徒本身被消滅之外，沒有其他人受傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
@@ -318,13 +318,13 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/robot2",
-			say = "哐哐哐——哒哒哒——",
+			say = "噠噠噠——噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,19 +335,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "一阵突然出现的奇怪响声打破了休息室内悠闲的空气。",
+			say = "一陣突然出現的奇怪響聲打破了休息室內悠閒的空氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "紧急集合，发现目标啦！",
+			say = "緊急集合，發現目標囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,13 +365,13 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_115",
 			soundeffect = "event:/ui/robot3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哔哔哔——啪啪啪——",
+			say = "嗶嗶嗶——啪啪啪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "紧急集合，发现目标啦！",
+			say = "緊急集合，發現目標囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "伊丽莎白环顾四周，终于在沙发的角落中找到了一个正闪烁着光芒大喊大叫的虎鲸玩偶。",
+			say = "伊莉莎白環顧四周，終於在沙發的角落找到了一個閃爍著光芒大喊大叫的虎鯨玩偶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这是什么东西？",
+			say = "……這是什麼東西？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "D小姐留在这里的玩偶，看来它锁定下一次狩猎的地点了。",
+			say = "D小姐留在這裡的玩偶，看來它鎖定下一次狩獵的地點了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是它自己做的……？",
+			say = "這是它自己做的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这也太可爱了。",
+			say = "……這也太可愛了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简直就像「人」一样。",
+			say = "簡直就像「人」一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "感觉对D小姐的了解更深了？",
+			say = "感覺對D小姐的了解更深了？",
 			painting = {
 				alpha = 0.3,
 				time = 1

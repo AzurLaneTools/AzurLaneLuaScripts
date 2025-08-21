@@ -8,7 +8,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_yumia_2",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			actor = 900518,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

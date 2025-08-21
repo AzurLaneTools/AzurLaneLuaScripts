@@ -9,7 +9,7 @@ return {
 			bgm = "theme-camelot",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿瓦隆之门·白玫瑰区",
+			say = "阿瓦隆之門·白玫瑰區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "直到不久前，这里还只不过是阿瓦隆之门内一片随处可见的原始森林而已。",
+			say = "直到不久前，這裡還只不過是阿瓦隆之門內一片隨處可見的原始森林而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "而如今，此处已经变成了阿瓦隆之门中与卡美洛之庭宏伟程度不相上下的功能区——「白玫瑰区」",
+			say = "而如今，此處已經變成了阿瓦隆之門中與卡美洛之庭宏偉程度不相上下的功能區——「白玫瑰區」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "除了城堡与花园外，一座高耸入云的塔桥形定向通道是白玫瑰区的最大特色。",
+			say = "除了城堡與花園外，一座高聳入雲的塔橋形定向通道是白玫瑰區的最大特色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "基于这座通道，伊丽莎白女王，以及所有经过她许可的人，就可以不被任何人察觉的安全又快捷地往返于通道两端。",
+			say = "基於這座通道，伊莉莎白女王，以及所有經過她許可的人，就可以不被任何人察覺的安全又快捷地往返於通道兩端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "实验场β，我们来了哦~",
+			say = "實驗場β，我們來了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哇哦，白玫瑰区居然真的开满了白玫瑰……有品位。",
+			say = "哇哦，白玫瑰區居然真的開滿了白玫瑰……有品味。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "短短一段时间不见，这里的修建进展还真是快。",
+			say = "短短一段時間不見，這裡的建造進展還真是快。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过……如果接下来要在这里常驻的话。",
+			say = "不過……如果接下來要在這裡常駐的話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我倒是希望能再修一个永夜之城区啊~",
+			say = "我倒是希望能再修一個永夜之城區~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "复议。",
+			say = "附議。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那我要一个寂灭之域区。",
+			say = "那我要一個寂滅之域區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……我们又不是来度假的，有正事要做呢。",
+			say = "……我們又不是來渡假的，有正事要做呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "实际上不就是跟度假一样么？",
+			say = "實際上不就是跟渡假一樣嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教授些技术，升级下装备，再训练一下这边的人~",
+			say = "教授些技術，升級下裝備，再訓練一下這邊的人~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "都是些没挑战性的工作。",
+			say = "都是些沒挑戰性的工作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这里有值得切磋的强者存在的……",
+			say = "這裡有值得切磋的強者存在的…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "强者……啊，你是说那两个谢菲尔德的老熟人吧。",
+			say = "強者……啊，妳是說那兩個謝菲爾德的老熟人吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "怪不得她这次说什么也不肯来——",
+			say = "怪不得她這次說什麼也不肯來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嘘——她要我们保守秘密的，忘了么。",
+			say = "噓——她要我們保守秘密的，忘了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我可不想在来的第一天就出现命案。",
+			say = "我可不想在來的第一天就出現命案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啊、你说的对。",
+			say = "啊、妳說的對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好了……迎接的人来了，别让人看了笑话。",
+			say = "好了……迎接的人來了，別讓人看了笑話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎来到阿瓦隆之门，各位远道而来的盟友。",
+			say = "歡迎來到阿瓦隆之門，各位遠道而來的盟友。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没想到是您亲自来迎接，很荣幸见到您，胡德女士。",
+			say = "沒想到是您親自來迎接，很榮幸見到您，胡德女士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "胡德女士下午好~你这次带了很有趣的人来迎接我们呢。",
+			say = "胡德小姐下午好~妳這次帶了很有趣的人來迎接我們呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，行走于黑夜之人增加了呢。",
+			say = "呼呼呼，行走於黑夜之人增加了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你就是另一个我？",
+			say = "妳就是另一個我？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没错~见到这副姿态有何感想？",
+			say = "沒錯~見到這副姿態有何感想？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简直就是我理想中的完美造型~",
+			say = "簡直就是我理想中的完美造型~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也好想要一身这样的装备啊~",
+			say = "我也好想要一身這樣的裝備~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸，汝是怎么META化的，能告诉人家么~？",
+			say = "欸，汝是怎麼META化的，能告訴人家嗎~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嚯嚯嚯，这可是我们每个人身上最大的秘密，人家可不会免费告诉你哦。",
+			say = "嚯嚯嚯，這可是我們每個人身上最大的秘密，人家可不會免費告訴妳哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			actor = 201230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那~人家要支付怎样的代价呢？",
+			say = "那~人家要付怎樣的代價呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "欸，让人家想想~",
+			say = "欸，讓人家想想~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "用一些人家在意的情报来交换怎么样？",
+			say = "用一些人家在意的情報來交換怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，大家已经开始搞好关系了呢。",
+			say = "呵呵，大家已經開始搞好關係了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……已经开始进行黑暗的交易了。",
+			say = "……已經開始進行黑暗的交易了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，现在正好是下午茶时间。场地我已经备好了，我们边吃边聊吧？",
+			say = "諸位，現在正好是下午茶時間。場地我已經準備好了，我們邊吃邊聊吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好呀好呀，那我点一份加入大量血红元素的覆盆子冰淇淋~",
+			say = "好呀好呀，那我點一份加入大量血紅元素的覆盆子冰淇淋~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,7 +771,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……已经开始点餐了。",
+			say = "……已經開始點餐了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "黑暗界，这种像度假一样的氛围真的不要紧么……？",
+			say = "黑暗界，這種像渡假的氛圍真的不要緊嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这里是和平的地方，我不讨厌。",
+			say = "……這裡是和平的地方，我不討厭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,7 +824,7 @@ return {
 			actor = 9713010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以……稍微放松一下，也好。",
+			say = "所以……稍微放鬆一下，也好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，阿瓦隆之门终于要热闹起来了呢——",
+			say = "呵呵，阿瓦隆之門終於要熱鬧起來了呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1

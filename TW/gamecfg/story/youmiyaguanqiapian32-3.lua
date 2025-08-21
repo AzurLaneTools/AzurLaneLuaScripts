@@ -381,7 +381,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			bgm = "yumia-79",
+			bgm = "yumia-az-story",
 			actor = 11300020,
 			nameColor = "#A9F548FF",
 			say = "——優米雅！",

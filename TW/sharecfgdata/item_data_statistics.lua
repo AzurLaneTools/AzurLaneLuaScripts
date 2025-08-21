@@ -15032,6 +15032,37 @@ _G.pg.base.item_data_statistics[21040] = {
 }
 
 
+_G.pg.base.item_data_statistics[21041] = {
+	open_directly = 0,
+	name = "結晶：{namecode:238}",
+	type = 4,
+	display = "{namecode:238}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21041",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21041,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21042] = {
 	open_directly = 0,
 	name = "結晶：{namecode:543}",
@@ -15765,6 +15796,37 @@ _G.pg.base.item_data_statistics[21916] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21916,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21917] = {
+	open_directly = 0,
+	name = "同步值：{namecode:238}",
+	type = 4,
+	display = "在「信標·META」戰鬥中收集的數據，可以提升{namecode:238}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21917",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21917,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -41850,6 +41912,58 @@ _G.pg.base.item_data_statistics[40046] = {
 }
 
 
+_G.pg.base.item_data_statistics[40047] = {
+	open_directly = 1,
+	name = "海上傳奇支援組合包(島風)",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/daofeng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4049",
+	id = 40047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59553,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40048] = {
 	open_directly = 1,
 	name = "夢幻霓虹主題禮包(基礎版)",
@@ -41919,6 +42033,58 @@ _G.pg.base.item_data_statistics[40049] = {
 			1,
 			14,
 			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40050] = {
+	open_directly = 1,
+	name = "海上傳奇支援組合包(烏爾里希·馮·胡滕)",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4052",
+	id = 40050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59554,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
 		}
 	},
 	price = {},
@@ -71268,6 +71434,120 @@ _G.pg.base.item_data_statistics[59552] = {
 			0
 		},
 		1080
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59553] = {
+	open_directly = 0,
+	name = "換裝自選券（{namecode:18}）",
+	type = 26,
+	display = "在「倉庫」中使用，可以從指定清單中選擇一件換裝兌換\n（<color=#ff5c5c>換裝兌換券僅能兌換指定清單中的換裝。若目前已全部擁有，兌換券將可轉換為換裝折扣券</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_daofeng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59553,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			301291,
+			1
+		},
+		{
+			7,
+			301292,
+			1
+		},
+		{
+			7,
+			301293,
+			1
+		},
+		{
+			7,
+			301294,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			301291,
+			301292,
+			301293,
+			301294
+		},
+		0,
+		59552
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59554] = {
+	open_directly = 0,
+	name = "換裝自選券（{namecode:463}）",
+	type = 26,
+	display = "在「倉庫」中使用，可以從指定清單中選擇一件換裝兌換\n（<color=#ff5c5c>換裝兌換券僅能兌換指定清單中的換裝。若目前已全部擁有，兌換券將可轉換為換裝折扣券</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59554,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405031,
+			1
+		},
+		{
+			7,
+			405032,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			405031,
+			405032
+		},
+		0,
+		59552
 	},
 	limit = {}
 }

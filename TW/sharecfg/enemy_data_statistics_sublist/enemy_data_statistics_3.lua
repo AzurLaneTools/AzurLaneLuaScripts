@@ -919,6 +919,148 @@ pg.enemy_data_statistics_3 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[50084] = {
+		cannon = 0,
+		name = "？？？",
+		antiaircraft_growth = 10000,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 95,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 10000,
+		icon = "chongying_m_hangmu",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 10000,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 1000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		armor = 0,
+		friendly_cld = 0,
+		id = 50084,
+		scale = 200,
+		prefab = "chongying_m_hangmu",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 0,
+		dodge = 0,
+		reload_growth = 10000,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 10000,
+		hit_growth = 10000,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			18.7,
+			7.5,
+			9
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.51,
+					2.88,
+					0
+				}
+			},
+			plane = {
+				{
+					2.08,
+					3.91,
+					0
+				}
+			}
+		},
+		smoke = {},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			5
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[50091] = {
 		cannon = 0,
 		name = "加農炮花",
@@ -1448,27 +1590,6 @@ pg.enemy_data_statistics_3 = {
 		id = 50102,
 		equipment_list = {
 			167082
-		}
-	},
-	[50103] = {
-		antiaircraft_growth = 6100,
-		name = "「飛劍龍」式雙翼無人機",
-		torpedo_growth = 0,
-		cannon_growth = 6100,
-		luck_growth = 10000,
-		fog_fx = "",
-		reload_growth = 6100,
-		dodge_growth = 3400,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50101,
-		armor_growth = 0,
-		durability_growth = 0,
-		bubble_fx = "",
-		hit_growth = 6100,
-		id = 50103,
-		equipment_list = {
-			167083
 		}
 	}
 }
