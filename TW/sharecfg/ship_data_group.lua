@@ -18376,6 +18376,17 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"常駐UR兌換",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -19390,6 +19401,17 @@ pg.base.ship_data_group = {
 				"限時活動：碧海光粼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24118,6 +24140,17 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"常駐UR兌換",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24289,6 +24322,17 @@ pg.base.ship_data_group = {
 				"限時活動：逆轉彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
