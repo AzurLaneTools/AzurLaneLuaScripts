@@ -45,6 +45,16 @@ pg.dorm3d_scene_animator = {
 		room_id = 2,
 		item_name = "FurnitureSlots/120303/pre_db_nh_livingroom01(Clone)/all/bone_electrical01_1/bone_electrical01_2/vfx_electrical"
 	},
+	[2010] = {
+		id = 2010,
+		room_id = 11,
+		item_name = "FurnitureSlots/1110303/pre_db_njh_entertainment01(Clone)/pre_db_njh_sportsequipment01"
+	},
+	[2011] = {
+		id = 2011,
+		room_id = 11,
+		item_name = "FurnitureSlots/1110303/pre_db_njh_entertainment01(Clone)/pre_db_njh_sportsequipment01/vfx_njh_bike"
+	},
 	get_id_list_by_room_id = {
 		{
 			2001
@@ -63,7 +73,9 @@ pg.dorm3d_scene_animator = {
 		[11] = {
 			2005,
 			2006,
-			2007
+			2007,
+			2010,
+			2011
 		}
 	},
 	all = {
@@ -75,6 +87,8 @@ pg.dorm3d_scene_animator = {
 		2006,
 		2007,
 		2008,
-		2009
+		2009,
+		2010,
+		2011
 	}
 }

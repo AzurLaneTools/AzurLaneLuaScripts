@@ -25,7 +25,7 @@ slot22 = 5
 slot23 = 4
 
 slot0.OnInit = function(slot0)
-	slot0.activityId = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA).id
+	slot0.activityId = ActivityConst.RYZA_TASK
 	slot0.enterTaskId = slot0.contextData.task_id or nil
 	slot0.taskGroups = pg.activity_template[slot0.activityId].config_data
 	slot0.leanTweens = {}
@@ -614,6 +614,8 @@ slot0.willExit = function(slot0)
 			slot5:changeNew()
 		end
 	end
+
+	ClearLScrollrect(slot0.scrollRect)
 end
 
 return slot0

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_307",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "텐트 안에서 각자 요리 솜씨를 뽐내면서 점심식사를 준비한다. 그리고 일행은 사치스러운 식사를 했다.",

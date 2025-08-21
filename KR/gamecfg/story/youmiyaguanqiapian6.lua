@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "절벽의 반대편에서는 강한 바람, 거센 파도, 자욱한 해무, 단절된 통신과 같은 곤란한 여러상황을 경험한 대모험팀이……",

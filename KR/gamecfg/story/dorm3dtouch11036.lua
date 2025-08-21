@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit4_tone6",
 			nameColor = "#FFFFFF",
-			say = "꺅! 허니… 나빴어!",
+			hidePaintObj = true,
+			say = "아아, 허니한테는 정말 당해낼 수가 없다니까… 뭐, 좋아하니까 어쩔 수 없지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,27 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_sp01_idle01_fb03",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_kaixing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							id = 2010,
+							name = "IK_sp01_idle01_fb03_dc",
+							type = "item_action"
+						},
+						{
+							id = 2011,
+							name = "IK_sp01_idle01_fb03_dc_vfx",
+							type = "item_action"
 						},
 						{
 							skip = false,

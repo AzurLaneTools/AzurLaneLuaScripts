@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "2척의 배가 접근해 온다…여러가지 곤란을 뛰어넘어 해안에 도달한 대모험 소대도 그 상황을 눈치챘다.",

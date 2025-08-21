@@ -38875,7 +38875,7 @@ _G.pg.base.gametip.yumia_main_tip_3 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_4 = {
-	tip = "남은 기간 $1일 (8.21 점검까지)"
+	tip = "남은 기간 $1일 (8.27 23:59까지)"
 }
 
 
@@ -38885,12 +38885,12 @@ _G.pg.base.gametip.yumia_main_tip_5 = {
 
 
 _G.pg.base.gametip.yumia_main_tip_6 = {
-	tip = "아틀리에"
+	tip = "거점 건설"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_7 = {
-	tip = "거점 건설"
+	tip = "아틀리에"
 }
 
 

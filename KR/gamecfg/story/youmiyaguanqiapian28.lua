@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			say = "아아~바닷바람과 파도의 소리~역시 바다를 자유롭게 다니는 것이 트레저 헌터의 삶의 방식이야!",

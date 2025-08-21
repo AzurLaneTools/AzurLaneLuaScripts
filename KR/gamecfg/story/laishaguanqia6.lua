@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			bgm = "ryza-11",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "거울 해역·과거",
 			flashout = {
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			bgmDelay = 2,
-			bgm = "ryza-6",
+			bgm = "ryza-az-theme",
 			nameColor = "#A9F548FF",
 			say = "유적의 거울 해역·'시작의 땅'",
 			typewriter = {

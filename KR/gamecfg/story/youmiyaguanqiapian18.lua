@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마물을 쓰러뜨리고 재료를 모으면서 전진해가자, 다시 높게 솟아오른 탑이 눈 앞에 나타났다.",
@@ -68,7 +68,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_172",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시후……「안전 쾌적 휴식홀」",

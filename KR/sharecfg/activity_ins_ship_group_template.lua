@@ -3893,7 +3893,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Fleuret",
 		background = "",
 		sculpture = "huajian",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[90106] = {

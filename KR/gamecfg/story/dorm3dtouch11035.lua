@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit3_tone3",
 			nameColor = "#FFFFFF",
-			say = "후후… 허니의 온기, 더 제대로 느끼고 싶어.",
+			hidePaintObj = true,
+			say = "허니의 숨결… 매순간이 두근거려…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,27 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_sp01_idle01_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_kaixing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							id = 2010,
+							name = "IK_sp01_idle01_fb01_DC",
+							type = "item_action"
+						},
+						{
+							id = 2011,
+							name = "IK_sp01_idle01_fb01_DC_vfx",
+							type = "item_action"
 						},
 						{
 							skip = false,

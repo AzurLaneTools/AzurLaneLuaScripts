@@ -74,6 +74,13 @@ pg.dorm3d_ik_timeline_status = {
 			29999200
 		}
 	},
+	[17] = {
+		id = 17,
+		char_id = 19903,
+		ik_id = {
+			30091001
+		}
+	},
 	all = {
 		7,
 		8,
@@ -84,6 +91,7 @@ pg.dorm3d_ik_timeline_status = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

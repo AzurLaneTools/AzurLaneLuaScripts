@@ -639,6 +639,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>리조트 섬에서 완벽한 바캉스를 즐기자! </color>「다시 돌아온 한여름! 리조트 재건 계획! 」 참가 시 획득 가능",
 		scene = {}
 	},
+	[611] = {
+		name = "임간 청풍",
+		gain_by = "",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>숲에 부는 맑은 바람을 느끼며, 평소와 다른 휴가를 즐기자♪</color>「임간 휴가 준비」 참여 시 획득 가능",
+		scene = {}
+	},
 	[1001] = {
 		name = "스위트 랑데부",
 		gain_by = "",
@@ -891,6 +900,7 @@ pg.item_data_frame = {
 		607,
 		609,
 		610,
+		611,
 		1001,
 		1002,
 		1003,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			bgm = "ryza-9",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "유적의 거울 해역·'잃어버린 도시'",
 			flashout = {

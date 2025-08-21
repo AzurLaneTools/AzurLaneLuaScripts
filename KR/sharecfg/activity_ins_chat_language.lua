@@ -4838,7 +4838,97 @@ pg.activity_ins_chat_language = setmetatable({
 		4835,
 		4836,
 		4837,
-		4838
+		4838,
+		4839,
+		4840,
+		4841,
+		4842,
+		4843,
+		4844,
+		4845,
+		4846,
+		4847,
+		4848,
+		4849,
+		4850,
+		4851,
+		4852,
+		4853,
+		4854,
+		4855,
+		4856,
+		4857,
+		4858,
+		4859,
+		4860,
+		4861,
+		4862,
+		4863,
+		4864,
+		4865,
+		4866,
+		4867,
+		4868,
+		4869,
+		4870,
+		4871,
+		4872,
+		4873,
+		4874,
+		4875,
+		4876,
+		4877,
+		4878,
+		4879,
+		4880,
+		4881,
+		4882,
+		4883,
+		4884,
+		4885,
+		4886,
+		4887,
+		4888,
+		4889,
+		4890,
+		4891,
+		4892,
+		4893,
+		4894,
+		4895,
+		4896,
+		4897,
+		4898,
+		4899,
+		4900,
+		4901,
+		4902,
+		4903,
+		4904,
+		4905,
+		4906,
+		4907,
+		4908,
+		4909,
+		4910,
+		4911,
+		4912,
+		4913,
+		4914,
+		4915,
+		4916,
+		4917,
+		4918,
+		4919,
+		4920,
+		4921,
+		4922,
+		4923,
+		4924,
+		4925,
+		4926,
+		4927,
+		4928
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -48160,5 +48250,803 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 4838,
 		flag = 10
+	},
+	[4839] = {
+		param = "있잖아, 지휘관~ 내가 뭘 찾았게?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4839,
+		flag = 0
+	},
+	[4840] = {
+		param = "엄청나게 미스터리한 노트야!",
+		ship_group = 90105,
+		type = 1,
+		id = 4840,
+		flag = 0,
+		option = {
+			{
+				1,
+				"엄청나게 미스터리한 노트…?"
+			}
+		}
+	},
+	[4841] = {
+		param = "엄청나게 미스터리한 노트…?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4841,
+		flag = 1
+	},
+	[4842] = {
+		param = "갑자기 가방 안에 나타났어!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4842,
+		flag = 1
+	},
+	[4843] = {
+		param = "무슨 마술이라도 쓴 것처럼 말이야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4843,
+		flag = 1
+	},
+	[4844] = {
+		param = "그래서 봤더니, 이상한 기록이 잔뜩 남겨져 있었어~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4844,
+		flag = 1
+	},
+	[4845] = {
+		param = "게다가 전부 나랑 지휘관에 관한 내용이더라구~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4845,
+		flag = 1
+	},
+	[4846] = {
+		param = "예를 들면, 이거… 「지휘관은 어제 몇 번 플뢰레에게 허접이라고 말하게 시켰을까?」",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4846,
+		flag = 1
+	},
+	[4847] = {
+		param = "정답은 바로 「아홉 번」!",
+		ship_group = 90105,
+		type = 1,
+		id = 4847,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그랬었나…?"
+			},
+			{
+				3,
+				"열 번 아니야?"
+			}
+		}
+	},
+	[4848] = {
+		param = "그랬었나…?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4848,
+		flag = 2
+	},
+	[4849] = {
+		param = "그랬고말고! 지휘관, 기억력 좀 단련해야겠는걸?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4849,
+		flag = 2
+	},
+	[4850] = {
+		param = "열 번 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4850,
+		flag = 3
+	},
+	[4851] = {
+		param = "와아~ 어떻게 그렇게 또렷하게 기억해?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4851,
+		flag = 3
+	},
+	[4852] = {
+		param = "아무튼 이게 다가 아니야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4852,
+		flag = 0
+	},
+	[4853] = {
+		param = "「플뢰레가 지휘관에게 보여준 마술 성공률」이나, 다른 내용도 많아.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4853,
+		flag = 0
+	},
+	[4854] = {
+		param = "이런 것까지 다 기록하다니, 주인이 누군진 몰라도 대단하네~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4854,
+		flag = 0
+	},
+	[4855] = {
+		param = "후후, 혹시 나랑 관련된 것 중에서 떠오르는 거 없어?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4855,
+		flag = 0
+	},
+	[4856] = {
+		param = "여기 적혀있진 않은지 찾아보려구.",
+		ship_group = 90105,
+		type = 1,
+		id = 4856,
+		flag = 0,
+		option = {
+			{
+				4,
+				"카드 날리기 연습한 건?"
+			},
+			{
+				5,
+				"장난에 실패한 건?"
+			}
+		}
+	},
+	[4857] = {
+		param = "카드 날리는 연습을 하다가 트럼프 몇 세트를 몽땅 써버린 거?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4857,
+		flag = 4
+	},
+	[4858] = {
+		param = "마술로 깜짝 놀라게 해주려다가, 시간을 착각해서 몇 시간이나 기다리고 있었던 거?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4858,
+		flag = 5
+	},
+	[4859] = {
+		param = "어……?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4859,
+		flag = 0
+	},
+	[4860] = {
+		param = "그런 일이… 있었던가?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4860,
+		flag = 0
+	},
+	[4861] = {
+		param = "하나도 기억이 안 나… 정말… 미스터리하네!",
+		ship_group = 90105,
+		type = 1,
+		id = 4861,
+		flag = 0,
+		option = {
+			{
+				6,
+				"기록은 안 된 것 같네"
+			}
+		}
+	},
+	[4862] = {
+		param = "노트에 적혀있지는 않은 것 같네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4862,
+		flag = 6
+	},
+	[4863] = {
+		param = "뭐, 문제 없겠지. 지금 바로 기록하면 될 테니까. 안 그래? 노트의 주인님?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4863,
+		flag = 6
+	},
+	[4864] = {
+		param = "내 노트라는 거 알고 있었으면서, 분위기 맞춰준 거구나.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4864,
+		flag = 6
+	},
+	[4865] = {
+		param = "잠깐, 지휘관… 설마 나랑 있었던 안 좋은 일만 기억하는 건 아니지?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4865,
+		flag = 6
+	},
+	[4866] = {
+		param = "딱 1분 줄게! 그 안에 좋았던 다른 기억을 못 떠올리면……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4866,
+		flag = 6
+	},
+	[4867] = {
+		param = "단둘이서… 진지한 이야기 좀 나눠야겠는걸?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4867,
+		flag = 6
+	},
+	[4868] = {
+		param = "지휘관~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4868,
+		flag = 0
+	},
+	[4869] = {
+		param = "집무실에 뭐 달라진 거 없어?",
+		ship_group = 90105,
+		type = 1,
+		id = 4869,
+		flag = 0,
+		option = {
+			{
+				1,
+				"커다란 캐비닛이…"
+			}
+		}
+	},
+	[4870] = {
+		param = "갑자기 커다란 캐비닛이… 플뢰레가 가져다 둔 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4870,
+		flag = 1
+	},
+	[4871] = {
+		param = "그냥 평범한 캐비닛이 아니야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4871,
+		flag = 1
+	},
+	[4872] = {
+		param = "내가 대형 마술을 할 때 쓰는 매직 캐비닛이거든.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4872,
+		flag = 1
+	},
+	[4873] = {
+		param = "이게 또 굉장한 물건이지~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4873,
+		flag = 1
+	},
+	[4874] = {
+		param = "안에 뭐가 들어있는지 궁금하지? 그치, 지휘관~",
+		ship_group = 90105,
+		type = 1,
+		id = 4874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"응, 궁금하긴 하네"
+			}
+		}
+	},
+	[4875] = {
+		param = "응, 궁금하긴 하네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4875,
+		flag = 2
+	},
+	[4876] = {
+		param = "대체 뭐가 들어있는 거지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4876,
+		flag = 2
+	},
+	[4877] = {
+		param = "그렇게 궁금하면 직접 열어봐도 돼~",
+		ship_group = 90105,
+		type = 1,
+		id = 4877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"열어봤는데…"
+			}
+		}
+	},
+	[4878] = {
+		param = "열어봤는데, 안에 아무것도 없던데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4878,
+		flag = 3
+	},
+	[4879] = {
+		param = "후훗, 그렇지. 아무것도 없을 거야.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4879,
+		flag = 3
+	},
+	[4880] = {
+		param = "마술은 마법이 아니잖아.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4880,
+		flag = 3
+	},
+	[4881] = {
+		param = "아무것도 없는 곳에서 무언가를 갑자기 나타나게 하는 건 불가능해.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4881,
+		flag = 3
+	},
+	[4882] = {
+		param = "그게 가능하면 사람 한 명쯤 뿅!하고 꺼내봤으면 좋겠네~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4882,
+		flag = 3
+	},
+	[4883] = {
+		param = "353",
+		ship_group = 90105,
+		type = 4,
+		id = 4883,
+		flag = 3,
+		option = {
+			{
+				4,
+				"잠깐만…"
+			}
+		}
+	},
+	[4884] = {
+		param = "잠깐만… 캐비닛 뒤에 숨겨진 문이 있는 것 같은데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4884,
+		flag = 4
+	},
+	[4885] = {
+		param = "…잠깐.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4885,
+		flag = 4
+	},
+	[4886] = {
+		param = "잠깐! 잠깐만 기다려!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4886,
+		flag = 4
+	},
+	[4887] = {
+		param = "으아…",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4887,
+		flag = 4
+	},
+	[4888] = {
+		param = "바, 밖에 다른 재밌는 마술 소품들이 있거든! 그걸 안으로 옮겨줬으면 하는데~",
+		ship_group = 90105,
+		type = 1,
+		id = 4888,
+		flag = 4,
+		option = {
+			{
+				5,
+				"안으로 옮기라고?"
+			}
+		}
+	},
+	[4889] = {
+		param = "갑자기 안으로 옮기라고? 흠…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4889,
+		flag = 5
+	},
+	[4890] = {
+		param = "지휘관! 정말 그냥 평범한 보관용 캐비닛이야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4890,
+		flag = 5
+	},
+	[4891] = {
+		param = "특별한 건 아무것도 없어! 정말이야!",
+		ship_group = 90105,
+		type = 1,
+		id = 4891,
+		flag = 5,
+		option = {
+			{
+				6,
+				"말 실수 한 건가?"
+			}
+		}
+	},
+	[4892] = {
+		param = "자기도 모르게 말 실수 한 건가?그럼… 연다?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4892,
+		flag = 6
+	},
+	[4893] = {
+		param = "안 돼! 열면 안 돼~!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4893,
+		flag = 6
+	},
+	[4894] = {
+		param = "마술 도구를 망가뜨리지 마, 지휘관!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4894,
+		flag = 6
+	},
+	[4895] = {
+		param = "이, 일단 캐비닛 앞에 서 봐.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4895,
+		flag = 6
+	},
+	[4896] = {
+		param = "응, 좋아. 이제야 관객석에 제대로 도착했네.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4896,
+		flag = 6
+	},
+	[4897] = {
+		param = "지금부터 지휘관에게 환상의 마술쇼를 모여줄게!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4897,
+		flag = 6
+	},
+	[4898] = {
+		param = "기대하시라! 플뢰레가 곧 등장합니다~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4898,
+		flag = 6
+	},
+	[4899] = {
+		param = "지휘관~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4899,
+		flag = 0
+	},
+	[4900] = {
+		param = "선물을 준비했어~",
+		ship_group = 90105,
+		type = 1,
+		id = 4900,
+		flag = 0,
+		option = {
+			{
+				1,
+				"고마워"
+			}
+		}
+	},
+	[4901] = {
+		param = "고마워.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4901,
+		flag = 1
+	},
+	[4902] = {
+		param = "흠… 반응이 영 시원찮네.",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4902,
+		flag = 1
+	},
+	[4903] = {
+		param = "사실 속으로는 두근두근하고 있지? 그치~?",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4903,
+		flag = 1
+	},
+	[4904] = {
+		param = "353",
+		ship_group = 90105,
+		option = "",
+		type = 4,
+		id = 4904,
+		flag = 1
+	},
+	[4905] = {
+		param = "후훗, 지금부터 내가 준비한 선물이 뭔지 보여줄게♪",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4905,
+		flag = 1
+	},
+	[4906] = {
+		param = "준비됐어? 자! 기적을 마주할 순간이야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4906,
+		flag = 1
+	},
+	[4907] = {
+		param = "??ό???ɥ???†ᙬ?",
+		ship_group = 90105,
+		type = 1,
+		id = 4907,
+		flag = 1,
+		option = {
+			{
+				2,
+				"이 깨진 문자가… 선물?"
+			}
+		}
+	},
+	[4908] = {
+		param = "이 깨진 문자가… 선물?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4908,
+		flag = 2
+	},
+	[4909] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4909,
+		flag = 2
+	},
+	[4910] = {
+		param = "어라… 이게 아닌데……",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4910,
+		flag = 2
+	},
+	[4911] = {
+		param = "그래, 완전 달라!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4911,
+		flag = 2
+	},
+	[4912] = {
+		param = "뭘 빼놓고 안 넣은 건가…… 잠깐만, 다시 해볼게!",
+		ship_group = 90105,
+		type = 1,
+		id = 4912,
+		flag = 2,
+		option = {
+			{
+				3,
+				"기다릴게"
+			}
+		}
+	},
+	[4913] = {
+		param = "응, 기다릴게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4913,
+		flag = 3
+	},
+	[4914] = {
+		param = "좋아! 완전히 이해했어!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4914,
+		flag = 3
+	},
+	[4915] = {
+		param = "이번에는 괜찮을 거야!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4915,
+		flag = 3
+	},
+	[4916] = {
+		param = "<color=#583b28>??????≬??ᝉ??</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4916,
+		flag = 3
+	},
+	[4917] = {
+		param = "<color=#583b28>으…… 또 안 되네……</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4917,
+		flag = 3
+	},
+	[4918] = {
+		param = "<color=#583b28>오? 입력한 글자 색깔이 바뀌었어!</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4918,
+		flag = 3
+	},
+	[4919] = {
+		param = "<color=#583b28>이 정도면… 일단… 성공으로 봐도 되겠지? 안 그래?!</color>",
+		ship_group = 90105,
+		type = 1,
+		id = 4919,
+		flag = 3,
+		option = {
+			{
+				4,
+				"축하해"
+			}
+		}
+	},
+	[4920] = {
+		param = "<color=#583b28>축하해.</color>",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4920,
+		flag = 4
+	},
+	[4921] = {
+		param = "<color=#583b28>응? 지휘관도 해냈잖아? ……그래도 선물 주기로 했으니까 포기 안 해! 절대로!</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4921,
+		flag = 4
+	},
+	[4922] = {
+		param = "<color=#3E3D3D>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4922,
+		flag = 4
+	},
+	[4923] = {
+		param = "<color=#A24942>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4923,
+		flag = 4
+	},
+	[4924] = {
+		param = "<color=#E7C355>✿</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4924,
+		flag = 4
+	},
+	[4925] = {
+		param = "짜잔~ 플뢰레가 주는 꽃 선물이야~",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4925,
+		flag = 4
+	},
+	[4926] = {
+		param = "지금부터 진짜 선물을 줄 테니까",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4926,
+		flag = 4
+	},
+	[4927] = {
+		param = "문 열고 꼭 받아줘야 해!",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4927,
+		flag = 4
+	},
+	[4928] = {
+		param = "<color=#D80000>♥</color>",
+		ship_group = 90105,
+		option = "",
+		type = 1,
+		id = 4928,
+		flag = 4
 	}
 }

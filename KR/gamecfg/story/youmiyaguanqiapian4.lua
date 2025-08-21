@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_539",
-			bgm = "yumia-1",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "푸른 하늘, 하얀 구름, 파란 바다, 모래사장, 그리고 구름을 뚫고 나갈 정도로 높게 솟은 산들.",
@@ -174,12 +174,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "저……유미아님!",
 			typewriter = {
 				speed = 0.05,
@@ -378,12 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……아, 아직 이곳의 상황도 모를테고, 지형도 잘 모를 거예요……!! 일단 도망치는 것이 좋을 지도 몰라욧!!",
 			typewriter = {
 				speed = 0.05,

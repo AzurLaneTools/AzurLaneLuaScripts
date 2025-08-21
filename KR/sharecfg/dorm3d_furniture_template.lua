@@ -1049,6 +1049,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1152] = {
+		rarity = 5,
+		name = "다이나믹 휠",
+		type = 5,
+		room_id = 11,
+		desc = "사용자의 멘탈 케어까지 고려한 본격적인 운동 기구. \n페달을 밟기만 해도 집 안에서 짜릿한 모험을 즐길 수 있다!",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		acesses = "",
+		id = 1152,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051750
+			}
+		},
+		shop_id = {
+			270204
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1152"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1097,7 +1131,8 @@ pg.dorm3d_furniture_template = {
 			1106,
 			1107,
 			1108,
-			1151
+			1151,
+			1152
 		}
 	},
 	all = {
@@ -1141,6 +1176,7 @@ pg.dorm3d_furniture_template = {
 		1106,
 		1107,
 		1108,
-		1151
+		1151,
+		1152
 	}
 }

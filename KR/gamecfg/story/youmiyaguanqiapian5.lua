@@ -196,12 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "고농도 마나영역을 통과한 것만으로는 이렇게 되지는 않아요……",
 			typewriter = {
 				speed = 0.05,

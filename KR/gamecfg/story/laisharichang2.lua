@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "ryza-12",
+			bgm = "story-1",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			bgm = "ryza-1",
+			bgm = "story-1",
 			stopbgm = true,
 			say = "이렇게 네 사람이 힘을 합친 덕분에 폭탄 제작(?)에 필요한 재료 수집은 무사히 완료됐다.",
 			typewriter = {

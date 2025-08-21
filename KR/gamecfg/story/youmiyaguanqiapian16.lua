@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오염된 강을 상류를 향해 거슬러 올라가자, 일행은 폐기된 촌락에 도착했다.",
@@ -74,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "부식성이 있는 물도……아마 그 폭포와 같은 곳에서 온다고 생각해요.",
 			typewriter = {
 				speed = 0.05,

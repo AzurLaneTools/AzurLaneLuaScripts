@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어느 날, 어느 동굴의 깊숙한 곳에서, 알라디스 조사단 일행은 중요한 임무를 수행하고 있었다.",
@@ -171,12 +171,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900519,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……유미아님, 니나님……어쩌면, 이제 곧 밖으로 나갈 수 있을지도 몰라요……",
 			typewriter = {
 				speed = 0.05,

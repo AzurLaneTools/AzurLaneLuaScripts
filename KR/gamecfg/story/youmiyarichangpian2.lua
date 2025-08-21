@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			bgm = "yumia-81",
+			bgm = "yumia-az-story",
 			say = "모항-숙소",
 			typewriter = {
 				speed = 0.05,

@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_582",
-			bgm = "yumia-51",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "재가동시킨 엘리베이터를 타고, 일행은 새로운 구역에 발을 내딛었다.",

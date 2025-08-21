@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가늘고 긴 길을 빠져나가자 구역내에 우뚝 솟은 복잡한 건축물이 일행의 앞에 모습을 나타냈다.",
@@ -144,7 +144,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_109",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시후……「안전 쾌적 휴식홀」",

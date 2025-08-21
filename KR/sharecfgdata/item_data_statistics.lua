@@ -73546,7 +73546,7 @@ _G.pg.base.item_data_statistics[42075] = {
 
 _G.pg.base.item_data_statistics[42076] = {
 	open_directly = 0,
-	name = "상급 지향형 강화 유닛·Ⅷ기",
+	name = "고급 지향형 강화 유닛·8기 ",
 	type = 13,
 	display = "사용하면 특별 계획함Ⅱ～Ⅷ기 DR함선의 강화 유닛을 1개 선택하여 입수 가능",
 	other_resource_cost = "[]",
