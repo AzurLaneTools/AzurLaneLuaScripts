@@ -36067,7 +36067,7 @@ _G.pg.base.gametip.dorm3d_data_go = {
 
 
 _G.pg.base.gametip.dorm3d_role_assets_delete = {
-	tip = "<color=#39bfff>$1</color>の部屋のアセットを一時削除しますか？"
+	tip = "<color=#39bfff>$1</color>の部屋のアセットを一時削除しますか？\nアセット容量：$2 "
 }
 
 
