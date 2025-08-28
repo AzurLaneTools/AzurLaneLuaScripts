@@ -59,9 +59,9 @@ slot0.GetMilitaryShop = function(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0, slot1)
-		uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP] = {}
+		uv0.shopList[ShopConst.TYPE_MILITARY_SHOP] = {}
 
-		table.insert(uv0.shopList[NewShopsScene.TYPE_MILITARY_SHOP], slot1)
+		table.insert(uv0.shopList[ShopConst.TYPE_MILITARY_SHOP], slot1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)
@@ -83,9 +83,9 @@ slot0.GetStressShop = function(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0, slot1)
-		uv0.shopList[NewShopsScene.TYPE_SHOP_STREET] = {}
+		uv0.shopList[ShopConst.TYPE_SHOP_STREET] = {}
 
-		table.insert(uv0.shopList[NewShopsScene.TYPE_SHOP_STREET], slot1)
+		table.insert(uv0.shopList[ShopConst.TYPE_SHOP_STREET], slot1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)
@@ -114,9 +114,9 @@ slot0.GetGuildShop = function(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0, slot1)
-		uv0.shopList[NewShopsScene.TYPE_GUILD] = {}
+		uv0.shopList[ShopConst.TYPE_GUILD] = {}
 
-		table.insert(uv0.shopList[NewShopsScene.TYPE_GUILD], slot1)
+		table.insert(uv0.shopList[ShopConst.TYPE_GUILD], slot1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)
@@ -128,9 +128,9 @@ slot0.GetShamShop = function(slot0, slot1)
 
 	if not LOCK_SHAM_CHAPTER and slot3 and slot3:isOpen() then
 		table.insert(slot2, function (slot0)
-			uv0.shopList[NewShopsScene.TYPE_SHAM_SHOP] = {}
+			uv0.shopList[ShopConst.TYPE_SHAM_SHOP] = {}
 
-			table.insert(uv0.shopList[NewShopsScene.TYPE_SHAM_SHOP], uv1)
+			table.insert(uv0.shopList[ShopConst.TYPE_SHAM_SHOP], uv1)
 			slot0()
 		end)
 	end
@@ -144,9 +144,9 @@ slot0.GetFragmentShop = function(slot0, slot1)
 
 	if not LOCK_FRAGMENT_SHOP and slot3 and slot3:isOpen() then
 		table.insert(slot2, function (slot0)
-			uv0.shopList[NewShopsScene.TYPE_FRAGMENT] = {}
+			uv0.shopList[ShopConst.TYPE_FRAGMENT] = {}
 
-			table.insert(uv0.shopList[NewShopsScene.TYPE_FRAGMENT], uv1)
+			table.insert(uv0.shopList[ShopConst.TYPE_FRAGMENT], uv1)
 			slot0()
 		end)
 	end
@@ -171,16 +171,16 @@ slot0.GetActivityShops = function(slot0, slot1)
 
 	table.insert(slot2, function (slot0, slot1)
 		if slot1 and table.getCount(slot1) > 0 then
-			uv0.shopList[NewShopsScene.TYPE_ACTIVITY] = {}
+			uv0.shopList[ShopConst.TYPE_ACTIVITY] = {}
 
 			for slot5, slot6 in pairs(slot1) do
-				table.insert(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], slot6)
+				table.insert(uv0.shopList[ShopConst.TYPE_ACTIVITY], slot6)
 			end
 
 			slot2 = getProxy(ActivityProxy)
 			slot2 = slot2:getRawData()
 
-			table.sort(uv0.shopList[NewShopsScene.TYPE_ACTIVITY], CompareFuncs({
+			table.sort(uv0.shopList[ShopConst.TYPE_ACTIVITY], CompareFuncs({
 				function (slot0)
 					return uv0[slot0.activityId]:getStartTime()
 				end
@@ -215,9 +215,9 @@ slot0.GetMetaShops = function(slot0, slot1)
 
 	table.insert(slot2, function (slot0, slot1)
 		if slot1 then
-			uv0.shopList[NewShopsScene.TYPE_META] = {}
+			uv0.shopList[ShopConst.TYPE_META] = {}
 
-			table.insert(uv0.shopList[NewShopsScene.TYPE_META], slot1)
+			table.insert(uv0.shopList[ShopConst.TYPE_META], slot1)
 		end
 
 		slot0()
@@ -242,9 +242,9 @@ slot0.GetMedalShops = function(slot0, slot1)
 
 	table.insert(slot2, function (slot0, slot1)
 		if slot1 then
-			uv0.shopList[NewShopsScene.TYPE_MEDAL] = {}
+			uv0.shopList[ShopConst.TYPE_MEDAL] = {}
 
-			table.insert(uv0.shopList[NewShopsScene.TYPE_MEDAL], slot1)
+			table.insert(uv0.shopList[ShopConst.TYPE_MEDAL], slot1)
 		end
 
 		slot0()
@@ -282,9 +282,9 @@ slot0.GetMiniShops = function(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0, slot1)
-		uv0.shopList[NewShopsScene.TYPE_MINI_GAME] = {}
+		uv0.shopList[ShopConst.TYPE_MINI_GAME] = {}
 
-		table.insert(uv0.shopList[NewShopsScene.TYPE_MINI_GAME], slot1)
+		table.insert(uv0.shopList[ShopConst.TYPE_MINI_GAME], slot1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)
@@ -308,9 +308,9 @@ slot0.GetQuotaShop = function(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0)
-		uv0.shopList[NewShopsScene.TYPE_QUOTA] = {}
+		uv0.shopList[ShopConst.TYPE_QUOTA] = {}
 
-		table.insert(uv0.shopList[NewShopsScene.TYPE_QUOTA], uv1)
+		table.insert(uv0.shopList[ShopConst.TYPE_QUOTA], uv1)
 		slot0()
 	end)
 	seriesAsync(slot2, slot1)

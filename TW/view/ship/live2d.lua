@@ -18,6 +18,7 @@ slot0.DRAG_CLICK_PARAMETER = 9
 slot0.DRAG_ANIMATION_PLAY = 10
 slot0.DRAG_CLICK_RANGE = 11
 slot0.DRAG_EXTEND_ACTION_RULE = 12
+slot0.DRAG_WITH_PARAMETER_MOVE = 13
 slot0.ON_ACTION_PLAY = 1
 slot0.ON_ACTION_DRAG_CLICK = 2
 slot0.ON_ACTION_CHANGE_IDLE = 3
@@ -848,6 +849,10 @@ end
 
 slot0.inShopPreView = function(slot0, slot1)
 	slot0._shopPreView = slot1
+
+	if slot1 then
+		slot0:changeParamaterValue("shop_hx", 1)
+	end
 end
 
 slot0.getDragEnable = function(slot0, slot1)

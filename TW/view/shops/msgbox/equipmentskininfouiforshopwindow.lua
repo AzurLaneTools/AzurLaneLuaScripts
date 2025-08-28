@@ -69,7 +69,7 @@ slot0.UpdateSkinView = function(slot0, slot1)
 		return EquipType.Type2Name2(slot0)
 	end), ","))
 	onButton(slot0, slot0.playBtn, function ()
-		uv0:emit(NewShopsMediator.ON_ESKIN_PREVIEW, uv1)
+		uv0:emit(NewShopMainMediator.ON_ESKIN_PREVIEW, uv1)
 	end, SFX_PANEL)
 	updateDrop(slot0:findTF("info/equip", slot2), {
 		type = DROP_TYPE_EQUIPMENT_SKIN,

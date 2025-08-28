@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			portrait = 910025,
+			portrait = 201354,
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			actorName = "雅努斯",
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			portrait = 910025,
+			portrait = 201354,
 			side = 2,
 			dir = 1,
 			bgName = "bg_villaisland_cg3",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			portrait = 910025,
+			portrait = 201354,
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			actorName = "雅努斯",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			portrait = 910025,
+			portrait = 201354,
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			actorName = "雅努斯",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			portrait = 910025,
+			portrait = 201354,
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			actorName = "雅努斯",

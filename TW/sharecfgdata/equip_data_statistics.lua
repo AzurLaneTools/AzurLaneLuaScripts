@@ -131025,6 +131025,61 @@ _G.pg.base.equip_data_statistics[78032] = {
 }
 
 
+_G.pg.base.equip_data_statistics[78101] = {
+	name = "全弹发射-迪盖·特鲁因级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 78101,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61771
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[78102] = {
+	name = "全弹发射-迪盖·特鲁因级II",
+	base = 78101,
+	id = 78102,
+	weapon_id = {
+		61772
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[78111] = {
 	name = "全彈發射-埃米爾•貝爾坦I",
 	tech = 1,
@@ -138896,6 +138951,61 @@ _G.pg.base.equip_data_statistics[80472] = {
 	id = 80472,
 	weapon_id = {
 		170752
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80511] = {
+	name = "专属弹幕-大胆I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80511,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170831
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80512] = {
+	name = "专属弹幕-大胆II",
+	base = 80511,
+	id = 80512,
+	weapon_id = {
+		170832
 	},
 	hidden_skill_id = {}
 }
@@ -156574,6 +156684,380 @@ _G.pg.base.equip_data_statistics[91291] = {
 }
 
 
+_G.pg.base.equip_data_statistics[91340] = {
+	name = "LN.401",
+	type = 9,
+	speciality = "<[BOMB]>",
+	rarity = 5,
+	tech = 0,
+	value_2 = 45,
+	icon = "51340",
+	attribute_2 = "air",
+	descrip = "说明未填写",
+	nationality = 8,
+	ammo = 5,
+	value_3 = 0,
+	id = 91340,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			50260
+		},
+		{
+			6,
+			50480
+		},
+		{
+			5,
+			53420
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		91340
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"CV",
+		"DB"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[91341] = {
+	base = 91340,
+	id = 91341,
+	ammo_info = {
+		{
+			6,
+			50261
+		},
+		{
+			6,
+			50481
+		},
+		{
+			5,
+			53421
+		}
+	},
+	weapon_id = {
+		91341
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91342] = {
+	base = 91340,
+	id = 91342,
+	ammo_info = {
+		{
+			6,
+			50262
+		},
+		{
+			6,
+			50482
+		},
+		{
+			5,
+			53422
+		}
+	},
+	weapon_id = {
+		91342
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91343] = {
+	base = 91340,
+	id = 91343,
+	ammo_info = {
+		{
+			6,
+			50263
+		},
+		{
+			6,
+			50483
+		},
+		{
+			5,
+			53423
+		}
+	},
+	weapon_id = {
+		91343
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91344] = {
+	base = 91340,
+	id = 91344,
+	ammo_info = {
+		{
+			6,
+			50264
+		},
+		{
+			6,
+			50484
+		},
+		{
+			5,
+			53424
+		}
+	},
+	weapon_id = {
+		91344
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91345] = {
+	base = 91340,
+	id = 91345,
+	ammo_info = {
+		{
+			6,
+			50265
+		},
+		{
+			6,
+			50485
+		},
+		{
+			5,
+			53425
+		}
+	},
+	weapon_id = {
+		91345
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91346] = {
+	base = 91340,
+	id = 91346,
+	ammo_info = {
+		{
+			6,
+			50266
+		},
+		{
+			6,
+			50486
+		},
+		{
+			5,
+			53426
+		}
+	},
+	weapon_id = {
+		91346
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91347] = {
+	base = 91340,
+	id = 91347,
+	ammo_info = {
+		{
+			6,
+			50267
+		},
+		{
+			6,
+			50487
+		},
+		{
+			5,
+			53427
+		}
+	},
+	weapon_id = {
+		91347
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91348] = {
+	base = 91340,
+	id = 91348,
+	ammo_info = {
+		{
+			6,
+			50268
+		},
+		{
+			6,
+			50488
+		},
+		{
+			5,
+			53428
+		}
+	},
+	weapon_id = {
+		91348
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91349] = {
+	base = 91340,
+	id = 91349,
+	ammo_info = {
+		{
+			6,
+			50269
+		},
+		{
+			6,
+			50489
+		},
+		{
+			5,
+			53429
+		}
+	},
+	weapon_id = {
+		91349
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91350] = {
+	base = 91340,
+	id = 91350,
+	ammo_info = {
+		{
+			6,
+			50270
+		},
+		{
+			6,
+			50490
+		},
+		{
+			5,
+			53430
+		}
+	},
+	weapon_id = {
+		91350
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91351] = {
+	anti_siren = 100,
+	base = 91340,
+	id = 91351,
+	ammo_info = {
+		{
+			6,
+			50271
+		},
+		{
+			6,
+			50491
+		},
+		{
+			5,
+			53431
+		}
+	},
+	weapon_id = {
+		91351
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91352] = {
+	anti_siren = 200,
+	base = 91340,
+	id = 91352,
+	ammo_info = {
+		{
+			6,
+			50272
+		},
+		{
+			6,
+			50492
+		},
+		{
+			5,
+			53432
+		}
+	},
+	weapon_id = {
+		91352
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91353] = {
+	anti_siren = 300,
+	base = 91340,
+	id = 91353,
+	ammo_info = {
+		{
+			6,
+			50273
+		},
+		{
+			6,
+			50493
+		},
+		{
+			5,
+			53433
+		}
+	},
+	weapon_id = {
+		91353
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[95000] = {
 	name = "三聯裝381mm主炮Model1934",
 	speciality = "<[VOL]>",
@@ -170487,6 +170971,61 @@ _G.pg.base.equip_data_statistics[170782] = {
 	id = 170782,
 	weapon_id = {
 		61762
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170801] = {
+	name = "全弹发射-迪凯纳级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170801,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170821
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170802] = {
+	name = "全弹发射-迪凯纳级II",
+	base = 170801,
+	id = 170802,
+	weapon_id = {
+		170822
 	},
 	hidden_skill_id = {}
 }

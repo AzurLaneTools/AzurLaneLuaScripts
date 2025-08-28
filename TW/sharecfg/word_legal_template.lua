@@ -120,6 +120,9 @@ temp = function()
 			["雷"] = {
 				this = true
 			}
+		},
+		["肯"] = {
+			this = true
 		}
 	}
 end
@@ -748,6 +751,13 @@ temp = function()
 			["德"] = {
 				this = true
 			}
+		},
+		["勒"] = {
+			["森"] = {
+				["林"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1058,6 +1068,11 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["塞"] = {
+			["納"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -1087,7 +1102,12 @@ temp = function()
 		["塞"] = {
 			["克"] = {
 				["斯"] = {
-					this = true
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -7139,6 +7159,24 @@ temp = function()
 			["洛"] = {
 				["夫"] = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["迪"] = {
+		["蓋"] = {
+			["·"] = {
+				["特"] = {
+					["魯"] = {
+						["安"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}

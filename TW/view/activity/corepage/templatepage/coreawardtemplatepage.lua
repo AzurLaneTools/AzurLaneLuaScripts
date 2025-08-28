@@ -120,7 +120,10 @@ slot0.AddSpecialBtnListener = function(slot0)
 
 	if slot0.furnitureThemeBtn and slot1.furniture_theme_link then
 		onButton(slot0, slot0.furnitureThemeBtn, function ()
-			uv0:DoSkip(uv1.furniture_theme_link[1], uv1.furniture_theme_link[2])
+			slot0 = uv0.furniture_theme_link
+			slot3 = slot0[3]
+
+			uv1:DoSkip(slot0[1], slot0[2])
 		end, SFX_PANEL)
 	end
 
@@ -128,7 +131,10 @@ slot0.AddSpecialBtnListener = function(slot0)
 
 	if slot0.medalBtn and slot1.medal_link then
 		onButton(slot0, slot0.medalBtn, function ()
-			uv0:DoSkip(uv1.medal_link[1], uv1.medal_link[2])
+			slot0 = uv0.medal_link
+			slot3 = slot0[3]
+
+			uv1:DoSkip(slot0[1], slot0[2])
 		end, SFX_PANEL)
 	end
 
@@ -250,13 +256,8 @@ slot0.updateBoxPanel = function(slot0, slot1)
 
 			setText(slot9:findTF("go", slot7), i18n("brs_reward_tip_2"))
 			onButton(uv1, slot7, function ()
-				if uv0 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
-					pg.m02:sendNotification(GAME.GO_SCENE, uv1[1], uv1[2] or {})
-				elseif uv0 == Msgbox4LinkCollectGuide.SKIP_TYPE_ACTIVITY then
-					uv2:emit(ActivityMediator.SELECT_ACTIVITY, uv1)
-				end
-
-				uv2:showBoxPanel(false)
+				uv0:DoSkip(uv1, uv2)
+				uv0:showBoxPanel(false)
 			end, SFX_PANEL)
 		end
 	end)
@@ -273,9 +274,9 @@ slot0.showBoxPanel = function(slot0, slot1)
 end
 
 slot0.DoSkip = function(slot0, slot1, slot2)
-	if slot1 == 2 then
+	if slot1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, slot2[1], slot2[2] or {})
-	elseif slot1 == 3 then
+	elseif slot1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot2
 		})

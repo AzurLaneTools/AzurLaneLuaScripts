@@ -22,7 +22,7 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initData = function(slot0)
-	slot0.contentStr = slot0.contextData.contentStr
+	slot0.contentStr = slot0.contextData.contentStr and slot0.contextData.contentStr.content
 end
 
 slot0.initUIText = function(slot0)

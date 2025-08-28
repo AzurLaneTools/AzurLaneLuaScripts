@@ -11,14 +11,14 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.name = nil
 	slot0.chatting = false
 	slot0.chatTrOffset = Vector3(118, -276, 0)
+
+	pg.DelegateInfo.New(slot0)
 end
 
 slot0.InitChatPosition = function(slot0)
-	slot3 = slot0.chat.parent:InverseTransformPoint(slot0._painting.parent:TransformPoint(slot0._painting.localPosition + slot0.chatTrOffset))
-	slot0.chat.localPosition = Vector3(slot3.x, slot3.y, 0)
 end
 
-slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
+slot0.Init = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.isInitChatPosition then
 		slot0.isInitChatPosition = true
 
@@ -40,6 +40,12 @@ slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:Load(slot3, slot4)
+
+	if slot5 then
+		onButton(slot0, slot0.touch, function ()
+			uv0()
+		end, SFX_PACNEL)
+	end
 end
 
 slot0.Load = function(slot0, slot1, slot2)
@@ -201,7 +207,20 @@ slot0.UnLoad = function(slot0)
 	end
 end
 
+slot0.Show = function(slot0, slot1)
+	if slot1 then
+		setActive(slot0._painting, true)
+	else
+		setActive(slot0._painting, false)
+
+		slot0.name = nil
+
+		slot0:StopCV()
+	end
+end
+
 slot0.Dispose = function(slot0)
+	pg.DelegateInfo.Dispose(slot0)
 	slot0:UnLoad()
 	slot0:StopCV()
 end

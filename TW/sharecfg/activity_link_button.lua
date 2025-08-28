@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5287",
+		param = "0",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,11 +11,11 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5287
+			50081
 		}
 	},
 	{
-		param = "5871",
+		param = "0",
 		name = "event_all",
 		time = "stop",
 		text_pic = "text_event_all",
@@ -47,22 +47,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50054
+			50081
 		}
 	},
 	[20] = {
 		param = "0",
 		name = "event_map_sub",
+		time = "stop",
 		text_pic = "text_event_map_sub",
 		type = 0,
 		pic = "event_map_sub",
 		id = 20,
 		group_id = 3,
-		order = 1,
-		time = {
-			"default",
-			50042
-		}
+		order = 1
 	},
 	[21] = {
 		name = "event_minigame",
@@ -308,17 +305,20 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "RyzaCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_ryza",
+		text_pic = "text_event_core",
 		type = 16,
-		pic = "event_ryza",
+		pic = "event_core",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50049
+			50085
+		},
+		param = {
+			"SecretsAbyssCoreActivityUI",
+			"QIYUANXIADEMIMILOGO"
 		}
 	},
 	[110] = {
@@ -332,7 +332,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50058
+			50054
 		}
 	},
 	[111] = {

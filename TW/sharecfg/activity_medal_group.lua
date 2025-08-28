@@ -229,12 +229,52 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50087] = {
+		id = 50087,
+		entrance_picture = "medalAlbum/50087",
+		group_name = "奇淵下的秘密",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50087,
+				{
+					21802,
+					21803,
+					21804,
+					21805,
+					21806,
+					21807,
+					21808,
+					21809,
+					21810
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "MassenaMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				314,
+				1
+			},
+			{
+				8,
+				65665,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
 		5875,
 		5913,
 		5970,
-		5971
+		5971,
+		50087
 	}
 }

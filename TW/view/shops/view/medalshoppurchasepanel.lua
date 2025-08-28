@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnConfirm = function(slot0)
-	slot0:emit(NewShopsMediator.ON_MEDAL_SHOPPING, slot0.data.id, slot0.selectedList)
+	slot0:emit(NewShopMainMediator.ON_MEDAL_SHOPPING, slot0.data.id, slot0.selectedList)
 end
 
 return slot0

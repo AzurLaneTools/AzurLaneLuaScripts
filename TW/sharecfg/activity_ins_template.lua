@@ -21559,9 +21559,9 @@ pg.activity_ins_template = {
 	[574] = {
 		ship_group = 1130001,
 		name = "Yumia Liessfeldt",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_574",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_574.png",
+		is_active = 0,
 		sculpture = "youmiya",
 		id = 574,
 		group_id = 574,
@@ -21578,15 +21578,29 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				8,
+				7
+			},
+			{
+				15,
+				5,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6162,
+			6167
+		}
 	},
 	[575] = {
 		ship_group = 1130002,
 		name = "Isla von Duerer",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_575",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_575.png",
+		is_active = 0,
 		sculpture = "aila",
 		id = 575,
 		group_id = 575,
@@ -21603,15 +21617,29 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				8,
+				8
+			},
+			{
+				10,
+				16,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6177,
+			6182
+		}
 	},
 	[576] = {
 		ship_group = 1130003,
 		name = "Nina Friede",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_576",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_576.png",
+		is_active = 0,
 		sculpture = "nina",
 		id = 576,
 		group_id = 576,
@@ -21628,15 +21656,29 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				8,
+				9
+			},
+			{
+				16,
+				17,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6192,
+			6196
+		}
 	},
 	[577] = {
 		ship_group = 1130004,
 		name = "Lenja",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_577",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_577.png",
+		is_active = 0,
 		sculpture = "leiniya",
 		id = 577,
 		group_id = 577,
@@ -21650,6 +21692,170 @@ pg.activity_ins_template = {
 			{
 				11,
 				43,
+				17
+			}
+		},
+		time_persist = {
+			{
+				2025,
+				8,
+				10
+			},
+			{
+				11,
+				43,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6206,
+			6210
+		}
+	},
+	[578] = {
+		ship_group = 80401,
+		name = "Masséna",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "masaina",
+		id = 578,
+		group_id = 578,
+		order = 65,
+		time = {
+			{
+				2025,
+				8,
+				28
+			},
+			{
+				14,
+				36,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[579] = {
+		ship_group = 80601,
+		name = "Bois Belleau",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "beilaosenlin",
+		id = 579,
+		group_id = 579,
+		order = 65,
+		time = {
+			{
+				2025,
+				8,
+				29
+			},
+			{
+				11,
+				21,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[580] = {
+		ship_group = 80105,
+		name = "Le hardi",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "dadan",
+		id = 580,
+		group_id = 580,
+		order = 65,
+		time = {
+			{
+				2025,
+				8,
+				30
+			},
+			{
+				16,
+				7,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[581] = {
+		ship_group = 80303,
+		name = "Duquesne ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "dikaina",
+		id = 581,
+		group_id = 581,
+		order = 65,
+		time = {
+			{
+				2025,
+				8,
+				31
+			},
+			{
+				10,
+				46,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[582] = {
+		ship_group = 80204,
+		name = "Duguay-Trouin ",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "digaiteluyin",
+		id = 582,
+		group_id = 582,
+		order = 65,
+		time = {
+			{
+				2025,
+				9,
+				1
+			},
+			{
+				15,
+				51,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[583] = {
+		ship_group = 10709,
+		name = "EssexG1",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "aisaikesi",
+		id = 583,
+		group_id = 583,
+		order = 65,
+		time = {
+			{
+				2025,
+				9,
+				2
+			},
+			{
+				18,
+				14,
 				17
 			}
 		},
@@ -22211,6 +22417,12 @@ pg.activity_ins_template = {
 		574,
 		575,
 		576,
-		577
+		577,
+		578,
+		579,
+		580,
+		581,
+		582,
+		583
 	}
 }

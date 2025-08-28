@@ -2511,7 +2511,7 @@ pg.medal_template = {
 		name = "高塔薔薇紀念勳章",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 1,
+		is_out_of_print = 0,
 		count_inherit = 0,
 		desc = "高塔走向了毀滅，薔薇走向了新生。\n此行雖有波折、亦存險阻，所幸終得圓滿。可喜可賀，可賀可喜。",
 		next = 0,
@@ -2532,7 +2532,7 @@ pg.medal_template = {
 		name = "別墅假日紀念勳章",
 		target_num = 7,
 		type = 0,
-		is_out_of_print = 1,
+		is_out_of_print = 0,
 		count_inherit = 0,
 		desc = "沙灘與烈日、冷飲與冷氣。盡情享受這場獨屬於渡假別墅島的獨特體驗，度過一個完美假期吧~",
 		next = 0,
@@ -2546,6 +2546,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200061,
 		explain1 = "「夏日重建」",
+		explain2 = "活動紀念"
+	},
+	[200081] = {
+		target_id = "50087",
+		name = "奇淵之下紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "你發現了奇淵下的秘密，阻止了災厄之子的陰謀，我們尊敬的指揮官，希望你在這段冒險中玩得盡興。\n\n——《大型港區虛擬實境體驗計畫2.0》製作委員會",
+		next = 0,
+		icon = "9081",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9081",
+		condition = "收集8個「奇淵下的秘密」紀念貼紙。",
+		rank = 1,
+		id = 200081,
+		explain1 = "「奇淵下的秘密」",
 		explain2 = "活動紀念"
 	},
 	all = {
@@ -2664,6 +2685,7 @@ pg.medal_template = {
 		200031,
 		200041,
 		200051,
-		200061
+		200061,
+		200081
 	}
 }

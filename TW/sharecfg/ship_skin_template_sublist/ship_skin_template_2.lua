@@ -1,120 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102052] = {
-		name = "與君共舞",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "那個，指揮官，能和我跳一支舞嗎？我有很多話，想要和指揮官說呢",
-		group_index = 2,
-		purchase_offset = "",
-		painting = "hailunna_3",
-		ship_group = 10205,
-		bg_sp = "",
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "115",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 102052,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "hailunna_3",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70188,
-		voice_actor = 34,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.06,
-					0.975,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.029,
-					1.029,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.045,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.627,
-							2.291,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102053] = {
 		name = "耀眼的波紋",
 		shop_offset = "",
@@ -276,6 +162,212 @@ pg.base.ship_skin_template_2 = {
 			0.5,
 			0.5,
 			0.5
+		}
+	},
+	[102054] = {
+		name = "檜木溫香，暖意一刻",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "嗚呀？！……指、指揮官……？不、不要緊！只是腳滑了一下，沒事的——調光玻璃的開關怎麼關掉了……？！啊，啊嗚哇哇哇……///",
+		group_index = 4,
+		purchase_offset = "",
+		painting = "hailunna_5",
+		ship_group = 10205,
+		bg_sp = "",
+		shop_type_id = 22,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "109",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102054,
+		voice_actor_2 = -1,
+		part_scale = "",
+		prefab = "hailunna_5",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71171,
+		voice_actor = 34,
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-107,
+			-908,
+			0,
+			0.61
+		},
+		spine_offset_profile = {
+			-58,
+			-907,
+			0,
+			0.61
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.06,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.029,
+					1.029,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.837,
+					2.394,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.627,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-8,
+				8
+			},
+			ParamBodyAngleY = {
+				-8,
+				8
+			},
+			ParamEyeBallX = {
+				-0.4,
+				0.2
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		spine_offset = {
+			-134,
+			-1450,
+			0,
+			0.858
+		},
+		ship_l2d_id = {
+			1020531,
+			1020532,
+			1020533
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1932,
+					1460,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					-592,
+					657,
+					2,
+					0,
+					-100,
+					2
+				},
+				{
+					-242,
+					-434,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
 		}
 	},
 	[102058] = {
@@ -4971,6 +5063,146 @@ pg.base.ship_skin_template_2 = {
 							-0.16
 						}
 					}
+				}
+			}
+		}
+	},
+	[102151] = {
+		name = "假日悠悠",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "啊——真舒服——！咦？好巧啊指揮官，你也來泡溫泉了嗎？……哦哦！我只是泡得太舒服了才忍不住叫出聲的，沒發生什麼事！",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "danfo_2",
+		ship_group = 10215,
+		bg_sp = "",
+		shop_type_id = 22,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 102151,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "danfo_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71172,
+		voice_actor = 117,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.644,
+					0.758,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.025,
+					0.038,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.63,
+					2.355,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.772,
+							2.391,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1240,
+					853,
+					2,
+					0,
+					-160,
+					2
+				},
+				{
+					-322,
+					-866,
+					2,
+					-160,
+					0,
+					2
+				},
+				{
+					-899,
+					32,
+					2,
+					0,
+					100,
+					2
 				}
 			}
 		}

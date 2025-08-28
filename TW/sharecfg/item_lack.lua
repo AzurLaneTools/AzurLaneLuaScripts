@@ -1049,6 +1049,474 @@ pg.item_lack = {
 			}
 		}
 	},
+	[209] = {
+		config_client = "",
+		id = 209,
+		drop_type = 2,
+		itemids = {
+			18101
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[210] = {
+		config_client = "",
+		id = 210,
+		drop_type = 2,
+		itemids = {
+			18102
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[211] = {
+		config_client = "",
+		id = 211,
+		drop_type = 2,
+		itemids = {
+			18103
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[212] = {
+		config_client = "",
+		id = 212,
+		drop_type = 2,
+		itemids = {
+			18104
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[213] = {
+		config_client = "",
+		id = 213,
+		drop_type = 2,
+		itemids = {
+			18105
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[214] = {
+		config_client = "",
+		id = 214,
+		drop_type = 2,
+		itemids = {
+			18106
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[215] = {
+		config_client = "",
+		id = 215,
+		drop_type = 2,
+		itemids = {
+			18107
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[216] = {
+		config_client = "",
+		id = 216,
+		drop_type = 2,
+		itemids = {
+			18108
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[217] = {
+		config_client = "",
+		id = 217,
+		drop_type = 2,
+		itemids = {
+			18109
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[218] = {
+		config_client = "",
+		id = 218,
+		drop_type = 2,
+		itemids = {
+			18110
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[219] = {
+		config_client = "",
+		id = 219,
+		drop_type = 2,
+		itemids = {
+			18111
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[220] = {
+		config_client = "",
+		id = 220,
+		drop_type = 2,
+		itemids = {
+			18112
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[221] = {
+		config_client = "",
+		id = 221,
+		drop_type = 2,
+		itemids = {
+			18113
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[222] = {
+		config_client = "",
+		id = 222,
+		drop_type = 2,
+		itemids = {
+			18114
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[223] = {
+		config_client = "",
+		id = 223,
+		drop_type = 2,
+		itemids = {
+			18115
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[224] = {
+		config_client = "",
+		id = 224,
+		drop_type = 2,
+		itemids = {
+			18116
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[225] = {
+		config_client = "",
+		id = 225,
+		drop_type = 2,
+		itemids = {
+			18117
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[226] = {
+		config_client = "",
+		id = 226,
+		drop_type = 2,
+		itemids = {
+			18118
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[227] = {
+		config_client = "",
+		id = 227,
+		drop_type = 2,
+		itemids = {
+			18119
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[228] = {
+		config_client = "",
+		id = 228,
+		drop_type = 2,
+		itemids = {
+			18120
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[229] = {
+		config_client = "",
+		id = 229,
+		drop_type = 2,
+		itemids = {
+			18121
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[230] = {
+		config_client = "",
+		id = 230,
+		drop_type = 2,
+		itemids = {
+			18122
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[231] = {
+		config_client = "",
+		id = 231,
+		drop_type = 2,
+		itemids = {
+			18123
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[232] = {
+		config_client = "",
+		id = 232,
+		drop_type = 2,
+		itemids = {
+			18124
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[233] = {
+		config_client = "",
+		id = 233,
+		drop_type = 2,
+		itemids = {
+			18125
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[234] = {
+		config_client = "",
+		id = 234,
+		drop_type = 2,
+		itemids = {
+			18126
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			}
+		}
+	},
+	[235] = {
+		config_client = "",
+		id = 235,
+		drop_type = 2,
+		itemids = {
+			18127
+		},
+		description = {
+			{
+				"參與大型作戰",
+				{
+					"scene level"
+				},
+				0
+			},
+			{
+				"合成獲得",
+				{
+					"BaseUI:ON_ITEM",
+					{
+						itemId = 18126
+					}
+				}
+			}
+		}
+	},
 	get_id_list_by_drop_type = {
 		[2] = {
 			1,
@@ -1079,7 +1547,34 @@ pg.item_lack = {
 			204,
 			205,
 			206,
-			208
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229,
+			230,
+			231,
+			232,
+			233,
+			234,
+			235
 		}
 	},
 	all = {
@@ -1111,6 +1606,33 @@ pg.item_lack = {
 		204,
 		205,
 		206,
-		208
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235
 	}
 }

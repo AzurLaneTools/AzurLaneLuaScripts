@@ -182,7 +182,7 @@ slot0.SetResources = function(slot0)
 					setText(slot2:Find("count"), uv1.player:getTotalGem())
 
 					slot6 = function()
-						if not pg.m02:hasMediator(ChargeMediator.__cname) then
+						if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 								wrap = ChargeScene.TYPE_DIAMOND
 							})

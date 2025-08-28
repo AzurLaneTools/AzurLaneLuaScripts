@@ -24,6 +24,11 @@ end
 slot0.initData = function(slot0)
 	slot0.giftGoodsVOList = {}
 	slot0.giftGoodsVOListForShow = {}
+	slot0.packageSortList = {
+		0
+	}
+	slot0.prevBtn = nil
+	slot0.selectedPackageType = nil
 	slot0.updateTime = nil
 	slot0.updateTimer = nil
 	slot0.player = getProxy(PlayerProxy):getData()
@@ -32,11 +37,18 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.lScrollRect = GetComponent(slot0._tf, "LScrollRect")
+	slot0.emptyGo = slot0:findTF("emptyText")
+
+	setText(slot0.emptyGo, i18n("shop_pack_empty"))
+
+	slot0.lScrollRect = GetComponent(slot0:findTF("lScrollRect"), "LScrollRect")
 	slot0.chargeCardTable = {}
 
 	slot0:initScrollRect()
+	slot0:initToggleList()
+	slot0:updateToggleList()
 	slot0:updateScrollRect()
+	triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
 end
 
 slot0.GetViewSkinWrap = function(slot0)
@@ -55,10 +67,10 @@ slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 
 				switch(slot1:getShowType(), {
 					[Goods.SHOW_TYPE_TECH] = function ()
-						uv0:emit(ChargeMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER, uv1.goods, uv0.chargedList)
+						uv0:emit(NewShopMainMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER, uv1.goods, uv0.chargedList)
 					end,
 					[Goods.SHOW_TYPE_BATTLE_UI] = function ()
-						uv0:emit(ChargeMediator.OPEN_BATTLE_UI_SELL_LAYER, uv1.goods, uv0.chargedList)
+						uv0:emit(NewShopMainMediator.OPEN_BATTLE_UI_SELL_LAYER, uv1.goods, uv0.chargedList)
 					end
 				}, function ()
 					uv0:confirm(uv1.goods)
@@ -78,7 +90,7 @@ slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 			if #slot0 <= 0 or #slot0 ~= #slot1 then
 				uv1:emit(BaseUI.ON_DROP, uv0.goods:GetSkinProbabilityItem())
 			else
-				uv1:emit(ChargeMediator.VIEW_SKIN_PROBABILITY, uv0.goods.id, uv1:GetViewSkinWrap())
+				uv1:emit(NewShopMainMediator.VIEW_SKIN_PROBABILITY, uv0.goods.id, uv1:GetViewSkinWrap())
 			end
 		end, SFX_PANEL)
 
@@ -92,14 +104,21 @@ slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 			slot2 = uv0.chargeCardTable[slot1]
 		end
 
-		if uv0.giftGoodsVOListForShow[slot0 + 1] then
+		if uv0.filterList[slot0 + 1] then
 			slot2:update(slot3, uv0.player, uv0.firstChargeIds)
 		end
 	end
 end
 
+slot0.updateToggleList = function(slot0)
+	slot0.uiToggleList:align(#slot0.packageSortList)
+end
+
 slot0.updateScrollRect = function(slot0)
-	slot0.lScrollRect:SetTotalCount(#slot0.giftGoodsVOListForShow, slot0.lScrollRect.value)
+	slot0.filterList = slot0:getFilterList()
+
+	slot0.lScrollRect:SetTotalCount(#slot0.filterList, slot0.lScrollRect.value)
+	setActive(slot0.emptyGo, #slot0.filterList <= 0)
 end
 
 slot0.confirm = function(slot0, slot1)
@@ -125,7 +144,7 @@ slot0.confirm = function(slot0, slot1)
 				slot8 = i18n("charge_title_getitem")
 			end
 
-			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
+			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
 				infoTip = slot1:GetInfoTip(),
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
@@ -143,16 +162,16 @@ slot0.confirm = function(slot0, slot1)
 				limitArgs = slot1:getConfig("limit_args"),
 				onYes = function ()
 					if ChargeConst.isNeedSetBirth() then
-						uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+						uv0:emit(NewShopMainMediator.OPEN_CHARGE_BIRTHDAY)
 					else
-						uv0:emit(ChargeMediator.CHARGE, uv1.id)
+						uv0:emit(NewShopMainMediator.CHARGE, uv1.id)
 					end
 				end
 			})
 		elseif slot1:isGem() then
 			slot6 = slot1:getConfig("gem")
 
-			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_BOX, {
+			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_BOX, {
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
@@ -162,9 +181,9 @@ slot0.confirm = function(slot0, slot1)
 				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot6 + slot1:getConfig("gem") or slot6 + slot1:getConfig("extra_gem")),
 				onYes = function ()
 					if ChargeConst.isNeedSetBirth() then
-						uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+						uv0:emit(NewShopMainMediator.OPEN_CHARGE_BIRTHDAY)
 					else
-						uv0:emit(ChargeMediator.CHARGE, uv1.id)
+						uv0:emit(NewShopMainMediator.CHARGE, uv1.id)
 					end
 				end
 			})
@@ -182,7 +201,7 @@ slot0.confirm = function(slot0, slot1)
 			end
 		end
 
-		slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
+		slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isChargeType = false,
 			isLocalPrice = false,
 			isMonthCard = false,
@@ -196,7 +215,7 @@ slot0.confirm = function(slot0, slot1)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("charge_scene_buy_confirm", uv0:getConfig("resource_num"), uv1.name),
 					onYes = function ()
-						uv0:emit(ChargeMediator.BUY_ITEM, uv1.id, 1)
+						uv0:emit(NewShopMainMediator.BUY_ITEM, uv1.id, 1)
 					end
 				})
 			end
@@ -204,8 +223,47 @@ slot0.confirm = function(slot0, slot1)
 	end
 end
 
+slot0.initToggleList = function(slot0)
+	slot0.uiToggleList = UIItemList.New(slot0:findTF("toggleGroup"), slot0:findTF("toggleGroup/Toggle"))
+	slot1 = slot0.uiToggleList
+
+	slot1:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventInit then
+			slot3 = uv0.packageSortList[slot1 + 1]
+
+			setText(uv0:findTF("selected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(uv0:findTF("selected/enText", slot2), i18n(string.format("shop_package_sort_en_%s", slot3)))
+			setText(uv0:findTF("unselected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setActive(slot2:Find("unselected"), true)
+			setActive(slot2:Find("selected"), false)
+		elseif slot0 == UIItemList.EventUpdate then
+			onButton(uv0, slot2, function ()
+				if uv0.selectedPackageType == uv0.packageSortList[uv1 + 1] then
+					return
+				end
+
+				setActive(uv2:Find("unselected"), false)
+				setActive(uv2:Find("selected"), true)
+
+				if uv0.prevBtn then
+					setActive(uv0.prevBtn:Find("unselected"), true)
+					setActive(uv0.prevBtn:Find("selected"), false)
+				end
+
+				uv0.prevBtn = uv2
+				uv0.selectedPackageType = slot0
+
+				uv0:updateScrollRect()
+			end, SFX_PANEL)
+		end
+	end)
+end
+
 slot0.updateGiftGoodsVOList = function(slot0)
 	slot0.giftGoodsVOList = {}
+	slot0.packageSortList = {
+		0
+	}
 	slot1 = RefluxShopView.getAllRefluxPackID()
 
 	for slot6, slot7 in pairs(pg.pay_data_display.all) do
@@ -216,6 +274,10 @@ slot0.updateGiftGoodsVOList = function(slot0)
 			if not (slot8.akashi_pick == 1) and (slot9 == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_CHARGE)) then
+				if not table.contains(slot0.packageSortList, slot8.package_sort_id) then
+					table.insert(slot0.packageSortList, slot12)
+				end
+
 				table.insert(slot0.giftGoodsVOList, slot11)
 			end
 		end
@@ -223,11 +285,21 @@ slot0.updateGiftGoodsVOList = function(slot0)
 
 	for slot6, slot7 in pairs(pg.shop_template.get_id_list_by_genre.gift_package) do
 		if not (pg.shop_template[slot7].akashi_pick == 1) and not table.contains(slot1, slot7) then
-			table.insert(slot0.giftGoodsVOList, Goods.Create({
+			slot10 = Goods.Create({
 				shop_id = slot7
-			}, Goods.TYPE_GIFT_PACKAGE))
+			}, Goods.TYPE_GIFT_PACKAGE)
+
+			if not table.contains(slot0.packageSortList, slot8.package_sort_id) then
+				table.insert(slot0.packageSortList, slot11)
+			end
+
+			table.insert(slot0.giftGoodsVOList, slot10)
 		end
 	end
+
+	table.sort(slot0.packageSortList, function (slot0, slot1)
+		return slot0 < slot1
+	end)
 end
 
 slot0.sortGiftGoodsVOList = function(slot0)
@@ -306,6 +378,26 @@ slot0.sortGiftGoodsVOList = function(slot0)
 	}))
 end
 
+slot0.getFilterList = function(slot0)
+	if slot0.selectedPackageType == nil or slot0.selectedPackageType == 0 then
+		return slot0.giftGoodsVOListForShow
+	end
+
+	return slot0:getFilterListByType(slot0.selectedPackageType)
+end
+
+slot0.getFilterListByType = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.giftGoodsVOListForShow) do
+		if slot7:getConfig("package_sort_id") == slot1 then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 slot0.updateGoodsData = function(slot0)
 	slot0.firstChargeIds = slot0.contextData.firstChargeIds
 	slot0.chargedList = slot0.contextData.chargedList
@@ -357,9 +449,22 @@ slot0.removeUpdateTimer = function(slot0)
 	end
 end
 
+slot0.IsSupplyShop = function(slot0)
+	return false
+end
+
 slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
+	slot0:updateToggleList()
 	slot0:updateScrollRect()
+
+	if not table.contains(slot0.packageSortList, slot0.selectedPackageType) then
+		triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
+	end
+end
+
+slot0.ShowPanel = function(slot0, slot1)
+	setActive(slot0._go, slot1)
 end
 
 slot0.filterLimitTypeGoods = function(slot0, slot1)

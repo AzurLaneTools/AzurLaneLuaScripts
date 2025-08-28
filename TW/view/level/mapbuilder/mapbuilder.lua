@@ -12,6 +12,7 @@ slot0.TYPESPFULL = 10
 slot0.TYPESPSERIES = 11
 slot0.TYPESPSERIESFULL = 12
 slot0.TYPEATELIERYUMIA = 13
+slot0.TYPEEXSP = 14
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)

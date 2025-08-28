@@ -344,7 +344,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 403
+		key_value = 534
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -1957,7 +1957,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 405
+		key_value = 532
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3921,5 +3921,9 @@ pg.gameset = {
 				300020
 			}
 		}
+	},
+	shop_banner_capacity = {
+		description = "",
+		key_value = 3
 	}
 }

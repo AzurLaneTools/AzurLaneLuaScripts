@@ -1,25 +1,12 @@
 slot0 = class("MedalShopPage", import(".MilitaryShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "MedalShop"
-end
-
 slot0.CanOpen = function(slot0)
 	return true
 end
 
-slot0.OnLoaded = function(slot0)
-	slot0.exploitTF = slot0._tf:Find("res_exploit/bg/Text"):GetComponent(typeof(Text))
-	slot0.timerTF = slot0._tf:Find("time/day"):GetComponent(typeof(Text))
-
-	setText(slot0._tf:Find("time"), i18n("title_limit_time"))
-	setText(slot0._tf:Find("time/text"), i18n("shops_rest_day"))
-	setText(slot0._tf:Find("time/text_day"), i18n("word_date"))
-end
-
-slot0.OnInit = function(slot0)
-	slot0.purchaseWindow = MedalShopPurchasePanel.New(slot0._tf, slot0.event)
-	slot0.multiWindow = MedalShopMultiWindow.New(slot0._tf, slot0.event)
+slot0.CustomInit = function(slot0)
+	slot0.purchaseWindow = MedalShopPurchasePanel.New(slot0._tf, slot0.parent.event)
+	slot0.multiWindow = MedalShopMultiWindow.New(slot0._tf, slot0.parent.event)
 end
 
 slot0.UpdateShop = function(slot0, ...)
@@ -38,13 +25,36 @@ slot0.OnUpdatePlayer = function(slot0)
 end
 
 slot0.OnUpdateItems = function(slot0)
-	slot0.exploitTF.text = slot0.items[ITEM_ID_SILVER_HOOK] and slot1[ITEM_ID_SILVER_HOOK].count or 0
+	slot0:RefreshResItemList()
+end
+
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
+		slot8 = nil
+
+		table.insert(slot1, {
+			type = DROP_TYPE_ITEM,
+			resID = slot7,
+			cnt = not slot0.items[ITEM_ID_SILVER_HOOK] and 0 or slot10.count
+		})
+	end
+
+	return slot1
+end
+
+slot0.RefreshUI = function(slot0)
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = MedalGoodsCard.New(slot1)
 
-	onButton(slot0, slot2._go, function ()
+	onButton(slot0, slot2.go, function ()
 		if not uv0.goods:CanPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
@@ -84,7 +94,7 @@ slot0.OnCardClick = function(slot0, slot1)
 				table.insert(slot1, slot2)
 			end
 
-			uv1:emit(NewShopsMediator.ON_MEDAL_SHOPPING, uv0.goods.id, slot1)
+			uv1:emit(NewShopMainMediator.ON_MEDAL_SHOPPING, uv0.goods.id, slot1)
 		end)
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -97,7 +107,7 @@ slot0.OnCardClick = function(slot0, slot1)
 					return
 				end
 
-				uv1:emit(NewShopsMediator.ON_MEDAL_SHOPPING, uv0.goods.id, uv0.goods:GetFirstDropId())
+				uv1:emit(NewShopMainMediator.ON_MEDAL_SHOPPING, uv0.goods.id, uv0.goods:GetFirstDropId())
 			end
 		})
 	end
@@ -109,8 +119,8 @@ slot0.AddTimer = function(slot0)
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1:RemoveTimer()
 			uv1:OnTimeOut()
-		elseif uv1.timerTF.text ~= tostring(1 + math.floor((slot0 - 1) / 86400)) then
-			uv1.timerTF.text = string.format("%02d", 1 + math.floor((slot0 - 1) / 86400))
+		else
+			setText(uv1.tipText, i18n("title_limit_time") .. i18n("shops_rest_day") .. string.format("%02d", 1 + math.floor((slot0 - 1) / 86400)) .. i18n("word_date"))
 		end
 	end, 1, -1)
 
@@ -119,7 +129,7 @@ slot0.AddTimer = function(slot0)
 end
 
 slot0.OnTimeOut = function(slot0)
-	slot0:emit(NewShopsMediator.REFRESH_MEDAL_SHOP, false)
+	slot0:emit(NewShopMainMediator.REFRESH_MEDAL_SHOP, false)
 end
 
 slot0.OnDestroy = function(slot0)

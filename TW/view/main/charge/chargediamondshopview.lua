@@ -84,7 +84,7 @@ slot0.confirm = function(slot0, slot1)
 				slot8 = i18n("charge_title_getitem")
 			end
 
-			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
+			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
 				infoTip = slot1:GetInfoTip(),
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
@@ -101,16 +101,16 @@ slot0.confirm = function(slot0, slot1)
 				descExtra = slot1:getConfig("descrip_extra"),
 				onYes = function ()
 					if ChargeConst.isNeedSetBirth() then
-						uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+						uv0:emit(NewShopMainMediator.OPEN_CHARGE_BIRTHDAY)
 					else
-						uv0:emit(ChargeMediator.CHARGE, uv1.id)
+						uv0:emit(NewShopMainMediator.CHARGE, uv1.id)
 					end
 				end
 			})
 		elseif slot1:isGem() then
 			slot6 = slot1:getConfig("gem")
 
-			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_BOX, {
+			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_BOX, {
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
@@ -120,9 +120,9 @@ slot0.confirm = function(slot0, slot1)
 				normalTip = i18n("charge_start_tip", slot1:getConfig("money"), slot3 and slot6 + slot1:getConfig("gem") or slot6 + slot1:getConfig("extra_gem")),
 				onYes = function ()
 					if ChargeConst.isNeedSetBirth() then
-						uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+						uv0:emit(NewShopMainMediator.OPEN_CHARGE_BIRTHDAY)
 					else
-						uv0:emit(ChargeMediator.CHARGE, uv1.id)
+						uv0:emit(NewShopMainMediator.CHARGE, uv1.id)
 					end
 				end
 			})
@@ -140,7 +140,7 @@ slot0.confirm = function(slot0, slot1)
 			end
 		end
 
-		slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
+		slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isChargeType = false,
 			isLocalPrice = false,
 			isMonthCard = false,
@@ -154,7 +154,7 @@ slot0.confirm = function(slot0, slot1)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("charge_scene_buy_confirm", uv0:getConfig("resource_num"), uv1.name),
 					onYes = function ()
-						uv0:emit(ChargeMediator.BUY_ITEM, uv1.id, 1)
+						uv0:emit(NewShopMainMediator.BUY_ITEM, uv1.id, 1)
 					end
 				})
 			end
@@ -249,9 +249,17 @@ slot0.updateData = function(slot0)
 	slot0:sortDiamondGoodsVOList()
 end
 
+slot0.IsSupplyShop = function(slot0)
+	return false
+end
+
 slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
 	slot0:updateView()
+end
+
+slot0.ShowPanel = function(slot0, slot1)
+	setActive(slot0._go, slot1)
 end
 
 return slot0

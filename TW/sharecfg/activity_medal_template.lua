@@ -564,6 +564,102 @@ pg.activity_medal_template = {
 		id = 597107,
 		medal_asset = "ActivityMedal/597107"
 	},
+	[5008701] = {
+		activity_medal_desc = "流星墜，奇淵成，災厄現，聖典出。",
+		next_medal = 0,
+		item = 65666,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "1",
+		task_id = 21803,
+		activity_medal_name = "紀念貼紙：來自奇淵",
+		id = 5008701,
+		medal_asset = "ActivityMedal/5008701"
+	},
+	[5008702] = {
+		activity_medal_desc = "烏洛波羅斯魔法學院的所在地，城內的所有大小事務都圍繞著奇淵。",
+		next_medal = 0,
+		item = 65667,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "2",
+		task_id = 21804,
+		activity_medal_name = "紀念貼紙：恩澤城",
+		id = 5008702,
+		medal_asset = "ActivityMedal/5008702"
+	},
+	[5008703] = {
+		activity_medal_desc = "這點小事交給佩勒厄就可以了~",
+		next_medal = 0,
+		item = 65668,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "3",
+		task_id = 21805,
+		activity_medal_name = "紀念貼紙：武裝控制媒介",
+		id = 5008703,
+		medal_asset = "ActivityMedal/5008703"
+	},
+	[5008704] = {
+		activity_medal_desc = "想要讓敵人臣服，最好的方法就是火力覆蓋！",
+		next_medal = 0,
+		item = 65669,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "4",
+		task_id = 21806,
+		activity_medal_name = "紀念貼紙：古代魔偶",
+		id = 5008704,
+		medal_asset = "ActivityMedal/5008704"
+	},
+	[5008705] = {
+		activity_medal_desc = "枯黃的枝葉極力向天空延伸，如同諸神褪色的王冠，在衰亡中勉力庇護最後的精靈血脈。",
+		next_medal = 0,
+		item = 65670,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "5",
+		task_id = 21807,
+		activity_medal_name = "紀念貼紙：精靈母樹",
+		id = 5008705,
+		medal_asset = "ActivityMedal/5008705"
+	},
+	[5008706] = {
+		activity_medal_desc = "魔姬在注視著你——",
+		next_medal = 0,
+		item = 65671,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "6",
+		task_id = 21808,
+		activity_medal_name = "紀念貼紙：惡魔之眼",
+		id = 5008706,
+		medal_asset = "ActivityMedal/5008706"
+	},
+	[5008707] = {
+		activity_medal_desc = "這裡曾有著古老的參天巨樹，但如今只剩下了被遺忘的樹墩。",
+		next_medal = 0,
+		item = 65672,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "7",
+		task_id = 21809,
+		activity_medal_name = "紀念貼紙：腐心樹",
+		id = 5008707,
+		medal_asset = "ActivityMedal/5008707"
+	},
+	[5008708] = {
+		activity_medal_desc = "寒冬要塞，你們的冬將軍回來了！",
+		next_medal = 0,
+		item = 65673,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "8",
+		task_id = 21810,
+		activity_medal_name = "紀念貼紙：冰雪王冠",
+		id = 5008708,
+		medal_asset = "ActivityMedal/5008708"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -623,6 +719,16 @@ pg.activity_medal_template = {
 			597105,
 			597106,
 			597107
+		},
+		[50087] = {
+			5008701,
+			5008702,
+			5008703,
+			5008704,
+			5008705,
+			5008706,
+			5008707,
+			5008708
 		}
 	},
 	all = {
@@ -672,6 +778,14 @@ pg.activity_medal_template = {
 		597104,
 		597105,
 		597106,
-		597107
+		597107,
+		5008701,
+		5008702,
+		5008703,
+		5008704,
+		5008705,
+		5008706,
+		5008707,
+		5008708
 	}
 }

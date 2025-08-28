@@ -25,4 +25,10 @@ slot0.update = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.GetResList = function(slot0)
+	return {
+		59900
+	}
+end
+
 return slot0

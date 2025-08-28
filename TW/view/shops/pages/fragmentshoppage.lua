@@ -1,9 +1,5 @@
 slot0 = class("FragmentShopPage", import(".ShamShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "FragmentShop"
-end
-
 slot0.GetPaintingCommodityUpdateVoice = function(slot0)
 end
 
@@ -11,18 +7,15 @@ slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "FragmentShop")
 end
 
-slot0.OnLoaded = function(slot0)
-	slot0.dayTxt = slot0:findTF("time/day"):GetComponent(typeof(Text))
-	slot0.fragment = slot0:findTF("res_fragment/count"):GetComponent(typeof(Text))
-	slot0.resolveBtn = slot0:findTF("res_fragment/resolve")
-	slot0.urRes = slot0:findTF("res_ur/count"):GetComponent(typeof(Text))
+slot0.init = function(slot0)
+	uv0.super.init(slot0)
 end
 
-slot0.OnInit = function(slot0)
-	uv0.super.OnInit(slot0)
+slot0.CustomInit = function(slot0)
 	onButton(slot0, slot0.resolveBtn, function ()
 		if not uv0.resolvePanel then
 			uv0.resolvePanel = FragResolvePanel.New(uv0)
+			uv0.resolvePanel.event = uv0.event
 
 			uv0.resolvePanel:Load()
 		end
@@ -30,18 +23,11 @@ slot0.OnInit = function(slot0)
 		uv0.resolvePanel.buffer:Reset()
 		uv0.resolvePanel.buffer:Trigger("control")
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("res_fragment"), function ()
-		uv0:emit(BaseUI.ON_ITEM, id2ItemId(PlayerConst.ResBlueprintFragment))
-	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("res_ur"), function ()
-		uv0:emit(BaseUI.ON_ITEM, pg.gameset.urpt_chapter_max.description[1])
-	end, SFX_PANEL)
 	getProxy(CommanderManualProxy):TaskProgressAdd(2023, 1)
 end
 
 slot0.OnUpdatePlayer = function(slot0)
-	slot1 = slot0.player
-	slot0.fragment.text = slot0.player:getResource(PlayerConst.ResBlueprintFragment)
+	slot0:RefreshResItemList()
 end
 
 slot0.OnFragmentSellUpdate = function(slot0)
@@ -52,16 +38,29 @@ slot0.OnFragmentSellUpdate = function(slot0)
 end
 
 slot0.OnUpdateItems = function(slot0)
-	if not LOCK_UR_SHIP then
-		slot0.urRes.text = (slot0.items[pg.gameset.urpt_chapter_max.description[1]] or {
-			count = 0
-		}).count
-	else
-		setActive(slot0:findTF("res_ur"), false)
-		setAnchoredPosition(slot0:findTF("res_fragment"), {
-			x = 938.5
+	slot0:RefreshResItemList()
+end
+
+slot0.GetResDataList = function(slot0)
+	slot1 = {
+		{
+			type = DROP_TYPE_RESOURCE,
+			resID = PlayerConst.ResBlueprintFragment,
+			cnt = slot0.player:getResource(PlayerConst.ResBlueprintFragment)
+		}
+	}
+
+	if not LOCK_UR_SHIP and slot0.items then
+		table.insert(slot1, {
+			type = DROP_TYPE_ITEM,
+			resID = slot3,
+			cnt = (slot0.items[pg.gameset.urpt_chapter_max.description[1]] or {
+				count = 0
+			}).count
 		})
 	end
+
+	return slot1
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1)
@@ -78,14 +77,22 @@ slot0.OnUpdateCommodity = function(slot0, slot1)
 	if slot2 then
 		slot2.goodsVO = slot1
 
-		ActivityGoodsCard.StaticUpdate(slot2.tr, slot1, uv0.TYPE_FRAGMENT)
+		ActivityGoodsCard.StaticUpdate(slot2.tf, slot1, uv0.TYPE_FRAGMENT)
 	end
+end
+
+slot0.RefreshUI = function(slot0)
+	slot0:UpdateTip()
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, true)
+	setActive(slot0.refreshBtn, false)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
 
-	onButton(slot0, slot2.tr, function ()
+	onButton(slot0, slot2.tf, function ()
 		if not uv0.goodsVO:canPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
@@ -112,11 +119,11 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot4 = slot0.displays[slot1 + 1]
 	slot3.goodsVO = slot4
 
-	ActivityGoodsCard.StaticUpdate(slot3.tr, slot4, uv0.TYPE_FRAGMENT)
+	ActivityGoodsCard.StaticUpdate(slot3.tf, slot4, uv0.TYPE_FRAGMENT)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)
-	slot0:emit(NewShopsMediator.ON_FRAGMENT_SHOPPING, slot1.id, slot2)
+	slot0:emit(NewShopMainMediator.ON_FRAGMENT_SHOPPING, slot1.id, slot2)
 end
 
 slot0.OnDestroy = function(slot0)

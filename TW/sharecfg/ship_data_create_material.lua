@@ -62,7 +62,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "限時建造",
-		build_anim = "building_yumia",
+		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
@@ -76,19 +76,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>優米雅‧利斯菲爾德</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>馬塞納</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>妮娜‧弗里德</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>貝勒森林</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>蕾妮雅</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>大膽</color>：0.5%",
 			" ",
-			"<color=#ffde38>艾菈‧馮‧杜勒</color>：0.5%"
+			"<color=#d797ff>杜肯</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
 		use_gold = 1500,
 		name = "限時建造",
-		build_anim = "building_laisha",
+		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",

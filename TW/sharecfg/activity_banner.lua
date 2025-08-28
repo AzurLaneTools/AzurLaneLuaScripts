@@ -5,14 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp2",
 		param = {
-			"scene skinshop"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -23,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					11
 				},
 				{
 					23,
@@ -50,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -61,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					12
 				},
 				{
 					14,
@@ -73,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5287",
-		type = 3,
+		type = 2,
 		id = 3,
 		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "SecretsAbyssCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -93,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					12
 				},
 				{
 					14,
@@ -111,7 +117,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				warp = 2
 			}
 		},
 		time = {
@@ -119,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -130,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					11
 				},
 				{
 					23,
@@ -144,83 +150,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 5,
-		pic = "temp6",
+		pic = "temp1",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
 					8,
 					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5305",
-		type = 3,
-		id = 6,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp8",
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					1
 				},
 				{
 					0,
@@ -232,7 +174,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					30
+					11
 				},
 				{
 					23,
@@ -243,16 +185,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5282",
-		type = 3,
-		id = 8,
-		pic = "temp9",
+		type = 2,
+		id = 6,
+		pic = "temp7",
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -263,8 +207,74 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					9,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "50083",
+		type = 3,
+		id = 7,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2025,
 					8,
-					28
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp9",
+		param = {
+			"seltechnology"
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
 				},
 				{
 					14,
@@ -322,7 +332,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -333,8 +343,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					11
 				},
 				{
 					23,
@@ -368,7 +378,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					21
+					27
 				},
 				{
 					0,
@@ -379,8 +389,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					11
 				},
 				{
 					23,
@@ -753,9 +763,11 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
-			7,
+			6,
+			8,
 			9,
 			1000,
 			1001,
@@ -782,9 +794,7 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			3,
-			6,
-			8,
+			7,
 			1003
 		},
 		[9] = {

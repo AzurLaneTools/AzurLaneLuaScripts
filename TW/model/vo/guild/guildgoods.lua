@@ -43,4 +43,12 @@ slot0.GetLimit = function(slot0)
 	return slot0:getConfig("goods_purchase_limit")
 end
 
+slot0.GetDropInfo = function(slot0)
+	return Drop.New({
+		type = slot0:getConfig("type"),
+		id = slot0:getConfig("goods")[1],
+		count = slot0:getConfig("num")
+	})
+end
+
 return slot0

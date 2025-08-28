@@ -62,4 +62,10 @@ slot0.UpdateGoodsCnt = function(slot0, slot1, slot2)
 	slot0:getGoodsById(slot1):UpdateCnt(slot2)
 end
 
+slot0.GetResList = function(slot0)
+	return {
+		ITEM_ID_SILVER_HOOK
+	}
+end
+
 return slot0
