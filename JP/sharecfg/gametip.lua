@@ -30858,57 +30858,57 @@ cs.gametip = {
 	},
 	grapihcs3d_setting_global_illumination = {
 		1252651,
-		114,
+		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname0 = {
-		1252765,
+		1252768,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname1 = {
-		1252882,
+		1252885,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname2 = {
-		1252999,
+		1253002,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname3 = {
-		1253116,
+		1253119,
 		120,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity = {
-		1253236,
-		110,
+		1253239,
+		125,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_0 = {
-		1253346,
-		103,
+		1253364,
+		106,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_1 = {
-		1253449,
+		1253470,
 		103,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_2 = {
-		1253552,
+		1253573,
 		103,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_3 = {
-		1253655,
+		1253676,
 		103,
 		true
 	},
 	grapihcs3d_setting_flare = {
-		1253758,
-		94,
+		1253779,
+		112,
 		true
 	}
 }

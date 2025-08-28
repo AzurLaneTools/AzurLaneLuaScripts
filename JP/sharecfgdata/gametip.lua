@@ -40794,7 +40794,7 @@ _G.pg.base.gametip.dorm3d_shop_tag_7 = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
-	tip = "全局画质"
+	tip = "その他設定"
 }
 
 
@@ -40814,17 +40814,17 @@ _G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
-	tip = "极高"
+	tip = "最高"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
-	tip = "辉光强度"
+	tip = "ブルームエフェクト"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
-	tip = "关"
+	tip = "なし"
 }
 
 
@@ -40844,5 +40844,5 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_flare = {
-	tip = "光晕"
+	tip = "フレアエフェクト"
 }

@@ -192,8 +192,7 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 			slot1 = SceneOpMgr.Inst
 
 			slot1:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, function ()
-				HotfixHelper.FixLightMapStorageByScene(uv0.originArtScene)
-				existCall(uv1)
+				existCall(uv0)
 			end)
 		end)
 	end
@@ -202,8 +201,7 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 		slot0()
 
 		if uv0 then
-			HotfixHelper.FixLightMapStorageByScene(uv1.originArtScene)
-			uv2()
+			uv1()
 		end
 	end)
 
