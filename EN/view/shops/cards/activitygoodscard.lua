@@ -44,7 +44,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
 		else
-			setText(slot0.unexchangeTag:Find("TextGo/Text"), slot10)
+			setScrollText(slot0.unexchangeTag:Find("TextGo/Text"), slot10)
 
 			slot7 = true
 		end
