@@ -40788,8 +40788,8 @@ _G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
 }
 
 
-_G.pg.base.gametip.dorm3d_shop_tag_7 = {
-	tip = "滑り台演出を開放（対応キャラを共有エリア「ビーチ」に配置する必要があります）"
+_G.pg.base.gametip.dorm3d_shop_tag7 = {
+	tip = "特殊演出開放（対応キャラのビーチ配置が必要）"
 }
 
 
