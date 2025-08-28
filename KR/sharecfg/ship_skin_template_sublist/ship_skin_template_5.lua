@@ -15529,5 +15529,131 @@ pg.base.ship_skin_template_5 = {
 				}
 			}
 		}
+	},
+	[204011] = {
+		name = "우아한 로열 프라이드",
+		change_skin = "",
+		desc = "우아하고 멋진 이스트 글림 드레스인 건 맞는데, 트임이 좀…… 지휘관님? 갑자기 죄송합니다만… 이 드레스, 어떤 것 같나요?",
+		illustrator2 = -1,
+		ship_group = 20401,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "shengwang_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "175",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 204011,
+		voice_actor_2 = 183,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "shengwang_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70974,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 11,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.015,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.908,
+					0.867,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.407,
+					0.613,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.982,
+							0.728,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.613,
+							2.259,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

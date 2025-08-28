@@ -1,9 +1,5 @@
 slot0 = class("QuotaShopPage", import(".BaseShopPage"))
 
-slot0.getUIName = function(slot0)
-	return "QuotaShop"
-end
-
 slot0.GetPaintingCommodityUpdateVoice = function(slot0)
 end
 
@@ -11,20 +7,36 @@ slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "QuotaShop")
 end
 
-slot0.OnLoaded = function(slot0)
-	slot0.nanoTxt = slot0:findTF("res_nano/Text"):GetComponent(typeof(Text))
+slot0.RefreshUI = function(slot0)
+	slot0:UpdateTip()
+	setActive(slot0.tipTextGo, true)
+	setActive(slot0.helpBtn, false)
+	setActive(slot0.resolveBtn, false)
+	setActive(slot0.refreshBtn, false)
 end
 
-slot0.OnInit = function(slot0)
-	setText(slot0._tf:Find("title/tip"), i18n("quota_shop_description"))
+slot0.UpdateTip = function(slot0)
+	setText(slot0.tipText, i18n("quota_shop_description"))
 end
 
 slot0.OnUpdateItems = function(slot0)
-	if not slot0.items[ChapterConst.ShamMoneyItem] then
-		slot0.nanoTxt.text = 0
-	else
-		slot0.nanoTxt.text = slot2.count
+	slot0:RefreshResItemList()
+end
+
+slot0.GetResDataList = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
+		slot8 = nil
+
+		table.insert(slot1, {
+			type = DROP_TYPE_ITEM,
+			resID = slot7,
+			cnt = not slot0.items[ChapterConst.ShamMoneyItem] and 0 or slot10.count
+		})
 	end
+
+	return slot1
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1)
@@ -46,7 +58,7 @@ end
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = QuotaGoodsCard.New(slot1)
 
-	onButton(slot0, slot2.tr, function ()
+	onButton(slot0, slot2.tf, function ()
 		if not uv0.goodsVO:canPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
@@ -78,10 +90,11 @@ slot0.OnUpdateAll = function(slot0)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)
-	slot0:emit(NewShopsMediator.ON_QUOTA_SHOPPING, slot1.id, slot2)
+	slot0:emit(NewShopMainMediator.ON_QUOTA_SHOPPING, slot1.id, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
+	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

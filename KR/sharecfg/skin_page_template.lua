@@ -2,55 +2,55 @@ pg = pg or {}
 pg.skin_page_template = {
 	{
 		id = 1,
-		name = "クリスマス",
+		name = "크리스마스",
 		res = "shengdan",
 		english_name = "CHRISTMAS"
 	},
 	{
 		id = 2,
-		name = "お正月",
+		name = "정월",
 		res = "xinnianhefu",
 		english_name = "NEW YEAR"
 	},
 	{
 		id = 3,
-		name = "旧正月",
+		name = "이스트 글림 스타일",
 		res = "donghuang",
 		english_name = "SPRING "
 	},
 	{
 		id = 4,
-		name = "学園",
+		name = "학교",
 		res = "xiaoyuan",
 		english_name = "SCHOOL"
 	},
 	[6] = {
 		id = 6,
-		name = "水着",
+		name = "수영복",
 		res = "yongzhuang",
 		english_name = "SUMMER "
 	},
 	[7] = {
 		id = 7,
-		name = "パーティー",
+		name = "파티",
 		res = "yanhui",
 		english_name = "PARTY"
 	},
 	[8] = {
 		id = 8,
-		name = "ハロウィン",
+		name = "할로윈",
 		res = "wanshengjie",
 		english_name = "HALLOWEEN"
 	},
 	[9] = {
 		id = 9,
-		name = "私服",
+		name = "사복",
 		res = "sifu",
 		english_name = "Outdoor Casual"
 	},
 	[10] = {
 		id = 10,
-		name = "祭典系列",
+		name = "여름 축제",
 		res = "jidianxilie",
 		english_name = "Festival"
 	},
@@ -62,61 +62,61 @@ pg.skin_page_template = {
 	},
 	[12] = {
 		id = 12,
-		name = "特别演习 ",
+		name = "특수 훈련",
 		res = "laoyuyanxi",
 		english_name = "Special Exerciese"
 	},
 	[13] = {
 		id = 13,
-		name = "运动时间",
+		name = "스포츠",
 		res = "yundongshijian",
 		english_name = "Sport time"
 	},
 	[14] = {
 		id = 14,
-		name = "疾速狂热",
+		name = "극속광열",
 		res = "jisukuangre",
 		english_name = "Race Queen"
 	},
 	[15] = {
 		id = 15,
-		name = "医院系列",
+		name = "병원",
 		res = "yiyuanxilie",
 		english_name = "hospital"
 	},
 	[16] = {
 		id = 16,
-		name = "嘉年华",
+		name = "카니발",
 		res = "jianianhua",
 		english_name = "Carnival"
 	},
 	[17] = {
 		id = 17,
-		name = "女仆时间",
+		name = "메이드 타임",
 		res = "nvpu",
 		english_name = "Maid"
 	},
 	[18] = {
 		id = 18,
-		name = "红月之夜",
+		name = "블러드 문",
 		res = "xixuegui",
 		english_name = "VAMPIRE NIGHT"
 	},
 	[19] = {
 		id = 19,
-		name = "梦幻童话",
+		name = "동화 속 세계",
 		res = "tonghua",
 		english_name = "FAIRYTALE"
 	},
 	[20] = {
 		id = 20,
-		name = "休闲家居",
+		name = "홈웨어",
 		res = "shuiyi",
 		english_name = "Home Relaxation"
 	},
 	[21] = {
 		id = 21,
-		name = "舞蹈空间",
+		name = "댄스",
 		res = "wudao",
 		english_name = "Rhythm & Steps"
 	},
@@ -134,43 +134,43 @@ pg.skin_page_template = {
 	},
 	[24] = {
 		id = 24,
-		name = "판타지 모험",
+		name = "이세계 모험",
 		res = "qihuanmaoxian",
 		english_name = "RPG Adventure"
 	},
 	[25] = {
 		id = 25,
-		name = "西部风情",
+		name = "웨스턴",
 		res = "xibufengqing",
 		english_name = "Wild West"
 	},
 	[26] = {
 		id = 26,
-		name = "梦幻乐园",
+		name = "동화 속 세계",
 		res = "menghuanleyuan",
 		english_name = "Dreamland Park "
 	},
 	[27] = {
 		id = 27,
-		name = "",
+		name = "이집트 스타일",
 		res = "niluohefengqing",
 		english_name = "Nile Colors"
 	},
 	[9997] = {
 		id = 9997,
-		name = "改造",
+		name = "개조",
 		res = "gaizao",
 		english_name = "Retrofit"
 	},
 	[9998] = {
 		id = 9998,
-		name = "誓约",
+		name = "서약",
 		res = "shiyue",
 		english_name = "Oath"
 	},
 	[9999] = {
 		id = 9999,
-		name = "その他",
+		name = "기타",
 		res = "other",
 		english_name = "OTHERS"
 	},

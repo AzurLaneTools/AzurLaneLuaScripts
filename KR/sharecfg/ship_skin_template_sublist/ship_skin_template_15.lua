@@ -1,6 +1,125 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[807021] = {
+		name = "두 사람의 스트레칭",
+		change_skin = "",
+		desc = "휴우… 지휘관님…? 팽르베랑 같이 스트레칭이라도…… 으으음~ 하지 않으시겠어요? 괜찮아요. 하나도 안 아파요. 게다가 시간은 얼마든 있으니까, 천천히……",
+		illustrator2 = -1,
+		ship_group = 80702,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "banerwei_2",
+		bg_sp = "1101",
+		skin_type = 0,
+		shop_type_id = 13,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "109",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 807021,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "banerwei_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70892,
+		voice_actor = 354,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.49,
+					1.229,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.26,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.28,
+							-1.85
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-936,
+			-790,
+			0,
+			0.7
+		}
+	},
 	[807022] = {
 		name = "생크림에 행운 있으라",
 		change_skin = "",

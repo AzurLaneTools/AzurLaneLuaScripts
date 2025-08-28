@@ -26,6 +26,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			31,
 			102,
 			104,
 			105,
@@ -169,6 +170,8 @@ pg.furniture_data_template = setmetatable({
 			307,
 			308,
 			311,
+			313,
+			314,
 			100002,
 			100003,
 			100004,
@@ -3502,6 +3505,28 @@ pg.furniture_data_template = setmetatable({
 			327116,
 			327301,
 			327302
+		},
+		[127] = {
+			328001,
+			328002,
+			328101,
+			328102,
+			328103,
+			328104,
+			328105,
+			328106,
+			328107,
+			328108,
+			328109,
+			328110,
+			328111,
+			328112,
+			328113,
+			328114,
+			328115,
+			328116,
+			328117,
+			328118
 		}
 	},
 	get_id_list_by_tag = {
@@ -5589,7 +5614,24 @@ pg.furniture_data_template = setmetatable({
 			327113,
 			327114,
 			327115,
-			327116
+			327116,
+			328101,
+			328102,
+			328103,
+			328104,
+			328105,
+			328106,
+			328107,
+			328108,
+			328109,
+			328110,
+			328111,
+			328112,
+			328113,
+			328114,
+			328115,
+			328116,
+			328117
 		},
 		{
 			1108,
@@ -5771,6 +5813,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			31,
 			102,
 			104,
 			105,
@@ -5847,6 +5890,7 @@ pg.furniture_data_template = setmetatable({
 			300,
 			301,
 			308,
+			313,
 			100002,
 			100003,
 			100004,
@@ -5991,7 +6035,8 @@ pg.furniture_data_template = setmetatable({
 			303,
 			304,
 			307,
-			311
+			311,
+			314
 		},
 		[7] = {
 			213,
@@ -6196,7 +6241,8 @@ pg.furniture_data_template = setmetatable({
 			323102,
 			324118,
 			325110,
-			325126
+			325126,
+			328118
 		},
 		[4] = {
 			1001,
@@ -6310,7 +6356,8 @@ pg.furniture_data_template = setmetatable({
 			324001,
 			325001,
 			326001,
-			327001
+			327001,
+			328001
 		},
 		[3] = {
 			1002,
@@ -6425,7 +6472,8 @@ pg.furniture_data_template = setmetatable({
 			324002,
 			325002,
 			326002,
-			327002
+			327002,
+			328002
 		},
 		[5] = {
 			1301,
@@ -6913,7 +6961,8 @@ pg.furniture_data_template = setmetatable({
 			324002,
 			325002,
 			326002,
-			327002
+			327002,
+			328002
 		},
 		[7] = {
 			1,
@@ -6939,6 +6988,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			31,
 			102,
 			104,
 			105,
@@ -7059,6 +7109,8 @@ pg.furniture_data_template = setmetatable({
 			304,
 			307,
 			311,
+			313,
+			314,
 			100002,
 			100004,
 			100005,
@@ -9202,7 +9254,24 @@ pg.furniture_data_template = setmetatable({
 			327112,
 			327113,
 			327114,
-			327115
+			327115,
+			328101,
+			328102,
+			328103,
+			328105,
+			328106,
+			328107,
+			328108,
+			328109,
+			328110,
+			328111,
+			328112,
+			328113,
+			328114,
+			328115,
+			328116,
+			328117,
+			328118
 		},
 		[11] = {
 			131,
@@ -9396,7 +9465,8 @@ pg.furniture_data_template = setmetatable({
 			324001,
 			325001,
 			326001,
-			327001
+			327001,
+			328001
 		},
 		[5] = {
 			1101,
@@ -9547,7 +9617,8 @@ pg.furniture_data_template = setmetatable({
 			325104,
 			325105,
 			327104,
-			327116
+			327116,
+			328104
 		},
 		[3] = {
 			1108,
@@ -10132,6 +10203,7 @@ pg.furniture_data_template = setmetatable({
 		26,
 		27,
 		28,
+		31,
 		102,
 		104,
 		105,
@@ -10277,6 +10349,8 @@ pg.furniture_data_template = setmetatable({
 		307,
 		308,
 		311,
+		313,
+		314,
 		100002,
 		100003,
 		100004,
@@ -13385,7 +13459,27 @@ pg.furniture_data_template = setmetatable({
 		327115,
 		327116,
 		327301,
-		327302
+		327302,
+		328001,
+		328002,
+		328101,
+		328102,
+		328103,
+		328104,
+		328105,
+		328106,
+		328107,
+		328108,
+		328109,
+		328110,
+		328111,
+		328112,
+		328113,
+		328114,
+		328115,
+		328116,
+		328117,
+		328118
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14229,6 +14323,43 @@ pg.base.furniture_data_template = {
 		advice = 0,
 		icon = "xipeiericon",
 		id = 28,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[31] = {
+		can_rotate = 0,
+		describe = "Special decoration: A 1:100 scale model of a Vauquelin class destroyer",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/mayebuleize",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "FFNF Maillé Brézé Model",
+		advice = 0,
+		icon = "mayebuleizeicon",
+		id = 31,
 		comfortable = 2,
 		size = {
 			1,
@@ -21726,6 +21857,86 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[313] = {
+		can_rotate = 0,
+		describe = "검과 마법이 은택성을 영원히 지켜주기를…",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "은택성의 깃발",
+		advice = 0,
+		id = 313,
+		icon = "enzechengqizhiicon",
+		comfortable = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"enzechengqizhi",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[314] = {
+		can_rotate = 0,
+		describe = "심연에서의 모험을 기념하며 제작된 은택성의 미니어처 (받침대 포함)",
+		gain_by = "심연 아래의 비밀",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/masainaxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "은택성의 미니어처",
+		advice = 0,
+		icon = "masainaxunzhangicon",
+		id = 314,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -26911,7 +27122,7 @@ pg.base.furniture_data_template = {
 	},
 	[100076] = {
 		can_rotate = 0,
-		describe = "bulubulubulu~啾——bulubulubulu~",
+		describe = "뽀글뽀글뽀글~ 쥬~ 뽀글뽀글뽀글~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -26930,7 +27141,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "쥬쥬 거품기",
+		name = "쥬쥬 버블건",
 		advice = 0,
 		id = 100076,
 		icon = "chuipaofenweijiicon",
@@ -160600,6 +160811,1035 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[328001] = {
+		can_rotate = 0,
+		describe = "탕에 몸을 담그고 여유로운 시간을 즐기자.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/dibanwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "숲속 온천 바닥",
+		advice = 0,
+		icon = "dibanwq2icon",
+		id = 328001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328002] = {
+		can_rotate = 0,
+		describe = "탕에 몸을 담그고 여유로운 시간을 즐기자.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 127,
+		count = 1,
+		name = "숲속 온천 벽",
+		advice = 0,
+		id = 328002,
+		icon = "qiangbiwq2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiwq2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[328101] = {
+		can_rotate = 0,
+		describe = "너무 오래 들어가 있었나 싶을 때는 잠깐 나와서 휴식을 취하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 127,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "chuangwq2icon",
+		count = 2,
+		name = "온천의 스파 시트",
+		advice = 0,
+		id = 328101,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuangwq2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep1",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep2",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[328102] = {
+		can_rotate = 0,
+		describe = "넓다란 편백나무 욕조. 뜨끈한 목욕물이 몸을 편안하게 해준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 127,
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "dayuchiwq2icon",
+		count = 1,
+		name = "온천의 편백나무 욕조",
+		advice = 0,
+		id = 328102,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			10,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dayuchiwq2B",
+				"normal"
+			},
+			{
+				"dayuchiwq2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-1.8,
+					140
+				},
+				{
+					180,
+					230
+				},
+				"wq2/yuantongwq2_mask"
+			},
+			{
+				-2.9,
+				-138.9
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						-1.8,
+						140
+					},
+					{
+						180,
+						230
+					},
+					"wq2/yuantongwq2_mask"
+				},
+				{
+					-2.9,
+					-138.9
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						-1.8,
+						140
+					},
+					{
+						180,
+						230
+					},
+					"wq2/yuantongwq2_mask"
+				},
+				{
+					-2.9,
+					-138.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char3",
+				-1
+			},
+			{
+				"char2",
+				-1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[328103] = {
+		can_rotate = 0,
+		describe = "따뜻한 색감의 플로어 조명. 부드러운 빛이 눈을 편안하게 한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 127,
+		count = 3,
+		name = "온천의 플로어 조명",
+		advice = 0,
+		id = 328103,
+		icon = "dengwq2icon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengwq2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[328104] = {
+		can_rotate = 0,
+		describe = "부드러운 발 매트. 밟으면 마사지 효과가 있을지도…?",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/didianwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 발 매트",
+		advice = 0,
+		icon = "didianwq2icon",
+		id = 328104,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328105] = {
+		can_rotate = 0,
+		describe = "쾌적한 긴 의자. 앉으면 은은한 수국향이 풍긴다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/huacongyiziwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 127,
+		count = 1,
+		name = "온천의 긴 의자",
+		advice = 0,
+		id = 328105,
+		icon = "huacongyiziwq2icon",
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-49,
+					-24
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328106] = {
+		can_rotate = 0,
+		describe = "잔잔한 물소리가 들리는 장식. 고요하고 아늑한 분위기를 연출한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 127,
+		count = 1,
+		name = "온천의 수경 장식 1",
+		advice = 0,
+		id = 328106,
+		icon = "jiashanliushuiwq2icon",
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiashanliushuiwq2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[328107] = {
+		can_rotate = 0,
+		describe = "겹겹이 쌓인 돌이 웅장한 조형미를 자아낸다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/jiashanwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 조경석",
+		advice = 0,
+		icon = "jiashanwq2icon",
+		id = 328107,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328108] = {
+		can_rotate = 0,
+		describe = "바람에 흔들리는 꽃. 은은한 향기를 풍긴다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/jingguanshitouwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 조경 식물",
+		advice = 0,
+		icon = "jingguanshitouwq2icon",
+		id = 328108,
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328109] = {
+		can_rotate = 0,
+		describe = "늘어진 등나무 꽃이 향기롭게 피어 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 127,
+		count = 1,
+		name = "온천의 등나무 꽃",
+		advice = 0,
+		id = 328109,
+		icon = "jingguanshuwq2icon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jingguanshuwq2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[328110] = {
+		can_rotate = 0,
+		describe = "실용적인 목제 수건 걸이. 사용하기 편하게 설치되어 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/maojinjiawq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 수건 걸이",
+		advice = 0,
+		icon = "maojinjiawq2icon",
+		id = 328110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328111] = {
+		can_rotate = 0,
+		describe = "온천하면 떠오르는 노렌 커튼. 단조로운 디자인이지만 정성스레 장식되어 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 127,
+		count = 1,
+		name = "온천의 노렌 커튼",
+		advice = 0,
+		id = 328111,
+		icon = "menlianwq2icon",
+		comfortable = 4,
+		size = {
+			1,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"menlianwq2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[328112] = {
+		can_rotate = 0,
+		describe = "자잘한 소지품은 이 쟁반 위에 보관하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/mupenwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 수납 쟁반",
+		advice = 0,
+		icon = "mupenwq2icon",
+		id = 328112,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328113] = {
+		can_rotate = 0,
+		describe = "싱그러운 녹음으로 온천에 자연의 상쾌함을 더해준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/rukouzhiwuwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 분재 2",
+		advice = 0,
+		icon = "rukouzhiwuwq2icon",
+		id = 328113,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328114] = {
+		can_rotate = 0,
+		describe = "이용객의 수요를 만족시킬 아이템을 갖추고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/tuopanwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천 트리트먼트",
+		advice = 0,
+		icon = "tuopanwq2icon",
+		id = 328114,
+		comfortable = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328115] = {
+		can_rotate = 0,
+		describe = "대욕장의 노천탕은 역시 석제가 최고!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 127,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuchiwq2icon",
+		count = 1,
+		name = "온천의 석제탕",
+		advice = 0,
+		id = 328115,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuchiwq2B",
+				"normal"
+			},
+			{
+				"yuchiwq2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[328116] = {
+		can_rotate = 0,
+		describe = "싱그러운 녹음으로 온천에 자연의 상쾌함을 더해준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/zhuangshihuapenwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 분재 1",
+		advice = 0,
+		icon = "zhuangshihuapenwq2icon",
+		id = 328116,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328117] = {
+		can_rotate = 0,
+		describe = "온천 후에 즐기는 간식. 맛있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "wq2/zhuoziwq2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 127,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "온천의 간식",
+		advice = 0,
+		icon = "zhuoziwq2icon",
+		id = 328117,
+		comfortable = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[328118] = {
+		can_rotate = 0,
+		describe = "최고의 온천을 당신에게 선사합니다♪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 127,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuantongwq2icon",
+		count = 1,
+		name = "프리미엄 노천탕",
+		advice = 0,
+		id = 328118,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuantongwq2B",
+				"normal"
+			},
+			{
+				"yuantongwq2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash",
+						nil,
+						"wash"
+					},
+					{
+						"walk",
+						1,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					31,
+					143.9
+				},
+				{
+					274,
+					274
+				},
+				"wq2/yuantongwq2_mask"
+			},
+			{
+				-24.9,
+				-153.6
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}

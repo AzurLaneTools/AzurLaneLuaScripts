@@ -296,8 +296,26 @@ slot0.ConfigGoScene = function(slot0, slot1, slot2)
 
 			return
 		end
-	elseif slot0 == SCENE.MILITARYEXERCISE and not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+	elseif slot0 == SCENE.MILITARYEXERCISE then
+		if not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+
+			return
+		end
+	elseif slot0 == BaseUI.ON_ITEM then
+		existCall(slot2)
+		pg.m02:retrieveMediator(getProxy(ContextProxy):getCurrentContext().mediator.__cname):addSubLayers(Context.New({
+			mediator = ItemInfoMediator,
+			viewComponent = ItemInfoLayer,
+			data = {
+				drop = Drop.New({
+					type = DROP_TYPE_ITEM,
+					id = slot1.itemId
+				}),
+				confirmCall = function ()
+				end
+			}
+		}))
 
 		return
 	end

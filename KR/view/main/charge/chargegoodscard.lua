@@ -9,19 +9,14 @@ slot0.update = function(slot0, slot1)
 	slot3 = slot1:getDropInfo()
 
 	updateDrop(slot0.itemTF, slot3)
-	setText(slot0.nameTxt, shortenString(slot3:getConfig("name") or "", 6))
-
-	slot0.discountTextTF = findTF(slot0.discountTF, "Text"):GetComponent(typeof(Text))
-
+	setScrollText(slot0.nameTxt, slot3:getConfig("name") or "")
 	setActive(slot0.discountTF, slot1:isDisCount())
-
-	slot0.discountTextTF.text = slot1:getConfig("discount") .. "%OFF"
-	slot0.countTF.text = math.ceil(slot1:GetPrice())
-
+	setText(slot0.discountTextTF, slot1:getConfig("discount") .. "%OFF")
+	setText(slot0.countTF, math.ceil(slot1:GetPrice()))
 	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot1:getConfig("resource_type")
-	}):getIcon(), "", tf(slot0.resIconTF))
+	}):getIcon(), "", tf(slot0.resIconTF), false)
 end
 
 return slot0

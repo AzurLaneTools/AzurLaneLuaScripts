@@ -65,10 +65,9 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.GO_MALL, function (slot0, slot1)
 		slot2 = getProxy(ContextProxy)
 
-		if uv0.contextData.fromMediatorName == ChargeMediator.__cname then
-			slot2:getContextByMediator(ChargeMediator):extendData({
-				wrap = slot1
-			})
+		if uv0.contextData.fromMediatorName == NewShopMainMediator.__cname then
+			slot3 = slot2:getContextByMediator(NewShopMainMediator)
+
 			uv0.viewComponent:closeView()
 		else
 			pg.m02:sendNotification(GAME.CHANGE_SCENE, SCENE.CHARGE, {

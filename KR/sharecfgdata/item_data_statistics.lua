@@ -27624,6 +27624,131 @@ _G.pg.base.item_data_statistics[30373] = {
 }
 
 
+_G.pg.base.item_data_statistics[30374] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (심연의 환상)",
+	type = 11,
+	display = "무작위로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxqiyuanqijing",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30371",
+	id = 30374,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -41095,6 +41220,219 @@ _G.pg.base.item_data_statistics[30557] = {
 		{
 			9,
 			1498,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30558] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (심연의 환상)",
+	type = 13,
+	display = "사용하면 장비 스킨(심연의 환상) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxqiyuanqijingzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30558,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4204,
+			1
+		},
+		{
+			9,
+			4205,
+			1
+		},
+		{
+			9,
+			4206,
+			1
+		},
+		{
+			9,
+			4207,
+			1
+		},
+		{
+			9,
+			4208,
+			1
+		},
+		{
+			9,
+			4209,
+			1
+		},
+		{
+			9,
+			4210,
+			1
+		},
+		{
+			9,
+			4211,
+			1
+		},
+		{
+			9,
+			4212,
+			1
+		},
+		{
+			9,
+			4213,
+			1
+		},
+		{
+			9,
+			4214,
+			1
+		},
+		{
+			9,
+			4215,
+			1
+		},
+		{
+			9,
+			4216,
+			1
+		},
+		{
+			9,
+			4217,
+			1
+		},
+		{
+			9,
+			4218,
+			1
+		},
+		{
+			9,
+			4219,
+			1
+		},
+		{
+			9,
+			4220,
+			1
+		},
+		{
+			9,
+			4221,
 			1
 		}
 	},
@@ -91373,6 +91711,39 @@ _G.pg.base.item_data_statistics[59855] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59856] = {
+	open_directly = 0,
+	name = "필수 준비사항",
+	type = 7,
+	display = "순조로운 개조를 위해 에식스가 해온 준비사항",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/59856",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59856,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		107974
+	},
 	combination_display = {},
 	limit = {}
 }

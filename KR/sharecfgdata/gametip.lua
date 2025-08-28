@@ -9449,6 +9449,15 @@ _G.pg.base.gametip.ship_remould_warning_105234 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_107974 = {
+	tip = [[
+개조 실시 시 <color=#92fc63>필수 준비 사항</color>
+이 소모됩니다. 계속해서 개조하시겠습니까? 
+개조하면 <color=#92fc63>폭격기 슬롯에 모든 함재기 장착 가능</color>
+스킬 <color=#92fc63>[선전의 함]</color>이<color=#92fc63>[선전의 함·改]</color>로 변경]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "이번 개조 후 <color=#92fc63>【모든 전투기 +1】, 【모든 뇌격기 +1】</color>\n계속하시겠습니까?"
 }
@@ -12468,7 +12477,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「유미아 리스펠트」, 「니나 프리드」, 「레이냐」 등장 확률 UP!"
+	tip = "「마세나」, 「부아 벨루」, 「뒤켄」 등장 확률 UP!"
 }
 
 
@@ -39261,4 +39270,609 @@ _G.pg.base.gametip.yumia_pt_tip = {
 
 _G.pg.base.gametip.yumia_pt_4 = {
 	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.masaina_main_title = {
+	tip = "심연 아래의 비밀"
+}
+
+
+_G.pg.base.gametip.masaina_main_title_en = {
+	tip = "Secrets of the Abyss"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet1 = {
+	tip = "심연 아래의 비밀"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet2 = {
+	tip = "심연 보급지"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet3 = {
+	tip = "모항 패션"
+}
+
+
+_G.pg.base.gametip.masaina_main_sheet4 = {
+	tip = "리듬 창고"
+}
+
+
+_G.pg.base.gametip.masaina_main_skin_tag = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.masaina_main_other_tag = {
+	tip = "곧 종료됨"
+}
+
+
+_G.pg.base.gametip.shop_title = {
+	tip = "상점"
+}
+
+
+_G.pg.base.gametip.shop_recommend = {
+	tip = "TOP"
+}
+
+
+_G.pg.base.gametip.shop_recommend_en = {
+	tip = "Recommend"
+}
+
+
+_G.pg.base.gametip.shop_skin = {
+	tip = "스킨"
+}
+
+
+_G.pg.base.gametip.shop_skin_en = {
+	tip = "NewClothes"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop = {
+	tip = "보급 상점"
+}
+
+
+_G.pg.base.gametip.shop_supply_prop_en = {
+	tip = "Props"
+}
+
+
+_G.pg.base.gametip.shop_skin_new = {
+	tip = "기간 한정"
+}
+
+
+_G.pg.base.gametip.shop_skin_permanent = {
+	tip = "인기 스킨"
+}
+
+
+_G.pg.base.gametip.shop_month = {
+	tip = "월간"
+}
+
+
+_G.pg.base.gametip.shop_supply = {
+	tip = "상시"
+}
+
+
+_G.pg.base.gametip.shop_activity = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_0 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_0 = {
+	tip = "AllPacks"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_1 = {
+	tip = "신규 착임 패키지"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_1 = {
+	tip = "ForNewCommander"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_2 = {
+	tip = "레벨 패키지"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_2 = {
+	tip = "LevelPack"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_3 = {
+	tip = "PR 함선 패키지"
+}
+
+
+_G.pg.base.gametip.shop_package_sort_en_3 = {
+	tip = "ResearchPack"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_day = {
+	tip = "남은 기간 $1일"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_hour = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.shop_goods_left_minute = {
+	tip = "남은 시간 $1분"
+}
+
+
+_G.pg.base.gametip.shop_refresh_time = {
+	tip = "$1 후에 초기화"
+}
+
+
+_G.pg.base.gametip.shop_side_lable_en = {
+	tip = "RecommendShop"
+}
+
+
+_G.pg.base.gametip.street_shop_titleen = {
+	tip = "StreetShop"
+}
+
+
+_G.pg.base.gametip.military_shop_titleen = {
+	tip = "MilitaryShop"
+}
+
+
+_G.pg.base.gametip.guild_shop_titleen = {
+	tip = "GuildShop"
+}
+
+
+_G.pg.base.gametip.meta_shop_titleen = {
+	tip = "METAShop"
+}
+
+
+_G.pg.base.gametip.mini_game_shop_titleen = {
+	tip = "GameShop"
+}
+
+
+_G.pg.base.gametip.shop_item_unlock = {
+	tip = "패키지 내용"
+}
+
+
+_G.pg.base.gametip.shop_item_unobtained = {
+	tip = "미획득"
+}
+
+
+_G.pg.base.gametip.beat_game_rule = {
+	tip = "규칙"
+}
+
+
+_G.pg.base.gametip.beat_game_rank = {
+	tip = "순위"
+}
+
+
+_G.pg.base.gametip.beat_game_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.beat_game_start = {
+	tip = "게임 시작"
+}
+
+
+_G.pg.base.gametip.beat_game_high_score = {
+	tip = "최고 점수"
+}
+
+
+_G.pg.base.gametip.beat_game_current_score = {
+	tip = "점수"
+}
+
+
+_G.pg.base.gametip.beat_game_exit_desc = {
+	tip = "현재 점수로 순위가 집계됩니다."
+}
+
+
+_G.pg.base.gametip.musicbeat_minigame_help = {
+	tip = {
+		{
+			info = [[
+에식스, 엔터프라이즈와 함께 리듬에 맞춰 모항 창고를 정리하자! 
+
+·게임에 참여하여 에식스의 개조 재료인 <b>「필수 준비 사항」</b>을 획득하세요.
+·9월 3일(수)까지 매일 보상이 개방됩니다. 
+
+·화면 <b><color=#F55656>좌측의 빨간 버튼</color></b>을 탭하면 아이템을 <color=#F55656><b>날려보낼 수</b></color> 있습니다.
+·화면 <b><color=#FAF065>우측의 노란 버튼</color></b>을 탭하면 아이템을 <color=#FAF065><b>받아낼 수</b></color> 있습니다.
+·엔터프라이즈를 지휘하여 <color=#F55656><b>과일은 모두 날려보내고</b></color>, <color=#FAF065><b>함재기는 모두 받아내세요</b></color>! 
+
+·조작을 올바르게 하면 점수를 획득할 수 있으나, 과일을 받아버리면 라이프가 감소합니다. 라이프가 0에 달하면 게임이 종료됩니다. 
+※ 게임을 진행함에 따라 속도가 점점 빨라집니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.masaina_pt_claimed = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.activity_shop_titleen = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.shop_diamond_title_en = {
+	tip = "Diamond"
+}
+
+
+_G.pg.base.gametip.shop_gift_title_en = {
+	tip = "Pack"
+}
+
+
+_G.pg.base.gametip.shop_item_title_en = {
+	tip = "Item"
+}
+
+
+_G.pg.base.gametip.shop_pack_empty = {
+	tip = "특별 패키지가 없습니다."
+}
+
+
+_G.pg.base.gametip.shop_new_unfound = {
+	tip = "조건을 충족하는 스킨이 없습니다."
+}
+
+
+_G.pg.base.gametip.shop_new_shop = {
+	tip = "상점"
+}
+
+
+_G.pg.base.gametip.shop_new_during_day = {
+	tip = "남은 기간 $1일"
+}
+
+
+_G.pg.base.gametip.shop_new_during_hour = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.shop_new_during_minite = {
+	tip = "남은 시간 $1분"
+}
+
+
+_G.pg.base.gametip.shop_new_sort = {
+	tip = "필터링"
+}
+
+
+_G.pg.base.gametip.shop_new_search = {
+	tip = "탭하여 검색"
+}
+
+
+_G.pg.base.gametip.shop_new_purchased = {
+	tip = "구매 완료"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.shop_new_claim = {
+	tip = "확인하기"
+}
+
+
+_G.pg.base.gametip.shop_new_furniture = {
+	tip = "가구 상점"
+}
+
+
+_G.pg.base.gametip.shop_new_discount = {
+	tip = "할인 구매"
+}
+
+
+_G.pg.base.gametip.shop_new_try = {
+	tip = "체험"
+}
+
+
+_G.pg.base.gametip.shop_new_gift = {
+	tip = "무료"
+}
+
+
+_G.pg.base.gametip.shop_new_gem_transform = {
+	tip = "보유 중인 스킨을 다시 획득하면 자동으로 다이아로 변환됩니다."
+}
+
+
+_G.pg.base.gametip.shop_new_review = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.shop_new_all = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.shop_new_owned = {
+	tip = "보유 중"
+}
+
+
+_G.pg.base.gametip.shop_new_havent_own = {
+	tip = "미보유"
+}
+
+
+_G.pg.base.gametip.shop_new_unused = {
+	tip = "보유 중 미적용"
+}
+
+
+_G.pg.base.gametip.shop_new_type = {
+	tip = "종류"
+}
+
+
+_G.pg.base.gametip.shop_new_static = {
+	tip = "일반"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic = {
+	tip = "쁘띠모션"
+}
+
+
+_G.pg.base.gametip.shop_new_static_bg = {
+	tip = "일반 배경"
+}
+
+
+_G.pg.base.gametip.shop_new_dynamic_bg = {
+	tip = "특수 배경"
+}
+
+
+_G.pg.base.gametip.shop_new_bgm = {
+	tip = "BGM"
+}
+
+
+_G.pg.base.gametip.shop_new_index = {
+	tip = "정렬"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_owned = {
+	tip = "획득 완료 함선"
+}
+
+
+_G.pg.base.gametip.shop_new_ship_havent_owned = {
+	tip = "미획득 함선"
+}
+
+
+_G.pg.base.gametip.shop_new_nation = {
+	tip = "진영"
+}
+
+
+_G.pg.base.gametip.shop_new_rarity = {
+	tip = "레어도"
+}
+
+
+_G.pg.base.gametip.shop_new_category = {
+	tip = "함수"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_theme = {
+	tip = "테마"
+}
+
+
+_G.pg.base.gametip.shop_new_confirm = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.shop_new_during_time = {
+	tip = "남은 시간"
+}
+
+
+_G.pg.base.gametip.shop_new_daily = {
+	tip = "매일"
+}
+
+
+_G.pg.base.gametip.shop_new_recommend = {
+	tip = "TOP"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_shop = {
+	tip = "스킨"
+}
+
+
+_G.pg.base.gametip.shop_new_purchase_gem = {
+	tip = "다이아 구매"
+}
+
+
+_G.pg.base.gametip.shop_new_akashi_recommend = {
+	tip = "추천"
+}
+
+
+_G.pg.base.gametip.shop_new_packs = {
+	tip = "특별 패키지"
+}
+
+
+_G.pg.base.gametip.shop_new_props = {
+	tip = "기능 구매"
+}
+
+
+_G.pg.base.gametip.shop_new_ptshop = {
+	tip = "보급 상점"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_new = {
+	tip = "기간 한정"
+}
+
+
+_G.pg.base.gametip.shop_new_skin_permanent = {
+	tip = "인기 스킨"
+}
+
+
+_G.pg.base.gametip.shop_new_in_use = {
+	tip = "적용 중"
+}
+
+
+_G.pg.base.gametip.shop_new_unable_to_use = {
+	tip = "적용 불가"
+}
+
+
+_G.pg.base.gametip.shop_new_owned_skin = {
+	tip = "보유 스킨"
+}
+
+
+_G.pg.base.gametip.shop_new_wear = {
+	tip = "적용"
+}
+
+
+_G.pg.base.gametip.shop_new_get_now = {
+	tip = "바로 획득 $1"
+}
+
+
+_G.pg.base.gametip.shop_new_remaining_time = {
+	tip = "구매 완료　남은 기간 $1일"
+}
+
+
+_G.pg.base.gametip.shop_new_remove = {
+	tip = "$1 후에 판매 종료"
+}
+
+
+_G.pg.base.gametip.shop_new_retro = {
+	tip = "복각"
+}
+
+
+_G.pg.base.gametip.shop_new_able_to_exchange = {
+	tip = "교환 가능 스킨"
+}
+
+
+_G.pg.base.gametip.shop_countdown = {
+	tip = "$1일 $2시간 $3분 후에 판매 종료"
+}
+
+
+_G.pg.base.gametip.quota_shop_title1en = {
+	tip = "QuotaShop"
+}
+
+
+_G.pg.base.gametip.sham_shop_titleen = {
+	tip = "MonthlyShop"
+}
+
+
+_G.pg.base.gametip.medal_shop_titleen = {
+	tip = "MedalShop"
+}
+
+
+_G.pg.base.gametip.fragment_shop_titleen = {
+	tip = "FragmentShop"
+}
+
+
+_G.pg.base.gametip.shop_fragment_resolve = {
+	tip = "강화 유닛 분해"
+}
+
+
+_G.pg.base.gametip.beat_game_my_record = {
+	tip = "자기 순위"
+}
+
+
+_G.pg.base.gametip.shop_filter_all = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.shop_filter_trial = {
+	tip = "체험"
+}
+
+
+_G.pg.base.gametip.shop_filter_retro = {
+	tip = "복각"
 }

@@ -246,6 +246,8 @@ slot0.OnDestroy = function(slot0)
 	slot0.singleWindow:Destroy()
 
 	slot0.singleWindow = nil
+
+	uv0.super.OnDestroy(slot0)
 end
 
 return slot0

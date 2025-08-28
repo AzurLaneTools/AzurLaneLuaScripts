@@ -4357,7 +4357,7 @@ pg.backyard_theme_template = {
 	},
 	[114] = {
 		Cfg_1 = 5,
-		name = "드림 랜드",
+		name = "낙원 드림",
 		desc = "낙원의 꿈, 드림랜드!",
 		deblocking = 1,
 		new = 0,
@@ -4456,7 +4456,7 @@ pg.backyard_theme_template = {
 	},
 	[117] = {
 		Cfg_1 = 5,
-		name = "황야 보호소",
+		name = "러프 셸터",
 		desc = "위험천만한 황야에서 마음 편히 쉴 수 있는 단 한 곳.",
 		deblocking = 1,
 		new = 0,
@@ -4488,7 +4488,7 @@ pg.backyard_theme_template = {
 	},
 	[118] = {
 		Cfg_1 = 5,
-		name = "답설심매",
+		name = "설중탐매",
 		desc = "눈을 밟고 매화를 찾으며, 봄의 숨결을 만끽하자.",
 		deblocking = 1,
 		new = 0,
@@ -4830,6 +4830,43 @@ pg.backyard_theme_template = {
 			327302
 		}
 	},
+	[127] = {
+		Cfg_1 = 5,
+		name = "숲속 온천",
+		desc = "탕에 몸을 담그고 여유로운 시간을 즐기자.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 128,
+		id = 127,
+		icon = "wq2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			328001,
+			328002,
+			328101,
+			328102,
+			328103,
+			328104,
+			328105,
+			328106,
+			328107,
+			328108,
+			328109,
+			328110,
+			328111,
+			328112,
+			328113,
+			328114,
+			328115,
+			328116,
+			328117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4942,6 +4979,7 @@ pg.backyard_theme_template = {
 		123,
 		124,
 		125,
-		126
+		126,
+		127
 	}
 }

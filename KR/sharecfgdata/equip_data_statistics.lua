@@ -133636,6 +133636,61 @@ _G.pg.base.equip_data_statistics[78032] = {
 }
 
 
+_G.pg.base.equip_data_statistics[78101] = {
+	name = "全弹发射-迪盖·特鲁因级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 78101,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61771
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[78102] = {
+	name = "全弹发射-迪盖·特鲁因级II",
+	base = 78101,
+	id = 78102,
+	weapon_id = {
+		61772
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[78111] = {
 	name = "全弹发射-埃米尔·贝尔汀I",
 	tech = 1,
@@ -141721,6 +141776,61 @@ _G.pg.base.equip_data_statistics[80502] = {
 	id = 80502,
 	weapon_id = {
 		170812
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80511] = {
+	name = "专属弹幕-大胆I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80511,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170831
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80512] = {
+	name = "专属弹幕-大胆II",
+	base = 80511,
+	id = 80512,
+	weapon_id = {
+		170832
 	},
 	hidden_skill_id = {}
 }
@@ -177732,6 +177842,61 @@ _G.pg.base.equip_data_statistics[170792] = {
 	id = 170792,
 	weapon_id = {
 		170792
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170801] = {
+	name = "全弹发射-迪凯纳级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170801,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170821
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170802] = {
+	name = "全弹发射-迪凯纳级II",
+	base = 170801,
+	id = 170802,
+	weapon_id = {
+		170822
 	},
 	hidden_skill_id = {}
 }

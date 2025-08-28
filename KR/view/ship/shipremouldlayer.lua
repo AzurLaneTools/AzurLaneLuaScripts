@@ -791,6 +791,7 @@ slot0.showToolTip = function(slot0, slot1)
 			AttributeType.AntiAircraft,
 			AttributeType.Air,
 			AttributeType.Reload,
+			AttributeType.Hit,
 			AttributeType.Expend,
 			AttributeType.Dodge,
 			AttributeType.AntiSub

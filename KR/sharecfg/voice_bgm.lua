@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "yumia-81",
+		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
-		bgm = "yumia-81"
+		bgm = "theme-fushun-adventure"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2354,5 +2354,30 @@ pg.voice_bgm = {
 		default_bgm = "story-tulipa",
 		special_bgm = "",
 		bgm = "story-tulipa"
+	},
+	SecretsAbyssMainPage = {
+		default_bgm = "story-enzecheng-theme",
+		special_bgm = "",
+		bgm = "story-enzecheng-theme"
+	},
+	SecretsAbyssPtPage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	SecretsAbyssSkinMagazinePage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
+	},
+	SecretsAbyssMGPage = {
+		default_bgm = "story-game-rhythm",
+		special_bgm = "",
+		bgm = "story-game-rhythm"
+	},
+	MassenaMedalAlbumView = {
+		default_bgm = "story-enzecheng-theme",
+		special_bgm = "",
+		bgm = "story-enzecheng-theme"
 	}
 }

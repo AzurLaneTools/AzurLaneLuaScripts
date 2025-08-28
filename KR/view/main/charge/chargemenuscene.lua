@@ -200,7 +200,7 @@ slot0.updatePanel = function(slot0)
 end
 
 slot0.tryAutoOpenShop = function(slot0)
-	if slot0.contextData.wrap ~= nil then
+	if slot0.contextData.warp ~= nil then
 		if slot1 == ChargeScene.TYPE_DIAMOND then
 			triggerButton(slot0.diamondShopBtn)
 		elseif slot1 == ChargeScene.TYPE_GIFT then

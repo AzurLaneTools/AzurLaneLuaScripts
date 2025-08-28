@@ -234,6 +234,22 @@ slot0.IsSpine = function(slot0)
 	return slot0.isSpine
 end
 
+slot0.IsSpinePlus = function(slot0)
+	if not slot0.isSpinePlus then
+		slot0.isSpinePlus = table.contains(slot0:getConfig("tag"), uv0.WITH_SPINE_PLUS)
+	end
+
+	return slot0.isSpinePlus
+end
+
+slot0.IsLive2dPlus = function(slot0)
+	if not slot0.isLive2dPlusTag then
+		slot0.isLive2dPlusTag = table.contains(slot0:getConfig("tag"), uv0.WITH_LIVE2D_PLUS)
+	end
+
+	return slot0.isLive2dPlusTag
+end
+
 slot0.CantUse = function(slot0)
 	slot3 = slot0:getConfig("ship_group")
 
@@ -246,6 +262,12 @@ end
 
 slot0.WithoutUse = function(slot0)
 	return #getProxy(BayProxy):CanUseShareSkinPhantoms(slot0.id) > 0 and underscore.all(slot1, function (slot0)
+		return slot0:getSkinId() ~= uv0.id and not uv1.IsSameChangeSkinGroup(slot0:getSkinId(), uv0.id)
+	end)
+end
+
+slot0.NoUse = function(slot0)
+	return #getProxy(BayProxy):CanUseShareSkinPhantoms(slot0.id) == 0 or #slot1 > 0 and underscore.all(slot1, function (slot0)
 		return slot0:getSkinId() ~= uv0.id and not uv1.IsSameChangeSkinGroup(slot0:getSkinId(), uv0.id)
 	end)
 end
@@ -391,7 +413,11 @@ slot0.GetAllChangeSkinIds = function(slot0)
 end
 
 slot0.IsChangeSkin = function(slot0)
-	return table.contains(pg.ship_skin_template[slot0].tag, uv0.WITH_CHANGE)
+	if not pg.ship_skin_template[slot0] then
+		warning("skin not exist " .. slot0)
+	end
+
+	return table.contains(slot1.tag, uv0.WITH_CHANGE)
 end
 
 slot0.GetChangeSkinMainId = function(slot0)

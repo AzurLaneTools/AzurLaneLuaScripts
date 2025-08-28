@@ -588,4 +588,36 @@ slot0.GetSkinProbabilitys = function(slot0, slot1)
 	return slot2
 end
 
+slot0.GetInTimeSkins = function(slot0)
+	for slot5 = #slot0:GetAllSkins(), 1, -1 do
+		if slot1[slot5].type == Goods.TYPE_SKIN then
+			if slot6:getConfig("time") == "always" then
+				table.remove(slot1, slot5)
+			end
+		elseif slot6.type == Goods.TYPE_ACTIVITY_EXTRA and pg.activity_shop_extra[slot6.id].shop_tag ~= 1 then
+			table.remove(slot1, slot5)
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetPermanentSkins = function(slot0)
+	for slot5 = #slot0:GetAllSkins(), 1, -1 do
+		if slot1[slot5].type == Goods.TYPE_SKIN then
+			if slot6:getConfig("time") ~= "always" then
+				table.remove(slot1, slot5)
+			end
+		elseif slot6.type == Goods.TYPE_ACTIVITY_EXTRA then
+			if pg.activity_shop_extra[slot6.id].shop_tag ~= 2 then
+				table.remove(slot1, slot5)
+			end
+		elseif slot6.type == Goods.TYPE_ACTIVITY then
+			table.remove(slot1, slot5)
+		end
+	end
+
+	return slot1
+end
+
 return slot0

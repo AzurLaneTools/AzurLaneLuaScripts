@@ -50,14 +50,7 @@ slot0.Flush = function(slot0, slot1)
 		y = slot3 and 460 or 401
 	})
 
-	slot5 = (tf(pg.playerResUI._go).rect.width - slot0._tf.rect.width) * 0.5
-
-	print(slot5)
-	setAnchoredPosition(pg.playerResUI.gemAddBtn, {
-		x = -32 + math.abs(slot5)
-	})
-
-	slot0:GetText(slot3).text = i18n("skin_shop_buy_confirm", slot1:GetPrice() <= getProxy(PlayerProxy):getRawData():getChargeGem() and COLOR_GREEN or COLOR_RED, slot6, pg.ship_skin_template[slot1:getSkinId()].name)
+	slot0:GetText(slot3).text = i18n("skin_shop_buy_confirm", slot1:GetPrice() <= getProxy(PlayerProxy):getRawData():getChargeGem() and COLOR_GREEN or COLOR_RED, slot5, pg.ship_skin_template[slot1:getSkinId()].name)
 
 	slot0:SetTipText(slot1:getSkinId())
 	slot0:FlushGift(slot2)
@@ -114,9 +107,6 @@ end
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:emit(NewSkinShopMainView.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, false)
-	setAnchoredPosition(pg.playerResUI.gemAddBtn, {
-		x = -155
-	})
 
 	slot0.commodity = nil
 end

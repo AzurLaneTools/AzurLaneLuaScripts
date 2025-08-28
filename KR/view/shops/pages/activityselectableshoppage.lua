@@ -1,6 +1,6 @@
 slot0 = class("ActivitySelectableShopPage", import(".ActivityShopPage"))
 
-slot0.OnInit = function(slot0)
+slot0.CustomInit = function(slot0)
 	slot0.purchaseWindow = ActivityShopPurchasePanel.New(slot0._tf, slot0.event)
 
 	slot0:SetPurchaseConfirmCb()
@@ -20,9 +20,8 @@ end
 
 slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
-	slot2.tagImg.raycastTarget = false
 
-	onButton(slot0, slot2.tr, function ()
+	onButton(slot0, slot2.tf, function ()
 		if uv0.goodsVO:Selectable() then
 			uv1.purchaseWindow:ExecuteAction("Show", {
 				icon = "props/21000",

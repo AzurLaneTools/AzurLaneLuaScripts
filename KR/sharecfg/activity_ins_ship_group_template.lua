@@ -394,7 +394,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[39904] = {
 		ship_group = 39904,
-		name = "AzumaB65",
+		name = "",
 		background = "",
 		sculpture = "wuqi",
 		nationality = 0,
@@ -581,7 +581,7 @@ pg.activity_ins_ship_group_template = {
 		name = "EssexG1",
 		background = "",
 		sculpture = "aisaikesi",
-		nationality = 0,
+		nationality = 1,
 		type = 1
 	},
 	[10601] = {
@@ -4728,6 +4728,54 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[80401] = {
+		ship_group = 80401,
+		name = "Masséna",
+		background = "",
+		sculpture = "masaina",
+		nationality = 8,
+		type = 1
+	},
+	[80601] = {
+		ship_group = 80601,
+		name = "Bois Belleau",
+		background = "",
+		sculpture = "beilaosenlin",
+		nationality = 8,
+		type = 1
+	},
+	[80105] = {
+		ship_group = 80105,
+		name = "Le hardi",
+		background = "",
+		sculpture = "dadan",
+		nationality = 8,
+		type = 1
+	},
+	[80303] = {
+		ship_group = 80303,
+		name = "Duquesne ",
+		background = "",
+		sculpture = "dikaina",
+		nationality = 8,
+		type = 1
+	},
+	[80204] = {
+		ship_group = 80204,
+		name = "Duguay-Trouin ",
+		background = "",
+		sculpture = "digaiteluyin",
+		nationality = 8,
+		type = 1
+	},
+	[900939] = {
+		ship_group = 900939,
+		name = "Kansas",
+		background = "",
+		sculpture = "kansasi",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5319,6 +5367,12 @@ pg.activity_ins_ship_group_template = {
 		1130002,
 		1130003,
 		1130004,
-		301541
+		301541,
+		80401,
+		80601,
+		80105,
+		80303,
+		80204,
+		900939
 	}
 }

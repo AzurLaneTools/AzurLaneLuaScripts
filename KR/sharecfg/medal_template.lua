@@ -2590,6 +2590,27 @@ pg.medal_template = {
 		explain1 = "「네온 시티의 탐색자」",
 		explain2 = "이벤트"
 	},
+	[200081] = {
+		target_id = "50087",
+		name = "심연 아래 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "심연 아래의 비밀을 밝히고 재앙의 아이가 꾸민 음모를 저지한 당신. 존경하는 지휘관님, 이번 모험은 즐거우셨나요?\n\n——「모항 대형 VR 체험 프로젝트 2.0」 제작 위원회 드림",
+		next = 0,
+		icon = "9081",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9081",
+		condition = "「심연 아래의 비밀」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200081,
+		explain1 = "「심연 아래의 비밀」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2708,6 +2729,7 @@ pg.medal_template = {
 		200041,
 		200051,
 		200061,
-		200071
+		200071,
+		200081
 	}
 }

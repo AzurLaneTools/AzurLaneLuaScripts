@@ -3418,6 +3418,566 @@ pg.roll_attr = {
 			"SSS"
 		}
 	},
+	[3194] = {
+		ID = 3194,
+		name = "자연의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3195] = {
+		ID = 3195,
+		name = "생명의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3196] = {
+		ID = 3196,
+		name = "천둥의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3197] = {
+		ID = 3197,
+		name = "번개의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3198] = {
+		ID = 3198,
+		name = "대모험의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3199] = {
+		ID = 3199,
+		name = "매직 트릭",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3200] = {
+		ID = 3200,
+		name = "컨디션 회복술",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3201] = {
+		ID = 3201,
+		name = "함포 일제 사격",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3202] = {
+		ID = 3202,
+		name = "어뢰 일제 사격",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3203] = {
+		ID = 3203,
+		name = "포화 폭격",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3204] = {
+		ID = 3204,
+		name = "마인드 스피어",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3205] = {
+		ID = 3205,
+		name = "섀도우 스톰",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3206] = {
+		ID = 3206,
+		name = "영속의 빛",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3207] = {
+		ID = 3207,
+		name = "차원의 문",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3208] = {
+		ID = 3208,
+		name = "서먼 헤븐리",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3209] = {
+		ID = 3209,
+		name = "힐",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3210] = {
+		ID = 3210,
+		name = "마인드 배리어",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3211] = {
+		ID = 3211,
+		name = "일루전",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3212] = {
+		ID = 3212,
+		name = "신기루의 술법",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3213] = {
+		ID = 3213,
+		name = "구속의 술법",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3214] = {
+		ID = 3214,
+		name = "이계의 문",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3215] = {
+		ID = 3215,
+		name = "희생의 사슬",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3216] = {
+		ID = 3216,
+		name = "피블 마인드",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3217] = {
+		ID = 3217,
+		name = "브라이트",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3218] = {
+		ID = 3218,
+		name = "예견의 술법",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3219] = {
+		ID = 3219,
+		name = "매스 힐",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3220] = {
+		ID = 3220,
+		name = "마희의 입맞춤",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3221] = {
+		ID = 3221,
+		name = "겨울 장군의 분노",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3222] = {
+		ID = 3222,
+		name = "고대 골렘 소환",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3223] = {
+		ID = 3223,
+		name = "세 현자의 빛",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3224] = {
+		ID = 3224,
+		name = "고대의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3225] = {
+		ID = 3225,
+		name = "패스파인딩",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3226] = {
+		ID = 3226,
+		name = "지도 제작",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3227] = {
+		ID = 3227,
+		name = "만쥬 슬라임 소환",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
+	[3228] = {
+		ID = 3228,
+		name = "순백의 가호",
+		default_value = "",
+		random_value = {
+			"F",
+			"E",
+			"D",
+			"C",
+			"B",
+			"A",
+			"S",
+			"SS",
+			"SSS"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3639,6 +4199,41 @@ pg.roll_attr = {
 		3189,
 		3190,
 		3192,
-		3193
+		3193,
+		3194,
+		3195,
+		3196,
+		3197,
+		3198,
+		3199,
+		3200,
+		3201,
+		3202,
+		3203,
+		3204,
+		3205,
+		3206,
+		3207,
+		3208,
+		3209,
+		3210,
+		3211,
+		3212,
+		3213,
+		3214,
+		3215,
+		3216,
+		3217,
+		3218,
+		3219,
+		3220,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
+		3228
 	}
 }

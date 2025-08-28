@@ -756,6 +756,102 @@ pg.activity_medal_template = {
 		id = 5002108,
 		medal_asset = "ActivityMedal/5002108"
 	},
+	[5008701] = {
+		activity_medal_desc = "유성이 떨어져 심연이 형성되고, 재앙이 찾아올 때 성전이 현현하리라.",
+		next_medal = 0,
+		item = 65666,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "1",
+		task_id = 21803,
+		activity_medal_name = "스티커: 심연에서",
+		id = 5008701,
+		medal_asset = "ActivityMedal/5008701"
+	},
+	[5008702] = {
+		activity_medal_desc = "우로보로스 마법학교가 있는 곳. 심연과 관련된 다양한 활동이 이뤄지고 있다.",
+		next_medal = 0,
+		item = 65667,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "2",
+		task_id = 21804,
+		activity_medal_name = "스티커: 은택성",
+		id = 5008702,
+		medal_asset = "ActivityMedal/5008702"
+	},
+	[5008703] = {
+		activity_medal_desc = "이 정도쯤은 플루즈한테 맡기면 아무것도 아니야♪",
+		next_medal = 0,
+		item = 65668,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "3",
+		task_id = 21805,
+		activity_medal_name = "스티커: 무장 제어 팩터",
+		id = 5008703,
+		medal_asset = "ActivityMedal/5008703"
+	},
+	[5008704] = {
+		activity_medal_desc = "적을 굴복시키는 최선의 방법은 화력을 미친듯이 쏟아 붓는 것이지!",
+		next_medal = 0,
+		item = 65669,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "4",
+		task_id = 21806,
+		activity_medal_name = "스티커: 고대 골렘",
+		id = 5008704,
+		medal_asset = "ActivityMedal/5008704"
+	},
+	[5008705] = {
+		activity_medal_desc = "마른 가지가 필사적으로 하늘을 향해 그 잎을 드리우며, 마치 빛바랜 신의 왕관처럼 엘프의 마지막 혈통을 지켜내고 있다.",
+		next_medal = 0,
+		item = 65670,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "5",
+		task_id = 21807,
+		activity_medal_name = "스티커: 어머니 정령의 나무",
+		id = 5008705,
+		medal_asset = "ActivityMedal/5008705"
+	},
+	[5008706] = {
+		activity_medal_desc = "마희는 늘 당신을 지켜보고 있어――",
+		next_medal = 0,
+		item = 65671,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "6",
+		task_id = 21808,
+		activity_medal_name = "스티커: 악마의 눈",
+		id = 5008706,
+		medal_asset = "ActivityMedal/5008706"
+	},
+	[5008707] = {
+		activity_medal_desc = "하늘을 찌르던 오래된 거목은 이제 잊혀져 그루터기만 덩그러니 남았다.",
+		next_medal = 0,
+		item = 65672,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "7",
+		task_id = 21809,
+		activity_medal_name = "스티커: 썩은 나무",
+		id = 5008707,
+		medal_asset = "ActivityMedal/5008707"
+	},
+	[5008708] = {
+		activity_medal_desc = "한겨울의 요새여, 겨울 장군이 돌아왔다!",
+		next_medal = 0,
+		item = 65673,
+		remake_task_id = 0,
+		group = 50087,
+		prefab_node = "8",
+		task_id = 21810,
+		activity_medal_name = "스티커: 빙설의 왕관",
+		id = 5008708,
+		medal_asset = "ActivityMedal/5008708"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -835,6 +931,16 @@ pg.activity_medal_template = {
 			5002106,
 			5002107,
 			5002108
+		},
+		[50087] = {
+			5008701,
+			5008702,
+			5008703,
+			5008704,
+			5008705,
+			5008706,
+			5008707,
+			5008708
 		}
 	},
 	all = {
@@ -900,6 +1006,14 @@ pg.activity_medal_template = {
 		5002105,
 		5002106,
 		5002107,
-		5002108
+		5002108,
+		5008701,
+		5008702,
+		5008703,
+		5008704,
+		5008705,
+		5008706,
+		5008707,
+		5008708
 	}
 }

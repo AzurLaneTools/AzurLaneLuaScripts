@@ -26,12 +26,26 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._closeBtn = findTF(slot0._tf, "backbtn")
 
 	onButton(slot0, slot0._mask, function ()
-		uv0:SetActive(false)
+		if uv0._parent.DETAIL_CLOSE_ANIM and uv0._parent.DETAIL_CLOSE_ANIM_Time then
+			quickPlayAnimation(uv0._go, uv0._parent.DETAIL_CLOSE_ANIM)
+			onDelayTick(function ()
+				uv0:SetActive(false)
+			end, uv0._parent.DETAIL_CLOSE_ANIM_Time)
+		else
+			uv0:SetActive(false)
+		end
 	end, SFX_CANCEL)
 
 	if slot0._closeBtn then
 		onButton(slot0, slot0._closeBtn, function ()
-			uv0:SetActive(false)
+			if uv0._parent.DETAIL_CLOSE_ANIM and uv0._parent.DETAIL_CLOSE_ANIM_Time then
+				quickPlayAnimation(uv0._go, uv0._parent.DETAIL_CLOSE_ANIM)
+				onDelayTick(function ()
+					uv0:SetActive(false)
+				end, uv0._parent.DETAIL_CLOSE_ANIM_Time)
+			else
+				uv0:SetActive(false)
+			end
 		end, SFX_CANCEL)
 	end
 

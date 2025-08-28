@@ -57,7 +57,7 @@ slot0.OnInit = function(slot0)
 	onToggle(slot0, slot0.keepFateTog, function (slot0)
 		uv0.keepFateState = slot0
 
-		uv1:emit(NewShopsMediator.SET_PLAYER_FLAG, SHOW_DONT_KEEP_FATE_ITEM, not slot0)
+		uv1:emit(NewShopMainMediator.SET_PLAYER_FLAG, SHOW_DONT_KEEP_FATE_ITEM, not slot0)
 		uv1:Trigger("control")
 	end)
 	slot0:Trigger("control")
@@ -249,7 +249,7 @@ slot0.Resetresolve = function(slot0)
 		uv0:Back()
 	end)
 	onButton(slot0, slot1:Find("destroy_button"), function ()
-		uv0:emit(NewShopsMediator.SELL_BLUEPRINT, uv0.resolveItems)
+		uv0:emit(NewShopMainMediator.SELL_BLUEPRINT, uv0.resolveItems)
 	end)
 end
 
