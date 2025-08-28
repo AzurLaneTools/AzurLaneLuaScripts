@@ -27,8 +27,20 @@ slot0.initNotificationHandleDic = function(slot0)
 
 			slot0.viewComponent:UpdateSlideInviteList(slot2.groupIds, slot2.addIds, slot2.removeIds)
 		end,
-		[Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE] = function (slot0, slot1)
-			slot0.viewComponent:InitSlide()
+		[Dorm3dRoomScene.NOTIFY_UI_STATE] = function (slot0, slot1)
+			slot0.viewComponent:HandleDormUIState(slot1:getBody())
+		end,
+		[SlideExtraSystem.SHOW_INTERACTION] = function (slot0, slot1)
+			slot0.viewComponent:ShowInteraction()
+		end,
+		[SlideExtraSystem.HIDE_INTERACTION] = function (slot0, slot1)
+			slot0.viewComponent:HideInteraction()
+		end,
+		[SlideExtraSystem.SHOW_PERFORMANCE] = function (slot0, slot1)
+			slot0.viewComponent:ShowPerformance()
+		end,
+		[SlideExtraSystem.HIDE_PERFORMANCE] = function (slot0, slot1)
+			slot0.viewComponent:HidePerformance()
 		end
 	}
 end

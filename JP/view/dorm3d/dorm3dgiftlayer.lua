@@ -128,7 +128,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 		count = slot0.proxy:getGiftCount(slot2)
 	})
 
-	updateDorm3dIcon(slot4:Find("Dorm3dIconTpl"), slot5)
+	updateCustomDrop(slot4:Find("Dorm3dIconTpl"), slot5)
 	setText(slot4:Find("info/name"), slot5:getName())
 
 	slot6 = slot5:getConfig("ship_group_id") ~= 0
@@ -359,7 +359,7 @@ slot0.OpenInfoWindow = function(slot0, slot1)
 	slot2 = slot0.rtInfoWindow:Find("panel")
 
 	setText(slot2:Find("title/Text"), i18n("words_information"))
-	updateDorm3dIcon(slot2:Find("middle/Dorm3dIconTpl"), slot1)
+	updateCustomDrop(slot2:Find("middle/Dorm3dIconTpl"), slot1)
 	setActive(slot2:Find("middle/Dorm3dIconTpl/mark"), slot1:getConfig("ship_group_id") ~= 0)
 	setText(slot2:Find("middle/Text"), "???")
 	onButton(slot0, slot2:Find("bottom/btn_buy"), function ()
@@ -381,7 +381,7 @@ slot0.OpenLackWindow = function(slot0, slot1)
 	slot2 = slot0.rtLackWindow:Find("panel")
 
 	setText(slot2:Find("title/Text"), i18n("child_msg_title_detail"))
-	updateDorm3dIcon(slot2:Find("middle/Dorm3dIconTpl"), slot1)
+	updateCustomDrop(slot2:Find("middle/Dorm3dIconTpl"), slot1)
 	setActive(slot2:Find("middle/Dorm3dIconTpl/mark"), slot1:getConfig("ship_group_id") ~= 0)
 	setText(slot2:Find("middle/info/name"), slot1:getName())
 	setText(slot2:Find("middle/info/count"), string.format("count:<color=#39bfff>%d</color>", slot1.count))

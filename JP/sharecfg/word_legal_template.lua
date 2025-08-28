@@ -2271,7 +2271,10 @@ temp = function()
 			["ッ"] = {
 				["ク"] = {
 					["ス"] = {
-						this = true
+						this = true,
+						["改"] = {
+							this = true
+						}
 					}
 				}
 			}
@@ -5665,29 +5668,6 @@ end
 temp()
 
 temp = function()
-	uv0["埃"] = {
-		["塞"] = {
-			["克"] = {
-				["斯"] = {
-					["."] = {
-						["改"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["佛"] = {
-			["森"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["ギ"] = {
 		["ャ"] = {
 			["ラ"] = {
@@ -8392,6 +8372,18 @@ temp = function()
 	uv0["七"] = {
 		["省"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["埃"] = {
+		["佛"] = {
+			["森"] = {
+				this = true
+			}
 		}
 	}
 end

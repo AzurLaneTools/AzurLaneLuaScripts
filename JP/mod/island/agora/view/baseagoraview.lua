@@ -23,6 +23,8 @@ slot0.AddAgoraListener = function(slot0, slot1, slot2)
 		uv0(uv1, ...)
 	end
 
+	assert(slot0.agora_callbacks[slot2] == nil, "This method has been monitored. Please use another one" .. slot1)
+
 	slot0.agora_callbacks[slot2] = slot3
 
 	slot0.agora:AddListener(slot1, slot3)

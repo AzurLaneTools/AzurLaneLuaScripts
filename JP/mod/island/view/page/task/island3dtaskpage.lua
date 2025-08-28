@@ -5,112 +5,68 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf
-	slot1 = slot1:Find("toggles/content")
-	slot0.toggleUIList = UIItemList.New(slot1, slot1:Find("tpl"))
-	slot2 = slot0._tf
-	slot2 = slot2:Find("types/content")
-	slot0.typeUIList = UIItemList.New(slot2, slot2:Find("type_tpl"))
-	slot3 = slot0._tf
-	slot0.emptyTF = slot3:Find("detail/empty")
-	slot3 = slot0._tf
-	slot0.detailTF = slot3:Find("detail/content")
-	slot3 = slot0.detailTF
-	slot0.titleBg = slot3:Find("title")
-	slot3 = slot0.detailTF
-	slot0.typeIcon = slot3:Find("title/icon")
-	slot3 = slot0.detailTF
-	slot0.nameTF = slot3:Find("title/icon/name")
-	slot3 = slot0.detailTF
-	slot0.timeTF = slot3:Find("title/time")
-	slot3 = slot0.detailTF
-	slot0.descTF = slot3:Find("desc")
-	slot3 = slot0.detailTF
-	slot0.targetTF = slot3:Find("targets")
-	slot4 = slot0.targetTF
+	slot0.uiAnim = slot0._tf:GetComponent(typeof(Animation))
+	slot0.uiAnimEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 
-	setText(slot4:Find("Text"), i18n1("任务目标："))
+	slot0.uiAnimEvent:SetEndEvent(function ()
+		uv0.playingHideAnim = false
 
-	slot3 = slot0.targetTF
-	slot0.finishedTargetTF = slot3:Find("finished")
-	slot3 = slot0.targetTF
-	slot0.targetContent = slot3:Find("content")
-	slot5 = slot0.targetContent
-	slot0.targetUIList = UIItemList.New(slot0.targetContent, slot5:Find("tpl"))
-	slot3 = slot0.detailTF
-	slot0.awardsTF = slot3:Find("awards")
-	slot4 = slot0.awardsTF
-
-	setText(slot4:Find("title/Text"), i18n1("任务奖励"))
-
-	slot3 = slot0.awardsTF
-	slot3 = slot3:Find("view/mask/content")
-	slot0.awardUIList = UIItemList.New(slot3, slot3:Find("tpl"))
-	slot4 = slot0.detailTF
-	slot0.detailBtns = slot4:Find("btns")
-	slot4 = slot0.detailBtns
-	slot0.traceBtn = slot4:Find("trace")
-	slot5 = slot0.traceBtn
-
-	setText(slot5:Find("Text"), i18n1("追踪任务"))
-
-	slot4 = slot0.detailBtns
-	slot0.tracedBtn = slot4:Find("traced")
-	slot5 = slot0.tracedBtn
-
-	setText(slot5:Find("Text"), i18n1("已追踪"))
-
-	slot4 = slot0.detailBtns
-	slot0.submitBtn = slot4:Find("submit")
-	slot4 = slot0._tf
-	slot0.acceptBtn = slot4:Find("top/accept")
-	slot4 = slot0._tf
-	slot0.acceptPanel = slot4:Find("accept_panel")
-
-	setActive(slot0.acceptPanel, false)
-
-	slot5 = slot0.acceptPanel
-	slot6 = slot0.acceptPanel
-	slot0.acceptUIList = UIItemList.New(slot5:Find("Viewport/Content"), slot6:Find("Viewport/Content/tpl"))
-	slot4 = slot0.acceptUIList
-
-	slot4:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.canAcceptTask[slot1 + 1]
-
-			setText(slot2:Find("id"), slot3.id)
-			setText(slot2:Find("name"), slot3:getConfig("name"))
-			onButton(uv0, slot2:Find("btn"), function ()
-				uv0:emit(IslandMediator.ON_ACCEPT_TASK, {
-					uv1.id
-				})
-				setActive(uv0.acceptPanel, false)
-				uv0:Hide()
-			end, SFX_PANEL)
-		end
+		uv1.super.Hide(uv0)
 	end)
-	onButton(slot0, slot0.acceptBtn, function ()
-		uv0.canAcceptTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetCanAcceptTasks()
 
-		uv0.acceptUIList:align(#uv0.canAcceptTask)
-		setActive(uv0.acceptPanel, #uv0.canAcceptTask > 0)
-	end, SFX_PANEL)
+	slot1 = slot0._tf:Find("toggles/content")
+	slot0.toggleUIList = UIItemList.New(slot1, slot1:Find("tpl"))
+	slot2 = slot0._tf:Find("types/content")
+	slot0.typeUIList = UIItemList.New(slot2, slot2:Find("type_tpl"))
+	slot0.detailAnim = slot0._tf:Find("detail"):GetComponent(typeof(Animation))
+	slot0.emptyTF = slot0._tf:Find("detail/empty")
+	slot0.detailTF = slot0._tf:Find("detail/content")
+	slot0.titleBg = slot0.detailTF:Find("title")
+	slot0.typeIcon = slot0.detailTF:Find("title/icon")
+	slot0.nameTF = slot0.detailTF:Find("title/icon/name")
+	slot0.timeTF = slot0.detailTF:Find("title/time")
+	slot0.descTF = slot0.detailTF:Find("desc")
+	slot0.targetTF = slot0.detailTF:Find("targets")
 
-	slot6 = slot0.acceptPanel
+	setText(slot0.targetTF:Find("Text"), i18n("island_task_target"))
 
-	onButton(slot0, slot6:Find("close"), function ()
-		setActive(uv0.acceptPanel, false)
-	end, SFX_PANEL)
+	slot0.finishedTargetTF = slot0.targetTF:Find("finished")
+	slot0.finishedTargetTextTF = slot0.finishedTargetTF:Find("Text")
+	slot0.finishedTargetLocTF = slot0.finishedTargetTF:Find("location")
+	slot0.targetContent = slot0.targetTF:Find("content")
+	slot0.targetUIList = UIItemList.New(slot0.targetContent, slot0.targetContent:Find("tpl"))
+	slot0.awardsTF = slot0.detailTF:Find("awards")
+
+	setText(slot0.awardsTF:Find("title/Text"), i18n("island_task_award"))
+
+	slot3 = slot0.awardsTF:Find("view/mask/content")
+	slot0.awardUIList = UIItemList.New(slot3, slot3:Find("tpl"))
+	slot0.detailBtns = slot0.detailTF:Find("btns")
+	slot0.traceBtn = slot0.detailBtns:Find("trace")
+
+	setText(slot0.traceBtn:Find("Text"), i18n("island_task_tracking"))
+
+	slot0.tracedBtn = slot0.detailBtns:Find("traced")
+
+	setText(slot0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0._tf:Find("top/back"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/home"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
-	slot0.toggleUIList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.toggleUIList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			uv0:InitToggleItem(slot1, slot2)
 		end
@@ -119,27 +75,38 @@ slot0.OnInit = function(slot0)
 	slot0.toggleList = underscore.keys(IslandTaskType.ShowTypeNames)
 
 	table.sort(slot0.toggleList)
-	slot0.toggleUIList:align(#slot0.toggleList)
-	slot0.typeUIList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.toggleUIList
+
+	slot1:align(#slot0.toggleList)
+
+	slot1 = slot0.typeUIList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTypeItem(slot1, slot2)
 		end
 	end)
-	slot0.targetUIList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.targetUIList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTargetItem(slot1, slot2)
 		end
 	end)
-	slot0.awardUIList:make(function (slot0, slot1, slot2)
+
+	slot1 = slot0.awardUIList
+
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, uv0.showAwards[slot1 + 1])
+			updateCustomDrop(slot2, uv0.showAwards[slot1 + 1])
 		end
 	end)
-	triggerToggle(slot0.toggleUIList.container:GetChild(0), true)
 end
 
 slot0.AddListeners = function(slot0)
-	slot0:AddListener(GAME.ISLAND_SET_TRACE_TASK_DONE, slot0.Flush)
+	slot0:AddListener(GAME.ISLAND_SET_TRACE_TASK_DONE, slot0.FlushDetail)
 	slot0:AddListener(GAME.ISLAND_ACCEPT_TASK_DONE, slot0.Flush)
 	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.Flush)
 	slot0:AddListener(GAME.ISLAND_UPDATE_TASK_DONE, slot0.Flush)
@@ -149,8 +116,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandTaskAgency.TASK_REMOVED, slot0.Flush)
 end
 
-slot0.RemoveListener = function(slot0)
-	slot0:RemoveListener(GAME.ISLAND_SET_TRACE_TASK_DONE, slot0.Flush)
+slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(GAME.ISLAND_SET_TRACE_TASK_DONE, slot0.FlushDetail)
 	slot0:RemoveListener(GAME.ISLAND_ACCEPT_TASK_DONE, slot0.Flush)
 	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, slot0.Flush)
 	slot0:RemoveListener(GAME.ISLAND_UPDATE_TASK_DONE, slot0.Flush)
@@ -169,14 +136,16 @@ slot0.InitToggleItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("sel/content/Text"), slot4)
 
 	if slot3 ~= IslandTaskType.SHOW_ALL then
-		LoadImageSpriteAsync("islandtasktype/" .. IslandTaskType.ShowTypeFields[slot3], slot2:Find("sel/content/Image"))
+		LoadImageSpriteAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot3], slot2:Find("sel/content/Image"), false)
 	end
 
 	onToggle(slot0, slot2, function (slot0)
-		if slot0 and (not uv0.selectedType or uv0.selectedType ~= uv1) then
-			uv0.selectedType = uv1
+		uv0.selectedType = uv1
 
-			uv0:Flush()
+		uv0:Flush()
+
+		if slot0 then
+			uv2:GetComponent(typeof(Animation)):Play()
 		end
 	end, SFX_PANEL)
 end
@@ -187,7 +156,7 @@ slot0.UpdateTypeItem = function(slot0, slot1, slot2)
 
 	setText(slot2:Find("title/Text"), IslandTaskType.ShowTypeNames[slot3])
 	setImageColor(slot2:Find("title"), Color.NewHex(IslandTaskType.ShowTypeColors[slot3]))
-	LoadImageSpriteAsync("islandtasktype/" .. IslandTaskType.ShowTypeFields[slot3], slot2:Find("title/Image"))
+	LoadImageSpriteAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot3], slot2:Find("title/Image"))
 	setActive(slot2:Find("line"), slot1 + 1 ~= #slot0.showTypeList)
 
 	slot5 = UIItemList.New(slot2:Find("list"), slot2:Find("list"):GetChild(0))
@@ -204,11 +173,9 @@ slot0.UpdateTaskItem = function(slot0, slot1, slot2)
 	slot1.name = slot2.id
 
 	setImageColor(slot1:Find("main/line"), Color.NewHex(IslandTaskType.ShowTypeColors[slot2:GetShowType()]))
-	setText(slot1:Find("main/desc"), slot2:GetDesc())
 	setText(slot1:Find("main/name"), slot2:IsSeries() and slot2:GetSeriesTitle() or slot2:GetName())
 	setActive(slot1:Find("sub"), slot4)
 	setActive(slot1:Find("main/location"), not slot4)
-	setActive(slot1:Find("main/desc"), not slot4)
 
 	if slot4 then
 		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "color_" .. IslandTaskType.ShowTypeFields[slot3], slot1:Find("sub/bg"))
@@ -219,11 +186,11 @@ slot0.UpdateTaskItem = function(slot0, slot1, slot2)
 	end
 
 	onToggle(slot0, slot1, function (slot0)
-		if slot0 and (not uv0.selectedTaskId or uv0.selectedTaskId ~= uv1.id) then
-			uv0.selectedTaskId = uv1.id
+		uv0.selectedTaskId = uv1.id
 
-			uv0:FlushDetail()
-		end
+		setActive(uv2:Find("main/selected"), slot0 and not uv3)
+		setActive(uv2:Find("sub/selected"), slot0 and uv3)
+		uv0:FlushDetail()
 	end, SFX_PANEL)
 end
 
@@ -266,29 +233,27 @@ slot0.UpdateTargetItem = function(slot0, slot1, slot2)
 	if slot10 then
 		slot0:UpdateLocation(slot9, slot0.showVO)
 	end
-
-	onButton(slot0, slot2:Find("content/add_progress"), function ()
-		uv0:emit(IslandMediator.ON_CLIENT_UPDATE_TASK, {
-			progress = 1,
-			taskId = uv0.showVO.id,
-			targetId = uv1.id
-		})
-	end, SFX_PANEL)
 end
 
-slot0.Flush = function(slot0, slot1)
-	slot2 = getProxy(IslandProxy):GetIsland()
-	slot0.curMapId = slot2:GetMapId()
-	slot0.taskAgency = slot2:GetTaskAgency()
+slot0.Flush = function(slot0)
+	if not slot0.selectedType then
+		slot0.selectedType = IslandTaskType.SHOW_ALL
+	end
+
+	slot1 = getProxy(IslandProxy):GetIsland()
+	slot0.curMapId = slot1:GetMapId()
+	slot0.taskAgency = slot1:GetTaskAgency()
 	slot0.trackTaskId = slot0.taskAgency:GetTraceId()
 	slot0.showTaskDict = {}
 
-	for slot7, slot8 in pairs(slot0.taskAgency:GetTasks()) do
-		if not slot0.showTaskDict[slot8:GetShowType()] then
-			slot0.showTaskDict[slot9] = {}
-		end
+	for slot6, slot7 in pairs(slot0.taskAgency:GetShowTasks()) do
+		if slot7:GetShowType() then
+			if not slot0.showTaskDict[slot8] then
+				slot0.showTaskDict[slot8] = {}
+			end
 
-		table.insert(slot0.showTaskDict[slot9], slot8)
+			table.insert(slot0.showTaskDict[slot8], slot7)
+		end
 	end
 
 	slot0.showTypeList = {
@@ -300,17 +265,36 @@ slot0.Flush = function(slot0, slot1)
 	end
 
 	table.sort(slot0.showTypeList)
-	slot0.typeUIList:align(#slot0.showTypeList)
+	slot0:FlushTypeUIList()
+	slot0:PingFirstTask()
+end
 
-	if not slot0.selectedTaskId or not slot0.showVO or not table.contains(slot0.showTypeList, slot0.showVO:GetShowType()) then
-		slot0:PingFirstTask()
-	else
-		slot0:FlushDetail()
-	end
+slot0.FlushTypeUIList = function(slot0)
+	slot1 = slot0.typeUIList
 
-	if isActive(slot0.acceptPanel) then
-		triggerButton(slot0.acceptBtn)
-	end
+	slot1:align(#slot0.showTypeList)
+
+	slot2 = slot0.typeUIList
+
+	slot2:eachActive(function (slot0, slot1)
+		slot1:GetComponent(typeof(CanvasGroup)).alpha = 0
+
+		table.insert(uv0, function (slot0)
+			slot1 = uv0
+			slot1 = slot1:GetComponent(typeof(Animation))
+
+			slot1:Play()
+
+			slot1 = uv0
+			slot1:GetComponent(typeof(CanvasGroup)).alpha = 1
+			slot1 = uv1
+
+			slot1:managedTween(LeanTween.delayedCall, function ()
+				uv0()
+			end, 0.06, nil)
+		end)
+	end)
+	seriesAsync({})
 end
 
 slot0.PingFirstTask = function(slot0)
@@ -326,10 +310,14 @@ slot0.PingFirstTask = function(slot0)
 end
 
 slot0.FlushDetail = function(slot0)
+	slot0.trackTaskId = slot0.taskAgency:GetTraceId()
+
 	setActive(slot0.detailTF, slot0.selectedTaskId)
 	setActive(slot0.emptyTF, not slot0.selectedTaskId)
 
 	if slot0.selectedTaskId then
+		slot0.detailAnim:Play()
+
 		slot0.showVO = slot0.taskAgency:GetTask(slot0.selectedTaskId)
 		slot1 = slot0.showVO:GetShowType()
 		slot2 = IslandTaskType.ShowTypeFields[slot1]
@@ -352,7 +340,8 @@ slot0.FlushDetail = function(slot0)
 		setActive(slot0.targetContent, not slot3)
 
 		if slot3 then
-			setText(slot0.finishedTargetTF, slot0.showVO:GetFinishedDesc())
+			setText(slot0.finishedTargetTextTF, slot0.showVO:GetFinishedDesc())
+			slot0:UpdateLocation(slot0.finishedTargetLocTF, slot0.showVO)
 		else
 			slot0.targetUIList:align(#slot0.showTargets)
 		end
@@ -368,20 +357,24 @@ slot0.FlushDetail = function(slot0)
 		onButton(slot0, slot0.tracedBtn, function ()
 			uv0:emit(IslandMediator.ON_SET_TRACE_ID, 0)
 		end, SFX_PANEL)
-		setActive(slot0.submitBtn, slot0.showVO:IsFinish())
-		onButton(slot0, slot0.submitBtn, function ()
-			uv0.selectedTaskId = nil
-
-			uv0:emit(IslandMediator.ON_SUBMIT_TASK, uv0.showVO.id)
-			uv0:Hide()
-		end, SFX_PANEL)
 	end
 end
 
-slot0.OnShow = function(slot0, slot1)
-	if slot1 and slot1 ~= 0 then
-		triggerToggle(slot0.toggleUIList.container:GetChild(0), true)
-		triggerToggle(slot0.typeUIList.container:Find(IslandTaskType.Type2ShowType[pg.island_task[slot1].type] .. "/list/" .. slot1), true)
+slot0.OnShow = function(slot0, slot1, slot2)
+	slot3 = false
+
+	if slot1 and slot0.toggleUIList.container:Find(slot1) then
+		triggerToggle(slot0.toggleUIList.container:Find(slot1), true)
+
+		slot3 = true
+	end
+
+	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(slot2 or 0) then
+		if not slot3 then
+			triggerToggle(slot0.toggleUIList.container:GetChild(0), true)
+		end
+
+		triggerToggle(slot0.typeUIList.container:Find(IslandTaskType.Type2ShowType[pg.island_task[slot2].type] .. "/list/" .. slot2), true)
 	else
 		slot0:Flush()
 	end
@@ -389,8 +382,26 @@ slot0.OnShow = function(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
+slot0.Hide = function(slot0)
+	if slot0.playingHideAnim then
+		return
+	end
+
+	slot0.uiAnim:Play("Anim_Island3dTaskUI_out")
+
+	slot0.playingHideAnim = true
+end
+
 slot0.OnHide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0.uiAnimEvent:SetEndEvent(nil)
 end
 
 return slot0

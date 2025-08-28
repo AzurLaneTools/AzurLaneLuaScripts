@@ -328,17 +328,10 @@ slot0.didEnter = function(slot0)
 			}):GetStateName(), uv0.cameraSettings.depthOfField.focusDistance.value, uv0.cameraSettings.depthOfField.blurRadius.value, uv0.cameraSettings.postExposure.value, uv0.cameraSettings.contrast.value, uv0.cameraSettings.saturate.value)))
 		end
 
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			uv0.mainCamera,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				uv0(true)
-				uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
-			end)
-		})
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv0.mainCamera, function (slot0)
+			uv0(true)
+			uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
+		end)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(slot0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false
@@ -623,7 +616,12 @@ slot0.UpdateActionPanel = function(slot0)
 			return
 		end
 
-		slot8 = _.reduce(slot3, 0, function (slot0, slot1)
+		slot8 = function(slot0, slot1, slot2)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterSceneAnim", slot0:GetEnterSceneAnim(), slot2 ~= slot1)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterExtraItem", slot0:GetEnterExtraItem(), slot2 ~= slot1)
+		end
+
+		slot9 = _.reduce(slot3, 0, function (slot0, slot1)
 			return slot0 + math.max(uv0, slot1:GetAnimTime())
 		end)
 
@@ -636,7 +634,7 @@ slot0.UpdateActionPanel = function(slot0)
 			passedTime = 0,
 			ratio = 0,
 			animPlayList = slot3,
-			totalTime = slot8,
+			totalTime = slot9,
 			startStamp = Time.time
 		}
 		uv0.timerAnim = FrameTimer.New(function ()
@@ -668,12 +666,15 @@ slot0.UpdateActionPanel = function(slot0)
 				return
 			end
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot0.animPlayList[slot0.index]:GetStateName())
+			slot8 = slot0.animPlayList[slot0.index]
+
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot8:GetStateName(), nil, 0)
+			uv5(slot8, uv6, uv7)
 		end, 1, -1)
-		slot9 = uv0.animInfo.animPlayList[1]
+		slot10 = uv0.animInfo.animPlayList[1]
 
 		if slot5 == 1 then
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchCurrentAnim", slot9:GetStateName())
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchCurrentAnim", slot10:GetStateName())
 			onNextTick(function ()
 				if #uv0:GetStartPoint() == 0 then
 					slot0 = uv1:GetWatchCameraName()
@@ -681,6 +682,7 @@ slot0.UpdateActionPanel = function(slot0)
 
 				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot0)
 				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+				uv3(uv0, uv4, uv5)
 
 				if uv2.freeMode then
 					slot1 = uv2.scene.cameras[uv2.scene.CAMERA.PHOTO_FREE]
@@ -697,7 +699,8 @@ slot0.UpdateActionPanel = function(slot0)
 				end
 			end)
 		else
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot9:GetStateName())
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot10:GetStateName(), nil, 0)
+			slot8(slot10, slot2, slot4)
 		end
 
 		uv0.timerAnim:Start()
@@ -754,9 +757,7 @@ slot0.UpdateActionPanel = function(slot0)
 
 			if slot6 then
 				onButton(uv3, slot2, function ()
-					uv0.room:ReplaceFurniture(uv1.slotId, uv1.furnitureId)
-					uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RefreshSlots", uv0.room)
-					uv2(uv3, uv4)
+					uv0(uv1, uv2)
 				end)
 				setText(slot2:Find("Name"), slot3:GetName())
 			else
@@ -1264,6 +1265,8 @@ slot0.willExit = function(slot0)
 		slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
 	end
 
+	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetSceneItemAnimators")
+	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharacterExtraItem")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")

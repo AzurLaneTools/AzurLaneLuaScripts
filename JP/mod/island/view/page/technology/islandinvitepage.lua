@@ -7,12 +7,15 @@ end
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot0.contentText = slot1:Find("Text")
+
+	setText(slot0.contentText, "")
+
 	slot1 = slot0._tf
 	slot0.prevBtn = slot1:Find("bottom/left_arr")
 	slot1 = slot0._tf
 	slot0.nextBtn = slot1:Find("bottom/right_arr")
 	slot1 = slot0._tf
-	slot1 = slot1:Find("bottom/scroll")
+	slot1 = slot1:Find("bottom/scroll/content")
 	slot0.scrollrect = slot1:GetComponent("LScrollRect")
 	slot0.scrollrect.isNewLoadingMethod = true
 
@@ -26,10 +29,15 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0._tf:Find("top/back"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/home"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.prevBtn, function ()
@@ -40,29 +48,24 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.cards = {}
+end
+
+slot0.OnShow = function(slot0)
+	slot0.triggerFirstCard = true
+	slot0.selectedId = nil
 
 	slot0:Flush()
-end
-
-slot0.AddListeners = function(slot0)
-	slot0:AddListener(IslandCharacterAgency.ADD_SHIP, slot0.Flush)
-end
-
-slot0.RemoveListeners = function(slot0)
-	slot0:RemoveListener(IslandCharacterAgency.ADD_SHIP, slot0.Flush)
 end
 
 slot0.Flush = function(slot0)
 	slot0.triggerFirstCard = true
 	slot0.displays = {}
 
-	for slot4, slot5 in ipairs(pg.island_ship.all) do
-		if IslandShip.StaticCanUnlock(slot5) then
-			table.insert(slot0.displays, slot5)
-		end
+	for slot6, slot7 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetInviteList()) do
+		table.insert(slot0.displays, IslandInvitation.New(slot7))
 	end
 
-	slot0.scrollrect:SetTotalCount(#slot0.displays, 0)
+	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -73,22 +76,12 @@ slot0.OnInitItem = function(slot0, slot1)
 			slot4:UpdateSelected(nil)
 		end
 
-		uv0.selectedId = uv1.configId
+		uv0.selectedId = uv1.item.shipId
 
 		uv1:UpdateSelected(uv0.selectedId)
-		setText(uv0.contentText, "目前选中的是:" .. pg.island_ship[uv0.selectedId].name)
 	end, SFX_PANEL)
 	slot0:AddDrag(slot2.frameTF, function ()
-		if not IslandShip.StaticGetUnlockItemId(uv0.configId) then
-			return
-		end
-
-		uv1:ShowMsgBox({
-			content = i18n1("消耗" .. pg.island_item_data_template[slot0].name .. "X1，邀请" .. pg.island_ship[uv0.configId].name .. "\n加入队伍,是否确定？"),
-			onYes = function ()
-				uv0:emit(IslandMediator.ON_USE_ITEM, uv1, 1)
-			end
-		})
+		uv0:emit(IslandMediator.INVITE_SHIP, uv1.item.shipId)
 	end)
 
 	slot0.cards[slot1] = slot2
@@ -102,6 +95,8 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	end
 
 	slot3:Update(slot0.displays[slot1 + 1], slot0.selectedId)
+
+	slot2.name = slot3.item.shipId
 
 	if slot0.triggerFirstCard and slot1 == 0 then
 		slot0.triggerFirstCard = nil
@@ -158,7 +153,7 @@ end
 
 slot0.GetCommodityIndex = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.displays) do
-		if slot6 == slot1 then
+		if slot6.shipId == slot1 then
 			return slot5
 		end
 	end
@@ -185,15 +180,15 @@ slot0.OnNext = function(slot0)
 end
 
 slot0.TriggerCommodity = function(slot0, slot1, slot2)
-	slot3 = slot0.displays[slot1]
-	slot4 = slot0.displays[slot1 + slot2]
+	slot3 = slot0.displays[slot1].shipId
+	slot4 = slot0.displays[slot1 + slot2].shipId
 	slot5, slot6 = nil
 
 	for slot10, slot11 in pairs(slot0.cards) do
 		if slot11._tf.gameObject.name ~= "-1" then
-			if slot11.configId == slot4 then
+			if slot11.item.shipId == slot4 then
 				slot5 = slot11
-			elseif slot11.configId == slot3 then
+			elseif slot11.item.shipId == slot3 then
 				slot6 = slot11
 			end
 		end

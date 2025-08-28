@@ -56,11 +56,11 @@ slot0.forceGC = function(slot0)
 	return false
 end
 
-slot0.loadingQueue = function(slot0)
-	return false
+slot0.forceRatio = function(slot0)
+	return nil
 end
 
-slot0.lowerAdpter = function(slot0)
+slot0.loadingQueue = function(slot0)
 	return false
 end
 
@@ -110,7 +110,7 @@ slot0.load = function(slot0)
 		end
 	}, function ()
 		originalPrint("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv1)
-		uv0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+		uv2:SetUIParent(uv0)
 
 		if uv2:tempCache() then
 			PoolMgr.GetInstance():AddTempCache(uv3)
@@ -118,6 +118,10 @@ slot0.load = function(slot0)
 
 		uv2:onUILoaded(uv0)
 	end)
+end
+
+slot0.SetUIParent = function(slot0, slot1)
+	slot1.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 end
 
 slot0.LoadUIFromPool = function(slot0, slot1, slot2)
@@ -193,7 +197,8 @@ slot0.optionsPath = {
 	"blur_container/adapt/top/option",
 	"ForNorth/top/option",
 	"top/top_chapter/option",
-	"Main/blur_panel/adapt/top/option"
+	"Main/blur_panel/adapt/top/option",
+	"adapt/blur_panel/adapt/top/option"
 }
 
 slot0.onUILoaded = function(slot0, slot1)
@@ -280,8 +285,8 @@ slot0.enter = function(slot0)
 	slot0:PlayBGM()
 	slot0:emit(uv0.DID_ENTER)
 
-	if slot0:lowerAdpter() then
-		setActive(pg.CameraFixMgr.GetInstance().adpterTr, false)
+	if slot0:forceRatio() then
+		pg.CameraFixMgr.GetInstance():SetForceRatio(slot0:forceRatio())
 	end
 
 	if not slot0._isCachedView then
@@ -332,8 +337,8 @@ slot0.exit = function(slot0)
 	slot0:ShowOrHideResUI(false)
 	slot0:detach()
 
-	if slot0:lowerAdpter() then
-		setActive(pg.CameraFixMgr.GetInstance().adpterTr, true)
+	if slot0:forceRatio() then
+		pg.CameraFixMgr.GetInstance():SetForceRatio(nil)
 	end
 
 	pg.NewGuideMgr.GetInstance():OnSceneExit({

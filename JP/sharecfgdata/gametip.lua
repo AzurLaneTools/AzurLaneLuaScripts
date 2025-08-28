@@ -12447,6 +12447,36 @@ _G.pg.base.gametip.resource_clear_all = {
 }
 
 
+_G.pg.base.gametip.resource_clear_manga = {
+	tip = "1コマアセットを削除しますか？\n データサイズ：$1\n （削除後に1コマを確認する場合はアセットを改めてダウンロード必要があります）"
+}
+
+
+_G.pg.base.gametip.resource_clear_gallery = {
+	tip = "スチル鑑賞アセットを削除しますか？\n データサイズ：$1\n （削除後にスチルを確認する場合はアセットを改めてダウンロード必要があります）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3ddorm = {
+	tip = "交流アセットを削除しますか？\n データサイズ：$1\n （削除後に交流宿舎を確認する場合はアセットを改めてダウンロード必要があります）"
+}
+
+
+_G.pg.base.gametip.resource_clear_tbchild = {
+	tip = "TB育成アセットを削除しますか？\n データサイズ：$1\n （削除後にTB育成を確認する場合はアセットを改めてダウンロード必要があります）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3disland = {
+	tip = "離島経営アセットを削除しますか？\n データサイズ：$1\n （削除後に離島経営を確認する場合はアセットを改めてダウンロード必要があります）"
+}
+
+
+_G.pg.base.gametip.resource_clear_generaltext = {
+	tip = "アセット削除"
+}
+
+
 _G.pg.base.gametip.acl_oil_count = {
 	tip = "目標消費"
 }
@@ -23981,6 +24011,26 @@ _G.pg.base.gametip.Settings_title_sound = {
 
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "アセッ卜"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage = {
+	tip = "アセット管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_All = {
+	tip = "フルアセット更新"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Main = {
+	tip = "メインアセット管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Sub = {
+	tip = "追加アセット管理"
 }
 
 
@@ -36561,6 +36611,11 @@ _G.pg.base.gametip.cruise_title_2508 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2406 = {
+	tip = "シーズン任務・17期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "今期残り時間："
 }
@@ -40685,4 +40740,109 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 _G.pg.base.gametip.shop_filter_retro = {
 	tip = "復刻"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_opengl = {
+	tip = "一部の環境ではレンダリング互換性モードをOFFにすると、特定の状況下で画面が黒くなる場合があります。レンダリング互換性モードの設定を切り替えると、ゲームを再度起動する必要があります。レンダリング互換性モードを切り替えますか？"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_vulkan = {
+	tip = "レンダリング互換性モードはAR機能の利用が制限されます。レンダリング互換性モードの設定を切り替えると、ゲームを再度起動する必要があります。レンダリング互換性モードを切り替えますか？"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+	tip = "滑り台"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+	tip = "配置中艦船"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+	tip = "滑り台"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+	tip = "遊具選択"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+	tip = "滑り台配置"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+	tip = "配置中人数"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
+	tip = "滑り台"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag_7 = {
+	tip = "滑り台演出を開放（対応キャラを共有エリア「ビーチ」に配置する必要があります）"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+	tip = "全局画质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+	tip = "极高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+	tip = "辉光强度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
+	tip = "关"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_flare = {
+	tip = "光晕"
 }

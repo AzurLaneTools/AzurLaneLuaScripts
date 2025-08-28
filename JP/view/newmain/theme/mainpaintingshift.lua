@@ -21,4 +21,12 @@ slot0.GetSpineShift = function(slot0)
 	return slot0.spineShift, slot0.spineScale
 end
 
+slot0.IsLimitYPos = function(slot0)
+	return slot0 == "biaoqiang" or slot0 == "z23" or slot0 == "lafei" or slot0 == "lingbo" or slot0 == "mingshi" or slot0 == "xuefeng"
+end
+
+slot0.GetHalfBodyOffsetY = function(slot0, slot1)
+	return slot0.rect.height * -0.5 + 325 * slot1.localScale.y
+end
+
 return slot0

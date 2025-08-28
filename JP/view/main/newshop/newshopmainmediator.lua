@@ -340,9 +340,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		if slot3.awards and #slot3.awards > 0 then
 			slot0.viewComponent:unBlurView()
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.awards
-			})
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end
 
 		slot6 = slot3.normalGroupList

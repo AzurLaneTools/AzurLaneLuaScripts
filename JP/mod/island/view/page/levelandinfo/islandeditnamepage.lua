@@ -10,9 +10,13 @@ slot0.OnLoaded = function(slot0)
 	slot0.confirmBtn = slot0:findTF("frame/confirm")
 	slot0.content = slot0:findTF("frame/Text")
 
-	setText(slot0:findTF("frame/title"), i18n1("岛屿名称修改"))
-	setText(slot0:findTF("frame/confirm/Text"), i18n1("确定"))
-	setText(slot0:findTF("frame/name/InputField/Placeholder"), i18n1("点击输入名称"))
+	setText(slot0:findTF("frame/title"), i18n("island_rename_title"))
+	setText(slot0:findTF("frame/confirm/Text"), i18n("word_ok"))
+	setText(slot0:findTF("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
+
+	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
+	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot0.isPlayingAnimation = false
 end
 
 slot0.AddListeners = function(slot0)
@@ -46,6 +50,7 @@ end
 slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
+	slot0.isPlayingAnimation = false
 	slot0.callback = slot1
 
 	slot0:UpdateContent()
@@ -55,8 +60,28 @@ slot0.Show = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	if slot0.isPlayingAnimation then
+		return
+	end
+
+	slot0:PlayExitAniamtion(function ()
+		uv0.isPlayingAnimation = false
+
+		uv0.aniDft:SetEndEvent(nil)
+		uv1.super.Hide(uv0)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
+	end)
+end
+
+slot0.PlayExitAniamtion = function(slot0, slot1)
+	slot0.isPlayingAnimation = true
+
+	slot0.aniDft:SetEndEvent(function ()
+		if uv0 then
+			uv0()
+		end
+	end)
+	slot0.animator:Play("anim_IslandEditNameUI_Out")
 end
 
 slot0.UpdateContent = function(slot0)
@@ -69,11 +94,13 @@ slot0.UpdateContent = function(slot0)
 		count = slot2[3]
 	})
 
-	setText(slot0.content, i18n1("名称最长为9个汉字，更名需要消耗") .. slot3:getName() .. setColorStr(slot5 .. "/" .. slot3.count, slot3:getOwnedCount() < slot3.count and "#f36c6e" or "#39bfff"))
+	setText(slot0.content, i18n("island_rename_consutme_tip", slot3:getName() .. setColorStr(slot5 .. "/" .. slot3.count, slot3:getOwnedCount() < slot3.count and "#f36c6e" or "#39bfff")))
 end
 
 slot0.OnDestroy = function(slot0)
 	slot0.callback = nil
+
+	slot0.aniDft:SetEndEvent(nil)
 end
 
 return slot0

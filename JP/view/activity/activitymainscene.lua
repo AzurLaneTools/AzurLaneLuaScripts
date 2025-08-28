@@ -40,14 +40,23 @@ end
 slot1 = nil
 
 slot0.init = function(slot0)
-	slot0.btnBack = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot0.pageContainer = slot0:findTF("pages")
-	slot0.permanentFinshMask = slot0:findTF("pages_finish")
-	slot0.tabs = slot0:findTF("scroll/viewport/content")
-	slot0.tab = slot0:findTF("tab", slot0.tabs)
-	slot0.entranceList = UIItemList.New(slot0:findTF("enter/viewport/content"), slot0:findTF("enter/viewport/content/btn"))
+	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
+
+	for slot5, slot6 in ipairs({
+		"btnBack",
+		"pageContainer",
+		"permanentFinshMask",
+		"tabs",
+		"tab",
+		"entranceContent",
+		"entranceTpl",
+		"lockAll"
+	}) do
+		slot0[slot6] = slot1[slot5].transform
+	end
+
+	slot0.entranceList = UIItemList.New(slot0.entranceContent, slot0.entranceTpl)
 	slot0.windowList = {}
-	slot0.lockAll = slot0:findTF("blur_panel/lock_all")
 	slot0.awardWindow = AwardWindow.New(slot0._tf, slot0.event)
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
@@ -55,20 +64,20 @@ slot0.init = function(slot0)
 	setActive(slot0.lockAll, false)
 	setActive(slot0.permanentFinshMask, false)
 
-	slot2 = slot0.permanentFinshMask
-
-	setText(slot2:Find("piece/Text"), i18n("activity_permanent_tips2"))
-
 	slot3 = slot0.permanentFinshMask
 
-	onButton(slot0, slot3:Find("piece/arrow/Image"), function ()
+	setText(slot3:Find("piece/Text"), i18n("activity_permanent_tips2"))
+
+	slot4 = slot0.permanentFinshMask
+
+	onButton(slot0, slot4:Find("piece/arrow/Image"), function ()
 		uv0:emit(ActivityMediator.FINISH_ACTIVITY_PERMANENT)
 	end, SFX_PANEL)
 
 	slot0.tabsList = UIItemList.New(slot0.tabs, slot0.tab)
-	slot1 = slot0.tabsList
+	slot2 = slot0.tabsList
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			if uv0.pageDic[uv0.activities[slot1 + 1].id] ~= nil then
 				if slot3:getConfig("title_res_tag") then
@@ -111,6 +120,7 @@ slot0.didEnter = function(slot0)
 	end, SOUND_BACK)
 	slot0:updateEntrances()
 	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
+	pg.CameraFixMgr.GetInstance():Adapt()
 end
 
 slot0.setPlayer = function(slot0, slot1)

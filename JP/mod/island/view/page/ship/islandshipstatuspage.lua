@@ -17,10 +17,10 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.giveBtn = slot0:findTF("adapt/attr_panel/send_panel/give_btn")
 	slot0.emptyTr = slot0:findTF("adapt/attr_panel/send_panel/empty")
-	slot0.giftEffectList = UIItemList.New(slot0:findTF("adapt/attr_panel/send_panel/list"), slot0:findTF("adapt/attr_panel/send_panel/list/tpl"))
-	slot0.statusPanel = IslandShipStatusPanel.New(slot0:findTF("adapt/attr_panel/status"))
+	slot0.giftEffectList = UIItemList.New(slot0:findTF("adapt/attr_panel/send_panel/scrollrect/list"), slot0:findTF("adapt/attr_panel/send_panel/scrollrect/list/tpl"))
+	slot0.statusPanel = IslandShipStatusPanel.New(slot0:findTF("adapt/attr_panel/status"), slot0:findTF("adapt/attr_panel/status_empty"))
 
-	setText(slot0.emptyTr:Find("Text"), i18n1("点击选择赠送的礼物"))
+	setText(slot0.emptyTr:Find("Text"), i18n("island_select_ship_gift"))
 end
 
 slot0.OnInit = function(slot0)
@@ -31,46 +31,32 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		slot0 = "island_energy_overflow" .. getProxy(PlayerProxy):getRawData().id
+		slot0 = {}
 
-		if uv0:IsOverflowEnergy(uv0.shipId, uv0.selectedId) and uv0:ShouldTip(slot0) then
-			uv0:ShowMsgBox({
-				type = IslandMsgBox.TYPE_REMIND,
-				content = i18n1("赠送该礼物后角色的体力会超上限，超出的\n部分将会消失,是否确定赠送？"),
-				key = slot0,
-				onYes = function ()
-					uv0:emit(IslandMediator.ON_GIVE_GIFT, uv0.selectedId, 1, uv0.shipId)
-				end
-			})
-		else
-			uv0:emit(IslandMediator.ON_GIVE_GIFT, uv0.selectedId, 1, uv0.shipId)
+		for slot5, slot6 in ipairs(uv0:CollectGiftBuffs(uv0.selectedId)) do
+			table.insert(slot0, function (slot0)
+				IslandAddShipStatusHelper.CheckAddStatus(uv0, uv0.ship, uv1, slot0)
+			end)
 		end
+
+		seriesAsync(slot0, function ()
+			print("??????????????")
+			uv0:emit(IslandMediator.ON_GIVE_GIFT, uv0.selectedId, 1, uv0.shipId)
+		end)
 	end, SFX_PANEL)
 end
 
-slot0.ShouldTip = function(slot0, slot1)
-	if PlayerPrefs.GetInt(slot1, 0) == 0 then
-		return true
-	end
-
-	return slot2 <= pg.TimeMgr.GetInstance():GetServerTime()
-end
-
-slot0.IsOverflowEnergy = function(slot0, slot1, slot2)
-	slot3 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1)
-
-	return slot3:GetMaxEnergy() < slot3:GetEnergy() + tonumber(IslandItem.StaticGetUsageArg(slot2))
-end
-
 slot0.AddListeners = function(slot0)
-	slot0:AddListener(GAME.ISLAND_USE_ITEM_DONE, slot0.OnUseItem)
+	slot0:AddListener(GAME.ISLAND_GIVE_GIFT_DONE, slot0.OnUseItem)
 end
 
 slot0.RemoveListeners = function(slot0)
-	slot0:RemoveListener(GAME.ISLAND_USE_ITEM_DONE, slot0.OnUseItem)
+	slot0:RemoveListener(GAME.ISLAND_GIVE_GIFT_DONE, slot0.OnUseItem)
 end
 
 slot0.OnUseItem = function(slot0)
+	slot0.selectedId = nil
+
 	slot0:FlushStatus(slot0.ship)
 	slot0:FlushGifts()
 end
@@ -78,7 +64,7 @@ end
 slot0.OnShow = function(slot0, slot1)
 	slot0.selectedId = nil
 
-	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(slot1) == nil then
+	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1) == nil then
 		return
 	end
 
@@ -95,13 +81,13 @@ slot0.FlushStatus = function(slot0, slot1)
 
 	slot2:Flush(slot1)
 
-	slot2 = slot1:GetValidStatus()
+	slot2 = slot1:GetDisplayStatus()
 
 	onButton(slot0, slot0.statusPanel.viewBtn, function ()
 		uv0:ShowMsgBox({
 			hideNo = true,
-			type = IslandMsgBox.TYPE_STATUS,
-			title = i18n1("详情"),
+			type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
+			title = i18n("island_word_ship_buff_desc"),
 			statusList = uv1
 		})
 	end, SFX_PANEL)
@@ -113,8 +99,8 @@ slot0.OnInitItem = function(slot0, slot1)
 	onButton(slot0, slot2.go, function ()
 		if uv0.item:GetCount() <= 0 then
 			uv1:ShowMsgBox({
-				title = i18n1("详情"),
-				type = IslandMsgBox.TYPE_ITEM_DESC,
+				title = i18n("island_word_ship_buff_desc"),
+				type = IslandMsgBox.TYPE_COMMON_ITEM,
 				itemId = uv0.item.id
 			})
 
@@ -173,11 +159,33 @@ slot0.UpdateSelected = function(slot0, slot1)
 	end
 end
 
-slot0.CollectGiftEffect = function(slot0, slot1)
-	table.insert({}, i18n1("角色体力+" .. IslandItem.StaticGetUsageArg(slot1)))
+slot0.CollectGiftBuffs = function(slot0, slot1)
+	slot2 = {}
+	slot3 = IslandItem.StaticGetUsageArg(slot1)
+	slot4 = slot0.ship:IsFavoriteGift(slot1) and IslandConst.GIFT_INDEX_FAVORITE or IslandConst.GIFT_INDEX_COMMON
 
-	if table.contains(slot0.ship:GetFavoriteGift(), slot1) then
-		table.insert(slot2, pg.island_ship_state[IslandShip.StaticGetGiftStatue()].desc)
+	for slot8, slot9 in ipairs(slot3) do
+		if slot4 == slot8 then
+			for slot14, slot15 in ipairs(slot9[2]) do
+				table.insert(slot2, slot15)
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.CollectGiftEffect = function(slot0, slot1)
+	slot2 = {}
+	slot3 = IslandItem.StaticGetUsageArg(slot1)
+	slot4 = IslandConst.GIFT_INDEX_COMMON
+
+	if (slot0.ship:IsFavoriteGift(slot1) and slot3[IslandConst.GIFT_INDEX_FAVORITE] or slot3[slot4])[slot4] > 0 then
+		table.insert(slot2, i18n("island_word_ship_enengy_recover") .. slot6[slot4])
+	end
+
+	for slot10, slot11 in ipairs(slot6[2]) do
+		table.insert(slot2, pg.island_buff_template[slot11].buff_desc)
 	end
 
 	return slot2

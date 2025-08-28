@@ -2,11 +2,12 @@ slot0 = class("IslandItem", import("model.vo.BaseVO"))
 slot0.TYPE_MATERIAL = 1
 slot0.TYPE_PROP = 2
 slot0.TYPE_SPECIAL_PROP = 3
+slot0.TYPE_SHIP_EXP_BOOK = 5
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
-	slot0.count = slot1.num or 1
+	slot0.count = slot1.num or slot1.number or slot1.count or 1
 	slot0.time = slot1.time or 0
 end
 
@@ -83,7 +84,7 @@ slot0.IsMaterial = function(slot0)
 end
 
 slot0.IsProp = function(slot0)
-	return slot0:GetType() == uv0.TYPE_PROP
+	return slot0:GetType() == uv0.TYPE_PROP or slot0:GetType() == uv0.TYPE_SHIP_EXP_BOOK
 end
 
 slot0.IsSpecialProp = function(slot0)
@@ -98,16 +99,12 @@ slot0.GetMaterialFacility = function(slot0)
 	return ""
 end
 
-slot0.CanSell = function(slot0)
-	return slot0:getConfig("price") > 0
+slot0.CanConvert = function(slot0)
+	return slot0:getConfig("convert") == 1
 end
 
-slot0.GetSellingPrice = function(slot0)
-	return Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = slot0:getConfig("resource_type"),
-		count = slot0:getConfig("price")
-	})
+slot0.GetConvertPt = function(slot0)
+	return slot0:getConfig("pt_num")
 end
 
 slot0.StaticGetMapUsageList = function(slot0)
@@ -130,6 +127,10 @@ slot0.GetAcquiringWay = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.GetUseArg = function(slot0)
+	return uv0.StaticGetUsageArg(slot0.configId)
 end
 
 return slot0

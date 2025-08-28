@@ -20,6 +20,21 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.Loading = slot0._tf:Find("loading")
 
 	setText(slot0._tf:Find("title"), i18n("repair_setting_label"))
+
+	slot2 = false
+
+	setActive(slot0._tf:Find("BG"), not slot2)
+	setActive(slot0._tf:Find("BGDel"), slot2)
+	setAnchoredPosition(slot0._tf:Find("status"), slot2 and {
+		y = -106
+	} or {
+		y = -135
+	})
+	setAnchoredPosition(slot0._tf:Find("version"), slot2 and {
+		y = -160
+	} or {
+		y = -198
+	})
 	slot0:Init()
 end
 
@@ -28,6 +43,7 @@ slot0.Init = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		pg.RepairResMgr.GetInstance():Repair()
 	end, SFX_PANEL)
+	setActive(findTF(slot0._tf, "DelBtn"), false)
 end
 
 slot0.UpdateRepairStatus = function(slot0)

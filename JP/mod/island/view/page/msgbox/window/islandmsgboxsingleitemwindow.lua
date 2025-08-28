@@ -12,7 +12,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.ownTxt = slot0:findTF("own"):GetComponent(typeof(Text))
 	slot0.uiItemList = UIItemList.New(slot0:findTF("list"), slot0:findTF("list/tpl"))
 
-	setText(slot0:findTF("label/Text"), i18n1("获取途径"))
+	setText(slot0:findTF("label/Text"), i18n("island_get_way"))
 end
 
 slot0.OnShow = function(slot0)
@@ -28,9 +28,9 @@ slot0.FlushMain = function(slot0, slot1)
 	slot2 = pg.island_item_data_template[slot1]
 	slot0.nameTxt.text = slot2.name
 	slot0.contentTxt.text = slot2.desc
-	slot0.ownTxt.text = i18n1("已拥有:") .. setColorStr(getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(slot1), "#39beff")
+	slot0.ownTxt.text = i18n("island_own_cnt") .. setColorStr(getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(slot1), "#39beff")
 
-	updateDrop(slot0.itemTr, Drop.New({
+	updateCustomDrop(slot0.itemTr, Drop.New({
 		count = 0,
 		type = DROP_TYPE_ISLAND_ITEM,
 		id = slot1
@@ -41,9 +41,9 @@ slot0.FlushAcquiringWay = function(slot0, slot1)
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("Text"), uv0[slot1 + 1][1])
-			setText(slot2:Find("go/Text"), i18n1("前往"))
+			setText(slot2:Find("go/Text"), i18n("island_word_go"))
 			onButton(uv1, slot2:Find("go"), function ()
-				uv0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, uv1[2])
+				uv0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, uv1[2][1], uv1[2][2])
 				uv0:Hide()
 			end, SFX_PANEL)
 		end

@@ -1,63 +1,91 @@
 slot0 = class("IslandNpcUnit", import(".IslandNavigableUnit"))
+slot1 = {
+	JumpHandle = 1,
+	LoadToolHandle = 2
+}
 
-slot0.OnInit = function(slot0)
-	slot0._tf = slot0._go.transform
-	slot0.degreeSpeedDamping = 10
-	slot0.targetSpeed = 0
-	slot0.speed = 0
-	slot0.speedDamping = 1
-	slot0.walkingMaxSpeed = 1.5
-	slot0.runMaxSpeed = 5
-	slot0.targetPosition = Vector3.zero
-	slot0.velocity = Vector3.zero
-	slot0.extraVelocity = Vector3.zero
-	slot0.animator = slot0._go:GetComponent(typeof(Animator))
-	slot0.characterController = slot0._go:GetComponent(typeof(UnityEngine.CharacterController))
+slot0.OnAttach = function(slot0, slot1)
+	uv0.super.OnAttach(slot0, slot1)
+
+	slot2 = slot0._go
+	slot0.characterHandleController = slot2:GetComponent(typeof(CharacterHandleController))
+	slot2 = slot0.characterHandleController
+
+	slot2:AddStateEnterFunc(function (slot0, slot1)
+		uv0:StateEnterHandle(slot0, slot1)
+	end)
+
+	slot2 = slot0.characterHandleController
+
+	slot2:AddStateExitFunc(function (slot0, slot1)
+		uv0:StateExitHandle(slot0, slot1)
+	end)
+
+	slot2 = slot0.characterHandleController
+
+	slot2:AddStateEnterFixCompleteFunc(function (slot0, slot1)
+		uv0:StateEnterFixHandle(slot0, slot1)
+	end)
+
+	slot2 = slot0.characterHandleController
+
+	slot2:AddStateExitFixCompleteFunc(function (slot0, slot1)
+		uv0:StateExitFixHandle(slot0, slot1)
+	end)
+
+	slot0.objTfList = {}
 end
 
-slot0.SetDestination = function(slot0, slot1, slot2)
-	slot0:SetNavAgentDestination(slot1)
-
-	slot0.targetSpeed = Mathf.Clamp(slot2 or 0, slot0.walkingMaxSpeed, slot0.runMaxSpeed)
-	slot0.targetPosition = slot1
+slot0.StateEnterHandle = function(slot0, slot1, slot2)
+	if slot1 == uv0.LoadToolHandle then
+		slot0:LoadInteractiveTool(slot2)
+	end
 end
 
-slot0.StopMove = function(slot0)
-	slot0:StopNavAgent()
-
-	slot0.targetSpeed = 0
-	slot0.targetPosition = Vector3.zero
-
-	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
+slot0.StateEnterFixHandle = function(slot0, slot1, slot2)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Default)
 end
 
-slot0.OnUpdate = function(slot0)
-	slot0.speed = Mathf.Lerp(slot0.speed, slot0.targetSpeed, slot0.speedDamping)
-
-	slot0:SetNavAgentSpeed(slot0.speed * 0.5)
-	slot0:Move()
-	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, slot0.speed)
-
-	slot0.velocity = slot0:GetNavAgentVelocity()
+slot0.StateExitFixHandle = function(slot0, slot1, slot2)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
 end
 
-slot0.Move = function(slot0)
-	if (slot0:GetDesiredVelocity() + slot0.extraVelocity).magnitude <= 0 or slot1.normalized == Vector3.zero then
+slot0.StateExitHandle = function(slot0, slot1, slot2)
+	if slot1 == uv0.LoadToolHandle then
+		slot0:UnLoadInteractiveTool()
+	end
+end
+
+slot0.LoadInteractiveTool = function(slot0, slot1)
+	if slot1 ~= 0 then
+		slot0.toolId = slot1
+	end
+
+	if slot0.objTfList[slot0.toolId] then
+		setActive(slot2, true)
+		setParent(slot2, slot0._tf)
+		pg.ViewUtils.SetLayer(slot2, Layer.UIHidden)
+
 		return
 	end
 
-	slot0._tf.rotation = Quaternion.Slerp(slot0._tf.rotation, Quaternion.LookRotation(slot1.normalized), Time.deltaTime * slot0.degreeSpeedDamping)
-	slot3 = Vector3.up * IslandConst.GRAVITY
+	slot4 = pg.island_animation_attachments[slot0.toolId].model
 
-	if Physics.CheckSphere(slot0._tf.position + Vector3.up * (slot0.characterController.radius - slot0.characterController.skinWidth), slot0.characterController.radius, LayerMask.GetMask("Ground")) then
-		slot3 = Vector3.zero
+	if (slot0.toolId == pg.island_set.island_manage_animation_extroversion.key_value_int or slot0.toolId == pg.island_set.island_manage_animation_introverted.key_value_int) and slot0.behaviourTreeOwner.graph.blackboard:GetVariable("systemId").value ~= 0 then
+		slot4 = pg.island_manage_restaurant[slot5].performance_param
 	end
 
-	slot0.characterController:Move(slot1.normalized * slot0:GetNavAgentSpeed() * Time.deltaTime + slot3 * Time.deltaTime)
-	slot0:SetNavAgentVelocity(slot0.characterController.velocity)
+	slot0.objTfList[slot0.toolId] = Object.Instantiate(LoadAny(slot4, nil)).transform
+	GetOrAddComponent(slot0.objTfList[slot0.toolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
+
+	setParent(slot0.objTfList[slot0.toolId], slot0._tf)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
 end
 
-slot0.OnDispose = function(slot0)
+slot0.UnLoadInteractiveTool = function(slot0)
+	if slot0.objTfList[slot0.toolId] then
+		setActive(slot0.objTfList[slot0.toolId], false)
+	end
 end
 
 return slot0

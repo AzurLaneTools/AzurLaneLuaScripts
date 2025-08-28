@@ -1,49 +1,38 @@
-slot0 = class("IslandShopItemLayer", import("view.base.BaseSubView"))
-
-slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
-
-	slot0.showType = slot4
-end
+slot0 = class("IslandShopItemLayer", import("...base.IslandBasePage"))
 
 slot0.getUIName = function(slot0)
-	if slot0.showType == IslandConst.COMMODITY_SHOW_ITEM_FULL then
-		return "IslandShopItemFullUI"
-	else
-		return "IslandShopItemHalfUI"
-	end
+	return "IslandShopItemUI"
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.topItem = slot0:findTF("item/panel_bg")
-	slot0.icon = slot0:findTF("icon", slot0.topItem)
-	slot0.name = slot0:findTF("display_panel/name_container/name/Text", slot0.topItem)
-	slot0.desc = slot0:findTF("display_panel/desc/Text", slot0.topItem)
-	slot0.count = slot0:findTF("count/number_panel/value")
-	slot0.leftBtn = slot0:findTF("count/number_panel/left")
-	slot0.rightBtn = slot0:findTF("count/number_panel/right")
-	slot0.maxBtn = slot0:findTF("count/max")
-	slot0.bottomItemList = UIItemList.New(slot0:findTF("got/panel_bg/list"), slot0:findTF("got/panel_bg/list/item"))
-	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
-	slot0.confirmBtn = slot0:findTF("actions/confirm_button")
-	slot0.consumeIcon = slot0:findTF("consumeIcon", slot0.confirmBtn)
-	slot0.consumeCount = slot0:findTF("consumeCount", slot0.confirmBtn)
-
-	setText(slot0:findTF("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
-	setText(slot0:findTF("count/image_text"), i18n("shops_msgbox_exchange_count"))
-	setText(slot0:findTF("actions/cancel_button/label"), i18n("shop_word_cancel"))
-	setText(slot0:findTF("actions/confirm_button/label"), i18n("shop_word_exchange"))
+	slot0.panel = slot0:findTF("panel")
+	slot0.closeBtn = slot0:findTF("closeBtn", slot0.panel)
+	slot0.icon = slot0:findTF("icon", slot0.panel)
+	slot0.discount = slot0:findTF("discount", slot0.panel)
+	slot0.remainTimer = slot0:findTF("remainTimer", slot0.panel)
+	slot0.name = slot0:findTF("name", slot0.panel)
+	slot0.desc = slot0:findTF("desc", slot0.panel)
+	slot0.buyDesc = slot0:findTF("buyDesc", slot0.panel)
+	slot0.count = slot0:findTF("count/number_panel/value", slot0.panel)
+	slot0.leftBtn = slot0:findTF("count/left", slot0.panel)
+	slot0.rightBtn = slot0:findTF("count/right", slot0.panel)
+	slot0.minBtn = slot0:findTF("count/min", slot0.panel)
+	slot0.maxBtn = slot0:findTF("count/max", slot0.panel)
+	slot0.bottomItemList = UIItemList.New(slot0:findTF("itemList/Viewport/Content", slot0.panel), slot0:findTF("itemList/Viewport/Content/IslandItemTpl", slot0.panel))
+	slot0.buyBtn = slot0:findTF("buyBtn", slot0.panel)
+	slot0.consumeIcon = slot0:findTF("consume/icon", slot0.buyBtn)
+	slot0.consumeCount = slot0:findTF("consume/count", slot0.buyBtn)
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0.cancelBtn, function ()
-		uv0:Close()
+	onButton(slot0, slot0.closeBtn, function ()
+		uv0:Hide()
 	end, SFX_PANEL)
 
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("bg"), function ()
-		uv0:Close()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 
@@ -51,14 +40,36 @@ slot0.SetUp = function(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync(slot2:GetIcon(), "", slot0.icon)
 	setText(slot0.name, slot2:GetName())
 	setText(slot0.desc, slot2:GetDescription())
+	setActive(slot0.discount, slot2:GetDiscount() ~= 0)
+	setText(slot0.discount:Find("Text"), "-" .. slot2:GetDiscount() .. "%")
+	setActive(slot0.remainTimer, slot2:IsTimeLimitCommodity())
 
-	slot3 = slot2:GetMaxNum() - slot2.purchasedNum
+	if false then
+		slot5 = slot2:getConfig("time")[1]
 
-	if slot2:GetMaxNum() == 0 then
-		slot3 = 99
+		setText(slot0.remainTimer:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():Table2ServerTime({
+			year = slot5[1][1],
+			month = slot5[1][2],
+			day = slot5[1][3],
+			hour = slot5[2][1],
+			min = slot5[2][2],
+			sec = slot5[2][3]
+		}) - pg.TimeMgr.GetInstance():GetServerTime()))
 	end
 
-	slot5 = slot2:GetResourceConsume()
+	slot4 = "购买数量"
+
+	if slot2:GetMaxNum() ~= 0 then
+		slot4 = slot4 .. "（剩余：" .. slot2:GetMaxNum() - slot2.purchasedNum .. "）"
+	end
+
+	setText(slot0.buyDesc, slot4)
+
+	slot5 = slot2:GetMaxNum() - slot2.purchasedNum
+
+	if slot2:GetMaxNum() == 0 then
+		slot5 = 999
+	end
 
 	onButton(slot0, slot0.leftBtn, function ()
 		uv0(uv1.curCount - 1)
@@ -66,30 +77,32 @@ slot0.SetUp = function(slot0, slot1, slot2)
 	onButton(slot0, slot0.rightBtn, function ()
 		uv0(uv1.curCount + 1)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.minBtn, function ()
+		uv0(1)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
 		uv0(uv1)
 	end, SFX_PANEL)
 
 	slot0.itemsCountTFs = {}
-	slot7 = slot0.bottomItemList
+	slot9 = slot0.bottomItemList
 
-	slot7:make(function (slot0, slot1, slot2)
+	slot9:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			updateDrop(slot2:Find("IslandItemTpl"), {
+			updateCustomDrop(slot2, {
 				type = slot3[1],
 				id = slot3[2],
 				count = slot3[3]
 			})
-			setText(slot2:Find("name"), pg.island_item_data_template[slot3[2]].name)
-			table.insert(uv1.itemsCountTFs, slot2:Find("icon_bg/count"))
+			table.insert(uv1.itemsCountTFs, slot2:Find("icon_bg/count_bg/count"))
 		end
 	end)
 
-	slot7 = slot0.bottomItemList
+	slot9 = slot0.bottomItemList
 
-	slot7:align(#slot2:GetItems())
+	slot9:align(#slot2:GetItemsWithPt())
 	(function (slot0)
 		slot0 = math.min(math.max(slot0, 1), uv0)
 		uv1.curCount = slot0
@@ -103,32 +116,46 @@ slot0.SetUp = function(slot0, slot1, slot2)
 		setText(uv1.consumeCount, math.ceil((100 - uv3:GetDiscount()) / 100 * uv4[3]) * uv1.curCount)
 	end)(1)
 
-	slot8 = Drop.New({
-		type = slot5[1],
-		id = slot5[2]
-	})
+	if slot2:GetResourceConsume()[1] == DROP_TYPE_RESOURCE then
+		GetImageSpriteFromAtlasAsync(Drop.New({
+			type = slot7[1],
+			id = slot7[2]
+		}):getIcon(), "", slot0.consumeIcon)
+	elseif slot7[1] == DROP_TYPE_ISLAND_ITEM then
+		GetImageSpriteFromAtlasAsync(Drop.New({
+			type = slot7[1],
+			id = slot7[2]
+		}):getIcon(), "", slot0.consumeIcon)
+	end
 
-	GetImageSpriteFromAtlasAsync(slot8:getIcon(), "", slot0.consumeIcon)
-	onButton(slot0, slot0.confirmBtn, function ()
-		uv0:emit(IslandMediator.BUY_COMMODITY, uv1, uv2.id, uv0.curCount)
+	onButton(slot0, slot0.buyBtn, function ()
+		uv2:emit(IslandMediator.BUY_COMMODITY, {
+			{
+				key = uv0,
+				value1 = uv1.id,
+				value2 = uv2.curCount
+			}
+		})
 	end, SFX_PANEL)
 end
 
-slot0.Open = function(slot0, slot1, slot2)
-	slot0.opening = true
+slot0.OnShow = function(slot0, slot1, slot2)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		groupName = "IslandShop"
+	})
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot0.shopId = slot1
+	slot0.commodity = slot2
+
 	slot0:SetUp(slot1, slot2)
-	slot0:Show()
 end
 
-slot0.Close = function(slot0)
-	if slot0.opening then
-		slot0.opening = false
+slot0.Refresh = function(slot0)
+	slot0:SetUp(slot0.shopId, slot0.commodity)
+end
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
-		slot0:Hide()
-	end
+slot0.OnHide = function(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

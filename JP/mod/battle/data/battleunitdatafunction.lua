@@ -308,12 +308,12 @@ slot33.CreateWeaponUnit = function(slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv2.Battle.BattleRepeaterAntiAirUnit.New()
 	elseif slot8 == uv1.EquipmentType.DISPOSABLE_TORPEDO then
 		slot6 = uv2.Battle.BattleDisposableTorpedoUnit.New()
-	elseif slot8 == uv1.EquipmentType.MANUAL_AAMISSILE then
-		slot6 = uv2.Battle.BattleManualAAMissileUnit.New()
 	elseif slot8 == uv1.EquipmentType.SPACE_LASER then
 		slot6 = uv2.Battle.BattleSpaceLaserWeaponUnit.New()
 	elseif slot8 == uv1.EquipmentType.MISSILE then
 		slot6 = uv2.Battle.BattleMissileWeaponUnit.New()
+	elseif slot8 == uv1.EquipmentType.MANUAL_AAMISSILE then
+		slot6 = uv2.Battle.BattleManualAAMissileUnit.New()
 	elseif slot8 == uv1.EquipmentType.AUTO_MISSILE then
 		slot6 = uv2.Battle.BattleAutoMissileUnit.New()
 	end

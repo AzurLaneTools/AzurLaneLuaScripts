@@ -21,7 +21,7 @@ return {
 						{
 							sceneRoot = "Ankeleiqi_DB/Anchoragehostel",
 							name = "Qihe_zhuomicang",
-							scene = "map_anchoragehostel_02",
+							scene = "map_anchoragehostel_01",
 							type = "timeline",
 							skip = false,
 							options = {

@@ -194,22 +194,20 @@ slot0.AdjustPositionWithAnim = function(slot0, slot1)
 	LeanTween.cancel(go(slot0._bgTf))
 
 	slot2 = slot0:GetPositionAndScale(slot1)
-	slot3 = LeanTween.moveLocal(go(slot0._tf), slot2, 0.3)
 
-	slot3:setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(slot0._tf), slot2, 0.3):setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(slot0._bgTf), slot2, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	slot3 = LeanTween.moveLocal(go(slot0._bgTf), slot2, 0.3)
+	slot3, slot4 = slot0.shift:GetSpineShift()
 
-	slot3:setEase(LeanTweenType.easeInOutExpo)
+	LeanTween.moveLocal(go(slot0.spineContainer), slot3, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	slot3 = slot0.shift
-	slot3, slot4 = slot3:GetL2dShift()
-	slot5 = LeanTween.moveLocal(go(slot0.spineContainer), slot3, 0.3)
+	slot5, slot6 = slot0.shift:GetL2dShift()
 
-	slot5:setEase(LeanTweenType.easeInOutExpo)
+	if slot0.painting:IslimitYPos() then
+		slot5.y = slot0.painting:GetHalfBodyOffsetY()
+	end
 
-	slot5 = slot0.shift
-	slot5, slot6 = slot5:GetSpineShift()
 	slot7 = LeanTween.moveLocal(go(slot0.l2dContainer), slot5, 0.3)
 	slot7 = slot7:setEase(LeanTweenType.easeInOutExpo)
 
@@ -222,7 +220,13 @@ slot0.AdjustPosition = function(slot0, slot1)
 	slot2, slot3 = slot0:GetPositionAndScale(slot1)
 	slot0._tf.anchoredPosition = slot2
 	slot0._bgTf.anchoredPosition = slot2
-	slot0.l2dContainer.anchoredPosition, slot5 = slot0.shift:GetL2dShift()
+	slot4, slot5 = slot0.shift:GetL2dShift()
+
+	if slot0.painting:IslimitYPos() then
+		slot4.y = slot0.painting:GetHalfBodyOffsetY()
+	end
+
+	slot0.l2dContainer.anchoredPosition = slot4
 	slot0.spineContainer.anchoredPosition, slot7 = slot0.shift:GetSpineShift()
 	slot8, slot9, slot10 = getProxy(SettingsProxy):getSkinPosSetting(slot1)
 
@@ -362,7 +366,8 @@ slot0.EnableDragAndZoom = function(slot0)
 		end
 
 		slot2 = uv1.Screen2Local(uv2.transform.parent, slot1.position)
-		uv3._tf.localPosition = uv3.painting:IslimitYPos() and Vector3(slot2.x, uv2.transform.localPosition.y, 0) + Vector3(uv4.x, 0, 0) or Vector3(slot2.x, slot2.y, 0) + uv4
+		slot3 = nil
+		uv3._tf.localPosition = uv3.painting:IslimitYPos() and Vector3(slot2.x, uv3._tf.localPosition.y, 0) + Vector3(uv4.x, 0, 0) or Vector3(slot2.x, slot2.y, 0) + uv4
 		uv3._bgTf.localPosition = uv3.bgOffset + uv3._tf.localPosition
 	end)
 	slot3:AddDragEndFunc(function ()

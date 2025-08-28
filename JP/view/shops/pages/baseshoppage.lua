@@ -78,9 +78,13 @@ slot0.Show = function(slot0)
 
 	slot0.canvasGroup.alpha = 1
 	slot0.canvasGroup.blocksRaycasts = true
+
+	slot0:PlayBGM()
 end
 
 slot0.Hide = function(slot0)
+	slot0:StopBGM()
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end
@@ -273,6 +277,28 @@ slot0.GetBg = function(slot0, slot1)
 end
 
 slot0.OnSetUp = function(slot0)
+end
+
+slot0.getBGM = function(slot0)
+	return nil
+end
+
+slot0.PlayBGM = function(slot0)
+	slot1 = slot0:getBGM()
+	slot2 = pg.voice_bgm[slot1]
+
+	if slot1 and slot2 then
+		pg.BgmMgr.GetInstance():Push(slot1, slot2.bgm)
+	end
+end
+
+slot0.StopBGM = function(slot0)
+	slot1 = slot0:getBGM()
+	slot2 = pg.voice_bgm[slot1]
+
+	if slot1 and slot2 then
+		pg.BgmMgr.GetInstance():Pop(slot1)
+	end
 end
 
 slot0.OnUpdateAll = function(slot0)

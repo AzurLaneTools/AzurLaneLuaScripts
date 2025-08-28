@@ -21,6 +21,10 @@ slot0.Resume = function(slot0)
 	slot0:OnResume()
 end
 
+slot0.DrawGizmosSelected = function(slot0)
+	slot0:OnDrawGizmosSelected()
+end
+
 slot0.EndAction = function(slot0, slot1)
 	if slot0:GetNodeInstance() then
 		slot2:EndAction(defaultValue(slot1, true))
@@ -49,6 +53,9 @@ slot0.OnPause = function(slot0)
 end
 
 slot0.OnResume = function(slot0)
+end
+
+slot0.OnDrawGizmosSelected = function(slot0)
 end
 
 return slot0

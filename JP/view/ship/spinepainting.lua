@@ -62,7 +62,7 @@ slot2 = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
-	UIUtil.SetLayerRecursively(slot0._go, LayerMask.NameToLayer("UI"))
+	HotfixHelper.SetLayerRecursively(slot0._go, LayerMask.NameToLayer("UI"))
 	slot0._tf:SetParent(slot0._spinePaintingData.parent, true)
 
 	slot0._tf.localScale = slot0._spinePaintingData.scale
@@ -114,7 +114,7 @@ slot3 = function(slot0, slot1)
 	slot0._bgEffectGo = slot1
 	slot0._bgEffectTf = tf(slot1)
 
-	UIUtil.SetLayerRecursively(slot0._bgEffectGo, LayerMask.NameToLayer("UI"))
+	HotfixHelper.SetLayerRecursively(slot0._bgEffectGo, LayerMask.NameToLayer("UI"))
 	slot0._bgEffectTf:SetParent(slot0._spinePaintingData.effectParent, true)
 
 	slot0._bgEffectTf.localScale = slot0._spinePaintingData.bgEffectScale

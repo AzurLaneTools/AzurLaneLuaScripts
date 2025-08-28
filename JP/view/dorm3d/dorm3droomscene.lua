@@ -1,4 +1,5 @@
 slot0 = class("Dorm3dRoomScene", import("view.dorm3d.Dorm3dRoomTemplateScene"))
+slot0.NOTIFY_UI_STATE = "Dorm3dRoomScene.NOTIFY_UI_STATE"
 
 slot0.getUIName = function(slot0)
 	return "Dorm3dMainUI"
@@ -116,6 +117,9 @@ slot0.init = function(slot0)
 			return
 		end
 
+		uv0:RemoveExtraSystem({
+			DormConst.EXTRA_SYSTEMS.FurnitureSlide
+		})
 		uv0:emit(Dorm3dRoomMediator.OPEN_FURNITURE_SELECT, {
 			apartment = uv0.apartment
 		})
@@ -645,26 +649,6 @@ slot0.init = function(slot0)
 	slot0.uiStore = {}
 end
 
-slot0.InitExtraSystem = function(slot0, slot1)
-	slot1 = slot1 or {
-		"FurnitureSlide"
-	}
-
-	for slot5, slot6 in ipairs(slot1) do
-		switch(slot6, {
-			FurnitureSlide = function ()
-				if not SlideExtraSystem.IsOpen(uv0.room) then
-					return
-				end
-
-				uv0:emit(Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE, {
-					scene = uv0
-				})
-			end
-		})
-	end
-end
-
 slot0.BindEvent = function(slot0)
 	uv0.super.BindEvent(slot0)
 	slot0:bind(slot0.CLICK_CHARACTER, function (slot0, slot1)
@@ -732,8 +716,6 @@ slot0.BindEvent = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot0:InitExtraSystem()
-
 	slot0.resumeCallback = slot0.contextData.resumeCallback
 	slot0.contextData.resumeCallback = nil
 
@@ -793,6 +775,8 @@ slot0.SetUI = function(slot0, slot1, ...)
 			slot0.uiState = slot6
 		end
 	end
+
+	pg.m02:sendNotification(uv0.NOTIFY_UI_STATE, slot0.uiState)
 
 	slot0.uiStore = {}
 
@@ -897,9 +881,8 @@ slot0.SetInPending = function(slot0, slot1, slot2)
 	slot0:EnableHeadIK(slot1, false)
 
 	slot0.contextData.ladyZone[slot3] = slot4.area
-	slot1.ladyBaseZone = slot0.contextData.ladyZone[slot3]
-	slot1.ladyActiveZone = slot4.welcome_staypoint
 
+	slot1:SetZone(slot0.contextData.ladyZone[slot3], slot4.welcome_staypoint)
 	slot0:ChangeCharacterPosition(slot1)
 
 	if slot4.item_shield ~= "" then
@@ -1333,7 +1316,7 @@ slot0.ExitWalkMode = function(slot0)
 
 	seriesAsync({
 		function (slot0)
-			uv0:ChangeArtScene(uv0.walkLastSceneInfo, slot0)
+			uv0:RevertArtScene(uv0.walkLastSceneInfo, slot0)
 		end,
 		function (slot0)
 			uv0:UnloadSubScene(uv0.walkInfo, slot0)
@@ -1386,6 +1369,8 @@ slot0.DisableMiniGameCutIn = function(slot0)
 end
 
 slot0.SwitchIKConfig = function(slot0, slot1, slot2)
+	warning("switchIkstatus", slot2)
+
 	if pg.dorm3d_ik_status[slot2].skin_id ~= slot1.skinId then
 		slot5 = _.detect(pg.dorm3d_ik_status.get_id_list_by_base[slot3.base], function (slot0)
 			return pg.dorm3d_ik_status[slot0].skin_id == uv0.skinId
@@ -2042,6 +2027,10 @@ slot0.ChangeCanWatchState = function(slot0, slot1)
 	slot2 = nil
 	slot2 = (not slot0:GetBlackboardValue(slot1, "inPending") or tobool(slot0:GetBlackboardValue(slot1, "inDistance"))) and tobool(slot0.activeLady[slot0:GetBlackboardValue(slot1, "groupId")] and pg.NodeCanvasMgr.GetInstance():GetBlackboradValue("canWatch", slot1.ladyBlackboard))
 
+	if slot1.blockCanWatch then
+		slot2 = false
+	end
+
 	if (not slot1.nowCanWatchState or slot1.nowCanWatchState ~= slot2) and slot1.ladyWatchFloat then
 		slot1.nowCanWatchState = slot2
 
@@ -2236,14 +2225,16 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			function ()
 				return function (slot0)
 					uv0.contextData.timeIndex = uv1.params[1]
+					slot1 = uv1.params[2] or false
 
-					if uv0.dormSceneMgr.artSceneInfo == uv0.dormSceneMgr.sceneInfo then
-						slot1 = uv0
+					if Dorm3dSceneMgr.IsSameSceneInfo(uv0.dormSceneMgr.artSceneInfo, uv0.dormSceneMgr.sceneInfo) then
+						uv0:SwitchDayNight(uv0.contextData.timeIndex)
 
-						slot1:SwitchDayNight(uv0.contextData.timeIndex)
-						onNextTick(function ()
-							uv0:RefreshSlots()
-						end)
+						if slot1 then
+							onNextTick(function ()
+								uv0:RefreshSlots()
+							end)
+						end
 					end
 
 					uv0:UpdateContactState()
@@ -2263,7 +2254,7 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			function ()
 				return function (slot0)
 					if uv0.name == "base" then
-						uv1:ChangeArtScene(uv1.dormSceneMgr.sceneInfo, slot0)
+						uv1:RevertArtScene(uv1.dormSceneMgr.sceneInfo, slot0)
 					else
 						uv1:ChangeArtScene(uv0.params.scene .. "|" .. uv0.params.sceneRoot, slot0)
 					end
@@ -2274,11 +2265,9 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					slot1 = uv0.params.name
 
 					if uv0.name == "load" then
-						func = tobool(uv0.params.wait_timeline) and function (slot0)
+						uv1:LoadTimelineScene(slot1, true, tobool(uv0.params.wait_timeline) and function (slot0)
 							uv0.waitForTimeline = slot0
-						end
-
-						uv1:LoadTimelineScene(slot1, true, func, slot0)
+						end, slot0)
 					elseif uv0.name == "unload" then
 						uv1:UnloadTimelineScene(slot1, true, slot0)
 					else
@@ -2478,7 +2467,7 @@ slot0.PopFavorTrigger = function(slot0, slot1)
 		slot7, slot8 = slot5:getFavor()
 		slot9 = slot7 + slot3
 
-		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=30>+%d</size>", math.min(9999, slot3)))
+		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=48>+%d</size>", math.min(9999, slot3)))
 		setSlider(slot0.rtFavorUpDaily:Find("bg/slider"), 0, slot8, slot7)
 		setAnchoredPosition(slot0.rtFavorUpDaily:Find("bg"), slot1.isGift and NewPos(-354, 223) or NewPos(-208, 105))
 
@@ -2572,7 +2561,7 @@ slot0.PopFavorLevelUp = function(slot0, slot1, slot2, slot3)
 
 			if slot0 == UIItemList.EventUpdate then
 				if slot1 < #uv0.serverAward then
-					updateDorm3dIcon(slot2, uv0.serverAward[slot3])
+					updateCustomDrop(slot2, uv0.serverAward[slot3])
 					onButton(uv0, slot2, function ()
 						uv0:emit(BaseUI.ON_NEW_DROP, {
 							drop = uv0.serverAward[uv1]
@@ -2980,7 +2969,11 @@ slot0.CheckSystemOpen = function(slot0, slot1)
 				return true
 			end,
 			Furniture = function ()
-				return uv0.room:GetFurnitureIDList() and #slot0 > 0
+				return #uv0.room:GetFurnitures() > 0 or #_.filter(uv0.room:GetFurnitureIDList() or {}, function (slot0)
+					return Dorm3dFurniture.New({
+						configId = slot0
+					}):InShopTime()
+				end) > 0
 			end,
 			DayNight = function ()
 				return false

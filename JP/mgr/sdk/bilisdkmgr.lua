@@ -285,7 +285,7 @@ return {
 	end,
 	OpenMiniProgram = function ()
 		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI and not IsUnityEditor then
-			uv0:OpenMiniProgram("gh_c18eea57d6d7", "pages/schoolAuthentication/index")
+			uv0:OpenMiniProgram("gh_dae6f3c76e13", "pages/home/index")
 		end
 	end,
 	GetBiliServerId = function ()

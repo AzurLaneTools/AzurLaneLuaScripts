@@ -136,15 +136,6 @@ slot1 = {
 		end
 	},
 	{
-		id = "JUUS_GUIDE01",
-		condition = function ()
-			return true
-		end,
-		args = function ()
-			return {}
-		end
-	},
-	{
 		id = "Yumia_atelier",
 		condition = function ()
 			if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then
@@ -152,6 +143,15 @@ slot1 = {
 			end
 
 			return AtelierTools.IsUnlockAtelier(slot0, 2)
+		end,
+		args = function ()
+			return {}
+		end
+	},
+	{
+		id = "ISLAND_GUIDE_1",
+		condition = function ()
+			return not LOCK_ISLAND_GUIDE and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "IslandMediator")
 		end,
 		args = function ()
 			return {}

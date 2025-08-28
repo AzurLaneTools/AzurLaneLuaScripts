@@ -391,7 +391,7 @@ slot0.SetGiftCard = function(slot0)
 	if slot2.type == 1 then
 		slot6 = not (uv1[slot2.item_id].is_special == 1) and slot9.is_exclusive == 1
 
-		updateDorm3dIcon(slot0:findTF("Dorm3dIconTpl", slot1), Drop.New({
+		updateCustomDrop(slot0:findTF("Dorm3dIconTpl", slot1), Drop.New({
 			count = 0,
 			type = DROP_TYPE_DORM3D_FURNITURE,
 			id = slot9.id
@@ -404,7 +404,7 @@ slot0.SetGiftCard = function(slot0)
 		slot6 = slot2.room_id ~= 0
 
 		setText(slot0:findTF("favor/number", slot1), "+" .. pg.dorm3d_favor_trigger[uv2[slot2.item_id].favor_trigger_id].num)
-		updateDorm3dIcon(slot0:findTF("Dorm3dIconTpl", slot1), Drop.New({
+		updateCustomDrop(slot0:findTF("Dorm3dIconTpl", slot1), Drop.New({
 			type = DROP_TYPE_DORM3D_GIFT,
 			id = slot2.item_id,
 			count = getProxy(ApartmentProxy):getGiftCount(slot2.item_id)

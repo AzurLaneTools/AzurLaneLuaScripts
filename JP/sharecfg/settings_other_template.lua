@@ -237,6 +237,15 @@ pg.settings_other_template = {
 		title = "新登録艦船自動ロック",
 		desc = "ONにすると、図鑑に新たに登録される艦船は自動でロックする"
 	},
+	[24] = {
+		default = 1,
+		name = "GRAPHI_API_SWITCH_OPTION",
+		alignment = 0,
+		type = 3,
+		id = 24,
+		title = "レンダリング互換性モード",
+		desc = "レンダリング互換性モードをONにすると、特定な状況下および一部の環境で画面が黒くなる不具合を軽減できます"
+	},
 	all = {
 		1,
 		2,
@@ -259,6 +268,7 @@ pg.settings_other_template = {
 		19,
 		20,
 		21,
-		22
+		22,
+		24
 	}
 }

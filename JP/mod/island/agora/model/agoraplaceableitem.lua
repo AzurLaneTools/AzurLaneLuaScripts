@@ -10,6 +10,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.area = slot0:GenArea()
 end
 
+slot0.GetMapType = function(slot0)
+	return IslandConst.AGORA_MAP_TYPE_COMMON
+end
+
 slot0.IsSame = function(slot0, slot1)
 	return slot0.position == slot1.position and slot0.rotation == slot1.rotation
 end
@@ -89,6 +93,18 @@ slot0.GenAreaByPosition = function(slot0, slot1)
 	end
 end
 
+slot0.GetNeighborPoints = function(slot0)
+	slot1 = nil
+	slot1 = (not slot0:IsForward() or AgoraCalc.GetSizeCoord(slot0.size)) and AgoraCalc.GetSizeCoord(Vector2(slot0.size.y, slot0.size.x))
+
+	return {
+		slot0.position + Vector2(0, slot1.y + 1),
+		slot0.position + Vector2(0, slot1.w - 1),
+		slot0.position + Vector2(slot1.x - 1, 0),
+		slot0.position + Vector2(slot1.z + 1, 0)
+	}
+end
+
 slot0.GetArea = function(slot0)
 	return slot0.area
 end
@@ -98,17 +114,17 @@ slot0.GetResPath = function(slot0)
 end
 
 slot0.ToPlacementData = function(slot0)
-	return IslandPlacementData.New({
+	return {
 		id = slot0.id,
 		x = slot0.position.x,
 		y = slot0.position.y,
 		dir = slot0.rotation.y / 90
-	})
+	}
 end
 
 slot0.FlushDataFromPlacementData = function(slot0, slot1)
-	slot0:UpdatePosition(slot1:GetPosition())
-	slot0:UpdateRotation(slot1:GetRotation())
+	slot0:UpdatePosition(slot1.position)
+	slot0:UpdateRotation(slot1.rotation)
 end
 
 return slot0

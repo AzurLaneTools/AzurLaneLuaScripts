@@ -1,19 +1,31 @@
 slot0 = class("IslandBasePage", import("view.base.BaseSubView"))
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.islandScene = slot1
 
-	uv0.super.Ctor(slot0, slot1._tf.parent, slot1.event, slot1.contextData)
+	uv0.super.Ctor(slot0, slot2, slot1.event, slot1.contextData)
 
 	slot0.__callbacks__ = {}
 end
 
-slot0.GetInstancePage = function(slot0, slot1)
-	return slot0.islandScene:GetInstancePage(slot1)
+slot0.emit = function(slot0, ...)
+	slot0.islandScene:emit(...)
+end
+
+slot0.emitCore = function(slot0, slot1, ...)
+	slot0.islandScene:emitCore(slot1, ...)
+end
+
+slot0.NeedCache = function(slot0)
+	return true
 end
 
 slot0.GetIsland = function(slot0)
 	return slot0.islandScene:GetIsland()
+end
+
+slot0.GetPoolMgr = function(slot0)
+	return slot0.islandScene.poolMgr
 end
 
 slot0.Show = function(slot0, ...)
@@ -30,24 +42,52 @@ end
 
 slot0.Enable = function(slot0)
 	uv0.super.Show(slot0)
+
+	slot0.isVisible = true
+
 	slot0:OnEnable()
 end
 
 slot0.Disable = function(slot0)
 	uv0.super.Hide(slot0)
+
+	slot0.isVisible = false
+
 	slot0:OnDisable()
+end
+
+slot0.BlurPanel = function(slot0, slot1)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		weight = slot1 or LayerWeightConst.TOP_LAYER
+	})
+end
+
+slot0.UnBlurPanel = function(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.ShowMsgBox = function(slot0, slot1)
 	return slot0.islandScene:ShowMsgbox(slot1)
 end
 
+slot0.PlayStory = function(slot0, slot1)
+	return slot0.islandScene:PlayStory(slot1)
+end
+
+slot0.PlayGetShipTimeline = function(slot0, slot1, slot2)
+	slot0.islandScene:PlayGetShipTimeline(slot1, slot2)
+end
+
 slot0.OpenPage = function(slot0, slot1, ...)
-	return slot0.islandScene:DoOpenPage(slot0, slot1, ...)
+	return slot0.islandScene.sceneMgr:OpenPage(slot0, slot1, ...)
+end
+
+slot0.OpenScenePage = function(slot0, slot1, ...)
+	return slot0.islandScene:OpenPage(slot1, ...)
 end
 
 slot0.ClosePage = function(slot0, slot1)
-	slot0.islandScene:DoClosePage(slot1)
+	slot0.islandScene.sceneMgr:ClosePage(slot1)
 end
 
 slot0.AddListener = function(slot0, slot1, slot2)
@@ -77,6 +117,7 @@ slot0.Destroy = function(slot0)
 	slot0.__callbacks__ = {}
 
 	uv0.super.Destroy(slot0)
+	slot0:Reset()
 end
 
 slot0.SetVisible = function(slot0, slot1, slot2)
@@ -89,6 +130,10 @@ slot0.AddListeners = function(slot0)
 end
 
 slot0.RemoveListeners = function(slot0)
+end
+
+slot0.Preload = function(slot0, slot1)
+	slot1()
 end
 
 slot0.OnShow = function(slot0)

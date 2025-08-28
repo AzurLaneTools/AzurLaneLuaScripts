@@ -410,7 +410,7 @@ slot0.UpdateWeekTask = function(slot0)
 		triggerToggle(slot5:Find("tpl_" .. slot9), slot9 <= slot4)
 	end
 
-	updateDorm3dIcon(slot5:Find("Dorm3dIconTpl"), Drop.Create(slot2:getConfig("award_display")[1]))
+	updateCustomDrop(slot5:Find("Dorm3dIconTpl"), Drop.Create(slot2:getConfig("award_display")[1]))
 	onButton(slot0, slot5:Find("Dorm3dIconTpl"), function ()
 		if not uv0 and uv1:isFinish() then
 			uv2:emit(SelectDorm3DMediator.ON_SUBMIT_TASK, uv3)

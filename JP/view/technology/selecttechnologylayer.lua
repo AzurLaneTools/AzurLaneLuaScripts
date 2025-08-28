@@ -32,7 +32,7 @@ slot0.init = function(slot0)
 	slot0.metaBtn = slot0:findTF("meta_btn", slot0.bg)
 	slot0.metaBtnTip = slot0.metaBtn:Find("tip")
 
-	setActive(slot0.metaBtn, true)
+	setActive(slot0.metaBtn, false)
 
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.lockedTpl = slot0:findTF("lockedTpl")

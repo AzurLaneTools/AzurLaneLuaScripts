@@ -202,8 +202,6 @@ slot0.BulletType = {
 	SPACE_LASER = 14,
 	SCALE = 15,
 	TRIGGER_BOMB = 16,
-	MISSILE = 13,
-	SPACE_LASER = 14,
 	AAMissile = 17
 }
 slot0.BulletDamageType = {

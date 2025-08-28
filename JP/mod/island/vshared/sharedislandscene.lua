@@ -15,11 +15,21 @@ slot0.init = function(slot0)
 	slot0.nameTxt = slot0:findTF("top/level_panel/name"):GetComponent(typeof(Text))
 	slot0.prosperityTxt = slot0:findTF("top/level_panel/prosperity/Text"):GetComponent(typeof(Text))
 	slot0.prosperityLabel = slot0:findTF("top/level_panel/prosperity"):GetComponent(typeof(Text))
+	slot0.mapBtn = slot0:findTF("top/map_btn")
 end
 
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
+		if ISLAND_PLAYER_TESTING then
+			uv0:emit(SharedIslandMediator.RETURN_SELF_ISLAND)
+
+			return
+		end
+
 		uv0:emit(BaseUI.ON_HOME)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.mapBtn, function ()
+		uv0:OpenPage(SharedIslandMapPage)
 	end, SFX_PANEL)
 	slot0:StartCore()
 	slot0:UpdateIslandInfo()
@@ -42,7 +52,7 @@ slot0.UpdateIslandInfo = function(slot0)
 		slot0.prosperityTxt.text = "MAX"
 	end
 
-	slot0.prosperityLabel.text = i18n1("繁荣度")
+	slot0.prosperityLabel.text = i18n("island_prosperity_level")
 end
 
 slot0.willExit = function(slot0)

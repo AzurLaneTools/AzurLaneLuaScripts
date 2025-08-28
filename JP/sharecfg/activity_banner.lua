@@ -1,38 +1,13 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp2",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -46,6 +21,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -55,35 +31,10 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -91,32 +42,6 @@ pg.activity_banner = {
 			"scene core activity",
 			{
 				coreName = "SecretsAbyssCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					16,
-					0,
-					0
-				}
 			}
 		}
 	},
@@ -135,7 +60,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					14
+					28
 				},
 				{
 					0,
@@ -146,8 +71,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					11
 				},
 				{
 					23,
@@ -158,6 +83,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp1",
@@ -166,70 +92,19 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		param = "50083",
+		param = "50099",
 		type = 3,
 		id = 8,
 		pic = "temp8",
@@ -238,7 +113,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					14
+					28
 				},
 				{
 					0,
@@ -249,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					16,
@@ -265,14 +140,14 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"seltechnology"
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					8,
-					14
+					28
 				},
 				{
 					0,
@@ -283,13 +158,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					11
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -317,35 +192,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -366,7 +216,7 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 200,
-		pic = "spring"
+		pic = "autumn"
 	},
 	[201] = {
 		param = "",

@@ -2,33 +2,80 @@ slot0 = class("IslandSubmitTaskCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.taskId
 	slot4 = slot2.callback
-
-	warning("SubmitTask", slot3)
-
 	slot5 = pg.ConnectionMgr.GetInstance()
 
 	slot5:Send(21038, {
-		task_id = slot3
+		task_id = slot2.taskId
 	}, 21039, function (slot0)
 		if slot0.result == 0 then
-			slot3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+			slot2 = getProxy(IslandProxy):GetIsland():GetTaskAgency()
+			slot4 = slot2:GetTask(uv0).id == slot2:GetTraceId()
+			slot5 = slot3:GetExp()
 
-			for slot7, slot8 in ipairs(getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(uv0):GetRecycleItemInfos()) do
-				slot3:RemoveItem(slot8.id, slot8.count)
+			if slot3:GetType() == IslandTaskType.MAIN then
+				IslandAchievementHelper.UpdateRecord(IslandAchievementType.FINISH_MAIN_TASK, uv0, 1)
 			end
 
-			slot1:RemoveTask(uv0)
-			slot1:AddFinishId(uv0)
+			slot10 = slot3.id
+
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTaskSubmit(slot3:GetType(), slot10))
+
+			slot6 = slot1:GetInventoryAgency()
+
+			for slot10, slot11 in ipairs(slot3:GetRecycleItemInfos()) do
+				slot6:RemoveItem(slot11.id, slot11.count)
+			end
+
+			if slot3:getConfig("is_tech_task") == 1 then
+				slot1:GetTechnologyAgency():TryAutoUnlock()
+			end
+
+			slot2:RemoveTask(uv0)
+			slot2:AddFinishId(uv0)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
+			slot2:TryAcceptAutoTasks(function ()
+				if uv0 then
+					getProxy(IslandProxy):GetIsland():GetTaskAgency():TryAutoTrackTask()
+				end
+			end)
 			uv1:sendNotification(GAME.ISLAND_SUBMIT_TASK_DONE, {
 				taskId = uv0,
-				dropData = IslandDropHelper.AddItems(slot0),
+				dropData = IslandDropHelper.AddItems(slot0, slot5),
 				callback = uv2
 			})
-		else
-			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
+			uv1:UpdateGuide(uv0)
+
+			return
 		end
+
+		pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
+	end)
+end
+
+slot0.UpdateGuide = function(slot0, slot1)
+	switch(slot1, {
+		[IslandGuideChecker.MOVE_TASK_ID] = function ()
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = "ISLAND_GUIDE_2"
+			})
+		end,
+		[IslandGuideChecker.ORDER_TASK_ID] = function ()
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = "ISLAND_GUIDE_7"
+			})
+		end,
+		[IslandGuideChecker.TECH_TASK_ID] = function ()
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = "ISLAND_GUIDE_8"
+			})
+		end,
+		[IslandGuideChecker.INVITE_TASK_ID] = function ()
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = "ISLAND_GUIDE_9"
+			})
+		end
+	}, function ()
 	end)
 end
 

@@ -14,6 +14,10 @@ slot0.GetParent = function(slot0)
 	return slot0.view._tf
 end
 
+slot0.UpdateIcon = function(slot0, slot1, slot2)
+	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. slot1.icon, "", slot2:Find("Image"))
+end
+
 slot0.BlurPanel = function(slot0)
 end
 

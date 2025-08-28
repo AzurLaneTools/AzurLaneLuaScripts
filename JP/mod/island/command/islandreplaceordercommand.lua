@@ -2,7 +2,7 @@ slot0 = class("IslandReplaceOrderCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	if not getProxy(IslandProxy):GetIsland():GetOrderAgency():GetSlot(slot1:getBody().slotId):CanReplace() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("当前不可替换"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_order_cant_replace"))
 
 		return
 	end

@@ -12,13 +12,14 @@ slot0.OnLoaded = function(slot0)
 	slot0.submitBtn = slot0:findTF("info/btns/submit")
 	slot0.submitBtnMark = slot0:findTF("info/btns/submit/mask")
 	slot0.replaceBtn = slot0:findTF("info/btns/cancel")
+	slot0.speedUpBtn = slot0:findTF("loading/submit")
 	slot0.loadingPanel = slot0:findTF("loading")
 	slot0.loadingTimeTxt = slot0.loadingPanel:Find("Text/time"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("info/btns/cancel/Text"), i18n1("驳回"))
-	setText(slot0:findTF("info/btns/submit/Text"), i18n1("交付"))
-	setText(slot0:findTF("loading/Text"), i18n1("订单正在重新准备中\n新的订单预计还需要                      "))
-	setText(slot0:findTF("loading/submit/Text"), i18n1("加速"))
+	setText(slot0:findTF("info/btns/cancel/Text"), i18n("island_word_turndown"))
+	setText(slot0:findTF("info/btns/submit/Text"), i18n("island_word_sbumit"))
+	setText(slot0:findTF("loading/Text"), i18n("island_order_cd_tip"))
+	setText(slot0:findTF("loading/submit/Text"), i18n("island_word_speedup"))
 end
 
 slot0.OnInit = function(slot0)
@@ -26,11 +27,17 @@ slot0.OnInit = function(slot0)
 		uv0:emit(IslandMediator.ON_REPLACE_ORDER, uv0.slot.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.submitBtn, function ()
-		if not getProxy(IslandProxy):GetIsland():GetOrderAgency():CanSubmitOrder() then
+		slot1, slot2 = getProxy(IslandProxy):GetIsland():GetOrderAgency():CanSubmitOrder()
+
+		if not slot1 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_submit_order_cd_tip", pg.TimeMgr.GetInstance():DescCDTime(slot2 - pg.TimeMgr.GetInstance():GetServerTime())))
+
 			return
 		end
 
 		uv0:emit(IslandMediator.ON_SUBMIT_ORDER, uv0.slot.id)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.speedUpBtn, function ()
 	end, SFX_PANEL)
 end
 
@@ -213,7 +220,7 @@ end
 slot0.FlushAwards = function(slot0, slot1)
 	slot0.awardUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, uv0[slot1 + 1])
+			updateCustomDrop(slot2, uv0[slot1 + 1])
 		end
 	end)
 	slot0.awardUIList:align(#slot1:GetDisplayAwards())
@@ -229,7 +236,7 @@ slot0.FlushConsume = function(slot0, slot1)
 				id = slot3.id
 			}
 
-			updateDrop(slot2:Find("tpl"), slot4)
+			updateCustomDrop(slot2:Find("tpl"), slot4)
 			setText(slot2:Find("Text"), slot4.cfg.name)
 
 			if slot3.count <= Drop.New({

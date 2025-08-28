@@ -52,11 +52,31 @@ slot0.getName = function(slot0)
 end
 
 slot0.getIcon = function(slot0)
-	if slot0.type == DROP_TYPE_ICON_FRAME then
-		return "Props/icon_frame"
-	else
-		return slot0:getConfig("icon")
-	end
+	return switch(slot0.type, {
+		[DROP_TYPE_ICON_FRAME] = function ()
+			return "Props/icon_frame"
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function ()
+			return "island/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function ()
+			return "island/" .. uv0:getConfig("cmd_icon")
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function ()
+			return "island/" .. uv0:getConfig("icon")
+		end,
+		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function ()
+			return "island/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION] = function ()
+			return "island/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function ()
+			return "island/IslandFurnitureIcon/" .. uv0:getConfig("icon")
+		end
+	}, function ()
+		return uv0:getConfig("icon")
+	end)
 end
 
 slot0.getCount = function(slot0)
@@ -101,6 +121,10 @@ end
 
 slot0.UpdateDropTpl = function(slot0, ...)
 	return switch(slot0.type, uv0.UpdateDropCase, uv0.UpdateDropDefault, slot0, ...)
+end
+
+slot0.UpdateCustomDropTpl = function(slot0, ...)
+	return switch(slot0.type, uv0.UpdateCustomDropCase, uv0.UpdateCustomDropDefault, slot0, ...)
 end
 
 slot0.InitSwitch = function()
@@ -274,6 +298,26 @@ slot0.InitSwitch = function()
 
 			return pg.island_ability_template[slot0.id]
 		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function (slot0)
+			slot0.desc = ""
+
+			return {}
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_furniture_template[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_dress_template[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_skin_template[slot0.id]
+		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]
 		end,
@@ -314,11 +358,17 @@ slot0.InitSwitch = function()
 			slot0.desc = slot1.display
 
 			return slot1
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION] = function (slot0)
+			return pg.island_collection[slot0.id]
+		end,
+		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function (slot0)
+			return getIslandSeasonPtInfo()
 		end
 	}
 
 	uv0.ConfigDefault = function(slot0)
-		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
+		if tonumber(slot0.type) and DROP_TYPE_USE_ACTIVITY_DROP < slot1 then
 			return pg.activity_drop_type[slot1].relevance and pg[slot2][slot0.id]
 		end
 	end
@@ -415,6 +465,18 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
 			return 0
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function (slot0)
+			return 0
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
+			return 0
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function (slot0)
+			return 0
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
+			return 0
 		end
 	}
 
@@ -507,6 +569,21 @@ slot0.InitSwitch = function()
 			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
+			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function (slot0)
+			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
+			return slot0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function (slot0)
+			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
+			return ItemRarity.Gold
+		end,
+		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function (slot0)
 			return ItemRarity.Gold
 		end
 	}
@@ -876,22 +953,6 @@ slot0.InitSwitch = function()
 						end
 					end
 				end,
-				[50] = function ()
-					if getProxy(IslandProxy):GetIsland() then
-						slot0:AddExp(uv0.count)
-					end
-				end,
-				[51] = function ()
-					if not getProxy(IslandProxy):GetIsland() then
-						return
-					end
-
-					if not slot0:GetOrderAgency() then
-						return
-					end
-
-					slot1:AddExp(uv0.count)
-				end,
 				[26] = function ()
 					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)) and not slot1:isEnd() then
 						slot1.data1 = slot1.data1 + uv0.count
@@ -1036,7 +1097,11 @@ slot0.InitSwitch = function()
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_COMBAT_UI, slot3)
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
-			getProxy(IslandProxy):GetIsland():GetInventoryAgency():AddItem(IslandItem.New({
+			if not getProxy(IslandProxy):GetIsland() then
+				return
+			end
+
+			slot1:GetInventoryAgency():AddItem(IslandItem.New({
 				id = slot0.id,
 				num = slot0.count
 			}))
@@ -1161,6 +1226,18 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0, slot1, slot2)
 			setText(slot2, "")
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function (slot0, slot1, slot2)
+			setText(slot2, "")
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0, slot1, slot2)
+			setText(slot2, "")
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function (slot0, slot1, slot2)
+			setText(slot2, "")
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0, slot1, slot2)
+			setText(slot2, "")
 		end
 	}
 
@@ -1283,15 +1360,6 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0, slot1, slot2)
 			updateCommander(slot1, slot0, slot2)
 		end,
-		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0, slot1, slot2)
-			updateDorm3dFurniture(slot1, slot0, slot2)
-		end,
-		[DROP_TYPE_DORM3D_GIFT] = function (slot0, slot1, slot2)
-			updateDorm3dGift(slot1, slot0, slot2)
-		end,
-		[DROP_TYPE_DORM3D_SKIN] = function (slot0, slot1, slot2)
-			updateDorm3dSkin(slot1, slot0, slot2)
-		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			updateCover(slot1, slot0, slot2)
 		end,
@@ -1300,12 +1368,40 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0, slot1, slot2)
 			updateActivityMedal(slot1, slot0:getConfigTable(), slot2)
+		end
+	}
+
+	uv0.UpdateDropDefault = function(slot0, slot1, slot2)
+		updateDefaultIconTpl(slot1, slot0, slot2)
+	end
+
+	uv0.UpdateCustomDropCase = {
+		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0, slot1, slot2)
+			updateDorm3dIcon(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function (slot0, slot1, slot2)
+			updateDorm3dIcon(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function (slot0, slot1, slot2)
+			updateDorm3dIcon(slot1, slot0, slot2)
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function (slot0, slot1, slot2)
 			updateIslandItem(slot1, slot0, slot2)
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0, slot1, slot2)
 			updateIslandUnlock(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function (slot0, slot1, slot2)
+			updateIslandInvitation(slot1, slot0, slot2)
+		end,
+		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function (slot0, slot1, slot2)
+			updateIslandSeasonPt(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION] = function (slot0, slot1, slot2)
+			updateIslandWatherCollect(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0, slot1, slot2)
+			updateIslandFurniture(slot1, slot0, slot2)
 		end,
 		[DROP_TYPE_HOLIDAY_VILLA] = function (slot0, slot1, slot2)
 			updateItem(slot1, Item.New({
@@ -1314,8 +1410,12 @@ slot0.InitSwitch = function()
 		end
 	}
 
-	uv0.UpdateDropDefault = function(slot0, slot1, slot2)
-		warning(string.format("without dropType %d in updateDrop", slot0.type))
+	uv0.UpdateCustomDropDefault = function(slot0, slot1, slot2)
+		if slot2.style == "dorm" then
+			updateDorm3dIcon(slot1, slot0, slot2)
+		else
+			warning(string.format("without dropType %d in updateCustomDrop", slot0.type))
+		end
 	end
 end
 
