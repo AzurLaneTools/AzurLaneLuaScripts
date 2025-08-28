@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 199050,
-			say = "哦哦……诅咒的力量被吸收了！这比血液更甜美的滋味~",
+			say = "오오……저주받은 힘이 내 몸에 차오른다……! 이 맛, 피보다 달콤해.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，吾的眷属呦，你做得很好！",
+			say = "후후훗, 나의 종복이여……잘 했어!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 199050,
-			say = "吾决定了，吾将赐予汝一次行使特权的机会。",
+			say = "정했어. 특별히 「특권」을 행사할 기회를 부여해 주겠어. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "无论所求何物，吾都可以赏赐予汝，好好考虑一下吧~",
+			say = "어떤 바람이라도 나의 힘으로 이루어줄게. 후훗, 잘 생각하는 것이 좋아. ",
 			painting = {
 				alpha = 0.3,
 				time = 1

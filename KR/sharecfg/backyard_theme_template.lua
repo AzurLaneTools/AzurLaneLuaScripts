@@ -4832,7 +4832,7 @@ pg.backyard_theme_template = {
 	},
 	[127] = {
 		Cfg_1 = 5,
-		name = "숲속 온천",
+		name = "임간 온천",
 		desc = "탕에 몸을 담그고 여유로운 시간을 즐기자.",
 		deblocking = 1,
 		new = 1,
