@@ -197,7 +197,8 @@ slot0.optionsPath = {
 	"blur_container/adapt/top/option",
 	"ForNorth/top/option",
 	"top/top_chapter/option",
-	"Main/blur_panel/adapt/top/option"
+	"Main/blur_panel/adapt/top/option",
+	"adapt/blur_panel/adapt/top/option"
 }
 
 slot0.onUILoaded = function(slot0, slot1)

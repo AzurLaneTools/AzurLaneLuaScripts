@@ -38,7 +38,12 @@ slot0.OnDestroy = function(slot0)
 	slot0:unBlurView()
 
 	slot0.prevBtn = nil
-	slot0.page = nil
+
+	if slot0.page then
+		slot0.page:StopBGM()
+
+		slot0.page = nil
+	end
 
 	slot0:DestroyResItemList()
 
@@ -51,6 +56,26 @@ end
 
 slot0.initUI = function(slot0)
 	slot0.lScrollRect = GetComponent(slot0:findTF("scroll"), "LScrollRect")
+	slot0.scrollContent = slot0:findTF("scroll/content")
+	slot0.scrollRectTF = GetComponent(slot0.scrollContent, typeof(RectTransform))
+	slot0.layoutGroup = GetComponent(slot0.scrollContent, typeof(GridLayoutGroup))
+	slot0.scrollRectSpecial = slot0:findTF("scrollRectSpecial")
+
+	setActive(slot0.scrollRectSpecial, false)
+
+	slot1 = GetComponent(slot0:findTF("viewport/view/group/items", slot0.scrollRectSpecial), typeof(GridLayoutGroup))
+	slot2 = slot0.scrollRectTF.rect.width
+	slot3 = slot0.layoutGroup.cellSize.x
+
+	if slot2 % slot3 / math.floor(slot2 / slot3) < 12 then
+		slot4 = slot4 - 1
+		slot6 = (slot2 - slot3 * slot4) / slot4
+	end
+
+	slot0.layoutGroup.spacing = Vector2(slot6, slot6)
+	slot0.layoutGroup.padding.left = slot6 / 2
+	slot1.spacing = Vector2(slot6, slot6)
+	slot1.padding.left = slot6 / 2
 end
 
 slot0.initData = function(slot0)
@@ -94,9 +119,10 @@ slot0.GetDefaultShopIndex = function(slot0)
 			end
 		end
 	else
-		for slot4, slot5 in ipairs(slot0.packageSortList) do
+		for slot4, slot5 in pairs(slot0.packageSortList) do
 			if slot5.type == slot0.contextData.shopID then
-				slot10, slot11 = slot0.pages[slot5.type]:CanOpen(slot0.allShopList[slot0.packageSortList[slot0.supplyShopType].type][slot0.packageSortList[slot0.supplyShopType].index], slot0.player)
+				slot6 = slot0.packageSortList[slot0.supplyShopType].index
+				slot10, slot11 = slot0.pages[slot5.type]:CanOpen(slot0.allShopList[slot0.packageSortList[slot0.supplyShopType].type][1], slot0.player)
 
 				if slot10 then
 					return slot5.index
@@ -106,9 +132,9 @@ slot0.GetDefaultShopIndex = function(slot0)
 	end
 
 	for slot4, slot5 in pairs(slot0.packageSortList) do
-		slot9, slot10 = slot0.pages[slot5.type]:CanOpen(slot0.allShopList[slot5.type][slot5.index], slot0.player)
+		slot8, slot9 = slot0.pages[slot5.type]:CanOpen(slot0.allShopList[slot5.type][1], slot0.player)
 
-		if slot9 then
+		if slot8 then
 			return slot5.index
 		end
 	end
@@ -132,7 +158,8 @@ slot0.initToggleList = function(slot0)
 			setText(uv0:findTF("selected/enText", slot2), i18n(ShopConst.TYPE2NAME[slot3] .. "en"))
 			setText(uv0:findTF("unselected/Label", slot2), i18n(ShopConst.TYPE2NAME[slot3]))
 
-			slot7, slot8 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][uv0.packageSortList[slot1 + 1].index], uv0.player)
+			slot4 = uv0.packageSortList[slot1 + 1].index
+			slot7, slot8 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][1], uv0.player)
 
 			if slot7 == false then
 				setActive(uv0:findTF("unselected/Label/lock", slot2), true)
@@ -149,7 +176,7 @@ slot0.initToggleList = function(slot0)
 				end
 
 				slot1 = uv0.packageSortList[uv1 + 1].type
-				slot4, slot5 = uv0.pages[slot1]:CanOpen(uv0.allShopList[slot1][slot0], uv0.player)
+				slot4, slot5 = uv0.pages[slot1]:CanOpen(uv0.allShopList[slot1][1], uv0.player)
 
 				if slot4 == false then
 					pg.TipsMgr.GetInstance():ShowTips(slot5)
@@ -167,6 +194,7 @@ slot0.initToggleList = function(slot0)
 
 				uv0.prevBtn = uv2
 				uv0.selectedPackageType = slot0
+				uv0.contextData.shopID = slot1
 
 				uv0:UpdateShop()
 			end, SFX_PANEL)

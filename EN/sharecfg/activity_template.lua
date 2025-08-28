@@ -37410,6 +37410,78 @@ pg.activity_template = {
 			24301
 		}
 	},
+	[50099] = {
+		mark = 20250828,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		title_res_tag = "dianqi",
+		id = 50099,
+		page_core = "",
+		config_data = {
+			{
+				21821,
+				21822
+			},
+			{
+				21823,
+				21824
+			},
+			{
+				21825,
+				21826
+			},
+			{
+				21827,
+				21828
+			},
+			{
+				21829,
+				21830
+			},
+			{
+				21831,
+				21832
+			},
+			{
+				21833,
+				21834
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AierdeliqiAlterItemRePage",
+			ui_name = "AierdeliqiAlterItemRePage"
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -38641,6 +38713,52 @@ pg.activity_template = {
 					2025,
 					6,
 					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SurveyPage",
+			ui_name = "SurveyPage"
+		}
+	},
+	[7109] = {
+		mark = 20250828,
+		type = 101,
+		login_pop = 0,
+		config_id = 1008,
+		is_show = 35,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7109,
+		page_core = "",
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					3
 				},
 				{
 					23,
@@ -65033,6 +65151,7 @@ pg.activity_template = {
 			50032,
 			50033,
 			50068,
+			50099,
 			6000,
 			6001,
 			6002,
@@ -65950,7 +66069,8 @@ pg.activity_template = {
 			7103,
 			7106,
 			7107,
-			7108
+			7108,
+			7109
 		},
 		[119] = {
 			7104
@@ -66919,6 +67039,7 @@ pg.activity_template = {
 		50093,
 		50094,
 		50095,
+		50099,
 		7001,
 		7011,
 		7012,
@@ -66940,6 +67061,7 @@ pg.activity_template = {
 		7106,
 		7107,
 		7108,
+		7109,
 		7501,
 		7502,
 		8009,

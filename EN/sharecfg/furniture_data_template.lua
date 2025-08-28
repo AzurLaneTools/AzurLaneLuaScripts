@@ -27,6 +27,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			32,
 			102,
 			104,
 			105,
@@ -232,6 +233,7 @@ pg.furniture_data_template = setmetatable({
 			100064,
 			100065,
 			100066,
+			100067,
 			100073,
 			100074,
 			100075,
@@ -5853,6 +5855,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			32,
 			102,
 			104,
 			105,
@@ -5990,6 +5993,7 @@ pg.furniture_data_template = setmetatable({
 			100064,
 			100065,
 			100066,
+			100067,
 			100073,
 			100074,
 			100075,
@@ -7028,6 +7032,7 @@ pg.furniture_data_template = setmetatable({
 			27,
 			28,
 			31,
+			32,
 			102,
 			104,
 			105,
@@ -7192,6 +7197,7 @@ pg.furniture_data_template = setmetatable({
 			100061,
 			100062,
 			100065,
+			100067,
 			100074,
 			100075,
 			100076
@@ -10259,6 +10265,7 @@ pg.furniture_data_template = setmetatable({
 		27,
 		28,
 		31,
+		32,
 		102,
 		104,
 		105,
@@ -10466,6 +10473,7 @@ pg.furniture_data_template = setmetatable({
 		100064,
 		100065,
 		100066,
+		100067,
 		100073,
 		100074,
 		100075,
@@ -14436,6 +14444,43 @@ pg.base.furniture_data_template = {
 		size = {
 			1,
 			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[32] = {
+		can_rotate = 0,
+		name = "USS New Jersey Model",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "xinzexiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/xinzexi",
+		canputon = 0,
+		count = 1,
+		describe = "Special decoration: A 1:100 scale model of an Iowa class battleship",
+		advice = 0,
+		deblocking = 1,
+		id = 32,
+		comfortable = 2,
+		size = {
+			2,
+			7
 		},
 		offset = {},
 		canputonGrid = {},
@@ -20589,7 +20634,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[283] = {
 		can_rotate = 0,
 		name = "Mont-Saint-Michel Miniature",
-		gain_by = "Interlude of Illusions",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -20712,7 +20757,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[286] = {
 		can_rotate = 0,
 		name = "Party for Pioneers",
-		gain_by = "Cursed Western Town",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21250,7 +21295,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[297] = {
 		can_rotate = 0,
 		name = "Logistics Center Miniature",
-		gain_by = "Letters from Valley Hospital",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21287,7 +21332,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[298] = {
 		can_rotate = 0,
 		name = "Recuperation Center Miniature",
-		gain_by = "Letters from Valley Hospital",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21324,7 +21369,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[299] = {
 		can_rotate = 0,
 		name = "Research Center Miniature",
-		gain_by = "Letters from Valley Hospital",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21361,7 +21406,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[300] = {
 		can_rotate = 0,
 		name = "Medical Center Miniature",
-		gain_by = "Letters from Valley Hospital",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -21398,7 +21443,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[301] = {
 		can_rotate = 0,
 		name = "Inpatient Building Miniature",
-		gain_by = "Letters from Valley Hospital",
+		gain_by = "",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -26247,6 +26292,96 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[100067] = {
+		can_rotate = 0,
+		name = "Fully-Automatic Anti-Fall Treadmill",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "paobujiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Low speed, high speed, it doesn't matter – you won't fall under any circumstance!",
+		advice = 0,
+		id = 100067,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paobujiB",
+				"normal"
+			},
+			{
+				"paobujiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2",
+						nil,
+						"tuozhuai2"
+					},
+					{
+						"walk2",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"walk1",
+						"walk",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[100073] = {
 		can_rotate = 0,
 		name = "Manjuu Surfboard",
@@ -26484,7 +26619,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		describe = "Watch out for when the bubble bursts!",
+		describe = "Blub-blub-blub... Pop! Blub-blub-blub...",
 		advice = 0,
 		id = 100076,
 		deblocking = 1,

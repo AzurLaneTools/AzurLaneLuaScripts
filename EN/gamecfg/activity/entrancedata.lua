@@ -335,5 +335,16 @@ return {
 		isTip = function ()
 			return PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description
 		end
+	},
+	{
+		banner = "activity_miniprogram",
+		event = ActivityMediator.OPEN_MINI_PROGRAM,
+		data = {},
+		isShow = function ()
+			return PLATFORM_CODE == PLATFORM_CH and (PermissionHelper.IsAndroid and LuaHelper.GetCHPackageType() == 1 or PermissionHelper.IsIOS()) and getProxy(ActivityProxy):IsActivityNotEnd(getGameset("WeChat_Mini_Program")[1])
+		end,
+		isTip = function ()
+			return false
+		end
 	}
 }

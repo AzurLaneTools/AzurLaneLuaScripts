@@ -9,7 +9,6 @@ slot0.DefaultColor = {
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.tagImg = slot0.tf:Find("mask/tag"):GetComponent(typeof(Image))
 	slot0.limitPassTag = slot0.tf:Find("mask/tag/pass_tag")
 end
 
@@ -40,12 +39,12 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 
 		if slot9 == "pass" then
 			setActive(slot0.limitPassTag, true)
-			setText(findTF(slot0.limitPassTag, "Text"), i18n("eventshop_unlock_info", slot10))
+			setScrollText(findTF(slot0.limitPassTag, "TextGo/Text"), i18n("eventshop_unlock_info", slot10))
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
 		else
-			setText(slot0.unexchangeTag, slot10)
+			setText(slot0.unexchangeTag:Find("TextGo/Text"), slot10)
 
 			slot7 = true
 		end

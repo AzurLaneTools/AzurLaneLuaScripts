@@ -191,17 +191,17 @@ slot0.gameStep = function(slot0)
 end
 
 slot0.timerStart = function(slot0)
-	slot0.gameStop = false
+	slot0.gamestop = false
 end
 
 slot0.timerResume = function(slot0)
-	slot0.gameStop = false
+	slot0.gamestop = false
 
 	slot0.gameScene:resume()
 end
 
 slot0.timerStop = function(slot0)
-	slot0.gameStop = true
+	slot0.gamestop = true
 
 	slot0.gameScene:stop()
 end
@@ -308,7 +308,7 @@ slot0.resumeGame = function(slot0)
 end
 
 slot0.clearGame = function(slot0)
-	slot0.gameStop = true
+	slot0.gameStop = false
 end
 
 slot0.onBackPressed = function(slot0)

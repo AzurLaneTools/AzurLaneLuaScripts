@@ -3885,9 +3885,7 @@ pg.gameset = {
 	},
 	levellimit_skinstory = {
 		key_value = 15,
-		description = {
-			50084
-		}
+		description = {}
 	},
 	LOADING_HX_LV = {
 		description = "",

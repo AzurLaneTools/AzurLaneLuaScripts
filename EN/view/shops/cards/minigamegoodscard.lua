@@ -3,11 +3,6 @@ slot0 = class("MiniGameGoodsCard", import(".BaseGoodsCard"))
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 	setActive(slot0.selloutTag, true)
-	setText(slot0.levelTag, i18n("shop_charge_level_limit"))
-
-	slot2 = slot0.tf
-	slot0.levelTagText = slot2:Find("mask/tag/level_tag/Text")
-
 	onButton(slot0, slot0.mask, function ()
 		pg.TipsMgr.GetInstance():ShowTips(uv0.maskTip)
 	end, SFX_PANEL)
@@ -39,7 +34,7 @@ slot0.setLevelMask = function(slot0, slot1)
 	setActive(slot0.mask, slot3)
 
 	if slot3 then
-		setText(slot0.levelTagText, tostring(slot2))
+		setScrollText(slot0.levelTagText, tostring(slot2))
 		setActive(slot0.levelTag, true)
 		setActive(slot0.selloutTag, false)
 

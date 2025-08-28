@@ -24,9 +24,7 @@ slot0.onInit = function(slot0)
 	end)
 
 	slot0.leftSpine = GetComponent(findTF(slot0._tf, "char_left/ad/char"), typeof(SpineAnimUI))
-	slot0.leftSpineSkeleton = findTF(slot0._tf, "char_left/ad/char"):GetComponent("SkeletonGraphic")
 	slot0.rightSpine = GetComponent(findTF(slot0._tf, "char_right/ad/char"), typeof(SpineAnimUI))
-	slot0.rightSpineSkeleton = findTF(slot0._tf, "char_right/ad/char"):GetComponent("SkeletonGraphic")
 	slot0.emojiTf = findTF(slot0._tf, "emoji")
 
 	setActive(slot0.emojiTf, false)
@@ -114,8 +112,10 @@ slot0.keyTrigger = function(slot0, slot1, slot2, slot3)
 	slot0.triggerCd = uv0
 
 	slot0:setCharAnimation(slot0.leftSpine, slot1, 0, function ()
-		uv0:setCharAnimation(uv0.leftSpine, "idle", 0)
-		uv0.leftSpineSkeleton:Update(Time.deltaTime)
+		slot0 = uv0
+
+		slot0:setCharAnimation(uv0.leftSpine, "idle", 0, function ()
+		end)
 	end, function ()
 		if uv0:getCheckDymItem() then
 			slot1 = uv0._event
@@ -212,63 +212,58 @@ slot0.onStep = function(slot0)
 
 	if slot0._gameVo:getCriInfoTime() ~= -1 then
 		for slot5 = #slot0.dymItems, 1, -1 do
-			if slot0.dymItems[slot5] then
-				slot7 = slot6.data.distance_time
-				slot9 = slot6.track.begin_time - slot1
+			slot6 = slot0.dymItems[slot5]
+			slot7 = slot6.data.distance_time
+			slot9 = slot6.track.begin_time - slot1
 
-				if slot6.active then
-					if slot8 <= slot1 and uv0 < slot1 - slot8 then
-						slot6.active = false
-						slot6.remove = true
-					end
-
-					if slot6.check and not slot6.trigger and MusicBeatGameConst.beat_offset < slot1 - slot8 then
-						slot6.check = false
-
-						if not slot6.trigger then
-							slot0:setEmoji("miss")
-
-							if slot6.data.act == "flap" then
-								slot0:changeLife(-1)
-							end
-						end
-					end
-				elseif slot6.remove == true then
-					if slot6.data.final then
-						slot0.finalEnd = true
-						slot10 = nil
-						slot10 = slot6.typeMatch and "final_correct" or "final_wrong"
-
-						slot0:setCharAnimation(slot0.leftSpine, slot10, 0, function ()
-							uv0.leftSpine:Pause()
-						end)
-						slot0:setCharAnimation(slot0.rightSpine, slot10, 0, function ()
-							uv0.rightSpine:Pause()
-						end)
-					end
-
-					slot10 = table.remove(slot0.dymItems, slot5)
-
-					Destroy(slot10.tf)
-
-					slot10.tf = nil
-					slot10.anim = nil
-					slot10.track = nil
-
-					return
-				elseif slot9 > 0 and slot9 <= slot7 then
-					slot0:activeDymItem(slot6)
-				elseif not slot6.throw and slot9 > 0 and slot9 <= slot7 + 100 then
-					slot6.throw = true
-
-					slot0:setCharAnimation(slot0.rightSpine, "throw", 0, function ()
-						uv0:setCharAnimation(uv0.rightSpine, "idle", 0, nil, )
-					end, nil)
-				elseif slot9 <= slot7 / 2 or slot8 <= slot1 and not slot6.active then
+			if slot6.active then
+				if slot8 <= slot1 and uv0 < slot1 - slot8 then
+					slot6.active = false
 					slot6.remove = true
 				end
-			else
-				warning("dymitem == nil")
+
+				if slot6.check and not slot6.trigger and MusicBeatGameConst.beat_offset < slot1 - slot8 then
+					slot6.check = false
+
+					if not slot6.trigger then
+						slot0:setEmoji("miss")
+
+						if slot6.data.act == "flap" then
+							slot0:changeLife(-1)
+						end
+					end
+				end
+			elseif slot6.remove == true then
+				if slot6.data.final then
+					slot0.finalEnd = true
+					slot10 = nil
+					slot10 = slot6.typeMatch and "final_correct" or "final_wrong"
+
+					slot0:setCharAnimation(slot0.leftSpine, slot10, 0, function ()
+						uv0.leftSpine:Pause()
+					end)
+					slot0:setCharAnimation(slot0.rightSpine, slot10, 0, function ()
+						uv0.rightSpine:Pause()
+					end)
+				end
+
+				slot10 = table.remove(slot0.dymItems, slot5)
+
+				Destroy(slot10.tf)
+
+				slot10.tf = nil
+				slot10.anim = nil
+				slot10.track = nil
+			elseif slot9 > 0 and slot9 <= slot7 then
+				slot0:activeDymItem(slot6)
+			elseif not slot6.throw and slot9 > 0 and slot9 <= slot7 + 100 then
+				slot6.throw = true
+
+				slot0:setCharAnimation(slot0.rightSpine, "throw", 0, function ()
+					uv0:setCharAnimation(uv0.rightSpine, "idle", 0, nil, )
+				end, nil)
+			elseif slot9 <= slot7 / 2 or slot8 <= slot1 and not slot6.active then
+				slot6.remove = true
 			end
 		end
 	end

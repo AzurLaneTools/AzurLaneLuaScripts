@@ -3,7 +3,6 @@ slot0 = class("MedalGoodsCard", import(".BaseGoodsCard"))
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.groupMark = slot0.tf:Find("group_locked")
 	slot0.limitCountLabelTF = findTF(slot0.tf, "count_contain/label"):GetComponent(typeof(Text))
 end
 
@@ -32,16 +31,6 @@ slot0.Init = function(slot0)
 
 	slot3 = slot0.goods:getConfig("is_ship")
 	slot4 = slot0.goods:getConfig("goods")
-
-	if slot0.groupMark and slot3 == 1 and #slot4 == 1 then
-		if pg.ship_data_template[slot4[1]].group_type and slot7 > 0 then
-			setActive(slot0.groupMark, not getProxy(CollectionProxy):getShipGroup(slot7))
-		else
-			setActive(slot0.groupMark, false)
-		end
-	else
-		setActive(slot0.groupMark, false)
-	end
 end
 
 slot0.OnDispose = function(slot0)

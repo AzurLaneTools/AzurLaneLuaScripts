@@ -20,9 +20,11 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.GetHalfBodyOffsetY = function(slot0)
-	slot1 = slot0.container.parent
+	if not slot0:IslimitYPos() then
+		return 0
+	end
 
-	return slot1.rect.height * -0.5 - (slot0.live2dContainer.rect.height * -0.5 * slot0.live2dContainer.localScale.y + slot1:InverseTransformPoint(slot0.live2dContainer.position).y)
+	return MainPaintingShift.GetHalfBodyOffsetY(slot0.container.parent, slot0.live2dContainer)
 end
 
 slot0.OnLoad = function(slot0, slot1)
@@ -115,7 +117,7 @@ slot0.UpdateContainerPosition = function(slot0)
 end
 
 slot0.ResetContainerPosition = function(slot0)
-	slot0.live2dContainer.localPosition = Vector3(slot0.live2dContainer.localPosition.x, 0, 0)
+	slot0.live2dContainer.localPosition = Vector3(slot0.live2dContainer.localPosition.x, slot0:GetHalfBodyOffsetY(), 0)
 end
 
 slot0.OnUnload = function(slot0)
@@ -335,7 +337,7 @@ slot0.GetCenterPos = function(slot0)
 end
 
 slot0.IslimitYPos = function(slot0)
-	return slot0.ship:getPainting() == "biaoqiang" or slot1 == "z23" or slot1 == "lafei" or slot1 == "lingbo" or slot1 == "mingshi" or slot1 == "xuefeng"
+	return MainPaintingShift.IsLimitYPos(slot0.ship:getPainting())
 end
 
 return slot0

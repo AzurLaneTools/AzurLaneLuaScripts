@@ -202,13 +202,20 @@ end
 slot0.ResetPostion = function(slot0)
 	getProxy(SettingsProxy):resetSkinPosSetting(slot0.flagShip)
 
+	slot1 = MainPaintingView.GetAssistantStatus(slot0.flagShip)
 	slot2, slot3 = slot0.shift:GetMeshImageShift()
 	slot0.paintingTF.anchoredPosition = slot2
 	slot0._bgTf.anchoredPosition = slot2
-	slot0.l2dContainer.anchoredPosition, slot5 = slot0.shift:GetL2dShift()
+	slot4, slot5 = slot0.shift:GetL2dShift()
+
+	if MainPaintingShift.IsLimitYPos(slot0.flagShip:getPainting()) then
+		slot4.y = MainPaintingShift.GetHalfBodyOffsetY(slot0.paintingTF.parent, slot0.l2dContainer)
+	end
+
+	slot0.l2dContainer.anchoredPosition = slot4
 	slot0.spineContainer.anchoredPosition, slot7 = slot0.shift:GetSpineShift()
 
-	if MainPaintingView.GetAssistantStatus(slot0.flagShip) == MainPaintingView.STATE_L2D then
+	if slot1 == MainPaintingView.STATE_L2D then
 		slot0._bgTf.localScale = slot5
 		slot0.paintingTF.localScale = slot5
 	elseif slot1 == MainPaintingView.STATE_SPINE_PAINTING then

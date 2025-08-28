@@ -1,11 +1,5 @@
 slot0 = class("QuotaGoodsCard", import(".BaseGoodsCard"))
 
-slot0.Ctor = function(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
-
-	slot0.limitTag = slot0.tf:Find("mask/tag/limit_tag")
-end
-
 slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
 	slot5 = slot0.goodsVO:canPurchase()
