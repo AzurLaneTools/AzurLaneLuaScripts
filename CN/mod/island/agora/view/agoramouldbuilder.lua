@@ -1,83 +1,85 @@
-slot0 = class("AgoraMouldBuilder")
+slot0 = class("AgoraMouldBuilder", import("Mod.Island.Core.Builder.IslandItemInteractBuilder"))
 
-slot0.Ctor = function(slot0, slot1)
-	slot0.view = slot1
-	slot0.tpl = GameObject.Find("AgoraMainStage/tpl")
-	slot0.root = GameObject.Find("AgoraMainStage/furniture")
+slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
+
+	slot0.root = slot1.furnitureRoot
 end
 
-slot0.Build = function(slot0, slot1)
-	slot4 = nil
+slot0.Build = function(slot0, slot1, slot2)
+	slot3 = slot0:GetPoolMgr()
+	slot3 = slot3:GetAgoraRoot()
+
+	setParent(slot3, slot0.root)
+
+	slot4 = slot0:GetModule(slot3, slot1)
+
+	assert(slot0.unitListType)
+	slot4:SetUnitType(slot0.unitListType)
+
+	slot5 = nil
 
 	seriesAsync({
 		function (slot0)
 			slot1 = uv0
 
-			slot1:LoadRes(uv1, uv2, function (slot0)
+			slot1:Load(uv1, function (slot0)
 				uv0 = slot0
 
 				uv1()
 			end)
 		end,
 		function (slot0)
-			uv0:LoadBt(uv1, uv2, slot0)
+			uv0:SetupBT(uv1, uv2:GetBt(), slot0)
 		end,
 		function (slot0)
 			uv0:LoadTimeline(uv1, uv2, uv3, slot0)
 		end
 	}, function ()
-		uv0:Init(uv1)
+		uv0:AddTypeAndID(uv1, uv2)
+		uv0:AddComponents(uv1, uv3)
+		uv0:SetTag(uv1)
+		uv2:Init(uv4, uv0)
+		existCall(uv5, uv2)
 	end)
 
-	return AgoraFurnitrueMould.New(slot0.view, cloneTplTo(slot0.tpl, slot0.root).gameObject, slot1)
+	return slot4
 end
 
-slot0.LoadRes = function(slot0, slot1, slot2, slot3)
-	slot5 = ResourceMgr.Inst
-
-	slot5:getAssetAsync(slot2:GetResPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot1 = Object.Instantiate(slot0)
-
-		setParent(slot1, uv0)
-		uv1(slot1)
-	end), true, true)
-end
-
-slot0.LoadBt = function(slot0, slot1, slot2, slot3)
-	if not slot2:HasBt() then
+slot0.SetupBT = function(slot0, slot1, slot2, slot3)
+	if not slot2 or slot2 == "" then
 		slot3()
 
 		return
 	end
 
-	slot5 = ResourceMgr.Inst
+	slot4 = ResourceMgr.Inst
 
-	slot5:getAssetAsync(slot2:GetBt(), "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		GetOrAddComponent(uv0, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
+	slot4:getAssetAsync(slot2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		assert(slot0, uv0)
 
-		uv1()
-	end), true, true)
-end
-
-slot0.LoadTimeline = function(slot0, slot1, slot2, slot3, slot4)
-	if not slot3:HasTimeline() then
-		slot4()
-
-		return
-	end
-
-	slot6 = ResourceMgr.Inst
-
-	slot6:getAssetAsync(slot3:GetTimeline(), "", typeof(UnityEngine.Playables.PlayableAsset), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot1 = uv0.transform:Find("playable"):GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-		slot1.playableAsset = Object.Instantiate(slot0)
-
-		if TimelineHelper.GetTimelineTracks(slot1) and slot2.Length > 0 then
-			TimelineHelper.SetSceneBinding(slot1, slot2[0], uv1)
-		end
+		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
 
 		uv2()
 	end), true, true)
+end
+
+slot0.GetModule = function(slot0, slot1, slot2)
+	return AgoraFurnitrueMould.New(slot0.view, slot1, slot2)
+end
+
+slot0.Load = function(slot0, slot1, slot2)
+	slot0:GetPoolMgr():GetAgoraObj(slot1:GetResPath(), slot2)
+end
+
+slot0.Recycle = function(slot0, slot1, slot2)
+	if slot2 then
+		slot0:GetPoolMgr():ReturnAgoraObj(slot1:GetResPath(), slot2)
+	end
+end
+
+slot0.RecycleRoot = function(slot0, slot1)
+	slot0:GetPoolMgr():ReturnAgoraRoot(slot1)
 end
 
 return slot0

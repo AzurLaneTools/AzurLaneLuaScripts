@@ -7,43 +7,46 @@ slot0.URGENCY_ORDER_TYPE = 2
 slot0.SHIP_ORDER_TYPE = 3
 
 slot0.OnInit = function(slot0, slot1)
-	slot2 = slot1.order_system or {}
-	slot0.exp = slot2.favor or 0
-	slot0.tendency = slot2.daily_select or IslandOrderSlot.TENDENCY_TYPE_COMMON
-	slot0.finishCnt = slot2.daily_slot_num or 0
-	slot0.urgencyFinishCnt = slot2.time_slot_num or 0
-	slot0.awardIndexList = {}
-	slot3 = ipairs
-	slot4 = slot2.get_favor or {}
+	slot0:InitData(slot1.order_system or {})
+end
 
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot0.awardIndexList, slot7)
+slot0.InitData = function(slot0, slot1)
+	slot0.exp = slot1.favor or 0
+	slot0.tendency = slot1.daily_select or IslandOrderSlot.TENDENCY_TYPE_COMMON
+	slot0.finishCnt = slot1.daily_slot_num or 0
+	slot0.urgencyFinishCnt = slot1.time_slot_num or 0
+	slot0.awardIndexList = {}
+	slot2 = ipairs
+	slot3 = slot1.get_favor or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.awardIndexList, slot6)
 	end
 
 	slot0.slotList = {}
-	slot3 = ipairs
-	slot4 = slot2.slot_list or {}
+	slot2 = ipairs
+	slot3 = slot1.slot_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot8 = IslandOrderSlot.New(slot7)
-		slot0.slotList[slot8.id] = slot8
+	for slot5, slot6 in slot2(slot3) do
+		slot7 = IslandOrderSlot.New(slot6)
+		slot0.slotList[slot7.id] = slot7
 	end
 
 	slot0.shipSlotList = {}
 
-	for slot6, slot7 in ipairs(pg.island_order_list.get_id_list_by_type[uv0.SHIP_ORDER_TYPE]) do
-		slot8 = IslandShipOrderSlot.New({
-			id = slot7
+	for slot5, slot6 in ipairs(pg.island_order_list.get_id_list_by_type[uv0.SHIP_ORDER_TYPE]) do
+		slot7 = IslandShipOrderSlot.New({
+			id = slot6
 		})
-		slot0.shipSlotList[slot8.id] = slot8
+		slot0.shipSlotList[slot7.id] = slot7
 	end
 
-	slot3 = ipairs
-	slot4 = slot2.ship_slot_list or {}
+	slot2 = ipairs
+	slot3 = slot1.ship_slot_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		if slot0.shipSlotList[slot7.id] then
-			slot8:Init(slot7, true)
+	for slot5, slot6 in slot2(slot3) do
+		if slot0.shipSlotList[slot6.id] then
+			slot7:Init(slot6, true)
 		end
 	end
 end
@@ -79,7 +82,7 @@ slot0.RemoveSlot = function(slot0, slot1)
 end
 
 slot0.UpdateOrAddOrder = function(slot0, slot1)
-	if slot0.slotList[slot1.id] then
+	if not slot0.slotList[slot1.id] then
 		slot0:AddSlot(slot1)
 	else
 		slot0:UpdateSlot(slot1)
@@ -95,7 +98,7 @@ slot0.GetFinishCnt = function(slot0)
 end
 
 slot0.GetMaxFinishCount = function(slot0)
-	return pg.island_set.order_daily_limit_num.key_value_int
+	return pg.island_set.order_daily_limit_num.key_value_int + slot0:GetHost():GetAblityAgency():GetOrderDailyCntAddition()
 end
 
 slot0.IncUrgencyFinishCnt = function(slot0)
@@ -147,19 +150,21 @@ slot0.GetNextTargetExp = function(slot0)
 end
 
 slot0.StaticGetTargetExp = function(slot0, slot1)
-	return pg.island_order_favor[slot1].exp
+	slot2 = 0
+
+	for slot6 = 1, slot1 do
+		slot2 = slot2 + pg.island_order_favor[slot6].exp
+	end
+
+	return slot2
 end
 
 slot0.GetLevel = function(slot0)
-	slot1 = 0
-
-	for slot5, slot6 in ipairs(pg.island_order_favor.all) do
-		if pg.island_order_favor[slot6].exp <= slot0.exp then
-			slot1 = slot6
+	for slot4, slot5 in ipairs(pg.island_order_favor.all) do
+		if slot0.exp <= slot0:StaticGetTargetExp(slot5) then
+			return slot5
 		end
 	end
-
-	return slot1
 end
 
 slot0.IsMaxLevel = function(slot0)
@@ -241,6 +246,10 @@ slot0.UpdatePerDay = function(slot0)
 	end
 
 	slot0:DispatchEvent(uv0.ORDER_FINISH_UPDATE)
+end
+
+slot0.OnSeasonReset = function(slot0, slot1)
+	slot0:InitData(slot1)
 end
 
 return slot0

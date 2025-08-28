@@ -52,6 +52,7 @@ require("Mgr/GMTMgr")
 require("Mgr/IKMgr")
 require("Mgr/ChangeSkinMgr")
 require("Mgr/VoiceChat/Include")
+require("Mgr/watermarking/WatermarkingMgr")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

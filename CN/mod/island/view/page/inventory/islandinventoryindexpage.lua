@@ -11,7 +11,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.confirmBtn = slot0:findTF("frame/button_list/confirm")
 
 	setText(slot0:findTF("frame/top/title"), i18n("child_filter_title"))
-	setText(slot0.cancelBtn:Find("Text"), i18n1("重置"))
+	setText(slot0.cancelBtn:Find("Text"), i18n("island_word_reset"))
 	setText(slot0.confirmBtn:Find("Text"), i18n("word_ok"))
 end
 

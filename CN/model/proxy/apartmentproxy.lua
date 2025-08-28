@@ -249,6 +249,14 @@ slot0.SetRoomInviteList = function(slot0, slot1, slot2, slot3)
 		removeIds = slot6,
 		callback = slot3
 	})
+
+	slot7 = uv0.GetSlideInviteList()
+
+	if #underscore.filter(slot7, function (slot0)
+		return not table.contains(uv0, slot0)
+	end) ~= #slot7 then
+		slot0:SetSlideInviteList(slot8)
+	end
 end
 
 slot0.GetSlideInviteList = function()

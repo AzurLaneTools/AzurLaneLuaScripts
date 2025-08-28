@@ -832,6 +832,67 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[401] = {
+		rarity = 5,
+		name = "滨海欢愉 ",
+		type = 3,
+		touch_id = "",
+		room_id = 4,
+		desc = "度假时间开始~！椰树下的阳光，海岸边的清凉。从高处直冲而下时，迎面扑来海风混合着飞溅的水珠。只是刹那间就跃入了一片假期的欢愉。",
+		is_exclusive = 0,
+		model = "pay_publicplace/slide",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 401,
+		target_slots = {
+			140101
+		},
+		shop_id = {
+			270401
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture401"
+		}
+	},
+	[323] = {
+		rarity = 4,
+		name = "云中甜梦",
+		type = 5,
+		room_id = 3,
+		desc = "轻轻晃动的蓬松云朵，柔软细腻的触感，或许这就是坐进一团棉花糖的感觉，和她一起在诱人的香甜气息中享受轻松时光吧。 ",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		acesses = "",
+		id = 323,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990360
+			}
+		},
+		shop_id = {
+			270303
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture323"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	[1101] = {
 		rarity = 3,
 		name = "兔兔摇篮",
@@ -1120,7 +1181,11 @@ pg.dorm3d_furniture_template = {
 			306,
 			307,
 			321,
-			322
+			322,
+			323
+		},
+		{
+			401
 		},
 		[11] = {
 			1101,
@@ -1168,6 +1233,8 @@ pg.dorm3d_furniture_template = {
 		307,
 		321,
 		322,
+		401,
+		323,
 		1101,
 		1102,
 		1103,

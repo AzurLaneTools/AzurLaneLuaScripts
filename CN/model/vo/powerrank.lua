@@ -9,6 +9,7 @@ slot0.TYPE_ACT_BOSS_BATTLE = 7
 slot0.TYPE_GUILD_BATTLE = 8
 slot0.TYPE_MILITARY_RANK = 9
 slot0.TYPE_BOSSRUSH = 10
+slot0.TYPE_ISLAND_SEASON_PT = 11
 slot0.typeInfo = {
 	{
 		title_word = {

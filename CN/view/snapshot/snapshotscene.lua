@@ -484,7 +484,7 @@ slot0.updateSkin = function(slot0)
 
 		slot4 = pg.Live2DMgr.GetInstance()
 		slot0.live2dRequestId = slot4:GetLive2DModelAsync(slot0.paintSkin, function (slot0)
-			UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
+			HotfixHelper.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
 
 			slot1 = slot0.transform
 
@@ -755,7 +755,7 @@ end
 slot0.updateCameraCanvas = function(slot0)
 	slot4 = 1
 
-	if CameraMgr.instance.AspectRatio > UnityEngine.Screen.width / UnityEngine.Screen.height then
+	if pg.CameraFixMgr.GetInstance().targetRatio > UnityEngine.Screen.width / UnityEngine.Screen.height then
 		slot4 = slot1 / slot5
 	elseif slot1 < slot5 then
 		slot4 = slot5 / slot1

@@ -20,6 +20,24 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.loadLoading = findTF(slot0._tf, "loading")
 
 	setText(slot0._tf:Find("title"), slot0:GetTitle())
+
+	slot2 = slot1.isDel or false
+	slot0.delBtn = findTF(slot0._tf, "DelBtn")
+
+	setActive(slot0.delBtn, slot2)
+	setText(slot0.delBtn:Find("Text"), i18n("resource_clear_generaltext"))
+	setActive(slot0._tf:Find("BG"), not slot2)
+	setActive(slot0._tf:Find("BGDel"), slot2)
+	setAnchoredPosition(slot0._tf:Find("status"), slot2 and {
+		y = -106
+	} or {
+		y = -135
+	})
+	setAnchoredPosition(slot0._tf:Find("version"), slot2 and {
+		y = -160
+	} or {
+		y = -198
+	})
 	slot0:Init()
 	slot0:InitPrefsBar()
 end
@@ -49,6 +67,23 @@ slot0.Init = function(slot0)
 			})
 		end
 	end, SFX_PANEL)
+
+	if isActive(slot0.delBtn) then
+		onButton(slot0, slot0.delBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_CONFIRM,
+				content = i18n(uv0:getDelTipName(), HashUtil.BytesToString(GroupHelper.GetGroupMgrByName(uv0:GetDownloadGroup()):GetAllCacheFileSize())),
+				onYes = function ()
+					GroupHelper.SetGroupPrefsByName(uv0, DMFileChecker.Prefs.Min)
+
+					if HotfixHelper.GetAllShortPathArrInGroup(uv0) and slot0.Length > 0 then
+						HotfixHelper.DeleteFileByShortPathArr(uv0, slot0)
+					end
+				end
+			})
+		end, SFX_PANEL)
+	end
+
 	slot0:Check()
 end
 
@@ -172,9 +207,22 @@ slot0.GetTitle = function(slot0)
 end
 
 slot0.isNeedUpdate = function(slot0)
+	if IsUnityEditor then
+		return false
+	end
+
 	slot2 = BundleWizard.Inst:GetGroupMgr(slot0:GetDownloadGroup())
 
 	return tonumber(slot2.localVersion.Build) < tonumber(slot2.serverVersion.Build)
+end
+
+slot0.getDelTipName = function(slot0)
+	return ({
+		DORM = "resource_clear_3ddorm",
+		MANGA = "resource_clear_manga",
+		GALLERY_PIC = "resource_clear_gallery",
+		MAP = "resource_clear_3disland"
+	})[slot0:GetDownloadGroup()]
 end
 
 return slot0

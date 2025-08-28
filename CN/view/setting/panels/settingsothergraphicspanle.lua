@@ -53,16 +53,14 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	setActive(slot2:Find("toggle"), slot5)
 	setActive(slot2:Find("select"), not slot5)
 
-	slot8 = slot0.typeList[slot1]
-
 	if slot5 then
-		slot9 = function(slot0)
+		slot8 = function(slot0)
 			PlayerPrefs.SetInt(uv0.playerPrefsname, slot0 and 1 or 0)
 		end
 
-		slot12 = nil
+		slot11 = nil
 
-		slot13 = function(slot0)
+		slot12 = function(slot0)
 			uv0 = slot0
 
 			SetActive(uv1:Find("show"), not slot0)
@@ -123,41 +121,26 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 			uv3:JumpToCustomSetting(uv4)
 		end, SFX_CANCEL)
 
-		slot14 = nil
+		slot13 = nil
 
-		if slot8 == GraphicSettingConst.TYPE_GLOBAL_QUALITY then
-			if (slot0.graphicLevel ~= uv1.Custom or not PlayerPrefs.GetInt(slot3.playerPrefsname, -1)) and not nil or slot14 == -1 then
-				slot14 = slot0.qualitySettingAsset[slot3.Cname]
-			end
-		elseif slot8 == GraphicSettingConst.TYPE_VOLUME then
-			slot14 = PlayerPrefs.GetInt(slot3.playerPrefsname, 0)
+		if (slot0.graphicLevel ~= uv1.Custom or not PlayerPrefs.GetInt(slot3.playerPrefsname, -1)) and not nil or slot13 == -1 then
+			slot13 = slot3.defaultValues[slot0.graphicLevel]
 		end
 
-		slot13(slot14 == 1 or slot14 == true)
+		slot12(slot13 == 1 or slot13 == true)
 
 		return
 	end
 
-	slot9 = nil
+	slot8 = nil
 
-	if slot8 == GraphicSettingConst.TYPE_GLOBAL_QUALITY then
-		if (slot0.graphicLevel ~= uv1.Custom or not PlayerPrefs.GetInt(slot3.playerPrefsname, -1)) and not nil or slot11 == -1 then
-			slot11 = slot0.qualitySettingAsset[slot3.Cname]
-		end
+	if (slot0.graphicLevel ~= uv1.Custom or not PlayerPrefs.GetInt(slot3.playerPrefsname, -1)) and not nil or slot10 == -1 then
+		slot10 = slot3.defaultValues[slot0.graphicLevel]
+	end
 
-		for slot15, slot16 in ipairs(slot3.options) do
-			if slot16 == slot11 then
-				slot9 = slot15
-			end
-		end
-	elseif slot8 == GraphicSettingConst.TYPE_VOLUME then
-		slot9 = 1
-		slot10 = PlayerPrefs.GetInt(slot3.playerPrefsname, 0)
-
-		for slot14, slot15 in ipairs(slot3.options) do
-			if slot15 == slot10 then
-				slot9 = slot14
-			end
+	for slot14, slot15 in ipairs(slot3.options) do
+		if slot15 == slot10 then
+			slot8 = slot14
 		end
 	end
 
@@ -188,22 +171,21 @@ slot0.SetPlayerPrefSetting = function(slot0, slot1)
 	end
 
 	for slot5, slot6 in ipairs(uv1) do
-		if slot1.Cname ~= slot6.Cname then
-			slot7 = PlayerPrefs.SetInt(slot6.playerPrefsname, -1)
-			slot8 = slot0.qualitySettingAsset[slot6.Cname]
+		if slot1.playerPrefsname ~= slot6.playerPrefsname then
+			slot7 = slot6.defaultValues[slot0.graphicLevel]
 
 			if slot6.settingType == uv2.toggle then
-				PlayerPrefs.SetInt(slot6.playerPrefsname, slot8 and 1 or 0)
+				PlayerPrefs.SetInt(slot6.playerPrefsname, slot7 and 1 or 0)
 			else
-				slot9 = nil
+				slot8 = nil
 
-				for slot13, slot14 in ipairs(slot6.options) do
-					if slot14 == slot8 then
-						slot9 = slot13
+				for slot12, slot13 in ipairs(slot6.options) do
+					if slot13 == slot7 then
+						slot8 = slot12
 					end
 				end
 
-				PlayerPrefs.SetInt(slot6.playerPrefsname, slot6.options[slot9])
+				PlayerPrefs.SetInt(slot6.playerPrefsname, slot6.options[slot8])
 			end
 		end
 	end
@@ -217,8 +199,8 @@ slot0.OnUpdate = function(slot0)
 	slot0.playerSettingPlaySet = {}
 	slot0.graphicLevel = PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4)
 	slot0.customSetting = slot0.graphicLevel == 4
-	slot0.qualitySettingAsset = LoadAny("three3dquaitysettings/defaultsettings", uv0[slot0.graphicLevel])
-	slot0.list, slot0.typeList = slot0:GetList()
+	slot1 = uv0[slot0.graphicLevel]
+	slot0.list = slot0:GetList()
 
 	slot0.uilist:align(#slot0.list)
 end
@@ -229,14 +211,13 @@ end
 
 slot0.GetList = function(slot0)
 	slot1 = {}
-	slot2 = {}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		slot2 = false
 
 		if uv0:GetParentSetting(slot0.parentId) then
 			if (not uv0.customSetting or not PlayerPrefs.GetInt(slot1.playerPrefsname, -1)) and not nil or slot3 == -1 then
-				slot3 = uv0.qualitySettingAsset[slot1.Cname]
+				slot3 = slot1.defaultValues[uv0.graphicLevel]
 			end
 
 			slot2 = slot3 == 0
@@ -245,21 +226,13 @@ slot0.GetList = function(slot0)
 		return not (slot0.isShow == 0 or slot2)
 	end
 
-	for slot7, slot8 in ipairs(uv0) do
-		if slot3(slot8) then
-			table.insert(slot1, slot8)
-			table.insert(slot2, GraphicSettingConst.TYPE_GLOBAL_QUALITY)
+	for slot6, slot7 in ipairs(uv0) do
+		if slot2(slot7) then
+			table.insert(slot1, slot7)
 		end
 	end
 
-	for slot7, slot8 in ipairs(GraphicSettingConst.volumeSettings) do
-		if slot3(slot8) then
-			table.insert(slot1, slot8)
-			table.insert(slot2, GraphicSettingConst.TYPE_VOLUME)
-		end
-	end
-
-	return slot1, slot2
+	return slot1
 end
 
 slot0.GetParentSetting = function(slot0, slot1)

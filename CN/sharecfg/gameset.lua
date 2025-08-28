@@ -3924,5 +3924,9 @@ pg.gameset = {
 	shop_banner_capacity = {
 		description = "",
 		key_value = 3
+	},
+	WeChat_Mini_Program = {
+		description = "",
+		key_value = 50098
 	}
 }

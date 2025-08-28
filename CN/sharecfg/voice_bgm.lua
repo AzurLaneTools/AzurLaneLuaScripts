@@ -135,7 +135,7 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	NewShopsScene = {
+	ActivityShop50088 = {
 		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
 		bgm = "theme-fushun-adventure"
@@ -2379,5 +2379,10 @@ pg.voice_bgm = {
 		default_bgm = "story-enzecheng-theme",
 		special_bgm = "",
 		bgm = "story-enzecheng-theme"
+	},
+	AierdeliqiAlterItemRePage = {
+		default_bgm = "story-masazhusai",
+		special_bgm = "",
+		bgm = "story-masazhusai"
 	}
 }

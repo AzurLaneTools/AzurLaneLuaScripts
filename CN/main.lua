@@ -33,11 +33,6 @@ end
 
 QualitySettings.vSyncCount = 0
 QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.SkinWeights"), "Unlimited", nil)
-
-GraphicSettingConst.ClearPlayerPrefs()
-GraphicSettingConst.InitDefautQuality()
-ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
-
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false
 
 if IsUnityEditor then
@@ -220,9 +215,21 @@ PressBack = function()
 	end
 end
 
-slot2 = os.clock()
+slot3 = os.clock()
 
 seriesAsync({
+	function (slot0)
+		require("HybridCLRConst")
+		Sandystar.HybridCLRTool.HybridCLRHelper.LoadPatchDLL(Application.streamingAssetsPath .. "/AssetBundles/hybridclr/patch/", HybridCLRConst.PatchDllList)
+		Sandystar.HybridCLRTool.HybridCLRHelper.LoadHotfixDLL(Application.persistentDataPath .. "/AssetBundles/hybridclr/hotfix/", HybridCLRConst.HotfixDllList)
+		Sandystar.HybridCLRTool.HybridCLRHelper.SetFinishCallback(function ()
+			GraphicsInterface = BLHX.Rendering.GraphicsInterface
+
+			GraphicSettingConst.ClearPlayerPrefs()
+			GraphicSettingConst.InitDefautQuality()
+			uv0()
+		end)
+	end,
 	function (slot0)
 		parallelAsync({
 			function (slot0)
@@ -328,19 +335,23 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ChangeSkinMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				if LOCK_ISLAND_DISPLAY then
+					slot0()
+				else
+					pg.IslandVisitorNotificationMgr.GetInstance():Init(slot0)
+				end
 			end
 		}, slot0)
 	end
 }, function (slot0)
-	require("HybridCLRConst")
-	Sandystar.HybridCLRTool.HybridCLRHelper.LoadPatchDLL(Application.streamingAssetsPath .. "/AssetBundles/hybridclr/patch/", HybridCLRConst.PatchDllList)
-	Sandystar.HybridCLRTool.HybridCLRHelper.LoadHotfixDLL(Application.persistentDataPath .. "/AssetBundles/hybridclr/hotfix/", HybridCLRConst.HotfixDllList)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
 	print("loading cost: " .. os.clock() - uv0)
 	VersionMgr.Inst:DestroyUI()
 
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
-		Object.Destroy(slot5)
+		Object.Destroy(slot1)
 	end
 
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
@@ -354,27 +365,27 @@ seriesAsync({
 		return
 	end
 
-	slot6 = pg.SdkMgr.GetInstance()
+	slot2 = pg.SdkMgr.GetInstance()
 
-	slot6:BindCPU()
+	slot2:BindCPU()
 
 	pg.m02 = pm.Facade.getInstance("m02")
-	slot6 = pg.m02
+	slot2 = pg.m02
 
-	slot6:registerCommand(GAME.STARTUP, StartupCommand)
+	slot2:registerCommand(GAME.STARTUP, StartupCommand)
 
-	slot6 = pg.m02
+	slot2 = pg.m02
 
-	slot6:sendNotification(GAME.STARTUP)
+	slot2:sendNotification(GAME.STARTUP)
 
 	pg.playerResUI = PlayerResUI.New()
-	slot6 = pg.SdkMgr.GetInstance()
+	slot2 = pg.SdkMgr.GetInstance()
 
-	slot6:GoSDkLoginScene()
+	slot2:GoSDkLoginScene()
 
-	slot6 = pg.UIMgr.GetInstance()
+	slot2 = pg.UIMgr.GetInstance()
 
-	slot6:AddDebugButton("Device Info", function ()
+	slot2:AddDebugButton("Device Info", function ()
 		originalPrint("+++++++++++graphicsDeviceVendorID:" .. SystemInfo.graphicsDeviceVendorID)
 		DevicePerformanceUtil.GetDevicePerformanceLevel()
 		originalPrint("CPU核心:" .. SystemInfo.processorCount)

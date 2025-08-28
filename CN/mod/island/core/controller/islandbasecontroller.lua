@@ -8,12 +8,20 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0:Init()
 end
 
+slot0.GetIsland = function(slot0)
+	return slot0.island
+end
+
 slot0.IsSelfIsland = function(slot0)
 	return getProxy(IslandProxy):GetIsland().id == slot0.island.id
 end
 
 slot0.GetCore = function(slot0)
 	return slot0.core
+end
+
+slot0.GetView = function(slot0)
+	return slot0.core:GetView()
 end
 
 slot0.OnCoreStateChanged = function(slot0, slot1)
@@ -32,6 +40,8 @@ slot0.AddIslandListener = function(slot0, slot1, slot2)
 	slot3 = function(slot0, ...)
 		uv0(uv1, ...)
 	end
+
+	assert(slot0.__callbacks[slot2] == nil, "This method has been monitored. Please use another one" .. slot1)
 
 	slot0.__callbacks[slot2] = slot3
 
@@ -52,6 +62,10 @@ end
 
 slot0.NotifiyIsland = function(slot0, slot1, ...)
 	slot0.island:DispatchEvent(slot1, ...)
+end
+
+slot0.NotifiyMeditor = function(slot0, slot1, ...)
+	slot0:NotifiyIsland(ISLAND_EX_EVT.EMIT, slot1, ...)
 end
 
 slot0.Receive = function(slot0, slot1, ...)

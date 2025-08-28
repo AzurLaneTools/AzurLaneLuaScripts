@@ -14,10 +14,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.maxLevelTxt = slot0:findTF("frame/top/max_level"):GetComponent(typeof(Text))
 	slot0.closeBtn = slot0:findTF("frame/top/close")
 
-	setText(slot0:findTF("frame/top/title"), i18n1("仓库升级"))
-	setText(slot0:findTF("frame/bottom/Text"), i18n1("升级需求"))
-	setText(slot0:findTF("frame/bottom/bg/max_level"), i18n1("已经达到满级"))
-	setText(slot0:findTF("frame/bottom/capacity/label"), i18n1("仓库容量"))
+	setText(slot0:findTF("frame/top/title"), i18n("island_bag_upgrade_tip"))
+	setText(slot0:findTF("frame/bottom/Text"), i18n("island_bag_upgrade_req"))
+	setText(slot0:findTF("frame/bottom/bg/max_level"), i18n("island_bag_upgrade_max_level"))
+	setText(slot0:findTF("frame/bottom/capacity/label"), i18n("island_bag_upgrade_capacity"))
 end
 
 slot0.OnInit = function(slot0)
@@ -65,7 +65,7 @@ slot0.UpdateAddition = function(slot0, slot1)
 	slot2 = slot1:GetInventoryAgency()
 	slot3 = slot2:GetCapacity()
 	slot4 = slot2:GetLevel()
-	slot0.capacityTxt.text = "<color=#393a3c>" .. slot3 .. "</color><color=#39bfff> + " .. slot2:StaticGetCapacity(slot4 + 1) - slot3 .. "</color>"
+	slot0.capacityTxt.text = "<color=#393a3c>" .. slot3 .. "</color><color=#39bfff> + " .. slot2:GetNextCapacity(slot4 + 1) - slot3 .. "</color>"
 	slot0.levelTxt.text = "Lv." .. slot4
 	slot0.nextLevelTxt.text = "Lv." .. slot4 + 1
 end
@@ -75,7 +75,7 @@ slot0.UpdateConsume = function(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = Drop.Create(uv0[slot1 + 1])
 
-			updateDrop(slot2, slot4)
+			updateCustomDrop(slot2, slot4)
 
 			slot5 = slot4:getOwnedCount()
 

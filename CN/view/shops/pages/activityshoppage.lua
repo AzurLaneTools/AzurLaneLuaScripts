@@ -2,8 +2,10 @@ slot0 = class("ActivityShopPage", import(".BaseShopPage"))
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
+end
 
-	slot0.scrollRectSpecial = scrollRectSpecial
+slot0.getBGM = function(slot0)
+	return string.format("ActivityShop%s", slot0.shop.activityId)
 end
 
 slot0.GetPaintingName = function(slot0)
@@ -56,9 +58,8 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	if slot0.scrollRectSpecial then
-		slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
-	end
+	slot0.scrollRectSpecial = slot0:findTF("scrollRectSpecial")
+	slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
 end
 
 slot0.OnInit = function(slot0)
@@ -206,20 +207,18 @@ end
 
 slot0.Show = function(slot0)
 	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
-		print("TODO:当前的界面不支持这中情况，需要找美术出资源")
 		setActive(go(slot0.lScrollrect), false)
 		setActive(slot0.scrollRectSpecial, true)
 		slot0.groupList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				setText(slot2:Find("title/name"), i18n(uv0.spiltNameCodes[slot1 + 1]))
 
-				slot4 = UIItemList.New(slot2:Find("items"), slot2:Find("items/ActivityShopTpl"))
+				slot4 = UIItemList.New(slot2:Find("items"), slot2:Find("items/ActivityShopNewTpl"))
 
 				slot4:make(function (slot0, slot1, slot2)
 					if slot0 == UIItemList.EventUpdate then
 						slot3 = ActivityGoodsCard.New(slot2)
 						uv0.cards[slot2] = slot3
-						slot3.tagImg.raycastTarget = false
 
 						onButton(uv0, slot3.tf, function ()
 							uv0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
@@ -239,8 +238,6 @@ slot0.Show = function(slot0)
 
 		slot0.canvasGroup.alpha = 1
 		slot0.canvasGroup.blocksRaycasts = true
-
-		slot0:ShowOrHideResUI(true)
 	else
 		setActive(go(slot0.lScrollrect), true)
 
@@ -267,8 +264,6 @@ slot0.Hide = function(slot0)
 		slot0.cards = {}
 		slot0.canvasGroup.alpha = 0
 		slot0.canvasGroup.blocksRaycasts = false
-
-		slot0:ShowOrHideResUI(false)
 	else
 		uv0.super.Hide(slot0)
 	end

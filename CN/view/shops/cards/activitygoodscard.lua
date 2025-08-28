@@ -39,7 +39,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 
 		if slot9 == "pass" then
 			setActive(slot0.limitPassTag, true)
-			setScrollText(findTF(slot0.limitPassTag, "Text"), i18n("eventshop_unlock_info", slot10))
+			setScrollText(findTF(slot0.limitPassTag, "TextGo/Text"), i18n("eventshop_unlock_info", slot10))
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)

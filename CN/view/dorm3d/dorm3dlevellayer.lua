@@ -152,9 +152,12 @@ slot0.InitItemList = function(slot0)
 							slot1 = uv0
 
 							setActive(slot1:Find("count"), true)
-							updateDorm3dIcon(uv0, Drop.Create(uv1[uv2].data))
+							updateCustomDrop(uv0, Drop.Create(uv1[uv2].data), {
+								style = "dorm"
+							})
 							onButton(uv3, uv4, function ()
 								uv0:emit(BaseUI.ON_NEW_DROP, {
+									style = "dorm",
 									drop = uv1
 								})
 							end, SFX_PANEL)

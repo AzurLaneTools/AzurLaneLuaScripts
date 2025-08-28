@@ -30,6 +30,7 @@ slot0.ON_DROP_CLIENT = "Dorm3dRoomMediator.ON_DROP_CLIENT"
 slot0.UPDATE_FAVOR_DISPLAY = "Dorm3dRoomMediator.UPDATE_FAVOR_DISPLAY"
 slot0.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE = "Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE"
 slot0.REFRESH_FURNITURE_AND_SLOTS_DONE = "Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE"
+slot0.REMOVE_EXTRA_SYSTEM = "Dorm3dRoomMediator.REMOVE_EXTRA_SYSTEM"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.TRIGGER_FAVOR, function (slot0, slot1, slot2)
@@ -52,6 +53,9 @@ slot0.register = function(slot0)
 			viewComponent = Dorm3dFurnitureSelectLayer,
 			data = slot1,
 			onRemoved = function ()
+				uv0.viewComponent:InitExtraSystem({
+					DormConst.EXTRA_SYSTEMS.FurnitureSlide
+				})
 				uv0.viewComponent:TempHideUI(false, uv1)
 			end
 		}), nil, function ()
@@ -198,6 +202,9 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.REFRESH_FURNITURE_AND_SLOTS_DONE, function (slot0)
 		uv0:sendNotification(uv1.REFRESH_FURNITURE_AND_SLOTS_DONE)
+	end)
+	slot0:bind(uv0.REMOVE_EXTRA_SYSTEM, function (slot0, slot1)
+		uv0:removeSubLayers(slot1)
 	end)
 	slot0:bind(uv0.DO_TALK, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.APARTMENT_DO_TALK, {
@@ -357,11 +364,37 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:UpdateFavorDisplay()
 		end,
 		[ApartmentProxy.UPDATE_ROOM_INVITE_LIST] = function (slot0, slot1)
-			slot2 = slot1:getBody()
+			for slot6, slot7 in ipairs(slot1:getBody().addIds) do
+				table.insert(slot0.contextData.groupIds, slot7)
+			end
 
 			slot0.viewComponent:LoadCharacterAdditionally(slot2.addIds, slot2.callback)
 		end
 	}
+end
+
+slot0.handleNotification = function(slot0, slot1)
+	uv0.super.handleNotification(slot0, slot1)
+
+	slot2 = slot1:getName()
+	slot3 = slot1:getBody()
+	slot4 = slot0.viewComponent.systemList or {}
+
+	for slot8, slot9 in pairs(slot4) do
+		slot9:HandleNotification(slot2, slot3)
+	end
+end
+
+slot0.listNotificationInterests = function(slot0)
+	slot1 = underscore.keys(slot0.handleDic or {})
+
+	for slot6, slot7 in pairs({
+		SlideExtraSystem
+	}) do
+		slot1 = table.mergeArray(slot1, slot7.GetInterests())
+	end
+
+	return slot1
 end
 
 slot0.remove = function(slot0)

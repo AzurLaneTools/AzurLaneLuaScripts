@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(IslandProxy):GetIsland():GetInventoryAgency():CanUpgrade() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("已是最大等级"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_bag_max_level"))
 
 		return
 	end
@@ -16,7 +16,7 @@ slot0.execute = function(slot0, slot1)
 			count = slot0[3]
 		}):getOwnedCount() < slot0[3]
 	end) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("资源不足"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -37,7 +37,8 @@ slot0.execute = function(slot0, slot1)
 
 			uv2:Upgrade()
 			uv1:sendNotification(GAME.ISLAND_UPGRADE_INVENTORY_DONE)
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("升级成功"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_bag_uprade_success"))
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandInventoryUpgrade(uv2:GetLevel()))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.ret] .. slot0.ret)
 		end

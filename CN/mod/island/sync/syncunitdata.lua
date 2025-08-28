@@ -26,7 +26,7 @@ slot0.Pack = function(slot0)
 end
 
 slot0.toString = function(slot0)
-	return string.format("id=%d,pos=[%s,%s,%s],dir=[%s,%s,%s,%s],status=%d", slot0.id, string.format("%.5f", slot0.pos.x), string.format("%.5f", slot0.pos.y), string.format("%.5f", slot0.pos.z), string.format("%.5f", slot0.dir.x), string.format("%.5f", slot0.dir.y), string.format("%.5f", slot0.dir.z), string.format("%.5f", slot0.dir.w), slot0.status)
+	return string.format("id=%d,pos=[%s,%s,%s],dir=[%s,%s,%s,%s],status=%s", slot0.id, string.format("%.5f", slot0.pos.x), string.format("%.5f", slot0.pos.y), string.format("%.5f", slot0.pos.z), string.format("%.5f", slot0.dir.x), string.format("%.5f", slot0.dir.y), string.format("%.5f", slot0.dir.z), string.format("%.5f", slot0.dir.w), PrintTable(slot0.status))
 end
 
 return slot0

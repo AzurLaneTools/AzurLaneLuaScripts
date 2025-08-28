@@ -43,7 +43,6 @@ slot0.preload = function(slot0, slot1)
 			end)
 		end
 	}, slot1)
-	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
 end
 
 slot0.init = function(slot0)
@@ -307,22 +306,16 @@ end
 slot0.TakePhoto = function(slot0)
 	slot0:GamePause()
 	slot0:ShowOrHideUI(false)
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		slot0.timelineCamera,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			table.insert(uv0.contextData.photoData, {
-				camera = uv0.contextData.curCamera,
-				time = uv0.timelinePlayer:GetTime(),
-				texture = slot0
-			})
-			uv0.photoWindow:Show()
-			uv0.photoWindow:Flush(#uv0.contextData.photoData, true)
-			uv0.gameView:Flush()
-		end)
-	})
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(slot0.timelineCamera, function (slot0)
+		table.insert(uv0.contextData.photoData, {
+			camera = uv0.contextData.curCamera,
+			time = uv0.timelinePlayer:GetTime(),
+			texture = slot0
+		})
+		uv0.photoWindow:Show()
+		uv0.photoWindow:Flush(#uv0.contextData.photoData, true)
+		uv0.gameView:Flush()
+	end)
 end
 
 slot0.GamePause = function(slot0)
@@ -364,25 +357,19 @@ slot0.ShowRealImage = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.SaveImage = function(slot0, slot1)
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		slot0.overlayCamera,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			slot1 = uv0.sizeDelta.x / uv1.canvas.sizeDelta.x * Screen.width
-			slot2 = uv0.sizeDelta.y / uv1.canvas.sizeDelta.y * Screen.height
-			slot3 = UnityEngine.Texture2D.New(slot1, slot2)
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(slot0.overlayCamera, function (slot0)
+		slot1 = uv0.sizeDelta.x / uv1.canvas.sizeDelta.x * Screen.width
+		slot2 = uv0.sizeDelta.y / uv1.canvas.sizeDelta.y * Screen.height
+		slot3 = UnityEngine.Texture2D.New(slot1, slot2)
 
-			slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
-			slot3:Apply()
-			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot3), function (slot0, slot1)
-				if slot0 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
-				end
-			end)
+		slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
+		slot3:Apply()
+		YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot3), function (slot0, slot1)
+			if slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+			end
 		end)
-	})
+	end)
 end
 
 slot0.willExit = function(slot0)

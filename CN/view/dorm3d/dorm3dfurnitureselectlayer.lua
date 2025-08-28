@@ -437,7 +437,7 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 	slot4 = tf(slot2)
 	slot4.name = slot3.id
 
-	updateDorm3dIcon(slot4:Find("Item/Dorm3dIconTpl"), Drop.New({
+	updateCustomDrop(slot4:Find("Item/Dorm3dIconTpl"), Drop.New({
 		type = DROP_TYPE_DORM3D_FURNITURE,
 		id = slot3.id,
 		count = slot3.count
@@ -471,7 +471,8 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 	setActive(slot4:Find("Item/LabelSP"), slot8 == 2)
 	setActive(slot4:Find("Item/Action"), false)
 
-	slot10 = slot3.template:GetEndTime() > 0 and pg.TimeMgr.GetInstance():GetServerTime() < slot9
+	slot9 = slot3.template:GetEndTime()
+	slot10 = slot3.count == 0 and slot9 > 0 and pg.TimeMgr.GetInstance():GetServerTime() < slot9
 
 	setActive(slot4:Find("TimeLimit"), slot10)
 

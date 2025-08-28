@@ -37,7 +37,22 @@ slot0.BONE_TO_TOUCH = {
 	LeftCalf = "leg",
 	Belly = "belly"
 }
-slot0.LADY_MOVE_SPEED = 1.5
+slot0.EXTRA_SYSTEMS = {
+	FurnitureSlide = "FurnitureSlide"
+}
+slot0.SYSTEM_LIST = {
+	slot0.EXTRA_SYSTEMS.FurnitureSlide
+}
+slot0.DEFAULT_ANIM_FADE_IN_TIME = 0.25
+slot0.LADY_MOVE_SPEED = 0.85
 slot0.LADY_ROTATE_SPEED = 10
+slot0.TRANSPARENCY_MIN_DISTANCE = 0.6
+slot0.TRANSPARENCY_MAX_DISTANCE = 1.2
+slot0.CHARACTER_CONTROLLER = {
+	stepOffset = 0.2,
+	radius = 0.08,
+	height = 1.49,
+	center = Vector3(0, 0.78, 0)
+}
 
 return slot0

@@ -12,9 +12,9 @@ slot0.TENDENCY_TYPE_HARD = 2
 slot0.TENDENCY2TIP = function(slot0)
 	if not uv0.TENDENCY_2_TIP then
 		uv0.TENDENCY_2_TIP = {
-			i18n1("标准订单"),
-			i18n1("相较标准订单更易完成,奖励也有所降低"),
-			i18n1("相较标准订单更具挑战,奖励也有所提升")
+			i18n("island_order_desc_1"),
+			i18n("island_order_desc_2"),
+			i18n("island_order_desc_3")
 		}
 	end
 
@@ -24,9 +24,9 @@ end
 slot0.TENDENCY2CN = function(slot0)
 	if not uv0.TENDENCY_2_CN then
 		uv0.TENDENCY_2_CN = {
-			i18n1("标准"),
-			i18n1("更易完成"),
-			i18n1("更具挑战")
+			i18n("island_order_difficulty_1"),
+			i18n("island_order_difficulty_2"),
+			i18n("island_order_difficulty_3")
 		}
 	end
 
@@ -49,14 +49,20 @@ slot0.GenOrder = function(slot0, slot1)
 	elseif slot1.type == IslandOrder.TYPE_URGENCY then
 		return IslandUrgencyOrder.New(slot1)
 	elseif slot1.type == IslandOrder.TYPE_FORM then
-		return IslandFirmOrder.New(slot1)
+		if pg.island_order[slot1.id].type == 2 then
+			return IslandFirmUrgencyOrder.New(slot1)
+		else
+			return IslandFirmOrder.New(slot1)
+		end
 	end
 
 	assert(false, "order should be exist" .. slot1.type)
 end
 
 slot0.GetPosition = function(slot0)
-	return pg.island_order_position[slot0.position] or pg.island_order_position[1]
+	slot2 = pg.island_order_position[pg.island_order_position[slot0.position] and slot0.position or 1].position
+
+	return Vector3(slot2[1], slot2[2], 0)
 end
 
 slot0.GetState = function(slot0)

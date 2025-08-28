@@ -44,4 +44,20 @@ slot0.GetStartPoint = function(slot0)
 	return slot0:getConfig("staypoint")
 end
 
+slot0.GetEnterSceneAnim = function(slot0)
+	if slot0:getConfig("enter_scene_anim") and slot1 ~= "" and #slot1 > 0 then
+		return slot1
+	else
+		return {}
+	end
+end
+
+slot0.GetEnterExtraItem = function(slot0)
+	if slot0:getConfig("enter_extra_item") and slot1 ~= "" and #slot1 > 0 then
+		return slot1
+	else
+		return {}
+	end
+end
+
 return slot0

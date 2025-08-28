@@ -285,6 +285,7 @@ pg.furniture_data_template = setmetatable({
 			100074,
 			100075,
 			100076,
+			100077,
 			200001,
 			200002,
 			200003,
@@ -6344,6 +6345,7 @@ pg.furniture_data_template = setmetatable({
 			100074,
 			100075,
 			100076,
+			100077,
 			31101,
 			54101,
 			54102,
@@ -9827,6 +9829,7 @@ pg.furniture_data_template = setmetatable({
 			100066,
 			100071,
 			100073,
+			100077,
 			30123,
 			35128,
 			36125,
@@ -11072,6 +11075,7 @@ pg.furniture_data_template = setmetatable({
 		100074,
 		100075,
 		100076,
+		100077,
 		200001,
 		200002,
 		200003,
@@ -29984,6 +29988,82 @@ pg.base.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100077] = {
+		can_rotate = 0,
+		describe = "忍者专用代步工具，限乘一人~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "xuanzhuanshoulijianicon",
+		count = 1,
+		name = "飞行手里剑",
+		advice = 0,
+		id = 100077,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xuanzhuanshoulijian",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},

@@ -13,9 +13,9 @@ slot0.OnLoaded = function(slot0)
 		[IslandOrderSlot.TENDENCY_TYPE_HARD] = slot0:findTF("toggle/2")
 	}
 
-	setText(slot0:findTF("toggle/0/Text"), i18n1("更易完成"))
-	setText(slot0:findTF("toggle/1/Text"), i18n1("标准"))
-	setText(slot0:findTF("toggle/2/Text"), i18n1("更具挑战"))
+	setText(slot0:findTF("toggle/0/Text"), i18n("island_order_difficulty_2"))
+	setText(slot0:findTF("toggle/1/Text"), i18n("island_order_difficulty_1"))
+	setText(slot0:findTF("toggle/2/Text"), i18n("island_order_difficulty_3"))
 end
 
 slot0.OnInit = function(slot0)
@@ -27,25 +27,18 @@ slot0.OnInit = function(slot0)
 
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
-	end, SFX_PANEL)
 end
 
-slot0.Show = function(slot0, slot1, slot2)
-	uv0.super.Show(slot0, {
-		onYes = slot2,
-		title = i18n1("订单倾向")
-	})
+slot0.OnShow = function(slot0)
+	uv0.super.OnShow(slot0)
 
-	slot0.selectedIndex = slot1 or IslandOrderSlot.TENDENCY_TYPE_COMMON
+	slot0.selectedIndex = slot0.settings.selected or IslandOrderSlot.TENDENCY_TYPE_COMMON
 
 	slot0:FlushToggles()
 end
 
-slot0.Hide = function(slot0)
-	setActive(slot0._tf, false)
-	slot0:OnHide()
+slot0.OnHide = function(slot0)
+	uv0.super.OnHide(slot0)
 
 	slot0.settings = nil
 end

@@ -466,6 +466,19 @@ slot0.getSortMember = function(slot0)
 	return slot1
 end
 
+slot0.getSortMemberWithoutSelf = function(slot0)
+	slot1 = {}
+	slot2 = getProxy(PlayerProxy):getRawData().id
+
+	for slot6, slot7 in pairs(slot0.member) do
+		if slot7.id ~= slot2 then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 slot0.getBgName = function(slot0)
 	if slot0.faction == GuildConst.FACTION_TYPE_BLHX then
 		return "bg/bg_guild_blue_n"

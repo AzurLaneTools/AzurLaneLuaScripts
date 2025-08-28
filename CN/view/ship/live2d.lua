@@ -553,7 +553,7 @@ slot17 = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
-	UIUtil.SetLayerRecursively(slot0._go, LayerMask.NameToLayer("UI"))
+	HotfixHelper.SetLayerRecursively(slot0._go, LayerMask.NameToLayer("UI"))
 	slot0._tf:SetParent(slot0.live2dData.parent, true)
 
 	slot0._tf.localScale = slot0.live2dData.scale

@@ -7,9 +7,11 @@ slot0.STATUS = {
 	LOCK = "lock",
 	UNLOCK = "unlock"
 }
-slot0.UNLCOK_TYPE = {
+slot0.UNLOCK_TYPE = {
 	FINISH_TASK = 1,
-	EXIST_ABILITY = 2
+	LEVEL = 0,
+	EXIST_ABILITY = 2,
+	FINISH_TECHNOLOGY = 3
 }
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -23,6 +25,10 @@ slot0.SetFinishedCnt = function(slot0, slot1)
 end
 
 slot0.AddFinishedCnt = function(slot0)
+	if slot0.finishedCnt == 0 then
+		IslandAchievementHelper.OnFinishTechnolog(slot0.id)
+	end
+
 	slot0.finishedCnt = slot0.finishedCnt + 1
 end
 
@@ -70,8 +76,8 @@ slot0.IsUnlock = function(slot0)
 	return slot0:GetAbilityId() == 0 or getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(slot1)
 end
 
-slot0.GetRecycleItemInfos = function(slot0)
-	underscore.each(slot0:getConfig("item_unlock"), function (slot0)
+slot0.GetCostItems = function(slot0)
+	underscore.each(pg.island_formula[slot0:GetFormulaId()].commission_cost, function (slot0)
 		table.insert(uv0, Drop.New({
 			type = DROP_TYPE_ISLAND_ITEM,
 			id = slot0[1],
@@ -87,17 +93,11 @@ slot0.CanUnlock = function(slot0)
 		return false
 	end
 
-	if underscore.any(slot0:GetRecycleItemInfos(), function (slot0)
-		return getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(slot0.id) < slot0.count
-	end) then
-		return false
-	end
-
-	if slot0:getConfig("sys_unlock") == "" or #slot2 == 0 then
+	if slot0:getConfig("sys_unlock") == "" or #slot1 == 0 then
 		return true
 	end
 
-	return underscore.all(slot2, function (slot0)
+	return underscore.all(slot1, function (slot0)
 		return uv0:MatchCondition(slot0)
 	end)
 end
@@ -106,11 +106,17 @@ slot0.MatchCondition = function(slot0, slot1)
 	slot3 = slot1[2]
 
 	return switch(slot1[1], {
-		[uv0.UNLCOK_TYPE.FINISH_TASK] = function ()
+		[uv0.UNLOCK_TYPE.LEVEL] = function ()
+			return uv0:getConfig("island_level") <= getProxy(IslandProxy):GetIsland():GetLevel()
+		end,
+		[uv0.UNLOCK_TYPE.FINISH_TASK] = function ()
 			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(uv0)
 		end,
-		[uv0.UNLCOK_TYPE.EXIST_ABILITY] = function ()
+		[uv0.UNLOCK_TYPE.EXIST_ABILITY] = function ()
 			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0)
+		end,
+		[uv0.UNLOCK_TYPE.FINISH_TECHNOLOGY] = function ()
+			return getProxy(IslandProxy):GetIsland():GetTechnologyAgency():IsFinishedTech(uv0)
 		end
 	}, function ()
 		return false
@@ -131,6 +137,25 @@ end
 
 slot0.GetSlotId = function(slot0)
 	return getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetDelegationSlotDataByTechId(slot0.id) and slot1.id
+end
+
+slot0.GetUnlockText = function(slot0)
+	slot2 = slot0[2]
+
+	return switch(slot0[1], {
+		[uv0.UNLOCK_TYPE.LEVEL] = function ()
+			return i18n("island_tech_unlock_tip0", uv0)
+		end,
+		[uv0.UNLOCK_TYPE.FINISH_TASK] = function ()
+			return i18n("island_tech_unlock_tip1", pg.island_task[uv0].name)
+		end,
+		[uv0.UNLOCK_TYPE.EXIST_ABILITY] = function ()
+			return i18n("island_tech_unlock_tip2", "ability" .. uv0)
+		end,
+		[uv0.UNLOCK_TYPE.FINISH_TECHNOLOGY] = function ()
+			return i18n("island_tech_unlock_tip3", pg.island_technology_template[uv0].tech_name)
+		end
+	})
 end
 
 return slot0

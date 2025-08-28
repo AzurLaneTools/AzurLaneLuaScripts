@@ -137,6 +137,7 @@ SCENE = {
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	NEW_SHOP = "new shop",
 	PROBABILITY_SKINSHOP = "scene probability skinshop",
+	ISLAND = "scene island",
 	NEW_EDUCATE_SELECT = "NEW_EDUCATE_SELECT",
 	BOSSRUSH_MAIN = "bossrush main",
 	EDUCATE_SCHEDULE = "EDUCATE_SCHEDULE",
@@ -186,6 +187,7 @@ SCENE = {
 	TOLOVE_COLLAB_BACKHILL = "TOLOVE_COLLAB_BACKHILL",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
+	SHARED_ISLAND = "shared scene island",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	CREATE_PLAYER = "scene create player",
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
@@ -202,6 +204,7 @@ SCENE = {
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = " scene militaryexercise",
+	ISLAND_WORLD_MAP = "island world map",
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
@@ -216,6 +219,14 @@ slot0 = {
 	[SCENE.EDUCATE_DOCK] = function (slot0, slot1)
 		slot0.mediator = EducateCharDockMediator
 		slot0.viewComponent = EducateCharDockScene
+	end,
+	[SCENE.ISLAND] = function (slot0, slot1)
+		slot0.mediator = IslandMediator
+		slot0.viewComponent = IslandScene
+	end,
+	[SCENE.SHARED_ISLAND] = function (slot0, slot1)
+		slot0.mediator = SharedIslandMediator
+		slot0.viewComponent = SharedIslandScene
 	end,
 	[SCENE.US_CASTLE_2023] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -1026,6 +1037,10 @@ slot0 = {
 		slot0.mediator = BossSinglePreCombatMediator
 		slot0.viewComponent = BossSinglePreCombatLayer
 	end,
+	[SCENE.ISLAND_WORLD_MAP] = function (slot0, slot1)
+		slot0.mediator = IslandWorldMapMediator
+		slot0.viewComponent = IslandWorldMapLayer
+	end,
 	[SCENE.COMMANDER_MANUAL] = function (slot0, slot1)
 		slot0.mediator = CommanderManualMediator
 		slot0.viewComponent = CommanderManualLayer
@@ -1238,7 +1253,7 @@ slot1 = {
 		end
 
 		AnniversaryIsland2023Mediator.CheckPreloadData(slot0)
-		getProxy(IslandProxy):CheckAndRequest(slot1)
+		getProxy(SixthAnniversaryIslandProxy):CheckAndRequest(slot1)
 	end,
 	NewShopsMediator = function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
@@ -1259,6 +1274,10 @@ slot1 = {
 				uv1()
 			end
 		})
+	end,
+	ActivityMediator = function (slot0, slot1)
+		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS)
+		slot1()
 	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)
@@ -1495,6 +1514,30 @@ slot1 = {
 				callback = slot1
 			})
 		end
+	end,
+	IslandMediator = function (slot0, slot1)
+		slot2 = pg.GameTrackerMgr.GetInstance()
+
+		slot2:Record(GameTrackerBuilder.BuildIslandEnter(0, 0))
+
+		slot2 = getProxy(IslandProxy)
+
+		slot2:RecordEnterTime()
+
+		slot2 = slot0.context.onRemoved
+
+		slot0.context.onRemoved = function()
+			slot0 = 0
+
+			if getProxy(IslandProxy):GetEnterTime() then
+				slot0 = pg.TimeMgr.GetInstance():GetServerTime() - slot1
+			end
+
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandEnter(1, slot0))
+			existCall(uv0)
+		end
+
+		slot1()
 	end
 }
 

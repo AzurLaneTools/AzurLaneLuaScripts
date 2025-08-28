@@ -558,6 +558,7 @@ slot0.LoadSpinePainting = function(slot0)
 			uv0:ClearSpinePainting()
 		end
 
+		uv0:InitSpecialTouch(uv1, uv0.spTF)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
@@ -569,7 +570,96 @@ slot0.ClearSpinePainting = function(slot0)
 		slot0.spinePainting:Dispose()
 
 		slot0.spinePainting = nil
+
+		if slot0.dragEvent then
+			ClearEventTrigger(slot0.dragEvent)
+		end
 	end
+end
+
+slot0.InitSpecialTouch = function(slot0, slot1, slot2)
+	slot3 = slot1:getPainting()
+
+	if not findTF(slot2:GetChild(0), "hitArea") then
+		return
+	end
+
+	eachChild(slot4, function (slot0)
+		if uv0:getDragTouchAble(slot0.name, uv1, false) then
+			uv0.dragEvent = GetOrAddComponent(slot0, typeof(EventTriggerListener))
+			slot1 = uv0.dragEvent
+
+			slot1:AddPointDownFunc(function (slot0, slot1)
+				uv0.dragActive = true
+				uv0.dragStart = slot1.position
+			end)
+
+			slot1 = uv0.dragEvent
+
+			slot1:AddPointUpFunc(function (slot0, slot1)
+				if uv0.dragActive then
+					uv0.dragActive = false
+					uv0.dragOffset = Vector2(uv0.dragStart.x - slot1.position.x, uv0.dragStart.y - slot1.position.y)
+
+					if math.abs(uv0.dragOffset.x) < 200 or math.abs(uv0.dragOffset.y) < 200 then
+						uv0.dragUp = slot1.position
+
+						if uv0.spinePainting:isInAction() then
+							return
+						end
+
+						slot2 = nil
+
+						if uv0:getDragTouchAble(uv1.name, uv2, true) then
+							slot2 = uv0.spinePainting:readyDragAction(uv1.name)
+						end
+					end
+				end
+			end)
+
+			slot1 = uv0.dragEvent
+
+			slot1:AddDragFunc(function (slot0, slot1)
+				if uv0.dragActive then
+					uv0.dragOffset = Vector2(uv0.dragStart.x - slot1.position.x, uv0.dragStart.y - slot1.position.y)
+
+					if math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200 then
+						uv0.dragActive = false
+
+						uv0.spinePainting:readyDragAction(uv1.name)
+					end
+				end
+			end)
+		else
+			onButton(uv0, slot0, function ()
+				if uv0.spinePainting:isInAction() then
+					return
+				end
+
+				slot0 = pg.AssistantInfo.getPaintingTouchEvents(uv1.name)
+
+				if uv0:getDragTouchAble(uv1.name, uv2, true) then
+					uv0.spinePainting:readyDragAction(uv1.name)
+				end
+			end)
+		end
+	end)
+end
+
+slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
+	if not SpinePaintingConst.ship_drag_datas[slot2] then
+		return false
+	end
+
+	if slot4.drag_data and slot4.click_trigger ~= slot3 then
+		return false
+	end
+
+	if slot4.hit_area then
+		return table.contains(slot4.hit_area, slot1)
+	end
+
+	return false
 end
 
 slot0.AdjustPainting = function(slot0, slot1)

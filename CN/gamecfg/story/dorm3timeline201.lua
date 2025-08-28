@@ -23,7 +23,7 @@ return {
 							name = "Qihe_mengyanjingxi",
 							time = 0,
 							type = "timeline",
-							scene = "map_noshirohostel_02",
+							scene = "map_noshirohostel_01",
 							skip = false,
 							options = {
 								{

@@ -216,7 +216,7 @@ return {
 	OnAiriBuying = -1,
 	BuyingLimit = 60,
 	CheckAudit = function ()
-		return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 	end,
 	CheckPreAudit = function ()
 		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
@@ -225,7 +225,7 @@ return {
 		return IsUnityEditor or uv0.CheckPreAudit()
 	end,
 	CheckGoogleSimulator = function ()
-		return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		return false
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()

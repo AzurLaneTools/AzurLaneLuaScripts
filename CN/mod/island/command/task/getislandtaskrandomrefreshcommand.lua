@@ -2,9 +2,6 @@ slot0 = class("GetIslandTaskRandomRefreshCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-
-	warning("Get IslandTask Random Refresh")
-
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Send(21030, {

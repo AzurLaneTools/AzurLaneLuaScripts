@@ -79,6 +79,12 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._islandBtn, function ()
+		if LOCK_ISLAND_DISPLAY then
+			return
+		end
+
+		uv0:emit(NewMainMediator.GO_ISLAND, getProxy(PlayerProxy):getRawData().id)
+		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._dormBtn, function ()
 		uv0:emit(NewMainMediator.OPEN_DORM_SELECT_LAYER)

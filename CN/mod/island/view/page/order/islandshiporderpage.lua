@@ -1,6 +1,7 @@
 slot0 = class("IslandShipOrderPage", import("...base.IslandBasePage"))
 slot0.MODE_REQUEST_VIEW = 0
 slot0.MODE_AWARD_VIEW = 1
+slot0.EVENT_CLOSE_LOAD_UP = "IslandShipOrderPage:EVENT_CLOSE_LOAD_UP"
 
 slot0.getUIName = function(slot0)
 	return "IslandShipOrderUI"
@@ -9,22 +10,48 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("back")
 	slot0.uiSlots = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
+	slot0.onekeySlots = UIItemList.New(slot0:findTF("list_1"), slot0:findTF("list_1/onekey"))
 	slot0.switchBtn = slot0:findTF("frame/switch")
 	slot0.cards = {}
 	slot0.loadUpPage = IslandShipOrderLoadUpPage.New(slot0._tf, slot0.event)
+	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
+	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
+	slot0.uilistAniamtion = slot0._tf:Find("frame/list"):GetComponent(typeof(Animation))
 
-	setText(slot0:findTF("frame/switch/on/Text"), i18n1("查看清单需求"))
-	setText(slot0:findTF("frame/switch/off/Text"), i18n1("查看订单奖励"))
+	setText(slot0:findTF("frame/switch/on/Text"), i18n("island_order_ship_page_req"))
+	setText(slot0:findTF("frame/switch/off/Text"), i18n("island_order_ship_page_award"))
+	setText(slot0:findTF("list_1/onekey/btn/Text"), i18n("island_order_ship_page_onekey_loadup"))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:Hide()
+		slot0 = uv0
+
+		slot0:PlayExitAnimation(function ()
+			uv0:Hide()
+		end)
 	end, SFX_PANEL)
+	slot0:bind(uv0.EVENT_CLOSE_LOAD_UP, function ()
+		uv0:ClearSelected()
+	end)
 	triggerToggle(slot0.switchBtn, false)
 	onToggle(slot0, slot0.switchBtn, function (slot0)
 		uv0:SwitchMode(slot0)
 	end, SFX_PANEL)
+end
+
+slot0.PlayExitAnimation = function(slot0, slot1)
+	slot0.canvasGroup.blocksRaycasts = false
+
+	slot0.aniDft:SetEndEvent(function ()
+		uv0.canvasGroup.blocksRaycasts = true
+
+		if uv1 then
+			uv1()
+		end
+	end)
+	slot0.animator:Play("anim_island_shiporder_out")
 end
 
 slot0.AddListeners = function(slot0)
@@ -52,25 +79,50 @@ slot0.OnOrderUpdate = function(slot0, slot1)
 	end
 
 	slot0:ClearSelected()
+
+	slot0.canvasGroup.blocksRaycasts = false
+
 	seriesAsync({
 		function (slot0)
-			if not uv0.isLoadUpAll then
-				slot0()
-
-				return
-			end
-
-			uv1:PlaySignAnim(slot0)
+			uv0:PlayAniamtion(uv1.op, uv1.isLoadUpAll, slot0)
 		end
 	}, function ()
-		uv0:Flush(uv0.slot, uv1.mode)
+		uv0.canvasGroup.blocksRaycasts = true
+		slot3 = uv0.mode
+
+		uv1:Flush(uv1.slot, slot3)
+		uv0:RegisterCardEvent(uv1)
+
+		for slot3, slot4 in pairs(uv0.cards) do
+			slot4:UpdateRequest(slot4.slot)
+		end
+
+		uv0:UpdateOnekeyBtns()
 	end)
 end
 
 slot0.OnShow = function(slot0)
 	slot0.mode = uv0.MODE_REQUEST_VIEW
+	slot0.canvasGroup.blocksRaycasts = true
 
 	slot0:FlushSlots()
+	slot0:UnlockFirstSlot()
+end
+
+slot0.UnlockFirstSlot = function(slot0)
+	if slot0.displays[1] and slot1:IsLock() and slot1:GetUnlockGold().count <= 0 then
+		for slot5, slot6 in pairs(slot0.cards) do
+			if slot6.slot.id == slot1.id then
+				target = slot6
+
+				break
+			end
+		end
+
+		if target then
+			triggerButton(target.lockTr)
+		end
+	end
 end
 
 slot0.SwitchMode = function(slot0, slot1)
@@ -81,24 +133,56 @@ slot0.SwitchMode = function(slot0, slot1)
 	end
 
 	slot0:ClearSelected()
+	slot0.uilistAniamtion:Stop()
+	slot0.uilistAniamtion:Play("anim_island_shiporder_list")
 end
 
-slot0.FlushSlots = function(slot0)
+slot0.GetDisplays = function(slot0, ...)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipSlotList()) do
 		table.insert(slot3, slot8)
 	end
 
-	table.sort(slot3, function (slot0, slot1)
+	return slot3
+end
+
+slot0.FlushSlots = function(slot0)
+	slot0.displays = slot0:GetDisplays()
+
+	table.sort(slot0.displays, function (slot0, slot1)
 		return slot0:GetUnlockLevel() < slot1:GetUnlockLevel()
 	end)
 	slot0.uiSlots:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:UpdateSlot(uv1[slot1 + 1], slot2)
+			uv0:UpdateSlot(uv0.displays[slot1 + 1], slot2)
 		end
 	end)
-	slot0.uiSlots:align(#slot3)
+	slot0.uiSlots:align(#slot0.displays)
+	slot0:UpdateOnekeyBtns()
+end
+
+slot0.UpdateOnekeyBtns = function(slot0)
+	slot0.onekeySlots:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot4 = uv0.displays[slot1 + 1]
+
+			setActive(slot2:Find("btn"), slot4:IsWaiting())
+
+			slot5 = slot4:IsWaiting() and not slot4:GetOrder():AnyCanLoadUp()
+
+			setGray(slot3, slot5, true)
+
+			if not slot5 then
+				onButton(uv0, slot3, function ()
+					uv0:emit(IslandMediator.SUBMIT_SHIP_ORDER_ITME_ONEKEY, uv1.id)
+				end, SFX_PANEL)
+			else
+				removeOnButton(slot3)
+			end
+		end
+	end)
+	slot0.onekeySlots:align(#slot0.displays)
 end
 
 slot0.UpdateSlot = function(slot0, slot1, slot2)
@@ -111,40 +195,47 @@ slot0.UpdateSlot = function(slot0, slot1, slot2)
 	onButton(slot0, slot3.lockTr, function ()
 		uv0:emit(IslandMediator.UNLOKC_SHIP_ORDER, uv1.slot.id)
 	end, SFX_PANEL)
-
-	slot4 = function(slot0)
-		if uv0.loadUpItem == slot0 then
-			uv0:ClearSelected()
-
-			return false
-		end
-
-		return true
-	end
-
+	onButton(slot0, slot3.loadingRequest, function ()
+	end, SFX_PANEL)
 	onNextTick(function ()
-		uv0.uiRequestList:each(function (slot0, slot1)
-			onButton(uv0, slot1, function ()
-				if not uv0.slot:IsWaiting() then
-					return
-				end
-
-				if uv0.slot:GetOrder():ItemIsSubmited(uv1 + 1) then
-					return
-				end
-
-				if not uv2(uv3) then
-					return
-				end
-
-				uv4:ClearSelected()
-				setActive(uv3:Find("loaded_1"), true)
-				uv4:LoadUpItem(uv0, uv1 + 1, uv3)
-			end, SFX_PANEL)
-		end)
+		uv0:RegisterCardEvent(uv1)
 	end)
 
 	slot0.cards[slot2] = slot3
+end
+
+slot0.CheckSelected = function(slot0, slot1)
+	if slot0.loadUpItem == slot1 then
+		slot0:ClearSelected()
+
+		return false
+	end
+
+	return true
+end
+
+slot0.RegisterCardEvent = function(slot0, slot1)
+	slot2 = slot1.uiRequestList
+
+	slot2:each(function (slot0, slot1)
+		onButton(uv0, slot1, function ()
+			if not uv0.slot:IsWaiting() then
+				return
+			end
+
+			if uv0.slot:GetOrder():ItemIsSubmited(uv1 + 1) then
+				return
+			end
+
+			if not uv2:CheckSelected(uv3) then
+				return
+			end
+
+			uv2:ClearSelected()
+			setActive(uv3:Find("loaded_1"), true)
+			uv2:LoadUpItem(uv0, uv1 + 1, uv3)
+		end, SFX_PANEL)
+	end)
 end
 
 slot0.ClearSelected = function(slot0)
@@ -162,7 +253,7 @@ end
 slot0.LoadUpItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0._tf:InverseTransformPoint(slot3:Find("loaded_1").position)
 
-	slot0.loadUpPage:ExecuteAction("Show", Vector3(slot4.x, slot4.y - 60, 0), slot1.slot, slot2)
+	slot0.loadUpPage:ExecuteAction("Show", Vector3(slot4.x, slot4.y, 0), slot1.slot, slot2)
 
 	slot0.loadUpItem = slot3
 end

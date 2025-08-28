@@ -12077,6 +12077,36 @@ _G.pg.base.gametip.resource_clear_all = {
 }
 
 
+_G.pg.base.gametip.resource_clear_manga = {
+	tip = "是否清理所有漫画资源？\n资源大小：$1\n（清理完成后查看漫画需要重新下载资源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_gallery = {
+	tip = "是否清理所有插画资源？\n资源大小：$1\n（清理完成后查看插画需要重新下载资源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3ddorm = {
+	tip = "是否清理所有宿舍计划资源？\n资源大小：$1\n（清理完成后进入宿舍计划需要重新下载资源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_tbchild = {
+	tip = "是否清理所有养成计划资源？\n资源大小：$1\n（清理完成后进入养成计划需要重新下载资源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3disland = {
+	tip = "是否清理所有岛屿计划资源？\n资源大小：$1\n（清理完成后进入岛屿计划需要重新下载资源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_generaltext = {
+	tip = "删除资源"
+}
+
+
 _G.pg.base.gametip.acl_oil_count = {
 	tip = "目标石油："
 }
@@ -23575,6 +23605,26 @@ _G.pg.base.gametip.Settings_title_sound = {
 
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "资源下载"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage = {
+	tip = "资源管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_All = {
+	tip = "完整资源更新"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Main = {
+	tip = "主体资源管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Sub = {
+	tip = "特殊资源管理"
 }
 
 
@@ -35457,7 +35507,7 @@ _G.pg.base.gametip.dorm3d_data_go = {
 
 
 _G.pg.base.gametip.dorm3d_role_assets_delete = {
-	tip = "是否确认删除<color=#39bfff>$1</color>的全部资源"
+	tip = "是否确认删除<color=#39bfff>$1</color>的全部资源\n资源大小：$2 "
 }
 
 
@@ -35985,6 +36035,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 
 _G.pg.base.gametip.cruise_title_2508 = {
 	tip = "世界巡游·二十四期"
+}
+
+
+_G.pg.base.gametip.cruise_title_2406 = {
+	tip = "世界巡游·十七期"
 }
 
 
@@ -40174,4 +40229,109 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 _G.pg.base.gametip.shop_filter_retro = {
 	tip = "返场"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_opengl = {
+	tip = "部分机型使用默认模式会出现黑屏的问题，切换模式后需要重新进入游戏，是否立即切换？"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_vulkan = {
+	tip = "渲染兼容模式暂不支持AR功能，切换模式后需要重新进入游戏，是否立即切换？"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+	tip = "游玩滑梯"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+	tip = "游玩中角色"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+	tip = "滑梯"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+	tip = "游玩选择"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+	tip = "滑梯邀请"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+	tip = "当前邀请人数"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
+	tip = "沙滩滑梯"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag_7 = {
+	tip = "解锁滑梯互动（需解锁对应角色沙滩邀约）"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+	tip = "全局画质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+	tip = "极高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+	tip = "辉光强度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
+	tip = "关"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_flare = {
+	tip = "光晕"
 }

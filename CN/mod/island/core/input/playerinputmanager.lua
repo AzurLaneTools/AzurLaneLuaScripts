@@ -3,13 +3,27 @@ slot1 = require("Framework.toLua.UnityEngine.Vector3")
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.inputController = IslandCameraMgr.instance.gameObject:GetComponent(typeof(InputController))
+	slot0.controller = slot1
 	slot0.inputCommandQueue = {}
+	slot0.isInit = false
+end
+
+slot0.IsInit = function(slot0)
+	return slot0.isInit
+end
+
+slot0.Init = function(slot0)
+	slot0.isInit = true
+	slot1 = slot0.controller
 
 	uv0.UpdateMoveFunc = function(slot0)
 		slot1 = uv0(slot0.x, 0, slot0.y)
+
+		uv1:NotifiyCore(ISLAND_EVT.MOVE_PLAYER_BEFORE)
+
 		slot2 = slot0.magnitude
 
-		table.insert(uv1.inputCommandQueue, {
+		table.insert(uv2.inputCommandQueue, {
 			Execute = function ()
 				uv0:NotifiyCore(ISLAND_EVT.MOVE_PLAYER, {
 					targetDir = uv1,
@@ -63,17 +77,30 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Update = function(slot0)
+	if not slot0.isInit then
+		return
+	end
+
 	if #slot0.inputCommandQueue == 0 then
 		return
 	end
 
 	while #slot0.inputCommandQueue > 0 do
-		slot0.inputCommandQueue[1]:Execute()
+		slot1 = slot0.inputCommandQueue[1]
+
 		table.remove(slot0.inputCommandQueue, 1)
+
+		if not slot0.disablePlayerHandle then
+			slot1:Execute()
+		end
 	end
 end
 
 slot0.Dispose = function(slot0)
+	if not slot0.isInit then
+		return
+	end
+
 	slot0.inputController:RemoveUpdateMoveFunc(uv0.UpdateMoveFunc)
 	slot0.inputController:RemoveCancelMoveFunc(uv0.CancelMoveFunc)
 	slot0.inputController:RemoveUpdateJumpFunc(uv0.UpdateJumpFunc)
@@ -81,6 +108,34 @@ slot0.Dispose = function(slot0)
 	slot0.inputController:RemoveCancelSprintFunc(uv0.CancelSprintFuc)
 
 	slot0.inputController = nil
+end
+
+slot0.UpdataWorkStateFunc = function(slot0, slot1, slot2, slot3)
+	table.insert(slot0.inputCommandQueue, {
+		Execute = function ()
+			uv0.controller:NotifiyCore(ISLAND_EVT.SET_PLAYER_WORK, uv1, uv2, uv3)
+		end
+	})
+end
+
+slot0.DisablePlayerHandle = function(slot0)
+	slot0.disablePlayerHandle = true
+end
+
+slot0.EnablePlayerHandle = function(slot0)
+	slot0.disablePlayerHandle = false
+end
+
+slot0.DisableInput = function(slot0)
+	while #slot0.inputCommandQueue > 0 do
+		table.remove(slot0.inputCommandQueue, 1)
+	end
+
+	slot0.inputController:DisablePlayerInput()
+end
+
+slot0.EnableInput = function(slot0)
+	slot0.inputController:EnablePlayerInput()
 end
 
 return slot0

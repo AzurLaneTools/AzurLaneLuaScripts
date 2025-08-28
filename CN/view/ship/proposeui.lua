@@ -1151,7 +1151,7 @@ end
 slot0.createLive2D = function(slot0, slot1)
 	slot2 = pg.Live2DMgr.GetInstance()
 	slot0.live2dRequestId = slot2:GetLive2DModelAsync(slot1, function (slot0)
-		UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
+		HotfixHelper.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
 		slot0.transform:SetParent(uv0:findTF("live2d", uv0.targetActorTF), true)
 
 		slot3 = nil
