@@ -2561,7 +2561,7 @@ slot0.PopFavorLevelUp = function(slot0, slot1, slot2, slot3)
 
 			if slot0 == UIItemList.EventUpdate then
 				if slot1 < #uv0.serverAward then
-					updateCustomDrop(slot2, uv0.serverAward[slot3])
+					updateDorm3dIcon(slot2, uv0.serverAward[slot3])
 					onButton(uv0, slot2, function ()
 						uv0:emit(BaseUI.ON_NEW_DROP, {
 							drop = uv0.serverAward[uv1]
