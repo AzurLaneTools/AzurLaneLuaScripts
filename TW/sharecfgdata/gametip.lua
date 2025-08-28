@@ -1129,7 +1129,7 @@ _G.pg.base.gametip.common_wait = {
 
 
 _G.pg.base.gametip.common_ship_type = {
-	tip = "艦艇類型"
+	tip = "艦船類型 "
 }
 
 
@@ -21257,7 +21257,7 @@ _G.pg.base.gametip.story_autoplay_setting_2 = {
 
 
 _G.pg.base.gametip.meta_shop_exchange_limit = {
-	tip = "尚未獲得艦船"
+	tip = "未擁有角色 "
 }
 
 
@@ -38797,4 +38797,9 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 _G.pg.base.gametip.shop_filter_retro = {
 	tip = "返場"
+}
+
+
+_G.pg.base.gametip.shop_sell_ended = {
+	tip = "活動已結束"
 }

@@ -783,7 +783,7 @@ return {
 			actor = 804010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼~我就知道跟著你們一定有好事，快點做~",
+			say = "呼呼~我就知道跟著妳们一定有好事，快點做~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
