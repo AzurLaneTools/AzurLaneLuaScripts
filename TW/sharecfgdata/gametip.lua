@@ -36113,7 +36113,7 @@ _G.pg.base.gametip.TW_build_chase_time = {
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "星光下的餘暉活動期間累積通關「奇渊下的秘密」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "奇淵下的秘密活動期間累積通關「奇淵下的秘密」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 
