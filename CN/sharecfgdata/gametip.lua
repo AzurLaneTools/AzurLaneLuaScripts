@@ -40277,7 +40277,7 @@ _G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
 }
 
 
-_G.pg.base.gametip.dorm3d_shop_tag_7 = {
+_G.pg.base.gametip.dorm3d_shop_tag7 = {
 	tip = "解锁滑梯互动（需解锁对应角色沙滩邀约）"
 }
 

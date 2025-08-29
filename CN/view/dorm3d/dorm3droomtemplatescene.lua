@@ -148,10 +148,16 @@ slot0.init = function(slot0)
 		slot0:InitCharacter(slot5, slot4)
 	end
 
-	if not slot0.room:isPersonalRoom() and (underscore.detect(slot0.contextData.groupIds, function (slot0)
-		return uv0.contextData.ladyZone[slot0] == uv0.contextData.inFurnitureName
-	end) or slot0.contextData.groupIds[1]) then
-		slot0:SyncInterestTransform(slot0.ladyDict[slot1])
+	if not slot0.room:isPersonalRoom() then
+		if underscore.detect(slot0.contextData.groupIds, function (slot0)
+			return uv0.contextData.ladyZone[slot0] == uv0.contextData.inFurnitureName
+		end) or slot0.contextData.groupIds[1] then
+			slot0:SyncInterestTransform(slot0.ladyDict[slot1])
+		end
+
+		if SlideExtraSystem.IsOpen(slot0.room) and slot0.contextData.inFurnitureName == SlideConst.SLIDE_ZONE then
+			slot0:SyncInterestTransformByTf(slot0:GetFurnitureByName(slot0.contextData.inFurnitureName):Find("StayPoint"))
+		end
 	end
 
 	slot0.retainCount = 0

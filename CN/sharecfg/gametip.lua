@@ -30301,63 +30301,63 @@ cs.gametip = {
 		99,
 		true
 	},
-	dorm3d_shop_tag_7 = {
+	dorm3d_shop_tag7 = {
 		1077369,
-		139,
+		138,
 		true
 	},
 	grapihcs3d_setting_global_illumination = {
-		1077508,
+		1077507,
 		114,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname0 = {
-		1077622,
+		1077621,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname1 = {
-		1077739,
+		1077738,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname2 = {
-		1077856,
+		1077855,
 		117,
 		true
 	},
 	grapihcs3d_setting_global_illumination_optionname3 = {
-		1077973,
+		1077972,
 		120,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity = {
-		1078093,
+		1078092,
 		110,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_0 = {
-		1078203,
+		1078202,
 		103,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_1 = {
-		1078306,
+		1078305,
 		103,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_2 = {
-		1078409,
+		1078408,
 		103,
 		true
 	},
 	grapihcs3d_setting_bloom_intensity_3 = {
-		1078512,
+		1078511,
 		103,
 		true
 	},
 	grapihcs3d_setting_flare = {
-		1078615,
+		1078614,
 		94,
 		true
 	}

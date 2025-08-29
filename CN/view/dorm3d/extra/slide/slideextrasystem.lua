@@ -121,6 +121,7 @@ end
 slot0.RemoveLadySlide = function(slot0, slot1)
 	if slot0.ladyDic[slot1] then
 		slot0:Func("ChangeCharacterPosition", slot0.ladyDic[slot1].ladyEnv)
+		slot0.ladyDic[slot1].ladyEnv:PlaySingleAction(SlideConst.IDLE_ANIM)
 		slot0.ladyDic[slot1]:Dispose()
 
 		slot0.ladyDic[slot1] = nil
@@ -210,8 +211,10 @@ slot0.Dispose = function(slot0)
 	slot0.pickTimer:Stop()
 
 	for slot4, slot5 in pairs(slot0.ladyDic) do
-		slot5:Dispose()
+		slot0:RemoveLadySlide(slot4)
 	end
+
+	slot0:Func("ChangePlayerPosition")
 
 	slot0.slideTreeOwner.enabled = false
 	slot0.performanceTreeOwner.enabled = false

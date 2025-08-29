@@ -853,7 +853,7 @@ pg.dorm3d_furniture_template = {
 			270401
 		},
 		unlock_tips = {
-			3
+			7
 		},
 		unlock_banners = {
 			"banner_furniture401"
