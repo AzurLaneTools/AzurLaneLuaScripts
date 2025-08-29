@@ -26,6 +26,10 @@ slot0.getUIName = function(slot0)
 	return "CombatUI" .. ys.Battle.BattleState.GetCombatSkinKey()
 end
 
+slot0.forceRatio = function(slot0)
+	return math.max(pg.CameraFixMgr.GetInstance().targetRatio, 1.7777777777777777)
+end
+
 slot0.getBGM = function(slot0)
 	table.insert({}, slot0.contextData.system == SYSTEM_WORLD and checkExist(pg.world_expedition_data[slot0.contextData.stageId], {
 		"bgm"

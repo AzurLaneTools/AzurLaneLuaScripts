@@ -136,6 +136,15 @@ slot1 = {
 		end
 	},
 	{
+		id = "JUUS_GUIDE01",
+		condition = function ()
+			return true
+		end,
+		args = function ()
+			return {}
+		end
+	},
+	{
 		id = "Yumia_atelier",
 		condition = function ()
 			if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then

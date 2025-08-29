@@ -288,6 +288,7 @@ slot0.Dispose = function(slot0)
 	slot0:Cancel()
 	slot0.ladyEnv:SetCollisible(true)
 	slot0.ladyEnv:EnableCharacterTransparency(false)
+	slot0.ladyEnv:BlockCanWatch(false)
 end
 
 return slot0
