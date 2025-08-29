@@ -10984,7 +10984,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "·이벤트 기간(<color=#A1E400FF>$1</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
+	tip = "·이벤트 기간(<color=#A1E400FF>$1</COLOR>)에는 갱신 시마다반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 }
 
 
