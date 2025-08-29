@@ -30558,511 +30558,511 @@ cs.gametip = {
 	},
 	shop_skin_permanent = {
 		1143760,
-		86,
+		90,
 		true
 	},
 	shop_month = {
-		1143846,
+		1143850,
 		81,
 		true
 	},
 	shop_supply = {
-		1143927,
+		1143931,
 		81,
 		true
 	},
 	shop_activity = {
-		1144008,
+		1144012,
 		91,
 		true
 	},
 	shop_package_sort_0 = {
-		1144099,
+		1144103,
 		86,
 		true
 	},
 	shop_package_sort_en_0 = {
-		1144185,
+		1144189,
 		89,
 		true
 	},
 	shop_package_sort_1 = {
-		1144274,
+		1144278,
 		97,
 		true
 	},
 	shop_package_sort_en_1 = {
-		1144371,
+		1144375,
 		100,
 		true
 	},
 	shop_package_sort_2 = {
-		1144471,
+		1144475,
 		88,
 		true
 	},
 	shop_package_sort_en_2 = {
-		1144559,
+		1144563,
 		91,
 		true
 	},
 	shop_package_sort_3 = {
-		1144650,
+		1144654,
 		85,
 		true
 	},
 	shop_package_sort_en_3 = {
-		1144735,
+		1144739,
 		88,
 		true
 	},
 	shop_goods_left_day = {
-		1144823,
+		1144827,
 		91,
 		true
 	},
 	shop_goods_left_hour = {
-		1144914,
+		1144918,
 		92,
 		true
 	},
 	shop_goods_left_minute = {
-		1145006,
+		1145010,
 		94,
 		true
 	},
 	shop_refresh_time = {
-		1145100,
+		1145104,
 		93,
 		true
 	},
 	shop_side_lable_en = {
-		1145193,
+		1145197,
 		91,
 		true
 	},
 	street_shop_titleen = {
-		1145284,
+		1145288,
 		87,
 		true
 	},
 	military_shop_titleen = {
-		1145371,
+		1145375,
 		90,
 		true
 	},
 	guild_shop_titleen = {
-		1145461,
+		1145465,
 		87,
 		true
 	},
 	meta_shop_titleen = {
-		1145548,
+		1145552,
 		85,
 		true
 	},
 	mini_game_shop_titleen = {
-		1145633,
+		1145637,
 		91,
 		true
 	},
 	shop_item_unlock = {
-		1145724,
+		1145728,
 		92,
 		true
 	},
 	shop_item_unobtained = {
-		1145816,
+		1145820,
 		94,
 		true
 	},
 	beat_game_rule = {
-		1145910,
+		1145914,
 		83,
 		true
 	},
 	beat_game_rank = {
-		1145993,
+		1145997,
 		85,
 		true
 	},
 	beat_game_go = {
-		1146078,
+		1146082,
 		78,
 		true
 	},
 	beat_game_start = {
-		1146156,
+		1146160,
 		89,
 		true
 	},
 	beat_game_high_score = {
-		1146245,
+		1146249,
 		94,
 		true
 	},
 	beat_game_current_score = {
-		1146339,
+		1146343,
 		100,
 		true
 	},
 	beat_game_exit_desc = {
-		1146439,
+		1146443,
 		142,
 		true
 	},
 	musicbeat_minigame_help = {
-		1146581,
+		1146585,
 		908,
 		true
 	},
 	masaina_pt_claimed = {
-		1147489,
+		1147493,
 		90,
 		true
 	},
 	activity_shop_titleen = {
-		1147579,
+		1147583,
 		90,
 		true
 	},
 	shop_diamond_title_en = {
-		1147669,
+		1147673,
 		89,
 		true
 	},
 	shop_gift_title_en = {
-		1147758,
+		1147762,
 		87,
 		true
 	},
 	shop_item_title_en = {
-		1147845,
+		1147849,
 		87,
 		true
 	},
 	shop_pack_empty = {
-		1147932,
+		1147936,
 		96,
 		true
 	},
 	shop_new_unfound = {
-		1148028,
+		1148032,
 		126,
 		true
 	},
 	shop_new_shop = {
-		1148154,
+		1148158,
 		81,
 		true
 	},
 	shop_new_during_day = {
-		1148235,
+		1148239,
 		91,
 		true
 	},
 	shop_new_during_hour = {
-		1148326,
+		1148330,
 		92,
 		true
 	},
 	shop_new_during_minite = {
-		1148418,
+		1148422,
 		94,
 		true
 	},
 	shop_new_sort = {
-		1148512,
+		1148516,
 		83,
 		true
 	},
 	shop_new_search = {
-		1148595,
+		1148599,
 		92,
 		true
 	},
 	shop_new_purchased = {
-		1148687,
+		1148691,
 		91,
 		true
 	},
 	shop_new_purchase = {
-		1148778,
+		1148782,
 		89,
 		true
 	},
 	shop_new_claim = {
-		1148867,
+		1148871,
 		85,
 		true
 	},
 	shop_new_furniture = {
-		1148952,
+		1148956,
 		96,
 		true
 	},
 	shop_new_discount = {
-		1149048,
+		1149052,
 		91,
 		true
 	},
 	shop_new_try = {
-		1149139,
+		1149143,
 		82,
 		true
 	},
 	shop_new_gift = {
-		1149221,
+		1149225,
 		81,
 		true
 	},
 	shop_new_gem_transform = {
-		1149302,
+		1149306,
 		122,
 		true
 	},
 	shop_new_review = {
-		1149424,
+		1149428,
 		84,
 		true
 	},
 	shop_new_all = {
-		1149508,
+		1149512,
 		79,
 		true
 	},
 	shop_new_owned = {
-		1149587,
+		1149591,
 		83,
 		true
 	},
 	shop_new_havent_own = {
-		1149670,
+		1149674,
 		90,
 		true
 	},
 	shop_new_unused = {
-		1149760,
+		1149764,
 		95,
 		true
 	},
 	shop_new_type = {
-		1149855,
+		1149859,
 		81,
 		true
 	},
 	shop_new_static = {
-		1149936,
+		1149940,
 		85,
 		true
 	},
 	shop_new_dynamic = {
-		1150021,
+		1150025,
 		87,
 		true
 	},
 	shop_new_static_bg = {
-		1150108,
+		1150112,
 		92,
 		true
 	},
 	shop_new_dynamic_bg = {
-		1150200,
+		1150204,
 		94,
 		true
 	},
 	shop_new_bgm = {
-		1150294,
+		1150298,
 		79,
 		true
 	},
 	shop_new_index = {
-		1150373,
+		1150377,
 		82,
 		true
 	},
 	shop_new_ship_owned = {
-		1150455,
+		1150459,
 		93,
 		true
 	},
 	shop_new_ship_havent_owned = {
-		1150548,
+		1150552,
 		102,
 		true
 	},
 	shop_new_nation = {
-		1150650,
+		1150654,
 		86,
 		true
 	},
 	shop_new_rarity = {
-		1150736,
+		1150740,
 		85,
 		true
 	},
 	shop_new_category = {
-		1150821,
+		1150825,
 		89,
 		true
 	},
 	shop_new_skin_theme = {
-		1150910,
+		1150914,
 		88,
 		true
 	},
 	shop_new_confirm = {
-		1150998,
+		1151002,
 		87,
 		true
 	},
 	shop_new_during_time = {
-		1151085,
+		1151089,
 		93,
 		true
 	},
 	shop_new_daily = {
-		1151178,
+		1151182,
 		83,
 		true
 	},
 	shop_new_recommend = {
-		1151261,
+		1151265,
 		85,
 		true
 	},
 	shop_new_skin_shop = {
-		1151346,
+		1151350,
 		87,
 		true
 	},
 	shop_new_purchase_gem = {
-		1151433,
+		1151437,
 		89,
 		true
 	},
 	shop_new_akashi_recommend = {
-		1151522,
+		1151526,
 		100,
 		true
 	},
 	shop_new_packs = {
-		1151622,
+		1151626,
 		83,
 		true
 	},
 	shop_new_props = {
-		1151705,
+		1151709,
 		83,
 		true
 	},
 	shop_new_ptshop = {
-		1151788,
+		1151792,
 		85,
 		true
 	},
 	shop_new_skin_new = {
-		1151873,
+		1151877,
 		88,
 		true
 	},
 	shop_new_skin_permanent = {
-		1151961,
+		1151965,
 		90,
 		true
 	},
 	shop_new_in_use = {
-		1152051,
+		1152055,
 		85,
 		true
 	},
 	shop_new_unable_to_use = {
-		1152136,
+		1152140,
 		94,
 		true
 	},
 	shop_new_owned_skin = {
-		1152230,
+		1152234,
 		88,
 		true
 	},
 	shop_new_wear = {
-		1152318,
+		1152322,
 		81,
 		true
 	},
 	shop_new_get_now = {
-		1152399,
+		1152403,
 		90,
 		true
 	},
 	shop_new_remaining_time = {
-		1152489,
+		1152493,
 		125,
 		true
 	},
 	shop_new_remove = {
-		1152614,
+		1152618,
 		95,
 		true
 	},
 	shop_new_retro = {
-		1152709,
+		1152713,
 		83,
 		true
 	},
 	shop_new_able_to_exchange = {
-		1152792,
+		1152796,
 		105,
 		true
 	},
 	shop_countdown = {
-		1152897,
+		1152901,
 		97,
 		true
 	},
 	quota_shop_title1en = {
-		1152994,
+		1152998,
 		83,
 		true
 	},
 	sham_shop_titleen = {
-		1153077,
+		1153081,
 		81,
 		true
 	},
 	medal_shop_titleen = {
-		1153158,
+		1153162,
 		82,
 		true
 	},
 	fragment_shop_titleen = {
-		1153240,
+		1153244,
 		85,
 		true
 	},
 	shop_fragment_resolve = {
-		1153325,
+		1153329,
 		103,
 		true
 	},
 	beat_game_my_record = {
-		1153428,
+		1153432,
 		90,
 		true
 	},
 	shop_filter_all = {
-		1153518,
+		1153522,
 		82,
 		true
 	},
 	shop_filter_trial = {
-		1153600,
+		1153604,
 		87,
 		true
 	},
 	shop_filter_retro = {
-		1153687,
+		1153691,
 		86,
 		true
 	}
