@@ -309,7 +309,7 @@ end
 slot0.getPainting = function(slot0)
 	slot1 = pg.ship_skin_template[slot0.skinId]
 
-	if ShipSkin.GetChangeSkinData(slot0.skinId) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0.skinId), slot0:GetFlagShipPhantomMark()) then
+	if tobool(slot0.character) and ShipSkin.GetChangeSkinData(slot0.skinId) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0.skinId), slot0:GetFlagShipPhantomMark()) then
 		slot1 = pg.ship_skin_template[slot3]
 	end
 

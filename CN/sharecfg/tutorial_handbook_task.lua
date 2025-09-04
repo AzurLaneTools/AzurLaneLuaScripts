@@ -1337,7 +1337,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203201] = {
-		name = "大世界",
+		name = "大型作战",
 		type = 2,
 		lock_name = "Lv.80",
 		eng_name = "HANDBOOK",
