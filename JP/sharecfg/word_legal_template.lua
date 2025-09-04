@@ -6218,6 +6218,19 @@ temp = function()
 			this = true,
 			["改"] = {
 				this = true
+			},
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["暮"] = {

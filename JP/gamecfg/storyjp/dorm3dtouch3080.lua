@@ -15,7 +15,7 @@ return {
 			actorName = 19903,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture1_tone2",
+			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "ふわふわ……せんせい、すき？",
@@ -29,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ab_FF_shafa_idle02_fb03",
+							name = "ab_FF_shafa_idle02_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							id = 2012,
+							name = "ab_FF_shafa_idle02_fb01_SF",
+							type = "item_action"
 						},
 						{
 							skip = true,

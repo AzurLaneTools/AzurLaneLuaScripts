@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_338 = {
+	[16672202] = {
+		cannon = 28,
+		air = 0,
+		torpedo = 52,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 70275,
+		reload = 150,
+		armor = 0,
+		dodge = 14,
+		torpedo_growth = 2000,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 198,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		base = 90992,
+		durability = 1480,
+		armor_growth = 0,
+		durability_growth = 125600,
+		antiaircraft = 115,
+		speed = 20,
+		luck = 4,
+		antiaircraft_growth = 3600,
+		antisub = 0,
+		id = 16672202,
+		fog_fx = "",
+		specific_fx_scale = {},
+		equipment_list = {
+			3218015,
+			3218020,
+			3218025
+		}
+	},
 	[16672203] = {
 		cannon = 60,
 		name = "船材骸骨獣群",
@@ -1199,47 +1236,6 @@ pg.enemy_data_statistics_338 = {
 			3216204,
 			3216205,
 			3216206
-		}
-	},
-	[16676301] = {
-		cannon = 320,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		armor = 0,
-		dodge = 24,
-		torpedo_growth = 0,
-		hit_growth = 320,
-		reload_growth = 0,
-		dodge_growth = 228,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 36,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 91001,
-		durability = 125000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 440,
-		speed = 18,
-		luck = 30,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16676301,
-		fog_fx = "",
-		equipment_list = {
-			3216001,
-			3216002
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
 		}
 	}
 }

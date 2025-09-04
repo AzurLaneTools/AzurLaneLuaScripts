@@ -342,7 +342,7 @@ slot0.GetAllSkinForShip = function(slot0, slot1)
 
 	for slot7 = #slot3, 1, -1 do
 		if ShipSkin.GetChangeSkinGroupId(slot3[slot7].id) then
-			if not ShipSkin.GetStoreChangeSkinId(slot9) then
+			if not ShipSkin.GetStoreChangeSkinId(slot9, slot1:GetShipPhantomMark()) then
 				if slot8.change_skin.index ~= 1 then
 					print("没有缓存的id ，" .. "移除了id" .. slot8.id)
 					table.remove(slot3, slot7)

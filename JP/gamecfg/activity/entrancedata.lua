@@ -292,6 +292,40 @@ return {
 		end
 	},
 	{
+		banner = "meta_entrance_970109",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.METACHARACTER,
+			{
+				autoOpenShipConfigID = 9701091
+			}
+		},
+		isShow = function ()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109) and slot1:isInAct()
+		end,
+		isTip = function ()
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109):isPassType() then
+				return false
+			end
+
+			if not slot1:isShow() then
+				return false
+			end
+
+			slot2 = false
+
+			if slot1.metaPtData then
+				slot2 = slot1.metaPtData:CanGetAward()
+			end
+
+			if slot2 == false then
+				slot2 = getProxy(MetaCharacterProxy):getRedTag(slot0)
+			end
+
+			return slot2
+		end
+	},
+	{
 		banner = "activity_permanent",
 		event = ActivityMediator.ACTIVITY_PERMANENT,
 		data = {},

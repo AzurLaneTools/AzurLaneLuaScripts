@@ -2258,7 +2258,6 @@ pg.memory_storyline = {
 	{
 		description = "「薔薇の塔よ、今度は私が守ります。そして一緒にロイヤルを守っていきましょうーー」",
 		name = "高い塔の薔薇",
-		link_event = "",
 		column = 54,
 		world_id = "",
 		bgm = "theme-glorious-meta",
@@ -2275,6 +2274,50 @@ pg.memory_storyline = {
 		shipnation = {
 			2,
 			97
+		},
+		link_event = {
+			89
+		}
+	},
+	{
+		description = "祝砲も音楽隊も準備よし……\n じゃあ、リハーサルを始めるわよ……\n 指揮官、ようこそ重桜へ！",
+		name = "重桜の招待",
+		column = 55,
+		world_id = "",
+		bgm = "story-newsakura",
+		row = -1,
+		chapter = 4,
+		memory_lock = 0,
+		id = 89,
+		icon = "ChapterFour_8",
+		sort = 1,
+		memory_id = {
+			1,
+			338
+		},
+		shipnation = {
+			3
+		},
+		link_event = {
+			90
+		}
+	},
+	{
+		description = "敬请期待",
+		name = "敬请期待",
+		shipnation = 0,
+		memory_id = "",
+		column = 55,
+		world_id = "",
+		bgm = "",
+		row = 0,
+		chapter = 4,
+		memory_lock = 1,
+		id = 90,
+		icon = "",
+		sort = 0,
+		link_event = {
+			88
 		}
 	},
 	all = {
@@ -2365,6 +2408,8 @@ pg.memory_storyline = {
 		85,
 		86,
 		87,
-		88
+		88,
+		89,
+		90
 	}
 }

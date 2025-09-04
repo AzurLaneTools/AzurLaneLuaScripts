@@ -5964,8 +5964,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.6.5-2025.9.4</color>
-META戦・江風(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2025.9.4-2025.12.11</color>
+META戦・夕立(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -21890,7 +21890,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。
 
-※<color=#92fc63>2025.6.5-2025.9.4</color>江風(META) META戦開放期間は「江風(META)」の解析Ptを入手できます。
+※<color=#92fc63>2025.9.4-2025.12.11</color>夕立(META) META戦開放期間は「夕立(META)」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -40845,4 +40845,29 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
 
 _G.pg.base.gametip.grapihcs3d_setting_flare = {
 	tip = "フレアエフェクト"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "前哨戦"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "重桜の招待"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title1 = {
+	tip = "前哨戦"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Progress = {
+	tip = "現在進捗"
 }

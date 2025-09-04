@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_242 = {
+	[15903302] = {
+		cannon = 160,
+		name = "空母「Queen」重装型",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 15903302,
+		air = 300,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 312,
+		icon = "srcv0",
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90635,
+		durability = 91000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 25,
+		antisub = 0,
+		scale = 300,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 390,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			nuofukedanchuan_buff_01 = 1.8
+		},
+		appear_fx = {
+			"nuofukedanchuan_buff_01",
+			"appearQ"
+		},
+		equipment_list = {
+			894401,
+			894402,
+			894403,
+			894407,
+			894408,
+			894409
+		}
+	},
 	[15903303] = {
 		cannon = 300,
 		name = "仮想幻像「ヴァンガード」",
@@ -1176,41 +1224,5 @@ pg.enemy_data_statistics_242 = {
 			1100552,
 			1100587
 		}
-	},
-	[15908204] = {
-		cannon = 120,
-		prefab = "xiafei_boss",
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 15908204,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 284,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90648,
-		durability = 60000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 468,
-		speed = 30,
-		luck = 0,
-		air = 380,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

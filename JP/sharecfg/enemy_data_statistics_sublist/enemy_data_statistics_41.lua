@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_41 = {
+	[854] = {
+		cannon = 190,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 240,
+		battle_unit_type = 95,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90423,
+		durability = 20000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		id = 854,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20012,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 105,
+		torpedo = 320,
+		durability_growth = 0,
+		antiaircraft = 60,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			300200,
+			300209,
+			300210,
+			300211,
+			300212,
+			300213,
+			300214
+		}
+	},
 	[855] = {
 		cannon = 0,
 		hit_growth = 0,
@@ -1002,47 +1048,6 @@ pg.enemy_data_statistics_41 = {
 			311007,
 			311008,
 			311092
-		}
-	},
-	[1003] = {
-		cannon = 6,
-		name = "カゲロウ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 1638,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 2,
-		antiaircraft = 20,
-		fog_fx = "",
-		dodge_growth = 222,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90169,
-		durability = 160,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		speed = 24,
-		luck = 0,
-		id = 1003,
-		cannon_growth = 468,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 15,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 54,
-		durability_growth = 7800,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
 		}
 	}
 }

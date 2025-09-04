@@ -15691,6 +15691,37 @@ _G.pg.base.item_data_statistics[21050] = {
 }
 
 
+_G.pg.base.item_data_statistics[21051] = {
+	open_directly = 0,
+	name = "結晶：夕立(META)",
+	type = 4,
+	display = "夕立(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21051",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -16393,6 +16424,37 @@ _G.pg.base.item_data_statistics[21919] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21919,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21920] = {
+	open_directly = 0,
+	name = "夕立(META)解析Pt",
+	type = 4,
+	display = "夕立(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21920",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21920,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

@@ -60232,7 +60232,7 @@ _G.pg.base.shop_template[70909] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 1,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -60251,8 +60251,8 @@ _G.pg.base.shop_template[70909] = {
 		{
 			{
 				2025,
-				2,
-				27
+				9,
+				4
 			},
 			{
 				0,
@@ -60263,8 +60263,8 @@ _G.pg.base.shop_template[70909] = {
 		{
 			{
 				2025,
-				3,
-				12
+				9,
+				11
 			},
 			{
 				23,

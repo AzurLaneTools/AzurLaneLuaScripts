@@ -1855,6 +1855,13 @@ pg.name_code = {
 		code = "江風(META)",
 		nation = 0
 	},
+	[301] = {
+		name = "夕立(META)",
+		type = 1,
+		id = 301,
+		code = "夕立(META)",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

@@ -504,6 +504,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「高い塔に佇む薔薇は、ロイヤルの最後の栄光を守り続ける」</color>――「高い塔の薔薇」イベントで入手可能",
 		scene = {}
 	},
+	[336] = {
+		name = "鳳鳴アマハラ",
+		gain_by = "",
+		time_second = 0,
+		id = 336,
+		time_limit_type = 0,
+		desc = "今後開催されるイベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -912,6 +921,7 @@ pg.item_data_frame = {
 		333,
 		334,
 		335,
+		336,
 		401,
 		402,
 		403,

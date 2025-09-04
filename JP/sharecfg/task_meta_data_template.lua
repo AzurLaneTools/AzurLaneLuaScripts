@@ -317,6 +317,11 @@ pg.task_meta_data_template = setmetatable({
 		100453,
 		100454,
 		100455,
+		100461,
+		100462,
+		100463,
+		100464,
+		100465,
 		200001,
 		200002,
 		200003,
@@ -460,7 +465,11 @@ pg.task_meta_data_template = setmetatable({
 		200361,
 		200362,
 		200363,
-		200364
+		200364,
+		200371,
+		200372,
+		200373,
+		200374
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2985,6 +2994,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "ダンケルク(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100461] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970109",
+		id = 100461,
+		target_num = 1,
+		desc = "夕立(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100462] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970109",
+		id = 100462,
+		target_num = 1,
+		desc = "夕立(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100463] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970109",
+		id = 100463,
+		target_num = 1,
+		desc = "夕立(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100464] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970109",
+		id = 100464,
+		target_num = 1,
+		desc = "夕立(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100465] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970109",
+		id = 100465,
+		target_num = 1,
+		desc = "夕立(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4136,5 +4185,37 @@ pg.base.task_meta_data_template = {
 		id = 200364,
 		target_num = 1,
 		desc = "セイレーン作戦でダンケルク(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200371] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970109",
+		id = 200371,
+		target_num = 1,
+		desc = "セイレーン作戦で夕立(META)を含めた艦隊で1回勝利する"
+	},
+	[200372] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970109",
+		id = 200372,
+		target_num = 1,
+		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200373] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970109",
+		id = 200373,
+		target_num = 1,
+		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200374] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970109",
+		id = 200374,
+		target_num = 1,
+		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

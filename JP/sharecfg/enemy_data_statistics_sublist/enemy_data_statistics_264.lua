@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_264 = {
+	[16409204] = {
+		cannon = 60,
+		air = 261,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 284,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 90738,
+		durability = 23800,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 312,
+		speed = 30,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		id = 16409204,
+		fog_fx = "",
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3049201
+		}
+	},
 	[16409301] = {
 		cannon = 16,
 		air = 0,
@@ -1222,59 +1282,6 @@ pg.enemy_data_statistics_264 = {
 			1100620,
 			1100650,
 			1100475
-		}
-	},
-	[16500104] = {
-		cannon = 31,
-		name = "ジョッフル駒式統御武装「Annihilate」",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 5,
-		type = 5,
-		id = 16500104,
-		antiaircraft = 45,
-		antiaircraft_growth = 3744,
-		dodge_growth = 48,
-		fog_fx = "",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90648,
-		durability = 1020,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 2592,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 3,
-		reload_growth = 0,
-		hit = 18,
-		torpedo = 0,
-		durability_growth = 49600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100030,
-			1100550,
-			1100915,
-			1100735
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 1
-			}
 		}
 	}
 }

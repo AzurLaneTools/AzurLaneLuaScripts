@@ -18,6 +18,7 @@ slot0.Preload = function(slot0, slot1, slot2)
 			uv0:PrepareCharacterScene(slot0)
 		end
 	}, function ()
+		IslandGuideChecker.CheckGuide("ISLAND_GUIDE_12")
 		existCall(uv0)
 	end)
 end

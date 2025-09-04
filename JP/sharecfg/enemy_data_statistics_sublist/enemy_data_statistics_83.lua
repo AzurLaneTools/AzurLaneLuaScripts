@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_83 = {
+	[10013017] = {
+		cannon = 74,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 936,
+		armor = 0,
+		reload = 150,
+		base = 90195,
+		dodge = 11,
+		torpedo_growth = 3366,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 162,
+		speed_growth = 0,
+		star = 3,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 112,
+		durability = 5270,
+		armor_growth = 0,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		speed = 24,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 55,
+		id = 10013017,
+		antiaircraft_growth = 3744,
+		fog_fx = "",
+		equipment_list = {
+			473133,
+			473134,
+			473135,
+			473136
+		}
+	},
 	[10013018] = {
 		cannon = 102,
 		hit_growth = 350,
@@ -1623,43 +1661,6 @@ pg.enemy_data_statistics_83 = {
 		equipment_list = {
 			510015,
 			510016
-		}
-	},
-	[10041020] = {
-		cannon = 12,
-		name = "イナヅマ",
-		air = 0,
-		cannon_growth = 468,
-		antisub = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 15,
-		torpedo = 84,
-		antiaircraft_growth = 1638,
-		reload_growth = 0,
-		dodge_growth = 222,
-		hit_growth = 210,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		speed_growth = 0,
-		base = 90164,
-		durability = 1100,
-		armor_growth = 0,
-		durability_growth = 22500,
-		antiaircraft = 85,
-		speed = 30,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 10041020,
-		battle_unit_type = 50,
-		torpedo_growth = 4491,
-		fog_fx = "",
-		equipment_list = {
-			510017,
-			510018
 		}
 	}
 }

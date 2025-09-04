@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_70 = {
+	[107019] = {
+		cannon = 130,
+		name = "量産型ナガラ級",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 285,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90107,
+		durability = 920,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 107019,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 26,
+		torpedo = 275,
+		durability_growth = 14200,
+		luck_growth = 0,
+		battle_unit_type = 25,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			317028,
+			317038
+		}
+	},
 	[107020] = {
 		cannon = 280,
 		name = "イスズ",
@@ -1516,76 +1557,6 @@ pg.enemy_data_statistics_70 = {
 			100432,
 			318103,
 			100572
-		}
-	},
-	[10805400] = {
-		name = "マヤ",
-		rarity = 4,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		antiaircraft = 480,
-		cannon = 560,
-		fog_fx = "",
-		dodge_growth = 360,
-		star = 5,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90209,
-		durability = 86000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 24,
-		luck = 0,
-		id = 10805400,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 36,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 660,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.694,
-					0.853,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					0.917,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.096,
-					3.156,
-					0
-				}
-			}
-		},
-		equipment_list = {
-			100203,
-			100432,
-			318104,
-			318108
 		}
 	}
 }

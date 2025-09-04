@@ -315,31 +315,6 @@ slot0.SetResources = function(slot0)
 					setText(slot2:Find("gold/max"), "MAX: " .. uv1.player:getLevelMaxGold())
 					setText(slot2:Find("gold/Text"), uv1.player.gold)
 				elseif slot5 == 4 or slot5 == 14 then
-					setText(slot2:Find("count"), uv1.player:getTotalGem())
-
-					slot6 = function()
-						if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
-							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-								wrap = ChargeScene.TYPE_DIAMOND
-							})
-						else
-							pg.m02:sendNotification(uv0.GO_MALL)
-						end
-					end
-
-					if PLATFORM_CODE == PLATFORM_JP then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							fontSize = 23,
-							yesText = "text_buy",
-							content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
-							onYes = slot6,
-							alignment = TextAnchor.UpperLeft,
-							weight = LayerWeightConst.TOP_LAYER
-						})
-					else
-						slot6()
-					end
-
 					setActive(slot2:Find("gem"), true)
 					setText(slot2:Find("gem/Text"), uv1.player:getTotalGem())
 				end

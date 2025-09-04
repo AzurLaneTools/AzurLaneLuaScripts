@@ -472,16 +472,20 @@ slot0.GetChangeSkinAction = function(slot0)
 	return uv0.GetChangeSkinData(slot0) and slot1.action or nil
 end
 
-slot0.GetStoreChangeSkinId = function(slot0)
-	if PlayerPrefs.GetInt(uv0.GetStoreChangeSkinPrefsName(slot0), 0) == 0 then
+slot0.GetStoreChangeSkinId = function(slot0, slot1)
+	slot2, slot3 = ShipPhantom.UnpackMark(slot1)
+
+	if PlayerPrefs.GetInt(uv0.GetStoreChangeSkinPrefsName(slot0, slot1), 0) == 0 then
 		return nil
 	else
-		return slot2
+		return slot5
 	end
 end
 
-slot0.SetStoreChangeSkinId = function(slot0)
-	PlayerPrefs.SetInt(uv0.GetStoreChangeSkinPrefsName(uv0.GetChangeSkinGroupId(slot0)), slot0)
+slot0.SetStoreChangeSkinId = function(slot0, slot1)
+	slot2, slot3 = ShipPhantom.UnpackMark(slot1)
+
+	PlayerPrefs.SetInt(uv0.GetStoreChangeSkinPrefsName(uv0.GetChangeSkinGroupId(slot0), slot1), slot0)
 end
 
 slot0.GetStoreChangeSkinPrefsName = function(...)

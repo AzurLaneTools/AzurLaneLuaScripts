@@ -1,5 +1,70 @@
 pg = pg or {}
 pg.enemy_data_statistics_89 = {
+	[10043044] = {
+		name = "ヒエイ",
+		rarity = 4,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		antiaircraft_growth = 3555,
+		antiaircraft = 140,
+		cannon = 180,
+		dodge_growth = 48,
+		fog_fx = "",
+		star = 5,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90220,
+		durability = 4200,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		speed = 20,
+		luck = 0,
+		id = 10043044,
+		cannon_growth = 1900,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 104000,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			512082,
+			512083,
+			512084,
+			510003
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
 	[10043045] = {
 		cannon = 180,
 		name = "キリシマ",
@@ -1427,47 +1492,6 @@ pg.enemy_data_statistics_89 = {
 				}
 			}
 		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			100205,
-			100506,
-			100406
-		}
-	},
-	[10044010] = {
-		cannon = 17,
-		name = "量産型アオバ級",
-		hit_growth = 144,
-		speed_growth = 0,
-		antiaircraft_growth = 1404,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 2,
-		antiaircraft = 180,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 3,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90112,
-		durability = 1360,
-		armor_growth = 0,
-		torpedo_growth = 1125,
-		speed = 15,
-		luck = 0,
-		id = 10044010,
-		cannon_growth = 1800,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 14,
-		durability_growth = 43000,
-		luck_growth = 0,
-		battle_unit_type = 35,
 		appear_fx = {
 			"appearsmall"
 		},
