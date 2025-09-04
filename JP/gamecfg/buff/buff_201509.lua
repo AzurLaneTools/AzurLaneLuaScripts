@@ -39,7 +39,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				buff_id = 200454,
+				buff_id = 201510,
 				cld_data = {
 					box = {
 						range = 3

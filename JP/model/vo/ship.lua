@@ -545,7 +545,7 @@ end
 slot0.getSkinId = function(slot0, slot1)
 	slot2 = slot0:getPhantomSkin(slot1 or 0)
 
-	if not slot0.noChangeSkin and ShipSkin.IsChangeSkin(slot2) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot2), slot0:GetShipPhantomMark()) then
+	if not slot0.noChangeSkin and tobool(slot0.id) and ShipSkin.IsChangeSkin(slot2) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot2), slot0:GetShipPhantomMark()) then
 		return slot3
 	end
 

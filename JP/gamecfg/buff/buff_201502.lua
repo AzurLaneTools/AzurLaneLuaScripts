@@ -5,7 +5,7 @@ return {
 	stack = 10,
 	id = 201502,
 	picture = "",
-	last_effect = "zhongfei_miaozhun",
+	last_effect = "xilimeta_miaozhun",
 	effect_list = {
 		{
 			type = "BattleBuffCount",

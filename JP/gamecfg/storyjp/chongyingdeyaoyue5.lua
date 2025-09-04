@@ -686,7 +686,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1、実に興味深い臨死体験だと思わぬか？",
+			say = "実に興味深い臨死体験だと思わぬか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "アズールレーンの指揮官である$1、お主だ――お主自身がその巨大な「謎」だ",
+			say = "アズールレーンの指揮官であるお主だ――お主自身がその巨大な「謎」だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "$1、それだ。このように氷山の一角にしか触れていないのにも関わらず、「謎」はさらに深まっていく…",
+			say = "それだ。このように氷山の一角にしか触れていないのにも関わらず、「謎」はさらに深まっていく…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
