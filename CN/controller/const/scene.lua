@@ -1354,7 +1354,7 @@ slot1 = {
 		end)
 		seriesAsync(slot2, slot1)
 	end,
-	SwichSkinMediator = function (slot0, slot1)
+	SwitchSkinMediator = function (slot0, slot1)
 		PaintingGroupConst.PaintingDownload({
 			isShowBox = true,
 			paintingNameList = PaintingGroupConst.GetPaintingNameListByShipVO(slot0.context.data.shipVO),

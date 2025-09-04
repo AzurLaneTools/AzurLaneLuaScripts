@@ -2449,6 +2449,10 @@ slot0.willExit = function(slot0)
 		slot0.cbTimer = nil
 	end
 
+	if slot0.svQuickExchange:isShowing() then
+		slot0.svQuickExchange:Hide()
+	end
+
 	slot0.svQuickExchange:Destroy()
 end
 

@@ -43,8 +43,8 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			mediator = SwichSkinMediator,
-			viewComponent = SwichSkinLayer,
+			mediator = SwitchSkinMediator,
+			viewComponent = SwitchSkinLayer,
 			data = {
 				shipVO = slot1
 			}

@@ -5273,7 +5273,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2025.6.5-2025.9.4</color>期间限时开放「{namecode:300}」的挑战，在此期间指挥官可挑战「{namecode:300}」累计其同步值获取<color=#92fc63>「{namecode:300}」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2025.9.4-2025.12.11</color>期间限时开放「{namecode:301}」的挑战，在此期间指挥官可挑战「{namecode:301}」累计其同步值获取<color=#92fc63>「{namecode:301}」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5294,7 +5294,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标{namecode:300}暂不可使用指挥喵与潜艇
+·挑战信标{namecode:301}暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5302,8 +5302,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标{namecode:300}挑战的进行，从第31天开始，即2025.7.6~2025.9.4期间，舰队挑战「{namecode:300}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:300}开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标{namecode:300}战斗中出现，每次挑战均会触发。]]
+随着信标{namecode:301}挑战的进行，从第31天开始，即2025.10.5~2025.12.11期间，舰队挑战「{namecode:301}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:301}开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标{namecode:301}战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -21539,9 +21539,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2025.6.5-2025.9.4</color>期间限时开放「{namecode:300}」的「资讯同步」，通过「信标{namecode:300}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:300}」角色</color>
+·<color=#92fc63>2025.9.4-2025.12.11</color>期间限时开放「{namecode:301}」的「资讯同步」，通过「信标{namecode:301}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:301}」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「{namecode:300}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「{namecode:301}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -40334,4 +40334,29 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
 
 _G.pg.base.gametip.grapihcs3d_setting_flare = {
 	tip = "光晕"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "重樱的邀约 "
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title1 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Progress = {
+	tip = "当前进度"
 }

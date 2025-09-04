@@ -82,8 +82,8 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
-			mediator = SwichSkinMediator,
-			viewComponent = SwichSkinLayer,
+			mediator = SwitchSkinMediator,
+			viewComponent = SwitchSkinLayer,
 			data = {
 				shipVO = slot1
 			}
@@ -112,7 +112,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.WORLD_SHIP_REPAIR_DONE,
 		GAME.UPDATE_LOCK_DONE,
 		GAME.WORLD_FLEET_REDEPLOY_DONE,
-		SetShipSkinCommand.SKIN_UPDATED
+		SetShipSkinCommand.SKIN_UPDATED,
+		GAME.CHANGE_SKIN_UPDATE
 	}
 end
 
@@ -222,6 +223,14 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		slot0.viewComponent:OnShipSkinChanged(slot3.ship:GetShipPhantomMark())
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE then
+		slot5, slot6 = ShipPhantom.UnpackMark(slot3)
+
+		if slot0.shipsById[slot5] then
+			slot0.shipsById[slot5] = getProxy(BayProxy):RawGetShipById(slot5)
+		end
+
+		slot0.viewComponent:OnShipSkinChanged(slot4)
 	end
 end
 

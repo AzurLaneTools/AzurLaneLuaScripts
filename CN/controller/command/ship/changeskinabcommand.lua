@@ -31,7 +31,7 @@ slot0.startChangeAction = function(slot0, slot1, slot2, slot3)
 			slot2 = slot0.tip
 
 			if slot0.flag then
-				ShipSkin.SetStoreChangeSkinId(uv0)
+				ShipSkin.SetStoreChangeSkinId(uv0, uv1:GetShipPhantomMark())
 				pg.ChangeSkinMgr.GetInstance():play(uv0, function ()
 					uv0:sendNotification(GAME.CHANGE_SKIN_EXCHANGE, {
 						callback = function ()
@@ -45,7 +45,7 @@ slot0.startChangeAction = function(slot0, slot1, slot2, slot3)
 			end
 
 			if slot2 then
-				pg.TipsMgr.GetInstance():ShowTips(uv2)
+				pg.TipsMgr.GetInstance():ShowTips(uv3)
 			end
 		end
 	})

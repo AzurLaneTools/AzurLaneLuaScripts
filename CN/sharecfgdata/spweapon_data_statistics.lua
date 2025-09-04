@@ -31320,3 +31320,818 @@ _G.pg.base.spweapon_data_statistics[14450] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[14460] = {
+	attribute_1 = "torpedo",
+	name = "高贵！幸运！无敌！",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901020,
+	value_2_random = 20,
+	effect_id = 901020,
+	attribute_2 = "durability",
+	next = 14461,
+	upgrade_id = 101,
+	value_2 = 130,
+	icon = "14460",
+	value_1 = 22,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 30116,
+	important = 2,
+	prev = 0,
+	id = 14460,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011240
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14461] = {
+	upgrade_id = 102,
+	prev = 14460,
+	next = 14462,
+	base = 14460,
+	id = 14461,
+	value_2 = 135,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14462] = {
+	upgrade_id = 103,
+	prev = 14461,
+	next = 14463,
+	base = 14460,
+	id = 14462,
+	value_2 = 140,
+	value_1 = 23,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14463] = {
+	upgrade_id = 104,
+	prev = 14462,
+	next = 14464,
+	base = 14460,
+	id = 14463,
+	value_2 = 145,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14464] = {
+	upgrade_id = 105,
+	prev = 14463,
+	next = 14465,
+	base = 14460,
+	id = 14464,
+	value_2 = 150,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14465] = {
+	upgrade_id = 106,
+	prev = 14464,
+	next = 14466,
+	base = 14460,
+	id = 14465,
+	value_2 = 155,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14466] = {
+	upgrade_id = 107,
+	prev = 14465,
+	next = 14467,
+	base = 14460,
+	id = 14466,
+	value_2 = 160,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14467] = {
+	upgrade_id = 108,
+	prev = 14466,
+	next = 14468,
+	base = 14460,
+	id = 14467,
+	value_2 = 165,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14468] = {
+	upgrade_id = 109,
+	prev = 14467,
+	next = 14469,
+	base = 14460,
+	id = 14468,
+	value_2 = 170,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14469] = {
+	upgrade_id = 110,
+	prev = 14468,
+	next = 14470,
+	base = 14460,
+	id = 14469,
+	value_2 = 175,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14470] = {
+	id = 14470,
+	upgrade_id = 111,
+	base = 14460,
+	next = 0,
+	prev = 14469,
+	value_2 = 180,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			11240,
+			1011240
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14480] = {
+	attribute_1 = "air",
+	name = "象征着自由的奇迹",
+	type = 7,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902330,
+	value_2_random = 5,
+	effect_id = 902330,
+	attribute_2 = "reload",
+	next = 14481,
+	upgrade_id = 101,
+	value_2 = 6,
+	icon = "14480",
+	value_1 = 22,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 10705,
+	important = 2,
+	prev = 0,
+	id = 14480,
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010190
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14481] = {
+	upgrade_id = 102,
+	prev = 14480,
+	next = 14482,
+	base = 14480,
+	id = 14481,
+	value_2 = 6,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14482] = {
+	upgrade_id = 103,
+	prev = 14481,
+	next = 14483,
+	base = 14480,
+	id = 14482,
+	value_2 = 7,
+	value_1 = 23,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14483] = {
+	upgrade_id = 104,
+	prev = 14482,
+	next = 14484,
+	base = 14480,
+	id = 14483,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14484] = {
+	upgrade_id = 105,
+	prev = 14483,
+	next = 14485,
+	base = 14480,
+	id = 14484,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14485] = {
+	upgrade_id = 106,
+	prev = 14484,
+	next = 14486,
+	base = 14480,
+	id = 14485,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14486] = {
+	upgrade_id = 107,
+	prev = 14485,
+	next = 14487,
+	base = 14480,
+	id = 14486,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14487] = {
+	upgrade_id = 108,
+	prev = 14486,
+	next = 14488,
+	base = 14480,
+	id = 14487,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14488] = {
+	upgrade_id = 109,
+	prev = 14487,
+	next = 14489,
+	base = 14480,
+	id = 14488,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14489] = {
+	upgrade_id = 110,
+	prev = 14488,
+	next = 14490,
+	base = 14480,
+	id = 14489,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14490] = {
+	id = 14490,
+	upgrade_id = 111,
+	base = 14480,
+	next = 0,
+	prev = 14489,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			10190,
+			1010190
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14500] = {
+	attribute_1 = "cannon",
+	name = "偶像的必杀技",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "torpedo",
+	next = 14501,
+	upgrade_id = 101,
+	value_2 = 8,
+	icon = "14500",
+	value_1 = 22,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 40135,
+	important = 2,
+	prev = 0,
+	id = 14500,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011450
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14501] = {
+	upgrade_id = 102,
+	prev = 14500,
+	next = 14502,
+	base = 14500,
+	id = 14501,
+	value_2 = 9,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14502] = {
+	upgrade_id = 103,
+	prev = 14501,
+	next = 14503,
+	base = 14500,
+	id = 14502,
+	value_2 = 10,
+	value_1 = 23,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14503] = {
+	upgrade_id = 104,
+	prev = 14502,
+	next = 14504,
+	base = 14500,
+	id = 14503,
+	value_2 = 11,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14504] = {
+	upgrade_id = 105,
+	prev = 14503,
+	next = 14505,
+	base = 14500,
+	id = 14504,
+	value_2 = 12,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14505] = {
+	upgrade_id = 106,
+	prev = 14504,
+	next = 14506,
+	base = 14500,
+	id = 14505,
+	value_2 = 14,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14506] = {
+	upgrade_id = 107,
+	prev = 14505,
+	next = 14507,
+	base = 14500,
+	id = 14506,
+	value_2 = 15,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14507] = {
+	upgrade_id = 108,
+	prev = 14506,
+	next = 14508,
+	base = 14500,
+	id = 14507,
+	value_2 = 16,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14508] = {
+	upgrade_id = 109,
+	prev = 14507,
+	next = 14509,
+	base = 14500,
+	id = 14508,
+	value_2 = 17,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14509] = {
+	upgrade_id = 110,
+	prev = 14508,
+	next = 14510,
+	base = 14500,
+	id = 14509,
+	value_2 = 18,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14510] = {
+	id = 14510,
+	upgrade_id = 111,
+	base = 14500,
+	next = 0,
+	prev = 14509,
+	value_2 = 20,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			11450,
+			1011450
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14520] = {
+	attribute_1 = "cannon",
+	name = "见习骑士的佩剑",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 10,
+	effect_id = 901010,
+	attribute_2 = "torpedo",
+	next = 14521,
+	upgrade_id = 101,
+	value_2 = 10,
+	icon = "14520",
+	value_1 = 20,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 80102,
+	important = 2,
+	prev = 0,
+	id = 14520,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1005070
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14521] = {
+	upgrade_id = 102,
+	prev = 14520,
+	next = 14522,
+	base = 14520,
+	id = 14521,
+	value_2 = 10,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14522] = {
+	upgrade_id = 103,
+	prev = 14521,
+	next = 14523,
+	base = 14520,
+	id = 14522,
+	value_2 = 10,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14523] = {
+	upgrade_id = 104,
+	prev = 14522,
+	next = 14524,
+	base = 14520,
+	id = 14523,
+	value_2 = 11,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14524] = {
+	upgrade_id = 105,
+	prev = 14523,
+	next = 14525,
+	base = 14520,
+	id = 14524,
+	value_2 = 11,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14525] = {
+	upgrade_id = 106,
+	prev = 14524,
+	next = 14526,
+	base = 14520,
+	id = 14525,
+	value_2 = 12,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14526] = {
+	upgrade_id = 107,
+	prev = 14525,
+	next = 14527,
+	base = 14520,
+	id = 14526,
+	value_2 = 12,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14527] = {
+	upgrade_id = 108,
+	prev = 14526,
+	next = 14528,
+	base = 14520,
+	id = 14527,
+	value_2 = 13,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14528] = {
+	upgrade_id = 109,
+	prev = 14527,
+	next = 14529,
+	base = 14520,
+	id = 14528,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14529] = {
+	upgrade_id = 110,
+	prev = 14528,
+	next = 14530,
+	base = 14520,
+	id = 14529,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14530] = {
+	id = 14530,
+	upgrade_id = 111,
+	base = 14520,
+	next = 0,
+	prev = 14529,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			5071,
+			1005070
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14540] = {
+	attribute_1 = "cannon",
+	name = "君主之誓 ",
+	type = 6,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902020,
+	value_2_random = 5,
+	effect_id = 902020,
+	attribute_2 = "hit",
+	next = 14541,
+	upgrade_id = 101,
+	value_2 = 10,
+	icon = "14540",
+	value_1 = 13,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 29902,
+	important = 2,
+	prev = 0,
+	id = 14540,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			1019030
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14541] = {
+	upgrade_id = 102,
+	prev = 14540,
+	next = 14542,
+	base = 14540,
+	id = 14541,
+	value_2 = 10,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14542] = {
+	upgrade_id = 103,
+	prev = 14541,
+	next = 14543,
+	base = 14540,
+	id = 14542,
+	value_2 = 10,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14543] = {
+	upgrade_id = 104,
+	prev = 14542,
+	next = 14544,
+	base = 14540,
+	id = 14543,
+	value_2 = 11,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14544] = {
+	upgrade_id = 105,
+	prev = 14543,
+	next = 14545,
+	base = 14540,
+	id = 14544,
+	value_2 = 11,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14545] = {
+	upgrade_id = 106,
+	prev = 14544,
+	next = 14546,
+	base = 14540,
+	id = 14545,
+	value_2 = 12,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14546] = {
+	upgrade_id = 107,
+	prev = 14545,
+	next = 14547,
+	base = 14540,
+	id = 14546,
+	value_2 = 12,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14547] = {
+	upgrade_id = 108,
+	prev = 14546,
+	next = 14548,
+	base = 14540,
+	id = 14547,
+	value_2 = 13,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14548] = {
+	upgrade_id = 109,
+	prev = 14547,
+	next = 14549,
+	base = 14540,
+	id = 14548,
+	value_2 = 13,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14549] = {
+	upgrade_id = 110,
+	prev = 14548,
+	next = 14550,
+	base = 14540,
+	id = 14549,
+	value_2 = 14,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14550] = {
+	id = 14550,
+	upgrade_id = 111,
+	base = 14540,
+	next = 0,
+	prev = 14549,
+	value_2 = 15,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			19030,
+			1019030
+		}
+	}
+}

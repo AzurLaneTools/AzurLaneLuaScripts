@@ -436,7 +436,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "罗德尼·META",
 		boss_level_id = 196,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "luodeni",
 		meta_id = 970505,
@@ -611,6 +611,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "茳·META",
 		boss_level_id = 271,
+		state = "stop",
 		item_id = 100000,
 		painting = "jiangfeng",
 		meta_id = 970108,
@@ -627,12 +628,44 @@ pg.world_joint_boss_template = {
 				"\n「二刀流·夕照」的斩击每累计命中并造成伤害10次，或在单次战斗中自身每累计损失20%耐久，茳·META都将召唤一只「血影」，<color=#92fc63>永久提升自身炮击、雷击，并降低「二刀流·夕照」的释放间隔</color>。"
 			}
 		},
+		p_offset = {
+			-376,
+			465,
+			0.73,
+			0.73
+		},
+		p_offset_other = {
+			236,
+			484,
+			0.68,
+			0.68
+		}
+	},
+	{
+		name = "椿·META",
+		boss_level_id = 286,
+		item_id = 100000,
+		painting = "xili",
+		meta_id = 970109,
+		id = 20,
+		description = {
+			{
+				"我挠挠挠挠",
+				2,
+				"椿·META会持续锁定我方<color=#92fc63>当前耐久百分比最高</color>的角色，5秒后对其施展爪击造成大量伤害，并100%附加<color=#92fc63>持续20秒的特殊点燃状态</color>（无视闪避，每2秒造成一次点燃伤害，重复附加时不叠加而是重置时间），之后技能进入5秒冷却。\n若锁定期间我方耐久百分比最高的角色发生变化，则重新开始锁定。"
+			},
+			{
+				"我打打打打",
+				3,
+				"椿·META的鱼雷同样有30%概率造成持续时间6秒的特殊点燃（无视闪避，每1秒造成一次点燃伤害，点燃伤害可与爪击特殊点燃叠加）。\n椿·META对<color=#92fc63>点燃状态下的单位造成的伤害提升30%</color>，每个处于特殊点燃状态中的我方单位都会使椿·META<color=#92fc63>受到的伤害降低10%</color>。"
+			}
+		},
 		state = {
 			{
 				{
 					2025,
-					6,
-					5
+					9,
+					4
 				},
 				{
 					0,
@@ -643,8 +676,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2025,
-					9,
-					4
+					12,
+					11
 				},
 				{
 					23,
@@ -654,13 +687,13 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			-376,
-			465,
-			0.73,
-			0.73
+			-392,
+			457,
+			0.7,
+			0.7
 		},
 		p_offset_other = {
-			236,
+			240,
 			484,
 			0.68,
 			0.68
@@ -685,6 +718,7 @@ pg.world_joint_boss_template = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20
 	}
 }
