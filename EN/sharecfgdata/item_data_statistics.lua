@@ -15766,6 +15766,37 @@ _G.pg.base.item_data_statistics[21050] = {
 }
 
 
+_G.pg.base.item_data_statistics[21051] = {
+	open_directly = 0,
+	name = "META Crystal – Yuudachi META",
+	type = 4,
+	display = "An item that increases the potential of Yuudachi META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21051",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -16468,6 +16499,37 @@ _G.pg.base.item_data_statistics[21919] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21919,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21920] = {
+	open_directly = 0,
+	name = "Synchronization Point – Yuudachi META",
+	type = 4,
+	display = "Sync Points for Yuudachi META.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21920",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21920,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -107093,6 +107155,43 @@ _G.pg.base.item_data_statistics[99958] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99959] = {
+	open_directly = 1,
+	name = "7th Anniversary Dessert Bar",
+	type = 17,
+	display = "Recharge with a dash of sweetness for your adventure.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/tianpinbataiicon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998559",
+	id = 99959,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			5,
+			315,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

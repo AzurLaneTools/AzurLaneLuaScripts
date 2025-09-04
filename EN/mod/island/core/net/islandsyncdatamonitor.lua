@@ -33,6 +33,19 @@ slot0.register = function(slot0)
 			uv0:GetIsland():DispatchEvent(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.object_list)
 		end
 	end)
+	slot0:on(21304, function (slot0)
+		slot2 = getProxy(IslandProxy):GetIsland()
+
+		pg.m02:sendNotification(GAME.ISLAND_EXIT, {
+			id = uv0:GetIsland().id,
+			callback = function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_visit_tip4"))
+				pg.m02:sendNotification(GAME.ISLAND_ENTER, {
+					id = uv0.id
+				})
+			end
+		})
+	end)
 end
 
 return slot0

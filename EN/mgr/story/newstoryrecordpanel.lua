@@ -231,13 +231,17 @@ slot0.PlayAnimation = function(slot0, slot1)
 	slot1()
 end
 
+slot0.UpdateIcon = function(slot0, slot1, slot2)
+	GetImageSpriteFromAtlasAsync("SquareIcon/" .. slot1.icon, "", slot2:Find("Image"))
+end
+
 slot0.UpdateRecord = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
 
 	setActive(slot1:Find("icon"), slot2.icon)
 
 	if slot2.icon then
-		GetImageSpriteFromAtlasAsync("SquareIcon/" .. slot2.icon, "", slot3:Find("Image"))
+		slot0:UpdateIcon(slot2, slot3)
 	end
 
 	if slot2.name and slot2.nameColor then

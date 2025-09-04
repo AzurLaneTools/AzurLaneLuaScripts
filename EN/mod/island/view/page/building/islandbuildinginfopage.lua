@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	setText(slot0:findTF("frame/tags/ship/Text"), i18n1("角色信息"))
-	setText(slot0:findTF("frame/tags/building/Text"), i18n1("建筑信息"))
+	setText(slot0:findTF("frame/tags/ship/Text"), i18n("island_ship_title_info"))
+	setText(slot0:findTF("frame/tags/building/Text"), i18n("island_building_title_info"))
 
 	slot0.shipPage = slot0:findTF("frame/shipPanel")
 	slot0.shipUIList = UIItemList.New(slot0:findTF("list/content", slot0.shipPage), slot0:findTF("list/content/tpl", slot0.shipPage))
 
-	setText(slot0:findTF("skill/title", slot0.shipPage), i18n1("效果："))
+	setText(slot0:findTF("skill/title", slot0.shipPage), i18n("island_word_effect"))
 
 	slot0.skillUIList = UIItemList.New(slot0:findTF("skill/list/content", slot0.shipPage), slot0:findTF("skill/list/content/tpl", slot0.shipPage))
 
-	setText(slot0:findTF("ship_num/title", slot0.shipPage), i18n1("已派遣："))
+	setText(slot0:findTF("ship_num/title", slot0.shipPage), i18n("island_word_dispatch"))
 
 	slot0.shipNumTF = slot0:findTF("ship_num/num", slot0.shipPage)
 	slot0.buildingPage = slot0:findTF("frame/buildingPanel")
@@ -37,7 +37,7 @@ slot0.OnInit = function(slot0)
 
 			setText(uv0:findTF("energy_bar/Text", slot2), slot5 .. "/" .. slot6)
 			setSlider(uv0:findTF("energy_bar", slot2), 0, 1, slot5 / slot6)
-			setText(uv0:findTF("status", slot2), slot5 > 0 and i18n1("工作中") or i18n1("生产暂停"))
+			setText(uv0:findTF("status", slot2), slot5 > 0 and i18n("island_word_working") or i18n("island_word_stop_work"))
 			setText(uv0:findTF("time", slot2), slot5 / 10 .. "s")
 		end
 	end)
@@ -46,7 +46,7 @@ slot0.OnInit = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2, pg.island_ship_skill[uv0.skillIdList[slot1 + 1]].desc)
+			setText(slot2, pg.island_chara_skill[uv0.skillIdList[slot1 + 1]].desc)
 		end
 	end)
 end
@@ -68,7 +68,7 @@ slot0.Show = function(slot0, slot1)
 		end
 
 		if slot7:GetStatus() == IslandProductionCommission.STATUS_WORKING then
-			slot8 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(slot7:GetShipId())
+			slot8 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot7:GetShipId())
 
 			table.insert(slot0.shipList, slot8)
 			table.insert(slot0.skillIdList, slot8:GetMainSkill())

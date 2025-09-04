@@ -289,6 +289,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
+		param = "TianYuTianYuanCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -298,11 +299,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50085
-		},
-		param = {
-			"SecretsAbyssCoreActivityUI",
-			"QIYUANXIADEMIMILOGO"
+			50102
 		}
 	},
 	[110] = {

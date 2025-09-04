@@ -34,7 +34,7 @@ slot0.didEnter = function(slot0)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			updateDorm3dIcon(slot2, uv0.contextData.items[slot1])
+			updateCustomDrop(slot2, uv0.contextData.items[slot1])
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_NEW_DROP, {
 					drop = uv1

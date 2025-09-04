@@ -45,7 +45,6 @@ slot7.Init = function(slot0)
 	slot0:InitFlagShipMark()
 	slot0:InitSkillAim()
 	pg.CameraFixMgr.GetInstance():Adapt()
-	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(true)
 end
 
 slot7.InitCamera = function(slot0)
@@ -829,8 +828,6 @@ slot7.Clear = function(slot0)
 	uv0.Battle.BattleArrowManager.GetInstance():Clear()
 
 	slot0._anitSubAreaTFList = nil
-
-	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(false)
 end
 
 slot7.Dispose = function(slot0)

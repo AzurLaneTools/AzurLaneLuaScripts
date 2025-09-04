@@ -26,7 +26,7 @@ end
 slot4.Initialize = function(slot0)
 	slot0._cameraTF.localPosition = uv0.CAMERA_INIT_POS
 
-	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(slot0._camera, 20)
+	CameraMgr.instance:SetCameraOrthographicSize(slot0._camera, 20)
 	uv1.UpdateCameraPositionArgs()
 	slot0:setArrowPoint()
 
@@ -56,7 +56,7 @@ slot4.Clear = function(slot0)
 
 	slot0._cameraTF.localPosition = Vector3(0, 62, -10)
 
-	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(slot0._camera, 20)
+	CameraMgr.instance:SetCameraOrthographicSize(slot0._camera, 20)
 
 	slot0._uiMediator = nil
 end
@@ -240,8 +240,8 @@ slot4.BulletTime = function(slot0, slot1, slot2, slot3)
 end
 
 slot4.ZoomCamara = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = LeanTween.value(go(slot0._camera), slot1 or pg.CameraFixMgr.GetInstance():GetCameraOrthographicSize(slot0._camera), slot2 or uv0.CAMERA_SIZE, slot3 or 1.6):setOnUpdate(System.Action_float(function (slot0)
-		pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(uv0._camera, slot0)
+	slot5 = LeanTween.value(go(slot0._camera), slot1 or CameraMgr.instance:GetCameraOrthographicSize(slot0._camera), slot2 or uv0.CAMERA_SIZE, slot3 or 1.6):setOnUpdate(System.Action_float(function (slot0)
+		CameraMgr.instance:SetCameraOrthographicSize(uv0._camera, slot0)
 	end))
 
 	if slot4 then

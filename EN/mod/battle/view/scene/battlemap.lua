@@ -28,6 +28,7 @@ slot1.Ctor = function(slot0, slot1)
 			slot9.rightBorder = slot2.range_right
 			slot9.speedToLeft = slot2[slot7 .. "_speed"] or 0
 			slot9.speedScaler = 1
+			slot9.mainCamera = pg.UIMgr.GetInstance().mainCameraComp
 
 			table.insert(slot0.mapLayerCtrls, slot9)
 		end
@@ -124,6 +125,7 @@ slot1.SetExposeLine = function(slot0, slot1, slot2, slot3)
 		tf(slot2).localScale = Vector3.New(uv2 * slot6.x, slot6.y, slot6.z)
 		slot7 = tf(slot2).localPosition
 		tf(slot2).localPosition = Vector3.New(slot0 - slot4.bounds.extents.x * uv2, slot7.y, slot7.z)
+		slot4.enabled = true
 	end
 
 	instantiateLine(slot2, "visionLine")

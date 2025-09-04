@@ -11,7 +11,6 @@ slot0.OnLoaded = function(slot0)
 	slot0.goldTxt = slot0:findTF("frame/left/objective/gold"):GetComponent(typeof(Text))
 	slot0.expProgress = slot0:findTF("frame/left/exp/bar")
 	slot0.preViewBtn = slot0:findTF("frame/left/preview")
-	slot0.upgradeBtn = slot0:findTF("frame/left/upgrade_btn")
 	slot0.prosperityLevel = slot0:findTF("frame/right/prosperity/level"):GetComponent(typeof(Text))
 	slot0.prosperityExp = slot0:findTF("frame/right/prosperity/exp"):GetComponent(typeof(Text))
 	slot0.prosperityIcon = slot0:findTF("frame/right/prosperity/icon")
@@ -27,12 +26,12 @@ slot0.OnLoaded = function(slot0)
 	slot0.goProsperityBtn = slot0:findTF("frame/right/prosperity/objective/go_btn")
 	slot0.goProsperityBtnTxt = slot0:findTF("frame/right/prosperity/objective/go_btn/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("frame/left/preview/Text"), i18n1("升级预览"))
-	setText(slot0:findTF("frame/left/objective/label_exp"), i18n1("岛屿经验"))
-	setText(slot0:findTF("frame/left/objective/label_gold"), i18n1("需求物资"))
-	setText(slot0:findTF("frame/left/upgrade_preview/content/awards/label"), i18n1("奖励"))
-	setText(slot0:findTF("frame/left/upgrade_preview/content/unlock/label"), i18n1("解锁"))
-	setText(slot0:findTF("frame/right/prosperity/objective/get_btn/Text"), i18n1("领取"))
+	setText(slot0:findTF("frame/left/preview/Text"), i18n("island_upgrade_preview"))
+	setText(slot0:findTF("frame/left/objective/label_exp"), i18n("island_upgrade_exp"))
+	setText(slot0:findTF("frame/left/objective/label_gold"), i18n("island_upgrade_res"))
+	setText(slot0:findTF("frame/left/upgrade_preview/content/awards/label"), i18n("island_word_award"))
+	setText(slot0:findTF("frame/left/upgrade_preview/content/unlock/label"), i18n("island_word_unlock"))
+	setText(slot0:findTF("frame/right/prosperity/objective/get_btn/Text"), i18n("island_word_get"))
 end
 
 slot0.OnInit = function(slot0)
@@ -65,26 +64,6 @@ slot0.OnInit = function(slot0)
 
 			uv0:InitUpgradeAwards(slot0)
 		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.upgradeBtn, function ()
-		if not getProxy(IslandProxy):GetIsland():CanLevelUp() then
-			return
-		end
-
-		slot3 = slot0:GetUpgradeConsume()[1]
-		slot4 = Drop.New({
-			type = slot3[1],
-			id = slot3[2],
-			count = slot3[3]
-		})
-
-		uv0:ShowMsgBox({
-			title = i18n1("确认升级"),
-			content = i18n1("<color=#393a3c>是否确认消耗以下资源并升级岛屿</color>\n 物资：" .. _customColorCount(slot4:getOwnedCount(), slot4.count, "#39bfff", "#f36c6e")),
-			onYes = function ()
-				uv0:emit(IslandMediator.ON_UPGRADE)
-			end
-		})
 	end, SFX_PANEL)
 end
 
@@ -137,13 +116,13 @@ end
 slot0.InitUpgradeAwards = function(slot0, slot1)
 	slot0.upgradeAwardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
+			updateCustomDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 		end
 	end)
 	slot0.upgradeAwardList:align(#slot1:GetUpgradeAwards())
 	slot0.upgradeUnlockList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
+			updateCustomDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 		end
 	end)
 	slot0.upgradeUnlockList:align(#slot1:GetUnlockBuildingList())
@@ -156,16 +135,6 @@ slot0.UpdateLevel = function(slot0, slot1)
 
 	customColorCount(slot0.expTxt, slot2, slot3, "#39bfff", "#f36c6e")
 	setFillAmount(slot0.expProgress, Mathf.Clamp01(slot2 / slot3))
-
-	if slot1:GetUpgradeConsume()[1] == nil then
-		slot0.goldTxt.tetx = ""
-	else
-		slot7 = Drop.Create(slot6)
-
-		customColorCount(slot0.goldTxt, slot7:getOwnedCount(), slot7.count, slot4, slot5)
-	end
-
-	setGray(slot0.upgradeBtn, not slot1:CanLevelUp(), true)
 end
 
 slot0.UpdateProsperity = function(slot0, slot1)
@@ -202,23 +171,23 @@ end
 
 slot0.FlushProsperity = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.prosperityLevel.text = ArabicToRoman(slot2)
-	slot0.prosperityExp.text = i18n1("小岛当前繁荣度：") .. slot1:GetProsperity() .. "/" .. slot1:GetTargetProsperityByLevel(slot2)
+	slot0.prosperityExp.text = i18n("island_prosperity_level_display", slot1:GetProsperity() .. "/" .. slot1:GetTargetProsperityByLevel(slot2))
 
 	slot0.prosperityAwardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
+			updateCustomDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 		end
 	end)
 	slot0.prosperityAwardList:align(#slot1:GetProsperityAward(slot2))
 	setActive(slot0.getProsperityBtn, slot3)
 	setActive(slot0.goProsperityBtn, not slot4 and not slot3)
 
-	slot0.goProsperityBtnTxt.text = i18n1("繁荣度达到：") .. slot7
+	slot0.goProsperityBtnTxt.text = i18n("island_prosperity_value_display", slot7)
 
 	onButton(slot0, slot0.getProsperityBtn, function ()
 		uv0:emit(IslandMediator.GET_PROSPERITY_AWARD, uv1)
 	end, SFX_PANEL)
-	GetImageSpriteFromAtlasAsync("IslandProsperityIcon/" .. slot2, "", slot0.prosperityIcon)
+	GetImageSpriteFromAtlasAsync("island/IslandProsperityIcon/" .. slot2, "", slot0.prosperityIcon)
 end
 
 slot0.UpdateName = function(slot0, slot1)

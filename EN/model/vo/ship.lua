@@ -771,16 +771,16 @@ slot0.isBluePrintShip = function(slot0)
 end
 
 slot0.getSkinId = function(slot0, slot1)
-	slot2 = slot0:getPhandomSkin(slot1 or 0)
+	slot2 = slot0:getPhantomSkin(slot1 or 0)
 
-	if not slot0.noChangeSkin and ShipSkin.IsChangeSkin(slot2) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot2)) then
+	if not slot0.noChangeSkin and tobool(slot0.id) and ShipSkin.IsChangeSkin(slot2) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot2), slot0:GetShipPhantomMark()) then
 		return slot3
 	end
 
 	return slot2
 end
 
-slot0.getPhandomSkin = function(slot0, slot1)
+slot0.getPhantomSkin = function(slot0, slot1)
 	if not slot1 or slot1 == 0 then
 		return slot0.skinId
 	else

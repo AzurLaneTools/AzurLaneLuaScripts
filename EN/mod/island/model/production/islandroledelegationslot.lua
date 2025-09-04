@@ -1,24 +1,35 @@
 slot0 = class("IslandRoleDelegationSlot", import("model.vo.BaseVO"))
 
-slot0.Ctor = function(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.buildId = slot1
 	slot0.id = slot2.id
-	slot0.part_num = slot2.part_num
-	slot0.formula_dic = {}
-	slot3 = ipairs
-	slot4 = slot2.formula_list or {}
+	slot0.part_list = {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot0.formula_dic[slot7.id] = slot7.num
+	for slot7, slot8 in ipairs(slot2.part_list) do
+		table.insert(slot0.part_list, slot8)
 	end
+
+	slot0.formula_dic = {}
+	slot4 = ipairs
+	slot5 = slot2.formula_list or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		slot0.formula_dic[slot8.id] = slot8.num
+	end
+
+	slot0.isSelf = slot3
+end
+
+slot0.AddAnimal = function(slot0, slot1)
+	table.insert(slot0.part_list, slot1)
 end
 
 slot0.GetFormulaId = function(slot0)
 	return slot0.islandRoleDelegationData and slot0.islandRoleDelegationData.formula_id or slot0.islandRoleDelegationReward and slot0.islandRoleDelegationReward.formula_id
 end
 
-slot0.ResetFormulaNum = function(slot0, slot1)
-	slot0.formula_dic[slot1.formula_id] = slot1.num
+slot0.AddFormulaNum = function(slot0, slot1)
+	slot0.formula_dic[slot1.formula_id] = (slot0.formula_dic[slot1.formula_id] or 0) + slot1.num
 end
 
 slot0.GetFromulaTatalCount = function(slot0, slot1)
@@ -74,11 +85,27 @@ slot0.UpdatePerSecond = function(slot0)
 	end
 
 	if slot0.islandRoleDelegationData:CheckDelegationIsEnd() then
-		pg.m02:sendNotification(GAME.ISLAND_FINISH_DELEGATION, {
-			build_id = slot0.buildId,
-			area_id = slot0.id
-		})
-		slot0.islandRoleDelegationData:SetIsSend(true)
+		if slot0.isSelf then
+			pg.m02:sendNotification(GAME.ISLAND_FINISH_DELEGATION, {
+				build_id = slot0.buildId,
+				area_id = slot0.id
+			})
+			slot0.islandRoleDelegationData:SetIsSend(true)
+		else
+			slot1 = getProxy(IslandProxy):GetSharedIsland()
+			slot3 = slot1:GetBuildingAgency():GetBuilding(slot0.buildId)
+
+			slot3:UpdateDeleationRewardDataBySlotId(slot0.id, {
+				formula_id = slot0.islandRoleDelegationData.formula_id
+			})
+			slot3:UpdateDeleationRoleDataBySlotId(slot0.id, nil)
+			slot1:DispatchEvent(IslandFinishDelegationCommand.END_DELEGATION, {
+				remainReward = true,
+				build_id = slot0.buildId,
+				ship_id = slot0.islandRoleDelegationData.ship_id,
+				area_id = slot0.id
+			})
+		end
 	end
 end
 
@@ -103,6 +130,10 @@ slot0.GetRoleShipData = function(slot0)
 	end
 
 	return nil
+end
+
+slot0.GetPartList = function(slot0)
+	return slot0.part_list or {}
 end
 
 return slot0

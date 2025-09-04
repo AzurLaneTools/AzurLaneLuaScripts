@@ -7,14 +7,12 @@ end
 
 slot0.EachSubDirector = function(slot0, slot1)
 	eachChild(slot0, function (slot0)
-		if not slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
-			return
+		if slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
+			table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
+				uv0(slot0, slot1, uv1)
+			end)
+			uv1.EachSubDirector(slot1, uv0)
 		end
-
-		table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
-			uv0(slot0, slot1, uv1)
-		end)
-		uv1.EachSubDirector(slot1, uv0)
 	end)
 end
 
@@ -76,6 +74,16 @@ slot0.UnloadCriAtomTrack = function(slot0)
 			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("BLHXTimeline.BLHXCriAtomTrack"), "GetClips", slot1), function (slot0, slot1)
 				pg.CriMgr.GetInstance():UnloadCueSheet(ReflectionHelp.RefGetField(typeof("BLHXTimeline.BLHXCriAtomClip"), "cueSheet", ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)))
 			end)
+		end
+	end)
+end
+
+slot0.DisablePlayOnAwake = function(slot0)
+	slot0.playOnAwake = false
+
+	eachChild(slot0, function (slot0)
+		if slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
+			uv0.DisablePlayOnAwake(slot1)
 		end
 	end)
 end

@@ -22,6 +22,12 @@ end
 		end
 	end
 
+	uv0.SetBirthday = function()
+		if uv0.GetIsPlatform() then
+			uv1:SetBirthday()
+		end
+	end
+
 	uv0.ShowUserCenter = function()
 		if uv0.GetIsPlatform() then
 			uv1:ShowUserCenter()
@@ -150,6 +156,18 @@ end
 			uv1:CheckUserCacheExist()
 		end
 	end
+
+	uv0.BuildLocalNotification = function(slot0, slot1, slot2, slot3)
+		if uv0.GetIsPlatform() then
+			uv1:BuildLocalNotification(slot0, slot1, slot2, slot3)
+		end
+	end
+
+	uv0.DeleteLocalNotification = function(slot0)
+		if uv0.GetIsPlatform() then
+			uv1:DeleteLocalNotification(slot0)
+		end
+	end
 end)()
 (function ()
 	onInit_YoStar = function(slot0)
@@ -263,6 +281,18 @@ end)()
 	onDeviceTrackingID_YoStar = function(slot0)
 		if uv0.YoStarRetCodeHandler(slot0) then
 			uv0.DeviceID = slot0.DATA
+		end
+	end
+
+	onLocalNotification_YoStar = function(slot0)
+		if uv0.YoStarRetCodeHandler(slot0) then
+			-- Nothing
+		end
+	end
+
+	onSetBirthday_YoStar = function(slot0)
+		if uv0.YoStarRetCodeHandler(slot0) then
+			-- Nothing
 		end
 	end
 end)()

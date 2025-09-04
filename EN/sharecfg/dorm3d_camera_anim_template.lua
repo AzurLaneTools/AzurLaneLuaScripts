@@ -12,8 +12,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1001,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[1002] = {
 		anim_time = 3.333,
@@ -27,8 +29,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1002,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[1003] = {
 		anim_time = 9,
@@ -42,8 +46,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1003,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[1004] = {
 		anim_time = 9.833,
@@ -57,8 +63,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1004,
-		icon = "camera_action4"
+		icon = "camera_action4",
+		enter_scene_anim = ""
 	},
 	[1005] = {
 		anim_time = 5.7,
@@ -72,8 +80,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1005,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[1006] = {
 		anim_time = 7.533,
@@ -87,8 +97,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1006,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[1007] = {
 		anim_time = 8.333,
@@ -102,8 +114,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1007,
-		icon = "camera_action7"
+		icon = "camera_action7",
+		enter_scene_anim = ""
 	},
 	[1008] = {
 		anim_time = 6.5,
@@ -117,8 +131,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1008,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[1009] = {
 		anim_time = 7.333,
@@ -132,8 +148,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1009,
-		icon = "camera_action9"
+		icon = "camera_action9",
+		enter_scene_anim = ""
 	},
 	[1010] = {
 		anim_time = 6.33,
@@ -147,8 +165,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1010,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[1011] = {
 		anim_time = 9.5,
@@ -162,8 +182,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1011,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[1012] = {
 		anim_time = 6.333,
@@ -177,8 +199,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 1,
+		enter_extra_item = "",
 		id = 1012,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[1101] = {
 		anim_time = 0,
@@ -192,8 +216,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100310",
 		room = 1,
+		enter_extra_item = "",
 		id = 1101,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[1102] = {
 		anim_time = 6,
@@ -207,8 +233,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100310",
 		room = 1,
+		enter_extra_item = "",
 		id = 1102,
-		icon = "camera_action15"
+		icon = "camera_action15",
+		enter_scene_anim = ""
 	},
 	[1103] = {
 		anim_time = 9.167,
@@ -222,8 +250,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100310",
 		room = 1,
+		enter_extra_item = "",
 		id = 1103,
-		icon = "camera_action18"
+		icon = "camera_action18",
+		enter_scene_anim = ""
 	},
 	[1104] = {
 		anim_time = 7.5,
@@ -237,8 +267,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100310",
 		room = 1,
+		enter_extra_item = "",
 		id = 1104,
-		icon = "camera_action19"
+		icon = "camera_action19",
+		enter_scene_anim = ""
 	},
 	[1201] = {
 		anim_time = 0,
@@ -252,8 +284,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1002",
 		staypoint = "Pos100110",
 		room = 1,
+		enter_extra_item = "",
 		id = 1201,
-		icon = "camera_action20"
+		icon = "camera_action20",
+		enter_scene_anim = ""
 	},
 	[1202] = {
 		anim_time = 8,
@@ -267,8 +301,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1002",
 		staypoint = "Pos100110",
 		room = 1,
+		enter_extra_item = "",
 		id = 1202,
-		icon = "camera_action21"
+		icon = "camera_action21",
+		enter_scene_anim = ""
 	},
 	[1203] = {
 		anim_time = 6,
@@ -282,8 +318,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1002",
 		staypoint = "Pos100110",
 		room = 1,
+		enter_extra_item = "",
 		id = 1203,
-		icon = "camera_action24"
+		icon = "camera_action24",
+		enter_scene_anim = ""
 	},
 	[1301] = {
 		anim_time = 0,
@@ -297,8 +335,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100410",
 		room = 1,
+		enter_extra_item = "",
 		id = 1301,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[1302] = {
 		anim_time = 9.667,
@@ -312,8 +352,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100410",
 		room = 1,
+		enter_extra_item = "",
 		id = 1302,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[1303] = {
 		anim_time = 7.133,
@@ -327,8 +369,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100410",
 		room = 1,
+		enter_extra_item = "",
 		id = 1303,
-		icon = "camera_action29"
+		icon = "camera_action29",
+		enter_scene_anim = ""
 	},
 	[1304] = {
 		anim_time = 0,
@@ -342,8 +386,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100710",
 		room = 1,
+		enter_extra_item = "",
 		id = 1304,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[1305] = {
 		anim_time = 11.833,
@@ -357,8 +403,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100710",
 		room = 1,
+		enter_extra_item = "",
 		id = 1305,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[1306] = {
 		anim_time = 10.333,
@@ -372,8 +420,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100710",
 		room = 1,
+		enter_extra_item = "",
 		id = 1306,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[1307] = {
 		anim_time = 7.633,
@@ -387,8 +437,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1001",
 		staypoint = "Pos100710",
 		room = 1,
+		enter_extra_item = "",
 		id = 1307,
-		icon = "camera_action36"
+		icon = "camera_action36",
+		enter_scene_anim = ""
 	},
 	[1308] = {
 		anim_time = 0,
@@ -402,8 +454,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100210",
 		room = 1,
+		enter_extra_item = "",
 		id = 1308,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[1309] = {
 		anim_time = 11,
@@ -417,8 +471,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100210",
 		room = 1,
+		enter_extra_item = "",
 		id = 1309,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[1310] = {
 		anim_time = 9.667,
@@ -432,8 +488,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100210",
 		room = 1,
+		enter_extra_item = "",
 		id = 1310,
-		icon = "camera_action36"
+		icon = "camera_action36",
+		enter_scene_anim = ""
 	},
 	[1311] = {
 		anim_time = 10,
@@ -447,8 +505,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100210",
 		room = 1,
+		enter_extra_item = "",
 		id = 1311,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[1312] = {
 		anim_time = 0,
@@ -462,8 +522,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100250",
 		room = 1,
+		enter_extra_item = "",
 		id = 1312,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[1313] = {
 		anim_time = 4.75,
@@ -477,8 +539,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100250",
 		room = 1,
+		enter_extra_item = "",
 		id = 1313,
-		icon = "camera_action18"
+		icon = "camera_action18",
+		enter_scene_anim = ""
 	},
 	[1314] = {
 		anim_time = 12.1666666666667,
@@ -492,8 +556,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100250",
 		room = 1,
+		enter_extra_item = "",
 		id = 1314,
-		icon = "camera_action18"
+		icon = "camera_action18",
+		enter_scene_anim = ""
 	},
 	[1317] = {
 		anim_time = 0,
@@ -507,8 +573,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100280",
 		room = 1,
+		enter_extra_item = "",
 		id = 1317,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[1318] = {
 		anim_time = 5.83333333333333,
@@ -522,8 +590,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100280",
 		room = 1,
+		enter_extra_item = "",
 		id = 1318,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[1319] = {
 		anim_time = 5.5,
@@ -537,8 +607,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "1003",
 		staypoint = "Pos100280",
 		room = 1,
+		enter_extra_item = "",
 		id = 1319,
-		icon = "camera_action4"
+		icon = "camera_action4",
+		enter_scene_anim = ""
 	},
 	[2001] = {
 		anim_time = 0,
@@ -552,8 +624,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2001,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[2002] = {
 		anim_time = 6.5,
@@ -567,8 +641,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2002,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[2003] = {
 		anim_time = 5.33333333333333,
@@ -582,8 +658,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2003,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[2004] = {
 		anim_time = 5.83333333333333,
@@ -597,8 +675,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2004,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[2005] = {
 		anim_time = 7.33333333333333,
@@ -612,8 +692,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2005,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[2006] = {
 		anim_time = 5.16666666666667,
@@ -627,8 +709,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2006,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[2007] = {
 		anim_time = 5.16666666666667,
@@ -642,8 +726,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2007,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[2008] = {
 		anim_time = 6.66666666666667,
@@ -657,8 +743,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2008,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[2009] = {
 		anim_time = 5,
@@ -672,8 +760,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2009,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[2010] = {
 		anim_time = 6.33333333333333,
@@ -687,8 +777,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2010,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[2011] = {
 		anim_time = 2,
@@ -702,8 +794,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2011,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[2012] = {
 		anim_time = 4.33333333333333,
@@ -717,8 +811,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2012,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[2013] = {
 		anim_time = 8,
@@ -732,8 +828,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 2,
+		enter_extra_item = "",
 		id = 2013,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[2101] = {
 		anim_time = 0,
@@ -747,8 +845,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200110",
 		room = 2,
+		enter_extra_item = "",
 		id = 2101,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[2102] = {
 		anim_time = 10,
@@ -762,8 +862,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200110",
 		room = 2,
+		enter_extra_item = "",
 		id = 2102,
-		icon = "camera_action24"
+		icon = "camera_action24",
+		enter_scene_anim = ""
 	},
 	[2103] = {
 		anim_time = 6.5,
@@ -777,8 +879,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200110",
 		room = 2,
+		enter_extra_item = "",
 		id = 2103,
-		icon = "camera_action21"
+		icon = "camera_action21",
+		enter_scene_anim = ""
 	},
 	[2104] = {
 		anim_time = 6.83333333333333,
@@ -792,8 +896,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200110",
 		room = 2,
+		enter_extra_item = "",
 		id = 2104,
-		icon = "camera_action23"
+		icon = "camera_action23",
+		enter_scene_anim = ""
 	},
 	[2201] = {
 		anim_time = 0,
@@ -807,8 +913,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200210",
 		room = 2,
+		enter_extra_item = "",
 		id = 2201,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[2202] = {
 		anim_time = 6.5,
@@ -822,8 +930,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200210",
 		room = 2,
+		enter_extra_item = "",
 		id = 2202,
-		icon = "camera_action28"
+		icon = "camera_action28",
+		enter_scene_anim = ""
 	},
 	[2203] = {
 		anim_time = 7.5,
@@ -837,8 +947,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200210",
 		room = 2,
+		enter_extra_item = "",
 		id = 2203,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[2204] = {
 		anim_time = 6.5,
@@ -852,8 +964,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200210",
 		room = 2,
+		enter_extra_item = "",
 		id = 2204,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[2301] = {
 		anim_time = 0,
@@ -867,8 +981,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200310",
 		room = 2,
+		enter_extra_item = "",
 		id = 2301,
-		icon = "camera_action20"
+		icon = "camera_action20",
+		enter_scene_anim = ""
 	},
 	[2302] = {
 		anim_time = 7.66666666666667,
@@ -882,8 +998,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200310",
 		room = 2,
+		enter_extra_item = "",
 		id = 2302,
-		icon = "camera_action19"
+		icon = "camera_action19",
+		enter_scene_anim = ""
 	},
 	[2303] = {
 		anim_time = 8.33333333333333,
@@ -897,8 +1015,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200310",
 		room = 2,
+		enter_extra_item = "",
 		id = 2303,
-		icon = "camera_action22"
+		icon = "camera_action22",
+		enter_scene_anim = ""
 	},
 	[2304] = {
 		anim_time = 9.5,
@@ -912,8 +1032,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200310",
 		room = 2,
+		enter_extra_item = "",
 		id = 2304,
-		icon = "camera_action17"
+		icon = "camera_action17",
+		enter_scene_anim = ""
 	},
 	[2401] = {
 		anim_time = 0,
@@ -927,8 +1049,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200410",
 		room = 2,
+		enter_extra_item = "",
 		id = 2401,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[2402] = {
 		anim_time = 5.76666666666667,
@@ -942,8 +1066,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200410",
 		room = 2,
+		enter_extra_item = "",
 		id = 2402,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[2403] = {
 		anim_time = 12.4666666666667,
@@ -957,8 +1083,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200410",
 		room = 2,
+		enter_extra_item = "",
 		id = 2403,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[2404] = {
 		anim_time = 0,
@@ -972,8 +1100,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200411",
 		room = 2,
+		enter_extra_item = "",
 		id = 2404,
-		icon = "camera_action28"
+		icon = "camera_action28",
+		enter_scene_anim = ""
 	},
 	[2405] = {
 		anim_time = 14,
@@ -987,8 +1117,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2001",
 		staypoint = "Pos200411",
 		room = 2,
+		enter_extra_item = "",
 		id = 2405,
-		icon = "camera_action29"
+		icon = "camera_action29",
+		enter_scene_anim = ""
 	},
 	[2501] = {
 		anim_time = 0,
@@ -1002,8 +1134,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200510",
 		room = 2,
+		enter_extra_item = "",
 		id = 2501,
-		icon = "camera_action20"
+		icon = "camera_action20",
+		enter_scene_anim = ""
 	},
 	[2502] = {
 		anim_time = 0,
@@ -1017,8 +1151,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200510",
 		room = 2,
+		enter_extra_item = "",
 		id = 2502,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[2503] = {
 		anim_time = 8.1667,
@@ -1032,8 +1168,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200510",
 		room = 2,
+		enter_extra_item = "",
 		id = 2503,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[2504] = {
 		anim_time = 0,
@@ -1047,8 +1185,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200540",
 		room = 2,
+		enter_extra_item = "",
 		id = 2504,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[2505] = {
 		anim_time = 13.667,
@@ -1062,8 +1202,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200540",
 		room = 2,
+		enter_extra_item = "",
 		id = 2505,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[2601] = {
 		anim_time = 0,
@@ -1077,8 +1219,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2601,
-		icon = "camera_action20"
+		icon = "camera_action20",
+		enter_scene_anim = ""
 	},
 	[2602] = {
 		anim_time = 7.8666,
@@ -1092,8 +1236,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2602,
-		icon = "camera_action15"
+		icon = "camera_action15",
+		enter_scene_anim = ""
 	},
 	[2603] = {
 		anim_time = 11.5333,
@@ -1107,8 +1253,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2603,
-		icon = "camera_action14"
+		icon = "camera_action14",
+		enter_scene_anim = ""
 	},
 	[2604] = {
 		anim_time = 15.7333,
@@ -1122,8 +1270,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2604,
-		icon = "camera_action16"
+		icon = "camera_action16",
+		enter_scene_anim = ""
 	},
 	[2605] = {
 		anim_time = 4.8333,
@@ -1137,8 +1287,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2605,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[2606] = {
 		anim_time = 0,
@@ -1152,8 +1304,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2606,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[2607] = {
 		anim_time = 10.3333,
@@ -1167,8 +1321,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2003",
 		staypoint = "Pos200710",
 		room = 2,
+		enter_extra_item = "",
 		id = 2607,
-		icon = "camera_action29"
+		icon = "camera_action29",
+		enter_scene_anim = ""
 	},
 	[3001] = {
 		anim_time = 0,
@@ -1182,8 +1338,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3001,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[3002] = {
 		anim_time = 10.1666666666667,
@@ -1197,8 +1355,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3002,
-		icon = "camera_action7"
+		icon = "camera_action7",
+		enter_scene_anim = ""
 	},
 	[3003] = {
 		anim_time = 6.83333333333333,
@@ -1212,8 +1372,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3003,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[3005] = {
 		anim_time = 6.33333333333333,
@@ -1227,8 +1389,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3005,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[3006] = {
 		anim_time = 6.5,
@@ -1242,8 +1406,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3006,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[3007] = {
 		anim_time = 7.33333333333333,
@@ -1257,8 +1423,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3007,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[3008] = {
 		anim_time = 5.33333333333333,
@@ -1272,8 +1440,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3008,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[3010] = {
 		anim_time = 4.93333333333333,
@@ -1287,8 +1457,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3010,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[3011] = {
 		anim_time = 6.33333333333333,
@@ -1302,8 +1474,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3011,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[3012] = {
 		anim_time = 5.33333333333333,
@@ -1317,8 +1491,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3012,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[3013] = {
 		anim_time = 5.16666666666667,
@@ -1332,8 +1508,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3013,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[3014] = {
 		anim_time = 5.16666666666667,
@@ -1347,8 +1525,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3014,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[3015] = {
 		anim_time = 6.33333333333333,
@@ -1362,8 +1542,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3015,
-		icon = "camera_action9"
+		icon = "camera_action9",
+		enter_scene_anim = ""
 	},
 	[3016] = {
 		anim_time = 4.3,
@@ -1377,8 +1559,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3016,
-		icon = "camera_action4"
+		icon = "camera_action4",
+		enter_scene_anim = ""
 	},
 	[3017] = {
 		anim_time = 4.16666666666667,
@@ -1392,8 +1576,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3017,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[3018] = {
 		anim_time = 8,
@@ -1407,8 +1593,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 3,
+		enter_extra_item = "",
 		id = 3018,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[3101] = {
 		anim_time = 0,
@@ -1422,8 +1610,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300110",
 		room = 3,
+		enter_extra_item = "",
 		id = 3101,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[3102] = {
 		anim_time = 7,
@@ -1437,8 +1627,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300110",
 		room = 3,
+		enter_extra_item = "",
 		id = 3102,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[3103] = {
 		anim_time = 7,
@@ -1452,8 +1644,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300110",
 		room = 3,
+		enter_extra_item = "",
 		id = 3103,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[3104] = {
 		anim_time = 7,
@@ -1467,8 +1661,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300110",
 		room = 3,
+		enter_extra_item = "",
 		id = 3104,
-		icon = "camera_action28"
+		icon = "camera_action28",
+		enter_scene_anim = ""
 	},
 	[3201] = {
 		anim_time = 7,
@@ -1482,8 +1678,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		staypoint = "Pos300210",
 		room = 3,
+		enter_extra_item = "",
 		id = 3201,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[3202] = {
 		anim_time = 7,
@@ -1497,8 +1695,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		staypoint = "Pos300210",
 		room = 3,
+		enter_extra_item = "",
 		id = 3202,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[3203] = {
 		anim_time = 7,
@@ -1512,8 +1712,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		staypoint = "Pos300210",
 		room = 3,
+		enter_extra_item = "",
 		id = 3203,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[3204] = {
 		anim_time = 7,
@@ -1527,8 +1729,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		staypoint = "Pos300210",
 		room = 3,
+		enter_extra_item = "",
 		id = 3204,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[3301] = {
 		anim_time = 0,
@@ -1542,8 +1746,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300310",
 		room = 3,
+		enter_extra_item = "",
 		id = 3301,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[3302] = {
 		anim_time = 7,
@@ -1557,8 +1763,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300310",
 		room = 3,
+		enter_extra_item = "",
 		id = 3302,
-		icon = "camera_action16"
+		icon = "camera_action16",
+		enter_scene_anim = ""
 	},
 	[3303] = {
 		anim_time = 7,
@@ -1572,8 +1780,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300310",
 		room = 3,
+		enter_extra_item = "",
 		id = 3303,
-		icon = "camera_action18"
+		icon = "camera_action18",
+		enter_scene_anim = ""
 	},
 	[3304] = {
 		anim_time = 7,
@@ -1587,8 +1797,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300310",
 		room = 3,
+		enter_extra_item = "",
 		id = 3304,
-		icon = "camera_action19"
+		icon = "camera_action19",
+		enter_scene_anim = ""
 	},
 	[3401] = {
 		anim_time = 0,
@@ -1602,8 +1814,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300410",
 		room = 3,
+		enter_extra_item = "",
 		id = 3401,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[3402] = {
 		anim_time = 7,
@@ -1617,8 +1831,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300410",
 		room = 3,
+		enter_extra_item = "",
 		id = 3402,
-		icon = "camera_action16"
+		icon = "camera_action16",
+		enter_scene_anim = ""
 	},
 	[3403] = {
 		anim_time = 7,
@@ -1632,8 +1848,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300412",
 		room = 3,
+		enter_extra_item = "",
 		id = 3403,
-		icon = "camera_action18"
+		icon = "camera_action18",
+		enter_scene_anim = ""
 	},
 	[3404] = {
 		anim_time = 7,
@@ -1647,8 +1865,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300412",
 		room = 3,
+		enter_extra_item = "",
 		id = 3404,
-		icon = "camera_action19"
+		icon = "camera_action19",
+		enter_scene_anim = ""
 	},
 	[3405] = {
 		anim_time = 7,
@@ -1662,8 +1882,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3002",
 		staypoint = "Pos300412",
 		room = 3,
+		enter_extra_item = "",
 		id = 3405,
-		icon = "camera_action15"
+		icon = "camera_action15",
+		enter_scene_anim = ""
 	},
 	[3501] = {
 		anim_time = 0,
@@ -1677,8 +1899,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300510",
 		room = 4,
+		enter_extra_item = "",
 		id = 3501,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[3502] = {
 		anim_time = 7,
@@ -1692,8 +1916,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300510",
 		room = 4,
+		enter_extra_item = "",
 		id = 3502,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[3503] = {
 		anim_time = 7,
@@ -1707,8 +1933,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300510",
 		room = 4,
+		enter_extra_item = "",
 		id = 3503,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[3504] = {
 		anim_time = 0,
@@ -1722,8 +1950,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300512",
 		room = 4,
+		enter_extra_item = "",
 		id = 3504,
-		icon = "camera_action28"
+		icon = "camera_action28",
+		enter_scene_anim = ""
 	},
 	[3505] = {
 		anim_time = 7,
@@ -1737,8 +1967,152 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3001",
 		staypoint = "Pos300512",
 		room = 4,
+		enter_extra_item = "",
 		id = 3505,
-		icon = "camera_action29"
+		icon = "camera_action29",
+		enter_scene_anim = ""
+	},
+	[3601] = {
+		anim_time = 0,
+		finish_anim = 3601,
+		pre_anim = 0,
+		state = "ab_FF_shafa_idle01",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 323,
+		desc = "Shake",
+		zone = "3003",
+		staypoint = "Pos300610",
+		room = 3,
+		id = 3601,
+		icon = "camera_action24",
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[3602] = {
+		anim_time = 15,
+		finish_anim = 3601,
+		pre_anim = 3601,
+		state = "ab_FF_shafa_idle01_fb03",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 323,
+		desc = "Taste",
+		zone = "3003",
+		staypoint = "Pos300610",
+		room = 3,
+		id = 3602,
+		icon = "camera_action17",
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_fb03_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_fb03_M"
+			}
+		}
+	},
+	[3603] = {
+		anim_time = 0,
+		finish_anim = 3603,
+		pre_anim = 0,
+		state = "ab_FF_shafa_idle02",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 323,
+		desc = "Act Spoiled",
+		zone = "3003",
+		staypoint = "Pos300610",
+		room = 3,
+		enter_extra_item = "",
+		id = 3603,
+		icon = "camera_action33",
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[3604] = {
+		anim_time = 8.666,
+		finish_anim = 3603,
+		pre_anim = 3603,
+		state = "ab_FF_shafa_idle02_fb01",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 323,
+		desc = "Wave Wildly",
+		zone = "3003",
+		staypoint = "Pos300610",
+		room = 3,
+		enter_extra_item = "",
+		id = 3604,
+		icon = "camera_action27",
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_fb01_SF"
+			}
+		}
+	},
+	[3605] = {
+		anim_time = 12.5,
+		finish_anim = 3603,
+		pre_anim = 3603,
+		state = "ab_FF_shafa_idle02_fb03",
+		unlock = "",
+		ship_group = 19903,
+		furniture_id = 323,
+		desc = "Huddle",
+		zone = "3003",
+		staypoint = "Pos300610",
+		room = 3,
+		enter_extra_item = "",
+		id = 3605,
+		icon = "camera_action34",
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_fb03_SF"
+			}
+		}
 	},
 	[4001] = {
 		anim_time = 0,
@@ -1752,8 +2126,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4001,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[4002] = {
 		anim_time = 9,
@@ -1767,8 +2143,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4002,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[4003] = {
 		anim_time = 5.7,
@@ -1782,8 +2160,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4003,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[4004] = {
 		anim_time = 6.5,
@@ -1797,8 +2177,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4004,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[4005] = {
 		anim_time = 6.333,
@@ -1812,8 +2194,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4005,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[4201] = {
 		anim_time = 0,
@@ -1827,8 +2211,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4201,
-		icon = "camera_action1"
+		icon = "camera_action1",
+		enter_scene_anim = ""
 	},
 	[4202] = {
 		anim_time = 5.333,
@@ -1842,8 +2228,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4202,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[4203] = {
 		anim_time = 7.333,
@@ -1857,8 +2245,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4203,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[4204] = {
 		anim_time = 2,
@@ -1872,8 +2262,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4204,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[4205] = {
 		anim_time = 4.333,
@@ -1887,8 +2279,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4205,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[4301] = {
 		anim_time = 0,
@@ -1902,8 +2296,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200610",
 		room = 2,
+		enter_extra_item = "",
 		id = 4301,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[4302] = {
 		anim_time = 0,
@@ -1917,8 +2313,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200611",
 		room = 2,
+		enter_extra_item = "",
 		id = 4302,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[4303] = {
 		anim_time = 0,
@@ -1932,8 +2330,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200620",
 		room = 2,
+		enter_extra_item = "",
 		id = 4303,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[4304] = {
 		anim_time = 0,
@@ -1947,8 +2347,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "2002",
 		staypoint = "Pos200621",
 		room = 2,
+		enter_extra_item = "",
 		id = 4304,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[4401] = {
 		anim_time = 0,
@@ -1962,8 +2364,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4401,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[4402] = {
 		anim_time = 7,
@@ -1977,8 +2381,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4402,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[4403] = {
 		anim_time = 7,
@@ -1992,8 +2398,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4403,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[4404] = {
 		anim_time = 7,
@@ -2007,8 +2415,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4404,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[4405] = {
 		anim_time = 7,
@@ -2022,8 +2432,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 4,
+		enter_extra_item = "",
 		id = 4405,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[11001] = {
 		anim_time = 0,
@@ -2037,8 +2449,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11001,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[11002] = {
 		anim_time = 5,
@@ -2052,8 +2466,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11002,
-		icon = "camera_action7"
+		icon = "camera_action7",
+		enter_scene_anim = ""
 	},
 	[11003] = {
 		anim_time = 5,
@@ -2067,8 +2483,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11003,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[11004] = {
 		anim_time = 7,
@@ -2082,8 +2500,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11004,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[11005] = {
 		anim_time = 7,
@@ -2097,8 +2517,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11005,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[11006] = {
 		anim_time = 7,
@@ -2112,8 +2534,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11006,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[11007] = {
 		anim_time = 7,
@@ -2127,8 +2551,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11007,
-		icon = "camera_action3"
+		icon = "camera_action3",
+		enter_scene_anim = ""
 	},
 	[11008] = {
 		anim_time = 7,
@@ -2142,8 +2568,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11008,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[11009] = {
 		anim_time = 7,
@@ -2157,8 +2585,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11009,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[11010] = {
 		anim_time = 7,
@@ -2172,8 +2602,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11010,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[11011] = {
 		anim_time = 7,
@@ -2187,8 +2619,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11011,
-		icon = "camera_action5"
+		icon = "camera_action5",
+		enter_scene_anim = ""
 	},
 	[11012] = {
 		anim_time = 7,
@@ -2202,8 +2636,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11012,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[11013] = {
 		anim_time = 7,
@@ -2217,8 +2653,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11013,
-		icon = "camera_action9"
+		icon = "camera_action9",
+		enter_scene_anim = ""
 	},
 	[11014] = {
 		anim_time = 7,
@@ -2232,8 +2670,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 11014,
-		icon = "camera_action4"
+		icon = "camera_action4",
+		enter_scene_anim = ""
 	},
 	[11101] = {
 		anim_time = 5,
@@ -2247,8 +2687,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11002",
 		staypoint = "Pos400110",
 		room = 11,
+		enter_extra_item = "",
 		id = 11101,
-		icon = "camera_action13"
+		icon = "camera_action13",
+		enter_scene_anim = ""
 	},
 	[11102] = {
 		anim_time = 5,
@@ -2262,8 +2704,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11002",
 		staypoint = "Pos400110",
 		room = 11,
+		enter_extra_item = "",
 		id = 11102,
-		icon = "camera_action14"
+		icon = "camera_action14",
+		enter_scene_anim = ""
 	},
 	[11103] = {
 		anim_time = 5,
@@ -2277,8 +2721,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11002",
 		staypoint = "Pos400110",
 		room = 11,
+		enter_extra_item = "",
 		id = 11103,
-		icon = "camera_action15"
+		icon = "camera_action15",
+		enter_scene_anim = ""
 	},
 	[11104] = {
 		anim_time = 5,
@@ -2292,8 +2738,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11002",
 		staypoint = "Pos400110",
 		room = 11,
+		enter_extra_item = "",
 		id = 11104,
-		icon = "camera_action16"
+		icon = "camera_action16",
+		enter_scene_anim = ""
 	},
 	[11201] = {
 		anim_time = 5,
@@ -2307,8 +2755,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400210",
 		room = 11,
+		enter_extra_item = "",
 		id = 11201,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[11202] = {
 		anim_time = 5,
@@ -2322,8 +2772,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400210",
 		room = 11,
+		enter_extra_item = "",
 		id = 11202,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[11203] = {
 		anim_time = 5,
@@ -2337,8 +2789,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400210",
 		room = 11,
+		enter_extra_item = "",
 		id = 11203,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[11204] = {
 		anim_time = 5,
@@ -2352,8 +2806,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400210",
 		room = 11,
+		enter_extra_item = "",
 		id = 11204,
-		icon = "camera_action36"
+		icon = "camera_action36",
+		enter_scene_anim = ""
 	},
 	[11301] = {
 		anim_time = 5,
@@ -2367,8 +2823,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11001",
 		staypoint = "Pos400310",
 		room = 11,
+		enter_extra_item = "",
 		id = 11301,
-		icon = "camera_action25"
+		icon = "camera_action25",
+		enter_scene_anim = ""
 	},
 	[11302] = {
 		anim_time = 5,
@@ -2382,8 +2840,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11001",
 		staypoint = "Pos400310",
 		room = 11,
+		enter_extra_item = "",
 		id = 11302,
-		icon = "camera_action26"
+		icon = "camera_action26",
+		enter_scene_anim = ""
 	},
 	[11303] = {
 		anim_time = 5,
@@ -2397,8 +2857,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11001",
 		staypoint = "Pos400310",
 		room = 11,
+		enter_extra_item = "",
 		id = 11303,
-		icon = "camera_action27"
+		icon = "camera_action27",
+		enter_scene_anim = ""
 	},
 	[11304] = {
 		anim_time = 5,
@@ -2412,8 +2874,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11001",
 		staypoint = "Pos400310",
 		room = 11,
+		enter_extra_item = "",
 		id = 11304,
-		icon = "camera_action28"
+		icon = "camera_action28",
+		enter_scene_anim = ""
 	},
 	[11401] = {
 		anim_time = 5,
@@ -2427,8 +2891,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400410",
 		room = 11,
+		enter_extra_item = "",
 		id = 11401,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[11402] = {
 		anim_time = 5,
@@ -2442,8 +2908,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400410",
 		room = 11,
+		enter_extra_item = "",
 		id = 11402,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[11403] = {
 		anim_time = 5,
@@ -2457,8 +2925,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400410",
 		room = 11,
+		enter_extra_item = "",
 		id = 11403,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[11404] = {
 		anim_time = 5,
@@ -2472,8 +2942,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400410",
 		room = 11,
+		enter_extra_item = "",
 		id = 11404,
-		icon = "camera_action36"
+		icon = "camera_action36",
+		enter_scene_anim = ""
 	},
 	[11405] = {
 		anim_time = 5,
@@ -2487,8 +2959,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400412",
 		room = 11,
+		enter_extra_item = "",
 		id = 11405,
-		icon = "camera_action32"
+		icon = "camera_action32",
+		enter_scene_anim = ""
 	},
 	[11406] = {
 		anim_time = 5,
@@ -2502,8 +2976,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400412",
 		room = 11,
+		enter_extra_item = "",
 		id = 11406,
-		icon = "camera_action33"
+		icon = "camera_action33",
+		enter_scene_anim = ""
 	},
 	[11407] = {
 		anim_time = 5,
@@ -2517,8 +2993,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400412",
 		room = 11,
+		enter_extra_item = "",
 		id = 11407,
-		icon = "camera_action34"
+		icon = "camera_action34",
+		enter_scene_anim = ""
 	},
 	[11408] = {
 		anim_time = 5,
@@ -2532,8 +3010,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400412",
 		room = 11,
+		enter_extra_item = "",
 		id = 11408,
-		icon = "camera_action36"
+		icon = "camera_action36",
+		enter_scene_anim = ""
 	},
 	[11501] = {
 		anim_time = 0,
@@ -2547,8 +3027,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11501,
-		icon = "camera_action17"
+		icon = "camera_action17",
+		enter_scene_anim = ""
 	},
 	[11502] = {
 		anim_time = 8.0333,
@@ -2562,8 +3044,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11502,
-		icon = "camera_action20"
+		icon = "camera_action20",
+		enter_scene_anim = ""
 	},
 	[11503] = {
 		anim_time = 4.5,
@@ -2577,8 +3061,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11503,
-		icon = "camera_action23"
+		icon = "camera_action23",
+		enter_scene_anim = ""
 	},
 	[11504] = {
 		anim_time = 9.3,
@@ -2592,8 +3078,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11504,
-		icon = "camera_action22"
+		icon = "camera_action22",
+		enter_scene_anim = ""
 	},
 	[11505] = {
 		anim_time = 0,
@@ -2607,8 +3095,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11505,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[11506] = {
 		anim_time = 14.0666,
@@ -2622,8 +3112,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11506,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	[11507] = {
 		anim_time = 16,
@@ -2637,8 +3129,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400720",
 		room = 11,
+		enter_extra_item = "",
 		id = 11507,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[11508] = {
 		anim_time = 0,
@@ -2652,8 +3146,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400710",
 		room = 11,
+		enter_extra_item = "",
 		id = 11508,
-		icon = "camera_action4"
+		icon = "camera_action4",
+		enter_scene_anim = ""
 	},
 	[11509] = {
 		anim_time = 12,
@@ -2667,8 +3163,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400710",
 		room = 11,
+		enter_extra_item = "",
 		id = 11509,
-		icon = "camera_action6"
+		icon = "camera_action6",
+		enter_scene_anim = ""
 	},
 	[11510] = {
 		anim_time = 17.1666,
@@ -2682,8 +3180,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "11003",
 		staypoint = "Pos400710",
 		room = 11,
+		enter_extra_item = "",
 		id = 11510,
-		icon = "camera_action8"
+		icon = "camera_action8",
+		enter_scene_anim = ""
 	},
 	[16001] = {
 		anim_time = 0,
@@ -2697,8 +3197,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 16001,
-		icon = "camera_action2"
+		icon = "camera_action2",
+		enter_scene_anim = ""
 	},
 	[16002] = {
 		anim_time = 5,
@@ -2712,8 +3214,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 16002,
-		icon = "camera_action7"
+		icon = "camera_action7",
+		enter_scene_anim = ""
 	},
 	[16003] = {
 		anim_time = 5,
@@ -2727,8 +3231,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 16003,
-		icon = "camera_action12"
+		icon = "camera_action12",
+		enter_scene_anim = ""
 	},
 	[16004] = {
 		anim_time = 7,
@@ -2742,8 +3248,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 16004,
-		icon = "camera_action10"
+		icon = "camera_action10",
+		enter_scene_anim = ""
 	},
 	[16005] = {
 		anim_time = 7,
@@ -2757,8 +3265,10 @@ pg.dorm3d_camera_anim_template = {
 		zone = "",
 		staypoint = "",
 		room = 11,
+		enter_extra_item = "",
 		id = 16005,
-		icon = "camera_action11"
+		icon = "camera_action11",
+		enter_scene_anim = ""
 	},
 	get_id_list_by_furniture_id = {
 		[0] = {
@@ -2947,6 +3457,13 @@ pg.dorm3d_camera_anim_template = {
 			3504,
 			3505
 		},
+		[323] = {
+			3601,
+			3602,
+			3603,
+			3604,
+			3605
+		},
 		[222] = {
 			4301,
 			4302,
@@ -3111,6 +3628,11 @@ pg.dorm3d_camera_anim_template = {
 		3503,
 		3504,
 		3505,
+		3601,
+		3602,
+		3603,
+		3604,
+		3605,
 		4001,
 		4002,
 		4003,

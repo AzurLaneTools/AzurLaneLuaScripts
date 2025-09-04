@@ -115,6 +115,10 @@ slot0.GetPlayedFlag = function(slot0, slot1)
 	return slot0.playedList[slot1]
 end
 
+slot0.GetPlayedList = function(slot0)
+	return slot0.playedList
+end
+
 slot0.IsPlayed = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:StoryName2StoryId(slot1)
 	slot5 = slot0:GetPlayedFlag(slot3)

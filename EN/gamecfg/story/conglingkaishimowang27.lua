@@ -1055,10 +1055,10 @@ return {
 				{
 					3,
 					{
-						"Helena META",
-						"Memphis META",
-						"Vestal META",
-						"TB"
+						"TB",
+						"Navi",
+						"Admiral Nakhimov",
+						"Fargo"
 					},
 					2,
 					"#FFFFFF"

@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_261 = {
+	[16409204] = {
+		cannon = 60,
+		air = 261,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 284,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 90738,
+		durability = 23800,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 312,
+		speed = 30,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		id = 16409204,
+		fog_fx = "",
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3049201
+		}
+	},
 	[16409301] = {
 		cannon = 16,
 		air = 0,
@@ -1275,53 +1335,6 @@ pg.enemy_data_statistics_261 = {
 				ID = 50510,
 				LV = 1
 			}
-		}
-	},
-	[16500105] = {
-		cannon = 0,
-		name = "Joffre Mechanicus Pawn - Moderator",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 31,
-		icon_type = 7,
-		type = 7,
-		id = 16500105,
-		antiaircraft = 38,
-		antiaircraft_growth = 3168,
-		fog_fx = "",
-		dodge_growth = 132,
-		antisub_growth = 0,
-		air_growth = 2574,
-		base = 90648,
-		durability = 890,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 9,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 39200,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100020,
-			1100170,
-			1100925,
-			1100935
 		}
 	}
 }

@@ -3876,6 +3876,17 @@ pg.fleet_tech_ship_class = {
 			970108
 		}
 	},
+	[970109] = {
+		shiptype = 1,
+		name = "Yuudachi META",
+		t_level = 1,
+		id = 970109,
+		t_level_1 = 15,
+		nation = 97,
+		ships = {
+			970109
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -4662,6 +4673,7 @@ pg.fleet_tech_ship_class = {
 		970106,
 		970107,
 		970108,
+		970109,
 		970201,
 		970202,
 		970203,

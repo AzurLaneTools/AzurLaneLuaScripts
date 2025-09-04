@@ -202,7 +202,7 @@ return {
 
 		return slot0
 	end,
-	DelDir = function (slot0)
+	GetFilePathList = function (slot0)
 		slot1 = Application.persistentDataPath .. "/AssetBundles/"
 		slot2 = slot1 .. slot0
 
@@ -229,15 +229,27 @@ return {
 		originalPrint("filePathList first:", tostring(slot3[1]))
 		originalPrint("filePathList last:", tostring(slot3[#slot3]))
 
-		if #slot3 > 0 then
-			slot7 = System.Array.CreateInstance(typeof(System.String), slot6)
+		return slot3
+	end,
+	DelDir = function (slot0)
+		if #uv0.GetFilePathList(slot0) > 0 then
+			slot3 = System.Array.CreateInstance(typeof(System.String), slot2)
 
-			for slot11 = 0, slot6 - 1 do
-				slot7[slot11] = slot3[slot11 + 1]
+			for slot7 = 0, slot2 - 1 do
+				slot3[slot7] = slot1[slot7 + 1]
 			end
 
-			uv0.GetDormMgr():DelFile(slot7)
+			HotfixHelper.DeleteFileByShortPathArr(uv0.DormGroupName, slot3)
 		end
+	end,
+	GetDelRoomSize = function (slot0, slot1)
+		slot2 = 0
+
+		for slot6, slot7 in ipairs(slot1) do
+			slot2 = slot2 + uv1.GetDormMgr():GetCacheFileSize(uv1.GetFilePathList(uv0[slot7] .. slot0))
+		end
+
+		return HashUtil.BytesToString(slot2)
 	end,
 	DelRoom = function (slot0, slot1)
 		for slot5, slot6 in ipairs(slot1) do

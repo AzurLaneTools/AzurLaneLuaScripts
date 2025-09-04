@@ -832,6 +832,67 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[401] = {
+		rarity = 5,
+		name = "Seaside Slide",
+		type = 3,
+		touch_id = "",
+		room_id = 4,
+		desc = "Vacation time starts now! Sunlight under the palm tree, a view by the refreshing coast, and water splashes and sea breezes. Your mind is instantly wrapped up in the joys of a tropical vacation.",
+		is_exclusive = 0,
+		model = "pay_publicplace/slide",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 401,
+		target_slots = {
+			140101
+		},
+		shop_id = {
+			270401
+		},
+		unlock_tips = {
+			7
+		},
+		unlock_banners = {
+			"banner_furniture401"
+		}
+	},
+	[323] = {
+		rarity = 4,
+		name = "Dream in the Clouds",
+		type = 5,
+		room_id = 3,
+		desc = "Waving clouds, a soft sensation, a comfiness reminiscent of marshmallows. Get together and relax in the sweet fragrance.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		acesses = "",
+		id = 323,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990360
+			}
+		},
+		shop_id = {
+			270303
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture323"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	[1101] = {
 		rarity = 3,
 		name = "Rabbit's Cradle",
@@ -1120,7 +1181,11 @@ pg.dorm3d_furniture_template = {
 			306,
 			307,
 			321,
-			322
+			322,
+			323
+		},
+		{
+			401
 		},
 		[11] = {
 			1101,
@@ -1168,6 +1233,8 @@ pg.dorm3d_furniture_template = {
 		307,
 		321,
 		322,
+		401,
+		323,
 		1101,
 		1102,
 		1103,

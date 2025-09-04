@@ -169,7 +169,10 @@ slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot0:incPacketIdx()
 	else
 		slot8:Send(uv0.Packer.GetInstance():Pack(0, slot10:GetId(), slot12))
-		originalPrint("Network sent protocol: " .. slot1 .. " without idx")
+
+		if slot1 ~= 21211 then
+			originalPrint("Network sent protocol: " .. slot1 .. " without idx")
+		end
 	end
 
 	if not slot3 then

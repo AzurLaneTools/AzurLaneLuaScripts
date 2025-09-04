@@ -5967,7 +5967,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>6/5/25 to 9/3/25</color>, challenge Kawakaze META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Kawakaze META</color> as well as other great rewards.
+From <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -12539,6 +12539,36 @@ _G.pg.base.gametip.resource_verify_success = {
 
 _G.pg.base.gametip.resource_clear_all = {
 	tip = "Would you like to clear your cache data? \nThe game will automatically restart upon completion. "
+}
+
+
+_G.pg.base.gametip.resource_clear_manga = {
+	tip = "Would you like to delete all comics assets?\nData size: $1.\n(After deleting the assets, you will need to redownload them to access them again.)"
+}
+
+
+_G.pg.base.gametip.resource_clear_gallery = {
+	tip = "Would you like to delete all illustration assets?\nData size: $1.\n(After deleting the assets, you will need to redownload them to access them again.)"
+}
+
+
+_G.pg.base.gametip.resource_clear_3ddorm = {
+	tip = "Would you like to delete all Private Quarters assets?\nData size: $1.\n(After deleting the Private Quarters assets, you will need to redownload them to access them again.)"
+}
+
+
+_G.pg.base.gametip.resource_clear_tbchild = {
+	tip = "Would you like to delete all Project Identity assets?\nData size: $1.\n(After deleting the Project Identity assets, you will need to redownload them to access them again.)"
+}
+
+
+_G.pg.base.gametip.resource_clear_3disland = {
+	tip = "Would you like to delete all Island Planner assets?\nData size: $1.\n(After deleting the Island Planner assets, you will need to redownload them to access them again.)"
+}
+
+
+_G.pg.base.gametip.resource_clear_generaltext = {
+	tip = "Delete Assets"
 }
 
 
@@ -21777,7 +21807,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>6/5/25 to 9/3/25</color>, challenge Kawakaze META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Kawakaze META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>9/4/25 to 12/10/25</color>, challenge Yuudachi META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Yuudachi META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -23921,6 +23951,26 @@ _G.pg.base.gametip.Settings_title_sound = {
 
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "Download Assets"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage = {
+	tip = "Manage Assets"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_All = {
+	tip = "Update All Assets"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Main = {
+	tip = "Manage Main Assets"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Sub = {
+	tip = "Manage Extra Assets"
 }
 
 
@@ -40496,4 +40546,134 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 _G.pg.base.gametip.shop_filter_retro = {
 	tip = "Rerun"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_opengl = {
+	tip = "When rendering compatibility mode is toggled OFF, your screen may turn black under certain circumstances. You will need to restart the game when changing this setting. Would you like to change this setting?"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_vulkan = {
+	tip = "Rendering compatibility mode limits the use of the AR function. You will need to restart the game when changing this setting. Would you like to change this setting?"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+	tip = "Slide"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+	tip = "Playing Shipgirl"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+	tip = "Slide"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+	tip = "Select Plaything"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+	tip = "Invite to Slide"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+	tip = "Number of Sliders"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
+	tip = "Beach Slide"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag7 = {
+	tip = "Unlocks the beach slide story (you must place the character in the shared beach area.)"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+	tip = "Overall Graphics Quality"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+	tip = "Very High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+	tip = "Bloom Intensity"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
+	tip = "Off"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_1 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_flare = {
+	tip = "Lens Flare"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "Prelude"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title1 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Progress = {
+	tip = "Progress"
 }

@@ -522,6 +522,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"From atop the high tower, the rose continues to protect the Royal Navy's final glory.\"</color>\nGiven to Commanders who participated in the A Rose on the High Tower.",
 		scene = {}
 	},
+	[336] = {
+		name = "Phoenix's Call for Amahara",
+		gain_by = "",
+		time_second = 0,
+		id = 336,
+		time_limit_type = 0,
+		desc = "Obtained in a future event.",
+		scene = {}
+	},
 	[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -905,6 +914,7 @@ pg.item_data_frame = {
 		333,
 		334,
 		335,
+		336,
 		406,
 		411,
 		412,

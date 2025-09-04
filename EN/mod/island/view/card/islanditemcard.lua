@@ -15,7 +15,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.item = slot1
 	slot0.nameTxt.text = slot1:GetName()
 
-	updateDrop(slot0._tf, Drop.New({
+	updateCustomDrop(slot0._tf, Drop.New({
 		type = DROP_TYPE_ISLAND_ITEM,
 		id = slot1.id,
 		count = slot1:GetCount()
@@ -41,7 +41,7 @@ slot0.UpdateTip = function(slot0, slot1, slot2)
 
 	setActive(slot0.mask, true)
 
-	slot0.maskTxt.text = getProxy(IslandProxy):GetIsland():GetInventoryAgency():OwnItem() and i18n1("超出x" .. slot1:GetCount()) or i18n1("容量不足")
+	slot0.maskTxt.text = getProxy(IslandProxy):GetIsland():GetInventoryAgency():OwnItem() and i18n("island_item_overflow", slot1:GetCount()) or i18n("island_item_no_capacity")
 end
 
 slot0.UpdateValue = function(slot0, slot1)

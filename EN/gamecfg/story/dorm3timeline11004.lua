@@ -21,7 +21,7 @@ return {
 						{
 							sceneRoot = "Xinzexi_DB/Newjerseyhostel",
 							name = "FFliwu_01",
-							scene = "map_newjerseyhostel_02",
+							scene = "map_newjerseyhostel_01",
 							type = "timeline",
 							skip = false,
 							options = {

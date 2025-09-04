@@ -3,91 +3,100 @@ slot1 = 1
 slot2 = 2
 
 slot0.getUIName = function(slot0)
-	return "IslandUpgradeDisplayUI"
+	return "IslandCommonUpgradeDisplayUI"
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.panels = {
-		[uv0] = slot0:findTF("single"),
-		[uv1] = slot0:findTF("multi")
-	}
+	slot0.onlnyLevelTr = slot0:findTF("small")
+	slot0.dropPanelTr = slot0:findTF("module")
+	slot0.unlockUIList = UIItemList.New(slot0.dropPanelTr:Find("Board/Content/award/content"), slot0.dropPanelTr:Find("Board/Content/award/content/tpl"))
+	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
+		slot0 = uv0
+
+		slot0:PlayExitAnimation(function ()
+			uv0:Hide()
+
+			if uv0.callback then
+				slot0()
+			end
+		end)
 	end, SFX_PANEL)
 end
 
-slot0.GetPanelType = function(slot0, slot1)
-	if #slot1:GetUnlockBuildingList() > 0 then
-		return uv0
+slot0.PlayExitAnimation = function(slot0, slot1)
+	slot2 = slot0.targetTr
+	slot2 = slot2:GetComponent(typeof(Animation))
+	slot3 = slot0.targetTr
+	slot3 = slot3:GetComponent(typeof(DftAniEvent))
+	slot0.canvasGroup.blocksRaycasts = false
+
+	slot3:SetEndEvent(function ()
+		uv0:SetEndEvent(nil)
+
+		uv1.canvasGroup.blocksRaycasts = true
+
+		uv2()
+	end)
+
+	if slot0.targetTr == slot0.onlnyLevelTr then
+		slot2:Play("anim_Island_commonget_onlylv_out")
 	else
-		return uv1
+		slot2:Play("anim_Island_commonget_single_out")
 	end
 end
 
-slot0.Show = function(slot0, slot1)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
-	slot2 = getProxy(IslandProxy):GetIsland()
+	slot0.callback = slot2
+	slot3 = slot0:GetIsland()
 
-	slot0:InitPanel(slot2, slot1, slot0:GetPanelType(slot2))
+	if slot1 and #slot1 > 0 then
+		slot0:CommonSettings(slot3, slot0.dropPanelTr)
+		slot0:UpdateUnlockList(slot1)
+	else
+		slot0:CommonSettings(slot3, slot0.onlnyLevelTr)
+	end
+
+	setActive(slot0.onlnyLevelTr, not slot4)
+	setActive(slot0.dropPanelTr, slot4)
+
+	slot0.targetTr = slot4 and slot0.dropPanelTr or slot0.onlnyLevelTr
+
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.TOP_LAYER
 	})
 end
 
 slot0.Hide = function(slot0)
+	slot0.callback = nil
+
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
-slot0.InitPanel = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0.panels[slot3]
+slot0.CommonSettings = function(slot0, slot1, slot2)
+	slot3 = slot1:GetLevel()
 
-	for slot8, slot9 in pairs(slot0.panels) do
-		setActive(slot9, slot3 == slot8)
-	end
-
-	if uv0 == slot3 then
-		slot0:UpdateMultiPanel(slot1, slot2, slot4)
-	elseif uv1 == slot3 then
-		slot0:UpdateSinglePanel(slot1, slot2, slot4)
-	end
+	setText(slot2:Find("Board/Top/LV/prev/prev_1"), "<size=50>" .. slot3 - 1 .. "</size>")
+	setText(slot2:Find("Board/Top/LV/next/next_1"), "<size=50>" .. slot3 .. "</size>")
 end
 
-slot3 = function(slot0, slot1, slot2)
-	slot3 = slot0:GetLevel()
-
-	setText(slot2:Find("prev"), "Lv.<size=50>" .. slot3 - 1 .. "</size>")
-	setText(slot2:Find("next"), "Lv.<size=50>" .. slot3 .. "</size>")
-
-	slot4 = UIItemList.New(slot2:Find("award/content"), slot2:Find("award/content/tpl"))
-
-	slot4:make(function (slot0, slot1, slot2)
+slot0.UpdateUnlockList = function(slot0, slot1)
+	slot0.unlockUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, uv0[slot1 + 1])
+			slot3 = uv0[slot1 + 1]
+
+			updateCustomDrop(slot2, slot3)
+			setText(slot2:Find("icon_bg/name_bg/Text"), shortenString(slot3:getConfigTable().unlock_text, 5))
+			GetImageSpriteFromAtlasAsync("ui/islandupgradedisplayui_atlas", "ability_type" .. slot3:getConfigTable().show_type, slot2:Find("icon_bg/type"))
 		end
 	end)
-	slot4:align(#slot1)
-end
-
-slot0.UpdateMultiPanel = function(slot0, slot1, slot2, slot3)
-	uv0(slot1, slot2, slot3)
-
-	slot5 = UIItemList.New(slot3:Find("unlock/content"), slot3:Find("award/content/tpl"))
-
-	slot5:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
-		end
-	end)
-	slot5:align(#slot1:GetUnlockBuildingList())
-end
-
-slot0.UpdateSinglePanel = function(slot0, slot1, slot2, slot3)
-	uv0(slot1, slot2, slot3)
+	slot0.unlockUIList:align(#slot1)
 end
 
 slot0.OnDestroy = function(slot0)

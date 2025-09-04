@@ -21843,7 +21843,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[315] = {
 		can_rotate = 0,
-		name = "甜品吧台",
+		name = "7th Anniversary Dessert Bar",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -21861,7 +21861,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputon = 0,
 		deblocking = 1,
 		count = 1,
-		describe = "",
+		describe = "Recharge with a dash of sweetness for your adventure.",
 		advice = 0,
 		id = 315,
 		tag = 6,

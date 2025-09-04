@@ -1855,6 +1855,13 @@ pg.name_code = {
 		code = "Kawakaze META",
 		nation = 0
 	},
+	[301] = {
+		name = "Yuudachi META",
+		type = 1,
+		id = 301,
+		code = "Yuudachi META",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

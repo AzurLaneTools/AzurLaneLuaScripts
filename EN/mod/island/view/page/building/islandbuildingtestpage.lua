@@ -78,7 +78,7 @@ slot0.FlushOptions = function(slot0)
 		if uv0.selectedBuilding:CanUnlock() then
 			uv0:emit(IslandMediator.ON_UNLOCK_BUILDING, uv0.selectedBuilding.id)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("岛屿等级达到" .. uv0.selectedBuilding:GetUnlockLv() .. "级解锁"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_level_to_unlock", uv0.selectedBuilding:GetUnlockLv()))
 		end
 	end, SFX_PANEL)
 	setActive(slot0.upgradeBtn, slot1 and slot0.selectedBuilding:CanUpgrade())

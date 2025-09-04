@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_38 = {
+	[713] = {
+		cannon = 0,
+		hit_growth = 1200,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90080,
+		durability = 10,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		speed = 40,
+		armor = 0,
+		id = 713,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 12,
+		durability_growth = 4000,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300003
+		}
+	},
 	[714] = {
 		cannon = 0,
 		hit_growth = 1200,
@@ -1443,75 +1482,6 @@ pg.enemy_data_statistics_38 = {
 		},
 		equipment_list = {
 			300126
-		}
-	},
-	[820] = {
-		cannon = 45,
-		name = "Experienced Corvette",
-		hit_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		reload = 150,
-		antisub = 100,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 30,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90123,
-		durability = 580,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 820,
-		scale = 150,
-		cannon_growth = 0,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 80,
-		torpedo = 140,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 30,
-		cld_box = {
-			9.75,
-			5.625,
-			6.75
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				2.6,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuazhong3 = 0.75
-		},
-		equipment_list = {
-			300140,
-			300141,
-			300142
 		}
 	}
 }

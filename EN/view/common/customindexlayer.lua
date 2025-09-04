@@ -49,13 +49,16 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("btn", slot0.panel), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-
-	slot0.panel.localScale = Vector3.zero
-
-	LeanTween.scale(slot0.panel, Vector3(1, 1, 1), 0.2)
+	slot0:DoEnterAnimation()
 	setText(slot0.panel:Find("layout/tip"), slot0.contextData.tip or "")
 	slot0:InitGroup()
 	slot0:BlurPanel()
+end
+
+slot0.DoEnterAnimation = function(slot0)
+	slot0.panel.localScale = Vector3.zero
+
+	LeanTween.scale(slot0.panel, Vector3(1, 1, 1), 0.2)
 end
 
 slot0.BlurPanel = function(slot0)

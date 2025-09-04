@@ -80,21 +80,6 @@ pg.player_resource = {
 		name = "oil_mail",
 		itemid = 59002
 	},
-	[18] = {
-		id = 18,
-		name = "islandGold",
-		itemid = 59018
-	},
-	[19] = {
-		id = 19,
-		name = "islandGem",
-		itemid = 59019
-	},
-	[20] = {
-		id = 20,
-		name = "speedUpTicket",
-		itemid = 59020
-	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -2250,6 +2235,11 @@ pg.player_resource = {
 		name = "synchronize_jiangfeng",
 		itemid = 21919
 	},
+	[3021] = {
+		id = 3021,
+		name = "synchronize_xili",
+		itemid = 21920
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -2588,15 +2578,6 @@ pg.player_resource = {
 		},
 		oil_mail = {
 			17
-		},
-		islandGold = {
-			18
-		},
-		islandGem = {
-			19
-		},
-		speedUpTicket = {
-			20
 		},
 		battery = {
 			101
@@ -3891,6 +3872,9 @@ pg.player_resource = {
 		synchronize_jiangfeng = {
 			3020
 		},
+		synchronize_xili = {
+			3021
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -4083,9 +4067,6 @@ pg.player_resource = {
 		15,
 		16,
 		17,
-		18,
-		19,
-		20,
 		101,
 		102,
 		103,
@@ -4517,6 +4498,7 @@ pg.player_resource = {
 		3018,
 		3019,
 		3020,
+		3021,
 		3106,
 		3137,
 		4001,

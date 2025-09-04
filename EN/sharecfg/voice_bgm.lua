@@ -2384,5 +2384,20 @@ pg.voice_bgm = {
 		default_bgm = "story-masazhusai",
 		special_bgm = "",
 		bgm = "story-masazhusai"
+	},
+	ShimantoTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	TianYuTianYuanFramePage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
+	TianYuTianYuanLoginPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
 	}
 }

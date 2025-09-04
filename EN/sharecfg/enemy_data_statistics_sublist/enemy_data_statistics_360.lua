@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_360 = {
+	[16757002] = {
+		cannon = 80,
+		air = 0,
+		torpedo = 80,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 30,
+		base = 91118,
+		durability = 4000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 100,
+		speed = 15,
+		luck = 0,
+		antiaircraft_growth = 0,
+		id = 16757002,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			3299019,
+			3299024,
+			3299029
+		}
+	},
 	[16757003] = {
 		cannon = 120,
 		air = 0,
@@ -1165,49 +1201,6 @@ pg.enemy_data_statistics_360 = {
 			3300102,
 			3300103,
 			3300104
-		}
-	},
-	[16760304] = {
-		cannon = 115,
-		name = "Kingly Deviljuu",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 16760304,
-		air = 0,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 91132,
-		durability = 12000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 26,
-		luck = 0,
-		antisub = 0,
-		scale = 180,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 90,
-		durability_growth = 0,
-		antiaircraft = 135,
-		battle_unit_type = 95,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			3300201,
-			3300202,
-			3300203,
-			3300204,
-			3300205
 		}
 	}
 }

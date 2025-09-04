@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_287 = {
+	[16554103] = {
+		cannon = 74,
+		air = 0,
+		torpedo = 112,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 3366,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90816,
+		durability = 5270,
+		armor_growth = 0,
+		durability_growth = 33600,
+		antiaircraft = 255,
+		speed = 24,
+		luck = 0,
+		antiaircraft_growth = 3744,
+		id = 16554103,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1003140,
+			1003145,
+			1003150,
+			1003155
+		}
+	},
 	[16554104] = {
 		cannon = 102,
 		air = 0,
@@ -1167,58 +1204,5 @@ pg.enemy_data_statistics_287 = {
 			1000730
 		},
 		buff_list = {}
-	},
-	[16560301] = {
-		cannon = 120,
-		name = "Light of Old - Ship of the Line",
-		luck_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		armor = 0,
-		id = 16560301,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 210,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90835,
-		durability = 7200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		scale = 240,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 80,
-		durability_growth = 0,
-		antiaircraft = 140,
-		battle_unit_type = 95,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"nuofukedanchuan_buff_01"
-		},
-		equipment_list = {
-			3090001,
-			3090002,
-			3090003,
-			3090004,
-			3090005,
-			3090006,
-			3090007
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 1
-			}
-		}
 	}
 }

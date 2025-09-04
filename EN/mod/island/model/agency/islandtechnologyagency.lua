@@ -24,8 +24,22 @@ slot0.OnInit = function(slot0, slot1)
 	end
 end
 
+slot0.InitLockData = function(slot0)
+	slot0.lockIds = {}
+
+	for slot4, slot5 in pairs(slot0.techData) do
+		if not slot5:IsUnlock() then
+			table.insert(slot0.lockIds, slot5.id)
+		end
+	end
+end
+
 slot0.GetTechnology = function(slot0, slot1)
 	return slot0.techData[slot1]
+end
+
+slot0.GetTechnologys = function(slot0)
+	return slot0.techData
 end
 
 slot0.GetTechnologyByFormulaId = function(slot0, slot1)
@@ -57,11 +71,19 @@ slot0.IsFinishedTech = function(slot0, slot1)
 end
 
 slot0.GetPctByType = function(slot0, slot1)
-	slot2 = pg.island_technology_template.get_id_list_by_tech_belong[slot1]
+	return math.floor(slot0:GetFinishCntByType(slot1) / #pg.island_technology_template.get_id_list_by_tech_belong[slot1] * 100)
+end
 
-	return math.floor(underscore.reduce(slot2, 0, function (slot0, slot1)
+slot0.GetFinishCntByType = function(slot0, slot1)
+	return underscore.reduce(pg.island_technology_template.get_id_list_by_tech_belong[slot1], 0, function (slot0, slot1)
 		return slot0 + (uv0:IsFinishedTech(slot1) and 1 or 0)
-	end) / #slot2 * 100)
+	end)
+end
+
+slot0.GetAllTypeFinishCnt = function(slot0)
+	return underscore.reduce(pg.island_technology_template.all, 0, function (slot0, slot1)
+		return slot0 + (uv0:IsFinishedTech(slot1) and 1 or 0)
+	end)
 end
 
 slot0.GetEmptySlotId = function(slot0)
@@ -74,6 +96,41 @@ slot0.GetEmptySlotId = function(slot0)
 	end
 
 	return nil
+end
+
+slot0.RemoveLockId = function(slot0, slot1)
+	table.removebyvalue(slot0.lockIds, slot1)
+end
+
+slot0.TryAutoUnlock = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot0.lockIds) do
+		if slot0.techData[slot7]:CanUnlock() then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.ISLAND_UNLOCK_TECH, {
+					techId = uv0,
+					callback = slot0
+				})
+			end)
+		end
+	end
+
+	seriesAsync(slot2, function ()
+		existCall(uv0)
+	end)
+end
+
+slot0.IsTip = function(slot0)
+	slot1 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(uv0.PLACE_ID)
+
+	for slot6, slot7 in ipairs(uv0.GetSlotIds()) do
+		if slot1:GetDelegationSlotData(slot7) and slot8:GetSlotRewardData() then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot0.GetSlotIds = function()

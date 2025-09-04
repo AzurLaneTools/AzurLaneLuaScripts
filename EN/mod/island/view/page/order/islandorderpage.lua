@@ -16,7 +16,6 @@ slot0.OnLoaded = function(slot0)
 	slot0.trendIco = slot0.trendBtn:Find("difficulty"):GetComponent(typeof(Image))
 	slot0.trendTxt = slot0.trendBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.orderContainer = slot0:findTF("map")
-	slot0.tendencyPage = IslandOrderTendencyPage.New(slot0, slot0._parentTf)
 	slot0.upgradePage = IslandOrderUpgradePage.New(slot0._parentTf)
 	slot0.countTxt = slot0:findTF("count_bg/Text"):GetComponent(typeof(Text))
 	slot0.orderTplPool = OrderTplPool.New(slot0:findTF("root/orderTpl"), 3, 6)
@@ -25,15 +24,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.disappearTimers = {}
 
 	setActive(slot0.charTr, false)
-	setText(slot0:findTF("top/title/Text"), i18n1("订单中心"))
+	setText(slot0:findTF("top/title/Text"), i18n("island_order_title"))
 end
 
 slot0.OnHide = function(slot0)
-	if slot0.tendencyPage:GetLoaded() then
-		slot0.tendencyPage:Destroy()
-		slot0.tendencyPage:Reset()
-	end
-
 	if slot0.upgradePage:GetLoaded() then
 		slot0.upgradePage:Destroy()
 		slot0.upgradePage:Reset()
@@ -48,14 +42,14 @@ slot0.OnInit = function(slot0)
 		uv0:OpenPage(IslandOrderLevelInfoPage)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.trendBtn, function ()
-		slot0 = getProxy(IslandProxy)
-		slot0 = slot0:GetIsland()
-		slot0 = slot0:GetOrderAgency()
-		slot2 = uv0.tendencyPage
-
-		slot2:ExecuteAction("Show", slot0:GetTendency(), function (slot0)
-			uv0:emit(IslandMediator.SET_ORDER_TENDENCY, slot0)
-		end)
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_ORDER_TENDENCY,
+			title = i18n("island_order_difficulty"),
+			selected = getProxy(IslandProxy):GetIsland():GetOrderAgency():GetTendency(),
+			onYes = function (slot0)
+				uv0:emit(IslandMediator.SET_ORDER_TENDENCY, slot0)
+			end
+		})
 	end, SFX_PANEL)
 end
 
@@ -98,6 +92,13 @@ slot0.OnSubmitOrder = function(slot0, slot1)
 	slot0:UpdateExpPanel(slot2)
 	slot0:UpdateOrderState(slot1.slotId)
 	slot0:UpdateCount(slot2)
+
+	slot3 = pairs
+	slot4 = slot0.orderTpls or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0:UpdateOrderState(slot6)
+	end
 end
 
 slot0.OnReplaceOrder = function(slot0, slot1)
@@ -141,7 +142,7 @@ end
 
 slot0.UpdateCount = function(slot0, slot1)
 	slot2 = slot1:GetMaxFinishCount()
-	slot0.countTxt.text = i18n1("剩余订单：") .. slot2 - slot1:GetFinishCnt() .. "/" .. slot2
+	slot0.countTxt.text = i18n("island_order_leftCnt_tip") .. slot2 - slot1:GetFinishCnt() .. "/" .. slot2
 end
 
 slot0.UpdateTrendBtn = function(slot0, slot1)
@@ -163,7 +164,13 @@ slot0.CheckOrderExpAward = function(slot0)
 		end)
 	end
 
-	seriesAsync(slot3)
+	seriesAsync(slot3, function ()
+		if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(IslandGuideChecker.ORDER_TASK_ID) then
+			onDelayTick(function ()
+				IslandGuideChecker.CheckGuide("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE)
+			end, 0.2)
+		end
+	end)
 end
 
 slot0.TriggerOrder = function(slot0, slot1)
@@ -203,6 +210,8 @@ slot0.NewOrderTpl = function(slot0, slot1)
 	setParent(slot2, slot0.orderContainer)
 
 	slot0.orderTpls[slot1] = slot2
+
+	return slot2
 end
 
 slot0.ReturnOrderTplList = function(slot0)
@@ -247,7 +256,7 @@ slot0.UpdateOrderState = function(slot0, slot1)
 	setActive(slot4.transform:Find("icon"), not slot7)
 	setActive(slot4.transform:Find("loading"), slot7)
 	setActive(slot4.transform:Find("bg/progress"), not slot7)
-	GetImageSpriteFromAtlasAsync("QIcon/" .. slot5:GetRoleIcon(), "", slot4.transform:Find("icon"))
+	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. slot5:GetRoleIcon(), "", slot4.transform:Find("icon"))
 
 	if slot7 then
 		slot0:AddLoadingTimer(slot4, slot3)
@@ -306,9 +315,12 @@ slot0.ShowDiaglog = function(slot0, slot1)
 		return
 	end
 
-	setActive(slot0.charTr, true)
+	slot2 = slot1:GetOrder()
 
-	slot0.chatTxt.text = slot1:GetOrder():GetDesc()
+	setActive(slot0.charTr, true)
+	GetImageSpriteFromAtlasAsync("island/IslandShipIconHalf/" .. slot2:GetRoleIcon(), "", slot0.charTr)
+
+	slot0.chatTxt.text = slot2:GetDesc()
 end
 
 slot0.AddLoadingTimer = function(slot0, slot1, slot2)
@@ -367,12 +379,6 @@ slot0.UpdateExpPanel = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
-	if slot0.tendencyPage then
-		slot0.tendencyPage:Destroy()
-
-		slot0.tendencyPage = nil
-	end
-
 	if slot0.upgradePage:GetLoaded() then
 		slot0.upgradePage:Destroy()
 

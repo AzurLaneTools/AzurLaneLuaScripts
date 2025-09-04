@@ -23,7 +23,7 @@ return {
 							name = "FFliwu_chuanxie",
 							time = 25.233,
 							type = "timeline",
-							scene = "map_noshirohostel_02",
+							scene = "map_noshirohostel_01",
 							skip = false,
 							options = {
 								{

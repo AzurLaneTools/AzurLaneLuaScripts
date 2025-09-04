@@ -3298,6 +3298,7 @@ pg.skill_data_display = setmetatable({
 		801778,
 		801779,
 		801845,
+		801891,
 		902201,
 		1010140,
 		1010143,
@@ -3524,6 +3525,7 @@ pg.skill_data_display = setmetatable({
 		201496,
 		201497,
 		201498,
+		201504,
 		1011540,
 		1011541,
 		1090010,
@@ -3583,6 +3585,9 @@ pg.skill_data_display = setmetatable({
 		1012160,
 		1011370,
 		1011371,
+		1005071,
+		1005072,
+		1005073,
 		1005080,
 		1005081,
 		1005082,
@@ -3651,6 +3656,16 @@ pg.skill_data_display = setmetatable({
 		1010721,
 		1010722,
 		1010723,
+		1010190,
+		1010191,
+		1010192,
+		1019030,
+		1019031,
+		1011451,
+		1011241,
+		1011242,
+		1011243,
+		1011245,
 		1090020,
 		1090042,
 		1090043,
@@ -16914,6 +16929,10 @@ pg.base.skill_data_display = {
 		id = 801845,
 		name = "The Dessert Demon's Temptation"
 	},
+	[801891] = {
+		id = 801891,
+		name = "Emberlit Constitution"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -17818,6 +17837,10 @@ pg.base.skill_data_display = {
 		id = 201498,
 		name = "Saturation Bombardment"
 	},
+	[201504] = {
+		id = 201504,
+		name = "I'm Gonna Tear You Up"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -18053,6 +18076,18 @@ pg.base.skill_data_display = {
 	[1011371] = {
 		id = 1011371,
 		name = "Fatal Perforation+"
+	},
+	[1005071] = {
+		id = 1005071,
+		name = "Chevalier's Bouclier+"
+	},
+	[1005072] = {
+		id = 1005072,
+		name = "Chevalier's Bouclier+"
+	},
+	[1005073] = {
+		id = 1005073,
+		name = "Chevalier's Bouclier+"
 	},
 	[1005080] = {
 		id = 1005080,
@@ -18325,6 +18360,46 @@ pg.base.skill_data_display = {
 	[1010723] = {
 		id = 1010723,
 		name = "Guarding Shield+"
+	},
+	[1010190] = {
+		id = 1010190,
+		name = "Vengeance+"
+	},
+	[1010191] = {
+		id = 1010191,
+		name = "Vengeance+"
+	},
+	[1010192] = {
+		id = 1010192,
+		name = "Vengeance+"
+	},
+	[1019030] = {
+		id = 1019030,
+		name = "Monarch's Coercion+"
+	},
+	[1019031] = {
+		id = 1019031,
+		name = "Monarch's Coercion+"
+	},
+	[1011451] = {
+		id = 1011451,
+		name = "Idol's Ultimate Move"
+	},
+	[1011241] = {
+		id = 1011241,
+		name = "The Unsinkable Lucky Ship+"
+	},
+	[1011242] = {
+		id = 1011242,
+		name = "The Unsinkable Lucky Ship+"
+	},
+	[1011243] = {
+		id = 1011243,
+		name = "The Unsinkable Lucky Ship+"
+	},
+	[1011245] = {
+		id = 1011245,
+		name = "The Unsinkable Lucky Ship+"
 	},
 	[1090020] = {
 		id = 1090020,

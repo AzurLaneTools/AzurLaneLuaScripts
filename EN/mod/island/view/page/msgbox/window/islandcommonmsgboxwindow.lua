@@ -10,9 +10,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("close")
 	slot0.cancelBtn = slot0:findTF("cancel")
 	slot0.confirmBtn = slot0:findTF("confirm")
-
-	setText(slot0:findTF("cancel/Text"), i18n1("取消"))
-	setText(slot0:findTF("confirm/Text"), i18n1("确定"))
+	slot0.cancelTxt = slot0:findTF("cancel/Text"):GetComponent(typeof(Text))
+	slot0.confirmTxt = slot0:findTF("confirm/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)
@@ -36,10 +35,11 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnShow = function(slot0)
-	slot0.titleTxt.text = slot0.settings.title or i18n1("信息")
+	slot0.titleTxt.text = slot0.settings.title or i18n("island_msg_info")
 	slot0.contentTxt.text = slot1.content or ""
 	slot0.onYes = slot1.onYes
 	slot0.onNo = slot1.onNo
+	slot0.onHide = slot1.onHide
 
 	slot0:FlushBtn(slot1)
 end
@@ -48,11 +48,19 @@ slot0.FlushBtn = function(slot0, slot1)
 	setActive(slot0.cancelBtn, not slot1.hideNo)
 
 	slot0.confirmBtn.sizeDelta = Vector2(slot1.hideNo and 880 or 420, slot0.confirmBtn.sizeDelta.y)
+	slot0.cancelTxt.text = slot1.noText and slot1.noText or i18n("word_cancel")
+	slot0.confirmTxt.text = slot1.yesText and slot1.yesText or i18n("word_ok")
 end
 
 slot0.OnHide = function(slot0)
 	slot0.onYes = nil
 	slot0.onNo = nil
+
+	if slot0.onHide then
+		slot0.onHide()
+
+		slot0.onHide = nil
+	end
 end
 
 slot0.GetMsgBoxMgr = function(slot0)

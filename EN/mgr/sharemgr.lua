@@ -212,15 +212,8 @@ slot1.ShotAndSave = function(slot0, slot1, slot2, slot3, slot4)
 	slot7 = {}
 
 	table.insert(slot7, function (slot0)
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
 		uv0.UIMgr.GetInstance():LoadingOn(false)
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			uv1,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(slot0)
-		})
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv1, slot0)
 	end)
 	table.insert(slot7, function (slot0, slot1)
 		uv0.UIMgr.GetInstance():LoadingOff()

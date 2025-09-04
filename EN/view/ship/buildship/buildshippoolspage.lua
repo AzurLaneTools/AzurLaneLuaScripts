@@ -538,11 +538,9 @@ slot0.UpdateBuildPoolExchange = function(slot0, slot1)
 end
 
 slot0.UpdateRegularBuildPoolExchange = function(slot0, slot1)
-	slot2 = slot1:getConfig("exchange_count") > 0
+	setActive(slot0.rtRegularExchange, true)
 
-	setActive(slot0.rtRegularExchange, slot2)
-
-	if slot2 then
+	if slot1:getConfig("exchange_count") > 0 then
 		slot3 = getProxy(BuildShipProxy):getRegularExchangeCount()
 		slot4 = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID]
 

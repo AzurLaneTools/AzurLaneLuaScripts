@@ -5,7 +5,7 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.callback
 
 	if not getProxy(IslandProxy):GetIsland():GetOrderAgency():CanGetAward(slot2.level) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("不可领取"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_order_not_get_award"))
 
 		return
 	end

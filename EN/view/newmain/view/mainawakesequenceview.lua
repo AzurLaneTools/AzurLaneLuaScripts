@@ -2,6 +2,7 @@ slot0 = class("MainAwakeSequenceView", import(".MainSequenceView"))
 
 slot0.Ctor = function(slot0)
 	slot0.sequence = {
+		MainPlayerTestSequence.New(),
 		MainCompatibleDataSequence.New(),
 		MainRandomFlagShipSequence.New(),
 		MainFixSettingDefaultValue.New()

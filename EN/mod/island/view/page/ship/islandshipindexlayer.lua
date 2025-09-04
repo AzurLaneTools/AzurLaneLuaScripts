@@ -3,7 +3,7 @@ slot0 = class("IslandShipIndexLayer", import("view.common.CustomIndexLayer"))
 slot0.SortFunc = function(slot0)
 	return {
 		function (slot0)
-			if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(slot0) then
+			if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0) then
 				return slot1["Get" .. uv0](slot1)
 			else
 				return 0
@@ -17,20 +17,12 @@ end
 
 slot0.sort = {
 	{
-		sortFuncs = slot0.SortFunc("Rarity"),
-		name = ShipIndexConst.SortNames[1]
-	},
-	{
 		sortFuncs = slot0.SortFunc("Level"),
 		name = ShipIndexConst.SortNames[2]
 	},
 	{
 		sortFuncs = slot0.SortFunc("Power"),
 		name = ShipIndexConst.SortNames[3]
-	},
-	{
-		sortFuncs = slot0.SortFunc("CreateTime"),
-		name = ShipIndexConst.SortNames[4]
 	},
 	{
 		sortFuncs = slot0.SortFunc("Energy"),
@@ -50,23 +42,17 @@ slot0.getSortFuncAndName = function(slot0, slot1)
 	end
 end
 
-slot0.SortRarity = bit.lshift(1, 0)
-slot0.SortLevel = bit.lshift(1, 1)
-slot0.SortPower = bit.lshift(1, 2)
-slot0.SortAchivedTime = bit.lshift(1, 3)
-slot0.SortEnergy = bit.lshift(1, 4)
+slot0.SortLevel = bit.lshift(1, 0)
+slot0.SortPower = bit.lshift(1, 1)
+slot0.SortEnergy = bit.lshift(1, 2)
 slot0.SortIndexs = {
-	slot0.SortRarity,
 	slot0.SortLevel,
 	slot0.SortPower,
-	slot0.SortAchivedTime,
 	slot0.SortEnergy
 }
 slot0.SortNames = {
-	"word_rarity",
 	"word_lv",
 	"word_synthesize_power",
-	"word_achieved_item",
 	"sort_energy"
 }
 slot0.ExtraPotency = bit.lshift(1, 0)
@@ -149,6 +135,9 @@ slot0.BlurPanel = function(slot0)
 	})
 end
 
+slot0.DoEnterAnimation = function(slot0)
+end
+
 slot0.didEnter = function(slot0)
 	slot0.contextData = slot0:InitData()
 
@@ -189,18 +178,6 @@ slot0.InitData = function(slot0)
 				options = uv0.SortIndexs,
 				names = uv0.SortNames
 			},
-			campIndex = {
-				blueSeleted = true,
-				mode = CustomIndexLayer.Mode.AND,
-				options = ShipIndexConst.CampIndexs,
-				names = ShipIndexConst.CampNames
-			},
-			rarityIndex = {
-				blueSeleted = true,
-				mode = CustomIndexLayer.Mode.AND,
-				options = ShipIndexConst.RarityIndexs,
-				names = ShipIndexConst.RarityNames
-			},
 			extraIndex = {
 				blueSeleted = true,
 				mode = CustomIndexLayer.Mode.AND,
@@ -215,22 +192,6 @@ slot0.InitData = function(slot0)
 				titleTxt = "indexsort_sort",
 				tags = {
 					"sortIndex"
-				}
-			},
-			{
-				dropdown = false,
-				titleENTxt = "indexsort_campeng",
-				titleTxt = "indexsort_camp",
-				tags = {
-					"campIndex"
-				}
-			},
-			{
-				dropdown = false,
-				titleENTxt = "indexsort_rarityeng",
-				titleTxt = "indexsort_rarity",
-				tags = {
-					"rarityIndex"
 				}
 			},
 			{

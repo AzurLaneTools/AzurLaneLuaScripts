@@ -5,7 +5,7 @@ slot0.execute = function(slot0, slot1)
 	slot5 = slot2.arg or {}
 
 	if getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(slot2.id) < (slot2.count or 1) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("数量不足"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -36,10 +36,7 @@ slot0.execute = function(slot0, slot1)
 end
 
 slot0.HandleUsageEffect = function(slot0, slot1, slot2)
-	if IslandItem.StaticGetUsageType(slot1) == IslandItemUsage.usage_ship_state then
-		getProxy(IslandProxy):GetIsland():GetCharacterAgency():AddShipState(slot2[1], tonumber(IslandItem.StaticGetUsageArg(slot1)))
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("赠送成功"))
-	end
+	slot3 = IslandItem.StaticGetUsageType(slot1)
 end
 
 return slot0

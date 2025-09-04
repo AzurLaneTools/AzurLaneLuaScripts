@@ -111310,7 +111310,7 @@ _G.pg.base.equip_data_statistics[44420] = {
 	equip_parameters = {},
 	label = {
 		"HNLMS",
-		"CA",
+		"CB",
 		"MG",
 		"HE"
 	}
@@ -141845,6 +141845,61 @@ _G.pg.base.equip_data_statistics[80512] = {
 	id = 80512,
 	weapon_id = {
 		170832
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80531] = {
+	name = "专属弹幕-夕立METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "Barrage",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80531,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61791
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80532] = {
+	name = "专属弹幕-夕立METAII",
+	base = 80531,
+	id = 80532,
+	weapon_id = {
+		61792
 	},
 	hidden_skill_id = {}
 }
@@ -176573,6 +176628,147 @@ _G.pg.base.equip_data_statistics[150813] = {
 	base = 150800,
 	id = 150813,
 	value_1 = "640",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150820] = {
+	name = "Sakuran Summons",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 150820,
+	value_2 = 6,
+	icon = "150820",
+	value_1 = "5",
+	attribute_2 = "dodge",
+	rarity = 4,
+	nationality = 3,
+	descrip = "I hope this letter finds you well, Commander – from Unzen.",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "cannon",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60930,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150821] = {
+	id = 150821,
+	base = 150820,
+	value_2 = 7,
+	value_1 = "5",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150822] = {
+	id = 150822,
+	base = 150820,
+	value_2 = 7,
+	value_1 = "6",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150823] = {
+	id = 150823,
+	base = 150820,
+	value_2 = 8,
+	value_1 = "6",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150824] = {
+	id = 150824,
+	base = 150820,
+	value_2 = 9,
+	value_1 = "7",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150825] = {
+	id = 150825,
+	base = 150820,
+	value_2 = 10,
+	value_1 = "7",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150826] = {
+	id = 150826,
+	base = 150820,
+	value_2 = 11,
+	value_1 = "8",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150827] = {
+	id = 150827,
+	base = 150820,
+	value_2 = 12,
+	value_1 = "9",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150828] = {
+	id = 150828,
+	base = 150820,
+	value_2 = 13,
+	value_1 = "10",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150829] = {
+	id = 150829,
+	base = 150820,
+	value_2 = 14,
+	value_1 = "11",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150830] = {
+	id = 150830,
+	base = 150820,
+	value_2 = 15,
+	value_1 = "12",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150831] = {
+	id = 150831,
+	anti_siren = 100,
+	base = 150820,
+	value_2 = 16,
+	value_1 = "13",
 	hidden_skill_id = {}
 }
 

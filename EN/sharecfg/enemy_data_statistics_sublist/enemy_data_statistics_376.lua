@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_376 = {
+	[212218] = {
+		battle_unit_type = 60,
+		antiaircraft = 41,
+		speed_growth = 0,
+		hit_growth = 105,
+		air = 53,
+		armor = 0,
+		id = 212218,
+		torpedo_growth = 0,
+		cannon = 0,
+		fog_fx = "",
+		dodge_growth = 70,
+		antisub_growth = 0,
+		air_growth = 4256,
+		base = 90295,
+		durability = 224,
+		armor_growth = 0,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 6,
+		reload_growth = 0,
+		hit = 7,
+		torpedo = 0,
+		durability_growth = 89780,
+		luck_growth = 0,
+		antiaircraft_growth = 3276,
+		world_enhancement = {
+			2,
+			2.2,
+			2,
+			0.8,
+			0.2,
+			2.3,
+			0.1
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.5,
+					0.5,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.5,
+					0.8,
+					0
+				},
+				{
+					-0.5,
+					0.8,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.5,
+					0.5,
+					0
+				}
+			}
+		},
+		equipment_list = {
+			1100018,
+			1100168,
+			2200768,
+			2200773,
+			2200778
+		},
+		random_equipment_list = {
+			{
+				2021401
+			}
+		},
+		random_nub = {
+			1
+		}
+	},
 	[213001] = {
 		cannon = 6,
 		air = 0,
@@ -1457,51 +1539,6 @@ pg.enemy_data_statistics_376 = {
 		equipment_list = {
 			1100016,
 			1100056,
-			1100496
-		}
-	},
-	[222003] = {
-		cannon = 12,
-		air = 0,
-		torpedo = 36,
-		cannon_growth = 960,
-		id = 222003,
-		reload = 150,
-		armor = 0,
-		dodge = 18,
-		torpedo_growth = 2880,
-		hit_growth = 198,
-		reload_growth = 0,
-		dodge_growth = 220,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 13,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90183,
-		durability = 119,
-		armor_growth = 0,
-		durability_growth = 47500,
-		antiaircraft = 48,
-		speed = 24,
-		luck = 0,
-		battle_unit_type = 55,
-		antisub = 0,
-		antiaircraft_growth = 3840,
-		fog_fx = "",
-		world_enhancement = {
-			1.2,
-			3.8,
-			0.9,
-			0,
-			0.7,
-			0.7,
-			0
-		},
-		appear_fx = {},
-		equipment_list = {
-			1100246,
-			1100276,
 			1100496
 		}
 	}

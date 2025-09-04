@@ -32,41 +32,77 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.signTr = slot1:Find("sign")
 	slot0.resImg = slot1:Find("state_lock/gold/content/icon")
 
-	setText(slot1:Find("loading_award/state/Text"), i18n1("运输中"))
-	setText(slot1:Find("normal_award/state/Text"), i18n1("等待运输"))
-	setText(slot0.getBtn:Find("Text"), i18n1("领取奖励"))
+	setText(slot1:Find("loading_award/state/Text"), i18n("island_order_get_label"))
+	setText(slot1:Find("normal_award/state/Text"), i18n("island_order_get_label"))
+	setText(slot0.getBtn:Find("Text"), i18n("island_order_get_label"))
+
+	slot0.animator = slot1:GetComponent(typeof(Animation))
+	slot0.aniDft = slot1:GetComponent(typeof(DftAniEvent))
 end
 
-slot0.Flush = function(slot0, slot1, slot2, slot3)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.slot = slot1
 
+	slot0:FlushMain(slot1, slot2)
+	slot0:UpdateTimer(slot1)
+end
+
+slot0.FlushMain = function(slot0, slot1, slot2)
 	slot0:SwitchMode(slot1, slot2)
 	slot0:UpdateRequest(slot1)
 	slot0:UpdateAward(slot1)
 	slot0:UpdateLockTip(slot1)
 	slot0:UpdateTitle(slot1)
-	slot0:UpdateTimer(slot1)
 end
 
-slot0.PlaySignAnim = function(slot0, slot1)
-	slot0:RemoveSignTimer()
-	setActive(slot0.signTr, true)
+slot0.PlayAniamtion = function(slot0, slot1, slot2, slot3)
+	slot4 = function()
+		slot0 = uv0.aniDft
 
-	slot0.signTimer = Timer.New(function ()
-		uv0:RemoveSignTimer()
-		setActive(uv0.signTr, false)
-		uv1()
-	end, 2, 1)
+		slot0:SetEndEvent(function ()
+			uv0.aniDft:SetEndEvent(nil)
 
-	slot0.signTimer:Start()
-end
-
-slot0.RemoveSignTimer = function(slot0)
-	if slot0.signTimer then
-		slot0.signTimer:Stop()
-
-		slot0.signTimer = nil
+			if uv1 then
+				uv1()
+			end
+		end)
 	end
+
+	if slot1 == IslandShipOrder.OP_TYPE_UNLOCK then
+		slot4()
+		slot0.animator:Play("anim_island_shiporder_unlock")
+	elseif slot1 == IslandShipOrder.OP_TYPE_LOADUP and slot2 then
+		slot4()
+		slot0.animator:Play("anim_island_shiporder_intransit")
+	elseif slot1 == IslandShipOrder.OP_TYPE_GET_AWARD then
+		slot4()
+		slot0.animator:Play("anim_island_shiporder_next")
+	else
+		slot3()
+	end
+end
+
+slot0.PlayFinishAnimation = function(slot0, slot1, slot2)
+	if slot1 then
+		slot3 = Clone(slot0.slot)
+		slot3.endTime = pg.TimeMgr.GetInstance():GetServerTime() + 10
+
+		slot0:FlushMain(slot3, slot0.mode)
+	end
+
+	slot0.aniDft:SetEndEvent(nil)
+	slot0.aniDft:SetEndEvent(function ()
+		uv0.aniDft:SetEndEvent(nil)
+
+		if uv1 then
+			uv0:FlushMain(uv0.slot, uv0.mode)
+		end
+
+		if uv2 then
+			uv2()
+		end
+	end)
+	slot0.animator:Play("anim_island_shiporder_complete")
 end
 
 slot0.SwitchMode = function(slot0, slot1, slot2)
@@ -80,6 +116,8 @@ slot0.UpdateTimer = function(slot0, slot1)
 
 	if slot1:IsSubmited() and not slot1:IsFinished() then
 		slot0:AddTimer(slot1)
+	elseif slot1:IsFinished() then
+		slot0:PlayFinishAnimation(true)
 	end
 end
 
@@ -99,7 +137,9 @@ slot0.AddTimer = function(slot0, slot1)
 
 		if slot4 <= 0 then
 			uv1:RemoveTimer()
-			uv1:Flush(uv2, uv1.mode)
+			uv1:PlayFinishAnimation(function ()
+				uv0:Flush(uv1, uv0.mode)
+			end)
 		end
 	end, 1, -1)
 
@@ -109,26 +149,27 @@ end
 
 slot0.UpdateTitle = function(slot0, slot1)
 	if slot1:IsWaiting() then
-		slot0.titleTxt.text = i18n1("运输时间     " .. pg.TimeMgr.GetInstance():DescCDTime(slot1:GetNeedTime()))
+		slot0.titleTxt.text = i18n("island_order_ship_worktime", pg.TimeMgr.GetInstance():DescCDTime(slot1:GetNeedTime()))
 	elseif slot1:IsSubmited() and not slot1:IsFinished() then
-		slot0.titleTxt.text = i18n1("运输中...")
+		slot0.titleTxt.text = i18n("island_order_ship_working")
 	elseif slot1:IsFinished() then
-		slot0.titleTxt.text = i18n1("已完成...")
+		slot0.titleTxt.text = i18n("island_order_ship_end_work")
 	end
 end
 
 slot0.UpdateLockTip = function(slot0, slot1)
+	slot2 = slot1:GetUnlockLevel()
 	slot3 = slot1:GetUnlockGold()
-	slot0.levelLockTxt.text = i18n1(string.format("下艘运输船舶将在%d级解锁", slot1:GetUnlockLevel()))
-	slot0.resLockTxt.text = i18n1("X" .. slot3.count .. "解锁")
+	slot0.levelLockTxt.text = i18n("island_order_ship_unlock_tip")
+	slot0.resLockTxt.text = "X" .. slot3.count .. i18n("island_order_ship_unlock_tip_2")
 
-	GetImageSpriteFromAtlasAsync(pg.island_item_data_template[slot3.id].icon, "", slot0.resImg)
+	GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot3.id].icon, "", slot0.resImg)
 end
 
 slot0.UpdateAward = function(slot0, slot1)
 	slot0.uiAwardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.New(uv0[slot1 + 1]))
+			updateCustomDrop(slot2, Drop.New(uv0[slot1 + 1]))
 		end
 	end)
 	slot0.uiAwardList:align(#slot1:GetOrder():GetAwardList())
@@ -137,13 +178,16 @@ end
 slot0.UpdateRequest = function(slot0, slot1)
 	slot0.uiRequestList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			GetImageSpriteFromAtlasAsync(Drop.New(uv0[slot1 + 1]).icon or slot4:getConfig("icon"), "", slot2:Find("icon"))
+			GetImageSpriteFromAtlasAsync("island/" .. (Drop.New(uv0[slot1 + 1]).icon or slot4:getConfig("icon")), "", slot2:Find("icon"))
 
 			slot6 = slot4.state == 1
+			slot7 = slot4:getOwnedCount()
 
-			setText(slot2:Find("cnt"), setColorStr("x" .. slot4.count, (slot4.count <= slot4:getOwnedCount() or slot6) and "#393a3c" or "#f36c6e"))
+			setText(slot2:Find("cnt"), setColorStr(slot7 .. "/" .. slot4.count, (slot4.count <= slot7 or slot6) and "#39beff" or "#f36c6e"))
+			setActive(slot2:Find("finish"), slot6)
 			setActive(slot2:Find("loaded"), slot6)
 			setActive(slot2:Find("loaded_1"), false)
+			setActive(slot2:Find("enough"), not slot6 and slot4.count <= slot7)
 		end
 	end)
 	slot0.uiRequestList:align(#slot1:GetOrder():GetConsumeList())
@@ -171,7 +215,7 @@ slot0.UpdateStyle = function(slot0, slot1, slot2)
 	setActive(slot0.titleTr, not slot3)
 
 	slot0.requestCG.alpha = slot6 and 0.6 or 1
-	slot0.titleTr.sizeDelta = slot4 and Vector2(280, 39) or Vector2(155, 39)
+	slot0.titleTr.sizeDelta = slot4 and Vector2(360, 39) or Vector2(155, 39)
 
 	slot0:UpdateBgColor(slot1)
 	slot0:UpdateTitleColor(slot1)
@@ -203,7 +247,7 @@ end
 
 slot0.Dispose = function(slot0)
 	slot0:RemoveTimer()
-	slot0:RemoveSignTimer()
+	slot0.aniDft:SetEndEvent(nil)
 end
 
 return slot0

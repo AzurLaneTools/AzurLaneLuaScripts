@@ -349,7 +349,11 @@ slot0.OnDisVisible = function(slot0)
 	slot0.bgView:Disable()
 	slot0.sequenceView:Disable()
 	slot0.awakeSequenceView:Disable()
-	slot0.theme:Disable()
+
+	if slot0.theme then
+		slot0.theme:Disable()
+	end
+
 	pg.redDotHelper:Disable()
 	slot0.buffDescPage:Disable()
 	slot0.silentChecker:Disable()

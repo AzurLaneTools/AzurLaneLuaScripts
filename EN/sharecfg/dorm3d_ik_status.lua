@@ -11213,6 +11213,567 @@ pg.dorm3d_ik_status = {
 		},
 		enter_scene_anim = {}
 	},
+	[300610] = {
+		ik_camera = "Cam300610",
+		character_action = "ab_FF_shafa_idle01",
+		base = 300610,
+		camera_group = 30061,
+		skin_id = 199031,
+		character_position = "Pos300610",
+		hide_scene_item = "",
+		id = 300610,
+		character_id = 19903,
+		ik_id = {
+			{
+				30061000,
+				0,
+				{
+					4,
+					0.3,
+					30223
+				}
+			},
+			{
+				30061001,
+				0,
+				{
+					4,
+					0.3,
+					30224
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[300620] = {
+		ik_camera = "Cam300620",
+		character_action = "ab_FF_shafa_idle01",
+		base = 300620,
+		camera_group = 30061,
+		skin_id = 199031,
+		character_position = "Pos300620",
+		hide_scene_item = "",
+		id = 300620,
+		character_id = 19903,
+		ik_id = {
+			{
+				30062000,
+				0,
+				{
+					4,
+					0.3,
+					30225
+				}
+			},
+			{
+				30062001,
+				0,
+				{
+					4,
+					0.3,
+					30226
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[300630] = {
+		ik_camera = "Cam300630",
+		character_action = "ab_FF_shafa_idle02",
+		base = 300630,
+		camera_group = 30061,
+		skin_id = 199031,
+		character_position = "Pos300630",
+		hide_scene_item = "",
+		enter_extra_item = "",
+		id = 300630,
+		character_id = 19903,
+		ik_id = {
+			{
+				30063000,
+				0,
+				{
+					4,
+					0.3,
+					30227
+				}
+			},
+			{
+				30063001,
+				0,
+				{
+					4,
+					0.3,
+					30228
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[300640] = {
+		ik_camera = "Cam300640",
+		character_action = "ab_FF_shafa_idle02",
+		base = 300640,
+		camera_group = 30061,
+		skin_id = 199031,
+		character_position = "Pos300640",
+		hide_scene_item = "",
+		enter_extra_item = "",
+		id = 300640,
+		character_id = 19903,
+		ik_id = {
+			{
+				30064000,
+				0,
+				{
+					4,
+					0.3,
+					30230
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003324,
+				0,
+				{
+					4,
+					0.3,
+					30229
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)_1",
+				1,
+				0.091,
+				0.091
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine)",
+				1,
+				0.136,
+				0.136
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
 	[310110] = {
 		ik_camera = "Cam310110",
 		character_action = "ab_chuang_idle_01",
@@ -11240,7 +11801,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					30202
+					30230
 				}
 			}
 		},
@@ -13063,6 +13624,547 @@ pg.dorm3d_ik_status = {
 			0.1
 		},
 		enter_scene_anim = {}
+	},
+	[310610] = {
+		ik_camera = "Cam310610",
+		character_action = "ab_FF_shafa_idle01",
+		base = 300610,
+		camera_group = 31061,
+		skin_id = 199032,
+		character_position = "Pos310610",
+		hide_scene_item = "",
+		id = 310610,
+		character_id = 19903,
+		ik_id = {
+			{
+				31061000,
+				0,
+				{
+					4,
+					0.3,
+					30223
+				}
+			},
+			{
+				31061001,
+				0,
+				{
+					4,
+					0.3,
+					30224
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.079
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.079
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.113,
+				0.083
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[310620] = {
+		ik_camera = "Cam310620",
+		character_action = "ab_FF_shafa_idle01",
+		base = 300620,
+		camera_group = 31061,
+		skin_id = 199032,
+		character_position = "Pos310620",
+		hide_scene_item = "",
+		id = 310620,
+		character_id = 19903,
+		ik_id = {
+			{
+				31062000,
+				0,
+				{
+					4,
+					0.3,
+					30225
+				}
+			},
+			{
+				31062001,
+				0,
+				{
+					4,
+					0.3,
+					30226
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.113,
+				0.083
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.5
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle01_SF"
+			}
+		},
+		enter_extra_item = {
+			{
+				"furniture/Item/Aklq_Drink01/pre_db_aklq_drink01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"ab_FF_shafa_idle01_M"
+			}
+		}
+	},
+	[310630] = {
+		ik_camera = "Cam310630",
+		character_action = "ab_FF_shafa_idle02",
+		base = 300630,
+		camera_group = 31061,
+		skin_id = 199032,
+		character_position = "Pos310630",
+		hide_scene_item = "",
+		enter_extra_item = "",
+		id = 310630,
+		character_id = 19903,
+		ik_id = {
+			{
+				31063000,
+				0,
+				{
+					4,
+					0.3,
+					30227
+				}
+			},
+			{
+				31063001,
+				0,
+				{
+					4,
+					0.3,
+					30228
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.113,
+				0.083
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
+	},
+	[310640] = {
+		ik_camera = "Cam310640",
+		character_action = "ab_FF_shafa_idle02",
+		base = 300640,
+		camera_group = 31061,
+		skin_id = 199032,
+		character_position = "Pos310640",
+		hide_scene_item = "",
+		enter_extra_item = "",
+		id = 310640,
+		character_id = 19903,
+		ik_id = {
+			{
+				31064000,
+				0,
+				{
+					4,
+					0.3,
+					30230
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003324,
+				0,
+				{
+					4,
+					0.3,
+					30229
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.093,
+				0.056
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 L UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 L Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (Bip001 Head)",
+				1,
+				0.047,
+				0.047
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Forearm)",
+				1,
+				0.037,
+				0.023
+			},
+			{
+				"Magica Capsule Collider (Bip001 R UpperArm)",
+				1,
+				0.053,
+				0.033
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Clavicle)",
+				1,
+				0.049,
+				0.04
+			},
+			{
+				"Magica Capsule Collider (LeftChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (RightChestAssistA01)",
+				1,
+				0.057,
+				0.062
+			},
+			{
+				"Magica Capsule Collider (Bip001 Spine1)",
+				1,
+				0.113,
+				0.083
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.4
+		},
+		enter_scene_anim = {
+			{
+				2012,
+				"ab_FF_shafa_idle02_SF"
+			}
+		}
 	},
 	[310910] = {
 		ik_camera = "Cam310910",
@@ -16953,6 +18055,12 @@ pg.dorm3d_ik_status = {
 		[30052] = {
 			300513
 		},
+		[30061] = {
+			300610,
+			300620,
+			300630,
+			300640
+		},
 		[31051] = {
 			310510,
 			310511,
@@ -16960,6 +18068,12 @@ pg.dorm3d_ik_status = {
 		},
 		[31052] = {
 			310513
+		},
+		[31061] = {
+			310610,
+			310620,
+			310630,
+			310640
 		},
 		[30019] = {
 			310910,
@@ -17417,6 +18531,22 @@ pg.dorm3d_ik_status = {
 			300513,
 			310513
 		},
+		[300610] = {
+			300610,
+			310610
+		},
+		[300620] = {
+			300620,
+			310620
+		},
+		[300630] = {
+			300630,
+			310630
+		},
+		[300640] = {
+			300640,
+			310640
+		},
 		[310910] = {
 			310910
 		},
@@ -17663,6 +18793,10 @@ pg.dorm3d_ik_status = {
 		300511,
 		300512,
 		300513,
+		300610,
+		300620,
+		300630,
+		300640,
 		310110,
 		310111,
 		310112,
@@ -17679,6 +18813,10 @@ pg.dorm3d_ik_status = {
 		310511,
 		310512,
 		310513,
+		310610,
+		310620,
+		310630,
+		310640,
 		310910,
 		310911,
 		400110,

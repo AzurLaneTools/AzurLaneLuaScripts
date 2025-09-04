@@ -198,4 +198,312 @@ slot0.BuildAllCollection = function(slot0, slot1)
 	}, {})
 end
 
+slot0.BuildIslandVisit = function(slot0)
+	if getProxy(FriendProxy):getFriend(slot0) then
+		return uv0(30046, {
+			slot0,
+			1
+		}, {})
+	end
+
+	if getProxy(GuildProxy):getRawData() and slot2:getMemberById(slot0) then
+		return uv0(30046, {
+			slot0,
+			2
+		}, {})
+	end
+
+	return nil
+end
+
+slot0.BuildIslandVisitByCode = function()
+	return uv0(30046, {
+		0,
+		3
+	}, {})
+end
+
+slot0.BuildIslandAgoraUpgrade = function(slot0)
+	return uv0(30010, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandFurnitureAdd = function(slot0, slot1)
+	return uv0(30040, {
+		slot0
+	}, {
+		slot1
+	})
+end
+
+slot0.BuildIslandAgoraSave = function()
+	return uv0(30041, {}, {})
+end
+
+slot0.BuildIslandSignIn = function()
+	return uv0(30006, {}, {})
+end
+
+slot0.BuildIslandGetGift = function(slot0)
+	return uv0(30007, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandInvitation = function(slot0)
+	if #slot0 == 0 then
+		return uv0(30008, {
+			0
+		}, {})
+	else
+		return uv0(30008, {
+			2
+		}, {})
+	end
+end
+
+slot0.BuildIslandShareSignIn = function()
+	return uv0(30008, {
+		1
+	}, {})
+end
+
+slot0.BuildIslandUnlockMap = function(slot0)
+	return uv0(30004, {
+		slot0
+	}, {})
+end
+
+slot0.BuildMapExit = function(slot0, slot1)
+	return uv0(30009, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandUnlockShip = function(slot0)
+	return uv0(30013, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandShipUpgrade = function(slot0, slot1)
+	return uv0(30014, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandShipBreakout = function(slot0)
+	return uv0(30015, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandShipSkillUpgrade = function(slot0, slot1)
+	return uv0(30016, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandShipAddBuff = function(slot0, slot1)
+	return uv0(30019, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandShipGiveGift = function(slot0, slot1)
+	return uv0(30020, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandShipAttrUpgrade = function(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot1:GetAttrs()) do
+		table.insert(slot2, string.format("{%s,%s}", slot7, slot8 - slot0:GetAttr(slot7)))
+		table.insert(slot3, string.format("{%s,%s}", slot7, slot8))
+	end
+
+	return uv0(30017, {
+		slot0.id
+	}, {
+		table.concat(slot2, ","),
+		table.concat(slot3, ",")
+	})
+end
+
+slot0.BuildIslandShipAttrLimit = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1:GetAttrs()) do
+		table.insert(slot2, string.format("{%s,%s,%s}", slot6, slot0:GetExtraAttrLimit(slot6), slot1:GetExtraAttrLimit(slot6)))
+	end
+
+	return uv0(30018, {
+		slot0.id
+	}, {
+		table.concat(slot2, ",")
+	})
+end
+
+slot0.BuildIslandUpgrade = function(slot0)
+	return uv0(30003, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandInventoryUpgrade = function(slot0)
+	return uv0(30011, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandInventoryChange = function(slot0, slot1, slot2)
+	return uv0(30012, {
+		slot0,
+		slot1,
+		slot2
+	}, {})
+end
+
+slot0.BuildIslandSubmitOrder = function(slot0, slot1)
+	return uv0(30031, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandGuide = function(slot0, slot1, slot2)
+	return uv0(30001, {
+		slot0,
+		slot1
+	}, {
+		slot2
+	})
+end
+
+slot0.BuildIslandRestUpgrade = function(slot0, slot1)
+	return uv0(30050, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandDeviceBanner = function(slot0)
+	return uv0(30005, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandEnter = function(slot0, slot1)
+	return uv0(30002, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandTechImmd = function(slot0)
+	return uv0(30034, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandTaskSubmit = function(slot0, slot1)
+	return uv0(30028, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandWildGather = function(slot0)
+	return uv0(30021, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandWildCollect = function(slot0)
+	return uv0(30042, {
+		slot0
+	}, {})
+end
+
+slot0.BuildIslandGetDress = function(slot0, slot1)
+	return uv0(30037, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandBindDress = function(slot0, slot1)
+	return uv0(30038, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandWearDress = function(slot0, slot1)
+	slot2 = "["
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2 = slot2 .. string.format("{\"type\":%d,\"id\":%d}", slot7.type, slot7.id)
+
+		if slot6 ~= #slot1 then
+			slot2 = slot2 .. ","
+		end
+	end
+
+	return uv0(30039, {
+		slot0
+	}, {
+		slot2 .. "]"
+	})
+end
+
+slot0.BuildIslandStartDelegation = function(slot0, slot1, slot2, slot3, slot4)
+	return uv0(30022, {
+		slot0,
+		slot1,
+		slot2,
+		slot3,
+		slot4
+	}, {})
+end
+
+slot0.BuildIslandGetDelegationAward = function(slot0)
+	slot1 = "["
+
+	for slot5, slot6 in ipairs(slot0) do
+		slot1 = slot1 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", slot6.type, slot6.id, slot6.number)
+
+		if slot5 ~= #slot0 then
+			slot1 = slot1 .. ","
+		end
+	end
+
+	return uv0(30023, {}, {
+		slot1 .. "]"
+	})
+end
+
+slot0.BuildIslandShopBuy = function(slot0, slot1)
+	return uv0(30035, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildIslandUnlockColor = function(slot0, slot1)
+	return uv0(30051, {
+		slot0,
+		slot1
+	}, {})
+end
+
 return slot0
