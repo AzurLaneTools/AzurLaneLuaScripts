@@ -184437,7 +184437,7 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 		name = "Monarch's Coercion+",
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's FP and ACC by $1. When this ship fires her Main Guns: $2 chance to fire an improved $3 frontal barrage (DMG is based on the skill's level); enemies hit by this improved barrage have their SDP decreased by $4 and EVA decreased by $1 for 6s.",
+		desc = "Increases this ship's FP and ACC by $1. When this ship fires her Main Guns: $2 chance to fire an improved $3 frontal barrage (DMG is based on the skill's level); enemies hit by this improved barrage have their SPD decreased by $4 and EVA decreased by $1 for 6s.",
 		id = 1019030,
 		system_transform = {
 			[3.0] = 1019031
