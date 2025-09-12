@@ -63,10 +63,14 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
-	onButton(slot0, slot0.btnSkin, function ()
-		uv0:emit(ActivityMediator.GO_CHANGE_SHOP)
-	end, SFX_PANEL)
-	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
+
+	if slot0.btnSkin then
+		onButton(slot0, slot0.btnSkin, function ()
+			uv0:emit(ActivityMediator.GO_CHANGE_SHOP)
+		end, SFX_PANEL)
+	end
+
+	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY, slot0.contextData.coreName)
 end
 
 slot0.setActivities = function(slot0, slot1)
@@ -118,6 +122,7 @@ slot0.updateActivity = function(slot0, slot1)
 			slot0.activity = slot1
 
 			slot0.pageDic[slot1.id]:ActionInvoke("Flush", slot1)
+			slot0:verifyTabs(slot0.activity.id)
 		end
 	end
 end
@@ -148,7 +153,29 @@ slot0.selectActivity = function(slot0, slot1)
 end
 
 slot0.verifyTabs = function(slot0, slot1)
-	triggerToggle(slot0.tabs:Find(tostring(slot0.activities[slot0:getActivityIndex(slot1) or 1]:getConfig("is_show"))), true)
+	if slot0.activities[slot0:getActivityIndex(slot1) or slot0:getActivityIndex(slot0:GetActiveActivity()) or 1] == nil then
+		return
+	end
+
+	triggerToggle(slot0.tabs:Find(tostring(slot2:getConfig("is_show"))), true)
+end
+
+slot0.GetActiveActivity = function(slot0)
+	for slot4, slot5 in ipairs(slot0.activities) do
+		if not slot5:isEnd() then
+			return slot5.id
+		end
+	end
+end
+
+slot0.onBackPressed = function(slot0)
+	if slot0.pageDic[slot0.activity.id]:IsShowingPopWindow() then
+		slot1:ClosePopWindow()
+
+		return
+	end
+
+	uv0.super.onBackPressed(slot0)
 end
 
 slot0.getActClass = function(slot0, slot1)

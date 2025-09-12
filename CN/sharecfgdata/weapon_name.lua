@@ -5542,6 +5542,90 @@ _G.pg.base.weapon_name[51653] = {
 }
 
 
+_G.pg.base.weapon_name[51660] = {
+	id = 51660,
+	name = "3 x 机载鱼雷-重樱"
+}
+
+
+_G.pg.base.weapon_name[51661] = {
+	id = 51661,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51662] = {
+	id = 51662,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51663] = {
+	id = 51663,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51664] = {
+	id = 51664,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51665] = {
+	id = 51665,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51666] = {
+	id = 51666,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51667] = {
+	id = 51667,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51668] = {
+	id = 51668,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51669] = {
+	id = 51669,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51670] = {
+	id = 51670,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51671] = {
+	id = 51671,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51672] = {
+	id = 51672,
+	base = 51660
+}
+
+
+_G.pg.base.weapon_name[51673] = {
+	id = 51673,
+	base = 51660
+}
+
+
 _G.pg.base.weapon_name[52000] = {
 	id = 52000,
 	name = "1 x 100lb 炸弹"

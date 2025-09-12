@@ -32,7 +32,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_TOWN] = TownActivity,
 		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = AirFightActivity,
 		[ActivityConst.ACTIVITY_TYPE_NOT_TRACEABLE] = NotTraceableTaskActivity,
-		[ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA] = VirtualBagActivity
+		[ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA] = VirtualBagActivity,
+		[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = VirtualBagActivity
 	}
 
 	return uv0
@@ -669,6 +670,11 @@ slot0.readyToAchieve = function(slot0)
 			if getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 then
 				return true
 			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN] = function (slot0)
+			slot4 = pg.TimeMgr.GetInstance():GetServerTime()
+
+			return slot0.data1 < #pg.activity_7_day_sign[slot0:getConfig("config_id")].front_drops and not slot3:IsSameDay(slot4, slot0.data2) and slot0.data2 < slot4
 		end
 	}
 

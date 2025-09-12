@@ -2611,6 +2611,27 @@ pg.medal_template = {
 		explain1 = "「奇渊下的秘密」",
 		explain2 = "活动纪念"
 	},
+	[200091] = {
+		target_id = "50136",
+		name = "天域天原纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "「天域，乃外域之屏，天原，因天域而定。纵使地崩山摧，浩劫将至。天域天原，亦需永存」\n——欢迎来到天域天原",
+		next = 0,
+		icon = "9091",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9091",
+		condition = "收集8个「起舞于天原之上」纪念贴纸。",
+		rank = 1,
+		id = 200091,
+		explain1 = "「起舞于天原之上」",
+		explain2 = "活动纪念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2730,6 +2751,7 @@ pg.medal_template = {
 		200051,
 		200061,
 		200071,
-		200081
+		200081,
+		200091
 	}
 }

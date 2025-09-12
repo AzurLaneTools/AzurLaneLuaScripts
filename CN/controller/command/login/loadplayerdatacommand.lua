@@ -277,6 +277,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			CommanderManualProxy,
 			true
+		},
+		{
+			CityRebuildProxy,
+			true
 		}
 	})
 

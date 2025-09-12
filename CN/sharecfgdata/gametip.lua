@@ -9243,6 +9243,11 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_301934 = {
+	tip = "此次改造操作后<color=#92fc63>【防空炮底座+1】</color>\n<color=#92fc63>【防空炮武器效率+40%】</color>\n是否确认继续操作？"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
@@ -12475,7 +12480,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "马塞纳、贝劳森林、迪凯纳建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:302}(最多4次)"
 }
 
 
@@ -15002,13 +15007,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2025年5月6日至5月20日维护期间没有过登录行为的
+在2025年8月29日至9月12日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2025年5月20日至6月12日24时期间新注册的指挥官
+在2025年9月12日至10月2日24时期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2025年5月6日至5月20日维护前有过登录行为的指挥官
+2025年8月29日至9月12日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -15088,7 +15093,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色，其中仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "5.可选名单仅包含3月27日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含7月11日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -37468,7 +37473,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至9月3日24时；]]
+ ※ 奖励领取界面将延长至10月8日24时；]]
 		}
 	}
 }
@@ -40359,4 +40364,307 @@ _G.pg.base.gametip.Outpost_20250904_Title2 = {
 
 _G.pg.base.gametip.Outpost_20250904_Progress = {
 	tip = "当前进度"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar4 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar5 = {
+	tip = "重樱的邀约 "
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title1 = {
+	tip = "限时活动"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title2 = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name1 = {
+	tip = "极限突破"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name2 = {
+	tip = "天下布武"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name3 = {
+	tip = "衰弱咒印"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name4 = {
+	tip = "金钱滚滚"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name5 = {
+	tip = "可用之人"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name6 = {
+	tip = "降本增效"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name7 = {
+	tip = "大城巨炮"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name8 = {
+	tip = "阵列协同"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name9 = {
+	tip = "强化重橹"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name10 = {
+	tip = "构筑城防"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect1 = {
+	tip = "上阵角色\n伤害+$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect2 = {
+	tip = "上阵角色\n伤害+$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect3 = {
+	tip = "敌方\n血量-$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect4 = {
+	tip = "忍者金币\n收益+$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect5 = {
+	tip = "计算上阵角色伤害时\n视作角色数量+$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect6 = {
+	tip = "升级所需忍者金币\n消耗-$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect7 = {
+	tip = "战备建筑\n造成伤害+$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect8 = {
+	tip = "战备建筑\n伤害+$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect9 = {
+	tip = "战备建筑\n伤害+$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect10 = {
+	tip = "计算战备建筑伤害时\n视作建筑数量+$1"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title = {
+	tip = "活动汇总"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title_en = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+	tip = "激战！忍者之城！"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet2 = {
+	tip = "特别纪念签到"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet3 = {
+	tip = "特别庆典"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet4 = {
+	tip = "动员指令"
+}
+
+
+_G.pg.base.gametip.activity_return_reward_pt = {
+	tip = "集结积分："
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar1 = {
+	tip = "起舞于天原之上"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar2 = {
+	tip = "天原补给站"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar3 = {
+	tip = "UR兑换"
+}
+
+
+_G.pg.base.gametip.anniversary_eight_main_page_desc = {
+	tip = "·史无前例的大地震破坏了桃源之城的守护结界，窥伺宝物的忍者伺机而动！\n·请尽快重建忍者之城、招募援军并巩固防线，让桃源之城重归和平——"
+}
+
+
+_G.pg.base.gametip.eighth_tip_spring = {
+	tip = {
+		{
+			info = "活动规则：\n<color=#92fc63>9.12-10.2 24时</color>期间限时开启「啾啾温泉」\n指挥官可以邀请角色前往「啾啾温泉」，可以提高入浴角色的心情回复速度"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.eighth_spring_cost = {
+	tip = "是否消耗1个温泉手牌<icon name=eighthwenquanshoupai w=0.7 h=0.7/>扩建温泉?"
+}
+
+
+_G.pg.base.gametip.eighth_spring_not_enough = {
+	tip = "温泉手牌不足~"
+}
+
+
+_G.pg.base.gametip.ninja_game_helper = {
+	tip = {
+		{
+			info = "「激战！忍者之城！」活动说明"
+		},
+		{
+			info = "活动时间：<color=#92fc63>2025.09.12-2025.10.02 24时</color>"
+		},
+		{
+			info = "<b>1.「激战！忍者之城！」</b>\n·参与「激战！忍者之城！」可获取包括限定家具、随机外观装备、「忍者苦无」、「幻梦石」、「天原凤羽」在内的丰富奖励；\n·<b><color=#92fc63>修复建筑和招募援军将提升城市修复阶段并解锁活动剧情。</color></b>"
+		},
+		{
+			info = [[
+<b>2.「戍卫防线」</b>
+·敌人的进攻如潮水般源源不绝！
+·指挥官可在「戍卫防线」玩法中迎击来袭的敌人并获取玩法养成素材，首次击破特定波次的敌人还可获取额外奖励。指挥官可在当前波次击败至少1次敌人后前往下一波，也可以选择停留在当前波次以迎战后续袭来的无尽敌人。
+※尽可能强化戍卫增益以提升击败敌人的效率；
+※离开玩法界面或离线期间与敌人的战斗也不会停止，获得的收益将持续累积。]]
+		},
+		{
+			info = "<b>3.「城主手册」</b>\n·指挥官可在城主手册内确认当前城市修复阶段、可修复和已修复的建筑、可招募和已招募的援军，并确认当前戍卫增益等级和进行戍卫增益等级的提升"
+		},
+		{
+			info = "<b>4.「忍者夜话」</b>\n·已触发的剧情可以在忍者夜话选项或主界面回忆选项中再次观看。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.ninja_game_citylevel = {
+	tip = "城市修复阶段"
+}
+
+
+_G.pg.base.gametip.ninja_game_wave = {
+	tip = "防线迎战波数"
+}
+
+
+_G.pg.base.gametip.ninja_game_current_section = {
+	tip = "当前修复阶段"
+}
+
+
+_G.pg.base.gametip.ninja_game_buildcost = {
+	tip = "修复需消耗"
+}
+
+
+_G.pg.base.gametip.ninja_game_allycost = {
+	tip = "招募需消耗"
+}
+
+
+_G.pg.base.gametip.ninja_game_citydmg = {
+	tip = "城防伤害："
+}
+
+
+_G.pg.base.gametip.ninja_game_allydmg = {
+	tip = "援军伤害："
+}
+
+
+_G.pg.base.gametip.ninja_game_dps = {
+	tip = "每秒伤害："
+}
+
+
+_G.pg.base.gametip.ninja_game_time = {
+	tip = "击破耗时："
+}
+
+
+_G.pg.base.gametip.ninja_game_income = {
+	tip = "经济收益："
+}
+
+
+_G.pg.base.gametip.ninja_game_buffeffect = {
+	tip = "当前效果"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffcost = {
+	tip = "到下级所需"
+}
+
+
+_G.pg.base.gametip.ninja_game_levelblock = {
+	tip = "需提升城市修复阶段"
+}
+
+
+_G.pg.base.gametip.ninja_game_storydialog = {
+	tip = "*修复受损建筑或招募援军后解锁"
+}
+
+
+_G.pg.base.gametip.ninja_game_update_failed = {
+	tip = "材料不足，请完成任务或者前往戍卫防线拾取材料"
+}
+
+
+_G.pg.base.gametip.ninja_game_ptcount = {
+	tip = "经济余额："
 }

@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50088 = {
-		default_bgm = "theme-fushun-adventure",
+	ActivityShop50129 = {
+		default_bgm = "story-amahara-stage1",
 		special_bgm = "",
-		bgm = "theme-fushun-adventure"
+		bgm = "story-amahara-stage1"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2399,5 +2399,60 @@ pg.voice_bgm = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
 		bgm = "story-newsakura"
+	},
+	TianYuTianYuanURExchangePage = {
+		default_bgm = "story-amahara-stage3",
+		special_bgm = "",
+		bgm = "story-amahara-stage3"
+	},
+	TianYuTianYuanMainPage = {
+		default_bgm = "story-amahara-stage2",
+		special_bgm = "",
+		bgm = "story-amahara-stage2"
+	},
+	TianYuTianYuanPtPage = {
+		default_bgm = "story-amahara-stage1",
+		special_bgm = "",
+		bgm = "story-amahara-stage1"
+	},
+	AnniversaryEightMainPage = {
+		default_bgm = "story-ninjacity",
+		special_bgm = "",
+		bgm = "story-ninjacity"
+	},
+	EighthHotSpringScene = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	CityRebuildMapScene = {
+		default_bgm = "story-ninjacity",
+		special_bgm = "",
+		bgm = "story-ninjacity"
+	},
+	CityRebuildGameLayer = {
+		default_bgm = "sk-az-battle",
+		special_bgm = "",
+		bgm = "sk-az-battle"
+	},
+	AnniversaryEightInvitePage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightLoginJpPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightJpReturnAwardPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	TianYuTianYuanMedalAlbumView = {
+		default_bgm = "story-amahara-stage2",
+		special_bgm = "",
+		bgm = "story-amahara-stage2"
 	}
 }

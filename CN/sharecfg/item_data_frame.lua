@@ -515,11 +515,11 @@ pg.item_data_frame = {
 	},
 	[336] = {
 		name = "凤鸣天原",
-		gain_by = "",
+		gain_by = "起舞于天原之上",
 		time_second = 0,
 		id = 336,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「初至天域，忽闻凤鸣。翩然而过，响彻天原」</color>\n「起舞于天原之上」活动获取",
 		scene = {}
 	},
 	[401] = {

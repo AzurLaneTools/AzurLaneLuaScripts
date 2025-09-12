@@ -50,6 +50,7 @@ slot0.Init = function(slot0)
 		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW,
 			arg1 = {
+				blur = true,
 				tasklist = uv0.config.task_list,
 				ptId = pg.activity_template_headhunting[uv0.activity.id].pt,
 				totalPt = uv0.pt,
@@ -146,15 +147,18 @@ slot1 = function(slot0, slot1, slot2)
 		id = slot3[2],
 		count = slot3[3]
 	})
+	onButton(slot0, slot1:Find("item"), function ()
+		uv0._event:emit(BaseUI.ON_DROP, uv1)
+	end, SFX_PANEL)
 	setText(slot1:Find("desc"), slot2:getConfig("desc"))
 	setFillAmount(slot1:Find("slider"), slot2:getProgress() / slot2:getConfig("target_num"))
 	setActive(slot1:Find("go"), not slot2:isFinish())
 	setActive(slot1:Find("get"), slot2:isFinish() and not slot2:isReceive())
 	setActive(slot1:Find("got"), slot2:isReceive())
-	onButton(slot0, slot4, function ()
+	onButton(slot0, slot5, function ()
 		uv0._event:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
-	onButton(slot0, slot5, function ()
+	onButton(slot0, slot6, function ()
 		uv0._event:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 	end, SFX_PANEL)
 end

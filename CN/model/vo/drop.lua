@@ -982,6 +982,15 @@ slot0.InitSwitch = function()
 
 						getProxy(ActivityProxy):updateActivity(slot1)
 					end
+				end,
+				[102] = function ()
+					slot0 = uv0
+
+					switch(pg.activity_template[slot0:getConfig("link_id")].type, {
+						[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = function ()
+							getProxy(CityRebuildProxy):AddPt(uv0, uv1.count)
+						end
+					})
 				end
 			})
 		end,

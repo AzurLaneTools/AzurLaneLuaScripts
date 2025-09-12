@@ -12090,6 +12090,163 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101472] = {
+		name = "科技？忍术？",
+		change_skin = "",
+		desc = "这里的环境很适合进行忍者修行的拍摄呢……咳！接下来就要给指挥官展示忍术了……请、请看，忍术·变化术！嘿！",
+		illustrator2 = -1,
+		ship_group = 10147,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "molisen_3",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "320",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 101472,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "molisen_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71213,
+		voice_actor = 277,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			7,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			354,
+			-1050,
+			0,
+			1.16
+		},
+		spine_offset_profile = {
+			417,
+			-1066,
+			0,
+			1.17
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.697,
+					0.683,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.461,
+					0.938,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.822,
+							2.495,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-30,
+			-626,
+			0,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1350,
+					-873,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1038,
+					172,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					175,
+					32,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
 	[101480] = {
 		name = "{namecode:525}",
 		change_skin = "",

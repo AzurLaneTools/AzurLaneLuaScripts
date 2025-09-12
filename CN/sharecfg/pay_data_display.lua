@@ -93,6 +93,8 @@ pg.pay_data_display = setmetatable({
 		93,
 		94,
 		95,
+		96,
+		97,
 		1000,
 		1001,
 		1002,
@@ -173,6 +175,9 @@ pg.pay_data_display = setmetatable({
 		2054,
 		2055,
 		2056,
+		2057,
+		2058,
+		2059,
 		5001,
 		5002,
 		5003,
@@ -11070,6 +11075,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[96] = {
+		picture = "fudai27",
+		name = "忍者之城换装礼盒I",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "忍者之城换装礼盒I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi196",
+		extra_gem = 0,
+		id = 96,
+		airijp_id = "com.yostarjp.azurlane.diamond184",
+		name_display = "忍者之城换装礼盒I",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86217,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81217,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[97] = {
+		picture = "fudai15",
+		name = "梦幻乐园换装礼盒I复刻",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "梦幻乐园换装礼盒I复刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi197",
+		extra_gem = 0,
+		id = 97,
+		airijp_id = "com.yostarjp.azurlane.diamond185",
+		name_display = "梦幻乐园换装礼盒I复刻",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86206,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81206,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证",
@@ -17965,6 +18238,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40064,
+				1
+			}
+		}
+	},
+	[2057] = {
+		picture = "ui6",
+		name = "忍者之城主题礼包",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 忍者之城*1",
+		subject = "忍者之城主题礼包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 78,
+		descrip_extra = "此处不会被看到",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui15",
+		extra_gem = 0,
+		id = 2057,
+		airijp_id = "com.yostarjp.azurlane.ui15",
+		name_display = "忍者之城主题礼包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2058] = {
+		picture = "ui6",
+		name = "忍者之城主题礼包(基础版)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 忍者之城*1,1000物资",
+		subject = "忍者之城主题礼包(基础版)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 78,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui16",
+		extra_gem = 0,
+		id = 2058,
+		airijp_id = "com.yostarjp.azurlane.ui16",
+		name_display = "忍者之城主题礼包(基础版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40065,
+				1
+			}
+		}
+	},
+	[2059] = {
+		picture = "ui6",
+		name = "忍者之城主题礼包(豪华版)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 忍者之城*1,3060钻石",
+		subject = "忍者之城主题礼包(豪华版)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 258,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui17",
+		extra_gem = 0,
+		id = 2059,
+		airijp_id = "com.yostarjp.azurlane.ui17",
+		name_display = "忍者之城主题礼包(豪华版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40066,
 				1
 			}
 		}

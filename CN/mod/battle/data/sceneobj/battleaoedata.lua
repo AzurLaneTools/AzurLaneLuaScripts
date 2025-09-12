@@ -268,7 +268,7 @@ slot2.AppendComponent = function(slot0, slot1)
 end
 
 slot2.InitCldComponent = function(slot0)
-	if slot0._areaType == uv0.AreaType.CUBE then
+	if slot0._areaType == uv0.AreaType.CUBE or slot0._areaType == uv0.AreaType.ELLIPSE then
 		slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot0._width, slot0._tickness, slot0._height, 0, 0)
 	elseif slot0._areaType == uv0.AreaType.COLUMN then
 		slot0._cldComponent = uv1.Battle.BattleColumnCldComponent.New(slot0._range, slot0._tickness)

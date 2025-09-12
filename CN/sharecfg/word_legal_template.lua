@@ -5218,6 +5218,16 @@ end
 temp()
 
 temp = function()
+	uv0["杪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["貊"] = {
 		this = {
 			this = true
@@ -5345,6 +5355,16 @@ temp()
 
 temp = function()
 	uv0["狑"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鼯"] = {
 		this = {
 			this = true
 		}
@@ -5556,6 +5576,16 @@ temp()
 
 temp = function()
 	uv0["猃"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["猏"] = {
 		this = {
 			this = true
 		}
@@ -5811,6 +5841,16 @@ temp()
 
 temp = function()
 	uv0["鲪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鳉"] = {
 		this = {
 			this = true
 		}
@@ -6086,6 +6126,16 @@ end
 temp()
 
 temp = function()
+	uv0["䳆"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["衣"] = {
 		["玖"] = {
 			this = true
@@ -6149,6 +6199,18 @@ temp = function()
 	uv0["十"] = {
 		["纱"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["诗"] = {
+		["玲"] = {
+			["寺"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -8204,6 +8266,24 @@ temp = function()
 				["亲"] = {
 					["王"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["云"] = {
+		["仙"] = {
+			["（"] = {
+				["后"] = {
+					["排"] = {
+						["）"] = {
+							this = true
+						}
 					}
 				}
 			}

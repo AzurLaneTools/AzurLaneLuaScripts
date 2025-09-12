@@ -73,6 +73,7 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.changeIndex = ShipSkin.GetChangeSkinIndex(slot1)
 	slot0.changeState = ShipSkin.GetChangeSkinState(slot1)
 	slot0.changAction = ShipSkin.GetChangeSkinAction(slot1)
+	slot0.delayIn = ShipSkin.GetChangeSkinCustomDataId(slot1, "delay_in")
 
 	if slot0.changeState == uv0 then
 		slot0._loadObjectName = "changeskin/" .. slot0.changAction
@@ -111,7 +112,11 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	elseif slot0.changeState == uv2 then
 		-- Nothing
 	elseif slot0.changeState == uv3 then
-		slot0._loadObjectName = "changeskin/changeempty"
+		if slot0.changAction and #slot0.changAction > 0 then
+			slot0._loadObjectName = "changeskin/" .. slot0.changAction
+		else
+			slot0._loadObjectName = "changeskin/changeempty"
+		end
 
 		PoolMgr.GetInstance():GetPrefab(slot0._loadObjectName, "", true, function (slot0)
 			uv0._go:SetActive(true)
@@ -136,7 +141,16 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 					uv0()
 				end
 
-				uv1:finish(uv2)
+				if uv1.delayIn then
+					uv1:finish(nil)
+					onDelayTick(function ()
+						if uv0 then
+							uv0()
+						end
+					end, uv1.delayIn)
+				else
+					uv1:finish(uv2)
+				end
 			end)
 		end)
 	end

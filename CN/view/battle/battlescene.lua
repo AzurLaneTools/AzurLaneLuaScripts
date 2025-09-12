@@ -269,7 +269,7 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot21[slot19] = false
-			slot9.position = slot16
+			slot9.position = Vector3(slot16.x, slot16.y, -2)
 			slot9.anchoredPosition.y = slot20[slot19]
 
 			if slot13 == ys.Battle.BattleConfig.FOE_CODE then

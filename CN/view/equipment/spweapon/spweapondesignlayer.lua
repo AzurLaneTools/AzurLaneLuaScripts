@@ -61,7 +61,7 @@ end
 
 slot0.SetParentTF = function(slot0, slot1)
 	slot0.parentTF = slot1
-	slot0.equipmentView = slot0:findTF("equipment_scrollview", slot0.parentTF)
+	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview", slot0.parentTF)
 
 	setActive(slot0.equipmentView, false)
 end

@@ -201,6 +201,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[205] = {
+		name = "忍者之城",
+		key = "SkinElite_20250912",
+		display_icon = "ui_205",
+		unlock = "忍者之城战斗主题礼包获取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "该界面专为喜欢忍者风格的指挥官准备，使用手里剑与飞镖在忍者之城大显身手吧。",
+		id = 205,
+		icon = "205",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -214,6 +231,7 @@ pg.item_data_battleui = {
 		201,
 		202,
 		203,
-		204
+		204,
+		205
 	}
 }

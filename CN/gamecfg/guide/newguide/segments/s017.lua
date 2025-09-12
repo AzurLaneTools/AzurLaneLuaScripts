@@ -127,7 +127,7 @@ return {
 			},
 			ui = {
 				pathIndex = 0,
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/equipment_scrollview/equipment_grid",
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/adapt/equipment_scrollview/equipment_grid",
 				triggerType = {
 					1
 				},

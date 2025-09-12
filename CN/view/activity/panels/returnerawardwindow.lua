@@ -34,6 +34,7 @@ slot1 = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.Show = function(slot0, slot1)
+	slot0.blur = slot1.blur
 	slot7 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot1.resId
@@ -49,6 +50,10 @@ slot0.Show = function(slot0, slot1)
 	slot0.totalTitleTxt.text = slot0.cntTitle
 
 	setActive(slot0._tf, true)
+
+	if slot0.blur then
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	end
 end
 
 return slot0

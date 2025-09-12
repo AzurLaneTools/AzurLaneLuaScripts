@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 5957
+		act_id = 50113
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -1148,5 +1148,14 @@ pg.activity_const = {
 	},
 	YUMIA_EXPEDITION_BUFF_ACT_ID = {
 		act_id = 50065
+	},
+	NINJA_CITY_ACT_ID = {
+		act_id = 50116
+	},
+	NINJA_CITY_SP_TASK = {
+		act_id = 50133
+	},
+	NINJA_CITY_NORMAL_ACTIVITY_TASK = {
+		act_id = 50134
 	}
 }

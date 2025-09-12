@@ -134,6 +134,9 @@ slot0.getProgress = function(slot0)
 			end) then
 				return 1
 			end
+		end,
+		[TASK_SUB_TYPE_JOIN_GUILD] = function ()
+			return getProxy(GuildProxy):getData() and 1 or 0
 		end
 	}, function ()
 		return uv0.progress

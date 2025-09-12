@@ -1862,6 +1862,55 @@ pg.name_code = {
 		code = "椿·META",
 		nation = 0
 	},
+	[302] = {
+		name = "白凤",
+		type = 1,
+		id = 302,
+		code = "䳆",
+		nation = 0
+	},
+	[303] = {
+		name = "伊404",
+		type = 1,
+		id = 303,
+		code = "诗玲寺",
+		nation = 0
+	},
+	[304] = {
+		name = "近江",
+		type = 1,
+		id = 304,
+		code = "鳉",
+		nation = 0
+	},
+	[305] = {
+		name = "浅间",
+		type = 1,
+		id = 305,
+		code = "猏",
+		nation = 0
+	},
+	[306] = {
+		name = "水无濑",
+		type = 1,
+		id = 306,
+		code = "鼯",
+		nation = 0
+	},
+	[307] = {
+		name = "妙风",
+		type = 1,
+		id = 307,
+		code = "杪",
+		nation = 0
+	},
+	[308] = {
+		name = "潜特型",
+		type = 1,
+		id = 308,
+		code = "ST型",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

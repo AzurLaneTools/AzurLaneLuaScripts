@@ -8,21 +8,23 @@ slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("operate")
 	slot0.ulist = UIItemList.New(slot1:Find("got/bottom/list"), slot1:Find("got/bottom/list/tpl"))
-	slot0.confirmBtn = slot1:Find("action/confirm")
+	slot0.confirmBtn = slot1:Find("actions/confirm")
+	slot3 = slot0.confirmBtn
 
-	setText(slot0.confirmBtn, i18n("text_confirm"))
+	setText(slot3:Find("Image"), i18n("text_confirm"))
 
-	slot0.cancelBtn = slot1:Find("action/cancel")
+	slot0.cancelBtn = slot1:Find("actions/cancel")
+	slot3 = slot0.cancelBtn
 
-	setText(slot0.cancelBtn, i18n("text_cancel"))
+	setText(slot3:Find("Image"), i18n("text_cancel"))
 
 	slot0.rightArr = slot1:Find("calc/value_bg/add")
 	slot0.leftArr = slot1:Find("calc/value_bg/mius")
 	slot0.maxBtn = slot1:Find("calc/max")
 	slot0.valueText = slot1:Find("calc/value_bg/Text")
-	slot0.itemTF = slot1:Find("item/left/IconTpl")
-	slot0.nameTF = slot0:findTF("item/display_panel/name_container/name")
-	slot0.descTF = slot0:findTF("item/display_panel/desc/Text")
+	slot0.itemTF = slot1:Find("item")
+	slot0.nameTF = slot1:Find("item/display_panel/name_container/name/Text")
+	slot0.descTF = slot1:Find("item/display_panel/desc/Text")
 	slot4 = slot0._tf
 
 	onButton(slot0, slot4:Find("bg"), function ()
@@ -92,7 +94,7 @@ slot0.updateValue = function(slot0)
 			return
 		end
 
-		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
+		setText(slot1:Find("item/icon_bg/count"), uv0.count)
 	end)
 end
 
@@ -113,9 +115,9 @@ slot0.update = function(slot0, slot1)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2:Find("item/bg"), uv0.displayDrops[slot1])
+			updateDrop(slot2:Find("item"), uv0.displayDrops[slot1])
 
-			slot3 = slot2:Find("item/bg/icon_bg/count")
+			slot3 = slot2:Find("item/icon_bg/count")
 
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
@@ -135,11 +137,11 @@ slot0.update = function(slot0, slot1)
 	triggerToggle(slot0.selectedItem, true)
 	slot0:updateValue()
 
-	slot2 = {
+	slot2 = Drop.New({
 		type = slot1.type,
 		id = slot1.id,
 		count = slot1.count
-	}
+	})
 
 	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
 		count = 0

@@ -82,6 +82,12 @@ slot2 = function(slot0, slot1)
 	end
 
 	slot0._skeletonGraphic = slot0.mainSpineAnim:GetComponent("SkeletonGraphic")
+
+	slot0.updateLocal = function()
+		uv0:onUpdateLocal()
+	end
+
+	slot0._skeletonGraphic.UpdateLocal = slot0._skeletonGraphic.UpdateLocal + slot0.updateLocal
 	slot0._baseMaterial = slot0._skeletonGraphic.material
 	slot0._idleName = slot0:getNormalIdleName()
 	slot0.shipDragData = SpinePaintingConst.ship_drag_datas[slot0._spinePaintingData:GetShipName()]
@@ -91,6 +97,7 @@ slot2 = function(slot0, slot1)
 	if slot0.shipDragData then
 		slot0.dragShipFlag = slot0.shipDragData.drag_data and slot0.shipDragData.drag_data.type
 		slot0.lockLayer = slot0.shipDragData.drag_data.lock_layer
+		slot0.replaceWord = slot0.shipDragData.replace_word
 	end
 
 	slot0.multipleFaceFlag = false
@@ -156,10 +163,57 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 		uv0._initFlag = true
 
+		uv0:updateLink()
+
 		if uv1 then
 			uv1(uv0)
 		end
 	end)
+end
+
+slot0.updateLink = function(slot0)
+	slot0.slotOverride = {}
+
+	if ChangeSkinLink.CHANGE_SKIN_LINK_DATA[slot0._spinePaintingData.ship:getSkinId()] then
+		slot3 = slot2.link_id
+		slot4 = slot2.relations
+
+		if slot2.link_type == ChangeSkinLink.L2D_TYPE then
+			slot6 = nil
+			slot6 = (PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 or ChangeSkinLink.GetSaveL2dData(slot0._spinePaintingData.ship.id, slot3)) and ChangeSkinLink.L2D_PARAMETER_DIC[slot0._spinePaintingData.ship.id] or {}
+
+			for slot10, slot11 in ipairs(slot4) do
+				if slot11.type == ChangeSkinLink.change_parameter_link_slot then
+					slot13 = true
+					slot15 = slot11.slot_list
+
+					for slot19, slot20 in ipairs(slot11.link_parameter) do
+						if (slot6[slot20.name] and slot6[slot21] or 0) ~= slot20.num then
+							slot13 = false
+						end
+					end
+
+					if slot13 then
+						for slot19, slot20 in ipairs(slot15) do
+							table.insert(slot0.slotOverride, slot20)
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+slot0.setL2dSlot = function(slot0, slot1, slot2)
+	slot0._skeletonGraphic.Skeleton:SetAttachment(slot1, slot2)
+end
+
+slot0.onUpdateLocal = function(slot0)
+	if slot0.slotOverride then
+		for slot4, slot5 in ipairs(slot0.slotOverride) do
+			slot0:setL2dSlot(slot5[1], slot5[2])
+		end
+	end
 end
 
 slot0.SetVisible = function(slot0, slot1)
@@ -190,6 +244,8 @@ slot0.SetVisible = function(slot0, slot1)
 		end
 
 		slot0._displayWord = false
+	else
+		slot0._skeletonGraphic:Update(Time.deltaTime)
 	end
 
 	slot0:playPaintingInitIdle()
@@ -232,15 +288,26 @@ slot0.setIdleName = function(slot0, slot1)
 	slot0:updateHitArea()
 end
 
+slot0.getReplaceWord = function(slot0)
+	if slot0.replaceWord and table.contains(slot0.replaceWord, slot0._idleName) then
+		return true
+	end
+
+	return false
+end
+
 slot0.updateHitArea = function(slot0)
 	if slot0.dragShipFlag then
 		slot2 = slot0.shipDragData.drag_data.config_client
 
 		if slot0.shipDragData.drag_data.type == SpinePaintingConst.drag_type_normal then
 			for slot6 = 1, #slot2 do
-				if slot2[slot6].hit then
+				slot7 = slot2[slot6]
+				slot9 = slot7.active
+
+				if slot7.hit and not slot9 then
 					if findTF(slot0._tf, "hitArea/" .. slot8) then
-						setActive(slot9, slot7.idle == slot0._idleName)
+						setActive(slot10, slot7.idle == slot0._idleName)
 					else
 						print("hit area " .. slot8 .. "is not exist")
 					end
@@ -266,7 +333,7 @@ slot0.displayWord = function(slot0, slot1)
 	slot0._displayWord = slot1
 end
 
-slot0.readyDragAction = function(slot0, slot1)
+slot0.readyDragAction = function(slot0, slot1, slot2)
 	if slot0.inAction or slot0._displayWord then
 		return false
 	end
@@ -309,7 +376,14 @@ end
 
 slot0.doDragAction = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3.change_idle
-	slot5 = slot3.action
+	slot5 = nil
+
+	if type(slot3.action) == "string" then
+		slot5 = slot3.action
+	elseif type(slot3.action) == "table" then
+		slot5 = slot3.action[math.random(1, #slot3.action)]
+	end
+
 	slot6 = slot3.event
 	slot7 = slot3.fold
 	slot8 = slot3.effect_hide
@@ -546,6 +620,10 @@ slot0.getAnimationExist = function(slot0, slot1)
 end
 
 slot0.SetEmptyAction = function(slot0, slot1)
+	if not slot0.spineAnimList then
+		return
+	end
+
 	for slot5, slot6 in ipairs(slot0.spineAnimList) do
 		if slot6:GetAnimationState() then
 			slot7:SetEmptyAnimation(slot1, 0)
@@ -556,6 +634,13 @@ end
 
 slot0.GetSpineTrasform = function(slot0)
 	return slot0._tf
+end
+
+slot0.SetSkin = function(slot0, slot1)
+	if slot0._skeletonGraphic and slot0._skeletonGraphic.SkeletonData and slot0._skeletonGraphic.SkeletonData:FindSkin(slot1) ~= nil then
+		slot0._skeletonGraphic.Skeleton:SetSkin(slot1)
+		slot0._skeletonGraphic.Skeleton:SetSlotsToSetupPose()
+	end
 end
 
 slot0.getMultipFaceAction = function(slot0, slot1)
@@ -572,6 +657,11 @@ end
 
 slot0.Dispose = function(slot0)
 	slot0._materialDic = {}
+
+	if slot0.updateLocal then
+		slot0._skeletonGraphic.UpdateLocal = slot0._skeletonGraphic.UpdateLocal - slot0.updateLocal
+		slot0.updateLocal = nil
+	end
 
 	if slot0._spinePaintingData then
 		slot0._spinePaintingData:Clear()

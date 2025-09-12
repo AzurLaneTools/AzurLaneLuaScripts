@@ -71,6 +71,7 @@ slot0.Show = function(slot0, slot1)
 	slot0.ptId = slot1.ptId
 	slot0.totalPt = slot1.totalPt
 	slot0.index = slot1.index or 1
+	slot0.blur = slot1.blur
 
 	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
 	uv0(slot0)
@@ -79,6 +80,10 @@ slot0.Show = function(slot0, slot1)
 	slot0.totalTitleTxt.text = i18n("award_window_pt_title")
 
 	setActive(slot0._tf, true)
+
+	if slot0.blur then
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	end
 end
 
 return slot0

@@ -510,4 +510,14 @@ slot0.GetGroupPayCount = function(slot0, slot1)
 	return 0
 end
 
+slot0.SpecialBannerBlockCheck = function(slot0, slot1)
+	if not LOCK_SHOP_BANNER_US then
+		return true
+	end
+
+	slot2, slot3 = unpack(getGameset("levellimit_shopbanner"))
+
+	return slot2 <= slot1.level or slot0.name ~= "banner_big" or table.contains(slot3, slot0.id)
+end
+
 return slot0

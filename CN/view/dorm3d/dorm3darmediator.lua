@@ -10,7 +10,8 @@ slot0.register = function(slot0)
 			viewComponent = Dorm3dPhotoARLayer,
 			data = {
 				roomId = uv0.contextData.roomId,
-				groupId = uv0.contextData.groupId
+				groupId = uv0.contextData.groupId,
+				arCheckState = uv0.contextData.ARCheckState
 			}
 		}))
 	end)
