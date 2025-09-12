@@ -31383,156 +31383,156 @@ cs.gametip = {
 	},
 	activity_ninjia_main_sheet1 = {
 		1161665,
-		118,
+		103,
 		true
 	},
 	activity_ninjia_main_sheet2 = {
-		1161783,
+		1161768,
 		102,
 		true
 	},
 	activity_ninjia_main_sheet3 = {
-		1161885,
+		1161870,
 		101,
 		true
 	},
 	activity_ninjia_main_sheet4 = {
-		1161986,
+		1161971,
 		99,
 		true
 	},
 	activity_return_reward_pt = {
-		1162085,
+		1162070,
 		106,
 		true
 	},
 	outpost_20250904_Sidebar1 = {
-		1162191,
+		1162176,
 		99,
 		true
 	},
 	outpost_20250904_Sidebar2 = {
-		1162290,
+		1162275,
 		98,
 		true
 	},
 	outpost_20250904_Sidebar3 = {
-		1162388,
+		1162373,
 		100,
 		true
 	},
 	anniversary_eight_main_page_desc = {
-		1162488,
+		1162473,
 		319,
 		true
 	},
 	eighth_tip_spring = {
-		1162807,
+		1162792,
 		289,
 		true
 	},
 	eighth_spring_cost = {
-		1163096,
+		1163081,
 		183,
 		true
 	},
 	eighth_spring_not_enough = {
-		1163279,
+		1163264,
 		113,
 		true
 	},
 	ninja_game_helper = {
-		1163392,
+		1163377,
 		1822,
 		true
 	},
 	ninja_game_citylevel = {
-		1165214,
+		1165199,
 		99,
 		true
 	},
 	ninja_game_wave = {
-		1165313,
+		1165298,
 		91,
 		true
 	},
 	ninja_game_current_section = {
-		1165404,
+		1165389,
 		114,
 		true
 	},
 	ninja_game_buildcost = {
-		1165518,
+		1165503,
 		95,
 		true
 	},
 	ninja_game_allycost = {
-		1165613,
+		1165598,
 		99,
 		true
 	},
 	ninja_game_citydmg = {
-		1165712,
+		1165697,
 		98,
 		true
 	},
 	ninja_game_allydmg = {
-		1165810,
+		1165795,
 		95,
 		true
 	},
 	ninja_game_dps = {
-		1165905,
+		1165890,
 		96,
 		true
 	},
 	ninja_game_time = {
-		1166001,
+		1165986,
 		93,
 		true
 	},
 	ninja_game_income = {
-		1166094,
+		1166079,
 		90,
 		true
 	},
 	ninja_game_buffeffect = {
-		1166184,
+		1166169,
 		97,
 		true
 	},
 	ninja_game_buffcost = {
-		1166281,
+		1166266,
 		96,
 		true
 	},
 	ninja_game_levelblock = {
-		1166377,
+		1166362,
 		107,
 		true
 	},
 	ninja_game_storydialog = {
-		1166484,
+		1166469,
 		135,
 		true
 	},
 	ninja_game_update_failed = {
-		1166619,
+		1166604,
 		166,
 		true
 	},
 	ninja_game_ptcount = {
-		1166785,
+		1166770,
 		92,
 		true
 	},
 	ninja_game_cant_pickup = {
-		1166877,
+		1166862,
 		108,
 		true
 	},
 	ninja_game_booktip = {
-		1166985,
+		1166970,
 		164,
 		true
 	}
