@@ -7072,6 +7072,7 @@ pg.base.ship_skin_template_9 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {

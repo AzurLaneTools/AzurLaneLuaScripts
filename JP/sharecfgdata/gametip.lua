@@ -40949,12 +40949,12 @@ _G.pg.base.gametip.ninja_buff_name10 = {
 
 
 _G.pg.base.gametip.ninja_buff_effect1 = {
-	tip = "登場キャラが与える\nダメージが$1%アップ"
+	tip = "登場キャラの\n与えるダメージ+$1%"
 }
 
 
 _G.pg.base.gametip.ninja_buff_effect2 = {
-	tip = "登場キャラが与える\nダメージが$1アップ"
+	tip = "登場キャラの\n与えるダメージ+$1"
 }
 
 
@@ -40964,7 +40964,7 @@ _G.pg.base.gametip.ninja_buff_effect3 = {
 
 
 _G.pg.base.gametip.ninja_buff_effect4 = {
-	tip = "忍者コイン\n入手量が$1%アップ"
+	tip = "忍者コイン\n入手量+$1%"
 }
 
 
@@ -40974,22 +40974,22 @@ _G.pg.base.gametip.ninja_buff_effect5 = {
 
 
 _G.pg.base.gametip.ninja_buff_effect6 = {
-	tip = "強化に必要な忍者コイン\n消費量が$1%ダウン"
+	tip = "強化に必要な忍者コイン、消費量が$1%ダウン"
 }
 
 
 _G.pg.base.gametip.ninja_buff_effect7 = {
-	tip = "防御施設が与える\nダメージが$1アップ"
+	tip = "防御施設の\n与ダメージ+$1"
 }
 
 
 _G.pg.base.gametip.ninja_buff_effect8 = {
-	tip = "防御施設が与える\nダメージが$1％アップ"
+	tip = "防御施設の\n与ダメージ+$1%"
 }
 
 
 _G.pg.base.gametip.ninja_buff_effect9 = {
-	tip = "防御施設が与える\nダメージが$1％アップ"
+	tip = "防御施設の\n与ダメージ+$1%"
 }
 
 

@@ -31013,216 +31013,216 @@ cs.gametip = {
 	},
 	ninja_buff_effect1 = {
 		1255919,
-		138,
+		126,
 		true
 	},
 	ninja_buff_effect2 = {
-		1256057,
-		137,
+		1256045,
+		125,
 		true
 	},
 	ninja_buff_effect3 = {
-		1256194,
+		1256170,
 		99,
 		true
 	},
 	ninja_buff_effect4 = {
-		1256293,
-		122,
+		1256269,
+		111,
 		true
 	},
 	ninja_buff_effect5 = {
-		1256415,
+		1256380,
 		167,
 		true
 	},
 	ninja_buff_effect6 = {
-		1256582,
-		141,
+		1256547,
+		143,
 		true
 	},
 	ninja_buff_effect7 = {
-		1256723,
-		134,
+		1256690,
+		116,
 		true
 	},
 	ninja_buff_effect8 = {
-		1256857,
-		137,
+		1256806,
+		117,
 		true
 	},
 	ninja_buff_effect9 = {
-		1256994,
-		137,
+		1256923,
+		117,
 		true
 	},
 	ninja_buff_effect10 = {
-		1257131,
+		1257040,
 		162,
 		true
 	},
 	activity_ninjia_main_title = {
-		1257293,
+		1257202,
 		102,
 		true
 	},
 	activity_ninjia_main_title_en = {
-		1257395,
+		1257304,
 		98,
 		true
 	},
 	activity_ninjia_main_sheet1 = {
-		1257493,
+		1257402,
 		112,
 		true
 	},
 	activity_ninjia_main_sheet2 = {
-		1257605,
+		1257514,
 		115,
 		true
 	},
 	activity_ninjia_main_sheet3 = {
-		1257720,
+		1257629,
 		100,
 		true
 	},
 	activity_ninjia_main_sheet4 = {
-		1257820,
+		1257729,
 		106,
 		true
 	},
 	activity_return_reward_pt = {
-		1257926,
+		1257835,
 		109,
 		true
 	},
 	outpost_20250904_Sidebar1 = {
-		1258035,
+		1257944,
 		116,
 		true
 	},
 	outpost_20250904_Sidebar2 = {
-		1258151,
+		1258060,
 		104,
 		true
 	},
 	outpost_20250904_Sidebar3 = {
-		1258255,
+		1258164,
 		97,
 		true
 	},
 	anniversary_eight_main_page_desc = {
-		1258352,
+		1258261,
 		335,
 		true
 	},
 	eighth_tip_spring = {
-		1258687,
+		1258596,
 		321,
 		true
 	},
 	eighth_spring_cost = {
-		1259008,
+		1258917,
 		187,
 		true
 	},
 	eighth_spring_not_enough = {
-		1259195,
+		1259104,
 		124,
 		true
 	},
 	ninja_game_helper = {
-		1259319,
+		1259228,
 		1961,
 		true
 	},
 	ninja_game_citylevel = {
-		1261280,
+		1261189,
 		99,
 		true
 	},
 	ninja_game_wave = {
-		1261379,
+		1261288,
 		97,
 		true
 	},
 	ninja_game_current_section = {
-		1261476,
+		1261385,
 		111,
 		true
 	},
 	ninja_game_buildcost = {
-		1261587,
+		1261496,
 		96,
 		true
 	},
 	ninja_game_allycost = {
-		1261683,
+		1261592,
 		95,
 		true
 	},
 	ninja_game_citydmg = {
-		1261778,
+		1261687,
 		103,
 		true
 	},
 	ninja_game_allydmg = {
-		1261881,
+		1261790,
 		103,
 		true
 	},
 	ninja_game_dps = {
-		1261984,
+		1261893,
 		99,
 		true
 	},
 	ninja_game_time = {
-		1262083,
+		1261992,
 		94,
 		true
 	},
 	ninja_game_income = {
-		1262177,
+		1262086,
 		99,
 		true
 	},
 	ninja_game_buffeffect = {
-		1262276,
+		1262185,
 		97,
 		true
 	},
 	ninja_game_buffcost = {
-		1262373,
+		1262282,
 		104,
 		true
 	},
 	ninja_game_levelblock = {
-		1262477,
+		1262386,
 		106,
 		true
 	},
 	ninja_game_storydialog = {
-		1262583,
+		1262492,
 		123,
 		true
 	},
 	ninja_game_update_failed = {
-		1262706,
+		1262615,
 		167,
 		true
 	},
 	ninja_game_ptcount = {
-		1262873,
+		1262782,
 		100,
 		true
 	},
 	ninja_game_cant_pickup = {
-		1262973,
+		1262882,
 		125,
 		true
 	},
 	ninja_game_booktip = {
-		1263098,
+		1263007,
 		173,
 		true
 	}
