@@ -31443,96 +31443,96 @@ cs.gametip = {
 	},
 	ninja_game_helper = {
 		1163392,
-		1814,
+		1822,
 		true
 	},
 	ninja_game_citylevel = {
-		1165206,
+		1165214,
 		99,
 		true
 	},
 	ninja_game_wave = {
-		1165305,
+		1165313,
 		91,
 		true
 	},
 	ninja_game_current_section = {
-		1165396,
+		1165404,
 		114,
 		true
 	},
 	ninja_game_buildcost = {
-		1165510,
+		1165518,
 		95,
 		true
 	},
 	ninja_game_allycost = {
-		1165605,
+		1165613,
 		99,
 		true
 	},
 	ninja_game_citydmg = {
-		1165704,
+		1165712,
 		98,
 		true
 	},
 	ninja_game_allydmg = {
-		1165802,
+		1165810,
 		95,
 		true
 	},
 	ninja_game_dps = {
-		1165897,
+		1165905,
 		96,
 		true
 	},
 	ninja_game_time = {
-		1165993,
+		1166001,
 		93,
 		true
 	},
 	ninja_game_income = {
-		1166086,
+		1166094,
 		90,
 		true
 	},
 	ninja_game_buffeffect = {
-		1166176,
+		1166184,
 		97,
 		true
 	},
 	ninja_game_buffcost = {
-		1166273,
+		1166281,
 		96,
 		true
 	},
 	ninja_game_levelblock = {
-		1166369,
+		1166377,
 		107,
 		true
 	},
 	ninja_game_storydialog = {
-		1166476,
+		1166484,
 		135,
 		true
 	},
 	ninja_game_update_failed = {
-		1166611,
+		1166619,
 		166,
 		true
 	},
 	ninja_game_ptcount = {
-		1166777,
+		1166785,
 		92,
 		true
 	},
 	ninja_game_cant_pickup = {
-		1166869,
+		1166877,
 		108,
 		true
 	},
 	ninja_game_booktip = {
-		1166977,
+		1166985,
 		164,
 		true
 	}

@@ -96,7 +96,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "Sky Realm Amahara is a prison.",
+			say = "The Sky Realm of Amahara is a prison.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

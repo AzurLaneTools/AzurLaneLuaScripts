@@ -49,7 +49,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "Sky Realm Amahara, as a project, was devised for that very purpose.",
+			say = "The Sky Realm of Amahara, as a project, was devised for that very purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "I have no evidence for this, but I feel like Sky Realm Amahara went into a different direction as soon as the Stones appeared.",
+			say = "I have no evidence for this, but I feel like Amahara went into a different direction as soon as the stones appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "What is clear is that someone unrelated has become involved in Sky Realm Amahara's growth.",
+			say = "What is clear is that someone unrelated has become involved in Amahara's growth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

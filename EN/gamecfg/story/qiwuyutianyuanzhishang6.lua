@@ -18,7 +18,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"Sky Realm Amahara - The Amahara Cloudsea",
+				"The Sky Realm of Amahara - The Amahara Cloudsea",
 				3
 			},
 			flashout = {
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
-			say = "(Yeah, it's done. I've left Ama no Tobira and I'm now in Sky Realm Amahara.)",
+			say = "(Yeah, it's done. I've  left Ama no Tobira and I'm now in Amahara.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

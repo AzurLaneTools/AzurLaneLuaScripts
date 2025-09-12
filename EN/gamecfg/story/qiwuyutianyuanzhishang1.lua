@@ -1366,7 +1366,7 @@ return {
 					4
 				},
 				{
-					"\"The Sky Realm – a wall against the world beyond\"",
+					"\"The Sky Realm – it formeth a wall against the world beyond\"",
 					4.5
 				},
 				{

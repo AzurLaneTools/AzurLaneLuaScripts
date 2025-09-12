@@ -18,7 +18,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"Sky Realm Amahara - Amahara Castle",
+				"The Sky Realm of Amahara - Amahara Castle",
 				3
 			},
 			flashout = {
