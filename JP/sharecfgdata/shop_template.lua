@@ -61707,7 +61707,7 @@ _G.pg.base.shop_template[70936] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 20,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -61726,8 +61726,8 @@ _G.pg.base.shop_template[70936] = {
 		{
 			{
 				2025,
-				2,
-				27
+				9,
+				12
 			},
 			{
 				0,
@@ -61738,8 +61738,8 @@ _G.pg.base.shop_template[70936] = {
 		{
 			{
 				2025,
-				3,
-				12
+				10,
+				2
 			},
 			{
 				23,

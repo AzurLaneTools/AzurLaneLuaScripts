@@ -103594,9 +103594,9 @@ _G.pg.base.item_data_statistics[59854] = {
 
 _G.pg.base.item_data_statistics[59855] = {
 	open_directly = 0,
-	name = "八周年纪念币",
+	name = "8周年記念コイン",
 	type = 1,
-	display = "八周年活动「TH8纪念签到」获取——八方碧海，大小通吃",
+	display = "「アズールレーン」配信8周年の記念アイテム",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",

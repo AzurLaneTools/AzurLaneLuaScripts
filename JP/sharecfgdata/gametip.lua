@@ -40959,7 +40959,7 @@ _G.pg.base.gametip.ninja_buff_effect2 = {
 
 
 _G.pg.base.gametip.ninja_buff_effect3 = {
-	tip = "敵の\n耐久が$1%ダウン"
+	tip = "敵の\n耐久-$1%"
 }
 
 
@@ -41182,10 +41182,10 @@ _G.pg.base.gametip.ninja_game_ptcount = {
 
 
 _G.pg.base.gametip.ninja_game_cant_pickup = {
-	tip = "暂无可拾取的奖励"
+	tip = "入手できる報酬はありません"
 }
 
 
 _G.pg.base.gametip.ninja_game_booktip = {
-	tip = "*在「城主手册」中招募援军、修复建筑可推进城市修复阶段。"
+	tip = "※「城主の巻」で援軍要請・施設修復すると修復進捗を進められる"
 }

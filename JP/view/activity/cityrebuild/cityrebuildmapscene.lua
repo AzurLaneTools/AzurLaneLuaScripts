@@ -83,18 +83,19 @@ slot0.Refresh = function(slot0)
 		id = slot2[2],
 		count = slot2[3]
 	})
+	setActive(slot0.award:Find("got"), slot1:isFinish())
 
-	slot7 = function()
+	slot8 = function()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end
 
-	onButton(slot0, slot0.award, slot7, SFX_PANEL)
+	onButton(slot0, slot0.award, slot8, SFX_PANEL)
 	slot0:SetCharaList()
 	slot0:SetBuildingList()
 	slot0:SetStoryList()
 
-	for slot7 = 2, 5 do
-		setActive(slot0._tf:Find("bg/" .. slot7), slot0.cityRebuildData.cityLevel < slot7)
+	for slot8 = 2, 5 do
+		setActive(slot0._tf:Find("bg/" .. slot8), slot0.cityRebuildData.cityLevel < slot8)
 	end
 
 	setActive(slot0.bookBtn:Find("tip"), CityRebuildBookLayer.ShouldShowTip())
@@ -116,7 +117,7 @@ slot0.SetCharaList = function(slot0)
 
 				slot2.anchoredPosition = Vector2(slot7[1], slot7[2])
 
-				setText(slot2:Find("name/Text"), slot5 and slot4.name[2] or slot4.name[1])
+				setActive(slot2:Find("name"), false)
 			end
 		end
 	end)
