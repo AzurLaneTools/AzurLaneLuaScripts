@@ -360,6 +360,10 @@ slot0.execute = function(slot0, slot1)
 		end
 
 		pg.SdkMgr.GetInstance():QueryPendingTransaction()
+
+		if ISLAND_PLAYER_TESTING then
+			pg.WatermarkingMgr.GetInstance():Init(slot2)
+		end
 	end, nil, 60)
 end
 

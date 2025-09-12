@@ -38,7 +38,12 @@ slot0.OnDestroy = function(slot0)
 	slot0:unBlurView()
 
 	slot0.prevBtn = nil
-	slot0.page = nil
+
+	if slot0.page then
+		slot0.page:StopBGM()
+
+		slot0.page = nil
+	end
 
 	slot0:DestroyResItemList()
 
@@ -54,16 +59,23 @@ slot0.initUI = function(slot0)
 	slot0.scrollContent = slot0:findTF("scroll/content")
 	slot0.scrollRectTF = GetComponent(slot0.scrollContent, typeof(RectTransform))
 	slot0.layoutGroup = GetComponent(slot0.scrollContent, typeof(GridLayoutGroup))
-	slot1 = slot0.scrollRectTF.rect.width
-	slot2 = slot0.layoutGroup.cellSize.x
+	slot0.scrollRectSpecial = slot0:findTF("scrollRectSpecial")
 
-	if slot1 % slot2 / math.floor(slot1 / slot2) < 12 then
-		slot3 = slot3 - 1
-		slot5 = (slot1 - slot2 * slot3) / slot3
+	setActive(slot0.scrollRectSpecial, false)
+
+	slot1 = GetComponent(slot0:findTF("viewport/view/group/items", slot0.scrollRectSpecial), typeof(GridLayoutGroup))
+	slot2 = slot0.scrollRectTF.rect.width
+	slot3 = slot0.layoutGroup.cellSize.x
+
+	if slot2 % slot3 / math.floor(slot2 / slot3) < 12 then
+		slot4 = slot4 - 1
+		slot6 = (slot2 - slot3 * slot4) / slot4
 	end
 
-	slot0.layoutGroup.spacing = Vector2(slot5, slot5)
-	slot0.layoutGroup.padding.left = slot5 / 2
+	slot0.layoutGroup.spacing = Vector2(slot6, slot6)
+	slot0.layoutGroup.padding.left = slot6 / 2
+	slot1.spacing = Vector2(slot6, slot6)
+	slot1.padding.left = slot6 / 2
 end
 
 slot0.initData = function(slot0)

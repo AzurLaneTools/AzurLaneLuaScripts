@@ -10,7 +10,8 @@ slot0.listNotificationInterests = function(slot0)
 end
 
 slot0.handleNotification = function(slot0, slot1)
-	slot3 = slot1:getBody()
+	warning(slot1:getBody())
+
 	slot4 = nil
 
 	if slot1:getName() == GAME.GO_SCENE then

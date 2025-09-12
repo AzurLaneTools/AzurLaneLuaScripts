@@ -246,7 +246,9 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 			slot1 = slot0.drop
 			slot2 = uv0._tf:Find("window/middle")
 
-			updateDorm3dIcon(slot2:Find("Dorm3dIconTpl"), slot0.drop)
+			updateCustomDrop(slot2:Find("Dorm3dIconTpl"), slot0.drop, {
+				style = slot0.style
+			})
 			setText(slot2:Find("info/name"), slot1:getName())
 			setText(slot2:Find("info/scroll/desc"), cancelColorRich(slot1.desc))
 

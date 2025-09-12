@@ -38,7 +38,7 @@ end
 slot0.Register = function(slot0)
 end
 
-slot0.OnInit = function(slot0)
+slot0.OnInit = function(slot0, slot1)
 end
 
 return slot0

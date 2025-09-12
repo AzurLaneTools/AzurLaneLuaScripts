@@ -159,7 +159,7 @@ slot0.UpdateFloor = function(slot0)
 end
 
 slot0.SetActive = function(slot0, slot1, slot2)
-	setActiveViaCG(slot1, slot2)
+	setActiveViaLayer(slot1, slot2)
 end
 
 return slot0

@@ -36839,6 +36839,26 @@ pg.activity_shop_template = {
 			}
 		}
 	},
+	[10511] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 800,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 3400,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10511,
+		commodity_id_list_show = 0,
+		order = 6,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	},
 	[10901] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -38553,66 +38573,6 @@ pg.activity_shop_template = {
 			}
 		}
 	},
-	[99001] = {
-		commodity_id_list = "",
-		resource_category = 1,
-		resource_num = 300,
-		num_limit = 10,
-		activity = 5138,
-		num = 100,
-		commodity_id = 15008,
-		limit_args = "",
-		commodity_type = 2,
-		resource_type = 385,
-		id = 99001,
-		commodity_id_list_show = 0,
-		order = 1
-	},
-	[99002] = {
-		commodity_id_list = "",
-		resource_category = 1,
-		resource_num = 200,
-		num_limit = 20,
-		activity = 5138,
-		num = 50,
-		commodity_id = 16501,
-		limit_args = "",
-		commodity_type = 2,
-		resource_type = 385,
-		id = 99002,
-		commodity_id_list_show = 0,
-		order = 1
-	},
-	[99003] = {
-		commodity_id_list = "",
-		resource_category = 1,
-		resource_num = 50,
-		num_limit = 40,
-		activity = 5138,
-		num = 1,
-		commodity_id = 20001,
-		limit_args = "",
-		commodity_type = 2,
-		resource_type = 385,
-		id = 99003,
-		commodity_id_list_show = 0,
-		order = 1
-	},
-	[99004] = {
-		commodity_id_list = "",
-		resource_category = 1,
-		resource_num = 300,
-		num_limit = 15,
-		activity = 5138,
-		num = 1,
-		commodity_id = 80003,
-		limit_args = "",
-		commodity_type = 2,
-		resource_type = 385,
-		id = 99004,
-		commodity_id_list_show = 0,
-		order = 1
-	},
 	get_id_list_by_commodity_type = {
 		{
 			421,
@@ -39152,7 +39112,8 @@ pg.activity_shop_template = {
 			10507,
 			10508,
 			10509,
-			10510
+			10510,
+			10511
 		},
 		[5] = {
 			204,
@@ -41068,11 +41029,7 @@ pg.activity_shop_template = {
 			12030,
 			12031,
 			12033,
-			12035,
-			99001,
-			99002,
-			99003,
-			99004
+			12035
 		},
 		[8] = {
 			1621,
@@ -43598,6 +43555,7 @@ pg.activity_shop_template = {
 		10508,
 		10509,
 		10510,
+		10511,
 		10901,
 		10902,
 		10903,
@@ -43671,10 +43629,6 @@ pg.activity_shop_template = {
 		12032,
 		12033,
 		12034,
-		12035,
-		99001,
-		99002,
-		99003,
-		99004
+		12035
 	}
 }

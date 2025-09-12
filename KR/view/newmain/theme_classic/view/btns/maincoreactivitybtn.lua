@@ -49,4 +49,8 @@ slot0.CollectActivity = function(slot0)
 	return slot3, slot4
 end
 
+slot0.GetTipImage = function(slot0)
+	return "tip_1920"
+end
+
 return slot0

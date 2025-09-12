@@ -7,7 +7,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.level = slot1.level or 1
 	slot0.configId = slot0.level
 	slot0.exp = slot1.exp or 0
-	slot0.name = slot1.name or i18n1("布之岛")
+	slot0.name = slot1.name or "1"
 	slot0.prosperity = slot1.prosperity or 0
 	slot0.manifesto = slot1.signature or ""
 	slot0.prosperityList = {}
@@ -22,24 +22,27 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.characterAgency = IslandCharacterAgency.New(slot0, slot1)
 	slot0.visitorAgency = IslandVisitorAgency.New(slot0, slot1)
 	slot0.technologyAgency = IslandTechnologyAgency.New(slot0, slot1)
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(pg.island_furniture_template.all) do
-		table.insert(slot2, {
-			count = 1,
-			id = slot7
-		})
-	end
-
-	slot0.agoraAgency = IslandAgoraAgency.New(slot0, {
-		agora = {
-			level = slot1.agora_level,
-			furniture_list = {},
-			placed_list = slot1.placed_list or {}
-		}
-	})
+	slot0.signInAgency = IslandSignInAgency.New(slot0, slot1)
+	slot0.taskAgency = IslandTaskAgency.New(slot0, slot1)
+	slot0.accessAgency = IslandAccessAgency.New(slot0, slot1)
+	slot0.gatherCollectAgency = IslandGatherCollectAgency.New(slot0)
+	slot0.buildingAgency = IslandBuildingAgency.New(slot0, slot1)
+	slot0.agoraAgency = IslandAgoraAgency.New(slot0, slot1)
+	slot0.manageAgency = IslandManageAgecny.New(slot0, slot1)
 	slot0.mapID = pg.island_set.initial_scene.key_value_int
-	slot0.spawnPointId = nil
+	slot0.lastExitPosition = {
+		mapId = 0,
+		position = Vector3.zero,
+		rotation = Vector3.zero
+	}
+
+	if not slot0.taskAgency:IsFinishTask(IslandGuideChecker.MOVE_TASK_ID) then
+		slot0:SetSpawnPointId(pg.island_set.initial_spawn_point.key_value_int)
+	end
+end
+
+slot0.GetAccessAgency = function(slot0)
+	return slot0.accessAgency
 end
 
 slot0.IsPrivate = function(slot0)
@@ -66,6 +69,26 @@ slot0.GetAblityAgency = function(slot0)
 	return slot0.ablityAgency
 end
 
+slot0.GetSignInAgency = function(slot0)
+	return slot0.signInAgency
+end
+
+slot0.GetTaskAgency = function(slot0)
+	return slot0.taskAgency
+end
+
+slot0.GetManageAgency = function(slot0)
+	return slot0.manageAgency
+end
+
+slot0.GetWildCollectAgency = function(slot0)
+	return slot0.gatherCollectAgency
+end
+
+slot0.GetBuildingAgency = function(slot0)
+	return slot0.buildingAgency
+end
+
 slot0.SetSpawnPointId = function(slot0, slot1)
 	slot0.spawnPointId = slot1
 end
@@ -76,16 +99,36 @@ slot0.GetSpawnPointId = function(slot0)
 	return slot0.spawnPointId
 end
 
+slot0.SetLastExitPosition = function(slot0, slot1, slot2, slot3)
+	if slot1 <= 0 then
+		return
+	end
+
+	slot0.lastExitPosition = {
+		mapId = slot1,
+		position = slot2,
+		rotation = slot3
+	}
+end
+
+slot0.GetLastExitPosition = function(slot0)
+	return slot0.lastExitPosition
+end
+
 slot0.GetMapId = function(slot0)
 	return slot0.mapID
 end
 
 slot0.SetMapId = function(slot0, slot1)
-	slot0.mapID = slot1
-end
+	if not pg.island_map[slot1] then
+		return
+	end
 
-slot0.getConfig = function(slot0, slot1)
-	return pg.island_level[slot0.configId][slot1]
+	if not pg.TimeMgr.GetInstance():inTime(slot2.time) then
+		return
+	end
+
+	slot0.mapID = slot1
 end
 
 slot0.GetUnlockBuildingList = function(slot0)
@@ -93,7 +136,7 @@ slot0.GetUnlockBuildingList = function(slot0)
 		return {}
 	end
 
-	return pg.island_level[slot0.level].island_level_unlock
+	return pg.island_level[slot0.level].island_level_award
 end
 
 slot0.IsNew = function(slot0)
@@ -109,7 +152,11 @@ slot0.SetName = function(slot0, slot1)
 end
 
 slot0.GetName = function(slot0)
-	return slot0.name
+	if slot0.name == "" then
+		return i18n("island_default_name", getProxy(PlayerProxy):getRawData().name)
+	else
+		return slot0.name
+	end
 end
 
 slot0.SetManifesto = function(slot0, slot1)
@@ -211,28 +258,6 @@ slot0.GetUpgradeAwards = function(slot0)
 	return slot0:GetUpgradeAwardsByLevel(slot0.level)
 end
 
-slot0.GetUpgradeConsume = function(slot0)
-	if slot0:StaticIsMaxLevel(slot0.level) then
-		return {}
-	end
-
-	slot1 = pg.island_level[slot0.level + 1]
-
-	assert(slot1)
-
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1.cost) do
-		table.insert(slot2, {
-			DROP_TYPE_ISLAND_ITEM,
-			slot7[1],
-			slot7[2]
-		})
-	end
-
-	return slot2
-end
-
 slot0.AddProsperity = function(slot0, slot1)
 	if not slot0:CanAddProsperity() then
 		return
@@ -320,10 +345,19 @@ slot0.GetProsperityAward = function(slot0, slot1)
 	return pg.island_prosperity[slot1].award_display
 end
 
+slot0.getConfig = function(slot0, slot1)
+	return pg.island_level[slot0.configId][slot1]
+end
+
 slot0.UpdatePerDay = function(slot0)
+	slot0:GetSignInAgency():ResetSignInCnt()
+	slot0:GetAccessAgency():ResetFreshInviteCodeFlag()
 end
 
 slot0.UpdatePerSecond = function(slot0)
+	if slot0.buildingAgency then
+		slot0.buildingAgency:UpdatePerSecond()
+	end
 end
 
 return slot0

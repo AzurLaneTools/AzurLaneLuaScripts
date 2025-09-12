@@ -292,40 +292,6 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970108",
-		event = ActivityMediator.EVENT_GO_SCENE,
-		data = {
-			SCENE.METACHARACTER,
-			{
-				autoOpenShipConfigID = 9701081
-			}
-		},
-		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108) and slot1:isInAct()
-		end,
-		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970108):isPassType() then
-				return false
-			end
-
-			if not slot1:isShow() then
-				return false
-			end
-
-			slot2 = false
-
-			if slot1.metaPtData then
-				slot2 = slot1.metaPtData:CanGetAward()
-			end
-
-			if slot2 == false then
-				slot2 = getProxy(MetaCharacterProxy):getRedTag(slot0)
-			end
-
-			return slot2
-		end
-	},
-	{
 		banner = "activity_permanent",
 		event = ActivityMediator.ACTIVITY_PERMANENT,
 		data = {},
@@ -334,6 +300,17 @@ return {
 		end,
 		isTip = function ()
 			return PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description
+		end
+	},
+	{
+		banner = "activity_miniprogram",
+		event = ActivityMediator.OPEN_MINI_PROGRAM,
+		data = {},
+		isShow = function ()
+			return PLATFORM_CODE == PLATFORM_CH and (PermissionHelper.IsAndroid and LuaHelper.GetCHPackageType() == 1 or PermissionHelper.IsIOS()) and getProxy(ActivityProxy):IsActivityNotEnd(getGameset("WeChat_Mini_Program")[1])
+		end,
+		isTip = function ()
+			return false
 		end
 	}
 }

@@ -10075,8 +10075,17 @@ pg.base.ship_data_group = {
 			"B",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"A",
+			"A"
+		},
+		trans_skill = {
+			151460
+		},
 		description = {
 			{
 				"특형함 건조",
@@ -11756,8 +11765,17 @@ pg.base.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"S",
+			"D",
+			"D"
+		},
+		trans_skill = {
+			151190
+		},
 		description = {
 			{
 				"훈장 지원(랜덤 갱신)",

@@ -1,11 +1,24 @@
 slot0 = class("IslandMsgBox", import("view.base.BaseSubView"))
 slot0.TYPE_COMMON = 1
 slot0.TYPE_ITEM = 2
-slot0.TYPE_STATUS = 3
+slot0.TYPE_SHIP_OWN_STATUS = 3
 slot0.TYPE_COMMON_ITEM = 4
 slot0.TYPE_ITEM_INFO = 5
 slot0.TYPE_MATERIAL_INFO = 6
 slot0.TYPE_REMIND = 7
+slot0.TYPE_SHIP_SKILL = 8
+slot0.TYPE_SHIP_STATUS_MSG = 9
+slot0.TYPE_AGORA_PLACED_LIST = 10
+slot0.TYPE_AGORA_UPGRADE = 11
+slot0.TYPE_WHITOUT_BTN = 12
+slot0.TYPE_SAVE_THEME = 13
+slot0.TYPE_THEME = 14
+slot0.TYPE_SEASON_TIP = 15
+slot0.TYPE_SEASON_RESET = 16
+slot0.TYPE_SYSTEM_THEME = 17
+slot0.TYPE_ORDER_TENDENCY = 18
+slot0.TYPE_SEND_DRESS = 19
+slot0.TYPE_AOGRA_SAVE_CD = 20
 
 slot0.getUIName = function(slot0)
 	return "IslandMsgboxUI"
@@ -19,10 +32,23 @@ slot0.OnLoaded = function(slot0)
 	slot0.PAGES = {
 		[uv0.TYPE_COMMON] = IslandCommonMsgboxWindow,
 		[uv0.TYPE_ITEM] = IslandItemMsgboxWindow,
-		[uv0.TYPE_STATUS] = IslandMsgBoxForStatusWindow,
+		[uv0.TYPE_SHIP_OWN_STATUS] = IslandMsgBoxForStatusWindow,
 		[uv0.TYPE_ITEM_INFO] = IslandMsgBoxSingleItemWindow,
 		[uv0.TYPE_MATERIAL_INFO] = IslandMsgBoxSingleMaterialWindow,
-		[uv0.TYPE_REMIND] = IslandRemindMsgboxWindow
+		[uv0.TYPE_REMIND] = IslandRemindMsgboxWindow,
+		[uv0.TYPE_SHIP_SKILL] = IslandShipSkillMsgboxWindow,
+		[uv0.TYPE_SHIP_STATUS_MSG] = IslandShipStatusMsgboxWindow,
+		[uv0.TYPE_AGORA_PLACED_LIST] = IslandAgoraPlacedListMsgboxWindow,
+		[uv0.TYPE_AGORA_UPGRADE] = IslandAgoraUpgradeMsgboxWindow,
+		[uv0.TYPE_WHITOUT_BTN] = IslandwithoutBtnMsgboxWindow,
+		[uv0.TYPE_SAVE_THEME] = IslandSaveThemeMsgboxWindow,
+		[uv0.TYPE_THEME] = IslandThemeMsgboxWindow,
+		[uv0.TYPE_SEASON_TIP] = IslandSeasonTipMsgBoxWindow,
+		[uv0.TYPE_SEASON_RESET] = IslandSeasonResetMsgBoxWindow,
+		[uv0.TYPE_SYSTEM_THEME] = IslandSystemThemeMsgboxWindow,
+		[uv0.TYPE_ORDER_TENDENCY] = IslandOrderTendencyPage,
+		[uv0.TYPE_SEND_DRESS] = IslandSendDressUpMsgboxWindow,
+		[uv0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow
 	}
 end
 
@@ -36,19 +62,20 @@ slot0.CheckType = function(slot0, slot1)
 	if (slot1.type or uv0.TYPE_COMMON) == uv0.TYPE_COMMON_ITEM then
 		slot2 = IslandItem.New({
 			id = slot1.itemId
-		}):IsMaterial() and uv0.TYPE_MATERIAL_INFO or uv0.TYPE_ITEM_INFO
+		}):CanConvert() and uv0.TYPE_MATERIAL_INFO or uv0.TYPE_ITEM_INFO
 	end
 
 	return slot2
 end
 
-slot0.Show = function(slot0, slot1)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
-	slot3 = slot0:CreateWindow(slot0:CheckType(slot1))
+	slot0.callback = slot2
+	slot4 = slot0:CreateWindow(slot0:CheckType(slot1))
 
-	slot3:ExecuteAction("Show", slot1)
-	table.insert(slot0.stack, slot3)
+	slot4:ExecuteAction("Show", slot1)
+	table.insert(slot0.stack, slot4)
 end
 
 slot0.CreateWindow = function(slot0, slot1)
@@ -113,6 +140,12 @@ slot0.HideWindow = function(slot0, slot1)
 
 	if #slot0.stack == 0 then
 		slot0:Hide()
+
+		if slot0.callback then
+			slot0.callback()
+
+			slot0.callback = nil
+		end
 	end
 end
 

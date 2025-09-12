@@ -1,0 +1,81 @@
+slot0 = class("IslandAchievementType")
+slot0.ISLAND_LV = 1
+slot0.FINISH_TYPE_TASK = 2
+slot0.FINISH_MAIN_TASK = 3
+slot0.FINISH_ORDER = 4
+slot0.SHIP_LV = 5
+slot0.SHIP_SKILL_LV = 6
+slot0.SHIP_ATTR_LV_1 = 7
+slot0.SHIP_ATTR_LV_2 = 8
+slot0.SHIP_ATTR_LV_3 = 9
+slot0.SHIP_ATTR_LV_4 = 10
+slot0.SHIP_ATTR_LV_5 = 11
+slot0.SHIP_ATTR_LV_6 = 12
+slot0.LOGIN_DAYS = 13
+slot0.SHIP_SKIN = 14
+slot0.SHIP_DRESS_TYPE = 15
+slot0.COMMANDER_DRESS_TYPE = 16
+slot0.SHOP_COST_ITEM = 17
+slot0.SHOP_BUY_ITEM = 18
+slot0.PRODUCE_ITEM = 19
+slot0.BUILDING_DELEGATE = 20
+slot0.BUILDING_HAND = 21
+slot0.OBTAIN_ITEM = 22
+slot0.GIVE_GIFT = 23
+slot0.SHIP_DISPATCH = 24
+slot0.SEASON_RANK = 25
+slot0.SEASON_NUM = 26
+slot0.FINISH_TECH = 27
+slot0.FINISH_TYPE_TECH = 28
+slot0.RESTAURANT_SELL = 29
+slot0.RESTAURANT_SALES = 30
+slot0.RESTAURANT_OPEN = 31
+slot0.NPC_INTERACT = 32
+slot0.FURNITURE = 33
+slot0.BUILDING_DELEGATE_PLUS = 34
+slot0.SHIP_DISPATCH_PLUS = 35
+slot0.NPC_INTERACT_TYPE_TALK = 1
+slot0.NPC_INTERACT_TYPE_HELLO = 2
+
+slot0.GetAttrTypes = function()
+	return {
+		uv0.SHIP_ATTR_LV_1,
+		uv0.SHIP_ATTR_LV_2,
+		uv0.SHIP_ATTR_LV_3,
+		uv0.SHIP_ATTR_LV_4,
+		uv0.SHIP_ATTR_LV_5,
+		uv0.SHIP_ATTR_LV_6
+	}
+end
+
+slot0.GetRuntimeTypes = function()
+	return {
+		uv0.ISLAND_LV,
+		uv0.FINISH_MAIN_TASK,
+		uv0.SHIP_LV,
+		uv0.SHIP_SKILL_LV,
+		uv0.SHIP_ATTR_LV_1,
+		uv0.SHIP_ATTR_LV_2,
+		uv0.SHIP_ATTR_LV_3,
+		uv0.SHIP_ATTR_LV_4,
+		uv0.SHIP_ATTR_LV_5,
+		uv0.SHIP_ATTR_LV_6,
+		uv0.SHIP_SKIN,
+		uv0.SHIP_DRESS_TYPE,
+		uv0.COMMANDER_DRESS_TYPE,
+		uv0.SEASON_RANK,
+		uv0.SEASON_NUM,
+		uv0.FINISH_TECH,
+		uv0.FINISH_TYPE_TECH,
+		uv0.RESTAURANT_SALES,
+		uv0.FURNITURE
+	}
+end
+
+slot0.GetClientTypes = function()
+	return {
+		uv0.NPC_INTERACT
+	}
+end
+
+return slot0

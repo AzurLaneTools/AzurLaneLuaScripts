@@ -1,11 +1,11 @@
 slot0 = class("NcInteraction", import("..base.NodeCanvasBaseTask"))
 
 slot0.OnExecute = function(slot0)
-	slot2 = slot0:GetStringArg("id")
+	slot3 = slot0:GetAgent().gameObject:GetComponent(typeof(WorldObjectItem)).id
 
-	if slot0:GetArgByName("show") then
+	if slot0:GetBoolArg("show") then
 		slot0:SendEvent(ISLAND_EVT.APPROACH_UNIT, {
-			id = tonumber(slot2),
+			id = tonumber(slot3),
 			type = tonumber(slot0:GetStringArg("type")),
 			callback = function ()
 				uv0:EndAction()
@@ -13,7 +13,7 @@ slot0.OnExecute = function(slot0)
 		})
 	else
 		slot0:SendEvent(ISLAND_EVT.LEAVE_UNIT, {
-			id = tonumber(slot2)
+			id = tonumber(slot3)
 		})
 		slot0:EndAction()
 	end

@@ -27965,6 +27965,7 @@ pg.activity_template = {
 	},
 	[50068] = {
 		mark = 20250807,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -28001,33 +28002,6 @@ pg.activity_template = {
 			{
 				21800,
 				21801
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		},
 		page_info = {
@@ -28143,6 +28117,7 @@ pg.activity_template = {
 	},
 	[50081] = {
 		mark = 20250814,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -28157,33 +28132,6 @@ pg.activity_template = {
 			1950021,
 			1950022,
 			1950023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "SecretsAbyssMainPage",
@@ -28249,6 +28197,7 @@ pg.activity_template = {
 	[50082] = {
 		mark = 20250814,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -28267,33 +28216,6 @@ pg.activity_template = {
 			1950051,
 			1950052
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
 			task_id = 21818
@@ -28301,6 +28223,7 @@ pg.activity_template = {
 	},
 	[50083] = {
 		mark = 20250814,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 66,
@@ -28309,33 +28232,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50083,
 		page_core = "SecretsAbyssCoreActivityUI",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "SecretsAbyssMGPage",
 			ui_name = "SecretsAbyssMGPage"
@@ -28733,6 +28629,7 @@ pg.activity_template = {
 	[50091] = {
 		mark = 20250814,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -28765,33 +28662,6 @@ pg.activity_template = {
 			24298,
 			24299,
 			24300
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50092] = {
@@ -28842,6 +28712,7 @@ pg.activity_template = {
 	[50093] = {
 		mark = 20250814,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -28850,38 +28721,12 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50093,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50094] = {
 		mark = 20250814,
 		page_info = "",
+		time = "stop",
 		type = 112,
 		login_pop = 0,
 		config_id = 0,
@@ -28919,33 +28764,6 @@ pg.activity_template = {
 			3026,
 			3027,
 			3028
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50095] = {
@@ -28962,6 +28780,78 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			24301
+		}
+	},
+	[50099] = {
+		mark = 20250828,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "dianqi",
+		id = 50099,
+		page_core = "",
+		config_data = {
+			{
+				21821,
+				21822
+			},
+			{
+				21823,
+				21824
+			},
+			{
+				21825,
+				21826
+			},
+			{
+				21827,
+				21828
+			},
+			{
+				21829,
+				21830
+			},
+			{
+				21831,
+				21832
+			},
+			{
+				21833,
+				21834
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "AierdeliqiAlterItemRePage",
+			ui_name = "AierdeliqiAlterItemRePage"
 		}
 	},
 	[7001] = {
@@ -38627,6 +38517,57 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40089] = {
+		mark = 20200301,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 40089,
+		page_core = "",
+		config_data = {
+			10471,
+			10472,
+			10473,
+			10474,
+			10475,
+			10476
+		}
+	},
+	[40090] = {
+		mark = 20200301,
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "glory",
+		id = 40090,
+		page_core = "",
+		config_data = {
+			10477,
+			10478,
+			10479,
+			10480,
+			10481,
+			10482,
+			10483,
+			10484,
+			10485,
+			10486,
+			10487,
+			10488
+		},
+		page_info = {
+			class_name = "GloryTaskPage",
+			ui_name = "glorytaskpage"
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			20135,
@@ -39023,6 +38964,7 @@ pg.activity_template = {
 			50032,
 			50033,
 			50068,
+			50099,
 			6000,
 			6001,
 			6002,
@@ -39295,7 +39237,9 @@ pg.activity_template = {
 			20865,
 			20922,
 			20961,
-			21003
+			21003,
+			40089,
+			40090
 		},
 		[60] = {
 			4879,
@@ -40714,6 +40658,7 @@ pg.activity_template = {
 		50093,
 		50094,
 		50095,
+		50099,
 		7001,
 		7004,
 		7005,
@@ -40945,6 +40890,8 @@ pg.activity_template = {
 		25059,
 		25060,
 		25061,
-		200001
+		200001,
+		40089,
+		40090
 	}
 }

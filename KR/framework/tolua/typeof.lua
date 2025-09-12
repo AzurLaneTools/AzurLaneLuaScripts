@@ -18,5 +18,9 @@ typeof = function(slot0)
 		error(debug.traceback("attemp to call typeof on type " .. slot1))
 	end
 
+	if slot2 == nil then
+		warning(slot2)
+	end
+
 	return slot2
 end

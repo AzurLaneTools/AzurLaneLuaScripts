@@ -91624,7 +91624,7 @@ _G.pg.base.item_data_statistics[59853] = {
 	type = 7,
 	display = "「전기…… 출력…… 증폭…… 중……」――엘드릿지의 개조(근대화 개수)에 사용하는 개조 재료.",
 	other_resource_cost = "[]",
-	replace_item = 0,
+	replace_item = 59857,
 	usage = "usage_undefined",
 	display_effect = "",
 	link_id = 0,
@@ -91744,6 +91744,37 @@ _G.pg.base.item_data_statistics[59856] = {
 	shiptrans_id = {
 		107974
 	},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59857] = {
+	open_directly = 0,
+	name = "전기 증폭 장치 기념판",
+	type = 1,
+	display = "이벤트 「전기 출력 증폭 중」 참여 기념",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/electboostdevice_re",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59857,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
 }

@@ -701,11 +701,7 @@ setCanvasGroupAlpha = function(slot0, slot1)
 end
 
 setActiveViaLayer = function(slot0, slot1)
-	UIUtil.SetUIActiveViaLayer(go(slot0), slot1)
-end
-
-setActiveViaCG = function(slot0, slot1)
-	UIUtil.SetUIActiveViaCG(go(slot0), slot1)
+	HotfixHelper.SetUIActiveViaLayer(go(slot0), slot1)
 end
 
 getTextColor = function(slot0)

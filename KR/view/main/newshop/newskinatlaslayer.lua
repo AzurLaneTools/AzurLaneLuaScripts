@@ -27,7 +27,7 @@ slot0.init = function(slot0)
 	setText(slot0.filterUI:Find("panelMask/panel/title"), i18n("shop_new_sort"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/subTitleFrame/subTitle"), i18n("shop_new_review"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/0/Text"), i18n("shop_new_all"))
-	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/1/Text"), i18n("shop_new_unused"))
+	setScrollText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/1/mask/Text"), i18n("shop_new_unused"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("shop_new_type"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/0/Text"), i18n("shop_new_all"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/2/Text"), i18n("shop_new_static"))
@@ -443,7 +443,7 @@ slot0.SetOptionList = function(slot0, slot1, slot2, slot3)
 
 			slot2.name = slot1
 
-			setText(slot2:Find("Text"), slot3)
+			setScrollText(slot2:Find("mask/Text"), slot3)
 		end
 	end)
 	slot4:align(#slot2)
@@ -524,7 +524,8 @@ end
 slot0.SetOptionSelect = function(slot0, slot1, slot2)
 	setActive(slot1:Find("selectedFrame"), slot2)
 
-	slot3 = slot1:Find("Text"):GetComponent(typeof(Text))
+	slot3 = nil
+	slot3 = (not IsNil(slot1:Find("Text")) or slot1:Find("mask/Text"):GetComponent(typeof(Text))) and slot1:Find("Text"):GetComponent(typeof(Text))
 
 	if slot2 then
 		slot3.color = Color.New(1, 1, 1, 1)

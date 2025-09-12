@@ -12099,6 +12099,36 @@ _G.pg.base.gametip.resource_clear_all = {
 }
 
 
+_G.pg.base.gametip.resource_clear_manga = {
+	tip = "1컷 만화 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 1컷 만화를 확인하려면 리소스를 다시 다운해야 합니다)"
+}
+
+
+_G.pg.base.gametip.resource_clear_gallery = {
+	tip = "스틸 감상 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 스틸을 확인하려면 리소스를 다시 다운해야 합니다)"
+}
+
+
+_G.pg.base.gametip.resource_clear_3ddorm = {
+	tip = "교류 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 교류 숙소를 확인하려면 리소스를 다시 다운해야 합니다)"
+}
+
+
+_G.pg.base.gametip.resource_clear_tbchild = {
+	tip = "TB 육성 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 TB 육성을 확인하려면 리소스를 다시 다운해야 합니다)"
+}
+
+
+_G.pg.base.gametip.resource_clear_3disland = {
+	tip = "섬 경영 리소스를 삭제하시겠습니까? \n 데이터 사이즈: $1\n (삭제 후에 섬 경영을 확인하려면 리소스를 다시 다운해야 합니다)"
+}
+
+
+_G.pg.base.gametip.resource_clear_generaltext = {
+	tip = "리소스 삭제"
+}
+
+
 _G.pg.base.gametip.acl_oil_count = {
 	tip = "목표 연료："
 }
@@ -23450,6 +23480,26 @@ _G.pg.base.gametip.Settings_title_sound = {
 
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "리소스 다운"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage = {
+	tip = "리소스 관리"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_All = {
+	tip = "전체 리소스 업데이트"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Main = {
+	tip = "메인 리소스 관리"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Sub = {
+	tip = "추가 리소스 관리"
 }
 
 
@@ -35268,7 +35318,7 @@ _G.pg.base.gametip.dorm3d_data_go = {
 
 
 _G.pg.base.gametip.dorm3d_role_assets_delete = {
-	tip = "<color=#39bfff>$1</color>의 방 리소스를 일시적으로 삭제하시겠습니까?"
+	tip = "<color=#39bfff>$1</color>의 방 리소스를 일시적으로 삭제하시겠습니까? \n리소스 용량: $2 "
 }
 
 
@@ -35809,6 +35859,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 
 _G.pg.base.gametip.cruise_title_2508 = {
 	tip = "월드 투어·24기"
+}
+
+
+_G.pg.base.gametip.cruise_title_2406 = {
+	tip = "월드 투어·17기"
 }
 
 
@@ -39875,4 +39930,99 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 _G.pg.base.gametip.shop_filter_retro = {
 	tip = "복각"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+	tip = "미끄럼틀"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+	tip = "배치 중인 함선"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+	tip = "미끄럼틀"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+	tip = "놀이 기구 선택"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+	tip = "미끄럼틀 배치"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+	tip = "배치 중인 인원 수"
+}
+
+
+_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
+	tip = "미끄럼틀"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag7 = {
+	tip = "특수 연출 활성화(해당 캐릭터를 해변에 배치해야 함)"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+	tip = "기타 설정"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+	tip = "최고"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+	tip = "블룸 효과"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
+	tip = "없음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_1 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_flare = {
+	tip = "플레어 효과"
 }

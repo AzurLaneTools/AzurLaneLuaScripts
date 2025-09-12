@@ -209,25 +209,34 @@ slot1.ShotAndSave = function(slot0, slot1, slot2, slot3)
 
 	slot5 = LuaHelper.GetCHPackageType()
 	slot8 = slot0:TakeTexture(slot1, ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32), GameObject.Find(slot4.camera):GetComponent(typeof(Camera)))
+	slot9 = {}
 
-	slot9 = function(slot0, slot1)
-		slot2 = slot1.x / uv0.sizeDelta.x * Screen.width
-		slot3 = slot1.y / uv0.sizeDelta.y * Screen.height
-		slot7 = UnityEngine.Texture2D.New(slot2, slot3)
+	table.insert(slot9, function (slot0)
+		uv0.UIMgr.GetInstance():LoadingOn(false)
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv1, slot0)
+	end)
+	table.insert(slot9, function (slot0, slot1)
+		uv0.UIMgr.GetInstance():LoadingOff()
 
-		slot7:SetPixels(slot0:GetPixels((Screen.width - slot2) / 2, (Screen.height - slot3) / 2, slot2, slot3))
-		slot7:Apply()
+		slot2 = function(slot0, slot1)
+			slot2 = slot1.x / uv0.sizeDelta.x * Screen.width
+			slot3 = slot1.y / uv0.sizeDelta.y * Screen.height
+			slot7 = UnityEngine.Texture2D.New(slot2, slot3)
 
-		return slot7
-	end
+			slot7:SetPixels(slot0:GetPixels((Screen.width - slot2) / 2, (Screen.height - slot3) / 2, slot2, slot3))
+			slot7:Apply()
 
-	if slot2 then
-		slot8 = slot9(slot8, slot2)
-	end
+			return slot7
+		end
 
-	slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot8))
+		if uv2 then
+			slot1 = slot2(slot1, uv2)
+		end
 
-	return true
+		uv3:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot1))
+		slot0()
+	end)
+	seriesAsync(slot9, callback)
 end
 
 slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)

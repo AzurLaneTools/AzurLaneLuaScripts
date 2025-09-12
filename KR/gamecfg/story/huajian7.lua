@@ -340,7 +340,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "한 번 맞춰봐. 여기 핀 월광화는 나한테 ㅇ러떤 의미일 것 같아?",
+			say = "한 번 맞춰봐. 여기 핀 월광화는 나한테 어떤 의미일 것 같아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

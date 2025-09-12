@@ -39,16 +39,19 @@ slot0.OnLoaded = function(slot0)
 	slot0.sellBtn = slot0:findTF("window/sell_panel/batch_sell_1")
 	slot0.sellCancelBtn = slot0:findTF("window/sell_panel/cancel")
 	slot0.sellPriceTxt = slot0:findTF("window/sell_panel/price/Text"):GetComponent(typeof(Text))
+
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0:findTF("window/sell_panel/price/Text/icon"))
+
 	slot0.oneKeyPanel = slot0:findTF("window/one_key_panel")
 	slot0.onekeyBtn = slot0:findTF("window/one_key_panel/fetch_btn")
 	slot0.scrollRect = slot0:findTF("window/item_scrollview"):GetComponent("LScrollRect")
 
-	setText(slot0:findTF("window/title/Text"), i18n1("仓库"))
-	setText(slot0:findTF("window/batch_sell/Text"), i18n1("批量出售"))
-	setText(slot0:findTF("window/sell_panel/price/label"), i18n1("合计价格:"))
-	setText(slot0:findTF("window/sell_panel/cancel/Text"), i18n1("取消"))
-	setText(slot0:findTF("window/sell_panel/batch_sell_1/Text"), i18n1("批量出售"))
-	setText(slot0:findTF("window/one_key_panel/fetch_btn/Text"), i18n1("一键领取"))
+	setText(slot0:findTF("window/title/Text"), i18n("island_bag_title"))
+	setText(slot0:findTF("window/batch_sell/Text"), i18n("island_batch_covert"))
+	setText(slot0:findTF("window/sell_panel/price/label"), i18n("island_total_price"))
+	setText(slot0:findTF("window/sell_panel/cancel/Text"), i18n("word_cancel"))
+	setText(slot0:findTF("window/sell_panel/batch_sell_1/Text"), i18n("island_batch_covert"))
+	setText(slot0:findTF("window/one_key_panel/fetch_btn/Text"), i18n("mail_get_oneclick"))
 end
 
 slot0.OnInit = function(slot0)
@@ -65,13 +68,15 @@ slot0.OnInit = function(slot0)
 		uv0.mode = uv1.MODE_EDIT
 
 		uv0:SetTotalCount()
-		uv0:UdpateStyle()
+		uv0:UpdateStyle()
+
+		uv0.sellPriceTxt.text = "x 0"
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sellCancelBtn, function ()
 		uv0.mode = uv1.MODE_VIEW
 
 		uv0:SetTotalCount()
-		uv0:UdpateStyle()
+		uv0:UpdateStyle()
 
 		for slot3, slot4 in ipairs(uv0.values) do
 			uv0.values[slot3] = 0
@@ -83,12 +88,12 @@ slot0.OnInit = function(slot0)
 		end
 
 		uv0:ShowMsgBox({
-			content = i18n1("确定出售道具？"),
+			content = i18n("island_season_window_transformtip"),
 			onYes = function ()
 				if uv0.tagType == uv1.INVENTORY_TYPE_OVERFLOW then
-					uv0:emit(IslandMediator.ON_BATCH_SELL_ITEM_4_OVERFLOW, uv2)
+					uv0:emit(IslandMediator.ON_CONVERT_SEASON_PT_4_OVERFLOW, uv2)
 				else
-					uv0:emit(IslandMediator.ON_BATCH_SELL_ITEM, uv2)
+					uv0:emit(IslandMediator.ON_CONVERT_SEASON_PT, uv2)
 				end
 			end
 		})
@@ -128,7 +133,7 @@ slot0.GetSellItems = function(slot0)
 	return slot2
 end
 
-slot0.UdpateStyle = function(slot0)
+slot0.UpdateStyle = function(slot0)
 	setActive(slot0.sellPanel, slot0.mode == uv0.MODE_EDIT)
 	setActive(slot0.sortPaenl, slot0.mode == uv0.MODE_VIEW and slot0.tagType ~= uv0.INVENTORY_TYPE_OVERFLOW)
 	setActive(slot0.oneKeyPanel, slot0.tagType == uv0.INVENTORY_TYPE_OVERFLOW and slot0.mode ~= uv0.MODE_EDIT)
@@ -138,15 +143,21 @@ end
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandScene.ON_INVENTORY_FILTER, slot0.OnInventoryFilter)
 	slot0:AddListener(GAME.ISLAND_UPGRADE_INVENTORY_DONE, slot0.OnUpgrade)
-	slot0:AddListener(GAME.ISLAND_SELL_ITEM_DONE, slot0.OnSell)
+	slot0:AddListener(GAME.ISLAND_CONVERT_SEASON_PT_DONE, slot0.OnSell)
 	slot0:AddListener(GAME.ISLAND_GET_OVERFLOW_ITEM_DOME, slot0.OnSell)
+	slot0:AddListener(GAME.ISLAND_INVITE_SHIP_DONE, slot0.OnUseInvitation)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(IslandScene.ON_INVENTORY_FILTER, slot0.OnInventoryFilter)
 	slot0:RemoveListener(GAME.ISLAND_UPGRADE_INVENTORY_DONE, slot0.OnUpgrade)
-	slot0:RemoveListener(GAME.ISLAND_SELL_ITEM_DONE, slot0.OnSell)
+	slot0:RemoveListener(GAME.ISLAND_CONVERT_SEASON_PT_DONE, slot0.OnSell)
 	slot0:RemoveListener(GAME.ISLAND_GET_OVERFLOW_ITEM_DOME, slot0.OnSell)
+	slot0:RemoveListener(GAME.ISLAND_INVITE_SHIP_DONE, slot0.OnUseInvitation)
+end
+
+slot0.OnUseInvitation = function(slot0)
+	slot0:SetTotalCount()
 end
 
 slot0.GetIndexData = function(slot0, slot1)
@@ -173,9 +184,13 @@ slot0.OnUpgrade = function(slot0)
 end
 
 slot0.OnSell = function(slot0)
+	slot0.mode = uv0.MODE_VIEW
+
 	slot0:SetTotalCount()
+	slot0:UpdateStyle()
 	slot0:FlushCapacity()
-	slot0:ClosePage(IslandInventoryItemInfoPage)
+
+	slot0.sellPriceTxt.text = "x 0"
 end
 
 slot0.SetUp = function(slot0)
@@ -189,7 +204,7 @@ slot0.SetUp = function(slot0)
 	slot0:FlushSortBtn()
 	slot0:FlushList()
 	slot0:FlushCapacity()
-	slot0:UdpateStyle()
+	slot0:UpdateStyle()
 end
 
 slot0.FlushCapacity = function(slot0)
@@ -198,18 +213,27 @@ slot0.FlushCapacity = function(slot0)
 		setActive(slot0.batchSellBtn, true)
 
 		slot1 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
-		slot2 = slot1:GetLength()
-		slot3 = slot1:GetCapacity()
-		slot0.capacityTxt.text = slot2 .. "/" .. slot3
 
 		setButtonEnabled(slot0.upgradeBtn, not slot1:IsMaxLevel())
 
-		slot4 = slot2 / slot3
+		slot4 = slot1:GetLength() / slot1:GetCapacity()
 
-		setFillAmount(slot0.upgradeProg, slot4)
+		slot0:managedTween(LeanTween.value, nil, go(slot0.upgradeBtn), 0, slot4, math.min(slot4, 1)):setOnUpdate(System.Action_float(function (slot0)
+			uv0.capacityTxt.text = calcFloor(uv1 * slot0) .. "/" .. uv1
+
+			setFillAmount(uv0.upgradeProg, slot0)
+		end)):setOnComplete(System.Action(function ()
+			uv0.capacityTxt.text = uv1 .. "/" .. uv2
+
+			setFillAmount(uv0.upgradeProg, uv3)
+		end))
 
 		slot0.upgradeProg:GetComponent(typeof(Image)).color = slot4 > 0.85 and Color.New(0.9529411764705882, 0.4235294117647059, 0.43137254901960786, 1) or Color.New(0.2235294117647059, 0.7450980392156863, 1, 1)
-	elseif slot0.tagType == uv0.INVENTORY_TYPE_OVERFLOW then
+
+		return
+	end
+
+	if slot0.tagType == uv0.INVENTORY_TYPE_OVERFLOW then
 		setActive(slot0.upgradeBtn, false)
 		setActive(slot0.batchSellBtn, true)
 	else
@@ -229,12 +253,12 @@ slot0.FlushTags = function(slot0)
 				uv0:FlushCapacity()
 				uv0:FlushSortBtn()
 				uv0:SetTotalCount()
-				uv0:UdpateStyle()
+				uv0:UpdateStyle()
 			end
 		end, SFX_PANEL)
 
 		if slot4 == uv0.INVENTORY_TYPE_OVERFLOW then
-			setText(slot5:Find("Text"), i18n1("临时背包"))
+			setText(slot5:Find("Text"), i18n("island_word_temp"))
 		else
 			setText(slot5:Find("Text"), IslandItemKind.Type2TagName(slot4))
 		end
@@ -343,15 +367,19 @@ slot0.OnInitItem = function(slot0, slot1)
 end
 
 slot0.OnClickItem = function(slot0, slot1)
-	if slot1.item:IsInvitationLetter() then
+	if isa(slot1.item, IslandInvitation) then
+		slot2 = slot1.item:GetShipName()
+
 		slot0:ShowMsgBox({
-			content = i18n1("消耗" .. slot1.item:GetName() .. "X1，邀请" .. pg.island_ship[tonumber(IslandItem.StaticGetUsageArg(slot1.item.id))].name .. "\n加入队伍,是否确定？"),
+			content = i18n("island_open_ship_tip"),
 			onYes = function ()
-				uv0:emit(IslandMediator.ON_USE_ITEM, uv1.item.id, 1)
+				uv0:Hide()
+				uv0:emit(IslandBaseMediator.SWITCH_MAP, IslandConst.LABORATORY_MAP_ID, IslandConst.LETTEROFINVITATION_SP)
 			end
 		})
 	else
 		slot0:ShowMsgBox({
+			title = i18n("island_word_desc"),
 			type = IslandMsgBox.TYPE_COMMON_ITEM,
 			itemId = slot1.item.id
 		})
@@ -377,10 +405,10 @@ slot0.UpdateSellPrice = function(slot0, slot1, slot2)
 	slot5 = 0
 
 	for slot9, slot10 in ipairs(slot0.values) do
-		slot5 = slot0.displays[slot9]:GetSellingPrice().count * slot10 + slot5
+		slot5 = slot0.displays[slot9]:GetConvertPt() * slot10 + slot5
 	end
 
-	slot0.sellPriceTxt.text = "x" .. slot5
+	slot0.sellPriceTxt.text = "x " .. slot5
 end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
@@ -404,6 +432,12 @@ slot0.Filter = function(slot0)
 		slot0:CollectCommonInventoryItems(slot1)
 	end
 
+	if slot0.mode == uv0.MODE_EDIT then
+		slot1 = underscore.select(slot1, function (slot0)
+			return slot0:CanConvert()
+		end)
+	end
+
 	return slot1
 end
 
@@ -421,6 +455,14 @@ slot0.CollectCommonInventoryItems = function(slot0, slot1)
 			table.insert(slot1, slot8)
 		elseif slot0.tagType == IslandItem.TYPE_SPECIAL_PROP and slot8:IsSpecialProp() and slot0.indexDatas[IslandItem.TYPE_SPECIAL_PROP]:Match(slot8) then
 			table.insert(slot1, slot8)
+		end
+	end
+
+	if slot0.tagType == IslandItem.TYPE_SPECIAL_PROP then
+		for slot9, slot10 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetInviteList()) do
+			if slot0.indexDatas[IslandItem.TYPE_SPECIAL_PROP]:Match(IslandInvitation.New(slot10)) then
+				table.insert(slot1, slot11)
+			end
 		end
 	end
 end

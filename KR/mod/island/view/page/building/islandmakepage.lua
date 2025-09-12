@@ -34,7 +34,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	setActive(slot0:findTF("lock", slot2), not slot4)
 
 	if not slot4 then
-		setText(slot0:findTF("lock/Text", slot2), i18n1(slot0.building:GetName() .. slot3:getConfig("unlock_place_level") .. "级解锁"))
+		setText(slot0:findTF("lock/Text", slot2), i18n("island_make_unlock_tip", slot0.building:GetName(), slot3:getConfig("unlock_place_level")))
 	else
 		slot5 = slot3:GetShipId()
 
@@ -44,7 +44,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 		setActive(slot0:findTF("unlock/energy_bar", slot2), slot5)
 
 		if slot5 then
-			slot7 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(slot5)
+			slot7 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot5)
 
 			setText(slot0:findTF("unlock/name", slot2), slot7:GetName())
 			setSlider(slot0:findTF("unlock/energy_bar", slot2), 0, 1, slot7:GetEnergy() / slot7:GetMaxEnergy())

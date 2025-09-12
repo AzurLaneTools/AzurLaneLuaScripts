@@ -1,45 +1,53 @@
 slot0 = class("IslandSceneLoader")
 
-slot0.Load = function(slot0, slot1, slot2, slot3)
-	slot0.sceneIndex = slot3 or 1
+slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.sceneIndex = slot4 or 1
 
 	pg.UIMgr.GetInstance():LoadingOn(false)
-	seriesAsync({
+
+	slot5 = {
 		function (slot0)
 			uv0:LoadProgressUI(slot0)
 		end,
 		function (slot0)
+			gcAll(true)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			uv0:LoadScene(uv1, slot0)
 		end,
-		slot2,
+		function (slot0)
+			uv0:LoadNavigationMesh(uv1, slot0)
+		end,
 		function (slot0)
 			uv0:UnloadProgressUI()
 			slot0()
 		end
-	}, function ()
+	}
+
+	for slot9 = #slot3, 1, -1 do
+		table.insert(slot5, 5, slot3[slot9])
+	end
+
+	seriesAsync(slot5, function ()
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
 
 slot0.LoadProgressUI = function(slot0, slot1)
-	slot2 = ResourceMgr.Inst
+	slot2 = pg.SceneAnimMgr.GetInstance()
 
-	slot2:getAssetAsync("ui/IslandSceneLoader", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0.progressUI = Object.Instantiate(slot0, pg.UIMgr.GetInstance().UIMain)
-		uv0.bg = uv0.progressUI.transform:Find("bg")
-		uv0.curtain = uv0.progressUI.transform:Find("curtain")
+	slot2:Dorm3DSceneChange(function (slot0)
+		uv0.resumeCallback = slot0
 
-		setActive(uv0.progressUI, true)
-		uv1()
-	end), true, true)
+		return uv1()
+	end)
 end
 
 slot0.UnloadProgressUI = function(slot0)
-	if slot0.progressUI then
-		Object.Destroy(slot0.progressUI)
+	slot0.resumeCallback = nil
 
-		slot0.progressUI = nil
-	end
+	existCall(slot0.resumeCallback)
 end
 
 slot0.LoadSceneWithProgress = function(slot0, slot1, slot2)
@@ -51,34 +59,36 @@ slot0.LoadSceneWithProgress = function(slot0, slot1, slot2)
 	slot6 = SceneOpMgr.Inst
 
 	slot6:LoadSceneAsyncWithProgress(slot5, slot4, LoadSceneMode.Additive, function (slot0)
-		uv0(slot0)
-
 		if slot0 == 1 then
-			SceneOpMgr.Inst:SetActiveSceneByIndex(uv1.sceneIndex)
+			SceneOpMgr.Inst:SetActiveSceneByIndex(uv0.sceneIndex)
 		end
+
+		uv1(slot0)
 	end)
 end
 
 slot0.LoadScene = function(slot0, slot1, slot2)
-	setActive(slot0.bg, true)
-	setActive(slot0.curtain, false)
-
-	slot3 = slot0.bg
-	slot3 = slot3:Find("slider/bar")
-	slot3:GetComponent(typeof(Image)).fillAmount = 0
-
 	slot0:LoadSceneWithProgress(slot1, function (slot0)
-		LeanTween.cancel(uv0.gameObject)
-
-		slot1 = LeanTween.value(uv0.gameObject, uv0.fillAmount, slot0, 0.5)
-		slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
-			uv0.fillAmount = slot0
-		end))
-
 		if slot0 == 1 then
-			slot1:setOnComplete(System.Action(uv1))
+			existCall(uv0)
 		end
 	end)
+end
+
+slot0.LoadNavigationMesh = function(slot0, slot1, slot2)
+	if not slot1 then
+		slot2()
+
+		return
+	end
+
+	slot3 = ResourceMgr.Inst
+
+	slot3:getAssetAsync("island/Navmesh/" .. slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		assert(slot0, "导航网格不能为空>>>>>" .. uv0)
+		Object.Instantiate(slot0)
+		uv1()
+	end), true, true)
 end
 
 slot0.UnLoad = function(slot0, slot1)

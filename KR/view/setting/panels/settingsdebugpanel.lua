@@ -1,7 +1,7 @@
 slot0 = class("SettingsDebugPanel", import(".SettingsBasePanel"))
 
 slot0.GetUIName = function(slot0)
-	return "SettingsNotifications"
+	return "SettingsOther"
 end
 
 slot0.GetTitle = function(slot0)
@@ -35,6 +35,9 @@ slot0.OnInit = function(slot0)
 	slot0:btn_save_photo()
 	slot0:btn_record_start()
 	slot0:btn_record_stop()
+	slot0:btn_vulkan()
+	slot0:btn_gles()
+	slot0:btn_show_api()
 end
 
 slot0.createBtn = function(slot0, slot1)
@@ -152,12 +155,8 @@ slot0.btn_push_10s = function(slot0)
 			pg.TipsMgr.GetInstance():ShowTips("推送测试通知")
 
 			slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
-			slot1 = slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec
-			slot2 = pg.TimeMgr.GetInstance():GetServerTime() + 10
 
-			pg.PushNotificationMgr.GetInstance():Push("测试标题11111", slot1, slot2)
-			pg.PushNotificationMgr.GetInstance():Push("测试标题22222", slot1, slot2)
-			pg.PushNotificationMgr.GetInstance():Push("测试标题33333", slot1, slot2)
+			pg.PushNotificationMgr.GetInstance():Push("测试标题", slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec, pg.TimeMgr.GetInstance():GetServerTime() + 10)
 			pg.PushNotificationMgr.GetInstance():PushCache()
 		end
 	})
@@ -243,6 +242,56 @@ slot0.btn_record_stop = function(slot0)
 		text = "结束录屏",
 		func = function ()
 			YSNormalTool.RecordTool.StopRecording(uv0)
+		end
+	})
+end
+
+slot0.btn_vulkan = function(slot0)
+	slot2 = ""
+
+	if GraphApiHelper.GetGraphApiSaveValue() == 0 then
+		slot2 = " 当前未设置，Unity自己选择。"
+	elseif slot1 == 1 then
+		slot2 = " 当前强制设置Vulkan。"
+	elseif slot1 == 2 then
+		slot2 = " 当前强制设置GLES。"
+	end
+
+	slot0:createBtn({
+		go = "btn_vulkan",
+		text = "设置为Vulkan(需要重启)" .. slot2,
+		func = function ()
+			GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_Vulkan)
+		end
+	})
+end
+
+slot0.btn_gles = function(slot0)
+	slot2 = ""
+
+	if GraphApiHelper.GetGraphApiSaveValue() == 0 then
+		slot2 = " 当前未设置，Unity自己选择。"
+	elseif slot1 == 1 then
+		slot2 = " 当前强制设置Vulkan。"
+	elseif slot1 == 2 then
+		slot2 = " 当前强制设置GLES。"
+	end
+
+	slot0:createBtn({
+		go = "btn_gles",
+		text = "设置为OpenGLES(需要重启)" .. slot2,
+		func = function ()
+			GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_OpenGLES)
+		end
+	})
+end
+
+slot0.btn_show_api = function(slot0)
+	slot0:createBtn({
+		go = "btn_show_api",
+		text = "点击显示当前Api",
+		func = function ()
+			pg.TipsMgr.GetInstance():ShowTips("当前Api:" .. GraphApiHelper.GetCurGraphApi())
 		end
 	})
 end

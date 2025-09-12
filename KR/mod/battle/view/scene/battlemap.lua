@@ -28,6 +28,7 @@ slot1.Ctor = function(slot0, slot1)
 			slot9.rightBorder = slot2.range_right
 			slot9.speedToLeft = slot2[slot7 .. "_speed"] or 0
 			slot9.speedScaler = 1
+			slot9.mainCamera = pg.UIMgr.GetInstance().mainCameraComp
 
 			table.insert(slot0.mapLayerCtrls, slot9)
 		end

@@ -1,49 +1,51 @@
-slot0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandSceneUnit"))
-slot1 = Vector3(-0.5, 0, -0.5)
+slot0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandInteractUnit"))
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot3)
 
 	slot0.callbacks = {}
 	slot0.root = slot2.transform
-	slot0.areaTr = slot2.transform:Find("area")
-	slot0.areaMaterial = slot0.areaTr:GetComponent("MeshRenderer").material
+	slot0.selected = slot2.transform:Find("selected")
+	slot0.conflict = slot2.transform:Find("conflict")
 
 	slot0:InitArea()
 end
 
 slot0.InitArea = function(slot0)
 	slot1 = slot0.data:GetSize()
-	slot0.areaTr.localScale = Vector3(slot1.x, 0.01, slot1.y)
+	slot0.selected.localScale = Vector3(slot1.x, 0.01, slot1.y)
+	slot0.conflict.localScale = Vector3(slot1.x, 0.01, slot1.y)
 
-	setActive(slot0.areaTr, false)
-	slot0:UpdateAreaState(true)
+	slot0:ShowOrHideArea(false)
 end
 
-slot0.ShowOrHideArea = function(slot0, slot1)
-	setActive(slot0.areaTr, slot1)
-end
-
-slot0.UpdateAreaState = function(slot0, slot1)
-	slot0.areaMaterial:SetColor("_Color", slot1 and Color.green or Color.red)
+slot0.ShowOrHideArea = function(slot0, slot1, slot2)
+	if slot2 then
+		setActive(slot0.conflict, slot1)
+		setActive(slot0.selected, not slot1)
+	else
+		setActive(slot0.conflict, false)
+		setActive(slot0.selected, false)
+	end
 end
 
 slot0.IsFullLoaded = function(slot0)
 	return slot0:IsLoaded()
 end
 
-slot0.Init = function(slot0, slot1)
+slot0.OnInit = function(slot0, slot1, slot2)
 	slot0._go = slot1
+	slot0.builder = slot2
 	slot0.root.name = slot0.data.id
 
+	setParent(slot0._go, slot0.root)
 	slot0:UpdatePosition(slot0.data:GetArea())
 	slot0:UpdateRotation(slot0.data:GetRotation())
-	slot0:OnInit(slot1)
 	slot0:AddListeners()
 
 	slot0.behaviourTreeOwner = slot0.root:GetComponent(typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner))
 
-	uv0.super.super.Init(slot0, slot1)
+	slot0:OnAttach(slot0.root)
 end
 
 slot0.AddListeners = function(slot0)
@@ -57,7 +59,14 @@ slot0.RemoveListeners = function(slot0)
 end
 
 slot0.UpdatePosition = function(slot0, slot1)
-	slot0.root.position = AgoraCalc.GetAreaCenterPos(slot1) + uv0
+	slot2 = AgoraCalc.GetAreaCenterPos(slot1)
+	slot3 = Vector3(0, 0, 0)
+
+	if slot0.data:IsBuildingType() then
+		slot3 = IslandConst.AGORA_BUILDING_Y_OFFSET
+	end
+
+	slot0.root.position = slot2 + IslandConst.AGORA_POSITION_OFFSET + slot3
 end
 
 slot0.UpdateRotation = function(slot0, slot1)
@@ -99,14 +108,15 @@ slot0.Disable = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
-	uv0.super.Dispose(slot0)
 	slot0:RemoveListeners()
 
 	slot0.callbacks = {}
+
+	uv0.super.Dispose(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	Object.Destroy(slot0.root.gameObject)
+	slot0.builder:RecycleRoot(slot0.root.gameObject)
 
 	slot0.root = nil
 end

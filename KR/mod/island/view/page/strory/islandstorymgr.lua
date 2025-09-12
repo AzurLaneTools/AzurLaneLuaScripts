@@ -1,4 +1,6 @@
 slot0 = class("IslandStoryMgr", import("view.base.BaseSubView"))
+slot0.START_STORY = "IslandStoryMgr:START_STORY"
+slot0.END_STORY = "IslandStoryMgr:END_STORY"
 slot1 = 0
 slot2 = 1
 slot3 = 2
@@ -18,6 +20,11 @@ slot0.OnLoaded = function(slot0)
 	slot0.autoBtn = slot1:Find("front/btns/btns/auto_button")
 	slot1 = findTF(slot0._tf, "front/btns/btns/auto_button/sel")
 	slot0.autoBtnImg = slot1:GetComponent(typeof(Image))
+	slot1 = slot0._tf
+	slot0.animator = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0._tf
+	slot0.aniDft = slot1:GetComponent(typeof(DftAniEvent))
+	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.player = Dialogue3DPlayer.New(slot0)
 	slot0.recordPanel = IslandStoryRecordPanel.New(slot0)
 	slot0.recorder = IslandStoryRecorder.New()
@@ -43,20 +50,36 @@ slot0.Play = function(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = _IslandCore
+	slot3 = slot3:GetView()
 	slot0.state = uv0
-	slot5 = IslandStory.New(pg.NewStoryMgr.GetInstance():GetScript(slot1), _IslandCore:GetView():GetUnitList(), IslandStory.MODE_DIALOGUE)
+	slot4 = pg.NewStoryMgr.GetInstance()
+	slot5 = IslandStory.New(slot4:GetScript(slot1), slot3:GetUnitListByKey(IslandConst.UNIT_LIST_OBJ), IslandStory.MODE_DIALOGUE)
 	slot0.script = slot5
 
 	slot0:StartScript(slot5)
-
-	slot6 = {}
+	table.insert({}, function (slot0)
+		uv0.player:OnStartAction(uv1, slot0)
+	end)
 
 	for slot10, slot11 in ipairs(slot5.steps) do
 		table.insert(slot6, function (slot0)
+			if uv0.isStop then
+				slot0()
+
+				return
+			end
+
 			uv0.player:Play(uv0.recorder, uv1, uv2, slot0)
 		end)
 	end
 
+	table.insert(slot6, function (slot0)
+		uv0.player:OnEndAction(uv1, slot0)
+	end)
+	table.insert(slot6, function (slot0)
+		uv0:PlayExitAniamtion(uv1, slot0)
+	end)
 	seriesAsync(slot6, function ()
 		uv0:EndScript(uv1)
 
@@ -67,16 +90,22 @@ slot0.Play = function(slot0, slot1, slot2)
 end
 
 slot0.StartScript = function(slot0, slot1)
+	slot0.isStop = false
+	slot0.canvasGroup.blocksRaycasts = true
+
 	slot0.recorder:Clear()
 	setActive(slot0._go, true)
 	slot0:RegisterSkipBtn()
 	slot0:RegisterLogBtn()
 	slot0:RegisterAutoBtn()
 	slot0.player:OnStart(slot1)
-
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.START_STORY)
-	end
+	pg.m02:sendNotification(GAME.STORY_UPDATE, {
+		storyId = slot1.id,
+		callback = function ()
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.STORY)
+		end
+	})
+	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_START)
 end
 
 slot0.RegisterAutoBtn = function(slot0)
@@ -125,11 +154,41 @@ slot0.RegisterLogBtn = function(slot0)
 			return
 		end
 
+		if uv0.script:GetAutoPlayFlag() then
+			uv0.script:StopAutoPlay()
+			uv0.player:CancelAuto()
+			uv0:UpdateAutoBtn()
+		end
+
 		uv0.recordPanel:Show(uv0.recorder)
 	end, SFX_PANEL)
 end
 
+slot0.PlayExitAniamtion = function(slot0, slot1, slot2)
+	if slot1:LastStepIsTimeline() then
+		if slot2 then
+			slot2()
+		end
+
+		return
+	end
+
+	slot0.aniDft:SetEndEvent(function ()
+		if uv0 then
+			uv0()
+		end
+	end)
+
+	slot0.canvasGroup.blocksRaycasts = false
+
+	slot0.animator:Play("anim_IslandStoryUI_Dialogue_Out")
+end
+
 slot0.EndScript = function(slot0, slot1)
+	slot0.isStop = false
+	slot0.canvasGroup.blocksRaycasts = true
+
+	slot0.aniDft:SetEndEvent(nil)
 	setActive(slot0._go, false)
 	removeOnButton(slot0.skipBtn)
 	removeOnButton(slot0.logBtn)
@@ -142,20 +201,48 @@ slot0.EndScript = function(slot0, slot1)
 	slot0.script = nil
 
 	slot0.player:OnEnd(slot1)
-
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.END_STORY)
-	end
+	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_END)
 end
 
 slot0.IsRunning = function(slot0)
 	return slot0.state == uv0
 end
 
+slot0.Stop = function(slot0)
+	if slot0.isStop then
+		return
+	end
+
+	if not slot0:IsRunning() then
+		return
+	end
+
+	slot0.isStop = true
+
+	slot0.player:NextOne()
+end
+
+slot0.onBackPressed = function(slot0)
+	if slot0.recordPanel and slot0.recordPanel:IsShowing() then
+		slot0.recordPanel:Hide()
+
+		return true
+	end
+
+	if slot0:IsRunning() then
+		slot0:Stop()
+
+		return true
+	end
+
+	return false
+end
+
 slot0.OnDestroy = function(slot0)
 	slot0.recorder:Dispose()
 	slot0.recordPanel:Dispose()
 	slot0.setSpeedPanel:Dispose()
+	slot0.player:Dispose()
 end
 
 return slot0

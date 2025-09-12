@@ -20,7 +20,7 @@ slot0.execute = function(slot0, slot1)
 
 	if slot4 == 2 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("确认选择当前名称\n后续可以在岛屿中进行修改"),
+			content = i18n("island_rename_tip"),
 			onYes = function ()
 				uv0:Send(uv1, uv2)
 			end,
@@ -28,7 +28,7 @@ slot0.execute = function(slot0, slot1)
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("确认将岛屿名称修改为:" .. slot3),
+			content = i18n("island_rename_confirm", slot3),
 			onYes = function ()
 				uv0:Send(uv1, uv2)
 			end,

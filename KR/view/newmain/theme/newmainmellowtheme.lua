@@ -42,7 +42,6 @@ end
 
 slot0.Refresh = function(slot0, slot1)
 	uv0.super.Refresh(slot0, slot1)
-	UIUtil.SetLayerRecursively(slot0.fxEffect.gameObject, LayerMask.NameToLayer("UI"))
 	slot0.animationPlayer:Play("anim_newmain_open")
 end
 
@@ -58,7 +57,6 @@ slot0.Disable = function(slot0)
 	uv0.super.Disable(slot0)
 	slot0.dftAniEvent:SetStartEvent(nil)
 	triggerToggle(slot0.switcher, false)
-	UIUtil.SetLayerRecursively(slot0.fxEffect.gameObject, LayerMask.NameToLayer("UIHidden"))
 end
 
 slot0.OnDestroy = function(slot0)

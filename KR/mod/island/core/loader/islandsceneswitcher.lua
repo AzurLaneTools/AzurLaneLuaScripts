@@ -3,7 +3,7 @@ slot0 = class("IslandSceneSwitcher", import(".IslandSceneLoader"))
 slot0.LoadProgressUI = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
-			uv0.super.LoadProgressUI(uv1, slot0)
+			uv0:LoadProgressUI(slot0)
 		end,
 		function (slot0)
 			uv0:PlayFadeIn(slot0)
@@ -11,8 +11,19 @@ slot0.LoadProgressUI = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.LoadProgressUI = function(slot0, slot1)
+	slot2 = ResourceMgr.Inst
+
+	slot2:getAssetAsync("ui/IslandSceneLoader", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0.progressUI = Object.Instantiate(slot0, pg.UIMgr.GetInstance().UIMain)
+		uv0.curtain = uv0.progressUI.transform:Find("curtain")
+
+		setActive(uv0.progressUI, true)
+		uv1()
+	end), true, true)
+end
+
 slot0.PlayFadeIn = function(slot0, slot1)
-	setActive(slot0.bg, false)
 	setActive(slot0.curtain, true)
 
 	GetOrAddComponent(slot0.curtain, typeof(CanvasGroup)).alpha = 0
@@ -43,7 +54,11 @@ slot0.UnloadProgressUI = function(slot0)
 		return
 	end
 
-	uv0.super.UnloadProgressUI(slot0)
+	if slot0.progressUI then
+		Object.Destroy(slot0.progressUI)
+
+		slot0.progressUI = nil
+	end
 end
 
 slot0.UnLoad = function(slot0, slot1)

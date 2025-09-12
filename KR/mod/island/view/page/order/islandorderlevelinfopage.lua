@@ -5,17 +5,37 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.levelTxt = slot0:findTF("frame/level"):GetComponent(typeof(Text))
-	slot0.expTr = slot0:findTF("frame/slider")
-	slot0.expTxt = slot0:findTF("frame/exp"):GetComponent(typeof(Text))
-	slot0.cntTxt = slot0:findTF("frame/cnt"):GetComponent(typeof(Text))
-	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/rect/content"), slot0:findTF("frame/rect/content/tpl"))
+	slot0.levelTxt = slot0:findTF("frame/animroot/level"):GetComponent(typeof(Text))
+	slot0.expTr = slot0:findTF("frame/animroot/slider")
+	slot0.expTxt = slot0:findTF("frame/animroot/exp"):GetComponent(typeof(Text))
+	slot0.cntTxt = slot0:findTF("frame/bg/Image/cnt"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/animroot/rect/content"), slot0:findTF("frame/animroot/rect/content/tpl"))
+	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
+	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
+		slot0 = uv0
+
+		slot0:PlayExitAnimation(function ()
+			uv0:Hide()
+		end)
 	end, SFX_PANEL)
+end
+
+slot0.PlayExitAnimation = function(slot0, slot1)
+	slot0.canvasGroup.blocksRaycasts = false
+
+	slot0.aniDft:SetEndEvent(function ()
+		uv0.canvasGroup.blocksRaycasts = true
+
+		if uv1 then
+			uv1()
+		end
+	end)
+	slot0.animator:Play("anim_island_shiporder_LVinfo_out")
 end
 
 slot0.AddListeners = function(slot0)
@@ -44,7 +64,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.FlushCnt = function(slot0, slot1)
-	slot0.cntTxt.text = i18n1("本周加急订单剩余：") .. slot1:GetLeftUrgentCnt()
+	slot0.cntTxt.text = i18n("island_order_leftcnt_dispaly", slot1:GetLeftUrgentCnt())
 end
 
 slot0.FlushLevelInfo = function(slot0, slot1)
@@ -111,7 +131,7 @@ slot0.UpdateAwards = function(slot0, slot1, slot2)
 
 	slot4:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
+			updateCustomDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 		end
 	end)
 	slot4:align(math.min(2, #pg.island_order_favor[slot2].award_display))

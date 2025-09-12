@@ -5,64 +5,89 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.GetTitle = function(slot0)
-	return i18n("Settings_title_resUpdate")
+	return i18n("Settings_title_resManage")
 end
 
 slot0.GetTitleEn = function(slot0)
-	return "  / DOWNLOAD"
+	return "  / RESOURCES"
 end
 
 slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("Tpl")
-	slot0.containerTF = slot0._tf:Find("options/list")
 	slot0.iconTF = slot0._tf:Find("Icon")
-	slot2 = not GroupMainHelper.IsVerSameWithServer()
+	slot0.fullTF = slot0._tf:Find("options_full")
+	slot0.mainTF = slot0._tf:Find("options_main")
+	slot0.fullTitleText = slot0._tf:Find("options_full/Title/Text")
+	slot0.mainTitleText = slot0._tf:Find("options_main/Title/Text")
+	slot0.specialTitleText = slot0._tf:Find("options_special/Title/Text")
 
-	setActive(slot0._tf:Find("options/MainGroup"), slot2)
+	setText(slot0.fullTitleText, i18n("Settings_title_resManage_All"))
+	setText(slot0.mainTitleText, i18n("Settings_title_resManage_Main"))
+	setText(slot0.specialTitleText, i18n("Settings_title_resManage_Sub"))
 
-	if slot2 then
-		slot0.mainGroupBtn = SettingsMainGroupBtn.New(slot1)
+	slot0.fullGroupTF = slot0._tf:Find("options_full/MainGroup")
+	slot0.mainContainerTF = slot0._tf:Find("options_main/list")
+	slot0.specialContainerTF = slot0._tf:Find("options_special/list")
+	slot1 = not GroupMainHelper.IsVerSameWithServer()
+
+	setActive(slot0.fullTF, slot1)
+
+	if slot1 then
+		slot0.mainGroupBtn = SettingsMainGroupBtn.New(slot0.fullGroupTF)
+		GetComponent(slot0.mainTF, typeof(VerticalLayoutGroup)).padding.top = 0
+	else
+		GetComponent(slot0.mainTF, typeof(VerticalLayoutGroup)).padding.top = GetComponent(slot0.fullTF, typeof(VerticalLayoutGroup)).padding.top
 	end
 
+	slot0.galleryBtn = SettingsGalleryBtn.New({
+		isDel = true,
+		tpl = slot0.tpl,
+		container = slot0.specialContainerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("GALLERY_PIC"))
+	})
+	slot0.mangaBtn = SettingsMangaBtn.New({
+		isDel = true,
+		tpl = slot0.tpl,
+		container = slot0.specialContainerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("MANGA"))
+	})
+	slot0.dormBtn = SettingsDormBtn.New({
+		isDel = true,
+		tpl = slot0.tpl,
+		container = slot0.specialContainerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("DORM"))
+	})
+	slot0.mapBtn = SettingsMapBtn.New({
+		isDel = true,
+		tpl = slot0.tpl,
+		container = slot0.specialContainerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("MAP"))
+	})
+	slot0.repairBtn = SettingsResRepairBtn.New({
+		isDel = false,
+		tpl = slot0.tpl,
+		container = slot0.specialContainerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("REPAIR"))
+	})
 	slot0.soundBtn = SettingsSoundBtn.New({
 		tpl = slot0.tpl,
-		container = slot0.containerTF,
+		container = slot0.mainContainerTF,
 		iconSP = getImageSprite(slot0.iconTF:Find("CV"))
 	})
 	slot0.live2dBtn = SettingsLive2DBtn.New({
 		tpl = slot0.tpl,
-		container = slot0.containerTF,
+		container = slot0.mainContainerTF,
 		iconSP = getImageSprite(slot0.iconTF:Find("L2D"))
-	})
-	slot0.galleryBtn = SettingsGalleryBtn.New({
-		tpl = slot0.tpl,
-		container = slot0.containerTF,
-		iconSP = getImageSprite(slot0.iconTF:Find("GALLERY_PIC"))
 	})
 	slot0.musicBtn = SettingsMusicBtn.New({
 		tpl = slot0.tpl,
-		container = slot0.containerTF,
+		container = slot0.mainContainerTF,
 		iconSP = getImageSprite(slot0.iconTF:Find("GALLERY_BGM"))
 	})
-	slot0.mangaBtn = SettingsMangaBtn.New({
-		tpl = slot0.tpl,
-		container = slot0.containerTF,
-		iconSP = getImageSprite(slot0.iconTF:Find("MANGA"))
-	})
 
-	if not LOCK_3DDORM_RES_DOWNLOAD_BTN then
-		slot0.dormBtn = SettingsDormBtn.New({
-			tpl = slot0.tpl,
-			container = slot0.containerTF,
-			iconSP = getImageSprite(slot0.iconTF:Find("DORM"))
-		})
+	if LOCK_ISLAND_DISPLAY then
+		setActive(slot0.mapBtn._tf, false)
 	end
-
-	slot0.repairBtn = SettingsResRepairBtn.New({
-		tpl = slot0.tpl,
-		container = slot0.containerTF,
-		iconSP = getImageSprite(slot0.iconTF:Find("REPAIR"))
-	})
 end
 
 slot0.Dispose = function(slot0)
@@ -93,11 +118,13 @@ slot0.Dispose = function(slot0)
 
 		slot0.mangaBtn = nil
 
-		if slot0.dormBtn then
-			slot0.dormBtn:Dispose()
+		slot0.dormBtn:Dispose()
 
-			slot0.dormBtn = nil
-		end
+		slot0.dormBtn = nil
+
+		slot0.mapBtn:Dispose()
+
+		slot0.mapBtn = nil
 
 		if slot0.mainGroupBtn then
 			slot0.mainGroupBtn:Dispose()

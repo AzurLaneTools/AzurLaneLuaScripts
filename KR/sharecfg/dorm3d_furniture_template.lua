@@ -832,6 +832,67 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[401] = {
+		rarity = 5,
+		name = "시사이드 레저",
+		type = 3,
+		touch_id = "",
+		room_id = 4,
+		desc = "드디어 바캉스가 시작될 시간! 야자수 아래로 비치는 햇살과 시원한 해안가, 물보라와 바닷바람. 당신의 마음도 곧 바캉스의 즐거움으로 가득찰 것이다.",
+		is_exclusive = 0,
+		model = "pay_publicplace/slide",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 401,
+		target_slots = {
+			140101
+		},
+		shop_id = {
+			270401
+		},
+		unlock_tips = {
+			7
+		},
+		unlock_banners = {
+			"banner_furniture401"
+		}
+	},
+	[323] = {
+		rarity = 4,
+		name = "클라우드 드림",
+		type = 5,
+		room_id = 3,
+		desc = "하늘거리는 구름과 부드러운 감촉, 마시멜로를 방불케하는 푹신한 느낌까지. 달콤한 향기 속에서 여유로운 시간을 보내자.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		acesses = "",
+		id = 323,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990360
+			}
+		},
+		shop_id = {
+			270303
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture323"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	[1101] = {
 		rarity = 3,
 		name = "토끼 요람",
@@ -1120,7 +1181,11 @@ pg.dorm3d_furniture_template = {
 			306,
 			307,
 			321,
-			322
+			322,
+			323
+		},
+		{
+			401
 		},
 		[11] = {
 			1101,
@@ -1168,6 +1233,8 @@ pg.dorm3d_furniture_template = {
 		307,
 		321,
 		322,
+		401,
+		323,
 		1101,
 		1102,
 		1103,

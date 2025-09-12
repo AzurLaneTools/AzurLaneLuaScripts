@@ -250,6 +250,21 @@ pg.dorm3d_zone_template = {
 		},
 		special_action = {}
 	},
+	[4005] = {
+		is_global = 0,
+		name = "미끄럼틀",
+		type_prioritys = "",
+		id = 4005,
+		room_id = 4,
+		watch_camera = "Slide",
+		touch_id = {
+			{
+				19903,
+				1990390
+			}
+		},
+		special_action = {}
+	},
 	[11001] = {
 		is_global = 0,
 		name = "침실",
@@ -331,7 +346,8 @@ pg.dorm3d_zone_template = {
 			4001,
 			4002,
 			4003,
-			4004
+			4004,
+			4005
 		},
 		[11] = {
 			11001,
@@ -357,6 +373,7 @@ pg.dorm3d_zone_template = {
 		4002,
 		4003,
 		4004,
+		4005,
 		11001,
 		11002,
 		11003,

@@ -3,10 +3,10 @@ slot0 = class("TimelinePlayer")
 slot0.Ctor = function(slot0, slot1)
 	slot0.comDirector = slot1:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
-	if GetComponent(slot1, "TimelineSpeed") then
+	if GetComponent(slot1, typeof(TimelineSpeed)) then
 		slot0:SetSpeed(1)
 	else
-		GetOrAddComponent(slot1, "TimelineSpeed")
+		GetOrAddComponent(slot1, typeof(TimelineSpeed))
 	end
 
 	slot0.signalReceiver = GetOrAddComponent(slot1, "DftCommonSignalReceiver")

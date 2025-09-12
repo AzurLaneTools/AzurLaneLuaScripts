@@ -21,7 +21,7 @@ pg.dorm3d_accompany = {
 		unlock = {}
 	},
 	{
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		name = "休闲相伴",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
@@ -45,7 +45,7 @@ pg.dorm3d_accompany = {
 		}
 	},
 	[21] = {
-		sceneInfo = "map_noshirohostel_02|Nengdai_DB/NoshiroHostel",
+		sceneInfo = "map_noshirohostel_01|Nengdai_DB/NoshiroHostel",
 		name = "日常相伴",
 		performance_time = 20,
 		image = "nengdai_accompany_room",
@@ -65,7 +65,7 @@ pg.dorm3d_accompany = {
 		unlock = {}
 	},
 	[22] = {
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		name = "休闲相伴",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
@@ -89,7 +89,7 @@ pg.dorm3d_accompany = {
 		}
 	},
 	[31] = {
-		sceneInfo = "map_anchoragehostel_02|Ankeleiqi_DB/Anchoragehostel",
+		sceneInfo = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
 		name = "일상 동반",
 		performance_time = 20,
 		image = "ankeleiqi_accompany_room",
@@ -109,7 +109,7 @@ pg.dorm3d_accompany = {
 		unlock = {}
 	},
 	[32] = {
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		name = "캐주얼 동반",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
@@ -133,7 +133,7 @@ pg.dorm3d_accompany = {
 		}
 	},
 	[111] = {
-		sceneInfo = "map_newjerseyhostel_02|Xinzexi_DB/Newjerseyhostel",
+		sceneInfo = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
 		name = "일상 동반",
 		performance_time = 20,
 		image = "xinzexi_accompany_room",
@@ -153,7 +153,7 @@ pg.dorm3d_accompany = {
 		unlock = {}
 	},
 	[112] = {
-		sceneInfo = "map_publiccafe_02|Publiccafe",
+		sceneInfo = "map_publiccafe_01|Publiccafe",
 		name = "캐주얼 동반",
 		performance_time = 20,
 		image = "cafe_accompany",

@@ -1,6 +1,10 @@
 slot0 = class("PlayerAttire", import(".BaseVO"))
 
 slot0.Ctor = function(slot0, slot1)
+	slot0:Flush(slot1)
+end
+
+slot0.Flush = function(slot0, slot1)
 	slot0.icon = slot1.icon or (slot1.display or {}).icon
 
 	if slot1.character then

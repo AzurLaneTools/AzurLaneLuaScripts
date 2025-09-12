@@ -55,6 +55,11 @@ pg.dorm3d_scene_animator = {
 		room_id = 11,
 		item_name = "FurnitureSlots/1110303/pre_db_njh_entertainment01(Clone)/pre_db_njh_sportsequipment01/vfx_njh_bike"
 	},
+	[2012] = {
+		id = 2012,
+		room_id = 3,
+		item_name = "FurnitureSlots/130302/pre_db_ah_livingroom01(Clone)"
+	},
 	get_id_list_by_room_id = {
 		{
 			2001
@@ -65,7 +70,8 @@ pg.dorm3d_scene_animator = {
 			2009
 		},
 		{
-			2003
+			2003,
+			2012
 		},
 		{
 			2004
@@ -89,6 +95,7 @@ pg.dorm3d_scene_animator = {
 		2008,
 		2009,
 		2010,
-		2011
+		2011,
+		2012
 	}
 }

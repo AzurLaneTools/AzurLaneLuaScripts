@@ -5,16 +5,22 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.itemTr = slot0:findTF("award")
-	slot0.cntTxt = slot0:findTF("count/Text"):GetComponent(typeof(Text))
-	slot0.uiAwardList = UIItemList.New(slot0:findTF("list"), slot0:findTF("list/tpl"))
-	slot0.submitBtn = slot0:findTF("btn")
+	slot0.mainTr = slot0:findTF("main")
+	slot0.cntTxt = slot0:findTF("main/name/count"):GetComponent(typeof(Text))
+	slot0.submitBtn = slot0:findTF("main/btn/btn_1")
+	slot0.noResBtn = slot0:findTF("main/btn/btn_2")
+	slot0.awardCntTxt = slot0:findTF("main/price/Text"):GetComponent(typeof(Text))
+	slot0.nameTxt = slot0:findTF("main/name"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("title/Text"), i18n1("装载奖励"))
-	setText(slot0:findTF("btn/Text"), i18n1("装载"))
+	setText(slot0:findTF("main/title/Text"), i18n("island_order_ship_loadup_award"))
+	setText(slot0:findTF("main/btn/btn_2/Text"), i18n("island_order_ship_loadup_nores"))
+	setText(slot0:findTF("main/btn/btn_1/Text"), i18n("island_order_ship_loadup"))
 end
 
 slot0.OnInit = function(slot0)
+	onButton(slot0, slot0._tf, function ()
+		uv0:emit(IslandShipOrderPage.EVENT_CLOSE_LOAD_UP)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.submitBtn, function ()
 		if not uv0.slot or not uv0.index then
 			return
@@ -29,26 +35,15 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 
 	slot0.slot = slot2
 	slot0.index = slot3
-	slot0._tf.localPosition = slot1
+	slot0.mainTr.localPosition = slot1
 	slot5 = Drop.New(slot2:GetOrder():GetComsume(slot3))
+	slot8 = slot5.count <= slot5:getOwnedCount()
+	slot0.cntTxt.text = setColorStr(slot6 .. "/" .. slot7, slot8 and "#39beff" or "#f36c6e")
+	slot0.nameTxt.text = slot5:getName()
+	slot0.awardCntTxt.text = "X" .. slot2:GetOrder():GetConsumeAwards(slot3)[1].count
 
-	updateDrop(slot0.itemTr, slot5)
-
-	slot0.cntTxt.text = slot5:getOwnedCount() .. "/" .. slot5.count
-
-	slot0:UpdateAwards(slot2, slot3)
-end
-
-slot0.UpdateAwards = function(slot0, slot1, slot2)
-	slot0.uiAwardList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = Drop.New(uv0[slot1 + 1])
-
-			GetImageSpriteFromAtlasAsync(slot3.cfg.icon, "", slot2:Find("icon"))
-			setText(slot2:Find("Text"), "X" .. slot3.count)
-		end
-	end)
-	slot0.uiAwardList:align(#slot1:GetOrder():GetConsumeAwards(slot2))
+	setActive(slot0.submitBtn, slot8)
+	setActive(slot0.noResBtn, not slot8)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -18,6 +18,10 @@ slot0.Init = function(slot0, slot1)
 end
 
 slot0.Record = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
 	table.insert(slot0.readBuffer, slot1)
 	slot0:Cache()
 

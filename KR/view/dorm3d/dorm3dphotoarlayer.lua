@@ -309,17 +309,12 @@ slot0.didEnter = function(slot0)
 			}):GetStateName()))
 		end
 
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			uv0.mainCamera,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				uv0(true)
-				uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
-			end)
-		})
+		slot3 = function(slot0)
+			uv0(true)
+			uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
+		end
+
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv0.mainCamera, callback)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(slot0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false

@@ -365,7 +365,7 @@ return {
 			hideRecordIco = true,
 			actorName = "마법성전",
 			hidePaintObj = true,
-			say = "[인물] 뒤켄. 당신의 동급생. 우로보로스 마법학교 제91기의 최우수 졸업생 중 한 명.",
+			say = "[인물] 르 아르디. 당신의 동급생. 우로보로스 마법학교 제91기의 최우수 졸업생 중 한 명.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hideRecordIco = true,
 			actorName = "마법성전",
 			hidePaintObj = true,
-			say = "[인물] 르 아르디. 당신의 동급생. 우로보로스 마법학교 제91기의 최우수 졸업생 중 한 명.",
+			say = "[인물] 뒤게 트루앵. 당신의 동급생. 우로보로스 마법학교 제91기의 최우수 졸업생 중 한 명.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

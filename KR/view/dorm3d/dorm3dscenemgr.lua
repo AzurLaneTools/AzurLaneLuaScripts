@@ -17,13 +17,15 @@ slot0.Ctor = function(slot0, slot1, slot2)
 			slot1 = SceneOpMgr.Inst
 
 			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
+				uv0.originArtScene = slot0
+
 				SceneManager.SetActiveScene(slot0)
 
 				if getSceneRootTFDic(slot0).MainCamera then
 					setActive(slot2, false)
 				end
 
-				uv0()
+				uv1()
 			end)
 		end,
 		function (slot0)
@@ -128,7 +130,7 @@ slot0.UnloadTimelineScene = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.ChangeArtScene = function(slot0, slot1, slot2)
-	if slot1 == slot0.artSceneInfo then
+	if uv0.IsSameSceneInfo(slot1, slot0.artSceneInfo) then
 		existCall(slot2)
 
 		return
@@ -138,7 +140,7 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 	slot4 = false
 	slot5 = nil
 
-	if slot1 == slot0.sceneInfo then
+	if uv0.IsSameSceneInfo(slot1, slot0.sceneInfo) then
 		table.insert(slot3, function (slot0)
 			slot1, slot2 = uv0.ParseInfo(uv1.sceneInfo)
 
@@ -176,7 +178,7 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 		end)
 	end
 
-	if slot0.artSceneInfo == slot0.sceneInfo then
+	if uv0.IsSameSceneInfo(slot0.artSceneInfo, slot0.sceneInfo) then
 		table.insert(slot3, function (slot0)
 			slot1, slot2 = uv0.ParseInfo(uv1.sceneInfo)
 
@@ -187,7 +189,11 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 		slot6, slot7 = uv0.ParseInfo(slot0.artSceneInfo)
 
 		table.insert(slot3, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
+			slot1 = SceneOpMgr.Inst
+
+			slot1:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, function ()
+				existCall(uv0)
+			end)
 		end)
 	end
 
@@ -205,9 +211,7 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
-	warning(slot0.subSceneInfo, "->", slot1, slot1 == slot0.subSceneInfo)
-
-	if slot1 == slot0.subSceneInfo then
+	if uv0.IsSameSceneInfo(slot1, slot0.subSceneInfo) then
 		return existCall(slot2)
 	end
 
@@ -215,7 +219,7 @@ slot0.ChangeSubScene = function(slot0, slot1, slot2)
 	slot4 = false
 	slot5 = nil
 
-	if slot1 ~= slot0.sceneInfo then
+	if not uv0.IsSameSceneInfo(slot1, slot0.sceneInfo) then
 		slot4 = true
 
 		table.insert(slot3, function (slot0)
@@ -236,7 +240,7 @@ slot0.ChangeSubScene = function(slot0, slot1, slot2)
 		end)
 	end
 
-	if slot0.subSceneInfo ~= slot0.sceneInfo then
+	if not uv0.IsSameSceneInfo(slot0.subSceneInfo, slot0.sceneInfo) then
 		slot6, slot7 = uv0.ParseInfo(slot0.subSceneInfo)
 		slot6 = slot6 .. "_base"
 
@@ -275,7 +279,7 @@ slot0.Dispose = function(slot0)
 		slot0.sceneInfo
 	}
 
-	if slot0.subSceneInfo ~= slot0.sceneInfo then
+	if not uv0.IsSameSceneInfo(slot0.subSceneInfo, slot0.sceneInfo) then
 		table.insert(slot2, slot0.subSceneInfo)
 	end
 
@@ -292,7 +296,7 @@ slot0.Dispose = function(slot0)
 		slot0.sceneInfo
 	}
 
-	if slot0.artSceneInfo ~= slot0.sceneInfo then
+	if not uv0.IsSameSceneInfo(slot0.artSceneInfo, slot0.sceneInfo) then
 		table.insert(slot3, slot0.artSceneInfo)
 	end
 
@@ -313,6 +317,10 @@ slot0.Dispose = function(slot0)
 
 		print("unload scene finish !")
 	end)
+end
+
+slot0.IsSameSceneInfo = function(slot0, slot1)
+	return string.lower(slot0) == string.lower(slot1)
 end
 
 return slot0

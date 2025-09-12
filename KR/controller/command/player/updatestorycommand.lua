@@ -1,7 +1,10 @@
 slot0 = class("UpdateStoryCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	assert(type(slot1:getBody().storyId) == "string")
+	slot2 = slot1:getBody()
+	slot4 = slot2.callback
+
+	assert(type(slot2.storyId) == "string")
 
 	if not pg.ConnectionMgr.GetInstance():getConnection() or not pg.ConnectionMgr.GetInstance():isConnected() then
 		return
@@ -11,9 +14,9 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	slot5 = {}
+	slot6 = {}
 
-	slot6 = function(slot0, slot1)
+	slot7 = function(slot0, slot1)
 		pg.ConnectionMgr.GetInstance():Send(11017, {
 			story_id = slot0
 		}, 11018, function (slot0)
@@ -26,7 +29,7 @@ slot0.execute = function(slot0, slot1)
 		end)
 	end
 
-	slot7 = function(slot0, slot1)
+	slot8 = function(slot0, slot1)
 		slot2, slot3 = uv0:StoryName2StoryId(slot0)
 		slot4 = {}
 
@@ -47,18 +50,19 @@ slot0.execute = function(slot0, slot1)
 
 	table.insert(pg.NewStoryMgr.GetInstance():StoryLinkNames(slot3) or {}, slot3)
 
-	slot9 = {}
+	slot10 = {}
 
-	for slot13, slot14 in ipairs(slot8) do
-		table.insert(slot9, function (slot0)
+	for slot14, slot15 in ipairs(slot9) do
+		table.insert(slot10, function (slot0)
 			uv0(uv1, slot0)
 		end)
 	end
 
-	seriesAsync(slot9, function ()
-		uv0:sendNotification(GAME.STORY_UPDATE_DONE, {
-			storyName = uv1,
-			awards = uv2
+	seriesAsync(slot10, function ()
+		existCall(uv0)
+		uv1:sendNotification(GAME.STORY_UPDATE_DONE, {
+			storyName = uv2,
+			awards = uv3
 		})
 	end)
 end

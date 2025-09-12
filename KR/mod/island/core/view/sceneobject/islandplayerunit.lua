@@ -5,31 +5,41 @@ slot4 = 5
 slot5 = 150
 slot6 = slot1(1.8, 1.8)
 slot7 = slot1(0, 2)
+slot9 = bit.bnot(bit.lshift(1, LayerMask.NameToLayer("IgnoreIslandCharacter")))
+slot10 = {
+	JumpHandle = 1,
+	LoadToolHandle = 2
+}
 
-slot3.OnInit = function(slot0)
-	slot0.jumpCurve = LoadAny("island/jumpcurve/jumpcurve", "", typeof(JumpCurve)).curve
-	slot0.jumpCruveAllTime = slot0.jumpCurve.keys[slot0.jumpCurve.length - 1].time
+slot3.OnAttach = function(slot0, slot1)
+	uv0.super.OnAttach(slot0, slot1)
+
 	slot0.mapId = getProxy(IslandProxy):GetIsland():GetMapId()
 	slot0._tf = slot0._go.transform
 	slot0.animator = slot0._tf:GetChild(0):GetComponent(typeof(Animator))
 	slot0.characterController = slot0._go:GetComponent(typeof(CharacterController))
 	slot0.characterHandleController = slot0._go:GetComponent(typeof(CharacterHandleController))
 	slot2 = pg.island_set.detection_parameters.key_value_varchar
-	uv0 = slot2[2]
-	uv1 = slot2[1]
-	uv2 = uv3(0, slot2[3])
+	uv1 = slot2[2]
+	uv2 = slot2[1]
+	uv3 = uv4(0, slot2[3])
 
-	slot0.characterHandleController:SetDrawParameter(uv0, uv1, slot2[3])
-	slot0.characterHandleController:AddStateEnterFunc(function (slot0)
-		uv0:StateEnterHandle(slot0)
+	slot0.characterHandleController:SetDrawParameter(uv1, uv2, slot2[3])
+	slot0.characterHandleController:AddStateEnterFunc(function (slot0, slot1)
+		uv0:StateEnterHandle(slot0, slot1)
 	end)
-	slot0.characterHandleController:AddStateExitFunc(function (slot0)
-		uv0:StateExitHandle(slot0)
+	slot0.characterHandleController:AddStateExitFunc(function (slot0, slot1)
+		uv0:StateExitHandle(slot0, slot1)
+	end)
+	slot0.characterHandleController:AddStateEnterFixCompleteFunc(function (slot0, slot1)
+		uv0:StateEnterFixHandle(slot0, slot1)
+	end)
+	slot0.characterHandleController:AddStateExitFixCompleteFunc(function (slot0, slot1)
+		uv0:StateExitFixHandle(slot0, slot1)
 	end)
 
 	slot0.targetSpeed = 0
 	slot0.speed = 0
-	slot0.targetRotation = Quaternion.identity
 	slot0.gravitySpeed = 0
 	slot0.jumpVector = Vector3.zero
 	slot3 = pg.island_set.player_movement_parameters.key_value_varchar
@@ -45,23 +55,26 @@ slot3.OnInit = function(slot0)
 	slot0.isSitting = false
 	slot0.prevStandPosition = nil
 	slot0.checkInSet = {}
-	slot0.orginTargetDir = uv4
-	slot0.pageDressDic = {}
+	slot0.lastCrossCount = 0
+	slot0.orginTargetDir = uv5
 
-	slot0:InitMapCheckWorldObject()
+	slot0:InitDress()
+	slot0:InitFarmCheckWorldObject()
+
+	slot0.objTfList = {}
+	slot0.islandid = slot0:GetView():GetIsland().id
+	slot0.isSelfIsland = getProxy(PlayerProxy):getRawData().id == slot0.islandid
+end
+
+slot3.InitJump = function(slot0, slot1)
+	slot0.jumpCurve = slot1
+	slot0.jumpCruveAllTime = slot0.jumpCurve.keys[slot0.jumpCurve.length - 1].time
 end
 
 slot3.OnLateUpdate = function(slot0)
-	if slot0.jumpTrigger then
-		slot0.animator:ResetTrigger(IslandConst.JUMP_FLAG)
-	end
-
-	if slot0.runTrigger then
-		slot0.animator:ResetTrigger(IslandConst.RUN_FLAG)
-	end
 end
 
-slot3.OnUpdate = function(slot0)
+slot3.OnNormalUpdate = function(slot0)
 	slot0:RefreshTemp()
 
 	slot1 = Time.deltaTime
@@ -70,7 +83,6 @@ slot3.OnUpdate = function(slot0)
 	slot0:Rotation(slot1)
 	slot0:Move(slot1)
 	slot0:Detectionobject()
-	slot0:Handle()
 end
 
 slot3.RefreshTemp = function(slot0)
@@ -85,7 +97,13 @@ slot3.RefreshTemp = function(slot0)
 end
 
 slot3.Rotation = function(slot0, slot1)
-	slot0._tf.rotation = Quaternion.RotateTowards(slot0._tf.rotation, slot0.targetRotation, slot0.degreeSpeed * slot1)
+	if slot0.targetRotation then
+		slot0._tf.rotation = Quaternion.RotateTowards(slot0._tf.rotation, slot0.targetRotation, slot0.degreeSpeed * slot1)
+	end
+end
+
+slot3.SetTargetRotation = function(slot0, slot1)
+	slot0.targetRotation = slot1
 end
 
 slot3.Move = function(slot0, slot1)
@@ -156,7 +174,7 @@ slot3.PositionTween = function(slot0, slot1)
 end
 
 slot3.CalcGrounded = function(slot0)
-	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius)
+	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
 		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
@@ -166,7 +184,7 @@ slot3.CalcGrounded = function(slot0)
 end
 
 slot3.CalcNotFalling = function(slot0)
-	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 0.3 + 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius)
+	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 0.3 + 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
 		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
@@ -199,6 +217,10 @@ slot3.MoveHandle = function(slot0, slot1, slot2)
 		return
 	end
 
+	if slot0.animator then
+		slot0.animator:SetFloat(IslandConst.INPUT_MAGNITUDE, slot2)
+	end
+
 	slot0.orginTargetDir = slot1
 	slot0.lastTargetSpeed = slot2 * slot0.maxSpeed
 	slot0.targetSpeed = slot0.isSprint and slot0.sprintSpeed or slot0.lastTargetSpeed
@@ -206,14 +228,44 @@ end
 
 slot3.StopMoveHandle = function(slot0)
 	slot0.targetSpeed = 0
+	slot0.speed = 0
+
+	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
+	slot0.animator:SetFloat(IslandConst.INPUT_MAGNITUDE, 0)
+
 	slot0.orginTargetDir = uv0
 	slot0.isSprint = false
 end
 
 slot3.JumpHandle = function(slot0)
-	slot0.jumpTrigger = true
+	if slot0:CheckCanJump() then
+		slot0.animator:SetTrigger(IslandConst.JUMP_FLAG)
+	end
+end
 
-	slot0.animator:SetTrigger(IslandConst.JUMP_FLAG)
+slot3.WorkHandle = function(slot0, slot1, slot2, slot3)
+	if slot3 then
+		slot0.collectToolId = slot3
+	end
+
+	if slot2 then
+		slot4 = slot2 - slot0:GetCurrentPosition()
+		slot0.targetRotation = Quaternion.LookRotation(uv0(slot4.x, 0, slot4.z).normalized)
+	end
+
+	slot0.animator:SetTrigger(slot1)
+end
+
+slot3.DeviceStateHandle = function(slot0, slot1)
+	if not slot0.animator then
+		return
+	end
+
+	if slot1 then
+		slot0.animator:SetTrigger(IslandConst.DEVICE_SHOW_FLAG)
+	else
+		slot0.animator:SetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
+	end
 end
 
 slot3.OnPlayerPlayerSprint = function(slot0)
@@ -233,13 +285,55 @@ slot3.OnStopPlayerSprint = function(slot0)
 	end
 end
 
-slot3.StateEnterHandle = function(slot0, slot1)
-	if slot1.shortNameHash == IslandConst.jumpState then
-		slot0:OnEnterJumpState()
+slot3.LoadInteractiveTool = function(slot0, slot1)
+	if slot1 == 0 then
+		slot0.toolId = slot0.collectToolId
+	else
+		slot0.toolId = slot1
+	end
+
+	if slot0.objTfList[slot0.toolId] then
+		setActive(slot2, true)
+		setParent(slot2, slot0._tf)
+		pg.ViewUtils.SetLayer(slot2, Layer.UIHidden)
+
+		return
+	end
+
+	slot3 = pg.island_animation_attachments[slot0.toolId]
+	slot0.objTfList[slot0.toolId] = Object.Instantiate(LoadAny(slot3.model, nil)).transform
+	GetOrAddComponent(slot0.objTfList[slot0.toolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
+
+	setParent(slot0.objTfList[slot0.toolId], slot0._tf)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
+end
+
+slot3.UnLoadInteractiveTool = function(slot0)
+	if slot0.objTfList[slot0.toolId] then
+		setActive(slot0.objTfList[slot0.toolId], false)
 	end
 end
 
-slot3.StateExitHandle = function(slot0, slot1)
+slot3.StateEnterHandle = function(slot0, slot1, slot2)
+	if slot1 == uv0.JumpHandle then
+		slot0:OnEnterJumpState()
+	elseif slot1 == uv0.LoadToolHandle then
+		slot0:LoadInteractiveTool(slot2)
+	end
+end
+
+slot3.StateEnterFixHandle = function(slot0, slot1, slot2)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Default)
+end
+
+slot3.StateExitFixHandle = function(slot0, slot1, slot2)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
+end
+
+slot3.StateExitHandle = function(slot0, slot1, slot2)
+	if slot1 == uv0.LoadToolHandle then
+		slot0:UnLoadInteractiveTool(slot2)
+	end
 end
 
 slot3.OnEnterJumpState = function(slot0)
@@ -250,17 +344,53 @@ slot3.OnEnterJumpState = function(slot0)
 	}
 end
 
-slot8 = slot1(0, 0)
-slot9 = LayerMask.GetMask("IslandDetection")
+slot11 = slot1(0, 0)
 
-slot3.Detectionobject = function(slot0)
+slot3.InitFarmCheckWorldObject = function(slot0)
 	if slot0.mapId ~= 1001 then
 		return
 	end
 
-	table.IpairsCArray(Physics.OverlapSphere(slot0._tf.position, uv0, uv1), function (slot0, slot1)
-		table.insert(uv0, slot1)
-	end)
+	slot0.detectionList = {}
+
+	for slot4, slot5 in ipairs(pg.island_production_farm.all) do
+		slot7 = pg.island_world_objects[pg.island_production_farm[slot5].objId]
+
+		table.insert(slot0.detectionList, {
+			id = slot7.id,
+			position = slot7.param.position
+		})
+	end
+end
+
+slot3.IsSelf = function(slot0)
+end
+
+slot3.Detectionobject = function(slot0)
+	if slot0.mapId ~= 1001 or not slot0.isSelfIsland then
+		return
+	end
+
+	slot1 = {}
+
+	slot2 = function(slot0)
+		slot1 = slot0.position[1]
+		slot2 = slot0.position[3]
+		slot3 = uv0.x / 2
+		slot4 = uv1._tf.position.x
+		slot5 = uv1._tf.position.z
+		slot6 = uv2
+		slot9 = math.max(slot1 - slot3, math.min(slot4, slot1 + slot3)) - slot4
+		slot10 = math.max(slot2 - slot3, math.min(slot5, slot2 + slot3)) - slot5
+
+		return slot9 * slot9 + slot10 * slot10 <= slot6 * slot6
+	end
+
+	for slot6, slot7 in ipairs(slot0.detectionList) do
+		if slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, slot7.id):CanCheckByPlayer() and slot2(slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
 
 	slot3 = function(slot0, slot1, slot2)
 		return (slot2.x - slot0.x) * (slot1.y - slot0.y) - (slot2.y - slot0.y) * (slot1.x - slot0.x)
@@ -349,16 +479,16 @@ slot3.Detectionobject = function(slot0)
 	end
 
 	slot10 = function(slot0)
-		if uv0.Dot(slot0.transform.position - uv1._tf.position, uv1._tf.forward) < 0 then
+		if uv0.Dot(uv0(slot0.position[1], slot0.position[2], slot0.position[3]) - uv1._tf.position, uv1._tf.forward) < 0 then
 			return
 		end
 
-		return uv3(uv1:Vector3ToVector2(slot0.transform.position), uv1:Vector3ToVector2(uv1._tf.right), uv1:Vector3ToVector2(uv1._tf.position) + uv2)
+		return uv4(uv2(slot0.position[1], slot0.position[3]), uv1:Vector3ToVector2(uv1._tf.right), uv1:Vector3ToVector2(uv1._tf.position) + uv3)
 	end
 
 	slot11 = {}
 
-	for slot15, slot16 in ipairs({}) do
+	for slot15, slot16 in ipairs(slot1) do
 		if slot10(slot16) then
 			table.insert(slot11, slot16)
 		end
@@ -368,41 +498,43 @@ slot3.Detectionobject = function(slot0)
 
 	if #slot11 ~= 0 then
 		slot14 = nil
-		slot17 = slot0:Vector3ToVector2(slot0._tf.position) + uv6 + slot0:Vector3ToVector2(slot0._tf.forward) * 2
+		slot17 = slot0:Vector3ToVector2(slot0._tf.position) + uv5 + slot0:Vector3ToVector2(slot0._tf.forward) * 2
 		slot18 = 10
 		slot19 = {}
 
 		for slot23, slot24 in ipairs(slot11) do
-			if (slot0:Vector3ToVector2(slot24.transform.position) - slot17):Magnitude() < slot18 then
+			if (uv2(slot24.position[1], slot24.position[3]) - slot17):Magnitude() < slot18 then
 				slot18 = slot26
 				slot14 = slot24
 			end
 		end
 
-		if slot14.transform.parent and slot20:GetComponent(typeof(WorldObjectItem)):GetItemId() ~= slot0.nearId then
-			slot0.nearId = slot21
-			slot0.nearItem = slot20
-			slot13 = true
+		if slot14 then
+			itemId = slot14.id
+
+			if itemId ~= slot0.nearId then
+				slot0.nearId = itemId
+				slot0.nearItem = slot14
+				slot13 = true
+			end
 		end
 	end
 
-	if slot12 ~= slot0.lastCount or slot13 then
-		slot0.lastCount = slot12
+	if slot12 ~= slot0.lastCrossCount or slot13 then
+		slot0.lastCrossCount = slot12
 
 		if slot12 == 0 then
-			slot0.nearId = 0
-
-			slot0:Emit(ISLAND_EVT.APPROACH_UNIT, {
-				displayTpye = "normal",
-				type = -1,
-				id = slot0.id
+			slot0:Emit(ISLAND_EVT.HIDE_UNIT_HUD, {
+				isHighLightControl = true,
+				id = tonumber(slot0.nearId)
 			})
+
+			slot0.nearId = 0
 		else
-			slot0:Emit(ISLAND_EVT.APPROACH_UNIT, {
-				displayTpye = "plant",
-				type = -1,
-				id = slot0.id,
-				targetNearId = slot0.nearId
+			slot0:Emit(ISLAND_EVT.SHOW_UNIT_HUD, {
+				isHighLightControl = true,
+				id = tonumber(slot0.nearId),
+				operationType = IslandOpView.OperationType.Plant
 			})
 		end
 	end
@@ -416,134 +548,98 @@ slot3.GetNearItemId = function(slot0)
 	return slot0.nearId
 end
 
-slot3.CheckIsInDress = function(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.pageDressDic) do
-		if slot6.currentItemId == slot1 then
-			return true
-		end
-	end
+slot3.OnChangeDress = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = getProxy(IslandProxy)
+	slot4 = slot4:GetIsland()
+	slot5 = slot4:GetDressUpAgency()
 
-	return false
-end
-
-slot3.ChangeDressOnType = function(slot0, slot1, slot2)
-	if (slot0.pageDressDic[slot1] and slot3.currentItemId or nil) == slot2 then
-		return
-	end
-
-	if slot4 ~= nil then
-		if slot3.currentItemObj then
-			Object.Destroy(slot3.currentItemObj)
-
-			slot3.currentItemObj = nil
-		end
-
-		slot3.currentItemId = nil
-	end
-
-	if slot2 == nil then
-		return
-	end
-
-	ResourceMgr.Inst:getAssetAsync(pg.island_dress_template[slot2].model, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if not uv0:CheckIsInDress(uv1) then
-			return
-		end
-
-		slot1 = Object.Instantiate(slot0)
-		slot2 = uv0._tf
-
-		if uv2.attachmentPoint ~= "" then
-			slot3 = uv2.attachmentPoint
-			slot2 = (function (slot0)
-				for slot4 = 0, slot0.childCount - 1 do
-					if slot0:GetChild(slot4).name == uv0 then
-						return slot5
-					end
-
-					if uv1(slot5, uv0) then
-						return slot6
-					end
-				end
-
-				return nil
-			end)(slot2)
-		end
-
-		if uv2.offset ~= "" then
-			slot1.transform.position = Vector3(uv2.offset[1], uv2.offset[2], uv2.offset[3])
-		end
-
-		setParent(slot1, slot2)
-
-		slot3 = uv0.pageDressDic[uv3] or {}
-		slot3.currentItemObj = slot1
-		uv0.pageDressDic[uv3] = slot3
-	end), true, true)
-
-	slot7 = slot0.pageDressDic[slot1] or {}
-	slot7.currentItemId = slot2
-	slot0.pageDressDic[slot1] = slot7
-end
-
-slot3.OnChangeDress = function(slot0, slot1)
-	for slot5, slot6 in pairs(slot1) do
-		slot0:ChangeDressOnType(slot5, slot6.currentItemId)
-	end
-end
-
-slot3.InitMapCheckWorldObject = function(slot0)
-	slot0.checkList = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetCurrentMapCheckWorldObjectList()
-end
-
-slot3.Handle = function(slot0)
-	slot1 = 1000
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.checkList) do
-		if slot7:IsInitUnit() then
-			slot8 = slot7:GetUnityWorldPos()
-
-			if Vector3.New(slot0._tf.position.x - slot8[1], slot0._tf.position.y - slot8[2], slot0._tf.position.z - slot8[3]):Magnitude() <= slot1 then
-				slot2 = slot7
-				slot1 = slot10
+	slot6 = function(slot0)
+		for slot4, slot5 in ipairs(uv0) do
+			if slot0 == slot5.id then
+				return slot5.color, true
 			end
-		else
-			print(1)
+		end
+
+		return uv1:GetCurrentColorByDressId(slot0), false
+	end
+
+	for slot10, slot11 in ipairs(slot1) do
+		slot12, slot13 = slot6(slot11.id)
+
+		if slot13 then
+			slot3[slot11.id] = true
+		end
+
+		slot0.shipDressHelper:ChangeDressByType(slot11.type, {
+			id = slot11.id,
+			colorId = slot12
+		})
+	end
+
+	for slot10, slot11 in ipairs(slot2) do
+		if not slot3[slot11.id] then
+			slot0.shipDressHelper:ChangeCommanderPartColor(pg.island_dress_template[slot12].type, slot11.color)
 		end
 	end
+end
 
-	slot3 = nil
+slot3.InitDress = function(slot0)
+	slot0.shipDressHelper = IslandShipDressHelperNew.New()
 
-	if slot1 <= 3 then
-		slot3 = slot2
-	end
-
-	if slot0.nearTestId ~= (slot3 and slot3.configId or nil) then
-		slot0.nearTestId = slot4
-
-		if slot0.nearTestId then
-			slot0:Emit(ISLAND_EVT.APPROACH_UNIT, {
-				displayTpye = "collect",
-				type = -1,
-				nearItem = slot2
-			})
-		else
-			slot0:Emit(ISLAND_EVT.APPROACH_UNIT, {
-				displayTpye = "normal",
-				type = -1
-			})
-		end
-	end
+	slot0.shipDressHelper:SetShipId(0)
+	slot0.shipDressHelper:OnRoleLoaded(slot0._tf)
 end
 
 slot3.GetCurrentPosition = function(slot0)
 	return slot0._tf.position
 end
 
-slot3.OnDispose = function(slot0)
+slot3.LastGroundedPosition = function(slot0)
+	slot1 = slot0._tf.eulerAngles
+
+	if not slot0.onGroud then
+		slot2, slot3 = Physics.Raycast(slot0._tf.position, Vector3.down, nil, math.huge, uv0)
+
+		if slot2 then
+			return slot3.point, slot1
+		end
+	end
+
+	return slot0._tf.position, slot1
+end
+
+slot3.CheckCanJump = function(slot0)
+	if slot0.onGroud then
+		return true
+	end
+
+	if slot0.jumpVector.y > 0 then
+		return false
+	end
+
+	slot1, slot2 = Physics.Raycast(slot0._tf.position + slot0.characterController.center, Vector3.down, nil, 2, uv0)
+
+	if slot1 then
+		return true
+	end
+
+	return false
+end
+
+slot3.OnDetach = function(slot0)
+	slot0:ClearAnimationTools()
+	slot0.shipDressHelper:Destroy()
 	slot0.characterHandleController:AddStateEnterFunc(nil)
 	slot0.characterHandleController:AddStateExitFunc(nil)
+end
+
+slot3.ClearAnimationTools = function(slot0)
+	for slot4, slot5 in pairs(slot0.objTfList) do
+		Object.Destroy(slot5.gameObject)
+	end
+
+	slot0.objTfList = {}
 end
 
 return slot3

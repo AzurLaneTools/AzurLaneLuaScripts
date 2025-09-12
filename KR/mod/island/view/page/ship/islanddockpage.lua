@@ -21,6 +21,10 @@ slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("frame/filter_panel/index/content/Text")
 	slot0.orderTxt = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.animationPlayer = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0._tf
+	slot0.dftAniEvent = slot1:GetComponent(typeof(DftAniEvent))
 
 	slot0.shipRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -45,7 +49,11 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
+		uv0.dftAniEvent:SetEndEvent(function ()
+			uv0.dftAniEvent:SetEndEvent(nil)
+			uv0:Hide()
+		end)
+		uv0.animationPlayer:Play("IslandDockUI_out")
 	end, SFX_PANEL)
 	onInputChanged(slot0, slot0.inputTr, function ()
 		uv0.searchKey = getInputText(uv0.inputTr)
@@ -73,7 +81,7 @@ slot0.OnInit = function(slot0)
 	slot0.searchKey = ""
 	slot0.selectAsc = true
 	slot0.sortData = {
-		sortIndex = IslandShipIndexLayer.SortRarity,
+		sortIndex = IslandShipIndexLayer.SortLevel,
 		campIndex = ShipIndexConst.CampAll,
 		rarityIndex = ShipIndexConst.RarityAll,
 		extraIndex = IslandShipIndexLayer.ExtraALL
@@ -103,7 +111,7 @@ slot0.Show = function(slot0)
 end
 
 slot0.UpdateSortBtn = function(slot0)
-	slot0.orderIco.localScale = slot0.selectAsc and Vector3(1, -1, 1) or Vector3(1, 1, 1)
+	slot0.orderIco.localScale = slot0.selectAsc and Vector3(1, 1, 1) or Vector3(1, -1, 1)
 	slot1, slot2 = IslandShipIndexLayer.getSortFuncAndName(slot0.sortData.sortIndex, slot0.selectAsc)
 	slot0.orderTxt.text = i18n(slot2)
 end
@@ -151,7 +159,7 @@ slot1 = function(slot0, slot1)
 		return true
 	end
 
-	return string.find(string.lower(pg.island_ship[slot0].name), string.lower(string.gsub(slot1, "%.", "%%.")))
+	return string.find(string.lower(IslandShip.StaticGetName(slot0)), string.lower(string.gsub(slot1, "%.", "%%.")))
 end
 
 slot0.ToVShip = function(slot0, slot1)
@@ -178,9 +186,9 @@ slot0.ToVShip = function(slot0, slot1)
 end
 
 slot2 = function(slot0, slot1, slot2)
-	slot6 = slot0.characterAgency:GetShipByConfigId(slot1)
+	slot6 = slot0.characterAgency:GetShipById(slot1)
 
-	if ShipIndexConst.filterByCamp(slot0:ToVShip(ShipGroup.getDefaultShipConfig(IslandShip.StaticGetShipGroup(slot1))), slot2.campIndex) and ShipIndexConst.filterByRarity(slot5, slot2.rarityIndex) and IslandShipIndexLayer.filterByExtra(slot6, slot2.extraIndex) then
+	if ShipIndexConst.filterByCamp(slot0:ToVShip(ShipGroup.getDefaultShipConfig(slot1)), slot2.campIndex) and ShipIndexConst.filterByRarity(slot5, slot2.rarityIndex) and IslandShipIndexLayer.filterByExtra(slot6, slot2.extraIndex) then
 		return true
 	end
 
@@ -204,6 +212,7 @@ end
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.frameTr, slot0._tf)
+	slot0:emit(IslandShipMainPage.CLOSE_DOCK)
 end
 
 slot0.OnDestroy = function(slot0)
