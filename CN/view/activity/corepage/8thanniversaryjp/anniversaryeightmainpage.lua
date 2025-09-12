@@ -14,6 +14,12 @@ slot0.OnFirstFlush = function(slot0)
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EIGHTH_HOTSPRING)
 	end, SFX_PANEL)
 	setText(findTF(slot0._tf, "AD/desc"), i18n("anniversary_eight_main_page_desc"))
+
+	if CityRebuildBookLayer.ShouldShowTip() and CityRebuildTasksLayer.ShouldShowTip() then
+		setActive(findTF(slot0._tf, "AD/btn_act/red"), true)
+	else
+		setActive(findTF(slot0._tf, "AD/btn_act/red"), false)
+	end
 end
 
 slot0.OnUpdateFlush = function(slot0)

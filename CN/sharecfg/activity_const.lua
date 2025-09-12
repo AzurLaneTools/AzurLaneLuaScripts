@@ -1157,5 +1157,8 @@ pg.activity_const = {
 	},
 	NINJA_CITY_NORMAL_ACTIVITY_TASK = {
 		act_id = 50134
+	},
+	NINJA_CITY_MAIN_ACTIVITY_ID = {
+		act_id = 50112
 	}
 }

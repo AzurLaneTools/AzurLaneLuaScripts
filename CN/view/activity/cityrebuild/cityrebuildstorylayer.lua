@@ -50,7 +50,7 @@ slot0.Refresh = function(slot0)
 
 			if slot5 then
 				GetImageSpriteFromAtlasAsync(slot4[6], "", slot2:Find("normal/mask/pic"))
-				setText(slot2:Find("normal/nameBg/name"), slot4[5])
+				setScrollText(slot2:Find("normal/nameBg/name"), slot4[5])
 				onButton(uv0, slot2, function ()
 					pg.NewStoryMgr.GetInstance():Play(uv0[1], nil, true)
 				end, SFX_PANEL)

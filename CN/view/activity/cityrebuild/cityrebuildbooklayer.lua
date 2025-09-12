@@ -569,7 +569,11 @@ slot0.willExit = function(slot0)
 end
 
 slot0.ShouldShowTip = function()
-	for slot4, slot5 in pairs(getProxy(CityRebuildProxy):GetData(ActivityConst.NINJA_CITY_ACT_ID).recruiting) do
+	if not getProxy(CityRebuildProxy):GetData(ActivityConst.NINJA_CITY_ACT_ID) then
+		return false
+	end
+
+	for slot4, slot5 in pairs(slot0.recruiting) do
 		if pg.activity_ninja_building[slot4].time <= pg.TimeMgr.GetInstance():GetServerTime() - slot5 then
 			return true
 		end

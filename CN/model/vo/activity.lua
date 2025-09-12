@@ -751,7 +751,14 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID_2] = DormSignTwoPage.IsShowRed,
 		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed,
-		[ActivityConst.YUMIA_BASE_ACT_ID] = YoumiyaStrongholdLayer.ShouldShowTip
+		[ActivityConst.YUMIA_BASE_ACT_ID] = YoumiyaStrongholdLayer.ShouldShowTip,
+		[ActivityConst.NINJA_CITY_MAIN_ACTIVITY_ID] = function ()
+			if CityRebuildBookLayer.ShouldShowTip() and CityRebuildTasksLayer.ShouldShowTip() then
+				return true
+			end
+
+			return false
+		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 

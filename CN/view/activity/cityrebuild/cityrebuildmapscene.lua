@@ -117,7 +117,7 @@ slot0.SetCharaList = function(slot0)
 
 				slot2.anchoredPosition = Vector2(slot7[1], slot7[2])
 
-				setText(slot2:Find("name/Text"), slot5 and slot4.name[2] or slot4.name[1])
+				setActive(slot2:Find("name"), false)
 			end
 		end
 	end)
