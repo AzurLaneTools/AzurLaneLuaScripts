@@ -11708,7 +11708,7 @@ _G.pg.base.gametip.resource_clear_3disland = {
 
 
 _G.pg.base.gametip.resource_clear_generaltext = {
-	tip = "删除资源"
+	tip = "刪除資源 "
 }
 
 
