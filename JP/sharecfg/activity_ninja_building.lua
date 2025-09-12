@@ -42,8 +42,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG6",
 			"qicon/qianjian_2",
 			{
-				123,
-				-479.7
+				100.9215,
+				-290
 			},
 			"長屋修復で開放",
 			"あやかしの夜に咲いて",
@@ -96,8 +96,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG7",
 			"qicon/miaofeng_2",
 			{
-				593.8,
-				-265.3
+				487.2129,
+				-217.67865
 			},
 			"米蔵修復で開放",
 			"おにぎりアクシデント",
@@ -150,8 +150,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG8",
 			"qicon/jinjiang_2",
 			{
-				-97.9,
-				-337.9
+				-80.32695,
+				-277.24695
 			},
 			"水堀修復で開放",
 			"ほとりでの誘い込み",
@@ -336,8 +336,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG10",
 			"qicon/yunxian_3",
 			{
-				283,
-				17.6
+				232.2015,
+				14.4408
 			},
 			"副天守修復で開放",
 			"万船集懐",
@@ -390,8 +390,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG12",
 			"qicon/molisen_2",
 			{
-				-9,
-				66.2
+				-7.3845,
+				54.3171
 			},
 			"本丸橋修復で開放",
 			"忍術大失敗？！",
@@ -444,8 +444,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG11",
 			"qicon/shuiwulai_2",
 			{
-				534,
-				102
+				438.147,
+				83.691
 			},
 			"修行地修復で開放",
 			"キツネさんの瞑想修行",
@@ -630,8 +630,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG14",
 			"qicon/aersasi_3",
 			{
-				378.6,
-				439.2
+				310.6413,
+				360.3636
 			},
 			"武家屋敷修復で開放",
 			"聖宵のオニに酩酊を",
@@ -684,8 +684,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG15",
 			"qicon/I404_2",
 			{
-				163.4,
-				457.8
+				134.0697,
+				375.6249
 			},
 			"武器庫修復で開放",
 			"華やかなれ、紅緒の舞",
@@ -782,8 +782,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG18",
 			"qicon/suweiaitongmeng_4",
 			{
-				-164.8,
-				465.2
+				-135.2184,
+				381.6966
 			},
 			"天守修復で開放",
 			"ワイヤード・スレイヤー",
@@ -836,8 +836,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG19",
 			"qicon/guandao_3",
 			{
-				-113.4,
-				314.5
+				-93.0447,
+				258.04725
 			},
 			"御殿修復で開放",
 			"クノイチ・デンジャーバラエティ",
@@ -978,8 +978,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG20",
 			"qicon/baifeng_2",
 			{
-				-301.4,
-				362.2
+				-247.2987,
+				297.1851
 			},
 			"茶室修復で開放",
 			"繚乱あれお忍び遊興",
@@ -1032,8 +1032,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG9",
 			"qicon/yanzhan_4",
 			{
-				-164.8,
-				465.2
+				-135.2184,
+				381.5325
 			},
 			"ウォースパイト来援で開放",
 			"スイカロウニン",
@@ -1086,8 +1086,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG13",
 			"qicon/bulunnusi_3",
 			{
-				-164.8,
-				465.2
+				-135.2184,
+				381.5325
 			},
 			"ブレンヌス来援で開放",
 			"月下の夜想曲",
@@ -1140,8 +1140,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG16",
 			"qicon/lafeiII_4",
 			{
-				-164.8,
-				465.2
+				-135.2184,
+				381.5325
 			},
 			"ラフィーⅡ来援で開放",
 			"ウサウサ城主の見回り休憩",
@@ -1194,8 +1194,8 @@ pg.activity_ninja_building = {
 			"JIZHANRENZHEZHICHENG17",
 			"qicon/jiasikenie_3",
 			{
-				-164.8,
-				465.2
+				-135.2184,
+				381.5325
 			},
 			"ガスコーニュ来援で開放",
 			"旅情からくり",
