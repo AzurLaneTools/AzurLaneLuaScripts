@@ -2414,6 +2414,17 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	[31] = {
+		task_ship = "",
+		link_event = 0,
+		icon_frame = 336,
+		task_level = "",
+		award_display = "",
+		target = 2800,
+		start_time = "stop",
+		id = 31,
+		pt_id = 65680
+	},
 	[40724] = {
 		link_event = 40734,
 		icon_frame = 308,
@@ -3647,6 +3658,7 @@ pg.activity_event_avatarframe = {
 		22,
 		25,
 		29,
+		31,
 		40724,
 		40783,
 		40831,

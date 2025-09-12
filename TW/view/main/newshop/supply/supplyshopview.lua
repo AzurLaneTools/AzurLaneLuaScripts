@@ -38,7 +38,12 @@ slot0.OnDestroy = function(slot0)
 	slot0:unBlurView()
 
 	slot0.prevBtn = nil
-	slot0.page = nil
+
+	if slot0.page then
+		slot0.page:StopBGM()
+
+		slot0.page = nil
+	end
 
 	slot0:DestroyResItemList()
 

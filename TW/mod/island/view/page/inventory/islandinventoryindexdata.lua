@@ -52,7 +52,7 @@ slot0.GenLayoutData = function(slot0, slot1)
 		list = slot6,
 		names = slot7,
 		sortFuncName = slot8,
-		title = i18n1("排序")
+		title = i18n("island_word_sort")
 	})
 
 	return slot3

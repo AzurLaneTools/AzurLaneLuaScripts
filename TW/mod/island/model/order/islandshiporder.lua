@@ -2,6 +2,7 @@ slot0 = class("IslandShipOrder")
 slot0.OP_TYPE_UNLOCK = 1
 slot0.OP_TYPE_GET_AWARD = 2
 slot0.OP_TYPE_LOADUP = 3
+slot0.OPOP_TYPE_LOADUP_ALL = 4
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.consumeList = {}
@@ -28,6 +29,12 @@ slot0.Ctor = function(slot0, slot1)
 			count = slot6.num
 		})
 	end
+
+	table.insert(slot0.awardList, {
+		id = 0,
+		type = VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT,
+		count = slot1.add_pt
+	})
 end
 
 slot0.IsLoadUpAll = function(slot0)
@@ -46,6 +53,16 @@ end
 
 slot0.GetComsume = function(slot0, slot1)
 	return slot0.consumeList[slot1] or {}
+end
+
+slot0.AnyCanLoadUp = function(slot0)
+	if slot0:IsLoadUpAll() then
+		return false
+	end
+
+	return _.any(slot0.consumeList, function (slot0)
+		return slot0.state ~= 1 and slot0.count <= Drop.New(slot0):getOwnedCount()
+	end)
 end
 
 slot0.ItemIsSubmited = function(slot0, slot1)

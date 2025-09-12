@@ -5393,12 +5393,10 @@ pg.base.ship_skin_template_4 = {
 	},
 	[137060] = {
 		name = "天際的潛水者",
-		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
 		desc = "……呼！指揮官，還能繼續嗎？在海上時，無論面對何種戰鬥我都不曾退縮，可一旦潛下水，心中還是難免會覺得不放心……",
 		group_index = 10,
-		purchase_offset = "",
 		painting = "qiye_9",
 		ship_group = 10706,
 		bg_sp = "",
@@ -5412,7 +5410,6 @@ pg.base.ship_skin_template_4 = {
 		gyro = 0,
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		spine_offset_profile = "",
 		skin_type = 0,
 		id = 137060,
 		voice_actor_2 = -1,
@@ -5431,7 +5428,6 @@ pg.base.ship_skin_template_4 = {
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
@@ -5440,7 +5436,32 @@ pg.base.ship_skin_template_4 = {
 		live2d_offset = {
 			0,
 			40,
-			0
+			0,
+			26.8
+		},
+		shop_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		purchase_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		live2d_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		spine_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
 		},
 		fx_container = {
 			{

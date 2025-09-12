@@ -32124,7 +32124,47 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10506,
 		commodity_id_list_show = 0,
-		order = 500,
+		order = 54,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	},
+	[10507] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 800,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 3660,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10507,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	},
+	[10508] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 500,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 3640,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10508,
+		commodity_id_list_show = 0,
+		order = 55,
 		limit_args = {
 			{
 				"quota",
@@ -33125,6 +33165,42 @@ pg.activity_shop_template = {
 						2025,
 						6,
 						19
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12025] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 80,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21042,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12025,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970305,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2025,
+						8,
+						14
 					},
 					{
 						0,
@@ -36468,6 +36544,8 @@ pg.activity_shop_template = {
 			10504,
 			10505,
 			10506,
+			10507,
+			10508,
 			10509,
 			10510,
 			5028,
@@ -38170,6 +38248,7 @@ pg.activity_shop_template = {
 			12014,
 			12015,
 			12016,
+			12025,
 			12027,
 			12030,
 			12031,
@@ -40495,6 +40574,8 @@ pg.activity_shop_template = {
 		10504,
 		10505,
 		10506,
+		10507,
+		10508,
 		10509,
 		10510,
 		10901,
@@ -40547,6 +40628,7 @@ pg.activity_shop_template = {
 		12014,
 		12015,
 		12016,
+		12025,
 		12026,
 		12027,
 		12029,

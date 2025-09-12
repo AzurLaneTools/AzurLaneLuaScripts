@@ -7,13 +7,14 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.valueTxt = slot0:findTF("calc/value/Text"):GetComponent(typeof(Text))
+	slot0.valueInput = slot0:findTF("calc/value/InputField")
 	slot0.addBtn = slot0:findTF("calc/add")
 	slot0.reduceBtn = slot0:findTF("calc/reduce")
 	slot0.sellBtn = slot0:findTF("calc/sell_btn")
 	slot0.priceTxt = slot0:findTF("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("calc/sell_btn/Text"), i18n1("出售"))
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0:findTF("calc/sell_btn/price/res"))
+	setText(slot0:findTF("calc/sell_btn/Text"), i18n("island_word_convert"))
 end
 
 slot0.OnShow = function(slot0)
@@ -25,17 +26,32 @@ slot0.OnShow = function(slot0)
 		uv0:UpdateValue(uv0.value - 1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sellBtn, function ()
-		slot0 = uv0.item:GetSellingPrice()
+		uv0:Hide()
 
-		uv0:GetMsgBoxMgr():Show({
-			content = i18n1(string.format("是否确认出售,%sx%d\n获得%sx%d", uv0.item:GetName(), uv0.value, slot0:getName(), slot0.count * uv0.value)),
-			onYes = function ()
-				uv0:emit(IslandMediator.ON_SELL_ITEM, uv0.item.id, uv0.value)
-				uv0:Hide()
-			end
-		})
+		if _IslandCore then
+			_IslandCore:GetView():NotifiyIsland(ISLAND_EX_EVT.SHOW_MSG, {
+				content = i18n("island_season_window_transformtip"),
+				onYes = function ()
+					uv0:emit(IslandMediator.ON_CONVERT_SEASON_PT, {
+						{
+							id = uv0.item.id,
+							num = uv0.value
+						}
+					})
+				end
+			})
+		end
 	end, SFX_PANEL)
-	slot0:bind(GAME.ISLAND_SELL_ITEM_DONE, function ()
+	onInputEndEdit(slot0, slot0.valueInput, function (slot0)
+		slot1 = 0
+
+		if not slot0 or slot0 == "" or not tonumber(slot0) then
+			slot1 = 1
+		end
+
+		uv0:UpdateValue(tonumber(slot0))
+	end)
+	slot0:bind(GAME.ISLAND_CONVERT_SEASON_PT_DONE, function ()
 		uv0:FlushCalc(uv0.item.id)
 	end)
 	slot0:FlushCalc(slot0.settings.itemId)
@@ -52,8 +68,9 @@ end
 
 slot0.UpdateValue = function(slot0, slot1)
 	slot0.value = math.max(1, math.min(slot1, slot0.item:GetCount()))
-	slot0.priceTxt.text = "x" .. slot0.item:GetSellingPrice().count * slot0.value
-	slot0.valueTxt.text = slot0.value
+	slot0.priceTxt.text = "x" .. slot0.item:GetConvertPt() * slot0.value
+
+	setInputText(slot0.valueInput, slot0.value)
 end
 
 return slot0

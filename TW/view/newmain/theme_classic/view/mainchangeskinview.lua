@@ -40,7 +40,7 @@ slot0.updateUI = function(slot0)
 	end
 
 	if slot0._changeSkinToggle and slot2 and slot2 > 0 then
-		slot0._changeSkinToggle:setShipData(slot1)
+		slot0._changeSkinToggle:setShipData(slot1, slot0._flagShip:GetShipPhantomMark())
 	end
 end
 

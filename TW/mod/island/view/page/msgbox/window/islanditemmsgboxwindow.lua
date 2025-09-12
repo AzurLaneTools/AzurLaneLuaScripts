@@ -21,7 +21,7 @@ slot0.FlushItems = function(slot0, slot1)
 	assert(slot2)
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, uv0[slot1 + 1])
+			updateCustomDrop(slot2, uv0[slot1 + 1])
 		end
 	end)
 	slot0.uiItemList:align(#slot2)

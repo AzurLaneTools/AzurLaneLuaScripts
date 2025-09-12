@@ -12,7 +12,7 @@ slot0.Add = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0.preTimeStampDic[slot1] then
-		slot3 = slot0.preTimeStampDic[slot1] + slot0.intervalTime
+		slot3 = math.min(slot0.preTimeStampDic[slot1] + slot0.intervalTime, pg.TimeMgr.GetInstance():GetServerTimeMs() + slot0.delayedTime)
 	else
 		slot0.delayedDataDic[slot1] = {}
 		slot3 = pg.TimeMgr.GetInstance():GetServerTimeMs() + slot0.delayedTime
@@ -34,6 +34,16 @@ slot0.Update = function(slot0)
 			slot0.func(slot6[1].data)
 			table.remove(slot6, 1)
 		end
+	end
+end
+
+slot0.RemoveDataById = function(slot0, slot1)
+	if slot0.delayedDataDic[slot1] then
+		slot0.delayedDataDic[slot1] = nil
+	end
+
+	if slot0.preTimeStampDic[slot1] then
+		slot0.preTimeStampDic[slot1] = nil
 	end
 end
 

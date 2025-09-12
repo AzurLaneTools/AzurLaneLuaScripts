@@ -63,6 +63,10 @@ slot0.IsTemporaryShop = function(slot0)
 	return slot0:getConfig("shop_type") == 2
 end
 
+slot0.GetCommanderOrCharaType = function(slot0)
+	return slot0:getConfig("dress_type")
+end
+
 slot0.GetExistTime = function(slot0)
 	if slot0:IsNormalShop() then
 		return uv0[slot0.id].exist_time
@@ -106,7 +110,7 @@ slot0.SetCommodities = function(slot0, slot1)
 
 	if slot0:IsTemporaryShop() then
 		for slot5, slot6 in ipairs(slot1) do
-			table.insert(slot0.commodities, IslandCommodity.New(slot6))
+			table.insert(slot0.commodities, IslandCommodity.New(slot6, slot0.id))
 			table.insert(slot0.commodityIds, slot6.id)
 		end
 	else
@@ -115,18 +119,18 @@ slot0.SetCommodities = function(slot0, slot1)
 				table.insert(slot0.commodities, IslandCommodity.New({
 					num = 0,
 					id = slot6
-				}))
+				}, slot0.id))
 				table.insert(slot0.commodityIds, slot6)
 			end
 		end
 
 		for slot5, slot6 in ipairs(slot1) do
 			if slot0:GetCommodityById(slot6.id) then
-				slot7:UpdateNum(slot6.count)
+				slot7:UpdateNum(slot6.num)
 
 				if slot7:GetMaxNum() ~= 0 and slot7.purchasedNum == slot7:GetMaxNum() and not slot7:IsShowSellOut() then
-					table.remove(slot0.commodities, slot7)
-					table.remove(slot0.commodityIds, slot7.id)
+					table.removebyvalue(slot0.commodities, slot7)
+					table.removebyvalue(slot0.commodityIds, slot7.id)
 				end
 			end
 		end
@@ -195,6 +199,14 @@ slot0.GetBanners = function(slot0)
 		if pg.TimeMgr.GetInstance():inTime(uv0[slot6].time) then
 			table.insert(slot1, slot7)
 		end
+	end
+end
+
+slot0.IsInTime = function(slot0)
+	if slot0:IsNormalShop() then
+		return pg.TimeMgr.GetInstance():inTime(slot0:GetExistTime())
+	elseif slot0:IsTemporaryShop() then
+		return pg.TimeMgr.GetInstance():GetServerTime() < slot0.existTime
 	end
 end
 

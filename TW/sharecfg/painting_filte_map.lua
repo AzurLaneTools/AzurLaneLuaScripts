@@ -2791,11 +2791,6 @@ pg.painting_filte_map = {
 			"painting/bulvxieer_n",
 			"painting/bulvxieer_hx_tex",
 			"painting/bulvxieer_hx",
-			"painting/bulvxieer_4_tex",
-			"painting/bulvxieer_4_rw_tex",
-			"painting/bulvxieer_4_n_rw_tex",
-			"painting/bulvxieer_4_n",
-			"painting/bulvxieer_4",
 			"painting/bulvxieer"
 		}
 	},
@@ -2821,6 +2816,16 @@ pg.painting_filte_map = {
 			"painting/bulvxieer_3_hx",
 			"painting/bulvxieer_3_bj_tex",
 			"painting/bulvxieer_3"
+		}
+	},
+	bulvxieer_4 = {
+		key = "bulvxieer_4",
+		res_list = {
+			"painting/bulvxieer_4_tex",
+			"painting/bulvxieer_4_rw_tex",
+			"painting/bulvxieer_4_n_rw_tex",
+			"painting/bulvxieer_4_n",
+			"painting/bulvxieer_4"
 		}
 	},
 	bunao = {
@@ -6059,8 +6064,10 @@ pg.painting_filte_map = {
 		key = "hailunna_4",
 		res_list = {
 			"painting/hailunna_4_tex",
-			"painting/hailunna_4_n_tex",
+			"painting/hailunna_4_rw_tex",
+			"painting/hailunna_4_n_rw_tex",
 			"painting/hailunna_4_n",
+			"painting/hailunna_4_bj_tex",
 			"painting/hailunna_4"
 		}
 	},
@@ -7971,6 +7978,18 @@ pg.painting_filte_map = {
 			"painting/jinseanying_tolove_n_tex",
 			"painting/jinseanying_tolove_n",
 			"painting/jinseanying_tolove"
+		}
+	},
+	jinshi = {
+		key = "jinshi",
+		res_list = {
+			"painting/jinshi_tex",
+			"painting/jinshi_rw_tex",
+			"painting/jinshi_n_tex",
+			"painting/jinshi_n_rw_tex",
+			"painting/jinshi_n",
+			"painting/jinshi_bj_tex",
+			"painting/jinshi"
 		}
 	},
 	jiqi = {
@@ -13193,8 +13212,10 @@ pg.painting_filte_map = {
 		key = "qiye_9",
 		res_list = {
 			"painting/qiye_9_tex",
-			"painting/qiye_9_n_tex",
+			"painting/qiye_9_rw_tex",
+			"painting/qiye_9_n_rw_tex",
 			"painting/qiye_9_n",
+			"painting/qiye_9_bj_tex",
 			"painting/qiye_9"
 		}
 	},
@@ -13515,6 +13536,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/ruyue_g_tex",
 			"painting/ruyue_g"
+		}
+	},
+	ryouko_shallow = {
+		key = "ryouko_shallow",
+		res_list = {
+			"painting/ryouko_shallow_tex",
+			"painting/ryouko_shallow"
 		}
 	},
 	safuke = {
@@ -15280,9 +15308,8 @@ pg.painting_filte_map = {
 		key = "tiancheng_cv",
 		res_list = {
 			"painting/tiancheng_cv_tex",
-			"painting/tiancheng_cv_rw2_tex",
-			"painting/tiancheng_cv_rw1_tex",
-			"painting/tiancheng_cv_n_tex",
+			"painting/tiancheng_cv_rw_tex",
+			"painting/tiancheng_cv_n_rw_tex",
 			"painting/tiancheng_cv_n",
 			"painting/tiancheng_cv_bj_tex",
 			"painting/tiancheng_cv"
@@ -16042,8 +16069,9 @@ pg.painting_filte_map = {
 		key = "weiershiqinwang_5",
 		res_list = {
 			"painting/weiershiqinwang_5_tex",
+			"painting/weiershiqinwang_5_shophx_tex",
 			"painting/weiershiqinwang_5_rw_tex",
-			"painting/weiershiqinwang_5_n_tex",
+			"painting/weiershiqinwang_5_n_rw_tex",
 			"painting/weiershiqinwang_5_n",
 			"painting/weiershiqinwang_5"
 		}
@@ -17062,6 +17090,14 @@ pg.painting_filte_map = {
 		key = "xili",
 		res_list = {
 			"painting/xili_tex",
+			"painting/xili_alter_tex",
+			"painting/xili_alter_rw_tex",
+			"painting/xili_alter_n_tex",
+			"painting/xili_alter_n_rw_tex",
+			"painting/xili_alter_n_bj_tex",
+			"painting/xili_alter_n",
+			"painting/xili_alter_bj_tex",
+			"painting/xili_alter",
 			"painting/xili_3_tex",
 			"painting/xili_3",
 			"painting/xili"

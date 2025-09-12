@@ -67,6 +67,7 @@ slot0.Init = function(slot0, slot1)
 	slot0.overlayCameraComp = slot0.overlayCamera:GetComponent("Camera")
 	slot0.overlayCameraComp.allowMSAA = false
 	slot0.uiCameraComp = slot0.uiCamera:GetComponent("Camera")
+	slot0.UICanvas = slot0.uiCamera:Find("Canvas")
 	slot0.UIMain = slot0.uiCamera:Find("Canvas/UIMain")
 	slot0.LevelMain = slot0.levelCamera:Find("Canvas/UIMain")
 	slot0.OverlayMain = slot0.overlayCamera:Find("Overlay/UIMain")
@@ -327,9 +328,9 @@ slot0.PartialBlurTfs = function(slot0, slot1)
 	slot0:UpdatePBEnable(true)
 end
 
-slot0.ShutdownPartialBlur = function(slot0)
+slot0.ShutdownPartialBlur = function(slot0, slot1)
 	uv0 = false
-	uv1 = {}
+	uv1 = slot1 or {}
 
 	slot0:UpdatePBEnable(false)
 end

@@ -5,7 +5,7 @@ slot0.IsUrgency = function(slot0)
 end
 
 slot0.GetTitle = function(slot0)
-	return i18n1("加急订单")
+	return i18n("island_order_type_2")
 end
 
 slot0.IsEmpty = function(slot0)

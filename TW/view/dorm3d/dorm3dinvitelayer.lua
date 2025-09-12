@@ -25,6 +25,8 @@ slot0.init = function(slot0)
 	end, SFX_CANCEL)
 	setText(slot0.rtSelectPanel:Find("window/title/Text"), i18n("dorm3d_data_choose"))
 	setText(slot0.rtSelectPanel:Find("window/bottom/container/btn_confirm/Text"), i18n("text_confirm"))
+
+	slot0.selectCountTip = i18n("dorm3d_select_tip")
 end
 
 slot0.ShowInvitePanel = function(slot0)
@@ -143,7 +145,7 @@ slot0.ShowSelectPanel = function(slot0)
 						table.insert(uv0, uv1)
 					end
 
-					setText(uv2.rtSelectPanel:Find("window/bottom/title/Text"), i18n("dorm3d_select_tip") .. #uv0 .. "/" .. uv3)
+					setText(uv2.rtSelectPanel:Find("window/bottom/title/Text"), uv2.selectCountTip .. #uv0 .. "/" .. uv3)
 				end)
 				triggerToggle(slot2:Find("base"), table.contains(uv1.selectIds, slot3))
 				setActive(slot2:Find("base/mask"), uv4[slot3])

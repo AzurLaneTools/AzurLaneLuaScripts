@@ -1,7 +1,8 @@
 slot0 = class("IslandShipStatusPanel")
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.tf = slot1
+	slot0.emptyTf = slot2
 	slot0.state1Tr = findTF(slot1, "1")
 	slot0.state2Tr = findTF(slot1, "2")
 	slot0.state3Tr = findTF(slot1, "3")
@@ -9,10 +10,12 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Flush = function(slot0, slot1)
-	slot2 = slot1:GetValidStatus()
+	slot2 = slot1:GetDisplayStatus()
 
 	slot0:UpdateLayout(#slot2)
 	slot0:UpdateStatus(slot2)
+	setActive(slot0.emptyTf, #slot2 <= 0)
+	setActive(slot0.tf, #slot2 > 0)
 end
 
 slot0.UpdateStatus = function(slot0, slot1)
@@ -28,7 +31,7 @@ slot0.UpdateStatusTpl = function(slot0, slot1, slot2)
 	if slot2 then
 		setText(slot1:Find("Text"), slot2:GetName())
 
-		slot1:GetComponent(typeof(Image)).color = slot2:IsDebuff() and Color.New(1, 0.5490196, 0.5490196, 1) or Color.New(0.3137255, 0.6745098, 0.9372549, 1)
+		slot1:GetComponent(typeof(Image)).color = slot2:IsRed() and Color.New(1, 0.5490196, 0.5490196, 1) or Color.New(0.3137255, 0.6745098, 0.9372549, 1)
 	end
 end
 

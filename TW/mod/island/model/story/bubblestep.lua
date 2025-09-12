@@ -3,8 +3,8 @@ slot0.HIDE_TYPE_IMMEDIATELY = 0
 slot0.HIDE_TYPE_NEVER = 1
 slot0.HIDE_TYPE_TIME = 2
 
-slot0.Ctor = function(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.time = slot1.time or 3
 	slot0.hideType = slot1.hideType or uv0.HIDE_TYPE_IMMEDIATELY

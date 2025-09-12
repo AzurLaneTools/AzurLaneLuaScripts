@@ -214,6 +214,15 @@ pg.settings_other_template = {
 		title = "自動鎖定新獲得角色",
 		desc = "功能開啟後，自動鎖定新獲得角色，不再跳出鎖定提示"
 	},
+	[24] = {
+		default = 1,
+		name = "GRAPHI_API_SWITCH_OPTION",
+		alignment = 0,
+		type = 3,
+		id = 24,
+		title = "渲染相容模式",
+		desc = "功能開啟後，可以解決部分機型在預設模式下會出現黑畫面的問題"
+	},
 	all = {
 		1,
 		2,
@@ -236,6 +245,7 @@ pg.settings_other_template = {
 		19,
 		20,
 		21,
-		22
+		22,
+		24
 	}
 }

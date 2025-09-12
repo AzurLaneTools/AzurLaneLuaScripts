@@ -322,17 +322,17 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "TianYuTianYuanCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_medal",
 		type = 16,
-		pic = "event_yumia",
+		pic = "event_medal",
 		id = 110,
-		group_id = 2,
-		order = 2,
+		group_id = 1,
+		order = 1,
 		time = {
 			"default",
-			50054
+			50102
 		}
 	},
 	[111] = {

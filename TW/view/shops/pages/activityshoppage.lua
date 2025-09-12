@@ -4,6 +4,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
+slot0.getBGM = function(slot0)
+	return string.format("ActivityShop%s", slot0.shop.activityId)
+end
+
 slot0.GetPaintingName = function(slot0)
 	assert(slot0.shop)
 

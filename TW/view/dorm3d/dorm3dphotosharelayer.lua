@@ -226,64 +226,57 @@ slot0.TakePhoto = function(slot0, slot1, slot2, slot3, slot4)
 	slot10 = slot9.transform
 	slot10 = slot10:GetChild(0)
 
-	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		slot9,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-			_.each(uv0, function (slot0)
-				slot0:SetActive(true)
-			end)
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(slot9, function (slot0)
+		_.each(uv0, function (slot0)
+			slot0:SetActive(true)
+		end)
 
-			uv0 = {}
+		uv0 = {}
 
-			_.each(uv1, function (slot0)
-				slot0:SetActive(false)
-			end)
+		_.each(uv1, function (slot0)
+			slot0:SetActive(false)
+		end)
 
-			uv1 = {}
+		uv1 = {}
 
-			_.each(uv2, function (slot0)
-				setAnchoredPosition(slot0[1], {
-					x = slot0[2],
-					y = slot0[3]
-				})
-			end)
+		_.each(uv2, function (slot0)
+			setAnchoredPosition(slot0[1], {
+				x = slot0[2],
+				y = slot0[3]
+			})
+		end)
 
-			uv2 = {}
-			slot1 = uv3.x / uv4.sizeDelta.x * Screen.width
-			slot2 = uv3.y / uv4.sizeDelta.y * Screen.height
-			slot3 = UnityEngine.Texture2D.New(slot1, slot2)
+		uv2 = {}
+		slot1 = uv3.x / uv4.sizeDelta.x * Screen.width
+		slot2 = uv3.y / uv4.sizeDelta.y * Screen.height
+		slot3 = UnityEngine.Texture2D.New(slot1, slot2)
 
-			slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
-			slot3:Apply()
+		slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
+		slot3:Apply()
 
-			if not uv5 then
-				YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(slot3), function (slot0, slot1)
-					if slot0 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
-					end
-				end)
-
-				return
-			end
-
-			slot7 = uv5.x / uv4.sizeDelta.x * Screen.width
-			slot8 = uv5.y / uv4.sizeDelta.y * Screen.height
-			slot9 = slot1 - slot7
-			slot10 = slot2 - slot8
-			slot12 = uv6
-
-			slot12:SetPixels(slot9 / 2, slot10 / 2, slot7, slot8, slot3:GetPixels(slot9 / 2, slot10 / 2, slot7, slot8))
-			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(uv6), function (slot0, slot1)
+		if not uv5 then
+			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(slot3), function (slot0, slot1)
 				if slot0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 				end
 			end)
+
+			return
+		end
+
+		slot7 = uv5.x / uv4.sizeDelta.x * Screen.width
+		slot8 = uv5.y / uv4.sizeDelta.y * Screen.height
+		slot9 = slot1 - slot7
+		slot10 = slot2 - slot8
+		slot12 = uv6
+
+		slot12:SetPixels(slot9 / 2, slot10 / 2, slot7, slot8, slot3:GetPixels(slot9 / 2, slot10 / 2, slot7, slot8))
+		YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(uv6), function (slot0, slot1)
+			if slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+			end
 		end)
-	})
+	end)
 end
 
 slot0.TakeTexture = function(slot0, slot1, slot2)

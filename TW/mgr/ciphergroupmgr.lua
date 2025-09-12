@@ -76,7 +76,7 @@ slot0.DelFile = function(slot0, slot1)
 		slot3[slot7] = slot1[slot7 + 1]
 	end
 
-	slot0.group:DelFile(slot3)
+	HotfixerHelper.DeleteFileByShortPathArr(uv0.GroupName, slot3)
 end
 
 slot0.DelFile_Old = function(slot0, slot1)

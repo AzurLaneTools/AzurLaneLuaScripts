@@ -11682,6 +11682,36 @@ _G.pg.base.gametip.resource_clear_all = {
 }
 
 
+_G.pg.base.gametip.resource_clear_manga = {
+	tip = "是否清理所有漫畫資源？\n資源大小：$1\n（清理完成後查看漫畫需要重新下載資源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_gallery = {
+	tip = "是否清理所有插畫資源？\n資源大小：$1\n（清理完成後查看插畫需要重新下載資源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3ddorm = {
+	tip = "是否清理所有宿舍計劃資源？\n資源大小：$1\n（清理完成後進入宿舍計劃需要重新下載資源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_tbchild = {
+	tip = "是否清理所有養成計劃資源？\n資源大小：$1\n（清理完成後進入養成計劃需要重新下載資源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_3disland = {
+	tip = "是否清理所有島嶼計劃資源？\n資源大小：$1\n（清理完成後進入島嶼計劃需要重新下載資源）"
+}
+
+
+_G.pg.base.gametip.resource_clear_generaltext = {
+	tip = "删除资源"
+}
+
+
 _G.pg.base.gametip.acl_oil_count = {
 	tip = "目標石油："
 }
@@ -12060,7 +12090,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "馬德堡、海風、由良 建造追加！"
+	tip = "清波、南安普敦 建造追加！"
 }
 
 
@@ -22702,6 +22732,26 @@ _G.pg.base.gametip.Settings_title_sound = {
 
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "資源下載"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage = {
+	tip = "資源管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_All = {
+	tip = "完整資源更新"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Main = {
+	tip = "主體資源管理"
+}
+
+
+_G.pg.base.gametip.Settings_title_resManage_Sub = {
+	tip = "特殊資源管理"
 }
 
 
@@ -38802,4 +38852,94 @@ _G.pg.base.gametip.shop_filter_retro = {
 
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "活動已結束"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_opengl = {
+	tip = "部分機型使用預設模式會出現黑畫面的問題，切換模式後需要重新進入遊戲，是否立即切換？"
+}
+
+
+_G.pg.base.gametip.graphi_api_switch_vulkan = {
+	tip = "渲染相容模式暫不支援AR功能，切換模式後需要重新進入遊戲，是否立即切換？"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+	tip = "全局畫質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+	tip = "極高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+	tip = "輝光强度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_0 = {
+	tip = "關"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_flare = {
+	tip = "光暈"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "重櫻的邀約"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title1 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Progress = {
+	tip = "當前進度"
 }

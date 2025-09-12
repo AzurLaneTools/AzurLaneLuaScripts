@@ -1,4 +1,6 @@
 slot0 = class("IslandInventoryAgency", import(".IslandBaseAgency"))
+slot0.ADD_ITEM = "IslandInventoryAgency.ADD_ITEM"
+slot0.REMOVE_ITEM = "IslandInventoryAgency.REMOVE_ITEM"
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.level = 1
@@ -22,8 +24,8 @@ slot0.OnInit = function(slot0, slot1)
 	end
 end
 
-slot0.SetLevel = function(slot0, slot1)
-	slot0.level = slot1
+slot0.InitPrivateData = function(slot0, slot1)
+	slot0.level = slot1.storage_level
 end
 
 slot0.GetOverflowItemList = function(slot0)
@@ -106,11 +108,18 @@ slot0.AddItem = function(slot0, slot1)
 		return
 	end
 
+	slot3 = 0
+
 	if slot0:OwnItem(slot1.id) then
+		slot3 = slot0.itemList[slot1.id].count
+
 		slot0.itemList[slot1.id]:IncreaseCount(slot2)
 	else
 		slot0.itemList[slot1.id] = slot1
 	end
+
+	slot0:DispatchEvent(uv0.ADD_ITEM, slot1.id)
+	IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.RECYCLE)
 end
 
 slot0.SplitItemList4Add = function(slot0, slot1)
@@ -208,11 +217,16 @@ slot0.RemoveItem = function(slot0, slot1, slot2)
 		return
 	end
 
+	slot4 = slot3.count
+
 	slot3:ReduceCount(slot2)
 
 	if slot3:IsNotOwned() then
 		slot0.itemList[slot1] = nil
 	end
+
+	slot0:DispatchEvent(uv0.REMOVE_ITEM, slot1)
+	IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.RECYCLE)
 end
 
 slot0.GetItemById = function(slot0, slot1)
@@ -232,15 +246,17 @@ slot0.GetOwnCount = function(slot0, slot1)
 end
 
 slot0.GetCapacity = function(slot0)
-	return slot0:getConfig("capacity")
+	return slot0:getConfig("capacity") + slot0:GetHost():GetAblityAgency():GetInventoryMaxCntAddition()
 end
 
-slot0.StaticGetCapacity = function(slot0, slot1)
+slot0.GetNextCapacity = function(slot0, slot1)
+	slot3 = slot0:GetHost():GetAblityAgency():GetInventoryMaxCntAddition()
+
 	if not pg.island_storage_level[slot1] then
 		return 0
 	end
 
-	return slot2[slot1].capacity
+	return slot4[slot1].capacity + slot3
 end
 
 slot0.StaticGetLength = function(slot0, slot1)
@@ -303,6 +319,35 @@ slot0.GetGifts = function(slot0)
 			id = slot7
 		}) then
 			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetShipExpBooks = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(pg.island_item_data_template.get_id_list_by_type[IslandItem.TYPE_SHIP_EXP_BOOK]) do
+		if slot0:GetItemById(slot7) or IslandItem.New({
+			num = 0,
+			id = slot7
+		}) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
+slot0.OnSeasonReset = function(slot0)
+	slot1 = 0
+	slot0.overflowItemList = {}
+
+	for slot5, slot6 in pairs(slot0.itemList) do
+		if slot6:CanConvert() then
+			slot1 = slot1 + slot6:GetConvertPt() * slot6:GetCount()
+			slot0.itemList[slot5] = nil
 		end
 	end
 

@@ -282,8 +282,7 @@ slot1.SetToOverlayParent = function(slot0, slot1, slot2, slot3)
 		if slot0:GetAdaptObjFromUI(slot1) ~= nil then
 			SetParent(slot1.parent, slot0.OverlayMain, false)
 		else
-			slot4 = slot0:GetAdaptObj()
-			slot4.name = slot0:GetAdatpObjName(slot1)
+			slot4 = slot0:GetAdaptObj(slot0:GetAdatpObjName(slot1))
 
 			SetParent(slot1, slot4, false)
 			SetParent(slot4, slot0.OverlayMain, false)
@@ -310,10 +309,7 @@ slot1.SetToOrigin = function(slot0, slot1, slot2, slot3, slot4)
 		if slot0:GetAdaptObjFromUI(slot1) ~= nil then
 			slot5 = slot1.parent
 		else
-			slot5 = slot0:GetAdaptObj()
-			slot5.name = slot0:GetAdatpObjName(slot1)
-
-			SetParent(slot1, slot5, false)
+			SetParent(slot1, slot0:GetAdaptObj(slot0:GetAdatpObjName(slot1)), false)
 		end
 	else
 		slot5 = slot1
@@ -377,30 +373,26 @@ slot1.switchOriginParent = function(slot0)
 	end
 end
 
-slot1.GetAdaptObj = function(slot0)
-	slot1 = nil
+slot1.GetAdaptObj = function(slot0, slot1)
+	slot2 = nil
 
 	if #slot0.adaptPool > 0 then
-		slot1 = table.remove(slot0.adaptPool, #slot0.adaptPool)
+		table.remove(slot0.adaptPool, #slot0.adaptPool).name = slot1
 	else
-		slot2 = GameObject.New()
-
-		slot2:AddComponent(typeof(NotchAdapt))
-
-		slot1 = slot2:AddComponent(typeof(RectTransform))
+		slot2 = GameObject.New(slot1, typeof(RectTransform), typeof(NotchAdapt)).transform
 	end
 
-	slot1.anchorMin = Vector2.zero
-	slot1.anchorMax = Vector2.one
-	slot1.pivot = Vector2(0.5, 0.5)
-	slot1.offsetMax = Vector2.zero
-	slot1.offsetMin = Vector2.zero
-	slot1.localPosition = Vector3.zero
+	slot2.anchorMin = Vector2.zero
+	slot2.anchorMax = Vector2.one
+	slot2.pivot = Vector2(0.5, 0.5)
+	slot2.offsetMax = Vector2.zero
+	slot2.offsetMin = Vector2.zero
+	slot2.localPosition = Vector3.zero
 
-	SetActive(slot1, true)
-	slot0:ShowOrHideTF(slot1, true)
+	SetActive(slot2, true)
+	slot0:ShowOrHideTF(slot2, true)
 
-	return slot1
+	return slot2
 end
 
 slot1.CheckRecycleAdaptObj = function(slot0, slot1, slot2)

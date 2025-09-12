@@ -7,13 +7,26 @@ slot0.STATE_DISPOSE = 4
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0)
 
-	slot0.view, slot0.controller = slot0:GetViewAndController(slot1)
-	slot0.sceneLoader = (slot2 and IslandSceneSwitcher or IslandSceneLoader).New()
+	slot0.poolMgr = slot1
+	slot0.view, slot0.controller = slot0:GetViewAndController(slot2)
+	slot0.sceneLoader = IslandSceneLoader.New()
 
 	slot0:UpdateState(uv0.STATE_LOAD)
-	slot0.sceneLoader:Load(IslandDataConvertor.Island2SceneName(slot1), function (slot0)
-		uv0:Init(slot0)
-	end)
+
+	slot5, slot6, slot7 = IslandDataConvertor.Island2SceneName(slot2)
+
+	slot0.view:SetBgm(slot7)
+	slot0.sceneLoader:Load(slot5, slot6, {
+		function (slot0)
+			uv0:Init(slot0)
+		end
+	})
+
+	slot0.enterTime = pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetPoolMgr = function(slot0)
+	return slot0.poolMgr
 end
 
 slot0.UpdateState = function(slot0, slot1)
@@ -91,6 +104,7 @@ slot0.Link = function(slot0, slot1, ...)
 end
 
 slot0.Dispose = function(slot0, slot1)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildMapExit(slot0.controller.mapId, pg.TimeMgr.GetInstance():GetServerTime() - slot0.enterTime))
 	slot0:UpdateState(uv0.STATE_DISPOSE)
 
 	if slot0.handle then
@@ -101,16 +115,18 @@ slot0.Dispose = function(slot0, slot1)
 		LateUpdateBeat:RemoveListener(slot0.lateUpdateluHandle)
 	end
 
-	if slot0.controller then
-		slot0.controller:Dispose()
-
-		slot0.controller = nil
-	end
+	setActive(IslandCameraMgr.instance.gameObject, false)
 
 	if slot0.view then
 		slot0.view:Dispose()
 
 		slot0.view = nil
+	end
+
+	if slot0.controller then
+		slot0.controller:Dispose()
+
+		slot0.controller = nil
 	end
 
 	if slot0.sceneLoader then
@@ -122,10 +138,12 @@ end
 
 slot0.GetViewAndController = function(slot0, slot1)
 	slot2, slot3 = nil
+	slot4 = slot1:GetMapId()
+	slot5 = pg.island_map[slot4]
 
-	if slot1:GetMapId() == IslandConst.AGORA_MAP_ID then
+	if slot4 == IslandConst.AGORA_MAP_ID then
 		slot2 = AgoraView.New(slot0, AgoraController.New(slot0, slot1):GetAgora())
-	elseif slot4 == IslandConst.SEEK_GAME_MAP_ID then
+	elseif slot5.minigame_id > 0 then
 		slot2 = IslandSeekGameView.New(slot0)
 		slot3 = IslandController.New(slot0, slot1)
 	else

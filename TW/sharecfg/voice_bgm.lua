@@ -135,6 +135,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
+	ActivityShop50088 = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
 	NewShopsScene = {
 		default_bgm = "theme-fushun-adventure",
 		special_bgm = "",
@@ -2025,6 +2030,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "yumia-az-theme-pv"
 	},
+	NewSkinShopScene = {
+		default_bgm = "yumia-81",
+		special_bgm = "",
+		bgm = "yumia-81"
+	},
 	KearsargeTecCatchUpPage = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
@@ -2064,5 +2074,25 @@ pg.voice_bgm = {
 		default_bgm = "story-enzecheng-theme",
 		special_bgm = "",
 		bgm = "story-enzecheng-theme"
+	},
+	AierdeliqiAlterItemRePage = {
+		default_bgm = "story-masazhusai",
+		special_bgm = "",
+		bgm = "story-masazhusai"
+	},
+	ShimantoTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	TianYuTianYuanFramePage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
+	TianYuTianYuanLoginPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
 	}
 }

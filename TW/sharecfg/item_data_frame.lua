@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「停駐在高塔上的薔薇，守護著皇家最後的榮光」</color>\n「高塔上的薔薇」活動獲取",
 		scene = {}
 	},
+	[336] = {
+		name = "鳳鳴天原",
+		gain_by = "",
+		time_second = 0,
+		id = 336,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -855,6 +864,7 @@ pg.item_data_frame = {
 		332,
 		333,
 		335,
+		336,
 		401,
 		402,
 		414,

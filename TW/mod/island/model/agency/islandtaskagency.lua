@@ -3,6 +3,7 @@ slot0.TASK_ADDED = "IslandTaskAgency.TASK_ADDED"
 slot0.TASK_UPDATED = "IslandTaskAgency.TASK_UPDATED"
 slot0.TASK_REMOVED = "IslandTaskAgency.TASK_REMOVED"
 slot0.FUTURE_TASK_REMOVED = "IslandTaskAgency.FUTURE_TASK_REMOVED"
+slot0.TASK_FINISH = "IslandTaskAgency.TASK_FINISH"
 
 slot0.OnInit = function(slot0, slot1)
 	slot2 = slot1.task_info or {}
@@ -24,6 +25,8 @@ slot0.OnInit = function(slot0, slot1)
 			slot7:SetEndTime(slot0.randomTaskTimes[slot7.id])
 		end
 	end
+
+	slot0.acceptCheckTimestampTags = {}
 end
 
 slot0.InitFutureTasks = function(slot0, slot1)
@@ -46,7 +49,7 @@ slot0.InitFutureTasks = function(slot0, slot1)
 	end
 
 	for slot5, slot6 in ipairs(IslandTaskType.GetPermanentTypes()) do
-		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot6], function (slot0)
+		underscore.each(underscore.select(pg.island_task.get_id_list_by_type[slot6] or {}, function (slot0)
 			return not uv0.IsServerAcceptType(slot0) and not uv1:CheckMutex(slot0)
 		end), function (slot0)
 			slot1 = IslandFutureTask.New({
@@ -55,6 +58,12 @@ slot0.InitFutureTasks = function(slot0, slot1)
 			uv0.futureTasks[slot1.id] = slot1
 		end)
 	end
+
+	slot0:BuildObjectTaskHudData()
+end
+
+slot0.BuildObjectTaskHudData = function(slot0)
+	IslandObjectTaskHudHelper.BuildData(table.mergeArray(underscore.keys(slot0.tasks), underscore.keys(slot0.futureTasks)))
 end
 
 slot0.CheckMutex = function(slot0, slot1)
@@ -67,7 +76,7 @@ slot0.CheckMutex = function(slot0, slot1)
 	end
 
 	return underscore.any(slot2, function (slot0)
-		return slot0[1] == IslandFutureTask.CONDITION_TYPE.MUTEX_TASK and table.contains(uv0.mutexIds, slot0[2])
+		return slot0[1] == IslandTaskConditionType.MUTEX_TASK and table.contains(uv0.mutexIds, slot0[2])
 	end)
 end
 
@@ -83,12 +92,34 @@ slot0.GetTasks = function(slot0)
 	return slot0.tasks
 end
 
+slot0.GetShowTasks = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.tasks) do
+		if slot6:getConfig("type") ~= IslandTaskType.SEASON then
+			slot9 = underscore.all(slot6:getConfig("link_task"), function (slot0)
+				return uv0:IsFinishTask(slot0)
+			end)
+
+			if slot7 == IslandTaskType.SEASON then
+				if #slot8 > 0 and slot9 then
+					table.insert(slot1, slot6)
+				end
+			elseif slot9 then
+				table.insert(slot1, slot6)
+			end
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetTask = function(slot0, slot1)
 	return slot0.tasks[slot1]
 end
 
 slot0.GetFutureTask = function(slot0, slot1)
-	return slot0.futureTasks[taskId]
+	return slot0.futureTasks[slot1]
 end
 
 slot0.SetTraceId = function(slot0, slot1)
@@ -105,6 +136,30 @@ slot0.GetTraceTask = function(slot0)
 	end
 
 	return slot0.tasks[slot0.traceId]
+end
+
+slot0.GetPriorityTraceTaskId = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.tasks) do
+		if not table.contains(IslandTaskType.EXCLUED_TRACK_TYPES, slot6:GetType()) then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return -slot0:GetAcceptTime()
+		end,
+		function (slot0)
+			return IslandTaskType.GetTrackPriority(slot0:GetType())
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
+
+	return slot1[1] and slot1[1].id
 end
 
 slot0.AddTask = function(slot0, slot1)
@@ -143,8 +198,31 @@ slot0.UpdateTask = function(slot0, slot1)
 	end
 end
 
+slot0.GetDiffTargetIdsByTypeAndParam = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.tasks) do
+		slot3 = table.mergeArray(slot3, slot8:GetTargetIdByTypeAndParam(slot1, slot2), true)
+	end
+
+	return slot3
+end
+
+slot0.GetTasksByTypeAndParam = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.tasks) do
+		if slot8:ExistTargetType(slot1, slot2) then
+			table.insert(slot3, slot8)
+		end
+	end
+
+	return task
+end
+
 slot0.AddFinishId = function(slot0, slot1)
 	table.insert(slot0.finishedIds, slot1)
+	slot0:DispatchEvent(uv0.TASK_FINISH)
 end
 
 slot0.RemoveTask = function(slot0, slot1)
@@ -193,14 +271,61 @@ slot0.UpdatePerSecond = function(slot0)
 	for slot5, slot6 in pairs(slot0.futureTasks) do
 		if not slot6:InTime() then
 			slot0:RemoveFutureTask(slot6.id)
-		elseif slot6:IsUnlock() and slot6:IsAcceptImmediately() then
-			table.insert(slot1, task)
 		end
 	end
 
-	if #slot1 > 0 then
+	if slot0.acceptCheckTimestampTags[pg.TimeMgr.GetInstance():GetServerTime()] then
+		slot0.acceptCheckTimestampTags[slot2] = nil
+
+		slot0:TryAcceptAutoTasks()
+	end
+end
+
+slot0.TryAcceptAutoTasks = function(slot0, slot1)
+	slot2 = {}
+	slot0.acceptCheckTimestampTags = {}
+
+	for slot6, slot7 in pairs(slot0.futureTasks) do
+		if slot7:IsAcceptImmediately() and slot7:IsUnlock() then
+			table.insert(slot2, slot7.id)
+		elseif slot7:IsUnlockWaitTime() then
+			slot0.acceptCheckTimestampTags[slot7:GetUnlockTime()] = true
+		end
+	end
+
+	if #slot2 > 0 then
 		pg.m02:sendNotification(GAME.ISLAND_ACCEPT_TASK, {
-			taskIds = slot1
+			taskIds = slot2,
+			callback = slot1
+		})
+	else
+		existCall(slot1)
+	end
+end
+
+slot0.TrySubmitAutoTasks = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.tasks) do
+		if slot7:IsFinish() and slot7:IsSubmitImmediately() then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.ISLAND_SUBMIT_TASK, {
+					taskId = uv0.id,
+					callback = slot0
+				})
+			end)
+		end
+	end
+
+	seriesAsync(slot2, function ()
+		existCall(uv0)
+	end)
+end
+
+slot0.TryAutoTrackTask = function(slot0)
+	if slot0:GetPriorityTraceTaskId() then
+		pg.m02:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
+			traceId = slot1
 		})
 	end
 end

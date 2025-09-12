@@ -2,7 +2,7 @@ slot0 = class("IslandSubmitOrderCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	if not getProxy(IslandProxy):GetIsland():GetOrderAgency():GetSlot(slot1:getBody().slotId):CanSubmit() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("资源不足"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -35,6 +35,7 @@ slot0.HandleUrgencyOrder = function(slot0, slot1)
 				dropData = uv0:HandleDrops(uv1),
 				slotId = uv1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_URGENCY, uv1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
@@ -68,6 +69,7 @@ slot0.HandleCommonOrder = function(slot0, slot1)
 				dropData = slot1,
 				slotId = uv1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_NORMAL, uv1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
@@ -92,6 +94,7 @@ slot0.HandleFirmOrder = function(slot0, slot1)
 				dropData = uv0:HandleDrops(uv1),
 				slotId = uv1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_FORM, uv1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end
@@ -100,21 +103,10 @@ end
 
 slot0.HandleDrops = function(slot0, slot1)
 	slot3, slot4 = slot1:GetOrder():GetAwardItemAndExp()
-	slot5 = IslandDropHelper.AddItems({
+
+	return IslandDropHelper.AddItems({
 		drop_list = slot3
-	})
-
-	getProxy(IslandProxy):GetIsland():AddExp(slot4)
-
-	if slot4 > 0 then
-		table.insert(slot5.awards, {
-			id = 2,
-			type = DROP_TYPE_ISLAND_ITEM,
-			count = slot4
-		})
-	end
-
-	return slot5
+	}, slot4)
 end
 
 slot0.HandleConsume = function(slot0, slot1)

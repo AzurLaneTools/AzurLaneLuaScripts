@@ -5,12 +5,61 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.inviteBtn = slot0._tf:Find("top/invite")
-	slot0.centreInfoTF = slot0._tf:Find("left")
-	slot1 = slot0._tf:Find("content")
-	slot0.typeUIList = UIItemList.New(slot1, slot1:GetChild(0))
-	slot0.quickPanel = IslandTechQuickPanel.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.overviewPanel = IslandTechOverviewPanel.New(slot0._tf, slot0.event, slot0.contextData)
+	slot1 = slot0._tf
+	slot0.centreToggleTF = slot1:Find("types/1")
+	slot1 = slot0.centreToggleTF
+	slot0.centreTipTF = slot1:Find("tip")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("types/content")
+	slot0.typeUIList = UIItemList.New(slot1, slot1:Find("tpl"))
+	slot2 = slot0._tf
+	slot0.pages = {}
+	slot7 = slot2:Find("pages")
+	slot8 = slot0.event
+	slot0.pages[IslandTechBelong.CENTRE] = IslandTechCentrePanel.New(slot7, slot8, setmetatable({
+		onItemClick = function (slot0, slot1)
+			uv0.detailPanel:ExecuteAction("Show", slot0, slot1)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
+
+	for slot7, slot8 in ipairs(IslandTechBelong.COMMON_SHOW_TYPES) do
+		slot0.pages[slot8] = IslandTechTreePanel.New(slot2, slot0.event, setmetatable({
+			type = slot8
+		}, {
+			__index = slot3
+		}))
+	end
+
+	slot0.quickPanel = IslandTechQuickPanel.New(slot0._tf, slot0.event, setmetatable({
+		onGetAwardDone = function ()
+			uv0:OpenPage(IslandTechAwardPage)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
+	slot0.detailPanel = IslandTechDetailPanel.New(slot0._tf, slot0.event, setmetatable({
+		onSelecteShip = function ()
+			slot0 = uv0
+
+			slot0:OpenPage(IslandShipSelectPage, 1, {}, nil, function (slot0)
+				uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
+			end)
+		end,
+		onFinishImmd = function (slot0)
+			slot1 = uv0
+
+			slot1:emit(IslandMediator.ON_FINISH_TECH_IMMD, slot0, function ()
+				uv0:OpenPage(IslandTechAwardPage, uv1)
+			end)
+		end,
+		onGetAwardDone = function (slot0)
+			uv0:OpenPage(IslandTechAwardPage, slot0)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
 end
 
 slot0.OnInit = function(slot0)
@@ -25,19 +74,15 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot3:Find("top/home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.inviteBtn, function ()
-		uv0:OpenPage(IslandInvitePage)
-		uv0:FoldSubViewPanelPanel()
+	onToggle(slot0, slot0.centreToggleTF, function (slot0)
+		if slot0 then
+			uv0.curPage = IslandTechBelong.CENTRE
+
+			uv0:SwitchPage()
+		end
 	end, SFX_PANEL)
 
-	slot3 = slot0.centreInfoTF
-
-	onButton(slot0, slot3:Find("centre"), function ()
-		uv0:OpenPage(IslandTechCentrePage)
-		uv0:FoldSubViewPanelPanel()
-	end, SFX_PANEL)
-
-	slot0.types = IslandTechBelong.COMMON_SHOW_TYPES
+	slot0.commonTypes = IslandTechBelong.COMMON_SHOW_TYPES
 	slot1 = slot0.typeUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -50,109 +95,105 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.AddListeners = function(slot0)
+	slot0:AddListener(GAME.ISLAND_UNLOCK_TECH_DONE, slot0.Flush)
 	slot0:AddListener(GAME.ISLAND_START_DELEGATION_DONE, slot0.Flush)
-	slot0:AddListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, slot0.Flush)
+	slot0:AddListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, slot0.CheckAutoUnlock)
 	slot0:AddListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.Flush)
-	slot0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.Flush)
+	slot0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.CheckAutoUnlock)
 end
 
 slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(GAME.ISLAND_UNLOCK_TECH_DONE, slot0.Flush)
 	slot0:RemoveListener(GAME.ISLAND_START_DELEGATION_DONE, slot0.Flush)
-	slot0:RemoveListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, slot0.Flush)
+	slot0:RemoveListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, slot0.CheckAutoUnlock)
 	slot0:RemoveListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.Flush)
-	slot0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.Flush)
+	slot0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.CheckAutoUnlock)
+end
+
+slot0.InitTypeItem = function(slot0, slot1, slot2)
+	slot3 = slot0.commonTypes[slot1 + 1]
+	slot2.name = slot3
+	slot4 = IslandTechBelong.Names[slot3]
+
+	setText(slot2:Find("unsel"), slot4)
+	setText(slot2:Find("sel/content/Text"), slot4)
+	LoadImageSpriteAsync("island/islandtechnology/tech_type_" .. IslandTechBelong.Fields[slot3], slot2:Find("sel/content/Image"), true)
+	onToggle(slot0, slot2, function (slot0)
+		if slot0 then
+			uv0.curPage = uv1
+
+			uv0:SwitchPage()
+		end
+	end, SFX_PANEL)
+end
+
+slot0.UpdateTypeItem = function(slot0, slot1, slot2)
+	slot3 = slot0.commonTypes[slot1 + 1]
+
+	setActive(slot2:Find("unsel/tip"), slot0:IsReceiveByType(slot3))
+	setActive(slot2:Find("sel/tip"), slot0:IsReceiveByType(slot3))
+end
+
+slot0.IsReceiveByType = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.techAgency:GetTechnologys()) do
+		if slot6:getConfig("tech_belong") == slot1 and slot6:GetStatus() == IslandTechnology.STATUS.RECEIVE then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.FlushCentreTip = function(slot0)
+	setActive(slot0.centreTipTF, slot0:IsReceiveByType(IslandTechBelong.CENTRE))
+end
+
+slot0.SwitchPage = function(slot0)
+	for slot4, slot5 in pairs(slot0.pages) do
+		if slot4 == slot0.curPage then
+			slot5:ExecuteAction("Show")
+		else
+			slot5:ExecuteAction("Hide")
+		end
+	end
 end
 
 slot0.OnShow = function(slot0)
-	slot0:Flush()
-	slot0:CheckAutoFinish()
-	slot0:ShowSubViewPanel()
+	triggerToggle(slot0.centreToggleTF, true)
+	slot0.quickPanel:ExecuteAction("Show")
+	slot0:CheckAutoUnlock()
+end
+
+slot0.CheckAutoUnlock = function(slot0)
+	slot1 = getProxy(IslandProxy)
+	slot1 = slot1:GetIsland()
+	slot1 = slot1:GetTechnologyAgency()
+
+	slot1:TryAutoUnlock(function ()
+		uv0:Flush()
+	end)
 end
 
 slot0.Flush = function(slot0)
 	slot0.techAgency = getProxy(IslandProxy):GetIsland():GetTechnologyAgency()
 
-	slot0.typeUIList:align(#slot0.types)
-	slot0:FlushCentre()
+	slot0.typeUIList:align(#slot0.commonTypes)
+	slot0:FlushCentreTip()
+	slot0.pages[slot0.curPage]:ExecuteAction("Flush")
 	slot0.quickPanel:ExecuteAction("Flush")
-	slot0.overviewPanel:ExecuteAction("Flush")
-end
 
-slot0.CheckAutoFinish = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0.techAgency:GetAutoFinishList()) do
-		table.insert(slot1, function (slot0)
-			uv0:emit(IslandMediator.ON_FINISH_TECH_IMMD, uv1, slot0)
-		end)
+	if slot0.detailPanel:isShowing() then
+		slot0.detailPanel:ExecuteAction("Flush")
 	end
-
-	seriesAsync(slot1, function ()
-		warning("auto finish end, cnt:", #uv0)
-	end)
-end
-
-slot0.InitTypeItem = function(slot0, slot1, slot2)
-	slot3 = slot0.types[slot1 + 1]
-
-	setText(slot2:Find("info/name"), IslandTechBelong.Names[slot3])
-	LoadImageSpriteAsync("islandtechnology/type_" .. IslandTechBelong.Fields[slot3], slot2:Find("info/icon"))
-	onButton(slot0, slot2, function ()
-		uv0:OpenPage(IslandTechTreePage, uv1)
-		uv0:FoldSubViewPanelPanel()
-	end, SFX_PANEL)
-end
-
-slot0.UpdateTypeItem = function(slot0, slot1, slot2)
-	slot4 = slot0.techAgency:GetPctByType(slot0.types[slot1 + 1])
-
-	setText(slot2:Find("info/Text"), slot4)
-	slot0:UpdateProgress(slot2:Find("info/progress"), slot4)
-	setActive(slot2:Find("line"), slot4 == 100)
-end
-
-slot0.UpdateProgress = function(slot0, slot1, slot2)
-	setFillAmount(slot1, slot2 / 100)
-
-	slot3 = slot2 == 0 or slot2 == 100
-
-	setActive(slot1:Find("pointer"), not slot3)
-
-	if not slot3 then
-		slot4 = slot2 / 100 * 360
-
-		setLocalEulerAngles(slot1:Find("pointer"), {
-			z = slot4
-		})
-		setLocalEulerAngles(slot1:Find("pointer/mask/ring"), {
-			z = 360 - slot4
-		})
-	end
-end
-
-slot0.FlushCentre = function(slot0)
-	setText(slot0.centreInfoTF:Find("level"), getProxy(IslandProxy):GetIsland():GetLevel())
-	slot0:UpdateProgress(slot0.centreInfoTF:Find("progress"), slot0.techAgency:GetPctByType(IslandTechBelong.CENTRE))
-end
-
-slot0.ShowSubViewPanel = function(slot0)
-	slot0.quickPanel:ExecuteAction("Show")
-	slot0.overviewPanel:ExecuteAction("Show")
-end
-
-slot0.FoldSubViewPanelPanel = function(slot0)
-	slot0.quickPanel:ExecuteAction("OffToggle")
-	slot0.overviewPanel:ExecuteAction("OffToggle")
-end
-
-slot0.HideSubViewPanel = function(slot0)
-	slot0:FoldSubViewPanelPanel()
-	slot0.quickPanel:ExecuteAction("Hide")
-	slot0.overviewPanel:ExecuteAction("Hide")
 end
 
 slot0.OnHide = function(slot0)
-	slot0:HideSubViewPanel()
+	slot0.quickPanel:ExecuteAction("Hide")
+	slot0.detailPanel:ExecuteAction("Hide")
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
 end
 
 slot0.OnDestroy = function(slot0)
@@ -162,10 +203,18 @@ slot0.OnDestroy = function(slot0)
 		slot0.quickPanel = nil
 	end
 
-	if slot0.overviewPanel then
-		slot0.overviewPanel:Destroy()
+	if slot0.detailPanel then
+		slot0.detailPanel:Destroy()
 
-		slot0.overviewPanel = nil
+		slot0.detailPanel = nil
+	end
+
+	for slot4, slot5 in pairs(slot0.pages) do
+		if slot5 then
+			slot5:Destroy()
+
+			slot5 = nil
+		end
 	end
 end
 

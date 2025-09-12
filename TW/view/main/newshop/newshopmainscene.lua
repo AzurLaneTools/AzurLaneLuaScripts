@@ -318,18 +318,21 @@ slot0.didEnter = function(slot0)
 	for slot5 = 1, #slot0.toggleList do
 		onToggle(slot0, slot0.toggleList[slot5].go, function (slot0)
 			if slot0 then
-				uv0.contextData.type = ShopConst.SHOP_TYPE.CHARGE
-				uv0.contextData.warp = uv0.toggleList[uv1].type
-
 				uv0:ShowChargeWarp(true)
-				pg.m02:sendNotification(uv2.CLOSE_ALL_LAYER)
+				pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 
 				uv0.contextData.shop1 = nil
 				uv0.contextData.shop2 = nil
 				uv0.shop1 = nil
 				uv0.shop2 = nil
 
-				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
+				originalPrint(string.format("Begin: toggleType=%s, goName=%s", uv2.type, uv2.go.parent.name))
+
+				uv0.contextData.type = ShopConst.SHOP_TYPE.CHARGE
+				uv0.contextData.warp = uv2.type
+
+				originalPrint(string.format("End: warp=%s", uv0.contextData.warp))
+				uv0:switchSubView(uv0:GetShopID(ShopConst.SHOP_TYPE.CHARGE, uv2.type))
 			end
 		end, SFX_PANEL)
 	end
@@ -361,18 +364,17 @@ slot0.didEnter = function(slot0)
 	}) do
 		onToggle(slot0, slot7.go, function (slot0)
 			if slot0 then
-				uv0.contextData.type = ShopConst.SHOP_TYPE.SUPPLY
-				uv0.contextData.warp = uv1.type
-
 				uv0:ShowChargeWarp(true)
-				pg.m02:sendNotification(uv2.CLOSE_ALL_LAYER)
+				pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 
 				uv0.contextData.shop1 = nil
 				uv0.contextData.shop2 = nil
 				uv0.shop1 = nil
 				uv0.shop2 = nil
+				uv0.contextData.type = ShopConst.SHOP_TYPE.SUPPLY
+				uv0.contextData.warp = uv2.type
 
-				uv0:switchSubView(uv0:GetShopID(uv0.contextData.type, uv0.contextData.warp))
+				uv0:switchSubView(uv0:GetShopID(ShopConst.SHOP_TYPE.SUPPLY, uv2.type))
 			end
 		end, SFX_PANEL)
 	end
@@ -615,11 +617,13 @@ slot0.initSubView = function(slot0)
 	slot0.contextData.paintingView:setSecretaryPos(slot0:findTF("frame/secretaryPos"))
 end
 
-slot0.GetShopID = function(slot0)
-	return ShopConst.SHOP_LIST[slot0.contextData.type][slot0.contextData.warp]
+slot0.GetShopID = function(slot0, slot1, slot2)
+	return ShopConst.SHOP_LIST[slot1][slot2]
 end
 
 slot0.switchSubView = function(slot0, slot1)
+	originalPrint(string.format("End: shopID=%s curShopID=%s", slot1, slot0.curSubViewNum))
+
 	if slot1 == slot0.curSubViewNum then
 		return
 	end
@@ -672,7 +676,9 @@ slot0.switchSubViewByTogger = function(slot0, slot1)
 end
 
 slot0.updateCurSubView = function(slot0)
-	slot1 = slot0.subViewList[slot0.curSubViewNum]
+	if slot0.subViewList[slot0.curSubViewNum] == nil then
+		return
+	end
 
 	slot1:setGoodData(slot0.firstChargeIds, slot0.chargedList, slot0.normalList, slot0.normalGroupList)
 	slot1:reUpdateAll()

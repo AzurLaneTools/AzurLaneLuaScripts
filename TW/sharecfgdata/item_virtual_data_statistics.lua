@@ -174380,6 +174380,31 @@ _G.pg.base.item_virtual_data_statistics[65675] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65680] = {
+	drop_gold_max = 0,
+	name = "訓練點數",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_20250904",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65680,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木料",
@@ -183454,7 +183479,7 @@ _G.pg.base.item_virtual_data_statistics[86009] = {
 
 _G.pg.base.item_virtual_data_statistics[86010] = {
 	drop_gold_max = 0,
-	name = "隨機金秋換裝",
+	name = "台服隨機金秋換裝",
 	display = "不会被看到",
 	type = 98,
 	is_world = 0,
@@ -183516,7 +183541,7 @@ _G.pg.base.item_virtual_data_statistics[86010] = {
 
 _G.pg.base.item_virtual_data_statistics[86011] = {
 	drop_gold_max = 0,
-	name = "隨機五週年換裝",
+	name = "台服隨機五週年換裝",
 	display = "不会被看到",
 	type = 98,
 	is_world = 0,
@@ -183664,7 +183689,7 @@ _G.pg.base.item_virtual_data_statistics[86012] = {
 
 _G.pg.base.item_virtual_data_statistics[86013] = {
 	drop_gold_max = 0,
-	name = "隨機換裝",
+	name = "台服隨機換裝",
 	display = "不会被看到",
 	type = 98,
 	is_world = 0,

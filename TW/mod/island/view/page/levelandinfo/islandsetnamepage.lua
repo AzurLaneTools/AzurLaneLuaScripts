@@ -6,7 +6,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
-	setText(slot0:findTF("frame/title"), i18n1("岛屿名称"))
+	setText(slot0:findTF("frame/title"), i18n("island_rename_subtitle"))
 	setActive(slot0.closeBtn, false)
 end
 

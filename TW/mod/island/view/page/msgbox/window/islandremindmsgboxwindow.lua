@@ -9,7 +9,7 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.remindToggle = slot0:findTF("remind")
 
-	setText(slot0:findTF("remind/Text"), i18n1("今日不再提醒"))
+	setText(slot0:findTF("remind/Text"), i18n("island_no_remind_today"))
 end
 
 slot0.OnInit = function(slot0)

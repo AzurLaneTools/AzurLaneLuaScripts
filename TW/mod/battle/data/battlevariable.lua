@@ -62,7 +62,7 @@ slot7 = 0
 slot8 = 0
 
 slot1.UpdateCameraPositionArgs = function()
-	slot1 = pg.CameraFixMgr.GetInstance():GetCameraOrthographicSize(uv0._camera)
+	slot1 = CameraMgr.instance:GetCameraOrthographicSize(uv0._camera)
 
 	if uv0._lastCameraPos == uv0._cameraTF.position and uv0._lastCameraSize == slot1 then
 		return

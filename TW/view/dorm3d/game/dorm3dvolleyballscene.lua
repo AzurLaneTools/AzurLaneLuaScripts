@@ -44,10 +44,6 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dVolleyballUI"
 end
 
-slot0.lowerAdpter = function(slot0)
-	return true
-end
-
 slot9 = nil
 
 slot0.Ctor = function(slot0, ...)

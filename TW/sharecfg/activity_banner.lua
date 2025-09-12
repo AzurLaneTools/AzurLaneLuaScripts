@@ -76,19 +76,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp4",
+		pic = "temp3",
 		param = {
 			"scene core activity",
 			{
-				coreName = "SecretsAbyssCoreActivityUI"
+				coreName = "TianYuTianYuanCoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					12
 				},
 				{
 					0,
@@ -99,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					9
 				},
 				{
 					14,
@@ -113,19 +113,20 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 4,
-		pic = "temp5",
+		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				warp = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					12
 				},
 				{
 					0,
@@ -136,11 +137,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					9
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -148,21 +149,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "50033",
+		type = 3,
 		id = 5,
 		pic = "temp1",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					12
 				},
 				{
 					0,
@@ -174,10 +170,10 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					11
+					25
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -187,16 +183,16 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 6,
-		pic = "temp7",
+		pic = "temp6",
 		param = {
-			"scene court yard"
+			"scene dailylevel"
 		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					12
 				},
 				{
 					0,
@@ -208,10 +204,10 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					11
+					19
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -219,16 +215,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50083",
+		param = "50101",
 		type = 3,
 		id = 7,
-		pic = "temp8",
+		pic = "temp7",
 		time = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					12
 				},
 				{
 					0,
@@ -239,8 +235,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					9
 				},
 				{
 					14,
@@ -765,7 +761,6 @@ pg.activity_banner = {
 			2,
 			3,
 			4,
-			5,
 			6,
 			8,
 			9,
@@ -794,6 +789,7 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			5,
 			7,
 			1003
 		},

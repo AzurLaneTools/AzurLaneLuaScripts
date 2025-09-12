@@ -30238,8 +30238,81 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50033] = {
+		mark = 20250912,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "LuXieErSkin",
+		id = 50033,
+		page_core = "",
+		config_data = {
+			{
+				23896,
+				23897
+			},
+			{
+				23898,
+				23899
+			},
+			{
+				23900,
+				23901
+			},
+			{
+				23902,
+				23903
+			},
+			{
+				23904,
+				23905
+			},
+			{
+				23906,
+				23907
+			},
+			{
+				23908,
+				23909
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LuXieErSkinPage",
+			ui_name = "LuXieErSkinPage"
+		}
+	},
 	[50042] = {
 		mark = 20250807,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -30261,33 +30334,6 @@ pg.activity_template = {
 			1690041,
 			1690051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaMainRePage",
 			ui_name = "RyzaMainRePage"
@@ -30300,6 +30346,7 @@ pg.activity_template = {
 	},
 	[50043] = {
 		mark = 20250807,
+		time = "stop",
 		type = 88,
 		login_pop = 0,
 		config_id = 0,
@@ -30308,33 +30355,6 @@ pg.activity_template = {
 		id = 50043,
 		page_core = "ALYCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ALYAtelierCompositePage",
 			ui_name = "ALYAtelierCompositePage"
@@ -30354,6 +30374,7 @@ pg.activity_template = {
 	},
 	[50044] = {
 		mark = 20250807,
+		time = "stop",
 		type = 89,
 		login_pop = 0,
 		config_id = 0,
@@ -30421,33 +30442,6 @@ pg.activity_template = {
 			{
 				24189,
 				24190
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -30524,6 +30518,7 @@ pg.activity_template = {
 	[50045] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 30,
 		login_pop = 0,
 		config_id = 0,
@@ -30554,37 +30549,11 @@ pg.activity_template = {
 			300099,
 			300100,
 			300221
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50046] = {
 		mark = 20250807,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 36,
@@ -30593,33 +30562,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50046,
 		page_core = "RyzaCoreActivityUI",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaMGPage",
 			ui_name = "RyzaMGPage"
@@ -30647,6 +30589,7 @@ pg.activity_template = {
 	[50047] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -30660,38 +30603,12 @@ pg.activity_template = {
 				31961,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50048] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -30718,37 +30635,11 @@ pg.activity_template = {
 			24211,
 			24212,
 			24213
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50049] = {
 		mark = 20250807,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50049,
@@ -30757,33 +30648,6 @@ pg.activity_template = {
 		id = 50049,
 		page_core = "RyzaCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaPtRePage",
 			ui_name = "RyzaPtRePage"
@@ -30804,6 +30668,7 @@ pg.activity_template = {
 	[50051] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 523,
@@ -30812,38 +30677,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 50051,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50052] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -30877,33 +30716,6 @@ pg.activity_template = {
 			3103,
 			3104,
 			3105
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_ryza",
@@ -30950,6 +30762,7 @@ pg.activity_template = {
 	[50053] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 5,
@@ -30958,33 +30771,6 @@ pg.activity_template = {
 		id = 50053,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 5,
 			bg = "loadingbg/bg_build_5_act",
@@ -31008,6 +30794,7 @@ pg.activity_template = {
 	},
 	[50054] = {
 		mark = 20250807,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -31029,33 +30816,6 @@ pg.activity_template = {
 			1940041,
 			1940051,
 			1940052
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ALYMainPage",
@@ -31145,6 +30905,7 @@ pg.activity_template = {
 	},
 	[50055] = {
 		mark = 20250807,
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
@@ -31154,33 +30915,6 @@ pg.activity_template = {
 		id = 50055,
 		page_core = "RyzaCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaAtelierCompositeRePage",
 			ui_name = "RyzaAtelierCompositeRePage"
@@ -31189,6 +30923,7 @@ pg.activity_template = {
 	[50056] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -31202,38 +30937,12 @@ pg.activity_template = {
 				31933,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50057] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -31306,37 +31015,11 @@ pg.activity_template = {
 			24275,
 			24276,
 			24277
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50058] = {
 		mark = 20250807,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50058,
@@ -31345,33 +31028,6 @@ pg.activity_template = {
 		id = 50058,
 		page_core = "ALYCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ALYPtPage",
 			ui_name = "ALYPtPage"
@@ -31390,6 +31046,7 @@ pg.activity_template = {
 	[50059] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -31405,38 +31062,12 @@ pg.activity_template = {
 			0.36,
 			0.58,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50060] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 528,
@@ -31445,38 +31076,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 50060,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50061] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -31510,33 +31115,6 @@ pg.activity_template = {
 			3128,
 			3129,
 			3130
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_aila",
@@ -31583,6 +31161,7 @@ pg.activity_template = {
 	[50062] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -31591,37 +31170,11 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50062,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50063] = {
 		mark = 20250807,
+		time = "stop",
 		type = 127,
 		login_pop = 0,
 		config_id = 0,
@@ -31691,33 +31244,6 @@ pg.activity_template = {
 						130,
 						906784
 					}
-				}
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
 				}
 			}
 		},
@@ -31834,6 +31360,7 @@ pg.activity_template = {
 	},
 	[50064] = {
 		mark = 20250807,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -31842,33 +31369,6 @@ pg.activity_template = {
 		id = 50064,
 		page_core = "RyzaCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					9
-				},
-				{
-					9,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RyzaAwardRePage",
 			ui_name = "RyzaAwardRePage"
@@ -31916,6 +31416,7 @@ pg.activity_template = {
 	[50065] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 128,
 		login_pop = 0,
 		config_id = 0,
@@ -31924,33 +31425,6 @@ pg.activity_template = {
 		id = 50065,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			core_tasks = {
 				{
@@ -31988,6 +31462,7 @@ pg.activity_template = {
 	},
 	[50066] = {
 		mark = 20250807,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -31996,33 +31471,6 @@ pg.activity_template = {
 		id = 50066,
 		page_core = "ALYCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ALYAwardPage",
 			ui_name = "ALYAwardPage"
@@ -32067,6 +31515,7 @@ pg.activity_template = {
 	[50067] = {
 		mark = 20250807,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -32077,33 +31526,6 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			24234
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50068] = {
@@ -33076,6 +32498,276 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50100] = {
+		mark = 20250912,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50100,
+		page_core = "",
+		config_data = {
+			12000,
+			12001,
+			12002,
+			12003,
+			12004
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50101] = {
+		mark = 20250912,
+		type = 69,
+		login_pop = 0,
+		config_id = 33,
+		is_show = 42,
+		title_res_tag = "Georgia_catchup",
+		id = 50101,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShimantoTecCatchupPage",
+			ui_name = "ShimantoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42052
+		}
+	},
+	[50102] = {
+		mark = 20250912,
+		type = 87,
+		login_pop = 0,
+		config_id = 31,
+		is_show = 4,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 50102,
+		page_core = "TianYuTianYuanCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TianYuTianYuanFramePage",
+			ui_name = "TianYuTianYuanFramePage"
+		}
+	},
+	[50103] = {
+		mark = 20250912,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50103,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50104] = {
+		mark = 20250912,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 5,
+		title_res_tag = "ExpeditionSkin",
+		id = 50104,
+		page_core = "TianYuTianYuanCoreActivityUI",
+		config_data = {
+			{
+				24311,
+				24312
+			},
+			{
+				24313,
+				24314
+			},
+			{
+				24315,
+				24316
+			},
+			{
+				24317,
+				24318
+			},
+			{
+				24319,
+				24320
+			},
+			{
+				24321,
+				24322
+			},
+			{
+				24323,
+				24324
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "TianYuTianYuanLoginPage",
+			ui_name = "TianYuTianYuanLoginPage"
+		},
+		config_client = {
+			story = {
+				{
+					"CHONGYINGDEYAOYUE1"
+				},
+				{
+					"CHONGYINGDEYAOYUE2"
+				},
+				{
+					"CHONGYINGDEYAOYUE3"
+				},
+				{
+					"CHONGYINGDEYAOYUE4"
+				},
+				{
+					"CHONGYINGDEYAOYUE5"
+				},
+				{
+					"CHONGYINGDEYAOYUE6"
+				},
+				{
+					"CHONGYINGDEYAOYUE7"
+				}
+			}
+		}
+	},
 	[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -33094,6 +32786,7 @@ pg.activity_template = {
 			12014,
 			12015,
 			12016,
+			12025,
 			12026,
 			12027,
 			12029,
@@ -73249,6 +72942,7 @@ pg.activity_template = {
 			50087,
 			50091,
 			50095,
+			50100,
 			1079,
 			1080,
 			1081,
@@ -73535,7 +73229,9 @@ pg.activity_template = {
 			5979,
 			5982,
 			5990,
+			50033,
 			50068,
+			50104,
 			6000,
 			6001,
 			6002,
@@ -74404,6 +74100,7 @@ pg.activity_template = {
 			5550,
 			5698,
 			5921,
+			50101,
 			40400,
 			40489,
 			40557,
@@ -74439,6 +74136,7 @@ pg.activity_template = {
 			5552,
 			5700,
 			5923,
+			50102,
 			40724,
 			40783,
 			40831,
@@ -74477,6 +74175,7 @@ pg.activity_template = {
 			5553,
 			5701,
 			5925,
+			50103,
 			40178,
 			40201,
 			40250,
@@ -75842,6 +75541,7 @@ pg.activity_template = {
 		5989,
 		5990,
 		5991,
+		50033,
 		50042,
 		50043,
 		50044,
@@ -75883,6 +75583,11 @@ pg.activity_template = {
 		50093,
 		50094,
 		50095,
+		50100,
+		50101,
+		50102,
+		50103,
+		50104,
 		7104,
 		7501,
 		8009,

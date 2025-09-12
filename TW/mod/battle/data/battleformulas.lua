@@ -134,7 +134,7 @@ slot0.CreateContextCalculateDamage = function(slot0)
 
 		slot30 = math.max(slot9.attackRating, 0)
 
-		if not (uv2.GetCurrent(slot1, "perfectDodge") == 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot30 / (slot30 + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot0, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
+		if not (uv2.GetCurrent(slot1, "perfectDodge") >= 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot30 / (slot30 + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot0, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
 			slot31 = nil
 			slot25 = math.random(uv5.RANDOM_DAMAGE_MIN, uv5.RANDOM_DAMAGE_MAX) + slot26
 

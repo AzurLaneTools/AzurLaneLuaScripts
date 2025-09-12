@@ -1,4 +1,5 @@
-slot0 = class("IslandSlotHudView", import(".IslandBaseSubView"))
+slot0 = class("IslandSlotHudView", import(".IslandBaseOpView"))
+slot1 = 4
 
 slot0.GetUIName = function(slot0)
 	return "IslandSlotHudUI"
@@ -8,83 +9,116 @@ slot0.OnInit = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.parent = slot0._tf:Find("look")
-	slot0.hudDic = {}
-	slot0.isShow = {}
+	slot0.hideHudDic = {}
+	slot0.unitHideHudQueue = {}
 end
 
 slot0.Update = function(slot0)
-	slot0:UpdatePosition()
-end
-
-slot0.UpdatePosition = function(slot0)
-	for slot4, slot5 in pairs(slot0.hudDic) do
-		if not slot0.isShow[slot4] then
-			setActive(slot5.transform, false)
-		else
-			slot6 = pg.island_world_objects[slot4].param.position
-
-			if not IslandCalcUtil.IsInViewport(Vector3(slot6[1], slot6[2], slot6[3]) + Vector3(0, 2.3, 0)) then
-				setActive(slot5.transform, false)
-			else
-				setActive(slot5.transform, true)
-
-				slot5.transform.localPosition = IslandCalcUtil.WorldPosition2LocalPosition(slot0.parent, slot8)
-			end
-		end
+	if slot0.currentHud then
+		slot0.currentHud:Update()
 	end
 end
 
-slot0.HandleHud = function(slot0, slot1)
-	slot3 = false
-
-	if slot1.displayTpye and slot2 == "collect" then
-		slot3 = true
-	end
-
-	if slot3 then
-		slot0:ShowHud(slot1.nearItem.pos)
-	else
-		slot0:HideHud()
+slot0.LateUpdate = function(slot0)
+	if slot0.currentHud then
+		slot0.currentHud:LateUpdate()
 	end
 end
 
-slot0.ShowHud = function(slot0, slot1)
+slot0.ShowHud = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return
 	end
 
-	slot0.isShow[slot1] = true
-	slot0.lastNearId = slot1
-
-	if slot0.hudDic[slot1] then
-		setActive(slot0.hudDic[slot1].transform, true)
-
-		return
-	end
-
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync("ui/IslandCollectHud", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.hudDic[uv1] then
+	if slot0.currentHud then
+		if slot0.currentHud.unitId == slot1 then
 			return
 		end
 
-		slot1 = Object.Instantiate(slot0)
+		slot0:HideUnitHud(slot0.currentHud.unitId)
+	end
 
-		setParent(slot1, uv0.parent)
-
-		uv0.hudDic[uv1] = slot1
-		slot1.name = uv1
-
-		uv0:UpdatePosition()
-	end), true, true)
+	slot0:ShowUnitHud(slot1, slot2)
 end
 
-slot0.HideHud = function(slot0)
-	if slot0.lastNearId then
-		slot0.isShow[slot0.lastNearId] = false
+slot0.UpdateHud = function(slot0, slot1)
+	if slot1 == nil then
+		return
+	end
 
-		setActive(slot0.hudDic[slot0.lastNearId].transform, false)
+	if not slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, slot1) then
+		return
+	end
+
+	slot3 = slot2:GetHudInfo()
+
+	if not slot0.currentHud then
+		return
+	end
+
+	if slot0.currentHud.unitId == slot1 then
+		slot0.currentHud:UpdateUnitHud(slot3)
+	end
+end
+
+slot0.HideUnitHud = function(slot0, slot1)
+	if not slot0.currentHud then
+		return
+	end
+
+	if slot0.currentHud.unitId == slot1 then
+		slot0.currentHud:HideHud()
+		slot0:InPool(slot0.currentHud)
+
+		slot0.currentHud = nil
+	end
+end
+
+slot0.InPool = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.unitHideHudQueue) do
+		if slot7 == slot1.unitId then
+			slot2 = slot6
+		end
+	end
+
+	if slot2 then
+		table.remove(slot0.unitHideHudQueue, slot2)
+	end
+
+	table.insert(slot0.unitHideHudQueue, slot1.unitId)
+
+	slot0.hideHudDic[slot1.unitId] = slot1
+
+	if uv0 < #slot0.unitHideHudQueue then
+		slot3 = slot0.unitHideHudQueue[1]
+
+		table.remove(slot0.unitHideHudQueue, 1)
+		slot0.hideHudDic[slot3]:Dispose()
+
+		slot0.hideHudDic[slot3] = nil
+	end
+end
+
+slot0.ShowUnitHud = function(slot0, slot1, slot2)
+	slot4 = slot0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, slot1):GetHudInfo()
+
+	if slot0.hideHudDic[slot1] then
+		slot0.currentHud = slot0.hideHudDic[slot1]
+
+		slot0.currentHud:ShowUnitHud(slot1, slot4, slot2)
+	else
+		if not slot0.currentHud then
+			slot0.currentHud = IslandHudPanel.New(slot0.parent, slot0.view)
+
+			slot0.currentHud:ShowUnitHud(slot1, slot4, slot2)
+			slot0.currentHud:Init()
+
+			return
+		end
+
+		slot0.currentHud:ShowUnitHud(slot1, slot4, slot2)
 	end
 end
 

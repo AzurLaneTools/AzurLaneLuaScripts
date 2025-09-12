@@ -1,4 +1,5 @@
 slot0 = class("SettingsOtherPanel", import(".SettingsBasePanel"))
+slot0.GRAPHI_API_SWITCH_OPTION_TYPE = 3
 
 slot0.GetUIName = function(slot0)
 	return "SettingsOther"
@@ -70,6 +71,8 @@ slot0.OnItemSwitch = function(slot0, slot1, slot2)
 		slot0:OnCommonLocalItemSwitch(slot1, slot2)
 	elseif slot1.type == 1 then
 		slot0:OnCommonServerItemSwitch(slot1, slot2)
+	elseif slot1.type == uv0.GRAPHI_API_SWITCH_OPTION_TYPE then
+		slot0:OnGraphApiItemSwitch(slot1, slot2)
 	end
 
 	if slot1.id == 19 then
@@ -168,6 +171,42 @@ slot0.OnCommonLocalItemSwitch = function(slot0, slot1, slot2)
 	PlayerPrefs.Save()
 end
 
+slot0.OnGraphApiItemSwitch = function(slot0, slot1, slot2)
+	slot3 = function()
+		triggerToggle(uv0.uilist.container:GetChild(#uv0.list - 1):Find("off"), true)
+		GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_OpenGLES)
+	end
+
+	slot4 = function()
+		triggerToggle(uv0.uilist.container:GetChild(#uv0.list - 1):Find("on"), true)
+		GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_Vulkan)
+	end
+
+	if slot2 == false and not GraphApiHelper.IsUsingVulkan() or slot2 == true and GraphApiHelper.IsUsingVulkan() then
+		return
+	end
+
+	if slot2 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("graphi_api_switch_vulkan"),
+			onYes = function ()
+				uv0()
+				Application.Quit()
+			end,
+			onNo = slot3
+		})
+	else
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("graphi_api_switch_opengl"),
+			onYes = function ()
+				uv0()
+				Application.Quit()
+			end,
+			onNo = slot4
+		})
+	end
+end
+
 slot0.OnUpdateItem = function(slot0, slot1)
 	if slot1.id == 10 then
 		uv0.SetGrayOption(slot0.uilist.container:GetChild(slot1.id - 1), slot0:GetDefaultValue(slot0.list[9]))
@@ -200,22 +239,35 @@ slot0.GetDefaultValue = function(slot0, slot1)
 		else
 			return slot2
 		end
+	elseif slot1.type == uv0.GRAPHI_API_SWITCH_OPTION_TYPE then
+		return GraphApiHelper.IsUsingVulkan()
 	end
 end
 
 slot0.GetList = function(slot0)
 	slot1 = {}
+	slot2 = nil
 
-	for slot5, slot6 in ipairs(pg.settings_other_template.all) do
+	for slot6, slot7 in ipairs(pg.settings_other_template.all) do
 		if LOCK_BATTERY_SAVEMODE then
-			if slot6 ~= 9 then
-				if slot6 == 10 then
+			if slot7 ~= 9 then
+				if slot7 == 10 then
 					-- Nothing
 				end
 			end
-		elseif not LOCK_L2D_GYRO or slot6 ~= 15 then
-			table.insert(slot1, pg.settings_other_template[slot6])
+		elseif LOCK_L2D_GYRO and slot7 == 15 then
+			-- Nothing
+		elseif pg.settings_other_template[slot7].type == uv0.GRAPHI_API_SWITCH_OPTION_TYPE then
+			if PermissionHelper.IsAndroid() then
+				slot2 = pg.settings_other_template[slot7]
+			end
+		else
+			table.insert(slot1, pg.settings_other_template[slot7])
 		end
+	end
+
+	if slot2 then
+		table.insert(slot1, slot2)
 	end
 
 	return slot1

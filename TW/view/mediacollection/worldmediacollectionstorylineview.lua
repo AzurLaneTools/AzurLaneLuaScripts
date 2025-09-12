@@ -583,24 +583,12 @@ slot0.updateNodeTree = function(slot0)
 
 	slot0.nodeTail = slot0.tf:Find("Story/NodeTail")
 
-	slot0.nodeTail:SetParent(slot0.nodeContainer, true)
-
-	slot0.nodeTail.anchoredPosition = Vector2(slot2 + uv0.HRZ_GAP, 0)
-
-	setActive(slot0.nodeTail, true)
-
-	slot4 = tf(Instantiate(slot0.linkHrzTpl))
-
-	setActive(slot4, true)
-	slot4:SetParent(slot0.nodeTail, false)
-
-	slot4.anchoredPosition = Vector2(-283.5, 0)
-
+	setActive(slot0.nodeTail, false)
 	slot0:sortLinkData()
 
-	slot5 = slot0.nodeContainer.sizeDelta
-	slot5.x = slot1
-	slot0.nodeContainer.sizeDelta = slot5
+	slot4 = slot0.nodeContainer.sizeDelta
+	slot4.x = slot1
+	slot0.nodeContainer.sizeDelta = slot4
 	slot0.contentWidth = rtf(slot0.nodeContainer).rect.width - rtf(slot0.scroll).rect.width
 end
 

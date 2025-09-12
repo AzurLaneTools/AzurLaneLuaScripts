@@ -17,7 +17,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.goldTxt = slot0:findTF("adapt/attr_panel/consume/label/Text"):GetComponent(typeof(Text))
 	slot0.goldIco = slot0:findTF("adapt/attr_panel/consume/label/icon")
 
-	setText(slot0:findTF("adapt/attr_panel/consume/label/label1"), i18n1("消耗"))
+	setText(slot0:findTF("adapt/attr_panel/consume/label/label1"), i18n("island_ship_breakout_consume"))
 end
 
 slot0.OnInit = function(slot0)
@@ -42,7 +42,7 @@ slot0.OnShow = function(slot0, slot1)
 end
 
 slot0.Flush = function(slot0)
-	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(slot0.selectedId) == nil then
+	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.selectedId) == nil then
 		return
 	end
 
@@ -60,9 +60,9 @@ slot0.UpdateMainView = function(slot0, slot1)
 end
 
 slot0.FlushLevelAndIcon = function(slot0, slot1, slot2, slot3)
-	slot4 = pg.island_ship_skill[slot2]
+	slot4 = pg.island_chara_skill[slot2]
 
-	GetImageSpriteFromAtlasAsync("IslandSkillIcon/" .. slot4.icon, "", slot0.skillIcon)
+	GetImageSpriteFromAtlasAsync("island/IslandSkillIcon/" .. slot4.icon, "", slot0.skillIcon)
 
 	slot0.skillName.text = slot4.name
 
@@ -77,10 +77,10 @@ slot0.FlushDesc = function(slot0, slot1, slot2, slot3)
 	slot0.descList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
-			slot7 = pg.island_ship_skill[uv1].level + 1 == slot3.level and "#006cff" or "#393a3c"
+			slot7 = pg.island_chara_skill[uv1].level + 1 == slot3.level and "#006cff" or "#393a3c"
 
 			setText(slot2:Find("level"), "<color=" .. slot7 .. ">[ Lv." .. slot4 .. " ]</color>")
-			setText(slot2:Find("Text"), "<color=" .. slot7 .. ">" .. i18n1("解锁：") .. slot3.desc .. "</color>")
+			setText(slot2:Find("Text"), "<color=" .. slot7 .. ">" .. i18n("island_word_unlock") .. slot3.desc .. "</color>")
 
 			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot4 <= slot6 + 1 and 1 or 0.4
 		end
@@ -88,9 +88,9 @@ slot0.FlushDesc = function(slot0, slot1, slot2, slot3)
 	slot0.descList:align(#slot1:GetMainSkillUpgradeEffectDesc())
 
 	if slot3 then
-		slot0.descTxt.text = pg.island_ship_skill[slot3].desc
+		slot0.descTxt.text = pg.island_chara_skill[slot3].desc
 	else
-		slot0.descTxt.text = pg.island_ship_skill[slot2].desc
+		slot0.descTxt.text = pg.island_chara_skill[slot2].desc
 	end
 end
 
@@ -106,11 +106,11 @@ slot0.FlushConsume = function(slot0, slot1, slot2, slot3)
 				count = slot3[3]
 			})
 
-			updateDrop(slot2, slot4)
+			updateCustomDrop(slot2, slot4)
 			setText(slot2:Find("icon_bg/count"), setColorStr(slot5, slot4.count <= uv1:GetOwnCount(slot4.id) and "#FFFFFF" or "#ff7e7e") .. "/" .. slot4.count)
 			onButton(uv2, slot2, function ()
 				uv0:ShowMsgBox({
-					title = i18n1("详情"),
+					title = i18n("island_word_ship_buff_desc"),
 					type = IslandMsgBox.TYPE_ITEM_DESC,
 					itemId = uv1.id
 				})
@@ -126,8 +126,8 @@ slot0.FlushUpgradeBtn = function(slot0, slot1, slot2, slot3)
 	slot6 = true
 
 	if slot3 then
-		slot6 = pg.island_ship_skill[slot3].upgrade_unlock <= slot1:GetLevel()
-		slot0.tipTxt.text = i18n1("需要角色等级达到" .. slot8)
+		slot6 = pg.island_chara_skill[slot3].upgrade_unlock <= slot1:GetLevel()
+		slot0.tipTxt.text = i18n("island_need_ship_level", slot8)
 	end
 
 	if slot4[1] then
