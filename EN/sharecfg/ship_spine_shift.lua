@@ -525,5 +525,19 @@ pg.ship_spine_shift = {
 			15,
 			-204
 		}
+	},
+	I404_2 = {
+		spine = "I404_2",
+		mainui_shift = {
+			17.37,
+			-27.8
+		}
+	},
+	I404_3 = {
+		spine = "I404_3",
+		mainui_shift = {
+			17.37,
+			-27.8
+		}
 	}
 }

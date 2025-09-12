@@ -250,7 +250,9 @@ slot0.updateMax = function(slot0)
 			setPaintingPrefabAsync(slot9, Ship.getPaintingName(slot7), "biandui")
 
 			if slot6 == 2 then
-				slot9.localEulerAngles = Vector3(0, 0, 180)
+				setLocalRotation(slot9, {
+					z = 180
+				})
 			end
 
 			setActive(slot10, false)

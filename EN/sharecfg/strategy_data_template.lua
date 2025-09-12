@@ -329,11 +329,21 @@ pg.strategy_data_template = setmetatable({
 		201462,
 		201463,
 		201464,
+		201515,
+		201516,
+		201517,
+		201519,
+		201525,
+		201530,
+		201531,
+		201532,
 		205001,
 		205002,
 		205003,
 		205004,
 		205005,
+		205006,
+		205007,
 		300001,
 		300002,
 		300003,
@@ -4090,6 +4100,103 @@ Your ships become briefly invulnerable after taking DMG.
 		icon = "200908",
 		arg = {}
 	},
+	[201515] = {
+		buff_id = 201515,
+		name = "Psychotuning 1",
+		desc = "\"███ Removal: 22.8%\" \nIllusions of unknown origin have begun appearing in your field of vision.\nDuring battle, barrages that attack both friend and foe will appear.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201515,
+		icon = "8918",
+		arg = {}
+	},
+	[201516] = {
+		buff_id = 201515,
+		name = "Psychotuning 2",
+		desc = "\"███ Removal: 37.1%\" \nThe line between reality and fantasy has begun to blur.\nDuring battle, barrages that attack both friend and foe will appear.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201516,
+		icon = "8919",
+		arg = {}
+	},
+	[201517] = {
+		buff_id = 201515,
+		name = "Psychotuning 3",
+		desc = "\"███ Removal: 89.9%\" \nReality is fantasy, and fantasy is reality.\nDuring battle, barrages that attack both friend and foe will appear.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201517,
+		icon = "8920",
+		arg = {}
+	},
+	[201519] = {
+		buff_id = 201519,
+		name = "Amahara's Blessing - Chou",
+		desc = "Amahara's Blessed Boundary - Chou\nWhen your ships fire an arcing volley, launch an airstrike, or fire their torpedoes, a special butterfly barrage will be fired.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201519,
+		icon = "201519",
+		arg = {}
+	},
+	[201525] = {
+		buff_id = 201525,
+		name = "Amahara's Blessing - Hane",
+		desc = "Amahara's Blessed Boundary - Hane\nDuring battle, every 20s, a white phoenix will appear and support your fleet.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201525,
+		icon = "201525",
+		arg = {}
+	},
+	[201530] = {
+		buff_id = 201530,
+		name = "Amahara's Blessing - Uroko",
+		desc = "Amahara's Blessed Boundary - Uroko\nWhen the battle starts, a dragon will appear and support your fleet, then disappear after a while.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201530,
+		icon = "201530",
+		arg = {}
+	},
+	[201531] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = "The Boss is joined in battle by red balls of light. The balls of light cannot inflict DMG, but they do continuously deploy scented smokescreens. As long as a ship is inside the scented smokescreen, it inflicts its effects on her: <color=#92fc63>her SPD will decrease and her DMG taken will increase the longer she remains in it. After being inside the smokescreen for a total of 1 second, she will gain the Woozy status, doubling her DMG taken and rendering her unable to attack or move</color> until the smokescreen vanishes.\nAfter exiting the smokescreen, the affected shipgirl loses its negative effects half as fast.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201531,
+		icon = "200908",
+		arg = {}
+	},
+	[201532] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+The Boss is joined in battle by red balls of light. The balls of light cannot inflict DMG, but they do continuously deploy scented smokescreens. As long as a ship with a valid hitbox is inside the scented smokescreen, it inflicts its effects on her: <color=#92fc63>her SPD will decrease and her DMG taken will increase the longer she remains in it. After being inside the smokescreen for a total of 1 second, she will gain the Woozy status, doubling her DMG taken and rendering her unable to attack or move</color> until the smokescreen vanishes.
+After exiting the smokescreen, the affected shipgirl loses its negative effects half as fast.
+
+- Hard Mode Details -
+Enemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or launching an airstrike.
+<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox,</color> while the rest of your Vanguard cannot be damaged.
+Your ships become briefly invulnerable after taking DMG.
+
+· The skills "Operation Rainbow," "Fiercer When Cornered," and "Eleventh Hour" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201532,
+		icon = "200908",
+		arg = {}
+	},
 	[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -4142,6 +4249,28 @@ Your ships become briefly invulnerable after taking DMG.
 		iconSize = "",
 		buff_type = 0,
 		id = 205005,
+		icon = "",
+		arg = {}
+	},
+	[205006] = {
+		buff_id = 205006,
+		name = "活动关卡标志B3",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205006,
+		icon = "",
+		arg = {}
+	},
+	[205007] = {
+		buff_id = 205007,
+		name = "活动关卡标志D3",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205007,
 		icon = "",
 		arg = {}
 	},

@@ -27505,6 +27505,131 @@ _G.pg.base.item_data_statistics[30374] = {
 }
 
 
+_G.pg.base.item_data_statistics[30375] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Dreams of Amahara)",
+	type = 11,
+	display = "Contains a random Dreams of Amahara-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuanmengtianyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30372",
+	id = 30375,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -41425,6 +41550,219 @@ _G.pg.base.item_data_statistics[30558] = {
 }
 
 
+_G.pg.base.item_data_statistics[30559] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Dreams of Amahara)",
+	type = 13,
+	display = "Can be opened to receive 1 Dreams of Amahara-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuanmengtianyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30559,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -45092,6 +45430,90 @@ _G.pg.base.item_data_statistics[40064] = {
 			2,
 			42040,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40065] = {
+	open_directly = 1,
+	name = "Battle UI Pack – Ninja Castle (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Ninja Castle theme and 1,000 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4066",
+	id = 40065,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			205,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40066] = {
+	open_directly = 1,
+	name = "Battle UI Pack – Ninja Castle (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Ninja Castle theme and 3,060 Gems.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4067",
+	id = 40066,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			205,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -104396,6 +104818,298 @@ _G.pg.base.item_data_statistics[60555] = {
 }
 
 
+_G.pg.base.item_data_statistics[60556] = {
+	open_directly = 0,
+	name = "庆典邀请函(2025.9)",
+	type = 21,
+	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60556,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3027,
+		3028
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_eighth_jp"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60557] = {
+	open_directly = 0,
+	name = "Belfast's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Belfast. It reads: \"I wish you a happy anniversary, Master. Her Majesty requested that I deliver you a bottle of some our finest aged wine. At the risk of sounding brazen, would you like to share a glass with your humble maid?\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60557,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60558] = {
+	open_directly = 0,
+	name = "Bremerton's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Bremerton. It reads: \"Here's to another year! A card feels a lot more fancy than a DM, doesn't it? Stop by the saloon so we can have a few drinks – helps loosen them lips if you're in need of some Bremerton-brand consultation.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60558,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60559] = {
+	open_directly = 0,
+	name = "Sirius's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Sirius. It reads: \"Happy anniversary, my honourable Master. If it's not too presumptuous of me to ask, would you like to practice lasso-throwing with me? I tried it by myself, but embarrassingly, I only ended up lassoing myself...\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60559,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60560] = {
+	open_directly = 0,
+	name = "{namecode:470}的回礼",
+	type = 1,
+	display = "由{namecode:470}赠与的，作为宴会邀约的回礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60561] = {
+	open_directly = 0,
+	name = "Noshiro's Gift (7th Anniversary)",
+	type = 1,
+	display = "A card from Noshiro. It reads: \"Happy anniversary, Commander. A lot of things have changed, and a lot has stayed the same since last year. Personally, I welcome both the familiar and unfamiliar, because there's something to cherish in both. These anniversaries are a mix of both new and old, and that's why I look forward to them so much.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60562] = {
+	open_directly = 0,
+	name = "Amagi's Gift (Early Summer 2024)",
+	type = 1,
+	display = "A seasonal greetings card from Amagi.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60563] = {
+	open_directly = 0,
+	name = "Tallinn's Gift (7th Anniversary)",
+	type = 1,
+	display = "A card from Tallinn. It reads: \"Happy anniversary. My opinion of you has improved a lot in the span of just a year. In fact, I'd go so far as to say that you've earned the right to be the guest of honor at the anniversary celebration. Just go easy on the drinks, okay? Between Eugen and my countrymen inevitably getting drunk as usual, I'll have enough on my hands for one night.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60563,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60564] = {
+	open_directly = 0,
+	name = "Joffre's Gift (7th Anniversary)",
+	type = 1,
+	display = "A card from Joffre. It reads: \"May you have a blessed anniversary and may the Holy Iris shine upon our port. You've proven over this year once again what an excellent leader you are, Commander, both in tactical ability and as a superior officer. I pray to remain in your grace and for fortune to come to you and all of our friends.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60564,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -105631,6 +106345,73 @@ _G.pg.base.item_data_statistics[81216] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81217] = {
+	open_directly = 1,
+	name = "Ninja Castle Lucky Box A",
+	type = 17,
+	display = "Contains 1x random skin (Ninja Castle Lucky Box A), 2x Special General Blueprints - Series 8, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai27",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998318",
+	id = 81217,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86217,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

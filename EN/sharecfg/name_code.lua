@@ -1862,6 +1862,55 @@ pg.name_code = {
 		code = "Yuudachi META",
 		nation = 0
 	},
+	[302] = {
+		name = "Hakuhou",
+		type = 1,
+		id = 302,
+		code = "Hakuhou",
+		nation = 0
+	},
+	[303] = {
+		name = "I-404",
+		type = 1,
+		id = 303,
+		code = "I-404",
+		nation = 0
+	},
+	[304] = {
+		name = "Oumi",
+		type = 1,
+		id = 304,
+		code = "Oumi",
+		nation = 0
+	},
+	[305] = {
+		name = "Asama",
+		type = 1,
+		id = 305,
+		code = "Asama",
+		nation = 0
+	},
+	[306] = {
+		name = "Minase",
+		type = 1,
+		id = 306,
+		code = "Minase",
+		nation = 0
+	},
+	[307] = {
+		name = "Taekaze",
+		type = 1,
+		id = 307,
+		code = "Taekaze",
+		nation = 0
+	},
+	[308] = {
+		name = "Sentoku Type",
+		type = 1,
+		id = 308,
+		code = "Sentoku Type",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

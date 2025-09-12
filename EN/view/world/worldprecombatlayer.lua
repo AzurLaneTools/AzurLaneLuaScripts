@@ -471,7 +471,7 @@ slot0.loadAllCharacter = function(slot0, slot1)
 			table.insert(uv1, function (slot0)
 				slot1 = SpineRole.New(uv0)
 
-				slot1:Load(function ()
+				slot1:LoadLite(function ()
 					uv0(uv1, uv2, uv3, uv4)
 					onNextTick(uv5)
 				end)

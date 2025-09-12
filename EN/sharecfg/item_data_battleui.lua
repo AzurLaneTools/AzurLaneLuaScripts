@@ -201,6 +201,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[205] = {
+		name = "Ninja Castle",
+		key = "SkinElite_20250912",
+		display_icon = "ui_205",
+		unlock = "Buy the Battle UI Pack - Ninja Castle",
+		is_unlock = 1,
+		rare = 4,
+		desc = "For the Commander who just can't get enough of ninjas. Take your shuriken and kunai and wreak some havoc in the ninja castle!",
+		id = 205,
+		icon = "205",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -214,6 +231,7 @@ pg.item_data_battleui = {
 		201,
 		202,
 		203,
-		204
+		204,
+		205
 	}
 }

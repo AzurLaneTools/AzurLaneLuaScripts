@@ -516,6 +516,17 @@ pg.transform_data_template = setmetatable({
 		15510,
 		15511,
 		15512,
+		16301,
+		16302,
+		16303,
+		16304,
+		16305,
+		16306,
+		16307,
+		16308,
+		16309,
+		16310,
+		16311,
 		16401,
 		16402,
 		16403,
@@ -20685,6 +20696,407 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		},
 		gear_score = {
 			30
+		}
+	},
+	[16301] = {
+		level_limit = 1,
+		name = "Hull Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 300,
+		id = 16301,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16302] = {
+		level_limit = 5,
+		name = "Evasion Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 16302,
+		condition_id = {
+			16301
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16303] = {
+		level_limit = 20,
+		name = "Anti-Air Gun Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "aaup_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 16303,
+		condition_id = {
+			16301
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16304] = {
+		level_limit = 25,
+		name = "Anti-Air Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "aa_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 16304,
+		condition_id = {
+			16303
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16305] = {
+		level_limit = 35,
+		name = "Torpedo Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tpup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 16305,
+		condition_id = {
+			16303
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16306] = {
+		level_limit = 40,
+		name = "Torpedo Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tp_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 16306,
+		condition_id = {
+			16305
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16307] = {
+		level_limit = 50,
+		name = "Hull Improvement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 16307,
+		condition_id = {
+			16305
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[16308] = {
+		level_limit = 55,
+		name = "Tactical Learning",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "skill_yellow",
+		skill_id = 151630,
+		use_gold = 1800,
+		id = 16308,
+		condition_id = {
+			16307
+		},
+		effect = {
+			{
+				skill_id = 151630
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[16309] = {
+		level_limit = 70,
+		name = "Motor Enhancement",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "sp_1",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 16309,
+		condition_id = {
+			16307
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
+	[16310] = {
+		level_limit = 75,
+		name = "Evasion Enhancement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 16310,
+		condition_id = {
+			16302,
+			16309
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[16311] = {
+		level_limit = 85,
+		name = "Modernization",
+		descrip = "Retrofitting complete. The following have been applied:\nTRP +30, AA +15\n<color=#92fc63>Anti-Air Gun base +1</color>, <color=#92fc63>Anti-Air Gun efficiency +40%</color>",
+		max_level = 1,
+		skin_id = 301139,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 16311,
+		condition_id = {
+			16308,
+			16309,
+			16310
+		},
+		effect = {
+			{
+				antiaircraft = 15,
+				torpedo = 30
+			}
+		},
+		ship_id = {
+			{
+				301134,
+				301934
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
 		}
 	},
 	[16401] = {

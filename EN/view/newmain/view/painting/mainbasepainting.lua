@@ -15,6 +15,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.wordPosition = slot1:Find("live2d")
 	slot0.cvLoader = MainCVLoader.New()
 	slot0.longPressEvent = slot1:GetComponent("UILongPressTrigger").onLongPressed
+	slot0.replaceWord = false
 end
 
 slot0.IsUnload = function(slot0)
@@ -318,6 +319,14 @@ end
 
 slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot3, 0, slot4)
+end
+
+slot0.setReplaceWord = function(slot0, slot1)
+	slot0.replaceWord = slot1
+end
+
+slot0.getReplaceWord = function(slot0)
+	return slot0.replaceWord
 end
 
 slot0.StartChatAnimtion = function(slot0, slot1, slot2)

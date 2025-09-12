@@ -44,7 +44,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/Viewport/item_grid",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_scrollview/Viewport/item_grid",
 				conditionData = {
 					"102"
 				},

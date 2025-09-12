@@ -48,8 +48,8 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/topItems/bottom_back/types/siren_weapon",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/topItems/bottom_back/types/siren_weapon",
 				triggerType = {
 					2
 				},

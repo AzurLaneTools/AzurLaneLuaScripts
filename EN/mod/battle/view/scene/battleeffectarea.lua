@@ -19,7 +19,7 @@ slot3.Init = function(slot0)
 	slot0._tf = slot0._go.transform
 	slot0._areaType = slot0._aoeData:GetAreaType()
 
-	if slot0._areaType == uv0.AreaType.CUBE then
+	if slot0._areaType == uv0.AreaType.CUBE or slot0._areaType == uv0.AreaType.ELLIPSE then
 		slot0.UpdateScale = slot0.updateCubeScale
 	elseif slot0._areaType == uv0.AreaType.COLUMN then
 		slot0.UpdateScale = slot0.updateColumnScale

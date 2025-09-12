@@ -75,9 +75,17 @@ slot0.InitData = function(slot0)
 
 	slot4 = pg.gameset.shop_banner_capacity.key_value
 	slot0.bnIds = Clone(uv0.get_id_list_by_name)
+	slot5 = getProxy(PlayerProxy)
+	slot5 = slot5:getRawData()
 
-	for slot8, slot9 in pairs(slot0.bnIds) do
-		slot13 = {
+	slot9 = function(slot0)
+		return ShopsProxy.SpecialBannerBlockCheck(uv0[slot0], uv1)
+	end
+
+	slot0.bnIds.banner_big = underscore.filter(slot0.bnIds.banner_big, slot9)
+
+	for slot9, slot10 in pairs(slot0.bnIds) do
+		slot14 = {
 			function (slot0)
 				return -uv0[slot0].order
 			end,
@@ -86,32 +94,32 @@ slot0.InitData = function(slot0)
 			end
 		}
 
-		table.sort(slot9, CompareFuncs(slot13))
+		table.sort(slot10, CompareFuncs(slot14))
 
-		for slot13 = #slot9, 1, -1 do
-			if not pg.TimeMgr.GetInstance():inTime(uv0[slot9[slot13]].time) then
-				table.remove(slot9, slot13)
-			elseif slot14.relation_param ~= "" then
-				slot15 = slot14.relation_param[1]
-				slot17 = slot0.commodities[slot15][slot14.relation_param[2]]
+		for slot14 = #slot10, 1, -1 do
+			if not pg.TimeMgr.GetInstance():inTime(uv0[slot10[slot14]].time) then
+				table.remove(slot10, slot14)
+			elseif slot15.relation_param ~= "" then
+				slot16 = slot15.relation_param[1]
+				slot18 = slot0.commodities[slot16][slot15.relation_param[2]]
 
-				if slot15 == 1 then
-					if not slot17:inTime() or not slot17:canPurchase() then
-						table.remove(slot9, slot13)
+				if slot16 == 1 then
+					if not slot18:inTime() or not slot18:canPurchase() then
+						table.remove(slot10, slot14)
 					end
-				elseif (slot15 == 2 or slot15 == 3) and (not slot17:inTime() or not slot17:canPurchase() or slot17:IsGroupLimit()) then
-					table.remove(slot9, slot13)
+				elseif (slot16 == 2 or slot16 == 3) and (not slot18:inTime() or not slot18:canPurchase() or slot18:IsGroupLimit()) then
+					table.remove(slot10, slot14)
 				end
 			end
 		end
 
-		if #slot9 > 1 then
-			table.remove(slot9, #slot9)
+		if #slot10 > 1 then
+			table.remove(slot10, #slot10)
 		end
 
-		if slot4 < #slot9 then
-			for slot13 = #slot9, slot4 + 1, -1 do
-				table.remove(slot9, slot13)
+		if slot4 < #slot10 then
+			for slot14 = #slot10, slot4 + 1, -1 do
+				table.remove(slot10, slot14)
 			end
 		end
 	end

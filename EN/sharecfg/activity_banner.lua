@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					2
 				},
 				{
 					23,
@@ -36,7 +36,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -45,6 +44,32 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -63,7 +88,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -90,10 +115,9 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene equip",
+			"scene charge",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				wrap = 4
 			}
 		},
 		time = {
@@ -101,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -112,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					2
 				},
 				{
 					23,
@@ -128,17 +152,17 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				warp = 2
+				coreName = "EighthAnniversaryJpCoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					12
 				},
 				{
 					0,
@@ -149,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					2
 				},
 				{
 					23,
@@ -165,14 +189,17 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene dailylevel"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -183,8 +210,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					2
 				},
 				{
 					23,
@@ -195,16 +222,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50101",
-		type = 3,
+		type = 2,
 		id = 7,
 		pic = "temp7",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -231,14 +263,14 @@ pg.activity_banner = {
 		id = 8,
 		pic = "temp8",
 		param = {
-			"metacharacter"
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -249,8 +281,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					12,
-					11
+					10,
+					2
 				},
 				{
 					23,
@@ -261,36 +293,14 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"dorm 3d select"
-		},
-		time = {
+			"scene get boat",
 			{
-				{
-					2025,
-					9,
-					4
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
+				goToPray = true
 			}
 		}
 	},
@@ -317,10 +327,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -365,11 +400,9 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
+			7,
 			8,
 			9
-		},
-		[3] = {
-			7
 		},
 		[9] = {
 			90,

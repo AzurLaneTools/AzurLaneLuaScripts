@@ -852,6 +852,102 @@ pg.activity_medal_template = {
 		id = 5008708,
 		medal_asset = "ActivityMedal/5008708"
 	},
+	[5013601] = {
+		activity_medal_desc = "The Sky Realm – it formeth a wall against the world beyond; and thus is the domain within it defined – Amahara. Even should the earth collapse and the mountains crumble, a great disaster is inevitable. The Sky Realm of Amahara, forevermore must it last.",
+		next_medal = 0,
+		item = 65686,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "1",
+		task_id = 21836,
+		activity_medal_name = "Sticker: Sky Realm Amahara",
+		id = 5013601,
+		medal_asset = "ActivityMedal/5013601"
+	},
+	[5013602] = {
+		activity_medal_desc = "Behold the soaring phoenix's majestic dance; hearken to its cries that echo through Amahara above.",
+		next_medal = 0,
+		item = 65687,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "2",
+		task_id = 21837,
+		activity_medal_name = "Sticker: Form of the Phoenix",
+		id = 5013602,
+		medal_asset = "ActivityMedal/5013602"
+	},
+	[5013603] = {
+		activity_medal_desc = "Position yourself upon a cloud and offer a dance for Amahara.",
+		next_medal = 0,
+		item = 65688,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "3",
+		task_id = 21838,
+		activity_medal_name = "Sticker: Dance of Amahara",
+		id = 5013603,
+		medal_asset = "ActivityMedal/5013603"
+	},
+	[5013604] = {
+		activity_medal_desc = "Painted upon it is a scene from Amahara.",
+		next_medal = 0,
+		item = 65689,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "4",
+		task_id = 21839,
+		activity_medal_name = "Sticker: Amahara Picture Scroll",
+		id = 5013604,
+		medal_asset = "ActivityMedal/5013604"
+	},
+	[5013605] = {
+		activity_medal_desc = "O guest of ours, won't you have a taste of this fine wine?",
+		next_medal = 0,
+		item = 65690,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "5",
+		task_id = 21840,
+		activity_medal_name = "Sticker: Cloudsea Wine",
+		id = 5013605,
+		medal_asset = "ActivityMedal/5013605"
+	},
+	[5013606] = {
+		activity_medal_desc = "▂▃▆▂▃▆▇▂▃▇█▆▆▇▇▆▇",
+		next_medal = 0,
+		item = 65691,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "6",
+		task_id = 21841,
+		activity_medal_name = "Sticker: The Breath of Nightmares",
+		id = 5013606,
+		medal_asset = "ActivityMedal/5013606"
+	},
+	[5013607] = {
+		activity_medal_desc = "Soft and fluffy, but unable to be touched...",
+		next_medal = 0,
+		item = 65692,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "7",
+		task_id = 21842,
+		activity_medal_name = "Sticker: Spirit Fox",
+		id = 5013607,
+		medal_asset = "ActivityMedal/5013607"
+	},
+	[5013608] = {
+		activity_medal_desc = "Press it to your forehead and allow your mind to shape the world.",
+		next_medal = 0,
+		item = 65693,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "8",
+		task_id = 21843,
+		activity_medal_name = "Sticker: Dream Stone",
+		id = 5013608,
+		medal_asset = "ActivityMedal/5013608"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -941,6 +1037,16 @@ pg.activity_medal_template = {
 			5008706,
 			5008707,
 			5008708
+		},
+		[50136] = {
+			5013601,
+			5013602,
+			5013603,
+			5013604,
+			5013605,
+			5013606,
+			5013607,
+			5013608
 		}
 	},
 	all = {
@@ -1014,6 +1120,14 @@ pg.activity_medal_template = {
 		5008705,
 		5008706,
 		5008707,
-		5008708
+		5008708,
+		5013601,
+		5013602,
+		5013603,
+		5013604,
+		5013605,
+		5013606,
+		5013607,
+		5013608
 	}
 }

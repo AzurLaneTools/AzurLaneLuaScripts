@@ -106,6 +106,25 @@ slot1.StopPlaybackInfoForce = function(slot0, slot1)
 	slot1.playback:Stop(true)
 end
 
+slot1.playCueSheetVoice = function(slot0, slot1, slot2, slot3, slot4)
+	assert(slot1, "cueSheetName can not be nil.")
+	assert(slot2, "cueName can not be nil.")
+
+	if slot3 then
+		slot0.criInst:PlaySE(slot2, slot1, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	else
+		slot0.criInst:PlayVoice(slot2, CriWareMgr.CRI_FADE_TYPE.NONE, slot1, function (slot0)
+			if uv0 ~= nil then
+				uv0(slot0)
+			end
+		end)
+	end
+end
+
 slot1.LoadCV = function(slot0, slot1, slot2)
 	slot0:LoadCueSheet(uv0.GetCVBankName(slot1), slot2)
 end

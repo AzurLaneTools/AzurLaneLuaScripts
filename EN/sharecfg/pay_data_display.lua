@@ -74,6 +74,8 @@ pg.pay_data_display = setmetatable({
 		93,
 		94,
 		95,
+		96,
+		97,
 		1000,
 		1001,
 		1002,
@@ -190,6 +192,9 @@ pg.pay_data_display = setmetatable({
 		2054,
 		2055,
 		2056,
+		2057,
+		2058,
+		2059,
 		5011,
 		5012,
 		5013,
@@ -8890,6 +8895,274 @@ pg.base.pay_data_display = {
 				2,
 				86215,
 				1
+			}
+		}
+	},
+	[96] = {
+		picture = "fudai27",
+		name = "Ninja Castle Lucky Box A",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		subject = "Ninja Castle Lucky Box A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag64",
+		extra_gem = 0,
+		id = 96,
+		airijp_id = "com.yostaren.azurlane.luckybag64",
+		name_display = "Ninja Castle Lucky Box A",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86217,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81217,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[97] = {
+		picture = "fudai15",
+		name = "Dreamland Lucky Bag A Rerun",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
+		subject = "Dreamland Lucky Bag A Rerun",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag65",
+		extra_gem = 0,
+		id = 97,
+		airijp_id = "com.yostaren.azurlane.luckybag65",
+		name_display = "Dreamland Lucky Bag A Rerun",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86206,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81206,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
 			}
 		}
 	},
@@ -19910,6 +20183,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40064,
+				1
+			}
+		}
+	},
+	[2057] = {
+		picture = "ui6",
+		name = "Battle UI Pack - Ninja Castle",
+		type = 0,
+		second_text = "",
+		descrip = "Contains a new combat UI theme.",
+		subject = "Battle UI Pack - Ninja Castle",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1199,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack31",
+		extra_gem = 0,
+		id = 2057,
+		airijp_id = "com.yostaren.azurlane.pack31",
+		name_display = "Battle UI Pack - Ninja Castle",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2058] = {
+		picture = "ui6",
+		name = "Battle UI Pack - Ninja Castle (Basic)",
+		type = 0,
+		second_text = "",
+		descrip = "Contains the Battle UI - Ninja Castle theme and 1,000 Coins.",
+		subject = "Battle UI Pack - Ninja Castle (Basic)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1199,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack31",
+		extra_gem = 0,
+		id = 2058,
+		airijp_id = "com.yostaren.azurlane.pack31",
+		name_display = "Battle UI Pack - Ninja Castle (Basic)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40065,
+				1
+			}
+		}
+	},
+	[2059] = {
+		picture = "ui6",
+		name = "Battle UI Pack - Ninja Castle (Premium)",
+		type = 0,
+		second_text = "",
+		descrip = "Contains the Battle UI - Ninja Castle theme and 3,060 Gems.",
+		subject = "Battle UI Pack - Ninja Castle (Premium)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3699,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack32",
+		extra_gem = 0,
+		id = 2059,
+		airijp_id = "com.yostaren.azurlane.pack32",
+		name_display = "Battle UI Pack - Ninja Castle (Premium)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40066,
 				1
 			}
 		}

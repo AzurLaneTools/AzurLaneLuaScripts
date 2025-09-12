@@ -1819,5 +1819,25 @@ pg.voice_actor_CN = {
 	[471] = {
 		actor_name = "Marika Suzuki",
 		code = 471
+	},
+	[472] = {
+		actor_name = "Haruka Chisuga",
+		code = 472
+	},
+	[473] = {
+		actor_name = "Minori Ozawa",
+		code = 473
+	},
+	[474] = {
+		actor_name = "Ayahi Takagaki",
+		code = 474
+	},
+	[475] = {
+		actor_name = "Ayasa Goto",
+		code = 475
+	},
+	[476] = {
+		actor_name = "Mizuki Niizaki",
+		code = 476
 	}
 }

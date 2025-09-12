@@ -9972,6 +9972,15 @@ Fully retrofitting this ship will have the following effects:
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_301934 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+<color=#92fc63>Anti-Air Gun base +1</color>
+<color=#92fc63>Anti-Air Gun efficiency +40%</color>
+Proceed with retrofit?]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed.
@@ -12935,7 +12944,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Masséna, Bois Belleau, and Duquesne!"
+	tip = "Get Hakuhou guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -20415,7 +20424,7 @@ _G.pg.base.gametip.build_ship_accumulative = {
 
 
 _G.pg.base.gametip.destory_ship_before_tip = {
-	tip = "Continue?"
+	tip = "Continue?\n\n"
 }
 
 
@@ -20430,7 +20439,11 @@ _G.pg.base.gametip.mail_input_erro = {
 
 
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
-	tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> "
+	tip = [[
+You have selected a ship of <color=#92fc63>UR</color> rarity. 
+Please enter the following into the box below: <color=#92fc63>$1</color> 
+
+]]
 }
 
 
@@ -40676,4 +40689,317 @@ _G.pg.base.gametip.Outpost_20250904_Title2 = {
 
 _G.pg.base.gametip.Outpost_20250904_Progress = {
 	tip = "Progress"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar4 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar5 = {
+	tip = "Prelude"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title1 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title2 = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name1 = {
+	tip = "Pushing Past the Limit"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name2 = {
+	tip = "Unity Through Force"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name3 = {
+	tip = "Curse of Weakening"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name4 = {
+	tip = "Wealth Be With us"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name5 = {
+	tip = "All For One"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name6 = {
+	tip = "Cutting Costs"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name7 = {
+	tip = "Big Castle, Bigger Cannons"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name8 = {
+	tip = "Formation Training"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name9 = {
+	tip = "Reinforced Watchtowers"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name10 = {
+	tip = "Defensive Structures"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect1 = {
+	tip = "Active characters\nDMG dealt +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect2 = {
+	tip = "Active characters\nDMG dealt +$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect3 = {
+	tip = "Enemy\nHP -$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect4 = {
+	tip = "Ninja Koban\nGain +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect5 = {
+	tip = "Total character DMG\ncounted as all characters +$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect6 = {
+	tip = "Upgrades\nNinja Koban cost -$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect7 = {
+	tip = "Facilities\nDMG dealt +$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect8 = {
+	tip = "Facilities\nDMG dealt +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect9 = {
+	tip = "Facilities\nDMG dealt +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect10 = {
+	tip = "Total facility DMG\ncounted as all facilities +$1"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+	tip = "Turmoil in the Ninja Castle"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet2 = {
+	tip = "Login Bonus"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet3 = {
+	tip = "Invitation"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet4 = {
+	tip = "Mobilize"
+}
+
+
+_G.pg.base.gametip.activity_return_reward_pt = {
+	tip = "Mobilization Pts:"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar1 = {
+	tip = "Main Event"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar2 = {
+	tip = "Milestone"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar3 = {
+	tip = "UR Exchange"
+}
+
+
+_G.pg.base.gametip.anniversary_eight_main_page_desc = {
+	tip = "· The magic barrier protecting the castle's treasure fell in an unprecedented earthquake, and now ninja are scheming to steal your treasure!\n· Repair the castle, recruit troops, bolster your defenses, and restore peace!"
+}
+
+
+_G.pg.base.gametip.eighth_tip_spring = {
+	tip = {
+		{
+			info = "- Overview -\nOpen-Air Onsen is available between <color=#92fc63>September 12th and October 2nd</color>.\nPlace your shipgirls inside the onsen to increase their Morale recovery speed."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.eighth_spring_cost = {
+	tip = "Would you like to use 1 Onsen Note<icon name=eighthwenquanshoupai w=0.7 h=0.7/> to expand the onsen?"
+}
+
+
+_G.pg.base.gametip.eighth_spring_not_enough = {
+	tip = "Insufficient Onsen Notes."
+}
+
+
+_G.pg.base.gametip.ninja_game_helper = {
+	tip = {
+		{
+			info = "- Turmoil in the Ninja Castle Overview -"
+		},
+		{
+			info = "This event is available between <color=#92fc63>September 12th, 2025 and October 2nd, 2025."
+		},
+		{
+			info = "<b>1. Turmoil in the Ninja Castle</b>\n· Complete the Castle Defense mission and defeat enemies to obtain materials to repair the castle and recruit troops. As you restore the castle and grow your ranks, you'll gain progress and unlock new parts of the story.\n· Participate in the event to earn rewards such as exclusive furniture, gear skins, Dream Stone (UR Voucher), and Amahara Phoenix Feathers (event PT)."
+		},
+		{
+			info = [[
+<b>2. Castle Defense</b>
+· Crush all the assailants on your castle to earn rewards!
+· In this minigame, your troops and defensive facilities will attack the enemies automatically. The enemies drop materials to repair your castle with upon defeat. The first time you clear a certain number of waves, you'll also receive bonus rewards. You can defeat all the enemies in a single wave and move on, or you can take on an endless horde of enemies.
+- Increasing the level of your defenses will help you defeat enemies more efficiently.
+- The battle will continue even if you leave the Castle Defense screen or turn the game off; your rewards will accumulate automatically.]]
+		},
+		{
+			info = "<b>3. Lord's Scroll</b>\n· Open the Lord's Scroll to view how your repairs are coming along, which new buildings you can repair, which troops you've recruited and which are available for recruitment, what level your defenses are at, and perform actions related to each of these things."
+		},
+		{
+			info = "<b>4. Shinobi Secrets</b>\n· Here you can view the stories you've unlocked. You may also view them through the Memories menu."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.ninja_game_citylevel = {
+	tip = "Repair Progress"
+}
+
+
+_G.pg.base.gametip.ninja_game_wave = {
+	tip = "Highest Wave"
+}
+
+
+_G.pg.base.gametip.ninja_game_current_section = {
+	tip = "Current Repair Progress:"
+}
+
+
+_G.pg.base.gametip.ninja_game_buildcost = {
+	tip = "Repair Cost"
+}
+
+
+_G.pg.base.gametip.ninja_game_allycost = {
+	tip = "Recruitment Cost"
+}
+
+
+_G.pg.base.gametip.ninja_game_citydmg = {
+	tip = "Facility Damage:"
+}
+
+
+_G.pg.base.gametip.ninja_game_allydmg = {
+	tip = "Troop Damage:"
+}
+
+
+_G.pg.base.gametip.ninja_game_dps = {
+	tip = "Damage Per Second:"
+}
+
+
+_G.pg.base.gametip.ninja_game_time = {
+	tip = "Time to Clear:"
+}
+
+
+_G.pg.base.gametip.ninja_game_income = {
+	tip = "Obtained:"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffeffect = {
+	tip = "Active Buffs"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffcost = {
+	tip = "Next Level in"
+}
+
+
+_G.pg.base.gametip.ninja_game_levelblock = {
+	tip = "Further Repairs Needed"
+}
+
+
+_G.pg.base.gametip.ninja_game_storydialog = {
+	tip = "* Repair buildings and recruit troops to unlock."
+}
+
+
+_G.pg.base.gametip.ninja_game_update_failed = {
+	tip = "Insufficient materials. Complete missions and do Castle Defense to gain some."
+}
+
+
+_G.pg.base.gametip.ninja_game_ptcount = {
+	tip = "Remaining:"
+}
+
+
+_G.pg.base.gametip.ninja_game_cant_pickup = {
+	tip = "No obtainable rewards."
+}
+
+
+_G.pg.base.gametip.ninja_game_booktip = {
+	tip = "Repair buildings and recruit troops in Lord's Scroll to increase Repair Progress."
 }
