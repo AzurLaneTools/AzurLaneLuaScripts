@@ -997,7 +997,7 @@ pg.activity_ninja_building = {
 		id = 101,
 		default_state = 1,
 		name = {
-			"厌战",
+			"可招募援军：厌战",
 			"厌战"
 		},
 		desc = {
@@ -1051,7 +1051,7 @@ pg.activity_ninja_building = {
 		id = 102,
 		default_state = 1,
 		name = {
-			"布伦努斯",
+			"可招募援军：布伦努斯",
 			"布伦努斯"
 		},
 		desc = {
@@ -1105,7 +1105,7 @@ pg.activity_ninja_building = {
 		id = 103,
 		default_state = 1,
 		name = {
-			"拉菲II",
+			"可招募援军：拉菲II",
 			"拉菲II"
 		},
 		desc = {
@@ -1159,7 +1159,7 @@ pg.activity_ninja_building = {
 		id = 104,
 		default_state = 1,
 		name = {
-			"加斯科涅",
+			"可招募援军：加斯科涅",
 			"加斯科涅"
 		},
 		desc = {

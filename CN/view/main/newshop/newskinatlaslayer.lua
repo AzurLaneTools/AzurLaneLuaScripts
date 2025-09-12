@@ -74,8 +74,13 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.InitData = function(slot0)
-	slot1 = getProxy(ShipSkinProxy)
-	slot0.skins = slot1:GetOwnSkins()
+	slot0.skins = getProxy(ShipSkinProxy):GetOwnSkins()
+
+	for slot4 = #slot0.skins, 1, -1 do
+		if ShipSkin.GetChangeSkinIndex(slot0.skins[slot4].id) and slot6 ~= 1 then
+			table.remove(slot0.skins, slot4)
+		end
+	end
 
 	slot0:GetSkinClassify()
 

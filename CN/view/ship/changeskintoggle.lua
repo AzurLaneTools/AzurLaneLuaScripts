@@ -62,13 +62,14 @@ slot0.updateToggleUI = function(slot0)
 		setActive(findTF(slot6, "bg/Checkmark_" .. slot1), true)
 
 		slot8 = pg.ship_skin_template[slot0._skinId].tag
+		slot9 = pg.ship_skin_template[slot0._nextSkinId].tag
 
 		if slot5 == slot0._toggleIndex then
 			setActive(findTF(slot7, "l2d"), table.contains(slot8, ShipSkin.WITH_LIVE2D) or table.contains(slot8, ShipSkin.WITH_LIVE2D_PLUS))
 			setActive(findTF(slot7, "spine"), table.contains(slot8, ShipSkin.WITH_SPINE) or table.contains(slot8, ShipSkin.WITH_SPINE_PLUS))
 		else
-			setActive(findTF(slot6, "tag/l2d"), table.contains(slot8, ShipSkin.WITH_LIVE2D) or table.contains(slot8, ShipSkin.WITH_LIVE2D_PLUS))
-			setActive(findTF(slot6, "tag/spine"), table.contains(slot8, ShipSkin.WITH_SPINE) or table.contains(slot8, ShipSkin.WITH_SPINE_PLUS))
+			setActive(findTF(slot6, "tag/l2d"), table.contains(slot9, ShipSkin.WITH_LIVE2D) or table.contains(slot9, ShipSkin.WITH_LIVE2D_PLUS))
+			setActive(findTF(slot6, "tag/spine"), table.contains(slot9, ShipSkin.WITH_SPINE) or table.contains(slot9, ShipSkin.WITH_SPINE_PLUS))
 		end
 	end
 end

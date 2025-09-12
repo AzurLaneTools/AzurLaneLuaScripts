@@ -40668,3 +40668,13 @@ _G.pg.base.gametip.ninja_game_update_failed = {
 _G.pg.base.gametip.ninja_game_ptcount = {
 	tip = "经济余额："
 }
+
+
+_G.pg.base.gametip.ninja_game_cant_pickup = {
+	tip = "暂无可拾取的奖励"
+}
+
+
+_G.pg.base.gametip.ninja_game_booktip = {
+	tip = "*在「城主手册」中招募援军、修复建筑可推进城市修复阶段。"
+}

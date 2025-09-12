@@ -4794,7 +4794,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30516] = {
 		ship_group = 30516,
-		name = "Ōmi",
+		name = "Omi",
 		background = "",
 		sculpture = "jinjiang",
 		nationality = 3,

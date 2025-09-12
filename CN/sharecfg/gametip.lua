@@ -30665,5 +30665,15 @@ cs.gametip = {
 		1086923,
 		97,
 		true
+	},
+	ninja_game_cant_pickup = {
+		1087020,
+		110,
+		true
+	},
+	ninja_game_booktip = {
+		1087130,
+		165,
+		true
 	}
 }

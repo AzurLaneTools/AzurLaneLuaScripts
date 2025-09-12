@@ -57,11 +57,16 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot3.operation == CityRebuildProxy.REBUILD_OR_START_RECRUIT or slot3.operation == CityRebuildProxy.END_RECRUIT or slot3.operation == CityRebuildProxy.UPGRADE_BUFF then
 			slot0.viewComponent:Refresh(true)
 		elseif slot3.operation == CityRebuildProxy.RESULT then
-			slot4 = slot0.viewComponent
+			slot0.viewComponent:Refresh(true)
 
-			slot4:Refresh(true)
+			slot5 = slot3.pt.k + slot3.pt.m * 1000000 + slot3.pt.b * 1000000000
 
-			slot4 = slot3.awards
+			if #slot3.awards == 0 and slot5 == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ninja_game_cant_pickup"))
+
+				return
+			end
+
 			slot7 = slot0.viewComponent
 
 			slot7:Summary(function ()
@@ -76,7 +81,7 @@ slot0.handleNotification = function(slot0, slot1)
 				if #uv1 > 0 then
 					uv2.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1)
 				end
-			end, slot3.pt.k + slot3.pt.m * 1000000 + slot3.pt.b * 1000000000)
+			end, slot5)
 		end
 	end
 end

@@ -109,6 +109,7 @@ slot0.Refresh = function(slot0)
 	slot0:RefreshCharaPage()
 	slot0:RefreshBuffPage()
 	triggerToggle(slot0._tf:Find("panel/switch/" .. slot0.page), true)
+	setActive(slot0.charaTg:Find("tip"), uv0.ShouldShowTip())
 end
 
 slot0.RefreshBuildingPage = function(slot0)
@@ -412,7 +413,7 @@ slot0.RefreshBuffPage = function(slot0)
 			setText(slot2:Find("name"), i18n(pg.activity_ninja_buff[slot4[1]].name))
 			setText(slot2:Find("level"), "LV." .. slot3.level)
 
-			slot8 = 0
+			slot9 = 0
 
 			setText(slot2:Find("desc"), i18n("ninja_buff_effect" .. slot3.group, string.format("%.2f", switch(slot3.group, {
 				function ()
@@ -447,14 +448,18 @@ slot0.RefreshBuffPage = function(slot0)
 				end
 			}))))
 
-			slot9 = slot3.level < uv1[slot1 + 1] and pg.activity_ninja_buff[slot4[slot3.level + 1]]
+			slot10 = slot3.level < uv1[slot1 + 1] and pg.activity_ninja_buff[slot4[slot3.level + 1]]
 
-			setActive(slot2:Find("nextLevelPt"), slot9)
-			setActive(slot2:Find("upgradeBtn"), slot9)
-			setActive(slot2:Find("upgradeTenBtn"), slot9)
-			setActive(slot2:Find("levelMax"), not slot9)
+			setActive(slot2:Find("nextLevelPt"), slot10)
+			setActive(slot2:Find("upgradeBtn"), slot10)
+			setActive(slot2:Find("upgradeTenBtn"), slot10)
+			setActive(slot2:Find("levelMax"), not slot10)
 
-			if slot9 then
+			if slot3.level == pg.activity_ninja_city[5].buff[slot1 + 1] then
+				setActive(slot2:Find("levelMax"), false)
+			end
+
+			if slot10 then
 				setText(slot2:Find("nextLevelPt/Text"), math.ceil(slot6.basic_cost * slot6.cost^(slot6.level - 1) * (1 - uv2:GetParam(7) * uv3[6])))
 				onButton(uv2, slot2:Find("upgradeBtn"), function ()
 					if uv0.cityRebuildData.pt < uv1 then
@@ -561,6 +566,16 @@ slot0.willExit = function(slot0)
 	slot0:RemoveTimer()
 	slot0:RemoveAllTimers()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+end
+
+slot0.ShouldShowTip = function()
+	for slot4, slot5 in pairs(getProxy(CityRebuildProxy):GetData(ActivityConst.NINJA_CITY_ACT_ID).recruiting) do
+		if pg.activity_ninja_building[slot4].time <= pg.TimeMgr.GetInstance():GetServerTime() - slot5 then
+			return true
+		end
+	end
+
+	return false
 end
 
 return slot0

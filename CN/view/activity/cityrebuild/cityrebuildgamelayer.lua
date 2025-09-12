@@ -129,12 +129,13 @@ slot0.SetSpine = function(slot0)
 	slot6 = PoolMgr.GetInstance()
 
 	slot6:GetSpineChar(slot1, true, function (slot0)
-		if uv0 ~= uv1.prefab then
+		if uv0 ~= uv1.prefab or uv0 == uv1.loadedPrefab then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
 
 			return
 		end
 
+		uv1.loadedPrefab = uv0
 		uv1.model = slot0
 		uv1.model.transform.localScale = Vector3.one
 		uv1.model.transform.localPosition = Vector3.zero
@@ -150,12 +151,13 @@ slot0.SetSpine = function(slot0)
 	slot6 = PoolMgr.GetInstance()
 
 	slot6:GetSpineChar(slot1, true, function (slot0)
-		if uv0 ~= uv1.prefab then
+		if uv0 ~= uv1.prefab or uv0 == uv1.loadedPrefab2 then
 			PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0)
 
 			return
 		end
 
+		uv1.loadedPrefab2 = uv0
 		uv1.model2 = slot0
 		uv1.model2.transform.localScale = Vector3.one
 		uv1.model2.transform.localPosition = Vector3.zero
@@ -208,10 +210,14 @@ end
 slot0.ClearSpine = function(slot0)
 	if not IsNil(slot0.model) then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model)
+
+		slot0.loadedPrefab = nil
 	end
 
 	if not IsNil(slot0.model2) then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0.model2)
+
+		slot0.loadedPrefab2 = nil
 	end
 end
 
@@ -342,7 +348,7 @@ slot0.SetSummaryPanelAndHp = function(slot0)
 
 		if uv0.effectWaitingTime == 0 then
 			uv0.isPlayingEffect = true
-			uv0.effectWaitingTime = math.random(5)
+			uv0.effectWaitingTime = math.random(3)
 
 			for slot5, slot6 in ipairs(uv7) do
 				setActive(slot6, true)

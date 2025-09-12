@@ -163,6 +163,8 @@ slot0.didEnter = function(slot0)
 	slot1:AddListener(function (slot0)
 		if slot0 then
 			uv0:CreateLive2D()
+		else
+			uv0:clearLive2dPainting()
 		end
 
 		uv0.l2dBtnOn = slot0
@@ -288,7 +290,9 @@ slot0.SetPainting = function(slot0, slot1, slot2)
 
 	slot3 = pg.ship_skin_template[slot1].painting
 
-	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
+	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu", function ()
+		setActive(uv0.commonPainting, true)
+	end)
 
 	slot0.paintingName = slot3
 
@@ -488,10 +492,9 @@ slot0.ShiftSkin = function(slot0, slot1)
 
 	slot0.skin = slot1
 
-	slot0:LoadModel(slot1)
 	slot0:SetPainting(slot1.id, false)
+	slot0:LoadModel(slot1)
 	slot0.live2DBtn:Disable()
-	slot0:clearLive2dPainting()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
 
 	slot2 = nil

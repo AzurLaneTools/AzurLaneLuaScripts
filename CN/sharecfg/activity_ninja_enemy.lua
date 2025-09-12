@@ -1807,7 +1807,7 @@ pg.activity_ninja_enemy = {
 		id = 81,
 		first_drop = 907230,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1828,7 +1828,7 @@ pg.activity_ninja_enemy = {
 		id = 82,
 		first_drop = 907231,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1849,7 +1849,7 @@ pg.activity_ninja_enemy = {
 		id = 83,
 		first_drop = 907232,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1870,7 +1870,7 @@ pg.activity_ninja_enemy = {
 		id = 84,
 		first_drop = 907233,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1891,7 +1891,7 @@ pg.activity_ninja_enemy = {
 		id = 85,
 		first_drop = 907234,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1912,7 +1912,7 @@ pg.activity_ninja_enemy = {
 		id = 86,
 		first_drop = 907235,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1933,7 +1933,7 @@ pg.activity_ninja_enemy = {
 		id = 87,
 		first_drop = 907236,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1954,7 +1954,7 @@ pg.activity_ninja_enemy = {
 		id = 88,
 		first_drop = 907237,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1975,7 +1975,7 @@ pg.activity_ninja_enemy = {
 		id = 89,
 		first_drop = 907238,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -1996,7 +1996,7 @@ pg.activity_ninja_enemy = {
 		id = 90,
 		first_drop = 907239,
 		scale = "1.4",
-		basic = 300,
+		basic = 600,
 		first_drop_show = {
 			{
 				1,
@@ -2017,7 +2017,7 @@ pg.activity_ninja_enemy = {
 		id = 91,
 		first_drop = 907240,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2038,7 +2038,7 @@ pg.activity_ninja_enemy = {
 		id = 92,
 		first_drop = 907241,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2059,7 +2059,7 @@ pg.activity_ninja_enemy = {
 		id = 93,
 		first_drop = 907242,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2080,7 +2080,7 @@ pg.activity_ninja_enemy = {
 		id = 94,
 		first_drop = 907243,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2101,7 +2101,7 @@ pg.activity_ninja_enemy = {
 		id = 95,
 		first_drop = 907244,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2122,7 +2122,7 @@ pg.activity_ninja_enemy = {
 		id = 96,
 		first_drop = 907245,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2143,7 +2143,7 @@ pg.activity_ninja_enemy = {
 		id = 97,
 		first_drop = 907246,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2164,7 +2164,7 @@ pg.activity_ninja_enemy = {
 		id = 98,
 		first_drop = 907247,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2185,7 +2185,7 @@ pg.activity_ninja_enemy = {
 		id = 99,
 		first_drop = 907248,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2206,7 +2206,7 @@ pg.activity_ninja_enemy = {
 		id = 100,
 		first_drop = 907249,
 		scale = "1.4",
-		basic = 300,
+		basic = 900,
 		first_drop_show = {
 			{
 				1,
@@ -2227,7 +2227,7 @@ pg.activity_ninja_enemy = {
 		id = 101,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 1500,
 		first_drop_show = {}
 	},
 	{
@@ -2237,7 +2237,7 @@ pg.activity_ninja_enemy = {
 		id = 102,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 2000,
 		first_drop_show = {}
 	},
 	{
@@ -2247,7 +2247,7 @@ pg.activity_ninja_enemy = {
 		id = 103,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 2500,
 		first_drop_show = {}
 	},
 	{
@@ -2257,7 +2257,7 @@ pg.activity_ninja_enemy = {
 		id = 104,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 3000,
 		first_drop_show = {}
 	},
 	{
@@ -2267,7 +2267,7 @@ pg.activity_ninja_enemy = {
 		id = 105,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 3500,
 		first_drop_show = {}
 	},
 	{
@@ -2277,7 +2277,7 @@ pg.activity_ninja_enemy = {
 		id = 106,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 4000,
 		first_drop_show = {}
 	},
 	{
@@ -2287,7 +2287,7 @@ pg.activity_ninja_enemy = {
 		id = 107,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 4500,
 		first_drop_show = {}
 	},
 	{
@@ -2297,7 +2297,7 @@ pg.activity_ninja_enemy = {
 		id = 108,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 5000,
 		first_drop_show = {}
 	},
 	{
@@ -2307,7 +2307,7 @@ pg.activity_ninja_enemy = {
 		id = 109,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 5500,
 		first_drop_show = {}
 	},
 	{
@@ -2317,7 +2317,7 @@ pg.activity_ninja_enemy = {
 		id = 110,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 6000,
 		first_drop_show = {}
 	},
 	{
@@ -2327,7 +2327,7 @@ pg.activity_ninja_enemy = {
 		id = 111,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 7000,
 		first_drop_show = {}
 	},
 	{
@@ -2337,7 +2337,7 @@ pg.activity_ninja_enemy = {
 		id = 112,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 8000,
 		first_drop_show = {}
 	},
 	{
@@ -2347,7 +2347,7 @@ pg.activity_ninja_enemy = {
 		id = 113,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 9000,
 		first_drop_show = {}
 	},
 	{
@@ -2357,7 +2357,7 @@ pg.activity_ninja_enemy = {
 		id = 114,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 10000,
 		first_drop_show = {}
 	},
 	{
@@ -2367,7 +2367,7 @@ pg.activity_ninja_enemy = {
 		id = 115,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 11000,
 		first_drop_show = {}
 	},
 	{
@@ -2377,7 +2377,7 @@ pg.activity_ninja_enemy = {
 		id = 116,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 14000,
 		first_drop_show = {}
 	},
 	{
@@ -2387,7 +2387,7 @@ pg.activity_ninja_enemy = {
 		id = 117,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 17000,
 		first_drop_show = {}
 	},
 	{
@@ -2397,7 +2397,7 @@ pg.activity_ninja_enemy = {
 		id = 118,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 20000,
 		first_drop_show = {}
 	},
 	{
@@ -2407,7 +2407,7 @@ pg.activity_ninja_enemy = {
 		id = 119,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 23000,
 		first_drop_show = {}
 	},
 	{
@@ -2417,7 +2417,7 @@ pg.activity_ninja_enemy = {
 		id = 120,
 		first_drop = 0,
 		scale = "1.4",
-		basic = 300,
+		basic = 26000,
 		first_drop_show = {}
 	},
 	all = {

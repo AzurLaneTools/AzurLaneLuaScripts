@@ -45,7 +45,8 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.CITY_REBUILD_DONE,
-		GAME.STORY_UPDATE_DONE
+		GAME.STORY_UPDATE_DONE,
+		GAME.SUBMIT_TASK_AWARD_DOWN
 	}
 end
 
@@ -56,7 +57,7 @@ slot0.handleNotification = function(slot0, slot1)
 		if slot3.operation == CityRebuildProxy.GET_DATA or slot3.operation == CityRebuildProxy.REBUILD_OR_START_RECRUIT or slot3.operation == CityRebuildProxy.END_RECRUIT or slot3.operation == CityRebuildProxy.CHOOSE_LEVEL or slot3.operation == CityRebuildProxy.INIT_TIME then
 			slot0.viewComponent:Refresh()
 		end
-	elseif slot2 == GAME.STORY_UPDATE_DONE then
+	elseif slot2 == GAME.STORY_UPDATE_DONE or slot2 == GAME.SUBMIT_TASK_AWARD_DOWN then
 		slot0.viewComponent:Refresh()
 	end
 end
