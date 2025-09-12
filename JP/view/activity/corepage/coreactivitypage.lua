@@ -88,4 +88,11 @@ slot0.UseSecondPage = function(slot0, slot1)
 	return false
 end
 
+slot0.IsShowingPopWindow = function(slot0)
+	return false
+end
+
+slot0.ClosePopWindow = function(slot0)
+end
+
 return slot0

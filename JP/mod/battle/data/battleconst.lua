@@ -229,7 +229,8 @@ slot0.AOEField = {
 }
 slot0.AreaType = {
 	CUBE = 1,
-	COLUMN = 2
+	COLUMN = 2,
+	ELLIPSE = 3
 }
 slot0.ShakeType = {
 	HIT = 301,

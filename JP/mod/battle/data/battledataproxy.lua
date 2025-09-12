@@ -1960,6 +1960,28 @@ slot9.SpawnLastingColumnArea = function(slot0, slot1, slot2, slot3, slot4, slot5
 	return slot13
 end
 
+slot9.SpawnLastingEllipseArea = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
+	slot14 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot7, slot8, slot11, slot12)
+
+	slot14:SetPosition(Clone(slot3))
+	slot14:SetWidth(slot4)
+	slot14:SetHeight(slot5)
+	slot14:SetAreaType(uv1.AreaType.ELLIPSE)
+	slot14:SetLifeTime(slot6)
+	slot14:SetFieldType(slot1)
+	slot14:SetOpponentAffected(not (slot9 or false))
+	slot0:CreateAreaOfEffect(slot14)
+
+	if slot10 and slot10 ~= "" then
+		slot0:DispatchEvent(uv0.Event.New(uv2.ADD_AREA, {
+			area = slot14,
+			FXID = slot10
+		}))
+	end
+
+	return slot14
+end
+
 slot9.SpawnLastingCubeArea = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
 	slot14 = uv0.Battle.BattleLastingAOEData.New(slot0:GenerateAreaID(), slot2, slot7, slot8, slot11, slot12)
 

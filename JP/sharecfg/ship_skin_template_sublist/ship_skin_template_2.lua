@@ -15154,5 +15154,116 @@ pg.base.ship_skin_template_2 = {
 			0,
 			0.37
 		}
+	},
+	[103248] = {
+		name = "幸せトラッキング",
+		change_skin = "",
+		desc = "3、2、1、はい！指揮官、ブーケトスした瞬間をちゃんと撮れた？あはは、次の艦船通信はこれに決めたから、指揮官も同じのにしてねっ。アタシたちのもう一つの…「愛の誓い」なんだから♪",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "bulaimodun_h",
+		bg_sp = "",
+		skin_type = 1,
+		shop_type_id = 9998,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 103248,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "bulaimodun_h",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.716,
+					0.874,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.72,
+					0.875,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.361,
+							2.431,
+							0.14
+						}
+					}
+				}
+			}
+		}
 	}
 }

@@ -42,8 +42,9 @@ slot0.OnInit = function(slot0)
 	slot0.unionTailTpl = slot0._tf:Find("Story/UnionTail")
 	slot0.unionCenterTpl = slot0._tf:Find("Story/UnionCenter")
 	slot0.unionUpTpl = slot0._tf:Find("Story/UnionUp")
+	slot0.unionDownTpl = slot0._tf:Find("Story/UnionDown")
 	slot1 = slot0._tf
-	slot0.unionDownTpl = slot1:Find("Story/UnionDown")
+	slot0.unreleasedNodeTpl = slot1:Find("Story/UnreleasedNode")
 
 	setActive(slot0.storyNodeTpl, false)
 	setActive(slot0.oneLineTpl, false)
@@ -55,6 +56,7 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.unionCenterTpl, false)
 	setActive(slot0.unionUpTpl, false)
 	setActive(slot0.unionDownTpl, false)
+	setActive(slot0.unreleasedNodeTpl, false)
 
 	slot0.pools = {
 		[slot0.storyNodeTpl] = uv0.New(go(slot0.storyNodeTpl), 0),
@@ -163,13 +165,18 @@ slot0.BuildStoryTree = function(slot0)
 	slot0.spStoryIDs = slot1:getConfig("story_id")
 	slot0.spStoryNodeDict = {}
 	slot0.spStoryNodes = {}
+	slot0.spStoryUnreleasedNode = nil
 	slot1 = {}
 
 	_.each(slot0.spStoryIDs, function (slot0)
-		uv0.spStoryNodeDict[slot0] = ActivitySpStoryNode.New({
+		if ActivitySpStoryNode.New({
 			configId = slot0
-		})
-		uv1[uv0.spStoryNodeDict[slot0]:GetPreEvent()] = slot0
+		}):GetType() ~= ActivitySpStoryNode.NODE_TYPE.UNRELEASED then
+			uv0.spStoryNodeDict[slot0] = slot1
+			uv1[uv0.spStoryNodeDict[slot0]:GetPreEvent()] = slot0
+		else
+			uv0.spStoryUnreleasedNode = slot1
+		end
 	end)
 
 	slot2 = 0
@@ -414,10 +421,10 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	setActive(slot28, slot27)
 
 	if slot27 then
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot28:Find("bonus"))
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot9 == 3 and "bonus_us_hard" or "bonus_us", slot28:Find("bonus"))
 		LeanTween.cancel(go(slot28), true)
 
-		slot32 = slot28.anchoredPosition.y
+		slot31 = slot28.anchoredPosition.y
 		slot28:GetComponent(typeof(CanvasGroup)).alpha = 0
 
 		LeanTween.value(go(slot28), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
@@ -883,6 +890,29 @@ slot0.UpdateStory = function(slot0)
 	setSizeDelta(slot0.storyContainer, {
 		x = slot3
 	})
+
+	if slot0.spStoryUnreleasedNode then
+		slot17 = cloneTplTo(slot0.unreleasedNodeTpl, slot0.storyContainer)
+
+		setAnchoredPosition(slot17, {
+			y = 0,
+			x = slot3
+		})
+
+		slot20 = slot0.spStoryUnreleasedNode
+
+		setText(slot17:Find("text"), slot20:GetDisplayName())
+
+		slot18 = ResourceMgr.Inst
+		slot21 = slot0.spStoryUnreleasedNode
+
+		slot18:getAssetAsync("ui/" .. slot21:GetCleanAnimator(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot1 = Instantiate(slot0)
+			tf(slot1).localPosition = Vector3.New(-525, 0, 380)
+
+			setParent(slot1, uv0)
+		end), true, true)
+	end
 
 	for slot21 = 1, #slot0.spStoryNodes do
 		slot23 = slot17[slot21]:GetConfigID()

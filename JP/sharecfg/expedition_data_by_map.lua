@@ -173,6 +173,12 @@ pg.expedition_data_by_map = setmetatable({
 		1950012,
 		1950025,
 		1950026,
+		1960001,
+		1960002,
+		1960011,
+		1960012,
+		1960025,
+		1960026,
 		2100000,
 		2100001,
 		2100010,
@@ -12249,6 +12255,481 @@ pg.base.expedition_data_by_map = {
 			174,
 			175,
 			176
+		}
+	},
+	[1960001] = {
+		map = 1960001,
+		name = "アマハラに舞い奉れ·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-amahara-stage2",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960001",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960001",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960001,
+				1960021
+			},
+			{
+				1960002,
+				1960022
+			},
+			{
+				1960003,
+				1960023
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		}
+	},
+	[1960002] = {
+		map = 1960002,
+		name = "アマハラに舞い奉れ·後編|| ||CHAPTER EX||E.X.",
+		bgm = "story-amahara-stage1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960003",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960003",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960004,
+				1960024
+			},
+			{
+				1960005,
+				1960025
+			},
+			{
+				1960006,
+				1960026
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		}
+	},
+	[1960011] = {
+		map = 1960011,
+		name = "アマハラに舞い奉れ·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-amahara-stage2",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960001",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960001",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960001,
+				1960021
+			},
+			{
+				1960002,
+				1960022
+			},
+			{
+				1960003,
+				1960023
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		}
+	},
+	[1960012] = {
+		map = 1960012,
+		name = "アマハラに舞い奉れ·後編|| ||CHAPTER EX||E.X.",
+		bgm = "story-amahara-stage1",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960003",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960003",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960004,
+				1960024
+			},
+			{
+				1960005,
+				1960025
+			},
+			{
+				1960006,
+				1960026
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		}
+	},
+	[1960025] = {
+		map = 1960025,
+		name = "アマハラに舞い奉れ·SP|| ||CHAPTER EX||E.X.",
+		bgm = "musashi-2",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960004",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960004",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960041
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		}
+	},
+	[1960026] = {
+		map = 1960026,
+		name = "アマハラに舞い奉れ·EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-amahara-stage3",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1960002",
+		ani_controller = "",
+		default_background = "bg_daofeng_2",
+		on_activity = 50114,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1960002",
+		destory_icon_suffix = "blue",
+		default_bgm = "map-longgong",
+		uifx = "",
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960051,
+				1960052
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
 		}
 	},
 	[2100000] = {

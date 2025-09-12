@@ -102,7 +102,7 @@ slot0.InitSpecialTouch = function(slot0)
 						slot2 = nil
 
 						if uv0:getDragTouchAble(uv1.name, uv2, true) then
-							slot2 = uv0.spinePainting:readyDragAction(uv1.name)
+							slot2 = uv0.spinePainting:readyDragAction(uv1.name, false)
 						end
 
 						if not slot2 then
@@ -142,7 +142,7 @@ slot0.InitSpecialTouch = function(slot0)
 					if math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200 then
 						uv0.dragActive = false
 
-						uv0.spinePainting:readyDragAction(uv1.name)
+						uv0.spinePainting:readyDragAction(uv1.name, true)
 					end
 				end
 			end)
@@ -172,7 +172,7 @@ slot0.InitSpecialTouch = function(slot0)
 						return
 					end
 
-					uv0.spinePainting:readyDragAction(uv1.name)
+					uv0.spinePainting:readyDragAction(uv1.name, false)
 				elseif slot0 then
 					uv0:TriggerEvent(slot0)
 					uv0:TriggerPersonalTask(uv0.ship.groupId)
@@ -212,6 +212,10 @@ slot0.PrepareTriggerAction = function(slot0, slot1)
 	else
 		slot0:TryToTriggerEvent(slot1)
 	end
+end
+
+slot0.TryToTriggerEvent = function(slot0, slot1)
+	slot0:_TriggerEvent(slot1)
 end
 
 slot0.onSpinePaintingEvent = function(slot0, slot1)

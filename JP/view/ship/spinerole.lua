@@ -57,6 +57,32 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
+slot0.LoadLite = function(slot0, slot1, slot2)
+	if slot2 == nil then
+		slot2 = true
+	end
+
+	slot3 = PoolMgr.GetInstance()
+
+	slot3:GetSpineChar(slot0.prefabName, slot2, function (slot0)
+		assert(slot0, "没有这个角色的模型  " .. uv0.prefabName)
+
+		if uv0.state == uv1.STATE_DISPOSE then
+			PoolMgr.GetInstance():ReturnSpineChar(uv0.prefabName, slot0)
+		else
+			uv0.model = slot0
+			uv0.model.transform.localScale = Vector3.one
+			uv0.model.transform.localPosition = Vector3.zero
+
+			uv0:Init()
+
+			if uv2 then
+				uv2()
+			end
+		end
+	end)
+end
+
 slot0.Init = function(slot0)
 	slot0.state = uv0.STATE_INITED
 	slot0._modleGraphic = slot0.model:GetComponent("SkeletonGraphic")

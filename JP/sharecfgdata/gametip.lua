@@ -9955,6 +9955,11 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_301934 = {
+	tip = "改造（近代化改修）を行うと<color=#92fc63>【対空砲砲座+1】</color>\n<color=#92fc63>【対空火器補正+40%】</color>\n続けますか？"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 <size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
@@ -12847,7 +12852,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「マッセナ」「ボア・ベロー」「デュケーヌ」出現確率UP！"
+	tip = "期間限定建造を累計200回行うと「白鳳」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -15348,7 +15353,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2025年5月6日（火）～6月20日（火）メンテナンスまでに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2025年9月12日（金）～10月24日（金）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -15406,17 +15411,17 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年3月26日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年7月9日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
-			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
+			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2% <color=#d797ff>SR</color>...2.5% <color=#3dc6ff>R...2.5%</color> N...2.5%"
 		},
 		{
 			info = [[
 4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：
-<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
-<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% 
-<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%]]
+<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26% N..55% 
+<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8% 
+<color=#FF5C5C>特型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8%]]
 		},
 		{
 			info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
@@ -28849,7 +28854,7 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 
 
 _G.pg.base.gametip.hotspring_buff = {
-	tip = "夏のテルマエ|入浴中の艦船のコンディション回復速度がUP"
+	tip = "饅頭温泉|入浴中の艦船のコンディション回復速度がUP"
 }
 
 
@@ -40870,4 +40875,317 @@ _G.pg.base.gametip.Outpost_20250904_Title2 = {
 
 _G.pg.base.gametip.Outpost_20250904_Progress = {
 	tip = "現在進捗"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar4 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar5 = {
+	tip = "重桜の招待"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title1 = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title2 = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name1 = {
+	tip = "極限突破"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name2 = {
+	tip = "天下布武"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name3 = {
+	tip = "衰弱呪印"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name4 = {
+	tip = "金運招来"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name5 = {
+	tip = "有用人材"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name6 = {
+	tip = "費用削減"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name7 = {
+	tip = "巨城巨砲"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name8 = {
+	tip = "陣形協働"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name9 = {
+	tip = "強化櫓"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name10 = {
+	tip = "防御構築"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect1 = {
+	tip = "登場キャラが与える\nダメージが$1%アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect2 = {
+	tip = "登場キャラが与える\nダメージが$1アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect3 = {
+	tip = "敵の\n耐久が$1%ダウン"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect4 = {
+	tip = "忍者コイン\n入手量が$1%アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect5 = {
+	tip = "キャラによるダメージの計算時、キャラ数+$1として計算される"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect6 = {
+	tip = "強化に必要な忍者コイン\n消費量が$1%ダウン"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect7 = {
+	tip = "防御施設が与える\nダメージが$1アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect8 = {
+	tip = "防御施設が与える\nダメージが$1％アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect9 = {
+	tip = "防御施設が与える\nダメージが$1％アップ"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect10 = {
+	tip = "施設によるダメージの計算時、施設数+$1として計算される"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+	tip = "激戦！忍者の城"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet2 = {
+	tip = "ログインボーナス"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet3 = {
+	tip = "招待状"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet4 = {
+	tip = "カムバック"
+}
+
+
+_G.pg.base.gametip.activity_return_reward_pt = {
+	tip = "カムバックPt："
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar1 = {
+	tip = "アマハラに舞い奉れ"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar2 = {
+	tip = "天域補給地"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar3 = {
+	tip = "UR交換"
+}
+
+
+_G.pg.base.gametip.anniversary_eight_main_page_desc = {
+	tip = "・史上類を見ない災いで桃源郷の城の守護結界が破壊され、宝を狙う忍者たちが暗躍し始めた！\n·忍者の城を修復し、援軍を要請しつつ防御を固め、再び平和を取り戻そう——"
+}
+
+
+_G.pg.base.gametip.eighth_tip_spring = {
+	tip = {
+		{
+			info = "遊び方：\n<color=#92fc63>9.12-10.2 23:59まで</color>「饅頭温泉」が開放されます\n艦船を「饅頭温泉」に配置すると、配置キャラのコンディション回復速度が上昇します"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.eighth_spring_cost = {
+	tip = "温泉手形<icon name=eighthwenquanshoupai w=0.7 h=0.7/>を1個消費して温泉を増築しますか?"
+}
+
+
+_G.pg.base.gametip.eighth_spring_not_enough = {
+	tip = "温泉手形が不足しています"
+}
+
+
+_G.pg.base.gametip.ninja_game_helper = {
+	tip = {
+		{
+			info = "「激戦！忍者の城！」について"
+		},
+		{
+			info = "開催時間：<color=#92fc63>2025.09.12-2025.10.02 23:59</color>"
+		},
+		{
+			info = "<b>1.「激戦！忍者の城」</b>\n·「激戦！忍者の城！」では、任務をクリアし「敵襲防衛」で敵を倒すと、城の補修や仲間追加のための素材を入手できます。城を補修し仲間を追加すると、修復進捗が進みストーリーが開放されます；\n·各種条件を達成すると、限定家具・装備外装、「忍者クナイ」、「URチケット」、イベントPt「アマハラ風羽」を入手できます。"
+		},
+		{
+			info = [[
+<b>2.「敵襲防衛」</b>
+·襲いくる敵を撃破し、報酬を手に入れましょう！
+·「敵襲防衛」では、仲間および城の防衛施設が自動で敵を攻撃します。敵を倒すと城修復の素材を入手でき、さらに特定のウェーブを初めて突破した時、追加報酬を入手できます。現在のウェーブの敵を1回倒すと次のウェーブに進むことができますが、ウェーブを進めず終わらない敵襲に挑戦することができます。
+※「守備強化」をレベルアップさせると、敵を倒す効率も上がります；
+※「敵襲防衛」画面から離れる・ゲームがオフラインになっても敵との戦いは終わらず、報酬が自動で蓄積していきます。]]
+		},
+		{
+			info = "<b>3.「城主の巻」</b>\n·「城主の巻」では、現在の修復進捗・修復済みと修復可能な施設・要請済みと要請可能な支援・守備強化レベルなどを確認でき、またそれぞれの項目で操作を行うことができます"
+		},
+		{
+			info = "<b>4.「忍者物語」</b>\n·解放済みの物語を閲覧できます。（「思い出」でも閲覧可能です）"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.ninja_game_citylevel = {
+	tip = "城修復進捗"
+}
+
+
+_G.pg.base.gametip.ninja_game_wave = {
+	tip = "最高ウェーブ"
+}
+
+
+_G.pg.base.gametip.ninja_game_current_section = {
+	tip = "現在修復進捗："
+}
+
+
+_G.pg.base.gametip.ninja_game_buildcost = {
+	tip = "修復消費"
+}
+
+
+_G.pg.base.gametip.ninja_game_allycost = {
+	tip = "要請消費"
+}
+
+
+_G.pg.base.gametip.ninja_game_citydmg = {
+	tip = "施設ダメージ："
+}
+
+
+_G.pg.base.gametip.ninja_game_allydmg = {
+	tip = "援軍ダメージ："
+}
+
+
+_G.pg.base.gametip.ninja_game_dps = {
+	tip = "秒間ダメージ："
+}
+
+
+_G.pg.base.gametip.ninja_game_time = {
+	tip = "撃破時間："
+}
+
+
+_G.pg.base.gametip.ninja_game_income = {
+	tip = "入手コイン："
+}
+
+
+_G.pg.base.gametip.ninja_game_buffeffect = {
+	tip = "現在効果"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffcost = {
+	tip = "次のレベルまで"
+}
+
+
+_G.pg.base.gametip.ninja_game_levelblock = {
+	tip = "修復進捗が必要"
+}
+
+
+_G.pg.base.gametip.ninja_game_storydialog = {
+	tip = "*施設修復・援軍要請で開放"
+}
+
+
+_G.pg.base.gametip.ninja_game_update_failed = {
+	tip = "素材が不足しています。任務・敵襲防衛で素材を入手可能"
+}
+
+
+_G.pg.base.gametip.ninja_game_ptcount = {
+	tip = "所持コイン："
+}
+
+
+_G.pg.base.gametip.ninja_game_cant_pickup = {
+	tip = "暂无可拾取的奖励"
+}
+
+
+_G.pg.base.gametip.ninja_game_booktip = {
+	tip = "*在「城主手册」中招募援军、修复建筑可推进城市修复阶段。"
 }

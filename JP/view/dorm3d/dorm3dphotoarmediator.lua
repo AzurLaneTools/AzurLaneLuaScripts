@@ -39,6 +39,7 @@ slot0.register = function(slot0)
 	end)
 	slot0.viewComponent:SetRoom(slot0.contextData.roomId)
 	slot0.viewComponent:SetGroupId(slot0.contextData.groupId)
+	slot0.viewComponent:SetARLite(slot0.contextData.arCheckState)
 end
 
 slot0.listNotificationInterests = function(slot0)

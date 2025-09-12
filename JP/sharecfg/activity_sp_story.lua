@@ -3988,6 +3988,342 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[231] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1をクリア",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_490",
+		story = "QIWUYUTIANYUANZHISHANG1",
+		change_bgm = "story-amahara-stage2",
+		id = 231,
+		lock = ""
+	},
+	[232] = {
+		story_type = 1,
+		name = "EP1-1をクリア",
+		change_prefab = "",
+		unlock_conditions = "EPS-1をクリア",
+		change_background = "star_level_bg_492",
+		story = "QIWUYUTIANYUANZHISHANG2",
+		change_bgm = "story-amahara-stage2",
+		id = 232,
+		pre_event = {
+			231
+		},
+		lock = {
+			{
+				4,
+				231
+			}
+		}
+	},
+	[233] = {
+		story_type = 1,
+		name = "EP1-2をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP1-1をクリア",
+		change_background = "bg_amahara_cg1",
+		story = "QIWUYUTIANYUANZHISHANG3",
+		change_bgm = "story-amahara-stage3",
+		id = 233,
+		pre_event = {
+			232
+		},
+		lock = {
+			{
+				4,
+				232
+			}
+		}
+	},
+	[234] = {
+		story_type = 1,
+		name = "EP1-3をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP1-2をクリア",
+		change_background = "bg_amahara_1",
+		story = "QIWUYUTIANYUANZHISHANG4",
+		change_bgm = "story-amahara-stage1",
+		id = 234,
+		pre_event = {
+			233
+		},
+		lock = {
+			{
+				4,
+				233
+			}
+		}
+	},
+	[235] = {
+		story_type = 1,
+		name = "EP1-4をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP1-3をクリア",
+		change_background = "star_level_bg_492",
+		story = "QIWUYUTIANYUANZHISHANG5",
+		change_bgm = "story-mayrain",
+		id = 235,
+		pre_event = {
+			234
+		},
+		lock = {
+			{
+				4,
+				234
+			}
+		}
+	},
+	[236] = {
+		story_type = 1,
+		name = "EP1-5をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP1-4をクリア",
+		change_background = "star_level_bg_490",
+		story = "QIWUYUTIANYUANZHISHANG6",
+		change_bgm = "story-amahara-stage2",
+		id = 236,
+		pre_event = {
+			235
+		},
+		lock = {
+			{
+				4,
+				235
+			}
+		}
+	},
+	[237] = {
+		story_type = 1,
+		name = "EP2-1をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP1-5をクリア",
+		change_background = "bg_amahara_cg5",
+		story = "QIWUYUTIANYUANZHISHANG7",
+		change_bgm = "story-amahara-stage2",
+		id = 237,
+		pre_event = {
+			236
+		},
+		lock = {
+			{
+				4,
+				236
+			}
+		}
+	},
+	[238] = {
+		story_type = 1,
+		name = "EP2-2をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP2-1をクリア",
+		change_background = "star_level_bg_539",
+		story = "QIWUYUTIANYUANZHISHANG8",
+		change_bgm = "story-island-soft",
+		id = 238,
+		pre_event = {
+			237
+		},
+		lock = {
+			{
+				4,
+				237
+			}
+		}
+	},
+	[239] = {
+		story_type = 1,
+		name = "EP2-3をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP2-2をクリア",
+		change_background = "bg_tieyiqingfeng_1",
+		story = "QIWUYUTIANYUANZHISHANG9",
+		change_bgm = "battle-eagleunion",
+		id = 239,
+		pre_event = {
+			238
+		},
+		lock = {
+			{
+				4,
+				238
+			}
+		}
+	},
+	[240] = {
+		story_type = 1,
+		name = "EP2-4をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP2-3をクリア",
+		change_background = "star_level_bg_491",
+		story = "QIWUYUTIANYUANZHISHANG10",
+		change_bgm = "story-temepest-2",
+		id = 240,
+		pre_event = {
+			239
+		},
+		lock = {
+			{
+				4,
+				239
+			}
+		}
+	},
+	[241] = {
+		story_type = 1,
+		name = "EP2-5をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP2-4をクリア",
+		change_background = "bg_amahara_2",
+		story = "QIWUYUTIANYUANZHISHANG11",
+		change_bgm = "musashi-2",
+		id = 241,
+		pre_event = {
+			240
+		},
+		lock = {
+			{
+				4,
+				240
+			}
+		}
+	},
+	[242] = {
+		story_type = 1,
+		name = "EPS-2をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP2-5をクリア",
+		change_background = "bg_port_chongdong",
+		story = "QIWUYUTIANYUANZHISHANG12",
+		change_bgm = "theme-starsea-core",
+		id = 242,
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				241
+			}
+		}
+	},
+	[243] = {
+		story_type = 1,
+		name = "EPS-3をクリア",
+		change_prefab = "",
+		unlock_conditions = "EPS-2をクリア",
+		change_background = "bg_amahara_cg6",
+		story = "QIWUYUTIANYUANZHISHANG13",
+		change_bgm = "battle-unzen-1",
+		id = 243,
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				242
+			}
+		}
+	},
+	[244] = {
+		story_type = 2,
+		name = "EP3-1をクリア",
+		change_prefab = "",
+		unlock_conditions = "EPS-3をクリア",
+		change_background = "bg_amahara_cg7",
+		story = "1966001",
+		change_bgm = "theme-sakuraholyplace",
+		id = 244,
+		pre_event = {
+			242,
+			243
+		},
+		lock = {
+			{
+				4,
+				243
+			}
+		}
+	},
+	[245] = {
+		story_type = 1,
+		name = "EP3-2をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP3-1をクリア",
+		change_background = "bg_amahara_3",
+		story = "QIWUYUTIANYUANZHISHANG15",
+		change_bgm = "battle-boss-ucnf",
+		id = 245,
+		pre_event = {
+			244
+		},
+		lock = {
+			{
+				4,
+				244
+			}
+		}
+	},
+	[246] = {
+		story_type = 1,
+		name = "EP3-3をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP3-2をクリア",
+		change_background = "star_level_bg_493",
+		story = "QIWUYUTIANYUANZHISHANG16",
+		change_bgm = "bgm-waterwave",
+		id = 246,
+		pre_event = {
+			245
+		},
+		lock = {
+			{
+				4,
+				245
+			}
+		}
+	},
+	[247] = {
+		story_type = 1,
+		name = "EP-？をクリア",
+		change_prefab = "",
+		unlock_conditions = "EP3-3をクリア",
+		change_background = "star_level_bg_493",
+		story = "QIWUYUTIANYUANZHISHANG17",
+		change_bgm = "bgm-waterwave",
+		id = 247,
+		pre_event = {
+			246
+		},
+		lock = {
+			{
+				4,
+				246
+			}
+		}
+	},
+	[248] = {
+		story_type = 99,
+		name = "9月19日メンテ後開放",
+		change_prefab = "juqing_heisewuqi",
+		unlock_conditions = "",
+		change_background = "",
+		story = "",
+		change_bgm = "",
+		id = 248,
+		pre_event = {
+			247
+		},
+		lock = {
+			{
+				4,
+				247
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4200,6 +4536,24 @@ pg.activity_sp_story = {
 		223,
 		224,
 		225,
-		226
+		226,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248
 	}
 }

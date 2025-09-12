@@ -16,6 +16,7 @@ slot0.WITH_SPINE = 6
 slot0.WITH_SPINE_PLUS = 7
 slot0.WITH_CHANGE = 8
 slot0.WITH_LIVE2D_PLUS = 9
+slot0.WITH_DOUBLE_VIOCE = 10
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
@@ -28,7 +29,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_SPINE] = "spine",
 			[uv0.WITH_SPINE_PLUS] = "spine_plus",
 			[uv0.WITH_CHANGE] = "change",
-			[uv0.WITH_LIVE2D_PLUS] = "live2d_plus"
+			[uv0.WITH_LIVE2D_PLUS] = "live2d_plus",
+			[uv0.WITH_DOUBLE_VIOCE] = "double_voice"
 		}
 	end
 
@@ -417,7 +419,7 @@ slot0.IsChangeSkin = function(slot0)
 		warning("skin not exist " .. slot0)
 	end
 
-	return table.contains(slot1.tag, uv0.WITH_CHANGE)
+	return table.contains(slot1.tag, uv0.WITH_CHANGE) or table.contains(slot1.tag, uv0.WITH_DOUBLE_VIOCE)
 end
 
 slot0.GetChangeSkinMainId = function(slot0)
@@ -470,6 +472,10 @@ end
 
 slot0.GetChangeSkinAction = function(slot0)
 	return uv0.GetChangeSkinData(slot0) and slot1.action or nil
+end
+
+slot0.GetChangeSkinCustomDataId = function(slot0, slot1)
+	return uv0.GetChangeSkinData(slot0) and slot2[slot1] or nil
 end
 
 slot0.GetStoreChangeSkinId = function(slot0, slot1)

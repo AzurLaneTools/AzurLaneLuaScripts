@@ -497,70 +497,73 @@ slot0.getNoticeBannerDisplays = function(slot0)
 	end)
 end
 
-slot0.findNextAutoActivity = function(slot0)
-	slot1 = nil
-	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
+slot0.findNextAutoActivity = function(slot0, slot1)
+	slot2 = nil
+	slot4 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot5 = slot1 and slot1 ~= "" and slot0:getCorePanelActivity(slot1) or slot0:getPanelActivities()
 
-	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
-		if not slot8.autoActionForbidden then
-			if slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) and slot8.data2 < slot3 then
-					slot1 = slot8
-
-					break
-				end
-			elseif slot9 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
-				slot10 = getProxy(ChapterProxy)
-
-				if slot8.data1 < 7 and not slot2:IsSameDay(slot3, slot8.data2) or slot8.data1 == 7 and not slot8.achieved and slot10:isClear(204) then
-					slot1 = slot8
+	for slot9, slot10 in ipairs(slot5) do
+		if not slot10.autoActionForbidden then
+			if slot10:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
+				if slot10:getConfig("config_client") and slot12.manulSign == true then
+					-- Nothing
+				elseif slot10.data1 < #pg.activity_7_day_sign[slot10:getConfig("config_id")].front_drops and not slot3:IsSameDay(slot4, slot10.data2) and slot10.data2 < slot4 then
+					slot2 = slot10
 
 					break
 				end
-			elseif slot9 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-				slot8:setSpecialData("reMonthSignDay", nil)
+			elseif slot11 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
+				slot12 = getProxy(ChapterProxy)
 
-				if pg.TimeMgr.GetInstance():STimeDescS(slot3, "*t").year ~= slot8.data1 or slot10.month ~= slot8.data2 then
-					slot8.data1 = slot10.year
-					slot8.data2 = slot10.month
-					slot8.data1_list = {}
-					slot1 = slot8
+				if slot10.data1 < 7 and not slot3:IsSameDay(slot4, slot10.data2) or slot10.data1 == 7 and not slot10.achieved and slot12:isClear(204) then
+					slot2 = slot10
 
 					break
-				elseif not table.contains(slot8.data1_list, slot10.day) then
-					slot1 = slot8
+				end
+			elseif slot11 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+				slot10:setSpecialData("reMonthSignDay", nil)
+
+				if pg.TimeMgr.GetInstance():STimeDescS(slot4, "*t").year ~= slot10.data1 or slot12.month ~= slot10.data2 then
+					slot10.data1 = slot12.year
+					slot10.data2 = slot12.month
+					slot10.data1_list = {}
+					slot2 = slot10
 
 					break
-				elseif slot10.day > #slot8.data1_list and slot8.data3 < pg.activity_month_sign[slot8.data2].resign_count then
-					for slot15 = slot10.day, 1, -1 do
-						if not table.contains(slot8.data1_list, slot15) then
-							slot8:setSpecialData("reMonthSignDay", slot15)
+				elseif not table.contains(slot10.data1_list, slot12.day) then
+					slot2 = slot10
+
+					break
+				elseif slot12.day > #slot10.data1_list and slot10.data3 < pg.activity_month_sign[slot10.data2].resign_count then
+					for slot17 = slot12.day, 1, -1 do
+						if not table.contains(slot10.data1_list, slot17) then
+							slot10:setSpecialData("reMonthSignDay", slot17)
 
 							break
 						end
 					end
 
-					slot1 = slot8
+					slot2 = slot10
 				end
-			elseif slot8.id == ActivityConst.SHADOW_PLAY_ID and slot8.clientData1 == 0 and (getProxy(TaskProxy):getTaskById(slot8:getConfig("config_data")[1]) or slot11:getFinishTaskById(slot10)) and not slot12:isReceive() then
-				slot1 = slot8
+			elseif slot10.id == ActivityConst.SHADOW_PLAY_ID and slot10.clientData1 == 0 and (getProxy(TaskProxy):getTaskById(slot10:getConfig("config_data")[1]) or slot13:getFinishTaskById(slot12)) and not slot14:isReceive() then
+				slot2 = slot10
 
 				break
 			end
 		end
 	end
 
-	if not slot1 then
-		for slot7, slot8 in pairs(slot0.data) do
-			if not slot8:isShow() and slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN and slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) and slot8.data2 < slot3 then
-				slot1 = slot8
+	if not slot2 then
+		for slot9, slot10 in pairs(slot0.data) do
+			if not slot10:isShow() and slot10:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN and slot10.data1 < #pg.activity_7_day_sign[slot10:getConfig("config_id")].front_drops and not slot3:IsSameDay(slot4, slot10.data2) and slot10.data2 < slot4 then
+				slot2 = slot10
 
 				break
 			end
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
 slot0.findRefluxAutoActivity = function(slot0)
@@ -750,7 +753,7 @@ slot0.removeVitemById = function(slot0, slot1, slot2)
 end
 
 slot0.addVitemById = function(slot0, slot1, slot2)
-	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) or slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA)
+	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) or slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA) or slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CITY_REBUILD)
 
 	assert(slot3, "vbagType invalid")
 

@@ -55,6 +55,21 @@ slot0.preload = function(slot0, slot1)
 			uv0:LoadCharacter({
 				uv0.contextData.groupId
 			}, slot0)
+		end,
+		function (slot0)
+			slot2 = GameObject.Find("AR/XR Origin/Camera Offset/Main Camera")
+
+			if GameObject.Find("FakeAR/Main Camera") then
+				originalPrint("Fix Fake AR Camera Data")
+				HotfixHelper.FixARCameraData(slot1)
+			end
+
+			if slot2 then
+				originalPrint("Fix True AR Camera Data")
+				HotfixHelper.FixARCameraData(slot2)
+			end
+
+			slot0()
 		end
 	}, slot1)
 end
@@ -289,12 +304,17 @@ slot0.SetARUIActive = function(slot0, slot1)
 end
 
 slot0.SetARUIActiveWhenInit = function(slot0, slot1)
-	setActive(slot0.resetBtn, slot1)
+	setActive(slot0.resetBtn, false)
 end
 
 slot0.ResetCharPos = function(slot0)
-	slot0.lady.localPosition = Vector3.zero
-	slot0.lady.localRotation = Vector3.zero
+	if slot0.ARCheck then
+		slot0.lady.localPosition = Vector3.zero
+		slot0.lady.localRotation = Vector3(0, 180, 0)
+	else
+		slot0.lady.localPosition = Vector3(0, 0, 2)
+		slot0.lady.localRotation = Vector3(0, 180, 0)
+	end
 end
 
 slot0.didEnter = function(slot0)
@@ -320,15 +340,15 @@ slot0.InitARPlane = function(slot0)
 	end
 
 	slot0:SetARUIActiveWhenInit(false)
+	SetActive(GameObject.Find("AR"), slot0.ARCheck)
+	SetActive(GameObject.Find("FakeAR"), not slot0.ARCheck)
 
 	if slot0.ARCheck then
 		originalPrint("AR CHECK SUCCESS, INIT AR")
-		setActive(slot0.snapShot, false)
 		slot0.aiHelperSC:Init()
 		slot0:emit(Dorm3dARMediator.INIT_AR_PLANE)
 	else
 		originalPrint("AR CHECK FAIL")
-		setActive(slot0.snapShot, true)
 		slot0:InitARFinish()
 		slot0:EnabledDrag()
 	end
@@ -346,7 +366,10 @@ slot0.Reset = function(slot0)
 	end
 
 	slot0:SetARUIActiveWhenInit(false)
-	slot0.aiHelperSC:ResetAll()
+
+	if slot0.ARCheck then
+		slot0.aiHelperSC:ResetAll()
+	end
 end
 
 slot0.InitARFinish = function(slot0)
@@ -368,11 +391,19 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.loader:Clear()
-	slot0.aiHelperSC:Destroy()
 
-	slot1, slot2 = unpack(string.split(uv0, "|"))
+	if slot0.ARCheck then
+		slot0.aiHelperSC:ResetAll()
+		slot0.aiHelperSC:Destroy()
+	end
 
-	SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. slot2 .. "/" .. slot1 .. "_scene"), slot1)
+	if GameObject.Find("Tpl(Clone)") then
+		Destroy(slot1)
+	end
+
+	slot2, slot3 = unpack(string.split(uv0, "|"))
+
+	SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. slot3 .. "/" .. slot2 .. "_scene"), slot2)
 
 	if slot0.luHandle then
 		LateUpdateBeat:RemoveListener(slot0.luHandle)
@@ -390,11 +421,11 @@ slot0.findUI = function(slot0)
 
 	setActive(slot0.tipsLabel, false)
 
-	slot0.snapShot = GameObject.Find("ARCanvas").transform
-	slot0.arCamera = GameObject.Find("Main Camera"):GetComponent("Camera")
+	slot0.fakeARCanvas = GameObject.Find("FakeAR/Main Camera/ARCanvas").transform
 
-	setActive(slot0.snapShot, false)
+	setSizeDelta(slot0.fakeARCanvas, Vector2(Screen.width, Screen.height))
 
+	slot0.fakeARCamera = GameObject.Find("FakeAR/Main Camera"):GetComponent("Camera")
 	slot0.drag = slot0:findTF("drag")
 	slot0.aiHelperSC = GetComponent(GameObject.Find("ARScriptHandle"), "ARHelper")
 	slot0.aiHelperSC.tplPrefab = GameObject.Find("Tpl")
@@ -410,12 +441,11 @@ slot0.addListener = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.aiHelperSC.planeCountCB = function(slot0, slot1)
-		setActive(uv0.tipsLabel, true)
-		uv0.aiHelperSC:ShowAllPlane(true)
-
 		if not (slot0 > 0) then
+			setActive(uv0.tipsLabel, true)
 			setText(uv0.tipsText, i18n("AR_plane_check"))
 		elseif not slot1 then
+			setActive(uv0.tipsLabel, true)
 			setText(uv0.tipsText, i18n("AR_plane_long_press_to_summon"))
 		elseif uv0._initState then
 			uv0:InitARFinish()
@@ -443,7 +473,7 @@ slot0.addListener = function(slot0)
 	end
 
 	slot0.aiHelperSC.insPrefabSuccCB = function()
-		uv0.aiHelperSC:ShowAllPlane(false)
+		setActive(uv0.tipsLabel, false)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("AR_plane_summon_success"))
 		uv0.aiHelperSC:StopPlaneCheck()
 	end
@@ -459,9 +489,13 @@ slot0.EnabledDrag = function(slot0)
 	slot0.halfWidth = slot2 / 2
 	slot0.halfHeight = slot3 / 2
 	slot0.isEnableDrag = true
+	slot4 = slot0.drag.gameObject
+
+	GetOrAddComponent(slot4, typeof(Button))
+
 	slot0.zoom = GetOrAddComponent(slot0._tf, typeof(PinchZoom))
 	slot0.zoom.enabled = true
-	slot5 = GetOrAddComponent(slot0.drag.gameObject, typeof(EventTriggerListener))
+	slot5 = GetOrAddComponent(slot4, typeof(EventTriggerListener))
 	slot6 = Vector3(0, 0, 0)
 
 	slot5:AddBeginDragFunc(function (slot0, slot1)
@@ -504,8 +538,8 @@ slot0.EnabledDrag = function(slot0)
 
 	slot5.enabled = true
 	Input.multiTouchEnabled = true
-	slot0.arCamera.orthographicSize = 8
-	slot0.arCamera.orthographic = true
+	slot0.fakeARCamera.orthographicSize = 8
+	slot0.fakeARCamera.orthographic = true
 	slot0.luHandle = LateUpdateBeat:CreateListener(function ()
 		if uv0.zoom.processing then
 			slot0 = uv0.drag.localScale.x

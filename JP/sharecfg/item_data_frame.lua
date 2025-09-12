@@ -81,6 +81,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>7thアニバーサリーは指揮官とともにーー</color>\n7周年記念イベント二参加した指揮官に贈る",
 		scene = {}
 	},
+	[110] = {
+		name = "八周年記念",
+		gain_by = "",
+		time_second = 0,
+		id = 110,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Eighth　Anniversary！</color>\n　八周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		gain_by = "",
@@ -506,11 +515,11 @@ pg.item_data_frame = {
 	},
 	[336] = {
 		name = "鳳鳴アマハラ",
-		gain_by = "",
+		gain_by = "アマハラに舞い奉れ",
 		time_second = 0,
 		id = 336,
 		time_limit_type = 0,
-		desc = "今後開催されるイベントで入手可能",
+		desc = "<color=#ffffff>「天域に初訪し鳳鳴く。その姿翩翩なりしアマハラに響く」</color>\n「アマハラに舞い奉れ」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -874,6 +883,7 @@ pg.item_data_frame = {
 		107,
 		108,
 		109,
+		110,
 		201,
 		202,
 		203,
