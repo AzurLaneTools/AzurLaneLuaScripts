@@ -47,7 +47,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.unlockBuildingOrCharaIds = Clone(uv3[1].include)
 
-	slot0:TryUpgradeCityLevel(false)
+	slot0:TryUpgradeCityLevel(true)
 
 	slot0.Levelbuildings = {}
 	slot0.Levelcharas = {}

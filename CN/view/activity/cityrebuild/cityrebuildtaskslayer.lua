@@ -33,8 +33,13 @@ end
 slot0.ShouldShowTip = function()
 	slot1 = getProxy(TaskProxy)
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.NINJA_CITY_SP_TASK)
+	slot3 = slot2:getConfig("config_data")
 
-	for slot8 = 1, #slot2:getConfig("config_data")[slot2.data3] do
+	if slot2.data3 then
+		return falses
+	end
+
+	for slot8 = 1, #slot3[slot4] do
 		if slot1:getTaskVO(slot3[slot4][slot8]):getTaskStatus() == 1 then
 			return true
 		end

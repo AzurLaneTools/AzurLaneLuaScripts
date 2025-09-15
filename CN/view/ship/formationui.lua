@@ -626,7 +626,7 @@ slot0.displayAttrFrame = function(slot0)
 	slot1 = slot0._blurLayer:GetComponent(typeof(AspectRatioFitter))
 	slot1.enabled = true
 	slot1.aspectMode = AspectMode.FitInParent
-	slot1.aspectRatio = slot0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio
+	slot1.aspectRatio = slot0._tf.parent:GetComponent(typeof(AspectRatioFitter)).aspectRatio
 
 	SetActive(slot0._attrFrame, true)
 	slot0:initAttrFrame()
