@@ -37850,11 +37850,13 @@ pg.activity_template = {
 					7,
 					"Complete Event",
 					{
-						24331,
-						24332,
-						24333,
-						24334,
-						24335
+						24430,
+						24432,
+						24434,
+						24436,
+						24438,
+						24440,
+						24442
 					},
 					"city rebuild map"
 				},
@@ -37862,7 +37864,7 @@ pg.activity_template = {
 					6,
 					"Event Exchange",
 					{
-						3164
+						3165
 					}
 				}
 			},

@@ -12230,8 +12230,7 @@ pg.base.ship_skin_template_10 = {
 			action = "changeBlack",
 			next = 317022,
 			state = 4,
-			index = 1,
-			hide_shop = 1
+			index = 1
 		},
 		live2d_offset = {
 			0,
@@ -12407,8 +12406,7 @@ pg.base.ship_skin_template_10 = {
 			action = "changeBlack",
 			next = 317021,
 			state = 4,
-			index = 2,
-			hide_shop = 1
+			index = 2
 		},
 		live2d_offset = {
 			0,

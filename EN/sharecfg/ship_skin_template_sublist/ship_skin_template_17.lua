@@ -10726,7 +10726,7 @@ pg.base.ship_skin_template_17 = {
 	},
 	[900433] = {
 		name = "Cheshire",
-		change_skin = "",
+		change_skin = "chaijun_5",
 		desc = "No description",
 		illustrator2 = -1,
 		ship_group = 900433,
@@ -10962,7 +10962,7 @@ pg.base.ship_skin_template_17 = {
 	},
 	[900435] = {
 		name = "Prinz Adalbert",
-		change_skin = "",
+		change_skin = "adaerbote_3",
 		desc = "No description",
 		illustrator2 = -1,
 		ship_group = 900435,

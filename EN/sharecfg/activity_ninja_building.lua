@@ -388,14 +388,14 @@ pg.activity_ninja_building = {
 		},
 		story = {
 			"JIZHANRENZHEZHICHENG12",
-			"qicon/molisen_2",
+			"qicon/molisen_3",
 			{
 				-7.3845,
 				54.3171
 			},
 			"Repair Inner Citadel Bridge to Unlock",
 			"A Spectacular Ninjutsu Failure",
-			"shipyardicon/molisen_2"
+			"shipyardicon/molisen_3"
 		},
 		handbook_pic = {
 			"ninjacityicon/icon_sanyumenwaiqiaoliang_b",

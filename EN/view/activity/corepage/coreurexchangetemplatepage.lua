@@ -208,15 +208,21 @@ slot0.taskTypeDic = {
 		end
 
 		slot4 = #slot1
-		slot5 = 0
+		slot5 = getProxy(TaskProxy)
 
-		for slot9, slot10 in ipairs(slot1) do
-			if uv0.CheckSingleTask(slot10) == 2 then
-				slot5 = slot5 + 1
+		while slot4 > 0 do
+			if slot5:getTaskById(slot1[slot4]) or slot5:getFinishTaskById(slot6) then
+				if slot7:getTaskStatus() ~= 2 then
+					slot4 = slot4 - 1
+				end
+
+				break
 			end
+
+			slot4 = slot4 - 1
 		end
 
-		return slot5 .. "/" .. slot4, slot3
+		return slot4 .. "/" .. #slot1, slot3
 	end
 }
 
