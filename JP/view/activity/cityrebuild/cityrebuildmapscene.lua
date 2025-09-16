@@ -83,7 +83,7 @@ slot0.Refresh = function(slot0)
 		id = slot2[2],
 		count = slot2[3]
 	})
-	setActive(slot0.award:Find("got"), slot1:isFinish())
+	setActive(slot0.award:Find("got"), slot1:isReceive())
 
 	slot8 = function()
 		uv0:emit(BaseUI.ON_DROP, uv1)

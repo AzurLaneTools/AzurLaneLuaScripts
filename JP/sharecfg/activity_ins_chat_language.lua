@@ -56976,7 +56976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0,
 		option = {
 			{
-				2,
+				3,
 				"初心者でも大丈夫？"
 			}
 		}
@@ -57037,7 +57037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3,
 		option = {
 			{
-				3,
+				4,
 				"それは良さそうだ"
 			}
 		}
