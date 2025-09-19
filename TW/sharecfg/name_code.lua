@@ -1855,6 +1855,55 @@ pg.name_code = {
 		code = "鳝",
 		nation = 0
 	},
+	[302] = {
+		name = "白鳳",
+		type = 1,
+		id = 302,
+		code = "䳆",
+		nation = 0
+	},
+	[303] = {
+		name = "伊404",
+		type = 1,
+		id = 303,
+		code = "詩玲寺",
+		nation = 0
+	},
+	[304] = {
+		name = "近江",
+		type = 1,
+		id = 304,
+		code = "鱂",
+		nation = 0
+	},
+	[305] = {
+		name = "淺間",
+		type = 1,
+		id = 305,
+		code = "猏",
+		nation = 0
+	},
+	[306] = {
+		name = "水無瀨",
+		type = 1,
+		id = 306,
+		code = "鼯",
+		nation = 0
+	},
+	[307] = {
+		name = "妙風",
+		type = 1,
+		id = 307,
+		code = "杪",
+		nation = 0
+	},
+	[308] = {
+		name = "潛特型",
+		type = 1,
+		id = 308,
+		code = "ST型",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

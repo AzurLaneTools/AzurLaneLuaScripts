@@ -36,18 +36,24 @@ slot1.spawnArea = function(slot0, slot1)
 	slot4 = slot2.attach_buff[1]
 	slot5 = slot4.buff_id
 	slot6 = slot4.buff_level or 1
-	time = slot3.time
-	slot9 = slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, time, function (slot0)
+
+	slot7 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then
 				uv0._battleProxy:GetUnitList()[slot5.UID]:AddBuff(uv1.Battle.BattleBuffUnit.New(uv2, uv3), true)
 			end
 		end
-	end, function (slot0)
+	end
+
+	slot8 = function(slot0)
 		if slot0.Active then
 			uv0._battleProxy:GetUnitList()[slot0.UID]:RemoveBuff(uv1, true)
 		end
-	end, slot4.friendly, slot4.effect_id)
+	end
+
+	time = slot3.time
+	slot9 = nil
+	slot9 = (not slot2.extra_param.ellipse_range or slot0._battleProxy:SpawnLastingEllipseArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, slot2.extra_param.ellipse_range, time, slot7, slot8, slot4.friendly, slot4.effect_id)) and slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot3.range, time, slot7, slot8, slot4.friendly, slot4.effect_id)
 
 	if slot1 then
 		slot0._flare = slot9

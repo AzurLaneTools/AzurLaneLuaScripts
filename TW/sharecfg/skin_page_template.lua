@@ -150,6 +150,12 @@ pg.skin_page_template = {
 		res = "menghuanleyuan",
 		english_name = "Dreamland Park "
 	},
+	[28] = {
+		id = 28,
+		name = "忍者之城",
+		res = "renzhezhicheng",
+		english_name = "Ninja Castle"
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -194,6 +200,7 @@ pg.skin_page_template = {
 		24,
 		25,
 		26,
+		28,
 		9997,
 		9998,
 		9999

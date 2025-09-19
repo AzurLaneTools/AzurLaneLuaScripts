@@ -33,7 +33,7 @@ slot0.init = function(slot0)
 	slot0.filterEquipWaitting = 0
 	slot1 = slot0.contextData
 	slot0.topItems = slot0:findTF("topItems")
-	slot0.equipmentView = slot0:findTF("equipment_scrollview")
+	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview")
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
@@ -47,7 +47,7 @@ slot0.init = function(slot0)
 	setActive(slot0.sortTpl, false)
 
 	slot0.equipSkinFilteBtn = slot0:findTF("buttons/EquipSkinFilteBtn", slot0.topPanel)
-	slot0.itemView = slot0:findTF("item_scrollview")
+	slot0.itemView = slot0:findTF("adapt/item_scrollview")
 	slot2 = nil
 	slot2 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
 	slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot2 and 8 or 7
@@ -107,7 +107,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.selectTransformPanel, false)
 
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.listEmptyTF = slot0:findTF("adapt/empty")
 
 	setActive(slot0.listEmptyTF, false)
 
@@ -520,6 +520,7 @@ slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})
+	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})

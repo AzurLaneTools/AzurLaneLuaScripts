@@ -6759,7 +6759,79 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_583_1_1",
 		"op_reply_583_1_1",
 		"ins_op_583_1_2",
-		"op_reply_583_1_2"
+		"op_reply_583_1_2",
+		"ins_584",
+		"ins_discuss_584_1",
+		"ins_reply_584_1_1",
+		"ins_discuss_584_2",
+		"ins_reply_584_2_1",
+		"ins_reply_584_2_2",
+		"ins_reply_584_2_3",
+		"ins_reply_584_2_4",
+		"ins_op_584_1_1",
+		"op_reply_584_1_1",
+		"ins_op_584_1_2",
+		"op_reply_584_1_2",
+		"ins_585",
+		"ins_discuss_585_1",
+		"ins_reply_585_1_1",
+		"ins_discuss_585_2",
+		"ins_reply_585_2_1",
+		"ins_reply_585_2_2",
+		"ins_op_585_1_1",
+		"op_reply_585_1_1",
+		"ins_op_585_1_2",
+		"op_reply_585_1_2",
+		"ins_586",
+		"ins_discuss_586_1",
+		"ins_reply_586_1_1",
+		"ins_discuss_586_2",
+		"ins_reply_586_2_1",
+		"ins_reply_586_2_2",
+		"ins_discuss_586_3",
+		"ins_reply_586_3_1",
+		"ins_reply_586_3_2",
+		"ins_op_586_1_1",
+		"op_reply_586_1_1",
+		"ins_op_586_1_2",
+		"op_reply_586_1_2",
+		"ins_587",
+		"ins_discuss_587_1",
+		"ins_reply_587_1_1",
+		"ins_reply_587_1_2",
+		"ins_reply_587_1_3",
+		"ins_discuss_587_2",
+		"ins_reply_587_2_1",
+		"ins_reply_587_2_2",
+		"ins_reply_587_2_3",
+		"ins_reply_587_2_4",
+		"ins_op_587_1_1",
+		"op_reply_587_1_1",
+		"ins_op_587_1_2",
+		"op_reply_587_1_2",
+		"ins_588",
+		"ins_discuss_588_1",
+		"ins_reply_588_1_1",
+		"ins_reply_588_1_2",
+		"ins_discuss_588_2",
+		"ins_reply_588_2_1",
+		"ins_reply_588_2_2",
+		"ins_op_588_1_1",
+		"op_reply_588_1_1",
+		"ins_op_588_1_2",
+		"op_reply_588_1_2",
+		"ins_589",
+		"ins_discuss_589_1",
+		"ins_reply_589_1_1",
+		"ins_reply_589_1_2",
+		"ins_reply_589_1_3",
+		"ins_discuss_589_2",
+		"ins_reply_589_2_1",
+		"ins_reply_589_2_2",
+		"ins_op_589_1_1",
+		"op_reply_589_1_1",
+		"ins_op_589_1_2",
+		"op_reply_589_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26808,234 +26880,450 @@ pg.base.activity_ins_language = {
 		value = "欸？那，太開心了……"
 	},
 	ins_578 = {
-		value = ""
+		value = "到了豐收的季節……嗎？"
 	},
 	ins_discuss_578_1 = {
-		value = ""
+		value = "什麼也不做，就能有東西吃……真好"
 	},
 	ins_reply_578_1_1 = {
-		value = ""
+		value = "不知道為什麼，樹下面總是能找到好吃的呢"
 	},
 	ins_reply_578_1_2 = {
-		value = ""
+		value = "嗚嗚嗚，都是騙人的……我在樹下躺了一天，根本沒有好吃的……"
 	},
 	ins_discuss_578_2 = {
-		value = ""
+		value = "走到哪裡都有東西吃……不如跟我一起去荒野探險吧？"
 	},
 	ins_reply_578_2_1 = {
-		value = ""
+		value = "可是，去探險的話，就吃不到美味的蛋糕了……"
 	},
 	ins_reply_578_2_2 = {
-		value = ""
+		value = "還有那種可以掉出好多好多飲料的自動販賣機……野外也沒有"
 	},
 	ins_reply_578_2_3 = {
-		value = ""
+		value = "能掉出還多好多飲料的自動販賣機？@akashi_TUUHAN"
 	},
 	ins_reply_578_2_4 = {
-		value = ""
+		value = "喵？好像哪裡不太對喵……？"
 	},
 	ins_op_578_1_1 = {
-		value = ""
+		value = "帶上好吃的，一起去露營吧"
 	},
 	op_reply_578_1_1 = {
-		value = ""
+		value = "好啊~多的蘋果，就分給指揮官你了"
 	},
 	ins_op_578_1_2 = {
-		value = ""
+		value = "被蘋果砸到之後有想到什麼嗎？"
 	},
 	op_reply_578_1_2 = {
-		value = ""
+		value = "想吃蘋果派了~"
 	},
 	ins_579 = {
-		value = ""
+		value = "指揮官這個月的睡眠數據……堪憂"
 	},
 	ins_discuss_579_1 = {
-		value = ""
+		value = "好擔心指揮官的身體狀況……"
 	},
 	ins_reply_579_1_1 = {
-		value = ""
+		value = "指揮官亟需更清楚的健康指南，要加班做規劃了"
 	},
 	ins_reply_579_1_2 = {
-		value = ""
+		value = "一起去大冒險吧！"
 	},
 	ins_discuss_579_2 = {
-		value = ""
+		value = "我建議設立一個指揮官無工作月，誰支持誰反對！"
 	},
 	ins_reply_579_2_1 = {
-		value = ""
+		value = "原則上支持，但是累積下來的工作該怎麼辦？"
 	},
 	ins_reply_579_2_2 = {
-		value = ""
+		value = "可以由秘書組協商解決？"
 	},
 	ins_reply_579_2_3 = {
-		value = ""
+		value = "總覺得哪裡有點不太對……"
 	},
 	ins_reply_579_2_4 = {
-		value = ""
+		value = "我支持！我支持！我支持！！"
 	},
 	ins_op_579_1_1 = {
-		value = ""
+		value = "還要看同期增長跟年增率呢！"
 	},
 	op_reply_579_1_1 = {
-		value = ""
+		value = "看完了，更糟糕了。指揮官，你需要立刻去休息！"
 	},
 	ins_op_579_1_2 = {
-		value = ""
+		value = "我正在嘗試彈性睡眠制"
 	},
 	op_reply_579_1_2 = {
-		value = ""
+		value = "只有加班沒有補覺，到底彈性在哪裡？"
 	},
 	ins_580 = {
-		value = ""
+		value = "礦泉水的瓶蓋，人家完全轉不開呢……"
 	},
 	ins_discuss_580_1 = {
-		value = ""
+		value = "{namecode:97}也打不開瓶蓋呢~一定要有指揮官幫忙才行~"
 	},
 	ins_reply_580_1_1 = {
-		value = ""
+		value = "體力，耗盡了……一個人喝水，真的很難……"
 	},
 	ins_reply_580_1_2 = {
-		value = ""
+		value = "打不開瓶蓋嗎？沒關係，這裡{namecode:98}向大家推薦一台全自動開瓶蓋機！"
 	},
 	ins_reply_580_1_3 = {
-		value = ""
+		value = "{namecode:98}，妳有點多嘴了"
 	},
 	ins_discuss_580_2 = {
-		value = ""
+		value = "那真是糟糕了呢，大膽妹妹，我來幫妳開吧"
 	},
 	ins_reply_580_2_1 = {
-		value = ""
+		value = "欸，謝謝妳，但是這個瓶蓋真的很難開啦，可能還是要指揮官來……"
 	},
 	ins_reply_580_2_2 = {
-		value = ""
+		value = "沒關係，我帶了{namecode:98}的全自動開瓶蓋機，一定能打開的！"
 	},
 	ins_reply_580_2_3 = {
-		value = ""
+		value = "欸，那謝謝啦……"
 	},
 	ins_op_580_1_1 = {
-		value = ""
+		value = "扭瓶蓋我還挺在行的"
 	},
 	op_reply_580_1_1 = {
-		value = ""
+		value = "嘿嘿，指揮官果然不會對柔弱的人家不管不顧呢~"
 	},
 	ins_op_580_1_2 = {
-		value = ""
+		value = "不如試試用飲水機？"
 	},
 	op_reply_580_1_2 = {
-		value = ""
+		value = "親自接水……？柔弱的人家，做不到呢~"
 	},
 	ins_581 = {
-		value = ""
+		value = "出發去旅行！"
 	},
 	ins_discuss_581_1 = {
-		value = ""
+		value = "目的地是？"
 	},
 	ins_reply_581_1_1 = {
-		value = ""
+		value = "果汁與可樂無限暢飲之地"
 	},
 	ins_reply_581_1_2 = {
-		value = ""
+		value = "聽起來是夢裡的場景啊！"
 	},
 	ins_reply_581_1_3 = {
-		value = ""
+		value = "那不是跟港區沒區別嘛……"
 	},
 	ins_discuss_581_2 = {
-		value = ""
+		value = "正好我也在做下一次探險的準備，一起出發吧"
 	},
 	ins_reply_581_2_1 = {
-		value = ""
+		value = "也讓我加入吧，如果順路的話可以一起體驗縱馬馳騁的快樂"
 	},
 	ins_reply_581_2_2 = {
-		value = ""
+		value = "好啊，一起出發吧"
 	},
 	ins_reply_581_2_3 = {
-		value = ""
+		value = "一起去大冒險吧！"
 	},
 	ins_op_581_1_1 = {
-		value = ""
+		value = "距離下班還有1分鐘！"
 	},
 	op_reply_581_1_1 = {
-		value = ""
+		value = "已經迫不及待了！"
 	},
 	ins_op_581_1_2 = {
-		value = ""
+		value = "人在工位……"
 	},
 	op_reply_581_1_2 = {
-		value = ""
+		value = "心在遠方！"
 	},
 	ins_582 = {
-		value = ""
+		value = "不潔之物太多了~"
 	},
 	ins_discuss_582_1 = {
-		value = ""
+		value = "不潔之物，看起來好好吃……"
 	},
 	ins_reply_582_1_1 = {
-		value = ""
+		value = "不可以吃哦，要全部交給修女保管才行~"
 	},
 	ins_reply_582_1_2 = {
-		value = ""
+		value = "的確，受詛咒的物品必須妥善處置……"
 	},
 	ins_discuss_582_2 = {
-		value = ""
+		value = "為什麼會有這麼多的不潔之物……真令人擔心"
 	},
 	ins_reply_582_2_1 = {
-		value = ""
+		value = "小賣部因為詛咒苦惱已久，所以找我破財消災~"
 	},
 	ins_reply_582_2_2 = {
-		value = ""
+		value = "感謝支持清倉大甩賣喵，謝謝惠顧喵~"
 	},
 	ins_op_582_1_1 = {
-		value = ""
+		value = "是要帶去淨化……？"
 	},
 	op_reply_582_1_1 = {
-		value = ""
+		value = "沒錯哦~指揮官也乖乖把東西都交出來吧~"
 	},
 	ins_op_582_1_2 = {
-		value = ""
+		value = "看上去好有趣！"
 	},
 	op_reply_582_1_2 = {
-		value = ""
+		value = "那下次帶你一起去~"
 	},
 	ins_583 = {
-		value = ""
+		value = "新裝備的保養，必須小心小心再小心……"
 	},
 	ins_discuss_583_1 = {
-		value = ""
+		value = "不錯，艾塞克斯沒有因為變強而懈怠呢"
 	},
 	ins_reply_583_1_1 = {
-		value = ""
+		value = "謝謝前輩的關心，艾塞克斯必須表現得更好才行！"
 	},
 	ins_discuss_583_2 = {
-		value = ""
+		value = "看得好緊張，差點忘了呼吸"
 	},
 	ins_reply_583_2_1 = {
-		value = ""
+		value = "根據數據分析，屏息時能夠減緩46.75%的手部晃動"
 	},
 	ins_reply_583_2_2 = {
-		value = ""
+		value = "試了一下……腦袋暈暈的……"
 	},
 	ins_discuss_583_3 = {
-		value = ""
+		value = "關於裝備保養，我可是有超專業的方案喲~"
 	},
 	ins_reply_583_3_1 = {
-		value = ""
+		value = "可以跟我講講嗎？我很需要這個！"
 	},
 	ins_reply_583_3_2 = {
-		value = ""
+		value = "只需要委託給我操作就好了！還能順帶幫妳加裝強力的爆破功能喲！"
 	},
 	ins_reply_583_3_3 = {
-		value = ""
+		value = "聽起來，好像真的很強……？"
 	},
 	ins_op_583_1_1 = {
-		value = ""
+		value = "加油！強力的艾塞克斯！"
 	},
 	op_reply_583_1_1 = {
-		value = ""
+		value = "改造後的艾塞克斯，一定不會辜負指揮官的期待！"
 	},
 	ins_op_583_1_2 = {
-		value = ""
+		value = "武器，已經亮到發光了吧？"
 	},
 	op_reply_583_1_2 = {
+		value = "還遠遠不夠呢，裝備必須要調整到最佳狀態才行！"
+	},
+	ins_584 = {
+		value = ""
+	},
+	ins_discuss_584_1 = {
+		value = ""
+	},
+	ins_reply_584_1_1 = {
+		value = ""
+	},
+	ins_discuss_584_2 = {
+		value = ""
+	},
+	ins_reply_584_2_1 = {
+		value = ""
+	},
+	ins_reply_584_2_2 = {
+		value = ""
+	},
+	ins_reply_584_2_3 = {
+		value = ""
+	},
+	ins_reply_584_2_4 = {
+		value = ""
+	},
+	ins_op_584_1_1 = {
+		value = ""
+	},
+	op_reply_584_1_1 = {
+		value = ""
+	},
+	ins_op_584_1_2 = {
+		value = ""
+	},
+	op_reply_584_1_2 = {
+		value = ""
+	},
+	ins_585 = {
+		value = ""
+	},
+	ins_discuss_585_1 = {
+		value = ""
+	},
+	ins_reply_585_1_1 = {
+		value = ""
+	},
+	ins_discuss_585_2 = {
+		value = ""
+	},
+	ins_reply_585_2_1 = {
+		value = ""
+	},
+	ins_reply_585_2_2 = {
+		value = ""
+	},
+	ins_op_585_1_1 = {
+		value = ""
+	},
+	op_reply_585_1_1 = {
+		value = ""
+	},
+	ins_op_585_1_2 = {
+		value = ""
+	},
+	op_reply_585_1_2 = {
+		value = ""
+	},
+	ins_586 = {
+		value = ""
+	},
+	ins_discuss_586_1 = {
+		value = ""
+	},
+	ins_reply_586_1_1 = {
+		value = ""
+	},
+	ins_discuss_586_2 = {
+		value = ""
+	},
+	ins_reply_586_2_1 = {
+		value = ""
+	},
+	ins_reply_586_2_2 = {
+		value = ""
+	},
+	ins_discuss_586_3 = {
+		value = ""
+	},
+	ins_reply_586_3_1 = {
+		value = ""
+	},
+	ins_reply_586_3_2 = {
+		value = ""
+	},
+	ins_op_586_1_1 = {
+		value = ""
+	},
+	op_reply_586_1_1 = {
+		value = ""
+	},
+	ins_op_586_1_2 = {
+		value = ""
+	},
+	op_reply_586_1_2 = {
+		value = ""
+	},
+	ins_587 = {
+		value = ""
+	},
+	ins_discuss_587_1 = {
+		value = ""
+	},
+	ins_reply_587_1_1 = {
+		value = ""
+	},
+	ins_reply_587_1_2 = {
+		value = ""
+	},
+	ins_reply_587_1_3 = {
+		value = ""
+	},
+	ins_discuss_587_2 = {
+		value = ""
+	},
+	ins_reply_587_2_1 = {
+		value = ""
+	},
+	ins_reply_587_2_2 = {
+		value = ""
+	},
+	ins_reply_587_2_3 = {
+		value = ""
+	},
+	ins_reply_587_2_4 = {
+		value = ""
+	},
+	ins_op_587_1_1 = {
+		value = ""
+	},
+	op_reply_587_1_1 = {
+		value = ""
+	},
+	ins_op_587_1_2 = {
+		value = ""
+	},
+	op_reply_587_1_2 = {
+		value = ""
+	},
+	ins_588 = {
+		value = ""
+	},
+	ins_discuss_588_1 = {
+		value = ""
+	},
+	ins_reply_588_1_1 = {
+		value = ""
+	},
+	ins_reply_588_1_2 = {
+		value = ""
+	},
+	ins_discuss_588_2 = {
+		value = ""
+	},
+	ins_reply_588_2_1 = {
+		value = ""
+	},
+	ins_reply_588_2_2 = {
+		value = ""
+	},
+	ins_op_588_1_1 = {
+		value = ""
+	},
+	op_reply_588_1_1 = {
+		value = ""
+	},
+	ins_op_588_1_2 = {
+		value = ""
+	},
+	op_reply_588_1_2 = {
+		value = ""
+	},
+	ins_589 = {
+		value = ""
+	},
+	ins_discuss_589_1 = {
+		value = ""
+	},
+	ins_reply_589_1_1 = {
+		value = ""
+	},
+	ins_reply_589_1_2 = {
+		value = ""
+	},
+	ins_reply_589_1_3 = {
+		value = ""
+	},
+	ins_discuss_589_2 = {
+		value = ""
+	},
+	ins_reply_589_2_1 = {
+		value = ""
+	},
+	ins_reply_589_2_2 = {
+		value = ""
+	},
+	ins_op_589_1_1 = {
+		value = ""
+	},
+	op_reply_589_1_1 = {
+		value = ""
+	},
+	ins_op_589_1_2 = {
+		value = ""
+	},
+	op_reply_589_1_2 = {
 		value = ""
 	}
 }

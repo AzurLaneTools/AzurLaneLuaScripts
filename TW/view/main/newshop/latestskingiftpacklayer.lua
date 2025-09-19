@@ -267,18 +267,19 @@ slot0.confirm = function(slot0, slot1)
 end
 
 slot0.StartTimer = function(slot0, slot1)
-	slot0.timer = Timer.New(function ()
+	slot0.cardTimer = Timer.New(function ()
 		uv0()
 	end, 1, -1)
 
-	slot0.timer:Start()
+	slot1()
+	slot0.cardTimer:Start()
 end
 
 slot0.RemoveAllTimer = function(slot0)
-	if slot0.timer then
-		slot0.timer:Stop()
+	if slot0.cardTimer then
+		slot0.cardTimer:Stop()
 
-		slot0.timer = nil
+		slot0.cardTimer = nil
 	end
 end
 

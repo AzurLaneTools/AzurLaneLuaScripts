@@ -106,6 +106,7 @@ slot0.InitUI = function(slot0)
 	setText(slot0.autoFightToggle:Find("Text"), i18n("autofight"))
 
 	slot0.delayTween = {}
+	slot0.doEaseIn = true
 end
 
 slot1 = 525
@@ -345,15 +346,17 @@ slot0.set = function(slot0, slot1, slot2)
 		triggerToggle(slot0.toggleQuickPlay, PlayerPrefs.GetInt("chapter_quickPlay_flag_" .. slot3.id, 1) == 1)
 	end
 
-	slot13 = slot0:findTF("panel")
-	slot13.transform.localPosition = slot0.posStart
+	if slot0.doEaseIn then
+		slot13 = slot0:findTF("panel")
+		slot13.transform.localPosition = slot0.posStart
 
-	table.insert(slot0.delayTween, LeanTween.move(slot13, Vector3.zero, 0.2).uniqueId)
+		table.insert(slot0.delayTween, LeanTween.move(slot13, Vector3.zero, 0.2).uniqueId)
 
-	slot13.localScale = Vector3.zero
+		slot13.localScale = Vector3.zero
 
-	table.insert(slot0.delayTween, LeanTween.scale(slot13, Vector3(1, 1, 1), 0.2).uniqueId)
-	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
+		table.insert(slot0.delayTween, LeanTween.scale(slot13, Vector3(1, 1, 1), 0.2).uniqueId)
+		table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
+	end
 end
 
 slot0.cancelTween = function(slot0)

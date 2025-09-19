@@ -74,8 +74,13 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.InitData = function(slot0)
-	slot1 = getProxy(ShipSkinProxy)
-	slot0.skins = slot1:GetOwnSkins()
+	slot0.skins = getProxy(ShipSkinProxy):GetOwnSkins()
+
+	for slot4 = #slot0.skins, 1, -1 do
+		if ShipSkin.GetChangeSkinIndex(slot0.skins[slot4].id) and slot6 ~= 1 then
+			table.remove(slot0.skins, slot4)
+		end
+	end
 
 	slot0:GetSkinClassify()
 
@@ -151,9 +156,12 @@ end
 
 slot0.RegisterIndex = function(slot0, slot1)
 	slot0.indexDic[slot1] = true
-	slot0.groupDic[slot2] = slot0.groupDic[slot0.scrollShowClassifyIds[slot1]] or {}
 
-	table.insert(slot0.groupDic[slot2], slot1)
+	if slot0.scrollShowClassifyIds[slot1] then
+		slot0.groupDic[slot2] = slot0.groupDic[slot2] or {}
+
+		table.insert(slot0.groupDic[slot2], slot1)
+	end
 end
 
 slot0.ChangeClassifyName = function(slot0, slot1)
@@ -235,23 +243,25 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	table.insert(slot6, slot1)
 	slot0:ChangeClassifyName(slot6)
 
-	slot7 = UIItemList.New(tf(slot2):Find("skins"), tf(slot2):Find("skins/SkinAtlasCard"))
+	if slot3 then
+		slot7 = UIItemList.New(tf(slot2):Find("skins"), tf(slot2):Find("skins/SkinAtlasCard"))
 
-	slot7:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot4 = SkinAtlasCard.New(slot2)
+		slot7:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				slot4 = SkinAtlasCard.New(slot2)
 
-			table.insert(uv1.cards, slot4)
-			slot4:Update(uv0[slot1 + 1], slot1 + 1)
-			onButton(uv1, slot2, function ()
-				uv0:ClickTrigger(uv1, uv2)
-			end, SFX_PANEL)
-			onButton(uv1, slot4.changeSkinUI, function ()
-				uv0:changeSkinNext()
-			end, SFX_PANEL)
-		end
-	end)
-	slot7:align(#slot3)
+				table.insert(uv1.cards, slot4)
+				slot4:Update(uv0[slot1 + 1], slot1 + 1)
+				onButton(uv1, slot2, function ()
+					uv0:ClickTrigger(uv1, uv2)
+				end, SFX_PANEL)
+				onButton(uv1, slot4.changeSkinUI, function ()
+					uv0:changeSkinNext()
+				end, SFX_PANEL)
+			end
+		end)
+		slot7:align(#slot3)
+	end
 end
 
 slot0.OnReturnItem = function(slot0, slot1, slot2)

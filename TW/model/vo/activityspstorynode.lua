@@ -5,6 +5,7 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.NODE_TYPE = {
+	UNRELEASED = 99,
 	STORY = 1,
 	BATTLE = 2
 }

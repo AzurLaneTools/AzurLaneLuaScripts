@@ -516,6 +516,17 @@ pg.transform_data_template = setmetatable({
 		15510,
 		15511,
 		15512,
+		16301,
+		16302,
+		16303,
+		16304,
+		16305,
+		16306,
+		16307,
+		16308,
+		16309,
+		16310,
+		16311,
 		16401,
 		16402,
 		16403,
@@ -20656,6 +20667,417 @@ pg.base.transform_data_template = {
 		},
 		gear_score = {
 			30
+		}
+	},
+	[16301] = {
+		level_limit = 1,
+		name = "挑戰說明",
+		descrip = [[
+BOSS在戰鬥中會伴隨出現一些特殊的紅色光球，光球不造成傷害，但會持續釋放出帶有熏香氣味的煙霧，我方目前擁有受擊判定的角色若處於煙霧內會持續受到影響，<color=#92fc63>移速逐漸降低且受到的傷害逐漸增加，直至累計受到煙霧效果超過1秒後陷入眩暈狀態，受到200%傷害並無法移動及開火</color>，直到煙霧消散。
+我方角色脫離煙霧範圍後會以一半的速率減少受到的煙霧效果。 
+
+困難模式特性：
+敵方傷害<color=#ffc038>極大幅度提高</color>，部分大體積子彈無法被空襲/護盾消除。
+我方先鋒艦隊的角色<color=#92fc63>受擊判定大幅度縮小，且同一時間只有處於領艦位置的角色擁有受擊判定</color>，其餘角色為無敵狀態。 
+角色獲得受擊判定時會附帶短暫無敵效果。 
+
+以下裝備或技能效果無法在本挑戰中生效：
+【背水之戰】、【彩虹計畫】、【絕體絕命】]],
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 300,
+		id = 16301,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16302] = {
+		level_limit = 5,
+		name = "機動強化I",
+		descrip = "機動+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 16302,
+		condition_id = {
+			16301
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[16303] = {
+		level_limit = 20,
+		name = "防空炮改良I",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "aaup_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 16303,
+		condition_id = {
+			16301
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16304] = {
+		level_limit = 25,
+		name = "防空強化I",
+		descrip = "防空+15",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "aa_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 16304,
+		condition_id = {
+			16303
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[16305] = {
+		level_limit = 35,
+		name = "魚雷改良I",
+		descrip = "魚雷武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tpup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 16305,
+		condition_id = {
+			16303
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16306] = {
+		level_limit = 40,
+		name = "雷擊強化II",
+		descrip = "雷擊+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tp_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 16306,
+		condition_id = {
+			16305
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					4
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[16307] = {
+		level_limit = 50,
+		name = "艦體改良II",
+		descrip = "耐久+45/耐久+75",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 16307,
+		condition_id = {
+			16305
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[16308] = {
+		level_limit = 55,
+		name = "戰術啟發",
+		descrip = "習得技能【可靠的{namecode:15}】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "skill_yellow",
+		skill_id = 151630,
+		use_gold = 1800,
+		id = 16308,
+		condition_id = {
+			16307
+		},
+		effect = {
+			{
+				skill_id = 151630
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[16309] = {
+		level_limit = 70,
+		name = "動力強化",
+		descrip = "航速+3",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "sp_1",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 16309,
+		condition_id = {
+			16307
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
+	[16310] = {
+		level_limit = 75,
+		name = "機動強化II",
+		descrip = "機動+5/機動+10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 16310,
+		condition_id = {
+			16302,
+			16309
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[16311] = {
+		level_limit = 85,
+		name = "近代化改造",
+		descrip = "近代化改造完成，雷擊+30，防空+15\n\n改造後<color=#92fc63>【防空炮底座+1】</color> ，<color=#92fc63>防空炮效率+40%</color>",
+		max_level = 1,
+		skin_id = 301139,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 16311,
+		condition_id = {
+			16308,
+			16309,
+			16310
+		},
+		effect = {
+			{
+				antiaircraft = 15,
+				torpedo = 30
+			}
+		},
+		ship_id = {
+			{
+				301134,
+				301934
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
 		}
 	},
 	[16401] = {

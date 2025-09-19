@@ -2276,5 +2276,16 @@ pg.effect_offset = {
 			3,
 			0
 		}
+	},
+	baifeng_xunyan = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
 	}
 }

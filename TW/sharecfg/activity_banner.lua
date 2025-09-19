@@ -3,7 +3,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp2",
+		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					17
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					8
 				},
 				{
 					23,
@@ -38,7 +38,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp3",
+		pic = "temp2",
 		param = {
 			"scene get boat",
 			{
@@ -50,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					17
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					9
 				},
 				{
 					14,
@@ -88,7 +88,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					12
+					17
 				},
 				{
 					0,
@@ -115,10 +115,9 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene equip",
+			"scene charge",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				wrap = 4
 			}
 		},
 		time = {
@@ -126,7 +125,44 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					12
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene core activity",
+			{
+				coreName = "EighthAnniversaryJpCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					17
 				},
 				{
 					0,
@@ -139,38 +175,6 @@ pg.activity_banner = {
 					2025,
 					10,
 					9
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "50033",
-		type = 3,
-		id = 5,
-		pic = "temp1",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					25
 				},
 				{
 					14,
@@ -185,14 +189,17 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene dailylevel"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					12
+					17
 				},
 				{
 					0,
@@ -203,11 +210,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					19
+					10,
+					8
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -215,16 +222,92 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50101",
-		type = 3,
+		type = 2,
 		id = 7,
 		pic = "temp7",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					12
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene get boat",
+			{
+				goToPray = true
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					17
 				},
 				{
 					0,
@@ -246,109 +329,12 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp9",
-		param = {
-			"seltechnology"
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 9,
-		pic = "temp11",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
 	[90] = {
 		param = "",
+		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99",
-		time = {
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -373,8 +359,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					27
+					9,
+					17
 				},
 				{
 					0,
@@ -385,8 +371,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					11
+					10,
+					8
 				},
 				{
 					23,
@@ -761,7 +747,9 @@ pg.activity_banner = {
 			2,
 			3,
 			4,
+			5,
 			6,
+			7,
 			8,
 			9,
 			1000,
@@ -787,11 +775,6 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
-		},
-		[3] = {
-			5,
-			7,
-			1003
 		},
 		[9] = {
 			90,
@@ -819,6 +802,9 @@ pg.activity_banner = {
 			202,
 			203,
 			204
+		},
+		[3] = {
+			1003
 		},
 		[8] = {
 			1015

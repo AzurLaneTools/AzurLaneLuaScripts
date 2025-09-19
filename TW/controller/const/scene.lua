@@ -140,7 +140,9 @@ SCENE = {
 	ISLAND = "scene island",
 	NEW_EDUCATE_SELECT = "NEW_EDUCATE_SELECT",
 	BOSSRUSH_MAIN = "bossrush main",
+	CITY_REBUILD_MAP = "city rebuild map",
 	EDUCATE_SCHEDULE = "EDUCATE_SCHEDULE",
+	EIGHTH_HOTSPRING = "eighth hotspring",
 	CHUZHENG = "scene chuzheng",
 	GETBOAT = "scene get boat",
 	NAVALACADEMYSCENE = "naval academy scene",
@@ -1065,6 +1067,14 @@ slot0 = {
 		slot0.mediator = NewShopMainMediator
 		slot0.viewComponent = NewShopMainScene
 		slot0.cleanChild = true
+	end,
+	[SCENE.CITY_REBUILD_MAP] = function (slot0, slot1)
+		slot0.mediator = CityRebuildMapMediator
+		slot0.viewComponent = CityRebuildMapScene
+	end,
+	[SCENE.EIGHTH_HOTSPRING] = function (slot0, slot1)
+		slot0.mediator = EighthHotSpringMediator
+		slot0.viewComponent = EighthHotSpringScene
 	end
 }
 
@@ -1510,6 +1520,12 @@ slot1 = {
 				callback = slot1
 			})
 		end
+	end,
+	CoreActivityMainMediator = function (slot0, slot1)
+		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
+			callback = slot1
+		})
+		slot1()
 	end,
 	IslandMediator = function (slot0, slot1)
 		slot2 = pg.GameTrackerMgr.GetInstance()

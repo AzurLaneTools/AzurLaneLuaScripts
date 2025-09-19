@@ -239,6 +239,8 @@ slot0.FoldPanels = function(slot0, slot1)
 		return
 	end
 
+	slot0.foldFlag = slot1
+
 	slot0.theme:OnFoldPanels(slot1)
 	slot0.paintingView:Fold(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
@@ -248,6 +250,12 @@ slot0.HidePanel = function(slot0, slot1)
 	if not slot0.theme then
 		return
 	end
+
+	if slot0.foldFlag == slot1 then
+		return
+	end
+
+	slot0.foldFlag = slot1
 
 	slot0.theme:OnFoldPanels(slot1)
 	pg.playerResUI:Fold(slot1, 0.5)

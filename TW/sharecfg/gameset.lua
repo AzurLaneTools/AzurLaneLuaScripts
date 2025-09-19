@@ -344,7 +344,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 534
+		key_value = 543
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -1957,7 +1957,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 532
+		key_value = 551
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3925,5 +3925,88 @@ pg.gameset = {
 	shop_banner_capacity = {
 		description = "",
 		key_value = 3
+	},
+	ninja_Param1 = {
+		description = "1.15",
+		key_value = 0
+	},
+	ninja_Param2 = {
+		description = "",
+		key_value = 6
+	},
+	ninja_Param3 = {
+		description = "1.1",
+		key_value = 0
+	},
+	ninja_Param4 = {
+		description = "",
+		key_value = 20
+	},
+	ninja_Param5 = {
+		description = "1.12",
+		key_value = 0
+	},
+	ninja_Param6 = {
+		description = "",
+		key_value = 20
+	},
+	ninja_Param7 = {
+		description = "0.008",
+		key_value = 0
+	},
+	ninja_Param9 = {
+		description = "1.085",
+		key_value = 0
+	},
+	ninja_Param10 = {
+		description = "",
+		key_value = 2
+	},
+	ninja_Param11 = {
+		description = "0.985",
+		key_value = 0
+	},
+	ninja_Param13 = {
+		description = "1.105",
+		key_value = 0
+	},
+	ninja_Param14 = {
+		description = "1.095",
+		key_value = 0
+	},
+	ninja_Param15 = {
+		description = "1.035",
+		key_value = 0
+	},
+	ninja_Param16 = {
+		description = "",
+		key_value = 60
+	},
+	changeskin_switch_block = {
+		key_value = 0,
+		description = {
+			70502
+		}
+	},
+	random_skin_tag = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				"Live 2d"
+			},
+			{
+				6,
+				"動態立繪"
+			},
+			{
+				7,
+				"特殊動態"
+			},
+			{
+				9,
+				"Live 2d+"
+			}
+		}
 	}
 }

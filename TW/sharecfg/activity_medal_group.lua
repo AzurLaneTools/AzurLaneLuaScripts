@@ -268,6 +268,46 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50136] = {
+		id = 50136,
+		entrance_picture = "medalAlbum/50136",
+		group_name = "起舞於天原之上",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50136,
+				{
+					21835,
+					21836,
+					21837,
+					21838,
+					21839,
+					21840,
+					21841,
+					21842,
+					21843,
+					21844
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TianYuTianYuanMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				316,
+				1
+			},
+			{
+				8,
+				65685,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -275,6 +315,7 @@ pg.activity_medal_group = {
 		5913,
 		5970,
 		5971,
-		50087
+		50087,
+		50136
 	}
 }

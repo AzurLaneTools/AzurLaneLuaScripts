@@ -34,6 +34,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.taskGetBtn = slot0._tf:Find("task_panel/get")
 	slot0.taskProgressTxt = slot0._tf:Find("task_panel/p"):GetComponent(typeof(Text))
 
+	setText(slot0._tf:Find("pt_panel/title"), i18n("activity_return_reward_pt"))
 	slot0:Init()
 end
 
@@ -49,6 +50,7 @@ slot0.Init = function(slot0)
 		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW,
 			arg1 = {
+				blur = true,
 				dropList = uv0.config.drop_client,
 				targets = uv0.config.target,
 				fetchList = uv0.fetchList,
@@ -163,6 +165,9 @@ slot0.UpdateUI = function(slot0)
 		id = slot1[2],
 		count = slot1[3]
 	})
+	onButton(slot0, slot0.awardTF, function ()
+		uv0._event:emit(BaseUI.ON_DROP, uv1)
+	end, SFX_PANEL)
 	slot0:UpdateTasks(pg.activity_template_headhunting[slot0.activity.id].tasklist)
 end
 
@@ -221,6 +226,9 @@ slot0.UpdateTaskTF = function(slot0, slot1)
 		id = slot4[2],
 		count = slot4[3]
 	})
+	onButton(slot0, slot0.taskItemTF, function ()
+		uv0._event:emit(BaseUI.ON_DROP, uv1)
+	end, SFX_PANEL)
 	setFillAmount(slot0.taskProgress, slot1:getProgress() / slot1:getConfig("target_num"))
 	setText(slot0.taskDesc, slot1:getConfig("desc"))
 

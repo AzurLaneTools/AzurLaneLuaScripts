@@ -15,7 +15,7 @@ pg.activity_link_button = {
 		}
 	},
 	{
-		param = "0",
+		param = "5871",
 		name = "event_all",
 		time = "stop",
 		text_pic = "text_event_all",
@@ -47,40 +47,40 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50081
+			50114
 		}
 	},
-	[20] = {
+	[11] = {
 		param = "0",
 		name = "event_map_sub",
 		time = "stop",
 		text_pic = "text_event_map_sub",
 		type = 0,
 		pic = "event_map_sub",
-		id = 20,
+		id = 11,
 		group_id = 3,
 		order = 1
 	},
-	[21] = {
+	[20] = {
 		name = "event_minigame",
 		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
-		id = 21,
+		id = 20,
 		group_id = 5,
 		order = 1,
 		param = {
 			"holiday villa map"
 		}
 	},
-	[30] = {
+	[21] = {
 		name = "event_holidayVilla",
 		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 0,
 		pic = "event_minigame",
-		id = 30,
+		id = 21,
 		group_id = 5,
 		order = 1,
 		param = {
@@ -88,37 +88,37 @@ pg.activity_link_button = {
 			5922
 		}
 	},
-	[40] = {
+	[30] = {
 		param = "0",
 		name = "event_boss",
 		time = "stop",
 		text_pic = "text_event_boss",
 		type = 0,
 		pic = "event_boss",
-		id = 40,
+		id = 30,
 		group_id = 3,
 		order = 1
 	},
-	[60] = {
+	[40] = {
 		param = "0",
 		name = "event_escort",
 		text_pic = "text_event_escort",
 		type = 0,
 		pic = "event_escort",
-		id = 60,
+		id = 40,
 		group_id = 6,
 		order = 1,
 		time = {
 			"default"
 		}
 	},
-	[70] = {
+	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
 		text_pic = "text_event_LanternFestival",
 		type = 0,
 		pic = "event_LanternFestival",
-		id = 70,
+		id = 60,
 		group_id = 7,
 		order = 1,
 		time = {
@@ -126,13 +126,13 @@ pg.activity_link_button = {
 			5803
 		}
 	},
-	[80] = {
+	[70] = {
 		param = "0",
 		name = "event_aprilFool",
 		text_pic = "text_event_aprilFool",
 		type = 0,
 		pic = "event_aprilFool",
-		id = 80,
+		id = 70,
 		group_id = 8,
 		order = 1,
 		time = {
@@ -140,12 +140,12 @@ pg.activity_link_button = {
 			5267
 		}
 	},
-	[1000] = {
+	[80] = {
 		name = "event_Atelier",
 		text_pic = "text_event_Atelier",
 		type = 2,
 		pic = "event_Atelier",
-		id = 1000,
+		id = 80,
 		group_id = 9,
 		order = 1,
 		time = {
@@ -305,6 +305,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
+		param = "TianYuTianYuanCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -314,25 +315,21 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50085
-		},
-		param = {
-			"SecretsAbyssCoreActivityUI",
-			"QIYUANXIADEMIMILOGO"
+			50102
 		}
 	},
 	[110] = {
-		param = "TianYuTianYuanCoreActivityUI",
+		param = "ALYCoreActivityUI",
 		name = "event_core_2",
-		text_pic = "text_event_medal",
+		text_pic = "text_event_yumia",
 		type = 16,
-		pic = "event_medal",
+		pic = "event_yumia",
 		id = 110,
-		group_id = 1,
-		order = 1,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
-			50102
+			50058
 		}
 	},
 	[111] = {
@@ -363,6 +360,20 @@ pg.activity_link_button = {
 			50042
 		}
 	},
+	[113] = {
+		param = "EighthAnniversaryJpCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_special",
+		type = 16,
+		pic = "event_special",
+		id = 113,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50112
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -373,29 +384,29 @@ pg.activity_link_button = {
 			10
 		},
 		event_map_sub = {
-			20
+			11
 		},
 		event_minigame = {
-			21,
+			20,
 			108
 		},
 		event_holidayVilla = {
-			30
+			21
 		},
 		event_boss = {
-			40
+			30
 		},
 		event_escort = {
-			60
+			40
 		},
 		event_LanternFestival = {
-			70
+			60
 		},
 		event_aprilFool = {
-			80
+			70
 		},
 		event_Atelier = {
-			1000
+			80
 		},
 		event_series = {
 			90
@@ -428,7 +439,8 @@ pg.activity_link_button = {
 			109
 		},
 		event_core_2 = {
-			110
+			110,
+			113
 		},
 		event_map_2 = {
 			111
@@ -442,6 +454,7 @@ pg.activity_link_button = {
 		2,
 		9,
 		10,
+		11,
 		20,
 		21,
 		30,
@@ -449,7 +462,6 @@ pg.activity_link_button = {
 		60,
 		70,
 		80,
-		1000,
 		90,
 		100,
 		101,
@@ -463,6 +475,7 @@ pg.activity_link_button = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }

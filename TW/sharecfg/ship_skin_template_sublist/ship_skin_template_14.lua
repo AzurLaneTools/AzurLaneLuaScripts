@@ -1,6 +1,246 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[603040] = {
+		name = "的里雅斯德",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "特倫托級重巡洋艦—的里雅斯德",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "diliyasite",
+		ship_group = 60304,
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		ship_l2d_id = "",
+		id = 603040,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "diliyasite",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 224,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.23,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.44,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[603041] = {
+		name = "期待的便當時間？",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "嗯？事情已經忙完了嗎？雖然感覺應該不至於，不過…指揮官，你不會因為太想吃便當先溜了吧…抱歉誤會你了。好了，一起走吧，特倫托在等著我們了。",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "diliyasite_2",
+		ship_group = 60304,
+		bg_sp = "",
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "147",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 603041,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "diliyasite_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70678,
+		voice_actor = 224,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.99,
+					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.415,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[603042] = {
 		name = "熱氣蒸騰溫泉夜",
 		shop_offset = "",
@@ -13136,6 +13376,452 @@ pg.base.ship_skin_template_14 = {
 			0.5
 		}
 	},
+	[705022] = {
+		name = "缠丝审讯",
+		illustrator2 = -1,
+		desc = "唔……没想到竟然会被这种程度的机关困住……接下来，指挥官同志是准备对我进行\"审讯\"吗？啊，没什么……我只是觉得，如果指挥官同志不知道方法的话，我想我也可以给你提些建议什么的……",
+		group_index = 2,
+		painting = "suweiaitongmeng_3",
+		ship_group = 70502,
+		bg_sp = "",
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "172",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		id = 705022,
+		voice_actor_2 = -1,
+		part_scale = "",
+		get_showing = "",
+		prefab = "suweiaitongmeng_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 398,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			8,
+			1,
+			2
+		},
+		change_skin = {
+			group = 70502,
+			action = "changeBlack",
+			next = 705023,
+			state = 4,
+			index = 2,
+			delay_in = 9
+		},
+		live2d_offset = {
+			100,
+			0,
+			0,
+			82
+		},
+		shop_offset = {
+			100,
+			0,
+			0,
+			88
+		},
+		purchase_offset = {
+			100,
+			0,
+			0,
+			88
+		},
+		live2d_offset_profile = {
+			100,
+			0,
+			0,
+			82
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.445,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.357,
+					1.011,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.801,
+					2.492,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.835,
+							2.537,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-20,
+				20
+			},
+			ParamAngleY = {
+				-20,
+				20
+			}
+		},
+		ship_l2d_id = {
+			70502201,
+			70502202,
+			70502203,
+			70502204,
+			70502205,
+			70502206,
+			70502207,
+			70502208,
+			70502209,
+			70502210,
+			70502211,
+			70502212,
+			70502213,
+			70502214,
+			70502215,
+			70502216,
+			70502217,
+			70502218,
+			70502219,
+			70502220,
+			70502221,
+			70502222,
+			70502223,
+			70502224,
+			70502225,
+			70502226,
+			70502227,
+			70502228,
+			70502229,
+			70502230,
+			70502231,
+			70502232,
+			70502233,
+			70502234,
+			70502235,
+			70502236,
+			70502237,
+			70502238,
+			70502239,
+			70502240,
+			70502241,
+			70502242,
+			70502243,
+			70502244,
+			70502245,
+			70502246,
+			70502247,
+			70502248,
+			70502249,
+			70502250,
+			70502251,
+			70502252,
+			70502253,
+			70502254,
+			70502255,
+			70502256,
+			70502257,
+			70502258
+		},
+		l2d_drag_rate = {
+			0.3,
+			0.8,
+			0.5
+		}
+	},
+	[705023] = {
+		name = "缠丝审讯",
+		illustrator2 = -1,
+		desc = "原来在你这里啊，指挥官同志。平常警备严密的你竟然会单独行动，事到如今，只能说实在是太粗心大意了。接下来，就由我{namecode:529}来做你的对手吧。",
+		group_index = 3,
+		purchase_offset = "",
+		painting = "suweiaitongmeng_4",
+		ship_group = 70502,
+		bg_sp = "",
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "142",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 705023,
+		voice_actor_2 = -1,
+		part_scale = "",
+		prefab = "suweiaitongmeng_4",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71214,
+		voice_actor = 398,
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			8,
+			6,
+			2
+		},
+		change_skin = {
+			group = 70502,
+			action = "changeBlack",
+			next = 705022,
+			state = 4,
+			index = 1
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			264,
+			-828,
+			0,
+			0.53
+		},
+		spine_offset_profile = {
+			317.8,
+			-835.8,
+			0,
+			0.54
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.036,
+					0.713,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.037,
+					0.721,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.64,
+					1.332,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.524,
+							2.421,
+							-0.18
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamBodyAngleX = {
+				-4,
+				4
+			},
+			ParamBodyAngleY = {
+				-4,
+				4
+			},
+			ParamEyeBallX = {
+				-0.4,
+				0.4
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		spine_offset = {
+			-79.3,
+			-740.2,
+			0,
+			0.51
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
+		},
+		get_showing = {
+			show = 1,
+			paint_offset = {
+				-671,
+				-35,
+				1
+			},
+			data = {
+				{
+					-960,
+					884,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					1464,
+					-201,
+					2,
+					0,
+					-129,
+					2
+				},
+				{
+					349,
+					-434,
+					2,
+					-120,
+					0,
+					2
+				}
+			}
+		}
+	},
 	[705040] = {
 		name = "蘇維埃白俄羅斯",
 		shop_offset = "",
@@ -14606,343 +15292,6 @@ pg.base.ship_skin_template_14 = {
 							-0.511,
 							2.474,
 							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[705090] = {
-		name = "喀山",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "21型戰艦—喀山",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "kashan",
-		ship_group = 70509,
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		ship_l2d_id = "",
-		id = 705090,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "kashan",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 448,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.9,
-					1.074,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.8,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.6,
-					3.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.73,
-							2.65,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[705091] = {
-		name = "溫煦晨光",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "哎呀，指揮官已經醒了嗎？早安哦……今天的陽光真好，就連廚房裡都有點熱呢，不過沒關係，我特意準備了清爽的早餐。稍微洗漱一下就來用餐吧？",
-		group_index = 1,
-		purchase_offset = "",
-		painting = "kashan_2",
-		ship_group = 70509,
-		bg_sp = "",
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "606",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 705091,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "kashan_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 71127,
-		voice_actor = 448,
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.9,
-					1.074,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.8,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.71,
-					2.75,
-					0
-				}
-			}
-		},
-		smoke = {},
-		spine_offset = {
-			95.2,
-			-1082.8,
-			0,
-			0.665
-		}
-	},
-	[707010] = {
-		name = "窩瓦",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "72型航空母艦—窩瓦",
-		group_index = 0,
-		purchase_offset = "",
-		painting = "fuerjia",
-		ship_group = 70701,
-		bg_sp = "",
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		ship_l2d_id = "",
-		id = 707010,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "fuerjia",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 307,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.102,
-					1.651,
-					0
-				}
-			},
-			plane = {
-				{
-					2.156,
-					1.781,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.461,
-							2.503,
-							-1.89
 						}
 					}
 				}

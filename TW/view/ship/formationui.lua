@@ -616,10 +616,18 @@ end
 slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0._attrFrame, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+
+	slot0._blurLayer:GetComponent(typeof(AspectRatioFitter)).enabled = false
 end
 
 slot0.displayAttrFrame = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer, false)
+
+	slot1 = slot0._blurLayer:GetComponent(typeof(AspectRatioFitter))
+	slot1.enabled = true
+	slot1.aspectMode = AspectMode.FitInParent
+	slot1.aspectRatio = slot0._tf.parent:GetComponent(typeof(AspectRatioFitter)).aspectRatio
+
 	SetActive(slot0._attrFrame, true)
 	slot0:initAttrFrame()
 end

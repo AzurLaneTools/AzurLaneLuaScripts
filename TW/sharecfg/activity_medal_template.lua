@@ -660,6 +660,102 @@ pg.activity_medal_template = {
 		id = 5008708,
 		medal_asset = "ActivityMedal/5008708"
 	},
+	[5013601] = {
+		activity_medal_desc = "「天域，乃外域之屏，天原，因天域而定。縱使地崩山摧，浩劫將至。天域天原，亦需永存」",
+		next_medal = 0,
+		item = 65686,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "1",
+		task_id = 21836,
+		activity_medal_name = "紀念貼紙：天域天原",
+		id = 5013601,
+		medal_asset = "ActivityMedal/5013601"
+	},
+	[5013602] = {
+		activity_medal_desc = "鳳影翩然而至，鳳鳴響徹天原。",
+		next_medal = 0,
+		item = 65687,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "2",
+		task_id = 21837,
+		activity_medal_name = "紀念貼紙：鳳影",
+		id = 5013602,
+		medal_asset = "ActivityMedal/5013602"
+	},
+	[5013603] = {
+		activity_medal_desc = "乘雲而至，起舞於天原。",
+		next_medal = 0,
+		item = 65688,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "3",
+		task_id = 21838,
+		activity_medal_name = "紀念貼紙：天原之舞",
+		id = 5013603,
+		medal_asset = "ActivityMedal/5013603"
+	},
+	[5013604] = {
+		activity_medal_desc = "一抹繪卷，一景天原。",
+		next_medal = 0,
+		item = 65689,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "4",
+		task_id = 21839,
+		activity_medal_name = "紀念貼紙：天原繪卷",
+		id = 5013604,
+		medal_asset = "ActivityMedal/5013604"
+	},
+	[5013605] = {
+		activity_medal_desc = "有客來訪，請品佳釀。",
+		next_medal = 0,
+		item = 65690,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "5",
+		task_id = 21840,
+		activity_medal_name = "紀念貼紙：雲海佳釀",
+		id = 5013605,
+		medal_asset = "ActivityMedal/5013605"
+	},
+	[5013606] = {
+		activity_medal_desc = "▂▃▆▂▃▆▇▂▃▇█▆▆▇▇▆▇",
+		next_medal = 0,
+		item = 65691,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "6",
+		task_id = 21841,
+		activity_medal_name = "紀念貼紙：夢魘之息",
+		id = 5013606,
+		medal_asset = "ActivityMedal/5013606"
+	},
+	[5013607] = {
+		activity_medal_desc = "軟呼呼毛茸茸，可惜摸不到……",
+		next_medal = 0,
+		item = 65692,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "7",
+		task_id = 21842,
+		activity_medal_name = "紀念貼紙：靈狐",
+		id = 5013607,
+		medal_asset = "ActivityMedal/5013607"
+	},
+	[5013608] = {
+		activity_medal_desc = "額間輕觸，幻夢而現。",
+		next_medal = 0,
+		item = 65693,
+		remake_task_id = 0,
+		group = 50136,
+		prefab_node = "8",
+		task_id = 21843,
+		activity_medal_name = "紀念貼紙：幻夢石",
+		id = 5013608,
+		medal_asset = "ActivityMedal/5013608"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -729,6 +825,16 @@ pg.activity_medal_template = {
 			5008706,
 			5008707,
 			5008708
+		},
+		[50136] = {
+			5013601,
+			5013602,
+			5013603,
+			5013604,
+			5013605,
+			5013606,
+			5013607,
+			5013608
 		}
 	},
 	all = {
@@ -786,6 +892,14 @@ pg.activity_medal_template = {
 		5008705,
 		5008706,
 		5008707,
-		5008708
+		5008708,
+		5013601,
+		5013602,
+		5013603,
+		5013604,
+		5013605,
+		5013606,
+		5013607,
+		5013608
 	}
 }

@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有五年間持續奮鬥在港區的指揮官們</color>\n通過參與五週年限定活動獲取",
 		scene = {}
 	},
+	[108] = {
+		name = "六週年紀念",
+		gain_by = "",
+		time_second = 0,
+		id = 108,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給所有六年間持續奮鬥在港區的指揮官們</color>\n透過參與六週年限定活動獲取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑戰者",
 		gain_by = "",
@@ -479,11 +488,11 @@ pg.item_data_frame = {
 	},
 	[336] = {
 		name = "鳳鳴天原",
-		gain_by = "",
+		gain_by = "起舞於天原之上",
 		time_second = 0,
 		id = 336,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「初至天域，忽聞鳳鳴。翩然而過，響徹天原」</color>\n「起舞於天原之上」活動獲取 ",
 		scene = {}
 	},
 	[401] = {
@@ -818,6 +827,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		108,
 		201,
 		202,
 		203,

@@ -26130,6 +26130,131 @@ _G.pg.base.item_data_statistics[30374] = {
 }
 
 
+_G.pg.base.item_data_statistics[30375] = {
+	open_directly = 1,
+	name = "外觀裝備箱(幻夢天原)",
+	type = 11,
+	display = "可以獲得一件隨機的幻夢天原風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuanmengtianyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30372",
+	id = 30375,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -39291,6 +39416,219 @@ _G.pg.base.item_data_statistics[30558] = {
 }
 
 
+_G.pg.base.item_data_statistics[30559] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(幻夢天原)",
+	type = 13,
+	display = "使用後可從「幻夢天原」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuanmengtianyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30559,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4222,
+			1
+		},
+		{
+			9,
+			4223,
+			1
+		},
+		{
+			9,
+			4224,
+			1
+		},
+		{
+			9,
+			4225,
+			1
+		},
+		{
+			9,
+			4226,
+			1
+		},
+		{
+			9,
+			4227,
+			1
+		},
+		{
+			9,
+			4228,
+			1
+		},
+		{
+			9,
+			4229,
+			1
+		},
+		{
+			9,
+			4230,
+			1
+		},
+		{
+			9,
+			4231,
+			1
+		},
+		{
+			9,
+			4232,
+			1
+		},
+		{
+			9,
+			4233,
+			1
+		},
+		{
+			9,
+			4234,
+			1
+		},
+		{
+			9,
+			4235,
+			1
+		},
+		{
+			9,
+			4236,
+			1
+		},
+		{
+			9,
+			4237,
+			1
+		},
+		{
+			9,
+			4238,
+			1
+		},
+		{
+			9,
+			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -42721,6 +43059,90 @@ _G.pg.base.item_data_statistics[40061] = {
 		{
 			31,
 			204,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40065] = {
+	open_directly = 1,
+	name = "忍者之城主題禮包(基礎版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 忍者之城*1,1000物資",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4066",
+	id = 40065,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			205,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40066] = {
+	open_directly = 1,
+	name = "忍者之城主題禮包(豪華版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 忍者之城*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4067",
+	id = 40066,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			205,
 			1
 		},
 		{
@@ -74949,6 +75371,37 @@ _G.pg.base.item_data_statistics[59848] = {
 }
 
 
+_G.pg.base.item_data_statistics[59849] = {
+	open_directly = 0,
+	name = "六週年紀念幣",
+	type = 1,
+	display = "六週年活動「TH6紀念簽到」獲取——六載拾光，一路同行！",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/liuzhounian",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59849,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59851] = {
 	open_directly = 0,
 	name = "玄武之印",
@@ -82170,6 +82623,298 @@ _G.pg.base.item_data_statistics[60546] = {
 }
 
 
+_G.pg.base.item_data_statistics[60556] = {
+	open_directly = 0,
+	name = "慶典邀請函(2025.9)",
+	type = 21,
+	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60556,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3027,
+		3028
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_eighth_jp"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60557] = {
+	open_directly = 0,
+	name = "貝爾法斯特的回禮",
+	type = 1,
+	display = "由貝爾法斯特贈與的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60557,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60558] = {
+	open_directly = 0,
+	name = "布雷默頓的回禮",
+	type = 1,
+	display = "由布雷默頓贈與的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60558,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60559] = {
+	open_directly = 0,
+	name = "天狼星的回禮",
+	type = 1,
+	display = "由天狼星贈與的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60559,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60560] = {
+	open_directly = 0,
+	name = "{namecode:470}的回禮",
+	type = 1,
+	display = "由{namecode:470}贈與的，作為宴會邀請的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60561] = {
+	open_directly = 0,
+	name = "{namecode:50}的回禮",
+	type = 1,
+	display = "由{namecode:50}贈與的，作為宴會邀請的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60562] = {
+	open_directly = 0,
+	name = "{namecode:161}的回禮",
+	type = 1,
+	display = "由{namecode:161}贈與的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60562,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60563] = {
+	open_directly = 0,
+	name = "塔林的回禮",
+	type = 1,
+	display = "由塔林贈與的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60563,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60564] = {
+	open_directly = 0,
+	name = "霞飛的回禮",
+	type = 1,
+	display = "由霞飛贈與的，作為宴會邀請的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60564,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70051] = {
 	open_directly = 1,
 	name = "隨機T4裝備箱",
@@ -87337,6 +88082,73 @@ _G.pg.base.item_data_statistics[81214] = {
 		{
 			2,
 			86214,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81217] = {
+	open_directly = 1,
+	name = "忍者之城換裝禮物盒I",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2025，心智單元*50，心智魔方*20，高級定向藍圖·七期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai27",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998318",
+	id = 81217,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86217,
 			1
 		},
 		{

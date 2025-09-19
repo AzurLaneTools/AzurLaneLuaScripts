@@ -58,20 +58,20 @@ slot0.init = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
 	slot0.btnBack = slot0:findTF("back", slot0.top)
-	slot0.bottomTF = slot0:findTF("bottom")
+	slot0.bottomTF = slot0:findTF("adapt/bottom")
 	slot0.labelHeart = slot0:findTF("adapt/detail_left_panel/heart/label", slot0.blurPanel)
 	slot0.btnLike = slot0:findTF("adapt/detail_left_panel/heart/btnLike", slot0.blurPanel)
 	slot0.btnChangeSkin = slot0:findTF("adapt/detail_left_panel/change_skin", slot0.blurPanel)
 	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.btnChangeSkin, "toggle_ui"))
 	slot0.btnLikeAct = slot0.btnLike:Find("like")
 	slot0.btnLikeDisact = slot0.btnLike:Find("unlike")
-	slot0.obtainBtn = slot0:findTF("bottom/others/obtain_btn")
-	slot0.evaBtn = slot0:findTF("bottom/others/eva_btn")
-	slot0.viewBtn = slot0:findTF("bottom/others/view_btn")
-	slot0.shareBtn = slot0:findTF("bottom/others/share_btn")
-	slot0.rotateBtn = slot0:findTF("bottom/others/rotate_btn")
-	slot0.cryptolaliaBtn = slot0:findTF("bottom/others/cryptolalia_btn")
-	slot0.equipCodeBtn = slot0:findTF("bottom/others/equip_code_btn")
+	slot0.obtainBtn = slot0:findTF("adapt/bottom/others/obtain_btn")
+	slot0.evaBtn = slot0:findTF("adapt/bottom/others/eva_btn")
+	slot0.viewBtn = slot0:findTF("adapt/bottom/others/view_btn")
+	slot0.shareBtn = slot0:findTF("adapt/bottom/others/share_btn")
+	slot0.rotateBtn = slot0:findTF("adapt/bottom/others/rotate_btn")
+	slot0.cryptolaliaBtn = slot0:findTF("adapt/bottom/others/cryptolalia_btn")
+	slot0.equipCodeBtn = slot0:findTF("adapt/bottom/others/equip_code_btn")
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
@@ -89,11 +89,11 @@ slot0.init = function(slot0)
 	slot1 = slot0.spinePaintingBtn
 	slot0.spinePaintingToggle = slot1:Find("toggle")
 	slot0.cvLoader = ShipProfileCVLoader.New()
-	slot0.pageTFs = slot0:findTF("pages")
+	slot0.pageTFs = slot0:findTF("adapt/pages")
 	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting)
 	slot0.toggles = {
-		slot0:findTF("bottom/detail"),
-		slot0:findTF("bottom/profile")
+		slot0:findTF("adapt/bottom/detail"),
+		slot0:findTF("adapt/bottom/profile")
 	}
 	slot1 = ShipProfileInformationPage.New(slot0.pageTFs, slot0.event)
 
@@ -163,6 +163,8 @@ slot0.didEnter = function(slot0)
 	slot1:AddListener(function (slot0)
 		if slot0 then
 			uv0:CreateLive2D()
+		else
+			uv0:clearLive2dPainting()
 		end
 
 		uv0.l2dBtnOn = slot0
@@ -288,7 +290,9 @@ slot0.SetPainting = function(slot0, slot1, slot2)
 
 	slot3 = pg.ship_skin_template[slot1].painting
 
-	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
+	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu", function ()
+		setActive(uv0.commonPainting, true)
+	end)
 
 	slot0.paintingName = slot3
 
@@ -488,8 +492,8 @@ slot0.ShiftSkin = function(slot0, slot1)
 
 	slot0.skin = slot1
 
-	slot0:LoadModel(slot1)
 	slot0:SetPainting(slot1.id, false)
+	slot0:LoadModel(slot1)
 	slot0.live2DBtn:Disable()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
 
@@ -557,6 +561,8 @@ slot0.CreateLive2D = function(slot0)
 
 	if slot0.l2dChar then
 		slot0.l2dChar:Dispose()
+
+		slot0.l2dChar = nil
 	end
 
 	slot3 = nil
@@ -909,6 +915,19 @@ slot0.CreateSpinePainting = function(slot0)
 	slot0:DisplaySpinePainting(true)
 end
 
+slot0.clearLive2dPainting = function(slot0)
+	if slot0.l2dChar then
+		slot0.l2dChar:Dispose()
+
+		slot0.l2dChar = nil
+		slot0.l2dActioning = false
+		slot0.cvLoader.prevCvPath = nil
+
+		slot0:StopDailogue()
+		slot0.cvLoader:StopSound()
+	end
+end
+
 slot0.DestroySpinePainting = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:Dispose()
@@ -967,6 +986,8 @@ slot0.willExit = function(slot0)
 
 	if slot0.l2dChar then
 		slot0.l2dChar:Dispose()
+
+		slot0.l2dChar = nil
 	end
 
 	slot0:DestroySpinePainting()

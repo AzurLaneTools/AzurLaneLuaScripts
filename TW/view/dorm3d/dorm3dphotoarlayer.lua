@@ -85,7 +85,6 @@ slot0.init = function(slot0)
 	setText(slot0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
 
-	slot0.mainCamera = GameObject.Find("AR/XR Origin/Camera Offset/Main Camera"):GetComponent(typeof(Camera))
 	slot0.stopRecBtn = slot0:findTF("stopRec")
 	slot0.videoTipPanel = slot0:findTF("videoTipPanel")
 
@@ -102,6 +101,25 @@ end
 
 slot0.SetGroupId = function(slot0, slot1)
 	slot0.groupId = slot1
+end
+
+slot0.SetARLite = function(slot0, slot1)
+	slot0.ARState = slot1
+	slot0.ARCheck = table.contains({
+		5,
+		6,
+		7
+	}, slot1)
+
+	if GraphApiHelper.IsUsingVulkan() then
+		slot0.ARCheck = false
+	end
+
+	if slot0.ARCheck then
+		slot0.mainCamera = GameObject.Find("AR/XR Origin/Camera Offset/Main Camera"):GetComponent(typeof(Camera))
+	else
+		slot0.mainCamera = GameObject.Find("FakeAR/Main Camera"):GetComponent(typeof(Camera))
+	end
 end
 
 slot0.onBackPressed = function(slot0)
@@ -309,12 +327,10 @@ slot0.didEnter = function(slot0)
 			}):GetStateName()))
 		end
 
-		slot3 = function(slot0)
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv0.mainCamera, function (slot0)
 			uv0(true)
 			uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
-		end
-
-		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(uv0.mainCamera, callback)
+		end)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(slot0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false

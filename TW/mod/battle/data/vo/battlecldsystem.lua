@@ -301,6 +301,8 @@ slot7.getAreaCldShipList = function(slot0, slot1, slot2)
 
 	if slot1:GetAreaType() == uv0.AreaType.COLUMN or slot1:GetAnchorPointAlignment() == Vector3.zero then
 		slot3 = slot2:GetCldList(slot1:GetCldBox(), uv1)
+	elseif slot4 == uv0.AreaType.ELLIPSE then
+		slot3 = slot2:GetCldListEllipse(slot1:GetWidth(), slot1:GetHeight(), pos)
 	else
 		slot6 = slot1:GetAngle() * math.deg2Rad
 

@@ -318,8 +318,8 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.SELECT_ACTIVITY, function (slot0, slot1)
 		uv0.viewComponent:verifyTabs(slot1)
 	end)
-	slot0:bind(uv0.SHOW_NEXT_ACTIVITY, function (slot0)
-		uv0:showNextActivity()
+	slot0:bind(uv0.SHOW_NEXT_ACTIVITY, function (slot0, slot1)
+		uv0:showNextActivity(slot1)
 	end)
 	slot0:bind(uv0.ACTIVITY_PERMANENT, function (slot0, slot1)
 		if PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description then
@@ -468,11 +468,7 @@ slot0.initNotificationHandleDic = function(slot0)
 				return
 			end
 
-			if ActivityConst.HOLOLIVE_MORNING_ID == slot2 then
-				slot3 = slot0.viewComponent.pageDic[ActivityConst.HOLOLIVE_MORNING_ID]
-			end
-
-			slot0:showNextActivity()
+			slot0:showNextActivity(getProxy(ActivityProxy):getActivityById(slot2):getConfig("page_core"))
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
 			slot3 = slot1:getBody().awards
@@ -624,40 +620,40 @@ slot0.initNotificationHandleDic = function(slot0)
 	}
 end
 
-slot0.showNextActivity = function(slot0)
+slot0.showNextActivity = function(slot0, slot1)
 	if not getProxy(ActivityProxy) then
 		return
 	end
 
-	if slot1:findNextAutoActivity() then
-		if slot2.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
+	if slot2:findNextAutoActivity(slot1) then
+		if slot3.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
 			slot0.contextData.showByNextAct = true
 
 			slot0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
 		else
-			slot0.viewComponent:verifyTabs(slot2.id)
+			slot0.viewComponent:verifyTabs(slot3.id)
 		end
 
-		if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
-				activity_id = slot2.id
+				activity_id = slot3.id
 			})
-		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+		elseif slot4 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = slot2.id,
-				cmd = slot2:getSpecialData("reMonthSignDay") ~= nil and 3 or 1,
-				arg1 = slot2:getSpecialData("reMonthSignDay")
+				activity_id = slot3.id,
+				cmd = slot3:getSpecialData("reMonthSignDay") ~= nil and 3 or 1,
+				arg1 = slot3:getSpecialData("reMonthSignDay")
 			})
-		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
+		elseif slot4 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = slot2.id,
-				cmd = slot2.data1 < 7 and 1 or 2
+				activity_id = slot3.id,
+				cmd = slot3.data1 < 7 and 1 or 2
 			})
-		elseif slot2.id == ActivityConst.SHADOW_PLAY_ID then
-			slot2.clientData1 = 1
+		elseif slot3.id == ActivityConst.SHADOW_PLAY_ID then
+			slot3.clientData1 = 1
 
-			slot0:showNextActivity()
+			slot0:showNextActivity(slot1)
 		end
 	elseif not slot0.viewComponent.activity then
 		slot0.viewComponent:verifyTabs(slot0.contextData.id or slot0.contextData.type and checkExist(_.detect(slot0:getDisplayActivity(), function (slot0)

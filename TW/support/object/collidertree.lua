@@ -298,3 +298,95 @@ slot5.GetCldListGradient = function(slot0, slot1, slot2, slot3, slot4)
 
 	return slot12
 end
+
+slot5.GetCldListEllipse = function(slot0, slot1, slot2, slot3)
+	slot4 = slot3.x
+	slot5 = slot3.z
+	slot6 = uv0.CldNode.New()
+	slot12 = 0
+	slot13 = slot5 + slot2
+
+	slot6:UpdateStaticBox(Vector3(slot4 - slot1, 0, slot5 - slot2), Vector3(slot4 + slot1, slot12, slot13))
+
+	slot8 = {}
+
+	for slot12, slot13 in ipairs(slot0:GetCldList(slot6, nil)) do
+		if ellipseIntersectsRect(slot4, slot5, slot1, slot2, slot13.min, slot13.max) then
+			uv1.insert(slot8, slot13)
+		end
+	end
+
+	return slot8
+end
+
+slot5.pointInEllipse = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot0 - slot2
+	slot7 = slot1 - slot3
+
+	return slot6 * slot6 / (slot4 * slot4) + slot7 * slot7 / (slot5 * slot5) <= 1
+end
+
+slot5.lineIntersectsEllipse = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot1 = slot1 - slot5
+	slot0 = slot0 - slot4
+	slot8 = slot2 - slot4 - slot0
+	slot9 = slot3 - slot5 - slot1
+	slot11 = 2 * (slot0 * slot8 / (slot6 * slot6) + slot1 * slot9 / (slot7 * slot7))
+
+	if slot11 * slot11 - 4 * (slot8 * slot8 / (slot6 * slot6) + slot9 * slot9 / (slot7 * slot7)) * (slot0 * slot0 / (slot6 * slot6) + slot1 * slot1 / (slot7 * slot7) - 1) < 0 then
+		return false
+	end
+
+	slot14 = math.sqrt(slot13)
+	slot16 = (-slot11 + slot14) / (2 * slot10)
+
+	return (-slot11 - slot14) / (2 * slot10) >= 0 and slot15 <= 1 or slot16 >= 0 and slot16 <= 1
+end
+
+slot5.ellipseIntersectsRect = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = slot0 + slot2
+	slot8 = slot1 - slot3
+	slot9 = slot1 + slot3
+
+	if slot5.x < slot0 - slot2 or slot7 < slot4.x or slot5.z < slot8 or slot9 < slot4.z then
+		return false
+	end
+
+	for slot14, slot15 in ipairs({
+		{
+			slot4.x,
+			slot4.z
+		},
+		{
+			slot5.x,
+			slot4.z
+		},
+		{
+			slot5.x,
+			slot5.z
+		},
+		{
+			slot4.x,
+			slot5.z
+		}
+	}) do
+		if uv0.pointInEllipse(slot15[1], slot15[2], slot0, slot1, slot2, slot3) then
+			return true
+		end
+	end
+
+	if slot4.x <= slot0 and slot0 <= slot5.x and slot4.z <= slot1 and slot1 <= slot5.z then
+		return true
+	end
+
+	for slot14 = 1, 4 do
+		slot15 = slot10[slot14]
+		slot16 = slot10[slot14 % 4 + 1]
+
+		if uv0.lineIntersectsEllipse(slot15[1], slot15[2], slot16[1], slot16[2], slot0, slot1, slot2, slot3) then
+			return true
+		end
+	end
+
+	return false
+end

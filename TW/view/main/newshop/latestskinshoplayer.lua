@@ -58,10 +58,11 @@ slot0.init = function(slot0)
 	slot0.skinName = slot0.adapt:Find("top/title/skin_name_mask/skin_name")
 	slot0.shipName = slot0.adapt:Find("top/title/name_mask/name")
 	slot0.changeSkin = slot0.adapt:Find("top/change_skin")
+	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkin, "toggle_ui"))
 	slot0.showOwnBtn = slot0.adapt:Find("bottom/showOwnBtn")
 	slot0.filterBtn = slot0.adapt:Find("bottom/filterBtn")
 	slot0.search = slot0.adapt:Find("bottom/search")
-	slot0.scrollrect = slot0.adapt:Find("bottom/scroll"):GetComponent("LScrollRect")
+	slot0.scrollrect = slot0.adapt:Find("bottom/scroll/content"):GetComponent("LScrollRect")
 	slot0.sdTg = slot0.adapt:Find("right/sdTg")
 	slot0.hideUITg = slot0.adapt:Find("right/hideUITg")
 	slot0.charContainer = slot0.adapt:Find("right/char_container")
@@ -108,20 +109,7 @@ slot0.init = function(slot0)
 	slot0.purchaseView = NewSkinShopPurchaseView.New(slot0._tf, slot0.event)
 
 	slot0:RegisterEvent()
-
-	slot4 = true
-
-	setGray(slot0.btns:Find("yigoumai_button"), true, slot4)
-
-	slot0.changeSkinToggles = {}
-
-	for slot4 = 1, 2 do
-		slot6 = GetComponent(slot0.changeSkin:Find("toggle_ui/ad/toggle/" .. slot4), typeof(Toggle))
-		slot6.isOn = false
-
-		table.insert(slot0.changeSkinToggles, slot6)
-	end
-
+	setGray(slot0.btns:Find("yigoumai_button"), true, true)
 	setText(slot0._tf:Find("bgs/empty/Text"), i18n("shop_new_unfound"))
 	setText(slot0.adapt:Find("top/mainTitle/Text"), i18n("shop_new_shop"))
 	setText(slot0.filterBtn:Find("Text"), i18n("shop_new_sort"))
@@ -202,8 +190,10 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:SetGiftPackLayer()
-	slot0:SetSkinScroll()
-	slot0:Refresh(true)
+	onDelayTick(function ()
+		uv0:SetSkinScroll()
+		uv0:Refresh(true)
+	end, 0.001)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -338,6 +328,8 @@ slot0.SetSkinScroll = function(slot0)
 	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
+
+	slot0.scrollrect.enabled = true
 end
 
 slot0.Refresh = function(slot0, slot1)
@@ -725,7 +717,7 @@ slot0.UpdateMainView = function(slot0, slot1)
 	setActive(slot0.changeSkin, slot2)
 
 	if slot2 then
-		slot0:FlushChangeSkin()
+		slot0:FlushChangeSkin(slot1)
 	end
 
 	slot0.shipSkin = ShipSkin.New({
@@ -747,22 +739,31 @@ slot0.UpdateMainView = function(slot0, slot1)
 	slot0.showingCommodity = slot1
 end
 
-slot0.FlushChangeSkin = function(slot0)
-	slot1 = ShipSkin.GetChangeSkinGroupId(slot0.skinId)
+slot0.FlushChangeSkin = function(slot0, slot1)
+	slot2 = ShipSkin.GetChangeSkinGroupId(slot0.skinId)
+	slot3 = ShipSkin.GetChangeSkinCustomDataId(slot0.skinId, "hide_shop")
+
+	if pg.gameset.changeskin_switch_block and slot4.description and table.contains(slot4.description, slot2) then
+		slot6 = HXSet.isHx()
+
+		if slot1.buyCount <= 0 and slot6 then
+			setActive(slot0.changeSkin, false)
+		end
+	end
+
+	if slot3 and slot3 == 1 then
+		setActive(slot0.changeSkin, false)
+	end
 
 	if not slot0.changeSkinId then
 		slot0.changeSkinId = slot0.skinId
-	elseif ShipSkin.GetChangeSkinGroupId(slot0.changeSkinId) == slot1 then
+	elseif ShipSkin.GetChangeSkinGroupId(slot0.changeSkinId) == slot2 then
 		slot0.skinId = slot0.changeSkinId
 	else
 		slot0.changeSkinId = slot0.skinId
 	end
 
-	slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot0.skinId)
-
-	for slot5 = 1, 2 do
-		slot0.changeSkinToggles[slot5].isOn = slot5 == slot0._toggleIndex and true or false
-	end
+	slot0.changeSkinToggle:setSkinData(slot0.skinId)
 end
 
 slot0.GCHandle = function(slot0)

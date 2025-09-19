@@ -1441,7 +1441,8 @@ pg.fleet_tech_ship_class = {
 			30183,
 			30154,
 			30186,
-			30191
+			30191,
+			30192
 		}
 	},
 	[30112] = {
@@ -1518,7 +1519,8 @@ pg.fleet_tech_ship_class = {
 			30212,
 			30213,
 			30214,
-			30226
+			30226,
+			30227
 		}
 	},
 	[30205] = {
@@ -1616,7 +1618,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 87,
 		nation = 3,
 		ships = {
-			39901
+			39901,
+			30320
 		}
 	},
 	[30306] = {
@@ -1746,7 +1749,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30514,
 			30512,
-			30513
+			30513,
+			30516
 		}
 	},
 	[30508] = {
@@ -1941,6 +1945,17 @@ pg.fleet_tech_ship_class = {
 			30715
 		}
 	},
+	[30711] = {
+		shiptype = 7,
+		name = "白鳳",
+		t_level = 10,
+		id = 30711,
+		t_level_1 = 1,
+		nation = 3,
+		ships = {
+			30716
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "巡潛乙型",
@@ -1987,6 +2002,17 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			31701
+		}
+	},
+	[31702] = {
+		shiptype = 17,
+		name = "ST型",
+		t_level = 10,
+		id = 31702,
+		t_level_1 = 111,
+		nation = 3,
+		ships = {
+			31702
 		}
 	},
 	[31801] = {
@@ -4347,10 +4373,12 @@ pg.fleet_tech_ship_class = {
 		30708,
 		30709,
 		30710,
+		30711,
 		30801,
 		30802,
 		31201,
 		31701,
+		31702,
 		31801,
 		31901,
 		40101,

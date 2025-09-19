@@ -32,6 +32,7 @@ pg.pay_data_display = setmetatable({
 		87,
 		91,
 		93,
+		96,
 		2021,
 		2022,
 		2023,
@@ -56,6 +57,9 @@ pg.pay_data_display = setmetatable({
 		2050,
 		2051,
 		2052,
+		2057,
+		2058,
+		2059,
 		5001,
 		5002,
 		5003,
@@ -126,6 +130,7 @@ pg.pay_data_display = setmetatable({
 		4054,
 		4055,
 		4056,
+		4057,
 		4850,
 		4851,
 		4852,
@@ -3453,6 +3458,140 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[96] = {
+		picture = "fudai27",
+		name = "忍者之城換裝禮盒·I ",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "忍者之城換裝禮盒·I ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao143",
+		extra_gem = 0,
+		id = 96,
+		airijp_id = "com.yostarjp.azurlane.diamond184",
+		name_display = "忍者之城換裝禮盒·I ",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86217,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81217,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[2021] = {
 		picture = "haishangchuanqi",
 		name = "海上傳奇支援組合包",
@@ -5497,6 +5636,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40061,
+				1
+			}
+		}
+	},
+	[2057] = {
+		picture = "ui6",
+		name = "忍者之城主題禮包 ",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題忍者之城*1",
+		subject = "忍者之城主題禮包 ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui15",
+		extra_gem = 0,
+		id = 2057,
+		airijp_id = "com.yostarjp.azurlane.ui15",
+		name_display = "忍者之城主題禮包 ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2058] = {
+		picture = "ui6",
+		name = "忍者之城主題禮包(基礎版) ",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題忍者之城*1",
+		subject = "忍者之城主題禮包（基礎版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui16",
+		extra_gem = 0,
+		id = 2058,
+		airijp_id = "com.yostarjp.azurlane.ui16",
+		name_display = "忍者之城主題禮包(基礎版) ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40065,
+				1
+			}
+		}
+	},
+	[2059] = {
+		picture = "ui6",
+		name = "忍者之城主題禮包(豪華版) ",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題忍者之城*1,3060鑽石",
+		subject = "忍者之城主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui17",
+		extra_gem = 0,
+		id = 2059,
+		airijp_id = "com.yostarjp.azurlane.ui17",
+		name_display = "忍者之城主題禮包(豪華版) ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40066,
 				1
 			}
 		}
@@ -13276,6 +13678,140 @@ pg.base.pay_data_display = {
 				2,
 				81205,
 				1
+			}
+		}
+	},
+	[4057] = {
+		picture = "twfudai01",
+		name = "金秋禮盒·復刻",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "金秋禮盒",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package60",
+		extra_gem = 0,
+		id = 4057,
+		airijp_id = "com.hkmanjuu.azurlane.package60",
+		name_display = "金秋禮盒·復刻",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86010,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81015,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
 			}
 		}
 	},
