@@ -1,2584 +1,2599 @@
 pg = pg or {}
 pg.player_resource = {
 	{
+		id = 1,
 		name = "gold",
-		itemid = 59001,
-		["﻿id"] = 1
+		itemid = 59001
 	},
 	{
+		id = 2,
 		name = "oil",
-		itemid = 59002,
-		["﻿id"] = 2
+		itemid = 59002
 	},
 	{
+		id = 3,
 		name = "exploit",
-		itemid = 59003,
-		["﻿id"] = 3
+		itemid = 59003
 	},
 	{
+		id = 4,
 		name = "gem",
-		itemid = 59004,
-		["﻿id"] = 4
+		itemid = 59004
 	},
 	{
+		id = 5,
 		name = "oilField",
-		itemid = 0,
-		["﻿id"] = 5
+		itemid = 0
 	},
 	{
+		id = 6,
 		name = "dormMoney",
-		itemid = 59006,
-		["﻿id"] = 6
+		itemid = 59006
 	},
 	{
+		id = 7,
 		name = "goldField",
-		itemid = 0,
-		["﻿id"] = 7
+		itemid = 0
 	},
 	{
+		id = 8,
 		name = "guildCoin",
-		itemid = 59008,
-		["﻿id"] = 8
+		itemid = 59008
 	},
 	{
+		id = 9,
 		name = "design_prt",
-		itemid = 59009,
-		["﻿id"] = 9
+		itemid = 59009
 	},
 	{
+		id = 10,
 		name = "expField",
-		itemid = 0,
-		["﻿id"] = 10
+		itemid = 0
 	},
 	{
+		id = 11,
 		name = "gamecoin",
-		itemid = 59015,
-		["﻿id"] = 11
+		itemid = 59015
 	},
 	{
+		id = 12,
 		name = "gameticket",
-		itemid = 59016,
-		["﻿id"] = 12
+		itemid = 59016
 	},
 	[14] = {
+		id = 14,
 		name = "freeGem",
-		itemid = 59005,
-		["﻿id"] = 14
+		itemid = 59005
 	},
 	[15] = {
+		id = 15,
 		name = "soundStoryCard",
-		itemid = 59017,
-		["﻿id"] = 15
+		itemid = 59017
 	},
 	[16] = {
+		id = 16,
 		name = "gold_mail",
-		itemid = 59001,
-		["﻿id"] = 16
+		itemid = 59001
 	},
 	[17] = {
+		id = 17,
 		name = "oil_mail",
-		itemid = 59002,
-		["﻿id"] = 17
+		itemid = 59002
 	},
 	[101] = {
+		id = 101,
 		name = "battery",
-		itemid = 59102,
-		["﻿id"] = 101
+		itemid = 59102
 	},
 	[102] = {
+		id = 102,
 		name = "pt",
-		itemid = 59103,
-		["﻿id"] = 102
+		itemid = 59103
 	},
 	[103] = {
+		id = 103,
 		name = "ema",
-		itemid = 59104,
-		["﻿id"] = 103
+		itemid = 59104
 	},
 	[104] = {
+		id = 104,
 		name = "star",
-		itemid = 59105,
-		["﻿id"] = 104
+		itemid = 59105
 	},
 	[105] = {
+		id = 105,
 		name = "grace",
-		itemid = 59106,
-		["﻿id"] = 105
+		itemid = 59106
 	},
 	[106] = {
+		id = 106,
 		name = "ema1",
-		itemid = 59107,
-		["﻿id"] = 106
+		itemid = 59107
 	},
 	[107] = {
+		id = 107,
 		name = "mengjiu",
-		itemid = 59108,
-		["﻿id"] = 107
+		itemid = 59108
 	},
 	[108] = {
+		id = 108,
 		name = "omamori",
-		itemid = 59109,
-		["﻿id"] = 108
+		itemid = 59109
 	},
 	[109] = {
+		id = 109,
 		name = "bilibili",
-		itemid = 59110,
-		["﻿id"] = 109
+		itemid = 59110
 	},
 	[110] = {
+		id = 110,
 		name = "yisegefuke_pt",
-		itemid = 59111,
-		["﻿id"] = 110
+		itemid = 59111
 	},
 	[111] = {
+		id = 111,
 		name = "faxipt",
-		itemid = 59112,
-		["﻿id"] = 111
+		itemid = 59112
 	},
 	[112] = {
+		id = 112,
 		name = "jiujiu",
-		itemid = 59113,
-		["﻿id"] = 112
+		itemid = 59113
 	},
 	[113] = {
+		id = 113,
 		name = "nvpu_pt",
-		itemid = 59115,
-		["﻿id"] = 113
+		itemid = 59115
 	},
 	[114] = {
+		id = 114,
 		name = "zhandouzhixing",
-		itemid = 59116,
-		["﻿id"] = 114
+		itemid = 59116
 	},
 	[115] = {
+		id = 115,
 		name = "chuansonghaogan",
-		itemid = 59117,
-		["﻿id"] = 115
+		itemid = 59117
 	},
 	[116] = {
+		id = 116,
 		name = "chuansong",
-		itemid = 59118,
-		["﻿id"] = 116
+		itemid = 59118
 	},
 	[117] = {
+		id = 117,
 		name = "longxiang",
-		itemid = 59119,
-		["﻿id"] = 117
+		itemid = 59119
 	},
 	[118] = {
+		id = 118,
 		name = "tiancheng",
-		itemid = 59120,
-		["﻿id"] = 118
+		itemid = 59120
 	},
 	[119] = {
+		id = 119,
 		name = "British_pt",
-		itemid = 59121,
-		["﻿id"] = 119
+		itemid = 59121
 	},
 	[120] = {
+		id = 120,
 		name = "naerweikehaogan",
-		itemid = 59123,
-		["﻿id"] = 120
+		itemid = 59123
 	},
 	[121] = {
+		id = 121,
 		name = "omamori1",
-		itemid = 59124,
-		["﻿id"] = 121
+		itemid = 59124
 	},
 	[122] = {
+		id = 122,
 		name = "battery1",
-		itemid = 59125,
-		["﻿id"] = 122
+		itemid = 59125
 	},
 	[123] = {
+		id = 123,
 		name = "kizuna_pt",
-		itemid = 59126,
-		["﻿id"] = 123
+		itemid = 59126
 	},
 	[124] = {
+		id = 124,
 		name = "union_pt",
-		itemid = 59127,
-		["﻿id"] = 124
+		itemid = 59127
 	},
 	[125] = {
+		id = 125,
 		name = "skinTicket",
-		itemid = 59128,
-		["﻿id"] = 125
+		itemid = 59128
 	},
 	[126] = {
+		id = 126,
 		name = "bisimai_pt",
-		itemid = 59129,
-		["﻿id"] = 126
+		itemid = 59129
 	},
 	[127] = {
+		id = 127,
 		name = "xiaoshengdiyagehaogan",
-		itemid = 59130,
-		["﻿id"] = 127
+		itemid = 59130
 	},
 	[129] = {
+		id = 129,
 		name = "bili_pt",
-		itemid = 59132,
-		["﻿id"] = 129
+		itemid = 59132
 	},
 	[130] = {
+		id = 130,
 		name = "faxi_pt",
-		itemid = 59133,
-		["﻿id"] = 130
+		itemid = 59133
 	},
 	[131] = {
+		id = 131,
 		name = "newmeixi_pt",
-		itemid = 59134,
-		["﻿id"] = 131
+		itemid = 59134
 	},
 	[132] = {
+		id = 132,
 		name = "qixihaibao_pt",
-		itemid = 59135,
-		["﻿id"] = 132
+		itemid = 59135
 	},
 	[133] = {
+		id = 133,
 		name = "yidali_pt",
-		itemid = 59137,
-		["﻿id"] = 133
+		itemid = 59137
 	},
 	[134] = {
+		id = 134,
 		name = "xunliandianshu",
-		itemid = 59138,
-		["﻿id"] = 134
+		itemid = 59138
 	},
 	[135] = {
+		id = 135,
 		name = "union2_pt",
-		itemid = 59139,
-		["﻿id"] = 135
+		itemid = 59139
 	},
 	[136] = {
+		id = 136,
 		name = "skinTicket2",
-		itemid = 59140,
-		["﻿id"] = 136
+		itemid = 59140
 	},
 	[137] = {
+		id = 137,
 		name = "ouxiang_pt",
-		itemid = 59143,
-		["﻿id"] = 137
+		itemid = 59143
 	},
 	[138] = {
+		id = 138,
 		name = "hololive_pt",
-		itemid = 59144,
-		["﻿id"] = 138
+		itemid = 59144
 	},
 	[139] = {
+		id = 139,
 		name = "dashenling_pt",
-		itemid = 59145,
-		["﻿id"] = 139
+		itemid = 59145
 	},
 	[140] = {
+		id = 140,
 		name = "xunliandianshu_r",
-		itemid = 59146,
-		["﻿id"] = 140
+		itemid = 59146
 	},
 	[141] = {
+		id = 141,
 		name = "xinrixi_pt",
-		itemid = 59147,
-		["﻿id"] = 141
+		itemid = 59147
 	},
 	[142] = {
+		id = 142,
 		name = "xunliandianshu_m",
-		itemid = 59148,
-		["﻿id"] = 142
+		itemid = 59148
 	},
 	[143] = {
+		id = 143,
 		name = "maoxi_pt",
-		itemid = 59149,
-		["﻿id"] = 143
+		itemid = 59149
 	},
 	[144] = {
+		id = 144,
 		name = "skinTicket3",
-		itemid = 59150,
-		["﻿id"] = 144
+		itemid = 59150
 	},
 	[145] = {
+		id = 145,
 		name = "longxiang2",
-		itemid = 59151,
-		["﻿id"] = 145
+		itemid = 59151
 	},
 	[146] = {
+		id = 146,
 		name = "sofmap_pt",
-		itemid = 59152,
-		["﻿id"] = 146
+		itemid = 59152
 	},
 	[147] = {
+		id = 147,
 		name = "battery2",
-		itemid = 59153,
-		["﻿id"] = 147
+		itemid = 59153
 	},
 	[148] = {
+		id = 148,
 		name = "xunliandianshu_v3",
-		itemid = 59154,
-		["﻿id"] = 148
+		itemid = 59154
 	},
 	[149] = {
+		id = 149,
 		name = "meixiv3_pt",
-		itemid = 59155,
-		["﻿id"] = 149
+		itemid = 59155
 	},
 	[150] = {
+		id = 150,
 		name = "skinTicket4",
-		itemid = 59156,
-		["﻿id"] = 150
+		itemid = 59156
 	},
 	[151] = {
+		id = 151,
 		name = "tiancheng2",
-		itemid = 59157,
-		["﻿id"] = 151
+		itemid = 59157
 	},
 	[152] = {
+		id = 152,
 		name = "xiaoshengwang_pt",
-		itemid = 59158,
-		["﻿id"] = 152
+		itemid = 59158
 	},
 	[153] = {
+		id = 153,
 		name = "skinTicket5",
-		itemid = 59159,
-		["﻿id"] = 153
+		itemid = 59159
 	},
 	[154] = {
+		id = 154,
 		name = "xunliandianshu_fv2",
-		itemid = 59160,
-		["﻿id"] = 154
+		itemid = 59160
 	},
 	[156] = {
+		id = 156,
 		name = "union3_pt",
-		itemid = 59162,
-		["﻿id"] = 156
+		itemid = 59162
 	},
 	[157] = {
+		id = 157,
 		name = "bishengke_pt",
-		itemid = 59163,
-		["﻿id"] = 157
+		itemid = 59163
 	},
 	[159] = {
+		id = 159,
 		name = "faxiv2_pt",
-		itemid = 59165,
-		["﻿id"] = 159
+		itemid = 59165
 	},
 	[160] = {
+		id = 160,
 		name = "skinTicket6",
-		itemid = 59168,
-		["﻿id"] = 160
+		itemid = 59168
 	},
 	[161] = {
+		id = 161,
 		name = "naerweike2_pt",
-		itemid = 59169,
-		["﻿id"] = 161
+		itemid = 59169
 	},
 	[162] = {
+		id = 162,
 		name = "xunliandianshu_yv2",
-		itemid = 59170,
-		["﻿id"] = 162
+		itemid = 59170
 	},
 	[163] = {
+		id = 163,
 		name = "yingxiv2_pt",
-		itemid = 59171,
-		["﻿id"] = 163
+		itemid = 59171
 	},
 	[164] = {
+		id = 164,
 		name = "skinTicket7",
-		itemid = 59172,
-		["﻿id"] = 164
+		itemid = 59172
 	},
 	[165] = {
+		id = 165,
 		name = "meifu2_pt",
-		itemid = 59173,
-		["﻿id"] = 165
+		itemid = 59173
 	},
 	[166] = {
+		id = 166,
 		name = "bisimai_pt2",
-		itemid = 59174,
-		["﻿id"] = 166
+		itemid = 59174
 	},
 	[167] = {
+		id = 167,
 		name = "skinTicket8",
-		itemid = 59175,
-		["﻿id"] = 167
+		itemid = 59175
 	},
 	[168] = {
+		id = 168,
 		name = "union4_pt",
-		itemid = 59176,
-		["﻿id"] = 168
+		itemid = 59176
 	},
 	[170] = {
+		id = 170,
 		name = "skinTicket9",
-		itemid = 59181,
-		["﻿id"] = 170
+		itemid = 59181
 	},
 	[171] = {
+		id = 171,
 		name = "shinano_pt",
-		itemid = 59182,
-		["﻿id"] = 171
+		itemid = 59182
 	},
 	[169] = {
+		id = 169,
 		name = "shinanoframept",
-		itemid = 59180,
-		["﻿id"] = 169
+		itemid = 59180
 	},
 	[172] = {
+		id = 172,
 		name = "pulinsidun_pt",
-		itemid = 59183,
-		["﻿id"] = 172
+		itemid = 59183
 	},
 	[173] = {
+		id = 173,
 		name = "skinTicket10",
-		itemid = 59186,
-		["﻿id"] = 173
+		itemid = 59186
 	},
 	[175] = {
+		id = 175,
 		name = "ouxiang2_pt",
-		itemid = 59185,
-		["﻿id"] = 175
+		itemid = 59185
 	},
 	[176] = {
+		id = 176,
 		name = "naerweikehaogan2",
-		itemid = 59188,
-		["﻿id"] = 176
+		itemid = 59188
 	},
 	[177] = {
+		id = 177,
 		name = "DOApt",
-		itemid = 59189,
-		["﻿id"] = 177
+		itemid = 59189
 	},
 	[178] = {
+		id = 178,
 		name = "skinTicket11",
-		itemid = 59190,
-		["﻿id"] = 178
+		itemid = 59190
 	},
 	[179] = {
+		id = 179,
 		name = "dexiv3framept",
-		itemid = 59191,
-		["﻿id"] = 179
+		itemid = 59191
 	},
 	[180] = {
+		id = 180,
 		name = "dexiv3_pt",
-		itemid = 59192,
-		["﻿id"] = 180
+		itemid = 59192
 	},
 	[181] = {
+		id = 181,
 		name = "skinTicket12",
-		itemid = 59193,
-		["﻿id"] = 181
+		itemid = 59193
 	},
 	[182] = {
+		id = 182,
 		name = "yidalifukeframept",
-		itemid = 59195,
-		["﻿id"] = 182
+		itemid = 59195
 	},
 	[183] = {
+		id = 183,
 		name = "yidali_pt2",
-		itemid = 59196,
-		["﻿id"] = 183
+		itemid = 59196
 	},
 	[184] = {
+		id = 184,
 		name = "skinTicket13",
-		itemid = 59197,
-		["﻿id"] = 184
+		itemid = 59197
 	},
 	[185] = {
+		id = 185,
 		name = "skinTicket14",
-		itemid = 59198,
-		["﻿id"] = 185
+		itemid = 59198
 	},
 	[186] = {
+		id = 186,
 		name = "chunjie_pt",
-		itemid = 59199,
-		["﻿id"] = 186
+		itemid = 59199
 	},
 	[187] = {
+		id = 187,
 		name = "maoxiv2framept",
-		itemid = 59200,
-		["﻿id"] = 187
+		itemid = 59200
 	},
 	[188] = {
+		id = 188,
 		name = "maoxiv2_pt",
-		itemid = 59201,
-		["﻿id"] = 188
+		itemid = 59201
 	},
 	[189] = {
+		id = 189,
 		name = "skinTicket15",
-		itemid = 59202,
-		["﻿id"] = 189
+		itemid = 59202
 	},
 	[190] = {
+		id = 190,
 		name = "wwf2",
-		itemid = 59203,
-		["﻿id"] = 190
+		itemid = 59203
 	},
 	[191] = {
+		id = 191,
 		name = "wwf2_ning",
-		itemid = 59204,
-		["﻿id"] = 191
+		itemid = 59204
 	},
 	[192] = {
+		id = 192,
 		name = "wwf2_ping",
-		itemid = 59205,
-		["﻿id"] = 192
+		itemid = 59205
 	},
 	[193] = {
+		id = 193,
 		name = "yidaliv2_frame",
-		itemid = 59206,
-		["﻿id"] = 193
+		itemid = 59206
 	},
 	[194] = {
+		id = 194,
 		name = "newmeixire_pt",
-		itemid = 59207,
-		["﻿id"] = 194
+		itemid = 59207
 	},
 	[195] = {
+		id = 195,
 		name = "skinTicket16",
-		itemid = 59208,
-		["﻿id"] = 195
+		itemid = 59208
 	},
 	[196] = {
+		id = 196,
 		name = "yidaliV2_pt",
-		itemid = 59209,
-		["﻿id"] = 196
+		itemid = 59209
 	},
 	[197] = {
+		id = 197,
 		name = "skinTicket17",
-		itemid = 59210,
-		["﻿id"] = 197
+		itemid = 59210
 	},
 	[198] = {
+		id = 198,
 		name = "xiaotiancheng_pt",
-		itemid = 59211,
-		["﻿id"] = 198
+		itemid = 59211
 	},
 	[199] = {
+		id = 199,
 		name = "newmeixiv4framept",
-		itemid = 59212,
-		["﻿id"] = 199
+		itemid = 59212
 	},
 	[200] = {
+		id = 200,
 		name = "xiongxiaobai_pt",
-		itemid = 59213,
-		["﻿id"] = 200
+		itemid = 59213
 	},
 	[201] = {
+		id = 201,
 		name = "xinzexi_pt",
-		itemid = 59214,
-		["﻿id"] = 201
+		itemid = 59214
 	},
 	[202] = {
+		id = 202,
 		name = "skinTicket18",
-		itemid = 59215,
-		["﻿id"] = 202
+		itemid = 59215
 	},
 	[203] = {
+		id = 203,
 		name = "xiaoqiye_pt",
-		itemid = 59216,
-		["﻿id"] = 203
+		itemid = 59216
 	},
 	[204] = {
+		id = 204,
 		name = "union5_pt",
-		itemid = 59217,
-		["﻿id"] = 204
+		itemid = 59217
 	},
 	[205] = {
+		id = 205,
 		name = "duihuanquan_pt",
-		itemid = 59219,
-		["﻿id"] = 205
+		itemid = 59219
 	},
 	[206] = {
+		id = 206,
 		name = "xunliandianshu_r2",
-		itemid = 59221,
-		["﻿id"] = 206
+		itemid = 59221
 	},
 	[207] = {
+		id = 207,
 		name = "TWkaifuPT1",
-		itemid = 59222,
-		["﻿id"] = 207
+		itemid = 59222
 	},
 	[208] = {
+		id = 208,
 		name = "xinrixi_pt2",
-		itemid = 59223,
-		["﻿id"] = 208
+		itemid = 59223
 	},
 	[209] = {
+		id = 209,
 		name = "skinTicket19",
-		itemid = 59224,
-		["﻿id"] = 209
+		itemid = 59224
 	},
 	[211] = {
+		id = 211,
 		name = "meixiv3_pt2",
-		itemid = 59229,
-		["﻿id"] = 211
+		itemid = 59229
 	},
 	[215] = {
+		id = 215,
 		name = "idolMasterPT",
-		itemid = 59230,
-		["﻿id"] = 215
+		itemid = 59230
 	},
 	[216] = {
+		id = 216,
 		name = "skinTicket20",
-		itemid = 59231,
-		["﻿id"] = 216
+		itemid = 59231
 	},
 	[217] = {
+		id = 217,
 		name = "xunliandianshu_v3_2",
-		itemid = 59232,
-		["﻿id"] = 217
+		itemid = 59232
 	},
 	[218] = {
+		id = 218,
 		name = "skinTicket21",
-		itemid = 59233,
-		["﻿id"] = 218
+		itemid = 59233
 	},
 	[219] = {
+		id = 219,
 		name = "daofeng_pt",
-		itemid = 59234,
-		["﻿id"] = 219
+		itemid = 59234
 	},
 	[212] = {
+		id = 212,
 		name = "rixiv2_pt",
-		itemid = 59235,
-		["﻿id"] = 212
+		itemid = 59235
 	},
 	[220] = {
+		id = 220,
 		name = "union6_pt",
-		itemid = 59238,
-		["﻿id"] = 220
+		itemid = 59238
 	},
 	[221] = {
+		id = 221,
 		name = "skinTicket22",
-		itemid = 59240,
-		["﻿id"] = 221
+		itemid = 59240
 	},
 	[222] = {
+		id = 222,
 		name = "faxiv2_frame_pt",
-		itemid = 59243,
-		["﻿id"] = 222
+		itemid = 59243
 	},
 	[223] = {
+		id = 223,
 		name = "faxiv2_pt2",
-		itemid = 59246,
-		["﻿id"] = 223
+		itemid = 59246
 	},
 	[224] = {
+		id = 224,
 		name = "skinTicket23",
-		itemid = 59248,
-		["﻿id"] = 224
+		itemid = 59248
 	},
 	[225] = {
+		id = 225,
 		name = "skinTicket24",
-		itemid = 59249,
-		["﻿id"] = 225
+		itemid = 59249
 	},
 	[226] = {
+		id = 226,
 		name = "fuxu_pt",
-		itemid = 59250,
-		["﻿id"] = 226
+		itemid = 59250
 	},
 	[227] = {
+		id = 227,
 		name = "gulite_pt",
-		itemid = 59251,
-		["﻿id"] = 227
+		itemid = 59251
 	},
 	[228] = {
+		id = 228,
 		name = "skinTicket25",
-		itemid = 59252,
-		["﻿id"] = 228
+		itemid = 59252
 	},
 	[229] = {
+		id = 229,
 		name = "xiaoshengdiyagehaogan_2",
-		itemid = 59255,
-		["﻿id"] = 229
+		itemid = 59255
 	},
 	[230] = {
+		id = 230,
 		name = "dexiv4framept",
-		itemid = 59256,
-		["﻿id"] = 230
+		itemid = 59256
 	},
 	[231] = {
+		id = 231,
 		name = "skinTicket26",
-		itemid = 59257,
-		["﻿id"] = 231
+		itemid = 59257
 	},
 	[232] = {
+		id = 232,
 		name = "dexiur_pt",
-		itemid = 59258,
-		["﻿id"] = 232
+		itemid = 59258
 	},
 	[234] = {
+		id = 234,
 		name = "chunjie_pt2",
-		itemid = 59263,
-		["﻿id"] = 234
+		itemid = 59263
 	},
 	[235] = {
+		id = 235,
 		name = "skinTicket27",
-		itemid = 59264,
-		["﻿id"] = 235
+		itemid = 59264
 	},
 	[236] = {
+		id = 236,
 		name = "maoxi_pt2",
-		itemid = 59271,
-		["﻿id"] = 236
+		itemid = 59271
 	},
 	[237] = {
+		id = 237,
 		name = "maoxifukeframept",
-		itemid = 59272,
-		["﻿id"] = 237
+		itemid = 59272
 	},
 	[238] = {
+		id = 238,
 		name = "skinTicket28",
-		itemid = 59273,
-		["﻿id"] = 238
+		itemid = 59273
 	},
 	[239] = {
+		id = 239,
 		name = "maoxiv3_frame_pt",
-		itemid = 59275,
-		["﻿id"] = 239
+		itemid = 59275
 	},
 	[240] = {
+		id = 240,
 		name = "maoxiv3_pt",
-		itemid = 59276,
-		["﻿id"] = 240
+		itemid = 59276
 	},
 	[241] = {
+		id = 241,
 		name = "skinTicket29",
-		itemid = 59277,
-		["﻿id"] = 241
+		itemid = 59277
 	},
 	[242] = {
+		id = 242,
 		name = "naerweike2re_pt",
-		itemid = 59278,
-		["﻿id"] = 242
+		itemid = 59278
 	},
 	[243] = {
+		id = 243,
 		name = "yidalisp_pt",
-		itemid = 59279,
-		["﻿id"] = 243
+		itemid = 59279
 	},
 	[244] = {
+		id = 244,
 		name = "skinTicket30",
-		itemid = 59282,
-		["﻿id"] = 244
+		itemid = 59282
 	},
 	[245] = {
+		id = 245,
 		name = "yingxiv2re_pt",
-		itemid = 59283,
-		["﻿id"] = 245
+		itemid = 59283
 	},
 	[246] = {
+		id = 246,
 		name = "skinTicket31",
-		itemid = 59285,
-		["﻿id"] = 246
+		itemid = 59285
 	},
 	[247] = {
+		id = 247,
 		name = "xiaoshengwang_pt2",
-		itemid = 59286,
-		["﻿id"] = 247
+		itemid = 59286
 	},
 	[248] = {
+		id = 248,
 		name = "yingxiv2re_frame_pt1",
-		itemid = 59287,
-		["﻿id"] = 248
+		itemid = 59287
 	},
 	[249] = {
+		id = 249,
 		name = "newserver_pt_220414",
-		itemid = 59289,
-		["﻿id"] = 249
+		itemid = 59289
 	},
 	[250] = {
+		id = 250,
 		name = "gonghaijiandui_frame_pt",
-		itemid = 59305,
-		["﻿id"] = 250
+		itemid = 59305
 	},
 	[251] = {
+		id = 251,
 		name = "gonghaijiandui_pt",
-		itemid = 59307,
-		["﻿id"] = 251
+		itemid = 59307
 	},
 	[252] = {
+		id = 252,
 		name = "xiaoougen_pt",
-		itemid = 59308,
-		["﻿id"] = 252
+		itemid = 59308
 	},
 	[253] = {
+		id = 253,
 		name = "xiaoougen_youhao_pt",
-		itemid = 59309,
-		["﻿id"] = 253
+		itemid = 59309
 	},
 	[254] = {
+		id = 254,
 		name = "skinTicket32",
-		itemid = 59310,
-		["﻿id"] = 254
+		itemid = 59310
 	},
 	[255] = {
+		id = 255,
 		name = "yingxiur_frame_pt",
-		itemid = 59311,
-		["﻿id"] = 255
+		itemid = 59311
 	},
 	[260] = {
+		id = 260,
 		name = "yingxiv3_pt",
-		itemid = 59316,
-		["﻿id"] = 260
+		itemid = 59316
 	},
 	[261] = {
+		id = 261,
 		name = "skinTicket33",
-		itemid = 59317,
-		["﻿id"] = 261
+		itemid = 59317
 	},
 	[262] = {
+		id = 262,
 		name = "xiaochaijun_pt",
-		itemid = 59318,
-		["﻿id"] = 262
+		itemid = 59318
 	},
 	[263] = {
+		id = 263,
 		name = "xiaochaijun_youhao_pt",
-		itemid = 59319,
-		["﻿id"] = 263
+		itemid = 59319
 	},
 	[264] = {
+		id = 264,
 		name = "union7_pt",
-		itemid = 59320,
-		["﻿id"] = 264
+		itemid = 59320
 	},
 	[265] = {
+		id = 265,
 		name = "pulinsidun_pt2",
-		itemid = 59321,
-		["﻿id"] = 265
+		itemid = 59321
 	},
 	[266] = {
+		id = 266,
 		name = "commission_pt",
-		itemid = 59322,
-		["﻿id"] = 266
+		itemid = 59322
 	},
 	[267] = {
+		id = 267,
 		name = "skinTicket34",
-		itemid = 59325,
-		["﻿id"] = 267
+		itemid = 59325
 	},
 	[268] = {
+		id = 268,
 		name = "shinano_frame_pt2",
-		itemid = 59326,
-		["﻿id"] = 268
+		itemid = 59326
 	},
 	[269] = {
+		id = 269,
 		name = "shinano_pt2",
-		itemid = 59328,
-		["﻿id"] = 269
+		itemid = 59328
 	},
 	[270] = {
+		id = 270,
 		name = "skinTicket35",
-		itemid = 59329,
-		["﻿id"] = 270
+		itemid = 59329
 	},
 	[271] = {
+		id = 271,
 		name = "yidaliv3_pt",
-		itemid = 59331,
-		["﻿id"] = 271
+		itemid = 59331
 	},
 	[272] = {
+		id = 272,
 		name = "skinTicket36",
-		itemid = 59333,
-		["﻿id"] = 272
+		itemid = 59333
 	},
 	[273] = {
+		id = 273,
 		name = "meifu2_pt_re",
-		itemid = 59334,
-		["﻿id"] = 273
+		itemid = 59334
 	},
 	[274] = {
+		id = 274,
 		name = "bulvxieer_pt",
-		itemid = 59336,
-		["﻿id"] = 274
+		itemid = 59336
 	},
 	[275] = {
+		id = 275,
 		name = "skinTicket37",
-		itemid = 59337,
-		["﻿id"] = 275
+		itemid = 59337
 	},
 	[276] = {
+		id = 276,
 		name = "kfc_pt",
-		itemid = 59338,
-		["﻿id"] = 276
+		itemid = 59338
 	},
 	[277] = {
+		id = 277,
 		name = "rixiv3_pt",
-		itemid = 59345,
-		["﻿id"] = 277
+		itemid = 59345
 	},
 	[278] = {
+		id = 278,
 		name = "skinTicket38",
-		itemid = 59346,
-		["﻿id"] = 278
+		itemid = 59346
 	},
 	[279] = {
+		id = 279,
 		name = "union8_pt",
-		itemid = 59348,
-		["﻿id"] = 279
+		itemid = 59348
 	},
 	[280] = {
+		id = 280,
 		name = "xiaosipei_pt",
-		itemid = 59350,
-		["﻿id"] = 280
+		itemid = 59350
 	},
 	[281] = {
+		id = 281,
 		name = "yongzhe_pt",
-		itemid = 59351,
-		["﻿id"] = 281
+		itemid = 59351
 	},
 	[282] = {
+		id = 282,
 		name = "skinTicket39",
-		itemid = 59354,
-		["﻿id"] = 282
+		itemid = 59354
 	},
 	[283] = {
+		id = 283,
 		name = "dexiv3_pt2",
-		itemid = 59357,
-		["﻿id"] = 283
+		itemid = 59357
 	},
 	[284] = {
+		id = 284,
 		name = "skinTicket40",
-		itemid = 59359,
-		["﻿id"] = 284
+		itemid = 59359
 	},
 	[285] = {
+		id = 285,
 		name = "newserver_pt_221110",
-		itemid = 59362,
-		["﻿id"] = 285
+		itemid = 59362
 	},
 	[286] = {
+		id = 286,
 		name = "ryza_task_pt",
-		itemid = 59363,
-		["﻿id"] = 286
+		itemid = 59363
 	},
 	[287] = {
+		id = 287,
 		name = "ryza_pt",
-		itemid = 59364,
-		["﻿id"] = 287
+		itemid = 59364
 	},
 	[288] = {
+		id = 288,
 		name = "skinTicket41",
-		itemid = 59365,
-		["﻿id"] = 288
+		itemid = 59365
 	},
 	[290] = {
+		id = 290,
 		name = "wenquanjuan_pt",
-		itemid = 59371,
-		["﻿id"] = 290
+		itemid = 59371
 	},
 	[291] = {
+		id = 291,
 		name = "xinnianzhufu_pt",
-		itemid = 59372,
-		["﻿id"] = 291
+		itemid = 59372
 	},
 	[292] = {
+		id = 292,
 		name = "meixierxing_pt",
-		itemid = 59373,
-		["﻿id"] = 292
+		itemid = 59373
 	},
 	[293] = {
+		id = 293,
 		name = "skinTicket42",
-		itemid = 59374,
-		["﻿id"] = 293
+		itemid = 59374
 	},
 	[295] = {
+		id = 295,
 		name = "maoxiv2_pt2",
-		itemid = 59377,
-		["﻿id"] = 295
+		itemid = 59377
 	},
 	[296] = {
+		id = 296,
 		name = "skinTicket43",
-		itemid = 59378,
-		["﻿id"] = 296
+		itemid = 59378
 	},
 	[297] = {
+		id = 297,
 		name = "skinTicket44",
-		itemid = 59389,
-		["﻿id"] = 297
+		itemid = 59389
 	},
 	[300] = {
+		id = 300,
 		name = "chunjie_pt3",
-		itemid = 59390,
-		["﻿id"] = 300
+		itemid = 59390
 	},
 	[301] = {
+		id = 301,
 		name = "feicaizhixing_pt",
-		itemid = 59391,
-		["﻿id"] = 301
+		itemid = 59391
 	},
 	[302] = {
+		id = 302,
 		name = "yingxiv4_pt",
-		itemid = 59395,
-		["﻿id"] = 302
+		itemid = 59395
 	},
 	[303] = {
+		id = 303,
 		name = "skinTicket45",
-		itemid = 59396,
-		["﻿id"] = 303
+		itemid = 59396
 	},
 	[304] = {
+		id = 304,
 		name = "yidaliV2",
-		itemid = 59398,
-		["﻿id"] = 304
+		itemid = 59398
 	},
 	[305] = {
+		id = 305,
 		name = "skinTicket46",
-		itemid = 59399,
-		["﻿id"] = 305
+		itemid = 59399
 	},
 	[306] = {
+		id = 306,
 		name = "xiaotiancheng_pt2",
-		itemid = 59401,
-		["﻿id"] = 306
+		itemid = 59401
 	},
 	[307] = {
+		id = 307,
 		name = "commission_pt2",
-		itemid = 59402,
-		["﻿id"] = 307
+		itemid = 59402
 	},
 	[308] = {
+		id = 308,
 		name = "jidifengbao_pt",
-		itemid = 59405,
-		["﻿id"] = 308
+		itemid = 59405
 	},
 	[309] = {
+		id = 309,
 		name = "skinTicket47",
-		itemid = 59406,
-		["﻿id"] = 309
+		itemid = 59406
 	},
 	[310] = {
+		id = 310,
 		name = "newserver_pt_230427",
-		itemid = 59408,
-		["﻿id"] = 310
+		itemid = 59408
 	},
 	[311] = {
+		id = 311,
 		name = "xiaoqiye_pt2",
-		itemid = 59409,
-		["﻿id"] = 311
+		itemid = 59409
 	},
 	[312] = {
+		id = 312,
 		name = "fuxu1_pt",
-		itemid = 59410,
-		["﻿id"] = 312
+		itemid = 59410
 	},
 	[313] = {
+		id = 313,
 		name = "xiaokewei_pt",
-		itemid = 59411,
-		["﻿id"] = 313
+		itemid = 59411
 	},
 	[315] = {
+		id = 315,
 		name = "DOApt_2",
-		itemid = 59420,
-		["﻿id"] = 315
+		itemid = 59420
 	},
 	[316] = {
+		id = 316,
 		name = "skinTicket48",
-		itemid = 59421,
-		["﻿id"] = 316
+		itemid = 59421
 	},
 	[317] = {
+		id = 317,
 		name = "xiaochaijun_pt2",
-		itemid = 59548,
-		["﻿id"] = 317
+		itemid = 59548
 	},
 	[318] = {
+		id = 318,
 		name = "xiaochaijun_youhao_pt2",
-		itemid = 59549,
-		["﻿id"] = 318
+		itemid = 59549
 	},
 	[319] = {
+		id = 319,
 		name = "xiaoxinnong_pt",
-		itemid = 59572,
-		["﻿id"] = 319
+		itemid = 59572
 	},
 	[320] = {
+		id = 320,
 		name = "xiaosipei_pt2",
-		itemid = 59576,
-		["﻿id"] = 320
+		itemid = 59576
 	},
 	[321] = {
+		id = 321,
 		name = "xiaofeitelie_pt",
-		itemid = 59585,
-		["﻿id"] = 321
+		itemid = 59585
 	},
 	[350] = {
+		id = 350,
 		name = "liuzhounianhaidao_pt",
-		itemid = 59450,
-		["﻿id"] = 350
+		itemid = 59450
 	},
 	[351] = {
+		id = 351,
 		name = "bsmz_pt",
-		itemid = 59452,
-		["﻿id"] = 351
+		itemid = 59452
 	},
 	[352] = {
+		id = 352,
 		name = "skinTicket49",
-		itemid = 59453,
-		["﻿id"] = 352
+		itemid = 59453
 	},
 	[353] = {
+		id = 353,
 		name = "union9_pt",
-		itemid = 59454,
-		["﻿id"] = 353
+		itemid = 59454
 	},
 	[354] = {
+		id = 354,
 		name = "island_invitation_pt",
-		itemid = 59457,
-		["﻿id"] = 354
+		itemid = 59457
 	},
 	[355] = {
+		id = 355,
 		name = "xiaodafeng_youhao_pt",
-		itemid = 59458,
-		["﻿id"] = 355
+		itemid = 59458
 	},
 	[356] = {
+		id = 356,
 		name = "xinzexi_pt1",
-		itemid = 59459,
-		["﻿id"] = 356
+		itemid = 59459
 	},
 	[357] = {
+		id = 357,
 		name = "skinTicket50",
-		itemid = 59461,
-		["﻿id"] = 357
+		itemid = 59461
 	},
 	[358] = {
+		id = 358,
 		name = "skinTicket51",
-		itemid = 59465,
-		["﻿id"] = 358
+		itemid = 59465
 	},
 	[359] = {
+		id = 359,
 		name = "gulite_pt_2",
-		itemid = 59466,
-		["﻿id"] = 359
+		itemid = 59466
 	},
 	[360] = {
+		id = 360,
 		name = "skinTicket52",
-		itemid = 59469,
-		["﻿id"] = 360
+		itemid = 59469
 	},
 	[361] = {
+		id = 361,
 		name = "masaiqu_pt",
-		itemid = 59470,
-		["﻿id"] = 361
+		itemid = 59470
 	},
 	[365] = {
+		id = 365,
 		name = "klms_pt",
-		itemid = 59481,
-		["﻿id"] = 365
+		itemid = 59481
 	},
 	[366] = {
+		id = 366,
 		name = "skinTicket55",
-		itemid = 59480,
-		["﻿id"] = 366
+		itemid = 59480
 	},
 	[367] = {
+		id = 367,
 		name = "partyinvitation_pt",
-		itemid = 59482,
-		["﻿id"] = 367
+		itemid = 59482
 	},
 	[368] = {
+		id = 368,
 		name = "yunxian_pt",
-		itemid = 59485,
-		["﻿id"] = 368
+		itemid = 59485
 	},
 	[369] = {
+		id = 369,
 		name = "zuma_pt",
-		itemid = 59487,
-		["﻿id"] = 369
+		itemid = 59487
 	},
 	[370] = {
+		id = 370,
 		name = "skinTicket56",
-		itemid = 59491,
-		["﻿id"] = 370
+		itemid = 59491
 	},
 	[371] = {
+		id = 371,
 		name = "union10_pt",
-		itemid = 59492,
-		["﻿id"] = 371
+		itemid = 59492
 	},
 	[375] = {
+		id = 375,
 		name = "skinTicket58",
-		itemid = 59495,
-		["﻿id"] = 375
+		itemid = 59495
 	},
 	[376] = {
+		id = 376,
 		name = "haidao_pt",
-		itemid = 59497,
-		["﻿id"] = 376
+		itemid = 59497
 	},
 	[377] = {
+		id = 377,
 		name = "skinTicket59",
-		itemid = 59498,
-		["﻿id"] = 377
+		itemid = 59498
 	},
 	[378] = {
+		id = 378,
 		name = "rixiv2_pt1",
-		itemid = 59500,
-		["﻿id"] = 378
+		itemid = 59500
 	},
 	[379] = {
+		id = 379,
 		name = "commission_pt3",
-		itemid = 59501,
-		["﻿id"] = 379
+		itemid = 59501
 	},
 	[380] = {
+		id = 380,
 		name = "shanluan_pt",
-		itemid = 59506,
-		["﻿id"] = 380
+		itemid = 59506
 	},
 	[381] = {
+		id = 381,
 		name = "shanluan_mission_pt",
-		itemid = 59508,
-		["﻿id"] = 381
+		itemid = 59508
 	},
 	[382] = {
+		id = 382,
 		name = "skinTicket60",
-		itemid = 59509,
-		["﻿id"] = 382
+		itemid = 59509
 	},
 	[383] = {
+		id = 383,
 		name = "newserver_pt_231123",
-		itemid = 59512,
-		["﻿id"] = 383
+		itemid = 59512
 	},
 	[384] = {
+		id = 384,
 		name = "xinghai_pt1",
-		itemid = 59515,
-		["﻿id"] = 384
+		itemid = 59515
 	},
 	[385] = {
+		id = 385,
 		name = "xinghai_pt2",
-		itemid = 59516,
-		["﻿id"] = 385
+		itemid = 59516
 	},
 	[386] = {
+		id = 386,
 		name = "skinTicket61",
-		itemid = 59517,
-		["﻿id"] = 386
+		itemid = 59517
 	},
 	[387] = {
+		id = 387,
 		name = "skinTicket62",
-		itemid = 59518,
-		["﻿id"] = 387
+		itemid = 59518
 	},
 	[388] = {
+		id = 388,
 		name = "dexiur_pt2",
-		itemid = 59519,
-		["﻿id"] = 388
+		itemid = 59519
 	},
 	[389] = {
+		id = 389,
 		name = "dexiv4framept2",
-		itemid = 59520,
-		["﻿id"] = 389
+		itemid = 59520
 	},
 	[390] = {
+		id = 390,
 		name = "skinTicket63",
-		itemid = 59522,
-		["﻿id"] = 390
+		itemid = 59522
 	},
 	[391] = {
+		id = 391,
 		name = "feicaizhixing2024_pt",
-		itemid = 59391,
-		["﻿id"] = 391
+		itemid = 59391
 	},
 	[392] = {
+		id = 392,
 		name = "skinTicket64",
-		itemid = 59527,
-		["﻿id"] = 392
+		itemid = 59527
 	},
 	[393] = {
+		id = 393,
 		name = "chunjie_pt4",
-		itemid = 59528,
-		["﻿id"] = 393
+		itemid = 59528
 	},
 	[394] = {
+		id = 394,
 		name = "skinTicket65",
-		itemid = 59529,
-		["﻿id"] = 394
+		itemid = 59529
 	},
 	[395] = {
+		id = 395,
 		name = "skinTicket66",
-		itemid = 59531,
-		["﻿id"] = 395
+		itemid = 59531
 	},
 	[396] = {
+		id = 396,
 		name = "tongmeng_pt",
-		itemid = 59532,
-		["﻿id"] = 396
+		itemid = 59532
 	},
 	[397] = {
+		id = 397,
 		name = "yidalisp_pt2",
-		itemid = 59533,
-		["﻿id"] = 397
+		itemid = 59533
 	},
 	[398] = {
+		id = 398,
 		name = "skinTicket67",
-		itemid = 59534,
-		["﻿id"] = 398
+		itemid = 59534
 	},
 	[399] = {
+		id = 399,
 		name = "yongzhe_pt2",
-		itemid = 59536,
-		["﻿id"] = 399
+		itemid = 59536
 	},
 	[400] = {
+		id = 400,
 		name = "skinTicket68",
-		itemid = 59539,
-		["﻿id"] = 400
+		itemid = 59539
 	},
 	[401] = {
+		id = 401,
 		name = "yishijie_jinbi",
-		itemid = 59542,
-		["﻿id"] = 401
+		itemid = 59542
 	},
 	[402] = {
+		id = 402,
 		name = "yishijie_exp",
-		itemid = 59543,
-		["﻿id"] = 402
+		itemid = 59543
 	},
 	[403] = {
+		id = 403,
 		name = "maoxiv3_pt2",
-		itemid = 59544,
-		["﻿id"] = 403
+		itemid = 59544
 	},
 	[404] = {
+		id = 404,
 		name = "maoxiv3_frame_pt2",
-		itemid = 59545,
-		["﻿id"] = 404
+		itemid = 59545
 	},
 	[405] = {
+		id = 405,
 		name = "skinTicket69",
-		itemid = 59547,
-		["﻿id"] = 405
+		itemid = 59547
 	},
 	[406] = {
+		id = 406,
 		name = "skinTicket70",
-		itemid = 59570,
-		["﻿id"] = 406
+		itemid = 59570
 	},
 	[407] = {
+		id = 407,
 		name = "ouxiang3_pt",
-		itemid = 59571,
-		["﻿id"] = 407
+		itemid = 59571
 	},
 	[408] = {
+		id = 408,
 		name = "newserver_pt_240425",
-		itemid = 59573,
-		["﻿id"] = 408
+		itemid = 59573
 	},
 	[409] = {
+		id = 409,
 		name = "skinTicket71",
-		itemid = 59578,
-		["﻿id"] = 409
+		itemid = 59578
 	},
 	[410] = {
+		id = 410,
 		name = "huiguang_pt1",
-		itemid = 59579,
-		["﻿id"] = 410
+		itemid = 59579
 	},
 	[411] = {
+		id = 411,
 		name = "huiguang_pt2",
-		itemid = 59580,
-		["﻿id"] = 411
+		itemid = 59580
 	},
 	[412] = {
+		id = 412,
 		name = "union11_pt",
-		itemid = 59581,
-		["﻿id"] = 412
+		itemid = 59581
 	},
 	[413] = {
+		id = 413,
 		name = "skinTicket72",
-		itemid = 59586,
-		["﻿id"] = 413
+		itemid = 59586
 	},
 	[414] = {
+		id = 414,
 		name = "gonghaijiandui_frame_pt2",
-		itemid = 59587,
-		["﻿id"] = 414
+		itemid = 59587
 	},
 	[415] = {
+		id = 415,
 		name = "gonghaijiandui_pt2",
-		itemid = 59588,
-		["﻿id"] = 415
+		itemid = 59588
 	},
 	[416] = {
+		id = 416,
 		name = "skinTicket73",
-		itemid = 59589,
-		["﻿id"] = 416
+		itemid = 59589
 	},
 	[417] = {
+		id = 417,
 		name = "skinTicket74",
-		itemid = 59592,
-		["﻿id"] = 417
+		itemid = 59592
 	},
 	[421] = {
+		id = 421,
 		name = "240627_pt",
-		itemid = 59591,
-		["﻿id"] = 421
+		itemid = 59591
 	},
 	[422] = {
+		id = 422,
 		name = "yingxiv3_pt2",
-		itemid = 59594,
-		["﻿id"] = 422
+		itemid = 59594
 	},
 	[423] = {
+		id = 423,
 		name = "yingxiur_frame_pt2",
-		itemid = 59595,
-		["﻿id"] = 423
+		itemid = 59595
 	},
 	[424] = {
+		id = 424,
 		name = "skinTicket75",
-		itemid = 59596,
-		["﻿id"] = 424
+		itemid = 59596
 	},
 	[425] = {
+		id = 425,
 		name = "skinTicket76",
-		itemid = 59598,
-		["﻿id"] = 425
+		itemid = 59598
 	},
 	[426] = {
+		id = 426,
 		name = "sitelasibao_pt",
-		itemid = 65003,
-		["﻿id"] = 426
+		itemid = 65003
 	},
 	[427] = {
+		id = 427,
 		name = "240815_pt",
-		itemid = 65012,
-		["﻿id"] = 427
+		itemid = 65012
 	},
 	[428] = {
+		id = 428,
 		name = "skinTicket77",
-		itemid = 65013,
-		["﻿id"] = 428
+		itemid = 65013
 	},
 	[429] = {
+		id = 429,
 		name = "ruifeng_pt",
-		itemid = 65015,
-		["﻿id"] = 429
+		itemid = 65015
 	},
 	[430] = {
+		id = 430,
 		name = "union12_pt",
-		itemid = 65018,
-		["﻿id"] = 430
+		itemid = 65018
 	},
 	[431] = {
+		id = 431,
 		name = "240912_pt",
-		itemid = 65019,
-		["﻿id"] = 431
+		itemid = 65019
 	},
 	[432] = {
+		id = 432,
 		name = "skinTicket78",
-		itemid = 65020,
-		["﻿id"] = 432
+		itemid = 65020
 	},
 	[433] = {
+		id = 433,
 		name = "yidaliv3_pt2",
-		itemid = 65031,
-		["﻿id"] = 433
+		itemid = 65031
 	},
 	[434] = {
+		id = 434,
 		name = "skinTicket79",
-		itemid = 65033,
-		["﻿id"] = 434
+		itemid = 65033
 	},
 	[435] = {
+		id = 435,
 		name = "fengfanv2_pt",
-		itemid = 65035,
-		["﻿id"] = 435
+		itemid = 65035
 	},
 	[436] = {
+		id = 436,
 		name = "skinTicket80",
-		itemid = 65036,
-		["﻿id"] = 436
+		itemid = 65036
 	},
 	[437] = {
+		id = 437,
 		name = "rixiv3_pt2",
-		itemid = 65041,
-		["﻿id"] = 437
+		itemid = 65041
 	},
 	[438] = {
+		id = 438,
 		name = "skinTicket81",
-		itemid = 65043,
-		["﻿id"] = 438
+		itemid = 65043
 	},
 	[439] = {
+		id = 439,
 		name = "blackfirday_pt2024",
-		itemid = 65046,
-		["﻿id"] = 439
+		itemid = 65046
 	},
 	[440] = {
+		id = 440,
 		name = "tolove_pt",
-		itemid = 65047,
-		["﻿id"] = 440
+		itemid = 65047
 	},
 	[441] = {
+		id = 441,
 		name = "tolove_jigsaw_pt",
-		itemid = 65048,
-		["﻿id"] = 441
+		itemid = 65048
 	},
 	[442] = {
+		id = 442,
 		name = "newserver_pt_241121",
-		itemid = 65055,
-		["﻿id"] = 442
+		itemid = 65055
 	},
 	[443] = {
+		id = 443,
 		name = "skinTicket82",
-		itemid = 65058,
-		["﻿id"] = 443
+		itemid = 65058
 	},
 	[444] = {
+		id = 444,
 		name = "blackfirday_pt20241212",
-		itemid = 65062,
-		["﻿id"] = 444
+		itemid = 65062
 	},
 	[445] = {
+		id = 445,
 		name = "limit_skinticket1",
-		itemid = 68006,
-		["﻿id"] = 445
+		itemid = 68006
 	},
 	[446] = {
+		id = 446,
 		name = "limit_skinticket2",
-		itemid = 68007,
-		["﻿id"] = 446
+		itemid = 68007
 	},
 	[447] = {
+		id = 447,
 		name = "limit_skinticket3",
-		itemid = 68008,
-		["﻿id"] = 447
+		itemid = 68008
 	},
 	[448] = {
+		id = 448,
 		name = "lumei_pt",
-		itemid = 65063,
-		["﻿id"] = 448
+		itemid = 65063
 	},
 	[449] = {
+		id = 449,
 		name = "lumei_hpt",
-		itemid = 65064,
-		["﻿id"] = 449
+		itemid = 65064
 	},
 	[450] = {
+		id = 450,
 		name = "skinTicket83",
-		itemid = 65067,
-		["﻿id"] = 450
+		itemid = 65067
 	},
 	[451] = {
+		id = 451,
 		name = "Christmax2024_pt",
-		itemid = 86410,
-		["﻿id"] = 451
+		itemid = 86410
 	},
 	[452] = {
+		id = 452,
 		name = "activity_xunzhang",
-		itemid = 65500,
-		["﻿id"] = 452
+		itemid = 65500
 	},
 	[453] = {
+		id = 453,
 		name = "commission_pt4",
-		itemid = 65509,
-		["﻿id"] = 453
+		itemid = 65509
 	},
 	[454] = {
+		id = 454,
 		name = "limit_skinticket4",
-		itemid = 68015,
-		["﻿id"] = 454
+		itemid = 68015
 	},
 	[455] = {
+		id = 455,
 		name = "limit_skinticket5",
-		itemid = 68016,
-		["﻿id"] = 455
+		itemid = 68016
 	},
 	[456] = {
+		id = 456,
 		name = "limit_skinticket6",
-		itemid = 68017,
-		["﻿id"] = 456
+		itemid = 68017
 	},
 	[457] = {
+		id = 457,
 		name = "skinTicket84",
-		itemid = 65068,
-		["﻿id"] = 457
+		itemid = 65068
 	},
 	[458] = {
+		id = 458,
 		name = "meixierxing_pt2",
-		itemid = 65071,
-		["﻿id"] = 458
+		itemid = 65071
 	},
 	[459] = {
+		id = 459,
 		name = "skinTicket85",
-		itemid = 65072,
-		["﻿id"] = 459
+		itemid = 65072
 	},
 	[460] = {
+		id = 460,
 		name = "activity_xunzhang2",
-		itemid = 65510,
-		["﻿id"] = 460
+		itemid = 65510
 	},
 	[461] = {
+		id = 461,
 		name = "chunjie_pt5",
-		itemid = 65519,
-		["﻿id"] = 461
+		itemid = 65519
 	},
 	[462] = {
+		id = 462,
 		name = "limit_skinticket7",
-		itemid = 68025,
-		["﻿id"] = 462
+		itemid = 68025
 	},
 	[463] = {
+		id = 463,
 		name = "limit_skinticket8",
-		itemid = 68025,
-		["﻿id"] = 463
+		itemid = 68025
 	},
 	[464] = {
+		id = 464,
 		name = "limit_skinticket9",
-		itemid = 68026,
-		["﻿id"] = 464
+		itemid = 68026
 	},
 	[465] = {
+		id = 465,
 		name = "skinTicket86",
-		itemid = 65073,
-		["﻿id"] = 465
+		itemid = 65073
 	},
 	[466] = {
+		id = 466,
 		name = "spring_fes_firework",
-		itemid = 65534,
-		["﻿id"] = 466
+		itemid = 65534
 	},
 	[467] = {
+		id = 467,
 		name = "limit_skinticket10",
-		itemid = 68033,
-		["﻿id"] = 467
+		itemid = 68033
 	},
 	[468] = {
+		id = 468,
 		name = "limit_skinticket11",
-		itemid = 68034,
-		["﻿id"] = 468
+		itemid = 68034
 	},
 	[469] = {
+		id = 469,
 		name = "limit_skinticket12",
-		itemid = 68035,
-		["﻿id"] = 469
+		itemid = 68035
 	},
 	[470] = {
+		id = 470,
 		name = "bulvxieer_pt2",
-		itemid = 65076,
-		["﻿id"] = 470
+		itemid = 65076
 	},
 	[471] = {
+		id = 471,
 		name = "skinTicket87",
-		itemid = 65077,
-		["﻿id"] = 471
+		itemid = 65077
 	},
 	[472] = {
+		id = 472,
 		name = "limit_skinticket13",
-		itemid = 68042,
-		["﻿id"] = 472
+		itemid = 68042
 	},
 	[473] = {
+		id = 473,
 		name = "limit_skinticket14",
-		itemid = 68043,
-		["﻿id"] = 473
+		itemid = 68043
 	},
 	[474] = {
+		id = 474,
 		name = "limit_skinticket15",
-		itemid = 68044,
-		["﻿id"] = 474
+		itemid = 68044
 	},
 	[475] = {
+		id = 475,
 		name = "skinTicket88",
-		itemid = 65080,
-		["﻿id"] = 475
+		itemid = 65080
 	},
 	[476] = {
+		id = 476,
 		name = "lafeier_pt",
-		itemid = 65081,
-		["﻿id"] = 476
+		itemid = 65081
 	},
 	[477] = {
+		id = 477,
 		name = "activity_xunzhang3",
-		itemid = 65540,
-		["﻿id"] = 477
+		itemid = 65540
 	},
 	[478] = {
+		id = 478,
 		name = "yingxiv4_pt2",
-		itemid = 65083,
-		["﻿id"] = 478
+		itemid = 65083
 	},
 	[479] = {
+		id = 479,
 		name = "skinTicket89",
-		itemid = 65084,
-		["﻿id"] = 479
+		itemid = 65084
 	},
 	[481] = {
+		id = 481,
 		name = "fulankelin_pt",
-		itemid = 65562,
-		["﻿id"] = 481
+		itemid = 65562
 	},
 	[482] = {
+		id = 482,
 		name = "activity_xunzhang4",
-		itemid = 65570,
-		["﻿id"] = 482
+		itemid = 65570
 	},
 	[483] = {
+		id = 483,
 		name = "limit_skinticket16",
-		itemid = 68051,
-		["﻿id"] = 483
+		itemid = 68051
 	},
 	[484] = {
+		id = 484,
 		name = "limit_skinticket17",
-		itemid = 68052,
-		["﻿id"] = 484
+		itemid = 68052
 	},
 	[485] = {
+		id = 485,
 		name = "limit_skinticket18",
-		itemid = 68053,
-		["﻿id"] = 485
+		itemid = 68053
 	},
 	[486] = {
+		id = 486,
 		name = "skinTicket90",
-		itemid = 65087,
-		["﻿id"] = 486
+		itemid = 65087
 	},
 	[487] = {
+		id = 487,
 		name = "xiaokewei_pt_2",
-		itemid = 65590,
-		["﻿id"] = 487
+		itemid = 65590
 	},
 	[488] = {
+		id = 488,
 		name = "jidifengbao_pt2",
-		itemid = 65090,
-		["﻿id"] = 488
+		itemid = 65090
 	},
 	[489] = {
+		id = 489,
 		name = "skinTicket91",
-		itemid = 65089,
-		["﻿id"] = 489
+		itemid = 65089
 	},
 	[490] = {
+		id = 490,
 		name = "helansp_pt",
-		itemid = 65092,
-		["﻿id"] = 490
+		itemid = 65092
 	},
 	[491] = {
+		id = 491,
 		name = "skinTicket92",
-		itemid = 65091,
-		["﻿id"] = 491
+		itemid = 65091
 	},
 	[492] = {
+		id = 492,
 		name = "xiaoankeleiqi_pt",
-		itemid = 65591,
-		["﻿id"] = 492
+		itemid = 65591
 	},
 	[493] = {
+		id = 493,
 		name = "limit_skinticket19",
-		itemid = 68051,
-		["﻿id"] = 493
+		itemid = 68051
 	},
 	[494] = {
+		id = 494,
 		name = "limit_skinticket20",
-		itemid = 68052,
-		["﻿id"] = 494
+		itemid = 68052
 	},
 	[495] = {
+		id = 495,
 		name = "limit_skinticket21",
-		itemid = 68053,
-		["﻿id"] = 495
+		itemid = 68053
 	},
 	[496] = {
+		id = 496,
 		name = "activity_xunzhang5",
-		itemid = 65593,
-		["﻿id"] = 496
+		itemid = 65593
 	},
 	[497] = {
+		id = 497,
 		name = "newserver_pt_250424",
-		itemid = 65094,
-		["﻿id"] = 497
+		itemid = 65094
 	},
 	[498] = {
+		id = 498,
 		name = "shi_pt1",
-		itemid = 65096,
-		["﻿id"] = 498
+		itemid = 65096
 	},
 	[499] = {
+		id = 499,
 		name = "shi_pt2",
-		itemid = 65097,
-		["﻿id"] = 499
+		itemid = 65097
 	},
 	[500] = {
+		id = 500,
 		name = "union13_pt",
-		itemid = 65098,
-		["﻿id"] = 500
+		itemid = 65098
 	},
 	[501] = {
+		id = 501,
 		name = "island_invitation_pt2",
-		itemid = 65099,
-		["﻿id"] = 501
+		itemid = 65099
 	},
 	[502] = {
+		id = 502,
 		name = "activity_xunzhang6",
-		itemid = 65602,
-		["﻿id"] = 502
+		itemid = 65602
 	},
 	[503] = {
+		id = 503,
 		name = "activity_xunzhang7",
-		itemid = 65611,
-		["﻿id"] = 503
+		itemid = 65611
 	},
 	[504] = {
+		id = 504,
 		name = "limit_skinticket22",
-		itemid = 68066,
-		["﻿id"] = 504
+		itemid = 68066
 	},
 	[505] = {
+		id = 505,
 		name = "limit_skinticket23",
-		itemid = 68067,
-		["﻿id"] = 505
+		itemid = 68067
 	},
 	[506] = {
+		id = 506,
 		name = "limit_skinticket24",
-		itemid = 68068,
-		["﻿id"] = 506
+		itemid = 68068
 	},
 	[507] = {
+		id = 507,
 		name = "skinTicket93",
-		itemid = 65619,
-		["﻿id"] = 507
+		itemid = 65619
 	},
 	[508] = {
+		id = 508,
 		name = "limit_skinticket25",
-		itemid = 68078,
-		["﻿id"] = 508
+		itemid = 68078
 	},
 	[509] = {
+		id = 509,
 		name = "limit_skinticket26",
-		itemid = 68079,
-		["﻿id"] = 509
+		itemid = 68079
 	},
 	[510] = {
+		id = 510,
 		name = "limit_skinticket27",
-		itemid = 68080,
-		["﻿id"] = 510
+		itemid = 68080
 	},
 	[511] = {
+		id = 511,
 		name = "xiaoaijier_pt",
-		itemid = 68081,
-		["﻿id"] = 511
+		itemid = 68081
 	},
 	[512] = {
+		id = 512,
 		name = "heiyan_pt",
-		itemid = 65620,
-		["﻿id"] = 512
+		itemid = 65620
 	},
 	[513] = {
+		id = 513,
 		name = "xiaodafeng_youhao_pt_2",
-		itemid = 65621,
-		["﻿id"] = 513
+		itemid = 65621
 	},
 	[514] = {
+		id = 514,
 		name = "bisimaiz_pt",
-		itemid = 65624,
-		["﻿id"] = 514
+		itemid = 65624
 	},
 	[515] = {
+		id = 515,
 		name = "skinTicket94",
-		itemid = 65626,
-		["﻿id"] = 515
+		itemid = 65626
 	},
 	[516] = {
+		id = 516,
 		name = "zengkehaijunshangjiang_pt",
-		itemid = 65630,
-		["﻿id"] = 516
+		itemid = 65630
 	},
 	[517] = {
+		id = 517,
 		name = "activity_xunzhang8",
-		itemid = 65631,
-		["﻿id"] = 517
+		itemid = 65631
 	},
 	[518] = {
+		id = 518,
 		name = "skinTicket95",
-		itemid = 65640,
-		["﻿id"] = 518
+		itemid = 65640
 	},
 	[519] = {
+		id = 519,
 		name = "limit_skinticket28",
-		itemid = 68087,
-		["﻿id"] = 519
+		itemid = 68087
 	},
 	[520] = {
+		id = 520,
 		name = "limit_skinticket29",
-		itemid = 68088,
-		["﻿id"] = 520
+		itemid = 68088
 	},
 	[521] = {
+		id = 521,
 		name = "limit_skinticket30",
-		itemid = 68089,
-		["﻿id"] = 521
+		itemid = 68089
 	},
 	[522] = {
+		id = 522,
 		name = "ryza_task_pt_2",
-		itemid = 65651,
-		["﻿id"] = 522
+		itemid = 65651
 	},
 	[523] = {
+		id = 523,
 		name = "ryza_pt_2",
-		itemid = 65652,
-		["﻿id"] = 523
+		itemid = 65652
 	},
 	[524] = {
+		id = 524,
 		name = "limit_skinticket31",
-		itemid = 68097,
-		["﻿id"] = 524
+		itemid = 68097
 	},
 	[525] = {
+		id = 525,
 		name = "limit_skinticket32",
-		itemid = 68098,
-		["﻿id"] = 525
+		itemid = 68098
 	},
 	[526] = {
+		id = 526,
 		name = "limit_skinticket33",
-		itemid = 68099,
-		["﻿id"] = 526
+		itemid = 68099
 	},
 	[527] = {
+		id = 527,
 		name = "skinTicket96",
-		itemid = 65662,
-		["﻿id"] = 527
+		itemid = 65662
 	},
 	[528] = {
+		id = 528,
 		name = "youmiya_pt",
-		itemid = 65663,
-		["﻿id"] = 528
+		itemid = 65663
 	},
 	[529] = {
+		id = 529,
 		name = "limit_skinticket34",
-		itemid = 68106,
-		["﻿id"] = 529
+		itemid = 68106
 	},
 	[530] = {
+		id = 530,
 		name = "limit_skinticket35",
-		itemid = 68107,
-		["﻿id"] = 530
+		itemid = 68107
 	},
 	[531] = {
+		id = 531,
 		name = "limit_skinticket36",
-		itemid = 68108,
-		["﻿id"] = 531
+		itemid = 68108
 	},
 	[532] = {
+		id = 532,
 		name = "skinTicket97",
-		itemid = 65664,
-		["﻿id"] = 532
+		itemid = 65664
 	},
 	[533] = {
+		id = 533,
 		name = "activity_xunzhang9",
-		itemid = 65665,
-		["﻿id"] = 533
+		itemid = 65665
 	},
 	[534] = {
+		id = 534,
 		name = "masaina_pt",
-		itemid = 65674,
-		["﻿id"] = 534
+		itemid = 65674
 	},
 	[542] = {
+		id = 542,
 		name = "baifeng_hpt",
-		itemid = 65682,
-		["﻿id"] = 542
+		itemid = 65682
 	},
 	[543] = {
+		id = 543,
 		name = "baifeng_pt",
-		itemid = 65683,
-		["﻿id"] = 543
+		itemid = 65683
 	},
 	[544] = {
+		id = 544,
 		name = "union14_pt",
-		itemid = 65684,
-		["﻿id"] = 544
+		itemid = 65684
 	},
 	[545] = {
+		id = 545,
 		name = "ninja_pt",
-		itemid = 65103,
-		["﻿id"] = 545
+		itemid = 65103
 	},
 	[546] = {
+		id = 546,
 		name = "ninja_pt_2",
-		itemid = 65102,
-		["﻿id"] = 546
+		itemid = 65102
 	},
 	[547] = {
+		id = 547,
 		name = "activity_xunzhang10",
-		itemid = 65685,
-		["﻿id"] = 547
+		itemid = 65685
 	},
 	[548] = {
+		id = 548,
 		name = "limit_skinticket37",
-		itemid = 68115,
-		["﻿id"] = 548
+		itemid = 68115
 	},
 	[549] = {
+		id = 549,
 		name = "limit_skinticket38",
-		itemid = 68116,
-		["﻿id"] = 549
+		itemid = 68116
 	},
 	[550] = {
+		id = 550,
 		name = "limit_skinticket39",
-		itemid = 68117,
-		["﻿id"] = 550
+		itemid = 68117
 	},
 	[551] = {
+		id = 551,
 		name = "skinTicket98",
-		itemid = 65694,
-		["﻿id"] = 551
+		itemid = 65694
+	},
+	[552] = {
+		id = 552,
+		name = "limit_skinticket40",
+		itemid = 68124
+	},
+	[553] = {
+		id = 553,
+		name = "limit_skinticket41",
+		itemid = 68125
+	},
+	[554] = {
+		id = 554,
+		name = "limit_skinticket42",
+		itemid = 68126
 	},
 	[950] = {
+		id = 950,
 		name = "yisegefuke_pt1",
-		itemid = 59111,
-		["﻿id"] = 950
+		itemid = 59111
 	},
 	[951] = {
+		id = 951,
 		name = "unionkr_pt",
-		itemid = 99950,
-		["﻿id"] = 951
+		itemid = 99950
 	},
 	[952] = {
+		id = 952,
 		name = "skinTicketkr",
-		itemid = 99951,
-		["﻿id"] = 952
+		itemid = 99951
 	},
 	[953] = {
+		id = 953,
 		name = "battery3",
-		itemid = 99956,
-		["﻿id"] = 953
+		itemid = 99956
 	},
 	[954] = {
+		id = 954,
 		name = "unionkr_pt_2021",
-		itemid = 99957,
-		["﻿id"] = 954
+		itemid = 99957
 	},
 	[955] = {
+		id = 955,
 		name = "unionkr_pt_2021_2",
-		itemid = 99957,
-		["﻿id"] = 955
+		itemid = 99957
 	},
 	[956] = {
+		id = 956,
 		name = "skinTicketkr1",
-		itemid = 99954,
-		["﻿id"] = 956
+		itemid = 99954
 	},
 	[1001] = {
+		id = 1001,
 		name = "vote2019_pt",
-		itemid = 59136,
-		["﻿id"] = 1001
+		itemid = 59136
 	},
 	[2001] = {
+		id = 2001,
 		name = "contribution_worldboss",
-		itemid = 59122,
-		["﻿id"] = 2001
+		itemid = 59122
 	},
 	[2002] = {
+		id = 2002,
 		name = "contribution_worldboss926",
-		itemid = 59141,
-		["﻿id"] = 2002
+		itemid = 59141
 	},
 	[2003] = {
+		id = 2003,
 		name = "worldboss926_ticket",
-		itemid = 59142,
-		["﻿id"] = 2003
+		itemid = 59142
 	},
 	[2004] = {
+		id = 2004,
 		name = "nvpu2_pt",
-		itemid = 59967,
-		["﻿id"] = 2004
+		itemid = 59967
 	},
 	[2005] = {
+		id = 2005,
 		name = "nvpu_ticket",
-		itemid = 59968,
-		["﻿id"] = 2005
+		itemid = 59968
 	},
 	[2006] = {
+		id = 2006,
 		name = "contribution_worldboss624",
-		itemid = 60057,
-		["﻿id"] = 2006
+		itemid = 60057
 	},
 	[2007] = {
+		id = 2007,
 		name = "worldboss624_ticket",
-		itemid = 60058,
-		["﻿id"] = 2007
+		itemid = 60058
 	},
 	[2008] = {
+		id = 2008,
 		name = "contribution_worldboss708",
-		itemid = 59225,
-		["﻿id"] = 2008
+		itemid = 59225
 	},
 	[2009] = {
+		id = 2009,
 		name = "worldboss708_ticket",
-		itemid = 59226,
-		["﻿id"] = 2009
+		itemid = 59226
 	},
 	[2010] = {
+		id = 2010,
 		name = "contribution_worldboss127",
-		itemid = 59265,
-		["﻿id"] = 2010
+		itemid = 59265
 	},
 	[2011] = {
+		id = 2011,
 		name = "worldboss127_ticket",
-		itemid = 59266,
-		["﻿id"] = 2011
+		itemid = 59266
 	},
 	[2012] = {
+		id = 2012,
 		name = "contribution_worldboss630",
-		itemid = 59323,
-		["﻿id"] = 2012
+		itemid = 59323
 	},
 	[2013] = {
+		id = 2013,
 		name = "worldboss630_ticket",
-		itemid = 59324,
-		["﻿id"] = 2013
+		itemid = 59324
 	},
 	[2014] = {
+		id = 2014,
 		name = "contribution_worldboss6301",
-		itemid = 59352,
-		["﻿id"] = 2014
+		itemid = 59352
 	},
 	[2015] = {
+		id = 2015,
 		name = "worldboss630_ticket1",
-		itemid = 59353,
-		["﻿id"] = 2015
+		itemid = 59353
 	},
 	[2016] = {
+		id = 2016,
 		name = "contribution_worldboss118",
-		itemid = 59380,
-		["﻿id"] = 2016
+		itemid = 59380
 	},
 	[2017] = {
+		id = 2017,
 		name = "worldboss118_ticket",
-		itemid = 59381,
-		["﻿id"] = 2017
+		itemid = 59381
 	},
 	[2018] = {
+		id = 2018,
 		name = "contribution_worldboss230629",
-		itemid = 59463,
-		["﻿id"] = 2018
+		itemid = 59463
 	},
 	[2019] = {
+		id = 2019,
 		name = "worldboss230629_ticket",
-		itemid = 59464,
-		["﻿id"] = 2019
+		itemid = 59464
 	},
 	[2020] = {
+		id = 2020,
 		name = "contribution_worldboss240130",
-		itemid = 59523,
-		["﻿id"] = 2020
+		itemid = 59523
 	},
 	[2021] = {
+		id = 2021,
 		name = "worldboss230130_ticket",
-		itemid = 59524,
-		["﻿id"] = 2021
+		itemid = 59524
 	},
 	[2022] = {
+		id = 2022,
 		name = "contribution_worldboss250116",
-		itemid = 60487,
-		["﻿id"] = 2022
+		itemid = 60487
 	},
 	[2023] = {
+		id = 2023,
 		name = "worldboss250116_ticket",
-		itemid = 60488,
-		["﻿id"] = 2023
+		itemid = 60488
 	},
 	[3000] = {
+		id = 3000,
 		name = "guild_boss_damage",
-		itemid = 69000,
-		["﻿id"] = 3000
+		itemid = 69000
 	},
 	[3001] = {
+		id = 3001,
 		name = "synchronize_ark",
-		itemid = 21901,
-		["﻿id"] = 3001
+		itemid = 21901
 	},
 	[3002] = {
+		id = 3002,
 		name = "dashijiechongzhi",
-		itemid = 110002,
-		["﻿id"] = 3002
+		itemid = 110002
 	},
 	[3003] = {
+		id = 3003,
 		name = "synchronize_huangjiafangzhou",
-		itemid = 21902,
-		["﻿id"] = 3003
+		itemid = 21902
 	},
 	[3004] = {
+		id = 3004,
 		name = "synchronize_hailunna",
-		itemid = 21903,
-		["﻿id"] = 3004
+		itemid = 21903
 	},
 	[3005] = {
+		id = 3005,
 		name = "synchronize_canglong",
-		itemid = 21904,
-		["﻿id"] = 3005
+		itemid = 21904
 	},
 	[3006] = {
+		id = 3006,
 		name = "synchronize_genaisennao",
-		itemid = 21905,
-		["﻿id"] = 3006
+		itemid = 21905
 	},
 	[3007] = {
+		id = 3007,
 		name = "synchronize_shaenhuosite",
-		itemid = 21906,
-		["﻿id"] = 3007
+		itemid = 21906
 	},
 	[3008] = {
+		id = 3008,
 		name = "synchronize_fanji",
-		itemid = 21907,
-		["﻿id"] = 3008
+		itemid = 21907
 	},
 	[3009] = {
+		id = 3009,
 		name = "synchronize_fanji1",
-		itemid = 21908,
-		["﻿id"] = 3009
+		itemid = 21908
 	},
 	[3010] = {
+		id = 3010,
 		name = "synchronize_yalisangna",
-		itemid = 21909,
-		["﻿id"] = 3010
+		itemid = 21909
 	},
 	[3011] = {
+		id = 3011,
 		name = "synchronize_yilishabai",
-		itemid = 21910,
-		["﻿id"] = 3011
+		itemid = 21910
 	},
 	[3012] = {
+		id = 3012,
 		name = "synchronize_aerjiliya",
-		itemid = 21911,
-		["﻿id"] = 3012
+		itemid = 21911
 	},
 	[3013] = {
+		id = 3013,
 		name = "synchronize_shentong",
-		itemid = 21912,
-		["﻿id"] = 3013
+		itemid = 21912
 	},
 	[3014] = {
+		id = 3014,
 		name = "synchronize_jiluofu",
-		itemid = 21913,
-		["﻿id"] = 3014
+		itemid = 21913
 	},
 	[3015] = {
+		id = 3015,
 		name = "synchronize_luodeni",
-		itemid = 21914,
-		["﻿id"] = 3015
+		itemid = 21914
 	},
 	[3016] = {
+		id = 3016,
 		name = "synchronize_weiqita",
-		itemid = 21915,
-		["﻿id"] = 3016
+		itemid = 21915
 	},
 	[3017] = {
+		id = 3017,
 		name = "synchronize_changmen",
-		itemid = 21916,
-		["﻿id"] = 3017
+		itemid = 21916
 	},
 	[3018] = {
+		id = 3018,
 		name = "synchronize_dafeng",
-		itemid = 21917,
-		["﻿id"] = 3018
+		itemid = 21917
 	},
 	[3019] = {
+		id = 3019,
 		name = "synchronize_dahuangfeng",
-		itemid = 21918,
-		["﻿id"] = 3019
+		itemid = 21918
 	},
 	[3020] = {
+		id = 3020,
 		name = "synchronize_jiangfeng",
-		itemid = 21919,
-		["﻿id"] = 3020
+		itemid = 21919
 	},
 	[3021] = {
+		id = 3021,
 		name = "synchronize_xili",
-		itemid = 21920,
-		["﻿id"] = 3021
+		itemid = 21920
 	},
 	[3106] = {
+		id = 3106,
 		name = "twhongran_pt",
-		itemid = 59107,
-		["﻿id"] = 3106
+		itemid = 59107
 	},
 	[3137] = {
+		id = 3137,
 		name = "TWkaifuPT",
-		itemid = 70050,
-		["﻿id"] = 3137
+		itemid = 70050
 	},
 	[4001] = {
+		id = 4001,
 		name = "battlepass_1",
-		itemid = 59241,
-		["﻿id"] = 4001
+		itemid = 59241
 	},
 	[4002] = {
+		id = 4002,
 		name = "battlepass_2",
-		itemid = 59253,
-		["﻿id"] = 4002
+		itemid = 59253
 	},
 	[4003] = {
+		id = 4003,
 		name = "battlepass_3",
-		itemid = 59269,
-		["﻿id"] = 4003
+		itemid = 59269
 	},
 	[4004] = {
+		id = 4004,
 		name = "battlepass_4",
-		itemid = 59280,
-		["﻿id"] = 4004
+		itemid = 59280
 	},
 	[4005] = {
+		id = 4005,
 		name = "battlepass_5",
-		itemid = 59290,
-		["﻿id"] = 4005
+		itemid = 59290
 	},
 	[4006] = {
+		id = 4006,
 		name = "battlepass_6",
-		itemid = 59293,
-		["﻿id"] = 4006
+		itemid = 59293
 	},
 	[4007] = {
+		id = 4007,
 		name = "battlepass_7",
-		itemid = 59295,
-		["﻿id"] = 4007
+		itemid = 59295
 	},
 	[4008] = {
+		id = 4008,
 		name = "battlepass_8",
-		itemid = 59296,
-		["﻿id"] = 4008
+		itemid = 59296
 	},
 	[4009] = {
+		id = 4009,
 		name = "Battlepass_9",
-		itemid = 59298,
-		["﻿id"] = 4009
+		itemid = 59298
 	},
 	[4010] = {
+		id = 4010,
 		name = "Battlepass_10",
-		itemid = 59403,
-		["﻿id"] = 4010
+		itemid = 59403
 	},
 	[4011] = {
+		id = 4011,
 		name = "Battlepass_11",
-		itemid = 59455,
-		["﻿id"] = 4011
+		itemid = 59455
 	},
 	[4012] = {
+		id = 4012,
 		name = "Battlepass_12",
-		itemid = 59467,
-		["﻿id"] = 4012
+		itemid = 59467
 	},
 	[4013] = {
+		id = 4013,
 		name = "Battlepass_13",
-		itemid = 59493,
-		["﻿id"] = 4013
+		itemid = 59493
 	},
 	[4014] = {
+		id = 4014,
 		name = "Battlepass_14",
-		itemid = 59510,
-		["﻿id"] = 4014
+		itemid = 59510
 	},
 	[4015] = {
+		id = 4015,
 		name = "Battlepass_15",
-		itemid = 59525,
-		["﻿id"] = 4015
+		itemid = 59525
 	},
 	[4016] = {
+		id = 4016,
 		name = "Battlepass_16",
-		itemid = 59540,
-		["﻿id"] = 4016
+		itemid = 59540
 	},
 	[4017] = {
+		id = 4017,
 		name = "Battlepass_17",
-		itemid = 59583,
-		["﻿id"] = 4017
+		itemid = 59583
 	},
 	[4018] = {
+		id = 4018,
 		name = "Battlepass_18",
-		itemid = 59599,
-		["﻿id"] = 4018
+		itemid = 59599
 	},
 	[4019] = {
+		id = 4019,
 		name = "Battlepass_19",
-		itemid = 65028,
-		["﻿id"] = 4019
+		itemid = 65028
 	},
 	[4020] = {
+		id = 4020,
 		name = "Battlepass_20",
-		itemid = 65057,
-		["﻿id"] = 4020
+		itemid = 65057
 	},
 	[4021] = {
+		id = 4021,
 		name = "Battlepass_21",
-		itemid = 65074,
-		["﻿id"] = 4021
+		itemid = 65074
 	},
 	[4022] = {
+		id = 4022,
 		name = "Battlepass_22",
-		itemid = 65086,
-		["﻿id"] = 4022
+		itemid = 65086
 	},
 	[4023] = {
+		id = 4023,
 		name = "Battlepass_23",
-		itemid = 65100,
-		["﻿id"] = 4023
+		itemid = 65100
 	},
 	[4024] = {
+		id = 4024,
 		name = "Battlepass_24",
-		itemid = 65101,
-		["﻿id"] = 4024
+		itemid = 65101
 	},
 	[4186] = {
+		id = 4186,
 		name = "skin_rerun_pt1",
-		itemid = 0,
-		["﻿id"] = 4186
+		itemid = 0
 	},
 	[4276] = {
+		id = 4276,
 		name = "skin_rerun_pt1jp",
-		itemid = 0,
-		["﻿id"] = 4276
+		itemid = 0
 	},
 	[4599] = {
+		id = 4599,
 		name = "skin_rerun_pt_2022",
-		itemid = 0,
-		["﻿id"] = 4599
+		itemid = 0
 	},
 	[4699] = {
+		id = 4699,
 		name = "skin_rerun_pt_jp2023",
-		itemid = 0,
-		["﻿id"] = 4699
+		itemid = 0
 	},
 	[5081] = {
+		id = 5081,
 		name = "skin_rerun_pt_us2023",
-		itemid = 0,
-		["﻿id"] = 5081
+		itemid = 0
 	},
 	[5082] = {
+		id = 5082,
 		name = "skin_rerun_pt_2023",
-		itemid = 0,
-		["﻿id"] = 5082
+		itemid = 0
 	},
 	[5653] = {
+		id = 5653,
 		name = "skin_rerun_pt_2024",
-		itemid = 0,
-		["﻿id"] = 5653
+		itemid = 0
 	},
 	[5704] = {
+		id = 5704,
 		name = "skin_rerun_pt_2024_cn",
-		itemid = 0,
-		["﻿id"] = 5704
+		itemid = 0
 	},
 	[100004] = {
+		id = 100004,
 		name = "skin_rerun_pt",
-		itemid = 0,
-		["﻿id"] = 100004
+		itemid = 0
 	},
 	[40275] = {
+		id = 40275,
 		name = "Twouxiang_pt",
-		itemid = 59143,
-		["﻿id"] = 40275
+		itemid = 59143
 	},
 	[30853] = {
+		id = 30853,
 		name = "skin_rerun_pt_us2022",
-		itemid = 0,
-		["﻿id"] = 30853
+		itemid = 0
 	},
 	[40296] = {
+		id = 40296,
 		name = "Twomamori2",
-		itemid = 70079,
-		["﻿id"] = 40296
+		itemid = 70079
 	},
 	[40461] = {
+		id = 40461,
 		name = "skinTicket40461",
-		itemid = 59245,
-		["﻿id"] = 40461
+		itemid = 59245
 	},
 	[45037] = {
+		id = 45037,
 		name = "jiujiu_twfk",
-		itemid = 59303,
-		["﻿id"] = 45037
+		itemid = 59303
 	},
 	[45040] = {
+		id = 45040,
 		name = "skinTicket45040",
-		itemid = 59304,
-		["﻿id"] = 45040
+		itemid = 59304
 	},
 	[40602] = {
+		id = 40602,
 		name = "skinTicket40602",
-		itemid = 59302,
-		["﻿id"] = 40602
+		itemid = 59302
 	},
 	[40588] = {
+		id = 40588,
 		name = "skinTicket40588",
-		itemid = 59301,
-		["﻿id"] = 40588
+		itemid = 59301
 	},
 	[40614] = {
+		id = 40614,
 		name = "contribution_worldboss_tw411",
-		itemid = 80000,
-		["﻿id"] = 40614
+		itemid = 80000
 	},
 	[40615] = {
+		id = 40615,
 		name = "worldboss_tw411_ticket",
-		itemid = 80001,
-		["﻿id"] = 40615
+		itemid = 80001
 	},
 	[40645] = {
+		id = 40645,
 		name = "skinTicket40645",
-		itemid = 80005,
-		["﻿id"] = 40645
+		itemid = 80005
 	},
 	[40629] = {
+		id = 40629,
 		name = "skinTicketTW_xzx",
-		itemid = 80003,
-		["﻿id"] = 40629
+		itemid = 80003
 	},
 	[40713] = {
+		id = 40713,
 		name = "skinTicket40713",
-		itemid = 80010,
-		["﻿id"] = 40713
+		itemid = 80010
 	},
 	[40730] = {
+		id = 40730,
 		name = "skinTicket40730",
-		itemid = 80013,
-		["﻿id"] = 40730
+		itemid = 80013
 	},
 	[40731] = {
+		id = 40731,
 		name = "Batterytw_2",
-		itemid = 80014,
-		["﻿id"] = 40731
+		itemid = 80014
 	},
 	[40732] = {
+		id = 40732,
 		name = "feiciazhixing_twpt",
-		itemid = 59391,
-		["﻿id"] = 40732
+		itemid = 59391
 	},
 	[40733] = {
+		id = 40733,
 		name = "chunjie_pt4_tw",
-		itemid = 59528,
-		["﻿id"] = 40733
+		itemid = 59528
 	},
 	[40807] = {
+		id = 40807,
 		name = "tw_2022yaoqing",
-		itemid = 80030,
-		["﻿id"] = 40807
+		itemid = 80030
 	},
 	[40905] = {
+		id = 40905,
 		name = "tw_2022wanshengjie",
-		itemid = 80031,
-		["﻿id"] = 40905
+		itemid = 80031
 	},
 	[40934] = {
+		id = 40934,
 		name = "skinTicket40934",
-		itemid = 80032,
-		["﻿id"] = 40934
+		itemid = 80032
 	},
 	[40935] = {
+		id = 40935,
 		name = "tw_2023yaoqing",
-		itemid = 80035,
-		["﻿id"] = 40935
+		itemid = 80035
 	},
 	[41375] = {
+		id = 41375,
 		name = "skin_rerun_pt_tw2024",
-		itemid = 0,
-		["﻿id"] = 41375
+		itemid = 0
 	},
 	[45101] = {
+		id = 45101,
 		name = "commission_pt_tw1",
-		itemid = 80141,
-		["﻿id"] = 45101
+		itemid = 80141
 	},
 	get_id_list_by_name = {
 		gold = {
@@ -3796,6 +3811,15 @@ pg.player_resource = {
 		skinTicket98 = {
 			551
 		},
+		limit_skinticket40 = {
+			552
+		},
+		limit_skinticket41 = {
+			553
+		},
+		limit_skinticket42 = {
+			554
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4536,6 +4560,9 @@ pg.player_resource = {
 		549,
 		550,
 		551,
+		552,
+		553,
+		554,
 		950,
 		951,
 		952,

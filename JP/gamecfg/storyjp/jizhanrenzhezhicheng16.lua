@@ -65,11 +65,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz……Zzzz……",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +81,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "ウサギたちが群れを成して林間の小道をぴょんぴょんと跳ねてやって来たかと思うと、目の前で立ち止まった。",
 			typewriter = {
@@ -94,9 +96,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "その頭と思わしきウサギの背には、ぐっすりと眠っている少女がいた。",
 			typewriter = {
@@ -105,11 +108,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "ふあ……もう着いた……？",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "高貴なるウサウサ城城主、ラフィー……盟友の召集に応じて参上……",
 			typewriter = {
 				speed = 0.05,
@@ -128,11 +133,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "大丈夫、イタズラする妖鬼をやっつけるの……ラフィー、手伝うから……",
 			typewriter = {
 				speed = 0.05,
@@ -140,10 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "でも……うん……",
 			typewriter = {
 				speed = 0.05,
@@ -151,10 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "城主指揮官、疲れてそう……",
 			typewriter = {
 				speed = 0.05,
@@ -162,11 +170,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "一度、ねんねしたほうがいい……",
 			typewriter = {
 				speed = 0.05,
@@ -174,10 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "ラフィーのウサウサ城には、枕がいっぱい……布団も、いっぱいあるから……",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +195,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "ラフィーと……一緒にウサウサ城に帰ろ？",
 			typewriter = {
 				speed = 0.05,
@@ -200,10 +211,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "――そしたら、うちの城内で暴れてるやつらのことは？",
 			typewriter = {
@@ -212,11 +224,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 2,
 			say = "むぅ……めんどいから……やっぱり指揮官のお城に行く",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "でも、おねんねも……ちゃんとしないと……",
 			typewriter = {
 				speed = 0.05,
@@ -235,11 +249,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "じゃあ、城主指揮官……ウサウサに乗って？",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +265,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "ラフィーが両手を上げて伸びをすると、この世界観からだいぶ浮いている巨大なウサウサの背の上にこちらを乗せた。",
 			typewriter = {
@@ -261,11 +277,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "うん……これでいい……ウサウサ、しゅっぱーつ！",
 			typewriter = {
 				speed = 0.05,
@@ -273,11 +290,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "ラフィー、おねむ……城主指揮官、一緒にねんねして……",
 			typewriter = {
 				speed = 0.05,
@@ -285,11 +303,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "一緒にねんねして……悩み、全部忘れよう……",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +319,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "柔らかな呼吸が頬をかすめ、ほんのり甘い香りを運んでくる。",
 			typewriter = {
@@ -311,11 +331,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz……",
 			typewriter = {
 				speed = 0.05,
@@ -326,10 +347,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "Zzzz……",
 			typewriter = {
@@ -341,9 +363,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "雲の上にいるかのような柔らかさの中で、ラフィーと共に夢郷へと旅立っていった――",
 			typewriter = {

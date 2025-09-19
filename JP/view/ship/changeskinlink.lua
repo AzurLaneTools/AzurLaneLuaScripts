@@ -4,6 +4,7 @@ slot0.L2D_SAVE_TEMPLATE_DISPOSE = {
 	705023
 }
 slot0.L2D_PARAMETER_DIC = {}
+slot0.L2D_LINK_PARAMETER = {}
 slot0.L2D_TYPE = 1
 slot0.SPINE_TYPE = 2
 slot0.change_parameter_link_idle = 1

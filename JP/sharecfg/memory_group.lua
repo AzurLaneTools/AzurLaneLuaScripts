@@ -356,6 +356,7 @@ pg.memory_group = setmetatable({
 		611,
 		612,
 		613,
+		614,
 		1000,
 		1001,
 		1002,
@@ -8309,6 +8310,26 @@ pg.base.memory_group = {
 			4535,
 			4536,
 			4537
+		},
+		group_id = {
+			10000
+		}
+	},
+	[614] = {
+		title = "天衣結縁",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 614,
+		icon = "title_chara_dulianglai",
+		memories = {
+			4661,
+			4662,
+			4663,
+			4664,
+			4665,
+			4666,
+			4667
 		},
 		group_id = {
 			10000

@@ -293,7 +293,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 2,
-			say = "あの日刃を主様に向けた時から、白鵬は生涯主様の囚人で……",
+			say = "あの日刃を主様に向けた時から、白鳳は生涯主様の囚人で……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
