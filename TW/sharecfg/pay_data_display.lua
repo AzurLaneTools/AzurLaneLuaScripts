@@ -13778,7 +13778,7 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				42066,
+				42056,
 				2
 			},
 			{
