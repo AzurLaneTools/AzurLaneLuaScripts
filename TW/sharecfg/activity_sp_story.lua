@@ -4307,7 +4307,7 @@ pg.activity_sp_story = {
 	},
 	[248] = {
 		story_type = 99,
-		name = "9月25日維修後解鎖",
+		name = "9月25日維護後解鎖",
 		change_prefab = "juqing_heisewuqi",
 		unlock_conditions = "",
 		change_background = "",

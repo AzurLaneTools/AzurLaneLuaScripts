@@ -1268,7 +1268,7 @@ pg.base.ship_skin_template_11 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "伊四百型大型航空潜舰——{namecode:303}",
+		desc = "伊四百型大型航空潛艦——{namecode:303}",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "I404",
@@ -1426,9 +1426,9 @@ pg.base.ship_skin_template_11 = {
 		}
 	},
 	[317021] = {
-		name = "绛縢华舞",
+		name = "華麗綻放，絳色之舞",
 		illustrator2 = -1,
-		desc = "指挥官！快把我救下来啊——竟然在华丽的征服行动开始前踩中了陷阱，这也太糟糕了吧~！",
+		desc = "指揮官！快把我救下來啊——竟然在華麗的征服行動開始前踩中了陷阱，這也太糟糕了吧~！",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "I404_2",
@@ -1604,7 +1604,7 @@ pg.base.ship_skin_template_11 = {
 		}
 	},
 	[317022] = {
-		name = "绛縢华舞",
+		name = "華麗綻放，絳色之舞",
 		illustrator2 = -1,
 		desc = "唔！唔唔、唔唔唔—— ",
 		group_index = 2,

@@ -249,7 +249,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "你的意思是？",
+					content = "妳的意思是？",
 					flag = 2
 				}
 			}

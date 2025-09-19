@@ -268,7 +268,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307160,
-			say = "還有你們是什麼人，如此入侵天域天原是想開戰嗎？！",
+			say = "還有妳們是什麼人，如此入侵天域天原是想開戰嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

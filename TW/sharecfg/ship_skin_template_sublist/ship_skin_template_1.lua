@@ -12072,10 +12072,10 @@ pg.base.ship_skin_template_1 = {
 		}
 	},
 	[101472] = {
-		name = "科技？忍术？",
+		name = "科技？忍術？",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "这里的环境很适合进行忍者修行的拍摄呢……咳！接下来就要给指挥官展示忍术了……请、请看，忍术·变化术！嘿！",
+		desc = "這裡的環境很適合進行忍者修行的拍攝呢…咳！接下來就要向指揮官展示忍術了……請、請看，忍術·變化術！嘿！",
 		group_index = 2,
 		purchase_offset = "",
 		painting = "molisen_3",

@@ -8873,11 +8873,11 @@ pg.base.ship_skin_template_7 = {
 		}
 	},
 	[301139] = {
-		name = "{namecode:15}.改",
+		name = "{namecode:15}改",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "{namecode:15}级驱逐舰首舰……{namecode:15}，改造完成啦。现在的我，比之前成长了许多哦，一定不会辜负您的……期望？唔……期寄？欸……这种时候怎么说比较好呢……",
+		desc = "{namecode:15}級驅逐艦首艦…{namecode:15}，改造完成囉。現在的我，比之前成長了許多哦，一定不會辜負您的……期望？不……期寄？欸……這種時候怎麼說比較好呢……",
 		group_index = 9,
 		purchase_offset = "",
 		painting = "bailu_g",

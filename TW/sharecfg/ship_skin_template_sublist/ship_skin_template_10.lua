@@ -4309,7 +4309,7 @@ pg.base.ship_skin_template_10 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "{namecode:80}级战列舰——{namecode:304}",
+		desc = "{namecode:80}級戰列艦——{namecode:304}",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "jinjiang",
@@ -4424,10 +4424,10 @@ pg.base.ship_skin_template_10 = {
 		}
 	},
 	[305161] = {
-		name = "逃脱失败……？",
+		name = "逃脫失敗…？",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "呼……啊，指挥官，能帮我个忙吗……唔呼？指挥官怎么不说话了呢……莫非……您更喜欢这副模样的我吗？",
+		desc = "呼……啊，指揮官，能幫我個忙嗎……不呼？指揮官怎麼不說話了呢……莫非……您比較喜歡這模樣的我嗎？",
 		group_index = 1,
 		painting = "jinjiang_2",
 		ship_group = 30516,
@@ -13106,7 +13106,7 @@ pg.base.ship_skin_template_10 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "G14型航空母舰——{namecode:302}",
+		desc = "G14型航空母艦—{namecode:302}",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "baifeng",
@@ -13217,10 +13217,10 @@ pg.base.ship_skin_template_10 = {
 		}
 	},
 	[307161] = {
-		name = "缭乱之花的忍者游戏",
+		name = "繚亂的忍者遊戲",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "不愧是{namecode:302}的主公大人，不仅能轻易俘获行刺的忍者，更有着这般以德报怨的胸襟……那么，就请不要拒绝想留在您身边的我了，好吗？主·公·大·人……",
+		desc = "不愧是{namecode:302}的主公大人，不但能輕易俘獲行刺的忍者，更有這般以德報怨的胸襟……那麼，就請不要拒絕想留在您身邊的我了，好嗎？主·公·大·人……",
 		group_index = 1,
 		painting = "baifeng_2",
 		ship_group = 30716,

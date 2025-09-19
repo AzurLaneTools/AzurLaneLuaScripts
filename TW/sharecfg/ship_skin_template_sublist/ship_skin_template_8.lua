@@ -12348,7 +12348,7 @@ pg.base.ship_skin_template_8 = {
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "{namecode:35}级驱逐舰——{namecode:307}",
+		desc = "{namecode:35}級驅逐艦——{namecode:307}",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "miaofeng",
@@ -12463,11 +12463,11 @@ pg.base.ship_skin_template_8 = {
 		}
 	},
 	[301921] = {
-		name = "忍者的紧急迫降修行！",
+		name = "忍者妙風迫降修行！",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "啊——掉下来了！……嘿嘿……你好呀，指挥官……{namecode:307}正在……呃，进行忍者修行！才不是想吓唬指挥官……",
+		desc = "啊——掉下來了！……嘿嘿……你好呀，指揮官……{namecode:307}正在……呃，進行忍者修行！不是想嚇唬指揮官…",
 		group_index = 1,
 		purchase_offset = "",
 		painting = "miaofeng_2",

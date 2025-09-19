@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "當時我對於未來的規劃可不是現在這樣的，或許你也是。",
+			say = "當時我對於未來的規劃可不是現在這樣的，或許妳也是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

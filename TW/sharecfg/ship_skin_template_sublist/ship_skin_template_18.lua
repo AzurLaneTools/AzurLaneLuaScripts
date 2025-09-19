@@ -9679,11 +9679,11 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900521] = {
-		name = "阿尔萨斯",
+		name = "亞爾薩斯",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "布伦努斯",
+		desc = "无描述",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "npcaersasi_3",
@@ -9791,11 +9791,11 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900522] = {
-		name = "关岛",
+		name = "布倫努斯",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "加斯科涅",
+		desc = "无描述",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "npcbulunnusi_3",
@@ -9903,11 +9903,11 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900523] = {
-		name = "拉菲Ⅱ",
+		name = "關島",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
-		desc = "厌战",
+		desc = "无描述",
 		group_index = 0,
 		purchase_offset = "",
 		painting = "npcguandao_3",
@@ -10015,7 +10015,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900524] = {
-		name = "云仙",
+		name = "加斯科涅",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
@@ -10127,7 +10127,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900525] = {
-		name = "拉菲Ⅱ",
+		name = "拉菲II",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
@@ -10239,7 +10239,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900526] = {
-		name = "厌战",
+		name = "厭戰",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
@@ -10351,7 +10351,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900527] = {
-		name = "{namecode:294}",
+		name = "雲仙",
 		shop_offset = "",
 		change_skin = "",
 		illustrator2 = -1,
