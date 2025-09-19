@@ -7,9 +7,29 @@ end
 slot0.InitUI = function(slot0)
 	uv0.super.InitUI(slot0)
 
-	slot0.levelBanner = slot0._tf:Find("panel/Level")
-	slot0.btnSwitchNormal = slot0._tf:Find("panel/Difficulty/Normal")
-	slot0.btnSwitchHard = slot0._tf:Find("panel/Difficulty/Hard")
+	slot1 = slot0._tf
+	slot0.levelBanner = slot1:Find("panel/Level")
+	slot1 = slot0._tf
+	slot0.btnSwitchNormal = slot1:Find("panel/Difficulty/Normal")
+	slot1 = slot0._tf
+	slot0.btnSwitchHard = slot1:Find("panel/Difficulty/Hard")
+	slot1 = slot0._tf
+	slot0.btnAnim = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0._tf
+	slot0.btnAniEvent = slot1:GetComponent(typeof(DftAniEvent))
+	slot1 = slot0.btnAniEvent
+
+	slot1:SetEndEvent(function ()
+		uv0:playButtonLoopFX()
+	end)
+end
+
+slot0.playButtonLoopFX = function(slot0)
+	if slot0.btnAnim:IsPlaying("Anim_LevelInfoSPUI_NormalSelected") then
+		slot0.btnAnim:Play("Anim_LevelInfoSPUI_NormalInLoop")
+	else
+		slot0.btnAnim:Play("Anim_LevelInfoSPUI_DifficultyInLoop")
+	end
 end
 
 slot0.SetChapterGroupInfo = function(slot0, slot1)
@@ -47,8 +67,14 @@ slot0.set = function(slot0, slot1, slot2)
 		setActive(slot0.levelBanner:Find(slot12), slot11 == slot6)
 	end
 
-	setActive(slot0.btnSwitchNormal, #slot4 > 1 and slot6 == 1)
-	setActive(slot0.btnSwitchHard, #slot4 > 1 and slot6 == 2)
+	if #slot4 > 1 then
+		setActive(slot0.btnSwitchNormal, slot6 == 1)
+		setActive(slot0.btnSwitchHard, slot6 == 2)
+		slot0.btnAnim:Play("Anim_LevelInfoSPUI_" .. (slot6 == 1 and "Normal" or "Difficulty") .. "Selected")
+	else
+		setActive(slot0.btnSwitchNormal, false)
+		setActive(slot0.btnSwitchNormal, false)
+	end
 
 	if #slot4 > 1 then
 		slot8 = slot6 == 1 and slot0.btnSwitchNormal or slot0.btnSwitchHard

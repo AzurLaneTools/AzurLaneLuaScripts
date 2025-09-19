@@ -132,10 +132,10 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 			slot12:updateData(slot0:GetShipVO(), slot10, slot0:GetShipVO():proposeSkinOwned(slot10) or table.contains(slot0.skinList, slot10.id) or slot0:GetShipVO():getRemouldSkinId() == slot10.id and slot0:GetShipVO():isRemoulded() or slot10.skin_type == ShipSkin.SKIN_TYPE_OLD or getProxy(ShipSkinProxy):hasSkin(slot10.id))
 			slot12:updateUsing(slot0:GetShipVO():useSkin(slot10.id))
 			onButton(slot0, slot12.changeSkinTF, function (slot0)
-				ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id))
+				ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id), uv1:GetShipPhantomMark())
 
-				if uv1 then
-					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv2:GetShipVO():GetShipPhantomMark())
+				if uv2 then
+					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv3:GetShipVO():GetShipPhantomMark())
 				end
 			end, SFX_PANEL)
 			onButton(slot0, slot11, function ()

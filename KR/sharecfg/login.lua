@@ -1865,7 +1865,7 @@ pg.login = {
 		}
 	},
 	[74] = {
-		op_play = 1,
+		op_play = 0,
 		op_time = "stop",
 		date = "stop",
 		id = 74,

@@ -504,6 +504,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「높은 탑 위에 머무는 장미, 왕실의 마지막 영광을 수호하노라」</color>\n「높은 탑의 장미」 이벤트로 획득",
 		scene = {}
 	},
+	[336] = {
+		name = "봉명 아마하라",
+		gain_by = "",
+		time_second = 0,
+		id = 336,
+		time_limit_type = 0,
+		desc = "추후 진행되는 이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -885,6 +894,7 @@ pg.item_data_frame = {
 		333,
 		334,
 		335,
+		336,
 		401,
 		402,
 		413,

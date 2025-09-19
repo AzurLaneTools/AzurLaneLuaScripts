@@ -15,12 +15,12 @@ slot0.Ctor = function(slot0, slot1)
 	setActive(slot0._tf, false)
 end
 
-slot0.setShipData = function(slot0, slot1)
+slot0.setShipData = function(slot0, slot1, slot2)
 	slot0._skinId = slot1
 	slot0._toggleIndex = 1
 
-	if ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0._skinId)) then
-		slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot3)
+	if ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0._skinId), slot2) then
+		slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot4)
 	end
 
 	setActive(slot0._tf, true)

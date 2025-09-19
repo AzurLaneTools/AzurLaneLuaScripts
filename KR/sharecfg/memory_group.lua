@@ -237,6 +237,7 @@ pg.memory_group = setmetatable({
 		335,
 		336,
 		337,
+		338,
 		501,
 		502,
 		503,
@@ -5876,6 +5877,24 @@ pg.base.memory_group = {
 			4575,
 			4576,
 			4577
+		}
+	},
+	[338] = {
+		title = "사쿠라 엠파이어의 초대",
+		subtype = 1,
+		link_event = 50104,
+		type = 2,
+		id = 338,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4591,
+			4592,
+			4593,
+			4594,
+			4595,
+			4596,
+			4597
 		}
 	},
 	[501] = {

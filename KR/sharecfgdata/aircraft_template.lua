@@ -90730,6 +90730,201 @@ _G.pg.base.aircraft_template[168910] = {
 }
 
 
+_G.pg.base.aircraft_template[168981] = {
+	name = "约克城专武SBD",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "sbdwuwei",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sbdwuwei",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1345,
+	speed = 46,
+	id = 168981,
+	scale = 1,
+	weapon_ID = {
+		168991,
+		169001
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[168982] = {
+	id = 168982,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 39,
+	hp_growth = 1507,
+	weapon_ID = {
+		168992,
+		169002
+	}
+}
+
+
+_G.pg.base.aircraft_template[168983] = {
+	id = 168983,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 43,
+	hp_growth = 1669,
+	weapon_ID = {
+		168993,
+		169003
+	}
+}
+
+
+_G.pg.base.aircraft_template[168984] = {
+	id = 168984,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 47,
+	hp_growth = 1831,
+	weapon_ID = {
+		168994,
+		169004
+	}
+}
+
+
+_G.pg.base.aircraft_template[168985] = {
+	id = 168985,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 51,
+	hp_growth = 1994,
+	weapon_ID = {
+		168995,
+		169005
+	}
+}
+
+
+_G.pg.base.aircraft_template[168986] = {
+	id = 168986,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 55,
+	hp_growth = 2157,
+	weapon_ID = {
+		168996,
+		169006
+	}
+}
+
+
+_G.pg.base.aircraft_template[168987] = {
+	id = 168987,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 59,
+	hp_growth = 2320,
+	weapon_ID = {
+		168997,
+		169007
+	}
+}
+
+
+_G.pg.base.aircraft_template[168988] = {
+	id = 168988,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 63,
+	hp_growth = 2483,
+	weapon_ID = {
+		168998,
+		169008
+	}
+}
+
+
+_G.pg.base.aircraft_template[168989] = {
+	id = 168989,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 68,
+	hp_growth = 2646,
+	weapon_ID = {
+		168999,
+		169009
+	}
+}
+
+
+_G.pg.base.aircraft_template[168990] = {
+	id = 168990,
+	spawn_brownian = 1,
+	base = 168981,
+	max_hp = 73,
+	hp_growth = 2809,
+	weapon_ID = {
+		169000,
+		169010
+	}
+}
+
+
 _G.pg.base.aircraft_template[180010] = {
 	name = "优米雅道具陨石轰炸机-普通",
 	max_hp = 80,

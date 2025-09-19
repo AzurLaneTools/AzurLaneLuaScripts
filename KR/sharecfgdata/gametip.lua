@@ -5626,8 +5626,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.6.19 ~ 2025.9.18</color>
-META전 카와카제·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
+<color=#92fc63>2025.9.19 ~ 2025.12.25</color>
+META전 유다치·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -12080,7 +12080,7 @@ _G.pg.base.gametip.levelScene_chapter_is_activation = {
 
 
 _G.pg.base.gametip.resource_verify_warn = {
-	tip = "리소스 복구를 시작하시겠습니까? 복구하는데 어느 정도의 시간이 걸리며 복구 프로세스 중에는 오류가 나타날 수 있으므로 휴대폰 사용을 하지말고 잠시만 기다려 주십시오."
+	tip = "리소스 복구를 시작하시겠습니까? 복구에 어느 정도 시간이 걸리며, 복구 중에는 오류의 우려가 있으므로 기기 사용을 자제하시고 잠시만 기다려 주시기 바랍니다."
 }
 
 
@@ -16925,7 +16925,7 @@ _G.pg.base.gametip.word_equipskin_aux = {
 
 
 _G.pg.base.gametip.msgbox_repair = {
-	tip = "물자 복원"
+	tip = "리소스 복원"
 }
 
 
@@ -21418,7 +21418,7 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ・동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다. 
 ・「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다. 
 
-※<color=#92fc63>2025.6.19 ~ 2025.9.18</color>카와카제·META META전 오픈 기간 동안에는 「카와카제·META」의 동기화 수치를 획득할 수 있습니다. 
+※<color=#92fc63>2025.9.19 ~ 2025.12.25</color> 유다치·META의 META전 오픈 기간 동안에는 「유다치·META」의 동기화 수치를 획득할 수 있습니다. 
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다. 
 
 ■ 「META」 함선의 의장 강화
@@ -24005,7 +24005,7 @@ _G.pg.base.gametip.settings_sound_title_cv = {
 
 
 _G.pg.base.gametip.setting_resdownload_title_gallery = {
-	tip = "삽화 리소스 업데이트"
+	tip = "일러스트 리소스 업데이트"
 }
 
 
@@ -30524,7 +30524,7 @@ _G.pg.base.gametip.last_building_not_shown = {
 
 
 _G.pg.base.gametip.setting_group_prefs_tip = {
-	tip = "부팅 시 자동 다운로드"
+	tip = "게임 기동 시 자동 다운로드"
 }
 
 
@@ -30834,7 +30834,7 @@ _G.pg.base.gametip.metaskill_overflow_tip = {
 
 
 _G.pg.base.gametip.msgbox_repair_cipher = {
-	tip = "리소스 재다운로드"
+	tip = "시크릿즈 복원"
 }
 
 
@@ -40025,4 +40025,29 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_3 = {
 
 _G.pg.base.gametip.grapihcs3d_setting_flare = {
 	tip = "플레어 효과"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "전초전"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "사쿠라 엠파이어의 초대"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title1 = {
+	tip = "전초전"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Title2 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Progress = {
+	tip = "현재 진척도"
 }

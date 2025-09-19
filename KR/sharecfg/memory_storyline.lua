@@ -2258,7 +2258,6 @@ pg.memory_storyline = {
 	{
 		description = "「장미의 탑이여, 제가 당신을 지키겠습니다. 함께 로열 네이비를 지켜 나가요……」",
 		name = "높은 탑의 장미",
-		link_event = "",
 		column = 54,
 		world_id = "",
 		bgm = "theme-glorious-meta",
@@ -2275,6 +2274,50 @@ pg.memory_storyline = {
 		shipnation = {
 			2,
 			97
+		},
+		link_event = {
+			89
+		}
+	},
+	{
+		description = "축포, 음악대도 모두 준비 완료……\n 그럼, 리허설을 시작하자……\n 지휘관! 사쿠라 엠파이어에 온 걸 환영해!",
+		name = "사쿠라 엠파이어의 초대",
+		column = 55,
+		world_id = "",
+		bgm = "story-newsakura",
+		row = -1,
+		chapter = 4,
+		memory_lock = 0,
+		id = 89,
+		icon = "ChapterFour_8",
+		sort = 1,
+		memory_id = {
+			1,
+			338
+		},
+		shipnation = {
+			3
+		},
+		link_event = {
+			90
+		}
+	},
+	{
+		description = "기대해주세요",
+		name = "기대해주세요",
+		shipnation = 0,
+		memory_id = "",
+		column = 55,
+		world_id = "",
+		bgm = "",
+		row = 0,
+		chapter = 4,
+		memory_lock = 1,
+		id = 90,
+		icon = "",
+		sort = 0,
+		link_event = {
+			88
 		}
 	},
 	all = {
@@ -2365,6 +2408,8 @@ pg.memory_storyline = {
 		85,
 		86,
 		87,
-		88
+		88,
+		89,
+		90
 	}
 }

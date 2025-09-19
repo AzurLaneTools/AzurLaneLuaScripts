@@ -499,12 +499,7 @@ temp = function()
 			this = true
 		},
 		["슌"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
-				}
-			}
+			this = true
 		},
 		["보"] = {
 			this = true
@@ -6411,6 +6406,36 @@ end
 temp()
 
 temp = function()
+	uv0["抚"] = {
+		["顺"] = {
+			["."] = {
+				["改"] = {
+					this = true,
+					["（"] = {
+						["后"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
+						},
+						["前"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["폼"] = {
 		["페"] = {
 			["오"] = {
@@ -7202,35 +7227,6 @@ end
 temp()
 
 temp = function()
-	uv0["抚"] = {
-		["顺"] = {
-			["."] = {
-				["改"] = {
-					["（"] = {
-						["后"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						},
-						["前"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["朴"] = {
 		["茨"] = {
 			["茅"] = {
@@ -7318,6 +7314,24 @@ temp = function()
 	uv0["돌"] = {
 		["핀"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["椿"] = {
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

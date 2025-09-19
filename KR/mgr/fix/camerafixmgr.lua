@@ -82,6 +82,26 @@ slot0.SetForceRatio = function(slot0, slot1)
 	end
 end
 
+slot0.BlockCameraRatioControll = function(slot0, slot1)
+	slot2 = CameraMgr.instance
+
+	if slot1 then
+		slot3 = System.Array.CreateInstance(typeof("System.Single"), 2)
+		slot3[0] = 0
+		slot3[1] = 100
+
+		ReflectionHelp.RefSetField(slot2:GetType(), "AspectRatioRange", slot2, slot3)
+	else
+		slot3 = System.Array.CreateInstance(typeof("System.Single"), 2)
+		slot3[0] = 1.3333333333333333
+		slot3[1] = 2.3333333333333335
+
+		ReflectionHelp.RefSetField(slot2:GetType(), "AspectRatioRange", slot2, slot3)
+	end
+
+	slot0:Adapt()
+end
+
 slot0.Clear = function(slot0)
 	if slot0.adaptCall then
 		CameraMgr.instance:RemoveListener(slot0.adaptCall)

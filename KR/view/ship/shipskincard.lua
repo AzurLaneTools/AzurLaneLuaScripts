@@ -99,7 +99,7 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 		end
 
 		if slot4 then
-			slot0.changeSkinToggle:setShipData(slot0.skin.id, slot0.ship.id)
+			slot0.changeSkinToggle:setShipData(slot0.skin.id, slot0.ship:GetShipPhantomMark())
 		end
 
 		setActive(slot0.nameBar, true)
