@@ -813,7 +813,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是曾经和{namecode:457:约克}城一同逛街的地方。",
+			say = "这里是曾经和约克城一同逛街的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
