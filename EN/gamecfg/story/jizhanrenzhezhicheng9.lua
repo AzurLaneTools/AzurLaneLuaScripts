@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Whew. Good. That's half of my daily training done in– Who goes there?!",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "I've been waiting for you here this whole time.",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			side = 2,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			side = 2,
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "I read your letter. You seek soldiers to protect your castle.",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "I am Warspite, a ronin. I've heeded your call.",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Hm? What's with that look? You seem unsure of what to say.",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "Were you the one who cut down all these bamboo stalks?",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Naturally. A ronin must practice daily.",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "And you did it with that wooden sword?",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "A task that requires no effort on my part.",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Any ronin who desires a lord must be this adept to even be worth consideration.",
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Allow me to demonstrate. This is the way in which I will slay evildoers!",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_520",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "As soon as she finishes speaking, a watermelon appears in the air before being magnificently split in two right before my eyes.",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Eat it. It's very sweet.",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "Huh. It IS sweet. This is some good watermelon.",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "How do you evaluate my demonstration, hmm? Are you pleased?",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "Yeah. You're something else. I'd love to hire you.",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "You'll be provided with three meals a day, your own residence, and weapons and armor. You may also use the castle's training grounds as much as you want.",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "In exchange, I want you to help maintain order within the castle.",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "Splendid. I will not disappoint you, Lord Commander!",
 			typewriter = {
 				speed = 0.05,

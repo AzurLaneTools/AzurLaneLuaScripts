@@ -76,6 +76,8 @@ pg.pay_data_display = setmetatable({
 		95,
 		96,
 		97,
+		98,
+		99,
 		1000,
 		1001,
 		1002,
@@ -8191,8 +8193,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2025,
-					3,
-					20
+					9,
+					25
 				},
 				{
 					0,
@@ -8203,8 +8205,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2025,
-					4,
-					9
+					10,
+					7
 				},
 				{
 					23,
@@ -9157,6 +9159,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[98] = {
+		picture = "fudai28",
+		name = "Ninja Castle Lucky Box B",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		subject = "Ninja Castle Lucky Box B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag66",
+		extra_gem = 0,
+		id = 98,
+		airijp_id = "com.yostaren.azurlane.luckybag66",
+		name_display = "Ninja Castle Lucky Box B",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[99] = {
+		picture = "fudai16",
+		name = "Dreamland Lucky Bag B Rerun",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
+		subject = "Dreamland Lucky Bag B Rerun",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag67",
+		extra_gem = 0,
+		id = 99,
+		airijp_id = "com.yostaren.azurlane.luckybag67",
+		name_display = "Dreamland Lucky Bag B Rerun",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86207,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81207,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
 				1
 			},
 			{

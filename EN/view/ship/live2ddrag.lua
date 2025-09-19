@@ -230,7 +230,7 @@ slot0.startDrag = function(slot0, slot1)
 		return
 	end
 
-	print(slot0.drawAbleName .. " 按下了")
+	print(slot0.drawAbleName .. " 按下了 id = " .. slot0.id)
 
 	if not slot0._active then
 		slot0._active = true
@@ -1201,14 +1201,13 @@ slot0.updateTrigger = function(slot0)
 		slot5 = slot0.actionTrigger.range
 
 		if slot0._active and slot0.actionTrigger.active == 1 then
-			if not slot0.dragMoveUp and slot5[1] <= slot0.parameterValue and slot0.parameterValue < slot5[2] then
+			if not slot0.dragMoveUp and slot5[1] < slot0.parameterValue and slot0.parameterValue <= slot5[2] then
 				slot0.dragMoveUp = true
 
 				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, nil, function (slot0)
 				end)
 			end
 		elseif slot0.firstStop and slot0.actionTrigger.active == 0 then
-			print("停止激活")
 			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
 				name = slot0.actionTrigger.parameter
 			}, function (slot0)

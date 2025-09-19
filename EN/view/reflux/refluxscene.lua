@@ -8,6 +8,20 @@ slot0.getUIName = function(slot0)
 	return "RefluxUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	slot2 = function()
+		uv0()
+	end
+
+	if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+			callback = slot2
+		})
+	else
+		slot2()
+	end
+end
+
 slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()

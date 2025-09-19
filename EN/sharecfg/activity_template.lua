@@ -37906,7 +37906,8 @@ pg.activity_template = {
 			24348,
 			24349,
 			24350,
-			24464
+			24464,
+			24466
 		},
 		time = {
 			"timer",
@@ -37989,7 +37990,7 @@ pg.activity_template = {
 			ui_name = "TianYuTianYuanMainPage"
 		},
 		config_client = {
-			task_id = 24464,
+			task_id = 24466,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 543
 		}
@@ -38044,7 +38045,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
-			task_id = 24464
+			task_id = 24466
 		}
 	},
 	[50116] = {
@@ -38866,6 +38867,48 @@ pg.activity_template = {
 					2025,
 					9,
 					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50139] = {
+		mark = 20250529,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50139,
+		page_core = "",
+		config_data = {
+			24465
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					19
 				},
 				{
 					0,
@@ -66323,6 +66366,7 @@ pg.activity_template = {
 			50134,
 			50136,
 			50137,
+			50139,
 			1079,
 			1080,
 			1081,
@@ -68499,6 +68543,7 @@ pg.activity_template = {
 		50135,
 		50136,
 		50137,
+		50139,
 		7001,
 		7011,
 		7012,

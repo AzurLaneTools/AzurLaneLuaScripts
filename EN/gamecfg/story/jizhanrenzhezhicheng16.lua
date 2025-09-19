@@ -65,11 +65,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz... Zzzz...",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +81,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "When I notice this forest path is unusually rabbit-filled, the herd suddenly stops in front of me.",
 			typewriter = {
@@ -94,9 +96,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "Upon the back of the lead bunny sleeps a small girl.",
 			typewriter = {
@@ -105,11 +108,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "*yawn*... Are we there already?",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "The honorable Lady Laffey of the Castle of the Bunnies has heard your plea for aid...",
 			typewriter = {
 				speed = 0.05,
@@ -128,11 +133,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "Don't worry... Laffey will help you take care of those pesky youkai...",
 			typewriter = {
 				speed = 0.05,
@@ -140,10 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "But... Hmm...",
 			typewriter = {
 				speed = 0.05,
@@ -151,10 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "Lord Commander, you look tired.",
 			typewriter = {
 				speed = 0.05,
@@ -162,11 +170,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "You're gonna need a nap first...",
 			typewriter = {
 				speed = 0.05,
@@ -174,10 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "The Castle of the Bunnies has lots of pillows... All kinds of bedding, really...",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +195,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "Wanna come back with Laffey first?",
 			typewriter = {
 				speed = 0.05,
@@ -200,10 +211,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "And just let youkai and random ninjas wreak havoc in my own?",
 			typewriter = {
@@ -212,11 +224,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 2,
 			say = "Mmm... Yeah, that would suck. Okay, we'll come to your castle.",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "But we still need that nap...",
 			typewriter = {
 				speed = 0.05,
@@ -235,11 +249,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "Lord Commander, hop on the bunny.",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +265,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "She raises her arms to stretch. Then, she helps me climb onto this comically oversized rabbit.",
 			typewriter = {
@@ -261,11 +277,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "Mm... That's better. Bunny guard, maaarch!",
 			typewriter = {
 				speed = 0.05,
@@ -273,11 +290,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "Laffey's going to sleep... Lord Commander, nap with me.",
 			typewriter = {
 				speed = 0.05,
@@ -285,11 +303,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Nap, and forget all your worries...",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +319,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "Her soft breaths tickle my cheek, accompanied by a sweet scent.",
 			typewriter = {
@@ -311,11 +331,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz...",
 			typewriter = {
 				speed = 0.05,
@@ -326,10 +347,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "Zzzz...",
 			typewriter = {
@@ -341,9 +363,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "The cloud-like softness of the bunny's back sends us both to the land of dreams together.",
 			typewriter = {

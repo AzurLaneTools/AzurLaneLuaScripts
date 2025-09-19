@@ -7822,6 +7822,99 @@ pg.activity_ins_chat_group = {
 			5860
 		}
 	},
+	{
+		ship_group = 30225,
+		name = "Mending",
+		id = 183,
+		trigger_param = "",
+		unlock_desc = "Obtain the character.",
+		trigger_type = 1,
+		content = {
+			5861,
+			5862,
+			5863,
+			5864,
+			5865,
+			5866,
+			5867,
+			5868,
+			5869,
+			5870,
+			5871,
+			5872,
+			5873,
+			5874,
+			5875,
+			5876,
+			5877,
+			5878,
+			5879
+		}
+	},
+	{
+		ship_group = 30225,
+		name = "Warrior's Intuition",
+		id = 184,
+		trigger_param = "100",
+		unlock_desc = "Raise the character's Affinity to 100.",
+		trigger_type = 2,
+		content = {
+			5880,
+			5881,
+			5882,
+			5883,
+			5884,
+			5885,
+			5886,
+			5887,
+			5888,
+			5889,
+			5890,
+			5891,
+			5892,
+			5893,
+			5894,
+			5895,
+			5896,
+			5897,
+			5898,
+			5899
+		}
+	},
+	{
+		ship_group = 30225,
+		name = "Two Hard Workers",
+		id = 185,
+		trigger_param = "150",
+		unlock_desc = "Raise the character's Affinity to 150.",
+		trigger_type = 2,
+		content = {
+			5900,
+			5901,
+			5902,
+			5903,
+			5904,
+			5905,
+			5906,
+			5907,
+			5908,
+			5909,
+			5910,
+			5911,
+			5912,
+			5913,
+			5914,
+			5915,
+			5916,
+			5917,
+			5918,
+			5919,
+			5920,
+			5921,
+			5922,
+			5923
+		}
+	},
 	get_id_list_by_ship_group = {
 		[960007] = {
 			1,
@@ -8138,6 +8231,11 @@ pg.activity_ins_chat_group = {
 			180,
 			181,
 			182
+		},
+		[30225] = {
+			183,
+			184,
+			185
 		}
 	},
 	all = {
@@ -8322,6 +8420,9 @@ pg.activity_ins_chat_group = {
 		179,
 		180,
 		181,
-		182
+		182,
+		183,
+		184,
+		185
 	}
 }

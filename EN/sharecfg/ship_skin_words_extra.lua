@@ -358,7 +358,8 @@ pg.ship_skin_words_extra = setmetatable({
 		305160,
 		303200,
 		302270,
-		301920
+		301920,
+		999012
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25336,6 +25337,59 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I'll always be here for you, Commander. Today, tomorrow, the next day, and the next day... Basically forever! If you ever don't see me nearby, try looking closer!"
+			}
+		}
+	},
+	[999012] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		mission = "",
+		id = 999012,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Master, where are we heading now? If you need guidance, I can go gather data and propose an optimal route."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Something to rehydrate with and enjoy the charm of the journey by... Master, would you like some sake?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"It's said that \"traveling is better with company.\" Am I doing a good job as your scout, escort, and memory-keeper on this trip?|My outfit focuses more on looking pretty than being easy to move in, right? Is that because you... want me to look pretty, Master?|Feeding the fish in the pond is... pretty fun, I think. Master, ahh. Y-yeah. I want to be fed, too... Are these two things that different?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Master, can I guide you?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Abnormal increase in body temperature detected... I-is it because of my thick clothes?"
 			}
 		}
 	}

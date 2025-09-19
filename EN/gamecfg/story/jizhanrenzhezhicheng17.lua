@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			side = 2,
@@ -63,7 +63,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Shipment confirmed to include emergency repair materials, goods for sustaining life, and assorted building materials.",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Transport route optimization... Complete. This will ensure greater efficiency in future supply efforts.",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Master, I've finished tallying the supplies. Please confirm.",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "I see the list here says 3,000 iron arrowheads, but we received 7,000?",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "The excess was my treat.",
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "As long as I'm here, you don't need to worry.",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "After finishing the inventory, it's clear that things are looking up within the castle.",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "The courtyard looks even more beautiful with such a weight lifted off my shoulders.",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "A cool breeze blows, and maple leaves flutter down to the pond. Each one sends little ripples throughout the water.",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "But Master, the purpose of my trip was not only to personally deliver these supplies.",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "As she pauses, her calm gaze seems to pierce through my eyes and into my soul.",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Based on analysis of past events, you require not just supplies and a morale boost...",
 			typewriter = {
 				speed = 0.05,
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "...But also emotional support and companionship.",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "Information about you exists in many places.",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "I just have a special interest in your feelings and desires.",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 2,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "I've been monitoring you closely for some time now.",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 2,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "If you have any requests, don't hesitate to ask. I'll personally see them fulfilled.",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "However, the emotional intent and resulting desires behind their delivery and consumption are constant.",
 			typewriter = {
 				speed = 0.05,
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "I've pondered the exact nature of these desires for countless hours.",
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "The answer is companionship. Not something temporary, but something to be maintained over the long term.",
 			typewriter = {
 				speed = 0.05,
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "Gascogne's words are simple and blunt.",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "She slowly approaches and stops next to me.",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "I will be at your side at all times, Master, wherever you may need me.",
 			typewriter = {
 				speed = 0.05,
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Whether you order me to or not, I'll protect you and support you forever.",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_142",
 			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "Thank you. Your support means the world to me.",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Feedback confirmed.",
 			typewriter = {
 				speed = 0.05,
@@ -484,7 +484,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Is this emotion that I'm experiencing... joy?",
 			typewriter = {
 				speed = 0.05,
@@ -497,7 +497,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "It's very unique, but...",
 			typewriter = {
 				speed = 0.05,
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "I've confirmed that I'm in excellent condition.",
 			typewriter = {
 				speed = 0.05,
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "I want to know more about this feeling.",
 			typewriter = {
 				speed = 0.05,
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "Requesting input of your own joy, Master.",
 			typewriter = {
 				speed = 0.05,

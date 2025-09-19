@@ -105110,40 +105110,6 @@ _G.pg.base.item_data_statistics[60564] = {
 }
 
 
-_G.pg.base.item_data_statistics[69959] = {
-	open_directly = 0,
-	name = "Mystery T5 Tech Pack",
-	type = 5,
-	display = "Receive a random T5 Tech Pack",
-	other_resource_cost = "[]",
-	replace_item = 0,
-	usage = "usage_drop",
-	display_effect = "OpenBox",
-	link_id = 0,
-	is_world = 0,
-	icon = "Props/30005",
-	order = 0,
-	rarity = 5,
-	max_num = 0,
-	time_limit = 0,
-	virtual_type = 0,
-	other_item_cost = "[]",
-	usage_arg = "69959",
-	id = 69959,
-	compose_number = 0,
-	target_id = 0,
-	display_icon = {},
-	price = {
-		1,
-		100
-	},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {},
-	limit = {}
-}
-
-
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "Resplendent Night Lucky Bag I",
@@ -106375,6 +106341,73 @@ _G.pg.base.item_data_statistics[81217] = {
 		{
 			2,
 			86217,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81218] = {
+	open_directly = 1,
+	name = "Ninja Castle Lucky Box B",
+	type = 17,
+	display = "Contains 1x random skin (Ninja Castle Lucky Box B), 2x Special General Blueprints - Series 8, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai28",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998319",
+	id = 81218,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86218,
 			1
 		},
 		{
