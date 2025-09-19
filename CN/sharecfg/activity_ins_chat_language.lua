@@ -5860,7 +5860,70 @@ pg.activity_ins_chat_language = setmetatable({
 		5857,
 		5858,
 		5859,
-		5860
+		5860,
+		5861,
+		5862,
+		5863,
+		5864,
+		5865,
+		5866,
+		5867,
+		5868,
+		5869,
+		5870,
+		5871,
+		5872,
+		5873,
+		5874,
+		5875,
+		5876,
+		5877,
+		5878,
+		5879,
+		5880,
+		5881,
+		5882,
+		5883,
+		5884,
+		5885,
+		5886,
+		5887,
+		5888,
+		5889,
+		5890,
+		5891,
+		5892,
+		5893,
+		5894,
+		5895,
+		5896,
+		5897,
+		5898,
+		5899,
+		5900,
+		5901,
+		5902,
+		5903,
+		5904,
+		5905,
+		5906,
+		5907,
+		5908,
+		5909,
+		5910,
+		5911,
+		5912,
+		5913,
+		5914,
+		5915,
+		5916,
+		5917,
+		5918,
+		5919,
+		5920,
+		5921,
+		5922,
+		5923
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -58133,5 +58196,559 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 5860,
 		flag = 3
+	},
+	[5861] = {
+		param = "指挥官，你挂在指挥室的那件衣服我暂时拿走了哦？",
+		ship_group = 30225,
+		type = 1,
+		id = 5861,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是发生什么事了吗？"
+			}
+		}
+	},
+	[5862] = {
+		param = "是发生什么事了吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5862,
+		flag = 1
+	},
+	[5863] = {
+		param = "其实只是因为我注意到那件衣服有些破损，所以想稍微缝补一下",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5863,
+		flag = 1
+	},
+	[5864] = {
+		param = "我特地选用了特殊材质的丝线，补好后会更耐磨",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5864,
+		flag = 1
+	},
+	[5865] = {
+		param = "而且颜色选了和原来几乎一样的颜色，因此不会太显眼",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5865,
+		flag = 1
+	},
+	[5866] = {
+		param = "稍后我就送过来，不会耽你之后的工作安排哦",
+		ship_group = 30225,
+		type = 1,
+		id = 5866,
+		flag = 1,
+		option = {
+			{
+				2,
+				"没想到你连这方面都留意到了"
+			}
+		}
+	},
+	[5867] = {
+		param = "没想到你连这方面都留意到了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5867,
+		flag = 2
+	},
+	[5868] = {
+		param = "呵呵，只不过是因为我刚好擅长这个而已",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5868,
+		flag = 2
+	},
+	[5869] = {
+		param = "对了，我还为这件衣服的内衬换了更透气的面料",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5869,
+		flag = 2
+	},
+	[5870] = {
+		param = "这样一来，即便天气闷热，穿起来也清爽透气",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5870,
+		flag = 2
+	},
+	[5871] = {
+		param = "纽扣也为指挥官重新缝过了，现在系起来会更加顺手",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5871,
+		flag = 2
+	},
+	[5872] = {
+		param = "对了，办公桌上那支漏墨的钢笔我也修好了",
+		ship_group = 30225,
+		type = 1,
+		id = 5872,
+		flag = 2,
+		option = {
+			{
+				3,
+				"连这个都注意到了？"
+			}
+		}
+	},
+	[5873] = {
+		param = "连这个都注意到了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5873,
+		flag = 3
+	},
+	[5874] = {
+		param = "因为昨天送资料的时候，看到你的手指沾到墨水了",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5874,
+		flag = 3
+	},
+	[5875] = {
+		param = "嗯，补好的地方摸起来和原来一样柔软……",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5875,
+		flag = 3
+	},
+	[5876] = {
+		param = "如果指挥官觉得缝补后的衣服穿起来有哪里不舒服，记得随时告诉我",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5876,
+		flag = 3
+	},
+	[5877] = {
+		param = "衣服就像第二层皮肤，要足够舒适才行",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5877,
+		flag = 3
+	},
+	[5878] = {
+		param = "那么请在指挥室内稍候片刻，我马上就到 ",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5878,
+		flag = 3
+	},
+	[5879] = {
+		param = "放心，保证跟新的一样哦~",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5879,
+		flag = 3
+	},
+	[5880] = {
+		param = "指挥官，今天似乎会下大雨哦",
+		ship_group = 30225,
+		type = 1,
+		id = 5880,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你怎么知道会下雨的？"
+			}
+		}
+	},
+	[5881] = {
+		param = "你怎么知道会下雨的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5881,
+		flag = 1
+	},
+	[5882] = {
+		param = "此乃武者独到的直觉……开玩笑的",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5882,
+		flag = 1
+	},
+	[5883] = {
+		param = "其实是因为刚刚练武的时候，发现海鸥飞得很低而已",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5883,
+		flag = 1
+	},
+	[5884] = {
+		param = "我准备好了特制的雨伞，放在指挥室门旁的架子上了",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5884,
+		flag = 1
+	},
+	[5885] = {
+		param = "伞柄用的是与我武器同款的防滑设计",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5885,
+		flag = 1
+	},
+	[5886] = {
+		param = "而且选用的是我与你一起撑伞时所用的那柄伞的颜色",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5886,
+		flag = 1
+	},
+	[5887] = {
+		param = "指挥官应该很喜欢那个颜色吧？",
+		ship_group = 30225,
+		type = 1,
+		id = 5887,
+		flag = 1,
+		option = {
+			{
+				2,
+				"居然被你发现了"
+			}
+		}
+	},
+	[5888] = {
+		param = "居然被你发现了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5888,
+		flag = 2
+	},
+	[5889] = {
+		param = "呵呵，因为那次雨天你盯着我的伞看了很久",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5889,
+		flag = 2
+	},
+	[5890] = {
+		param = "在架子下方我还准备了一次性鞋套，套在鞋子外面就行",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5890,
+		flag = 2
+	},
+	[5891] = {
+		param = "对了，我回来的时候注意到东走廊的顶棚似乎有些破损，可能会漏水",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5891,
+		flag = 2
+	},
+	[5892] = {
+		param = "所以指挥官如果要外出的话，我建议走西侧的走廊",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5892,
+		flag = 2
+	},
+	[5893] = {
+		param = "对了，我还在休息室准备了干毛巾和热茶",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5893,
+		flag = 2
+	},
+	[5894] = {
+		param = "你回来时可以用它们擦干水渍，稍微暖暖身子",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5894,
+		flag = 2
+	},
+	[5895] = {
+		param = "对了，如果指挥官要外出办事的话，要尽量早点回去哦",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5895,
+		flag = 2
+	},
+	[5896] = {
+		param = "因为这场雨会越下越大呢～",
+		ship_group = 30225,
+		type = 1,
+		id = 5896,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……这又是怎么知道的？"
+			}
+		}
+	},
+	[5897] = {
+		param = "……这又是怎么知道的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5897,
+		flag = 3
+	},
+	[5898] = {
+		param = "嗯……为什么呢……",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5898,
+		flag = 3
+	},
+	[5899] = {
+		param = "这就是武者独到的直觉……也说不定哦～",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5899,
+		flag = 3
+	},
+	[5900] = {
+		param = "我看到了指挥室的灯光了哦指挥官，你又加班到这么晚",
+		ship_group = 30225,
+		type = 1,
+		id = 5900,
+		flag = 0,
+		option = {
+			{
+				1,
+				"{namecode:231}也还没休息吗？"
+			}
+		}
+	},
+	[5901] = {
+		param = "{namecode:231}也还没休息吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5901,
+		flag = 1
+	},
+	[5902] = {
+		param = "我刚刚完成今日的修行，在路过楼下的时候正好看到了",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5902,
+		flag = 1
+	},
+	[5903] = {
+		param = "再锋利的刀也要定期打磨，人也是一样的哦？",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5903,
+		flag = 1
+	},
+	[5904] = {
+		param = "努力很重要，但适当的休息才能让状态保持“锋利”呢！",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5904,
+		flag = 1
+	},
+	[5905] = {
+		param = "当然，我知道指挥官一定会优先完成手头上的工作才会休息",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5905,
+		flag = 1
+	},
+	[5906] = {
+		param = "所以，我刚刚为指挥官准备了一些容易消化的宵夜",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5906,
+		flag = 1
+	},
+	[5907] = {
+		param = "已经放在办公室门外的架子上啦",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5907,
+		flag = 1
+	},
+	[5908] = {
+		param = "是温热的蔬菜粥，不会太烫，还配了些你喜欢的小菜",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5908,
+		flag = 1
+	},
+	[5909] = {
+		param = "指挥官要记得及时将它们“解决”掉哦？",
+		ship_group = 30225,
+		type = 1,
+		id = 5909,
+		flag = 1,
+		option = {
+			{
+				2,
+				"谢谢你，我这就去将它们“解决”掉"
+			}
+		}
+	},
+	[5910] = {
+		param = "谢谢你，我这就去将它们“解决”掉",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5910,
+		flag = 2
+	},
+	[5911] = {
+		param = "{namecode:231}也早点休息",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5911,
+		flag = 2
+	},
+	[5912] = {
+		param = "呵呵，关心主君的状态乃是武者的本分之事。更何况……",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5912,
+		flag = 2
+	},
+	[5913] = {
+		param = "指挥官在完成工作的时候，我也同样有工作需要完成呢",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5913,
+		flag = 2
+	},
+	[5914] = {
+		param = "234",
+		ship_group = 30225,
+		type = 4,
+		id = 5914,
+		flag = 2,
+		option = {
+			{
+				3,
+				"让我猜猜……"
+			}
+		}
+	},
+	[5915] = {
+		param = "让我猜猜……在做新衣服？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5915,
+		flag = 3
+	},
+	[5916] = {
+		param = "不愧是指挥官，正中靶心了呢",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5916,
+		flag = 3
+	},
+	[5917] = {
+		param = "至于成品的话……敬请期待？",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5917,
+		flag = 3
+	},
+	[5918] = {
+		param = "说起来……给指挥官绣的东西也快要完成了呢",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5918,
+		flag = 3
+	},
+	[5919] = {
+		param = "这里也稍微留个悬念",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5919,
+		flag = 3
+	},
+	[5920] = {
+		param = "我很期待指挥官看到它之后的表情哦～",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5920,
+		flag = 3
+	},
+	[5921] = {
+		param = "那么，我们彼此都早点做完，然后早点休息吧～",
+		ship_group = 30225,
+		option = "",
+		type = 1,
+		id = 5921,
+		flag = 3
+	},
+	[5922] = {
+		param = "提前晚安",
+		ship_group = 30225,
+		type = 1,
+		id = 5922,
+		flag = 3,
+		option = {
+			{
+				4,
+				"晚安"
+			}
+		}
+	},
+	[5923] = {
+		param = "晚安",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 5923,
+		flag = 4
 	}
 }

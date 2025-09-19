@@ -65,11 +65,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz……Zzzz……",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +81,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "一群兔子浩浩荡荡地在林间小径中蹦跶着，最后在我的面前停下。",
 			typewriter = {
@@ -94,9 +96,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "为首的兔兔背上，少女睡得正酣。",
 			typewriter = {
@@ -105,11 +108,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "呼啊……已经到了吗……？",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "尊贵的兔兔城城主，拉菲……响应盟友的召集而来……",
 			typewriter = {
 				speed = 0.05,
@@ -128,11 +133,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "别担心，拉菲会帮助你……一起讨伐那些捣乱的妖魔的……",
 			typewriter = {
 				speed = 0.05,
@@ -140,10 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "不过……唔……",
 			typewriter = {
 				speed = 0.05,
@@ -151,10 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "城主指挥官，你看上去好疲惫……",
 			typewriter = {
 				speed = 0.05,
@@ -162,11 +170,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "拉菲觉得，你需要好好睡一觉了……",
 			typewriter = {
 				speed = 0.05,
@@ -174,10 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "拉菲的兔兔城堡里，有取之不尽的枕头……棉被和床褥，也管够的……",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +195,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "要不然……你先跟拉菲一起回兔兔城吧？",
 			typewriter = {
 				speed = 0.05,
@@ -200,10 +211,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "那城里肆虐的妖魔鬼怪要怎么办？",
 			typewriter = {
@@ -212,11 +224,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 2,
 			say = "唔……好麻烦，那我们还是尽快赶去你的城堡吧。",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900525,
-			side = 2,
-			bgName = "star_level_bg_520",
+			actor = 101512,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			spine = true,
+			side = 2,
 			say = "不过睡眠也不能落下……",
 			typewriter = {
 				speed = 0.05,
@@ -235,11 +249,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "这样好了，城主指挥官……你快到大兔兔的身上来。",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +265,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "拉菲举起双手伸了个懒腰，然后自然地牵起我的手，将我拉到了这个和世界观完全没法融合在一起的巨大兔兔坐骑上。",
 			typewriter = {
@@ -261,11 +277,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 3,
 			say = "唔……这样就好了……大兔兔，出发！",
 			typewriter = {
 				speed = 0.05,
@@ -273,11 +290,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 4,
 			say = "然后……拉菲困了，城主指挥官，我们一起睡……",
 			typewriter = {
 				speed = 0.05,
@@ -285,11 +303,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "一起睡……忘掉所有的烦恼……",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +319,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "轻柔的呼吸拂过，带着一丝香甜的气息。",
 			typewriter = {
@@ -311,11 +331,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
+			spine = true,
 			side = 2,
-			actor = 900525,
+			expression = 5,
 			say = "Zzzz……",
 			typewriter = {
 				speed = 0.05,
@@ -326,10 +347,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
-			actorName = "{playername}",
+			spine = true,
 			portrait = "zhihuiguan",
+			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "Zzzz……",
 			typewriter = {
@@ -341,9 +363,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
+			spine = true,
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900525,
+			actor = 101512,
 			nameColor = "#A9F548FF",
 			say = "如在云端的柔软触感中，我与拉菲双双坠入了梦乡——",
 			typewriter = {

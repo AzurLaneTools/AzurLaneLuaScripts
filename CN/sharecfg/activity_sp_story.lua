@@ -4306,13 +4306,13 @@ pg.activity_sp_story = {
 		}
 	},
 	[248] = {
-		story_type = 99,
-		name = "9月19日维护后解锁",
-		change_prefab = "juqing_heisewuqi",
-		unlock_conditions = "",
-		change_background = "",
-		story = "",
-		change_bgm = "",
+		story_type = 1,
+		name = "EP-？ 步入天原·下",
+		change_prefab = "",
+		unlock_conditions = "完成EP-？",
+		change_background = "bg_xiangting_2",
+		story = "QIWUYUTIANYUANZHISHANG18",
+		change_bgm = "story-worldα-brokenlight",
 		id = 248,
 		pre_event = {
 			247
@@ -4321,6 +4321,407 @@ pg.activity_sp_story = {
 			{
 				4,
 				247
+			}
+		}
+	},
+	[249] = {
+		story_type = 1,
+		name = "EP4-1 再临长岛",
+		change_prefab = "",
+		unlock_conditions = "完成EP-？",
+		change_background = "star_level_bg_494",
+		story = "QIWUYUTIANYUANZHISHANG19",
+		change_bgm = "story-worldα-grief",
+		id = 249,
+		pre_event = {
+			248
+		},
+		lock = {
+			{
+				4,
+				248
+			}
+		}
+	},
+	[250] = {
+		story_type = 1,
+		name = "EP4-2 安洁救援计划",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-1",
+		change_background = "star_level_bg_170",
+		story = "QIWUYUTIANYUANZHISHANG20",
+		change_bgm = "story-worldα-grief",
+		id = 250,
+		pre_event = {
+			249
+		},
+		lock = {
+			{
+				4,
+				249
+			}
+		}
+	},
+	[251] = {
+		story_type = 1,
+		name = "EP4-3 弦中微光",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-2",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG21",
+		change_bgm = "story-worldα-brokenlight",
+		id = 251,
+		pre_event = {
+			250
+		},
+		lock = {
+			{
+				4,
+				250
+			}
+		}
+	},
+	[252] = {
+		story_type = 1,
+		name = "EP4-4 安洁救援计划·改",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-3",
+		change_background = "star_level_bg_306",
+		story = "QIWUYUTIANYUANZHISHANG22",
+		change_bgm = "story-worldα-brokenlight",
+		id = 252,
+		pre_event = {
+			251
+		},
+		lock = {
+			{
+				4,
+				251
+			}
+		}
+	},
+	[253] = {
+		story_type = 1,
+		name = "EP4-5 战前准备",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-4",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG23",
+		change_bgm = "story-worldα-brokenlight",
+		id = 253,
+		pre_event = {
+			252
+		},
+		lock = {
+			{
+				4,
+				252
+			}
+		}
+	},
+	[254] = {
+		story_type = 1,
+		name = "EP4-6 牢笼",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-5",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG24",
+		change_bgm = "battle-eagleunion",
+		id = 254,
+		pre_event = {
+			253
+		},
+		lock = {
+			{
+				4,
+				253
+			}
+		}
+	},
+	[255] = {
+		story_type = 1,
+		name = "EP5-1 战前准备·改",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-6",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG25",
+		change_bgm = "story-amahara-stage2",
+		id = 255,
+		pre_event = {
+			254
+		},
+		lock = {
+			{
+				4,
+				254
+			}
+		}
+	},
+	[256] = {
+		story_type = 1,
+		name = "EP5-2 驻防区域A",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-1",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG26",
+		change_bgm = "theme-starsea-core",
+		id = 256,
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				255
+			}
+		}
+	},
+	[257] = {
+		story_type = 1,
+		name = "EP5-3 驻防区域B",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-2",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG27",
+		change_bgm = "theme-unzen",
+		id = 257,
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				256
+			}
+		}
+	},
+	[258] = {
+		story_type = 1,
+		name = "EP5-4 驻防区域C",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-3",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG28",
+		change_bgm = "theme-akagi-inside",
+		id = 258,
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				257
+			}
+		}
+	},
+	[259] = {
+		story_type = 1,
+		name = "EP5-5 一抹朱红",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-4",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG29",
+		change_bgm = "battle-unknown-approaching",
+		id = 259,
+		pre_event = {
+			256,
+			257,
+			258
+		},
+		lock = {
+			{
+				4,
+				258
+			}
+		}
+	},
+	[260] = {
+		story_type = 1,
+		name = "EP6-1 黑色高墙",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-5",
+		change_background = "bg_zhedie_2",
+		story = "QIWUYUTIANYUANZHISHANG30",
+		change_bgm = "theme-longgong-another",
+		id = 260,
+		pre_event = {
+			259
+		},
+		lock = {
+			{
+				4,
+				259
+			}
+		}
+	},
+	[261] = {
+		story_type = 1,
+		name = "EP6-2 千钧一发",
+		change_prefab = "",
+		unlock_conditions = "完成EP6-1",
+		change_background = "bg_amahara_cg10",
+		story = "QIWUYUTIANYUANZHISHANG31",
+		change_bgm = "theme-helena",
+		id = 261,
+		pre_event = {
+			260
+		},
+		lock = {
+			{
+				4,
+				260
+			}
+		}
+	},
+	[262] = {
+		story_type = 1,
+		name = "EP6-3 海蓝色的光",
+		change_prefab = "",
+		unlock_conditions = "完成EP6-2",
+		change_background = "bg_underwater",
+		story = "QIWUYUTIANYUANZHISHANG32",
+		change_bgm = "theme-helena",
+		id = 262,
+		pre_event = {
+			261
+		},
+		lock = {
+			{
+				4,
+				261
+			}
+		}
+	},
+	[263] = {
+		story_type = 1,
+		name = "EP6-4 离别",
+		change_prefab = "",
+		unlock_conditions = "完成EP6-3",
+		change_background = "bg_amahara_4",
+		story = "QIWUYUTIANYUANZHISHANG33",
+		change_bgm = "story-amahara-stage1",
+		id = 263,
+		pre_event = {
+			262
+		},
+		lock = {
+			{
+				4,
+				262
+			}
+		}
+	},
+	[264] = {
+		story_type = 1,
+		name = "EP6-5 尾声",
+		change_prefab = "",
+		unlock_conditions = "完成EP6-4",
+		change_background = "star_level_bg_111",
+		story = "QIWUYUTIANYUANZHISHANG34",
+		change_bgm = "story-amahara-stage1",
+		id = 264,
+		pre_event = {
+			263
+		},
+		lock = {
+			{
+				4,
+				263
+			}
+		}
+	},
+	[265] = {
+		story_type = 1,
+		name = "EX-1 天原的延续",
+		change_prefab = "",
+		unlock_conditions = "完成EP6-5",
+		change_background = "star_level_bg_492",
+		story = "QIWUYUTIANYUANZHISHANG35",
+		change_bgm = "theme-akagi-inside",
+		id = 265,
+		pre_event = {
+			264
+		},
+		lock = {
+			{
+				4,
+				264
+			}
+		}
+	},
+	[266] = {
+		story_type = 1,
+		name = "EX-2 告别朱红",
+		change_prefab = "",
+		unlock_conditions = "完成EX-1",
+		change_background = "bg_port_chongdong",
+		story = "QIWUYUTIANYUANZHISHANG36",
+		change_bgm = "theme-starsea-core",
+		id = 266,
+		pre_event = {
+			265
+		},
+		lock = {
+			{
+				4,
+				265
+			}
+		}
+	},
+	[267] = {
+		story_type = 1,
+		name = "EX-3 海伦娜的决定",
+		change_prefab = "",
+		unlock_conditions = "完成EX-2",
+		change_background = "star_level_bg_170",
+		story = "QIWUYUTIANYUANZHISHANG37",
+		change_bgm = "story-richang-light",
+		id = 267,
+		pre_event = {
+			266
+		},
+		lock = {
+			{
+				4,
+				266
+			}
+		}
+	},
+	[268] = {
+		story_type = 1,
+		name = "EX-4 不会有事的",
+		change_prefab = "",
+		unlock_conditions = "完成EX-3",
+		change_background = "star_level_bg_589",
+		story = "QIWUYUTIANYUANZHISHANG38",
+		change_bgm = "theme-starsea-core",
+		id = 268,
+		pre_event = {
+			267
+		},
+		lock = {
+			{
+				4,
+				267
+			}
+		}
+	},
+	[269] = {
+		story_type = 1,
+		name = "EX-5 甜美的饵",
+		change_prefab = "Map_1960002",
+		unlock_conditions = "完成EX-4",
+		change_background = "bg_amahara_4",
+		story = "QIWUYUTIANYUANZHISHANG39",
+		change_bgm = "story-amahara-stage1",
+		id = 269,
+		pre_event = {
+			268
+		},
+		lock = {
+			{
+				4,
+				268
 			}
 		}
 	},
@@ -4554,6 +4955,27 @@ pg.activity_sp_story = {
 		245,
 		246,
 		247,
-		248
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269
 	}
 }

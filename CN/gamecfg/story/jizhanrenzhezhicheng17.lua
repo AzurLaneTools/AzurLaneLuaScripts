@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			side = 2,
@@ -63,7 +63,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "新入库物资……包含应急维修材料、生存补给以及各类建筑耗材。",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "运输通道……已优化，确保后续供给效率最大化。",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "城主指挥官大人，物资清点工作已基本完成，请您确认。",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "我看到预计送达的精铁箭镞有三千枚，实际入库却有七千枚？",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "多出的，是加斯科涅的心意。",
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "有加斯科涅在，您无需担忧。",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "这样一番清点过后，城内的形势明显乐观了许多。",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "紧绷的神经随之放松下来后，庭院内静候多时的美景自然映入眼帘。",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "凉风穿庭而过，掠过枝梢，卷起两三片红枫在空中摇曳起舞，落入池中又漾开一圈圈涟漪。",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "不过，加斯科涅此行的目的，并不仅仅是交付物资……",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "加斯科涅停下脚步，望向我的平静目光仿佛能穿透表象。",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "根据过往的信息分析，城主大人现在最需要的，是更多的物资和保障……",
 			typewriter = {
 				speed = 0.05,
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "……也是“支持”和“陪伴”。",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "信息无处不在。",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 1,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "我只是，格外关注您的情感和渴望。",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 2,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "加斯科涅，一直在关注城主大人的行动。",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			optionFlag = 2,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "您有任何需求，都可以告知加斯科涅。加斯科涅会替您实现。",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "但其中承载的回应——不会改变。",
 			typewriter = {
 				speed = 0.05,
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "至于具体的回应内容应该是什么，加斯科涅也想了很久。",
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "“陪伴”并非一时，而应当是长久的、持续的。",
 			typewriter = {
 				speed = 0.05,
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "加斯科涅的话语不夹带任何华丽的辞藻，却直率到让人无法回避。",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			bgName = "star_level_bg_142",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "她轻轻移动步伐，走到我的身边。",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "加斯科涅，会始终站在您的身边，站在任何您需要的位置。",
 			typewriter = {
 				speed = 0.05,
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "即便您并没有给予我任何指令——我依旧会拥护您、支持您，直至永恒。",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900524,
+			actor = 999012,
 			side = 2,
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_142",
 			actorName = "{playername}",
 			hideRecordIco = true,
-			actor = 900524,
+			actor = 999012,
 			nameColor = "#A9F548FF",
 			say = "谢谢，你给我的支援相当珍贵。",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "收到您的反馈，城主大人。",
 			typewriter = {
 				speed = 0.05,
@@ -484,7 +484,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "加斯科涅感到了……“喜悦”……？",
 			typewriter = {
 				speed = 0.05,
@@ -497,7 +497,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "这样的体验，很特殊。但是……",
 			typewriter = {
 				speed = 0.05,
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "……加斯科涅，感觉良好。",
 			typewriter = {
 				speed = 0.05,
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "可以的话，加斯科涅想要了解更多。",
 			typewriter = {
 				speed = 0.05,
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_142",
 			side = 2,
 			dir = 1,
-			actor = 900524,
+			actor = 999012,
 			say = "请继续向加斯科涅……输入您的，“喜悦”。",
 			typewriter = {
 				speed = 0.05,

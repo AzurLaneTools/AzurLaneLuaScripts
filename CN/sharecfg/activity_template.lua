@@ -28604,7 +28604,8 @@ pg.activity_template = {
 			24348,
 			24349,
 			24350,
-			24464
+			24464,
+			24466
 		},
 		time = {
 			"timer",
@@ -28731,7 +28732,7 @@ pg.activity_template = {
 			ui_name = "TianYuTianYuanMainPage"
 		},
 		config_client = {
-			task_id = 24464,
+			task_id = 24466,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 543
 		}
@@ -28786,7 +28787,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
-			task_id = 24464
+			task_id = 24466
 		}
 	},
 	[50116] = {

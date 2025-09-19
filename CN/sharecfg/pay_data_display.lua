@@ -95,6 +95,8 @@ pg.pay_data_display = setmetatable({
 		95,
 		96,
 		97,
+		98,
+		99,
 		1000,
 		1001,
 		1002,
@@ -11334,6 +11336,274 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[98] = {
+		picture = "fudai28",
+		name = "忍者之城换装礼盒II",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "忍者之城换装礼盒II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi198",
+		extra_gem = 0,
+		id = 98,
+		airijp_id = "com.yostarjp.azurlane.diamond186",
+		name_display = "忍者之城换装礼盒II",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[99] = {
+		picture = "fudai16",
+		name = "梦幻乐园换装礼盒II复刻",
+		type = 1,
+		second_text = "大量奖励",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "梦幻乐园换装礼盒II复刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi199",
+		extra_gem = 0,
+		id = 99,
+		airijp_id = "com.yostarjp.azurlane.diamond187",
+		name_display = "梦幻乐园换装礼盒II复刻",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86207,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81207,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
 				1
 			},
 			{

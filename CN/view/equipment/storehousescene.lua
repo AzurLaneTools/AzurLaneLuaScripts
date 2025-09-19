@@ -520,6 +520,7 @@ slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})
+	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})

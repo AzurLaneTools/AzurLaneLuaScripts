@@ -820,6 +820,19 @@ slot0.SetVisible = function(slot0, slot1)
 	end
 end
 
+slot0.loadL2dLinkData = function(slot0)
+	if ChangeSkinLink.L2D_PARAMETER_DIC and ChangeSkinLink.L2D_PARAMETER_DIC[slot0.live2dData.ship.id] and slot0.drags then
+		slot1 = ChangeSkinLink.L2D_PARAMETER_DIC[slot0.live2dData.ship.id]
+		slot2 = ChangeSkinLink.L2D_LINK_PARAMETER[slot0.live2dData.skinId]
+
+		for slot6 = 1, #slot0.drags do
+			if table.contains(slot2, slot0.drags[slot6].parameterName) and slot7.parameterName and slot1[slot7.parameterName] then
+				slot7:setTargetValue(slot1[slot7.parameterName])
+			end
+		end
+	end
+end
+
 slot0.loadLive2dData = function(slot0)
 	if not slot0.live2dData.loadPrefs then
 		return
@@ -836,6 +849,8 @@ slot0.loadLive2dData = function(slot0)
 		slot0:changeIdleIndex(0)
 
 		slot0.saveActionAbleId = nil
+
+		slot0:loadL2dLinkData()
 	else
 		slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
 		slot3 = Live2dConst.GetDragActionIndex(slot2, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1

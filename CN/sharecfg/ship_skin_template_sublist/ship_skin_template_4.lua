@@ -1,6 +1,110 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107270] = {
+		name = "兰利II",
+		change_skin = "",
+		desc = "独立级轻型航空母舰—兰利II，舷号CVL-27",
+		illustrator2 = -1,
+		ship_group = 10727,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "lanliII",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107270,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "lanliII",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 50,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.25,
+					0
+				}
+			},
+			plane = {
+				{
+					1.1,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.225,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107271] = {
 		name = "明媚休假进行时",
 		change_skin = "",
@@ -3597,6 +3701,236 @@ pg.base.ship_skin_template_4 = {
 			0.5,
 			0.5,
 			0.5
+		}
+	},
+	[118022] = {
+		name = "女忍者的危险综艺秀",
+		change_skin = "",
+		desc = "美少女忍者关岛，闪亮登场☆各位即将看到的是“完全不会忍术的忍者演示如何潜入指挥官房间”的综艺直播现场——哇啊啊啊啊！？疼疼疼……这个潜入机关真难用欸……啊，指挥官不用停止录像！节目就应该充满意外嘛♪",
+		illustrator2 = -1,
+		ship_group = 11802,
+		group_index = 2,
+		painting = "guandao_3",
+		bg_sp = "",
+		skin_type = 4,
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "191",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		id = 118022,
+		voice_actor_2 = -1,
+		part_scale = "",
+		prefab = "guandao_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71218,
+		voice_actor = 389,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-27.6,
+			96.1,
+			0,
+			108.3
+		},
+		shop_offset = {
+			29,
+			115.1,
+			0,
+			106.65
+		},
+		purchase_offset = {
+			29,
+			115.1,
+			0,
+			106.65
+		},
+		live2d_offset_profile = {
+			39.4,
+			96.1,
+			0,
+			108.3
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.273,
+					3.634,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.316,
+					3.575,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.783,
+					2.256,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.939,
+							2.391,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamEyeBallX = {
+				-0.5,
+				0.5
+			},
+			ParamEyeBallY = {
+				-0.5,
+				0.5
+			},
+			ParamBodyAngleX = {
+				-5,
+				5
+			}
+		},
+		ship_l2d_id = {
+			11802201,
+			11802202,
+			11802203,
+			11802204,
+			11802205,
+			11802206,
+			11802207,
+			11802208,
+			11802209,
+			11802210,
+			11802211,
+			11802212,
+			11802213,
+			11802214,
+			11802215,
+			11802216,
+			11802217,
+			11802218,
+			11802219,
+			11802220,
+			11802221,
+			11802222,
+			11802223,
+			11802224
+		},
+		l2d_drag_rate = {
+			0.7,
+			0.7,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					1524,
+					-811,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-391,
+					-913,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					559,
+					197,
+					2,
+					120,
+					0,
+					2
+				}
+			}
 		}
 	},
 	[131170] = {
@@ -14894,255 +15228,6 @@ pg.base.ship_skin_template_4 = {
 						{
 							0.456,
 							0.279,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202019] = {
-		name = "利安得.改",
-		change_skin = "",
-		desc = "贵安，愿一切都能如您所愿，指挥官。欸？哎呀呀——我是利安得啦！",
-		illustrator2 = -1,
-		ship_group = 20201,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "liande_g",
-		bg_sp = "",
-		skin_type = 2,
-		shop_type_id = 9997,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 202019,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "liande_g",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 66,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.11,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.11,
-					1.12,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.11,
-					1.12,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202020] = {
-		name = "阿基里斯",
-		change_skin = "",
-		desc = "利安得级轻巡洋舰—阿基里斯，舷号70",
-		illustrator2 = -1,
-		ship_group = 20202,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "ajilisi",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 202020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "ajilisi",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 61,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.348,
-					1.082,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.81,
-					0.756,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.552,
-					0.703,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.81,
-					0.756,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.575,
-							0.382,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.448,
-							0.577,
 							0
 						}
 					}

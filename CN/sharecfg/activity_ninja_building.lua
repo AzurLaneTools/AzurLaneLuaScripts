@@ -1144,7 +1144,7 @@ pg.activity_ninja_building = {
 				381.5325
 			},
 			"招募拉菲II后解锁",
-			"白免与梦乡",
+			"白兔与梦乡",
 			"shipyardicon/lafeiII_4"
 		},
 		handbook_pic = {

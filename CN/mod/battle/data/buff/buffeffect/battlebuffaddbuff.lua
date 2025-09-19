@@ -29,7 +29,7 @@ end
 
 slot3.onUpdate = function(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
-		slot0:attachBuff(slot0._buff_id, slot0._level, slot1, slot2)
+		slot0:AddBuff(slot1, slot3, slot2)
 
 		slot0._nextEffectTime = slot4 + slot0._time
 	end
