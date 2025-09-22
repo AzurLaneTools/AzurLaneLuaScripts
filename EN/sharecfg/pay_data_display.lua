@@ -1603,9 +1603,9 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				14,
-				1980
+				2,
+				14004,
+				25
 			},
 			{
 				2,

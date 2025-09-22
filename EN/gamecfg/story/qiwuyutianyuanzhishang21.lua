@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "It's not really a single bunker – it'd be more accurate to call it a bunker complex. Dr.Li has always been in command over there.",
+			say = "It's not really a single bunker – it'd be more accurate to call it a bunker complex. Dr. Li has always been in command over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
