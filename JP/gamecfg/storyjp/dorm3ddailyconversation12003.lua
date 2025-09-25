@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼，昨天{namecode:97}看见{dorm3d}和别的孩子聊了很久呢。",
+			say = "指揮官様……昨日ほかの子と長～くお話しているところを見ましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您已经答应今天要来见{namecode:97}，怎么可以和其他人再会面呢！",
+			say = "今日大鳳に会いに来るって約束してたのに、どうしてほかの子に会っていたんですか！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样的指挥官，可是要受到{namecode:97}的惩罚哦~",
+			say = "そんな指揮官様には「罰」を与えて差し上げますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是要让{dorm3d}只能属于{namecode:97}一个人的惩罚呢~",
+			say = "もちろん、指揮官様が大鳳だけのものになる罰、ですわ♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

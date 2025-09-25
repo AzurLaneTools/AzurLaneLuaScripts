@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总是让{dorm3d}来找{namecode:97}感觉很麻烦您呢，偷偷去您的房间也并不方便。",
+			say = "いつも指揮官様にお越しいただくのもなんだか申し訳ありませんし…かといって毎回指揮官様のお部屋に忍び込むのもなかなか大変ですし……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…这样{namecode:97}想要获得{dorm3d}的私人物品也更方便呢。",
+			say = "…そうすれば……指揮官様の私物を手に入れるのも、もっと楽になりますし……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果{dorm3d}的压力很大，不如让{namecode:97}作为您的捏捏乐帮您解压吧！",
+			say = "ストレスを感じていらっしゃるなら…大鳳をむにむにグッズのように扱って解消してくださいませ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

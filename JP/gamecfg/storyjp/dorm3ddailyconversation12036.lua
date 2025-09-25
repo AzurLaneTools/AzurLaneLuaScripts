@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "听说睡前做一些运动有利于健康，就让{namecode:97}来陪您运动一下吧~",
+			say = "指揮官様、寝る前に運動をすると健康にいいって聞きましてぇ…大鳳からもぜひ一緒にお願いしますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "至于什么运动……{namecode:97}当然完全遵循{dorm3d}的喜好。",
+			say = "どんな運動をするかは……もちろん、指揮官様のお好みに合わせます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总之接下来，{namecode:97}的身体健康就交给您啦。",
+			say = "とにかく、これから先は大鳳の健康管理を指揮官様にお任せしますわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

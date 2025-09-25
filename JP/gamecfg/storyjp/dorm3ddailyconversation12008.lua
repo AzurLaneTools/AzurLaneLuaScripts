@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等、等等，{namecode:97}在{dorm3d}身上嗅到其他孩子的味道，难道{namecode:97}的宿舍不是您的唯一选择吗？！",
+			say = "ま、待って…指揮官様からほかの子の匂いが…指揮官様にとって大鳳の部屋が唯一の選択肢じゃなかったというの？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我只会选择{namecode:97}哦",
+			say = "大鳳だけを選ぶよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呼……差点以为{namecode:97}输给了别的孩子。",
+			say = "ふぅ…てっきり大鳳がほかの子に負けたかと思いましたわ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}会更加努力，我要做{dorm3d}永远的唯一选择❤",
+			say = "指揮官様の唯一の選択肢になれるよう、もっともっとがんばりますわ♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "抓住了！{dorm3d}，今天无论如何，{namecode:97}都不会让您离开半步。",
+			say = "指揮官様、つかまえました！今日は絶対に大鳳のそばから一歩たりとも離れさせませんわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "昨晚{namecode:97}竟然梦见{dorm3d}忘记{namecode:97}了，一定是{namecode:97}陪伴您的时间还不够……",
+			say = "昨夜、「指揮官様が大鳳のことを忘れちゃう夢」を見てしまいましたの…やっぱり大鳳といる時間がまだまだ足りてないですわ…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我是不会忘记{namecode:97}的",
+			say = "大鳳のことは忘れないよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，{namecode:97}知道，{dorm3d}对{namecode:97}最好了！",
+			say = "ええ、大鳳はわかってますわ～。指揮官様は大鳳に良くしてくださっていますから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

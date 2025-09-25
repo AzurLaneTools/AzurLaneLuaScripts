@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello13/drom3d_Taiho_hello13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:97}刚洗完澡您就来了，{dorm3d}是有什么预知能力吗？接下来是需要{namecode:97}服侍您沐浴，还是……想和{namecode:97}做些别的什么事。",
+			say = "お風呂から上がったところにいらっしゃるなんて…もしや指揮官様は予知能力でもお持ちですか？この後は大鳳がご入浴のお世話を？それとも……大鳳と他のことでもしましょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

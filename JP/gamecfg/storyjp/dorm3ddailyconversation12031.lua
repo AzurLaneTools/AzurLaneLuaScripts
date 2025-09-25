@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天{namecode:97}为{dorm3d}准备特别的晚餐，要不要猜猜看，是什么？",
+			say = "今日は指揮官様のために特別のディナーを用意しましたわ～。どこが特別だと思います？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在{namecode:97}亲、手、烧、制的餐盘上用餐，是不是感觉更美味了呢～",
+			say = "大鳳が作ったお皿で食べる料理……いつもより美味しく感じられると思いますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

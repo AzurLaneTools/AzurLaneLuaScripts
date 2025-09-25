@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}喜欢吃的是这个……不能接受的东西是——",
+			say = "指揮官様がお好きなのはこれ……苦手なのはあれ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯~{namecode:97}要将{dorm3d}所有的喜恶都记下来呢。",
+			say = "大鳳は指揮官様の好みを全部メモしてますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样，{namecode:97}才能更好地服侍您哦。",
+			say = "そうしたらより良くご奉仕できますもの♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

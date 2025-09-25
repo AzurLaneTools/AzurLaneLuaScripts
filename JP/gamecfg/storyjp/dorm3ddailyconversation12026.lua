@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}终于醒了……{dorm3d}睡着的样子真是可爱呢……",
+			say = "ようやくお目覚めになりました…指揮官様の寝顔、とってもかわいらしかったですわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}又在假装不记得吗？明明昨晚是那样用力地对待{namecode:97}。",
+			say = "とぼけちゃって……昨日の夜はあんなに力いっぱいでしたのにぃ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么用力？当然……是拥抱啦。不过，{dorm3d}想以别的方式用力，也可以哦。",
+			say = "どういう意味って…もちろん、力いっぱい抱きしめてましたのに～。まあ、別の意味で激しくされても、大鳳はいつでも大歓迎ですわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

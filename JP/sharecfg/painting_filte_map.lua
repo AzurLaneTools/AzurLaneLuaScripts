@@ -280,6 +280,7 @@ pg.painting_filte_map = {
 			"painting/aersasi_3_rw_tex",
 			"painting/aersasi_3_n_rw_tex",
 			"painting/aersasi_3_n",
+			"painting/aersasi_3_bj_tex",
 			"painting/aersasi_3"
 		}
 	},
@@ -2805,6 +2806,7 @@ pg.painting_filte_map = {
 			"painting/bulunnusi_3_rw_tex",
 			"painting/bulunnusi_3_n_rw_tex",
 			"painting/bulunnusi_3_n",
+			"painting/bulunnusi_3_bj_tex",
 			"painting/bulunnusi_3"
 		}
 	},
@@ -7468,7 +7470,13 @@ pg.painting_filte_map = {
 			"painting/i404_rw_tex",
 			"painting/i404_n_tex",
 			"painting/i404_n_rw_tex",
+			"painting/i404_n_bj3_tex",
+			"painting/i404_n_bj2_tex",
+			"painting/i404_n_bj1_tex",
 			"painting/i404_n",
+			"painting/i404_bj3_tex",
+			"painting/i404_bj2_tex",
+			"painting/i404_bj1_tex",
 			"painting/i404"
 		}
 	},

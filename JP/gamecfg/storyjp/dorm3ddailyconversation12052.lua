@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}的手，有些凉了呢……没关系的，我会好好握紧的哦。",
+			say = "指揮官様の手、少し冷たいですわ……でも大丈夫です、大鳳がしっかりと握って差し上げます♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "直到{dorm3d}的体温，染上我的味道——",
+			say = "指揮官様の体が、大鳳の匂いに染まるまで…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

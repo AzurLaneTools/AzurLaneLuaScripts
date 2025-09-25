@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近{namecode:97}发现了创口贴全新的使用方法，不仅可以治愈伤痕，还可以用来充当衣服呢。",
+			say = "最近、大鳳はばんそうこうの新しい使い方を発見しましたわ！怪私を治すのを促進するだけじゃなく、なんと服の代わりにもなるそうで！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}很好奇最终效果，不如，{dorm3d}来做这件衣服的试穿人吧？",
+			say = "どういう見栄えになるのかは気になりますけどぉ…指揮官様、モデルになってくださいます？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}~{dorm3d}~{dorm3d}~",
+			say = "指揮官様～指揮官様～指揮官様～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			ctorName = 30707,
-			say = "光是念起您的名字，{namecode:97}的身体就兴奋到颤抖了呢~",
+			say = "指揮官様と呼ぶだけで大鳳、興奮して身体が震えてしまいますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "每一次回音，都在{namecode:97}体内激荡着……",
+			say = "声が反響するたびに、大鳳の体の中が激しく波打ち……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多希望您会永远永远，只待在{namecode:97}身边呢~",
+			say = "大鳳は指揮官様にずっとずっと傍にいてほしくてたまりませんわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

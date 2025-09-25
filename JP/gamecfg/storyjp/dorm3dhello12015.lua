@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello15/drom3d_Taiho_hello15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "您来看{namecode:97}，{namecode:97}每次都很开心，可是一想到您终究会离开，{namecode:97}又觉得很舍不得……所以这次来，可以不走了吗？让{namecode:97}陪你做什么事都可以！",
+			say = "指揮官様が会いに来てくださる度にとても嬉しい気持ちになります…でもいずれはお帰りになられると思うとどうしようもなく寂しくて……今回はどうか帰らないでいてくださいませんか？大鳳、何でもして差し上げますから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

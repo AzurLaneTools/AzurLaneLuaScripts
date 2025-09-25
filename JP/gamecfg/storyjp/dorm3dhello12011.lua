@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello11/drom3d_Taiho_hello11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:97}昨晚梦见您，没想到今天就等到您来看我了~看来{namecode:97}要每晚都努力梦见{dorm3d}。",
+			say = "昨夜指揮官様の夢を見たばかりなのに、すぐに指揮官様が会いに来てくださるなんて！これからは毎晩、指揮官様の夢を見れるよう頑張りませんと♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

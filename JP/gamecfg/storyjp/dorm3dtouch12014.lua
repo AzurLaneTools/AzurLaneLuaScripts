@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture1_tone7/drom3d_Taiho_ik_furniture1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要是被其他人看到这一幕的话……可就不好了呢~嘻嘻~",
+			say = "もし誰かに見られでもしたら……大変なことになってしまいますわ～？うふふ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

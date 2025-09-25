@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？{dorm3d}房间的钥匙弄丢了吗？没有哦，只是{namecode:97}拿走了而已~",
+			say = "え？自室の鍵が見つからなくなった、ですか？いえいえ、紛失ではなく大鳳が拝借しただけですわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不是这里——也不是这里——嗯~啊！{dorm3d}是故意找不到的吧，真狡猾！",
+			say = "ここでも…そこでもないです……あぁん！指揮様ったらわざと見つからない振りをしてるんですか？もう本当に意地悪ですわ～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

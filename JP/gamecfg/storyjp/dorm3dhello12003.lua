@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello3/drom3d_Taiho_hello3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "如果其他的对手全部消灭掉，{namecode:97}应该就是您心中唯一的存在了……",
+			say = "もし邪魔な存在を全て消せば、大鳳は晴れて指揮官様にとって唯一の存在になれますわ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

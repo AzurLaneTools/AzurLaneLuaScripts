@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}的日记终于被{dorm3d}发现了吗？",
+			say = "大鳳の日記を見つけたのですね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很奇怪的顾虑呢。{namecode:97}的日记里写的都是关于您的事，当然要让{dorm3d}看见了。",
+			say = "変な心配ですわね。大鳳の日記には指揮官様のことしか書いてありませんから、むしろ見てほしいぐらいですわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样才能让您知道，在没有{dorm3d}的日子里，{namecode:97}每一分每一秒都在想念您❤",
+			say = "そしたら指揮官様がいらっしゃらない間、大鳳が日頃からどれだけ指揮官様を想っているか……知っていただけますので♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

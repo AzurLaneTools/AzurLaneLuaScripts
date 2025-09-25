@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，今天和{namecode:97}一起来玩一二三木头人的游戏吧！",
+			say = "指揮官様、今日は大鳳とだるまさんが転んだをして遊びましょう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一二三木头人！{dorm3d}不许动了唷！",
+			say = "だるまさんが転んだ！指揮官様、動いちゃダメですからね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，终于可以给{dorm3d}搜身了。快让我看看还有什么物品是我没有收集到的~",
+			say = "うふふ、これで指揮官様の体を隅々まで検分できますわ～。まだ大鳳のコレクションにないものがあるか、しっかり確認しなくちゃ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

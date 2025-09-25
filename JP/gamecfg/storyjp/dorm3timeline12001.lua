@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "{namecode:97}？门锁怎么了？"
+										content = "大鳳、鍵がどうかしたの？"
 									}
 								}
 							},

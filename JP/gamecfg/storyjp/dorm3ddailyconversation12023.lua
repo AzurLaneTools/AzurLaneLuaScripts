@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近的天气的确有些干燥，{dorm3d}看上去似乎也很不安？",
+			say = "最近ちょっと空気が乾燥していますし……指揮官様もちょっと落ち着かないような…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}听说亲亲可以让人内心平静，{dorm3d}不想要试试看嘛。",
+			say = "口づけをすると心を落ち着かせる効果があるって聞きましたわ。指揮官様、試してみませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

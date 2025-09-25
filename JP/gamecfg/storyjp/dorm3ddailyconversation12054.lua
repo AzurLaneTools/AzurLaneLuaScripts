@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要和{dorm3d}在一起，{namecode:97}的胸口就会变得暖暖的、满满的♡",
+			say = "指揮官様と一緒にいられるだけで、大鳳の胸はポカポカして満たされるんです♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

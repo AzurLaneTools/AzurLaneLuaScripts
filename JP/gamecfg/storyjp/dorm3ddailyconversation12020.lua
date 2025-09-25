@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以我准备好了关于自己的百宝盒，里面有很多{namecode:97}的私密物品，您要好好珍藏哦。~",
+			say = "だから大鳳も箱を用意しましたの。中には大鳳のプライベートなものがたーくさんありますから、大事にしてくださいませ～~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心，{dorm3d}的物品嘛，{namecode:97}这里有很多呢~",
+			say = "指揮官様のものは心配いりませんわ～。すでに結構持っていますから～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

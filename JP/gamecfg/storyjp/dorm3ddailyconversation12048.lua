@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，{namecode:97}感觉您的呼吸有些急促，发生什么事了吗？",
+			say = "指揮官様、なんだか息が少し荒くなっていますけど、なにかあったのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "让{namecode:97}来帮您测量一下心跳吧——您别紧张，贴着肌肤才能测量得更加准确",
+			say = "大鳳が心拍数を測定してあげますわ。どうか緊張なさらないでください。正しく測るには直接肌に触れないと…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……您的体温，上升得好快……！看来是生病了，快躺下，让{namecode:97}来照顾您吧！",
+			say = "体温が急に上がってる……！？これはもう病気確定ですわ！さあ早く横になって、大鳳に看病させてくださいませ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

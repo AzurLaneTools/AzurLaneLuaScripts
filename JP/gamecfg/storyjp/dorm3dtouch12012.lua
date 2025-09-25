@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_tone19/drom3d_Taiho_ik_tone19",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想多感受一下大凤吗？",
+			say = "大鳳のこと、もっと感じてみたいですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

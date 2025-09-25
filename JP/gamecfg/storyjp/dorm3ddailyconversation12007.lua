@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……{dorm3d}……{dorm3d}……真的好想{dorm3d}……",
+			say = "指揮官様……指揮官様……指揮官様……指揮官様にお会いしたくてたまりませんわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？{dorm3d}是什么时候进来的？难道，思念咒语真的有用！",
+			say = "え？指揮官様、いつからここに…！？もしかして、大鳳の「おまじない」が本当に効いたのですか？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

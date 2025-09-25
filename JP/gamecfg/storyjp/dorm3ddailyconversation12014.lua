@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您今天看上去很疲惫呢，不如靠着{namecode:97}休息一会儿吧。",
+			say = "指揮官様、なんだかお疲れのようですね。大鳳にもたれかかって休みませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}的身体就是{dorm3d}的枕头，靠着{namecode:97}的胸膛或是腿上，哪里都可以~",
+			say = "大鳳の体は指揮官様にとって枕も同然ですから、胸でも膝でも、どこでもお好きなように使ってくださいませ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "出、出乎意料的选择……希望{namecode:97}的这里足够柔软，能让指挥官睡个好觉。",
+			say = "す、少し意外ですわ……大鳳のここが指揮官様に気持ちよく休めるよう役立てるといいですわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

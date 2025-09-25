@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔啊啊！{namecode:97}衣服的扣子怎么也扣不上……",
+			say = "わっ！服のボタンがうまく留まりませんわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}要帮{namecode:97}吗……那么，请把手给我——摸到扣子了吗？",
+			say = "し、指揮官様が手伝ってくださるのですか……？じゃあお手を……ボタンに触れました？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？！！{dorm3d}，是让你扣上不是解开……不过，既然{dorm3d}想要——",
+			say = "ひゃぅ！指揮官様、外すんじゃなくて留めるんですわ……でももし大鳳がほしいのなら……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就别怪{namecode:97}不客气了哦~❤",
+			say = "大鳳も遠慮しませんわ〜♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

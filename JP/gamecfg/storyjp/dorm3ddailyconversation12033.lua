@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}被我抓住咯~",
+			say = "指揮官様、捕まえましたわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}为您专门缝制的缎带，这样{dorm3d}就跑不掉啦！",
+			say = "大鳳が特別に縫い合わせたリボンを使えば、もう指揮官様は逃げられませんわね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然为了公平起见，{dorm3d}也可以随时捆绑{namecode:97}哦。",
+			say = "もちろん公平を期して、指揮官様が大鳳を縛り返してもいいですわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

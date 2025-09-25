@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}发现了一个很有趣的游戏，{dorm3d}要不要一起玩~",
+			say = "指揮官様、すごく面白いゲームを見つけたので一緒に遊んでみませんか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……嗯~啊~{dorm3d}嘴唇上的巧克力格外美味呢~",
+			say = "……ん～あぁ……指揮官様の唇についたチョコレートは格別に美味しいですわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

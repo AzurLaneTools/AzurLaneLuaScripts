@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天干日燥……{dorm3d}的嘴唇似乎也受到了影响，变得干干的。",
+			say = "天気が乾燥しているせいか…指揮官様の唇もちょっとカサカサしてますわね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不如，让{namecode:97}来帮您滋润一下吧~",
+			say = "大鳳が潤いを与えて差し上げますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没关系哦，{namecode:97}会亲嘴……啊不，亲自教您的。",
+			say = "ふふっ、大丈夫ですよ。大鳳が直接唇で……いえ、指揮官様に教えますから♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

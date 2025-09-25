@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}的旧肩章找不到了？哼哼~{namecode:97}知道在哪里哦。",
+			say = "指揮官様の肩章が見つからないのですか？ふふふ、大鳳はそれがどこにあるか知っていますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，既然被{namecode:97}捡到，那就是独属于{namecode:97}的收藏。",
+			say = "でも、大鳳が拾った以上、これは大鳳だけのコレクション",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "至于{dorm3d}想要找回来……私密的收藏当然在私密的地方。",
+			say = "もし指揮官様が取り戻したいなら……大事なコレクションは大事な場所にしまってありますので……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

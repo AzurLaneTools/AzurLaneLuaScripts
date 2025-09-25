@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "嗯？{namecode:97}你在做什么？"
+										content = "あれ？大鳳、何をしてるんだ？"
 									}
 								}
 							},

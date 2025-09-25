@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}是来兑现作战胜利的奖励？",
+			say = "指揮官様、作戦勝利のご褒美を配りにいらっしゃったんですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论是什么，只要是您给予的，{namecode:97}都会将其视为珍宝好好珍藏。",
+			say = "指揮官様からいただいたものならどんなものでも、宝物として大切にしますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，{namecode:97}更想要拥有一些{dorm3d}的特殊奖励，比如……一个拥抱。",
+			say = "でも……大鳳はもっと特別なご褒美がほしいですわ……例えば……大鳳をぎゅっと抱きしめてくださる、とか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

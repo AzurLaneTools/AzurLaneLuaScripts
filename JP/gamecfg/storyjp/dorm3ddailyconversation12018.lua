@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "上次{dorm3d}失眠睡不着，{namecode:97}真是担心了好久好久。",
+			say = "そういえば、前に指揮官様が眠れなくなっていたとき、大鳳はすごく心配していましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您睡不着的时候，{namecode:97}竟然不能立刻出现在您身边，真是{namecode:97}失职。",
+			say = "指揮官様が眠れないというのに、すぐ傍に行けなくて…大鳳の落ち度です",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了能够时时刻刻陪伴着{dorm3d}，{namecode:97}特地录制一段琵琶乐。",
+			say = "なのでいつでも指揮官様の快眠をお助けできるように、琵琶の演奏を録音しました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "下次再失眠，就放在枕边播放吧——当然，让{namecode:97}直接来陪您也可以哦~",
+			say = "また眠れなくなったときは、枕元で流してみてくださいませ――もちろん、大鳳が直接行くのだって構いませんわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

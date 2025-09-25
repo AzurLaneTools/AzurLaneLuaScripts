@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "觉得自己的卧室很干净？是{namecode:97}特地过去打扫的哦。",
+			say = "部屋がすごく綺麗になった、ですか？大鳳がお掃除して差し上げましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{namecode:97}会努力抵达有关于{dorm3d}的任何地方，无论使用什么样的方法……",
+			say = "大鳳は指揮官様に関するあらゆる場所に、どんな手段を使ってでもたどり着きますから……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

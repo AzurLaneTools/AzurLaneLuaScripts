@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，您又在勉强自己了对吧？",
+			say = "指揮官様、また無理をなさっていますね？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			ctorName = 30707,
-			say = "没关系的……把一切都交给{namecode:97}就好……",
+			say = "大丈夫です……全て大鳳に任せてください……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}刚才就嗅到了熟悉的气息，果然是{dorm3d}前来的讯号呢~",
+			say = "さっきから馴染み深い匂いがすると思ったら。やっぱり指揮官様でしたわ〜",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真希望能留一些在{namecode:97}身上，这样{namecode:97}就能时时刻刻感受到{dorm3d}的存在了。~",
+			say = "いつでも指揮官様の存在を感じられるよう、大鳳に少しでも染み付いたらいいのに……~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

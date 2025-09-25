@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}今天换了新的床上四件套，还特地为您缝制了枕套，要试试看吗？",
+			say = "今日は新しいベッドリネンに入れ替えて、そして指揮官様のために枕カバーも縫いましたわ。試してみます？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}也、也是这样想的吗……那真是……再好不过了！",
+			say = "指揮官様、大鳳と同じことを考えていたのですか……？そ、それは……よかったですわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

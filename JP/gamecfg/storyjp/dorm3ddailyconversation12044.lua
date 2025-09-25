@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}突发奇想，今天想和{dorm3d}玩角色扮演的游戏~",
+			say = "今日は趣向を変えて、指揮官様とロールプレイをしようと思いまして♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

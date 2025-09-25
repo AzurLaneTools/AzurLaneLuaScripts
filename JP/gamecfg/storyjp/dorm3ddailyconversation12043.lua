@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "鉴于{dorm3d}最近经常来看望{namecode:97}，{namecode:97}特别准备了一些专属服务给您哦。",
+			say = "最近よく大鳳に会いに来てくださっていることへの感謝として、特別サービスを用意しましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "根据您来看望{namecode:97}时的不同状态，{namecode:97}会为您提供不同的服务内容。",
+			say = "指揮官様のご様子に合わせて、そのときにぴったりなサービスを提供します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然，{dorm3d}有什么想要{namecode:97}为您做的，也请尽管告诉我。",
+			say = "もちろん、大鳳にやってほしいことがあれば、遠慮なく仰ってくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论是什么事，只要是您想要，{namecode:97}都会随时随地满足您~",
+			say = "どんなことでも……指揮官様の望むことなら、大鳳はいつでもどこでも喜んでお応えしますわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

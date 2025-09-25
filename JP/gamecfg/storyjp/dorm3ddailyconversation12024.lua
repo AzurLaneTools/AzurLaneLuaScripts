@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}睡觉的时候喜欢什么姿势呢？",
+			say = "指揮官様は普段、どんな姿勢でお休みになるんです？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来{namecode:97}要提前开始练习新的睡觉姿势了，就能做您最完美的抱枕了~",
+			say = "じゃあ大鳳も新しい寝方を練習しませんと。そうすれば指揮官様にピッタリの抱き枕になれますわ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

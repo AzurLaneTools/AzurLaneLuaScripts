@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "难道{dorm3d}来{namecode:97}的宿舍，就只是这样站在这里吗？",
+			say = "大鳳の部屋に来たというのに、突っ立ってるだけですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您不知道可以做些什么，{namecode:97}可以为您提供一些一对一教学。~~",
+			say = "もし何をしたらいいかわからないのでしたら、大鳳がマンツーマンレッスンをして教えて差し上げますわ～~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了保证学习成果显著，请{dorm3d}务必每晚都来{namecode:97}的宿舍哦。",
+			say = "しっかり身につけるように、毎晩欠かさず大鳳の部屋に来てくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}把{dorm3d}所有照片、对{namecode:97}说过的每一句话都有保存下来哦。",
+			say = "指揮官様のすべての写真も、指揮官様が大鳳に言ってくださった一言一句も、ぜ～んぶ保存してありますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在没有{dorm3d}陪伴的夜晚，{namecode:97}也能时时刻刻感受到{dorm3d}的气息呢。",
+			say = "これでそばにいらっしゃらない夜でも、いつでも指揮官様の存在を感じることができます……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把{dorm3d}的照片放在心脏的位置，就好像真的将您拥入怀抱了……",
+			say = "写真を胸の辺りに押し当てれば、まるで本当に指揮官様を抱きしめているような気分になれますわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？{dorm3d}这样说，{namecode:97}当然会用尽全力抱住您的！",
+			say = "えっ……そ、それなら大鳳、全力で指揮官様をぎゅぅってしますからね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总是会有一些来路不明的食物出现在{dorm3d}身边，还好{namecode:97}及时发现。",
+			say = "指揮官様の周りによく正体不明の食べ物がいつの間にか置かれてますから、大鳳は見つけ次第処分しておりますわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果工作时感觉到饿，就请吃{namecode:97}为您制作的便当吧~",
+			say = "もしお仕事中にお腹が空いたら、大鳳の作ったお弁当を召し上がってくださいませ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是{dorm3d}爱吃的，{namecode:97}都可以做给您。",
+			say = "指揮官様がお好きなものなら、なんだって大鳳が作って差し上げますわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

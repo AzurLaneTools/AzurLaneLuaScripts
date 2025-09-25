@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，你终于来看望{namecode:97}啦。{namecode:97}好像生病了，感觉热热的呢……",
+			say = "指揮官様、ようやく大鳳に会いに来てくださったんですね。大鳳、ちょっと熱っぽいみたいです……体が火照ってて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了让{namecode:97}更快好起来，还请{dorm3d}检查得更全面一点吧，任何地方都可以哦❤",
+			say = "大鳳が早く元気になるためにも、もっとしっかり診てくださいませ。どこでも大丈夫ですわ♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

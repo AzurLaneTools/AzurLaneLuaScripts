@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello6/drom3d_Taiho_hello6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}来得正好，{namecode:97}正在练习新的琵琶曲，{dorm3d}想听听看吗？",
+			say = "指揮官様、ちょうどいいところに。大鳳は今、琵琶の曲の練習をしておりますけど…お聞きになります？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

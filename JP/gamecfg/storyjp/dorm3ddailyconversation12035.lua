@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}~今天有{namecode:97}为你准备的礼物哦！快猜猜是什么~",
+			say = "指揮官様～！今日は大鳳から特別なプレゼントがありますわ～！さぁ、何なのか当ててくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "该不会是{namecode:97}吧！",
+			say = "もしかして、大鳳自身とか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这、这就被您猜到了吗……既然{dorm3d}猜到了，接下来，就请亲手“拆开”吧~",
+			say = "えっ……一発で当てるなんて…じゃあ指揮官様ご自身で「開封」なさってくださいませ♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

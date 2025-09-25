@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}最近听说，要做过那件事，才算完全拥有一个人。",
+			say = "「あのこと」を済ませないと、本当に相手を手に入れたことにならないって最近聞きましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以，{namecode:97}一直在等{dorm3d}哦。只要指挥官想，{namecode:97}什么时候都可以呢~",
+			say = "だから大鳳はずっとお待ちしておりますわ。指揮官様がお望みなら、大鳳はいつでも大丈夫ですからね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:97}已经迫不及待想要完全地拥有{dorm3d}❤",
+			say = "大鳳、早く指揮官様を手に入れたくて仕方ありませんもの♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

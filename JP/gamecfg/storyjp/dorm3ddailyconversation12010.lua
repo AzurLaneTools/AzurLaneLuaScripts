@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}上次作战时弄坏的衬衫，{namecode:97}已经缝好了哦。",
+			say = "この前の作戦で破れたシャツを大鳳が直しておきましたわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了能够更好地协助{dorm3d}，{namecode:97}当然要想尽一切办法~~",
+			say = "指揮官様にもっと寄り添うためなら、大鳳はいくらでも手を尽くしますもの~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不仅是衬衫，{namecode:97}还有更多关于{dorm3d}的物品哦。",
+			say = "シャツだけじゃありませんわ。大鳳、指揮官様のものを色々持っていますから……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

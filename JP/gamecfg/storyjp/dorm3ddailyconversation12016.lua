@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}您来得更好，{namecode:97}正在苦恼穿哪套衣服约会。",
+			say = "指揮官様、ちょうどよかったですわ。デートで着ていく服をどれにしようか悩んでいるんです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "学院风格……还是红色礼裙……{namecode:97}必须要好好想想。",
+			say = "プレッピー風にするか、それとも赤いドレスにするか……しっかり考えませんと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "毕竟外面的害虫很多，{namecode:97}可不能让她们夺走{dorm3d}的目光。",
+			say = "外にはたくさん害虫がいますし、指揮官様の視線をあの子たちに奪われたくありませんから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

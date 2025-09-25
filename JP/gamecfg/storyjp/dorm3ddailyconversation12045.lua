@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……要帮{namecode:97}按摩吗？那就麻烦您了——",
+			say = "指揮官様が……大鳳にマッサージを？ぜひお願いしますわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

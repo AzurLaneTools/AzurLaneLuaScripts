@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_hello14/drom3d_Taiho_hello14",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}快过来快过来~{namecode:97}正在制作下次和您出去约会的衣服，快帮我看看，这样的款式您喜欢吗？",
+			say = "指揮官様～こちらですわ～。今度のデート用に作っているお洋服をご覧くださいませ。こういうデザインはいかがですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

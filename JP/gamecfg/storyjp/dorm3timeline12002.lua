@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "是睡着了吗？"
+										content = "もしかして寝てる…？"
 									}
 								}
 							},

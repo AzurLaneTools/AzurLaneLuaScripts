@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，{namecode:97}终于等到您了~需要{namecode:97}做什么呢？任何事都可以哦~",
+			say = "指揮官様、大鳳はずっとお待ちしておりました。大鳳に何かしてほしいことはありますか？どんなことでもいいですわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还是说，您想和{namecode:97}做别的工作？只能我们两个人完成的那种？",
+			say = "まさか、大鳳とほかの「オシゴト」をしたいんですか？二人きりでしかできないような「オシゴト」を…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

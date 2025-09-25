@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture1_tone3/drom3d_Taiho_ik_furniture1_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呵呵~指挥官大人这是在试探大凤吗？……",
+			say = "ふふ、指揮官様、大鳳を試しているのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

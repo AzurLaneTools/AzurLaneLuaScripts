@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}~今天的沉默，是在酝酿什么只属于{namecode:97}的甜蜜话语吗？",
+			say = "指揮官様～、今日は妙に押し黙っていますけど、もしかして大鳳への愛の言葉でも考えてくださっているのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			ctorName = 30707,
-			say = "不说出口也没关系哦，我会一直一直……注视着{dorm3d}~",
+			say = "口に出さなくても平気ですわ～。大鳳はずっとずっと……指揮官様を見ていますから～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
