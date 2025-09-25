@@ -195,6 +195,7 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, false)
 		slot2.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot4]:Enqueue(slot2, true)
 

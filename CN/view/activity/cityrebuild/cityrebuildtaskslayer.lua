@@ -36,7 +36,7 @@ slot0.ShouldShowTip = function()
 	slot3 = slot2:getConfig("config_data")
 
 	if slot2.data3 == 0 or slot4 == nil then
-		return falses
+		return false
 	end
 
 	for slot8 = 1, #slot3[slot4] do
