@@ -178,7 +178,7 @@ slot0.init = function(slot0)
 	slot0.sceneGroupDic = {}
 	slot0.lastSceneRootDict = {}
 
-	pg.ClickEffectMgr:GetInstance():SetClickEffect("DORM3D")
+	pg.ClickEffectMgr.GetInstance():SetClickEffect("DORM3D")
 end
 
 slot0.BindEvent = function(slot0)
@@ -700,15 +700,18 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 	slot0.ladyDict[slot1] = LadyEnv.New(slot0)
 	slot5 = getProxy(ApartmentProxy):getApartment(slot1)
 	slot6 = slot5:getConfig("asset_name")
-	slot8 = pg.dorm3d_resource[slot5:GetSkinModelID(slot0.room:getConfig("tag"))].model_id
+	slot9 = slot0.room
+	slot9 = Dorm3dSkin.New({
+		configId = slot5:GetSkinModelID(slot9:getConfig("tag"))
+	}):GetModelName()
 
-	assert(slot8)
+	assert(slot9)
 
-	for slot12, slot13 in ipairs({
+	for slot13, slot14 in ipairs({
 		"common",
-		slot8
+		slot9
 	}) do
-		if checkABExist(string.format("dorm3d/character/%s/res/%s", slot6, slot13)) then
+		if checkABExist(string.format("dorm3d/character/%s/res/%s", slot6, slot14)) then
 			table.insert(slot3, function (slot0)
 				slot1 = uv0.loader
 
@@ -742,15 +745,21 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 				ladyGameObject = slot0
 			}
 
-			uv3()
+			if uv3 ~= uv4:GetHXModel() then
+				uv1:HXCharacter(slot0.transform)
+			end
+
+			uv5()
 		end)
 	end)
 
 	if slot0.room:isPersonalRoom() then
-		for slot12, slot13 in ipairs(slot5:GetAllModelIds()) do
-			if not table.contains(slot4.skinIdList, slot13) then
-				if checkABExist(string.format("dorm3d/character/%s/prefabs/%s", slot6, pg.dorm3d_resource[slot13].model_id)) then
-					table.insert(slot4.skinIdList, slot13)
+		for slot13, slot14 in ipairs(slot5:GetAllModelIds()) do
+			if not table.contains(slot4.skinIdList, slot14) then
+				if checkABExist(string.format("dorm3d/character/%s/prefabs/%s", slot6, Dorm3dSkin.New({
+					configId = slot14
+				}):GetModelName())) then
+					table.insert(slot4.skinIdList, slot14)
 					table.insert(slot3, function (slot0)
 						slot1 = uv0.loader
 
@@ -758,10 +767,15 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 							uv0.skinDict[uv1] = {
 								ladyGameObject = slot0
 							}
+
+							if uv2 ~= uv3:GetHXModel() then
+								uv0:HXCharacter(slot0.transform)
+							end
+
 							GetComponent(slot0, "GraphOwner").enabled = false
 
 							setActive(slot0, false)
-							uv2()
+							uv4()
 						end)
 					end)
 				end
@@ -1020,10 +1034,7 @@ slot0.didEnter = function(slot0)
 
 	slot0.expressionDict = {}
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blockLayer, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	slot0:OverlayPanel(slot0.blockLayer)
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.POV])
 
 	slot4, slot5 = nil
@@ -2767,6 +2778,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv0.nowTimelinePlayer = TimelinePlayer.New(GameObject.Find("[sequence]").transform)
 
+		TimelineSupport.InitSubtitle(uv0.nowTimelinePlayer.comDirector, uv0.apartment:GetCallName())
 		uv0.nowTimelinePlayer:Register(uv1.time, function (slot0, slot1, slot2)
 			switch(slot1.stringParameter, {
 				TimelinePause = function ()
@@ -3267,7 +3279,6 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 		assetRootName = slot0.apartment:getConfig("asset_name"),
 		isCache = slot2,
 		waitForTimeline = slot3,
-		callName = slot0.apartment:GetCallName(),
 		loadSceneFunc = function (slot0, slot1)
 			uv0:HXCharacter(tf(GameObject.Find("[actor]").transform))
 		end
@@ -3446,12 +3457,12 @@ slot0.willExit = function(slot0)
 	slot0.camBrainEvenetHandler.OnBlendStarted = nil
 	slot0.camBrainEvenetHandler.OnBlendFinished = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blockLayer, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blockLayer, slot0._tf)
 	table.Foreach(slot0.expressionDict, function (slot0)
 		uv0:RemoveExpression(slot0)
 	end)
 	slot0.loader:Clear()
-	pg.ClickEffectMgr:GetInstance():SetClickEffect("NORMAL")
+	pg.ClickEffectMgr.GetInstance():SetClickEffect("NORMAL")
 	pg.NodeCanvasMgr.GetInstance():Clear()
 	slot0.dormSceneMgr:Dispose()
 

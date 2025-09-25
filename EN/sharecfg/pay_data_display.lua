@@ -78,41 +78,6 @@ pg.pay_data_display = setmetatable({
 		97,
 		98,
 		99,
-		1000,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008,
-		1009,
-		1010,
-		1011,
-		1012,
-		1013,
-		1014,
-		1015,
-		1016,
-		1017,
-		1018,
-		1019,
-		1020,
-		1021,
-		1022,
-		1023,
-		2001,
-		2002,
-		2003,
-		2004,
-		2005,
-		2006,
-		2007,
-		2008,
-		2009,
-		2010,
-		2011,
 		100,
 		101,
 		102,
@@ -152,6 +117,43 @@ pg.pay_data_display = setmetatable({
 		136,
 		137,
 		138,
+		9001,
+		1000,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009,
+		1010,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
 		2014,
 		2015,
 		2016,
@@ -8193,8 +8195,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2025,
-					9,
-					25
+					3,
+					20
 				},
 				{
 					0,
@@ -8205,8 +8207,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2025,
-					10,
-					7
+					4,
+					9
 				},
 				{
 					23,
@@ -9433,2910 +9435,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				2024
-			}
-		}
-	},
-	[1000] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport2",
-		extra_gem = 0,
-		id = 1000,
-		airijp_id = "com.yostaren.azurlane.passport2",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4001,
-				1500
-			},
-			{
-				8,
-				59242,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					10,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2021,
-					11,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4001,
-				1500
-			}
-		},
-		sub_display = {
-			7001,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1001] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport3",
-		extra_gem = 0,
-		id = 1001,
-		airijp_id = "com.yostaren.azurlane.passport3",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4002,
-				1500
-			},
-			{
-				8,
-				59254,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2021,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					1,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4002,
-				1500
-			}
-		},
-		sub_display = {
-			7002,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1002] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport4",
-		extra_gem = 0,
-		id = 1002,
-		airijp_id = "com.yostaren.azurlane.passport4",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4003,
-				1500
-			},
-			{
-				8,
-				59270,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					3,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4003,
-				1500
-			}
-		},
-		sub_display = {
-			7003,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1003] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport5",
-		extra_gem = 0,
-		id = 1003,
-		airijp_id = "com.yostaren.azurlane.passport5",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4004,
-				1500
-			},
-			{
-				8,
-				59281,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4004,
-				1500
-			}
-		},
-		sub_display = {
-			7004,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1004] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport6",
-		extra_gem = 0,
-		id = 1004,
-		airijp_id = "com.yostaren.azurlane.passport6",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4005,
-				1500
-			},
-			{
-				8,
-				59291,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					7,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4005,
-				1500
-			}
-		},
-		sub_display = {
-			7005,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1005] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards. ",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport7",
-		extra_gem = 0,
-		id = 1005,
-		airijp_id = "com.yostaren.azurlane.passport7",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4006,
-				1500
-			},
-			{
-				8,
-				59292,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					9,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4006,
-				1500
-			}
-		},
-		sub_display = {
-			7006,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1006] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport8",
-		extra_gem = 0,
-		id = 1006,
-		airijp_id = "com.yostaren.azurlane.passport8",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4007,
-				1500
-			},
-			{
-				8,
-				59294,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					10,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4007,
-				1500
-			}
-		},
-		sub_display = {
-			7007,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1007] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport10",
-		extra_gem = 0,
-		id = 1007,
-		airijp_id = "com.yostaren.azurlane.passport10",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4008,
-				1500
-			},
-			{
-				8,
-				59297,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4008,
-				1500
-			}
-		},
-		sub_display = {
-			7008,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1008] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport11",
-		extra_gem = 0,
-		id = 1008,
-		airijp_id = "com.yostaren.azurlane.passport11",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4009,
-				1500
-			},
-			{
-				8,
-				59299,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4009,
-				1500
-			}
-		},
-		sub_display = {
-			7009,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1009] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport12",
-		extra_gem = 0,
-		id = 1009,
-		airijp_id = "com.yostaren.azurlane.passport12",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4010,
-				1500
-			},
-			{
-				8,
-				59404,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					5,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4010,
-				1500
-			}
-		},
-		sub_display = {
-			7010,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1010] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2023.6)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport13",
-		extra_gem = 0,
-		id = 1010,
-		airijp_id = "com.yostaren.azurlane.passport13",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4011,
-				1500
-			},
-			{
-				8,
-				59456,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					7,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4011,
-				1500
-			}
-		},
-		sub_display = {
-			7011,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1011] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2023.8)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport14",
-		extra_gem = 0,
-		id = 1011,
-		airijp_id = "com.yostaren.azurlane.passport14",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4012,
-				1500
-			},
-			{
-				8,
-				59468,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4012,
-				1500
-			}
-		},
-		sub_display = {
-			7012,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1012] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2023.10)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport15",
-		extra_gem = 0,
-		id = 1012,
-		airijp_id = "com.yostaren.azurlane.passport15",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4013,
-				1500
-			},
-			{
-				8,
-				59494,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					10,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4013,
-				1500
-			}
-		},
-		sub_display = {
-			7013,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1013] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2023.12)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport16",
-		extra_gem = 0,
-		id = 1013,
-		airijp_id = "com.yostaren.azurlane.passport16",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4014,
-				1500
-			},
-			{
-				8,
-				59511,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2023,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4014,
-				1500
-			}
-		},
-		sub_display = {
-			7014,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1014] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.2)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport17",
-		extra_gem = 0,
-		id = 1014,
-		airijp_id = "com.yostaren.azurlane.passport17",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4015,
-				1500
-			},
-			{
-				8,
-				59526,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4015,
-				1500
-			}
-		},
-		sub_display = {
-			7015,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1015] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.4)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport18",
-		extra_gem = 0,
-		id = 1015,
-		airijp_id = "com.yostaren.azurlane.passport18",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4016,
-				1500
-			},
-			{
-				8,
-				59541,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4016,
-				1500
-			}
-		},
-		sub_display = {
-			7016,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1016] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.6)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport19",
-		extra_gem = 0,
-		id = 1016,
-		airijp_id = "com.yostaren.azurlane.passport19",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4017,
-				1500
-			},
-			{
-				8,
-				59584,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4017,
-				1500
-			}
-		},
-		sub_display = {
-			7017,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1017] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.8)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport20",
-		extra_gem = 0,
-		id = 1017,
-		airijp_id = "com.yostaren.azurlane.passport20",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4018,
-				1500
-			},
-			{
-				8,
-				65001,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4018,
-				1500
-			}
-		},
-		sub_display = {
-			7018,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1018] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.10)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 4,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport21",
-		extra_gem = 0,
-		id = 1018,
-		airijp_id = "com.yostaren.azurlane.passport21",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4019,
-				1500
-			},
-			{
-				8,
-				65028,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					10,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					11,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				4019,
-				1500
-			}
-		},
-		sub_display = {
-			7019,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1019] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2024.12)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 6,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport22",
-		extra_gem = 0,
-		id = 1019,
-		airijp_id = "com.yostaren.azurlane.passport22",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4020,
-				1500
-			},
-			{
-				8,
-				65057,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				8,
-				59599,
-				1500
-			}
-		},
-		sub_display = {
-			7020,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1020] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2025.2)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 6,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport23",
-		extra_gem = 0,
-		id = 1020,
-		airijp_id = "com.yostaren.azurlane.passport23",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4021,
-				1500
-			},
-			{
-				8,
-				65074,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				8,
-				59599,
-				1500
-			}
-		},
-		sub_display = {
-			7021,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1021] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass 2025.4",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 6,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport24",
-		extra_gem = 0,
-		id = 1021,
-		airijp_id = "com.yostaren.azurlane.passport24",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4022,
-				1500
-			},
-			{
-				8,
-				65086,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				8,
-				59599,
-				1500
-			}
-		},
-		sub_display = {
-			7022,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1022] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2025.6)",
-		type = 0,
-		second_text = "",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 6,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport25",
-		extra_gem = 0,
-		id = 1022,
-		airijp_id = "com.yostaren.azurlane.passport25",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4023,
-				1500
-			},
-			{
-				8,
-				65100,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					31
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				8,
-				59599,
-				1500
-			}
-		},
-		sub_display = {
-			7023,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[1023] = {
-		picture = "battlepass_1",
-		name = "Fair Winds Cruise Pass (2025.8)",
-		type = 0,
-		second_text = "Unlock Special Rewards",
-		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
-		subject = "Fair Winds Cruise Pass",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "You must complete certain missions to obtain these rewards.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 6,
-		package_sort_id = 0,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.passport26",
-		extra_gem = 0,
-		id = 1023,
-		airijp_id = "com.yostaren.azurlane.passport26",
-		name_display = "Fair Winds Cruise Pass",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 4,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				1,
-				4024,
-				1500
-			},
-			{
-				8,
-				65101,
-				1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					9,
-					30
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				8,
-				59599,
-				1500
-			}
-		},
-		sub_display = {
-			7024,
-			1500
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {}
-	},
-	[2001] = {
-		picture = "tech1_display",
-		name = "PR Construction Pack - Series 1",
-		type = 0,
-		second_text = "+Blueprints",
-		descrip = "Contains one PR Voucher - Series 1 and 343 General Blueprints - Series 1.",
-		subject = "PR Construction Pack - Series 1",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 1599,
-		descrip_extra = "",
-		limit_group = 1,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		limit_arg = 0,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond158",
-		extra_gem = 0,
-		id = 2001,
-		airijp_id = "com.yostaren.azurlane.diamond158",
-		name_display = "PR Construction Pack - Series 1",
-		first_text = "Development Ship",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40124,
-				1
-			},
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {},
-		first_icon = {
-			{
-				2,
-				40124,
-				1
-			}
-		}
-	},
-	[2002] = {
-		picture = "tech1_promotion",
-		name = "PR Voucher & Blueprint Bundle - Series 1",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "Voucher & Blueprint Bundle",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 1599,
-		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
-		limit_group = 1,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond158",
-		extra_gem = 0,
-		id = 2002,
-		airijp_id = "com.yostaren.azurlane.diamond158",
-		name_display = "PR Voucher & Blueprint \n         Bundle - Series 1",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40124,
-				1
-			},
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				40124,
-				1
-			},
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40016,
-				1
-			}
-		}
-	},
-	[2003] = {
-		picture = "tech1_normal",
-		name = "PR Voucher - Series 1",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "Voucher",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
-		limit_group = 1,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 2,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond159",
-		extra_gem = 0,
-		id = 2003,
-		airijp_id = "com.yostaren.azurlane.diamond159",
-		name_display = "PR Voucher - Series 1",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40124,
-				1
-			}
-		},
-		display = {
-			{
-				2,
-				40124,
-				1
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40017,
-				1
-			}
-		}
-	},
-	[2004] = {
-		picture = "tech1_promotion",
-		name = "PR Blueprint Pack - Series 1",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "Blueprints",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 699,
-		descrip_extra = "Buy to receive 343 General Blueprints - Series 1.",
-		limit_group = 1,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 3,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond160",
-		extra_gem = 0,
-		id = 2004,
-		airijp_id = "com.yostaren.azurlane.diamond160",
-		name_display = "PR Blueprint Pack - Series 1",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				42000,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40018,
-				1
-			}
-		}
-	},
-	[2005] = {
-		picture = "tech2_display",
-		name = "PR Construction Pack - Series 2",
-		type = 0,
-		second_text = "+Blueprints",
-		descrip = "Contains one PR Voucher - Series 2 and 343 General Blueprints - Series 2.",
-		subject = "PR Construction Pack - Series 2",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 1599,
-		descrip_extra = "",
-		limit_group = 2,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		limit_arg = 0,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond161",
-		extra_gem = 0,
-		id = 2005,
-		airijp_id = "com.yostaren.azurlane.diamond161",
-		name_display = "PR Construction Pack - Series 2",
-		first_text = "Development Ship",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40125,
-				1
-			},
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {},
-		first_icon = {
-			{
-				2,
-				40125,
-				1
-			}
-		}
-	},
-	[2006] = {
-		picture = "tech2_promotion",
-		name = "PR Voucher & Blueprint Bundle - Series 2",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "PR Voucher & Blueprint Bundle - Series 2",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 1599,
-		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
-		limit_group = 2,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond161",
-		extra_gem = 0,
-		id = 2006,
-		airijp_id = "com.yostaren.azurlane.diamond161",
-		name_display = "PR Voucher & Blueprint \n         Bundle - Series 2",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40125,
-				1
-			},
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				40125,
-				1
-			},
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40019,
-				1
-			}
-		}
-	},
-	[2007] = {
-		picture = "tech2_normal",
-		name = "PR Voucher - Series 2",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "Voucher",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 999,
-		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
-		limit_group = 2,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 2,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond162",
-		extra_gem = 0,
-		id = 2007,
-		airijp_id = "com.yostaren.azurlane.diamond162",
-		name_display = "PR Voucher - Series 2",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40125,
-				1
-			}
-		},
-		display = {
-			{
-				2,
-				40125,
-				1
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40020,
-				1
-			}
-		}
-	},
-	[2008] = {
-		picture = "tech2_promotion",
-		name = "PR Blueprint Pack - Series 2",
-		type = 0,
-		second_text = "",
-		descrip = "Contains:",
-		subject = "Blueprints",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 699,
-		descrip_extra = "Buy to receive 343 General Blueprints - Series 2.",
-		limit_group = 2,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 3,
-		limit_type = 3,
-		first_icon = "",
-		limit_arg = 3,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond163",
-		extra_gem = 0,
-		id = 2008,
-		airijp_id = "com.yostaren.azurlane.diamond163",
-		name_display = "PR Blueprint Pack - Series 2",
-		first_text = "",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "tech",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		display = {
-			{
-				2,
-				42010,
-				343
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"level",
-				30
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40021,
-				1
-			}
-		}
-	},
-	[2009] = {
-		picture = "lv_70",
-		name = "Commander Level Boost Pack",
-		type = 0,
-		second_text = "In Addition",
-		descrip = "Buying this pack will raise your Commander Level to 70 and grant you many useful items.",
-		subject = "Commander Level Boost Pack",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 499,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 7,
-		package_sort_id = 1,
-		limit_type = 2,
-		limit_arg = 1,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond164",
-		extra_gem = 0,
-		id = 2009,
-		airijp_id = "com.yostaren.azurlane.diamond164",
-		name_display = "Commander Level Boost Pack",
-		first_text = "Upgrade to Commander Lv. 70",
-		akashi_pick = 1,
-		time = "always",
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				40126,
-				1
-			},
-			{
-				2,
-				16502,
-				200
-			},
-			{
-				4,
-				100011,
-				4
-			},
-			{
-				4,
-				100001,
-				4
-			},
-			{
-				2,
-				69001,
-				1
-			}
-		},
-		display = {
-			{
-				2,
-				16502,
-				200
-			},
-			{
-				4,
-				100011,
-				4
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {
-			{
-				"lv_70",
-				70
-			}
-		},
-		drop_item = {
-			{
-				2,
-				40022,
-				1
-			}
-		},
-		first_icon = {
-			{
-				2,
-				40126,
-				1
-			}
-		}
-	},
-	[2010] = {
-		picture = "boxSkill",
-		name = "Skill Book Pack",
-		type = 0,
-		second_text = "",
-		descrip = "Buy to receive a large amount of Skill Books.",
-		subject = "Skill Book Pack",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 299,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 1,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 4,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond165",
-		extra_gem = 0,
-		id = 2010,
-		airijp_id = "com.yostaren.azurlane.diamond165",
-		name_display = "Skill Book Pack",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				16004,
-				1
-			},
-			{
-				2,
-				16014,
-				1
-			},
-			{
-				2,
-				16024,
-				1
-			},
-			{
-				2,
-				16003,
-				3
-			},
-			{
-				2,
-				16013,
-				3
-			},
-			{
-				2,
-				16023,
-				3
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					4,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				16004,
-				1
-			},
-			{
-				2,
-				16014,
-				1
-			},
-			{
-				2,
-				16024,
-				1
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40023,
-				1
-			}
-		}
-	},
-	[2011] = {
-		picture = "boxSkill",
-		name = "Skill Book Pack",
-		type = 0,
-		second_text = "",
-		descrip = "Buy to receive a large amount of Skill Books.",
-		subject = "Skill Book Pack",
-		first_pay_double = 0,
-		gem = 0,
-		tag = 2,
-		money = 299,
-		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
-		limit_group = 0,
-		package_tag = "",
-		type_order = 0,
-		package_sort_id = 1,
-		limit_type = 2,
-		first_icon = "",
-		limit_arg = 4,
-		tip = "",
-		tip_open = 0,
-		id_str = "com.yostaren.azurlane.diamond172",
-		extra_gem = 0,
-		id = 2011,
-		airijp_id = "com.yostaren.azurlane.diamond172",
-		name_display = "Skill Book Pack",
-		first_text = "",
-		akashi_pick = 1,
-		skin_inquire_relation = 0,
-		extra_service = 3,
-		show_group = "",
-		package_tag_open = 0,
-		extra_service_item = {
-			{
-				2,
-				16004,
-				1
-			},
-			{
-				2,
-				16014,
-				1
-			},
-			{
-				2,
-				16024,
-				1
-			},
-			{
-				2,
-				16003,
-				3
-			},
-			{
-				2,
-				16013,
-				3
-			},
-			{
-				2,
-				16023,
-				3
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					11,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				16004,
-				1
-			},
-			{
-				2,
-				16014,
-				1
-			},
-			{
-				2,
-				16024,
-				1
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40023,
-				1
 			}
 		}
 	},
@@ -16805,6 +13903,3109 @@ pg.base.pay_data_display = {
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
+	},
+	[9001] = {
+		picture = "fudai29",
+		name = "Sports & Race Return Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
+		subject = "Sports & Race Return Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 699,
+		descrip_extra = "* The Lucky Box will be sent to your ingame Mail.\n* If you already own all the listed skins, you will receive Gems x680 instead.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag68",
+		extra_gem = 0,
+		id = 9001,
+		airijp_id = "com.yostaren.azurlane.luckybag68",
+		name_display = "Sports & Race Return Lucky Box",
+		first_text = "Random Skin",
+		akashi_pick = 1,
+		skin_inquire_relation = 86219,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86219,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81219,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86219,
+				1
+			}
+		}
+	},
+	[1000] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport2",
+		extra_gem = 0,
+		id = 1000,
+		airijp_id = "com.yostaren.azurlane.passport2",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4001,
+				1500
+			},
+			{
+				8,
+				59242,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4001,
+				1500
+			}
+		},
+		sub_display = {
+			7001,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1001] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport3",
+		extra_gem = 0,
+		id = 1001,
+		airijp_id = "com.yostaren.azurlane.passport3",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4002,
+				1500
+			},
+			{
+				8,
+				59254,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4002,
+				1500
+			}
+		},
+		sub_display = {
+			7002,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1002] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport4",
+		extra_gem = 0,
+		id = 1002,
+		airijp_id = "com.yostaren.azurlane.passport4",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4003,
+				1500
+			},
+			{
+				8,
+				59270,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4003,
+				1500
+			}
+		},
+		sub_display = {
+			7003,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1003] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport5",
+		extra_gem = 0,
+		id = 1003,
+		airijp_id = "com.yostaren.azurlane.passport5",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4004,
+				1500
+			},
+			{
+				8,
+				59281,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4004,
+				1500
+			}
+		},
+		sub_display = {
+			7004,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1004] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport6",
+		extra_gem = 0,
+		id = 1004,
+		airijp_id = "com.yostaren.azurlane.passport6",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4005,
+				1500
+			},
+			{
+				8,
+				59291,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4005,
+				1500
+			}
+		},
+		sub_display = {
+			7005,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1005] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport7",
+		extra_gem = 0,
+		id = 1005,
+		airijp_id = "com.yostaren.azurlane.passport7",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4006,
+				1500
+			},
+			{
+				8,
+				59292,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4006,
+				1500
+			}
+		},
+		sub_display = {
+			7006,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1006] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport8",
+		extra_gem = 0,
+		id = 1006,
+		airijp_id = "com.yostaren.azurlane.passport8",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4007,
+				1500
+			},
+			{
+				8,
+				59294,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4007,
+				1500
+			}
+		},
+		sub_display = {
+			7007,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1007] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport10",
+		extra_gem = 0,
+		id = 1007,
+		airijp_id = "com.yostaren.azurlane.passport10",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4008,
+				1500
+			},
+			{
+				8,
+				59297,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4008,
+				1500
+			}
+		},
+		sub_display = {
+			7008,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1008] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport11",
+		extra_gem = 0,
+		id = 1008,
+		airijp_id = "com.yostaren.azurlane.passport11",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4009,
+				1500
+			},
+			{
+				8,
+				59299,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4009,
+				1500
+			}
+		},
+		sub_display = {
+			7009,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1009] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport12",
+		extra_gem = 0,
+		id = 1009,
+		airijp_id = "com.yostaren.azurlane.passport12",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4010,
+				1500
+			},
+			{
+				8,
+				59404,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4010,
+				1500
+			}
+		},
+		sub_display = {
+			7010,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1010] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2023.6)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport13",
+		extra_gem = 0,
+		id = 1010,
+		airijp_id = "com.yostaren.azurlane.passport13",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4011,
+				1500
+			},
+			{
+				8,
+				59456,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4011,
+				1500
+			}
+		},
+		sub_display = {
+			7011,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1011] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2023.8)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport14",
+		extra_gem = 0,
+		id = 1011,
+		airijp_id = "com.yostaren.azurlane.passport14",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4012,
+				1500
+			},
+			{
+				8,
+				59468,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4012,
+				1500
+			}
+		},
+		sub_display = {
+			7012,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1012] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2023.10)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport15",
+		extra_gem = 0,
+		id = 1012,
+		airijp_id = "com.yostaren.azurlane.passport15",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4013,
+				1500
+			},
+			{
+				8,
+				59494,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4013,
+				1500
+			}
+		},
+		sub_display = {
+			7013,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1013] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2023.12)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport16",
+		extra_gem = 0,
+		id = 1013,
+		airijp_id = "com.yostaren.azurlane.passport16",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4014,
+				1500
+			},
+			{
+				8,
+				59511,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4014,
+				1500
+			}
+		},
+		sub_display = {
+			7014,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1014] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.2)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport17",
+		extra_gem = 0,
+		id = 1014,
+		airijp_id = "com.yostaren.azurlane.passport17",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4015,
+				1500
+			},
+			{
+				8,
+				59526,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4015,
+				1500
+			}
+		},
+		sub_display = {
+			7015,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1015] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.4)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport18",
+		extra_gem = 0,
+		id = 1015,
+		airijp_id = "com.yostaren.azurlane.passport18",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4016,
+				1500
+			},
+			{
+				8,
+				59541,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4016,
+				1500
+			}
+		},
+		sub_display = {
+			7016,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1016] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.6)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport19",
+		extra_gem = 0,
+		id = 1016,
+		airijp_id = "com.yostaren.azurlane.passport19",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4017,
+				1500
+			},
+			{
+				8,
+				59584,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4017,
+				1500
+			}
+		},
+		sub_display = {
+			7017,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1017] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.8)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport20",
+		extra_gem = 0,
+		id = 1017,
+		airijp_id = "com.yostaren.azurlane.passport20",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4018,
+				1500
+			},
+			{
+				8,
+				65001,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4018,
+				1500
+			}
+		},
+		sub_display = {
+			7018,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1018] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.10)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport21",
+		extra_gem = 0,
+		id = 1018,
+		airijp_id = "com.yostaren.azurlane.passport21",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4019,
+				1500
+			},
+			{
+				8,
+				65028,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4019,
+				1500
+			}
+		},
+		sub_display = {
+			7019,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1019] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2024.12)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport22",
+		extra_gem = 0,
+		id = 1019,
+		airijp_id = "com.yostaren.azurlane.passport22",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4020,
+				1500
+			},
+			{
+				8,
+				65057,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7020,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1020] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2025.2)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport23",
+		extra_gem = 0,
+		id = 1020,
+		airijp_id = "com.yostaren.azurlane.passport23",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4021,
+				1500
+			},
+			{
+				8,
+				65074,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7021,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1021] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass 2025.4",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport24",
+		extra_gem = 0,
+		id = 1021,
+		airijp_id = "com.yostaren.azurlane.passport24",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4022,
+				1500
+			},
+			{
+				8,
+				65086,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7022,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1022] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2025.6)",
+		type = 0,
+		second_text = "",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport25",
+		extra_gem = 0,
+		id = 1022,
+		airijp_id = "com.yostaren.azurlane.passport25",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4023,
+				1500
+			},
+			{
+				8,
+				65100,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7023,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1023] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2025.8)",
+		type = 0,
+		second_text = "Unlock Special Rewards",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport26",
+		extra_gem = 0,
+		id = 1023,
+		airijp_id = "com.yostaren.azurlane.passport26",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4024,
+				1500
+			},
+			{
+				8,
+				65101,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7024,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1024] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2025.10)",
+		type = 0,
+		second_text = "Unlock Special Rewards",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport27",
+		extra_gem = 0,
+		id = 1024,
+		airijp_id = "com.yostaren.azurlane.passport27",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4025,
+				1500
+			},
+			{
+				8,
+				65106,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7025,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2001] = {
+		picture = "tech1_display",
+		name = "PR Construction Pack - Series 1",
+		type = 0,
+		second_text = "+Blueprints",
+		descrip = "Contains one PR Voucher - Series 1 and 343 General Blueprints - Series 1.",
+		subject = "PR Construction Pack - Series 1",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "",
+		limit_group = 1,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond158",
+		extra_gem = 0,
+		id = 2001,
+		airijp_id = "com.yostaren.azurlane.diamond158",
+		name_display = "PR Construction Pack - Series 1",
+		first_text = "Development Ship",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40124,
+				1
+			}
+		}
+	},
+	[2002] = {
+		picture = "tech1_promotion",
+		name = "PR Voucher & Blueprint Bundle - Series 1",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "Voucher & Blueprint Bundle",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 1,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond158",
+		extra_gem = 0,
+		id = 2002,
+		airijp_id = "com.yostaren.azurlane.diamond158",
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 1",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			},
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40016,
+				1
+			}
+		}
+	},
+	[2003] = {
+		picture = "tech1_normal",
+		name = "PR Voucher - Series 1",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "Voucher",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 1,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond159",
+		extra_gem = 0,
+		id = 2003,
+		airijp_id = "com.yostaren.azurlane.diamond159",
+		name_display = "PR Voucher - Series 1",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40124,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40017,
+				1
+			}
+		}
+	},
+	[2004] = {
+		picture = "tech1_promotion",
+		name = "PR Blueprint Pack - Series 1",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "Blueprints",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 699,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 1.",
+		limit_group = 1,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond160",
+		extra_gem = 0,
+		id = 2004,
+		airijp_id = "com.yostaren.azurlane.diamond160",
+		name_display = "PR Blueprint Pack - Series 1",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42000,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40018,
+				1
+			}
+		}
+	},
+	[2005] = {
+		picture = "tech2_display",
+		name = "PR Construction Pack - Series 2",
+		type = 0,
+		second_text = "+Blueprints",
+		descrip = "Contains one PR Voucher - Series 2 and 343 General Blueprints - Series 2.",
+		subject = "PR Construction Pack - Series 2",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "",
+		limit_group = 2,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond161",
+		extra_gem = 0,
+		id = 2005,
+		airijp_id = "com.yostaren.azurlane.diamond161",
+		name_display = "PR Construction Pack - Series 2",
+		first_text = "Development Ship",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40125,
+				1
+			}
+		}
+	},
+	[2006] = {
+		picture = "tech2_promotion",
+		name = "PR Voucher & Blueprint Bundle - Series 2",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "PR Voucher & Blueprint Bundle - Series 2",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 2,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond161",
+		extra_gem = 0,
+		id = 2006,
+		airijp_id = "com.yostaren.azurlane.diamond161",
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 2",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			},
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40019,
+				1
+			}
+		}
+	},
+	[2007] = {
+		picture = "tech2_normal",
+		name = "PR Voucher - Series 2",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "Voucher",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 2,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond162",
+		extra_gem = 0,
+		id = 2007,
+		airijp_id = "com.yostaren.azurlane.diamond162",
+		name_display = "PR Voucher - Series 2",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40125,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40020,
+				1
+			}
+		}
+	},
+	[2008] = {
+		picture = "tech2_promotion",
+		name = "PR Blueprint Pack - Series 2",
+		type = 0,
+		second_text = "",
+		descrip = "Contains:",
+		subject = "Blueprints",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 699,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 2.",
+		limit_group = 2,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond163",
+		extra_gem = 0,
+		id = 2008,
+		airijp_id = "com.yostaren.azurlane.diamond163",
+		name_display = "PR Blueprint Pack - Series 2",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42010,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40021,
+				1
+			}
+		}
+	},
+	[2009] = {
+		picture = "lv_70",
+		name = "Commander Level Boost Pack",
+		type = 0,
+		second_text = "In Addition",
+		descrip = "Buying this pack will raise your Commander Level to 70 and grant you many useful items.",
+		subject = "Commander Level Boost Pack",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 499,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 7,
+		package_sort_id = 1,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond164",
+		extra_gem = 0,
+		id = 2009,
+		airijp_id = "com.yostaren.azurlane.diamond164",
+		name_display = "Commander Level Boost Pack",
+		first_text = "Upgrade to Commander Lv. 70",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40126,
+				1
+			},
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			},
+			{
+				4,
+				100001,
+				4
+			},
+			{
+				2,
+				69001,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				200
+			},
+			{
+				4,
+				100011,
+				4
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"lv_70",
+				70
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40022,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				40126,
+				1
+			}
+		}
+	},
+	[2010] = {
+		picture = "boxSkill",
+		name = "Skill Book Pack",
+		type = 0,
+		second_text = "",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		subject = "Skill Book Pack",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 299,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 1,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond165",
+		extra_gem = 0,
+		id = 2010,
+		airijp_id = "com.yostaren.azurlane.diamond165",
+		name_display = "Skill Book Pack",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					6,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
+	},
+	[2011] = {
+		picture = "boxSkill",
+		name = "Skill Book Pack",
+		type = 0,
+		second_text = "",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		subject = "Skill Book Pack",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 299,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 1,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 4,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.diamond172",
+		extra_gem = 0,
+		id = 2011,
+		airijp_id = "com.yostaren.azurlane.diamond172",
+		name_display = "Skill Book Pack",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
 	},
 	[2014] = {
 		picture = "boxSkill",

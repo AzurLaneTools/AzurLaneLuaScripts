@@ -33,9 +33,7 @@ slot0.init = function(slot0)
 		slot0.skipAnim = false
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setText(slot0:findTF("main/info/content/abilitys/attrs/command/name/Text"), i18n("commander_command_ability"))
 	setText(slot0:findTF("main/info/content/abilitys/attrs/tactic/name/Text"), i18n("commander_tactical_ability"))
 	setText(slot0:findTF("main/info/content/abilitys/attrs/support/name/Text"), i18n("commander_logistics_ability"))
@@ -44,7 +42,7 @@ end
 
 slot0.openTreePanel = function(slot0, slot1)
 	slot2 = function()
-		uv0.treePanel:ActionInvoke("Show", uv1, LayerWeightConst.SECOND_LAYER + 2)
+		uv0.treePanel:ActionInvoke("Show", uv1)
 	end
 
 	if slot0.treePanel:GetLoaded() then
@@ -122,9 +120,7 @@ end
 slot0.didEnter = function(slot0)
 	slot0:updateInfo()
 	onButton(slot0, slot0.shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.skipBtn, function (slot0)
 		if uv0.isAnim then
@@ -164,7 +160,6 @@ slot0.DoExit = function(slot0)
 				uv0:emit(NewCommanderMediator.ON_LOCK, uv0.contextData.commander.id, 1)
 				uv0:emit(uv1.ON_CLOSE)
 			end,
-			layer = LayerWeightConst.SECOND_LAYER + 2,
 			onNo = function ()
 				uv0:emit(uv1.ON_CLOSE)
 			end
@@ -246,7 +241,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	slot0.treePanel:Destroy()
 	slot0.msgbox:Destroy()
 	retCommanderPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())

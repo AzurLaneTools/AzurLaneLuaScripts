@@ -53,7 +53,7 @@ slot0.BuildDataDic = function(slot0)
 	slot0.groupDic = {}
 	slot0.achvDic = {}
 
-	for slot4, slot5 in ipairs(pg.island_achievement.get_id_list_by_group) do
+	for slot4, slot5 in pairs(pg.island_achievement.get_id_list_by_group) do
 		slot6 = IslandAchievementGroup.New(slot4, slot5)
 
 		for slot10, slot11 in ipairs(slot5) do
@@ -92,6 +92,23 @@ end
 
 slot0.GetGotList = function(slot0)
 	return slot0.gotList
+end
+
+slot0.GetGotGroupMaxStageList = function(slot0)
+	slot1 = pg.island_achievement
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.gotList) do
+		slot10 = slot1[slot8].stage
+
+		if not slot2[slot1[slot8].group] or slot2[slot9] < slot10 then
+			slot2[slot9] = slot10
+			slot3[slot9] = slot8
+		end
+	end
+
+	return underscore.values(slot3)
 end
 
 slot0.GetGroup = function(slot0, slot1)
@@ -162,6 +179,10 @@ slot0.UpdateRecordWithAdd = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.CheckAchvStatus = function(slot0, slot1, slot2)
+	if not slot0.achvDic[slot1] or not slot0.achvDic[slot1][slot2] then
+		return
+	end
+
 	for slot6, slot7 in ipairs(slot0.achvDic[slot1][slot2]) do
 		if slot7:GetStatus() == IslandAchievement.STATUS.NORMAL and slot0:IsCanGet(slot7) then
 			slot7:SetStatus(IslandAchievement.STATUS.GET)

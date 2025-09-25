@@ -436,7 +436,7 @@ slot0.getPanelActivities = function(slot0)
 	return slot2
 end
 
-slot0.getCorePanelActivity = function(slot0, slot1)
+slot0.getCorePanelActivities = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
@@ -455,6 +455,18 @@ slot0.getCorePanelActivity = function(slot0, slot1)
 	}))
 
 	return slot2
+end
+
+slot0.getIslandPanelActivities = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		if slot6:isIslandShow() then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
 end
 
 slot0.checkHxActivity = function(slot0, slot1)
@@ -500,7 +512,7 @@ end
 slot0.findNextAutoActivity = function(slot0, slot1)
 	slot2 = nil
 	slot4 = pg.TimeMgr.GetInstance():GetServerTime()
-	slot5 = slot1 and slot1 ~= "" and slot0:getCorePanelActivity(slot1) or slot0:getPanelActivities()
+	slot5 = slot1 and slot1 ~= "" and slot0:getCorePanelActivities(slot1) or slot0:getPanelActivities()
 
 	for slot9, slot10 in ipairs(slot5) do
 		if not slot10.autoActionForbidden then

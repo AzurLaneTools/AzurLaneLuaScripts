@@ -293,7 +293,7 @@ end
 slot0.closeMsgBox = function(slot0)
 	slot0.isMsgBoxShow = false
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._msgBox)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._msgBox)
 	setActive(slot0._msgBox, false)
 end
 

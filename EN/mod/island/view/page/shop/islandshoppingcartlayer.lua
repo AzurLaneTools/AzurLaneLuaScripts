@@ -33,49 +33,86 @@ slot0.SetUp = function(slot0, slot1)
 	slot2, slot3 = nil
 	slot4 = 0
 
-	for slot8 = 1, 3 do
-		setActive(slot0.commodityList:Find("commodity" .. slot8):Find("normal"), slot8 <= #slot1)
-		setActive(slot9:Find("nothing"), slot8 > #slot1)
+	if #slot1[1]:GetItems() == 1 then
+		for slot8 = 1, 3 do
+			setActive(slot0.commodityList:Find("commodity" .. slot8):Find("normal"), slot8 <= #slot1)
+			setActive(slot9:Find("nothing"), slot8 > #slot1)
 
-		if slot8 <= #slot1 then
-			slot10 = slot1[slot8]
+			if slot8 <= #slot1 then
+				slot10 = slot1[slot8]
 
-			GetImageSpriteFromAtlasAsync(slot10:GetIcon(), "", slot9:Find("normal/IslandItemTpl/icon_bg/icon"))
-			setText(slot9:Find("normal/name"), slot10:GetName())
-			setActive(slot9:Find("normal/count"), false)
+				GetImageSpriteFromAtlasAsync(slot10:GetIcon(), "", slot9:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(slot9:Find("normal/name"), slot10:GetName())
+				setActive(slot9:Find("normal/count"), false)
 
-			if #slot10:GetItems() == 1 then
-				slot11 = 0
+				if #slot10:GetItems() == 1 then
+					slot11 = 0
 
-				if slot10:GetItems()[1][1] == DROP_TYPE_ISLAND_FURNITURE then
-					for slot17, slot18 in ipairs(getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()) do
-						if slot18.id == slot10:GetItems()[1][2] then
-							slot11 = slot18.count
+					if slot10:GetItems()[1][1] == DROP_TYPE_ISLAND_FURNITURE then
+						for slot17, slot18 in ipairs(getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()) do
+							if slot18.id == slot10:GetItems()[1][2] then
+								slot11 = slot18.count
 
-							break
+								break
+							end
 						end
+
+						setActive(slot9:Find("normal/count"), true)
+						setText(slot9:Find("normal/count"), i18n("island_3Dshop_no_have", slot11))
+					elseif slot10:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS and pg.island_dress_template[slot10:GetItems()[1][2]].belongto == 2 then
+						setActive(slot9:Find("normal/count"), true)
+						setText(slot9:Find("normal/count"), i18n("island_3Dshop_no_have", getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(slot12)))
 					end
-
-					setActive(slot9:Find("normal/count"), true)
-					setText(slot9:Find("normal/count"), "拥有数量(" .. slot11 .. ")")
-				elseif slot10:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS and pg.island_dress_template[slot10:GetItems()[1][2]].belongto == 2 then
-					setActive(slot9:Find("normal/count"), true)
-					setText(slot9:Find("normal/count"), "拥有数量(" .. getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(slot12) .. ")")
 				end
+
+				slot11 = slot10:GetResourceConsume()
+
+				GetImageSpriteFromAtlasAsync(Drop.New({
+					type = slot11[1],
+					id = slot11[2]
+				}):getIcon(), "", slot9:Find("normal/consumeIcon"))
+				setText(slot9:Find("normal/consumeNum"), slot11[3])
+
+				slot2 = slot11[1]
+				slot3 = slot11[2]
+				slot4 = slot4 + slot11[3]
+
+				setActive(slot9:Find("normal/cost"), true)
+				setActive(slot9:Find("normal/consumeIcon"), true)
+				setActive(slot9:Find("normal/have"), false)
 			end
-
-			slot11 = slot10:GetResourceConsume()
-
-			GetImageSpriteFromAtlasAsync(Drop.New({
-				type = slot11[1],
-				id = slot11[2]
-			}):getIcon(), "", slot9:Find("normal/consumeIcon"))
-			setText(slot9:Find("normal/consumeNum"), slot11[3])
-
-			slot2 = slot11[1]
-			slot3 = slot11[2]
-			slot4 = slot4 + slot11[3]
 		end
+	elseif slot1[1]:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
+		for slot8 = 1, 3 do
+			setActive(slot0.commodityList:Find("commodity" .. slot8):Find("normal"), slot8 <= #slot1[1]:GetItems())
+			setActive(slot9:Find("nothing"), slot8 > #slot1[1]:GetItems())
+
+			if slot8 <= #slot1[1]:GetItems() then
+				slot11 = pg.island_dress_template[slot1[1]:GetItems()[slot8][2]]
+
+				GetImageSpriteFromAtlasAsync("island/IslandGoodsIcon/" .. slot11.icon, "", slot9:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(slot9:Find("normal/name"), slot11.name)
+				setActive(slot9:Find("normal/count"), false)
+
+				slot12 = 0
+
+				if slot11.belongto == 1 then
+					slot12 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(slot10) and 1 or 0
+				elseif slot11.belongto == 2 then
+					slot12 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(slot10)
+				end
+
+				setText(slot9:Find("normal/consumeNum"), slot12)
+				setActive(slot9:Find("normal/cost"), false)
+				setActive(slot9:Find("normal/consumeIcon"), false)
+				setActive(slot9:Find("normal/have"), true)
+			end
+		end
+
+		slot5 = slot1[1]:GetResourceConsume()
+		slot2 = slot5[1]
+		slot3 = slot5[2]
+		slot4 = slot5[3]
 	end
 
 	slot6 = Drop.New({
@@ -105,9 +142,7 @@ slot0.Refresh = function(slot0)
 end
 
 slot0.OnShow = function(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = "IslandShop"
-	})
+	slot0:BlurPanel(slot0._tf)
 
 	slot0.commodities = slot1
 
@@ -115,7 +150,7 @@ slot0.OnShow = function(slot0, slot1)
 end
 
 slot0.OnHide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

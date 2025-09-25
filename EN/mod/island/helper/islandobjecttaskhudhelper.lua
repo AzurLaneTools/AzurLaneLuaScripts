@@ -96,8 +96,10 @@ slot0.CheckTarget = function(slot0)
 		slot2 = slot2:GetIsland()
 		slot2 = slot2:GetTaskAgency()
 
-		return uv0.GetFirstPriorityId(underscore.select(slot1, function (slot0)
+		return uv0.GetFirstPriorityId(underscore.map(underscore.select(slot1, function (slot0)
 			return uv0:GetTask(slot0[1]) and not slot1:GetTargetById(slot0[2]):IsFinish()
+		end), function (slot0)
+			return slot0[1]
 		end))
 	end
 

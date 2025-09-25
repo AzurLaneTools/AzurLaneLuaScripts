@@ -67,6 +67,10 @@ slot0.IsUnlockTech = function(slot0, slot1)
 end
 
 slot0.IsFinishedTech = function(slot0, slot1)
+	if not slot0.techData[slot1] then
+		return false
+	end
+
 	return slot0.techData[slot1]:GetFinishedCnt() > 0
 end
 

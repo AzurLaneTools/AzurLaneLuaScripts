@@ -141,26 +141,18 @@ slot0.register = function(slot0)
 		})
 		slot4 = {}
 
-		if slot2.ship_skin_id ~= 0 then
-			slot4 = {
+		uv0:addSubLayers(Context.New({
+			viewComponent = ShipPreviewLayer,
+			mediator = ShipPreviewMediator,
+			data = (slot2.ship_skin_id == 0 or {
 				equipSkinId = 0,
 				shipVO = slot3,
-				weaponIds = {},
-				weight = uv0.contextData.weight and uv0.contextData.weight + 1
-			}
-		else
-			slot5.weight = uv0.contextData.weight and uv0.contextData.weight + 1
-			slot4 = {
+				weaponIds = {}
+			}) and {
 				shipVO = slot3,
 				weaponIds = Clone(slot2.weapon_ids),
 				equipSkinId = slot1
 			}
-		end
-
-		uv0:addSubLayers(Context.New({
-			viewComponent = ShipPreviewLayer,
-			mediator = ShipPreviewMediator,
-			data = slot4
 		}))
 	end)
 	slot0:bind(uv0.UR_EXCHANGE_TRACKING, function (slot0, slot1)

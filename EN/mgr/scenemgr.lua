@@ -62,9 +62,7 @@ slot1.prepareLayer = function(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot5, slot3)
 		slot2:addChild(slot3)
 	else
-		for slot10, slot11 in ipairs(slot3.children) do
-			table.insert(slot5, slot11)
-		end
+		table.insertto(slot5, slot3.children)
 	end
 
 	slot7 = {}
@@ -79,10 +77,7 @@ slot1.prepareLayer = function(slot0, slot1, slot2, slot3, slot4)
 				uv2()
 			end)
 		end)
-
-		for slot12, slot13 in ipairs(table.remove(slot5, 1).children) do
-			table.insert(slot5, slot13)
-		end
+		table.insertto(slot5, table.remove(slot5, 1).children)
 	end
 
 	seriesAsync(slot7, function ()
@@ -128,9 +123,7 @@ slot1.removeLayer = function(slot0, slot1, slot2, slot3)
 			table.insert(slot5, slot6)
 		end
 
-		for slot10, slot11 in ipairs(slot6.children) do
-			table.insert(slot4, slot11)
-		end
+		table.insertto(slot4, slot6.children)
 	end
 
 	if slot2.parent == nil then
@@ -146,7 +139,6 @@ slot1.removeLayer = function(slot0, slot1, slot2, slot3)
 
 		table.insert(slot6, function (slot0)
 			if uv0 then
-				uv1:clearTempCache(uv0)
 				uv1:remove(uv0, function ()
 					uv0:onContextRemoved()
 					uv1()
@@ -165,68 +157,76 @@ slot1.removeLayerMediator = function(slot0, slot1, slot2, slot3)
 		slot2
 	}
 	slot5 = {}
+	slot6 = {}
 
 	while #slot4 > 0 do
 		if table.remove(slot4, 1).mediator then
-			table.insert(slot5, slot6)
+			table.insert(slot6, slot7)
 		end
 
-		for slot10, slot11 in ipairs(slot6.children) do
-			table.insert(slot4, slot11)
-		end
+		table.insertto(slot4, slot7.children)
 	end
 
 	if slot2.parent ~= nil then
 		slot2.parent:removeChild(slot2)
 	end
 
-	slot6 = {}
+	slot7 = {}
 
-	for slot10 = #slot5, 1, -1 do
-		if slot1:removeMediator(slot5[slot10].mediator.__cname) then
-			table.insert(slot6, {
-				mediator = slot12,
-				context = slot11
+	for slot11 = #slot6, 1, -1 do
+		if slot1:removeMediator(slot6[slot11].mediator.__cname) then
+			if slot13:getViewComponent():CheckTempCache() then
+				PoolMgr.GetInstance():KeepUICache(slot14:getUIName(), false)
+			end
+
+			table.insert(slot7, {
+				mediator = slot13,
+				context = slot12
 			})
 		end
 	end
 
-	slot3(slot6)
+	slot3(slot7)
 end
 
-slot1.clearTempCache = function(slot0, slot1)
-	if slot1:getViewComponent():tempCache() then
-		slot2:RemoveTempCache()
-	end
-end
-
-slot1.remove = function(slot0, slot1, slot2, slot3)
-	slot4 = slot1:getViewComponent()
-
-	if slot0._cacheUI[slot1.__cname] ~= nil and slot5 ~= slot4 then
-		slot5.event:clear()
-		slot0:gc(slot5)
-	end
-
-	if slot4 == nil then
+slot1.remove = function(slot0, slot1, slot2)
+	if slot1:getViewComponent() == nil then
 		slot2()
-	elseif slot4:needCache() and not slot3 then
-		slot4:setVisible(false)
+	end
 
-		slot0._cacheUI[slot1.__cname] = slot4
-		slot4._isCachedView = true
+	if slot3:needCache() and not slot0._cacheUI[slot1.__cname] then
+		slot3:setVisible(false)
+
+		slot0._cacheUI[slot1.__cname] = slot3
+		slot3._isCachedView = true
 
 		slot2()
 	else
-		slot4._isCachedView = false
+		slot3._isCachedView = false
 
-		slot4.event:connect(BaseUI.DID_EXIT, function ()
-			uv0.event:clear()
-			uv1:gc(uv0)
-			uv2()
-		end)
-		slot4:exit()
+		slot0:removeView(slot3, slot2)
 	end
+end
+
+slot1.removeView = function(slot0, slot1, slot2)
+	slot1._isCachedView = false
+
+	slot1.event:connect(BaseUI.DID_EXIT, function ()
+		uv0.event:clear()
+		uv1:gc(uv0)
+		uv2()
+	end)
+	slot1:exit()
+end
+
+slot1.clearCacheUI = function(slot0)
+	parallelAsync(underscore(slot0._cacheUI):chain():values():map(function (slot0)
+		return function (slot0)
+			uv0:removeView(uv1, slot0)
+		end
+	end):value(), function ()
+		uv0._cacheUI = {}
+	end)
 end
 
 slot1.gc = function(slot0, slot1)

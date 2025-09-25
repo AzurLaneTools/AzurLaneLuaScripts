@@ -1,6 +1,110 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207140] = {
+		name = "Formidable μ",
+		change_skin = "",
+		desc = "Commander, third ship and idol of the Illustrious class, Formidable, humbly makes your acquaintance. Please do enjoy the show... Heehee, doesn't that just make you shudder with excitement?",
+		illustrator2 = -1,
+		ship_group = 20714,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "kewei_idol",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 207140,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "kewei_idol",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.296,
+					0.992,
+					0
+				}
+			},
+			plane = {
+				{
+					1.257,
+					0.989,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[213010] = {
 		name = "Erebus",
 		change_skin = "",
@@ -15209,124 +15313,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.43,
 							2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301410] = {
-		name = "Mikazuki",
-		change_skin = "",
-		desc = "Mutsuki-class destroyer number ten – Mikazuki.",
-		illustrator2 = -1,
-		ship_group = 30141,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "sanriyue",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 301410,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "sanriyue",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 119,
-		spine_offset = "",
-		illustrator = 34,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.88,
-					0.61,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.88,
-					0.61,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.26,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.88,
-					0.61,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.46,
 							0
 						}
 					}

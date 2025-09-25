@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	error("Need Complete")
 end
 
+slot0.getGroupName = function(slot0)
+	return "ActivityBossSceneTemplate"
+end
+
 slot0.optionsPath = {
 	"adapt/top/option"
 }
@@ -217,7 +221,7 @@ slot0.CheckStory = function(slot0)
 	slot2 = slot0.contextData.activity
 
 	table.SerialIpairsAsync(slot2:getConfig("config_client").story, function (slot0, slot1, slot2)
-		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) and not pg.NewStoryMgr:GetInstance():IsPlayed(slot1[2]) then
+		if uv0.contextData.bossHP < slot1[1] + ((slot0 == 1 or slot1[1] == 0) and 1 or 0) and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1[2]) then
 			uv1:Play(slot1[2], slot2)
 
 			return

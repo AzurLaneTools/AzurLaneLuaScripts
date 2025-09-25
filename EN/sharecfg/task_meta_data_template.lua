@@ -322,6 +322,11 @@ pg.task_meta_data_template = setmetatable({
 		100463,
 		100464,
 		100465,
+		100471,
+		100472,
+		100473,
+		100474,
+		100475,
 		200001,
 		200002,
 		200003,
@@ -469,7 +474,11 @@ pg.task_meta_data_template = setmetatable({
 		200371,
 		200372,
 		200373,
-		200374
+		200374,
+		200381,
+		200382,
+		200383,
+		200384
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3034,6 +3043,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Yuudachi META in your fleet."
 	},
+	[100471] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100471,
+		target_num = 1,
+		desc = "Win 1 battle with Dewey META in your fleet."
+	},
+	[100472] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100472,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Dewey META in your fleet."
+	},
+	[100473] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100473,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Dewey META in your fleet."
+	},
+	[100474] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100474,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Dewey META in your fleet."
+	},
+	[100475] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100475,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Dewey META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4217,5 +4266,37 @@ pg.base.task_meta_data_template = {
 		id = 200374,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Yuudachi META in your fleet."
+	},
+	[200381] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200381,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Dewey META in your fleet."
+	},
+	[200382] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200382,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Dewey META in your fleet."
+	},
+	[200383] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200383,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Dewey META in your fleet."
+	},
+	[200384] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200384,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Dewey META in your fleet."
 	}
 }

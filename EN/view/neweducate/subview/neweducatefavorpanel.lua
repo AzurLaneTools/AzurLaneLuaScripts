@@ -19,12 +19,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.favorUIList = UIItemList.New(slot2, slot2:Find("tpl"))
 	slot0.favorCurTF = slot1:Find("bg/cur")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
 		pbList = {
 			slot1:Find("bg")
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER
+		}
 	})
 end
 
@@ -84,7 +82,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

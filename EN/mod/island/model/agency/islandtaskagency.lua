@@ -220,6 +220,16 @@ slot0.GetTasksByTypeAndParam = function(slot0, slot1, slot2)
 	return task
 end
 
+slot0.ExistDailyTask = function(slot0)
+	for slot4, slot5 in pairs(slot0.tasks) do
+		if slot5:GetShowType() == IslandTaskType.DAILY then
+			return true
+		end
+	end
+
+	return false
+end
+
 slot0.AddFinishId = function(slot0, slot1)
 	table.insert(slot0.finishedIds, slot1)
 	slot0:DispatchEvent(uv0.TASK_FINISH)

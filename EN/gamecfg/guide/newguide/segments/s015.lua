@@ -68,7 +68,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
+				path = "/UICamera/Canvas/UIMain/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
 				triggerType = {
 					1
 				},

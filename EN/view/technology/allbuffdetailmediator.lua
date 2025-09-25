@@ -6,9 +6,7 @@ slot0.register = function(slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = TechnologyTreeSetAttrMediator,
 			viewComponent = TechnologyTreeSetAttrLayer,
-			data = {
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-			},
+			data = {},
 			onRemoved = function ()
 				uv0.viewComponent:updateDetail()
 			end

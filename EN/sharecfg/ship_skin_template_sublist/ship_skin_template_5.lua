@@ -8824,6 +8824,126 @@ pg.base.ship_skin_template_5 = {
 			}
 		}
 	},
+	[202248] = {
+		name = "Love's Greeting",
+		change_skin = "",
+		desc = "Commander, today's the day we make our vows, so could you make me do something for you? It'll make me feel warm, and... I want to feel that warmth a lot, lot more.",
+		illustrator2 = -1,
+		ship_group = 20224,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "heitaizi_h",
+		bg_sp = "",
+		skin_type = 1,
+		shop_type_id = 9998,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "161",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 202248,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "heitaizi_h",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 77,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.595,
+					0.763,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.861,
+					0.699,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.661,
+					2.501,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.813,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202250] = {
 		name = "Sheffield μ",
 		change_skin = "",
@@ -15499,124 +15619,6 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.41,
 							2.13,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203130] = {
-		name = "Devonshire",
-		change_skin = "",
-		desc = "London-class heavy cruiser – Devonshire.",
-		illustrator2 = -1,
-		ship_group = 20313,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "dewenjun",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 203130,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "dewenjun",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 404,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.549,
-					0.798,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.698,
-					1.642,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.388,
-					1.334,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.403,
-							2.326,
 							0
 						}
 					}

@@ -114,7 +114,35 @@ pg.dorm3d_subtitle = setmetatable({
 		11028,
 		11029,
 		11030,
-		11031
+		11031,
+		12001,
+		12002,
+		12003,
+		12004,
+		12005,
+		12006,
+		12007,
+		12008,
+		12009,
+		12010,
+		12011,
+		12021,
+		12022,
+		12023,
+		12024,
+		12025,
+		12026,
+		12027,
+		12028,
+		12029,
+		12030,
+		12031,
+		12032,
+		12033,
+		12034,
+		12035,
+		12036,
+		12037
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -570,5 +598,117 @@ pg.base.dorm3d_subtitle = {
 	[11031] = {
 		id = 11031,
 		subtitle = "Honey, that tickles... Ambushes are no fair!"
+	},
+	[12001] = {
+		id = 12001,
+		subtitle = "Nobody! Will disturb! My time with $dorm3d! May this door never open again... Heehee..."
+	},
+	[12002] = {
+		id = 12002,
+		subtitle = "Hehe, $dorm3d~ The lock seems to have broken. I'm doing my best to repair it."
+	},
+	[12003] = {
+		id = 12003,
+		subtitle = "But let it be known that we are safe – and more importantly, alone!"
+	},
+	[12004] = {
+		id = 12004,
+		subtitle = "You'll never leave my sight again♥"
+	},
+	[12005] = {
+		id = 12005,
+		subtitle = "I have one of those, too."
+	},
+	[12006] = {
+		id = 12006,
+		subtitle = "$dorm3d, you will only look at Taihou... She will deal with all those pests..."
+	},
+	[12007] = {
+		id = 12007,
+		subtitle = "Hmm? Mm... Look only at Taihou... You belong to Taihou... Zzz..."
+	},
+	[12008] = {
+		id = 12008,
+		subtitle = "Umm..."
+	},
+	[12009] = {
+		id = 12009,
+		subtitle = "Ah, $dorm3d..."
+	},
+	[12010] = {
+		id = 12010,
+		subtitle = "I really, really want to keep that cup you used. Because..."
+	},
+	[12011] = {
+		id = 12011,
+		subtitle = "No... As long as you're here, I suppose there is no need for \"indirect\" kisses."
+	},
+	[12021] = {
+		id = 12021,
+		subtitle = "Huh? Aaaaaah!"
+	},
+	[12022] = {
+		id = 12022,
+		subtitle = "Urgh, now I've done it... $dorm3d! Help me, please!"
+	},
+	[12023] = {
+		id = 12023,
+		subtitle = "$dorm3d! Save meeee!"
+	},
+	[12024] = {
+		id = 12024,
+		subtitle = "$dorm3d... Hehe... There you have it. Are you surprised?"
+	},
+	[12025] = {
+		id = 12025,
+		subtitle = "Aaahn! $dorm3d, is this what you're into?"
+	},
+	[12026] = {
+		id = 12026,
+		subtitle = "If it is... come even closer for me~"
+	},
+	[12027] = {
+		id = 12027,
+		subtitle = "The thing is... I accidentally cuffed my hands, and I can't escape."
+	},
+	[12028] = {
+		id = 12028,
+		subtitle = "Want to see them, $dorm3d?"
+	},
+	[12029] = {
+		id = 12029,
+		subtitle = "But first... We'd better find that key!"
+	},
+	[12030] = {
+		id = 12030,
+		subtitle = "Oh, my... Goodness, Commander...♡"
+	},
+	[12031] = {
+		id = 12031,
+		subtitle = "$dorm3d~ Don't tell me..."
+	},
+	[12032] = {
+		id = 12032,
+		subtitle = "Heehee, have I just discovered one of your... proclivities?"
+	},
+	[12033] = {
+		id = 12033,
+		subtitle = "I'm ready any time~"
+	},
+	[12034] = {
+		id = 12034,
+		subtitle = "I can't help but think you want it too, heehee♡"
+	},
+	[12035] = {
+		id = 12035,
+		subtitle = "I can't believe it was right under my butt!"
+	},
+	[12036] = {
+		id = 12036,
+		subtitle = "Can you tell, $dorm3d?"
+	},
+	[12037] = {
+		id = 12037,
+		subtitle = "The thing I really want to lock up... is you!"
 	}
 }

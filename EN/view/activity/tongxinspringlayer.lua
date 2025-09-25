@@ -121,7 +121,7 @@ slot0.willExit = function(slot0)
 
 	slot0.closedFlag = true
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.ad, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.ad, slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)

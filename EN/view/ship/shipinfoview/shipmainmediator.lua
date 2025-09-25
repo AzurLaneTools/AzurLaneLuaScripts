@@ -195,8 +195,7 @@ slot0.register = function(slot0)
 				skillOnShip = slot2,
 				skillId = slot1,
 				shipId = uv0.contextData.shipId,
-				index = slot3,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
+				index = slot3
 			}
 		}))
 	end)
@@ -329,8 +328,7 @@ slot0.register = function(slot0)
 			viewComponent = DockyardScene,
 			data = {
 				mode = DockyardScene.MODE_SHIP_PHANTOM,
-				techVersion = slot1,
-				LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+				techVersion = slot1
 			},
 			onRemoved = function ()
 				uv0.viewComponent:changePaintingSortLayer(true)
@@ -468,8 +466,7 @@ slot0.openRemould = function(slot0)
 		viewComponent = ShipRemouldLayer,
 		mediator = ShipRemouldMediator,
 		data = {
-			shipId = slot0.contextData.shipId,
-			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
+			shipId = slot0.contextData.shipId
 		}
 	}))
 end
@@ -493,8 +490,7 @@ slot0.openUpgrade = function(slot0)
 		data = {
 			shipId = slot0.contextData.shipId,
 			shipVOs = slot0.contextData.shipVOs,
-			index = slot0.contextData.index,
-			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
+			index = slot0.contextData.index
 		}
 	}))
 end
@@ -522,8 +518,7 @@ slot0.openIntensify = function(slot0)
 		mediator = ShipModMediator,
 		viewComponent = ShipModLayer,
 		data = {
-			shipId = slot0.contextData.shipId,
-			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
+			shipId = slot0.contextData.shipId
 		}
 	})
 
@@ -609,8 +604,7 @@ slot0.handleNotification = function(slot0, slot1)
 			viewComponent = ShipEvaluationLayer,
 			data = {
 				groupId = slot3,
-				showTrans = slot0.showTrans,
-				LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+				showTrans = slot0.showTrans
 			}
 		}))
 	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then

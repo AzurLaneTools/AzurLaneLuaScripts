@@ -26,6 +26,10 @@ pg.dorm3d_gift = {
 			{
 				10517,
 				110301
+			},
+			{
+				30707,
+				120301
 			}
 		},
 		unlock_tips = {},
@@ -52,6 +56,12 @@ pg.dorm3d_gift = {
 				10517,
 				{
 					"banner_xinzexigift"
+				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
 				}
 			}
 		}
@@ -81,6 +91,10 @@ pg.dorm3d_gift = {
 			{
 				10517,
 				110302
+			},
+			{
+				30707,
+				120301
 			}
 		},
 		shop_id = {
@@ -115,6 +129,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_xinzexigift"
 				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
+				}
 			}
 		}
 	},
@@ -143,6 +163,10 @@ pg.dorm3d_gift = {
 			{
 				10517,
 				110303
+			},
+			{
+				30707,
+				120301
 			}
 		},
 		shop_id = {
@@ -173,6 +197,12 @@ pg.dorm3d_gift = {
 				10517,
 				{
 					"banner_xinzexigift"
+				}
+			},
+			{
+				30707,
+				{
+					"banner_dafeng"
 				}
 			}
 		}
@@ -387,6 +417,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3070701] = {
+		display = "Handcuffs with a heart charm between them, simple yet profound. The cool touch of metal conveys a loving bond like nothing else.",
+		name = "Love Enshackled",
+		unlock_dialogue_id = 120541,
+		rarity = 4,
+		ship_group_id = 30707,
+		favor_trigger_id = 1004,
+		id = 3070701,
+		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift1",
+		reply_dialogue_id = {
+			{
+				30707,
+				120304
+			}
+		},
+		shop_id = {
+			260501
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30707,
+				{
+					"banner_gift3070701"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -407,6 +467,9 @@ pg.dorm3d_gift = {
 		},
 		[10517] = {
 			1051701
+		},
+		[30707] = {
+			3070701
 		}
 	},
 	all = {
@@ -419,6 +482,7 @@ pg.dorm3d_gift = {
 		3022102,
 		1990301,
 		1990302,
-		1051701
+		1051701,
+		3070701
 	}
 }

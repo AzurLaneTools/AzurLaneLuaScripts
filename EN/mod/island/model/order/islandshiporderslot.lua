@@ -13,6 +13,7 @@ slot0.Init = function(slot0, slot1, slot2)
 	slot0.state = slot1.state or uv0.STATE_LOCK
 	slot0.totalTime = slot1.load_time or 0
 	slot0.endTime = slot1.get_time or 0
+	slot0.reduceTime = 0
 	slot0.order = IslandShipOrder.New(slot1)
 	slot0.config = pg.island_order_list[slot0.id]
 end
@@ -31,7 +32,7 @@ slot0.GetOrder = function(slot0)
 end
 
 slot0.GetEndTime = function(slot0)
-	return slot0.endTime
+	return slot0.endTime - slot0.reduceTime
 end
 
 slot0.GetNeedTime = function(slot0)
@@ -52,7 +53,7 @@ end
 
 slot0.IsFinished = function(slot0)
 	return slot0:IsSubmited() and (function ()
-		return uv0.endTime <= pg.TimeMgr.GetInstance():GetServerTime()
+		return uv0:GetEndTime() <= pg.TimeMgr.GetInstance():GetServerTime()
 	end)()
 end
 
@@ -88,6 +89,14 @@ slot0.CanUnlock = function(slot0)
 	end
 
 	return true
+end
+
+slot0.SetReduceTime = function(slot0, slot1)
+	slot0.reduceTime = slot1
+end
+
+slot0.AddReduceTime = function(slot0, slot1)
+	slot0.reduceTime = slot0.reduceTime + slot1
 end
 
 return slot0

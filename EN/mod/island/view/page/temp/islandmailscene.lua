@@ -8,7 +8,6 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.ExtraHandle = function(slot0)
-	setParent(slot0._tf, slot0.contextData.container)
 	setActive(slot0._tf:Find("adapt/top/res"), false)
 	setActive(slot0._tf:Find("adapt/top/option"), false)
 	setActive(slot0._tf:Find("adapt/left_length/frame/tagRoot/store"), false)

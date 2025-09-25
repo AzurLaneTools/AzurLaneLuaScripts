@@ -1,6 +1,341 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[401011] = {
+		name = "\"Rebellious\" Top Student",
+		change_skin = "",
+		desc = "Because she’s the Z1, her results will of course be NO.1! Hehe, no matter where she goes, Z1-sama will always be the best!",
+		illustrator2 = -1,
+		ship_group = 40101,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "Z1_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "103",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401011,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "Z1_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70056,
+		voice_actor = 17,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.22,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.22,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[401019] = {
+		name = "Z1 (Retrofit)",
+		change_skin = "",
+		desc = "Hmm... So this is a retrofit, huh? Not bad! Rejoice once more, Commander, for no task or enemy is too daunting for the new and improved Z1!",
+		illustrator2 = -1,
+		ship_group = 40101,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "Z1_g",
+		bg_sp = "",
+		skin_type = 2,
+		shop_type_id = 9997,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401019,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "Z1_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 17,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.68,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.87,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[401020] = {
+		name = "Z2",
+		change_skin = "",
+		desc = "Type 1934 destroyer – Z2 Georg Thiele.",
+		illustrator2 = -1,
+		ship_group = 40102,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "z2",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 401020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "z2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 172,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.47,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[401021] = {
 		name = "High-Rise, High-Style",
 		change_skin = "",
@@ -15367,375 +15702,6 @@ pg.base.ship_skin_template_11 = {
 							-0.4,
 							2.45,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403160] = {
-		name = "Little Ägir",
-		change_skin = "",
-		desc = "Large cruiser – Ägir.",
-		illustrator2 = -1,
-		ship_group = 40316,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "aijier_younv",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 403160,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "aijier_younv",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 21,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.415,
-					0.982,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.881,
-					0.82,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.749,
-					2.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.788,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[404010] = {
-		name = "Scharnhorst",
-		change_skin = "",
-		desc = "Scharnhorst-class battlecruiser, Scharnhorst.",
-		illustrator2 = -1,
-		ship_group = 40401,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "shaenhuosite",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 404010,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "shaenhuosite",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 38,
-		spine_offset = "",
-		illustrator = 32,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.58,
-					1.4,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.58,
-					1.4,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.09,
-					0.16,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.58,
-					1.4,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.08,
-							1.14,
-							-0.35
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.21,
-							2.74,
-							-1.27
-						}
-					}
-				}
-			}
-		}
-	},
-	[404011] = {
-		name = "Panther und Pflaume",
-		change_skin = "",
-		desc = "A festival, huh? Going for days without fighting is boring, not to mention not my style. C'mon, Commander, isn't there *something* exciting I can do during this \"Lunar New Year\" festival?",
-		illustrator2 = -1,
-		ship_group = 40401,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "shaenhuosite_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "127",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 404011,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "shaenhuosite_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70312,
-		voice_actor = 38,
-		spine_offset = "",
-		illustrator = 32,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.14,
-					1.14,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.08,
-					1.16,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.01,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.02,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.71,
-							1.9,
-							-0.35
 						}
 					}
 				}

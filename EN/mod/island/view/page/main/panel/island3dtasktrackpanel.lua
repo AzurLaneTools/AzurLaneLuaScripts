@@ -41,21 +41,24 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.UpdateTargetItem = function(slot0, slot1, slot2)
-	slot3 = slot0.task:GetTargetList()[slot1 + 1]
+	slot4 = slot0.task:GetTargetList()[slot1 + 1]:IsFinish()
 
-	setText(slot2:Find("content/Text"), HXSet.hxLan(slot3:getConfig("name")))
-	setText(slot2:Find("content/num"), string.format("(%d/%d)", slot3:GetProgress(), slot3:GetTargetNum()))
+	setActive(slot2:Find("status/unfinish"), not slot4)
+	setActive(slot2:Find("status/finished"), slot4)
 
-	slot6 = slot3:IsFinish()
-
-	setActive(slot2:Find("status/unfinish"), not slot6)
-	setActive(slot2:Find("status/finished"), slot6)
-
-	if slot6 then
+	if slot4 then
 		slot2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_finish_in")
 	end
 
-	GetOrAddComponent(slot2:Find("content"), "CanvasGroup").alpha = slot6 and 0.5 or 1
+	GetOrAddComponent(slot2:Find("content"), "CanvasGroup").alpha = slot4 and 0.5 or 1
+
+	if slot0:GetMapTip(tonumber(slot3:GetTrackParma())) and not slot4 then
+		setText(slot2:Find("content/Text"), slot5)
+		setText(slot2:Find("content/num"), "")
+	else
+		setText(slot2:Find("content/Text"), HXSet.hxLan(slot3:getConfig("name")))
+		setText(slot2:Find("content/num"), string.format("(%d/%d)", slot3:GetProgress(), slot3:GetTargetNum()))
+	end
 end
 
 slot0.Show = function(slot0)
@@ -71,6 +74,10 @@ end
 
 slot0.UpdateTask = function(slot0)
 	slot0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+	if not slot0.task then
+		return
+	end
 
 	GetImageSpriteFromAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[slot0.task:GetShowType()], slot0.iconTF)
 	setText(slot0.nameTF, HXSet.hxLan(slot0.task:GetName()))
@@ -89,7 +96,11 @@ slot0.UpdateTarget = function(slot0)
 	setActive(slot0.unFinishTF, not slot1)
 
 	if slot1 then
-		setText(slot0.finishedTF:Find("Text"), HXSet.hxLan(slot0.task:GetFinishedDesc()))
+		if slot0:GetMapTip(tonumber(slot0.task:GetTraceParam())) then
+			setText(slot0.finishedTF:Find("Text"), slot2)
+		else
+			setText(slot0.finishedTF:Find("Text"), HXSet.hxLan(slot0.task:GetFinishedDesc()))
+		end
 	else
 		slot0.targetUIList:align(#slot0.task:GetTargetList())
 	end
@@ -97,6 +108,10 @@ end
 
 slot0.UpdateProgress = function(slot0)
 	slot0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+	if not slot0.task then
+		return
+	end
 
 	slot0:UpdateTarget()
 	slot0:TrackUI()
@@ -113,15 +128,27 @@ slot0.TrackUI = function(slot0)
 				id = slot2
 			})
 		else
-			slot0.targetUIList:eachActive(function (slot0, slot1)
-				if not uv0.task:GetTargetList()[slot0 + 1]:IsFinish() then
-					setText(slot1:Find("content/Text"), i18n("island_word_go") .. pg.island_map[uv1].name)
-					setText(slot1:Find("content/num"), "")
-				end
-			end)
 			slot0:UnTrackUI()
 		end
+	else
+		slot0:UnTrackUI()
 	end
+end
+
+slot0.GetMapTip = function(slot0, slot1)
+	if not slot1 then
+		return nil
+	end
+
+	if not pg.island_world_objects[slot1] then
+		return nil
+	end
+
+	if getProxy(IslandProxy):GetIsland():GetMapId() == slot2.mapId then
+		return nil
+	end
+
+	return i18n("island_word_go") .. pg.island_map[slot2.mapId].name
 end
 
 slot0.UnTrackUI = function(slot0)
@@ -144,6 +171,11 @@ slot0.SetUnlock = function(slot0)
 	if slot0.task then
 		slot0:UpdateTask()
 	end
+end
+
+slot0.Hide = function(slot0)
+	uv0.super.Hide(slot0)
+	slot0:UnTrackUI()
 end
 
 slot0.OnDestroy = function(slot0)

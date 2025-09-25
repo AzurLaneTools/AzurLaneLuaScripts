@@ -134,6 +134,38 @@ pg.dorm3d_collection_template = setmetatable({
 			1127,
 			1128
 		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
+			1209,
+			1210,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1216,
+			1217,
+			1218,
+			1219,
+			1220,
+			1221,
+			1222,
+			1223,
+			1224,
+			1225,
+			1226,
+			1227,
+			1228,
+			1229,
+			1230
+		},
 		[16] = {
 			1601,
 			1602,
@@ -269,6 +301,36 @@ pg.dorm3d_collection_template = setmetatable({
 		1126,
 		1127,
 		1128,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
 		1601,
 		1602,
 		1603,
@@ -2877,6 +2939,636 @@ she finds a better version of herself than the day before.]],
 			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
 		}
 	},
+	[1201] = {
+		name = "Porcelain",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "White porcelain with intricate patterns on display. It's pristine and shiny, proving how well Taihou cares for it.",
+		text = "dorm3d_dafeng_bed",
+		id = 1201,
+		icon = "3Ddrom_dafeng_item1",
+		model = {
+			"fbx/litmap_01/pre_db_ceram23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram23/vfx_wupintishi01"
+		}
+	},
+	[1202] = {
+		name = "After-School Fun",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "A uniform with an armband and a skirt. It's a nice change of style from her usual red dress.",
+		text = "dorm3d_dafeng_bed",
+		id = 1202,
+		icon = "3Ddrom_dafeng_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_cloth11"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cloth11/vfx_wupintishi01"
+		}
+	},
+	[1203] = {
+		name = "Forbidden Feast",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "An elegant red slip dress made of soft, light fabric. Taihou wears it to parties and other special occasions.",
+		text = "dorm3d_dafeng_bed",
+		id = 1203,
+		icon = "3Ddrom_dafeng_item3",
+		model = {
+			"fbx/litmap_01/pre_db_cloth10"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth10/vfx_wupintishi01"
+		}
+	},
+	[1204] = {
+		name = "Wooden Storage Box",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A box containing her treasure collection. It's full of memories of her beloved.",
+		text = "dorm3d_dafeng_bed",
+		id = 1204,
+		icon = "3Ddrom_dafeng_item4",
+		model = {
+			"fbx/litmap_01/pre_db_woodbox03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_woodbox03/vfx_wupintishi01"
+		}
+	},
+	[1205] = {
+		name = "Small Bonsai",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A beautifully maintained bonsai with glossy and vibrant leaves. You can tell at a glance how much care it's given.",
+		text = "dorm3d_dafeng_chair",
+		id = 1205,
+		icon = "3Ddrom_dafeng_item5",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai20"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai20/vfx_wupintishi01"
+		}
+	},
+	[1206] = {
+		name = "Phoenix Hairpin",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A hair ornament with a phoenix motif is left on her vanity. It's the same as the one she always wears. She clearly likes it enough to have multiple.",
+		text = "dorm3d_dafeng_table",
+		id = 1206,
+		icon = "3Ddrom_dafeng_item6",
+		model = {
+			"fbx/litmap_01/pre_db_headgear02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear02/vfx_wupintishi01"
+		}
+	},
+	[1207] = {
+		name = "Geta Clogs",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A pair of traditional geta, with patterns carved into their wooden soles. When worn on a stroll, they make one's footsteps all the more musical.",
+		text = "dorm3d_dafeng_table",
+		id = 1207,
+		icon = "3Ddrom_dafeng_item7",
+		model = {
+			"fbx/litmap_01/pre_db_shoe02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_shoe02/vfx_wupintishi01"
+		}
+	},
+	[1208] = {
+		name = "Book Collection",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "Subjects in her collection range from literature to military affairs. Some of these books also seem a little... odd?",
+		text = "dorm3d_dafeng_bed",
+		id = 1208,
+		icon = "3Ddrom_dafeng_item8",
+		model = {
+			"fbx/litmap_01/pre_db_book19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_book19/vfx_wupintishi01"
+		}
+	},
+	[1209] = {
+		name = "Incense Burner",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "The incense burner emits a floral scent. Before bedtime, she likes to fill her room with tranquil aromas.",
+		text = "dorm3d_dafeng_chair",
+		id = 1209,
+		icon = "3Ddrom_dafeng_item9",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration17"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration17/vfx_wupintishi01"
+		}
+	},
+	[1210] = {
+		name = "Cat Tree",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A cat tree with a cute design, complete with a toy ball on top. Is she thinking of getting a cat, maybe?",
+		text = "dorm3d_dafeng_chair",
+		id = 1210,
+		icon = "3Ddrom_dafeng_item10",
+		model = {
+			"fbx/litmap_01/pre_db_decoration04"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration04/vfx_wupintishi01"
+		}
+	},
+	[1211] = {
+		name = "Aromatherapy Candle",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "The candle serves as both illumination and decoration. Taihou has also mixed in some essential oils, adding a gentle lavender scent when it burns.",
+		text = "dorm3d_dafeng_bed",
+		id = 1211,
+		icon = "3Ddrom_dafeng_item11",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration19/vfx_wupintishi01"
+		}
+	},
+	[1212] = {
+		name = "Vivacious Flowers",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A vibrant arrangement of brightly colored flowers sits by the window. Taihou regularly takes care of the collection, maintaining its freshness.",
+		text = "dorm3d_dafeng_chair",
+		id = 1212,
+		icon = "3Ddrom_dafeng_item12",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot16"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot16/vfx_wupintishi01"
+		}
+	},
+	[1213] = {
+		name = "Cat Bowls",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "Brand-new cat bowls divided by color – white for water, black for food.",
+		text = "dorm3d_dafeng_chair",
+		id = 1213,
+		icon = "3Ddrom_dafeng_item13",
+		model = {
+			"fbx/litmap_01/pre_db_tableware44"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware44/vfx_wupintishi01"
+		}
+	},
+	[1214] = {
+		name = "Fruit Bowl",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A bowl of fresh, delicious-looking fruit sits on the table. She always keeps it filled for her guests' convenience.",
+		text = "dorm3d_dafeng_table",
+		id = 1214,
+		icon = "3Ddrom_dafeng_item14",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47/vfx_wupintishi01"
+		}
+	},
+	[1215] = {
+		name = "Full-Size Fridge",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A large refrigerator full of fruit, vegetables, sweets, and drinks. Taihou frequently replaces the contents to suit her whims.",
+		text = "dorm3d_dafeng_table",
+		id = 1215,
+		icon = "3Ddrom_dafeng_item15",
+		model = {
+			"fbx/litmap_01/pre_db_appliances08"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances08/vfx_wupintishi01"
+		}
+	},
+	[1216] = {
+		name = "Ceramic Knife",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A high-quality ceramic kitchen knife. Taihou never fails to use it when making heartfelt lunches for a certain someone.",
+		text = "dorm3d_dafeng_table",
+		id = 1216,
+		icon = "3Ddrom_dafeng_item16",
+		model = {
+			"no_bake/pre_db_kitchenware25"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake/pre_db_kitchenware25/vfx_wupintishi01"
+		}
+	},
+	[1217] = {
+		name = "Kettle",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "She often uses this kettle to make tea. Apparently, she accidentally burned herself a lot when she first started.",
+		text = "dorm3d_dafeng_table",
+		id = 1217,
+		icon = "3Ddrom_dafeng_item17",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware19/vfx_wupintishi01"
+		}
+	},
+	[1218] = {
+		name = "Temari Ball",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "An exquisite temari ball, but it looks like it's only for decoration. She probably hasn't played with it in a long time – you could ask her to teach you how to play.",
+		text = "dorm3d_dafeng_chair",
+		id = 1218,
+		icon = "3Ddrom_dafeng_item18",
+		model = {
+			"fbx/litmap_01/night/pre_db_toy15"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_toy15/vfx_wupintishi01"
+		}
+	},
+	[1219] = {
+		name = "Cushioned Seat",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A dark, round cushion. It's comfortable, but so low that it's clearly meant to be used on a tatami floor.",
+		text = "dorm3d_dafeng_chair",
+		id = 1219,
+		icon = "3Ddrom_dafeng_item19",
+		model = {
+			"fbx/litmap_01/pre_db_chair28"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair28/vfx_wupintishi01"
+		}
+	},
+	[1220] = {
+		name = "Tuna Sushi",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "Fresh sushi with fatty tuna. It's part of a special meal set aside for a loved one. She has more kinds on offer, too.",
+		text = "dorm3d_dafeng_table",
+		id = 1220,
+		icon = "3Ddrom_dafeng_item20",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22/vfx_wupintishi01"
+		}
+	},
+	[1221] = {
+		name = "Loving Lunch",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "A luxurious bento box with nine compartments. The selection of foods is diverse, creating an effective nutritional balance and flavors that you'll never forget.",
+		text = "dorm3d_dafeng_table",
+		id = 1221,
+		icon = "3Ddrom_dafeng_item21",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23/vfx_wupintishi01"
+		}
+	},
+	[1222] = {
+		name = "Wooden Cabinet",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "This small wooden cabinet by the entrance neatly displays her various odds and ends.",
+		text = "dorm3d_dafeng_table",
+		id = 1222,
+		icon = "3Ddrom_dafeng_item22",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard29"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard29/vfx_wupintishi01"
+		}
+	},
+	[1223] = {
+		name = "Kitchen Set",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A tool set comprising a frying pan, ladle, spatula, and more. All of them are clean and hang neatly on the wall.",
+		text = "dorm3d_dafeng_table",
+		id = 1223,
+		icon = "3Ddrom_dafeng_item23",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware21"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware21/vfx_wupintishi01"
+		}
+	},
+	[1224] = {
+		name = "Paper Fan",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A traditional red Sakuran fan, illustrated with wild geese and white cherry blossoms. Taihou made it herself.",
+		text = "dorm3d_dafeng_bed",
+		id = 1224,
+		icon = "3Ddrom_dafeng_item24",
+		model = {
+			"fbx/litmap_01/pre_db_decoration16b"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration16b/vfx_wupintishi01"
+		}
+	},
+	[1225] = {
+		name = "Calligraphy Desk",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A simple desk with calligraphy paper on top. Sometimes, she writes or paints here.",
+		text = "dorm3d_dafeng_bed",
+		id = 1225,
+		icon = "3Ddrom_dafeng_item25",
+		model = {
+			"fbx/litmap_01/pre_db_table19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table19/vfx_wupintishi01"
+		}
+	},
+	[1226] = {
+		name = "Decorative Flowers",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A display of flowers with subtle colors and a pleasingly uneven arrangement.",
+		text = "dorm3d_dafeng_chair",
+		id = 1226,
+		icon = "3Ddrom_dafeng_item26",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot19/vfx_wupintishi01"
+		}
+	},
+	[1227] = {
+		name = "Range Hood",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A practical, efficient, and quiet range hood is placed over the stove.",
+		text = "dorm3d_dafeng_table",
+		id = 1227,
+		icon = "3Ddrom_dafeng_item27",
+		model = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01/vfx_wupintishi01"
+		}
+	},
+	[1228] = {
+		name = "Framed Fan",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A fan is placed in a frame for decoration. It hangs in a conspicuous place, immediately catching the eye.",
+		text = "dorm3d_dafeng_chair",
+		id = 1228,
+		icon = "3Ddrom_dafeng_item28",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27/vfx_wupintishi01"
+		}
+	},
+	[1229] = {
+		name = "Kitty Wall Scroll",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A piece of cat artwork is prominently displayed. The confident brush strokes give a glimpse of the artist's love for cats.",
+		text = "dorm3d_dafeng_chair",
+		id = 1229,
+		icon = "3Ddrom_dafeng_item29",
+		model = {
+			"fbx/litmap_01/pre_db_wallscrolls03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_wallscrolls03/vfx_wupintishi01"
+		}
+	},
+	[1230] = {
+		name = "Ceramic Cups",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "A collection of exquisite ceramic cups with fancy patterns. Their smooth surfaces are inviting and pleasant to the touch.",
+		text = "dorm3d_dafeng_table",
+		id = 1230,
+		icon = "3Ddrom_dafeng_item30",
+		model = {
+			"fbx/litmap_01/pre_db_ceram18"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram18/vfx_wupintishi01"
+		}
+	},
 	[1601] = {
 		name = "Menu",
 		award = 0,
@@ -2889,11 +3581,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_billboard16_2"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
 		}
@@ -2910,11 +3598,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_billboard13"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
 		}
@@ -2931,11 +3615,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_desklamp06_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
 		}
@@ -2952,11 +3632,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_electrical19"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
 		}
@@ -2973,11 +3649,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_drink03_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
 		}
@@ -2994,11 +3666,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_food07"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
 		}
@@ -3015,11 +3683,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_frame23_group"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
 		}
@@ -3036,11 +3700,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_tableware30_4"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
 		}
@@ -3057,11 +3717,7 @@ she finds a better version of herself than the day before.]],
 		model = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}

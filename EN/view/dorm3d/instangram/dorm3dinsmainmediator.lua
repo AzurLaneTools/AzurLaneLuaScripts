@@ -19,7 +19,7 @@ slot0.register = function(slot0)
 			mediator = Dorm3dChatMediator,
 			data = {
 				chatId = slot1,
-				tf = uv0.viewComponent._tf
+				groupName = uv0.viewComponent:getGroupName()
 			},
 			onRemoved = function ()
 				uv0.viewComponent:OpenMain()
@@ -32,7 +32,7 @@ slot0.register = function(slot0)
 			mediator = Dorm3dInstagramMediator,
 			data = {
 				apartmentGroupId = slot1,
-				tf = uv0.viewComponent._tf
+				groupName = uv0.viewComponent:getGroupName()
 			},
 			onRemoved = function ()
 				uv0.viewComponent:OpenMain()
@@ -45,7 +45,7 @@ slot0.register = function(slot0)
 			mediator = Dorm3dInsPhoneMediator,
 			data = {
 				groupId = slot1,
-				tf = uv0.viewComponent._tf
+				groupName = uv0.viewComponent:getGroupName()
 			},
 			onRemoved = function ()
 				uv0.viewComponent:OpenMain()

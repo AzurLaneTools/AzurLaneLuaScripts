@@ -256,7 +256,7 @@ slot0.ShowPanel = function(slot0, slot1, slot2, slot3, slot4)
 		uv3.enabled = false
 		uv3.sprite = nil
 
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.banner, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.banner, uv0._tf)
 		setActive(uv0.banner, false)
 		setActive(uv4, false)
 		uv0:emit(LevelUIConst.UN_FROZEN)

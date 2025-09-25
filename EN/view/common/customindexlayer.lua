@@ -314,7 +314,7 @@ slot0.willExit = function(slot0)
 
 	slot0.updateList = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.Clone2Full = function(slot0, slot1)

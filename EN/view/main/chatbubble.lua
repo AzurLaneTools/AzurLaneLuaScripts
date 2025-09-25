@@ -51,11 +51,7 @@ slot0.update = function(slot0, slot1)
 	slot0.timeTF.text = getOfflineTimeStamp(slot1.timestamp)
 
 	if slot0.dutyTF then
-		setActive(slot0.dutyTF, slot3.duty)
-
-		if slot3.duty then
-			setImageSprite(slot0.dutyTF, GetSpriteFromAtlas("dutyicon", slot3.duty), true)
-		end
+		slot0:UpdateDuty(slot3)
 	end
 
 	for slot14 = slot0.stars.childCount, Ship.New({
@@ -69,7 +65,7 @@ slot0.update = function(slot0, slot1)
 	end
 
 	if slot0.channel then
-		setImageSprite(slot0.channel, GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type) .. "_1920"), true)
+		slot0:UpdateChannel(slot1)
 	end
 
 	slot0.headTF.color = Color.New(1, 1, 1, 0)
@@ -124,7 +120,7 @@ slot0.update = function(slot0, slot1)
 			end
 		end)
 	else
-		slot12 = AttireFrame.attireFrameRes(slot3, slot2, AttireConst.TYPE_CHAT_FRAME, slot5)
+		slot12 = slot0:GetAttireFrameRes(slot3, slot2, slot5)
 		slot13 = PoolMgr.GetInstance()
 
 		slot13:GetPrefab("ChatFrame/" .. slot12, slot12, true, function (slot0)
@@ -192,6 +188,22 @@ slot0.update = function(slot0, slot1)
 	end
 
 	setActive(slot0.face.parent, slot1.emojiId)
+end
+
+slot0.GetAttireFrameRes = function(slot0, slot1, slot2, slot3)
+	return AttireFrame.attireFrameRes(slot1, slot2, AttireConst.TYPE_CHAT_FRAME, slot3)
+end
+
+slot0.UpdateDuty = function(slot0, slot1)
+	setActive(slot0.dutyTF, slot1.duty)
+
+	if slot1.duty then
+		setImageSprite(slot0.dutyTF, GetSpriteFromAtlas("dutyicon", slot1.duty), true)
+	end
+end
+
+slot0.UpdateChannel = function(slot0, slot1)
+	setImageSprite(slot0.channel, GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type) .. "_1920"), true)
 end
 
 slot0.dispose = function(slot0)

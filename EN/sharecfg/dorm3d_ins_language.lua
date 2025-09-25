@@ -175,6 +175,56 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_3_2_1",
 		is_active = "0"
 	},
+	dafeng_1 = {
+		value = "Playing hide-and-seek with the Commander~",
+		key = "dafeng_1",
+		is_active = "0"
+	},
+	dafeng_1_1 = {
+		value = "Is this where you're hiding?",
+		key = "dafeng_1_1",
+		is_active = "0"
+	},
+	dafeng_1_1_1 = {
+		value = "That's right! Try and catch me♡",
+		key = "dafeng_1_1_1",
+		is_active = "0"
+	},
+	dafeng_1_2 = {
+		value = "Where even is this?",
+		key = "dafeng_1_2",
+		is_active = "0"
+	},
+	dafeng_1_2_1 = {
+		value = "You still don't know my room all that well, do you? I'll have to give you a thorough tour...",
+		key = "dafeng_1_2_1",
+		is_active = "0"
+	},
+	dafeng_2 = {
+		value = "I have to record every little moment we spend together, Commander~",
+		key = "dafeng_2",
+		is_active = "0"
+	},
+	dafeng_2_1 = {
+		value = "Did you end up recording the whole room?",
+		key = "dafeng_2_1",
+		is_active = "0"
+	},
+	dafeng_2_1_1 = {
+		value = "I'm planning to film your whole commute to work next!",
+		key = "dafeng_2_1_1",
+		is_active = "0"
+	},
+	dafeng_2_2 = {
+		value = "What are you recording this for?",
+		key = "dafeng_2_2",
+		is_active = "0"
+	},
+	dafeng_2_2_1 = {
+		value = "Taihou and Her Commander: A Day of Love. These are important materials for my video!",
+		key = "dafeng_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -210,6 +260,16 @@ pg.dorm3d_ins_language = {
 		"xinzexi_3_1",
 		"xinzexi_3_1_1",
 		"xinzexi_3_2",
-		"xinzexi_3_2_1"
+		"xinzexi_3_2_1",
+		"dafeng_1",
+		"dafeng_1_1",
+		"dafeng_1_1_1",
+		"dafeng_1_2",
+		"dafeng_1_2_1",
+		"dafeng_2",
+		"dafeng_2_1",
+		"dafeng_2_1_1",
+		"dafeng_2_2",
+		"dafeng_2_2_1"
 	}
 }

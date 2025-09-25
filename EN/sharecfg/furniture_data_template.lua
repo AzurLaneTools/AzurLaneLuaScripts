@@ -236,10 +236,12 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			100073,
 			100074,
 			100075,
 			100076,
+			100078,
 			200001,
 			200002,
 			200003,
@@ -6040,10 +6042,12 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			100073,
 			100074,
 			100075,
 			100076,
+			100078,
 			31101,
 			54104,
 			54105
@@ -7251,9 +7255,11 @@ pg.furniture_data_template = setmetatable({
 			100062,
 			100065,
 			100067,
+			100068,
 			100074,
 			100075,
-			100076
+			100076,
+			100078
 		},
 		[2] = {
 			120,
@@ -10550,10 +10556,12 @@ pg.furniture_data_template = setmetatable({
 		100065,
 		100066,
 		100067,
+		100068,
 		100073,
 		100074,
 		100075,
 		100076,
+		100078,
 		200001,
 		200002,
 		200003,
@@ -26566,6 +26574,53 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[100068] = {
+		can_rotate = 0,
+		name = "The Two Heads",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "touhaobaowuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "It seems the treasure has two owners. Neither of them looks like someone to mess with!",
+		advice = 0,
+		id = 100068,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"touhaobaowu",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100073] = {
 		can_rotate = 0,
 		name = "Manjuu Surfboard",
@@ -26828,6 +26883,57 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					nil,
 					"houzhai_paopao",
 					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100078] = {
+		can_rotate = 0,
+		name = "召唤法杖",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "zhaohuanfazhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "自然的精灵，于此处现身吧~",
+		advice = 0,
+		id = 100078,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhaohuanfazhang",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
 				}
 			}
 		},

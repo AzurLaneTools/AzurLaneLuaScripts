@@ -30,8 +30,17 @@ slot0.OnLoaded = function(slot0)
 	slot0.skillInfoBtn = slot0:findTF("adapt/main_panel/skill/click")
 	slot0.breakOutList = UIItemList.New(slot0:findTF("adapt/main_panel/level/starts"), slot0:findTF("adapt/main_panel/level/starts/tpl"))
 	slot0.statusPanel = IslandShipStatusPanel.New(slot0:findTF("adapt/main_panel/status"), slot0:findTF("adapt/main_panel/status_empty"))
+	slot0.followerBtn = slot0:findTF("adapt/follower")
+	slot0.followerBtnInvite = slot0:findTF("adapt/follower/1")
+	slot0.followerBtnCancel = slot0:findTF("adapt/follower/2")
+	slot0.followerBtnDisable = slot0:findTF("adapt/follower/3")
 
 	setText(slot0.energyLabel, i18n("island_ship_energy"))
+	setText(slot0.followerBtnInvite:Find("Text"), i18n("island_follow_btn_State_usable"))
+	setText(slot0.followerBtnCancel:Find("Text"), i18n("island_follow_btn_State_cancel"))
+	setText(slot0.followerBtnDisable:Find("Text"), i18n("island_follow_btn_State_disable"))
+	setActive(slot0.followerBtnInvite:Find("Text"), false)
+	setActive(slot0.followerBtnInvite:Find("Text"), true)
 end
 
 slot0.OnInit = function(slot0)
@@ -62,6 +71,18 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.attrUpgradeBtn, function ()
 		uv0:OpenPage(IslandShipAttrUpgradePage, uv0.ship)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.followerBtn, function ()
+		if getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(uv0.ship.id) then
+			uv0:ShowMsgBox({
+				content = i18n("island_cancel_follow_tip"),
+				onYes = function ()
+					uv0:emit(IslandMediator.DEL_FOLLOWER, uv0.ship.id)
+				end
+			})
+		else
+			uv0:emit(IslandMediator.ADD_FOLLOWER, uv0.ship.id)
+		end
+	end, SFX_PANEL)
 	onButton(slot0, slot0.skillInfoBtn, function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_SHIP_SKILL,
@@ -76,8 +97,21 @@ slot0.OnShow = function(slot0, slot1)
 	end
 
 	slot0:UpdateMainView(slot2)
+	slot0:UpdateFollowBtn(slot2)
 
 	slot0.ship = slot2
+end
+
+slot0.UpdateFollowBtn = function(slot0, slot1)
+	slot5 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():CanFollowPlayer(slot1.id)
+
+	setActive(slot0.followerBtnInvite, not getProxy(IslandProxy):GetIsland():GetFollowerAgency():Following(slot1.id) and slot5)
+	setActive(slot0.followerBtnCancel, slot3)
+
+	slot6 = not slot5 and not slot3
+
+	setActive(slot0.followerBtnDisable, slot6)
+	setButtonEnabled(slot0.followerBtn, not slot6)
 end
 
 slot0.AddListeners = function(slot0)
@@ -85,6 +119,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SHIP_BREAKOUT_DONE, slot0.OnBreakOut)
 	slot0:AddListener(GAME.ISLNAD_SHIP_ATTR_UPGRADE_DONE, slot0.OnAttrUpgrade)
 	slot0:AddListener(GAME.ISLAND_SHIP_SKILL_UPGRADE_DONE, slot0.OnSkillUpgrade)
+	slot0:AddListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowOpDone)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -92,6 +127,11 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SHIP_BREAKOUT_DONE, slot0.OnBreakOut)
 	slot0:RemoveListener(GAME.ISLNAD_SHIP_ATTR_UPGRADE_DONE, slot0.OnAttrUpgrade)
 	slot0:RemoveListener(GAME.ISLAND_SHIP_SKILL_UPGRADE_DONE, slot0.OnSkillUpgrade)
+	slot0:RemoveListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowOpDone)
+end
+
+slot0.OnFollowOpDone = function(slot0)
+	slot0:UpdateFollowBtn(slot0.ship)
 end
 
 slot0.OnAttrUpgrade = function(slot0)

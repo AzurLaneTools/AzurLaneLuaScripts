@@ -160,7 +160,7 @@ slot1 = {
 	{
 		id = "ISLAND_GUIDE_1",
 		condition = function ()
-			return not LOCK_ISLAND_GUIDE and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "IslandMediator")
+			return not LOCK_ISLAND_DISPLAY and not LOCK_ISLAND_GUIDE and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "IslandMediator")
 		end,
 		args = function ()
 			return {}

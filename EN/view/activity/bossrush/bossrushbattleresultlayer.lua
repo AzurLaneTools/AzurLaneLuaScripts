@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "BattleResultBossRushUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "BattleScene"
+end
+
 slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
@@ -45,9 +49,9 @@ slot2 = {
 }
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
-		lockGlobalBlur = true,
-		groupName = LayerWeightConst.GROUP_COMBAT
+	slot0:BlurPanel(slot0._tf, {
+		staticBlur = true,
+		lockGlobalBlur = true
 	})
 
 	slot1 = slot0.contextData.seriesData
@@ -436,7 +440,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0.loader:Clear()
 end
 

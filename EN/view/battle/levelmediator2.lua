@@ -511,8 +511,7 @@ slot0.register = function(slot0)
 					getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.GOLD_MAX)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
-						onYes = slot0,
-						weight = LayerWeightConst.SECOND_LAYER
+						onYes = slot0
 					})
 				else
 					slot0()
@@ -1313,7 +1312,6 @@ slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							yesText = "text_go",
 							content = i18n("levelScene_remaster_story_tip", pg.memory_group[slot6].title),
-							weight = LayerWeightConst.SECOND_LAYER,
 							onYes = function ()
 								uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
 									page = WorldMediaCollectionScene.PAGE_MEMORTY,
@@ -1541,7 +1539,6 @@ slot0.OnEventUpdate = function(slot0, slot1)
 				modal = false,
 				hideNo = true,
 				content = i18n("event_special_update", pg.collection_template[slot4] and pg.collection_template[slot4].title or ""),
-				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = slot1,
 				onNo = slot1
 			})

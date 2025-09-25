@@ -56,7 +56,7 @@ slot0.register = function(slot0)
 			mediator = BuildShipDetailMediator,
 			viewComponent = BuildShipDetailLayer,
 			data = {
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+				groupName = uv0.viewComponent:getGroupName()
 			}
 		}))
 	end)
@@ -97,7 +97,7 @@ slot0.register = function(slot0)
 			mediator = PrayPoolMediator,
 			viewComponent = PrayPoolScene,
 			data = {
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+				groupName = uv0.viewComponent:getGroupName()
 			}
 		}))
 	end)

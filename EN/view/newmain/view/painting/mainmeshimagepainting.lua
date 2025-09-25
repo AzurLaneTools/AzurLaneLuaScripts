@@ -359,10 +359,6 @@ slot0.GetOffset = function(slot0)
 	return MainPaintingView.MESH_POSITION_X_OFFSET
 end
 
-slot0.OnPuase = function(slot0)
-	slot0:StopBreath()
-end
-
 slot0.OnResume = function(slot0)
 	checkCullResume(slot0.container:Find("fitter"):GetChild(0))
 	slot0:Breath()
@@ -385,7 +381,8 @@ slot0.OnUnload = function(slot0)
 	end
 end
 
-slot0.OnPuase = function(slot0)
+slot0.OnPause = function(slot0)
+	slot0:StopBreath()
 	slot0:ClearEffect()
 end
 

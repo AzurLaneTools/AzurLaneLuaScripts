@@ -262,7 +262,7 @@ slot0.showNamedPanel = function(slot0)
 end
 
 slot0.closeNamedPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.namedPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.namedPanel, slot0._tf)
 	setActive(slot0.namedPanel, false)
 	slot0.qChar:SetParent(slot0.propPanel)
 end

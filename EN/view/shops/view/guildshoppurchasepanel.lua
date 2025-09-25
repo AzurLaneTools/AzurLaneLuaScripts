@@ -170,7 +170,7 @@ end
 
 slot0.Hide = function(slot0)
 	if slot0:isShowing() then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	end
 
 	slot1 = slot0.list

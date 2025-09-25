@@ -110,7 +110,7 @@ slot0.CheckFleetShipState = function(slot0)
 		slot8 = "guild_boss_formation_exist_invaild_ship"
 		slot7 = i18n(slot8)
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = slot7
 		})

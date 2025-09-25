@@ -1,11 +1,19 @@
 slot0 = class("IslandBasePage", import("view.base.BaseSubView"))
 
 slot0.Ctor = function(slot0, slot1, slot2)
-	slot0.islandScene = slot1
-
 	uv0.super.Ctor(slot0, slot2, slot1.event, slot1.contextData)
+	slot0:RegisterView(slot1)
 
+	slot0.islandScene = slot1
 	slot0.__callbacks__ = {}
+	slot0.isBlur = false
+end
+
+slot0.Loaded = function(slot0, slot1)
+	uv0.super.Loaded(slot0, slot1)
+
+	slot0.islandUIController = GetOrAddComponent(slot1, typeof(IslandUIController))
+	slot0.cg = slot1:GetComponent(typeof(CanvasGroup))
 end
 
 slot0.emit = function(slot0, ...)
@@ -30,40 +38,52 @@ end
 
 slot0.Show = function(slot0, ...)
 	slot0:AddListeners()
-	uv0.super.Show(slot0)
+	slot0.islandUIController:Show(true)
 	slot0:OnShow(...)
 end
 
-slot0.Hide = function(slot0)
-	slot0:ClosePage(slot0)
-	slot0:RemoveListeners()
-	slot0:OnHide()
+slot0.Hide = function(slot0, slot1, slot2)
+	slot4 = {}
+
+	if defaultValue(slot1, true) then
+		table.insert(slot4, function (slot0)
+			uv0.islandUIController:Hide(true, slot0)
+		end)
+	end
+
+	seriesAsync(slot4, function ()
+		uv0:RemoveListeners()
+		uv0:OnHide()
+		uv0:ClosePage(uv0)
+
+		if not uv1 then
+			uv0:OnExit()
+		end
+	end)
 end
 
 slot0.Enable = function(slot0)
-	uv0.super.Show(slot0)
+	slot0.islandUIController:Show(true)
 
 	slot0.isVisible = true
 
 	slot0:OnEnable()
 end
 
-slot0.Disable = function(slot0)
-	uv0.super.Hide(slot0)
+slot0.Disable = function(slot0, slot1)
+	slot0.islandUIController:Hide(true, slot1)
 
 	slot0.isVisible = false
 
 	slot0:OnDisable()
 end
 
-slot0.BlurPanel = function(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
-		weight = slot1 or LayerWeightConst.TOP_LAYER
-	})
+slot0.BlurPanel = function(slot0)
+	slot0.viewComponent:BlurPanel(slot0._tf)
 end
 
 slot0.UnBlurPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	slot0.viewComponent:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.ShowMsgBox = function(slot0, slot1)
@@ -109,9 +129,9 @@ slot0.RemoveListener = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.Destroy = function(slot0)
-	if slot0:GetLoaded() then
-		slot0:Hide()
+slot0.Destroy = function(slot0, slot1)
+	if slot0:isShowing() then
+		slot0:Hide(false, slot1)
 	end
 
 	slot0.__callbacks__ = {}
@@ -142,10 +162,21 @@ end
 slot0.OnHide = function(slot0)
 end
 
+slot0.OnExit = function(slot0)
+end
+
 slot0.OnEnable = function(slot0)
 end
 
 slot0.OnDisable = function(slot0)
+end
+
+slot0.GetEnterAnimationName = function(slot0)
+	return ""
+end
+
+slot0.GetExitAnimationName = function(slot0)
+	return ""
 end
 
 return slot0

@@ -24515,6 +24515,11 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
+_G.pg.base.gametip.setting_resdownload_title_island = {
+	tip = "Update Island Assets"
+}
+
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "Control Adjustment"
 }
@@ -26432,6 +26437,69 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 
 
 _G.pg.base.gametip.cruise_task_help_2508 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2510 = {
+	tip = "Complete seasonal missions <icon name=pt w=0.5 h=0.5/> during the 2025.8.1 - 2025.9.30 Cruise Mission season and obtain rewards such as <color=#854747>Dunkerque META</color> and more!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2510 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+2025/10/1 00:00 – 2025/11/30 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Dewey META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Kawakaze, "Guardian Fox, Forever Loyal."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2510 = {
 	tip = {
 		{
 			info = [[
@@ -35158,6 +35226,16 @@ _G.pg.base.gametip.main_silent_tip_4 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_5 = {
+	tip = "There are claimable resources."
+}
+
+
+_G.pg.base.gametip.main_silent_tip_6 = {
+	tip = "There are assignments available."
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "Confirm"
 }
@@ -36528,6 +36606,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 
 _G.pg.base.gametip.cruise_title_2508 = {
 	tip = "Cruise Missions S24"
+}
+
+
+_G.pg.base.gametip.cruise_title_2510 = {
+	tip = "Cruise Missions S25"
 }
 
 
@@ -38306,6 +38389,16 @@ _G.pg.base.gametip.skin_original_price = {
 }
 
 
+_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
+	tip = "You already own at least one skin ($1/$2). Purchasing this pack will give you a coupon that can be used when purchasing an unowned skin.\nIf you already own all the eligible skins, you will receive 680 Gems instead and will not receive a coupon.\nDo you want to buy this pack?"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Last_Coupon = {
+	tip = "The number of coupons you're about to purchase will exceed the number of skins they may be used on. Some coupons will be unusable.\nDo you want to purchase the coupons?"
+}
+
+
 _G.pg.base.gametip.clue_title_1 = {
 	tip = "Location Info"
 }
@@ -38641,6 +38734,21 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 }
 
 
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "岛屿名称为1-9个字，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "岛屿名称不可含特殊字符，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "岛屿名称包含敏感词汇，请重新输入"
+}
+
+
 _G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
 	tip = "Enable GPGPU"
 }
@@ -38818,6 +38926,66 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "Depth of field"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
+	tip = "Graphics"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_control = {
+	tip = "Controls"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_general = {
+	tip = "Island Settings"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_title = {
+	tip = "Profile"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
+	tip = "Tag Settings"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
+	tip = "Data Display"
+}
+
+
+_G.pg.base.gametip.island_daily_gift_invite_success = {
+	tip = "已成功发送领取补给邀请"
+}
+
+
+_G.pg.base.gametip.island_build_save_conflict = {
+	tip = "该位置已被占用"
+}
+
+
+_G.pg.base.gametip.island_build_save_success = {
+	tip = "保存成功"
+}
+
+
+_G.pg.base.gametip.island_build_capacity_tip = {
+	tip = "超过当前场景容量上限"
+}
+
+
+_G.pg.base.gametip.island_build_clean_tip = {
+	tip = "是否确认清空所有家具？"
+}
+
+
+_G.pg.base.gametip.island_build_revert_tip = {
+	tip = "是否确认还原所有改动？"
 }
 
 
@@ -39536,7 +39704,7 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1. During the campaign, if you purchase a Bunny Girl series skin rerun in this campaign <color=#92fc63>without using a coupon</color> or purchase the Bunny Girl Return Lucky Box, you may claim a <color=#92fc63>Skin Coupon (Bunny Girl)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Bunny Girl)</color> gives you a discount of 300 Gems when purchasing a Bunny Girl series skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on August 13th, 2025), it will be removed automatically."
+			info = "1. During the campaign, if you purchase a Sports Time or Race Queen series skin rerun in this campaign <color=#92fc63>without using a coupon</color> or purchase the Sports & Race Return Lucky Box, you may claim a <color=#92fc63>Skin Coupon (Sports & Race)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (Sports & Race)</color> gives you a discount of 300 Gems when purchasing a Sports Time or Race Queen series skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on October 22nd, 2025), it will be removed automatically."
 		}
 	}
 }
@@ -41002,4 +41170,24 @@ _G.pg.base.gametip.ninja_game_cant_pickup = {
 
 _G.pg.base.gametip.ninja_game_booktip = {
 	tip = "Repair buildings and recruit troops in Lord's Scroll to increase Repair Progress."
+}
+
+
+_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+	tip = "You need to unlock shared areas first."
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_table = {
+	tip = "Kitchen"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_chair = {
+	tip = "Living Room"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_bed = {
+	tip = "Bedroom"
 }

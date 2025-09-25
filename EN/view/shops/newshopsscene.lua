@@ -514,7 +514,7 @@ end
 slot0.BlurView = function(slot0)
 	slot1 = slot0.frameTr:Find("bg/blur")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.frameTr, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.frameTr, {
 		pbList = {
 			slot0.frameTr:Find("bg"),
 			slot1

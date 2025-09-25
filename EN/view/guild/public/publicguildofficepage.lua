@@ -31,7 +31,7 @@ slot0.Flush = function(slot0)
 	slot0.displays = slot0.guild:GetDonateTasks()
 
 	slot0.itemList:align(#slot0.displays)
-	pg.GuildPaintingMgr:GetInstance():Update("guild_office_blue", Vector3(-737, -171, 0))
+	pg.GuildPaintingMgr.GetInstance():Update("guild_office_blue", Vector3(-737, -171, 0))
 end
 
 slot0.UpdateDonateTask = function(slot0, slot1, slot2)
@@ -45,7 +45,7 @@ slot0.UpdateDonateTask = function(slot0, slot1, slot2)
 	onButton(slot0, slot5.commitBtn, function ()
 		slot1 = uv0.dtask:getCommitItem()
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_donate_tip", Drop.Create(slot1):getConfig("name"), slot1[3], slot3, uv0:GetResCntByAward(slot1) < slot1[3] and "#FF5C5CFF" or "#92FC63FF"),
 			onYes = function ()
 				uv0:emit(PublicGuildMainMediator.ON_COMMIT, uv1.id)

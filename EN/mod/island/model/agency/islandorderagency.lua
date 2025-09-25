@@ -49,6 +49,19 @@ slot0.InitData = function(slot0, slot1)
 			slot7:Init(slot6, true)
 		end
 	end
+
+	slot2 = ipairs
+	slot3 = slot1.speed_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot8 = slot6.speed_time
+
+		if pg.island_order_list[slot6.slot_id].type == uv0.COMMON_ORDER_TYPE then
+			slot0.slotList[slot7]:SetReduceTime(slot8)
+		elseif slot9 == uv0.SHIP_ORDER_TYPE then
+			slot0.shipSlotList[slot7]:SetReduceTime(slot8)
+		end
+	end
 end
 
 slot0.GetShipSlotList = function(slot0)
@@ -125,7 +138,15 @@ slot0.SetTendency = function(slot0, slot1)
 	slot0.tendency = slot1
 end
 
+slot0.ExpSystemIsOpen = function(slot0)
+	return slot0:GetHost():GetAblityAgency():HasAbility(IslandAblityAgency.ORDER_EXP_ID)
+end
+
 slot0.AddExp = function(slot0, slot1)
+	if not slot0:ExpSystemIsOpen() then
+		return
+	end
+
 	if slot0:IsMaxLevel() then
 		return
 	end

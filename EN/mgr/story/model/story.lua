@@ -138,7 +138,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if UnGamePlayState then
 		slot0.isPlayed = false
 	else
-		slot0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(slot0.name)
+		slot0.isPlayed = pg.NewStoryMgr.GetInstance():IsPlayed(slot0.name)
 	end
 
 	slot0.nextScriptName = nil

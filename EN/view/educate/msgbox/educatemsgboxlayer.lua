@@ -15,9 +15,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
@@ -162,7 +160,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()

@@ -80,8 +80,7 @@ end
 slot0.ResUISettings = function(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL,
-		anim = not slot0.resAnimFlag,
-		weight = LayerWeightConst.BASE_LAYER + 1
+		anim = not slot0.resAnimFlag
 	}
 end
 
@@ -113,10 +112,16 @@ slot0.init = function(slot0)
 	pg.redDotHelper = MainReddotView.New()
 	slot0.sequenceView = MainSequenceView.New()
 	slot0.awakeSequenceView = MainAwakeSequenceView.New()
+	slot4 = slot0._tf
+	slot5 = slot0.event
 	slot0.themes = {
 		[uv0.THEME_CLASSIC] = NewMainClassicTheme.New(slot0._tf, slot0.event, slot0.contextData),
-		[uv0.THEME_MELLOW] = NewMainMellowTheme.New(slot0._tf, slot0.event, slot0.contextData)
+		[uv0.THEME_MELLOW] = NewMainMellowTheme.New(slot4, slot5, slot0.contextData)
 	}
+
+	for slot4, slot5 in pairs(slot0.themes) do
+		slot5:RegisterView(slot0)
+	end
 end
 
 slot0.didEnter = function(slot0)
@@ -440,6 +445,8 @@ slot0.willExit = function(slot0)
 
 	slot0.bgView = nil
 
+	slot0:UnloadTheme()
+
 	if slot0.calibrationPage then
 		slot0.calibrationPage:Destroy()
 
@@ -488,7 +495,6 @@ slot0.willExit = function(slot0)
 
 	slot0.skinExperienceDisplayPage = nil
 
-	slot0:UnloadTheme()
 	slot0:RevertSleepTimeout()
 end
 

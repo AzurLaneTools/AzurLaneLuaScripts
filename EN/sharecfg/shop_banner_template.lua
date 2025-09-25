@@ -52,7 +52,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					9,
-					12
+					25
 				},
 				{
 					0,
@@ -64,7 +64,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					10,
-					2
+					22
 				},
 				{
 					23,
@@ -126,7 +126,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 20,
-		order = 8,
+		order = 7,
 		time = {
 			{
 				{
@@ -170,7 +170,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 21,
-		order = 7,
+		order = 6,
 		time = {
 			{
 				{
@@ -230,7 +230,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 23,
-		order = 10,
+		order = 9,
 		time = {
 			{
 				{
@@ -274,7 +274,7 @@ pg.shop_banner_template = {
 		time_lable = 1,
 		pic = "shopbanner/shop_pack_bg",
 		id = 24,
-		order = 9,
+		order = 8,
 		time = {
 			{
 				{
@@ -310,6 +310,50 @@ pg.shop_banner_template = {
 		relation_param = {
 			1,
 			99
+		}
+	},
+	[25] = {
+		name = "banner_middle",
+		type = 2,
+		time_lable = 1,
+		pic = "shopbanner/shop_pack_bg",
+		id = 25,
+		order = 10,
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			"scene charge",
+			{
+				warp = 4
+			}
+		},
+		relation_param = {
+			1,
+			9001
 		}
 	},
 	[30] = {
@@ -444,7 +488,8 @@ pg.shop_banner_template = {
 			21,
 			22,
 			23,
-			24
+			24,
+			25
 		},
 		banner_small1 = {
 			30,
@@ -470,6 +515,7 @@ pg.shop_banner_template = {
 		22,
 		23,
 		24,
+		25,
 		30,
 		31,
 		40,

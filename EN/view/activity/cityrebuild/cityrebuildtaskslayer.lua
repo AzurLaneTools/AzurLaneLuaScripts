@@ -27,7 +27,7 @@ slot0.didEnter = function(slot0)
 		uv0:GetAllAward()
 	end)
 	setText(slot0.getall:Find("Text"), i18n("other_world_task_get_all"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.ShouldShowTip = function()
@@ -36,7 +36,7 @@ slot0.ShouldShowTip = function()
 	slot3 = slot2:getConfig("config_data")
 
 	if slot2.data3 == 0 or slot4 == nil then
-		return falses
+		return false
 	end
 
 	for slot8 = 1, #slot3[slot4] do

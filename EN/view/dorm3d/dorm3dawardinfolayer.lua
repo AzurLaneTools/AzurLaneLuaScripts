@@ -24,9 +24,7 @@ slot0.init = function(slot0)
 
 	slot0.itemContainer = slot0._tf:Find("panel/content")
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)
@@ -37,6 +35,7 @@ slot0.didEnter = function(slot0)
 			updateCustomDrop(slot2, uv0.contextData.items[slot1])
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_NEW_DROP, {
+					style = "dorm",
 					drop = uv1
 				})
 			end, SFX_PANEL)
@@ -71,7 +70,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

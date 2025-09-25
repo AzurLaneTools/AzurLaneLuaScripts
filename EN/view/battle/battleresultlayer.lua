@@ -25,6 +25,10 @@ slot0.getUIName = function(slot0)
 	return "BattleResultUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "BattleScene"
+end
+
 slot0.setRivalVO = function(slot0, slot1)
 	slot0.rivalVO = slot1
 end
@@ -234,9 +238,9 @@ slot0.didEnter = function(slot0)
 	slot0._gradeUpperLeftPos = slot1.localPosition
 	slot1.localPosition = Vector3(0, 25, 0)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
-		lockGlobalBlur = true,
-		groupName = LayerWeightConst.GROUP_COMBAT
+	slot0:BlurPanel(slot0._tf, {
+		staticBlur = true,
+		lockGlobalBlur = true
 	})
 
 	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS and slot0.contextData.system ~= SYSTEM_BOSS_SINGLE and slot0.contextData.system ~= SYSTEM_BOSS_SINGLE_VARIABLE then
@@ -1100,10 +1104,6 @@ slot0.willExit = function(slot0)
 
 	LeanTween.cancel(go(slot0._tf))
 
-	if slot0._atkBG.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._blurConatiner, slot0._tf)
-	end
-
 	if slot0.paintingName then
 		retPaintingPrefab(slot0._painting, slot0.paintingName)
 	end
@@ -1112,7 +1112,7 @@ slot0.willExit = function(slot0)
 		slot0._rightTimer:Stop()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()
 	getProxy(MetaCharacterProxy):clearLastMetaSkillExpInfoList()
 

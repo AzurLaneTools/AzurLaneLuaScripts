@@ -1,6 +1,246 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[302214] = {
+		name = "Cozy Enclave",
+		change_skin = "",
+		desc = "Why don't you unwind for a bit before you start reflecting on the day's happenings? I'm sure it'll be far more efficient that way.",
+		illustrator2 = -1,
+		ship_group = 30221,
+		group_index = 4,
+		purchase_offset = "",
+		painting = "nengdai_5",
+		bg_sp = "1102",
+		skin_type = 0,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "109",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 302214,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "nengdai_5",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70519,
+		voice_actor = 147,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			20,
+			50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.22,
+					0.993,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.157,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.137,
+					1.118,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.633,
+							2.477,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302215] = {
+		name = "Hold the Ice",
+		change_skin = "",
+		desc = "Welcom...?! What are you doing here? Wait, don't leave—I was just surprised, that's all... Well, what would you like to order?",
+		illustrator2 = -1,
+		ship_group = 30221,
+		group_index = 5,
+		purchase_offset = "",
+		painting = "nengdai_7",
+		bg_sp = "1101",
+		skin_type = 0,
+		shop_type_id = 17,
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "150",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 302215,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "nengdai_7",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70645,
+		voice_actor = 147,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.02,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302216] = {
 		name = "Unwinding in the Sunshine",
 		change_skin = "",
@@ -15515,242 +15755,6 @@ pg.base.ship_skin_template_9 = {
 						{
 							-0.443,
 							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305118] = {
-		name = "Untarnished Splendor ",
-		change_skin = "",
-		desc = "I, battleship Mikasa, from now until eternity, pledge to you my undying love and devotion. May we help each other, encourage each other, and walk side-by-side on the same path. I hope to meet your expectations, as unworthy as I may be. ",
-		illustrator2 = -1,
-		ship_group = 30511,
-		group_index = 8,
-		purchase_offset = "",
-		painting = "sanli_h",
-		bg_sp = "",
-		skin_type = 1,
-		shop_type_id = 9998,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 305118,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "sanli_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 47,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand2",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.842,
-					1.358,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.809,
-					1.332,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.025,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.728,
-					1.397,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.417,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305120] = {
-		name = "Kii",
-		change_skin = "",
-		desc = "Kii-class battleship – Kii. ",
-		illustrator2 = -1,
-		ship_group = 30512,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "jiyi",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 2,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 305120,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "jiyi",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 204,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.534,
-					1.096,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.561,
-					1.088,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.002,
-					-0.002,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.526,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.385,
-							2.345,
 							0
 						}
 					}

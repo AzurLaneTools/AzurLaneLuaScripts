@@ -23,16 +23,14 @@ slot0.execute = function(slot0, slot1)
 			content = i18n("island_rename_tip"),
 			onYes = function ()
 				uv0:Send(uv1, uv2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("island_rename_confirm", slot3),
 			onYes = function ()
 				uv0:Send(uv1, uv2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end
 end
@@ -58,7 +56,9 @@ slot0.Send = function(slot0, slot1, slot2)
 			end
 
 			slot1:SetName(uv1)
-			uv0:sendNotification(GAME.ISLAND_SET_NAME_DONE)
+			uv0:sendNotification(GAME.ISLAND_SET_NAME_DONE, {
+				name = uv1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.ret] .. slot0.ret)
 		end

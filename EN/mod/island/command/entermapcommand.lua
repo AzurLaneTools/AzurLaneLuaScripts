@@ -16,6 +16,7 @@ slot0.execute = function(slot0, slot1)
 
 			slot2:GetWildCollectAgency():InitGatherData(slot0, uv1.islandId, slot1)
 			slot2:GetVisitorAgency():InitMapVisitorList(uv1.mapId)
+			slot2:GetActivityNpcAgency():InitNpcList(slot0.npc_list or {})
 			existCall(uv2)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

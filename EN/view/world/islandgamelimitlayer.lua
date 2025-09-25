@@ -55,7 +55,7 @@ slot0.prepareWindow = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

@@ -386,7 +386,142 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		382,
 		383,
 		384,
-		385
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
+		418,
+		419,
+		420,
+		421,
+		422,
+		423,
+		424,
+		425,
+		426,
+		427,
+		428,
+		429,
+		430,
+		431,
+		432,
+		433,
+		434,
+		435,
+		436,
+		437,
+		438,
+		439,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
+		458,
+		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
+		466,
+		467,
+		468,
+		469,
+		470,
+		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
+		478,
+		479,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3740,5 +3875,1175 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 385,
 		flag = 3
+	},
+	{
+		param = "You've finally returned to me, my Commander.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 386,
+		flag = 0
+	},
+	{
+		param = "I cleaned every nook and cranny of this room while you were gone.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 387,
+		flag = 0
+	},
+	{
+		param = "Now we can finally enjoy a world just for the two of us...",
+		ship_group = 30707,
+		type = 1,
+		id = 388,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What a nice layout."
+			}
+		}
+	},
+	{
+		param = "What a nice layout. I like it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 389,
+		flag = 1
+	},
+	{
+		param = "Heehee, I already know your tastes, after all.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 390,
+		flag = 1
+	},
+	{
+		param = "By turning this into your favorite place, the one you'd cherish most...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 391,
+		flag = 1
+	},
+	{
+		param = "I just know I can make you think of me all the time when you're away.",
+		ship_group = 30707,
+		type = 1,
+		id = 392,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Yeah..."
+			}
+		}
+	},
+	{
+		param = "Yeah... I do find myself wanting to stay longer.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 393,
+		flag = 2
+	},
+	{
+		param = "Use the couch, or the bed... or me... to your heart's content!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 394,
+		flag = 2
+	},
+	{
+		param = "Imbue this room with your essence!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 395,
+		flag = 2
+	},
+	{
+		param = "Heeheehee♥",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 396,
+		flag = 2
+	},
+	{
+		param = "*sigh*... Time spent waiting for you goes by so slowly.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 397,
+		flag = 0
+	},
+	{
+		param = "I want to see my Commander so badly!",
+		ship_group = 30707,
+		type = 1,
+		id = 398,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'm still not done at work yet..."
+			}
+		}
+	},
+	{
+		param = "I'm still not done at work yet... and I just visited a while ago, remember?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 399,
+		flag = 1
+	},
+	{
+		param = "Heehee, that isn't enough. I yearn to be by your side all the time!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 400,
+		flag = 1
+	},
+	{
+		param = "But you're ever so busy...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 401,
+		flag = 1
+	},
+	{
+		param = "Just coming over for a while isn't enough at all.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 402,
+		flag = 1
+	},
+	{
+		param = "From the moment you arrived until the moment you left, the clock's hand only made one little lap...",
+		ship_group = 30707,
+		type = 1,
+		id = 403,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Are you saying that was just one hour?!"
+			}
+		}
+	},
+	{
+		param = "Are you saying that was just one hour?!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 404,
+		flag = 2
+	},
+	{
+		param = "It feels like time slows down when I'm spending time with you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 405,
+		flag = 2
+	},
+	{
+		param = "Then stay with me even longer next time!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 406,
+		flag = 2
+	},
+	{
+		param = "How does two laps of the clock's hand sound?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 407,
+		flag = 2
+	},
+	{
+		param = "I'll just, umm... make time... move a little more slowly for you~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 408,
+		flag = 2
+	},
+	{
+		param = "And it should all add up to more quality time with you!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 409,
+		flag = 2
+	},
+	{
+		param = "My Commander, I made a packed lunch with love for you~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 410,
+		flag = 0
+	},
+	{
+		param = "It's a little heavy... so I'll bring it to you in person!",
+		ship_group = 30707,
+		type = 1,
+		id = 411,
+		flag = 0,
+		option = {
+			{
+				1,
+				"How much did you make?"
+			}
+		}
+	},
+	{
+		param = "How much did you make?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 412,
+		flag = 1
+	},
+	{
+		param = "I put four layers of food in the box!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 413,
+		flag = 1
+	},
+	{
+		param = "The first layer is stewed pollock roe, shrimp grilled in the shell, and cold tofu...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 414,
+		flag = 1
+	},
+	{
+		param = "The second one has rice balls, omelette, and fishcakes...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 415,
+		flag = 1
+	},
+	{
+		param = "Appetizers are in the third layer, and there's miso soup in the fourth!",
+		ship_group = 30707,
+		type = 1,
+		id = 416,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sounds like it was made with more than just love..."
+			}
+		}
+	},
+	{
+		param = "Sounds like it was made with more than just love... This might be too much luxury for one person to handle.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 417,
+		flag = 2
+	},
+	{
+		param = "Well... I'll do my best.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 418,
+		flag = 2
+	},
+	{
+		param = "Heehee, don't worry about the amount. Just eat until you're satisfied, my Commander.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 419,
+		flag = 2
+	},
+	{
+		param = "Now you won't have to eat those OTHER girls' meals...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 420,
+		flag = 2
+	},
+	{
+		param = "Especially not if, say, someone happened to buy up every other packed lunch in the vicinity.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 421,
+		flag = 2
+	},
+	{
+		param = "It won't matter! Because you won't be able to eat any but mine, heehee!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 422,
+		flag = 2
+	},
+	{
+		param = "I see you've been exploring my room again, my dear!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 423,
+		flag = 0
+	},
+	{
+		param = "Do you think you've learned some things about me?",
+		ship_group = 30707,
+		type = 1,
+		id = 424,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah, I found some interesting stuff."
+			}
+		}
+	},
+	{
+		param = "Yeah, I found some interesting stuff.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 425,
+		flag = 1
+	},
+	{
+		param = "You look like you're having a lot of fun~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 426,
+		flag = 1
+	},
+	{
+		param = "I'll let you in on a little secret – I prepared everything in this room for you!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 427,
+		flag = 1
+	},
+	{
+		param = "After all, what's mine is yours. I am yours.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 428,
+		flag = 1
+	},
+	{
+		param = "You should involve yourself in my daily life a little more~",
+		ship_group = 30707,
+		type = 1,
+		id = 429,
+		flag = 1,
+		option = {
+			{
+				2,
+				"What's this?"
+			}
+		}
+	},
+	{
+		param = "What's this? A picture of some kind of plan?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 430,
+		flag = 2
+	},
+	{
+		param = "Ah... That's a little pest control plan I put together. Don't pay it too much mind.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 431,
+		flag = 2
+	},
+	{
+		param = "I'll make sure no pest ever bothers the two of us~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 432,
+		flag = 2
+	},
+	{
+		param = "Heehee...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 433,
+		flag = 2
+	},
+	{
+		param = "You've taken a real liking to my comfy clothes, haven't you?",
+		ship_group = 30707,
+		type = 1,
+		id = 434,
+		flag = 0,
+		option = {
+			{
+				1,
+				"They suit you perfectly."
+			}
+		}
+	},
+	{
+		param = "They suit you perfectly.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 435,
+		flag = 1
+	},
+	{
+		param = "Heehee, take as many pictures as you want.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 436,
+		flag = 1
+	},
+	{
+		param = "My Commander's compliments make my heart flutter and dance...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 437,
+		flag = 1
+	},
+	{
+		param = "But really... I shouldn't be the only one in the photo...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 438,
+		flag = 1
+	},
+	{
+		param = "Let's take a picture together.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 439,
+		flag = 1
+	},
+	{
+		param = "Isn't it just so sad to see me all on my lonesome...?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 440,
+		flag = 1
+	},
+	{
+		param = "Ah... Maybe we should go to a studio that takes family photos.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 441,
+		flag = 1
+	},
+	{
+		param = "They let you borrow costumes. I'd get to play dress-up with my Commander!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 442,
+		flag = 1
+	},
+	{
+		param = "We can print out our portraits at full size, frame them, and hang them all over our living room...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 443,
+		flag = 1
+	},
+	{
+		param = "Heehee. Then, you'll never be able to escape my gaze.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 444,
+		flag = 1
+	},
+	{
+		param = "Commander! I hear it's going to get cold and snow soon.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 445,
+		flag = 0
+	},
+	{
+		param = "I have an umbrella and a coat for you, so don't forget them.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 446,
+		flag = 0
+	},
+	{
+		param = "Otherwise, I'll have to bring them to your office personally and help you warm up.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 447,
+		flag = 0
+	},
+	{
+		param = "Heehee~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 448,
+		flag = 0
+	},
+	{
+		param = "Also, I set up the kotatsu at home... just in case you're interested.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 449,
+		flag = 0
+	},
+	{
+		param = "I want to be under the kotatsu riiight now... warming up with you.",
+		ship_group = 30707,
+		type = 1,
+		id = 450,
+		flag = 0,
+		option = {
+			{
+				1,
+				"The kotatsu, huh..."
+			}
+		}
+	},
+	{
+		param = "The kotatsu, huh... Humanity's greatest invention.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 451,
+		flag = 1
+	},
+	{
+		param = "Heehee, everybody loves being warm.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 452,
+		flag = 1
+	},
+	{
+		param = "When I'm holding you in my arms, I'm too absorbed in your warmth to ever let go.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 453,
+		flag = 1
+	},
+	{
+		param = "But the kotatsu isn't all... I'll be snuggled up in your embrace, too.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 454,
+		flag = 1
+	},
+	{
+		param = "That'll make it all the harder for you to leave, won't it?",
+		ship_group = 30707,
+		type = 1,
+		id = 455,
+		flag = 1,
+		option = {
+			{
+				2,
+				"But..."
+			}
+		}
+	},
+	{
+		param = "But then I won't be able to work.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 456,
+		flag = 2
+	},
+	{
+		param = "Don't you worry about that. I've already taken care of everything.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 457,
+		flag = 2
+	},
+	{
+		param = "Just bring all your paperwork over to my room...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 458,
+		flag = 2
+	},
+	{
+		param = "And then, you can work while you sit under the kotatsu.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 459,
+		flag = 2
+	},
+	{
+		param = "I'll be with you the whole time...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 460,
+		flag = 2
+	},
+	{
+		param = "Forever and ever, never leaving your side... Heehee!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 461,
+		flag = 2
+	},
+	{
+		param = "I washed and dried your hat for you, my dear.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 462,
+		flag = 0
+	},
+	{
+		param = "It's on the hanger by the door, along with your coat.",
+		ship_group = 30707,
+		type = 1,
+		id = 463,
+		flag = 0,
+		option = {
+			{
+				1,
+				"My hat wasn't dirty, was it?"
+			}
+		}
+	},
+	{
+		param = "My hat wasn't dirty, was it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 464,
+		flag = 0
+	},
+	{
+		param = "Oh, you didn't notice?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 465,
+		flag = 1
+	},
+	{
+		param = "That's okay. You're free to feel that way. Consider it simple... disinfection, as it were.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 466,
+		flag = 1
+	},
+	{
+		param = "I just can't let any other scent but mine stick to anything on your person, be it your hat, your shirt, your pants, or anything else.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 467,
+		flag = 1
+	},
+	{
+		param = "Any other scent would be harmful to your health.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 468,
+		flag = 1
+	},
+	{
+		param = "So I've taken it upon myself to ensure that they remain clean!",
+		ship_group = 30707,
+		type = 1,
+		id = 469,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Well..."
+			}
+		}
+	},
+	{
+		param = "Well, it is clean. It's as good as new.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 470,
+		flag = 2
+	},
+	{
+		param = "By the way, have you seen that coat I lost a while back?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 471,
+		flag = 2
+	},
+	{
+		param = "Ah... I'm sorry, but I'm afraid I haven't.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 472,
+		flag = 2
+	},
+	{
+		param = "If you want to wear it right now, I can absolutely do my best to make an identical one.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 473,
+		flag = 2
+	},
+	{
+		param = "Then you won't have to worry about the one you lost anymore! Heehee...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 474,
+		flag = 2
+	},
+	{
+		param = "Aah...! My Commander, I had no idea!",
+		ship_group = 30707,
+		type = 1,
+		id = 475,
+		flag = 0,
+		option = {
+			{
+				1,
+				"About what?"
+			}
+		}
+	},
+	{
+		param = "About what?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 476,
+		flag = 1
+	},
+	{
+		param = "That you and I have been chatting for so long now!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 477,
+		flag = 1
+	},
+	{
+		param = "Time really flies, doesn't it?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 478,
+		flag = 1
+	},
+	{
+		param = "There's never any shortage of things to talk about between us.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 479,
+		flag = 1
+	},
+	{
+		param = "All thanks to your special charisma, of course. Heehee!",
+		ship_group = 30707,
+		type = 1,
+		id = 480,
+		flag = 1,
+		option = {
+			{
+				2,
+				"There's still a lot that I want to talk about with you."
+			}
+		}
+	},
+	{
+		param = "There's still a lot that I want to talk about with you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 481,
+		flag = 2
+	},
+	{
+		param = "Then let's waste no time! I'll come over right away. Tell me more and more, my Commander.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 482,
+		flag = 2
+	},
+	{
+		param = "Oh, but you'll get thirsty from all that talking, won't you?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 483,
+		flag = 2
+	},
+	{
+		param = "I'll bring tea so that you can moisten that poor, dry throat.",
+		ship_group = 30707,
+		type = 1,
+		id = 484,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Is it the matcha you made last time?"
+			}
+		}
+	},
+	{
+		param = "Is it the matcha you made last time?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 485,
+		flag = 3
+	},
+	{
+		param = "Heehee~ It's roasted green tea this time.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 486,
+		flag = 3
+	},
+	{
+		param = "It's the kind of tea you drink when you want to relax. It won't have the bitterness of matcha.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 487,
+		flag = 3
+	},
+	{
+		param = "But if you want something really sweet...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 488,
+		flag = 3
+	},
+	{
+		param = "I happen to be craving some fruity candy, myself.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 489,
+		flag = 3
+	},
+	{
+		param = "Would you like to share with me...?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 490,
+		flag = 3
+	},
+	{
+		param = "I've noticed how fond of my body you are, my dear.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 491,
+		flag = 0
+	},
+	{
+		param = "Shall I try out a pose or two for you?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 492,
+		flag = 0
+	},
+	{
+		param = "Or would you like me to give you a massage instead?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 493,
+		flag = 0
+	},
+	{
+		param = "Either way, you can come a little closer... and be a little bolder...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 494,
+		flag = 0
+	},
+	{
+		param = "So that I... can be your anchor♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 495,
+		flag = 0
+	},
+	{
+		param = "You're all I need to feel fulfilled, my Commander...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 496,
+		flag = 0
+	},
+	{
+		param = "Not taking the next step right now, of all times... You're too cruel...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 497,
+		flag = 0
+	},
+	{
+		param = "But... Heehee...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 498,
+		flag = 0
+	},
+	{
+		param = "Since you rely on me so much, I'll have to satisfy your needs~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 499,
+		flag = 0
+	},
+	{
+		param = "Do you know about relaxing massages, Commander?",
+		ship_group = 30707,
+		type = 1,
+		id = 500,
+		flag = 0,
+		option = {
+			{
+				1,
+				"The ones that help with fatigue?"
+			}
+		}
+	},
+	{
+		param = "The ones that help with fatigue?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 501,
+		flag = 1
+	},
+	{
+		param = "That's correct! It's a massage where we cure your fatigue without sacrificing your relaxation.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 502,
+		flag = 1
+	},
+	{
+		param = "I thought it might be useful soon, so I learned how to do it.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 503,
+		flag = 1
+	},
+	{
+		param = "When you get home, my dear, just lie down in bed~ I'll give you the full massage experience...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 504,
+		flag = 1
+	},
+	{
+		param = "Just release aaall of your fatigue into my waiting hands...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 505,
+		flag = 1
+	},
+	{
+		param = "Aww, my Commander~ This is the tenth gift you've given me!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 506,
+		flag = 0
+	},
+	{
+		param = "Whenever I'm opening a gift from you, my heart practically beats out of my chest.",
+		ship_group = 30707,
+		type = 1,
+		id = 507,
+		flag = 0,
+		option = {
+			{
+				1,
+				"You've been counting?"
+			}
+		}
+	},
+	{
+		param = "You've been counting?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 508,
+		flag = 1
+	},
+	{
+		param = "Heehee, I keep a record of every gift.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 509,
+		flag = 1
+	},
+	{
+		param = "Every single little present you give me...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 510,
+		flag = 1
+	},
+	{
+		param = "I just know they're all filled with love♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 511,
+		flag = 1
+	},
+	{
+		param = "And there's no greater treasure than that, not in all the world.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 512,
+		flag = 1
+	},
+	{
+		param = "So I make sure to take good care of them.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 513,
+		flag = 1
+	},
+	{
+		param = "Do you remember, my Commander? When you gave me that first gift...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 514,
+		flag = 1
+	},
+	{
+		param = "Aah... The feeling of my heart racing and throat dry, the sensation of almost losing myself to ecstasy...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 515,
+		flag = 1
+	},
+	{
+		param = "Just remembering it almost drives me crazy.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 516,
+		flag = 1
+	},
+	{
+		param = "Heehee... Hehehehe...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 517,
+		flag = 1
+	},
+	{
+		param = "I want you to experience those sensations, too, my Commander...",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 518,
+		flag = 1
+	},
+	{
+		param = "It's my turn to give you a gift.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 519,
+		flag = 1
+	},
+	{
+		param = "I promise, there's no refusing or running away from this surprise...♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 520,
+		flag = 1
 	}
 }

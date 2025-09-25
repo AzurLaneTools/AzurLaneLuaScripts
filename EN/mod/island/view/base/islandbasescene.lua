@@ -15,6 +15,18 @@ slot0.Ctor = function(slot0)
 	}
 end
 
+slot0.getDefaultUI = function(slot0)
+	return slot0._container
+end
+
+slot0.forceGC = function(slot0)
+	return true
+end
+
+slot0.PlayBGM = function(slot0)
+	pg.BgmMgr.GetInstance():StopPlay()
+end
+
 slot0.preload = function(slot0, slot1)
 	slot2 = {}
 
@@ -42,15 +54,20 @@ slot0.LoadUIContainer = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("UI/UIIsland", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0._container = Object.Instantiate(slot0).transform
-		uv0.uiContainer = uv0._container:Find("ui")
-		uv0.opContainer = uv0._container:Find("op")
-		uv0.pageContainer = uv0._container:Find("page")
-		uv0.poolContainer = uv0._container:Find("_pool_")
-		uv0._container.name = "UIIsland"
+		IslandHelper.InstantiateAsyncGameObject(slot0, function (slot0)
+			uv0._container = slot0.transform
+			uv0.canvasGroup = GetOrAddComponent(uv0._container, typeof(CanvasGroup))
+			uv0.uiLayer1 = uv0._container:Find("layer1")
+			uv0.uiLayer2 = uv0._container:Find("layer2")
+			uv0.uiContainer = uv0._container:Find("layer1/ui")
+			uv0.opContainer = uv0._container:Find("layer1/op")
+			uv0.pageContainer = uv0._container:Find("layer1/page")
+			uv0.poolContainer = uv0._container:Find("_pool_")
+			uv0._container.name = "UIIsland"
 
-		setParent(uv0._container, pg.UIMgr.GetInstance().UICanvas)
-		uv1()
+			setParent(uv0._container, pg.UIMgr.GetInstance().UICanvas)
+			uv1()
+		end)
 	end), true, true)
 end
 
@@ -58,19 +75,17 @@ slot0.SetUIParent = function(slot0, slot1)
 	slot1.transform:SetParent(slot0.uiContainer, false)
 end
 
-slot0.emit = function(slot0, ...)
-	if unpack({
-		...
-	}) == BaseUI.ON_HOME then
+slot0.emit = function(slot0, slot1, ...)
+	if slot1 == BaseUI.ON_HOME or slot1 == IslandMediator.CHANGE_SCENE then
 		if ISLAND_PLAYER_TESTING then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_home_btn_cant_use"))
 
 			return
 		end
 
-		slot0:ExitIsland()
+		slot0:ExitProcess(slot1, ...)
 	else
-		uv0.super.emit(slot0, ...)
+		uv0.super.emit(slot0, slot1, ...)
 	end
 end
 
@@ -82,8 +97,9 @@ slot0.emitCore = function(slot0, slot1, ...)
 	slot0:emit(uv0.LINK_CORE_EVENT, IslandProxy.LINK_CORE, slot1, ...)
 end
 
-slot0.ExitIsland = function(slot0)
-	slot1 = slot0:GetIsland()
+slot0.ExitProcess = function(slot0, slot1, ...)
+	slot2 = packEx(...)
+	slot3 = slot0:GetIsland()
 
 	seriesAsync({
 		function (slot0)
@@ -94,7 +110,7 @@ slot0.ExitIsland = function(slot0)
 			})
 		end
 	}, function ()
-		uv0.super.emit(uv1, BaseUI.ON_HOME)
+		uv0.super.emit(uv1, uv2, unpackEx(uv3))
 	end)
 end
 
@@ -105,9 +121,6 @@ end
 slot0.onUILoaded = function(slot0, slot1)
 	uv0.super.onUILoaded(slot0, slot1)
 
-	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.canvasGroup.alpha = 0
-	slot0.canvasGroup.blocksRaycasts = false
 	slot0.subViews = {
 		IslandMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event),
 		IslandToast.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
@@ -123,13 +136,19 @@ slot0.onUILoaded = function(slot0, slot1)
 	}
 	slot0.poppingQueue = IslandPoppingQueue.New(slot0)
 
+	slot0:AddCommonListeners()
 	slot0:AddListeners()
+end
+
+slot0.AddCommonListeners = function(slot0)
 	slot0:AddListener(ISLAND_EX_EVT.EMIT, slot0.OnEmit)
 	slot0:AddListener(ISLAND_EX_EVT.INIT_FINISH, slot0.OnSceneLoaded)
 	slot0:AddListener(ISLAND_EX_EVT.SHOW_MSG, slot0.OnShowMsgBox)
 	slot0:AddListener(ISLAND_EX_EVT.OPEN_PAGE, slot0.OnOpenPage)
 	slot0:AddListener(ISLAND_EX_EVT.PLAY_TIMELINE, slot0.OnPlayTimeline)
 	slot0:AddListener(uv0.LINK_CORE_EVENT, slot0.OnLinkCoreEvent)
+	slot0:AddListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAnimatonOpPage)
+	slot0:AddListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAnimatonOpPage)
 end
 
 slot0.GetSubView = function(slot0, slot1)
@@ -144,6 +163,12 @@ end
 
 slot0.GetPoolMgr = function(slot0)
 	return slot0.poolMgr
+end
+
+slot0.OnOpenAnimatonOpPage = function(slot0)
+end
+
+slot0.OnCloseAnimatonOpPage = function(slot0)
 end
 
 slot0.OnLinkCoreEvent = function(slot0, slot1, ...)
@@ -167,9 +192,6 @@ end
 
 slot0.OnSceneLoaded = function(slot0)
 	slot0:emit(uv0.ON_SCENE_LOADED)
-
-	slot0.canvasGroup.alpha = 1
-	slot0.canvasGroup.blocksRaycasts = true
 end
 
 slot0.OnEmit = function(slot0, slot1, ...)
@@ -181,15 +203,15 @@ slot0.StartCore = function(slot0)
 end
 
 slot0.setVisible = function(slot0, slot1)
-	slot0:ShowOrHideResUI(slot1)
+	slot2 = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
+	slot2.alpha = slot1 and 1 or 0
+	slot2.blocksRaycasts = slot1
 
 	if slot1 then
 		slot0:OnVisible()
 	else
 		slot0:OnDisVisible()
 	end
-
-	setActive(slot0._tf, slot1)
 end
 
 slot0.TryVisible = function(slot0)
@@ -294,7 +316,11 @@ slot0.onBackPressed = function(slot0)
 
 	for slot6, slot7 in ipairs(slot0.subViews) do
 		if slot7:GetLoaded() and slot7:isShowing() then
-			slot7:Hide()
+			if isa(slot7, IslandMsgBox) then
+				slot7:HideWindow()
+			else
+				slot7:Hide()
+			end
 
 			return
 		end
@@ -307,23 +333,24 @@ slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-slot0.exit = function(slot0)
-	slot0:RemoveListeners()
+slot0.RemoveCommonListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EX_EVT.EMIT, slot0.OnEmit)
 	slot0:RemoveListener(ISLAND_EX_EVT.INIT_FINISH, slot0.OnSceneLoaded)
 	slot0:RemoveListener(ISLAND_EX_EVT.SHOW_MSG, slot0.OnShowMsgBox)
 	slot0:RemoveListener(ISLAND_EX_EVT.OPEN_PAGE, slot0.OnOpenPage)
 	slot0:RemoveListener(ISLAND_EX_EVT.PLAY_TIMELINE, slot0.OnPlayTimeline)
+	slot0:RemoveListener(uv0.LINK_CORE_EVENT, slot0.OnLinkCoreEvent)
+	slot0:RemoveListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAnimatonOpPage)
+	slot0:RemoveListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAnimatonOpPage)
+end
 
-	slot4 = slot0.OnLinkCoreEvent
-
-	slot0:RemoveListener(uv0.LINK_CORE_EVENT, slot4)
+slot0.exit = function(slot0)
+	slot0:RemoveListeners()
+	slot0:RemoveCommonListeners()
 
 	for slot4, slot5 in ipairs(slot0.cacheAbList) do
 		AssetBundleHelper.UnstoreAssetBundle(slot5, true)
 	end
-
-	slot0.cacheAbList = nil
 
 	for slot4, slot5 in ipairs(slot0.subViews) do
 		if slot5:GetLoaded() then
@@ -331,42 +358,42 @@ slot0.exit = function(slot0)
 		end
 	end
 
-	slot0.subViews = nil
-
 	for slot4, slot5 in ipairs(slot0.monitors) do
 		slot5:Dispose()
 	end
 
-	slot0.monitors = nil
-
 	slot0:GetIsland():ClearListeners()
+	slot0.poolMgr:Dispose()
+	slot0.poppingQueue:Dispose()
+	slot0:disposeEvent()
+	slot0.sceneMgr:Dispose()
+	getProxy(IslandProxy):ClearAllPlayerDataCache()
+	getProxy(IslandProxy):ClearAllGiftTagInfo()
 
-	if not IsNil(slot0._container) then
-		Object.Destroy(slot0._container.gameObject)
-	end
-
-	slot0._container = nil
+	slot0.subViews = nil
+	slot0.cacheAbList = nil
+	slot0.poppingQueue = nil
+	slot0.sceneMgr = nil
+	slot0.poolMgr = nil
+	slot0.monitors = nil
 	slot0.uiContainer = nil
 	slot0.opContainer = nil
 	slot0.pageContainer = nil
+	IslandSceneLoader.lastMapId = nil
+	slot0.contextData = {}
 
-	slot0.poolMgr:Dispose()
-
-	slot0.poolMgr = nil
-
-	slot0.poppingQueue:Dispose()
-
-	slot0.poppingQueue = nil
-
-	slot0:disposeEvent()
-	slot0.sceneMgr:Dispose()
-
-	slot0.sceneMgr = nil
-
-	getProxy(IslandProxy):ClearAllPlayerDataCache()
-	getProxy(IslandProxy):ClearAllGiftTagInfo()
+	GraphicsInterface.Instance:ReleaseAsyncLoadedResources()
 	uv0.super.exit(slot0)
-	gcAll(false)
+end
+
+slot0.detach = function(slot0, slot1)
+	uv0.super.detach(slot0, slot1)
+
+	if not IsNil(slot0._container) then
+		Object.Destroy(slot0._container.gameObject)
+
+		slot0._container = nil
+	end
 end
 
 slot0.AddListeners = function(slot0)

@@ -43,6 +43,13 @@ slot0.ShowTypeFields = {
 	[slot0.SHOW_WEEKLY] = "weekly",
 	[slot0.SHOW_ACTIVITY] = "activity"
 }
+slot0.ShowTypeUnlockId = {
+	[slot0.SHOW_MAIN] = 0,
+	[slot0.SHOW_BRANCH] = 42,
+	[slot0.SHOW_DAILY] = 43,
+	[slot0.SHOW_WEEKLY] = 44,
+	[slot0.SHOW_ACTIVITY] = 45
+}
 slot0.ShowTypeNames = {
 	[slot0.SHOW_ALL] = i18n("island_task_type_1"),
 	[slot0.SHOW_MAIN] = i18n("island_task_type_2"),

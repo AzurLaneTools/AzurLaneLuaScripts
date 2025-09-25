@@ -42,10 +42,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:UpdateAutoFightMark()
 	slot0:UpdateBattleTimes()
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER,
-		groupName = LayerWeightConst.GROUP_COMBAT
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.UpdateBattleTimes = function(slot0)

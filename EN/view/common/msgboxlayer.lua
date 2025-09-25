@@ -497,9 +497,8 @@ slot0.updateButton = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.Loaded = function(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		groupName = slot1.groupName,
-		weight = slot1.weight or LayerWeightConst.SECOND_LAYER,
 		blurLevelCamera = slot1.blurLevelCamera,
 		parent = slot1.parent
 	})

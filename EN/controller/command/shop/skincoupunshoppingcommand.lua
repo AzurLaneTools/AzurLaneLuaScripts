@@ -35,7 +35,7 @@ slot0.execute = function(slot0, slot1)
 			id = slot6:getSkinId()
 		}).skinName,
 		price = slot7,
-		drop = SkinCouponActivity.StaticGetItemDrop(),
+		drop = SkinCouponActivity.StaticGetItemDrop(slot3),
 		onYes = function ()
 			pg.ConnectionMgr.GetInstance():Send(11202, {
 				cmd = 1,
@@ -45,18 +45,18 @@ slot0.execute = function(slot0, slot1)
 				arg_list = {}
 			}, 11203, function (slot0)
 				if slot0.result == 0 then
-					SkinCouponActivity.UseSkinCoupon()
-					uv0:addSkin(uv1)
+					SkinCouponActivity.UseSkinCoupon(uv0)
+					uv1:addSkin(uv2)
 
 					slot1 = getProxy(PlayerProxy):getData()
 
 					slot1:consume({
-						[id2res(uv2:getConfig("resource_type"))] = uv3
+						[id2res(uv3:getConfig("resource_type"))] = uv4
 					})
 					getProxy(PlayerProxy):updatePlayer(slot1)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-					uv4:sendNotification(GAME.SKIN_COUPON_SHOPPING_DONE, {
-						id = uv5,
+					uv5:sendNotification(GAME.SKIN_COUPON_SHOPPING_DONE, {
+						id = uv0,
 						awards = {}
 					})
 				else

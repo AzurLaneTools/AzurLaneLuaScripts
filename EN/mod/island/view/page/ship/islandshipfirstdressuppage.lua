@@ -68,7 +68,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return GetOrAddComponent(slot0:findTF("adapt/char"), typeof(SmoothRotateObject))
+	return slot0:findTF("adapt/char")
 end
 
 slot0.OnCharLoaded = function(slot0)

@@ -92,9 +92,7 @@ slot0.didEnter = function(slot0)
 	slot0.closeCallBack = slot0.contextData.callback
 	slot0.skinId = slot0.contextData.skinId
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0.ad, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.ad)
 
 	if slot0.skinId then
 		slot1 = pg.ship_skin_template[slot0.skinId]
@@ -320,7 +318,7 @@ slot0.willExit = function(slot0)
 		slot0.closeCallBack = nil
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.ad, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.ad, slot0._tf)
 end
 
 return slot0

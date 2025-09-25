@@ -17,8 +17,7 @@ slot0.ShowItemTip = function(slot0, slot1, slot2, slot3)
 		}),
 		descriptions = slot4.description,
 		msgTitle = slot2,
-		goSceneCallack = slot3,
-		weight = LayerWeightConst.SECOND_LAYER
+		goSceneCallack = slot3
 	})
 
 	return true
@@ -107,8 +106,7 @@ slot0.ShowOilBuyTip = function(slot0, slot1)
 				id = uv0
 			})
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_OIL)
-		end,
-		weight = LayerWeightConst.TOP_LAYER
+		end
 	})
 
 	return true

@@ -15,9 +15,7 @@ slot0.init = function(slot0)
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0._tipTF = slot0._tf:Find("anim_root/tip")
 	slot0.contentTF = slot0._tipTF:Find("tip_bg/layout/title/name")
@@ -74,7 +72,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:saveTipRecord()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()

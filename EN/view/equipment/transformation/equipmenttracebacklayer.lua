@@ -206,7 +206,9 @@ slot0.didEnter = function(slot0)
 		type = DROP_TYPE_EQUIP,
 		id = slot0.contextData.TargetEquipmentId
 	})
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		staticBlur = true
+	})
 end
 
 slot0.UpdateSourceList = function(slot0)
@@ -383,7 +385,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.loader:Clear()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

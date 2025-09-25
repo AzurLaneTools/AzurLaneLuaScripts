@@ -73,9 +73,7 @@ slot0.init = function(slot0)
 end
 
 slot0.BlurPanel = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)

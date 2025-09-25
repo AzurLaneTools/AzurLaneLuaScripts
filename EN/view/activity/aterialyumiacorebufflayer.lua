@@ -48,7 +48,7 @@ slot0.init = function(slot0)
 	slot1:SetEndEvent(function ()
 		uv0.inAnim = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.rtUpgrade, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.rtUpgrade, uv0._tf)
 		setActive(uv0.rtUpgrade, false)
 	end)
 
@@ -202,7 +202,7 @@ end
 
 slot0.willExit = function(slot0)
 	if isActive(slot0.rtUpgrade) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.rtUpgrade, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtUpgrade, slot0._tf)
 		setActive(slot0.rtUpgrade, false)
 	end
 end

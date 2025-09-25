@@ -27,7 +27,7 @@ slot0.hide = function(slot0)
 	slot0.itemVO = nil
 	slot0.count = 1
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.view._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.view._tf)
 
 	if slot0.selectedItem then
 		triggerToggle(slot0.selectedItem, false)

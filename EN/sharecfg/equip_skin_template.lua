@@ -51364,6 +51364,179 @@ pg.equip_skin_template = {
 		orbit_ui_bound = {
 			"face",
 			{
+				5.4,
+				96.8
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2105] = {
+		hit_sfx = "",
+		bullet_name = "zidan_moshuifeiniao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96829",
+		name = "Stunning Bird Shell",
+		desc = "A blink is all it takes for the ink-feathered bird to fade and vanish.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2105,
+		themeid = 108,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_moshuifeiniao_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2106] = {
+		hit_sfx = "",
+		bullet_name = "yulei_jinli",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96830",
+		name = "Ink-Scaled Fish Torpedo",
+		desc = "To the bottoms of lakes and ponds the redly ink-scaled fish serenely swims.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2106,
+		themeid = 108,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_jinli_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2107] = {
+		hit_sfx = "",
+		bullet_name = "paodan_lianhua",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96831",
+		name = "Pure Lotus Shell",
+		desc = "The flower, untarnished by mud, sends its faint fragrance on the breeze.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2107,
+		themeid = 108,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2108] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96832",
+		name = "Red Plum Branch",
+		desc = "Silent and solemn is the ink stone; the red plum blossom bears a frost cloak.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2108,
+		themeid = 108,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_meihuaui",
+		miss_sfx = "",
+		orbit_combat = "shebei_meihua",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.36,
+				-1.88,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
 				-10,
 				100
 			}
@@ -54154,6 +54327,10 @@ pg.equip_skin_template = {
 		2102,
 		2103,
 		2104,
+		2105,
+		2106,
+		2107,
+		2108,
 		3002,
 		3004,
 		3005,

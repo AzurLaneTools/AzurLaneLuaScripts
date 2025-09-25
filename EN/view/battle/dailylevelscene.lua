@@ -113,7 +113,7 @@ slot0.initItems = function(slot0)
 		slot8 = slot2[slot0.dailyList[slot6]].insert_daily
 
 		if slot2[slot0.dailyList[slot6]].limit_period and type(slot7) == "table" then
-			if not pg.TimeMgr:GetInstance():inTime(slot7) then
+			if not pg.TimeMgr.GetInstance():inTime(slot7) then
 				table.remove(slot0.dailyList, slot6)
 			end
 		elseif slot8 == 1 then
@@ -312,15 +312,15 @@ slot0.initDailyLevel = function(slot0, slot1)
 
 	slot7 = nil
 
-	if Clone(slot2.limit_period) and type(slot6) == "table" and pg.TimeMgr:GetInstance():inTime(slot6) then
-		slot7 = pg.TimeMgr:GetInstance():Table2ServerTime({
+	if Clone(slot2.limit_period) and type(slot6) == "table" and pg.TimeMgr.GetInstance():inTime(slot6) then
+		slot7 = pg.TimeMgr.GetInstance():Table2ServerTime({
 			year = slot6[2][1][1],
 			month = slot6[2][1][2],
 			day = slot6[2][1][3],
 			hour = slot6[2][2][1],
 			min = slot6[2][2][2],
 			sec = slot6[2][2][3]
-		}) - pg.TimeMgr:GetInstance():GetServerTime()
+		}) - pg.TimeMgr.GetInstance():GetServerTime()
 	end
 
 	if slot7 then
@@ -524,10 +524,7 @@ slot0.DoSelectedAnimation = function(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0.stageScrollRect.enabled = false
 
-			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel, false, {
-				groupName = LayerWeightConst.GROUP_DAILY,
-				weight = LayerWeightConst.BASE_LAYER - 1
-			})
+			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel)
 
 			uv1.sizeDelta = Vector2(uv1.sizeDelta.x, 0)
 
@@ -562,7 +559,7 @@ slot0.DoUnselectAnimtion = function(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.selectedPanel, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.selectedPanel, uv0._tf)
 			setActive(uv0.selectedPanel, false)
 
 			slot1 = uv1:GetComponent(typeof(LayoutElement))
@@ -769,7 +766,7 @@ end
 
 slot0.willExit = function(slot0)
 	if slot0.selectedStage then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.selectedPanel, slot0._tf)
 	end
 
 	slot0:clearTween()

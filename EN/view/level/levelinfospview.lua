@@ -67,7 +67,7 @@ slot0.SetChapterGroupInfo = function(slot0, slot1)
 end
 
 slot0.Show = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		force = true
 	})
 	setActive(slot0._tf, true)

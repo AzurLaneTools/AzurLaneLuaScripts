@@ -8,23 +8,16 @@ slot0.OnLoaded = function(slot0)
 	slot0.nameTxt = slot0:findTF("frame/title/name/Text"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
 	slot0.goBtn = slot0:findTF("frame/go")
-	slot0.uiProductionList = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
+	slot0.uiProductionList = UIItemList.New(slot0:findTF("frame/scrollrect/list"), slot0:findTF("frame/scrollrect/list/tpl"))
 	slot0.iconTr = slot0:findTF("frame/icon")
 	slot0.fullMark = slot0:findTF("frame/icon/tag")
 
 	setText(slot0:findTF("frame/go/Text"), i18n("island_word_go"))
-
-	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
-	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0.dftAniEvent:SetEndEvent(function ()
-			uv0.dftAniEvent:SetEndEvent(nil)
-			uv0:Hide()
-		end)
-		uv0.animationPlayer:Play("IslandMapDescUI_out")
+		uv0:Hide()
 		uv0:emit(IslandBaseMapPage.HIDE_DESC)
 	end, SFX_PANEL)
 end

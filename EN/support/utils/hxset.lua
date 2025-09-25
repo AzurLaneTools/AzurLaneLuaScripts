@@ -228,6 +228,30 @@ slot0.update = function()
 			return slot0[slot1]
 		end
 	})
+	slot7 = pg.island_unit_character
+	pg.island_unit_character = setmetatable({}, {
+		__index = function (slot0, slot1)
+			if uv0[slot1] == nil then
+				return slot2
+			elseif slot2.name == nil then
+				slot0[slot1] = slot2
+
+				return slot0[slot1]
+			end
+
+			slot0[slot1] = {}
+
+			if uv1[slot2.name] then
+				slot0[slot1].name = uv1[slot2.name]
+			end
+
+			setmetatable(slot0[slot1], {
+				__index = slot2
+			})
+
+			return slot0[slot1]
+		end
+	})
 end
 
 slot0.hxLan = function(slot0, slot1)

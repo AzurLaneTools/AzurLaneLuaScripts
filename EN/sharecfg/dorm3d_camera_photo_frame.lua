@@ -10,7 +10,9 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1006,
 		1007,
 		1008,
-		1009
+		1009,
+		1010,
+		1011
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -188,6 +190,46 @@ pg.base.dorm3d_camera_photo_frame = {
 		unlock = {
 			1,
 			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1010] = {
+		name = "Audio Player",
+		rarity = 3,
+		farme_path = "photo_frame_player",
+		frameTfName = "PlayerFrame",
+		desc = "Unlock to obtain the Audio Player frame for the camera function.",
+		unlock_text = "Reach Taihou Intimacy Lv. 5",
+		id = 1010,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_player_small",
+		unlock = {
+			1,
+			30707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1011] = {
+		name = "Chat Window",
+		rarity = 3,
+		farme_path = "photo_frame_phone",
+		frameTfName = "PhoneFrame",
+		desc = "Unlock to obtain the Chat Window frame for the camera function.",
+		unlock_text = "Reach Taihou Intimacy Lv. 13",
+		id = 1011,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_phone_small",
+		unlock = {
+			1,
+			30707,
 			13
 		},
 		watermark_location = {

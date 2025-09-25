@@ -13,10 +13,6 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0:findTF("frame/title"), i18n("island_rename_title"))
 	setText(slot0:findTF("frame/confirm/Text"), i18n("word_ok"))
 	setText(slot0:findTF("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
-
-	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
-	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
-	slot0.isPlayingAnimation = false
 end
 
 slot0.AddListeners = function(slot0)
@@ -50,38 +46,25 @@ end
 slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
-	slot0.isPlayingAnimation = false
 	slot0.callback = slot1
 
 	slot0:UpdateContent()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
-	if slot0.isPlayingAnimation then
-		return
-	end
-
 	slot0:PlayExitAniamtion(function ()
-		uv0.isPlayingAnimation = false
-
-		uv0.aniDft:SetEndEvent(nil)
-		uv1.super.Hide(uv0)
-		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
+		uv0.super.Hide(uv1)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv1._tf, uv1._parentTf)
 	end)
 end
 
 slot0.PlayExitAniamtion = function(slot0, slot1)
 	slot0.isPlayingAnimation = true
 
-	slot0.aniDft:SetEndEvent(function ()
-		if uv0 then
-			uv0()
-		end
-	end)
-	slot0.animator:Play("anim_IslandEditNameUI_Out")
+	if slot1 then
+		slot1()
+	end
 end
 
 slot0.UpdateContent = function(slot0)
@@ -99,8 +82,6 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0.callback = nil
-
-	slot0.aniDft:SetEndEvent(nil)
 end
 
 return slot0

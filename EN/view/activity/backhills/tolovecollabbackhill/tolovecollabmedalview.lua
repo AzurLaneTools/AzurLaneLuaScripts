@@ -57,9 +57,7 @@ slot0.didEnter = function(slot0)
 	slot0.contextData.ChipIndex = slot0.contextData.ChipIndex or 1
 
 	slot0:UpdateView()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.AddListener = function(slot0)

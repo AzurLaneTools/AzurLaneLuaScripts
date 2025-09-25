@@ -46,7 +46,7 @@ slot0.HideCompositeResult = function(slot0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentClass._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentClass._tf)
 	setActive(slot0._go, false)
 	slot0:PlayGuide()
 

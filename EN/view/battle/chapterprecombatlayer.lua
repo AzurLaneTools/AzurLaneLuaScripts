@@ -144,10 +144,7 @@ slot0.didEnter = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_LEVELUI
-	})
+	slot1:OverlayPanel(slot0._tf)
 	onNextTick(function ()
 		if uv0.exited then
 			return
@@ -164,8 +161,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("middle/gear_score/vanguard/SonarTip"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.fleet_antisub_range_tip.tip,
-			weight = LayerWeightConst.SECOND_LAYER
+			helps = pg.gametip.fleet_antisub_range_tip.tip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0._costTip, function ()
@@ -174,8 +170,7 @@ slot0.didEnter = function(slot0)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
-			content = i18n("use_oil_limit_help", slot4, slot3),
-			weight = LayerWeightConst.SECOND_LAYER
+			content = i18n("use_oil_limit_help", slot4, slot3)
 		})
 	end)
 end
@@ -485,8 +480,7 @@ slot0.displayFleetInfo = function(slot0)
 						type = DROP_TYPE_ITEM,
 						id = tonumber(uv0.benefit_condition)
 					},
-					intro = pg.strategy_data_template[uv0.id].desc,
-					weight = LayerWeightConst.TOP_LAYER
+					intro = pg.strategy_data_template[uv0.id].desc
 				})
 			end)
 		end
@@ -556,9 +550,7 @@ slot0.displayStrategyInfo = function(slot0, slot1)
 
 	slot0.strategyPanel:attach(slot0)
 	slot0.strategyPanel:set(slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.strategyPanel._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.strategyPanel._tf)
 
 	slot0.strategyPanel.onConfirm = function()
 		slot2 = pg.strategy_data_template[uv1.id]
@@ -582,7 +574,7 @@ end
 
 slot0.hideStrategyInfo = function(slot0)
 	if slot0.strategyPanel then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.strategyPanel._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.strategyPanel._tf)
 		slot0.strategyPanel:detach()
 	end
 end

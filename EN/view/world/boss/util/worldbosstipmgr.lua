@@ -238,7 +238,7 @@ slot0.OnClick = function(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot4()
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_none"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 
 			return
 		end

@@ -35,11 +35,10 @@ end
 slot0.OnInit = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanelPB(slot0.frame, {
+	slot1:OverlayPanel(slot0.frame, {
 		pbList = {
 			slot0.frame
-		},
-		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		}
 	})
 	setActive(slot0._tf, true)
 	onToggle(slot0, slot0.toggle, function (slot0)

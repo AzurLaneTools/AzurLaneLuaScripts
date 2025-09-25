@@ -243,8 +243,7 @@ slot1.onError = function(slot0)
 				onYes = function ()
 					uv0.ConnectionMgr.GetInstance():Reconnect(uv1)
 				end,
-				onNo = slot1,
-				weight = LayerWeightConst.TOP_LAYER
+				onNo = slot1
 			})
 			uv1.NewStoryMgr.GetInstance():Stop()
 			uv1.NewGuideMgr.GetInstance():Pause()

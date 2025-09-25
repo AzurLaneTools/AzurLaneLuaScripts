@@ -88,7 +88,7 @@ slot0.updateBooks = function(slot0)
 			if uv0 then
 				uv1:OpenBook(uv2)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("jiujiu_expedition_book_tip"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("jiujiu_expedition_book_tip"))
 			end
 		end, SFX_PANEL)
 	end
@@ -128,7 +128,7 @@ slot0.OpenBook = function(slot0, slot1)
 		uv0:emit(JiuJiuExpeditionCollectionMediator.ON_GET, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
-		pg.TipsMgr:GetInstance():ShowTips(i18n("jiujiu_expedition_reward_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("jiujiu_expedition_reward_tip"))
 	end, SFX_PANEL)
 	triggerButton(slot0.prevPageBtn)
 end
@@ -151,7 +151,7 @@ slot0.CloseBook = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.parent)
 end
 
 return slot0

@@ -417,20 +417,16 @@ slot0.GetShipVO = function(slot0)
 end
 
 slot0.OnSelected = function(slot0, slot1)
-	slot2 = pg.UIMgr.GetInstance()
-
 	if slot1 then
-		slot2:OverlayPanelPB(slot0._parentTf, {
+		slot0:OverlayPanel(slot0._parentTf, {
 			pbList = {
 				slot0.detailPanel:Find("attrs"),
 				slot0.detailPanel:Find("equipments"),
 				slot0.detailPanel:Find("quick_panel")
-			},
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			}
 		})
 	else
-		slot2:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)
+		slot0:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)
 	end
 
 	slot0.onSelected = slot1
@@ -510,8 +506,7 @@ slot0.UpdateEquipments = function(slot0, slot1)
 					uv0:emit(BaseUI.ON_EQUIPMENT, {
 						type = EquipmentInfoMediator.TYPE_SHIP,
 						shipId = uv0:GetShipVO().id,
-						pos = uv2,
-						LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+						pos = uv2
 					})
 				end
 			end, SFX_UI_DOCKYARD_EQUIPADD)

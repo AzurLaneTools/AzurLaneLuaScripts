@@ -60,6 +60,16 @@ pg.dorm3d_scene_animator = {
 		room_id = 3,
 		item_name = "FurnitureSlots/130302/pre_db_ah_livingroom01(Clone)"
 	},
+	[2013] = {
+		id = 2013,
+		room_id = 12,
+		item_name = "no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+	},
+	[2014] = {
+		id = 2014,
+		room_id = 16,
+		item_name = "fbx/litmap_03/pre_db_chair23_10/fbx_db_chair23a"
+	},
 	get_id_list_by_room_id = {
 		{
 			2001
@@ -82,6 +92,12 @@ pg.dorm3d_scene_animator = {
 			2007,
 			2010,
 			2011
+		},
+		[12] = {
+			2013
+		},
+		[16] = {
+			2014
 		}
 	},
 	all = {
@@ -96,6 +112,8 @@ pg.dorm3d_scene_animator = {
 		2009,
 		2010,
 		2011,
-		2012
+		2012,
+		2013,
+		2014
 	}
 }

@@ -15797,6 +15797,37 @@ _G.pg.base.item_data_statistics[21051] = {
 }
 
 
+_G.pg.base.item_data_statistics[21052] = {
+	open_directly = 0,
+	name = "META Crystal – Dewey META",
+	type = 4,
+	display = "An item that increases the potential of Dewey META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21052",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -29199,6 +29230,58 @@ _G.pg.base.item_data_statistics[30430] = {
 		{
 			9,
 			2104,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30431] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111225",
+	id = 30431,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2105,
+			1
+		},
+		{
+			9,
+			2106,
+			1
+		},
+		{
+			9,
+			2107,
+			1
+		},
+		{
+			9,
+			2108,
 			1
 		}
 	},
@@ -105729,7 +105812,6 @@ _G.pg.base.item_data_statistics[81209] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998311",
@@ -105776,7 +105858,8 @@ _G.pg.base.item_data_statistics[81209] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -105796,7 +105879,6 @@ _G.pg.base.item_data_statistics[81210] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998312",
@@ -105843,7 +105925,8 @@ _G.pg.base.item_data_statistics[81210] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -105863,7 +105946,6 @@ _G.pg.base.item_data_statistics[81211] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998313",
@@ -105910,7 +105992,8 @@ _G.pg.base.item_data_statistics[81211] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -106064,7 +106147,6 @@ _G.pg.base.item_data_statistics[81213] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998315",
@@ -106111,7 +106193,8 @@ _G.pg.base.item_data_statistics[81213] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -106131,7 +106214,6 @@ _G.pg.base.item_data_statistics[81214] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998316",
@@ -106178,7 +106260,8 @@ _G.pg.base.item_data_statistics[81214] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -106330,7 +106413,6 @@ _G.pg.base.item_data_statistics[81217] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998318",
@@ -106377,7 +106459,8 @@ _G.pg.base.item_data_statistics[81217] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -106397,7 +106480,6 @@ _G.pg.base.item_data_statistics[81218] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998319",
@@ -106444,7 +106526,100 @@ _G.pg.base.item_data_statistics[81218] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81219] = {
+	open_directly = 1,
+	name = "Sports & Race Return Lucky Box",
+	type = 17,
+	display = "Purchase to obtain 1 random unowned skin among the listed options (if you already own all the skins, you will receive Gems x680 instead), Coins x2,000, Oil x1,000, and Cognitive Chips x20.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_random_skin",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai29",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 81219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86219,
+			1
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			2,
+			15008,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		998320,
+		680,
+		{
+			236032,
+			801033,
+			803011,
+			106551,
+			805021,
+			807021,
+			902021,
+			401161,
+			401242,
+			702043,
+			403021,
+			404051,
+			107073,
+			408092,
+			101352,
+			201105,
+			102271,
+			102261,
+			103132,
+			103162,
+			103241,
+			105112,
+			107111,
+			108041,
+			301581,
+			101255,
+			403034,
+			107066,
+			303115,
+			303124,
+			205064,
+			205073,
+			307052,
+			307062,
+			307073
+		}
+	},
+	limit = {}
 }
 
 
@@ -107585,7 +107760,6 @@ _G.pg.base.item_data_statistics[81422] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998550",
@@ -107632,7 +107806,8 @@ _G.pg.base.item_data_statistics[81422] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107652,7 +107827,6 @@ _G.pg.base.item_data_statistics[81423] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998551",
@@ -107699,7 +107873,8 @@ _G.pg.base.item_data_statistics[81423] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107719,7 +107894,6 @@ _G.pg.base.item_data_statistics[81424] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998552",
@@ -107766,7 +107940,8 @@ _G.pg.base.item_data_statistics[81424] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107786,7 +107961,6 @@ _G.pg.base.item_data_statistics[81425] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "906148",
@@ -107803,7 +107977,8 @@ _G.pg.base.item_data_statistics[81425] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107823,7 +107998,6 @@ _G.pg.base.item_data_statistics[81426] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998553",
@@ -107870,7 +108044,8 @@ _G.pg.base.item_data_statistics[81426] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107890,7 +108065,6 @@ _G.pg.base.item_data_statistics[81427] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998558",
@@ -107937,7 +108111,8 @@ _G.pg.base.item_data_statistics[81427] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107988,7 +108163,6 @@ _G.pg.base.item_data_statistics[99959] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998559",
@@ -108005,7 +108179,8 @@ _G.pg.base.item_data_statistics[99959] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 

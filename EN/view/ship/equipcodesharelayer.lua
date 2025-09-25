@@ -202,10 +202,7 @@ slot0.init = function(slot0)
 	setText(slot0.rtMainPanel:Find("top_panel/title/name"), i18n("equipcode_share_title"))
 	setText(slot0.rtMainPanel:Find("top_panel/title/name/name_en"), i18n("equipcode_share_titleeng"))
 	slot0:initImpeachPanel()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData()
-	})
+	slot0:BlurPanel(slot0._tf)
 end
 
 slot0.refreshLikeCommand = function(slot0, slot1, slot2)
@@ -406,7 +403,7 @@ slot0.refreshCodes = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

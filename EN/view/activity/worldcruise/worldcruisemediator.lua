@@ -103,6 +103,7 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:UpdateView()
 	elseif slot2 == GAME.SHOPPING_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:UpdateShopPage()
 	elseif slot2 == ShopsProxy.CRUISE_SHOP_UPDATED then
 		slot0.viewComponent:setShop(slot3.shop)
 		slot0.viewComponent:UpdateShopPage()

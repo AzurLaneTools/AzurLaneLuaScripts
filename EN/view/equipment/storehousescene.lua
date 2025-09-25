@@ -303,15 +303,13 @@ slot0.didEnter = function(slot0)
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.sortBtn, function (slot0)
 		if slot0 then
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.sortPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
+			uv0:OverlayPanel(uv0.sortPanel)
 			setActive(uv0.sortPanel, true)
 			onNextTick(function ()
 				uv0.sortPanelTG.allowSwitchOff = false
 			end)
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.sortPanel, uv0.topItems)
+			uv0:UnOverlayPanel(uv0.sortPanel, uv0.topItems)
 			setActive(uv0.sortPanel, false)
 
 			uv0.sortPanelTG.allowSwitchOff = true
@@ -517,13 +515,9 @@ slot0.didEnter = function(slot0)
 			end)
 		end)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
 	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.topItems)
 
 	slot2 = slot0.contextData.mode or StoreHouseConst.OVERVIEW
 	slot0.contextData.warp = nil
@@ -1382,8 +1376,8 @@ slot0.SwitchToSpWeaponStoreHouse = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.topItems, slot0._tf)
 
 	if slot0.bulinTip then
 		slot0.bulinTip:Destroy()

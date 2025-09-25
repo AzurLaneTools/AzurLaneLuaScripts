@@ -51,6 +51,11 @@ slot0.OnInit = function(slot0)
 			end
 		})
 	end, SFX_PANEL)
+	slot0:UpdateFavorBtn()
+end
+
+slot0.UpdateFavorBtn = function(slot0)
+	setActive(slot0.favorBtn, getProxy(IslandProxy):GetIsland():GetOrderAgency():ExpSystemIsOpen())
 end
 
 slot0.AddListeners = function(slot0)
@@ -62,9 +67,11 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandScene.ON_CHECK_ORDER_EXP_AWARD, slot0.OnCheckOrderExpAward)
 	slot0:AddListener(uv0.ON_UPDADE, slot0.OnUpgrade)
 	slot0:AddListener(IslandOrderAgency.ORDER_FINISH_UPDATE, slot0.OnUpdateFinishCnt)
+	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
+	slot0:AddListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnUnlockSystem)
 end
 
-slot0.RemoveListener = function(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SUBMIT_ORDER_DONE, slot0.OnSubmitOrder)
 	slot0:RemoveListener(GAME.ISLAND_REPLACE_ORDER_DONE, slot0.OnReplaceOrder)
 	slot0:RemoveListener(GAME.ISLAND_SET_ORDER_TENDENCY_DONE, slot0.OnOrderTendencyChanged)
@@ -72,6 +79,13 @@ slot0.RemoveListener = function(slot0)
 	slot0:RemoveListener(IslandOrderAgency.UDPATE_ORDER, slot0.OnFlushOrder)
 	slot0:RemoveListener(uv0.ON_UPDADE, slot0.OnUpgrade)
 	slot0:RemoveListener(IslandOrderAgency.ORDER_FINISH_UPDATE, slot0.OnUpdateFinishCnt)
+	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
+	slot0:RemoveListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnUnlockSystem)
+end
+
+slot0.OnUnlockSystem = function(slot0)
+	slot0:UpdateFavorBtn()
+	slot0:CheckOrderExpAward()
 end
 
 slot0.OnReset = function(slot0)
@@ -111,6 +125,12 @@ end
 
 slot0.OnFlushOrder = function(slot0, slot1)
 	slot0:UpdateOrderState(slot1.slotId)
+end
+
+slot0.OnUseTicketDone = function(slot0, slot1)
+	if slot1.type == IslandUseTicketCommand.TYPES.ORDER_CD then
+		slot0:UpdateOrderState(slot1.id)
+	end
 end
 
 slot0.OnCheckOrderExpAward = function(slot0)
@@ -156,21 +176,31 @@ slot0.UpdateTrendBtn = function(slot0, slot1)
 end
 
 slot0.CheckOrderExpAward = function(slot0)
+	if not getProxy(IslandProxy):GetIsland():GetOrderAgency():ExpSystemIsOpen() then
+		slot0:CheckGuide()
+
+		return
+	end
+
 	slot3 = {}
 
-	for slot7, slot8 in ipairs(getProxy(IslandProxy):GetIsland():GetOrderAgency():GetAllCanGetAwardList()) do
+	for slot7, slot8 in ipairs(slot1:GetAllCanGetAwardList()) do
 		table.insert(slot3, function (slot0)
 			uv0:emit(IslandMediator.ON_GET_ORDER_EXP_AWARD, uv1, slot0)
 		end)
 	end
 
 	seriesAsync(slot3, function ()
-		if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(IslandGuideChecker.ORDER_TASK_ID) then
-			onDelayTick(function ()
-				IslandGuideChecker.CheckGuide("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE)
-			end, 0.2)
-		end
+		uv0:CheckGuide()
 	end)
+end
+
+slot0.CheckGuide = function(slot0)
+	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(IslandGuideChecker.ORDER_TASK_ID) then
+		onDelayTick(function ()
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_7", IslandGuideChecker.FINISH_TYPE.ON_GUIDE)
+		end, 0.2)
+	end
 end
 
 slot0.TriggerOrder = function(slot0, slot1)
@@ -245,7 +275,11 @@ slot0.UpdateOrderState = function(slot0, slot1)
 
 		uv0.selected = uv1
 	end, SFX_PANEL)
-	setActive(slot4.transform:Find("bg_urgent"), slot3:GetOrder():IsUrgency())
+
+	slot5 = slot3:GetOrder()
+
+	setActive(slot4.transform:Find("bg_urgent"), slot5:IsUrgency())
+	setActive(slot4.transform:Find("bg_act"), slot5:IsActivity())
 	setActive(slot4.transform:Find("sel"), slot0.selected and slot0.selected == slot4)
 	setActive(slot4.transform:Find("finish"), slot3:CanSubmit())
 	setActive(slot4.transform:Find("easy"), slot5:GetTendency() == IslandOrderSlot.TENDENCY_TYPE_EASY)

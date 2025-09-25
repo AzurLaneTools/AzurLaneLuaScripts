@@ -131,9 +131,7 @@ slot1.DoShow = function(slot0, slot1, slot2)
 		end
 
 		uv0:DisplaySetting(uv1, uv4)
-		uv3.UIMgr.GetInstance():BlurPanel(uv0._tf, false, uv4.blurParams or {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		uv3.UIMgr.GetInstance():BlurPanel(uv0._tf)
 		setActive(uv0._tf, true)
 	end)
 end
@@ -153,7 +151,7 @@ slot1.Hide = function(slot0, slot1)
 
 	setActive(slot0._tf, false)
 	slot0:Clear()
-	uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
+	uv0.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
 
 	slot0._tf = nil
 
@@ -340,9 +338,6 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 				end), ","))
 				onButton(uv0, slot8:Find("play"), function ()
 					uv1:DeepShow(uv2.NewStyleMsgboxMgr.TYPE_SHIP_PREVIEW, {
-						blurParams = {
-							weight = LayerWeightConst.TOP_LAYER
-						},
 						shipVO = Ship.New({
 							id = uv0.ship_config_id,
 							configId = uv0.ship_config_id,

@@ -48,10 +48,10 @@ slot0.DisplayRenamePanel = function(slot0, slot1)
 	SetActive(slot0._renamePanel, slot1)
 
 	if slot1 then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._renamePanel, false)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._renamePanel)
 		setInputText(findTF(slot0._renamePanel, "frame/name_field"), slot0:GetShipVO():getName())
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._renamePanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._renamePanel, slot0._tf)
 	end
 end
 

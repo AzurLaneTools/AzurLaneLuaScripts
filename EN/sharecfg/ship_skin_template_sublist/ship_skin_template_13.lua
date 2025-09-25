@@ -1,6 +1,498 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[501090] = {
+		name = "Fu Po",
+		change_skin = "",
+		desc = "Chang Feng-class destroyer – Fu Po.",
+		illustrator2 = -1,
+		ship_group = 50109,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "fubo",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 501090,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "fubo",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 397,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.678,
+					2.167,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							2.22,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[501091] = {
+		name = "Mischievous Tidings",
+		change_skin = "",
+		desc = "Oh... Well, shoot, you found me... Shhhhh! Don't tell anyone that I'm here though! Seriously, Commander, I'm begging you!",
+		illustrator2 = -1,
+		ship_group = 50109,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "fubo_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 10,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "165",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 501091,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "fubo_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71101,
+		voice_actor = 397,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.1,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.665,
+					2.258,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.338,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[502010] = {
+		name = "Yat Sen",
+		change_skin = "",
+		desc = "Cruiser, Yat Sen.",
+		illustrator2 = -1,
+		ship_group = 50201,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "yixian",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 502010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yixian",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 74,
+		spine_offset = "",
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.45,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.92,
+					0.45,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.28,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.92,
+					0.45,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.28,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[502011] = {
+		name = "Paragon of Celestial Grace",
+		change_skin = "",
+		desc = "I am truly honored to be able to share this wondrous scenery with you on such a festive occasion, Commander. Umm... I'm not just saying that out of courtesy. We rarely get opportunities like this, so I'm somewhat flattered...",
+		illustrator2 = -1,
+		ship_group = 50201,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "yixian_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 3,
+		l2d_ignore_drag = 0,
+		hand_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "157",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 502011,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yixian_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70804,
+		voice_actor = 74,
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.01,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.01,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.28,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-98,
+			-874,
+			0,
+			2.5
+		},
+		special_effects = {
+			"lihui_yixian_2",
+			{
+				147,
+				329,
+				0
+			},
+			{
+				1.47
+			}
+		}
+	},
 	[502012] = {
 		name = "Pristine Leaves, Rich Warmth",
 		change_skin = "",
@@ -15184,456 +15676,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.515,
 							2.648,
-							-1.89
-						}
-					}
-				}
-			}
-		}
-	},
-	[607011] = {
-		name = "Sardegnian Shallows and Sunshine",
-		change_skin = "",
-		desc = "Good day, my Commander. We have the day off to enjoy the sea breeze and the ocean waves~ Hehe, would you like to help yourself to some fruit?",
-		illustrator2 = -1,
-		ship_group = 60701,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "tianying_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "106",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 607011,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tianying_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70531,
-		voice_actor = 126,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.024,
-					1.012,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.012,
-					1.021,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.006,
-					-0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.992,
-					1.014,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.583,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[607012] = {
-		name = "A Sip of Sardegnian Elegance",
-		change_skin = "",
-		desc = "Oh, my Commander? I didn't expect to meet you here! Fortune smiles upon me today. Hehe~ If you have a minute to spare, would you care to join me for a cup of tea?",
-		illustrator2 = -1,
-		ship_group = 60701,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "tianying_3",
-		bg_sp = "1101",
-		skin_type = 0,
-		shop_type_id = 7,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "146",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 607012,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "tianying_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70606,
-		voice_actor = 126,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.1,
-					1.012,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.012,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.992,
-					1.26,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.55,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[607020] = {
-		name = "Impero",
-		change_skin = "",
-		desc = "Aircraft carrier – Impero.",
-		illustrator2 = -1,
-		ship_group = 60702,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "diguo",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 607020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "diguo",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 309,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.62,
-					1.1,
-					0
-				}
-			},
-			plane = {
-				{
-					1.56,
-					1.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.28,
-							-1.89
-						}
-					}
-				}
-			}
-		}
-	},
-	[607021] = {
-		name = "Languid Librarian",
-		change_skin = "",
-		desc = "Seems school uniforms are all the hype. Veneto picked this one out for me. What are you dressed as, Commander? A teacher? A classmate?",
-		illustrator2 = -1,
-		ship_group = 60702,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "diguo_2",
-		bg_sp = "1102",
-		skin_type = 0,
-		shop_type_id = 4,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "147",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 607021,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "diguo_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70677,
-		voice_actor = 309,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.62,
-					1.23,
-					0
-				}
-			},
-			plane = {
-				{
-					1.54,
-					1.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.48,
-							2.31,
 							-1.89
 						}
 					}

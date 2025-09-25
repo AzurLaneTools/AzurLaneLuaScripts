@@ -247,9 +247,8 @@ slot0.didEnter = function(slot0)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
-			groupName = slot0:getGroupNameFromData(),
-			weight = slot0:getWeightFromData()
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+			staticBlur = true
 		})
 	end
 
@@ -413,7 +412,7 @@ slot0.SetInputXian = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:ClearAllTimers()
 end
 

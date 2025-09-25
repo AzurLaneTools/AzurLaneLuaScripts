@@ -53,16 +53,16 @@ slot0.Init = function(slot0)
 			return
 		end
 
-		slot1 = pg.SettingsGroupMgr:GetInstance():GetState(uv0:GetDownloadGroup())
+		slot1 = pg.SettingsGroupMgr.GetInstance():GetState(uv0:GetDownloadGroup())
 
 		if uv0:isNeedUpdate() and slot1 ~= pg.SettingsGroupMgr.State.Updating then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
-				content = string.format(i18n("group_download_tip", HashUtil.BytesToString(pg.SettingsGroupMgr:GetInstance():GetTotalSize({
+				content = string.format(i18n("group_download_tip", HashUtil.BytesToString(pg.SettingsGroupMgr.GetInstance():GetTotalSize({
 					slot0
 				})))),
 				onYes = function ()
-					pg.SettingsGroupMgr:GetInstance():StartDownload(uv0, uv1)
+					pg.SettingsGroupMgr.GetInstance():StartDownload(uv0, uv1)
 				end
 			})
 		end
@@ -134,7 +134,7 @@ slot0.UpdateDownLoadState = function(slot0)
 	slot2 = BundleWizard.Inst:GetGroupMgr(slot1)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
-	slot9 = pg.SettingsGroupMgr:GetInstance():GetState(slot1)
+	slot9 = pg.SettingsGroupMgr.GetInstance():GetState(slot1)
 	slot10, slot11 = nil
 
 	if IsUnityEditor then
@@ -159,7 +159,7 @@ slot0.UpdateDownLoadState = function(slot0)
 		slot6 = 0
 		slot8 = false
 	elseif slot9 == pg.SettingsGroupMgr.State.Updating then
-		slot12, slot13 = pg.SettingsGroupMgr:GetInstance():GetCountProgress(slot1)
+		slot12, slot13 = pg.SettingsGroupMgr.GetInstance():GetCountProgress(slot1)
 		slot4 = i18n("word_maingroup_updating")
 		slot5 = string.format("(%d/%d)", slot12, slot13)
 		slot6 = slot12 / math.max(slot13, 1)

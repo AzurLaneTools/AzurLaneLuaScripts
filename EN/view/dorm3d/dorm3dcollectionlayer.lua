@@ -30,14 +30,12 @@ slot0.init = function(slot0)
 	slot2 = slot1:Find("content")
 	slot0.memoryView = Dorm3dMemorySubView.New(slot2, slot0.event, slot0.contextData)
 
-	slot0.memoryView:SetExtra(slot2:Find("memory"))
+	slot0.memoryView:Load(slot2:Find("memory").gameObject)
 
 	slot0.collectItemView = Dorm3dCollectionItemSubView.New(slot2, slot0.event, slot0.contextData)
 
-	slot0.collectItemView:SetExtra(slot2:Find("item"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot0.collectItemView:Load(slot2:Find("item").gameObject)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.SetPage = function(slot0, slot1)
@@ -69,7 +67,7 @@ end
 slot0.willExit = function(slot0)
 	slot0.memoryView:Destroy()
 	slot0.collectItemView:Destroy()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

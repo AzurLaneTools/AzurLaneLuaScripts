@@ -69,7 +69,7 @@ slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.callback = slot4
 
 	slot0:UpdateList()
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot0._tf, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	slot0.anim:Play("anim_monopolycar_pick_in")
 	slot0:CheckAuto(slot3)
 end
@@ -103,7 +103,7 @@ slot0.Hide = function(slot0)
 
 	slot0.selectedId = 0
 
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstagramList():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

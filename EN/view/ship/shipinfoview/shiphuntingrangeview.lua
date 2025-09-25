@@ -84,7 +84,7 @@ end
 
 slot0.HideHuntingRange = function(slot0)
 	setActive(slot0.huntingRange, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.huntingRange, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.huntingRange, slot0._tf)
 
 	slot0.onSelected = false
 end

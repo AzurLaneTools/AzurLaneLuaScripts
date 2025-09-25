@@ -37,7 +37,7 @@ slot0.Ctor = function(slot0)
 		shiptype = 1,
 		shipframe = 1
 	}
-	slot0.ui_tempCache = {}
+	slot0.keepDic = {}
 end
 
 slot0.Init = function(slot0, slot1)
@@ -54,6 +54,7 @@ slot0.Init = function(slot0, slot1)
 		end)
 	end
 
+	slot0:RegisterUIConst()
 	seriesAsync(slot2, slot1)
 end
 
@@ -161,8 +162,8 @@ slot0.IsSpineSkelCached = function(slot0, slot1)
 end
 
 slot6 = {
-	"ResPanel",
-	"WorldResPanel"
+	WorldResPanel = 3,
+	ResPanel = 3
 }
 slot7 = {
 	"ResPanel",
@@ -178,8 +179,14 @@ slot7 = {
 	"WorldUI"
 }
 
+slot0.RegisterUIConst = function(slot0)
+	for slot4, slot5 in ipairs(uv0) do
+		slot0:KeepUICache(slot5, true)
+	end
+end
+
 slot0.GetUI = function(slot0, slot1, slot2, slot3)
-	slot0:FromPlural("ui/" .. slot1, "", slot2, table.contains(uv0, slot1) and 3 or 1, slot3)
+	slot0:FromPlural("ui/" .. slot1, "", slot2, uv0[slot1] or 1, slot3)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
@@ -188,29 +195,18 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
-		if table.indexof(uv0, slot1) then
-			slot2.transform:SetParent(slot0.root, false)
-		end
+		setActiveViaLayer(slot2, false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
-		if table.indexof(uv1, slot1) or slot0.ui_tempCache[slot1] then
-			setActiveViaLayer(slot2.transform, false)
-			slot0.pools_plural[slot4]:Enqueue(slot2)
-		else
-			slot0.pools_plural[slot4]:Enqueue(slot2, true)
+		if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
+			slot0.pools_plural[slot4]:Clear()
 
-			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
-				slot0.pools_plural[slot4]:Clear()
-
-				slot0.pools_plural[slot4] = nil
-			end
+			slot0.pools_plural[slot4] = nil
 		end
 	else
-		uv2.Destroy(slot2)
+		uv0.Destroy(slot2)
 	end
-end
-
-slot0.HasCacheUI = function(slot0, slot1)
-	return slot0.pools_plural["ui/" .. slot1] ~= nil
 end
 
 slot0.PreloadUI = function(slot0, slot1, slot2)
@@ -229,20 +225,17 @@ slot0.PreloadUI = function(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-slot0.AddTempCache = function(slot0, slot1)
-	slot0.ui_tempCache[slot1] = true
-end
+slot0.KeepUICache = function(slot0, slot1, slot2)
+	slot3 = "ui/" .. slot1
+	slot0.keepDic[slot3] = slot2 or nil
 
-slot0.DelTempCache = function(slot0, slot1)
-	slot0.ui_tempCache[slot1] = nil
-end
+	if slot0.pools_plural[slot3] then
+		slot0.pools_plural[slot3]:SetKeep(tobool(slot0.keepDic[slot3]))
 
-slot0.ClearAllTempCache = function(slot0)
-	for slot4, slot5 in pairs(slot0.ui_tempCache) do
-		if slot5 and slot0.pools_plural["ui/" .. slot4] then
-			slot0.pools_plural[slot7]:Clear()
+		if slot0.pools_plural[slot3]:AllReturned() and (not slot0.callbacks[slot3] or #slot0.callbacks[slot3] == 0) then
+			slot0.pools_plural[slot3]:Clear()
 
-			slot0.pools_plural[slot7] = nil
+			slot0.pools_plural[slot3] = nil
 		end
 	end
 end
@@ -568,6 +561,8 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				if not uv2.pools_plural[uv3] then
 					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
+
+					uv2.pools_plural[uv3]:SetKeep(tobool(uv2.keepDic[uv3]))
 				end
 
 				uv6()

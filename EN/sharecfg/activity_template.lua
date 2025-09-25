@@ -38930,6 +38930,183 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50140] = {
+		mark = 20250925,
+		type = 124,
+		login_pop = 0,
+		config_id = 998560,
+		is_show = 49,
+		title_res_tag = "SkinDiscount_School",
+		id = 50140,
+		page_core = "",
+		config_data = {
+			{
+				9001
+			},
+			{
+				70168,
+				70330,
+				70331,
+				70332,
+				70333,
+				70334,
+				70335,
+				70336,
+				70339,
+				70340,
+				70383,
+				70384,
+				70385,
+				70386,
+				70387,
+				70388,
+				70389,
+				70614,
+				70615,
+				70727,
+				70728,
+				70729,
+				70730,
+				70731,
+				70732,
+				70733,
+				70874,
+				70892,
+				70893,
+				70894,
+				70896,
+				70337,
+				70999,
+				71032,
+				71036
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SportAndRacingSkinEncoreLoginPage",
+			ui_name = "SportAndRacingSkinEncoreLoginPage"
+		},
+		config_client = {
+			item_id = 65552,
+			sub_act_id = 50141
+		}
+	},
+	[50141] = {
+		mark = 20250925,
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50141,
+		page_core = "",
+		config_data = {
+			{
+				21845
+			},
+			{
+				21846
+			},
+			{
+				21847
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50142] = {
+		mark = 20250925,
+		page_info = "",
+		type = 68,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50142,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -39891,6 +40068,59 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage24"
 		}
 	},
+	[7025] = {
+		mark = 20250925,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7025,
+		page_core = "",
+		config_data = {
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage25"
+		}
+	},
 	[7101] = {
 		mark = 20230511,
 		type = 101,
@@ -40019,7 +40249,9 @@ pg.activity_template = {
 			12032,
 			12033,
 			12034,
-			12035
+			12035,
+			12036,
+			12037
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -66613,6 +66845,7 @@ pg.activity_template = {
 			50099,
 			50104,
 			50133,
+			50141,
 			6000,
 			6001,
 			6002,
@@ -67381,7 +67614,8 @@ pg.activity_template = {
 			5080,
 			5652,
 			5850,
-			50034
+			50034,
+			50142
 		},
 		[109] = {
 			5082,
@@ -67501,7 +67735,8 @@ pg.activity_template = {
 		},
 		[124] = {
 			5852,
-			50031
+			50031,
+			50140
 		},
 		[123] = {
 			5871
@@ -67539,7 +67774,8 @@ pg.activity_template = {
 			7021,
 			7022,
 			7023,
-			7024
+			7024,
+			7025
 		},
 		[101] = {
 			7101,
@@ -68544,6 +68780,9 @@ pg.activity_template = {
 		50136,
 		50137,
 		50139,
+		50140,
+		50141,
+		50142,
 		7001,
 		7011,
 		7012,
@@ -68559,6 +68798,7 @@ pg.activity_template = {
 		7022,
 		7023,
 		7024,
+		7025,
 		7101,
 		7103,
 		7104,

@@ -22,23 +22,17 @@ end
 
 table.removebyvalue = function(slot0, slot1, slot2)
 	slot3 = 0
-	slot4 = 1
-	slot5 = #slot0
 
-	while slot4 <= slot5 do
-		if slot0[slot4] == slot1 then
-			table.remove(slot0, slot4)
+	for slot7 = #slot0, 1, -1 do
+		if slot0[slot7] == slot1 then
+			table.remove(slot0, slot7)
 
 			slot3 = slot3 + 1
-			slot4 = slot4 - 1
-			slot5 = slot5 - 1
 
 			if not slot2 then
 				break
 			end
 		end
-
-		slot4 = slot4 + 1
 	end
 
 	return slot3
@@ -58,6 +52,8 @@ table.insertto = function(slot0, slot1, slot2)
 	for slot7 = 0, #slot1 - 1 do
 		slot0[slot7 + slot2] = slot1[slot7 + 1]
 	end
+
+	return slot0
 end
 
 table.isEmpty = function(slot0)

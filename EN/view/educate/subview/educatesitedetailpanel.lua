@@ -35,9 +35,8 @@ slot0.OnInit = function(slot0)
 	slot0.performName = slot0:findTF("name", slot0.performTF)
 
 	slot0:addListener()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER - 2
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = -2
 	})
 end
 
@@ -363,7 +362,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

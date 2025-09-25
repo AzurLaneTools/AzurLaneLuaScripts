@@ -1,6 +1,456 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[607011] = {
+		name = "Sardegnian Shallows and Sunshine",
+		change_skin = "",
+		desc = "Good day, my Commander. We have the day off to enjoy the sea breeze and the ocean waves~ Hehe, would you like to help yourself to some fruit?",
+		illustrator2 = -1,
+		ship_group = 60701,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "tianying_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "106",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 607011,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "tianying_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70531,
+		voice_actor = 126,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.024,
+					1.012,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					1.021,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.992,
+					1.014,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.583,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[607012] = {
+		name = "A Sip of Sardegnian Elegance",
+		change_skin = "",
+		desc = "Oh, my Commander? I didn't expect to meet you here! Fortune smiles upon me today. Hehe~ If you have a minute to spare, would you care to join me for a cup of tea?",
+		illustrator2 = -1,
+		ship_group = 60701,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "tianying_3",
+		bg_sp = "1101",
+		skin_type = 0,
+		shop_type_id = 7,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "146",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 607012,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "tianying_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70606,
+		voice_actor = 126,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.012,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.992,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.55,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[607020] = {
+		name = "Impero",
+		change_skin = "",
+		desc = "Aircraft carrier – Impero.",
+		illustrator2 = -1,
+		ship_group = 60702,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "diguo",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 607020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "diguo",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 309,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.62,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					1.56,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.28,
+							-1.89
+						}
+					}
+				}
+			}
+		}
+	},
+	[607021] = {
+		name = "Languid Librarian",
+		change_skin = "",
+		desc = "Seems school uniforms are all the hype. Veneto picked this one out for me. What are you dressed as, Commander? A teacher? A classmate?",
+		illustrator2 = -1,
+		ship_group = 60702,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "diguo_2",
+		bg_sp = "1102",
+		skin_type = 0,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "147",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 607021,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "diguo_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70677,
+		voice_actor = 309,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.62,
+					1.23,
+					0
+				}
+			},
+			plane = {
+				{
+					1.54,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.31,
+							-1.89
+						}
+					}
+				}
+			}
+		}
+	},
 	[607022] = {
 		name = "Drunken Drowsy Dreamer",
 		change_skin = "",
@@ -15157,482 +15607,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.5,
 							2.52,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[802019] = {
-		name = "Émile Bertin (Retrofit)",
-		change_skin = "",
-		desc = "Émile Bertin, retrofit complete! I feel like a completely new person! To show my gratitude, Commander, I'll perform a brand new dance for you!",
-		illustrator2 = -1,
-		ship_group = 80201,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "aimierbeierding_g",
-		bg_sp = "",
-		skin_type = 2,
-		shop_type_id = 9997,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 802019,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "aimierbeierding_g",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 108,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			60,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.58,
-					0.96,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.66,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.65,
-					0.98,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[802020] = {
-		name = "Jeanne d'Arc",
-		change_skin = "",
-		desc = "Light cruiser – Jeanne d'Arc.",
-		illustrator2 = -1,
-		ship_group = 80202,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "shengnvzhende",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 802020,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "shengnvzhende",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 146,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.398,
-					0.726,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.403,
-					0.721,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.583,
-					2.297,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.419,
-							2.377,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[802021] = {
-		name = "Saintess of the Sea",
-		change_skin = "",
-		desc = "\"O chosen hero, I bestow this sword upon you so that you may clear any obstacles in your path...\" Commander, how did that sound?",
-		illustrator2 = -1,
-		ship_group = 80202,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "shengnvzhende_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "134",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 802021,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "shengnvzhende_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70362,
-		voice_actor = 146,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.443,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.435,
-					1.155,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.635,
-					2.226,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.419,
-							2.325,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[802022] = {
-		name = "Patron Saintess of Celebration",
-		change_skin = "",
-		desc = "Oh, Commander, would you like to release a lantern? I hear they're a way to send wishes into the heavens above... May our Lord bless our companions and bring peace and joy to all.",
-		illustrator2 = -1,
-		ship_group = 80202,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "shengnvzhende_3",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "128",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 802022,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "shengnvzhende_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71111,
-		voice_actor = 146,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.515,
-					1.107,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.498,
-					1.123,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.684,
-					2.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.354,
-							2.286,
 							0
 						}
 					}

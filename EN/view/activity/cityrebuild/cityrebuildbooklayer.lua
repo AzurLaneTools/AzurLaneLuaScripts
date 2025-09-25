@@ -565,7 +565,7 @@ end
 slot0.willExit = function(slot0)
 	slot0:RemoveTimer()
 	slot0:RemoveAllTimers()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.ShouldShowTip = function()

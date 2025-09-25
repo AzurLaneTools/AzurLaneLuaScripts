@@ -175,7 +175,7 @@ slot0.CloseBook = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.parent)
 end
 
 return slot0

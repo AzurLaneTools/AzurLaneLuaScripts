@@ -2625,6 +2625,12 @@ pg.skill_data_template = setmetatable({
 		801902,
 		801905,
 		801907,
+		801910,
+		801920,
+		801931,
+		801932,
+		801935,
+		801937,
 		901010,
 		901020,
 		902010,
@@ -173908,6 +173914,282 @@ Additionally, once per battle each, the following effects activate based on the 
 		id = 801907,
 		system_transform = {
 			[51.0] = 801907
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801910] = {
+		desc_get = "",
+		name = "Strategic Assistance",
+		type = 3,
+		max_level = 10,
+		desc = "During battle, if your Airspace Control state is not Air Denial or Air Incapability: increases this ship's FP and TRP by $1 and increases your frontmost Vanguard ship's FP by $2.",
+		id = 801910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[801920] = {
+		desc_get = "",
+		name = "Offensive Stance",
+		type = 1,
+		max_level = 10,
+		desc = "If there is a CV or CVL in your fleet: decreases your Main Fleet's DMG taken by $1 until the battle ends. When this ship fires her torpedoes: $2 chance to fire another wave of torpedoes.",
+		id = 801920,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			}
+		}
+	},
+	[801931] = {
+		desc_get = "",
+		name = "Ashen Might - Dewey I",
+		type = 3,
+		max_level = 1,
+		desc = "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801931,
+		system_transform = {
+			[51.0] = 801935
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801932] = {
+		desc_get = "",
+		name = "Ashen Might - Dewey II",
+		type = 3,
+		max_level = 1,
+		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801932,
+		system_transform = {
+			[51.0] = 801937
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801935] = {
+		desc_get = "",
+		name = "Ashen Might - Dewey I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+		id = 801935,
+		system_transform = {
+			[51.0] = 801935
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801937] = {
+		desc_get = "",
+		name = "Ashen Might - Dewey II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+		id = 801937,
+		system_transform = {
+			[51.0] = 801937
 		},
 		world_death_mark = {
 			1

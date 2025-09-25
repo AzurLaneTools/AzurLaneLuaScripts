@@ -22,15 +22,15 @@ slot0.Flush = function(slot0, slot1)
 end
 
 slot0.GetModelId = function(slot0)
-	if slot0:IsSelf() then
-		return 0
-	else
-		return pg.island_dress_commander[slot0:GetCurCommderId()].model
-	end
+	return 0
 end
 
 slot0.GetDressByType = function(slot0, slot1)
-	return slot0.currentDressTypeDic[slot1]
+	return slot0.currentDressTypeDic[slot1] or 0
+end
+
+slot0.GetCurrentColorByDressId = function(slot0, slot1)
+	return slot0.dressColorDic[slot1] or 0
 end
 
 slot0.GetHairFaceBodyDress = function(slot0)
@@ -80,24 +80,38 @@ slot0.UpdateName = function(slot0, slot1)
 end
 
 slot0.InitDressupData = function(slot0, slot1)
-	if slot1.cur_dress then
-		slot0.currentDressTypeDic = {}
-		slot2 = ipairs
-		slot3 = slot1.cur_dress or {}
-
-		for slot5, slot6 in slot2(slot3) do
-			slot0.currentDressTypeDic[slot6.type] = slot6.id
-		end
-	end
-end
-
-slot0.ChangeDressupData = function(slot0, slot1)
 	slot0.currentDressTypeDic = {}
 	slot2 = ipairs
-	slot3 = slot1 or {}
+	slot3 = slot1.cur_dress or {}
 
 	for slot5, slot6 in slot2(slot3) do
 		slot0.currentDressTypeDic[slot6.type] = slot6.id
+	end
+
+	slot0.dressColorDic = {}
+	slot2 = ipairs
+	slot3 = slot1.dress_color or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot0.dressColorDic[slot6.id] = slot6.color
+	end
+end
+
+slot0.ChangeDressupData = function(slot0, slot1, slot2)
+	slot0.currentDressTypeDic = {}
+	slot3 = ipairs
+	slot4 = slot1 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0.currentDressTypeDic[slot7.type] = slot7.id
+	end
+
+	slot0.dressColorDic = {}
+	slot3 = ipairs
+	slot4 = slot2 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0.dressColorDic[slot7.id] = slot7.color
 	end
 end
 

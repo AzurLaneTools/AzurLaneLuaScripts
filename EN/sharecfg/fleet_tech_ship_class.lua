@@ -3913,6 +3913,17 @@ pg.fleet_tech_ship_class = {
 			970109
 		}
 	},
+	[970110] = {
+		shiptype = 1,
+		name = "Dewey META",
+		t_level = 1,
+		id = 970110,
+		t_level_1 = 16,
+		nation = 97,
+		ships = {
+			970110
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -4702,6 +4713,7 @@ pg.fleet_tech_ship_class = {
 		970107,
 		970108,
 		970109,
+		970110,
 		970201,
 		970202,
 		970203,

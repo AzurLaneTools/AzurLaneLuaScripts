@@ -175,23 +175,17 @@ slot0.register = function(slot0)
 	if slot0.contextData.continuousBattleTimes and slot0.contextData.continuousBattleTimes > 0 then
 		if slot2 == SYSTEM_BOSS_SINGLE or slot2 == SYSTEM_BOSS_SINGLE_VARIABLE then
 			if not getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
-				slot3 = CreateShell(slot0.contextData)
-				slot3.LayerWeightMgr_weight = LayerWeightConst.BASE_LAYER
-
 				slot0:addSubLayers(Context.New({
 					mediator = BossSingleContinuousOperationMediator,
 					viewComponent = BossSingleContinuousOperationPanel,
-					data = slot3
+					data = CreateShell(slot0.contextData)
 				}))
 			end
 		elseif not getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
-			slot3 = CreateShell(slot0.contextData)
-			slot3.LayerWeightMgr_weight = LayerWeightConst.BASE_LAYER
-
 			slot0:addSubLayers(Context.New({
 				mediator = ContinuousOperationMediator,
 				viewComponent = ContinuousOperationPanel,
-				data = slot3
+				data = CreateShell(slot0.contextData)
 			}))
 		end
 

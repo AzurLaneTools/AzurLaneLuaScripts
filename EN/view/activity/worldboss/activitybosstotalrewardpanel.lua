@@ -15,9 +15,8 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		lockGlobalBlur = true,
-		weight = LayerWeightConst.THIRD_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		lockGlobalBlur = true
 	})
 	slot0:UpdateView()
 
@@ -31,7 +30,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:SkipAnim()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.UpdateView = function(slot0)

@@ -37,7 +37,6 @@ slot0.setProjectList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
 	slot0.multLineTF = slot0:findTF("list_mult_line")
 	slot0.multLineContain = slot0:findTF("list_mult_line/content")
 	slot0.multLineTpl = slot0:findTF("project_tpl", slot0.multLineContain)
@@ -325,9 +324,7 @@ slot0.playGetShipAnimate = function(slot0, slot1, slot2)
 		uv0.canvasgroup.blocksRaycasts = true
 
 		uv1()
-	end, "ui", pg.ship_data_create_material[slot2].build_anim or "Building", true, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	}, 4.5, true)
+	end, "ui", pg.ship_data_create_material[slot2].build_anim or "Building", true, false, 4.5, true)
 end
 
 slot0.willExit = function(slot0)

@@ -24,9 +24,8 @@ slot0.init = function(slot0)
 	slot0.resTF = slot0:findTF("res/content", slot0.windowTF)
 
 	setText(slot0:findTF("tip", slot0.windowTF), i18n("child_close_tip"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() + 1
+	slot0:BlurPanel(slot0._tf, {
+		groupDelta = 1
 	})
 end
 
@@ -194,7 +193,7 @@ slot0.willExit = function(slot0)
 		EducateHelper.UpdateDropsData(slot0.drops)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()

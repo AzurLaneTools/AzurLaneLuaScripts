@@ -10,29 +10,40 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Start = function(slot0, slot1, slot2)
-	slot4 = slot1.unitId or 0
+	slot3 = BuildVector3(slot1.position)
+	slot5 = slot1.speed or 1.5
 	slot0.hideFlag = defaultValue(slot1.hide, false)
-	slot7 = slot0:FindUnit(slot4, slot1.unitType or IslandConst.UNIT_LIST_OBJ)
+
+	if not slot0:FindUnit(slot1.unitId or 0, slot1.unitType or IslandConst.UNIT_LIST_OBJ) then
+		onNextTick(slot2)
+
+		return
+	end
 
 	slot7:Enable()
+	slot7:WarpAgent()
 	assert(slot7, "unit is nil" .. slot4)
 
 	slot0.unit = slot7
 	slot0.callback = slot2
 
-	slot7:SetNavAgentStopDistance(0.001)
-	slot7:SetDestination(BuildVector3(slot1.position), slot1.speed or 1.5)
+	slot7:SetNavAgentStopDistance(0.26)
+	slot7:SetDestination(slot3, slot5, slot1.radius, slot1.charaRadius)
 
 	slot0.starting = true
 end
 
+slot0.IsSameUnit = function(slot0, slot1)
+	if not slot0.unit then
+		return false
+	end
+
+	return slot1.id == slot0.unit.id and slot1.unitType == slot0.unit.unitType
+end
+
 slot0.FindUnit = function(slot0, slot1, slot2)
 	if slot1 == 0 then
-		for slot6, slot7 in ipairs(slot0.unitList) do
-			if isa(slot7, IslandPlayerUnit) then
-				return slot7
-			end
-		end
+		return slot0:GetView().player
 	end
 
 	for slot6, slot7 in ipairs(slot0.unitList) do

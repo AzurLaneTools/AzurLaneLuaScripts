@@ -168494,6 +168494,31 @@ _G.pg.base.item_virtual_data_statistics[65105] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65106] = {
+	drop_gold_max = 0,
+	name = "Progress Pts",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign, used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7025,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65106,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -169849,6 +169874,31 @@ _G.pg.base.item_virtual_data_statistics[65551] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65551,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65552] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Sports & Race)",
+	display = "During the campaign, this coupon can used to gain a discount of 300 Gems when buying a Sports Time or Race Queen series skin in the Shop.\nValid until 2025.10.22 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50142,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65552,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182158,6 +182208,68 @@ _G.pg.base.item_virtual_data_statistics[86218] = {
 			1820
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86219] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Purchasing this item will give you 1 random, unowned skin from the following list (if you already own all applicable skins, you will instead receive 680 Gems). All skins share the same acquisition probability:
+
+Unicorn - Champion of Unicorn;
+Le Téméraire - Cheering Star;
+Suffren - Impulsive Incident;
+West Virginia - Scenic Rhapsody;
+Lyon - Paired Exercise;
+Painlevé - Team Stretching;
+Marseillaise - Fighting Angel's Regimen;
+Z16 - Guaranteed Grand Slam!;
+Z24 - The Devil on the Court;
+Kirov - High Jump Star;
+Blücher - High-Altitude Head Over Heels;
+Brünhilde - Grain-Seizing Grani;
+Hornet - Cheering Justice!;
+U-96 - How Heavy Are Those Barbells?;
+Bache - Gorgeous Speed-star;
+Cygnet - Royal Fanfare;
+Marblehead - Boxing Girl!;
+Reno - Biggest Little Cheerleader;
+Minneapolis - eXtreme Games;
+Baltimore - Black Ace;
+Bremerton - Scorching-Hot Training;
+Casablanca - Cheer Squad on Break;
+Intrepid - One Intrepid Pitch;
+Bluegill - Up-And-Coming Infielder;
+Yoizuki - Sports Festival Preparations;
+Hammann - Blushing Fellow;
+Prinz Eugen - Final Lap;
+Enterprise - Wind Catcher;
+Takao - Full Throttle Charmer;
+Atago - Stunning Speedster;
+Prince of Wales - The Laureate's Victory Lap;
+Duke of York - Prestige of the Glorious Formula;
+Shoukaku - Sororal Wings;
+Zuikaku - Zoom Like the Wind;
+Taihou - Enraptured Companion;]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86219,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

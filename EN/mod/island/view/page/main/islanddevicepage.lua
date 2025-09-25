@@ -1,34 +1,27 @@
 slot0 = class("IslandDevicePage", import("...base.IslandBasePage"))
+slot0.SPECIAL_BTN = {
+	ship_order = "IslandDeviceShipOrderBtn",
+	order = "IslandDeviceOrderBtn"
+}
 
 slot0.getUIName = function(slot0)
 	return "IslandDeviceUI"
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.systemTimeUtil = LocalSystemTimeUtil.New()
 	slot0.exitBtn = slot0._tf:Find("panel/exit")
-	slot0.timeTxt = slot0._tf:Find("panel/time"):GetComponent(typeof(Text))
-	slot0.electricTF = slot0._tf:Find("panel/battery/electric")
-	slot0.btnEmptyTF = slot0._tf:Find("panel/content_empty")
-	slot0.btnContainer = slot0._tf:Find("panel/content")
-	slot0.btnTpl = slot0.btnContainer:Find("tpl")
-
-	setActive(slot0.btnTpl, false)
-
+	slot0.timeTxt = slot0._tf:Find("panel/top/time"):GetComponent(typeof(Text))
+	slot0.electricTF = slot0._tf:Find("panel/top/battery/electric")
 	slot0.bannerTF = slot0._tf:Find("panel/banner")
 	slot0.bannerEmptyTF = slot0._tf:Find("panel/banner_empty")
-	slot0.scrollSnap = BannerScrollRect4Mellow.New(slot0.bannerTF:Find("mask/content"), slot0.bannerTF:Find("dots"))
-	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
-	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
+	slot0.scrollSnap = IslandBannerScrollRect.New(slot0.bannerTF:Find("mask/content"), slot0.bannerTF:Find("dots"))
+	slot0.btnContainer = slot0._tf:Find("panel/btn_container")
+	slot0.systemTimeUtil = LocalSystemTimeUtil.New()
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf:Find("close"), function ()
-		uv0.dftAniEvent:SetEndEvent(function ()
-			uv0.dftAniEvent:SetEndEvent(nil)
-			uv0:Hide()
-		end)
-		uv0.animationPlayer:Play("IslandDeviceUI_out")
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.exitBtn, function ()
 		uv0:emit(BaseUI.ON_HOME)
@@ -40,23 +33,21 @@ end
 
 slot0.InitBtns = function(slot0)
 	slot0.btns = {}
-	slot1 = pg.island_main_btns.get_id_list_by_main_type[2]
-	slot5 = {
-		function (slot0)
-			return pg.island_main_btns[slot0].order
-		end,
-		slot6
-	}
+	slot2 = {}
 
-	slot6 = function(slot0)
-		return slot0
+	for slot6, slot7 in ipairs(pg.island_main_btns.get_id_list_by_main_type[2]) do
+		slot2[pg.island_main_btns[slot7].btn_name] = slot7
 	end
 
-	table.sort(slot1, CompareFuncs(slot5))
-
-	for slot5, slot6 in ipairs(slot1) do
-		slot0.btns[pg.island_main_btns[slot6].btn_name] = IslandDeviceBaseBtn.New(cloneTplTo(slot0.btnTpl, slot0.btnContainer), slot0.event, slot6)
-	end
+	eachChild(slot0.btnContainer, function (slot0)
+		if uv0[slot0.name] then
+			if uv1.SPECIAL_BTN[slot1] then
+				uv2.btns[slot1] = _G[uv1.SPECIAL_BTN[slot1]].New(slot0, uv2.event, slot2)
+			else
+				uv2.btns[slot1] = IslandDeviceBaseBtn.New(slot0, uv2.event, slot2)
+			end
+		end
+	end)
 end
 
 slot0.InitBanner = function(slot0)
@@ -152,11 +143,16 @@ slot0.OnHide = function(slot0)
 	end
 end
 
+slot0.OnEnable = function(slot0)
+	slot0:OnShow()
+end
+
 slot0.OnDisable = function(slot0)
 	slot0:OnHide()
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:RemoveTimer()
 	slot0.systemTimeUtil:Dispose()
 
 	slot0.systemTimeUtil = nil
@@ -186,12 +182,8 @@ slot0.BannerSkip = function(slot0, slot1)
 	if slot1.type == IslandConst.BANNER_TYPE_OPEN_URL then
 		Application.OpenURL(slot1.param)
 	elseif slot1.type == IslandConst.BANNER_TYPE_SWITCH_MAP then
-		slot0.dftAniEvent:SetEndEvent(function ()
-			uv0.dftAniEvent:SetEndEvent(nil)
-			uv0:Hide()
-			uv0:emit(IslandBaseMediator.SWITCH_MAP, unpack(uv1.param))
-		end)
-		slot0.animationPlayer:Play("IslandDeviceUI_out")
+		slot0:Hide()
+		slot0:emit(IslandBaseMediator.SWITCH_MAP, unpack(slot1.param))
 	elseif slot1.type == IslandConst.BANNER_TYPE_OPEN_PAGE then
 		slot0:Hide()
 		slot0:emit(IslandMediator.OPEN_PAGE, slot1.param[1], slot1.param[2])

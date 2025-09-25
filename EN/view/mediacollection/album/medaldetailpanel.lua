@@ -8,7 +8,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._parent = slot2
-	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	pg.DelegateInfo.New(slot0)
 
@@ -116,11 +115,9 @@ slot0.SetActive = function(slot0, slot1)
 	slot0._active = slot1
 
 	if slot1 then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._go, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(slot0._go)
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._go, slot0._parent._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._go, slot0._parent._tf)
 	end
 end
 

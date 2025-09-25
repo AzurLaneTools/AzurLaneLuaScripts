@@ -65,7 +65,6 @@ slot0.openMsgBox = function(slot0)
 		modal = true,
 		type = MSGBOX_TYPE_ACCOUNTDELETE,
 		title = pg.MsgboxMgr.TITLE_INFORMATION,
-		weight = LayerWeightConst.TOP_LAYER,
 		onYes = function (slot0)
 			if slot0 == i18n("box_account_del_target") then
 				pg.SdkMgr.GetInstance():AccountDelete()

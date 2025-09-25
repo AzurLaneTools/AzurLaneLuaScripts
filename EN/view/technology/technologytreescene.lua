@@ -122,9 +122,7 @@ slot0.addBtnListener = function(slot0)
 	onToggle(slot0, slot0.switchBtn, function (slot0)
 		if slot0 then
 			setActive(uv0.pointTF, false)
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.blurPanel, {
-				weight = LayerWeightConst.SECOND_LAYER
-			})
+			pg.UIMgr.GetInstance():OverlayPanel(uv0.blurPanel)
 			uv0:emit(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER)
 		else
 			setActive(uv0.pointTF, true)
@@ -136,8 +134,7 @@ slot0.addBtnListener = function(slot0)
 		if pg.gametip.help_technologytree then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.help_technologytree.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.help_technologytree.tip
 			})
 		end
 	end, SFX_PANEL)

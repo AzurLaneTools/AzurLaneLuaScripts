@@ -34,9 +34,8 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() + 1
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1
 	})
 	setText(slot0.monthTF, EducateHelper.GetShowMonthNumber(slot0.curTime.month))
 	setText(slot0.weekTF, i18n("word_which_week", slot0.curTime.week))
@@ -46,7 +45,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()

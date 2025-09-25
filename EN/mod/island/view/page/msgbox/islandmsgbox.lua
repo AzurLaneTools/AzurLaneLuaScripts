@@ -19,6 +19,12 @@ slot0.TYPE_SYSTEM_THEME = 17
 slot0.TYPE_ORDER_TENDENCY = 18
 slot0.TYPE_SEND_DRESS = 19
 slot0.TYPE_AOGRA_SAVE_CD = 20
+slot0.TYPE_CHAT_SETTINGS = 21
+slot0.TYPE_DRAW_AWARD_COUNT = 22
+slot0.TYPE_DRAW_AWARD_LIST = 23
+slot0.TYPE_DRAW_AWARD_ALL = 24
+slot0.TYPE_TICKET_EXPIRED = 25
+slot0.TYPE_DRESS_WEAR_CONFIRE = 26
 
 slot0.getUIName = function(slot0)
 	return "IslandMsgboxUI"
@@ -30,7 +36,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.tempWindows = {}
 	slot0.residentWindows = {}
 	slot0.PAGES = {
-		[uv0.TYPE_COMMON] = IslandCommonMsgboxWindow,
+		[uv0.TYPE_COMMON] = IslandCommonMsgboxEXWindow,
 		[uv0.TYPE_ITEM] = IslandItemMsgboxWindow,
 		[uv0.TYPE_SHIP_OWN_STATUS] = IslandMsgBoxForStatusWindow,
 		[uv0.TYPE_ITEM_INFO] = IslandMsgBoxSingleItemWindow,
@@ -48,12 +54,27 @@ slot0.OnLoaded = function(slot0)
 		[uv0.TYPE_SYSTEM_THEME] = IslandSystemThemeMsgboxWindow,
 		[uv0.TYPE_ORDER_TENDENCY] = IslandOrderTendencyPage,
 		[uv0.TYPE_SEND_DRESS] = IslandSendDressUpMsgboxWindow,
-		[uv0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow
+		[uv0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow,
+		[uv0.TYPE_CHAT_SETTINGS] = IslandChatSettingsMsgboxWindow,
+		[uv0.TYPE_DRAW_AWARD_COUNT] = IslandDrawAwardCountWindow,
+		[uv0.TYPE_DRAW_AWARD_LIST] = IslandDrawAwardListWindow,
+		[uv0.TYPE_DRAW_AWARD_ALL] = IslandDrawAwardAllWindow,
+		[uv0.TYPE_TICKET_EXPIRED] = IslandTicketExpiredMsgBoxWindow,
+		[uv0.TYPE_DRESS_WEAR_CONFIRE] = IslandDressWearMsgboxWindow
 	}
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0._tf, function ()
+	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
+
+	for slot5, slot6 in ipairs({
+		"rtBg",
+		"rtPages"
+	}) do
+		slot0[slot6] = slot1[slot5].transform
+	end
+
+	onButton(slot0, slot0.rtBg, function ()
 		uv0:HideWindow()
 	end, SFX_PANEL)
 end
@@ -111,7 +132,7 @@ slot0.FindOrCreateWindow = function(slot0, slot1, slot2)
 
 		assert(slot5, slot1)
 
-		slot4 = slot5.New(slot0, slot0._tf)
+		slot4 = slot5.New(slot0, slot0.rtPages)
 	end
 
 	return slot4
@@ -141,10 +162,10 @@ slot0.HideWindow = function(slot0, slot1)
 	if #slot0.stack == 0 then
 		slot0:Hide()
 
-		if slot0.callback then
-			slot0.callback()
+		slot0.callback = nil
 
-			slot0.callback = nil
+		if slot0.callback then
+			slot3()
 		end
 	end
 end

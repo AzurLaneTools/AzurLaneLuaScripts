@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					19
+					25
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					24
+					10,
+					8
 				},
 				{
 					23,
@@ -125,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					19
+					25
 				},
 				{
 					0,
@@ -136,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					24
+					10,
+					8
 				},
 				{
 					23,
@@ -152,17 +152,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene core activity",
-			{
-				coreName = "EighthAnniversaryJpCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					1
 				},
 				{
 					0,
@@ -173,8 +170,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					30
+					10,
+					8
 				},
 				{
 					23,
@@ -199,7 +196,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					12
+					25
 				},
 				{
 					0,
@@ -210,8 +207,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					24
+					10,
+					8
 				},
 				{
 					23,
@@ -226,17 +223,14 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					9,
-					12
+					25
 				},
 				{
 					0,
@@ -248,7 +242,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					2
+					8
 				},
 				{
 					23,
@@ -258,49 +252,37 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
+	[9] = {
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
+			"scene dockyard"
+		},
+		time = {
 			{
-				goToPray = true
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -371,6 +353,38 @@ pg.activity_banner = {
 		id = 101,
 		pic = "jingbing"
 	},
+	[102] = {
+		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#6dd329>(Increase EXP by 5% for 60 minutes)</color>",
+		type = 10,
+		id = 102,
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
 	[200] = {
 		param = "",
 		time = "always",
@@ -401,7 +415,6 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
 			9
 		},
 		[9] = {
@@ -416,7 +429,8 @@ pg.activity_banner = {
 		},
 		[10] = {
 			100,
-			101
+			101,
+			102
 		},
 		[13] = {
 			200,
@@ -432,7 +446,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
 		9,
 		90,
 		91,
@@ -440,6 +453,7 @@ pg.activity_banner = {
 		99,
 		100,
 		101,
+		102,
 		200,
 		201,
 		202

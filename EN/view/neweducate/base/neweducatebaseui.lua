@@ -8,7 +8,7 @@ slot0.ON_BOX = "NewEducateBaseUI.ON_BOX"
 slot0.ON_SHOP = "NewEducateBaseUI.ON_SHOP"
 
 slot0.getGroupName = function(slot0)
-	return LayerWeightConst.GROUP_EDUCATE
+	return "NewEducateBaseUI"
 end
 
 return slot0

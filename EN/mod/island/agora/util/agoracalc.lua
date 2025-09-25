@@ -48,11 +48,11 @@ slot0.GetAreaCenterPos = function(slot0)
 end
 
 slot0.GetCenterScreenPos = function()
-	return uv0.CameraPosToHitPoint(IslandCameraMgr.instance._mainCamera, IslandConst.LAYER_AGORA)
+	return uv0.CameraPosToHitPoint(IslandCameraMgr.instance._mainCamera, IslandConst.LAYER_GROUND)
 end
 
 slot0.ScreenPostion2MapPosition = function(slot0)
-	if uv0.ScreenToHitPoint(IslandCameraMgr.instance._mainCamera, slot0, IslandConst.LAYER_AGORA) then
+	if uv0.ScreenToHitPoint(IslandCameraMgr.instance._mainCamera, slot0, IslandConst.LAYER_GROUND) then
 		return uv0.WorldPosition2MapPosition(slot2)
 	else
 		return nil
@@ -60,7 +60,7 @@ slot0.ScreenPostion2MapPosition = function(slot0)
 end
 
 slot0.WorldPosition2MapPosition = function(slot0)
-	return Vector2(math.ceil(slot0.x), math.ceil(slot0.z))
+	return Vector2(math.floor(slot0.x + 0.5), math.floor(slot0.z + 0.5))
 end
 
 slot0.WorldPosition2ScreenPosition = function(slot0)
@@ -86,10 +86,8 @@ slot0.MapPosition2WorldPosition = function(slot0)
 end
 
 slot0.CameraPosToHitPoint = function(slot0, slot1)
-	slot5, slot6 = Physics.Raycast(slot0.transform.position, slot0.transform.forward, nil, math.huge, LuaHelper.NameToLayer(slot1))
-
-	if slot5 then
-		return slot6.point
+	if IslandHelper.Raycast(slot0.transform.position, slot0.transform.forward, slot1).w == 1 then
+		return Vector3(slot4.x, slot4.y, slot4.z)
 	else
 		return nil
 	end
@@ -97,10 +95,9 @@ end
 
 slot0.ScreenToHitPoint = function(slot0, slot1, slot2)
 	slot4 = slot1
-	slot8, slot9 = Physics.Raycast(slot0:ViewportPointToRay(pg.UIMgr.GetInstance().uiCameraComp:ScreenToViewportPoint(Vector3(slot4.x, slot4.y, 0))), nil, math.huge, LuaHelper.NameToLayer(slot2))
 
-	if slot8 then
-		return slot9.point
+	if IslandHelper.RaycastRay(slot0:ViewportPointToRay(pg.UIMgr.GetInstance().uiCameraComp:ScreenToViewportPoint(Vector3(slot4.x, slot4.y, 0))), slot2).w == 1 then
+		return Vector3(slot7.x, slot7.y, slot7.z)
 	else
 		return nil
 	end
@@ -195,6 +192,10 @@ end
 
 slot0.BuildScreenShootSavePath = function(slot0)
 	return Application.persistentDataPath .. "/screen_scratch/island_theme" .. slot0 .. ".jpg"
+end
+
+slot0.GetVirtualInteractUnitId = function(slot0, slot1)
+	return slot0 * 10 + slot1 - 1
 end
 
 return slot0

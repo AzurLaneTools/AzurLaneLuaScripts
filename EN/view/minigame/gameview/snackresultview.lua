@@ -20,7 +20,7 @@ end
 slot0.OnDestroy = function(slot0)
 	slot0.lockBackPress = false
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.initUI = function(slot0)

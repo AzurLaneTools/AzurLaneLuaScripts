@@ -74,19 +74,15 @@ slot0.UpdateUI = function(slot0)
 end
 
 slot0.OnSelected = function(slot0, slot1)
-	slot2 = pg.UIMgr.GetInstance()
-
 	if slot1 then
-		slot2:OverlayPanelPB(slot0._parentTf, {
+		slot0:OverlayPanel(slot0._parentTf, {
 			pbList = {
 				slot0.stylePanel:Find("style_desc"),
 				slot0.stylePanel:Find("frame")
-			},
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			}
 		})
 	else
-		slot2:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)
+		slot0:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)
 	end
 
 	slot0.onSelected = slot1

@@ -33,6 +33,10 @@ slot0.SetCurrentColor = function(slot0, slot1)
 	slot0.color_id = slot1
 end
 
+slot0.GetCurrentColor = function(slot0, slot1)
+	return slot0.color_id or 0
+end
+
 slot0.AddSkinColor = function(slot0, slot1)
 	table.insert(slot0.color_list, slot1)
 end

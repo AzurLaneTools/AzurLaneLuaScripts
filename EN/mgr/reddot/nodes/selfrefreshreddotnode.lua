@@ -39,7 +39,7 @@ slot0.Resume = function(slot0)
 	end
 end
 
-slot0.Puase = function(slot0)
+slot0.Pause = function(slot0)
 	if slot0.timer then
 		slot0.timer:Pause()
 	end

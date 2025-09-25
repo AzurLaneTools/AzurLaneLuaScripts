@@ -80,9 +80,13 @@ slot0.UpdataItem = function(slot0, slot1, slot2)
 
 	setActive(slot2:Find("dot/finished"), slot3 <= slot0.level)
 
-	slot7 = slot0.expData[slot0.rankIds[slot1]] or 0
+	slot8 = 0
 
-	setSlider(slot2:Find("dot/silder"), 0, 1, (slot0.sales - slot7) / (slot0.expData[slot3] - slot7))
+	if slot0.expData[slot3] ~= (slot0.expData[slot0.rankIds[slot1]] or 0) then
+		slot8 = (slot0.sales - slot7) / (slot5 - slot7)
+	end
+
+	setSlider(slot2:Find("dot/silder"), 0, 1, slot8)
 end
 
 slot0.UpdataSummary = function(slot0)

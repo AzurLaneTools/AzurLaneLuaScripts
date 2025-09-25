@@ -75,12 +75,11 @@ slot0.init = function(slot0)
 	onButton(slot0, slot0.rtLackWindow:Find("panel/title/btn_close"), function ()
 		uv0:HideLackWindow()
 	end, SFX_CANCEL)
-	pg.UIMgr.GetInstance():TempOverlayPanelPB(slot0.rtGiftPanel, {
+	slot0:TempOverlayPanelPB(slot0.rtGiftPanel, {
 		pbList = {
 			slot0.rtGiftPanel
 		},
-		baseCamera = slot0.contextData.baseCamera,
-		groupName = LayerWeightConst.GROUP_DORM3D
+		baseCamera = slot0.contextData.baseCamera
 	})
 end
 
@@ -366,15 +365,12 @@ slot0.OpenInfoWindow = function(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips("without shop config")
 	end, SFX_CONFIRM)
 	setActive(slot0.rtInfoWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtInfoWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	slot0:OverlayPanel(slot0.rtInfoWindow)
 end
 
 slot0.HideInfoWindow = function(slot0)
 	setActive(slot0.rtInfoWindow, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtInfoWindow, slot0._tf)
+	slot0:UnOverlayPanel(slot0.rtInfoWindow, slot0._tf)
 end
 
 slot0.OpenLackWindow = function(slot0, slot1)
@@ -416,15 +412,12 @@ slot0.OpenLackWindow = function(slot0, slot1)
 		end
 	end)
 	setActive(slot0.rtLackWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtLackWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	slot0:OverlayPanel(slot0.rtLackWindow)
 end
 
 slot0.HideLackWindow = function(slot0)
 	setActive(slot0.rtLackWindow, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtLackWindow, slot0._tf)
+	slot0:UnOverlayPanel(slot0.rtLackWindow, slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -452,7 +445,7 @@ slot0.willExit = function(slot0)
 		slot0:HideLackWindow()
 	end
 
-	pg.UIMgr.GetInstance():TempUnblurPanel(slot0.rtGiftPanel, slot0._tf)
+	slot0:TempUnOverlayPanelPB(slot0.rtGiftPanel, slot0._tf)
 end
 
 return slot0

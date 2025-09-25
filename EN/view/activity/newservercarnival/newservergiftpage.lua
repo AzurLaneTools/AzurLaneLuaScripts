@@ -79,9 +79,10 @@ slot0.confirm = function(slot0, slot1)
 	end
 
 	slot0:emit(NewServerCarnivalMediator.GIFT_OPEN_ITEM_PANEL, {
-		isChargeType = false,
 		isLocalPrice = false,
+		isChargeType = false,
 		isMonthCard = false,
+		commodity = slot1,
 		icon = slot4.icon,
 		name = slot4.name,
 		tipExtra = i18n("charge_title_getitem"),

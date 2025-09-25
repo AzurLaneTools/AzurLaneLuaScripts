@@ -287,6 +287,61 @@ pg.dorm3d_recall = {
 			1051701
 		}
 	},
+	[121] = {
+		story_id = 120510,
+		name = "Hearts Under Lock and Key",
+		type = 1,
+		id = 121,
+		image = "recall_121",
+		unlock_text = "Unlocked at Intimacy Lv. 4.",
+		desc = "Love bursts forth as chains bind heart to heart.",
+		unlock = {
+			1,
+			30707,
+			4
+		}
+	},
+	[122] = {
+		story_id = 120520,
+		name = "Love Enshackled",
+		type = 1,
+		id = 122,
+		image = "recall_122",
+		unlock_text = "Unlocked at Intimacy Lv. 8.",
+		desc = "Safety and security... as long as you're trapped by my side.",
+		unlock = {
+			1,
+			30707,
+			8
+		}
+	},
+	[123] = {
+		story_id = 120530,
+		name = "Afternoon Sleeptalking",
+		type = 1,
+		id = 123,
+		image = "recall_123",
+		unlock_text = "Unlocked at Intimacy Lv. 12.",
+		desc = "What would it be like to dream under the warm sunlight? Let's find out together.",
+		unlock = {
+			1,
+			30707,
+			12
+		}
+	},
+	[124] = {
+		story_id = 120541,
+		name = "The Warmth of Her Lips",
+		type = 1,
+		id = 124,
+		image = "recall_124",
+		unlock_text = "Unlocked after gifting Sincere Loafers.",
+		desc = "What will happen? Will you notice me right under your nose, or will my lips find yours first?",
+		unlock = {
+			3,
+			3070701
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -350,6 +405,18 @@ pg.dorm3d_recall = {
 		},
 		[110541] = {
 			104
+		},
+		[120510] = {
+			121
+		},
+		[120520] = {
+			122
+		},
+		[120530] = {
+			123
+		},
+		[120541] = {
+			124
 		}
 	},
 	all = {
@@ -373,6 +440,10 @@ pg.dorm3d_recall = {
 		101,
 		102,
 		103,
-		104
+		104,
+		121,
+		122,
+		123,
+		124
 	}
 }

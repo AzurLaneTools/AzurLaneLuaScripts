@@ -3322,6 +3322,7 @@ pg.skill_data_display = setmetatable({
 		801779,
 		801845,
 		801891,
+		801921,
 		902201,
 		1010140,
 		1010143,
@@ -17055,6 +17056,10 @@ pg.base.skill_data_display = {
 	[801891] = {
 		id = 801891,
 		name = "Emberlit Constitution"
+	},
+	[801921] = {
+		id = 801921,
+		name = "Offensive Stance"
 	},
 	[902201] = {
 		id = 902201,

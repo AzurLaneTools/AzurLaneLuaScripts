@@ -17,10 +17,8 @@ slot0.OnSceneInited = function(slot0)
 	slot0:DisableOp()
 
 	slot1 = slot0:GetSystemModule(IslandConst.SEEK_GAME_SYSTEM_ID)
-	slot2 = IslandSeekGameResultView.New(slot0, slot1.data:GetResultUIName())
+	slot0.resultView = IslandSeekGameResultView.New(slot0, slot1.data:GetResultUIName())
 
-	slot2:Init()
-	table.insert(slot0.views, slot2)
 	slot1:OnSceneInitEnd()
 
 	slot0.isInit = true
@@ -61,7 +59,7 @@ slot0.OnGameFailed = function(slot0)
 
 	slot0:GetSystemModule(IslandConst.SEEK_GAME_SYSTEM_ID):StopGame()
 	slot0:DisableOp()
-	slot0:GetSubView(IslandSeekGameResultView):Show()
+	slot0.resultView:Execute("Show")
 end
 
 slot0.OnGameSuccess = function(slot0)
@@ -88,25 +86,31 @@ end
 
 slot0.OnEndPerformance = function(slot0)
 	uv0.super.OnEndPerformance(slot0)
-	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_24")
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_30")
 end
 
 slot0.DisableOp = function(slot0)
 	slot0.player:StopMoveHandle()
 	slot0:GetSubView(IslandOpView):TryDisablePlayerOp()
-	slot0:GetSubView(IslandOpView):DisableInteraction()
-	slot0:GetSubView(IslandOpView):Hide()
+	slot0:GetSubView(IslandInteractionView):DisableInteraction()
+	slot0:GetSubView(IslandOpView):TryDisable()
 end
 
 slot0.EnableOp = function(slot0)
 	slot0:GetSubView(IslandOpView):TryEnablePlayerOp()
-	slot0:GetSubView(IslandOpView):EnableInteraction()
-	slot0:GetSubView(IslandOpView):Show()
+	slot0:GetSubView(IslandInteractionView):EnableInteraction()
+	slot0:GetSubView(IslandOpView):TryEnable()
 end
 
 slot0.OnDispose = function(slot0)
 	slot0:Op("NotifiyIsland", ISLAND_EX_EVT.SEEK_GAME_END)
 	uv0.super.OnDispose(slot0)
+
+	if slot0.resultView then
+		slot0.resultView:Dispose()
+
+		slot0.resultView = nil
+	end
 end
 
 return slot0

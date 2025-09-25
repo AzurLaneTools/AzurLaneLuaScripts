@@ -30,7 +30,7 @@ slot0.Update = function(slot0, slot1)
 				return
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_tech_consume_tip", uv2, uv3, uv4),
 				onYes = function ()
 					uv0.view:emit(PublicGuildMainMediator.UPGRADE_TECH, uv1)

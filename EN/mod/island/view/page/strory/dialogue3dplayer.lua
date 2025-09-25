@@ -293,11 +293,7 @@ slot0.PlayOptionExitAnimation = function(slot0, slot1)
 			uv0:GetComponent(typeof(Animation)):Play("anim_IslandStoryUI_Tpl_Out")
 		end)
 	end)
-
-	slot0.canvasGroup.blocksRaycasts = false
-
 	parallelAsync({}, function ()
-		uv0.canvasGroup.blocksRaycasts = true
 		slot0 = uv0.uiOptionList
 
 		slot0:each(function (slot0, slot1)

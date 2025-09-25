@@ -188,9 +188,7 @@ slot0.GetAllItemIDs = function(slot0)
 end
 
 slot0.Show = function(slot0, slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER + 2
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	uv0.super.Show(slot0)
 	slot0:Flush(slot1)
 end
@@ -204,7 +202,7 @@ slot0.Flush = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	uv0.super.Hide(slot0)
 end
 

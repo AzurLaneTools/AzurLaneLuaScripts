@@ -1144,6 +1144,229 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1201] = {
+		rarity = 3,
+		name = "Fluffy Bed",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "A soft double bed with a complete set of bedding: comfy mattress, blanket, and pillows. Slip under the blanket and sleep off the day's troubles.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 1201,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1202] = {
+		rarity = 3,
+		name = "Wooden Dining Table",
+		unlock_tips = "",
+		type = 6,
+		room_id = 12,
+		desc = "This table is made of quality, long-lasting wood. Its top is smooth and easy to clean, and its dark surface is resistant to stains while showcasing the natural texture of red sandalwood.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
+		scene_hides = "",
+		acesses = "",
+		id = 1202,
+		target_slots = {
+			1120203
+		},
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1203] = {
+		rarity = 3,
+		name = "Comfy Chair",
+		unlock_tips = "",
+		type = 5,
+		room_id = 12,
+		desc = "A simple tatami chair – basically just a seat and a backrest. It's comfy enough that you can sit for a long time without feeling any muscle fatigue.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
+		scene_hides = "",
+		acesses = "",
+		id = 1203,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1152"
+		}
+	},
+	[1211] = {
+		rarity = 2,
+		name = "Classical Wall Scroll",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "The refined art has a zen vibe to it, harmonizing with the rest of the room. It gives a sense of tranquility and elegance.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1211,
+		target_slots = {
+			1120301
+		},
+		shop_id = {}
+	},
+	[1212] = {
+		rarity = 2,
+		name = "Beloved Companion",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "The fabric of the black bikini was exceptionally light and soft against the skin. It almost feels like you're wearing nothing at all!",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_cloth01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1212,
+		target_slots = {
+			1120101
+		},
+		shop_id = {}
+	},
+	[1213] = {
+		rarity = 2,
+		name = "Floor Lamp",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "The tall wooden floor lamp casts a gentle glow in the room. It was a piece Taihou had picked out herself.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1213,
+		target_slots = {
+			1120302
+		},
+		shop_id = {}
+	},
+	[1214] = {
+		rarity = 2,
+		name = "Translucent Screen",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "The translucent screen features an intricate pattern. Taihou likes to place it by her bed to lend that corner of the room a mysterious allure.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_frame01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		unlock_banners = "",
+		acesses = "",
+		id = 1214,
+		target_slots = {
+			1120102
+		},
+		shop_id = {},
+		scene_hides = {
+			"no_bake_prop_substitute/pre_db_frame32"
+		}
+	},
+	[1215] = {
+		rarity = 2,
+		name = "Night Light",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "A cute night light, with delicate rattan branches intertwined inside. Its gentle glow fills the room with a comforting warmth.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1215,
+		target_slots = {
+			1120104
+		},
+		shop_id = {}
+	},
+	[1221] = {
+		rarity = 4,
+		name = "Love Nest",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "A minimalist double bed made of durable materials. Its sturdy metal frame can withstand heavy strain, and when paired with a premium memory foam mattress, it ensures a deeply comfortable and secure rest.",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		acesses = "",
+		id = 1221,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070740
+			}
+		},
+		shop_id = {
+			270501
+		},
+		unlock_banners = {
+			"banner_furniture1221"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1198,6 +1421,17 @@ pg.dorm3d_furniture_template = {
 			1108,
 			1151,
 			1152
+		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1221
 		}
 	},
 	all = {
@@ -1244,6 +1478,15 @@ pg.dorm3d_furniture_template = {
 		1107,
 		1108,
 		1151,
-		1152
+		1152,
+		1201,
+		1202,
+		1203,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1221
 	}
 }

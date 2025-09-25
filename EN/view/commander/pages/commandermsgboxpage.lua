@@ -33,8 +33,6 @@ slot0.Show = function(slot0, slot1)
 		setText(slot0.text, setColorStr(slot1.content, "#847D7B"))
 	end
 
-	slot0.layer = slot1.layer
-
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 
@@ -62,9 +60,7 @@ slot0.Show = function(slot0, slot1)
 	end
 
 	slot0._tf:SetAsLastSibling()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = slot0.layer or LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
@@ -72,7 +68,7 @@ slot0.Hide = function(slot0)
 	setText(slot0.text, "")
 	setText(slot0.text1, "")
 	setText(slot0.text2, "")
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)
