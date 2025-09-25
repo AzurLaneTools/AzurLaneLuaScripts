@@ -35,6 +35,13 @@ return {
 							skip = true
 						},
 						{
+							param = "bunny_IK_cafe_idle02_fb02_BZ",
+							name = "furniture/Item/Glasscup_01/pre_db_glasscup_dafengIK",
+							time = 0,
+							type = "extra_item_action",
+							skip = true
+						},
+						{
 							skip = true,
 							name = "Face_amazed_start",
 							type = "action"

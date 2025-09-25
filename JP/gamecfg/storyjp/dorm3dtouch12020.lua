@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture2_tone4/drom3d_Taiho_ik_furniture2_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官大人的手指……{namecode:97}会好好感受的……",
+			say = "指揮官様の指先……しっかりじっくりと感じさせていただきますわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -66,7 +66,7 @@ return {
 						},
 						{
 							skip = true,
-							name = "face_smile_start",
+							name = "Face_smile_start",
 							type = "action"
 						},
 						{

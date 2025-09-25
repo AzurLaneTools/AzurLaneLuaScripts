@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_furniture2_tone7/drom3d_Taiho_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官大人越来越了解{namecode:97}了……这样下去会很危险哦？",
+			say = "指揮官様、大鳳のことをだんだん分かってきましたね……このままだとアブナイですわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

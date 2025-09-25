@@ -29827,7 +29827,7 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			{
-				100
+				9001
 			},
 			{
 				70168,
