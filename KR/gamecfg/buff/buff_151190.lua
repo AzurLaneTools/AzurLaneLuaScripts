@@ -24,11 +24,10 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onUpdate"
+				"onStartGame"
 			},
 			arg_list = {
-				buff_id = 151193,
-				time = 20,
+				buff_id = 151195,
 				target = "TargetSelf"
 			}
 		}

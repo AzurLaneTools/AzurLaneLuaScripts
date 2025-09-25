@@ -13,11 +13,11 @@ slot0.init = function(slot0, ...)
 
 	slot2 = slot0._tf
 
-	setText(slot2:Find("adapt/TopPage/top/deco/Text"), i18n("Outpost_20250904_Title1"))
+	setText(slot2:Find("adapt/TopPage/top/deco/Text"), i18n("outpost_20250904_Title1"))
 
 	slot2 = slot0._tf
 
-	setText(slot2:Find("adapt/TopPage/top/deco/Text_1"), i18n("Outpost_20250904_Title2"))
+	setText(slot2:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("outpost_20250904_Title2"))
 
 	slot1 = nil
 	slot2 = slot0.tabsList
@@ -31,7 +31,8 @@ slot0.init = function(slot0, ...)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				setText(uv0:findTF("name", slot2), i18n("Outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
+				setText(uv0:findTF("on/name", slot2), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
+				setText(uv0:findTF("name", slot2), i18n("outpost_20250904_Sidebar" .. slot3:getConfig("is_show")))
 
 				if uv0.pageDic[slot3.id] ~= nil then
 					slot6 = uv0

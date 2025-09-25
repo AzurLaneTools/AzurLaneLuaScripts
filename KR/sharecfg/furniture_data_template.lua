@@ -172,6 +172,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			313,
 			314,
+			316,
+			317,
 			100002,
 			100003,
 			100004,
@@ -247,6 +249,7 @@ pg.furniture_data_template = setmetatable({
 			100074,
 			100075,
 			100076,
+			100077,
 			200001,
 			200002,
 			200003,
@@ -3527,6 +3530,30 @@ pg.furniture_data_template = setmetatable({
 			328116,
 			328117,
 			328118
+		},
+		[129] = {
+			329001,
+			329002,
+			329101,
+			329102,
+			329103,
+			329104,
+			329105,
+			329106,
+			329107,
+			329108,
+			329109,
+			329110,
+			329111,
+			329112,
+			329113,
+			329114,
+			329115,
+			329116,
+			329117,
+			329118,
+			329119,
+			329120
 		}
 	},
 	get_id_list_by_tag = {
@@ -5631,7 +5658,26 @@ pg.furniture_data_template = setmetatable({
 			328114,
 			328115,
 			328116,
-			328117
+			328117,
+			329101,
+			329102,
+			329103,
+			329104,
+			329105,
+			329106,
+			329107,
+			329108,
+			329109,
+			329110,
+			329111,
+			329112,
+			329113,
+			329114,
+			329115,
+			329116,
+			329117,
+			329118,
+			329119
 		},
 		{
 			1108,
@@ -5891,6 +5937,7 @@ pg.furniture_data_template = setmetatable({
 			301,
 			308,
 			313,
+			317,
 			100002,
 			100003,
 			100004,
@@ -5966,6 +6013,7 @@ pg.furniture_data_template = setmetatable({
 			100074,
 			100075,
 			100076,
+			100077,
 			54104,
 			54105
 		},
@@ -6036,7 +6084,8 @@ pg.furniture_data_template = setmetatable({
 			304,
 			307,
 			311,
-			314
+			314,
+			316
 		},
 		[7] = {
 			213,
@@ -6242,7 +6291,8 @@ pg.furniture_data_template = setmetatable({
 			324118,
 			325110,
 			325126,
-			328118
+			328118,
+			329120
 		},
 		[4] = {
 			1001,
@@ -6357,7 +6407,8 @@ pg.furniture_data_template = setmetatable({
 			325001,
 			326001,
 			327001,
-			328001
+			328001,
+			329001
 		},
 		[3] = {
 			1002,
@@ -6473,7 +6524,8 @@ pg.furniture_data_template = setmetatable({
 			325002,
 			326002,
 			327002,
-			328002
+			328002,
+			329002
 		},
 		[5] = {
 			1301,
@@ -6962,7 +7014,8 @@ pg.furniture_data_template = setmetatable({
 			325002,
 			326002,
 			327002,
-			328002
+			328002,
+			329002
 		},
 		[7] = {
 			1,
@@ -7111,6 +7164,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			313,
 			314,
+			316,
+			317,
 			100002,
 			100004,
 			100005,
@@ -9271,7 +9326,25 @@ pg.furniture_data_template = setmetatable({
 			328115,
 			328116,
 			328117,
-			328118
+			328118,
+			329101,
+			329102,
+			329104,
+			329105,
+			329106,
+			329107,
+			329109,
+			329110,
+			329111,
+			329112,
+			329113,
+			329114,
+			329115,
+			329116,
+			329117,
+			329118,
+			329119,
+			329120
 		},
 		[11] = {
 			131,
@@ -9293,6 +9366,7 @@ pg.furniture_data_template = setmetatable({
 			100066,
 			100071,
 			100073,
+			100077,
 			30123,
 			35128,
 			36125,
@@ -9466,7 +9540,8 @@ pg.furniture_data_template = setmetatable({
 			325001,
 			326001,
 			327001,
-			328001
+			328001,
+			329001
 		},
 		[5] = {
 			1101,
@@ -9618,7 +9693,9 @@ pg.furniture_data_template = setmetatable({
 			325105,
 			327104,
 			327116,
-			328104
+			328104,
+			329103,
+			329108
 		},
 		[3] = {
 			1108,
@@ -10351,6 +10428,8 @@ pg.furniture_data_template = setmetatable({
 		311,
 		313,
 		314,
+		316,
+		317,
 		100002,
 		100003,
 		100004,
@@ -10426,6 +10505,7 @@ pg.furniture_data_template = setmetatable({
 		100074,
 		100075,
 		100076,
+		100077,
 		200001,
 		200002,
 		200003,
@@ -13479,7 +13559,29 @@ pg.furniture_data_template = setmetatable({
 		328115,
 		328116,
 		328117,
-		328118
+		328118,
+		329001,
+		329002,
+		329101,
+		329102,
+		329103,
+		329104,
+		329105,
+		329106,
+		329107,
+		329108,
+		329109,
+		329110,
+		329111,
+		329112,
+		329113,
+		329114,
+		329115,
+		329116,
+		329117,
+		329118,
+		329119,
+		329120
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21937,6 +22039,92 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[316] = {
+		can_rotate = 0,
+		describe = "천역 아마하라 중심 구역에 있는 어전을 본떠 만든 미니어처. 세 가지 빛깔의 나비가 자아내는 후광은 그저 조명 효과인 듯하다. 「아마하라에 바치는 춤」 참가 보상.",
+		gain_by = "아마하라에 바치는 춤",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "아마하라 주전 미니어처",
+		advice = 0,
+		id = 316,
+		icon = "baifengxunzhangicon",
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"baifengxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[317] = {
+		can_rotate = 0,
+		describe = "신비로운 도원향에 있는 수수께끼의 성에 숨겨진 신기한 보물. 「격전! 닌자의 성」 참가 보상.",
+		gain_by = "격전! 닌자의 성",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "닌자의 성의 비법",
+		advice = 0,
+		id = 317,
+		icon = "mofangjinheicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mofangjinhe",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -27168,6 +27356,82 @@ pg.base.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100077] = {
+		can_rotate = 0,
+		describe = "닌자 전용 탈것. 1인승이라구!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "xuanzhuanshoulijianicon",
+		count = 1,
+		name = "플라잉 슈리켄",
+		advice = 0,
+		id = 100077,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xuanzhuanshoulijian",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -161831,6 +162095,979 @@ pg.base.furniture_data_template = {
 			{
 				-24.9,
 				-153.6
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[329001] = {
+		can_rotate = 0,
+		describe = "닌자의 성에서 아슬아슬 짜릿한 닌자 대모험을 즐겨보자!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/dibannj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "닌자의 성 바닥",
+		advice = 0,
+		icon = "dibannjicon",
+		id = 329001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329002] = {
+		can_rotate = 0,
+		describe = "닌자의 성에서 아슬아슬 짜릿한 닌자 대모험을 즐겨보자!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 129,
+		count = 1,
+		name = "닌자의 성 벽",
+		advice = 0,
+		id = 329002,
+		icon = "qiangbinjicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbinj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[329101] = {
+		can_rotate = 0,
+		describe = "수련에 지쳤다면 여기 앉아 잠깐 쉬면 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 129,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "changyinjicon",
+		count = 1,
+		name = "닌자의 찻자리",
+		advice = 0,
+		id = 329101,
+		tag = 1,
+		comfortable = 2,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyinj",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[329102] = {
+		can_rotate = 0,
+		describe = "물이 맑아서 물고기들이 헤엄치는 모습이 잘 보인다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/chitangnj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 129,
+		count = 1,
+		name = "정원의 연못",
+		advice = 0,
+		id = 329102,
+		icon = "chitangnjicon",
+		comfortable = 3,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chitangnj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[329103] = {
+		can_rotate = 0,
+		describe = "곱고 하얀 모래가 깔려 있어 밟을 때 독특한 균형감을 느낄 수 있다.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/ditannj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정원의 모래밭",
+		advice = 0,
+		icon = "ditannjicon",
+		id = 329103,
+		comfortable = 2,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329104] = {
+		can_rotate = 0,
+		describe = "곧게 뻗은 복도. 가끔 사람들이 오고가는 모습이 보인다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/langdaonj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "연결 복도",
+		advice = 0,
+		icon = "langdaonjicon",
+		id = 329104,
+		comfortable = 3,
+		size = {
+			2,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329105] = {
+		can_rotate = 0,
+		describe = "맑은 물소리가 들리는 기분 좋은 장식이다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 129,
+		count = 1,
+		name = "정원의 시시오도시",
+		advice = 0,
+		id = 329105,
+		icon = "liushuinjicon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liushuinj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[329106] = {
+		can_rotate = 0,
+		describe = "가운데 원 보여지? 그걸 노리고 맞추는 거야.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/muzhuangnj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "수련용 목인장",
+		advice = 0,
+		icon = "muzhuangnjicon",
+		id = 329106,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329107] = {
+		can_rotate = 0,
+		describe = "닌자를 상징하는 문장이 새겨진 깃발. 바람에 나부끼는 모습이 늠름하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/qizhinj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "닌자의 깃발",
+		advice = 0,
+		icon = "qizhinjicon",
+		id = 329107,
+		comfortable = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329108] = {
+		can_rotate = 0,
+		describe = "각 구역을 연결하는 돌길. 비 오는 날에도 잘 미끄러지지 않는다.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/shibanlunj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "닌자의 돌길",
+		advice = 0,
+		icon = "shibanlunjicon",
+		id = 329108,
+		comfortable = 2,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329109] = {
+		can_rotate = 0,
+		describe = "인술을 쓸 때의 기본 자세. 본보기로 삼기 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/shibeinj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "너구리 닌자상",
+		advice = 0,
+		icon = "shibeinjicon",
+		id = 329109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329110] = {
+		can_rotate = 0,
+		describe = "고풍스러운 석등. 밤에는 따스한 불빛으로 주위를 밝혀준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 129,
+		count = 2,
+		name = "정원의 석등",
+		advice = 0,
+		id = 329110,
+		icon = "shidengnjicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shidengnj",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[329111] = {
+		can_rotate = 0,
+		describe = "정기적으로 보수되는 견고한 벽. 성 내부의 안전을 지켜준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 129,
+		count = 1,
+		name = "닌자의 성 벽",
+		advice = 0,
+		id = 329111,
+		icon = "shiqiangnjicon",
+		comfortable = 4,
+		size = {
+			24,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shiqiangnj",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[329112] = {
+		can_rotate = 0,
+		describe = "돌과 하얀 모래가 아름답게 어우러지며 산과 강을 표현하고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/shitou1nj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정원의 돌 배치 1",
+		advice = 0,
+		icon = "shitou1njicon",
+		id = 329112,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329113] = {
+		can_rotate = 0,
+		describe = "돌과 하얀 모래가 아름답게 어우러지며 산과 강을 표현하고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/shitou2nj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정원의 돌 배치 2",
+		advice = 0,
+		icon = "shitou2njicon",
+		id = 329113,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329114] = {
+		can_rotate = 0,
+		describe = "무성한 가지와 잎을 가진 정원수. 그늘은 휴식하기 아주 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/shumunj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "정원의 큰 나무",
+		advice = 0,
+		icon = "shumunjicon",
+		id = 329114,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329115] = {
+		can_rotate = 0,
+		describe = "여름날 시원함을 즐기기 좋은 장소. 바람에 대나무잎이 흔들리는 소리가 들린다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 129,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "tingtainjicon",
+		count = 1,
+		name = "정원의 휴식 공간",
+		advice = 0,
+		id = 329115,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tingtainj",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[329116] = {
+		can_rotate = 0,
+		describe = "여러 가지 인술 도구가 정리되어 있어 언제든지 사용할 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/wuqijianj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "닌자 장비 선반",
+		advice = 0,
+		icon = "wuqijianjicon",
+		id = 329116,
+		comfortable = 2,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329117] = {
+		can_rotate = 0,
+		describe = "흩날리는 벚꽃잎이 바람에 날려 낭만적인 분위기를 자아낸다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 129,
+		count = 1,
+		name = "닌자의 성 벚꽃나무",
+		advice = 0,
+		id = 329117,
+		icon = "yinghuashunjicon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinghuashunj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[329118] = {
+		can_rotate = 0,
+		describe = "대나무로 엮은 울타리. 가볍지만 튼튼하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/zhalannji",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "닌자의 성 울타리",
+		advice = 0,
+		icon = "zhalannjicon",
+		id = 329118,
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329119] = {
+		can_rotate = 0,
+		describe = "아름다운 무늬가 그려진 우산. 실용성과 장식성을 겸비했다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "nj/zhisannj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 129,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "닌자의 종이 우산",
+		advice = 0,
+		icon = "zhisannjicon",
+		id = 329119,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[329120] = {
+		can_rotate = 0,
+		describe = "겉보기엔 평범하지만, 곳곳에 다양한 장치가 숨어 있는 닌자의 집. 숨겨진 암살 무기와 함정에 주의할 것!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 129,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "fangwunjicon",
+		count = 1,
+		name = "닌자의 집",
+		advice = 0,
+		id = 329120,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			8,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fangwunjB",
+				"normal"
+			},
+			{
+				"fangwunjT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
 			},
 			{
 				1,

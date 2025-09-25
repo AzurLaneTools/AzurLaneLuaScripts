@@ -56,9 +56,11 @@ slot0.UpdateBattle = function(slot0)
 end
 
 slot0.UpdateSwitchMapButtons = function(slot0)
-	slot3 = nil
+	slot1 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
+	slot2, slot3 = slot0.contextData.map:isActivity()
+	slot6 = nil
 
-	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
+	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot4.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot4:getConfig("on_activity")), function (slot0)
 		return slot0:getMapType() ~= Map.ACTIVITY_HARD
 	end), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
@@ -119,12 +121,12 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 		end, SFX_PANEL)
 	end)
 
-	slot5 = setActive
-	slot6 = slot0.sceneParent.actExtraRank
+	slot8 = setActive
+	slot9 = slot0.sceneParent.actExtraRank
 
-	if slot1:getConfig("type") == Map.ACT_EXTRA then
-		slot8 = getProxy(ActivityProxy)
-		slot7 = _.any(slot8:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
+	if slot4:getConfig("type") == Map.ACT_EXTRA then
+		slot11 = getProxy(ActivityProxy)
+		slot10 = _.any(slot11:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
 			if not slot0 or slot0:isEnd() then
 				return
 			end
@@ -141,19 +143,19 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 			end)
 		end)
 	else
-		slot7 = false
+		slot10 = false
 	end
 
-	slot5(slot6, slot7)
-	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot2 and slot0.sceneParent:IsActShopActive())
+	slot8(slot9, slot10)
+	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot5 and slot0.sceneParent:IsActShopActive())
 
-	slot5 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
-	slot6 = slot5 and not slot5:isEnd() and slot5:GetConfigClientSetting("PTID")
+	slot8 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	slot9 = slot8 and not slot8:isEnd() and slot8:GetConfigClientSetting("PTID")
 
 	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
 		return slot0:getConfig("config_id") == uv0
 	end))
-	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot2 and isMutilMap and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and isBattle)
+	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot5 and slot3 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot1)
 	slot0.sceneParent:updateCountDown()
 end
 

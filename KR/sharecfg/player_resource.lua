@@ -1975,6 +1975,71 @@ pg.player_resource = {
 		name = "masaina_pt",
 		itemid = 65674
 	},
+	[542] = {
+		id = 542,
+		name = "baifeng_hpt",
+		itemid = 65682
+	},
+	[543] = {
+		id = 543,
+		name = "baifeng_pt",
+		itemid = 65683
+	},
+	[544] = {
+		id = 544,
+		name = "union14_pt",
+		itemid = 65684
+	},
+	[545] = {
+		id = 545,
+		name = "ninja_pt",
+		itemid = 65103
+	},
+	[546] = {
+		id = 546,
+		name = "ninja_pt_2",
+		itemid = 65102
+	},
+	[547] = {
+		id = 547,
+		name = "activity_xunzhang10",
+		itemid = 65685
+	},
+	[548] = {
+		id = 548,
+		name = "limit_skinticket37",
+		itemid = 68115
+	},
+	[549] = {
+		id = 549,
+		name = "limit_skinticket38",
+		itemid = 68116
+	},
+	[550] = {
+		id = 550,
+		name = "limit_skinticket39",
+		itemid = 68117
+	},
+	[551] = {
+		id = 551,
+		name = "skinTicket98",
+		itemid = 65694
+	},
+	[552] = {
+		id = 552,
+		name = "limit_skinticket40",
+		itemid = 68124
+	},
+	[553] = {
+		id = 553,
+		name = "limit_skinticket41",
+		itemid = 68125
+	},
+	[554] = {
+		id = 554,
+		name = "limit_skinticket42",
+		itemid = 68126
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2369,6 +2434,11 @@ pg.player_resource = {
 		id = 4024,
 		name = "Battlepass_24",
 		itemid = 65101
+	},
+	[4025] = {
+		id = 4025,
+		name = "Battlepass_25",
+		itemid = 65106
 	},
 	[4186] = {
 		id = 4186,
@@ -3716,6 +3786,45 @@ pg.player_resource = {
 		masaina_pt = {
 			534
 		},
+		baifeng_hpt = {
+			542
+		},
+		baifeng_pt = {
+			543
+		},
+		union14_pt = {
+			544
+		},
+		ninja_pt = {
+			545
+		},
+		ninja_pt_2 = {
+			546
+		},
+		activity_xunzhang10 = {
+			547
+		},
+		limit_skinticket37 = {
+			548
+		},
+		limit_skinticket38 = {
+			549
+		},
+		limit_skinticket39 = {
+			550
+		},
+		skinTicket98 = {
+			551
+		},
+		limit_skinticket40 = {
+			552
+		},
+		limit_skinticket41 = {
+			553
+		},
+		limit_skinticket42 = {
+			554
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3952,6 +4061,9 @@ pg.player_resource = {
 		},
 		Battlepass_24 = {
 			4024
+		},
+		Battlepass_25 = {
+			4025
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4446,6 +4558,19 @@ pg.player_resource = {
 		532,
 		533,
 		534,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
 		950,
 		951,
 		952,
@@ -4525,6 +4650,7 @@ pg.player_resource = {
 		4022,
 		4023,
 		4024,
+		4025,
 		4186,
 		4276,
 		4599,

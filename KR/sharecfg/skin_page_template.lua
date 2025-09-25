@@ -156,6 +156,12 @@ pg.skin_page_template = {
 		res = "niluohefengqing",
 		english_name = "Nile Colors"
 	},
+	[28] = {
+		id = 28,
+		name = "닌자의 성",
+		res = "renzhezhicheng",
+		english_name = "Ninja Castle"
+	},
 	[9997] = {
 		id = 9997,
 		name = "개조",
@@ -201,6 +207,7 @@ pg.skin_page_template = {
 		25,
 		26,
 		27,
+		28,
 		9997,
 		9998,
 		9999

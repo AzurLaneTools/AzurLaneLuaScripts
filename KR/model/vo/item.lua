@@ -145,24 +145,28 @@ end
 slot0.StaticCombinationDisplay = function(slot0)
 	return i18n("skin_gift_desc", table.concat(_.map(slot0, function (slot0)
 		slot1 = string.format("%0.2f", slot0[2] / 100)
-		slot3 = ""
-
-		if ShipSkin.New({
+		slot2 = ShipSkin.New({
 			id = slot0[1]
-		}):IsLive2d() then
-			slot3 = "（<color=#92fc63>" .. i18n("luckybag_skin_islive2d") .. "</color>）"
-		elseif slot2:IsSpine() then
-			slot3 = "（<color=#92fc63>" .. i18n("luckybag_skin_isani") .. "</color>）"
+		})
+		slot3 = {}
+
+		for slot7, slot8 in ipairs(getGameset("random_skin_tag")[2]) do
+			slot3[slot8[1]] = slot8[2]
 		end
 
-		slot4 = i18n("random_skin_list_item_desc_label")
-		slot5 = ""
+		slot5 = #underscore(slot2:getConfig("tag")):chain():filter(function (slot0)
+			return uv0[slot0]
+		end):map(function (slot0)
+			return uv0[slot0]
+		end):value() > 0 and string.format("（<color=#92fc63>%s</color>）", table.concat(slot4, " ")) or ""
+		slot6 = i18n("random_skin_list_item_desc_label")
+		slot7 = ""
 
 		if slot2:ExistReward() then
-			slot5 = i18n("word_show_extra_reward_at_fudai_dialog", slot2:GetRewardListDesc())
+			slot7 = i18n("word_show_extra_reward_at_fudai_dialog", slot2:GetRewardListDesc())
 		end
 
-		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. slot4 .. slot2.skinName .. slot3 .. slot5
+		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. slot6 .. slot2.skinName .. slot5 .. slot7
 	end), ";"))
 end
 

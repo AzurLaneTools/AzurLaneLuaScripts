@@ -1862,6 +1862,55 @@ pg.name_code = {
 		code = "유다치·META",
 		nation = 0
 	},
+	[302] = {
+		name = "하쿠호",
+		type = 1,
+		id = 302,
+		code = "䳆",
+		nation = 0
+	},
+	[303] = {
+		name = "이404",
+		type = 1,
+		id = 303,
+		code = "이404",
+		nation = 0
+	},
+	[304] = {
+		name = "오미",
+		type = 1,
+		id = 304,
+		code = "오미",
+		nation = 0
+	},
+	[305] = {
+		name = "아사마",
+		type = 1,
+		id = 305,
+		code = "아사마",
+		nation = 0
+	},
+	[306] = {
+		name = "미나세",
+		type = 1,
+		id = 306,
+		code = "미나세",
+		nation = 0
+	},
+	[307] = {
+		name = "타에카제",
+		type = 1,
+		id = 307,
+		code = "타에카제",
+		nation = 0
+	},
+	[308] = {
+		name = "특잠형",
+		type = 1,
+		id = 308,
+		code = "특잠형",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

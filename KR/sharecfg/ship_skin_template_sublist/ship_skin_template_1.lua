@@ -11982,6 +11982,163 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101472] = {
+		name = "하이테크? 인술?",
+		change_skin = "",
+		desc = "여긴 닌자 수련 장면 촬영에 딱 어울리는 곳이네요…… 으흠! 지휘관님께 인술을 하나 보여드리죠! ……자, 잘 지켜봐 주세요…! 변신술! 얍!",
+		illustrator2 = -1,
+		ship_group = 10147,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "molisen_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "320",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		ship_l2d_id = "",
+		id = 101472,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "molisen_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71213,
+		voice_actor = 277,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			7,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			354,
+			-1050,
+			0,
+			1.16
+		},
+		spine_offset_profile = {
+			417,
+			-1066,
+			0,
+			1.17
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.697,
+					0.683,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.461,
+					0.938,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.822,
+							2.495,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-30,
+			-626,
+			0,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1350,
+					-873,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1038,
+					172,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					175,
+					32,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
 	[101480] = {
 		name = "잉그레이엄",
 		change_skin = "",
@@ -13057,6 +13214,208 @@ pg.base.ship_skin_template_1 = {
 			10151120,
 			10151121,
 			10151122
+		}
+	},
+	[101512] = {
+		name = "兔兔城主的巡游间隙",
+		change_skin = "",
+		desc = "唔，好困……尊贵的兔兔城主拉菲，想休息了……指挥官……不对，幕僚阁下……巡视领地的事，还是先暂停一下吧……",
+		illustrator2 = -1,
+		ship_group = 10151,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "lafeiII_4",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 10,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "552",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		id = 101512,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "lafeiII_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71216,
+		voice_actor = 35,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-62.2,
+			-512.2,
+			0,
+			0.47
+		},
+		spine_offset_profile = {
+			-1.7,
+			-507.4,
+			0,
+			0.46
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.367,
+					1.057,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.477,
+					0.959,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.637,
+					2.247,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.833,
+							2.413,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			40.6,
+			-598.5,
+			0,
+			0.526
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-730,
+					602,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					409.5,
+					132,
+					2,
+					0,
+					-156,
+					2
+				},
+				{
+					-519,
+					-577,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
 		}
 	},
 	[101520] = {
@@ -15003,135 +15362,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.53,
 							2.289,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102060] = {
-		name = "애틀란타",
-		change_skin = "",
-		desc = "애틀란타급 경순양함·애틀란타 (CL-51)",
-		illustrator2 = 19,
-		ship_group = 10206,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "yatelanda",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 102060,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "yatelanda",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 55,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.257,
-					0.783,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.119,
-					0.702,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.464,
-					1.052,
-					0
-				},
-				{
-					-0.439,
-					1.353,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							0.67,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.32,
-							0.67,
 							0
 						}
 					}

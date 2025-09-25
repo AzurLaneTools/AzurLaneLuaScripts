@@ -47,11 +47,11 @@ return {
 			spriteui = {
 				pathIndex = "#",
 				childPath = "bg/icon_bg/icon",
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid"
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/adapt/item_scrollview/item_grid"
 			},
 			ui = {
 				pathIndex = "#",
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/adapt/item_scrollview/item_grid",
 				triggerType = {
 					1
 				},

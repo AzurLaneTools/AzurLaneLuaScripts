@@ -2305,20 +2305,45 @@ pg.memory_storyline = {
 	{
 		description = "기대해주세요",
 		name = "기대해주세요",
+		column = 55,
+		world_id = "",
+		bgm = "story-amahara-stage1",
+		row = 0,
+		chapter = 4,
+		memory_lock = 0,
+		id = 90,
+		icon = "ChapterFour_9",
+		sort = 1,
+		memory_id = {
+			1,
+			339
+		},
+		shipnation = {
+			1,
+			3,
+			97
+		},
+		link_event = {
+			88,
+			89,
+			91
+		}
+	},
+	{
+		description = "敬请期待",
+		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
-		column = 55,
+		link_event = "",
+		column = 56,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 4,
 		memory_lock = 1,
-		id = 90,
+		id = 91,
 		icon = "",
-		sort = 0,
-		link_event = {
-			88
-		}
+		sort = 0
 	},
 	all = {
 		1,
@@ -2410,6 +2435,7 @@ pg.memory_storyline = {
 		87,
 		88,
 		89,
-		90
+		90,
+		91
 	}
 }

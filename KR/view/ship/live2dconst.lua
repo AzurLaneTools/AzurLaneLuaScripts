@@ -96,6 +96,10 @@ slot0.ClearLive2dSave = function(slot0, slot1)
 		return
 	end
 
+	if ChangeSkinLink.L2D_PARAMETER_DIC[slot1] then
+		ChangeSkinLink.L2D_PARAMETER_DIC[slot1] = {}
+	end
+
 	if pg.ship_skin_template[slot0].ship_l2d_id and #slot2 > 0 then
 		Live2dConst.SaveL2dIdle(slot0, slot1, 0)
 

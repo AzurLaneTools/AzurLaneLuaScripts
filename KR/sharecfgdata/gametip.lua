@@ -9513,6 +9513,11 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_301934 = {
+	tip = "개조(근대화 개수) 실시 시 <color=#92fc63>[대공포 포좌 +1]</color>\n<color=#92fc63>[대공화기 보정 +40%]</color>\n계속하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 <size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
@@ -12507,7 +12512,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「마세나」, 「부아 벨루」, 「뒤켄」 등장 확률 UP!"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「하쿠호」 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -26186,6 +26191,86 @@ _G.pg.base.gametip.cruise_task_help_2508 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2510 = {
+	tip = "2025/10/1-2025/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「杜威·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2510 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2025.10.1-2025.11.30)
+
+·<color=#92fc63>开放时间</color>
+ 2025.10.1 0点 ~ 2025.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「杜威·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>茳换装「忠心的守护灵狐 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2510 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2025.10.1 0点 ~ 2025.11.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -35862,6 +35947,11 @@ _G.pg.base.gametip.cruise_title_2508 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2510 = {
+	tip = "世界巡游·二十五期"
+}
+
+
 _G.pg.base.gametip.cruise_title_2406 = {
 	tip = "월드 투어·17기"
 }
@@ -40050,4 +40140,317 @@ _G.pg.base.gametip.Outpost_20250904_Title2 = {
 
 _G.pg.base.gametip.Outpost_20250904_Progress = {
 	tip = "현재 진척도"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar4 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar5 = {
+	tip = "사쿠라 엠파이어의 초대"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title1 = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Title2 = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name1 = {
+	tip = "극한 돌파"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name2 = {
+	tip = "천하 제패"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name3 = {
+	tip = "쇠약 주인"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name4 = {
+	tip = "재운 상승"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name5 = {
+	tip = "유능한 인재"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name6 = {
+	tip = "비용 절감"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name7 = {
+	tip = "거성 거포"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name8 = {
+	tip = "진형 협동"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name9 = {
+	tip = "강화 성루"
+}
+
+
+_G.pg.base.gametip.ninja_buff_name10 = {
+	tip = "방어 구축"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect1 = {
+	tip = "등장 캐릭터가\n주는 피해량 +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect2 = {
+	tip = "등장 캐릭터가\n주는 피해량 +$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect3 = {
+	tip = "적의\n내구 -$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect4 = {
+	tip = "닌자 코인\n획득량 +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect5 = {
+	tip = "캐릭터가 입히는 피해량 계산 시, 캐릭터 수 +$1로 계산됨"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect6 = {
+	tip = "강화에 필요한 닌자 코인 소모량 $1% 절감"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect7 = {
+	tip = "방어 시설이\n주는 피해량 +$1"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect8 = {
+	tip = "방어 시설이\n주는 피해량 +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect9 = {
+	tip = "방어 시설이\n주는 피해량 +$1%"
+}
+
+
+_G.pg.base.gametip.ninja_buff_effect10 = {
+	tip = "시설로 입히는 피해량 계산 시, 시설 수 +$1로 계산됨"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_title_en = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+	tip = "격전! 닌자의 성"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet2 = {
+	tip = "특별 기념 출석"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet3 = {
+	tip = "특별 축제"
+}
+
+
+_G.pg.base.gametip.activity_ninjia_main_sheet4 = {
+	tip = "동원지령"
+}
+
+
+_G.pg.base.gametip.activity_return_reward_pt = {
+	tip = "동원지령 Pt:"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar1 = {
+	tip = "아마하라에 바치는 춤"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar2 = {
+	tip = "천역 보급소"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar3 = {
+	tip = "UR 교환"
+}
+
+
+_G.pg.base.gametip.anniversary_eight_main_page_desc = {
+	tip = "·역사상 유례를 찾아볼 수 없는 재앙으로 도원향의 성의 수호 결계가 파괴되어, 보물을 노리는 닌자들이 날뛰기 시작했다! \n·닌자의 성을 재건하고, 원군을 모집하여 방비를 굳건히 하여, 성에 다시 평화를 찾아주자——"
+}
+
+
+_G.pg.base.gametip.eighth_tip_spring = {
+	tip = {
+		{
+			info = "플레이 방법: \n<color=#92fc63>9.25 ~ 10.15 23:59까지 </color>「만쥬 온천」이 진행됩니다.\n함선을 「만쥬 온천」에 배치하면, 해당 캐릭터의 컨디션 회복 속도가 상승합니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.eighth_spring_cost = {
+	tip = "온천 증서<icon name=eighthwenquanshoupai w=0.7 h=0.7/>를 1개 소비하여 온천을 증축하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.eighth_spring_not_enough = {
+	tip = "온천 증서가 부족합니다."
+}
+
+
+_G.pg.base.gametip.ninja_game_helper = {
+	tip = {
+		{
+			info = "「격전! 닌자의 성!」에 대해"
+		},
+		{
+			info = "진행 기간: <color=#92fc63>2025.09.25 ~ 2025.10.15 23:59</color>"
+		},
+		{
+			info = "<b>1.「격전! 닌자의 성」</b>\n·「격전! 닌자의 성!」에서는 임무를 달성하고 「적습 방위」로 적을 무찌르면, 성을 수리하거나 동료를 추가하는 데 필요한 재료를 획득할 수 있습니다. 성을 보수하고 동료를 추가하면 복구 진행도가 올라가며, 이에 따라 스토리가 오픈됩니다.\n·각종 조건을 달성하면 한정 가구, 장비 스킨, 「닌자의 쿠나이」, 「환몽석」, 이벤트 Pt 「아마하라 봉우」를 획득할 수 있습니다. "
+		},
+		{
+			info = [[
+<b>2. 「적습 방위」</b>
+·몰려오는 적을 격파하여 보상을 획득하세요! 
+·「적습 방위」에서는 동료 및 성의 방어 시설이 자동으로 적을 공격합니다. 적을 처치하면 성 복구에 필요한 소재를 획득할 수 있으며, 특정 웨이브를 처음으로 돌파했을 시에는 추가 보상도 획득할 수 있습니다. 현재 웨이브의 적을 한 번 처치하면 다음 웨이브로 진행할 수 있지만, 그대로 웨이브를 진행하여 적습에 무한으로 도전할 수도 있습니다. 
+※ 「수비 강화」를 레벨업하면 적을 처치하는 효율이 상승합니다.
+※ 「적습 방위」 화면에서 나가거나 게임이 오프라인 상태일 때도 전투는 계속 진행되며, 보상이 자동으로 누적됩니다. ]]
+		},
+		{
+			info = "<b>3. 「성주 수첩」</b>\n·「성주 수첩」에서는 현재 복구 진행도, 수리 완료 및 요청 가능한 지원, 수비 강화 레벨 등을 확인할 수 있으며, 각 항목에서 조작하는 것도 가능합니다."
+		},
+		{
+			info = "<b>4. 「닌자 이야기」</b>\n·오픈한 스토리를 감상할 수 있습니다. (「추억」에서도 감상 가능)"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.ninja_game_citylevel = {
+	tip = "성 복구 진행도"
+}
+
+
+_G.pg.base.gametip.ninja_game_wave = {
+	tip = "최고 돌파 웨이브"
+}
+
+
+_G.pg.base.gametip.ninja_game_current_section = {
+	tip = "현재 복구 진행도:"
+}
+
+
+_G.pg.base.gametip.ninja_game_buildcost = {
+	tip = "복구 필요량"
+}
+
+
+_G.pg.base.gametip.ninja_game_allycost = {
+	tip = "요청 필요량"
+}
+
+
+_G.pg.base.gametip.ninja_game_citydmg = {
+	tip = "시설 피해량:"
+}
+
+
+_G.pg.base.gametip.ninja_game_allydmg = {
+	tip = "원군 피해량:"
+}
+
+
+_G.pg.base.gametip.ninja_game_dps = {
+	tip = "초당 피해량:"
+}
+
+
+_G.pg.base.gametip.ninja_game_time = {
+	tip = "격파 시간:"
+}
+
+
+_G.pg.base.gametip.ninja_game_income = {
+	tip = "획득 코인:"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffeffect = {
+	tip = "현재 효과"
+}
+
+
+_G.pg.base.gametip.ninja_game_buffcost = {
+	tip = "다음 레벨까지"
+}
+
+
+_G.pg.base.gametip.ninja_game_levelblock = {
+	tip = "복구 진행도 필요"
+}
+
+
+_G.pg.base.gametip.ninja_game_storydialog = {
+	tip = "*시설 복구·원군 요청으로 오픈"
+}
+
+
+_G.pg.base.gametip.ninja_game_update_failed = {
+	tip = "재료가 부족합니다. 임무·적습 방위로 재료 획득 가능"
+}
+
+
+_G.pg.base.gametip.ninja_game_ptcount = {
+	tip = "보유 코인:"
+}
+
+
+_G.pg.base.gametip.ninja_game_cant_pickup = {
+	tip = "획득할 수 있는 보상이 없습니다."
+}
+
+
+_G.pg.base.gametip.ninja_game_booktip = {
+	tip = "※「성주의 두루마리」로 원군 요청·시설 복구를 진행하면, 복구 진행도가 상승합니다."
 }

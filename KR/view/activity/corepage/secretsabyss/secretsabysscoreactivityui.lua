@@ -21,7 +21,7 @@ slot0.init = function(slot0, ...)
 
 	slot2 = slot0._tf
 
-	setText(slot2:Find("adapt/TopPage/top/deco/Text_1"), i18n("masaina_main_title_en"))
+	setText(slot2:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("masaina_main_title_en"))
 
 	slot1 = nil
 	slot2 = slot0.tabsList

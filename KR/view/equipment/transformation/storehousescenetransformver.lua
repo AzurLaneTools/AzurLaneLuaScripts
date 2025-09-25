@@ -9,7 +9,7 @@ end
 slot0.init = function(slot0)
 	slot1 = slot0.contextData
 	slot0.topItems = slot0:findTF("topItems")
-	slot0.equipmentView = slot0:findTF("equipment_scrollview")
+	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview")
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
 
@@ -71,7 +71,7 @@ slot0.init = function(slot0)
 	setActive(slot0:findTF("adapt/select_panel", slot0.topItems), false)
 
 	slot0.selectTransformPanel = slot0:findTF("adapt/select_transform_panel", slot0.topItems)
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.listEmptyTF = slot0:findTF("adapt/empty")
 
 	setActive(slot0.listEmptyTF, false)
 

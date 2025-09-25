@@ -133,6 +133,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[109] = {
+		name = "墨影竹形",
+		key = "SkinNormal_20250925",
+		display_icon = "ui_109",
+		unlock = "世界巡游二十五期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "以水墨勾勒而出的界面，墨迹于黑白间晕染，衬得竹影婆娑，共同营造出清冷雅致的氛围。",
+		id = 109,
+		icon = "109",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -201,6 +216,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[205] = {
+		name = "닌자",
+		key = "SkinElite_20250912",
+		display_icon = "ui_205",
+		unlock = "상점 구매 (전투 UI·닌자)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "닌자를 제일 좋아하는 지휘관을 위한 상품! 수리검과 쿠나이로 닌자의 성을 습격하라!",
+		id = 205,
+		icon = "205",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -211,9 +243,11 @@ pg.item_data_battleui = {
 		106,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,
-		204
+		204,
+		205
 	}
 }

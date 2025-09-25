@@ -38,22 +38,11 @@ slot0.init = function(slot0)
 
 	setText(slot0._tf:Find("bgs/empty/Text"), i18n("shop_new_unfound"))
 	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("shop_new_shop"))
-
-	slot4 = "shop_new_wear"
-
-	setText(slot0.equipBtn:Find("Text"), i18n(slot4))
+	setText(slot0.equipBtn:Find("Text"), i18n("shop_new_wear"))
 	setActive(slot0.switchPreviewBtn, false)
 	setActive(slot0.limitTime, false)
 
-	slot0.changeSkinToggles = {}
-
-	for slot4 = 1, 2 do
-		slot6 = GetComponent(slot0.changeSkin:Find("toggle_ui/ad/toggle/" .. slot4), typeof(Toggle))
-		slot6.isOn = false
-
-		table.insert(slot0.changeSkinToggles, slot6)
-	end
-
+	slot0.changeSkinToggle = ChangeSkinToggle.New(slot0.changeSkin:Find("toggle_ui"))
 	slot0.downloads = {}
 	slot0.isToggleDynamic = false
 	slot0.isToggleShowBg = true
@@ -151,9 +140,7 @@ slot0.FlushChangeSkin = function(slot0)
 
 	slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot0.skinId)
 
-	for slot5 = 1, 2 do
-		slot0.changeSkinToggles[slot5].isOn = slot5 == slot0._toggleIndex and true or false
-	end
+	slot0.changeSkinToggle:setSkinData(slot0.skinId)
 end
 
 slot0.FlushName = function(slot0)

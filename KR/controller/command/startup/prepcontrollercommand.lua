@@ -641,6 +641,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ISLAND_BUY_ROLE_SKIN_COLOR, IslandSendRoleSkinColorCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_BUY_ROLE_DRESS_COLOR, IslandSendDressColorCommand)
 	slot0.facade:registerCommand(GAME.COMMANDER_MANUAL_OP, CommanderManualCommand)
+	slot0.facade:registerCommand(GAME.CITY_REBUILD, CityRebuildCommand)
 end
 
 return slot0

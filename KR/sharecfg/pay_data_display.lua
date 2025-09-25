@@ -89,6 +89,10 @@ pg.pay_data_display = setmetatable({
 		93,
 		94,
 		95,
+		96,
+		97,
+		98,
+		99,
 		1000,
 		1001,
 		1002,
@@ -113,6 +117,7 @@ pg.pay_data_display = setmetatable({
 		1021,
 		1022,
 		1023,
+		1024,
 		2001,
 		2002,
 		2003,
@@ -167,6 +172,9 @@ pg.pay_data_display = setmetatable({
 		2054,
 		2055,
 		2056,
+		2057,
+		2058,
+		2059,
 		5011,
 		5012,
 		5013,
@@ -10653,6 +10661,542 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[96] = {
+		picture = "fudai27",
+		name = "닌자의 성 스킨 패키지 I",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "닌자의 성 스킨 패키지 I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift154",
+		extra_gem = 0,
+		id = 96,
+		airijp_id = "com.yostarjp.azurlane.diamond184",
+		name_display = "닌자의 성 스킨 패키지 I",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86217,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81217,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[97] = {
+		picture = "fudai15",
+		name = "드림 랜드 스킨 패키지 I 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "드림 랜드 스킨 패키지 I 복각",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift155",
+		extra_gem = 0,
+		id = 97,
+		airijp_id = "com.yostarjp.azurlane.diamond185",
+		name_display = "드림 랜드 스킨 패키지 I 복각",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86206,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81206,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
+	[98] = {
+		picture = "fudai28",
+		name = "닌자의 성 스킨 패키지 II ",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "닌자의 성 스킨 패키지 II ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift158",
+		extra_gem = 0,
+		id = 98,
+		airijp_id = "com.yostarjp.azurlane.diamond186",
+		name_display = "닌자의 성 스킨 패키지 II ",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[99] = {
+		picture = "fudai16",
+		name = "드림 랜드 스킨 패키지 II 복각 ",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "드림 랜드 스킨 패키지 II 복각 ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift159",
+		extra_gem = 0,
+		id = 99,
+		airijp_id = "com.yostarjp.azurlane.diamond187",
+		name_display = "드림 랜드 스킨 패키지 II 복각 ",
+		first_text = "랜덤 스킨과 다이아",
+		akashi_pick = 1,
+		skin_inquire_relation = 86207,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81207,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
 	[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
@@ -12687,6 +13231,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7024,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1024] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(2025.10.8-2025.12.7)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·茳限定换装和其他奖励",
+		subject = "特许巡游凭证",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift160",
+		extra_gem = 0,
+		id = 1024,
+		airijp_id = "com.yostarjp.azurlane.seasonpass25",
+		name_display = "특허 투어 패스(2025.10.8-2025.12.7)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4025,
+				1500
+			},
+			{
+				8,
+				65106,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					12,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7025,
 			1500
 		},
 		ignorePlatform = {},
@@ -17312,6 +17941,269 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40064,
+				1
+			}
+		}
+	},
+	[2057] = {
+		picture = "ui6",
+		name = "전투 UI·닌자",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI 테마·닌자를 획득할 수 있습니다.",
+		subject = "전투 UI·닌자",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift156",
+		extra_gem = 0,
+		id = 2057,
+		airijp_id = "com.yostarjp.azurlane.ui15",
+		name_display = "전투 UI·닌자",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2058] = {
+		picture = "ui6",
+		name = "전투 UI·닌자 (기초)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI 테마·닌자를 획득할 수 있습니다.",
+		subject = "전투 UI·닌자 (기초)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift156",
+		extra_gem = 0,
+		id = 2058,
+		airijp_id = "com.yostarjp.azurlane.ui16",
+		name_display = "전투 UI·닌자 (기초)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40065,
+				1
+			}
+		}
+	},
+	[2059] = {
+		picture = "ui6",
+		name = "전투 UI·닌자 (럭셔리)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·닌자, 다이아 3,060개를 획득할 수 있습니다.",
+		subject = "전투 UI·닌자 (럭셔리)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 52000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 106,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift157",
+		extra_gem = 0,
+		id = 2059,
+		airijp_id = "com.yostarjp.azurlane.ui17",
+		name_display = "전투 UI·닌자 (럭셔리)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				205,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40066,
 				1
 			}
 		}

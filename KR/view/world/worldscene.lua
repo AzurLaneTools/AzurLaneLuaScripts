@@ -1921,7 +1921,7 @@ slot0.PlaySound = function(slot0, slot1, slot2)
 end
 
 slot0.ChangeTopRaycasts = function(slot0, slot1)
-	GetComponent(slot0.rtTop, typeof(CanvasGroup)).blocksRaycasts = tobool(slot1)
+	GetOrAddComponent(slot0.rtTop, typeof(CanvasGroup)).blocksRaycasts = tobool(slot1)
 end
 
 slot0.DoTopBlock = function(slot0, slot1)

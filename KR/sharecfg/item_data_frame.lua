@@ -506,11 +506,11 @@ pg.item_data_frame = {
 	},
 	[336] = {
 		name = "봉명 아마하라",
-		gain_by = "",
+		gain_by = "아마하라에 바치는 춤",
 		time_second = 0,
 		id = 336,
 		time_limit_type = 0,
-		desc = "추후 진행되는 이벤트에서 획득 가능",
+		desc = "<color=#ffffff>「천역에 찾아온 봉황 우짖으니, 그 나부끼는 자태가 아마하라에 울리니라.」</color>\n「아마하라에 바치는 춤」 참가 보상.",
 		scene = {}
 	},
 	[401] = {

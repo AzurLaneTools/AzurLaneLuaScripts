@@ -1,37 +1,37 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301490] = {
-		name = "카와카제 ",
+	[301492] = {
+		name = "忠心的守护灵狐",
 		change_skin = "",
-		desc = "시라츠유급 구축함 9번함 - 카와카제 ",
+		desc = "……我还以为是谁，原来是你啊。前方乃禁忌领域，就算是你也——已经进去过了……吗？唔，这种状况应该怎么处理呢……",
 		illustrator2 = -1,
 		ship_group = 30149,
-		group_index = 0,
+		group_index = 2,
 		purchase_offset = "",
-		painting = "jiangfeng",
+		painting = "jiangfeng_3",
 		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
+		skin_type = 0,
+		shop_type_id = 28,
 		l2d_ignore_drag = 0,
 		hand_id = 14,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bgm = "",
 		special_effects = "",
-		bg = "",
+		bg = "126",
 		gyro = 0,
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
 		shop_offset = "",
 		ship_l2d_id = "",
-		id = 301490,
+		id = 301492,
 		voice_actor_2 = -1,
 		l2d_drag_rate = "",
 		part_scale = "",
 		get_showing = "",
-		prefab = "jiangfeng",
+		prefab = "jiangfeng_3",
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,
@@ -45,7 +45,9 @@ pg.base.ship_skin_template_8 = {
 		live2d_offset_profile = "",
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -76,133 +78,22 @@ pg.base.ship_skin_template_8 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.7,
-					0.792,
+					0.544,
+					0.768,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.164,
-					0.073,
+					0,
+					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0.682,
-					0.764,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301491] = {
-		name = "간주 모노크롬 ",
-		change_skin = "",
-		desc = "음. 가벼운 차림이 싸우기 쉽지. 지휘관, 감사한다…… '귀엽다'고? 그, 그건 고맙군… ",
-		illustrator2 = -1,
-		ship_group = 30149,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "Jiangfeng_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 9999,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 301491,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "Jiangfeng_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70069,
-		voice_actor = 137,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.02,
-					0.6,
+					0.768,
+					2.517,
 					0
 				}
 			}
@@ -214,8 +105,8 @@ pg.base.ship_skin_template_8 = {
 					{
 						"smoke",
 						{
-							0.266,
-							0.329,
+							-0.611,
+							2.604,
 							0
 						}
 					}
@@ -227,8 +118,8 @@ pg.base.ship_skin_template_8 = {
 					{
 						"smoke",
 						{
-							-0.436,
-							2.45,
+							-0.63,
+							2.559,
 							-0.16
 						}
 					}
@@ -9053,6 +8944,272 @@ pg.base.ship_skin_template_8 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[301920] = {
+		name = "{namecode:307}",
+		change_skin = "",
+		desc = "유구모급 구축함 - 타에카제",
+		illustrator2 = -1,
+		ship_group = 30192,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "miaofeng",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 301920,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "miaofeng",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 476,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.329,
+					0.823,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.407,
+					0.836,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.865,
+					2.5,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.741,
+							2.512,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301921] = {
+		name = "닌자 타에카제의 급강하 수련!",
+		change_skin = "",
+		desc = "으아아아! 떨어진다! …윽… 에, 에헤헤헤~ 좋은 아침이야, 지휘관…… 지, 지금은…… 그래! 닌자 수련을 하던 중이야! 일부러 지휘관을 놀라게 하려던 건 아니었어……",
+		illustrator2 = -1,
+		ship_group = 30192,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "miaofeng_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 28,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "307",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 301921,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "miaofeng_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71212,
+		voice_actor = 476,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.435,
+					0.939,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.507,
+					1.057,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.96,
+					2.431,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.752,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					519,
+					-1199,
+					2,
+					-120,
+					0,
+					2
+				},
+				{
+					-1480,
+					-1218,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-730,
+					0,
+					2,
+					120,
+					0,
+					2
 				}
 			}
 		}

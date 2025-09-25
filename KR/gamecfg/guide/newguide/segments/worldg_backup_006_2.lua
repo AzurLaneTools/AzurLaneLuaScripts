@@ -43,7 +43,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_scrollview/item_grid",
 				conditionData = {
 					"11"
 				},
@@ -72,7 +72,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/actions/use_one_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_usage_panel/window/actions/use_one_button",
 				triggerType = {
 					1
 				},

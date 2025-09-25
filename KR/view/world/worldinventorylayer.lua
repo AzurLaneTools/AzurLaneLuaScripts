@@ -15,27 +15,27 @@ slot0.init = function(slot0)
 		uv0:setItemList(uv0.inventoryProxy:GetItemList())
 	end
 
-	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.blurPanel = slot0:findTF("adapt/blur_panel")
 	slot0.backBtn = slot0:findTF("adapt/top/back_btn", slot0.blurPanel)
-	slot0.topItems = slot0:findTF("topItems")
-	slot0.itemView = slot0:findTF("item_scrollview")
-	slot0.equipmentView = slot0:findTF("equipment_scrollview")
-	slot0.materialtView = slot0:findTF("material_scrollview")
+	slot0.topItems = slot0:findTF("adapt/topItems")
+	slot0.itemView = slot0:findTF("adapt/item_scrollview")
+	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview")
+	slot0.materialtView = slot0:findTF("adapt/material_scrollview")
 	slot1 = nil
 	slot1 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
 	slot0.itemView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
 	slot0.equipmentView:Find("Viewport/moudle_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
 	slot0.materialtView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot1 and 8 or 7
-	slot0.itemUsagePanel = ItemUsagePanel.New(slot0:findTF("item_usage_panel"), slot0._tf)
-	slot0.itemResetPanel = ItemResetPanel.New(slot0:findTF("reset_info_panel"), slot0._tf)
-	slot0.assignedItemView = WorldAssignedItemView.New(slot0._tf, slot0.event)
+	slot0.itemUsagePanel = ItemUsagePanel.New(slot0:findTF("adapt/item_usage_panel"), slot0:findTF("adapt"))
+	slot0.itemResetPanel = ItemResetPanel.New(slot0:findTF("adapt/reset_info_panel"), slot0:findTF("adapt"))
+	slot0.assignedItemView = WorldAssignedItemView.New(slot0:findTF("adapt"), slot0.event)
 	slot0.itemCards = {}
 	slot0.equipmetItems = {}
 	slot0.materialCards = {}
-	slot0._itemToggle = slot0:findTF("topItems/bottom_back/types/properties")
-	slot0._weaponToggle = slot0:findTF("topItems/bottom_back/types/siren_weapon")
-	slot0._materialToggle = slot0:findTF("topItems/bottom_back/types/material")
-	slot0.exchangeTips = slot0:findTF("topItems/bottom_back/reset_exchange")
+	slot0._itemToggle = slot0:findTF("bottom_back/types/properties", slot0.topItems)
+	slot0._weaponToggle = slot0:findTF("bottom_back/types/siren_weapon", slot0.topItems)
+	slot0._materialToggle = slot0:findTF("bottom_back/types/material", slot0.topItems)
+	slot0.exchangeTips = slot0:findTF("bottom_back/reset_exchange", slot0.topItems)
 	slot0.filterBusyToggle = slot0:findTF("adapt/left_length/frame/toggle_equip", slot0.blurPanel)
 	slot0.sortBtn = slot0:findTF("adapt/top/buttons/sort_button", slot0.blurPanel)
 	slot0.indexBtn = slot0:findTF("adapt/top/buttons/index_button", slot0.blurPanel)
@@ -49,6 +49,7 @@ slot0.init = function(slot0)
 	setActive(slot0.sortTpl, false)
 	slot0:initData()
 	slot0:addListener()
+	print(slot0:findTF("bg").rect.width)
 end
 
 slot0.didEnter = function(slot0)
@@ -89,6 +90,10 @@ slot0.OverlayPanel = function(slot0, slot1)
 
 	setParent(tf(slot1), slot0._tf.parent, false)
 	tf(slot1):SetSiblingIndex(slot0._tf:GetSiblingIndex() + slot0.overlayIndex)
+
+	if slot0:findTF("bg") then
+		print(slot0:findTF("bg").rect.width)
+	end
 end
 
 slot0.UnOverlayPanel = function(slot0, slot1, slot2)
@@ -97,9 +102,15 @@ slot0.UnOverlayPanel = function(slot0, slot1, slot2)
 	slot0.overlayIndex = slot0.overlayIndex or 0
 	slot0.overlayIndex = slot0.overlayIndex - 1
 	slot0.overlayIndex = math.max(slot0.overlayIndex, 0)
+
+	if slot0:findTF("bg") then
+		print(slot0:findTF("bg").rect.width)
+	end
 end
 
 slot0.onBackPressed = function(slot0)
+	print(slot0:findTF("bg").rect.width)
+
 	if isActive(slot0.itemResetPanel._go) then
 		slot0.itemResetPanel:Close()
 	elseif isActive(slot0.itemUsagePanel._go) then
@@ -128,6 +139,8 @@ slot0.initData = function(slot0)
 
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.isEquipingOn = false
+
+	print(slot0:findTF("bg").rect.width)
 end
 
 slot0.GetShowBusyFlag = function(slot0)
@@ -140,6 +153,7 @@ end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
+		print(uv0:findTF("bg").rect.width)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
@@ -547,7 +561,7 @@ slot0.PlayOpenBox = function(slot0, slot1, slot2)
 
 		slot0 = tf(uv0[uv1])
 
-		slot0:SetParent(uv0._tf, false)
+		slot0:SetParent(uv0:findTF("adapt"), false)
 		slot0:SetAsLastSibling()
 
 		slot1 = slot0:GetComponent("DftAniEvent")
