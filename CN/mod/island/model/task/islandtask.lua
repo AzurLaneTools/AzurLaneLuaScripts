@@ -18,16 +18,10 @@ slot0.GetAcceptTime = function(slot0)
 end
 
 slot0.InitEndTime = function(slot0)
-	if slot0:getConfig("unlock_condition") == "" or #slot1 == 0 then
-		slot0.endTime = 0
-	end
-
-	if not underscore.detect(slot1, function (slot0)
-		return slot0[1] == IslandTaskConditionType.IN_TIME
-	end) then
+	if slot0:getConfig("unlock_time") == "always" then
 		slot0.endTime = 0
 	else
-		slot0.endTime = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot2[2][2])
+		slot0.endTime = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
 	end
 end
 
@@ -166,10 +160,6 @@ slot0.GetSubmitStory = function(slot0)
 	return slot0:getConfig("com_perform")
 end
 
-slot0.GetTraceId = function(slot0)
-	return slot0:getConfig("navigation")
-end
-
 slot0.GetTraceParam = function(slot0)
 	for slot4, slot5 in ipairs(slot0.targetList) do
 		if not slot5:IsFinish() then
@@ -181,15 +171,19 @@ slot0.GetTraceParam = function(slot0)
 end
 
 slot0.GetAwards = function(slot0)
-	slot1 = underscore.map(slot0:getConfig("reward_show"), function (slot0)
-		return Drop.Create(slot0)
-	end)
+	slot2 = {}
 
-	if slot0:GetExpAward() then
-		table.insert(slot1, slot0:GetExpAward())
+	if type(slot0:getConfig("reward_show")) == "table" then
+		slot2 = underscore.map(slot1, function (slot0)
+			return Drop.Create(slot0)
+		end)
 	end
 
-	return slot1
+	if slot0:GetExpAward() then
+		table.insert(slot2, slot0:GetExpAward())
+	end
+
+	return slot2
 end
 
 slot0.GetExp = function(slot0)
@@ -209,9 +203,24 @@ slot0.GetExpAward = function(slot0)
 end
 
 slot0.GetAwardsStatic = function(slot0)
-	return underscore.map(pg.island_task[slot0].reward_show, function (slot0)
-		return Drop.Create(slot0)
-	end)
+	slot2 = pg.island_task[slot0].reward_exp
+	slot3 = {}
+
+	if type(pg.island_task[slot0].reward_show) == "table" then
+		slot3 = underscore.map(pg.island_task[slot0].reward_show, function (slot0)
+			return Drop.Create(slot0)
+		end)
+	end
+
+	if slot2 ~= 0 then
+		table.insert(slot3, {
+			id = 2,
+			type = DROP_TYPE_ISLAND_ITEM,
+			count = slot2
+		})
+	end
+
+	return slot3
 end
 
 slot0.GetSubmitPlayInfo = function(slot0)

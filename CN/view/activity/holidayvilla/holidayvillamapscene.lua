@@ -517,7 +517,7 @@ slot0.ShowSiteDescPage = function(slot0, slot1, slot2, slot3)
 
 	slot4 = pg.UIMgr.GetInstance()
 
-	slot4:BlurPanel(slot0.siteDescPage, false)
+	slot4:BlurPanel(slot0.siteDescPage)
 
 	slot5 = slot0.siteDescPage
 
@@ -527,7 +527,7 @@ slot0.ShowSiteDescPage = function(slot0, slot1, slot2, slot3)
 	LoadImageSpriteAsync(slot1.jumpto[3][1], slot0:findTF("panel/picBg/mask/picture", slot0.siteDescPage))
 	onButton(slot0, slot0:findTF("bg", slot0.siteDescPage), function ()
 		setActive(uv0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
 
 		if uv1 then
 			uv1()
@@ -535,7 +535,7 @@ slot0.ShowSiteDescPage = function(slot0, slot1, slot2, slot3)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("closeBtn", slot0.siteDescPage), function ()
 		setActive(uv0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.siteDescPage, uv0._tf:Find("subPages"))
 
 		if uv1 then
 			uv1()
@@ -548,7 +548,7 @@ slot0.ShowAllRepairPage = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0.allRepairCompletePage, false)
+	slot1:BlurPanel(slot0.allRepairCompletePage)
 	slot0:SetRes(slot0:findTF("panel/source/res", slot0.allRepairCompletePage), slot0.beforeExchangeResList)
 
 	slot3 = slot0.activity
@@ -556,11 +556,11 @@ slot0.ShowAllRepairPage = function(slot0)
 	setText(slot0:findTF("panel/destination/res/Text", slot0.allRepairCompletePage), slot3:getVitemNumber(66005) - slot0.beforeExchangeResList[5][2])
 	onButton(slot0, slot0:findTF("bg", slot0.allRepairCompletePage), function ()
 		setActive(uv0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("closeBtn", slot0.allRepairCompletePage), function ()
 		setActive(uv0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.allRepairCompletePage, uv0._tf:Find("subPages"))
 	end, SFX_CANCEL)
 end
 
@@ -570,14 +570,14 @@ end
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.siteDescPage) then
 		setActive(slot0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.siteDescPage, slot0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.siteDescPage, slot0._tf:Find("subPages"))
 
 		return
 	end
 
 	if isActive(slot0.allRepairCompletePage) then
 		setActive(slot0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.allRepairCompletePage, slot0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.allRepairCompletePage, slot0._tf:Find("subPages"))
 
 		return
 	end

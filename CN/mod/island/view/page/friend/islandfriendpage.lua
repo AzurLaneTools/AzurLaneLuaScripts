@@ -22,6 +22,19 @@ slot9 = function(slot0)
 	})[slot0]
 end
 
+slot10 = function(slot0)
+	return ({
+		"tag_friend",
+		"tag_guild",
+		"tag_code",
+		"tag_search",
+		"tag_request",
+		"tag_white",
+		"tag_black",
+		"tag_settings"
+	})[slot0]
+end
+
 slot0.getUIName = function(slot0)
 	return "IslandFriendUI"
 end
@@ -29,9 +42,9 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("top/back")
 	slot0.giftTipTxt = slot0:findTF("top/gift_tip/Text"):GetComponent(typeof(Text))
-	slot0.uiToggleList = UIItemList.New(slot0._tf:Find("toggles/content"), slot0._tf:Find("toggles/content/tpl"))
+	slot0.uiToggleList = UIItemList.New(slot0._tf:Find("adapt/toggles/content"), slot0._tf:Find("adapt/toggles/content/tpl"))
 	slot1 = slot0._tf
-	slot0.mainTr = slot1:Find("main")
+	slot0.mainTr = slot1:Find("adapt/main")
 	slot0.pages = {
 		[uv0] = IslandFriendListPage.New(slot0.mainTr, slot0.event),
 		[uv1] = IslandFriendList4GuildPage.New(slot0.mainTr, slot0.event),
@@ -55,6 +68,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandSignInAgency.OTHER_FETCH_CNT_UPDATE, slot0.OnOtherFetchCntUpdate)
 	slot0:AddListener(NotificationProxy.FRIEND_REQUEST_REMOVED, slot0.OnRequestChange)
 	slot0:AddListener(NotificationProxy.FRIEND_REQUEST_ADDED, slot0.OnRequestChange)
+	slot0:AddListener(GAME.FRIEND_SEND_REQUEST_DONE, slot0.OnAddFriendDone)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -66,6 +80,13 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(IslandSignInAgency.OTHER_FETCH_CNT_UPDATE, slot0.OnOtherFetchCntUpdate)
 	slot0:RemoveListener(NotificationProxy.FRIEND_REQUEST_REMOVED, slot0.OnRequestChange)
 	slot0:RemoveListener(NotificationProxy.FRIEND_REQUEST_ADDED, slot0.OnRequestChange)
+	slot0:RemoveListener(GAME.FRIEND_SEND_REQUEST_DONE, slot0.OnAddFriendDone)
+end
+
+slot0.OnAddFriendDone = function(slot0)
+	if slot0.pages[uv0] and slot1:GetLoaded() and slot1:isShowing() then
+		slot1:HideRequestBox()
+	end
 end
 
 slot0.OnRequestChange = function(slot0)
@@ -135,6 +156,7 @@ slot0.OnInit = function(slot0)
 			end, SF_PANEL)
 			setText(slot2:Find("unsel"), uv1(slot1 + 1))
 			setText(slot2:Find("sel/content/Text"), uv1(slot1 + 1))
+			setImageSprite(slot2:Find("sel/content/Image"), GetSpriteFromAtlas("ui/IslandFriendUI_atlas", uv2(slot1 + 1)), true)
 			table.insert(uv0.toggles, slot2)
 		end
 	end)

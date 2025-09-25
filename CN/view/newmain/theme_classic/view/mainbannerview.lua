@@ -47,7 +47,7 @@ slot0.GetDirection = function(slot0)
 end
 
 slot0.Disable = function(slot0)
-	slot0.scrollSnap:Puase()
+	slot0.scrollSnap:Pause()
 end
 
 slot0.Clear = function(slot0)

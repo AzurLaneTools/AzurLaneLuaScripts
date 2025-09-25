@@ -1,5 +1,7 @@
 GraphicSettingConst = {}
 slot0 = GraphicSettingConst
+slot0.PlayerGraphicLevelDorm = "dorm3d_graphics_settings_new"
+slot0.PlayerGraphicLevelIsland = "island3d_graphics_settings_new"
 slot0.SettingType = {
 	select = 2,
 	toggle = 1
@@ -416,12 +418,12 @@ slot0.settings = {
 	}
 }
 
-slot0.InitDefautQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
-		slot1 = DevicePerformanceUtil.GetDevicePerformanceLevel()
+slot0.InitDefautQuality = function(slot0)
+	if PlayerPrefs.GetInt(slot0 and uv0.PlayerGraphicLevelIsland or uv0.PlayerGraphicLevelDorm, 0) == 0 then
+		slot3 = DevicePerformanceUtil.GetDevicePerformanceLevel()
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
-			slot4 = function(slot0)
+			slot6 = function(slot0)
 				if tonumber(string.match(slot0, "iPhone(%d+)")) and slot2 >= 13 then
 					return true
 				end
@@ -435,37 +437,37 @@ slot0.InitDefautQuality = function()
 				end
 
 				return false
-			end)(SystemInfo.deviceModel or "") or slot4(slot2) then
-				slot1 = DevicePerformanceLevel.High
+			end)(SystemInfo.deviceModel or "") or slot6(slot4) then
+				slot3 = DevicePerformanceLevel.High
 			end
 		end
 
-		slot0 = slot1 == DevicePerformanceLevel.High and 3 or slot1 == DevicePerformanceLevel.Mid and 2 or 1
+		PlayerPrefs.SetInt(slot1, slot3 == DevicePerformanceLevel.High and 3 or slot3 == DevicePerformanceLevel.Mid and 2 or 1)
 
-		PlayerPrefs.SetInt("dorm3d_graphics_settings_new", slot0)
-
-		Dorm3dRoomTemplateScene.FirstDefaultSetting = slot0
+		if not slot0 then
+			Dorm3dRoomTemplateScene.FirstDefaultSetting = slot2
+		end
 	end
 end
 
-slot0.SettingQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4) ~= 4 then
-		for slot4, slot5 in ipairs(uv0.settings) do
-			GraphicsInterface.Instance:SetQualitySettings(slot5.parameterId, slot5.defaultValues[slot0])
+slot0.SettingQuality = function(slot0)
+	if PlayerPrefs.GetInt(slot0 and uv0.PlayerGraphicLevelIsland or uv0.PlayerGraphicLevelDorm, 4) ~= 4 then
+		for slot6, slot7 in ipairs(uv0.settings) do
+			GraphicsInterface.Instance:SetQualitySettings(slot7.parameterId, slot7.defaultValues[slot2])
 		end
 
 		return
 	end
 
-	for slot4, slot5 in ipairs(uv0.settings) do
-		slot6 = slot5.parameterId
-		slot8 = slot5.defaultValues[4]
+	for slot6, slot7 in ipairs(uv0.settings) do
+		slot8 = slot7.parameterId
+		slot11 = slot7.defaultValues[4]
 
-		if PlayerPrefs.GetInt(slot5.playerPrefsname, -1) ~= -1 then
-			slot8 = slot7
+		if PlayerPrefs.GetInt(slot0 and slot7.playerPrefsname .. "island" or slot7.playerPrefsname, -1) ~= -1 then
+			slot11 = slot10
 		end
 
-		GraphicsInterface.Instance:SetQualitySettings(slot6, slot8)
+		GraphicsInterface.Instance:SetQualitySettings(slot8, slot11)
 	end
 end
 

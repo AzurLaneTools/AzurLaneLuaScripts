@@ -123,7 +123,7 @@ slot0.willExit = function(slot0)
 		slot0:hideMsgbox()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.ltId then
 		LeanTween.cancel(slot0.ltId)
@@ -165,7 +165,7 @@ end
 
 slot0.hideMsgbox = function(slot0)
 	setActive(slot0.rtMsgbox, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMsgbox)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtMsgbox)
 end
 
 return slot0

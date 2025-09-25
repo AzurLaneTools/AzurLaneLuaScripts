@@ -4,7 +4,7 @@ slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.index = 1
-	slot0.speed = 3
+	slot0.speed = 2
 	slot0.rotationSpeed = 10
 	slot0.isStopping = false
 end
@@ -35,8 +35,12 @@ slot0.OnExecute = function(slot0)
 		return
 	end
 
+	slot0.delayInit = false
+
 	if slot3 then
 		slot0:ResumeMove()
+	elseif not slot0.navAgent.isOnNavMesh then
+		slot0.delayInit = true
 	else
 		slot0:NextOne()
 	end
@@ -47,6 +51,20 @@ slot0.IsLegalPath = function(slot0)
 end
 
 slot0.OnUpdate = function(slot0)
+	if slot0.delayInit and slot0.navAgent.isOnNavMesh then
+		slot0:NextOne()
+
+		slot0.delayInit = false
+	end
+
+	if not slot0.navAgent.enabled then
+		return
+	end
+
+	if not slot0.navAgent.isOnNavMesh then
+		return
+	end
+
 	if not slot0:IsLegalPath() then
 		return
 	end
@@ -96,7 +114,7 @@ slot0.NextOne = function(slot0)
 		slot0.index = 1
 	end
 
-	_IslandMoveUnit(slot0.unitType, slot0.unitId, slot0.waypoints[slot0.index].position, slot0.speed)
+	_IslandMoveUnit(slot0.unitType, slot0.unitId, slot0.waypoints[slot0.index].position, slot0.speed, 0.5)
 	slot0:OnProcess()
 end
 
@@ -194,7 +212,7 @@ slot0.EndArriveAction = function(slot0)
 end
 
 slot0.DisappearUnit = function(slot0)
-	setActive(slot0.agent, false)
+	_IslandGetUnit(slot0.unitType, slot0.unitId):Disable()
 end
 
 slot0.DoRatation = function(slot0)

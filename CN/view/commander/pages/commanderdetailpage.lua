@@ -398,7 +398,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	if slot0.isBlur then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0.blurPanelParent)
 	end
 
 	if slot0.renamePanel then
@@ -416,7 +416,7 @@ slot0.Blur = function(slot0)
 	else
 		slot0.isBlur = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0.blurPanelParent)
 	end
 end
 

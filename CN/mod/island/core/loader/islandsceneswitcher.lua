@@ -1,26 +1,26 @@
 slot0 = class("IslandSceneSwitcher", import(".IslandSceneLoader"))
 
-slot0.LoadProgressUI = function(slot0, slot1)
+slot0.LoadProgressUI = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
-			uv0:LoadProgressUI(slot0)
+			slot2 = IslandAssetLoadDispatcher.Instance
+			uv0.progressLoadingId = slot2:Enqueue("ui/IslandSceneLoader", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				slot2 = FrameAsyncInstantiateManager.Instance
+				uv0.loadingInstID = slot2:EnqueueInstantiate(slot0, function (slot0)
+					setParent(slot0, pg.UIMgr.GetInstance().UIMain)
+
+					uv0.progressUI = slot0
+					uv0.curtain = uv0.progressUI.transform:Find("curtain")
+
+					setActive(uv0.progressUI, true)
+					uv1()
+				end)
+			end), true, true)
 		end,
 		function (slot0)
 			uv0:PlayFadeIn(slot0)
 		end
-	}, slot1)
-end
-
-slot0.LoadProgressUI = function(slot0, slot1)
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync("ui/IslandSceneLoader", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0.progressUI = Object.Instantiate(slot0, pg.UIMgr.GetInstance().UIMain)
-		uv0.curtain = uv0.progressUI.transform:Find("curtain")
-
-		setActive(uv0.progressUI, true)
-		uv1()
-	end), true, true)
+	}, slot2)
 end
 
 slot0.PlayFadeIn = function(slot0, slot1)
@@ -93,6 +93,18 @@ slot0.Clear = function(slot0)
 	end
 
 	slot0:UnloadProgressUI()
+
+	if slot0.loadingInstID then
+		FrameAsyncInstantiateManager.Instance:Cancel(slot0.loadingInstID)
+
+		slot0.loadingInstID = nil
+	end
+
+	if slot0.progressLoadingId then
+		IslandAssetLoadDispatcher.Instance:Cancel(slot0.progressLoadingId)
+
+		slot0.progressLoadingId = nil
+	end
 end
 
 return slot0

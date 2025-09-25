@@ -178,6 +178,11 @@ slot0.OnInitItem = function(slot0, slot1)
 	onButton(slot0, slot2.btn, function ()
 		uv0:emit(IslandMediator.ON_KICK_PLAYER, IslandConst.ACCESS_OP_KICK, uv1.player.id)
 	end, SFX_PANEL)
+	onButton(slot0, slot2.cardBtn, function ()
+		uv0:emit(IslandMediator.OPEN_PAGE, "IslandOtherCardPage", {
+			uv1.player.id
+		})
+	end, SFX_PANEL)
 
 	slot0.cardList[slot0.pageIndex][slot1] = slot2
 end

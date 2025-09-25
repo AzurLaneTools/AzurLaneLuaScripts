@@ -40,7 +40,7 @@ slot0.didEnter = function(slot0)
 		uv0:GetAllAward()
 	end)
 	setText(slot0.getall:Find("Text"), i18n("other_world_task_get_all"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.UpdateView = function(slot0)

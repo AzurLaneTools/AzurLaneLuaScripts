@@ -33,7 +33,6 @@ slot0.init = function(slot0)
 	slot0.indexPanel = slot0:findTF("index")
 	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
 	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
 	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
@@ -41,9 +40,7 @@ slot0.init = function(slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.indexPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.indexPanel)
 end
 
 slot0.SetParentTF = function(slot0, slot1)
@@ -554,7 +551,7 @@ slot0.showDesignDesc = function(slot0, slot1)
 		return
 	end
 
-	slot0.UIMgr:BlurPanel(slot0.msgBoxTF)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.msgBoxTF)
 	setActive(slot0.msgBoxTF, true)
 
 	slot2 = slot0.msgBoxTF
@@ -633,7 +630,7 @@ slot0.hideMsgBox = function(slot0)
 	if not IsNil(slot0.msgBoxTF) then
 		slot0.isShowDesc = nil
 
-		slot0.UIMgr:UnblurPanel(slot0.msgBoxTF, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.msgBoxTF, slot0._tf)
 		setActive(slot0.msgBoxTF, false)
 	end
 end
@@ -654,7 +651,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.indexPanel, slot0._tf)
 
 	if slot0.leftEventTrigger then
 		ClearEventTrigger(slot0.leftEventTrigger)

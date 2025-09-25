@@ -17,6 +17,20 @@ slot0.IsUsing = function(slot0)
 	end)
 end
 
+slot0.IsNew = function(slot0)
+	return _.any(slot0.list, function (slot0)
+		return slot0:IsNew()
+	end)
+end
+
+slot0.Read = function(slot0)
+	return slot0:GetFirstItem():Read()
+end
+
+slot0.GetRarity = function(slot0)
+	return slot0:GetFirstItem():GetRarity()
+end
+
 slot0.AddItem = function(slot0, slot1)
 	table.insert(slot0.list, slot1)
 end

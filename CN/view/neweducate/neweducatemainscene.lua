@@ -41,12 +41,32 @@ slot0.init = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.topPanel:RegisterView(slot0)
+
 	slot0.infoPanel = NewEducateInfoPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.infoPanel:RegisterView(slot0)
+
 	slot0.roundTipPanel = NewEducateRoundTipPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.roundTipPanel:RegisterView(slot0)
+
 	slot0.assessPanel = NewEducateAssessPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.assessPanel:RegisterView(slot0)
+
 	slot0.favorPanel = NewEducateFavorPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.favorPanel:RegisterView(slot0)
+
 	slot0.personalityTipPanel = NewEducatePersonalityTipPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.personalityTipPanel:RegisterView(slot0)
+
 	slot0.nodePanel = NewEducateNodePanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.nodePanel:RegisterView(slot0)
 end
 
 slot0.didEnter = function(slot0)

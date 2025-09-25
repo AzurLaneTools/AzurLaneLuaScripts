@@ -7,7 +7,61 @@ slot0.ShowTpye = {
 	FriendSeeAndSign = 3
 }
 
-slot0.OnInit = function(slot0)
+slot0.OnInit = function(slot0, slot1)
+	slot0.finnishIds = {}
+	slot2 = ipairs
+	slot3 = slot1.finish_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.finnishIds, slot6)
+	end
+end
+
+slot0.InitPrivateData = function(slot0, slot1)
+	slot0.collectData = {}
+	slot3 = ipairs
+	slot4 = (slot1.collect_sys or {}).collect_item or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0.collectData[slot7.id] = IslandCollectItemData.New(slot7)
+	end
+
+	slot0.finish_listCollect = slot2.finish_list or {}
+end
+
+slot0.ExistFragment = function(slot0, slot1)
+	slot3 = pg.island_collect_fragment[slot1].collection_id
+
+	for slot7, slot8 in ipairs(slot0.finish_listCollect) do
+		if slot3 == slot8 then
+			return true
+		end
+	end
+
+	if slot0.collectData[slot3] then
+		return slot4:CheckFragment(slot1)
+	end
+
+	return false
+end
+
+slot0.AddCollectFragment = function(slot0, slot1)
+	if not slot0.collectData[pg.island_collect_fragment[slot1].collection_id] then
+		slot0.collectData[slot3] = IslandCollectItemData.New({
+			id = slot3
+		})
+	end
+
+	slot0.collectData[slot3]:AddFragment(slot1)
+	IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.FRAGMENT)
+end
+
+slot0.AddFinishCollectData = function(slot0, slot1)
+	if slot0.collectData[slot1] then
+		slot2:ResetFragment()
+	end
+
+	table.insert(slot0.finish_listCollect, slot1)
 end
 
 slot0.InitGatherData = function(slot0, slot1, slot2, slot3)
@@ -53,7 +107,9 @@ slot0.UpdateGatherData = function(slot0, slot1)
 
 		if slot7 then
 			slot0:DispatchEvent(uv0.AddGatherUnit, {
-				unitId = slot9
+				unitId = slot9,
+				islandId = slot1.island_id,
+				gatherType = IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM
 			})
 		end
 	end

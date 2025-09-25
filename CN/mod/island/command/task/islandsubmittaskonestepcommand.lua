@@ -15,10 +15,6 @@ slot0.execute = function(slot0, slot1)
 			for slot6, slot7 in ipairs(uv0) do
 				slot8 = slot1:GetTask(slot7)
 				slot2 = slot2 + slot8:GetExp()
-				slot13 = slot8.id
-
-				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTaskSubmit(slot8:GetType(), slot13))
-
 				slot9 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 
 				for slot13, slot14 in ipairs(slot8:GetRecycleItemInfos()) do

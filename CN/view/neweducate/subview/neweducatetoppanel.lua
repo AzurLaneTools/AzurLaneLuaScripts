@@ -89,12 +89,10 @@ slot0.OnInit = function(slot0)
 		NewEducateHelper.TrackExitTime()
 		uv0:emit(NewEducateBaseUI.ON_HOME)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0.resTF
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER
+		}
 	})
 	slot0:Flush()
 end
@@ -181,7 +179,7 @@ slot0.PlayHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.GetMoodColor = function(slot0, slot1)

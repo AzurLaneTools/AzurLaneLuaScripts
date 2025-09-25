@@ -94,47 +94,42 @@ slot0.InitEvent = function(slot0)
 end
 
 slot0.OnSelected = function(slot0, slot1)
-	slot2 = pg.UIMgr.GetInstance()
-
 	if slot1 then
+		slot2 = {}
 		slot3 = {}
 		slot4 = {}
-		slot5 = {}
 
-		slot6 = function(slot0, slot1)
+		slot5 = function(slot0, slot1)
 			eachChild(slot0, function (slot0)
 				table.insert(uv0, slot0)
 			end)
 		end
 
-		slot6(slot0.equipmentR:Find("skin"), slot4)
-		slot6(slot0.equipmentR:Find("equipment"), slot4)
-		slot6(slot0.equipmentL:Find("skin"), slot3)
-		slot6(slot0.equipmentL:Find("equipment"), slot3)
-		slot6(slot0.equipmentB, slot5)
-		table.insert(slot3, slot0.equipmentL:Find("equipment/equipment_l1"))
-		slot2:OverlayPanelPB(slot0.equipRCon, {
-			pbList = slot4,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
-		})
-		slot2:OverlayPanelPB(slot0.equipLCon, {
+		slot5(slot0.equipmentR:Find("skin"), slot3)
+		slot5(slot0.equipmentR:Find("equipment"), slot3)
+		slot5(slot0.equipmentL:Find("skin"), slot2)
+		slot5(slot0.equipmentL:Find("equipment"), slot2)
+		slot5(slot0.equipmentB, slot4)
+		table.insert(slot2, slot0.equipmentL:Find("equipment/equipment_l1"))
+		slot0:OverlayPanel(slot0.equipRCon, {
+			groupDelta = -1,
 			pbList = slot3,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
-		slot2:OverlayPanelPB(slot0.equipBCon, {
-			pbList = slot5,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
+		slot0:OverlayPanel(slot0.equipLCon, {
+			groupDelta = -1,
+			pbList = slot2,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		})
+		slot0:OverlayPanel(slot0.equipBCon, {
+			groupDelta = -1,
+			pbList = slot4,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		slot2:UnOverlayPanel(slot0.equipRCon, slot0._parentTf)
-		slot2:UnOverlayPanel(slot0.equipLCon, slot0._parentTf)
-		slot2:UnOverlayPanel(slot0.equipBCon, slot0._parentTf)
+		slot0:UnOverlayPanel(slot0.equipRCon, slot0._parentTf)
+		slot0:UnOverlayPanel(slot0.equipLCon, slot0._parentTf)
+		slot0:UnOverlayPanel(slot0.equipBCon, slot0._parentTf)
 	end
 
 	slot0.onSelected = slot1
@@ -325,7 +320,6 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 				type = EquipmentInfoMediator.TYPE_SHIP,
 				shipId = uv1.id,
 				pos = uv2,
-				LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER,
 				onRemoved = function ()
 					uv0:setEquipDescVisible(true)
 				end

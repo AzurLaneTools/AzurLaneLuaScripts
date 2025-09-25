@@ -197,7 +197,7 @@ slot0.Hide = function(slot0)
 	Input.multiTouchEnabled = false
 
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0:Emit("StopPlayMusicalInstruments", slot0.furniture.id)
 end
 

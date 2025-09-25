@@ -54,9 +54,7 @@ slot0.Show = function(slot0, slot1)
 	slot0.showing = true
 
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setText(slot0.prompt, i18n("change_player_name_illegal", getProxy(PlayerProxy):getRawData().name))
 
 	slot0.callback = slot1
@@ -66,7 +64,7 @@ slot0.Hide = function(slot0)
 	if slot0.showing then
 		slot0.showing = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 		uv0.super.Hide(slot0)
 
 		slot0.callback = nil

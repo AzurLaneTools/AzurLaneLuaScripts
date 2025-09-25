@@ -464,7 +464,7 @@ end
 slot0.HideResult = function(slot0)
 	if isActive(slot0.result) then
 		setActive(slot0.result, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.result, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.result, slot0._tf)
 	end
 end
 

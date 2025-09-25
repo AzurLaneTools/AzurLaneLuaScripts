@@ -98,9 +98,7 @@ slot0.didEnter = function(slot0)
 	slot11 = slot0._tf
 
 	setText(slot11:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot10 = slot1:GetShopID()
 	slot0.itemList = {

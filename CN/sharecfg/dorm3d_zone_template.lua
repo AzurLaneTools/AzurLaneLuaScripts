@@ -310,6 +310,51 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[12001] = {
+		is_global = 0,
+		name = "卧室",
+		type_prioritys = "",
+		id = 12001,
+		room_id = 12,
+		watch_camera = "Bed",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		}
+	},
+	[12002] = {
+		is_global = 0,
+		name = "餐厅",
+		type_prioritys = "",
+		id = 12002,
+		room_id = 12,
+		watch_camera = "Table",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		}
+	},
+	[12003] = {
+		is_global = 0,
+		name = "客厅",
+		type_prioritys = "",
+		id = 12003,
+		room_id = 12,
+		watch_camera = "Chair",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		}
+	},
 	[16001] = {
 		is_global = 0,
 		name = "舞池",
@@ -322,6 +367,21 @@ pg.dorm3d_zone_template = {
 			{
 				10517,
 				1051790
+			}
+		}
+	},
+	[16002] = {
+		is_global = 0,
+		name = "咖啡厅沙发",
+		type_prioritys = "",
+		id = 16002,
+		room_id = 16,
+		watch_camera = "dafeng",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070790
 			}
 		}
 	},
@@ -354,8 +414,14 @@ pg.dorm3d_zone_template = {
 			11002,
 			11003
 		},
+		[12] = {
+			12001,
+			12002,
+			12003
+		},
 		[16] = {
-			16001
+			16001,
+			16002
 		}
 	},
 	all = {
@@ -377,6 +443,10 @@ pg.dorm3d_zone_template = {
 		11001,
 		11002,
 		11003,
-		16001
+		12001,
+		12002,
+		12003,
+		16001,
+		16002
 	}
 }

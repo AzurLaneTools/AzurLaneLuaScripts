@@ -119,8 +119,7 @@ slot0.didEnter = function(slot0)
 				yesText = "text_buy",
 				content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
 				onYes = slot0,
-				alignment = TextAnchor.UpperLeft,
-				weight = LayerWeightConst.TOP_LAYER
+				alignment = TextAnchor.UpperLeft
 			})
 		else
 			slot0()

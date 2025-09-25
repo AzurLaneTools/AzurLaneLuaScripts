@@ -24217,6 +24217,11 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
+_G.pg.base.gametip.setting_resdownload_title_island = {
+	tip = "岛屿资源更新"
+}
+
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "键位设置"
 }
@@ -26395,6 +26400,86 @@ _G.pg.base.gametip.cruise_task_help_2508 = {
 
 ·<color=#92fc63>开放时间</color>
  2025.8.1 0点 ~ 2025.9.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2510 = {
+	tip = "2025/10/1-2025/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「杜威·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2510 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2025.10.1-2025.11.30)
+
+·<color=#92fc63>开放时间</color>
+ 2025.10.1 0点 ~ 2025.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「杜威·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·八期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>茳换装「忠心的守护灵狐 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2510 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2025.10.1 0点 ~ 2025.11.30 23:59:59
 
 ·<color=#92fc63>巡游任务分为两种</color>
 （1）每周任务
@@ -34681,6 +34766,16 @@ _G.pg.base.gametip.main_silent_tip_4 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_5 = {
+	tip = "组资材可收取"
+}
+
+
+_G.pg.base.gametip.main_silent_tip_6 = {
+	tip = "个岗位空缺中"
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "前 往"
 }
@@ -36040,6 +36135,11 @@ _G.pg.base.gametip.cruise_title_2506 = {
 
 _G.pg.base.gametip.cruise_title_2508 = {
 	tip = "世界巡游·二十四期"
+}
+
+
+_G.pg.base.gametip.cruise_title_2510 = {
+	tip = "世界巡游·二十五期"
 }
 
 
@@ -37981,6 +38081,16 @@ _G.pg.base.gametip.skin_original_price = {
 }
 
 
+_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
+	tip = "当前已拥有换装（$1/$2）。若已经拥有换装，则对应的换装抵扣券不生效。\n如果已拥有礼盒内全部换装，则返还680钻石，此时不会掉落换装抵扣券。\n确认购买该礼包吗？"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Last_Coupon = {
+	tip = "购买后的换装抵扣券数量将超过可使用换装的数量，部分换装抵扣券将无法使用。\n确认购买换装吗？"
+}
+
+
 _G.pg.base.gametip.clue_title_1 = {
 	tip = "地点情报"
 }
@@ -38316,6 +38426,21 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 }
 
 
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "岛屿名称为1-9个字，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "岛屿名称不可含特殊字符，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "岛屿名称包含敏感词汇，请重新输入"
+}
+
+
 _G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
 	tip = "允许GPGPU"
 }
@@ -38493,6 +38618,66 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "景深"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
+	tip = "岛屿画面"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_control = {
+	tip = "岛屿操作"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_general = {
+	tip = "岛屿设置"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_title = {
+	tip = "岛屿名片展示设置"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
+	tip = "岛屿评价标签展示"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
+	tip = "岛屿社交数据展示"
+}
+
+
+_G.pg.base.gametip.island_daily_gift_invite_success = {
+	tip = "已成功发送领取补给邀请"
+}
+
+
+_G.pg.base.gametip.island_build_save_conflict = {
+	tip = "该位置已被占用"
+}
+
+
+_G.pg.base.gametip.island_build_save_success = {
+	tip = "保存成功"
+}
+
+
+_G.pg.base.gametip.island_build_capacity_tip = {
+	tip = "超过当前场景容量上限"
+}
+
+
+_G.pg.base.gametip.island_build_clean_tip = {
+	tip = "是否确认清空所有家具？"
+}
+
+
+_G.pg.base.gametip.island_build_revert_tip = {
+	tip = "是否确认还原所有改动？"
 }
 
 
@@ -39211,7 +39396,7 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「嘉年华」系列换装或一个换装礼盒(嘉年华)时，可领取一张<color=#92fc63>换装折扣券（嘉年华）</color>\n2.<color=#92fc63>换装折扣券（嘉年华）</color>可用于购买「嘉年华」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（嘉年华）</color>将会在活动结束后（2025年8月13日23:59:59）消失"
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「运动时间」、「疾速狂热」系列换装或一个换装礼盒(疾速狂热)时，可领取一张<color=#92fc63>换装折扣券（疾速狂热）</color>\n2.<color=#92fc63>换装折扣券（疾速狂热）</color>可用于购买「运动时间」、「疾速狂热」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（疾速狂热）</color>将会在活动结束后（2025年10月22日23:59:59）消失"
 		}
 	}
 }
@@ -40677,4 +40862,24 @@ _G.pg.base.gametip.ninja_game_cant_pickup = {
 
 _G.pg.base.gametip.ninja_game_booktip = {
 	tip = "*在「城主手册」中招募援军、修复建筑可推进城市修复阶段。"
+}
+
+
+_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+	tip = "请先解锁公共房间 "
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_table = {
+	tip = "厨房"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_bed = {
+	tip = "卧室"
 }

@@ -166,7 +166,7 @@ slot0.willExit = function(slot0)
 	slot0.medalTaskView:SetActive(false)
 	slot0.medalDetailView:Dispose()
 	slot0.medalTaskView:Dispose()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0.loader:Clear()
 end
 

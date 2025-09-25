@@ -298,11 +298,13 @@ slot0.displayWindow = function(slot0, slot1)
 		slot3 = Screen.height
 
 		setSizeDelta(findTF(slot0.mvTf, "bottom"), Vector2(Screen.width, Screen.height))
-		pg.UIMgr.GetInstance():BlurPanel(slot0.mvTf, true)
+		pg.UIMgr.GetInstance():BlurPanel(slot0.mvTf, {
+			staticBlur = true
+		})
 		slot0:updateMvUI()
 		slot0:loadMv()
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.mvTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.mvTf)
 		setActive(slot0.mvTf, false)
 	end
 

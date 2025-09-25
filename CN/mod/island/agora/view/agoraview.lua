@@ -8,7 +8,7 @@ slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 
 	slot1 = GameObject.Find("AgoraMainStage")
-	slot0.agoraLookAtObj = slot1.transform:Find("lookat"):GetComponent("AgoraLookAtObj")
+	slot0.agoraLookAtObj = GetOrAddComponent(slot1.transform:Find("lookat"), "AgoraLookAtObj")
 	slot0.lookatBuilding = slot1.transform:Find("lookat_building")
 	slot0.furnitureRoot = slot1.transform:Find("furniture")
 
@@ -18,27 +18,21 @@ slot0.Init = function(slot0)
 
 	if uv1 then
 		slot0.debugMap = AgoraDebugMap.New(slot0)
-
-		slot0.debugMap:Init()
 	end
 
 	slot0.mode = uv0.MODE_OVERVIEW
 	slot0.decorationView = slot0:CreateDecorationView()
 	slot0.paveTileView = AgoraPaveTileView.New(slot0)
 	slot0.reloadingView = AgoraReloadingView.New(slot0)
-	slot0.gridTr = GameObject.Find("[MainBlock]/[Model]/nobake/grid")
+	slot0.gridTr = GameObject.Find("/[MainBlock]/[Model]/nobake/pre_grid")
 	slot0.trees = {
-		[4356] = GameObject.Find("[MainBlock]/[Model]/fbx/lightmap04_jhs_autumn/tree_level_2"),
-		[6084] = GameObject.Find("[MainBlock]/[Model]/fbx/lightmap04_jhs_autumn/tree_level_3")
-	}
-	slot0.stones = {
-		[4356] = GameObject.Find("[MainBlock]/[Model]/fbx/lightmap04_jhs_autumn/shanti_Level_2"),
-		[6084] = GameObject.Find("[MainBlock]/[Model]/fbx/lightmap04_jhs_autumn/shanti_Level_3")
+		[4356] = GameObject.Find("/[MainBlock]/[Model]/nobake/level2"),
+		[6084] = GameObject.Find("/[MainBlock]/[Model]/nobake/level3")
 	}
 	slot0.grids = {
-		[2916] = GameObject.Find("[MainBlock]/[Model]/nobake/grid/level1_54x54"),
-		[4356] = GameObject.Find("[MainBlock]/[Model]/nobake/grid/level2_66x66"),
-		[6084] = GameObject.Find("[MainBlock]/[Model]/nobake/grid/level3_78x78")
+		[1600] = GameObject.Find("/[MainBlock]/[Model]/nobake/pre_grid/level1"),
+		[4356] = GameObject.Find("/[MainBlock]/[Model]/nobake/pre_grid/level2"),
+		[6084] = GameObject.Find("/[MainBlock]/[Model]/nobake/pre_grid/level3")
 	}
 
 	for slot5, slot6 in pairs(slot0.grids) do
@@ -71,7 +65,9 @@ slot0.AddAgoraListeners = function(slot0)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SELECTED_ITEM, slot0.OnSelectedItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.UNSELECTED_ITEM, slot0.OnUnSelectedItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.CONFIRM_SELECTED_ITEM, slot0.OnConfirmItem)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_BEGIN, slot0.OnBeginDragItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, slot0.OnDragItem)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, slot0.OnEndDragItem)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnStartInteraction)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnEndInteraction)
@@ -88,6 +84,11 @@ slot0.AddAgoraListeners = function(slot0)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.START_LOAD_ITEMS, slot0.OnStartLoadItems)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.END_LOAD_ITEMS, slot0.OnEndLoadItems)
 	slot0:AddAgoraListener(ISLAND_AGORA_EVT.SAVE, slot0.OnSave)
+	slot0:AddAgoraListener(ISLAND_AGORA_EVT.TAG_CHANGE, slot0.OnTagChange)
+	slot0:AddAgoraListener(ISLAND_EVT.GEN_UNIT, slot0.OnGenUnit)
+	slot0:AddAgoraListener(ISLAND_EVT.RMOVE_UNIT, slot0.OnRemoveUnit)
+	slot0:AddAgoraListener(ISLAND_EVT.RESET_UNIT_POS, slot0.OnResetUnitPos)
+	slot0:AddAgoraListener(ISLAND_EVT.RESET_UNIT_ROT, slot0.OnResetUnitRotation)
 end
 
 slot0.RemoveAgoraListeners = function(slot0)
@@ -105,7 +106,9 @@ slot0.RemoveAgoraListeners = function(slot0)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SELECTED_ITEM, slot0.OnSelectedItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.UNSELECTED_ITEM, slot0.OnUnSelectedItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.CONFIRM_SELECTED_ITEM, slot0.OnConfirmItem)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_BEGIN, slot0.OnBeginDragItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM, slot0.OnDragItem)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.DRAG_ITEM_END, slot0.OnEndDragItem)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.MAP_SIZE_UPDATE, slot0.OnBoardUpdate)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_INTERACTION, slot0.OnStartInteraction)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_INTERACTION, slot0.OnEndInteraction)
@@ -122,6 +125,11 @@ slot0.RemoveAgoraListeners = function(slot0)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.START_LOAD_ITEMS, slot0.OnStartLoadItems)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.END_LOAD_ITEMS, slot0.OnEndLoadItems)
 	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.SAVE, slot0.OnSave)
+	slot0:RemoveAgoraListener(ISLAND_AGORA_EVT.TAG_CHANGE, slot0.OnTagChange)
+	slot0:RemoveAgoraListener(ISLAND_EVT.GEN_UNIT, slot0.OnGenUnit)
+	slot0:RemoveAgoraListener(ISLAND_EVT.RMOVE_UNIT, slot0.OnRemoveUnit)
+	slot0:RemoveAgoraListener(ISLAND_EVT.RESET_UNIT_POS, slot0.OnResetUnitPos)
+	slot0:RemoveAgoraListener(ISLAND_EVT.RESET_UNIT_ROT, slot0.OnResetUnitRotation)
 end
 
 slot0.OnSave = function(slot0)
@@ -136,7 +144,10 @@ end
 
 slot0.OnEndLoadItems = function(slot0, slot1)
 	slot0.startLoadItemsFlag = false
-	slot0.lookatBuilding.position = AgoraCalc.MapPosition2WorldPosition(slot1)
+
+	if slot1 then
+		slot0.lookatBuilding.position = AgoraCalc.MapPosition2WorldPosition(slot1)
+	end
 end
 
 slot0.OnReload = function(slot0)
@@ -177,7 +188,7 @@ slot0.OnClearSelectedUnit = function(slot0)
 	uv0.super.OnClearSelectedUnit(slot0)
 
 	if slot0.selectedUnitId then
-		slot0:GetSubView(AgoraOpView):HideInterActionPanel()
+		slot0:GetSubView(IslandInteractionView):HideInterActionPanel()
 
 		if slot0:GetUnitModule(slot0.selectedUnitId) then
 			GetOrAddComponent(slot1._go, typeof(HighlightController)):HighlightOff()
@@ -199,7 +210,7 @@ slot0.OnSelectedUnit = function(slot0, slot1)
 
 		slot0.selectedUnitId = slot1.id
 
-		slot0:GetSubView(AgoraOpView):ShowInterActionPanel({
+		slot0:GetSubView(IslandInteractionView):ShowInterActionPanel({
 			type = 41
 		})
 	end
@@ -209,21 +220,26 @@ slot0.OnSignCntUpdate = function(slot0, slot1)
 	slot0:GetSubView(AgoraOpView):UpdateSignInTip()
 end
 
-slot0.OnGenItem = function(slot0, slot1)
-	slot0:AddUnit(slot0.mouldBuilder:Build(slot1))
+slot0.OnGenItem = function(slot0, slot1, slot2)
+	slot0:AddUnit(slot0.mouldBuilder:Build(slot1, slot2))
 
 	if slot0.mode == uv0.MODE_EDIT then
-		slot0.decorationView:Execute("FlushList")
+		slot0.decorationView:Execute("FlushCard", slot1.id)
 		slot0.decorationView:Execute("FlushCapacity")
 
 		if not slot0.startLoadItemsFlag then
-			slot0:LookAtItem(slot2)
+			slot0:LookAtItem(slot3)
 		end
 	end
+
+	slot0:GetSystemModule(IslandConst.AGORA_GRASSLAND):SetVisible(slot1, false)
 end
 
 slot0.OnTagChange = function(slot0, slot1)
-	slot0:SwitchLookat(slot1 == AgoraFurnitureType.BUILDING)
+	slot2 = slot1 == AgoraFurnitureType.BUILDING
+
+	slot0:SwitchLookat(slot2)
+	slot0:GetSubView(AgoraOpView):ShowMoveBtn(not slot2)
 end
 
 slot0.SwitchLookat = function(slot0, slot1)
@@ -257,19 +273,17 @@ slot0.OnRemoveItem = function(slot0, slot1)
 	slot0:RemoveUnit(slot2)
 
 	if slot0.mode == uv0.MODE_EDIT then
-		slot0.decorationView:Execute("FlushList")
+		slot0.decorationView:Execute("FlushCard", slot1.id)
 		slot0.decorationView:Execute("FlushCapacity")
 	end
+
+	slot0:GetSystemModule(IslandConst.AGORA_GRASSLAND):SetVisible(slot1, true)
 end
 
 slot0.OnBoardUpdate = function(slot0, slot1)
 	slot2 = slot1.x * slot1.y
 
 	for slot6, slot7 in pairs(slot0.trees) do
-		setActive(slot7, slot2 < slot6)
-	end
-
-	for slot6, slot7 in pairs(slot0.stones) do
 		setActive(slot7, slot2 < slot6)
 	end
 
@@ -310,8 +324,18 @@ slot0.OnUnplaceItem = function(slot0)
 	slot0.decorationView:Execute("OnSelectedItem", -1, true)
 end
 
+slot0.OnBeginDragItem = function(slot0, slot1)
+	print("OnBeginDragItem")
+	slot0:GetSystemModule(IslandConst.AGORA_GRASSLAND):SetVisible(slot1, true)
+end
+
 slot0.OnDragItem = function(slot0, slot1, slot2)
 	slot0:GetAgoraMould(slot1):ShowOrHideArea(not slot2, true)
+end
+
+slot0.OnEndDragItem = function(slot0, slot1)
+	print("OnEndDragItem")
+	slot0:GetSystemModule(IslandConst.AGORA_GRASSLAND):SetVisible(slot1, false)
 end
 
 slot0.OnPositionOccupied = function(slot0, slot1)
@@ -322,7 +346,7 @@ slot0.OnClearPositionOccupied = function(slot0, slot1)
 	slot5 = IslandConst.UNIT_LIST_AGORA
 
 	for slot5, slot6 in pairs(slot0:GetUnitListByKey(slot5)) do
-		if slot5 ~= slot1 then
+		if slot6.id ~= slot1 then
 			slot6:ShowOrHideArea(false, false)
 		end
 	end
@@ -334,9 +358,9 @@ slot0.OnStartInteraction = function(slot0, slot1, slot2, slot3)
 
 	warning("start", slot4, slot5, slot3, slot2.id)
 
-	slot6 = slot0:GetAgoraMould(slot4)
+	slot6 = slot0:GetUnitModule(slot4)
 
-	if slot0.player == slot0:GetUnitModule(slot5) then
+	if slot0.player == slot0:GetPlayerUnitModule(slot5) then
 		slot0:GetSubView(AgoraOpView):StartInteraction()
 	end
 
@@ -347,11 +371,11 @@ slot0.OnEndInteraction = function(slot0, slot1, slot2)
 	slot3 = slot2:GetHostId()
 	slot4 = slot2:GetUserId()
 
-	warning("end", slot3, slot4)
+	warning("end", slot3, slot4, slot2.id)
 
-	slot5 = slot0:GetAgoraMould(slot3)
+	slot5 = slot0:GetUnitModule(slot3)
 
-	if slot0.player == slot0:GetUnitModule(slot4) then
+	if slot0.player == slot0:GetPlayerUnitModule(slot4) then
 		slot0:GetSubView(AgoraOpView):EndInteraction()
 	end
 
@@ -394,7 +418,7 @@ slot0.OnExitEditMode = function(slot0)
 	slot0:EnterMode(uv0.MODE_OVERVIEW)
 	slot0:SwitchLookat(false)
 	IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
-	slot0.decorationView:Execute("Hide")
+	slot0.decorationView:Execute("Reset")
 	slot0:GetSubView(AgoraOpView):InActiveDragBtn()
 
 	for slot4, slot5 in ipairs(slot0:GetAllUnits()) do

@@ -123,12 +123,8 @@ slot0.didEnter = function(slot0)
 	slot0.equipmentRect.isStart = true
 
 	slot0.equipmentRect:EndLayout()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
+	slot0:OverlayPanel(slot0.topItems)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 
@@ -355,8 +351,8 @@ slot0.filterEquipment = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.topItems, slot0._tf)
 end
 
 return slot0

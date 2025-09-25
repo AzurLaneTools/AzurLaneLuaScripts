@@ -1004,7 +1004,7 @@ slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
 
 	if slot0._atkBG.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._blurConatiner, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurConatiner, slot0._tf)
 	end
 
 	if slot0.paintingName then
@@ -1015,7 +1015,7 @@ slot0.willExit = function(slot0)
 		slot0._rightTimer:Stop()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0._currentVoice then
 		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)

@@ -8,10 +8,7 @@ end
 slot0.OnShow = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER,
-		groupName = LayerWeightConst.GROUP_LEVELUI
-	})
+	slot1:OverlayPanel(slot0._tf)
 
 	slot1 = slot0.animEvent
 

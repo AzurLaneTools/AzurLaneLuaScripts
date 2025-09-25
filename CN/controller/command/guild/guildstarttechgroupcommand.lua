@@ -4,25 +4,25 @@ slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().id
 
 	if not getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not slot5:CanCancelTech() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_cancel_only_once_pre_day"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_cancel_only_once_pre_day"))
 
 		return
 	end
 
 	if not slot5:getTechnologyGroupById(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_tech"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_tech"))
 
 		return
 	end
 
 	if slot6:isMaxLevel() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
 
 		return
 	end

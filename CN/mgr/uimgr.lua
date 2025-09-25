@@ -293,32 +293,21 @@ slot7 = false
 
 slot0.OverlayPanel = function(slot0, slot1, slot2)
 	slot2 = slot2 or {}
-	slot2.globalBlur = false
+	slot2.type = LayerWeightConst.UI_TYPE_SUB
 
-	uv0.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot2)
+	uv0.LayerWeightMgr.GetInstance():Add2Overlay(slot1, slot2)
+end
+
+slot0.BlurPanel = function(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot2.type = LayerWeightConst.UI_TYPE_SUB
+	slot2.globalBlur = true
+
+	uv0.LayerWeightMgr.GetInstance():Add2Overlay(slot1, slot2)
 end
 
 slot0.UnOverlayPanel = function(slot0, slot1, slot2)
 	uv0.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
-end
-
-slot0.BlurPanel = function(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or {}
-	slot3.globalBlur = true
-	slot3.staticBlur = slot2
-
-	uv0.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot3)
-end
-
-slot0.UnblurPanel = function(slot0, slot1, slot2)
-	uv0.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
-end
-
-slot0.OverlayPanelPB = function(slot0, slot1, slot2)
-	slot2 = slot2 or {}
-	slot2.globalBlur = false
-
-	uv0.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot2)
 end
 
 slot0.PartialBlurTfs = function(slot0, slot1)
@@ -404,7 +393,7 @@ slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
 	slot0:UpdateOtherPBEnable(true, uv1)
 end
 
-slot0.TempUnblurPanel = function(slot0, slot1, slot2)
+slot0.TempUnOverlayPanelPB = function(slot0, slot1, slot2)
 	slot0:UnOverlayPanel(slot1, slot2)
 	slot0:UpdateOtherPBEnable(false, uv0)
 

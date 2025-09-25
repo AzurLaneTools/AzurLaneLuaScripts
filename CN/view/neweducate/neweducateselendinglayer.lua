@@ -25,12 +25,11 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
+		groupDelta = 1,
 		pbList = {
 			slot0.blurPanel
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = slot0:getWeightFromData() + 1
+		}
 	})
 	onButton(slot0, slot0.sureBtn, function ()
 		uv0:emit(NewEducateSelEndingMediator.ON_SELECT_ENDING, uv0.endingList[uv0.selectedIdx])
@@ -82,7 +81,7 @@ end
 
 slot0.willExit = function(slot0)
 	existCall(slot0.contextData.onExit)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 return slot0

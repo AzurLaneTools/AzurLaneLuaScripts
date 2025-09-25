@@ -2,41 +2,58 @@ slot0 = class("IslandProductTimeHelper")
 
 slot0.GetSpeedAddtionTypeByPlaceId = function(slot0)
 	return switch(slot0, {
-		[IslandProductSystemVO.FellingPlaceId] = function ()
+		[IslandProductConst.FellingPlaceId] = function ()
 			return IslandAblityAgency.TYPE_PRODUCT_FELLING
 		end,
-		[IslandProductSystemVO.MinePlaceId] = function ()
+		[IslandProductConst.MinePlaceId] = function ()
 			return IslandAblityAgency.TYPE_PRODUCT_MINING
+		end,
+		[IslandProductConst.FarmlandPlaceId] = function ()
+			return IslandAblityAgency.TYPE_PRODUCT_FARM
+		end,
+		[IslandProductConst.OrchardPlaceId] = function ()
+			return IslandAblityAgency.TYPE_PRODUCT_ORCHARD
+		end,
+		[IslandProductConst.GardenPlaceId] = function ()
+			return IslandAblityAgency.TYPE_PRODUCT_GARDEN
 		end
 	}, function ()
 		return nil
 	end)
 end
 
-slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3)
-	slot7 = pg.island_set.base_efficiency.key_value_int
-	slot9 = pg.island_formula[slot1].attribute
-	slot10 = 0
+slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4)
+	slot8 = pg.island_set.base_efficiency.key_value_int
+	slot10 = pg.island_formula[slot1].attribute
+	slot11 = 0
 
-	for slot14, slot15 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0):GetSkill():GetUnlockShipEffectIds()) do
-		if pg.island_buff_template[slot15].buff_type == IslandBuffType.SHIP_PRODUCT_RATIO and slot14.any(slot16.type_use[1], function (slot0)
+	for slot15, slot16 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0):GetSkill():GetUnlockShipEffectIds()) do
+		if pg.island_buff_template[slot16].buff_type == IslandBuffType.SHIP_PRODUCT_RATIO and underscore.any(slot17.type_use[1], function (slot0)
 			return slot0 == uv0
 		end) then
-			slot10 = slot10 + slot17[2]
+			slot11 = slot11 + slot18[2]
 		end
 	end
 
-	slot11 = 0
+	slot12 = 0
 
 	if uv0.GetSpeedAddtionTypeByPlaceId(slot3) then
-		slot11 = slot11 + slot4:GetAblityAgency():GetProductAdditionSpeedByAblityType(slot12)
+		slot12 = slot12 + slot5:GetAblityAgency():GetProductAdditionSpeedByAblityType(slot13)
 	end
 
-	slot15 = pg.island_chara_att[slot6:GetAttrGradeByValue(slot6:GetAttr(IslandShipAttr.ATTRS[slot9]))].effect
-	slot16 = slot7 * (1 + 0.01 * (slot10 + slot11))
-	slot17 = slot6:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+	slot14 = 0
 
-	table.sort(slot17, function (slot0, slot1)
+	if slot3 == IslandProductConst.PasturePlaceId then
+		for slot22, slot23 in ipairs(slot5:GetBuildingAgency():GetBuilding(slot3):GetDelegationSlotData(slot4):GetPartList()) do
+			slot14 = slot14 + pg.island_ranch_animal[slot23].efficiency_gains
+		end
+	end
+
+	slot17 = pg.island_chara_att[slot7:GetAttrGradeByValue(slot7:GetAttr(IslandShipAttr.ATTRS[slot10]))].effect
+	slot18 = slot8 * (1 + 0.01 * (slot11 + slot12 + slot14))
+	slot19 = slot7:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
+
+	table.sort(slot19, function (slot0, slot1)
 		if slot0:GetEndTime() ~= slot1:GetEndTime() then
 			return slot2 < slot3
 		end
@@ -44,76 +61,76 @@ slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3)
 		return slot0.id < slot1.id
 	end)
 
-	slot19 = {}
-	slot20 = pg.TimeMgr.GetInstance():GetServerTime()
-	slot21 = #slot17
+	slot21 = {}
+	slot22 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot23 = #slot19
 
-	for slot25, slot26 in ipairs(slot17) do
-		if slot20 ~= slot26:GetEndTime() then
-			slot20 = slot27
+	for slot27, slot28 in ipairs(slot19) do
+		if slot22 ~= slot28:GetEndTime() then
+			slot22 = slot29
 
-			table.insert(slot19, {
-				timeLength = math.max(slot27 - slot20, 0),
-				buffCount = slot21
+			table.insert(slot21, {
+				timeLength = math.max(slot29 - slot22, 0),
+				buffCount = slot23
 			})
 		end
 
-		slot21 = slot21 - 1
+		slot23 = slot23 - 1
 	end
 
-	slot22 = {}
+	slot24 = {}
 
-	for slot26, slot27 in ipairs(slot19) do
-		slot28 = 0
-		slot30 = #slot17
+	for slot28, slot29 in ipairs(slot21) do
+		slot30 = 0
+		slot32 = #slot19
 
-		for slot34 = slot30, slot30 - slot27.buffCount + 1, -1 do
-			for slot40, slot41 in ipairs(slot17[slot34]:GetBuffEffect()) do
-				if slot41[1] == slot9 then
-					slot28 = slot28 + slot41[2]
+		for slot36 = slot32, slot32 - slot29.buffCount + 1, -1 do
+			for slot42, slot43 in ipairs(slot19[slot36]:GetBuffEffect()) do
+				if slot43[1] == slot10 then
+					slot30 = slot30 + slot43[2]
 				end
 			end
 		end
 
-		if slot6:GetAttrGradeByValue(slot13 * (1 + slot28 * 0.01)) == slot14 then
+		if slot7:GetAttrGradeByValue(slot15 * (1 + slot30 * 0.01)) == slot16 then
 			break
 		end
 
-		table.insert(slot22, {
-			buffSpeed = slot16 * (1 + 0.01 * pg.island_chara_att[slot32].effect),
-			timeLength = slot27.timeLength
+		table.insert(slot24, {
+			buffSpeed = slot18 * (1 + 0.01 * pg.island_chara_att[slot34].effect),
+			timeLength = slot29.timeLength
 		})
 	end
 
-	slot23 = {}
-	slot24 = slot8.workload
+	slot25 = {}
+	slot26 = slot9.workload
 
-	for slot28 = 1, slot2 do
-		slot29 = slot24
-		slot30 = 0
+	for slot30 = 1, slot2 do
+		slot31 = slot26
+		slot32 = 0
 
-		for slot34, slot35 in ipairs(slot22) do
-			if math.floor(slot29 / slot35.buffSpeed) <= slot35.timeLength then
-				slot35.timeLength = slot35.timeLength - slot36
-				slot30 = slot30 + slot36
-				slot29 = 0
+		for slot36, slot37 in ipairs(slot24) do
+			if math.floor(slot31 / slot37.buffSpeed) <= slot37.timeLength then
+				slot37.timeLength = slot37.timeLength - slot38
+				slot32 = slot32 + slot38
+				slot31 = 0
 
 				break
 			else
-				slot30 = slot30 + slot35.timeLength
-				slot29 = slot29 - slot35.timeLength * slot35.buffSpeed
-				slot35.timeLength = 0
+				slot32 = slot32 + slot37.timeLength
+				slot31 = slot31 - slot37.timeLength * slot37.buffSpeed
+				slot37.timeLength = 0
 			end
 		end
 
-		if slot29 > 0 then
-			slot30 = slot30 + math.floor(slot29 / (slot16 * (1 + 0.01 * slot15)))
+		if slot31 > 0 then
+			slot32 = slot32 + math.floor(slot31 / (slot18 * (1 + 0.01 * slot17)))
 		end
 
-		table.insert(slot23, slot30)
+		table.insert(slot25, slot32)
 	end
 
-	return slot23
+	return slot25
 end
 
 return slot0

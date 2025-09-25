@@ -10,7 +10,8 @@ slot0.Ctor = function(slot0, slot1)
 			path = slot6.path,
 			delay = slot6.delay or 0,
 			pathIndex = slot6.pathIndex or -1,
-			hideFlag = slot6.ishide
+			hideFlag = slot6.ishide,
+			type = slot6.type
 		})
 	end
 end

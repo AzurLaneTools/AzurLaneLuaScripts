@@ -228,17 +228,16 @@ slot0.enablePartialBlur = function(slot0)
 		slot1 = {}
 
 		table.insert(slot1, slot0.taskPanel)
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
-			pbList = slot1,
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER - 1
+		slot0:OverlayPanel(slot0._tf, {
+			groupDelta = -1,
+			pbList = slot1
 		})
 	end
 end
 
 slot0.disablePartialBlur = function(slot0)
 	if slot0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+		slot0:UnOverlayPanel(slot0._tf)
 	end
 end
 

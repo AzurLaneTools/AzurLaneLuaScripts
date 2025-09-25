@@ -81,7 +81,7 @@ slot0.GetPrice = function(slot0)
 
 	if slot0:isDisCount() then
 		if slot0:IsItemDiscountType() then
-			slot3 = (slot2 - SkinCouponActivity.StaticGetNewPrice(slot2)) / slot2 * 100
+			slot3 = (slot2 - SkinCouponActivity.GetSkinCouponAct(slot0.id):GetNewPrice(slot2)) / slot2 * 100
 		else
 			slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
 		end
@@ -104,6 +104,14 @@ slot0.GetResIcon = function(slot0)
 	elseif slot1 == 1 then
 		return "gold"
 	end
+end
+
+slot0.GetConsume = function(slot0)
+	return Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = slot0:GetResType(),
+		count = slot0:GetPrice()
+	})
 end
 
 slot0.IsItemDiscountType = function(slot0)
@@ -158,7 +166,7 @@ end
 
 slot0.GetDiscountItem = function(slot0)
 	if slot0:IsItemDiscountType() then
-		return SkinCouponActivity.StaticGetItemConfig()
+		return SkinCouponActivity.StaticGetItemConfig(slot0.id)
 	end
 
 	return nil

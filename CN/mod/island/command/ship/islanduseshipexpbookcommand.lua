@@ -27,18 +27,19 @@ slot0.execute = function(slot0, slot1)
 
 			if uv0:GetLevel() < uv0:GetLevel() then
 				IslandAchievementHelper.OnShipUpgrade(slot1, slot2)
+				IslandBookHelper.OnShipUpgradeOrBreakOut(uv1)
 				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipUpgrade(uv0.id, slot2))
 			end
 
 			slot3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 			slot4 = pairs
-			slot5 = uv1.list or {}
+			slot5 = uv2.list or {}
 
 			for slot7, slot8 in slot4(slot5) do
 				slot3:RemoveItem(slot7, slot8)
 			end
 
-			uv2:sendNotification(GAME.ISLAND_USE_SHIP_EXP_BOOK_DONE)
+			uv3:sendNotification(GAME.ISLAND_USE_SHIP_EXP_BOOK_DONE)
 		end
 	end)
 end

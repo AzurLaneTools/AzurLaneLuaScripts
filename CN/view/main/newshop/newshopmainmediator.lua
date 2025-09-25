@@ -233,13 +233,11 @@ slot0.register = function(slot0)
 			data = (slot2.ship_skin_id == 0 or {
 				equipSkinId = 0,
 				shipVO = slot3,
-				weaponIds = {},
-				weight = uv0.contextData.weight and uv0.contextData.weight + 1
+				weaponIds = {}
 			}) and {
 				shipVO = slot3,
 				weaponIds = Clone(slot2.weapon_ids),
-				equipSkinId = slot1,
-				weight = uv0.contextData.weight and uv0.contextData.weight + 1
+				equipSkinId = slot1
 			}
 		}))
 	end)

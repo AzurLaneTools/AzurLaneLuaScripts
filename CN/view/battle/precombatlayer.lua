@@ -479,8 +479,7 @@ slot0.didEnter = function(slot0)
 					onNo = function ()
 						uv0:emit(PreCombatMediator.ON_ABORT_EDIT)
 						uv1()
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end)
 		end
@@ -605,7 +604,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0._formationLogic:Destroy()
 
 	slot0._formationLogic = nil

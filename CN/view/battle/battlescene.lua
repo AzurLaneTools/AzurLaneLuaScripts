@@ -624,20 +624,20 @@ slot0.initPauseWindow = function(slot0)
 
 				slot2:SetEndEvent(function (slot0)
 					setActive(uv0.pauseWindow, false)
-					pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+					pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
 					uv1:Resume()
 				end)
 			end
 		else
 			setActive(uv0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
 			uv1:Resume()
 		end
 	end)
 	onButton(slot0, slot0:findTF("help", slot0.pauseWindow), function ()
 		if BATTLE_DEBUG and PLATFORM == 7 then
 			setActive(uv0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseWindow, uv0._tf)
 			uv1:Resume()
 			uv1:OpenConsole()
 		else
@@ -667,9 +667,7 @@ slot0.updatePauseWindow = function(slot0)
 	end
 
 	setActive(slot0.pauseWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow, nil, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.pauseWindow)
 
 	slot2 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
 	slot3 = slot2:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
@@ -744,7 +742,7 @@ slot0.willExit = function(slot0)
 	slot0._skillFloatPool:Dispose()
 	slot0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.pauseWindow, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.pauseWindow, slot0._tf)
 	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCamera(false)
 	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end

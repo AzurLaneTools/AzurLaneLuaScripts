@@ -23,7 +23,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.GuildPaintingMgr:GetInstance():Hide()
+	pg.GuildPaintingMgr.GetInstance():Hide()
 end
 
 slot0.initRequests = function(slot0)

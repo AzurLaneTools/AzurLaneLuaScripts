@@ -267,12 +267,12 @@ slot0.showBoxPanel = function(slot0, slot1)
 	if slot1 == true then
 		pg.UIMgr.GetInstance():BlurPanel(slot0.boxTF)
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.boxTF, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.boxTF, slot0._tf)
 	end
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.boxTF, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.boxTF, slot0._tf)
 	uv0.super.OnDestroy(slot0)
 end
 

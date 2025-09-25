@@ -52,7 +52,7 @@ slot0.Remove = function(slot0)
 	slot0:RemoveTimer()
 end
 
-slot0.Puase = function(slot0)
+slot0.Pause = function(slot0)
 	slot0:RemoveTimer()
 end
 

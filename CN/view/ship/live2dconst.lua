@@ -146,7 +146,7 @@ slot0.GetLive2DArm32MatchAble = function()
 end
 
 slot0.ShowLive2DArm32Tips = function()
-	pg.TipsMgr:GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
 end
 
 slot0.l2d_dirty_data = {}

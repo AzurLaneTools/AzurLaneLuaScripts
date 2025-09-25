@@ -35,7 +35,7 @@ slot0.register = function(slot0)
 			slot8 = slot2[uv0.dailyList[slot6]].id
 			slot9 = slot2[uv0.dailyList[slot6]].limit_time
 
-			if slot2[uv0.dailyList[slot6]].limit_period and type(slot7) == "table" and pg.TimeMgr:GetInstance():inTime(slot7) and slot9 > (uv0.data[slot8] or 0) then
+			if slot2[uv0.dailyList[slot6]].limit_period and type(slot7) == "table" and pg.TimeMgr.GetInstance():inTime(slot7) and slot9 > (uv0.data[slot8] or 0) then
 				uv0.dailyTip = true
 			end
 		end

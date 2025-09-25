@@ -4,8 +4,7 @@ slot0.PROGRESS_ERROR = -100
 
 slot0.Ctor = function(slot0)
 	slot0.callbacks = {}
-	slot1 = pg.CipherGroupMgr
-	slot0.mgr = slot1:GetInstance()
+	slot0.mgr = pg.CipherGroupMgr.GetInstance()
 
 	slot0.mgr:SetCallBack({
 		progressCB = function (slot0, slot1)

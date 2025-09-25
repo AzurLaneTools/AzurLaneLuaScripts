@@ -52,4 +52,13 @@ slot0.GetAwards = function(slot0)
 	end)
 end
 
+slot0.GetIcon = function(slot0)
+	slot1 = pg.island_achievement[slot0].group
+	slot2 = pg.island_achievement_group
+
+	return slot2[underscore.detect(slot2.all, function (slot0)
+		return table.contains(uv0[slot0].achievement_list, uv1)
+	end)].icon
+end
+
 return slot0

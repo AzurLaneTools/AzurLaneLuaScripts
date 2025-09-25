@@ -96,7 +96,7 @@ end
 
 slot0.IsAnim = function(slot0)
 	if not GuildMember.IsAdministrator(getProxy(GuildProxy):getRawData():getSelfDuty()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
 
 		return false
 	end
@@ -106,7 +106,7 @@ end
 
 slot0.CheckCapital = function(slot0, slot1, slot2)
 	if getProxy(GuildProxy):getRawData():getCapital() < slot1:GetConsume() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_guildgold_no_enough_for_battle"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_guildgold_no_enough_for_battle"))
 
 		return false
 	end

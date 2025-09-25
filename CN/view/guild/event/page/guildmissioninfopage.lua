@@ -75,7 +75,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.formationBtn, function ()
 		if uv0.mission:IsFinish() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_event_is_finish"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_is_finish"))
 
 			return
 		end

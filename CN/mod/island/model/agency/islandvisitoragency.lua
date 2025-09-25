@@ -43,6 +43,10 @@ slot0.AddPlayer = function(slot0, slot1)
 	})
 end
 
+slot0.GetPlayer = function(slot0, slot1)
+	return slot0.playerList[slot1]
+end
+
 slot0.InitMapVisitorList = function(slot0, slot1)
 	slot0.mapVisitorList = {}
 

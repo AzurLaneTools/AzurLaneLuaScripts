@@ -14,24 +14,15 @@ slot0.getBGM = function(slot0)
 end
 
 slot0.preload = function(slot0, slot1)
-	slot0.iconSpries = {}
+	slot0.iconSpries = {
+		"reources/statu_green",
+		"reources/statu_gray",
+		"reources/statu_red",
+		"reources/statu_org"
+	}
 	slot2 = LOGIN_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOGIN_HX_LV.key_value
 
 	seriesAsync({
-		function (slot0)
-			AssetBundleHelper.LoadManyAssets("ui/LoginUI2_atlas", {
-				"statu_green",
-				"statu_gray",
-				"statu_red",
-				"statu_org"
-			}, typeof(Sprite), true, function (slot0)
-				for slot4, slot5 in ipairs(uv0) do
-					table.insert(uv1.iconSpries, slot0[slot5])
-				end
-
-				uv2()
-			end, true)
-		end,
 		function (slot0)
 			uv0.isCriBg, uv0.bgPath, uv0.bgmName, uv0.isOpPlay, uv0.opVersion = getLoginConfig()
 
@@ -97,7 +88,7 @@ slot0.init = function(slot0)
 	slot0.switchGatewayBtn = SwitchGatewayBtn.New(slot0:findTF("servers/panel/switch_platform"))
 
 	setActive(slot0.userAgreenTF, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.userAgreenTF, slot0._tf)
 
 	slot0.opBtn = slot0:findTF("bg_lay/buttons/opBtn")
 
@@ -282,7 +273,7 @@ slot0.switchSubView = function(slot0, slot1)
 	end
 
 	if not table.contains(slot1, LoginSceneConst.DEFINE.SERVER_PANEL) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.serversPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.serversPanel, slot0._tf)
 	end
 
 	if table.contains(slot1, LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW) then
@@ -301,7 +292,7 @@ slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.serversPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.serversPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.serversPanel, slot0._tf)
 		setActive(slot0.serversPanel, false)
 
 		return
@@ -309,7 +300,7 @@ slot0.onBackPressed = function(slot0)
 
 	if isActive(slot0.userAgreenTF) then
 		setActive(slot0.userAgreenTF, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.userAgreenTF, slot0._tf)
 
 		return
 	end
@@ -335,9 +326,7 @@ slot0.showUserAgreement = function(slot0, slot1)
 
 	slot4 = pg.UIMgr.GetInstance()
 
-	slot4:BlurPanel(slot0.userAgreenTF, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	slot4:BlurPanel(slot0.userAgreenTF)
 
 	slot5 = slot0.userAgreenTF
 
@@ -345,7 +334,7 @@ slot0.showUserAgreement = function(slot0, slot1)
 	onButton(slot0, slot0.userAgreenConfirmTF, function ()
 		if uv0 then
 			setActive(uv1.userAgreenTF, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv1.userAgreenTF, uv1._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv1.userAgreenTF, uv1._tf)
 
 			if uv2 then
 				uv2()
@@ -414,7 +403,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.closeUserAgreenTF, function ()
 		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 			setActive(uv0.userAgreenTF, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.userAgreenTF, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.userAgreenTF, uv0._tf)
 		else
 			setActive(uv0.userAgreenMainTF, false)
 			onNextTick(function ()
@@ -434,7 +423,7 @@ slot0.didEnter = function(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		onButton(slot0, slot0.userDisagreeConfirmTF, function ()
 			setActive(uv0.userAgreenTF, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.userAgreenTF, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.userAgreenTF, uv0._tf)
 		end)
 	end
 
@@ -479,7 +468,7 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.serversPanel, function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.serversPanel, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.serversPanel, uv0._tf)
 		setActive(uv0.serversPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("background"), function ()
@@ -678,7 +667,7 @@ slot4 = {
 
 slot0.updateServerTF = function(slot0, slot1, slot2)
 	setText(findTF(slot1, "name"), "-  " .. slot2.name .. "  -")
-	setImageSprite(findTF(slot1, "statu"), slot0.iconSpries[slot2.status + 1], true)
+	slot0:setSpriteTo(slot0.iconSpries[slot2.status + 1], findTF(slot1, "statu"), true)
 
 	slot3 = findTF(slot1, "statu_1")
 	slot3:GetComponent("Image").color = Color.New(uv0[slot2.status + 1][1], uv0[slot2.status + 1][2], uv0[slot2.status + 1][3], uv0[slot2.status + 1][4])
@@ -700,7 +689,7 @@ slot0.updateServerTF = function(slot0, slot1, slot2)
 		end
 
 		uv1:setLastLoginServer(uv0)
-		pg.UIMgr.GetInstance():UnblurPanel(uv1.serversPanel, uv1._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv1.serversPanel, uv1._tf)
 		setActive(uv1.serversPanel, false)
 	end, SFX_CONFIRM)
 end
@@ -874,6 +863,8 @@ slot0.willExit = function(slot0)
 	slot0.transcodeAlertView:Destroy()
 	slot0.yostarAlertView:Destroy()
 	slot0.switchGatewayBtn:Dispose()
+
+	slot0.iconSpries = nil
 end
 
 slot0.playOpening = function(slot0, slot1)
@@ -891,7 +882,7 @@ slot0.playOpening = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end, "ui", "opening", true, false, nil)
+	end, "ui", "opening", true, false)
 
 	slot0.onPlayingOP = true
 end

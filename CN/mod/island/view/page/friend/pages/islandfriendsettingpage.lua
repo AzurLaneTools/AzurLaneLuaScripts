@@ -90,7 +90,7 @@ slot0.InitToggles = function(slot0)
 		end
 
 		uv0:Send()
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	onToggle(slot0, slot0.guildToggle, function (slot0)
 		if slot0 then
 			table.removebyvalue(uv0.openFlags, IslandConst.OPEN_GUILD)
@@ -99,7 +99,7 @@ slot0.InitToggles = function(slot0)
 		end
 
 		uv0:Send()
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	onToggle(slot0, slot0.codeToggle, function (slot0)
 		if slot0 then
 			table.insert(uv0.openFlags, IslandConst.OPEN_CODE)
@@ -113,7 +113,7 @@ slot0.InitToggles = function(slot0)
 
 		uv0:InitCodePanenl(slot0)
 		uv0:Send()
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	slot0:UpdateRefreshBtn()
 end
 

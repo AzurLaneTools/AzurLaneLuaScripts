@@ -171186,6 +171186,31 @@ _G.pg.base.item_virtual_data_statistics[65105] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65106] = {
+	drop_gold_max = 0,
+	name = "巡游点数",
+	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7025,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65106,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "抵抗之星纪念勋章",
@@ -172541,6 +172566,31 @@ _G.pg.base.item_virtual_data_statistics[65551] = {
 	drop_oil_max = 0,
 	virtual_type = 13,
 	id = 65551,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65552] = {
+	drop_gold_max = 0,
+	name = "换装折扣券（疾速狂热）",
+	display = "用于「换装商店」内购买所有「运动时间」与「疾速狂热」分类换装时享有300钻石优惠\n有效期至：2025年10月22日 23:59:59",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50142,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65552,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -183671,6 +183721,68 @@ _G.pg.base.item_virtual_data_statistics[86218] = {
 			1820
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86219] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = [[
+从如下换装中随机获得1件未拥有的换装(如果所有换装都已拥有，则会转化为获得680钻石) 
+各换装概率均等，包含换装如下：
+独角兽换装 Champion of Unicorn；
+鲁莽换装 跃动的步伐；
+絮弗伦换装 心跳加速Accident；
+西弗吉尼亚换装 海色摇滚；
+里昂换装 双人特训？；
+伴尔维换装 俩人的柔软体操；
+马赛曲换装 战斗天使的健身训练；
+{namecode:442}换装 必胜全垒打！；
+{namecode:443}换装 球场上的小恶魔；
+基洛夫换装 巅峰之星；
+{namecode:450}换装 急转直下的Fallinlove；
+{namecode:462}换装 挑战·趣味障碍赛！；
+大黄蜂换装 应援即是正义！；
+{namecode:473}换装 流汗吧，举重少女！；
+贝奇换装 炫目的赛场之星；
+小天鹅换装 皇家应援曲；
+马布尔黑德换装 Boxing Girl！；
+里诺换装 波涛的啦啦队长！；
+明尼阿波利斯换装 极限运动X；
+巴尔的摩换装 Black Ace；
+布莱默顿换装 炙热的网球练习；
+卡萨布兰卡换装 啦啦队的休息时间；
+无畏换装 无畏的一投；
+蓝鳃鱼换装 见习王牌守备！；
+{namecode:28}换装 运动会的准备；
+哈曼换装 Blushing Fellow；
+{namecode:427}换装 Final Lap；
+企业换装 Wind Catcher；
+{namecode:66}换装 至高焦点；
+{namecode:67}换装 巅峰时速；
+威尔士亲王换装 桂冠的胜利竞速；
+约克公爵换装 盛誉的光荣方程；
+{namecode:95}换装 疾速之鹤；
+{namecode:96}换装 飙速之鹤；
+{namecode:97}换装 恋慕伴侣；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86219,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

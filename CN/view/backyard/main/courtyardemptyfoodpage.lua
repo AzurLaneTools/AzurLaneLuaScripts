@@ -33,9 +33,7 @@ end
 
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	LeanTween.cancel(go(slot0.frame))
 
 	slot0.frame.localScale = Vector3(0, 0, 0)
@@ -46,7 +44,7 @@ end
 slot0.Hide = function(slot0)
 	LeanTween.cancel(go(slot0.frame))
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

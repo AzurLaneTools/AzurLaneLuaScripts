@@ -24,7 +24,12 @@ slot0.OnInit = function(slot0)
 	setText(slot0.hudTitle, slot1.title)
 	setText(slot0.hudName, slot1.name)
 
-	slot0.playerTF = slot0:GetPlayer().transform
+	slot0.playerTF = slot0:GetPlayer()
+
+	slot0:CheckPlayer()
+end
+
+slot0.CheckPlayer = function(slot0)
 	slot0.isNear = slot0:CheckIsNear()
 
 	setActive(slot0.hudTitle, slot0.isNear)
@@ -37,9 +42,11 @@ slot0.OnDispose = function(slot0)
 end
 
 slot0.GetPlayer = function(slot0)
-	for slot6, slot7 in ipairs(GameObject.Find("Root"):GetComponentsInChildren(typeof("WorldObjectItem")):ToTable()) do
+	for slot6, slot7 in ipairs(GameObject.Find("Root"):GetComponentsInChildren(typeof(WorldObjectItem)):ToTable()) do
 		if slot7.isPlayer then
-			return slot7.gameObject
+			slot0.hasPlayer = true
+
+			return slot7.gameObject.transform
 		end
 	end
 
@@ -49,8 +56,20 @@ end
 slot0.CheckIsNear = function(slot0)
 	slot2 = slot0.view:GetUnitModuleWithType(slot0.unitType, slot0.unitId) and slot1._go or nil
 
-	if not slot1 or IsNil(slot2) then
+	if not slot1 or IsNil(slot2) or not slot2.transform then
 		return false
+	end
+
+	if not slot0.playerTF then
+		return false
+	end
+
+	if slot0.playerTF == nil then
+		warning("self.playerTF is nil ")
+	end
+
+	if slot2.transform == nil then
+		warning("role.transform is nil")
 	end
 
 	if (slot0.playerTF.position - slot2.transform.position).magnitude < slot0.hud_name_range then
@@ -61,14 +80,20 @@ slot0.CheckIsNear = function(slot0)
 end
 
 slot0.OnUpdate = function(slot0)
-	if slot0:CheckIsNear() == slot0.isNear then
-		return
+	if not slot0.hasPlayer then
+		slot0.playerTF = slot0:GetPlayer()
+
+		slot0:CheckPlayer()
+	else
+		if slot0:CheckIsNear() == slot0.isNear then
+			return
+		end
+
+		slot0.isNear = slot1
+
+		setActive(slot0.hudTitle, slot0.isNear)
+		setActive(slot0.hudName, slot0.isNear)
 	end
-
-	slot0.isNear = slot1
-
-	setActive(slot0.hudTitle, slot0.isNear)
-	setActive(slot0.hudName, slot0.isNear)
 end
 
 slot0.RefreshHud = function(slot0)

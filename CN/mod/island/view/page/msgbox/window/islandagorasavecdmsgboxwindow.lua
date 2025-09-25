@@ -1,8 +1,4 @@
-slot0 = class("IslandAgoraUpgradeMsgboxWindow", import(".IslandCommonMsgboxWindow"))
-
-slot0.getUIName = function(slot0)
-	return "IslandCommonMsgBox"
-end
+slot0 = class("IslandAgoraUpgradeMsgboxWindow", import(".IslandCommonMsgboxEXWindow"))
 
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)

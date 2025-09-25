@@ -19,7 +19,6 @@ slot0.Execute = function(slot0, slot1)
 			hideClose = true,
 			type = MSGBOX_TYPE_JUST_FOR_SHOW,
 			title = pg.MsgboxMgr.TITLE_INFORMATION,
-			weight = LayerWeightConst.TOP_LAYER,
 			onClose = slot5,
 			onYes = slot5
 		})

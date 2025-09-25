@@ -233,9 +233,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:ResetView()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, {
-		groupName = LayerWeightConst.GROUP_FIREWORK_PRODUCE
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 
 	slot3 = {
 		0

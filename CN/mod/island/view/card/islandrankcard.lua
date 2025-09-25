@@ -23,7 +23,7 @@ slot0.Update = function(slot0, slot1, slot2)
 	slot0.rankVO = slot1
 	slot0.rankText.text = slot1.rank > 9 and slot1.rank or "0" .. slot1.rank
 	slot0.nameText.text = slot1.name
-	slot0.levelText.text = "Lv." .. slot1.lv
+	slot0.levelText.text = "Lv." .. slot1.arenaRank
 	slot0.ptText.text = slot1.power
 
 	GetImageSpriteFromAtlasAsync("ui/islandseasonrankui_atlas", "bg" .. (slot1.rank < 4 and slot1.rank or 0), slot0.bgTF)

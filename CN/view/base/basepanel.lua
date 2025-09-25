@@ -10,6 +10,7 @@ slot0.Ctor = function(slot0, slot1)
 		assert(false, "can not emit event beforce attach to a parent ui.")
 	end
 
+	bindComponent(slot0, slot0._go)
 	slot0:init()
 end
 

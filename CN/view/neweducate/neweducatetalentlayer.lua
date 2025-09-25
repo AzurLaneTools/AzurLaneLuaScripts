@@ -35,12 +35,11 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1,
 		pbList = {
 			slot0.bgTF
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = slot0:getWeightFromData() + 1
+		}
 	})
 	NewEducateGuideSequence.CheckGuide(slot0.__cname)
 end
@@ -153,7 +152,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	existCall(slot0.contextData.onExit)
 end
 

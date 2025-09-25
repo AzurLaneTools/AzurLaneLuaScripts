@@ -27,7 +27,7 @@ slot0.didEnter = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	slot0:SetClueGroup()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.SetClueGroup = function(slot0)

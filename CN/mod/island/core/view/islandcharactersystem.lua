@@ -11,26 +11,17 @@ slot0.OnStart = function(slot0)
 	if slot0.behaviourTreeOwner then
 		LuaHelper.NodeCanvasSetIntVariableValue(slot0.behaviourTreeOwner, "worker", slot0.workerCnt)
 
-		slot2 = {
-			IslandProductSystemVO.FarmlandPlaceId
+		slot1 = {
+			IslandProductConst.FarmlandPlaceId,
+			IslandProductConst.OrchardPlaceId,
+			IslandProductConst.GardenPlaceId
 		}
+		slot2 = slot0.data:GetWorkerList() or {}
 
-		if table.contains({
-			IslandProductSystemVO.FellingPlaceId,
-			IslandProductSystemVO.MilkTeaPlaceId,
-			IslandProductSystemVO.MealPlaceId,
-			IslandProductSystemVO.TechnologyPlaceId,
-			IslandProductSystemVO.PasturePlaceId,
-			IslandProductSystemVO.FarmlandPlaceId,
-			IslandProductSystemVO.CoffeePlaceId
-		}, slot0.data.id) then
-			slot3 = slot0.data:GetWorkerList() or {}
+		for slot6, slot7 in ipairs(slot2) do
+			slot7.nextIn = table.contains(slot1, slot0.data.id)
 
-			for slot7, slot8 in ipairs(slot3) do
-				slot8.nextIn = table.contains(slot2, slot0.data.id)
-
-				slot0:StartDelegation(slot8)
-			end
+			slot0:StartDelegation(slot7)
 		end
 	end
 end
@@ -45,29 +36,29 @@ end
 
 slot0.ExecuteDelegation = function(slot0, slot1)
 	slot0.workerCnt = slot0.workerCnt + 1
-	slot3 = slot0.data:GetperformanceObjidList(slot1.area_id)
-	slot4 = System.Collections.Generic.List_IslandUnitNode()
+	slot4 = slot0.data:GetperformanceObjidList(slot1.area_id)
+	slot5 = System.Collections.Generic.List_IslandUnitNode()
 
-	if slot0:GetView():GetSystemUnitModule(slot1.ship_id) then
-		slot5 = IslandUnitNode.New()
-		slot5.unitId = slot1.ship_id
-		slot5.unitType = IslandConst.UNIT_LIST_DELEGATION
+	if slot0:GetView():GetSystemUnitModule(slot0.data:GetUnitShipIdBySlotId(slot1.ship_id, slot1.area_id)) then
+		slot6 = IslandUnitNode.New()
+		slot6.unitId = slot2
+		slot6.unitType = IslandConst.UNIT_LIST_DELEGATION
 
-		slot4:Add(slot5)
+		slot5:Add(slot6)
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		slot10 = IslandUnitNode.New()
-		slot10.unitId = slot9.unitId
-		slot10.unitType = slot9.unitType
+	for slot9, slot10 in ipairs(slot4) do
+		slot11 = IslandUnitNode.New()
+		slot11.unitId = slot10.unitId
+		slot11.unitType = slot10.unitType
 
-		slot4:Add(slot10)
+		slot5:Add(slot11)
 	end
 
 	if slot1.nextIn then
-		slot0.behaviourTreeOwner:SendEvent("system_unit_add_nextIn", slot4, nil)
+		slot0.behaviourTreeOwner:SendEvent("system_unit_add_nextIn", slot5, nil)
 	else
-		slot0.behaviourTreeOwner:SendEvent("system_unit_add", slot4, nil)
+		slot0.behaviourTreeOwner:SendEvent("system_unit_add", slot5, nil)
 	end
 end
 

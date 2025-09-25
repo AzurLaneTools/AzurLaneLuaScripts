@@ -16,22 +16,15 @@ slot0.SKIP_INS = "NewMainMediator:SKIP_INS"
 slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
-slot0.OPEN_DORM_SELECT_LAYER = "NewMainMediator.OPEN_DORM_SELECT_LAYER"
 slot0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
 slot0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
 slot0.ON_DROP = "NewMainMediator:ON_DROP"
 slot0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
 slot0.CHANGE_SKIN_TOGGLE = "NewMainMediator:CHANGE_SKIN_TOGGLE"
-slot0.GO_ISLAND = "NewMainMediator:GO_ISLAND"
 slot0.FOLD_PANEL = "NewMainMediator:FOLD_PANEL"
 slot0.HIDE_PANEL = "NewMainMediator:HIDE_PANEL"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.GO_ISLAND, function (slot0, slot1)
-		uv0:sendNotification(GAME.ISLAND_ENTER, {
-			id = slot1
-		})
-	end)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ActivitySingleMediator,
@@ -151,9 +144,6 @@ slot0.register = function(slot0)
 				form = NotificationLayer.FORM_MAIN
 			}
 		}))
-	end)
-	slot0:bind(uv0.OPEN_DORM_SELECT_LAYER, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3DSELECT)
 	end)
 	slot0:bind(uv0.OPEN_KINK_BUTTON_LAYER, function (slot0, slot1)
 		uv0:addSubLayers(slot1)

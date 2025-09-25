@@ -29,7 +29,6 @@ slot0.ShowMsg = function(slot0, slot1, slot2, slot3)
 		content = i18n(slot1 <= slot2 and "trade_card_tips2" or "trade_card_tips3", i18n("trade_card_tips4", slot6.year, slot6.month, slot6.day)),
 		dateText = i18n("trade_card_tips4", slot4.year, slot4.month, slot4.day),
 		yesText = i18n("trade_card_tips1"),
-		weight = LayerWeightConst.TOP_LAYER,
 		onClose = slot3,
 		onYes = function ()
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {

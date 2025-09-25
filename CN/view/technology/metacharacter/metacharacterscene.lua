@@ -946,11 +946,9 @@ end
 
 slot0.overLayPanel = function(slot0, slot1)
 	if slot1 == true then
-		pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-			groupName = LayerWeightConst.GROUP_META
-		})
+		slot0:OverlayPanel(slot0.blurPanel)
 	elseif slot1 == false then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+		slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	end
 end
 

@@ -35,6 +35,14 @@ slot0.Flush = function(slot0, slot1)
 	slot0.iconFrame = slot1.icon_frame or slot2.icon_frame or 0
 	slot0.chatFrame = slot1.chat_frame or slot2.chat_frame or 0
 	slot0.iconTheme = slot1.icon_theme or slot2.icon_theme or 0
+	slot0.attireInfo = {
+		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
+		[AttireConst.TYPE_CHAT_FRAME] = slot0.chatFrame
+	}
+end
+
+slot0.getPainting = function(slot0)
+	return pg.ship_skin_template[slot0.skinId].painting
 end
 
 return slot0

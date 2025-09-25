@@ -64,7 +64,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return GetOrAddComponent(slot0:findTF("adapt/char"), typeof(SmoothRotateObject))
+	return slot0:findTF("adapt/char")
 end
 
 slot0.OnCharLoaded = function(slot0)
@@ -85,10 +85,10 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.SetObjInitRotaion = function(slot0, slot1)
-	slot2 = slot0:GetSmoothRotateObject()
-	slot2.rotationSpeed = 5
+	slot3 = GetOrAddComponent(slot0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+	slot3.rotationSpeed = 5
 
-	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", slot2, slot1)
+	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", slot3, slot1)
 
 	if slot0.timer then
 		slot0.timer:Stop()

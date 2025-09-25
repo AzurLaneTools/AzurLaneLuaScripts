@@ -80,9 +80,7 @@ slot0.didEnter = function(slot0)
 
 	setText(slot0._tf:Find("Window/Confirm/Text"), i18n("msgbox_text_confirm"))
 	setText(slot0._tf:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.InitBanner = function(slot0)

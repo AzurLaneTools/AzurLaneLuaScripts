@@ -119,12 +119,8 @@ slot0.UpdateTime = function(slot0, slot1)
 		return
 	end
 
-	if slot1.stateEndTime then
-		if slot1.stateEndTime - slot0.timeMgr:GetServerTime() < 0 then
-			setText(slot0.timeTF, slot1.stateEndText)
-		else
-			setText(slot0.timeTF, slot0.timeMgr:DescCDTime(slot2))
-		end
+	if slot1.stateEndTime and slot1.stateEndTime - slot0.timeMgr:GetServerTime() > 0 then
+		setText(slot0.timeTF, slot0.timeMgr:DescCDTime(slot2))
 	end
 end
 

@@ -104,26 +104,6 @@ slot0.CalcPosition = function(slot0, slot1)
 	end
 end
 
-slot0.DrawLine = function(slot0, slot1, slot2)
-	slot4 = function(slot0, slot1)
-		slot2 = 1
-		slot3 = uv0[slot1 + 1] or uv1
-		slot4 = uv0[slot1]
-
-		return Quaternion.FromToRotation(slot0.transform.right * -1, (slot3 - slot4).normalized), Vector3.Distance(slot3, slot4)
-	end
-
-	for slot8, slot9 in ipairs(IslandCalcUtil.GetNavPath(slot1, slot2)) do
-		slot10 = Object.Instantiate(slot0.lineTpl)
-		slot11, slot12 = slot4(slot10, slot8)
-		slot10.transform.rotation = slot10.transform.rotation * slot11
-		slot10.transform.localScale = Vector3(slot12, 1, 1)
-		slot10.transform.position = slot9 + slot10.transform.right * -1 * slot12 * 0.5
-
-		table.insert(slot0.lines, slot10)
-	end
-end
-
 slot0.ClearLine = function(slot0)
 	for slot4, slot5 in pairs(slot0.lines) do
 		Object.Destroy(slot5.gameObject)

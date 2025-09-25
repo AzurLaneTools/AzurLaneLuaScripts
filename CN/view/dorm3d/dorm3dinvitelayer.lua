@@ -89,8 +89,7 @@ slot0.ShowInvitePanel = function(slot0)
 		end)
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtInvitePanel, {
-		force = true,
-		weight = LayerWeightConst.SECOND_LAYER
+		force = true
 	})
 	setActive(slot0.rtInvitePanel, true)
 	pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_sidebar")
@@ -181,9 +180,8 @@ slot0.ShowSelectPanel = function(slot0)
 		uv2:HideSelectPanel()
 		uv2:ShowInvitePanel()
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.rtSelectPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtSelectPanel, {
 		force = true,
-		weight = LayerWeightConst.SECOND_LAYER,
 		pbList = {
 			slot0.rtSelectPanel:Find("window")
 		}
@@ -224,7 +222,7 @@ slot0.UpdateSelectableCard = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.HideSelectPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtSelectPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtSelectPanel, slot0._tf)
 	setActive(slot0.rtSelectPanel, false)
 end
 

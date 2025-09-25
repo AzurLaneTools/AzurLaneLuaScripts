@@ -2,19 +2,19 @@ slot0 = class("PublicGuildCommitDonateCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	if not getProxy(GuildProxy):GetPublicGuild():GetDonateTaskById(slot1:getBody().id) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
 
 		return
 	end
 
 	if not slot6:canCommit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
 	if not slot5:HasDonateCnt() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
 
 		return
 	end
@@ -57,7 +57,7 @@ slot0.execute = function(slot0, slot1)
 				awards = slot6
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_dissolve_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_dissolve_erro", slot0.result))
 		end
 	end)
 end

@@ -189,7 +189,9 @@ slot0.displayWindow = function(slot0, slot1)
 	if slot1 then
 		setActive(slot0.skinTf, true)
 		slot0.skinTf:GetComponent(typeof(Animation)):Play("anim_zhenhaimuseum_in")
-		pg.UIMgr.GetInstance():BlurPanel(slot0.skinTf, true)
+		pg.UIMgr.GetInstance():BlurPanel(slot0.skinTf, {
+			staticBlur = true
+		})
 
 		slot0.showItemNum = slot0.activity.data3 < uv0 and slot0.activity.data3 or uv0
 
@@ -209,7 +211,7 @@ slot0.displayWindow = function(slot0, slot1)
 	else
 		slot2 = pg.UIMgr.GetInstance()
 
-		slot2:UnblurPanel(slot0.skinTf)
+		slot2:UnOverlayPanel(slot0.skinTf)
 
 		slot2 = slot0.skinTf
 		slot2 = slot2:GetComponent(typeof(Animation))

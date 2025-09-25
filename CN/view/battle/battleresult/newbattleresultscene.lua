@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "NewBattleResultEmptyUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "BattleScene"
+end
+
 slot0.didEnter = function(slot0)
 	slot0._parentTf = slot0._tf.parent
 
@@ -15,11 +19,9 @@ slot0.didEnter = function(slot0)
 		slot0:Vibrate()
 	end
 
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:BlurPanel(slot0._tf, true, {
-		lockGlobalBlur = true,
-		groupName = LayerWeightConst.GROUP_COMBAT
+	slot0:BlurPanel(slot0._tf, {
+		staticBlur = true,
+		lockGlobalBlur = true
 	})
 	onDelayTick(function ()
 		if uv0.contextData.needCloseCamera then
@@ -135,7 +137,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.camEventId then
 		pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)

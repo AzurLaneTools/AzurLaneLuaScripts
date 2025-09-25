@@ -5,6 +5,10 @@ slot0.getUIName = function(slot0)
 	return "ShipBreakOutUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "ShipMainScene"
+end
+
 slot0.setItems = function(slot0, slot1)
 	slot0.items = slot1
 end
@@ -126,11 +130,8 @@ slot0.addDragListenter = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	slot0.UIMgr:BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = LayerWeightConst.LOWER_LAYER
+	slot0:BlurPanel(slot0._tf, {
+		groupDelta = -1
 	})
 	slot0:addDragListenter()
 	onButton(slot0, slot0.seaLoading, function ()
@@ -521,7 +522,7 @@ slot0.initMaterialShips = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:recycleSpineChar()
 
 	if slot0.previewer then

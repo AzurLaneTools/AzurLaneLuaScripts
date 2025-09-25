@@ -10,7 +10,9 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1006,
 		1007,
 		1008,
-		1009
+		1009,
+		1010,
+		1011
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -188,6 +190,46 @@ pg.base.dorm3d_camera_photo_frame = {
 		unlock = {
 			1,
 			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1010] = {
+		name = "影音之窗",
+		rarity = 3,
+		farme_path = "photo_frame_player",
+		frameTfName = "PlayerFrame",
+		desc = "获得后可以在相机功能中解锁雅致影音之窗相框",
+		unlock_text = "{namecode:97}5级解锁",
+		id = 1010,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_player_small",
+		unlock = {
+			1,
+			30707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1011] = {
+		name = "言说之间",
+		rarity = 3,
+		farme_path = "photo_frame_phone",
+		frameTfName = "PhoneFrame",
+		desc = "获得后可以在相机功能中解锁言说之间相框",
+		unlock_text = "{namecode:97}契合度13级解锁",
+		id = 1011,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_phone_small",
+		unlock = {
+			1,
+			30707,
 			13
 		},
 		watermark_location = {

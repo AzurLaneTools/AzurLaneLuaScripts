@@ -774,6 +774,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>电子炫光闪烁耀眼，是哪只兔兔在跟随光芒跃动呢？</color>\n通过提升「宿舍计划」中新泽西的契合度等级获取",
 		scene = {}
 	},
+	[1009] = {
+		name = "樱华树语 ",
+		gain_by = "",
+		time_second = 0,
+		id = 1009,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>樱花树上，花瓣随风舞动，诉说着春日的生机与美好。</color>\n通过提升「宿舍计划」中大凤的契合度等级获取",
+		scene = {}
+	},
+	[1010] = {
+		name = "金凤翎辉 ",
+		gain_by = "",
+		time_second = 0,
+		id = 1010,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。</color>\n通过提升「宿舍计划」中大凤的契合度等级获取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",
@@ -969,6 +987,8 @@ pg.item_data_frame = {
 		1006,
 		1007,
 		1008,
+		1009,
+		1010,
 		10001,
 		10002,
 		10003,

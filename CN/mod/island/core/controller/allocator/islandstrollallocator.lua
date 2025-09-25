@@ -52,7 +52,7 @@ slot0.GetRandomPathId = function(slot0)
 		return -1
 	end
 
-	return slot1[math.Random(1, #slot1)]
+	return slot1[math.random(1, #slot1)]
 end
 
 slot0.Dispose = function(slot0)

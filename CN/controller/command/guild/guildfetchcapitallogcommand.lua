@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end

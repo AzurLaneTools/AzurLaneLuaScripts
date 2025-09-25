@@ -6,7 +6,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.cls = slot2
 end
 
-slot0.Load = function(slot0, slot1, slot2)
+slot0.LoadAsset = function(slot0, slot1, slot2)
 	slot2(GameObject.New())
 end
 

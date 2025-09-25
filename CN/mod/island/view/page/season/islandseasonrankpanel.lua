@@ -77,6 +77,8 @@ slot0.Show = function(slot0)
 	else
 		slot0.switchPanel:ExecuteAction("Show")
 	end
+
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_17")
 end
 
 slot0.Flush = function(slot0, slot1)

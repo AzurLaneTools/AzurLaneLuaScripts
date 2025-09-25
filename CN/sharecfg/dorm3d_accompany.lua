@@ -176,6 +176,50 @@ pg.dorm3d_accompany = {
 			10517
 		}
 	},
+	[121] = {
+		sceneInfo = "map_dafeng_01|Dafeng_DB/Dafenghostel",
+		name = "日常相伴",
+		performance_time = 20,
+		image = "dafeng_accompany_room",
+		ship_id = 30707,
+		resource_room = 12,
+		timeline = "Xiangban_personal",
+		id = 121,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	},
+	[122] = {
+		sceneInfo = "map_publiccafe_01|Publiccafe",
+		name = "休闲相伴",
+		performance_time = 20,
+		image = "cafe_accompany",
+		ship_id = 30707,
+		resource_room = 16,
+		timeline = "Xiangban_cafe",
+		id = 122,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			16,
+			30707
+		}
+	},
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
@@ -192,6 +236,10 @@ pg.dorm3d_accompany = {
 		[10517] = {
 			111,
 			112
+		},
+		[30707] = {
+			121,
+			122
 		}
 	},
 	all = {
@@ -202,6 +250,8 @@ pg.dorm3d_accompany = {
 		31,
 		32,
 		111,
-		112
+		112,
+		121,
+		122
 	}
 }

@@ -3,17 +3,17 @@ slot0 = class("GetIslandDataCommand", pm.SimpleCommand)
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	slot0:GetIslandData(slot2.id, slot2.list)
+	slot0:GetIslandData(slot2.id, slot2.list, slot2.isCardRequest, slot2.callback, slot2.reconnect)
 end
 
-slot0.GetIslandData = function(slot0, slot1, slot2)
+slot0.GetIslandData = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if LOCK_ISLAND_DISPLAY then
 		return
 	end
 
-	slot3 = pg.ConnectionMgr.GetInstance()
+	slot6 = pg.ConnectionMgr.GetInstance()
 
-	slot3:Send(21200, {
+	slot6:Send(21200, {
 		island_id = slot1
 	}, 21201, function (slot0)
 		slot3 = (uv0:IsSelf(uv1) and Island or SharedIsland).New(slot0.island)
@@ -25,9 +25,16 @@ slot0.GetIslandData = function(slot0, slot1, slot2)
 			slot3:SetLastExitPosition(slot4, Vector3(slot0.player_position.position.x, slot0.player_position.position.y, slot0.player_position.position.z), Vector3(slot0.player_position.rotation.x, slot0.player_position.rotation.y, slot0.player_position.rotation.z))
 		end
 
+		if uv2 and getProxy(IslandProxy):GetTempPlayerPosition() then
+			slot5, slot6, slot7 = unpack(slot4)
+
+			slot3:SetMapId(slot5)
+			slot3:SetLastExitPosition(slot5, slot6, slot7)
+		end
+
 		slot4 = {}
 
-		for slot8, slot9 in ipairs(uv2) do
+		for slot8, slot9 in ipairs(uv3) do
 			slot4[slot9.id] = IslandPlayer.New(slot9)
 		end
 
@@ -37,6 +44,12 @@ slot0.GetIslandData = function(slot0, slot1, slot2)
 			getProxy(IslandProxy):SetIsland(slot3)
 		else
 			getProxy(IslandProxy):SetSharedIsland(slot3)
+		end
+
+		if uv4 then
+			existCall(uv5)
+
+			return
 		end
 
 		uv0:AfterIslandInit()
@@ -72,6 +85,7 @@ slot0.AfterIslandInit = function(slot0)
 	slot1:GetAchievementAgency():InitRuntimeRecords()
 	slot1:GetTechnologyAgency():InitLockData()
 	slot1:GetGlobalBuffAgency():InitShipSkillGlobalBuff()
+	slot1:GetBookAgency():InitShipTypeData()
 end
 
 return slot0

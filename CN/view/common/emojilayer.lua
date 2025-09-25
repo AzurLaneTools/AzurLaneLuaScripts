@@ -49,15 +49,7 @@ slot0.didEnter = function(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-
-	if getProxy(SettingsProxy):IsMellowStyle() then
-		setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
-	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			groupName = slot0:getGroupNameFromData(),
-			weight = LayerWeightConst.SECOND_LAYER
-		})
-	end
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.display = function(slot0)
@@ -67,7 +59,7 @@ slot0.display = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = ChatConst.EmojiTypes[slot1 + 1]
 
-			setText(slot2:Find("Text"), i18n("emoji_type_" .. slot3))
+			uv0:SetTagText(slot2, slot3)
 
 			if uv0.emojiProxy:fliteNewEmojiDataByType()[slot3] then
 				setActive(slot2:Find("point"), true)
@@ -95,6 +87,10 @@ slot0.display = function(slot0)
 	end)
 	slot1:align(#ChatConst.EmojiTypes)
 	triggerToggle(slot0.emojiGroup:GetChild(0), true)
+end
+
+slot0.SetTagText = function(slot0, slot1, slot2)
+	setText(slot1:Find("Text"), i18n("emoji_type_" .. slot2))
 end
 
 slot0.filter = function(slot0, slot1)
@@ -191,15 +187,20 @@ slot0.filter = function(slot0, slot1)
 				PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
 					if not IsNil(uv0) then
 						slot0.name = uv1.pic
+
+						if slot0:GetComponent(typeof(Image)) then
+							slot1.preserveAspect = true
+						end
+
 						tf(slot0).sizeDelta = Vector2(uv2.cellSize.x, uv2.cellSize.y)
 						tf(slot0).anchoredPosition = Vector2.zero
 
 						if slot0:GetComponent("Animator") then
-							slot1.enabled = false
+							slot2.enabled = false
 						end
 
 						if slot0:GetComponent("CriManaEffectUI") then
-							slot1:Pause(true)
+							slot2:Pause(true)
 						end
 
 						setParent(slot0, uv0, false)
@@ -351,11 +352,9 @@ slot0.willExit = function(slot0)
 		uv0:clearItem(slot0)
 	end)
 
-	if getProxy(SettingsProxy):IsMellowStyle() then
-		setParent(slot0._tf, slot0.parentTr)
-	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-	end
+	slot0.tplCaches = {}
+
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

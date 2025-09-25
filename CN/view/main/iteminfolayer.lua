@@ -14,11 +14,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:BlurPanel(slot0._tf, false, {
-		weight = slot0:getWeightFromData()
-	})
+	slot0:BlurPanel(slot0._tf)
 
 	slot0.window = slot0:findTF("window")
 	slot2 = slot0.window
@@ -687,7 +683,7 @@ slot0.willExit = function(slot0)
 		ClearEventTrigger(slot0.rightEventTrigger)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.recycleConfirmationPage then
 		slot0.recycleConfirmationPage:Destroy()

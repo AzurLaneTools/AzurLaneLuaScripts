@@ -62,9 +62,7 @@ slot0.init = function(slot0)
 	slot0._contentAnim = slot0:findTF("bg/content_view"):GetComponent(typeof(Animation))
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot1:BlurPanel(slot0._tf)
 
 	slot0._loadingFlag = {}
 	slot0._contentList = {}
@@ -449,7 +447,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:clearLoadingPic()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

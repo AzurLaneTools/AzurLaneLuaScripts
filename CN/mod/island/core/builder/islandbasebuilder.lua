@@ -6,6 +6,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	assert(slot2)
 
 	slot0.unitListType = slot2
+	slot0.loadingIdList = {}
+	slot0.insIdList = {}
 end
 
 slot0.Build = function(slot0, slot1, slot2)
@@ -57,6 +59,24 @@ slot0.GetPoolMgr = function(slot0)
 	return slot0.view:GetPoolMgr()
 end
 
+slot0.AddLoadingID = function(slot0, slot1)
+	table.insert(slot0.loadingIdList, slot1)
+end
+
+slot0.Dispose = function(slot0)
+	for slot4, slot5 in ipairs(slot0.insIdList) do
+		FrameAsyncInstantiateManager.Instance:Cancel(slot5)
+	end
+
+	slot0.insIdList = nil
+
+	for slot4, slot5 in ipairs(slot0.loadingIdList) do
+		IslandAssetLoadDispatcher.Instance:Cancel(slot5)
+	end
+
+	slot0.loadingIdList = nil
+end
+
 slot0.Load = function(slot0, slot1, slot2)
 	assert(false, "overwrite !!!")
 end
@@ -83,7 +103,7 @@ slot0.LoadOtherPart = function(slot0, slot1, slot2, slot3, slot4)
 	slot4()
 end
 
-slot0.Dispose = function(slot0)
+slot0.OnDispose = function(slot0)
 end
 
 return slot0

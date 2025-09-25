@@ -17,12 +17,10 @@ slot0.OnInit = function(slot0)
 	slot0.favorUIList = UIItemList.New(slot0:findTF("panel/bg/view/content", slot0.favorPanelTF), slot0:findTF("panel/bg/view/content/tpl", slot0.favorPanelTF))
 	slot0.favorCurTF = slot0:findTF("panel/bg/cur", slot0.favorPanelTF)
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0:findTF("panel/bg", slot0.favorPanelTF)
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER
+		}
 	})
 	slot0:addListener()
 	slot0:Flush()
@@ -117,7 +115,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0.favorPanelAnimEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

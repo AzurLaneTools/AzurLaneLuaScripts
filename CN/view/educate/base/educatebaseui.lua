@@ -8,7 +8,7 @@ slot0.EDUCATE_ON_MSG_TIP = "EDUCATE_ON_MSG_TIP"
 slot0.EDUCATE_ON_UNLOCK_TIP = "EDUCATE_ON_UNLOCK_TIP"
 
 slot0.getGroupName = function(slot0)
-	return LayerWeightConst.GROUP_EDUCATE
+	return "EducateBaseUI"
 end
 
 return slot0

@@ -80,7 +80,7 @@ slot0.init = function(slot0)
 	slot0.okBtn = slot0:findTF("main/ok_btn")
 
 	setText(slot0.okBtn:Find("Image"), i18n("text_confirm"))
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.selectedIds = {}
 	slot0.selectOptions = slot0:findTF("main/options")
@@ -147,7 +147,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/cancel_button"), function ()
 		setActive(uv0.destroyConfirm, false)
 		setActive(uv0.mainPanel, true)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.destroyConfirm, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.destroyConfirm, uv0._tf)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/destroy_button"), function ()
 		seriesAsync({}, function ()
@@ -611,7 +611,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.equipDestroyConfirmWindow:Destroy()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 return slot0

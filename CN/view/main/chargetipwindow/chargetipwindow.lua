@@ -52,9 +52,7 @@ slot0.Show = function(slot0, slot1)
 	}, function ()
 		uv0:RegisterEvent()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.LoadWindow = function(slot0, slot1, slot2)
@@ -166,7 +164,7 @@ slot0.Hide = function(slot0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

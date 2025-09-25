@@ -63,9 +63,10 @@ slot0.PurchaseItem = function(slot0, slot1)
 	slot3 = Item.getConfigData(slot2.id)
 
 	slot0:ShowMsgBox({
-		isChargeType = false,
 		isLocalPrice = false,
+		isChargeType = false,
 		isMonthCard = false,
+		commodity = slot1,
 		icon = slot3.icon,
 		name = slot3.name,
 		tipExtra = i18n("charge_title_getitem"),
@@ -84,6 +85,7 @@ slot0.ChargeMonthCardAndGiftPack = function(slot0, slot1, slot2)
 
 	slot0:ShowMsgBox({
 		isChargeType = true,
+		commodity = slot2,
 		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
@@ -109,6 +111,7 @@ slot0.ChargeGem = function(slot0, slot1, slot2)
 
 	slot0:ShowMsgBox({
 		isChargeType = true,
+		commodity = slot2,
 		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),

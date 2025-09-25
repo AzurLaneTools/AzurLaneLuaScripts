@@ -5,14 +5,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uiAnim = slot0._tf:GetComponent(typeof(Animation))
-	slot0.uiAnimEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
-
-	slot0.uiAnimEvent:SetEndEvent(function ()
-		uv0.playingHideAnim = false
-
-		uv1.super.Hide(uv0)
-	end)
 	setText(slot0._tf:Find("top/title/Text"), i18n("island_manage_title"))
 
 	slot1 = slot0._tf:Find("window/view/content")
@@ -97,6 +89,8 @@ slot0.OnEnable = function(slot0)
 end
 
 slot0.Flush = function(slot0)
+	slot0:StopTimer()
+
 	slot0.rests = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurants()
 
 	table.sort(slot0.restIds, CompareFuncs({
@@ -155,8 +149,6 @@ slot0.UpdataStatusInfo = function(slot0, slot1, slot2)
 		setText(slot1:Find("bg/status/opening/Text"), "00:00:00")
 	end
 
-	slot5 = slot2:GetStatus()
-
 	eachChild(slot1:Find("btns"), function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
@@ -188,16 +180,6 @@ slot0.StopTimer = function(slot0)
 	end
 end
 
-slot0.Hide = function(slot0)
-	if slot0.playingHideAnim then
-		return
-	end
-
-	slot0.uiAnim:Play("anim_IslandManageUI_Out")
-
-	slot0.playingHideAnim = true
-end
-
 slot0.OnHide = function(slot0)
 	slot0:StopTimer()
 	slot0:UnBlurPanel()
@@ -208,7 +190,6 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	slot0.uiAnimEvent:SetEndEvent(nil)
 end
 
 return slot0

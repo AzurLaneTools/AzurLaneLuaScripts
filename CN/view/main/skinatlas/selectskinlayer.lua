@@ -8,9 +8,7 @@ end
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end

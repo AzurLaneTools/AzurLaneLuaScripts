@@ -65,11 +65,8 @@ slot0.findUI = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() + 1
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1
 	})
 
 	slot1 = pg.PerformMgr.GetInstance()
@@ -198,7 +195,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	pg.PerformMgr.GetInstance():SetParamForUI("Default")
 
 	if slot0.contextData.onExit then

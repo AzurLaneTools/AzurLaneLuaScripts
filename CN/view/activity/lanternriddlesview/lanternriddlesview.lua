@@ -149,7 +149,7 @@ end
 slot0.HideMainPanel = function(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.mainPanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.mainPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.mainPanel, slot0._tf)
 end
 
 slot0.AddTimer = function(slot0)

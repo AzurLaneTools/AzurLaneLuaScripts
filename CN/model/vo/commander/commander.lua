@@ -545,7 +545,7 @@ end
 
 slot0.GetNextResetAbilityTime = function(slot0)
 	if pg.gameset.commander_ability_reset_time.key_value == 1 then
-		return pg.TimeMgr:GetInstance():GetNextTimeByTimeStamp(slot0.abilityTime) + 86400
+		return pg.TimeMgr.GetInstance():GetNextTimeByTimeStamp(slot0.abilityTime) + 86400
 	else
 		return slot0.abilityTime + pg.gameset.commander_ability_reset_coldtime.key_value
 	end

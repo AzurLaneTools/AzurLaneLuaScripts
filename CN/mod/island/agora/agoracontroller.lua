@@ -4,7 +4,7 @@ slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 
 	slot0.agora, slot0.placedData = slot0:CreateAgora(slot0.island)
-	slot0.isEidting = false
+	slot0.isEditing = false
 	slot0.selectedData = nil
 	slot0.editCdTime = 0
 	slot0.toUpdateTileList = {}
@@ -100,7 +100,7 @@ slot0.OnCoreInitFinish = function(slot0)
 end
 
 slot0.InitSyncMgr = function(slot0)
-	slot0.islandSyncMgr:Init(slot0.sceneData.unitList, slot0.agora:GetPlacedlist())
+	slot0.islandSyncMgr:Init(slot0.sceneData.unitList, slot0.agora:GetAllVirtualInteractUnitData())
 end
 
 slot0.PaveLayers = function(slot0, slot1, slot2)
@@ -146,7 +146,9 @@ slot0.EnterEditMode = function(slot0)
 		return
 	end
 
-	slot0.isEidting = true
+	slot0.islandSyncMgr:CancelAgoraInteract()
+
+	slot0.isEditing = true
 
 	slot0.dataComparator:TakeSample()
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.ENTER_EDIT)
@@ -154,11 +156,12 @@ slot0.EnterEditMode = function(slot0)
 end
 
 slot0.ExitEditMode = function(slot0)
-	slot0.isEidting = false
+	slot0.isEditing = false
 
 	slot0.dataComparator:Abort()
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.EXIT_EDIT)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.EXIT_EDIT_AGORA)
+	slot0:ClearAllNew()
 end
 
 slot0.SaveAndExit = function(slot0)
@@ -175,6 +178,8 @@ slot0.Save = function(slot0, slot1)
 		slot0:UnSelectedItem()
 	end
 
+	slot0.islandSyncMgr:ClearAgoraInteractData()
+
 	slot2, slot3, slot4 = slot0.agora:SerializePlacementData()
 
 	slot0:NotifiyMeditor(IslandMediator.SAVE_AGORA, slot2, slot3, slot4)
@@ -183,6 +188,7 @@ slot0.Save = function(slot0, slot1)
 	slot0.editCdTime = pg.TimeMgr.GetInstance():GetServerTime() + pg.island_set.island_build_save_time.key_value_int
 
 	slot0:NotifiyAgora(ISLAND_AGORA_EVT.SAVE)
+	slot0.islandSyncMgr:InitAgora(slot0.agora:GetAllVirtualInteractUnitData())
 end
 
 slot0.SaveTheme = function(slot0, slot1, slot2)
@@ -219,7 +225,13 @@ slot0.ApplyTheme = function(slot0, slot1, slot2)
 
 	for slot9, slot10 in ipairs(slot3:GetPlacedData()) do
 		table.insert(slot4, function (slot0)
-			uv0:PlaceItem(uv1.id, uv1:GetPosition(), uv1:GetRotation())
+			if uv0:IsFoundationType() then
+				uv1:ReplaceFoundation(uv0.id)
+			elseif uv0:IsBuildingType() then
+				uv1:ReplaceBuilding(uv0.id)
+			else
+				uv1:PlaceItem(uv0.id, uv0:GetPosition(), uv0:GetRotation())
+			end
 
 			if uv2 % 3 == 0 then
 				onNextTick(slot0)
@@ -308,26 +320,35 @@ slot0.Revert = function(slot0)
 	slot1, slot2 = slot0.dataComparator:AnyChanged()
 
 	if not slot1 then
+		slot0.islandSyncMgr:ResumeAgoraInteract()
+
 		return
 	end
 
 	slot3, slot4, slot5 = slot0.dataComparator:GetSample()
+	slot6 = {}
 
 	if bit.band(slot2, AgoraDataComparator.CHANGE_TYPE_PLACED) > 0 then
 		slot0:ClearPlaced(true)
 
-		for slot9, slot10 in pairs(slot3) do
-			slot0:PlaceItem(slot10.id, slot10:GetPosition(), slot10:GetRotation())
+		for slot10, slot11 in pairs(slot3) do
+			table.insert(slot6, function (slot0)
+				uv0:PlaceItem(uv1.id, uv1:GetPosition(), uv1:GetRotation(), slot0)
+			end)
 		end
 	end
+
+	parallelAsync(slot6, function ()
+		uv0.islandSyncMgr:ResumeAgoraInteract()
+	end)
 
 	if bit.band(slot2, AgoraDataComparator.CHANGE_TYPE_FLOOR) > 0 then
 		slot0:ClearFloorLayer()
 
-		for slot9, slot10 in pairs(slot4) do
-			for slot14, slot15 in pairs(slot10) do
-				if not slot15:IsEmpty() then
-					slot0:PaveFloorLayer(slot15.id, slot15:GetShapeId(), slot15:GetPosition())
+		for slot10, slot11 in pairs(slot4) do
+			for slot15, slot16 in pairs(slot11) do
+				if not slot16:IsEmpty() then
+					slot0:PaveFloorLayer(slot16.id, slot16:GetShapeId(), slot16:GetPosition())
 				end
 			end
 		end
@@ -336,10 +357,10 @@ slot0.Revert = function(slot0)
 	if bit.band(slot2, AgoraDataComparator.CHANGE_TYPE_TILE) > 0 then
 		slot0:ClearTileLayer()
 
-		for slot9, slot10 in pairs(slot5) do
-			for slot14, slot15 in pairs(slot10) do
-				if not slot15:IsEmpty() then
-					slot0:PaveTileLayer(slot15.id, slot15:GetShapeId(), slot15:GetPosition())
+		for slot10, slot11 in pairs(slot5) do
+			for slot15, slot16 in pairs(slot11) do
+				if not slot16:IsEmpty() then
+					slot0:PaveTileLayer(slot16.id, slot16:GetShapeId(), slot16:GetPosition())
 				end
 			end
 		end
@@ -431,7 +452,7 @@ slot0.BeginDragItem = function(slot0)
 		return
 	end
 
-	slot1 = slot0.agora:GetPlaceableItem(slot0.selectedData.id)
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.DRAG_ITEM_BEGIN, slot0.agora:GetPlaceableItem(slot0.selectedData.id))
 end
 
 slot0.DragItem = function(slot0, slot1)
@@ -453,6 +474,7 @@ end
 
 slot0.EndDragItem = function(slot0, slot1)
 	slot0:DragItem(slot1)
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.DRAG_ITEM_END, slot0.agora:GetPlaceableItem(slot0.selectedData.id))
 end
 
 slot0.RotationItem = function(slot0)
@@ -463,74 +485,79 @@ slot0.RotationItem = function(slot0)
 	slot0.agora:GetPlaceableItem(slot0.selectedData.id):Rotation()
 end
 
-slot0.InterAction = function(slot0, slot1, slot2, slot3)
-	slot4 = 1
+slot0.InterAction = function(slot0, slot1, slot2)
+	slot3 = 1
 
-	if not slot0.agora:GetPlacedItem(slot1) then
-		return
-	end
-
-	if not slot5:GetEmptySlot() then
-		return
-	end
-
-	slot7 = function()
-		uv0:Lock(uv1)
-		uv2:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, uv3, uv0, uv4)
-	end
-
-	if slot3 then
-		slot7()
-	else
-		slot8 = slot0.islandSyncMgr
-
-		slot8:TryControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot6.id, slot4, function (slot0)
-			if slot0 then
-				uv0()
-			end
-		end)
-	end
-end
-
-slot0.InterActionEnd = function(slot0, slot1, slot2, slot3)
-	if not slot0.agora:GetPlacedItem(slot1) then
-		return
-	end
-
-	if not slot4:GetUsingSlot(slot2) then
+	if not slot0.agora:GetVirtualInteractUnitData(slot1):GetEmptySlot() then
 		return
 	end
 
 	slot6 = function()
+		uv0:Lock(uv1)
+		uv2:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, uv3, uv0, uv4)
+	end
+
+	slot7 = slot0.islandSyncMgr
+
+	slot7:TryControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot5.id, slot3, function (slot0)
+		if slot0 then
+			uv0()
+		end
+	end)
+end
+
+slot0.InterActionSync = function(slot0, slot1, slot2, slot3)
+	if slot0.isEditing then
+		return
+	end
+
+	slot5 = slot0.agora:GetVirtualInteractUnitData(slot1)
+	slot6 = slot5:GetSlotById(slot3)
+
+	slot6:Lock(slot2)
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.START_INTERACTION, slot5, slot6, 1)
+end
+
+slot0.InterActionEnd = function(slot0, slot1, slot2)
+	slot3 = slot0.agora
+	slot3 = slot3:GetVirtualInteractUnitData(slot1)
+
+	slot5 = function()
 		uv0:Release()
 		uv1:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, uv2, Clone(uv0))
+	end
 
-		if uv1.agora:FindEmptyArea4Item(uv1.agora:GetPlaceableItem(uv3).position, AgoraPlaceableItem.New({})) then
-			uv1:NotifiyCore(ISLAND_EVT.RESET_UNIT_POS, uv4, AgoraCalc.MapPosition2WorldPosition(slot3))
+	slot6 = slot0.islandSyncMgr
+
+	slot6:EndControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot3:GetUsingSlot(slot2).id, function (slot0)
+		if slot0 then
+			uv0()
 		end
+	end)
+end
+
+slot0.InterActionEndSync = function(slot0, slot1, slot2)
+	if slot0.isEditing then
+		return
 	end
 
-	if slot3 then
-		slot6()
-	else
-		slot7 = slot0.islandSyncMgr
+	slot3 = slot0.agora:GetVirtualInteractUnitData(slot1)
+	slot4 = slot3:GetUsingSlot(slot2)
 
-		slot7:EndControlUnit(IslandConst.SYNC_TYPE_AGORA, slot1, slot5.id, function (slot0)
-			if slot0 then
-				uv0()
-			end
-		end)
-	end
+	slot4:Release()
+	slot0:NotifiyAgora(ISLAND_AGORA_EVT.END_INTERACTION, slot3, Clone(slot4))
 end
 
 slot0.PlaceItemRandonPosition = function(slot0, slot1)
-	if slot0.agora:IsMaxCapacity() then
+	if slot0.agora:IsMaxCapacityWhenAdd(slot0.agora:GetPlaceableItem(slot1):GetCost()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_max_capacity"))
 
 		return
 	end
 
 	if not AgoraCalc.GetCenterMapPos() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_size"))
+
 		return
 	end
 
@@ -538,20 +565,20 @@ slot0.PlaceItemRandonPosition = function(slot0, slot1)
 		slot0:UnSelectedItem()
 	end
 
-	slot3 = slot0.agora:GetPlaceableItem(slot1)
+	slot2:Clear()
 
-	slot3:Clear()
+	if not slot0.agora:FindEmptyArea4Item(slot4, slot2) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_size"))
 
-	if not slot0.agora:FindEmptyArea4Item(slot2, slot3) then
 		return
 	end
 
-	slot0:PlaceItem(slot1, slot4, Vector3.zero)
-	slot0:SelectItem(slot3)
+	slot0:PlaceItem(slot1, slot5, Vector3.zero)
+	slot0:SelectItem(slot2)
 end
 
-slot0.PlaceItem = function(slot0, slot1, slot2, slot3)
-	slot0.agora:PlaceItem(slot1, slot2, slot3)
+slot0.PlaceItem = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.agora:PlaceItem(slot1, slot2, slot3, slot4)
 end
 
 slot0.RemovePlaceItem = function(slot0, slot1)
@@ -578,6 +605,10 @@ slot0.UnPlaceItem = function(slot0, slot1, slot2)
 end
 
 slot0.ReplaceBuilding = function(slot0, slot1)
+	if slot0:AnySelected() and slot0.agora:IsBuilding(slot0.selectedData.id) then
+		slot0:UnSelectedItem()
+	end
+
 	slot3 = Vector2.zero
 
 	if slot0.agora:GetBuilding() then
@@ -590,6 +621,10 @@ slot0.ReplaceBuilding = function(slot0, slot1)
 end
 
 slot0.ReplaceFoundation = function(slot0, slot1)
+	if slot0:AnySelected() and slot0.agora:IsFoundation(slot0.selectedData.id) then
+		slot0:UnSelectedItem()
+	end
+
 	slot3 = Vector2.zero
 
 	if slot0.agora:GetFoundation() then
@@ -783,17 +818,37 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandAgoraAgency.ADD_FURNITURE, slot0.OnFurnitureAdded)
 end
 
+slot0.ClearNew = function(slot0, slot1)
+	if not slot0.agora:GetPlaceableItem(slot1) then
+		return
+	end
+
+	slot2:ClearNew()
+	slot0:GetIsland():GetAgoraAgency():ClearNew(slot2.configId)
+end
+
+slot0.ClearAllNew = function(slot0)
+	for slot5, slot6 in pairs(slot0.agora:GetPlaceableList()) do
+		slot6:ClearNew()
+	end
+
+	slot0:GetIsland():GetAgoraAgency():ClearAllNew()
+end
+
 slot0.OnFurnitureAdded = function(slot0, slot1)
 	for slot5 = 1, slot1.count do
 		slot0.agora:AddPlaceable(AgoraFurniture.New({
 			id = AgoraCalc.GetUniqueId(slot1.id, slot5),
-			configId = slot1.id
+			configId = slot1.id,
+			time = slot1.time,
+			isNew = slot1.isNew
 		}))
 	end
 end
 
 slot0.OnPlacementUpdate = function(slot0, slot1)
-	slot0.islandSyncMgr:OnClearAgora()
+	slot0.islandSyncMgr:CancelAgoraInteract()
+	slot0.islandSyncMgr:ClearAgoraInteractData()
 
 	slot3, slot4, slot5 = AgoraTheme.New(slot1, slot0.agora.placeableList):GetSeparatedPlacedData()
 	slot6 = slot0.agora:GetFoundation()
@@ -834,7 +889,7 @@ slot0.OnPlacementUpdate = function(slot0, slot1)
 		slot0:ResetPlayerPosition()
 	end
 
-	slot0.islandSyncMgr:InitAgora(slot0.agora:GetPlacedlist())
+	slot0.islandSyncMgr:InitAgora(slot0.agora:GetAllVirtualInteractUnitData())
 end
 
 slot0.OnThemeAdded = function(slot0, slot1)
@@ -870,7 +925,9 @@ slot0.CreateAgora = function(slot0, slot1)
 		for slot12 = 1, slot8.count do
 			slot14 = AgoraFurniture.New({
 				id = AgoraCalc.GetUniqueId(slot8.id, slot12),
-				configId = slot8.id
+				configId = slot8.id,
+				time = slot8.time,
+				isNew = slot8.isNew
 			})
 			slot3[slot14.id] = slot14
 		end

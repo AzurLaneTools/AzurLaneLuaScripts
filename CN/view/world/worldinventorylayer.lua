@@ -79,9 +79,7 @@ slot0.didEnter = function(slot0)
 			id = WorldConst.ResourceID
 		})
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData()
-	})
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.OverlayPanel = function(slot0, slot1)
@@ -126,7 +124,7 @@ end
 slot0.willExit = function(slot0)
 	slot0.assignedItemView:Destroy()
 	slot0.inventoryProxy:RemoveListener(WorldInventoryProxy.EventUpdateItem, slot0.itemUpdateListenerFunc)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.initData = function(slot0)

@@ -42,7 +42,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.worldBtn, function ()
 		if nowWorld():GetBossProxy():WorldSupported() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_ask_help"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_ask_help"))
 
 			return
 		end
@@ -163,7 +163,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -237,7 +237,7 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GuildTechnologyMediator.ON_OPEN_OFFICE then
 		triggerToggle(slot0.contextData.toggles[GuildMainScene.TOGGLE_TAG[4]], true)
 	elseif slot2 == GAME.OPEN_MSGBOX_DONE then
-		pg.GuildLayerMgr:GetInstance():OnShowMsgBox()
+		pg.GuildLayerMgr.GetInstance():OnShowMsgBox()
 	elseif slot2 == GuildProxy.TECHNOLOGY_START then
 		slot0.viewComponent:UpdateNotices(GuildMainScene.NOTIFY_TYPE_TECH)
 	elseif slot2 == GAME.GUILD_START_TECH_DONE then
@@ -249,10 +249,10 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:TriggerOfficePage()
 	elseif slot2 == GAME.LOAD_LAYERS then
 		if slot3.context.mediator == AwardInfoMediator then
-			pg.GuildLayerMgr:GetInstance():UnBlurTopPanel()
+			pg.GuildLayerMgr.GetInstance():UnBlurTopPanel()
 		end
 	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == AwardInfoMediator then
-		pg.GuildLayerMgr:GetInstance():_BlurTopPanel()
+		pg.GuildLayerMgr.GetInstance():_BlurTopPanel()
 	end
 end
 

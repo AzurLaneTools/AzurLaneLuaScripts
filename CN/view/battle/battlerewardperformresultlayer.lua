@@ -39,7 +39,7 @@ end
 
 slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

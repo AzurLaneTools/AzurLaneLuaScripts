@@ -1,4 +1,8 @@
 _IslandFindUnit = function(slot0, slot1)
+	return _IslandGetUnit(slot0, slot1) and slot2._go
+end
+
+_IslandGetUnit = function(slot0, slot1)
 	if not _IslandCore then
 		return nil
 	end
@@ -7,7 +11,7 @@ _IslandFindUnit = function(slot0, slot1)
 		return nil
 	end
 
-	return slot2._go
+	return slot2
 end
 
 _IslandDestoryUnit = function(slot0, slot1)
@@ -18,7 +22,7 @@ _IslandDestoryUnit = function(slot0, slot1)
 	_IslandCore:Link(ISLAND_EVT.RMOVE_UNIT, slot0, slot1)
 end
 
-_IslandMoveUnit = function(slot0, slot1, slot2, slot3)
+_IslandMoveUnit = function(slot0, slot1, slot2, slot3, slot4)
 	if not _IslandCore then
 		return nil
 	end
@@ -27,7 +31,8 @@ _IslandMoveUnit = function(slot0, slot1, slot2, slot3)
 		id = slot1,
 		type = slot0,
 		position = slot2,
-		speed = slot3
+		speed = slot3,
+		charaRadius = slot4
 	})
 end
 

@@ -50,9 +50,8 @@ slot0.init = function(slot0)
 
 		uv0:updatePage()
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER + 2
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -93,7 +92,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

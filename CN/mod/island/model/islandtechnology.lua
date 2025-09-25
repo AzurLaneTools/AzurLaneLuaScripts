@@ -25,11 +25,12 @@ slot0.SetFinishedCnt = function(slot0, slot1)
 end
 
 slot0.AddFinishedCnt = function(slot0)
-	if slot0.finishedCnt == 0 then
-		IslandAchievementHelper.OnFinishTechnolog(slot0.id)
-	end
-
 	slot0.finishedCnt = slot0.finishedCnt + 1
+
+	if slot0.finishedCnt == 1 then
+		IslandAchievementHelper.OnFinishTechnolog(slot0.id)
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TECHNOLOGY)
+	end
 end
 
 slot0.GetFinishedCnt = function(slot0)
@@ -150,7 +151,7 @@ slot0.GetUnlockText = function(slot0)
 			return i18n("island_tech_unlock_tip1", pg.island_task[uv0].name)
 		end,
 		[uv0.UNLOCK_TYPE.EXIST_ABILITY] = function ()
-			return i18n("island_tech_unlock_tip2", "ability" .. uv0)
+			return i18n("island_tech_unlock_tip2", pg.island_ability_template[uv0].unlock_text)
 		end,
 		[uv0.UNLOCK_TYPE.FINISH_TECHNOLOGY] = function ()
 			return i18n("island_tech_unlock_tip3", pg.island_technology_template[uv0].tech_name)

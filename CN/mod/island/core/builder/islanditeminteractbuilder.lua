@@ -20,9 +20,6 @@ slot0.Load = function(slot0, slot1, slot2)
 	table.insert(slot3, function (slot0)
 		uv0:SetupBT(uv1, uv2, slot0)
 	end)
-	table.insert(slot3, function (slot0)
-		uv0:SetupSubBT(uv1, uv2, slot0)
-	end)
 	seriesAsync(slot3, function ()
 		uv0(uv1)
 	end)
@@ -30,10 +27,6 @@ end
 
 slot0.AddComponents = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, "DftCommonSignalReceiver")
-end
-
-slot0.SetupSubBT = function(slot0, slot1, slot2, slot3)
-	slot3()
 end
 
 slot0.LoadTimeline = function(slot0, slot1, slot2, slot3, slot4)
@@ -48,13 +41,14 @@ slot0.LoadTimeline = function(slot0, slot1, slot2, slot3, slot4)
 
 	for slot11, slot12 in ipairs(slot3:GetTimeline()) do
 		table.insert(slot6, function (slot0)
-			slot1 = ResourceMgr.Inst
+			slot1 = IslandAssetLoadDispatcher.Instance
+			slot2 = uv3
 
-			slot1:getAssetAsync(uv0.name, "", typeof(UnityEngine.Playables.PlayableAsset), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot2:AddLoadingID(slot1:Enqueue(uv0.name, "", typeof(UnityEngine.Playables.PlayableAsset), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				uv0[uv1] = Object.Instantiate(slot0)
 
 				uv2()
-			end), true, true)
+			end), true, true))
 		end)
 	end
 

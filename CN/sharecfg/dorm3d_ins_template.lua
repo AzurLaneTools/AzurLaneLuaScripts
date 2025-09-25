@@ -51,7 +51,7 @@ pg.dorm3d_ins_template = {
 		sculpture = "ankeleiqi_3",
 		picture = "ins_199032",
 		message = "ankeleiqi_2",
-		background = "Ins_199032_bg",
+		background = "ins_199032_bg",
 		id = 19903202,
 		group_id = 1,
 		npc_discuss = "",
@@ -66,7 +66,7 @@ pg.dorm3d_ins_template = {
 		sculpture = "xinzexi_4",
 		picture = "ins_105171",
 		message = "xinzexi_1",
-		background = "Ins_199032_bg",
+		background = "ins_199032_bg",
 		id = 10517201,
 		group_id = 1,
 		npc_discuss = "",
@@ -81,7 +81,7 @@ pg.dorm3d_ins_template = {
 		sculpture = "xinzexi_4",
 		picture = "ins_105172",
 		message = "xinzexi_2",
-		background = "Ins_199032_bg",
+		background = "ins_199032_bg",
 		id = 10517202,
 		group_id = 1,
 		npc_discuss = "",
@@ -94,15 +94,45 @@ pg.dorm3d_ins_template = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		sculpture = "xinzexi_4",
-		picture = "Ins_105173",
+		picture = "ins_105173",
 		message = "xinzexi_3",
-		background = "Ins_199032_bg",
+		background = "ins_199032_bg",
 		id = 10517203,
 		group_id = 1,
 		npc_discuss = "",
 		discuss = {
 			13,
 			14
+		}
+	},
+	[30707201] = {
+		ship_group = 30707,
+		name = "Taiho",
+		sculpture = "dafeng_2",
+		picture = "ins_307071",
+		message = "dafeng_1",
+		background = "ins_199032_bg",
+		id = 30707201,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			15,
+			16
+		}
+	},
+	[30707202] = {
+		ship_group = 30707,
+		name = "Taiho",
+		sculpture = "dafeng_2",
+		picture = "ins_307072",
+		message = "dafeng_2",
+		background = "ins_199032_bg",
+		id = 30707202,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			17,
+			18
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -120,6 +150,10 @@ pg.dorm3d_ins_template = {
 			10517201,
 			10517202,
 			10517203
+		},
+		[30707] = {
+			30707201,
+			30707202
 		}
 	},
 	all = {
@@ -129,6 +163,8 @@ pg.dorm3d_ins_template = {
 		19903202,
 		10517201,
 		10517202,
-		10517203
+		10517203,
+		30707201,
+		30707202
 	}
 }

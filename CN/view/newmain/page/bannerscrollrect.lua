@@ -92,10 +92,11 @@ slot0.ScrollTo = function(slot0, slot1)
 	LeanTween.moveLocalX(go(slot0.container), -1 * (slot1 - 1) * slot0.itemWidth, 0.2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
 		uv0.animating = false
 	end))
-	slot0:TriggerDot(slot0.dots[slot0.index or 1], false)
-	slot0:TriggerDot(slot0.dots[slot1], true)
 
 	slot0.index = slot1
+
+	slot0:TriggerDot(slot0.dots[slot0.index or 1], false)
+	slot0:TriggerDot(slot0.dots[slot1], true)
 end
 
 slot0.TriggerDot = function(slot0, slot1, slot2)
@@ -112,7 +113,7 @@ slot0.AddDrag = function(slot0)
 			return
 		end
 
-		uv0:Puase()
+		uv0:Pause()
 
 		uv1 = slot1.position.x
 		uv2 = uv0.container.localPosition
@@ -166,7 +167,7 @@ slot0.Disable = function(slot0)
 	end
 end
 
-slot0.Puase = function(slot0)
+slot0.Pause = function(slot0)
 	slot0:RemoveTimer()
 end
 

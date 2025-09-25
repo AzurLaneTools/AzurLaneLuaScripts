@@ -3,6 +3,7 @@ pg.SceneAnimMgr = singletonClass("SceneAnimMgr")
 slot0 = pg.SceneAnimMgr
 
 slot0.Ctor = function(slot0)
+	slot0.loadingList = {}
 	slot0.dormCallbackList = {}
 end
 
@@ -78,6 +79,129 @@ slot0.OtherWorldCoverGoScene = function(slot0, slot1, slot2)
 			end
 		end)
 		slot2:SetAction("action", 0)
+	end)
+end
+
+slot0.CommonSceneChange = function(slot0, slot1, slot2)
+	table.insert(slot0.loadingList, {
+		slot1,
+		slot2
+	})
+
+	if not slot0.playing then
+		slot0:DoSceneChange()
+	end
+end
+
+slot0.DoSceneChange = function(slot0)
+	slot0.playing = true
+
+	setActive(slot0._tf, true)
+	pg.UIMgr.GetInstance():LoadingOn(false)
+
+	slot1, slot2 = unpack(table.remove(slot0.loadingList, 1))
+	slot4 = {}
+
+	if not slot0.container:Find(slot1) then
+		table.insert(slot4, function (slot0)
+			PoolMgr.GetInstance():GetUI(uv0, true, function (slot0)
+				uv0 = slot0.transform
+
+				setParent(uv0, uv1.container, false)
+				uv2()
+			end)
+		end)
+	end
+
+	table.insert(slot4, function (slot0)
+		uv0:GetComponent("DftAniEvent"):SetTriggerEvent(slot0)
+		uv1:StartLoading(uv2, uv0)
+	end)
+	table.insert(slot4, function (slot0)
+		slot1 = nil
+
+		uv2(function ()
+			if #uv0.loadingList > 0 and uv0.loadingList[1][1] == uv1 then
+				uv1, uv2 = unpack(table.remove(uv0.loadingList, 1))
+
+				uv2(uv3)
+			else
+				uv4()
+			end
+		end)
+		uv0:LoopLoading(uv1, uv3)
+	end)
+	table.insert(slot4, function (slot0)
+		uv0:GetComponent("DftAniEvent"):SetEndEvent(slot0)
+		uv1:EndLoading(uv2, uv0)
+	end)
+	seriesAsync(slot4, function ()
+		PoolMgr.GetInstance():ReturnUI(uv0, uv1.gameObject)
+		pg.UIMgr.GetInstance():LoadingOff()
+
+		if #uv2.loadingList > 0 then
+			uv2:DoSceneChange()
+		else
+			uv2.playing = nil
+
+			setActive(uv2._tf, false)
+		end
+	end)
+end
+
+slot0.StartLoading = function(slot0, slot1, slot2)
+	switch(slot1, {
+		Dorm3DLoading = function ()
+			GetComponent(uv0, typeof(Animator)):SetBool("Finish", false)
+			uv0:Find("bg"):GetComponent(typeof(Image)).material:SetInt("_DissolveTexFlip", 1)
+			LeanTween.value(1, 0, 0.6):setOnUpdate(System.Action_float(function (slot0)
+				uv0:SetFloat("_Dissolve", slot0)
+			end)):setEase(LeanTweenType.easeOutCubic)
+			quickPlayAnimator(uv0, "anim_dorm3d_loading_in")
+		end,
+		IslandplaneLoading = function ()
+			quickPlayAnimation(uv0, "anim_planeLoading_in")
+			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "cut_in", false)
+		end,
+		IslandcarLoading = function ()
+			quickPlayAnimation(uv0, "anim_planeLoading_in")
+			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "cut_in", false)
+		end
+	}, function ()
+	end)
+end
+
+slot0.LoopLoading = function(slot0, slot1, slot2)
+	switch(slot1, {
+		Dorm3DLoading = function ()
+			pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_loading_loop")
+		end,
+		IslandplaneLoading = function ()
+			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
+		end,
+		IslandcarLoading = function ()
+			uv0:Find("load"):GetComponent("SkeletonAnimation").state:SetAnimation(0, "normal", true)
+		end
+	}, function ()
+	end)
+end
+
+slot0.EndLoading = function(slot0, slot1, slot2)
+	switch(slot1, {
+		Dorm3DLoading = function ()
+			uv0:Find("bg"):GetComponent(typeof(Image)).material:SetInt("_DissolveTexFlip", 0)
+			LeanTween.value(0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
+				uv0:SetFloat("_Dissolve", slot0)
+			end)):setEase(LeanTweenType.easeInOutCubic)
+			GetComponent(uv0, typeof(Animator)):SetBool("Finish", true)
+		end,
+		IslandplaneLoading = function ()
+			quickPlayAnimation(uv0, "anim_planeLoading_out")
+		end,
+		IslandcarLoading = function ()
+			quickPlayAnimation(uv0, "anim_planeLoading_out")
+		end
+	}, function ()
 	end)
 end
 

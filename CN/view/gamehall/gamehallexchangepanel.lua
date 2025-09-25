@@ -132,7 +132,7 @@ slot0.setVisible = function(slot0, slot1)
 	else
 		slot0.bulrFlag = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	end
 
 	setActive(slot0._tf, slot1)
@@ -145,7 +145,7 @@ end
 
 slot0.dispose = function(slot0)
 	if slot0.bulrFlag == true then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 		slot0.bulrFlag = false
 	end

@@ -279,7 +279,7 @@ slot0.ActivePanel = function(slot0, slot1, slot2)
 	if slot2 then
 		pg.UIMgr.GetInstance():BlurPanel(slot1)
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot1, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot1, slot0._tf)
 	end
 
 	setActive(slot1, slot2)

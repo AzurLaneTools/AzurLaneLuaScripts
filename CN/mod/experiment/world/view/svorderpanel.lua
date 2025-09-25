@@ -97,7 +97,7 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.Show = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	uv0.super.Show(slot0)
 end
 
@@ -106,7 +106,7 @@ slot0.Hide = function(slot0)
 		slot0:HideMsgbox()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0:ClearComppass()
 	slot0:ClearBtnTimers()
 	uv0.super.Hide(slot0)
@@ -382,7 +382,7 @@ end
 
 slot0.HideMsgbox = function(slot0)
 	setActive(slot0.rtMsgbox, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMsgbox, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtMsgbox, slot0._tf)
 end
 
 slot0.DisplayAutoSetting = function(slot0, slot1)

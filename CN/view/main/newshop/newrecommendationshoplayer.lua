@@ -5,6 +5,10 @@ slot0.getUIName = function(slot0)
 	return "NewRecommendationShopUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "NewShopMainScene"
+end
+
 slot0.init = function(slot0)
 	slot0.resources = slot0._tf:Find("adapt/top/resources")
 	slot0.banners = {
@@ -28,9 +32,7 @@ slot0.didEnter = function(slot0)
 	slot0:InitData()
 	slot0:ShowResUI()
 	slot0:SetPanel()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = "shop"
-	})
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.InitData = function(slot0)
@@ -355,7 +357,7 @@ slot0.willExit = function(slot0)
 
 	slot0.banners = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)

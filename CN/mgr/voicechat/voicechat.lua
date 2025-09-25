@@ -10,7 +10,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot3 = slot1.scripts or {}
 
 	for slot5, slot6 in slot2(slot3) do
-		table.insert(slot0.steps, VoiceChatStep.New(slot6))
+		table.insert(slot0.steps, VoiceChatStep.New(slot6, slot0.shipGroup))
 	end
 
 	slot0.branchCode = nil

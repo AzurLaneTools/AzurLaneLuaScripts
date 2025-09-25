@@ -33,7 +33,7 @@ slot0.execute = function(slot0, slot1)
 
 				slot1:updateGuild(slot2)
 				uv1:sendNotification(GAME.GUILD_UPDATE_BOSS_FORMATION_DONE)
-				pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildBossEvent")
+				pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildBossEvent")
 
 				if uv2 then
 					uv2()
