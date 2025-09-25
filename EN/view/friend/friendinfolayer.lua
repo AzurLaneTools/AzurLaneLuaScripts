@@ -24,11 +24,7 @@ slot0.GetBtnTags = function(slot0)
 end
 
 slot0.init = function(slot0)
-	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
-		setParent(slot0._tf, slot0.contextData.parent)
-	else
-		slot0:OverlayPanel(slot0._tf)
-	end
+	slot0:OverlayPanel(slot0._tf)
 
 	slot0.frame = slot0:findTF("frame")
 	slot0.iconTF = slot0:findTF("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
@@ -111,10 +107,6 @@ slot0.Init = function(slot0)
 
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setActive(slot0.btnTFs[3], false)
-
-		slot3 = slot0:findTF("frame")
-		slot4 = slot3.sizeDelta
-		slot3.sizeDelta = Vector2(slot4.x, slot4.y - 66.7)
 	end
 
 	setActive(slot0:findTF("frame/left_bg", false))

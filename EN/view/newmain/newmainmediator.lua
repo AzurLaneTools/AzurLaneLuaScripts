@@ -138,8 +138,8 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.OPEN_CHATVIEW, function (slot0)
 		uv0:addSubLayers(Context.New({
-			mediator = NotificationMediator,
 			viewComponent = NotificationLayer,
+			mediator = NotificationMediator,
 			data = {
 				form = NotificationLayer.FORM_MAIN
 			}

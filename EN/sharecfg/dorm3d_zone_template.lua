@@ -372,7 +372,7 @@ pg.dorm3d_zone_template = {
 	},
 	[16002] = {
 		is_global = 0,
-		name = "吧台",
+		name = "Counter",
 		type_prioritys = "",
 		id = 16002,
 		room_id = 16,
