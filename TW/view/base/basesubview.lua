@@ -19,32 +19,51 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._funcQueue = {}
 end
 
-slot0.SetExtra = function(slot0, slot1)
-	slot0.extraGameObject = go(slot1)
+slot0.InheritFuncs = {
+	"getGroupName",
+	"Add2Overlay",
+	"DelFromOverlay",
+	"OverlayPanel",
+	"UnOverlayPanel",
+	"BlurPanel",
+	"TempOverlayPanelPB",
+	"TempUnOverlayPanelPB"
+}
+
+slot0.RegisterView = function(slot0, slot1)
+	slot0.viewComponent = slot1
+
+	for slot5, slot6 in ipairs(uv0.InheritFuncs) do
+		slot0[slot6] = slot0[slot6] or function (slot0, ...)
+			return slot0.viewComponent[uv0](slot0.viewComponent, ...)
+		end
+	end
 end
 
-slot0.Load = function(slot0)
+slot0.Load = function(slot0, slot1)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
 
 	slot0._state = uv0.STATES.LOADING
-	slot1 = pg.UIMgr.GetInstance()
+	slot2 = pg.UIMgr.GetInstance()
 
-	slot1:LoadingOn()
+	slot2:LoadingOn()
 
-	slot1 = PoolMgr.GetInstance()
+	slot2 = PoolMgr.GetInstance()
 
 	seriesAsync({
 		function (slot0)
-			if uv0.extraGameObject then
-				slot0(uv0.extraGameObject)
+			if uv0 then
+				uv1.noReturnPrefab = true
+
+				slot0(uv0)
 			else
-				uv1:GetUI(uv0:getUIName(), true, slot0)
+				uv2:GetUI(uv1:getUIName(), true, slot0)
 			end
 		end
 	}, function (slot0)
-		if uv0._state == uv1.STATES.DESTROY and not uv0.extraGameObject then
+		if uv0._state == uv1.STATES.DESTROY and not uv0.noReturnPrefab then
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv2:ReturnUI(uv0:getUIName(), slot0)
 		else
@@ -82,6 +101,7 @@ slot0.Init = function(slot0)
 
 	slot0._state = uv0.STATES.INITED
 
+	bindComponent(slot0, slot0._go)
 	slot0:OnInit()
 	slot0:HandleFuncQueue()
 end
@@ -106,13 +126,13 @@ slot0.Destroy = function(slot0)
 
 	slot0._tf = nil
 
-	if slot0._go ~= nil and not slot0.extraGameObject then
+	if slot0._go ~= nil and not slot0.noReturnPrefab then
 		PoolMgr.GetInstance():ReturnUI(slot0:getUIName(), slot0._go)
 
 		slot0._go = nil
 	end
 
-	slot0.extraGameObject = nil
+	slot0.noReturnPrefab = nil
 end
 
 slot0.HandleFuncQueue = function(slot0)
@@ -226,12 +246,6 @@ slot0.getUIName = function(slot0)
 	return nil
 end
 
-slot0.preloadUIList = function(slot0)
-	return {
-		slot0:getUIName()
-	}
-end
-
 slot0.OnLoaded = function(slot0)
 end
 
@@ -257,14 +271,21 @@ slot0.ShowOrHideResUI = function(slot0, slot1)
 		}
 	end
 
-	pg.playerResUI:SetActive(setmetatable({
-		active = slot1,
-		weight = slot2.weight,
-		groupName = slot2.groupName,
-		canvasOrder = slot2.order or false
-	}, {
-		__index = slot2
-	}))
+	slot3 = slot0:getGroupName()
+
+	if slot1 then
+		pg.playerResUI:SetSettings(slot3, setmetatable({
+			groupName = slot3
+		}, {
+			__index = slot2
+		}))
+	else
+		pg.playerResUI:RemoveSettings(slot3)
+	end
+end
+
+slot0.getGroupName = function(slot0)
+	return slot0.contextData.groupName or slot0.__cname
 end
 
 return slot0

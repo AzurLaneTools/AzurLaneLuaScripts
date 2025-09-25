@@ -183,35 +183,20 @@ slot0.execute = function(slot0, slot1)
 			number = uv1
 		}, 16002, function (slot0)
 			if slot0.result == 0 then
-				slot1 = {}
-
-				if uv0.type == 0 then
-					uv1:sendNotification(GAME.EXTEND, {
-						id = uv2,
-						count = uv3
-					})
-				else
-					slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-
-					if not uv4.silentTip then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-					end
-				end
-
-				uv5:getData():consume({
-					[id2res(uv0.resource_type)] = uv6
+				uv0:getData():consume({
+					[id2res(uv1.resource_type)] = uv2
 				})
 
-				slot3 = nil
+				slot2 = nil
 
-				if uv7 then
-					slot4 = uv8:getShopStreet()
-					slot3 = slot4.type
+				if uv3 then
+					slot3 = uv4:getShopStreet()
+					slot2 = slot3.type
 
-					slot4:getGoodsById(uv2):reduceBuyCount()
-					uv8:UpdateShopStreet(slot4)
+					slot3:getGoodsById(uv5):reduceBuyCount()
+					uv4:UpdateShopStreet(slot3)
 				else
-					switch(uv0.genre, {
+					switch(uv1.genre, {
 						[ShopArgs.BuyOil] = function ()
 							uv0:increaseBuyOilCount()
 						end,
@@ -270,17 +255,17 @@ slot0.execute = function(slot0, slot1)
 					})
 				end
 
-				uv5:updatePlayer(slot2)
+				uv0:updatePlayer(slot1)
 
-				if uv0.group > 0 then
-					uv8:updateNormalGroupList(uv0.group, uv0.group_buy_count)
+				if uv1.group > 0 then
+					uv4:updateNormalGroupList(uv1.group, uv1.group_buy_count)
 				end
 
-				if uv0.genre == ShopArgs.CruiseSkin or uv0.genre == ShopArgs.CruiseGearSkin then
-					uv8:UpdateCruiseShop()
+				if uv1.genre == ShopArgs.CruiseSkin or uv1.genre == ShopArgs.CruiseGearSkin then
+					uv4:UpdateCruiseShop()
 				end
 
-				switch(uv0.effect_args, {
+				switch(uv1.effect_args, {
 					[ShopArgs.EffecetShipBagSize] = function ()
 						pg.TipsMgr.GetInstance():ShowTips(i18n("shop_extendship_success"))
 					end,
@@ -295,41 +280,56 @@ slot0.execute = function(slot0, slot1)
 					end
 				})
 
-				if uv0.limit_args then
-					for slot7, slot8 in ipairs(uv0.limit_args) do
-						if type(slot8) == "table" and (uv0.type == DROP_TYPE_DORM3D_FURNITURE or uv0.type == DROP_TYPE_DORM3D_GIFT) then
-							if slot8[1] == "dailycount" then
-								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
-									getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
-								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
-									getProxy(ApartmentProxy):AddDailyGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+				if uv1.limit_args then
+					for slot6, slot7 in ipairs(uv1.limit_args) do
+						if type(slot7) == "table" and (uv1.type == DROP_TYPE_DORM3D_FURNITURE or uv1.type == DROP_TYPE_DORM3D_GIFT) then
+							if slot7[1] == "dailycount" then
+								if uv1.type == DROP_TYPE_DORM3D_FURNITURE then
+									getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
+								elseif uv1.type == DROP_TYPE_DORM3D_GIFT then
+									getProxy(ApartmentProxy):AddDailyGiftShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
 								end
-							elseif slot8[1] == "count" then
-								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
-									getProxy(ApartmentProxy):AddPermanentFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
-								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
-									getProxy(ApartmentProxy):AddPermanentGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+							elseif slot7[1] == "count" then
+								if uv1.type == DROP_TYPE_DORM3D_FURNITURE then
+									getProxy(ApartmentProxy):AddPermanentFurnitureShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
+								elseif uv1.type == DROP_TYPE_DORM3D_GIFT then
+									getProxy(ApartmentProxy):AddPermanentGiftShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
 								end
 							end
 						end
 					end
 				end
 
-				if uv0.group_limit > 0 and (uv0.type == DROP_TYPE_DORM3D_FURNITURE or uv0.type == DROP_TYPE_DORM3D_GIFT) then
-					if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
-						getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
-					elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
-						getProxy(ApartmentProxy):AddDailyGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+				if uv1.group_limit > 0 and (uv1.type == DROP_TYPE_DORM3D_FURNITURE or uv1.type == DROP_TYPE_DORM3D_GIFT) then
+					if uv1.type == DROP_TYPE_DORM3D_FURNITURE then
+						getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
+					elseif uv1.type == DROP_TYPE_DORM3D_GIFT then
+						getProxy(ApartmentProxy):AddDailyGiftShopCount(uv1.effect_args[1], uv1.effect_args[2] or 1)
 					end
 				end
 
-				if not uv4.isQuickShopping then
-					uv1:sendNotification(GAME.SHOPPING_DONE, {
-						id = uv2,
-						shopType = slot3,
-						normalList = uv8:GetNormalList(),
-						normalGroupList = uv8:GetNormalGroupList(),
-						awards = slot1
+				slot3 = {}
+
+				if uv1.type == 0 then
+					uv7:sendNotification(GAME.EXTEND, {
+						id = uv5,
+						count = uv6
+					})
+				else
+					slot3 = PlayerConst.addTranDrop(slot0.drop_list)
+
+					if not uv8.silentTip then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
+					end
+				end
+
+				if not uv8.isQuickShopping then
+					uv7:sendNotification(GAME.SHOPPING_DONE, {
+						id = uv5,
+						shopType = slot2,
+						normalList = uv4:GetNormalList(),
+						normalGroupList = uv4:GetNormalGroupList(),
+						awards = slot3
 					})
 				end
 

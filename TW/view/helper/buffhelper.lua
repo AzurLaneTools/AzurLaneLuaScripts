@@ -205,7 +205,7 @@ slot0.GetBuffsForMainUI = function()
 		slot3 = slot2:getConfig("config_client").bufflist
 
 		for slot8, slot9 in pairs(getProxy(PlayerProxy):getRawData().buff_list) do
-			if pg.TimeMgr:GetInstance():GetServerTime() < slot9.timestamp and table.contains(slot3, slot9.id) and ActivityBuff.New(slot2.id, slot9.id, slot9.timestamp):checkShow() then
+			if pg.TimeMgr.GetInstance():GetServerTime() < slot9.timestamp and table.contains(slot3, slot9.id) and ActivityBuff.New(slot2.id, slot9.id, slot9.timestamp):checkShow() then
 				table.insert(slot1, slot12)
 			end
 		end

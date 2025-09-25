@@ -14,8 +14,6 @@ slot0.OnLoaded = function(slot0)
 	slot0.switchBtn = slot0:findTF("frame/switch")
 	slot0.cards = {}
 	slot0.loadUpPage = IslandShipOrderLoadUpPage.New(slot0._tf, slot0.event)
-	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
-	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.uilistAniamtion = slot0._tf:Find("frame/list"):GetComponent(typeof(Animation))
 
@@ -26,11 +24,7 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0 = uv0
-
-		slot0:PlayExitAnimation(function ()
-			uv0:Hide()
-		end)
+		uv0:Hide()
 	end, SFX_PANEL)
 	slot0:bind(uv0.EVENT_CLOSE_LOAD_UP, function ()
 		uv0:ClearSelected()
@@ -41,25 +35,14 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 end
 
-slot0.PlayExitAnimation = function(slot0, slot1)
-	slot0.canvasGroup.blocksRaycasts = false
-
-	slot0.aniDft:SetEndEvent(function ()
-		uv0.canvasGroup.blocksRaycasts = true
-
-		if uv1 then
-			uv1()
-		end
-	end)
-	slot0.animator:Play("anim_island_shiporder_out")
-end
-
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
+	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
+	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 end
 
 slot0.OnOrderUpdate = function(slot0, slot1)
@@ -99,6 +82,27 @@ slot0.OnOrderUpdate = function(slot0, slot1)
 
 		uv0:UpdateOnekeyBtns()
 	end)
+end
+
+slot0.OnUseTicketDone = function(slot0, slot1)
+	if slot1.type == IslandUseTicketCommand.TYPES.SHIP_ORDER then
+		slot2 = slot1.id
+		slot3 = nil
+
+		for slot7, slot8 in pairs(slot0.cards) do
+			if slot8.slot.id == slot2 then
+				slot3 = slot8
+
+				break
+			end
+		end
+
+		if not slot3 then
+			return
+		end
+
+		slot3:Flush(slot3.slot, slot0.mode)
+	end
 end
 
 slot0.OnShow = function(slot0)
@@ -196,6 +200,7 @@ slot0.UpdateSlot = function(slot0, slot1, slot2)
 		uv0:emit(IslandMediator.UNLOKC_SHIP_ORDER, uv1.slot.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot3.loadingRequest, function ()
+		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.SHIP_ORDER, uv1.slot.id)
 	end, SFX_PANEL)
 	onNextTick(function ()
 		uv0:RegisterCardEvent(uv1)

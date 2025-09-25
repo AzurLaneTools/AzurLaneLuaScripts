@@ -23,7 +23,7 @@ slot0.GetRuntimeData = function(slot0, slot1)
 			slot1 = uv0
 
 			return underscore.reduce(slot1:GetShips(), 0, function (slot0, slot1)
-				return slot0 + (slot1:GetSkill():IsUnlock() and slot2:GetLevel() <= uv0 and 1 or 0)
+				return slot0 + (slot1:GetSkill():IsUnlock() and uv0 <= slot2:GetLevel() and 1 or 0)
 			end)
 		end,
 		[IslandAchievementType.SHIP_ATTR_LV_1] = function ()
@@ -94,6 +94,9 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		end,
 		[IslandAchievementType.FURNITURE] = function ()
 			return uv0 == 0 and #uv1:GetAgoraAgency():GetFurnitures() or #uv1:GetAgoraAgency():GetFurnituresByType(uv0)
+		end,
+		[IslandAchievementType.ACTION] = function ()
+			return #uv0:GetActionAgency():GetActionList()
 		end
 	}, function ()
 		assert(false, "not exist runtime achv type: " .. uv0)
@@ -165,8 +168,8 @@ slot0.OnFinishTechnolog = function(slot0)
 	slot1:UpdateRecordWithAdd(IslandAchievementType.FINISH_TYPE_TECH, pg.island_technology_template[slot0].tech_belong, 1)
 end
 
-slot0.OnNpcInteract = function(slot0)
-	if getProxy(IslandProxy):GetIsland():GetAchievementAgency():CheckRecordExist(IslandAchievementType.NPC_INTERACT, slot0) then
+slot0.OnTakePhoto = function(slot0)
+	if getProxy(IslandProxy):GetIsland():GetAchievementAgency():CheckRecordExist(IslandAchievementType.TAKE_PHOTO, slot0) then
 		pg.m02:sendNotification(GAME.ISLAND_UPDATE_ACHV, {
 			records = {
 				{

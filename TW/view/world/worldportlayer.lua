@@ -110,9 +110,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData()
-	})
+	slot0:BlurPanel(slot0._tf)
 	onButton(slot0, slot0.btnBack, function ()
 		if uv0.isTweening then
 			return
@@ -159,7 +157,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:RecyclePainting(slot0.rtPainting)
 	slot0.singleWindow:Destroy()
 	slot0.multiWindow:Destroy()
@@ -167,7 +165,7 @@ slot0.willExit = function(slot0)
 	slot0.contextData.isEnter = true
 
 	if uv0.BlurPages[slot0.page] then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.rtBlurPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtBlurPanel, slot0._tf)
 	end
 
 	slot0:CancelUITween()
@@ -511,9 +509,9 @@ slot0.SetPage = function(slot0, slot1)
 	if slot0.page ~= slot1 then
 		if uv0.BlurPages[slot0.page or 0] ~= uv0.BlurPages[slot1] then
 			if uv0.BlurPages[slot1] then
-				pg.UIMgr.GetInstance():BlurPanel(slot0.rtBlurPanel, false)
+				pg.UIMgr.GetInstance():BlurPanel(slot0.rtBlurPanel)
 			else
-				pg.UIMgr.GetInstance():UnblurPanel(slot0.rtBlurPanel, slot0._tf)
+				pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtBlurPanel, slot0._tf)
 			end
 		end
 
@@ -819,12 +817,12 @@ slot0.showTaskWindow = function(slot0, slot1)
 	end, SFX_PANEL)
 	setButtonEnabled(slot4:Find("btn_go"), slot1:GetFollowingAreaId() or slot1:GetFollowingEntrance())
 	setActive(slot0.rtTaskWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.rtTaskWindow, slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.rtTaskWindow)
 end
 
 slot0.hideTaskWindow = function(slot0)
 	setActive(slot0.rtTaskWindow, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtTaskWindow, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtTaskWindow, slot0._tf)
 end
 
 return slot0

@@ -52,9 +52,7 @@ slot0.init = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot1:OverlayPanel(slot0._tf)
 
 	slot0.isLoadBg = false
 	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
@@ -188,9 +186,7 @@ slot0.didEnter = function(slot0)
 		setActive(uv0.clickTF, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin, nil, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if uv0.isInView or not uv0.isLoadBg then
@@ -390,9 +386,7 @@ slot0.playOpening = function(slot0, slot1, slot2)
 		if uv0 then
 			uv0()
 		end
-	end, "ui/skinunlockanim", slot2, false, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	end, "ui/skinunlockanim", slot2, false, false)
 end
 
 slot0.willExit = function(slot0)

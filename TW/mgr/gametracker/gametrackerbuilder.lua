@@ -415,13 +415,6 @@ slot0.BuildIslandTechImmd = function(slot0)
 	}, {})
 end
 
-slot0.BuildIslandTaskSubmit = function(slot0, slot1)
-	return uv0(30028, {
-		slot0,
-		slot1
-	}, {})
-end
-
 slot0.BuildIslandWildGather = function(slot0)
 	return uv0(30021, {
 		slot0
@@ -452,7 +445,7 @@ slot0.BuildIslandWearDress = function(slot0, slot1)
 	slot2 = "["
 
 	for slot6, slot7 in ipairs(slot1) do
-		slot2 = slot2 .. string.format("{\"type\":%d,\"id\":%d}", slot7.type, slot7.id)
+		slot2 = slot2 .. string.format("{\"type\":%d,\"id\":%d}", pg.island_dress_template[slot7.dress_id].type, slot7.dress_id)
 
 		if slot6 ~= #slot1 then
 			slot2 = slot2 .. ","
@@ -476,19 +469,21 @@ slot0.BuildIslandStartDelegation = function(slot0, slot1, slot2, slot3, slot4)
 	}, {})
 end
 
-slot0.BuildIslandGetDelegationAward = function(slot0)
-	slot1 = "["
+slot0.BuildIslandGetDelegationAward = function(slot0, slot1)
+	slot2 = "["
 
-	for slot5, slot6 in ipairs(slot0) do
-		slot1 = slot1 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", slot6.type, slot6.id, slot6.number)
+	for slot6, slot7 in ipairs(slot1) do
+		slot2 = slot2 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", slot7.type, slot7.id, slot7.number)
 
-		if slot5 ~= #slot0 then
-			slot1 = slot1 .. ","
+		if slot6 ~= #slot1 then
+			slot2 = slot2 .. ","
 		end
 	end
 
-	return uv0(30023, {}, {
-		slot1 .. "]"
+	return uv0(30023, {
+		slot0
+	}, {
+		slot2 .. "]"
 	})
 end
 
@@ -503,6 +498,41 @@ slot0.BuildIslandUnlockColor = function(slot0, slot1)
 	return uv0(30051, {
 		slot0,
 		slot1
+	}, {})
+end
+
+slot0.BuildActionOp = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	return uv0(30062, {
+		slot0,
+		slot1,
+		slot2,
+		slot3,
+		slot5,
+		slot4
+	}, {})
+end
+
+slot0.BuildIslandCloseRest = function(slot0, slot1)
+	slot2 = "["
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2 = slot2 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", slot7.type, slot7.id, slot7.number)
+
+		if slot6 ~= #slot1 then
+			slot2 = slot2 .. ","
+		end
+	end
+
+	return uv0(30059, {
+		slot0
+	}, {
+		slot2 .. "]"
+	})
+end
+
+slot0.BuildIslandTakeThoto = function(slot0)
+	return uv0(30060, {
+		slot0
 	}, {})
 end
 

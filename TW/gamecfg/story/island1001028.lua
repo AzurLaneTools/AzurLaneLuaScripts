@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
+			animation = "talk",
 			characterId = 0,
-			say = "你看我把谁带回来了？",
+			say = "梅莉！你看我把谁带回来了？",
 			face2Face = {
 				{
 					0,
@@ -44,7 +44,24 @@ return {
 			}
 		},
 		{
-			say = "可把我吓一跳！还以为自己的牧场才刚开始就要倒闭了呢！",
+			say = "刚才可把我吓一跳！还以为自己的牧场才刚开始就要倒闭了呢！",
+			subName = "牧场管理员",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "这家伙还挺能藏的，一直躲在那边的树阴下……",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指挥官！你就是梅莉的救命恩人！",
 			animation = "nod",
 			characterId = 100500,
 			subName = "牧场管理员",
@@ -54,7 +71,8 @@ return {
 			}
 		},
 		{
-			say = "这家伙还挺能藏的，躲在那边的墙角里跟我捉迷藏……",
+			animation = "talk",
+			say = "行了行了，举手之劳，不过以后可要把它看好了哦。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +80,116 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你就是梅莉的救命恩人！",
+			say = "放心吧！以后我绝对不会让它跑太远的，真是太让人操心了。",
+			animation = "sad",
+			characterId = 100500,
+			subName = "牧场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "咯咯鸡",
+			withoutIcon = true,
+			say = "咯咯咯——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "好啦好啦~在外面饿坏了吧？我这就给你添些香喷喷的……",
+			subName = "牧场管理员",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "咦咦咦——？！",
+			animation = "scare",
+			characterId = 100500,
+			subName = "牧场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "怎么了，梅莉？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "饲、饲料……见底了！空啦！一点都没有啦！",
+			animation = "embarrass",
+			characterId = 100500,
+			subName = "牧场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "shakehead",
+			say = "……你这牧场，还真是状况不断。",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "平时这些饲料，你是从哪儿弄来的？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "嗯……都是赫莫定期给我的！",
+			animation = "think",
+			characterId = 100500,
+			subName = "牧场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "对了！她和我说过，好像是用小麦在磨坊里磨出来的！",
+			subName = "牧场管理员",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "磨坊……小麦粉？明白了，你先在这里等我一下。",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "正好，农场里刚种了些新麦子，我去磨坊问问看。",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指挥官！你真是太可靠了！",
 			animation = "clap",
 			characterId = 100500,
 			subName = "牧场管理员",
@@ -72,38 +199,9 @@ return {
 			}
 		},
 		{
-			say = "只是举手之劳，也算是为牧场做努力了。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "之后我绝对不会让它跑太远了，真是让人担心。",
-			animation = "nod",
-			characterId = 100500,
+			say = "我和咯咯鸡会一直在这里等你回来的。",
 			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "哦——指挥官！你听到什么声音了吗？",
-			animation = "doubt",
 			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊，是咯咯鸡下蛋了！我们快去看看！",
-			animation = "curious",
-			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

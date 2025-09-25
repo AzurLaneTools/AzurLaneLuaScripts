@@ -22,7 +22,7 @@ slot0.init = function(slot0)
 	slot0.blurPanel = slot0._tf:Find("blur_panel")
 	slot0.pageBg = slot0._tf:Find("blur_panel/panel/mask/pageBg")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		pbList = {
 			slot0.pageBg
 		}

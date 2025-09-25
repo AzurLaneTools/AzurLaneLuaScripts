@@ -32,35 +32,37 @@ slot0.OwnerCount = function(slot0)
 end
 
 slot0.UpdateOwner = function(slot0, slot1)
-	slot3 = nil
+	slot3, slot4 = nil
 
 	if slot0:OwnerCount() < #slot1 then
-		for slot7, slot8 in ipairs(slot1) do
-			if not slot0.owners[slot8.slot_id] then
-				slot0.owners[slot8.slot_id] = slot8.owner_id
-				slot3 = slot8.owner_id
+		for slot8, slot9 in ipairs(slot1) do
+			if not slot0.owners[slot9.slot_id] then
+				slot0.owners[slot9.slot_id] = slot9.owner_id
+				slot3 = slot9.owner_id
+				slot4 = slot9.slot_id
 
 				break
 			end
 		end
 	else
-		slot4 = {}
+		slot5 = {}
 
-		for slot8, slot9 in ipairs(slot1) do
-			slot4[slot9.slot_id] = slot9.owner_id
+		for slot9, slot10 in ipairs(slot1) do
+			slot5[slot10.slot_id] = slot10.owner_id
 		end
 
-		for slot8, slot9 in pairs(slot0.owners) do
-			if not slot4[slot8] then
-				slot3 = slot9
-				slot0.owners[slot8] = nil
+		for slot9, slot10 in pairs(slot0.owners) do
+			if not slot5[slot9] then
+				slot3 = slot10
+				slot4 = slot9
+				slot0.owners[slot9] = nil
 
 				break
 			end
 		end
 	end
 
-	return slot2, slot3
+	return slot2, slot3, slot4
 end
 
 slot0.RemoveOwner = function(slot0, slot1)

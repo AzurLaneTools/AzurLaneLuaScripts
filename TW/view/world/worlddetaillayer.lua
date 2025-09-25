@@ -170,9 +170,7 @@ slot0.Register = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData()
-	})
+	slot0:OverlayPanel(slot0._tf)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -397,14 +395,16 @@ slot0.displayFleetInfo = function(slot0)
 end
 
 slot0.displayAttrFrame = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.blurLayer, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.blurLayer, {
+		staticBlur = true
+	})
 	SetActive(slot0.attrFrame, true)
 	slot0:initAttrFrame()
 end
 
 slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0.attrFrame, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurLayer, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurLayer, slot0._tf)
 end
 
 slot0.initAttrFrame = function(slot0)
@@ -625,10 +625,10 @@ slot0.willExit = function(slot0)
 	slot0.commanderFormationPanel:Destroy()
 
 	if isActive(slot0.attrFrame) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurLayer, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurLayer, slot0._tf)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.resPanel then
 		slot0.resPanel:exit()

@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯，数量和质量都没问题，辛苦指挥官了~",
-			subName = "订单管理员",
-			characterId = 100200,
-			animation = "nod",
+			say = "帕特莉……就这些了对吧？确认无误了？",
+			characterId = 0,
+			animation = "talk",
 			face2Face = {
 				{
 					0,
@@ -35,16 +34,8 @@ return {
 			}
 		},
 		{
-			say = "没问题就好。对了，你知道{namecode:98:明石}在哪里吗？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "doubt",
-			say = "{namecode:98:明石}么……指挥官看见那边的咖啡馆了吗？我经常在那附近遇到她的。",
+			animation = "nod",
+			say = "嗯，数量和质量都没问题，辛苦指挥官了~",
 			characterId = 100200,
 			subName = "订单管理员",
 			typewriter = {
@@ -53,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "咖啡馆附近么……那我过去看看！",
+			say = "没问题就好，顺便打听一下，你知道{namecode:98:明石}在哪里么？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +52,26 @@ return {
 			}
 		},
 		{
-			animation = "hi",
-			say = "呵呵，那指挥官可要小心些，别被她跑了哦~拜拜~",
+			animation = "think",
+			say = "{namecode:98:明石}？指挥官看见那边的啾咖啡了吗？我经常在那附近看到她，指挥官可以去碰碰运气。",
+			characterId = 100200,
+			subName = "订单管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "啾咖啡附近么……那我过去看看！",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "bye",
+			say = "呵呵，那指挥官，拜拜~",
 			characterId = 100200,
 			subName = "订单管理员",
 			typewriter = {

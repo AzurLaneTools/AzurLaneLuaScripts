@@ -10,9 +10,13 @@ slot0.GetHudInfo = function(slot0)
 	}
 
 	if slot0.data.gatherType == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM then
-		slot1.name = "采集物"
+		slot2 = pg.island_wild_gather[slot0.data.gatherData.configId]
+		slot1.name = slot2.name
+		slot1.itemIcon = "island/" .. slot2.icon
 	else
-		slot1.name = "收集物"
+		slot2 = pg.island_collect_fragment[slot0.data.gatherData.configId]
+		slot1.name = slot2.name
+		slot1.itemIcon = "island/" .. slot2.icon
 	end
 
 	return slot1

@@ -96,6 +96,10 @@ slot0.ClearLive2dSave = function(slot0, slot1)
 		return
 	end
 
+	if ChangeSkinLink.L2D_PARAMETER_DIC[slot1] then
+		ChangeSkinLink.L2D_PARAMETER_DIC[slot1] = {}
+	end
+
 	if pg.ship_skin_template[slot0].ship_l2d_id and #slot2 > 0 then
 		Live2dConst.SaveL2dIdle(slot0, slot1, 0)
 
@@ -142,7 +146,7 @@ slot0.GetLive2DArm32MatchAble = function()
 end
 
 slot0.ShowLive2DArm32Tips = function()
-	pg.TipsMgr:GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
 end
 
 slot0.l2d_dirty_data = {}

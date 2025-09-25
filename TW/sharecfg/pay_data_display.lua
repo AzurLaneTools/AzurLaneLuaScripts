@@ -33,6 +33,7 @@ pg.pay_data_display = setmetatable({
 		91,
 		93,
 		96,
+		98,
 		2021,
 		2022,
 		2023,
@@ -131,6 +132,7 @@ pg.pay_data_display = setmetatable({
 		4055,
 		4056,
 		4057,
+		4058,
 		4850,
 		4851,
 		4852,
@@ -168,7 +170,8 @@ pg.pay_data_display = setmetatable({
 		4918,
 		4919,
 		4920,
-		4921
+		4921,
+		4922
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3583,6 +3586,140 @@ pg.base.pay_data_display = {
 			{
 				2,
 				86217,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
+	[98] = {
+		picture = "fudai28",
+		name = "忍者之城換裝禮盒·II",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "忍者之城換裝禮盒·II",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao144",
+		extra_gem = 0,
+		id = 98,
+		airijp_id = "com.yostarjp.azurlane.diamond186",
+		name_display = "忍者之城換裝禮盒·II",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
 				1
 			},
 			{
@@ -13815,6 +13952,140 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[4058] = {
+		picture = "twfudai02",
+		name = "五週年禮盒·復刻",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "五週年禮盒",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.package61",
+		extra_gem = 0,
+		id = 4058,
+		airijp_id = "com.hkmanjuu.azurlane.package61",
+		name_display = "五週年禮盒·復刻",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86011,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86011,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81016,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	},
 	[4850] = {
 		picture = "tech1_display",
 		name = "最高方案研發禮包（一期）",
@@ -16924,6 +17195,91 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45921,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4922] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十三期）",
+		type = 0,
+		second_text = "",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·初月限定换装和其他奖励",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass23",
+		extra_gem = 0,
+		id = 4922,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass23",
+		name_display = "特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4023,
+				1500
+			},
+			{
+				8,
+				65100,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45922,
 			1500
 		},
 		ignorePlatform = {},

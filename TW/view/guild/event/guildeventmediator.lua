@@ -782,7 +782,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot5 = i18n("guild_event_start_tip2")
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = slot5,
 			onYes = function ()

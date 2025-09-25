@@ -50,8 +50,7 @@ slot0.register = function(slot0)
 				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
-						onYes = slot0,
-						weight = LayerWeightConst.SECOND_LAYER
+						onYes = slot0
 					})
 				else
 					slot0()
@@ -113,8 +112,7 @@ slot0.handleNotification = function(slot0, slot1)
 				content = i18n("battle_preCombatMediator_timeout"),
 				onYes = function ()
 					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-				end,
-				weight = LayerWeightConst.SECOND_LAYER
+				end
 			})
 		end
 	elseif slot2 == GAME.CHAPTER_OP_DONE and (slot3.type == ChapterConst.OpStrategy or slot3.type == ChapterConst.OpRepair or slot3.type == ChapterConst.OpRequest) then

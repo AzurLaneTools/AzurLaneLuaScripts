@@ -13,6 +13,7 @@ slot0.Flush = function(slot0, slot1)
 	slot0.tendency = slot1.cur_select
 	slot0.startTime = slot1.start_time
 	slot0.submitTime = slot1.submit_time
+	slot0.reduceTime = 0
 	slot0.showFlag = slot1.view_flag
 	slot0.consumeList = {}
 	slot2 = ipairs
@@ -118,6 +119,10 @@ slot0.IsUrgency = function(slot0)
 	return false
 end
 
+slot0.IsActivity = function(slot0)
+	return false
+end
+
 slot0.IsFirm = function(slot0)
 	return false
 end
@@ -131,7 +136,7 @@ slot0.IsEmpty = function(slot0)
 end
 
 slot0.IsLoading = function(slot0)
-	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.submitTime
+	return pg.TimeMgr.GetInstance():GetServerTime() < slot0:GetCanSubmitTime()
 end
 
 slot0.CanReplace = function(slot0)
@@ -147,7 +152,15 @@ slot0.GetDisappearTime = function(slot0)
 end
 
 slot0.GetCanSubmitTime = function(slot0)
-	return slot0.submitTime
+	return slot0.submitTime - slot0.reduceTime
+end
+
+slot0.SetReduceTime = function(slot0, slot1)
+	slot0.reduceTime = slot1
+end
+
+slot0.AddReduceTime = function(slot0, slot1)
+	slot0.reduceTime = slot0.reduceTime + slot1
 end
 
 return slot0

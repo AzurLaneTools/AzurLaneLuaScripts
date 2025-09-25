@@ -315,7 +315,7 @@ slot0.bindDetailTF = function(slot0, slot1)
 end
 
 slot0.revertDetailBlur = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 slot0.willExit = function(slot0)

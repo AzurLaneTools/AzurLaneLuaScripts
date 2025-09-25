@@ -19,10 +19,6 @@ slot0.getUIName = function(slot0)
 	end
 end
 
-slot0.getGroupName = function(slot0)
-	return "group_NotificationUI"
-end
-
 slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
@@ -236,14 +232,11 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.BlurPanel = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() + 1
-	})
+	uv0.super.BlurPanel(slot0, slot0._tf)
 end
 
 slot0.UnblurPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -365,9 +358,7 @@ slot0.showChangeRoomPanel = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0.changeRoomPanel, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot1:BlurPanel(slot0.changeRoomPanel)
 
 	slot0.inputTF.text = tostring(slot0.player.chatRoomId)
 	slot0.tempRoomSendBits = uv0.ChannelBits.send
@@ -435,7 +426,7 @@ slot0.showChangeRoomPanel = function(slot0)
 end
 
 slot0.closeChangeRoomPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.changeRoomPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.changeRoomPanel, slot0._tf)
 
 	if slot0.currentForm == uv0.FORM_BATTLE then
 		slot0._tf:SetParent(slot0.contextData.chatViewParent, true)

@@ -17,8 +17,7 @@ slot0.execute = function(slot0, slot1)
 			yesText = i18n("msgbox_text_forward"),
 			onNo = function ()
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -29,8 +28,7 @@ slot0.execute = function(slot0, slot1)
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.CRUSING)
 			end,
 			yesText = i18n("msgbox_text_forward"),
-			onNo = slot5,
-			weight = LayerWeightConst.TOP_LAYER
+			onNo = slot5
 		})
 	end
 end

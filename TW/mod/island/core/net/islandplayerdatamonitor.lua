@@ -36,6 +36,9 @@ slot0.register = function(slot0)
 	slot0:on(21053, function (slot0)
 		uv0:HandleAchievementData(slot0.event_list)
 	end)
+	slot0:on(21342, function (slot0)
+		uv0:HandleBookData(slot0.item_ids)
+	end)
 	slot0:on(21518, function (slot0)
 		if slot0.type == 1 or slot0.type == 3 then
 			uv0:HandleSlotFormulaData(slot0)
@@ -116,6 +119,26 @@ slot0.register = function(slot0)
 		end
 
 		uv0:SyncStarthHandPlant(slot0)
+	end)
+	slot0:on(21701, function (slot0)
+		uv0:ResponeAniamtion(slot0)
+	end)
+	slot0:on(21325, function (slot0)
+		uv0:AddChatMsg(slot0)
+	end)
+	slot0:on(21228, function (slot0)
+		if not uv0:IsSelf(slot0.island_id) then
+			return
+		end
+
+		uv0:UpdateActivityNpc(slot0)
+	end)
+	slot0:on(21224, function (slot0)
+		if not uv0:IsSelf(slot0.island_id) then
+			return
+		end
+
+		uv0:UpdatePlayerDressupData(slot0)
 	end)
 end
 
@@ -217,6 +240,10 @@ slot0.HandleAchievementData = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1) do
 		slot2:UpdateRecord(slot7.event_type, slot7.event_arg, slot7.value)
 	end
+end
+
+slot0.HandleBookData = function(slot0, slot1)
+	getProxy(IslandProxy):GetIsland():GetBookAgency():AddCanUnlockItems(slot1)
 end
 
 slot0.HandleSlotFormulaData = function(slot0, slot1)
@@ -360,6 +387,83 @@ slot0.SyncStarthHandPlant = function(slot0, slot1)
 			formula_id = slot8.formula_id
 		})
 	end
+end
+
+slot0.ResponeAniamtion = function(slot0, slot1)
+	slot0:GetIsland():DispatchEvent(IslandProxy.LINK_CORE, ISLAND_EVT.RESPON_ANIMATION_OP, {
+		id = slot1.player_id,
+		targetId = slot1.target_id,
+		actionId = slot1.action_id
+	})
+end
+
+slot0.AddChatMsg = function(slot0, slot1)
+	if not (slot1.user_id == getProxy(PlayerProxy):getRawData().id and slot4 or slot0:GetIsland():GetVisitorAgency():GetPlayer(slot1.user_id)) then
+		return
+	end
+
+	getProxy(IslandProxy):AddChatMsg(slot1.island_id, ChatMsg.New(ChatConst.ChannelIsland, ChatProxy.InjectPublicMsg(slot1.content, Clone(slot5))))
+end
+
+slot0.UpdateActivityNpc = function(slot0, slot1)
+	slot3 = slot0:GetIsland():GetActivityNpcAgency()
+
+	for slot7, slot8 in ipairs(slot1.refresh_list) do
+		slot9 = {
+			id = slot8.id,
+			object_id = slot8.object_id
+		}
+
+		if slot8.type == IslandConst.ACTIVITY_NPC_OP_TYPE_UPDATE then
+			slot3:UpdateNpc(slot9)
+		elseif slot8.type == IslandConst.ACTIVITY_NPC_OP_TYPE_ADD then
+			slot3:AddNpc(slot9)
+		elseif slot8.type == IslandConst.ACTIVITY_NPC_OP_TYPE_DEL then
+			slot3:RemoveNpc(slot9)
+		end
+	end
+end
+
+slot0.UpdatePlayerDressupData = function(slot0, slot1)
+	if not slot0:GetIsland():GetVisitorAgency():GetPlayer(slot1.user_id) then
+		return
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot1.dress_list) do
+		slot11 = slot10.type
+		slot12 = slot10.id
+		slot13 = 0
+		slot14 = ipairs
+		slot15 = slot1.dress_color or {}
+
+		for slot17, slot18 in slot14(slot15) do
+			if slot18.id == slot12 then
+				slot13 = slot18.color
+			end
+		end
+
+		slot14 = slot4:GetDressByType(slot11)
+		slot15 = slot4:GetCurrentColorByDressId(slot14)
+
+		if slot14 ~= slot12 then
+			slot5[slot11] = {
+				changeedDressId = slot12,
+				changedDressColorId = slot13
+			}
+		elseif slot15 ~= slot13 then
+			slot5[slot11] = {
+				changedDressColorId = slot13
+			}
+		end
+	end
+
+	slot2:DispatchEvent(IslandProxy.LINK_CORE, ISLAND_EVT.CHANGE_VISTER_DRESS, {
+		id = slot1.user_id,
+		changeDressData = slot5
+	})
+	slot4:ChangeDressupData(slot1.dress_list, slot1.dress_color)
 end
 
 return slot0

@@ -1,21 +1,31 @@
 slot0 = class("IslandBaseView")
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.core = slot1
 	slot0.callbacks = {}
 	slot0.unitRegister = {}
 	slot0.registerIndex = 0
+	slot0.baseContainer = slot2
 end
 
 slot0.SetUp = function(slot0)
 	slot0.poolMgr = slot0.core:GetPoolMgr()
-	slot0.topContainer = pg.UIMgr.GetInstance().UICanvas:Find("UIIsland/top")
-	slot0.opContainer = pg.UIMgr.GetInstance().UICanvas:Find("UIIsland/op")
-	slot0.pageContianer = pg.UIMgr.GetInstance().UICanvas:Find("UIIsland/page")
+	slot0.layer1Container = slot0.baseContainer:Find("layer1")
+	slot0.layer1ContainerCg = GetOrAddComponent(slot0.layer1Container, typeof(CanvasGroup))
+	slot0.topContainer = slot0.baseContainer:Find("layer1/top")
+	slot0.opContainer = slot0.baseContainer:Find("layer1/op")
+	slot0.interactionContainer = slot0.baseContainer:Find("layer1/interaction")
+	slot0.hudContainer = slot0.baseContainer:Find("layer1/hud")
+	slot0.pageContianer = slot0.baseContainer:Find("layer1/page")
+	slot0.layer2UIContianer = slot0.baseContainer:Find("layer2/ui")
 	slot0.root = slot0:CreateRoot()
 
 	slot0:Init()
 	slot0:AddListeners()
+end
+
+slot0.UnBlockLayer1Event = function(slot0, slot1)
+	slot0.layer1ContainerCg.blocksRaycasts = slot1
 end
 
 slot0.SetBgm = function(slot0, slot1)
@@ -75,7 +85,7 @@ slot0.OnCoreStateChanged = function(slot0, slot1)
 	end
 end
 
-slot0.Emit = function(slot0, slot1, ...)
+slot0.NotifiyCore = function(slot0, slot1, ...)
 	slot0:Op("NotifiyCore", slot1, unpack({
 		...
 	}))

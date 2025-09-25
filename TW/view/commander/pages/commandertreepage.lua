@@ -20,11 +20,11 @@ slot0.OnInit = function(slot0)
 	setText(slot0._tf:Find("Text"), i18n("commander_choice_talent_4"))
 end
 
-slot0.Show = function(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1)
 	setActive(slot0.treePanel, true)
 	slot0.treePanel:SetAsLastSibling()
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		uv0.treeTalentDesTxt.text = slot0:getConfig("desc")
 	end
 
@@ -48,9 +48,7 @@ slot0.Show = function(slot0, slot1, slot2)
 		end
 	end)
 	slot0.treeList:align(#slot1:getTalentList())
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = slot2 or LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
@@ -59,7 +57,7 @@ end
 
 slot0.closeTreePanel = function(slot0)
 	setActive(slot0.treePanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

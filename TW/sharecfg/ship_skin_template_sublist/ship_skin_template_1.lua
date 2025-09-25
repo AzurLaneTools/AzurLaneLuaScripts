@@ -13315,6 +13315,209 @@ pg.base.ship_skin_template_1 = {
 			10151122
 		}
 	},
+	[101512] = {
+		name = "兔兔城主的巡視小憩",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "唔，好睏……尊貴的兔兔城主拉菲，想休息了……指揮官……不對，幕僚閣下……巡視領地的事，還是先暫停一下吧……",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "lafeiII_4",
+		ship_group = 10151,
+		bg_sp = "",
+		shop_type_id = 10,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		bgm = "",
+		special_effects = "",
+		bg = "552",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 101512,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "lafeiII_4",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71216,
+		voice_actor = 35,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-62.2,
+			-512.2,
+			0,
+			0.47
+		},
+		spine_offset_profile = {
+			-1.7,
+			-507.4,
+			0,
+			0.46
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.367,
+					1.057,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.477,
+					0.959,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.637,
+					2.247,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.833,
+							2.413,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			40.6,
+			-598.5,
+			0,
+			0.526
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-730,
+					602,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					409.5,
+					132,
+					2,
+					0,
+					-156,
+					2
+				},
+				{
+					-519,
+					-577,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
+		}
+	},
 	[101520] = {
 		name = "貝爾",
 		shop_offset = "",

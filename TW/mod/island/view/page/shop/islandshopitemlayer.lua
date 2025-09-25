@@ -37,30 +37,47 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.SetUp = function(slot0, slot1, slot2)
-	GetImageSpriteFromAtlasAsync(slot2:GetIcon(), "", slot0.icon)
+	if slot0.charaId then
+		GetImageSpriteFromAtlasAsync("island/islandshipiconall/" .. slot0.charaId, "", slot0.icon)
+	else
+		GetImageSpriteFromAtlasAsync(slot2:GetIcon(), "", slot0.icon)
+	end
+
 	setText(slot0.name, slot2:GetName())
 	setText(slot0.desc, slot2:GetDescription())
 	setActive(slot0.discount, slot2:GetDiscount() ~= 0)
 	setText(slot0.discount:Find("Text"), "-" .. slot2:GetDiscount() .. "%")
-	setActive(slot0.remainTimer, slot2:IsTimeLimitCommodity())
 
-	if false then
-		slot5 = slot2:getConfig("time")[1]
+	slot3 = slot2:IsTimeLimitCommodity()
 
-		setText(slot0.remainTimer:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():Table2ServerTime({
-			year = slot5[1][1],
-			month = slot5[1][2],
-			day = slot5[1][3],
-			hour = slot5[2][1],
-			min = slot5[2][2],
-			sec = slot5[2][3]
-		}) - pg.TimeMgr.GetInstance():GetServerTime()))
+	setActive(slot0.remainTimer, slot3)
+
+	if slot3 then
+		slot4 = slot2:getConfig("time")[2]
+		slot5 = pg.TimeMgr.GetInstance()
+		slot5 = slot5:Table2ServerTime({
+			year = slot4[1][1],
+			month = slot4[1][2],
+			day = slot4[1][3],
+			hour = slot4[2][1],
+			min = slot4[2][2],
+			sec = slot4[2][3]
+		})
+		slot6 = 86400
+
+		slot0:StartTimer(function ()
+			if uv0 - pg.TimeMgr.GetInstance():GetServerTime() < uv1 then
+				setText(uv2.remainTimer:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(slot1))
+			else
+				setText(uv2.remainTimer:Find("text"), i18n("island_3Dshop_goods_time", math.floor(slot1 / uv1)))
+			end
+		end)
 	end
 
-	slot4 = "购买数量"
+	slot4 = i18n("island_3Dshop_buy_no")
 
 	if slot2:GetMaxNum() ~= 0 then
-		slot4 = slot4 .. "（剩余：" .. slot2:GetMaxNum() - slot2.purchasedNum .. "）"
+		slot4 = slot4 .. i18n("island_3Dshop_last", slot2:GetMaxNum() - slot2.purchasedNum)
 	end
 
 	setText(slot0.buyDesc, slot4)
@@ -139,23 +156,48 @@ slot0.SetUp = function(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-slot0.OnShow = function(slot0, slot1, slot2)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = "IslandShop"
-	})
+slot0.AddListeners = function(slot0)
+	slot0:AddListener(GAME.ISLAND_SHOP_OP_DONE, slot0.Hide)
+end
+
+slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, slot0.Hide)
+end
+
+slot0.OnShow = function(slot0, slot1, slot2, slot3)
+	slot0:BlurPanel(slot0._tf)
 
 	slot0.shopId = slot1
 	slot0.commodity = slot2
 
 	slot0:SetUp(slot1, slot2)
+
+	if slot3 then
+		slot0.charaId = slot3
+	end
 end
 
 slot0.Refresh = function(slot0)
 	slot0:SetUp(slot0.shopId, slot0.commodity)
 end
 
+slot0.StartTimer = function(slot0, slot1)
+	slot0.timer = Timer.New(slot1, 1, -1)
+
+	slot0.timer:Start()
+end
+
+slot0.RemoveTimer = function(slot0)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
+end
+
 slot0.OnHide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	slot0:RemoveTimer()
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

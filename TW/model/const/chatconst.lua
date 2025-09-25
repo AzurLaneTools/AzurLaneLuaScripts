@@ -7,6 +7,7 @@ slot0.ChannelPublic = 3
 slot0.ChannelFriend = 4
 slot0.ChannelGuild = 5
 slot0.ChannelWorldBoss = 6
+slot0.ChannelIsland = 7
 slot0.SendChannels = {
 	slot0.ChannelWorld,
 	slot0.ChannelGuild
@@ -36,6 +37,8 @@ slot0.GetChannelSprite = function(slot0)
 		return "total"
 	elseif slot0 == uv0.ChannelWorldBoss then
 		return "worldboss"
+	elseif slot0 == uv0.ChannelIsland then
+		return "island"
 	end
 
 	assert(false)

@@ -90,7 +90,6 @@ slot0.SetPageBtns = function(slot0)
 
 					uv0:SetPageBtns()
 					uv0:RefreshPage()
-					uv2.UpdateSumTip(uv3)
 				end
 			end)
 		end
@@ -112,7 +111,6 @@ slot0.SetPageBtns = function(slot0)
 
 			uv0:SetPageBtns()
 			uv0:RefreshPage()
-			uv1.UpdateSumTip(uv2)
 		end
 	end)
 	SetParent(slot0.recommendationTg, slot0:findTF("left/charaScroll/mask/list"), false)
@@ -163,11 +161,18 @@ slot0.GetCommoditiesCfgByChara = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.allCommodityCfgs) do
-		if slot8.room_id == slot1 or slot8.room_id == 0 then
-			slot10 = slot0:IsCommoditySoldOut(slot8)
+		slot9 = {}
+
+		if slot8.realroom_id ~= 0 then
+			table.insertto(slot9, uv0[slot8.realroom_id].character)
+			table.insertto(slot9, uv0[slot8.realroom_id].character_pay)
+		end
+
+		if (slot8.room_id == slot1 or slot8.room_id == 0) and (slot8.realroom_id == 0 or slot8.realroom_id ~= 0 and table.contains(slot9, slot1)) then
+			slot11 = slot0:IsCommoditySoldOut(slot8)
 
 			if not slot0:IsCommodityOutOfDate(slot8) then
-				if not slot10 then
+				if not slot11 then
 					table.insert(slot2, slot8)
 				else
 					table.insert(slot3, slot8)
@@ -364,7 +369,7 @@ slot0.SetBannnerCard = function(slot0)
 
 		if not slot9 then
 			onButton(slot0, slot8, function ()
-				uv0:ClickCommodity(uv1)
+				uv0:ClickCommodity(uv1, uv0:findTF("tip", uv2))
 			end, SFX_PANEL)
 		else
 			onButton(slot0, slot8, function ()
@@ -372,7 +377,10 @@ slot0.SetBannnerCard = function(slot0)
 			end, SFX_PANEL)
 		end
 
-		setActive(slot0:findTF("new", slot8), uv4.ShouldShowCommodtyTip(slot7))
+		slot24 = uv4.ShouldShowCommodtyTip(slot7)
+
+		setActive(slot0:findTF("new", slot8), slot24)
+		setActive(slot0:findTF("tip", slot8), slot24)
 	end
 
 	slot0.scrollSnap:SetUp()
@@ -480,7 +488,7 @@ slot0.SetGiftCard = function(slot0)
 
 	if not slot4 then
 		onButton(slot0, slot1, function ()
-			uv0:ClickCommodity(uv1)
+			uv0:ClickCommodity(uv1, uv0:findTF("tip", uv2))
 		end, SFX_PANEL)
 	else
 		onButton(slot0, slot1, function ()
@@ -488,7 +496,10 @@ slot0.SetGiftCard = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0:findTF("new", slot1), uv4.ShouldShowCommodtyTip(slot2))
+	slot15 = uv4.ShouldShowCommodtyTip(slot2)
+
+	setActive(slot0:findTF("new", slot1), slot15)
+	setActive(slot0:findTF("tip", slot1), slot15)
 end
 
 slot0.SetNormalCard = function(slot0)
@@ -593,7 +604,7 @@ slot0.SetNormalCard = function(slot0)
 
 		if not slot9 then
 			onButton(slot0, slot5, function ()
-				uv0:ClickCommodity(uv1)
+				uv0:ClickCommodity(uv1, uv0:findTF("tip", uv2))
 			end, SFX_PANEL)
 		else
 			onButton(slot0, slot5, function ()
@@ -601,7 +612,10 @@ slot0.SetNormalCard = function(slot0)
 			end, SFX_PANEL)
 		end
 
-		setActive(slot0:findTF("new", slot5), uv4.ShouldShowCommodtyTip(slot6))
+		slot20 = uv4.ShouldShowCommodtyTip(slot6)
+
+		setActive(slot0:findTF("new", slot5), slot20)
+		setActive(slot0:findTF("tip", slot5), slot20)
 	end
 end
 
@@ -716,7 +730,7 @@ slot0.SetCharaCard = function(slot0)
 
 			if not slot4 then
 				onButton(uv2, slot2, function ()
-					uv0:ClickCommodity(uv1)
+					uv0:ClickCommodity(uv1, uv2:Find("tip"))
 				end, SFX_PANEL)
 			else
 				onButton(uv2, slot2, function ()
@@ -724,7 +738,10 @@ slot0.SetCharaCard = function(slot0)
 				end, SFX_PANEL)
 			end
 
-			setActive(slot2:Find("new"), uv7.ShouldShowCommodtyTip(slot3))
+			slot18 = uv7.ShouldShowCommodtyTip(slot3)
+
+			setActive(slot2:Find("new"), slot18)
+			setActive(slot2:Find("tip"), slot18)
 		end
 	end)
 	slot2:align(#slot0:GetCommoditiesCfgByChara(uv0[slot0.selectedId].character[1]))
@@ -768,49 +785,61 @@ slot0.SetCharaCard = function(slot0)
 	end
 end
 
-slot0.ClickCommodity = function(slot0, slot1)
+slot0.ClickCommodity = function(slot0, slot1, slot2)
 	slot0.showCount = 1
 
 	if slot1.room_id ~= 0 then
-		slot2 = 0
+		slot3 = 0
 
-		for slot6, slot7 in pairs(uv0) do
-			if slot7.type == 2 and slot7.character[1] == slot1.room_id then
-				slot2 = slot7.id
+		for slot7, slot8 in pairs(uv0) do
+			if slot8.type == 2 and slot8.character[1] == slot1.room_id then
+				slot3 = slot8.id
 			end
 		end
 
-		if not getProxy(ApartmentProxy):getRoom(slot2) then
+		if not getProxy(ApartmentProxy):getRoom(slot3) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_role_locked"))
 
 			return
 		end
 	end
 
+	if slot1.realroom_id ~= 0 and not getProxy(ApartmentProxy):getRoom(slot1.realroom_id) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_publicroom_unlock") .. "：" .. pg.dorm3d_rooms[slot1.realroom_id].room)
+
+		return
+	end
+
+	uv1.UpdateCommodtyTip(slot1)
+
+	if slot2 then
+		setActive(slot2, false)
+	end
+
 	if slot1.type == 1 then
-		slot2 = Dorm3dFurniture.New({
+		slot3 = Dorm3dFurniture.New({
 			configId = slot1.item_id
 		})
-		slot3 = CommonCommodity.New({
+		slot4 = CommonCommodity.New({
 			id = slot1.shop_id[1]
 		}, Goods.TYPE_SHOPSTREET)
-		slot4, slot5, slot6 = slot3:GetPrice()
+		slot5, slot6, slot7 = slot4:GetPrice()
 
 		slot0:emit(Dorm3dShopMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
 			content = {
-				icon = "<icon name=" .. slot3:GetResIcon() .. " w=1.1 h=1.1/>",
-				off = slot5,
+				icon = "<icon name=" .. slot4:GetResIcon() .. " w=1.1 h=1.1/>",
+				off = slot6,
 				cost = Drop.New({
 					type = DROP_TYPE_RESOURCE,
-					id = slot3:GetResType(),
-					count = slot4
+					id = slot4:GetResType(),
+					count = slot5
 				}).count,
-				old = slot6,
+				old = slot7,
 				name = slot1.name
 			},
 			tip = i18n("dorm3d_shop_gift_tip"),
-			drop = slot2,
-			endTime = slot2:GetEndTime(),
+			drop = slot3,
+			endTime = slot3:GetEndTime(),
 			onYes = function ()
 				if not uv0:InShopTime() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_purchase_outtime"))
@@ -830,67 +859,67 @@ slot0.ClickCommodity = function(slot0, slot1)
 	end
 
 	if slot1.type == 2 then
-		slot2 = 0
+		slot3 = 0
 
-		for slot6 = 1, #slot1.shop_id do
-			if not uv1[slot1.shop_id[slot6]].limit_args[1] and slot8.group_type == 0 then
-				slot2 = 0
-			elseif slot9 and (slot9[1] == "dailycount" or slot9[1] == "count") then
-				slot2 = slot9[3]
-			elseif slot8.group_type == 2 then
-				slot2 = slot8.group_limit
+		for slot7 = 1, #slot1.shop_id do
+			if not uv2[slot1.shop_id[slot7]].limit_args[1] and slot9.group_type == 0 then
+				slot3 = 0
+			elseif slot10 and (slot10[1] == "dailycount" or slot10[1] == "count") then
+				slot3 = slot10[3]
+			elseif slot9.group_type == 2 then
+				slot3 = slot9.group_limit
 			end
 		end
 
-		if slot2 > 1 then
-			slot3 = 0
+		if slot3 > 1 then
+			slot4 = 0
 
 			if slot0.selectedId ~= 0 then
-				slot3 = uv0[slot0.selectedId].character[1]
+				slot4 = uv0[slot0.selectedId].character[1]
 			end
 
-			slot0:emit(Dorm3dShopMediator.OPEN_DETAIL, slot1, slot3, function (slot0)
+			slot0:emit(Dorm3dShopMediator.OPEN_DETAIL, slot1, slot4, function (slot0)
 				uv0.showCount = slot0
 			end)
 		else
-			slot3 = Dorm3dGift.New({
+			slot4 = Dorm3dGift.New({
 				configId = slot1.item_id
 			})
-			slot4 = CommonCommodity.New({
-				id = slot3:GetShopID()
+			slot5 = CommonCommodity.New({
+				id = slot4:GetShopID()
 			}, Goods.TYPE_SHOPSTREET)
-			slot5, slot6, slot7 = slot4:GetPrice()
-			slot8 = Drop.New({
+			slot6, slot7, slot8 = slot5:GetPrice()
+			slot9 = Drop.New({
 				type = DROP_TYPE_RESOURCE,
-				id = slot4:GetResType(),
-				count = slot5
+				id = slot5:GetResType(),
+				count = slot6
 			})
-			slot9 = nil
+			slot10 = nil
 
-			_.each(slot3:getConfig("shop_id"), function (slot0)
+			_.each(slot4:getConfig("shop_id"), function (slot0)
 				if uv0[slot0].group_type == 2 then
 					uv1 = math.max(slot1.group_limit, uv1)
 				end
 			end)
 
 			if 0 > 0 then
-				slot9 = {
-					getProxy(ApartmentProxy):GetGiftShopCount(slot3:GetConfigID()),
-					slot10
+				slot10 = {
+					getProxy(ApartmentProxy):GetGiftShopCount(slot4:GetConfigID()),
+					slot11
 				}
 			end
 
 			slot0:emit(Dorm3dShopMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
 				content = {
-					icon = "<icon name=" .. slot4:GetResIcon() .. " w=1.1 h=1.1/>",
-					off = slot6,
-					cost = slot8.count,
-					old = slot7,
+					icon = "<icon name=" .. slot5:GetResIcon() .. " w=1.1 h=1.1/>",
+					off = slot7,
+					cost = slot9.count,
+					old = slot8,
 					name = slot1.name,
-					weekLimit = slot9
+					weekLimit = slot10
 				},
 				tip = i18n("dorm3d_shop_gift_tip"),
-				drop = slot3,
+				drop = slot4,
 				groupId = slot1.room_id,
 				onYes = function ()
 					uv0:emit(GAME.SHOPPING, {
@@ -902,7 +931,7 @@ slot0.ClickCommodity = function(slot0, slot1)
 			})
 		end
 	elseif slot1.type == 3 then
-		slot2 = nil
+		slot3 = nil
 
 		if not getProxy(ApartmentProxy):getRoom(slot1.item_id) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_role_locked"))
@@ -910,21 +939,21 @@ slot0.ClickCommodity = function(slot0, slot1)
 			return
 		end
 
-		if not slot3.unlockCharacter[slot1.room_id] then
-			slot2 = "lock"
+		if not slot4.unlockCharacter[slot1.room_id] then
+			slot3 = "lock"
 		elseif not getProxy(ApartmentProxy):getApartment(slot1.room_id) then
-			slot2 = "room"
+			slot3 = "room"
 		elseif Apartment.New({
 			ship_group = slot1.room_id
 		}):needDownload() then
-			slot2 = "download"
+			slot3 = "download"
 		end
 
-		if slot2 == "lock" then
+		if slot3 == "lock" then
 			slot0:emit(Dorm3dShopMediator.OPEN_ROOM_UNLOCK_WINDOW, slot1.item_id, slot1.room_id)
-		elseif slot2 == "room" then
+		elseif slot3 == "room" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_role_locked"))
-		elseif slot2 == "download" then
+		elseif slot3 == "download" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_beach_tip"))
 		end
 	end
@@ -965,10 +994,28 @@ slot0.GetTimeRemain = function(slot0, slot1)
 end
 
 slot0.ShouldShowCommodtyTip = function(slot0)
+	if slot0.room_id ~= 0 then
+		slot1 = 0
+
+		for slot5, slot6 in ipairs(uv0.all) do
+			if uv0[slot6].type == 2 and slot7.character[1] == slot0.room_id then
+				slot1 = slot6
+			end
+		end
+
+		if not getProxy(ApartmentProxy):getRoom(slot1) then
+			return false
+		end
+	end
+
+	if slot0.realroom_id ~= 0 and not getProxy(ApartmentProxy):getRoom(slot0.realroom_id) then
+		return false
+	end
+
 	if slot0.type == 1 then
 		return Dorm3dFurniture.GetViewedFlag(slot0.item_id) == 0
 	elseif slot0.type == 2 then
-		return Dorm3dGift.GetViewedFlag(slot0.item_id) == 0 or uv0[slot0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftWeekViewed_" .. slot0.item_id, 0) == 0
+		return Dorm3dGift.GetViewedFlag(slot0.item_id) == 0 or uv1[slot0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftWeekViewed_" .. slot0.item_id, 0) == 0
 	end
 
 	return false

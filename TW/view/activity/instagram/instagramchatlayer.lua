@@ -7,6 +7,10 @@ slot0.getUIName = function(slot0)
 	return "InstagramChatUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "InstagramMainUI"
+end
+
 slot0.ReadType = {
 	"all",
 	"hasReaded",
@@ -86,10 +90,7 @@ slot0.init = function(slot0)
 
 	slot0.redPacketGot = slot0:findTF("panel/got", slot0.redPacketUI)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot0:OverlayPanel(slot0._tf)
 	SetActive(slot0.filterUI, false)
 	SetActive(slot0.isFiltered, false)
 	SetActive(slot0.topicUI, false)
@@ -792,13 +793,7 @@ slot0.SetFilterPanel = function(slot0)
 
 	onButton(slot0, slot0.filterBtn, function ()
 		SetActive(uv0.filterUI, true)
-
-		slot3 = false
-		slot4 = {
-			weight = LayerWeightConst.SECOND_LAYER
-		}
-
-		pg.UIMgr.GetInstance():BlurPanel(uv0.filterUI, slot3, slot4)
+		pg.UIMgr.GetInstance():BlurPanel(uv0.filterUI)
 
 		for slot3, slot4 in ipairs(uv1.ReadType) do
 			SetActive(uv0:findTF("selectedFrame", uv2:GetChild(slot3)), uv0.readFilter == slot4)
@@ -968,7 +963,7 @@ slot0.SetFilterResult = function(slot0)
 end
 
 slot0.CloseFilterPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.filterUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.filterUI, slot0:findTF("subPages"))
 	SetActive(slot0.filterUI, false)
 end
 
@@ -976,9 +971,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 	SetActive(slot0:findTF("tip", slot0.topicBtn), slot1:GetCharacterEndFlagExceptCurrent() == 0)
 	onButton(slot0, slot0.topicBtn, function ()
 		SetActive(uv0.topicUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(uv0.topicUI, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(uv0.topicUI)
 
 		uv0.currentTopic = nil
 		slot0 = UIItemList.New(uv0:findTF("panel/topicScroll/Viewport/Content", uv0.topicUI), uv0:findTF("panel/topicScroll/Viewport/Content/topic", uv0.topicUI))
@@ -1044,7 +1037,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 end
 
 slot0.CloseTopicPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.topicUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topicUI, slot0:findTF("subPages"))
 	SetActive(slot0.topicUI, false)
 end
 
@@ -1061,9 +1054,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 
 	onButton(slot0, slot0.backgroundBtn, function ()
 		SetActive(uv0.backgroundUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(uv0.backgroundUI, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(uv0.backgroundUI)
 
 		uv0.currentBgId = nil
 		slot0 = UIItemList.New(uv0:findTF("panel/backgroundScroll/Viewport/Content", uv0.backgroundUI), uv0:findTF("panel/backgroundScroll/Viewport/Content/background", uv0.backgroundUI))
@@ -1120,16 +1111,14 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 end
 
 slot0.CloseBackgroundPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.backgroundUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.backgroundUI, slot0:findTF("subPages"))
 	SetActive(slot0.backgroundUI, false)
 end
 
 slot0.SetRedPacketPanel = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	onButton(slot0, slot1, function ()
 		SetActive(uv0.redPacketUI, true)
-		pg.UIMgr.GetInstance():BlurPanel(uv0.redPacketUI, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(uv0.redPacketUI)
 		setImageSprite(uv0:findTF("panel/charaBg/chara", uv0.redPacketUI), LoadSprite("qicon/" .. uv1), false)
 
 		if not uv2 then
@@ -1270,7 +1259,7 @@ slot0.UpdateRedPacketUI = function(slot0, slot1)
 end
 
 slot0.CloseRedPacketPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.redPacketUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.redPacketUI, slot0:findTF("subPages"))
 	SetActive(slot0.redPacketUI, false)
 end
 

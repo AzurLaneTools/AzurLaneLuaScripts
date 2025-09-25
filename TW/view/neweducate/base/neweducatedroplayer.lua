@@ -5,9 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.drops = slot0.contextData.items or {}
 	slot0.awardWindow = slot0._tf:Find("award_window")
@@ -121,7 +119,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.removeFunc then
 		slot0.contextData.removeFunc()

@@ -35,12 +35,9 @@ slot0.init = function(slot0)
 	slot0.optionalPanel = slot0:findTF("main/right_panel/last/bg2/option")
 	slot0.scroll = slot0:findTF("main/right_panel/center/bottom/scroll")
 
-	if slot0.contextData.tf then
-		SetParent(slot0._tf, slot0.contextData.tf)
-	end
-
 	setText(slot0:findTF("main_bg/Text"), i18n("dorm3d_privatechat_topics"))
 	setText(slot0.noMsgTF:Find("Text"), i18n("dorm3d_ins_no_msg"))
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)

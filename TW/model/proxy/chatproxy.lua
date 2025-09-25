@@ -44,6 +44,31 @@ slot0.InjectPublic = function(slot0, slot1, slot2)
 	slot0.text = slot3
 end
 
+slot0.InjectPublicMsg = function(slot0, slot1)
+	slot2, slot3 = wordVer(slot0, {
+		isReplace = true
+	})
+
+	string.gsub(slot3, ChatConst.EmojiCodeMatch, function (slot0)
+		uv0 = tonumber(slot0)
+	end)
+
+	if nil then
+		if pg.emoji_template[slot4] then
+			slot3 = slot5.desc
+		else
+			slot4 = nil
+		end
+	end
+
+	return {
+		player = slot1,
+		content = slot3,
+		emojiId = slot4,
+		timestamp = pg.TimeMgr.GetInstance():GetServerTime()
+	}
+end
+
 slot0.register = function(slot0)
 	slot0:on(50101, function (slot0)
 		if slot0.type == ChatConst.CODE_BANED then
@@ -61,28 +86,7 @@ slot0.register = function(slot0)
 				table.remove(uv0.actBossMsg, 1)
 			end
 		else
-			slot1, slot2 = wordVer(slot0.content, {
-				isReplace = true
-			})
-
-			string.gsub(slot2, ChatConst.EmojiCodeMatch, function (slot0)
-				uv0 = tonumber(slot0)
-			end)
-
-			if nil then
-				if pg.emoji_template[slot3] then
-					slot2 = slot4.desc
-				else
-					slot3 = nil
-				end
-			end
-
-			uv0:addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
-				player = Player.New(slot0.player),
-				content = slot2,
-				emojiId = slot3,
-				timestamp = pg.TimeMgr.GetInstance():GetServerTime()
-			}))
+			uv0:addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, uv1.InjectPublicMsg(slot0.content, Player.New(slot0.player))))
 		end
 	end)
 	slot0:on(50103, function (slot0)

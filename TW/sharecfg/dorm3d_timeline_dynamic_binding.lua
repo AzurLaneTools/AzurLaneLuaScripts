@@ -25,11 +25,17 @@ pg.dorm3d_timeline_dynamic_binding = {
 		object_name = "pre_db_chair18",
 		track_name = "pre_db_chair18Track"
 	},
+	{
+		id = 6,
+		object_name = "Directional Light",
+		track_name = "IslandDirectionalLightTrack"
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

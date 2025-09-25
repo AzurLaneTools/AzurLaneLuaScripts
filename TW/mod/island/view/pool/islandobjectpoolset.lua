@@ -5,6 +5,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.pools = {}
 	slot0.capacity = slot2
 	slot0.poolCapacity = slot3
+	slot0.loadingCallbacks = {}
 end
 
 slot0.CreatePool = function(slot0, slot1, slot2)
@@ -24,9 +25,15 @@ slot0.RawGetPool = function(slot0, slot1)
 end
 
 slot0.GetObject = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0:GetPool(slot1, slot2)
+	if not slot0.loadingCallbacks[slot0:GetPool(slot1, slot2).key] then
+		slot0.loadingCallbacks[slot4.key] = {}
+	end
 
-	slot0:CheckOverFlow(slot4)
+	table.insert(slot0.loadingCallbacks[slot4.key], slot3)
+
+	if slot4:IsLoading() then
+		return
+	end
 
 	slot5 = {}
 
@@ -37,7 +44,24 @@ slot0.GetObject = function(slot0, slot1, slot2, slot3)
 	end
 
 	seriesAsync(slot5, function ()
-		uv1(uv0:Dequeue())
+		uv0:CheckOverFlow(uv1)
+
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(uv0.loadingCallbacks[uv1.key]) do
+			table.insert(slot0, function (slot0)
+				slot1 = uv0
+
+				slot1:DequeueAsyn(function (slot0)
+					uv0(slot0)
+					uv1()
+				end)
+			end)
+		end
+
+		parallelAsync(slot0)
+
+		uv0.loadingCallbacks[uv1.key] = {}
 	end)
 end
 
@@ -61,7 +85,7 @@ slot0.DeleteOverflowPools = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.pools) do
-		if slot8 ~= slot2 and slot1 > #slot3 and slot8:CanDelete() then
+		if slot8 ~= slot2 and slot1 > #slot3 and slot8:CanDelete() and (not slot0.loadingCallbacks[slot8.key] or #slot0.loadingCallbacks[slot8.key] == 0) then
 			table.insert(slot3, slot7)
 		end
 	end
@@ -83,6 +107,7 @@ slot0.Clear = function(slot0)
 	end
 
 	slot0.pools = {}
+	slot0.loadingCallbacks = {}
 end
 
 slot0.Dispose = function(slot0)
@@ -91,6 +116,7 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.pools = nil
+	slot0.loadingCallbacks = {}
 end
 
 return slot0

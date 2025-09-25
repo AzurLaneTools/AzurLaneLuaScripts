@@ -31,9 +31,7 @@ end
 slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	slot1:BlurPanel(slot0._tf)
 	onButton(slot0, slot0.rtBg, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)

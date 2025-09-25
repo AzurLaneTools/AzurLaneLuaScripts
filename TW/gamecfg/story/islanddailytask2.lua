@@ -20,7 +20,7 @@ return {
 	scripts = {
 		{
 			say = "啊！指挥官，这些东西送来得正是时候！",
-			animation = "think",
+			animation = "nod",
 			characterId = 100600,
 			subName = "矿山管理员",
 			face2Face = {
@@ -35,17 +35,7 @@ return {
 			}
 		},
 		{
-			subName = "矿山管理员",
-			say = "嗯……分量也够足！干得漂亮！",
-			characterId = 100600,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "有了它们，我就能继续采矿了。",
+			say = "嗯……分量也够！干得漂亮！",
 			subName = "矿山管理员",
 			characterId = 100600,
 			typewriter = {
@@ -54,10 +44,9 @@ return {
 			}
 		},
 		{
-			say = "岛上的建设可离不开我挖的这些矿石！",
-			animation = "elation",
-			characterId = 100600,
+			say = "有了它们，矿山的订单就不用愁啦！",
 			subName = "矿山管理员",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

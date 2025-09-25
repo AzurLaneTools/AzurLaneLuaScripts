@@ -2,15 +2,20 @@ slot0 = class("AgoraFurniture", import(".AgoraPlaceableItem"))
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.configId
+	slot0.time = slot1.time or slot0.configId
+	slot0.isNew = defaultValue(slot1.isNew, false)
 	slot0.config = pg.island_furniture_template[slot0.configId]
 
 	assert(slot0.config, slot0.configId)
 	uv0.super.Ctor(slot0, slot1, Vector2(slot0.config.size[1], slot0.config.size[2]))
+end
 
-	slot0.slots = {}
+slot0.IsNew = function(slot0)
+	return slot0.isNew
+end
 
-	slot0:InitSlots()
-	slot0:InitTimlineInfo()
+slot0.ClearNew = function(slot0)
+	slot0.isNew = false
 end
 
 slot0.GetMapType = function(slot0)
@@ -23,55 +28,19 @@ slot0.GetMapType = function(slot0)
 	end
 end
 
-slot0.InitSlots = function(slot0)
-	for slot4 = 1, slot0.config.slot_cnt do
-		table.insert(slot0.slots, AgoraFurnitureSlot.New(slot4, slot0.id))
-	end
-end
-
 slot0.CanInteraction = function(slot0)
-	return #slot0.slots > 0
+	return slot0.config.interact_point ~= "" and #slot0.config.interact_point > 0
 end
 
-slot0.InitTimlineInfo = function(slot0)
-	slot0.timelineInfo = {}
-
-	if slot0.config.timeline == nil or slot0.config.timeline == "" then
-		return
+slot0.GetInteractionPoints = function(slot0)
+	if not slot0:CanInteraction() then
+		return {}
 	end
 
-	for slot4, slot5 in ipairs(slot0.config.timeline) do
-		table.insert(slot0.timelineInfo, pg.island_item_timeline[slot5])
-	end
+	return slot0.config.interact_point
 end
 
-slot0.GetEmptySlot = function(slot0)
-	for slot4, slot5 in ipairs(slot0.slots) do
-		if slot5:IsEmpty() then
-			return slot5
-		end
-	end
-
-	return nil
-end
-
-slot0.GetUsingSlot = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.slots) do
-		if not slot6:IsEmpty() and slot6:IsUsing(slot1) then
-			return slot6
-		end
-	end
-
-	return nil
-end
-
-slot0.AnySlotUsing = function(slot0)
-	for slot4, slot5 in ipairs(slot0.slots) do
-		if not slot5:IsEmpty() then
-			return true
-		end
-	end
-
+slot0.Read = function(slot0)
 	return false
 end
 
@@ -116,7 +85,7 @@ slot0.GetType = function(slot0)
 end
 
 slot0.GetTime = function(slot0)
-	return 0
+	return slot0.time
 end
 
 slot0.GetDesc = function(slot0)

@@ -4,6 +4,7 @@ slot0.RENAME_SHIP = "ProposeMediator.RENAME_SHIP"
 slot0.HIDE_SHIP_MAIN_WORD = "ShipMainMediator.HIDE_SHIP_MAIN_WORD"
 slot0.EXCHANGE_TIARA = "ProposeMediator.EXCHANGE_TIARA"
 slot0.REGISTER_SHIP = "ProposeMediator.REGISTER_SHIP"
+slot0.GIFT_SHIP = "ProposeMediaotr.GIFT_SHIP"
 
 slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)
@@ -43,6 +44,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.REGISTER_SHIP, function (slot0, slot1)
 		uv0:sendNotification(GAME.PROPOSE_REGISTER_SHIP, {
 			shipId = slot1
+		})
+	end)
+	slot0:bind(uv0.GIFT_SHIP, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_GIFT, {
+			shipID = slot1
 		})
 	end)
 end

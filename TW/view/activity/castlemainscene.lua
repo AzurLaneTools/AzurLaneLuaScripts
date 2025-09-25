@@ -329,7 +329,7 @@ slot0.InitButton = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.characterWindowBg, function ()
 		setActive(uv0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.characterCard, uv0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.characterCard, uv0.characterWindowBg)
 		uv0:UpdateFlush()
 		uv0:CheckGuide()
 	end, SFX_CANCEL)
@@ -993,7 +993,7 @@ end
 slot0.willExit = function(slot0)
 	if isActive(slot0.characterWindow) then
 		setActive(slot0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.characterCard, slot0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.characterCard, slot0.characterWindowBg)
 	end
 
 	LeanTween.cancel(go(slot0._tf))

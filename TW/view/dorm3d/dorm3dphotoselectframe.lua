@@ -24,8 +24,8 @@ slot0.init = function(slot0)
 
 	slot4 = pg.UIMgr.GetInstance()
 
-	slot4:BlurPanel(slot0._tf, true, {
-		weight = LayerWeightConst.TOP_LAYER
+	slot4:BlurPanel(slot0._tf, {
+		staticBlur = true
 	})
 
 	slot0.frameDic = {}
@@ -264,7 +264,7 @@ slot0.SelectFrame = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	for slot4, slot5 in pairs(slot0.lateFuncDic) do
 		LateUpdateBeat:RemoveListener(slot5)

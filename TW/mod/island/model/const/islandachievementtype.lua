@@ -34,8 +34,9 @@ slot0.NPC_INTERACT = 32
 slot0.FURNITURE = 33
 slot0.BUILDING_DELEGATE_PLUS = 34
 slot0.SHIP_DISPATCH_PLUS = 35
-slot0.NPC_INTERACT_TYPE_TALK = 1
-slot0.NPC_INTERACT_TYPE_HELLO = 2
+slot0.ACTION = 36
+slot0.TAKE_PHOTO = 37
+slot0.DRAW_AWARD = 38
 
 slot0.GetAttrTypes = function()
 	return {
@@ -68,13 +69,14 @@ slot0.GetRuntimeTypes = function()
 		uv0.FINISH_TECH,
 		uv0.FINISH_TYPE_TECH,
 		uv0.RESTAURANT_SALES,
-		uv0.FURNITURE
+		uv0.FURNITURE,
+		uv0.ACTION
 	}
 end
 
 slot0.GetClientTypes = function()
 	return {
-		uv0.NPC_INTERACT
+		uv0.TAKE_PHOTO
 	}
 end
 

@@ -55,26 +55,15 @@ slot0.Ctor = function(slot0, slot1)
 	slot2 = slot1.work_place or {}
 	slot0.state = slot2.type or 0
 	slot0.stateId = slot2.place or 0
-	slot0.currentDressTypeDic = {}
-	slot3 = ipairs
-	slot4 = slot1.currentDressTypeDic or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		slot0.currentDressTypeDic[slot6] = slot7
-	end
-
 	slot0.cur_skin_id = slot1.cur_skin_id
-	slot0.hasOwnDressList = {}
-	slot3 = ipairs
-	slot4 = slot1.dress_list or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot0.hasOwnDressList, IslandShipDressItem.New(slot7))
-	end
 end
 
 slot0.bindConfigTable = function(slot0)
 	return pg.island_chara_template
+end
+
+slot0.GetCantFollowTaskIdList = function(slot0)
+	return slot0:getConfig("in_task")
 end
 
 slot0.GetLevel = function(slot0)
@@ -273,12 +262,17 @@ slot0.GetModelUnit = function(slot0)
 	return slot1
 end
 
+slot0.GetCurrentSkinId = function(slot0)
+	return slot0.cur_skin_id or 0
+end
+
 slot0.GetModel = function(slot0)
 	slot2 = pg.island_unit_character[slot0:GetModelUnit()]
 
 	return {
 		model = slot2.model,
-		animator = slot2.animator
+		animator = slot2.animator,
+		personal_ani = slot2.personal_ani
 	}
 end
 
@@ -315,11 +309,7 @@ slot0.GetShipGroup = function(slot0)
 end
 
 slot0.StaticGetPrefab = function(slot0)
-	if slot0 == IslandCharacterAgency.NPC_CONFIG_ID then
-		return "jiujiu"
-	end
-
-	return pg.ship_skin_template[ShipGroup.getDefaultShipConfig(slot0).skin_id].prefab
+	return pg.island_unit_character[pg.island_chara_template[slot0].unit_id].IslandShipIcon
 end
 
 slot0.UpdateState = function(slot0, slot1, slot2)
@@ -664,76 +654,6 @@ slot0.AddStatus = function(slot0, slot1)
 
 	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShipAddBuff(slot0.id, slot1.id))
 	table.insert(slot0.status, slot1)
-end
-
-slot0.CheckHasOwnDressByDressId = function(slot0, slot1)
-	return slot0.hasOwnDressList[slot1] or false
-end
-
-slot0.GetDressUpData = function(slot0)
-	return slot0.currentDressTypeDic
-end
-
-slot0.GetDressByType = function(slot0, slot1)
-	return slot0.currentDressTypeDic[slot1]
-end
-
-slot0.GetAllOwnDressList = function(slot0)
-	slot3 = {}
-	slot4 = pairs
-	slot5 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetAllOwnDressDic() or {}
-
-	for slot7, slot8 in slot4(slot5) do
-		if slot8.num > 0 and not slot0:CheckHasOwnDressByDressId(slot7) then
-			table.insert(slot3, slot7)
-		end
-	end
-
-	return slot3
-end
-
-slot0.GetALLHasSendToShipDress = function(slot0)
-	slot1 = {}
-	slot2 = ipairs
-	slot3 = slot0.hasOwnDressList or {}
-
-	for slot5, slot6 in slot2(slot3) do
-		table.insert(slot1, slot6.id)
-	end
-
-	return slot1
-end
-
-slot0.GetHasSendToShipDressByType = function(slot0, slot1)
-	slot2 = {}
-	slot3 = pairs
-	slot4 = slot0.hasOwnDressList or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		if pg.island_dress_template[slot7.id].type == slot1 then
-			table.insert(slot2, slot7.id)
-		end
-	end
-
-	return slot2
-end
-
-slot0.SetDressIdOwned = function(slot0, slot1)
-	table.insert(slot0.hasOwnDressList, IslandShipDressItem.New({
-		color = 0,
-		id = slot1,
-		color_list = {}
-	}))
-end
-
-slot0.ChangeDressColor = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.hasOwnDressList) do
-		if slot6.id == slot1.id then
-			slot6:ChangeColor(slot1.color)
-
-			return
-		end
-	end
 end
 
 return slot0

@@ -315,7 +315,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50102
+			50130
 		}
 	},
 	[110] = {
@@ -371,7 +371,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50112
+			50118
 		}
 	},
 	get_id_list_by_name = {

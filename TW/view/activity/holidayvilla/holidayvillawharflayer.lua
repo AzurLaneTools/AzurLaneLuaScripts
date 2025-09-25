@@ -28,7 +28,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_CANCEL)
 	slot0:Show()
 	setActive(slot0.transportCompletePage, false)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.InitData = function(slot0)
@@ -150,7 +150,7 @@ slot0.ShowCompletePage = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0.transportCompletePage, false)
+	slot1:BlurPanel(slot0.transportCompletePage)
 
 	slot2 = slot0.transportCompletePage
 
@@ -169,7 +169,7 @@ slot0.ShowCompletePage = function(slot0)
 	slot1:Play()
 	onButton(slot0, slot0:findTF("bg", slot0.transportCompletePage), function ()
 		setActive(uv0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.transportCompletePage, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.transportCompletePage, uv0._tf)
 
 		if not uv0.hasShowedAwards and #uv0.awards > 0 then
 			uv0.hasShowedAwards = true
@@ -179,7 +179,7 @@ slot0.ShowCompletePage = function(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("desc", slot0.transportCompletePage), function ()
 		setActive(uv0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.transportCompletePage, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.transportCompletePage, uv0._tf)
 
 		if not uv0.hasShowedAwards and #uv0.awards > 0 then
 			uv0.hasShowedAwards = true
@@ -195,13 +195,13 @@ slot0.SetAwardsShow = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.transportCompletePage) then
 		setActive(slot0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.transportCompletePage, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.transportCompletePage, slot0._tf)
 
 		if not slot0.hasShowedAwards and #slot0.awards > 0 then
 			slot0.hasShowedAwards = true

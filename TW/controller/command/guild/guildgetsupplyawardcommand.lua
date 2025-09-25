@@ -8,25 +8,25 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	if not slot4:isOpenedSupply() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_supply_no_open"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_supply_no_open"))
 
 		return
 	end
 
 	if slot4:getSupplyCnt() <= 0 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_supply_award_got"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_supply_award_got"))
 
 		return
 	end
 
 	if not slot4:getMemberById(getProxy(PlayerProxy):getData().id) or slot6:isNewMember() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_new_member_get_award_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_new_member_get_award_tip"))
 
 		return
 	end
 
 	if slot6:IsRecruit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
 
 		return
 	end

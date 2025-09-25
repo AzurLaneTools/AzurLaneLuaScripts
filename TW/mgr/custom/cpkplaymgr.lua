@@ -28,7 +28,7 @@ slot0.OnPlaying = function(slot0)
 	return slot0._onPlaying
 end
 
-slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._onPlaying = true
@@ -36,7 +36,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	slot10 = function()
+	slot9 = function()
 		if uv0.debugTimer then
 			uv0.debugTimer:Stop()
 		end
@@ -59,7 +59,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		uv0._ratioFitter = nil
 	end
 
-	slot11 = function()
+	slot10 = function()
 		onButton(uv0, uv0._mainTF, function ()
 			if uv0 then
 				uv1()
@@ -142,7 +142,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 			uv0._ratioFitter = slot0:GetComponent("AspectRatioFitter")
 			uv0._mainTF = slot0
 
-			pg.UIMgr.GetInstance():OverlayPanel(uv0._mainTF.transform, uv1)
+			pg.UIMgr.GetInstance():OverlayPanel(uv0._mainTF.transform)
 
 			uv0._criUsm = tf(uv0._mainTF):Find("usm"):GetComponent("CriManaEffectUI")
 			uv0._criCpk = tf(uv0._mainTF):Find("usm"):GetComponent("CriManaCpkUI")
@@ -157,10 +157,10 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 				uv0._usmImg.color = Color.New(1, 1, 1, 0.1)
 			end
 
-			uv2()
+			uv1()
 		end)
 	else
-		slot11()
+		slot10()
 	end
 end
 

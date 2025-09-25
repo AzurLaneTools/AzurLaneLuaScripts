@@ -173,11 +173,9 @@ end
 
 slot0.overLayMyself = function(slot0, slot1)
 	if slot1 == true then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	end
 end
 

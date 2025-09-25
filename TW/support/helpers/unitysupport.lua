@@ -22,8 +22,8 @@ findTF = function(slot0, slot1)
 	return tf(slot0):Find(slot1)
 end
 
-Instantiate = function(slot0)
-	return Object.Instantiate(go(slot0))
+Instantiate = function(slot0, ...)
+	return Object.Instantiate(go(slot0), ...)
 end
 
 instantiate = Instantiate
@@ -693,11 +693,11 @@ setImageRaycastTarget = function(slot0, slot1)
 end
 
 getCanvasGroupAlpha = function(slot0)
-	return GetComponent(slot0, typeof(CanvasGroup)).alpha
+	return GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha
 end
 
 setCanvasGroupAlpha = function(slot0, slot1)
-	GetComponent(slot0, typeof(CanvasGroup)).alpha = slot1
+	GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = slot1
 end
 
 setActiveViaLayer = function(slot0, slot1)
@@ -927,4 +927,18 @@ getSceneRootTFDic = function(slot0)
 	end
 
 	return slot1
+end
+
+bindComponent = function(slot0, slot1)
+	if GetComponent(slot1, "ComponentBinding") == nil then
+		return
+	end
+
+	slot3 = slot2.componentList
+	slot5 = slot2.GetComponentValues(slot2)
+	slot6 = slot2.componentList
+
+	for slot10 = 0, slot2.GetLuaNames(slot2).Length - 1 do
+		slot0[slot4[slot10]] = slot5[slot10]
+	end
 end

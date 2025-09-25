@@ -676,7 +676,7 @@ end
 
 slot0.hideEnterBossUI = function(slot0)
 	setActive(slot0.enterBossUI, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.enterBossUI)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.enterBossUI)
 end
 
 slot0.getPosNum = function(slot0, slot1, slot2)

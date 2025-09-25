@@ -576,15 +576,14 @@ end
 
 slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = function(slot0)
+		slot1 = uv0:GetVirtualShip()
+
+		print(slot1:GetSkinConfig().id)
+
 		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
 		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
-			ship = uv0:GetVirtualShip(),
-			offset = {
-				0,
-				0,
-				0,
-				70
-			},
+			ship = slot1,
+			offset = slot1:GetSkinConfig().live2d_offset,
 			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
 			parent = uv1:Find("live2d")
 		}), function (slot0)

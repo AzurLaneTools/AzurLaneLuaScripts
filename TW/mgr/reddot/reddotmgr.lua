@@ -36,6 +36,7 @@ slot0.TYPES = {
 	MAIL = 3,
 	BUILD = 4,
 	SETTTING = 11,
+	ISLAND_3D = 28,
 	COMMISSION = 9,
 	COLLECTION = 7,
 	SCHOOL = 13
@@ -144,7 +145,7 @@ slot0.BindConditions = function(slot0)
 		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "SelectDorm3DMediator") and Dorm3dFurniture.NeedViewTip()
 	end)
 	slot0:BindCondition(uv0.TYPES.DORM3D_SHOP_TIMELIMIT, function ()
-		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "SelectDorm3DMediator") and Dorm3dFurniture.IsOnceTimelimitShopTip()
+		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "SelectDorm3DMediator") and Dorm3dShopUI.ShouldShowAllTip()
 	end)
 	slot0:BindCondition(uv0.TYPES.EDUCATE_NEW_CHILD, function ()
 		return NewEducateHelper.IsShowNewChildTip()
@@ -153,6 +154,9 @@ slot0.BindConditions = function(slot0)
 		slot1, slot2 = TechnologyConst.isTecActOn()
 
 		return getProxy(CommanderManualProxy):ShouldShowTaskOrGuideTip() or slot2
+	end)
+	slot0:BindCondition(uv0.TYPES.ISLAND_3D, function ()
+		return getProxy(SystemTipProxy):IsIslandRedDotTip()
 	end)
 end
 

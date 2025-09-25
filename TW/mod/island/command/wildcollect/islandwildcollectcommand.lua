@@ -12,8 +12,9 @@ slot0.execute = function(slot0, slot1)
 		fragment_id = slot2.fragment_id
 	}, 21530, function (slot0)
 		if slot0.result == 0 then
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandWildCollect(uv0))
-			uv1:DispatchEvent(IslandGatherCollectAgency.RemoveGatherUnit, {
+			uv0:GetWildCollectAgency():AddCollectFragment(uv1)
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandWildCollect(uv1))
+			uv0:DispatchEvent(IslandGatherCollectAgency.RemoveGatherUnit, {
 				unitId = uv2
 			})
 		else

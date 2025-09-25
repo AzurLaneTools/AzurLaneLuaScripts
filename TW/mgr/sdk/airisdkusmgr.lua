@@ -65,7 +65,6 @@ AiriLogin = function(slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
 					content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot6, "%Y-%m-%d %H:%M:%S")),
-					weight = LayerWeightConst.TOP_LAYER,
 					onYes = function ()
 						uv0.AccountReborn()
 					end
@@ -169,7 +168,6 @@ AccountDeleteResult = function(slot0, slot1, slot2, slot3, slot4)
 			modal = true,
 			hideNo = true,
 			content = i18n("box_account_del_success_content", pg.TimeMgr.GetInstance():CTimeDescC(tonumber(string.sub(slot3, 1, string.len(slot3) - 3)), "%Y-%m-%d %H:%M:%S")),
-			weight = LayerWeightConst.TOP_LAYER,
 			onYes = function ()
 				pg.m02:sendNotification(GAME.LOGOUT, {
 					code = 0

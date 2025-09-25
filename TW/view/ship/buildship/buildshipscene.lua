@@ -85,11 +85,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -250,7 +246,7 @@ slot0.willExit = function(slot0)
 	slot0.contextData.helpWindow:Destroy()
 	slot0.poolsPage:Destroy()
 	slot0.supportShipPoolPage:Destroy()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 return slot0

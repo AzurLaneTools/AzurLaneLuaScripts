@@ -57,7 +57,7 @@ slot0.didEnter = function(slot0)
 	slot0:InitView()
 	slot0:UpdateView()
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0.bgm)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.InitData = function(slot0)

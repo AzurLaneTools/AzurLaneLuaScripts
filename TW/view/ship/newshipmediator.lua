@@ -38,8 +38,7 @@ slot0.register = function(slot0)
 			data = {
 				fromNewShip = true,
 				skillOnShip = slot2,
-				skillId = slot1,
-				LayerWeightMgr_weight = uv0.viewComponent:getWeightFromData()
+				skillId = slot1
 			}
 		}))
 	end)
@@ -80,8 +79,7 @@ slot0.handleNotification = function(slot0, slot1)
 			viewComponent = ShipEvaluationLayer,
 			data = {
 				groupId = slot3,
-				showTrans = slot0.showTrans,
-				LayerWeightMgr_weight = slot0.viewComponent:getWeightFromData()
+				showTrans = slot0.showTrans
 			}
 		}))
 	end

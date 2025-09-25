@@ -275,7 +275,7 @@ slot0.OnMapRepairing = function(slot0, slot1)
 	end))
 
 	slot2:setOnComplete(System.Action(function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.encodingPanel, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.encodingPanel, uv0._tf)
 		setActive(uv0.encodingPanel, false)
 		uv1()
 	end))

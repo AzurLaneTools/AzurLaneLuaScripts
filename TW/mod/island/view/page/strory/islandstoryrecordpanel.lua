@@ -21,7 +21,7 @@ end
 slot0.BlurPanel = function(slot0)
 end
 
-slot0.UnblurPanel = function(slot0)
+slot0.UnOverlayPanel = function(slot0)
 end
 
 return slot0

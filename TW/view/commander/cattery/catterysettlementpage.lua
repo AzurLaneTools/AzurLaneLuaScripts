@@ -41,15 +41,12 @@ slot0.Show = function(slot0, slot1)
 	slot0:SetPainting()
 	slot0:UpdateCommanders()
 	slot0:UpdateDialogue()
-
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr._normalUIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 slot0.GetCurrentFlagship = function(slot0)

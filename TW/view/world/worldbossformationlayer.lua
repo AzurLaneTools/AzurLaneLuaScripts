@@ -515,7 +515,7 @@ slot0.willExit = function(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

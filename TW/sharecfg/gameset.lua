@@ -3924,7 +3924,7 @@ pg.gameset = {
 	},
 	shop_banner_capacity = {
 		description = "",
-		key_value = 3
+		key_value = 9
 	},
 	ninja_Param1 = {
 		description = "1.15",

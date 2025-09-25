@@ -33,7 +33,7 @@ slot0.Ctor = function(slot0, slot1)
 	table.insert(slot0.awardList, {
 		id = 0,
 		type = VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT,
-		count = slot1.add_pt
+		count = slot1.add_pt or 0
 	})
 end
 

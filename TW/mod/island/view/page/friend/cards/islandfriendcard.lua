@@ -11,6 +11,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.offlineTxt = slot1.transform:Find("offline/Text"):GetComponent(typeof(Text))
 	slot0.visitBtn = slot1.transform:Find("visit")
 	slot0.moreBtn = slot1.transform:Find("more")
+	slot0.cardBtn = slot1.transform:Find("icon")
 
 	setText(slot0.visitBtn:Find("Text"), i18n("island_btn_label_visit"))
 	setText(slot0.moreBtn:Find("Text"), i18n("island_btn_label_more"))

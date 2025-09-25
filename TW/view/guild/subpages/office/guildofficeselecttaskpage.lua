@@ -34,7 +34,7 @@ slot0.Update = function(slot0)
 			slot3 = GuildTaskCard.New(slot2)
 
 			onButton(uv1, slot3.acceptBtn, function ()
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("guild_task_selecte_tip", uv0:getConfig("name")),
 					onYes = function ()
 						uv0:emit(GuildOfficeMediator.ON_SELECT_TASK, uv1.task.id)
@@ -49,7 +49,7 @@ slot0.Update = function(slot0)
 end
 
 slot0.Close = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 

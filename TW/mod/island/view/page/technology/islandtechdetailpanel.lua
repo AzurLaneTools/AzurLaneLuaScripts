@@ -68,9 +68,17 @@ slot0.OnInit = function(slot0)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.costList[slot1 + 1]
+			slot4 = uv0.inventoryAgency:GetOwnCount(slot3.id)
 
 			updateCustomDrop(slot2, slot3)
-			setText(slot2:Find("icon_bg/count_bg/count"), uv0.inventoryAgency:GetOwnCount(slot3.id) .. "/" .. slot3.count)
+
+			slot5 = slot2:Find("icon_bg/count_bg/count")
+
+			if slot3.id == IslandItem.GOLD_ID then
+				setText(slot5, slot4 < slot3.count and setColorStr(slot3.count, "#FF6767"))
+			else
+				setText(slot5, (slot4 < slot3.count and setColorStr(slot4, "#FF6767") or slot4) .. "/" .. slot3.count)
+			end
 		end
 	end)
 
@@ -148,8 +156,8 @@ slot0.Flush = function(slot0)
 			end, SFX_PANEL)
 		end,
 		[IslandTechnology.STATUS.STUDYING] = function ()
-			onButton(uv0, uv0.statusTFs[uv1]:Find("quick"), function ()
-				pg.TipsMgr.GetInstance():ShowTips("TODO")
+			onButton(uv0, uv0.statusTFs[uv1]:Find("ticket"), function ()
+				existCall(uv0.contextData.openTicketPage, uv0.showTechVO:GetSlotId())
 			end, SFX_PANEL)
 		end,
 		[IslandTechnology.STATUS.RECEIVE] = function ()
@@ -183,11 +191,12 @@ slot0.FlushSelectedItem = function(slot0)
 	slot0.selectedTF.name = slot0.configId
 	slot1 = slot0.techAgency:GetTechnology(slot0.configId)
 
-	setText(slot0.selectedTF:Find("name"), slot1:getConfig("tech_name"))
+	IslandTechTreePanel.SetTechName(slot0.selectedTF:Find("name"), slot1:getConfig("tech_name"))
 
 	slot3 = slot1:GetStatus() == IslandTechnology.STATUS.FINISHED
 
-	setTextColor(slot0.selectedTF:Find("name"), Color.NewHex(slot3 and "1b3650" or "ffffff"))
+	setTextColor(slot0.selectedTF:Find("name/Text"), Color.NewHex(slot3 and "1b3650" or "ffffff"))
+	setTextColor(slot0.selectedTF:Find("name/ScrollText"), Color.NewHex(slot3 and "1b3650" or "ffffff"))
 	LoadImageSpriteAsync("island/IslandTechnology/" .. slot1:getConfig("tech_icon"), slot0.selectedTF:Find("icon"), true)
 	setActive(slot0.selectedTF:Find("icon"), slot2 ~= IslandTechnology.STATUS.STUDYING and slot2 ~= IslandTechnology.STATUS.RECEIVE)
 	setImageColor(slot0.selectedTF:Find("icon"), Color.NewHex(slot3 and "455a81" or "ffffff"))
@@ -208,9 +217,7 @@ slot0.Show = function(slot0, slot1, slot2)
 	slot0.selectedItemPos = slot2
 
 	slot0:Flush()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_ISLAND
-	})
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.OnShipSelected = function(slot0, slot1)
@@ -224,7 +231,7 @@ slot0.UpdateTime = function(slot0)
 		if slot2:GetSlotRewardData() then
 			setText(slot0.timeTextTF, "00:00:00")
 		else
-			setText(slot0.timeTextTF, slot0.timeMgr:DescCDTime(slot2:GetSlotRoleData():GetFinishTime() - slot0.timeMgr:GetServerTime()))
+			setText(slot0.timeTextTF, slot2:GetSlotRoleData():GetFinishTime() - slot0.timeMgr:GetServerTime() > 0 and slot0.timeMgr:DescCDTime(slot5) or "00:00:00")
 		end
 	else
 		setText(slot0.timeTextTF, "??:??:??")
@@ -249,12 +256,12 @@ end
 
 slot0.OnHide = function(slot0)
 	slot0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)
 	slot0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 return slot0

@@ -86,7 +86,7 @@ slot0.didEnter = function(slot0)
 
 	setActive(slot0:findTF("unlock", slot0.endingBtn), slot5)
 	setActive(slot0:findTF("lock", slot0.endingBtn), not slot5)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	slot0:BlurPanel(slot0._tf)
 	EducateGuideSequence.CheckGuide(slot0.__cname, function ()
 	end)
 end
@@ -107,7 +107,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

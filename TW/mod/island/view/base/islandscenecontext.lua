@@ -5,6 +5,28 @@ slot0.Ctor = function(slot0, slot1, ...)
 	slot0.args = packEx(...)
 	slot0.subpages = {}
 	slot0.__visible = true
+	slot0.__openPrevWhenClose = true
+	slot0.__delRecordWhenClose = true
+end
+
+slot0.DisabelOpenPrevWhenClose = function(slot0)
+	slot0.__openPrevWhenClose = false
+end
+
+slot0.DisabelDelRecordWhenClose = function(slot0)
+	slot0.__delRecordWhenClose = false
+end
+
+slot0.GetDelRecordWhenClose = function(slot0)
+	slot0.__delRecordWhenClose = true
+
+	return slot0.__delRecordWhenClose
+end
+
+slot0.GetOpenPrevWhenClose = function(slot0)
+	slot0.__openPrevWhenClose = true
+
+	return slot0.__openPrevWhenClose
 end
 
 slot0.AddSubPage = function(slot0, slot1, ...)

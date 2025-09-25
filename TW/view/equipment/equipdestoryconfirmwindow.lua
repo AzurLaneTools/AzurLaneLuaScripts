@@ -54,7 +54,7 @@ end
 slot0.Confirm = function(slot0)
 	if slot0.key then
 		if slot0.key ~= tonumber(getInputText(slot0.urInput)) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("destory_ship_input_erro"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("destory_ship_input_erro"))
 
 			return
 		end
@@ -163,7 +163,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	slot0.key = nil
 	slot0.callback = nil

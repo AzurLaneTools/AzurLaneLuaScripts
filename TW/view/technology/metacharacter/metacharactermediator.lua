@@ -38,7 +38,7 @@ slot0.register = function(slot0)
 			mediator = MetaCharacterRepairMediator,
 			data = {
 				shipID = slot1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META
+				groupName = uv0.viewComponent:getGroupName()
 			},
 			onRemoved = function ()
 				uv0.viewComponent:enterMenuPage(false)
@@ -59,7 +59,7 @@ slot0.register = function(slot0)
 			mediator = MetaCharacterEnergyMediator,
 			data = {
 				shipID = slot1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = uv0.viewComponent:getGroupName(),
 				isMainOpen = uv0.viewComponent.isMainOpenLayerTag and true or nil
 			},
 			onRemoved = function ()
@@ -81,7 +81,7 @@ slot0.register = function(slot0)
 			mediator = MetaCharacterTacticsMediator,
 			data = {
 				shipID = slot1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = uv0.viewComponent:getGroupName(),
 				isMainOpen = uv0.viewComponent.isMainOpenLayerTag and true or nil
 			},
 			onRemoved = function ()
@@ -108,7 +108,7 @@ slot0.register = function(slot0)
 			mediator = MetaCharacterSynMediator,
 			data = {
 				shipID = slot1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = uv0.viewComponent:getGroupName(),
 				isMainOpen = uv0.viewComponent.isMainOpenLayerTag and true or nil
 			},
 			onRemoved = function ()

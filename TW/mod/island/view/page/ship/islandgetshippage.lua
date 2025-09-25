@@ -125,7 +125,7 @@ slot0.PlayAnimation = function(slot0)
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return GetOrAddComponent(slot0:findTF("main/event"), typeof(SmoothRotateObject))
+	return slot0:findTF("main/event")
 end
 
 slot0.UpdateChat = function(slot0, slot1)

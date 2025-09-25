@@ -11,11 +11,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.ResUISettings = function(slot0)
-	return {
-		anim = true,
-		showType = PlayerResUI.TYPE_ALL,
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	}
+	return true
 end
 
 slot0.preload = function(slot0, slot1)
@@ -31,11 +27,7 @@ slot0.preload = function(slot0, slot1)
 				return
 			end
 
-			if not PoolMgr.GetInstance():HasCacheUI("ShipDetailView") then
-				slot1:PreloadUI(slot2, slot0)
-			else
-				slot0()
-			end
+			PoolMgr.GetInstance():PreloadUI("ShipDetailView", slot0)
 		end
 	}, slot1)
 end
@@ -245,23 +237,15 @@ slot0.initPages = function(slot0)
 	setActive(slot0.background, true)
 
 	slot0.main = slot0:findTF("main")
-	slot1 = slot0.main
-	slot0.mainMask = slot1:GetComponent(typeof(RectMask2D))
+	slot0.mainMask = slot0.main:GetComponent(typeof(RectMask2D))
 	slot0.toggles = slot0:findTF("left_length/frame/root", slot0.common)
-	slot1 = slot0.toggles
-	slot0.detailToggle = slot1:Find("detail_toggle")
-	slot1 = slot0.toggles
-	slot0.equipmentToggle = slot1:Find("equpiment_toggle")
-	slot1 = slot0.toggles
-	slot0.intensifyToggle = slot1:Find("intensify_toggle")
-	slot1 = slot0.toggles
-	slot0.upgradeToggle = slot1:Find("upgrade_toggle")
-	slot1 = slot0.toggles
-	slot0.remouldToggle = slot1:Find("remould_toggle")
-	slot1 = slot0.toggles
-	slot0.technologyToggle = slot1:Find("technology_toggle")
-	slot1 = slot0.toggles
-	slot0.metaToggle = slot1:Find("meta_toggle")
+	slot0.detailToggle = slot0.toggles:Find("detail_toggle")
+	slot0.equipmentToggle = slot0.toggles:Find("equpiment_toggle")
+	slot0.intensifyToggle = slot0.toggles:Find("intensify_toggle")
+	slot0.upgradeToggle = slot0.toggles:Find("upgrade_toggle")
+	slot0.remouldToggle = slot0.toggles:Find("remould_toggle")
+	slot0.technologyToggle = slot0.toggles:Find("technology_toggle")
+	slot0.metaToggle = slot0.toggles:Find("meta_toggle")
 	slot0.togglesList = {
 		[ShipViewConst.PAGE.DETAIL] = slot0.detailToggle,
 		[ShipViewConst.PAGE.EQUIPMENT] = slot0.equipmentToggle,
@@ -269,28 +253,22 @@ slot0.initPages = function(slot0)
 		[ShipViewConst.PAGE.UPGRADE] = slot0.upgradeToggle,
 		[ShipViewConst.PAGE.REMOULD] = slot0.remouldToggle
 	}
-	slot1 = slot0.main
-	slot0.detailContainer = slot1:Find("detail_container")
+	slot0.detailContainer = slot0.main:Find("detail_container")
 
 	setAnchoredPosition(slot0.detailContainer, {
 		x = 1300
 	})
 
-	slot1 = slot0.main
-	slot0.fashionContainer = slot1:Find("fashion_container")
+	slot0.fashionContainer = slot0.main:Find("fashion_container")
 
 	setAnchoredPosition(slot0.fashionContainer, {
 		x = 900
 	})
 
-	slot1 = slot0.main
-	slot0.equipContainer = slot1:Find("equip_container")
-	slot1 = slot0.equipContainer
-	slot0.equipLCon = slot1:Find("equipment_l_container")
-	slot1 = slot0.equipContainer
-	slot0.equipRCon = slot1:Find("equipment_r_container")
-	slot1 = slot0.equipContainer
-	slot0.equipBCon = slot1:Find("equipment_b_container")
+	slot0.equipContainer = slot0.main:Find("equip_container")
+	slot0.equipLCon = slot0.equipContainer:Find("equipment_l_container")
+	slot0.equipRCon = slot0.equipContainer:Find("equipment_r_container")
+	slot0.equipBCon = slot0.equipContainer:Find("equipment_b_container")
 
 	setAnchoredPosition(slot0.equipRCon, {
 		x = 750
@@ -308,7 +286,21 @@ slot0.initPages = function(slot0)
 	slot0.shipHuntingRangeView = ShipHuntingRangeView.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.shipCustomMsgBox = ShipCustomMsgBox.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.shipChangeNameView = ShipChangeNameView.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.expItemUsagePage = ShipExpItemUsagePage.New(slot0._tf, slot0.event, slot0.contextData)
+	slot4 = slot0.contextData
+	slot0.expItemUsagePage = ShipExpItemUsagePage.New(slot0._tf, slot0.event, slot4)
+
+	for slot4, slot5 in ipairs({
+		slot0.shipDetailView,
+		slot0.shipFashionView,
+		slot0.shipEquipView,
+		slot0.shipHuntingRangeView,
+		slot0.shipCustomMsgBox,
+		slot0.shipChangeNameView,
+		slot0.expItemUsagePage
+	}) do
+		slot5:RegisterView(slot0)
+	end
+
 	slot0.viewList = {
 		[ShipViewConst.PAGE.DETAIL] = slot0.shipDetailView,
 		[ShipViewConst.PAGE.FASHION] = slot0.shipFashionView,
@@ -352,7 +344,7 @@ slot0.initEvents = function(slot0)
 	slot0:bind(ShipViewConst.SET_CLICK_ENABLE, function (slot0, slot1)
 		uv0.mainCanvasGroup.blocksRaycasts = slot1
 		uv0.commonCanvasGroup.blocksRaycasts = slot1
-		GetComponent(uv0.detailContainer, "CanvasGroup").blocksRaycasts = slot1
+		GetOrAddComponent(uv0.detailContainer, "CanvasGroup").blocksRaycasts = slot1
 	end)
 	slot0:bind(ShipViewConst.SHOW_CUSTOM_MSG, function (slot0, slot1)
 		uv0.shipCustomMsgBox:Load()
@@ -449,12 +441,10 @@ slot0.didEnter = function(slot0)
 		uv0:showEnergyDesc()
 		getProxy(CommanderManualProxy):TaskProgressAdd(2022, 1)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	slot0:OverlayPanel(slot0.chat, {
+		groupDelta = 1
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
 	slot0:gotoPage(slot0:checkToggleActive(slot0.contextData.page) and slot0.contextData.page or ShipViewConst.PAGE.DETAIL)
 
 	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL then
@@ -469,38 +459,32 @@ slot0.openHelpPage = function(slot0, slot1)
 	if slot1 == ShipViewConst.PAGE.EQUIPMENT then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_equip.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_equip.tip
 		})
 	elseif slot1 == ShipViewConst.PAGE.DETAIL then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_detail.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_detail.tip
 		})
 	elseif slot1 == ShipViewConst.PAGE.INTENSIFY then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_intensify.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_intensify.tip
 		})
 	elseif slot1 == ShipViewConst.PAGE.UPGRADE then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_upgrate.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_upgrate.tip
 		})
 	elseif slot1 == ShipViewConst.PAGE.FASHION then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_fashion.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_fashion.tip
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_maxlevel.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_maxlevel.tip
 		})
 	end
 end
@@ -517,13 +501,11 @@ slot0.showAwakenCompleteAni = function(slot0, slot1)
 
 		slot0 = tf(uv0.awakenAni)
 
-		pg.UIMgr.GetInstance():BlurPanel(slot0, false, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(slot0)
 		setText(uv0:findTF("window/desc", uv0.awakenAni), uv1)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			uv0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv1, uv0.common)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv1, uv0.common)
 			uv0.awakenAni:SetActive(false)
 
 			uv0.awakenPlay = false
@@ -664,8 +646,6 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 
 		slot0.chat.localPosition = Vector3(slot0.character.localPosition.x + 100, slot0.chat.localPosition.y, 0)
 		slot3 = slot0.shipVO:getCVIntimacy()
-
-		slot0.chat:SetAsLastSibling()
 
 		if findTF(slot0.nowPainting, "fitter").childCount > 0 then
 			ShipExpressionHelper.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
@@ -920,8 +900,6 @@ slot0.switchToPage = function(slot0, slot1, slot2)
 end
 
 slot0.blurPage = function(slot0, slot1, slot2)
-	slot3 = pg.UIMgr.GetInstance()
-
 	if slot1 == ShipViewConst.PAGE.DETAIL then
 		slot0.shipDetailView:ActionInvoke("OnSelected", slot2)
 	elseif slot1 == ShipViewConst.PAGE.EQUIPMENT then
@@ -1421,7 +1399,7 @@ end
 slot0.willExit = function(slot0)
 	Input.multiTouchEnabled = true
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.chat, slot0.character)
+	slot0:UnOverlayPanel(slot0.chat, slot0.character)
 	slot0:blurPage(ShipViewConst.currentPage)
 	setActive(slot0.background, false)
 
@@ -1474,7 +1452,7 @@ slot0.willExit = function(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.shareData = nil
 end

@@ -40,8 +40,7 @@ slot0.findUI = function(slot0)
 		if pg.gametip.pray_build_help then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.pray_build_help.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.pray_build_help.tip
 			})
 		end
 	end)

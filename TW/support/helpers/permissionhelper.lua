@@ -24,17 +24,9 @@ slot0.RequestCamera = function(slot0, slot1)
 		end
 
 		YSNormalTool.PermissionTool.RequestMultiPermission(slot2, function (slot0, slot1)
-			slot2 = true
-
-			for slot7 = 0, slot1.Length - 1 do
-				if slot1[slot7] ~= uv0.StateGranted then
-					slot2 = false
-
-					break
-				end
-			end
-
-			if slot2 then
+			if underscore.all(slot1:ToTable(), function (slot0)
+				return slot0 == uv0.StateGranted
+			end) then
 				if uv1 then
 					uv1()
 				end
@@ -58,17 +50,9 @@ slot0.Request3DDorm = function(slot0, slot1)
 		end
 
 		YSNormalTool.PermissionTool.RequestMultiPermission(slot2, function (slot0, slot1)
-			slot2 = true
-
-			for slot7 = 0, slot1.Length - 1 do
-				if slot1[slot7] ~= uv0.StateGranted then
-					slot2 = false
-
-					break
-				end
-			end
-
-			if slot2 then
+			if underscore.all(slot1:ToTable(), function (slot0)
+				return slot0 == uv0.StateGranted
+			end) then
 				if uv1 then
 					uv1()
 				end

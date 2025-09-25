@@ -75,8 +75,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot3:Find("Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.fighterplane_help.tip,
-			weight = LayerWeightConst.SECOND_LAYER
+			helps = pg.gametip.fighterplane_help.tip
 		})
 	end, SFX_PANEL)
 
@@ -94,8 +93,7 @@ slot0.didEnter = function(slot0)
 		if uv0.activity:GetPerLevelProgress() <= uv0:GetFighterData(uv0.contextData.index) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fighterplane_complete_tip"),
-				onYes = slot2,
-				weight = LayerWeightConst.SECOND_LAYER
+				onYes = slot2
 			})
 		else
 			slot2()

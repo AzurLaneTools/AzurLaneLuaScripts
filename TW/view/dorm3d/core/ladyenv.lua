@@ -67,7 +67,6 @@ slot0.InitCharacter = function(slot0, slot1)
 		table.insert(uv0.ladyTouchColliders, slot2)
 		setActive(slot2, false)
 	end)
-	slot0:Func("HXCharacter", slot0.lady)
 
 	slot0.clothComps = {}
 	slot0.ladyClothCompSettings = {}
@@ -346,6 +345,10 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3)
 			uv0.nowState = uv1
 			uv0.stateCallback = slot0
 
+			if IsUnityEditor and not uv0.ladyAnimator:HasState(uv0.ladyAnimBaseLayerIndex, Animator.StringToHash(uv1)) then
+				errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", uv1)
+			end
+
 			uv0.ladyAnimator:CrossFadeInFixedTime(uv1, uv2, uv0.ladyAnimBaseLayerIndex)
 		end,
 		function (slot0)
@@ -363,6 +366,10 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.PlayFaceAnim = function(slot0, slot1, slot2)
+	if IsUnityEditor and not slot0.ladyAnimator:HasState(slot0.ladyAnimFaceLayerIndex, Animator.StringToHash(slot1)) then
+		errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", slot1)
+	end
+
 	slot0.ladyAnimator:CrossFadeInFixedTime(slot1, 0, slot0.ladyAnimFaceLayerIndex)
 	existCall(slot2)
 end

@@ -12,9 +12,7 @@ slot0.init = function(slot0)
 	slot0.qCharaContain = slot0:findTF("right_panel/top/q_chara")
 	slot0._chat = slot0:findTF("chat", slot0.paintContain)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._bg = slot0:findTF("bg", slot0._shake)
@@ -274,7 +272,7 @@ slot0.willExit = function(slot0)
 		slot0.loadedCVBankName = nil
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

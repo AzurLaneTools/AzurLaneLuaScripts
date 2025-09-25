@@ -1,4 +1,6 @@
 slot0 = class("IslandMediator", import(".base.IslandBaseMediator"))
+slot0.CHANGE_SCENE = "IslandMediator:CHANGE_SCENE"
+slot0.SHOPPING = "IslandMediator:SHOPPING"
 slot0.SET_NAME = "IslandMediator:SET_NAME"
 slot0.ON_EDIT_MANIFESTO = "IslandMediator:ON_EDIT_MANIFESTO"
 slot0.GET_PROSPERITY_AWARD = "IslandMediator:GET_PROSPERITY_AWARD"
@@ -21,14 +23,16 @@ slot0.ON_GET_SEASON_PT_AWARD = "IslandMediator.ON_GET_SEASON_PT_AWARD"
 slot0.OPEN_RESTAURANT = "IslandMediator.OPEN_RESTAURANT"
 slot0.CLOSE_RESTAURANT = "IslandMediator.CLOSE_RESTAURANT"
 slot0.GET_ACHIEVEMENT_AWARD = "IslandMediator.GET_ACHIEVEMENT_AWARD"
+slot0.SET_SETTINGS_FLAG = "IslandMediator.SET_SETTINGS_FLAG"
+slot0.UPDATE_ILLUSTRATION = "IslandMediator.UPDATE_ILLUSTRATION"
+slot0.UNLOCK_ILLUSTRATION = "IslandMediator.UNLOCK_ILLUSTRATION"
+slot0.GET_COLLECT_POINT = "IslandMediator.GET_COLLECT_POINT"
+slot0.GET_POINT_AWARD = "IslandMediator.GET_POINT_AWARD"
+slot0.REMOVE_EXPIRED_TICKETS = "IslandMediator.REMOVE_EXPIRED_TICKETS"
+slot0.USE_TICKETS = "IslandMediator.USE_TICKETS"
 slot0.OPEN_SHIP_INDEX = "IslandMediator:OPEN_SHIP_INDEX"
 slot0.UPGRADE_SKILL = "IslandMediator:UPGRADE_SKILL"
 slot0.ON_GIVE_GIFT = "IslandMediator:ON_GIVE_GIFT"
-slot0.ON_UNLOCK_BUILDING = "IslandMediator:ON_UNLOCK_BUILDING"
-slot0.ON_UPGRADE_BUILDING = "IslandMediator:ON_UPGRADE_BUILDING"
-slot0.ON_GET_COMMISSION_AWARD = "IslandMediator:ON_GET_COMMISSION_AWARD"
-slot0.ON_CHANGE_COMMISSION_FORMULA = "IslandMediator:ON_CHANGE_COMMISSION_FORMULA"
-slot0.ON_CHANGE_COMMISSION_SHIP = "IslandMediator:ON_CHANGE_COMMISSION_SHIP"
 slot0.ON_KICK_PLAYER = "IslandMediator:ON_KICK_PLAYER"
 slot0.SAVE_AGORA = "IslandMediator:SAVE_AGORA"
 slot0.SAVE_AGORA_THEME = "IslandMediator:SAVE_AGORA_THEME"
@@ -54,9 +58,9 @@ slot0.SHIP_ATTR_UPGRADE = "IslandMediator:SHIP_ATTR_UPGRADE"
 slot0.SHIP_ATTR_LIMIT_UNLOCK = "IslandMediator:SHIP_ATTR_LIMIT_UNLOCK"
 slot0.SHIP_SKILL_UPGRADE = "IslandMediator:SHIP_SKILL_UPGRADE"
 slot0.START_DELEGATION = "IslandMediator:START_DELEGATION"
+slot0.ADD_DELEGATION = "IslandMediator:ADD_DELEGATION"
 slot0.STOP_DELEGATION = "IslandMediator:STOP_DELEGATION"
 slot0.GET_DELEGATION_AWARD = "IslandMediator:GET_DELEGATION_AWARD"
-slot0.USE_SPEEDUPCARD = "IslandMediator:USE_SPEEDUPCARD"
 slot0.SIGNIN = "IslandMediator.SIGNIN"
 slot0.SELECT_GIFT = "IslandMediator.SELECT_GIFT"
 slot0.SIGN_IN_INVITATION = "IslandMediator.SIGN_IN_INVITATION"
@@ -80,8 +84,33 @@ slot0.GET_THEMES = "IslandMediator:GET_THEMES"
 slot0.PREVIEW_FURNITURE = "IslandMediator:PREVIEW_FURNITURE"
 slot0.REFUSE_REQUEST = "IslandMediator:REFUSE_REQUEST"
 slot0.ACCEPT_REQUEST = "IslandMediator:ACCEPT_REQUEST"
+slot0.NPC_ACTION_AWARD = "IslandMediator:NPC_ACTION_AWARD"
+slot0.ADD_FOLLOWER = "IslandMediator:ADD_FOLLOWER"
+slot0.DEL_FOLLOWER = "IslandMediator:DEL_FOLLOWER"
+slot0.DRAW_AWARD_OPERATION = "IslandMediator.DRAW_AWARD_OPERATION"
 
 slot0._register = function(slot0)
+	slot0:bind(uv0.CHANGE_SCENE, function (slot0, slot1, ...)
+		uv0:sendNotification(GAME.CHANGE_SCENE, slot1, ...)
+	end)
+	slot0:bind(uv0.ADD_FOLLOWER, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_FOLLOWER_OP, {
+			shipId = slot1,
+			op = IslandConst.FOLLOWER_OP_ADD
+		})
+	end)
+	slot0:bind(uv0.DEL_FOLLOWER, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_FOLLOWER_OP, {
+			shipId = slot1,
+			op = IslandConst.FOLLOWER_OP_DEL
+		})
+	end)
+	slot0:bind(uv0.NPC_ACTION_AWARD, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ISLAND_GET_NPC_ACTION_AWARD, {
+			npcId = slot1,
+			actionId = slot2
+		})
+	end)
 	slot0:bind(uv0.ACCEPT_REQUEST, function (slot0, slot1)
 		uv0:sendNotification(GAME.FRIEND_ACCEPT_REQUEST, slot1)
 	end)
@@ -254,7 +283,7 @@ slot0._register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.OPEN_PAGE, function (slot0, slot1, slot2)
-		uv0.viewComponent:OpenPage(_G[slot1], slot2 and unpack(slot2))
+		uv0.viewComponent:OpenPage(_G[slot1], unpack(slot2 or {}))
 	end)
 	slot0:bind(uv0.UNLOKC_SHIP_ORDER, function (slot0, slot1)
 		uv0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
@@ -446,9 +475,10 @@ slot0._register = function(slot0)
 			commodities = slot1.commodities
 		})
 	end)
-	slot0:bind(uv0.CLOSE_RESTAURANT, function (slot0, slot1)
+	slot0:bind(uv0.CLOSE_RESTAURANT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ISLAND_CLOSE_RESTAURANT, {
-			restId = slot1
+			restId = slot1,
+			isPost = slot2
 		})
 	end)
 	slot0:bind(uv0.GET_ACHIEVEMENT_AWARD, function (slot0, slot1)
@@ -456,36 +486,43 @@ slot0._register = function(slot0)
 			ids = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_UNLOCK_BUILDING, function (slot0, slot1)
-		uv0:sendNotification(GAME.ISLAND_UNLOCK_BUILDING, {
-			buildingId = slot1
+	slot0:bind(uv0.SET_SETTINGS_FLAG, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_SETTING_FLAG, {
+			flags = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_UPGRADE_BUILDING, function (slot0, slot1)
-		uv0:sendNotification(GAME.ISLAND_UPGRADE_BUILDING, {
-			buildingId = slot1
+	slot0:bind(uv0.UPDATE_ILLUSTRATION, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ISLAND_UPDATE_ILLUSTRATION, {
+			type = slot1,
+			linkId = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_GET_COMMISSION_AWARD, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.ISLAND_GET_COMMISSION_AWARD, {
-			buildingId = slot1,
-			commissionId = slot2
+	slot0:bind(uv0.UNLOCK_ILLUSTRATION, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_UNLOCK_ILLUSTRATION, {
+			id = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_CHANGE_COMMISSION_FORMULA, function (slot0, slot1)
-		uv0:sendNotification(GAME.ISLAND_CHANGE_COMMISSION_FORMULA, {
-			buildingId = slot1.buildingId,
-			commissionId = slot1.commissionId,
-			formulaId = slot1.formulaId,
-			callback = slot1.callback
+	slot0:bind(uv0.GET_COLLECT_POINT, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_GET_COLLECT_POINT, {
+			ids = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_CHANGE_COMMISSION_SHIP, function (slot0, slot1)
-		uv0:sendNotification(GAME.ISLAND_CHANGE_COMMISSION_SHIP, {
-			buildingId = slot1.buildingId,
-			commissionId = slot1.commissionId,
-			shipId = slot1.shipId,
-			callback = slot1.callback
+	slot0:bind(uv0.GET_POINT_AWARD, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_GET_POINT_AWARD, {
+			id = slot1
+		})
+	end)
+	slot0:bind(uv0.REMOVE_EXPIRED_TICKETS, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ISLAND_REMOVE_EXPIRED_TICKET, {
+			tickets = slot1,
+			callback = slot2
+		})
+	end)
+	slot0:bind(uv0.USE_TICKETS, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_USE_TICKET, {
+			type = slot1,
+			id = slot2,
+			tickets = slot3
 		})
 	end)
 	slot0:bind(uv0.ON_UNLOCK_TECH, function (slot0, slot1)
@@ -508,26 +545,26 @@ slot0._register = function(slot0)
 			num = slot5
 		})
 	end)
+	slot0:bind(uv0.ADD_DELEGATION, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.ISLAND_ADD_DELEGATION, {
+			build_id = slot1,
+			area_id = slot2,
+			add_num = slot3
+		})
+	end)
 	slot0:bind(uv0.STOP_DELEGATION, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.ISLAND_FINISH_DELEGATION, {
 			build_id = slot1,
 			area_id = slot2
 		})
 	end)
-	slot0:bind(uv0.GET_DELEGATION_AWARD, function (slot0, slot1, slot2, slot3, slot4)
+	slot0:bind(uv0.GET_DELEGATION_AWARD, function (slot0, slot1, slot2, slot3, slot4, slot5)
 		uv0:sendNotification(GAME.ISLAND_GET_DELEGATION_AWARD, {
 			build_id = slot1,
 			area_id = slot2,
 			type = slot3,
-			callback = slot4
-		})
-	end)
-	slot0:bind(uv0.USE_SPEEDUPCARD, function (slot0, slot1, slot2, slot3, slot4)
-		uv0:sendNotification(GAME.ISLAND_USESPEEDUPCARD, {
-			build_id = slot1,
-			area_id = slot2,
-			item_id = slot3,
-			num = slot4
+			callback = slot4,
+			isPost = slot5
 		})
 	end)
 	slot0:bind(uv0.GET_SHOP_DATA, function (slot0, slot1, slot2)
@@ -550,6 +587,15 @@ slot0._register = function(slot0)
 			resource = slot2
 		})
 	end)
+	slot0:bind(uv0.DRAW_AWARD_OPERATION, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACTIVITY_DRAW_AWARD_OPERATION, slot1)
+	end)
+	slot0:bind(uv0.SHOPPING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHOPPING, {
+			id = slot1,
+			count = slot2
+		})
+	end)
 end
 
 slot0._listNotificationInterests = function(slot0)
@@ -569,6 +615,13 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE,
 		GAME.ISLAND_SET_TRACE_TASK_DONE,
 		GAME.ISLAND_GET_ACHV_AWARD_DONE,
+		GAME.ISLAND_SETTING_FLAG_DONE,
+		GAME.ISLAND_UPDATE_ILLUSTRATION_DONE,
+		GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE,
+		GAME.ISLAND_GET_COLLECT_POINT_DONE,
+		GAME.ISLAND_GET_POINT_AWARD_DONE,
+		GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE,
+		GAME.ISLAND_USE_TICKET_DONE,
 		GAME.ISLAND_RESET_SEASON_DONE,
 		GAME.ISLAND_GET_SEASON_PT_AWARD_DONE,
 		GAME.ISLAND_CONVERT_SEASON_PT_DONE,
@@ -585,7 +638,6 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_START_DELEGATION_DONE,
 		GAME.ISLAND_GET_DELEGATION_AWARD_DONE,
 		GAME.ISLAND_FINISH_DELEGATION_DONE,
-		GAME.ISLAND_USESPEEDUPCARD_DONE,
 		GAME.ISLAND_USE_SHIP_EXP_BOOK_DONE,
 		GAME.ISLAND_SHIP_BREAKOUT_DONE,
 		GAME.ISLNAD_SHIP_ATTR_UPGRADE_DONE,
@@ -600,25 +652,33 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_QUEUE_UP,
 		GAME.ISLAND_ACCESS_OP_DONE,
 		GAME.FRIEND_DELETE_DONE,
+		GAME.FRIEND_SEND_REQUEST_DONE,
 		GAME.ISLAND_SIGN_SHARE_SIGNIN_DONE,
 		GAME.ISLAND_SIGN_IN_DONE,
+		GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE,
+		GAME.ISLAND_FOLLOWER_OP_DONE,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		PlayerProxy.UPDATED,
 		GAME.ISLAND_SHOP_OP_DONE,
 		GAME.ISLAND_DROPMAIN_AWARD,
 		GAME.ISLAND_CHANGE_COMMANDER_DRESS_DONE,
-		GAME.ISLAND_SEND_ROLE_DRESS_DONE,
+		GAME.ISLAND_CHANGE_ROLE_DRESS_DONE,
 		GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE,
+		GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE,
 		GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE,
-		GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE
+		GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE,
+		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
+		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
+		ActivityProxy.ACTIVITY_UPDATED,
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE
 	}
 end
 
 slot0._handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE then
+	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
@@ -708,9 +768,20 @@ slot0._handleNotification = function(slot0, slot1)
 		}, function ()
 			uv0.viewComponent:ShowMsgbox({
 				type = IslandMsgBox.TYPE_SEASON_RESET,
-				body = uv1
+				body = uv1,
+				onHide = uv1.callback
 			})
 		end)
+	elseif slot2 == GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE then
+		slot0.viewComponent:ShowMsgbox({
+			hideNo = true,
+			type = IslandMsgBox.TYPE_TICKET_EXPIRED,
+			body = {
+				type = IslandTicketExpiredMsgBoxWindow.TYPES.EXPIRED,
+				tickets = slot3.tickets
+			},
+			onHide = slot3.callback
+		})
 	elseif slot2 == GAME.ISLAND_CLOSE_RESTAURANT_DONE then
 		seriesAsync({
 			function (slot0)

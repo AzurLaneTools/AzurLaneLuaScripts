@@ -86,6 +86,7 @@ slot0.confirm = function(slot0, slot1)
 
 			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
+				commodity = slot1,
 				infoTip = slot1:GetInfoTip(),
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
@@ -112,6 +113,7 @@ slot0.confirm = function(slot0, slot1)
 
 			slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_BOX, {
 				isChargeType = true,
+				commodity = slot1,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
 				price = slot1:getConfig("money"),
@@ -141,9 +143,10 @@ slot0.confirm = function(slot0, slot1)
 		end
 
 		slot0:emit(NewShopMainMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isChargeType = false,
 			isLocalPrice = false,
+			isChargeType = false,
 			isMonthCard = false,
+			commodity = slot1,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),

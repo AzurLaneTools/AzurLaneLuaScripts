@@ -10,9 +10,7 @@ slot0.setItems = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.finishPanel = slot0:findTF("finish_panel")
@@ -336,7 +334,7 @@ slot0.upgradeFinish = function(slot0, slot1, slot2)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

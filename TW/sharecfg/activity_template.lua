@@ -32922,7 +32922,8 @@ pg.activity_template = {
 			24348,
 			24349,
 			24350,
-			24464
+			24464,
+			24466
 		},
 		time = {
 			"timer",
@@ -33049,7 +33050,7 @@ pg.activity_template = {
 			ui_name = "TianYuTianYuanMainPage"
 		},
 		config_client = {
-			task_id = 24464,
+			task_id = 24466,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 543
 		}
@@ -33104,7 +33105,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
-			task_id = 24464
+			task_id = 24466
 		}
 	},
 	[50116] = {
@@ -34285,6 +34286,48 @@ pg.activity_template = {
 				}
 			},
 			822
+		}
+	},
+	[50139] = {
+		mark = 20250925,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50139,
+		page_core = "",
+		config_data = {
+			24465
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7104] = {
@@ -74287,6 +74330,59 @@ pg.activity_template = {
 			ui_name = "CrusingDisplayActPage22"
 		}
 	},
+	[45922] = {
+		mark = 20250925,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 45922,
+		page_core = "",
+		config_data = {
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage23"
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			40030,
@@ -74657,6 +74753,7 @@ pg.activity_template = {
 			50134,
 			50136,
 			50137,
+			50139,
 			1079,
 			1080,
 			1081,
@@ -76505,7 +76602,8 @@ pg.activity_template = {
 			45918,
 			45919,
 			45920,
-			45921
+			45921,
+			45922
 		}
 	},
 	all = {
@@ -77350,6 +77448,7 @@ pg.activity_template = {
 		50136,
 		50137,
 		50138,
+		50139,
 		7104,
 		7501,
 		8009,
@@ -78513,6 +78612,7 @@ pg.activity_template = {
 		45918,
 		45919,
 		45920,
-		45921
+		45921,
+		45922
 	}
 }

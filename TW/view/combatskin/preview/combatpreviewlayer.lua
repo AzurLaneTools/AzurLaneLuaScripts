@@ -8,16 +8,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-	slot0.OverlayMain = slot0.UIMgr.OverlayMain
+	slot0.OverlayMain = pg.UIMgr.GetInstance().OverlayMain
 
 	setParent(slot0._go, slot0.OverlayMain)
 
-	slot1 = slot0.UIMgr
+	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	slot1:BlurPanel(slot0._tf)
 
 	slot0.preview = slot0:findTF("preview")
 	slot0.uiLayer = slot0:findTF("preview/ui")
@@ -108,7 +105,7 @@ slot0.Show = function(slot0, slot1, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.previewer then
 		slot0.previewer:clear()

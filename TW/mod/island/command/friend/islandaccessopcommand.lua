@@ -61,7 +61,8 @@ slot0.execute = function(slot0, slot1)
 		end
 	}, function ()
 		uv0:sendNotification(GAME.ISLAND_ACCESS_OP_DONE, {
-			op = uv1
+			op = uv1,
+			clientOp = uv2.op
 		})
 	end)
 end

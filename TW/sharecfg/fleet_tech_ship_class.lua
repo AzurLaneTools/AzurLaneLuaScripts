@@ -3788,6 +3788,17 @@ pg.fleet_tech_ship_class = {
 			970106
 		}
 	},
+	[970107] = {
+		shiptype = 1,
+		name = "格倫維爾·META",
+		t_level = 3,
+		id = 970107,
+		t_level_1 = 16,
+		nation = 97,
+		ships = {
+			970107
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "海倫娜·META",
@@ -4533,6 +4544,7 @@ pg.fleet_tech_ship_class = {
 		970104,
 		970105,
 		970106,
+		970107,
 		970201,
 		970202,
 		970203,

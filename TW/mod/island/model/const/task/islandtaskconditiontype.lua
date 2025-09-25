@@ -3,7 +3,6 @@ slot0.GOT_ACHIEVEMENT = 1
 slot0.FINISH_TASK = 2
 slot0.EXIST_ABILITY = 3
 slot0.MUTEX_TASK = 4
-slot0.IN_TIME = 5
 slot0.EXIST_ANY_ITEM = 6
 slot0.EXIST_ALL_ITEM = 7
 slot0.EXIST_ANY_COMMANDER_DRESS = 8
@@ -26,9 +25,6 @@ slot0.IsMatch = function(slot0)
 		end,
 		[uv0.MUTEX_TASK] = function ()
 			return not uv0:GetTaskAgency():IsPassId(uv1)
-		end,
-		[uv0.IN_TIME] = function ()
-			return pg.TimeMgr.GetInstance():inTime(uv0)
 		end,
 		[uv0.EXIST_ANY_ITEM] = function ()
 			slot0 = uv0

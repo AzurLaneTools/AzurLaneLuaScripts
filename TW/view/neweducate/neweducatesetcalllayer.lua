@@ -50,12 +50,11 @@ end
 
 slot0.didEnter = function(slot0)
 	setImageSprite(slot0.bgTF, LoadSprite("bg/" .. slot0.contextData.char:getConfig("name_background")), false)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
+		groupDelta = 1,
 		pbList = {
 			slot0.blurPanel
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = slot0:getWeightFromData() + 1
+		}
 	})
 	setInputText(slot0.callInput, slot0.defaultName)
 end
@@ -68,7 +67,7 @@ slot0.willExit = function(slot0)
 		slot1()
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 return slot0

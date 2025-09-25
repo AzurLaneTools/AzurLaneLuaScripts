@@ -6831,7 +6831,105 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_589_1_1",
 		"op_reply_589_1_1",
 		"ins_op_589_1_2",
-		"op_reply_589_1_2"
+		"op_reply_589_1_2",
+		"ins_590",
+		"ins_discuss_590_1",
+		"ins_reply_590_1_1",
+		"ins_reply_590_1_2",
+		"ins_discuss_590_2",
+		"ins_reply_590_2_1",
+		"ins_reply_590_2_2",
+		"ins_op_590_1_1",
+		"op_reply_590_1_1",
+		"ins_op_590_1_2",
+		"op_reply_590_1_2",
+		"ins_591",
+		"ins_discuss_591_1",
+		"ins_reply_591_1_1",
+		"ins_reply_591_1_2",
+		"ins_reply_591_1_3",
+		"ins_discuss_591_2",
+		"ins_reply_591_2_1",
+		"ins_reply_591_2_2",
+		"ins_reply_591_2_3",
+		"ins_op_591_1_1",
+		"op_reply_591_1_1",
+		"ins_op_591_1_2",
+		"op_reply_591_1_2",
+		"ins_592",
+		"ins_discuss_592_1",
+		"ins_reply_592_1_1",
+		"ins_reply_592_1_2",
+		"ins_reply_592_1_3",
+		"ins_reply_592_1_4",
+		"ins_discuss_592_2",
+		"ins_reply_592_2_1",
+		"ins_reply_592_2_2",
+		"ins_reply_592_2_3",
+		"ins_reply_592_2_4",
+		"ins_reply_592_2_5",
+		"ins_op_592_1_1",
+		"op_reply_592_1_1",
+		"ins_op_592_1_2",
+		"op_reply_592_1_2",
+		"ins_593",
+		"ins_discuss_593_1",
+		"ins_reply_593_1_1",
+		"ins_reply_593_1_2",
+		"ins_reply_593_1_3",
+		"ins_reply_593_1_4",
+		"ins_discuss_593_2",
+		"ins_reply_593_2_1",
+		"ins_reply_593_2_2",
+		"ins_reply_593_2_3",
+		"ins_reply_593_2_4",
+		"ins_op_593_1_1",
+		"op_reply_593_1_1",
+		"ins_op_593_1_2",
+		"op_reply_593_1_2",
+		"ins_594",
+		"ins_discuss_594_1",
+		"ins_reply_594_1_1",
+		"ins_reply_594_1_2",
+		"ins_reply_594_1_3",
+		"ins_discuss_594_2",
+		"ins_reply_594_2_1",
+		"ins_reply_594_2_2",
+		"ins_reply_594_2_3",
+		"ins_reply_594_2_4",
+		"ins_reply_594_2_5",
+		"ins_op_594_1_1",
+		"op_reply_594_1_1",
+		"ins_op_594_1_2",
+		"op_reply_594_1_2",
+		"ins_595",
+		"ins_discuss_595_1",
+		"ins_reply_595_1_1",
+		"ins_reply_595_1_2",
+		"ins_reply_595_1_3",
+		"ins_reply_595_1_4",
+		"ins_reply_595_1_5",
+		"ins_discuss_595_2",
+		"ins_reply_595_2_1",
+		"ins_reply_595_2_2",
+		"ins_op_595_1_1",
+		"op_reply_595_1_1",
+		"ins_op_595_1_2",
+		"op_reply_595_1_2",
+		"ins_596",
+		"ins_discuss_596_1",
+		"ins_reply_596_1_1",
+		"ins_reply_596_1_2",
+		"ins_reply_596_1_3",
+		"ins_discuss_596_2",
+		"ins_reply_596_2_1",
+		"ins_reply_596_2_2",
+		"ins_reply_596_2_3",
+		"ins_reply_596_2_4",
+		"ins_op_596_1_1",
+		"op_reply_596_1_1",
+		"ins_op_596_1_2",
+		"op_reply_596_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27324,6 +27422,300 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_589_1_2 = {
+		value = ""
+	},
+	ins_590 = {
+		value = ""
+	},
+	ins_discuss_590_1 = {
+		value = ""
+	},
+	ins_reply_590_1_1 = {
+		value = ""
+	},
+	ins_reply_590_1_2 = {
+		value = ""
+	},
+	ins_discuss_590_2 = {
+		value = ""
+	},
+	ins_reply_590_2_1 = {
+		value = ""
+	},
+	ins_reply_590_2_2 = {
+		value = ""
+	},
+	ins_op_590_1_1 = {
+		value = ""
+	},
+	op_reply_590_1_1 = {
+		value = ""
+	},
+	ins_op_590_1_2 = {
+		value = ""
+	},
+	op_reply_590_1_2 = {
+		value = ""
+	},
+	ins_591 = {
+		value = ""
+	},
+	ins_discuss_591_1 = {
+		value = ""
+	},
+	ins_reply_591_1_1 = {
+		value = ""
+	},
+	ins_reply_591_1_2 = {
+		value = ""
+	},
+	ins_reply_591_1_3 = {
+		value = ""
+	},
+	ins_discuss_591_2 = {
+		value = ""
+	},
+	ins_reply_591_2_1 = {
+		value = ""
+	},
+	ins_reply_591_2_2 = {
+		value = ""
+	},
+	ins_reply_591_2_3 = {
+		value = ""
+	},
+	ins_op_591_1_1 = {
+		value = ""
+	},
+	op_reply_591_1_1 = {
+		value = ""
+	},
+	ins_op_591_1_2 = {
+		value = ""
+	},
+	op_reply_591_1_2 = {
+		value = ""
+	},
+	ins_592 = {
+		value = ""
+	},
+	ins_discuss_592_1 = {
+		value = ""
+	},
+	ins_reply_592_1_1 = {
+		value = ""
+	},
+	ins_reply_592_1_2 = {
+		value = ""
+	},
+	ins_reply_592_1_3 = {
+		value = ""
+	},
+	ins_reply_592_1_4 = {
+		value = ""
+	},
+	ins_discuss_592_2 = {
+		value = ""
+	},
+	ins_reply_592_2_1 = {
+		value = ""
+	},
+	ins_reply_592_2_2 = {
+		value = ""
+	},
+	ins_reply_592_2_3 = {
+		value = ""
+	},
+	ins_reply_592_2_4 = {
+		value = ""
+	},
+	ins_reply_592_2_5 = {
+		value = ""
+	},
+	ins_op_592_1_1 = {
+		value = ""
+	},
+	op_reply_592_1_1 = {
+		value = ""
+	},
+	ins_op_592_1_2 = {
+		value = ""
+	},
+	op_reply_592_1_2 = {
+		value = ""
+	},
+	ins_593 = {
+		value = ""
+	},
+	ins_discuss_593_1 = {
+		value = ""
+	},
+	ins_reply_593_1_1 = {
+		value = ""
+	},
+	ins_reply_593_1_2 = {
+		value = ""
+	},
+	ins_reply_593_1_3 = {
+		value = ""
+	},
+	ins_reply_593_1_4 = {
+		value = ""
+	},
+	ins_discuss_593_2 = {
+		value = ""
+	},
+	ins_reply_593_2_1 = {
+		value = ""
+	},
+	ins_reply_593_2_2 = {
+		value = ""
+	},
+	ins_reply_593_2_3 = {
+		value = ""
+	},
+	ins_reply_593_2_4 = {
+		value = ""
+	},
+	ins_op_593_1_1 = {
+		value = ""
+	},
+	op_reply_593_1_1 = {
+		value = ""
+	},
+	ins_op_593_1_2 = {
+		value = ""
+	},
+	op_reply_593_1_2 = {
+		value = ""
+	},
+	ins_594 = {
+		value = ""
+	},
+	ins_discuss_594_1 = {
+		value = ""
+	},
+	ins_reply_594_1_1 = {
+		value = ""
+	},
+	ins_reply_594_1_2 = {
+		value = ""
+	},
+	ins_reply_594_1_3 = {
+		value = ""
+	},
+	ins_discuss_594_2 = {
+		value = ""
+	},
+	ins_reply_594_2_1 = {
+		value = ""
+	},
+	ins_reply_594_2_2 = {
+		value = ""
+	},
+	ins_reply_594_2_3 = {
+		value = ""
+	},
+	ins_reply_594_2_4 = {
+		value = ""
+	},
+	ins_reply_594_2_5 = {
+		value = ""
+	},
+	ins_op_594_1_1 = {
+		value = ""
+	},
+	op_reply_594_1_1 = {
+		value = ""
+	},
+	ins_op_594_1_2 = {
+		value = ""
+	},
+	op_reply_594_1_2 = {
+		value = ""
+	},
+	ins_595 = {
+		value = ""
+	},
+	ins_discuss_595_1 = {
+		value = ""
+	},
+	ins_reply_595_1_1 = {
+		value = ""
+	},
+	ins_reply_595_1_2 = {
+		value = ""
+	},
+	ins_reply_595_1_3 = {
+		value = ""
+	},
+	ins_reply_595_1_4 = {
+		value = ""
+	},
+	ins_reply_595_1_5 = {
+		value = ""
+	},
+	ins_discuss_595_2 = {
+		value = ""
+	},
+	ins_reply_595_2_1 = {
+		value = ""
+	},
+	ins_reply_595_2_2 = {
+		value = ""
+	},
+	ins_op_595_1_1 = {
+		value = ""
+	},
+	op_reply_595_1_1 = {
+		value = ""
+	},
+	ins_op_595_1_2 = {
+		value = ""
+	},
+	op_reply_595_1_2 = {
+		value = ""
+	},
+	ins_596 = {
+		value = ""
+	},
+	ins_discuss_596_1 = {
+		value = ""
+	},
+	ins_reply_596_1_1 = {
+		value = ""
+	},
+	ins_reply_596_1_2 = {
+		value = ""
+	},
+	ins_reply_596_1_3 = {
+		value = ""
+	},
+	ins_discuss_596_2 = {
+		value = ""
+	},
+	ins_reply_596_2_1 = {
+		value = ""
+	},
+	ins_reply_596_2_2 = {
+		value = ""
+	},
+	ins_reply_596_2_3 = {
+		value = ""
+	},
+	ins_reply_596_2_4 = {
+		value = ""
+	},
+	ins_op_596_1_1 = {
+		value = ""
+	},
+	op_reply_596_1_1 = {
+		value = ""
+	},
+	ins_op_596_1_2 = {
+		value = ""
+	},
+	op_reply_596_1_2 = {
 		value = ""
 	}
 }

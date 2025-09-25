@@ -209,7 +209,7 @@ slot0.getStory = function(slot0, slot1, slot2)
 
 	slot4:SetEndEvent(function ()
 		onButton(uv0, uv0.storyTip, function ()
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.storyTip)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.storyTip)
 			setActive(uv0.storyTip, false)
 		end)
 
@@ -224,7 +224,7 @@ end
 
 slot0.willExit = function(slot0)
 	setActive(slot0.storyTip, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.storyTip)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.storyTip)
 end
 
 return slot0

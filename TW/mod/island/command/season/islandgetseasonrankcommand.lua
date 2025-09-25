@@ -23,7 +23,10 @@ slot0.execute = function(slot0, slot1)
 			act_id = uv4
 		}, 18202, function (slot0)
 			for slot4, slot5 in ipairs(slot0.list) do
-				table.insert(uv1, PowerRank.New(slot5, uv0))
+				slot6 = PowerRank.New(slot5, uv0)
+
+				slot6:setArenaRank(slot5.arena_rank)
+				table.insert(uv1, slot6)
 			end
 
 			uv2()
@@ -54,6 +57,7 @@ slot0.execute = function(slot0, slot1)
 			}, uv1)
 
 			uv0:setRank(slot0.rank)
+			uv0:setArenaRank(getProxy(IslandProxy):GetIsland():GetLevel())
 			uv2()
 		end)
 	end

@@ -569,7 +569,7 @@ slot0.GoBack = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.camEventId then
 		pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)

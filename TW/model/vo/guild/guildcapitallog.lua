@@ -16,7 +16,7 @@ end
 
 slot0.buildText = function(slot0)
 	slot1 = ""
-	slot2 = pg.TimeMgr:GetInstance():STimeDescC(slot0.time)
+	slot2 = pg.TimeMgr.GetInstance():STimeDescC(slot0.time)
 	slot3 = slot0.eventTarget[1]
 
 	if slot0.eventType == GuildConst.TYPE_DONATE then

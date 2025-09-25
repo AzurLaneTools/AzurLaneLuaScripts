@@ -98,6 +98,34 @@ pg.dorm3d_ins_npc_template = {
 		npc_reply = "",
 		id = 14
 	},
+	{
+		ship_group = 30707,
+		message = "dafeng_1_1_1",
+		time = 20,
+		npc_reply = "",
+		id = 15
+	},
+	{
+		ship_group = 30707,
+		message = "dafeng_1_2_1",
+		time = 30,
+		npc_reply = "",
+		id = 16
+	},
+	{
+		ship_group = 30707,
+		message = "dafeng_2_1_1",
+		time = 20,
+		npc_reply = "",
+		id = 17
+	},
+	{
+		ship_group = 30707,
+		message = "dafeng_2_2_1",
+		time = 30,
+		npc_reply = "",
+		id = 18
+	},
 	all = {
 		1,
 		2,
@@ -112,6 +140,10 @@ pg.dorm3d_ins_npc_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15,
+		16,
+		17,
+		18
 	}
 }

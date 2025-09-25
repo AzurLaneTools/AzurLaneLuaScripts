@@ -14,10 +14,22 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.isUpdateThemes = false
 
 	for slot5, slot6 in ipairs(pg.island_furniture_theme.all) do
-		slot9 = IslandTheme.New(require("Mod.Island.Agora.theme.theme_" .. slot6))
+		slot7 = pg.island_furniture_theme[slot6]
+		slot8, slot9 = pcall(function ()
+			return require("Mod.Island.Agora.theme.theme_" .. uv0)
+		end)
 
-		slot9:SetName(pg.island_furniture_theme[slot6].name)
-		table.insert(slot0.systemThemes, slot9)
+		if not slot8 then
+			slot9 = {
+				id = slot6,
+				placed_data = {}
+			}
+		end
+
+		slot10 = IslandTheme.New(slot9)
+
+		slot10:SetName(slot7.name)
+		table.insert(slot0.systemThemes, slot10)
 	end
 
 	slot0.placedData = IslandTheme.New(slot1)
@@ -83,13 +95,15 @@ end
 slot0.AddFurniture = function(slot0, slot1, slot2)
 	assert(isa(slot1, IslandFurniture), "IslandAgoraAgency:AddFurniture: furniture must be IslandFurniture")
 
-	slot4 = pg.GameTrackerMgr.GetInstance()
-
-	slot4:Record(GameTrackerBuilder.BuildIslandFurnitureAdd(slot1.id, slot2 or ""))
-
-	if _.detect(slot0.furnitures, function (slot0)
+	if not _.detect(slot0.furnitures, function (slot0)
 		return slot0.id == uv0.id
 	end) then
+		slot1:SetNew(true)
+	end
+
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandFurnitureAdd(slot1.id, slot2 or ""))
+
+	if slot3 then
 		slot3.count = slot3.count + 1
 
 		slot0:DispatchEvent(uv0.ADD_FURNITURE, slot3)
@@ -98,6 +112,20 @@ slot0.AddFurniture = function(slot0, slot1, slot2)
 		IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.FURNITURE, pg.island_furniture_template[slot1.id].type, 1)
 		table.insert(slot0.furnitures, slot1)
 		slot0:DispatchEvent(uv0.ADD_FURNITURE, slot1)
+	end
+end
+
+slot0.ClearNew = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.furnitures) do
+		if slot6.configId == slot1 then
+			slot6:SetNew(false)
+		end
+	end
+end
+
+slot0.ClearAllNew = function(slot0)
+	for slot4, slot5 in ipairs(slot0.furnitures) do
+		slot5:SetNew(false)
 	end
 end
 

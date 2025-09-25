@@ -47,9 +47,9 @@ slot0.init = function(slot0, slot1)
 	slot0.buffView:Init()
 	slot0.tagView:Init()
 	slot0.changeView:Init(slot1)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
-		pbList = slot0:GetPbList(),
-		weight = LayerWeightConst.BASE_LAYER + 1
+	slot0:OverlayPanel(slot0._tf, {
+		stopTop = true,
+		pbList = slot0:GetPbList()
 	})
 end
 
@@ -103,7 +103,7 @@ slot0.Refresh = function(slot0, slot1)
 	slot0.bannerView:Refresh()
 	slot0.tagView:Refresh()
 	slot0.changeView:Refresh(slot1)
-	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0._tf, true)
+	setActiveViaLayer(slot0._tf, true)
 end
 
 slot0.Disable = function(slot0)
@@ -118,14 +118,14 @@ slot0.Disable = function(slot0)
 	slot0.bannerView:Disable()
 	slot0.wordView:Disable()
 	slot0.changeView:Disable()
-	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0._tf, false)
+	setActiveViaLayer(slot0._tf, false)
 end
 
 slot0.SetEffectPanelVisible = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	slot1 = ipairs
 	slot2 = slot0.panels or {}

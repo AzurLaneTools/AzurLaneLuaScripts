@@ -2,10 +2,12 @@ slot0 = class("IslandCloseRestaurantCommand", pm.SimpleCommand)
 slot0.CLOSE_RESTAURANT = "IslandCloseRestaurantCommand.CLOSE_RESTAURANT"
 
 slot0.execute = function(slot0, slot1)
-	slot4 = pg.ConnectionMgr.GetInstance()
+	slot2 = slot1:getBody()
+	slot4 = slot2.isPost
+	slot5 = pg.ConnectionMgr.GetInstance()
 
-	slot4:Send(21420, {
-		trade_id = slot1:getBody().restId
+	slot5:Send(21420, {
+		trade_id = slot2.restId
 	}, 21421, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(uv0)
@@ -26,7 +28,8 @@ slot0.execute = function(slot0, slot1)
 			slot1:SetCommodities({}, {})
 			slot1:ClearAssistantShips()
 			slot1:SetEndTime(0)
-			uv1:sendNotification(GAME.ISLAND_CLOSE_RESTAURANT_DONE, {
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandCloseRest(uv1 and 1 or 0, slot0.drop_list))
+			uv2:sendNotification(GAME.ISLAND_CLOSE_RESTAURANT_DONE, {
 				restId = uv0,
 				saleList = slot2,
 				remainList = slot3,

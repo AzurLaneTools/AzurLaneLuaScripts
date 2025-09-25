@@ -6,15 +6,15 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
-	slot0.centreToggleTF = slot1:Find("types/1")
+	slot0.centreToggleTF = slot1:Find("adapt/types/1")
 	slot1 = slot0.centreToggleTF
 	slot0.centreTipTF = slot1:Find("tip")
 	slot1 = slot0._tf
-	slot1 = slot1:Find("types/content")
+	slot1 = slot1:Find("adapt/types/content")
 	slot0.typeUIList = UIItemList.New(slot1, slot1:Find("tpl"))
 	slot2 = slot0._tf
 	slot0.pages = {}
-	slot7 = slot2:Find("pages")
+	slot7 = slot2:Find("adapt/pages")
 	slot8 = slot0.event
 	slot0.pages[IslandTechBelong.CENTRE] = IslandTechCentrePanel.New(slot7, slot8, setmetatable({
 		onItemClick = function (slot0, slot1)
@@ -33,33 +33,39 @@ slot0.OnLoaded = function(slot0)
 	end
 
 	slot0.quickPanel = IslandTechQuickPanel.New(slot0._tf, slot0.event, setmetatable({
-		onGetAwardDone = function ()
-			uv0:OpenPage(IslandTechAwardPage)
-		end
-	}, {
-		__index = slot0.contextData
-	}))
-	slot0.detailPanel = IslandTechDetailPanel.New(slot0._tf, slot0.event, setmetatable({
-		onSelecteShip = function ()
-			slot0 = uv0
-
-			slot0:OpenPage(IslandShipSelectPage, 1, {}, nil, function (slot0)
-				uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
-			end)
-		end,
-		onFinishImmd = function (slot0)
-			slot1 = uv0
-
-			slot1:emit(IslandMediator.ON_FINISH_TECH_IMMD, slot0, function ()
-				uv0:OpenPage(IslandTechAwardPage, uv1)
-			end)
-		end,
 		onGetAwardDone = function (slot0)
 			uv0:OpenPage(IslandTechAwardPage, slot0)
 		end
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.quickPanel:RegisterView(slot0.viewComponent)
+
+	slot0.detailPanel = IslandTechDetailPanel.New(slot0._tf, slot0.event, setmetatable({
+		onSelecteShip = function ()
+			uv0:OpenPage(IslandShipSelectPage, {
+				confirmFunc = function (slot0)
+					uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
+				end
+			})
+		end,
+		onFinishImmd = function (slot0)
+			uv0:emit(IslandMediator.ON_FINISH_TECH_IMMD, slot0, function ()
+				uv0:OpenPage(IslandTechAwardPage, uv1)
+			end)
+		end,
+		onGetAwardDone = function (slot0)
+			uv0:OpenPage(IslandTechAwardPage, slot0)
+		end,
+		openTicketPage = function (slot0)
+			uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.APPOINT, slot0)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
+
+	slot0.detailPanel:RegisterView(slot0.viewComponent)
 end
 
 slot0.OnInit = function(slot0)
@@ -75,7 +81,7 @@ slot0.OnInit = function(slot0)
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.centreToggleTF, function (slot0)
-		if slot0 then
+		if slot0 and uv0.curPage ~= IslandTechBelong.CENTRE then
 			uv0.curPage = IslandTechBelong.CENTRE
 
 			uv0:SwitchPage()
@@ -119,7 +125,7 @@ slot0.InitTypeItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("sel/content/Text"), slot4)
 	LoadImageSpriteAsync("island/islandtechnology/tech_type_" .. IslandTechBelong.Fields[slot3], slot2:Find("sel/content/Image"), true)
 	onToggle(slot0, slot2, function (slot0)
-		if slot0 then
+		if slot0 and uv0.curPage ~= uv1 then
 			uv0.curPage = uv1
 
 			uv0:SwitchPage()

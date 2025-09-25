@@ -599,6 +599,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.initSubView = function(slot0)
+	slot11 = ShopConst.CATEGORY_ACTIVITY
 	slot0.curSubViewNum = 0
 	slot0.subViewList = {
 		[ShopConst.SHOP_ID.DIAMOND] = ChargeDiamondShopView.New(slot0.viewContainer, slot0.event, slot0.contextData),
@@ -607,8 +608,13 @@ slot0.initSubView = function(slot0)
 		[ShopConst.SHOP_ID.PICK] = ChargePickShopView.New(slot0.viewContainer, slot0.event, slot0.contextData),
 		[ShopConst.SHOP_ID.MONTH] = SupplyShopView.New(slot0.viewContainer, slot0.event, slot0.contextData, ShopConst.CATEGORY_MONTH),
 		[ShopConst.SHOP_ID.SUPPLY] = SupplyShopView.New(slot0.viewContainer, slot0.event, slot0.contextData, ShopConst.CATEGORY_SUPPLY),
-		[ShopConst.SHOP_ID.ACTIVITY] = SupplyShopView.New(slot0.viewContainer, slot0.event, slot0.contextData, ShopConst.CATEGORY_ACTIVITY)
+		[ShopConst.SHOP_ID.ACTIVITY] = SupplyShopView.New(slot0.viewContainer, slot0.event, slot0.contextData, slot11)
 	}
+
+	for slot11, slot12 in pairs(slot0.subViewList) do
+		slot12:RegisterView(slot0)
+	end
+
 	slot0.contextData.singleWindow = ShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
@@ -887,8 +893,7 @@ slot0.stopCV = function(slot0)
 end
 
 slot0.blurView = function(slot0)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot0.buttonList, {
-		groupName = "shop",
+	slot0:OverlayPanel(slot0.buttonList, {
 		pbList = {
 			slot0:findTF("leftBg", slot0.buttonList)
 		}
@@ -896,7 +901,7 @@ slot0.blurView = function(slot0)
 end
 
 slot0.unBlurView = function(slot0)
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0.buttonList, slot0._tf)
+	slot0:UnOverlayPanel(slot0.buttonList, slot0._tf)
 end
 
 slot0.jpUIInit = function(slot0)

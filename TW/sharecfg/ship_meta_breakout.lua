@@ -26,6 +26,14 @@ pg.ship_meta_breakout = setmetatable({
 		9701062,
 		9701063,
 		9701064,
+		9701071,
+		9701072,
+		9701073,
+		9701074,
+		9701101,
+		9701102,
+		9701103,
+		9701104,
 		9702011,
 		9702012,
 		9702013,
@@ -561,6 +569,132 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9701064,
 		item1 = 21036,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9701071] = {
+		breakout_view = "習得技能【逐光之焰·格倫維爾】I/主炮效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9701072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701071,
+		item1 = 21047,
+		level = 10,
+		weapon_ids = {
+			170761
+		}
+	},
+	[9701072] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/主炮效率提升10%",
+		item2 = 21001,
+		pre_id = 9701071,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9701073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701072,
+		item1 = 21047,
+		level = 30,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701073] = {
+		breakout_view = "【逐光之焰·格倫維爾】升級/全武器效率提高5%",
+		item2 = 21001,
+		pre_id = 9701072,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9701074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701073,
+		item1 = 21047,
+		level = 70,
+		weapon_ids = {
+			170762
+		}
+	},
+	[9701074] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9701073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701074,
+		item1 = 21047,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9701101] = {
+		breakout_view = "习得技能【破敌之炬·杜威】/全武器效率提高2%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9701102,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701101,
+		item1 = 21052,
+		level = 10,
+		weapon_ids = {
+			170861
+		}
+	},
+	[9701102] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		item2 = 21001,
+		pre_id = 9701101,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9701103,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701102,
+		item1 = 21052,
+		level = 30,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701103] = {
+		breakout_view = "【破敌之炬·杜威】升级/全武器效率提高5%",
+		item2 = 21001,
+		pre_id = 9701102,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9701104,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701103,
+		item1 = 21052,
+		level = 70,
+		weapon_ids = {
+			170862
+		}
+	},
+	[9701104] = {
+		breakout_view = "无",
+		item2 = 21001,
+		pre_id = 9701103,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701104,
+		item1 = 21052,
 		level = 0,
 		weapon_ids = {}
 	},

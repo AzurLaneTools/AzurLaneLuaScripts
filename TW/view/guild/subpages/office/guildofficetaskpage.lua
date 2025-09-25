@@ -40,14 +40,14 @@ end
 slot0.OnInit = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:OverlayPanelPB(slot0.taskTF, {
+	slot1:OverlayPanel(slot0.taskTF, {
 		pbList = {
 			slot0.taskTF
 		},
 		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 	})
 	onButton(slot0, slot0.supplyUnOpenAdminTF, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_start_supply_consume_tip", uv0.guild:getSupplyConsume()),
 			onYes = function ()
 				uv0:emit(GuildOfficeMediator.ON_PURCHASE_SUPPLY)
@@ -131,7 +131,7 @@ slot0.UpdatePrivateTask = function(slot0, slot1)
 	slot0.privateTaskResTxt.text = slot1:GetPrivateAward()
 
 	onButton(slot0, slot0.privateTaskAcceptBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_task_accept", uv0:getConfig("name"), uv1:getConfig("name"), uv1:getConfig("name")),
 			onYes = function ()
 				uv0:emit(GuildOfficeMediator.ON_ACCEPT_TASK, uv1)
@@ -182,7 +182,7 @@ slot0.UpdateContributionPanel = function(slot0)
 			onButton(uv1, slot4.commitBtn, function ()
 				slot0 = uv0:getCommitItem()
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("guild_donate_tip", Drop.New({
 						type = slot0[1],
 						id = slot0[2],

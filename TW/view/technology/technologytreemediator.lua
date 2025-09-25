@@ -26,9 +26,7 @@ slot0.register = function(slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = AllBuffDetailMediator,
 			viewComponent = AllBuffDetailLayer,
-			data = {
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-			}
+			data = {}
 		}))
 	end)
 end

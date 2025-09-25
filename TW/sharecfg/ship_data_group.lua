@@ -2306,6 +2306,9 @@ pg.ship_data_group = setmetatable({
 		[970509] = {
 			30046
 		},
+		[970107] = {
+			30047
+		},
 		[970707] = {
 			30048
 		}
@@ -3086,6 +3089,7 @@ pg.ship_data_group = setmetatable({
 			30042,
 			30043,
 			30046,
+			30047,
 			30048
 		}
 	},
@@ -3858,6 +3862,7 @@ pg.ship_data_group = setmetatable({
 		30042,
 		30043,
 		30046,
+		30047,
 		30048
 	}
 }, confHX)
@@ -34993,6 +34998,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9705091
+					}
+				},
+				0
+			}
+		}
+	},
+	[30047] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970107,
+		index_id = 30047,
+		code = 30047,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701071
 					}
 				},
 				0

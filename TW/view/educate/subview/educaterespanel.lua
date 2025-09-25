@@ -19,11 +19,10 @@ slot0.OnInit = function(slot0)
 	if slot0.contextData and slot0.contextData.showBg then
 		slot1.enabled = true
 
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+		slot0:OverlayPanel(slot0._tf, {
 			pbList = {
 				findTF(slot0._go, "res")
-			},
-			groupName = LayerWeightConst.GROUP_EDUCATE
+			}
 		})
 	else
 		slot1.enabled = false
@@ -78,7 +77,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	if slot0.contextData and slot0.contextData.showBg then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+		slot0:UnOverlayPanel(slot0._tf)
 	end
 end
 

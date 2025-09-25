@@ -23,9 +23,7 @@ slot0.init = function(slot0)
 
 	slot0.isBlock = true
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -58,7 +56,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

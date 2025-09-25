@@ -4,25 +4,25 @@ slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().taskId
 
 	if not getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not slot5:getDonateTaskById(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
 
 		return
 	end
 
 	if not slot6:canCommit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
 	if not slot5:canDonate() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
 
 		return
 	end
@@ -71,7 +71,7 @@ slot0.execute = function(slot0, slot1)
 				techPoint = uv1:getConfig("award_tech_exp")
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_dissolve_erro", slot0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_dissolve_erro", slot0.result))
 		end
 	end)
 end

@@ -606,22 +606,22 @@ slot0.DisplayRenamePanel = function(slot0, slot1)
 	SetActive(slot0._renamePanel, slot1)
 
 	if slot1 then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._renamePanel, false)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._renamePanel)
 		setInputText(findTF(slot0._renamePanel, "frame/name_field"), getText(slot0._fleetNameText))
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._renamePanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._renamePanel, slot0._tf)
 	end
 end
 
 slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0._attrFrame, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurLayer, slot0._tf)
 
 	slot0._blurLayer:GetComponent(typeof(AspectRatioFitter)).enabled = false
 end
 
 slot0.displayAttrFrame = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer)
 
 	slot1 = slot0._blurLayer:GetComponent(typeof(AspectRatioFitter))
 	slot1.enabled = true
@@ -937,7 +937,7 @@ slot0.willExit = function(slot0)
 	slot0.commanderFormationPanel:Destroy()
 
 	if slot0._attrFrame.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurLayer, slot0._tf)
 	end
 
 	slot0._formationLogic:Destroy()

@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().ids
 
 	if getProxy(GuildProxy):getRawData():getMemberById(getProxy(PlayerProxy):getRawData().id):IsRecruit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
 
 		return
 	end
@@ -12,7 +12,7 @@ slot0.execute = function(slot0, slot1)
 	if _.any(slot3, function (slot0)
 		return not uv0:GetReportById(slot0):CanSubmit()
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_get_report_failed"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_get_report_failed"))
 
 		return
 	end

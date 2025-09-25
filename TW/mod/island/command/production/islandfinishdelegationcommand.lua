@@ -16,10 +16,6 @@ slot0.execute = function(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = uv0:GetBuilding(uv1)
 
-			if uv1 == IslandTechnologyAgency.PLACE_ID then
-				uv3:GetTechnologyAgency():AddFinishCntByFormulatId(slot1:GetDelegationSlotData(uv2):GetFormulaId())
-			end
-
 			if slot0.return_num and slot0.return_num > 0 then
 				slot5 = {}
 
@@ -46,18 +42,20 @@ slot0.execute = function(slot0, slot1)
 				slot1:UpdateDeleationRewardDataBySlotId(uv2, slot0.award[1])
 			end
 
-			slot3 = uv4:GetShipById(slot0.ship_id)
+			slot3 = uv3:GetShipById(slot0.ship_id)
 
 			slot3:UpdateEnergy(slot0.cur_energy)
 			slot3:UpdateEnergyBeginRecoverTime(slot0.recover_time)
 			slot3:AddExp(slot0.add_exp)
-			uv3:DispatchEvent(uv5.END_DELEGATION, {
+			uv4:DispatchEvent(uv5.END_DELEGATION, {
 				build_id = uv1,
 				ship_id = slot0.ship_id,
 				area_id = uv2,
 				remainReward = slot2
 			})
-			uv6:sendNotification(GAME.ISLAND_FINISH_DELEGATION_DONE)
+			uv6:sendNotification(GAME.ISLAND_FINISH_DELEGATION_DONE, {
+				slotId = uv2
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

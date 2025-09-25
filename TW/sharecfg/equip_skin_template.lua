@@ -47551,6 +47551,179 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2097] = {
+		hit_sfx = "",
+		bullet_name = "zidan_guangying",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "光影交纏子彈",
+		miss_sfx = "",
+		desc = "光與暗的交響，一觸即發。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96821",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_guangying_hit",
+		id = 2097,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2098] = {
+		hit_sfx = "",
+		bullet_name = "yulei_liangchi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "悖論量尺魚雷",
+		miss_sfx = "",
+		desc = "時空悖論之尺，測量虛實之間。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96822",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_liangchi_hit",
+		id = 2098,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2099] = {
+		hit_sfx = "",
+		bullet_name = "paodan_rimian",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "螺旋日晷炮彈",
+		miss_sfx = "",
+		desc = "日晷的螺旋，時間的流動與永恆。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96823",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_rimian_hit",
+		id = 2099,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2100] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "二律背反之環（浮游炮）",
+		miss_sfx = "",
+		desc = "光暗交織成環，對立統一，互為因果。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 107,
+		orbit_combat = "shebei_fanhuan",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_fanhuanui",
+		orbit_ui_back = 1,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "96824",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2100,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.2,
+				-1,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10,
+				100
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -50627,6 +50800,10 @@ pg.equip_skin_template = {
 		2094,
 		2095,
 		2096,
+		2097,
+		2098,
+		2099,
+		2100,
 		3001,
 		3007,
 		3008,

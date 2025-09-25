@@ -40,11 +40,8 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
@@ -63,10 +60,10 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					8
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -152,17 +149,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene core activity",
-			{
-				coreName = "EighthAnniversaryJpCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					9,
-					17
+					10,
+					1
 				},
 				{
 					0,
@@ -173,11 +167,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					9
+					11,
+					30
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -226,9 +220,9 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 2
 			}
 		},
 		time = {
@@ -236,7 +230,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					17
+					25
 				},
 				{
 					0,
@@ -297,10 +291,7 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
+			"scene dockyard"
 		},
 		time = {
 			{
@@ -398,10 +389,35 @@ pg.activity_banner = {
 	},
 	[102] = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		time = "stop",
 		type = 10,
 		id = 102,
-		pic = "guihuagao"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[103] = {
 		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",

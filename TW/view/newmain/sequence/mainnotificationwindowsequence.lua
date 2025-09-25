@@ -53,8 +53,7 @@ slot0.Execute = function(slot0, slot1)
 							})
 						end,
 						yesText = i18n("msgbox_text_forward"),
-						onNo = slot0,
-						weight = LayerWeightConst.TOP_LAYER
+						onNo = slot0
 					})
 				end)
 			end

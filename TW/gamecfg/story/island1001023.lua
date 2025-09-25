@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			100300,
-			10020004
+			10020034
 		}
 	},
 	look_weight = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "只是中途有点……嗯……有点累了，休息一下而已~",
+			say = "只是中途有点……嗯……有点累了，来这里休息一下而已~",
 			subName = "货运管理员",
 			characterId = 100300,
 			typewriter = {
@@ -70,7 +70,8 @@ return {
 			}
 		},
 		{
-			say = "只是你“逸”的时间，是不是稍微长了那么一点点？船上的货仓里空无一物啊~",
+			say = "只是你“逸”的时间，是不是稍微长了那么一点点？船上的货仓里空无一物。",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +106,7 @@ return {
 			}
 		},
 		{
-			say = "旁边的这些木材和矿石……不会还是我昨天送到港口的那一批吧？",
+			say = "货运中心堆着的木材和矿石……不会还是我昨天送到港口的那一批吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +124,8 @@ return {
 			}
 		},
 		{
-			animation = "hakehead",
-			say = "唉，这应该不是“逸”的时间长……完全就是一直逸啊。",
+			animation = "talk",
+			say = "唉，你这都不是“逸”的时间长……完全就是一直逸。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +134,7 @@ return {
 		},
 		{
 			say = "呜……指挥官，别说了……我知道错了啦~",
-			animation = "embarrass",
+			animation = "weep",
 			characterId = 100300,
 			subName = "货运管理员",
 			typewriter = {
@@ -151,7 +152,8 @@ return {
 			}
 		},
 		{
-			say = "好了，现在目标明确——把这些资材尽快装船！我也来帮忙。",
+			animation = "nod",
+			say = "好了，现在目标明确——去把货运中心的资材尽快装船！我也来帮忙。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +172,8 @@ return {
 		},
 		{
 			say = "我、我这次一定会好好干的！看我的吧！",
-			animation = "clap",
-			characterId = 100300,
 			subName = "货运管理员",
+			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

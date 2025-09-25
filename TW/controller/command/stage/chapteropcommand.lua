@@ -243,8 +243,8 @@ slot0.PlayChapterStory = function(slot0, slot1, slot2, slot3)
 	pg.NewStoryMgr.GetInstance():Play(slot0, slot1, slot3)
 
 	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and slot2 and slot4:IsRunning() then
-		slot4:Puase()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		slot4:Pause()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideYes = true,
 			parent = rtf(slot4._tf),
 			type = MSGBOX_TYPE_STORY_CANCEL_TIP,
@@ -254,8 +254,7 @@ slot0.PlayChapterStory = function(slot0, slot1, slot2, slot3)
 			end,
 			onNo = function ()
 				uv0:Resume()
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 
 		return true

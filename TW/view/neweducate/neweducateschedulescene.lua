@@ -79,11 +79,10 @@ slot0.SetData = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.mainTF, {
+	slot0:OverlayPanel(slot0.mainTF, {
 		pbList = {
 			slot0.mainTF:Find("bg")
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE
+		}
 	})
 	onButton(slot0, slot0.mainTF:Find("top/return_btn"), function ()
 		uv0:onBackPressed()
@@ -517,7 +516,7 @@ slot0.SetScheduleData = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.mainTF, slot0.rootTF)
+	slot0:UnOverlayPanel(slot0.mainTF, slot0.rootTF)
 end
 
 return slot0

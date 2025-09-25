@@ -11,7 +11,7 @@ end
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.rtHelpPanel) then
 		setActive(slot0.rtHelpPanel)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.rtHelpPanel, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtHelpPanel, slot0._tf)
 
 		return
 	end

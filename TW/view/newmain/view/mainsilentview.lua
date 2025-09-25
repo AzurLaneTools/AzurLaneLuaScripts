@@ -1,10 +1,14 @@
 slot0 = class("MainSilentView", import("view.base.BaseSubView"))
-slot1 = 1
-slot2 = 2
-slot3 = 3
-slot4 = 4
-slot5 = 1
-slot6 = 2
+slot7 = {
+	"noti_1",
+	"noti_2",
+	"noti_1",
+	"noti_1",
+	"noti_1",
+	"noti_1"
+}
+slot8 = 1
+slot9 = 2
 
 slot0.getUIName = function(slot0)
 	return "MainSilentViewUI"
@@ -32,7 +36,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.systemTimeUtil = LocalSystemTimeUtil.New()
 	slot0.musicPlayerView = MainMusicPlayerView.New(slot0._tf:Find("adapt"), slot0.event)
 
-	slot0.musicPlayerView:SetExtra(slot0._tf:Find("adapt/MusicPlayer"))
+	slot0.musicPlayerView:Load(slot0._tf:Find("adapt/MusicPlayer").gameObject)
 
 	slot0.playedList = {}
 end
@@ -190,16 +194,16 @@ slot0.FlushTips = function(slot0)
 	slot3:make(function (slot0, slot1, slot2)
 		if UIItemList.EventUpdate == slot0 then
 			slot3 = uv0[slot1 + 1]
-			slot2:Find("icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/MainUI_atlas", "noti_" .. slot3.type)
+			slot2:Find("icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/MainUI_atlas", uv1[slot3.type])
 
 			setText(slot2:Find("num"), slot3.count)
 			setText(slot2:Find("Text"), i18n("main_silent_tip_" .. slot3.type))
-			onButton(uv1, slot2, function ()
+			onButton(uv2, slot2, function ()
 				uv0:PlayTipOutAnimation(uv1, function ()
 					uv0:Skip(uv1.type)
 				end)
 			end, SFX_PANEL)
-			uv1:InsertAnimation(uv2, slot2)
+			uv2:InsertAnimation(uv3, slot2)
 		end
 	end)
 
@@ -266,6 +270,7 @@ slot0.CollectTips = function(slot0, slot1)
 	slot0:CollectBuildTips(slot1)
 	slot0:CollectTechTips(slot1)
 	slot0:CollectStudentTips(slot1)
+	slot0:CollectIslandTips(slot1)
 end
 
 slot0.CollectEventTips = function(slot0, slot1)
@@ -320,6 +325,28 @@ slot0.CollectStudentTips = function(slot0, slot1)
 	end
 end
 
+slot0.CollectIslandTips = function(slot0, slot1)
+	if LOCK_ISLAND_DISPLAY then
+		return
+	end
+
+	slot2, slot3 = getProxy(SystemTipProxy):GetIslandTipInfos()
+
+	if slot2 > 0 then
+		table.insert(slot1, {
+			count = slot2,
+			type = uv0
+		})
+	end
+
+	if slot3 > 0 then
+		table.insert(slot1, {
+			count = slot3,
+			type = uv1
+		})
+	end
+end
+
 slot0.FlushBattery = function(slot0)
 	if SystemInfo.batteryLevel < 0 then
 		slot1 = 1
@@ -356,7 +383,7 @@ slot0.FlushTime = function(slot0)
 	end)
 end
 
-slot7 = {
+slot10 = {
 	"MONDAY",
 	"TUESDAY",
 	"WEDNESDAY",
@@ -365,7 +392,7 @@ slot7 = {
 	"SATURDAY",
 	"SUNDAY"
 }
-slot8 = {
+slot11 = {
 	"JAN",
 	"FEB",
 	"MAR",

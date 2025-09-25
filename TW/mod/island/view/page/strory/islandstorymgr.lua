@@ -39,31 +39,32 @@ slot0.OnLoaded = function(slot0)
 	slot0.state = uv0
 end
 
-slot0.Play = function(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2, slot3)
 	if not _IslandCore then
 		return
 	end
 
 	if slot0:IsRunning() then
-		slot2()
+		slot3()
 
 		return
 	end
 
-	slot3 = _IslandCore
-	slot3 = slot3:GetView()
+	slot4 = _IslandCore
+	slot4 = slot4:GetView()
+	slot0.refreshNpc = defaultValue(slot2, true)
 	slot0.state = uv0
-	slot4 = pg.NewStoryMgr.GetInstance()
-	slot5 = IslandStory.New(slot4:GetScript(slot1), slot3:GetUnitListByKey(IslandConst.UNIT_LIST_OBJ), IslandStory.MODE_DIALOGUE)
-	slot0.script = slot5
+	slot5 = pg.NewStoryMgr.GetInstance()
+	slot6 = IslandStory.New(slot5:GetScript(slot1), slot4:GetAllUnits(), IslandStory.MODE_DIALOGUE)
+	slot0.script = slot6
 
-	slot0:StartScript(slot5)
+	slot0:StartScript(slot6)
 	table.insert({}, function (slot0)
 		uv0.player:OnStartAction(uv1, slot0)
 	end)
 
-	for slot10, slot11 in ipairs(slot5.steps) do
-		table.insert(slot6, function (slot0)
+	for slot11, slot12 in ipairs(slot6.steps) do
+		table.insert(slot7, function (slot0)
 			if uv0.isStop then
 				slot0()
 
@@ -74,17 +75,21 @@ slot0.Play = function(slot0, slot1, slot2)
 		end)
 	end
 
-	table.insert(slot6, function (slot0)
+	table.insert(slot7, function (slot0)
 		uv0.player:OnEndAction(uv1, slot0)
 	end)
-	table.insert(slot6, function (slot0)
+	table.insert(slot7, function (slot0)
 		uv0:PlayExitAniamtion(uv1, slot0)
 	end)
-	seriesAsync(slot6, function ()
+	seriesAsync(slot7, function ()
 		uv0:EndScript(uv1)
 
 		if uv2 then
 			uv2()
+		end
+
+		if uv3 == IslandGuideChecker.SIGNIN_STORY_NAME then
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_26")
 		end
 	end)
 end
@@ -201,7 +206,9 @@ slot0.EndScript = function(slot0, slot1)
 	slot0.script = nil
 
 	slot0.player:OnEnd(slot1)
-	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_END)
+	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_END, slot0.refreshNpc)
+
+	slot0.refreshNpc = nil
 end
 
 slot0.IsRunning = function(slot0)

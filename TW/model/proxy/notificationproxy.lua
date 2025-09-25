@@ -86,4 +86,36 @@ slot0.getUnreadCount = function(slot0)
 	return slot1
 end
 
+slot0.RawgetAllMessages = function(slot0)
+	slot1 = {}
+
+	_.each(getProxy(ChatProxy):getRawData(), function (slot0)
+		table.insert(uv0, slot0)
+	end)
+
+	if getProxy(GuildProxy):getRawData() then
+		_.each(slot3:getChatMsgs(), function (slot0)
+			table.insert(uv0, slot0)
+		end)
+	end
+
+	slot4 = getProxy(FriendProxy)
+
+	_.each(slot4:getCacheMsgList(), function (slot0)
+		table.insert(uv0, slot0)
+	end)
+
+	return slot1
+end
+
+slot0.getAllMessages = function(slot0)
+	slot2 = getProxy(FriendProxy)
+
+	return _(slot0:RawgetAllMessages()):chain():filter(function (slot0)
+		return not uv0:isInBlackList(slot0.playerId)
+	end):sort(function (slot0, slot1)
+		return slot0.timestamp < slot1.timestamp
+	end):value()
+end
+
 return slot0

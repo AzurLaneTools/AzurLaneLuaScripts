@@ -24,8 +24,7 @@ end
 
 slot0.didEnter = function(slot0)
 	slot1 = slot0.guild
-	slot2 = pg.GuildPaintingMgr
-	slot2 = slot2:GetInstance()
+	slot2 = pg.GuildPaintingMgr.GetInstance()
 
 	slot2:Update(slot1:GetOfficePainting(), Vector3(-737, -171, 0))
 
@@ -66,8 +65,8 @@ end
 slot0.willExit = function(slot0)
 	slot0.taskPage:Destroy()
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

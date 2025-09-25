@@ -12,26 +12,39 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0.bg = slot0._tf:Find("bg")
 	slot0.bgColor = slot0.bg:Find("color")
-	slot0.closeBtn = slot0:findTF("top/closeBtn")
-	slot0.title = slot0:findTF("top/title")
-	slot0.resourceList = UIItemList.New(slot0:findTF("top/resources"), slot0:findTF("top/resources/resourceTpl"))
-	slot0.shop1List = UIItemList.New(slot0:findTF("shop1List"), slot0:findTF("shop1List/shop1Tpl"))
-	slot0.shop3 = slot0:findTF("shop3List")
-	slot0.shop3List = UIItemList.New(slot0:findTF("shop3List"), slot0:findTF("shop3List/shop3Tpl"))
-	slot0.shop32 = slot0:findTF("shop3List2")
-	slot0.shop3List2 = UIItemList.New(slot0:findTF("shop3List2"), slot0:findTF("shop3List2/shop3Tpl"))
-	slot0.recommendationPage = slot0:findTF("shopPage/recommendation")
-	slot0.shop2DPage = slot0:findTF("shopPage/shop2D")
-	slot0.shop3DPage = slot0:findTF("shopPage/shop3D")
-	slot0.shopFurniturePage = slot0:findTF("shopPage/shopFurniture")
-	slot0.shopSkinPage = slot0:findTF("shopPage/shopSkin")
+	slot0.closeBtn = slot0._tf:Find("adapt/top/closeBtn")
+	slot0.helpBtn = slot0._tf:Find("adapt/top/helpBtn")
+	slot0.title = slot0:findTF("adapt/top/title")
+	slot0.resourceList = UIItemList.New(slot0:findTF("adapt/top/resources"), slot0:findTF("adapt/top/resources/resourceTpl"))
+	slot0.shop1List = UIItemList.New(slot0:findTF("adapt/shop1List"), slot0:findTF("adapt/shop1List/shop1Tpl"))
+	slot0.shop3 = slot0:findTF("adapt/shop3List")
+	slot0.shop3List = UIItemList.New(slot0:findTF("adapt/shop3List"), slot0:findTF("adapt/shop3List/shop3Tpl"))
+	slot0.shop32 = slot0:findTF("adapt/shop3List2")
+	slot0.shop3List2 = UIItemList.New(slot0:findTF("adapt/shop3List2"), slot0:findTF("adapt/shop3List2/shop3Tpl"))
+	slot0.recommendationPage = slot0:findTF("adapt/shopPage/recommendation")
+	slot0.shop2DPage = slot0:findTF("adapt/shopPage/shop2D")
+	slot0.shop3DPage = slot0:findTF("adapt/shopPage/shop3D")
+	slot0.shopFurniturePage = slot0:findTF("adapt/shopPage/shopFurniture")
+	slot0.shopSkinPage = slot0:findTF("adapt/shopPage/shopSkin")
 	slot0.changeCharaPanel = slot0.shopSkinPage:Find("changeCharaPanel/panel")
-	slot0.subPageContainer = slot0:findTF("subPageContainer")
+	slot0.subPageContainer = slot0:findTF("adapt/subPageContainer")
+	slot0.drawAwardPage = IslandShopDrawAwardPage.New(slot0.subPageContainer, slot0)
+
+	setText(slot0.shopSkinPage:Find("changeCharaPanel/panel/title"), i18n("island_3Dshop_chara_choose"))
+	setText(slot0.shopSkinPage:Find("changeCharaPanel/panel/setTxt"), i18n("island_3Dshop_chara_set"))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.helpBtn, function ()
+		uv0:ShowMsgBox({
+			hideNo = true,
+			type = IslandMsgBox.TYPE_COMMON,
+			content = i18n("island_draw_help"),
+			alignment = TextAnchor.MiddleLeft
+		})
 	end, SFX_PANEL)
 	slot0:InitData()
 end
@@ -43,7 +56,8 @@ slot0.InitData = function(slot0)
 	slot0.player = getProxy(PlayerProxy):getRawData()
 	slot0.ships = slot0.characterAgency:GetShips()
 	slot0.defaultShipId = PlayerPrefs.GetInt("island_dressShop_defaultShipId_" .. slot0.player.id, 10703)
-	slot0.islandShipDressHelper = IslandShipDressHelper.New()
+	slot0.islandShipDressHelper = IslandShipDressHelperNew.New()
+	slot0.drawAwardActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD)
 end
 
 slot0.DoUpdateShops = function(slot0)
@@ -79,193 +93,228 @@ slot0.UpdateData = function(slot0)
 end
 
 slot0.SetShopList = function(slot0)
+	slot0.currentShop1TgIndex = nil
+	slot0.currentShop2TgIndex = nil
+
 	slot0.shop1List:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("shop2List"), false)
-			setActive(slot2:Find("shop1Tg/selected"), uv0.showingShop.id == uv0.firstShopConfigs[slot1 + 1].id or uv0.showingShop:GetFirstShopId() == slot3.id)
-			LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("shop1Tg/selected/icon"), false)
-			setText(slot2:Find("shop1Tg/name"), slot3.tag_icon[1])
-			setText(slot2:Find("shop1Tg/name/en"), slot3.tag_icon[2])
-			onToggle(uv0, slot2:Find("shop1Tg"), function (slot0)
-				setActive(uv0.shop3, false)
-				setActive(uv0.shop32, false)
+			if uv0.firstShopConfigs[slot1] then
+				setActive(slot2:Find("shop2List"), false)
+				LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("shop1Tg/selected/icon"), false)
+				setText(slot2:Find("shop1Tg/name"), slot3.tag_icon[1])
+				setText(slot2:Find("shop1Tg/name/en"), slot3.tag_icon[2])
+				onToggle(uv0, slot2:Find("shop1Tg"), function (slot0)
+					if slot0 then
+						if uv0.currentShop1TgIndex == uv1 then
+							return
+						end
 
-				if slot0 then
-					slot4 = "shop1List"
+						setActive(uv0._tf:Find("adapt/shopPage"), true)
 
-					for slot4 = 0, uv0:findTF(slot4).childCount - 1 do
-						setActive(uv0:findTF("shop1List"):GetChild(slot4):Find("shop1Tg/selected"), false)
-					end
+						if not IsNil(uv0.roleContainer) then
+							setActive(uv0.roleContainer, true)
+						end
 
-					setActive(uv1:Find("shop1Tg/selected"), true)
-					uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected")
-					setActive(uv1:Find("shop2List"), uv2.shop_type == 0)
+						setActive(uv0.shop3, false)
+						setActive(uv0.shop32, false)
+						uv2:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected")
+						setActive(uv2:Find("shop2List"), uv3.shop_type == 0)
 
-					if uv2.shop_type == 0 then
-						slot2 = UIItemList.New(uv1:Find("shop2List"), uv1:Find("shop2List/shop2Tpl"))
+						if uv3.shop_type == 0 then
+							slot2 = UIItemList.New(uv2:Find("shop2List"), uv2:Find("shop2List/shop2Tpl"))
 
-						slot2:make(function (slot0, slot1, slot2)
-							if slot0 == UIItemList.EventUpdate then
-								setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id or uv1.showingShop:GetSecondShopId() == slot3.id)
-								setText(slot2:Find("name"), slot3.tag_icon[1])
-								setText(slot2:Find("selected/name"), slot3.tag_icon[1])
-								onToggle(uv1, slot2, function (slot0)
-									if slot0 then
-										slot4 = "shop2List"
+							slot2:make(function (slot0, slot1, slot2)
+								if slot0 == UIItemList.EventUpdate then
+									setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id or uv1.showingShop:GetSecondShopId() == slot3.id)
+									setText(slot2:Find("name"), slot3.tag_icon[1])
+									setText(slot2:Find("selected/name"), slot3.tag_icon[1])
+									onToggle(uv1, slot2, function (slot0)
+										if slot0 then
+											if uv0.currentShop1TgIndex == uv1 and uv0.currentShop2TgIndex == uv2 + 1 then
+												return
+											end
 
-										for slot4 = 0, uv0:Find(slot4).childCount - 1 do
-											setActive(uv0:Find("shop2List"):GetChild(slot4):Find("selected"), false)
-										end
+											uv3:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected")
+											setActive(uv0.shop3, uv4.shop_type == 0)
+											setActive(uv0.shop32, uv4.shop_type == 0)
 
-										setActive(uv1:Find("selected"), true)
-										uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected")
-										setActive(uv2.shop3, uv3.shop_type == 0)
-										setActive(uv2.shop32, uv3.shop_type == 0)
+											if uv4.shop_type == 0 then
+												slot1 = uv0.shopAgency:GetThirdShopConfigs(uv0.showTypes, uv4.id)
 
-										if uv3.shop_type == 0 then
-											slot1 = uv2.shopAgency:GetThirdShopConfigs(uv2.showTypes, uv3.id)
+												uv0.shop3List:make(function (slot0, slot1, slot2)
+													if slot0 == UIItemList.EventUpdate then
+														setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id)
+														setText(slot2:Find("name"), slot3.tag_icon[1])
+														setText(slot2:Find("selected/name"), slot3.tag_icon[1])
+														setActive(slot2:Find("icon"), slot3.tag_icon[3])
 
-											uv2.shop3List:make(function (slot0, slot1, slot2)
-												if slot0 == UIItemList.EventUpdate then
-													setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id)
-													setText(slot2:Find("name"), slot3.tag_icon[1])
-													setText(slot2:Find("selected/name"), slot3.tag_icon[1])
-													setActive(slot2:Find("icon"), slot3.tag_icon[3])
+														if slot3.tag_icon[3] then
+															LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("icon"), false)
+														end
 
-													if slot3.tag_icon[3] then
-														LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("icon"), false)
-													end
+														slot4 = uv1.shopAgency:GetShopById(slot3.id):IsInTime()
 
-													slot4 = uv1.shopAgency:GetShopById(slot3.id):IsInTime()
+														setActive(slot2:Find("lock"), not slot4)
+														setActive(slot2:Find("selected/lock"), not slot4)
+														onToggle(uv1, slot2, function (slot0)
+															if slot0 then
+																for slot4 = 0, uv0.shop3.childCount - 1 do
+																	setActive(uv0.shop3:GetChild(slot4):Find("selected"), false)
+																end
 
-													setActive(slot2:Find("lock"), not slot4)
-													setActive(slot2:Find("selected/lock"), not slot4)
-													onToggle(uv1, slot2, function (slot0)
-														if slot0 then
-															for slot4 = 0, uv0.shop3.childCount - 1 do
-																setActive(uv0.shop3:GetChild(slot4):Find("selected"), false)
+																setActive(uv1:Find("selected"), true)
+																uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop3List_Selected")
+
+																uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
+
+																uv0:DoUpdateShowingShop()
 															end
+														end, SFX_PANEL)
 
-															setActive(uv1:Find("selected"), true)
-															uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop3List_Selected")
-
-															uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
-
-															uv0:DoUpdateShowingShop()
-														end
-													end, SFX_PANEL)
-
-													if uv1.showingShop.id == slot3.id then
-														triggerToggle(slot2, true)
-													end
-
-													if slot1 == 0 then
-														slot5 = {}
-
-														for slot9, slot10 in ipairs(uv0) do
-															table.insert(slot5, slot10.id)
-														end
-
-														if not table.contains(slot5, uv1.showingShop.id) then
+														if uv1.showingShop.id == slot3.id then
 															triggerToggle(slot2, true)
 														end
-													end
-												end
-											end, SFX_PANEL)
-											uv2.shop3List:align(#slot1)
-											uv2.shop3List2:make(function (slot0, slot1, slot2)
-												if slot0 == UIItemList.EventUpdate then
-													setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id)
-													setText(slot2:Find("name"), slot3.tag_icon[1])
-													setText(slot2:Find("selected/name"), slot3.tag_icon[1])
-													setActive(slot2:Find("icon"), slot3.tag_icon[3])
 
-													if slot3.tag_icon[3] then
-														LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("icon"), false)
-													end
+														if slot1 == 0 then
+															slot5 = {}
 
-													slot4 = uv1.shopAgency:GetShopById(slot3.id):IsInTime()
-
-													setActive(slot2:Find("lock"), not slot4)
-													setActive(slot2:Find("selected/lock"), not slot4)
-													onToggle(uv1, slot2, function (slot0)
-														if slot0 then
-															for slot4 = 0, uv0.shop32.childCount - 1 do
-																setActive(uv0.shop32:GetChild(slot4):Find("selected"), false)
+															for slot9, slot10 in ipairs(uv0) do
+																table.insert(slot5, slot10.id)
 															end
 
-															setActive(uv1:Find("selected"), true)
-
-															uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
-
-															uv0:DoUpdateShowingShop()
+															if not table.contains(slot5, uv1.showingShop.id) then
+																triggerToggle(slot2, true)
+															end
 														end
-													end, SFX_PANEL)
-
-													if uv1.showingShop.id == slot3.id then
-														triggerToggle(slot2, true)
 													end
+												end, SFX_PANEL)
+												uv0.shop3List:align(#slot1)
+												uv0.shop3List2:make(function (slot0, slot1, slot2)
+													if slot0 == UIItemList.EventUpdate then
+														setActive(slot2:Find("selected"), uv1.showingShop.id == uv0[slot1 + 1].id)
+														setText(slot2:Find("name"), slot3.tag_icon[1])
+														setText(slot2:Find("selected/name"), slot3.tag_icon[1])
+														setActive(slot2:Find("icon"), slot3.tag_icon[3])
 
-													if slot1 == 0 then
-														slot5 = {}
-
-														for slot9, slot10 in ipairs(uv0) do
-															table.insert(slot5, slot10.id)
+														if slot3.tag_icon[3] then
+															LoadImageSpriteAsync(slot3.tag_icon[3], slot2:Find("icon"), false)
 														end
 
-														if not table.contains(slot5, uv1.showingShop.id) then
+														slot4 = uv1.shopAgency:GetShopById(slot3.id):IsInTime()
+
+														setActive(slot2:Find("lock"), not slot4)
+														setActive(slot2:Find("selected/lock"), not slot4)
+														onToggle(uv1, slot2, function (slot0)
+															if slot0 then
+																for slot4 = 0, uv0.shop32.childCount - 1 do
+																	setActive(uv0.shop32:GetChild(slot4):Find("selected"), false)
+																end
+
+																setActive(uv1:Find("selected"), true)
+
+																uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
+
+																uv0:DoUpdateShowingShop()
+															end
+														end, SFX_PANEL)
+
+														if uv1.showingShop.id == slot3.id then
 															triggerToggle(slot2, true)
 														end
+
+														if slot1 == 0 then
+															slot5 = {}
+
+															for slot9, slot10 in ipairs(uv0) do
+																table.insert(slot5, slot10.id)
+															end
+
+															if not table.contains(slot5, uv1.showingShop.id) then
+																triggerToggle(slot2, true)
+															end
+														end
 													end
-												end
-											end, SFX_PANEL)
-											uv2.shop3List2:align(#slot1)
+												end, SFX_PANEL)
+												uv0.shop3List2:align(#slot1)
+											else
+												uv0.showingShop = uv0.shopAgency:GetShopById(uv4.id)
 
-											return
+												uv0:DoUpdateShowingShop()
+											end
+
+											uv0.currentShop2TgIndex = uv2 + 1
 										end
+									end, SFX_PANEL)
 
-										uv2.showingShop = uv2.shopAgency:GetShopById(uv3.id)
-
-										uv2:DoUpdateShowingShop()
-									end
-								end, SFX_PANEL)
-
-								if uv1.showingShop.id == slot3.id or uv1.showingShop:GetSecondShopId() == slot3.id then
-									triggerToggle(slot2, true)
-								end
-
-								if slot1 == 0 then
-									slot4 = {}
-
-									for slot8, slot9 in ipairs(uv0) do
-										table.insert(slot4, slot9.id)
-									end
-
-									if uv1.showingShop:GetTagType() == 2 and not table.contains(slot4, uv1.showingShop.id) or uv1.showingShop:GetTagType() == 3 and not table.contains(slot4, uv1.showingShop:GetSecondShopId()) then
+									if uv1.showingShop.id == slot3.id or uv1.showingShop:GetSecondShopId() == slot3.id then
 										triggerToggle(slot2, true)
 									end
+
+									if slot1 == 0 then
+										slot4 = {}
+
+										for slot8, slot9 in ipairs(uv0) do
+											table.insert(slot4, slot9.id)
+										end
+
+										if not table.contains(slot4, uv1.showingShop.id) and not table.contains(slot4, uv1.showingShop:GetSecondShopId()) then
+											triggerToggle(slot2, true)
+										end
+									end
 								end
-							end
-						end)
-						slot2:align(#uv0.shopAgency:GetSecondShopConfigs(uv0.showTypes, uv2.id))
+							end)
+							slot2:align(#uv0.shopAgency:GetSecondShopConfigs(uv0.showTypes, uv3.id))
+						else
+							uv0.showingShop = uv0.shopAgency:GetShopById(uv3.id)
 
-						return
+							uv0:DoUpdateShowingShop()
+						end
+
+						uv0.currentShop1TgIndex = uv1
+					else
+						setActive(uv2:Find("shop2List"), false)
 					end
+				end, SFX_PANEL)
 
-					uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
-
-					uv0:DoUpdateShowingShop()
-				else
-					setActive(uv1:Find("shop2List"), false)
+				if uv0.showingShop.id == slot3.id or uv0.showingShop:GetFirstShopId() == slot3.id then
+					triggerToggle(slot2:Find("shop1Tg"), true)
 				end
-			end, SFX_PANEL)
+			else
+				setActive(slot2:Find("shop2List"), false)
+				setText(slot2:Find("shop1Tg/name"), i18n("island_draw_tab"))
+				setText(slot2:Find("shop1Tg/name/en"), i18n("island_draw_tab_en"))
+				setActive(slot2:Find("shop1Tg/selected/icon"), false)
+				onToggle(uv0, slot2:Find("shop1Tg"), function (slot0)
+					if slot0 then
+						if uv0.currentShop1TgIndex == uv1 then
+							return
+						end
 
-			if uv0.showingShop.id == slot3.id or uv0.showingShop:GetFirstShopId() == slot3.id then
-				triggerToggle(slot2:Find("shop1Tg"), true)
+						uv0.currentShop1TgIndex = uv1
+
+						uv2:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected")
+						setText(uv0.title:Find("Text"), i18n("island_draw_tab"))
+						uv0:SetResources()
+						setActive(uv0._tf:Find("adapt/shopPage"), false)
+
+						if not IsNil(uv0.roleContainer) then
+							setActive(uv0.roleContainer, false)
+						end
+
+						setActive(uv0.shop3, false)
+						setActive(uv0.shop32, false)
+						uv0.drawAwardPage:ActionInvoke("UpdateActivity", uv0.drawAwardActivity)
+						uv0.drawAwardPage:ExecuteAction("Show")
+					else
+						uv0.drawAwardPage:ExecuteAction("Hide")
+					end
+				end, SFX_PANEL)
 			end
 		end
 	end)
-	slot0.shop1List:align(#slot0.firstShopConfigs)
+	slot0.shop1List:align(#slot0.firstShopConfigs + (slot0.showDrawAward and slot0.drawAwardActivity and 1 or 0))
 end
 
 slot0.SetShopPage = function(slot0)
@@ -298,26 +347,68 @@ end
 
 slot0.SetResources = function(slot0)
 	slot0.player = getProxy(PlayerProxy):getRawData()
+	slot1 = not slot0.firstShopConfigs[slot0.currentShop1TgIndex]
+
+	setActive(slot0.helpBtn, slot1)
+
+	if slot1 then
+		slot2 = {}
+
+		table.insert(slot2, Drop.New({
+			type = DROP_TYPE_VITEM,
+			id = slot0.drawAwardActivity:GetDrawConfig("cost_free")
+		}))
+		table.insert(slot2, Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond
+		}))
+		slot0.resourceList:make(function (slot0, slot1, slot2)
+			slot1 = slot1 + 1
+
+			if slot0 == UIItemList.EventUpdate then
+				slot3 = uv0[slot1]
+				slot4 = nil
+
+				eachChild(slot2, function (slot0, slot1)
+					setActive(slot0, slot0.name == "islandItem")
+
+					if slot0.name == "islandItem" then
+						uv0 = slot0
+					end
+				end)
+				GetImageSpriteFromAtlasAsync(slot3:getIcon(), "", slot4:Find("icon"))
+				setText(slot4:Find("Text"), slot3:getOwnedCount())
+				setActive(slot4:Find("add"), false)
+				setActive(slot4:Find("add"), false)
+				setActive(slot4:Find("descBtn"), false)
+				setActive(slot4:Find("resourceDesc"), false)
+			end
+		end)
+		slot0.resourceList:align(#slot2)
+
+		return
+	end
 
 	slot0.resourceList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
-			slot5 = slot3[2]
+			slot4 = slot3[1]
+			slot6 = slot3[3]
 
 			setActive(slot2:Find("gold"), false)
 			setActive(slot2:Find("oil"), false)
 			setActive(slot2:Find("gem"), false)
 			setActive(slot2:Find("islandItem"), false)
 
-			if slot3[1] == DROP_TYPE_RESOURCE then
-				if slot5 == 1 then
+			if slot3[2] == DROP_TYPE_RESOURCE then
+				if slot6 == 1 then
 					setActive(slot2:Find("gold"), true)
 					setText(slot2:Find("gold/max"), "MAX: " .. uv1.player:getLevelMaxGold())
 					setText(slot2:Find("gold/Text"), uv1.player.gold)
-				elseif slot5 == 4 or slot5 == 14 then
+				elseif slot6 == 4 or slot6 == 14 then
 					setText(slot2:Find("count"), uv1.player:getTotalGem())
 
-					slot6 = function()
+					slot7 = function()
 						if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 								wrap = ChargeScene.TYPE_DIAMOND
@@ -332,24 +423,31 @@ slot0.SetResources = function(slot0)
 							fontSize = 23,
 							yesText = "text_buy",
 							content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
-							onYes = slot6,
+							onYes = slot7,
 							alignment = TextAnchor.UpperLeft,
 							weight = LayerWeightConst.TOP_LAYER
 						})
 					else
-						slot6()
+						slot7()
 					end
 				end
-			elseif slot4 == DROP_TYPE_ISLAND_ITEM then
+			elseif slot5 == DROP_TYPE_ISLAND_ITEM then
 				setActive(slot2:Find("islandItem"), true)
-
-				slot8 = uv1.inventoryAgency
-
-				setText(slot2:Find("islandItem/Text"), slot8:GetOwnCount(slot5))
+				setText(slot2:Find("islandItem/Text"), uv1.inventoryAgency:GetOwnCount(slot6))
 				GetImageSpriteFromAtlasAsync(Drop.New({
 					type = DROP_TYPE_ISLAND_ITEM,
-					id = slot5
+					id = slot6
 				}):getIcon(), "", slot2:Find("islandItem/icon"))
+				setActive(slot2:Find("islandItem/descBtn"), slot4 == 1)
+				setActive(slot2:Find("islandItem/resourceDesc"), false)
+
+				if slot4 == 1 then
+					setText(slot2:Find("islandItem/Text"), slot7 .. "/" .. pg.island_item_data_template[slot6].have_max)
+					onButton(uv1, slot2:Find("islandItem"), function ()
+						setActive(uv0:Find("islandItem/resourceDesc"), not isActive(uv0:Find("islandItem/resourceDesc")))
+						setText(uv0:Find("islandItem/resourceDesc"), i18n("island_3Dshop_res_have") .. uv1)
+					end, SFX_PANEL)
+				end
 			end
 		end
 	end)
@@ -392,13 +490,13 @@ slot0.SetCloseAndRefresh = function(slot0, slot1)
 		slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 
 		if uv0 ~= 0 then
-			setText(uv1:findTF("remainAndRefresh/remainTimer", uv2), "商店剩余" .. pg.TimeMgr.GetInstance():DescCDTime(uv0 - slot0) .. "关闭")
+			setText(uv1:findTF("remainAndRefresh/remainTimer", uv2), i18n("island_3Dshop_time_close", pg.TimeMgr.GetInstance():DescCDTime(uv0 - slot0)))
 		elseif normalShopExistTime and type(normalShopExistTime) == "table" then
 			-- Nothing
 		end
 
 		if uv3 ~= 0 then
-			setText(uv1:findTF("remainAndRefresh/refresh/refreshTimer", uv2), pg.TimeMgr.GetInstance():DescCDTime(uv3 - slot0) .. "后刷新")
+			setText(uv1:findTF("remainAndRefresh/refresh/refreshTimer", uv2), i18n("island_3Dshop_time_refresh", pg.TimeMgr.GetInstance():DescCDTime(uv3 - slot0)))
 
 			if uv3 < slot0 then
 				uv1:DoUpdateShowingShop()
@@ -432,7 +530,7 @@ slot0.SetCloseAndRefresh = function(slot0, slot1)
 					end
 				})
 			else
-				pg.TipsMgr.GetInstance():ShowTips("刷新次数到上限啦哥们")
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_refresh_limit"))
 			end
 		end, SFX_PANEL)
 	end
@@ -506,7 +604,7 @@ slot0.SetCommodity = function(slot0, slot1, slot2)
 	end
 
 	setActive(slot1:Find("have"), slot2:IsShowHave())
-	setText(slot1:Find("have"), "持有：" .. slot8)
+	setText(slot1:Find("have"), i18n("island_3Dshop_have") .. slot8)
 	setActive(slot1:Find("hold"), slot2:IsShowHold() and (slot8 > 0 or slot2:IsCharacterInviteItemHold()))
 	setActive(slot1:Find("cost"), not isActive(slot1:Find("sellOut")) and not isActive(slot1:Find("hold")))
 	setActive(slot1:Find("notInTime"), not slot0.showingShop:IsInTime())
@@ -523,40 +621,94 @@ slot0.SetCommodity = function(slot0, slot1, slot2)
 				end,
 				[IslandConst.COMMODITY_SHOW_DRESS] = function ()
 					if #uv0:GetItems() > 1 then
-						uv1.shoppingCartCommodities = {
-							uv0
-						}
-
-						uv1.islandShipDressHelper:ResetDressUp()
-					else
-						if #uv1.shoppingCartCommodities > 0 and #uv1.shoppingCartCommodities[1]:GetItems() > 1 then
+						if #uv1.shoppingCartCommodities == 1 and uv1.shoppingCartCommodities[1].id == uv0.id then
 							uv1.shoppingCartCommodities = {}
+
+							uv1.islandShipDressHelper:ResetDressUp()
+						else
+							uv1.shoppingCartCommodities = {
+								uv0
+							}
+
+							for slot3, slot4 in ipairs(uv0:GetItems()) do
+								slot5 = nil
+
+								if slot4[1] == DROP_TYPE_ISLAND_DRESS and pg.island_dress_template[slot4[2]] then
+									slot5 = slot6.type
+								end
+
+								uv1.islandShipDressHelper:ChangeDressByType(slot5, {
+									colorId = 0,
+									id = slot4[2]
+								})
+							end
 						end
 
-						slot0 = 0
+						setText(uv1.shopSkinPage:Find("shoppingCartBtn/count"), (#uv1.shoppingCartCommodities > 0 and #uv0:GetItems() or 0) .. "/3")
+					else
+						slot2 = false
+						slot3 = false
+						slot4 = pg.island_dress_template[uv0:GetItems()[1][2]]
 
-						for slot4, slot5 in ipairs(uv1.shoppingCartCommodities) do
-							if slot5:GetDressType() == uv0:GetDressType() then
-								slot0 = slot5.id
+						if uv1.characterAgency:GetShipById(uv1.showingShipId):GetCurrentSkinId() ~= 0 then
+							if slot4.exclusive_skin ~= "" then
+								for slot9, slot10 in ipairs(slot5) do
+									if slot10 == slot1 then
+										slot3 = true
+									end
+								end
+							end
+						elseif slot4.exclusive_default_skin ~= "" then
+							for slot9, slot10 in ipairs(slot5) do
+								if slot10 == slot0.id then
+									slot2 = true
+								end
+							end
+						end
 
-								table.remove(uv1.shoppingCartCommodities, slot4)
+						if slot2 or slot3 then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive1", slot4.name))
+
+							return
+						end
+
+						if #uv1.shoppingCartCommodities > 0 and #uv1.shoppingCartCommodities[1]:GetItems() > 1 then
+							uv1.shoppingCartCommodities = {}
+
+							uv1.islandShipDressHelper:ResetDressUp()
+						end
+
+						slot6 = 0
+
+						for slot10, slot11 in ipairs(uv1.shoppingCartCommodities) do
+							if slot11:GetDressType() == uv0:GetDressType() then
+								slot6 = slot11.id
+
+								table.remove(uv1.shoppingCartCommodities, slot10)
 
 								break
 							end
 						end
 
-						if uv0.id == slot0 then
-							uv1.islandShipDressHelper:ChangeDressByType(uv0:GetDressType(), 0)
+						if uv0.id == slot6 then
+							uv1.islandShipDressHelper:ChangeDressByType(uv0:GetDressType(), {
+								id = 0,
+								colorId = 0
+							})
 						else
 							table.insert(uv1.shoppingCartCommodities, uv0)
-							uv1.islandShipDressHelper:ChangeDressByType(uv0:GetDressType(), uv0:GetItems()[1][2])
+							uv1.islandShipDressHelper:ChangeDressByType(uv0:GetDressType(), {
+								colorId = 0,
+								id = uv0:GetItems()[1][2]
+							})
 						end
+
+						setText(uv1.shopSkinPage:Find("shoppingCartBtn/count"), #uv1.shoppingCartCommodities .. "/3")
 					end
 
 					setActive(uv1.shopSkinPage:Find("cancelBtn"), #uv1.shoppingCartCommodities > 0)
 					setActive(uv1.shopSkinPage:Find("shoppingCartBtn"), #uv1.shoppingCartCommodities > 0)
 					setActive(uv1.shopSkinPage:Find("shoppingCartBtn/count"), true)
-					setText(uv1.shopSkinPage:Find("shoppingCartBtn/count"), #uv1.shoppingCartCommodities .. "/3")
 
 					if #uv1.shoppingCartCommodities > 0 then
 						slot2 = uv1.shopSkinPage
@@ -624,15 +776,15 @@ slot0.SetCommodity = function(slot0, slot1, slot2)
 							uv1
 						}
 
-						uv0:LoadCharacter(pg.island_unit_character[pg.island_skin_template[uv1:GetItems()[1][2]].model])
+						uv0:LoadCharacter(pg.island_unit_character[pg.island_skin_template[uv1:GetItems()[1][2]].model], false)
 					else
 						uv0.showingCommodity = nil
 						uv0.shoppingCartCommodities = {}
 
-						uv0:LoadCharacter(uv0.characterAgency:GetShipById(uv0.showingShipId):GetModel())
+						uv0:UnloadCharacter()
 					end
 
-					setActive(uv0.shopSkinPage:Find("cancelBtn"), #uv0.shoppingCartCommodities > 0)
+					setActive(uv0.shopSkinPage:Find("cancelBtn"), false)
 					setActive(uv0.shopSkinPage:Find("shoppingCartBtn"), #uv0.shoppingCartCommodities > 0)
 					setActive(uv0.shopSkinPage:Find("shoppingCartBtn/count"), false)
 					setText(uv0.shopSkinPage:Find("shoppingCartBtn/count"), #uv0.shoppingCartCommodities .. "/3")
@@ -643,7 +795,7 @@ slot0.SetCommodity = function(slot0, slot1, slot2)
 						onButton(uv0, slot2:Find("cancelBtn"), function ()
 							uv0.shoppingCartCommodities = {}
 
-							uv0:LoadCharacter(uv0.characterAgency:GetShipById(uv0.showingShipId):GetModel())
+							uv0:LoadCharacter(uv0.characterAgency:GetShipById(uv0.showingShipId):GetModel(), false)
 							setActive(uv0.shopSkinPage:Find("cancelBtn"), false)
 							setActive(uv0.shopSkinPage:Find("shoppingCartBtn"), false)
 							setText(uv0.shopSkinPage:Find("shoppingCartBtn/count"), "0/3")
@@ -658,6 +810,9 @@ slot0.SetCommodity = function(slot0, slot1, slot2)
 					end
 
 					uv0:SetCommodityList()
+				end,
+				[IslandConst.COMMODITY_SHOW_INVITE] = function ()
+					uv1.myIslandShopItemLayer = uv1:OpenPage(IslandShopItemLayer, uv1.showingShop.id, uv0, uv0:GetItems()[1][2])
 				end
 			})
 		end, SFX_PANEL)
@@ -691,17 +846,12 @@ end
 slot0.ShowRecommendation = function(slot0)
 	slot0:ClearCharacterScene()
 
-	slot6 = "bg"
+	slot6 = slot0.bg
 
-	pg.UIMgr.GetInstance():ShutdownPartialBlur({
-		slot0.bg,
-		slot0.shop3DPage:Find("bg"),
-		slot0.shopFurniturePage:Find("bg"),
-		slot0.shopSkinPage:Find(slot6),
-		slot0.changeCharaPanel
-	})
-	pg.UIMgr.GetInstance():PartialBlurTfs({
-		slot0.bg
+	slot0:OverlayPanel(slot0._tf, {
+		pbList = {
+			slot6
+		}
 	})
 	setActive(slot0.bgColor, true)
 
@@ -729,15 +879,10 @@ end
 
 slot0.ShowShop2D = function(slot0)
 	slot0:ClearCharacterScene()
-	pg.UIMgr.GetInstance():ShutdownPartialBlur({
-		slot0.bg,
-		slot0.shop3DPage:Find("bg"),
-		slot0.shopFurniturePage:Find("bg"),
-		slot0.shopSkinPage:Find("bg"),
-		slot0.changeCharaPanel
-	})
-	pg.UIMgr.GetInstance():PartialBlurTfs({
-		slot0.bg
+	slot0:OverlayPanel(slot0._tf, {
+		pbList = {
+			slot0.bg
+		}
 	})
 	setActive(slot0.bgColor, true)
 
@@ -760,14 +905,14 @@ slot0.ShowShop2D = function(slot0)
 		slot0.timer = Timer.New(function ()
 			slot0 = uv0.showingShop:GetExistTime()[1]
 
-			setText(uv0.shop2DPage:Find("lock/openTimer"), "剩余" .. pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():Table2ServerTime({
+			setText(uv0.shop2DPage:Find("lock/openTimer"), i18n("island_3Dshop_time_unlock", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():Table2ServerTime({
 				year = slot0[1][1],
 				month = slot0[1][2],
 				day = slot0[1][3],
 				hour = slot0[2][1],
 				min = slot0[2][2],
 				sec = slot0[2][3]
-			}) - pg.TimeMgr.GetInstance():GetServerTime()) .. "解锁")
+			}) - pg.TimeMgr.GetInstance():GetServerTime())))
 		end, 1, -1)
 
 		slot0.timer:Start()
@@ -778,15 +923,10 @@ end
 
 slot0.ShowShop3D = function(slot0)
 	slot0:ClearCharacterScene()
-	pg.UIMgr.GetInstance():ShutdownPartialBlur({
-		slot0.bg,
-		slot0.shop3DPage:Find("bg"),
-		slot0.shopFurniturePage:Find("bg"),
-		slot0.shopSkinPage:Find("bg"),
-		slot0.changeCharaPanel
-	})
-	pg.UIMgr.GetInstance():PartialBlurTfs({
-		slot0.shop3DPage:Find("bg")
+	slot0:OverlayPanel(slot0._tf, {
+		pbList = {
+			slot0.shop3DPage:Find("bg")
+		}
 	})
 	setActive(slot0.bgColor, false)
 
@@ -801,15 +941,10 @@ slot0.ShowShopFurniture = function(slot0)
 		slot0:PrepareCharacterScene()
 	end
 
-	pg.UIMgr.GetInstance():ShutdownPartialBlur({
-		slot0.bg,
-		slot0.shop3DPage:Find("bg"),
-		slot0.shopFurniturePage:Find("bg"),
-		slot0.shopSkinPage:Find("bg"),
-		slot0.changeCharaPanel
-	})
-	pg.UIMgr.GetInstance():PartialBlurTfs({
-		slot0.shopFurniturePage:Find("bg")
+	slot0:OverlayPanel(slot0._tf, {
+		pbList = {
+			slot0.shopFurniturePage:Find("bg")
+		}
 	})
 	setActive(slot0.bgColor, false)
 	slot0:UnloadCharacter()
@@ -827,16 +962,11 @@ slot0.ShowShopSkin = function(slot0)
 		slot0:PrepareCharacterScene()
 	end
 
-	pg.UIMgr.GetInstance():ShutdownPartialBlur({
-		slot0.bg,
-		slot0.shop3DPage:Find("bg"),
-		slot0.shopFurniturePage:Find("bg"),
-		slot0.shopSkinPage:Find("bg"),
-		slot0.changeCharaPanel
-	})
-	pg.UIMgr.GetInstance():PartialBlurTfs({
-		slot0.shopSkinPage:Find("bg"),
-		slot0.changeCharaPanel
+	slot0:OverlayPanel(slot0._tf, {
+		pbList = {
+			slot0.shopSkinPage:Find("bg"),
+			slot0.changeCharaPanel
+		}
 	})
 	setActive(slot0.bgColor, false)
 
@@ -850,14 +980,24 @@ slot0.ShowShopSkin = function(slot0)
 
 	if slot0.showingShop:GetCommanderOrCharaType() == 0 and (slot0.showingShipId ~= 0 or #slot0.shoppingCartCommodities == 0) then
 		slot0.showingShipId = 0
+		slot2 = pg.island_unit_character[0]
 
-		slot0:LoadCharacter(pg.island_unit_character[pg.island_dress_commander[getProxy(IslandProxy):GetIsland():GetDressUpAgency():GetCurCommderId()].model])
+		slot0:LoadCharacter({
+			model = slot2.model,
+			animator = slot2.animator
+		}, true)
 
 		slot0.shoppingCartCommodities = {}
 	elseif slot1 == 1 and (slot0.showingShipId ~= slot0.selectShipId or #slot0.shoppingCartCommodities == 0) then
 		slot0.showingShipId = slot0.selectShipId
 
-		slot0:LoadCharacter(slot0.characterAgency:GetShipById(slot0.showingShipId):GetModel())
+		slot0:LoadCharacter(slot0.characterAgency:GetShipById(slot0.showingShipId):GetModel(), false)
+
+		slot0.shoppingCartCommodities = {}
+	elseif slot1 == 2 then
+		slot0.showingShipId = slot0.selectShipId
+
+		slot0:UnloadCharacter()
 
 		slot0.shoppingCartCommodities = {}
 	end
@@ -906,7 +1046,7 @@ slot0.SetChangeCharaPanel = function(slot0)
 					uv0.selectShipId = uv2.id
 					uv0.showingShipId = uv2.id
 
-					uv0:LoadCharacter(uv2:GetModel())
+					uv0:LoadCharacter(uv2:GetModel(), false)
 
 					uv0.shoppingCartCommodities = {}
 
@@ -958,11 +1098,15 @@ end
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SHOP_OP_DONE, slot0.UpdateView)
 	slot0:AddListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
+	slot0:AddListener(ActivityProxy.ACTIVITY_UPDATED, slot0.UpdateActivity)
+	slot0:AddListener(GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE, slot0.DrawOperation)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, slot0.UpdateView)
 	slot0:RemoveListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
+	slot0:RemoveListener(ActivityProxy.ACTIVITY_UPDATED, slot0.UpdateActivity)
+	slot0:RemoveListener(GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE, slot0.DrawOperation)
 end
 
 slot0.UpdateView = function(slot0, slot1)
@@ -982,15 +1126,15 @@ slot0.UpdateView = function(slot0, slot1)
 			slot0.myIslandShoppingCartLayer:Hide()
 		end
 
-		slot0:OpenPage(IslandShopBuySuccessLayer, slot1.awards, slot1.ptAward, function ()
+		slot0:OpenPage(IslandShopBuySuccessLayer, slot1.awards, function ()
 			if uv0.showingShop:GetShowType() == IslandConst.SHOP_TYPE_SKIN then
 				uv0:ShowMsgBox({
-					content = "是否跳转装扮界面",
 					type = IslandMsgBox.TYPE_COMMON,
+					content = i18n("island_3Dshop_clothes_jump"),
 					onYes = function ()
 						if uv0.showingShop:GetCommanderOrCharaType() == 0 then
 							uv0:OpenScenePage(IslandShipIslandCommanderMainPage)
-						elseif uv0.showingShop:GetCommanderOrCharaType() == 1 then
+						elseif slot0 == 1 or slot0 == 2 then
 							uv0:OpenScenePage(IslandShipMainPage, 3)
 						end
 
@@ -1013,12 +1157,25 @@ slot0.OnSwitchMapByPoint = function(slot0)
 	slot0:PrepareCharacterScene()
 end
 
+slot0.UpdateActivity = function(slot0, slot1)
+	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD then
+		slot0.drawAwardActivity = slot1
+
+		slot0.drawAwardPage:ActionInvoke("UpdateActivity", slot0.drawAwardActivity)
+		slot0:SetResources()
+	end
+end
+
+slot0.DrawOperation = function(slot0, slot1)
+	slot0.drawAwardPage:ActionInvoke("DrawOperation", slot1)
+end
+
 slot0.Preload = function(slot0, slot1)
 	slot1()
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return GetOrAddComponent(slot0._tf:Find("model"), typeof(SmoothRotateObject))
+	return slot0._tf:Find("adapt/model")
 end
 
 slot0.LoadFurniture = function(slot0, slot1, slot2)
@@ -1029,9 +1186,8 @@ slot0.LoadFurniture = function(slot0, slot1, slot2)
 	end
 
 	slot0.isLoadingModel = true
-	slot3 = ResourceMgr.Inst
 
-	slot3:getAssetAsync(slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	table.insert(slot0.loadingIdList or {}, IslandAssetLoadDispatcher.Instance:Enqueue(slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0.role = Object.Instantiate(slot0)
 		slot2 = GameObject.New(uv0.role.name)
 
@@ -1046,15 +1202,15 @@ slot0.LoadFurniture = function(slot0, slot1, slot2)
 		uv0.role.transform.localPosition = Vector3(uv1[1][1], uv1[1][2], 0)
 		uv0.role.transform.localEulerAngles = Vector3(0, uv1[2], 0)
 		uv0.role.transform.localScale = Vector3(uv1[3], uv1[3], uv1[3])
-		slot3 = uv0:GetSmoothRotateObject()
+		slot4 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
 
-		slot3:SetUp(uv0.role.transform)
+		slot4:SetUp(uv0.role.transform)
 
-		slot3.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
-	end), true, true)
+		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+	end), true, true))
 end
 
-slot0.LoadCharacter = function(slot0, slot1)
+slot0.LoadCharacter = function(slot0, slot1, slot2)
 	slot0:UnloadCharacter()
 
 	if slot0.isLoadingModel then
@@ -1062,48 +1218,84 @@ slot0.LoadCharacter = function(slot0, slot1)
 	end
 
 	slot0.isLoadingModel = true
-	slot2 = slot0.islandShipDressHelper
+	slot3 = slot0.islandShipDressHelper
 
-	slot2:Reset()
+	slot3:SetShipId(slot0.showingShipId)
 
-	slot2 = slot0.islandShipDressHelper
+	slot0.isCommander = slot2
+	slot0.modelData = slot1
 
-	slot2:SetShipId(slot0.showingShipId)
-
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync(slot1.model, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0.role = Object.Instantiate(slot0)
-		slot2 = GameObject.New(uv0.role.name)
-
-		setParent(uv0.role, slot2.transform, false)
-
-		uv0.role = slot2
+	slot3 = function(slot0)
+		uv0.role = slot0
 		uv0.isLoadingModel = false
 
 		pg.ViewUtils.SetLayer(uv0.role.transform, Layer.Character3D)
 		setParent(uv0.role, uv0.roleContainer)
 
-		uv0.role.transform.localPosition = Vector3(2.7, 0, 0)
+		slot1 = 2.7
+
+		if uv0._tf.rect.width / uv0._tf.rect.height < 1.7777777777777777 then
+			slot1 = 2.7 - 0.5 * (1.7777777777777777 - slot2) / 0.4444444444444444
+		end
+
+		uv0.role.transform.localPosition = Vector3(slot1, 0, 0)
 		uv0.role.transform.localEulerAngles = Vector3(0, -155, 0)
-		GetOrAddComponent(uv0.role.transform:GetChild(0), typeof(Animator)).runtimeAnimatorController = LoadAny(uv1.animator, nil, typeof(RuntimeAnimatorController))
-		slot5 = uv0:GetSmoothRotateObject()
+		slot4 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
 
-		slot5:SetUp(uv0.role.transform)
+		slot4:SetUp(uv0.role.transform)
 
-		slot5.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+
+		if uv0.modelData and uv0.modelData.personal_ani and slot6 ~= "" then
+			for slot11 = 1, GetOrAddComponent(uv0.role.transform:GetChild(0), typeof(Animator)).layerCount do
+				slot7:CrossFadeInFixedTime(slot6, 0, slot11 - 1)
+			end
+		end
 
 		uv0.islandShipDressHelper:OnRoleLoaded(uv0.role.transform)
-	end), true, true)
+	end
+
+	if slot0.isCommander then
+		slot4 = slot0:GetPoolMgr()
+
+		slot4:GetCommanderModel(slot1, function (slot0)
+			uv0(slot0)
+		end)
+	else
+		slot4 = slot0:GetPoolMgr()
+
+		slot4:GetCharacter(slot1.model, slot1.animator, function (slot0)
+			uv0(slot0)
+		end)
+	end
 end
 
-slot0.OnShow = function(slot0, slot1, slot2)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = "IslandShop"
-	})
+slot0.UnloadCharacter = function(slot0)
+	slot0.islandShipDressHelper:Destroy()
+
+	if slot0.role then
+		pg.ViewUtils.SetLayer(slot0.role.transform, Layer.Default)
+
+		if slot0.isCommander then
+			slot0:GetPoolMgr():ReturnCommanderModel(slot0.role)
+		elseif slot0.modelData then
+			slot0:GetPoolMgr():ReturnCharacter(slot0.modelData.model, slot0.modelData.animator, slot0.role)
+
+			slot0.modelData = nil
+		end
+
+		slot0.role = nil
+	end
+
+	slot0.modelData = nil
+end
+
+slot0.OnShow = function(slot0, slot1, slot2, slot3)
+	slot0:OverlayPanel(slot0._tf)
 
 	slot0.showTypes = slot1
 	slot0.firstShopIds = slot2
+	slot0.showDrawAward = slot3 == 1
 
 	slot0:DoUpdateShops()
 	slot0:UpdateData()
@@ -1111,7 +1303,7 @@ slot0.OnShow = function(slot0, slot1, slot2)
 end
 
 slot0.OnHide = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.timer then
 		slot0.timer:Stop()
@@ -1121,8 +1313,19 @@ slot0.OnHide = function(slot0)
 
 	slot0.shoppingCartCommodities = {}
 
-	slot0.islandShipDressHelper:Destory()
+	slot0.islandShipDressHelper:Destroy()
 	slot0:UnloadCharacter()
+	slot0.drawAwardPage:Destroy()
+	slot0.drawAwardPage:Reset()
+
+	slot1 = ipairs
+	slot2 = slot0.loadingIdList or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		IslandAssetLoadDispatcher.Instance:Cancel(slot5)
+	end
+
+	slot0.loadingIdList = {}
 end
 
 return slot0

@@ -309,11 +309,11 @@ end
 
 slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0._attrFrame, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurLayer, slot0._tf)
 end
 
 slot0.displayAttrFrame = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer)
 	SetActive(slot0._attrFrame, true)
 	slot0:initAttrFrame()
 end
@@ -573,7 +573,7 @@ slot0.willExit = function(slot0)
 	end
 
 	if slot0._attrFrame.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurLayer, slot0._tf)
 	end
 
 	pg.TimeMgr.GetInstance():RemoveTimer(slot0.ActiveToggletimer1)

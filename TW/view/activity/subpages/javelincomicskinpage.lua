@@ -25,8 +25,7 @@ slot0.RegisterEvent = function(slot0)
 		if pg.gametip.comic_help then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.comic_help.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.comic_help.tip
 			})
 		end
 	end, SFX_PANEL)

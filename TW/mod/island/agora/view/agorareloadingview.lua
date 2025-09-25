@@ -1,4 +1,4 @@
-slot0 = class("AgoraReloadingView", import("Mod.Island.Core.View.IslandBaseSubView"))
+slot0 = class("AgoraReloadingView", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 slot0.GetUIName = function(slot0)
 	return "IslandAgoraReloadingUI"

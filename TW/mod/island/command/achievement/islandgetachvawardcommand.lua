@@ -10,7 +10,8 @@ slot0.execute = function(slot0, slot1)
 			getProxy(IslandProxy):GetIsland():GetAchievementAgency():AddGotIds(uv0)
 			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACHIEVEMENT)
 			uv1:sendNotification(GAME.ISLAND_GET_ACHV_AWARD_DONE, {
-				dropData = IslandDropHelper.AddItems(slot0)
+				dropData = IslandDropHelper.AddItems(slot0),
+				id = uv0[1]
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

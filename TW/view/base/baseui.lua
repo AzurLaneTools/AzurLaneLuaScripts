@@ -42,6 +42,14 @@ slot0.getUIName = function(slot0)
 	return nil
 end
 
+slot0.getGroupName = function(slot0)
+	return slot0.contextData.groupName or slot0.__cname
+end
+
+slot0.getDefaultUI = function(slot0)
+	return slot0._tf
+end
+
 slot0.preloadUIList = function(slot0)
 	return {
 		slot0:getUIName()
@@ -49,6 +57,10 @@ slot0.preloadUIList = function(slot0)
 end
 
 slot0.needCache = function(slot0)
+	return false
+end
+
+slot0.tempCache = function(slot0)
 	return false
 end
 
@@ -64,16 +76,18 @@ slot0.loadingQueue = function(slot0)
 	return false
 end
 
-slot0.tempCache = function(slot0)
-	return false
-end
+slot0.setLayerMgrRegister = function(slot0, slot1)
+	if not slot0.contextData then
+		return
+	end
 
-slot0.getGroupName = function(slot0)
-	return nil
-end
+	slot2 = slot0:getGroupName()
 
-slot0.getLayerWeight = function(slot0)
-	return LayerWeightConst.BASE_LAYER
+	if slot1 then
+		pg.LayerWeightMgr.GetInstance():RegisterGroupWeight(slot2)
+	else
+		pg.LayerWeightMgr.GetInstance():RemoveGroupWeight(slot2)
+	end
 end
 
 slot0.preload = function(slot0, slot1)
@@ -89,6 +103,8 @@ slot0.loadUISync = function(slot0, slot1)
 end
 
 slot0.load = function(slot0)
+	slot0:setLayerMgrRegister(true)
+
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
 	slot3 = slot0:getUIName()
@@ -116,8 +132,8 @@ slot0.load = function(slot0)
 		originalPrint("load " .. uv0.name .. " time cost: " .. Time.realtimeSinceStartup - uv1)
 		uv2:SetUIParent(uv0)
 
-		if uv2:tempCache() then
-			PoolMgr.GetInstance():AddTempCache(uv3)
+		if uv2:CheckTempCache() then
+			PoolMgr.GetInstance():KeepUICache(uv3, true)
 		end
 
 		uv2:onUILoaded(uv0)
@@ -158,28 +174,69 @@ slot0.isLoaded = function(slot0)
 	return slot0._isLoaded
 end
 
-slot0.getGroupNameFromData = function(slot0)
-	slot1 = nil
-
-	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_groupName or slot0.contextData.LayerWeightMgr_groupName) and slot0:getGroupName()
-end
-
-slot0.getWeightFromData = function(slot0)
-	slot1 = nil
-
-	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_weight or slot0.contextData.LayerWeightMgr_weight) and slot0:getLayerWeight()
+slot0.CheckTempCache = function(slot0)
+	return slot0:tempCache() and slot0:isLayer()
 end
 
 slot0.isLayer = function(slot0)
 	return slot0.contextData ~= nil and slot0.contextData.isLayer
 end
 
-slot0.addToLayerMgr = function(slot0)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SYSTEM, slot0._tf, {
-		globalBlur = false,
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData()
-	})
+slot0.Add2Overlay = function(slot0, slot1, slot2)
+	if not slot0.contextData then
+		return
+	end
+
+	slot2 = slot2 or {}
+	slot2.groupName = slot0:getGroupName()
+
+	pg.LayerWeightMgr.GetInstance():Add2Overlay(slot1, slot2)
+end
+
+slot0.DelFromOverlay = function(slot0, slot1, ...)
+	if not slot0.contextData then
+		return
+	end
+
+	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, ...)
+end
+
+slot0.OverlayPanel = function(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot2.type = LayerWeightConst.UI_TYPE_SUB
+
+	slot0:Add2Overlay(slot1, slot2)
+end
+
+slot0.BlurPanel = function(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+	slot2.type = LayerWeightConst.UI_TYPE_SUB
+	slot2.globalBlur = true
+
+	slot0:Add2Overlay(slot1, slot2)
+end
+
+slot0.UnOverlayPanel = function(slot0, slot1, slot2)
+	slot0:DelFromOverlay(slot1, slot2 or slot0.UIMain)
+end
+
+slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
+	if not slot0.contextData then
+		return
+	end
+
+	slot2 = slot2 or {}
+	slot2.groupName = slot0:getGroupName()
+
+	pg.UIMgr.GetInstance():TempOverlayPanelPB(slot1, slot2)
+end
+
+slot0.TempUnOverlayPanelPB = function(slot0, slot1, slot2)
+	if not slot0.contextData then
+		return
+	end
+
+	pg.UIMgr.GetInstance():TempUnOverlayPanelPB(slot1, slot2)
 end
 
 slot0.optionsPath = {
@@ -209,18 +266,14 @@ slot0.onUILoaded = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
 
-	if slot0:isLayer() then
-		slot0:addToLayerMgr()
-	end
-
+	slot0:Add2Overlay(slot0:getDefaultUI(), {
+		type = LayerWeightConst.UI_TYPE_SYSTEM
+	})
 	pg.SeriesGuideMgr.GetInstance():dispatch({
 		view = slot0.__cname
 	})
-
-	slot5 = slot0.__cname
-
 	pg.NewStoryMgr.GetInstance():OnSceneEnter({
-		view = slot5
+		view = slot0.__cname
 	})
 
 	slot0._isLoaded = true
@@ -234,6 +287,7 @@ slot0.onUILoaded = function(slot0, slot1)
 	end
 
 	setActiveViaLayer(slot0._tf, true)
+	bindComponent(slot0, slot0._go)
 	slot0:init()
 	slot0:emit(uv0.LOADED)
 end
@@ -254,15 +308,17 @@ slot0.ShowOrHideResUI = function(slot0, slot1)
 		}
 	end
 
-	pg.playerResUI:SetActive(setmetatable({
-		active = slot1,
-		clear = not slot1 and not slot0:isLayer(),
-		weight = slot2.weight or slot0:getWeightFromData(),
-		groupName = slot2.groupName or slot0:getGroupNameFromData(),
-		canvasOrder = slot2.order or false
-	}, {
-		__index = slot2
-	}))
+	slot3 = slot0:getGroupName()
+
+	if slot1 then
+		pg.playerResUI:SetSettings(slot3, setmetatable({
+			groupName = slot3
+		}, {
+			__index = slot2
+		}))
+	else
+		pg.playerResUI:RemoveSettings(slot3)
+	end
 end
 
 slot0.onUIAnimEnd = function(slot0, slot1)
@@ -339,6 +395,8 @@ slot0.exit = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:willExit()
 	slot0:ShowOrHideResUI(false)
+	slot0:DelFromOverlay(slot0:getDefaultUI())
+	slot0:setLayerMgrRegister(false)
 	slot0:detach()
 
 	if slot0:forceRatio() then
@@ -372,14 +430,9 @@ slot0.ClearTweens = function(slot0, slot1)
 	slot0:cleanManagedTween(slot1)
 end
 
-slot0.RemoveTempCache = function(slot0)
-	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
-end
-
 slot0.detach = function(slot0, slot1)
 	slot0._isLoaded = false
 
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 	slot0:disposeEvent()
 	slot0:ClearTweens(false)

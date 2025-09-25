@@ -46,6 +46,10 @@ slot0.getUIName = function(slot0)
 	return "LatestSkinShopUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "NewShopMainScene"
+end
+
 slot0.init = function(slot0)
 	slot0.bgs = slot0._tf:Find("bgs")
 	slot0.adapt = slot0._tf:Find("adapt")
@@ -150,8 +154,7 @@ slot0.init = function(slot0)
 end
 
 slot0.Overlay = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.adapt, {
-		groupName = "shop",
+	slot0:OverlayPanel(slot0.adapt, {
 		pbList = {
 			slot0.top:Find("title"),
 			slot0.top:Find("title/limit_time"),
@@ -167,7 +170,7 @@ slot0.Overlay = function(slot0)
 end
 
 slot0.UnOverlay = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.adapt, slot0._tf)
+	slot0:UnOverlayPanel(slot0.adapt, slot0._tf)
 end
 
 slot0.didEnter = function(slot0)
@@ -1491,17 +1494,27 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("SkinDiscount_Hint"),
 					onYes = function ()
-						if checkExist(SkinCouponActivity.GetSkinCouponEncoreAct(), {
-							"id"
-						}) then
-							uv0:emit(LatestSkinShopMediator.OPEN_ACTIVITY, slot0)
+						if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) then
+							uv1:emit(LatestSkinShopMediator.OPEN_ACTIVITY, slot0.id)
 						end
 					end,
-					onNo = function ()
-						uv0()
-					end
+					onNo = slot0
 				})
 			end)
+		end
+
+		if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) and not uv0:IsItemDiscountType() then
+			slot2 = SkinCouponActivity.GetSkinCouponAct()
+			slot3, slot4 = slot2:GetOwnCount()
+
+			if slot2:GetCanUsageCnt() + slot1:getData1() + 1 > slot4 - slot3 - 1 then
+				table.insert(slot0, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("SkinDiscount_Last_Coupon"),
+						onYes = slot0
+					})
+				end)
+			end
 		end
 
 		seriesAsync(slot0, function ()

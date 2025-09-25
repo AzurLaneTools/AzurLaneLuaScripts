@@ -12,7 +12,7 @@ return {
 			bgm = "story-worldα-brokenlight",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一片死寂的街道。",
+			say = "光芒消散後，映入眼簾的是一片死寂的街道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这里还是NY港？",
+			say = "……這裡還是NY港？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……怎么回事？",
+			say = "……怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……海伦娜？",
+			say = "……海倫娜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……孟菲斯？",
+			say = "……曼非斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……{namecode:91:赤城}？",
+			say = "……赤城？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……{namecode:294:云仙}？",
+			say = "……雲仙？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "无人应答，通讯频道中一片死寂，亦如这座空无一人的城市。",
+			say = "無人應答，通訊頻道中一片死寂，亦如這座空無一人的城市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……除了我之外，空无一人。",
+			say = "……除了我之外，空無一人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「牢笼已经封死了」</size>",
+					"「牢籠已經封死了」",
 					0
 				}
 			},
@@ -192,7 +192,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……牢笼。",
+			say = "……牢籠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……由于发现了牢笼，幻影濒临疯狂。",
+			say = "……由於發現了牢籠，幻影瀕臨瘋狂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……由于牢笼的存在，安洁注定无法逃离。",
+			say = "……由於牢籠的存在，安潔注定無法逃離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「精神的牢笼」</size>",
+					"「精神的牢籠」",
 					0
 				}
 			},
@@ -283,7 +283,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……由于察觉到了牢笼，所以我也深陷牢笼中了么。",
+			say = "……由於察覺到了牢籠，所以我也深陷牢籠中了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「所有人都无法逃离」</size>",
+					"「所有人都無法逃離」",
 					0
 				}
 			},
@@ -348,7 +348,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为我知道了太多过去的事……？",
+			say = "因為我知道太多過去的事了…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "因为我与这个世界有着千丝万缕的联系……？",
+			say = "因為我與這個世界有著千絲萬縷的關係……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "这个问题没有答案。",
+			say = "這個問題沒有答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "因为没有人在此刻给予我答案。",
+			say = "因為沒有人在此刻給我答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "因为此处是只有我存在的城市。",
+			say = "因為這裡是只有我存在的城市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "不知不觉间，黑色高墙出现在我的视野中。",
+			say = "不知不覺間，黑色高牆出現在我的視野。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "我凝视着高墙。",
+			say = "我凝視著高牆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "高墙似乎也在凝视着我。",
+			say = "高牆似乎也在凝視我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "空气中寂静无声，我却仿佛听到了其中的喧嚣。",
+			say = "空氣中寂靜無聲，我卻彷彿聽見了其中的喧囂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "近在咫尺的高墙中，似乎正孕育着某种即将破茧而出的疯狂。",
+			say = "近在咫尺的高牆中，似乎正孕育著某種即將破繭而出的瘋狂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……真正的安洁，最后见到的就是这样的景象么……",
+			say = "……真正的安潔，最後見到的就是這樣的景象嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「你准备好了吗」</size>",
+					"「你準備好了嗎」",
 					0
 				}
 			},
@@ -572,7 +572,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "此次无人兜底，因为这并非某人精心设计的实验。",
+			say = "這次無人兜底，因為這並非某人精心設計的實驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_491",
 			hidePaintObj = true,
-			say = "此次亦无援军到来，因为援军刚刚离开。",
+			say = "這次亦無援軍到來，因為援軍剛離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「一切都结束了」</size>",
+					"「一切都結束了」",
 					0
 				}
 			},
@@ -637,7 +637,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「你应该死在这里」</size>",
+					"「你應該死在這裡」",
 					0
 				}
 			},
@@ -672,7 +672,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「就和所有人一样」</size>",
+					"「就和所有人一樣」",
 					0
 				}
 			},
@@ -731,7 +731,7 @@ return {
 			actor = 900332,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「审判者计划」成功了……而且「微光」尚存。",
+			say = "「審判者計劃」成功了……而且「微光」尚存。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许只有你是特殊的……",
+			say = "或許只有你是特殊的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为你成功离开了！",
+			say = "因為你成功離開了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "保重，我所有的朋友们，祝我们成功。",
+			say = "保重，我所有的朋友們，祝我們成功。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……一切决不能就这样结束。",
+			say = "不……一切絕不能就這樣結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "其他人迟早会发现问题……",
+			say = "其他人遲早會發現問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我必须争取更多的时间……",
+			say = "我必須爭取更多的時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……对，现在去伊娃还来得及！",
+			say = "……對，現在去伊娃還來得及！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -936,7 +936,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "去找运输船……",
+			say = "去找運輸船……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不论如何……我必须活下去！",
+			say = "不論如何……我必須活下去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "我在无人的街道上奔跑着。",
+			say = "我在無人的街道上奔跑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "跌倒，爬起，而后再跌倒……",
+			say = "跌倒，爬起，而後再跌倒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,7 +999,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "黑色高墙不慌不忙地吞噬着沿海大堤，距离我咫尺之遥。",
+			say = "黑色高牆不慌不忙的吞噬沿海大堤，距離我咫尺之遙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "而后——",
+			say = "而後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「不要怕，我来了」</size>",
+					"「不要怕，我來了」",
 					0
 				}
 			},
@@ -1057,7 +1057,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "海伦娜·META的声音仿佛在耳边响起。",
+			say = "海倫娜META的聲音彷彿在耳邊響起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1085,7 +1085,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "轻柔，如同一阵微风。",
+			say = "輕柔，如同一陣微風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1096,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "我顺着微风拂过的方向看去——",
+			say = "我順著微風拂過的方向看去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,7 +1107,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "她就站在那里。",
+			say = "她就站在那裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这是，海伦娜？",
+			say = "……這是，海倫娜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "就算自诩为见多识广，眼前的景象依然超出了我的认知范围。",
+			say = "就算自詡為見多識廣，眼前的景象依然超出了我的認知範圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,7 +1153,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg9",
 			hidePaintObj = true,
-			say = "她像一个遥不可及的投影，却又实实在在站立于天穹之上。",
+			say = "她像一個遙不可及的投影，卻又實實在站在天穹之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1172,7 +1172,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「牢笼，由我粉碎」</size>",
+					"「牢籠，由我粉碎」",
 					0
 				}
 			},
@@ -1199,7 +1199,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "三道圆环依次落下，在城市上空旋转着。",
+			say = "三道圓環依序落下，在城市上空旋轉著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1227,7 +1227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "蓝色的光芒随之凝聚。",
+			say = "藍色的光芒隨之凝聚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "我感受到了黑色高墙的焦躁与不安。",
+			say = "我感受到了黑色高牆的焦躁與不安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1249,7 +1249,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "无数扭曲的梦魇凭空诞生，从四面八方积聚而来。",
+			say = "無數扭曲的夢魘憑空誕生，從四面八方累積而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "它们察觉到了什么。",
+			say = "它們察覺到了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1271,7 +1271,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg10",
 			hidePaintObj = true,
-			say = "它们想要抢先一步将我吞噬。",
+			say = "它們想要搶先一步將我吞噬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1290,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「休想」</size>",
+					"「休想」",
 					0
 				}
 			},
@@ -1317,7 +1317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg11",
 			hidePaintObj = true,
-			say = "圆环轻轻一震，都市沐浴在蓝色的洪流之中。",
+			say = "圓環輕輕一震，都市沐浴在藍色的洪流之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1345,7 +1345,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg11",
 			hidePaintObj = true,
-			say = "梦魇本无声，我却仿佛听到了愤怒与不甘的尖啸。",
+			say = "夢魘本無聲，我卻彷彿聽到了憤怒與不甘的尖嘯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1356,7 +1356,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg11",
 			hidePaintObj = true,
-			say = "黑色高墙开始瓦解，变为黑色的风、黑色的云、黑色的浪潮……",
+			say = "黑色高牆開始瓦解，變成黑色的風、黑色的雲、黑色的浪潮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1367,7 +1367,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg11",
 			hidePaintObj = true,
-			say = "但是，不论它们如何靠近，不论它们如何远离……",
+			say = "但是，不論它們如何靠近，不論它們如何遠離……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1378,19 +1378,26 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg11",
 			hidePaintObj = true,
-			say = "它们始终在城市之外，它们始终在圆环之下。",
+			say = "它們始終在城市之外，它們始終在圓環之下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			bgName = "bg_amahara_cg12",
 			mode = 1,
-			asideType = 1,
+			asideType = 4,
+			spacing = 30,
+			blackBg = true,
+			rectOffset = {
+				900,
+				900,
+				900,
+				900
+			},
 			sequence = {
 				{
-					"<size=100>　　　　　　　「该结束了」</size>",
+					"「該結束了」",
 					0
 				}
 			},
@@ -1417,7 +1424,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg12",
 			hidePaintObj = true,
-			say = "啪——如同一个气泡被轻轻戳破。",
+			say = "啪——如同氣泡被輕輕戳破。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1456,7 +1463,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg12",
 			hidePaintObj = true,
-			say = "蓝色的巨人仿佛对我微笑了一下。",
+			say = "藍色的巨人彷彿對我微笑了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1467,7 +1474,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_amahara_cg12",
 			hidePaintObj = true,
-			say = "而后，世界开始逐层破碎。",
+			say = "而後，世界開始逐層破碎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1478,7 +1485,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "我沐浴在海蓝色的光中——",
+			say = "我沐浴在海藍色的光中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

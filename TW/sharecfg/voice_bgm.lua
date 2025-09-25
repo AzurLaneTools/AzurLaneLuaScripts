@@ -2154,5 +2154,15 @@ pg.voice_bgm = {
 		default_bgm = "story-amahara-stage2",
 		special_bgm = "",
 		bgm = "story-amahara-stage2"
+	},
+	SportAndRacingSkinEncoreLoginPage = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
+	},
+	IslandSignPage = {
+		default_bgm = "theme-myisland",
+		special_bgm = "",
+		bgm = "theme-myisland"
 	}
 }

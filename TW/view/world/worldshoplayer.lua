@@ -29,12 +29,11 @@ slot0.init = function(slot0)
 	slot0.goodsItemList = UIItemList.New(slot0.rtShop:Find("content"), slot0.rtShop:Find("content/item_tpl"))
 	slot0.singleWindow = OriginShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.multiWindow = OriginShopMultiWindow.New(slot0._tf, slot0.event)
+
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData()
-	})
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -121,7 +120,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:RemoveWorldListener()
 	slot0.singleWindow:Destroy()
 	slot0.multiWindow:Destroy()

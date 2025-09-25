@@ -15,7 +15,7 @@ slot0.OnInit = function(slot0, slot1)
 	slot4 = slot2.had_dress or {}
 
 	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot0.hasDressList, IslandShipDressItem.New(slot7))
+		table.insert(slot0.hasDressList, IslandCommanderDressItem.New(slot7))
 	end
 
 	slot0.cap_Dic = {}
@@ -23,6 +23,24 @@ slot0.OnInit = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot2.cap_list) do
 		slot0.cap_Dic[slot7.dress_id] = slot7.cap_id
 	end
+end
+
+slot0.SetDressHasRead = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.hasDressList) do
+		if slot6.id == slot1 then
+			slot6:SetReadState(true)
+		end
+	end
+end
+
+slot0.CheckRedDotByDressType = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.hasDressList) do
+		if slot6:getConfigTable().type == slot1 and slot6.state == 0 then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot0.GetBodyHatIsOn = function(slot0, slot1, slot2)
@@ -76,7 +94,7 @@ slot0.CheckOwnDress = function(slot0, slot1)
 end
 
 slot0.AddDressByDressId = function(slot0, slot1)
-	table.insert(slot0.hasDressList, IslandShipDressItem.New({
+	table.insert(slot0.hasDressList, IslandCommanderDressItem.New({
 		color = 0,
 		state = 0,
 		id = slot1,

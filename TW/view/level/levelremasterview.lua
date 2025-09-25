@@ -141,7 +141,6 @@ slot0.OnInit = function(slot0)
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
 								drop = uv0,
-								weight = LayerWeightConst.TOP_LAYER,
 								remaster = {
 									word = i18n("level_remaster_tip4", pg.chapter_template[uv1].chapter_name),
 									number = uv2.count .. "/" .. uv3,
@@ -174,7 +173,6 @@ slot0.OnInit = function(slot0)
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
 								drop = uv0,
-								weight = LayerWeightConst.TOP_LAYER,
 								remaster = {
 									word = i18n("level_remaster_tip1") .. uv1[2],
 									btn_text = i18n("text_confirm")
@@ -215,14 +213,12 @@ end
 
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.set = function(slot0, slot1, slot2)

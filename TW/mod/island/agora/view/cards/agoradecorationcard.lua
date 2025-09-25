@@ -14,6 +14,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.rarityTr = slot0.tr:Find("rarity"):GetComponent(typeof(Image))
 	slot0.canInteractionTF = slot0.tr:Find("interaction")
 	slot0.usingText.text = i18n("island_agora_using")
+	slot0.newTr = slot0.tr:Find("new")
 	slot0.longPressTriggerEvent = GetOrAddComponent(slot0._go, "LongPressTrigger").onLongPressed
 	slot0.onReleasedEvent = GetOrAddComponent(slot0._go, "LongPressTrigger").onReleased
 	slot0.onClickEvent = GetOrAddComponent(slot0._go, "LongPressTrigger").onClick
@@ -32,12 +33,15 @@ slot0.Update = function(slot0, slot1, slot2)
 	slot0.capcityTxt.text = slot3:GetCost()
 	slot0.rarityTr.sprite = GetSpriteFromAtlas("ui/IslandDecorationUI_atlas", "r" .. slot3:GetRarity())
 
+	setActive(slot0.newTr, slot1:IsNew())
 	setActive(slot0.cntTr, not slot3:IsOptionalShapeType())
 	setActive(slot0.canInteractionTF, slot3:CanInteraction())
 	LoadSpriteAsync("island/IslandFurnitureIcon/" .. slot3:GetIcon(), function (slot0)
-		uv0.icon.sprite = slot0
+		if not IsNil(uv0.icon) then
+			uv0.icon.sprite = slot0
 
-		uv0.icon:SetNativeSize()
+			uv0.icon:SetNativeSize()
+		end
 	end)
 end
 

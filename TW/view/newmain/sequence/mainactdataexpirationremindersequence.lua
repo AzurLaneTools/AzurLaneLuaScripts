@@ -41,8 +41,7 @@ slot0.ShowTipMsg = function(slot0, slot1, slot2)
 				count = slot1:GetCanUsageCnt()
 			}
 		},
-		onYes = slot2,
-		weight = LayerWeightConst.TOP_LAYER
+		onYes = slot2
 	})
 end
 

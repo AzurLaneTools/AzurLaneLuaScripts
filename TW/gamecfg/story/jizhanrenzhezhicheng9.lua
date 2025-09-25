@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "呼，很好，今天的修練順利進行到一半了……什麼人！",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "我已經在這裡等你好久了。",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			side = 2,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			side = 2,
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "我看到了你正在召集人手守護城堡的書信。",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "我是浪人武士厭戰，於今日應召而來。",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "嗯？你那眼神是怎麼回事，怎麼有點……困惑……？",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "這片竹林裡的斷竹……都是妳的手筆嗎？",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "當然了，武藝不可一日荒廢嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "用的竹刀？",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "這種事對我來說輕而易舉~",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "身為想要尋求名主的浪人武士，不把武藝精進到這種程度可不行啊。",
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "正好趁現在，讓你見識下……我懲罰宵小之徒的手段吧！",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_520",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "話音剛落，不知從何處飛來的西瓜，在我眼前頃刻間變為整齊地兩半。",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "嚐一口吧，很甜的哦。",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "很甜，好瓜。",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "那我的實力呢，如何？有沒有讓你滿意？",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "身手不凡，我很滿意，妳被雇用了。",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "城內獨立住所，免費一日三餐，提供盔甲武器，除此之外妳還可以隨意使用各處訓練場地。",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
-			actor = 900526,
+			actor = 205023,
 			nameColor = "#A9F548FF",
 			say = "作為交換，我需要你協助我維護城內的治安秩序。",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_520",
 			side = 2,
 			dir = 1,
-			actor = 900526,
+			actor = 205023,
 			say = "成交。城主指揮官大人，我一定不會讓你失望的！",
 			typewriter = {
 				speed = 0.05,

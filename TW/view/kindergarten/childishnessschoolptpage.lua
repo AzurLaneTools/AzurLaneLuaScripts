@@ -29,9 +29,7 @@ slot0.didEnter = function(slot0)
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:closeView()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Show = function(slot0)
@@ -169,7 +167,7 @@ slot0.UpdatePtData = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

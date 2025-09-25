@@ -188,6 +188,7 @@ slot0.OnCharge = function(slot0, slot1)
 	if slot1:isChargeType() then
 		slot0:emit(ActivityMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isChargeType = true,
+			commodity = slot1,
 			infoTip = slot1:GetInfoTip(),
 			icon = "chargeicon/" .. slot1:getConfig("picture"),
 			name = slot1:getConfig("name_display"),
@@ -224,9 +225,10 @@ slot0.OnCharge = function(slot0, slot1)
 		end
 
 		slot0:emit(ActivityMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isChargeType = false,
 			isLocalPrice = false,
+			isChargeType = false,
 			isMonthCard = false,
+			commodity = slot1,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),

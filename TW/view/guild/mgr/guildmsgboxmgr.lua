@@ -85,8 +85,7 @@ slot0.RefreshView = function(slot0, slot1)
 
 		uv1:Hide()
 	end, SFX_PANEL)
-	pg.UIMgr:GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER,
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		blurCamList = slot1.blurCamList
 	})
 	slot0._tf:SetAsLastSibling()
@@ -96,7 +95,7 @@ slot0.Close = function(slot0)
 	if slot0._tf and isActive(slot0._tf) then
 		slot0.settings = nil
 
-		pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0.UIOverlay)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.UIOverlay)
 		setActive(slot0._tf, false)
 	end
 end

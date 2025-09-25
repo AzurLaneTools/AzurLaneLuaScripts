@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "唉，还差这么多，这该怎么办呢……",
-			animation = "shakehead",
+			say = "天啊！还差这么多！这该怎么办！",
+			animation = "sad",
 			characterId = 100600,
 			subName = "矿山管理员",
 			face2Face = {
@@ -35,14 +35,14 @@ return {
 			},
 			options = {
 				{
-					content = "乔安，是遇到了什么困难吗？",
+					content = "乔安，是遇到了什么困难了么？",
 					flag = 1
 				}
 			}
 		},
 		{
 			animation = "scare",
-			say = "呀！原来是指挥官啊。",
+			say = "哇！是指挥官！太好了！",
 			characterId = 100600,
 			subName = "矿山管理员",
 			typewriter = {
@@ -51,17 +51,17 @@ return {
 			}
 		},
 		{
-			animation = "sad",
-			say = "唔，交通线损坏的部分太多了……修复工作需要的煤炭还要很久才能集齐……",
-			characterId = 100600,
+			say = "你看！那边的站台被完全砸坏了，修复需要的煤炭需求还很大！靠我自己挖根本来不及！",
 			subName = "矿山管理员",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "矿场里没有存货吗？",
+			say = "嗯？这里不就是矿山么？没有存货？",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "没了，全都加上才勉强够订单上的量，结果正准备运往港口就发生了这种事……",
+			say = "全都没啦！所有库存加上才勉强够订单的量！结果正要运去港口站台就炸了……",
 			characterId = 100600,
 			subName = "矿山管理员",
 			typewriter = {
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "唉，看来这次是赶不上了。",
+			say = "唉，看来这次是赶不上了……",
 			characterId = 100600,
 			subName = "矿山管理员",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			animation = "doubt",
-			say = "欸，可是指挥官——",
+			animation = "amaze",
+			say = "欸？！真的吗指挥官？！太棒了！",
 			characterId = 100600,
 			subName = "矿山管理员",
 			typewriter = {
@@ -105,6 +105,7 @@ return {
 		},
 		{
 			say = "没事，交通线瘫痪我也有责任，帮帮忙是应该的。",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -112,10 +113,19 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "这样啊……那太好了，现在正缺人手呢!",
+			animation = "clap",
+			say = "太好啦！现在正缺人手呢，指挥官能来帮忙真是帮大忙了！",
 			characterId = 100600,
 			subName = "矿山管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "我们抓紧时间吧！",
+			subName = "矿山管理员",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

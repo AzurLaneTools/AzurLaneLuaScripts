@@ -17,10 +17,6 @@ slot0.execute = function(slot0, slot1)
 				IslandAchievementHelper.UpdateRecord(IslandAchievementType.FINISH_MAIN_TASK, uv0, 1)
 			end
 
-			slot10 = slot3.id
-
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTaskSubmit(slot3:GetType(), slot10))
-
 			slot6 = slot1:GetInventoryAgency()
 
 			for slot10, slot11 in ipairs(slot3:GetRecycleItemInfos()) do
@@ -63,11 +59,6 @@ slot0.UpdateGuide = function(slot0, slot1)
 		[IslandGuideChecker.ORDER_TASK_ID] = function ()
 			pg.m02:sendNotification(GAME.STORY_UPDATE, {
 				storyId = "ISLAND_GUIDE_7"
-			})
-		end,
-		[IslandGuideChecker.TECH_TASK_ID] = function ()
-			pg.m02:sendNotification(GAME.STORY_UPDATE, {
-				storyId = "ISLAND_GUIDE_8"
 			})
 		end,
 		[IslandGuideChecker.INVITE_TASK_ID] = function ()

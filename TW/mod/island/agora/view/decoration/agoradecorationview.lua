@@ -1,4 +1,4 @@
-slot0 = class("AgoraDecorationView", import("Mod.Island.Core.View.IslandBaseSubView"))
+slot0 = class("AgoraDecorationView", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 slot0.GetUIName = function(slot0)
 	return "IslandAgoraDecorationUI"
@@ -57,6 +57,10 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:InitTags()
 end
 
+slot0.OnShow = function(slot0)
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_27")
+end
+
 slot0.PlayExitAnim = function(slot0, slot1)
 	if slot0.isAniming then
 		return
@@ -67,8 +71,8 @@ slot0.PlayExitAnim = function(slot0, slot1)
 	slot0.dftAniEvent:SetEndEvent(function ()
 		uv0.isAniming = false
 
-		uv1()
-		uv2.super.Hide(uv0)
+		uv1.super.Hide(uv0)
+		uv2()
 	end)
 	slot0.anim:Play("anim_IslandAgoraDecorationUI_Out")
 end
@@ -305,7 +309,7 @@ slot0.InitTags = function(slot0)
 				if slot0 then
 					uv0.selectedTagIndex = uv1 + 1
 
-					uv0:GetView():OnTagChange(uv2)
+					uv0:Op("NotifiyAgora", ISLAND_AGORA_EVT.TAG_CHANGE, uv2)
 					uv0:OnFliter(uv2)
 				end
 			end, SFX_PANEL)
@@ -429,12 +433,6 @@ slot0.GetDisplayThemes = function(slot0)
 		})
 	end
 
-	for slot9, slot10 in ipairs(slot1.agora:GetSystemThemes()) do
-		if slot10:Owned(slot1.agora:GetPlaceableList()) then
-			table.insert(slot3, slot10)
-		end
-	end
-
 	return slot3
 end
 
@@ -454,7 +452,9 @@ slot0.OnInitItem = function(slot0, slot1)
 			return
 		end
 
-		slot0 = uv2.valueObject:GetAvailableItem()
+		if uv2.valueObject:GetAvailableItem() then
+			uv3:Op("ClearNew", slot0.id)
+		end
 
 		if uv2.valueObject:IsOptionalShapeType() then
 			slot1 = uv3.shapeSelectPanel
@@ -579,14 +579,26 @@ slot0.GetDisplays = function(slot0)
 			return slot0:IsUsing() and 0 or 1
 		end,
 		function (slot0)
-			return slot0.id
+			return slot0:IsNew() and 0 or 1
+		end,
+		function (slot0)
+			return -1 * slot0:GetRarity()
+		end,
+		function (slot0)
+			return -1 * slot0.id
 		end
 	}) and {
 		function (slot0)
 			return slot0:IsUsing() and 0 or 1
 		end,
 		function (slot0)
-			return slot0:GetSortValue(uv0.indexData.sortKey, uv0.indexData.order)
+			return slot0:IsNew() and 0 or 1
+		end,
+		function (slot0)
+			return -1 * slot0:GetSortValue(uv0.indexData.sortKey, uv0.indexData.order)
+		end,
+		function (slot0)
+			return -1 * slot0.id
 		end
 	}))
 
@@ -597,6 +609,20 @@ slot0.Flush = function(slot0)
 	triggerToggle(slot0.toggles[slot0.selectedTagIndex or 1], true)
 	slot0:FlushCapacity()
 	slot0:FlushSaveBtn()
+	slot0.anim:Play("anim_IslandAgoraDecorationUI_In")
+end
+
+slot0.FlushCard = function(slot0, slot1)
+	slot2 = pairs
+	slot3 = slot0.cards or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot6.valueObject:Contains(slot1) then
+			slot6:Update(slot6.valueObject, slot0.selectedId)
+
+			break
+		end
+	end
 end
 
 slot0.FlushList = function(slot0)
@@ -622,7 +648,7 @@ slot0.FlushThemeList = function(slot0)
 end
 
 slot0.FlushCapacity = function(slot0)
-	slot0.capacityTxt.text = i18n("island_agora_label_capacity") .. ":<color=#a0ff9d>" .. slot0:GetView().agora:GetCapacity() .. "</color>/" .. slot0:GetView().agora:GetMaxCapacity()
+	slot0.capacityTxt.text = i18n("island_agora_capacity") .. ":<color=#a0ff9d>" .. slot0:GetView().agora:GetCapacity() .. "</color>/" .. slot0:GetView().agora:GetMaxCapacity()
 end
 
 slot0.FlushSaveBtn = function(slot0)

@@ -21,8 +21,12 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.IsShowTip = function(slot0)
+	slot3 = slot0:GetActivity():getConfig("type")
+
 	if slot0:GetActivityID() == ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID then
 		return OtherworldMapScene.IsShowTip()
+	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		return false
 	end
 
 	return getProxy(ChapterProxy):IsActivitySPChapterActive(slot1) and SettingsProxy.IsShowActivityMapSPTip()

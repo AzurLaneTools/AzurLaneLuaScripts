@@ -8,14 +8,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-	slot1 = slot0.UIMgr
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot1:BlurPanel(slot0._tf, false, slot0.contextData.weight and {
-		weight = slot0.contextData.weight
-	} or {})
-
-	slot0.UIMain = slot0.UIMgr.UIMain
+	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
 	slot0.leftPanel = slot0:findTF("left_panel")
 	slot0.sea = slot0:findTF("sea", slot0.leftPanel)
@@ -89,7 +84,7 @@ end
 slot0.willExit = function(slot0)
 	slot0.seaCamera.enabled = false
 
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.UIMain)
 
 	if slot0.previewer then
 		slot0.previewer:clear()

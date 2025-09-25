@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().id
 
 	if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request then
-		pg.TipsMgr:GetInstance():ShowTips("unenough")
+		pg.TipsMgr.GetInstance():ShowTips("unenough")
 
 		return
 	end

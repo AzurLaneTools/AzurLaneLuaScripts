@@ -11,13 +11,21 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.dressUpAgency = IslandDressUpAgency.New(slot0, slot1.private_data)
 	slot0.achievementAgency = IslandAchievementAgency.New(slot0, slot1.private_data)
 	slot0.globalBuffAgency = IslandGlobalBuffAgency.New(slot0, slot1.private_data)
+	slot0.actionAgency = IslandActionAgency.New(slot0, slot1.private_data)
+	slot0.npcFeedbackAgency = IslandNpcFeedbackAgency.New(slot0, slot1.private_data)
+	slot0.settingsAgency = IslandSettingsAgency.New(slot0, slot1.private_data)
+	slot0.bookAgency = IslandBookAgency.New(slot0, slot1.private_data)
+	slot0.cardDiyAgency = IslandCardDiyAgency.New(slot0, slot1.private_data)
+	slot0.ticketAgency = IslandTicketAgency.New(slot0, slot1.private_data)
 
 	slot0:GetAgoraAgency():InitPrivateData(slot1.private_data)
 	slot0:AddDefaultAgoraData()
+	slot0:GetFollowerAgency():InitPrivateData(slot1.private_data)
 	slot0:GetInventoryAgency():InitPrivateData(slot1.public_data)
 	slot0:GetSignInAgency():InitPrivateData(slot1.private_data)
 	slot0:GetAccessAgency():InitPrivateData(slot1.private_data)
 	slot0:GetBuildingAgency():InitPrivateData(slot1.private_data)
+	slot0:GetWildCollectAgency():InitPrivateData(slot1.private_data)
 end
 
 slot0.IsPrivate = function(slot0)
@@ -48,6 +56,14 @@ slot0.GetOrderAgency = function(slot0)
 	return slot0.orderAgency
 end
 
+slot0.GetActionAgency = function(slot0)
+	return slot0.actionAgency
+end
+
+slot0.GetNpcFeedbackAgency = function(slot0)
+	return slot0.npcFeedbackAgency
+end
+
 slot0.GetShopAgency = function(slot0)
 	return slot0.shopAgency
 end
@@ -68,10 +84,48 @@ slot0.GetGlobalBuffAgency = function(slot0)
 	return slot0.globalBuffAgency
 end
 
+slot0.GetSettingsAgency = function(slot0)
+	return slot0.settingsAgency
+end
+
+slot0.GetBookAgency = function(slot0)
+	return slot0.bookAgency
+end
+
+slot0.GetCardDiyAgency = function(slot0)
+	return slot0.cardDiyAgency
+end
+
+slot0.GetTicketAgency = function(slot0)
+	return slot0.ticketAgency
+end
+
+slot0.GetSystemTipInfos = function(slot0)
+	if not slot0:GetAblityAgency():IsUnlockPostManage() then
+		return {
+			awardCnt = 0,
+			emptyCnt = 0,
+			postFlag = 0,
+			timestamps = {}
+		}
+	else
+		slot2 = slot0:GetBuildingAgency():GetTipInfos()
+		slot3 = slot0:GetManageAgency():GetTipInfos()
+
+		return {
+			postFlag = 1,
+			awardCnt = slot2.awardCnt + slot3.awardCnt,
+			emptyCnt = slot2.emptyCnt + slot3.emptyCnt,
+			timestamps = table.mergeArray(slot2.timestamps, slot3.timestamps)
+		}
+	end
+end
+
 slot0.UpdatePerDay = function(slot0)
 	uv0.super.UpdatePerDay(slot0)
 	slot0:GetOrderAgency():UpdatePerDay()
 	slot0:GetTaskAgency():UpdatePerDay()
+	slot0:GetNpcFeedbackAgency():UpdatePerDay()
 end
 
 slot0.UpdatePerSecond = function(slot0)

@@ -236,7 +236,7 @@ slot0.didEnter = function(slot0)
 			end
 		end
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or Clone(uv1)
 
@@ -272,7 +272,6 @@ slot0.UpdateEquipItem = function(slot0, slot1, slot2)
 					modal = true,
 					type = MSGBOX_TYPE_CONFIRM_DELETE,
 					title = pg.MsgboxMgr.TITLE_INFORMATION,
-					weight = LayerWeightConst.TOP_LAYER,
 					onYes = slot0,
 					data = {
 						name = uv0:GetName()
@@ -953,7 +952,7 @@ slot0.ClearSelectMaterials = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	ClearLScrollrect(slot0.leftPanelEquipScrollComp)
 	slot0.loader:Clear()
 end

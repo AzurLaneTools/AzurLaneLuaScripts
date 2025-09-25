@@ -30,7 +30,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -126,7 +126,7 @@ slot0.OnInitItem = function(slot0, slot1)
 
 	onButton(slot0, slot2.getBtn, function ()
 		if uv0.report:IsLock() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_can_not_get_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_can_not_get_tip"))
 
 			return
 		end
@@ -154,7 +154,7 @@ slot0.ShowReportRank = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.cards then
 		for slot4, slot5 in pairs(slot0.cards) do

@@ -103,6 +103,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[107] = {
+		name = "璀璨星辰",
+		key = "SkinNormal_20250529",
+		display_icon = "ui_107",
+		unlock = "世界巡遊二十三期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "耀眼的星光匯聚於界面中心，神秘的法陣映射著星系輪廓，每個細節都訴說著對天外的探索與征途。",
+		id = 107,
+		icon = "107",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "聖誕雪境",
 		key = "SkinNormal_20241209",
@@ -179,6 +194,7 @@ pg.item_data_battleui = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		203,
 		204,

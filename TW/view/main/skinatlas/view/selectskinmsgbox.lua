@@ -38,9 +38,7 @@ slot0.Show = function(slot0, slot1)
 
 	slot2 = pg.UIMgr.GetInstance()
 
-	slot2:BlurPanel(slot0._tf, nil, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot2:BlurPanel(slot0._tf)
 
 	slot0.contentTxt.text = slot1.content
 
@@ -62,7 +60,7 @@ slot0.Show = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	uv0.super.Hide(slot0)
 end
 

@@ -7,7 +7,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.buttonContainer = slot0:findTF("frame/opera")
-	slot2 = pg.UIMgr:GetInstance().OverlayMain.transform:InverseTransformPoint(slot0.buttonContainer.position)
+	slot2 = pg.UIMgr.GetInstance().OverlayMain.transform:InverseTransformPoint(slot0.buttonContainer.position)
 	slot0.buttonPos = Vector3(slot2.x, slot2.y, 0)
 end
 
@@ -33,7 +33,7 @@ end
 
 slot0.Hide = function(slot0)
 	if slot0:isShowing() then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	end
 
 	if slot0.circle.childCount > 0 then

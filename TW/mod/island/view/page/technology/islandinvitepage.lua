@@ -34,12 +34,6 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot3:Find("top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("top/home"), function ()
-		uv0:emit(BaseUI.ON_HOME)
-	end, SFX_PANEL)
 	onButton(slot0, slot0.prevBtn, function ()
 		uv0:OnPrev()
 	end, SFX_PANEL)
@@ -48,6 +42,14 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.cards = {}
+end
+
+slot0.AddListeners = function(slot0)
+	slot0:AddListener(IslandCharacterAgency.ADD_SHIP, slot0.Flush)
+end
+
+slot0.RemoveListeners = function(slot0)
+	slot0:RemoveListener(IslandCharacterAgency.ADD_SHIP, slot0.Flush)
 end
 
 slot0.OnShow = function(slot0)

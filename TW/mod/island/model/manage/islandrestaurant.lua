@@ -14,8 +14,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.sales = slot1.total_sell or 0
 
 	slot0:SetCommodities(slot1.sell_list or {}, slot1.rest_list or {})
-	slot0:SetAssistants(slot1.post_list or {})
-	slot0:SetEndTime(slot1.end_time or 0)
+	slot0:SetAssistants(slot1.post_list)
+	slot0:SetEndTime(slot1.end_time or 0, slot1.speed_time or 0)
 end
 
 slot0.bindConfigTable = function(slot0)
@@ -79,11 +79,25 @@ end
 slot0.SetAssistants = function(slot0, slot1)
 	slot0.assistants = {}
 
-	for slot5, slot6 in ipairs(slot1) do
-		table.insert(slot0.assistants, {
-			id = slot6.post_id,
-			shipId = slot6.ship_id
-		})
+	if slot1 then
+		for slot5, slot6 in ipairs(slot1) do
+			table.insert(slot0.assistants, {
+				id = slot6.post_id,
+				shipId = slot6.ship_id
+			})
+		end
+	else
+		slot2 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+		slot6 = "assistant_slot"
+
+		for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
+			if slot2:HasAbility(pg.island_manage_assistant[slot7].unlock_type) then
+				table.insert(slot0.assistants, {
+					shipId = 0,
+					id = slot7
+				})
+			end
+		end
 	end
 end
 
@@ -97,8 +111,12 @@ slot0.ClearAssistantShips = function(slot0)
 	end
 end
 
-slot0.SetEndTime = function(slot0, slot1)
-	slot0.endTime = slot1
+slot0.SetEndTime = function(slot0, slot1, slot2)
+	slot0.endTime = slot1 - (slot2 or 0)
+end
+
+slot0.UpdateEndTime = function(slot0, slot1)
+	slot0.endTime = slot0.endTime - slot1
 end
 
 slot0.GetEndTime = function(slot0)
@@ -229,6 +247,10 @@ slot0.UpdateData = function(slot0, slot1)
 	slot0:SetCommodities(slot1.sell_list or {}, slot1.rest_list or {})
 	slot0:SetAssistants(slot1.post_list or {})
 	slot0:SetEndTime(slot1.end_time or 0)
+end
+
+slot0.IsPostTip = function(slot0)
+	return slot0:GetStatus() == uv0.STATUS.PREPARE or slot1 == uv0.STATUS.CLOSE
 end
 
 slot0.GET_RNAK_EXPS = function(slot0)
