@@ -21,8 +21,7 @@ slot0.OnInit = function(slot0)
 	slot1:OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0.blurBg
-		},
-		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		}
 	})
 
 	slot0.items = {}

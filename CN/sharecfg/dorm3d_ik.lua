@@ -30251,61 +30251,75 @@ pg.dorm3d_ik = {
 		tip_offset = "",
 		tip_text = "",
 		char_id = 30707,
-		back_time = 0.8,
+		back_time = 0.4,
 		head_track = "",
-		controller = "SofaLeftFootIK",
+		controller = "PayBedChestIK",
 		action_emote = "Face_smile_start",
 		id = 59999901,
 		trigger_param = {
 			2,
-			"LeftFoot"
+			"Chest"
 		},
 		action_trigger = {
 			3
 		},
 		sub_targets = {
 			{
-				"LeftThigh"
+				"Pelvis"
 			},
 			{
-				"LeftFoot"
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
 			}
 		},
 		rect = {
+			-600,
 			-400,
-			-350,
-			1000,
+			1200,
 			700
 		},
 		trigger_rect = {
-			-550,
-			-400,
-			1600,
-			900
+			-650,
+			-500,
+			1300,
+			1000
 		},
 		plane_rotation = {
 			{
-				0.108287,
-				-0.8532434,
-				0.2645511,
-				-0.4361907
+				0.9309748,
+				0.02177595,
+				-0.3637144,
+				-0.02287972
 			},
 			{
-				0.01900469,
-				0.6985257,
-				0.0298925,
-				-0.7147079
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
 			}
 		},
 		plane_scale = {
 			{
-				0.1591991,
-				0.1629937,
+				0.5059959,
+				0.356216,
 				0.3936299
 			},
 			{
-				0.5486947,
-				0.1909494,
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
 				1
 			}
 		},
