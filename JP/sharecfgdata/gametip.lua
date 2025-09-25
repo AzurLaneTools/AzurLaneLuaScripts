@@ -40918,7 +40918,7 @@ _G.pg.base.gametip.shop_filter_trial = {
 
 
 _G.pg.base.gametip.shop_filter_retro = {
-	tip = "復刻"
+	tip = "キャンペーン"
 }
 
 

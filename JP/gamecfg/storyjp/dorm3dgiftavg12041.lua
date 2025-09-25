@@ -23,7 +23,7 @@ return {
 			},
 			options = {
 				{
-					content = "もう大鳳からは十分すぎるくらいサプライズをもらってる気がするけど……今日はちょっとネタバレしてくれない？",
+					content = "……ちょっとネタバレしてくれない？",
 					flag = 1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 						},
 						{
 							skip = true,
-							name = "face_happy_start",
+							name = "Face_happy_start",
 							type = "action"
 						},
 						{
@@ -101,19 +101,13 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
+			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			hidePaintObj = true,
 			say = "でももし、かつてないサプライズでしたら～、指揮官様は大いに期待してくださいます〜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "你可以先尝尝看",
-					flag = 1
-				}
 			},
 			dispatcher = {
 				name = STORY_EVENT.TEST,
@@ -128,7 +122,7 @@ return {
 						},
 						{
 							skip = true,
-							name = "face_smile_start",
+							name = "Face_smile_start",
 							type = "action"
 						},
 						{
