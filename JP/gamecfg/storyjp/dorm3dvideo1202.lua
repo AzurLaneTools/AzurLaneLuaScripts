@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone33",
+			voice = "event:/dorm/dorm3d_Taiho_telephone9/dorm3d_Taiho_telephone9",
 			wait = 2,
 			say = "大鳳、指揮官様を信じております……ふふ、指揮官様の一挙手一投足はすべてしっかり見ていますから♡",
 			dispatcher = {
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone38",
+			voice = "event:/dorm/dorm3d_Taiho_telephone14/dorm3d_Taiho_telephone14",
 			wait = 1,
 			say = "今はただただ、指揮官様と二人だけの時間をじっくりと堪能したく…",
 			dispatcher = {
