@@ -322,6 +322,11 @@ pg.task_meta_data_template = setmetatable({
 		100463,
 		100464,
 		100465,
+		100471,
+		100472,
+		100473,
+		100474,
+		100475,
 		200001,
 		200002,
 		200003,
@@ -469,7 +474,11 @@ pg.task_meta_data_template = setmetatable({
 		200371,
 		200372,
 		200373,
-		200374
+		200374,
+		200381,
+		200382,
+		200383,
+		200384
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -480,7 +489,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 1,
 		target_num = 1,
-		desc = "演習を1回行おう！"
+		desc = "进行1次演习"
 	},
 	{
 		target_id = "0",
@@ -488,7 +497,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 2,
 		target_num = 1,
-		desc = "軍事委託を1回遂行する"
+		desc = "进行1次委托 "
 	},
 	{
 		target_id = "0",
@@ -496,7 +505,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 3,
 		target_num = 1,
-		desc = "艦隊を出撃させ、1回勝利せよ！"
+		desc = "舰队出征，获得1次胜利"
 	},
 	{
 		target_id = "0",
@@ -504,7 +513,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 4,
 		target_num = 1,
-		desc = "任意の敵艦を1隻撃破する"
+		desc = "击沉任意敌人1艘"
 	},
 	{
 		target_id = "0",
@@ -512,7 +521,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 5,
 		target_num = 1,
-		desc = "セイレーン作戦で1回戦闘を勝利する"
+		desc = "大型作战内获得1次胜利"
 	},
 	{
 		target_id = "0",
@@ -520,7 +529,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 6,
 		target_num = 1,
-		desc = "セイレーン作戦で敵を1隻撃破する"
+		desc = "大型作战内击沉任意敌人1艘"
 	},
 	{
 		target_id = "0",
@@ -528,7 +537,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 7,
 		target_num = 1,
-		desc = "セイレーン作戦の港任務を1回完了する"
+		desc = "完成大型作战港口任务1次"
 	},
 	[101] = {
 		target_id = "0",
@@ -536,7 +545,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 101,
 		target_num = 1,
-		desc = "飛龍(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:191}获得1次胜利"
 	},
 	[102] = {
 		target_id = "30",
@@ -544,7 +553,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 102,
 		target_num = 1,
-		desc = "飛龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:191}击破等级>30的敌方1次"
 	},
 	[103] = {
 		target_id = "55",
@@ -552,7 +561,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 103,
 		target_num = 1,
-		desc = "飛龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:191}击破等级>55的敌方1次"
 	},
 	[104] = {
 		target_id = "80",
@@ -560,7 +569,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 104,
 		target_num = 1,
-		desc = "飛龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:191}击破等级>80的敌方1次"
 	},
 	[105] = {
 		target_id = "100",
@@ -568,7 +577,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 105,
 		target_num = 1,
-		desc = "飛龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:191}击破等级>100的敌方1次"
 	},
 	[106] = {
 		target_id = "0",
@@ -576,7 +585,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 106,
 		target_num = 1,
-		desc = "アーク・ロイヤル(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用皇家方舟·META获得1次胜利"
 	},
 	[107] = {
 		target_id = "30",
@@ -584,7 +593,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 107,
 		target_num = 1,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用皇家方舟·META击破等级>30的敌方1次"
 	},
 	[108] = {
 		target_id = "55",
@@ -592,7 +601,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 108,
 		target_num = 1,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用皇家方舟·META击破等级>55的敌方1次"
 	},
 	[109] = {
 		target_id = "80",
@@ -600,7 +609,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 109,
 		target_num = 1,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用皇家方舟·META击破等级>80的敌方1次"
 	},
 	[110] = {
 		target_id = "100",
@@ -608,7 +617,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 110,
 		target_num = 1,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用皇家方舟·META击破等级>100的敌方1次"
 	},
 	[111] = {
 		target_id = "0",
@@ -616,7 +625,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 111,
 		target_num = 1,
-		desc = "ヘレナ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用海伦娜·META获得1次胜利"
 	},
 	[112] = {
 		target_id = "30",
@@ -624,7 +633,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 112,
 		target_num = 1,
-		desc = "ヘレナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用海伦娜·META击破等级>30的敌方1次"
 	},
 	[113] = {
 		target_id = "55",
@@ -632,7 +641,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 113,
 		target_num = 1,
-		desc = "ヘレナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用海伦娜·META击破等级>55的敌方1次"
 	},
 	[114] = {
 		target_id = "80",
@@ -640,7 +649,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 114,
 		target_num = 1,
-		desc = "ヘレナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用海伦娜·META击破等级>80的敌方1次"
 	},
 	[115] = {
 		target_id = "100",
@@ -648,7 +657,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 115,
 		target_num = 1,
-		desc = "ヘレナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用海伦娜·META击破等级>100的敌方1次"
 	},
 	[116] = {
 		target_id = "0",
@@ -656,7 +665,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 116,
 		target_num = 1,
-		desc = "蒼龍(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:205}获得1次胜利"
 	},
 	[117] = {
 		target_id = "30",
@@ -664,7 +673,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 117,
 		target_num = 1,
-		desc = "蒼龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:205}击破等级>30的敌方1次"
 	},
 	[118] = {
 		target_id = "55",
@@ -672,7 +681,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 118,
 		target_num = 1,
-		desc = "蒼龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:205}击破等级>55的敌方1次"
 	},
 	[119] = {
 		target_id = "80",
@@ -680,7 +689,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 119,
 		target_num = 1,
-		desc = "蒼龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:205}击破等级>80的敌方1次"
 	},
 	[120] = {
 		target_id = "100",
@@ -688,7 +697,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 120,
 		target_num = 1,
-		desc = "蒼龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:205}击破等级>100的敌方1次"
 	},
 	[121] = {
 		target_id = "0",
@@ -696,7 +705,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 121,
 		target_num = 1,
-		desc = "扶桑(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:210}获得1次胜利"
 	},
 	[122] = {
 		target_id = "30",
@@ -704,7 +713,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 122,
 		target_num = 1,
-		desc = "扶桑(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:210}击破等级>30的敌方1次"
 	},
 	[123] = {
 		target_id = "55",
@@ -712,7 +721,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 123,
 		target_num = 1,
-		desc = "扶桑(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:210}击破等级>55的敌方1次"
 	},
 	[124] = {
 		target_id = "80",
@@ -720,7 +729,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 124,
 		target_num = 1,
-		desc = "扶桑(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:210}击破等级>80的敌方1次"
 	},
 	[125] = {
 		target_id = "100",
@@ -728,7 +737,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 125,
 		target_num = 1,
-		desc = "扶桑(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:210}击破等级>100的敌方1次"
 	},
 	[126] = {
 		target_id = "0",
@@ -736,7 +745,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 126,
 		target_num = 1,
-		desc = "飛鷹(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:220}获得1次胜利"
 	},
 	[127] = {
 		target_id = "30",
@@ -744,7 +753,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 127,
 		target_num = 1,
-		desc = "飛鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:220}击破等级>30的敌方1次"
 	},
 	[128] = {
 		target_id = "55",
@@ -752,7 +761,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 128,
 		target_num = 1,
-		desc = "飛鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:220}击破等级>55的敌方1次"
 	},
 	[129] = {
 		target_id = "80",
@@ -760,7 +769,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 129,
 		target_num = 1,
-		desc = "飛鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:220}击破等级>80的敌方1次"
 	},
 	[130] = {
 		target_id = "100",
@@ -768,7 +777,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 130,
 		target_num = 1,
-		desc = "飛鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:220}击破等级>100的敌方1次"
 	},
 	[131] = {
 		target_id = "0",
@@ -776,7 +785,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 131,
 		target_num = 1,
-		desc = "グナイゼナウ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:477}获得1次胜利"
 	},
 	[132] = {
 		target_id = "30",
@@ -784,7 +793,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 132,
 		target_num = 1,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:477}击破等级>30的敌方1次"
 	},
 	[133] = {
 		target_id = "55",
@@ -792,7 +801,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 133,
 		target_num = 1,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:477}击破等级>55的敌方1次"
 	},
 	[134] = {
 		target_id = "80",
@@ -800,7 +809,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 134,
 		target_num = 1,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:477}击破等级>80的敌方1次"
 	},
 	[135] = {
 		target_id = "100",
@@ -808,7 +817,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 135,
 		target_num = 1,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:477}击破等级>100的敌方1次"
 	},
 	[136] = {
 		target_id = "0",
@@ -816,7 +825,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 136,
 		target_num = 1,
-		desc = "隼鷹(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:221}获得1次胜利"
 	},
 	[137] = {
 		target_id = "30",
@@ -824,7 +833,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 137,
 		target_num = 1,
-		desc = "隼鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:221}击破等级>30的敌方1次"
 	},
 	[138] = {
 		target_id = "55",
@@ -832,7 +841,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 138,
 		target_num = 1,
-		desc = "隼鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:221}击破等级>55的敌方1次"
 	},
 	[139] = {
 		target_id = "80",
@@ -840,7 +849,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 139,
 		target_num = 1,
-		desc = "隼鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:221}击破等级>80的敌方1次"
 	},
 	[140] = {
 		target_id = "100",
@@ -848,7 +857,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 140,
 		target_num = 1,
-		desc = "隼鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:221}击破等级>100的敌方1次"
 	},
 	[141] = {
 		target_id = "0",
@@ -856,7 +865,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 141,
 		target_num = 1,
-		desc = "シャルンホルスト(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:478}获得1次胜利"
 	},
 	[142] = {
 		target_id = "30",
@@ -864,7 +873,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 142,
 		target_num = 1,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:478}击破等级>30的敌方1次"
 	},
 	[143] = {
 		target_id = "55",
@@ -872,7 +881,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 143,
 		target_num = 1,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:478}击破等级>55的敌方1次"
 	},
 	[144] = {
 		target_id = "80",
@@ -880,7 +889,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 144,
 		target_num = 1,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:478}击破等级>80的敌方1次"
 	},
 	[145] = {
 		target_id = "100",
@@ -888,7 +897,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 145,
 		target_num = 1,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:478}击破等级>100的敌方1次"
 	},
 	[146] = {
 		target_id = "0",
@@ -896,7 +905,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 146,
 		target_num = 1,
-		desc = "山城(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:223}获得1次胜利"
 	},
 	[147] = {
 		target_id = "30",
@@ -904,7 +913,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 147,
 		target_num = 1,
-		desc = "山城(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:223}击破等级>30的敌方1次"
 	},
 	[148] = {
 		target_id = "55",
@@ -912,7 +921,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 148,
 		target_num = 1,
-		desc = "山城(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:223}击破等级>55的敌方1次"
 	},
 	[149] = {
 		target_id = "80",
@@ -920,7 +929,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 149,
 		target_num = 1,
-		desc = "山城(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:223}击破等级>80的敌方1次"
 	},
 	[150] = {
 		target_id = "100",
@@ -928,7 +937,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 150,
 		target_num = 1,
-		desc = "山城(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:223}击破等级>100的敌方1次"
 	},
 	[151] = {
 		target_id = "0",
@@ -936,7 +945,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 151,
 		target_num = 1,
-		desc = "メンフィス(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用孟菲斯·META获得1次胜利"
 	},
 	[152] = {
 		target_id = "30",
@@ -944,7 +953,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 152,
 		target_num = 1,
-		desc = "メンフィス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用孟菲斯·META击破等级>30的敌方1次"
 	},
 	[153] = {
 		target_id = "55",
@@ -952,7 +961,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 153,
 		target_num = 1,
-		desc = "メンフィス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用孟菲斯·META击破等级>55的敌方1次"
 	},
 	[154] = {
 		target_id = "80",
@@ -960,7 +969,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 154,
 		target_num = 1,
-		desc = "メンフィス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用孟菲斯·META击破等级>80的敌方1次"
 	},
 	[155] = {
 		target_id = "100",
@@ -968,7 +977,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 155,
 		target_num = 1,
-		desc = "メンフィス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用孟菲斯·META击破等级>100的敌方1次"
 	},
 	[156] = {
 		target_id = "0",
@@ -976,7 +985,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 156,
 		target_num = 1,
-		desc = "レパルス(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用反击·META获得1次胜利"
 	},
 	[157] = {
 		target_id = "30",
@@ -984,7 +993,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 157,
 		target_num = 1,
-		desc = "レパルス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用反击·META击破等级>30的敌方1次"
 	},
 	[158] = {
 		target_id = "55",
@@ -992,7 +1001,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 158,
 		target_num = 1,
-		desc = "レパルス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用反击·META击破等级>55的敌方1次"
 	},
 	[159] = {
 		target_id = "80",
@@ -1000,7 +1009,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 159,
 		target_num = 1,
-		desc = "レパルス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用反击·META击破等级>80的敌方1次"
 	},
 	[160] = {
 		target_id = "100",
@@ -1008,7 +1017,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 160,
 		target_num = 1,
-		desc = "レパルス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用反击·META击破等级>100的敌方1次"
 	},
 	[161] = {
 		target_id = "0",
@@ -1016,7 +1025,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 161,
 		target_num = 1,
-		desc = "トレント(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用特伦托·META获得1次胜利"
 	},
 	[162] = {
 		target_id = "30",
@@ -1024,7 +1033,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 162,
 		target_num = 1,
-		desc = "トレント(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用特伦托·META击破等级>30的敌方1次"
 	},
 	[163] = {
 		target_id = "55",
@@ -1032,7 +1041,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 163,
 		target_num = 1,
-		desc = "トレント(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用特伦托·META击破等级>55的敌方1次"
 	},
 	[164] = {
 		target_id = "80",
@@ -1040,7 +1049,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 164,
 		target_num = 1,
-		desc = "トレント(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用特伦托·META击破等级>80的敌方1次"
 	},
 	[165] = {
 		target_id = "100",
@@ -1048,7 +1057,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 165,
 		target_num = 1,
-		desc = "トレント(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用特伦托·META击破等级>100的敌方1次"
 	},
 	[166] = {
 		target_id = "0",
@@ -1056,7 +1065,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 166,
 		target_num = 1,
-		desc = "レナウン(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用声望·META获得1次胜利"
 	},
 	[167] = {
 		target_id = "30",
@@ -1064,7 +1073,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 167,
 		target_num = 1,
-		desc = "レナウン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用声望·META击破等级>30的敌方1次"
 	},
 	[168] = {
 		target_id = "55",
@@ -1072,7 +1081,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 168,
 		target_num = 1,
-		desc = "レナウン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用声望·META击破等级>55的敌方1次"
 	},
 	[169] = {
 		target_id = "80",
@@ -1080,7 +1089,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 169,
 		target_num = 1,
-		desc = "レナウン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用声望·META击破等级>80的敌方1次"
 	},
 	[170] = {
 		target_id = "100",
@@ -1088,7 +1097,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 170,
 		target_num = 1,
-		desc = "レナウン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用声望·META击破等级>100的敌方1次"
 	},
 	[200] = {
 		target_id = "0",
@@ -1096,7 +1105,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 200,
 		target_num = 1,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:191}获得1次胜利"
 	},
 	[201] = {
 		target_id = "70",
@@ -1104,7 +1113,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 201,
 		target_num = 1,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:191}击破等级>70的敌方1次"
 	},
 	[202] = {
 		target_id = "90",
@@ -1112,7 +1121,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 202,
 		target_num = 1,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:191}击破等级>90的敌方1次"
 	},
 	[203] = {
 		target_id = "100",
@@ -1120,7 +1129,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970701",
 		id = 203,
 		target_num = 1,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:191}击破等级>100的敌方1次"
 	},
 	[204] = {
 		target_id = "0",
@@ -1128,7 +1137,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 204,
 		target_num = 1,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用皇家方舟·META获得1次胜利"
 	},
 	[205] = {
 		target_id = "70",
@@ -1136,7 +1145,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 205,
 		target_num = 1,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用皇家方舟·META击破等级>70的敌方1次"
 	},
 	[206] = {
 		target_id = "90",
@@ -1144,7 +1153,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 206,
 		target_num = 1,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用皇家方舟·META击破等级>90的敌方1次"
 	},
 	[207] = {
 		target_id = "100",
@@ -1152,7 +1161,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 207,
 		target_num = 1,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用皇家方舟·META击破等级>100的敌方1次"
 	},
 	[208] = {
 		target_id = "0",
@@ -1160,7 +1169,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 208,
 		target_num = 1,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用海伦娜·META获得1次胜利"
 	},
 	[209] = {
 		target_id = "70",
@@ -1168,7 +1177,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 209,
 		target_num = 1,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用海伦娜·META击破等级>70的敌方1次"
 	},
 	[210] = {
 		target_id = "90",
@@ -1176,7 +1185,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 210,
 		target_num = 1,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用海伦娜·META击破等级>90的敌方1次"
 	},
 	[211] = {
 		target_id = "100",
@@ -1184,7 +1193,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 211,
 		target_num = 1,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用海伦娜·META击破等级>100的敌方1次"
 	},
 	[212] = {
 		target_id = "0",
@@ -1192,7 +1201,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 212,
 		target_num = 1,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:205}获得1次胜利"
 	},
 	[213] = {
 		target_id = "70",
@@ -1200,7 +1209,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 213,
 		target_num = 1,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:205}击破等级>70的敌方1次"
 	},
 	[214] = {
 		target_id = "90",
@@ -1208,7 +1217,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 214,
 		target_num = 1,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:205}击破等级>90的敌方1次"
 	},
 	[215] = {
 		target_id = "100",
@@ -1216,7 +1225,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970703",
 		id = 215,
 		target_num = 1,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:205}击破等级>100的敌方1次"
 	},
 	[216] = {
 		target_id = "0",
@@ -1224,7 +1233,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 216,
 		target_num = 1,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:210}获得1次胜利"
 	},
 	[217] = {
 		target_id = "70",
@@ -1232,7 +1241,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 217,
 		target_num = 1,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:210}击破等级>70的敌方1次"
 	},
 	[218] = {
 		target_id = "90",
@@ -1240,7 +1249,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 218,
 		target_num = 1,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:210}击破等级>90的敌方1次"
 	},
 	[219] = {
 		target_id = "100",
@@ -1248,7 +1257,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970501",
 		id = 219,
 		target_num = 1,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:210}击破等级>100的敌方1次"
 	},
 	[220] = {
 		target_id = "0",
@@ -1256,7 +1265,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 220,
 		target_num = 1,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:220}获得1次胜利"
 	},
 	[221] = {
 		target_id = "70",
@@ -1264,7 +1273,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 221,
 		target_num = 1,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:220}击破等级>70的敌方1次"
 	},
 	[222] = {
 		target_id = "90",
@@ -1272,7 +1281,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 222,
 		target_num = 1,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:220}击破等级>90的敌方1次"
 	},
 	[223] = {
 		target_id = "100",
@@ -1280,7 +1289,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970601",
 		id = 223,
 		target_num = 1,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:220}击破等级>100的敌方1次"
 	},
 	[224] = {
 		target_id = "0",
@@ -1288,7 +1297,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 224,
 		target_num = 1,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:477}获得1次胜利"
 	},
 	[225] = {
 		target_id = "70",
@@ -1296,7 +1305,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 225,
 		target_num = 1,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:477}击破等级>70的敌方1次"
 	},
 	[226] = {
 		target_id = "90",
@@ -1304,7 +1313,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 226,
 		target_num = 1,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:477}击破等级>90的敌方1次"
 	},
 	[227] = {
 		target_id = "100",
@@ -1312,7 +1321,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970401",
 		id = 227,
 		target_num = 1,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:477}击破等级>100的敌方1次"
 	},
 	[228] = {
 		target_id = "0",
@@ -1320,7 +1329,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 228,
 		target_num = 1,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:221}获得1次胜利"
 	},
 	[229] = {
 		target_id = "70",
@@ -1328,7 +1337,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 229,
 		target_num = 1,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:221}击破等级>70的敌方1次"
 	},
 	[230] = {
 		target_id = "90",
@@ -1336,7 +1345,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 230,
 		target_num = 1,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:221}击破等级>90的敌方1次"
 	},
 	[231] = {
 		target_id = "100",
@@ -1344,7 +1353,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970602",
 		id = 231,
 		target_num = 1,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:221}击破等级>100的敌方1次"
 	},
 	[232] = {
 		target_id = "0",
@@ -1352,7 +1361,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 232,
 		target_num = 1,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:478}获得1次胜利"
 	},
 	[233] = {
 		target_id = "70",
@@ -1360,7 +1369,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 233,
 		target_num = 1,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:478}击破等级>70的敌方1次"
 	},
 	[234] = {
 		target_id = "90",
@@ -1368,7 +1377,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 234,
 		target_num = 1,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:478}击破等级>90的敌方1次"
 	},
 	[235] = {
 		target_id = "100",
@@ -1376,7 +1385,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970402",
 		id = 235,
 		target_num = 1,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:478}击破等级>100的敌方1次"
 	},
 	[236] = {
 		target_id = "0",
@@ -1384,7 +1393,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 236,
 		target_num = 1,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:223}获得1次胜利"
 	},
 	[237] = {
 		target_id = "70",
@@ -1392,7 +1401,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 237,
 		target_num = 1,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:223}击破等级>70的敌方1次"
 	},
 	[238] = {
 		target_id = "90",
@@ -1400,7 +1409,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 238,
 		target_num = 1,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:223}击破等级>90的敌方1次"
 	},
 	[239] = {
 		target_id = "100",
@@ -1408,7 +1417,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970502",
 		id = 239,
 		target_num = 1,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用{namecode:223}击破等级>100的敌方1次"
 	},
 	[240] = {
 		target_id = "0",
@@ -1416,7 +1425,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 240,
 		target_num = 1,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用孟菲斯·META获得1次胜利"
 	},
 	[241] = {
 		target_id = "70",
@@ -1424,7 +1433,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 241,
 		target_num = 1,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用孟菲斯·META击破等级>70的敌方1次"
 	},
 	[242] = {
 		target_id = "90",
@@ -1432,7 +1441,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 242,
 		target_num = 1,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用孟菲斯·META击破等级>90的敌方1次"
 	},
 	[243] = {
 		target_id = "100",
@@ -1440,7 +1449,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 243,
 		target_num = 1,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用孟菲斯·META击破等级>100的敌方1次"
 	},
 	[244] = {
 		target_id = "0",
@@ -1448,7 +1457,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 244,
 		target_num = 1,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用反击·META获得1次胜利"
 	},
 	[245] = {
 		target_id = "70",
@@ -1456,7 +1465,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 245,
 		target_num = 1,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用反击·META击破等级>70的敌方1次"
 	},
 	[246] = {
 		target_id = "90",
@@ -1464,7 +1473,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 246,
 		target_num = 1,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用反击·META击破等级>90的敌方1次"
 	},
 	[247] = {
 		target_id = "100",
@@ -1472,7 +1481,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 247,
 		target_num = 1,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用反击·META击破等级>100的敌方1次"
 	},
 	[248] = {
 		target_id = "0",
@@ -1480,7 +1489,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 248,
 		target_num = 1,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用特伦托·META获得1次胜利"
 	},
 	[249] = {
 		target_id = "70",
@@ -1488,7 +1497,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 249,
 		target_num = 1,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用特伦托·META击破等级>70的敌方1次"
 	},
 	[250] = {
 		target_id = "90",
@@ -1496,7 +1505,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 250,
 		target_num = 1,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用特伦托·META击破等级>90的敌方1次"
 	},
 	[251] = {
 		target_id = "100",
@@ -1504,7 +1513,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 251,
 		target_num = 1,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv100+の敵を撃破 "
+		desc = "大型作战内使用特伦托·META击破等级>100的敌方1次"
 	},
 	[252] = {
 		target_id = "0",
@@ -1512,7 +1521,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 252,
 		target_num = 1,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用声望·META获得1次胜利"
 	},
 	[253] = {
 		target_id = "70",
@@ -1520,7 +1529,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 253,
 		target_num = 1,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用声望·META击破等级>70的敌方1次"
 	},
 	[254] = {
 		target_id = "90",
@@ -1528,7 +1537,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 254,
 		target_num = 1,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用声望·META击破等级>90的敌方1次"
 	},
 	[255] = {
 		target_id = "100",
@@ -1536,7 +1545,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 255,
 		target_num = 1,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用声望·META击破等级>100的敌方1次"
 	},
 	[301] = {
 		target_id = "0",
@@ -1544,7 +1553,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 301,
 		target_num = 1,
-		desc = "META座標解析を1回行う"
+		desc = "解析信标1次"
 	},
 	[302] = {
 		target_id = "0",
@@ -1552,7 +1561,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "",
 		id = 302,
 		target_num = 1,
-		desc = "META戦を1回行う"
+		desc = "参与信标战斗1次"
 	},
 	[100001] = {
 		target_id = "0",
@@ -1560,7 +1569,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100001,
 		target_num = 1,
-		desc = "ハンター(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用猎人·META获得1次胜利"
 	},
 	[100002] = {
 		target_id = "30",
@@ -1568,7 +1577,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100002,
 		target_num = 1,
-		desc = "ハンター(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用猎人·META击破等级>30的敌方1次"
 	},
 	[100003] = {
 		target_id = "55",
@@ -1576,7 +1585,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100003,
 		target_num = 1,
-		desc = "ハンター(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用猎人·META击破等级>55的敌方1次"
 	},
 	[100004] = {
 		target_id = "80",
@@ -1584,7 +1593,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100004,
 		target_num = 1,
-		desc = "ハンター(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用猎人·META击破等级>80的敌方1次"
 	},
 	[100005] = {
 		target_id = "100",
@@ -1592,7 +1601,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100005,
 		target_num = 1,
-		desc = "ハンター(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用猎人·META击破等级>100的敌方1次"
 	},
 	[100021] = {
 		target_id = "0",
@@ -1600,7 +1609,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100021,
 		target_num = 1,
-		desc = "フォーチュン(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用命运女神·META获得1次胜利"
 	},
 	[100022] = {
 		target_id = "30",
@@ -1608,7 +1617,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100022,
 		target_num = 1,
-		desc = "フォーチュン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用命运女神·META击破等级>30的敌方1次"
 	},
 	[100023] = {
 		target_id = "55",
@@ -1616,7 +1625,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100023,
 		target_num = 1,
-		desc = "フォーチュン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用命运女神·META击破等级>55的敌方1次"
 	},
 	[100024] = {
 		target_id = "80",
@@ -1624,7 +1633,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100024,
 		target_num = 1,
-		desc = "フォーチュン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用命运女神·META击破等级>80的敌方1次"
 	},
 	[100025] = {
 		target_id = "100",
@@ -1632,7 +1641,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100025,
 		target_num = 1,
-		desc = "フォーチュン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用命运女神·META击破等级>100的敌方1次"
 	},
 	[100031] = {
 		target_id = "0",
@@ -1640,7 +1649,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100031,
 		target_num = 1,
-		desc = "アリゾナ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用亚利桑那·META获得1次胜利"
 	},
 	[100032] = {
 		target_id = "30",
@@ -1648,7 +1657,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100032,
 		target_num = 1,
-		desc = "アリゾナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用亚利桑那·META击破等级>30的敌方1次"
 	},
 	[100033] = {
 		target_id = "55",
@@ -1656,7 +1665,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100033,
 		target_num = 1,
-		desc = "アリゾナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用亚利桑那·META击破等级>55的敌方1次"
 	},
 	[100034] = {
 		target_id = "80",
@@ -1664,7 +1673,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100034,
 		target_num = 1,
-		desc = "アリゾナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用亚利桑那·META击破等级>80的敌方1次"
 	},
 	[100035] = {
 		target_id = "100",
@@ -1672,7 +1681,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100035,
 		target_num = 1,
-		desc = "アリゾナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用亚利桑那·META击破等级>100的敌方1次"
 	},
 	[100041] = {
 		target_id = "0",
@@ -1680,7 +1689,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100041,
 		target_num = 1,
-		desc = "シェフィールド(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用谢菲尔德·META获得1次胜利"
 	},
 	[100042] = {
 		target_id = "30",
@@ -1688,7 +1697,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100042,
 		target_num = 1,
-		desc = "シェフィールド(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用谢菲尔德·META击破等级>30的敌方1次"
 	},
 	[100043] = {
 		target_id = "55",
@@ -1696,7 +1705,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100043,
 		target_num = 1,
-		desc = "シェフィールド(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用谢菲尔德·META击破等级>55的敌方1次"
 	},
 	[100044] = {
 		target_id = "80",
@@ -1704,7 +1713,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100044,
 		target_num = 1,
-		desc = "シェフィールド(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用谢菲尔德·META击破等级>80的敌方1次"
 	},
 	[100045] = {
 		target_id = "100",
@@ -1712,7 +1721,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100045,
 		target_num = 1,
-		desc = "シェフィールド(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用谢菲尔德·META击破等级>100的敌方1次"
 	},
 	[100051] = {
 		target_id = "0",
@@ -1720,7 +1729,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100051,
 		target_num = 1,
-		desc = "クイーン・エリザベス(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用伊丽莎白女王·META获得1次胜利"
 	},
 	[100052] = {
 		target_id = "30",
@@ -1728,7 +1737,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100052,
 		target_num = 1,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用伊丽莎白女王·META击破等级>30的敌方1次"
 	},
 	[100053] = {
 		target_id = "55",
@@ -1736,7 +1745,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100053,
 		target_num = 1,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用伊丽莎白女王·META击破等级>55的敌方1次"
 	},
 	[100054] = {
 		target_id = "80",
@@ -1744,7 +1753,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100054,
 		target_num = 1,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用伊丽莎白女王·META击破等级>80的敌方1次"
 	},
 	[100055] = {
 		target_id = "100",
@@ -1752,7 +1761,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100055,
 		target_num = 1,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用伊丽莎白女王·META击破等级>100的敌方1次"
 	},
 	[100061] = {
 		target_id = "0",
@@ -1760,7 +1769,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100061,
 		target_num = 1,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用拉·加利索尼埃·META获得1次胜利"
 	},
 	[100062] = {
 		target_id = "30",
@@ -1768,7 +1777,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100062,
 		target_num = 1,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用拉·加利索尼埃·META击破等级>30的敌方1次"
 	},
 	[100063] = {
 		target_id = "55",
@@ -1776,7 +1785,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100063,
 		target_num = 1,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用拉·加利索尼埃·META击破等级>55的敌方1次"
 	},
 	[100064] = {
 		target_id = "80",
@@ -1784,7 +1793,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100064,
 		target_num = 1,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用拉·加利索尼埃·META击破等级>80的敌方1次"
 	},
 	[100065] = {
 		target_id = "100",
@@ -1792,7 +1801,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100065,
 		target_num = 1,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用拉·加利索尼埃·META击破等级>100的敌方1次"
 	},
 	[100071] = {
 		target_id = "0",
@@ -1800,7 +1809,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100071,
 		target_num = 1,
-		desc = "U-556(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用U-556·META获得1次胜利"
 	},
 	[100072] = {
 		target_id = "30",
@@ -1808,7 +1817,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100072,
 		target_num = 1,
-		desc = "U-556(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用U-556·META击破等级>30的敌方1次"
 	},
 	[100073] = {
 		target_id = "55",
@@ -1816,7 +1825,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100073,
 		target_num = 1,
-		desc = "U-556(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用U-556·META击破等级>55的敌方1次"
 	},
 	[100074] = {
 		target_id = "80",
@@ -1824,7 +1833,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100074,
 		target_num = 1,
-		desc = "U-556(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用U-556·META击破等级>80的敌方1次"
 	},
 	[100075] = {
 		target_id = "100",
@@ -1832,7 +1841,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100075,
 		target_num = 1,
-		desc = "U-556(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用U-556·META击破等级>100的敌方1次"
 	},
 	[100081] = {
 		target_id = "0",
@@ -1840,7 +1849,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100081,
 		target_num = 1,
-		desc = "ヴェスタル(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用女灶神·META获得1次胜利"
 	},
 	[100082] = {
 		target_id = "30",
@@ -1848,7 +1857,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100082,
 		target_num = 1,
-		desc = "ヴェスタル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用女灶神·META击破等级>30的敌方1次"
 	},
 	[100083] = {
 		target_id = "55",
@@ -1856,7 +1865,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100083,
 		target_num = 1,
-		desc = "ヴェスタル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用女灶神·META击破等级>55的敌方1次"
 	},
 	[100084] = {
 		target_id = "80",
@@ -1864,7 +1873,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100084,
 		target_num = 1,
-		desc = "ヴェスタル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用女灶神·META击破等级>80的敌方1次"
 	},
 	[100085] = {
 		target_id = "100",
@@ -1872,7 +1881,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100085,
 		target_num = 1,
-		desc = "ヴェスタル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用女灶神·META击破等级>100的敌方1次"
 	},
 	[100091] = {
 		target_id = "0",
@@ -1880,7 +1889,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 100091,
 		target_num = 1,
-		desc = "アルジェリー(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用阿尔及利亚·META获得1次胜利"
 	},
 	[100092] = {
 		target_id = "30",
@@ -1888,7 +1897,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 100092,
 		target_num = 1,
-		desc = "アルジェリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用阿尔及利亚·META击破等级＞30的敌方1次"
 	},
 	[100093] = {
 		target_id = "55",
@@ -1896,7 +1905,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 100093,
 		target_num = 1,
-		desc = "アルジェリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用阿尔及利亚·META击破等级＞55的敌方1次"
 	},
 	[100094] = {
 		target_id = "80",
@@ -1904,7 +1913,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 100094,
 		target_num = 1,
-		desc = "アルジェリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用阿尔及利亚·META击破等级＞80的敌方1次"
 	},
 	[100095] = {
 		target_id = "100",
@@ -1912,7 +1921,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 100095,
 		target_num = 1,
-		desc = "アルジェリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用阿尔及利亚·META击破等级＞100的敌方1次"
 	},
 	[100101] = {
 		target_id = "0",
@@ -1920,7 +1929,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 100101,
 		target_num = 1,
-		desc = "旗風(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:522}获得1次胜利"
 	},
 	[100102] = {
 		target_id = "30",
@@ -1928,7 +1937,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 100102,
 		target_num = 1,
-		desc = "旗風(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:522}击破等级＞30的敌方1次"
 	},
 	[100103] = {
 		target_id = "55",
@@ -1936,7 +1945,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 100103,
 		target_num = 1,
-		desc = "旗風(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:522}击破等级＞55的敌方1次"
 	},
 	[100104] = {
 		target_id = "80",
@@ -1944,7 +1953,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 100104,
 		target_num = 1,
-		desc = "旗風(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:522}击破等级＞80的敌方1次"
 	},
 	[100105] = {
 		target_id = "100",
@@ -1952,7 +1961,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 100105,
 		target_num = 1,
-		desc = "旗風(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:522}击破等级＞100的敌方1次"
 	},
 	[100111] = {
 		target_id = "0",
@@ -1960,7 +1969,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 100111,
 		target_num = 1,
-		desc = "神通(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:293}获得1次胜利"
 	},
 	[100112] = {
 		target_id = "30",
@@ -1968,7 +1977,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 100112,
 		target_num = 1,
-		desc = "神通(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:293}击破等级＞30的敌方1次"
 	},
 	[100113] = {
 		target_id = "55",
@@ -1976,7 +1985,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 100113,
 		target_num = 1,
-		desc = "神通(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:293}击破等级＞55的敌方1次"
 	},
 	[100114] = {
 		target_id = "80",
@@ -1984,7 +1993,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 100114,
 		target_num = 1,
-		desc = "神通(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:293}击破等级＞80的敌方1次"
 	},
 	[100115] = {
 		target_id = "100",
@@ -1992,7 +2001,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 100115,
 		target_num = 1,
-		desc = "神通(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:293}击破等级＞100的敌方1次"
 	},
 	[100121] = {
 		target_id = "0",
@@ -2000,7 +2009,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 100121,
 		target_num = 1,
-		desc = "プリンストン(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用普林斯顿·META获得1次胜利"
 	},
 	[100122] = {
 		target_id = "30",
@@ -2008,7 +2017,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 100122,
 		target_num = 1,
-		desc = "プリンストン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用普林斯顿·META击破等级＞30的敌方1次"
 	},
 	[100123] = {
 		target_id = "55",
@@ -2016,7 +2025,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 100123,
 		target_num = 1,
-		desc = "プリンストン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用普林斯顿·META击破等级＞55的敌方1次"
 	},
 	[100124] = {
 		target_id = "80",
@@ -2024,7 +2033,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 100124,
 		target_num = 1,
-		desc = "プリンストン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用普林斯顿·META击破等级＞80的敌方1次"
 	},
 	[100125] = {
 		target_id = "100",
@@ -2032,7 +2041,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 100125,
 		target_num = 1,
-		desc = "プリンストン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用普林斯顿·META击破等级＞100的敌方1次"
 	},
 	[100131] = {
 		target_id = "0",
@@ -2040,7 +2049,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 100131,
 		target_num = 1,
-		desc = "エレバス(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用黑暗界·META获得1次胜利"
 	},
 	[100132] = {
 		target_id = "30",
@@ -2048,7 +2057,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 100132,
 		target_num = 1,
-		desc = "エレバス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用黑暗界·META击破等级＞30的敌方1次"
 	},
 	[100133] = {
 		target_id = "55",
@@ -2056,7 +2065,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 100133,
 		target_num = 1,
-		desc = "エレバス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用黑暗界·META击破等级＞55的敌方1次"
 	},
 	[100134] = {
 		target_id = "80",
@@ -2064,7 +2073,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 100134,
 		target_num = 1,
-		desc = "エレバス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用黑暗界·META击破等级＞80的敌方1次"
 	},
 	[100135] = {
 		target_id = "100",
@@ -2072,7 +2081,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 100135,
 		target_num = 1,
-		desc = "エレバス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用黑暗界·META击破等级＞100的敌方1次"
 	},
 	[100141] = {
 		target_id = "0",
@@ -2080,7 +2089,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 100141,
 		target_num = 1,
-		desc = "キーロフ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用基洛夫·META获得1次胜利"
 	},
 	[100142] = {
 		target_id = "30",
@@ -2088,7 +2097,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 100142,
 		target_num = 1,
-		desc = "キーロフ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用基洛夫·META击破等级＞30的敌方1次"
 	},
 	[100143] = {
 		target_id = "55",
@@ -2096,7 +2105,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 100143,
 		target_num = 1,
-		desc = "キーロフ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用基洛夫·META击破等级＞55的敌方1次"
 	},
 	[100144] = {
 		target_id = "80",
@@ -2104,7 +2113,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 100144,
 		target_num = 1,
-		desc = "キーロフ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用基洛夫·META击破等级＞80的敌方1次"
 	},
 	[100145] = {
 		target_id = "100",
@@ -2112,7 +2121,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 100145,
 		target_num = 1,
-		desc = "キーロフ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用基洛夫·META击破等级＞100的敌方1次"
 	},
 	[100151] = {
 		target_id = "0",
@@ -2120,7 +2129,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 100151,
 		target_num = 1,
-		desc = "キンバリー(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用金伯利·META获得1次胜利"
 	},
 	[100152] = {
 		target_id = "30",
@@ -2128,7 +2137,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 100152,
 		target_num = 1,
-		desc = "キンバリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用金伯利·META击破等级＞30的敌方1次"
 	},
 	[100153] = {
 		target_id = "55",
@@ -2136,7 +2145,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 100153,
 		target_num = 1,
-		desc = "キンバリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用金伯利·META击破等级＞55的敌方1次"
 	},
 	[100154] = {
 		target_id = "80",
@@ -2144,7 +2153,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 100154,
 		target_num = 1,
-		desc = "キンバリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用金伯利·META击破等级＞80的敌方1次"
 	},
 	[100155] = {
 		target_id = "100",
@@ -2152,7 +2161,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 100155,
 		target_num = 1,
-		desc = "キンバリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用金伯利·META击破等级＞100的敌方1次"
 	},
 	[100161] = {
 		target_id = "0",
@@ -2160,7 +2169,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 100161,
 		target_num = 1,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用水星纪念·META获得1次胜利"
 	},
 	[100162] = {
 		target_id = "30",
@@ -2168,7 +2177,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 100162,
 		target_num = 1,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用水星纪念·META击破等级＞30的敌方1次"
 	},
 	[100163] = {
 		target_id = "55",
@@ -2176,7 +2185,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 100163,
 		target_num = 1,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用水星纪念·META击破等级＞55的敌方1次"
 	},
 	[100164] = {
 		target_id = "80",
@@ -2184,7 +2193,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 100164,
 		target_num = 1,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用水星纪念·META击破等级＞80的敌方1次"
 	},
 	[100165] = {
 		target_id = "100",
@@ -2192,7 +2201,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 100165,
 		target_num = 1,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用水星纪念·META击破等级＞100的敌方1次"
 	},
 	[100171] = {
 		target_id = "0",
@@ -2200,7 +2209,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100171,
 		target_num = 1,
-		desc = "ロドニー(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用罗德尼·META获得1次胜利"
 	},
 	[100172] = {
 		target_id = "30",
@@ -2208,7 +2217,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100172,
 		target_num = 1,
-		desc = "ロドニー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用罗德尼·META击破等级＞30的敌方1次"
 	},
 	[100173] = {
 		target_id = "55",
@@ -2216,7 +2225,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100173,
 		target_num = 1,
-		desc = "ロドニー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用罗德尼·META击破等级＞55的敌方1次"
 	},
 	[100174] = {
 		target_id = "80",
@@ -2224,7 +2233,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100174,
 		target_num = 1,
-		desc = "ロドニー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用罗德尼·META击破等级＞80的敌方1次"
 	},
 	[100175] = {
 		target_id = "100",
@@ -2232,7 +2241,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100175,
 		target_num = 1,
-		desc = "ロドニー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用罗德尼·META击破等级＞100的敌方1次"
 	},
 	[100181] = {
 		target_id = "0",
@@ -2240,7 +2249,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100181,
 		target_num = 1,
-		desc = "ヴァンパイア(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用吸血鬼·META获得1次胜利"
 	},
 	[100182] = {
 		target_id = "30",
@@ -2248,7 +2257,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100182,
 		target_num = 1,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用吸血鬼·META击破等级＞30的敌方1次"
 	},
 	[100183] = {
 		target_id = "55",
@@ -2256,7 +2265,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100183,
 		target_num = 1,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用吸血鬼·META击破等级＞55的敌方1次"
 	},
 	[100184] = {
 		target_id = "80",
@@ -2264,7 +2273,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100184,
 		target_num = 1,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用吸血鬼·META击破等级＞80的敌方1次"
 	},
 	[100185] = {
 		target_id = "100",
@@ -2272,7 +2281,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100185,
 		target_num = 1,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用吸血鬼·META击破等级＞100的敌方1次"
 	},
 	[100191] = {
 		target_id = "0",
@@ -2280,7 +2289,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100191,
 		target_num = 1,
-		desc = "ベアルン(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用贝亚恩·META获得1次胜利"
 	},
 	[100192] = {
 		target_id = "30",
@@ -2288,7 +2297,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100192,
 		target_num = 1,
-		desc = "ベアルン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用贝亚恩·META击破等级＞30的敌方1次"
 	},
 	[100193] = {
 		target_id = "55",
@@ -2296,7 +2305,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100193,
 		target_num = 1,
-		desc = "ベアルン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用贝亚恩·META击破等级＞55的敌方1次"
 	},
 	[100194] = {
 		target_id = "80",
@@ -2304,7 +2313,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100194,
 		target_num = 1,
-		desc = "ベアルン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用贝亚恩·META击破等级＞80的敌方1次"
 	},
 	[100195] = {
 		target_id = "100",
@@ -2312,7 +2321,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100195,
 		target_num = 1,
-		desc = "ベアルン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用贝亚恩·META击破等级＞100的敌方1次"
 	},
 	[100201] = {
 		target_id = "0",
@@ -2320,7 +2329,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100201,
 		target_num = 1,
-		desc = "フォッシュ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用福煦·META获得1次胜利"
 	},
 	[100202] = {
 		target_id = "30",
@@ -2328,7 +2337,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100202,
 		target_num = 1,
-		desc = "フォッシュ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用福煦·META击破等级＞30的敌方1次"
 	},
 	[100203] = {
 		target_id = "55",
@@ -2336,7 +2345,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100203,
 		target_num = 1,
-		desc = "フォッシュ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用福煦·META击破等级＞55的敌方1次"
 	},
 	[100204] = {
 		target_id = "80",
@@ -2344,7 +2353,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100204,
 		target_num = 1,
-		desc = "フォッシュ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用福煦·META击破等级＞80的敌方1次"
 	},
 	[100205] = {
 		target_id = "100",
@@ -2352,7 +2361,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100205,
 		target_num = 1,
-		desc = "フォッシュ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用福煦·META击破等级＞100的敌方1次"
 	},
 	[100301] = {
 		target_id = "0",
@@ -2360,7 +2369,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100301,
 		target_num = 1,
-		desc = "ウィチタ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用威奇塔·META获得1次胜利"
 	},
 	[100302] = {
 		target_id = "30",
@@ -2368,7 +2377,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100302,
 		target_num = 1,
-		desc = "ウィチタ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用威奇塔·META击破等级＞30的敌方1次"
 	},
 	[100303] = {
 		target_id = "55",
@@ -2376,7 +2385,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100303,
 		target_num = 1,
-		desc = "ウィチタ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用威奇塔·META击破等级＞55的敌方1次"
 	},
 	[100304] = {
 		target_id = "80",
@@ -2384,7 +2393,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100304,
 		target_num = 1,
-		desc = "ウィチタ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用威奇塔·META击破等级＞80的敌方1次"
 	},
 	[100305] = {
 		target_id = "100",
@@ -2392,7 +2401,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100305,
 		target_num = 1,
-		desc = "ウィチタ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用威奇塔·META击破等级＞100的敌方1次"
 	},
 	[100311] = {
 		target_id = "0",
@@ -2400,7 +2409,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 100311,
 		target_num = 1,
-		desc = "霞(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:229}获得1次胜利"
 	},
 	[100312] = {
 		target_id = "30",
@@ -2408,7 +2417,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 100312,
 		target_num = 1,
-		desc = "霞(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:229}击破等级＞30的敌方1次"
 	},
 	[100313] = {
 		target_id = "55",
@@ -2416,7 +2425,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 100313,
 		target_num = 1,
-		desc = "霞(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:229}击破等级＞55的敌方1次"
 	},
 	[100314] = {
 		target_id = "80",
@@ -2424,7 +2433,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 100314,
 		target_num = 1,
-		desc = "霞(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:229}击破等级＞80的敌方1次"
 	},
 	[100315] = {
 		target_id = "100",
@@ -2432,7 +2441,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 100315,
 		target_num = 1,
-		desc = "霞(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:229}击破等级＞100的敌方1次"
 	},
 	[100321] = {
 		target_id = "0",
@@ -2440,7 +2449,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100321,
 		target_num = 1,
-		desc = "長門(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:230}获得1次胜利"
 	},
 	[100322] = {
 		target_id = "30",
@@ -2448,7 +2457,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100322,
 		target_num = 1,
-		desc = "長門(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:230}击破等级＞30的敌方1次"
 	},
 	[100323] = {
 		target_id = "55",
@@ -2456,7 +2465,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100323,
 		target_num = 1,
-		desc = "長門(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:230}击破等级＞55的敌方1次"
 	},
 	[100324] = {
 		target_id = "80",
@@ -2464,7 +2473,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100324,
 		target_num = 1,
-		desc = "長門(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:230}击破等级＞80的敌方1次"
 	},
 	[100325] = {
 		target_id = "100",
@@ -2472,7 +2481,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100325,
 		target_num = 1,
-		desc = "長門(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:230}击破等级＞100的敌方1次"
 	},
 	[100331] = {
 		target_id = "0",
@@ -2480,7 +2489,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100331,
 		target_num = 1,
-		desc = "比叡(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:232}获得1次胜利"
 	},
 	[100332] = {
 		target_id = "30",
@@ -2488,7 +2497,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100332,
 		target_num = 1,
-		desc = "比叡(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:232}击破等级＞30的敌方1次"
 	},
 	[100333] = {
 		target_id = "55",
@@ -2496,7 +2505,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100333,
 		target_num = 1,
-		desc = "比叡(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:232}击破等级＞55的敌方1次"
 	},
 	[100334] = {
 		target_id = "80",
@@ -2504,7 +2513,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100334,
 		target_num = 1,
-		desc = "比叡(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:232}击破等级＞80的敌方1次"
 	},
 	[100335] = {
 		target_id = "100",
@@ -2512,7 +2521,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100335,
 		target_num = 1,
-		desc = "比叡(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:232}击破等级＞100的敌方1次"
 	},
 	[100341] = {
 		target_id = "0",
@@ -2520,7 +2529,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100341,
 		target_num = 1,
-		desc = "鳳翔(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:237}获得1次胜利"
 	},
 	[100342] = {
 		target_id = "30",
@@ -2528,7 +2537,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100342,
 		target_num = 1,
-		desc = "鳳翔(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:237}击破等级＞30的敌方1次"
 	},
 	[100343] = {
 		target_id = "55",
@@ -2536,7 +2545,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100343,
 		target_num = 1,
-		desc = "鳳翔(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:237}击破等级＞55的敌方1次"
 	},
 	[100344] = {
 		target_id = "80",
@@ -2544,7 +2553,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100344,
 		target_num = 1,
-		desc = "鳳翔(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:237}击破等级＞80的敌方1次"
 	},
 	[100345] = {
 		target_id = "100",
@@ -2552,7 +2561,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100345,
 		target_num = 1,
-		desc = "鳳翔(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:237}击破等级＞100的敌方1次"
 	},
 	[100351] = {
 		target_id = "0",
@@ -2560,7 +2569,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 100351,
 		target_num = 1,
-		desc = "ジュリオ・チェザーレ(META)を編成した艦隊で1回戦闘に勝利する"
+		desc = "使用朱利奥·凯撒·META获得1次胜利"
 	},
 	[100352] = {
 		target_id = "30",
@@ -2568,7 +2577,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 100352,
 		target_num = 1,
-		desc = "ジュリオ・チェザーレ(META)を編成した艦隊でLV30+の敵艦隊を撃破する"
+		desc = "使用朱利奥·凯撒·META击破等级＞30的敌方1次"
 	},
 	[100353] = {
 		target_id = "55",
@@ -2576,7 +2585,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 100353,
 		target_num = 1,
-		desc = "ジュリオ・チェザーレ(META)を編成した艦隊でLV55+の敵艦隊を撃破する"
+		desc = "使用朱利奥·凯撒·META击破等级＞55的敌方1次"
 	},
 	[100354] = {
 		target_id = "80",
@@ -2584,7 +2593,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 100354,
 		target_num = 1,
-		desc = "ジュリオ・チェザーレ(META)を編成した艦隊でLV80+の敵艦隊を撃破する"
+		desc = "使用朱利奥·凯撒·META击破等级＞80的敌方1次"
 	},
 	[100355] = {
 		target_id = "100",
@@ -2592,7 +2601,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 100355,
 		target_num = 1,
-		desc = "ジュリオ・チェザーレ(META)を編成した艦隊でLV100+の敵艦隊を撃破する"
+		desc = "使用朱利奥·凯撒·META击破等级＞100的敌方1次"
 	},
 	[100361] = {
 		target_id = "0",
@@ -2600,7 +2609,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 100361,
 		target_num = 1,
-		desc = "大鳳(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:238}获得1次胜利"
 	},
 	[100362] = {
 		target_id = "30",
@@ -2608,7 +2617,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 100362,
 		target_num = 1,
-		desc = "大鳳(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:238}击破等级＞30的敌方1次"
 	},
 	[100363] = {
 		target_id = "55",
@@ -2616,7 +2625,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 100363,
 		target_num = 1,
-		desc = "大鳳(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:238}击破等级＞55的敌方1次"
 	},
 	[100364] = {
 		target_id = "80",
@@ -2624,7 +2633,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 100364,
 		target_num = 1,
-		desc = "大鳳(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:238}击破等级＞80的敌方1次"
 	},
 	[100365] = {
 		target_id = "100",
@@ -2632,7 +2641,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 100365,
 		target_num = 1,
-		desc = "大鳳(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:238}击破等级＞100的敌方1次"
 	},
 	[100371] = {
 		target_id = "0",
@@ -2640,7 +2649,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100371,
 		target_num = 1,
-		desc = "アドミラル・ヒッパー(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:543}获得1次胜利"
 	},
 	[100372] = {
 		target_id = "30",
@@ -2648,7 +2657,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100372,
 		target_num = 1,
-		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:543}击破等级＞30的敌方1次"
 	},
 	[100373] = {
 		target_id = "55",
@@ -2656,7 +2665,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100373,
 		target_num = 1,
-		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:543}击破等级＞55的敌方1次"
 	},
 	[100374] = {
 		target_id = "80",
@@ -2664,7 +2673,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100374,
 		target_num = 1,
-		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:543}击破等级＞80的敌方1次"
 	},
 	[100375] = {
 		target_id = "100",
@@ -2672,7 +2681,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100375,
 		target_num = 1,
-		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:543}击破等级＞100的敌方1次"
 	},
 	[100381] = {
 		target_id = "0",
@@ -2680,7 +2689,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 100381,
 		target_num = 1,
-		desc = "ボルツァーノ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用博尔扎诺·META获得1次胜利"
 	},
 	[100382] = {
 		target_id = "30",
@@ -2688,7 +2697,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 100382,
 		target_num = 1,
-		desc = "ボルツァーノ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用博尔扎诺·META击破等级＞30的敌方1次"
 	},
 	[100383] = {
 		target_id = "55",
@@ -2696,7 +2705,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 100383,
 		target_num = 1,
-		desc = "ボルツァーノ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用博尔扎诺·META击破等级＞55的敌方1次"
 	},
 	[100384] = {
 		target_id = "80",
@@ -2704,7 +2713,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 100384,
 		target_num = 1,
-		desc = "ボルツァーノ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用博尔扎诺·META击破等级＞80的敌方1次"
 	},
 	[100385] = {
 		target_id = "100",
@@ -2712,7 +2721,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 100385,
 		target_num = 1,
-		desc = "ボルツァーノ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用博尔扎诺·META击破等级＞100的敌方1次"
 	},
 	[100391] = {
 		target_id = "0",
@@ -2720,7 +2729,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 100391,
 		target_num = 1,
-		desc = "アンドレア・ドーリア(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用安德烈亚·多利亚·META获得1次胜利"
 	},
 	[100392] = {
 		target_id = "30",
@@ -2728,7 +2737,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 100392,
 		target_num = 1,
-		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用安德烈亚·多利亚·META击破等级＞30的敌方1次"
 	},
 	[100393] = {
 		target_id = "55",
@@ -2736,7 +2745,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 100393,
 		target_num = 1,
-		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用安德烈亚·多利亚·META击破等级＞55的敌方1次"
 	},
 	[100394] = {
 		target_id = "80",
@@ -2744,7 +2753,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 100394,
 		target_num = 1,
-		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用安德烈亚·多利亚·META击破等级＞80的敌方1次"
 	},
 	[100395] = {
 		target_id = "100",
@@ -2752,7 +2761,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 100395,
 		target_num = 1,
-		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用安德烈亚·多利亚·META击破等级＞100的敌方1次"
 	},
 	[100401] = {
 		target_id = "0",
@@ -2760,7 +2769,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 100401,
 		target_num = 1,
-		desc = "ホーネット(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用大黄蜂·META获得1次胜利"
 	},
 	[100402] = {
 		target_id = "30",
@@ -2768,7 +2777,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 100402,
 		target_num = 1,
-		desc = "ホーネット(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用大黄蜂·META击破等级＞30的敌方1次"
 	},
 	[100403] = {
 		target_id = "55",
@@ -2776,7 +2785,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 100403,
 		target_num = 1,
-		desc = "ホーネット(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用大黄蜂·META击破等级＞55的敌方1次"
 	},
 	[100404] = {
 		target_id = "80",
@@ -2784,7 +2793,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 100404,
 		target_num = 1,
-		desc = "ホーネット(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用大黄蜂·META击破等级＞80的敌方1次"
 	},
 	[100405] = {
 		target_id = "100",
@@ -2792,7 +2801,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 100405,
 		target_num = 1,
-		desc = "ホーネット(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用大黄蜂·META击破等级＞100的敌方1次"
 	},
 	[100411] = {
 		target_id = "0",
@@ -2800,7 +2809,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 100411,
 		target_num = 1,
-		desc = "ネバダ(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用内华达·META获得1次胜利"
 	},
 	[100412] = {
 		target_id = "30",
@@ -2808,7 +2817,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 100412,
 		target_num = 1,
-		desc = "ネバダ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用内华达·META击破等级＞30的敌方1次"
 	},
 	[100413] = {
 		target_id = "55",
@@ -2816,7 +2825,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 100413,
 		target_num = 1,
-		desc = "ネバダ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用内华达·META击破等级＞55的敌方1次"
 	},
 	[100414] = {
 		target_id = "80",
@@ -2824,7 +2833,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 100414,
 		target_num = 1,
-		desc = "ネバダ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用内华达·META击破等级＞80的敌方1次"
 	},
 	[100415] = {
 		target_id = "100",
@@ -2832,7 +2841,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 100415,
 		target_num = 1,
-		desc = "ネバダ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用内华达·META击破等级＞100的敌方1次"
 	},
 	[100421] = {
 		target_id = "0",
@@ -2840,7 +2849,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 100421,
 		target_num = 1,
-		desc = "グレンヴィル(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用格伦维尔·META获得1次胜利"
 	},
 	[100422] = {
 		target_id = "30",
@@ -2848,7 +2857,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 100422,
 		target_num = 1,
-		desc = "グレンヴィル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用格伦维尔·META击破等级＞30的敌方1次"
 	},
 	[100423] = {
 		target_id = "55",
@@ -2856,7 +2865,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 100423,
 		target_num = 1,
-		desc = "グレンヴィル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用格伦维尔·META击破等级＞55的敌方1次"
 	},
 	[100424] = {
 		target_id = "80",
@@ -2864,7 +2873,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 100424,
 		target_num = 1,
-		desc = "グレンヴィル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用格伦维尔·META击破等级＞80的敌方1次"
 	},
 	[100425] = {
 		target_id = "100",
@@ -2872,7 +2881,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 100425,
 		target_num = 1,
-		desc = "グレンヴィル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用格伦维尔·META击破等级＞100的敌方1次"
 	},
 	[100431] = {
 		target_id = "0",
@@ -2880,7 +2889,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100431,
 		target_num = 1,
-		desc = "グロリアス(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用光荣·META获得1次胜利"
 	},
 	[100432] = {
 		target_id = "30",
@@ -2888,7 +2897,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100432,
 		target_num = 1,
-		desc = "グロリアス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用光荣·META击破等级＞30的敌方1次"
 	},
 	[100433] = {
 		target_id = "55",
@@ -2896,7 +2905,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100433,
 		target_num = 1,
-		desc = "グロリアス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用光荣·META击破等级＞55的敌方1次"
 	},
 	[100434] = {
 		target_id = "80",
@@ -2904,7 +2913,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100434,
 		target_num = 1,
-		desc = "グロリアス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用光荣·META击破等级＞80的敌方1次"
 	},
 	[100435] = {
 		target_id = "100",
@@ -2912,7 +2921,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100435,
 		target_num = 1,
-		desc = "グロリアス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用光荣·META击破等级＞100的敌方1次"
 	},
 	[100441] = {
 		target_id = "0",
@@ -2920,7 +2929,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100441,
 		target_num = 1,
-		desc = "江風(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用{namecode:300}·META获得1次胜利"
 	},
 	[100442] = {
 		target_id = "30",
@@ -2928,7 +2937,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100442,
 		target_num = 1,
-		desc = "江風(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用{namecode:300}·META击破等级＞30的敌方1次"
 	},
 	[100443] = {
 		target_id = "55",
@@ -2936,7 +2945,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100443,
 		target_num = 1,
-		desc = "江風(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用{namecode:300}·META击破等级＞55的敌方1次"
 	},
 	[100444] = {
 		target_id = "80",
@@ -2944,7 +2953,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100444,
 		target_num = 1,
-		desc = "江風(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用{namecode:300}·META击破等级＞80的敌方1次"
 	},
 	[100445] = {
 		target_id = "100",
@@ -2952,7 +2961,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 100445,
 		target_num = 1,
-		desc = "江風(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用{namecode:300}·META击破等级＞100的敌方1次"
 	},
 	[100451] = {
 		target_id = "0",
@@ -2960,7 +2969,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 100451,
 		target_num = 1,
-		desc = "ダンケルク(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用敦刻尔克·META获得1次胜利"
 	},
 	[100452] = {
 		target_id = "30",
@@ -2968,7 +2977,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 100452,
 		target_num = 1,
-		desc = "ダンケルク(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用敦刻尔克·META击破等级＞30的敌方1次"
 	},
 	[100453] = {
 		target_id = "55",
@@ -2976,7 +2985,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 100453,
 		target_num = 1,
-		desc = "ダンケルク(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用敦刻尔克·META击破等级＞55的敌方1次"
 	},
 	[100454] = {
 		target_id = "80",
@@ -2984,7 +2993,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 100454,
 		target_num = 1,
-		desc = "ダンケルク(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用敦刻尔克·META击破等级＞80的敌方1次"
 	},
 	[100455] = {
 		target_id = "100",
@@ -2992,7 +3001,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 100455,
 		target_num = 1,
-		desc = "ダンケルク(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用敦刻尔克·META击破等级＞100的敌方1次"
 	},
 	[100461] = {
 		target_id = "0",
@@ -3000,7 +3009,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 100461,
 		target_num = 1,
-		desc = "夕立(META)を編成した艦隊で1回戦闘を勝利する"
+		desc = "使用夕立·META获得1次胜利"
 	},
 	[100462] = {
 		target_id = "30",
@@ -3008,7 +3017,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 100462,
 		target_num = 1,
-		desc = "夕立(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+		desc = "使用夕立·META击破等级＞30的敌方1次"
 	},
 	[100463] = {
 		target_id = "55",
@@ -3016,7 +3025,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 100463,
 		target_num = 1,
-		desc = "夕立(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+		desc = "使用夕立·META击破等级＞55的敌方1次"
 	},
 	[100464] = {
 		target_id = "80",
@@ -3024,7 +3033,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 100464,
 		target_num = 1,
-		desc = "夕立(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+		desc = "使用夕立·META击破等级＞80的敌方1次"
 	},
 	[100465] = {
 		target_id = "100",
@@ -3032,7 +3041,47 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 100465,
 		target_num = 1,
-		desc = "夕立(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+		desc = "使用夕立·META击破等级＞100的敌方1次"
+	},
+	[100471] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100471,
+		target_num = 1,
+		desc = "使用杜威·META获得1次胜利"
+	},
+	[100472] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100472,
+		target_num = 1,
+		desc = "使用杜威·META击破等级＞30的敌方1次"
+	},
+	[100473] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100473,
+		target_num = 1,
+		desc = "使用杜威·META击破等级＞55的敌方1次"
+	},
+	[100474] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100474,
+		target_num = 1,
+		desc = "使用杜威·META击破等级＞80的敌方1次"
+	},
+	[100475] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970110",
+		id = 100475,
+		target_num = 1,
+		desc = "使用杜威·META击破等级＞100的敌方1次"
 	},
 	[200001] = {
 		target_id = "0",
@@ -3040,7 +3089,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200001,
 		target_num = 1,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用猎人·META获得1次胜利"
 	},
 	[200002] = {
 		target_id = "70",
@@ -3048,7 +3097,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200002,
 		target_num = 1,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用猎人·META击破等级>70的敌方1次"
 	},
 	[200003] = {
 		target_id = "90",
@@ -3056,7 +3105,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200003,
 		target_num = 1,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用猎人·META击破等级>90的敌方1次"
 	},
 	[200004] = {
 		target_id = "100",
@@ -3064,7 +3113,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200004,
 		target_num = 1,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用猎人·META击破等级>100的敌方1次"
 	},
 	[200021] = {
 		target_id = "0",
@@ -3072,7 +3121,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200021,
 		target_num = 1,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用命运女神·META获得1次胜利"
 	},
 	[200022] = {
 		target_id = "70",
@@ -3080,7 +3129,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200022,
 		target_num = 1,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用命运女神·META击破等级>70的敌方1次"
 	},
 	[200023] = {
 		target_id = "90",
@@ -3088,7 +3137,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200023,
 		target_num = 1,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用命运女神·META击破等级>90的敌方1次"
 	},
 	[200024] = {
 		target_id = "100",
@@ -3096,7 +3145,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200024,
 		target_num = 1,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用命运女神·META击破等级>100的敌方1次"
 	},
 	[200031] = {
 		target_id = "0",
@@ -3104,7 +3153,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200031,
 		target_num = 1,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用亚利桑那·META获得1次胜利"
 	},
 	[200032] = {
 		target_id = "70",
@@ -3112,7 +3161,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200032,
 		target_num = 1,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用亚利桑那·META击破等级>70的敌方1次"
 	},
 	[200033] = {
 		target_id = "90",
@@ -3120,7 +3169,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200033,
 		target_num = 1,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用亚利桑那·META击破等级>90的敌方1次"
 	},
 	[200034] = {
 		target_id = "100",
@@ -3128,7 +3177,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200034,
 		target_num = 1,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用亚利桑那·META击破等级>100的敌方1次"
 	},
 	[200041] = {
 		target_id = "0",
@@ -3136,7 +3185,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200041,
 		target_num = 1,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用谢菲尔德·META获得1次胜利"
 	},
 	[200042] = {
 		target_id = "70",
@@ -3144,7 +3193,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200042,
 		target_num = 1,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用谢菲尔德·META击破等级>70的敌方1次"
 	},
 	[200043] = {
 		target_id = "90",
@@ -3152,7 +3201,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200043,
 		target_num = 1,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用谢菲尔德·META击破等级>90的敌方1次"
 	},
 	[200044] = {
 		target_id = "100",
@@ -3160,7 +3209,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200044,
 		target_num = 1,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用谢菲尔德·META击破等级>100的敌方1次"
 	},
 	[200051] = {
 		target_id = "0",
@@ -3168,7 +3217,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200051,
 		target_num = 1,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用伊丽莎白女王·META获得1次胜利"
 	},
 	[200052] = {
 		target_id = "70",
@@ -3176,7 +3225,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200052,
 		target_num = 1,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>70的敌方1次"
 	},
 	[200053] = {
 		target_id = "90",
@@ -3184,7 +3233,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200053,
 		target_num = 1,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>90的敌方1次"
 	},
 	[200054] = {
 		target_id = "100",
@@ -3192,7 +3241,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200054,
 		target_num = 1,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>100的敌方1次"
 	},
 	[200061] = {
 		target_id = "0",
@@ -3200,7 +3249,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200061,
 		target_num = 1,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用拉·加利索尼埃·META获得1次胜利"
 	},
 	[200062] = {
 		target_id = "70",
@@ -3208,7 +3257,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200062,
 		target_num = 1,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>70的敌方1次"
 	},
 	[200063] = {
 		target_id = "90",
@@ -3216,7 +3265,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200063,
 		target_num = 1,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>90的敌方1次"
 	},
 	[200064] = {
 		target_id = "100",
@@ -3224,7 +3273,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200064,
 		target_num = 1,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>100的敌方1次"
 	},
 	[200071] = {
 		target_id = "0",
@@ -3232,7 +3281,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200071,
 		target_num = 1,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用U-556·META获得1次胜利"
 	},
 	[200072] = {
 		target_id = "70",
@@ -3240,7 +3289,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200072,
 		target_num = 1,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用U-556·META击破等级>70的敌方1次"
 	},
 	[200073] = {
 		target_id = "90",
@@ -3248,7 +3297,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200073,
 		target_num = 1,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用U-556·META击破等级>90的敌方1次"
 	},
 	[200074] = {
 		target_id = "100",
@@ -3256,7 +3305,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200074,
 		target_num = 1,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用U-556·META击破等级>100的敌方1次"
 	},
 	[200081] = {
 		target_id = "0",
@@ -3264,7 +3313,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200081,
 		target_num = 1,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用女灶神·META获得1次胜利"
 	},
 	[200082] = {
 		target_id = "70",
@@ -3272,7 +3321,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200082,
 		target_num = 1,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用女灶神·META击破等级>70的敌方1次"
 	},
 	[200083] = {
 		target_id = "90",
@@ -3280,7 +3329,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200083,
 		target_num = 1,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用女灶神·META击破等级>90的敌方1次"
 	},
 	[200084] = {
 		target_id = "100",
@@ -3288,7 +3337,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200084,
 		target_num = 1,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用女灶神·META击破等级>100的敌方1次"
 	},
 	[200091] = {
 		target_id = "0",
@@ -3296,7 +3345,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 200091,
 		target_num = 1,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用阿尔及利亚·META获得1次胜利"
 	},
 	[200092] = {
 		target_id = "70",
@@ -3304,7 +3353,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 200092,
 		target_num = 1,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞70的敌方1次"
 	},
 	[200093] = {
 		target_id = "90",
@@ -3312,7 +3361,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 200093,
 		target_num = 1,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞90的敌方1次"
 	},
 	[200094] = {
 		target_id = "100",
@@ -3320,7 +3369,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970302",
 		id = 200094,
 		target_num = 1,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用阿尔及利亚·META击破等级＞100的敌方1次"
 	},
 	[200101] = {
 		target_id = "0",
@@ -3328,7 +3377,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 200101,
 		target_num = 1,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:522}获得1次胜利"
 	},
 	[200102] = {
 		target_id = "70",
@@ -3336,7 +3385,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 200102,
 		target_num = 1,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:522}击破等级＞70的敌方1次"
 	},
 	[200103] = {
 		target_id = "90",
@@ -3344,7 +3393,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 200103,
 		target_num = 1,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:522}击破等级＞90的敌方1次"
 	},
 	[200104] = {
 		target_id = "100",
@@ -3352,7 +3401,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970103",
 		id = 200104,
 		target_num = 1,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:522}击破等级＞100的敌方1次"
 	},
 	[200111] = {
 		target_id = "0",
@@ -3360,7 +3409,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 200111,
 		target_num = 1,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:293}获得1次胜利"
 	},
 	[200112] = {
 		target_id = "70",
@@ -3368,7 +3417,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 200112,
 		target_num = 1,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:293}击破等级＞70的敌方1次"
 	},
 	[200113] = {
 		target_id = "90",
@@ -3376,7 +3425,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 200113,
 		target_num = 1,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:293}击破等级＞90的敌方1次"
 	},
 	[200114] = {
 		target_id = "100",
@@ -3384,7 +3433,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970205",
 		id = 200114,
 		target_num = 1,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:293}击破等级＞100的敌方1次"
 	},
 	[200121] = {
 		target_id = "0",
@@ -3392,7 +3441,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 200121,
 		target_num = 1,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用普林斯顿·META获得1次胜利"
 	},
 	[200122] = {
 		target_id = "70",
@@ -3400,7 +3449,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 200122,
 		target_num = 1,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用普林斯顿·META击破等级＞70的敌方1次"
 	},
 	[200123] = {
 		target_id = "90",
@@ -3408,7 +3457,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 200123,
 		target_num = 1,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用普林斯顿·META击破等级＞90的敌方1次"
 	},
 	[200124] = {
 		target_id = "100",
@@ -3416,7 +3465,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970603",
 		id = 200124,
 		target_num = 1,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用普林斯顿·META击破等级＞100的敌方1次"
 	},
 	[200131] = {
 		target_id = "0",
@@ -3424,7 +3473,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 200131,
 		target_num = 1,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用黑暗界·META获得1次胜利"
 	},
 	[200132] = {
 		target_id = "70",
@@ -3432,7 +3481,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 200132,
 		target_num = 1,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用黑暗界·META击破等级＞70的敌方1次"
 	},
 	[200133] = {
 		target_id = "90",
@@ -3440,7 +3489,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 200133,
 		target_num = 1,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用黑暗界·META击破等级＞90的敌方1次"
 	},
 	[200134] = {
 		target_id = "100",
@@ -3448,7 +3497,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971301",
 		id = 200134,
 		target_num = 1,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用黑暗界·META击破等级＞100的敌方1次"
 	},
 	[200141] = {
 		target_id = "0",
@@ -3456,7 +3505,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 200141,
 		target_num = 1,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用基洛夫·META获得1次胜利"
 	},
 	[200142] = {
 		target_id = "70",
@@ -3464,7 +3513,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 200142,
 		target_num = 1,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用基洛夫·META击破等级＞70的敌方1次"
 	},
 	[200143] = {
 		target_id = "90",
@@ -3472,7 +3521,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 200143,
 		target_num = 1,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用基洛夫·META击破等级＞90的敌方1次"
 	},
 	[200144] = {
 		target_id = "100",
@@ -3480,7 +3529,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970206",
 		id = 200144,
 		target_num = 1,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用基洛夫·META击破等级＞100的敌方1次"
 	},
 	[200151] = {
 		target_id = "0",
@@ -3488,7 +3537,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 200151,
 		target_num = 1,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用金伯利·META获得1次胜利"
 	},
 	[200152] = {
 		target_id = "70",
@@ -3496,7 +3545,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 200152,
 		target_num = 1,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用金伯利·META击破等级＞70的敌方1次"
 	},
 	[200153] = {
 		target_id = "90",
@@ -3504,7 +3553,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 200153,
 		target_num = 1,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用金伯利·META击破等级＞90的敌方1次"
 	},
 	[200154] = {
 		target_id = "100",
@@ -3512,7 +3561,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970104",
 		id = 200154,
 		target_num = 1,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用金伯利·META击破等级＞100的敌方1次"
 	},
 	[200161] = {
 		target_id = "0",
@@ -3520,7 +3569,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 200161,
 		target_num = 1,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用水星纪念·META获得1次胜利"
 	},
 	[200162] = {
 		target_id = "70",
@@ -3528,7 +3577,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 200162,
 		target_num = 1,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用水星纪念·META击破等级＞70的敌方1次"
 	},
 	[200163] = {
 		target_id = "90",
@@ -3536,7 +3585,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 200163,
 		target_num = 1,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用水星纪念·META击破等级＞90的敌方1次"
 	},
 	[200164] = {
 		target_id = "100",
@@ -3544,7 +3593,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970207",
 		id = 200164,
 		target_num = 1,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用水星纪念·META击破等级＞100的敌方1次"
 	},
 	[200171] = {
 		target_id = "0",
@@ -3552,7 +3601,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200171,
 		target_num = 1,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用罗德尼·META获得1次胜利"
 	},
 	[200172] = {
 		target_id = "70",
@@ -3560,7 +3609,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200172,
 		target_num = 1,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用罗德尼·META击破等级＞70的敌方1次"
 	},
 	[200173] = {
 		target_id = "90",
@@ -3568,7 +3617,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200173,
 		target_num = 1,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用罗德尼·META击破等级＞90的敌方1次"
 	},
 	[200174] = {
 		target_id = "100",
@@ -3576,7 +3625,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200174,
 		target_num = 1,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用罗德尼·META击破等级＞100的敌方1次"
 	},
 	[200181] = {
 		target_id = "0",
@@ -3584,7 +3633,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200181,
 		target_num = 1,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用吸血鬼·META获得1次胜利"
 	},
 	[200182] = {
 		target_id = "70",
@@ -3592,7 +3641,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200182,
 		target_num = 1,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用吸血鬼·META击破等级＞70的敌方1次"
 	},
 	[200183] = {
 		target_id = "90",
@@ -3600,7 +3649,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200183,
 		target_num = 1,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用吸血鬼·META击破等级＞90的敌方1次"
 	},
 	[200184] = {
 		target_id = "100",
@@ -3608,7 +3657,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200184,
 		target_num = 1,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用吸血鬼·META击破等级＞100的敌方1次"
 	},
 	[200191] = {
 		target_id = "0",
@@ -3616,7 +3665,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200191,
 		target_num = 1,
-		desc = "セイレーン作戦でベアルン(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用贝亚恩·META获得1次胜利"
 	},
 	[200192] = {
 		target_id = "70",
@@ -3624,7 +3673,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200192,
 		target_num = 1,
-		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用贝亚恩·META击破等级＞70的敌方1次"
 	},
 	[200193] = {
 		target_id = "90",
@@ -3632,7 +3681,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200193,
 		target_num = 1,
-		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用贝亚恩·META击破等级＞90的敌方1次"
 	},
 	[200194] = {
 		target_id = "100",
@@ -3640,7 +3689,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200194,
 		target_num = 1,
-		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用贝亚恩·META击破等级＞100的敌方1次"
 	},
 	[200201] = {
 		target_id = "0",
@@ -3648,7 +3697,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200201,
 		target_num = 1,
-		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用福煦·META获得1次胜利"
 	},
 	[200202] = {
 		target_id = "70",
@@ -3656,7 +3705,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200202,
 		target_num = 1,
-		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用福煦·META击破等级＞70的敌方1次"
 	},
 	[200203] = {
 		target_id = "90",
@@ -3664,7 +3713,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200203,
 		target_num = 1,
-		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用福煦·META击破等级＞90的敌方1次"
 	},
 	[200204] = {
 		target_id = "100",
@@ -3672,7 +3721,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200204,
 		target_num = 1,
-		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用福煦·META击破等级＞100的敌方1次"
 	},
 	[200211] = {
 		target_id = "0",
@@ -3680,7 +3729,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200211,
 		target_num = 1,
-		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用威奇塔·META获得1次胜利"
 	},
 	[200212] = {
 		target_id = "70",
@@ -3688,7 +3737,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200212,
 		target_num = 1,
-		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用威奇塔·META击破等级＞70的敌方1次"
 	},
 	[200213] = {
 		target_id = "90",
@@ -3696,7 +3745,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200213,
 		target_num = 1,
-		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用威奇塔·META击破等级＞90的敌方1次"
 	},
 	[200214] = {
 		target_id = "100",
@@ -3704,7 +3753,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200214,
 		target_num = 1,
-		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用威奇塔·META击破等级＞100的敌方1次"
 	},
 	[200221] = {
 		target_id = "0",
@@ -3712,7 +3761,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 200221,
 		target_num = 1,
-		desc = "セイレーン作戦で霞(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:229}获得1次胜利"
 	},
 	[200222] = {
 		target_id = "70",
@@ -3720,7 +3769,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 200222,
 		target_num = 1,
-		desc = "セイレーン作戦で霞(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:229}击破等级＞70的敌方1次"
 	},
 	[200223] = {
 		target_id = "90",
@@ -3728,7 +3777,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 200223,
 		target_num = 1,
-		desc = "セイレーン作戦で霞(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:229}击破等级＞90的敌方1次"
 	},
 	[200224] = {
 		target_id = "100",
@@ -3736,7 +3785,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970106",
 		id = 200224,
 		target_num = 1,
-		desc = "セイレーン作戦で霞(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:229}击破等级＞100的敌方1次"
 	},
 	[200231] = {
 		target_id = "0",
@@ -3744,7 +3793,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200231,
 		target_num = 1,
-		desc = "セイレーン作戦で長門(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:230}获得1次胜利"
 	},
 	[200232] = {
 		target_id = "70",
@@ -3752,7 +3801,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200232,
 		target_num = 1,
-		desc = "セイレーン作戦で長門(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:230}击破等级＞70的敌方1次"
 	},
 	[200233] = {
 		target_id = "90",
@@ -3760,7 +3809,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200233,
 		target_num = 1,
-		desc = "セイレーン作戦で長門(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:230}击破等级＞90的敌方1次"
 	},
 	[200234] = {
 		target_id = "100",
@@ -3768,7 +3817,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200234,
 		target_num = 1,
-		desc = "セイレーン作戦で長門(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:230}击破等级＞100的敌方1次"
 	},
 	[200241] = {
 		target_id = "0",
@@ -3776,7 +3825,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200241,
 		target_num = 1,
-		desc = "セイレーン作戦で比叡(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:232}获得1次胜利"
 	},
 	[200242] = {
 		target_id = "70",
@@ -3784,7 +3833,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200242,
 		target_num = 1,
-		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:232}击破等级＞70的敌方1次"
 	},
 	[200243] = {
 		target_id = "90",
@@ -3792,7 +3841,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200243,
 		target_num = 1,
-		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:232}击破等级＞90的敌方1次"
 	},
 	[200244] = {
 		target_id = "100",
@@ -3800,7 +3849,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200244,
 		target_num = 1,
-		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:232}击破等级＞100的敌方1次"
 	},
 	[200251] = {
 		target_id = "0",
@@ -3808,7 +3857,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200251,
 		target_num = 1,
-		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:237}获得1次胜利"
 	},
 	[200252] = {
 		target_id = "70",
@@ -3816,7 +3865,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200252,
 		target_num = 1,
-		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:237}击破等级＞70的敌方1次"
 	},
 	[200253] = {
 		target_id = "90",
@@ -3824,7 +3873,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200253,
 		target_num = 1,
-		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:237}击破等级＞90的敌方1次"
 	},
 	[200254] = {
 		target_id = "100",
@@ -3832,7 +3881,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200254,
 		target_num = 1,
-		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:237}击破等级＞100的敌方1次"
 	},
 	[200261] = {
 		target_id = "0",
@@ -3840,7 +3889,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 200261,
 		target_num = 1,
-		desc = "セイレーン作戦でジュリオ・チェザーレ(META)を含む艦隊で1回戦闘に勝利する"
+		desc = "大型作战内使用朱利奥·凯撒·META获得1次胜利"
 	},
 	[200262] = {
 		target_id = "70",
@@ -3848,7 +3897,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 200262,
 		target_num = 1,
-		desc = "<size=24>セイレーン作戦でジュリオ・チェザーレ(META)を含む艦隊でLV70+の敵を撃破する</size>"
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞70的敌方1次"
 	},
 	[200263] = {
 		target_id = "90",
@@ -3856,7 +3905,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 200263,
 		target_num = 1,
-		desc = "<size=24>セイレーン作戦でジュリオ・チェザーレ(META)を含む艦隊でLV90+の敵を撃破する</size>"
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞90的敌方1次"
 	},
 	[200264] = {
 		target_id = "100",
@@ -3864,7 +3913,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970507",
 		id = 200264,
 		target_num = 1,
-		desc = "<size=24>セイレーン作戦でジュリオ・チェザーレ(META)を含む艦隊でLV100+の敵を撃破する</size>"
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞100的敌方1次"
 	},
 	[200271] = {
 		target_id = "0",
@@ -3872,7 +3921,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 200271,
 		target_num = 1,
-		desc = "セイレーン作戦で大鳳(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:238}获得1次胜利"
 	},
 	[200272] = {
 		target_id = "70",
@@ -3880,7 +3929,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 200272,
 		target_num = 1,
-		desc = "セイレーン作戦で大鳳(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:238}击破等级＞70的敌方1次"
 	},
 	[200273] = {
 		target_id = "90",
@@ -3888,7 +3937,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 200273,
 		target_num = 1,
-		desc = "セイレーン作戦で大鳳(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:238}击破等级＞90的敌方1次"
 	},
 	[200274] = {
 		target_id = "100",
@@ -3896,7 +3945,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970705",
 		id = 200274,
 		target_num = 1,
-		desc = "セイレーン作戦で大鳳(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:238}击破等级＞100的敌方1次"
 	},
 	[200281] = {
 		target_id = "0",
@@ -3904,7 +3953,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200281,
 		target_num = 1,
-		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:543}获得1次胜利"
 	},
 	[200282] = {
 		target_id = "70",
@@ -3912,7 +3961,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200282,
 		target_num = 1,
-		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:543}击破等级＞70的敌方1次"
 	},
 	[200283] = {
 		target_id = "90",
@@ -3920,7 +3969,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200283,
 		target_num = 1,
-		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:543}击破等级＞90的敌方1次"
 	},
 	[200284] = {
 		target_id = "100",
@@ -3928,7 +3977,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200284,
 		target_num = 1,
-		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:543}击破等级＞100的敌方1次"
 	},
 	[200291] = {
 		target_id = "0",
@@ -3936,7 +3985,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 200291,
 		target_num = 1,
-		desc = "セイレーン作戦でボルツァーノ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用博尔扎诺·META获得1次胜利"
 	},
 	[200292] = {
 		target_id = "70",
@@ -3944,7 +3993,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 200292,
 		target_num = 1,
-		desc = "セイレーン作戦でボルツァーノ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用博尔扎诺·META击破等级＞70的敌方1次"
 	},
 	[200293] = {
 		target_id = "90",
@@ -3952,7 +4001,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 200293,
 		target_num = 1,
-		desc = "セイレーン作戦でボルツァーノ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用博尔扎诺·META击破等级＞90的敌方1次"
 	},
 	[200294] = {
 		target_id = "100",
@@ -3960,7 +4009,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970306",
 		id = 200294,
 		target_num = 1,
-		desc = "セイレーン作戦でボルツァーノ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用博尔扎诺·META击破等级＞100的敌方1次"
 	},
 	[200301] = {
 		target_id = "0",
@@ -3968,7 +4017,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 200301,
 		target_num = 1,
-		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用安德烈亚·多利亚·META获得1次胜利"
 	},
 	[200302] = {
 		target_id = "70",
@@ -3976,7 +4025,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 200302,
 		target_num = 1,
-		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用安德烈亚·多利亚·META击破等级＞70的敌方1次"
 	},
 	[200303] = {
 		target_id = "90",
@@ -3984,7 +4033,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 200303,
 		target_num = 1,
-		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用安德烈亚·多利亚·META击破等级＞90的敌方1次"
 	},
 	[200304] = {
 		target_id = "100",
@@ -3992,7 +4041,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970508",
 		id = 200304,
 		target_num = 1,
-		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用安德烈亚·多利亚·META击破等级＞100的敌方1次"
 	},
 	[200311] = {
 		target_id = "0",
@@ -4000,7 +4049,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 200311,
 		target_num = 1,
-		desc = "セイレーン作戦でホーネット(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用大黄蜂·META获得1次胜利"
 	},
 	[200312] = {
 		target_id = "70",
@@ -4008,7 +4057,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 200312,
 		target_num = 1,
-		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用大黄蜂·META击破等级＞70的敌方1次"
 	},
 	[200313] = {
 		target_id = "90",
@@ -4016,7 +4065,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 200313,
 		target_num = 1,
-		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用大黄蜂·META击破等级＞90的敌方1次"
 	},
 	[200314] = {
 		target_id = "100",
@@ -4024,7 +4073,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970706",
 		id = 200314,
 		target_num = 1,
-		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用大黄蜂·META击破等级＞100的敌方1次"
 	},
 	[200321] = {
 		target_id = "0",
@@ -4032,7 +4081,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 200321,
 		target_num = 1,
-		desc = "セイレーン作戦でネバダ(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用内华达·META获得1次胜利"
 	},
 	[200322] = {
 		target_id = "70",
@@ -4040,7 +4089,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 200322,
 		target_num = 1,
-		desc = "セイレーン作戦でネバダ(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用内华达·META击破等级＞70的敌方1次"
 	},
 	[200323] = {
 		target_id = "90",
@@ -4048,7 +4097,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 200323,
 		target_num = 1,
-		desc = "セイレーン作戦でネバダ(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用内华达·META击破等级＞90的敌方1次"
 	},
 	[200324] = {
 		target_id = "100",
@@ -4056,7 +4105,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970509",
 		id = 200324,
 		target_num = 1,
-		desc = "セイレーン作戦でネバダ(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用内华达·META击破等级＞100的敌方1次"
 	},
 	[200331] = {
 		target_id = "0",
@@ -4064,7 +4113,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 200331,
 		target_num = 1,
-		desc = "セイレーン作戦でグレンヴィル(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用格伦维尔·META获得1次胜利"
 	},
 	[200332] = {
 		target_id = "70",
@@ -4072,7 +4121,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 200332,
 		target_num = 1,
-		desc = "セイレーン作戦でグレンヴィル(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用格伦维尔·META击破等级＞70的敌方1次"
 	},
 	[200333] = {
 		target_id = "90",
@@ -4080,7 +4129,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 200333,
 		target_num = 1,
-		desc = "セイレーン作戦でグレンヴィル(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用格伦维尔·META击破等级＞90的敌方1次"
 	},
 	[200334] = {
 		target_id = "100",
@@ -4088,7 +4137,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970107",
 		id = 200334,
 		target_num = 1,
-		desc = "セイレーン作戦でグレンヴィル(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用格伦维尔·META击破等级＞100的敌方1次"
 	},
 	[200341] = {
 		target_id = "0",
@@ -4096,7 +4145,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200341,
 		target_num = 1,
-		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用光荣·META获得1次胜利"
 	},
 	[200342] = {
 		target_id = "70",
@@ -4104,7 +4153,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200342,
 		target_num = 1,
-		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用光荣·META击破等级＞70的敌方1次"
 	},
 	[200343] = {
 		target_id = "90",
@@ -4112,7 +4161,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200343,
 		target_num = 1,
-		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用光荣·META击破等级＞90的敌方1次"
 	},
 	[200344] = {
 		target_id = "100",
@@ -4120,7 +4169,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200344,
 		target_num = 1,
-		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用光荣·META击破等级＞100的敌方1次"
 	},
 	[200351] = {
 		target_id = "0",
@@ -4128,7 +4177,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 200351,
 		target_num = 1,
-		desc = "セイレーン作戦で江風(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用{namecode:300}·META获得1次胜利"
 	},
 	[200352] = {
 		target_id = "70",
@@ -4136,7 +4185,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 200352,
 		target_num = 1,
-		desc = "セイレーン作戦で江風(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用{namecode:300}·META击破等级＞70的敌方1次"
 	},
 	[200353] = {
 		target_id = "90",
@@ -4144,7 +4193,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 200353,
 		target_num = 1,
-		desc = "セイレーン作戦で江風(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用{namecode:300}·META击破等级＞90的敌方1次"
 	},
 	[200354] = {
 		target_id = "100",
@@ -4152,7 +4201,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970108",
 		id = 200354,
 		target_num = 1,
-		desc = "セイレーン作戦で江風(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用{namecode:300}·META击破等级＞100的敌方1次"
 	},
 	[200361] = {
 		target_id = "0",
@@ -4160,7 +4209,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 200361,
 		target_num = 1,
-		desc = "セイレーン作戦でダンケルク(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用敦刻尔克·META获得1次胜利"
 	},
 	[200362] = {
 		target_id = "70",
@@ -4168,7 +4217,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 200362,
 		target_num = 1,
-		desc = "セイレーン作戦でダンケルク(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用敦刻尔克·META击破等级＞70的敌方1次"
 	},
 	[200363] = {
 		target_id = "90",
@@ -4176,7 +4225,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 200363,
 		target_num = 1,
-		desc = "セイレーン作戦でダンケルク(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用敦刻尔克·META击破等级＞90的敌方1次"
 	},
 	[200364] = {
 		target_id = "100",
@@ -4184,7 +4233,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970406",
 		id = 200364,
 		target_num = 1,
-		desc = "セイレーン作戦でダンケルク(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用敦刻尔克·META击破等级＞100的敌方1次"
 	},
 	[200371] = {
 		target_id = "0",
@@ -4192,7 +4241,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 200371,
 		target_num = 1,
-		desc = "セイレーン作戦で夕立(META)を含めた艦隊で1回勝利する"
+		desc = "大型作战内使用夕立·META获得1次胜利"
 	},
 	[200372] = {
 		target_id = "70",
@@ -4200,7 +4249,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 200372,
 		target_num = 1,
-		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv70+の敵を撃破"
+		desc = "大型作战内使用夕立·META击破等级＞70的敌方1次"
 	},
 	[200373] = {
 		target_id = "90",
@@ -4208,7 +4257,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 200373,
 		target_num = 1,
-		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv90+の敵を撃破"
+		desc = "大型作战内使用夕立·META击破等级＞90的敌方1次"
 	},
 	[200374] = {
 		target_id = "100",
@@ -4216,6 +4265,38 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970109",
 		id = 200374,
 		target_num = 1,
-		desc = "セイレーン作戦で夕立(META)を含めた艦隊でLv100+の敵を撃破"
+		desc = "大型作战内使用夕立·META击破等级＞100的敌方1次"
+	},
+	[200381] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200381,
+		target_num = 1,
+		desc = "大型作战内使用杜威·META获得1次胜利"
+	},
+	[200382] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200382,
+		target_num = 1,
+		desc = "大型作战内使用杜威·META击破等级＞70的敌方1次"
+	},
+	[200383] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200383,
+		target_num = 1,
+		desc = "大型作战内使用杜威·META击破等级＞90的敌方1次"
+	},
+	[200384] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970110",
+		id = 200384,
+		target_num = 1,
+		desc = "大型作战内使用杜威·META击破等级＞100的敌方1次"
 	}
 }

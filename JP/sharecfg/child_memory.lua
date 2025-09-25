@@ -4,151 +4,151 @@ pg.child_memory = {
 		id = 101,
 		performance = 183,
 		pic = "bg_project_tb_cg1",
-		desc = "出会い、もしくは再会"
+		desc = "初遇即重逢"
 	},
 	[102] = {
 		id = 102,
 		performance = 184,
 		pic = "bg_project_tb_cg2",
-		desc = "TBの餌付け？"
+		desc = "她的“喂食”"
 	},
 	[103] = {
 		id = 103,
 		performance = 185,
 		pic = "bg_project_tb_cg3",
-		desc = "夜、気持ちいい寝心地Ⅰ"
+		desc = "夜色与美梦I"
 	},
 	[104] = {
 		id = 104,
 		performance = 186,
 		pic = "bg_project_tb_cg4",
-		desc = "夜、気持ちいい寝心地Ⅱ"
+		desc = "夜色与美梦II"
 	},
 	[105] = {
 		id = 105,
 		performance = 187,
 		pic = "bg_project_tb_cg5",
-		desc = "ひとりでできるもん！"
+		desc = "自力更生中！"
 	},
 	[106] = {
 		id = 106,
 		performance = 188,
 		pic = "bg_project_tb_cg6",
-		desc = "アクアリウム"
+		desc = "水族馆之行"
 	},
 	[107] = {
 		id = 107,
 		performance = 189,
 		pic = "bg_project_tb_cg7",
-		desc = "花舞う始業式"
+		desc = "开学日的樱花"
 	},
 	[108] = {
 		id = 108,
 		performance = 190,
 		pic = "bg_project_tb_cg8",
-		desc = "可愛いとは―"
+		desc = "可爱的定义是——"
 	},
 	[109] = {
 		id = 109,
 		performance = 191,
 		pic = "bg_project_tb_cg9",
-		desc = "ウォーミングアップ"
+		desc = "热身运动"
 	},
 	[110] = {
 		id = 110,
 		performance = 192,
 		pic = "bg_project_tb_cg10",
-		desc = "小遣い増額大作戦"
+		desc = "零花钱作战"
 	},
 	[111] = {
 		id = 111,
 		performance = 193,
 		pic = "bg_project_tb_cg11",
-		desc = "夏祭りの花火"
+		desc = "夏日与烟花"
 	},
 	[112] = {
 		id = 112,
 		performance = 194,
 		pic = "bg_project_tb_cg12",
-		desc = "料理失敗"
+		desc = "失败的料理"
 	},
 	[113] = {
 		id = 113,
 		performance = 195,
 		pic = "bg_project_tb_cg13",
-		desc = "復習頑張ろう"
+		desc = "努力复习中"
 	},
 	[114] = {
 		id = 114,
 		performance = 196,
 		pic = "bg_project_tb_cg14",
-		desc = "美しい瞬間よ止まれⅠ"
+		desc = "被定格的瞬间I"
 	},
 	[115] = {
 		id = 115,
 		performance = 197,
 		pic = "bg_project_tb_cg15",
-		desc = "美しい瞬間よ止まれⅡ"
+		desc = "被定格的瞬间II"
 	},
 	[116] = {
 		id = 116,
 		performance = 198,
 		pic = "bg_project_tb_cg16",
-		desc = "美しい瞬間よ止まれⅢ"
+		desc = "被定格的瞬间III"
 	},
 	[117] = {
 		id = 117,
 		performance = 199,
 		pic = "bg_project_tb_cg17",
-		desc = "あなたがいるクリスマスⅠ"
+		desc = "有你相伴的圣诞I"
 	},
 	[118] = {
 		id = 118,
 		performance = 200,
 		pic = "bg_project_tb_cg18",
-		desc = "あなたがいるクリスマスⅡ"
+		desc = "有你相伴的圣诞II"
 	},
 	[119] = {
 		id = 119,
 		performance = 201,
 		pic = "bg_project_tb_cg19",
-		desc = "あなたがいるクリスマスⅢ"
+		desc = "有你相伴的圣诞III"
 	},
 	[120] = {
 		id = 120,
 		performance = 202,
 		pic = "bg_project_tb_cg20",
-		desc = "ときめき入浴タイムⅠ"
+		desc = "温热悸动I"
 	},
 	[121] = {
 		id = 121,
 		performance = 203,
 		pic = "bg_project_tb_cg21",
-		desc = "ときめき入浴タイムⅡ"
+		desc = "温热悸动II"
 	},
 	[122] = {
 		id = 122,
 		performance = 204,
 		pic = "bg_project_tb_cg22",
-		desc = "ときめき入浴タイムⅢ"
+		desc = "温热悸动III"
 	},
 	[123] = {
 		id = 123,
 		performance = 205,
 		pic = "bg_project_tb_cg23",
-		desc = "共に踊りを・クール"
+		desc = "共舞之时I"
 	},
 	[124] = {
 		id = 124,
 		performance = 206,
 		pic = "bg_project_tb_cg24",
-		desc = "共に踊りを・優しい"
+		desc = "共舞之时II"
 	},
 	[125] = {
 		id = 125,
 		performance = 207,
 		pic = "bg_project_tb_cg25",
-		desc = "共に踊りを・元気"
+		desc = "共舞之时III"
 	},
 	all = {
 		101,

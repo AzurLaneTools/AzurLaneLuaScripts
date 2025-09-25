@@ -5,14 +5,34 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_achievement_title"))
-	setText(slot0._tf:Find("top/total/Text"), i18n("island_achv_total"))
+	slot2 = slot0._tf
 
-	slot0.totalTF = slot0._tf:Find("top/total/value")
-	slot1 = slot0._tf:Find("toggles/content")
+	setText(slot2:Find("top/title/Text"), i18n("island_achievement_title"))
+
+	slot2 = slot0._tf
+
+	setText(slot2:Find("total/Text"), i18n("island_achv_total"))
+
+	slot1 = slot0._tf
+	slot0.totalTF = slot1:Find("total/value")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("toggles/content")
 	slot0.typeUIList = UIItemList.New(slot1, slot1:Find("tpl"))
-	slot2 = slot0._tf:Find("view/content")
-	slot0.itemUIList = UIItemList.New(slot2, slot2:Find("tpl"))
+	slot3 = slot0._tf
+
+	setActive(slot3:Find("tpl"), false)
+
+	slot2 = slot0._tf
+	slot2 = slot2:Find("view")
+	slot0.scrollRect = slot2:GetComponent("LScrollRect")
+
+	slot0.scrollRect.onInitItem = function(slot0)
+		uv0:OnInitItem(slot0)
+	end
+
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
+		uv0:OnUpdateItem(slot0, slot1)
+	end
 end
 
 slot0.OnInit = function(slot0)
@@ -33,13 +53,7 @@ slot0.OnInit = function(slot0)
 	end)
 
 	slot0.typeIds = pg.island_achievement_group.all
-	slot1 = slot0.itemUIList
-
-	slot1:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			uv0:UpdateItem(slot1, slot2)
-		end
-	end)
+	slot0.cards = {}
 end
 
 slot0.InitToggle = function(slot0, slot1, slot2)
@@ -47,13 +61,15 @@ slot0.InitToggle = function(slot0, slot1, slot2)
 	slot2.name = slot3
 	slot4 = pg.island_achievement_group[slot3]
 
-	LoadImageSpriteAtlasAsync("island/islandachievement", slot4.icon, slot2:Find("icon"), true)
+	LoadImageSpriteAtlasAsync("islandachievement", slot4.icon, slot2:Find("icon"), true)
 	setText(slot2:Find("name"), slot4.name)
 	onToggle(slot0, slot2, function (slot0)
 		if slot0 then
-			uv0.showType = uv1
+			uv0:GetComponent(typeof(Animation)):Play()
 
-			uv0:FlushDetail()
+			uv1.showType = uv2
+
+			uv1:FlushDetail()
 		end
 	end, SFX_PANEL)
 end
@@ -70,25 +86,18 @@ slot0.UpdateToggle = function(slot0, slot1, slot2)
 	setActive(slot2:Find("name/tip"), underscore.any(slot5, function (slot0)
 		return slot0:GetStatus() == IslandAchievement.STATUS.GET
 	end))
-
-	slot7 = underscore.all(slot5, function (slot0)
-		return slot0:GetStatus() == IslandAchievement.STATUS.GOT
-	end)
-
-	setActive(slot2:Find("bg"), not slot7)
-	setActive(slot2:Find("bg_all"), slot7)
 end
 
 slot0.AddListeners = function(slot0)
-	slot0:AddListener(GAME.ISLAND_GET_ACHV_AWARD_DONE, slot0.Flush)
+	slot0:AddListener(GAME.ISLAND_GET_ACHV_AWARD_DONE, slot0.OnGetAchvAwardDone)
 end
 
 slot0.RemoveListeners = function(slot0)
-	slot0:RemoveListener(GAME.ISLAND_GET_ACHV_AWARD_DONE, slot0.Flush)
+	slot0:RemoveListener(GAME.ISLAND_GET_ACHV_AWARD_DONE, slot0.OnGetAchvAwardDone)
 end
 
 slot0.OnShow = function(slot0, slot1)
-	slot0.showType = slot1
+	slot0.showType = slot1 or pg.island_achievement_group.all[1]
 
 	slot0:Flush()
 end
@@ -122,65 +131,67 @@ slot0.FlushDetail = function(slot0)
 			return slot0.id
 		end
 	}))
-	slot0.itemUIList:align(#slot0.showAchvList)
+	slot0.scrollRect:SetTotalCount(#slot0.showAchvList, -1)
 end
 
-slot0.UpdateItem = function(slot0, slot1, slot2)
-	slot3 = slot0.showAchvList[slot1 + 1]
-	slot2.name = slot3.id
+slot0.OnInitItem = function(slot0, slot1)
+	slot2 = IslandAchievementCard.New(slot1)
+	slot0.cards[slot1] = slot2
 
-	setText(slot2:Find("name"), slot3:getConfig("name"))
-	setText(slot2:Find("desc"), slot3:getConfig("desc"))
-	UIItemList.StaticAlign(slot2:Find("awards"), slot2:Find("awards/tpl"), #slot3:GetAwards(), function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+	onButton(slot0, slot2.getBtn, function ()
+		uv0._tf:GetComponent(typeof(Animation)):Play()
+		uv1:emit(IslandMediator.GET_ACHIEVEMENT_AWARD, {
+			uv0.achv.id
+		})
+	end, SFX_PANEL)
+end
 
-			GetImageSpriteFromAtlasAsync("island/" .. slot3:getConfigTable().icon, "", slot2:Find("icon"))
-			setText(slot2:Find("count"), slot3.count)
-		end
-	end)
-	setActive(slot2:Find("status/got"), slot3:GetStatus() == IslandAchievement.STATUS.GOT)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
+	if not slot0.cards[slot2] then
+		slot0:OnInitItem(slot2)
 
-	slot6 = slot5 == IslandAchievement.STATUS.GET
-
-	setActive(slot2:Find("status/get"), slot6)
-
-	if slot6 then
-		onButton(slot0, slot2:Find("status/get"), function ()
-			uv0:emit(IslandMediator.GET_ACHIEVEMENT_AWARD, {
-				uv1.id
-			})
-		end, SFX_PANEL)
-	else
-		removeOnButton(slot2:Find("status/get"))
+		slot3 = slot0.cards[slot2]
 	end
 
-	slot7 = slot5 == IslandAchievement.STATUS.NORMAL
+	if slot0.showAchvList[slot1 + 1] then
+		slot3:Update(slot4)
+	end
+end
 
-	setActive(slot2:Find("status/go"), slot7)
+slot0.OnGetAchvAwardDone = function(slot0, slot1)
+	slot2 = slot1.id
 
-	if slot7 then
-		setText(slot2:Find("status/go/Text"), slot0.achvAgency:GetCurProgress(slot3) .. "/" .. slot3:GetNum())
+	slot3 = function()
+		for slot3, slot4 in pairs(uv0.cards) do
+			if slot4.achv.id == uv1 then
+				return slot4
+			end
+		end
 	end
 
-	slot9 = slot0.achvAgency
-	slot9 = slot9:GetGroup(slot3:getConfig("group"))
-
-	UIItemList.StaticAlign(slot2:Find("stages"), slot2:Find("stages/tpl"), #underscore.select(slot9:GetSortAchvList(), function (slot0)
-		return not slot0:IsHideType() or slot0:GetStatus() == IslandAchievement.STATUS.GET
-	end), function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot1 + 1
-
-			GetImageSpriteFromAtlasAsync("ui/islandachievementui_atlas", "stage_" .. slot3, slot2:Find("icon"))
-			setActive(slot2:Find("line"), not (slot3 == #uv0))
-
-			slot6 = uv0[slot3]:GetStatus() == IslandAchievement.STATUS.GOT
-
-			setActive(slot2:Find("line/got"), slot6)
-			setActive(slot2:Find("circle/got"), slot6)
+	seriesAsync({
+		function (slot0)
+			if uv0() then
+				slot1:PlayStageAnim(uv1, slot0)
+			else
+				slot0()
+			end
 		end
+	}, function ()
+		uv0.achvAgency = getProxy(IslandProxy):GetIsland():GetAchievementAgency()
+
+		setText(uv0.totalTF, #uv0.achvAgency:GetGotList() .. "/" .. uv0.achvAgency:GetTotalCnt())
+		uv0.typeUIList:align(#uv0.typeIds)
+		uv0:FlushDetail()
 	end)
+end
+
+slot0.OnDestroy = function(slot0)
+	for slot4, slot5 in pairs(slot0.cards) do
+		slot5:Dispose()
+	end
+
+	slot0.cards = {}
 end
 
 return slot0

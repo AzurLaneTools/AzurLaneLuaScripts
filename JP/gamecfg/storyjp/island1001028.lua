@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
+			animation = "talk",
 			characterId = 0,
-			say = "你看我把谁带回来了？",
+			say = "――捕まえて来たよ",
 			face2Face = {
 				{
 					0,
@@ -34,27 +34,26 @@ return {
 			}
 		},
 		{
-			say = "哇啊啊！指挥官！你真的抓到它了！太厉害了！",
+			say = "本当に捕まえてくれたの！すごいすごい！",
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可把我吓一跳！还以为自己的牧场才刚开始就要倒闭了呢！",
-			animation = "nod",
+			say = "危うく牧場の危機だったから焦ったよ！",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这家伙还挺能藏的，躲在那边的墙角里跟我捉迷藏……",
+			say = "――にしてもこの子は隠れるのがうまくてな。ずっとあっちの木陰にこっそりと……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,48 +61,147 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你就是梅莉的救命恩人！",
+			say = "うぅ、指揮官は本当に恩人だよ！",
+			animation = "nod",
+			characterId = 100500,
+			subName = "牧場管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			say = "――これぐらいで大袈裟だな。とは言え、今度はしっかり見張っておくんだぞ",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "もちろん！もう絶対に遠くへ行かせないよ。まったく、世話が焼けるんだから",
+			animation = "sad",
+			characterId = 100500,
+			subName = "牧場管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "咯咯鸡",
+			withoutIcon = true,
+			say = "コッコッコー",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "はいはい、お腹空いてるでしょ？今すぐおいしい……",
+			subName = "牧場管理人",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "って、ええー？！",
+			animation = "scare",
+			characterId = 100500,
+			subName = "牧場管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――どうした、アメリゴ？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "え、餌が……底をついてる！からっぽだ！",
+			animation = "embarrass",
+			characterId = 100500,
+			subName = "牧場管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "shakehead",
+			say = "――次から次へとハプニングが絶えないな",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――普段の餌はどこから調達してるんだ？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "うーん……いつもホメリックが定期的に持ってきてくれるんだけど",
+			animation = "think",
+			characterId = 100500,
+			subName = "牧場管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "そうだ！小麦を製粉所で挽いて作ってるって言ってた！",
+			subName = "牧場管理人",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "――製粉所……小麦粉か。わかった、ここで待ってて",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――農場で新しい小麦が育った頃だろうし、製粉所に行ってみよう",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指揮官…頼もしすぎる！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只是举手之劳，也算是为牧场做努力了。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "之后我绝对不会让它跑太远了，真是让人担心。",
-			animation = "nod",
+			say = "ここでコッコートリと一緒に、待ってるからねー",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "哦——指挥官！你听到什么声音了吗？",
-			animation = "doubt",
-			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊，是咯咯鸡下蛋了！我们快去看看！",
-			animation = "curious",
-			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -33,11 +33,7 @@ slot0.init = function(slot0)
 	slot0.otherPopTpl = slot0:getTpl("frame/list/popo_other", slot0.chatPanel)
 	slot0.selfPopTpl = slot0:getTpl("frame/list/popo_self", slot0.chatPanel)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0.frame, false, {
-		groupName = LayerWeightConst.GROUP_CHATROOM
-	})
-
-	slot0.mainPanel = pg.UIMgr.GetInstance().UIMain
+	slot0:BlurPanel(slot0.frame)
 end
 
 slot0.didEnter = function(slot0)
@@ -287,10 +283,9 @@ slot0.closeChatPanel = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
 	slot4 = slot0._tf
 
-	slot1:UnblurPanel(slot0.frame, slot4)
+	slot0:UnOverlayPanel(slot0.frame, slot4)
 	eachChild(slot0.chatsContainer, function (slot0)
 		if uv0:findTF("face", slot0).childCount > 0 then
 			slot2 = slot1:GetChild(0).gameObject

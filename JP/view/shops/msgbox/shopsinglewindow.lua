@@ -78,7 +78,7 @@ slot0.Close = function(slot0)
 	if slot0.opening then
 		slot0.opening = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 		slot0:Hide()
 	end
 end

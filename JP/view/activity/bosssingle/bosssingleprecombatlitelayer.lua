@@ -422,8 +422,7 @@ slot0.didEnter = function(slot0)
 					onNo = function ()
 						uv0:emit(BossSinglePreCombatMediator.ON_ABORT_EDIT)
 						uv1()
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end)
 		end
@@ -559,8 +558,7 @@ slot0.displayFleetInfo = function(slot0)
 		onButton(slot0, slot0._costTip, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", baseCost, uv0),
-				weight = LayerWeightConst.SECOND_LAYER
+				content = i18n("use_oil_limit_help", baseCost, uv0)
 			})
 		end)
 	end
@@ -577,7 +575,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0._formationLogic:Destroy()
 
 	slot0._formationLogic = nil

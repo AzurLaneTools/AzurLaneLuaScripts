@@ -52,6 +52,7 @@ slot0.Show = function(slot0)
 	slot0.showPhase = 1
 
 	triggerToggle(slot0.togglesUIList.container:GetChild(0), true)
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_18")
 end
 
 slot0.UpdateGood = function(slot0, slot1, slot2)

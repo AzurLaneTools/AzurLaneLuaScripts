@@ -10,6 +10,15 @@ slot0.LINE_TYPE = {
 	C1 = 2
 }
 slot0.DEFAULT_MAX_Y = 10
+slot0.EDGE_X = 2
+slot0.EDGE_Y = 1
+slot0.FocusPriorities = {
+	IslandTechnology.STATUS.RECEIVE,
+	IslandTechnology.STATUS.STUDYING,
+	IslandTechnology.STATUS.NORMAL,
+	IslandTechnology.STATUS.LOCK,
+	IslandTechnology.STATUS.FINISHED
+}
 
 slot0.getUIName = function(slot0)
 	return "IslandTechTreePanel"
@@ -49,10 +58,8 @@ slot0.OnInit = function(slot0)
 		slot0.maxY = math.max(slot0.maxY, slot6[2])
 	end
 
-	slot0.maxX = slot0.maxX + 1
-	slot0.maxY = math.max(uv0.DEFAULT_MAX_Y, slot0.maxY + 1)
-
-	slot0:InitTreeCS(slot0.maxX, slot0.maxY)
+	slot0.maxX = slot0.maxX + uv0.EDGE_X
+	slot0.maxY = math.max(uv0.DEFAULT_MAX_Y, slot0.maxY + uv0.EDGE_Y)
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)
@@ -62,11 +69,12 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 
 	setAnchoredPosition(slot2, slot0:GetPositionById(slot4.id))
 	setActive(slot2:Find("selected"), false)
-	setText(slot2:Find("name"), slot4:getConfig("tech_name"))
+	uv0.SetTechName(slot2:Find("name"), slot4:getConfig("tech_name"))
 
 	slot6 = slot4:GetStatus() == IslandTechnology.STATUS.FINISHED
 
-	setTextColor(slot2:Find("name"), Color.NewHex(slot6 and "1b3650" or "ffffff"))
+	setTextColor(slot2:Find("name/Text"), Color.NewHex(slot6 and "1b3650" or "ffffff"))
+	setTextColor(slot2:Find("name/ScrollText"), Color.NewHex(slot6 and "1b3650" or "ffffff"))
 	LoadImageSpriteAsync("island/IslandTechnology/" .. slot4:getConfig("tech_icon"), slot2:Find("icon"), true)
 	setImageColor(slot2:Find("icon"), Color.NewHex(slot6 and "455a81" or "ffffff"))
 	setActive(slot2:Find("icon"), slot5 ~= IslandTechnology.STATUS.STUDYING and slot5 ~= IslandTechnology.STATUS.RECEIVE)
@@ -85,10 +93,15 @@ end
 slot0.Show = function(slot0)
 	slot0.super.Show(slot0)
 	slot0:Flush()
+	slot0:AutoFocus()
 end
 
 slot0.Flush = function(slot0)
 	slot0.techAgency = getProxy(IslandProxy):GetIsland():GetTechnologyAgency()
+
+	if not slot0.idx2pos then
+		slot0:InitTreeCS(slot0.maxX, slot0.maxY)
+	end
 
 	slot0.itemUIList:align(#slot0.displays)
 end
@@ -98,28 +111,15 @@ slot0.InitTreeCS = function(slot0, slot1, slot2)
 		x = uv0.ELEMENT_SIZE.x / 2,
 		y = uv0.ELEMENT_SIZE.y / 2
 	}
+	slot7 = uv0.VIEW_PADDING
 	slot6 = slot0.gridSize.y * slot2
 
 	setSizeDelta(slot0.showContent, {
-		x = slot0.gridSize.x * slot1 + uv0.VIEW_PADDING,
+		x = slot0.gridSize.x * slot1 + slot7,
 		y = slot6
 	})
 
 	slot0.idx2pos = {}
-
-	for slot6 = 0, slot1 do
-		for slot10 = 0, slot2 do
-			slot11 = slot6 .. "_" .. slot10
-			slot0.idx2pos[slot11] = {
-				x = slot0.gridSize.x * slot6,
-				y = -slot0.gridSize.y * slot10
-			}
-			slot12 = cloneTplTo(slot0.debugContainer:Find("tpl"), slot0.debugContainer)
-			slot12.name = slot11
-
-			setLocalPosition(slot12, slot0.idx2pos[slot11])
-		end
-	end
 
 	for slot6, slot7 in pairs(slot0:GetTechTreeLineData()) do
 		for slot11, slot12 in ipairs(slot7) do
@@ -181,35 +181,79 @@ slot0.GetTechTreeLineData = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.island_technology_template.get_id_list_by_tech_belong[slot0.contextData.type]) do
-		for slot12, slot13 in ipairs(slot1[slot7].ex_tech) do
-			assert(slot1[slot13], "配置了不存在的ex_tech: " .. slot13)
+		slot9 = {}
 
-			if not slot2[slot13] then
-				slot2[slot13] = {}
-			end
-
-			if not table.contains(slot2[slot13], slot7) then
-				table.insert(slot2[slot13], slot7)
+		for slot13, slot14 in ipairs(slot1[slot7].sys_unlock) do
+			if slot14[1] == IslandTechnology.UNLOCK_TYPE.FINISH_TECHNOLOGY then
+				table.insert(slot9, slot14[2])
 			end
 		end
 
-		if not slot2[slot7] then
-			slot2[slot7] = {}
-		end
+		for slot13, slot14 in ipairs(slot9) do
+			assert(slot1[slot14], slot7 .. "科研配置了不存在的前置科研id: " .. slot14)
 
-		slot2[slot7] = table.mergeArray(slot2[slot7], slot8.next_tech, true)
-		slot9 = slot8.axis[1]
+			if slot1[slot14].tech_belong == slot0.contextData.type then
+				if not slot2[slot14] then
+					slot2[slot14] = {}
+				end
 
-		for slot13, slot14 in ipairs(slot2[slot7]) do
-			assert(slot1[slot14], "配置了不存在的next_tech: " .. slot14)
-			assert(slot1[slot14].axis[1] - slot9 > 2, string.format("岛屿科技树框体点位间隔过近,请检查配置: %d->%d", slot7, slot14))
+				if not table.contains(slot2[slot14], slot7) then
+					table.insert(slot2[slot14], slot7)
+				end
+			end
 		end
 	end
 
 	return slot2
 end
 
+slot0.AutoFocus = function(slot0)
+	scrollTo(slot0.treeView, math.max(slot0:GetPositionById(slot0:GetFocusTechId()).x - uv0.ELEMENT_SIZE.x / 2, 0) / slot0.showContent.rect.width, 0)
+end
+
+slot0.GetFocusTechId = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.displays) do
+		if not slot1[slot0.techAgency:GetTechnology(slot6):GetStatus()] then
+			slot1[slot7] = {}
+		end
+
+		table.insert(slot1[slot7], slot6)
+	end
+
+	for slot5, slot6 in ipairs(uv0.FocusPriorities) do
+		if slot1[slot6] and #slot7 > 0 then
+			table.sort(slot7, CompareFuncs({
+				function (slot0)
+					return uv0:GetPositionById(slot0).x
+				end,
+				function (slot0)
+					return slot0
+				end
+			}))
+
+			return slot7[1]
+		end
+	end
+
+	return slot0.displays[1]
+end
+
 slot0.OnDestroy = function(slot0)
+end
+
+slot0.SetTechName = function(slot0, slot1)
+	GetComponent(slot0:Find("Text"), typeof(Text)).fontSize = GetPerceptualSize(slot1) > 8 and 28 or 32
+
+	setActive(slot0:Find("Text"), slot2 <= 10)
+	setActive(slot0:Find("ScrollText"), slot2 > 10)
+
+	if slot2 > 10 then
+		setScrollText(slot0:Find("ScrollText"), slot1)
+	else
+		setText(slot0:Find("Text"), slot1)
+	end
 end
 
 return slot0

@@ -14,8 +14,8 @@ slot0.IsSelfIsland = function(slot0)
 	return slot0.view:IsSelfIsland()
 end
 
-slot0.Emit = function(slot0, slot1, ...)
-	slot0.view:Emit(slot1, ...)
+slot0.NotifiyCore = function(slot0, slot1, ...)
+	slot0.view:NotifiyCore(slot1, ...)
 end
 
 slot0.Op = function(slot0, ...)
@@ -56,7 +56,19 @@ slot0.GetPoolMgr = function(slot0)
 	return slot0.view:GetPoolMgr()
 end
 
+slot0.Reset = function(slot0)
+	if slot0:IsLoaded() then
+		slot0:OnDispose()
+	end
+
+	slot0:OnDestroy()
+
+	slot0.__state = uv0
+end
+
 slot0.Dispose = function(slot0)
+	pg.DelegateInfo.Dispose(slot0)
+
 	if slot0:IsLoaded() then
 		slot0:OnDispose()
 	end

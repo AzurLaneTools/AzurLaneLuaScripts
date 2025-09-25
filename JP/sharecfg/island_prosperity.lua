@@ -5,7 +5,7 @@ pg.island_prosperity = {
 		prosperity = 300,
 		award_display = {
 			{
-				40,
+				41,
 				1,
 				200
 			}
@@ -16,7 +16,7 @@ pg.island_prosperity = {
 		prosperity = 500,
 		award_display = {
 			{
-				40,
+				41,
 				1,
 				300
 			}
@@ -27,7 +27,7 @@ pg.island_prosperity = {
 		prosperity = 800,
 		award_display = {
 			{
-				40,
+				41,
 				1,
 				400
 			}
@@ -38,7 +38,7 @@ pg.island_prosperity = {
 		prosperity = 1200,
 		award_display = {
 			{
-				40,
+				41,
 				1,
 				500
 			}
@@ -49,7 +49,7 @@ pg.island_prosperity = {
 		prosperity = 1600,
 		award_display = {
 			{
-				40,
+				41,
 				1,
 				600
 			}

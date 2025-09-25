@@ -255,12 +255,7 @@ slot0.updateChapterProgress = function(slot0)
 end
 
 slot0.showFilter = function(slot0)
-	slot4 = false
-	slot5 = {
-		weight = LayerWeightConst.SECOND_LAYER
-	}
-
-	pg.UIMgr.GetInstance():BlurPanel(slot0.filter, slot4, slot5)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.filter)
 
 	for slot4, slot5 in ipairs(uv0.NATION_LIST) do
 		setActive(slot0.filterTFDict[slot5.key]:Find("on"), slot0.filterDict[slot5.key])
@@ -284,7 +279,7 @@ slot0.confirmFilter = function(slot0)
 end
 
 slot0.closeFilter = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.filter, slot0.tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.filter, slot0.tf)
 
 	slot0.filterSnapShot = nil
 

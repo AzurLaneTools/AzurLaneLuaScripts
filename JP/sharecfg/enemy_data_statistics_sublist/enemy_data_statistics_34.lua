@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_34 = {
 	[91053] = {
 		cannon = 0,
-		name = "ボルツァーノ(META)",
+		name = "博尔扎诺·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91054] = {
 		cannon = 0,
-		name = "ジュリオ・チェザーレ(META)",
+		name = "朱利奥·凯撒·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -314,7 +314,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91055] = {
 		cannon = 0,
-		name = "アンドレア・ドーリア(META)",
+		name = "安德烈亚·多利亚·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -470,7 +470,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91056] = {
 		cannon = 0,
-		name = "エンフォーサーⅦ「Victory」",
+		name = "代行者VII「Victory」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -612,7 +612,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91057] = {
 		cannon = 0,
-		name = "エンフォーサーⅦ「Pulverization」",
+		name = "代行者VII「Pulverization」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -754,7 +754,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91058] = {
 		cannon = 0,
-		name = "エイマディスク",
+		name = "校射飞盘",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -875,7 +875,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91059] = {
 		cannon = 0,
-		name = "レオナルド・ダ・ヴィンチ",
+		name = "莱昂纳多·达·芬奇",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1019,7 +1019,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91060] = {
 		cannon = 0,
-		name = "マッジョーレ・バラッカ",
+		name = "巴拉卡少校",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1163,7 +1163,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91061] = {
 		cannon = 0,
-		name = "ジョズエ・カルドゥッチ",
+		name = "焦苏埃·卡尔杜齐",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1319,7 +1319,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91062] = {
 		cannon = 0,
-		name = "ラファエル",
+		name = "拉斐尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1475,7 +1475,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91063] = {
 		cannon = 0,
-		name = "ホーネット(META)",
+		name = "大黄蜂·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1625,7 +1625,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91064] = {
 		cannon = 0,
-		name = "病院ナイトメア-駆逐",
+		name = "病院梦魇-驱逐",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1785,7 +1785,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91065] = {
 		cannon = 0,
-		name = "病院ナイトメア-軽巡",
+		name = "病院梦魇-轻巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1945,7 +1945,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91066] = {
 		cannon = 0,
-		name = "病院ナイトメア-重巡",
+		name = "病院梦魇-重巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2111,7 +2111,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91067] = {
 		cannon = 0,
-		name = "病院ナイトメア-戦艦",
+		name = "病院梦魇-战列",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2271,7 +2271,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91068] = {
 		cannon = 0,
-		name = "病院ナイトメア-空母",
+		name = "病院梦魇-航母",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2438,7 +2438,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91069] = {
 		cannon = 0,
-		name = "病院ナイトメア-爆発",
+		name = "病院梦魇-爆炸",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2584,7 +2584,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91070] = {
 		cannon = 0,
-		name = "病院ナイトメア-潜水",
+		name = "病院梦魇-潜艇",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2735,7 +2735,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91071] = {
 		cannon = 0,
-		name = "モガドール",
+		name = "莫加多尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2891,7 +2891,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91072] = {
 		cannon = 0,
-		name = "サンタフェ",
+		name = "圣塔菲",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3047,7 +3047,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91073] = {
 		cannon = 0,
-		name = "ストレミテルヌイ",
+		name = "神速",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3203,7 +3203,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91074] = {
 		cannon = 0,
-		name = "ワシントン",
+		name = "华盛顿",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3359,7 +3359,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91075] = {
 		cannon = 0,
-		name = "鈴谷",
+		name = "铃谷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3671,7 +3671,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91077] = {
 		cannon = 0,
-		name = "ヴォロシーロフ",
+		name = "伏罗希洛夫",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3827,7 +3827,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91078] = {
 		cannon = 0,
-		name = "ミラー",
+		name = "米勒",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3983,7 +3983,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91079] = {
 		cannon = 0,
-		name = "フランクリン",
+		name = "富兰克林",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4139,7 +4139,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91080] = {
 		cannon = 0,
-		name = "イーグル",
+		name = "鹰",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4295,7 +4295,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91081] = {
 		cannon = 0,
-		name = "ハルフォード",
+		name = "哈尔福德",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4430,7 +4430,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91082] = {
 		cannon = 0,
-		name = "スーパーAI-TC",
+		name = "超级AI-TC",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4576,7 +4576,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91083] = {
 		cannon = 0,
-		name = "超・弩級根絶武装「スフィルニダエ」",
+		name = "超·无畏级根除武装「福尔尼德」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

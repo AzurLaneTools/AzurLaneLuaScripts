@@ -19,5 +19,6 @@ slot0.SKIN_SHOP_DISCOUNT = "usage_skin_discount"
 slot0.USAGE_SHOP_DISCOUNT = "usage_shop_discount"
 slot0.RANDOM_SKIN = "usage_drop_random_skin"
 slot0.USAGE_SKIN_EXP = "usage_skin_exp"
+slot0.SHIP_GIFT = "usage_favorability"
 
 return slot0

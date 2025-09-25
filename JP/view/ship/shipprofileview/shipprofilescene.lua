@@ -368,6 +368,10 @@ slot0.LoadSkinBg = function(slot0, slot1)
 
 		slot6:LoadBg(slot0, slot1, slot0.bg, slot0.staticBg, function (slot0)
 			rtf(slot0).localPosition = Vector3(0, 0, 200)
+			rtf(slot0).anchorMin = Vector2.zero
+			rtf(slot0).anchorMax = Vector2.one
+			rtf(slot0).offsetMin = Vector2(0, 0)
+			rtf(slot0).offsetMax = Vector2(0, 0)
 		end, function (slot0)
 			if uv0.bluePintBg and uv1 == uv0.bluePintBg then
 				if uv0.metaBg then
@@ -418,9 +422,7 @@ slot0.SwitchPage = function(slot0, slot1)
 	if slot0.index ~= slot1 then
 		seriesAsync({
 			function (slot0)
-				pg.UIMgr.GetInstance():OverlayPanel(uv0.blurPanel, {
-					groupName = LayerWeightConst.GROUP_SHIP_PROFILE
-				})
+				uv0:OverlayPanel(uv0.blurPanel)
 				slot0()
 			end,
 			function (slot0)
@@ -850,7 +852,7 @@ slot0.playOpening = function(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui/skinunlockanim", slot2, true, false, nil)
+		end, "ui/skinunlockanim", slot2, true, false)
 	elseif slot1 then
 		slot1()
 	end
@@ -980,7 +982,7 @@ slot0.willExit = function(slot0)
 
 	slot4 = slot0._tf
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot4)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot4)
 
 	for slot4, slot5 in ipairs(slot0.pages) do
 		slot5:Destroy()

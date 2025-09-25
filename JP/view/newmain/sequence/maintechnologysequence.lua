@@ -25,7 +25,6 @@ slot0.Execute = function(slot0, slot1)
 	if slot5 and not uv0.DontNotifyBluePrintTaskAgain then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("blueprint_task_update_tip", slot3:getShipVO():getConfig("name")),
-			weight = LayerWeightConst.SECOND_LAYER,
 			onYes = function ()
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
 			end,

@@ -53,7 +53,15 @@ slot0.RestartGame = function(slot0)
 end
 
 slot0.GetObjUnitList = function(slot0)
-	return slot0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_OBJ)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(slot0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_OBJ)) do
+		table.insert(slot1, slot7)
+	end
+
+	table.insert(slot1, slot0:GetView().player)
+
+	return slot1
 end
 
 slot0.GetUnitById = function(slot0, slot1)

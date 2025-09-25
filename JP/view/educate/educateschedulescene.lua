@@ -306,15 +306,13 @@ slot0.didEnter = function(slot0)
 	slot0:initSelectPlans()
 	slot0:initResultPanel()
 	slot0:checkTips()
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.mainTF, {
+	slot0:OverlayPanel(slot0.mainTF, {
 		pbList = {
 			slot0:findTF("bg", slot0.mainTF)
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE
+		}
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.topTF, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 1
+	slot0:OverlayPanel(slot0.topTF, {
+		groupDelta = 1
 	})
 end
 
@@ -841,12 +839,12 @@ slot0.willExit = function(slot0)
 
 	slot0.resPanel = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.mainTF, slot0:findTF("anim_root"))
+	slot0:UnOverlayPanel(slot0.mainTF, slot0:findTF("anim_root"))
 
 	slot5 = slot0
 	slot4 = slot0.findTF
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topTF, slot4(slot5, "anim_root"))
+	slot0:UnOverlayPanel(slot0.topTF, slot4(slot5, "anim_root"))
 
 	for slot4, slot5 in pairs(slot0.planCards) do
 		slot5:dispose()

@@ -190,6 +190,8 @@ slot0.UpdateDataDisplayFurnitures = function(slot0)
 		if not _.any(uv1, function (slot0)
 			return slot0:CanUseFurniture(uv0)
 		end) then
+			warning("家具没有可用槽位，检查类型是否一致 FURNITUREID = " .. slot0)
+
 			return
 		end
 

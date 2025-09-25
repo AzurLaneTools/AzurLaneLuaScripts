@@ -1,10 +1,50 @@
 return {
-	id = "ISLAND1001030_4",
 	mode = 10,
-	map = {},
+	id = "ISLAND1001030_4",
+	map = {
+		{
+			101200,
+			10090008
+		}
+	},
+	look_weight = {
+		{
+			0.7,
+			0
+		},
+		{
+			0.3,
+			0
+		}
+	},
 	scripts = {
 		{
-			say = "很好，这些苹果派都上架了。",
+			say = "――ブレーメン、オムレツをステファンに届けたら彼女から提案があったから聞いてほしい",
+			characterId = 0,
+			face2Face = {
+				{
+					0,
+					101200
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "doubt",
+			say = "提案？",
+			characterId = 101200,
+			subName = "カフェ店員",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			say = "――さっきのオムレツのように、島の食材を使った料理を販売したら？って",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,33 +52,43 @@ return {
 			}
 		},
 		{
-			say = "这浓郁的香味，让我看看谁会成为它们的第一位买家……",
+			say = "いいね。ただ……今のところ島の食材供給はまだ安定してないのがネックだけど…",
+			subName = "カフェ店員",
+			characterId = 101200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――それは確かに…じゃあ食材の件はこっちが何とかしよう",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――今販売できる料理の数は限られるにしろ、ここが発展すれば、種類も量も着実に増えていくだろう",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "じゃあ、今ある食材で作れる料理を先に販売して、様子を見てからにしない？",
+			animation = "clap",
+			characterId = 101200,
+			subName = "カフェ店員",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "nod",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorIcon = 3120199,
-			actorName = "？？？",
-			say = "喵——！这个味道！不会错的喵！是刚烤好的顶级苹果派的香气喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（好耳熟的声音……）",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊——是绿头猫咪！",
+			say = "――そうしよう。さっき作ってくれたオムレツは販売ラインナップに追加で",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

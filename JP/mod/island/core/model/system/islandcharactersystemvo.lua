@@ -16,6 +16,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.behaviourTree = slot0.config.behaviourTree
 	slot0.worker = 0
 	slot0.productSystem = slot2
+	slot0.chickenId = slot2.id % 10 * 100 + 1
+	slot0.slotShipUnitDic = {}
 end
 
 slot0.IsSelf = function(slot0, slot1)
@@ -33,82 +35,96 @@ slot0.InitCfgData = function(slot0, slot1)
 end
 
 slot0.GetUnit = function(slot0, slot1, slot2, slot3)
-	slot4 = {
-		402,
-		602,
-		601,
-		702,
-		102,
-		101,
-		901
-	}
-
-	if not slot3 and not table.contains(slot4, slot0.id) then
-		return
-	end
-
 	if not pg.island_world_objects[pg.island_production_commission[slot0.slotDic[slot2]].birthplace] then
 		return nil
 	end
 
-	slot8 = nil
+	slot7, slot8 = nil
 
 	if slot0.config.interactionType == uv0 and not slot3 then
 		slot11 = IslandCalcUtil.GetRandomPointOnCircle(BuildVector3(pg.island_world_objects[slot0:GetObjId(slot2)].param.position), 2)
-		slot8 = {
+		slot7 = {
 			slot11.x,
 			slot11.y,
 			slot11.z
 		}
 	else
-		slot8 = slot7.param.position
+		slot7 = slot6.param.position
+		slot8 = slot6.param.rotation
 	end
 
 	slot9 = nil
+	slot9 = (not slot0.isSelf or getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetModelUnit()) and pg.island_chara_template[slot1].unit_id
+	slot10 = slot1 == 1 and slot0.config.chickenbehaviourTree or slot0.config.npcbehaviourTree
+	slot11 = false
 
-	return IslandUnitVO.New({
+	if slot1 == 1 then
+		slot0.chickenId = slot0.chickenId + 1
+		slot0.slotShipUnitDic[slot2] = slot0.chickenId
+		slot11 = true
+	end
+
+	return IslandDelegateUnitVO.New({
 		id = slot1,
-		modelId = (not slot0.isSelf or getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetModelUnit()) and pg.island_chara_template[slot1].unit_id,
+		isChicken = slot11,
+		modelId = slot9,
 		type = IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION,
 		name = "system_unit" .. slot1,
-		position = slot8,
-		rotation = Vector3.zero,
+		position = slot7,
+		rotation = slot8 or Vector3.zero,
 		scale = Vector3.one,
-		behaviourTree = slot1 == 1 and slot0.config.chickenbehaviourTree or slot0.config.npcbehaviourTree
+		behaviourTree = slot10
 	})
+end
+
+slot0.GetUnitShipIdBySlotId = function(slot0, slot1, slot2)
+	if slot1 == 1 then
+		return slot0.slotShipUnitDic[slot2]
+	end
+
+	return slot1
 end
 
 slot0.GetObjId = function(slot0, slot1)
 	return pg.island_production_commission[slot0.slotDic[slot1]].performanceObjid
 end
 
-slot0.GetperformanceObjidList = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.GetperformanceObjidList = function(slot0, slot1)
+	slot2 = {}
+	slot4 = {
+		IslandProductConst.MinePlaceId,
+		IslandProductConst.FellingPlaceId,
+		IslandProductConst.TechnologyPlaceId
+	}
 
-	if slot0.id == IslandProductSystemVO.FarmlandPlaceId then
-		for slot8, slot9 in ipairs(pg.island_production_slot[slot1].exclusion_slot) do
-			table.insert(slot3, {
-				unitId = slot0.productSystem:GetUnitIdBySlotId(slot9),
+	if table.contains({
+		IslandProductConst.FarmlandPlaceId,
+		IslandProductConst.OrchardPlaceId,
+		IslandProductConst.GardenPlaceId
+	}, slot0.id) then
+		for slot9, slot10 in ipairs(pg.island_production_slot[slot1].exclusion_slot) do
+			table.insert(slot2, {
+				unitId = slot0.productSystem:GetUnitIdBySlotId(slot10),
 				unitType = IslandConst.UNIT_LIST_OBJ
 			})
 		end
-	elseif slot0.id == IslandProductSystemVO.MinePlaceId or slot0.id == IslandProductSystemVO.FellingPlaceId or slot0.id == IslandProductSystemVO.TechnologyPlaceId then
-		table.insert(slot3, {
+	elseif table.contains(slot4, slot0.id) then
+		table.insert(slot2, {
 			unitId = pg.island_production_commission[slot0.slotDic[slot1]].performanceObjid,
 			unitType = IslandConst.UNIT_LIST_OBJ
 		})
-	elseif slot0.id == IslandProductSystemVO.PasturePlaceId then
-		for slot8, slot9 in ipairs(pg.island_production_slot[slot1].animal) do
-			slot10 = pg.island_ranch_animal[slot9]
+	elseif slot0.id == IslandProductConst.PasturePlaceId then
+		for slot9, slot10 in ipairs(pg.island_production_slot[slot1].animal) do
+			slot11 = pg.island_ranch_animal[slot10]
 
-			table.insert(slot3, {
-				unitId = slot9,
+			table.insert(slot2, {
+				unitId = slot10,
 				unitType = IslandConst.UNIT_LIST_DELEGATION_ANIMATION
 			})
 		end
 	end
 
-	return slot3
+	return slot2
 end
 
 slot0.SetWorkerCnt = function(slot0, slot1)

@@ -115,7 +115,7 @@ slot0.didEnter = function(slot0)
 				uv0.toggleIndex = uv1
 
 				if uv0.selectedItem then
-					pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0._tf)
+					pg.UIMgr.GetInstance():UnOverlayPanel(uv0.blurPanel, uv0._tf)
 
 					slot4 = 1000000
 
@@ -353,7 +353,7 @@ slot0.easeOut = function(slot0, slot1)
 
 		slot0:setOpEnabled(false)
 		slot0:easeOutDetail(function ()
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.blurPanel, uv0._tf)
 
 			uv0.easing = false
 			uv0.selectedItem = nil
@@ -592,7 +592,7 @@ slot0.willExit = function(slot0)
 
 	slot4 = slot0._tf
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot4)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot4)
 	slot0:ktimer()
 
 	for slot4, slot5 in pairs(slot0.scrollItems) do

@@ -5,6 +5,7 @@ slot0.TYPE_FINDPATH = 1
 slot0.TYPE_TRANSFER = 2
 slot0.TYPE_STORY = 3
 slot0.TYPE_HIDE_UNIT = 4
+slot0.TYPE_UPDATE_STORY = 5
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -30,6 +31,8 @@ slot0.GetPlayer = function(slot0, slot1)
 		return IslandPerformanceStoryPlayer.New(slot0)
 	elseif slot1 == uv0.TYPE_HIDE_UNIT then
 		return IslandPerformanceActiveUnitPlayer.New(slot0)
+	elseif slot1 == uv0.TYPE_UPDATE_STORY then
+		return IslandUpdateStoryPlayer.New(slot0)
 	end
 end
 

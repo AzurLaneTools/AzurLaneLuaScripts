@@ -1,121 +1,10 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103260] = {
-		name = "ノーザンプトンⅡ",
-		change_skin = "",
-		desc = "オレゴン級重巡洋艦――ノーザンプトンⅡ(CA-125)",
-		illustrator2 = -1,
-		ship_group = 10326,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "beianpudunII",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103260,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "beianpudunII",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 27,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.24,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103261] = {
-		name = "スター・アクアティック",
+		name = "竞泳之星",
 		change_skin = "",
-		desc = "ふぅ。一度休憩してからもう何往復か……あっ。指揮官も水泳のトレーニングをやりに？",
+		desc = "先休息一下，之后再来几个来回……啊，指挥官也是来这里游泳锻炼的吗？",
 		illustrator2 = -1,
 		ship_group = 10326,
 		group_index = 1,
@@ -255,9 +144,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103262] = {
-		name = "雲閒のレイジークレーン",
+		name = "闲云野鹤",
 		change_skin = "",
-		desc = "ふぅ……東煌の祝祭の雰囲気をより楽しむために着替えたけど…見た目もいいし着心地も最高なのに、なんだか気恥ずかしくなってきたかも……え？指揮官、いつ来たの？",
+		desc = "呼——为了更好的体验节日氛围，才换上了这身衣服……虽然既漂亮又舒服，但总觉得有点不好意思呢……唔、指挥官什么时候来的？",
 		illustrator2 = -1,
 		ship_group = 10326,
 		group_index = 2,
@@ -368,9 +257,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103270] = {
-		name = "ルイビル",
+		name = "路易斯维尔",
 		change_skin = "",
-		desc = "ノーザンプトン級重巡洋艦-ルイビル　CA-28",
+		desc = "北安普敦级重巡洋舰—路易斯维尔，舷号CA-28",
 		illustrator2 = -1,
 		ship_group = 10327,
 		group_index = 0,
@@ -486,9 +375,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103271] = {
-		name = "オーダー・ディリュージョン",
+		name = "梦幻推荐",
 		change_skin = "",
-		desc = "指揮官、こちらはご注文の――ええと、たしか伝票に書いてあったような…あれ？伝票をどこに置きましたっけ？うぅ、指揮官の注文を間違えてたら大変なことに…",
+		desc = "指挥官，这是你点的——欸，应该是写在小票上的……咦？小票放在哪里了？呜，如果我把指挥官的点单搞错了那就糟糕了……",
 		illustrator2 = -1,
 		ship_group = 10327,
 		group_index = 1,
@@ -622,9 +511,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103280] = {
-		name = "ピッツバーグ",
+		name = "匹兹堡",
 		change_skin = "",
-		desc = "ボルチモア級重巡洋艦-ピッツバーグ",
+		desc = "巴尔的摩级重巡洋舰—匹兹堡",
 		illustrator2 = -1,
 		ship_group = 10328,
 		group_index = 0,
@@ -740,9 +629,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103281] = {
-		name = "ガールズ・カウンター",
+		name = "斟酒女郎的赌局",
 		change_skin = "",
-		desc = "ここはウェスタンバーだから、ジュースを飲むのもルーレットもお付き合いするけどぉ……もちろん、もっとトクベツなサービスもあるわよ…？",
+		desc = "指挥官，在西部酒馆里，无论是喝果汁还是轮盘游戏我都会奉陪，当然，还有些更特别的……",
 		illustrator2 = -1,
 		ship_group = 10328,
 		group_index = 1,
@@ -870,7 +759,6 @@ pg.base.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -920,9 +808,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[103290] = {
-		name = "リトル・アンカレッジ",
+		name = "小安克雷奇",
 		change_skin = "",
-		desc = "重巡洋艦・アンカレッジ",
+		desc = "重巡洋舰-—安克雷奇",
 		illustrator2 = -1,
 		ship_group = 10329,
 		group_index = 0,
@@ -1038,9 +926,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[104010] = {
-		name = "コンステレーション",
+		name = "星座",
 		change_skin = "",
-		desc = "レキシントン級巡洋戦艦-コンステレーション CC-2",
+		desc = "列克星敦级战列巡洋舰—星座，舷号CC-2",
 		illustrator2 = -1,
 		ship_group = 10401,
 		group_index = 0,
@@ -1156,9 +1044,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[104011] = {
-		name = "セレクト・ギャラクシー",
+		name = "星选之夜",
 		change_skin = "",
-		desc = "いらっしゃいませ、指揮官。コンステレーションに注文するなら艦船通信での1ヶ月分の星座占いを――ふふ、冗談。…指揮官が知りたいことならコンステレーション、なんでも教えてあげる",
+		desc = "欢迎光临，指挥官。如果选择星座帮您点单，可以附赠本月的星座运势。开个玩笑……只要是指挥官想知道的，星座都会告诉你。",
 		illustrator2 = -1,
 		ship_group = 10401,
 		group_index = 1,
@@ -1282,9 +1170,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105010] = {
-		name = "ネバダ",
+		name = "内华达",
 		change_skin = "",
-		desc = "ネバダ級戦艦・ネバダ（BB-36)",
+		desc = "内华达级战列舰—内华达，舷号BB-36",
 		illustrator2 = -1,
 		ship_group = 10501,
 		group_index = 0,
@@ -1411,9 +1299,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105011] = {
-		name = "煌びやかなる宴",
+		name = "华贵的盛宴",
 		change_skin = "",
-		desc = "よっ、少年。各所の挨拶に回って疲れてないかい？ほら、こっちに来な。いいものでも食べながらちょっと休みなよ",
+		desc = "哟，少年。四处寒暄走累了没？来，过来坐会。吃些好的休息下吧。",
 		illustrator2 = -1,
 		ship_group = 10501,
 		group_index = 1,
@@ -1524,9 +1412,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105019] = {
-		name = "ネバダ改",
+		name = "内华达.改",
 		change_skin = "",
-		desc = "ふふん、これで性能もあの新造艦のひよっこたちに負けないな。少年、これからはどんなことでも、このネバダに任せな！",
+		desc = "哼哼，这下性能上不会输给新锐的那些小丫头们了。指挥官，接下来凡事都交给我内华达吧！",
 		illustrator2 = -1,
 		ship_group = 10501,
 		group_index = 9,
@@ -1635,9 +1523,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105020] = {
-		name = "オクラホマ",
+		name = "俄克拉荷马",
 		change_skin = "",
-		desc = "ネバダ級戦艦・オクラホマ（BB-37)",
+		desc = "内华达级战列舰—俄克拉荷马，舷号BB-37",
 		illustrator2 = -1,
 		ship_group = 10502,
 		group_index = 0,
@@ -1764,9 +1652,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105021] = {
-		name = "パイレーツへんしん!",
+		name = "炸裂变身大作战！",
 		change_skin = "",
-		desc = "ハロー指揮官さん！あ、この格好？最近のマイブームだよ～。雰囲気を出すためにかぼちゃを加工したり、饅頭たちにも一役買ってもらったの。どう？様になってる？",
+		desc = "哈啰指挥官！你说这身打扮吗？最近挺沉迷这个的呢~为了营造氛围把南瓜也加工了下，另外把这些孩子们也打扮了下。怎么样？是不是挺有感觉的？",
 		illustrator2 = -1,
 		ship_group = 10502,
 		group_index = 1,
@@ -1882,9 +1770,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105029] = {
-		name = "オクラホマ改",
+		name = "俄克拉荷马.改",
 		change_skin = "",
-		desc = "指揮官さんありがとう！私とっても強くなった！これで姉さんにちょっと近づけたのかな？えへへ、指揮官さんのために、もっと頑張るよ！",
+		desc = "多亏指挥官，我变得更强了呢！不知道有没有稍微接近姐姐了呢…诶嘿嘿，为了指挥官，我会加油的！",
 		illustrator2 = -1,
 		ship_group = 10502,
 		group_index = 9,
@@ -1993,9 +1881,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105030] = {
-		name = "ペンシルベニア",
+		name = "宾夕法尼亚",
 		change_skin = "",
-		desc = "ペンシルベニア級戦艦・ペンシルベニア（BB-38)",
+		desc = "宾夕法尼亚级战列舰—宾夕法尼亚，舷号BB-38",
 		illustrator2 = -1,
 		ship_group = 10503,
 		group_index = 0,
@@ -2127,9 +2015,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105031] = {
-		name = "石州飛将",
+		name = "石州飞将",
 		change_skin = "",
-		desc = "止まれ！何奴だ！…あら、指揮官か。あやうく間者の類かと思ったが…ここに来たのは見学か？それとも本当に「我が軍の情報を調べにやってきた」のか？",
+		desc = "站住！来者何人！…原来是指挥官啊。还以为是哪来的细作…你是来参观的？还是说…真的是来“刺探情报”的?",
 		illustrator2 = -1,
 		ship_group = 10503,
 		group_index = 1,
@@ -2245,9 +2133,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105040] = {
-		name = "アリゾナ",
+		name = "亚利桑那",
 		change_skin = "",
-		desc = "ペンシルベニア級戦艦・アリゾナ（BB-39）",
+		desc = "宾夕法尼亚级战列舰—亚利桑那，舷号BB-39",
 		illustrator2 = -1,
 		ship_group = 10504,
 		group_index = 0,
@@ -2379,9 +2267,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105041] = {
-		name = "西方舞姫",
+		name = "异域的舞姬",
 		change_skin = "",
-		desc = "東煌にゆかりのある衣装だと聞きましたけど、これは……ううん、嫌いではありませんが、指揮官に見せるのは、ちょっと恥ずかしくて…あっ、泣きそうとか、そういうのじゃありませんよっ",
+		desc = "据说这服装和东煌有些渊源，不过…啊，也不是不喜欢，就是…像这样被指挥官看着，多少还是会有点害羞…啊，也没有想哭的意思啦…",
 		illustrator2 = -1,
 		ship_group = 10504,
 		group_index = 1,
@@ -2502,9 +2390,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105070] = {
-		name = "テネシー",
+		name = "田纳西",
 		change_skin = "",
-		desc = "デネシー級戦艦・デネシー（BB-43)",
+		desc = "田纳西级战列舰—田纳西，舷号BB-43",
 		illustrator2 = -1,
 		ship_group = 10507,
 		group_index = 0,
@@ -2636,9 +2524,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105080] = {
-		name = "カリフォルニア",
+		name = "加利福尼亚",
 		change_skin = "",
-		desc = "デネシー級戦艦・カリフォルニア（BB-44)",
+		desc = "田纳西级战列舰—加利福尼亚，舷号BB-44",
 		illustrator2 = -1,
 		ship_group = 10508,
 		group_index = 0,
@@ -2770,9 +2658,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105090] = {
-		name = "コロラド",
+		name = "科罗拉多",
 		change_skin = "",
-		desc = "コロラド級戦艦・コロラド（BB-45)",
+		desc = "科罗拉多级战列舰—科罗拉多，舷号BB-45",
 		illustrator2 = -1,
 		ship_group = 10509,
 		group_index = 0,
@@ -2880,10 +2768,121 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
-	[105092] = {
-		name = "旅の旋律",
+	[105091] = {
+		name = "科罗拉多",
 		change_skin = "",
-		desc = "♪……………可愛いな。……指揮官、今のは…聞かなかったことにしてくれ",
+		desc = "科罗拉多级战列舰—科罗拉多，舷号BB-45",
+		illustrator2 = -1,
+		ship_group = 10509,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "keluoladuo_2",
+		bg_sp = "",
+		skin_type = 3,
+		shop_type_id = 9999,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 105091,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "keluoladuo_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 152,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.21,
+					1.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.21,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.444,
+							2.518,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105092] = {
+		name = "旅途的旋律",
+		change_skin = "",
+		desc = "♪……………好可爱。……指挥官，刚才那个…请当做没听到。",
 		illustrator2 = -1,
 		ship_group = 10509,
 		group_index = 2,
@@ -2994,9 +2993,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105093] = {
-		name = "夕日のカヴァティーナ",
+		name = "夕阳的咏叹调",
 		change_skin = "",
-		desc = "皆と海に入らず、ここで私と一緒に日没を眺めることを選んだ…？せっかくの海なのに、本当に大丈夫？あ、いや、私は…お前がいいなら、それでいい…",
+		desc = "明明可以和大家一起去海里玩，却选择在这里和我一起看日落...？难得来到海边，这样真的没问题？啊，不，只要你无所谓就好...",
 		illustrator2 = -1,
 		ship_group = 10509,
 		group_index = 3,
@@ -3135,9 +3134,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105099] = {
-		name = "コロラド改",
+		name = "科罗拉多.改",
 		change_skin = "",
-		desc = "お前の呼びかけに応じてより強く、より凄まじく、より完璧な姿で戻ってきた。さあ、指示を。コロラドは「ビッグセブン」の名において、お前を阻むすべてを一掃しよう",
+		desc = "再次响应你的呼唤，科罗拉多，以更完美、更强大、更卓越的姿态归来。请下达你的指示吧，以“Big Seven”之名，科罗拉多将为你扫清一切障碍。",
 		illustrator2 = -1,
 		ship_group = 10509,
 		group_index = 9,
@@ -3246,9 +3245,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105100] = {
-		name = "メリーランド",
+		name = "马里兰",
 		change_skin = "",
-		desc = "コロラド級戦艦・メリーランド（BB-46)",
+		desc = "科罗拉多级战列舰—马里兰，舷号BB-46",
 		illustrator2 = -1,
 		ship_group = 10510,
 		group_index = 0,
@@ -3356,10 +3355,121 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
-	[105102] = {
-		name = "真紅のドラムファイア",
+	[105101] = {
+		name = "马里兰",
 		change_skin = "",
-		desc = "おう指揮官、お前も気分転換か？大丈夫だ、ほかの連中にお前がここにいることは言わないから、落ち着いて花火でも見てな",
+		desc = "科罗拉多级战列舰—马里兰，舷号BB-46",
+		illustrator2 = -1,
+		ship_group = 10510,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "malilan_2",
+		bg_sp = "",
+		skin_type = 3,
+		shop_type_id = 9999,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 105101,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "malilan_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 162,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					0.82,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.17,
+					0.82,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					0.82,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.49,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105102] = {
+		name = "真红鼓手",
+		change_skin = "",
+		desc = "哟，指挥官，你也躲到这里找清闲来了？安心，我不会告诉其他人你在这里的，一起看烟花吧。",
 		illustrator2 = -1,
 		ship_group = 10510,
 		group_index = 2,
@@ -3498,9 +3608,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105109] = {
-		name = "メリーランド改",
+		name = "马里兰.改",
 		change_skin = "",
-		desc = "メリーランド、改造完了だぁ！はっ、どこが変わったかは大まかに分かったし、細かいのは戦って確かめるとする！お前もそれでいいよな？",
+		desc = "马里兰，改造完成！哈，哪些地方有变化大概看都能看出来，具体的细节就在战斗的时候再确认就行！你也这么认为对吧？",
 		illustrator2 = -1,
 		ship_group = 10510,
 		group_index = 9,
@@ -3609,9 +3719,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105110] = {
-		name = "ウェストバージニア",
+		name = "西弗吉尼亚",
 		change_skin = "",
-		desc = "コロラド級戦艦・ウェストバージニア（BB-48)",
+		desc = "科罗拉多级战列舰—西弗吉尼亚，舷号BB-48",
 		illustrator2 = -1,
 		ship_group = 10511,
 		group_index = 0,
@@ -3719,10 +3829,121 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
-	[105112] = {
-		name = "シーニック・ラプソディ",
+	[105111] = {
+		name = "西弗吉尼亚",
 		change_skin = "",
-		desc = "コロラド、メリーランド、準備はいいか！緊張は不要――指揮官、そして母港の仲間たちに私たち「ビッグセブン」のパフォーマンスを見せるのだ！",
+		desc = "科罗拉多级战列舰—西弗吉尼亚，舷号BB-48",
+		illustrator2 = -1,
+		ship_group = 10511,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "xifujiniya_2",
+		bg_sp = "",
+		skin_type = 3,
+		shop_type_id = 9999,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 105111,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "xifujiniya_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 154,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.56,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105112] = {
+		name = "海色摇滚",
+		change_skin = "",
+		desc = "科罗拉多，马里兰，准备好了吗！不用·紧张——向指挥官，以及港区的伙伴们展示我们Big Seven的表演就好！",
 		illustrator2 = -1,
 		ship_group = 10511,
 		group_index = 2,
@@ -3833,9 +4054,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105119] = {
-		name = "ウェストバージニア改",
+		name = "西弗吉尼亚.改",
 		change_skin = "",
-		desc = "ウェストバージニア、改造終了だ。艦隊に加わったときに私の力を見せると言ったが、こうも強くしてもらってはこちらの立つ瀬がない。改めて指揮官、私の力をあなたに",
+		desc = "西弗吉尼亚，改造完毕。加入舰队时我曾说过要展示自己的力量，而在如今你让我变得如此强大后，我更不能落后。指挥官，再次为你献上我的力量。",
 		illustrator2 = -1,
 		ship_group = 10511,
 		group_index = 9,
@@ -3944,9 +4165,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105120] = {
-		name = "ノースカロライナ",
+		name = "北卡罗来纳",
 		change_skin = "",
-		desc = "ノースカロライナ級戦艦・ノースカロライナ（BB-55)",
+		desc = "北卡罗来纳级战列舰—北卡罗来纳，舷号BB-55",
 		illustrator2 = -1,
 		ship_group = 10512,
 		group_index = 0,
@@ -4055,9 +4276,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105121] = {
-		name = "内なる力と正義",
+		name = "秘密的换装练习？",
 		change_skin = "",
-		desc = "あっ。指揮官、これはその着替えというか練習というか…ええと、そう言えば指揮官は確か「バニーガールが好き」でしたよね？",
+		desc = "啊？指挥官，这只是在…对，在做换衣服的练习而已…！对了…说起来，指挥官应该是“兔女郎爱好者”…对吧？",
 		illustrator2 = -1,
 		ship_group = 10512,
 		group_index = 1,
@@ -4177,7 +4398,6 @@ pg.base.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -4185,9 +4405,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105130] = {
-		name = "ワシントン",
+		name = "华盛顿",
 		change_skin = "",
-		desc = "ノースカロライナ級戦艦・ワシントン（BB-56)",
+		desc = "北卡罗来纳级战列舰—华盛顿，舷号BB-56",
 		illustrator2 = -1,
 		ship_group = 10513,
 		group_index = 0,
@@ -4296,9 +4516,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105131] = {
-		name = "スマイリーアニバーサリー",
+		name = "微笑嘉年华",
 		change_skin = "",
-		desc = "ちっす、指揮官。…アタシの格好？別に普通だけど…まさかお前、変なことでも考えてんじゃないんだよな…ぶっ飛ばすぞ！",
+		desc = "哟，指挥官。…我的打扮？也没什么特别的…你该不会在想什么奇怪的事情吧？…当心我把你揍飞哦！",
 		illustrator2 = -1,
 		ship_group = 10513,
 		group_index = 1,
@@ -4409,9 +4629,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105132] = {
-		name = "真夜中ラウンド",
+		name = "夜间巡诊",
 		change_skin = "",
-		desc = "おい、指揮官。ナースコールを押したよな？…押してない？むぅ……絶対に押してただろう！いいか、患者は患者らしく、さっさと仕事を止めておとなしく診察されろってんだ",
+		desc = "喂，指挥官，是你按了呼叫铃吗？……没有？唔……肯定就是你按的，好了，病人就要有病人的自觉，先停下工作，让我帮你做一下检查吧。",
 		illustrator2 = -1,
 		ship_group = 10513,
 		group_index = 2,
@@ -4528,9 +4748,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105140] = {
-		name = "サウスダコタ",
+		name = "南达科他",
 		change_skin = "",
-		desc = "サウスダコタ級戦艦・サウスダコタ（BB-57)",
+		desc = "南达科他级战列舰—南达科他，舷号BB-57",
 		illustrator2 = 19,
 		ship_group = 10514,
 		group_index = 0,
@@ -4664,9 +4884,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105141] = {
-		name = "ソロコンサート",
+		name = "剧场上的独奏",
 		change_skin = "",
-		desc = "マサチューセッツから戦い以外に何か役に立てるものを探そうと勧められ、それでピアノを始めたわけだが……無理と思っていたけど、いざやってみると意外と手応えはあるな",
+		desc = "为了在战场之外也能派上用场，马萨诸塞建议我学习了钢琴。虽然一开始觉得自己不是这块料，实际上手之后意外地有挑战的价值……",
 		illustrator2 = 19,
 		ship_group = 10514,
 		group_index = 1,
@@ -4784,9 +5004,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105150] = {
-		name = "インディアナ",
+		name = "印第安纳",
 		change_skin = "",
-		desc = "サウスダコタ級戦艦-インディアナ",
+		desc = "南达科他级战列舰—印第安纳",
 		illustrator2 = -1,
 		ship_group = 10515,
 		group_index = 0,
@@ -4920,9 +5140,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105151] = {
-		name = "ハイ・ヌーン・アレスト",
+		name = "酒馆大劫案",
 		change_skin = "",
-		desc = "指揮官、ここにいたのか？ボクがどうしてここにいるのかって？ああ、屋上から降りてくるのが一直線で一番早いと思ったんだ。だから天井をぶち抜いて降りることにした。強盗どもはもう全員片付けたから、あとは安心してボクに任せるといい",
+		desc = "指挥官，你在这里啊？为什么我在这里？没有什么路径比直线速度更快——这样的想法下，我就直接打穿天花板了。劫匪已经全部被干掉了，放心把接下来的安全交给我吧。",
 		illustrator2 = -1,
 		ship_group = 10515,
 		group_index = 1,
@@ -5046,9 +5266,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105170] = {
-		name = "ニュージャージー",
+		name = "{namecode:199}",
 		change_skin = "",
-		desc = "アイオワ級戦艦・ニュージャージー（BB-62)",
+		desc = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
 		illustrator2 = -1,
 		ship_group = 10517,
 		group_index = 0,
@@ -5179,9 +5399,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105171] = {
-		name = "リッピング・ステッピング！",
+		name = "跃动的舞台时间！",
 		change_skin = "",
-		desc = "ワンツージャンプ！おっ、今回はいい感じ♪というわけで、今のあたしに何点つける？もちろん100点なんだよね～だってこういうの、好きなんでしょ？",
+		desc = "一、二、跳！嗯，这把感觉不错~指挥官，这次我能拿多少分呢？肯定是100分吧~毕竟，指挥官就喜欢这种的不是吗~？",
 		illustrator2 = -1,
 		ship_group = 10517,
 		group_index = 1,
@@ -5299,9 +5519,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105172] = {
-		name = "盛夏のレジャータイム",
+		name = "盛夏的闲暇",
 		change_skin = "",
-		desc = "あつーい…ハニーは大丈夫？へたってない？飲み物なら分けてあげてもいいけど、その代わり日焼け止めを塗ってくれない？ふふ、こういうの、好きなんでしょ♪",
+		desc = "好热…Honey不要紧吗？没热趴下吧？我分你点饮料，你能帮我涂下防晒吗？呵呵，Honey喜欢这种的对吧♪",
 		illustrator2 = -1,
 		ship_group = 10517,
 		group_index = 2,
@@ -5426,7 +5646,6 @@ pg.base.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -5450,9 +5669,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105173] = {
-		name = "月下のレッツ・ダンス！",
+		name = "Let's Dance！月下起舞！",
 		change_skin = "",
-		desc = "ふぅ⋯締めの動きがかなり難しいけど、あたしにはなんてことないんだから！それでハニー、こういうのは好き⋯⋯？ハニー？もしかして見入ってて言葉も出なくなった？あはは♪",
+		desc = "呼~收尾的动作可真难啊，不过根本难不倒我啦！Honey~我跳得怎么样啊~？Honey？已经完全看入迷了吗？哈哈哈♪~",
 		illustrator2 = -1,
 		ship_group = 10517,
 		group_index = 3,
@@ -5576,9 +5795,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105178] = {
-		name = "スノーブライドラブ",
+		name = "白雪之仪",
 		change_skin = "",
-		desc = "最大最強…じゃなくて、最愛最高のウエディング姿のニュージャージー、登場よ！ふふふ、見惚れた？そりゃハニーが見惚れないはずがないよね♪",
+		desc = "最强最大的…不对，是最可爱最美的婚纱装扮{namecode:199}登场！哼哼哼~看入迷了吧？毕竟是Honey，肯定被我迷得不要不要的了~",
 		illustrator2 = -1,
 		ship_group = 10517,
 		group_index = 8,
@@ -5694,9 +5913,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105190] = {
-		name = "マサチューセッツ",
+		name = "马萨诸塞",
 		change_skin = "",
-		desc = "サウスダコタ型戦艦マサチューセッツ（BB-59）",
+		desc = "南达科他级战列舰—马萨诸塞，舷号BB-59",
 		illustrator2 = -1,
 		ship_group = 10519,
 		group_index = 0,
@@ -5812,9 +6031,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105191] = {
-		name = "ドレッシービューティー",
+		name = "盛宴的准备",
 		change_skin = "",
-		desc = "ほーい。…この服、ヘン？姉貴のとそう違わないけど…なんで固まっている？ちょっとわからないな",
+		desc = "嗯？这套衣服，很奇怪吗？看起来和姐姐的差不多…为什么指挥官呆住了？真搞不懂你啊",
 		illustrator2 = -1,
 		ship_group = 10519,
 		group_index = 1,
@@ -5932,9 +6151,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105200] = {
-		name = "アラバマ",
+		name = "阿拉巴马",
 		change_skin = "",
-		desc = "サウスダコタ級戦艦・アラバマ（BB-60)",
+		desc = "南达科他级战列舰—阿拉巴马，舷号BB-60",
 		illustrator2 = -1,
 		ship_group = 10520,
 		group_index = 0,
@@ -6050,9 +6269,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105201] = {
-		name = "緞子金襴",
+		name = "金锱银铢",
 		change_skin = "",
-		desc = "うーん…注文が多くて大変…さすが東煌の料理店ね。…ん？指揮官も料理を食べにやってきた？じゃあ…ぼくが列に割り込ませてあげようか？",
+		desc = "唔，单子好多，好麻烦……不愧是东煌餐厅……嗯？指挥官也是来吃饭的吗？要不…我帮你插个队？",
 		illustrator2 = -1,
 		ship_group = 10520,
 		group_index = 1,
@@ -6170,9 +6389,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106010] = {
-		name = "ロング・アイランド",
+		name = "长岛",
 		change_skin = "",
-		desc = "ロングアイランド級護衛空母・ロングアイランド（CVE-1)",
+		desc = "长岛级护航航空母舰—长岛，舷号CVE-1",
 		illustrator2 = -1,
 		ship_group = 10601,
 		group_index = 0,
@@ -6287,9 +6506,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106011] = {
-		name = "干物三連！",
+		name = "干物三连！",
 		change_skin = "",
-		desc = "みんなに好かれる、おちゃめなロングアイランド、実は一つ隠されている秘密が…",
+		desc = "古灵精怪，广受喜爱的长岛，其实有一个不为人知的秘密……",
 		illustrator2 = -1,
 		ship_group = 10601,
 		group_index = 1,
@@ -6404,9 +6623,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106013] = {
-		name = "幽霊さんのハロウィン生放送",
+		name = "L.I.@万圣限时直播中",
 		change_skin = "",
-		desc = "「ゲーマー少女L.I.のハロウィン枠まったり生放送チャンネル、みんな見てね～」っと…えーチャンネル紹介はこれにして…んー人がどれぐらい来るのかな～",
+		desc = "「宅系魔女L.I.的万圣节特别直播频道，欢迎大家关注哦。」——呼，自我介绍这样写就可以了吧？不知道最后能得到多少订阅呢…",
 		illustrator2 = -1,
 		ship_group = 10601,
 		group_index = 3,
@@ -6523,9 +6742,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106014] = {
-		name = "幽霊さんのカウンターサービス？",
+		name = "可靠的接待员？",
 		change_skin = "",
-		desc = "どぅるるるるる――は、はい、こちらインフォーメーションカウンターのロング・アイランドだよー。なになに？うんうんわかったー。大丈夫、意見は全て指揮官に伝えるよ～。じゃあこのへんで～ばいばーい……",
+		desc = "嘟——喂喂，前台接待长岛竭诚为您服务，什么什么？嗯嗯，我知道了，放心放心，您的意见和建议这边都会如实转达给指挥官哦，嗯嗯嗯就这样，挂啦~~",
 		illustrator2 = -1,
 		ship_group = 10601,
 		group_index = 4,
@@ -6642,9 +6861,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106019] = {
-		name = "ロング・アイランド改",
+		name = "长岛.改",
 		change_skin = "",
-		desc = "指揮官さん、ロング・アイランドよーー変わった？幽霊さんはかわら…あれ？ちょっとさわやかな感じになったかも～",
+		desc = "指挥官早，我是长岛——我有变化？我可是幽灵，才不会……咦，好像是变清爽了一点呢～",
 		illustrator2 = -1,
 		ship_group = 10601,
 		group_index = 9,
@@ -6759,9 +6978,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106020] = {
-		name = "ボーグ",
+		name = "博格",
 		change_skin = "",
-		desc = "ボーグ級護衛空母・ボーグ（CVE-9)",
+		desc = "博格级护航航空母舰—博格，舷号CVE-9",
 		illustrator2 = -1,
 		ship_group = 10602,
 		group_index = 0,
@@ -6876,9 +7095,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106029] = {
-		name = "ボーグ改",
+		name = "博格.改",
 		change_skin = "",
-		desc = "指揮官、そんなに怯えなくてもいいわ。私のボールが当たるのは二つーー敵と、勝利だけよ！あ、たまには窓にも当たっちゃうけどね、あはは……",
+		desc = "指挥官，不用那么害怕，我的投球只会击中两种东西——敌人与胜利！啊，偶尔还有玻璃，哈哈！",
 		illustrator2 = -1,
 		ship_group = 10602,
 		group_index = 9,
@@ -6993,9 +7212,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106550] = {
-		name = "カサブランカ",
+		name = "卡萨布兰卡",
 		change_skin = "",
-		desc = "カサブランカ級護衛空母「カサブランカ」（CVE-55)",
+		desc = "卡萨布兰卡级护航航空母舰—卡萨布兰卡，舷号CVE-55",
 		illustrator2 = -1,
 		ship_group = 10655,
 		group_index = 0,
@@ -7097,9 +7316,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[106551] = {
-		name = "応援団の休憩タイム",
+		name = "啦啦队的休息时间",
 		change_skin = "",
-		desc = "ごくごく…ふぅ…やっぱり休憩時間に水分補給しないと、このあとの練習で頑張れませんね――あ、指揮官、こんにちは。練習の見学ですか？",
+		desc = "呼…要趁着休息的空挡补充点水分…才能更好地继续练习——啊，你好，指挥官。您是来看我们排练的吗？",
 		illustrator2 = -1,
 		ship_group = 10655,
 		group_index = 1,
@@ -7203,9 +7422,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107010] = {
-		name = "ラングレー",
+		name = "兰利",
 		change_skin = "",
-		desc = "ラングレー級航空母艦・ラングレー（CV-1)",
+		desc = "兰利级航空母舰—兰利，舷号CV-1",
 		illustrator2 = -1,
 		ship_group = 10701,
 		group_index = 0,
@@ -7344,9 +7563,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107019] = {
-		name = "ラングレー改",
+		name = "兰利.改",
 		change_skin = "",
-		desc = "ちゃんと聞かないと、こいつのようになりますよ！",
+		desc = "不认真听讲的话，下场就是我脚下的这个~",
 		illustrator2 = -1,
 		ship_group = 10701,
 		group_index = 9,
@@ -7475,9 +7694,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107020] = {
-		name = "レキシントン",
+		name = "列克星敦",
 		change_skin = "",
-		desc = "レキシントン級航空母艦・レキシントン（CV-2)",
+		desc = "列克星敦级航空母舰—列克星敦，舷号CV-2",
 		illustrator2 = -1,
 		ship_group = 10702,
 		group_index = 0,
@@ -7618,9 +7837,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107021] = {
-		name = "春華の歌",
+		name = "春华佳人",
 		change_skin = "",
-		desc = "ふふふ、衣装を変えるだけで、与える印象がだいぶ変わる時もあるもんね。ね？指揮官～？あら、心配しなくていいわよ。あなたのレキシントンは変わらないわ～",
+		desc = "呵呵…有时候换个装扮，给人的印象就完全不同呢，你说是吧，指挥官～？不用担心，列克星敦依旧是您的列克星敦哦～",
 		illustrator2 = -1,
 		ship_group = 10702,
 		group_index = 1,
@@ -7750,9 +7969,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107030] = {
-		name = "サラトガ",
+		name = "萨拉托加",
 		change_skin = "",
-		desc = "レキシントン級航空母艦・サラトガ（CV-3)",
+		desc = "列克星敦级航空母舰—萨拉托加，舷号CV-3",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 0,
@@ -7874,9 +8093,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107031] = {
-		name = "大洋の休日",
+		name = "七海的憩日",
 		change_skin = "",
-		desc = "オフの日も気が緩まない！水着よし、準備万端！出発！シスターサラの力、見せてあげる！",
+		desc = "即使度假也决不松懈，泳装齐整、准备万全！OK，出发！准备好见识Sis.Sara的厉害了吗？",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 1,
@@ -7987,9 +8206,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107032] = {
-		name = "異国風衣装",
+		name = "异国的偶像？",
 		change_skin = "",
-		desc = "Hey！今回のテーマは異国風のシスター・サラだよ！指揮官、どう？",
+		desc = "hey～这次为大家带来的是异国风情的sis.sara哟！指挥官，有什么感想吗？",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 2,
@@ -8098,9 +8317,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107033] = {
-		name = "バーチャルアイドル",
+		name = "虚拟偶像？",
 		change_skin = "",
-		desc = "はいどうもー！バーチャルアイドル…のサラトガだよ～、指揮官どう？アイちゃんにお願いして特別に作ってもらった、サラトガ専用キズナアイコスチュームだよ！",
+		desc = "嗨多磨～！我是虚拟偶像…萨拉托加哟～指挥官觉得怎么样？这可是拜托爱酱特别制作的，萨拉托加专用绊爱服装哟！",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 3,
@@ -8211,9 +8430,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107034] = {
-		name = "青き海のチャリティーライブ",
+		name = "碧海的偶像",
 		change_skin = "",
-		desc = "海と空の仲間、チャリティーアイドルのサラトガちゃん、ただいま新登場！えへへ～指揮官、サラトガちゃんと一緒にこの青い美しい海を守ってね♪",
+		desc = "碧海与蓝天的伙伴，充满爱心的偶像·萨拉托加，全新登场！嘿嘿~指挥官，和萨拉酱一起来守护这片美好的碧蓝海洋吧~！",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 4,
@@ -8322,9 +8541,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107035] = {
-		name = "聖夜艦隊のアイドル",
+		name = "圣夜的偶像",
 		change_skin = "",
-		desc = "メリークリスマス！サラトガちゃん・クリスマスバージョン、シャイニングデビュー！えへへ、いつもと違うようなドキドキ感あったかな？さて、せっかくのクリスマスイブ、サラトガちゃんとのお出かけスポットはもう決めた？",
+		desc = "Merry Christmas！萨拉妹妹·圣诞Ver闪亮登场！嘻嘻，有没有感觉到不一样的心动呀，指挥官~好啦，指挥官，难得的平安夜，你想好要带萨拉托加去哪里逛了吗~？",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 5,
@@ -8435,9 +8654,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107036] = {
-		name = "フェスティバルinSpring!",
+		name = "偶像迎春！",
 		change_skin = "",
-		desc = "じゃじゃーん、指揮官、東煌（とうこう）的にあけましておめでとー！今日のサラトガちゃん、とても「春の訪れ」な感じがしてて新鮮だと思わない？母港の春節祝いに一緒に見に行くって約束、覚えてるかな～ふふーん、レッツゴー！",
+		desc = "锵锵~新年好呀，指挥官！今天的萨拉妹妹是新春的风味~有没有很新鲜的感觉？好啦，不是说春节要带我一感受节日氛围的吗？我们出发吧！",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 6,
@@ -8548,9 +8767,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107037] = {
-		name = "シロクマちゃんとピクニック！",
+		name = "悠哉野餐时光",
 		change_skin = "",
-		desc = "じゃじゃーん、サラトガちゃんのピクニックへようこそ！この美味しい食べ物の数々は～指揮官にサラトガちゃんがいたずらだけじゃないってところを見せるためだよ♪",
+		desc = "锵锵~欢迎来到萨拉托加的野餐会~有没有觉得食物很丰盛呀~？这次，就让指挥官好好看看，萨拉妹妹除了恶作剧以外能干的那一面吧！",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 7,
@@ -8661,9 +8880,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107038] = {
-		name = "幸せの鐘を響かせて",
+		name = "敲响幸福之钟",
 		change_skin = "",
-		desc = "指揮官、準備はいい？……もうここまで来たんだから「まだだよー」なんて言わせないからね～。とっておきのサラトガちゃんの可愛い姿、しっかり覚えておいてね♡",
+		desc = "指挥官准备好了吗？……都走到这一步了，可不允许你说“还没准备好”什么的哦~请把萨拉妹妹最动人的样子，深深地印在脑海里吧~",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 8,
@@ -8772,9 +8991,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107039] = {
-		name = "サラトガ改",
+		name = "萨拉托加.改",
 		change_skin = "",
-		desc = "「姉から独立して羽ばたき、いざシスター・サラの新路線――魔女っ子アイドルサラトガちゃん、ただいま正式デビューよ！」指揮官、あとは宣伝、よろしくね～",
+		desc = "是时候从姐姐的羽翼下独立了！萨拉妹妹的新路线，魔法少女·萨拉托加，正式出道！指挥官，记得帮我做宣传哦~",
 		illustrator2 = -1,
 		ship_group = 10703,
 		group_index = 9,
@@ -8883,9 +9102,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107040] = {
-		name = "レンジャー",
+		name = "突击者",
 		change_skin = "",
-		desc = "レンジャー級航空母艦・レンジャー（CV-4)",
+		desc = "突击者级航空母舰—突击者，舷号CV-4",
 		illustrator2 = -1,
 		ship_group = 10704,
 		group_index = 0,
@@ -9000,9 +9219,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107049] = {
-		name = "レンジャー改",
+		name = "突击者.改",
 		change_skin = "",
-		desc = "ずっと叶わなった近代化改修がついに完了しました！これからもレンジャー先生に嚮導を任せなさい♪",
+		desc = "以前一直没有提上日程的现代化改造终于完成了~从今往后突击者老师会更加努力教导大家的！",
 		illustrator2 = -1,
 		ship_group = 10704,
 		group_index = 9,
@@ -9104,9 +9323,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107050] = {
-		name = "ヨークタウン",
+		name = "约克城",
 		change_skin = "",
-		desc = "ヨークタウン級航空母艦・ヨークタウン（CV-5)",
+		desc = "约克城级航空母舰—约克城，舷号CV-5",
 		illustrator2 = -1,
 		ship_group = 10705,
 		group_index = 0,
@@ -9226,9 +9445,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107051] = {
-		name = "優雅と微酔の夜",
+		name = "优雅与朦胧之夜",
 		change_skin = "",
-		desc = "あら、指揮官、迷子になった？ふふふ、一杯どぉ？……えっ、私が…酔ってる？もう、指揮官ったら冗談が好きね…ジュース…じゃなかった…っけ？",
+		desc = "咦，指挥官，在会场迷路了吗~要不要来喝一杯？……欸，醉了？真是的，指挥官，真爱说笑呢，这些不是果汁吗？……",
 		illustrator2 = -1,
 		ship_group = 10705,
 		group_index = 1,
@@ -9332,9 +9551,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107052] = {
-		name = "聖者の翼",
+		name = "圣者之翼",
 		change_skin = "",
-		desc = "対をなす7つの段丘、丘にある塔、王の安息…ふふ、指揮官様、私と理想郷へ行こう？なんて、一緒に旅ができて良かったわ",
+		desc = "相对的七层阶梯，山丘上的塔，王的安息之地…呵呵，指挥官，要和我一起前往理想乡吗？开玩笑的~很高兴能与你一起旅行~",
 		illustrator2 = -1,
 		ship_group = 10705,
 		group_index = 2,
@@ -9436,9 +9655,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107058] = {
-		name = "光る風の明日へ",
+		name = "微风拂煦的未来",
 		change_skin = "",
-		desc = "輝く光をはらみ、羽のように風になびくウェディングドレス――きっと私は、まだ微睡みの中にいるのね……そう、指揮官様もヨークタウンと一緒に幸せな夢を見ているに違いないわ。ふふふ",
+		desc = "蕴含耀眼光芒，仿佛羽翼一般随风飘荡的婚纱——我一定还在拂晓的假寐之中吧……对，肯定指挥官也和约克城一起，在做一个幸福的梦呢。呵呵～",
 		illustrator2 = -1,
 		ship_group = 10705,
 		group_index = 8,
@@ -9540,9 +9759,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107060] = {
-		name = "エンタープライズ",
+		name = "企业",
 		change_skin = "",
-		desc = "ヨークタウン級航空母艦・エンタープライズ（CV-6)",
+		desc = "约克城级航空母舰—企业，舷号CV-6",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 0,
@@ -9657,9 +9876,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107061] = {
-		name = "トナカイ・マスター",
+		name = "驯鹿之主",
 		change_skin = "",
-		desc = "指揮官！メリークリスマス！今日の私はサンタクロースだ。だから、寝る前にちゃんと靴下を暖炉の側に飾っておいたほうがいいぞ。",
+		desc = "圣诞快乐，指挥官！现在的我是圣诞老人！所以，平安夜就寝之前，记得把袜子挂在壁炉上哦",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 1,
@@ -9763,9 +9982,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107062] = {
-		name = "ブライトピオニー",
+		name = "傲春之牡丹",
 		change_skin = "",
-		desc = "これが東煌（とうこう）の衣装……思ったより着心地がいいな。特製の艤装弓もあるか？面白い、どこまで射抜けるか試させてもらおう！",
+		desc = "这就是东煌的服装吗？…穿起来意外地合身啊。哦？还有特制的弓箭吗…有趣，就让我看看东煌的弓箭能射得多远吧！",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 2,
@@ -9869,9 +10088,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107063] = {
-		name = "アニバーサリードライブ！",
+		name = "Anniversary Drive！",
 		change_skin = "",
-		desc = "「ハッピーアニバーサリー！」……指揮官、今日は思いっきり祝おう！そして祈ろう、私たちの戦いがこれからも勝利し続けることを――",
+		desc = "「Happy anniversary！」……指挥官，今天就尽情 庆祝吧！然后一起祈愿吧，祈愿我们能一直胜利下去——",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 3,
@@ -9975,9 +10194,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107064] = {
-		name = "羽ばたける自由の翼",
+		name = "翱翔的自由之翼",
 		change_skin = "",
-		desc = "戦うために生まれたことに疑問はない。碧き航路の自由のため――エンタープライズ、エンゲージ！",
+		desc = "对于为战争而生这件事我并没有疑问。为了碧蓝航路的自由——企业，出击！",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 4,
@@ -10079,9 +10298,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107065] = {
-		name = "英雄の儀典礼装",
+		name = "英雄的礼服",
 		change_skin = "",
-		desc = "パーティードレス、か。こういう服に着替える機会はあまりないから、時間がかかってしまったな。あ、早く会場に向かおう。みんなを待たせるのは良くないぞ",
+		desc = "宴会礼服吗…平时没什么机会穿这样的衣服，意外地花了不少时间。啊，让我们赶紧去会场吧，让大家久等了可不好",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 5,
@@ -10185,9 +10404,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107066] = {
-		name = "ウィンド・キャッチャー",
+		name = "Wind Catcher",
 		change_skin = "",
-		desc = "指揮官も観戦しに来たのか。ふふ、本当は私もこうして立っているのではなく、一緒にマシンに乗って参戦してみたいものだ。あの風を掴もうとする感覚は、レースも航海も同じだと思わないか？",
+		desc = "指挥官也来观战了吗？其实比起这样站着，我更想一起参赛呢。这种仿佛能抓住那阵风的感觉……不觉得赛车和航海其实是一样的么？",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 6,
@@ -10300,7 +10519,6 @@ pg.base.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -10308,9 +10526,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107067] = {
-		name = "Partons en voyage（いざ、旅へ）",
+		name = "旅行的启程",
 		change_skin = "",
-		desc = "たかが旅行のためにまとまった休暇をもらっていいだろうが…より良くパフォーマンスできるため、息抜きも必要、か。ならば指揮官、全力で楽しもう！",
+		desc = "为了旅行请了这么长的假期，真的合适吗……为了能更好的工作，休息也是必要的…？好吧，那就…为了指挥官，让我们好好享受旅途吧！",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 7,
@@ -10414,9 +10632,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107068] = {
-		name = "マリースター",
+		name = "誓约的星光",
 		change_skin = "",
-		desc = "ど、どうだ？ヘンじゃないかな…い、いや、別に嫌いではないぞ。むしろ私だってこれを着るのを憧れてたというか……ええと……",
+		desc = "怎、怎么样？会不会有些奇怪…不，我当然不讨厌，不如说，不论谁都憧憬过披上它的那天吧，只是……",
 		illustrator2 = -1,
 		ship_group = 10706,
 		group_index = 8,
@@ -10518,9 +10736,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107070] = {
-		name = "ホーネット",
+		name = "大黄蜂",
 		change_skin = "",
-		desc = "ヨークタウン級航空母艦・ホーネット（CV-8)",
+		desc = "约克城级航空母舰—大黄蜂，舷号CV-8",
 		illustrator2 = -1,
 		ship_group = 10707,
 		group_index = 0,
@@ -10635,9 +10853,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107071] = {
-		name = "Bubbly Anniversary！",
+		name = "Bubbly Anniversary！",
 		change_skin = "",
-		desc = "Congratulations！指揮官、いつもお疲れ！さあて、景気づけにシャンパンを開けて、思いっきりパーティーを楽しんでこー！",
+		desc = "Congratulations！指挥官，辛苦啦！作为祝贺先来开几瓶香槟，好好享受一下party吧！",
 		illustrator2 = -1,
 		ship_group = 10707,
 		group_index = 1,
@@ -10741,9 +10959,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107072] = {
-		name = "デリシャス·ラブ！",
+		name = "美味生活！",
 		change_skin = "",
-		desc = "ふーふー…焼き立てピザ、やっぱり最高！ほら、指揮官もこれ食べてみない？今度エンプラ姉にもオススメしよう！",
+		desc = "呼~呼~…新鲜出炉的披萨果然是最棒的！指挥官也来吃一个看看嘛？可以的话下次也给企业姐推荐一下好了！",
 		illustrator2 = -1,
 		ship_group = 10707,
 		group_index = 2,
@@ -10845,9 +11063,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107073] = {
-		name = "チアリング・ジャスティス！",
+		name = "应援即是正义！",
 		change_skin = "",
-		desc = "みんなファイトォ！！あと1点で逆転だよ！！！……ふぅ…（ごくごく）…ぷはー！指揮官、ドリンクサンキュー！それともう一つ、観戦お疲れ！",
+		desc = "大家加油！！还有1分就能逆转了！！！……呼…咕嘟咕嘟…！指挥官，谢谢你给我的饮料！以及观战辛苦了！",
 		illustrator2 = -1,
 		ship_group = 10707,
 		group_index = 3,
@@ -10951,9 +11169,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107080] = {
-		name = "ワスプ",
+		name = "胡蜂",
 		change_skin = "",
-		desc = "ワスプ級航空母艦・ワスプ（CV-7)",
+		desc = "胡蜂级航空母舰—胡蜂，舷号CV-7",
 		illustrator2 = -1,
 		ship_group = 10708,
 		group_index = 0,
@@ -11055,9 +11273,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107090] = {
-		name = "エセックス",
+		name = "埃塞克斯",
 		change_skin = "",
-		desc = "エセックス級航空母艦・エセックス（CV-9)",
+		desc = "埃塞克斯级航空母舰—埃塞克斯，舷号CV-9",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 0,
@@ -11159,9 +11377,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107091] = {
-		name = "ルート66の旅",
+		name = "66号公路之旅",
 		change_skin = "",
-		desc = "移動するためではなく、道中の風景を楽しむツーリング――面白そうですね。指揮官、一緒に旅を楽しみましょう",
+		desc = "不为追求终点，只是欣赏沿途风景的骑行之旅，似乎也挺有意思的。指挥官，一起来感受下公路之旅的乐趣吧。",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 1,
@@ -11267,7 +11485,7 @@ pg.base.ship_skin_template_3 = {
 	[107092] = {
 		name = "Craft Fairytail",
 		change_skin = "",
-		desc = "指揮官？！あ、いいえ、別に酔いつぶれたわけじゃありません！…す、少しだけ飲みすぎて……少しだけです！ほかの子には教えないでください！",
+		desc = "哎？我可不是因为喝醉了才出来透风的哦。好吧，可能确实喝的稍微有点点多…仅，仅此而已啦，指挥官帮我保密哦！",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 2,
@@ -11381,14 +11599,13 @@ pg.base.ship_skin_template_3 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		}
 	},
 	[107093] = {
-		name = "キャリー=クレーン",
+		name = "笔墨乾坤",
 		change_skin = "",
-		desc = "東煌（とうこう）の衣装と筆道具…なるほど、この衣装を着ていると、たしかにオリエンタルな芸術との距離感が近くなった気がします！母港の春節準備、私も活躍してみせます！",
+		desc = "东煌的服饰和笔墨…原来如此，穿上这身以后，确实有种更加接近东方艺术了的感觉！港区的春节准备，就让我也来大显身手一番吧！",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 3,
@@ -11492,9 +11709,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107094] = {
-		name = "ディテクティブ・エセックス",
+		name = "名侦探·埃塞克斯",
 		change_skin = "",
-		desc = "いーぐるちゃんが行方不明…エンタープライズ先輩の言う通り、これは母港の不思議――いいえ、事件の匂いです！指揮官、一緒に調査に行きましょう！",
+		desc = "小鹰失踪了…如企业前辈所说，这是港区的怪奇——不对，是案件的味道！指挥官，一起去调查吧！",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 4,
@@ -11598,9 +11815,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107095] = {
-		name = "クロスボーン・エキストラ",
+		name = "碧海之梦",
 		change_skin = "",
-		desc = "「錨をあげよ！海賊空母エセックスの船出だー！この世の全ての場所へといざゆかん！」…ひくっ…えへへ、いいですよね海賊って～………",
+		desc = "“拔锚！海盗航母埃塞克斯出航！前往那曾放有世上一切的地方吧！”…嗝…诶嘿嘿，当海盗真不错啊～……",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 5,
@@ -11710,9 +11927,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107096] = {
-		name = "コース88の風",
+		name = "赛道88之风",
 		change_skin = "",
-		desc = "エセックス、クールダウンラップ無事終了しました！指揮官、私の活躍を見てくれましたか？えへへ、試合の準備など色々ありがとうございます！",
+		desc = "埃塞克斯，感谢巡场顺利结束！指挥官看到我的活跃了吗？欸嘿嘿，真是太感谢你为比赛提供的各种帮助了！",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 6,
@@ -11814,9 +12031,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107099] = {
-		name = "エセックス改",
+		name = "埃塞克斯.改",
 		change_skin = "",
-		desc = "エセックス、改造終了！これなら先輩に……ううん、これなら指揮官に120％満足いただける活躍ができるはず！とにかく、エセックス級空母・エセックスをよろしくお願いします！",
+		desc = "埃塞克斯，改造完成！这样的表现应该能让前辈……不，能让指挥官120%满意！总之，埃塞克斯级航母埃塞克斯，请多关照！",
 		illustrator2 = -1,
 		ship_group = 10709,
 		group_index = 9,
@@ -11928,9 +12145,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107100] = {
-		name = "ヨークタウンⅡ",
+		name = "约克城II",
 		change_skin = "",
-		desc = "エセックス級空母――ヨークタウンⅡ(CV-10)",
+		desc = "埃塞克斯级航空母舰—约克城II，舷号CV-10",
 		illustrator2 = -1,
 		ship_group = 10710,
 		group_index = 0,
@@ -12047,9 +12264,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107101] = {
-		name = "ブライトスカイ・マーメイド",
+		name = "白昼美人鱼",
 		change_skin = "",
-		desc = "こんな感じでいいの？……ううん、何でもないわ。もう少し紐をずらしたほうがいいの…？うーん…ひゃぅ！？ごめんなさい指揮官…だ、大丈夫かな…",
+		desc = "这样可以吗？……不，没什么。比起这个带子移一下比较好吗…？嗯…呀？！抱歉指挥官…不，不要紧吧…",
 		illustrator2 = -1,
 		ship_group = 10710,
 		group_index = 1,
@@ -12169,9 +12386,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107110] = {
-		name = "イントレピッド",
+		name = "无畏",
 		change_skin = "",
-		desc = "エセックス級空母「イントレピッド」（CV-11)",
+		desc = "埃塞克斯级航空母舰—无畏，舷号CV-11",
 		illustrator2 = -1,
 		ship_group = 10711,
 		group_index = 0,
@@ -12273,9 +12490,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107111] = {
-		name = "恐れなき一投",
+		name = "无畏的一投",
 		change_skin = "",
-		desc = "母港の野球試合――ユニオンの仲間たちとチームを組む前に自分を高めないと…指揮官、練習に付き合ってもらえる？",
+		desc = "最近港区里好像要组织棒球比赛，在和白鹰的伙伴们正式组成队伍前，我想先进行些提高个人能力的训练，指挥官，能来陪我做投球的练习吗？",
 		illustrator2 = -1,
 		ship_group = 10711,
 		group_index = 1,
@@ -12379,9 +12596,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107120] = {
-		name = "ホーネットⅡ",
+		name = "大黄蜂II",
 		change_skin = "",
-		desc = "エセックス級空母――ホーネットⅡ(CV-12)",
+		desc = "埃塞克斯级航空母舰—大黄蜂II，舷号CV-12",
 		illustrator2 = -1,
 		ship_group = 10712,
 		group_index = 0,
@@ -12483,9 +12700,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107121] = {
-		name = "大海原を駆けよ",
+		name = "驰骋于大海之上！",
 		change_skin = "",
-		desc = "母港最速、いただきぃ！…ははは、指揮官！今のホーネットの勇姿、ちゃんと見てた？もう1回見せてあげたいのは山々だけど、流石に試合はやり直しが効かないから…というわけで、あとで乗せてあげるからよろしく♪",
+		desc = "这下“港区最快”就是我的啦！…哈哈哈，指挥官！看到刚才大黄蜂的英姿了吗？虽然非常想给你看看，但没办法再来一次比赛……之后会来载你的，等着我哦♪",
 		illustrator2 = -1,
 		ship_group = 10712,
 		group_index = 1,
@@ -12605,9 +12822,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107130] = {
-		name = "フランクリン",
+		name = "富兰克林",
 		change_skin = "",
-		desc = "エセックス級空母-フランクリン",
+		desc = "埃塞克斯级航母—富兰克林",
 		illustrator2 = -1,
 		ship_group = 10713,
 		group_index = 0,
@@ -12709,9 +12926,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107131] = {
-		name = "看護師のトキメキカルテ",
+		name = "“护士”小姐的留院日志",
 		change_skin = "",
-		desc = "はぁ…ふぅ…待たせちゃったわね、指揮官くん。今日の検査担当は私よ。あら、フランクリンが「ナース」を上手くやれるのかって？ふふふ、「身をもって」知らせてあげようじゃない♡",
+		desc = "哈、哈……抱歉，没等很久吧？我是今天负责为指挥官检查的护士哦……嗯？觉得我胜任不了“护士”的岗位么？呵呵~体验一下不就知道了~",
 		illustrator2 = -1,
 		ship_group = 10713,
 		group_index = 1,
@@ -12821,9 +13038,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107140] = {
-		name = "タイコンデロガ",
+		name = "{namecode:194}",
 		change_skin = "",
-		desc = "エセックス級航空母艦・タイコンデロガ（CV-14)",
+		desc = "埃塞克斯级航空母舰—{namecode:194}，舷号CV-14",
 		illustrator2 = -1,
 		ship_group = 10714,
 		group_index = 0,
@@ -12925,9 +13142,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107141] = {
-		name = "グランドステージ・ショー！",
+		name = "黑兔的舞台秀",
 		change_skin = "",
-		desc = "イッツ・ショータイム！パフォーマンスもステージもオールレディよ！一緒に最高の夜を楽しもう！指揮官♪",
+		desc = "It's show time！演出的舞台已经准备好了哦~一起来享受这个美妙的舞台之夜吧，指挥官~",
 		illustrator2 = -1,
 		ship_group = 10714,
 		group_index = 1,
@@ -13031,9 +13248,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107142] = {
-		name = "サンシャイン・プリンセス",
+		name = "日光公主",
 		change_skin = "",
-		desc = "Hi！指揮官、この水着どうかな？あなたの好みに合ってる？ふふ、よかった。それじゃ一言、コメントをどーぞ。……もうっ、焦らしなんてテクニック、どこで身につけたの？",
+		desc = "Hi！指挥官，这件泳衣怎么样？你喜欢吗？太好了。那么请对此发表一句评价……唔唔，这惹人心急的技巧是在哪里学会的？",
 		illustrator2 = -1,
 		ship_group = 10714,
 		group_index = 2,
@@ -13137,9 +13354,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107170] = {
-		name = "バンカー・ヒル",
+		name = "邦克山",
 		change_skin = "",
-		desc = "エセックス級航空母艦・バンカー・ヒル（CV-17)",
+		desc = "埃塞克斯级航空母舰—邦克山，舷号CV-17",
 		illustrator2 = -1,
 		ship_group = 10717,
 		group_index = 0,
@@ -13241,9 +13458,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107171] = {
-		name = "ミッション・プレイボード",
+		name = "纵情假日",
 		change_skin = "",
-		desc = "ミッションコンプリート。次はロング・アイランドが勧めてくれた新作、っと…指揮官か？適当に寛いでいくがいい",
+		desc = "任务告一段落，正好来试试长岛推荐的新游戏吧。…指挥官？自己找个位置坐吧，就不特意招待你了。",
 		illustrator2 = -1,
 		ship_group = 10717,
 		group_index = 1,
@@ -13347,9 +13564,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107220] = {
-		name = "インディペンデンス",
+		name = "独立",
 		change_skin = "",
-		desc = "インディペンデンス級航空母艦・インディペンデンス（CVL-22)",
+		desc = "独立级航空母舰-独立，舷号CVL-22",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 0,
@@ -13451,9 +13668,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107221] = {
-		name = "此方の学園へ",
+		name = "远道而来的转校生",
 		change_skin = "",
-		desc = "ここが学園…か。ふぅ…先生に報告する前に、まずは荷物を――",
+		desc = "这里就是新的学校吗？呼…在报到之前，先把行李放好吧——",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 1,
@@ -13557,9 +13774,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107222] = {
-		name = "ブランディング・I ",
+		name = "「独立」品牌",
 		change_skin = "",
-		desc = "……ちょっとボディラインを強調しすぎだし…アクセサリーとバッグは……指揮官はどう思う？突っ立っているだけではなく、アドバイスをしてほしいのだが…",
+		desc = "唔…这一套会不会太过头了些？嗯…再搭配个链子还是包包什么的也不错？…指挥官你觉得呢？别光顾着看，也给我点建议嘛…",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 2,
@@ -13663,9 +13880,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107223] = {
-		name = "リラクゼーション・I",
+		name = "Relaxation.I",
 		change_skin = "",
-		desc = "んっしょ……ストレッチで体が硬くならないようにしないとな。…？服がどうかしたのか？…指揮官がまじまじと見なければ別に大したことは…",
+		desc = "嗯—…还是得拉伸下保证身体不会太僵硬才行呢。？衣服怎么了吗？…只要指挥官别一直盯着看就没什么吧…",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 3,
@@ -13769,9 +13986,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107224] = {
-		name = "追い風のラッキータイム",
+		name = "海风的Lucky Time",
 		change_skin = "",
-		desc = "ここにコインを入れて、スティックで操作してクレーンを動かして…あっ、取れた！思いのほか簡単だな",
+		desc = "好像只要在娃娃机这里投入硬币，然后操纵摇杆，接着放下抓钩……啊，成功了！啾啾玩偶到手了！感觉挺简单的嘛。",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 4,
@@ -13875,9 +14092,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107229] = {
-		name = "インディペンデンス改",
+		name = "独立.改",
 		change_skin = "",
-		desc = "軽空母インディペンデンス、改造完了だ。より重要な、困難な任務への準備は出来ている。安心して任せてほしい",
+		desc = "轻航独立，改造完毕！请放心大胆地把更困难更重要的任务交给我吧，我已经准备好了。",
 		illustrator2 = -1,
 		ship_group = 10722,
 		group_index = 9,
@@ -13979,9 +14196,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107230] = {
-		name = "プリンストン",
+		name = "普林斯顿",
 		change_skin = "",
-		desc = "インディペンデンス級航空母艦・プリンストン（CVL-23)",
+		desc = "独立级航空母舰-普林斯顿，舷号CVL-23",
 		illustrator2 = -1,
 		ship_group = 10723,
 		group_index = 0,
@@ -14083,9 +14300,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107231] = {
-		name = "カヌートレーニング",
+		name = "浅海的特别训练",
 		change_skin = "",
-		desc = "指揮官も泳ぎに来たのか？…ああ、これはその、海でもトレーニングしようと持ってきたものよ",
+		desc = "这不是指挥官吗，你是来游泳的吗？…我？想说即使是在海边，也有很多能锻炼的东西，为此我特地带了一些装备过来。",
 		illustrator2 = -1,
 		ship_group = 10723,
 		group_index = 1,
@@ -14189,9 +14406,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107232] = {
-		name = "ロリポップ・饅頭ランド",
+		name = "心跳的糖果乐园",
 		change_skin = "",
-		desc = "来たわね？…あ、私も来たばかりだから別にいいわよ。そろそろ出発…する？",
+		desc = "总算来了吗？…咳咳！那个…其实我也没等多久，所以没关系的，嗯。那我们就…出发吧？",
 		illustrator2 = -1,
 		ship_group = 10723,
 		group_index = 2,
@@ -14306,9 +14523,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107233] = {
-		name = "トナカイさんからの贈り物",
+		name = "驯鹿小姐的献礼",
 		change_skin = "",
-		desc = "着替えてきたけど……これが「トナカイさん」の衣装なの？ちょっと大胆すぎる気が……あ、指揮官、ちょうどいいところに来たわね。私からのクリスマスプレゼントを受け取って",
+		desc = "换好了……这就是“驯鹿小姐”的装扮么？感觉有点大胆……啊，指挥官，正好你在这里，请收下我为你准备的圣诞礼物吧。",
 		illustrator2 = -1,
 		ship_group = 10723,
 		group_index = 3,
@@ -14412,9 +14629,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107270] = {
-		name = "ラングレーⅡ",
+		name = "兰利II",
 		change_skin = "",
-		desc = "インディペンデンス級軽空母――ラングレーⅡ(CVL-27)",
+		desc = "独立级轻型航空母舰—兰利II，舷号CVL-27",
 		illustrator2 = -1,
 		ship_group = 10727,
 		group_index = 0,
@@ -14516,9 +14733,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107271] = {
-		name = "バケーション・オン・タイム",
+		name = "明媚休假进行时",
 		change_skin = "",
-		desc = "ふぅ…こういう日差しのいい日に、海辺でゆっくりリラックスできるのは最高ですね……あ、指揮官！休むならここにスイカと冷えたドリンクがありますよ！",
+		desc = "呼啊~这样阳光明媚的日子，在沙滩边放松最棒了……喂，那边的指挥官！要避暑的话，这里有西瓜和冰饮料哦！",
 		illustrator2 = -1,
 		ship_group = 10727,
 		group_index = 1,
@@ -14622,9 +14839,9 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[107290] = {
-		name = "バターン",
+		name = "巴丹",
 		change_skin = "",
-		desc = "インディペンデンス級航空母艦・バターン（CVL-29)",
+		desc = "独立级航空母舰-巴丹，舷号CVL-29",
 		illustrator2 = -1,
 		ship_group = 10729,
 		group_index = 0,
@@ -14698,112 +14915,6 @@ pg.base.ship_skin_template_3 = {
 				{
 					0.941,
 					0.721,
-					0
-				}
-			},
-			plane = {
-				{
-					0.06,
-					0.019,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.647,
-							2.225,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107291] = {
-		name = "ふわふわパジャマ",
-		change_skin = "",
-		desc = "はあ………し、指揮官！？びっくりしました…そろそろ寝ようと思いまして…うん、この格好でヘルキャットちゃんと…おやすみぃ……",
-		illustrator2 = -1,
-		ship_group = 10729,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "badan_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 20,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "109",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 107291,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "badan_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70210,
-		voice_actor = 161,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.868,
-					0.877,
 					0
 				}
 			},

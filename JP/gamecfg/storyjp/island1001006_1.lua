@@ -23,9 +23,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "乔安，我们来了。",
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			say = "――戻ったよ",
 			face2Face = {
 				{
 					0,
@@ -44,10 +44,29 @@ return {
 			}
 		},
 		{
-			animation = "hi",
-			say = "木材也一起带来了哦~",
+			animation = "talk",
+			say = "木材もちゃんと持ってきました",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "お見事！二人ともお疲れさま！これで材料は揃ったね",
+			characterId = 100600,
+			subName = "鉱山管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "やっと復旧できる！",
+			subName = "鉱山管理人",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,25 +74,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "很好，那这样就能开始修复交通线了。",
-			characterId = 100600,
-			subName = "矿山管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我们也来帮忙吧。",
-			subName = "林场管理员",
+			say = "私たちも手伝います……",
 			characterId = 100700,
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，这样应该会快一些。",
+			say = "――ああ、力を合わせれば早く直せるはずだ",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

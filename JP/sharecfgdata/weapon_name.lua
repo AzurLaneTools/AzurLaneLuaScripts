@@ -1,6 +1,6 @@
 _G.pg.base.weapon_name[50000] = {
 	id = 50000,
-	name = "2 x 7.7mm機銃"
+	name = "2 x 7.7mm机枪"
 }
 
 
@@ -84,7 +84,7 @@ _G.pg.base.weapon_name[50013] = {
 
 _G.pg.base.weapon_name[50020] = {
 	id = 50020,
-	name = "2 x 7.7mm機銃"
+	name = "2 x 7.7mm机枪"
 }
 
 
@@ -168,7 +168,7 @@ _G.pg.base.weapon_name[50033] = {
 
 _G.pg.base.weapon_name[50040] = {
 	id = 50040,
-	name = "2 x 7.7mm機銃"
+	name = "2 x 7.7mm机枪"
 }
 
 
@@ -252,7 +252,7 @@ _G.pg.base.weapon_name[50053] = {
 
 _G.pg.base.weapon_name[50100] = {
 	id = 50100,
-	name = "4 x 7.7mm機銃"
+	name = "4 x 7.7mm机枪"
 }
 
 
@@ -336,7 +336,7 @@ _G.pg.base.weapon_name[50113] = {
 
 _G.pg.base.weapon_name[50120] = {
 	id = 50120,
-	name = "4 x 7.7mm機銃"
+	name = "4 x 7.7mm机枪"
 }
 
 
@@ -420,7 +420,7 @@ _G.pg.base.weapon_name[50133] = {
 
 _G.pg.base.weapon_name[50140] = {
 	id = 50140,
-	name = "4 x 7.7mm機銃"
+	name = "4 x 7.7mm机枪"
 }
 
 
@@ -504,7 +504,7 @@ _G.pg.base.weapon_name[50153] = {
 
 _G.pg.base.weapon_name[50160] = {
 	id = 50160,
-	name = "4 x 7.7mm機銃"
+	name = "4 x 7.7mm机枪"
 }
 
 
@@ -588,7 +588,7 @@ _G.pg.base.weapon_name[50173] = {
 
 _G.pg.base.weapon_name[50180] = {
 	id = 50180,
-	name = "4 x 7.5mm機銃"
+	name = "4 x 7.5mm机枪"
 }
 
 
@@ -672,7 +672,7 @@ _G.pg.base.weapon_name[50193] = {
 
 _G.pg.base.weapon_name[50200] = {
 	id = 50200,
-	name = "8 x 7.7mm機銃"
+	name = "8 x 7.7mm机枪"
 }
 
 
@@ -756,7 +756,7 @@ _G.pg.base.weapon_name[50213] = {
 
 _G.pg.base.weapon_name[50220] = {
 	id = 50220,
-	name = "8 x 7.7mm機銃"
+	name = "8 x 7.7mm机枪"
 }
 
 
@@ -840,7 +840,7 @@ _G.pg.base.weapon_name[50233] = {
 
 _G.pg.base.weapon_name[50240] = {
 	id = 50240,
-	name = "8 x 7.7mm機銃"
+	name = "8 x 7.7mm机枪"
 }
 
 
@@ -924,7 +924,7 @@ _G.pg.base.weapon_name[50253] = {
 
 _G.pg.base.weapon_name[50260] = {
 	id = 50260,
-	name = "2 x 7.5mm機銃"
+	name = "2 x 7.5mm机枪"
 }
 
 
@@ -1008,7 +1008,7 @@ _G.pg.base.weapon_name[50273] = {
 
 _G.pg.base.weapon_name[50280] = {
 	id = 50280,
-	name = "3 x 7.5mm機銃"
+	name = "3 x 7.5mm机枪"
 }
 
 
@@ -1092,7 +1092,7 @@ _G.pg.base.weapon_name[50293] = {
 
 _G.pg.base.weapon_name[50300] = {
 	id = 50300,
-	name = "4 x 12.7mm機銃"
+	name = "4 x 12.7mm机枪"
 }
 
 
@@ -1176,7 +1176,7 @@ _G.pg.base.weapon_name[50313] = {
 
 _G.pg.base.weapon_name[50320] = {
 	id = 50320,
-	name = "4 x 12.7mm機銃"
+	name = "4 x 12.7mm机枪"
 }
 
 
@@ -1260,7 +1260,7 @@ _G.pg.base.weapon_name[50333] = {
 
 _G.pg.base.weapon_name[50340] = {
 	id = 50340,
-	name = "4 x 12.7mm機銃"
+	name = "4 x 12.7mm机枪"
 }
 
 
@@ -1344,7 +1344,7 @@ _G.pg.base.weapon_name[50353] = {
 
 _G.pg.base.weapon_name[50360] = {
 	id = 50360,
-	name = "4 x 12.7mm機銃"
+	name = "4 x 12.7mm机枪"
 }
 
 
@@ -1428,7 +1428,7 @@ _G.pg.base.weapon_name[50373] = {
 
 _G.pg.base.weapon_name[50400] = {
 	id = 50400,
-	name = "6 x 12.7mm機銃"
+	name = "6 x 12.7mm机枪"
 }
 
 
@@ -1512,7 +1512,7 @@ _G.pg.base.weapon_name[50413] = {
 
 _G.pg.base.weapon_name[50420] = {
 	id = 50420,
-	name = "6 x 12.7mm機銃"
+	name = "6 x 12.7mm机枪"
 }
 
 
@@ -1596,7 +1596,7 @@ _G.pg.base.weapon_name[50433] = {
 
 _G.pg.base.weapon_name[50440] = {
 	id = 50440,
-	name = "6 x 12.7mm機銃"
+	name = "6 x 12.7mm机枪"
 }
 
 
@@ -1680,7 +1680,7 @@ _G.pg.base.weapon_name[50453] = {
 
 _G.pg.base.weapon_name[50460] = {
 	id = 50460,
-	name = "6 x 12.7mm機銃"
+	name = "6 x 12.7mm机枪"
 }
 
 
@@ -1764,7 +1764,7 @@ _G.pg.base.weapon_name[50473] = {
 
 _G.pg.base.weapon_name[50480] = {
 	id = 50480,
-	name = "1 x 20mm機関砲"
+	name = "1 x 20mm机炮"
 }
 
 
@@ -1848,7 +1848,7 @@ _G.pg.base.weapon_name[50493] = {
 
 _G.pg.base.weapon_name[50500] = {
 	id = 50500,
-	name = "2 x 20mm機関砲"
+	name = "2 x 20mm机炮"
 }
 
 
@@ -1932,7 +1932,7 @@ _G.pg.base.weapon_name[50513] = {
 
 _G.pg.base.weapon_name[50520] = {
 	id = 50520,
-	name = "2 x 20mm機関砲"
+	name = "2 x 20mm机炮"
 }
 
 
@@ -2016,7 +2016,7 @@ _G.pg.base.weapon_name[50533] = {
 
 _G.pg.base.weapon_name[50540] = {
 	id = 50540,
-	name = "2 x 20mm機関砲"
+	name = "2 x 20mm机炮"
 }
 
 
@@ -2100,7 +2100,7 @@ _G.pg.base.weapon_name[50553] = {
 
 _G.pg.base.weapon_name[50560] = {
 	id = 50560,
-	name = "2 x 20mm機関砲"
+	name = "2 x 20mm机炮"
 }
 
 
@@ -2184,7 +2184,7 @@ _G.pg.base.weapon_name[50573] = {
 
 _G.pg.base.weapon_name[50600] = {
 	id = 50600,
-	name = "4 x 20mm機関砲"
+	name = "4 x 20mm机炮"
 }
 
 
@@ -2268,7 +2268,7 @@ _G.pg.base.weapon_name[50613] = {
 
 _G.pg.base.weapon_name[50620] = {
 	id = 50620,
-	name = "4 x 20mm機関砲"
+	name = "4 x 20mm机炮"
 }
 
 
@@ -2352,7 +2352,7 @@ _G.pg.base.weapon_name[50633] = {
 
 _G.pg.base.weapon_name[50640] = {
 	id = 50640,
-	name = "4 x 20mm機関砲"
+	name = "4 x 20mm机炮"
 }
 
 
@@ -2436,7 +2436,7 @@ _G.pg.base.weapon_name[50653] = {
 
 _G.pg.base.weapon_name[50660] = {
 	id = 50660,
-	name = "4 x 20mm機関砲"
+	name = "4 x 20mm机炮"
 }
 
 
@@ -2520,7 +2520,7 @@ _G.pg.base.weapon_name[50673] = {
 
 _G.pg.base.weapon_name[50680] = {
 	id = 50680,
-	name = "4 x 23mm機関砲"
+	name = "4 x 23mm机炮"
 }
 
 
@@ -2604,7 +2604,7 @@ _G.pg.base.weapon_name[50693] = {
 
 _G.pg.base.weapon_name[50700] = {
 	id = 50700,
-	name = "2 x 12.7mm機銃"
+	name = "2 x 12.7mm机枪"
 }
 
 
@@ -2688,7 +2688,7 @@ _G.pg.base.weapon_name[50713] = {
 
 _G.pg.base.weapon_name[50720] = {
 	id = 50720,
-	name = "2 x 12.7mm機銃"
+	name = "2 x 12.7mm机枪"
 }
 
 
@@ -2772,7 +2772,7 @@ _G.pg.base.weapon_name[50733] = {
 
 _G.pg.base.weapon_name[50740] = {
 	id = 50740,
-	name = "2 x 12.7mm機銃"
+	name = "2 x 12.7mm机枪"
 }
 
 
@@ -2856,7 +2856,7 @@ _G.pg.base.weapon_name[50753] = {
 
 _G.pg.base.weapon_name[50800] = {
 	id = 50800,
-	name = "1 x 13mm機銃"
+	name = "1 x 13mm机枪"
 }
 
 
@@ -2940,7 +2940,7 @@ _G.pg.base.weapon_name[50813] = {
 
 _G.pg.base.weapon_name[50820] = {
 	id = 50820,
-	name = "1 x 13mm機銃"
+	name = "1 x 13mm机枪"
 }
 
 
@@ -3024,7 +3024,7 @@ _G.pg.base.weapon_name[50833] = {
 
 _G.pg.base.weapon_name[50840] = {
 	id = 50840,
-	name = "1 x 13mm機銃"
+	name = "1 x 13mm机枪"
 }
 
 
@@ -3108,7 +3108,7 @@ _G.pg.base.weapon_name[50853] = {
 
 _G.pg.base.weapon_name[50860] = {
 	id = 50860,
-	name = "2 x 13mm機銃"
+	name = "2 x 13mm机枪"
 }
 
 
@@ -3192,7 +3192,7 @@ _G.pg.base.weapon_name[50873] = {
 
 _G.pg.base.weapon_name[51000] = {
 	id = 51000,
-	name = "2 x 航空魚雷-汎用"
+	name = "2 x 机载鱼雷-通用"
 }
 
 
@@ -3276,7 +3276,7 @@ _G.pg.base.weapon_name[51013] = {
 
 _G.pg.base.weapon_name[51020] = {
 	id = 51020,
-	name = "2 x 航空魚雷-汎用"
+	name = "2 x 机载鱼雷-通用"
 }
 
 
@@ -3360,7 +3360,7 @@ _G.pg.base.weapon_name[51033] = {
 
 _G.pg.base.weapon_name[51040] = {
 	id = 51040,
-	name = "2 x 航空魚雷-汎用"
+	name = "2 x 机载鱼雷-通用"
 }
 
 
@@ -3444,7 +3444,7 @@ _G.pg.base.weapon_name[51053] = {
 
 _G.pg.base.weapon_name[51060] = {
 	id = 51060,
-	name = "3 x 航空魚雷-818中隊"
+	name = "3 x 机载鱼雷-818中队"
 }
 
 
@@ -3612,7 +3612,7 @@ _G.pg.base.weapon_name[51093] = {
 
 _G.pg.base.weapon_name[51100] = {
 	id = 51100,
-	name = "3 x 航空魚雷-汎用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -3696,7 +3696,7 @@ _G.pg.base.weapon_name[51113] = {
 
 _G.pg.base.weapon_name[51120] = {
 	id = 51120,
-	name = "3 x 航空魚雷-汎用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -3780,7 +3780,7 @@ _G.pg.base.weapon_name[51133] = {
 
 _G.pg.base.weapon_name[51140] = {
 	id = 51140,
-	name = "3 x 航空魚雷-汎用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -3864,7 +3864,7 @@ _G.pg.base.weapon_name[51153] = {
 
 _G.pg.base.weapon_name[51200] = {
 	id = 51200,
-	name = "4 x 航空魚雷-汎用"
+	name = "4 x 机载鱼雷-通用"
 }
 
 
@@ -3948,7 +3948,7 @@ _G.pg.base.weapon_name[51213] = {
 
 _G.pg.base.weapon_name[51220] = {
 	id = 51220,
-	name = "4 x 航空魚雷-汎用"
+	name = "4 x 机载鱼雷-通用"
 }
 
 
@@ -4032,7 +4032,7 @@ _G.pg.base.weapon_name[51233] = {
 
 _G.pg.base.weapon_name[51240] = {
 	id = 51240,
-	name = "4 x 航空魚雷-汎用"
+	name = "4 x 机载鱼雷-通用"
 }
 
 
@@ -4116,7 +4116,7 @@ _G.pg.base.weapon_name[51253] = {
 
 _G.pg.base.weapon_name[51300] = {
 	id = 51300,
-	name = "2 x 航空魚雷-重桜"
+	name = "2 x 机载鱼雷-重樱"
 }
 
 
@@ -4200,7 +4200,7 @@ _G.pg.base.weapon_name[51313] = {
 
 _G.pg.base.weapon_name[51320] = {
 	id = 51320,
-	name = "2 x 航空魚雷-重桜"
+	name = "2 x 机载鱼雷-重樱"
 }
 
 
@@ -4284,7 +4284,7 @@ _G.pg.base.weapon_name[51333] = {
 
 _G.pg.base.weapon_name[51340] = {
 	id = 51340,
-	name = "2 x 航空魚雷-重桜"
+	name = "2 x 机载鱼雷-重樱"
 }
 
 
@@ -4368,7 +4368,7 @@ _G.pg.base.weapon_name[51353] = {
 
 _G.pg.base.weapon_name[51360] = {
 	id = 51360,
-	name = "2 x 航空魚雷-重桜"
+	name = "2 x 机载鱼雷-重樱"
 }
 
 
@@ -4452,7 +4452,7 @@ _G.pg.base.weapon_name[51373] = {
 
 _G.pg.base.weapon_name[51400] = {
 	id = 51400,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -4536,7 +4536,7 @@ _G.pg.base.weapon_name[51413] = {
 
 _G.pg.base.weapon_name[51420] = {
 	id = 51420,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -4620,7 +4620,7 @@ _G.pg.base.weapon_name[51433] = {
 
 _G.pg.base.weapon_name[51440] = {
 	id = 51440,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -4704,7 +4704,7 @@ _G.pg.base.weapon_name[51453] = {
 
 _G.pg.base.weapon_name[51460] = {
 	id = 51460,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -4788,7 +4788,7 @@ _G.pg.base.weapon_name[51473] = {
 
 _G.pg.base.weapon_name[51480] = {
 	id = 51480,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -4872,7 +4872,7 @@ _G.pg.base.weapon_name[51493] = {
 
 _G.pg.base.weapon_name[51500] = {
 	id = 51500,
-	name = "4 x 航空魚雷-重桜"
+	name = "4 x 机载鱼雷-重樱"
 }
 
 
@@ -4956,7 +4956,7 @@ _G.pg.base.weapon_name[51513] = {
 
 _G.pg.base.weapon_name[51520] = {
 	id = 51520,
-	name = "4 x 航空魚雷-重桜"
+	name = "4 x 机载鱼雷-重樱"
 }
 
 
@@ -5040,7 +5040,7 @@ _G.pg.base.weapon_name[51533] = {
 
 _G.pg.base.weapon_name[51540] = {
 	id = 51540,
-	name = "4 x 航空魚雷-重桜"
+	name = "4 x 机载鱼雷-重樱"
 }
 
 
@@ -5124,7 +5124,7 @@ _G.pg.base.weapon_name[51553] = {
 
 _G.pg.base.weapon_name[51560] = {
 	id = 51560,
-	name = "3 x 航空魚雷-アイリス"
+	name = "3 x 机载鱼雷-鸢尾"
 }
 
 
@@ -5208,7 +5208,7 @@ _G.pg.base.weapon_name[51573] = {
 
 _G.pg.base.weapon_name[51580] = {
 	id = 51580,
-	name = "4 x 航空魚雷-汎用"
+	name = "4 x 机载鱼雷-通用"
 }
 
 
@@ -5292,7 +5292,7 @@ _G.pg.base.weapon_name[51593] = {
 
 _G.pg.base.weapon_name[51600] = {
 	id = 51600,
-	name = "3 x 航空魚雷-アイリス"
+	name = "3 x 机载鱼雷-鸢尾"
 }
 
 
@@ -5376,7 +5376,7 @@ _G.pg.base.weapon_name[51613] = {
 
 _G.pg.base.weapon_name[51620] = {
 	id = 51620,
-	name = "6 x 航空魚雷-北方連合"
+	name = "6 x 机载鱼雷-北联"
 }
 
 
@@ -5460,7 +5460,7 @@ _G.pg.base.weapon_name[51633] = {
 
 _G.pg.base.weapon_name[51640] = {
 	id = 51640,
-	name = "4 x 航空魚雷-北方連合"
+	name = "4 x 机载鱼雷-北联"
 }
 
 
@@ -5544,7 +5544,7 @@ _G.pg.base.weapon_name[51653] = {
 
 _G.pg.base.weapon_name[51660] = {
 	id = 51660,
-	name = "3 x 航空魚雷-重桜"
+	name = "3 x 机载鱼雷-重樱"
 }
 
 
@@ -5628,7 +5628,7 @@ _G.pg.base.weapon_name[51673] = {
 
 _G.pg.base.weapon_name[52000] = {
 	id = 52000,
-	name = "1 x 100lb 爆弾"
+	name = "1 x 100lb 炸弹"
 }
 
 
@@ -5712,7 +5712,7 @@ _G.pg.base.weapon_name[52013] = {
 
 _G.pg.base.weapon_name[52020] = {
 	id = 52020,
-	name = "1 x 100lb 爆弾"
+	name = "1 x 100lb 炸弹"
 }
 
 
@@ -5796,7 +5796,7 @@ _G.pg.base.weapon_name[52033] = {
 
 _G.pg.base.weapon_name[52040] = {
 	id = 52040,
-	name = "1 x 100lb 爆弾"
+	name = "1 x 100lb 炸弹"
 }
 
 
@@ -5880,7 +5880,7 @@ _G.pg.base.weapon_name[52053] = {
 
 _G.pg.base.weapon_name[52060] = {
 	id = 52060,
-	name = "2 x 爆弾（反跳爆撃）"
+	name = "2 x 炸弹（弹跳攻击）"
 }
 
 
@@ -5964,7 +5964,7 @@ _G.pg.base.weapon_name[52073] = {
 
 _G.pg.base.weapon_name[52100] = {
 	id = 52100,
-	name = "2 x 100lb 爆弾"
+	name = "2 x 100lb 炸弹"
 }
 
 
@@ -6048,7 +6048,7 @@ _G.pg.base.weapon_name[52113] = {
 
 _G.pg.base.weapon_name[52120] = {
 	id = 52120,
-	name = "2 x 100lb 爆弾"
+	name = "2 x 100lb 炸弹"
 }
 
 
@@ -6132,7 +6132,7 @@ _G.pg.base.weapon_name[52133] = {
 
 _G.pg.base.weapon_name[52140] = {
 	id = 52140,
-	name = "2 x 100lb 爆弾"
+	name = "2 x 100lb 炸弹"
 }
 
 
@@ -6216,7 +6216,7 @@ _G.pg.base.weapon_name[52153] = {
 
 _G.pg.base.weapon_name[52160] = {
 	id = 52160,
-	name = "2 x 100lb 爆弾"
+	name = "2 x 100lb 炸弹"
 }
 
 
@@ -6300,7 +6300,7 @@ _G.pg.base.weapon_name[52173] = {
 
 _G.pg.base.weapon_name[52200] = {
 	id = 52200,
-	name = "1 x 500lb 爆弾"
+	name = "1 x 500lb 炸弹"
 }
 
 
@@ -6384,7 +6384,7 @@ _G.pg.base.weapon_name[52213] = {
 
 _G.pg.base.weapon_name[52220] = {
 	id = 52220,
-	name = "1 x 500lb 爆弾"
+	name = "1 x 500lb 炸弹"
 }
 
 
@@ -6468,7 +6468,7 @@ _G.pg.base.weapon_name[52233] = {
 
 _G.pg.base.weapon_name[52240] = {
 	id = 52240,
-	name = "1 x 500lb 爆弾"
+	name = "1 x 500lb 炸弹"
 }
 
 
@@ -6552,7 +6552,7 @@ _G.pg.base.weapon_name[52253] = {
 
 _G.pg.base.weapon_name[52300] = {
 	id = 52300,
-	name = "2 x 500lb 爆弾"
+	name = "2 x 500lb 炸弹"
 }
 
 
@@ -6636,7 +6636,7 @@ _G.pg.base.weapon_name[52313] = {
 
 _G.pg.base.weapon_name[52320] = {
 	id = 52320,
-	name = "2 x 500lb 爆弾"
+	name = "2 x 500lb 炸弹"
 }
 
 
@@ -6720,7 +6720,7 @@ _G.pg.base.weapon_name[52333] = {
 
 _G.pg.base.weapon_name[52340] = {
 	id = 52340,
-	name = "2 x 500lb 爆弾"
+	name = "2 x 500lb 炸弹"
 }
 
 
@@ -6804,7 +6804,7 @@ _G.pg.base.weapon_name[52353] = {
 
 _G.pg.base.weapon_name[52360] = {
 	id = 52360,
-	name = "2 x 500lb 爆弾"
+	name = "2 x 500lb 炸弹"
 }
 
 
@@ -6888,7 +6888,7 @@ _G.pg.base.weapon_name[52373] = {
 
 _G.pg.base.weapon_name[52400] = {
 	id = 52400,
-	name = "3 x 500lb 爆弾"
+	name = "3 x 500lb 炸弹"
 }
 
 
@@ -6972,7 +6972,7 @@ _G.pg.base.weapon_name[52413] = {
 
 _G.pg.base.weapon_name[52420] = {
 	id = 52420,
-	name = "3 x 500lb 爆弾"
+	name = "3 x 500lb 炸弹"
 }
 
 
@@ -7056,7 +7056,7 @@ _G.pg.base.weapon_name[52433] = {
 
 _G.pg.base.weapon_name[52440] = {
 	id = 52440,
-	name = "3 x 500lb 爆弾"
+	name = "3 x 500lb 炸弹"
 }
 
 
@@ -7140,7 +7140,7 @@ _G.pg.base.weapon_name[52453] = {
 
 _G.pg.base.weapon_name[52500] = {
 	id = 52500,
-	name = "4 x 500lb 爆弾"
+	name = "4 x 500lb 炸弹"
 }
 
 
@@ -7224,7 +7224,7 @@ _G.pg.base.weapon_name[52513] = {
 
 _G.pg.base.weapon_name[52520] = {
 	id = 52520,
-	name = "4 x 500lb 爆弾"
+	name = "4 x 500lb 炸弹"
 }
 
 
@@ -7308,7 +7308,7 @@ _G.pg.base.weapon_name[52533] = {
 
 _G.pg.base.weapon_name[52540] = {
 	id = 52540,
-	name = "4 x 500lb 爆弾"
+	name = "4 x 500lb 炸弹"
 }
 
 
@@ -7392,7 +7392,7 @@ _G.pg.base.weapon_name[52553] = {
 
 _G.pg.base.weapon_name[52600] = {
 	id = 52600,
-	name = "1 x 1000lb 爆弾"
+	name = "1 x 1000lb 炸弹"
 }
 
 
@@ -7476,7 +7476,7 @@ _G.pg.base.weapon_name[52613] = {
 
 _G.pg.base.weapon_name[52620] = {
 	id = 52620,
-	name = "1 x 1000lb 爆弾"
+	name = "1 x 1000lb 炸弹"
 }
 
 
@@ -7560,7 +7560,7 @@ _G.pg.base.weapon_name[52633] = {
 
 _G.pg.base.weapon_name[52640] = {
 	id = 52640,
-	name = "1 x 1000lb 爆弾"
+	name = "1 x 1000lb 炸弹"
 }
 
 
@@ -7644,7 +7644,7 @@ _G.pg.base.weapon_name[52653] = {
 
 _G.pg.base.weapon_name[52660] = {
 	id = 52660,
-	name = "1 x 1000lb 爆弾"
+	name = "1 x 1000lb 炸弹"
 }
 
 
@@ -7728,7 +7728,7 @@ _G.pg.base.weapon_name[52673] = {
 
 _G.pg.base.weapon_name[52680] = {
 	id = 52680,
-	name = "1 x 1000lb 爆弾"
+	name = "1 x 1000lb 炸弹"
 }
 
 
@@ -7812,7 +7812,7 @@ _G.pg.base.weapon_name[52693] = {
 
 _G.pg.base.weapon_name[52700] = {
 	id = 52700,
-	name = "2 x 1000lb 爆弾"
+	name = "2 x 1000lb 炸弹"
 }
 
 
@@ -7896,7 +7896,7 @@ _G.pg.base.weapon_name[52713] = {
 
 _G.pg.base.weapon_name[52720] = {
 	id = 52720,
-	name = "2 x 1000lb 爆弾"
+	name = "2 x 1000lb 炸弹"
 }
 
 
@@ -7980,7 +7980,7 @@ _G.pg.base.weapon_name[52733] = {
 
 _G.pg.base.weapon_name[52740] = {
 	id = 52740,
-	name = "2 x 1000lb 爆弾"
+	name = "2 x 1000lb 炸弹"
 }
 
 
@@ -8064,7 +8064,7 @@ _G.pg.base.weapon_name[52753] = {
 
 _G.pg.base.weapon_name[52760] = {
 	id = 52760,
-	name = "2 x 1000lb 爆弾"
+	name = "2 x 1000lb 炸弹"
 }
 
 
@@ -8148,7 +8148,7 @@ _G.pg.base.weapon_name[52773] = {
 
 _G.pg.base.weapon_name[52780] = {
 	id = 52780,
-	name = "2 x 1000lb 爆弾"
+	name = "2 x 1000lb 炸弹"
 }
 
 
@@ -8232,7 +8232,7 @@ _G.pg.base.weapon_name[52793] = {
 
 _G.pg.base.weapon_name[52800] = {
 	id = 52800,
-	name = "2 x 1600lb 爆弾"
+	name = "2 x 1600lb 炸弹"
 }
 
 
@@ -8316,7 +8316,7 @@ _G.pg.base.weapon_name[52813] = {
 
 _G.pg.base.weapon_name[52820] = {
 	id = 52820,
-	name = "2 x 1600lb 爆弾"
+	name = "2 x 1600lb 炸弹"
 }
 
 
@@ -8400,7 +8400,7 @@ _G.pg.base.weapon_name[52833] = {
 
 _G.pg.base.weapon_name[52840] = {
 	id = 52840,
-	name = "2 x 1600lb 爆弾"
+	name = "2 x 1600lb 炸弹"
 }
 
 
@@ -8484,7 +8484,7 @@ _G.pg.base.weapon_name[52853] = {
 
 _G.pg.base.weapon_name[52900] = {
 	id = 52900,
-	name = "1 x 2000lb 爆弾"
+	name = "1 x 2000lb 炸弹"
 }
 
 
@@ -8568,7 +8568,7 @@ _G.pg.base.weapon_name[52913] = {
 
 _G.pg.base.weapon_name[52920] = {
 	id = 52920,
-	name = "1 x 2000lb 爆弾"
+	name = "1 x 2000lb 炸弹"
 }
 
 
@@ -8652,7 +8652,7 @@ _G.pg.base.weapon_name[52933] = {
 
 _G.pg.base.weapon_name[52940] = {
 	id = 52940,
-	name = "1 x 2000lb 爆弾"
+	name = "1 x 2000lb 炸弹"
 }
 
 
@@ -8736,7 +8736,7 @@ _G.pg.base.weapon_name[52953] = {
 
 _G.pg.base.weapon_name[52960] = {
 	id = 52960,
-	name = "1 x 2000lb 爆弾"
+	name = "1 x 2000lb 炸弹"
 }
 
 
@@ -8820,7 +8820,7 @@ _G.pg.base.weapon_name[52973] = {
 
 _G.pg.base.weapon_name[53000] = {
 	id = 53000,
-	name = "4 x 100lb 爆弾"
+	name = "4 x 100lb 炸弹"
 }
 
 
@@ -8904,7 +8904,7 @@ _G.pg.base.weapon_name[53013] = {
 
 _G.pg.base.weapon_name[53020] = {
 	id = 53020,
-	name = "4 x 100lb 爆弾"
+	name = "4 x 100lb 炸弹"
 }
 
 
@@ -8988,7 +8988,7 @@ _G.pg.base.weapon_name[53033] = {
 
 _G.pg.base.weapon_name[53040] = {
 	id = 53040,
-	name = "4 x 100lb 爆弾"
+	name = "4 x 100lb 炸弹"
 }
 
 
@@ -9072,7 +9072,7 @@ _G.pg.base.weapon_name[53053] = {
 
 _G.pg.base.weapon_name[53060] = {
 	id = 53060,
-	name = "6 x 100lb 爆弾"
+	name = "6 x 100lb 炸弹"
 }
 
 
@@ -9156,7 +9156,7 @@ _G.pg.base.weapon_name[53073] = {
 
 _G.pg.base.weapon_name[53080] = {
 	id = 53080,
-	name = "2 x 1000lb 爆弾（散布調整）"
+	name = "2 x 1000lb 炸弹（散布调整）"
 }
 
 
@@ -9240,7 +9240,7 @@ _G.pg.base.weapon_name[53093] = {
 
 _G.pg.base.weapon_name[53100] = {
 	id = 53100,
-	name = "対潜爆弾-標準"
+	name = "空投深弹-标准"
 }
 
 
@@ -9324,7 +9324,7 @@ _G.pg.base.weapon_name[53113] = {
 
 _G.pg.base.weapon_name[53120] = {
 	id = 53120,
-	name = "対潜爆弾-標準"
+	name = "空投深弹-标准"
 }
 
 
@@ -9408,7 +9408,7 @@ _G.pg.base.weapon_name[53133] = {
 
 _G.pg.base.weapon_name[53140] = {
 	id = 53140,
-	name = "対潜爆弾-標準"
+	name = "空投深弹-标准"
 }
 
 
@@ -9492,7 +9492,7 @@ _G.pg.base.weapon_name[53153] = {
 
 _G.pg.base.weapon_name[53200] = {
 	id = 53200,
-	name = "対潜爆弾-範囲UP"
+	name = "空投深弹-范围up"
 }
 
 
@@ -9576,7 +9576,7 @@ _G.pg.base.weapon_name[53213] = {
 
 _G.pg.base.weapon_name[53220] = {
 	id = 53220,
-	name = "対潜爆弾-範囲UP"
+	name = "空投深弹-范围up"
 }
 
 
@@ -9660,7 +9660,7 @@ _G.pg.base.weapon_name[53233] = {
 
 _G.pg.base.weapon_name[53240] = {
 	id = 53240,
-	name = "対潜爆弾-範囲UP"
+	name = "空投深弹-范围up"
 }
 
 
@@ -9744,7 +9744,7 @@ _G.pg.base.weapon_name[53253] = {
 
 _G.pg.base.weapon_name[53260] = {
 	id = 53260,
-	name = "1 x 1600lb 爆弾"
+	name = "1 x 1600lb 炸弹"
 }
 
 
@@ -9828,7 +9828,7 @@ _G.pg.base.weapon_name[53273] = {
 
 _G.pg.base.weapon_name[53280] = {
 	id = 53280,
-	name = "1 x 1600lb 徹甲爆弾 "
+	name = "1 x 1600lb 穿甲炸弹"
 }
 
 
@@ -9996,7 +9996,7 @@ _G.pg.base.weapon_name[53313] = {
 
 _G.pg.base.weapon_name[53320] = {
 	id = 53320,
-	name = "3 x 800kg 徹甲爆弾"
+	name = "3 x 800kg 穿甲炸弹"
 }
 
 
@@ -10164,7 +10164,7 @@ _G.pg.base.weapon_name[53353] = {
 
 _G.pg.base.weapon_name[53360] = {
 	id = 53360,
-	name = "対潜爆弾-範囲UP"
+	name = "空投深弹-范围up"
 }
 
 
@@ -10248,7 +10248,7 @@ _G.pg.base.weapon_name[53373] = {
 
 _G.pg.base.weapon_name[53380] = {
 	id = 53380,
-	name = "2 x 機銃"
+	name = "2 x 机枪"
 }
 
 
@@ -10332,7 +10332,7 @@ _G.pg.base.weapon_name[53393] = {
 
 _G.pg.base.weapon_name[53400] = {
 	id = 53400,
-	name = "2 x 航空爆雷-標準"
+	name = "2 x 空投深弹-标准"
 }
 
 
@@ -10416,7 +10416,7 @@ _G.pg.base.weapon_name[53413] = {
 
 _G.pg.base.weapon_name[53420] = {
 	id = 53420,
-	name = "2 x 500lb 爆弾"
+	name = "2 x 500lb 炸弹"
 }
 
 
@@ -10500,7 +10500,7 @@ _G.pg.base.weapon_name[53433] = {
 
 _G.pg.base.weapon_name[59000] = {
 	id = 59000,
-	name = "2 x MG FF 20mm機関砲"
+	name = "2 x MG FF 20mm机炮"
 }
 
 
@@ -10584,7 +10584,7 @@ _G.pg.base.weapon_name[59013] = {
 
 _G.pg.base.weapon_name[59020] = {
 	id = 59020,
-	name = "2 x MG FF 20mm機関砲"
+	name = "2 x MG FF 20mm机炮"
 }
 
 
@@ -10668,7 +10668,7 @@ _G.pg.base.weapon_name[59033] = {
 
 _G.pg.base.weapon_name[59040] = {
 	id = 59040,
-	name = "2 x MG FF 20mm機関砲"
+	name = "2 x MG FF 20mm机炮"
 }
 
 
@@ -10752,7 +10752,7 @@ _G.pg.base.weapon_name[59053] = {
 
 _G.pg.base.weapon_name[59100] = {
 	id = 59100,
-	name = "3 x MG151 20mm機関砲"
+	name = "3 x MG151 20mm机炮"
 }
 
 
@@ -10836,7 +10836,7 @@ _G.pg.base.weapon_name[59113] = {
 
 _G.pg.base.weapon_name[59120] = {
 	id = 59120,
-	name = "3 x MG151 20mm機関砲"
+	name = "3 x MG151 20mm机炮"
 }
 
 
@@ -10920,7 +10920,7 @@ _G.pg.base.weapon_name[59133] = {
 
 _G.pg.base.weapon_name[59140] = {
 	id = 59140,
-	name = "3 x MG151 20mm機関砲"
+	name = "3 x MG151 20mm机炮"
 }
 
 
@@ -11004,7 +11004,7 @@ _G.pg.base.weapon_name[59153] = {
 
 _G.pg.base.weapon_name[59160] = {
 	id = 59160,
-	name = "6 x MG151 20mm機関砲"
+	name = "6 x MG151 20mm机炮"
 }
 
 
@@ -11088,7 +11088,7 @@ _G.pg.base.weapon_name[59173] = {
 
 _G.pg.base.weapon_name[59200] = {
 	id = 59200,
-	name = "2 x MG131 13mm機関砲"
+	name = "2 x MG131 13mm机炮"
 }
 
 
@@ -11172,7 +11172,7 @@ _G.pg.base.weapon_name[59213] = {
 
 _G.pg.base.weapon_name[59220] = {
 	id = 59220,
-	name = "2 x MG131 13mm機関砲"
+	name = "2 x MG131 13mm机炮"
 }
 
 
@@ -11256,7 +11256,7 @@ _G.pg.base.weapon_name[59233] = {
 
 _G.pg.base.weapon_name[59240] = {
 	id = 59240,
-	name = "2 x MG131 13mm機関砲"
+	name = "2 x MG131 13mm机炮"
 }
 
 
@@ -11340,7 +11340,7 @@ _G.pg.base.weapon_name[59253] = {
 
 _G.pg.base.weapon_name[59300] = {
 	id = 59300,
-	name = "3 x 7.92mm MG機銃"
+	name = "3 x 7.92mm MG机枪"
 }
 
 
@@ -11424,7 +11424,7 @@ _G.pg.base.weapon_name[59313] = {
 
 _G.pg.base.weapon_name[59320] = {
 	id = 59320,
-	name = "3 x 7.92mm MG機銃"
+	name = "3 x 7.92mm MG机枪"
 }
 
 
@@ -11508,7 +11508,7 @@ _G.pg.base.weapon_name[59333] = {
 
 _G.pg.base.weapon_name[59340] = {
 	id = 59340,
-	name = "3 x 7.92mm MG機銃"
+	name = "3 x 7.92mm MG机枪"
 }
 
 
@@ -11592,7 +11592,7 @@ _G.pg.base.weapon_name[59353] = {
 
 _G.pg.base.weapon_name[59400] = {
 	id = 59400,
-	name = "2 x 7.92mm MG17機銃"
+	name = "2 x 7.92mm MG17机枪"
 }
 
 
@@ -11676,7 +11676,7 @@ _G.pg.base.weapon_name[59413] = {
 
 _G.pg.base.weapon_name[59420] = {
 	id = 59420,
-	name = "2 x 7.92mm MG17機銃"
+	name = "2 x 7.92mm MG17机枪"
 }
 
 
@@ -11760,7 +11760,7 @@ _G.pg.base.weapon_name[59433] = {
 
 _G.pg.base.weapon_name[59440] = {
 	id = 59440,
-	name = "2 x 7.92mm MG17機銃"
+	name = "2 x 7.92mm MG17机枪"
 }
 
 
@@ -11844,7 +11844,7 @@ _G.pg.base.weapon_name[59453] = {
 
 _G.pg.base.weapon_name[59500] = {
 	id = 59500,
-	name = "4 x 20mm九九式機関砲"
+	name = "4 x 20mm九九式机炮"
 }
 
 
@@ -11928,7 +11928,7 @@ _G.pg.base.weapon_name[59513] = {
 
 _G.pg.base.weapon_name[59520] = {
 	id = 59520,
-	name = "4 x 20mm九九式機関砲"
+	name = "4 x 20mm九九式机炮"
 }
 
 
@@ -12012,7 +12012,7 @@ _G.pg.base.weapon_name[59533] = {
 
 _G.pg.base.weapon_name[59540] = {
 	id = 59540,
-	name = "4 x 20mm九九式機関砲"
+	name = "4 x 20mm九九式机炮"
 }
 
 
@@ -12096,7 +12096,7 @@ _G.pg.base.weapon_name[59553] = {
 
 _G.pg.base.weapon_name[59560] = {
 	id = 59560,
-	name = "3 x 7.7mm機銃"
+	name = "3 x 7.7mm机枪"
 }
 
 
@@ -12180,7 +12180,7 @@ _G.pg.base.weapon_name[59573] = {
 
 _G.pg.base.weapon_name[59580] = {
 	id = 59580,
-	name = "2 x 航空魚雷-通用"
+	name = "2 x 机载鱼雷-通用"
 }
 
 
@@ -12264,7 +12264,7 @@ _G.pg.base.weapon_name[59593] = {
 
 _G.pg.base.weapon_name[59600] = {
 	id = 59600,
-	name = "3 x 航空魚雷-通用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -12348,7 +12348,7 @@ _G.pg.base.weapon_name[59613] = {
 
 _G.pg.base.weapon_name[59620] = {
 	id = 59620,
-	name = "3 x 航空魚雷-通用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -12432,7 +12432,7 @@ _G.pg.base.weapon_name[59633] = {
 
 _G.pg.base.weapon_name[59640] = {
 	id = 59640,
-	name = "3 x 航空魚雷-通用"
+	name = "3 x 机载鱼雷-通用"
 }
 
 
@@ -12516,7 +12516,7 @@ _G.pg.base.weapon_name[59653] = {
 
 _G.pg.base.weapon_name[59660] = {
 	id = 59660,
-	name = "2 x 航空魚雷-鉄血"
+	name = "2 x 机载鱼雷-铁血"
 }
 
 
@@ -12600,7 +12600,7 @@ _G.pg.base.weapon_name[59673] = {
 
 _G.pg.base.weapon_name[59680] = {
 	id = 59680,
-	name = "2 x 航空魚雷-鉄血"
+	name = "2 x 机载鱼雷-铁血"
 }
 
 
@@ -12684,7 +12684,7 @@ _G.pg.base.weapon_name[59693] = {
 
 _G.pg.base.weapon_name[59700] = {
 	id = 59700,
-	name = "3 x 航空魚雷-鉄血"
+	name = "3 x 机载鱼雷-铁血"
 }
 
 
@@ -12768,7 +12768,7 @@ _G.pg.base.weapon_name[59713] = {
 
 _G.pg.base.weapon_name[59720] = {
 	id = 59720,
-	name = "1 x 7.92mm MG機銃"
+	name = "1 x 7.92mm MG机枪"
 }
 
 
@@ -12852,7 +12852,7 @@ _G.pg.base.weapon_name[59733] = {
 
 _G.pg.base.weapon_name[59740] = {
 	id = 59740,
-	name = "7 x 12.7mm機銃"
+	name = "7 x 12.7mm机枪"
 }
 
 
@@ -12936,7 +12936,7 @@ _G.pg.base.weapon_name[59753] = {
 
 _G.pg.base.weapon_name[59760] = {
 	id = 59760,
-	name = "2 x 7.92mm MG機銃"
+	name = "2 x 7.92mm MG机枪"
 }
 
 
@@ -13020,7 +13020,7 @@ _G.pg.base.weapon_name[59773] = {
 
 _G.pg.base.weapon_name[59780] = {
 	id = 59780,
-	name = "2 x 20mm九九式機関砲"
+	name = "2 x 20mm九九式机炮"
 }
 
 
@@ -13104,7 +13104,7 @@ _G.pg.base.weapon_name[59793] = {
 
 _G.pg.base.weapon_name[59800] = {
 	id = 59800,
-	name = "2 x 30mm機関砲"
+	name = "2 x 30mm机炮"
 }
 
 
@@ -13188,7 +13188,7 @@ _G.pg.base.weapon_name[59813] = {
 
 _G.pg.base.weapon_name[59820] = {
 	id = 59820,
-	name = "1 x MG151 20mm機関砲"
+	name = "1 x MG151 20mm机炮"
 }
 
 
@@ -13272,7 +13272,7 @@ _G.pg.base.weapon_name[59833] = {
 
 _G.pg.base.weapon_name[59840] = {
 	id = 59840,
-	name = "4 x APロケット"
+	name = "4 x 穿甲火箭弹"
 }
 
 
@@ -13524,7 +13524,7 @@ _G.pg.base.weapon_name[59893] = {
 
 _G.pg.base.weapon_name[59900] = {
 	id = 59900,
-	name = "2 x MG151 20mm機関砲"
+	name = "2 x MG151 20mm机炮"
 }
 
 
@@ -13860,7 +13860,7 @@ _G.pg.base.weapon_name[59973] = {
 
 _G.pg.base.weapon_name[59980] = {
 	id = 59980,
-	name = "TinyTim"
+	name = "2 x TinyTim"
 }
 
 

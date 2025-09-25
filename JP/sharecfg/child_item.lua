@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.child_item = {
 	{
-		name = "ミルキィ饅頭",
+		name = "啾啾奶茶",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "濃厚で滑らかな舌触り。",
+		desc = "口感醇厚，入口丝滑~",
 		usage = "usage_drop",
 		usage_arg = "[101]",
 		id = 1,
@@ -19,11 +19,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "イチゴミルク",
+		name = "草莓牛奶",
 		rarity = 1,
 		type = 4,
 		is_show = 1,
-		desc = "この味、間違いなし。",
+		desc = "绝对不会出错的口味。",
 		usage = "usage_drop",
 		usage_arg = "[102]",
 		id = 2,
@@ -37,11 +37,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "レモンハニードリンク",
+		name = "柠檬蜂蜜饮",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "レモンが苦くなる前に一気に飲むべし！",
+		desc = "得在柠檬发苦之前一口气喝掉它！",
 		usage = "usage_drop",
 		usage_arg = "[103]",
 		id = 3,
@@ -60,11 +60,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "バナナココナッツドリンク",
+		name = "香蕉椰椰",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "バナナとココナッツの組み合わせからなる、独特で芳醇な味わい。",
+		desc = "香蕉与椰奶的组合，气息既独特又浓厚。",
 		usage = "usage_drop",
 		usage_arg = "[104]",
 		id = 4,
@@ -83,11 +83,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "メロンダブル",
+		name = "蜜瓜双球",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "メロンの甘さとシロップが絶妙にマッチ。スイーツ好きにはたまらない。",
+		desc = "将蜜瓜的清甜与糖浆结合，是甜食爱好者的福音。",
 		usage = "usage_drop",
 		usage_arg = "[105]",
 		id = 5,
@@ -106,11 +106,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "アイスミルクセーキ",
+		name = "雪顶奶昔",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "最初にトップのアイスを食べるか、それともシェイクから飲むか？",
+		desc = "先吃雪顶还是先喝奶昔？",
 		usage = "usage_drop",
 		usage_arg = "[106]",
 		id = 6,
@@ -124,11 +124,11 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		name = "オムライス",
+		name = "蛋包饭",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "ふわふわの卵とトマトの酸味が効いたチキンライス、美味しい！",
+		desc = "软嫩的欧姆蛋和带着番茄酸甜的炒饭，美味！",
 		usage = "usage_drop",
 		usage_arg = "[111]",
 		id = 11,
@@ -147,11 +147,11 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		name = "シチューポットパイ",
+		name = "酥皮浓汤",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "サクサクのパイと温かい濃厚なスープが絶妙。",
+		desc = "脆口的酥皮沾着温暖可口的浓汤让人赞不绝口。",
 		usage = "usage_drop",
 		usage_arg = "[112]",
 		id = 12,
@@ -165,11 +165,11 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		name = "マカロン",
+		name = "马卡龙",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "サクサクのスイーツで気分アゲアゲ。",
+		desc = "酥脆的甜食能让人心情变好。",
 		usage = "usage_drop",
 		usage_arg = "[113]",
 		id = 13,
@@ -183,11 +183,11 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		name = "スイカのクリームピザ",
+		name = "西瓜奶油披萨",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "ピザの原理主義者を激怒させる創作料理。",
+		desc = "会让披萨原教旨主义震怒的创新口味。",
 		usage = "usage_drop",
 		usage_arg = "[114]",
 		id = 14,
@@ -201,11 +201,11 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		name = "バナナクレープ",
+		name = "香蕉可丽饼",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "普通のバナナとクリーム入りのクレープ。",
+		desc = "普通的香蕉奶油的可丽饼。",
 		usage = "usage_drop",
 		usage_arg = "[115]",
 		id = 15,
@@ -219,11 +219,11 @@ pg.child_item = {
 		}
 	},
 	[16] = {
-		name = "カツサンド",
+		name = "肉排三明治",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "分厚い肉とトーストで、ジューシーでボリューム満点。",
+		desc = "大块肉排加上吐司面包，汁水四溢，分量十足。",
 		usage = "usage_drop",
 		usage_arg = "[116]",
 		id = 16,
@@ -237,11 +237,11 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		name = "肉のバジル煮込み",
+		name = "罗勒炖肉",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "広がる濃厚なバジルの香りが一層美味しさを引き立たせる。",
+		desc = "浓香四溢，搭配上罗勒的香气，别是一番美味。",
 		usage = "usage_drop",
 		usage_arg = "[117]",
 		id = 17,
@@ -255,11 +255,11 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		name = "初心者用釣り竿",
+		name = "初学者钓竿",
 		rarity = 2,
 		type = 3,
 		is_show = 1,
-		desc = "初心者に最適な釣り竿。",
+		desc = "最适合初学者的钓竿。",
 		usage = "usage_drop",
 		usage_arg = "[121]",
 		id = 21,
@@ -278,11 +278,11 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		name = "鉄の斧",
+		name = "铁斧头",
 		rarity = 2,
 		type = 3,
 		is_show = 1,
-		desc = "金の斧か、それとも銀の斧か？――実は鉄の斧だった。",
+		desc = "金斧头还是银斧头？——原来是铁斧头啊。",
 		usage = "usage_drop",
 		usage_arg = "[122]",
 		id = 22,
@@ -296,11 +296,11 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		name = "中級者用釣り竿",
+		name = "进阶者钓竿",
 		rarity = 3,
 		type = 3,
 		is_show = 1,
-		desc = "微かに銀色に輝いている、中級者向けの釣り竿。",
+		desc = "适合进阶者使用的钓竿，闪着微微银光。",
 		usage = "usage_drop",
 		usage_arg = "[123]",
 		id = 23,
@@ -319,11 +319,11 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		name = "銀の斧",
+		name = "银斧头",
 		rarity = 3,
 		type = 3,
 		is_show = 1,
-		desc = "金の斧か、それとも銀の斧か？――今回は銀の斧だ！",
+		desc = "金斧头还是银斧头？——这次是银斧头呢！",
 		usage = "usage_drop",
 		usage_arg = "[124]",
 		id = 24,
@@ -337,11 +337,11 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		name = "マスター級釣り竿",
+		name = "大师级钓竿",
 		rarity = 4,
 		type = 3,
 		is_show = 1,
-		desc = "釣りの達人だけが使いこなせるチャンピオン級の釣り竿！",
+		desc = "只有钓鱼大师才能驾驭的王者级钓竿！",
 		usage = "usage_drop",
 		usage_arg = "[125]",
 		id = 25,
@@ -355,11 +355,11 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		name = "金の斧",
+		name = "金斧头",
 		rarity = 4,
 		type = 3,
 		is_show = 1,
-		desc = "金の斧か、それとも銀の斧か？――やっぱり一番使いやすいのは金の斧だ！",
+		desc = "金斧头还是银斧头？——最趁手的果然是金斧头！",
 		usage = "usage_drop",
 		usage_arg = "[126]",
 		id = 26,
@@ -373,11 +373,11 @@ pg.child_item = {
 		}
 	},
 	[31] = {
-		name = "『ゼロから始めるロイヤルメイド生活』",
+		name = "《从零开始的皇家女仆生活》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "不器用なメイドが料理を学び、失敗を重ねながらも頑張る物語。",
+		desc = "讲述了笨手笨脚的女仆学习料理，屡战屡败，屡败屡战的故事。",
 		usage = "usage_drop",
 		usage_arg = "[131]",
 		id = 31,
@@ -396,11 +396,11 @@ pg.child_item = {
 		}
 	},
 	[32] = {
-		name = "『15行のソネット』",
+		name = "《十五行诗》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "思索を巡らせる不朽の名作。でも行数が……",
+		desc = "经典名著，引人深思，就是行数不太对劲。",
 		usage = "usage_drop",
 		usage_arg = "[132]",
 		id = 32,
@@ -419,11 +419,11 @@ pg.child_item = {
 		}
 	},
 	[33] = {
-		name = "『艤装メンテナンス指南』",
+		name = "《舰装养护指南》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "専門性がとてつもなく高い書籍。",
+		desc = "专业性极强的书籍。",
 		usage = "usage_drop",
 		usage_arg = "[133]",
 		id = 33,
@@ -442,11 +442,11 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		name = "『指揮官の心の掴み方』",
+		name = "《如何俘获指挥官的心？》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "シンプルで分かりやすいが、あまり勉強の役には立たなそうだ。",
+		desc = "书中内容简单直白，但是好像不太适合学习。",
 		usage = "usage_drop",
 		usage_arg = "[134]",
 		id = 34,
@@ -460,11 +460,11 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		name = "『天才の発明ガイド！』",
+		name = "《天才创造指北！》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "極めて我流な発明指南書。ほとんど役に立たない…気がする。",
+		desc = "充斥着浓郁个人特色的发明指南，但感觉大部分派不上用场。",
 		usage = "usage_drop",
 		usage_arg = "[135]",
 		id = 35,
@@ -478,11 +478,11 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		name = "『トキメキホリデートラベル』",
+		name = "《心动假期旅游指南》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "海や無人島など、さまざまな旅行地を紹介。",
+		desc = "罗列着各种与大海、无人岛等地点有关的旅游指南。",
 		usage = "usage_drop",
 		usage_arg = "[136]",
 		id = 36,
@@ -496,11 +496,11 @@ pg.child_item = {
 		}
 	},
 	[41] = {
-		name = "レコード",
+		name = "唱片",
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "どんな曲が収録されているのだろう？",
+		desc = "一张唱片，里面收录着什么风格的音乐呢？",
 		usage = "usage_drop",
 		usage_arg = "[141]",
 		id = 41,
@@ -514,11 +514,11 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		name = "マイク",
+		name = "麦克风",
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "内蔵ミキサーで音を豊かで繊細に。カラオケに最適。",
+		desc = "内置混响，音质饱满细腻，K歌的不二之选。",
 		usage = "usage_drop",
 		usage_arg = "[142]",
 		id = 42,
@@ -532,11 +532,11 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		name = "クラリネット",
+		name = "单簧管",
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "いい響きがする木管楽器。演奏の習得が非常に難しいと言われている。",
+		desc = "音色嘹亮的木管乐器，据说非常难学。",
 		usage = "usage_drop",
 		usage_arg = "[143]",
 		id = 43,
@@ -555,11 +555,11 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		name = "ハープ",
+		name = "竖琴",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "広い音域と長い余韻が特徴。",
+		desc = "声域宽广，余音悠长。",
 		usage = "usage_drop",
 		usage_arg = "[144]",
 		id = 44,
@@ -573,11 +573,11 @@ pg.child_item = {
 		}
 	},
 	[45] = {
-		name = "ヴァイオリン",
+		name = "小提琴",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "力強い音色が魅力。",
+		desc = "音色洪亮，张力十足。",
 		usage = "usage_drop",
 		usage_arg = "[145]",
 		id = 45,
@@ -596,11 +596,11 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		name = "ピアノ",
+		name = "钢琴",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "優雅で美しい音色の代名詞。",
+		desc = "高雅与优美的代名词。",
 		usage = "usage_drop",
 		usage_arg = "[146]",
 		id = 46,
@@ -614,11 +614,11 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		name = "トランペット",
+		name = "小号",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "明るく鋭い音色で、華やかさと美しさを兼ね備えている。",
+		desc = "音色明亮锐利，兼具嘹亮与优美。",
 		usage = "usage_drop",
 		usage_arg = "[147]",
 		id = 47,
@@ -637,11 +637,11 @@ pg.child_item = {
 		}
 	},
 	[51] = {
-		name = "白い真珠",
+		name = "白珍珠",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "粉にすると美白効果でも…？",
+		desc = "磨成粉的话，会不会有什么神奇美白的效果呢？",
 		usage = "usage_drop",
 		usage_arg = "[151]",
 		id = 51,
@@ -655,11 +655,11 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		name = "貝殻の飾り",
+		name = "贝壳摆件",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "磨いた貝殻で作られたお飾りオブジェクト。",
+		desc = "将贝壳打磨后制成的摆件。",
 		usage = "usage_drop",
 		usage_arg = "[152]",
 		id = 52,
@@ -673,11 +673,11 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		name = "タコのぬいぐるみ",
+		name = "章鱼玩偶",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "「茹でたタコ」をモチーフに作られたぬいぐるみ。好きな人が本当にいるのだろうか？",
+		desc = "以“熟透了的章鱼”为设计理念制作的玩偶，真的会有人喜欢吗？",
 		usage = "usage_drop",
 		usage_arg = "[153]",
 		id = 53,
@@ -691,11 +691,11 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		name = "願いのボトル",
+		name = "许愿瓶",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "願いをメモに書き瓶に入れて海に投げると、その願いが叶うと言われている。",
+		desc = "据说把愿望写好后再丢进海里，就会实现。",
 		usage = "usage_drop",
 		usage_arg = "[154]",
 		id = 54,
@@ -709,11 +709,11 @@ pg.child_item = {
 		}
 	},
 	[55] = {
-		name = "マジックシェル",
+		name = "神奇海螺",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "マジックシェルに何か聞いてみたらどうだ？",
+		desc = "为什么不问问神奇海螺呢？",
 		usage = "usage_drop",
 		usage_arg = "[155]",
 		id = 55,
@@ -732,11 +732,11 @@ pg.child_item = {
 		}
 	},
 	[56] = {
-		name = "ココナッツ",
+		name = "椰子",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "土産屋だけど、ココナッツも売ってるね。",
+		desc = "虽然是专卖纪念品的商店，但是也会卖卖椰子呢。",
 		usage = "usage_drop",
 		usage_arg = "[156]",
 		id = 56,
@@ -755,11 +755,11 @@ pg.child_item = {
 		}
 	},
 	[101] = {
-		name = "レタスの白茹で",
+		name = "白灼生菜",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "食材が新鮮なら、シンプルな調理と味付けで十分。",
+		desc = "新鲜的食材，往往只需要简单的烹饪和调味。",
 		usage = "usage_drop",
 		usage_arg = "[111215]",
 		id = 101,
@@ -773,11 +773,11 @@ pg.child_item = {
 		}
 	},
 	[102] = {
-		name = "ハニーポークチョップ",
+		name = "蜜汁猪排",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "最後にハチミツを塗って焼き上げ……一口で肉の旨味が広がる。",
+		desc = "最后刷上蜂蜜，再送入烤箱……一口下去肉香四溢。",
 		usage = "usage_drop",
 		usage_arg = "[111216]",
 		id = 102,
@@ -791,11 +791,11 @@ pg.child_item = {
 		}
 	},
 	[103] = {
-		name = "シチューポットパイ",
+		name = "酥皮浓汤",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "サクサクのパイと温かい濃厚なスープが絶妙。",
+		desc = "脆口的酥皮沾着温暖可口的浓汤让人赞不绝口。",
 		usage = "usage_drop",
 		usage_arg = "[111217]",
 		id = 103,
@@ -809,11 +809,11 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		name = "餃子盛り合わせ",
+		name = "饺子拼盘",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "人生は餃子の盛り合わせのよう――次の一個はどんな味か分からないんだ。",
+		desc = "人生就像一盘饺子，你永远不知道下一颗是什么滋味。",
 		usage = "usage_drop",
 		usage_arg = "[111218]",
 		id = 104,
@@ -827,11 +827,11 @@ pg.child_item = {
 		}
 	},
 	[105] = {
-		name = "マーボー豆腐",
+		name = "麻婆豆腐",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "家庭料理として人々に愛されている。",
+		desc = "人见人爱的家常料理。",
 		usage = "usage_drop",
 		usage_arg = "[111219]",
 		id = 105,
@@ -845,11 +845,11 @@ pg.child_item = {
 		}
 	},
 	[106] = {
-		name = "バナナクレープ",
+		name = "香蕉可丽饼",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "普通のバナナとクリーム入りのクレープ。",
+		desc = "普通的香蕉奶油的可丽饼。",
 		usage = "usage_drop",
 		usage_arg = "[111220]",
 		id = 106,
@@ -863,11 +863,11 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		name = "ごった煮鍋",
+		name = "杂煮锅",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "だしが効いたスープに美味しい野菜と肉、溶き卵に絡めて～うまい！",
+		desc = "甜甜的汤汁、美味的蔬菜和肉，再裹上蛋液~好吃！",
 		usage = "usage_drop",
 		usage_arg = "[111221]",
 		id = 107,
@@ -881,11 +881,11 @@ pg.child_item = {
 		}
 	},
 	[108] = {
-		name = "ラムスペアリブのローズマリー風味",
+		name = "迷迭香羊排",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "肉質は柔らかく、味わい深い。",
+		desc = "肉质细腻，味道鲜美。",
 		usage = "usage_drop",
 		usage_arg = "[111222]",
 		id = 108,
@@ -899,11 +899,11 @@ pg.child_item = {
 		}
 	},
 	[109] = {
-		name = "カツサンド",
+		name = "肉排三明治",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "分厚い肉とトーストで、ジューシーでボリューム満点。",
+		desc = "大块肉排加上吐司面包，汁水四溢，分量十足。",
 		usage = "usage_drop",
 		usage_arg = "[111223]",
 		id = 109,
@@ -917,11 +917,11 @@ pg.child_item = {
 		}
 	},
 	[110] = {
-		name = "謎の料理",
+		name = "神秘料理",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "口に入れないとどんな味かわからない。",
+		desc = "在试吃之前，没人知道是什么味道。",
 		usage = "usage_drop",
 		usage_arg = "[111224]",
 		id = 110,
@@ -935,11 +935,11 @@ pg.child_item = {
 		}
 	},
 	[121] = {
-		name = "絵の作品",
+		name = "画作",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "丁寧に額装された絵の作品。",
+		desc = "被仔细装裱起来的画作。",
 		usage = "usage_drop",
 		usage_arg = "[121109]",
 		id = 121,
@@ -953,11 +953,11 @@ pg.child_item = {
 		}
 	},
 	[131] = {
-		name = "川エビ",
+		name = "小河虾",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "小さい川エビ。獲れないよりましね…",
+		desc = "钓上来小河虾，收获聊胜于无。",
 		usage = "usage_drop",
 		usage_arg = "[120211]",
 		id = 131,
@@ -971,11 +971,11 @@ pg.child_item = {
 		}
 	},
 	[132] = {
-		name = "小さな魚",
+		name = "小鱼",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "小さい魚。運がいいね！",
+		desc = "钓上来的小鱼，运气还不错。",
 		usage = "usage_drop",
 		usage_arg = "[120212]",
 		id = 132,
@@ -989,11 +989,11 @@ pg.child_item = {
 		}
 	},
 	[134] = {
-		name = "大きい魚",
+		name = "大鱼",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "大きい魚だ！今日の夕ご飯が豪華になるよ！",
+		desc = "钓上来的大鱼，可以加餐了！",
 		usage = "usage_drop",
 		usage_arg = "[120214]",
 		id = 134,
@@ -1007,11 +1007,11 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		name = "ロブスター",
+		name = "龙虾",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "大きいロブスターだ！……なんでロブスターが釣れたんだろう…？",
+		desc = "龙虾一只！不过为什么龙虾会上钩呢……？",
 		usage = "usage_drop",
 		usage_arg = "[120215]",
 		id = 135,
@@ -1029,7 +1029,7 @@ pg.child_item = {
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "現像した写真。アルバムにしっかりと保存される予定。",
+		desc = "特地洗出来的写真，会被放进相册里好好收藏。",
 		usage = "usage_drop",
 		usage_arg = "[131111]",
 		id = 151,
@@ -1043,11 +1043,11 @@ pg.child_item = {
 		}
 	},
 	[161] = {
-		name = "受賞記念章-公募文学賞",
+		name = "纪念奖章-文学大奖赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "公募文学賞に参加した記念品",
+		desc = "参与文学大奖赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[170640]",
 		id = 161,
@@ -1055,11 +1055,11 @@ pg.child_item = {
 		display = {}
 	},
 	[162] = {
-		name = "受賞記念章-写真コンテスト",
+		name = "纪念奖章-摄影大赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "写真コンテストに参加した記念品",
+		desc = "参与摄影大赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[130540]",
 		id = 162,
@@ -1067,11 +1067,11 @@ pg.child_item = {
 		display = {}
 	},
 	[163] = {
-		name = "受賞記念章-大運動会",
+		name = "纪念奖章-运动大赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "大運動会に参加した記念品",
+		desc = "参与运动大赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[160340]",
 		id = 163,
@@ -1079,11 +1079,11 @@ pg.child_item = {
 		display = {}
 	},
 	[164] = {
-		name = "受賞記念章-絵画コンテスト",
+		name = "纪念奖章-绘画大奖赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "絵画コンテストに参加した記念品",
+		desc = "参与绘画大奖赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[170740]",
 		id = 164,
@@ -1091,11 +1091,11 @@ pg.child_item = {
 		display = {}
 	},
 	[165] = {
-		name = "受賞記念章-料理大会",
+		name = "纪念奖章-厨神大赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "料理大会に参加した記念品",
+		desc = "参与厨神大赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[110504]",
 		id = 165,
@@ -1103,11 +1103,11 @@ pg.child_item = {
 		display = {}
 	},
 	[166] = {
-		name = "受賞記念章-釣り大会",
+		name = "纪念奖章-钓鱼达人赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "釣り大会に参加した記念品",
+		desc = "参与钓鱼达人赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[120504]",
 		id = 166,
@@ -1115,11 +1115,11 @@ pg.child_item = {
 		display = {}
 	},
 	[167] = {
-		name = "受賞記念章-歌コンテスト",
+		name = "纪念奖章-歌者之声大奖赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "歌コンテストに参加した記念品",
+		desc = "参与歌者之声大奖赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[170840]",
 		id = 167,
@@ -1127,11 +1127,11 @@ pg.child_item = {
 		display = {}
 	},
 	[168] = {
-		name = "受賞記念章-オーディション",
+		name = "纪念奖章-明日之星大赛",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "オーディションに参加した記念品",
+		desc = "参与明日之星大赛获得的纪念奖章。",
 		usage = "usage_drop",
 		usage_arg = "[140404]",
 		id = 168,
@@ -1139,11 +1139,11 @@ pg.child_item = {
 		display = {}
 	},
 	[201] = {
-		name = "育成目標達成記念·Ⅰ",
+		name = "成长目标完成纪念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 体力+20",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 体能+20",
 		usage = "usage_drop",
 		usage_arg = "[701]",
 		id = 201,
@@ -1167,11 +1167,11 @@ pg.child_item = {
 		}
 	},
 	[202] = {
-		name = "育成目標達成記念·Ⅰ",
+		name = "成长目标完成纪念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 知識+20",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 智慧+20",
 		usage = "usage_drop",
 		usage_arg = "[702]",
 		id = 202,
@@ -1195,11 +1195,11 @@ pg.child_item = {
 		}
 	},
 	[203] = {
-		name = "育成目標達成記念·Ⅰ",
+		name = "成长目标完成纪念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 魅力+20 ",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 气质+20",
 		usage = "usage_drop",
 		usage_arg = "[703]",
 		id = 203,
@@ -1223,11 +1223,11 @@ pg.child_item = {
 		}
 	},
 	[204] = {
-		name = "育成目標達成記念·Ⅰ",
+		name = "成长目标完成纪念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 感受性+20",
+		desc = "完成成长目标的奖励\n心情+10 金钱+60 感知+20",
 		usage = "usage_drop",
 		usage_arg = "[704]",
 		id = 204,
@@ -1251,11 +1251,11 @@ pg.child_item = {
 		}
 	},
 	[205] = {
-		name = "育成目標達成記念·Ⅱ",
+		name = "成长目标完成纪念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 体力+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 体能+100",
 		usage = "usage_drop",
 		usage_arg = "[705]",
 		id = 205,
@@ -1279,11 +1279,11 @@ pg.child_item = {
 		}
 	},
 	[206] = {
-		name = "育成目標達成記念·Ⅱ",
+		name = "成长目标完成纪念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 知識+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 智慧+100",
 		usage = "usage_drop",
 		usage_arg = "[706]",
 		id = 206,
@@ -1307,11 +1307,11 @@ pg.child_item = {
 		}
 	},
 	[207] = {
-		name = "育成目標達成記念·Ⅱ",
+		name = "成长目标完成纪念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 魅力+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 气质+100",
 		usage = "usage_drop",
 		usage_arg = "[707]",
 		id = 207,
@@ -1335,11 +1335,11 @@ pg.child_item = {
 		}
 	},
 	[208] = {
-		name = "育成目標達成記念·Ⅱ",
+		name = "成长目标完成纪念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 感受性+100",
+		desc = "完成成长目标的奖励\n心情+15 金钱+100 感知+100",
 		usage = "usage_drop",
 		usage_arg = "[708]",
 		id = 208,
@@ -1363,11 +1363,11 @@ pg.child_item = {
 		}
 	},
 	[209] = {
-		name = "育成目標達成記念·Ⅲ",
+		name = "成长目标完成纪念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 運動+10 器用+5 繊細さ+5",
+		desc = "完成成长目标的奖励\n心情+20 金钱+150 运动+10 实践+5 细心+5",
 		usage = "usage_drop",
 		usage_arg = "[709]",
 		id = 209,
@@ -1401,11 +1401,11 @@ pg.child_item = {
 		}
 	},
 	[210] = {
-		name = "育成目標達成記念·Ⅲ",
+		name = "成长目标完成纪念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 器用+10 想象+5 表現力+5",
+		desc = "完成成长目标的奖励\n心情+20 金钱+150 实践+10 想象+5 表现+5",
 		usage = "usage_drop",
 		usage_arg = "[710]",
 		id = 210,
@@ -1439,11 +1439,11 @@ pg.child_item = {
 		}
 	},
 	[211] = {
-		name = "育成目標達成記念·Ⅲ",
+		name = "成长目标完成纪念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 繊細さ+10 想象+10",
+		desc = "完成成长目标的奖励\n心情+20 金钱+150 细心+10 想象+10",
 		usage = "usage_drop",
 		usage_arg = "[711]",
 		id = 211,
@@ -1472,11 +1472,11 @@ pg.child_item = {
 		}
 	},
 	[212] = {
-		name = "育成目標達成記念·Ⅲ",
+		name = "成长目标完成纪念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 表現力+10 音楽+10",
+		desc = "完成成长目标的奖励\n心情+20 金钱+150 表现+10 乐理+10",
 		usage = "usage_drop",
 		usage_arg = "[712]",
 		id = 212,
@@ -1505,11 +1505,11 @@ pg.child_item = {
 		}
 	},
 	[213] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 運動+30",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 运动+30",
 		usage = "usage_drop",
 		usage_arg = "[713]",
 		id = 213,
@@ -1533,11 +1533,11 @@ pg.child_item = {
 		}
 	},
 	[214] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 想象+30",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 想象+30",
 		usage = "usage_drop",
 		usage_arg = "[715]",
 		id = 214,
@@ -1561,11 +1561,11 @@ pg.child_item = {
 		}
 	},
 	[215] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 繊細さ+30",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 细心+30",
 		usage = "usage_drop",
 		usage_arg = "[718]",
 		id = 215,
@@ -1589,11 +1589,11 @@ pg.child_item = {
 		}
 	},
 	[216] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 器用+30 ",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 实践+30 ",
 		usage = "usage_drop",
 		usage_arg = "[714]",
 		id = 216,
@@ -1617,11 +1617,11 @@ pg.child_item = {
 		}
 	},
 	[217] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 音楽+30",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 乐理+30",
 		usage = "usage_drop",
 		usage_arg = "[717]",
 		id = 217,
@@ -1645,11 +1645,11 @@ pg.child_item = {
 		}
 	},
 	[218] = {
-		name = "育成目標達成記念·Ⅳ",
+		name = "成长目标完成纪念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 表現力+30",
+		desc = "完成成长目标的奖励\n心情+20 金钱+200 表现+30",
 		usage = "usage_drop",
 		usage_arg = "[716]",
 		id = 218,
@@ -1673,11 +1673,11 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		name = "主要目標達成記念章",
+		name = "主线目标奖章",
 		rarity = 1,
 		type = 4,
 		is_show = 1,
-		desc = "主要目標達成の記念章。全属性+1",
+		desc = "完成主线目标的纪念奖章，持有后全属性+1。",
 		usage = "usage_drop",
 		usage_arg = "[720]",
 		id = 301,
@@ -1706,11 +1706,11 @@ pg.child_item = {
 		}
 	},
 	[302] = {
-		name = "育成目標進捗Pt",
+		name = "成长目标进度点数",
 		rarity = 1,
 		type = 4,
 		is_show = 0,
-		desc = "設定された育成目標の完成度合を示すPtアイテム",
+		desc = "成长目标任务的完成进度点数",
 		usage = "usage_drop",
 		usage_arg = "[721]",
 		id = 302,

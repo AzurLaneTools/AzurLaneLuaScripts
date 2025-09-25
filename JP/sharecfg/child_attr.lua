@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.child_attr = {
 	[101] = {
-		name = "体力",
+		name = "体能",
 		type = 1,
 		id = 101,
 		icon = "10004",
@@ -37,7 +37,7 @@ pg.child_attr = {
 		}
 	},
 	[102] = {
-		name = "知識",
+		name = "智慧",
 		type = 1,
 		id = 102,
 		icon = "10005",
@@ -73,7 +73,7 @@ pg.child_attr = {
 		}
 	},
 	[103] = {
-		name = "魅力",
+		name = "气质",
 		type = 1,
 		id = 103,
 		icon = "10006",
@@ -109,7 +109,7 @@ pg.child_attr = {
 		}
 	},
 	[104] = {
-		name = "感受性",
+		name = "感知",
 		type = 1,
 		id = 104,
 		icon = "10007",
@@ -145,28 +145,28 @@ pg.child_attr = {
 		}
 	},
 	[201] = {
-		name = "クール",
+		name = "安静",
 		type = 2,
 		id = 201,
 		icon = "child_wukou",
 		rank = {}
 	},
 	[202] = {
-		name = "元気",
+		name = "开朗",
 		type = 2,
 		id = 202,
 		icon = "child_kailang",
 		rank = {}
 	},
 	[203] = {
-		name = "優しい",
+		name = "温柔",
 		type = 2,
 		id = 203,
 		icon = "child_wenrou",
 		rank = {}
 	},
 	[301] = {
-		name = "表現力",
+		name = "表现",
 		type = 3,
 		id = 301,
 		icon = "10008",
@@ -202,7 +202,7 @@ pg.child_attr = {
 		}
 	},
 	[302] = {
-		name = "音楽",
+		name = "乐理",
 		type = 3,
 		id = 302,
 		icon = "10009",
@@ -238,7 +238,7 @@ pg.child_attr = {
 		}
 	},
 	[303] = {
-		name = "繊細さ",
+		name = "细心",
 		type = 3,
 		id = 303,
 		icon = "10010",
@@ -274,7 +274,7 @@ pg.child_attr = {
 		}
 	},
 	[304] = {
-		name = "想像力",
+		name = "想象",
 		type = 3,
 		id = 304,
 		icon = "10011",
@@ -310,7 +310,7 @@ pg.child_attr = {
 		}
 	},
 	[305] = {
-		name = "運動",
+		name = "运动",
 		type = 3,
 		id = 305,
 		icon = "10012",
@@ -346,7 +346,7 @@ pg.child_attr = {
 		}
 	},
 	[306] = {
-		name = "器用",
+		name = "实践",
 		type = 3,
 		id = 306,
 		icon = "10013",

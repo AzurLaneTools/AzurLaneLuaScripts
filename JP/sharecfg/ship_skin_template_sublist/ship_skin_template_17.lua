@@ -2,7 +2,7 @@ pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_17 = {
 	[900312] = {
-		name = "サフォーク",
+		name = "萨福克",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -264,9 +264,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900314] = {
-		name = "蒼龍(META)",
+		name = "{namecode:93}·META",
 		change_skin = "",
-		desc = "蒼龍(META)",
+		desc = "{namecode:93}·META",
 		illustrator2 = -1,
 		ship_group = 900314,
 		group_index = 0,
@@ -382,9 +382,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900315] = {
-		name = "ヘレナ(META)",
+		name = "海伦娜·META",
 		change_skin = "",
-		desc = "ヘレナ(META)",
+		desc = "海伦娜·META",
 		illustrator2 = -1,
 		ship_group = 900315,
 		group_index = 0,
@@ -500,9 +500,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900316] = {
-		name = "ヨークタウン(META)",
+		name = "约克城·META",
 		change_skin = "",
-		desc = "ヨークタウン(META)",
+		desc = "约克城·META",
 		illustrator2 = -1,
 		ship_group = 900316,
 		group_index = 0,
@@ -618,9 +618,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900317] = {
-		name = "サンフランシスコ",
+		name = "{namecode:195}",
 		change_skin = "",
-		desc = "ニューオリンズ級重巡洋艦・サンフランシスコ（CA-38）",
+		desc = "新奥尔良级重巡洋舰——{namecode:195}，舷号CA-38",
 		illustrator2 = -1,
 		ship_group = 900317,
 		group_index = 0,
@@ -729,7 +729,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900318] = {
-		name = "ローン",
+		name = "{namecode:439}",
 		change_skin = "",
 		desc = "罗恩校服",
 		illustrator2 = -1,
@@ -847,7 +847,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900319] = {
-		name = "シャルンホルスト(META)",
+		name = "{namecode:478}",
 		change_skin = "",
 		desc = "沙恩霍斯特",
 		illustrator2 = -1,
@@ -978,7 +978,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900320] = {
-		name = "アビータ・Lovers・VI",
+		name = "仲裁者·拉沃斯·VI",
 		change_skin = "",
 		desc = "仲裁者·拉沃斯·VI",
 		illustrator2 = -1,
@@ -1240,7 +1240,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900322] = {
-		name = "ボノム・リシャール",
+		name = "好人理查德",
 		change_skin = "",
 		desc = "好人理查德",
 		illustrator2 = -1,
@@ -1502,9 +1502,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900324] = {
-		name = "試作型ブリMKII",
+		name = "试作型布里MKII",
 		change_skin = "",
-		desc = "試作型ブリMKII。SSレアのキャラの限界突破に使用可能。",
+		desc = "试作型布里MKII，可以用于超稀有角色的突破",
 		illustrator2 = -1,
 		ship_group = 900324,
 		group_index = 0,
@@ -1742,9 +1742,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900326] = {
-		name = "レナウン(META)",
+		name = "声望·META",
 		change_skin = "",
-		desc = "レナウン(META)",
+		desc = "声望·META",
 		illustrator2 = -1,
 		ship_group = 900326,
 		group_index = 0,
@@ -1873,9 +1873,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900327] = {
-		name = "レパルス(META)",
+		name = "反击·META",
 		change_skin = "",
-		desc = "レパルス(META)",
+		desc = "反击·META",
 		illustrator2 = -1,
 		ship_group = 900327,
 		group_index = 0,
@@ -2004,9 +2004,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900328] = {
-		name = "ジェーナス",
+		name = "雅努斯",
 		change_skin = "",
-		desc = "ジェーナス",
+		desc = "雅努斯",
 		illustrator2 = -1,
 		ship_group = 900328,
 		group_index = 0,
@@ -2135,9 +2135,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900329] = {
-		name = "ローマ",
+		name = "罗马",
 		change_skin = "",
-		desc = "ローマ",
+		desc = "罗马",
 		illustrator2 = -1,
 		ship_group = 900329,
 		group_index = 0,
@@ -2253,9 +2253,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900330] = {
-		name = "武蔵",
+		name = "{namecode:84}",
 		change_skin = "",
-		desc = "武蔵",
+		desc = "武藏",
 		illustrator2 = -1,
 		ship_group = 900330,
 		group_index = 0,
@@ -2371,9 +2371,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900331] = {
-		name = "神通(META)",
+		name = "{namecode:39}·META",
 		change_skin = "",
-		desc = "神通(META)",
+		desc = "神通·META",
 		illustrator2 = -1,
 		ship_group = 900331,
 		group_index = 0,
@@ -2489,9 +2489,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900332] = {
-		name = "アンジュ",
+		name = "安洁",
 		change_skin = "",
-		desc = "アンジュ",
+		desc = "安洁",
 		illustrator2 = -1,
 		ship_group = 900332,
 		group_index = 0,
@@ -2607,9 +2607,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900333] = {
-		name = "オースタ",
+		name = "奥斯塔",
 		change_skin = "",
-		desc = "オースタ",
+		desc = "奥斯塔",
 		illustrator2 = -1,
 		ship_group = 900333,
 		group_index = 0,
@@ -2738,9 +2738,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900334] = {
-		name = "ラフィーⅡ",
+		name = "拉菲II",
 		change_skin = "",
-		desc = "ラフィーⅡ",
+		desc = "拉菲II",
 		illustrator2 = -1,
 		ship_group = 900334,
 		group_index = 0,
@@ -2869,9 +2869,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900335] = {
-		name = "アビータ・Devil・XV",
+		name = "仲裁者·迪贝路·XV",
 		change_skin = "",
-		desc = "アビータ・Devil・XV",
+		desc = "仲裁者·迪贝路·XV",
 		illustrator2 = -1,
 		ship_group = 900335,
 		group_index = 0,
@@ -3000,9 +3000,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900350] = {
-		name = "神通",
+		name = "{namecode:39}",
 		change_skin = "",
-		desc = "川内型軽巡洋艦二番艦・神通",
+		desc = "{namecode:38}级轻巡洋舰二番舰——{namecode:39}",
 		illustrator2 = -1,
 		ship_group = 900350,
 		group_index = 0,
@@ -3118,9 +3118,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900351] = {
-		name = "ニュージャージー",
+		name = "{namecode:199}",
 		change_skin = "",
-		desc = "アイオワ級戦艦・ニュージャージー（BB-62)",
+		desc = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
 		illustrator2 = -1,
 		ship_group = 900351,
 		group_index = 0,
@@ -3251,9 +3251,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900352] = {
-		name = "クイーン·エリザベス(META)",
+		name = "伊丽莎白女王·META ",
 		change_skin = "",
-		desc = "クイーン·エリザベス(META)",
+		desc = "{namecode:38}级轻巡洋舰二番舰——{namecode:39}",
 		illustrator2 = -1,
 		ship_group = 900350,
 		group_index = 0,
@@ -3369,9 +3369,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900353] = {
-		name = "ラ·ガリソニエール(META)",
+		name = "拉·加利索尼埃·META ",
 		change_skin = "",
-		desc = "ラ·ガリソニエール(META)",
+		desc = "{namecode:201}级战列舰—{namecode:199}，舷号BB-62",
 		illustrator2 = -1,
 		ship_group = 900351,
 		group_index = 0,
@@ -3487,9 +3487,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900354] = {
-		name = "ソビエツキー・ソユーズ",
+		name = "{namecode:529}",
 		change_skin = "",
-		desc = "NPC苏维埃同盟",
+		desc = "苏维埃同盟（带舰装）",
 		illustrator2 = -1,
 		ship_group = 900354,
 		group_index = 0,
@@ -3598,9 +3598,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900355] = {
-		name = "アビータ・Hermit・IX",
+		name = "仲裁者·赫米忒·IX",
 		change_skin = "",
-		desc = "アビータ・Hermit・IX",
+		desc = "仲裁者·赫米忒·IX侵蚀版本",
 		illustrator2 = -1,
 		ship_group = 900355,
 		group_index = 0,
@@ -3709,9 +3709,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900356] = {
-		name = "アビータ・Tower・XVI",
+		name = "仲裁者·托瓦·XVI",
 		change_skin = "",
-		desc = "アビータ・Tower・XVI",
+		desc = "仲裁者·托瓦·XVI",
 		illustrator2 = -1,
 		ship_group = 900356,
 		group_index = 0,
@@ -3820,9 +3820,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900357] = {
-		name = "▅ハ▊▇ロ▅■ント▇▆▅",
+		name = "▅海▊▇洛▅■芬特▇▆▅",
 		change_skin = "",
-		desc = "▅ハ▊▇ロ▅■ント▇▆▅",
+		desc = "▅海▊▇洛▅■芬特▇▆▅",
 		illustrator2 = -1,
 		ship_group = 900357,
 		group_index = 0,
@@ -4625,7 +4625,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900390] = {
-		name = "メンフィス(META)",
+		name = "孟菲斯·META",
 		change_skin = "",
 		desc = "我是孟菲斯。指挥官，您可能对我感到陌生，但是我知道你……请放心，我不是什么奇怪的人，希望你能够相信我。接下来我会好好辅佐你，为你护航的。",
 		illustrator2 = -1,
@@ -6027,9 +6027,9 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900402] = {
-		name = "瑞鳳",
+		name = "{namecode:88}",
 		change_skin = "",
-		desc = "瑞鳳",
+		desc = "无描述",
 		illustrator2 = -1,
 		ship_group = 900402,
 		group_index = 0,
@@ -6145,7 +6145,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900403] = {
-		name = "「ギンギツネ」",
+		name = "「银狐」女士",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6263,7 +6263,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900404] = {
-		name = "プロトコルウォーフェア「フォートレス」",
+		name = "战争协议-堡垒",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6381,7 +6381,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900405] = {
-		name = "プロトコルウォーフェア「フォートレス」",
+		name = "战争协议-堡垒",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6499,7 +6499,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900406] = {
-		name = "エセックス(META)",
+		name = "埃塞克斯·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6617,7 +6617,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900407] = {
-		name = "「ギンギツネ」",
+		name = "「银狐」女士",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6735,7 +6735,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900408] = {
-		name = "コレット",
+		name = "柯蕾",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9074,7 +9074,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900428] = {
-		name = "デスシャドウ",
+		name = "死神之影",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9310,7 +9310,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900430] = {
-		name = "ミスD",
+		name = "D小姐",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9428,7 +9428,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900431] = {
-		name = "アビータ・Moon・XVIII",
+		name = "仲裁者·沐恩·XVIII",
 		change_skin = "",
 		desc = "仲裁者·沐恩·XVIII",
 		illustrator2 = -1,
@@ -9546,7 +9546,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900432] = {
-		name = "ウィチタ(META)",
+		name = "威奇塔·META ",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9664,7 +9664,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900433] = {
-		name = "チェシャー",
+		name = "柴郡 ",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9782,7 +9782,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900434] = {
-		name = "土佐",
+		name = "{namecode:81}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -9900,7 +9900,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900435] = {
-		name = "プリンツ・アーダルベルト",
+		name = "{namecode:455}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10018,7 +10018,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900436] = {
-		name = "タシュケント",
+		name = "塔什干",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10136,7 +10136,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900437] = {
-		name = "シラ",
+		name = "斯库拉",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10254,7 +10254,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900438] = {
-		name = "名取",
+		name = "{namecode:297}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10372,7 +10372,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900439] = {
-		name = "サラトガ",
+		name = "萨拉托加",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10490,7 +10490,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900440] = {
-		name = "クルスク",
+		name = "库尔斯克",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10608,7 +10608,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900441] = {
-		name = "アルザス",
+		name = "阿尔萨斯",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10726,7 +10726,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900442] = {
-		name = "セントルイス",
+		name = "圣路易斯",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10844,7 +10844,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900443] = {
-		name = "ル・マラン",
+		name = "恶毒",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -10962,7 +10962,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900444] = {
-		name = "モガドール",
+		name = "莫加多尔",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -11198,7 +11198,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900446] = {
-		name = "赤城",
+		name = "{namecode:91}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -11316,7 +11316,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900447] = {
-		name = "加賀",
+		name = "{namecode:92}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -11906,7 +11906,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900452] = {
-		name = "アーク・ロイヤル",
+		name = "皇家方舟",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12024,7 +12024,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900453] = {
-		name = "樫野",
+		name = "{namecode:188}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12142,7 +12142,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900454] = {
-		name = "ブレマートン",
+		name = "布莱默顿",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12260,7 +12260,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900455] = {
-		name = "プリンツ・ループレヒト",
+		name = "{namecode:484}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12378,7 +12378,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900456] = {
-		name = "龍驤",
+		name = "{namecode:90}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12496,7 +12496,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900457] = {
-		name = "グロスター",
+		name = "格罗斯特",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12614,7 +12614,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900458] = {
-		name = "武蔵",
+		name = "{namecode:84}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12732,7 +12732,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900459] = {
-		name = "シリアス",
+		name = "天狼星",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12850,7 +12850,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900460] = {
-		name = "ガンズウェイ",
+		name = "冈依沙瓦号",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -12968,7 +12968,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900461] = {
-		name = "ファンシー",
+		name = "幻想号",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13086,7 +13086,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900462] = {
-		name = "ポーツマウス・アドベンチャー",
+		name = "朴茨茅斯冒险号",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13204,7 +13204,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900463] = {
-		name = "ドルフィン",
+		name = "海豚号",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13322,7 +13322,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900464] = {
-		name = "尾張",
+		name = "{namecode:295}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13440,7 +13440,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900465] = {
-		name = "マダムM",
+		name = "M女士",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13794,7 +13794,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900468] = {
-		name = "星の獣",
+		name = "星之兽",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -13912,7 +13912,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900469] = {
-		name = "メカアービトレイター「マジシャン」",
+		name = "审判机·「魔术师」",
 		change_skin = "",
 		desc = "审判机·「魔术师」",
 		illustrator2 = -1,
@@ -14266,7 +14266,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900472] = {
-		name = "マインツ",
+		name = "{namecode:479}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -14384,7 +14384,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900473] = {
-		name = "アンドレア・ドーリア(META)",
+		name = "安德烈亚·多利亚·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -14502,7 +14502,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900474] = {
-		name = "ユトピア・サヴォイ",
+		name = "尤托比娅·萨伏伊",
 		change_skin = "",
 		desc = "尤托比娅·萨伏伊",
 		illustrator2 = -1,
@@ -14620,7 +14620,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900475] = {
-		name = "プロトコルウォーフェア・玉輪",
+		name = "战争协议-玉轮",
 		change_skin = "",
 		desc = "战争协议-玉轮",
 		illustrator2 = -1,
@@ -14738,7 +14738,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900476] = {
-		name = "メカアービトレイター「戦車」",
+		name = "审判机·「战车」",
 		change_skin = "",
 		desc = "审判机·「战车」",
 		illustrator2 = -1,
@@ -14856,7 +14856,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900477] = {
-		name = "プロトコルウォーフェア・サイズ",
+		name = "战争协议-镰刃",
 		change_skin = "",
 		desc = "战争协议-镰刃",
 		illustrator2 = -1,
@@ -14974,7 +14974,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900478] = {
-		name = "アビータ・Chariots・Ⅶ",
+		name = "仲裁者·提尔瑞特·VII",
 		change_skin = "",
 		desc = "仲裁者·提尔瑞特·VII",
 		illustrator2 = -1,
@@ -15092,7 +15092,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900479] = {
-		name = "ミスR",
+		name = "理查德常服",
 		change_skin = "",
 		desc = "理查德常服",
 		illustrator2 = -1,
@@ -15122,6 +15122,124 @@ pg.base.ship_skin_template_17 = {
 		part_scale = "",
 		get_showing = "",
 		prefab = "MissR",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.742,
+					1.616,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.729,
+					1.626,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.634,
+					1.744,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.374,
+							2.451,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900480] = {
+		name = "超级AI-TC",
+		change_skin = "",
+		desc = "超级AI-TC",
+		illustrator2 = -1,
+		ship_group = 900480,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "linghangyuan1_5",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 900480,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "linghangyuan1_5",
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,

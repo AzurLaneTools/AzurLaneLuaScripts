@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.music_collect_config = {
 	{
-		name = "始まりの災厄",
+		name = "灾厄之始",
 		unlock_other = 0,
 		album_id = 1,
 		music = "bgm-bsm-1",
@@ -15,7 +15,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "過去の観測者",
+		name = "过去的观测者",
 		unlock_other = 0,
 		album_id = 1,
 		music = "bgm-bsm-2",
@@ -29,7 +29,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "背水の陣",
+		name = "背水一战",
 		unlock_other = 0,
 		album_id = 1,
 		music = "bgm-bsm-3",
@@ -43,7 +43,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "危機",
+		name = "危机",
 		unlock_other = 0,
 		album_id = 1,
 		music = "bgm-bsm-9",
@@ -57,7 +57,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "聖なる悲喜劇",
+		name = "神圣的悲喜剧",
 		unlock_other = 0,
 		album_id = 2,
 		music = "bgm-story-italy",
@@ -71,7 +71,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "栄光と虚妄",
+		name = "虚妄与荣光",
 		unlock_other = 0,
 		album_id = 2,
 		music = "bgm-battle-italy",
@@ -85,7 +85,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "黄昏の祈祷",
+		name = "黄昏的祈祷",
 		unlock_other = 0,
 		album_id = 2,
 		music = "bgm-battle-boss-italy",
@@ -99,7 +99,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "火を浴びて",
+		name = "浴火而行",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-theme-bismark-reborn",
@@ -113,7 +113,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "自立式攻略システム",
+		name = "自律式作战系统",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-battle-siren-centraltower",
@@ -127,7 +127,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "裁きの悪魔",
+		name = "恶魔的裁决",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-battle-thedevilXV-control",
@@ -141,7 +141,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "人型セイレーン戦",
+		name = "仲裁者赫米忒",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-theme-thehermitIX",
@@ -155,7 +155,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "マルコ・ポーロ戦",
+		name = "仲裁者托瓦",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-theme-thetowerXVI",
@@ -169,7 +169,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "哲学者と蜘蛛",
+		name = "智者与蜘蛛",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-theme-ulrich",
@@ -183,7 +183,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "鉄と血の道",
+		name = "铁与血之路",
 		unlock_other = 0,
 		album_id = 3,
 		music = "bgm-story-bismark-determination",
@@ -197,7 +197,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "冒険への出航",
+		name = "起航的冒险者",
 		unlock_other = 0,
 		album_id = 4,
 		music = "bgm-theme-SeaAndSun-image",
@@ -211,7 +211,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "平和の海",
+		name = "平静的海",
 		unlock_other = 0,
 		album_id = 4,
 		music = "bgm-theme-SeaAndSun-soft",
@@ -225,7 +225,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "黄金鹿と白銀蛸",
+		name = "黄金鹿与白银蛸",
 		unlock_other = 0,
 		album_id = 4,
 		music = "bgm-theme-tempest",
@@ -239,7 +239,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "潮風と夏の無人島",
+		name = "海风与夏日的无人岛",
 		unlock_other = 0,
 		album_id = 4,
 		music = "bgm-main-SeaAndSun",
@@ -253,7 +253,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "出航",
+		name = "起航~Weigh Anchor~",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-login",
@@ -267,7 +267,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "母港",
+		name = "港区",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-main",
@@ -281,7 +281,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "のんびり一時",
+		name = "悠哉一刻",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-backyard",
@@ -309,7 +309,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "想い",
+		name = "思绪",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-story-2",
@@ -323,7 +323,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "出撃",
+		name = "征程",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-level",
@@ -337,7 +337,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "青の風",
+		name = "蔚蓝之风",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-battle-1",
@@ -351,7 +351,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "ソロモンの夜",
+		name = "所罗门之夜",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-battle-2",
@@ -365,7 +365,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "激戦",
+		name = "激战",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-battle-boss-1",
@@ -379,7 +379,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "決意",
+		name = "决意",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-battle-boss-2",
@@ -393,7 +393,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "危機接近",
+		name = "危机迫近",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-battle-boss-3",
@@ -435,7 +435,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "誓いの時",
+		name = "誓约之时",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-wedding",
@@ -449,7 +449,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "帆を上げよう~Set Sail~",
+		name = "扬帆~Set Sail~",
 		unlock_other = 0,
 		album_id = 5,
 		music = "bgm-story-richang",
@@ -463,7 +463,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "清茶馥郁",
+		name = "清茶氤氲",
 		unlock_other = 0,
 		album_id = 6,
 		music = "bgm-theme-yixian-soft-loop",
@@ -477,7 +477,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "鮮逸如初",
+		name = "鲜逸如初",
 		unlock_other = 0,
 		album_id = 6,
 		music = "bgm-theme-yixian-pv-loop",
@@ -491,7 +491,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "糸路弥音",
+		name = "丝路弥音",
 		unlock_other = 0,
 		album_id = 7,
 		music = "bgm-theme-haitian-soft-loop",
@@ -505,7 +505,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "ケルゲレンの風",
+		name = "凯尔盖朗的风",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-theme-kerguelen",
@@ -519,7 +519,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "聖堂",
+		name = "圣堂",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-theme-vichy-church",
@@ -533,7 +533,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "審判の象徴",
+		name = "审判的象征",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-theme-vichy-revelation",
@@ -547,7 +547,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "審判武装機構",
+		name = "审判型机甲武装",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-theme-vichy-slaughter",
@@ -561,7 +561,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "黙示の遺構",
+		name = "陛下的荣光",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-theme-elizabeth-andmeta",
@@ -575,7 +575,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "電脳のアビータ",
+		name = "不准确狩猎",
 		unlock_other = 0,
 		album_id = 8,
 		music = "bgm-battle-whaling-normal",
@@ -659,7 +659,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "砕かれる光",
+		name = "破碎之光",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-story-french1",
@@ -673,7 +673,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "神聖なる白百合のように",
+		name = "像神圣的白百合那般",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-level-french1",
@@ -687,7 +687,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "自由の意思",
+		name = "自由的意志",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-story-french",
@@ -701,7 +701,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "アイリスの旗の元で",
+		name = "于鸢尾的旗帜下",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-battle-underholyflag",
@@ -715,7 +715,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "神聖奪還",
+		name = "神圣夺还",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-theme-irisangel",
@@ -729,7 +729,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "アイリス麗人",
+		name = "鸢尾佳人",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-theme-richelieu",
@@ -743,7 +743,7 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		name = "式典と金色の楽章",
+		name = "庆典与金色乐章",
 		unlock_other = 0,
 		album_id = 10,
 		music = "bgm-story-musicanniversary-gorgeous",

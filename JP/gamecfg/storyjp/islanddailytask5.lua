@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "わぁ！指揮官だ！動物たちにエサを持ってきてくれたの？",
 			animation = "nod",
-			subName = "牧场管理员",
 			characterId = 100500,
-			say = "哇——！是指挥官！是给我的牧场动物们带吃的东西来了吗？",
+			subName = "牧場管理人",
 			face2Face = {
 				{
 					0,
@@ -35,20 +35,18 @@ return {
 			}
 		},
 		{
-			say = "啊，不是的话也没关系，只要是指挥官带来的东西，梅莉都很喜欢哦~",
-			animation = "talk",
+			say = "違っても大丈夫！指揮官がくれたものなら、なんでも大好きだから〜",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "动物们也是！有你在，牧场一定会越来越热闹的~",
-			animation = "helation",
+			say = "動物たちも一緒！指揮官がいてくれたら、牧場はもっとにぎやかになるもんね〜",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

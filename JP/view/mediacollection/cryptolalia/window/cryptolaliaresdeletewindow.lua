@@ -36,9 +36,7 @@ slot0.Show = function(slot0, slot1, slot2)
 
 	slot3 = pg.UIMgr.GetInstance()
 
-	slot3:BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	slot3:BlurPanel(slot0._tf)
 
 	slot0.contentTxt.text = i18n("cryptolalia_delete_res_tip", slot1:GetResSize(slot2))
 	slot0.name.text = slot1:GetName()
@@ -79,7 +77,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

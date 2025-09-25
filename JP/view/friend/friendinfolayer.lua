@@ -12,27 +12,22 @@ slot0.setFriendProxy = function(slot0, slot1)
 	slot0.friendProxy = slot1
 end
 
-slot1 = {
-	"OPEN_RESUME",
-	"OPEND_FRIEND",
-	"OPEN_BACKYARD",
-	"TOGGLE_BLACK",
-	"OPEN_INFORM"
-}
+slot0.GetBtnTags = function(slot0)
+	return {
+		"OPEN_RESUME",
+		"OPEND_FRIEND",
+		"OPEN_BACKYARD",
+		"TOGGLE_BLACK",
+		"OPEN_INFORM",
+		"OPEN_ISLAND_CARD"
+	}
+end
 
 slot0.init = function(slot0)
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setParent(slot0._tf, slot0.contextData.parent)
-	elseif slot0.contextData.form == NotificationLayer.FORM_MAIN then
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			groupName = slot0:getGroupNameFromData(),
-			weight = LayerWeightConst.SECOND_LAYER
-		})
 	else
-		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-			groupName = slot0:getGroupNameFromData(),
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		slot0:OverlayPanel(slot0._tf)
 	end
 
 	slot0.frame = slot0:findTF("frame")
@@ -83,7 +78,7 @@ slot0.Init = function(slot0)
 	slot2 = (not slot1 or slot0:findTF("frame_for_backyard/right_bg")) and slot0:findTF("frame/right_bg")
 	slot0.btnTFs = {}
 
-	for slot6, slot7 in ipairs(uv0) do
+	for slot6, slot7 in ipairs(slot0:GetBtnTags()) do
 		slot8 = slot2:GetChild(slot6 - 1)
 
 		setActive(slot8, true)
@@ -104,6 +99,10 @@ slot0.Init = function(slot0)
 		end)
 
 		slot0.btnTFs[slot6] = slot8
+	end
+
+	if slot0.btnTFs[6] then
+		setActive(slot0.btnTFs[6], not LOCK_ISLAND_DISPLAY)
 	end
 
 	setActive(slot0.btnTFs[5], slot0.contextData.msg)

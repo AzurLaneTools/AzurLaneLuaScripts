@@ -1,4 +1,4 @@
-slot0 = class("IslandStrollNpcUnit", import(".IslandNpcUnit"))
+slot0 = class("IslandStrollNpcUnit", import(".IslandDressupNpcUnit"))
 
 slot0.SetupBt = function(slot0)
 	if not slot0.behaviourTreeOwner then

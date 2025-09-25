@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			3120100,
-			10070005
+			10070029
 		}
 	},
 	look_weight = {
@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯？这机器怎么就停了？我还打算多叫点帮手来的。",
+			say = "――ん？機械が止まった？もっと仲間を呼びたかったのに",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			say = "没办法……奇异点的规则十分复杂，权限认证函也是有制作周期的喵~",
-			animation = "embarrass",
+			say = "仕方ないにゃ……特異点のルールは複雑で、離島権限を製作するにも時間がかかるにゃ～",
+			animation = "shakehead",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,7 @@ return {
 			}
 		},
 		{
-			animation = "",
-			say = "不过不用担心，权限一次认证永久有效，之后会有越来越多的同伴来到岛屿上帮助建设的喵！~",
+			say = "でも心配はいらないにゃ。あっという間に仲間が増えて、みんなで離島の建設ができるようになるはずにゃ",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +50,8 @@ return {
 			}
 		},
 		{
-			say = "不过现在，还是先去码头迎接新来的伙伴吧喵~",
+			say = "とりあえず今は、新しい開発仲間を迎えに港まで行くにゃ",
+			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

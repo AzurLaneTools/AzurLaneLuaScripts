@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.activity_event_building = {
 	{
-		name = "饅頭カフェ",
+		name = "啾啾咖啡 ",
 		id = 1,
-		desc = "「指揮官様、いらっしゃいませですわ！」",
+		desc = "港区CAFF，出售：皇家咖啡、北方联合面包、撒丁披萨。 ",
 		buff = {
 			13,
 			14,
@@ -27,9 +27,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭中華",
+		name = "啾啾小笼 ",
 		id = 2,
-		desc = "「フフフ、ご注文はいかがでございましょうか？」",
+		desc = "热气腾腾的小笼包，正宗东煌风味，客官不来一笼么？ ",
 		buff = {
 			16,
 			17,
@@ -53,9 +53,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭バーガー",
+		name = "啾啾汉堡 ",
 		id = 3,
-		desc = "「す、スマイルは有料だぞこのヤロウ！」",
+		desc = "快乐三件套：汉堡、可乐与薯条。",
 		buff = {
 			19,
 			20,
@@ -79,9 +79,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭茶屋",
+		name = "啾啾和菓子 ",
 		id = 4,
-		desc = "「はいバオズお待ち！」",
+		desc = "重樱风味的传统和菓子店，三周年限定纪念款绝赞售卖中。 ",
 		buff = {
 			22,
 			23,
@@ -105,9 +105,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭薄本屋",
+		name = "啾啾书店",
 		id = 5,
-		desc = "「せ、先生はたまたま入っただけよ！別にわざわざこのような本を…」",
+		desc = "漫画、小说、工具书...考试辅导材料限时半价中。",
 		buff = {
 			13,
 			14,
@@ -131,9 +131,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭据置屋",
+		name = "啾啾游戏店",
 		id = 6,
-		desc = "「今月のラインナップはスゴイのー！幽霊さん、お財布が寒いの…」",
+		desc = "本店不但出售最新款游戏，更出售比游戏更刺激的......最新款主机！",
 		buff = {
 			16,
 			17,
@@ -157,9 +157,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭遊具屋",
+		name = "啾啾模型店",
 		id = 7,
-		desc = "「殿！今度こそ絶対シークレット枠を当てて見せます！！！」",
+		desc = "下一次扭蛋一定会是想要的那个！",
 		buff = {
 			19,
 			20,
@@ -183,9 +183,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭絵喫茶",
+		name = "啾啾咖啡",
 		id = 8,
-		desc = "「あら、ダンケルクよりあなたが先に着いたの？ふふふ」",
+		desc = "辛劳之余，要来一杯可口的JUJU咖啡么？",
 		buff = {
 			22,
 			23,
@@ -209,9 +209,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "回転木饅頭",
+		name = "旋转木啾",
 		id = 9,
-		desc = "最高スピードが第一宇宙速度……ピョ！？",
+		desc = "当达到最高速时，或许真的能飞起来哦？",
 		buff = {
 			13,
 			14,
@@ -235,9 +235,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "ジェット饅頭",
+		name = "云霄飞啾",
 		id = 10,
-		desc = "スピードアンドマンジュウだピョ！",
+		desc = "速度、激情与一飞冲天的感觉！",
 		buff = {
 			16,
 			17,
@@ -261,9 +261,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "バンシー饅頭",
+		name = "跳楼啾",
 		id = 11,
-		desc = "高所恐怖症は無理しないでピョ！",
+		desc = "尽情享受下坠的快乐吧！",
 		buff = {
 			19,
 			20,
@@ -287,9 +287,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭海賊船",
+		name = "啾啾海盗船",
 		id = 12,
-		desc = "海賊となって海を征服するピョ！",
+		desc = "喜欢乘风破浪的感觉么？",
 		buff = {
 			22,
 			23,
@@ -313,9 +313,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "波乗饅頭",
+		name = "啾啾冲浪",
 		id = 13,
-		desc = "波とダンスだピョ！",
+		desc = "与海浪一同起舞吧！",
 		buff = {
 			13,
 			14,
@@ -339,9 +339,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "飛込饅頭",
+		name = "啾啾跳水",
 		id = 14,
-		desc = "水しぶきが少ないほうが得点が高いピョ！",
+		desc = "水花越小，分数越高哦！",
 		buff = {
 			16,
 			17,
@@ -365,9 +365,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "滑降饅頭",
+		name = "滑滑世界",
 		id = 15,
-		desc = "スリリングなウォータースライドだピョ！",
+		desc = "紧张刺激的水滑梯之旅！",
 		buff = {
 			19,
 			20,
@@ -391,9 +391,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "滝行饅頭",
+		name = "啾啾瀑布",
 		id = 16,
-		desc = "スリリングなウォーターフォールだピョ！",
+		desc = "尽情感受水流的冲击！",
 		buff = {
 			22,
 			23,
@@ -417,9 +417,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "ロイヤルカフェ",
+		name = "皇家午茶",
 		id = 17,
-		desc = "ロイヤルカフェの模擬店。増築するといいことがあるかも…？",
+		desc = "茶AND咖啡店！，其名为皇家午茶<Queen's Tea>！就通过这个本王亲自监督设计的皇家午茶企划，来一转颓势吧！哼哼！",
 		buff = {
 			49,
 			50,
@@ -459,9 +459,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "鉄血カフェ",
+		name = "莱茵咖啡馆",
 		id = 18,
-		desc = "鉄血カフェの模擬店。増築するといいことがあるかも…？",
+		desc = "在传统咖啡的基础上，开发新的饮品和食物，以创新性作为卖点…——嗯，不失为一个好主意…",
 		buff = {
 			54,
 			55,
@@ -501,9 +501,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭教育棟",
+		name = "主教学楼",
 		id = 19,
-		desc = "「妙高姉さん、廊下は走っちゃダメってくらい分かってるっすよ…」――増築するとキャンペーン期間中、強化効果を入手可能！",
+		desc = "好好学习，天天向上。",
 		buff = {
 			13,
 			14,
@@ -527,9 +527,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭占い館",
+		name = "占卜屋",
 		id = 20,
-		desc = "「ホラー、カードを勝手にめくってはダメよ」――増築するとキャンペーン期間中、強化効果を入手可能！",
+		desc = "想要了解今日运势么？",
 		buff = {
 			16,
 			17,
@@ -553,9 +553,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭大舞台",
+		name = "演唱台",
 		id = 21,
-		desc = "「シグニットったら！屋台はライブの後で行くわよ！」――増築するとキャンペーン期間中、強化効果を入手可能！",
+		desc = "空闲时间任何人都能上台！",
 		buff = {
 			19,
 			20,
@@ -579,9 +579,9 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭購買部",
+		name = "校园商街",
 		id = 22,
-		desc = "「出張販売所でございます。ふふふ」――増築するとキャンペーン期間中、強化効果を入手可能！",
+		desc = "请尽情挑选——",
 		buff = {
 			22,
 			23,
@@ -605,7 +605,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭補給隊",
+		name = "生活区",
 		id = 23,
 		desc = "国服六周年后山建筑",
 		buff = {
@@ -639,7 +639,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "クラフト",
+		name = "海岛制作台",
 		id = 24,
 		desc = "国服六周年后山建筑",
 		buff = {
@@ -673,7 +673,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭探検隊",
+		name = "啾啾探险队",
 		id = 25,
 		desc = "国服六周年后山建筑",
 		buff = {
@@ -707,7 +707,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "饅頭給食隊",
+		name = "用餐区",
 		id = 26,
 		desc = "国服六周年后山建筑",
 		buff = {
@@ -741,7 +741,7 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		name = "冒険拠点",
+		name = "海岛据点",
 		id = 27,
 		desc = "国服六周年后山据点",
 		buff = {

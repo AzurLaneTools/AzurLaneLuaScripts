@@ -43,9 +43,7 @@ slot0.LoadUI = function(slot0)
 		uv0:OnLoaded()
 		uv0:Flush()
 		setActive(uv0._go, true)
-		pg.UIMgr.GetInstance():BlurPanel(uv0._go.transform, false, {
-			weight = LayerWeightConst.THIRD_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(uv0._go.transform)
 	end)
 end
 
@@ -101,7 +99,7 @@ slot0.Hide = function(slot0)
 	slot0.title = nil
 
 	if slot0._go then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._go.transform, pg.UIMgr.GetInstance().UIMain)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._go.transform, pg.UIMgr.GetInstance().UIMain)
 		PoolMgr.GetInstance():ReturnUI(uv0, slot0._go)
 
 		slot0._go = nil

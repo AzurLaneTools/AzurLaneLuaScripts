@@ -19,6 +19,7 @@ slot0.TYPE_EXTEND_AGORA = 19
 slot0.TYPE_ECHANGE_AGORA_BASE = 20
 slot0.TYPE_PERFORMANCE = 21
 slot0.TYPE_NEXT_INTERACTION = 22
+slot0.TYPE_FOLLOW_PLAYER = 23
 slot0.SIGNIN_TIME_ID = 4002
 
 slot0.GetInteractionOptions = function(slot0, slot1, slot2)
@@ -38,7 +39,7 @@ end
 slot1 = function(slot0, slot1, slot2)
 	slot4 = require("nodecanvas.Task.NcPlayStory").New(nil, {})
 
-	slot4:DoAction(slot0, function ()
+	slot4:DoAction(slot0, true, function ()
 		uv0.AddInteractionTaskProgress(uv1, uv2)
 	end)
 end
@@ -168,7 +169,24 @@ slot18 = function(slot0, slot1)
 end
 
 slot19 = function(slot0, slot1)
-	slot0:ShowNextInteractionBtns(slot1)
+	slot0:GetView():GetSubView(IslandInteractionView):ShowNextInteractionBtns(slot1)
+end
+
+slot20 = function(slot0, slot1)
+	slot2 = pg.island_strollnpc[slot1]
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(pg.island_chara_template.all) do
+		if pg.island_chara_template[slot8].unit_id == slot2.unit_id then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if slot3 then
+		slot0:NotifiyMeditor(IslandMediator.ADD_FOLLOWER, slot3)
+	end
 end
 
 slot0.Response = function(slot0, slot1, slot2)
@@ -212,6 +230,8 @@ slot0.Response = function(slot0, slot1, slot2)
 		uv17(slot0, slot3.param)
 	elseif slot3.type == uv0.TYPE_NEXT_INTERACTION then
 		uv18(slot0, slot3.param)
+	elseif slot3.type == uv0.TYPE_FOLLOW_PLAYER then
+		uv19(slot0, slot1)
 	else
 		assert(false, "未处理类型:" .. slot3.type)
 	end
@@ -221,7 +241,7 @@ slot0.Response = function(slot0, slot1, slot2)
 	end
 
 	if slot3.type == uv0.TYPE_STORY or slot3.type == uv0.TYPE_BUBBLE then
-		IslandAchievementHelper.OnNpcInteract(IslandAchievementType.NPC_INTERACT_TYPE_TALK)
+		IslandBookHelper.OnNpcInteract(pg.island_world_objects[slot1].unitId)
 	end
 end
 

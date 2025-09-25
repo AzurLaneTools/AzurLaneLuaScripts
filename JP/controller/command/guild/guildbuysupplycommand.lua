@@ -4,19 +4,19 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not GuildMember.IsAdministrator(slot4:getSelfDuty()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_op_only_administrator"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_op_only_administrator"))
 
 		return
 	end
 
 	if slot4:getCapital() < slot4:getSupplyConsume() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end

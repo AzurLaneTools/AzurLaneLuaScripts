@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_zone_template = {
 	[1000] = {
 		is_global = 1,
-		name = "一覧",
+		name = "全局区域",
 		type_prioritys = "",
 		touch_id = "",
 		id = 1000,
@@ -12,7 +12,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1001] = {
 		is_global = 0,
-		name = "寝室",
+		name = "卧室",
 		id = 1001,
 		room_id = 1,
 		watch_camera = "Bed",
@@ -40,7 +40,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1002] = {
 		is_global = 0,
-		name = "ダイニング",
+		name = "餐厅",
 		type_prioritys = "",
 		id = 1002,
 		room_id = 1,
@@ -63,7 +63,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1003] = {
 		is_global = 0,
-		name = "リビング",
+		name = "客厅",
 		type_prioritys = "",
 		id = 1003,
 		room_id = 1,
@@ -86,7 +86,7 @@ pg.dorm3d_zone_template = {
 	},
 	[2001] = {
 		is_global = 0,
-		name = "寝室",
+		name = "卧室",
 		type_prioritys = "",
 		id = 2001,
 		room_id = 2,
@@ -101,7 +101,7 @@ pg.dorm3d_zone_template = {
 	},
 	[2002] = {
 		is_global = 0,
-		name = "広縁",
+		name = "餐厅",
 		type_prioritys = "",
 		id = 2002,
 		room_id = 2,
@@ -116,7 +116,7 @@ pg.dorm3d_zone_template = {
 	},
 	[2003] = {
 		is_global = 0,
-		name = "居間",
+		name = "客厅",
 		type_prioritys = "",
 		id = 2003,
 		room_id = 2,
@@ -131,7 +131,7 @@ pg.dorm3d_zone_template = {
 	},
 	[3001] = {
 		is_global = 0,
-		name = "寝室",
+		name = "卧室",
 		type_prioritys = "",
 		id = 3001,
 		room_id = 3,
@@ -146,7 +146,7 @@ pg.dorm3d_zone_template = {
 	},
 	[3002] = {
 		is_global = 0,
-		name = "娯楽エリア",
+		name = "娱乐区",
 		type_prioritys = "",
 		id = 3002,
 		room_id = 3,
@@ -161,7 +161,7 @@ pg.dorm3d_zone_template = {
 	},
 	[3003] = {
 		is_global = 0,
-		name = "リビング",
+		name = "客厅",
 		type_prioritys = "",
 		id = 3003,
 		room_id = 3,
@@ -176,7 +176,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4001] = {
 		is_global = 0,
-		name = "玄関",
+		name = "入口",
 		type_prioritys = "",
 		id = 4001,
 		room_id = 4,
@@ -199,7 +199,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4002] = {
 		is_global = 0,
-		name = "ビーチチェア",
+		name = "沙滩椅",
 		type_prioritys = "",
 		id = 4002,
 		room_id = 4,
@@ -222,7 +222,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4003] = {
 		is_global = 0,
-		name = "ビーチパラソル",
+		name = "遮阳伞",
 		type_prioritys = "",
 		id = 4003,
 		room_id = 4,
@@ -237,7 +237,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4004] = {
 		is_global = 0,
-		name = "ビーチ",
+		name = "海滩",
 		type_prioritys = "",
 		id = 4004,
 		room_id = 4,
@@ -252,7 +252,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4005] = {
 		is_global = 0,
-		name = "滑り台",
+		name = "滑梯",
 		type_prioritys = "",
 		id = 4005,
 		room_id = 4,
@@ -267,7 +267,7 @@ pg.dorm3d_zone_template = {
 	},
 	[11001] = {
 		is_global = 0,
-		name = "寝室",
+		name = "卧室",
 		type_prioritys = "",
 		id = 11001,
 		room_id = 11,
@@ -282,7 +282,7 @@ pg.dorm3d_zone_template = {
 	},
 	[11002] = {
 		is_global = 0,
-		name = "ダイニング",
+		name = "餐厅",
 		type_prioritys = "",
 		id = 11002,
 		room_id = 11,
@@ -297,7 +297,7 @@ pg.dorm3d_zone_template = {
 	},
 	[11003] = {
 		is_global = 0,
-		name = "リビング",
+		name = "客厅",
 		type_prioritys = "",
 		id = 11003,
 		room_id = 11,
@@ -310,9 +310,54 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[12001] = {
+		is_global = 0,
+		name = "卧室",
+		type_prioritys = "",
+		id = 12001,
+		room_id = 12,
+		watch_camera = "Bed",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		}
+	},
+	[12002] = {
+		is_global = 0,
+		name = "餐厅",
+		type_prioritys = "",
+		id = 12002,
+		room_id = 12,
+		watch_camera = "Table",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		}
+	},
+	[12003] = {
+		is_global = 0,
+		name = "客厅",
+		type_prioritys = "",
+		id = 12003,
+		room_id = 12,
+		watch_camera = "Chair",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		}
+	},
 	[16001] = {
 		is_global = 0,
-		name = "ステージ",
+		name = "舞池",
 		type_prioritys = "",
 		id = 16001,
 		room_id = 16,
@@ -322,6 +367,21 @@ pg.dorm3d_zone_template = {
 			{
 				10517,
 				1051790
+			}
+		}
+	},
+	[16002] = {
+		is_global = 0,
+		name = "咖啡厅沙发",
+		type_prioritys = "",
+		id = 16002,
+		room_id = 16,
+		watch_camera = "dafeng",
+		special_action = "",
+		touch_id = {
+			{
+				30707,
+				3070790
 			}
 		}
 	},
@@ -354,8 +414,14 @@ pg.dorm3d_zone_template = {
 			11002,
 			11003
 		},
+		[12] = {
+			12001,
+			12002,
+			12003
+		},
 		[16] = {
-			16001
+			16001,
+			16002
 		}
 	},
 	all = {
@@ -377,6 +443,10 @@ pg.dorm3d_zone_template = {
 		11001,
 		11002,
 		11003,
-		16001
+		12001,
+		12002,
+		12003,
+		16001,
+		16002
 	}
 }

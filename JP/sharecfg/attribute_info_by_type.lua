@@ -8,17 +8,17 @@ pg.attribute_info_by_type = {
 	{
 		id = 2,
 		name = "cannon",
-		condition = "火力"
+		condition = "炮击"
 	},
 	{
 		id = 3,
 		name = "torpedo",
-		condition = "雷装"
+		condition = "雷击"
 	},
 	{
 		id = 4,
 		name = "antiaircraft",
-		condition = "対空"
+		condition = "防空"
 	},
 	{
 		id = 5,
@@ -43,22 +43,22 @@ pg.attribute_info_by_type = {
 	{
 		id = 9,
 		name = "dodge",
-		condition = "回避"
+		condition = "机动"
 	},
 	{
 		id = 10,
 		name = "speed",
-		condition = "速力"
+		condition = "航速"
 	},
 	{
 		id = 11,
 		name = "luck",
-		condition = "運"
+		condition = "幸运"
 	},
 	{
 		id = 12,
 		name = "antisub",
-		condition = "対潜"
+		condition = "反潜"
 	},
 	all = {
 		1,

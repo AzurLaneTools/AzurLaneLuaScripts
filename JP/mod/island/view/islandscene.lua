@@ -6,12 +6,18 @@ slot0.getUIName = function(slot0)
 	return "IslandUI"
 end
 
-slot0.GetIsland = function(slot0)
-	return getProxy(IslandProxy):GetIsland()
+slot0.loadingQueue = function(slot0)
+	return function (slot0)
+		slot1 = pg.SceneAnimMgr.GetInstance()
+
+		slot1:CommonSceneChange("Dorm3DLoading", function (slot0)
+			return uv0(slot0)
+		end)
+	end
 end
 
-slot0.PlayBGM = function(slot0)
-	pg.BgmMgr.GetInstance():StopPlay()
+slot0.GetIsland = function(slot0)
+	return getProxy(IslandProxy):GetIsland()
 end
 
 slot0.init = function(slot0)
@@ -27,6 +33,10 @@ slot0.didEnter = function(slot0)
 		uv0:OpenPage(IslandVisitorPage)
 	end, SFX_PANEL)
 	slot0:SetUp()
+
+	slot0.contextData.resumeCallback = nil
+
+	existCall(slot0.contextData.resumeCallback)
 end
 
 slot0.SetUp = function(slot0)
@@ -94,9 +104,8 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EX_EVT.PLAY_PERFORMANCE, slot0.OnPlayPerformance)
 	slot0:AddListener(ISLAND_EX_EVT.SHOW_INTERACTION, slot0.OnShowInteraction)
 	slot0:AddListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
+	slot0:AddListener(ISLAND_EX_EVT.NAV_PATH, slot0.OnStartNavPath)
 	slot0:AddListener(ISLAND_EX_EVT.NAV_PATH_DONE, slot0.OnNavPathDone)
-	slot0:AddListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAnimatonOpPage)
-	slot0:AddListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAnimatonOpPage)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -129,9 +138,8 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EX_EVT.PLAY_PERFORMANCE, slot0.OnPlayPerformance)
 	slot0:RemoveListener(ISLAND_EX_EVT.SHOW_INTERACTION, slot0.OnShowInteraction)
 	slot0:RemoveListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
+	slot0:RemoveListener(ISLAND_EX_EVT.NAV_PATH, slot0.OnStartNavPath)
 	slot0:RemoveListener(ISLAND_EX_EVT.NAV_PATH_DONE, slot0.OnNavPathDone)
-	slot0:RemoveListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, slot0.OnOpenAnimatonOpPage)
-	slot0:RemoveListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, slot0.OnCloseAnimatonOpPage)
 end
 
 slot0.OnOpenAnimatonOpPage = function(slot0)
@@ -142,14 +150,17 @@ slot0.OnCloseAnimatonOpPage = function(slot0)
 	slot0.btnContainer:ActiveOrDisactive(true)
 end
 
-slot0.OnNavPathDone = function(slot0, slot1)
+slot0.OnStartNavPath = function(slot0, slot1)
 	if slot1 then
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = slot1,
-			callback = function ()
-				uv0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
-			end
+			storyId = slot1
 		})
+	end
+end
+
+slot0.OnNavPathDone = function(slot0, slot1)
+	if slot1 then
+		slot0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
 	end
 end
 
@@ -294,6 +305,10 @@ slot0.OnAddShip = function(slot0, slot1)
 end
 
 slot0.OnNewAchievementCanGet = function(slot0, slot1)
+	if not IslandMainBtnTipHelper.IsUnlock("achievement") then
+		return
+	end
+
 	slot0:ShowToast({
 		content = i18n("island_achv_finish_tip", slot1:getConfig("name"))
 	})
@@ -311,7 +326,6 @@ slot0.OnUpgrade = function(slot0, slot1)
 	slot0.levelPanel:ExecuteAction("UpdateTip")
 	slot0.levelPanel:ExecuteAction("UpdateIslandInfo")
 	slot0:OpenPage(IslandUpgradeDisplayPage, slot1.dropData.abilitys, slot1.callback)
-	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_5")
 end
 
 slot0.OnModifyName = function(slot0)
@@ -382,13 +396,6 @@ end
 slot0.SequenceCheck = function(slot0)
 	seriesAsync({
 		function (slot0)
-			if pg.NewStoryMgr.GetInstance():IsPlayed("ISLAND1001000") then
-				slot0()
-			else
-				pg.NewStoryMgr.GetInstance():Play("ISLAND1001000", slot0)
-			end
-		end,
-		function (slot0)
 			if pg.NewStoryMgr.GetInstance():IsPlayed("ISLAND1001001_1") then
 				slot0()
 			else
@@ -424,6 +431,31 @@ slot0.SequenceCheck = function(slot0)
 			end
 		end,
 		function (slot0)
+			if #uv0:GetIsland():GetTicketAgency():GetExpiredTickets() > 0 then
+				uv0:emit(IslandMediator.REMOVE_EXPIRED_TICKETS, slot1, slot0)
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
+			if #uv0:GetIsland():GetTicketAgency():GetExpireRemindTickets() > 0 then
+				uv0:ShowMsgbox({
+					hideNo = true,
+					type = IslandMsgBox.TYPE_TICKET_EXPIRED,
+					body = {
+						type = IslandTicketExpiredMsgBoxWindow.TYPES.REMIND,
+						tickets = slot1
+					},
+					onHide = function ()
+						uv0:GetIsland():GetTicketAgency():SetRemindFlag()
+						uv1()
+					end
+				})
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
 			uv0:GetIsland():GetTaskAgency():TrySubmitAutoTasks(slot0)
 		end,
 		function (slot0)
@@ -436,6 +468,7 @@ end
 
 slot0.UpdateVisitorBtn = function(slot0)
 	setText(slot0.visitorBtn:Find("num"), slot0:GetIsland():GetVisitorAgency():GetVisitorCnt())
+	setText(slot0.visitorBtn:Find("Text"), i18n("island_visitor_button"))
 end
 
 slot0.UpdateMainAwardReward = function(slot0, slot1)

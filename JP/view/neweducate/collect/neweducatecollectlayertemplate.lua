@@ -1,7 +1,11 @@
-slot0 = class("EducateCollectLayerTemplate", import("view.base.BaseUI"))
+slot0 = class("NewEducateCollectLayerTemplate", import("view.base.BaseUI"))
 
 slot0.getUIName = function(slot0)
 	assert(nil, "getUIName方法必须由子类实现")
+end
+
+slot0.getGroupName = function(slot0)
+	return "NewEducateBaseUI"
 end
 
 slot0.initConfig = function(slot0)
@@ -44,9 +48,8 @@ slot0.init = function(slot0)
 
 		uv0:UpdatePage()
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER + 2
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -91,7 +94,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

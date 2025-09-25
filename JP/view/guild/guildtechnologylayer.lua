@@ -28,7 +28,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.UpdatePainting = function(slot0)
-	pg.GuildPaintingMgr:GetInstance():Update(slot0.guildVO:GetOfficePainting(), Vector3(-737, -171, 0))
+	pg.GuildPaintingMgr.GetInstance():Update(slot0.guildVO:GetOfficePainting(), Vector3(-737, -171, 0))
 end
 
 slot0.UpdateUpgradeList = function(slot0)
@@ -65,8 +65,8 @@ end
 slot0.willExit = function(slot0)
 	slot0.technologyPage:Destroy()
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

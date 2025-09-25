@@ -9,7 +9,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"ハード海域をクリア",
+				"完成困难关卡",
 				{
 					"scene level",
 					{
@@ -29,7 +29,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"演習を行う",
+				"进行军事演习",
 				{
 					" scene militaryexercise"
 				},
@@ -54,24 +54,17 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"デイリーチャレンジ「商船護衛」をクリア",
+				"进行海域突进每日挑战",
 				{
 					"scene dailylevel",
 					{
-						dailyLevelId = 201
+						dailyLevelId = 301
 					}
 				},
 				0
 			},
 			{
-				"メイン海域1章以降で出現",
-				{
-					"scene level"
-				},
-				0
-			},
-			{
-				"購買部でランダム出現",
+				"军火商概率出售",
 				{
 					"scene shop",
 					{
@@ -81,9 +74,29 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の軍事委託で入手",
+				"部分军事委托概率获取",
 				{
 					"scene event"
+				},
+				0
+			},
+			{
+				"勋章商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 8
+					}
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
+					}
 				},
 				0
 			}
@@ -100,40 +113,12 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"デイリーチャレンジ「商船護衛」をクリア",
+				"进行海域突进每日挑战",
 				{
 					"scene dailylevel",
 					{
-						dailyLevelId = 201
+						dailyLevelId = 301
 					}
-				},
-				0
-			},
-			{
-				"メイン海域3章以降で出現",
-				{
-					"scene level",
-					{},
-					{
-						leastChapterId = 301
-					}
-				},
-				0
-			},
-			{
-				"購買部でランダム出現",
-				{
-					"scene shop",
-					{
-						warp = 2
-					}
-				},
-				0
-			},
-			{
-				"一部の軍事委託で入手",
-				{
-					"scene event"
 				},
 				0
 			}
@@ -152,7 +137,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"デイリーチャレンジ「商船護衛」をクリア",
+				"进行商船护卫每日挑战",
 				{
 					"scene dailylevel",
 					{
@@ -162,18 +147,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"メイン海域6章以降で出現",
+				"出征主线第1章及其后的关卡",
 				{
-					"scene level",
-					{},
-					{
-						leastChapterId = 601
-					}
+					"scene level"
 				},
 				0
 			},
 			{
-				"購買部でランダム出現",
+				"军火商概率出售",
 				{
 					"scene shop",
 					{
@@ -183,7 +164,7 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の軍事委託で入手",
+				"部分军事委托获取",
 				{
 					"scene event"
 				},
@@ -204,28 +185,49 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究項目で入手",
+				"进行商船护卫每日挑战",
 				{
-					"technology"
-				},
-				0
-			},
-			{
-				"ショップ勲章交換",
-				{
-					"scene shop",
+					"scene dailylevel",
 					{
-						warp = 8
+						dailyLevelId = 201
 					}
 				},
 				0
 			},
 			{
-				"プロトショップで入手",
+				"出征主线第3章及其后的关卡",
+				{
+					"scene level",
+					{},
+					{
+						leastChapterId = 301
+					}
+				},
+				0
+			},
+			{
+				"军火商概率出售",
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 2
+					}
+				},
+				0
+			},
+			{
+				"部分军事委托获取",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
 					}
 				},
 				0
@@ -245,18 +247,49 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究項目で入手",
+				"进行商船护卫每日挑战",
 				{
-					"technology"
+					"scene dailylevel",
+					{
+						dailyLevelId = 201
+					}
 				},
 				0
 			},
 			{
-				"プロトショップで入手",
+				"出征主线第6章及其后的关卡",
+				{
+					"scene level",
+					{},
+					{
+						leastChapterId = 601
+					}
+				},
+				0
+			},
+			{
+				"军火商概率出售",
 				{
 					"scene shop",
 					{
-						warp = 5
+						warp = 2
+					}
+				},
+				0
+			},
+			{
+				"部分军事委托获取",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
+				{
+					"scene shop",
+					{
+						warp = 7
 					}
 				},
 				0
@@ -276,38 +309,21 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"ハード海域各章第1節をクリア",
+				"进行商船护卫每日挑战",
 				{
-					"scene level",
-					{},
+					"scene dailylevel",
 					{
-						mapType = 2,
-						lastDigit = 1,
-						leastChapterId = 10101
+						dailyLevelId = 201
 					}
 				},
 				0
 			},
 			{
-				"一部の軍事委託で入手",
-				{
-					"scene event"
-				},
-				0
-			},
-			{
-				"一部の科学研究項目で入手",
-				{
-					"technology"
-				},
-				0
-			},
-			{
-				"ショップ勲章交換",
+				"舰队商店兑换",
 				{
 					"scene shop",
 					{
-						warp = 8
+						warp = 7
 					}
 				},
 				0
@@ -328,14 +344,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"プロトショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -360,14 +376,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"プロトショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -391,14 +407,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"プロトショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -422,14 +438,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"プロトショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -453,14 +469,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"プロトショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -484,14 +500,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -501,7 +517,7 @@ pg.item_lack = {
 				0
 			},
 			{
-				"戦果ショップで交換",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -522,7 +538,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"任意の章のハード海域のステージ1で出現",
+				"完成任意章主线困难的第1节",
 				{
 					"scene level",
 					{},
@@ -535,21 +551,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部軍事委託で確率で出現",
+				"部分军事委托概率获取",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -570,7 +586,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"任意の章のハード海域のステージ2で出現",
+				"完成任意章主线困难的第2节",
 				{
 					"scene level",
 					{},
@@ -583,21 +599,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部軍事委託で確率で出現",
+				"部分军事委托概率获取",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -618,7 +634,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"任意の章のハード海域のステージ3で出現",
+				"完成任意章主线困难的第3节",
 				{
 					"scene level",
 					{},
@@ -631,21 +647,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部軍事委託で確率で出現",
+				"部分军事委托概率获取",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -666,7 +682,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"任意の章のハード海域のステージ4で出現",
+				"完成任意章主线困难的第4节",
 				{
 					"scene level",
 					{},
@@ -679,21 +695,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部軍事委託で確率で出現",
+				"部分军事委托概率获取",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -713,7 +729,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"3章以降のハード海域のステージ1で出現",
+				"完成第3章及其后主线困难的第1节",
 				{
 					"scene level",
 					{},
@@ -726,14 +742,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -753,7 +769,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"3章以降のハード海域のステージ2で出現",
+				"完成第3章及其后主线困难的第2节",
 				{
 					"scene level",
 					{},
@@ -766,14 +782,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -793,7 +809,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"3章以降のハード海域のステージ3で出現",
+				"完成第3章及其后主线困难的第3节",
 				{
 					"scene level",
 					{},
@@ -806,14 +822,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -833,7 +849,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"3章以降のハード海域のステージ4で出現",
+				"完成第3章及其后主线困难的第4节",
 				{
 					"scene level",
 					{},
@@ -846,14 +862,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"一部の科学研究で出現",
+				"进行部分科研项目",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勲章ショップで交換",
+				"勋章商店兑换",
 				{
 					"scene shop",
 					{
@@ -873,14 +889,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「戦士の特別訓練」で入手可能",
+				"参与限时活动【厌战的特别训练】",
 				{
 					""
 				},
 				0
 			},
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -900,14 +916,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「輝く☆バトルスター」で入手可能",
+				"参与限时活动【闪耀的战斗之星】",
 				{
 					""
 				},
 				0
 			},
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -927,14 +943,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「龍騰虎闘」で入手可能",
+				"参与限时活动【龙腾虎跃】",
 				{
 					""
 				},
 				0
 			},
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -954,14 +970,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「龍騰虎闘」で入手可能",
+				"参与限时活动【龙腾虎跃】",
 				{
 					""
 				},
 				0
 			},
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -981,14 +997,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「母港大食い競争」で入手可能",
+				"参与限时活动【啾啾大胃王】",
 				{
 					""
 				},
 				0
 			},
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"scene shop",
 					{
@@ -1008,7 +1024,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「電気出力増幅中」で入手可能",
+				"参与限时活动【电气功率增幅中】",
 				{
 					""
 				},
@@ -1025,7 +1041,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「美意延年」で入手可能",
+				"参与限时活动【美意延年】",
 				{
 					""
 				},
@@ -1042,7 +1058,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"イベント「撫順の大冒険 IV 復刻」で入手可能",
+				"参与限时活动【抚顺大冒险IV复刻】",
 				{
 					""
 				},
@@ -1059,7 +1075,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1076,7 +1092,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1093,7 +1109,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1110,7 +1126,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1127,7 +1143,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1144,7 +1160,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1161,7 +1177,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1178,7 +1194,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1195,7 +1211,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1212,7 +1228,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1229,7 +1245,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1246,7 +1262,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1263,7 +1279,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1280,7 +1296,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1297,7 +1313,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1314,7 +1330,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1331,7 +1347,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1348,7 +1364,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1365,7 +1381,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1382,7 +1398,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1399,7 +1415,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1416,7 +1432,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1433,7 +1449,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1450,7 +1466,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1467,7 +1483,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1484,7 +1500,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
@@ -1501,14 +1517,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"セイレーン作戦に参加",
+				"参与大型作战",
 				{
 					"scene level"
 				},
 				0
 			},
 			{
-				"合成で入手可能",
+				"合成获得",
 				{
 					"BaseUI:ON_ITEM",
 					{

@@ -18,17 +18,16 @@ slot1 = {
 	"golden"
 }
 
-slot0.Update = function(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.configId = slot1
-	slot4 = pg.island_skin_template[slot0.configId]
+	slot3 = pg.island_skin_template[slot0.configId]
 
-	setText(slot0.tf:Find("Text"), slot4.name)
+	setText(slot0.tf:Find("Text"), slot3.name)
 
-	if slot4.icon ~= "" then
-		GetImageSpriteFromAtlasAsync(string.format("island/IslandDressIcon/%s", slot4.icon), "", slot0.tf:Find("icon"))
+	if slot3.icon ~= "" then
+		GetImageSpriteFromAtlasAsync(string.format("island/IslandDressIcon/%s", slot3.icon), "", slot0.tf:Find("icon"))
 	end
 
-	setActive(slot0.notGetTF, not slot3)
 	slot0:UpdateSelected(slot2)
 end
 

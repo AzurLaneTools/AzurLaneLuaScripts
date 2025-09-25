@@ -211,11 +211,10 @@ slot0.onAdded = function(slot0)
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				yesText = "text_forward",
 				noText = "text_iknow",
+				yesText = "text_forward",
 				content = i18n("tip_add_task", uv0:getConfig("name")),
-				onYes = slot0,
-				weight = LayerWeightConst.TOP_LAYER
+				onYes = slot0
 			})
 		end
 

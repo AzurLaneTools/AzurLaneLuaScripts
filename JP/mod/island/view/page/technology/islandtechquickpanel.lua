@@ -13,7 +13,12 @@ slot0.OnLoaded = function(slot0)
 	slot0.toggle = slot0._tf:Find("toggle")
 	slot0.panel = slot0._tf:Find("panel")
 	slot1 = slot0.panel:Find("content")
-	slot0.uiList = UIItemList.New(slot1, slot1:Find("tpl"))
+	slot2 = slot1:Find("tpl")
+
+	setText(slot2:Find("lock/content/tip/Text"), i18n("island_tech_lock"))
+	setText(slot2:Find("empty/content/Text"), i18n("island_tech_empty"))
+
+	slot0.uiList = UIItemList.New(slot1, slot2)
 
 	setText(slot1:Find("tpl/content/get/Image/Text"), i18n("island_tech_can_get"))
 	setText(slot0.toggle:Find("normal/Text"), i18n("island_tech_nodev"))
@@ -39,14 +44,13 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggle, function (slot0)
 		if slot0 then
-			pg.UIMgr.GetInstance():OverlayPanelPB(uv0._tf, {
+			uv0:OverlayPanel(uv0._tf, {
 				pbList = {
 					uv0.panel
-				},
-				groupName = LayerWeightConst.GROUP_ISLAND
+				}
 			})
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
+			uv0:UnOverlayPanel(uv0._tf, uv0._parentTf)
 		end
 	end, SFX_PANEL)
 end
@@ -96,14 +100,16 @@ slot0.Flush = function(slot0)
 end
 
 slot0.GetToggleStatus = function(slot0)
-	for slot4, slot5 in ipairs(slot0.slotIds) do
-		if slot0.buildingData:GetDelegationSlotData(slot5) and slot6:GetSlotRewardData() then
-			return uv0.TOGGLE_STATUS.FINISHED
-		end
+	if underscore.any(slot0.slotIds, function (slot0)
+		return uv0.buildingData:GetDelegationSlotData(slot0) and slot1:GetSlotRewardData()
+	end) then
+		return uv0.TOGGLE_STATUS.FINISHED
+	end
 
-		if slot6 and slot6:GetSlotRoleData() then
-			return uv0.TOGGLE_STATUS.STUDYING
-		end
+	if underscore.any(slot0.slotIds, function (slot0)
+		return uv0.buildingData:GetDelegationSlotData(slot0) and slot1:GetSlotRoleData()
+	end) then
+		return uv0.TOGGLE_STATUS.STUDYING
 	end
 
 	return uv0.TOGGLE_STATUS.NORMAL
@@ -142,7 +148,7 @@ slot0.UpdateTime = function(slot0)
 				slot7 = slot6:GetFinishTime() - uv0.timeMgr:GetServerTime()
 
 				setSlider(slot5:Find("silder"), 0, 1, 1 - slot7 / slot6:GetAllTime())
-				setText(slot5:Find("silder/Text"), uv0.timeMgr:DescCDTime(slot7))
+				setText(slot5:Find("silder/Text"), slot7 > 0 and uv0.timeMgr:DescCDTime(slot7) or "00:00:00")
 			end
 
 			slot7 = slot3:GetSlotRewardData()
@@ -192,7 +198,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 return slot0

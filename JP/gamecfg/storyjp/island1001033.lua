@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001033",
 	map = {
 		{
@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官来啦~我是集会岛的接待员莉莎，您有什么想喝的饮品吗？",
+			say = "――エリザベス",
+			characterId = 0,
 			animation = "hi",
-			characterId = 101000,
-			subName = "集会岛接待员",
 			face2Face = {
 				{
 					0,
@@ -35,18 +34,37 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "一杯红茶如何？可以为您驱散旅途的疲惫。",
+			subName = "集会島受付",
+			say = "指揮官、ようこそ自由建設地へ。集会島の受付係、エリザベスです",
 			characterId = 101000,
-			animation = "think",
+			animation = "hi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "何かお飲みになりますか？",
+			subName = "集会島受付",
+			characterId = 101000,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "集会島受付",
+			say = "よかったら紅茶などいかがですか？旅の疲れを癒やしてくれますよ",
+			characterId = 101000,
+			animation = "talk",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――ありがとう。まだ大丈夫だ",
 			animation = "shakehead",
-			say = "不用了，莉莎。~",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "刚才玛丽给了我一份明石准备的礼物，我想把它种在自由建造区里。",
+			say = "――それよりさっきこのバス停の図面を手に入れたから、ここに置いてみたい",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +80,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "这样啊……没有问题，指挥官把位置定下来就好。",
+			subName = "集会島受付",
+			say = "これは…メリーが渡したものでしょうか？この島に建てたいって何度も私にせがんできて…",
 			characterId = 101300,
 			animation = "think",
 			typewriter = {
@@ -72,18 +90,17 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "剩下的就交给我吧。",
-			characterId = 101300,
-			animation = "clap",
+			say = "――だからあんな張り切ってたんだ…何か手伝おうか？",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那就麻烦你了。",
-			characterId = 0,
+			say = "配置を決めて教えていただければ、それで大丈夫です",
+			subName = "集会島受付",
+			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

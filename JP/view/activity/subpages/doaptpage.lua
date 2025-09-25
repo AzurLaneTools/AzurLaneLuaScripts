@@ -426,9 +426,7 @@ end
 
 slot0.showSingleBuffBox = function(slot0)
 	setActive(slot0.singleBuffBox, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.singleBuffBox, false, {
-		overlayType = LayerWeightConst.OVERLAY_UI_TOP
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.singleBuffBox)
 	removeAllChildren(slot0.singleIconParent)
 
 	slot1 = cloneTplTo(slot0:updateLevelPanel(), slot0.singleIconParent)
@@ -448,7 +446,7 @@ slot0.showSingleBuffBox = function(slot0)
 		setActive(uv0.singleBuffBox, false)
 		uv0:emit(ActivitySingleScene.EXIT)
 		uv0:emit(ActivitySingleScene.ON_CLOSE)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.singleBuffBox, uv0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.singleBuffBox, uv0._tf)
 	end
 
 	onButton(slot0, slot0.singleBuffMask, function ()
@@ -464,13 +462,13 @@ end
 
 slot0.onBackPressed = function(slot0)
 	if slot0.contextData.singleActivity then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.singleBuffBox, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.singleBuffBox, slot0._tf)
 	end
 end
 
 slot0.willExit = function(slot0)
 	if slot0.contextData.singleActivity then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.singleBuffBox, slot0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.singleBuffBox, slot0._tf)
 	end
 end
 

@@ -6,7 +6,7 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.callBack
 
 	if getProxy(GuildProxy):getData():GetActiveEvent() and slot7:GetBossMission() and slot8:IsActive() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 		return
 	end
@@ -50,7 +50,7 @@ slot0.execute = function(slot0, slot1)
 			uv2:UpdateExternalAssaultFleet(uv3)
 			uv1:updateGuild(uv4)
 			uv5:sendNotification(GAME.GUILD_UPDATE_MY_ASSAULT_FLEET_DONE)
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

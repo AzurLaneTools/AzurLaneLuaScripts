@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.character_voice = {
 	unlock = {
-		voice_name = "入手時",
+		voice_name = "获取",
 		key = "unlock",
 		resource_key = "get",
 		spine_action = "stand",
@@ -14,7 +14,7 @@ pg.character_voice = {
 		}
 	},
 	login = {
-		voice_name = "ログイン",
+		voice_name = "登录",
 		key = "login",
 		resource_key = "login",
 		spine_action = "stand2",
@@ -27,7 +27,7 @@ pg.character_voice = {
 		}
 	},
 	detail = {
-		voice_name = "詳細確認",
+		voice_name = "查看详情",
 		key = "detail",
 		resource_key = "detail",
 		spine_action = "normal",
@@ -40,7 +40,7 @@ pg.character_voice = {
 		}
 	},
 	main1 = {
-		voice_name = "メイン1",
+		voice_name = "主界面1",
 		key = "main1",
 		resource_key = "main_1",
 		spine_action = "normal",
@@ -53,7 +53,7 @@ pg.character_voice = {
 		}
 	},
 	main2 = {
-		voice_name = "メイン2",
+		voice_name = "主界面2",
 		key = "main2",
 		resource_key = "main_2",
 		spine_action = "normal",
@@ -66,7 +66,7 @@ pg.character_voice = {
 		}
 	},
 	main3 = {
-		voice_name = "メイン3",
+		voice_name = "主界面3",
 		key = "main3",
 		resource_key = "main_3",
 		spine_action = "normal",
@@ -79,7 +79,7 @@ pg.character_voice = {
 		}
 	},
 	main4 = {
-		voice_name = "メイン4",
+		voice_name = "主界面4",
 		key = "main4",
 		resource_key = "main_4",
 		spine_action = "normal",
@@ -92,7 +92,7 @@ pg.character_voice = {
 		}
 	},
 	main5 = {
-		voice_name = "メイン5",
+		voice_name = "主界面5",
 		key = "main5",
 		resource_key = "main_5",
 		spine_action = "normal",
@@ -105,7 +105,7 @@ pg.character_voice = {
 		}
 	},
 	main6 = {
-		voice_name = "メイン6",
+		voice_name = "主界面6",
 		key = "main6",
 		resource_key = "main_6",
 		spine_action = "normal",
@@ -118,7 +118,7 @@ pg.character_voice = {
 		}
 	},
 	main7 = {
-		voice_name = "メイン7",
+		voice_name = "主界面7",
 		key = "main7",
 		resource_key = "main_7",
 		spine_action = "normal",
@@ -131,7 +131,7 @@ pg.character_voice = {
 		}
 	},
 	touch = {
-		voice_name = "タッチ",
+		voice_name = "普通触摸",
 		key = "touch",
 		resource_key = "touch_1",
 		spine_action = "touch",
@@ -144,7 +144,7 @@ pg.character_voice = {
 		}
 	},
 	touch2 = {
-		voice_name = "タッチ2",
+		voice_name = "特殊触摸",
 		key = "touch2",
 		resource_key = "touch_2",
 		spine_action = "tuozhuai",
@@ -157,7 +157,7 @@ pg.character_voice = {
 		}
 	},
 	headtouch = {
-		voice_name = "タッチ3",
+		voice_name = "摸头",
 		key = "headtouch",
 		resource_key = "touch_head",
 		spine_action = "tuozhuai2",
@@ -170,7 +170,7 @@ pg.character_voice = {
 		}
 	},
 	mission = {
-		voice_name = "任務",
+		voice_name = "任务提醒",
 		key = "mission",
 		resource_key = "task",
 		spine_action = "move",
@@ -183,7 +183,7 @@ pg.character_voice = {
 		}
 	},
 	mission_complete = {
-		voice_name = "任務完了",
+		voice_name = "任务完成",
 		key = "mission_complete",
 		resource_key = "mission_complete",
 		spine_action = "victory",
@@ -196,7 +196,7 @@ pg.character_voice = {
 		}
 	},
 	mail = {
-		voice_name = "メール",
+		voice_name = "邮件提醒",
 		key = "mail",
 		resource_key = "mail",
 		spine_action = "victory",
@@ -209,7 +209,7 @@ pg.character_voice = {
 		}
 	},
 	home = {
-		voice_name = "母港帰還",
+		voice_name = "回港",
 		key = "home",
 		resource_key = "home",
 		spine_action = "walk",
@@ -235,7 +235,7 @@ pg.character_voice = {
 		}
 	},
 	feeling2 = {
-		voice_name = "知り合い",
+		voice_name = "陌生",
 		key = "feeling2",
 		resource_key = "feeling2",
 		spine_action = "normal",
@@ -261,7 +261,7 @@ pg.character_voice = {
 		}
 	},
 	feeling4 = {
-		voice_name = "好き",
+		voice_name = "喜欢",
 		key = "feeling4",
 		resource_key = "feeling4",
 		spine_action = "normal",
@@ -274,7 +274,7 @@ pg.character_voice = {
 		}
 	},
 	feeling5 = {
-		voice_name = "ラブ",
+		voice_name = "爱",
 		key = "feeling5",
 		resource_key = "feeling5",
 		spine_action = "normal",
@@ -287,7 +287,7 @@ pg.character_voice = {
 		}
 	},
 	propose = {
-		voice_name = "ケッコン",
+		voice_name = "誓约",
 		key = "propose",
 		resource_key = "propose",
 		spine_action = "normal",
@@ -300,7 +300,7 @@ pg.character_voice = {
 		}
 	},
 	expedition = {
-		voice_name = "委託完了",
+		voice_name = "委托完成",
 		key = "expedition",
 		resource_key = "expedition",
 		spine_action = "victory",
@@ -313,7 +313,7 @@ pg.character_voice = {
 		}
 	},
 	upgrade = {
-		voice_name = "強化成功",
+		voice_name = "强化成功",
 		key = "upgrade",
 		resource_key = "upgrade",
 		spine_action = "victory",
@@ -326,7 +326,7 @@ pg.character_voice = {
 		}
 	},
 	battle = {
-		voice_name = "戦闘開始",
+		voice_name = "旗舰开战",
 		key = "battle",
 		resource_key = "warcry",
 		spine_action = "attack",
@@ -339,7 +339,7 @@ pg.character_voice = {
 		}
 	},
 	win_mvp = {
-		voice_name = "勝利",
+		voice_name = "胜利",
 		key = "win_mvp",
 		resource_key = "mvp",
 		spine_action = "victory",
@@ -352,7 +352,7 @@ pg.character_voice = {
 		}
 	},
 	lose = {
-		voice_name = "失敗",
+		voice_name = "失败",
 		key = "lose",
 		resource_key = "lose",
 		spine_action = "dead",
@@ -365,7 +365,7 @@ pg.character_voice = {
 		}
 	},
 	skill = {
-		voice_name = "スキル",
+		voice_name = "技能",
 		key = "skill",
 		resource_key = "skill",
 		spine_action = "skill",
@@ -378,7 +378,7 @@ pg.character_voice = {
 		}
 	},
 	hp_warning = {
-		voice_name = "損傷大",
+		voice_name = "血量告急",
 		key = "hp_warning",
 		resource_key = "hp",
 		spine_action = "dead",
@@ -391,7 +391,7 @@ pg.character_voice = {
 		}
 	},
 	link1 = {
-		voice_name = "掛け合い1",
+		voice_name = "战场互动1",
 		key = "link1",
 		resource_key = "link1",
 		spine_action = "attcak",
@@ -404,7 +404,7 @@ pg.character_voice = {
 		}
 	},
 	link2 = {
-		voice_name = "掛け合い2",
+		voice_name = "战场互动2",
 		key = "link2",
 		resource_key = "link2",
 		spine_action = "attcak",
@@ -417,7 +417,7 @@ pg.character_voice = {
 		}
 	},
 	link3 = {
-		voice_name = "掛け合い3",
+		voice_name = "战场互动3",
 		key = "link3",
 		resource_key = "link3",
 		spine_action = "attcak",
@@ -430,7 +430,7 @@ pg.character_voice = {
 		}
 	},
 	link4 = {
-		voice_name = "掛け合い4",
+		voice_name = "战场互动4",
 		key = "link4",
 		resource_key = "link4",
 		spine_action = "attcak",
@@ -443,7 +443,7 @@ pg.character_voice = {
 		}
 	},
 	link5 = {
-		voice_name = "掛け合い5",
+		voice_name = "战场互动5",
 		key = "link5",
 		resource_key = "link5",
 		spine_action = "attcak",
@@ -456,7 +456,7 @@ pg.character_voice = {
 		}
 	},
 	link6 = {
-		voice_name = "掛け合い6",
+		voice_name = "战场互动6",
 		key = "link6",
 		resource_key = "link6",
 		spine_action = "attcak",
@@ -469,7 +469,7 @@ pg.character_voice = {
 		}
 	},
 	profile = {
-		voice_name = "図鑑",
+		voice_name = "资料",
 		key = "profile",
 		resource_key = "profile",
 		spine_action = "stand2",
@@ -482,7 +482,7 @@ pg.character_voice = {
 		}
 	},
 	link7 = {
-		voice_name = "掛け合い7",
+		voice_name = "战场互动7",
 		key = "link7",
 		resource_key = "link7",
 		spine_action = "attcak",
@@ -495,7 +495,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_item1 = {
-		voice_name = "素材入手1",
+		voice_name = "素材收集1 ",
 		key = "ryza_item1",
 		resource_key = "ryza_item1",
 		spine_action = "stand",
@@ -508,7 +508,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_item2 = {
-		voice_name = "素材入手2",
+		voice_name = "素材收集2",
 		key = "ryza_item2",
 		resource_key = "ryza_item2",
 		spine_action = "stand",
@@ -521,7 +521,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_item3 = {
-		voice_name = "素材入手3",
+		voice_name = "素材收集3",
 		key = "ryza_item3",
 		resource_key = "ryza_item3",
 		spine_action = "stand",
@@ -534,7 +534,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_item4 = {
-		voice_name = "素材入手4",
+		voice_name = "素材收集4",
 		key = "ryza_item4",
 		resource_key = "ryza_item4",
 		spine_action = "stand",
@@ -547,7 +547,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_item5 = {
-		voice_name = "素材入手5",
+		voice_name = "素材收集5",
 		key = "ryza_item5",
 		resource_key = "ryza_item5",
 		spine_action = "stand",
@@ -560,7 +560,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_shop1 = {
-		voice_name = "ショップ1",
+		voice_name = "商店1",
 		key = "ryza_shop1",
 		resource_key = "ryza_shop1",
 		spine_action = "stand",
@@ -573,7 +573,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_shop2 = {
-		voice_name = "ショップ2",
+		voice_name = "商店2",
 		key = "ryza_shop2",
 		resource_key = "ryza_shop2",
 		spine_action = "stand",
@@ -586,7 +586,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_shop3 = {
-		voice_name = "ショップ3",
+		voice_name = "商店3",
 		key = "ryza_shop3",
 		resource_key = "ryza_shop3",
 		spine_action = "stand",
@@ -599,7 +599,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_shop4 = {
-		voice_name = "ショップ4",
+		voice_name = "商店4",
 		key = "ryza_shop4",
 		resource_key = "ryza_shop4",
 		spine_action = "stand",
@@ -612,7 +612,7 @@ pg.character_voice = {
 		}
 	},
 	ryza_shop5 = {
-		voice_name = "ショップ5",
+		voice_name = "商店5",
 		key = "ryza_shop5",
 		resource_key = "ryza_shop5",
 		spine_action = "stand",
@@ -625,7 +625,7 @@ pg.character_voice = {
 		}
 	},
 	skill_1 = {
-		voice_name = "スキル1",
+		voice_name = "技能1",
 		key = "skill_1",
 		resource_key = "skill_1",
 		spine_action = "skill",
@@ -638,7 +638,7 @@ pg.character_voice = {
 		}
 	},
 	skill_2 = {
-		voice_name = "スキル2",
+		voice_name = "技能2",
 		key = "skill_2",
 		resource_key = "skill_2",
 		spine_action = "skill",
@@ -651,7 +651,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_shop_1 = {
-		voice_name = "ショップ1",
+		voice_name = "商店1",
 		key = "atelier_yumia_shop_1",
 		resource_key = "atelier_yumia_shop_1",
 		spine_action = "stand",
@@ -664,7 +664,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_shop_2 = {
-		voice_name = "ショップ2",
+		voice_name = "商店2",
 		key = "atelier_yumia_shop_2",
 		resource_key = "atelier_yumia_shop_2",
 		spine_action = "stand",
@@ -677,7 +677,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_shop_3 = {
-		voice_name = "ショップ3",
+		voice_name = "商店3",
 		key = "atelier_yumia_shop_3",
 		resource_key = "atelier_yumia_shop_3",
 		spine_action = "stand",
@@ -690,7 +690,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_shop_4 = {
-		voice_name = "ショップ4",
+		voice_name = "商店4",
 		key = "atelier_yumia_shop_4",
 		resource_key = "atelier_yumia_shop_4",
 		spine_action = "stand",
@@ -703,7 +703,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_shop_5 = {
-		voice_name = "ショップ5",
+		voice_name = "商店5",
 		key = "atelier_yumia_shop_5",
 		resource_key = "atelier_yumia_shop_5",
 		spine_action = "stand",
@@ -716,7 +716,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_1 = {
-		voice_name = "素材入手1",
+		voice_name = "素材收集1 ",
 		key = "atelier_yumia_item_1",
 		resource_key = "atelier_yumia_item_1",
 		spine_action = "stand",
@@ -729,7 +729,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_2 = {
-		voice_name = "素材入手2",
+		voice_name = "素材收集2",
 		key = "atelier_yumia_item_2",
 		resource_key = "atelier_yumia_item_2",
 		spine_action = "stand",
@@ -742,7 +742,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_3 = {
-		voice_name = "素材入手3",
+		voice_name = "素材收集3",
 		key = "atelier_yumia_item_3",
 		resource_key = "atelier_yumia_item_3",
 		spine_action = "stand",
@@ -755,7 +755,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_4 = {
-		voice_name = "素材入手4",
+		voice_name = "素材收集4",
 		key = "atelier_yumia_item_4",
 		resource_key = "atelier_yumia_item_4",
 		spine_action = "stand",
@@ -768,7 +768,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_5 = {
-		voice_name = "素材入手5",
+		voice_name = "素材收集5",
 		key = "atelier_yumia_item_5",
 		resource_key = "atelier_yumia_item_5",
 		spine_action = "stand",
@@ -781,7 +781,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_6 = {
-		voice_name = "素材入手6",
+		voice_name = "素材收集6",
 		key = "atelier_yumia_item_6",
 		resource_key = "atelier_yumia_item_6",
 		spine_action = "stand",
@@ -794,7 +794,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_7 = {
-		voice_name = "素材入手7",
+		voice_name = "素材收集7",
 		key = "atelier_yumia_item_7",
 		resource_key = "atelier_yumia_item_7",
 		spine_action = "stand",
@@ -807,7 +807,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_8 = {
-		voice_name = "素材入手8",
+		voice_name = "素材收集8",
 		key = "atelier_yumia_item_8",
 		resource_key = "atelier_yumia_item_8",
 		spine_action = "stand",
@@ -820,7 +820,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_9 = {
-		voice_name = "素材入手9",
+		voice_name = "素材收集9",
 		key = "atelier_yumia_item_9",
 		resource_key = "atelier_yumia_item_9",
 		spine_action = "stand",
@@ -833,7 +833,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_10 = {
-		voice_name = "素材入手10",
+		voice_name = "素材收集10",
 		key = "atelier_yumia_item_10",
 		resource_key = "atelier_yumia_item_10",
 		spine_action = "stand",
@@ -846,7 +846,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_11 = {
-		voice_name = "素材入手11",
+		voice_name = "素材收集11",
 		key = "atelier_yumia_item_11",
 		resource_key = "atelier_yumia_item_11",
 		spine_action = "stand",
@@ -859,7 +859,7 @@ pg.character_voice = {
 		}
 	},
 	atelier_yumia_item_12 = {
-		voice_name = "素材入手12",
+		voice_name = "素材收集12",
 		key = "atelier_yumia_item_12",
 		resource_key = "atelier_yumia_item_12",
 		spine_action = "stand",

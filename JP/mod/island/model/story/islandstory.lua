@@ -43,6 +43,16 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.soloCamDir = defaultValue(slot1.cam_dir, 0) == 0
 end
 
+slot0.ContainerPlayer = function(slot0)
+	for slot4, slot5 in ipairs(slot0.steps) do
+		if not slot5.characterId or slot5.characterId == 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
 slot0.IsFacingWhenSolo = function(slot0)
 	return slot0.soloCamDir
 end

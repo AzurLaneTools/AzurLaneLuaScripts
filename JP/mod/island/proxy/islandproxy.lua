@@ -7,10 +7,13 @@ slot0.START_PATHFINDER = "IslandProxy:START_PATHFINDER"
 slot0.END_PATHFINDER = "IslandProxy:END_PATHFINDER"
 slot0.ACTIVE_OR_DISABLE_UNIT = "IslandProxy:ACTIVE_OR_DISABLE_UNIT"
 slot0.LINK_CORE = "IslandProxy:LINK_CORE"
+slot0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
+slot0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 slot0.register = function(slot0)
 	slot0.cahce = {}
 	slot0.giftCache = {}
+	slot0.chatMsgs = {}
 	slot0.islandHeartBeatMgr = IslandHearBeatMgr.New()
 
 	slot0:on(21216, function (slot0)
@@ -25,6 +28,22 @@ slot0.register = function(slot0)
 			end
 		end
 	end)
+end
+
+slot0.AddChatMsg = function(slot0, slot1, slot2)
+	if not slot0.chatMsgs[slot1] then
+		slot0.chatMsgs[slot1] = {}
+	end
+
+	table.insert(slot0.chatMsgs[slot1], slot2)
+	slot0:sendNotification(IslandProxy.CHAT_MSG_UPDATE, {
+		islandId = slot1,
+		msg = slot2
+	})
+end
+
+slot0.GetChatMsgList = function(slot0, slot1)
+	return slot0.chatMsgs[slot1] or {}
 end
 
 slot0.SetIsland = function(slot0, slot1)
@@ -130,6 +149,18 @@ end
 
 slot0.GetEnterTime = function(slot0)
 	return slot0.enterTimeStamp
+end
+
+slot0.RecordTempPlayerPosition = function(slot0, slot1, slot2, slot3)
+	slot0.tempPlayerPosition = {
+		slot1,
+		slot2,
+		slot3
+	}
+end
+
+slot0.GetTempPlayerPosition = function(slot0)
+	return slot0.tempPlayerPosition
 end
 
 slot0.EnterIsland = function(slot0, slot1)

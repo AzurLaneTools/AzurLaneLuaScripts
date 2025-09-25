@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_32 = {
 	[90991] = {
 		cannon = 0,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -144,7 +144,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90992] = {
 		cannon = 0,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -286,7 +286,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90993] = {
 		cannon = 0,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -428,7 +428,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90994] = {
 		cannon = 0,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -570,7 +570,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90995] = {
 		cannon = 0,
-		name = "静寂の魂-灯のアンコウ",
+		name = "寂静之灵-掌灯幽影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -712,7 +712,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90996] = {
 		cannon = 0,
-		name = "静寂の魂-灯のアンコウ",
+		name = "寂静之灵-掌灯幽影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -854,7 +854,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90997] = {
 		cannon = 0,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -996,7 +996,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90998] = {
 		cannon = 0,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1138,7 +1138,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90999] = {
 		cannon = 0,
-		name = "静寂の渦",
+		name = "寂静涡流",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1281,7 +1281,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91000] = {
 		cannon = 0,
-		name = "静寂の守り手-クラーケン・テンタクル",
+		name = "寂静守卫-克拉肯之触",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1423,7 +1423,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91001] = {
 		cannon = 0,
-		name = "静寂の巨獣-クラーケン",
+		name = "寂静领主-克拉肯",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1568,7 +1568,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91002] = {
 		cannon = 0,
-		name = "アミティ",
+		name = "和睦号",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1712,7 +1712,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91003] = {
 		cannon = 0,
-		name = "ポーツマウス・アドベンチャー",
+		name = "朴茨茅斯冒险号",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1852,7 +1852,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91004] = {
 		cannon = 0,
-		name = "ファンシー",
+		name = "幻想号",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1992,7 +1992,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91005] = {
 		cannon = 0,
-		name = "ドルフィン",
+		name = "海豚号",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2136,7 +2136,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91006] = {
 		cannon = 0,
-		name = "ロイヤル・フォーチュン",
+		name = "皇家财富号",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2294,7 +2294,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91007] = {
 		cannon = 0,
-		name = "シューシュー駆逐クン",
+		name = "迅迅猎手君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2456,7 +2456,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91008] = {
 		cannon = 0,
-		name = "ササッ軽巡クン",
+		name = "风风舞者君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2618,7 +2618,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91009] = {
 		cannon = 0,
-		name = "ガチガチ重巡クン",
+		name = "铁铁巨人君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2787,7 +2787,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91010] = {
 		cannon = 0,
-		name = "バクバク戦艦クン",
+		name = "轰轰霸王君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2956,7 +2956,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91011] = {
 		cannon = 0,
-		name = "ビュービュー空母クン",
+		name = "翔翔天翼君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3125,7 +3125,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91012] = {
 		cannon = 0,
-		name = "ポンポン自爆クン",
+		name = "砰砰冲撞君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3271,7 +3271,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91013] = {
 		cannon = 0,
-		name = "モグモグ潜航クン",
+		name = "咕噜咕噜潜航君",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3422,7 +3422,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91014] = {
 		cannon = 0,
-		name = "ウェーブガーディアン・ナナ",
+		name = "碧波守卫·NANA",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3578,7 +3578,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91015] = {
 		cannon = 0,
-		name = "ウィンドセンチネル・モモ",
+		name = "猎风哨兵·MOMO",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3734,7 +3734,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91016] = {
 		cannon = 0,
-		name = "スチールプロテクター・ハルナ",
+		name = "钢铁护卫·HARUNA",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3890,7 +3890,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91017] = {
 		cannon = 0,
-		name = "ダークスマッシャー・ヤミ",
+		name = "暗夜重击·YAMI",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4060,7 +4060,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91018] = {
 		cannon = 0,
-		name = "ウィングヴァンガード・ユイ",
+		name = "天翼先锋·YUI",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4216,7 +4216,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91019] = {
 		cannon = 0,
-		name = "ファイナルスパーク・ララ",
+		name = "最终星耀·LALA",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4379,7 +4379,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91020] = {
 		cannon = 0,
-		name = "シラ",
+		name = "斯库拉",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4535,7 +4535,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[91021] = {
 		cannon = 0,
-		name = "デヴォンシャー",
+		name = "德文郡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

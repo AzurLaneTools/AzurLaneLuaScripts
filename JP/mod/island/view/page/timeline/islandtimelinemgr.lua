@@ -86,6 +86,7 @@ slot0.PlaySceneTimeline = function(slot0, slot1, slot2, slot3)
 			uv0:UnloadCharacter()
 			uv0:RevertReplace()
 			uv1:UnLoad()
+			_IslandCore:GetView().weatherSystem:Play()
 			gcAll(false)
 			SceneOpMgr.Inst:SetActiveSceneByIndex(1)
 			slot0()
@@ -255,13 +256,12 @@ slot0.ReplaceTracks = function(slot0, slot1, slot2, slot3)
 	for slot8, slot9 in pairs(slot4) do
 		slot13 = {}
 
-		for slot17 = 0, TimelineHelper.GetTimelineTracks(GameObject.Find(slot8):GetComponent(typeof(UnityEngine.Playables.PlayableDirector))).Length - 1 do
-			slot18 = slot12[slot17]
+		for slot17, slot18 in ipairs(TimelineHelper.GetTimelineTracks(GameObject.Find(slot8):GetComponent(typeof(UnityEngine.Playables.PlayableDirector))):ToTable()) do
 			slot13[slot18.name] = slot18
 		end
 
 		for slot17, slot18 in ipairs(slot9) do
-			if tonumber(slot18[1]) and slot12[slot19] or slot13[slot18[1]] then
+			if tonumber(slot18[1]) and slot12[slot19 + 1] or slot13[slot18[1]] then
 				TimelineHelper.SetSceneBinding(slot11, slot20, uv0(slot1, slot18[2]))
 			end
 		end
@@ -275,9 +275,9 @@ slot0.ReplcaeCamTracks = function(slot0, slot1)
 		return
 	end
 
-	for slot7 = 1, slot2.transform:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true).Length do
-		for slot13 = 0, TimelineHelper.GetTimelineTracks(slot3[slot7 - 1]).Length - 1 do
-			if slot9[slot13]:GetType():ToString() == "CinemachineTrack" then
+	for slot7, slot8 in ipairs(slot2.transform:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true):ToTable()) do
+		for slot13, slot14 in ipairs(TimelineHelper.GetTimelineTracks(slot8):ToTable()) do
+			if slot14:GetType():ToString() == "CinemachineTrack" then
 				TimelineHelper.SetSceneBinding(slot8, slot14, IslandCameraMgr.instance.cinemachineBrain)
 			end
 		end

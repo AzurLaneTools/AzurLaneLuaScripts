@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "theme-umieyuku",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-umieyuku"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -2454,5 +2454,15 @@ pg.voice_bgm = {
 		default_bgm = "story-amahara-stage2",
 		special_bgm = "",
 		bgm = "story-amahara-stage2"
+	},
+	SportAndRacingSkinEncoreLoginPage = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
+	},
+	IslandSignPage = {
+		default_bgm = "theme-myisland",
+		special_bgm = "",
+		bgm = "theme-myisland"
 	}
 }

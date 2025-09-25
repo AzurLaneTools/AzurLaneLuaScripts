@@ -145,8 +145,7 @@ slot0.addListener = function(slot0)
 				pg.m02:sendNotification(GAME.ENERGY_META_ACTIVATION, {
 					shipId = uv0.curMetaShipID
 				})
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end, SFX_PANEL)
 end
@@ -317,7 +316,6 @@ slot0.updateMaterialPanel = function(slot0, slot1)
 		onButton(slot0, slot0.activeBtnDisable, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("switch_to_shop_tip_2", i18n("word_gold")) .. "\n" .. i18n("text_noRes_tip", i18n("text_noRes_info_tip", Item.getConfigData(59001).name, uv0 - uv1)),
-				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
 					if getProxy(ContextProxy):getCurrentContext():getContextByMediator(MetaCharacterMediator) then
 						slot2.data.autoOpenShipConfigID = uv0.curShipVO.configId
@@ -441,14 +439,12 @@ slot0.closePreviewPanel = function(slot0)
 
 	setActive(slot0.previewTF, false)
 	setActive(slot0.rawImage, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.previewTF, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.previewTF, slot0._tf)
 end
 
 slot0.openPreviewPanel = function(slot0)
 	setActive(slot0.previewTF, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.previewTF, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.previewTF)
 	slot0:playLoadingAni()
 end
 
@@ -536,17 +532,16 @@ slot0.enablePartialBlur = function(slot0)
 
 		table.insert(slot1, slot0.previewBtn)
 		table.insert(slot1, slot0.rightPanel)
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
-			pbList = slot1,
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER - 1
+		slot0:OverlayPanel(slot0._tf, {
+			groupDelta = -1,
+			pbList = slot1
 		})
 	end
 end
 
 slot0.disablePartialBlur = function(slot0)
 	if slot0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+		slot0:UnOverlayPanel(slot0._tf)
 	end
 end
 

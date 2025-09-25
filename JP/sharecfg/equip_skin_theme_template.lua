@@ -2,7 +2,7 @@ pg = pg or {}
 pg.equip_skin_theme_template = {
 	{
 		id = 1,
-		name = "アザラシ",
+		name = "海豹系列",
 		ids = {
 			1,
 			2,
@@ -12,7 +12,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 2,
-		name = "魚",
+		name = "咸鱼系列",
 		ids = {
 			3,
 			4,
@@ -22,7 +22,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 3,
-		name = "お正月",
+		name = "新年快乐",
 		ids = {
 			5,
 			6,
@@ -33,7 +33,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 4,
-		name = "クリスマス",
+		name = "圣诞快乐",
 		ids = {
 			7,
 			8,
@@ -47,7 +47,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 5,
-		name = "ゲイムギョウ界",
+		name = "游戏业界",
 		ids = {
 			1001,
 			1002,
@@ -68,7 +68,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 6,
-		name = "タマちゃん",
+		name = "小海豹",
 		ids = {
 			22,
 			23,
@@ -79,7 +79,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 7,
-		name = "恭賀新春",
+		name = "恭贺新春",
 		ids = {
 			27,
 			28,
@@ -97,7 +97,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 8,
-		name = "新学期",
+		name = "开学季",
 		ids = {
 			50,
 			51,
@@ -120,7 +120,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 9,
-		name = "晩 夏",
+		name = "炎炎夏日",
 		ids = {
 			101,
 			102,
@@ -144,7 +144,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 10,
-		name = "猪突猛進",
+		name = "猪突猛进",
 		ids = {
 			120,
 			121,
@@ -168,7 +168,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 11,
-		name = "ロイヤル",
+		name = "皇家格调",
 		ids = {
 			140,
 			141,
@@ -192,7 +192,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 12,
-		name = "うたわれるもの",
+		name = "传颂之物",
 		ids = {
 			1051,
 			1052,
@@ -216,7 +216,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 13,
-		name = "キズナアイ",
+		name = "绊爱系列",
 		ids = {
 			1101,
 			1102,
@@ -241,7 +241,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 14,
-		name = "サディア旅情",
+		name = "撒丁风情",
 		ids = {
 			160,
 			161,
@@ -265,7 +265,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 15,
-		name = "激奏ライブ",
+		name = "激奏Live",
 		ids = {
 			180,
 			181,
@@ -313,7 +313,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 17,
-		name = "風雲北連",
+		name = "北联风云",
 		ids = {
 			220,
 			221,
@@ -337,7 +337,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 18,
-		name = "ユニオンカルチャー",
+		name = "白鹰风格",
 		ids = {
 			240,
 			241,
@@ -361,7 +361,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 19,
-		name = "田園アイリス",
+		name = "鸢尾印象",
 		ids = {
 			260,
 			261,
@@ -385,7 +385,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 20,
-		name = "饅頭野戦病院",
+		name = "啾啾野战医院",
 		ids = {
 			280,
 			281,
@@ -409,7 +409,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 21,
-		name = "重桜カルチャー",
+		name = "重樱匠心",
 		ids = {
 			300,
 			301,
@@ -433,7 +433,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 22,
-		name = "激唱のユニバース",
+		name = "激唱Universe",
 		ids = {
 			320,
 			321,
@@ -457,7 +457,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 23,
-		name = "女神たちのバカンス",
+		name = "女神假期",
 		ids = {
 			340,
 			341,
@@ -481,7 +481,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 24,
-		name = "鉄血風情",
+		name = "铁血风情",
 		ids = {
 			360,
 			361,
@@ -505,7 +505,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 25,
-		name = "恭賀新春",
+		name = "敬贺新禧",
 		ids = {
 			380,
 			381,
@@ -529,7 +529,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 26,
-		name = "饅頭ランド",
+		name = "啾啾乐园 ",
 		ids = {
 			400,
 			401,
@@ -553,7 +553,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 27,
-		name = "コラボ（アイドルマスター）",
+		name = "偶像大师",
 		ids = {
 			420,
 			421,
@@ -577,7 +577,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 28,
-		name = "ウェスタンライフ",
+		name = "啾啾牛仔",
 		ids = {
 			440,
 			441,
@@ -601,7 +601,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 29,
-		name = "饅頭水公園",
+		name = "水上乐园",
 		ids = {
 			460,
 			461,
@@ -656,7 +656,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 31,
-		name = "母港カフェ",
+		name = "女仆咖啡",
 		ids = {
 			500,
 			501,
@@ -680,7 +680,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 32,
-		name = "東煌の情緒",
+		name = "东煌意境",
 		ids = {
 			520,
 			521,
@@ -704,7 +704,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 33,
-		name = "赤き月の夜へようこそ",
+		name = "红月之夜",
 		ids = {
 			540,
 			541,
@@ -728,7 +728,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 34,
-		name = "東煌モダン",
+		name = "东煌时尚",
 		ids = {
 			560,
 			561,
@@ -752,7 +752,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 35,
-		name = "メルヘンワールド",
+		name = "童话世界",
 		ids = {
 			580,
 			581,
@@ -776,7 +776,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 36,
-		name = "舞踏パレード",
+		name = "舞蹈空间",
 		ids = {
 			600,
 			601,
@@ -800,7 +800,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 37,
-		name = "鉄血カルチャー",
+		name = "铁血之志",
 		ids = {
 			620,
 			621,
@@ -824,7 +824,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 38,
-		name = "饅頭の学園祭だピョ！",
+		name = "啾啾学园庆典",
 		ids = {
 			638,
 			639,
@@ -848,7 +848,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 39,
-		name = "勇者大冒険",
+		name = "异世界冒险",
 		ids = {
 			656,
 			657,
@@ -879,7 +879,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 40,
-		name = "ゴーストカーニバル",
+		name = "幽灵狂欢",
 		ids = {
 			670,
 			671,
@@ -903,7 +903,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 41,
-		name = "錬金工房",
+		name = "炼金工房",
 		ids = {
 			1200,
 			1201,
@@ -928,7 +928,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 42,
-		name = "一年中海を楽しむピョ！",
+		name = "南方假日",
 		ids = {
 			690,
 			691,
@@ -952,7 +952,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 43,
-		name = "東煌グルメ",
+		name = "东煌美食",
 		ids = {
 			710,
 			711,
@@ -976,14 +976,14 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 44,
-		name = "スイート・プレゼント",
+		name = "甜蜜之礼",
 		ids = {
 			1300
 		}
 	},
 	{
 		id = 45,
-		name = "ロイヤル学園",
+		name = "皇家教室",
 		ids = {
 			730,
 			731,
@@ -1007,7 +1007,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 46,
-		name = "饅頭無人島",
+		name = "海岛冒险",
 		ids = {
 			750,
 			751,
@@ -1031,7 +1031,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 47,
-		name = "妖精の森",
+		name = "精灵之森",
 		ids = {
 			771,
 			772,
@@ -1042,7 +1042,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 48,
-		name = "アニマルオフィス",
+		name = "办公时光",
 		ids = {
 			780,
 			781,
@@ -1066,7 +1066,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 49,
-		name = "真夏の夜の夢",
+		name = "夏日梦幻",
 		ids = {
 			810,
 			811,
@@ -1090,7 +1090,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 50,
-		name = "妖怪夜遊",
+		name = "常世夜游",
 		ids = {
 			830,
 			831,
@@ -1114,7 +1114,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 51,
-		name = "パイレーツ大集結！",
+		name = "航海集结",
 		ids = {
 			850,
 			851,
@@ -1138,7 +1138,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 52,
-		name = "閃乱カグラ",
+		name = "闪乱神乐",
 		ids = {
 			1400,
 			1401,
@@ -1162,7 +1162,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 53,
-		name = "クラブナイト",
+		name = "港区喧嚣夜",
 		ids = {
 			870,
 			871,
@@ -1186,7 +1186,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 54,
-		name = "軒轅秘宝",
+		name = "轩辕秘宝",
 		ids = {
 			890,
 			891,
@@ -1211,7 +1211,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 55,
-		name = "怪盗都市",
+		name = "罪恶都市",
 		ids = {
 			910,
 			911,
@@ -1235,7 +1235,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 56,
-		name = "共鳴のパッション",
+		name = "共鸣Passion",
 		ids = {
 			950,
 			951,
@@ -1259,7 +1259,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 57,
-		name = "クルーズ・バケーション！",
+		name = "邮轮假日",
 		ids = {
 			970,
 			971,
@@ -1283,7 +1283,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 58,
-		name = "リトル学園",
+		name = "童心学院",
 		ids = {
 			4001,
 			4002,
@@ -1308,7 +1308,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 59,
-		name = "ウェスタン昔話",
+		name = "西部往事",
 		ids = {
 			4021,
 			4022,
@@ -1332,7 +1332,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 60,
-		name = "楽園ドリーム",
+		name = "梦幻乐园",
 		ids = {
 			4041,
 			4042,
@@ -1356,7 +1356,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 61,
-		name = "ハロウィンホラー",
+		name = "恐怖狂潮",
 		ids = {
 			4059,
 			4060,
@@ -1380,7 +1380,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 62,
-		name = "toloveる",
+		name = "To LOVE-Ru ",
 		ids = {
 			1450,
 			1451,
@@ -1404,7 +1404,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 63,
-		name = "ラフフォース",
+		name = "荒野力量",
 		ids = {
 			4077,
 			4078,
@@ -1428,7 +1428,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 64,
-		name = "瑞光迎春",
+		name = "瑞光迎岁 ",
 		ids = {
 			4095,
 			4096,
@@ -1452,7 +1452,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 65,
-		name = "ファラオの千年秘宝",
+		name = "黄金法老的秘器 ",
 		ids = {
 			4113,
 			4114,
@@ -1476,7 +1476,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 66,
-		name = "病院冒険",
+		name = "病院冒险",
 		ids = {
 			4131,
 			4132,
@@ -1500,7 +1500,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 67,
-		name = "チュリッパ牧歌",
+		name = "郁金乡间",
 		ids = {
 			4149,
 			4150,
@@ -1524,7 +1524,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 68,
-		name = "シーサイド",
+		name = "假日海滨 ",
 		ids = {
 			4167,
 			4168,
@@ -1548,7 +1548,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 69,
-		name = "ブラック★ロックシューター",
+		name = "BLACK★ROCK SHOOTER",
 		ids = {
 			1471,
 			1472,
@@ -1564,7 +1564,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 70,
-		name = "鉄道の旅",
+		name = "铁道之旅",
 		ids = {
 			4186,
 			4187,
@@ -1588,7 +1588,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 71,
-		name = "コラボ（ユミアのアトリエ）",
+		name = "炼金工房II",
 		ids = {
 			1481,
 			1482,
@@ -1613,7 +1613,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 72,
-		name = "淵層の幻境",
+		name = "奇渊奇境",
 		ids = {
 			4204,
 			4205,
@@ -1637,7 +1637,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 73,
-		name = "幻夢アマハラ",
+		name = "幻梦天原",
 		ids = {
 			4222,
 			4223,
@@ -1661,7 +1661,7 @@ pg.equip_skin_theme_template = {
 	},
 	[101] = {
 		id = 101,
-		name = "プラネットダンス",
+		name = "星辰无垠",
 		ids = {
 			2001,
 			2002,
@@ -1680,7 +1680,7 @@ pg.equip_skin_theme_template = {
 	},
 	[102] = {
 		id = 102,
-		name = "マジックシアター",
+		name = "魔术剧场",
 		ids = {
 			2014,
 			2015,
@@ -1701,7 +1701,7 @@ pg.equip_skin_theme_template = {
 	},
 	[103] = {
 		id = 103,
-		name = "万象風雲",
+		name = "风云万象",
 		ids = {
 			2029,
 			2030,
@@ -1721,7 +1721,7 @@ pg.equip_skin_theme_template = {
 	},
 	[104] = {
 		id = 104,
-		name = "レトロゲーマー",
+		name = "复古电玩",
 		ids = {
 			2043,
 			2044,
@@ -1741,7 +1741,7 @@ pg.equip_skin_theme_template = {
 	},
 	[105] = {
 		id = 105,
-		name = "マジックジェネレーション",
+		name = "魔力纪元 ",
 		ids = {
 			2061,
 			2062,
@@ -1761,7 +1761,7 @@ pg.equip_skin_theme_template = {
 	},
 	[106] = {
 		id = 106,
-		name = "サイバー紀元",
+		name = "赛博纪元",
 		ids = {
 			2075,
 			2076,
@@ -1781,7 +1781,7 @@ pg.equip_skin_theme_template = {
 	},
 	[107] = {
 		id = 107,
-		name = "光と闇",
+		name = "光与暗",
 		ids = {
 			2089,
 			2090,
@@ -1804,12 +1804,16 @@ pg.equip_skin_theme_template = {
 			2101,
 			2102,
 			2103,
-			2104
+			2104,
+			2105,
+			2106,
+			2107,
+			2108
 		}
 	},
 	[199] = {
 		id = 199,
-		name = "その他",
+		name = "其他",
 		ids = {
 			398,
 			3001,

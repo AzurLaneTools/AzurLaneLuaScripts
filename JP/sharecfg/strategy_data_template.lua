@@ -9,6 +9,7 @@ pg.strategy_data_template = setmetatable({
 		9,
 		10,
 		11,
+		12,
 		13,
 		14,
 		16,
@@ -369,8 +370,8 @@ pg.base = pg.base or {}
 pg.base.strategy_data_template = {
 	{
 		buff_id = 100,
-		name = "単縦陣",
-		desc = "次の戦闘で、全艦火力・雷装+15%、回避-10%。",
+		name = "单纵阵突入",
+		desc = "下一场战斗，舰队全员炮击、雷击提高15%，机动降低10%",
 		type = 1,
 		iconSize = "",
 		buff_type = 0,
@@ -380,8 +381,8 @@ pg.base.strategy_data_template = {
 	},
 	{
 		buff_id = 110,
-		name = "複縦陣",
-		desc = "次の戦闘で、全艦回避+30%、火力・雷装-5%。",
+		name = "复纵阵前进",
+		desc = "下一场战斗，舰队全员机动提高30%，炮击、雷击降低5%",
 		type = 1,
 		iconSize = "",
 		buff_type = 0,
@@ -391,8 +392,8 @@ pg.base.strategy_data_template = {
 	},
 	{
 		buff_id = 120,
-		name = "輪形陣",
-		desc = "次の戦闘で、全艦対空+20%。",
+		name = "轮型阵护卫",
+		desc = "下一场战斗，舰队全员防空提高20%",
 		type = 1,
 		iconSize = "",
 		buff_type = 0,
@@ -402,8 +403,8 @@ pg.base.strategy_data_template = {
 	},
 	{
 		buff_id = 0,
-		name = "緊急補修",
-		desc = "戦闘参加可能な艦のHPが10%回復する。",
+		name = "紧急维修",
+		desc = "当前舰队存活角色回复总血量的10%",
 		type = 2,
 		iconSize = "",
 		buff_type = 0,
@@ -416,8 +417,8 @@ pg.base.strategy_data_template = {
 	},
 	[9] = {
 		buff_id = 0,
-		name = "交換",
-		desc = "隣の交戦中の味方艦隊と位置を交換する",
+		name = "交换",
+		desc = "与友方队伍交换位置",
 		type = 2,
 		iconSize = "",
 		buff_type = 0,
@@ -429,8 +430,8 @@ pg.base.strategy_data_template = {
 	},
 	[10] = {
 		buff_id = 0,
-		name = "範囲外支援 ",
-		desc = "潜水艦の支援範囲外でも潜水支援を使用可能 ",
+		name = "范围外支援",
+		desc = "可在潜艇狩猎范围外，呼叫潜艇支援",
 		type = 4,
 		iconSize = "",
 		buff_type = 0,
@@ -442,8 +443,8 @@ pg.base.strategy_data_template = {
 	},
 	[11] = {
 		buff_id = 0,
-		name = "作戦範囲変更 ",
-		desc = "潜水艦の作戦エリアを変更する ",
+		name = "作战区域变更",
+		desc = "移动潜艇的狩猎范围",
 		type = 3,
 		iconSize = "",
 		buff_type = 0,
@@ -454,10 +455,23 @@ pg.base.strategy_data_template = {
 			1.1
 		}
 	},
+	[12] = {
+		buff_id = 0,
+		name = "声呐探测",
+		desc = "申请基地进行一次陆基反潜支援，对全地图进行一次反潜侦察，标记所有潜行中的潜艇",
+		type = 5,
+		iconSize = "",
+		buff_type = 0,
+		id = 12,
+		icon = "12",
+		arg = {
+			area_scout
+		}
+	},
 	[13] = {
 		buff_id = 9670,
-		name = "照明弾発射用意",
-		desc = "照明弾補給を入手した。入手した艦隊は今後$1回の戦闘中に照明弾を発射する事が可能",
+		name = "照明弹",
+		desc = "获得照明弹补给，此舰队在后续的$1场战斗中将会获得额外照明弹支援。",
 		type = 6,
 		iconSize = "",
 		buff_type = 0,
@@ -467,8 +481,8 @@ pg.base.strategy_data_template = {
 	},
 	[14] = {
 		buff_id = 9600,
-		name = "探照灯照射用意",
-		desc = "灯台を占拠した。戦闘中味方の探照灯支援が行われることがある",
+		name = "灯塔",
+		desc = "拥有灯塔控制权，舰队在战斗中将会获得来自灯塔的照明支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -478,8 +492,8 @@ pg.base.strategy_data_template = {
 	},
 	[16] = {
 		buff_id = 0,
-		name = "悪天候",
-		desc = "夜の海は悪天候に見舞われている。味方前衛艦隊・敵が「隠蔽範囲」が獲得し、攻撃から狙われにくくなる",
+		name = "夜战",
+		desc = "苏丽高海峡被黑夜和雷雨笼罩，己方先锋舰队与敌方舰队均获得「夜战隐蔽」状态。被攻击时，舰队会依据当前隐蔽强度获得额外的规避能力。",
 		type = 6,
 		iconSize = "",
 		buff_type = 0,
@@ -489,8 +503,8 @@ pg.base.strategy_data_template = {
 	},
 	[17] = {
 		buff_id = 0,
-		name = "海霧",
-		desc = "艦隊はスコールに覆われている。戦闘中、味方・敵の隠蔽範囲縮小速度が遅くなる",
+		name = "海雾",
+		desc = "处于海雾区域中，战斗时己方和敌方的隐蔽强度降低速率减慢。",
 		type = 6,
 		iconSize = "",
 		buff_type = 0,
@@ -500,8 +514,8 @@ pg.base.strategy_data_template = {
 	},
 	[18] = {
 		buff_id = 0,
-		name = "ミサイル",
-		desc = "海域マップでミサイル攻撃を1回行える",
+		name = "导弹",
+		desc = "进行一次制导打击",
 		type = 2,
 		iconSize = "",
 		buff_type = 0,
@@ -513,8 +527,8 @@ pg.base.strategy_data_template = {
 	},
 	[47] = {
 		buff_id = 0,
-		name = "作戦効率化",
-		desc = "戦闘時消費する燃料が100%アップし、指揮官・艦船・オフニャ経験値、信頼度の入手が100%アップ。戦闘終了時のアイテム・報酬入手回数が2回になる",
+		name = "高效作战",
+		desc = "当前关卡中的战斗石油消耗增加100%;\n同时战斗结算时指挥官、指挥喵、角色经验获取提高100%，额外获得一次掉落;\n心情值消耗，好感度获取均提高100%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -524,8 +538,8 @@ pg.base.strategy_data_template = {
 	},
 	[90] = {
 		buff_id = 90,
-		name = "危機発生",
-		desc = "次の戦闘中、おじゃまニセキズナアイが出現し、潜水支援/航空攻撃/魚雷攻撃/主砲攻撃が機能しなくなります。おじゃまニセキズナアイは連続タップで退治することができます",
+		name = "危机出现!",
+		desc = "下一场战斗中会出现绊爱的干扰：潜艇召唤/舰载机攻击/鱼雷发射/主炮跨射功能将陷入瘫痪（包括自律模式），连续点击出现的绊爱即可消除影响",
 		type = 90,
 		iconSize = "",
 		buff_type = 0,
@@ -535,8 +549,8 @@ pg.base.strategy_data_template = {
 	},
 	[91] = {
 		buff_id = 91,
-		name = "危機回避～",
-		desc = "危機回避～！戦闘中おじゃまニセキズナアイが出現しなくなります",
+		name = "危机回避~",
+		desc = "危机规避~战斗中不会出现干扰了",
 		type = 90,
 		iconSize = "",
 		buff_type = 0,
@@ -546,8 +560,8 @@ pg.base.strategy_data_template = {
 	},
 	[92] = {
 		buff_id = 0,
-		name = "夜がやってきた！",
-		desc = "「夜状態」では、「待ち伏せマス」に敵が出現するようになります",
+		name = "夜幕降临 ",
+		desc = "黑夜来临，现在前往危险区域会遭遇怪物伏击，请小心 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -557,8 +571,8 @@ pg.base.strategy_data_template = {
 	},
 	[93] = {
 		buff_id = 0,
-		name = "朝を迎えた！",
-		desc = "「昼状態」では、「待ち伏せマス」に敵は出現しません",
+		name = "旭日初升 ",
+		desc = "太阳升起，现在危险区域的怪物伏击效果消失了 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -568,8 +582,8 @@ pg.base.strategy_data_template = {
 	},
 	[94] = {
 		buff_id = 9727,
-		name = "航空支援（敵）",
-		desc = "航空支援を担う敵艦隊の存在が確認された。戦闘中、敵は航空攻撃を仕掛けてくるだろう…",
+		name = "空中支援（敌方） ",
+		desc = "场上存在敌方航空支援舰队，舰队在战斗中将会遭到来自敌方的空中打击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -579,8 +593,8 @@ pg.base.strategy_data_template = {
 	},
 	[95] = {
 		buff_id = 0,
-		name = "航空支援（味方）",
-		desc = "航空支援が可能な味方艦隊が指示を待っている。戦闘中、我々の敵に航空攻撃を仕掛けてくれるだろう…",
+		name = "空中支援（己方） ",
+		desc = "场上存在我方航空支援舰队，舰队在战斗中将会获得来自我方的空中支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -590,8 +604,8 @@ pg.base.strategy_data_template = {
 	},
 	[96] = {
 		buff_id = 262,
-		name = "情報掌握",
-		desc = "味方艦隊の情報が敵中枢艦隊に知られた。当該艦隊は次の敵中枢艦隊との戦闘で、与えるダメージが30％ダウンし、受けるダメージが30％アップする",
+		name = "战术分析",
+		desc = "（实际生效挂载buff用）敌方旗舰掌握了我方舰队的情报，受「战术分析」影响的舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 1,
@@ -601,8 +615,8 @@ pg.base.strategy_data_template = {
 	},
 	[97] = {
 		buff_id = 0,
-		name = "情報掌握",
-		desc = "味方艦隊の情報が敵中枢艦隊に知られた。当該艦隊は次の敵中枢艦隊との戦闘で、与えるダメージが30％ダウンし、受けるダメージが30％アップする",
+		name = "战术分析",
+		desc = "敌方旗舰掌握了我方舰队的情报，受「战术分析」影响的舰队在下一场与敌方旗舰的战斗中，造成的伤害降低30%，受到的伤害增加30%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -612,8 +626,8 @@ pg.base.strategy_data_template = {
 	},
 	[1000] = {
 		buff_id = 0,
-		name = "航空攻撃",
-		desc = "敵艦隊に航空攻撃を1回仕掛ける",
+		name = "空袭打击 ",
+		desc = "进行一次空袭打击",
 		type = 7,
 		iconSize = "",
 		buff_type = 0,
@@ -625,8 +639,8 @@ pg.base.strategy_data_template = {
 	},
 	[1001] = {
 		buff_id = 0,
-		name = "敵艦駆逐",
-		desc = "敵艦隊を周りの空いているマスに移動させる",
+		name = "战术驱离 ",
+		desc = "呼叫舰载机将目标向周围空置海面驱离一格",
 		type = 7,
 		iconSize = "",
 		buff_type = 0,
@@ -649,8 +663,8 @@ pg.base.strategy_data_template = {
 	},
 	[8732] = {
 		buff_id = 8732,
-		name = "科野の神籤",
-		desc = "信濃による支援航空攻撃を3回発動可能。発動すると、味方艦隊が順次「火力5%アップ」「雷装5%アップ」「航空5%アップ」を得る",
+		name = "蝴蝶之梦",
+		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -660,8 +674,8 @@ pg.base.strategy_data_template = {
 	},
 	[8744] = {
 		buff_id = 8744,
-		name = "科野の神籤",
-		desc = "信濃による支援航空攻撃を3回発動可能。発動すると、味方艦隊が順次「火力5%アップ」「雷装5%アップ」「航空5%アップ」を得る",
+		name = "蝴蝶之梦",
+		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -671,8 +685,8 @@ pg.base.strategy_data_template = {
 	},
 	[8745] = {
 		buff_id = 8745,
-		name = "科野の神籤",
-		desc = "信濃による支援航空攻撃を3回発動可能。発動すると、味方艦隊が順次「火力5%アップ」「雷装5%アップ」「航空5%アップ」を得る",
+		name = "蝴蝶之梦",
+		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -682,8 +696,8 @@ pg.base.strategy_data_template = {
 	},
 	[8746] = {
 		buff_id = 8746,
-		name = "科野の神籤",
-		desc = "信濃による支援航空攻撃を3回発動可能。発動すると、味方艦隊が順次「火力5%アップ」「雷装5%アップ」「航空5%アップ」を得る",
+		name = "蝴蝶之梦",
+		desc = "战斗中会得到来自{namecode:182}的三轮弹幕支援，同时依次暂时提高我方交战舰队5%炮击/雷击/航空属性",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -704,8 +718,8 @@ pg.base.strategy_data_template = {
 	},
 	[8801] = {
 		buff_id = 8801,
-		name = "制御権喪失",
-		desc = "浮島要塞の制御権が奪われた！戦闘中に敵航空機が出現してしまう",
+		name = "失去浮岛控制权 ",
+		desc = "失去浮岛控制权，海域内的战斗中将受到额外航空编队攻击 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -715,8 +729,8 @@ pg.base.strategy_data_template = {
 	},
 	[8802] = {
 		buff_id = 8802,
-		name = "制御権確保",
-		desc = "浮島要塞は我が手中にあり！戦闘中に味方航空機が出現し、敵を攻撃してくれる",
+		name = "拥有浮岛控制权 ",
+		desc = "拥有浮岛控制权，海域内的战斗中将得到航空编队支援 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -726,8 +740,8 @@ pg.base.strategy_data_template = {
 	},
 	[8803] = {
 		buff_id = 8803,
-		name = "味方要塞航空支援",
-		desc = "敵要塞航空支援",
+		name = "我方浮岛机场支援",
+		desc = "我方浮岛机场支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -737,8 +751,8 @@ pg.base.strategy_data_template = {
 	},
 	[8806] = {
 		buff_id = 8806,
-		name = "味方要塞航空支援",
-		desc = "敵要塞航空支援",
+		name = "我方浮岛机场支援",
+		desc = "我方浮岛机场支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -748,8 +762,8 @@ pg.base.strategy_data_template = {
 	},
 	[8809] = {
 		buff_id = 8809,
-		name = "味方要塞航空支援",
-		desc = "敵要塞航空支援",
+		name = "我方浮岛机场支援",
+		desc = "我方浮岛机场支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -759,8 +773,8 @@ pg.base.strategy_data_template = {
 	},
 	[8812] = {
 		buff_id = 8812,
-		name = "味方要塞航空支援",
-		desc = "敵要塞航空支援",
+		name = "我方浮岛机场支援",
+		desc = "我方浮岛机场支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -770,8 +784,8 @@ pg.base.strategy_data_template = {
 	},
 	[8815] = {
 		buff_id = 8815,
-		name = "味方要塞航空支援",
-		desc = "敵要塞航空支援",
+		name = "我方浮岛机场支援",
+		desc = "我方浮岛机场支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -781,8 +795,8 @@ pg.base.strategy_data_template = {
 	},
 	[8832] = {
 		buff_id = 8832,
-		name = "未来を開く砲撃",
-		desc = "味方からの支援砲撃を1回行い、さらに一定時間、敵に持続ダメージを与える。（META戦出現艦船変更から時間が経てば経つほどダメージUP）",
+		name = "火力支援",
+		desc = "战斗中会获得一次额外火力支援，火力支援会对敌方造成伤害，并为敌人施加一个持续伤害的特殊状态。 随着本期信标·META开放的日期增加，火力支援提供的伤害也会增加。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -792,8 +806,8 @@ pg.base.strategy_data_template = {
 	},
 	[8841] = {
 		buff_id = 8841,
-		name = "フォトン・プリズム",
-		desc = "戦闘開始時、味方艦隊から支援弾幕が展開される。",
+		name = "璀璨",
+		desc = "己方舰队将在战斗中获得来自璀璨都市的弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -803,8 +817,8 @@ pg.base.strategy_data_template = {
 	},
 	[8842] = {
 		buff_id = 8842,
-		name = "アフタグロー・アンブラ",
-		desc = "味方艦隊の支援弾幕が展開せず、敵艦隊に謎の個体が出現する。",
+		name = "余辉",
+		desc = "来自璀璨都市的弹幕支援已经停止，敌方舰队得到了火力加强 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -869,8 +883,8 @@ pg.base.strategy_data_template = {
 	},
 	[8858] = {
 		buff_id = 8858,
-		name = "アフタグロー・プリズム",
-		desc = "戦闘開始時、味方艦隊から支援弾幕が展開され、敵艦隊に謎の個体が出現する",
+		name = "璀璨余辉",
+		desc = "己方舰队将在战斗中获得来自璀璨都市的弹幕支援，同时敌方舰队得到了火力加强 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -880,8 +894,8 @@ pg.base.strategy_data_template = {
 	},
 	[8863] = {
 		buff_id = 0,
-		name = "迷路",
-		desc = "セイレーンが作った迷路が海を覆っている。\n艦隊が3回行動する度に、迷路の構造が変化する",
+		name = "迷宫",
+		desc = "塞壬制造的特殊迷宫覆盖了整片海面。\n舰队每进行3次行动，海域中迷宫的结构就会发生一次改变",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -891,8 +905,8 @@ pg.base.strategy_data_template = {
 	},
 	[8864] = {
 		buff_id = 8864,
-		name = "セイレーンの歌",
-		desc = "強力なジャミング装置が作動している。\n戦闘中、敵のジャミング効果を与える特殊支援砲撃が味方を襲うことがある。",
+		name = "海妖之歌",
+		desc = "塞壬使用了某种用于模拟“海妖之歌”的强烈干扰装置。\n在战斗中，我方舰队将周期性受到带有干扰效果的敌方弹幕攻击",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -902,8 +916,8 @@ pg.base.strategy_data_template = {
 	},
 	[8865] = {
 		buff_id = 8865,
-		name = "空中支援",
-		desc = "アクィラの支援により、\n戦闘中味方からの特殊航空攻撃が出現する場合がある。",
+		name = "空军支援 ",
+		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -913,8 +927,8 @@ pg.base.strategy_data_template = {
 	},
 	[8867] = {
 		buff_id = 8867,
-		name = "空中支援",
-		desc = "アクィラの支援により、\n戦闘中味方からの特殊航空攻撃が出現する場合がある。",
+		name = "空军支援 ",
+		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -924,8 +938,8 @@ pg.base.strategy_data_template = {
 	},
 	[8869] = {
 		buff_id = 8869,
-		name = "空中支援",
-		desc = "アクィラの支援により、\n戦闘中味方からの特殊航空攻撃が出現する場合がある。",
+		name = "空军支援 ",
+		desc = "获得了撒丁帝国空军支援。\n战斗时将会有额外的航空编队加入战斗",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -935,8 +949,8 @@ pg.base.strategy_data_template = {
 	},
 	[8874] = {
 		buff_id = 8874,
-		name = "再現環境補正システム",
-		desc = "戦闘中、重桜所属艦船が敵に与えるダメージが5%アップし、受けるダメージが5%増加する；ユニオン所属艦船が敵に与えるダメージが5%ダウンし、受けるダメージが5%軽減する",
+		name = "记录修正-AF ",
+		desc = "舰队中重樱角色在战斗中造成的伤害提升5%，受到的伤害提升5%\n舰队中白鹰角色在战斗中造成的伤害降低5%，受到的伤害降低5%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -946,8 +960,8 @@ pg.base.strategy_data_template = {
 	},
 	[8877] = {
 		buff_id = 8877,
-		name = "セイレーン海霧",
-		desc = "戦場はセイレーンが作り出した海霧に覆われている。味方艦隊の命中が5%ダウンし、海域マップでは敵艦隊の種類を確認できない",
+		name = "海雾弥漫",
+		desc = "无数危险正隐藏在海雾之中，小心应对。舰队全员命中降低5%，同时无法在交战前区分敌方舰队类型",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -957,8 +971,8 @@ pg.base.strategy_data_template = {
 	},
 	[8880] = {
 		buff_id = 8880,
-		name = "ミラー・ハッキング",
-		desc = "謎の友軍が支援してくれている。戦闘中、敵を攻撃する支援弾幕が発生する場合がある",
+		name = "镜面侵入",
+		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -968,8 +982,8 @@ pg.base.strategy_data_template = {
 	},
 	[8882] = {
 		buff_id = 8882,
-		name = "ミラー・ハッキング",
-		desc = "謎の友軍が支援してくれている。戦闘中、敵を攻撃する支援弾幕が発生する場合がある",
+		name = "镜面侵入",
+		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -979,8 +993,8 @@ pg.base.strategy_data_template = {
 	},
 	[8884] = {
 		buff_id = 8884,
-		name = "ミラー・ハッキング",
-		desc = "謎の友軍が支援してくれている。戦闘中、敵を攻撃する支援弾幕が発生する場合がある",
+		name = "镜面侵入",
+		desc = "在神秘友军的帮助下，我方在镜面海域中也获得了些许优势。舰队在战斗中将会获得额外弹幕火力支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -990,8 +1004,8 @@ pg.base.strategy_data_template = {
 	},
 	[8909] = {
 		buff_id = 0,
-		name = "ハンティングプロトコル",
-		desc = "海域内のセイレーン全艦隊が味方に向けて追撃してきます",
+		name = "猎杀战术 ",
+		desc = "海域中的所有塞壬舰队都将进行追击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1001,8 +1015,8 @@ pg.base.strategy_data_template = {
 	},
 	[8910] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる艦隊はダメージを受けます。\n着弾までの移動可能回数：3",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：3",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1012,8 +1026,8 @@ pg.base.strategy_data_template = {
 	},
 	[8911] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる艦隊はダメージを受けます。\n着弾までの移動可能回数：2",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：2",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1023,8 +1037,8 @@ pg.base.strategy_data_template = {
 	},
 	[8912] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる艦隊はダメージを受けます。\n着弾までの移動可能回数：1",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的所有舰队造成伤害，请注意规避。\n距离下一次导弹打击前的行动次数：1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1034,8 +1048,8 @@ pg.base.strategy_data_template = {
 	},
 	[8913] = {
 		buff_id = 0,
-		name = "ディザスタープロトコル",
-		desc = "セイレーンによる気象操作装置が危険エリアを作り出しています。艦隊が移動する度に危険エリアが拡大していきます。ご注意ください",
+		name = "徐进战术",
+		desc = "塞壬在海域中制造了随着回合数不断扩大的危险区域。行动结束后，位于危险区域中的舰队会受到一次伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1045,8 +1059,8 @@ pg.base.strategy_data_template = {
 	},
 	[8914] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる敵艦隊はダメージを受けます。\n着弾までの移動可能回数：3",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：3",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1056,8 +1070,8 @@ pg.base.strategy_data_template = {
 	},
 	[8915] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる敵艦隊はダメージを受けます。\n着弾までの移動可能回数：2",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：2",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1067,8 +1081,8 @@ pg.base.strategy_data_template = {
 	},
 	[8916] = {
 		buff_id = 0,
-		name = "着弾予測エリア",
-		desc = "海域全体がミサイルの攻撃範囲内になっています。ミサイルが着弾したマスにいる敵艦隊はダメージを受けます。\n着弾までの移動可能回数：1",
+		name = "导弹打击区",
+		desc = "当前海域位于导弹打击区中，导弹将会对锁定区域内的敌方舰队造成伤害。\n距离下一次导弹打击前的行动次数：1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1078,8 +1092,8 @@ pg.base.strategy_data_template = {
 	},
 	[8917] = {
 		buff_id = 0,
-		name = "絶海氷層",
-		desc = "艦隊の移動を阻む氷の壁が出現している。対応する守備艦隊を撃破すると除去可能",
+		name = "坚冰",
+		desc = "海域中存在坚固的冰墙，需要击败特定地形中的守卫舰队才能将其消除。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1089,8 +1103,8 @@ pg.base.strategy_data_template = {
 	},
 	[8918] = {
 		buff_id = 8918,
-		name = "演算式シンクロナイズⅠ",
-		desc = "隕石接続によって演算された幻像。\n戦闘中、無差別で敵味方を攻撃する弾幕が出現します",
+		name = "精神同步I",
+		desc = "——「███解除：22.8％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1100,8 +1114,8 @@ pg.base.strategy_data_template = {
 	},
 	[8919] = {
 		buff_id = 8918,
-		name = "演算式シンクロナイズⅡ",
-		desc = "隕石接続によって演算された幻像。\n戦闘中、無差別で敵味方を攻撃する弾幕が出現します",
+		name = "精神同步II",
+		desc = "——「███解除：37.1％」——\n幻象与现实之间的界限开始模糊。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1111,8 +1125,8 @@ pg.base.strategy_data_template = {
 	},
 	[8920] = {
 		buff_id = 8918,
-		name = "演算式シンクロナイズⅢ",
-		desc = "隕石接続によって演算された幻像。\n戦闘中、無差別で敵味方を攻撃する弾幕が出現します",
+		name = "精神同步III",
+		desc = "——「███解除：89.9％」——\n现实即为幻象，幻象即为现实。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1122,8 +1136,8 @@ pg.base.strategy_data_template = {
 	},
 	[8941] = {
 		buff_id = 0,
-		name = "鉄血ジャミング",
-		desc = "鉄血によるジャミングで、敵艦隊の規模と種類が海域マップ上で判別不可能になっている。注意！",
+		name = "幻光系统干扰",
+		desc = "海域中充满了幻光系统的干扰，侦察到的敌方舰队并不一定是真实存在的。请注意判断，小心前进。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1133,8 +1147,8 @@ pg.base.strategy_data_template = {
 	},
 	[8942] = {
 		buff_id = 8942,
-		name = "特異点の波動",
-		desc = "特異点の特殊環境により、戦闘中味方の主砲が与えるダメージが20%アップ、味方の航空攻撃が与えるダメージが20%ダウン、さらに味方戦艦主砲の散布が5アップ",
+		name = "奇异点波动",
+		desc = "受到该处奇异点的特殊环境影响：战斗中己方舰队炮击伤害增加20%，航空伤害减少20%，战舰主炮散布范围提高5点。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1144,8 +1158,8 @@ pg.base.strategy_data_template = {
 	},
 	[8943] = {
 		buff_id = 0,
-		name = "セイレーンジャミング",
-		desc = "セイレーンの特殊施設によるジャミングが戦場全域に影響を及ぼしている。注意！",
+		name = "核心数据塔修正",
+		desc = "塞壬的核心数据塔正在对区域中的所有参战舰队施加干扰，请尽快完成作战。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1155,8 +1169,8 @@ pg.base.strategy_data_template = {
 	},
 	[8944] = {
 		buff_id = 8944,
-		name = "セイレーンジャミング・誘爆",
-		desc = "戦闘中の艦隊は炎上ダメージを受け続ける",
+		name = "数据修正-燃烧",
+		desc = "战斗中，参战舰队将会受到持续不断的燃烧伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1166,8 +1180,8 @@ pg.base.strategy_data_template = {
 	},
 	[8945] = {
 		buff_id = 8945,
-		name = "セイレーンジャミング・遅滞",
-		desc = "戦闘中の艦隊の速力が大幅ダウン",
+		name = "数据修正-迟滞",
+		desc = "战斗中，参战舰队的航速将会大幅下降。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1177,8 +1191,8 @@ pg.base.strategy_data_template = {
 	},
 	[8946] = {
 		buff_id = 8946,
-		name = "セイレーンジャミング・撹乱",
-		desc = "戦闘中の艦隊は一定の間隔で電磁ジャミングの影響を受ける",
+		name = "数据修正-扰乱",
+		desc = "战斗中，参战舰队将会受到周期性的电磁干扰。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1188,8 +1202,8 @@ pg.base.strategy_data_template = {
 	},
 	[8953] = {
 		buff_id = 8953,
-		name = "鉄血艦隊支援",
-		desc = "鉄血艦隊による支援が展開される。敵ジャミング効果が無効になり、さらに戦闘中味方による支援弾幕が出現する",
+		name = "铁血战役支援",
+		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1199,8 +1213,8 @@ pg.base.strategy_data_template = {
 	},
 	[8955] = {
 		buff_id = 8955,
-		name = "鉄血艦隊支援",
-		desc = "鉄血艦隊による支援が展開される。敵ジャミング効果が無効になり、さらに戦闘中味方による支援弾幕が出現する",
+		name = "铁血战役支援",
+		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1210,8 +1224,8 @@ pg.base.strategy_data_template = {
 	},
 	[8957] = {
 		buff_id = 8957,
-		name = "鉄血艦隊支援",
-		desc = "鉄血艦隊による支援が展開される。敵ジャミング効果が無効になり、さらに戦闘中味方による支援弾幕が出現する",
+		name = "铁血战役支援",
+		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1221,8 +1235,8 @@ pg.base.strategy_data_template = {
 	},
 	[8959] = {
 		buff_id = 8959,
-		name = "鉄血艦隊支援",
-		desc = "鉄血艦隊による支援が展開される。敵ジャミング効果が無効になり、さらに戦闘中味方による支援弾幕が出現する",
+		name = "铁血战役支援",
+		desc = "得到铁血的战役协助，幻光系统干扰消失，并且在战斗中获得了额外的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1232,8 +1246,8 @@ pg.base.strategy_data_template = {
 	},
 	[8974] = {
 		buff_id = 8942,
-		name = "特異点の波動TYPE-A",
-		desc = "特異点の特殊環境により、戦闘中味方の砲撃が与えるダメージが20%アップ、味方の航空攻撃が与えるダメージが20%ダウン、さらに味方戦艦主砲の散布が5アップ",
+		name = "奇异点波动TYPEA",
+		desc = "受到该处奇异点的特殊环境影响：战斗中己方舰队炮击伤害增加20%，航空伤害减少20%，战舰主炮散布范围提高5点。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1243,8 +1257,8 @@ pg.base.strategy_data_template = {
 	},
 	[8975] = {
 		buff_id = 8975,
-		name = "特異点の波動TYPE-B",
-		desc = "特異点の特殊環境により、味方の航空攻撃が与えるダメージが20%アップし、味方の砲撃が与えるダメージが20%ダウン",
+		name = "奇异点波动TYPEB",
+		desc = "受到该处奇异点的特殊环境影响：\n战斗中己方舰队航空伤害增加20%，炮击伤害减少20%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1254,8 +1268,8 @@ pg.base.strategy_data_template = {
 	},
 	[8976] = {
 		buff_id = 8918,
-		name = "演算式シンクロナイズⅠ",
-		desc = "「敵」の精神干渉によって演算された幻像。\n戦闘中、無差別に敵味方を攻撃する弾幕が出現",
+		name = "精神同步I",
+		desc = "——「███解除：10.5％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1265,8 +1279,8 @@ pg.base.strategy_data_template = {
 	},
 	[9211] = {
 		buff_id = 9211,
-		name = "竜宮仕掛-白浪",
-		desc = "竜宮仕掛により、戦闘中敵の支援弾幕が出現します",
+		name = "龙宫机关-怒涛 ",
+		desc = "敌方控制着龙宫机关-怒涛，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1276,8 +1290,8 @@ pg.base.strategy_data_template = {
 	},
 	[9212] = {
 		buff_id = 9212,
-		name = "竜宮仕掛-白浪",
-		desc = "確保した竜宮仕掛により、戦闘中味方の支援弾幕が出現します",
+		name = "龙宫秘宝-怒涛 ",
+		desc = "已取得龙宫秘宝-怒涛，己方舰队在战斗中将受到来自机关的额外弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1287,8 +1301,8 @@ pg.base.strategy_data_template = {
 	},
 	[9213] = {
 		buff_id = 9213,
-		name = "白浪弾幕支援Lv1",
-		desc = "特殊支援弾幕",
+		name = "水属性弹幕支援Lv1",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1298,8 +1312,8 @@ pg.base.strategy_data_template = {
 	},
 	[9216] = {
 		buff_id = 9216,
-		name = "白浪弾幕支援Lv2",
-		desc = "特殊支援弾幕",
+		name = "水属性弹幕支援Lv2",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1309,8 +1323,8 @@ pg.base.strategy_data_template = {
 	},
 	[9219] = {
 		buff_id = 9219,
-		name = "白浪弾幕支援Lv3",
-		desc = "特殊支援弾幕",
+		name = "水属性弹幕支援Lv3",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1320,8 +1334,8 @@ pg.base.strategy_data_template = {
 	},
 	[9222] = {
 		buff_id = 9222,
-		name = "白浪弾幕支援Lv4",
-		desc = "特殊支援弾幕",
+		name = "水属性弹幕支援Lv4",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1331,8 +1345,8 @@ pg.base.strategy_data_template = {
 	},
 	[9225] = {
 		buff_id = 9225,
-		name = "白浪弾幕支援Lv5",
-		desc = "特殊支援弾幕",
+		name = "水属性弹幕支援Lv5",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1342,8 +1356,8 @@ pg.base.strategy_data_template = {
 	},
 	[9231] = {
 		buff_id = 9231,
-		name = "竜宮仕掛-朱焔",
-		desc = "竜宮仕掛により、戦闘中敵の支援弾幕が出現します",
+		name = "龙宫机关-烈焰 ",
+		desc = "敌方控制着龙宫机关-烈焰，己方舰队在战斗中将受到来自机关的额外弹幕攻击。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1353,8 +1367,8 @@ pg.base.strategy_data_template = {
 	},
 	[9232] = {
 		buff_id = 9232,
-		name = "竜宮仕掛-朱焔",
-		desc = "確保した竜宮仕掛により、戦闘中味方の支援弾幕が出現します ",
+		name = "龙宫秘宝-烈焰 ",
+		desc = "已取得龙宫秘宝-烈焰，己方舰队在战斗中将受到来自机关的额外弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1364,8 +1378,8 @@ pg.base.strategy_data_template = {
 	},
 	[9233] = {
 		buff_id = 9233,
-		name = "朱焔弾幕支援Lv1",
-		desc = "特殊支援弾幕",
+		name = "火属性弹幕支援Lv1",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1375,8 +1389,8 @@ pg.base.strategy_data_template = {
 	},
 	[9236] = {
 		buff_id = 9236,
-		name = "朱焔弾幕支援Lv2",
-		desc = "特殊支援弾幕",
+		name = "火属性弹幕支援Lv2",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1386,8 +1400,8 @@ pg.base.strategy_data_template = {
 	},
 	[9239] = {
 		buff_id = 9239,
-		name = "朱焔弾幕支援Lv3",
-		desc = "特殊支援弾幕",
+		name = "火属性弹幕支援Lv3",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1397,8 +1411,8 @@ pg.base.strategy_data_template = {
 	},
 	[9242] = {
 		buff_id = 9242,
-		name = "朱焔弾幕支援Lv4",
-		desc = "特殊支援弾幕",
+		name = "火属性弹幕支援Lv4",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1408,8 +1422,8 @@ pg.base.strategy_data_template = {
 	},
 	[9245] = {
 		buff_id = 9245,
-		name = "朱焔弾幕支援Lv5",
-		desc = "特殊支援弾幕",
+		name = "火属性弹幕支援Lv5",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1419,8 +1433,8 @@ pg.base.strategy_data_template = {
 	},
 	[9251] = {
 		buff_id = 9251,
-		name = "竜宮仕掛-青渦",
-		desc = "竜宮仕掛により、戦闘中敵の支援弾幕が出現し、更に敵はシールドを獲得します",
+		name = "龙宫机关-坚石 ",
+		desc = "敌方控制着龙宫机关-坚石，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得减伤护盾。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1430,8 +1444,8 @@ pg.base.strategy_data_template = {
 	},
 	[9252] = {
 		buff_id = 9252,
-		name = "竜宮仕掛-青渦",
-		desc = "確保した竜宮仕掛により、戦闘中味方の支援弾幕が出現し、更に味方はシールドを獲得します ",
+		name = "龙宫秘宝-坚石 ",
+		desc = "已取得龙宫秘宝-坚石，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1441,8 +1455,8 @@ pg.base.strategy_data_template = {
 	},
 	[9253] = {
 		buff_id = 9253,
-		name = "青渦弾幕支援Lv1",
-		desc = "特殊支援弾幕",
+		name = "土属性弹幕支援Lv1",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1452,8 +1466,8 @@ pg.base.strategy_data_template = {
 	},
 	[9256] = {
 		buff_id = 9256,
-		name = "青渦弾幕支援Lv2",
-		desc = "特殊支援弾幕",
+		name = "土属性弹幕支援Lv2",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1463,8 +1477,8 @@ pg.base.strategy_data_template = {
 	},
 	[9259] = {
 		buff_id = 9259,
-		name = "青渦弾幕支援Lv3",
-		desc = "特殊支援弾幕",
+		name = "土属性弹幕支援Lv3",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1474,8 +1488,8 @@ pg.base.strategy_data_template = {
 	},
 	[9262] = {
 		buff_id = 9262,
-		name = "青渦弾幕支援Lv4",
-		desc = "特殊支援弾幕",
+		name = "土属性弹幕支援Lv4",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1485,8 +1499,8 @@ pg.base.strategy_data_template = {
 	},
 	[9265] = {
 		buff_id = 9265,
-		name = "青渦弾幕支援Lv5",
-		desc = "特殊支援弾幕",
+		name = "土属性弹幕支援Lv5",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1496,8 +1510,8 @@ pg.base.strategy_data_template = {
 	},
 	[9271] = {
 		buff_id = 9271,
-		name = "竜宮仕掛-緑風",
-		desc = "竜宮仕掛により、戦闘中敵の支援弾幕が出現し、更に敵の耐久が回復することがあります",
+		name = "龙宫机关-生机 ",
+		desc = "敌方控制着龙宫机关-生机，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得额外耐久恢复。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1507,8 +1521,8 @@ pg.base.strategy_data_template = {
 	},
 	[9272] = {
 		buff_id = 9272,
-		name = "竜宮仕掛-緑風",
-		desc = "確保した竜宮仕掛により、戦闘中味方の支援弾幕が出現し、さらに味方の耐久が回復することがあります",
+		name = "龙宫秘宝-生机 ",
+		desc = "已取得龙宫秘宝-生机，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1518,8 +1532,8 @@ pg.base.strategy_data_template = {
 	},
 	[9273] = {
 		buff_id = 9273,
-		name = "緑風弾幕支援Lv1",
-		desc = "特殊支援弾幕",
+		name = "生命属性弹幕支援Lv1",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1529,8 +1543,8 @@ pg.base.strategy_data_template = {
 	},
 	[9276] = {
 		buff_id = 9276,
-		name = "緑風弾幕支援Lv2",
-		desc = "特殊支援弾幕",
+		name = "生命属性弹幕支援Lv2",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1540,8 +1554,8 @@ pg.base.strategy_data_template = {
 	},
 	[9279] = {
 		buff_id = 9279,
-		name = "緑風弾幕支援Lv3",
-		desc = "特殊支援弾幕",
+		name = "生命属性弹幕支援Lv3",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1551,8 +1565,8 @@ pg.base.strategy_data_template = {
 	},
 	[9282] = {
 		buff_id = 9282,
-		name = "緑風弾幕支援Lv4",
-		desc = "特殊支援弾幕",
+		name = "生命属性弹幕支援Lv4",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1562,8 +1576,8 @@ pg.base.strategy_data_template = {
 	},
 	[9285] = {
 		buff_id = 9285,
-		name = "緑風弾幕支援Lv5",
-		desc = "特殊支援弾幕",
+		name = "生命属性弹幕支援Lv5",
+		desc = "我方弹幕支援",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1573,8 +1587,8 @@ pg.base.strategy_data_template = {
 	},
 	[9391] = {
 		buff_id = 0,
-		name = "制御奪取 ",
-		desc = "ピュリっち、海域制御0%を取得したぜ！戦闘を継続し、ピュリっちをもっと強化せよ！",
+		name = "权限夺取 ",
+		desc = "净化亲已取得海域中0%区域的控制权。继续战斗，让净化亲变得更大更强吧！ ",
 		type = 10,
 		buff_type = 0,
 		id = 9391,
@@ -1587,8 +1601,8 @@ pg.base.strategy_data_template = {
 	},
 	[9392] = {
 		buff_id = 0,
-		name = "制御奪取 ",
-		desc = "ピュリっち、海域制御25%を取得したぜ！戦闘を継続し、ピュリっちをもっと強化せよ！",
+		name = "权限夺取 ",
+		desc = "净化亲已取得海域中25%区域的控制权。继续战斗，让净化亲变得更大更强吧！ ",
 		type = 10,
 		buff_type = 0,
 		id = 9392,
@@ -1601,8 +1615,8 @@ pg.base.strategy_data_template = {
 	},
 	[9393] = {
 		buff_id = 0,
-		name = "制御奪取 ",
-		desc = "ピュリっち、海域制御50%を取得したぜ！戦闘を継続し、ピュリっちをもっと強化せよ！",
+		name = "权限夺取 ",
+		desc = "净化亲已取得海域中50%区域的控制权。继续战斗，让净化亲变得更大更强吧！ ",
 		type = 10,
 		buff_type = 0,
 		id = 9393,
@@ -1615,8 +1629,8 @@ pg.base.strategy_data_template = {
 	},
 	[9394] = {
 		buff_id = 0,
-		name = "制御奪取 ",
-		desc = "ピュリっち、海域制御75%を取得したぜ！戦闘を継続し、ピュリっちをもっと強化せよ！",
+		name = "权限夺取 ",
+		desc = "净化亲已取得海域中75%区域的控制权。继续战斗，让净化亲变得更大更强吧！ ",
 		type = 10,
 		buff_type = 0,
 		id = 9394,
@@ -1629,8 +1643,8 @@ pg.base.strategy_data_template = {
 	},
 	[9395] = {
 		buff_id = 0,
-		name = "制御奪取 ",
-		desc = "ピュリっち、海域制御100%を取得したぜ！戦闘を継続し、ピュリっちをもっと強化せよ！",
+		name = "权限夺取 ",
+		desc = "净化亲已取得海域中100%区域的控制权。终于到决战的时刻了！ ",
 		type = 10,
 		buff_type = 0,
 		id = 9395,
@@ -1643,8 +1657,8 @@ pg.base.strategy_data_template = {
 	},
 	[9401] = {
 		buff_id = 0,
-		name = "メカ支援 ",
-		desc = "メカ支援ゲージ充填完了！戦闘中、味方による支援弾幕が展開されます",
+		name = "机甲支援 ",
+		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1709,8 +1723,8 @@ pg.base.strategy_data_template = {
 	},
 	[9421] = {
 		buff_id = 0,
-		name = "メカ支援 ",
-		desc = "メカ支援ゲージ充填完了！戦闘中、味方による支援弾幕が展開されます",
+		name = "机甲支援 ",
+		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1775,8 +1789,8 @@ pg.base.strategy_data_template = {
 	},
 	[9441] = {
 		buff_id = 0,
-		name = "メカ支援 ",
-		desc = "メカ支援ゲージ充填完了！戦闘中、味方による支援弾幕が展開されます",
+		name = "机甲支援 ",
+		desc = "机甲支援槽已充满，后续战斗中舰队将会获得来自机甲的弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1841,8 +1855,8 @@ pg.base.strategy_data_template = {
 	},
 	[9461] = {
 		buff_id = 0,
-		name = "怪獣支援",
-		desc = "「怪獣」支援ゲージ充填完了！戦闘中、味方による支援弾幕が展開されます",
+		name = "怪兽支援 ",
+		desc = "怪兽支援槽已充满，后续战斗中舰队将会获得来自怪兽的弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1907,8 +1921,8 @@ pg.base.strategy_data_template = {
 	},
 	[9481] = {
 		buff_id = 0,
-		name = "怪獣支援",
-		desc = "「怪獣」支援ゲージ充填完了！戦闘中、味方による支援弾幕が展開されます",
+		name = "怪兽支援 ",
+		desc = "怪兽支援槽已充满，后续战斗中舰队将会获得来自怪兽的弹幕支援。 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1973,8 +1987,8 @@ pg.base.strategy_data_template = {
 	},
 	[9500] = {
 		buff_id = 9500,
-		name = "キューブ活性化 ",
-		desc = "メンタルキューブ活性化により、味方艦隊全員の与えるダメージ・受けるダメージが20%アップ ",
+		name = "魔方活性化",
+		desc = "受到魔方活性化效果影响，舰队全员造成的伤害提高20%，受到的伤害提高20%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1984,8 +1998,8 @@ pg.base.strategy_data_template = {
 	},
 	[9502] = {
 		buff_id = 9502,
-		name = "海霧襲来",
-		desc = "不気味な海霧が戦場を覆っている…味方艦隊全員の命中が5%ダウン",
+		name = "海雾弥漫",
+		desc = "无数危险正隐藏在海雾之中，小心应对，舰队全员的命中属性降低5%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -1995,8 +2009,8 @@ pg.base.strategy_data_template = {
 	},
 	[9505] = {
 		buff_id = 9505,
-		name = "鉄血航空支援",
-		desc = "敵航空支援展開中！ステージ内に敵航空攻撃隊が出現し、更に敵の航空攻撃で受けるダメージが10%アップ",
+		name = "铁血空中支援",
+		desc = "关卡中会遭遇敌方空中编队，同时所有敌方航空伤害增加10% ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2006,8 +2020,8 @@ pg.base.strategy_data_template = {
 	},
 	[9508] = {
 		buff_id = 9508,
-		name = "極夜",
-		desc = "極夜状態では、敵艦隊の「艦隊編成タイプ」を視認確認できません",
+		name = "极夜",
+		desc = "巴伦支海正处于漫长的极夜中，无法区分敌方舰队的编队类型 ",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2017,8 +2031,8 @@ pg.base.strategy_data_template = {
 	},
 	[10001] = {
 		buff_id = 200,
-		name = "完全補給",
-		desc = "弾薬満タン、艦隊ダメージ+10%。",
+		name = "弹药充足",
+		desc = "弹药充足，状态良好，舰队伤害提高10%",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2028,8 +2042,8 @@ pg.base.strategy_data_template = {
 	},
 	[10002] = {
 		buff_id = 210,
-		name = "弾薬不足",
-		desc = "弾切れ寸前、艦隊ダメージ-50%。",
+		name = "弹药匮乏",
+		desc = "弹尽粮绝，需要补给，舰队伤害降低50%",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2039,8 +2053,8 @@ pg.base.strategy_data_template = {
 	},
 	[10011] = {
 		buff_id = 220,
-		name = "制空権確保",
-		desc = "味方航空攻撃によるダメージが20%アップし、敵航空攻撃によるダメージが10%ダウン（浸水・炎上ダメージを除く）。味方全員の命中が10%アップし、待ち伏せ遭遇率が8%ダウン",
+		name = "制空权确保",
+		desc = "舰队全员航空攻击伤害提高20%，受到的航空攻击伤害降低10%，命中提高10%，受到伏击的概率降低8% (航空攻击伤害提高或降低不影响点燃进水伤害)",
 		type = 1001,
 		iconSize = "",
 		buff_type = 0,
@@ -2052,8 +2066,8 @@ pg.base.strategy_data_template = {
 	},
 	[10012] = {
 		buff_id = 230,
-		name = "制空権優勢",
-		desc = "味方航空攻撃によるダメージが12%アップし、敵航空攻撃によるダメージが6%ダウン（浸水・炎上ダメージを除く）。味方全員の命中が5%アップし、待ち伏せ遭遇率が5%ダウン",
+		name = "制空权优势",
+		desc = "舰队全员航空攻击伤害提高12%，受到的航空攻击伤害降低6%，命中提高5%，受到伏击的概率降低5% (航空攻击伤害提高或降低不影响点燃进水伤害)",
 		type = 1001,
 		iconSize = "",
 		buff_type = 0,
@@ -2065,8 +2079,8 @@ pg.base.strategy_data_template = {
 	},
 	[10013] = {
 		buff_id = 240,
-		name = "制空拮抗中",
-		desc = "味方航空攻撃によるダメージが6%ダウンし、敵航空攻撃によるダメージが3%ダウン（浸水・炎上ダメージを除く）",
+		name = "势均力敌",
+		desc = "舰队全员航空攻击伤害降低6%，受到的航空攻击伤害降低3% (航空攻击伤害提高或降低不影响点燃进水伤害)",
 		type = 1001,
 		iconSize = "",
 		buff_type = 0,
@@ -2078,8 +2092,8 @@ pg.base.strategy_data_template = {
 	},
 	[10014] = {
 		buff_id = 250,
-		name = "制空権劣勢",
-		desc = "味方航空攻撃によるダメージが12%ダウンし、敵航空攻撃によるダメージが6%アップ（浸水・炎上ダメージを除く）。味方全員の命中・回避が3%ダウン",
+		name = "制空权劣势",
+		desc = "舰队全员航空攻击伤害降低12%，受到的航空攻击伤害提高6%，命中、机动降低3% (航空攻击伤害提高或降低不影响点燃进水伤害)",
 		type = 1001,
 		iconSize = "",
 		buff_type = 0,
@@ -2091,8 +2105,8 @@ pg.base.strategy_data_template = {
 	},
 	[10015] = {
 		buff_id = 260,
-		name = "制空権喪失",
-		desc = "味方航空攻撃によるダメージが20%ダウンし、敵航空攻撃によるダメージが10%アップ（浸水・炎上ダメージを除く）。味方全員の命中・回避が8%ダウン",
+		name = "制空权丧失",
+		desc = "舰队全员航空攻击伤害降低20%，受到的航空攻击伤害提高10%，命中、机动降低8% (航空攻击伤害提高或降低不影响点燃进水伤害)",
 		type = 1001,
 		iconSize = "",
 		buff_type = 0,
@@ -2104,8 +2118,8 @@ pg.base.strategy_data_template = {
 	},
 	[10021] = {
 		buff_id = 8761,
-		name = "FEVERモード",
-		desc = "味方艦隊戦闘開始時、自身の耐久値が最大値の2%回復する",
+		name = "情绪高涨",
+		desc = "舰队全员处于情绪高涨状态下，战斗开始时回复2%自身耐久",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2115,8 +2129,8 @@ pg.base.strategy_data_template = {
 	},
 	[10031] = {
 		buff_id = 8765,
-		name = "特別アピール",
-		desc = "戦闘開始時、味方全員の耐久が2%回復する",
+		name = "特殊演出 ",
+		desc = "战斗开始时回复舰队全员2%耐久",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2126,8 +2140,8 @@ pg.base.strategy_data_template = {
 	},
 	[10032] = {
 		buff_id = 8767,
-		name = "特別アピール",
-		desc = "戦闘中、味方全員の敵に与えるダメージが5％アップ",
+		name = "特殊演出 ",
+		desc = "舰队全员在战斗中造成的伤害提高5%",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2137,8 +2151,8 @@ pg.base.strategy_data_template = {
 	},
 	[10033] = {
 		buff_id = 8769,
-		name = "特別アピール",
-		desc = "戦闘中、味方全員の敵から受けるダメージが5%ダウン",
+		name = "特殊演出 ",
+		desc = "舰队全员在战斗中受到的伤害降低5%",
 		type = 1000,
 		iconSize = "",
 		buff_type = 0,
@@ -2148,8 +2162,8 @@ pg.base.strategy_data_template = {
 	},
 	[200000] = {
 		buff_id = 200000,
-		name = "飛行船団支援",
-		desc = "こちら艦長アルフレード、これより支援砲撃開始！パシャリ！――戦闘中飛行船団による砲撃支援が出現する",
+		name = "飞空战舰支援",
+		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2159,8 +2173,8 @@ pg.base.strategy_data_template = {
 	},
 	[200003] = {
 		buff_id = 200003,
-		name = "飛行船団支援",
-		desc = "こちら艦長アルフレード、これより支援砲撃開始！パシャリ！――戦闘中飛行船団による砲撃支援が出現する",
+		name = "飞空战舰支援",
+		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2170,8 +2184,8 @@ pg.base.strategy_data_template = {
 	},
 	[200006] = {
 		buff_id = 200006,
-		name = "飛行船団支援",
-		desc = "こちら艦長アルフレード、これより支援砲撃開始！パシャリ！――戦闘中飛行船団による砲撃支援が出現する",
+		name = "飞空战舰支援",
+		desc = "战斗中，将会得到来自飞空战舰的炮击弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2181,8 +2195,8 @@ pg.base.strategy_data_template = {
 	},
 	[200009] = {
 		buff_id = 200009,
-		name = "ミニマム鏡面海域",
-		desc = "サディア所属の艦船の戦闘中に与えるダメージが20%アップし、受けるダメージが20％ダウンする",
+		name = "选择性镜面海域",
+		desc = "撒丁帝国阵营角色在战斗中造成的伤害提高20%，受到的伤害降低20%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2192,8 +2206,8 @@ pg.base.strategy_data_template = {
 	},
 	[200011] = {
 		buff_id = 200011,
-		name = "神祖の力",
-		desc = "嵐のような猛攻――戦闘中味方艦船の火力・航空が10%アップ",
+		name = "罗穆路斯之视",
+		desc = "沐浴在风暴雷雨之中——战斗中己方角色炮击与航空增加10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2203,8 +2217,8 @@ pg.base.strategy_data_template = {
 	},
 	[200012] = {
 		buff_id = 200012,
-		name = "至尊者の力",
-		desc = "響かせる角笛の軍勢――戦闘中味方艦船の装填が15％アップ",
+		name = "凯撒之视",
+		desc = "沐浴在军团号响之中——战斗中己方角色装填增加15%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2214,8 +2228,8 @@ pg.base.strategy_data_template = {
 	},
 	[200013] = {
 		buff_id = 200013,
-		name = "威厳者の力",
-		desc = "燃ゆる太陽の光――戦闘開始時、味方艦船の耐久が上限の3%回復する",
+		name = "奥古斯都之视",
+		desc = "沐浴在艳阳烈日之中——每场战斗开始时己方全体角色回复自身3%耐久。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2225,8 +2239,8 @@ pg.base.strategy_data_template = {
 	},
 	[200015] = {
 		buff_id = 200015,
-		name = "最善者の力",
-		desc = "広げる極盛の地平――戦闘中味方艦船の回避が10％アップ",
+		name = "图拉真之视",
+		desc = "沐浴在广袤无垠之中——战斗中己方角色机动增加10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2236,8 +2250,8 @@ pg.base.strategy_data_template = {
 	},
 	[200016] = {
 		buff_id = 200016,
-		name = "正規者の力",
-		desc = "流転せし運命の波――戦闘中敵はダメージを受け続ける",
+		name = "戴克里先之视",
+		desc = "沐浴在辗转沉浮之中——战斗中所有敌方单位会获得耐久持续损失效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2247,8 +2261,8 @@ pg.base.strategy_data_template = {
 	},
 	[200019] = {
 		buff_id = 200019,
-		name = "背教者の力",
-		desc = "夕闇の残光の余熱――戦闘開始時、味方旗艦の主砲攻撃・航空攻撃が1回装填完了にする",
+		name = "尤利安之视",
+		desc = "沐浴在斜阳残光之中——战斗开始时，立即完成己方旗舰的主炮及空中支援加载",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2258,8 +2272,8 @@ pg.base.strategy_data_template = {
 	},
 	[200023] = {
 		buff_id = 0,
-		name = "空襲",
-		desc = "実験作戦ルール：海域での行動中、敵空襲に遭遇する場合がある。艦隊の索敵値が上がると敵空襲に遭遇する確率が低減する",
+		name = "空袭",
+		desc = "实验场规则：在海域中行动时有概率遭遇敌方空袭，提高舰队侦查值将会减少被空袭的概率。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2269,8 +2283,8 @@ pg.base.strategy_data_template = {
 	},
 	[200024] = {
 		buff_id = 0,
-		name = "待ち伏せ",
-		desc = "実験作戦ルール：海域での行動中、敵待ち伏せに遭遇する場合がある。艦隊の索敵値が上がると敵待ち伏せに遭遇する確率が低減する",
+		name = "伏击",
+		desc = "实验场规则：在海域中行动时有概率遭遇敌方伏击舰队，提高舰队侦查值将会减少被伏击的概率。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2280,8 +2294,8 @@ pg.base.strategy_data_template = {
 	},
 	[200025] = {
 		buff_id = 0,
-		name = "敵追撃",
-		desc = "実験作戦ルール：海域での行動中、一部の敵部隊はこちらの行動を追跡する場合がある",
+		name = "精英追击",
+		desc = "实验场规则：在海域中行动时将会遭受到敌方精英舰队的追击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2291,8 +2305,8 @@ pg.base.strategy_data_template = {
 	},
 	[200052] = {
 		buff_id = 200052,
-		name = "結界碁盤",
-		desc = "イベントストーリーでの「部下」艦船の全ステータスが3％アップ",
+		name = "结界棋盘",
+		desc = "参与本次棋局的所有角色全属性提升3%，关卡开始时将会触发一个「事件」。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2302,8 +2316,8 @@ pg.base.strategy_data_template = {
 	},
 	[200054] = {
 		buff_id = 200054,
-		name = "霧隠れの真意",
-		desc = "戦闘中、互いの空母以外の艦船の命中が5%ダウン",
+		name = "海雾弥散",
+		desc = "战斗中，敌我双方航空母舰以外的单位命中值下降5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2313,8 +2327,8 @@ pg.base.strategy_data_template = {
 	},
 	[200057] = {
 		buff_id = 200057,
-		name = "変革目指す先見",
-		desc = "戦闘中、互いの速力が5%アップ",
+		name = "变革之路",
+		desc = "战斗中，敌我双方的所有单位移动速度提高5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2324,8 +2338,8 @@ pg.base.strategy_data_template = {
 	},
 	[200060] = {
 		buff_id = 200060,
-		name = "孤高なりし未来像",
-		desc = "戦闘中、互いが受けるダメージが5%アップ",
+		name = "技术革新",
+		desc = "战斗中，敌我双方的所有单位受到的伤害增加5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2335,8 +2349,8 @@ pg.base.strategy_data_template = {
 	},
 	[200063] = {
 		buff_id = 200063,
-		name = "朗らかく正々堂々",
-		desc = "戦闘中、互いの戦艦・巡洋戦艦の火力・回避が5%アップ、駆逐艦の火力・回避が5％ダウン",
+		name = "天晴浪高",
+		desc = "战斗中，敌我双方所有战列舰与战列巡洋舰炮击与机动提升5%，驱逐舰炮击与机动减少5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2346,8 +2360,8 @@ pg.base.strategy_data_template = {
 	},
 	[200067] = {
 		buff_id = 200067,
-		name = "皆既無用の野望",
-		desc = "戦闘中、互い戦艦・巡洋戦艦の主砲散布範囲が2アップし、火力が5％アップ",
+		name = "日蚀",
+		desc = "战斗中，敌我双方所有战列、战列巡洋舰主炮散布范围提高2点，炮击提高5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2357,8 +2371,8 @@ pg.base.strategy_data_template = {
 	},
 	[200070] = {
 		buff_id = 200070,
-		name = "激動の雷鳴",
-		desc = "戦闘中に雷撃が発生し、範囲内の味方と敵に現在耐久の一定の割合のダメージを与える",
+		name = "静海惊雷",
+		desc = "战斗中将会随机出现雷击弹幕，对范围内的敌我双方单位造成当前耐久百分比的伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2368,8 +2382,8 @@ pg.base.strategy_data_template = {
 	},
 	[200074] = {
 		buff_id = 200074,
-		name = "相争わぬ誓い",
-		desc = "戦闘中一定時間毎に、互いの艦船が少し回復する",
+		name = "神木之风",
+		desc = "战斗中敌我双方单位每隔一段时间，都会获得一次少量耐久回复。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2379,8 +2393,8 @@ pg.base.strategy_data_template = {
 	},
 	[200078] = {
 		buff_id = 200078,
-		name = "守りたい決意",
-		desc = "戦闘中互いが受けるダメージを3％ダウン。一定時間ごとに、互いの艦船に弾を防ぐシールドを付与するか少し回復させる",
+		name = "天宇启户祭",
+		desc = "战斗中敌我双方单位造成的伤害降低3%，且每隔一段时间，自身都会获得一层抵挡子弹的护盾或是一次少量耐久回复。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2390,8 +2404,8 @@ pg.base.strategy_data_template = {
 	},
 	[200079] = {
 		buff_id = 0,
-		name = "始まりの地",
-		desc = "風属性の素材が採取可能：ナナシ草、ウィングプラント、ブラッドトーン（採取道具-サイレントシックルが必要）",
+		name = "起始之地",
+		desc = "当前采集地产出风属性素材：无名草、翼叶草\n拥有工具-寂静镰刀后额外产出风属性素材：血红通草",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2401,8 +2415,8 @@ pg.base.strategy_data_template = {
 	},
 	[200080] = {
 		buff_id = 0,
-		name = "異界の森",
-		desc = "雷属性の素材が採取可能：イナズマ鉱、導きの星の欠片、セプトリエン（採取道具-ゴールデンアックスが必要）",
+		name = "异界之森",
+		desc = "当前采集地产出雷属性素材：闪电矿、引导之星碎片\n拥有工具-黄金之斧后额外产出雷属性素材：圣石",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2412,8 +2426,8 @@ pg.base.strategy_data_template = {
 	},
 	[200081] = {
 		buff_id = 0,
-		name = "紛争の城",
-		desc = "火属性の素材が採取可能：小さな晶石、燃える砂、マグマパウダー（採取道具-ブルーフラムロッドが必要）",
+		name = "争斗之城",
+		desc = "当前采集地产出火属性素材：小晶石、可燃之砂\n拥有工具-蓝炎烧杖后额外产出火属性素材：岩浆粉",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2423,8 +2437,8 @@ pg.base.strategy_data_template = {
 	},
 	[200082] = {
 		buff_id = 0,
-		name = "滅失の都",
-		desc = "氷属性の素材が採取可能：プルムル、サルディン、湖底のぬし（採取道具-神竿バルムヘルが必要）",
+		name = "失落之都",
+		desc = "当前采集地产出冰属性素材：普鲁姆鲁螺、沙丁鱼\n拥有工具-神竿慈悲后额外产出冰属性素材：湖底之主",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2434,8 +2448,8 @@ pg.base.strategy_data_template = {
 	},
 	[200083] = {
 		buff_id = 0,
-		name = "中枢の拠",
-		desc = "セイレーン素材が採取可能：謎の結晶鉱、謎の装甲材、謎のエナジーコア（採取道具-レーザーアームが必要）",
+		name = "核心之所",
+		desc = "当前采集地产出混合属性素材：未知结晶矿、未知装甲板\n拥有工具-激光切割器后额外产出混合属性素材：未知能源核心",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2445,8 +2459,8 @@ pg.base.strategy_data_template = {
 	},
 	[200084] = {
 		buff_id = 0,
-		name = "サイレントシックル",
-		desc = "採取しやすいように改良されたこの鎌は、まるで風のように静かに軽やかに草や花を刈り取る",
+		name = "已拥有-寂静镰刀",
+		desc = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2456,8 +2470,8 @@ pg.base.strategy_data_template = {
 	},
 	[200085] = {
 		buff_id = 0,
-		name = "ゴールデンアックス",
-		desc = "切れ味や重さを細かく調整し改良を施されたため、普通の斧よりもラクに木材も薪も作れる",
+		name = "已拥有-黄金之斧",
+		desc = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2467,8 +2481,8 @@ pg.base.strategy_data_template = {
 	},
 	[200086] = {
 		buff_id = 0,
-		name = "ブルーフラムロッド",
-		desc = "フラムロッドの強化版。先端の宝玉を青い物に変えたため、以前よりも効率的に岩や水晶を破壊することが可能となった",
+		name = "已拥有-蓝炎烧杖",
+		desc = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2478,8 +2492,8 @@ pg.base.strategy_data_template = {
 	},
 	[200087] = {
 		buff_id = 0,
-		name = "神竿バルムヘル",
-		desc = "釣り竿の強化版。強化したことにより、魚が警戒せずに寄ってくるように改良されている",
+		name = "已拥有-神杆慈悲",
+		desc = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2489,8 +2503,8 @@ pg.base.strategy_data_template = {
 	},
 	[200088] = {
 		buff_id = 0,
-		name = "レーザーアーム",
-		desc = "強大な握力と推力、そして灼熱の採掘レーザーを発射できるセイレーンのメカニカルアーム――錬金術の素材を採取するのに使えるかも？",
+		name = "已拥有-激光切割器",
+		desc = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2500,8 +2514,8 @@ pg.base.strategy_data_template = {
 	},
 	[200239] = {
 		buff_id = 200239,
-		name = "自律型支援ドローン",
-		desc = "アンチエックスボディの戦闘サポートにより、戦闘中味方火力・雷装・航空が10%アップ",
+		name = "分体式增援模块",
+		desc = "受到迪贝路·XV的增援模块强化，战斗中己方全体炮击/雷击/航空增加10%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2511,8 +2525,8 @@ pg.base.strategy_data_template = {
 	},
 	[200240] = {
 		buff_id = 200240,
-		name = "アビータの脅威・予兆",
-		desc = "「何かがおかしい…」戦闘中無差別攻撃する弾幕が出現する",
+		name = "第五类威胁-预兆",
+		desc = "——「████████」——\n似乎在战场上有什么事正变得不对劲？\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2522,8 +2536,8 @@ pg.base.strategy_data_template = {
 	},
 	[200241] = {
 		buff_id = 200240,
-		name = "アビータの脅威・肉迫",
-		desc = "「黒い靄に覆われるものは…」戦闘中無差別攻撃する弾幕が出現する",
+		name = "第五类威胁-迫近",
+		desc = "——「████████」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2544,8 +2558,8 @@ pg.base.strategy_data_template = {
 	},
 	[200327] = {
 		buff_id = 200327,
-		name = "聖堂施設制御装置-制御不能",
-		desc = "聖堂施設の制御装置が制御不能状態にある。\n戦闘中一定時間毎に特殊弾幕が出現し、戦場にいるすべてを対象に耐久最大値に比例するダメージを与える。",
+		name = "圣堂统御装置-失控",
+		desc = "圣堂统御装置已经失控。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的所有单位造成一次基于最大耐久值的百分比伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2555,8 +2569,8 @@ pg.base.strategy_data_template = {
 	},
 	[200330] = {
 		buff_id = 200330,
-		name = "聖堂施設制御装置-制御回復",
-		desc = "聖堂施設の制御装置が回復しつつある。\n戦闘中一定時間毎に特殊弾幕が出現し、戦場にいるすべての敵に耐久最大値に比例するダメージを与える。",
+		name = "圣堂统御装置-恢复",
+		desc = "圣堂统御装置正在恢复中。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的敌方单位造成一次基于最大耐久值的百分比伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2566,8 +2580,8 @@ pg.base.strategy_data_template = {
 	},
 	[200333] = {
 		buff_id = 200333,
-		name = "聖堂施設制御装置-制御安定",
-		desc = "聖堂施設の制御装置が安定状態にある。\n戦闘中一定時間毎に特殊弾幕が出現し、戦場にいるすべての敵に耐久最大値に比例するダメージを与え、さらにすべての味方艦船の耐久を回復させる",
+		name = "圣堂统御装置-稳定",
+		desc = "圣堂统御装置正在稳定工作。\n每隔一段时间，战斗中将出现特殊弹幕，对场上的敌方单位造成一次基于最大耐久值的百分比伤害，并为己方单位进行一次耐久回复。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2577,8 +2591,8 @@ pg.base.strategy_data_template = {
 	},
 	[200336] = {
 		buff_id = 200336,
-		name = "信仰心象の加護-アイリス",
-		desc = "アイリスへの祈りが届き、篤い心象が現実に影響する——\n戦闘中、味方アイリス艦船の火力・雷装・航空・対空・装填・命中・回避が3％アップ",
+		name = "信仰加护-Iris",
+		desc = "对于神的祈祷得到了回应——\n战斗中，我方鸢尾阵营成员的炮击、雷击、航空、防空、装填、命中、机动提升3%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2588,8 +2602,8 @@ pg.base.strategy_data_template = {
 	},
 	[200338] = {
 		buff_id = 200338,
-		name = "信仰心象の加護-ロイヤル",
-		desc = "？？？への祈りが届き、篤い心象が現実に影響する——\n戦闘中、味方ロイヤル艦船の火力・雷装・航空・対空・装填・命中・回避が3％アップ",
+		name = "信仰加护-Royal",
+		desc = "对于神？的祈祷得到了回应——\n战斗中，我方皇家阵营成员的炮击、雷击、航空、防空、装填、命中、机动提升3%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2599,8 +2613,8 @@ pg.base.strategy_data_template = {
 	},
 	[200392] = {
 		buff_id = 0,
-		name = "追撃戦術",
-		desc = "敵艦隊がこちらの艦隊に追撃を仕掛ける",
+		name = "猎杀战术",
+		desc = "海域中的所有敌方舰队都将进行追击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2610,12 +2624,12 @@ pg.base.strategy_data_template = {
 	},
 	[200394] = {
 		buff_id = 200394,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：0
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：0
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2625,12 +2639,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200396] = {
 		buff_id = 200396,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：1
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：1
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2640,12 +2654,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200401] = {
 		buff_id = 200401,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：2
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：2
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2655,12 +2669,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200406] = {
 		buff_id = 200406,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：3
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：3
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2670,12 +2684,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200411] = {
 		buff_id = 200411,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：4
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：4
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2685,12 +2699,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200416] = {
 		buff_id = 200416,
-		name = "侵食空間",
+		name = "空间侵蚀",
 		desc = [[
-現在の侵食レベル：5
-味方艦隊が戦闘を行うと、戦闘終了時侵食レベルが1アップ（最大5まで）。侵食レベルに応じて、味方艦隊は戦闘中での与えるダメージ・受けるダメージがアップする。
-侵食レベル5の場合、戦闘中味方艦船の速力・命中がダウンする。
-META艦船など一部の艦船は侵食レベルによる被ダメージアップ・命中速力ダウン効果を受けない]],
+当前侵蚀等级：5
+海域中的我方舰队正持续受到侵蚀影响，每场战斗后空间侵蚀等级上升1级，最高为5级。
+侵蚀等级上升会同时提升我方角色在战斗中造成的伤害与受到的伤害，等级达到5时，会使得我方角色额外获得航速与命中下降效果。
+META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效果影响。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2700,8 +2714,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200432] = {
 		buff_id = 200432,
-		name = "構造の理・援護",
-		desc = "艦船のサポートで侵食レベル上限が下がり、戦闘中一定時間毎に味方の耐久が回復し、更にステータスが上昇する。\nステージの侵食レベル上限：1",
+		name = "构造之理-援护",
+		desc = "当前地图最高侵蚀等级为：1\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2711,8 +2725,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200433] = {
 		buff_id = 200432,
-		name = "構造の理・援護",
-		desc = "艦船のサポートで侵食レベル上限が下がり、戦闘中一定時間毎に味方の耐久が回復し、更にステータスが上昇する。\nステージの侵食レベル上限：2",
+		name = "构造之理-援护",
+		desc = "当前地图最高侵蚀等级为：2\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2722,8 +2736,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200434] = {
 		buff_id = 200432,
-		name = "構造の理・援護",
-		desc = "艦船のサポートで侵食レベル上限が下がり、戦闘中一定時間毎に味方の耐久が回復し、更にステータスが上昇する。\nステージの侵食レベル上限：3",
+		name = "构造之理-援护",
+		desc = "当前地图最高侵蚀等级为：3\n得到了女灶神·META的援护，海域侵蚀等级上限降低，同时战斗中我方角色在战斗中会定期恢复耐久值，并在获得恢复后的一段时间内提升全属性。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2744,8 +2758,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200535] = {
 		buff_id = 200535,
-		name = "連合艦隊",
-		desc = "戦闘中、味方艦船の所属陣営が合計2つ以上の場合、所属陣営1つにつき味方艦船全員の全ステータスが1%アップ",
+		name = "联合舰队",
+		desc = "战斗中，己方舰队成员所属阵营大于1时，每多1个不同阵营便提升舰队成员1%全属性。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2755,8 +2769,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200536] = {
 		buff_id = 0,
-		name = "侵食性錯体",
-		desc = "「世界を覆う謎の物質…これは一体？」\n一部の敵が撃破された時に謎の物質を放出し、周囲の敵の耐久を回復し、同時に味方艦船にダメージを与える",
+		name = "侵蚀性络合物",
+		desc = "异常物质覆盖了天空与大地，也覆盖了敌人的身躯。\n部分敌人被击破时，会释放出侵蚀性络合物，恢复周围敌人的耐久值并对我方单位造成伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2766,8 +2780,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200538] = {
 		buff_id = 200538,
-		name = "審判廷支援",
-		desc = "「指揮官、私の次の一手はこれよ」\n戦闘中、味方の審判型量産艦と審判型武装機構による支援弾幕が出現する",
+		name = "审判庭支援",
+		desc = "审判庭正在全力支援作战行动。\n战斗中，我方舰队将会得到审判型量产型和审判型机甲提供的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2777,8 +2791,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200541] = {
 		buff_id = 200541,
-		name = "審判廷支援",
-		desc = "「指揮官、私の次の一手はこれよ」\n戦闘中、味方の審判型量産艦と審判型武装機構による支援弾幕が出現する",
+		name = "审判庭支援",
+		desc = "审判庭正在全力支援作战行动。\n战斗中，我方舰队将会得到审判型量产型和审判型机甲提供的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2788,8 +2802,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200544] = {
 		buff_id = 200544,
-		name = "偽神の領域Ⅰ",
-		desc = "——「かの者が降臨せん」——\n偽神の領域内の艦船はすべてのステータスがダウン\nまた、戦闘中に敵の支援攻撃が出現する",
+		name = "陆上神国I",
+		desc = "——「祂的国度正在降临」——\n国度之中，我方舰队全属性下降。\n战斗中会出现破坏性弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2799,8 +2813,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200545] = {
 		buff_id = 200545,
-		name = "偽神の領域Ⅱ",
-		desc = "——「かの▅▇は降▇▅せん」——\n偽神の領域内の艦船はすべてのステータスがさらにダウン\nまた、戦闘中に敵の強力な支援攻撃が出現する",
+		name = "陆上神国II",
+		desc = "——「祂的▅▇正在▇▅临」——\n国度之中，我方舰队全属性进一步下降。\n战斗中会出现增强的破坏性弹幕，注意规避",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2810,8 +2824,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200546] = {
 		buff_id = 200546,
-		name = "偽神の領域Ⅲ",
-		desc = "——「▇▆▇▊▇▇▆▅▇▆」——\n偽神の領域内の艦船はすべてのステータスが大幅にダウン\nまた、戦闘中に敵のより強力な支援攻撃が出現する",
+		name = "陆上神国III",
+		desc = "——「祂▇▆▇▊▇▇▆▅▇▆」——\n国度之中我方舰队全属性更进一步下降。\n战斗中会出现进一步增强的破坏性弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2821,8 +2835,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200583] = {
 		buff_id = 200583,
-		name = "闇靄の侵食",
-		desc = "災いの闇靄の侵食が、最恐の敵を凝華させる。\n戦闘中一定時間ごとに、味方を襲ってくる弾幕が出現する",
+		name = "无形侵蚀",
+		desc = "无形的侵蚀将召唤出最深刻的恐惧敌人，无处可逃。\n每隔一段时间，战斗中将出现全屏弹幕对我方造成伤害",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2832,8 +2846,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200585] = {
 		buff_id = 200585,
-		name = "神木の加護",
-		desc = "ワタツミの封印の加護が闇靄を弱らせ始めている。\n戦闘中一定時間ごとに、味方艦船に耐久上限の一定の割合のダメージを無効にできるシールドを生成する",
+		name = "根源加护",
+		desc = "来自根源的加护开始驱散无形之息。\n战斗中我方全体角色将定期获得可以抵消基于自身耐久百分比伤害的护盾。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2843,8 +2857,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200589] = {
 		buff_id = 200589,
-		name = "心象の霊河",
-		desc = "願いの力で難局を乗り越えていけ。\n戦闘中一定時間ごとに、味方艦船を援護する特殊弾幕が出現する",
+		name = "信仰之河",
+		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2854,8 +2868,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200592] = {
 		buff_id = 200592,
-		name = "心象の霊河",
-		desc = "願いの力で難局を乗り越えていけ。\n戦闘中一定時間ごとに、味方艦船を援護する特殊弾幕が出現する",
+		name = "信仰之河",
+		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2865,8 +2879,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200595] = {
 		buff_id = 200595,
-		name = "心象の霊河",
-		desc = "願いの力で難局を乗り越えていけ。\n戦闘中一定時間ごとに、味方艦船を援護する特殊弾幕が出現する",
+		name = "信仰之河",
+		desc = "愿这信仰之河，助你度过难关——\n每隔一段时间，战斗中将出现特殊弹幕支援我方。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2876,8 +2890,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200618] = {
 		buff_id = 200618,
-		name = "レジェンド旗艦",
-		desc = "「偉大なるロイヤル・フォーチュン号」出撃！\n戦闘中、味方艦隊を援護してくれる、偉大なる旗艦の砲撃が出現する",
+		name = "传奇旗舰",
+		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2887,8 +2901,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200620] = {
 		buff_id = 200620,
-		name = "レジェンド旗艦",
-		desc = "「偉大なるロイヤル・フォーチュン号」出撃！\n戦闘中、味方艦隊を援護してくれる、偉大なる旗艦の砲撃が出現する",
+		name = "传奇旗舰",
+		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2898,8 +2912,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200622] = {
 		buff_id = 200622,
-		name = "レジェンド旗艦",
-		desc = "「偉大なるロイヤル・フォーチュン号」出撃！\n戦闘中、味方艦隊を援護してくれる、偉大なる旗艦の砲撃が出現する",
+		name = "传奇旗舰",
+		desc = "“伟大的皇家财富”号正在作战。\n战斗中己方舰队将会得到“伟大的皇家财富”号的支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2909,8 +2923,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200624] = {
 		buff_id = 200624,
-		name = "異常気象:嵐",
-		desc = "猛り狂う嵐の中で戦い続ける……\nテンペスタ所属艦船が受けるダメージが3％ダウンする",
+		name = "异常环境：风暴",
+		desc = "在嘶吼的风暴中作战……\n所有飓风阵营角色受到的伤害降低3%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2920,8 +2934,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200627] = {
 		buff_id = 200627,
-		name = "異常気象:台風の目",
-		desc = "凪の台風の目で戦い続ける……\nテンペスタ所属艦船が与えるダメージが3％アップする",
+		name = "异常环境：风眼",
+		desc = "在平静的台风眼中作战……\n所有飓风阵营角色造成的伤害提高3%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2931,8 +2945,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200630] = {
 		buff_id = 200630,
-		name = "メテオミサイル",
-		desc = "戦闘中、作戦支援端末「たーみなる」が制御するミサイル支援攻撃が出現する",
+		name = "流星轰炸",
+		desc = "战斗中将会得到来自「特米娜露」的流星弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2942,8 +2956,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200633] = {
 		buff_id = 200633,
-		name = "メテオミサイル",
-		desc = "戦闘中、作戦支援端末「たーみなる」が制御するミサイル支援攻撃が出現する",
+		name = "流星轰炸",
+		desc = "战斗中将会得到来自「特米娜露」的流星弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2953,8 +2967,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200645] = {
 		buff_id = 200645,
-		name = "地脈仕掛-陰",
-		desc = "地脈仕掛が敵に制御されている。戦闘中、敵の支援弾幕が出現する",
+		name = "地脉机关-阴",
+		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2964,8 +2978,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200646] = {
 		buff_id = 200646,
-		name = "地脈仕掛-陽",
-		desc = "地脈仕掛が敵に制御されている。戦闘中、敵の支援弾幕が出現する",
+		name = "地脉机关-阳",
+		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2975,8 +2989,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200647] = {
 		buff_id = 200647,
-		name = "地脈仕掛-閃",
-		desc = "地脈仕掛が敵に制御されている。戦闘中、敵の支援弾幕・敵はダメージを軽減できるシールドをもつ",
+		name = "地脉机关-闪",
+		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得减伤护盾。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2986,8 +3000,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200648] = {
 		buff_id = 200648,
-		name = "地脈仕掛-繚",
-		desc = "地脈仕掛が敵に制御されている。戦闘中、敵の支援弾幕が出現する他、敵に耐久回復効果が付与される",
+		name = "地脉机关-缭",
+		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，敌方舰队将获得额外耐久恢复。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -2997,8 +3011,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200649] = {
 		buff_id = 200649,
-		name = "地脈仕掛-絢",
-		desc = "地脈仕掛が敵に制御されている。戦闘中、敵の支援弾幕が出現し、命中した艦船は中毒状態になり、持続ダメージを受ける",
+		name = "地脉机关-绚",
+		desc = "此机关由敌方控制，己方舰队在战斗中将受到来自机关的额外弹幕攻击，弹幕附带中毒效果，使目标持续损失耐久。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3008,8 +3022,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200655] = {
 		buff_id = 200655,
-		name = "地脈仕掛-陰",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現する",
+		name = "地脉机关-阴",
+		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3019,8 +3033,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200658] = {
 		buff_id = 200658,
-		name = "地脈仕掛-陽",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現する",
+		name = "地脉机关-阳",
+		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3030,8 +3044,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200661] = {
 		buff_id = 200661,
-		name = "地脈仕掛-閃",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕・味方はダメージを軽減できるシールドをもつ",
+		name = "地脉机关-闪",
+		desc = "此机关由己方控制，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3041,8 +3055,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200664] = {
 		buff_id = 200664,
-		name = "地脈仕掛-繚",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現する他、味方に耐久回復効果が付与される",
+		name = "地脉机关-缭",
+		desc = "此机关由己方控制，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3052,8 +3066,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200667] = {
 		buff_id = 200667,
-		name = "地脈仕掛-陰",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現する",
+		name = "地脉机关-阴",
+		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3063,8 +3077,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200670] = {
 		buff_id = 200670,
-		name = "地脈仕掛-陽",
-		desc = "地脈仕掛を味方が制御している。戦闘中、敵味方支援弾幕が出現する",
+		name = "地脉机关-阳",
+		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3074,8 +3088,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200673] = {
 		buff_id = 200673,
-		name = "地脈仕掛-閃",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕・味方はダメージを軽減できるシールドをもつ",
+		name = "地脉机关-闪",
+		desc = "此机关由己方控制，己方舰队在战斗中将获得护盾，并受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3085,8 +3099,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200676] = {
 		buff_id = 200676,
-		name = "地脈仕掛-繚",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現する他、味方に耐久回復効果が付与される",
+		name = "地脉机关-缭",
+		desc = "此机关由己方控制，己方舰队在战斗中将获得额外耐久恢复，并受到来自机关的额外弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3096,8 +3110,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200679] = {
 		buff_id = 200679,
-		name = "地脈仕掛-絢",
-		desc = "地脈仕掛を味方が制御している。戦闘中、味方の支援弾幕が出現し、命中した敵を中毒状態にして持続ダメージを与える",
+		name = "地脉机关-绚",
+		desc = "此机关由己方控制，己方舰队在战斗中将受到来自机关的额外弹幕支援，弹幕附带中毒效果，使目标持续损失耐久。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3107,8 +3121,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200732] = {
 		buff_id = 200732,
-		name = "浮遊艦隊制圧",
-		desc = "謎の浮遊艦隊によるジャミングを受けている。戦闘中味方の命中・回避が5％ダウンし、さらに受けるダメージが5%アップ",
+		name = "理事会舰队压制",
+		desc = "受到来自不明对手的电子战干扰，战斗中我方角色命中、机动下降5%，并额外受到5%的伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3118,8 +3132,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200735] = {
 		buff_id = 200735,
-		name = "理事会艦隊支援",
-		desc = "理事会艦隊による電子戦闘支援を受けている。戦闘中敵の命中・回避が5%ダウンし、さらに受けるダメージが5%アップ",
+		name = "理事会舰队支援",
+		desc = "获得来自理事会舰队的电子战支援，战斗中敌方单位命中、机动下降5%，并额外受到5%的伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3129,8 +3143,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200770] = {
 		buff_id = 200770,
-		name = "極寒の氷原",
-		desc = "南極の極寒環境で味方の速力が3ダウンし、回避が10%ダウンする。戦闘中戦場に無差別で被害をもたらす雪嵐が出現する",
+		name = "冰原极寒",
+		desc = "受安塔提卡冰原严寒影响，战斗中己方角色航速降低3点，机动减少10%，且场上会随机出现无差别打击的冰雪风暴。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3140,8 +3154,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200774] = {
 		buff_id = 200774,
-		name = "指揮サポート・「ヘレナ」",
-		desc = "「ヘレナ」の戦術指揮ネットワークへのサポートにより、各艦隊を思うように指揮し連携させることが可能。\n海域の特定回数の戦闘では、連合艦隊による支援弾幕が出現する",
+		name = "指挥网络HM",
+		desc = "得益于海伦娜·META构建的指挥网络，战斗中能够精准部署各舰队，协同作战。\n特定场次战斗中会得到联合舰队的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3151,8 +3165,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200777] = {
 		buff_id = 200777,
-		name = "指揮サポート・「ヘレナ」",
-		desc = "「ヘレナ」の戦術指揮ネットワークへのサポートにより、各艦隊を思うように指揮し連携させることが可能。\n海域の特定回数の戦闘では、連合艦隊による支援弾幕が出現する",
+		name = "指挥网络HM",
+		desc = "得益于海伦娜·META构建的指挥网络，战斗中能够精准部署各舰队，协同作战。\n特定场次战斗中会得到联合舰队的弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3162,8 +3176,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200780] = {
 		buff_id = 200780,
-		name = "実験型爆撃機支援",
-		desc = "サラトガの秘密航空兵器の支援により、戦闘中味方の特殊航空弾幕が出現する",
+		name = "实验型轰炸机支援",
+		desc = "得到了萨拉托加的秘密航空兵器支援，战斗中将会出现特殊航空弹幕轰炸敌军。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3173,8 +3187,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200783] = {
 		buff_id = 200783,
-		name = "実験型爆撃機支援",
-		desc = "サラトガの秘密航空兵器の支援により、戦闘中味方の特殊航空弾幕が出現する",
+		name = "实验型轰炸机支援",
+		desc = "得到了萨拉托加的秘密航空兵器支援，战斗中将会出现特殊航空弹幕轰炸敌军。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3184,8 +3198,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200902] = {
 		buff_id = 200902,
-		name = "ソング・オブ・アリザリン",
-		desc = "ユニット「Alizarin」のステージ！戦闘開始から15秒間、歌声に励まされて味方全員の火力・雷装・航空・装填が5%アップ",
+		name = "深红（Alizarin）之声",
+		desc = "组合深红（Alizarin）已登台！在歌声的鼓舞下，每场战斗开始时，己方全体炮击、雷击、航空、装填值提升5%，持续15秒。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3195,8 +3209,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200903] = {
 		buff_id = 200903,
-		name = "ソング・オブ・シアニジン",
-		desc = "ユニット「Cyanidin」のステージ！戦闘開始から15秒間、歌声に励まされて味方全員にそれぞれの耐久上限の2％分のダメージを無効にできるシールドを生成し、さらに15秒間その艦船が受けるダメージを5％軽減する",
+		name = "花青素（Cyanidin）之声",
+		desc = "组合花青素（Cyanidin）已登台！受到歌声鼓舞，每场战斗开始时己方全体获得自身2%耐久值的护盾并减少5%所受伤害，持续15秒。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3206,8 +3220,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200905] = {
 		buff_id = 200905,
-		name = "スポットライト-アリザリン",
-		desc = "注目効果",
+		name = "聚光灯-深红",
+		desc = "聚光灯效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3217,8 +3231,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200907] = {
 		buff_id = 200907,
-		name = "スポットライト-シアニジン",
-		desc = "注目効果",
+		name = "聚光灯-花青素",
+		desc = "聚光灯效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3228,14 +3242,15 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200908] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战模式",
 		desc = [[
-戦闘開始時味方前衛艦隊に艦船が1隻のみ存在する場合、戦闘はチャレンジモードに入り難易度が上昇するが、クリアするとより高いスコアが狙えるようになります。
+战斗开始时若我方先锋舰队有且仅有一名角色，将会进入挑战模式，挑战高难度的同时将有机会获得更高的通关分数。
 
-チャレンジモードの特徴：
-敵が与えるダメージが大幅に上昇し、生成される回転シールドの耐久が無限になる；
-時間経過で敵が与えるダメージがさらに上昇する
-装備・スキル【スクランブル】【ウサウサラストスタンド】が無効になる]],
+本次挑战模式特性：
+敌方伤害大幅度提高，环绕护盾格挡次数变为无限；同时随着时间流逝，敌方所受的伤害将会逐步提高。
+
+以下装备或技能效果无法在本次挑战中生效：
+【快速起飞】、【背水之战】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3245,8 +3260,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200925] = {
 		buff_id = 200925,
-		name = "デスブリッジ",
-		desc = "デスブリッジが有効化された。\n戦闘中、敵の「デスシャドウ」からの支援攻撃が出現する",
+		name = "死神之桥",
+		desc = "死神之桥已激活。\n战斗中，将会突然受到死神之影的袭击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3256,8 +3271,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200926] = {
 		buff_id = 0,
-		name = "偽相体",
-		desc = "/*偽相体*/が撃破されると分裂し、周囲の/*偽相体*/の数を増やす。\n\nーー/*偽相体*/の存在が確認された。/*偽相体*/とは一体…？",
+		name = "ÄâĚŹÎď",
+		desc = "/*ÄâĚŹÎď*/被击破时，会释放出/*ÄâĚŹÎď*/，为周围的/*ÄâĚŹÎď*/提供更多/*ÄâĚŹÎď*/.\n\n——你注意到/*ÄâĚŹÎď*/的存在了，/*ÄâĚŹÎď*/是什么？",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3267,8 +3282,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200928] = {
 		buff_id = 200928,
-		name = "「死」のマルティリウム",
-		desc = "「死」の概念を係留し、基盤の上でマルティリウムとしてそれを具現化する。\n戦闘中、任意の味方が敵を撃破した場合、その味方の全ステータスが1%アップ（最大5層まで）",
+		name = "辉光之城-锚定",
+		desc = "辉光之城正在锚定「死亡」。\n战斗中任意单位击破敌方单位时，都能够提升自身1%全属性，最多叠加5层。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3278,8 +3293,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200930] = {
 		buff_id = 200930,
-		name = "「輝ける犠牲」のマルティリウム",
-		desc = "「死」の概念が昇華し、マルティリウムは尊き犠牲を讃頌する。\n戦闘中、任意の味方が敵を撃破した場合、その味方の全ステータスが1%アップ（最大5層まで）。任意の味方が敵を累計10体撃破した場合、特殊支援弾幕が出現する",
+		name = "辉光之城-绽放",
+		desc = "辉光之城正在「死亡」中绽放。\n战斗中任意单位击破敌方单位时，都能够提升自身1%全属性，最多叠加5层。当一方累计取得10次击杀时，将会获得一轮特殊弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3289,14 +3304,15 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200931] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战模式",
 		desc = [[
-戦闘開始時味方艦船が【謎のD装置】を装備している場合、戦闘はチャレンジモードに入り難易度が上昇しますが、クリアするとより高いスコアが狙えるようになります。
+战斗开始时若我方任意角色装备有【奇怪装置「D」】，将会进入挑战模式，挑战高难度同时将有机会获得更高的通关分数。
 
-  チャレンジモードの特徴：
- 敵が与えるダメージが大幅に上昇し、生成される回転シールドの耐久が無限になる；
- 時間経過で敵が与えるダメージがさらに上昇する
- 装備・スキル【スクランブル】【ウサウサラストスタンド】が無効になる]],
+本次挑战模式特性：
+敌方伤害大幅度提高，同时随着时间流逝敌方所受的伤害也会逐步提高。
+
+以下装备或技能效果无法在本次挑战中生效：
+【快速起飞】、【背水之战】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3306,15 +3322,16 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200932] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战模式",
 		desc = [[
-戦闘開始時、味方前衛艦隊に「ビーバーズエムブレム」を装備中の艦船がいる場合、戦闘はチャレンジモードに入り難易度が上昇する代わりに、クリアするとより高いスコアが狙えるようになります。
+战斗开始时若我方任意角色装备有【小海狸中队队徽】，将会进入挑战模式，挑战高难度同时有机会获得更高的通关分数。
 
-  チャレンジモードの特徴：
- 敵が与えるダメージが大幅に上昇。敵弾がシールドを無視し、射線上の全ての味方艦船にダメージを与える；
- 味方が装備している【精鋭ダメコン饅頭(ユニオン)】の効果が陣営で制限されなくなり、攻撃回避効果の持続時間が3秒になる代わりに、効果終了後対象艦船の耐久が0にならなくなる。
+本次挑战模式特性：
+敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。
+我方【白鹰精英损管】效果不再限制角色阵营，且回避效果结束后不会阵亡，但持续时间缩短至3秒。
 
-装備・スキル【スクランブル】【ウサウサラストスタンド】が無効になる]],
+以下装备或技能效果无法在本次挑战中生效：
+【快速起飞】、【背水之战】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3324,8 +3341,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200979] = {
 		buff_id = 200979,
-		name = "蒼紅の幻境",
-		desc = "——戦場は蒼紅の幻境に包まれている。\n戦闘開始15秒間、味方が受ける回復効果が10％ダウン、敵が与えるダメージが5％アップ。",
+		name = "苍红幻境",
+		desc = "——苍红色的幻境正笼罩着你。\n战斗开始后的前15秒内，我方角色受到的治疗效果降低10%，敌方单位造成的伤害提高5%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3335,8 +3352,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200980] = {
 		buff_id = 200980,
-		name = "「嵐」",
-		desc = "——「嵐」が吹き荒れている。\n戦闘中お互いの命中率が5％ダウンし、速力が3ダウンする。",
+		name = "大风暴",
+		desc = "——大风暴正在海域中肆虐。\n战斗中，敌我双方的命中率降低5%，航速降低3点。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3346,8 +3363,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200983] = {
 		buff_id = 0,
-		name = "蒼紅の影",
-		desc = "——蒼紅の穢れの影がこちらを見つめている。\n戦闘中、一定の間隔で敵の特殊支援弾幕が出現する。",
+		name = "苍红之息",
+		desc = "——苍红色的身影正在凝视着你。\n战斗中，将周期性出现特殊弹幕对我方舰队发动攻击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3357,8 +3374,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200984] = {
 		buff_id = 200984,
-		name = "凍雨ロケット支援",
-		desc = "——「凍雨」アーセナルシップ、支援攻撃を開始する！\n戦闘中、一定の間隔で敵を凍らせる味方の特殊支援弾幕が出現する。",
+		name = "冻雨打击支援",
+		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3368,8 +3385,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200987] = {
 		buff_id = 200987,
-		name = "凍雨ロケット支援",
-		desc = "——「凍雨」アーセナルシップ、支援攻撃を開始する！\n戦闘中、一定の間隔で敵を凍らせる味方の特殊支援弾幕が出現する。",
+		name = "冻雨打击支援",
+		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3379,8 +3396,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200990] = {
 		buff_id = 200990,
-		name = "凍雨ロケット支援",
-		desc = "——「凍雨」アーセナルシップ、支援攻撃を開始する！\n戦闘中、一定の間隔で敵を凍らせる味方の特殊支援弾幕が出現する。",
+		name = "冻雨打击支援",
+		desc = "——「冻雨」型火力投射舰正在支援战斗。\n战斗中，将周期性出现特殊弹幕打击并冰冻范围内的敌人。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3390,13 +3407,16 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[200999] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战模式",
 		desc = [[
-戦闘開始時味方艦船が【輸送用高速ドローン】を装備している場合、戦闘はチャレンジモードに入り難易度が上昇しますが、クリアするとより高いスコアが狙えるようになります。
+战斗开始时若我方任意角色装备有【速运高速无人机】，将会进入挑战模式，挑战高难度同时有机会获得更高的通关分数。
 
-  チャレンジモードの特徴：
- 敵が与えるダメージが大幅に上昇。敵弾がシールドを無視し、射線上の全ての味方艦船にダメージを与える；
- 敵の耐久が一定値以上の場合、味方を支援する「凍雨」アーセナルシップが画面左側に出現する。アーセナルシップは独自の耐久を持ち、一部の敵弾幕には非常に弱いが、敵に高火力の支援攻撃を行う。]],
+本次挑战模式特性：
+敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。
+战斗中将会出现支援舰船协助我方作战，该舰船火力强大，但面对敌方常规弹幕以外的攻击时会显得十分脆弱。
+
+以下装备或技能效果无法在本次挑战中生效：
+无]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3406,8 +3426,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201021] = {
 		buff_id = 201021,
-		name = "深緋の秘境",
-		desc = "――「天城姉さま、もうすぐ会えますわ」\n戦闘開始15秒間、味方艦船の装填が5％ダウンし、敵の装填が10%アップ",
+		name = "朱红秘境",
+		desc = "——「姐姐，我们很快就能团聚了。」\n海域中，所有战斗开始后的前15秒内，我方角色装填降低5%，敌方单位装填提升10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3417,8 +3437,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201022] = {
 		buff_id = 0,
-		name = "深緋の秘境",
-		desc = "――「天城姉さま、もうすぐ会えますわ」\n戦闘開始15秒間、味方艦船の装填が5％ダウンし、敵の装填が10%アップ",
+		name = "朱红秘境",
+		desc = "——「姐姐，我们很快就能团聚了。」\n海域中，所有战斗开始后的前15秒内，我方角色装填降低5%，敌方单位装填提升10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3428,8 +3448,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201024] = {
 		buff_id = 201024,
-		name = "武蔵の雷鳴",
-		desc = "――「鏡湖に映されし雷雲、我が天剣と共に紫電を放たん」\n戦闘中、敵に耐久最大値に比例するダメージを与える味方の支援弾幕が出現する",
+		name = "静海惊雷",
+		desc = "——「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」\n战斗中我方周期性得到特殊弹幕支援，弹幕会对敌人额外造成其最大耐久百分比的伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3439,8 +3459,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201027] = {
 		buff_id = 201027,
-		name = "三笠の覚悟",
-		desc = "――「我は最後の砦、これ以上近づかせはせん！」\n戦闘中、味方の命中・回避が5%アップ、さらに一定の頻度で味方の支援弾幕が出現する",
+		name = "变革之路",
+		desc = "——「变革之路即将到来，全员各就各位，全力一战！」\n战斗中我方周期性得到特殊弹幕支援，同时战斗开始时提升我方5%的命中与机动。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3450,8 +3470,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201029] = {
 		buff_id = 201029,
-		name = "加賀の使命",
-		desc = "――「例え地獄に堕ちようとも、お前のことを守る」\n戦闘中、一定の頻度で味方の支援弾幕が出現する。さらに「深緋の秘境」効果を無効にする",
+		name = "苍蓝之约",
+		desc = "——「就算陪你到地狱的入口，我也一定会保护你的。」\n战斗中我方周期性得到特殊弹幕支援，并使[朱红秘境]效果无效化。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3461,8 +3481,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201090] = {
 		buff_id = 201090,
-		name = "世界サンプル",
-		desc = "戦闘中、味方主力艦隊艦船が受ける炎上ダメージを20％軽減し、回避が5％アップ。\n味方艦隊に重桜艦船が4隻以上いる場合、戦闘開始15秒後、味方の特殊支援弾幕が出現する",
+		name = "世界切片-苍红",
+		desc = "战斗中我方主力舰队受到的点燃伤害降低20%，机动提高5%。\n队伍中重樱阵营的角色至少4个时，战斗开始15秒后触发一次特殊弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3472,8 +3492,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201094] = {
 		buff_id = 201094,
-		name = "ナラクの淵",
-		desc = "戦闘中、味方「META」艦船が与えるダメージが10％アップし、受ける回復効果が10％アップする；それ以外の艦船が受けるダメージが5％アップし、受ける回復効果が8％ダウンする",
+		name = "奈落之渊",
+		desc = "战斗中我方META角色造成的伤害提高10%，受到的治疗效果提高10%；非META角色受到的伤害提高5%，受到的治疗效果降低8%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3483,8 +3503,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201097] = {
 		buff_id = 201097,
-		name = "蒼紅の炎",
-		desc = "戦闘中味方の特殊支援弾幕が出現し、命中した敵を特殊炎上状態にし、耐久上限に比例してダメージを与える",
+		name = "苍红之炎",
+		desc = "战斗中我方周期性得到特殊弹幕支援，弹幕会对敌人会附加特殊燃烧效果，造成其最大耐久百分比的伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3494,15 +3514,15 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201100] = {
 		buff_id = 0,
-		name = "チャレンジ説明",
+		name = "挑战说明",
 		desc = [[
-ハードモード仕様：
- 敵が与えるダメージが大幅に上昇。敵弾がシールドを無視し、射線上の全ての味方艦船にダメージを与える；
- 敵の「青の影」「紅の影」が受ける徹甲弾/半徹甲弾/魚雷のダメージが大幅に減少するが、受ける炎上ダメージが上昇する。
- 敵耐久度が一定値を下回った場合、海域に味方の法陣が出現し、全ての法陣を起動すると味方の支援攻撃が出現する。
+困难模式特性：
+敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力。
+敌方「苍红之影」与「苍蓝之影」大幅度提高对穿甲弹/半穿甲弹/鱼雷的伤害减免，但会受到更多的点燃伤害。
+最终阶段海域中将会出现我方支援阵法，全部激活后我方将发动一次终结技攻击支援。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】]],
+以下装备或技能效果无法在本次挑战中生效：
+【背水之战】、【彩虹计划】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3512,8 +3532,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201149] = {
 		buff_id = 201149,
-		name = "吹き荒れる嵐",
-		desc = "船団が嵐に突入した。テンペスタ陣営を除く味方全員の速力が3・回避が5%ダウン。さらにテンペスタ陣営の艦船が与えるダメージが10％アップ",
+		name = "海上风暴 ",
+		desc = "受海上风暴影响，我方全体单位航速降低3点，机动减少5%；飓风阵营单位不受影响，同时造成的伤害提高10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3523,8 +3543,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201152] = {
 		buff_id = 201152,
-		name = "静寂の海",
-		desc = "船団が静寂の海に突入した。テンペスタ陣営を除く味方が受ける回復効果が10％ダウン。さらにテンペスタ陣営の艦船が受けるダメージが10％ダウン",
+		name = "寂静之海",
+		desc = "受寂静之海影响，我方全体单位受到的治疗效果减少10%；飓风阵营单位不受影响，同时受到的伤害降低10%。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3534,8 +3554,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201155] = {
 		buff_id = 201155,
-		name = "女神の憐れみ",
-		desc = "戦闘開始25秒後味方艦隊の支援弾幕が出現し、さらに15秒間徐々に味方艦隊の耐久が回復する",
+		name = "女神的怜悯",
+		desc = "战斗开始25秒后，我方舰队将会受到一次支援弹幕，并在接下来15秒内获得缓慢回复效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3545,8 +3565,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201157] = {
 		buff_id = 201157,
-		name = "ファンシーの力",
-		desc = "船団はファンシーの支援を受けている。戦闘中一定時間ごとにランダムな敵1体はファンシーの触手に襲われ、装甲破壊効果が付与される",
+		name = "幻想之力",
+		desc = "得到了幻想号的支援。战斗中，幻想号的触手会每隔一段时间其会选定一个敌人发起攻击，并对被命中敌人施加破甲效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3556,14 +3576,14 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201158] = {
 		buff_id = 0,
-		name = "チャレンジ説明",
+		name = "挑战说明",
 		desc = [[
-ハードモード仕様：
- 敵が与えるダメージが大幅に上昇。敵弾がシールドを無視し、射線上の全ての味方艦船にダメージを与えるが、時間経過とともに敵が受けるダメージも上昇する。
- 一部の敵攻撃はクイズ形式になっている。
+困难模式特性：
+敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力，不过随着时间流逝，敌方所受的伤害也会逐步提高。
+一些带有解谜性质的攻击将会是致命的，还请思考应对。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】]],
+以下装备或技能效果无法在本次挑战中生效：
+【背水之战】、【彩虹计划】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3573,8 +3593,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201193] = {
 		buff_id = 201193,
-		name = "星空の下",
-		desc = "星空の下、全てがはっきりと見える。\n味方艦隊の戦闘時に、不定期で高空から敵の支援攻撃が出現する",
+		name = "星空之下",
+		desc = "星空之下，一切尽收眼底。\n我方舰队在海域内战斗时，会不间断地受到来自高空的垂直打击。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3584,8 +3604,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201194] = {
 		buff_id = 201194,
-		name = "IB-50 プテラ",
-		desc = "戦闘中、レジスタンス基地から「オーニソプター・プテラ」による支援が出現する",
+		name = "ID-50-飞剑龙",
+		desc = "战斗中，将会得到来自抵抗军基地的“飞剑龙”式双翼无人机群支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3595,8 +3615,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201197] = {
 		buff_id = 201197,
-		name = "エターナル・スター",
-		desc = "戦闘中、定期的に「エターナル・スター」による支援攻撃が出現する。弾幕が敵に命中した場合、ダメージを与え、さらに装甲破壊効果を与える",
+		name = "永恒之星",
+		desc = "战斗中会周期性得到来自永恒之星的支援攻击，弹幕在命中敌人时造成伤害并附加破甲效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3606,8 +3626,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201198] = {
 		buff_id = 0,
-		name = "外なる獣の群れ",
-		desc = "外なる獣の群れが現れり。その勢いは水天の境界線をも変える。\n「外なる獣」系の敵は炎上ダメージを受けない。また周回モード以外は敵が味方艦隊を追跡するようになる",
+		name = "天外兽潮",
+		desc = "天外兽潮爆发，无数天外之兽的出现改变了天空与大海的环境。\n该类型敌人免疫点燃伤害，并会在非周回模式下持续追击我方舰队。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3617,14 +3637,14 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201199] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战说明",
 		desc = [[
-ハードモード仕様：
- 敵が与えるダメージが大幅に上昇。敵弾がシールドを無視し、射線上の全ての味方艦船にダメージを与える；
- 敵が一部回避不能の攻撃を繰り出す時、「アドミラル・ヒッパー(META)」からの支援が出現する。
+困难模式特性：
+敌方伤害大幅度提高，同时所有子弹均获得无限穿透与无视护盾阻挡的能力，并免疫点燃伤害。
+战斗中面对某些无法规避的攻击时，会得到来自{namecode:543}的援助。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】]],
+以下技能效果无法在本次挑战中生效：
+【背水之战】、【彩虹计划】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3634,15 +3654,15 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201250] = {
 		buff_id = 201250,
-		name = "チャレンジモード",
+		name = "挑战说明",
 		desc = [[
-ハードモード仕様：
-敵が与えるダメージが大幅に上昇。敵の耐久が上限の40％を下回った時、攻撃パターンが変更し、3秒間ダメージを受けにくくなる；10％を下回った時、ラストモードになる。
-味方前衛艦隊の<color=#92fc63>当たり判定は前衛艦隊先頭艦だけになり、さらに当たり判定の大きさが大幅に小さくなる</color>。
-艦船が被弾した時、一定時間無敵になる。
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，且耐久小于40%时将改变攻击方式并获得3秒高额减伤；小于10%时则会进入狂暴状态。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时会附带短暂无敌效果。
 
-下記装備・スキルは無効になる：
-【ウサウサラストスタンド】、【レインボー・プラン】]],
+以下装备或技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3652,8 +3672,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201270] = {
 		buff_id = 201270,
-		name = "神光の織網",
-		desc = "戦闘中に1度だけ、敵味方両方に影響する神光の衝撃が発生する。\nサディア所属の艦船・ユニット：耐久が少し回復する\nその他の艦船・ユニット：一定時間回避と速力がダウンする",
+		name = "神光之网",
+		desc = "海域内的每场战斗中，将会出现一次同时影响敌我双方的神光冲击。\n撒丁阵营单位：百分比恢复少量耐久值。\n其余单位：在较长时间内降低机动与航速。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3663,8 +3683,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201276] = {
 		buff_id = 201276,
-		name = "永夜の領域",
-		desc = "戦闘中、永夜の旗による影響が敵味方両方関係なく適用される。\nMETA艦船：与えるダメージが上昇する\nその他の艦船・ユニット：命中が少しダウン。受ける炎上ダメージが上昇する",
+		name = "永夜领域",
+		desc = "海域内已布设永夜战旗，敌我双方将会同时受到影响。\nMETA单位：提高造成的伤害比例。\n其余单位：降低少量命中，受到的点燃伤害增加。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3674,8 +3694,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201281] = {
 		buff_id = 201281,
-		name = "戦車改造域",
-		desc = "メカアービトレイター・チャリオットが戦場を支配している。\nセイレーン：「過熱射撃」を得る\nその他の艦船・ユニット：受けるダメージが少しアップする",
+		name = "战车改造域",
+		desc = "海域已被审判机「战车」占据，敌我双方将会同时受到影响。\n塞壬单位：获得「过热射击」效果，即自身装填随时间流逝逐步提高。\n其余单位：受到的伤害小幅度提高。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3685,8 +3705,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201287] = {
 		buff_id = 201287,
-		name = "飛空艇団支援",
-		desc = "戦闘中、味方の飛空艇団の支援が出現する",
+		name = "飞空战舰支援",
+		desc = "战斗中，将会得到来自飞空战舰的航空弹幕支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3696,8 +3716,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201301] = {
 		buff_id = 201315,
-		name = "定期巡回",
-		desc = "戦闘中追加の敵が出現する",
+		name = "定期巡查",
+		desc = "战斗中将会出现一批额外敌人",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3707,8 +3727,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201302] = {
 		buff_id = 201316,
-		name = "怪しい影",
-		desc = "戦闘中敵の潜水艦が出現する",
+		name = "幽灵鬼影",
+		desc = "战斗中将会出现潜艇敌人",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3718,8 +3738,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201303] = {
 		buff_id = 201317,
-		name = "奇妙な音",
-		desc = "戦闘中一定時間経過する毎に味方の速力と命中がダウンする",
+		name = "奇怪响声",
+		desc = "战斗中每隔一段时间，我方单位将会暂时减少航速与命中",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3729,8 +3749,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201304] = {
 		buff_id = 201322,
-		name = "来訪者制限",
-		desc = "戦闘開始から30秒間、味方が与えるダメージが少しダウンする",
+		name = "访客限制令",
+		desc = "战斗开始前30秒，我方角色造成的伤害将会小幅度降低",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3740,8 +3760,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201305] = {
 		buff_id = 201323,
-		name = "特別問診",
-		desc = "戦闘中3秒毎に、味方の内、耐久が一番高いキャラの耐久が耐久上限の割合で少しダウンする",
+		name = "特别问诊",
+		desc = "战斗中每过3秒，使我方当前耐久最多的角色根据上限百分比损失少量耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3751,8 +3771,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201306] = {
 		buff_id = 201326,
-		name = "妖艶なる桜",
-		desc = "戦闘中敵の支援弾幕が出現する",
+		name = "妖艳的樱花树",
+		desc = "战斗中将会出现特殊敌方支援弹幕",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3762,8 +3782,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201307] = {
 		buff_id = 201327,
-		name = "セキュリティ警戒",
-		desc = "戦闘中敵の支援弾幕が出現する",
+		name = "安保系统警戒",
+		desc = "战斗中将会出现特殊敌方支援弹幕",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3773,8 +3793,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201308] = {
 		buff_id = 201328,
-		name = "無限ループ回廊",
-		desc = "旗艦以外の敵は一定時間経過する毎に、耐久上限の割合で耐久が回復する。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "无限循环回廊",
+		desc = "所有非旗舰敌方单位定期根据上限百分比回复少量耐久，且[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3784,8 +3804,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201309] = {
 		buff_id = 201332,
-		name = "地下区画探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索地下区域",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3795,8 +3815,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201310] = {
 		buff_id = 201401,
-		name = "ナースステーション探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索护士站",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3806,8 +3826,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201311] = {
 		buff_id = 201402,
-		name = "病室探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索病房",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3817,8 +3837,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201312] = {
 		buff_id = 201403,
-		name = "森探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索树林",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3828,8 +3848,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201313] = {
 		buff_id = 201404,
-		name = "庭院探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索庭院",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3839,8 +3859,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201314] = {
 		buff_id = 201332,
-		name = "研究所地下探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索研究所地下",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3850,8 +3870,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201315] = {
 		buff_id = 201405,
-		name = "正門探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索病院正门",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3861,8 +3881,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201316] = {
 		buff_id = 201406,
-		name = "駐車場探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索停车场",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3872,8 +3892,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201317] = {
 		buff_id = 201407,
-		name = "駐車場地下探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索停车场地下",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3883,8 +3903,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201318] = {
 		buff_id = 201408,
-		name = "守衛室探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索门卫亭",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3894,8 +3914,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201319] = {
 		buff_id = 201409,
-		name = "医師オフィス探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索医生办公室",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3905,8 +3925,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201320] = {
 		buff_id = 201405,
-		name = "裏口探索",
-		desc = "探索中により多くのエリアを探索した。探索回数+1、不利効果「エリア探索」を有効化する",
+		name = "探索医院后门",
+		desc = "于行动中探索了额外区域，[探索计数]+1",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3916,13 +3936,13 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201321] = {
 		buff_id = 0,
-		name = "エリア探索",
+		name = "区域探索",
 		desc = [[
-このステージの【探索回数】カウントに応じて下記の効果を発揮する：
- ≥1-味方艦船全員のステータスが15％ダウンし、敵旗艦が与えるダメージが20％アップ；
- ≥2-敵旗艦が「抗体」効果を得る：敵旗艦登場後、味方が主力艦隊砲撃・航空攻撃・魚雷攻撃を発動する度に、同攻撃で受けるダメージを10%/10%/5%軽減するようになる（それぞれのダメージ軽減効果は最大7回まで加算可能）；
- ≥3-味方艦船全員のステータスがさらに15％ダウンし、戦闘中5秒毎に落雷が出現し、耐久の上限を占める割合が一番高い味方艦船の耐久が上限の5％分失われる
- ≥4-味方艦船への回復効果はダメージ効果になり、戦場をゆっくり移動し、中にいる味方前衛艦隊が受けるダメージを50％増加させる渦が出現する]],
+根据当前累计的[探索计数]决定负面效果：
+≥1-我方角色全属性减少15%，敌方旗舰造成的伤害提升20%
+≥2-所有敌方旗舰获得抗体效果：敌方旗舰登场后我方每次主动触发跨射/空袭/鱼雷及导弹时，都会使该敌方旗舰对应伤害类型的减伤效果提升10%/10%/5%，每种减伤效果最多叠加7层
+≥3-我方角色全属性进一步减少15%，且每隔5秒使我方耐久百分比最高的角色受到雷击，根据上限损失5%的耐久。
+4-我方全部角色受到的恢复效果会被反转为伤害，且关卡内永久出现缓慢移动的紫色旋涡追踪我方先锋舰队，位于旋涡内的我方角色会增加50%受到的伤害。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3932,15 +3952,15 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201327] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战说明",
 		desc = [[
-ハードモード仕様：
- 敵が与えるダメージが<color=#ffc038>極大アップ</color>。大きなサイズの敵弾は航空攻撃・シールドによって消されない。
- 味方前衛艦隊の<color=#92fc63>当たり判定は前衛艦隊先頭艦だけになり、さらに当たり判定の大きさが大幅に小さくなる</color>。
- 艦船が被弾した時、一定時間無敵になる。
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时会附带短暂无敌效果。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】、【絶対絶命】]],
+以下装备或技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3950,8 +3970,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201361] = {
 		buff_id = 201361,
-		name = "チュリッパの海へ",
-		desc = "戦闘中一定時間ごとに、味方艦船に敵弾を一定回数無効にできる回転シールドを生成する。\n チュリッパ所属艦船がこのシールドを得た場合、耐久が少し回復する",
+		name = "扬起郁金之旗",
+		desc = "战斗中每隔一段时间，我方角色都会获得旋转护盾，阻挡一定数量的子弹。\n郁金王国阵营角色在获得护盾时会额外恢复少量耐久。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3961,8 +3981,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201365] = {
 		buff_id = 201365,
-		name = "堰堤防御システム",
-		desc = "戦闘中、堰堤周辺の沿岸砲による支援弾幕が出現する",
+		name = "堤坝防御带",
+		desc = "战斗中会得到来自位于堤坝附近岸防火炮的支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3972,8 +3992,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201377] = {
 		buff_id = 0,
-		name = "第二類偽相",
-		desc = "「第二類偽相」が撃破された場合、「第二類偽相」が放出され、周りの「第二類偽相」に「第二類偽相」を提供する。\n\n 「第二類偽相」は気づかれた。「第二類偽相」とは一体？",
+		name = "ľÚśţŔŕÄâĚŹ",
+		desc = "/*ľÚśţŔŕÄâĚŹ*/被击破时，会释放出/*ľÚśţŔŕÄâĚŹ*/，为周围的/*ľÚśţŔŕÄâĚŹ*/提供更多/*ľÚśţŔŕÄâĚŹ*/.\n\n——你注意到/*ľÚśţŔŕÄâĚŹ*/的存在了，/*ľÚśţŔŕÄâĚŹ*/是什么？",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3983,8 +4003,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201378] = {
 		buff_id = 201378,
-		name = "支援・光翼の獅子",
-		desc = "戦闘中、光翼の獅子による支援が出現する",
+		name = "辉翼狮支援",
+		desc = "战斗中将得到来自辉翼狮的支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3994,8 +4014,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201382] = {
 		buff_id = 201382,
-		name = "支援・列車",
-		desc = "戦闘中、「クイーンズライト号」による支援攻撃が出現する",
+		name = "列车支援",
+		desc = "战斗中将得到来自女王之光号列车的支援弹幕。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4005,8 +4025,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201386] = {
 		buff_id = 201386,
-		name = "支援・セイレーン",
-		desc = "戦闘中、コンパイラーが配置したⅡ型標準量産型混成艦隊による支援が出現する",
+		name = "塞壬支援",
+		desc = "战斗中将得到构建者部署的标准量产型II型混合舰队支援。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4016,8 +4036,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201410] = {
 		buff_id = 201410,
-		name = "支援・薔薇の塔",
-		desc = "薔薇の塔が防護バリアを展開した。戦闘中、味方艦隊が受けるダメージが少し軽減される",
+		name = "蔷薇塔支援",
+		desc = "蔷薇塔展开护盾屏障，己方舰队在战斗中将获得少量伤害减免。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4027,8 +4047,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201411] = {
 		buff_id = 201411,
-		name = "制圧・薔薇の塔",
-		desc = "薔薇の塔は制圧バリアを展開した。戦闘中、味方艦隊が与えるダメージが少し低くなる",
+		name = "蔷薇塔压制",
+		desc = "蔷薇塔展开压制屏障，己方舰队在战斗中造成的伤害将会降低。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4038,8 +4058,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201461] = {
 		buff_id = 0,
-		name = "チャレンジモード",
-		desc = "注意：戦闘中敵ボスが出現するまで<color=#ffc038>雑魚敵が出現する</color>。ボスの一定時間経過で出現するが、敵戦艦・敵空母を早期に撃破することで<color=#92fc63>ボスの出現時間を早めることができる</color>。敵が画面左側に到達しても、味方主力艦隊はダメージを受けない。",
+		name = "挑战说明",
+		desc = "注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4049,17 +4069,17 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201462] = {
 		buff_id = 0,
-		name = "EX説明",
+		name = "挑战说明",
 		desc = [[
-注意：戦闘中敵ボスが出現するまで<color=#ffc038>雑魚敵が出現する</color>。ボスの一定時間経過で出現するが、敵戦艦・敵空母を早期に撃破することで<color=#92fc63>ボスの出現時間を早めることができる</color>。敵が画面左側に到達しても、味方主力艦隊はダメージを受けない。
+注意：本次关卡中<color=#ffc038>存在道中部分</color>，道中进度根据时间轴推进，提早击破战列或航母敌人可以<color=#92fc63>加速推进进度</color>，同时在关卡中我方主力舰队免疫触底伤害。
 
- ハードモード仕様：
- 敵が与えるダメージが<color=#ffc038>大幅に上昇</color>。敵弾がシールドを無視する。
- 味方前衛艦隊の<color=#92fc63>被弾判定が大幅に縮小され、同時に先頭位置の艦船のみが被弾判定を持ち</color>、その他の艦船は無敵状態になる。
- 艦船が被弾判定を受けた際、短時間の無敵がになる。
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，子弹无视护盾。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时附带短暂无敌效果。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】、【絶対絶命】]],
+以下技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4069,8 +4089,12 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201463] = {
 		buff_id = 0,
-		name = "チャレンジ説明",
-		desc = "ボスは<color=#92fc63>黒と白の2つの形態があり</color>、それぞれに耐久と戦い方が存在する。黒形態では<color=#92fc63>受けるダメージが固定で1になる</color>。\n ボスの現在の形態がすべての攻撃を行い、もう一つの形態の耐久が0でない限り、その形態に切り替わる。また、ボスの現在の形態の耐久が0になった場合も、もう一つの形態に切り替わる；切り替わった時、切り替わった先の形態は<color=#92fc63>凶暴化</color>状態になり、与えるダメージと受けるダメージが100％アップ（黒形態が受けるダメージは固定で2になる）。",
+		name = "挑战说明",
+		desc = [[
+本次关卡中，BOSS拥有<color=#92fc63>黑白两种形态</color>，拥有各自独立的耐久与状态，白色形态为正常耐久，黑色形态<color=#92fc63>固定只会受到1点伤害</color>。
+BOSS同一时间只能展现出一种形态，称之为【苏醒】，另一种则是【沉睡】。
+苏醒形态在执行完所有攻击动作后，若另一黑白形态存活，自身将会陷入沉睡并使另一形态苏醒。
+苏醒形态若被击破，沉睡形态将<color=#92fc63>强制苏醒并进入狂暴状态</color>，造成的伤害与受到的伤害同时增加100%（黑色形态会固定受到2点伤害）。]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4080,18 +4104,20 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201464] = {
 		buff_id = 0,
-		name = "チャレンジ説明",
+		name = "挑战说明",
 		desc = [[
-ボスは<color=#92fc63>黒と白の2つの形態があり</color>、それぞれに耐久と戦い方が存在する。黒形態では<color=#92fc63>受けるダメージが固定で1になる</color>。
- ボスの現在の形態がすべての攻撃を行い、もう一つの形態の耐久が0でない限り、その形態に切り替わる。また、ボスの現在の形態の耐久が0になった場合も、もう一つの形態に切り替わる；切り替わった時、切り替わった先の形態は<color=#92fc63>凶暴化</color>状態になり、与えるダメージと受けるダメージが100％アップ（黒形態が受けるダメージは固定で2になる）。
+本次关卡中，BOSS拥有<color=#92fc63>黑白两种形态</color>，拥有各自独立的耐久与状态，白色形态为正常耐久，黑色形态<color=#92fc63>固定只会受到1点伤害</color>。
+BOSS同一时间只能展现出一种形态，称之为【苏醒】，另一种则是【沉睡】。
+苏醒形态在执行完所有攻击动作后，若另一黑白形态存活，自身将会陷入沉睡并使另一形态苏醒。
+苏醒形态若被击破，沉睡形态将<color=#92fc63>强制苏醒并进入狂暴状态</color>，造成的伤害与受到的伤害同时增加100%（黑色形态会固定受到2点伤害）。
 
- ハードモード仕様：
- 敵が与えるダメージが<color=#ffc038>極大アップ</color>。大きなサイズの敵弾は航空攻撃・シールドによって消されない。
- 味方前衛艦隊の<color=#92fc63>当たり判定は前衛艦隊先頭艦だけになり、さらに当たり判定の大きさが大幅に小さくなる</color>。
- 艦船が被弾した時、一定時間無敵になる。
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时会附带短暂无敌效果。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】、【絶対絶命】]],
+以下装备或技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4101,8 +4127,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201515] = {
 		buff_id = 201515,
-		name = "精神同調Ⅰ",
-		desc = "——「███解除：22.8％」——\n視界に正体不明の幻像が現れ始めた。\n戦闘中、無差別に敵味方を攻撃する弾幕が出現する",
+		name = "精神同步I",
+		desc = "——「███解除：22.8％」——\n视野中开始出现来源不明的幻象。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4112,8 +4138,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201516] = {
 		buff_id = 201515,
-		name = "精神同調Ⅱ",
-		desc = "——「███解除：37.1％」——\n幻像と現実の境界が薄れ始めた。\n戦闘中、無差別に敵味方を攻撃する弾幕が出現します",
+		name = "精神同步II",
+		desc = "——「███解除：37.1％」——\n幻象与现实之间的界限开始模糊。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4123,8 +4149,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201517] = {
 		buff_id = 201515,
-		name = "精神同調Ⅲ",
-		desc = "——「███解除：89.9％」——\n現実は幻、幻は現実。\n戦闘中、無差別に敵味方を攻撃する弾幕が出現します",
+		name = "精神同步III",
+		desc = "——「███解除：89.9％」——\n现实即为幻象，幻象即为现实。\n战斗中会出现进行无差别攻击的弹幕，注意规避。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4134,8 +4160,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201519] = {
 		buff_id = 201519,
-		name = "アマハラ加護-蝶",
-		desc = "アマハラ加護結界：蝶\n戦闘中、味方が投射砲撃・航空攻撃・魚雷攻撃を発動時、蝶の特殊弾幕が出現する",
+		name = "天原加护-蝶",
+		desc = "天原加护结界：蝶\n战斗中，我方角色发动跨射、空袭、鱼雷攻击时会额外附带少量蝴蝶弹幕。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4145,8 +4171,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201525] = {
 		buff_id = 201525,
-		name = "アマハラ加護-羽",
-		desc = "アマハラ加護結界：羽\n戦闘中20秒毎に、味方を支援する白鳳凰が出現する",
+		name = "天原加护-羽",
+		desc = "天原加护结界：羽\n战斗中每隔20秒会出现协助我方舰队战斗的白凤凰。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4156,8 +4182,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201530] = {
 		buff_id = 201530,
-		name = "アマハラ加護-鱗",
-		desc = "アマハラ加護結界：鱗\n戦闘開始後、味方を支援する竜が出現し、一定時間後に消滅する",
+		name = "天原加护-鳞",
+		desc = "天原加护结界：鳞\n战斗开始后会出现一只协助我方舰队战斗的鳞龙，持续一段时间后消失。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4167,8 +4193,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201531] = {
 		buff_id = 0,
-		name = "チャレンジモード",
-		desc = "戦闘中、ボスに随伴する赤い光の玉が出現する。光の玉はダメージを与えられないが、薫りの煙幕を散布し続ける。艦船が薫りの煙幕内にいる限り、その影響を受け、時間経過とともに速力がダウンし・受けるダメージがアップする；煙幕に累計で1秒間いると眩暈状態になり、受けるダメージが倍になり、煙幕が消えるまで攻撃・移動できなくなる。\n 煙幕から出ると、受けた煙幕の影響が半分の速さで消失する。",
+		name = "挑战说明",
+		desc = "BOSS在战斗中会伴随出现一些特殊的红色光球，光球不造成伤害，但会持续释放出带有熏香气味的烟雾，我方角色若处于烟雾内会持续受到影响，<color=#92fc63>移速逐渐降低且受到的伤害逐渐增加，直至累计受到烟雾效果超过1秒后陷入眩晕状态，受到200%伤害并无法移动及开火</color>，直到烟雾消散。\n我方角色脱离烟雾范围后会以一半的速率减少受到的烟雾效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4178,18 +4204,18 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[201532] = {
 		buff_id = 0,
-		name = "チャレンジモード",
+		name = "挑战说明",
 		desc = [[
-戦闘中、ボスに随伴する赤い光の玉が出現する。光の玉はダメージを与えられないが、薫りの煙幕を散布し続ける。当たり判定が有効な味方艦船が薫りの煙幕内にいる限り、時間経過とともに速力がダウンし・受けるダメージがアップする；煙幕に累計で1秒間いると眩暈状態になり、受けるダメージが倍になり、煙幕が消えるまで攻撃・移動できなくなる。
- 煙幕から出ると、受けた煙幕の影響が半分の速さで消失する。
+BOSS在战斗中会伴随出现一些特殊的红色光球，光球不造成伤害，但会持续释放出带有熏香气味的烟雾，我方当前拥有受击判定的角色若处于烟雾内会持续受到影响，<color=#92fc63>移速逐渐降低且受到的伤害逐渐增加，直至累计受到烟雾效果超过1秒后陷入眩晕状态，受到200%伤害并无法移动及开火</color>，直到烟雾消散。
+我方角色脱离烟雾范围后会以一半的速率减少受到的烟雾效果。
 
-  ハードモード仕様：
- 敵が与えるダメージが<color=#ffc038>極大アップ</color>。大きなサイズの敵弾は航空攻撃・シールドによって消されない。
- 味方前衛艦隊の<color=#92fc63>当たり判定が前衛艦隊先頭艦だけになり、さらに当たり判定の大きさが大幅に小さくなる</color>。
- 艦船が被弾した時、一定時間無敵になる。
+困难模式特性：
+敌方伤害<color=#ffc038>极大幅度提高</color>，部分大体积子弹无法被空袭/护盾消除。
+我方先锋舰队的角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态。
+角色获得受击判定时会附带短暂无敌效果。
 
- 下記装備・スキルは無効になる：
- 【ウサウサラストスタンド】、【レインボー・プラン】、【絶対絶命】]],
+以下装备或技能效果无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】]],
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4276,8 +4302,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300001] = {
 		buff_id = 0,
-		name = "コアレベルLv1",
-		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4287,8 +4313,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300002] = {
 		buff_id = 0,
-		name = "コアレベルLv2",
-		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1％分回復する",
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4298,8 +4324,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300003] = {
 		buff_id = 0,
-		name = "コアレベルLv3",
-		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3％アップする",
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4309,8 +4335,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300004] = {
 		buff_id = 0,
-		name = "コアレベルLv4",
-		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4320,8 +4346,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300005] = {
 		buff_id = 0,
-		name = "コアレベルLv1",
-		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4331,8 +4357,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300006] = {
 		buff_id = 0,
-		name = "コアレベルLv2",
-		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1％分回復する",
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4342,8 +4368,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300007] = {
 		buff_id = 0,
-		name = "コアレベルLv3",
-		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3％アップする",
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4353,8 +4379,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300008] = {
 		buff_id = 0,
-		name = "コアレベルLv4",
-		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4364,8 +4390,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300009] = {
 		buff_id = 0,
-		name = "コアレベルLv1",
-		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4375,8 +4401,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300010] = {
 		buff_id = 0,
-		name = "コアレベルLv2",
-		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1％分回復する",
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4386,8 +4412,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300011] = {
 		buff_id = 0,
-		name = "コアレベルLv3",
-		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3％アップする",
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4397,8 +4423,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300012] = {
 		buff_id = 0,
-		name = "コアレベルLv4",
-		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4408,8 +4434,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300013] = {
 		buff_id = 0,
-		name = "コアレベルLv1",
-		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4419,8 +4445,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300014] = {
 		buff_id = 0,
-		name = "コアレベルLv2",
-		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1％分回復する",
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4430,8 +4456,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300015] = {
 		buff_id = 0,
-		name = "コアレベルLv3",
-		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3％アップする",
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4441,8 +4467,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300016] = {
 		buff_id = 0,
-		name = "コアレベルLv4",
-		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4452,8 +4478,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300017] = {
 		buff_id = 0,
-		name = "コアレベルLv1",
-		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		name = "核心等级LV1",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4463,8 +4489,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300018] = {
 		buff_id = 0,
-		name = "コアレベルLv2",
-		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1％分回復する",
+		name = "核心等级LV2",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4474,8 +4500,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300019] = {
 		buff_id = 0,
-		name = "コアレベルLv3",
-		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3％アップする",
+		name = "核心等级LV3",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4485,8 +4511,8 @@ META艦船など一部の艦船は侵食レベルによる被ダメージアッ�
 	},
 	[300020] = {
 		buff_id = 0,
-		name = "コアレベルLv4",
-		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		name = "核心等级LV4",
+		desc = "战斗中，己方角色好感度获取提高",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,

@@ -110,10 +110,10 @@ slot0.Dispose = function(slot0)
 	slot0.inputController = nil
 end
 
-slot0.UpdataWorkStateFunc = function(slot0, slot1, slot2, slot3)
+slot0.UpdataWorkStateFunc = function(slot0, slot1, slot2)
 	table.insert(slot0.inputCommandQueue, {
 		Execute = function ()
-			uv0.controller:NotifiyCore(ISLAND_EVT.SET_PLAYER_WORK, uv1, uv2, uv3)
+			uv0.controller:NotifiyCore(ISLAND_EVT.SET_PLAYER_WORK, uv1, uv2)
 		end
 	})
 end
@@ -131,11 +131,11 @@ slot0.DisableInput = function(slot0)
 		table.remove(slot0.inputCommandQueue, 1)
 	end
 
-	slot0.inputController:DisablePlayerInput()
+	slot0.inputController:DisablePlayerAllOp()
 end
 
 slot0.EnableInput = function(slot0)
-	slot0.inputController:EnablePlayerInput()
+	slot0.inputController:EnablePlayerAllOp()
 end
 
 return slot0

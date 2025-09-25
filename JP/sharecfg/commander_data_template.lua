@@ -2,7 +2,7 @@ pg = pg or {}
 pg.commander_data_template = {
 	[10011] = {
 		tactic_value = 65,
-		name = "ジャスティス",
+		name = "伯克喵",
 		painting = "bokemiao",
 		max_level = 30,
 		exp = 500,
@@ -21,7 +21,7 @@ pg.commander_data_template = {
 	},
 	[10021] = {
 		tactic_value = 55,
-		name = "アンテナ",
+		name = "奥古喵",
 		painting = "aogumiao",
 		max_level = 30,
 		exp = 500,
@@ -40,7 +40,7 @@ pg.commander_data_template = {
 	},
 	[11011] = {
 		tactic_value = 36,
-		name = "バニー",
+		name = "汉克喵",
 		painting = "baiyingmiao",
 		max_level = 30,
 		exp = 300,
@@ -59,7 +59,7 @@ pg.commander_data_template = {
 	},
 	[11021] = {
 		tactic_value = 49,
-		name = "イーグル",
+		name = "莫里喵",
 		painting = "baiyingmiao",
 		max_level = 30,
 		exp = 300,
@@ -78,7 +78,7 @@ pg.commander_data_template = {
 	},
 	[12011] = {
 		tactic_value = 52,
-		name = "レディ",
+		name = "谢尔喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -97,7 +97,7 @@ pg.commander_data_template = {
 	},
 	[12021] = {
 		tactic_value = 26,
-		name = "エスジー",
+		name = "查理喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -116,7 +116,7 @@ pg.commander_data_template = {
 	},
 	[20011] = {
 		tactic_value = 58,
-		name = "ライム",
+		name = "约翰喵",
 		painting = "yuehanmiao",
 		max_level = 30,
 		exp = 500,
@@ -135,7 +135,7 @@ pg.commander_data_template = {
 	},
 	[20021] = {
 		tactic_value = 36,
-		name = "パウンド",
+		name = "庞德喵",
 		painting = "pangdemiao",
 		max_level = 30,
 		exp = 500,
@@ -154,7 +154,7 @@ pg.commander_data_template = {
 	},
 	[21011] = {
 		tactic_value = 45,
-		name = "ペッパー",
+		name = "威廉喵",
 		painting = "huangjiamiao",
 		max_level = 30,
 		exp = 300,
@@ -173,7 +173,7 @@ pg.commander_data_template = {
 	},
 	[21021] = {
 		tactic_value = 33,
-		name = "スープ",
+		name = "鲁普喵",
 		painting = "huangjiamiao",
 		max_level = 30,
 		exp = 300,
@@ -192,7 +192,7 @@ pg.commander_data_template = {
 	},
 	[21031] = {
 		tactic_value = 44,
-		name = "アーク",
+		name = "莫德喵",
 		painting = "huangjiamiao",
 		max_level = 30,
 		exp = 300,
@@ -211,7 +211,7 @@ pg.commander_data_template = {
 	},
 	[21041] = {
 		tactic_value = 44,
-		name = "マーボー",
+		name = "帕特喵",
 		painting = "huangjiamiao",
 		max_level = 30,
 		exp = 300,
@@ -230,7 +230,7 @@ pg.commander_data_template = {
 	},
 	[22011] = {
 		tactic_value = 23,
-		name = "ローズ",
+		name = "乔治喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -249,7 +249,7 @@ pg.commander_data_template = {
 	},
 	[22021] = {
 		tactic_value = 52,
-		name = "ビューグルス",
+		name = "贝尔喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -268,7 +268,7 @@ pg.commander_data_template = {
 	},
 	[30011] = {
 		tactic_value = 68,
-		name = "ビシャマル",
+		name = "毗沙丸",
 		painting = "duoduowan",
 		max_level = 30,
 		exp = 500,
@@ -287,7 +287,7 @@ pg.commander_data_template = {
 	},
 	[30021] = {
 		tactic_value = 66,
-		name = "タケマル",
+		name = "小竹丸",
 		painting = "xiaozhuwan",
 		max_level = 30,
 		exp = 500,
@@ -306,7 +306,7 @@ pg.commander_data_template = {
 	},
 	[31011] = {
 		tactic_value = 41,
-		name = "ジロマル",
+		name = "次郎丸",
 		painting = "chongyingmiao",
 		max_level = 30,
 		exp = 300,
@@ -325,7 +325,7 @@ pg.commander_data_template = {
 	},
 	[31021] = {
 		tactic_value = 36,
-		name = "ヨシマル",
+		name = "小吉丸",
 		painting = "chongyingmiao",
 		max_level = 30,
 		exp = 300,
@@ -344,7 +344,7 @@ pg.commander_data_template = {
 	},
 	[32011] = {
 		tactic_value = 40,
-		name = "アサマル",
+		name = "朝丸",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -363,7 +363,7 @@ pg.commander_data_template = {
 	},
 	[32021] = {
 		tactic_value = 32,
-		name = "カツマル",
+		name = "小胜丸",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -382,7 +382,7 @@ pg.commander_data_template = {
 	},
 	[40011] = {
 		tactic_value = 52,
-		name = "しゅている",
+		name = "克雷喵",
 		painting = "keleimiao",
 		max_level = 30,
 		exp = 500,
@@ -401,7 +401,7 @@ pg.commander_data_template = {
 	},
 	[40021] = {
 		tactic_value = 54,
-		name = "おすかー",
+		name = "林德喵",
 		painting = "lindemiao",
 		max_level = 30,
 		exp = 500,
@@ -420,7 +420,7 @@ pg.commander_data_template = {
 	},
 	[41011] = {
 		tactic_value = 43,
-		name = "じゃがいも",
+		name = "弗里喵",
 		painting = "tiexuemiao",
 		max_level = 30,
 		exp = 300,
@@ -439,7 +439,7 @@ pg.commander_data_template = {
 	},
 	[41021] = {
 		tactic_value = 41,
-		name = "うすゆきそう",
+		name = "莫赫喵",
 		painting = "tiexuemiao",
 		max_level = 30,
 		exp = 300,
@@ -458,7 +458,7 @@ pg.commander_data_template = {
 	},
 	[41031] = {
 		tactic_value = 48,
-		name = "ぐらーる",
+		name = "赫尔喵",
 		painting = "tiexuemiao",
 		max_level = 30,
 		exp = 300,
@@ -477,7 +477,7 @@ pg.commander_data_template = {
 	},
 	[42011] = {
 		tactic_value = 36,
-		name = "とうふ",
+		name = "海耶喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -496,7 +496,7 @@ pg.commander_data_template = {
 	},
 	[42021] = {
 		tactic_value = 49,
-		name = "びーる",
+		name = "埃里喵",
 		painting = "shuishoumiao",
 		max_level = 30,
 		exp = 200,
@@ -515,11 +515,11 @@ pg.commander_data_template = {
 	},
 	[960011] = {
 		tactic_value = 55,
-		name = "どれいく",
+		name = "德雷喵",
 		painting = "deleimiao",
 		max_level = 30,
 		exp = 500,
-		desc = "オフニャ「どれいく」――イベント「テンペスタと若返りの泉」にて入手可能",
+		desc = "指挥喵德雷喵——通过活动「飓风与青春之泉」获取",
 		exp_cost = 30,
 		ability_refresh_type = 1,
 		support_value = 39,
@@ -543,11 +543,11 @@ pg.commander_data_template = {
 	},
 	[960021] = {
 		tactic_value = 56,
-		name = "きっど",
+		name = "基德喵",
 		painting = "jidemiao",
 		max_level = 30,
 		exp = 500,
-		desc = "オフニャ「きっど」――イベント「テンペスタと若返りの泉」にて入手可能",
+		desc = "指挥喵基德喵——通过活动「飓风与青春之泉」获取",
 		exp_cost = 30,
 		ability_refresh_type = 1,
 		support_value = 53,
@@ -571,11 +571,11 @@ pg.commander_data_template = {
 	},
 	[960031] = {
 		tactic_value = 44,
-		name = "べらみー",
+		name = "贝拉喵",
 		painting = "beilamiao",
 		max_level = 30,
 		exp = 300,
-		desc = "オフニャ「べらーみ」――イベント「テンペスタと若返りの泉」にて入手可能",
+		desc = "指挥喵贝拉喵——通过活动「飓风与青春之泉」获取",
 		exp_cost = 20,
 		ability_refresh_type = 1,
 		support_value = 35,
@@ -599,11 +599,11 @@ pg.commander_data_template = {
 	},
 	[960041] = {
 		tactic_value = 67,
-		name = "えいぶりー",
+		name = "埃弗喵",
 		painting = "aifumiao",
 		max_level = 30,
 		exp = 500,
-		desc = "オフニャ「えいぶりー」――イベント「テンペスタと眠りし海」にて入手可能",
+		desc = "指挥喵埃弗喵——通过活动「飓风与沉眠之海」获取",
 		exp_cost = 30,
 		ability_refresh_type = 1,
 		support_value = 33,
@@ -627,11 +627,11 @@ pg.commander_data_template = {
 	},
 	[960051] = {
 		tactic_value = 42,
-		name = "ろばーつ",
+		name = "罗伯喵",
 		painting = "luobomiao",
 		max_level = 30,
 		exp = 300,
-		desc = "オフニャ「ろばーつ」――イベント「テンペスタと眠りし海」にて入手可能",
+		desc = "指挥喵罗伯喵——通过活动「飓风与沉眠之海」获取",
 		exp_cost = 20,
 		ability_refresh_type = 1,
 		support_value = 31,

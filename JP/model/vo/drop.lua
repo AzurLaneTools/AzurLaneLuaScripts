@@ -63,7 +63,7 @@ slot0.getIcon = function(slot0)
 			return "island/" .. uv0:getConfig("cmd_icon")
 		end,
 		[DROP_TYPE_ISLAND_INVITATION] = function ()
-			return "island/" .. uv0:getConfig("icon")
+			return "island/" .. pg.island_item_data_template[uv0:getConfig("invite_item")].icon
 		end,
 		[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function ()
 			return "island/" .. uv0:getConfig("icon")
@@ -73,6 +73,12 @@ slot0.getIcon = function(slot0)
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function ()
 			return "island/IslandFurnitureIcon/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function ()
+			return "island/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
+			return "island/" .. uv0:getConfig("icon")
 		end
 	}, function ()
 		return uv0:getConfig("icon")
@@ -301,7 +307,7 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_ISLAND_INVITATION] = function (slot0)
 			slot0.desc = ""
 
-			return {}
+			return pg.island_chara_template[slot0.id]
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
 			slot0.desc = ""
@@ -317,6 +323,19 @@ slot0.InitSwitch = function()
 			slot0.desc = ""
 
 			return pg.island_skin_template[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_action[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_speedup_ticket[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0)
+			return pg.island_card_diy[slot0.id]
 		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]
@@ -411,9 +430,16 @@ slot0.InitSwitch = function()
 			return getProxy(ShipSkinProxy):getSkinCountById(slot0.id)
 		end,
 		[DROP_TYPE_VITEM] = function (slot0)
-			if slot0:getConfig("virtual_type") == 22 then
-				return getProxy(ActivityProxy):getActivityById(slot0:getConfig("link_id")) and slot1.data1 or 0, true
-			end
+			return switch(slot0:getConfig("virtual_type"), {
+				[22] = function ()
+					return getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) and slot0.data1 or 0, true
+				end,
+				[101] = function ()
+					return getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) and slot0.data1 or 0
+				end
+			}, function ()
+				return nil
+			end)
 		end,
 		[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
 			return (getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot1.count or 0) + getProxy(BayProxy):GetEquipSkinCountInShips(slot0.id)
@@ -664,11 +690,11 @@ slot0.InitSwitch = function()
 				[13] = function ()
 					slot0 = uv0:getName()
 
-					if not SkinCouponActivity.StaticExistActivity() then
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_timeout_tip", slot0))
 
 						return nil
-					elseif SkinCouponActivity.StaticOwnMaxCntSkinCoupon() then
+					elseif slot1:IsMaxCnt() then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("coupon_repeat_tip", slot0))
 
 						return nil
@@ -853,7 +879,15 @@ slot0.InitSwitch = function()
 					end
 				end,
 				[13] = function ()
-					SkinCouponActivity.AddSkinCoupon(uv0.id, uv0.count)
+					if getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")):IsMaxCnt() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_already owned"))
+
+						return
+					end
+
+					slot0.data1 = slot0.data1 + uv0.count
+
+					getProxy(ActivityProxy):updateActivity(slot0)
 				end,
 				[14] = function ()
 					slot0 = nowWorld():GetBossProxy()
@@ -1412,6 +1446,12 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0, slot1, slot2)
 			updateIslandFurniture(slot1, slot0, slot2)
 		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0, slot1, slot2)
+			updateIslandCardDiy(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function (slot0, slot1, slot2)
+			updateIslandSpeedupTicket(slot1, slot0, slot2)
+		end,
 		[DROP_TYPE_HOLIDAY_VILLA] = function (slot0, slot1, slot2)
 			updateItem(slot1, Item.New({
 				id = slot0.id
@@ -1422,6 +1462,8 @@ slot0.InitSwitch = function()
 	uv0.UpdateCustomDropDefault = function(slot0, slot1, slot2)
 		if slot2.style == "dorm" then
 			updateDorm3dIcon(slot1, slot0, slot2)
+		elseif slot2.style == "island" then
+			updateIslandDefaultIconTpl(slot1, slot0, slot2)
 		else
 			warning(string.format("without dropType %d in updateCustomDrop", slot0.type))
 		end

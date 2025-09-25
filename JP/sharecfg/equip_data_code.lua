@@ -1,47 +1,47 @@
 pg = pg or {}
 pg.equip_data_code = {
 	WAVE = {
-		text = "/回",
+		text = "/轮",
 		code = "WAVE"
 	},
 	GUID = {
-		text = "誘導",
+		text = "制导",
 		code = "GUID"
 	},
 	ASW = {
-		text = "対潜",
+		text = "反潜",
 		code = "ASW"
 	},
 	SCA = {
-		text = "拡散",
+		text = "散射",
 		code = "SCA"
 	},
 	NA = {
-		text = "なし",
+		text = "无",
 		code = "NA"
 	},
 	FP = {
-		text = "砲撃",
+		text = "炮击",
 		code = "FP"
 	},
 	AIR = {
-		text = "航空",
+		text = "空战",
 		code = "AIR"
 	},
 	VOL = {
-		text = "投射",
+		text = "跨射",
 		code = "VOL"
 	},
 	BOMB = {
-		text = "爆撃",
+		text = "轰炸",
 		code = "BOMB"
 	},
 	SRG = {
-		text = "近距離",
+		text = "近程",
 		code = "SRG"
 	},
 	LRG = {
-		text = "遠距離",
+		text = "远程",
 		code = "LRG"
 	},
 	NORM = {
@@ -49,11 +49,11 @@ pg.equip_data_code = {
 		code = "NORM"
 	},
 	LOCK = {
-		text = "追尾",
+		text = "锁定",
 		code = "LOCK"
 	},
 	TRP = {
-		text = "雷撃",
+		text = "雷击",
 		code = "TRP"
 	},
 	all = {

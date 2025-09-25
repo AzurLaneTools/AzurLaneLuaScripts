@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001036_2",
 	map = {
 		{
@@ -19,18 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "所有的套餐都准备好了哦。",
+			say = "――料理が全部揃ったよ",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "辛苦指挥官了，放到这里的桌子上就好。",
-			animation = "clap",
-			characterId = 100800,
-			subName = "商区管理员",
 			face2Face = {
 				{
 					0,
@@ -43,7 +33,17 @@ return {
 			}
 		},
 		{
-			say = "咦，这里已经有这么多制作好的美食了么？",
+			subName = "商店街管理人",
+			say = "ありがとうございます、指揮官。そこの机に置いてもらえれば大丈夫です",
+			characterId = 100800,
+			animation = "note",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――……こうして並べてみると、料理のバリエーションがちょっと少ない気がするな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,58 +51,55 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "这些啊，大家一听说要举办聚会，就送来了不少好东西。",
-			characterId = 100800,
-			animation = "elation",
+			say = "――1店舗ならまだしも、商店街全体で考えると全然足りない…",
+			animation = "nod",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "赫莫的蔬菜，梅莉的肉和奶牛，布莱梅的派……",
-			nameColor = "#A9F548FF",
+			subName = "商店街管理人",
+			say = "品揃えですか……そういえば農場や牧場の産物が以前よりは豊富になったと聞きましたけど…",
 			characterId = 100800,
-			subName = "商区管理员",
+			animation = "think",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯！伙伴们的心意和指挥官的努力，都凝聚在这里面了！",
+			say = "繁茂農園はご覧になりましたか？",
+			subName = "商店街管理人",
 			characterId = 100800,
-			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看来大家是很期待啊。",
+			say = "――繁茂農園？",
 			hidePaintObj = true,
 			characterId = 0,
-			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "呵呵呵~指挥官，在聚会正式开始前，你可以去休息一下。",
+			animation = "talk",
+			say = "はい。だいぶ前に完成しているんですが、ずっと動きがないようで……",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商店街管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这里我来盯着就好。",
-			subName = "商区管理员",
+			say = "何か壁にぶち当たっているかもしれません",
+			subName = "商店街管理人",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +107,7 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "好，那就辛苦你了，阿莫玛。",
+			say = "――それなら見に行かないと。開発エリアの誰も置いてけぼりにはしないからな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +115,26 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯，我保证今天的商区一定会香气四溢地等着大家光临！",
+			subName = "商店街管理人",
+			say = "お願いします。ここは私が見ておきますので",
+			characterId = 100800,
+			animation = "clap",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――頼んだ！",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "商店街管理人",
+			say = "はい！今日こそみんなにとって「いい香りがする」商店街にしてみせますから！",
 			characterId = 100800,
 			animation = "nod",
 			typewriter = {

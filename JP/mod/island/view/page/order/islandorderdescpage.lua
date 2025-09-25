@@ -38,6 +38,7 @@ slot0.OnInit = function(slot0)
 		uv0:emit(IslandMediator.ON_SUBMIT_ORDER, uv0.slot.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.speedUpBtn, function ()
+		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.ORDER_CD, uv0.slot.id)
 	end, SFX_PANEL)
 end
 
@@ -46,13 +47,15 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_REPLACE_ORDER_DONE, slot0.OnReplaceOrder)
 	slot0:AddListener(IslandOrderAgency.GEN_NEW_ORDER, slot0.OnGenNewOrder)
 	slot0:AddListener(IslandOrderAgency.UDPATE_ORDER, slot0.OnFlushOrder)
+	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 end
 
-slot0.RemoveListener = function(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SUBMIT_ORDER_DONE, slot0.OnSubmitOrder)
 	slot0:RemoveListener(GAME.ISLAND_REPLACE_ORDER_DONE, slot0.OnReplaceOrder)
 	slot0:RemoveListener(IslandOrderAgency.GEN_NEW_ORDER, slot0.OnGenNewOrder)
 	slot0:RemoveListener(IslandOrderAgency.UDPATE_ORDER, slot0.OnFlushOrder)
+	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 end
 
 slot0.OnSubmitOrder = function(slot0, slot1)
@@ -65,6 +68,12 @@ end
 
 slot0.OnFlushOrder = function(slot0, slot1)
 	slot0:TryFlushOrderInfo(slot1.slotId)
+end
+
+slot0.OnUseTicketDone = function(slot0, slot1)
+	if slot1.type == IslandUseTicketCommand.TYPES.ORDER_CD then
+		slot0:TryFlushOrderInfo(slot1.id)
+	end
 end
 
 slot0.OnGenNewOrder = function(slot0, slot1)

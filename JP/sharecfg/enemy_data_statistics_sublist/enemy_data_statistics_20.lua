@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_20 = {
 	[90617] = {
 		cannon = 0,
-		name = "ブリストル",
+		name = "布里斯托尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -151,7 +151,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90618] = {
 		cannon = 0,
-		name = "キエフ",
+		name = "基辅",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -320,7 +320,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90619] = {
 		cannon = 0,
-		name = "ソオブラジーテリヌイ",
+		name = "灵敏",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -489,7 +489,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90620] = {
 		cannon = 0,
-		name = "クロンシュタット",
+		name = "喀琅施塔得",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -638,7 +638,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90621] = {
 		cannon = 0,
-		name = "アルハンゲリスク",
+		name = "阿尔汉格尔斯克 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -787,7 +787,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90622] = {
 		cannon = 0,
-		name = "ヴォルガ",
+		name = "伏尔加",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -936,7 +936,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90623] = {
 		cannon = 0,
-		name = "シャルンホルスト(META)",
+		name = "格尔林德·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1105,7 +1105,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90624] = {
 		cannon = 0,
-		name = "駆逐「Pawn」初期型",
+		name = "驱逐「Pawn」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1267,7 +1267,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90625] = {
 		cannon = 0,
-		name = "軽巡「Knight」初期型",
+		name = "轻巡「Knight」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1429,7 +1429,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90626] = {
 		cannon = 0,
-		name = "重巡「Bishop」初期型",
+		name = "重巡「Bishop」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1598,7 +1598,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90627] = {
 		cannon = 0,
-		name = "戦艦「Rook」初期型",
+		name = "战舰「Rook」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1767,7 +1767,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90628] = {
 		cannon = 0,
-		name = "ダイバーⅢ型",
+		name = "潜伏者III型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1913,7 +1913,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90629] = {
 		cannon = 0,
-		name = "オーディン",
+		name = "奥丁",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2069,7 +2069,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90630] = {
 		cannon = 0,
-		name = "ローン",
+		name = "罗恩",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2225,7 +2225,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90631] = {
 		cannon = 0,
-		name = "マインツ",
+		name = "美因茨",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2381,7 +2381,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90632] = {
 		cannon = 0,
-		name = "アウグスト・フォン・パーセヴァル",
+		name = "奥古斯特·冯·帕塞瓦尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2523,7 +2523,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90633] = {
 		cannon = 0,
-		name = "エーギル",
+		name = "埃吉尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2672,7 +2672,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90634] = {
 		cannon = 0,
-		name = "構造体H-A-1",
+		name = "构建体H-A-1",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2828,7 +2828,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90635] = {
 		cannon = 0,
-		name = "空母「Queen」初期型",
+		name = "航母「Queen」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2997,7 +2997,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90636] = {
 		cannon = 0,
-		name = "潜水艦「Assassin」初期型",
+		name = "潜艇「Assassin」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3148,7 +3148,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90637] = {
 		cannon = 0,
-		name = "自爆ボート「Buster」初期型",
+		name = "自爆船「Buster」-初始型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3294,7 +3294,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90638] = {
 		cannon = 0,
-		name = "ジャーヴィス",
+		name = "贾维斯",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3448,7 +3448,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90639] = {
 		cannon = 0,
-		name = "ベローナ",
+		name = "司战女神",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3604,7 +3604,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90640] = {
 		cannon = 0,
-		name = "リヴェンジ",
+		name = "复仇",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3760,7 +3760,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90641] = {
 		cannon = 0,
-		name = "インドミタブル",
+		name = "不挠",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3907,7 +3907,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90642] = {
 		cannon = 0,
-		name = "ヴァンガード",
+		name = "前卫",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4064,7 +4064,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90643] = {
 		cannon = 0,
-		name = "ハウ",
+		name = "豪",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4221,7 +4221,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90644] = {
 		cannon = 0,
-		name = "モナーク",
+		name = "君主",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4371,7 +4371,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90645] = {
 		cannon = 0,
-		name = "レパルス(META)",
+		name = "反击·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4540,7 +4540,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90646] = {
 		cannon = 0,
-		name = "エンタープライズ",
+		name = "进取",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4696,7 +4696,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90647] = {
 		cannon = 0,
-		name = "ランドンターブル",
+		name = "不屈",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

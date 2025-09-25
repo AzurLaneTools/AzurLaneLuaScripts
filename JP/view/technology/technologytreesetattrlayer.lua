@@ -12,15 +12,13 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = slot0:getWeightFromData()
-	})
+	slot0:BlurPanel(slot0._tf)
 	slot0:updateTypeList()
 	triggerToggle(slot0.typeContainer:GetChild(0), true)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0.resLoader:Clear()
 end
 
@@ -230,7 +228,7 @@ slot0.updateAttrTF = function(slot0, slot1, slot2)
 			uv1:setAttrValue(uv1.curType, uv2, slot1)
 			setText(uv3, slot1)
 		elseif not slot1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("attrset_input_ill"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("attrset_input_ill"))
 		end
 
 		setInputText(uv4, "")
@@ -256,8 +254,7 @@ slot0.openSaveBox = function(slot0, slot1, slot2, slot3)
 		content = i18n("attrset_ask_save"),
 		onYes = slot1,
 		onNo = slot2,
-		onClose = slot3,
-		weight = LayerWeightConst.TOP_LAYER
+		onClose = slot3
 	})
 end
 

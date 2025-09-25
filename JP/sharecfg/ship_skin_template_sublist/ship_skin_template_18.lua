@@ -1,124 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_18 = {
-	[900480] = {
-		name = "スーパーAI-TC",
-		change_skin = "",
-		desc = "超级AI-TC",
-		illustrator2 = -1,
-		ship_group = 900480,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "linghangyuan1_5",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 900480,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "linghangyuan1_5",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.742,
-					1.616,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.729,
-					1.626,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.634,
-					1.744,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.374,
-							2.451,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[900481] = {
 		name = "？？",
 		change_skin = "",
@@ -356,7 +238,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900486] = {
-		name = "レディE",
+		name = "ladyE",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -474,7 +356,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900487] = {
-		name = "グロリアス(META)",
+		name = "光荣·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -592,7 +474,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900488] = {
-		name = "グレンヴィル(META)",
+		name = "格伦维尔·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -828,7 +710,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900490] = {
-		name = "アビータ・Magician・Ⅰ",
+		name = "仲裁者·麦纪莎·I",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -946,7 +828,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900491] = {
-		name = "エレバス(META)",
+		name = "黑暗界·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1064,7 +946,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900492] = {
-		name = "ハンター(META)",
+		name = "猎人·META",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1182,7 +1064,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900506] = {
-		name = "コンパイラー",
+		name = "构建者",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1293,7 +1175,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900507] = {
-		name = "フォーミダブル",
+		name = "可畏",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1397,7 +1279,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900508] = {
-		name = "モナーク",
+		name = "君主",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1515,7 +1397,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900509] = {
-		name = "フリードリヒ・カール",
+		name = "{namecode:531}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1633,7 +1515,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900510] = {
-		name = "メリーランド",
+		name = "马里兰",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1751,7 +1633,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900511] = {
-		name = "初月",
+		name = "{namecode:189}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -1869,7 +1751,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900512] = {
-		name = "ブラック★ロックシューター",
+		name = "BLACK★ROCK SHOOTER",
 		change_skin = "",
 		desc = "……你是……“敌人”？……不，我没有感受到恶意。但是……我能感受到你那强烈的意志。原来如此，这个世界也同样充斥着“战斗”呢。你是……指挥官？我是BLACK★ROCK SHOOTER……我会保护你的。",
 		illustrator2 = -1,
@@ -1985,7 +1867,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900513] = {
-		name = "デッドマスター",
+		name = "DEAD MASTER",
 		change_skin = "",
 		desc = "——那么，这里是什么地方呢？哼……看样子，事态开始变得麻烦起来了呢。虽然很想向你详细解释一番，但既然我在这里的话，那个孩子想必也……啊，不必在意。我是DEAD MASTER，出于某些原因，接下来就承蒙你的关照了。",
 		illustrator2 = -1,
@@ -2207,7 +2089,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900515] = {
-		name = "フラミィ",
+		name = "芙拉米",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2318,7 +2200,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900516] = {
-		name = "ユミア・リースフェルト",
+		name = "优米雅·利斯菲尔德",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2434,7 +2316,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900517] = {
-		name = "アイラ・フォン・デューラー",
+		name = "艾菈·冯·杜勒",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2545,7 +2427,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900518] = {
-		name = "ニーナ・フリーデ",
+		name = "妮娜·弗里德",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2656,7 +2538,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900519] = {
-		name = "レイニャ",
+		name = "蕾妮雅",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2878,7 +2760,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900521] = {
-		name = "アルザス",
+		name = "阿尔萨斯",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -2989,7 +2871,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900522] = {
-		name = "ブレンヌス",
+		name = "布伦努斯",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3100,7 +2982,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900523] = {
-		name = "グアム",
+		name = "关岛",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3211,7 +3093,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900524] = {
-		name = "ガスコーニュ",
+		name = "加斯科涅",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3322,7 +3204,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900525] = {
-		name = "ラフィーⅡ",
+		name = "拉菲Ⅱ",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3433,7 +3315,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900526] = {
-		name = "ウォースパイト",
+		name = "厌战",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3544,7 +3426,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900527] = {
-		name = "雲仙",
+		name = "{namecode:294}",
 		change_skin = "",
 		desc = "无描述",
 		illustrator2 = -1,
@@ -3655,9 +3537,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[1101010] = {
-		name = "エヴァーツェン",
+		name = "埃佛森",
 		change_skin = "",
-		desc = "アドミラーレン級駆逐艦-エヴァーツェン",
+		desc = "海军上将级驱逐舰—埃佛森",
 		illustrator2 = -1,
 		ship_group = 110101,
 		group_index = 0,
@@ -3766,9 +3648,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[1101011] = {
-		name = "窓辺の日向ぼっこ",
+		name = "落于窗台的暖阳",
 		change_skin = "",
-		desc = "指揮官、適当にくつろいでください。……どうしてそんなに離れるんですか？それでは日向ぼっこができなくなりますよ",
+		desc = "随便坐吧，指挥官……离那么远干什么？你那边晒不到太阳了。",
 		illustrator2 = -1,
 		ship_group = 110101,
 		group_index = 1,
@@ -3885,9 +3767,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[1102010] = {
-		name = "デ・ゼーヴェン・プロヴィンシェン",
+		name = "七省",
 		change_skin = "",
-		desc = "デ・ゼーヴェン・プロヴィンシェン級軽巡-デ・ゼーヴェン・プロヴィンシェン",
+		desc = "七省级轻巡洋舰—七省",
 		illustrator2 = -1,
 		ship_group = 110201,
 		group_index = 0,
@@ -4003,9 +3885,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[1102011] = {
-		name = "寄り添う温もり",
+		name = "相依偎的温度",
 		change_skin = "",
-		desc = "おはようございます、指揮官さん。よく眠れましたか？あっ、髪に花びらがついていますよ。今取ってあげますね～",
+		desc = "早安，指挥官，昨晚睡得还好么~？啊，你的头发上沾到花瓣了，我来帮你摘掉吧~",
 		illustrator2 = -1,
 		ship_group = 110201,
 		group_index = 1,
@@ -4134,7 +4016,6 @@ pg.base.ship_skin_template_18 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -4181,9 +4062,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[1199010] = {
-		name = "ハウデン・リーウ",
+		name = "金狮",
 		change_skin = "",
-		desc = "重巡洋艦-ハウデン・リーウ",
+		desc = "重巡洋舰——金狮",
 		illustrator2 = -1,
 		ship_group = 119901,
 		group_index = 0,
@@ -4302,9 +4183,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600010] = {
-		name = "ロイヤル・フォーチュン",
+		name = "皇家财富号",
 		change_skin = "",
-		desc = "風帆艦-ロイヤル・フォーチュン",
+		desc = "风帆船一皇家财富号",
 		illustrator2 = -1,
 		ship_group = 960001,
 		group_index = 0,
@@ -4420,9 +4301,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600011] = {
-		name = "ディープワン・デリシャス",
+		name = "邪神（?）的“美餐”",
 		change_skin = "",
-		desc = "今日のごちそうは～、ケーキにお菓子に招かれざる――なぁにキョロキョロ見てるのさー？指揮官のことだよ！…えへへ、びっくりした？",
+		desc = "让我看看今天的美餐有什么~嗯，几块蛋糕，一些点心，还有一位自己送上门来的——东张西望什么呢，说的就是指挥官你！呵呵呵~吓到了吗？",
 		illustrator2 = -1,
 		ship_group = 960001,
 		group_index = 1,
@@ -4540,9 +4421,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600012] = {
-		name = "海辺の掟約",
+		name = "海边的约定",
 		change_skin = "",
-		desc = "「指揮官の大事なお宝を奪えない代わりに指揮官が一日付き合う」――まさかそんな取引を提案してくるとはね～。まっ、約束も掟もちゃんと守るのが一人前のテンペスタだもん。今日は一日付き合ってもらうよ♪",
+		desc = "“只要不偷指挥官的珍宝，指挥官就陪我一整天”——没想到到你会提出这样的交易～行吧，无论是约定还是成规，都好好遵守才算是独当一面的海盗。今天一整天指挥官都要陪我哦♪",
 		illustrator2 = -1,
 		ship_group = 960001,
 		group_index = 2,
@@ -4676,9 +4557,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600020] = {
-		name = "サン・マルチーニョ",
+		name = "圣马丁号",
 		change_skin = "",
-		desc = "風帆艦-サン・マルチーニョ",
+		desc = "风帆船一圣马丁号",
 		illustrator2 = -1,
 		ship_group = 960002,
 		group_index = 0,
@@ -4794,9 +4675,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600021] = {
-		name = "黒金の影",
+		name = "光辉之影",
 		change_skin = "",
-		desc = "輝ける黄金を繋索（けいさく）せし者の光と相反した一面を見せよう。案ずることはない。私は私のまま、愛憎も信ずる心も変わりない。…どうしても気になるなら、改めて私を知ってみたらどうだ…？",
+		desc = "黄金光辉的维系者，于此呈现光辉的另一面。无须担心，我还是我，我的爱憎信仰不曾改变，但指挥官介意的话，重新认识一下我也无妨。",
 		illustrator2 = -1,
 		ship_group = 960002,
 		group_index = 1,
@@ -4914,9 +4795,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600030] = {
-		name = "ゴールデン・ハインド",
+		name = "金鹿号",
 		change_skin = "",
-		desc = "風帆艦-ゴールデン・ハインド",
+		desc = "风帆船一金鹿号",
 		illustrator2 = -1,
 		ship_group = 960003,
 		group_index = 0,
@@ -5032,9 +4913,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600031] = {
-		name = "古城のキラーレディ",
+		name = "古堡中的恐怖淑女",
 		change_skin = "",
-		desc = "指揮官さま、この組み合わせは？……怖くない？変ね…メアリーちゃんのアイデアが役に立てないなんて…分かったぁ～、斧を持ってたらどぉ？指揮官さま♡",
+		desc = "指挥官大人，这样的搭配怎么样？……不够恐怖？奇怪，玛丽的主意居然不奏效……我知道了，加上斧头的话，指挥官大人觉得会如何呢~♡",
 		illustrator2 = -1,
 		ship_group = 960003,
 		group_index = 1,
@@ -5158,7 +5039,6 @@ pg.base.ship_skin_template_18 = {
 			"home",
 			"mail",
 			"touch_body",
-			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -5190,9 +5070,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600040] = {
-		name = "メアリー・セレスト",
+		name = "玛丽·西莱斯特号",
 		change_skin = "",
-		desc = "風帆艦-メアリー・セレスト",
+		desc = "风帆船一玛丽·西莱斯特号",
 		illustrator2 = -1,
 		ship_group = 960004,
 		group_index = 0,
@@ -5308,9 +5188,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600041] = {
-		name = "グリムナイト・リーパー",
+		name = "幽夜冥神",
 		change_skin = "",
-		desc = "私はメアリー・セレスト、月無き夜のサイレント・リーパー……うん、この衣装は幽霊船である私に合っている",
+		desc = "我是玛丽·西莱斯特，无月之夜的寂静猎手……嗯~这样的风格，和身为幽灵船的我很相配呢。",
 		illustrator2 = -1,
 		ship_group = 960004,
 		group_index = 1,
@@ -5428,9 +5308,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600050] = {
-		name = "ウィダー",
+		name = "维达号",
 		change_skin = "",
-		desc = "風帆艦-ウィダー",
+		desc = "风帆船一维达号",
 		illustrator2 = -1,
 		ship_group = 960005,
 		group_index = 0,
@@ -5546,9 +5426,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600051] = {
-		name = "レイジー・パイレーツ・エンゲル",
+		name = "慵懒的黑天使",
 		change_skin = "",
-		desc = "トリック・オア・トリートの天使が呼ばれて登場……ん？どうしてこんな格好をしてるのかって？そんな質問に答えなきゃならないなんてしんどいよ…とにかく、トリック・オア・トリート！指揮官、時間は大事だから早くお菓子渡して。それをもらったら帰ってゲームするから…",
+		desc = "糖果与游戏的天使，受召唤而来……诶？为什么要穿成这样？回答原因也好麻烦……总之，不给糖就捣蛋……！指挥官，为了节省时间，快把糖果交出来吧？我还想回去打游戏呢……",
 		illustrator2 = -1,
 		ship_group = 960005,
 		group_index = 1,
@@ -5672,9 +5552,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600060] = {
-		name = "アドヴェンチャー・ギャレー",
+		name = "加里冒险号",
 		change_skin = "",
-		desc = "風帆艦-アドヴェンチャー・ギャレー",
+		desc = "风帆船一加里冒险号",
 		illustrator2 = -1,
 		ship_group = 960006,
 		group_index = 0,
@@ -5790,9 +5670,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600061] = {
-		name = "赤き月のカーニヴァル",
+		name = "赤月下的“晚餐会”",
 		change_skin = "",
-		desc = "「あははは！ご主人様…ようやく見つけたぁ！さぁ、ディナーの用意はできているからあたしについてき……食事する気分じゃないって？せっかくイキのいいの捌いたのに…」――指揮官？なぜ後ずさってる…？",
+		desc = "主人……终于找到你了，为什么躲着我呢？快跟我来吧，晚餐已经准备好了，嗯？不想吃吗？那可是……刚刚才处理的新鲜肉啊……诶诶？指挥官为什么在后退！？",
 		illustrator2 = -1,
 		ship_group = 960006,
 		group_index = 1,
@@ -5910,9 +5790,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600070] = {
-		name = "ガンズウェイ",
+		name = "冈依沙瓦号",
 		change_skin = "",
-		desc = "風帆艦—ガンズウェイ",
+		desc = "风帆船—冈依沙瓦号",
 		illustrator2 = -1,
 		ship_group = 960007,
 		group_index = 0,
@@ -6028,9 +5908,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600071] = {
-		name = "封印のマーメイド",
+		name = "被封印的美人鱼",
 		change_skin = "",
-		desc = "私の歌声が聞こえるの？良かった……やっと来てくれた……！ねえ、この封印を解いてもらえないかな？",
+		desc = "你能听见我的歌声吗？真是太好了，我终于等到你了……！能请你帮我解开封印吗？",
 		illustrator2 = -1,
 		ship_group = 960007,
 		group_index = 1,
@@ -6154,9 +6034,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600080] = {
-		name = "ファンシー",
+		name = "幻想号",
 		change_skin = "",
-		desc = "風帆艦—ファンシー",
+		desc = "风帆船—幻想号",
 		illustrator2 = -1,
 		ship_group = 960008,
 		group_index = 0,
@@ -6272,9 +6152,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600081] = {
-		name = "ファンシーハートホラー",
+		name = "颤动心房的“恐怖”",
 		change_skin = "",
-		desc = "あ。……バレたね、指揮官。これが流行りのホラーファッションだって聞いたわ。……がおー。どう？びっくりした？",
+		desc = "啊……指挥官，被您发现了呢，听说这是正适合当下的恐怖装扮哦……吼哦~您感觉如何？是不是被吓到了？",
 		illustrator2 = -1,
 		ship_group = 960008,
 		group_index = 1,
@@ -6392,9 +6272,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600090] = {
-		name = "アミティ",
+		name = "和睦号",
 		change_skin = "",
-		desc = "風帆艦—アミティ",
+		desc = "风帆船—和睦号",
 		illustrator2 = -1,
 		ship_group = 960009,
 		group_index = 0,
@@ -6510,9 +6390,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600091] = {
-		name = "フレンドリー・フランケン",
+		name = "友好的弗兰肯",
 		change_skin = "",
-		desc = "あーあ、もう逃げられないわね。なんてね♪今回も私の勝ちだからお宝はもらっていくわよ！勇気があるなら一緒に飛び降りてみなさいな",
+		desc = "呜哇，无处可逃了呢——骗，你，的~指挥官，这次也是我赢了，我就带着财宝先走一步了哦！要是够胆量的话，就跳下来追我吧？",
 		illustrator2 = -1,
 		ship_group = 960009,
 		group_index = 1,
@@ -6636,9 +6516,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600100] = {
-		name = "ポーツマウス・アドベンチャー",
+		name = "朴茨茅斯冒险号",
 		change_skin = "",
-		desc = "風帆艦—ポーツマウス・アドベンチャー",
+		desc = "风帆船—朴茨茅斯冒险号",
 		illustrator2 = -1,
 		ship_group = 960010,
 		group_index = 0,
@@ -6754,9 +6634,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600101] = {
-		name = "サプライズ「アドベンチャー」",
+		name = "精心准备的“惊喜”",
 		change_skin = "",
-		desc = "ちょっ、指揮官？！来るのが早すぎじゃない！？こ、これは別に「ポーツマウスからのとっておきのサプライズ」なんかじゃないってばー！",
+		desc = "指、指挥官？？你怎么来得这么快？现、现在这个情况，不是我想要给你看的惊喜啊！",
 		illustrator2 = -1,
 		ship_group = 960010,
 		group_index = 1,
@@ -6874,9 +6754,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600110] = {
-		name = "ドルフィン",
+		name = "海豚号",
 		change_skin = "",
-		desc = "風帆艦—ドルフィン",
+		desc = "风帆船—海豚号",
 		illustrator2 = -1,
 		ship_group = 960011,
 		group_index = 0,
@@ -6992,9 +6872,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9600111] = {
-		name = "蘇れマジックワード",
+		name = "复苏的魔咒",
 		change_skin = "",
-		desc = "ふはー。ドルフィンを起こしたのはあなた？えへへ、ありがとう……あ。怖くない怖くない～。たしかに棺桶から立ち上がったからびっくりするだろうけど……本当にあなたを傷つけたりはしないよ？",
+		desc = "呼哈——是你唤醒了我么？……谢谢你，嘿嘿~啊！别怕别怕……虽然从棺材里醒来确实蛮可怕的样子……但是我真的不会伤害你的哦。",
 		illustrator2 = -1,
 		ship_group = 960011,
 		group_index = 1,
@@ -7112,9 +6992,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701010] = {
-		name = "ハンター(META)",
+		name = "猎人·META",
 		change_skin = "",
-		desc = "指揮官、こんにちは。わたしはハンター。名前の通り、「獲物」を追っている。ここが、新しい拠点…？",
+		desc = "指挥官，你好，我是猎人。正如你所见，我是一名“猎人”，正在寻找我的“猎物”。这里就是我的新据点么？",
 		illustrator2 = -1,
 		ship_group = 970101,
 		group_index = 0,
@@ -7223,9 +7103,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701020] = {
-		name = "フォーチュン(META)",
+		name = "命运女神·META",
 		change_skin = "",
-		desc = "はじめまして指揮官、私はフォーチュンといいます…く、鎖のことはあまり気にしないでくださいっ。力を…力を制御するのに必要なものでして…",
+		desc = "您好，指挥官。我是命运女神。……请不用在意我身上的这些，只是一些…对力量必要的限制而已。",
 		illustrator2 = -1,
 		ship_group = 970102,
 		group_index = 0,
@@ -7334,9 +7214,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701030] = {
-		name = "旗風(META)",
+		name = "{namecode:522}",
 		change_skin = "",
-		desc = "なんて貧弱な…全く、心配を掛けさせる。ちなみに私が誰なのかを気にする必要はない。お主が一人前になるよう導く存在だと知っていればそれで良い",
+		desc = "看你这弱不禁风的样子，真是不让人省心啊。不必在意我是谁，你只要知道，我会引导你成为一名优秀的指挥官就行了。",
 		illustrator2 = -1,
 		ship_group = 970103,
 		group_index = 0,
@@ -7445,9 +7325,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701040] = {
-		name = "キンバリー(META)",
+		name = "金伯利·META",
 		change_skin = "",
-		desc = "フレッチャー級のキンバリー、いつでも戦闘隊列に参加できます。…と、自己紹介はこれで十分なはず。とにかく、わたしは指揮官が振るう刃--切り込む先を指し示していただければそれでいいです",
+		desc = "弗莱彻级驱逐舰金伯利号，已经准备好加入战斗序列……嗯，这样的自我介绍就足够了。总之，我是你的利剑，告诉我要向哪里挥动就好了。",
 		illustrator2 = -1,
 		ship_group = 970104,
 		group_index = 0,
@@ -7556,9 +7436,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701050] = {
-		name = "ヴァンパイア(META)",
+		name = "吸血鬼·META",
 		change_skin = "",
-		desc = "闇夜の使い、可愛いヴァンパイアが汝に会いに来たわ。えへへ、いいにおーい♪さすがはヴァンパイアが見た夢に出てきた人♡",
+		desc = "暗夜的使者，可爱又迷人的吸血鬼前来拜会汝了~嘻嘻，汝有着不错的味道哦，不愧是人家的梦中之人呢——",
 		illustrator2 = -1,
 		ship_group = 970105,
 		group_index = 0,
@@ -7667,9 +7547,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701060] = {
-		name = "霞(META)",
+		name = "{namecode:180}·META",
 		change_skin = "",
-		desc = "霞……来たよ。指揮官、霞は何をしたらいい？",
+		desc = "{namecode:180}……来了。指挥官，需要{namecode:180}做什么？",
 		illustrator2 = -1,
 		ship_group = 970106,
 		group_index = 0,
@@ -7778,9 +7658,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701070] = {
-		name = "グレンヴィル(META)",
+		name = "格伦维尔·META",
 		change_skin = "",
-		desc = "ロイヤル所属の駆逐艦グレンヴィル、「META」の姿で戦場に戻ってきた。昔は……ううん、もうしょうがないことね。指揮官、私にチャンスをちょうだい。今度こそ必ず艦隊を守ってみせるから",
+		desc = "皇家驱逐舰格伦维尔，以META之姿重返战场。我曾经……不，那些都已经是往事了。指挥官，请给我机会，这次我一定会保护好舰队。",
 		illustrator2 = -1,
 		ship_group = 970107,
 		group_index = 0,
@@ -7889,9 +7769,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701080] = {
-		name = "江風(META)",
+		name = "{namecode:158}·META",
 		change_skin = "",
-		desc = "あなたが指揮官か。さすらい者の江風だ。しばらく共に行動することになるだろう……よろしく頼む",
+		desc = "你就是指挥官？无主浪人{namecode:158}，向你问好。接下来或许要同行一路了，请多指教。 ",
 		illustrator2 = -1,
 		ship_group = 970108,
 		group_index = 0,
@@ -8007,9 +7887,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701090] = {
-		name = "夕立(META)",
+		name = "{namecode:16}·META",
 		change_skin = "",
-		desc = "お前が指揮官か？夕立だ！白露型として数えてくれればいいぜ……ところでここはめしは出るのか？出る！？じゃあ問題ないな！",
+		desc = "你就是指挥官？我是{namecode:16}，你算在{namecode:15}级里好了……话说，你们这里管饭吗？管啊？那就没有问题了！ ",
 		illustrator2 = -1,
 		ship_group = 970109,
 		group_index = 0,
@@ -8124,10 +8004,128 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
-	[9702010] = {
-		name = "ヘレナ(META)",
+	[9701100] = {
+		name = "杜威·META",
 		change_skin = "",
-		desc = "ヘレナのことをお探し？力を貸してもいいけど――私に何も隠し事をしないって約束して",
+		desc = "驱逐舰杜威·META，将从今天开始担任指挥官的作战参谋。杜威会一直在指挥官身后提供专业的战术辅佐，今后请多指教了。 ",
+		illustrator2 = -1,
+		ship_group = 970110,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "duwei_alter",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 9701100,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "duwei_alter",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 178,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.673,
+					0.698,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.637,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.889,
+					2.33,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.754,
+							2.379,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9702010] = {
+		name = "海伦娜·META",
+		change_skin = "",
+		desc = "你是在找海伦娜吗？我可以把我的力量借给你——不过，你要答应，对我不能隐瞒任何东西哦。",
 		illustrator2 = -1,
 		ship_group = 970201,
 		group_index = 0,
@@ -8236,9 +8234,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702020] = {
-		name = "メンフィス(META)",
+		name = "孟菲斯·META",
 		change_skin = "",
-		desc = "メンフィスよ。指揮官にとって私は見知らぬ人かもしれないけど、私はあなたのことをよく知っているわ。安心なさい、怪しい者ではないから信じてちょうだい。これからあなたをちゃんと補佐し、護衛してあげるわ",
+		desc = "我是孟菲斯。指挥官，您可能对我感到陌生，但是我知道你……请放心，我不是什么奇怪的人，希望你能够相信我。接下来我会好好辅佐你，为你护航的。",
 		illustrator2 = -1,
 		ship_group = 970202,
 		group_index = 0,
@@ -8354,9 +8352,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702030] = {
-		name = "シェフィールド(META)",
+		name = "谢菲尔德·META",
 		change_skin = "",
-		desc = "あなたが指揮官……つまりご主人さまですね。ええ、わかりました。私はシェフィールドです。害虫に銃砲を向けることに慣れていますので、さっきのことはあまり気になさらないでくださいませ",
+		desc = "您就是指挥官……也就是主人是吧。嗯，我明白了。我是谢菲尔德，我习惯了将枪口对准每一只害虫——希望您不会介意刚刚的行为。",
 		illustrator2 = -1,
 		ship_group = 970203,
 		group_index = 0,
@@ -8472,9 +8470,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702040] = {
-		name = "ラ・ガリソニエール(META)",
+		name = "拉·加利索尼埃·META ",
 		change_skin = "",
-		desc = "ジゴクからの艦船、ラ・ガリソニエールっ！その生命、貰い受ける――ふーん。これでもびっくりしないなんて、さっすが百戦錬磨の指揮官ってとこか。ふふ、次はもっと楽しげな顔を見せて♪",
+		desc = "拉·加利索尼埃，自地狱而来。你的性命，我就收下了……欸，不愧是身经百战的指挥官，这都没吓到你。希望下次能看到更有趣的反应呢~",
 		illustrator2 = -1,
 		ship_group = 970204,
 		group_index = 0,
@@ -8590,9 +8588,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702050] = {
-		name = "神通(META)",
+		name = "{namecode:293}",
 		change_skin = "",
-		desc = "軽巡洋艦、神通と申します。私を呼んだのは助力を欲する故かしら？…わかりました。私の策が艦隊の役に立てるよう、微力を尽くしましょう",
+		desc = "轻巡洋舰{namecode:39}号，向你报到。你呼唤我，是希望我能够帮助你么？……我明白了，愿我的计策能够为你的舰队尽上微薄之力。",
 		illustrator2 = -1,
 		ship_group = 970205,
 		group_index = 0,
@@ -8708,9 +8706,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702060] = {
-		name = "キーロフ(META)",
+		name = "基洛夫·META",
 		change_skin = "",
-		desc = "Товарищ Офицер（同志指揮官）、この世界はやがて我らの出会いに打ち震えるであろう！君の理想を叶えるため、私の力をすべて貸す――共に努力しようではないか！",
+		desc = "Товарищ Офицер（指挥官同志），这个世界会因为今天你我的相遇而颤栗，我会贡献我的所有力量来实现你的理想，一同奋斗吧！",
 		illustrator2 = -1,
 		ship_group = 970206,
 		group_index = 0,
@@ -8826,9 +8824,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9702070] = {
-		name = "パーミャチ・メルクーリヤ(META)",
+		name = "水星纪念·META",
 		change_skin = "",
-		desc = "やっほーはじめまして指揮官～、よろしく？ふふん、指揮官って言われてもよくわからないわね～。高貴なパーミャチ・メルクーリヤさまの横に立てるかどうかは…指揮官のこれからの努力次第よ♪",
+		desc = "呀吼~你好呀，指挥官——请多关照？呼呼，看来指挥官，完全没有搞清楚状况呢~想和高贵的水星纪念大人平起平坐，得看你日后表现如何哟~？",
 		illustrator2 = -1,
 		ship_group = 970207,
 		group_index = 0,
@@ -8944,9 +8942,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703010] = {
-		name = "トレント(META)",
+		name = "特伦托·META",
 		change_skin = "",
-		desc = "重巡洋艦・トレント、指揮官の補佐に来ました。私が現れたことで指揮官がよくできるようになるなら、それに越したことはありませんわ",
+		desc = "重巡洋舰特伦托，将在接下来的时间里辅佐您的工作，指挥官。如果我的出现能帮到您的话，那就再好不过了。",
 		illustrator2 = -1,
 		ship_group = 970301,
 		group_index = 0,
@@ -9062,9 +9060,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703020] = {
-		name = "アルジェリー(META)",
+		name = "阿尔及利亚·META",
 		change_skin = "",
-		desc = "あなたが指揮官ね。私は重巡アルジェリーよ。さて、ここではどんな喜びを味わわせてもらえるのかしら？失望はさせないでね？ふふふ",
+		desc = "原来你就是指挥官。我是重巡阿尔及利亚，不知在你这里能到何种快乐呢？请不要让我失望哦，呵呵呵～",
 		illustrator2 = -1,
 		ship_group = 970302,
 		group_index = 0,
@@ -9180,9 +9178,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703030] = {
-		name = "フォッシュ(META)",
+		name = "福煦·META",
 		change_skin = "",
-		desc = "やあ、ご機嫌よう指揮官くん、征戦の主長・フォッシュから挨拶申し上げよう。ふふ、どこの主長かって？――それはねえ、もちろん地獄のさ！ははは、これからよろしくね♪",
+		desc = "指挥官，战争领主福煦向你问好~啊呀，您问我是哪里的战争领主？——那还用说么，当然是地·狱·咯！那么，接下来就请多指教了~♪",
 		illustrator2 = -1,
 		ship_group = 970303,
 		group_index = 0,
@@ -9298,9 +9296,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703040] = {
-		name = "ウィチタ(META)",
+		name = "威奇塔·META",
 		change_skin = "",
-		desc = "指揮官か？よし、お前ならいい。戦場にでも連れて行ってくれ。がっかりさせやしない！",
+		desc = "指挥官？好，就是你了。带我前往战场吧，我不会让你失望的！",
 		illustrator2 = -1,
 		ship_group = 970304,
 		group_index = 0,
@@ -9416,9 +9414,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703050] = {
-		name = "アドミラル・ヒッパー(META)",
+		name = "{namecode:543}",
 		change_skin = "",
-		desc = "私はヒッパー、アドミラル・ヒッパー級重巡のネームシップ、オイゲンとブリュッヒャーの姉のヒッパーよ。覚えた？",
+		desc = "我是{namecode:426}。{namecode:426}海军上将级重巡洋舰的首舰，{namecode:427}与{namecode:450}的姐姐——{namecode:426}。记住了么，指挥官？",
 		illustrator2 = -1,
 		ship_group = 970305,
 		group_index = 0,
@@ -9534,9 +9532,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703060] = {
-		name = "ボルツァーノ(META)",
+		name = "博尔扎诺·META",
 		change_skin = "",
-		desc = "私はボルツァーノ、サルデーニャ同盟の騎士です。指揮官、私に任ずる責務をご教示ください",
+		desc = "我是博尔扎诺，归属于撒丁尼亚联盟的骑士。要交给我的任务是什么，指挥官？",
 		illustrator2 = -1,
 		ship_group = 970306,
 		group_index = 0,
@@ -9652,9 +9650,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704010] = {
-		name = "グナイゼナウ(META)",
+		name = "{namecode:477}",
 		change_skin = "",
-		desc = "あなたは…指揮官、ですね。つまり私に命令する権力を持っていますね。あなたという個体に興味はありませんが、あなたから発せられる命令には従わせていただきます。――今のうちは、ね",
+		desc = "你是…指挥官？也就是说，你拥有指挥我的权利是吧。行，虽然我对你这个人毫无兴趣，但你的命令我还是会听从的。——至少现在会。",
 		illustrator2 = -1,
 		ship_group = 970401,
 		group_index = 0,
@@ -9770,9 +9768,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704020] = {
-		name = "シャルンホルスト(META)",
+		name = "{namecode:478}",
 		change_skin = "",
-		desc = "鉄血巡洋戦艦シャルンホルストだ。優秀な指揮官と協力できるのを楽しみにしている。我が期待が覆されることがないよう願いたい",
+		desc = "铁血战舰，{namecode:433}号。听说你是一位优秀的指挥官，我很期待接下来与你的合作。你不会让我失望的吧？",
 		illustrator2 = -1,
 		ship_group = 970402,
 		group_index = 0,
@@ -9888,9 +9886,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704030] = {
-		name = "レパルス(META)",
+		name = "反击·META",
 		change_skin = "",
-		desc = "レナウン級巡洋戦艦、レパルス。いろいろ経験してきたけど…まあ、今はこの母港の一員として、困ったことがあったら何でも任せて",
+		desc = "声望级战列巡洋舰，反击哦。经历过各种各样的事情…不管怎么说，我现在也是这个港区的一员了，嗯，有什么事就尽管吩咐我好了。",
 		illustrator2 = -1,
 		ship_group = 970403,
 		group_index = 0,
@@ -9999,9 +9997,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704040] = {
-		name = "レナウン(META)",
+		name = "声望·META",
 		change_skin = "",
-		desc = "巡洋戦艦レナウン、指揮官様に敬意を表します！願わくば、この歴戦の刃が貴方の力にならんことを",
+		desc = "战列巡洋舰声望向您致敬，指挥官。愿我这饱经磨砺的剑锋能助你一臂之力。",
 		illustrator2 = -1,
 		ship_group = 970404,
 		group_index = 0,
@@ -10110,9 +10108,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704050] = {
-		name = "比叡(META)",
+		name = "{namecode:232}",
 		change_skin = "",
-		desc = "巡洋戦艦比叡、馳せ参じましたわ。指揮官、次はいかがなさいます？見回りも戦闘も準備できていますから、すぐにでも出撃しましょう♪",
+		desc = "高速战舰{namecode:71}，堂堂登场！——指挥官，接下来我们要做什么？巡逻还是战斗？我已经准备好了，快出发吧！",
 		illustrator2 = -1,
 		ship_group = 970405,
 		group_index = 0,
@@ -10221,9 +10219,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9704060] = {
-		name = "ダンケルク(META)",
+		name = "敦刻尔克·META",
 		change_skin = "",
-		desc = "巡洋戦艦ダンケルクよ。ああ、ちょうど戦場から戻ったところで、わざとこんな硬い表情を見せようとしたわけじゃなくて……「お菓子の悪魔」なんて呼ばれることもあるの。指揮官、どうしてそんな風に呼ばれるのか、知りたい？",
+		desc = "战列巡洋舰敦刻尔克，向你报道。啊，我刚从战场回来，并不是故意摆出这幅严肃的样子……其实，也有同伴称呼我为“甜甜圈恶魔”什么的。指挥官，你想知道这个称号是怎么来的吗？",
 		illustrator2 = -1,
 		ship_group = 970406,
 		group_index = 0,
@@ -10332,9 +10330,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705010] = {
-		name = "扶桑(META)",
+		name = "{namecode:210}",
 		change_skin = "",
-		desc = "戦艦扶桑です。さすらう魂をなだめようと参りました。指揮官様、祈りか救いか…どちらをご所望でしょうか？",
+		desc = "战列舰·{namecode:78}，为安抚彷徨不安的灵魂而来…指挥官殿下，您寻求的是祈福，或是救赎？",
 		illustrator2 = -1,
 		ship_group = 970501,
 		group_index = 0,
@@ -10450,9 +10448,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705020] = {
-		name = "山城(META)",
+		name = "{namecode:223}",
 		change_skin = "",
-		desc = "殿様がこの艦隊の指揮官ですか？うんうん、迫力はありますけどまだまだですね。どんな稽古を殿様にしてあげようか……とにかく、楽しみにしていてください！",
+		desc = "你就是舰队的指挥官吗？嗯，气势不错，但是这还远远不够呢。要给殿下准备什么样的训练好呢…总之，请殿下好好期待吧~",
 		illustrator2 = -1,
 		ship_group = 970502,
 		group_index = 0,
@@ -10568,9 +10566,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705030] = {
-		name = "アリゾナ(META)",
+		name = "亚利桑那·META",
 		change_skin = "",
-		desc = "私はアリゾナ…申しにくいことですが、本当に私をここに置いてくださっていて良いのでしょうか？…指揮官がそう仰るなら…わかりました",
+		desc = "我是亚利桑那……虽然这么说有些不合适，不过，让我留在这里真的好吗？既然是指挥官你的决定……我明白了。",
 		illustrator2 = -1,
 		ship_group = 970503,
 		group_index = 0,
@@ -10686,9 +10684,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705040] = {
-		name = "クイーン・エリザベス(META)",
+		name = "伊丽莎白女王·META",
 		change_skin = "",
-		desc = "あんたが指揮官なのね？まあいいわ、これからあんたの胆力と頭脳はすべて私のために使いなさい！……何をとぼけているの？あんたはもう私の下僕なんだから、まずは忠誠を誓わないと始まらないでしょ？",
+		desc = "你应该就是指挥官了吧？嗯，不错，你的胆识与智谋以后都为本王所用了！……还愣着干什么？既然已经成为我的仆从了，接下来要做的难道不是向我宣誓效忠吗？",
 		illustrator2 = -1,
 		ship_group = 970504,
 		group_index = 0,
@@ -10804,9 +10802,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705050] = {
-		name = "ロドニー(META)",
+		name = "罗德尼·META",
 		change_skin = "",
-		desc = "あらゆる「ロドニー」に代わって挨拶申し上げます。…「私」は「ロドニー」という概念を具現化した象徴にすぎません。ご理解いただければと……",
+		desc = "我代表「罗德尼」，向您问好。……“我”，只是「我们」在现实的象征性存在而已，您能理解这点就好……",
 		illustrator2 = -1,
 		ship_group = 970505,
 		group_index = 0,
@@ -10922,9 +10920,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705060] = {
-		name = "長門(META)",
+		name = "{namecode:74}·META",
 		change_skin = "",
-		desc = "余は長門、「重桜」の御狐である。そなたはなにゆえ余をここに呼び出した？力を欲するか？それとも余に願い事でもしたいのか？",
+		desc = "余乃{namecode:74}，「重樱」的神子。指挥官，汝召余来此，所为何事？是需要力量吗？还是，要对余许下愿望呢？",
 		illustrator2 = -1,
 		ship_group = 970506,
 		group_index = 0,
@@ -11033,9 +11031,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705070] = {
-		name = "ジュリオ・チェザーレ(META)",
+		name = "朱利奥·凯撒·META",
 		change_skin = "",
-		desc = "私は帝国の征服者、ジュリオ・チェザーレ。余計なおしゃべりなんて不要。つまらない些事に時間を浪費したくないわ",
+		desc = "我是帝国的征服者，朱利奥·凯撒。多余的寒暄就免了，不要在这种无聊的事情上浪费时间。",
 		illustrator2 = -1,
 		ship_group = 970507,
 		group_index = 0,
@@ -11144,9 +11142,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705080] = {
-		name = "アンドレア・ドーリア(META)",
+		name = "安德烈亚·多利亚·META",
 		change_skin = "",
-		desc = "サルデーニャ同盟のアンドレア・ドーリアよ。指揮官くん、ここがあなたの母港なのかしら？なるほど――いいところね。好きになりそう～",
+		desc = "我是来自撒丁尼亚联盟的安德烈亚·多利亚，指挥官，这里就是您的港区？嗯——一个不错的地方，我会喜欢这里的。",
 		illustrator2 = -1,
 		ship_group = 970508,
 		group_index = 0,
@@ -11255,9 +11253,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9705090] = {
-		name = "ネバダ(META)",
+		name = "内华达·META",
 		change_skin = "",
-		desc = "よっ、少年。なかなかしっかりしてるように見えるが、この母港がいつまでも穏やかなままとは限らないぞ――こっからはあたし、このネバダについてきな！何があっても庇ってやるからよ！",
+		desc = "嘿，少年。虽然你看起来还挺靠谱的，但这港区可未必太平，你以后就跟紧我——内华达吧，从今天起你的安全就交给我了。",
 		illustrator2 = -1,
 		ship_group = 970509,
 		group_index = 0,
@@ -11366,9 +11364,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9706010] = {
-		name = "飛鷹(META)",
+		name = "{namecode:220}",
 		change_skin = "",
-		desc = "ふはははは、この空母飛鷹を味方に招き入れたとは、お前なかなかやるじゃないか。で？次はどこの敵を倒しにいくんだ？",
+		desc = "哼哼，把我{namecode:85}招揽至麾下，算是你看对人了。说吧，接下来我们要去哪里干掉哪些敌人？",
 		illustrator2 = -1,
 		ship_group = 970601,
 		group_index = 0,
@@ -11477,9 +11475,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9706020] = {
-		name = "隼鷹(META)",
+		name = "{namecode:221}",
 		change_skin = "",
-		desc = "隼鷹…です。指揮官、指示があれば、教えて……ください",
+		desc = "我是…{namecode:86}。指挥官，有指示的话…告诉我就好。",
 		illustrator2 = -1,
 		ship_group = 970602,
 		group_index = 0,
@@ -11588,9 +11586,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9706030] = {
-		name = "プリンストン(META)",
+		name = "普林斯顿·META",
 		change_skin = "",
-		desc = "空母プリンストン、ただいま着任したわ。ごめんなさい、まだ少し混乱していて…今どんな状況か、説明をお願いできるかしら？",
+		desc = "航空母舰普林斯顿，向指挥官报到……对不起，我现在还有些混乱，方便的话能说明一下现状吗？",
 		illustrator2 = -1,
 		ship_group = 970603,
 		group_index = 0,
@@ -11699,9 +11697,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9706040] = {
-		name = "鳳翔(META)",
+		name = "{namecode:89}·META",
 		change_skin = "",
-		desc = "指揮官様、鳳翔ですわ。今日からい・ろ・い・ろ面倒を見てさしあげます。だから指揮官様、安心して全てを鳳翔に任せてくださいませ？ふふふ♥",
+		desc = "指挥官，{namecode:89}来了哦？从今天开始，我会好·好·照顾指挥官的。所以指挥官可以安心把一切都交给我呢，呵呵~",
 		illustrator2 = -1,
 		ship_group = 970604,
 		group_index = 0,
@@ -11823,9 +11821,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707010] = {
-		name = "飛龍(META)",
+		name = "{namecode:191}",
 		change_skin = "",
-		desc = "ぼくは飛龍、二航戦の飛龍だ。この艦隊に入ったからには指揮に従います。あなたが艦船を従えるにふさわしい存在だと願う",
+		desc = "我是{namecode:94}，二航战的{namecode:94}。既然加入，那我便会听从你的指挥，希望…你是真正有资格指挥舰队之人吧。",
 		illustrator2 = -1,
 		ship_group = 970701,
 		group_index = 0,
@@ -11941,9 +11939,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707020] = {
-		name = "アーク・ロイヤル(META)",
+		name = "皇家方舟·META",
 		change_skin = "",
-		desc = "空母アーク・ロイヤル、参上した。閣下が大志を抱く存在であるかぎり、このアーク・アークロイヤルの全力、閣下に使わせてやろう！",
+		desc = "航空母舰皇家方舟，加入你的麾下。只要阁下是心怀大志之人，我就会全力为你而战！",
 		illustrator2 = -1,
 		ship_group = 970702,
 		group_index = 0,
@@ -12059,9 +12057,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707030] = {
-		name = "蒼龍(META)",
+		name = "{namecode:205}",
 		change_skin = "",
-		desc = "重桜二航戦、蒼龍。挨拶は割愛して、早速仕事に取り掛かりましょう",
+		desc = "重樱二航战，{namecode:205}。见面的礼节就先略去，让我们抓紧时间开始正事吧。",
 		illustrator2 = -1,
 		ship_group = 970703,
 		group_index = 0,
@@ -12177,9 +12175,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707040] = {
-		name = "ベアルン(META)",
+		name = "贝亚恩·META",
 		change_skin = "",
-		desc = "至高の魔女にして、知識と力を探究せし者――ベアルンより挨拶を申し上げます…指揮官様、ここに私めが興味を抱くような「至高なる秘蹟」はありますでしょうか？",
+		desc = "至高之魔女，知识与力量的追逐者，贝亚恩，向你问好……指挥官啊，你这里，有能令我感兴趣的“至高秘仪”么？",
 		illustrator2 = -1,
 		ship_group = 970704,
 		group_index = 0,
@@ -12295,9 +12293,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707050] = {
-		name = "大鳳(META)",
+		name = "{namecode:97}·META",
 		change_skin = "",
-		desc = "やっと…やっと……指揮官様に会えて大鳳、渇きも虚しさも癒やされ満たされましたわぁ！うふふ……指揮官様のことは大鳳の重ーい愛でじっくり溶かさせていただきますわ♥",
+		desc = "终于……终于……{namecode:97}的空虚和渴求，终于在见到您的这一刻得到了满足。嘻嘻……就让{namecode:97}用这深深的爱意来融化您吧，指挥官大人❤",
 		illustrator2 = -1,
 		ship_group = 970705,
 		group_index = 0,
@@ -12413,9 +12411,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707060] = {
-		name = "ホーネット(META)",
+		name = "大黄蜂·META",
 		change_skin = "",
-		desc = "あなたが艦隊の指揮官？初めまして！ヨークタウン級の末っ子のホーネットよ！姉たちほどじゃないけど、私も結構やれるんだから…たぶん！",
+		desc = "你就是舰队的指挥官吗？初次见面，你好你好！我是约克城级的小妹，大黄蜂！虽然比不上姐姐们，不过我也是很厉害的哦……大概！",
 		illustrator2 = -1,
 		ship_group = 970706,
 		group_index = 0,
@@ -12530,9 +12528,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9707070] = {
-		name = "グロリアス(META)",
+		name = "光荣·META",
 		change_skin = "",
-		desc = "指揮官、ごきげんよう。ロイヤル所属、空母のグロリアスです。ここに来られて光栄です。よろしくお願いします",
+		desc = "指挥官，您好，我是皇家所属航空母舰光荣号，很荣幸能够来到这里，请多指教。",
 		illustrator2 = -1,
 		ship_group = 970707,
 		group_index = 0,
@@ -12647,9 +12645,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9708010] = {
-		name = "U-556(META)",
+		name = "{namecode:515}",
 		change_skin = "",
-		desc = "「海のパーシヴァル」、U-556が来たよ～。あたしに手伝えることって果たして本当にあるのかなぁ？ジャマすることになるから、よろしくだよ♪",
+		desc = "“海之骑士帕西瓦尔”，潜艇{namecode:416}来了哦。不知道这里有没有我能帮上忙的地方呢……反正我要在这里打扰一段时间了，多多指教咯~",
 		illustrator2 = -1,
 		ship_group = 970801,
 		group_index = 0,
@@ -12765,9 +12763,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9712010] = {
-		name = "ヴェスタル(META)",
+		name = "女灶神·META",
 		change_skin = "",
-		desc = "指揮官…とお見受けします。見た感じ病気の心配はありませんので、ご安心を。私はヴェスタル、病気の子がいたら、治療も修理もお手伝いできるかと思います…",
+		desc = "指挥官……是么？您看起来很健康，并没有生病。我是女灶神，如果有人生病或者受伤的话，我可以帮忙治疗以及修理……",
 		illustrator2 = -1,
 		ship_group = 971201,
 		group_index = 0,
@@ -12869,9 +12867,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9713010] = {
-		name = "エレバス(META)",
+		name = "黑暗界·META",
 		change_skin = "",
-		desc = "エレバス、あなたの呼びかけに応じてここに来たわ。……安心して、これは悪夢ではなく運命の憐憫よ。さあ、契を交わして、暗闇に連なる者になって",
+		desc = "黑暗界，听从召唤而来。……安心吧，这可不是噩梦，而是命运为你降下的垂怜。来吧，和我签订契约，成为黑暗的眷族吧——",
 		illustrator2 = -1,
 		ship_group = 971301,
 		group_index = 0,
@@ -12987,9 +12985,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9900011] = {
-		name = "小悪魔inバスタブ",
+		name = "入浴的小恶魔",
 		change_skin = "",
-		desc = "ふーん、よーやくポンコツ指揮官のお出ましね。人がお風呂に浸かってる時に入ってくるなんて最低♥…で？入ったのに何もしないの？",
+		desc = "哼~笨蛋指挥官终于来了啊，泡澡时被打扰还真是讨厌~不过既然来了，接下来有什么打算吗？",
 		illustrator2 = -1,
 		ship_group = 990001,
 		group_index = 0,
@@ -13113,9 +13111,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100010] = {
-		name = "ネプテューヌ",
+		name = "涅普顿",
 		change_skin = "",
-		desc = "やっほー！　わたしの名前はネプテューヌ！よろしくね！",
+		desc = "呀吼～我的名字是涅普顿！这就是《碧蓝航线》世界吗…只能趁势而上了呢！冲上这股巨浪的浪尖！",
 		illustrator2 = -1,
 		ship_group = 1010001,
 		group_index = 0,
@@ -13224,9 +13222,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100020] = {
-		name = "ノワール",
+		name = "诺瓦露",
 		change_skin = "",
-		desc = "貴方が指揮官？ふーん、まぁいいわ。私はノワール。ラステイションの守護女神よ。私が来たからには安心してちょうだい。",
+		desc = "你就是指挥官？嗯—罢了。我叫诺瓦露，是黑土边域（Lastation）的守护女神。我来了你们就可以安心了",
 		illustrator2 = -1,
 		ship_group = 1010002,
 		group_index = 0,
@@ -13335,9 +13333,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100030] = {
-		name = "ブラン",
+		name = "布兰",
 		change_skin = "",
-		desc = "わたしはブランよ。よろしくお願いするわ。この世界にある面白い本を紹介してくれないかしら…",
+		desc = "我是布兰，请多指教。能不能给我介绍一下这个世界有什么有趣的书呢……",
 		illustrator2 = -1,
 		ship_group = 1010003,
 		group_index = 0,
@@ -13446,9 +13444,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100040] = {
-		name = "ベール",
+		name = "贝露",
 		change_skin = "",
-		desc = "わたくしはリーンボックスの女神、ベールと申します。シューティングゲームも得意ですので、おまかせくださいまし！",
+		desc = "我是绿荫箱庭（Leanbox）的女神，贝露。我也很擅长射击游戏呢，所以就放心交给我吧！",
 		illustrator2 = -1,
 		ship_group = 1010004,
 		group_index = 0,
@@ -13557,9 +13555,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100050] = {
-		name = "パープルハート",
+		name = "绀紫之心",
 		change_skin = "",
-		desc = "プラネテューヌの女神、パープルハート。あなたが指揮官ね？これからよろしくお願いするわ。",
+		desc = "我是紫曜之都(Planeptune)的女神、绀紫之心。你就是指挥官吧？往后请多多指教",
 		illustrator2 = -1,
 		ship_group = 1010005,
 		group_index = 0,
@@ -13668,9 +13666,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100051] = {
-		name = "女神との約束",
+		name = "女神的约定",
 		change_skin = "",
-		desc = "指揮官。少しの間、わたしと一緒に話さない？プラネテューヌのことを教えてあげる。そして、いつかあなたたちが訪ねて来てくれる日を待っているわ。",
+		desc = "指挥官，能和我稍微聊会天吗？我给你说说紫曜之都的事情。然后，若是哪天你们能来玩就好了呢",
 		illustrator2 = -1,
 		ship_group = 1010005,
 		group_index = 1,
@@ -13781,9 +13779,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100060] = {
-		name = "ブラックハート",
+		name = "圣黑之心",
 		change_skin = "",
-		desc = "ラステイションの女神、ブラックハート。貴方に協力するためにゲイムギョウ界から来たわ。感謝しなさい。",
+		desc = "我是黑土边域（Lastation）的女神、圣黑之心。为了帮助你特意从“游戏业界“赶来，心怀感激吧",
 		illustrator2 = -1,
 		ship_group = 1010006,
 		group_index = 0,
@@ -13892,9 +13890,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100061] = {
-		name = "女神の微笑み",
+		name = "女神的微笑",
 		change_skin = "",
-		desc = "たまにはゆっくりパーティーを楽しもうかと思ったけど、こういう時こそ気を引き締めないとね。指揮官、ここで私とひと勝負どうかしら？手加減はなしよ、さ、構えなさい！",
+		desc = "虽然偶尔办点轻松的宴会也不错，但越是这种时候越不可以过度松懈哦。指挥官，要不要和我对练一回？不要放水，来吧！",
 		illustrator2 = -1,
 		ship_group = 1010006,
 		group_index = 1,
@@ -14005,9 +14003,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100070] = {
-		name = "ホワイトハート",
+		name = "群白之心",
 		change_skin = "",
-		desc = "ルウィーの守護女神、ホワイトハートだ。よろしくな！女神の力、見せてやるぜ！",
+		desc = "我是白露之滨（Lowee）的守护女神、群白之心。多多指教啦！就让你见识一下女神的力量吧！",
 		illustrator2 = -1,
 		ship_group = 1010007,
 		group_index = 0,
@@ -14116,9 +14114,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100071] = {
-		name = "女神の恥じらい",
+		name = "女神的羞怯",
 		change_skin = "",
-		desc = "テ、テメェなに見てんだ！どうせ子供っぽいとか思ってたんだろ！？え……？似合ってる…って？指揮官にそんなこと言われたら調子狂っちまうじゃねーか…。",
+		desc = "你、你这家伙在看什么呢！反正一定觉得像个小孩子吧！？额……？很合适……？指挥官说这种话…害我都不知道该怎么反应了不是嘛……",
 		illustrator2 = -1,
 		ship_group = 1010007,
 		group_index = 1,
@@ -14229,9 +14227,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100080] = {
-		name = "グリーンハート",
+		name = "翡绿之心",
 		change_skin = "",
-		desc = "リーンボックスの女神、グリーンハート。どんな方であろうと遠慮はいたしませんわ。覚悟はいいかしら？",
+		desc = "我是绿荫箱庭（Leanbox）的女神、翡绿之心。无论面对谁我都不会客气的哦。做好心理准备了吗？",
 		illustrator2 = -1,
 		ship_group = 1010008,
 		group_index = 0,
@@ -14340,9 +14338,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10100081] = {
-		name = "女神とのひと時",
+		name = "女神的一刻",
 		change_skin = "",
-		desc = "指揮官さん、楽しんでいらっしゃいますか？うふふ、わたくしはとっても楽しいですわ。こういう時くらいしかゆっくり出来ないですし、一緒に外の風でも当たりに行きましょう。",
+		desc = "指挥官，玩得开心吗？呵呵呵，我玩得非常开心哦。也只有这种时候能稍微放松一下了呢，一起去外面吹吹风吧",
 		illustrator2 = -1,
 		ship_group = 1010008,
 		group_index = 1,
@@ -14452,10 +14450,232 @@ pg.base.ship_skin_template_18 = {
 			}
 		}
 	},
-	[10300010] = {
-		name = "クオン",
+	[10200010] = {
+		name = "22",
 		change_skin = "",
-		desc = "はじめまして、かな。私はクオン、今日からお世話になるからよろしくね。お世話になる以上、しっかりお仕事するから期待してほしいな",
+		desc = "这里是来自bilibili星球永远都充满干劲的22哟！对了指挥官，你看到我妹妹了么？",
+		illustrator2 = -1,
+		ship_group = 1020001,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "22",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 10200010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "22",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 120,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.87,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.85,
+					0.84,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.37,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
+	[10200020] = {
+		name = "33",
+		change_skin = "",
+		desc = "空降成功，感谢指挥官。我是33，来自bilibili。偶尔可能需要充下电，请不要在意。",
+		illustrator2 = -1,
+		ship_group = 1020002,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "33",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 10200020,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "33",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 43,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.85,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.86,
+					0.82,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10300010] = {
+		name = "久远",
+		change_skin = "",
+		desc = "该说初次见面、吧？我是久远，今天开始要在这里受你照顾了呢。我会尽可能努力帮上忙的，敬请期待吧",
 		illustrator2 = -1,
 		ship_group = 1030001,
 		group_index = 0,
@@ -14564,9 +14784,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10300011] = {
-		name = "クオン(うたわれるもの)",
+		name = "久远(传颂之物)",
 		change_skin = "",
-		desc = "クオン。それが私の名前。",
+		desc = "久远。这是我的名字",
 		illustrator2 = -1,
 		ship_group = 1030001,
 		group_index = 1,
@@ -14677,9 +14897,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[10300020] = {
-		name = "ネコネ",
+		name = "猫音",
 		change_skin = "",
-		desc = "風来人ウコンの妹にして参謀、ネコネが着任したのです。指揮官さんの実力、見極めさせてもらうのですよ",
+		desc = "流浪者右进之妹兼参谋、猫音前来报到。指挥官大人的实力，就让我好好看看吧",
 		illustrator2 = -1,
 		ship_group = 1030002,
 		group_index = 0,
@@ -14721,119 +14941,6 @@ pg.base.ship_skin_template_18 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.96,
-					0.81,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.73,
-					0.81,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10300021] = {
-		name = "ネコネ(うたわれるもの)",
-		change_skin = "",
-		desc = "えっ？は、はい……はじめ……まして……です。",
-		illustrator2 = -1,
-		ship_group = 1030002,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "maoyin_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 9999,
-		l2d_ignore_drag = 0,
-		hand_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "208",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 10300021,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "maoyin_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70119,
-		voice_actor = 157,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
 		live2d_offset = {
 			0,
 			0,

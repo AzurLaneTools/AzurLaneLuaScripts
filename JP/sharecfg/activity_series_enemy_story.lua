@@ -460,7 +460,7 @@ pg.activity_series_enemy_story = {
 	},
 	[31] = {
 		pos_x = "0.10703125",
-		name = "裏切りし者の歌",
+		name = "叛恶者之歌",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -482,7 +482,7 @@ pg.activity_series_enemy_story = {
 	},
 	[32] = {
 		pos_x = "0.34609375",
-		name = "ユニット組もうよ♪",
+		name = "组成乐队吧♪",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -504,7 +504,7 @@ pg.activity_series_enemy_story = {
 	},
 	[33] = {
 		pos_x = "0.50546875",
-		name = "デカ指揮官、登場！",
+		name = "巨大指挥官",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -526,7 +526,7 @@ pg.activity_series_enemy_story = {
 	},
 	[34] = {
 		pos_x = "0.60546875",
-		name = "運動場ファイト！",
+		name = "健康活力Fight",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -548,7 +548,7 @@ pg.activity_series_enemy_story = {
 	},
 	[35] = {
 		pos_x = "0.6265625",
-		name = "先生たちを助けよう！",
+		name = "拯救老师大作战",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -570,7 +570,7 @@ pg.activity_series_enemy_story = {
 	},
 	[36] = {
 		pos_x = "1.10703125",
-		name = "わんぱくになろう！",
+		name = "与童心重逢之时",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -592,7 +592,7 @@ pg.activity_series_enemy_story = {
 	},
 	[37] = {
 		pos_x = "1.34609375",
-		name = "無邪気に大暴走！",
+		name = "失控的童心",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -614,7 +614,7 @@ pg.activity_series_enemy_story = {
 	},
 	[38] = {
 		pos_x = "1.50546875",
-		name = "童心よ、永遠に",
+		name = "愿童心永驻",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -636,7 +636,7 @@ pg.activity_series_enemy_story = {
 	},
 	[39] = {
 		pos_x = "",
-		name = "CH-1 不穏な爆発",
+		name = "CH-1 爆炸疑云",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -658,7 +658,7 @@ pg.activity_series_enemy_story = {
 	},
 	[40] = {
 		pos_x = "",
-		name = "CH-2 ウサウサ巡査調査中",
+		name = "CH-2 兔警官探案中",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -680,7 +680,7 @@ pg.activity_series_enemy_story = {
 	},
 	[41] = {
 		pos_x = "",
-		name = "CH-3 戦略的デート",
+		name = "CH-3 战略性约会进行时",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -702,7 +702,7 @@ pg.activity_series_enemy_story = {
 	},
 	[42] = {
 		pos_x = "",
-		name = "CH-4 ロードセキュリティ",
+		name = "CH-4 公路维和组，出击！",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -724,7 +724,7 @@ pg.activity_series_enemy_story = {
 	},
 	[43] = {
 		pos_x = "",
-		name = "CH-5 問題の核心",
+		name = "CH-5 问题的关键",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -746,7 +746,7 @@ pg.activity_series_enemy_story = {
 	},
 	[44] = {
 		pos_x = "",
-		name = "CH-6 かくかくしかじか",
+		name = "CH-6 说来话长",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -768,7 +768,7 @@ pg.activity_series_enemy_story = {
 	},
 	[45] = {
 		pos_x = "",
-		name = "CH-7 相談教室",
+		name = "CH-7 谈心教室",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -790,7 +790,7 @@ pg.activity_series_enemy_story = {
 	},
 	[46] = {
 		pos_x = "",
-		name = "CH-8 ネオンシティの夜",
+		name = "CH-8 迷彩都市之夜",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -812,7 +812,7 @@ pg.activity_series_enemy_story = {
 	},
 	[47] = {
 		pos_x = "",
-		name = "CH-9 潜伏者は誰だ？",
+		name = "CH-9 谁是卧底？",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -834,7 +834,7 @@ pg.activity_series_enemy_story = {
 	},
 	[48] = {
 		pos_x = "0.174729166666667",
-		name = "EPS-1 ある日の調査",
+		name = "EPS-1 一次调查",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_1",
@@ -856,7 +856,7 @@ pg.activity_series_enemy_story = {
 	},
 	[49] = {
 		pos_x = "0.389166666666667",
-		name = "EPS-2 ある日の宝探し",
+		name = "EPS-2 一场寻宝",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_1",
@@ -880,7 +880,7 @@ pg.activity_series_enemy_story = {
 	},
 	[50] = {
 		pos_x = "0.705729166666667",
-		name = "EPS-3 ある日の大冒険",
+		name = "EPS-3 一次冒险",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -904,7 +904,7 @@ pg.activity_series_enemy_story = {
 	},
 	[51] = {
 		pos_x = "0.173489583333333",
-		name = "EP1-1 はじまりの海",
+		name = "EP1-1 起始之海",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -928,7 +928,7 @@ pg.activity_series_enemy_story = {
 	},
 	[52] = {
 		pos_x = "0.173229166666667",
-		name = "EP1-2 快適な砂浜",
+		name = "EP1-2 舒适海滩",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -952,7 +952,7 @@ pg.activity_series_enemy_story = {
 	},
 	[53] = {
 		pos_x = "0.613",
-		name = "EP1-3 岩礁の浜辺",
+		name = "EP1-3 险峻石滩",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -976,7 +976,7 @@ pg.activity_series_enemy_story = {
 	},
 	[54] = {
 		pos_x = "0.380208333333333",
-		name = "EP1-4 合流・その一",
+		name = "EP1-4 合流·其一",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -1000,7 +1000,7 @@ pg.activity_series_enemy_story = {
 	},
 	[55] = {
 		pos_x = "0.600520833333333",
-		name = "EP1-5 合流・二",
+		name = "EP1-5 合流·其二",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -1024,7 +1024,7 @@ pg.activity_series_enemy_story = {
 	},
 	[56] = {
 		pos_x = "0.483854166666667",
-		name = "EP1-6 はじまりのエリア",
+		name = "EP1-6 天际塔：起始区段",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_2",
@@ -1048,7 +1048,7 @@ pg.activity_series_enemy_story = {
 	},
 	[57] = {
 		pos_x = "0.4671875",
-		name = "EP1-7 上を目指して",
+		name = "EP1-7 向上进发",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1081,7 +1081,7 @@ pg.activity_series_enemy_story = {
 	},
 	[58] = {
 		pos_x = "0.385416666666667",
-		name = "EP2-1 豊穣の湖",
+		name = "EP2-1 丰水湖",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1105,7 +1105,7 @@ pg.activity_series_enemy_story = {
 	},
 	[59] = {
 		pos_x = "0.313020833333333",
-		name = "EP2-2 豊穣の森",
+		name = "EP2-2 丰饶林地",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1129,7 +1129,7 @@ pg.activity_series_enemy_story = {
 	},
 	[60] = {
 		pos_x = "0.266666666666667",
-		name = "EP2-3 豊穣の草原",
+		name = "EP2-3 青草区",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1153,7 +1153,7 @@ pg.activity_series_enemy_story = {
 	},
 	[61] = {
 		pos_x = "0.186458333333333",
-		name = "EP2-4 枯れた草原",
+		name = "EP2-4 腐草区",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1177,7 +1177,7 @@ pg.activity_series_enemy_story = {
 	},
 	[62] = {
 		pos_x = "0.128645833333333",
-		name = "EP2-5 汚れた川",
+		name = "EP2-5 腐水河流",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1201,7 +1201,7 @@ pg.activity_series_enemy_story = {
 	},
 	[63] = {
 		pos_x = "0.176041666666667",
-		name = "EP2-6 廃村",
+		name = "EP2-6 废弃村落",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1225,7 +1225,7 @@ pg.activity_series_enemy_story = {
 	},
 	[64] = {
 		pos_x = "0.252604166666667",
-		name = "EP2-7 腐水の湖",
+		name = "EP2-7 腐水湖",
 		type = 3,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_3",
@@ -1249,7 +1249,7 @@ pg.activity_series_enemy_story = {
 	},
 	[65] = {
 		pos_x = "0.328125",
-		name = "EP2-8 天穹の塔：L1区画",
+		name = "EP2-8 天际塔：L1区段",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1273,7 +1273,7 @@ pg.activity_series_enemy_story = {
 	},
 	[66] = {
 		pos_x = "0.395833333333333",
-		name = "EP3-1 腐水の海",
+		name = "EP3-1 腐水海",
 		type = 3,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1306,7 +1306,7 @@ pg.activity_series_enemy_story = {
 	},
 	[67] = {
 		pos_x = "0.445833333333333",
-		name = "EP3-2 腐蝕の森",
+		name = "EP3-2 腐蚀林地",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1330,7 +1330,7 @@ pg.activity_series_enemy_story = {
 	},
 	[68] = {
 		pos_x = "0.5015625",
-		name = "EP3-3 死の荒野",
+		name = "EP3-3 死亡荒原",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1354,7 +1354,7 @@ pg.activity_series_enemy_story = {
 	},
 	[69] = {
 		pos_x = "0.559375",
-		name = "EP3-4 廃棄された駐屯所",
+		name = "EP3-4 废弃哨站",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1378,7 +1378,7 @@ pg.activity_series_enemy_story = {
 	},
 	[70] = {
 		pos_x = "0.616145833333333",
-		name = "EP3-5 大地溝帯",
+		name = "EP3-5 大裂谷",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_4",
@@ -1402,7 +1402,7 @@ pg.activity_series_enemy_story = {
 	},
 	[71] = {
 		pos_x = "0.819791666666667",
-		name = "EP3-6 天穹の塔：L2区画",
+		name = "EP3-6 天际塔：L2区段",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_5",
@@ -1426,7 +1426,7 @@ pg.activity_series_enemy_story = {
 	},
 	[72] = {
 		pos_x = "0.822916666666667",
-		name = "EP4-1 魍魎山岳",
+		name = "EP4-1 鬼影群山",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_5",
@@ -1459,7 +1459,7 @@ pg.activity_series_enemy_story = {
 	},
 	[73] = {
 		pos_x = "0.6453125",
-		name = "EP4-2 廃墟都市",
+		name = "EP4-2 废弃都市",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_5",
@@ -1483,7 +1483,7 @@ pg.activity_series_enemy_story = {
 	},
 	[74] = {
 		pos_x = "0.610416666666667",
-		name = "EP4-3 天穹の塔：L2区画",
+		name = "EP4-3 天际塔：L3区段",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_6",
@@ -1507,7 +1507,7 @@ pg.activity_series_enemy_story = {
 	},
 	[75] = {
 		pos_x = "0.697916666666667",
-		name = "EP5-1 天穹の海",
+		name = "EP5-1 天际海",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_6",
@@ -1540,7 +1540,7 @@ pg.activity_series_enemy_story = {
 	},
 	[76] = {
 		pos_x = "0.778645833333333",
-		name = "EP5-2 巨大バリア",
+		name = "EP5-2 大护盾",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_6",
@@ -1564,7 +1564,7 @@ pg.activity_series_enemy_story = {
 	},
 	[77] = {
 		pos_x = "0.813541666666667",
-		name = "EP5-3 コア都市部",
+		name = "EP5-3 核心都市区",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_6",
@@ -1588,7 +1588,7 @@ pg.activity_series_enemy_story = {
 	},
 	[78] = {
 		pos_x = "0.811979166666667",
-		name = "EP5-4 天穹の塔：頂上",
+		name = "EP5-4 天际塔：塔尖区段",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_6",
@@ -1612,7 +1612,7 @@ pg.activity_series_enemy_story = {
 	},
 	[79] = {
 		pos_x = "0.848958333333333",
-		name = "EP5-5 決戦",
+		name = "EP5-5 决战",
 		type = 3,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_1",
@@ -1636,7 +1636,7 @@ pg.activity_series_enemy_story = {
 	},
 	[80] = {
 		pos_x = "0.349479166666667",
-		name = "EPS-4 エピローグ",
+		name = "EPS-4 尾声",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_1",
@@ -1660,7 +1660,7 @@ pg.activity_series_enemy_story = {
 	},
 	[81] = {
 		pos_x = "0.633854166666667",
-		name = "EPS-5 エピローグⅡ",
+		name = "EPS-5 尾声的尾声",
 		type = 1,
 		en_name = "",
 		change_background = "bg_yumia_story_mode_7",
@@ -1684,7 +1684,7 @@ pg.activity_series_enemy_story = {
 	},
 	[82] = {
 		pos_x = "0.463541666666667",
-		name = "始まりのエリア",
+		name = "起始区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1708,7 +1708,7 @@ pg.activity_series_enemy_story = {
 	},
 	[83] = {
 		pos_x = "0.541145833333333",
-		name = "険しい浜辺",
+		name = "险峻石滩",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1732,7 +1732,7 @@ pg.activity_series_enemy_story = {
 	},
 	[84] = {
 		pos_x = "0.150520833333333",
-		name = "始まりの海",
+		name = "起始之海",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1756,7 +1756,7 @@ pg.activity_series_enemy_story = {
 	},
 	[85] = {
 		pos_x = "0.168229166666667",
-		name = "快適な砂浜",
+		name = "舒适海滩",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1780,7 +1780,7 @@ pg.activity_series_enemy_story = {
 	},
 	[86] = {
 		pos_x = "0.375520833333333",
-		name = "豊水の湖",
+		name = "丰水湖",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1804,7 +1804,7 @@ pg.activity_series_enemy_story = {
 	},
 	[87] = {
 		pos_x = "0.247395833333333",
-		name = "豊穣の森",
+		name = "丰饶林地",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1828,7 +1828,7 @@ pg.activity_series_enemy_story = {
 	},
 	[88] = {
 		pos_x = "0.289583333333333",
-		name = "L1エリア",
+		name = "L1区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1852,7 +1852,7 @@ pg.activity_series_enemy_story = {
 	},
 	[89] = {
 		pos_x = "0.139583333333333",
-		name = "廃村",
+		name = "废弃村落",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1876,7 +1876,7 @@ pg.activity_series_enemy_story = {
 	},
 	[90] = {
 		pos_x = "0.1953125",
-		name = "腐水の湖",
+		name = "腐水湖",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1900,7 +1900,7 @@ pg.activity_series_enemy_story = {
 	},
 	[91] = {
 		pos_x = "0.397395833333333",
-		name = "腐水の海",
+		name = "腐水海",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1924,7 +1924,7 @@ pg.activity_series_enemy_story = {
 	},
 	[92] = {
 		pos_x = "0.430208333333333",
-		name = "腐蝕の森",
+		name = "腐蚀林地",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1948,7 +1948,7 @@ pg.activity_series_enemy_story = {
 	},
 	[93] = {
 		pos_x = "0.514583333333333",
-		name = "死の荒野",
+		name = "死亡荒原",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1972,7 +1972,7 @@ pg.activity_series_enemy_story = {
 	},
 	[94] = {
 		pos_x = "0.554166666666667",
-		name = "廃棄駐屯所",
+		name = "废弃哨站",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -1996,7 +1996,7 @@ pg.activity_series_enemy_story = {
 	},
 	[95] = {
 		pos_x = "0.6375",
-		name = "大地溝帯",
+		name = "大裂谷",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2020,7 +2020,7 @@ pg.activity_series_enemy_story = {
 	},
 	[96] = {
 		pos_x = "0.815104166666667",
-		name = "L2エリア",
+		name = "L2区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2044,7 +2044,7 @@ pg.activity_series_enemy_story = {
 	},
 	[97] = {
 		pos_x = "0.8359375",
-		name = "魍魎山岳",
+		name = "鬼影群山",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2068,7 +2068,7 @@ pg.activity_series_enemy_story = {
 	},
 	[98] = {
 		pos_x = "0.602604166666667",
-		name = "廃墟都市",
+		name = "废弃都市",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2092,7 +2092,7 @@ pg.activity_series_enemy_story = {
 	},
 	[99] = {
 		pos_x = "0.597395833333333",
-		name = "L3エリア",
+		name = "L3区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2116,7 +2116,7 @@ pg.activity_series_enemy_story = {
 	},
 	[100] = {
 		pos_x = "0.463541666666667",
-		name = "蒼穹の海",
+		name = "起始区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2138,7 +2138,7 @@ pg.activity_series_enemy_story = {
 	},
 	[101] = {
 		pos_x = "0.541145833333333",
-		name = "頂上エリア",
+		name = "险峻石滩",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2160,7 +2160,7 @@ pg.activity_series_enemy_story = {
 	},
 	[102] = {
 		pos_x = "0.150520833333333",
-		name = "中心エリア",
+		name = "起始之海",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2182,7 +2182,7 @@ pg.activity_series_enemy_story = {
 	},
 	[103] = {
 		pos_x = "0.168229166666667",
-		name = "快適な砂浜",
+		name = "舒适海滩",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2204,7 +2204,7 @@ pg.activity_series_enemy_story = {
 	},
 	[104] = {
 		pos_x = "0.375520833333333",
-		name = "豊水の湖",
+		name = "丰水湖",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2226,7 +2226,7 @@ pg.activity_series_enemy_story = {
 	},
 	[105] = {
 		pos_x = "0.247395833333333",
-		name = "豊穣の森",
+		name = "丰饶林地",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2248,7 +2248,7 @@ pg.activity_series_enemy_story = {
 	},
 	[106] = {
 		pos_x = "0.289583333333333",
-		name = "L1エリア",
+		name = "L1区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2270,7 +2270,7 @@ pg.activity_series_enemy_story = {
 	},
 	[107] = {
 		pos_x = "0.139583333333333",
-		name = "廃村",
+		name = "废弃村落",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2292,7 +2292,7 @@ pg.activity_series_enemy_story = {
 	},
 	[108] = {
 		pos_x = "0.1953125",
-		name = "腐水の湖",
+		name = "腐水湖",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2314,7 +2314,7 @@ pg.activity_series_enemy_story = {
 	},
 	[109] = {
 		pos_x = "0.397395833333333",
-		name = "腐水の海",
+		name = "腐水海",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2336,7 +2336,7 @@ pg.activity_series_enemy_story = {
 	},
 	[110] = {
 		pos_x = "0.430208333333333",
-		name = "腐蝕の森",
+		name = "腐蚀林地",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2358,7 +2358,7 @@ pg.activity_series_enemy_story = {
 	},
 	[111] = {
 		pos_x = "0.514583333333333",
-		name = "死の荒野",
+		name = "死亡荒原",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2380,7 +2380,7 @@ pg.activity_series_enemy_story = {
 	},
 	[112] = {
 		pos_x = "0.554166666666667",
-		name = "廃棄駐屯所",
+		name = "废弃哨站",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2402,7 +2402,7 @@ pg.activity_series_enemy_story = {
 	},
 	[113] = {
 		pos_x = "0.6375",
-		name = "大地溝帯",
+		name = "大裂谷",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2424,7 +2424,7 @@ pg.activity_series_enemy_story = {
 	},
 	[114] = {
 		pos_x = "0.815104166666667",
-		name = "L2エリア",
+		name = "L2区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2446,7 +2446,7 @@ pg.activity_series_enemy_story = {
 	},
 	[115] = {
 		pos_x = "0.8359375",
-		name = "魍魎山岳",
+		name = "鬼影群山",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2468,7 +2468,7 @@ pg.activity_series_enemy_story = {
 	},
 	[116] = {
 		pos_x = "0.602604166666667",
-		name = "廃墟都市",
+		name = "废弃都市",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2490,7 +2490,7 @@ pg.activity_series_enemy_story = {
 	},
 	[117] = {
 		pos_x = "0.597395833333333",
-		name = "L3エリア",
+		name = "L3区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2512,7 +2512,7 @@ pg.activity_series_enemy_story = {
 	},
 	[118] = {
 		pos_x = "0.673958333333333",
-		name = "蒼穹の海",
+		name = "天际海",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2534,7 +2534,7 @@ pg.activity_series_enemy_story = {
 	},
 	[119] = {
 		pos_x = "0.822916666666667",
-		name = "頂上エリア",
+		name = "塔尖区段",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2556,7 +2556,7 @@ pg.activity_series_enemy_story = {
 	},
 	[120] = {
 		pos_x = "0.819270833333333",
-		name = "中心エリア",
+		name = "核心都市区",
 		type = 4,
 		en_name = "",
 		change_background = "",
@@ -2578,7 +2578,7 @@ pg.activity_series_enemy_story = {
 	},
 	[121] = {
 		pos_x = "0.444270833333333",
-		name = "EP1-1 いきなり卒業式！？",
+		name = "EP1-1 初见即毕业",
 		type = 1,
 		en_name = "",
 		change_background = "bg_masaina_story_mode_1",
@@ -2600,7 +2600,7 @@ pg.activity_series_enemy_story = {
 	},
 	[122] = {
 		pos_x = "0.444270833333333",
-		name = "EP1-2 初めての淵層",
+		name = "EP1-2 初入奇渊",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2624,7 +2624,7 @@ pg.activity_series_enemy_story = {
 	},
 	[123] = {
 		pos_x = "0.444270833333333",
-		name = "EP1-3 またしても卒業式？",
+		name = "EP1-3 再见还是毕业",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2648,7 +2648,7 @@ pg.activity_series_enemy_story = {
 	},
 	[124] = {
 		pos_x = "0.444270833333333",
-		name = "EP1-4 再び旅立ちへ",
+		name = "EP1-4 再度启程",
 		type = 1,
 		en_name = "",
 		change_background = "bg_masaina_story_mode_2",
@@ -2672,7 +2672,7 @@ pg.activity_series_enemy_story = {
 	},
 	[125] = {
 		pos_x = "0.388020833333333",
-		name = "EP2-1 アイススロート峡谷",
+		name = "EP2-1 冰喉峡谷",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2696,7 +2696,7 @@ pg.activity_series_enemy_story = {
 	},
 	[126] = {
 		pos_x = "0.358333333333333",
-		name = "EP2-2 極光の地",
+		name = "EP2-2 极光之地",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2720,7 +2720,7 @@ pg.activity_series_enemy_story = {
 	},
 	[127] = {
 		pos_x = "0.328645833333333",
-		name = "EP2-3 罠",
+		name = "EP2-3 陷阱",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2744,7 +2744,7 @@ pg.activity_series_enemy_story = {
 	},
 	[128] = {
 		pos_x = "0.244791666666667",
-		name = "EP2-4 再開",
+		name = "EP2-4 重逢",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2768,7 +2768,7 @@ pg.activity_series_enemy_story = {
 	},
 	[129] = {
 		pos_x = "0.3",
-		name = "EP2-5 過去",
+		name = "EP2-5 过去的事",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2792,7 +2792,7 @@ pg.activity_series_enemy_story = {
 	},
 	[130] = {
 		pos_x = "0.1796875",
-		name = "EP2-6 古の贈り物",
+		name = "EP2-6 古老的馈赠",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2840,7 +2840,7 @@ pg.activity_series_enemy_story = {
 	},
 	[132] = {
 		pos_x = "0.502083333333333",
-		name = "EP3-1 瘴気の沼地の戦",
+		name = "EP3-1 秽沼瘴潭之战",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -2864,7 +2864,7 @@ pg.activity_series_enemy_story = {
 	},
 	[133] = {
 		pos_x = "0.603125",
-		name = "EP3-2 魔法使いの野営地",
+		name = "EP3-2 异化法师营地",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2888,7 +2888,7 @@ pg.activity_series_enemy_story = {
 	},
 	[134] = {
 		pos_x = "0.6640625",
-		name = "EP3-3 同盟の調印式",
+		name = "EP3-3 结盟仪式",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -2912,7 +2912,7 @@ pg.activity_series_enemy_story = {
 	},
 	[135] = {
 		pos_x = "0.6359375",
-		name = "EP3-4 交渉の異変",
+		name = "EP3-4 和谈生变",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -2936,7 +2936,7 @@ pg.activity_series_enemy_story = {
 	},
 	[136] = {
 		pos_x = "0.765625",
-		name = "EP3-5 予言の子",
+		name = "EP3-5 预言之子",
 		type = 1,
 		en_name = "",
 		change_background = "bg_masaina_story_mode_4",
@@ -2960,7 +2960,7 @@ pg.activity_series_enemy_story = {
 	},
 	[137] = {
 		pos_x = "0.5453125",
-		name = "EP4-1 忘れ去られた地",
+		name = "EP4-1 遗忘之地",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -2984,7 +2984,7 @@ pg.activity_series_enemy_story = {
 	},
 	[138] = {
 		pos_x = "0.591145833333333",
-		name = "EP4-2 不落の要塞",
+		name = "EP4-2 不落要塞",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3008,7 +3008,7 @@ pg.activity_series_enemy_story = {
 	},
 	[139] = {
 		pos_x = "0.5390625",
-		name = "EP4-3 幻影の境",
+		name = "EP4-3 幻影之境",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -3032,7 +3032,7 @@ pg.activity_series_enemy_story = {
 	},
 	[140] = {
 		pos_x = "0.698958333333333",
-		name = "EP4-4 黎明の終戦",
+		name = "EP4-4 黎明的终战",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3056,7 +3056,7 @@ pg.activity_series_enemy_story = {
 	},
 	[141] = {
 		pos_x = "0.763541666666667",
-		name = "EP4-5 神殿の探索",
+		name = "EP4-5 神庙漫步",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3080,7 +3080,7 @@ pg.activity_series_enemy_story = {
 	},
 	[142] = {
 		pos_x = "0.853125",
-		name = "EP4-6 覚醒する記憶",
+		name = "EP4-6 回忆觉醒",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3104,7 +3104,7 @@ pg.activity_series_enemy_story = {
 	},
 	[143] = {
 		pos_x = "0.455208333333333",
-		name = "EP4-7 寂滅の魔法塔",
+		name = "EP4-7 寂灭魔法塔",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3128,7 +3128,7 @@ pg.activity_series_enemy_story = {
 	},
 	[144] = {
 		pos_x = "0.855729166666667",
-		name = "EP4-8 過ぎ去りし時代",
+		name = "EP4-8 逝去的时代",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3152,7 +3152,7 @@ pg.activity_series_enemy_story = {
 	},
 	[145] = {
 		pos_x = "0.85",
-		name = "EP4-9 眠りの地",
+		name = "EP4-9 沉睡之地",
 		type = 1,
 		en_name = "",
 		change_background = "bg_masaina_story_mode_5",
@@ -3176,7 +3176,7 @@ pg.activity_series_enemy_story = {
 	},
 	[146] = {
 		pos_x = "0.836458333333333",
-		name = "EP5-1 反攻の狼煙",
+		name = "EP5-1 反攻的第一枪",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -3200,7 +3200,7 @@ pg.activity_series_enemy_story = {
 	},
 	[147] = {
 		pos_x = "0.446875",
-		name = "EP5-2 アズィル城の戦い",
+		name = "EP5-2 恩泽城之战",
 		type = 3,
 		en_name = "",
 		change_background = "",
@@ -3224,7 +3224,7 @@ pg.activity_series_enemy_story = {
 	},
 	[148] = {
 		pos_x = "0.446875",
-		name = "EP5-3 終結と新生",
+		name = "EP5-3 终结与新生",
 		type = 1,
 		en_name = "",
 		change_background = "bg_masaina_story_mode_4",
@@ -3248,7 +3248,7 @@ pg.activity_series_enemy_story = {
 	},
 	[149] = {
 		pos_x = "0.446875",
-		name = "アズィル城",
+		name = "恩泽城",
 		type = 4,
 		en_name = "Benedictus",
 		change_background = "",
@@ -3272,7 +3272,7 @@ pg.activity_series_enemy_story = {
 	},
 	[150] = {
 		pos_x = "0.371354166666667",
-		name = "アイススロート峡谷",
+		name = "冰喉峡谷",
 		type = 4,
 		en_name = "IcemawGorge",
 		change_background = "",
@@ -3294,7 +3294,7 @@ pg.activity_series_enemy_story = {
 	},
 	[151] = {
 		pos_x = "0.308854166666667",
-		name = "極光の地",
+		name = "极光之地",
 		type = 4,
 		en_name = "LandofAuroras",
 		change_background = "",
@@ -3316,7 +3316,7 @@ pg.activity_series_enemy_story = {
 	},
 	[152] = {
 		pos_x = "0.3015625",
-		name = "静寂の氷湖",
+		name = "永寂冰湖",
 		type = 4,
 		en_name = "NevermeltingLake",
 		change_background = "",
@@ -3338,7 +3338,7 @@ pg.activity_series_enemy_story = {
 	},
 	[153] = {
 		pos_x = "0.218229166666667",
-		name = "喰光のツンドラ",
+		name = "噬光苔原",
 		type = 4,
 		en_name = "LightbaneTundra",
 		change_background = "",
@@ -3360,7 +3360,7 @@ pg.activity_series_enemy_story = {
 	},
 	[154] = {
 		pos_x = "0.175520833333333",
-		name = "古代遺跡",
+		name = "古代遗迹",
 		type = 4,
 		en_name = "AncientRuins",
 		change_background = "",
@@ -3404,7 +3404,7 @@ pg.activity_series_enemy_story = {
 	},
 	[156] = {
 		pos_x = "0.522916666666667",
-		name = "瘴気の沼地",
+		name = "秽沼瘴潭",
 		type = 4,
 		en_name = "MiasmicSwamp",
 		change_background = "",
@@ -3426,7 +3426,7 @@ pg.activity_series_enemy_story = {
 	},
 	[157] = {
 		pos_x = "0.613541666666667",
-		name = "変化魔法使いキャンプ",
+		name = "异化法师营地",
 		type = 4,
 		en_name = "DerelictusHold",
 		change_background = "",
@@ -3448,7 +3448,7 @@ pg.activity_series_enemy_story = {
 	},
 	[158] = {
 		pos_x = "0.6265625",
-		name = "囁きの森",
+		name = "低语林地",
 		type = 4,
 		en_name = "WhisperingGrove",
 		change_background = "",
@@ -3470,7 +3470,7 @@ pg.activity_series_enemy_story = {
 	},
 	[159] = {
 		pos_x = "0.700520833333333",
-		name = "腐朽の木",
+		name = "腐心树",
 		type = 4,
 		en_name = "HollowheartTree",
 		change_background = "",
@@ -3492,7 +3492,7 @@ pg.activity_series_enemy_story = {
 	},
 	[160] = {
 		pos_x = "0.7703125",
-		name = "暗夜の魔宮",
+		name = "暗夜魔宫",
 		type = 4,
 		en_name = "Pandemonium",
 		change_background = "",
@@ -3514,7 +3514,7 @@ pg.activity_series_enemy_story = {
 	},
 	[161] = {
 		pos_x = "0.697395833333333",
-		name = "忘れ去られた地",
+		name = "遗忘之地",
 		type = 4,
 		en_name = "ForgottenReach",
 		change_background = "",
@@ -3536,7 +3536,7 @@ pg.activity_series_enemy_story = {
 	},
 	[162] = {
 		pos_x = "0.586979166666667",
-		name = "砕かれた地",
+		name = "破碎之地",
 		type = 4,
 		en_name = "ShatteredLands",
 		change_background = "",
@@ -3558,7 +3558,7 @@ pg.activity_series_enemy_story = {
 	},
 	[163] = {
 		pos_x = "0.473958333333333",
-		name = "寂滅の魔法塔",
+		name = "寂灭魔法塔",
 		type = 4,
 		en_name = "SpireofCycles",
 		change_background = "",
@@ -3580,7 +3580,7 @@ pg.activity_series_enemy_story = {
 	},
 	[164] = {
 		pos_x = "0.853125",
-		name = "古戦場の遺跡",
+		name = "古战场遗迹",
 		type = 4,
 		en_name = "AncientBattlefieldRuins",
 		change_background = "",
@@ -3602,7 +3602,7 @@ pg.activity_series_enemy_story = {
 	},
 	[165] = {
 		pos_x = "0.841145833333333",
-		name = "静寂の樹庭",
+		name = "静默树庭",
 		type = 4,
 		en_name = "SilentGrove",
 		change_background = "",
@@ -3624,7 +3624,7 @@ pg.activity_series_enemy_story = {
 	},
 	[166] = {
 		pos_x = "0.446875",
-		name = "アズィル城",
+		name = "恩泽城",
 		type = 4,
 		en_name = "Benedictus",
 		change_background = "",

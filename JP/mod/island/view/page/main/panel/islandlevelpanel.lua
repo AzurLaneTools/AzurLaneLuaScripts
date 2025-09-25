@@ -12,6 +12,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.prosperityTxt = slot0.levelPanel:Find("prosperity/Text"):GetComponent(typeof(Text))
 	slot0.prosperityLabel = slot0.levelPanel:Find("prosperity"):GetComponent(typeof(Text))
 	slot0.levelTip = slot0.levelPanel:Find("red_dot")
+
+	setActive(slot0.levelPanel:Find("edit"), false)
+
 	slot0.expBtn = slot0.levelPanel:Find("level")
 	slot0.expPanel = slot0._tf:Find("exp")
 
@@ -24,7 +27,7 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.nameTxt.gameObject, function ()
-		uv0:emit(IslandMediator.OPEN_PAGE, "IslandEditNamePage")
+		uv0:emit(IslandMediator.OPEN_PAGE, "IslandSelfCardPage")
 	end, SFX_PANEL)
 	onButton(slot0, slot0.expBtn, function ()
 		uv0:ShowExp()
@@ -95,7 +98,7 @@ slot0.ShowExpAdd = function(slot0, slot1, slot2)
 	end
 
 	slot3 = getProxy(IslandProxy):GetIsland()
-	slot0.expPanelTxt.text = "<color=#39bfff>" .. slot3:GetExp() + slot1 .. "</color><color=#ffffff>/" .. slot3:GetTargeExp() .. "</color>"
+	slot0.expPanelTxt.text = "<color=#39bfff>" .. slot3:GetExp() .. "</color><color=#ffffff>/" .. slot3:GetTargeExp() .. "</color>"
 
 	setActive(slot0.expPanel:Find("effect"), true)
 	setActive(slot0.expPanelAddTF, true)

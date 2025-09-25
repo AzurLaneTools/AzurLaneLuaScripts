@@ -39,7 +39,7 @@ pg.base.shop_furniture_relation = {
 	[70626] = {
 		fur_id = 200003,
 		id = 70626,
-		desc = "駿河——望まぬ聖夜祭",
+		desc = "鲪——“不情愿”的圣夜祭",
 		scale = {
 			0.65,
 			0.7
@@ -54,7 +54,7 @@ pg.base.shop_furniture_relation = {
 	[70633] = {
 		fur_id = 200001,
 		id = 70633,
-		desc = "アウグスト・フォン・パーセヴァル——御使い魔女",
+		desc = "奥古斯特·冯·帕塞瓦尔——女仆魔女",
 		scale = {
 			1.1,
 			1.1
@@ -64,7 +64,7 @@ pg.base.shop_furniture_relation = {
 	[70629] = {
 		fur_id = 200002,
 		id = 70629,
-		desc = "プリンツ・アーダルベルト——閉店後の特別サービス",
+		desc = "阿达尔伯特亲王——闭店后的特别时光",
 		scale = {
 			0.75,
 			0.75
@@ -79,7 +79,7 @@ pg.base.shop_furniture_relation = {
 	[70671] = {
 		fur_id = 200004,
 		id = 70671,
-		desc = "アルハンゲリスク——フライ・アナザー・デイ",
+		desc = "阿尔汉格尔斯克——择日而航",
 		scale = {
 			0.75,
 			0.75
@@ -94,7 +94,7 @@ pg.base.shop_furniture_relation = {
 	[70700] = {
 		fur_id = 200005,
 		id = 70700,
-		desc = "プリンツ・オイゲン——この夜に酔いしれ",
+		desc = "{namecode:427}——沉醉于夜",
 		scale = {
 			0.65,
 			0.75
@@ -109,7 +109,7 @@ pg.base.shop_furniture_relation = {
 	[70715] = {
 		fur_id = 200006,
 		id = 70715,
-		desc = "大鳳——下校後の甘い時間",
+		desc = "{namecode:97}——放学后的甜蜜时光",
 		scale = {
 			1,
 			0.9
@@ -128,7 +128,7 @@ pg.base.shop_furniture_relation = {
 	[70921] = {
 		fur_id = 200009,
 		id = 70921,
-		desc = "ゴールデン・ハインド——古城のキラーレディ",
+		desc = "金鹿号——古堡中的恐怖淑女",
 		scale = {
 			1,
 			0.9

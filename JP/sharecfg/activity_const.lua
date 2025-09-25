@@ -1074,6 +1074,9 @@ pg.activity_const = {
 	DORM_SIGN_ID_2 = {
 		act_id = 7502
 	},
+	ISLAND_SIGN_ID = {
+		act_id = 7503
+	},
 	TOLOVE_MINIGAME_TASK_ID = {
 		act_id = 5680
 	},

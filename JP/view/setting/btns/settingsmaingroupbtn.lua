@@ -19,8 +19,7 @@ slot0.Dispose = function(slot0)
 end
 
 slot0.initData = function(slot0)
-	slot1 = pg.SettingsGroupMgr
-	slot0.mgr = slot1:GetInstance()
+	slot0.mgr = pg.SettingsGroupMgr.GetInstance()
 	slot0.infoName = "MainGroup"
 	slot0.groupNameList = {
 		PaintingGroupConst.PaintingGroupName

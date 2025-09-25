@@ -12,11 +12,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("adapt/left_panel/back")
-	slot0.homeBtn = slot0:findTF("adapt/home")
+	slot0.backBtn = slot0:findTF("top/back")
+	slot0.homeBtn = slot0:findTF("top/home")
 	slot0.leftPanel = slot0:findTF("adapt/left_panel")
 	slot0.dockBtn = slot0:findTF("adapt/left_panel/dock_btn")
-	slot0.togglePanel = slot0:findTF("adapt/toggles")
+	slot0.togglePanel = slot0:findTF("top/toggles")
 	slot1 = slot0:findTF("adapt/left_panel/ships")
 	slot0.shipRect = slot1:GetComponent("LScrollRect")
 	slot0.shipContainer = slot0:findTF("adapt/left_panel/ships/content")
@@ -30,10 +30,10 @@ slot0.OnLoaded = function(slot0)
 	end
 
 	slot0.toggles = {
-		[uv0.PAGE_INFO] = slot0:findTF("adapt/toggles/info"),
-		[uv0.PAGE_DRESS] = slot0:findTF("adapt/toggles/dress"),
-		[uv0.PAGE_STATUS] = slot0:findTF("adapt/toggles/gift"),
-		[uv0.PAGE_PROFILE] = slot0:findTF("adapt/toggles/data")
+		[uv0.PAGE_INFO] = slot0:findTF("top/toggles/info"),
+		[uv0.PAGE_DRESS] = slot0:findTF("top/toggles/dress"),
+		[uv0.PAGE_STATUS] = slot0:findTF("top/toggles/gift"),
+		[uv0.PAGE_PROFILE] = slot0:findTF("top/toggles/data")
 	}
 	slot0.pages = {
 		[uv0.PAGE_INFO] = IslandShipInfoPage,
@@ -44,11 +44,12 @@ slot0.OnLoaded = function(slot0)
 	slot0.cards = {}
 
 	setActive(slot0.togglePanel, true)
-	setText(slot0:findTF("adapt/left_panel/title/Text"), i18n("island_word_ship_desc"))
+	setText(slot0:findTF("top/title/Text"), i18n("island_chara_totalname"))
+	setText(slot0:findTF("top/title/Text/en"), i18n("island_chara_totalname_en"))
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return GetOrAddComponent(slot0:findTF("adapt/char"), typeof(SmoothRotateObject))
+	return slot0:findTF("adapt/char")
 end
 
 slot0.AddListeners = function(slot0)
@@ -105,7 +106,6 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:OnHome()
 	end, SFX_PANEL)
-	setActive(slot0.homeBtn, not ISLAND_PLAYER_TESTING)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.childPage then
 			slot0 = uv0.childPage
@@ -160,18 +160,6 @@ slot0.SwitchPage = function(slot0, slot1)
 	slot2 = slot0.pages[slot1]
 
 	if slot1 == 1 then
-		if not slot0.shipDressHelper then
-			slot0.shipDressHelper = IslandShipDressHelperNew.New()
-		end
-
-		slot3 = slot0.shipDressHelper
-
-		slot3:SetShipId(slot0.contextData.selectedId)
-
-		slot3 = slot0.shipDressHelper
-
-		slot3:OnRoleLoaded(slot0.role.transform, slot0.modelData)
-
 		slot0.childPage = slot0:OpenPage(slot2, slot0.contextData.selectedId, false, slot0.shipDressHelper, function (slot0)
 			uv0:SetObjInitRotaion(slot0)
 		end)
@@ -298,6 +286,11 @@ slot0.UpdateMainView = function(slot0, slot1)
 		return
 	end
 
+	if not slot0.shipDressHelper then
+		slot0.shipDressHelper = IslandShipDressHelperNew.New()
+	end
+
+	slot0.shipDressHelper:SetShipId(slot1.configId)
 	slot0:LoadCharacter(slot1:GetModel())
 
 	slot0.contextData.selectedId = slot1.configId
@@ -345,10 +338,10 @@ slot0.OnCharLoaded = function(slot0)
 end
 
 slot0.SetObjInitRotaion = function(slot0, slot1)
-	slot2 = slot0:GetSmoothRotateObject()
-	slot2.rotationSpeed = 5
+	slot3 = GetOrAddComponent(slot0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+	slot3.rotationSpeed = 5
 
-	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", slot2, slot1)
+	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", slot3, slot1)
 
 	if slot0.timer then
 		slot0.timer:Stop()

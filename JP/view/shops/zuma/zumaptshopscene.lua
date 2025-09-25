@@ -73,7 +73,7 @@ slot0.addListener = function(slot0)
 				if not isActive(uv0:findTF("Mask", uv1)) then
 					uv0:emit(ZumaPTShopMediator.OPEN_ZUMA_PT_SHOP_BUY_WINDOW, uv0:getGoodVOByIndex(uv2))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("launchball_minigame_shop"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("launchball_minigame_shop"))
 				end
 			end, SFX_PANEL)
 		elseif slot0 == UIItemList.EventUpdate then

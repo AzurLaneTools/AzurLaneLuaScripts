@@ -3,7 +3,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 1,
 		name = "Stage1",
-		unlock_txt = "限定海域T-1を\n☆3クリア",
+		unlock_txt = "三星通关T1",
 		story = "",
 		block = {
 			{
@@ -23,7 +23,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 2,
 		name = "Stage2",
-		unlock_txt = "限定海域T-2を\n☆3クリア",
+		unlock_txt = "三星通关T2",
 		block = {
 			{
 				"fubuki",
@@ -49,7 +49,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 3,
 		name = "Stage3",
-		unlock_txt = "限定海域T-3を\n☆3クリア",
+		unlock_txt = "三星通关T3",
 		story = "",
 		block = {
 			{
@@ -73,7 +73,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 4,
 		name = "Stage4",
-		unlock_txt = "限定海域T-4を\n☆3クリア",
+		unlock_txt = "三星通关T4",
 		block = {
 			{
 				"fubuki",
@@ -103,7 +103,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 5,
 		name = "Stage5",
-		unlock_txt = "限定海域T-5を\n☆3クリア",
+		unlock_txt = "三星通关T5",
 		story = "",
 		block = {
 			{
@@ -135,7 +135,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 6,
 		name = "Stage6",
-		unlock_txt = "限定海域T-6を\n☆3クリア",
+		unlock_txt = "三星通关T6",
 		block = {
 			{
 				"fubuki",
@@ -173,7 +173,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 7,
 		name = "Stage7",
-		unlock_txt = "ミニゲームS-6を\nクリア",
+		unlock_txt = "完成S6",
 		story = "",
 		block = {
 			{
@@ -213,7 +213,7 @@ pg.activity_event_linkgame = {
 	{
 		id = 8,
 		name = "EX",
-		unlock_txt = "ミニゲームS1-7を\nクリア",
+		unlock_txt = "完成S1—S7",
 		story = "",
 		block = {
 			{

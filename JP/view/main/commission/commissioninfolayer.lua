@@ -44,13 +44,11 @@ slot0.init = function(slot0)
 end
 
 slot0.BlurPanel = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.UnBlurPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parentTr)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.parentTr)
 end
 
 slot0.UpdataClassUnlock = function(slot0)

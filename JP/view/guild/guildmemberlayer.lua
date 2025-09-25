@@ -96,7 +96,7 @@ slot0.didEnter = function(slot0)
 		slot7:SetCallBack(function (slot0)
 			uv0.buttonsPanel.localPosition = slot0
 
-			setParent(uv0.buttonsPanel, pg.UIMgr:GetInstance().OverlayMain)
+			setParent(uv0.buttonsPanel, pg.UIMgr.GetInstance().OverlayMain)
 		end, function ()
 			uv0()
 			setParent(uv1.buttonsPanel, uv1._tf)
@@ -137,9 +137,9 @@ slot0.LoadPainting = function(slot0, slot1)
 	slot5 = nil
 
 	if HXSet.isHxPropose() then
-		pg.GuildPaintingMgr:GetInstance():Update(slot0.guildVO:GetOfficePainting(), Vector3(-643, -160, 0))
+		pg.GuildPaintingMgr.GetInstance():Update(slot0.guildVO:GetOfficePainting(), Vector3(-643, -160, 0))
 	else
-		pg.GuildPaintingMgr:GetInstance():Update(Ship.New({
+		pg.GuildPaintingMgr.GetInstance():Update(Ship.New({
 			configId = slot1.icon,
 			skin_id = slot1.skinId
 		}):getPainting(), Vector3(-484, 0, 0), true)
@@ -206,8 +206,8 @@ slot0.willExit = function(slot0)
 		slot5:Destroy()
 	end
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

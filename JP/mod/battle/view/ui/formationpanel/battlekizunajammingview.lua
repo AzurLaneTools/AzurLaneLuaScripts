@@ -49,7 +49,7 @@ slot2.Active = function(slot0)
 	LeanTween.scale(slot0._blocker, Vector3(1, 1, 0), (1 - slot0._blocker.localScale.x) * uv0.EXPAND_DURATION)
 end
 
-slot2.Puase = function(slot0)
+slot2.Pause = function(slot0)
 	LeanTween.cancel(go(slot0._blocker))
 end
 

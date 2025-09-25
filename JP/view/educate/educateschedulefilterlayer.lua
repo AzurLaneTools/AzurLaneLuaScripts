@@ -113,9 +113,8 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	slot0:initDropdownPanel()
 	slot0:initFilters()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 1
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1
 	})
 end
 
@@ -281,7 +280,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

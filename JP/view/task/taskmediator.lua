@@ -41,8 +41,7 @@ slot0.register = function(slot0)
 				data = {
 					equipmentId = slot1:getConfig("id"),
 					type = EquipmentInfoMediator.TYPE_DISPLAY,
-					onRemoved = slot2,
-					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+					onRemoved = slot2
 				}
 			}))
 		elseif slot1.type == DROP_TYPE_SPWEAPON then
@@ -52,8 +51,7 @@ slot0.register = function(slot0)
 				data = {
 					spWeaponConfigId = slot1:getConfig("id"),
 					type = SpWeaponInfoLayer.TYPE_DISPLAY,
-					onRemoved = slot2,
-					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+					onRemoved = slot2
 				}
 			}))
 		else
@@ -61,8 +59,7 @@ slot0.register = function(slot0)
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,
-				onYes = slot2,
-				weight = LayerWeightConst.THIRD_LAYER
+				onYes = slot2
 			})
 		end
 	end)

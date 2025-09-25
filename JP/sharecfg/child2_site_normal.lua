@@ -3,7 +3,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 1,
 		type = 1,
-		title = "生活体験Lv1（財貨80入手）",
+		title = "生活体验LV1（获得80金钱）",
 		node_id = 30001,
 		character = 1,
 		id = 1,
@@ -34,7 +34,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 2,
 		type = 1,
-		title = "生活体験Lv2（財貨120入手）",
+		title = "生活体验LV2（获得120金钱）",
 		node_id = 30002,
 		character = 1,
 		id = 2,
@@ -65,7 +65,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 3,
 		type = 1,
-		title = "生活体験Lv3（財貨200入手）",
+		title = "生活体验LV3（获得200金钱）",
 		node_id = 30003,
 		character = 1,
 		id = 3,
@@ -91,7 +91,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 1,
 		type = 2,
-		title = "観光旅行Lv1（気分6入手）",
+		title = "外出旅游LV1（获得6心情）",
 		node_id = 30004,
 		character = 1,
 		id = 4,
@@ -122,7 +122,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 2,
 		type = 2,
-		title = "観光旅行Lv2（気分10入手）",
+		title = "外出旅游LV2（获得10心情）",
 		node_id = 30005,
 		character = 1,
 		id = 5,
@@ -153,7 +153,7 @@ pg.child2_site_normal = {
 	{
 		site_lv = 3,
 		type = 2,
-		title = "観光旅行Lv3（気分18入手）",
+		title = "外出旅游LV3（获得18心情）",
 		node_id = 30006,
 		character = 1,
 		id = 6,

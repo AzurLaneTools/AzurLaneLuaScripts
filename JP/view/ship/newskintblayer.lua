@@ -79,9 +79,7 @@ slot0.didEnter = function(slot0)
 		setActive(uv0.clickTF, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin, nil, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if uv0.isInView or not uv0.isLoadBg then

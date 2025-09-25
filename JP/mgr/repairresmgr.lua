@@ -132,5 +132,5 @@ end
 slot0.Hide = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0._go:SetActive(false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parentTr)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.parentTr)
 end

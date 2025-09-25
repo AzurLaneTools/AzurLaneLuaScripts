@@ -1,5 +1,5 @@
 _G.pg.base.equip_data_statistics[2] = {
-	name = "0",
+	name = "序章重巡-萨福克（瞄准型）",
 	tech = 1,
 	speciality = "<[LOCK]>",
 	type = 3,
@@ -34,7 +34,7 @@ _G.pg.base.equip_data_statistics[2] = {
 
 
 _G.pg.base.equip_data_statistics[3] = {
-	name = "0",
+	name = "序章重巡-诺福克（散射型、肉盾）",
 	tech = 1,
 	speciality = "<[SCA]>",
 	type = 3,
@@ -74,7 +74,7 @@ _G.pg.base.equip_data_statistics[3] = {
 
 
 _G.pg.base.equip_data_statistics[4] = {
-	name = "0",
+	name = "序章战巡-胡德",
 	tech = 1,
 	speciality = "<[FP]>",
 	type = 4,
@@ -116,7 +116,7 @@ _G.pg.base.equip_data_statistics[4] = {
 
 
 _G.pg.base.equip_data_statistics[5] = {
-	name = "0",
+	name = "序章战列-威尔士亲王",
 	tech = 1,
 	speciality = "<[FP]>",
 	type = 4,
@@ -158,7 +158,7 @@ _G.pg.base.equip_data_statistics[5] = {
 
 
 _G.pg.base.equip_data_statistics[6] = {
-	name = "0",
+	name = "序章重巡-萨福克三联533mm鱼雷",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 5,
@@ -204,7 +204,7 @@ _G.pg.base.equip_data_statistics[6] = {
 
 
 _G.pg.base.equip_data_statistics[7] = {
-	name = "0",
+	name = "序章重巡-诺福克四联533mm鱼雷",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 5,
@@ -250,7 +250,7 @@ _G.pg.base.equip_data_statistics[7] = {
 
 
 _G.pg.base.equip_data_statistics[8] = {
-	name = "0",
+	name = "序章重巡-欧根亲王（瞄准型）",
 	tech = 1,
 	speciality = "<[LOCK]>",
 	type = 3,
@@ -285,14 +285,14 @@ _G.pg.base.equip_data_statistics[8] = {
 
 
 _G.pg.base.equip_data_statistics[20] = {
-	name = "0",
+	name = "U556关卡单发鱼雷-弹药2",
 	tech = 1,
 	speciality = "<[LOCK]>",
 	type = 5,
 	rarity = 1,
 	value_2 = 0,
 	icon = "2700",
-	descrip = "特殊装備",
+	descrip = "序章用",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -331,7 +331,7 @@ _G.pg.base.equip_data_statistics[20] = {
 
 
 _G.pg.base.equip_data_statistics[21] = {
-	name = "0",
+	name = "U556关卡单发鱼雷-弹药4",
 	tech = 1,
 	speciality = "<[LOCK]>",
 	type = 5,
@@ -377,7 +377,7 @@ _G.pg.base.equip_data_statistics[21] = {
 
 
 _G.pg.base.equip_data_statistics[22] = {
-	name = "0",
+	name = "U556关卡单发鱼雷-弹药6",
 	tech = 1,
 	speciality = "<[LOCK]>",
 	type = 5,
@@ -422,15 +422,328 @@ _G.pg.base.equip_data_statistics[22] = {
 }
 
 
+_G.pg.base.equip_data_statistics[23] = {
+	name = "J-10机炮 FC-1机炮 双管",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 2",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 23,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		23
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[24] = {
+	name = "J-15机炮 单管",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 24,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		24
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[25] = {
+	name = "中飞导弹1",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 25,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		25
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[26] = {
+	name = "中飞导弹2",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 26,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		25
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[27] = {
+	name = "J-20 普攻导弹",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 27,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		27
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[28] = {
+	name = "J-20 手动导弹",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 28,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		28
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[98] = {
+	name = "可打断测试武器",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "测试装备",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 98,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		98
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[99] = {
+	name = "测试鱼雷",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 5,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "测试装备",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 99,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		319517
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
 _G.pg.base.equip_data_statistics[100] = {
-	name = "0",
+	name = "默认驱逐武器",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 1",
 	nationality = 0,
 	ammo = 5,
@@ -473,14 +786,14 @@ _G.pg.base.equip_data_statistics[100] = {
 
 
 _G.pg.base.equip_data_statistics[101] = {
-	name = "0",
+	name = "默认轻巡武器",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "5 x 1",
 	nationality = 0,
 	ammo = 5,
@@ -514,14 +827,14 @@ _G.pg.base.equip_data_statistics[101] = {
 
 
 _G.pg.base.equip_data_statistics[102] = {
-	name = "0",
+	name = "默认重巡武器",
 	speciality = "<[NORM]>",
 	type = 3,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "12 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -554,14 +867,14 @@ _G.pg.base.equip_data_statistics[102] = {
 
 
 _G.pg.base.equip_data_statistics[103] = {
-	name = "0",
+	name = "默认战列武器",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "16 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -596,14 +909,14 @@ _G.pg.base.equip_data_statistics[103] = {
 
 
 _G.pg.base.equip_data_statistics[104] = {
-	name = "0",
+	name = "默认防空炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "4<[WAVE]>",
 	nationality = 0,
 	ammo = 5,
@@ -659,14 +972,14 @@ _G.pg.base.equip_data_statistics[104] = {
 
 
 _G.pg.base.equip_data_statistics[105] = {
-	name = "0",
+	name = "默认双联鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "17 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -709,14 +1022,14 @@ _G.pg.base.equip_data_statistics[105] = {
 
 
 _G.pg.base.equip_data_statistics[106] = {
-	name = "0",
+	name = "默认三联鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "17 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -759,14 +1072,14 @@ _G.pg.base.equip_data_statistics[106] = {
 
 
 _G.pg.base.equip_data_statistics[107] = {
-	name = "0",
+	name = "默认四联鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "17 x 4",
 	nationality = 0,
 	ammo = 5,
@@ -809,14 +1122,14 @@ _G.pg.base.equip_data_statistics[107] = {
 
 
 _G.pg.base.equip_data_statistics[108] = {
-	name = "0",
+	name = "默认五联鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "17 x 5",
 	nationality = 0,
 	ammo = 5,
@@ -859,14 +1172,14 @@ _G.pg.base.equip_data_statistics[108] = {
 
 
 _G.pg.base.equip_data_statistics[109] = {
-	name = "0",
+	name = "默认白鹰战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -900,14 +1213,14 @@ _G.pg.base.equip_data_statistics[109] = {
 
 
 _G.pg.base.equip_data_statistics[110] = {
-	name = "0",
+	name = "默认白鹰鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -940,14 +1253,14 @@ _G.pg.base.equip_data_statistics[110] = {
 
 
 _G.pg.base.equip_data_statistics[111] = {
-	name = "0",
+	name = "默认白鹰轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -980,14 +1293,14 @@ _G.pg.base.equip_data_statistics[111] = {
 
 
 _G.pg.base.equip_data_statistics[113] = {
-	name = "0",
+	name = "默认皇家战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -1021,14 +1334,14 @@ _G.pg.base.equip_data_statistics[113] = {
 
 
 _G.pg.base.equip_data_statistics[114] = {
-	name = "0",
+	name = "默认皇家鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -1061,14 +1374,14 @@ _G.pg.base.equip_data_statistics[114] = {
 
 
 _G.pg.base.equip_data_statistics[115] = {
-	name = "0",
+	name = "默认皇家轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -1101,14 +1414,14 @@ _G.pg.base.equip_data_statistics[115] = {
 
 
 _G.pg.base.equip_data_statistics[117] = {
-	name = "0",
+	name = "默认重樱战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -1142,14 +1455,14 @@ _G.pg.base.equip_data_statistics[117] = {
 
 
 _G.pg.base.equip_data_statistics[118] = {
-	name = "0",
+	name = "默认重樱鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -1182,14 +1495,14 @@ _G.pg.base.equip_data_statistics[118] = {
 
 
 _G.pg.base.equip_data_statistics[119] = {
-	name = "0",
+	name = "默认重樱轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -1222,14 +1535,14 @@ _G.pg.base.equip_data_statistics[119] = {
 
 
 _G.pg.base.equip_data_statistics[121] = {
-	name = "0",
+	name = "默认铁血战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -1263,14 +1576,14 @@ _G.pg.base.equip_data_statistics[121] = {
 
 
 _G.pg.base.equip_data_statistics[122] = {
-	name = "0",
+	name = "默认铁血鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -1303,14 +1616,14 @@ _G.pg.base.equip_data_statistics[122] = {
 
 
 _G.pg.base.equip_data_statistics[123] = {
-	name = "0",
+	name = "默认铁血轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -1343,14 +1656,14 @@ _G.pg.base.equip_data_statistics[123] = {
 
 
 _G.pg.base.equip_data_statistics[125] = {
-	name = "0",
+	name = "默认鸢尾战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1384,14 +1697,14 @@ _G.pg.base.equip_data_statistics[125] = {
 
 
 _G.pg.base.equip_data_statistics[126] = {
-	name = "0",
+	name = "默认鸢尾鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1424,14 +1737,14 @@ _G.pg.base.equip_data_statistics[126] = {
 
 
 _G.pg.base.equip_data_statistics[127] = {
-	name = "0",
+	name = "默认鸢尾轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1464,14 +1777,14 @@ _G.pg.base.equip_data_statistics[127] = {
 
 
 _G.pg.base.equip_data_statistics[140] = {
-	name = "0",
+	name = "默认潜艇鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "17 x 1",
 	nationality = 0,
 	ammo = 5,
@@ -1505,14 +1818,14 @@ _G.pg.base.equip_data_statistics[140] = {
 
 
 _G.pg.base.equip_data_statistics[141] = {
-	name = "0",
+	name = "默认深水炸弹_驱逐",
 	tech = 1,
 	speciality = "<[ASW]>",
 	type = 10,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 0,
 	ammo = 5,
 	value_3 = 0,
@@ -1539,7 +1852,7 @@ _G.pg.base.equip_data_statistics[141] = {
 
 
 _G.pg.base.equip_data_statistics[144] = {
-	name = "0",
+	name = "默认潜母水侦",
 	tech = 1,
 	type = 12,
 	speciality = "<[BOMB]>",
@@ -1547,7 +1860,7 @@ _G.pg.base.equip_data_statistics[144] = {
 	rarity = 1,
 	value_2 = 5,
 	icon = "39200",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -1578,14 +1891,14 @@ _G.pg.base.equip_data_statistics[144] = {
 
 
 _G.pg.base.equip_data_statistics[147] = {
-	name = "0",
+	name = "默认深水炸弹_轻巡",
 	tech = 1,
 	speciality = "<[ASW]>",
 	type = 10,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 0,
 	ammo = 5,
 	value_3 = 0,
@@ -1612,14 +1925,14 @@ _G.pg.base.equip_data_statistics[147] = {
 
 
 _G.pg.base.equip_data_statistics[148] = {
-	name = "0",
+	name = "默认撒丁战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -1653,14 +1966,14 @@ _G.pg.base.equip_data_statistics[148] = {
 
 
 _G.pg.base.equip_data_statistics[149] = {
-	name = "0",
+	name = "默认撒丁鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -1693,14 +2006,14 @@ _G.pg.base.equip_data_statistics[149] = {
 
 
 _G.pg.base.equip_data_statistics[150] = {
-	name = "0",
+	name = "默认撒丁轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -1733,14 +2046,14 @@ _G.pg.base.equip_data_statistics[150] = {
 
 
 _G.pg.base.equip_data_statistics[152] = {
-	name = "0",
+	name = "默认鸢尾水侦",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 12,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -1769,14 +2082,14 @@ _G.pg.base.equip_data_statistics[152] = {
 
 
 _G.pg.base.equip_data_statistics[153] = {
-	name = "0",
+	name = "默认北联战斗机",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1810,14 +2123,14 @@ _G.pg.base.equip_data_statistics[153] = {
 
 
 _G.pg.base.equip_data_statistics[154] = {
-	name = "0",
+	name = "默认北联鱼雷机",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1850,14 +2163,14 @@ _G.pg.base.equip_data_statistics[154] = {
 
 
 _G.pg.base.equip_data_statistics[155] = {
-	name = "0",
+	name = "默认北联轰炸机",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -1890,14 +2203,14 @@ _G.pg.base.equip_data_statistics[155] = {
 
 
 _G.pg.base.equip_data_statistics[158] = {
-	name = "0",
+	name = "默认风帆主力武器",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "16 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -1992,14 +2305,14 @@ _G.pg.base.equip_data_statistics[190] = {
 
 
 _G.pg.base.equip_data_statistics[201] = {
-	name = "0",
+	name = "白鹰雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "3 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2042,7 +2355,7 @@ _G.pg.base.equip_data_statistics[201] = {
 
 
 _G.pg.base.equip_data_statistics[202] = {
-	name = "0",
+	name = "白鹰雷击轻巡副炮T2",
 	damage = "4 x 2",
 	base = 201,
 	id = 202,
@@ -2054,7 +2367,7 @@ _G.pg.base.equip_data_statistics[202] = {
 
 
 _G.pg.base.equip_data_statistics[203] = {
-	name = "0",
+	name = "白鹰雷击轻巡副炮T3",
 	damage = "4 x 2",
 	base = 201,
 	id = 203,
@@ -2069,7 +2382,7 @@ _G.pg.base.equip_data_statistics[203] = {
 
 
 _G.pg.base.equip_data_statistics[204] = {
-	name = "0",
+	name = "白鹰雷击轻巡副炮T4",
 	damage = "5 x 2",
 	base = 201,
 	id = 204,
@@ -2084,14 +2397,14 @@ _G.pg.base.equip_data_statistics[204] = {
 
 
 _G.pg.base.equip_data_statistics[211] = {
-	name = "0",
+	name = "皇家雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "3 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2134,7 +2447,7 @@ _G.pg.base.equip_data_statistics[211] = {
 
 
 _G.pg.base.equip_data_statistics[212] = {
-	name = "0",
+	name = "皇家雷击轻巡副炮T2",
 	damage = "4 x 2",
 	base = 211,
 	id = 212,
@@ -2146,7 +2459,7 @@ _G.pg.base.equip_data_statistics[212] = {
 
 
 _G.pg.base.equip_data_statistics[213] = {
-	name = "0",
+	name = "皇家雷击轻巡副炮T3",
 	damage = "5 x 2",
 	base = 211,
 	id = 213,
@@ -2158,7 +2471,7 @@ _G.pg.base.equip_data_statistics[213] = {
 
 
 _G.pg.base.equip_data_statistics[214] = {
-	name = "0",
+	name = "皇家雷击轻巡副炮T4",
 	damage = "6 x 2",
 	base = 211,
 	id = 214,
@@ -2182,14 +2495,14 @@ _G.pg.base.equip_data_statistics[215] = {
 
 
 _G.pg.base.equip_data_statistics[221] = {
-	name = "0",
+	name = "重樱雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2232,7 +2545,7 @@ _G.pg.base.equip_data_statistics[221] = {
 
 
 _G.pg.base.equip_data_statistics[222] = {
-	name = "0",
+	name = "重樱雷击轻巡副炮T2",
 	damage = "3 x 2",
 	base = 221,
 	id = 222,
@@ -2244,7 +2557,7 @@ _G.pg.base.equip_data_statistics[222] = {
 
 
 _G.pg.base.equip_data_statistics[223] = {
-	name = "0",
+	name = "重樱雷击轻巡副炮T3",
 	damage = "3 x 2",
 	base = 221,
 	id = 223,
@@ -2259,7 +2572,7 @@ _G.pg.base.equip_data_statistics[223] = {
 
 
 _G.pg.base.equip_data_statistics[224] = {
-	name = "0",
+	name = "重樱雷击轻巡副炮T4",
 	damage = "4 x 2",
 	base = 221,
 	id = 224,
@@ -2274,14 +2587,14 @@ _G.pg.base.equip_data_statistics[224] = {
 
 
 _G.pg.base.equip_data_statistics[231] = {
-	name = "0",
+	name = "铁血雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2324,7 +2637,7 @@ _G.pg.base.equip_data_statistics[231] = {
 
 
 _G.pg.base.equip_data_statistics[232] = {
-	name = "0",
+	name = "铁血雷击轻巡副炮T2",
 	damage = "3 x 2",
 	base = 231,
 	id = 232,
@@ -2336,7 +2649,7 @@ _G.pg.base.equip_data_statistics[232] = {
 
 
 _G.pg.base.equip_data_statistics[233] = {
-	name = "0",
+	name = "铁血雷击轻巡副炮T3",
 	damage = "4 x 2",
 	base = 231,
 	id = 233,
@@ -2348,7 +2661,7 @@ _G.pg.base.equip_data_statistics[233] = {
 
 
 _G.pg.base.equip_data_statistics[234] = {
-	name = "0",
+	name = "铁血雷击轻巡副炮T4",
 	damage = "5 x 2",
 	base = 231,
 	id = 234,
@@ -2360,14 +2673,14 @@ _G.pg.base.equip_data_statistics[234] = {
 
 
 _G.pg.base.equip_data_statistics[251] = {
-	name = "0",
+	name = "撒丁雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2410,7 +2723,7 @@ _G.pg.base.equip_data_statistics[251] = {
 
 
 _G.pg.base.equip_data_statistics[252] = {
-	name = "0",
+	name = "撒丁雷击轻巡副炮T2",
 	damage = "3 x 2",
 	base = 251,
 	id = 252,
@@ -2422,7 +2735,7 @@ _G.pg.base.equip_data_statistics[252] = {
 
 
 _G.pg.base.equip_data_statistics[253] = {
-	name = "0",
+	name = "撒丁雷击轻巡副炮T3",
 	damage = "4 x 2",
 	base = 251,
 	id = 253,
@@ -2434,7 +2747,7 @@ _G.pg.base.equip_data_statistics[253] = {
 
 
 _G.pg.base.equip_data_statistics[254] = {
-	name = "0",
+	name = "撒丁雷击轻巡副炮T4",
 	damage = "5 x 2",
 	base = 251,
 	id = 254,
@@ -2446,14 +2759,14 @@ _G.pg.base.equip_data_statistics[254] = {
 
 
 _G.pg.base.equip_data_statistics[261] = {
-	name = "0",
+	name = "北方联合雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "3 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -2496,7 +2809,7 @@ _G.pg.base.equip_data_statistics[261] = {
 
 
 _G.pg.base.equip_data_statistics[262] = {
-	name = "0",
+	name = "北方联合雷击轻巡副炮T2",
 	damage = "4 x 2",
 	base = 261,
 	id = 262,
@@ -2508,7 +2821,7 @@ _G.pg.base.equip_data_statistics[262] = {
 
 
 _G.pg.base.equip_data_statistics[263] = {
-	name = "0",
+	name = "北方联合雷击轻巡副炮T3",
 	damage = "4 x 2",
 	base = 261,
 	id = 263,
@@ -2523,7 +2836,7 @@ _G.pg.base.equip_data_statistics[263] = {
 
 
 _G.pg.base.equip_data_statistics[264] = {
-	name = "0",
+	name = "北方联合雷击轻巡副炮T4",
 	damage = "5 x 2",
 	base = 261,
 	id = 264,
@@ -2538,14 +2851,14 @@ _G.pg.base.equip_data_statistics[264] = {
 
 
 _G.pg.base.equip_data_statistics[271] = {
-	name = "0",
+	name = "鸢尾雷击轻巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -2588,7 +2901,7 @@ _G.pg.base.equip_data_statistics[271] = {
 
 
 _G.pg.base.equip_data_statistics[272] = {
-	name = "0",
+	name = "鸢尾雷击轻巡副炮T2",
 	damage = "3 x 3",
 	base = 271,
 	id = 272,
@@ -2600,7 +2913,7 @@ _G.pg.base.equip_data_statistics[272] = {
 
 
 _G.pg.base.equip_data_statistics[273] = {
-	name = "0",
+	name = "鸢尾雷击轻巡副炮T3",
 	damage = "4 x 3",
 	base = 271,
 	id = 273,
@@ -2615,7 +2928,7 @@ _G.pg.base.equip_data_statistics[273] = {
 
 
 _G.pg.base.equip_data_statistics[274] = {
-	name = "0",
+	name = "鸢尾雷击轻巡副炮T4",
 	damage = "5 x 3",
 	base = 271,
 	id = 274,
@@ -2630,14 +2943,14 @@ _G.pg.base.equip_data_statistics[274] = {
 
 
 _G.pg.base.equip_data_statistics[301] = {
-	name = "0",
+	name = "白鹰雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "3 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -2680,7 +2993,7 @@ _G.pg.base.equip_data_statistics[301] = {
 
 
 _G.pg.base.equip_data_statistics[302] = {
-	name = "0",
+	name = "白鹰雷击重巡副炮T2",
 	damage = "4 x 3",
 	base = 301,
 	id = 302,
@@ -2692,7 +3005,7 @@ _G.pg.base.equip_data_statistics[302] = {
 
 
 _G.pg.base.equip_data_statistics[303] = {
-	name = "0",
+	name = "白鹰雷击重巡副炮T3",
 	damage = "4 x 3",
 	base = 301,
 	id = 303,
@@ -2707,7 +3020,7 @@ _G.pg.base.equip_data_statistics[303] = {
 
 
 _G.pg.base.equip_data_statistics[304] = {
-	name = "0",
+	name = "白鹰雷击重巡副炮T4",
 	damage = "5 x 3",
 	base = 301,
 	id = 304,
@@ -2722,14 +3035,14 @@ _G.pg.base.equip_data_statistics[304] = {
 
 
 _G.pg.base.equip_data_statistics[311] = {
-	name = "0",
+	name = "皇家雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "3 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -2772,7 +3085,7 @@ _G.pg.base.equip_data_statistics[311] = {
 
 
 _G.pg.base.equip_data_statistics[312] = {
-	name = "0",
+	name = "皇家雷击重巡副炮T2",
 	damage = "4 x 3",
 	base = 311,
 	id = 312,
@@ -2784,7 +3097,7 @@ _G.pg.base.equip_data_statistics[312] = {
 
 
 _G.pg.base.equip_data_statistics[313] = {
-	name = "0",
+	name = "皇家雷击重巡副炮T3",
 	damage = "5 x 3",
 	base = 311,
 	id = 313,
@@ -2796,7 +3109,7 @@ _G.pg.base.equip_data_statistics[313] = {
 
 
 _G.pg.base.equip_data_statistics[314] = {
-	name = "0",
+	name = "皇家雷击重巡副炮T4",
 	damage = "6 x 3",
 	base = 311,
 	id = 314,
@@ -2808,14 +3121,14 @@ _G.pg.base.equip_data_statistics[314] = {
 
 
 _G.pg.base.equip_data_statistics[321] = {
-	name = "0",
+	name = "重樱雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -2858,7 +3171,7 @@ _G.pg.base.equip_data_statistics[321] = {
 
 
 _G.pg.base.equip_data_statistics[322] = {
-	name = "0",
+	name = "重樱雷击重巡副炮T2",
 	damage = "3 x 3",
 	base = 321,
 	id = 322,
@@ -2870,7 +3183,7 @@ _G.pg.base.equip_data_statistics[322] = {
 
 
 _G.pg.base.equip_data_statistics[323] = {
-	name = "0",
+	name = "重樱雷击重巡副炮T3",
 	damage = "3 x 3",
 	base = 321,
 	id = 323,
@@ -2885,7 +3198,7 @@ _G.pg.base.equip_data_statistics[323] = {
 
 
 _G.pg.base.equip_data_statistics[324] = {
-	name = "0",
+	name = "重樱雷击重巡副炮T4",
 	damage = "4 x 3",
 	base = 321,
 	id = 324,
@@ -2900,14 +3213,14 @@ _G.pg.base.equip_data_statistics[324] = {
 
 
 _G.pg.base.equip_data_statistics[331] = {
-	name = "0",
+	name = "铁血雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -2950,7 +3263,7 @@ _G.pg.base.equip_data_statistics[331] = {
 
 
 _G.pg.base.equip_data_statistics[332] = {
-	name = "0",
+	name = "铁血雷击重巡副炮T2",
 	damage = "3 x 3",
 	base = 331,
 	id = 332,
@@ -2962,7 +3275,7 @@ _G.pg.base.equip_data_statistics[332] = {
 
 
 _G.pg.base.equip_data_statistics[333] = {
-	name = "0",
+	name = "铁血雷击重巡副炮T3",
 	damage = "4 x 3",
 	base = 331,
 	id = 333,
@@ -2974,7 +3287,7 @@ _G.pg.base.equip_data_statistics[333] = {
 
 
 _G.pg.base.equip_data_statistics[334] = {
-	name = "0",
+	name = "铁血雷击重巡副炮T4",
 	damage = "5 x 3",
 	base = 331,
 	id = 334,
@@ -2986,14 +3299,14 @@ _G.pg.base.equip_data_statistics[334] = {
 
 
 _G.pg.base.equip_data_statistics[351] = {
-	name = "0",
+	name = "撒丁雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 2",
 	nationality = 0,
 	ammo = 5,
@@ -3036,7 +3349,7 @@ _G.pg.base.equip_data_statistics[351] = {
 
 
 _G.pg.base.equip_data_statistics[352] = {
-	name = "0",
+	name = "撒丁雷击重巡副炮T2",
 	damage = "3 x 2",
 	base = 351,
 	id = 352,
@@ -3048,7 +3361,7 @@ _G.pg.base.equip_data_statistics[352] = {
 
 
 _G.pg.base.equip_data_statistics[353] = {
-	name = "0",
+	name = "撒丁雷击重巡副炮T3",
 	damage = "4 x 2",
 	base = 351,
 	id = 353,
@@ -3060,7 +3373,7 @@ _G.pg.base.equip_data_statistics[353] = {
 
 
 _G.pg.base.equip_data_statistics[354] = {
-	name = "0",
+	name = "撒丁雷击重巡副炮T4",
 	damage = "5 x 2",
 	base = 351,
 	id = 354,
@@ -3072,14 +3385,14 @@ _G.pg.base.equip_data_statistics[354] = {
 
 
 _G.pg.base.equip_data_statistics[371] = {
-	name = "0",
+	name = "鸢尾雷击重巡副炮T1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -3123,7 +3436,7 @@ _G.pg.base.equip_data_statistics[371] = {
 
 
 _G.pg.base.equip_data_statistics[372] = {
-	name = "0",
+	name = "鸢尾雷击重巡副炮T2",
 	damage = "3 x 3",
 	base = 371,
 	id = 372,
@@ -3135,7 +3448,7 @@ _G.pg.base.equip_data_statistics[372] = {
 
 
 _G.pg.base.equip_data_statistics[373] = {
-	name = "0",
+	name = "鸢尾雷击重巡副炮T3",
 	damage = "4 x 3",
 	base = 371,
 	id = 373,
@@ -3147,7 +3460,7 @@ _G.pg.base.equip_data_statistics[373] = {
 
 
 _G.pg.base.equip_data_statistics[374] = {
-	name = "0",
+	name = "鸢尾雷击重巡副炮T4",
 	damage = "5 x 3",
 	base = 371,
 	id = 374,
@@ -3166,7 +3479,7 @@ _G.pg.base.equip_data_statistics[391] = {
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "デフォルト装備",
+	descrip = "默认装备",
 	damage = "2 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -5068,7 +5381,7 @@ _G.pg.base.equip_data_statistics[492] = {
 
 
 _G.pg.base.equip_data_statistics[500] = {
-	name = "ビーバーズエムブレム",
+	name = "小海狸中队队徽",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5079,7 +5392,7 @@ _G.pg.base.equip_data_statistics[500] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 1,
-	descrip = "第23駆逐隊\n<color=#ffde38>「ビーバーズ、31ノット、全速前進よ！」</color>",
+	descrip = "白鹰第23驱逐舰中队\n<color=#ffde38>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -5230,7 +5543,7 @@ _G.pg.base.equip_data_statistics[513] = {
 
 
 _G.pg.base.equip_data_statistics[520] = {
-	name = "真珠の涙",
+	name = "珍珠之泪",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5239,7 +5552,7 @@ _G.pg.base.equip_data_statistics[520] = {
 	icon = "520",
 	value_1 = "200",
 	rarity = 5,
-	descrip = "歴史を記すとある燃料物質の結晶、真珠に見える",
+	descrip = "一颗奇怪的珠子，似乎记载着某一段历史",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -5378,7 +5691,7 @@ _G.pg.base.equip_data_statistics[533] = {
 
 
 _G.pg.base.equip_data_statistics[540] = {
-	name = "猫パンチ",
+	name = "治愈系猫爪",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5387,7 +5700,7 @@ _G.pg.base.equip_data_statistics[540] = {
 	icon = "540",
 	value_1 = "120",
 	rarity = 5,
-	descrip = "明石用の特殊兵装？回復効果がある模様",
+	descrip = "{namecode:89}酱用的猫爪，似乎有着某种治愈效果",
 	nationality = 3,
 	ammo = 10,
 	value_3 = 0,
@@ -5524,8 +5837,148 @@ _G.pg.base.equip_data_statistics[553] = {
 }
 
 
+_G.pg.base.equip_data_statistics[560] = {
+	name = "“宁海号”水上侦察机",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "hit",
+	value_2 = 0,
+	icon = "560",
+	value_1 = "15",
+	rarity = 4,
+	descrip = "宁海一直带着的侦察机，似乎很珍贵？",
+	nationality = 5,
+	ammo = 10,
+	value_3 = 0,
+	id = 560,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			6180,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		2,
+		3,
+		18
+	},
+	part_sub = {
+		2,
+		3,
+		18
+	},
+	equip_parameters = {
+		avoid_extra = 800,
+		ambush_extra = 800
+	},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[561] = {
+	id = 561,
+	value_1 = "17",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[562] = {
+	id = 562,
+	value_1 = "19",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[563] = {
+	id = 563,
+	value_1 = "21",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[564] = {
+	id = 564,
+	value_1 = "23",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[565] = {
+	id = 565,
+	value_1 = "25",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[566] = {
+	id = 566,
+	value_1 = "27",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[567] = {
+	id = 567,
+	value_1 = "29",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[568] = {
+	id = 568,
+	value_1 = "31",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[569] = {
+	id = 569,
+	value_1 = "33",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[570] = {
+	id = 570,
+	value_1 = "35",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[571] = {
+	anti_siren = 100,
+	base = 560,
+	id = 571,
+	value_1 = "37",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[580] = {
-	name = "九一式徹甲弾",
+	name = "九一式穿甲弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5536,7 +5989,7 @@ _G.pg.base.equip_data_statistics[580] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 3,
-	descrip = "远距离炮击战的秘密武器『九一式徹甲弾』。提高了炮弹入水后的性能，能够有效破坏水线以下部分装甲并突入舰体内后爆炸的炮弹",
+	descrip = "远距离炮击战的秘密武器『九一式穿甲弹』。提高了炮弹入水后的性能，能够有效破坏水线以下部分装甲并突入舰体内后爆炸的炮弹",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -5674,7 +6127,7 @@ _G.pg.base.equip_data_statistics[591] = {
 
 
 _G.pg.base.equip_data_statistics[600] = {
-	name = "一式徹甲弾",
+	name = "一式穿甲弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5685,7 +6138,7 @@ _G.pg.base.equip_data_statistics[600] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 3,
-	descrip = "九一式徹甲弾の改良型。九一式徹甲弾と比べて性能がある程度向上している。",
+	descrip = "『九一式穿甲弹』的改进型『一式穿甲弹』。比起九一式在性能上有所提升",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -5842,7 +6295,7 @@ _G.pg.base.equip_data_statistics[613] = {
 
 
 _G.pg.base.equip_data_statistics[620] = {
-	name = "SHS",
+	name = "超重弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -5851,7 +6304,7 @@ _G.pg.base.equip_data_statistics[620] = {
 	icon = "620",
 	value_1 = "28",
 	rarity = 5,
-	descrip = "「超重弾（スーパーヘビーシェル）」。同じ口径の通常弾と比べ火薬重量が数割増した砲弾",
+	descrip = "弹重系数远大于一般弹药的炮弹，称为『超重弹』，有着非同一般的重量",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -6010,7 +6463,7 @@ _G.pg.base.equip_data_statistics[640] = {
 	rarity = 6,
 	nationality = 3,
 	ammo = 10,
-	descrip = "無勢を挫く幸運、揺るがない意志、必勝を信じる正義――旗を高く掲げ、いざ戦場へ！",
+	descrip = "Z代表着好运，必胜和正义，挂上这面旗帜，开始战斗动员吧！",
 	value_3 = 5,
 	attribute_1 = "dodge",
 	torpedo_ammo = 0,
@@ -6168,7 +6621,7 @@ _G.pg.base.equip_data_statistics[653] = {
 
 
 _G.pg.base.equip_data_statistics[660] = {
-	name = "100/150航空燃料",
+	name = "100/150号航空燃油",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -6177,7 +6630,7 @@ _G.pg.base.equip_data_statistics[660] = {
 	icon = "660",
 	value_1 = "28",
 	rarity = 4,
-	descrip = "オクタン価100/150の航空燃料。イソオクタンと比べて耐ノック性が1.5倍になっており、エンジン出力を大幅に引き上げることが可能",
+	descrip = "性能值达到150的航空燃油，拥有纯异辛烷1.5倍的抗暴燃能力，能够大幅提升发动机的功率",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -6305,7 +6758,7 @@ _G.pg.base.equip_data_statistics[671] = {
 
 
 _G.pg.base.equip_data_statistics[680] = {
-	name = "ホーミングビーコン",
+	name = "归航信标",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -6314,7 +6767,7 @@ _G.pg.base.equip_data_statistics[680] = {
 	icon = "680",
 	value_1 = "18",
 	rarity = 4,
-	descrip = "72/DM型ホーミングビーコン。空母のマストに設置され、艦載機が着艦する際、空母との相対位置の確認と調整に役立つ",
+	descrip = "72DM型返航指示信标，安装在航母主桅上方，帮助舰载机确认母舰的实时位置 ",
 	nationality = 2,
 	ammo = 10,
 	value_3 = 0,
@@ -6442,7 +6895,7 @@ _G.pg.base.equip_data_statistics[691] = {
 
 
 _G.pg.base.equip_data_statistics[700] = {
-	name = "九八式発砲遅延装置",
+	name = "九八式射击延迟装置",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -6451,7 +6904,7 @@ _G.pg.base.equip_data_statistics[700] = {
 	icon = "700",
 	value_1 = "12",
 	rarity = 4,
-	descrip = "各砲身の発砲タイミングを極めて短くずらし、発射時と飛行中の砲弾による爆風の影響を減少させ、散布界を狭める役割を果たす",
+	descrip = "九八式射击延迟装置，通过使各炮射击之间形成微小的时间差，从而减少炮弹飞行中的互相干扰，缩小散布界",
 	nationality = 3,
 	ammo = 10,
 	value_3 = 0,
@@ -6581,7 +7034,7 @@ _G.pg.base.equip_data_statistics[711] = {
 
 
 _G.pg.base.equip_data_statistics[720] = {
-	name = "約束の証明",
+	name = "约定的证明",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -6592,7 +7045,7 @@ _G.pg.base.equip_data_statistics[720] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 4,
-	descrip = "真心を込めた誓いの「証明書」――「引っ張ってでも、ビスマルクのアネキを無事に連れて戻すからねっ！」 ",
+	descrip = "写着真诚誓言的“保证书”——「就算用拖的，我也会将{namecode:435}安全带回家的！」",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -6753,7 +7206,7 @@ _G.pg.base.equip_data_statistics[733] = {
 
 
 _G.pg.base.equip_data_statistics[740] = {
-	name = "Fl 282",
+	name = "Fl-282直升机",
 	tech = 0,
 	type = 17,
 	speciality = "<[NA]>",
@@ -6762,7 +7215,7 @@ _G.pg.base.equip_data_statistics[740] = {
 	icon = "740",
 	value_1 = "9",
 	rarity = 4,
-	descrip = "鉄血の小型艦載ヘリコプターFl 282",
+	descrip = "铁血公国轻型舰载直升机Fl-282“蜂鸟”",
 	nationality = 4,
 	ammo = 10,
 	value_3 = 0,
@@ -6880,7 +7333,7 @@ _G.pg.base.equip_data_statistics[751] = {
 
 
 _G.pg.base.equip_data_statistics[760] = {
-	name = "偵察レポート・NY周辺海域",
+	name = "侦察报告·纽约近海",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -6891,7 +7344,7 @@ _G.pg.base.equip_data_statistics[760] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 0,
-	descrip = "ユニオン拠点【NYシティ】周辺海域の偵察レポート。敵のジャミングを受け偵察作戦は途中で中止となったが多くのデータを手に入れた ",
+	descrip = "针对纽约近海塞壬控制区的正式侦查报告书，虽因干扰导致行动提前结束，但依然收集了丰富数据",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -7020,7 +7473,7 @@ _G.pg.base.equip_data_statistics[771] = {
 
 
 _G.pg.base.equip_data_statistics[780] = {
-	name = "情報レポート・北極要塞",
+	name = "机密文件·极地海峡",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7031,7 +7484,7 @@ _G.pg.base.equip_data_statistics[780] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 0,
-	descrip = "極秘情報・北方連合の領域内に位置するセイレーン要塞の分析レポート。",
+	descrip = "通过解析冰雪要塞战役中的获得的情报，整理而成的机密报告书",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -7160,7 +7613,7 @@ _G.pg.base.equip_data_statistics[791] = {
 
 
 _G.pg.base.equip_data_statistics[800] = {
-	name = "強化耐圧殻設計案",
+	name = "艇壳改良设计案",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7173,7 +7626,7 @@ _G.pg.base.equip_data_statistics[800] = {
 	rarity = 4,
 	nationality = 4,
 	ammo = 10,
-	descrip = "再設計された耐圧殻によって船体強度が強化し、速力と最大航続距離が向上した",
+	descrip = "通过对艇壳形状的改良，减小了潜艇水下航行的阻力，提高了战斗中的航速与航程",
 	value_3 = -8,
 	attribute_1 = "torpedo",
 	torpedo_ammo = 0,
@@ -7298,7 +7751,7 @@ _G.pg.base.equip_data_statistics[810] = {
 
 
 _G.pg.base.equip_data_statistics[820] = {
-	name = "フロンティアメダル",
+	name = "开拓者奖章",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7309,7 +7762,7 @@ _G.pg.base.equip_data_statistics[820] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 0,
-	descrip = "航空戦術の先駆者に与えられし勲章。大艦巨砲主義の時代は終わりを告げ、鋼鉄の翼は空母より海へと羽ばたく",
+	descrip = "航空先驱者的勋章，标志着航空母舰时代的到来，大炮巨舰正成为过去",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -7464,7 +7917,7 @@ _G.pg.base.equip_data_statistics[833] = {
 
 
 _G.pg.base.equip_data_statistics[840] = {
-	name = "精鋭ダメコン饅頭(ユニオン)",
+	name = "白鹰精英损管",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7475,7 +7928,7 @@ _G.pg.base.equip_data_statistics[840] = {
 	attribute_2 = "antiaircraft",
 	rarity = 5,
 	nationality = 1,
-	descrip = "洗練されているユニオンのダメージコントロールは、かの大戦でも数々の艦船の損失を未然に防いだ",
+	descrip = "白鹰先进的损害管制系统，有着优秀的应急处置能力，在战争中减少了大量的舰船损失",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -7625,7 +8078,7 @@ _G.pg.base.equip_data_statistics[853] = {
 
 
 _G.pg.base.equip_data_statistics[860] = {
-	name = "海軍条約文書",
+	name = "华盛顿海军条约",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7636,7 +8089,7 @@ _G.pg.base.equip_data_statistics[860] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "「軍備競爭の負担軽減せむことを望み、目的を達成するため各自の海軍軍備を制限する條約を締結する」",
+	descrip = "......我们决心，为达此目的，签订条约限制各自的海军军备",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -7784,7 +8237,7 @@ _G.pg.base.equip_data_statistics[873] = {
 
 
 _G.pg.base.equip_data_statistics[880] = {
-	name = "サイン・オブ・ビクトリー",
+	name = "纳尔逊的旗语",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7795,7 +8248,7 @@ _G.pg.base.equip_data_statistics[880] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 2,
-	descrip = "「ロイヤルは各員がその義務を尽くすことを期待するわ」",
+	descrip = "英格兰期望每个人都恪尽职守",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -7953,7 +8406,7 @@ _G.pg.base.equip_data_statistics[893] = {
 
 
 _G.pg.base.equip_data_statistics[940] = {
-	name = "作戦記録：AF",
+	name = "作战报告：AF",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -7962,7 +8415,7 @@ _G.pg.base.equip_data_statistics[940] = {
 	icon = "940",
 	value_1 = "250",
 	rarity = 4,
-	descrip = "とある戦闘を記録した報告資料。…一部の内容が欠落しているようだ",
+	descrip = "记录有AF作战全过程的正式报告书。注：有数份档案未被列入其中。",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -8093,7 +8546,7 @@ _G.pg.base.equip_data_statistics[960] = {
 	attribute_2 = "cannon",
 	rarity = 5,
 	nationality = 4,
-	descrip = "鉄血が開発した艦艇用レーダー。目標走査と火器制御に用いられる",
+	descrip = "铁血开发的舰载雷达，主要用于搜索和火控。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -8248,7 +8701,7 @@ _G.pg.base.equip_data_statistics[973] = {
 
 
 _G.pg.base.equip_data_statistics[980] = {
-	name = "情報レポート・調査日誌",
+	name = "机密文件·日志残卷",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8259,7 +8712,7 @@ _G.pg.base.equip_data_statistics[980] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 7,
-	descrip = "ほぼ完全に破壊された航海記録から僅かにサルベージできた調査日誌。調査中に捕捉した識別信号のことについて書かれている",
+	descrip = "已经损毁的航海日志中残留下来的备忘录，记载了作业中捕捉到的雷达识别数据。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -8389,7 +8842,7 @@ _G.pg.base.equip_data_statistics[991] = {
 
 
 _G.pg.base.equip_data_statistics[1000] = {
-	name = "艦艇修理施設",
+	name = "舰艇维修设备",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8398,7 +8851,7 @@ _G.pg.base.equip_data_statistics[1000] = {
 	icon = "1000",
 	value_1 = "90",
 	rarity = 3,
-	descrip = "損傷修理用の装置。工作艦のみ装備可能",
+	descrip = "用于维修角色的设备，只有修理舰可以使用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -8480,7 +8933,7 @@ _G.pg.base.equip_data_statistics[1006] = {
 
 
 _G.pg.base.equip_data_statistics[1020] = {
-	name = "艦艇修理施設",
+	name = "舰艇维修设备",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8489,7 +8942,7 @@ _G.pg.base.equip_data_statistics[1020] = {
 	icon = "1000",
 	value_1 = "140",
 	rarity = 4,
-	descrip = "損傷修理用の装置。工作艦のみ装備可能",
+	descrip = "用于维修角色的设备，只有修理舰可以使用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -8603,7 +9056,7 @@ _G.pg.base.equip_data_statistics[1030] = {
 
 
 _G.pg.base.equip_data_statistics[1040] = {
-	name = "艦艇修理施設",
+	name = "舰艇维修设备",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8612,7 +9065,7 @@ _G.pg.base.equip_data_statistics[1040] = {
 	icon = "1000",
 	value_1 = "200",
 	rarity = 5,
-	descrip = "損傷修理用の装置。工作艦のみ装備可能",
+	descrip = "用于维修角色的设备，只有修理舰可以使用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -8753,7 +9206,7 @@ _G.pg.base.equip_data_statistics[1053] = {
 
 
 _G.pg.base.equip_data_statistics[1060] = {
-	name = "6CRH徹甲弾",
+	name = "6CRH穿甲弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8764,7 +9217,7 @@ _G.pg.base.equip_data_statistics[1060] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 2,
-	descrip = "ロイヤルが開発した新型徹甲弾。優れた性能を有する",
+	descrip = "由皇家开发的新式穿甲弹，性能优秀",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -8923,7 +9376,7 @@ _G.pg.base.equip_data_statistics[1073] = {
 
 
 _G.pg.base.equip_data_statistics[1100] = {
-	name = "対空レーダー",
+	name = "对空雷达",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -8932,7 +9385,7 @@ _G.pg.base.equip_data_statistics[1100] = {
 	icon = "1100",
 	value_1 = "10",
 	rarity = 2,
-	descrip = "対空電探（レーダー）。対空を上げることができる",
+	descrip = "对空搜索雷达，可以提高防空能力",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -9020,7 +9473,7 @@ _G.pg.base.equip_data_statistics[1103] = {
 
 
 _G.pg.base.equip_data_statistics[1120] = {
-	name = "対空レーダー",
+	name = "对空雷达",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9029,7 +9482,7 @@ _G.pg.base.equip_data_statistics[1120] = {
 	icon = "1100",
 	value_1 = "18",
 	rarity = 3,
-	descrip = "対空電探（レーダー）。対空を上げることができる",
+	descrip = "对空搜索雷达，可以提高防空能力",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -9138,7 +9591,7 @@ _G.pg.base.equip_data_statistics[1126] = {
 
 
 _G.pg.base.equip_data_statistics[1140] = {
-	name = "対空レーダー",
+	name = "对空雷达",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9147,7 +9600,7 @@ _G.pg.base.equip_data_statistics[1140] = {
 	icon = "1100",
 	value_1 = "28",
 	rarity = 4,
-	descrip = "対空電探（レーダー）。対空を上げることができる",
+	descrip = "对空搜索雷达，可以提高防空能力",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -9292,7 +9745,7 @@ _G.pg.base.equip_data_statistics[1151] = {
 
 
 _G.pg.base.equip_data_statistics[1160] = {
-	name = "高性能対空レーダー",
+	name = "高性能对空雷达",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9301,7 +9754,7 @@ _G.pg.base.equip_data_statistics[1160] = {
 	icon = "1160",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "対空電探（レーダー）。対空を上げることができる",
+	descrip = "293对空搜索雷达，可以提高防空能力",
 	nationality = 2,
 	ammo = 10,
 	value_3 = 0,
@@ -9469,7 +9922,7 @@ _G.pg.base.equip_data_statistics[1173] = {
 
 
 _G.pg.base.equip_data_statistics[1200] = {
-	name = "火器管制レーダー",
+	name = "火控雷达",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9480,7 +9933,7 @@ _G.pg.base.equip_data_statistics[1200] = {
 	attribute_2 = "cannon",
 	rarity = 2,
 	nationality = 1,
-	descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
+	descrip = "火控雷达，提高炮击命中和伤害",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -9548,7 +10001,7 @@ _G.pg.base.equip_data_statistics[1203] = {
 
 
 _G.pg.base.equip_data_statistics[1220] = {
-	name = "火器管制レーダー",
+	name = "火控雷达",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9559,7 +10012,7 @@ _G.pg.base.equip_data_statistics[1220] = {
 	attribute_2 = "cannon",
 	rarity = 3,
 	nationality = 1,
-	descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
+	descrip = "火控雷达，提高炮击命中和伤害",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -9653,7 +10106,7 @@ _G.pg.base.equip_data_statistics[1226] = {
 
 
 _G.pg.base.equip_data_statistics[1240] = {
-	name = "火器管制レーダー",
+	name = "火控雷达",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9664,7 +10117,7 @@ _G.pg.base.equip_data_statistics[1240] = {
 	attribute_2 = "cannon",
 	rarity = 4,
 	nationality = 1,
-	descrip = "射撃管制レーダー。砲撃の命中と威力を上げることができる",
+	descrip = "火控雷达，提高炮击命中和伤害",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -9799,7 +10252,7 @@ _G.pg.base.equip_data_statistics[1251] = {
 
 
 _G.pg.base.equip_data_statistics[1260] = {
-	name = "高性能火器管制レーダー",
+	name = "高性能火控雷达",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9810,7 +10263,7 @@ _G.pg.base.equip_data_statistics[1260] = {
 	attribute_2 = "cannon",
 	rarity = 5,
 	nationality = 1,
-	descrip = "改良された火器管制レーダー。砲撃における精度を大いに向上させられる ",
+	descrip = "先进的火控雷达，有效提高炮击命中和伤害，比普通的火控雷达性能更好",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -9962,7 +10415,7 @@ _G.pg.base.equip_data_statistics[1273] = {
 
 
 _G.pg.base.equip_data_statistics[1300] = {
-	name = "バルジ",
+	name = "防鱼雷隔舱",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -9971,7 +10424,7 @@ _G.pg.base.equip_data_statistics[1300] = {
 	icon = "1300",
 	value_1 = "50",
 	rarity = 2,
-	descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
+	descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -10051,7 +10504,7 @@ _G.pg.base.equip_data_statistics[1303] = {
 
 
 _G.pg.base.equip_data_statistics[1320] = {
-	name = "バルジ",
+	name = "防鱼雷隔舱",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10060,7 +10513,7 @@ _G.pg.base.equip_data_statistics[1320] = {
 	icon = "1300",
 	value_1 = "90",
 	rarity = 3,
-	descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
+	descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -10164,7 +10617,7 @@ _G.pg.base.equip_data_statistics[1326] = {
 
 
 _G.pg.base.equip_data_statistics[1340] = {
-	name = "バルジ",
+	name = "防鱼雷隔舱",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10173,7 +10626,7 @@ _G.pg.base.equip_data_statistics[1340] = {
 	icon = "1300",
 	value_1 = "140",
 	rarity = 4,
-	descrip = "対魚雷バルジ。魚雷によるダメージを軽減する",
+	descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -10318,7 +10771,7 @@ _G.pg.base.equip_data_statistics[1351] = {
 
 
 _G.pg.base.equip_data_statistics[1400] = {
-	name = "油圧カタパルト",
+	name = "液压弹射装置",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10329,7 +10782,7 @@ _G.pg.base.equip_data_statistics[1400] = {
 	attribute_2 = "durability",
 	rarity = 3,
 	nationality = 0,
-	descrip = "発艦用カタパルト。航空を上げることができる",
+	descrip = "用于飞机弹射起飞，可以提高航空能力",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -10415,7 +10868,7 @@ _G.pg.base.equip_data_statistics[1406] = {
 
 
 _G.pg.base.equip_data_statistics[1420] = {
-	name = "油圧カタパルト",
+	name = "液压弹射装置",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10426,7 +10879,7 @@ _G.pg.base.equip_data_statistics[1420] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 0,
-	descrip = "発艦用カタパルト。航空を上げることができる",
+	descrip = "用于飞机弹射起飞，可以提高航空能力",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -10548,7 +11001,7 @@ _G.pg.base.equip_data_statistics[1430] = {
 
 
 _G.pg.base.equip_data_statistics[1440] = {
-	name = "油圧カタパルト",
+	name = "液压弹射装置",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10559,7 +11012,7 @@ _G.pg.base.equip_data_statistics[1440] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 0,
-	descrip = "発艦用カタパルト。航空を上げることができる",
+	descrip = "用于飞机弹射起飞，可以提高航空能力",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -10711,7 +11164,7 @@ _G.pg.base.equip_data_statistics[1453] = {
 
 
 _G.pg.base.equip_data_statistics[1500] = {
-	name = "SGレーダー",
+	name = "SG雷达",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10722,7 +11175,7 @@ _G.pg.base.equip_data_statistics[1500] = {
 	attribute_2 = "dodge",
 	rarity = 3,
 	nationality = 1,
-	descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+	descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -10841,7 +11294,7 @@ _G.pg.base.equip_data_statistics[1506] = {
 
 
 _G.pg.base.equip_data_statistics[1520] = {
-	name = "SGレーダー",
+	name = "SG雷达",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -10852,7 +11305,7 @@ _G.pg.base.equip_data_statistics[1520] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 1,
-	descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+	descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -11002,7 +11455,7 @@ _G.pg.base.equip_data_statistics[1530] = {
 
 
 _G.pg.base.equip_data_statistics[1540] = {
-	name = "SGレーダー",
+	name = "SG雷达",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11013,7 +11466,7 @@ _G.pg.base.equip_data_statistics[1540] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 1,
-	descrip = "ユニオンの先鋭電探。予想外の接敵を防ぐことができる",
+	descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -11190,7 +11643,7 @@ _G.pg.base.equip_data_statistics[1553] = {
 
 
 _G.pg.base.equip_data_statistics[1600] = {
-	name = "電気式揚弾機",
+	name = "电动扬弹机",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11199,7 +11652,7 @@ _G.pg.base.equip_data_statistics[1600] = {
 	icon = "1600",
 	value_1 = "2",
 	rarity = 1,
-	descrip = "電動揚弾装置。装填と火力を上げることができる",
+	descrip = "电动扬弹机，能够提高装填和炮击",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -11285,7 +11738,7 @@ _G.pg.base.equip_data_statistics[1603] = {
 
 
 _G.pg.base.equip_data_statistics[1620] = {
-	name = "電気式揚弾機",
+	name = "电动扬弹机",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11296,7 +11749,7 @@ _G.pg.base.equip_data_statistics[1620] = {
 	attribute_2 = "cannon",
 	rarity = 2,
 	nationality = 0,
-	descrip = "電動揚弾装置。装填と火力を上げることができる",
+	descrip = "电动扬弹机，能够提高装填和炮击",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "reload",
@@ -11378,7 +11831,7 @@ _G.pg.base.equip_data_statistics[1623] = {
 
 
 _G.pg.base.equip_data_statistics[1640] = {
-	name = "電気式揚弾機",
+	name = "电动扬弹机",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11389,7 +11842,7 @@ _G.pg.base.equip_data_statistics[1640] = {
 	attribute_2 = "cannon",
 	rarity = 3,
 	nationality = 0,
-	descrip = "電動揚弾装置。装填と火力を上げることができる",
+	descrip = "电动扬弹机，能够提高装填和炮击",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "reload",
@@ -11506,7 +11959,7 @@ _G.pg.base.equip_data_statistics[1647] = {
 
 
 _G.pg.base.equip_data_statistics[1700] = {
-	name = "油圧舵",
+	name = "液压舵机",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11517,7 +11970,7 @@ _G.pg.base.equip_data_statistics[1700] = {
 	attribute_2 = "durability",
 	rarity = 1,
 	nationality = 0,
-	descrip = "操艦用の舵。回避能力を上げることができる",
+	descrip = "舵坏了可就麻烦啦，能够提高机动值",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -11603,7 +12056,7 @@ _G.pg.base.equip_data_statistics[1703] = {
 
 
 _G.pg.base.equip_data_statistics[1720] = {
-	name = "油圧舵",
+	name = "液压舵机",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11614,7 +12067,7 @@ _G.pg.base.equip_data_statistics[1720] = {
 	attribute_2 = "durability",
 	rarity = 2,
 	nationality = 0,
-	descrip = "操艦用の舵。回避能力を上げることができる",
+	descrip = "舵坏了可就麻烦啦，能够提高机动值",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -11700,7 +12153,7 @@ _G.pg.base.equip_data_statistics[1723] = {
 
 
 _G.pg.base.equip_data_statistics[1740] = {
-	name = "油圧舵",
+	name = "液压舵机",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11711,7 +12164,7 @@ _G.pg.base.equip_data_statistics[1740] = {
 	attribute_2 = "durability",
 	rarity = 3,
 	nationality = 0,
-	descrip = "操艦用の舵。回避能力を上げることができる",
+	descrip = "舵坏了可就麻烦啦，能够提高机动值",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -11834,7 +12287,7 @@ _G.pg.base.equip_data_statistics[1747] = {
 
 
 _G.pg.base.equip_data_statistics[1760] = {
-	name = "強化油圧舵",
+	name = "高性能舵机",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -11845,7 +12298,7 @@ _G.pg.base.equip_data_statistics[1760] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 1,
-	descrip = "操艦用の舵。回避能力を上げることができる",
+	descrip = "高性能的舵机，能够提高机动值",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -12031,7 +12484,7 @@ _G.pg.base.equip_data_statistics[1773] = {
 
 
 _G.pg.base.equip_data_statistics[1800] = {
-	name = "改良型缶",
+	name = "改良锅炉",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12042,7 +12495,7 @@ _G.pg.base.equip_data_statistics[1800] = {
 	attribute_2 = "speed",
 	rarity = 2,
 	nationality = 0,
-	descrip = "改良されたボイラー。速力と耐久を上げることができる",
+	descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -12126,7 +12579,7 @@ _G.pg.base.equip_data_statistics[1803] = {
 
 
 _G.pg.base.equip_data_statistics[1820] = {
-	name = "改良型缶",
+	name = "改良锅炉",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12137,7 +12590,7 @@ _G.pg.base.equip_data_statistics[1820] = {
 	attribute_2 = "speed",
 	rarity = 3,
 	nationality = 0,
-	descrip = "改良されたボイラー。速力と耐久を上げることができる",
+	descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -12249,7 +12702,7 @@ _G.pg.base.equip_data_statistics[1826] = {
 
 
 _G.pg.base.equip_data_statistics[1840] = {
-	name = "改良型缶",
+	name = "改良锅炉",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12260,7 +12713,7 @@ _G.pg.base.equip_data_statistics[1840] = {
 	attribute_2 = "speed",
 	rarity = 4,
 	nationality = 0,
-	descrip = "改良されたボイラー。速力と耐久を上げることができる",
+	descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -12419,7 +12872,7 @@ _G.pg.base.equip_data_statistics[1851] = {
 
 
 _G.pg.base.equip_data_statistics[1900] = {
-	name = "迷彩塗装",
+	name = "海军迷彩",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12430,7 +12883,7 @@ _G.pg.base.equip_data_statistics[1900] = {
 	attribute_2 = "durability",
 	rarity = 1,
 	nationality = 0,
-	descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
+	descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -12480,7 +12933,7 @@ _G.pg.base.equip_data_statistics[1903] = {
 
 
 _G.pg.base.equip_data_statistics[1920] = {
-	name = "迷彩塗装",
+	name = "海军迷彩",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12491,7 +12944,7 @@ _G.pg.base.equip_data_statistics[1920] = {
 	attribute_2 = "durability",
 	rarity = 2,
 	nationality = 0,
-	descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
+	descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -12541,7 +12994,7 @@ _G.pg.base.equip_data_statistics[1923] = {
 
 
 _G.pg.base.equip_data_statistics[1940] = {
-	name = "迷彩塗装",
+	name = "海军迷彩",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12552,7 +13005,7 @@ _G.pg.base.equip_data_statistics[1940] = {
 	attribute_2 = "durability",
 	rarity = 3,
 	nationality = 0,
-	descrip = "迷彩塗装。高い割に特に視認性を低下させたりはしない模様",
+	descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -12639,7 +13092,7 @@ _G.pg.base.equip_data_statistics[1947] = {
 
 
 _G.pg.base.equip_data_statistics[1960] = {
-	name = "マリニエール魂（迷彩）",
+	name = "海魂迷彩",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12650,7 +13103,7 @@ _G.pg.base.equip_data_statistics[1960] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 7,
-	descrip = "ちょっとだけ戦闘力（？）を上げる迷彩塗装",
+	descrip = "似乎是能提高战斗力的涂装",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -12775,7 +13228,7 @@ _G.pg.base.equip_data_statistics[1971] = {
 
 
 _G.pg.base.equip_data_statistics[2000] = {
-	name = "燃料フィルター",
+	name = "燃油滤清器",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12786,7 +13239,7 @@ _G.pg.base.equip_data_statistics[2000] = {
 	attribute_2 = "dodge",
 	rarity = 2,
 	nationality = 0,
-	descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+	descrip = "可以提高燃油质量哦",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -12870,7 +13323,7 @@ _G.pg.base.equip_data_statistics[2003] = {
 
 
 _G.pg.base.equip_data_statistics[2020] = {
-	name = "燃料フィルター",
+	name = "燃油滤清器",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -12881,7 +13334,7 @@ _G.pg.base.equip_data_statistics[2020] = {
 	attribute_2 = "dodge",
 	rarity = 3,
 	nationality = 0,
-	descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+	descrip = "可以提高燃油质量哦",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -12992,7 +13445,7 @@ _G.pg.base.equip_data_statistics[2026] = {
 
 
 _G.pg.base.equip_data_statistics[2040] = {
-	name = "燃料フィルター",
+	name = "燃油滤清器",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13003,7 +13456,7 @@ _G.pg.base.equip_data_statistics[2040] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 0,
-	descrip = "燃料濾過用に使う装置。艦の性能を底上げすることができる",
+	descrip = "可以提高燃油质量哦",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -13160,7 +13613,7 @@ _G.pg.base.equip_data_statistics[2051] = {
 
 
 _G.pg.base.equip_data_statistics[2100] = {
-	name = "空母燃料タンク",
+	name = "航空副油箱",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13171,7 +13624,7 @@ _G.pg.base.equip_data_statistics[2100] = {
 	attribute_2 = "durability",
 	rarity = 2,
 	nationality = 0,
-	descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+	descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -13235,7 +13688,7 @@ _G.pg.base.equip_data_statistics[2103] = {
 
 
 _G.pg.base.equip_data_statistics[2120] = {
-	name = "空母燃料タンク",
+	name = "航空副油箱",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13246,7 +13699,7 @@ _G.pg.base.equip_data_statistics[2120] = {
 	attribute_2 = "durability",
 	rarity = 3,
 	nationality = 0,
-	descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+	descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -13337,7 +13790,7 @@ _G.pg.base.equip_data_statistics[2126] = {
 
 
 _G.pg.base.equip_data_statistics[2140] = {
-	name = "空母燃料タンク",
+	name = "航空副油箱",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13348,7 +13801,7 @@ _G.pg.base.equip_data_statistics[2140] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 0,
-	descrip = "艦載機用の燃料タンク。燃料の余裕は耐弾対策に",
+	descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -13485,7 +13938,7 @@ _G.pg.base.equip_data_statistics[2151] = {
 
 
 _G.pg.base.equip_data_statistics[2200] = {
-	name = "自動装填機構",
+	name = "链式装弹机",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13496,7 +13949,7 @@ _G.pg.base.equip_data_statistics[2200] = {
 	attribute_2 = "cannon",
 	rarity = 2,
 	nationality = 0,
-	descrip = "改良された給弾装置。人力よりずっとマシ",
+	descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "reload",
@@ -13576,7 +14029,7 @@ _G.pg.base.equip_data_statistics[2203] = {
 
 
 _G.pg.base.equip_data_statistics[2220] = {
-	name = "自動装填機構",
+	name = "链式装弹机",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13587,7 +14040,7 @@ _G.pg.base.equip_data_statistics[2220] = {
 	attribute_2 = "cannon",
 	rarity = 3,
 	nationality = 0,
-	descrip = "改良された給弾装置。人力よりずっとマシ",
+	descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "reload",
@@ -13695,7 +14148,7 @@ _G.pg.base.equip_data_statistics[2226] = {
 
 
 _G.pg.base.equip_data_statistics[2240] = {
-	name = "自動装填機構",
+	name = "链式装弹机",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13706,7 +14159,7 @@ _G.pg.base.equip_data_statistics[2240] = {
 	attribute_2 = "cannon",
 	rarity = 4,
 	nationality = 0,
-	descrip = "改良された給弾装置。人力よりずっとマシ",
+	descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "reload",
@@ -13860,7 +14313,7 @@ _G.pg.base.equip_data_statistics[2251] = {
 
 
 _G.pg.base.equip_data_statistics[2300] = {
-	name = "ジャイロスコープ",
+	name = "陀螺仪",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13871,7 +14324,7 @@ _G.pg.base.equip_data_statistics[2300] = {
 	attribute_2 = "speed",
 	rarity = 2,
 	nationality = 0,
-	descrip = "艦の安定性を向上させ、命中と速力を高める",
+	descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -13950,7 +14403,7 @@ _G.pg.base.equip_data_statistics[2303] = {
 
 
 _G.pg.base.equip_data_statistics[2320] = {
-	name = "ジャイロスコープ",
+	name = "陀螺仪",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -13961,7 +14414,7 @@ _G.pg.base.equip_data_statistics[2320] = {
 	attribute_2 = "speed",
 	rarity = 3,
 	nationality = 0,
-	descrip = "艦の安定性を向上させ、命中と速力を高める",
+	descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -14069,7 +14522,7 @@ _G.pg.base.equip_data_statistics[2326] = {
 
 
 _G.pg.base.equip_data_statistics[2340] = {
-	name = "ジャイロスコープ",
+	name = "陀螺仪",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14080,7 +14533,7 @@ _G.pg.base.equip_data_statistics[2340] = {
 	attribute_2 = "speed",
 	rarity = 4,
 	nationality = 0,
-	descrip = "艦の安定性を向上させ、命中と速力を高める",
+	descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -14235,7 +14688,7 @@ _G.pg.base.equip_data_statistics[2351] = {
 
 
 _G.pg.base.equip_data_statistics[2400] = {
-	name = "応急修理装置",
+	name = "维修工具",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14244,7 +14697,7 @@ _G.pg.base.equip_data_statistics[2400] = {
 	icon = "2400",
 	value_1 = "90",
 	rarity = 2,
-	descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
+	descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14298,7 +14751,7 @@ _G.pg.base.equip_data_statistics[2403] = {
 
 
 _G.pg.base.equip_data_statistics[2420] = {
-	name = "応急修理装置",
+	name = "维修工具",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14307,7 +14760,7 @@ _G.pg.base.equip_data_statistics[2420] = {
 	icon = "2400",
 	value_1 = "140",
 	rarity = 3,
-	descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
+	descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14385,7 +14838,7 @@ _G.pg.base.equip_data_statistics[2426] = {
 
 
 _G.pg.base.equip_data_statistics[2440] = {
-	name = "応急修理装置",
+	name = "维修工具",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14394,7 +14847,7 @@ _G.pg.base.equip_data_statistics[2440] = {
 	icon = "2400",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "応急修理チーム導入セット。ただし自分の耐久しか回復できない",
+	descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14513,7 +14966,7 @@ _G.pg.base.equip_data_statistics[2451] = {
 
 
 _G.pg.base.equip_data_statistics[2500] = {
-	name = "消火装置",
+	name = "灭火器",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14522,7 +14975,7 @@ _G.pg.base.equip_data_statistics[2500] = {
 	icon = "2500",
 	value_1 = "50",
 	rarity = 1,
-	descrip = "ダメージコントロールに欠かせない",
+	descrip = "防止火灾啦",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14576,7 +15029,7 @@ _G.pg.base.equip_data_statistics[2503] = {
 
 
 _G.pg.base.equip_data_statistics[2520] = {
-	name = "消火装置",
+	name = "灭火器",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14585,7 +15038,7 @@ _G.pg.base.equip_data_statistics[2520] = {
 	icon = "2500",
 	value_1 = "90",
 	rarity = 2,
-	descrip = "ダメージコントロールに欠かせない",
+	descrip = "防止火灾啦",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14639,7 +15092,7 @@ _G.pg.base.equip_data_statistics[2523] = {
 
 
 _G.pg.base.equip_data_statistics[2540] = {
-	name = "消火装置",
+	name = "灭火器",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14648,7 +15101,7 @@ _G.pg.base.equip_data_statistics[2540] = {
 	icon = "2500",
 	value_1 = "140",
 	rarity = 3,
-	descrip = "ダメージコントロールに欠かせない",
+	descrip = "防止火灾啦",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -14734,7 +15187,7 @@ _G.pg.base.equip_data_statistics[2547] = {
 
 
 _G.pg.base.equip_data_statistics[2600] = {
-	name = "九三式酸素魚雷",
+	name = "九三式纯氧鱼雷",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14745,7 +15198,7 @@ _G.pg.base.equip_data_statistics[2600] = {
 	attribute_2 = "reload",
 	rarity = 4,
 	nationality = 3,
-	descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+	descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -14880,7 +15333,7 @@ _G.pg.base.equip_data_statistics[2610] = {
 
 
 _G.pg.base.equip_data_statistics[2620] = {
-	name = "九三式酸素魚雷",
+	name = "九三式纯氧鱼雷",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -14891,7 +15344,7 @@ _G.pg.base.equip_data_statistics[2620] = {
 	attribute_2 = "reload",
 	rarity = 5,
 	nationality = 3,
-	descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+	descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -15031,7 +15484,7 @@ _G.pg.base.equip_data_statistics[2630] = {
 
 
 _G.pg.base.equip_data_statistics[2640] = {
-	name = "九三式酸素魚雷",
+	name = "九三式纯氧鱼雷",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15042,7 +15495,7 @@ _G.pg.base.equip_data_statistics[2640] = {
 	attribute_2 = "reload",
 	rarity = 6,
 	nationality = 3,
-	descrip = "かの大戦で唯一実用された酸素魚雷。雷撃を大幅に強化することができる",
+	descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -15215,8 +15668,255 @@ _G.pg.base.equip_data_statistics[2653] = {
 }
 
 
+_G.pg.base.equip_data_statistics[2700] = {
+	name = "533mm磁性鱼雷（水面舰艇用）",
+	tech = 1,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 2700,
+	value_2 = 2,
+	icon = "2700",
+	value_1 = "12",
+	attribute_2 = "hit",
+	rarity = 3,
+	nationality = 4,
+	descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "torpedo",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		11,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		11,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[2701] = {
+	id = 2701,
+	base = 2700,
+	value_2 = 3,
+	value_1 = "14",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2702] = {
+	id = 2702,
+	base = 2700,
+	value_2 = 3,
+	value_1 = "16",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2703] = {
+	id = 2703,
+	base = 2700,
+	value_2 = 3,
+	value_1 = "18",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2704] = {
+	id = 2704,
+	base = 2700,
+	value_2 = 4,
+	value_1 = "20",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2705] = {
+	id = 2705,
+	base = 2700,
+	value_2 = 4,
+	value_1 = "22",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2706] = {
+	id = 2706,
+	base = 2700,
+	value_2 = 5,
+	value_1 = "23",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2720] = {
+	name = "533mm磁性鱼雷（水面舰艇用）",
+	tech = 2,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 2720,
+	value_2 = 4,
+	icon = "2700",
+	value_1 = "19",
+	attribute_2 = "hit",
+	rarity = 4,
+	nationality = 4,
+	descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "torpedo",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		11,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		11,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[2721] = {
+	id = 2721,
+	value_1 = "22",
+	base = 2720,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2722] = {
+	id = 2722,
+	base = 2720,
+	value_2 = 5,
+	value_1 = "25",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2723] = {
+	id = 2723,
+	base = 2720,
+	value_2 = 6,
+	value_1 = "28",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2724] = {
+	id = 2724,
+	base = 2720,
+	value_2 = 6,
+	value_1 = "31",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2725] = {
+	id = 2725,
+	base = 2720,
+	value_2 = 7,
+	value_1 = "34",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2726] = {
+	id = 2726,
+	base = 2720,
+	value_2 = 7,
+	value_1 = "37",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2727] = {
+	id = 2727,
+	base = 2720,
+	value_2 = 8,
+	value_1 = "40",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2728] = {
+	id = 2728,
+	base = 2720,
+	value_2 = 9,
+	value_1 = "43",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2729] = {
+	id = 2729,
+	base = 2720,
+	value_2 = 9,
+	value_1 = "46",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[2730] = {
+	id = 2730,
+	base = 2720,
+	value_2 = 10,
+	value_1 = "49",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[2740] = {
-	name = "533mm磁気魚雷（水上艦用）",
+	name = "533mm磁性鱼雷（水面舰艇用）",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15227,7 +15927,7 @@ _G.pg.base.equip_data_statistics[2740] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 4,
-	descrip = "水上艦用の533mm磁気魚雷。磁気信管と音響追跡技術を応用している",
+	descrip = "仅限水面舰艇使用的533mm磁性鱼雷，使用了磁性引信和声导技术",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -15403,7 +16103,7 @@ _G.pg.base.equip_data_statistics[2800] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 3,
-	descrip = "高角砲の対空射撃を支援する射撃管制装置。測距儀等の計器との連携で対空火器の命中率向上を図る。 ",
+	descrip = "高角炮对空射击用的高射装置，安装了测距仪，用以支持高射炮进行有效的对空射击。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -15564,7 +16264,7 @@ _G.pg.base.equip_data_statistics[2811] = {
 
 
 _G.pg.base.equip_data_statistics[2900] = {
-	name = "従来型ソナー",
+	name = "基础声呐",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15575,7 +16275,7 @@ _G.pg.base.equip_data_statistics[2900] = {
 	attribute_2 = "hit",
 	rarity = 2,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -15638,7 +16338,7 @@ _G.pg.base.equip_data_statistics[2903] = {
 
 
 _G.pg.base.equip_data_statistics[2920] = {
-	name = "従来型ソナー",
+	name = "基础声呐",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15649,7 +16349,7 @@ _G.pg.base.equip_data_statistics[2920] = {
 	attribute_2 = "hit",
 	rarity = 3,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -15739,7 +16439,7 @@ _G.pg.base.equip_data_statistics[2926] = {
 
 
 _G.pg.base.equip_data_statistics[2940] = {
-	name = "従来型ソナー",
+	name = "基础声呐",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15750,7 +16450,7 @@ _G.pg.base.equip_data_statistics[2940] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -15890,7 +16590,7 @@ _G.pg.base.equip_data_statistics[2951] = {
 
 
 _G.pg.base.equip_data_statistics[3000] = {
-	name = "改良型ソナー",
+	name = "改良声呐",
 	tech = 1,
 	type = 10,
 	speciality = "<[NA]>",
@@ -15901,7 +16601,7 @@ _G.pg.base.equip_data_statistics[3000] = {
 	attribute_2 = "hit",
 	rarity = 3,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -15991,7 +16691,7 @@ _G.pg.base.equip_data_statistics[3006] = {
 
 
 _G.pg.base.equip_data_statistics[3020] = {
-	name = "改良型ソナー",
+	name = "改良声呐",
 	tech = 2,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16002,7 +16702,7 @@ _G.pg.base.equip_data_statistics[3020] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -16127,7 +16827,7 @@ _G.pg.base.equip_data_statistics[3030] = {
 
 
 _G.pg.base.equip_data_statistics[3040] = {
-	name = "改良型ソナー",
+	name = "改良声呐",
 	tech = 3,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16138,7 +16838,7 @@ _G.pg.base.equip_data_statistics[3040] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -16298,7 +16998,7 @@ _G.pg.base.equip_data_statistics[3053] = {
 
 
 _G.pg.base.equip_data_statistics[3100] = {
-	name = "圧縮酸素ボンベ",
+	name = "高压氧气瓶",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16307,7 +17007,7 @@ _G.pg.base.equip_data_statistics[3100] = {
 	icon = "3100",
 	value_1 = "18",
 	rarity = 4,
-	descrip = "圧縮酸素を保存するボンベ。潜航力を上昇させることが可能 ",
+	descrip = "充装气压约15兆帕的压缩空气,可提供长时间呼吸",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -16429,7 +17129,7 @@ _G.pg.base.equip_data_statistics[3111] = {
 
 
 _G.pg.base.equip_data_statistics[3120] = {
-	name = "改良型シュノーケル",
+	name = "改良型水下进气管",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16438,7 +17138,7 @@ _G.pg.base.equip_data_statistics[3120] = {
 	icon = "3120",
 	value_1 = "34",
 	rarity = 5,
-	descrip = "潜望鏡深度でも空気交換を可能とする装置 ",
+	descrip = "通气管使潜艇能在潜望镜深度进行空气交换",
 	nationality = 4,
 	ammo = 10,
 	value_3 = 0,
@@ -16583,7 +17283,7 @@ _G.pg.base.equip_data_statistics[3133] = {
 
 
 _G.pg.base.equip_data_statistics[3140] = {
-	name = "改良型蓄電池群",
+	name = "改良蓄电池阵列",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16592,7 +17292,7 @@ _G.pg.base.equip_data_statistics[3140] = {
 	icon = "3140",
 	value_1 = "2",
 	rarity = 5,
-	descrip = "改良された蓄電池群。潜水艦の性能向上に貢献する ",
+	descrip = "优化后的电池自能提供更长的潜航距离",
 	nationality = 4,
 	ammo = 10,
 	value_3 = 0,
@@ -16774,7 +17474,7 @@ _G.pg.base.equip_data_statistics[3153] = {
 
 
 _G.pg.base.equip_data_statistics[3200] = {
-	name = "VH装甲鋼板",
+	name = "VH装甲钢板",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16783,7 +17483,7 @@ _G.pg.base.equip_data_statistics[3200] = {
 	icon = "3200",
 	value_1 = "350",
 	rarity = 5,
-	descrip = "生産性・弾丸破砕効果の強化が図られた新型鋼板。浸炭処理を省略し、焼き入れにおける新技術で装甲の表面硬化で耐弾抗力を向上させた",
+	descrip = "『VC装甲钢板』的改进型，用新工艺取代了表面渗碳的过程，提高了装甲板硬度",
 	nationality = 3,
 	ammo = 10,
 	value_3 = 0,
@@ -16933,7 +17633,7 @@ _G.pg.base.equip_data_statistics[3213] = {
 
 
 _G.pg.base.equip_data_statistics[3220] = {
-	name = "VC装甲鋼板",
+	name = "VC装甲钢板",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -16942,7 +17642,7 @@ _G.pg.base.equip_data_statistics[3220] = {
 	icon = "3220",
 	value_1 = "220",
 	rarity = 4,
-	descrip = "ロイヤルの技術を導入した装甲鋼板。戦艦の主要防御帯によく使われていた",
+	descrip = "重樱帝国引进皇家表面渗碳硬化技术制作的装甲钢板，对穿甲弹的防护性能较好",
 	nationality = 3,
 	ammo = 10,
 	value_3 = 0,
@@ -17074,7 +17774,7 @@ _G.pg.base.equip_data_statistics[3231] = {
 
 
 _G.pg.base.equip_data_statistics[3300] = {
-	name = "四神の印",
+	name = "四神之印",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -17083,7 +17783,7 @@ _G.pg.base.equip_data_statistics[3300] = {
 	icon = "3300",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "東煌の四神獣が刻印された玉器(ぎょくき)。東煌の神秘なる力が秘められている",
+	descrip = "雕刻着东煌古国四神兽的玉器，似乎蕴含着来自东方的神秘力量",
 	nationality = 5,
 	ammo = 10,
 	value_3 = 0,
@@ -17229,7 +17929,7 @@ _G.pg.base.equip_data_statistics[3313] = {
 
 
 _G.pg.base.equip_data_statistics[3400] = {
-	name = "九四式四十糎砲(積載)",
+	name = "“九四式40厘米炮”部件",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -17238,7 +17938,7 @@ _G.pg.base.equip_data_statistics[3400] = {
 	icon = "3400",
 	value_1 = "450",
 	rarity = 5,
-	descrip = "「九四式四十糎砲」と呼ばれていた主砲兵装…？",
+	descrip = "重樱研发的“九四式40厘米炮”之部件",
 	nationality = 3,
 	ammo = 10,
 	value_3 = 0,
@@ -17380,7 +18080,7 @@ _G.pg.base.equip_data_statistics[3413] = {
 
 
 _G.pg.base.equip_data_statistics[3500] = {
-	name = "航空戦資材(積載)",
+	name = "兵装补给（航空）",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -17389,7 +18089,7 @@ _G.pg.base.equip_data_statistics[3500] = {
 	icon = "3500",
 	value_1 = "250",
 	rarity = 4,
-	descrip = "航空戦用の各種資材",
+	descrip = "运输舰装载的航空兵装补给",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -17512,7 +18212,7 @@ _G.pg.base.equip_data_statistics[3511] = {
 
 
 _G.pg.base.equip_data_statistics[3520] = {
-	name = "小口径主砲砲戦資材(積載)",
+	name = "兵装补给（中小口径武器）",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -17521,7 +18221,7 @@ _G.pg.base.equip_data_statistics[3520] = {
 	icon = "3520",
 	value_1 = "250",
 	rarity = 4,
-	descrip = "運送艦に搭載できる火砲兵装補給",
+	descrip = "运输舰装载的火炮兵装补给",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -17644,7 +18344,7 @@ _G.pg.base.equip_data_statistics[3531] = {
 
 
 _G.pg.base.equip_data_statistics[3540] = {
-	name = "雷撃戦資材(積載)",
+	name = "兵装补给（鱼雷）",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -17653,7 +18353,7 @@ _G.pg.base.equip_data_statistics[3540] = {
 	icon = "3540",
 	value_1 = "250",
 	rarity = 4,
-	descrip = "運送艦に搭載できる魚雷兵装補給",
+	descrip = "运输舰装载的鱼雷兵装补给",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -17776,7 +18476,7 @@ _G.pg.base.equip_data_statistics[3551] = {
 
 
 _G.pg.base.equip_data_statistics[3560] = {
-	name = "破損した演説原稿",
+	name = "破损的演讲稿",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -17787,7 +18487,7 @@ _G.pg.base.equip_data_statistics[3560] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 2,
-	descrip = "破れた演説原稿。多くつけられた注記の跡から演説者の性格と努力が窺える。",
+	descrip = "一份破损的演讲稿，可以从密集的批注上看到精心准备的痕迹",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -17917,7 +18617,7 @@ _G.pg.base.equip_data_statistics[3571] = {
 
 
 _G.pg.base.equip_data_statistics[3580] = {
-	name = "アドミラルティ射撃統制システム",
+	name = "海军部火控台",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -17928,7 +18628,7 @@ _G.pg.base.equip_data_statistics[3580] = {
 	attribute_2 = "cannon",
 	rarity = 6,
 	nationality = 2,
-	descrip = "射撃諸元の算出に使われるロイヤルの射撃統制システム",
+	descrip = "用于生成射击参数的皇家海军火控设备",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -18080,7 +18780,7 @@ _G.pg.base.equip_data_statistics[3593] = {
 
 
 _G.pg.base.equip_data_statistics[3600] = {
-	name = "世界博覧会の招待状",
+	name = "撒丁的邀请函",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -18091,7 +18791,7 @@ _G.pg.base.equip_data_statistics[3600] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 6,
-	descrip = "サディア帝国から送られた豪華な招待状。世界博覧会の各VIPエリアに入場可能。",
+	descrip = "由撒丁帝国制作的精美邀请函，可于博览会期间自由出入各场馆贵宾区",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -18221,7 +18921,7 @@ _G.pg.base.equip_data_statistics[3611] = {
 
 
 _G.pg.base.equip_data_statistics[3620] = {
-	name = "結界通行手形",
+	name = "结界通行凭证",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -18232,7 +18932,7 @@ _G.pg.base.equip_data_statistics[3620] = {
 	attribute_2 = "durability",
 	rarity = 4,
 	nationality = 3,
-	descrip = "演習場の特殊結界に立ち入るための通行手形。奇妙な触り心地がすることから、特殊な素材で作られているように思われる。",
+	descrip = "随信件一同寄来的结界出入凭证，拿在手中有种奇妙触感，似乎是由某种特殊材质制成的。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -18362,7 +19062,7 @@ _G.pg.base.equip_data_statistics[3631] = {
 
 
 _G.pg.base.equip_data_statistics[3640] = {
-	name = "アルビオンの演習作戦報告書",
+	name = "阿尔比恩的报告书",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -18373,7 +19073,7 @@ _G.pg.base.equip_data_statistics[3640] = {
 	attribute_2 = "air",
 	rarity = 4,
 	nationality = 2,
-	descrip = "アルビオンの演習作戦報告書。通常の報告書よりもずっと分厚いそれには、彼女の考察と振り返りの内容が綴られている。",
+	descrip = "阿尔比恩的演习报告书。从远超常规报告书的厚度上而言，应该写了相当多的总结与反思在里面。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -18503,7 +19203,7 @@ _G.pg.base.equip_data_statistics[3651] = {
 
 
 _G.pg.base.equip_data_statistics[3660] = {
-	name = "クラウン・オブ・J",
+	name = "小王冠",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -18514,7 +19214,7 @@ _G.pg.base.equip_data_statistics[3660] = {
 	attribute_2 = "luck",
 	rarity = 5,
 	nationality = 2,
-	descrip = "Jクラス駆逐艦たちが持っている小さなクラウン。小さくて威厳のある王冠は少女たちが大事にする栄誉と希望を象徴する",
+	descrip = "常在J级驱逐舰头顶看到的小王冠。小巧而不失庄重的金冠，象征着少女们所珍视的荣誉与希望。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -18662,7 +19362,7 @@ _G.pg.base.equip_data_statistics[3673] = {
 
 
 _G.pg.base.equip_data_statistics[3680] = {
-	name = "12ポンドロングキャノン",
+	name = "12磅长管炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
@@ -18793,7 +19493,7 @@ _G.pg.base.equip_data_statistics[3686] = {
 
 
 _G.pg.base.equip_data_statistics[3700] = {
-	name = "12ポンドロングキャノン",
+	name = "12磅长管炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
@@ -18968,14 +19668,14 @@ _G.pg.base.equip_data_statistics[3710] = {
 
 
 _G.pg.base.equip_data_statistics[3720] = {
-	name = "12ポンドロングキャノン",
+	name = "12磅长管炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 35,
 	icon = "3680",
 	attribute_2 = "cannon",
-	descrip = "中型の火砲。多種多様の弾丸を発射でき、敵に大いに恐れられている",
+	descrip = "中型火炮，可发射多种类型弹丸，令敌人闻风丧胆。",
 	rarity = 5,
 	damage = "6 x 3",
 	nationality = 96,
@@ -19179,7 +19879,7 @@ _G.pg.base.equip_data_statistics[3733] = {
 
 
 _G.pg.base.equip_data_statistics[3740] = {
-	name = "球型砲丸",
+	name = "球形实心弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -19190,7 +19890,7 @@ _G.pg.base.equip_data_statistics[3740] = {
 	attribute_2 = "reload",
 	rarity = 4,
 	nationality = 96,
-	descrip = "力と勇気を込めて敵をぶっ潰せ！",
+	descrip = "用它们承载力量和勇气，轰碎敌人吧！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -19328,7 +20028,7 @@ _G.pg.base.equip_data_statistics[3751] = {
 
 
 _G.pg.base.equip_data_statistics[3760] = {
-	name = "帆綱パーツ",
+	name = "帆索组件",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -19339,7 +20039,7 @@ _G.pg.base.equip_data_statistics[3760] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 96,
-	descrip = "帆をあげよう！海を我が物にするぞ！",
+	descrip = "扬帆起航，让我们征服大海！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -19472,7 +20172,7 @@ _G.pg.base.equip_data_statistics[3771] = {
 
 
 _G.pg.base.equip_data_statistics[3780] = {
-	name = "夢雪の幻界",
+	name = "雪顶之梦",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -19483,7 +20183,7 @@ _G.pg.base.equip_data_statistics[3780] = {
 	attribute_2 = "luck",
 	rarity = 4,
 	nationality = 1,
-	descrip = "精巧に作られているスノードーム。軽く振れば飛び舞う雪の花が少女の見た景色を繊細に再現してくれる。",
+	descrip = "晶莹剔透的水晶球中山峰重叠，只需轻轻摇动便会漫天飞雪。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -19606,7 +20306,7 @@ _G.pg.base.equip_data_statistics[3791] = {
 
 
 _G.pg.base.equip_data_statistics[3800] = {
-	name = "梅の語り",
+	name = "梅之语",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -19615,7 +20315,7 @@ _G.pg.base.equip_data_statistics[3800] = {
 	icon = "3800",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "遥かなりて是雪ならずと知るは、暗に香の来るが為に",
+	descrip = "遥知不是雪，为有暗香来",
 	nationality = 5,
 	ammo = 10,
 	value_3 = 0,
@@ -19753,7 +20453,7 @@ _G.pg.base.equip_data_statistics[3813] = {
 
 
 _G.pg.base.equip_data_statistics[3820] = {
-	name = "戊型水上機",
+	name = "戊型水上机",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -19764,7 +20464,7 @@ _G.pg.base.equip_data_statistics[3820] = {
 	attribute_2 = "air",
 	rarity = 4,
 	nationality = 5,
-	descrip = "定安が搭載する戊型水上機",
+	descrip = "定安号装载的戊型水上机",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -19898,7 +20598,7 @@ _G.pg.base.equip_data_statistics[3831] = {
 
 
 _G.pg.base.equip_data_statistics[3840] = {
-	name = "謎のポスター？",
+	name = "“妖精魔法”海报",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -19909,7 +20609,7 @@ _G.pg.base.equip_data_statistics[3840] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 7,
-	descrip = "休憩ルームに貼られたポスター。母港の一大イベントか？それとも仲間への……",
+	descrip = "适合张贴在休息室的有趣海报——“想要得到妖精的秘宝，就请勇往直前吧~”",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -20058,7 +20758,7 @@ _G.pg.base.equip_data_statistics[3853] = {
 
 
 _G.pg.base.equip_data_statistics[3860] = {
-	name = "女王陛下の仕事帳（極秘）",
+	name = "女王的日程表（绝密）",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20069,7 +20769,7 @@ _G.pg.base.equip_data_statistics[3860] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 2,
-	descrip = "女王陛下の予定が委細に記録されている極秘資料。ごく限られたスタッフのみ閲覧可能という",
+	descrip = "详细记录了女王的日程安排的绝密文件，似乎只有特定的人员才有资格查阅。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -20199,7 +20899,7 @@ _G.pg.base.equip_data_statistics[3871] = {
 
 
 _G.pg.base.equip_data_statistics[3880] = {
-	name = "作戦レポート・極海の嵐",
+	name = "作战报告·极地风暴",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20210,7 +20910,7 @@ _G.pg.base.equip_data_statistics[3880] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 7,
-	descrip = "北方連合が行った極海での作戦を取りまとめた報告レポート",
+	descrip = "记录着「极地风暴」行动的报告书。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -20340,7 +21040,7 @@ _G.pg.base.equip_data_statistics[3891] = {
 
 
 _G.pg.base.equip_data_statistics[3900] = {
-	name = "ワタツミ研究メモ",
+	name = "「神石样本」研究笔记",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20351,7 +21051,7 @@ _G.pg.base.equip_data_statistics[3900] = {
 	attribute_2 = "cannon",
 	rarity = 4,
 	nationality = 3,
-	descrip = "誰かが執筆した偽りの神石の研究メモ。――「託宣の夢現」に参加した指揮官に贈る",
+	descrip = "记录有神石样本研究内容的笔记。——「智者与蜘蛛」活动奖励获取。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -20481,7 +21181,7 @@ _G.pg.base.equip_data_statistics[3911] = {
 
 
 _G.pg.base.equip_data_statistics[3920] = {
-	name = "オアシス気圧計",
+	name = "绿洲无液气压计",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20492,7 +21192,7 @@ _G.pg.base.equip_data_statistics[3920] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 6,
-	descrip = "真鍮製のカバーで覆われたオーソドックスな気象測量機材。最も受けのいいオアシス土産の一つ",
+	descrip = "黄铜外壳的经典气象仪器，是绿洲最受欢迎的实用纪念品之一 ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -20622,7 +21322,7 @@ _G.pg.base.equip_data_statistics[3931] = {
 
 
 _G.pg.base.equip_data_statistics[3940] = {
-	name = "精鋭航空整備饅頭",
+	name = "航空整备小组",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20631,7 +21331,7 @@ _G.pg.base.equip_data_statistics[3940] = {
 	icon = "3940",
 	value_1 = "18",
 	rarity = 4,
-	descrip = "航空支援のために十分なチェックをこなす饅頭整備隊。飛び上がるのが遅れる分、戦果を期待しよう！",
+	descrip = "为航空支援做好了万全的检查，起飞的稍许延迟就用更佳的战果来抵消吧！",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -20758,7 +21458,7 @@ _G.pg.base.equip_data_statistics[3951] = {
 
 
 _G.pg.base.equip_data_statistics[3960] = {
-	name = "博覧会記念チケット",
+	name = "博览会纪念票",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -20769,7 +21469,7 @@ _G.pg.base.equip_data_statistics[3960] = {
 	attribute_2 = "speed",
 	rarity = 4,
 	nationality = 6,
-	descrip = "世界博覧会の閉幕式の記念チケット。良い一日を！",
+	descrip = "欢迎来到博览会闭幕式，祝您能度过美好的一天！ ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -20896,7 +21596,7 @@ _G.pg.base.equip_data_statistics[3971] = {
 
 
 _G.pg.base.equip_data_statistics[3980] = {
-	name = "模擬電子対抗戦コマンド",
+	name = "对抗模拟指令",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -21060,14 +21760,14 @@ _G.pg.base.equip_data_statistics[3991] = {
 
 
 _G.pg.base.equip_data_statistics[4000] = {
-	name = "従来型爆雷投射機",
+	name = "基础深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "4000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "16 x 3",
 	nationality = 2,
 	ammo = 8,
@@ -21148,14 +21848,14 @@ _G.pg.base.equip_data_statistics[4003] = {
 
 
 _G.pg.base.equip_data_statistics[4020] = {
-	name = "従来型爆雷投射機",
+	name = "基础深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 2,
 	value_2 = 5,
 	icon = "4000",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "19 x 3",
 	nationality = 2,
@@ -21237,14 +21937,14 @@ _G.pg.base.equip_data_statistics[4023] = {
 
 
 _G.pg.base.equip_data_statistics[4040] = {
-	name = "従来型爆雷投射機",
+	name = "基础深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 3,
 	value_2 = 12,
 	icon = "4000",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "22 x 3",
 	nationality = 2,
@@ -21370,14 +22070,14 @@ _G.pg.base.equip_data_statistics[4047] = {
 
 
 _G.pg.base.equip_data_statistics[4100] = {
-	name = "改良型爆雷投射機",
+	name = "改良深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 1,
 	value_2 = 5,
 	icon = "4100",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "20 x 3",
 	nationality = 1,
@@ -21459,14 +22159,14 @@ _G.pg.base.equip_data_statistics[4103] = {
 
 
 _G.pg.base.equip_data_statistics[4120] = {
-	name = "改良型爆雷投射機",
+	name = "改良深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 2,
 	value_2 = 12,
 	icon = "4100",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "24 x 3",
 	nationality = 1,
@@ -21581,14 +22281,14 @@ _G.pg.base.equip_data_statistics[4126] = {
 
 
 _G.pg.base.equip_data_statistics[4140] = {
-	name = "改良型爆雷投射機",
+	name = "改良深弹投射器",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 3,
 	value_2 = 25,
 	icon = "4100",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "27 x 3",
 	nationality = 1,
@@ -21759,7 +22459,7 @@ _G.pg.base.equip_data_statistics[4151] = {
 
 
 _G.pg.base.equip_data_statistics[4200] = {
-	name = "ソードフィッシュMarkⅡ-ASV（対潜）",
+	name = "剑鱼Mark II-ASV(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 2,
@@ -21767,7 +22467,7 @@ _G.pg.base.equip_data_statistics[4200] = {
 	value_2 = 5,
 	icon = "4200",
 	attribute_2 = "antisub",
-	descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+	descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -21855,7 +22555,7 @@ _G.pg.base.equip_data_statistics[4203] = {
 
 
 _G.pg.base.equip_data_statistics[4220] = {
-	name = "ソードフィッシュMarkⅡ-ASV（対潜）",
+	name = "剑鱼Mark II-ASV(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 3,
@@ -21863,7 +22563,7 @@ _G.pg.base.equip_data_statistics[4220] = {
 	value_2 = 12,
 	icon = "4200",
 	attribute_2 = "antisub",
-	descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+	descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -21999,7 +22699,7 @@ _G.pg.base.equip_data_statistics[4226] = {
 
 
 _G.pg.base.equip_data_statistics[4240] = {
-	name = "ソードフィッシュMarkⅡ-ASV（対潜）",
+	name = "剑鱼Mark II-ASV(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 4,
@@ -22007,7 +22707,7 @@ _G.pg.base.equip_data_statistics[4240] = {
 	value_2 = 25,
 	icon = "4200",
 	attribute_2 = "antisub",
-	descrip = "ハードポイントを増設し、ASVを装備したソードフィッシュ ",
+	descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -22224,7 +22924,7 @@ _G.pg.base.equip_data_statistics[4251] = {
 
 
 _G.pg.base.equip_data_statistics[4260] = {
-	name = "フェアリー ガネット",
+	name = "塘鹅",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 5,
@@ -22566,7 +23266,7 @@ _G.pg.base.equip_data_statistics[4273] = {
 
 
 _G.pg.base.equip_data_statistics[4300] = {
-	name = "TBM-3アベンジャー（対潜）",
+	name = "TBM-3复仇者(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 2,
@@ -22574,7 +23274,7 @@ _G.pg.base.equip_data_statistics[4300] = {
 	value_2 = 5,
 	icon = "4300",
 	attribute_2 = "antisub",
-	descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
+	descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -22662,7 +23362,7 @@ _G.pg.base.equip_data_statistics[4303] = {
 
 
 _G.pg.base.equip_data_statistics[4320] = {
-	name = "TBM-3アベンジャー（対潜）",
+	name = "TBM-3复仇者(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 3,
@@ -22670,7 +23370,7 @@ _G.pg.base.equip_data_statistics[4320] = {
 	value_2 = 12,
 	icon = "4300",
 	attribute_2 = "antisub",
-	descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
+	descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -22806,7 +23506,7 @@ _G.pg.base.equip_data_statistics[4326] = {
 
 
 _G.pg.base.equip_data_statistics[4340] = {
-	name = "TBM-3アベンジャー（対潜）",
+	name = "TBM-3复仇者(反潜)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 4,
@@ -22814,7 +23514,7 @@ _G.pg.base.equip_data_statistics[4340] = {
 	value_2 = 25,
 	icon = "4300",
 	attribute_2 = "antisub",
-	descrip = "より出力の高いエンジンに換装したTBFのバリエーション ",
+	descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -23031,7 +23731,7 @@ _G.pg.base.equip_data_statistics[4351] = {
 
 
 _G.pg.base.equip_data_statistics[4360] = {
-	name = "TBMアベンジャー(VT-51)",
+	name = "TBM复仇者(VT-51中队)",
 	type = 15,
 	speciality = "<[ASW]>",
 	rarity = 5,
@@ -23039,7 +23739,7 @@ _G.pg.base.equip_data_statistics[4360] = {
 	value_2 = 45,
 	icon = "4360",
 	attribute_2 = "antisub",
-	descrip = "サン・ジャシントの上で活躍したVT-51中隊",
+	descrip = "曾经服役于圣哈辛托号上的VT-51中队",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -23346,14 +24046,14 @@ _G.pg.base.equip_data_statistics[4373] = {
 
 
 _G.pg.base.equip_data_statistics[5000] = {
-	name = "533mm三連装魚雷",
+	name = "三联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "5000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "46 x 3",
 	nationality = 0,
 	ammo = 5,
@@ -23449,14 +24149,14 @@ _G.pg.base.equip_data_statistics[5003] = {
 
 
 _G.pg.base.equip_data_statistics[5020] = {
-	name = "533mm三連装魚雷",
+	name = "三联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 5,
 	icon = "5000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "50 x 3",
 	nationality = 0,
@@ -23553,14 +24253,14 @@ _G.pg.base.equip_data_statistics[5023] = {
 
 
 _G.pg.base.equip_data_statistics[5040] = {
-	name = "533mm三連装魚雷",
+	name = "三联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 12,
 	icon = "5000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "56 x 3",
 	nationality = 0,
@@ -23701,14 +24401,14 @@ _G.pg.base.equip_data_statistics[5047] = {
 
 
 _G.pg.base.equip_data_statistics[5100] = {
-	name = "533mm四連装魚雷",
+	name = "四联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 5,
 	icon = "5100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "46 x 4",
 	nationality = 0,
@@ -23805,14 +24505,14 @@ _G.pg.base.equip_data_statistics[5103] = {
 
 
 _G.pg.base.equip_data_statistics[5120] = {
-	name = "533mm四連装魚雷",
+	name = "四联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 12,
 	icon = "5100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "50 x 4",
 	nationality = 0,
@@ -23942,14 +24642,14 @@ _G.pg.base.equip_data_statistics[5126] = {
 
 
 _G.pg.base.equip_data_statistics[5140] = {
-	name = "533mm四連装魚雷",
+	name = "四联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 25,
 	icon = "5100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "56 x 4",
 	nationality = 0,
@@ -24135,14 +24835,14 @@ _G.pg.base.equip_data_statistics[5151] = {
 
 
 _G.pg.base.equip_data_statistics[5200] = {
-	name = "533mm五連装魚雷",
+	name = "五联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 12,
 	icon = "5200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "46 x 5",
 	nationality = 0,
@@ -24272,14 +24972,14 @@ _G.pg.base.equip_data_statistics[5206] = {
 
 
 _G.pg.base.equip_data_statistics[5220] = {
-	name = "533mm五連装魚雷",
+	name = "五联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 25,
 	icon = "5200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "50 x 5",
 	nationality = 0,
@@ -24453,14 +25153,14 @@ _G.pg.base.equip_data_statistics[5230] = {
 
 
 _G.pg.base.equip_data_statistics[5240] = {
-	name = "533mm五連装魚雷",
+	name = "五联装533mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 45,
 	icon = "5200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "56 x 5",
 	nationality = 0,
@@ -24670,14 +25370,14 @@ _G.pg.base.equip_data_statistics[5253] = {
 
 
 _G.pg.base.equip_data_statistics[5300] = {
-	name = "550mm連装魚雷",
+	name = "双联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "5300",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "42 x 2",
 	nationality = 8,
 	ammo = 5,
@@ -24773,14 +25473,14 @@ _G.pg.base.equip_data_statistics[5303] = {
 
 
 _G.pg.base.equip_data_statistics[5320] = {
-	name = "550mm連装魚雷",
+	name = "双联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 5,
 	icon = "5300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "47 x 2",
 	nationality = 8,
@@ -24877,14 +25577,14 @@ _G.pg.base.equip_data_statistics[5323] = {
 
 
 _G.pg.base.equip_data_statistics[5340] = {
-	name = "550mm連装魚雷",
+	name = "双联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 12,
 	icon = "5300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 2",
 	nationality = 8,
@@ -25025,14 +25725,14 @@ _G.pg.base.equip_data_statistics[5347] = {
 
 
 _G.pg.base.equip_data_statistics[5400] = {
-	name = "550mm三連装魚雷",
+	name = "三联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 5,
 	icon = "5400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "47 x 3",
 	nationality = 8,
@@ -25129,14 +25829,14 @@ _G.pg.base.equip_data_statistics[5403] = {
 
 
 _G.pg.base.equip_data_statistics[5420] = {
-	name = "550mm三連装魚雷",
+	name = "三联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 12,
 	icon = "5400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 3",
 	nationality = 8,
@@ -25266,14 +25966,14 @@ _G.pg.base.equip_data_statistics[5426] = {
 
 
 _G.pg.base.equip_data_statistics[5440] = {
-	name = "550mm三連装魚雷",
+	name = "三联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 25,
 	icon = "5400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 3",
 	nationality = 8,
@@ -25459,7 +26159,7 @@ _G.pg.base.equip_data_statistics[5451] = {
 
 
 _G.pg.base.equip_data_statistics[5500] = {
-	name = "潜水艦用550mm24V魚雷",
+	name = "潜艇用550mm24V鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
@@ -25554,7 +26254,7 @@ _G.pg.base.equip_data_statistics[5503] = {
 
 
 _G.pg.base.equip_data_statistics[5520] = {
-	name = "潜水艦用550mm24V魚雷",
+	name = "潜艇用550mm24V鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
@@ -25682,7 +26382,7 @@ _G.pg.base.equip_data_statistics[5526] = {
 
 
 _G.pg.base.equip_data_statistics[5540] = {
-	name = "潜水艦用550mm24V魚雷",
+	name = "潜艇用550mm24V鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
@@ -25866,7 +26566,7 @@ _G.pg.base.equip_data_statistics[5551] = {
 
 
 _G.pg.base.equip_data_statistics[5600] = {
-	name = "550mm四連装魚雷",
+	name = "四联装550mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
@@ -26059,7 +26759,7 @@ _G.pg.base.equip_data_statistics[5611] = {
 
 
 _G.pg.base.equip_data_statistics[5620] = {
-	name = "550mm四連装魚雷（弾薬調整）",
+	name = "四联装550mm鱼雷（弹药调整）",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
@@ -26253,7 +26953,7 @@ _G.pg.base.equip_data_statistics[5631] = {
 
 
 _G.pg.base.equip_data_statistics[5640] = {
-	name = "550mm四連装魚雷改（弾薬調整）",
+	name = "四联装550mm鱼雷改（弹药调整）",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
@@ -26471,14 +27171,14 @@ _G.pg.base.equip_data_statistics[5653] = {
 
 
 _G.pg.base.equip_data_statistics[5660] = {
-	name = "550mm魚雷セット（三連装＋二連装）",
+	name = "550mm鱼雷组（三联装+双联装）",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 45,
 	icon = "5660",
 	attribute_2 = "torpedo",
-	descrip = "モガドールが装備する550mm魚雷兵装",
+	descrip = "莫加多尔级装备的550mm鱼雷武器组",
 	rarity = 5,
 	damage = "82 x 5",
 	nationality = 8,
@@ -26688,14 +27388,14 @@ _G.pg.base.equip_data_statistics[5673] = {
 
 
 _G.pg.base.equip_data_statistics[6000] = {
-	name = "12.7mm対空機銃",
+	name = "12.7mm防空机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "6000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "6<[WAVE]>",
 	nationality = 0,
 	ammo = 5,
@@ -26789,14 +27489,14 @@ _G.pg.base.equip_data_statistics[6003] = {
 
 
 _G.pg.base.equip_data_statistics[6020] = {
-	name = "12.7mm対空機銃",
+	name = "12.7mm防空机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "6000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "8<[WAVE]>",
 	nationality = 0,
@@ -26891,14 +27591,14 @@ _G.pg.base.equip_data_statistics[6023] = {
 
 
 _G.pg.base.equip_data_statistics[6040] = {
-	name = "12.7mm対空機銃",
+	name = "12.7mm防空机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "6000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "8<[WAVE]>",
 	nationality = 0,
@@ -27037,14 +27737,14 @@ _G.pg.base.equip_data_statistics[6047] = {
 
 
 _G.pg.base.equip_data_statistics[6100] = {
-	name = "100mm連装高角砲",
+	name = "双联装100mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "6100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "18<[WAVE]>",
 	nationality = 8,
 	ammo = 5,
@@ -27138,14 +27838,14 @@ _G.pg.base.equip_data_statistics[6103] = {
 
 
 _G.pg.base.equip_data_statistics[6120] = {
-	name = "100mm連装高角砲",
+	name = "双联装100mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "6100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "20<[WAVE]>",
 	nationality = 8,
@@ -27240,14 +27940,14 @@ _G.pg.base.equip_data_statistics[6123] = {
 
 
 _G.pg.base.equip_data_statistics[6140] = {
-	name = "100mm連装高角砲",
+	name = "双联装100mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "6100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "22<[WAVE]>",
 	nationality = 8,
@@ -27386,14 +28086,14 @@ _G.pg.base.equip_data_statistics[6147] = {
 
 
 _G.pg.base.equip_data_statistics[7000] = {
-	name = "152mm単装砲",
+	name = "单装152mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "7000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "21 x 3",
 	nationality = 7,
 	ammo = 3,
@@ -27480,14 +28180,14 @@ _G.pg.base.equip_data_statistics[7003] = {
 
 
 _G.pg.base.equip_data_statistics[7020] = {
-	name = "152mm単装砲",
+	name = "单装152mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 2,
 	value_2 = 5,
 	icon = "7000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "23 x 3",
 	nationality = 7,
@@ -27575,14 +28275,14 @@ _G.pg.base.equip_data_statistics[7023] = {
 
 
 _G.pg.base.equip_data_statistics[7040] = {
-	name = "152mm単装砲",
+	name = "单装152mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "7000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "28 x 3",
 	nationality = 7,
@@ -27714,14 +28414,14 @@ _G.pg.base.equip_data_statistics[7047] = {
 
 
 _G.pg.base.equip_data_statistics[7100] = {
-	name = "150mm主砲",
+	name = "单装150mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "7100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "18 x 3",
 	nationality = 5,
 	ammo = 3,
@@ -27808,14 +28508,14 @@ _G.pg.base.equip_data_statistics[7103] = {
 
 
 _G.pg.base.equip_data_statistics[7120] = {
-	name = "150mm主砲",
+	name = "单装150mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 2,
 	value_2 = 5,
 	icon = "7100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "21 x 3",
 	nationality = 5,
@@ -27903,14 +28603,14 @@ _G.pg.base.equip_data_statistics[7123] = {
 
 
 _G.pg.base.equip_data_statistics[7140] = {
-	name = "150mm主砲",
+	name = "单装150mm主炮",
 	speciality = "<[NORM]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "7100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "25 x 3",
 	nationality = 5,
@@ -28042,14 +28742,14 @@ _G.pg.base.equip_data_statistics[7147] = {
 
 
 _G.pg.base.equip_data_statistics[7200] = {
-	name = "130mm単装砲",
+	name = "130mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "7200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "4 x 3",
 	nationality = 7,
@@ -28146,14 +28846,14 @@ _G.pg.base.equip_data_statistics[7203] = {
 
 
 _G.pg.base.equip_data_statistics[7220] = {
-	name = "130mm単装砲",
+	name = "130mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "7200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "5 x 3",
 	nationality = 7,
@@ -28283,14 +28983,14 @@ _G.pg.base.equip_data_statistics[7226] = {
 
 
 _G.pg.base.equip_data_statistics[7240] = {
-	name = "130mm単装砲",
+	name = "130mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "7200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "6 x 3",
 	nationality = 7,
@@ -28477,14 +29177,14 @@ _G.pg.base.equip_data_statistics[7251] = {
 
 
 _G.pg.base.equip_data_statistics[7300] = {
-	name = "試製203mm三連装砲",
+	name = "试作型三联装203mm舰炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "7300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "30 x 3",
 	nationality = 8,
@@ -28685,7 +29385,7 @@ _G.pg.base.equip_data_statistics[7313] = {
 
 
 _G.pg.base.equip_data_statistics[7320] = {
-	name = "130mm副砲Mle1932",
+	name = "四联装130mm副炮Mle1932",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
@@ -28833,7 +29533,7 @@ _G.pg.base.equip_data_statistics[7327] = {
 
 
 _G.pg.base.equip_data_statistics[7340] = {
-	name = "潜水艦用203mm連装砲Mle1924",
+	name = "双联装203mm主炮Mle1924(潜艇用)",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
@@ -28972,14 +29672,14 @@ _G.pg.base.equip_data_statistics[7347] = {
 
 
 _G.pg.base.equip_data_statistics[11000] = {
-	name = "76mm砲",
+	name = "76mm火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "11000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "3 x 1",
 	nationality = 1,
 	ammo = 3,
@@ -29074,14 +29774,14 @@ _G.pg.base.equip_data_statistics[11003] = {
 
 
 _G.pg.base.equip_data_statistics[11020] = {
-	name = "76mm砲",
+	name = "76mm火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "11000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "3 x 1",
 	nationality = 1,
@@ -29177,14 +29877,14 @@ _G.pg.base.equip_data_statistics[11023] = {
 
 
 _G.pg.base.equip_data_statistics[11040] = {
-	name = "76mm砲",
+	name = "76mm火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "11000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 1",
 	nationality = 1,
@@ -29324,14 +30024,14 @@ _G.pg.base.equip_data_statistics[11047] = {
 
 
 _G.pg.base.equip_data_statistics[11060] = {
-	name = "127mm単装砲初期型",
+	name = "127mm单装炮早期型",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 12,
 	icon = "11060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 2",
 	nationality = 1,
@@ -29471,14 +30171,14 @@ _G.pg.base.equip_data_statistics[11067] = {
 
 
 _G.pg.base.equip_data_statistics[11100] = {
-	name = "127mm単装砲",
+	name = "127mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "11100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "4 x 3",
 	nationality = 1,
@@ -29574,14 +30274,14 @@ _G.pg.base.equip_data_statistics[11103] = {
 
 
 _G.pg.base.equip_data_statistics[11120] = {
-	name = "127mm単装砲",
+	name = "127mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "11100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "4 x 3",
 	nationality = 1,
@@ -29710,14 +30410,14 @@ _G.pg.base.equip_data_statistics[11126] = {
 
 
 _G.pg.base.equip_data_statistics[11140] = {
-	name = "127mm単装砲",
+	name = "127mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "11100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 3",
 	nationality = 1,
@@ -29903,14 +30603,14 @@ _G.pg.base.equip_data_statistics[11151] = {
 
 
 _G.pg.base.equip_data_statistics[11160] = {
-	name = "127mm連装副砲",
+	name = "双联装127mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 25,
 	icon = "11160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 1,
@@ -30096,7 +30796,7 @@ _G.pg.base.equip_data_statistics[11171] = {
 
 
 _G.pg.base.equip_data_statistics[11200] = {
-	name = "127mm連装両用砲MK12",
+	name = "双联装127mm高平两用炮Mk12",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -30107,7 +30807,7 @@ _G.pg.base.equip_data_statistics[11200] = {
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 1,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 7,
 	id = 11200,
@@ -30233,7 +30933,7 @@ _G.pg.base.equip_data_statistics[11206] = {
 
 
 _G.pg.base.equip_data_statistics[11220] = {
-	name = "127mm連装両用砲MK12",
+	name = "双联装127mm高平两用炮Mk12",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -30244,7 +30944,7 @@ _G.pg.base.equip_data_statistics[11220] = {
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 1,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 2,
 	value_3 = 14,
 	id = 11220,
@@ -30415,7 +31115,7 @@ _G.pg.base.equip_data_statistics[11230] = {
 
 
 _G.pg.base.equip_data_statistics[11240] = {
-	name = "127mm連装両用砲MK12",
+	name = "双联装127mm高平两用炮Mk12",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -30426,7 +31126,7 @@ _G.pg.base.equip_data_statistics[11240] = {
 	rarity = 5,
 	damage = "4 x 4",
 	nationality = 1,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 2,
 	value_3 = 25,
 	id = 11240,
@@ -30633,7 +31333,7 @@ _G.pg.base.equip_data_statistics[11253] = {
 
 
 _G.pg.base.equip_data_statistics[11260] = {
-	name = "試作型137mm連装両用砲Mk1",
+	name = "试作型双联装137mm高平两用炮Mk1",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -30843,14 +31543,14 @@ _G.pg.base.equip_data_statistics[11273] = {
 
 
 _G.pg.base.equip_data_statistics[12000] = {
-	name = "152mm連装砲",
+	name = "双联152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "12000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "9 x 4",
 	nationality = 1,
 	ammo = 3,
@@ -30937,14 +31637,14 @@ _G.pg.base.equip_data_statistics[12003] = {
 
 
 _G.pg.base.equip_data_statistics[12020] = {
-	name = "152mm連装砲",
+	name = "双联152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 5,
 	icon = "12000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "10 x 4",
 	nationality = 1,
@@ -31032,14 +31732,14 @@ _G.pg.base.equip_data_statistics[12023] = {
 
 
 _G.pg.base.equip_data_statistics[12040] = {
-	name = "152mm連装砲",
+	name = "双联152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "12000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "12 x 4",
 	nationality = 1,
@@ -31171,14 +31871,14 @@ _G.pg.base.equip_data_statistics[12047] = {
 
 
 _G.pg.base.equip_data_statistics[12060] = {
-	name = "152mm連装砲Mk15",
+	name = "双联152mm主炮Mk15",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 12,
 	icon = "12060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "13 x 4",
 	nationality = 1,
@@ -31310,14 +32010,14 @@ _G.pg.base.equip_data_statistics[12067] = {
 
 
 _G.pg.base.equip_data_statistics[12100] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "12100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "9 x 6",
 	nationality = 1,
@@ -31405,14 +32105,14 @@ _G.pg.base.equip_data_statistics[12103] = {
 
 
 _G.pg.base.equip_data_statistics[12120] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "12100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "11 x 6",
 	nationality = 1,
@@ -31533,14 +32233,14 @@ _G.pg.base.equip_data_statistics[12126] = {
 
 
 _G.pg.base.equip_data_statistics[12140] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "12100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "13 x 6",
 	nationality = 1,
@@ -31718,14 +32418,14 @@ _G.pg.base.equip_data_statistics[12151] = {
 
 
 _G.pg.base.equip_data_statistics[12160] = {
-	name = "152mm三連装砲Mk16",
+	name = "三联装152mm主炮Mk16",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 45,
 	icon = "12160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "14 x 6",
 	nationality = 1,
@@ -31927,7 +32627,7 @@ _G.pg.base.equip_data_statistics[12173] = {
 
 
 _G.pg.base.equip_data_statistics[12200] = {
-	name = "試作型三連装152mm両用砲Mk17",
+	name = "试作型三联装152mm高平两用炮Mk17",
 	speciality = "<[LOCK]>",
 	type = 2,
 	attribute_3 = "antiaircraft",
@@ -31938,7 +32638,7 @@ _G.pg.base.equip_data_statistics[12200] = {
 	rarity = 5,
 	damage = "8 x 6",
 	nationality = 1,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 2,
 	value_3 = 15,
 	id = 12200,
@@ -32137,14 +32837,14 @@ _G.pg.base.equip_data_statistics[12213] = {
 
 
 _G.pg.base.equip_data_statistics[13000] = {
-	name = "203mm三連装砲",
+	name = "三联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "13000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "22 x 3",
 	nationality = 1,
 	ammo = 3,
@@ -32231,14 +32931,14 @@ _G.pg.base.equip_data_statistics[13003] = {
 
 
 _G.pg.base.equip_data_statistics[13020] = {
-	name = "203mm三連装砲",
+	name = "三联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 5,
 	icon = "13000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "24 x 3",
 	nationality = 1,
@@ -32326,14 +33026,14 @@ _G.pg.base.equip_data_statistics[13023] = {
 
 
 _G.pg.base.equip_data_statistics[13040] = {
-	name = "203mm三連装砲",
+	name = "三联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 12,
 	icon = "13000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "26 x 3",
 	nationality = 1,
@@ -32465,14 +33165,14 @@ _G.pg.base.equip_data_statistics[13047] = {
 
 
 _G.pg.base.equip_data_statistics[13060] = {
-	name = "203mm三連装砲Mk13",
+	name = "三联装203mm主炮Mk13",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 12,
 	icon = "13060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "23 x 3",
 	nationality = 1,
@@ -32604,7 +33304,7 @@ _G.pg.base.equip_data_statistics[13067] = {
 
 
 _G.pg.base.equip_data_statistics[13080] = {
-	name = "三連装203mm主砲Mk14",
+	name = "三联装203mm主炮Mk14",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
@@ -32788,14 +33488,14 @@ _G.pg.base.equip_data_statistics[13091] = {
 
 
 _G.pg.base.equip_data_statistics[13100] = {
-	name = "203mm三連装砲改",
+	name = "三联装203mm主炮改进型",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 5,
 	icon = "13100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "24 x 3",
 	nationality = 1,
@@ -32883,14 +33583,14 @@ _G.pg.base.equip_data_statistics[13103] = {
 
 
 _G.pg.base.equip_data_statistics[13120] = {
-	name = "203mm三連装砲改",
+	name = "三联装203mm主炮改进型",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 12,
 	icon = "13100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "26 x 3",
 	nationality = 1,
@@ -33011,14 +33711,14 @@ _G.pg.base.equip_data_statistics[13126] = {
 
 
 _G.pg.base.equip_data_statistics[13140] = {
-	name = "203mm三連装砲改",
+	name = "三联装203mm主炮改进型",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 25,
 	icon = "13100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "28 x 3",
 	nationality = 1,
@@ -33195,14 +33895,14 @@ _G.pg.base.equip_data_statistics[13151] = {
 
 
 _G.pg.base.equip_data_statistics[13160] = {
-	name = "203mm三連装砲Mk15",
+	name = "三联装203mm主炮Mk15",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "13160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "27 x 6",
 	nationality = 1,
@@ -33403,14 +34103,14 @@ _G.pg.base.equip_data_statistics[13173] = {
 
 
 _G.pg.base.equip_data_statistics[13180] = {
-	name = "305mm三連装砲Mk8",
+	name = "三联装305mm主炮Mk8",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
 	value_2 = 65,
 	icon = "14000",
 	attribute_2 = "cannon",
-	descrip = "アラスカ級巡洋艦が搭載する主砲",
+	descrip = "阿拉斯加级巡洋舰搭载的主炮",
 	rarity = 6,
 	damage = "62 x 3",
 	nationality = 1,
@@ -33601,15 +34301,502 @@ _G.pg.base.equip_data_statistics[13193] = {
 }
 
 
+_G.pg.base.equip_data_statistics[14000] = {
+	name = "三联装305mm主炮Mk8",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 1,
+	value_2 = 12,
+	icon = "14000",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 3,
+	damage = "36 x 3",
+	nationality = 1,
+	ammo = 3,
+	value_3 = 0,
+	id = 14000,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1510
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14000
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[14001] = {
+	damage = "40 x 3",
+	base = 14000,
+	id = 14001,
+	weapon_id = {
+		14001
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14002] = {
+	damage = "44 x 3",
+	base = 14000,
+	id = 14002,
+	weapon_id = {
+		14002
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14003] = {
+	damage = "48 x 3",
+	base = 14000,
+	id = 14003,
+	weapon_id = {
+		14003
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14004] = {
+	damage = "52 x 3",
+	base = 14000,
+	id = 14004,
+	weapon_id = {
+		14004
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14005] = {
+	damage = "56 x 3",
+	base = 14000,
+	id = 14005,
+	weapon_id = {
+		14005
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14006] = {
+	damage = "60 x 3",
+	base = 14000,
+	id = 14006,
+	weapon_id = {
+		14006
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14020] = {
+	name = "三联装305mm主炮Mk8",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 2,
+	value_2 = 25,
+	icon = "14000",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "40 x 3",
+	nationality = 1,
+	ammo = 3,
+	value_3 = 0,
+	id = 14020,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1510
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14020
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[14021] = {
+	damage = "44 x 3",
+	base = 14020,
+	id = 14021,
+	weapon_id = {
+		14021
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14022] = {
+	damage = "48 x 3",
+	base = 14020,
+	id = 14022,
+	weapon_id = {
+		14022
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14023] = {
+	damage = "53 x 3",
+	base = 14020,
+	id = 14023,
+	weapon_id = {
+		14023
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14024] = {
+	damage = "57 x 3",
+	base = 14020,
+	id = 14024,
+	weapon_id = {
+		14024
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14025] = {
+	damage = "62 x 3",
+	base = 14020,
+	id = 14025,
+	weapon_id = {
+		14025
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14026] = {
+	damage = "66 x 3",
+	base = 14020,
+	id = 14026,
+	weapon_id = {
+		14026
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14027] = {
+	damage = "70 x 3",
+	base = 14020,
+	id = 14027,
+	weapon_id = {
+		14027
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14028] = {
+	damage = "75 x 3",
+	base = 14020,
+	id = 14028,
+	weapon_id = {
+		14028
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14029] = {
+	damage = "79 x 3",
+	base = 14020,
+	id = 14029,
+	weapon_id = {
+		14029
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14030] = {
+	damage = "84 x 3",
+	base = 14020,
+	id = 14030,
+	weapon_id = {
+		14030
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14040] = {
+	name = "三联装305mm主炮Mk8",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 3,
+	value_2 = 45,
+	icon = "14000",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 5,
+	damage = "44 x 3",
+	nationality = 1,
+	ammo = 3,
+	value_3 = 0,
+	id = 14040,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1510
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14040
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[14041] = {
+	damage = "48 x 3",
+	base = 14040,
+	id = 14041,
+	weapon_id = {
+		14041
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14042] = {
+	damage = "52 x 3",
+	base = 14040,
+	id = 14042,
+	weapon_id = {
+		14042
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14043] = {
+	damage = "58 x 3",
+	base = 14040,
+	id = 14043,
+	weapon_id = {
+		14043
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14044] = {
+	damage = "62 x 3",
+	base = 14040,
+	id = 14044,
+	weapon_id = {
+		14044
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14045] = {
+	damage = "68 x 3",
+	base = 14040,
+	id = 14045,
+	weapon_id = {
+		14045
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14046] = {
+	damage = "72 x 3",
+	base = 14040,
+	id = 14046,
+	weapon_id = {
+		14046
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14047] = {
+	damage = "76 x 3",
+	base = 14040,
+	id = 14047,
+	weapon_id = {
+		14047
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14048] = {
+	damage = "82 x 3",
+	base = 14040,
+	id = 14048,
+	weapon_id = {
+		14048
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14049] = {
+	damage = "86 x 3",
+	base = 14040,
+	id = 14049,
+	weapon_id = {
+		14049
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14050] = {
+	damage = "92 x 3",
+	base = 14040,
+	id = 14050,
+	weapon_id = {
+		14050
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14051] = {
+	anti_siren = 100,
+	damage = "92 x 3",
+	base = 14040,
+	id = 14051,
+	weapon_id = {
+		14051
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14052] = {
+	anti_siren = 200,
+	damage = "92 x 3",
+	base = 14040,
+	id = 14052,
+	weapon_id = {
+		14052
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14053] = {
+	anti_siren = 300,
+	damage = "92 x 3",
+	base = 14040,
+	id = 14053,
+	weapon_id = {
+		14053
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[14100] = {
-	name = "356mm三連装砲",
+	name = "三联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "14100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "40 x 3",
 	nationality = 1,
 	ammo = 3,
@@ -33689,14 +34876,14 @@ _G.pg.base.equip_data_statistics[14103] = {
 
 
 _G.pg.base.equip_data_statistics[14120] = {
-	name = "356mm三連装砲",
+	name = "三联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 5,
 	icon = "14100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "44 x 3",
 	nationality = 1,
@@ -33778,14 +34965,14 @@ _G.pg.base.equip_data_statistics[14123] = {
 
 
 _G.pg.base.equip_data_statistics[14140] = {
-	name = "356mm三連装砲",
+	name = "三联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 12,
 	icon = "14100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "48 x 3",
 	nationality = 1,
@@ -33911,14 +35098,14 @@ _G.pg.base.equip_data_statistics[14147] = {
 
 
 _G.pg.base.equip_data_statistics[14160] = {
-	name = "試作型356mm四連装砲MkB",
+	name = "试作型四联装356mm主炮MkB",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 25,
 	icon = "14160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "56 x 4",
 	nationality = 1,
@@ -34089,14 +35276,14 @@ _G.pg.base.equip_data_statistics[14171] = {
 
 
 _G.pg.base.equip_data_statistics[14180] = {
-	name = "406mm連装砲Mk1",
+	name = "双联装406mm主炮Mk1",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 12,
 	icon = "14180",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "53 x 2",
 	nationality = 1,
@@ -34222,14 +35409,14 @@ _G.pg.base.equip_data_statistics[14187] = {
 
 
 _G.pg.base.equip_data_statistics[14200] = {
-	name = "406mm連装砲MK5",
+	name = "双联装406mm主炮Mk5",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 5,
 	icon = "14200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "48 x 2",
 	nationality = 1,
@@ -34310,14 +35497,14 @@ _G.pg.base.equip_data_statistics[14203] = {
 
 
 _G.pg.base.equip_data_statistics[14220] = {
-	name = "406mm連装砲MK5",
+	name = "双联装406mm主炮Mk5",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 12,
 	icon = "14200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "53 x 2",
 	nationality = 1,
@@ -34432,14 +35619,14 @@ _G.pg.base.equip_data_statistics[14226] = {
 
 
 _G.pg.base.equip_data_statistics[14240] = {
-	name = "406mm連装砲MK5",
+	name = "双联装406mm主炮Mk5",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 25,
 	icon = "14200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 2",
 	nationality = 1,
@@ -34610,14 +35797,14 @@ _G.pg.base.equip_data_statistics[14251] = {
 
 
 _G.pg.base.equip_data_statistics[14260] = {
-	name = "406mm連装砲Mk8",
+	name = "双联装406mm主炮Mk8",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 25,
 	icon = "14260",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 2",
 	nationality = 1,
@@ -34788,14 +35975,14 @@ _G.pg.base.equip_data_statistics[14271] = {
 
 
 _G.pg.base.equip_data_statistics[14300] = {
-	name = "406mm三連装砲MK6",
+	name = "三联装406mm主炮Mk6",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 5,
 	icon = "14300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "50 x 3",
 	nationality = 1,
@@ -34876,14 +36063,14 @@ _G.pg.base.equip_data_statistics[14303] = {
 
 
 _G.pg.base.equip_data_statistics[14320] = {
-	name = "406mm三連装砲MK6",
+	name = "三联装406mm主炮Mk6",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 12,
 	icon = "14300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "55 x 3",
 	nationality = 1,
@@ -34998,14 +36185,14 @@ _G.pg.base.equip_data_statistics[14326] = {
 
 
 _G.pg.base.equip_data_statistics[14340] = {
-	name = "406mm三連装砲MK6",
+	name = "三联装406mm主炮Mk6",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 25,
 	icon = "14300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 3",
 	nationality = 1,
@@ -35176,14 +36363,14 @@ _G.pg.base.equip_data_statistics[14351] = {
 
 
 _G.pg.base.equip_data_statistics[14360] = {
-	name = "試作型406mm三連装砲MkD",
+	name = "试作型三联装406mm主炮MkD",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "14360",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "58 x 3",
 	nationality = 1,
@@ -35378,14 +36565,14 @@ _G.pg.base.equip_data_statistics[14373] = {
 
 
 _G.pg.base.equip_data_statistics[14380] = {
-	name = "406mm三連装砲Mk2",
+	name = "三联装406mm主炮Mk2",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 25,
 	icon = "14380",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 3",
 	nationality = 1,
@@ -35555,14 +36742,14 @@ _G.pg.base.equip_data_statistics[14391] = {
 
 
 _G.pg.base.equip_data_statistics[14400] = {
-	name = "406mm三連装砲MK7",
+	name = "三联装406mm主炮Mk7",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "14400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 3",
 	nationality = 1,
@@ -35675,15 +36862,383 @@ _G.pg.base.equip_data_statistics[14406] = {
 }
 
 
+_G.pg.base.equip_data_statistics[14420] = {
+	name = "三联装406mm主炮Mk7",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 2,
+	value_2 = 25,
+	icon = "14400",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "57 x 3",
+	nationality = 1,
+	ammo = 2,
+	value_3 = 0,
+	id = 14420,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			2,
+			1512
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14420
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG",
+		"HE"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[14421] = {
+	damage = "68 x 3",
+	base = 14420,
+	id = 14421,
+	weapon_id = {
+		14421
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14422] = {
+	damage = "79 x 3",
+	base = 14420,
+	id = 14422,
+	weapon_id = {
+		14422
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14423] = {
+	damage = "90 x 3",
+	base = 14420,
+	id = 14423,
+	weapon_id = {
+		14423
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14424] = {
+	damage = "101 x 3",
+	base = 14420,
+	id = 14424,
+	weapon_id = {
+		14424
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14425] = {
+	damage = "112 x 3",
+	base = 14420,
+	id = 14425,
+	weapon_id = {
+		14425
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14426] = {
+	damage = "123 x 3",
+	base = 14420,
+	id = 14426,
+	weapon_id = {
+		14426
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14427] = {
+	damage = "134 x 3",
+	base = 14420,
+	id = 14427,
+	weapon_id = {
+		14427
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14428] = {
+	damage = "145 x 3",
+	base = 14420,
+	id = 14428,
+	weapon_id = {
+		14428
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14429] = {
+	damage = "156 x 3",
+	base = 14420,
+	id = 14429,
+	weapon_id = {
+		14429
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14430] = {
+	damage = "167 x 3",
+	base = 14420,
+	id = 14430,
+	weapon_id = {
+		14430
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14440] = {
+	name = "三联装406mm主炮Mk7",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 3,
+	value_2 = 45,
+	icon = "14400",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 5,
+	damage = "62 x 3",
+	nationality = 1,
+	ammo = 1,
+	value_3 = 0,
+	id = 14440,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			2,
+			1511
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		14440
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"BB",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[14441] = {
+	damage = "74 x 3",
+	base = 14440,
+	id = 14441,
+	weapon_id = {
+		14441
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14442] = {
+	damage = "86 x 3",
+	base = 14440,
+	id = 14442,
+	weapon_id = {
+		14442
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14443] = {
+	damage = "98 x 3",
+	base = 14440,
+	id = 14443,
+	weapon_id = {
+		14443
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14444] = {
+	damage = "110 x 3",
+	base = 14440,
+	id = 14444,
+	weapon_id = {
+		14444
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14445] = {
+	damage = "122 x 3",
+	base = 14440,
+	id = 14445,
+	weapon_id = {
+		14445
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14446] = {
+	damage = "134 x 3",
+	base = 14440,
+	id = 14446,
+	weapon_id = {
+		14446
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14447] = {
+	damage = "146 x 3",
+	base = 14440,
+	id = 14447,
+	weapon_id = {
+		14447
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14448] = {
+	damage = "158 x 3",
+	base = 14440,
+	id = 14448,
+	weapon_id = {
+		14448
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14449] = {
+	damage = "170 x 3",
+	base = 14440,
+	id = 14449,
+	weapon_id = {
+		14449
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14450] = {
+	damage = "182 x 3",
+	base = 14440,
+	id = 14450,
+	weapon_id = {
+		14450
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14451] = {
+	anti_siren = 100,
+	damage = "182 x 3",
+	base = 14440,
+	id = 14451,
+	weapon_id = {
+		14451
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14452] = {
+	anti_siren = 200,
+	damage = "182 x 3",
+	base = 14440,
+	id = 14452,
+	weapon_id = {
+		14452
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[14453] = {
+	anti_siren = 300,
+	damage = "182 x 3",
+	base = 14440,
+	id = 14453,
+	weapon_id = {
+		14453
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[14460] = {
-	name = "406mm三連装砲MK7",
+	name = "三联装406mm主炮Mk7",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 65,
 	icon = "14400",
 	attribute_2 = "cannon",
-	descrip = "アイオワ級戦艦のために開発されたMk7型主砲",
+	descrip = "为{namecode:201}级战列舰开发的Mk7型舰炮",
 	rarity = 6,
 	damage = "71 x 3",
 	nationality = 1,
@@ -35878,7 +37433,7 @@ _G.pg.base.equip_data_statistics[14473] = {
 
 
 _G.pg.base.equip_data_statistics[14480] = {
-	name = "試作型406mm/45三連装砲MK7",
+	name = "试作型三联装406mm/45主炮Mk7",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -36080,14 +37635,14 @@ _G.pg.base.equip_data_statistics[14493] = {
 
 
 _G.pg.base.equip_data_statistics[14500] = {
-	name = "試作型457mm連装砲MKA",
+	name = "试作型双联装457mm主炮Mk A",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 65,
 	icon = "14500",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 6,
 	damage = "78 x 2",
 	nationality = 1,
@@ -36282,14 +37837,14 @@ _G.pg.base.equip_data_statistics[14513] = {
 
 
 _G.pg.base.equip_data_statistics[14520] = {
-	name = "試作型406mm連装砲Mk4",
+	name = "试作型双联装406mm主炮Mk4",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "14520",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "72 x 2",
 	nationality = 1,
@@ -36489,7 +38044,7 @@ _G.pg.base.equip_data_statistics[14533] = {
 
 
 _G.pg.base.equip_data_statistics[14540] = {
-	name = "試作型406mm三連装砲Mk6改",
+	name = "试作型三联装406mm主炮Mk6改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -36691,14 +38246,14 @@ _G.pg.base.equip_data_statistics[14553] = {
 
 
 _G.pg.base.equip_data_statistics[15000] = {
-	name = "潜水艦用Mark14魚雷",
+	name = "潜艇用Mark 14鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 5,
 	icon = "15000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "42 x 3",
 	nationality = 1,
@@ -36786,14 +38341,14 @@ _G.pg.base.equip_data_statistics[15003] = {
 
 
 _G.pg.base.equip_data_statistics[15020] = {
-	name = "潜水艦用Mark14魚雷",
+	name = "潜艇用Mark 14鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 12,
 	icon = "15000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "47 x 3",
 	nationality = 1,
@@ -36914,14 +38469,14 @@ _G.pg.base.equip_data_statistics[15026] = {
 
 
 _G.pg.base.equip_data_statistics[15040] = {
-	name = "潜水艦用Mark14魚雷",
+	name = "潜艇用Mark 14鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 25,
 	icon = "15000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "52 x 3",
 	nationality = 1,
@@ -37098,14 +38653,14 @@ _G.pg.base.equip_data_statistics[15051] = {
 
 
 _G.pg.base.equip_data_statistics[15060] = {
-	name = "潜水艦用Mark18魚雷",
+	name = "潜艇用Mark 18鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 25,
 	icon = "15060",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "41 x 2",
 	nationality = 1,
@@ -37282,14 +38837,14 @@ _G.pg.base.equip_data_statistics[15071] = {
 
 
 _G.pg.base.equip_data_statistics[15100] = {
-	name = "潜水艦用Mark16魚雷",
+	name = "潜艇用Mark 16鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 12,
 	icon = "15100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "58 x 3",
 	nationality = 1,
@@ -37410,14 +38965,14 @@ _G.pg.base.equip_data_statistics[15106] = {
 
 
 _G.pg.base.equip_data_statistics[15120] = {
-	name = "潜水艦用Mark16魚雷",
+	name = "潜艇用Mark 16鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 25,
 	icon = "15100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "65 x 3",
 	nationality = 1,
@@ -37582,14 +39137,14 @@ _G.pg.base.equip_data_statistics[15130] = {
 
 
 _G.pg.base.equip_data_statistics[15140] = {
-	name = "潜水艦用Mark16魚雷",
+	name = "潜艇用Mark 16鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 45,
 	icon = "15100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "72 x 3",
 	nationality = 1,
@@ -37790,14 +39345,14 @@ _G.pg.base.equip_data_statistics[15153] = {
 
 
 _G.pg.base.equip_data_statistics[15160] = {
-	name = "潜水艦用Mark28魚雷",
+	name = "潜艇用Mark 28鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 45,
 	icon = "15160",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "53 x 2",
 	nationality = 1,
@@ -37998,14 +39553,14 @@ _G.pg.base.equip_data_statistics[15173] = {
 
 
 _G.pg.base.equip_data_statistics[15200] = {
-	name = "533mm三連装魚雷Mk17",
+	name = "三联装533mm鱼雷Mk17",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 12,
 	icon = "15200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "60 x 3",
 	nationality = 1,
@@ -38146,14 +39701,14 @@ _G.pg.base.equip_data_statistics[15207] = {
 
 
 _G.pg.base.equip_data_statistics[15220] = {
-	name = "533mm四連装魚雷Mk17",
+	name = "四联装533mm鱼雷Mk17",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 25,
 	icon = "15220",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 4",
 	nationality = 1,
@@ -38339,14 +39894,14 @@ _G.pg.base.equip_data_statistics[15231] = {
 
 
 _G.pg.base.equip_data_statistics[15240] = {
-	name = "533mm五連装魚雷Mk17",
+	name = "五联装533mm鱼雷Mk17",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 45,
 	icon = "15240",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "60 x 5",
 	nationality = 1,
@@ -38556,7 +40111,7 @@ _G.pg.base.equip_data_statistics[15253] = {
 
 
 _G.pg.base.equip_data_statistics[15300] = {
-	name = "533mm魚雷Mark35（四連射）",
+	name = "533mm鱼雷Mark35（4连发射）",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
@@ -38779,7 +40334,7 @@ _G.pg.base.equip_data_statistics[15313] = {
 
 
 _G.pg.base.equip_data_statistics[15500] = {
-	name = "PBY-5Aカタリナ",
+	name = "PBY-5A卡特琳娜水上机",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -38790,7 +40345,7 @@ _G.pg.base.equip_data_statistics[15500] = {
 	attribute_2 = "antisub",
 	rarity = 4,
 	nationality = 1,
-	descrip = "対潜哨戒、海難救助などでよく用いられる飛行艇。",
+	descrip = "在反潜警戒、人员救援中有着出色表现的多用途飞机",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -38939,14 +40494,14 @@ _G.pg.base.equip_data_statistics[15511] = {
 
 
 _G.pg.base.equip_data_statistics[16000] = {
-	name = "20mmエリコン機関砲",
+	name = "20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "16000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "8<[WAVE]>",
 	nationality = 1,
 	ammo = 5,
@@ -39040,14 +40595,14 @@ _G.pg.base.equip_data_statistics[16003] = {
 
 
 _G.pg.base.equip_data_statistics[16020] = {
-	name = "20mmエリコン機関砲",
+	name = "20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "16000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "9<[WAVE]>",
 	nationality = 1,
@@ -39142,14 +40697,14 @@ _G.pg.base.equip_data_statistics[16023] = {
 
 
 _G.pg.base.equip_data_statistics[16040] = {
-	name = "20mmエリコン機関砲",
+	name = "20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "16000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "11<[WAVE]>",
 	nationality = 1,
@@ -39288,14 +40843,14 @@ _G.pg.base.equip_data_statistics[16047] = {
 
 
 _G.pg.base.equip_data_statistics[16060] = {
-	name = "76mm高角砲改修型",
+	name = "76mm高射炮改进型",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "16060",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "29<[WAVE]>",
 	nationality = 1,
@@ -39479,14 +41034,14 @@ _G.pg.base.equip_data_statistics[16071] = {
 
 
 _G.pg.base.equip_data_statistics[16080] = {
-	name = "76mm連装RF砲Mk27",
+	name = "双联装76mmRF火炮Mk27",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "16080",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "33<[WAVE]>",
 	nationality = 1,
@@ -39694,14 +41249,14 @@ _G.pg.base.equip_data_statistics[16093] = {
 
 
 _G.pg.base.equip_data_statistics[16100] = {
-	name = "20mm二連装エリコン機関砲",
+	name = "双管20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "16100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "14<[WAVE]>",
 	nationality = 1,
@@ -39796,14 +41351,14 @@ _G.pg.base.equip_data_statistics[16103] = {
 
 
 _G.pg.base.equip_data_statistics[16120] = {
-	name = "20mm二連装エリコン機関砲",
+	name = "双管20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "16100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "15<[WAVE]>",
 	nationality = 1,
@@ -39931,14 +41486,14 @@ _G.pg.base.equip_data_statistics[16126] = {
 
 
 _G.pg.base.equip_data_statistics[16140] = {
-	name = "20mm二連装エリコン機関砲",
+	name = "双管20mm厄利孔高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "16100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "18<[WAVE]>",
 	nationality = 1,
@@ -40122,14 +41677,14 @@ _G.pg.base.equip_data_statistics[16151] = {
 
 
 _G.pg.base.equip_data_statistics[16160] = {
-	name = "20mm四連装エリコン機関砲Mk15",
+	name = "四联装20mm厄利孔高射炮Mk15",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "16160",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "25<[WAVE]>",
 	nationality = 1,
@@ -40313,14 +41868,14 @@ _G.pg.base.equip_data_statistics[16171] = {
 
 
 _G.pg.base.equip_data_statistics[16200] = {
-	name = "四連装28mm対空機銃「シカゴピアノ」",
+	name = "四联装28mm“芝加哥钢琴”",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "16200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "22<[WAVE]>",
 	nationality = 1,
@@ -40415,14 +41970,14 @@ _G.pg.base.equip_data_statistics[16203] = {
 
 
 _G.pg.base.equip_data_statistics[16220] = {
-	name = "四連装28mm対空機銃「シカゴピアノ」",
+	name = "四联装28mm“芝加哥钢琴”",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "16200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "25<[WAVE]>",
 	nationality = 1,
@@ -40550,14 +42105,14 @@ _G.pg.base.equip_data_statistics[16226] = {
 
 
 _G.pg.base.equip_data_statistics[16240] = {
-	name = "四連装28mm対空機銃「シカゴピアノ」",
+	name = "四联装28mm“芝加哥钢琴”",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "16200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "29<[WAVE]>",
 	nationality = 1,
@@ -40741,14 +42296,14 @@ _G.pg.base.equip_data_statistics[16251] = {
 
 
 _G.pg.base.equip_data_statistics[16300] = {
-	name = "二連装ボフォース40mm機関砲",
+	name = "双联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "16300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "19<[WAVE]>",
 	nationality = 1,
@@ -40843,14 +42398,14 @@ _G.pg.base.equip_data_statistics[16303] = {
 
 
 _G.pg.base.equip_data_statistics[16320] = {
-	name = "二連装ボフォース40mm機関砲",
+	name = "双联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "16300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "23<[WAVE]>",
 	nationality = 1,
@@ -40978,14 +42533,14 @@ _G.pg.base.equip_data_statistics[16326] = {
 
 
 _G.pg.base.equip_data_statistics[16340] = {
-	name = "二連装ボフォース40mm機関砲",
+	name = "双联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "16300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "25<[WAVE]>",
 	nationality = 1,
@@ -41169,14 +42724,14 @@ _G.pg.base.equip_data_statistics[16351] = {
 
 
 _G.pg.base.equip_data_statistics[16400] = {
-	name = "四連装ボフォース40mm機関砲",
+	name = "四联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "16400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "38<[WAVE]>",
 	nationality = 1,
@@ -41304,14 +42859,14 @@ _G.pg.base.equip_data_statistics[16406] = {
 
 
 _G.pg.base.equip_data_statistics[16420] = {
-	name = "四連装ボフォース40mm機関砲",
+	name = "四联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 25,
 	icon = "16400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "43<[WAVE]>",
 	nationality = 1,
@@ -41483,14 +43038,14 @@ _G.pg.base.equip_data_statistics[16430] = {
 
 
 _G.pg.base.equip_data_statistics[16440] = {
-	name = "四連装ボフォース40mm機関砲",
+	name = "四联40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 45,
 	icon = "16400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "48<[WAVE]>",
 	nationality = 1,
@@ -41698,7 +43253,7 @@ _G.pg.base.equip_data_statistics[16453] = {
 
 
 _G.pg.base.equip_data_statistics[16460] = {
-	name = "127mm連装両用砲Mk12(時限信管)",
+	name = "双联装127mm高平两用炮Mk12(定时引信)",
 	speciality = "<[LRG]>",
 	type = 21,
 	attribute_3 = "cannon",
@@ -41891,7 +43446,7 @@ _G.pg.base.equip_data_statistics[16473] = {
 
 
 _G.pg.base.equip_data_statistics[16480] = {
-	name = "76mm連装RF砲Mk37",
+	name = "双联装76mmRF火炮Mk37",
 	speciality = "<[SRG]>",
 	type = 6,
 	attribute_3 = "hit",
@@ -42094,14 +43649,14 @@ _G.pg.base.equip_data_statistics[16493] = {
 
 
 _G.pg.base.equip_data_statistics[17000] = {
-	name = "F2Aバッファロー",
+	name = "F2A水牛",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "17000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -42196,7 +43751,7 @@ _G.pg.base.equip_data_statistics[17003] = {
 
 
 _G.pg.base.equip_data_statistics[17020] = {
-	name = "F2Aバッファロー",
+	name = "F2A水牛",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -42204,7 +43759,7 @@ _G.pg.base.equip_data_statistics[17020] = {
 	value_2 = 5,
 	icon = "17000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -42299,7 +43854,7 @@ _G.pg.base.equip_data_statistics[17023] = {
 
 
 _G.pg.base.equip_data_statistics[17040] = {
-	name = "F2Aバッファロー",
+	name = "F2A水牛",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -42307,7 +43862,7 @@ _G.pg.base.equip_data_statistics[17040] = {
 	value_2 = 12,
 	icon = "17000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -42470,7 +44025,7 @@ _G.pg.base.equip_data_statistics[17047] = {
 
 
 _G.pg.base.equip_data_statistics[17060] = {
-	name = "F2Aバッファロー（サッチ隊）",
+	name = "F2A水牛(萨奇队)",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -42478,7 +44033,7 @@ _G.pg.base.equip_data_statistics[17060] = {
 	value_2 = 45,
 	icon = "17060",
 	attribute_2 = "air",
-	descrip = "「サッチウィーブ」戦術の考案者ジョン・スミス・サッチの率いる戦闘機隊",
+	descrip = "“萨奇剪”战术发明者约翰·史密斯·萨奇的座驾",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -42751,7 +44306,7 @@ _G.pg.base.equip_data_statistics[17073] = {
 
 
 _G.pg.base.equip_data_statistics[17080] = {
-	name = "試作型XF2A-4バッファロー",
+	name = "试作型XF2A-4水牛",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -42759,7 +44314,7 @@ _G.pg.base.equip_data_statistics[17080] = {
 	value_2 = 25,
 	icon = "17080",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43039,7 +44594,7 @@ _G.pg.base.equip_data_statistics[17091] = {
 
 
 _G.pg.base.equip_data_statistics[17100] = {
-	name = "F4Fワイルドキャット",
+	name = "F4F野猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -43047,7 +44602,7 @@ _G.pg.base.equip_data_statistics[17100] = {
 	value_2 = 5,
 	icon = "17100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43142,7 +44697,7 @@ _G.pg.base.equip_data_statistics[17103] = {
 
 
 _G.pg.base.equip_data_statistics[17120] = {
-	name = "F4Fワイルドキャット",
+	name = "F4F野猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -43150,7 +44705,7 @@ _G.pg.base.equip_data_statistics[17120] = {
 	value_2 = 12,
 	icon = "17100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43296,7 +44851,7 @@ _G.pg.base.equip_data_statistics[17126] = {
 
 
 _G.pg.base.equip_data_statistics[17140] = {
-	name = "F4Fワイルドキャット",
+	name = "F4F野猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -43304,7 +44859,7 @@ _G.pg.base.equip_data_statistics[17140] = {
 	value_2 = 25,
 	icon = "17100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43536,7 +45091,7 @@ _G.pg.base.equip_data_statistics[17151] = {
 
 
 _G.pg.base.equip_data_statistics[17200] = {
-	name = "F4Uコルセア",
+	name = "F4U海盗",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -43544,7 +45099,7 @@ _G.pg.base.equip_data_statistics[17200] = {
 	value_2 = 5,
 	icon = "17200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43655,7 +45210,7 @@ _G.pg.base.equip_data_statistics[17203] = {
 
 
 _G.pg.base.equip_data_statistics[17220] = {
-	name = "F4Uコルセア",
+	name = "F4U海盗",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -43663,7 +45218,7 @@ _G.pg.base.equip_data_statistics[17220] = {
 	value_2 = 12,
 	icon = "17200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -43837,7 +45392,7 @@ _G.pg.base.equip_data_statistics[17226] = {
 
 
 _G.pg.base.equip_data_statistics[17240] = {
-	name = "F4Uコルセア",
+	name = "F4U海盗",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -43845,7 +45400,7 @@ _G.pg.base.equip_data_statistics[17240] = {
 	value_2 = 25,
 	icon = "17200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -44125,7 +45680,7 @@ _G.pg.base.equip_data_statistics[17251] = {
 
 
 _G.pg.base.equip_data_statistics[17260] = {
-	name = "F4U（VF-17中隊）",
+	name = "F4U（VF-17“海盗”中队）",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -44133,7 +45688,7 @@ _G.pg.base.equip_data_statistics[17260] = {
 	value_2 = 45,
 	icon = "17260",
 	attribute_2 = "air",
-	descrip = "海賊旗の記章で知られる海軍航空隊に配備されていたF4Uコルセア",
+	descrip = "以“海盗旗”为队徽而闻名的海军航空中队。",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -44462,7 +46017,7 @@ _G.pg.base.equip_data_statistics[17273] = {
 
 
 _G.pg.base.equip_data_statistics[17300] = {
-	name = "F6Fヘルキャット",
+	name = "F6F地狱猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -44470,7 +46025,7 @@ _G.pg.base.equip_data_statistics[17300] = {
 	value_2 = 12,
 	icon = "17300",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -44673,7 +46228,7 @@ _G.pg.base.equip_data_statistics[17306] = {
 
 
 _G.pg.base.equip_data_statistics[17320] = {
-	name = "F6Fヘルキャット",
+	name = "F6F地狱猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -44681,7 +46236,7 @@ _G.pg.base.equip_data_statistics[17320] = {
 	value_2 = 25,
 	icon = "17300",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -44984,7 +46539,7 @@ _G.pg.base.equip_data_statistics[17330] = {
 
 
 _G.pg.base.equip_data_statistics[17340] = {
-	name = "F6Fヘルキャット",
+	name = "F6F地狱猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -44992,7 +46547,7 @@ _G.pg.base.equip_data_statistics[17340] = {
 	value_2 = 45,
 	icon = "17300",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -45373,7 +46928,7 @@ _G.pg.base.equip_data_statistics[17353] = {
 
 
 _G.pg.base.equip_data_statistics[17360] = {
-	name = "F7Fタイガーキャット",
+	name = "F7F虎猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -45381,7 +46936,7 @@ _G.pg.base.equip_data_statistics[17360] = {
 	value_2 = 45,
 	icon = "17360",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -45705,7 +47260,7 @@ _G.pg.base.equip_data_statistics[17373] = {
 
 
 _G.pg.base.equip_data_statistics[17380] = {
-	name = "F8Fベアキャット",
+	name = "F8F熊猫",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -45713,7 +47268,7 @@ _G.pg.base.equip_data_statistics[17380] = {
 	value_2 = 45,
 	icon = "17380",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -46037,7 +47592,7 @@ _G.pg.base.equip_data_statistics[17393] = {
 
 
 _G.pg.base.equip_data_statistics[17400] = {
-	name = "スカイロケット",
+	name = "XF5F天箭",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -46045,7 +47600,7 @@ _G.pg.base.equip_data_statistics[17400] = {
 	value_2 = 25,
 	icon = "17400",
 	attribute_2 = "air",
-	descrip = "グラマンXF5F-1艦上戦闘機の実験機。高い上昇性能を誇るが、開発中にトラブルが数多く発生し、部品の量産性が悪いなどでついに大量生産されなかった",
+	descrip = "格鲁曼XF5F-1型号试验机，爬升速度极快，研发期间遇到了诸多问题，最终由于配件和其他一些特殊原因，并未大量投产。",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -46325,7 +47880,7 @@ _G.pg.base.equip_data_statistics[17411] = {
 
 
 _G.pg.base.equip_data_statistics[17420] = {
-	name = "試作型XF5U「フライングパンケーキ」",
+	name = "试作型XF5U飞碟",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -46333,7 +47888,7 @@ _G.pg.base.equip_data_statistics[17420] = {
 	value_2 = 45,
 	icon = "17420",
 	attribute_2 = "air",
-	descrip = "試作型XF5U「フライングパンケーキ」",
+	descrip = "试作型XF5U飞碟",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -46657,7 +48212,7 @@ _G.pg.base.equip_data_statistics[17433] = {
 
 
 _G.pg.base.equip_data_statistics[17440] = {
-	name = "F6Fヘルキャット（HVAR搭載型）",
+	name = "F6F地狱猫（HVAR搭载型）",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -46665,7 +48220,7 @@ _G.pg.base.equip_data_statistics[17440] = {
 	value_2 = 45,
 	icon = "17440",
 	attribute_2 = "air",
-	descrip = "高速航空ロケット弾を搭載するF6Fヘルキャット",
+	descrip = "搭载机载高速火箭的@'{namecode:10004}舰载机",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -47032,7 +48587,7 @@ _G.pg.base.equip_data_statistics[17453] = {
 
 
 _G.pg.base.equip_data_statistics[17460] = {
-	name = "試作型F8Fベアキャット(フロート)",
+	name = "试作型F8F熊猫（浮筒型）",
 	type = 12,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -47450,14 +49005,14 @@ _G.pg.base.equip_data_statistics[17473] = {
 
 
 _G.pg.base.equip_data_statistics[18000] = {
-	name = "TBDデバステイター",
+	name = "TBD蹂躏者",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "18000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -47564,7 +49119,7 @@ _G.pg.base.equip_data_statistics[18003] = {
 
 
 _G.pg.base.equip_data_statistics[18020] = {
-	name = "TBDデバステイター",
+	name = "TBD蹂躏者",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 2,
@@ -47572,7 +49127,7 @@ _G.pg.base.equip_data_statistics[18020] = {
 	value_2 = 5,
 	icon = "18000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -47679,7 +49234,7 @@ _G.pg.base.equip_data_statistics[18023] = {
 
 
 _G.pg.base.equip_data_statistics[18040] = {
-	name = "TBDデバステイター",
+	name = "TBD蹂躏者",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -47687,7 +49242,7 @@ _G.pg.base.equip_data_statistics[18040] = {
 	value_2 = 12,
 	icon = "18000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -47874,7 +49429,7 @@ _G.pg.base.equip_data_statistics[18047] = {
 
 
 _G.pg.base.equip_data_statistics[18060] = {
-	name = "TBDデバステイター（VT-8中隊）",
+	name = "TBD蹂躏者(VT-8中队)",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -47882,7 +49437,7 @@ _G.pg.base.equip_data_statistics[18060] = {
 	value_2 = 45,
 	icon = "18060",
 	attribute_2 = "air",
-	descrip = "かのミッドウェイ海戦で空母ホーネットに配属された、ジョン・ウォルドロン少佐が率いる攻撃機中隊 ",
+	descrip = "中途岛海战中，大黄蜂号所属VT-8中队，约翰·沃尔德伦少校所率领的TBD蹂躏者鱼雷机机队",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -47936,7 +49491,6 @@ _G.pg.base.equip_data_statistics[18060] = {
 _G.pg.base.equip_data_statistics[18061] = {
 	base = 18060,
 	id = 18061,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -47963,7 +49517,6 @@ _G.pg.base.equip_data_statistics[18061] = {
 _G.pg.base.equip_data_statistics[18062] = {
 	base = 18060,
 	id = 18062,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -47990,7 +49543,6 @@ _G.pg.base.equip_data_statistics[18062] = {
 _G.pg.base.equip_data_statistics[18063] = {
 	base = 18060,
 	id = 18063,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48017,7 +49569,6 @@ _G.pg.base.equip_data_statistics[18063] = {
 _G.pg.base.equip_data_statistics[18064] = {
 	base = 18060,
 	id = 18064,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48044,7 +49595,6 @@ _G.pg.base.equip_data_statistics[18064] = {
 _G.pg.base.equip_data_statistics[18065] = {
 	base = 18060,
 	id = 18065,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48071,7 +49621,6 @@ _G.pg.base.equip_data_statistics[18065] = {
 _G.pg.base.equip_data_statistics[18066] = {
 	base = 18060,
 	id = 18066,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48098,7 +49647,6 @@ _G.pg.base.equip_data_statistics[18066] = {
 _G.pg.base.equip_data_statistics[18067] = {
 	base = 18060,
 	id = 18067,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48125,7 +49673,6 @@ _G.pg.base.equip_data_statistics[18067] = {
 _G.pg.base.equip_data_statistics[18068] = {
 	base = 18060,
 	id = 18068,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48152,7 +49699,6 @@ _G.pg.base.equip_data_statistics[18068] = {
 _G.pg.base.equip_data_statistics[18069] = {
 	base = 18060,
 	id = 18069,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48179,7 +49725,6 @@ _G.pg.base.equip_data_statistics[18069] = {
 _G.pg.base.equip_data_statistics[18070] = {
 	base = 18060,
 	id = 18070,
-	descrip = "",
 	ammo_info = {
 		{
 			6,
@@ -48285,7 +49830,7 @@ _G.pg.base.equip_data_statistics[18073] = {
 
 
 _G.pg.base.equip_data_statistics[18100] = {
-	name = "TBFアベンジャー",
+	name = "TBF复仇者",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 2,
@@ -48293,7 +49838,7 @@ _G.pg.base.equip_data_statistics[18100] = {
 	value_2 = 5,
 	icon = "18100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -48400,7 +49945,7 @@ _G.pg.base.equip_data_statistics[18103] = {
 
 
 _G.pg.base.equip_data_statistics[18120] = {
-	name = "TBFアベンジャー",
+	name = "TBF复仇者",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -48408,7 +49953,7 @@ _G.pg.base.equip_data_statistics[18120] = {
 	value_2 = 12,
 	icon = "18100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -48575,7 +50120,7 @@ _G.pg.base.equip_data_statistics[18126] = {
 
 
 _G.pg.base.equip_data_statistics[18140] = {
-	name = "TBFアベンジャー",
+	name = "TBF复仇者",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 4,
@@ -48583,7 +50128,7 @@ _G.pg.base.equip_data_statistics[18140] = {
 	value_2 = 25,
 	icon = "18100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -48851,7 +50396,7 @@ _G.pg.base.equip_data_statistics[18151] = {
 
 
 _G.pg.base.equip_data_statistics[18180] = {
-	name = "TBMアベンジャー(VT-18中隊)",
+	name = "TBM复仇者(VT-18中队)",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -48859,7 +50404,7 @@ _G.pg.base.equip_data_statistics[18180] = {
 	value_2 = 45,
 	icon = "18180",
 	attribute_2 = "air",
-	descrip = "空母イントレピッドとともに活躍していた攻撃機中隊",
+	descrip = "曾经服役于无畏号航空母舰的鱼雷机中队",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -49252,7 +50797,7 @@ _G.pg.base.equip_data_statistics[18193] = {
 
 
 _G.pg.base.equip_data_statistics[18220] = {
-	name = "XTB2D-1スカイパイレート",
+	name = "XTB2D-1天空海盗",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -49260,7 +50805,7 @@ _G.pg.base.equip_data_statistics[18220] = {
 	value_2 = 45,
 	icon = "18220",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -49570,14 +51115,14 @@ _G.pg.base.equip_data_statistics[18233] = {
 
 
 _G.pg.base.equip_data_statistics[19000] = {
-	name = "SBDドーントレス",
+	name = "SBD无畏",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "19000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -49700,7 +51245,7 @@ _G.pg.base.equip_data_statistics[19003] = {
 
 
 _G.pg.base.equip_data_statistics[19020] = {
-	name = "SBDドーントレス",
+	name = "SBD无畏",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -49708,7 +51253,7 @@ _G.pg.base.equip_data_statistics[19020] = {
 	value_2 = 5,
 	icon = "19000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -49831,7 +51376,7 @@ _G.pg.base.equip_data_statistics[19023] = {
 
 
 _G.pg.base.equip_data_statistics[19040] = {
-	name = "SBDドーントレス",
+	name = "SBD无畏",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -49839,7 +51384,7 @@ _G.pg.base.equip_data_statistics[19040] = {
 	value_2 = 12,
 	icon = "19000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -50058,7 +51603,7 @@ _G.pg.base.equip_data_statistics[19047] = {
 
 
 _G.pg.base.equip_data_statistics[19060] = {
-	name = "SBD（マクラスキー隊）",
+	name = "SBD无畏(麦克拉斯基队)",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -50066,7 +51611,7 @@ _G.pg.base.equip_data_statistics[19060] = {
 	value_2 = 45,
 	icon = "19060",
 	attribute_2 = "air",
-	descrip = "かのミッドウェイ大戦のユニオンの英雄が率いるSBD爆撃機隊",
+	descrip = "中途岛英雄，企业号的麦克拉斯基少校所率领的SBD无畏式俯冲轰炸机机队",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -50381,7 +51926,7 @@ _G.pg.base.equip_data_statistics[19073] = {
 
 
 _G.pg.base.equip_data_statistics[19100] = {
-	name = "SB2Cヘルダイバー",
+	name = "SB2C地狱俯冲者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -50389,7 +51934,7 @@ _G.pg.base.equip_data_statistics[19100] = {
 	value_2 = 5,
 	icon = "19100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -50512,7 +52057,7 @@ _G.pg.base.equip_data_statistics[19103] = {
 
 
 _G.pg.base.equip_data_statistics[19120] = {
-	name = "SB2Cヘルダイバー",
+	name = "SB2C地狱俯冲者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -50520,7 +52065,7 @@ _G.pg.base.equip_data_statistics[19120] = {
 	value_2 = 12,
 	icon = "19100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -50715,7 +52260,7 @@ _G.pg.base.equip_data_statistics[19126] = {
 
 
 _G.pg.base.equip_data_statistics[19140] = {
-	name = "SB2Cヘルダイバー",
+	name = "SB2C地狱俯冲者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -50723,7 +52268,7 @@ _G.pg.base.equip_data_statistics[19140] = {
 	value_2 = 25,
 	icon = "19100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -51039,7 +52584,7 @@ _G.pg.base.equip_data_statistics[19151] = {
 
 
 _G.pg.base.equip_data_statistics[19160] = {
-	name = "実験型XSB3C-1",
+	name = "实验型XSB3C-1",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -51047,7 +52592,7 @@ _G.pg.base.equip_data_statistics[19160] = {
 	value_2 = 45,
 	icon = "19160",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -51413,7 +52958,7 @@ _G.pg.base.equip_data_statistics[19173] = {
 
 
 _G.pg.base.equip_data_statistics[19200] = {
-	name = "BTD-1デストロイヤー",
+	name = "BTD-1毁灭者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -51421,7 +52966,7 @@ _G.pg.base.equip_data_statistics[19200] = {
 	value_2 = 12,
 	icon = "19200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -51588,7 +53133,7 @@ _G.pg.base.equip_data_statistics[19206] = {
 
 
 _G.pg.base.equip_data_statistics[19220] = {
-	name = "BTD-1デストロイヤー",
+	name = "BTD-1毁灭者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -51596,7 +53141,7 @@ _G.pg.base.equip_data_statistics[19220] = {
 	value_2 = 25,
 	icon = "19200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -51843,7 +53388,7 @@ _G.pg.base.equip_data_statistics[19230] = {
 
 
 _G.pg.base.equip_data_statistics[19240] = {
-	name = "BTD-1デストロイヤー",
+	name = "BTD-1毁灭者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -51851,7 +53396,7 @@ _G.pg.base.equip_data_statistics[19240] = {
 	value_2 = 45,
 	icon = "19200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -52161,7 +53706,7 @@ _G.pg.base.equip_data_statistics[19253] = {
 
 
 _G.pg.base.equip_data_statistics[19300] = {
-	name = "AD-1スカイレーダー",
+	name = "AD-1天袭者",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 6,
@@ -52169,7 +53714,7 @@ _G.pg.base.equip_data_statistics[19300] = {
 	value_2 = 65,
 	icon = "19300",
 	attribute_2 = "air",
-	descrip = "ユニオン製の新型艦載攻撃機。ロケット弾と爆弾を同時に搭載している",
+	descrip = "白鹰开发的新型舰上攻击机，同时搭载了火箭弹和航空炸弹",
 	nationality = 1,
 	ammo = 5,
 	value_3 = 0,
@@ -52536,14 +54081,14 @@ _G.pg.base.equip_data_statistics[19313] = {
 
 
 _G.pg.base.equip_data_statistics[21000] = {
-	name = "102mm単装砲(副砲)",
+	name = "单装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "21000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "3 x 1",
 	nationality = 2,
 	ammo = 3,
@@ -52638,14 +54183,14 @@ _G.pg.base.equip_data_statistics[21003] = {
 
 
 _G.pg.base.equip_data_statistics[21020] = {
-	name = "102mm単装砲(副砲)",
+	name = "单装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "21000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "3 x 1",
 	nationality = 2,
@@ -52741,14 +54286,14 @@ _G.pg.base.equip_data_statistics[21023] = {
 
 
 _G.pg.base.equip_data_statistics[21040] = {
-	name = "102mm単装砲(副砲)",
+	name = "单装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "21000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 1",
 	nationality = 2,
@@ -52888,14 +54433,14 @@ _G.pg.base.equip_data_statistics[21047] = {
 
 
 _G.pg.base.equip_data_statistics[21100] = {
-	name = "102mm連装砲(副砲)",
+	name = "双联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "21100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "3 x 2",
 	nationality = 2,
 	ammo = 3,
@@ -52990,14 +54535,14 @@ _G.pg.base.equip_data_statistics[21103] = {
 
 
 _G.pg.base.equip_data_statistics[21120] = {
-	name = "102mm連装砲(副砲)",
+	name = "双联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "21100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "3 x 2",
 	nationality = 2,
@@ -53093,14 +54638,14 @@ _G.pg.base.equip_data_statistics[21123] = {
 
 
 _G.pg.base.equip_data_statistics[21140] = {
-	name = "102mm連装砲(副砲)",
+	name = "双联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "21100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 2",
 	nationality = 2,
@@ -53240,14 +54785,14 @@ _G.pg.base.equip_data_statistics[21147] = {
 
 
 _G.pg.base.equip_data_statistics[21160] = {
-	name = "102mm連装副砲MarkXVI",
+	name = "双联装102mm副炮Mark XVI",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 25,
 	icon = "21160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "3 x 2",
 	nationality = 2,
@@ -53430,14 +54975,14 @@ _G.pg.base.equip_data_statistics[21171] = {
 
 
 _G.pg.base.equip_data_statistics[21200] = {
-	name = "102mm三連装砲(副砲)",
+	name = "三联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "21200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "3 x 3",
 	nationality = 2,
@@ -53533,14 +55078,14 @@ _G.pg.base.equip_data_statistics[21203] = {
 
 
 _G.pg.base.equip_data_statistics[21220] = {
-	name = "102mm三連装砲(副砲)",
+	name = "三联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "21200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 3",
 	nationality = 2,
@@ -53669,14 +55214,14 @@ _G.pg.base.equip_data_statistics[21226] = {
 
 
 _G.pg.base.equip_data_statistics[21240] = {
-	name = "102mm三連装砲(副砲)",
+	name = "三联装102mm副炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "21200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "3 x 3",
 	nationality = 2,
@@ -53861,14 +55406,14 @@ _G.pg.base.equip_data_statistics[21251] = {
 
 
 _G.pg.base.equip_data_statistics[21300] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "21300",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "4 x 1",
 	nationality = 2,
 	ammo = 3,
@@ -53963,14 +55508,14 @@ _G.pg.base.equip_data_statistics[21303] = {
 
 
 _G.pg.base.equip_data_statistics[21320] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "21300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "4 x 1",
 	nationality = 2,
@@ -54066,14 +55611,14 @@ _G.pg.base.equip_data_statistics[21323] = {
 
 
 _G.pg.base.equip_data_statistics[21340] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "21300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "4 x 1",
 	nationality = 2,
@@ -54213,14 +55758,14 @@ _G.pg.base.equip_data_statistics[21347] = {
 
 
 _G.pg.base.equip_data_statistics[21400] = {
-	name = "120mm連装砲",
+	name = "双联装120mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "21400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "4 x 4",
 	nationality = 2,
@@ -54316,14 +55861,14 @@ _G.pg.base.equip_data_statistics[21403] = {
 
 
 _G.pg.base.equip_data_statistics[21420] = {
-	name = "120mm連装砲",
+	name = "双联装120mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "21400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 2,
@@ -54452,14 +55997,14 @@ _G.pg.base.equip_data_statistics[21426] = {
 
 
 _G.pg.base.equip_data_statistics[21440] = {
-	name = "120mm連装砲",
+	name = "双联装120mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "21400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 2,
@@ -54644,7 +56189,7 @@ _G.pg.base.equip_data_statistics[21451] = {
 
 
 _G.pg.base.equip_data_statistics[21460] = {
-	name = "120mm連装両用砲MarkXI",
+	name = "双联装120mm高平两用炮Mark XI",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -54655,7 +56200,7 @@ _G.pg.base.equip_data_statistics[21460] = {
 	rarity = 5,
 	damage = "6 x 4",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 25,
 	id = 21460,
@@ -54860,7 +56405,7 @@ _G.pg.base.equip_data_statistics[21473] = {
 
 
 _G.pg.base.equip_data_statistics[21500] = {
-	name = "134mm連装高角砲",
+	name = "双联装134mm高炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -54871,7 +56416,7 @@ _G.pg.base.equip_data_statistics[21500] = {
 	rarity = 2,
 	damage = "4 x 2",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 3,
 	id = 21500,
@@ -54964,7 +56509,7 @@ _G.pg.base.equip_data_statistics[21503] = {
 
 
 _G.pg.base.equip_data_statistics[21520] = {
-	name = "134mm連装高角砲",
+	name = "双联装134mm高炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -54975,7 +56520,7 @@ _G.pg.base.equip_data_statistics[21520] = {
 	rarity = 3,
 	damage = "4 x 2",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 1,
 	value_3 = 7,
 	id = 21520,
@@ -55102,7 +56647,7 @@ _G.pg.base.equip_data_statistics[21526] = {
 
 
 _G.pg.base.equip_data_statistics[21540] = {
-	name = "134mm連装高角砲",
+	name = "双联装134mm高炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -55113,7 +56658,7 @@ _G.pg.base.equip_data_statistics[21540] = {
 	rarity = 4,
 	damage = "4 x 2",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 1,
 	value_3 = 15,
 	id = 21540,
@@ -55296,7 +56841,7 @@ _G.pg.base.equip_data_statistics[21551] = {
 
 
 _G.pg.base.equip_data_statistics[21600] = {
-	name = "114mm連装両用砲MarkIV",
+	name = "双联装114mm高平两用炮Mark IV",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -55307,7 +56852,7 @@ _G.pg.base.equip_data_statistics[21600] = {
 	rarity = 5,
 	damage = "4 x 4",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 20,
 	id = 21600,
@@ -55514,7 +57059,7 @@ _G.pg.base.equip_data_statistics[21613] = {
 
 
 _G.pg.base.equip_data_statistics[21620] = {
-	name = "113mm単装両用砲Mark IV",
+	name = "单装113mm高平两用炮Mark IV",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -55732,14 +57277,14 @@ _G.pg.base.equip_data_statistics[21633] = {
 
 
 _G.pg.base.equip_data_statistics[22000] = {
-	name = "152mm単装砲",
+	name = "单装152mm副炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "22000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "10 x 3",
 	nationality = 2,
 	ammo = 1,
@@ -55827,14 +57372,14 @@ _G.pg.base.equip_data_statistics[22003] = {
 
 
 _G.pg.base.equip_data_statistics[22020] = {
-	name = "152mm単装砲",
+	name = "单装152mm副炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 2,
 	value_2 = 5,
 	icon = "22000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "11 x 3",
 	nationality = 2,
@@ -55923,14 +57468,14 @@ _G.pg.base.equip_data_statistics[22023] = {
 
 
 _G.pg.base.equip_data_statistics[22040] = {
-	name = "152mm単装砲",
+	name = "单装152mm副炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "22000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "13 x 3",
 	nationality = 2,
@@ -56063,14 +57608,14 @@ _G.pg.base.equip_data_statistics[22047] = {
 
 
 _G.pg.base.equip_data_statistics[22060] = {
-	name = "152mm連装副砲",
+	name = "双联装152mm副炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 12,
 	icon = "22060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "13 x 4",
 	nationality = 2,
@@ -56203,14 +57748,14 @@ _G.pg.base.equip_data_statistics[22067] = {
 
 
 _G.pg.base.equip_data_statistics[22100] = {
-	name = "152mm連装砲",
+	name = "双联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "22100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "10 x 4",
 	nationality = 2,
@@ -56299,14 +57844,14 @@ _G.pg.base.equip_data_statistics[22103] = {
 
 
 _G.pg.base.equip_data_statistics[22120] = {
-	name = "152mm連装砲",
+	name = "双联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "22100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "12 x 4",
 	nationality = 2,
@@ -56428,14 +57973,14 @@ _G.pg.base.equip_data_statistics[22126] = {
 
 
 _G.pg.base.equip_data_statistics[22140] = {
-	name = "152mm連装砲",
+	name = "双联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "22100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "15 x 4",
 	nationality = 2,
@@ -56613,14 +58158,14 @@ _G.pg.base.equip_data_statistics[22151] = {
 
 
 _G.pg.base.equip_data_statistics[22200] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "22200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "10 x 6",
 	nationality = 2,
@@ -56709,14 +58254,14 @@ _G.pg.base.equip_data_statistics[22203] = {
 
 
 _G.pg.base.equip_data_statistics[22220] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "22200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "12 x 6",
 	nationality = 2,
@@ -56838,14 +58383,14 @@ _G.pg.base.equip_data_statistics[22226] = {
 
 
 _G.pg.base.equip_data_statistics[22240] = {
-	name = "152mm三連装砲",
+	name = "三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "22200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "15 x 6",
 	nationality = 2,
@@ -57023,14 +58568,14 @@ _G.pg.base.equip_data_statistics[22251] = {
 
 
 _G.pg.base.equip_data_statistics[22260] = {
-	name = "試製152mm三連装砲",
+	name = "试作型三联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 45,
 	icon = "22260",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "16 x 3",
 	nationality = 2,
@@ -57232,7 +58777,7 @@ _G.pg.base.equip_data_statistics[22273] = {
 
 
 _G.pg.base.equip_data_statistics[22280] = {
-	name = "試作型四連装152mm砲",
+	name = "试作型四联装152mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -57441,14 +58986,14 @@ _G.pg.base.equip_data_statistics[22293] = {
 
 
 _G.pg.base.equip_data_statistics[23000] = {
-	name = "203mm連装砲",
+	name = "双联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 5,
 	icon = "23000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "24 x 4",
 	nationality = 2,
@@ -57536,14 +59081,14 @@ _G.pg.base.equip_data_statistics[23003] = {
 
 
 _G.pg.base.equip_data_statistics[23020] = {
-	name = "203mm連装砲",
+	name = "双联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 12,
 	icon = "23000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "26 x 4",
 	nationality = 2,
@@ -57664,14 +59209,14 @@ _G.pg.base.equip_data_statistics[23026] = {
 
 
 _G.pg.base.equip_data_statistics[23040] = {
-	name = "203mm連装砲",
+	name = "双联装203mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 25,
 	icon = "23000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "28 x 4",
 	nationality = 2,
@@ -57848,14 +59393,14 @@ _G.pg.base.equip_data_statistics[23051] = {
 
 
 _G.pg.base.equip_data_statistics[23100] = {
-	name = "試作型234mm連装砲",
+	name = "试作型双联装234mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "23100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "35 x 4",
 	nationality = 2,
@@ -58056,14 +59601,14 @@ _G.pg.base.equip_data_statistics[23113] = {
 
 
 _G.pg.base.equip_data_statistics[23120] = {
-	name = "試作型234mm三連装砲",
+	name = "试作型三联装234mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 65,
 	icon = "23120",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 6,
 	damage = "35 x 6",
 	nationality = 2,
@@ -58264,14 +59809,14 @@ _G.pg.base.equip_data_statistics[23133] = {
 
 
 _G.pg.base.equip_data_statistics[23200] = {
-	name = "試作型203mm三連装砲MarkIX",
+	name = "试作型三联装203mm主炮Mark IX",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "23200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "28 x 6",
 	nationality = 2,
@@ -58472,7 +60017,7 @@ _G.pg.base.equip_data_statistics[23213] = {
 
 
 _G.pg.base.equip_data_statistics[23220] = {
-	name = "試作型203mm三連装砲Mark X",
+	name = "试作型三联装203mm主炮Mark X",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
@@ -58680,14 +60225,14 @@ _G.pg.base.equip_data_statistics[23233] = {
 
 
 _G.pg.base.equip_data_statistics[24000] = {
-	name = "356mm四連装砲",
+	name = "四联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "24000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "40 x 4",
 	nationality = 2,
@@ -58801,14 +60346,14 @@ _G.pg.base.equip_data_statistics[24006] = {
 
 
 _G.pg.base.equip_data_statistics[24020] = {
-	name = "356mm四連装砲",
+	name = "四联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "24000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "44 x 4",
 	nationality = 2,
@@ -58967,14 +60512,14 @@ _G.pg.base.equip_data_statistics[24030] = {
 
 
 _G.pg.base.equip_data_statistics[24040] = {
-	name = "356mm四連装砲",
+	name = "四联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "24000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "48 x 4",
 	nationality = 2,
@@ -59169,14 +60714,14 @@ _G.pg.base.equip_data_statistics[24053] = {
 
 
 _G.pg.base.equip_data_statistics[24060] = {
-	name = "356mm連装砲MarkVII",
+	name = "双联装356mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 25,
 	icon = "24060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "56 x 2",
 	nationality = 2,
@@ -59347,14 +60892,14 @@ _G.pg.base.equip_data_statistics[24071] = {
 
 
 _G.pg.base.equip_data_statistics[24100] = {
-	name = "381mm連装砲",
+	name = "双联装381mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 5,
 	icon = "24100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "46 x 2",
 	nationality = 2,
@@ -59435,14 +60980,14 @@ _G.pg.base.equip_data_statistics[24103] = {
 
 
 _G.pg.base.equip_data_statistics[24120] = {
-	name = "381mm連装砲",
+	name = "双联装381mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 12,
 	icon = "24100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "51 x 2",
 	nationality = 2,
@@ -59557,14 +61102,14 @@ _G.pg.base.equip_data_statistics[24126] = {
 
 
 _G.pg.base.equip_data_statistics[24140] = {
-	name = "381mm連装砲",
+	name = "双联装381mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 25,
 	icon = "24100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "56 x 2",
 	nationality = 2,
@@ -59735,14 +61280,14 @@ _G.pg.base.equip_data_statistics[24151] = {
 
 
 _G.pg.base.equip_data_statistics[24160] = {
-	name = "試製381mm三連装砲",
+	name = "试作型三联装381mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "24160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "56 x 3",
 	nationality = 2,
@@ -59937,14 +61482,14 @@ _G.pg.base.equip_data_statistics[24173] = {
 
 
 _G.pg.base.equip_data_statistics[24200] = {
-	name = "406mm三連装砲",
+	name = "三联装406mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "24200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "48 x 3",
 	nationality = 2,
@@ -60058,14 +61603,14 @@ _G.pg.base.equip_data_statistics[24206] = {
 
 
 _G.pg.base.equip_data_statistics[24220] = {
-	name = "406mm三連装砲",
+	name = "三联装406mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "24200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "53 x 3",
 	nationality = 2,
@@ -60223,14 +61768,14 @@ _G.pg.base.equip_data_statistics[24230] = {
 
 
 _G.pg.base.equip_data_statistics[24240] = {
-	name = "406mm三連装砲",
+	name = "三联装406mm主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "24200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "58 x 3",
 	nationality = 2,
@@ -60424,14 +61969,14 @@ _G.pg.base.equip_data_statistics[24253] = {
 
 
 _G.pg.base.equip_data_statistics[24300] = {
-	name = "381mm連装砲改",
+	name = "双联装381mm主炮改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "24300",
 	attribute_2 = "cannon",
-	descrip = "381mm連装砲の改良型",
+	descrip = "双联装381mm主炮的改进型",
 	rarity = 3,
 	damage = "46 x 2",
 	nationality = 2,
@@ -60545,14 +62090,14 @@ _G.pg.base.equip_data_statistics[24306] = {
 
 
 _G.pg.base.equip_data_statistics[24320] = {
-	name = "381mm連装砲改",
+	name = "双联装381mm主炮改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "24300",
 	attribute_2 = "cannon",
-	descrip = "381mm連装砲の改良型",
+	descrip = "双联装381mm主炮的改进型",
 	rarity = 4,
 	damage = "51 x 2",
 	nationality = 2,
@@ -60711,14 +62256,14 @@ _G.pg.base.equip_data_statistics[24330] = {
 
 
 _G.pg.base.equip_data_statistics[24340] = {
-	name = "381mm連装砲改",
+	name = "双联装381mm主炮改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "24300",
 	attribute_2 = "cannon",
-	descrip = "381mm連装砲の改良型",
+	descrip = "双联装381mm主炮的改进型",
 	rarity = 5,
 	damage = "56 x 2",
 	nationality = 2,
@@ -60913,14 +62458,14 @@ _G.pg.base.equip_data_statistics[24353] = {
 
 
 _G.pg.base.equip_data_statistics[24400] = {
-	name = "試作型406mm三連装砲Mk.II",
+	name = "试作型三联装406mm主炮Mk.II",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 65,
 	icon = "24400",
 	attribute_2 = "cannon",
-	descrip = "ライオン級戦艦に搭載予定の406mm艦砲",
+	descrip = "预计由狮级战列舰搭载的406mm口径舰炮",
 	rarity = 6,
 	damage = "76 x 3",
 	nationality = 2,
@@ -61115,14 +62660,14 @@ _G.pg.base.equip_data_statistics[24413] = {
 
 
 _G.pg.base.equip_data_statistics[25000] = {
-	name = "533mm三連装魚雷MarkIX",
+	name = "三联装533mm鱼雷Mark IX",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 12,
 	icon = "25000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "62 x 3",
 	nationality = 2,
@@ -61264,14 +62809,14 @@ _G.pg.base.equip_data_statistics[25007] = {
 
 
 _G.pg.base.equip_data_statistics[25020] = {
-	name = "533mm四連装魚雷MarkIX",
+	name = "四联装533mm鱼雷Mark IX",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 25,
 	icon = "25020",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "62 x 4",
 	nationality = 2,
@@ -61458,14 +63003,14 @@ _G.pg.base.equip_data_statistics[25031] = {
 
 
 _G.pg.base.equip_data_statistics[25040] = {
-	name = "533mm五連装魚雷MarkIX",
+	name = "五联装533mm鱼雷Mark IX",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 45,
 	icon = "25040",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "62 x 5",
 	nationality = 2,
@@ -61676,14 +63221,14 @@ _G.pg.base.equip_data_statistics[25053] = {
 
 
 _G.pg.base.equip_data_statistics[25100] = {
-	name = "潜水艦用MarkVIII魚雷",
+	name = "潜艇用Mark VIII鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 5,
 	icon = "25100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "51 x 3",
 	nationality = 2,
@@ -61771,14 +63316,14 @@ _G.pg.base.equip_data_statistics[25103] = {
 
 
 _G.pg.base.equip_data_statistics[25120] = {
-	name = "潜水艦用MarkVIII魚雷",
+	name = "潜艇用Mark VIII鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 12,
 	icon = "25100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "57 x 3",
 	nationality = 2,
@@ -61899,14 +63444,14 @@ _G.pg.base.equip_data_statistics[25126] = {
 
 
 _G.pg.base.equip_data_statistics[25140] = {
-	name = "潜水艦用MarkVIII魚雷",
+	name = "潜艇用Mark VIII鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 25,
 	icon = "25100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "64 x 3",
 	nationality = 2,
@@ -62083,14 +63628,14 @@ _G.pg.base.equip_data_statistics[25151] = {
 
 
 _G.pg.base.equip_data_statistics[25200] = {
-	name = "潜水艦用Mark12魚雷“Ferry”",
+	name = "潜艇用Mark 12鱼雷-菲里",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 45,
 	icon = "25200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "56 x 3",
 	nationality = 2,
@@ -62291,14 +63836,14 @@ _G.pg.base.equip_data_statistics[25213] = {
 
 
 _G.pg.base.equip_data_statistics[25300] = {
-	name = "潜水艦用Mark20(S)魚雷“Bidder”",
+	name = "潜艇用Mark 20 S鱼雷-彼得",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 45,
 	icon = "25300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "70 x 3",
 	nationality = 2,
@@ -62499,14 +64044,14 @@ _G.pg.base.equip_data_statistics[25313] = {
 
 
 _G.pg.base.equip_data_statistics[25800] = {
-	name = "対潜迫撃砲「ヘッジホッグ」",
+	name = "刺猬弹",
 	speciality = "<[ASW]>",
 	type = 14,
 	tech = 0,
 	value_2 = 45,
 	icon = "25800",
 	attribute_2 = "antisub",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "85 ~ 170",
 	nationality = 2,
@@ -62701,14 +64246,14 @@ _G.pg.base.equip_data_statistics[25813] = {
 
 
 _G.pg.base.equip_data_statistics[26000] = {
-	name = "QF 2ポンド二連装ポンポン砲",
+	name = "双联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "26000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "14<[WAVE]>",
 	nationality = 2,
 	ammo = 5,
@@ -62802,14 +64347,14 @@ _G.pg.base.equip_data_statistics[26003] = {
 
 
 _G.pg.base.equip_data_statistics[26020] = {
-	name = "QF 2ポンド二連装ポンポン砲",
+	name = "双联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "26000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "19<[WAVE]>",
 	nationality = 2,
@@ -62904,14 +64449,14 @@ _G.pg.base.equip_data_statistics[26023] = {
 
 
 _G.pg.base.equip_data_statistics[26040] = {
-	name = "QF 2ポンド二連装ポンポン砲",
+	name = "双联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "26000",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "23<[WAVE]>",
 	nationality = 2,
@@ -63050,14 +64595,14 @@ _G.pg.base.equip_data_statistics[26047] = {
 
 
 _G.pg.base.equip_data_statistics[26060] = {
-	name = "40mmボフォース連装対空機銃MarkI",
+	name = "双联装40mm博福斯对空机炮Mark I",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "26060",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "28<[WAVE]>",
 	nationality = 2,
@@ -63241,14 +64786,14 @@ _G.pg.base.equip_data_statistics[26071] = {
 
 
 _G.pg.base.equip_data_statistics[26100] = {
-	name = "QF 2ポンド四連装ポンポン砲",
+	name = "四联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "26100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "27<[WAVE]>",
 	nationality = 2,
@@ -63343,14 +64888,14 @@ _G.pg.base.equip_data_statistics[26103] = {
 
 
 _G.pg.base.equip_data_statistics[26120] = {
-	name = "QF 2ポンド四連装ポンポン砲",
+	name = "四联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "26100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "30<[WAVE]>",
 	nationality = 2,
@@ -63478,14 +65023,14 @@ _G.pg.base.equip_data_statistics[26126] = {
 
 
 _G.pg.base.equip_data_statistics[26140] = {
-	name = "QF 2ポンド四連装ポンポン砲",
+	name = "四联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "26100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "34<[WAVE]>",
 	nationality = 2,
@@ -63669,14 +65214,14 @@ _G.pg.base.equip_data_statistics[26151] = {
 
 
 _G.pg.base.equip_data_statistics[26200] = {
-	name = "QF 2ポンド八連装ポンポン砲",
+	name = "八联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "26200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "42<[WAVE]>",
 	nationality = 2,
@@ -63804,14 +65349,14 @@ _G.pg.base.equip_data_statistics[26206] = {
 
 
 _G.pg.base.equip_data_statistics[26220] = {
-	name = "QF 2ポンド八連装ポンポン砲",
+	name = "八联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 25,
 	icon = "26200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "46<[WAVE]>",
 	nationality = 2,
@@ -63983,14 +65528,14 @@ _G.pg.base.equip_data_statistics[26230] = {
 
 
 _G.pg.base.equip_data_statistics[26240] = {
-	name = "QF 2ポンド八連装ポンポン砲",
+	name = "八联装40mm“砰砰”炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 45,
 	icon = "26200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "50<[WAVE]>",
 	nationality = 2,
@@ -64198,14 +65743,14 @@ _G.pg.base.equip_data_statistics[26253] = {
 
 
 _G.pg.base.equip_data_statistics[26300] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "26300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "16<[WAVE]>",
 	nationality = 1,
@@ -64300,14 +65845,14 @@ _G.pg.base.equip_data_statistics[26303] = {
 
 
 _G.pg.base.equip_data_statistics[26320] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "26300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "18<[WAVE]>",
 	nationality = 1,
@@ -64435,14 +65980,14 @@ _G.pg.base.equip_data_statistics[26326] = {
 
 
 _G.pg.base.equip_data_statistics[26340] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "26300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "22<[WAVE]>",
 	nationality = 1,
@@ -64626,14 +66171,14 @@ _G.pg.base.equip_data_statistics[26351] = {
 
 
 _G.pg.base.equip_data_statistics[26360] = {
-	name = "20mmエリコン高角砲MkII",
+	name = "20mm厄利孔高射炮MkII",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "26360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "16<[WAVE]>",
 	nationality = 2,
@@ -64817,14 +66362,14 @@ _G.pg.base.equip_data_statistics[26371] = {
 
 
 _G.pg.base.equip_data_statistics[26380] = {
-	name = "20mmエリコン連装高角砲Mk.V",
+	name = "双管20mm厄利孔高射炮Mk.V ",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "26380",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "24<[WAVE]>",
 	nationality = 2,
@@ -65008,14 +66553,14 @@ _G.pg.base.equip_data_statistics[26391] = {
 
 
 _G.pg.base.equip_data_statistics[26400] = {
-	name = "102mm高角砲",
+	name = "102mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "26400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "19<[WAVE]>",
 	nationality = 2,
@@ -65110,14 +66655,14 @@ _G.pg.base.equip_data_statistics[26403] = {
 
 
 _G.pg.base.equip_data_statistics[26420] = {
-	name = "102mm高角砲",
+	name = "102mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "26400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "21<[WAVE]>",
 	nationality = 2,
@@ -65245,14 +66790,14 @@ _G.pg.base.equip_data_statistics[26426] = {
 
 
 _G.pg.base.equip_data_statistics[26440] = {
-	name = "102mm高角砲",
+	name = "102mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "26400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "25<[WAVE]>",
 	nationality = 2,
@@ -65436,14 +66981,14 @@ _G.pg.base.equip_data_statistics[26451] = {
 
 
 _G.pg.base.equip_data_statistics[26460] = {
-	name = "120mm対空砲MarkVIII",
+	name = "120mm高射炮Mark VIII",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "26460",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "41<[WAVE]>",
 	nationality = 2,
@@ -65627,14 +67172,14 @@ _G.pg.base.equip_data_statistics[26471] = {
 
 
 _G.pg.base.equip_data_statistics[26500] = {
-	name = "113mm連装高角砲",
+	name = "双联装113mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "26500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "38<[WAVE]>",
 	nationality = 2,
@@ -65762,14 +67307,14 @@ _G.pg.base.equip_data_statistics[26506] = {
 
 
 _G.pg.base.equip_data_statistics[26520] = {
-	name = "113mm連装高角砲",
+	name = "双联装113mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 25,
 	icon = "26500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "45<[WAVE]>",
 	nationality = 2,
@@ -65941,14 +67486,14 @@ _G.pg.base.equip_data_statistics[26530] = {
 
 
 _G.pg.base.equip_data_statistics[26540] = {
-	name = "113mm連装高角砲",
+	name = "双联装113mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 45,
 	icon = "26500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "52<[WAVE]>",
 	nationality = 2,
@@ -66156,7 +67701,7 @@ _G.pg.base.equip_data_statistics[26553] = {
 
 
 _G.pg.base.equip_data_statistics[26600] = {
-	name = "連装ボフォース40mm機関砲STAAG",
+	name = "双联装40mm博福斯STAAG",
 	speciality = "<[SRG]>",
 	type = 6,
 	attribute_3 = "hit",
@@ -66167,7 +67712,7 @@ _G.pg.base.equip_data_statistics[26600] = {
 	rarity = 5,
 	damage = "38<[WAVE]>",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 5,
 	value_3 = 10,
 	id = 26600,
@@ -66372,7 +67917,7 @@ _G.pg.base.equip_data_statistics[26613] = {
 
 
 _G.pg.base.equip_data_statistics[26620] = {
-	name = "連装ボフォース40mm機関砲「Hazemeyer」",
+	name = "双联装40mm博福斯海兹梅耶",
 	speciality = "<[SRG]>",
 	type = 6,
 	attribute_3 = "hit",
@@ -66383,7 +67928,7 @@ _G.pg.base.equip_data_statistics[26620] = {
 	rarity = 5,
 	damage = "38<[WAVE]>",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 5,
 	value_3 = 5,
 	id = 26620,
@@ -66588,7 +68133,7 @@ _G.pg.base.equip_data_statistics[26633] = {
 
 
 _G.pg.base.equip_data_statistics[26640] = {
-	name = "134mm連装高角砲",
+	name = "双联装134mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	attribute_3 = "cannon",
@@ -66599,7 +68144,7 @@ _G.pg.base.equip_data_statistics[26640] = {
 	rarity = 5,
 	damage = "53<[WAVE]>",
 	nationality = 2,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 5,
 	value_3 = 15,
 	id = 26640,
@@ -66804,14 +68349,14 @@ _G.pg.base.equip_data_statistics[26653] = {
 
 
 _G.pg.base.equip_data_statistics[26660] = {
-	name = "六連装ボフォース40mm対空砲",
+	name = "六联装40mm博福斯对空机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "26660",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "42<[WAVE]>",
 	nationality = 2,
@@ -67019,7 +68564,7 @@ _G.pg.base.equip_data_statistics[26673] = {
 
 
 _G.pg.base.equip_data_statistics[26680] = {
-	name = "134mm連装高角砲(時限信管)",
+	name = "双联装134mm高炮(定时引信)",
 	speciality = "<[LRG]>",
 	type = 21,
 	attribute_3 = "cannon",
@@ -67212,7 +68757,7 @@ _G.pg.base.equip_data_statistics[26693] = {
 
 
 _G.pg.base.equip_data_statistics[27000] = {
-	name = "シーファイア",
+	name = "海喷火",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -67220,7 +68765,7 @@ _G.pg.base.equip_data_statistics[27000] = {
 	value_2 = 5,
 	icon = "27000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -67347,7 +68892,7 @@ _G.pg.base.equip_data_statistics[27003] = {
 
 
 _G.pg.base.equip_data_statistics[27020] = {
-	name = "シーファイア",
+	name = "海喷火",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -67355,7 +68900,7 @@ _G.pg.base.equip_data_statistics[27020] = {
 	value_2 = 12,
 	icon = "27000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -67557,7 +69102,7 @@ _G.pg.base.equip_data_statistics[27026] = {
 
 
 _G.pg.base.equip_data_statistics[27040] = {
-	name = "シーファイア",
+	name = "海喷火",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -67565,7 +69110,7 @@ _G.pg.base.equip_data_statistics[27040] = {
 	value_2 = 25,
 	icon = "27000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -67893,7 +69438,7 @@ _G.pg.base.equip_data_statistics[27051] = {
 
 
 _G.pg.base.equip_data_statistics[27060] = {
-	name = "シーファイアFR.47",
+	name = "海喷火FR.47",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -67901,7 +69446,7 @@ _G.pg.base.equip_data_statistics[27060] = {
 	value_2 = 45,
 	icon = "27060",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -68281,7 +69826,7 @@ _G.pg.base.equip_data_statistics[27073] = {
 
 
 _G.pg.base.equip_data_statistics[27100] = {
-	name = "シーファング",
+	name = "海毒牙",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -68289,7 +69834,7 @@ _G.pg.base.equip_data_statistics[27100] = {
 	value_2 = 12,
 	icon = "27100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -68463,7 +70008,7 @@ _G.pg.base.equip_data_statistics[27106] = {
 
 
 _G.pg.base.equip_data_statistics[27120] = {
-	name = "シーファング",
+	name = "海毒牙",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -68471,7 +70016,7 @@ _G.pg.base.equip_data_statistics[27120] = {
 	value_2 = 25,
 	icon = "27100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -68729,7 +70274,7 @@ _G.pg.base.equip_data_statistics[27130] = {
 
 
 _G.pg.base.equip_data_statistics[27140] = {
-	name = "シーファング",
+	name = "海毒牙",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -68737,7 +70282,7 @@ _G.pg.base.equip_data_statistics[27140] = {
 	value_2 = 45,
 	icon = "27100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69061,14 +70606,14 @@ _G.pg.base.equip_data_statistics[27153] = {
 
 
 _G.pg.base.equip_data_statistics[27200] = {
-	name = "シーグラディエーター",
+	name = "海斗士",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "27200",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69163,7 +70708,7 @@ _G.pg.base.equip_data_statistics[27203] = {
 
 
 _G.pg.base.equip_data_statistics[27220] = {
-	name = "シーグラディエーター",
+	name = "海斗士",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -69171,7 +70716,7 @@ _G.pg.base.equip_data_statistics[27220] = {
 	value_2 = 5,
 	icon = "27200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69266,7 +70811,7 @@ _G.pg.base.equip_data_statistics[27223] = {
 
 
 _G.pg.base.equip_data_statistics[27240] = {
-	name = "シーグラディエーター",
+	name = "海斗士",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -69274,7 +70819,7 @@ _G.pg.base.equip_data_statistics[27240] = {
 	value_2 = 12,
 	icon = "27200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69437,7 +70982,7 @@ _G.pg.base.equip_data_statistics[27247] = {
 
 
 _G.pg.base.equip_data_statistics[27260] = {
-	name = "シーハリケーン",
+	name = "海飓风",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -69445,7 +70990,7 @@ _G.pg.base.equip_data_statistics[27260] = {
 	value_2 = 12,
 	icon = "27260",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69608,7 +71153,7 @@ _G.pg.base.equip_data_statistics[27267] = {
 
 
 _G.pg.base.equip_data_statistics[27300] = {
-	name = "シーフューリー",
+	name = "海怒",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -69616,7 +71161,7 @@ _G.pg.base.equip_data_statistics[27300] = {
 	value_2 = 45,
 	icon = "27300",
 	attribute_2 = "air",
-	descrip = "かの大戦でロイヤルが使用していたレシプロ機。空戦性能が高く評価されていた",
+	descrip = "皇家海军最后服役的螺旋桨飞机，因战斗表现良好广受好评",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -69940,7 +71485,7 @@ _G.pg.base.equip_data_statistics[27313] = {
 
 
 _G.pg.base.equip_data_statistics[27320] = {
-	name = "シーホーネット",
+	name = "海大黄蜂",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -69948,7 +71493,7 @@ _G.pg.base.equip_data_statistics[27320] = {
 	value_2 = 45,
 	icon = "27320",
 	attribute_2 = "air",
-	descrip = "ロイヤル双発戦闘機「デ・ハビランド ホーネット」の艦載機。高い速度を始めとした優秀な性能を誇る",
+	descrip = "皇家双活塞发动机式战斗机「德哈维兰大黄蜂」的舰载机型，飞行速度很快，性能优秀",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -70272,7 +71817,7 @@ _G.pg.base.equip_data_statistics[27333] = {
 
 
 _G.pg.base.equip_data_statistics[28000] = {
-	name = "ソードフィッシュ",
+	name = "剑鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 2,
@@ -70280,7 +71825,7 @@ _G.pg.base.equip_data_statistics[28000] = {
 	value_2 = 5,
 	icon = "28000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -70387,7 +71932,7 @@ _G.pg.base.equip_data_statistics[28003] = {
 
 
 _G.pg.base.equip_data_statistics[28020] = {
-	name = "ソードフィッシュ",
+	name = "剑鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -70395,7 +71940,7 @@ _G.pg.base.equip_data_statistics[28020] = {
 	value_2 = 12,
 	icon = "28000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -70562,7 +72107,7 @@ _G.pg.base.equip_data_statistics[28026] = {
 
 
 _G.pg.base.equip_data_statistics[28040] = {
-	name = "ソードフィッシュ",
+	name = "剑鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 4,
@@ -70570,7 +72115,7 @@ _G.pg.base.equip_data_statistics[28040] = {
 	value_2 = 25,
 	icon = "28000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -70838,7 +72383,7 @@ _G.pg.base.equip_data_statistics[28051] = {
 
 
 _G.pg.base.equip_data_statistics[28060] = {
-	name = "ソードフィッシュ（818中隊）",
+	name = "剑鱼(818中队)",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -70846,7 +72391,7 @@ _G.pg.base.equip_data_statistics[28060] = {
 	value_2 = 45,
 	icon = "28060",
 	attribute_2 = "air",
-	descrip = "アーク・ロイヤルに搭載された818中隊のソードフィッシュ攻撃機。ビスマルク追撃戦において決め手となる雷撃を放った。 ",
+	descrip = "由服役于皇家方舟号的818中队所驾驶的剑鱼式鱼雷轰炸机，曾经在围捕{namecode:435}的战斗中完成了对{namecode:435}的关键雷击",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -71239,7 +72784,7 @@ _G.pg.base.equip_data_statistics[28073] = {
 
 
 _G.pg.base.equip_data_statistics[28100] = {
-	name = "バラクーダ",
+	name = "梭鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -71247,7 +72792,7 @@ _G.pg.base.equip_data_statistics[28100] = {
 	value_2 = 12,
 	icon = "28100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -71414,7 +72959,7 @@ _G.pg.base.equip_data_statistics[28106] = {
 
 
 _G.pg.base.equip_data_statistics[28120] = {
-	name = "バラクーダ",
+	name = "梭鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 4,
@@ -71422,7 +72967,7 @@ _G.pg.base.equip_data_statistics[28120] = {
 	value_2 = 25,
 	icon = "28100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -71669,7 +73214,7 @@ _G.pg.base.equip_data_statistics[28130] = {
 
 
 _G.pg.base.equip_data_statistics[28140] = {
-	name = "バラクーダ",
+	name = "梭鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -71677,7 +73222,7 @@ _G.pg.base.equip_data_statistics[28140] = {
 	value_2 = 45,
 	icon = "28100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -71987,7 +73532,7 @@ _G.pg.base.equip_data_statistics[28153] = {
 
 
 _G.pg.base.equip_data_statistics[28200] = {
-	name = "ファイアブランド",
+	name = "火把",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -71995,7 +73540,7 @@ _G.pg.base.equip_data_statistics[28200] = {
 	value_2 = 45,
 	icon = "28200",
 	attribute_2 = "air",
-	descrip = "艦上戦闘機として開発されたが、雷撃能力が追加され戦闘雷撃機として再設計された",
+	descrip = "原计划作为战斗机服役的机型，因需求变更增加了挂载鱼雷的能力",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -72305,7 +73850,7 @@ _G.pg.base.equip_data_statistics[28213] = {
 
 
 _G.pg.base.equip_data_statistics[28220] = {
-	name = "ファイアクレスト",
+	name = "火冠",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -72313,7 +73858,7 @@ _G.pg.base.equip_data_statistics[28220] = {
 	value_2 = 45,
 	icon = "28220",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "占坑",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -72623,7 +74168,7 @@ _G.pg.base.equip_data_statistics[28233] = {
 
 
 _G.pg.base.equip_data_statistics[28300] = {
-	name = "フェアリーアルバコア",
+	name = "青花鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 2,
@@ -72631,7 +74176,7 @@ _G.pg.base.equip_data_statistics[28300] = {
 	value_2 = 5,
 	icon = "28300",
 	attribute_2 = "air",
-	descrip = "ソードフィッシュの代替型として開発されていた複葉雷撃機。ソードフィッシュと同様にバラクーダに取って代わられた",
+	descrip = "剑鱼式鱼雷轰炸机的后继机型，但最后仍与剑鱼并用直到同被梭鱼式鱼雷轰炸机取代",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -72739,7 +74284,7 @@ _G.pg.base.equip_data_statistics[28303] = {
 
 
 _G.pg.base.equip_data_statistics[28320] = {
-	name = "フェアリーアルバコア",
+	name = "青花鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -72747,7 +74292,7 @@ _G.pg.base.equip_data_statistics[28320] = {
 	value_2 = 12,
 	icon = "28300",
 	attribute_2 = "air",
-	descrip = "ソードフィッシュの代替型として開発されていた複葉雷撃機。ソードフィッシュと同様にバラクーダに取って代わられた",
+	descrip = "剑鱼式鱼雷轰炸机的后继机型，但最后仍与剑鱼并用直到同被梭鱼式鱼雷轰炸机取代",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -72915,7 +74460,7 @@ _G.pg.base.equip_data_statistics[28326] = {
 
 
 _G.pg.base.equip_data_statistics[28340] = {
-	name = "フェアリーアルバコア",
+	name = "青花鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 4,
@@ -72923,7 +74468,7 @@ _G.pg.base.equip_data_statistics[28340] = {
 	value_2 = 25,
 	icon = "28300",
 	attribute_2 = "air",
-	descrip = "ソードフィッシュの代替型として開発されていた複葉雷撃機。ソードフィッシュと同様にバラクーダに取って代わられた",
+	descrip = "剑鱼式鱼雷轰炸机的后继机型，但最后仍与剑鱼并用直到同被梭鱼式鱼雷轰炸机取代",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -73192,7 +74737,7 @@ _G.pg.base.equip_data_statistics[28351] = {
 
 
 _G.pg.base.equip_data_statistics[28400] = {
-	name = "ワイヴァーン",
+	name = "飞龙",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 6,
@@ -73200,7 +74745,7 @@ _G.pg.base.equip_data_statistics[28400] = {
 	value_2 = 65,
 	icon = "28400",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -73524,7 +75069,7 @@ _G.pg.base.equip_data_statistics[28413] = {
 
 
 _G.pg.base.equip_data_statistics[28420] = {
-	name = "試作型スピアフィッシュ",
+	name = "试作型旗鱼",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 6,
@@ -73898,14 +75443,14 @@ _G.pg.base.equip_data_statistics[28433] = {
 
 
 _G.pg.base.equip_data_statistics[29000] = {
-	name = "スクア",
+	name = "贼鸥",
 	tech = 1,
 	speciality = "<[BOMB]>",
 	type = 9,
 	rarity = 1,
 	value_2 = 0,
 	icon = "29000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74012,7 +75557,7 @@ _G.pg.base.equip_data_statistics[29003] = {
 
 
 _G.pg.base.equip_data_statistics[29020] = {
-	name = "スクア",
+	name = "贼鸥",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -74020,7 +75565,7 @@ _G.pg.base.equip_data_statistics[29020] = {
 	value_2 = 5,
 	icon = "29000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74127,7 +75672,7 @@ _G.pg.base.equip_data_statistics[29023] = {
 
 
 _G.pg.base.equip_data_statistics[29040] = {
-	name = "スクア",
+	name = "贼鸥",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -74135,7 +75680,7 @@ _G.pg.base.equip_data_statistics[29040] = {
 	value_2 = 12,
 	icon = "29000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74322,7 +75867,7 @@ _G.pg.base.equip_data_statistics[29047] = {
 
 
 _G.pg.base.equip_data_statistics[29100] = {
-	name = "フルマー",
+	name = "海燕",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -74330,7 +75875,7 @@ _G.pg.base.equip_data_statistics[29100] = {
 	value_2 = 5,
 	icon = "29100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74437,7 +75982,7 @@ _G.pg.base.equip_data_statistics[29103] = {
 
 
 _G.pg.base.equip_data_statistics[29120] = {
-	name = "フルマー",
+	name = "海燕",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -74445,7 +75990,7 @@ _G.pg.base.equip_data_statistics[29120] = {
 	value_2 = 12,
 	icon = "29100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74612,7 +76157,7 @@ _G.pg.base.equip_data_statistics[29126] = {
 
 
 _G.pg.base.equip_data_statistics[29140] = {
-	name = "フルマー",
+	name = "海燕",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -74620,7 +76165,7 @@ _G.pg.base.equip_data_statistics[29140] = {
 	value_2 = 25,
 	icon = "29100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -74888,7 +76433,7 @@ _G.pg.base.equip_data_statistics[29151] = {
 
 
 _G.pg.base.equip_data_statistics[29200] = {
-	name = "ファイアフライ",
+	name = "萤火虫",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -74896,7 +76441,7 @@ _G.pg.base.equip_data_statistics[29200] = {
 	value_2 = 45,
 	icon = "29200",
 	attribute_2 = "air",
-	descrip = "フルマーの後継機として開発された艦載機。本機は多数のバリエーションモデルの中での基本型であり、20mm機関砲四門と1000lb爆弾を2発装備可能 ",
+	descrip = "由海燕式舰载机发展而来的多功能舰载机，可搭载4门20mm机炮及2枚1000磅炸弹",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -75206,7 +76751,7 @@ _G.pg.base.equip_data_statistics[29213] = {
 
 
 _G.pg.base.equip_data_statistics[29220] = {
-	name = "ファイアフライ（1771中隊）",
+	name = "萤火虫(1771中队)",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -75214,7 +76759,7 @@ _G.pg.base.equip_data_statistics[29220] = {
 	value_2 = 45,
 	icon = "29220",
 	attribute_2 = "air",
-	descrip = "インプラカブルに搭載された、1771中隊が搭乗する艦載機ファイアフライ",
+	descrip = "怨仇号航空母舰上搭载的，由1771中队驾驶的萤火虫多功能舰载机",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -75524,7 +77069,7 @@ _G.pg.base.equip_data_statistics[29233] = {
 
 
 _G.pg.base.equip_data_statistics[29300] = {
-	name = "バラクーダ（831中隊）",
+	name = "梭鱼(831中队)",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -75532,7 +77077,7 @@ _G.pg.base.equip_data_statistics[29300] = {
 	value_2 = 45,
 	icon = "29300",
 	attribute_2 = "air",
-	descrip = "タングステン作戦でティルピッツを爆撃した、730kg徹甲爆弾を装備した831中隊爆撃機隊",
+	descrip = "钨作战中轰炸{namecode:436}的梭鱼831中队，搭载730kg穿甲航弹",
 	nationality = 2,
 	ammo = 5,
 	value_3 = 0,
@@ -75925,14 +77470,14 @@ _G.pg.base.equip_data_statistics[29313] = {
 
 
 _G.pg.base.equip_data_statistics[30000] = {
-	name = "305mm連装砲",
+	name = "305mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 12,
 	icon = "30000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "40 x 2",
 	nationality = 3,
@@ -76057,7 +77602,7 @@ _G.pg.base.equip_data_statistics[30007] = {
 
 
 _G.pg.base.equip_data_statistics[31000] = {
-	name = "100mm二連装九八式高角砲",
+	name = "双联100mm98式高射炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -76068,7 +77613,7 @@ _G.pg.base.equip_data_statistics[31000] = {
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 3,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 8,
 	id = 31000,
@@ -76194,7 +77739,7 @@ _G.pg.base.equip_data_statistics[31006] = {
 
 
 _G.pg.base.equip_data_statistics[31020] = {
-	name = "100mm二連装九八式高角砲",
+	name = "双联100mm98式高射炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -76205,7 +77750,7 @@ _G.pg.base.equip_data_statistics[31020] = {
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 3,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 16,
 	id = 31020,
@@ -76375,7 +77920,7 @@ _G.pg.base.equip_data_statistics[31030] = {
 
 
 _G.pg.base.equip_data_statistics[31040] = {
-	name = "100mm二連装九八式高角砲",
+	name = "双联100mm98式高射炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -76386,7 +77931,7 @@ _G.pg.base.equip_data_statistics[31040] = {
 	rarity = 5,
 	damage = "4 x 4",
 	nationality = 3,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 30,
 	id = 31040,
@@ -76592,14 +78137,14 @@ _G.pg.base.equip_data_statistics[31053] = {
 
 
 _G.pg.base.equip_data_statistics[31060] = {
-	name = "100mm八八式砲",
+	name = "100mm88式火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 10,
 	icon = "31060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 3,
@@ -76784,7 +78329,7 @@ _G.pg.base.equip_data_statistics[31071] = {
 
 
 _G.pg.base.equip_data_statistics[31080] = {
-	name = "100mm二連装九八式高角砲改",
+	name = "双联100mm98式高射炮改",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -77002,14 +78547,14 @@ _G.pg.base.equip_data_statistics[31093] = {
 
 
 _G.pg.base.equip_data_statistics[31100] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "31100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "3 x 1",
 	nationality = 3,
 	ammo = 3,
@@ -77104,14 +78649,14 @@ _G.pg.base.equip_data_statistics[31103] = {
 
 
 _G.pg.base.equip_data_statistics[31120] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "31100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "3 x 1",
 	nationality = 3,
@@ -77207,14 +78752,14 @@ _G.pg.base.equip_data_statistics[31123] = {
 
 
 _G.pg.base.equip_data_statistics[31140] = {
-	name = "120mm単装砲",
+	name = "120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "31100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 1",
 	nationality = 3,
@@ -77354,14 +78899,14 @@ _G.pg.base.equip_data_statistics[31147] = {
 
 
 _G.pg.base.equip_data_statistics[31160] = {
-	name = "120mm十一年式砲",
+	name = "十一年式120mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 12,
 	icon = "31160",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "3 x 2",
 	nationality = 3,
@@ -77501,7 +79046,7 @@ _G.pg.base.equip_data_statistics[31167] = {
 
 
 _G.pg.base.equip_data_statistics[31180] = {
-	name = "120mm高角砲",
+	name = "120mm单装高角炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -77512,7 +79057,7 @@ _G.pg.base.equip_data_statistics[31180] = {
 	rarity = 4,
 	damage = "4 x 3",
 	nationality = 3,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 15,
 	id = 31180,
@@ -77694,14 +79239,14 @@ _G.pg.base.equip_data_statistics[31191] = {
 
 
 _G.pg.base.equip_data_statistics[31200] = {
-	name = "127mm連装砲",
+	name = "127mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "31200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "4 x 4",
 	nationality = 3,
@@ -77797,14 +79342,14 @@ _G.pg.base.equip_data_statistics[31203] = {
 
 
 _G.pg.base.equip_data_statistics[31220] = {
-	name = "127mm連装砲",
+	name = "127mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "31200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 3,
@@ -77933,14 +79478,14 @@ _G.pg.base.equip_data_statistics[31226] = {
 
 
 _G.pg.base.equip_data_statistics[31240] = {
-	name = "127mm連装砲",
+	name = "127mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "31200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 3,
@@ -78126,7 +79671,7 @@ _G.pg.base.equip_data_statistics[31251] = {
 
 
 _G.pg.base.equip_data_statistics[31260] = {
-	name = "127mm両用砲",
+	name = "127mm单装两用炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -78137,7 +79682,7 @@ _G.pg.base.equip_data_statistics[31260] = {
 	rarity = 3,
 	damage = "3 x 2",
 	nationality = 3,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 3,
 	value_3 = 7,
 	id = 31260,
@@ -78274,14 +79819,14 @@ _G.pg.base.equip_data_statistics[31267] = {
 
 
 _G.pg.base.equip_data_statistics[31280] = {
-	name = "127mm連装砲改",
+	name = "127mm连装炮改",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 25,
 	icon = "31280",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 3,
@@ -78468,7 +80013,7 @@ _G.pg.base.equip_data_statistics[31291] = {
 
 
 _G.pg.base.equip_data_statistics[31300] = {
-	name = "127mm連装砲(D型)",
+	name = "127mm连装炮（D型）",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -78686,14 +80231,14 @@ _G.pg.base.equip_data_statistics[31313] = {
 
 
 _G.pg.base.equip_data_statistics[32000] = {
-	name = "140mm単装砲",
+	name = "140mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "32000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "6 x 3",
 	nationality = 3,
 	ammo = 3,
@@ -78780,14 +80325,14 @@ _G.pg.base.equip_data_statistics[32003] = {
 
 
 _G.pg.base.equip_data_statistics[32020] = {
-	name = "140mm単装砲",
+	name = "140mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 5,
 	icon = "32000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "8 x 3",
 	nationality = 3,
@@ -78875,14 +80420,14 @@ _G.pg.base.equip_data_statistics[32023] = {
 
 
 _G.pg.base.equip_data_statistics[32040] = {
-	name = "140mm単装砲",
+	name = "140mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "32000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "10 x 3",
 	nationality = 3,
@@ -79014,14 +80559,14 @@ _G.pg.base.equip_data_statistics[32047] = {
 
 
 _G.pg.base.equip_data_statistics[32060] = {
-	name = "152mm単装砲",
+	name = "152mm单装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "32060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "9 x 3",
 	nationality = 3,
@@ -79154,14 +80699,14 @@ _G.pg.base.equip_data_statistics[32067] = {
 
 
 _G.pg.base.equip_data_statistics[32100] = {
-	name = "140mm連装砲",
+	name = "140mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "32100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "6 x 4",
 	nationality = 3,
@@ -79249,14 +80794,14 @@ _G.pg.base.equip_data_statistics[32103] = {
 
 
 _G.pg.base.equip_data_statistics[32120] = {
-	name = "140mm連装砲",
+	name = "140mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "32100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "8 x 4",
 	nationality = 3,
@@ -79377,14 +80922,14 @@ _G.pg.base.equip_data_statistics[32126] = {
 
 
 _G.pg.base.equip_data_statistics[32140] = {
-	name = "140mm連装砲",
+	name = "140mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "32100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "11 x 4",
 	nationality = 3,
@@ -79562,14 +81107,14 @@ _G.pg.base.equip_data_statistics[32151] = {
 
 
 _G.pg.base.equip_data_statistics[32200] = {
-	name = "155mm三連装砲",
+	name = "155mm三连装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 12,
 	icon = "32200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "8 x 6",
 	nationality = 3,
@@ -79690,14 +81235,14 @@ _G.pg.base.equip_data_statistics[32206] = {
 
 
 _G.pg.base.equip_data_statistics[32220] = {
-	name = "155mm三連装砲",
+	name = "155mm三连装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 25,
 	icon = "32200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "11 x 6",
 	nationality = 3,
@@ -79863,14 +81408,14 @@ _G.pg.base.equip_data_statistics[32230] = {
 
 
 _G.pg.base.equip_data_statistics[32240] = {
-	name = "155mm三連装砲",
+	name = "155mm三连装炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 45,
 	icon = "32200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "12 x 6",
 	nationality = 3,
@@ -80072,14 +81617,14 @@ _G.pg.base.equip_data_statistics[32253] = {
 
 
 _G.pg.base.equip_data_statistics[32260] = {
-	name = "試作型155mm三連装砲改",
+	name = "试作型155mm三连装炮改",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 45,
 	icon = "32260",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "13 x 6",
 	nationality = 3,
@@ -80281,14 +81826,14 @@ _G.pg.base.equip_data_statistics[32273] = {
 
 
 _G.pg.base.equip_data_statistics[32300] = {
-	name = "152mm連装砲",
+	name = "152mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "32300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "8 x 4",
 	nationality = 3,
@@ -80376,14 +81921,14 @@ _G.pg.base.equip_data_statistics[32303] = {
 
 
 _G.pg.base.equip_data_statistics[32320] = {
-	name = "152mm連装砲",
+	name = "152mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "32300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "10 x 4",
 	nationality = 3,
@@ -80505,14 +82050,14 @@ _G.pg.base.equip_data_statistics[32326] = {
 
 
 _G.pg.base.equip_data_statistics[32340] = {
-	name = "152mm連装砲",
+	name = "152mm连装炮",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "32300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "12 x 4",
 	nationality = 3,
@@ -80690,7 +82235,7 @@ _G.pg.base.equip_data_statistics[32351] = {
 
 
 _G.pg.base.equip_data_statistics[32360] = {
-	name = "試作型150mm三連装五式高角砲",
+	name = "试作型三联装150mm五式高平两用炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	attribute_3 = "antiaircraft",
@@ -80906,14 +82451,14 @@ _G.pg.base.equip_data_statistics[32373] = {
 
 
 _G.pg.base.equip_data_statistics[33000] = {
-	name = "203mm連装砲",
+	name = "203mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 5,
 	icon = "33000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "22 x 4",
 	nationality = 3,
@@ -81001,14 +82546,14 @@ _G.pg.base.equip_data_statistics[33003] = {
 
 
 _G.pg.base.equip_data_statistics[33020] = {
-	name = "203mm連装砲",
+	name = "203mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 12,
 	icon = "33000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "24 x 4",
 	nationality = 3,
@@ -81129,14 +82674,14 @@ _G.pg.base.equip_data_statistics[33026] = {
 
 
 _G.pg.base.equip_data_statistics[33040] = {
-	name = "203mm連装砲",
+	name = "203mm连装炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 25,
 	icon = "33000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "26 x 4",
 	nationality = 3,
@@ -81313,14 +82858,14 @@ _G.pg.base.equip_data_statistics[33051] = {
 
 
 _G.pg.base.equip_data_statistics[33060] = {
-	name = "試製203mm連装砲（3号）",
+	name = "试作型203mm(3号)连装炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "33060",
 	attribute_2 = "cannon",
-	descrip = "試作兵器・203mm連装砲の強化型。配備されたのが少数にとどまった",
+	descrip = "带有试验性质的203mm连装炮强化版，由军需处少量发放",
 	rarity = 5,
 	damage = "28 x 4",
 	nationality = 3,
@@ -81521,14 +83066,14 @@ _G.pg.base.equip_data_statistics[33073] = {
 
 
 _G.pg.base.equip_data_statistics[33080] = {
-	name = "203mm連装砲改",
+	name = "203mm连装炮改",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 25,
 	icon = "33080",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "28 x 4",
 	nationality = 3,
@@ -81705,14 +83250,14 @@ _G.pg.base.equip_data_statistics[33091] = {
 
 
 _G.pg.base.equip_data_statistics[33100] = {
-	name = "試作型三連装310mm砲",
+	name = "试作型三联装310mm主炮",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
 	value_2 = 45,
 	icon = "33100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "36 x 6",
 	nationality = 3,
@@ -81904,14 +83449,14 @@ _G.pg.base.equip_data_statistics[33113] = {
 
 
 _G.pg.base.equip_data_statistics[33120] = {
-	name = "試作型203mm/55三連装砲",
+	name = "试作型203mm/55三连装主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 65,
 	icon = "33120",
 	attribute_2 = "cannon",
-	descrip = "重桜開発の試作型203mm/55三連装砲（重巡用）",
+	descrip = "由重樱开发的试作型三联装203mm重巡主炮",
 	rarity = 6,
 	damage = "30 x 6",
 	nationality = 3,
@@ -82112,14 +83657,14 @@ _G.pg.base.equip_data_statistics[33133] = {
 
 
 _G.pg.base.equip_data_statistics[34000] = {
-	name = "356mm連装砲",
+	name = "356mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "34000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "38 x 2",
 	nationality = 3,
 	ammo = 3,
@@ -82199,14 +83744,14 @@ _G.pg.base.equip_data_statistics[34003] = {
 
 
 _G.pg.base.equip_data_statistics[34020] = {
-	name = "356mm連装砲",
+	name = "356mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 5,
 	icon = "34000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "42 x 2",
 	nationality = 3,
@@ -82288,14 +83833,14 @@ _G.pg.base.equip_data_statistics[34023] = {
 
 
 _G.pg.base.equip_data_statistics[34040] = {
-	name = "356mm連装砲",
+	name = "356mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 12,
 	icon = "34000",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "46 x 2",
 	nationality = 3,
@@ -82421,14 +83966,14 @@ _G.pg.base.equip_data_statistics[34047] = {
 
 
 _G.pg.base.equip_data_statistics[34060] = {
-	name = "毘式356mm連装砲",
+	name = "356mm毘式连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 12,
 	icon = "34060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 2",
 	nationality = 3,
@@ -82554,14 +84099,14 @@ _G.pg.base.equip_data_statistics[34067] = {
 
 
 _G.pg.base.equip_data_statistics[34100] = {
-	name = "410mm連装砲",
+	name = "410mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 5,
 	icon = "34100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "48 x 2",
 	nationality = 3,
@@ -82642,14 +84187,14 @@ _G.pg.base.equip_data_statistics[34103] = {
 
 
 _G.pg.base.equip_data_statistics[34120] = {
-	name = "410mm連装砲",
+	name = "410mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 12,
 	icon = "34100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "53 x 2",
 	nationality = 3,
@@ -82764,14 +84309,14 @@ _G.pg.base.equip_data_statistics[34126] = {
 
 
 _G.pg.base.equip_data_statistics[34140] = {
-	name = "410mm連装砲",
+	name = "410mm连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 25,
 	icon = "34100",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 2",
 	nationality = 3,
@@ -82942,7 +84487,7 @@ _G.pg.base.equip_data_statistics[34151] = {
 
 
 _G.pg.base.equip_data_statistics[34160] = {
-	name = "410mm連装砲(三式弾)",
+	name = "410mm连装炮(三式弹)",
 	speciality = "<[SCA]>",
 	type = 4,
 	attribute_3 = "antiaircraft",
@@ -82953,7 +84498,7 @@ _G.pg.base.equip_data_statistics[34160] = {
 	rarity = 5,
 	damage = "12 x 10 x 2",
 	nationality = 3,
-	descrip = "三式弾を装備した410mm連装砲。対空攻撃のほか、断片で敵艦を炎上させることも可能",
+	descrip = "装填三式弹的410mm连装炮，可对空，并且散射飞落的炮弹能够有效的点燃目标，造成火灾",
 	ammo = 6,
 	value_3 = 25,
 	id = 34160,
@@ -83145,14 +84690,14 @@ _G.pg.base.equip_data_statistics[34173] = {
 
 
 _G.pg.base.equip_data_statistics[34180] = {
-	name = "試製410mm三連装砲",
+	name = "试作型410mm三连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "34180",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "58 x 3",
 	nationality = 3,
@@ -83346,15 +84891,345 @@ _G.pg.base.equip_data_statistics[34193] = {
 }
 
 
+_G.pg.base.equip_data_statistics[34200] = {
+	name = "460mm三连装炮",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 1,
+	value_2 = 25,
+	icon = "34200",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "60 x 3",
+	nationality = 3,
+	ammo = 3,
+	value_3 = 0,
+	id = 34200,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1510
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		34200
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[34201] = {
+	damage = "72 x 3",
+	base = 34200,
+	id = 34201,
+	weapon_id = {
+		34201
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34202] = {
+	damage = "84 x 3",
+	base = 34200,
+	id = 34202,
+	weapon_id = {
+		34202
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34203] = {
+	damage = "96 x 3",
+	base = 34200,
+	id = 34203,
+	weapon_id = {
+		34203
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34204] = {
+	damage = "108 x 3",
+	base = 34200,
+	id = 34204,
+	weapon_id = {
+		34204
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34205] = {
+	damage = "120 x 3",
+	base = 34200,
+	id = 34205,
+	weapon_id = {
+		34205
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34206] = {
+	damage = "132 x 3",
+	base = 34200,
+	id = 34206,
+	weapon_id = {
+		34206
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34207] = {
+	damage = "144 x 3",
+	base = 34200,
+	id = 34207,
+	weapon_id = {
+		34207
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34208] = {
+	damage = "156 x 3",
+	base = 34200,
+	id = 34208,
+	weapon_id = {
+		34208
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34209] = {
+	damage = "168 x 3",
+	base = 34200,
+	id = 34209,
+	weapon_id = {
+		34209
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34210] = {
+	damage = "180 x 3",
+	base = 34200,
+	id = 34210,
+	weapon_id = {
+		34210
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34220] = {
+	name = "460mm三连装炮",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 2,
+	value_2 = 45,
+	icon = "34200",
+	attribute_2 = "cannon",
+	descrip = "说明未填写",
+	rarity = 5,
+	damage = "66 x 3",
+	nationality = 3,
+	ammo = 3,
+	value_3 = 0,
+	id = 34220,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1510
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		34220
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[34221] = {
+	damage = "79 x 3",
+	base = 34220,
+	id = 34221,
+	weapon_id = {
+		34221
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34222] = {
+	damage = "92 x 3",
+	base = 34220,
+	id = 34222,
+	weapon_id = {
+		34222
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34223] = {
+	damage = "106 x 3",
+	base = 34220,
+	id = 34223,
+	weapon_id = {
+		34223
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34224] = {
+	damage = "119 x 3",
+	base = 34220,
+	id = 34224,
+	weapon_id = {
+		34224
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34225] = {
+	damage = "132 x 3",
+	base = 34220,
+	id = 34225,
+	weapon_id = {
+		34225
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34226] = {
+	damage = "145 x 3",
+	base = 34220,
+	id = 34226,
+	weapon_id = {
+		34226
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34227] = {
+	damage = "158 x 3",
+	base = 34220,
+	id = 34227,
+	weapon_id = {
+		34227
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34228] = {
+	damage = "172 x 3",
+	base = 34220,
+	id = 34228,
+	weapon_id = {
+		34228
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34229] = {
+	damage = "185 x 3",
+	base = 34220,
+	id = 34229,
+	weapon_id = {
+		34229
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[34230] = {
+	damage = "198 x 3",
+	base = 34220,
+	id = 34230,
+	weapon_id = {
+		34230
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[34240] = {
-	name = "460mm三連装砲",
+	name = "460mm三连装炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 65,
 	icon = "34200",
 	attribute_2 = "cannon",
-	descrip = "大和型戦艦が装備する460mm主砲",
+	descrip = "{namecode:83}级战列舰装备的460mm舰炮",
 	rarity = 6,
 	damage = "72 x 3",
 	nationality = 3,
@@ -83549,14 +85424,14 @@ _G.pg.base.equip_data_statistics[34253] = {
 
 
 _G.pg.base.equip_data_statistics[34300] = {
-	name = "410mm連装砲改",
+	name = "410mm连装炮改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 25,
 	icon = "34300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 2",
 	nationality = 3,
@@ -83727,7 +85602,7 @@ _G.pg.base.equip_data_statistics[34311] = {
 
 
 _G.pg.base.equip_data_statistics[34320] = {
-	name = "試作型410mm連装砲mod.A",
+	name = "试作型双联装410mm主炮Mod.A",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -83929,14 +85804,14 @@ _G.pg.base.equip_data_statistics[34333] = {
 
 
 _G.pg.base.equip_data_statistics[35000] = {
-	name = "610mm連装魚雷",
+	name = "双联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "35000",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "52 x 2",
 	nationality = 3,
 	ammo = 5,
@@ -84032,14 +85907,14 @@ _G.pg.base.equip_data_statistics[35003] = {
 
 
 _G.pg.base.equip_data_statistics[35020] = {
-	name = "610mm連装魚雷",
+	name = "双联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 5,
 	icon = "35000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "58 x 2",
 	nationality = 3,
@@ -84136,14 +86011,14 @@ _G.pg.base.equip_data_statistics[35023] = {
 
 
 _G.pg.base.equip_data_statistics[35040] = {
-	name = "610mm連装魚雷",
+	name = "双联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 12,
 	icon = "35000",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "66 x 2",
 	nationality = 3,
@@ -84284,14 +86159,14 @@ _G.pg.base.equip_data_statistics[35047] = {
 
 
 _G.pg.base.equip_data_statistics[35100] = {
-	name = "610mm三連装魚雷",
+	name = "三联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 5,
 	icon = "35100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "52 x 3",
 	nationality = 3,
@@ -84388,14 +86263,14 @@ _G.pg.base.equip_data_statistics[35103] = {
 
 
 _G.pg.base.equip_data_statistics[35120] = {
-	name = "610mm三連装魚雷",
+	name = "三联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 12,
 	icon = "35100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "58 x 3",
 	nationality = 3,
@@ -84525,14 +86400,14 @@ _G.pg.base.equip_data_statistics[35126] = {
 
 
 _G.pg.base.equip_data_statistics[35140] = {
-	name = "610mm三連装魚雷",
+	name = "三联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 25,
 	icon = "35100",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "66 x 3",
 	nationality = 3,
@@ -84718,14 +86593,14 @@ _G.pg.base.equip_data_statistics[35151] = {
 
 
 _G.pg.base.equip_data_statistics[35160] = {
-	name = "610mm三連装魚雷改",
+	name = "三联装610mm鱼雷改",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 25,
 	icon = "35160",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "70 x 3",
 	nationality = 3,
@@ -84911,14 +86786,14 @@ _G.pg.base.equip_data_statistics[35171] = {
 
 
 _G.pg.base.equip_data_statistics[35200] = {
-	name = "610mm四連装魚雷",
+	name = "四联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 12,
 	icon = "35200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 4",
 	nationality = 3,
@@ -85048,14 +86923,14 @@ _G.pg.base.equip_data_statistics[35206] = {
 
 
 _G.pg.base.equip_data_statistics[35220] = {
-	name = "610mm四連装魚雷",
+	name = "四联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 25,
 	icon = "35200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 4",
 	nationality = 3,
@@ -85229,14 +87104,14 @@ _G.pg.base.equip_data_statistics[35230] = {
 
 
 _G.pg.base.equip_data_statistics[35240] = {
-	name = "610mm四連装魚雷",
+	name = "四联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 45,
 	icon = "35200",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "66 x 4",
 	nationality = 3,
@@ -85446,14 +87321,14 @@ _G.pg.base.equip_data_statistics[35253] = {
 
 
 _G.pg.base.equip_data_statistics[35260] = {
-	name = "610mm四連装魚雷改",
+	name = "四联装610mm鱼雷改",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 45,
 	icon = "35260",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "70 x 4",
 	nationality = 3,
@@ -85662,15 +87537,377 @@ _G.pg.base.equip_data_statistics[35273] = {
 }
 
 
+_G.pg.base.equip_data_statistics[35300] = {
+	name = "五联装610mm鱼雷",
+	speciality = "<[TRP]>",
+	type = 5,
+	tech = 1,
+	value_2 = 25,
+	icon = "35300",
+	attribute_2 = "torpedo",
+	descrip = "说明未填写",
+	rarity = 4,
+	damage = "52 x 5",
+	nationality = 3,
+	ammo = 5,
+	value_3 = 0,
+	id = 35300,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1801
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1801
+		},
+		{
+			4,
+			1404
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		35300
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"ST",
+		"TP",
+		"QUINT"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[35301] = {
+	damage = "62 x 5",
+	base = 35300,
+	id = 35301,
+	weapon_id = {
+		35301
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35302] = {
+	damage = "72 x 5",
+	base = 35300,
+	id = 35302,
+	weapon_id = {
+		35302
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35303] = {
+	damage = "82 x 5",
+	base = 35300,
+	id = 35303,
+	weapon_id = {
+		35303
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35304] = {
+	damage = "92 x 5",
+	base = 35300,
+	id = 35304,
+	weapon_id = {
+		35304
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35305] = {
+	damage = "102 x 5",
+	base = 35300,
+	id = 35305,
+	weapon_id = {
+		35305
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35306] = {
+	damage = "112 x 5",
+	base = 35300,
+	id = 35306,
+	weapon_id = {
+		35306
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35307] = {
+	damage = "122 x 5",
+	base = 35300,
+	id = 35307,
+	weapon_id = {
+		35307
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35308] = {
+	damage = "132 x 5",
+	base = 35300,
+	id = 35308,
+	weapon_id = {
+		35308
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35309] = {
+	damage = "142 x 5",
+	base = 35300,
+	id = 35309,
+	weapon_id = {
+		35309
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35310] = {
+	damage = "152 x 5",
+	base = 35300,
+	id = 35310,
+	weapon_id = {
+		35310
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35320] = {
+	name = "五联装610mm鱼雷",
+	speciality = "<[TRP]>",
+	type = 5,
+	tech = 2,
+	value_2 = 45,
+	icon = "35300",
+	attribute_2 = "torpedo",
+	descrip = "说明未填写",
+	rarity = 5,
+	damage = "58 x 5",
+	nationality = 3,
+	ammo = 5,
+	value_3 = 0,
+	id = 35320,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1801
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1801
+		},
+		{
+			4,
+			1404
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		35320
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"ST",
+		"TP",
+		"QUINT"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[35321] = {
+	damage = "70 x 5",
+	base = 35320,
+	id = 35321,
+	weapon_id = {
+		35321
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35322] = {
+	damage = "82 x 5",
+	base = 35320,
+	id = 35322,
+	weapon_id = {
+		35322
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35323] = {
+	damage = "94 x 5",
+	base = 35320,
+	id = 35323,
+	weapon_id = {
+		35323
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35324] = {
+	damage = "106 x 5",
+	base = 35320,
+	id = 35324,
+	weapon_id = {
+		35324
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35325] = {
+	damage = "118 x 5",
+	base = 35320,
+	id = 35325,
+	weapon_id = {
+		35325
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35326] = {
+	damage = "130 x 5",
+	base = 35320,
+	id = 35326,
+	weapon_id = {
+		35326
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35327] = {
+	damage = "142 x 5",
+	base = 35320,
+	id = 35327,
+	weapon_id = {
+		35327
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35328] = {
+	damage = "154 x 5",
+	base = 35320,
+	id = 35328,
+	weapon_id = {
+		35328
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35329] = {
+	damage = "166 x 5",
+	base = 35320,
+	id = 35329,
+	weapon_id = {
+		35329
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[35330] = {
+	damage = "178 x 5",
+	base = 35320,
+	id = 35330,
+	weapon_id = {
+		35330
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[35340] = {
-	name = "610mm五連装魚雷",
+	name = "五联装610mm鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 70,
 	icon = "35300",
 	attribute_2 = "torpedo",
-	descrip = "島風型駆逐艦に搭載される五連装610mm魚雷 ",
+	descrip = "{namecode:18}级驱逐舰搭载的五联装610mm鱼雷",
 	rarity = 6,
 	damage = "70 x 5",
 	nationality = 3,
@@ -85880,14 +88117,14 @@ _G.pg.base.equip_data_statistics[35353] = {
 
 
 _G.pg.base.equip_data_statistics[35400] = {
-	name = "潜水艦用九二式電動魚雷",
+	name = "潜艇用92式潜射鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 5,
 	icon = "35400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "48 x 2",
 	nationality = 3,
@@ -85975,14 +88212,14 @@ _G.pg.base.equip_data_statistics[35403] = {
 
 
 _G.pg.base.equip_data_statistics[35420] = {
-	name = "潜水艦用九二式電動魚雷",
+	name = "潜艇用92式潜射鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 12,
 	icon = "35400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "54 x 2",
 	nationality = 3,
@@ -86103,14 +88340,14 @@ _G.pg.base.equip_data_statistics[35426] = {
 
 
 _G.pg.base.equip_data_statistics[35440] = {
-	name = "潜水艦用九二式電動魚雷",
+	name = "潜艇用92式潜射鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 25,
 	icon = "35400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 2",
 	nationality = 3,
@@ -86287,14 +88524,14 @@ _G.pg.base.equip_data_statistics[35451] = {
 
 
 _G.pg.base.equip_data_statistics[35460] = {
-	name = "潜水艦用九二式電動魚雷改",
+	name = "潜艇用92式潜射鱼雷改",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 25,
 	icon = "35460",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "60 x 2",
 	nationality = 3,
@@ -86471,14 +88708,14 @@ _G.pg.base.equip_data_statistics[35471] = {
 
 
 _G.pg.base.equip_data_statistics[35500] = {
-	name = "潜水艦用九五式酸素魚雷",
+	name = "潜艇用95式纯氧鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 12,
 	icon = "35500",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "56 x 2",
 	nationality = 3,
@@ -86599,14 +88836,14 @@ _G.pg.base.equip_data_statistics[35506] = {
 
 
 _G.pg.base.equip_data_statistics[35520] = {
-	name = "潜水艦用九五式酸素魚雷",
+	name = "潜艇用95式纯氧鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 25,
 	icon = "35500",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "63 x 2",
 	nationality = 3,
@@ -86771,14 +89008,14 @@ _G.pg.base.equip_data_statistics[35530] = {
 
 
 _G.pg.base.equip_data_statistics[35540] = {
-	name = "潜水艦用九五式酸素魚雷",
+	name = "潜艇用95式纯氧鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 45,
 	icon = "35500",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "70 x 2",
 	nationality = 3,
@@ -86979,14 +89216,14 @@ _G.pg.base.equip_data_statistics[35553] = {
 
 
 _G.pg.base.equip_data_statistics[35560] = {
-	name = "潜水艦用九六式酸素魚雷",
+	name = "潜艇用96式纯氧鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 45,
 	icon = "35560",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "76 x 2",
 	nationality = 3,
@@ -87187,14 +89424,14 @@ _G.pg.base.equip_data_statistics[35573] = {
 
 
 _G.pg.base.equip_data_statistics[35580] = {
-	name = "潜水艦用九五式酸素魚雷改",
+	name = "潜艇用95式纯氧鱼雷改",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 0,
 	value_2 = 70,
 	icon = "35580",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 6,
 	damage = "88 x 2",
 	nationality = 3,
@@ -87395,14 +89632,14 @@ _G.pg.base.equip_data_statistics[35593] = {
 
 
 _G.pg.base.equip_data_statistics[36100] = {
-	name = "25mm対空機銃",
+	name = "25mm高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "36100",
-	descrip = "0",
+	descrip = "说明未填写",
 	damage = "8<[WAVE]>",
 	nationality = 3,
 	ammo = 5,
@@ -87496,14 +89733,14 @@ _G.pg.base.equip_data_statistics[36103] = {
 
 
 _G.pg.base.equip_data_statistics[36120] = {
-	name = "25mm対空機銃",
+	name = "25mm高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "36100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "9<[WAVE]>",
 	nationality = 3,
@@ -87598,14 +89835,14 @@ _G.pg.base.equip_data_statistics[36123] = {
 
 
 _G.pg.base.equip_data_statistics[36140] = {
-	name = "25mm対空機銃",
+	name = "25mm高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "36100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "11<[WAVE]>",
 	nationality = 3,
@@ -87744,14 +89981,14 @@ _G.pg.base.equip_data_statistics[36147] = {
 
 
 _G.pg.base.equip_data_statistics[36200] = {
-	name = "25mm連装対空機銃",
+	name = "25mm连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "36200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "13<[WAVE]>",
 	nationality = 3,
@@ -87846,14 +90083,14 @@ _G.pg.base.equip_data_statistics[36203] = {
 
 
 _G.pg.base.equip_data_statistics[36220] = {
-	name = "25mm連装対空機銃",
+	name = "25mm连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "36200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "14<[WAVE]>",
 	nationality = 3,
@@ -87981,14 +90218,14 @@ _G.pg.base.equip_data_statistics[36226] = {
 
 
 _G.pg.base.equip_data_statistics[36240] = {
-	name = "25mm連装対空機銃",
+	name = "25mm连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "36200",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "16<[WAVE]>",
 	nationality = 3,
@@ -88172,14 +90409,14 @@ _G.pg.base.equip_data_statistics[36251] = {
 
 
 _G.pg.base.equip_data_statistics[36300] = {
-	name = "25mm三連装対空機銃",
+	name = "25mm三连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "36300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "16<[WAVE]>",
 	nationality = 3,
@@ -88274,14 +90511,14 @@ _G.pg.base.equip_data_statistics[36303] = {
 
 
 _G.pg.base.equip_data_statistics[36320] = {
-	name = "25mm三連装対空機銃",
+	name = "25mm三连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "36300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "18<[WAVE]>",
 	nationality = 3,
@@ -88409,14 +90646,14 @@ _G.pg.base.equip_data_statistics[36326] = {
 
 
 _G.pg.base.equip_data_statistics[36340] = {
-	name = "25mm三連装対空機銃",
+	name = "25mm三连装高射机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "36300",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "22<[WAVE]>",
 	nationality = 3,
@@ -88600,14 +90837,14 @@ _G.pg.base.equip_data_statistics[36351] = {
 
 
 _G.pg.base.equip_data_statistics[36360] = {
-	name = "25mm九六式三連装機銃（爆風避盾装備）",
+	name = "九六式25mm三连装暴风避盾机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "36360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "40<[WAVE]>",
 	nationality = 3,
@@ -88815,14 +91052,14 @@ _G.pg.base.equip_data_statistics[36373] = {
 
 
 _G.pg.base.equip_data_statistics[36400] = {
-	name = "毘式40mm連装機銃",
+	name = "毘式40mm连装机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "36400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "19<[WAVE]>",
 	nationality = 3,
@@ -88917,14 +91154,14 @@ _G.pg.base.equip_data_statistics[36403] = {
 
 
 _G.pg.base.equip_data_statistics[36420] = {
-	name = "毘式40mm連装機銃",
+	name = "毘式40mm连装机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "36400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "22<[WAVE]>",
 	nationality = 3,
@@ -89052,14 +91289,14 @@ _G.pg.base.equip_data_statistics[36426] = {
 
 
 _G.pg.base.equip_data_statistics[36440] = {
-	name = "毘式40mm連装機銃",
+	name = "毘式40mm连装机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "36400",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "26<[WAVE]>",
 	nationality = 3,
@@ -89243,14 +91480,14 @@ _G.pg.base.equip_data_statistics[36451] = {
 
 
 _G.pg.base.equip_data_statistics[36500] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "36500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "16<[WAVE]>",
 	nationality = 3,
@@ -89345,14 +91582,14 @@ _G.pg.base.equip_data_statistics[36503] = {
 
 
 _G.pg.base.equip_data_statistics[36520] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "36500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "18<[WAVE]>",
 	nationality = 3,
@@ -89480,14 +91717,14 @@ _G.pg.base.equip_data_statistics[36526] = {
 
 
 _G.pg.base.equip_data_statistics[36540] = {
-	name = "76mm高角砲",
+	name = "76mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "36500",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "22<[WAVE]>",
 	nationality = 3,
@@ -89671,14 +91908,14 @@ _G.pg.base.equip_data_statistics[36551] = {
 
 
 _G.pg.base.equip_data_statistics[36560] = {
-	name = "100mm連装高角砲",
+	name = "100mm连装高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "36560",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "50<[WAVE]>",
 	nationality = 3,
@@ -89886,14 +92123,14 @@ _G.pg.base.equip_data_statistics[36573] = {
 
 
 _G.pg.base.equip_data_statistics[36580] = {
-	name = "80mm高射砲",
+	name = "80mm高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "36580",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "44<[WAVE]>",
 	nationality = 3,
@@ -90077,14 +92314,14 @@ _G.pg.base.equip_data_statistics[36591] = {
 
 
 _G.pg.base.equip_data_statistics[36600] = {
-	name = "127mm連装高角砲",
+	name = "127mm连装高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "36600",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "32<[WAVE]>",
 	nationality = 3,
@@ -90179,14 +92416,14 @@ _G.pg.base.equip_data_statistics[36603] = {
 
 
 _G.pg.base.equip_data_statistics[36620] = {
-	name = "127mm連装高角砲",
+	name = "127mm连装高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "36600",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "39<[WAVE]>",
 	nationality = 3,
@@ -90314,14 +92551,14 @@ _G.pg.base.equip_data_statistics[36626] = {
 
 
 _G.pg.base.equip_data_statistics[36640] = {
-	name = "127mm連装高角砲",
+	name = "127mm连装高射炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "36600",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "46<[WAVE]>",
 	nationality = 3,
@@ -90505,14 +92742,14 @@ _G.pg.base.equip_data_statistics[36651] = {
 
 
 _G.pg.base.equip_data_statistics[36660] = {
-	name = "127mm連装高角砲改",
+	name = "127mm连装高角炮改",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "36660",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "54<[WAVE]>",
 	nationality = 3,
@@ -90720,14 +92957,14 @@ _G.pg.base.equip_data_statistics[36673] = {
 
 
 _G.pg.base.equip_data_statistics[36700] = {
-	name = "試作型五式40mm高射機関砲",
+	name = "试作型五式40mm高射机关炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "36700",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "47<[WAVE]>",
 	nationality = 3,
@@ -90935,7 +93172,7 @@ _G.pg.base.equip_data_statistics[36713] = {
 
 
 _G.pg.base.equip_data_statistics[36720] = {
-	name = "127mm連装高角砲改(時限信管)",
+	name = "127mm连装高角炮改(定时引信)",
 	speciality = "<[LRG]>",
 	type = 21,
 	tech = 0,
@@ -91127,7 +93364,7 @@ _G.pg.base.equip_data_statistics[36733] = {
 
 
 _G.pg.base.equip_data_statistics[36740] = {
-	name = "80mm連装九八式高角砲",
+	name = "80mm98式连装高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -91347,14 +93584,14 @@ _G.pg.base.equip_data_statistics[36753] = {
 
 
 _G.pg.base.equip_data_statistics[37000] = {
-	name = "九六式艦戦",
+	name = "九六式舰战",
 	tech = 1,
 	speciality = "<[AIR]>",
 	type = 7,
 	rarity = 1,
 	value_2 = 0,
 	icon = "37000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -91449,7 +93686,7 @@ _G.pg.base.equip_data_statistics[37003] = {
 
 
 _G.pg.base.equip_data_statistics[37020] = {
-	name = "九六式艦戦",
+	name = "九六式舰战",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -91457,7 +93694,7 @@ _G.pg.base.equip_data_statistics[37020] = {
 	value_2 = 5,
 	icon = "37000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -91552,7 +93789,7 @@ _G.pg.base.equip_data_statistics[37023] = {
 
 
 _G.pg.base.equip_data_statistics[37040] = {
-	name = "九六式艦戦",
+	name = "九六式舰战",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -91560,7 +93797,7 @@ _G.pg.base.equip_data_statistics[37040] = {
 	value_2 = 12,
 	icon = "37000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -91723,7 +93960,7 @@ _G.pg.base.equip_data_statistics[37047] = {
 
 
 _G.pg.base.equip_data_statistics[37100] = {
-	name = "零戦二一型",
+	name = "零战二一型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -91731,7 +93968,7 @@ _G.pg.base.equip_data_statistics[37100] = {
 	value_2 = 5,
 	icon = "37100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -91858,7 +94095,7 @@ _G.pg.base.equip_data_statistics[37103] = {
 
 
 _G.pg.base.equip_data_statistics[37120] = {
-	name = "零戦二一型",
+	name = "零战二一型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -91866,7 +94103,7 @@ _G.pg.base.equip_data_statistics[37120] = {
 	value_2 = 12,
 	icon = "37100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -92068,7 +94305,7 @@ _G.pg.base.equip_data_statistics[37126] = {
 
 
 _G.pg.base.equip_data_statistics[37140] = {
-	name = "零戦二一型",
+	name = "零战二一型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -92076,7 +94313,7 @@ _G.pg.base.equip_data_statistics[37140] = {
 	value_2 = 25,
 	icon = "37100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -92404,7 +94641,7 @@ _G.pg.base.equip_data_statistics[37151] = {
 
 
 _G.pg.base.equip_data_statistics[37160] = {
-	name = "零戦三二型",
+	name = "零战三二型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -92412,7 +94649,7 @@ _G.pg.base.equip_data_statistics[37160] = {
 	value_2 = 25,
 	icon = "37160",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -92740,7 +94977,7 @@ _G.pg.base.equip_data_statistics[37171] = {
 
 
 _G.pg.base.equip_data_statistics[37200] = {
-	name = "零戦五二型",
+	name = "零战五二型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -92748,7 +94985,7 @@ _G.pg.base.equip_data_statistics[37200] = {
 	value_2 = 12,
 	icon = "37200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -92950,7 +95187,7 @@ _G.pg.base.equip_data_statistics[37206] = {
 
 
 _G.pg.base.equip_data_statistics[37220] = {
-	name = "零戦五二型",
+	name = "零战五二型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -92958,7 +95195,7 @@ _G.pg.base.equip_data_statistics[37220] = {
 	value_2 = 25,
 	icon = "37200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -93260,7 +95497,7 @@ _G.pg.base.equip_data_statistics[37230] = {
 
 
 _G.pg.base.equip_data_statistics[37240] = {
-	name = "零戦五二型",
+	name = "零战五二型",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -93268,7 +95505,7 @@ _G.pg.base.equip_data_statistics[37240] = {
 	value_2 = 45,
 	icon = "37200",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -93648,7 +95885,7 @@ _G.pg.base.equip_data_statistics[37253] = {
 
 
 _G.pg.base.equip_data_statistics[37300] = {
-	name = "烈風",
+	name = "烈风",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -93656,7 +95893,7 @@ _G.pg.base.equip_data_statistics[37300] = {
 	value_2 = 12,
 	icon = "37300",
 	attribute_2 = "air",
-	descrip = "九九式二号二◯耗銃四型4挺、300kg爆弾2発を装備した新鋭戦闘機",
+	descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -93830,7 +96067,7 @@ _G.pg.base.equip_data_statistics[37306] = {
 
 
 _G.pg.base.equip_data_statistics[37320] = {
-	name = "烈風",
+	name = "烈风",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -93838,7 +96075,7 @@ _G.pg.base.equip_data_statistics[37320] = {
 	value_2 = 25,
 	icon = "37300",
 	attribute_2 = "air",
-	descrip = "九九式二号二◯耗銃四型4挺、300kg爆弾2発を装備した新鋭戦闘機",
+	descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -94096,7 +96333,7 @@ _G.pg.base.equip_data_statistics[37330] = {
 
 
 _G.pg.base.equip_data_statistics[37340] = {
-	name = "烈風",
+	name = "烈风",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -94104,7 +96341,7 @@ _G.pg.base.equip_data_statistics[37340] = {
 	value_2 = 45,
 	icon = "37300",
 	attribute_2 = "air",
-	descrip = "九九式二号二◯耗銃四型4挺、300kg爆弾2発を装備した新鋭戦闘機",
+	descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -94428,7 +96665,7 @@ _G.pg.base.equip_data_statistics[37353] = {
 
 
 _G.pg.base.equip_data_statistics[37400] = {
-	name = "紫電改二",
+	name = "紫电改二",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -94436,7 +96673,7 @@ _G.pg.base.equip_data_statistics[37400] = {
 	value_2 = 45,
 	icon = "37400",
 	attribute_2 = "air",
-	descrip = "かの大戦で活躍した局地戦闘機の艦載機バージョン",
+	descrip = "Kawanishi N1K3-A Shiden 紫電改二舰载战斗机。",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -94816,7 +97053,7 @@ _G.pg.base.equip_data_statistics[37413] = {
 
 
 _G.pg.base.equip_data_statistics[37420] = {
-	name = "二式水戦",
+	name = "二式水上战斗机",
 	type = 12,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -94824,7 +97061,7 @@ _G.pg.base.equip_data_statistics[37420] = {
 	value_2 = 25,
 	icon = "37420",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -95152,7 +97389,7 @@ _G.pg.base.equip_data_statistics[37431] = {
 
 
 _G.pg.base.equip_data_statistics[37440] = {
-	name = "強風",
+	name = "强风",
 	type = 12,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -95160,7 +97397,7 @@ _G.pg.base.equip_data_statistics[37440] = {
 	value_2 = 25,
 	icon = "37440",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -95488,7 +97725,7 @@ _G.pg.base.equip_data_statistics[37451] = {
 
 
 _G.pg.base.equip_data_statistics[37460] = {
-	name = "試作型紫電改四",
+	name = "试作型紫电改四",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -95876,14 +98113,14 @@ _G.pg.base.equip_data_statistics[37473] = {
 
 
 _G.pg.base.equip_data_statistics[38000] = {
-	name = "九七式艦攻",
+	name = "九七式舰攻",
 	tech = 1,
 	speciality = "<[TRP]>",
 	type = 8,
 	rarity = 1,
 	value_2 = 0,
 	icon = "38000",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -95990,7 +98227,7 @@ _G.pg.base.equip_data_statistics[38003] = {
 
 
 _G.pg.base.equip_data_statistics[38020] = {
-	name = "九七式艦攻",
+	name = "九七式舰攻",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 2,
@@ -95998,7 +98235,7 @@ _G.pg.base.equip_data_statistics[38020] = {
 	value_2 = 5,
 	icon = "38000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -96105,7 +98342,7 @@ _G.pg.base.equip_data_statistics[38023] = {
 
 
 _G.pg.base.equip_data_statistics[38040] = {
-	name = "九七式艦攻",
+	name = "九七式舰攻",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -96113,7 +98350,7 @@ _G.pg.base.equip_data_statistics[38040] = {
 	value_2 = 12,
 	icon = "38000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -96300,7 +98537,7 @@ _G.pg.base.equip_data_statistics[38047] = {
 
 
 _G.pg.base.equip_data_statistics[38060] = {
-	name = "九七式艦攻改",
+	name = "九七式舰攻改",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -96308,7 +98545,7 @@ _G.pg.base.equip_data_statistics[38060] = {
 	value_2 = 12,
 	icon = "38060",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -96503,7 +98740,7 @@ _G.pg.base.equip_data_statistics[38100] = {
 	value_2 = 5,
 	icon = "38100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -96618,7 +98855,7 @@ _G.pg.base.equip_data_statistics[38120] = {
 	value_2 = 12,
 	icon = "38100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -96793,7 +99030,7 @@ _G.pg.base.equip_data_statistics[38140] = {
 	value_2 = 25,
 	icon = "38100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -97069,7 +99306,7 @@ _G.pg.base.equip_data_statistics[38160] = {
 	value_2 = 25,
 	icon = "38160",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -97393,7 +99630,7 @@ _G.pg.base.equip_data_statistics[38200] = {
 	value_2 = 12,
 	icon = "38200",
 	attribute_2 = "air",
-	descrip = "20mm機銃2挺、13mm機銃1挺、800kg魚雷を装備した新鋭艦上攻撃機",
+	descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -97596,7 +99833,7 @@ _G.pg.base.equip_data_statistics[38220] = {
 	value_2 = 25,
 	icon = "38200",
 	attribute_2 = "air",
-	descrip = "20mm機銃2挺、13mm機銃1挺、800kg魚雷を装備した新鋭艦上攻撃機",
+	descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -97895,7 +100132,7 @@ _G.pg.base.equip_data_statistics[38240] = {
 	value_2 = 45,
 	icon = "38200",
 	attribute_2 = "air",
-	descrip = "20mm機銃2挺、13mm機銃1挺、800kg魚雷を装備した新鋭艦上攻撃機",
+	descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -98269,7 +100506,7 @@ _G.pg.base.equip_data_statistics[38260] = {
 	value_2 = 45,
 	icon = "38260",
 	attribute_2 = "air",
-	descrip = "艦上攻撃「流星」の強化型",
+	descrip = "流星式舰载攻击机的性能强化机型",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -98635,7 +100872,7 @@ _G.pg.base.equip_data_statistics[38273] = {
 
 
 _G.pg.base.equip_data_statistics[38300] = {
-	name = "試作型彩雲（艦攻型・特別計画艦仕様）",
+	name = "试作型彩云（舰攻型）",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -98643,7 +100880,7 @@ _G.pg.base.equip_data_statistics[38300] = {
 	value_2 = 45,
 	icon = "38300",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -98953,7 +101190,7 @@ _G.pg.base.equip_data_statistics[38313] = {
 
 
 _G.pg.base.equip_data_statistics[39000] = {
-	name = "九九式艦爆",
+	name = "九九式舰爆",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -98961,7 +101198,7 @@ _G.pg.base.equip_data_statistics[39000] = {
 	value_2 = 5,
 	icon = "39000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -99084,7 +101321,7 @@ _G.pg.base.equip_data_statistics[39003] = {
 
 
 _G.pg.base.equip_data_statistics[39020] = {
-	name = "九九式艦爆",
+	name = "九九式舰爆",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -99092,7 +101329,7 @@ _G.pg.base.equip_data_statistics[39020] = {
 	value_2 = 12,
 	icon = "39000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -99287,7 +101524,7 @@ _G.pg.base.equip_data_statistics[39026] = {
 
 
 _G.pg.base.equip_data_statistics[39040] = {
-	name = "九九式艦爆",
+	name = "九九式舰爆",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -99295,7 +101532,7 @@ _G.pg.base.equip_data_statistics[39040] = {
 	value_2 = 25,
 	icon = "39000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -99611,7 +101848,7 @@ _G.pg.base.equip_data_statistics[39051] = {
 
 
 _G.pg.base.equip_data_statistics[39060] = {
-	name = "九九式艦爆改",
+	name = "九九式舰爆改",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -99619,7 +101856,7 @@ _G.pg.base.equip_data_statistics[39060] = {
 	value_2 = 25,
 	icon = "39060",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -99943,7 +102180,7 @@ _G.pg.base.equip_data_statistics[39100] = {
 	value_2 = 12,
 	icon = "39100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -100146,7 +102383,7 @@ _G.pg.base.equip_data_statistics[39120] = {
 	value_2 = 25,
 	icon = "39100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -100445,7 +102682,7 @@ _G.pg.base.equip_data_statistics[39140] = {
 	value_2 = 45,
 	icon = "39100",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -100819,7 +103056,7 @@ _G.pg.base.equip_data_statistics[39160] = {
 	value_2 = 45,
 	icon = "39160",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -101185,7 +103422,7 @@ _G.pg.base.equip_data_statistics[39173] = {
 
 
 _G.pg.base.equip_data_statistics[39200] = {
-	name = "瑞雲",
+	name = "瑞云",
 	tech = 1,
 	type = 12,
 	speciality = "<[BOMB]>",
@@ -101193,7 +103430,7 @@ _G.pg.base.equip_data_statistics[39200] = {
 	rarity = 2,
 	value_2 = 5,
 	icon = "39200",
-	descrip = "20mm機銃2挺、13mm機銃1挺、300kg爆弾を装備した水上偵察機",
+	descrip = "Aichi E16A Zuiun @'{namecode:10004}式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -101316,7 +103553,7 @@ _G.pg.base.equip_data_statistics[39203] = {
 
 
 _G.pg.base.equip_data_statistics[39220] = {
-	name = "瑞雲",
+	name = "瑞云",
 	type = 12,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -101324,7 +103561,7 @@ _G.pg.base.equip_data_statistics[39220] = {
 	value_2 = 12,
 	icon = "39200",
 	attribute_2 = "air",
-	descrip = "20mm機銃2挺、13mm機銃1挺、300kg爆弾を装備した水上偵察機",
+	descrip = "Aichi E16A Zuiun @'{namecode:10004}式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -101519,7 +103756,7 @@ _G.pg.base.equip_data_statistics[39226] = {
 
 
 _G.pg.base.equip_data_statistics[39240] = {
-	name = "瑞雲",
+	name = "瑞云",
 	type = 12,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -101527,7 +103764,7 @@ _G.pg.base.equip_data_statistics[39240] = {
 	value_2 = 25,
 	icon = "39200",
 	attribute_2 = "air",
-	descrip = "20mm機銃2挺、13mm機銃1挺、300kg爆弾を装備した水上偵察機",
+	descrip = "Aichi E16A Zuiun @'{namecode:10004}式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -101843,7 +104080,7 @@ _G.pg.base.equip_data_statistics[39251] = {
 
 
 _G.pg.base.equip_data_statistics[39300] = {
-	name = "晴嵐",
+	name = "晴岚",
 	type = 12,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -101851,7 +104088,7 @@ _G.pg.base.equip_data_statistics[39300] = {
 	value_2 = 25,
 	icon = "39300",
 	attribute_2 = "air",
-	descrip = "水上特殊攻撃機晴嵐（M6A1）。13mm機銃と800kg爆弾を搭載可能",
+	descrip = "Aichi M6A1 Seiran 晴岚式特殊攻击机，搭载1门13mm机枪和1枚约1600磅炸弹",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -102132,7 +104369,7 @@ _G.pg.base.equip_data_statistics[39320] = {
 	value_2 = 45,
 	icon = "39320",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -102496,7 +104733,7 @@ _G.pg.base.equip_data_statistics[39333] = {
 
 
 _G.pg.base.equip_data_statistics[39340] = {
-	name = "試作型天雷（特別計画艦仕様）",
+	name = "试作舰载型天雷",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 6,
@@ -102504,7 +104741,7 @@ _G.pg.base.equip_data_statistics[39340] = {
 	value_2 = 65,
 	icon = "39340",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 3,
 	ammo = 5,
 	value_3 = 0,
@@ -102953,14 +105190,14 @@ _G.pg.base.equip_data_statistics[39353] = {
 
 
 _G.pg.base.equip_data_statistics[41000] = {
-	name = "127mm単装砲",
+	name = "单装127mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "41000",
-	descrip = "127mm単装砲。ほとんどの駆逐艦に装備可能",
+	descrip = "单装127mm主炮，大部分驱逐都可以使用",
 	damage = "4 x 1",
 	nationality = 4,
 	ammo = 1,
@@ -103056,14 +105293,14 @@ _G.pg.base.equip_data_statistics[41003] = {
 
 
 _G.pg.base.equip_data_statistics[41020] = {
-	name = "127mm単装砲",
+	name = "单装127mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 5,
 	icon = "41000",
 	attribute_2 = "cannon",
-	descrip = "127mm単装砲。ほとんどの駆逐艦に装備可能",
+	descrip = "单装127mm主炮，大部分驱逐都可以使用",
 	rarity = 2,
 	damage = "4 x 1",
 	nationality = 4,
@@ -103160,14 +105397,14 @@ _G.pg.base.equip_data_statistics[41023] = {
 
 
 _G.pg.base.equip_data_statistics[41040] = {
-	name = "127mm単装砲",
+	name = "单装127mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 12,
 	icon = "41000",
 	attribute_2 = "cannon",
-	descrip = "127mm単装砲。ほとんどの駆逐艦に装備可能",
+	descrip = "单装127mm主炮，大部分驱逐都可以使用",
 	rarity = 3,
 	damage = "4 x 1",
 	nationality = 4,
@@ -103308,14 +105545,14 @@ _G.pg.base.equip_data_statistics[41047] = {
 
 
 _G.pg.base.equip_data_statistics[41060] = {
-	name = "127mmKM40連装砲",
+	name = "双联装127mmKM40主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 25,
 	icon = "41060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 4,
@@ -103502,7 +105739,7 @@ _G.pg.base.equip_data_statistics[41071] = {
 
 
 _G.pg.base.equip_data_statistics[41100] = {
-	name = "128mmSKC41連装両用砲",
+	name = "双联装128mmSKC41高平两用炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -103513,7 +105750,7 @@ _G.pg.base.equip_data_statistics[41100] = {
 	rarity = 2,
 	damage = "4 x 4",
 	nationality = 4,
-	descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
+	descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 	ammo = 1,
 	value_3 = 2,
 	id = 41100,
@@ -103608,7 +105845,7 @@ _G.pg.base.equip_data_statistics[41103] = {
 
 
 _G.pg.base.equip_data_statistics[41120] = {
-	name = "128mmSKC41連装両用砲",
+	name = "双联装128mmSKC41高平两用炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -103619,7 +105856,7 @@ _G.pg.base.equip_data_statistics[41120] = {
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 4,
-	descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
+	descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 	ammo = 1,
 	value_3 = 5,
 	id = 41120,
@@ -103747,7 +105984,7 @@ _G.pg.base.equip_data_statistics[41126] = {
 
 
 _G.pg.base.equip_data_statistics[41140] = {
-	name = "128mmSKC41連装両用砲",
+	name = "双联装128mmSKC41高平两用炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -103758,7 +105995,7 @@ _G.pg.base.equip_data_statistics[41140] = {
 	rarity = 4,
 	damage = "5 x 4",
 	nationality = 4,
-	descrip = "クラップが新たに開発した駆逐艦兵装・128mmSKC41両用砲。対空火力を強化できる",
+	descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 	ammo = 1,
 	value_3 = 10,
 	id = 41140,
@@ -103942,7 +106179,7 @@ _G.pg.base.equip_data_statistics[41151] = {
 
 
 _G.pg.base.equip_data_statistics[41160] = {
-	name = "128mmSKC41連装両用砲改",
+	name = "双联装128mmSKC41高平两用炮改",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -103953,7 +106190,7 @@ _G.pg.base.equip_data_statistics[41160] = {
 	rarity = 5,
 	damage = "6 x 4",
 	nationality = 4,
-	descrip = "0",
+	descrip = "说明未填写",
 	ammo = 1,
 	value_3 = 15,
 	id = 41160,
@@ -104161,14 +106398,14 @@ _G.pg.base.equip_data_statistics[41173] = {
 
 
 _G.pg.base.equip_data_statistics[42000] = {
-	name = "150mmSKC/28単装砲",
+	name = "单装SKC28式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "42000",
 	attribute_2 = "cannon",
-	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 2,
 	damage = "9 x 1",
 	nationality = 4,
@@ -104257,14 +106494,14 @@ _G.pg.base.equip_data_statistics[42003] = {
 
 
 _G.pg.base.equip_data_statistics[42020] = {
-	name = "150mmSKC/28単装砲",
+	name = "单装SKC28式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "42000",
 	attribute_2 = "cannon",
-	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 3,
 	damage = "11 x 1",
 	nationality = 4,
@@ -104386,14 +106623,14 @@ _G.pg.base.equip_data_statistics[42026] = {
 
 
 _G.pg.base.equip_data_statistics[42040] = {
-	name = "150mmSKC/28単装砲",
+	name = "单装SKC28式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "42000",
 	attribute_2 = "cannon",
-	descrip = "150mmSKC28主砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 4,
 	damage = "14 x 1",
 	nationality = 4,
@@ -104571,14 +106808,14 @@ _G.pg.base.equip_data_statistics[42051] = {
 
 
 _G.pg.base.equip_data_statistics[42060] = {
-	name = "150mmSKC28連装副砲",
+	name = "双联装SKC28式150mm副炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 25,
 	icon = "42060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 4,
 	damage = "14 x 4",
 	nationality = 4,
@@ -104756,7 +106993,7 @@ _G.pg.base.equip_data_statistics[42071] = {
 
 
 _G.pg.base.equip_data_statistics[42080] = {
-	name = "試作型150mmSKC28連装砲改",
+	name = "试作型双联装SKC28式150mm主炮改",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -104965,14 +107202,14 @@ _G.pg.base.equip_data_statistics[42093] = {
 
 
 _G.pg.base.equip_data_statistics[42100] = {
-	name = "150mmSKC/25三連装砲",
+	name = "三联装SKC25式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "42100",
 	attribute_2 = "cannon",
-	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
+	descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 2,
 	damage = "9 x 3",
 	nationality = 4,
@@ -105061,14 +107298,14 @@ _G.pg.base.equip_data_statistics[42103] = {
 
 
 _G.pg.base.equip_data_statistics[42120] = {
-	name = "150mmSKC/25三連装砲",
+	name = "三联装SKC25式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "42100",
 	attribute_2 = "cannon",
-	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
+	descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 3,
 	damage = "11 x 3",
 	nationality = 4,
@@ -105190,14 +107427,14 @@ _G.pg.base.equip_data_statistics[42126] = {
 
 
 _G.pg.base.equip_data_statistics[42140] = {
-	name = "150mmSKC/25三連装砲",
+	name = "三联装SKC25式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "42100",
 	attribute_2 = "cannon",
-	descrip = "三連装150mmSKC25主砲。軽巡洋艦と一部の駆逐艦が装備可能",
+	descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 	rarity = 4,
 	damage = "14 x 3",
 	nationality = 4,
@@ -105375,7 +107612,7 @@ _G.pg.base.equip_data_statistics[42151] = {
 
 
 _G.pg.base.equip_data_statistics[42160] = {
-	name = "150mmSKC/25三連装砲改",
+	name = "三联装SKC25式150mm主炮改",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -105560,14 +107797,14 @@ _G.pg.base.equip_data_statistics[42171] = {
 
 
 _G.pg.base.equip_data_statistics[42200] = {
-	name = "150mmTbtsKC/36連装砲",
+	name = "双联装TbtsKC36式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "42200",
 	attribute_2 = "cannon",
-	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 	rarity = 2,
 	damage = "9 x 4",
 	nationality = 4,
@@ -105656,14 +107893,14 @@ _G.pg.base.equip_data_statistics[42203] = {
 
 
 _G.pg.base.equip_data_statistics[42220] = {
-	name = "150mmTbtsKC/36連装砲",
+	name = "双联装TbtsKC36式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 12,
 	icon = "42200",
 	attribute_2 = "cannon",
-	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 	rarity = 3,
 	damage = "11 x 4",
 	nationality = 4,
@@ -105785,14 +108022,14 @@ _G.pg.base.equip_data_statistics[42226] = {
 
 
 _G.pg.base.equip_data_statistics[42240] = {
-	name = "150mmTbtsKC/36連装砲",
+	name = "双联装TbtsKC36式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "42200",
 	attribute_2 = "cannon",
-	descrip = "1936A駆逐艦に装備された150mmTbtsKC36連装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 	rarity = 4,
 	damage = "14 x 4",
 	nationality = 4,
@@ -105970,14 +108207,14 @@ _G.pg.base.equip_data_statistics[42251] = {
 
 
 _G.pg.base.equip_data_statistics[42300] = {
-	name = "150mmTbtsKC36単装砲",
+	name = "单装TbtsKC36式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 5,
 	icon = "42300",
 	attribute_2 = "cannon",
-	descrip = "1936A駆逐艦に装備された150mmTbtsKC36単装砲。軽巡洋艦と一部の駆逐艦に装備可能",
+	descrip = "单装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 	rarity = 2,
 	damage = "9 x 3",
 	nationality = 4,
@@ -106066,14 +108303,14 @@ _G.pg.base.equip_data_statistics[42303] = {
 
 
 _G.pg.base.equip_data_statistics[42340] = {
-	name = "150mmTbtsKC36単装砲",
+	name = "单装TbtsKC36式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 25,
 	icon = "42300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 	rarity = 4,
 	damage = "9 x 3",
 	nationality = 4,
@@ -106250,7 +108487,7 @@ _G.pg.base.equip_data_statistics[42351] = {
 
 
 _G.pg.base.equip_data_statistics[42360] = {
-	name = "試作型150mmTbtsKC42T式連装砲",
+	name = "试作型双联装TbtsKC42T式150mm主炮",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -106465,14 +108702,14 @@ _G.pg.base.equip_data_statistics[42373] = {
 
 
 _G.pg.base.equip_data_statistics[43000] = {
-	name = "203mmSKC連装砲",
+	name = "双联装203mmSKC主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 12,
 	icon = "43000",
 	attribute_2 = "cannon",
-	descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+	descrip = "双联装203mmSKC主炮，{namecode:425}级重巡主炮，重巡可以使用",
 	rarity = 3,
 	damage = "25 x 6",
 	nationality = 4,
@@ -106593,14 +108830,14 @@ _G.pg.base.equip_data_statistics[43006] = {
 
 
 _G.pg.base.equip_data_statistics[43020] = {
-	name = "203mmSKC連装砲",
+	name = "双联装203mmSKC主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 25,
 	icon = "43000",
 	attribute_2 = "cannon",
-	descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+	descrip = "双联装203mmSKC主炮，{namecode:425}级重巡主炮，重巡可以使用",
 	rarity = 4,
 	damage = "27 x 6",
 	nationality = 4,
@@ -106765,14 +109002,14 @@ _G.pg.base.equip_data_statistics[43030] = {
 
 
 _G.pg.base.equip_data_statistics[43040] = {
-	name = "203mmSKC連装砲",
+	name = "双联装203mmSKC主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 45,
 	icon = "43000",
 	attribute_2 = "cannon",
-	descrip = "アドミラル・ヒッパー級主砲の203mmSKC連装砲。重巡に装備可能",
+	descrip = "双联装203mmSKC主炮，{namecode:425}级重巡主炮，重巡可以使用",
 	rarity = 5,
 	damage = "30 x 6",
 	nationality = 4,
@@ -106973,14 +109210,14 @@ _G.pg.base.equip_data_statistics[43053] = {
 
 
 _G.pg.base.equip_data_statistics[43060] = {
-	name = "試作203mmSKC三連装砲",
+	name = "试作型三联装203mmSKC主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "43060",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "双联装203mmSKC主炮，{namecode:425}级重巡主炮，重巡可以使用",
 	rarity = 5,
 	damage = "30 x 6",
 	nationality = 4,
@@ -107181,14 +109418,14 @@ _G.pg.base.equip_data_statistics[43073] = {
 
 
 _G.pg.base.equip_data_statistics[43080] = {
-	name = "203mmSKC連装砲改",
+	name = "双联装203mmSKC主炮改",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "43080",
 	attribute_2 = "cannon",
-	descrip = "鉄血が開発した203mmSKC連装砲の改修型",
+	descrip = "由铁血开发的双联装203mmSKC主炮的改进型主炮",
 	rarity = 5,
 	damage = "33 x 6",
 	nationality = 4,
@@ -107389,14 +109626,14 @@ _G.pg.base.equip_data_statistics[43093] = {
 
 
 _G.pg.base.equip_data_statistics[43100] = {
-	name = "283mmSKC28三連装砲",
+	name = "三联283mmSKC28主炮",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 1,
 	value_2 = 5,
 	icon = "43100",
 	attribute_2 = "cannon",
-	descrip = "ドイッチュランドの主砲、283mmSKC28三連装砲。ドイッチュランド級にのみ装備可能",
+	descrip = "三联283mmSKC28主炮，{namecode:429}级装甲舰主炮，仅{namecode:429}级可以使用",
 	rarity = 2,
 	damage = "30 x 6",
 	nationality = 4,
@@ -107475,14 +109712,14 @@ _G.pg.base.equip_data_statistics[43103] = {
 
 
 _G.pg.base.equip_data_statistics[43120] = {
-	name = "283mmSKC28三連装砲",
+	name = "三联283mmSKC28主炮",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 2,
 	value_2 = 12,
 	icon = "43100",
 	attribute_2 = "cannon",
-	descrip = "ドイッチュランドの主砲、283mmSKC28三連装砲。ドイッチュランド級にのみ装備可能",
+	descrip = "三联283mmSKC28主炮，{namecode:429}级装甲舰主炮，仅{namecode:429}级可以使用",
 	rarity = 3,
 	damage = "32 x 6",
 	nationality = 4,
@@ -107594,14 +109831,14 @@ _G.pg.base.equip_data_statistics[43126] = {
 
 
 _G.pg.base.equip_data_statistics[43140] = {
-	name = "283mmSKC28三連装砲",
+	name = "三联283mmSKC28主炮",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 3,
 	value_2 = 25,
 	icon = "43100",
 	attribute_2 = "cannon",
-	descrip = "ドイッチュランドの主砲、283mmSKC28三連装砲。ドイッチュランド級にのみ装備可能",
+	descrip = "三联283mmSKC28主炮，{namecode:429}级装甲舰主炮，仅{namecode:429}级可以使用",
 	rarity = 4,
 	damage = "35 x 6",
 	nationality = 4,
@@ -107769,7 +110006,7 @@ _G.pg.base.equip_data_statistics[43151] = {
 
 
 _G.pg.base.equip_data_statistics[43160] = {
-	name = "試作型203mmSKC三連装砲改",
+	name = "试作型三联装203mmSKC主炮改",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
@@ -107977,14 +110214,14 @@ _G.pg.base.equip_data_statistics[43173] = {
 
 
 _G.pg.base.equip_data_statistics[44000] = {
-	name = "283mmSKC34三連装砲",
+	name = "三联283mmSKC34主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 5,
 	icon = "44000",
 	attribute_2 = "cannon",
-	descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "三联283mmSKC34主炮，{namecode:433}级战列巡洋舰主炮，战巡和战列可以使用",
 	rarity = 2,
 	damage = "34 x 3",
 	nationality = 4,
@@ -108065,14 +110302,14 @@ _G.pg.base.equip_data_statistics[44003] = {
 
 
 _G.pg.base.equip_data_statistics[44020] = {
-	name = "283mmSKC34三連装砲",
+	name = "三联283mmSKC34主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 12,
 	icon = "44000",
 	attribute_2 = "cannon",
-	descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "三联283mmSKC34主炮，{namecode:433}级战列巡洋舰主炮，战巡和战列可以使用",
 	rarity = 3,
 	damage = "37 x 3",
 	nationality = 4,
@@ -108186,14 +110423,14 @@ _G.pg.base.equip_data_statistics[44026] = {
 
 
 _G.pg.base.equip_data_statistics[44040] = {
-	name = "283mmSKC34三連装砲",
+	name = "三联283mmSKC34主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 25,
 	icon = "44000",
 	attribute_2 = "cannon",
-	descrip = "シャルンホルスト級の主砲、283mmSKC34三連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "三联283mmSKC34主炮，{namecode:433}级战列巡洋舰主炮，战巡和战列可以使用",
 	rarity = 4,
 	damage = "40 x 3",
 	nationality = 4,
@@ -108363,14 +110600,14 @@ _G.pg.base.equip_data_statistics[44051] = {
 
 
 _G.pg.base.equip_data_statistics[44100] = {
-	name = "380mmSKC連装砲",
+	name = "双联380mmSKC主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "44100",
 	attribute_2 = "cannon",
-	descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "双联380mmSKC主炮，{namecode:435}级战列舰主炮，战巡和战列可以使用",
 	rarity = 3,
 	damage = "48 x 2",
 	nationality = 4,
@@ -108484,14 +110721,14 @@ _G.pg.base.equip_data_statistics[44106] = {
 
 
 _G.pg.base.equip_data_statistics[44120] = {
-	name = "380mmSKC連装砲",
+	name = "双联380mmSKC主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "44100",
 	attribute_2 = "cannon",
-	descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "双联380mmSKC主炮，{namecode:435}级战列舰主炮，战巡和战列可以使用",
 	rarity = 4,
 	damage = "55 x 2",
 	nationality = 4,
@@ -108650,14 +110887,14 @@ _G.pg.base.equip_data_statistics[44130] = {
 
 
 _G.pg.base.equip_data_statistics[44140] = {
-	name = "380mmSKC連装砲",
+	name = "双联380mmSKC主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "44100",
 	attribute_2 = "cannon",
-	descrip = "ビスマルク級の主砲、380mmSKC連装砲。戦艦と巡洋戦艦にのみ装備可能",
+	descrip = "双联380mmSKC主炮，{namecode:435}级战列舰主炮，战巡和战列可以使用",
 	rarity = 5,
 	damage = "58 x 2",
 	nationality = 4,
@@ -108852,14 +111089,14 @@ _G.pg.base.equip_data_statistics[44153] = {
 
 
 _G.pg.base.equip_data_statistics[44200] = {
-	name = "試作型406mmSKC連装砲",
+	name = "试作型双联装406mmSKC主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "44200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "58 x 2",
 	nationality = 4,
@@ -109054,14 +111291,14 @@ _G.pg.base.equip_data_statistics[44213] = {
 
 
 _G.pg.base.equip_data_statistics[44300] = {
-	name = "試作型305mmSKC39三連装砲",
+	name = "试作型三联装305mmSKC39主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "44300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "57 x 3",
 	nationality = 4,
@@ -109256,7 +111493,7 @@ _G.pg.base.equip_data_statistics[44313] = {
 
 
 _G.pg.base.equip_data_statistics[44320] = {
-	name = "試作型305mm四連装砲SKC39",
+	name = "试作型四联装305mmSKC39主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -109458,14 +111695,14 @@ _G.pg.base.equip_data_statistics[44333] = {
 
 
 _G.pg.base.equip_data_statistics[44400] = {
-	name = "試作型三連装305mmSKC39主砲（超巡）",
+	name = "试作型三联装305mmSKC39主炮（超巡用）",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
 	value_2 = 45,
 	icon = "44400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "57 x 3",
 	nationality = 4,
@@ -109657,7 +111894,7 @@ _G.pg.base.equip_data_statistics[44413] = {
 
 
 _G.pg.base.equip_data_statistics[44420] = {
-	name = "試作型283mm/54.5三連装砲",
+	name = "试作型三联装283mm/54.5主炮",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
@@ -109856,7 +112093,7 @@ _G.pg.base.equip_data_statistics[44433] = {
 
 
 _G.pg.base.equip_data_statistics[44500] = {
-	name = "試作型380mmSKC三連装砲",
+	name = "试作型三联装380mmSKC主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -110058,14 +112295,14 @@ _G.pg.base.equip_data_statistics[44513] = {
 
 
 _G.pg.base.equip_data_statistics[45000] = {
-	name = "533mm三連装磁気魚雷",
+	name = "三联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 5,
 	icon = "45000",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 2,
 	damage = "63 x 3",
 	nationality = 4,
@@ -110162,14 +112399,14 @@ _G.pg.base.equip_data_statistics[45003] = {
 
 
 _G.pg.base.equip_data_statistics[45020] = {
-	name = "533mm三連装磁気魚雷",
+	name = "三联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 12,
 	icon = "45000",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 3,
 	damage = "66 x 3",
 	nationality = 4,
@@ -110299,14 +112536,14 @@ _G.pg.base.equip_data_statistics[45026] = {
 
 
 _G.pg.base.equip_data_statistics[45040] = {
-	name = "533mm三連装磁気魚雷",
+	name = "三联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 25,
 	icon = "45000",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 4,
 	damage = "70 x 3",
 	nationality = 4,
@@ -110492,14 +112729,14 @@ _G.pg.base.equip_data_statistics[45051] = {
 
 
 _G.pg.base.equip_data_statistics[45100] = {
-	name = "533mm四連装磁気魚雷",
+	name = "四联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 12,
 	icon = "45100",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 3,
 	damage = "63 x 4",
 	nationality = 4,
@@ -110629,14 +112866,14 @@ _G.pg.base.equip_data_statistics[45106] = {
 
 
 _G.pg.base.equip_data_statistics[45120] = {
-	name = "533mm四連装磁気魚雷",
+	name = "四联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 25,
 	icon = "45100",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 4,
 	damage = "66 x 4",
 	nationality = 4,
@@ -110810,14 +113047,14 @@ _G.pg.base.equip_data_statistics[45130] = {
 
 
 _G.pg.base.equip_data_statistics[45140] = {
-	name = "533mm四連装磁気魚雷",
+	name = "四联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 45,
 	icon = "45100",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 5,
 	damage = "70 x 4",
 	nationality = 4,
@@ -111027,14 +113264,14 @@ _G.pg.base.equip_data_statistics[45153] = {
 
 
 _G.pg.base.equip_data_statistics[45160] = {
-	name = "533mm四連装磁気魚雷改",
+	name = "四联装533mm磁性鱼雷改",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
 	value_2 = 45,
 	icon = "45160",
 	attribute_2 = "torpedo",
-	descrip = "鉄血が開発した533mm四連装磁気魚雷の、音響追跡性能と威力が向上した改修型",
+	descrip = "铁血研发的四联装533mm磁性鱼雷改进型，声导性能及威力获得了提升",
 	rarity = 5,
 	damage = "76 x 4",
 	nationality = 4,
@@ -111244,14 +113481,14 @@ _G.pg.base.equip_data_statistics[45173] = {
 
 
 _G.pg.base.equip_data_statistics[45200] = {
-	name = "533mm五連装磁気魚雷",
+	name = "五联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 1,
 	value_2 = 25,
 	icon = "45200",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 4,
 	damage = "63 x 5",
 	nationality = 4,
@@ -111425,14 +113662,14 @@ _G.pg.base.equip_data_statistics[45210] = {
 
 
 _G.pg.base.equip_data_statistics[45220] = {
-	name = "533mm五連装磁気魚雷",
+	name = "五联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 2,
 	value_2 = 45,
 	icon = "45200",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 5,
 	damage = "66 x 5",
 	nationality = 4,
@@ -111606,14 +113843,14 @@ _G.pg.base.equip_data_statistics[45230] = {
 
 
 _G.pg.base.equip_data_statistics[45240] = {
-	name = "533mm五連装磁気魚雷",
+	name = "五联装533mm磁性鱼雷",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 3,
 	value_2 = 70,
 	icon = "45200",
 	attribute_2 = "torpedo",
-	descrip = "クラップが開発した磁気信管とソナー技術を活かした533mm磁気魚雷。魚雷の命中率を大幅に強化できる",
+	descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 	rarity = 6,
 	damage = "70 x 5",
 	nationality = 4,
@@ -111823,14 +114060,14 @@ _G.pg.base.equip_data_statistics[45253] = {
 
 
 _G.pg.base.equip_data_statistics[45300] = {
-	name = "潜水艦用G7a魚雷",
+	name = "潜艇用G7a鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 5,
 	icon = "45300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "46 x 2",
 	nationality = 4,
@@ -111918,14 +114155,14 @@ _G.pg.base.equip_data_statistics[45303] = {
 
 
 _G.pg.base.equip_data_statistics[45320] = {
-	name = "潜水艦用G7a魚雷",
+	name = "潜艇用G7a鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 12,
 	icon = "45300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 2",
 	nationality = 4,
@@ -112046,14 +114283,14 @@ _G.pg.base.equip_data_statistics[45326] = {
 
 
 _G.pg.base.equip_data_statistics[45340] = {
-	name = "潜水艦用G7a魚雷",
+	name = "潜艇用G7a鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 25,
 	icon = "45300",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 2",
 	nationality = 4,
@@ -112230,14 +114467,14 @@ _G.pg.base.equip_data_statistics[45351] = {
 
 
 _G.pg.base.equip_data_statistics[45400] = {
-	name = "潜水艦用G7e音響追跡魚雷",
+	name = "潜艇用G7e声导鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 12,
 	icon = "45400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "52 x 2",
 	nationality = 4,
@@ -112358,14 +114595,14 @@ _G.pg.base.equip_data_statistics[45406] = {
 
 
 _G.pg.base.equip_data_statistics[45420] = {
-	name = "潜水艦用G7e音響追跡魚雷",
+	name = "潜艇用G7e声导鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 2,
 	value_2 = 25,
 	icon = "45400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "58 x 2",
 	nationality = 4,
@@ -112530,14 +114767,14 @@ _G.pg.base.equip_data_statistics[45430] = {
 
 
 _G.pg.base.equip_data_statistics[45440] = {
-	name = "潜水艦用G7e音響追跡魚雷",
+	name = "潜艇用G7e声导鱼雷",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 3,
 	value_2 = 45,
 	icon = "45400",
 	attribute_2 = "torpedo",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "64 x 2",
 	nationality = 4,
@@ -112738,14 +114975,14 @@ _G.pg.base.equip_data_statistics[45453] = {
 
 
 _G.pg.base.equip_data_statistics[46000] = {
-	name = "20mm四連装MG機銃",
+	name = "四联装20mm MG机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "46000",
-	descrip = "対空火器・四連装20mmMG機銃",
+	descrip = "四联装20mm MG机枪，可以用于防空",
 	damage = "17<[WAVE]>",
 	nationality = 4,
 	ammo = 5,
@@ -112839,14 +115076,14 @@ _G.pg.base.equip_data_statistics[46003] = {
 
 
 _G.pg.base.equip_data_statistics[46020] = {
-	name = "20mm四連装MG機銃",
+	name = "四联装20mm MG机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "46000",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・四連装20mmMG機銃",
+	descrip = "四联装20mm MG机枪，可以用于防空",
 	rarity = 2,
 	damage = "20<[WAVE]>",
 	nationality = 4,
@@ -112941,14 +115178,14 @@ _G.pg.base.equip_data_statistics[46023] = {
 
 
 _G.pg.base.equip_data_statistics[46040] = {
-	name = "20mm四連装MG機銃",
+	name = "四联装20mm MG机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "46000",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・四連装20mmMG機銃",
+	descrip = "四联装20mm MG机枪，可以用于防空",
 	rarity = 3,
 	damage = "23<[WAVE]>",
 	nationality = 4,
@@ -113087,14 +115324,14 @@ _G.pg.base.equip_data_statistics[46047] = {
 
 
 _G.pg.base.equip_data_statistics[46060] = {
-	name = "88mmSKC32高角砲",
+	name = "双联装88mmSKC32高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "46060",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "28<[WAVE]>",
 	nationality = 4,
@@ -113278,14 +115515,14 @@ _G.pg.base.equip_data_statistics[46071] = {
 
 
 _G.pg.base.equip_data_statistics[46100] = {
-	name = "37mm機銃",
+	name = "37mm机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	rarity = 1,
 	value_2 = 0,
 	icon = "46100",
-	descrip = "対空火器・37mm機銃",
+	descrip = "37mm机枪，可以用于防空",
 	damage = "8<[WAVE]>",
 	nationality = 4,
 	ammo = 5,
@@ -113379,14 +115616,14 @@ _G.pg.base.equip_data_statistics[46103] = {
 
 
 _G.pg.base.equip_data_statistics[46120] = {
-	name = "37mm機銃",
+	name = "37mm机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 5,
 	icon = "46100",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・37mm機銃",
+	descrip = "37mm机枪，可以用于防空",
 	rarity = 2,
 	damage = "11<[WAVE]>",
 	nationality = 4,
@@ -113481,14 +115718,14 @@ _G.pg.base.equip_data_statistics[46123] = {
 
 
 _G.pg.base.equip_data_statistics[46140] = {
-	name = "37mm機銃",
+	name = "37mm机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 12,
 	icon = "46100",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・37mm機銃",
+	descrip = "37mm机枪，可以用于防空",
 	rarity = 3,
 	damage = "12<[WAVE]>",
 	nationality = 4,
@@ -113627,14 +115864,14 @@ _G.pg.base.equip_data_statistics[46147] = {
 
 
 _G.pg.base.equip_data_statistics[46200] = {
-	name = "37mm連装機銃",
+	name = "双联37mm手拉机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "46200",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・37mm連装機銃",
+	descrip = "双联37mm手拉机枪，可以用于防空",
 	rarity = 2,
 	damage = "15<[WAVE]>",
 	nationality = 4,
@@ -113729,14 +115966,14 @@ _G.pg.base.equip_data_statistics[46203] = {
 
 
 _G.pg.base.equip_data_statistics[46220] = {
-	name = "37mm連装機銃",
+	name = "双联37mm手拉机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "46200",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・37mm連装機銃",
+	descrip = "双联37mm手拉机枪，可以用于防空",
 	rarity = 3,
 	damage = "17<[WAVE]>",
 	nationality = 4,
@@ -113864,14 +116101,14 @@ _G.pg.base.equip_data_statistics[46226] = {
 
 
 _G.pg.base.equip_data_statistics[46240] = {
-	name = "37mm連装機銃",
+	name = "双联37mm手拉机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "46200",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・37mm連装機銃",
+	descrip = "双联37mm手拉机枪，可以用于防空",
 	rarity = 4,
 	damage = "20<[WAVE]>",
 	nationality = 4,
@@ -114055,14 +116292,14 @@ _G.pg.base.equip_data_statistics[46251] = {
 
 
 _G.pg.base.equip_data_statistics[46260] = {
-	name = "37mmFlak M43連装機銃",
+	name = "双联37mm Flak M43机枪",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 25,
 	icon = "46260",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "26<[WAVE]>",
 	nationality = 4,
@@ -114246,14 +116483,14 @@ _G.pg.base.equip_data_statistics[46271] = {
 
 
 _G.pg.base.equip_data_statistics[46300] = {
-	name = "105mmSKC連装高角砲",
+	name = "双联105mmSKC高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "46300",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・105mmSKC高角砲",
+	descrip = "双联105mmSKC高炮，可以用于防空",
 	rarity = 3,
 	damage = "34<[WAVE]>",
 	nationality = 4,
@@ -114381,14 +116618,14 @@ _G.pg.base.equip_data_statistics[46306] = {
 
 
 _G.pg.base.equip_data_statistics[46320] = {
-	name = "105mmSKC連装高角砲",
+	name = "双联105mmSKC高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 25,
 	icon = "46300",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・105mmSKC高角砲",
+	descrip = "双联105mmSKC高炮，可以用于防空",
 	rarity = 4,
 	damage = "41<[WAVE]>",
 	nationality = 4,
@@ -114560,14 +116797,14 @@ _G.pg.base.equip_data_statistics[46330] = {
 
 
 _G.pg.base.equip_data_statistics[46340] = {
-	name = "105mmSKC連装高角砲",
+	name = "双联105mmSKC高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 45,
 	icon = "46300",
 	attribute_2 = "antiaircraft",
-	descrip = "対空火器・105mmSKC高角砲",
+	descrip = "双联105mmSKC高炮，可以用于防空",
 	rarity = 5,
 	damage = "49<[WAVE]>",
 	nationality = 4,
@@ -114775,14 +117012,14 @@ _G.pg.base.equip_data_statistics[46353] = {
 
 
 _G.pg.base.equip_data_statistics[46360] = {
-	name = "105mmSKC高角連装砲改修型",
+	name = "双联105mmSKC高炮改进型",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "46360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "55<[WAVE]>",
 	nationality = 4,
@@ -114990,7 +117227,7 @@ _G.pg.base.equip_data_statistics[46373] = {
 
 
 _G.pg.base.equip_data_statistics[46380] = {
-	name = "105mmSKC高角連装砲改修型(時限信管)",
+	name = "双联105mmSKC高炮改进型(定时引信)",
 	speciality = "<[LRG]>",
 	type = 21,
 	tech = 0,
@@ -115182,7 +117419,7 @@ _G.pg.base.equip_data_statistics[46393] = {
 
 
 _G.pg.base.equip_data_statistics[46400] = {
-	name = "試作型四連装30mm機関砲",
+	name = "试作型四联装30mm机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -115397,7 +117634,7 @@ _G.pg.base.equip_data_statistics[46413] = {
 
 
 _G.pg.base.equip_data_statistics[46420] = {
-	name = "試作型55mm Gerät  58対空砲",
+	name = "试作型55mm Gerät 58防空炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -115612,7 +117849,7 @@ _G.pg.base.equip_data_statistics[46433] = {
 
 
 _G.pg.base.equip_data_statistics[46440] = {
-	name = "40mm Flak28機関銃",
+	name = "单装40mm Flak28机炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -115803,7 +118040,7 @@ _G.pg.base.equip_data_statistics[46451] = {
 
 
 _G.pg.base.equip_data_statistics[47000] = {
-	name = "BF-109T艦上戦闘機",
+	name = "BF-109T舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -115811,7 +118048,7 @@ _G.pg.base.equip_data_statistics[47000] = {
 	value_2 = 5,
 	icon = "47000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+	descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -115922,7 +118159,7 @@ _G.pg.base.equip_data_statistics[47003] = {
 
 
 _G.pg.base.equip_data_statistics[47020] = {
-	name = "BF-109T艦上戦闘機",
+	name = "BF-109T舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -115930,7 +118167,7 @@ _G.pg.base.equip_data_statistics[47020] = {
 	value_2 = 12,
 	icon = "47000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+	descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -116104,7 +118341,7 @@ _G.pg.base.equip_data_statistics[47026] = {
 
 
 _G.pg.base.equip_data_statistics[47040] = {
-	name = "BF-109T艦上戦闘機",
+	name = "BF-109T舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -116112,7 +118349,7 @@ _G.pg.base.equip_data_statistics[47040] = {
 	value_2 = 25,
 	icon = "47000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用戦闘機BF-109の艦載機バージョン",
+	descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -116392,7 +118629,7 @@ _G.pg.base.equip_data_statistics[47051] = {
 
 
 _G.pg.base.equip_data_statistics[47060] = {
-	name = "Ar-197",
+	name = "Ar-197舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -116400,7 +118637,7 @@ _G.pg.base.equip_data_statistics[47060] = {
 	value_2 = 12,
 	icon = "47060",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -116627,7 +118864,7 @@ _G.pg.base.equip_data_statistics[47067] = {
 
 
 _G.pg.base.equip_data_statistics[47080] = {
-	name = "試作型FW-190 A-5(艦載機型）",
+	name = "试作型舰载FW-190 A-5",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -116635,7 +118872,7 @@ _G.pg.base.equip_data_statistics[47080] = {
 	value_2 = 25,
 	icon = "47080",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -116963,7 +119200,7 @@ _G.pg.base.equip_data_statistics[47091] = {
 
 
 _G.pg.base.equip_data_statistics[47100] = {
-	name = "Me-155A艦上戦闘機",
+	name = "Me-155A舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -116971,7 +119208,7 @@ _G.pg.base.equip_data_statistics[47100] = {
 	value_2 = 12,
 	icon = "47100",
 	attribute_2 = "air",
-	descrip = "グラーフ・ツェッペリンに搭載される最新鋭戦闘機",
+	descrip = "专门设计给{namecode:437}的战斗机，是铁血公国的新锐机型",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -117145,7 +119382,7 @@ _G.pg.base.equip_data_statistics[47106] = {
 
 
 _G.pg.base.equip_data_statistics[47120] = {
-	name = "Me-155A艦上戦闘機",
+	name = "Me-155A舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -117153,7 +119390,7 @@ _G.pg.base.equip_data_statistics[47120] = {
 	value_2 = 25,
 	icon = "47100",
 	attribute_2 = "air",
-	descrip = "グラーフ・ツェッペリンに搭載される最新鋭戦闘機",
+	descrip = "专门设计给{namecode:437}的战斗机，是铁血公国的新锐机型",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -117411,7 +119648,7 @@ _G.pg.base.equip_data_statistics[47130] = {
 
 
 _G.pg.base.equip_data_statistics[47140] = {
-	name = "Me-155A艦上戦闘機",
+	name = "Me-155A舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -117419,7 +119656,7 @@ _G.pg.base.equip_data_statistics[47140] = {
 	value_2 = 45,
 	icon = "47100",
 	attribute_2 = "air",
-	descrip = "グラーフ・ツェッペリンに搭載される最新鋭戦闘機",
+	descrip = "专门设计给{namecode:437}的战斗机，是铁血公国的新锐机型",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -117743,7 +119980,7 @@ _G.pg.base.equip_data_statistics[47153] = {
 
 
 _G.pg.base.equip_data_statistics[47160] = {
-	name = "試作型BF-109G（特別計画艦仕様）",
+	name = "试作舰载型BF-109G",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -117751,7 +119988,7 @@ _G.pg.base.equip_data_statistics[47160] = {
 	value_2 = 45,
 	icon = "47160",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "搭载AP火箭弹的BF-109G舰载机",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -118118,7 +120355,7 @@ _G.pg.base.equip_data_statistics[47173] = {
 
 
 _G.pg.base.equip_data_statistics[47180] = {
-	name = "試作型FW-190 A-6/R6（艦載機型）",
+	name = "试作舰载型FW-190 A-6/R6",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -118126,7 +120363,7 @@ _G.pg.base.equip_data_statistics[47180] = {
 	value_2 = 45,
 	icon = "47180",
 	attribute_2 = "air",
-	descrip = "Wfr.Gr.21ロケット弾を搭載したFW-190戦闘機の艦載機型",
+	descrip = "搭载 Wfr.Gr.21火箭弹的舰载型FW-190战斗机",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -118549,7 +120786,7 @@ _G.pg.base.equip_data_statistics[47193] = {
 
 
 _G.pg.base.equip_data_statistics[47200] = {
-	name = "試作型艦上式FW-190 G-3/R1",
+	name = "试作舰载型FW-190 G-3/R1",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 5,
@@ -118825,7 +121062,7 @@ _G.pg.base.equip_data_statistics[47213] = {
 
 
 _G.pg.base.equip_data_statistics[48000] = {
-	name = "Ar-195",
+	name = "Ar-195舰载鱼雷机",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -118833,7 +121070,7 @@ _G.pg.base.equip_data_statistics[48000] = {
 	value_2 = 12,
 	icon = "48000",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -119020,7 +121257,7 @@ _G.pg.base.equip_data_statistics[48007] = {
 
 
 _G.pg.base.equip_data_statistics[48020] = {
-	name = "Fi-167",
+	name = "Fi-167舰载鱼雷机",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 4,
@@ -119028,7 +121265,7 @@ _G.pg.base.equip_data_statistics[48020] = {
 	value_2 = 25,
 	icon = "48020",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -119304,7 +121541,7 @@ _G.pg.base.equip_data_statistics[48040] = {
 	value_2 = 45,
 	icon = "48040",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -119614,7 +121851,7 @@ _G.pg.base.equip_data_statistics[48053] = {
 
 
 _G.pg.base.equip_data_statistics[49000] = {
-	name = "Ju-87C急降下爆撃機",
+	name = "Ju-87C俯冲轰炸机",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 2,
@@ -119622,7 +121859,7 @@ _G.pg.base.equip_data_statistics[49000] = {
 	value_2 = 5,
 	icon = "49000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+	descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -119745,7 +121982,7 @@ _G.pg.base.equip_data_statistics[49003] = {
 
 
 _G.pg.base.equip_data_statistics[49020] = {
-	name = "Ju-87C急降下爆撃機",
+	name = "Ju-87C俯冲轰炸机",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -119753,7 +121990,7 @@ _G.pg.base.equip_data_statistics[49020] = {
 	value_2 = 12,
 	icon = "49000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+	descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -119948,7 +122185,7 @@ _G.pg.base.equip_data_statistics[49026] = {
 
 
 _G.pg.base.equip_data_statistics[49040] = {
-	name = "Ju-87C急降下爆撃機",
+	name = "Ju-87C俯冲轰炸机",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 4,
@@ -119956,7 +122193,7 @@ _G.pg.base.equip_data_statistics[49040] = {
 	value_2 = 25,
 	icon = "49000",
 	attribute_2 = "air",
-	descrip = "鉄血の汎用爆撃機Ju-87の艦載機バージョン通称「スツーカ」",
+	descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -120272,7 +122509,7 @@ _G.pg.base.equip_data_statistics[49051] = {
 
 
 _G.pg.base.equip_data_statistics[49060] = {
-	name = "He-50b",
+	name = "He-50b舰载轰炸机",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 3,
@@ -120280,7 +122517,7 @@ _G.pg.base.equip_data_statistics[49060] = {
 	value_2 = 12,
 	icon = "49060",
 	attribute_2 = "air",
-	descrip = "0",
+	descrip = "说明未填写",
 	nationality = 4,
 	ammo = 5,
 	value_3 = 0,
@@ -120467,7 +122704,7 @@ _G.pg.base.equip_data_statistics[49067] = {
 
 
 _G.pg.base.equip_data_statistics[54010] = {
-	name = "0",
+	name = "轻航专用空中支援技能-轰炸Lv1",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120475,7 +122712,7 @@ _G.pg.base.equip_data_statistics[54010] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120498,8 +122735,9 @@ _G.pg.base.equip_data_statistics[54010] = {
 
 
 _G.pg.base.equip_data_statistics[54011] = {
-	id = 54011,
+	name = "轻航专用空中支援技能-轰炸Lv2",
 	base = 54010,
+	id = 54011,
 	weapon_id = {
 		54011
 	},
@@ -120508,8 +122746,9 @@ _G.pg.base.equip_data_statistics[54011] = {
 
 
 _G.pg.base.equip_data_statistics[54012] = {
-	id = 54012,
+	name = "轻航专用空中支援技能-轰炸Lv3",
 	base = 54010,
+	id = 54012,
 	weapon_id = {
 		54012
 	},
@@ -120518,8 +122757,9 @@ _G.pg.base.equip_data_statistics[54012] = {
 
 
 _G.pg.base.equip_data_statistics[54013] = {
-	id = 54013,
+	name = "正航专用空中支援技能-轰炸Lv1",
 	base = 54010,
+	id = 54013,
 	weapon_id = {
 		54013
 	},
@@ -120528,8 +122768,9 @@ _G.pg.base.equip_data_statistics[54013] = {
 
 
 _G.pg.base.equip_data_statistics[54014] = {
-	id = 54014,
+	name = "正航专用空中支援技能-轰炸Lv2",
 	base = 54010,
+	id = 54014,
 	weapon_id = {
 		54014
 	},
@@ -120538,8 +122779,9 @@ _G.pg.base.equip_data_statistics[54014] = {
 
 
 _G.pg.base.equip_data_statistics[54015] = {
-	id = 54015,
+	name = "正航专用空中支援技能-轰炸Lv3",
 	base = 54010,
+	id = 54015,
 	weapon_id = {
 		54015
 	},
@@ -120548,7 +122790,7 @@ _G.pg.base.equip_data_statistics[54015] = {
 
 
 _G.pg.base.equip_data_statistics[60001] = {
-	name = "0",
+	name = "航空攻击展示-长岛I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120556,7 +122798,7 @@ _G.pg.base.equip_data_statistics[60001] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120579,8 +122821,9 @@ _G.pg.base.equip_data_statistics[60001] = {
 
 
 _G.pg.base.equip_data_statistics[60002] = {
-	id = 60002,
+	name = "航空攻击展示-长岛II",
 	base = 60001,
+	id = 60002,
 	weapon_id = {
 		60002
 	},
@@ -120589,8 +122832,9 @@ _G.pg.base.equip_data_statistics[60002] = {
 
 
 _G.pg.base.equip_data_statistics[60003] = {
-	id = 60003,
+	name = "航空攻击展示-长岛III",
 	base = 60001,
+	id = 60003,
 	weapon_id = {
 		60003
 	},
@@ -120599,7 +122843,7 @@ _G.pg.base.equip_data_statistics[60003] = {
 
 
 _G.pg.base.equip_data_statistics[60011] = {
-	name = "0",
+	name = "航空攻击展示-博格I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120607,7 +122851,7 @@ _G.pg.base.equip_data_statistics[60011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120630,8 +122874,9 @@ _G.pg.base.equip_data_statistics[60011] = {
 
 
 _G.pg.base.equip_data_statistics[60012] = {
-	id = 60012,
+	name = "航空攻击展示-博格II",
 	base = 60011,
+	id = 60012,
 	weapon_id = {
 		60012
 	},
@@ -120640,8 +122885,9 @@ _G.pg.base.equip_data_statistics[60012] = {
 
 
 _G.pg.base.equip_data_statistics[60013] = {
-	id = 60013,
+	name = "航空攻击展示-博格III",
 	base = 60011,
+	id = 60013,
 	weapon_id = {
 		60013
 	},
@@ -120650,7 +122896,7 @@ _G.pg.base.equip_data_statistics[60013] = {
 
 
 _G.pg.base.equip_data_statistics[60021] = {
-	name = "0",
+	name = "航空攻击展示-兰利I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120658,7 +122904,7 @@ _G.pg.base.equip_data_statistics[60021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120681,8 +122927,9 @@ _G.pg.base.equip_data_statistics[60021] = {
 
 
 _G.pg.base.equip_data_statistics[60022] = {
-	id = 60022,
+	name = "航空攻击展示-兰利II",
 	base = 60021,
+	id = 60022,
 	weapon_id = {
 		60022
 	},
@@ -120691,8 +122938,9 @@ _G.pg.base.equip_data_statistics[60022] = {
 
 
 _G.pg.base.equip_data_statistics[60023] = {
-	id = 60023,
+	name = "航空攻击展示-兰利III",
 	base = 60021,
+	id = 60023,
 	weapon_id = {
 		60023
 	},
@@ -120701,7 +122949,7 @@ _G.pg.base.equip_data_statistics[60023] = {
 
 
 _G.pg.base.equip_data_statistics[60031] = {
-	name = "0",
+	name = "航空攻击展示-列克星敦I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120709,7 +122957,7 @@ _G.pg.base.equip_data_statistics[60031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120732,8 +122980,9 @@ _G.pg.base.equip_data_statistics[60031] = {
 
 
 _G.pg.base.equip_data_statistics[60032] = {
-	id = 60032,
+	name = "航空攻击展示-列克星敦II",
 	base = 60031,
+	id = 60032,
 	weapon_id = {
 		60032
 	},
@@ -120742,8 +122991,9 @@ _G.pg.base.equip_data_statistics[60032] = {
 
 
 _G.pg.base.equip_data_statistics[60033] = {
-	id = 60033,
+	name = "航空攻击展示-列克星敦III",
 	base = 60031,
+	id = 60033,
 	weapon_id = {
 		60033
 	},
@@ -120752,7 +123002,7 @@ _G.pg.base.equip_data_statistics[60033] = {
 
 
 _G.pg.base.equip_data_statistics[60041] = {
-	name = "0",
+	name = "航空攻击展示-萨拉托加I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120760,7 +123010,7 @@ _G.pg.base.equip_data_statistics[60041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120783,8 +123033,9 @@ _G.pg.base.equip_data_statistics[60041] = {
 
 
 _G.pg.base.equip_data_statistics[60042] = {
-	id = 60042,
+	name = "航空攻击展示-萨拉托加II",
 	base = 60041,
+	id = 60042,
 	weapon_id = {
 		60042
 	},
@@ -120793,8 +123044,9 @@ _G.pg.base.equip_data_statistics[60042] = {
 
 
 _G.pg.base.equip_data_statistics[60043] = {
-	id = 60043,
+	name = "航空攻击展示-萨拉托加III",
 	base = 60041,
+	id = 60043,
 	weapon_id = {
 		60043
 	},
@@ -120803,7 +123055,7 @@ _G.pg.base.equip_data_statistics[60043] = {
 
 
 _G.pg.base.equip_data_statistics[60051] = {
-	name = "0",
+	name = "航空攻击展示-突击者I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120811,7 +123063,7 @@ _G.pg.base.equip_data_statistics[60051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120834,8 +123086,9 @@ _G.pg.base.equip_data_statistics[60051] = {
 
 
 _G.pg.base.equip_data_statistics[60052] = {
-	id = 60052,
+	name = "航空攻击展示-突击者II",
 	base = 60051,
+	id = 60052,
 	weapon_id = {
 		60052
 	},
@@ -120844,8 +123097,9 @@ _G.pg.base.equip_data_statistics[60052] = {
 
 
 _G.pg.base.equip_data_statistics[60053] = {
-	id = 60053,
+	name = "航空攻击展示-突击者III",
 	base = 60051,
+	id = 60053,
 	weapon_id = {
 		60053
 	},
@@ -120854,7 +123108,7 @@ _G.pg.base.equip_data_statistics[60053] = {
 
 
 _G.pg.base.equip_data_statistics[60061] = {
-	name = "0",
+	name = "航空攻击展示-约克城I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120862,7 +123116,7 @@ _G.pg.base.equip_data_statistics[60061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120885,8 +123139,9 @@ _G.pg.base.equip_data_statistics[60061] = {
 
 
 _G.pg.base.equip_data_statistics[60062] = {
-	id = 60062,
+	name = "航空攻击展示-约克城II",
 	base = 60061,
+	id = 60062,
 	weapon_id = {
 		60062
 	},
@@ -120895,8 +123150,9 @@ _G.pg.base.equip_data_statistics[60062] = {
 
 
 _G.pg.base.equip_data_statistics[60063] = {
-	id = 60063,
+	name = "航空攻击展示-约克城III",
 	base = 60061,
+	id = 60063,
 	weapon_id = {
 		60063
 	},
@@ -120905,7 +123161,7 @@ _G.pg.base.equip_data_statistics[60063] = {
 
 
 _G.pg.base.equip_data_statistics[60071] = {
-	name = "0",
+	name = "航空攻击展示-企业I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120913,7 +123169,7 @@ _G.pg.base.equip_data_statistics[60071] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120936,8 +123192,9 @@ _G.pg.base.equip_data_statistics[60071] = {
 
 
 _G.pg.base.equip_data_statistics[60072] = {
-	id = 60072,
+	name = "航空攻击展示-企业II",
 	base = 60071,
+	id = 60072,
 	weapon_id = {
 		60072
 	},
@@ -120946,8 +123203,9 @@ _G.pg.base.equip_data_statistics[60072] = {
 
 
 _G.pg.base.equip_data_statistics[60073] = {
-	id = 60073,
+	name = "航空攻击展示-企业III",
 	base = 60071,
+	id = 60073,
 	weapon_id = {
 		60073
 	},
@@ -120956,7 +123214,7 @@ _G.pg.base.equip_data_statistics[60073] = {
 
 
 _G.pg.base.equip_data_statistics[60081] = {
-	name = "0",
+	name = "航空攻击展示-大黄蜂I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -120964,7 +123222,7 @@ _G.pg.base.equip_data_statistics[60081] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -120987,8 +123245,9 @@ _G.pg.base.equip_data_statistics[60081] = {
 
 
 _G.pg.base.equip_data_statistics[60082] = {
-	id = 60082,
+	name = "航空攻击展示-大黄蜂II",
 	base = 60081,
+	id = 60082,
 	weapon_id = {
 		60082
 	},
@@ -120997,8 +123256,9 @@ _G.pg.base.equip_data_statistics[60082] = {
 
 
 _G.pg.base.equip_data_statistics[60083] = {
-	id = 60083,
+	name = "航空攻击展示-大黄蜂III",
 	base = 60081,
+	id = 60083,
 	weapon_id = {
 		60083
 	},
@@ -121007,7 +123267,7 @@ _G.pg.base.equip_data_statistics[60083] = {
 
 
 _G.pg.base.equip_data_statistics[60091] = {
-	name = "0",
+	name = "航空攻击展示-竞技神I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121015,7 +123275,7 @@ _G.pg.base.equip_data_statistics[60091] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121038,8 +123298,9 @@ _G.pg.base.equip_data_statistics[60091] = {
 
 
 _G.pg.base.equip_data_statistics[60092] = {
-	id = 60092,
+	name = "航空攻击展示-竞技神II",
 	base = 60091,
+	id = 60092,
 	weapon_id = {
 		60092
 	},
@@ -121048,7 +123309,7 @@ _G.pg.base.equip_data_statistics[60092] = {
 
 
 _G.pg.base.equip_data_statistics[60101] = {
-	name = "0",
+	name = "航空攻击展示-皇家方舟I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121056,7 +123317,7 @@ _G.pg.base.equip_data_statistics[60101] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121079,8 +123340,9 @@ _G.pg.base.equip_data_statistics[60101] = {
 
 
 _G.pg.base.equip_data_statistics[60102] = {
-	id = 60102,
+	name = "航空攻击展示-皇家方舟II",
 	base = 60101,
+	id = 60102,
 	weapon_id = {
 		60102
 	},
@@ -121089,8 +123351,9 @@ _G.pg.base.equip_data_statistics[60102] = {
 
 
 _G.pg.base.equip_data_statistics[60103] = {
-	id = 60103,
+	name = "航空攻击展示-皇家方舟III",
 	base = 60101,
+	id = 60103,
 	weapon_id = {
 		60103
 	},
@@ -121099,7 +123362,7 @@ _G.pg.base.equip_data_statistics[60103] = {
 
 
 _G.pg.base.equip_data_statistics[60111] = {
-	name = "0",
+	name = "航空攻击展示-光辉I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121107,7 +123370,7 @@ _G.pg.base.equip_data_statistics[60111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121130,8 +123393,9 @@ _G.pg.base.equip_data_statistics[60111] = {
 
 
 _G.pg.base.equip_data_statistics[60112] = {
-	id = 60112,
+	name = "航空攻击展示-光辉II",
 	base = 60111,
+	id = 60112,
 	weapon_id = {
 		60112
 	},
@@ -121140,8 +123404,9 @@ _G.pg.base.equip_data_statistics[60112] = {
 
 
 _G.pg.base.equip_data_statistics[60113] = {
-	id = 60113,
+	name = "航空攻击展示-光辉III",
 	base = 60111,
+	id = 60113,
 	weapon_id = {
 		60113
 	},
@@ -121150,7 +123415,7 @@ _G.pg.base.equip_data_statistics[60113] = {
 
 
 _G.pg.base.equip_data_statistics[60121] = {
-	name = "0",
+	name = "航空攻击展示-祥凤I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121158,7 +123423,7 @@ _G.pg.base.equip_data_statistics[60121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121181,8 +123446,9 @@ _G.pg.base.equip_data_statistics[60121] = {
 
 
 _G.pg.base.equip_data_statistics[60122] = {
-	id = 60122,
+	name = "航空攻击展示-祥凤II",
 	base = 60121,
+	id = 60122,
 	weapon_id = {
 		60122
 	},
@@ -121191,8 +123457,9 @@ _G.pg.base.equip_data_statistics[60122] = {
 
 
 _G.pg.base.equip_data_statistics[60123] = {
-	id = 60123,
+	name = "航空攻击展示-祥凤III",
 	base = 60121,
+	id = 60123,
 	weapon_id = {
 		60123
 	},
@@ -121201,7 +123468,7 @@ _G.pg.base.equip_data_statistics[60123] = {
 
 
 _G.pg.base.equip_data_statistics[60131] = {
-	name = "0",
+	name = "航空攻击展示-赤城I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121209,7 +123476,7 @@ _G.pg.base.equip_data_statistics[60131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121232,8 +123499,9 @@ _G.pg.base.equip_data_statistics[60131] = {
 
 
 _G.pg.base.equip_data_statistics[60132] = {
-	id = 60132,
+	name = "航空攻击展示-赤城II",
 	base = 60131,
+	id = 60132,
 	weapon_id = {
 		60132
 	},
@@ -121242,8 +123510,9 @@ _G.pg.base.equip_data_statistics[60132] = {
 
 
 _G.pg.base.equip_data_statistics[60133] = {
-	id = 60133,
+	name = "航空攻击展示-赤城II",
 	base = 60131,
+	id = 60133,
 	weapon_id = {
 		60133
 	},
@@ -121252,7 +123521,7 @@ _G.pg.base.equip_data_statistics[60133] = {
 
 
 _G.pg.base.equip_data_statistics[60141] = {
-	name = "0",
+	name = "航空攻击展示-加贺I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121260,7 +123529,7 @@ _G.pg.base.equip_data_statistics[60141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121283,8 +123552,9 @@ _G.pg.base.equip_data_statistics[60141] = {
 
 
 _G.pg.base.equip_data_statistics[60142] = {
-	id = 60142,
+	name = "航空攻击展示-加贺II",
 	base = 60141,
+	id = 60142,
 	weapon_id = {
 		60142
 	},
@@ -121293,8 +123563,9 @@ _G.pg.base.equip_data_statistics[60142] = {
 
 
 _G.pg.base.equip_data_statistics[60143] = {
-	id = 60143,
+	name = "航空攻击展示-加贺II",
 	base = 60141,
+	id = 60143,
 	weapon_id = {
 		60143
 	},
@@ -121303,7 +123574,7 @@ _G.pg.base.equip_data_statistics[60143] = {
 
 
 _G.pg.base.equip_data_statistics[60151] = {
-	name = "0",
+	name = "航空攻击展示-苍龙I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121311,7 +123582,7 @@ _G.pg.base.equip_data_statistics[60151] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121334,8 +123605,9 @@ _G.pg.base.equip_data_statistics[60151] = {
 
 
 _G.pg.base.equip_data_statistics[60152] = {
-	id = 60152,
+	name = "航空攻击展示-苍龙II",
 	base = 60151,
+	id = 60152,
 	weapon_id = {
 		60152
 	},
@@ -121344,8 +123616,9 @@ _G.pg.base.equip_data_statistics[60152] = {
 
 
 _G.pg.base.equip_data_statistics[60153] = {
-	id = 60153,
+	name = "航空攻击展示-苍龙II",
 	base = 60151,
+	id = 60153,
 	weapon_id = {
 		60153
 	},
@@ -121354,7 +123627,7 @@ _G.pg.base.equip_data_statistics[60153] = {
 
 
 _G.pg.base.equip_data_statistics[60161] = {
-	name = "0",
+	name = "航空攻击展示-飞龙I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121362,7 +123635,7 @@ _G.pg.base.equip_data_statistics[60161] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121385,8 +123658,9 @@ _G.pg.base.equip_data_statistics[60161] = {
 
 
 _G.pg.base.equip_data_statistics[60162] = {
-	id = 60162,
+	name = "航空攻击展示-飞龙II",
 	base = 60161,
+	id = 60162,
 	weapon_id = {
 		60162
 	},
@@ -121395,8 +123669,9 @@ _G.pg.base.equip_data_statistics[60162] = {
 
 
 _G.pg.base.equip_data_statistics[60163] = {
-	id = 60163,
+	name = "航空攻击展示-飞龙II",
 	base = 60161,
+	id = 60163,
 	weapon_id = {
 		60163
 	},
@@ -121405,7 +123680,7 @@ _G.pg.base.equip_data_statistics[60163] = {
 
 
 _G.pg.base.equip_data_statistics[60171] = {
-	name = "0",
+	name = "航空攻击展示-独角兽I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121413,7 +123688,7 @@ _G.pg.base.equip_data_statistics[60171] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121436,8 +123711,9 @@ _G.pg.base.equip_data_statistics[60171] = {
 
 
 _G.pg.base.equip_data_statistics[60172] = {
-	id = 60172,
+	name = "航空攻击展示-独角兽II",
 	base = 60171,
+	id = 60172,
 	weapon_id = {
 		60172
 	},
@@ -121446,8 +123722,9 @@ _G.pg.base.equip_data_statistics[60172] = {
 
 
 _G.pg.base.equip_data_statistics[60173] = {
-	id = 60173,
+	name = "航空攻击展示-独角兽III",
 	base = 60171,
+	id = 60173,
 	weapon_id = {
 		60173
 	},
@@ -121456,7 +123733,7 @@ _G.pg.base.equip_data_statistics[60173] = {
 
 
 _G.pg.base.equip_data_statistics[60181] = {
-	name = "0",
+	name = "航空攻击展示-凤翔I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121464,7 +123741,7 @@ _G.pg.base.equip_data_statistics[60181] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121487,8 +123764,9 @@ _G.pg.base.equip_data_statistics[60181] = {
 
 
 _G.pg.base.equip_data_statistics[60182] = {
-	id = 60182,
+	name = "航空攻击展示-凤翔II",
 	base = 60181,
+	id = 60182,
 	weapon_id = {
 		60182
 	},
@@ -121497,8 +123775,9 @@ _G.pg.base.equip_data_statistics[60182] = {
 
 
 _G.pg.base.equip_data_statistics[60183] = {
-	id = 60183,
+	name = "航空攻击展示-凤翔III",
 	base = 60181,
+	id = 60183,
 	weapon_id = {
 		60183
 	},
@@ -121507,7 +123786,7 @@ _G.pg.base.equip_data_statistics[60183] = {
 
 
 _G.pg.base.equip_data_statistics[60191] = {
-	name = "0",
+	name = "航空攻击展示-齐柏林伯爵I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121515,7 +123794,7 @@ _G.pg.base.equip_data_statistics[60191] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121538,8 +123817,9 @@ _G.pg.base.equip_data_statistics[60191] = {
 
 
 _G.pg.base.equip_data_statistics[60192] = {
-	id = 60192,
+	name = "航空攻击展示-齐柏林伯爵II",
 	base = 60191,
+	id = 60192,
 	weapon_id = {
 		60192
 	},
@@ -121548,8 +123828,9 @@ _G.pg.base.equip_data_statistics[60192] = {
 
 
 _G.pg.base.equip_data_statistics[60193] = {
-	id = 60193,
+	name = "航空攻击展示-齐柏林伯爵II",
 	base = 60191,
+	id = 60193,
 	weapon_id = {
 		60193
 	},
@@ -121558,7 +123839,7 @@ _G.pg.base.equip_data_statistics[60193] = {
 
 
 _G.pg.base.equip_data_statistics[60201] = {
-	name = "0",
+	name = "航空攻击展示-翔鹤I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121566,7 +123847,7 @@ _G.pg.base.equip_data_statistics[60201] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121589,8 +123870,9 @@ _G.pg.base.equip_data_statistics[60201] = {
 
 
 _G.pg.base.equip_data_statistics[60202] = {
-	id = 60202,
+	name = "航空攻击展示-翔鹤II",
 	base = 60201,
+	id = 60202,
 	weapon_id = {
 		60202
 	},
@@ -121599,8 +123881,9 @@ _G.pg.base.equip_data_statistics[60202] = {
 
 
 _G.pg.base.equip_data_statistics[60203] = {
-	id = 60203,
+	name = "航空攻击展示-翔鹤III",
 	base = 60201,
+	id = 60203,
 	weapon_id = {
 		60203
 	},
@@ -121609,7 +123892,7 @@ _G.pg.base.equip_data_statistics[60203] = {
 
 
 _G.pg.base.equip_data_statistics[60211] = {
-	name = "0",
+	name = "航空攻击展示-瑞鹤I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121617,7 +123900,7 @@ _G.pg.base.equip_data_statistics[60211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121640,8 +123923,9 @@ _G.pg.base.equip_data_statistics[60211] = {
 
 
 _G.pg.base.equip_data_statistics[60212] = {
-	id = 60212,
+	name = "航空攻击展示-瑞鹤II",
 	base = 60211,
+	id = 60212,
 	weapon_id = {
 		60212
 	},
@@ -121650,8 +123934,9 @@ _G.pg.base.equip_data_statistics[60212] = {
 
 
 _G.pg.base.equip_data_statistics[60213] = {
-	id = 60213,
+	name = "航空攻击展示-瑞鹤III",
 	base = 60211,
+	id = 60213,
 	weapon_id = {
 		60213
 	},
@@ -121660,7 +123945,7 @@ _G.pg.base.equip_data_statistics[60213] = {
 
 
 _G.pg.base.equip_data_statistics[60221] = {
-	name = "0",
+	name = "航空攻击展示-光荣I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121668,7 +123953,7 @@ _G.pg.base.equip_data_statistics[60221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121691,8 +123976,9 @@ _G.pg.base.equip_data_statistics[60221] = {
 
 
 _G.pg.base.equip_data_statistics[60222] = {
-	id = 60222,
+	name = "航空攻击展示-光荣II",
 	base = 60221,
+	id = 60222,
 	weapon_id = {
 		60222
 	},
@@ -121701,8 +123987,9 @@ _G.pg.base.equip_data_statistics[60222] = {
 
 
 _G.pg.base.equip_data_statistics[60223] = {
-	id = 60223,
+	name = "航空攻击展示-光荣III",
 	base = 60221,
+	id = 60223,
 	weapon_id = {
 		60223
 	},
@@ -121711,7 +123998,7 @@ _G.pg.base.equip_data_statistics[60223] = {
 
 
 _G.pg.base.equip_data_statistics[60231] = {
-	name = "0",
+	name = "烈焰崩袭",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -121719,7 +124006,7 @@ _G.pg.base.equip_data_statistics[60231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121755,7 +124042,7 @@ _G.pg.base.equip_data_statistics[60231] = {
 
 
 _G.pg.base.equip_data_statistics[60232] = {
-	name = "0",
+	name = "蕾丝狂舞",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -121763,7 +124050,7 @@ _G.pg.base.equip_data_statistics[60232] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121799,7 +124086,7 @@ _G.pg.base.equip_data_statistics[60232] = {
 
 
 _G.pg.base.equip_data_statistics[60233] = {
-	name = "0",
+	name = "众神之怒·雪崩雷震",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -121807,7 +124094,7 @@ _G.pg.base.equip_data_statistics[60233] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121843,7 +124130,7 @@ _G.pg.base.equip_data_statistics[60233] = {
 
 
 _G.pg.base.equip_data_statistics[60234] = {
-	name = "0",
+	name = "雪风弹幕展示I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121851,7 +124138,7 @@ _G.pg.base.equip_data_statistics[60234] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121874,8 +124161,9 @@ _G.pg.base.equip_data_statistics[60234] = {
 
 
 _G.pg.base.equip_data_statistics[60235] = {
-	id = 60235,
+	name = "雪风弹幕展示II",
 	base = 60234,
+	id = 60235,
 	weapon_id = {
 		60235
 	},
@@ -121884,7 +124172,7 @@ _G.pg.base.equip_data_statistics[60235] = {
 
 
 _G.pg.base.equip_data_statistics[60236] = {
-	name = "0",
+	name = "夕立弹幕展示I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121892,7 +124180,7 @@ _G.pg.base.equip_data_statistics[60236] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121915,8 +124203,9 @@ _G.pg.base.equip_data_statistics[60236] = {
 
 
 _G.pg.base.equip_data_statistics[60237] = {
-	id = 60237,
+	name = "夕立弹幕展示II",
 	base = 60236,
+	id = 60237,
 	weapon_id = {
 		60237
 	},
@@ -121925,7 +124214,7 @@ _G.pg.base.equip_data_statistics[60237] = {
 
 
 _G.pg.base.equip_data_statistics[60238] = {
-	name = "0",
+	name = "江风弹幕展示I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121933,7 +124222,7 @@ _G.pg.base.equip_data_statistics[60238] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕サンプル用",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121956,8 +124245,9 @@ _G.pg.base.equip_data_statistics[60238] = {
 
 
 _G.pg.base.equip_data_statistics[60239] = {
-	id = 60239,
+	name = "江风弹幕展示II",
 	base = 60238,
+	id = 60239,
 	weapon_id = {
 		60239
 	},
@@ -121966,7 +124256,7 @@ _G.pg.base.equip_data_statistics[60239] = {
 
 
 _G.pg.base.equip_data_statistics[60241] = {
-	name = "0",
+	name = "航空攻击展示-贝露I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -121974,7 +124264,7 @@ _G.pg.base.equip_data_statistics[60241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -121997,8 +124287,9 @@ _G.pg.base.equip_data_statistics[60241] = {
 
 
 _G.pg.base.equip_data_statistics[60242] = {
-	id = 60242,
+	name = "航空攻击展示-贝露II",
 	base = 60241,
+	id = 60242,
 	weapon_id = {
 		60242
 	},
@@ -122007,8 +124298,9 @@ _G.pg.base.equip_data_statistics[60242] = {
 
 
 _G.pg.base.equip_data_statistics[60243] = {
-	id = 60243,
+	name = "航空攻击展示-贝露III",
 	base = 60241,
+	id = 60243,
 	weapon_id = {
 		60243
 	},
@@ -122017,7 +124309,7 @@ _G.pg.base.equip_data_statistics[60243] = {
 
 
 _G.pg.base.equip_data_statistics[60251] = {
-	name = "0",
+	name = "航空攻击展示-翡绿之心I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122025,7 +124317,7 @@ _G.pg.base.equip_data_statistics[60251] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122048,8 +124340,9 @@ _G.pg.base.equip_data_statistics[60251] = {
 
 
 _G.pg.base.equip_data_statistics[60252] = {
-	id = 60252,
+	name = "航空攻击展示-翡绿之心II",
 	base = 60251,
+	id = 60252,
 	weapon_id = {
 		60252
 	},
@@ -122058,8 +124351,9 @@ _G.pg.base.equip_data_statistics[60252] = {
 
 
 _G.pg.base.equip_data_statistics[60253] = {
-	id = 60253,
+	name = "航空攻击展示-翡绿之心III",
 	base = 60251,
+	id = 60253,
 	weapon_id = {
 		60253
 	},
@@ -122068,7 +124362,7 @@ _G.pg.base.equip_data_statistics[60253] = {
 
 
 _G.pg.base.equip_data_statistics[60261] = {
-	name = "0",
+	name = "航空攻击展示-胡蜂I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122076,7 +124370,7 @@ _G.pg.base.equip_data_statistics[60261] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122099,8 +124393,9 @@ _G.pg.base.equip_data_statistics[60261] = {
 
 
 _G.pg.base.equip_data_statistics[60262] = {
-	id = 60262,
+	name = "航空攻击展示-胡蜂II",
 	base = 60261,
+	id = 60262,
 	weapon_id = {
 		60262
 	},
@@ -122109,8 +124404,9 @@ _G.pg.base.equip_data_statistics[60262] = {
 
 
 _G.pg.base.equip_data_statistics[60263] = {
-	id = 60263,
+	name = "航空攻击展示-胡蜂III",
 	base = 60261,
+	id = 60263,
 	weapon_id = {
 		60263
 	},
@@ -122119,7 +124415,7 @@ _G.pg.base.equip_data_statistics[60263] = {
 
 
 _G.pg.base.equip_data_statistics[60271] = {
-	name = "0",
+	name = "航空攻击展示-胜利I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122127,7 +124423,7 @@ _G.pg.base.equip_data_statistics[60271] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122150,8 +124446,9 @@ _G.pg.base.equip_data_statistics[60271] = {
 
 
 _G.pg.base.equip_data_statistics[60272] = {
-	id = 60272,
+	name = "航空攻击展示-胜利II",
 	base = 60271,
+	id = 60272,
 	weapon_id = {
 		60272
 	},
@@ -122160,8 +124457,9 @@ _G.pg.base.equip_data_statistics[60272] = {
 
 
 _G.pg.base.equip_data_statistics[60273] = {
-	id = 60273,
+	name = "航空攻击展示-胜利III",
 	base = 60271,
+	id = 60273,
 	weapon_id = {
 		60273
 	},
@@ -122170,7 +124468,7 @@ _G.pg.base.equip_data_statistics[60273] = {
 
 
 _G.pg.base.equip_data_statistics[60281] = {
-	name = "0",
+	name = "航空攻击展示-飞鹰I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122178,7 +124476,7 @@ _G.pg.base.equip_data_statistics[60281] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122201,8 +124499,9 @@ _G.pg.base.equip_data_statistics[60281] = {
 
 
 _G.pg.base.equip_data_statistics[60282] = {
-	id = 60282,
+	name = "航空攻击展示-飞鹰II",
 	base = 60281,
+	id = 60282,
 	weapon_id = {
 		60282
 	},
@@ -122211,8 +124510,9 @@ _G.pg.base.equip_data_statistics[60282] = {
 
 
 _G.pg.base.equip_data_statistics[60283] = {
-	id = 60283,
+	name = "航空攻击展示-飞鹰III",
 	base = 60281,
+	id = 60283,
 	weapon_id = {
 		60283
 	},
@@ -122221,7 +124521,7 @@ _G.pg.base.equip_data_statistics[60283] = {
 
 
 _G.pg.base.equip_data_statistics[60291] = {
-	name = "0",
+	name = "航空攻击展示-隼鹰I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122229,7 +124529,7 @@ _G.pg.base.equip_data_statistics[60291] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122252,8 +124552,9 @@ _G.pg.base.equip_data_statistics[60291] = {
 
 
 _G.pg.base.equip_data_statistics[60292] = {
-	id = 60292,
+	name = "航空攻击展示-隼鹰II",
 	base = 60291,
+	id = 60292,
 	weapon_id = {
 		60292
 	},
@@ -122262,8 +124563,9 @@ _G.pg.base.equip_data_statistics[60292] = {
 
 
 _G.pg.base.equip_data_statistics[60293] = {
-	id = 60293,
+	name = "航空攻击展示-隼鹰III",
 	base = 60291,
+	id = 60293,
 	weapon_id = {
 		60293
 	},
@@ -122272,7 +124574,7 @@ _G.pg.base.equip_data_statistics[60293] = {
 
 
 _G.pg.base.equip_data_statistics[60301] = {
-	name = "0",
+	name = "Z46弹幕展示I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122280,7 +124582,7 @@ _G.pg.base.equip_data_statistics[60301] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122303,7 +124605,7 @@ _G.pg.base.equip_data_statistics[60301] = {
 
 
 _G.pg.base.equip_data_statistics[60302] = {
-	name = "0",
+	name = "Z46弹幕展示II",
 	base = 60301,
 	id = 60302,
 	weapon_id = {
@@ -122314,7 +124616,7 @@ _G.pg.base.equip_data_statistics[60302] = {
 
 
 _G.pg.base.equip_data_statistics[60311] = {
-	name = "0",
+	name = "航空攻击展示-半人马I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122322,7 +124624,7 @@ _G.pg.base.equip_data_statistics[60311] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122345,8 +124647,9 @@ _G.pg.base.equip_data_statistics[60311] = {
 
 
 _G.pg.base.equip_data_statistics[60312] = {
-	id = 60312,
+	name = "航空攻击展示-半人马II",
 	base = 60311,
+	id = 60312,
 	weapon_id = {
 		60312
 	},
@@ -122355,8 +124658,9 @@ _G.pg.base.equip_data_statistics[60312] = {
 
 
 _G.pg.base.equip_data_statistics[60313] = {
-	id = 60313,
+	name = "航空攻击展示-半人马III",
 	base = 60311,
+	id = 60313,
 	weapon_id = {
 		60313
 	},
@@ -122373,7 +124677,7 @@ _G.pg.base.equip_data_statistics[60321] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122396,7 +124700,6 @@ _G.pg.base.equip_data_statistics[60321] = {
 
 
 _G.pg.base.equip_data_statistics[60322] = {
-	descrip = "外观空袭展示用",
 	name = "航空攻击展示-埃塞克斯II",
 	base = 60321,
 	id = 60322,
@@ -122408,7 +124711,6 @@ _G.pg.base.equip_data_statistics[60322] = {
 
 
 _G.pg.base.equip_data_statistics[60323] = {
-	descrip = "外观空袭展示用",
 	name = "航空攻击展示-埃塞克斯II",
 	base = 60321,
 	id = 60323,
@@ -122428,7 +124730,7 @@ _G.pg.base.equip_data_statistics[60331] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122451,7 +124753,6 @@ _G.pg.base.equip_data_statistics[60331] = {
 
 
 _G.pg.base.equip_data_statistics[60332] = {
-	descrip = "外观空袭展示用",
 	name = "航空攻击展示-大凤II",
 	base = 60331,
 	id = 60332,
@@ -122463,7 +124764,6 @@ _G.pg.base.equip_data_statistics[60332] = {
 
 
 _G.pg.base.equip_data_statistics[60333] = {
-	descrip = "外观空袭展示用",
 	name = "航空攻击展示-大凤III",
 	base = 60331,
 	id = 60333,
@@ -122475,7 +124775,7 @@ _G.pg.base.equip_data_statistics[60333] = {
 
 
 _G.pg.base.equip_data_statistics[60341] = {
-	name = "0",
+	name = "航空攻击展示-芙米露露I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122483,7 +124783,7 @@ _G.pg.base.equip_data_statistics[60341] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122506,8 +124806,9 @@ _G.pg.base.equip_data_statistics[60341] = {
 
 
 _G.pg.base.equip_data_statistics[60342] = {
-	id = 60342,
+	name = "航空攻击展示-芙米露露II",
 	base = 60341,
+	id = 60342,
 	weapon_id = {
 		60342
 	},
@@ -122516,8 +124817,9 @@ _G.pg.base.equip_data_statistics[60342] = {
 
 
 _G.pg.base.equip_data_statistics[60343] = {
-	id = 60343,
+	name = "航空攻击展示-芙米露露III",
 	base = 60341,
+	id = 60343,
 	weapon_id = {
 		60343
 	},
@@ -122526,7 +124828,7 @@ _G.pg.base.equip_data_statistics[60343] = {
 
 
 _G.pg.base.equip_data_statistics[60351] = {
-	name = "0",
+	name = "航空攻击展示-乌璐露I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122534,7 +124836,7 @@ _G.pg.base.equip_data_statistics[60351] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122557,8 +124859,9 @@ _G.pg.base.equip_data_statistics[60351] = {
 
 
 _G.pg.base.equip_data_statistics[60352] = {
-	id = 60352,
+	name = "航空攻击展示-乌璐露II",
 	base = 60351,
+	id = 60352,
 	weapon_id = {
 		60352
 	},
@@ -122567,8 +124870,9 @@ _G.pg.base.equip_data_statistics[60352] = {
 
 
 _G.pg.base.equip_data_statistics[60353] = {
-	id = 60353,
+	name = "航空攻击展示-乌璐露III",
 	base = 60351,
+	id = 60353,
 	weapon_id = {
 		60353
 	},
@@ -122577,7 +124881,7 @@ _G.pg.base.equip_data_statistics[60353] = {
 
 
 _G.pg.base.equip_data_statistics[60361] = {
-	name = "0",
+	name = "航空攻击展示-萨拉娜I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122585,7 +124889,7 @@ _G.pg.base.equip_data_statistics[60361] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122608,8 +124912,9 @@ _G.pg.base.equip_data_statistics[60361] = {
 
 
 _G.pg.base.equip_data_statistics[60362] = {
-	id = 60362,
+	name = "航空攻击展示-萨拉娜II",
 	base = 60361,
+	id = 60362,
 	weapon_id = {
 		60362
 	},
@@ -122618,8 +124923,9 @@ _G.pg.base.equip_data_statistics[60362] = {
 
 
 _G.pg.base.equip_data_statistics[60363] = {
-	id = 60363,
+	name = "航空攻击展示-萨拉娜III",
 	base = 60361,
+	id = 60363,
 	weapon_id = {
 		60363
 	},
@@ -122628,7 +124934,7 @@ _G.pg.base.equip_data_statistics[60363] = {
 
 
 _G.pg.base.equip_data_statistics[60371] = {
-	name = "0",
+	name = "航空攻击展示-龙骧I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122636,7 +124942,7 @@ _G.pg.base.equip_data_statistics[60371] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122659,8 +124965,9 @@ _G.pg.base.equip_data_statistics[60371] = {
 
 
 _G.pg.base.equip_data_statistics[60372] = {
-	id = 60372,
+	name = "航空攻击展示-龙骧II",
 	base = 60371,
+	id = 60372,
 	weapon_id = {
 		60372
 	},
@@ -122669,8 +124976,9 @@ _G.pg.base.equip_data_statistics[60372] = {
 
 
 _G.pg.base.equip_data_statistics[60373] = {
-	id = 60373,
+	name = "航空攻击展示-龙骧III",
 	base = 60371,
+	id = 60373,
 	weapon_id = {
 		60373
 	},
@@ -122679,7 +124987,7 @@ _G.pg.base.equip_data_statistics[60373] = {
 
 
 _G.pg.base.equip_data_statistics[60381] = {
-	name = "0",
+	name = "航空攻击展示-追赶者I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122687,7 +124995,7 @@ _G.pg.base.equip_data_statistics[60381] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122710,8 +125018,9 @@ _G.pg.base.equip_data_statistics[60381] = {
 
 
 _G.pg.base.equip_data_statistics[60382] = {
-	id = 60382,
+	name = "航空攻击展示-追赶者II",
 	base = 60381,
+	id = 60382,
 	weapon_id = {
 		60382
 	},
@@ -122720,8 +125029,9 @@ _G.pg.base.equip_data_statistics[60382] = {
 
 
 _G.pg.base.equip_data_statistics[60383] = {
-	id = 60383,
+	name = "航空攻击展示-追赶者III",
 	base = 60381,
+	id = 60383,
 	weapon_id = {
 		60383
 	},
@@ -122730,7 +125040,7 @@ _G.pg.base.equip_data_statistics[60383] = {
 
 
 _G.pg.base.equip_data_statistics[60391] = {
-	name = "0",
+	name = "航空攻击展示-独立I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -122738,7 +125048,7 @@ _G.pg.base.equip_data_statistics[60391] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "外观空袭展示用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122761,8 +125071,9 @@ _G.pg.base.equip_data_statistics[60391] = {
 
 
 _G.pg.base.equip_data_statistics[60392] = {
-	id = 60392,
+	name = "航空攻击展示-独立II",
 	base = 60391,
+	id = 60392,
 	weapon_id = {
 		60392
 	},
@@ -122771,8 +125082,9 @@ _G.pg.base.equip_data_statistics[60392] = {
 
 
 _G.pg.base.equip_data_statistics[60393] = {
-	id = 60393,
+	name = "航空攻击展示-独立III",
 	base = 60391,
+	id = 60393,
 	weapon_id = {
 		60393
 	},
@@ -122789,7 +125101,7 @@ _G.pg.base.equip_data_statistics[60401] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122842,7 +125154,7 @@ _G.pg.base.equip_data_statistics[60411] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122895,7 +125207,7 @@ _G.pg.base.equip_data_statistics[60421] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -122948,7 +125260,7 @@ _G.pg.base.equip_data_statistics[60431] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123001,7 +125313,7 @@ _G.pg.base.equip_data_statistics[60441] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123054,7 +125366,7 @@ _G.pg.base.equip_data_statistics[60451] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123107,7 +125419,7 @@ _G.pg.base.equip_data_statistics[60461] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123138,7 +125450,7 @@ _G.pg.base.equip_data_statistics[60471] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123191,7 +125503,7 @@ _G.pg.base.equip_data_statistics[60491] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123244,7 +125556,7 @@ _G.pg.base.equip_data_statistics[60511] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123297,7 +125609,7 @@ _G.pg.base.equip_data_statistics[60521] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123350,7 +125662,7 @@ _G.pg.base.equip_data_statistics[60531] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123403,7 +125715,7 @@ _G.pg.base.equip_data_statistics[60541] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123456,7 +125768,7 @@ _G.pg.base.equip_data_statistics[60551] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123509,7 +125821,7 @@ _G.pg.base.equip_data_statistics[60561] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123554,7 +125866,7 @@ _G.pg.base.equip_data_statistics[60563] = {
 
 
 _G.pg.base.equip_data_statistics[60591] = {
-	name = "航空攻击展示-威悉I",
+	name = "航空攻击展示-威悉II",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -123562,7 +125874,7 @@ _G.pg.base.equip_data_statistics[60591] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123585,7 +125897,7 @@ _G.pg.base.equip_data_statistics[60591] = {
 
 
 _G.pg.base.equip_data_statistics[60592] = {
-	name = "航空攻击展示-威悉II",
+	name = "航空攻击展示-威悉III",
 	base = 60591,
 	id = 60592,
 	weapon_id = {
@@ -123615,7 +125927,7 @@ _G.pg.base.equip_data_statistics[60601] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123668,7 +125980,7 @@ _G.pg.base.equip_data_statistics[60641] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123721,7 +126033,7 @@ _G.pg.base.equip_data_statistics[60671] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123774,7 +126086,7 @@ _G.pg.base.equip_data_statistics[60681] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123827,7 +126139,7 @@ _G.pg.base.equip_data_statistics[60711] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123880,7 +126192,7 @@ _G.pg.base.equip_data_statistics[60751] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123933,7 +126245,7 @@ _G.pg.base.equip_data_statistics[60781] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -123986,7 +126298,7 @@ _G.pg.base.equip_data_statistics[60831] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124039,7 +126351,7 @@ _G.pg.base.equip_data_statistics[60851] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124092,7 +126404,7 @@ _G.pg.base.equip_data_statistics[60911] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124145,7 +126457,7 @@ _G.pg.base.equip_data_statistics[60921] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124198,7 +126510,7 @@ _G.pg.base.equip_data_statistics[60931] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124251,7 +126563,7 @@ _G.pg.base.equip_data_statistics[60941] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124304,7 +126616,7 @@ _G.pg.base.equip_data_statistics[60951] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124357,7 +126669,7 @@ _G.pg.base.equip_data_statistics[60981] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "航空攻撃サンプル用",
+	descrip = "航母空袭展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124402,7 +126714,7 @@ _G.pg.base.equip_data_statistics[60983] = {
 
 
 _G.pg.base.equip_data_statistics[61007] = {
-	name = "0",
+	name = "约克城技能随机扫射海面LV1",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -124410,7 +126722,7 @@ _G.pg.base.equip_data_statistics[61007] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124446,8 +126758,9 @@ _G.pg.base.equip_data_statistics[61007] = {
 
 
 _G.pg.base.equip_data_statistics[61008] = {
-	id = 61008,
+	name = "约克城技能随机扫射海面LV2",
 	base = 61007,
+	id = 61008,
 	weapon_id = {
 		61008
 	},
@@ -124456,8 +126769,9 @@ _G.pg.base.equip_data_statistics[61008] = {
 
 
 _G.pg.base.equip_data_statistics[61009] = {
-	id = 61009,
+	name = "约克城技能随机扫射海面LV3",
 	base = 61007,
+	id = 61009,
 	weapon_id = {
 		61009
 	},
@@ -124466,7 +126780,7 @@ _G.pg.base.equip_data_statistics[61009] = {
 
 
 _G.pg.base.equip_data_statistics[61010] = {
-	name = "0",
+	name = "皇家方舟技能LV1",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -124474,7 +126788,7 @@ _G.pg.base.equip_data_statistics[61010] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124510,8 +126824,9 @@ _G.pg.base.equip_data_statistics[61010] = {
 
 
 _G.pg.base.equip_data_statistics[61011] = {
-	id = 61011,
+	name = "皇家方舟技能LV2",
 	base = 61010,
+	id = 61011,
 	weapon_id = {
 		61011
 	},
@@ -124520,8 +126835,9 @@ _G.pg.base.equip_data_statistics[61011] = {
 
 
 _G.pg.base.equip_data_statistics[61012] = {
-	id = 61012,
+	name = "皇家方舟技能LV3",
 	base = 61010,
+	id = 61012,
 	weapon_id = {
 		61012
 	},
@@ -124538,7 +126854,7 @@ _G.pg.base.equip_data_statistics[61031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124582,7 +126898,7 @@ _G.pg.base.equip_data_statistics[61041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124626,7 +126942,7 @@ _G.pg.base.equip_data_statistics[61051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124671,7 +126987,7 @@ _G.pg.base.equip_data_statistics[61052] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124716,7 +127032,7 @@ _G.pg.base.equip_data_statistics[61053] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -124761,7 +127077,7 @@ _G.pg.base.equip_data_statistics[61054] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕展示用",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125296,7 +127612,7 @@ _G.pg.base.equip_data_statistics[61142] = {
 
 
 _G.pg.base.equip_data_statistics[61501] = {
-	name = "0",
+	name = "轰炸机外观预览飞机",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -125327,7 +127643,7 @@ _G.pg.base.equip_data_statistics[61501] = {
 
 
 _G.pg.base.equip_data_statistics[61503] = {
-	name = "0",
+	name = "鱼雷机外观预览飞机",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -125358,7 +127674,7 @@ _G.pg.base.equip_data_statistics[61503] = {
 
 
 _G.pg.base.equip_data_statistics[61504] = {
-	name = "0",
+	name = "鱼雷机外观预览鱼雷",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -125389,7 +127705,7 @@ _G.pg.base.equip_data_statistics[61504] = {
 
 
 _G.pg.base.equip_data_statistics[61505] = {
-	name = "0",
+	name = "战斗机外观预览飞机",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 99,
@@ -125420,7 +127736,7 @@ _G.pg.base.equip_data_statistics[61505] = {
 
 
 _G.pg.base.equip_data_statistics[66200] = {
-	name = "0",
+	name = "提尔比茨磁性鱼雷",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125428,7 +127744,7 @@ _G.pg.base.equip_data_statistics[66200] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125464,7 +127780,7 @@ _G.pg.base.equip_data_statistics[66200] = {
 
 
 _G.pg.base.equip_data_statistics[66220] = {
-	name = "0",
+	name = "沙恩霍斯特级鱼雷",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125472,7 +127788,7 @@ _G.pg.base.equip_data_statistics[66220] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125508,7 +127824,7 @@ _G.pg.base.equip_data_statistics[66220] = {
 
 
 _G.pg.base.equip_data_statistics[70011] = {
-	name = "0",
+	name = "全弹发射-法拉格特级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125516,7 +127832,7 @@ _G.pg.base.equip_data_statistics[70011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125552,8 +127868,9 @@ _G.pg.base.equip_data_statistics[70011] = {
 
 
 _G.pg.base.equip_data_statistics[70012] = {
-	id = 70012,
+	name = "全弹发射-法拉格特级II",
 	base = 70011,
+	id = 70012,
 	weapon_id = {
 		70012
 	},
@@ -125562,7 +127879,7 @@ _G.pg.base.equip_data_statistics[70012] = {
 
 
 _G.pg.base.equip_data_statistics[70021] = {
-	name = "0",
+	name = "全弹发射-马汉级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125570,7 +127887,7 @@ _G.pg.base.equip_data_statistics[70021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125606,8 +127923,9 @@ _G.pg.base.equip_data_statistics[70021] = {
 
 
 _G.pg.base.equip_data_statistics[70022] = {
-	id = 70022,
+	name = "全弹发射-马汉级II",
 	base = 70021,
+	id = 70022,
 	weapon_id = {
 		70022
 	},
@@ -125616,7 +127934,7 @@ _G.pg.base.equip_data_statistics[70022] = {
 
 
 _G.pg.base.equip_data_statistics[70031] = {
-	name = "0",
+	name = "全弹发射-格里德利级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125624,7 +127942,7 @@ _G.pg.base.equip_data_statistics[70031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125660,8 +127978,9 @@ _G.pg.base.equip_data_statistics[70031] = {
 
 
 _G.pg.base.equip_data_statistics[70032] = {
-	id = 70032,
+	name = "全弹发射-格里德利级II",
 	base = 70031,
+	id = 70032,
 	weapon_id = {
 		70032
 	},
@@ -125670,7 +127989,7 @@ _G.pg.base.equip_data_statistics[70032] = {
 
 
 _G.pg.base.equip_data_statistics[70041] = {
-	name = "0",
+	name = "全弹发射-弗莱彻级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125678,7 +127997,7 @@ _G.pg.base.equip_data_statistics[70041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125714,8 +128033,9 @@ _G.pg.base.equip_data_statistics[70041] = {
 
 
 _G.pg.base.equip_data_statistics[70042] = {
-	id = 70042,
+	name = "全弹发射-弗莱彻级II",
 	base = 70041,
+	id = 70042,
 	weapon_id = {
 		70042
 	},
@@ -125724,7 +128044,7 @@ _G.pg.base.equip_data_statistics[70042] = {
 
 
 _G.pg.base.equip_data_statistics[70051] = {
-	name = "0",
+	name = "全弹发射-西姆斯级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125732,7 +128052,7 @@ _G.pg.base.equip_data_statistics[70051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125768,8 +128088,9 @@ _G.pg.base.equip_data_statistics[70051] = {
 
 
 _G.pg.base.equip_data_statistics[70052] = {
-	id = 70052,
+	name = "全弹发射-西姆斯级II",
 	base = 70051,
+	id = 70052,
 	weapon_id = {
 		70052
 	},
@@ -125778,7 +128099,7 @@ _G.pg.base.equip_data_statistics[70052] = {
 
 
 _G.pg.base.equip_data_statistics[70061] = {
-	name = "0",
+	name = "全弹发射-本森级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125786,7 +128107,7 @@ _G.pg.base.equip_data_statistics[70061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125822,8 +128143,9 @@ _G.pg.base.equip_data_statistics[70061] = {
 
 
 _G.pg.base.equip_data_statistics[70062] = {
-	id = 70062,
+	name = "全弹发射-本森级II",
 	base = 70061,
+	id = 70062,
 	weapon_id = {
 		70062
 	},
@@ -125832,7 +128154,7 @@ _G.pg.base.equip_data_statistics[70062] = {
 
 
 _G.pg.base.equip_data_statistics[70071] = {
-	name = "0",
+	name = "全弹发射-基林级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -125840,7 +128162,7 @@ _G.pg.base.equip_data_statistics[70071] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125876,8 +128198,9 @@ _G.pg.base.equip_data_statistics[70071] = {
 
 
 _G.pg.base.equip_data_statistics[70072] = {
-	id = 70072,
+	name = "全弹发射-基林级II",
 	base = 70071,
+	id = 70072,
 	weapon_id = {
 		70072
 	},
@@ -125894,7 +128217,7 @@ _G.pg.base.equip_data_statistics[70081] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -125996,7 +128319,7 @@ _G.pg.base.equip_data_statistics[70092] = {
 
 
 _G.pg.base.equip_data_statistics[70111] = {
-	name = "0",
+	name = "全弹发射-奥马哈级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126004,7 +128327,7 @@ _G.pg.base.equip_data_statistics[70111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126040,8 +128363,9 @@ _G.pg.base.equip_data_statistics[70111] = {
 
 
 _G.pg.base.equip_data_statistics[70112] = {
-	id = 70112,
+	name = "全弹发射-奥马哈级II",
 	base = 70111,
+	id = 70112,
 	weapon_id = {
 		70112
 	},
@@ -126050,7 +128374,7 @@ _G.pg.base.equip_data_statistics[70112] = {
 
 
 _G.pg.base.equip_data_statistics[70121] = {
-	name = "0",
+	name = "全弹发射-布鲁克林级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126058,7 +128382,7 @@ _G.pg.base.equip_data_statistics[70121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126094,8 +128418,9 @@ _G.pg.base.equip_data_statistics[70121] = {
 
 
 _G.pg.base.equip_data_statistics[70122] = {
-	id = 70122,
+	name = "全弹发射-布鲁克林级II",
 	base = 70121,
+	id = 70122,
 	weapon_id = {
 		70122
 	},
@@ -126104,7 +128429,7 @@ _G.pg.base.equip_data_statistics[70122] = {
 
 
 _G.pg.base.equip_data_statistics[70131] = {
-	name = "0",
+	name = "全弹发射-亚特兰大级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126112,7 +128437,7 @@ _G.pg.base.equip_data_statistics[70131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126148,8 +128473,9 @@ _G.pg.base.equip_data_statistics[70131] = {
 
 
 _G.pg.base.equip_data_statistics[70132] = {
-	id = 70132,
+	name = "全弹发射-亚特兰大级II",
 	base = 70131,
+	id = 70132,
 	weapon_id = {
 		70132
 	},
@@ -126158,7 +128484,7 @@ _G.pg.base.equip_data_statistics[70132] = {
 
 
 _G.pg.base.equip_data_statistics[70141] = {
-	name = "0",
+	name = "全弹发射-克利夫兰级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126166,7 +128492,7 @@ _G.pg.base.equip_data_statistics[70141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126202,8 +128528,9 @@ _G.pg.base.equip_data_statistics[70141] = {
 
 
 _G.pg.base.equip_data_statistics[70142] = {
-	id = 70142,
+	name = "全弹发射-克利夫兰级II",
 	base = 70141,
+	id = 70142,
 	weapon_id = {
 		70142
 	},
@@ -126212,7 +128539,7 @@ _G.pg.base.equip_data_statistics[70142] = {
 
 
 _G.pg.base.equip_data_statistics[70211] = {
-	name = "0",
+	name = "全弹发射-彭萨科拉级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126220,7 +128547,7 @@ _G.pg.base.equip_data_statistics[70211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126256,8 +128583,9 @@ _G.pg.base.equip_data_statistics[70211] = {
 
 
 _G.pg.base.equip_data_statistics[70212] = {
-	id = 70212,
+	name = "全弹发射-彭萨科拉级II",
 	base = 70211,
+	id = 70212,
 	weapon_id = {
 		70212
 	},
@@ -126266,7 +128594,7 @@ _G.pg.base.equip_data_statistics[70212] = {
 
 
 _G.pg.base.equip_data_statistics[70221] = {
-	name = "0",
+	name = "全弹发射-北安普顿级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126274,7 +128602,7 @@ _G.pg.base.equip_data_statistics[70221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126310,8 +128638,9 @@ _G.pg.base.equip_data_statistics[70221] = {
 
 
 _G.pg.base.equip_data_statistics[70222] = {
-	id = 70222,
+	name = "全弹发射-北安普顿级II",
 	base = 70221,
+	id = 70222,
 	weapon_id = {
 		70222
 	},
@@ -126320,7 +128649,7 @@ _G.pg.base.equip_data_statistics[70222] = {
 
 
 _G.pg.base.equip_data_statistics[70231] = {
-	name = "0",
+	name = "全弹发射-波特兰级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126328,7 +128657,7 @@ _G.pg.base.equip_data_statistics[70231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126364,8 +128693,9 @@ _G.pg.base.equip_data_statistics[70231] = {
 
 
 _G.pg.base.equip_data_statistics[70232] = {
-	id = 70232,
+	name = "全弹发射-波特兰级II",
 	base = 70231,
+	id = 70232,
 	weapon_id = {
 		70232
 	},
@@ -126374,7 +128704,7 @@ _G.pg.base.equip_data_statistics[70232] = {
 
 
 _G.pg.base.equip_data_statistics[70241] = {
-	name = "0",
+	name = "全弹发射-新奥尔良级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126382,7 +128712,7 @@ _G.pg.base.equip_data_statistics[70241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126418,8 +128748,9 @@ _G.pg.base.equip_data_statistics[70241] = {
 
 
 _G.pg.base.equip_data_statistics[70242] = {
-	id = 70242,
+	name = "全弹发射-新奥尔良级II",
 	base = 70241,
+	id = 70242,
 	weapon_id = {
 		70242
 	},
@@ -126428,7 +128759,7 @@ _G.pg.base.equip_data_statistics[70242] = {
 
 
 _G.pg.base.equip_data_statistics[70251] = {
-	name = "0",
+	name = "全弹发射-威奇塔I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126436,7 +128767,7 @@ _G.pg.base.equip_data_statistics[70251] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126472,8 +128803,9 @@ _G.pg.base.equip_data_statistics[70251] = {
 
 
 _G.pg.base.equip_data_statistics[70252] = {
-	id = 70252,
+	name = "全弹发射-威奇塔II",
 	base = 70251,
+	id = 70252,
 	weapon_id = {
 		70252
 	},
@@ -126482,7 +128814,7 @@ _G.pg.base.equip_data_statistics[70252] = {
 
 
 _G.pg.base.equip_data_statistics[70261] = {
-	name = "0",
+	name = "全弹发射-巴尔的摩级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126490,7 +128822,7 @@ _G.pg.base.equip_data_statistics[70261] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126526,8 +128858,9 @@ _G.pg.base.equip_data_statistics[70261] = {
 
 
 _G.pg.base.equip_data_statistics[70262] = {
-	id = 70262,
+	name = "全弹发射-巴尔的摩级II",
 	base = 70261,
+	id = 70262,
 	weapon_id = {
 		70262
 	},
@@ -126536,7 +128869,7 @@ _G.pg.base.equip_data_statistics[70262] = {
 
 
 _G.pg.base.equip_data_statistics[70271] = {
-	name = "0",
+	name = "全弹发射-得梅因级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126544,7 +128877,7 @@ _G.pg.base.equip_data_statistics[70271] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126580,8 +128913,9 @@ _G.pg.base.equip_data_statistics[70271] = {
 
 
 _G.pg.base.equip_data_statistics[70272] = {
-	id = 70272,
+	name = "全弹发射-得梅因级II",
 	base = 70271,
+	id = 70272,
 	weapon_id = {
 		70272
 	},
@@ -126645,7 +128979,7 @@ _G.pg.base.equip_data_statistics[70282] = {
 
 
 _G.pg.base.equip_data_statistics[70311] = {
-	name = "0",
+	name = "全弹发射-猫鲨级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126653,7 +128987,7 @@ _G.pg.base.equip_data_statistics[70311] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126689,8 +129023,9 @@ _G.pg.base.equip_data_statistics[70311] = {
 
 
 _G.pg.base.equip_data_statistics[70312] = {
-	id = 70312,
+	name = "全弹发射-猫鲨级II",
 	base = 70311,
+	id = 70312,
 	weapon_id = {
 		70312
 	},
@@ -126699,7 +129034,7 @@ _G.pg.base.equip_data_statistics[70312] = {
 
 
 _G.pg.base.equip_data_statistics[70321] = {
-	name = "0",
+	name = "全弹发射-独角鲸级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126707,7 +129042,7 @@ _G.pg.base.equip_data_statistics[70321] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126743,8 +129078,9 @@ _G.pg.base.equip_data_statistics[70321] = {
 
 
 _G.pg.base.equip_data_statistics[70322] = {
-	id = 70322,
+	name = "全弹发射-独角鲸级II",
 	base = 70321,
+	id = 70322,
 	weapon_id = {
 		60702
 	},
@@ -126753,7 +129089,7 @@ _G.pg.base.equip_data_statistics[70322] = {
 
 
 _G.pg.base.equip_data_statistics[71011] = {
-	name = "0",
+	name = "全弹发射-A级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126761,7 +129097,7 @@ _G.pg.base.equip_data_statistics[71011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126797,8 +129133,9 @@ _G.pg.base.equip_data_statistics[71011] = {
 
 
 _G.pg.base.equip_data_statistics[71012] = {
-	id = 71012,
+	name = "全弹发射-A级II",
 	base = 71011,
+	id = 71012,
 	weapon_id = {
 		71012
 	},
@@ -126807,7 +129144,7 @@ _G.pg.base.equip_data_statistics[71012] = {
 
 
 _G.pg.base.equip_data_statistics[71021] = {
-	name = "0",
+	name = "全弹发射-B级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126815,7 +129152,7 @@ _G.pg.base.equip_data_statistics[71021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126851,8 +129188,9 @@ _G.pg.base.equip_data_statistics[71021] = {
 
 
 _G.pg.base.equip_data_statistics[71022] = {
-	id = 71022,
+	name = "全弹发射-B级II",
 	base = 71021,
+	id = 71022,
 	weapon_id = {
 		71022
 	},
@@ -126861,7 +129199,7 @@ _G.pg.base.equip_data_statistics[71022] = {
 
 
 _G.pg.base.equip_data_statistics[71031] = {
-	name = "0",
+	name = "全弹发射-C级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126869,7 +129207,7 @@ _G.pg.base.equip_data_statistics[71031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126905,8 +129243,9 @@ _G.pg.base.equip_data_statistics[71031] = {
 
 
 _G.pg.base.equip_data_statistics[71032] = {
-	id = 71032,
+	name = "全弹发射-C级II",
 	base = 71031,
+	id = 71032,
 	weapon_id = {
 		71032
 	},
@@ -126915,7 +129254,7 @@ _G.pg.base.equip_data_statistics[71032] = {
 
 
 _G.pg.base.equip_data_statistics[71041] = {
-	name = "0",
+	name = "全弹发射-F级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126923,7 +129262,7 @@ _G.pg.base.equip_data_statistics[71041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -126959,8 +129298,9 @@ _G.pg.base.equip_data_statistics[71041] = {
 
 
 _G.pg.base.equip_data_statistics[71042] = {
-	id = 71042,
+	name = "全弹发射-F级II",
 	base = 71041,
+	id = 71042,
 	weapon_id = {
 		71042
 	},
@@ -126969,7 +129309,7 @@ _G.pg.base.equip_data_statistics[71042] = {
 
 
 _G.pg.base.equip_data_statistics[71051] = {
-	name = "0",
+	name = "全弹发射-G级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -126977,7 +129317,7 @@ _G.pg.base.equip_data_statistics[71051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127013,8 +129353,9 @@ _G.pg.base.equip_data_statistics[71051] = {
 
 
 _G.pg.base.equip_data_statistics[71052] = {
-	id = 71052,
+	name = "全弹发射-G级II",
 	base = 71051,
+	id = 71052,
 	weapon_id = {
 		71052
 	},
@@ -127023,7 +129364,7 @@ _G.pg.base.equip_data_statistics[71052] = {
 
 
 _G.pg.base.equip_data_statistics[71061] = {
-	name = "0",
+	name = "全弹发射-H级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127031,7 +129372,7 @@ _G.pg.base.equip_data_statistics[71061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127067,8 +129408,9 @@ _G.pg.base.equip_data_statistics[71061] = {
 
 
 _G.pg.base.equip_data_statistics[71062] = {
-	id = 71062,
+	name = "全弹发射-H级II",
 	base = 71061,
+	id = 71062,
 	weapon_id = {
 		71062
 	},
@@ -127077,7 +129419,7 @@ _G.pg.base.equip_data_statistics[71062] = {
 
 
 _G.pg.base.equip_data_statistics[71026] = {
-	name = "0",
+	name = "全弹发射-I级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127085,7 +129427,7 @@ _G.pg.base.equip_data_statistics[71026] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127121,7 +129463,7 @@ _G.pg.base.equip_data_statistics[71026] = {
 
 
 _G.pg.base.equip_data_statistics[71027] = {
-	name = "0",
+	name = "全弹发射-I级II",
 	base = 71026,
 	id = 71027,
 	weapon_id = {
@@ -127132,7 +129474,7 @@ _G.pg.base.equip_data_statistics[71027] = {
 
 
 _G.pg.base.equip_data_statistics[71071] = {
-	name = "0",
+	name = "全弹发射-J级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127140,7 +129482,7 @@ _G.pg.base.equip_data_statistics[71071] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127176,8 +129518,9 @@ _G.pg.base.equip_data_statistics[71071] = {
 
 
 _G.pg.base.equip_data_statistics[71072] = {
-	id = 71072,
+	name = "全弹发射-J级II",
 	base = 71071,
+	id = 71072,
 	weapon_id = {
 		71072
 	},
@@ -127186,7 +129529,7 @@ _G.pg.base.equip_data_statistics[71072] = {
 
 
 _G.pg.base.equip_data_statistics[71081] = {
-	name = "0",
+	name = "全弹发射-M级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127194,7 +129537,7 @@ _G.pg.base.equip_data_statistics[71081] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127230,8 +129573,9 @@ _G.pg.base.equip_data_statistics[71081] = {
 
 
 _G.pg.base.equip_data_statistics[71082] = {
-	id = 71082,
+	name = "全弹发射-M级II",
 	base = 71081,
+	id = 71082,
 	weapon_id = {
 		71082
 	},
@@ -127240,7 +129584,7 @@ _G.pg.base.equip_data_statistics[71082] = {
 
 
 _G.pg.base.equip_data_statistics[71091] = {
-	name = "0",
+	name = "全弹发射-E级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127248,7 +129592,7 @@ _G.pg.base.equip_data_statistics[71091] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127284,8 +129628,9 @@ _G.pg.base.equip_data_statistics[71091] = {
 
 
 _G.pg.base.equip_data_statistics[71092] = {
-	id = 71092,
+	name = "全弹发射-E级II",
 	base = 71091,
+	id = 71092,
 	weapon_id = {
 		71092
 	},
@@ -127294,7 +129639,7 @@ _G.pg.base.equip_data_statistics[71092] = {
 
 
 _G.pg.base.equip_data_statistics[71016] = {
-	name = "0",
+	name = "全弹发射-部族级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127302,7 +129647,7 @@ _G.pg.base.equip_data_statistics[71016] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127338,8 +129683,9 @@ _G.pg.base.equip_data_statistics[71016] = {
 
 
 _G.pg.base.equip_data_statistics[71017] = {
-	id = 71017,
+	name = "全弹发射-部族级II",
 	base = 71016,
+	id = 71017,
 	weapon_id = {
 		71017
 	},
@@ -127348,7 +129694,7 @@ _G.pg.base.equip_data_statistics[71017] = {
 
 
 _G.pg.base.equip_data_statistics[71111] = {
-	name = "0",
+	name = "全弹发射-利安得级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127356,7 +129702,7 @@ _G.pg.base.equip_data_statistics[71111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127392,8 +129738,9 @@ _G.pg.base.equip_data_statistics[71111] = {
 
 
 _G.pg.base.equip_data_statistics[71112] = {
-	id = 71112,
+	name = "全弹发射-利安得级II",
 	base = 71111,
+	id = 71112,
 	weapon_id = {
 		71112
 	},
@@ -127402,7 +129749,7 @@ _G.pg.base.equip_data_statistics[71112] = {
 
 
 _G.pg.base.equip_data_statistics[71121] = {
-	name = "0",
+	name = "全弹发射-黛朵级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127410,7 +129757,7 @@ _G.pg.base.equip_data_statistics[71121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127446,8 +129793,9 @@ _G.pg.base.equip_data_statistics[71121] = {
 
 
 _G.pg.base.equip_data_statistics[71122] = {
-	id = 71122,
+	name = "全弹发射-黛朵级II",
 	base = 71121,
+	id = 71122,
 	weapon_id = {
 		71122
 	},
@@ -127456,7 +129804,7 @@ _G.pg.base.equip_data_statistics[71122] = {
 
 
 _G.pg.base.equip_data_statistics[71131] = {
-	name = "0",
+	name = "全弹发射-阿瑞托莎级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127464,7 +129812,7 @@ _G.pg.base.equip_data_statistics[71131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127500,8 +129848,9 @@ _G.pg.base.equip_data_statistics[71131] = {
 
 
 _G.pg.base.equip_data_statistics[71132] = {
-	id = 71132,
+	name = "全弹发射-阿瑞托莎级II",
 	base = 71131,
+	id = 71132,
 	weapon_id = {
 		71132
 	},
@@ -127510,7 +129859,7 @@ _G.pg.base.equip_data_statistics[71132] = {
 
 
 _G.pg.base.equip_data_statistics[71141] = {
-	name = "0",
+	name = "全弹发射-爱丁堡级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127518,7 +129867,7 @@ _G.pg.base.equip_data_statistics[71141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127554,8 +129903,9 @@ _G.pg.base.equip_data_statistics[71141] = {
 
 
 _G.pg.base.equip_data_statistics[71142] = {
-	id = 71142,
+	name = "全弹发射-爱丁堡级II",
 	base = 71141,
+	id = 71142,
 	weapon_id = {
 		71142
 	},
@@ -127564,7 +129914,7 @@ _G.pg.base.equip_data_statistics[71142] = {
 
 
 _G.pg.base.equip_data_statistics[71151] = {
-	name = "0",
+	name = "全弹发射-南安普顿级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127572,7 +129922,7 @@ _G.pg.base.equip_data_statistics[71151] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127608,8 +129958,9 @@ _G.pg.base.equip_data_statistics[71151] = {
 
 
 _G.pg.base.equip_data_statistics[71152] = {
-	id = 71152,
+	name = "全弹发射-南安普顿级II",
 	base = 71151,
+	id = 71152,
 	weapon_id = {
 		71152
 	},
@@ -127618,7 +129969,7 @@ _G.pg.base.equip_data_statistics[71152] = {
 
 
 _G.pg.base.equip_data_statistics[71161] = {
-	name = "0",
+	name = "全弹发射-斐济级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127626,7 +129977,7 @@ _G.pg.base.equip_data_statistics[71161] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127662,8 +130013,9 @@ _G.pg.base.equip_data_statistics[71161] = {
 
 
 _G.pg.base.equip_data_statistics[71162] = {
-	id = 71162,
+	name = "全弹发射-斐济级II",
 	base = 71161,
+	id = 71162,
 	weapon_id = {
 		71162
 	},
@@ -127672,7 +130024,7 @@ _G.pg.base.equip_data_statistics[71162] = {
 
 
 _G.pg.base.equip_data_statistics[71171] = {
-	name = "0",
+	name = "全弹发射-谷物女神级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127680,7 +130032,7 @@ _G.pg.base.equip_data_statistics[71171] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127716,8 +130068,9 @@ _G.pg.base.equip_data_statistics[71171] = {
 
 
 _G.pg.base.equip_data_statistics[71172] = {
-	id = 71172,
+	name = "全弹发射-谷物女神级II",
 	base = 71171,
+	id = 71172,
 	weapon_id = {
 		71172
 	},
@@ -127726,7 +130079,7 @@ _G.pg.base.equip_data_statistics[71172] = {
 
 
 _G.pg.base.equip_data_statistics[71181] = {
-	name = "0",
+	name = "全弹发射-格罗斯特级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127734,7 +130087,7 @@ _G.pg.base.equip_data_statistics[71181] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127770,8 +130123,9 @@ _G.pg.base.equip_data_statistics[71181] = {
 
 
 _G.pg.base.equip_data_statistics[71182] = {
-	id = 71182,
+	name = "全弹发射-格罗斯特级II",
 	base = 71181,
+	id = 71182,
 	weapon_id = {
 		71182
 	},
@@ -127780,7 +130134,7 @@ _G.pg.base.equip_data_statistics[71182] = {
 
 
 _G.pg.base.equip_data_statistics[71191] = {
-	name = "0",
+	name = "全弹发射-翡翠级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127788,7 +130142,7 @@ _G.pg.base.equip_data_statistics[71191] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127824,8 +130178,9 @@ _G.pg.base.equip_data_statistics[71191] = {
 
 
 _G.pg.base.equip_data_statistics[71192] = {
-	id = 71192,
+	name = "全弹发射-翡翠级II",
 	base = 71191,
+	id = 71192,
 	weapon_id = {
 		71192
 	},
@@ -127834,7 +130189,7 @@ _G.pg.base.equip_data_statistics[71192] = {
 
 
 _G.pg.base.equip_data_statistics[71211] = {
-	name = "0",
+	name = "全弹发射-伦敦级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127842,7 +130197,7 @@ _G.pg.base.equip_data_statistics[71211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127878,8 +130233,9 @@ _G.pg.base.equip_data_statistics[71211] = {
 
 
 _G.pg.base.equip_data_statistics[71212] = {
-	id = 71212,
+	name = "全弹发射-伦敦级II",
 	base = 71211,
+	id = 71212,
 	weapon_id = {
 		71212
 	},
@@ -127888,7 +130244,7 @@ _G.pg.base.equip_data_statistics[71212] = {
 
 
 _G.pg.base.equip_data_statistics[71221] = {
-	name = "0",
+	name = "全弹发射-肯特级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127896,7 +130252,7 @@ _G.pg.base.equip_data_statistics[71221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127932,8 +130288,9 @@ _G.pg.base.equip_data_statistics[71221] = {
 
 
 _G.pg.base.equip_data_statistics[71222] = {
-	id = 71222,
+	name = "全弹发射-肯特级II",
 	base = 71221,
+	id = 71222,
 	weapon_id = {
 		71222
 	},
@@ -127942,7 +130299,7 @@ _G.pg.base.equip_data_statistics[71222] = {
 
 
 _G.pg.base.equip_data_statistics[71231] = {
-	name = "0",
+	name = "全弹发射-诺福克级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -127950,7 +130307,7 @@ _G.pg.base.equip_data_statistics[71231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -127986,8 +130343,9 @@ _G.pg.base.equip_data_statistics[71231] = {
 
 
 _G.pg.base.equip_data_statistics[71232] = {
-	id = 71232,
+	name = "全弹发射-诺福克级II",
 	base = 71231,
+	id = 71232,
 	weapon_id = {
 		71232
 	},
@@ -127996,7 +130354,7 @@ _G.pg.base.equip_data_statistics[71232] = {
 
 
 _G.pg.base.equip_data_statistics[71241] = {
-	name = "0",
+	name = "全弹发射-约克级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128004,7 +130362,7 @@ _G.pg.base.equip_data_statistics[71241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128040,8 +130398,9 @@ _G.pg.base.equip_data_statistics[71241] = {
 
 
 _G.pg.base.equip_data_statistics[71242] = {
-	id = 71242,
+	name = "全弹发射-约克级II",
 	base = 71241,
+	id = 71242,
 	weapon_id = {
 		71242
 	},
@@ -128050,7 +130409,7 @@ _G.pg.base.equip_data_statistics[71242] = {
 
 
 _G.pg.base.equip_data_statistics[72011] = {
-	name = "0",
+	name = "全弹发射-睦月级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128058,7 +130417,7 @@ _G.pg.base.equip_data_statistics[72011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128094,8 +130453,9 @@ _G.pg.base.equip_data_statistics[72011] = {
 
 
 _G.pg.base.equip_data_statistics[72012] = {
-	id = 72012,
+	name = "全弹发射-睦月级II",
 	base = 72011,
+	id = 72012,
 	weapon_id = {
 		72012
 	},
@@ -128104,7 +130464,7 @@ _G.pg.base.equip_data_statistics[72012] = {
 
 
 _G.pg.base.equip_data_statistics[72021] = {
-	name = "0",
+	name = "全弹发射-吹雪级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128112,7 +130472,7 @@ _G.pg.base.equip_data_statistics[72021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128148,8 +130508,9 @@ _G.pg.base.equip_data_statistics[72021] = {
 
 
 _G.pg.base.equip_data_statistics[72022] = {
-	id = 72022,
+	name = "全弹发射-吹雪级II",
 	base = 72021,
+	id = 72022,
 	weapon_id = {
 		72022
 	},
@@ -128158,7 +130519,7 @@ _G.pg.base.equip_data_statistics[72022] = {
 
 
 _G.pg.base.equip_data_statistics[72031] = {
-	name = "0",
+	name = "全弹发射-白露级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128166,7 +130527,7 @@ _G.pg.base.equip_data_statistics[72031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128202,8 +130563,9 @@ _G.pg.base.equip_data_statistics[72031] = {
 
 
 _G.pg.base.equip_data_statistics[72032] = {
-	id = 72032,
+	name = "全弹发射-白露级II",
 	base = 72031,
+	id = 72032,
 	weapon_id = {
 		72032
 	},
@@ -128212,7 +130574,7 @@ _G.pg.base.equip_data_statistics[72032] = {
 
 
 _G.pg.base.equip_data_statistics[72041] = {
-	name = "0",
+	name = "全弹发射-初春级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128220,7 +130582,7 @@ _G.pg.base.equip_data_statistics[72041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128256,8 +130618,9 @@ _G.pg.base.equip_data_statistics[72041] = {
 
 
 _G.pg.base.equip_data_statistics[72042] = {
-	id = 72042,
+	name = "全弹发射-初春级II",
 	base = 72041,
+	id = 72042,
 	weapon_id = {
 		72042
 	},
@@ -128266,7 +130629,7 @@ _G.pg.base.equip_data_statistics[72042] = {
 
 
 _G.pg.base.equip_data_statistics[72051] = {
-	name = "0",
+	name = "全弹发射-阳炎级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128274,7 +130637,7 @@ _G.pg.base.equip_data_statistics[72051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128310,8 +130673,9 @@ _G.pg.base.equip_data_statistics[72051] = {
 
 
 _G.pg.base.equip_data_statistics[72052] = {
-	id = 72052,
+	name = "全弹发射-阳炎级II",
 	base = 72051,
+	id = 72052,
 	weapon_id = {
 		72052
 	},
@@ -128320,7 +130684,7 @@ _G.pg.base.equip_data_statistics[72052] = {
 
 
 _G.pg.base.equip_data_statistics[72056] = {
-	name = "0",
+	name = "全弹发射-夕云级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128328,7 +130692,7 @@ _G.pg.base.equip_data_statistics[72056] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128364,8 +130728,9 @@ _G.pg.base.equip_data_statistics[72056] = {
 
 
 _G.pg.base.equip_data_statistics[72057] = {
-	id = 72057,
+	name = "全弹发射-夕云级II",
 	base = 72056,
+	id = 72057,
 	weapon_id = {
 		72057
 	},
@@ -128374,7 +130739,7 @@ _G.pg.base.equip_data_statistics[72057] = {
 
 
 _G.pg.base.equip_data_statistics[72061] = {
-	name = "0",
+	name = "全弹发射-秋月级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128382,7 +130747,7 @@ _G.pg.base.equip_data_statistics[72061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128418,8 +130783,9 @@ _G.pg.base.equip_data_statistics[72061] = {
 
 
 _G.pg.base.equip_data_statistics[72062] = {
-	id = 72062,
+	name = "全弹发射-秋月级II",
 	base = 72061,
+	id = 72062,
 	weapon_id = {
 		72062
 	},
@@ -128428,7 +130794,7 @@ _G.pg.base.equip_data_statistics[72062] = {
 
 
 _G.pg.base.equip_data_statistics[72071] = {
-	name = "0",
+	name = "全弹发射-晓级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128436,7 +130802,7 @@ _G.pg.base.equip_data_statistics[72071] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128472,8 +130838,9 @@ _G.pg.base.equip_data_statistics[72071] = {
 
 
 _G.pg.base.equip_data_statistics[72072] = {
-	id = 72072,
+	name = "全弹发射-晓级II",
 	base = 72071,
+	id = 72072,
 	weapon_id = {
 		72072
 	},
@@ -128482,7 +130849,7 @@ _G.pg.base.equip_data_statistics[72072] = {
 
 
 _G.pg.base.equip_data_statistics[72081] = {
-	name = "0",
+	name = "全弹发射-神风级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128490,7 +130857,7 @@ _G.pg.base.equip_data_statistics[72081] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128526,8 +130893,9 @@ _G.pg.base.equip_data_statistics[72081] = {
 
 
 _G.pg.base.equip_data_statistics[72082] = {
-	id = 72082,
+	name = "全弹发射-神风级II",
 	base = 72081,
+	id = 72082,
 	weapon_id = {
 		72082
 	},
@@ -128536,7 +130904,7 @@ _G.pg.base.equip_data_statistics[72082] = {
 
 
 _G.pg.base.equip_data_statistics[72091] = {
-	name = "0",
+	name = "全弹发射-朝潮级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128544,7 +130912,7 @@ _G.pg.base.equip_data_statistics[72091] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128580,8 +130948,9 @@ _G.pg.base.equip_data_statistics[72091] = {
 
 
 _G.pg.base.equip_data_statistics[72092] = {
-	id = 72092,
+	name = "全弹发射-朝潮级II",
 	base = 72091,
+	id = 72092,
 	weapon_id = {
 		72092
 	},
@@ -128590,7 +130959,7 @@ _G.pg.base.equip_data_statistics[72092] = {
 
 
 _G.pg.base.equip_data_statistics[72111] = {
-	name = "0",
+	name = "全弹发射-天龙级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128598,7 +130967,7 @@ _G.pg.base.equip_data_statistics[72111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128634,8 +131003,9 @@ _G.pg.base.equip_data_statistics[72111] = {
 
 
 _G.pg.base.equip_data_statistics[72112] = {
-	id = 72112,
+	name = "全弹发射-天龙级II",
 	base = 72111,
+	id = 72112,
 	weapon_id = {
 		72112
 	},
@@ -128644,7 +131014,7 @@ _G.pg.base.equip_data_statistics[72112] = {
 
 
 _G.pg.base.equip_data_statistics[72121] = {
-	name = "0",
+	name = "全弹发射-球磨级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128652,7 +131022,7 @@ _G.pg.base.equip_data_statistics[72121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128688,8 +131058,9 @@ _G.pg.base.equip_data_statistics[72121] = {
 
 
 _G.pg.base.equip_data_statistics[72122] = {
-	id = 72122,
+	name = "全弹发射-球磨级II",
 	base = 72121,
+	id = 72122,
 	weapon_id = {
 		72122
 	},
@@ -128698,7 +131069,7 @@ _G.pg.base.equip_data_statistics[72122] = {
 
 
 _G.pg.base.equip_data_statistics[72131] = {
-	name = "0",
+	name = "全弹发射-川内级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128706,7 +131077,7 @@ _G.pg.base.equip_data_statistics[72131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128742,8 +131113,9 @@ _G.pg.base.equip_data_statistics[72131] = {
 
 
 _G.pg.base.equip_data_statistics[72132] = {
-	id = 72132,
+	name = "全弹发射-川内级II",
 	base = 72131,
+	id = 72132,
 	weapon_id = {
 		72132
 	},
@@ -128752,7 +131124,7 @@ _G.pg.base.equip_data_statistics[72132] = {
 
 
 _G.pg.base.equip_data_statistics[72141] = {
-	name = "0",
+	name = "全弹发射-长良级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128760,7 +131132,7 @@ _G.pg.base.equip_data_statistics[72141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128796,8 +131168,9 @@ _G.pg.base.equip_data_statistics[72141] = {
 
 
 _G.pg.base.equip_data_statistics[72142] = {
-	id = 72142,
+	name = "全弹发射-长良级II",
 	base = 72141,
+	id = 72142,
 	weapon_id = {
 		72142
 	},
@@ -128806,7 +131179,7 @@ _G.pg.base.equip_data_statistics[72142] = {
 
 
 _G.pg.base.equip_data_statistics[72151] = {
-	name = "0",
+	name = "全弹发射-阿贺野级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128814,7 +131187,7 @@ _G.pg.base.equip_data_statistics[72151] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128850,8 +131223,9 @@ _G.pg.base.equip_data_statistics[72151] = {
 
 
 _G.pg.base.equip_data_statistics[72152] = {
-	id = 72152,
+	name = "全弹发射-阿贺野级II",
 	base = 72151,
+	id = 72152,
 	weapon_id = {
 		72152
 	},
@@ -128860,7 +131234,7 @@ _G.pg.base.equip_data_statistics[72152] = {
 
 
 _G.pg.base.equip_data_statistics[72161] = {
-	name = "0",
+	name = "全弹发射-夕张I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128868,7 +131242,7 @@ _G.pg.base.equip_data_statistics[72161] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128904,8 +131278,9 @@ _G.pg.base.equip_data_statistics[72161] = {
 
 
 _G.pg.base.equip_data_statistics[72162] = {
-	id = 72162,
+	name = "全弹发射-夕张II",
 	base = 72161,
+	id = 72162,
 	weapon_id = {
 		72162
 	},
@@ -128914,7 +131289,7 @@ _G.pg.base.equip_data_statistics[72162] = {
 
 
 _G.pg.base.equip_data_statistics[72211] = {
-	name = "0",
+	name = "全弹发射-古鹰级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128922,7 +131297,7 @@ _G.pg.base.equip_data_statistics[72211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -128958,8 +131333,9 @@ _G.pg.base.equip_data_statistics[72211] = {
 
 
 _G.pg.base.equip_data_statistics[72212] = {
-	id = 72212,
+	name = "全弹发射-古鹰级II",
 	base = 72211,
+	id = 72212,
 	weapon_id = {
 		72212
 	},
@@ -128968,7 +131344,7 @@ _G.pg.base.equip_data_statistics[72212] = {
 
 
 _G.pg.base.equip_data_statistics[72221] = {
-	name = "0",
+	name = "全弹发射-青叶级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -128976,7 +131352,7 @@ _G.pg.base.equip_data_statistics[72221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129012,8 +131388,9 @@ _G.pg.base.equip_data_statistics[72221] = {
 
 
 _G.pg.base.equip_data_statistics[72222] = {
-	id = 72222,
+	name = "全弹发射-青叶级II",
 	base = 72221,
+	id = 72222,
 	weapon_id = {
 		72222
 	},
@@ -129022,7 +131399,7 @@ _G.pg.base.equip_data_statistics[72222] = {
 
 
 _G.pg.base.equip_data_statistics[72231] = {
-	name = "0",
+	name = "全弹发射-妙高级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129030,7 +131407,7 @@ _G.pg.base.equip_data_statistics[72231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129066,8 +131443,9 @@ _G.pg.base.equip_data_statistics[72231] = {
 
 
 _G.pg.base.equip_data_statistics[72232] = {
-	id = 72232,
+	name = "全弹发射-妙高级II",
 	base = 72231,
+	id = 72232,
 	weapon_id = {
 		72232
 	},
@@ -129076,7 +131454,7 @@ _G.pg.base.equip_data_statistics[72232] = {
 
 
 _G.pg.base.equip_data_statistics[72241] = {
-	name = "0",
+	name = "全弹发射-利根级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129084,7 +131462,7 @@ _G.pg.base.equip_data_statistics[72241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129120,8 +131498,9 @@ _G.pg.base.equip_data_statistics[72241] = {
 
 
 _G.pg.base.equip_data_statistics[72242] = {
-	id = 72242,
+	name = "全弹发射-利根级II",
 	base = 72241,
+	id = 72242,
 	weapon_id = {
 		72242
 	},
@@ -129130,7 +131509,7 @@ _G.pg.base.equip_data_statistics[72242] = {
 
 
 _G.pg.base.equip_data_statistics[72251] = {
-	name = "0",
+	name = "全弹发射-最上级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129138,7 +131517,7 @@ _G.pg.base.equip_data_statistics[72251] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129174,8 +131553,9 @@ _G.pg.base.equip_data_statistics[72251] = {
 
 
 _G.pg.base.equip_data_statistics[72252] = {
-	id = 72252,
+	name = "全弹发射-最上级II",
 	base = 72251,
+	id = 72252,
 	weapon_id = {
 		72252
 	},
@@ -129184,8 +131564,7 @@ _G.pg.base.equip_data_statistics[72252] = {
 
 
 _G.pg.base.equip_data_statistics[72254] = {
-	descrip = "スキル弾幕",
-	name = "0",
+	name = "全弹发射-最上级铃谷型I",
 	base = 72251,
 	id = 72254,
 	weapon_id = {
@@ -129196,8 +131575,9 @@ _G.pg.base.equip_data_statistics[72254] = {
 
 
 _G.pg.base.equip_data_statistics[72255] = {
-	id = 72255,
+	name = "全弹发射-最上级铃谷型II",
 	base = 72251,
+	id = 72255,
 	weapon_id = {
 		72255
 	},
@@ -129206,8 +131586,7 @@ _G.pg.base.equip_data_statistics[72255] = {
 
 
 _G.pg.base.equip_data_statistics[72256] = {
-	descrip = "スキル弾幕",
-	name = "0",
+	name = "全弹发射-最上级铃谷型I增强",
 	base = 72251,
 	id = 72256,
 	weapon_id = {
@@ -129218,8 +131597,9 @@ _G.pg.base.equip_data_statistics[72256] = {
 
 
 _G.pg.base.equip_data_statistics[72257] = {
-	id = 72257,
+	name = "全弹发射-最上级铃谷型II增强",
 	base = 72251,
+	id = 72257,
 	weapon_id = {
 		72257
 	},
@@ -129228,7 +131608,7 @@ _G.pg.base.equip_data_statistics[72257] = {
 
 
 _G.pg.base.equip_data_statistics[72261] = {
-	name = "0",
+	name = "全弹发射-高雄级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129236,7 +131616,7 @@ _G.pg.base.equip_data_statistics[72261] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129272,8 +131652,9 @@ _G.pg.base.equip_data_statistics[72261] = {
 
 
 _G.pg.base.equip_data_statistics[72262] = {
-	id = 72262,
+	name = "全弹发射-高雄级II",
 	base = 72261,
+	id = 72262,
 	weapon_id = {
 		72262
 	},
@@ -129282,7 +131663,7 @@ _G.pg.base.equip_data_statistics[72262] = {
 
 
 _G.pg.base.equip_data_statistics[72271] = {
-	name = "0",
+	name = "全弹发射-利根级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129290,7 +131671,7 @@ _G.pg.base.equip_data_statistics[72271] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129326,8 +131707,9 @@ _G.pg.base.equip_data_statistics[72271] = {
 
 
 _G.pg.base.equip_data_statistics[72272] = {
-	id = 72272,
+	name = "全弹发射-利根级II",
 	base = 72271,
+	id = 72272,
 	weapon_id = {
 		72272
 	},
@@ -129391,7 +131773,7 @@ _G.pg.base.equip_data_statistics[72282] = {
 
 
 _G.pg.base.equip_data_statistics[72311] = {
-	name = "0",
+	name = "全弹发射-伊乙级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129399,7 +131781,7 @@ _G.pg.base.equip_data_statistics[72311] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129435,8 +131817,9 @@ _G.pg.base.equip_data_statistics[72311] = {
 
 
 _G.pg.base.equip_data_statistics[72312] = {
-	id = 72312,
+	name = "全弹发射-伊乙级II",
 	base = 72311,
+	id = 72312,
 	weapon_id = {
 		72312
 	},
@@ -129445,7 +131828,7 @@ _G.pg.base.equip_data_statistics[72312] = {
 
 
 _G.pg.base.equip_data_statistics[72411] = {
-	name = "0",
+	name = "全弹发射-樫野I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129453,7 +131836,7 @@ _G.pg.base.equip_data_statistics[72411] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129489,8 +131872,9 @@ _G.pg.base.equip_data_statistics[72411] = {
 
 
 _G.pg.base.equip_data_statistics[72412] = {
-	id = 72412,
+	name = "全弹发射-樫野II",
 	base = 72411,
+	id = 72412,
 	weapon_id = {
 		72412
 	},
@@ -129499,7 +131883,7 @@ _G.pg.base.equip_data_statistics[72412] = {
 
 
 _G.pg.base.equip_data_statistics[73011] = {
-	name = "0",
+	name = "全弹发射-1934型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129507,7 +131891,7 @@ _G.pg.base.equip_data_statistics[73011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129543,8 +131927,9 @@ _G.pg.base.equip_data_statistics[73011] = {
 
 
 _G.pg.base.equip_data_statistics[73012] = {
-	id = 73012,
+	name = "全弹发射-1934型II",
 	base = 73011,
+	id = 73012,
 	weapon_id = {
 		73012
 	},
@@ -129553,7 +131938,7 @@ _G.pg.base.equip_data_statistics[73012] = {
 
 
 _G.pg.base.equip_data_statistics[73021] = {
-	name = "0",
+	name = "全弹发射-1934A型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129561,7 +131946,7 @@ _G.pg.base.equip_data_statistics[73021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129597,8 +131982,9 @@ _G.pg.base.equip_data_statistics[73021] = {
 
 
 _G.pg.base.equip_data_statistics[73022] = {
-	id = 73022,
+	name = "全弹发射-1934A型II",
 	base = 73021,
+	id = 73022,
 	weapon_id = {
 		73022
 	},
@@ -129607,7 +131993,7 @@ _G.pg.base.equip_data_statistics[73022] = {
 
 
 _G.pg.base.equip_data_statistics[73031] = {
-	name = "0",
+	name = "全弹发射-1936型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129615,7 +132001,7 @@ _G.pg.base.equip_data_statistics[73031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129651,8 +132037,9 @@ _G.pg.base.equip_data_statistics[73031] = {
 
 
 _G.pg.base.equip_data_statistics[73032] = {
-	id = 73032,
+	name = "全弹发射-1936型II",
 	base = 73031,
+	id = 73032,
 	weapon_id = {
 		73032
 	},
@@ -129661,7 +132048,7 @@ _G.pg.base.equip_data_statistics[73032] = {
 
 
 _G.pg.base.equip_data_statistics[73041] = {
-	name = "0",
+	name = "全弹发射-1936A型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129669,7 +132056,7 @@ _G.pg.base.equip_data_statistics[73041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129705,8 +132092,9 @@ _G.pg.base.equip_data_statistics[73041] = {
 
 
 _G.pg.base.equip_data_statistics[73042] = {
-	id = 73042,
+	name = "全弹发射-1936A型II",
 	base = 73041,
+	id = 73042,
 	weapon_id = {
 		73042
 	},
@@ -129715,7 +132103,7 @@ _G.pg.base.equip_data_statistics[73042] = {
 
 
 _G.pg.base.equip_data_statistics[73051] = {
-	name = "0",
+	name = "全弹发射-1936B型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129723,7 +132111,7 @@ _G.pg.base.equip_data_statistics[73051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129759,8 +132147,9 @@ _G.pg.base.equip_data_statistics[73051] = {
 
 
 _G.pg.base.equip_data_statistics[73052] = {
-	id = 73052,
+	name = "全弹发射-1936B型II",
 	base = 73051,
+	id = 73052,
 	weapon_id = {
 		73052
 	},
@@ -129769,7 +132158,7 @@ _G.pg.base.equip_data_statistics[73052] = {
 
 
 _G.pg.base.equip_data_statistics[73111] = {
-	name = "0",
+	name = "全弹发射-柯尼斯堡级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129777,7 +132166,7 @@ _G.pg.base.equip_data_statistics[73111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129813,8 +132202,9 @@ _G.pg.base.equip_data_statistics[73111] = {
 
 
 _G.pg.base.equip_data_statistics[73112] = {
-	id = 73112,
+	name = "全弹发射-柯尼斯堡级II",
 	base = 73111,
+	id = 73112,
 	weapon_id = {
 		73112
 	},
@@ -129823,7 +132213,7 @@ _G.pg.base.equip_data_statistics[73112] = {
 
 
 _G.pg.base.equip_data_statistics[73121] = {
-	name = "0",
+	name = "全弹发射-莱比锡级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129831,7 +132221,7 @@ _G.pg.base.equip_data_statistics[73121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129867,8 +132257,9 @@ _G.pg.base.equip_data_statistics[73121] = {
 
 
 _G.pg.base.equip_data_statistics[73122] = {
-	id = 73122,
+	name = "全弹发射-莱比锡级II",
 	base = 73121,
+	id = 73122,
 	weapon_id = {
 		73112
 	},
@@ -129877,7 +132268,7 @@ _G.pg.base.equip_data_statistics[73122] = {
 
 
 _G.pg.base.equip_data_statistics[73131] = {
-	name = "0",
+	name = "全弹发射-皮劳级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129885,7 +132276,7 @@ _G.pg.base.equip_data_statistics[73131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129921,8 +132312,9 @@ _G.pg.base.equip_data_statistics[73131] = {
 
 
 _G.pg.base.equip_data_statistics[73132] = {
-	id = 73132,
+	name = "全弹发射-皮劳级II",
 	base = 73131,
+	id = 73132,
 	weapon_id = {
 		73132
 	},
@@ -129931,7 +132323,7 @@ _G.pg.base.equip_data_statistics[73132] = {
 
 
 _G.pg.base.equip_data_statistics[73211] = {
-	name = "0",
+	name = "全弹发射-希佩尔海军上将级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129939,7 +132331,7 @@ _G.pg.base.equip_data_statistics[73211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -129975,8 +132367,9 @@ _G.pg.base.equip_data_statistics[73211] = {
 
 
 _G.pg.base.equip_data_statistics[73212] = {
-	id = 73212,
+	name = "全弹发射-希佩尔海军上将级II",
 	base = 73211,
+	id = 73212,
 	weapon_id = {
 		73212
 	},
@@ -129985,7 +132378,7 @@ _G.pg.base.equip_data_statistics[73212] = {
 
 
 _G.pg.base.equip_data_statistics[73221] = {
-	name = "0",
+	name = "全弹发射-德意志级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -129993,7 +132386,7 @@ _G.pg.base.equip_data_statistics[73221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130029,8 +132422,9 @@ _G.pg.base.equip_data_statistics[73221] = {
 
 
 _G.pg.base.equip_data_statistics[73222] = {
-	id = 73222,
+	name = "全弹发射-德意志级II",
 	base = 73221,
+	id = 73222,
 	weapon_id = {
 		73222
 	},
@@ -130047,7 +132441,7 @@ _G.pg.base.equip_data_statistics[73231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130094,7 +132488,7 @@ _G.pg.base.equip_data_statistics[73232] = {
 
 
 _G.pg.base.equip_data_statistics[73241] = {
-	name = "0",
+	name = "全弹发射-罗恩级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130102,7 +132496,7 @@ _G.pg.base.equip_data_statistics[73241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130138,8 +132532,9 @@ _G.pg.base.equip_data_statistics[73241] = {
 
 
 _G.pg.base.equip_data_statistics[73242] = {
-	id = 73242,
+	name = "全弹发射-罗恩级II",
 	base = 73241,
+	id = 73242,
 	weapon_id = {
 		73242
 	},
@@ -130148,7 +132543,7 @@ _G.pg.base.equip_data_statistics[73242] = {
 
 
 _G.pg.base.equip_data_statistics[73311] = {
-	name = "0",
+	name = "全弹发射-Type VIIC型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130156,7 +132551,7 @@ _G.pg.base.equip_data_statistics[73311] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130192,8 +132587,9 @@ _G.pg.base.equip_data_statistics[73311] = {
 
 
 _G.pg.base.equip_data_statistics[73312] = {
-	id = 73312,
+	name = "全弹发射-Type VIIC型II",
 	base = 73311,
+	id = 73312,
 	weapon_id = {
 		73312
 	},
@@ -130210,7 +132606,7 @@ _G.pg.base.equip_data_statistics[73321] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130257,7 +132653,7 @@ _G.pg.base.equip_data_statistics[73322] = {
 
 
 _G.pg.base.equip_data_statistics[73411] = {
-	name = "0",
+	name = "全弹发射-Type VIIB型I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130265,7 +132661,7 @@ _G.pg.base.equip_data_statistics[73411] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130301,8 +132697,9 @@ _G.pg.base.equip_data_statistics[73411] = {
 
 
 _G.pg.base.equip_data_statistics[73412] = {
-	id = 73412,
+	name = "全弹发射-Type VIIB型II",
 	base = 73411,
+	id = 73412,
 	weapon_id = {
 		73412
 	},
@@ -130319,7 +132716,7 @@ _G.pg.base.equip_data_statistics[73511] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130421,7 +132818,7 @@ _G.pg.base.equip_data_statistics[73612] = {
 
 
 _G.pg.base.equip_data_statistics[74011] = {
-	name = "0",
+	name = "全弹发射-鞍山级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130429,7 +132826,7 @@ _G.pg.base.equip_data_statistics[74011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130465,8 +132862,9 @@ _G.pg.base.equip_data_statistics[74011] = {
 
 
 _G.pg.base.equip_data_statistics[74012] = {
-	id = 74012,
+	name = "全弹发射-鞍山级II",
 	base = 74011,
+	id = 74012,
 	weapon_id = {
 		74012
 	},
@@ -130475,7 +132873,7 @@ _G.pg.base.equip_data_statistics[74012] = {
 
 
 _G.pg.base.equip_data_statistics[74023] = {
-	name = "0",
+	name = "全弹发射-青龙III",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130483,7 +132881,7 @@ _G.pg.base.equip_data_statistics[74023] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130527,7 +132925,7 @@ _G.pg.base.equip_data_statistics[74031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130626,7 +133024,7 @@ _G.pg.base.equip_data_statistics[74041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130673,7 +133071,7 @@ _G.pg.base.equip_data_statistics[74042] = {
 
 
 _G.pg.base.equip_data_statistics[74043] = {
-	name = "0",
+	name = "全弹发射-白虎III",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130681,7 +133079,7 @@ _G.pg.base.equip_data_statistics[74043] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130725,7 +133123,7 @@ _G.pg.base.equip_data_statistics[74053] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130761,7 +133159,7 @@ _G.pg.base.equip_data_statistics[74053] = {
 
 
 _G.pg.base.equip_data_statistics[74061] = {
-	name = "0",
+	name = "全弹发射-飞云I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130769,7 +133167,7 @@ _G.pg.base.equip_data_statistics[74061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130816,7 +133214,7 @@ _G.pg.base.equip_data_statistics[74062] = {
 
 
 _G.pg.base.equip_data_statistics[74111] = {
-	name = "0",
+	name = "全弹发射-宁海级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130824,7 +133222,7 @@ _G.pg.base.equip_data_statistics[74111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130860,8 +133258,9 @@ _G.pg.base.equip_data_statistics[74111] = {
 
 
 _G.pg.base.equip_data_statistics[74112] = {
-	id = 74112,
+	name = "全弹发射-宁海级II",
 	base = 74111,
+	id = 74112,
 	weapon_id = {
 		74112
 	},
@@ -130870,7 +133269,7 @@ _G.pg.base.equip_data_statistics[74112] = {
 
 
 _G.pg.base.equip_data_statistics[74121] = {
-	name = "0",
+	name = "全弹发射-逸仙I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130878,7 +133277,7 @@ _G.pg.base.equip_data_statistics[74121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130914,8 +133313,9 @@ _G.pg.base.equip_data_statistics[74121] = {
 
 
 _G.pg.base.equip_data_statistics[74122] = {
-	id = 74122,
+	name = "全弹发射-逸仙II",
 	base = 74121,
+	id = 74122,
 	weapon_id = {
 		74122
 	},
@@ -130924,7 +133324,7 @@ _G.pg.base.equip_data_statistics[74122] = {
 
 
 _G.pg.base.equip_data_statistics[74131] = {
-	name = "0",
+	name = "全弹发射-肇和级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130932,7 +133332,7 @@ _G.pg.base.equip_data_statistics[74131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -130968,8 +133368,9 @@ _G.pg.base.equip_data_statistics[74131] = {
 
 
 _G.pg.base.equip_data_statistics[74132] = {
-	id = 74132,
+	name = "全弹发射-肇和级II",
 	base = 74131,
+	id = 74132,
 	weapon_id = {
 		74132
 	},
@@ -130978,7 +133379,7 @@ _G.pg.base.equip_data_statistics[74132] = {
 
 
 _G.pg.base.equip_data_statistics[74141] = {
-	name = "0",
+	name = "全弹发射-海天级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -130986,7 +133387,7 @@ _G.pg.base.equip_data_statistics[74141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131022,8 +133423,9 @@ _G.pg.base.equip_data_statistics[74141] = {
 
 
 _G.pg.base.equip_data_statistics[74142] = {
-	id = 74142,
+	name = "全弹发射-海天级II",
 	base = 74141,
+	id = 74142,
 	weapon_id = {
 		74142
 	},
@@ -131032,7 +133434,7 @@ _G.pg.base.equip_data_statistics[74142] = {
 
 
 _G.pg.base.equip_data_statistics[74151] = {
-	name = "0",
+	name = "全弹发射-济安I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -131040,7 +133442,7 @@ _G.pg.base.equip_data_statistics[74151] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131150,7 +133552,7 @@ _G.pg.base.equip_data_statistics[75011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131205,7 +133607,7 @@ _G.pg.base.equip_data_statistics[75021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131260,7 +133662,7 @@ _G.pg.base.equip_data_statistics[75031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131315,7 +133717,7 @@ _G.pg.base.equip_data_statistics[75041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131425,7 +133827,7 @@ _G.pg.base.equip_data_statistics[75211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131480,7 +133882,7 @@ _G.pg.base.equip_data_statistics[75221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131535,7 +133937,7 @@ _G.pg.base.equip_data_statistics[75231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131590,7 +133992,7 @@ _G.pg.base.equip_data_statistics[75511] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131645,7 +134047,7 @@ _G.pg.base.equip_data_statistics[76011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131700,7 +134102,7 @@ _G.pg.base.equip_data_statistics[76021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131755,7 +134157,7 @@ _G.pg.base.equip_data_statistics[76031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131810,7 +134212,7 @@ _G.pg.base.equip_data_statistics[76111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131857,7 +134259,7 @@ _G.pg.base.equip_data_statistics[76112] = {
 
 
 _G.pg.base.equip_data_statistics[78011] = {
-	name = "0",
+	name = "全弹发射-机敏级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -131865,7 +134267,7 @@ _G.pg.base.equip_data_statistics[78011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131901,8 +134303,9 @@ _G.pg.base.equip_data_statistics[78011] = {
 
 
 _G.pg.base.equip_data_statistics[78012] = {
-	id = 78012,
+	name = "全弹发射-机敏级II",
 	base = 78011,
+	id = 78012,
 	weapon_id = {
 		78012
 	},
@@ -131911,7 +134314,7 @@ _G.pg.base.equip_data_statistics[78012] = {
 
 
 _G.pg.base.equip_data_statistics[78021] = {
-	name = "0",
+	name = "全弹发射-大胆级I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -131919,7 +134322,7 @@ _G.pg.base.equip_data_statistics[78021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -131955,8 +134358,9 @@ _G.pg.base.equip_data_statistics[78021] = {
 
 
 _G.pg.base.equip_data_statistics[78022] = {
-	id = 78022,
+	name = "全弹发射-大胆级II",
 	base = 78021,
+	id = 78022,
 	weapon_id = {
 		78022
 	},
@@ -131973,7 +134377,7 @@ _G.pg.base.equip_data_statistics[78031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132075,7 +134479,7 @@ _G.pg.base.equip_data_statistics[78102] = {
 
 
 _G.pg.base.equip_data_statistics[78111] = {
-	name = "0",
+	name = "全弹发射-埃米尔·贝尔汀I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132083,7 +134487,7 @@ _G.pg.base.equip_data_statistics[78111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132119,8 +134523,9 @@ _G.pg.base.equip_data_statistics[78111] = {
 
 
 _G.pg.base.equip_data_statistics[78112] = {
-	id = 78112,
+	name = "全弹发射-埃米尔·贝尔汀II",
 	base = 78111,
+	id = 78112,
 	weapon_id = {
 		78112
 	},
@@ -132129,7 +134534,7 @@ _G.pg.base.equip_data_statistics[78112] = {
 
 
 _G.pg.base.equip_data_statistics[78121] = {
-	name = "0",
+	name = "全弹发射-拉·加利索尼埃I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132137,7 +134542,7 @@ _G.pg.base.equip_data_statistics[78121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132173,7 +134578,7 @@ _G.pg.base.equip_data_statistics[78121] = {
 
 
 _G.pg.base.equip_data_statistics[78122] = {
-	name = "0",
+	name = "全弹发射-拉·加利索尼埃II",
 	base = 78121,
 	id = 78122,
 	weapon_id = {
@@ -132184,7 +134589,7 @@ _G.pg.base.equip_data_statistics[78122] = {
 
 
 _G.pg.base.equip_data_statistics[78211] = {
-	name = "0",
+	name = "全弹发射-阿尔及利亚I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132192,7 +134597,7 @@ _G.pg.base.equip_data_statistics[78211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132228,7 +134633,7 @@ _G.pg.base.equip_data_statistics[78211] = {
 
 
 _G.pg.base.equip_data_statistics[78212] = {
-	name = "0",
+	name = "全弹发射-阿尔及利亚II",
 	base = 78211,
 	id = 78212,
 	weapon_id = {
@@ -132247,7 +134652,7 @@ _G.pg.base.equip_data_statistics[78221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132294,7 +134699,7 @@ _G.pg.base.equip_data_statistics[78222] = {
 
 
 _G.pg.base.equip_data_statistics[79011] = {
-	name = "0",
+	name = "专属弹幕-英格兰I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132302,7 +134707,7 @@ _G.pg.base.equip_data_statistics[79011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132338,8 +134743,9 @@ _G.pg.base.equip_data_statistics[79011] = {
 
 
 _G.pg.base.equip_data_statistics[79012] = {
-	id = 79012,
+	name = "专属弹幕-英格兰II",
 	base = 79011,
+	id = 79012,
 	weapon_id = {
 		79012
 	},
@@ -132348,7 +134754,7 @@ _G.pg.base.equip_data_statistics[79012] = {
 
 
 _G.pg.base.equip_data_statistics[79021] = {
-	name = "0",
+	name = "专属弹幕-埃尔德里奇I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132356,7 +134762,7 @@ _G.pg.base.equip_data_statistics[79021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132392,8 +134798,9 @@ _G.pg.base.equip_data_statistics[79021] = {
 
 
 _G.pg.base.equip_data_statistics[79022] = {
-	id = 79022,
+	name = "专属弹幕-埃尔德里奇II",
 	base = 79021,
+	id = 79022,
 	weapon_id = {
 		79022
 	},
@@ -132402,7 +134809,7 @@ _G.pg.base.equip_data_statistics[79022] = {
 
 
 _G.pg.base.equip_data_statistics[79031] = {
-	name = "0",
+	name = "专属弹幕-威廉·D·波特I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132410,7 +134817,7 @@ _G.pg.base.equip_data_statistics[79031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132446,8 +134853,9 @@ _G.pg.base.equip_data_statistics[79031] = {
 
 
 _G.pg.base.equip_data_statistics[79032] = {
-	id = 79032,
+	name = "专属弹幕-威廉·D·波特II",
 	base = 79031,
+	id = 79032,
 	weapon_id = {
 		79032
 	},
@@ -132456,7 +134864,7 @@ _G.pg.base.equip_data_statistics[79032] = {
 
 
 _G.pg.base.equip_data_statistics[79041] = {
-	name = "0",
+	name = "专属弹幕-约翰斯顿I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132464,7 +134872,7 @@ _G.pg.base.equip_data_statistics[79041] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132500,8 +134908,9 @@ _G.pg.base.equip_data_statistics[79041] = {
 
 
 _G.pg.base.equip_data_statistics[79042] = {
-	id = 79042,
+	name = "专属弹幕-约翰斯顿II",
 	base = 79041,
+	id = 79042,
 	weapon_id = {
 		79042
 	},
@@ -132510,7 +134919,7 @@ _G.pg.base.equip_data_statistics[79042] = {
 
 
 _G.pg.base.equip_data_statistics[79051] = {
-	name = "0",
+	name = "专属弹幕-拉菲I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132518,7 +134927,7 @@ _G.pg.base.equip_data_statistics[79051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132554,8 +134963,9 @@ _G.pg.base.equip_data_statistics[79051] = {
 
 
 _G.pg.base.equip_data_statistics[79052] = {
-	id = 79052,
+	name = "专属弹幕-拉菲II",
 	base = 79051,
+	id = 79052,
 	weapon_id = {
 		79052
 	},
@@ -132564,7 +134974,7 @@ _G.pg.base.equip_data_statistics[79052] = {
 
 
 _G.pg.base.equip_data_statistics[79061] = {
-	name = "0",
+	name = "专属弹幕-萤火虫I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132572,7 +134982,7 @@ _G.pg.base.equip_data_statistics[79061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132608,8 +135018,9 @@ _G.pg.base.equip_data_statistics[79061] = {
 
 
 _G.pg.base.equip_data_statistics[79062] = {
-	id = 79062,
+	name = "专属弹幕-萤火虫II",
 	base = 79061,
+	id = 79062,
 	weapon_id = {
 		79062
 	},
@@ -132618,7 +135029,7 @@ _G.pg.base.equip_data_statistics[79062] = {
 
 
 _G.pg.base.equip_data_statistics[79071] = {
-	name = "0",
+	name = "专属弹幕-勇敢I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132626,7 +135037,7 @@ _G.pg.base.equip_data_statistics[79071] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132662,8 +135073,9 @@ _G.pg.base.equip_data_statistics[79071] = {
 
 
 _G.pg.base.equip_data_statistics[79072] = {
-	id = 79072,
+	name = "专属弹幕-勇敢II",
 	base = 79071,
+	id = 79072,
 	weapon_id = {
 		79072
 	},
@@ -132672,7 +135084,7 @@ _G.pg.base.equip_data_statistics[79072] = {
 
 
 _G.pg.base.equip_data_statistics[79081] = {
-	name = "0",
+	name = "专属弹幕-标枪I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132680,7 +135092,7 @@ _G.pg.base.equip_data_statistics[79081] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132716,8 +135128,9 @@ _G.pg.base.equip_data_statistics[79081] = {
 
 
 _G.pg.base.equip_data_statistics[79082] = {
-	id = 79082,
+	name = "专属弹幕-标枪II",
 	base = 79081,
+	id = 79082,
 	weapon_id = {
 		79082
 	},
@@ -132726,7 +135139,7 @@ _G.pg.base.equip_data_statistics[79082] = {
 
 
 _G.pg.base.equip_data_statistics[79091] = {
-	name = "0",
+	name = "专属弹幕-吸血鬼I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132734,7 +135147,7 @@ _G.pg.base.equip_data_statistics[79091] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132770,8 +135183,9 @@ _G.pg.base.equip_data_statistics[79091] = {
 
 
 _G.pg.base.equip_data_statistics[79092] = {
-	id = 79092,
+	name = "专属弹幕-吸血鬼II",
 	base = 79091,
+	id = 79092,
 	weapon_id = {
 		79092
 	},
@@ -132780,7 +135194,7 @@ _G.pg.base.equip_data_statistics[79092] = {
 
 
 _G.pg.base.equip_data_statistics[79101] = {
-	name = "0",
+	name = "专属弹幕-贝尔法斯特I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132788,7 +135202,7 @@ _G.pg.base.equip_data_statistics[79101] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132824,8 +135238,9 @@ _G.pg.base.equip_data_statistics[79101] = {
 
 
 _G.pg.base.equip_data_statistics[79102] = {
-	id = 79102,
+	name = "专属弹幕-贝尔法斯特II",
 	base = 79101,
+	id = 79102,
 	weapon_id = {
 		79102
 	},
@@ -132834,7 +135249,7 @@ _G.pg.base.equip_data_statistics[79102] = {
 
 
 _G.pg.base.equip_data_statistics[79111] = {
-	name = "0",
+	name = "专属弹幕-绫波I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132842,7 +135257,7 @@ _G.pg.base.equip_data_statistics[79111] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132878,8 +135293,9 @@ _G.pg.base.equip_data_statistics[79111] = {
 
 
 _G.pg.base.equip_data_statistics[79112] = {
-	id = 79112,
+	name = "专属弹幕-绫波II",
 	base = 79111,
+	id = 79112,
 	weapon_id = {
 		79112
 	},
@@ -132888,7 +135304,7 @@ _G.pg.base.equip_data_statistics[79112] = {
 
 
 _G.pg.base.equip_data_statistics[79121] = {
-	name = "0",
+	name = "专属弹幕-夕立I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132896,7 +135312,7 @@ _G.pg.base.equip_data_statistics[79121] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132932,8 +135348,9 @@ _G.pg.base.equip_data_statistics[79121] = {
 
 
 _G.pg.base.equip_data_statistics[79122] = {
-	id = 79122,
+	name = "专属弹幕-夕立II",
 	base = 79121,
+	id = 79122,
 	weapon_id = {
 		79122
 	},
@@ -132942,7 +135359,7 @@ _G.pg.base.equip_data_statistics[79122] = {
 
 
 _G.pg.base.equip_data_statistics[79131] = {
-	name = "0",
+	name = "专属弹幕-雪风I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132950,7 +135367,7 @@ _G.pg.base.equip_data_statistics[79131] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132986,8 +135403,9 @@ _G.pg.base.equip_data_statistics[79131] = {
 
 
 _G.pg.base.equip_data_statistics[79132] = {
-	id = 79132,
+	name = "专属弹幕-雪风II",
 	base = 79131,
+	id = 79132,
 	weapon_id = {
 		79132
 	},
@@ -132996,7 +135414,7 @@ _G.pg.base.equip_data_statistics[79132] = {
 
 
 _G.pg.base.equip_data_statistics[79141] = {
-	name = "0",
+	name = "专属弹幕-岛风I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133004,7 +135422,7 @@ _G.pg.base.equip_data_statistics[79141] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133040,8 +135458,9 @@ _G.pg.base.equip_data_statistics[79141] = {
 
 
 _G.pg.base.equip_data_statistics[79142] = {
-	id = 79142,
+	name = "专属弹幕-岛风II",
 	base = 79141,
+	id = 79142,
 	weapon_id = {
 		79142
 	},
@@ -133050,7 +135469,7 @@ _G.pg.base.equip_data_statistics[79142] = {
 
 
 _G.pg.base.equip_data_statistics[79151] = {
-	name = "0",
+	name = "专属弹幕-北上I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133058,7 +135477,7 @@ _G.pg.base.equip_data_statistics[79151] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133094,8 +135513,9 @@ _G.pg.base.equip_data_statistics[79151] = {
 
 
 _G.pg.base.equip_data_statistics[79152] = {
-	id = 79152,
+	name = "专属弹幕-北上II",
 	base = 79151,
+	id = 79152,
 	weapon_id = {
 		79152
 	},
@@ -133104,7 +135524,7 @@ _G.pg.base.equip_data_statistics[79152] = {
 
 
 _G.pg.base.equip_data_statistics[79161] = {
-	name = "0",
+	name = "专属弹幕-大井I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133112,7 +135532,7 @@ _G.pg.base.equip_data_statistics[79161] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133148,8 +135568,9 @@ _G.pg.base.equip_data_statistics[79161] = {
 
 
 _G.pg.base.equip_data_statistics[79162] = {
-	id = 79162,
+	name = "专属弹幕-大井II",
 	base = 79161,
+	id = 79162,
 	weapon_id = {
 		79162
 	},
@@ -133158,7 +135579,7 @@ _G.pg.base.equip_data_statistics[79162] = {
 
 
 _G.pg.base.equip_data_statistics[79171] = {
-	name = "0",
+	name = "专属弹幕-Z1I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133166,7 +135587,7 @@ _G.pg.base.equip_data_statistics[79171] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133202,8 +135623,9 @@ _G.pg.base.equip_data_statistics[79171] = {
 
 
 _G.pg.base.equip_data_statistics[79172] = {
-	id = 79172,
+	name = "专属弹幕-Z1II",
 	base = 79171,
+	id = 79172,
 	weapon_id = {
 		79172
 	},
@@ -133212,7 +135634,7 @@ _G.pg.base.equip_data_statistics[79172] = {
 
 
 _G.pg.base.equip_data_statistics[79181] = {
-	name = "0",
+	name = "专属弹幕-鞍山I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133220,7 +135642,7 @@ _G.pg.base.equip_data_statistics[79181] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133256,8 +135678,9 @@ _G.pg.base.equip_data_statistics[79181] = {
 
 
 _G.pg.base.equip_data_statistics[79182] = {
-	id = 79182,
+	name = "专属弹幕-鞍山II",
 	base = 79181,
+	id = 79182,
 	weapon_id = {
 		79182
 	},
@@ -133266,7 +135689,7 @@ _G.pg.base.equip_data_statistics[79182] = {
 
 
 _G.pg.base.equip_data_statistics[79191] = {
-	name = "0",
+	name = "专属弹幕-阿芙乐尔I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133274,7 +135697,7 @@ _G.pg.base.equip_data_statistics[79191] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133310,8 +135733,9 @@ _G.pg.base.equip_data_statistics[79191] = {
 
 
 _G.pg.base.equip_data_statistics[79192] = {
-	id = 79192,
+	name = "专属弹幕-阿芙乐尔II",
 	base = 79191,
+	id = 79192,
 	weapon_id = {
 		79192
 	},
@@ -133320,7 +135744,7 @@ _G.pg.base.equip_data_statistics[79192] = {
 
 
 _G.pg.base.equip_data_statistics[79201] = {
-	name = "0",
+	name = "专属弹幕-Z23I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133328,7 +135752,7 @@ _G.pg.base.equip_data_statistics[79201] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133364,8 +135788,9 @@ _G.pg.base.equip_data_statistics[79201] = {
 
 
 _G.pg.base.equip_data_statistics[79202] = {
-	id = 79202,
+	name = "专属弹幕-Z23II",
 	base = 79201,
+	id = 79202,
 	weapon_id = {
 		79202
 	},
@@ -133374,7 +135799,7 @@ _G.pg.base.equip_data_statistics[79202] = {
 
 
 _G.pg.base.equip_data_statistics[79211] = {
-	name = "0",
+	name = "专属弹幕-Z46I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133382,7 +135807,7 @@ _G.pg.base.equip_data_statistics[79211] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133418,8 +135843,9 @@ _G.pg.base.equip_data_statistics[79211] = {
 
 
 _G.pg.base.equip_data_statistics[79212] = {
-	id = 79212,
+	name = "专属弹幕-Z46II",
 	base = 79211,
+	id = 79212,
 	weapon_id = {
 		79212
 	},
@@ -133428,7 +135854,7 @@ _G.pg.base.equip_data_statistics[79212] = {
 
 
 _G.pg.base.equip_data_statistics[79221] = {
-	name = "0",
+	name = "专属弹幕-伊吹I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133436,7 +135862,7 @@ _G.pg.base.equip_data_statistics[79221] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133472,8 +135898,9 @@ _G.pg.base.equip_data_statistics[79221] = {
 
 
 _G.pg.base.equip_data_statistics[79222] = {
-	id = 79222,
+	name = "专属弹幕-伊吹II",
 	base = 79221,
+	id = 79222,
 	weapon_id = {
 		79222
 	},
@@ -133482,7 +135909,7 @@ _G.pg.base.equip_data_statistics[79222] = {
 
 
 _G.pg.base.equip_data_statistics[79231] = {
-	name = "0",
+	name = "专属弹幕-海王星I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133490,7 +135917,7 @@ _G.pg.base.equip_data_statistics[79231] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133526,8 +135953,9 @@ _G.pg.base.equip_data_statistics[79231] = {
 
 
 _G.pg.base.equip_data_statistics[79232] = {
-	id = 79232,
+	name = "专属弹幕-海王星II",
 	base = 79231,
+	id = 79232,
 	weapon_id = {
 		79232
 	},
@@ -133536,7 +135964,7 @@ _G.pg.base.equip_data_statistics[79232] = {
 
 
 _G.pg.base.equip_data_statistics[79241] = {
-	name = "0",
+	name = "专属弹幕-罗恩I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133544,7 +135972,7 @@ _G.pg.base.equip_data_statistics[79241] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133580,8 +136008,9 @@ _G.pg.base.equip_data_statistics[79241] = {
 
 
 _G.pg.base.equip_data_statistics[79242] = {
-	id = 79242,
+	name = "专属弹幕-罗恩II",
 	base = 79241,
+	id = 79242,
 	weapon_id = {
 		79242
 	},
@@ -133590,7 +136019,7 @@ _G.pg.base.equip_data_statistics[79242] = {
 
 
 _G.pg.base.equip_data_statistics[79251] = {
-	name = "0",
+	name = "专属弹幕-路易九世I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133598,7 +136027,7 @@ _G.pg.base.equip_data_statistics[79251] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133634,8 +136063,9 @@ _G.pg.base.equip_data_statistics[79251] = {
 
 
 _G.pg.base.equip_data_statistics[79252] = {
-	id = 79252,
+	name = "专属弹幕-路易九世II",
 	base = 79251,
+	id = 79252,
 	weapon_id = {
 		79252
 	},
@@ -133644,7 +136074,7 @@ _G.pg.base.equip_data_statistics[79252] = {
 
 
 _G.pg.base.equip_data_statistics[79261] = {
-	name = "0",
+	name = "专属弹幕-I19I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133652,7 +136082,7 @@ _G.pg.base.equip_data_statistics[79261] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133688,8 +136118,9 @@ _G.pg.base.equip_data_statistics[79261] = {
 
 
 _G.pg.base.equip_data_statistics[79262] = {
-	id = 79262,
+	name = "专属弹幕-I19II",
 	base = 79261,
+	id = 79262,
 	weapon_id = {
 		79262
 	},
@@ -133698,7 +136129,7 @@ _G.pg.base.equip_data_statistics[79262] = {
 
 
 _G.pg.base.equip_data_statistics[79271] = {
-	name = "0",
+	name = "专属弹幕-U81I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133706,7 +136137,7 @@ _G.pg.base.equip_data_statistics[79271] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133742,8 +136173,9 @@ _G.pg.base.equip_data_statistics[79271] = {
 
 
 _G.pg.base.equip_data_statistics[79272] = {
-	id = 79272,
+	name = "专属弹幕-U81II",
 	base = 79271,
+	id = 79272,
 	weapon_id = {
 		79272
 	},
@@ -133751,8 +136183,8 @@ _G.pg.base.equip_data_statistics[79272] = {
 }
 
 
-_G.pg.base.equip_data_statistics[79311] = {
-	name = "0",
+_G.pg.base.equip_data_statistics[79291] = {
+	name = "专属弹幕-22I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133760,7 +136192,117 @@ _G.pg.base.equip_data_statistics[79311] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 79291,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79291
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[79292] = {
+	name = "专属弹幕-22II",
+	base = 79291,
+	id = 79292,
+	weapon_id = {
+		79292
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[79301] = {
+	name = "专属弹幕-33I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 79301,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		79301
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[79302] = {
+	name = "专属弹幕-33II",
+	base = 79301,
+	id = 79302,
+	weapon_id = {
+		79302
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[79311] = {
+	name = "专属弹幕-U47I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133796,8 +136338,9 @@ _G.pg.base.equip_data_statistics[79311] = {
 
 
 _G.pg.base.equip_data_statistics[79312] = {
-	id = 79312,
+	name = "专属弹幕-U47II",
 	base = 79311,
+	id = 79312,
 	weapon_id = {
 		79312
 	},
@@ -133806,7 +136349,7 @@ _G.pg.base.equip_data_statistics[79312] = {
 
 
 _G.pg.base.equip_data_statistics[79321] = {
-	name = "0",
+	name = "专属弹幕-絮库夫I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133814,7 +136357,7 @@ _G.pg.base.equip_data_statistics[79321] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133850,8 +136393,9 @@ _G.pg.base.equip_data_statistics[79321] = {
 
 
 _G.pg.base.equip_data_statistics[79322] = {
-	id = 79322,
+	name = "专属弹幕-絮库夫II",
 	base = 79321,
+	id = 79322,
 	weapon_id = {
 		79322
 	},
@@ -133860,7 +136404,7 @@ _G.pg.base.equip_data_statistics[79322] = {
 
 
 _G.pg.base.equip_data_statistics[79331] = {
-	name = "0",
+	name = "专属弹幕-凯旋I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133868,7 +136412,7 @@ _G.pg.base.equip_data_statistics[79331] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133904,8 +136448,9 @@ _G.pg.base.equip_data_statistics[79331] = {
 
 
 _G.pg.base.equip_data_statistics[79332] = {
-	id = 79332,
+	name = "专属弹幕-凯旋II",
 	base = 79321,
+	id = 79332,
 	weapon_id = {
 		60304
 	},
@@ -133914,7 +136459,7 @@ _G.pg.base.equip_data_statistics[79332] = {
 
 
 _G.pg.base.equip_data_statistics[79341] = {
-	name = "0",
+	name = "专属弹幕-大青花鱼I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -133922,7 +136467,7 @@ _G.pg.base.equip_data_statistics[79341] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -133958,8 +136503,9 @@ _G.pg.base.equip_data_statistics[79341] = {
 
 
 _G.pg.base.equip_data_statistics[79342] = {
-	id = 79342,
+	name = "专属弹幕-大青花鱼II",
 	base = 79341,
+	id = 79342,
 	weapon_id = {
 		79342
 	},
@@ -133976,7 +136522,7 @@ _G.pg.base.equip_data_statistics[79361] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134023,7 +136569,7 @@ _G.pg.base.equip_data_statistics[79362] = {
 
 
 _G.pg.base.equip_data_statistics[79371] = {
-	name = "0",
+	name = "专属弹幕-I13I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -134031,7 +136577,7 @@ _G.pg.base.equip_data_statistics[79371] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134067,8 +136613,9 @@ _G.pg.base.equip_data_statistics[79371] = {
 
 
 _G.pg.base.equip_data_statistics[79372] = {
-	id = 79372,
+	name = "专属弹幕-I13II",
 	base = 79371,
+	id = 79372,
 	weapon_id = {
 		79372
 	},
@@ -134085,7 +136632,7 @@ _G.pg.base.equip_data_statistics[79381] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134140,7 +136687,7 @@ _G.pg.base.equip_data_statistics[79383] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134195,7 +136742,7 @@ _G.pg.base.equip_data_statistics[79391] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134250,7 +136797,7 @@ _G.pg.base.equip_data_statistics[79401] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134305,7 +136852,7 @@ _G.pg.base.equip_data_statistics[79411] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134360,7 +136907,7 @@ _G.pg.base.equip_data_statistics[79421] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134415,7 +136962,7 @@ _G.pg.base.equip_data_statistics[79431] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134470,7 +137017,7 @@ _G.pg.base.equip_data_statistics[79441] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134525,7 +137072,7 @@ _G.pg.base.equip_data_statistics[79451] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134580,7 +137127,7 @@ _G.pg.base.equip_data_statistics[79461] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134635,7 +137182,7 @@ _G.pg.base.equip_data_statistics[79471] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134690,7 +137237,7 @@ _G.pg.base.equip_data_statistics[79481] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134745,7 +137292,7 @@ _G.pg.base.equip_data_statistics[79491] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134800,7 +137347,7 @@ _G.pg.base.equip_data_statistics[79501] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134855,7 +137402,7 @@ _G.pg.base.equip_data_statistics[79511] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134910,7 +137457,7 @@ _G.pg.base.equip_data_statistics[79521] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -134965,7 +137512,7 @@ _G.pg.base.equip_data_statistics[79541] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135019,7 +137566,7 @@ _G.pg.base.equip_data_statistics[79551] = {
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135073,7 +137620,7 @@ _G.pg.base.equip_data_statistics[79561] = {
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135127,7 +137674,7 @@ _G.pg.base.equip_data_statistics[79571] = {
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135182,7 +137729,7 @@ _G.pg.base.equip_data_statistics[79581] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135237,7 +137784,7 @@ _G.pg.base.equip_data_statistics[79591] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135291,7 +137838,7 @@ _G.pg.base.equip_data_statistics[79601] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135346,7 +137893,7 @@ _G.pg.base.equip_data_statistics[79611] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135401,7 +137948,7 @@ _G.pg.base.equip_data_statistics[79621] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135456,7 +138003,7 @@ _G.pg.base.equip_data_statistics[79631] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135511,7 +138058,7 @@ _G.pg.base.equip_data_statistics[79641] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135566,7 +138113,7 @@ _G.pg.base.equip_data_statistics[79651] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135621,7 +138168,7 @@ _G.pg.base.equip_data_statistics[79661] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135676,7 +138223,7 @@ _G.pg.base.equip_data_statistics[79671] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135730,7 +138277,7 @@ _G.pg.base.equip_data_statistics[79681] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135785,7 +138332,7 @@ _G.pg.base.equip_data_statistics[79691] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135840,7 +138387,7 @@ _G.pg.base.equip_data_statistics[79701] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135895,7 +138442,7 @@ _G.pg.base.equip_data_statistics[79711] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -135950,7 +138497,7 @@ _G.pg.base.equip_data_statistics[79721] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136005,7 +138552,7 @@ _G.pg.base.equip_data_statistics[79731] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136060,7 +138607,7 @@ _G.pg.base.equip_data_statistics[79741] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136115,7 +138662,7 @@ _G.pg.base.equip_data_statistics[79751] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136170,7 +138717,7 @@ _G.pg.base.equip_data_statistics[79761] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136225,7 +138772,7 @@ _G.pg.base.equip_data_statistics[79771] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136280,7 +138827,7 @@ _G.pg.base.equip_data_statistics[79781] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136335,7 +138882,7 @@ _G.pg.base.equip_data_statistics[79791] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136390,7 +138937,7 @@ _G.pg.base.equip_data_statistics[79801] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136445,7 +138992,7 @@ _G.pg.base.equip_data_statistics[79811] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136500,7 +139047,7 @@ _G.pg.base.equip_data_statistics[79821] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136555,7 +139102,7 @@ _G.pg.base.equip_data_statistics[79831] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136610,7 +139157,7 @@ _G.pg.base.equip_data_statistics[79841] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136665,7 +139212,7 @@ _G.pg.base.equip_data_statistics[79851] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136719,7 +139266,7 @@ _G.pg.base.equip_data_statistics[79861] = {
 	rarity = 1,
 	value_2 = 0,
 	icon = "1",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136774,7 +139321,7 @@ _G.pg.base.equip_data_statistics[79871] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136829,7 +139376,7 @@ _G.pg.base.equip_data_statistics[79881] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136884,7 +139431,7 @@ _G.pg.base.equip_data_statistics[79891] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136939,7 +139486,7 @@ _G.pg.base.equip_data_statistics[79893] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -136983,7 +139530,7 @@ _G.pg.base.equip_data_statistics[79901] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137038,7 +139585,7 @@ _G.pg.base.equip_data_statistics[79903] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137082,7 +139629,7 @@ _G.pg.base.equip_data_statistics[79911] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137137,7 +139684,7 @@ _G.pg.base.equip_data_statistics[79921] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137192,7 +139739,7 @@ _G.pg.base.equip_data_statistics[79931] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137247,7 +139794,7 @@ _G.pg.base.equip_data_statistics[79941] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137302,7 +139849,7 @@ _G.pg.base.equip_data_statistics[79951] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137357,7 +139904,7 @@ _G.pg.base.equip_data_statistics[79961] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137412,7 +139959,7 @@ _G.pg.base.equip_data_statistics[79971] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137467,7 +140014,7 @@ _G.pg.base.equip_data_statistics[79981] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137522,7 +140069,7 @@ _G.pg.base.equip_data_statistics[79991] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137577,7 +140124,7 @@ _G.pg.base.equip_data_statistics[80001] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137632,7 +140179,7 @@ _G.pg.base.equip_data_statistics[80011] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137687,7 +140234,7 @@ _G.pg.base.equip_data_statistics[80021] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137742,7 +140289,7 @@ _G.pg.base.equip_data_statistics[80031] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137797,7 +140344,7 @@ _G.pg.base.equip_data_statistics[80033] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "スキル弾幕",
+	descrip = "技能弹幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -137877,7 +140424,6 @@ _G.pg.base.equip_data_statistics[80041] = {
 
 
 _G.pg.base.equip_data_statistics[80042] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-吉尚II",
 	base = 80041,
 	id = 80042,
@@ -137933,7 +140479,6 @@ _G.pg.base.equip_data_statistics[80051] = {
 
 
 _G.pg.base.equip_data_statistics[80052] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-云仙II",
 	base = 80051,
 	id = 80052,
@@ -137989,7 +140534,6 @@ _G.pg.base.equip_data_statistics[80061] = {
 
 
 _G.pg.base.equip_data_statistics[80062] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-初月II",
 	base = 80061,
 	id = 80062,
@@ -138045,7 +140589,6 @@ _G.pg.base.equip_data_statistics[80071] = {
 
 
 _G.pg.base.equip_data_statistics[80072] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-金鹿号II",
 	base = 80071,
 	id = 80072,
@@ -138101,7 +140644,6 @@ _G.pg.base.equip_data_statistics[80073] = {
 
 
 _G.pg.base.equip_data_statistics[80074] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-加里冒险号II",
 	base = 80073,
 	id = 80074,
@@ -138157,7 +140699,6 @@ _G.pg.base.equip_data_statistics[80081] = {
 
 
 _G.pg.base.equip_data_statistics[80082] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-拉菲II",
 	base = 80081,
 	id = 80082,
@@ -138213,7 +140754,6 @@ _G.pg.base.equip_data_statistics[80091] = {
 
 
 _G.pg.base.equip_data_statistics[80092] = {
-	descrip = "スキル弾幕",
 	name = "专属弹幕-松鲷II",
 	base = 80091,
 	id = 80092,
@@ -140194,14 +142734,14 @@ _G.pg.base.equip_data_statistics[80532] = {
 
 
 _G.pg.base.equip_data_statistics[85000] = {
-	name = "B-13 130mm連装砲B-2LM",
+	name = "B-13 双联装130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 12,
 	icon = "85000",
 	attribute_2 = "cannon",
-	descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
+	descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
 	rarity = 3,
 	damage = "3 x 6",
 	nationality = 7,
@@ -140330,14 +142870,14 @@ _G.pg.base.equip_data_statistics[85006] = {
 
 
 _G.pg.base.equip_data_statistics[85040] = {
-	name = "B-13 130mm連装砲B-2LM",
+	name = "B-13 双联装130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 35,
 	icon = "85000",
 	attribute_2 = "cannon",
-	descrip = "北方連合製130mm連装砲。優秀な対艦性能を誇る ",
+	descrip = "北方联合开发的双联装130mm舰炮，拥有出色的对海性能",
 	rarity = 5,
 	damage = "6 x 6",
 	nationality = 7,
@@ -140546,14 +143086,14 @@ _G.pg.base.equip_data_statistics[85053] = {
 
 
 _G.pg.base.equip_data_statistics[85060] = {
-	name = "100mm連装対空砲SM-5-1s",
+	name = "100mm双联装防空炮SM-5-1s",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "85060",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "35<[WAVE]>",
 	nationality = 7,
@@ -140681,14 +143221,14 @@ _G.pg.base.equip_data_statistics[85066] = {
 
 
 _G.pg.base.equip_data_statistics[85120] = {
-	name = "152mm三連装砲B-38 MK5",
+	name = "B-38 三联装152mm主炮Mk5",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 12,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方連合が開発した、チャパエフ級軽巡用の152mm三連装砲",
+	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
 	rarity = 3,
 	damage = "7 x 6",
 	nationality = 7,
@@ -140808,14 +143348,14 @@ _G.pg.base.equip_data_statistics[85126] = {
 
 
 _G.pg.base.equip_data_statistics[85140] = {
-	name = "152mm三連装砲B-38 MK5",
+	name = "B-38 三联装152mm主炮Mk5",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 25,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方連合が開発した、チャパエフ級軽巡用の152mm三連装砲",
+	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
 	rarity = 4,
 	damage = "9 x 6",
 	nationality = 7,
@@ -140980,14 +143520,14 @@ _G.pg.base.equip_data_statistics[85150] = {
 
 
 _G.pg.base.equip_data_statistics[85160] = {
-	name = "152mm三連装砲B-38 MK5",
+	name = "B-38 三联装152mm主炮Mk5",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 45,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方連合が開発した、チャパエフ級軽巡用の152mm三連装砲",
+	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
 	rarity = 5,
 	damage = "10 x 6",
 	nationality = 7,
@@ -141188,14 +143728,14 @@ _G.pg.base.equip_data_statistics[85173] = {
 
 
 _G.pg.base.equip_data_statistics[85180] = {
-	name = "37mm対空機関砲70-K",
+	name = "37mm防空炮70-K",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "85180",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "9<[WAVE]>",
 	nationality = 7,
@@ -141290,14 +143830,14 @@ _G.pg.base.equip_data_statistics[85183] = {
 
 
 _G.pg.base.equip_data_statistics[85200] = {
-	name = "37mm対空機関砲70-K",
+	name = "37mm防空炮70-K",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "85180",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "11<[WAVE]>",
 	nationality = 7,
@@ -141425,14 +143965,14 @@ _G.pg.base.equip_data_statistics[85206] = {
 
 
 _G.pg.base.equip_data_statistics[85220] = {
-	name = "37mm対空機関砲70-K",
+	name = "37mm防空炮70-K",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "85180",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "14<[WAVE]>",
 	nationality = 7,
@@ -141616,14 +144156,14 @@ _G.pg.base.equip_data_statistics[85231] = {
 
 
 _G.pg.base.equip_data_statistics[85260] = {
-	name = "100mm連装高角砲B-54",
+	name = "B-54 100mm双联装防空炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "85240",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "36<[WAVE]>",
 	nationality = 7,
@@ -141751,14 +144291,14 @@ _G.pg.base.equip_data_statistics[85266] = {
 
 
 _G.pg.base.equip_data_statistics[85280] = {
-	name = "100mm連装高角砲B-54",
+	name = "B-54 100mm双联装防空炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "85240",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "43<[WAVE]>",
 	nationality = 7,
@@ -141942,14 +144482,14 @@ _G.pg.base.equip_data_statistics[85291] = {
 
 
 _G.pg.base.equip_data_statistics[85300] = {
-	name = "406mm三連装砲B-37 MK-1",
+	name = "B-37 三联装406mm主炮Mk-1",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "85300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "50 x 3",
 	nationality = 7,
@@ -142063,14 +144603,14 @@ _G.pg.base.equip_data_statistics[85306] = {
 
 
 _G.pg.base.equip_data_statistics[85320] = {
-	name = "406mm三連装砲B-37 MK-1",
+	name = "B-37 三联装406mm主炮Mk-1",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "85300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "56 x 3",
 	nationality = 7,
@@ -142228,14 +144768,14 @@ _G.pg.base.equip_data_statistics[85330] = {
 
 
 _G.pg.base.equip_data_statistics[85340] = {
-	name = "406mm三連装砲B-37 MK-1",
+	name = "B-37 三联装406mm主炮Mk-1",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "85300",
 	attribute_2 = "cannon",
-	descrip = "「ソビエツキー・ソユーズ」型戦艦に装備される406mm三連装主砲",
+	descrip = "{namecode:529}级战列舰使用的三联装406mm主炮",
 	rarity = 5,
 	damage = "72 x 3",
 	nationality = 7,
@@ -142430,14 +144970,14 @@ _G.pg.base.equip_data_statistics[85353] = {
 
 
 _G.pg.base.equip_data_statistics[85360] = {
-	name = "100mm連装両用砲B-34 MZ-14",
+	name = "B-34 100mm双联装防空炮MZ-14",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "85360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "14<[WAVE]>",
 	nationality = 7,
@@ -142532,14 +145072,14 @@ _G.pg.base.equip_data_statistics[85363] = {
 
 
 _G.pg.base.equip_data_statistics[85380] = {
-	name = "100mm連装両用砲B-34 MZ-14",
+	name = "B-34 100mm双联装防空炮MZ-14",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "85360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "33<[WAVE]>",
 	nationality = 7,
@@ -142667,14 +145207,14 @@ _G.pg.base.equip_data_statistics[85386] = {
 
 
 _G.pg.base.equip_data_statistics[85400] = {
-	name = "100mm連装両用砲B-34 MZ-14",
+	name = "B-34 100mm双联装防空炮MZ-14",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "85360",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "38<[WAVE]>",
 	nationality = 7,
@@ -142858,14 +145398,14 @@ _G.pg.base.equip_data_statistics[85411] = {
 
 
 _G.pg.base.equip_data_statistics[85420] = {
-	name = "305mm三連装砲Model1907",
+	name = "三联装305mm主炮Model1907",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 12,
 	icon = "85420",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "54 x 3",
 	nationality = 7,
@@ -142991,14 +145531,14 @@ _G.pg.base.equip_data_statistics[85427] = {
 
 
 _G.pg.base.equip_data_statistics[85440] = {
-	name = "152mm連装砲Model1892",
+	name = "双联装152mm主炮Model1892",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 12,
 	icon = "85440",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "11 x 4",
 	nationality = 7,
@@ -143130,14 +145670,14 @@ _G.pg.base.equip_data_statistics[85447] = {
 
 
 _G.pg.base.equip_data_statistics[85460] = {
-	name = "180mm三連装砲B-1-P Model1932",
+	name = "B-1-P 三联装180mm主炮Model1932",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 12,
 	icon = "85460",
 	attribute_2 = "cannon",
-	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+	descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
 	rarity = 3,
 	damage = "21 x 3",
 	nationality = 7,
@@ -143258,14 +145798,14 @@ _G.pg.base.equip_data_statistics[85466] = {
 
 
 _G.pg.base.equip_data_statistics[85480] = {
-	name = "180mm三連装砲B-1-P Model1932",
+	name = "B-1-P 三联装180mm主炮Model1932",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 2,
 	value_2 = 25,
 	icon = "85460",
 	attribute_2 = "cannon",
-	descrip = "優秀な射程を持つ北方連合開発の三連装主砲。",
+	descrip = "北方联合开发的180mm三联装舰炮，拥有相当优秀的射程",
 	rarity = 4,
 	damage = "23 x 3",
 	nationality = 7,
@@ -143430,14 +145970,14 @@ _G.pg.base.equip_data_statistics[85490] = {
 
 
 _G.pg.base.equip_data_statistics[85520] = {
-	name = "B-50 305mm三連装砲Mk-15",
+	name = "B-50 三联装305mm主炮Mk-15",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
 	value_2 = 45,
 	icon = "85520",
 	attribute_2 = "cannon",
-	descrip = "クロンシュタット級巡洋艦が搭載予定の305mm主砲",
+	descrip = "预计由喀琅施塔得级搭载的305mm主炮",
 	rarity = 5,
 	damage = "60 x 3",
 	nationality = 7,
@@ -143629,7 +146169,7 @@ _G.pg.base.equip_data_statistics[85533] = {
 
 
 _G.pg.base.equip_data_statistics[85540] = {
-	name = "試作型艦上式Su-2",
+	name = "试作舰载型Su-2",
 	type = 9,
 	speciality = "<[BOMB]>",
 	rarity = 5,
@@ -143891,7 +146431,7 @@ _G.pg.base.equip_data_statistics[85553] = {
 
 
 _G.pg.base.equip_data_statistics[85560] = {
-	name = "試作型VIT-2(VK107)",
+	name = "试作型VIT-2 (VK-107)",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -144153,14 +146693,14 @@ _G.pg.base.equip_data_statistics[85573] = {
 
 
 _G.pg.base.equip_data_statistics[85580] = {
-	name = "試作型240mm三連装砲",
+	name = "试作型三联装240mm主炮",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
 	value_2 = 45,
 	icon = "85580",
 	attribute_2 = "cannon",
-	descrip = "ProjectXの重巡洋艦に搭載予定の試作型240mm主砲",
+	descrip = "Project X重巡洋舰预计搭载的试作型240mm口径主炮",
 	rarity = 5,
 	damage = "35 x 6",
 	nationality = 7,
@@ -144361,7 +146901,7 @@ _G.pg.base.equip_data_statistics[85593] = {
 
 
 _G.pg.base.equip_data_statistics[85600] = {
-	name = "試作型艦上式La-9",
+	name = "试作舰载型La-9",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 6,
@@ -144680,7 +147220,7 @@ _G.pg.base.equip_data_statistics[85613] = {
 
 
 _G.pg.base.equip_data_statistics[85620] = {
-	name = "試作型VIT-2（モードチェンジ）",
+	name = "试作型VIT-2（模式调整）",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -144942,7 +147482,7 @@ _G.pg.base.equip_data_statistics[85633] = {
 
 
 _G.pg.base.equip_data_statistics[85640] = {
-	name = "試作型180mm三連装砲B-1-P Model1932改",
+	name = "试作型B-1-P 三联装180mm主炮Model1932改",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -145151,7 +147691,7 @@ _G.pg.base.equip_data_statistics[85653] = {
 
 
 _G.pg.base.equip_data_statistics[89000] = {
-	name = "ランダムワード生成器",
+	name = "随机单词生成器",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145162,7 +147702,7 @@ _G.pg.base.equip_data_statistics[89000] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 104,
-	descrip = "企画をするときの頼りになるアイテム。まれにしゃべりだすことがあるという噂も…？",
+	descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -145309,7 +147849,7 @@ _G.pg.base.equip_data_statistics[89013] = {
 
 
 _G.pg.base.equip_data_statistics[89020] = {
-	name = "ぴょこぴょこ",
+	name = "晃悠悠",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145320,7 +147860,7 @@ _G.pg.base.equip_data_statistics[89020] = {
 	attribute_2 = "luck",
 	rarity = 5,
 	nationality = 104,
-	descrip = "キズナアイのトレードマーク。ぴょこぴょこが本体という説も未だ根強く、ぴょこぴょこを取ると何が起こるのか……そもそもこれ、取れるんですか？",
+	descrip = "绊爱的发箍。有一种说法是晃悠悠才是本体。拿掉晃悠悠的话会怎么样呢…话说真的拿得掉么？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -145460,7 +148000,7 @@ _G.pg.base.equip_data_statistics[89033] = {
 
 
 _G.pg.base.equip_data_statistics[89040] = {
-	name = "インテリジェントチップ",
+	name = "智慧模块",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145471,7 +148011,7 @@ _G.pg.base.equip_data_statistics[89040] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 104,
-	descrip = "キズナアイがプラグインを導入するときに使用するチップ…？――もうポンコツだなんて言わせません！",
+	descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#ff5c5c>（该装备绊爱联动活动结束后装备技能失效）</color>",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -145619,7 +148159,7 @@ _G.pg.base.equip_data_statistics[89053] = {
 
 
 _G.pg.base.equip_data_statistics[89060] = {
-	name = "チームエンブレム",
+	name = "组徽",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145630,7 +148170,7 @@ _G.pg.base.equip_data_statistics[89060] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 105,
-	descrip = "元々はチームエンブレムとしてデザインされたはずのもの。ヘン...变身？",
+	descrip = "本来应该作为组徽设计的才对，变...变身？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -145778,7 +148318,7 @@ _G.pg.base.equip_data_statistics[89073] = {
 
 
 _G.pg.base.equip_data_statistics[89080] = {
-	name = "ゲーマーズの証",
+	name = "Gamers的证明",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145787,7 +148327,7 @@ _G.pg.base.equip_data_statistics[89080] = {
 	icon = "89080",
 	value_1 = "245",
 	rarity = 5,
-	descrip = "ホロライブゲーマーズの証となるエンブレムバッジ",
+	descrip = "hololivegamers成员的证明徽章！ ",
 	nationality = 105,
 	ammo = 10,
 	value_3 = 0,
@@ -145924,7 +148464,7 @@ _G.pg.base.equip_data_statistics[89093] = {
 
 
 _G.pg.base.equip_data_statistics[89100] = {
-	name = "トウモロコシの灯籠",
+	name = "玉米灯笼",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -145935,7 +148475,7 @@ _G.pg.base.equip_data_statistics[89100] = {
 	attribute_2 = "durability",
 	rarity = 5,
 	nationality = 105,
-	descrip = "トウモロコシ模様の灯篭.......あるVTuberの友情の証",
+	descrip = "印着玉米图案的灯笼.......夏色吹雪？！ ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antisub",
@@ -146084,7 +148624,7 @@ _G.pg.base.equip_data_statistics[89113] = {
 
 
 _G.pg.base.equip_data_statistics[89120] = {
-	name = "あん肝",
+	name = "鮟鱇肝",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146095,7 +148635,7 @@ _G.pg.base.equip_data_statistics[89120] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 105,
-	descrip = "ホロライブ社内で自由に行動できるマスコット...動かないときはたまに地面に埋まったりする！？",
+	descrip = "hololive社内自由行动的吉祥物...不动的时候会埋在地里！？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -146243,7 +148783,7 @@ _G.pg.base.equip_data_statistics[89133] = {
 
 
 _G.pg.base.equip_data_statistics[89140] = {
-	name = "熱愛のフィリンエッター",
+	name = "炽烈之歌",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146254,7 +148794,7 @@ _G.pg.base.equip_data_statistics[89140] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "「私の歌は指揮官様、あなただけのため――」",
+	descrip = "偶像组合「Verheerender」所使用的麦克风",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -146403,7 +148943,7 @@ _G.pg.base.equip_data_statistics[89153] = {
 
 
 _G.pg.base.equip_data_statistics[89160] = {
-	name = "神聖なるリュミエール",
+	name = "活力之歌",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146414,7 +148954,7 @@ _G.pg.base.equip_data_statistics[89160] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "「罪のヒトよ、アイリスの救いの歌に身を、心を清めよ」",
+	descrip = "偶像组合「Lumière」所使用的麦克风",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -146563,7 +149103,7 @@ _G.pg.base.equip_data_statistics[89173] = {
 
 
 _G.pg.base.equip_data_statistics[89180] = {
-	name = "輝けるアストラム",
+	name = "闪耀之歌",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146574,7 +149114,7 @@ _G.pg.base.equip_data_statistics[89180] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "「私たちの歌で、愛と平和、そして光を遠くへと届けましょう」",
+	descrip = "偶像组合「Astrum」所使用的麦克风",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -146723,7 +149263,7 @@ _G.pg.base.equip_data_statistics[89193] = {
 
 
 _G.pg.base.equip_data_statistics[89200] = {
-	name = "グラヴィティシューズ",
+	name = "引力舞鞋",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146734,7 +149274,7 @@ _G.pg.base.equip_data_statistics[89200] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 0,
-	descrip = "「名付けて、なりきりアイドルにゃ！」装備艦船は「μ兵装」としても扱われます",
+	descrip = "引人瞩目的舞鞋，穿上以后似乎能够成为……偶像？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -146881,7 +149421,7 @@ _G.pg.base.equip_data_statistics[89213] = {
 
 
 _G.pg.base.equip_data_statistics[89220] = {
-	name = "ネビュラドレス",
+	name = "星云舞裙",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -146890,7 +149430,7 @@ _G.pg.base.equip_data_statistics[89220] = {
 	icon = "89220",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "「見た目だけでも、『あいどる』に仕上げて差し上げましょう…」装備艦船は「μ兵装」としても扱われます",
+	descrip = "星云般华丽的舞裙，穿上以后似乎能够成为…偶像？",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -147027,7 +149567,7 @@ _G.pg.base.equip_data_statistics[89233] = {
 
 
 _G.pg.base.equip_data_statistics[89240] = {
-	name = "ヴィーナス覚醒ジェム",
+	name = "觉醒宝珠",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147038,7 +149578,7 @@ _G.pg.base.equip_data_statistics[89240] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 106,
-	descrip = "",
+	descrip = "说明占坑",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -147186,7 +149726,7 @@ _G.pg.base.equip_data_statistics[89253] = {
 
 
 _G.pg.base.equip_data_statistics[89260] = {
-	name = "ココロの鍵",
+	name = "心之钥匙",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147197,7 +149737,7 @@ _G.pg.base.equip_data_statistics[89260] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 106,
-	descrip = "",
+	descrip = "说明占坑",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -147346,7 +149886,7 @@ _G.pg.base.equip_data_statistics[89273] = {
 
 
 _G.pg.base.equip_data_statistics[89280] = {
-	name = "輝きのブレスレット",
+	name = "偶像手环",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147357,7 +149897,7 @@ _G.pg.base.equip_data_statistics[89280] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 107,
-	descrip = "",
+	descrip = "说明占坑",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -147505,7 +150045,7 @@ _G.pg.base.equip_data_statistics[89293] = {
 
 
 _G.pg.base.equip_data_statistics[89300] = {
-	name = "バトルトラクトマックス",
+	name = "征战巨坦",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147516,7 +150056,7 @@ _G.pg.base.equip_data_statistics[89300] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 108,
-	descrip = "アシストウェポン：バトルトラクトマックス",
+	descrip = "支援武装：征战巨坦 ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -147710,7 +150250,7 @@ _G.pg.base.equip_data_statistics[89313] = {
 
 
 _G.pg.base.equip_data_statistics[89320] = {
-	name = "グリッドマンキャリバー",
+	name = "古立特圣剑",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147719,7 +150259,7 @@ _G.pg.base.equip_data_statistics[89320] = {
 	icon = "89320",
 	value_1 = "13",
 	rarity = 5,
-	descrip = "アシストウェポン：グリッドマンキャリバー",
+	descrip = "支援武装：古立特圣剑",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -147857,7 +150397,7 @@ _G.pg.base.equip_data_statistics[89333] = {
 
 
 _G.pg.base.equip_data_statistics[89340] = {
-	name = "バスターボラー",
+	name = "爆裂钻孔机",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -147866,7 +150406,7 @@ _G.pg.base.equip_data_statistics[89340] = {
 	icon = "89340",
 	value_1 = "35",
 	rarity = 5,
-	descrip = "アシストウェポン：バスターボラー",
+	descrip = "支援武装：爆裂钻孔机 ",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -148048,7 +150588,7 @@ _G.pg.base.equip_data_statistics[89353] = {
 
 
 _G.pg.base.equip_data_statistics[89360] = {
-	name = "スカイヴィッター",
+	name = "苍穹喷射机",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148057,7 +150597,7 @@ _G.pg.base.equip_data_statistics[89360] = {
 	icon = "89360",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "アシストウェポン：スカイヴィッター",
+	descrip = "支援武装：苍穹喷射机",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -148239,7 +150779,7 @@ _G.pg.base.equip_data_statistics[89373] = {
 
 
 _G.pg.base.equip_data_statistics[89380] = {
-	name = "ダイナミックキャノン",
+	name = "戴拿爆能加农",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148248,7 +150788,7 @@ _G.pg.base.equip_data_statistics[89380] = {
 	icon = "89380",
 	value_1 = "10",
 	rarity = 5,
-	descrip = "ダイナミックキャノン",
+	descrip = "戴拿爆能加农",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -148401,7 +150941,7 @@ _G.pg.base.equip_data_statistics[89393] = {
 
 
 _G.pg.base.equip_data_statistics[89400] = {
-	name = "ゴルドバーン",
+	name = "煌翼炎龙",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148410,7 +150950,7 @@ _G.pg.base.equip_data_statistics[89400] = {
 	icon = "89400",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "ゴルドバーン",
+	descrip = "煌翼炎龙",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -148547,7 +151087,7 @@ _G.pg.base.equip_data_statistics[89413] = {
 
 
 _G.pg.base.equip_data_statistics[89420] = {
-	name = "グランフラム",
+	name = "炙烈炎烧",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148558,7 +151098,7 @@ _G.pg.base.equip_data_statistics[89420] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 109,
-	descrip = "絶大な威力を持つ火属性爆弾。敵にダメージを与える",
+	descrip = "一种威力强大的火属性炸弹，使用后可以对敌人造成伤害。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "torpedo",
@@ -148708,7 +151248,7 @@ _G.pg.base.equip_data_statistics[89433] = {
 
 
 _G.pg.base.equip_data_statistics[89440] = {
-	name = "クライスタルレヘルン",
+	name = "结晶冰精",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148717,7 +151257,7 @@ _G.pg.base.equip_data_statistics[89440] = {
 	icon = "89440",
 	value_1 = "13",
 	rarity = 5,
-	descrip = "絶大な威力を持つ氷属性爆弾。敵にダメージを与える",
+	descrip = "一种威力强大的冰属性炸弹，使用后可以对敌人造成伤害。",
 	nationality = 109,
 	ammo = 10,
 	value_3 = 0,
@@ -148854,7 +151394,7 @@ _G.pg.base.equip_data_statistics[89453] = {
 
 
 _G.pg.base.equip_data_statistics[89460] = {
-	name = "ラウトプラジグ",
+	name = "震耳雷球",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -148863,7 +151403,7 @@ _G.pg.base.equip_data_statistics[89460] = {
 	icon = "89460",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "絶大な威力を持つ雷属性爆弾。敵にダメージを与える",
+	descrip = "一种威力强大的雷属性炸弹，使用后可以对敌人造成伤害。",
 	nationality = 109,
 	ammo = 10,
 	value_3 = 0,
@@ -149001,7 +151541,7 @@ _G.pg.base.equip_data_statistics[89473] = {
 
 
 _G.pg.base.equip_data_statistics[89480] = {
-	name = "ヴィアベールルフト",
+	name = "涡旋风精",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149012,7 +151552,7 @@ _G.pg.base.equip_data_statistics[89480] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 109,
-	descrip = "絶大な威力を持つ風属性爆弾。敵にダメージを与える",
+	descrip = "一种威力强大的风属性炸弹，使用后可以对敌人造成伤害。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -149158,7 +151698,7 @@ _G.pg.base.equip_data_statistics[89493] = {
 
 
 _G.pg.base.equip_data_statistics[89500] = {
-	name = "エリキシル剤",
+	name = "万灵药剂",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149167,7 +151707,7 @@ _G.pg.base.equip_data_statistics[89500] = {
 	icon = "89500",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "あらゆるケガ、病気の治療はもちろん、死すらも凌駕する超強力な薬。一握りの錬金術士にしか作ることのできない、錬金術の究極技術の一つとされている",
+	descrip = "不仅能治好任何伤和疾病，就连死亡也能应对的超强力药剂。只有极少数的炼金术士才做得出来，被视为炼金术的终极技术之一。",
 	nationality = 109,
 	ammo = 10,
 	value_3 = 0,
@@ -149312,7 +151852,7 @@ _G.pg.base.equip_data_statistics[89513] = {
 
 
 _G.pg.base.equip_data_statistics[89520] = {
-	name = "神秘の羽衣",
+	name = "神秘的羽衣",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149323,7 +151863,7 @@ _G.pg.base.equip_data_statistics[89520] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 109,
-	descrip = "神秘的な色合いを持つ羽衣。透き通るほど薄い布だが、広げることによりありとあらゆる攻撃から身を守ることができる",
+	descrip = "色调带有神秘感的羽衣。虽然是薄得可以一眼看透的布料，但展开之后可以保护自己不受任何攻击。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -149480,7 +152020,7 @@ _G.pg.base.equip_data_statistics[89533] = {
 
 
 _G.pg.base.equip_data_statistics[89540] = {
-	name = "アポカリプス",
+	name = "默示录",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149489,7 +152029,7 @@ _G.pg.base.equip_data_statistics[89540] = {
 	icon = "89540",
 	value_1 = "24",
 	rarity = 5,
-	descrip = "絶大な威力を持つアイテム。敵のステータスを下げることができるが、使用時に使用者の耐久を消費する",
+	descrip = "一种威力强大的道具，使用后可以降低敌人属性，但使用时会消耗使用者的HP。",
 	nationality = 109,
 	ammo = 10,
 	value_3 = 0,
@@ -149647,7 +152187,7 @@ _G.pg.base.equip_data_statistics[89560] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 109,
-	descrip = "絶大な威力を持つ爆弾。敵の防御力を下げることができる",
+	descrip = "一种威力强大的炸弹，使用后可以降低敌人的防御力。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -149806,7 +152346,7 @@ _G.pg.base.equip_data_statistics[89573] = {
 
 
 _G.pg.base.equip_data_statistics[89580] = {
-	name = "創世の槌",
+	name = "创世之槌",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149815,7 +152355,7 @@ _G.pg.base.equip_data_statistics[89580] = {
 	icon = "89580",
 	value_1 = "28",
 	rarity = 5,
-	descrip = "おもいきり打ち付けることで、大地を激しく揺らすことができる槌。大地が揺れる際に空気が震え、天がいななくことが創世を思わせるため、このような名がついた",
+	descrip = "用力一敲就能让大地剧烈摇晃的槌子。大地摇晃时空气振动及天空传来鸣响的样子，让人联想到创世的景象，所以如此命名。",
 	nationality = 109,
 	ammo = 10,
 	value_3 = 0,
@@ -149952,7 +152492,7 @@ _G.pg.base.equip_data_statistics[89593] = {
 
 
 _G.pg.base.equip_data_statistics[89600] = {
-	name = "泡雲の弾丸",
+	name = "泡云弹车",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -149963,7 +152503,7 @@ _G.pg.base.equip_data_statistics[89600] = {
 	attribute_2 = "cannon",
 	rarity = 5,
 	nationality = 109,
-	descrip = "銃身を必要としない弾丸。先端を対象に向けて弾くと、弾は上空を飛び回ったのち、対象に一直線に向かっていき、着弾すると同時に爆発する",
+	descrip = "不需要枪管的子弹。将前端对准目标发射，子弹会先在上空盘旋，然后笔直地朝目标前进，在打中的瞬间爆炸。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -150112,7 +152652,7 @@ _G.pg.base.equip_data_statistics[89613] = {
 
 
 _G.pg.base.equip_data_statistics[89620] = {
-	name = "エネルジアニカ",
+	name = "形意口琴",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -150123,7 +152663,7 @@ _G.pg.base.equip_data_statistics[89620] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 109,
-	descrip = "意思が形となって音を奏でるハーモニカ。吹く者はもちろん、その音色を聞く者に対しても様々な力を与えてくれる",
+	descrip = "可将意志化作音色的口琴。不仅吹奏的人，听到口琴音色的人也会被赋予各种力量。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -150272,7 +152812,7 @@ _G.pg.base.equip_data_statistics[89633] = {
 
 
 _G.pg.base.equip_data_statistics[89640] = {
-	name = "かに（レシート付き）",
+	name = "帝王蟹（附带小票）",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -150281,7 +152821,7 @@ _G.pg.base.equip_data_statistics[89640] = {
 	icon = "89640",
 	value_1 = "450",
 	rarity = 5,
-	descrip = "かに（レシート付き・積載）",
+	descrip = "货物：帝王蟹（附带小票）",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -150422,7 +152962,7 @@ _G.pg.base.equip_data_statistics[89653] = {
 
 
 _G.pg.base.equip_data_statistics[89660] = {
-	name = "竜の置物",
+	name = "木龙雕塑",
 	tech = 0,
 	type = 18,
 	speciality = "<[NA]>",
@@ -150431,7 +152971,7 @@ _G.pg.base.equip_data_statistics[89660] = {
 	icon = "89660",
 	value_1 = "450",
 	rarity = 5,
-	descrip = "竜の置物（積載）",
+	descrip = "货物：木龙雕塑",
 	nationality = 108,
 	ammo = 10,
 	value_3 = 0,
@@ -150572,7 +153112,7 @@ _G.pg.base.equip_data_statistics[89673] = {
 
 
 _G.pg.base.equip_data_statistics[89680] = {
-	name = "シノビのメダル",
+	name = "忍者大师徽章",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -150583,7 +153123,7 @@ _G.pg.base.equip_data_statistics[89680] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 110,
-	descrip = "シノビのメダル",
+	descrip = "忍者大师徽章",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -150732,7 +153272,7 @@ _G.pg.base.equip_data_statistics[89693] = {
 
 
 _G.pg.base.equip_data_statistics[89700] = {
-	name = "シノビの装束",
+	name = "忍者装束",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -150741,7 +153281,7 @@ _G.pg.base.equip_data_statistics[89700] = {
 	icon = "89700",
 	value_1 = "245",
 	rarity = 5,
-	descrip = "シノビの装束",
+	descrip = "忍者装束",
 	nationality = 110,
 	ammo = 10,
 	value_3 = 0,
@@ -150878,7 +153418,7 @@ _G.pg.base.equip_data_statistics[89713] = {
 
 
 _G.pg.base.equip_data_statistics[89720] = {
-	name = "忍術の巻物",
+	name = "忍术卷轴",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -150889,7 +153429,7 @@ _G.pg.base.equip_data_statistics[89720] = {
 	attribute_2 = "cannon",
 	rarity = 5,
 	nationality = 110,
-	descrip = "忍術の巻物",
+	descrip = "忍术卷轴",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -151038,7 +153578,7 @@ _G.pg.base.equip_data_statistics[89733] = {
 
 
 _G.pg.base.equip_data_statistics[89740] = {
-	name = "パッションμチケット",
+	name = "μ兵装三期LIVE纪念票",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -151049,7 +153589,7 @@ _G.pg.base.equip_data_statistics[89740] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 0,
-	descrip = "歌がもたらす共感、情熱を――一緒に楽しもう！",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "antiaircraft",
@@ -151198,7 +153738,7 @@ _G.pg.base.equip_data_statistics[89753] = {
 
 
 _G.pg.base.equip_data_statistics[89760] = {
-	name = "「Alizarin」応援タオル",
+	name = "「Alizarin」应援毛巾",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -151207,7 +153747,7 @@ _G.pg.base.equip_data_statistics[89760] = {
 	icon = "89760",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "μ兵装実験ユニット「Alizarin」のイメージカラーのタオル。ライブの応援にも日常生活にも十分使える！",
+	descrip = "以「Alizarin」的主题色设计，无论是现场应援，还是日常使用，都十分合适哦！",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -151344,7 +153884,7 @@ _G.pg.base.equip_data_statistics[89773] = {
 
 
 _G.pg.base.equip_data_statistics[89780] = {
-	name = "「Cyanidin」応援タオル",
+	name = "「Cyanidin」应援毛巾",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -151353,7 +153893,7 @@ _G.pg.base.equip_data_statistics[89780] = {
 	icon = "89780",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "μ兵装実験ユニット「Cyanidin」のイメージカラーのタオル。ライブの応援にも日常生活にも十分使える！",
+	descrip = "以「Cyanidin」的主题色设计，无论是现场应援，还是日常使用，都十分合适哦",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -151490,7 +154030,7 @@ _G.pg.base.equip_data_statistics[89793] = {
 
 
 _G.pg.base.equip_data_statistics[90000] = {
-	name = "130mm単装砲Mle1924",
+	name = "130mm单装炮Mle1924",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
@@ -151592,7 +154132,7 @@ _G.pg.base.equip_data_statistics[90003] = {
 
 
 _G.pg.base.equip_data_statistics[90020] = {
-	name = "130mm単装砲Mle1924",
+	name = "130mm单装炮Mle1924",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
@@ -151696,7 +154236,7 @@ _G.pg.base.equip_data_statistics[90023] = {
 
 
 _G.pg.base.equip_data_statistics[90040] = {
-	name = "130mm単装砲Mle1924",
+	name = "130mm单装炮Mle1924",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -151844,7 +154384,7 @@ _G.pg.base.equip_data_statistics[90047] = {
 
 
 _G.pg.base.equip_data_statistics[90100] = {
-	name = "138.6mm単装砲Mle1929",
+	name = "138.6mm单装炮Mle1929",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
@@ -151980,7 +154520,7 @@ _G.pg.base.equip_data_statistics[90106] = {
 
 
 _G.pg.base.equip_data_statistics[90120] = {
-	name = "138.6mm単装砲Mle1929",
+	name = "138.6mm单装炮Mle1929",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
@@ -152162,7 +154702,7 @@ _G.pg.base.equip_data_statistics[90130] = {
 
 
 _G.pg.base.equip_data_statistics[90140] = {
-	name = "138.6mm単装砲Mle1929",
+	name = "138.6mm单装炮Mle1929",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -152380,14 +154920,14 @@ _G.pg.base.equip_data_statistics[90153] = {
 
 
 _G.pg.base.equip_data_statistics[90160] = {
-	name = "138.6mm連装砲Mle 1934",
+	name = "双联装138.6mm主炮Mle1934",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 55,
 	icon = "50160",
 	attribute_2 = "cannon",
-	descrip = "モガドールが装備する138.6mm連装砲",
+	descrip = "莫加多尔级装备的双联装138.6mm主炮",
 	rarity = 6,
 	damage = "7 x 6",
 	nationality = 8,
@@ -152598,7 +155138,7 @@ _G.pg.base.equip_data_statistics[90173] = {
 
 
 _G.pg.base.equip_data_statistics[90200] = {
-	name = "152mm三連装砲Mle1930",
+	name = "三联装152mm主炮Mle1930",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 1,
@@ -152692,7 +155232,7 @@ _G.pg.base.equip_data_statistics[90203] = {
 
 
 _G.pg.base.equip_data_statistics[90220] = {
-	name = "152mm三連装砲Mle1930",
+	name = "三联装152mm主炮Mle1930",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 2,
@@ -152787,7 +155327,7 @@ _G.pg.base.equip_data_statistics[90223] = {
 
 
 _G.pg.base.equip_data_statistics[90240] = {
-	name = "152mm三連装砲Mle1930",
+	name = "三联装152mm主炮Mle1930",
 	speciality = "<[SCA]>",
 	type = 2,
 	tech = 3,
@@ -152927,14 +155467,14 @@ _G.pg.base.equip_data_statistics[90247] = {
 
 
 _G.pg.base.equip_data_statistics[90260] = {
-	name = "152mm三連装砲Mle1930(榴弾)",
+	name = "三联装152mm主炮Mle1930(高爆弹)",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
 	value_2 = 45,
 	icon = "50200",
 	attribute_2 = "cannon",
-	descrip = "アイリス製の三連装152mm軽巡用主砲。弾薬は榴弾を使用している",
+	descrip = "鸢尾研发的三联装152mm轻巡用主炮，换装了高爆弹药",
 	rarity = 5,
 	damage = "12 x 6",
 	nationality = 8,
@@ -153135,7 +155675,7 @@ _G.pg.base.equip_data_statistics[90273] = {
 
 
 _G.pg.base.equip_data_statistics[90300] = {
-	name = "330mm四連装砲Mle1931",
+	name = "四联装330mm主炮Mle1931",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
@@ -153223,7 +155763,7 @@ _G.pg.base.equip_data_statistics[90303] = {
 
 
 _G.pg.base.equip_data_statistics[90320] = {
-	name = "330mm四連装砲Mle1931",
+	name = "四联装330mm主炮Mle1931",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
@@ -153344,7 +155884,7 @@ _G.pg.base.equip_data_statistics[90326] = {
 
 
 _G.pg.base.equip_data_statistics[90340] = {
-	name = "330mm四連装砲Mle1931",
+	name = "四联装330mm主炮Mle1931",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
@@ -153522,7 +156062,7 @@ _G.pg.base.equip_data_statistics[90351] = {
 
 
 _G.pg.base.equip_data_statistics[90360] = {
-	name = "試作型四連装330mm砲Mle1931(超巡用)",
+	name = "试作型四联装330mm主炮Mle1931（超巡用）",
 	speciality = "<[VOL]>",
 	type = 11,
 	tech = 0,
@@ -153721,14 +156261,14 @@ _G.pg.base.equip_data_statistics[90373] = {
 
 
 _G.pg.base.equip_data_statistics[90400] = {
-	name = "380mm四連装砲Mle1935",
+	name = "四联装380mm主炮Mle1935",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "50400",
 	attribute_2 = "cannon",
-	descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
 	rarity = 3,
 	damage = "40 x 4",
 	nationality = 8,
@@ -153843,14 +156383,14 @@ _G.pg.base.equip_data_statistics[90406] = {
 
 
 _G.pg.base.equip_data_statistics[90420] = {
-	name = "380mm四連装砲Mle1935",
+	name = "四联装380mm主炮Mle1935",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "50400",
 	attribute_2 = "cannon",
-	descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
 	rarity = 4,
 	damage = "44 x 4",
 	nationality = 8,
@@ -154009,14 +156549,14 @@ _G.pg.base.equip_data_statistics[90430] = {
 
 
 _G.pg.base.equip_data_statistics[90440] = {
-	name = "380mm四連装砲Mle1935",
+	name = "四联装380mm主炮Mle1935",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "50400",
 	attribute_2 = "cannon",
-	descrip = "リシュリュー級戦艦に搭載された四連装380mm主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "黎塞留级战列舰上搭载的四联装380mm主炮，战巡和战列可以使用",
 	rarity = 5,
 	damage = "48 x 4",
 	nationality = 8,
@@ -154211,7 +156751,7 @@ _G.pg.base.equip_data_statistics[90453] = {
 
 
 _G.pg.base.equip_data_statistics[90460] = {
-	name = "340mm四連装砲Mle1912",
+	name = "四联装340mm主炮Mle1912",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
@@ -154344,7 +156884,7 @@ _G.pg.base.equip_data_statistics[90467] = {
 
 
 _G.pg.base.equip_data_statistics[90480] = {
-	name = "試作型380mm三連装砲Mle1935",
+	name = "试作型三联装380mm主炮Mle1935",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -154546,14 +157086,14 @@ _G.pg.base.equip_data_statistics[90493] = {
 
 
 _G.pg.base.equip_data_statistics[90500] = {
-	name = "130mm連装砲Mle1935",
+	name = "双联装130mm主炮Mle1935",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "50500",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "9 x 2",
 	nationality = 8,
@@ -154649,7 +157189,7 @@ _G.pg.base.equip_data_statistics[90503] = {
 
 
 _G.pg.base.equip_data_statistics[90540] = {
-	name = "130mm連装砲Mle1935",
+	name = "双联装130mm主炮Mle1935",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -154842,7 +157382,7 @@ _G.pg.base.equip_data_statistics[90551] = {
 
 
 _G.pg.base.equip_data_statistics[90560] = {
-	name = "37mm高射砲Mle1925",
+	name = "37mm高射炮Mle1925",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
@@ -154989,7 +157529,7 @@ _G.pg.base.equip_data_statistics[90567] = {
 
 
 _G.pg.base.equip_data_statistics[90580] = {
-	name = "二連装37mm高射砲Mle1933",
+	name = "双联37mm高射炮Mle1933",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
@@ -155180,14 +157720,14 @@ _G.pg.base.equip_data_statistics[90591] = {
 
 
 _G.pg.base.equip_data_statistics[90600] = {
-	name = "二連装37mm高射砲Mle1936",
+	name = "双联37mm高射炮Mle1936",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "50600",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "38<[WAVE]>",
 	nationality = 8,
@@ -155395,7 +157935,7 @@ _G.pg.base.equip_data_statistics[90613] = {
 
 
 _G.pg.base.equip_data_statistics[90620] = {
-	name = "二連装57mm/L60ボフォース対空機関砲Mle1951",
+	name = "双联装57mm/L60博福斯对空机炮Mle1951",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -155597,7 +158137,7 @@ _G.pg.base.equip_data_statistics[90633] = {
 
 
 _G.pg.base.equip_data_statistics[90700] = {
-	name = "138.6mm単装砲Mle1927",
+	name = "138.6mm单装炮Mle1927",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
@@ -155700,7 +158240,7 @@ _G.pg.base.equip_data_statistics[90703] = {
 
 
 _G.pg.base.equip_data_statistics[90720] = {
-	name = "138.6mm単装砲Mle1927",
+	name = "138.6mm单装炮Mle1927",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
@@ -155837,7 +158377,7 @@ _G.pg.base.equip_data_statistics[90726] = {
 
 
 _G.pg.base.equip_data_statistics[90740] = {
-	name = "138.6mm単装砲Mle1927",
+	name = "138.6mm单装炮Mle1927",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -156030,7 +158570,7 @@ _G.pg.base.equip_data_statistics[90751] = {
 
 
 _G.pg.base.equip_data_statistics[90760] = {
-	name = "138.6mm単装砲Mle1923",
+	name = "138.6mm单装炮Mle1923",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -156179,7 +158719,7 @@ _G.pg.base.equip_data_statistics[90767] = {
 
 
 _G.pg.base.equip_data_statistics[90780] = {
-	name = "155mm連装砲Mle1920",
+	name = "双联装155mm主炮Mle1920",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -156319,7 +158859,7 @@ _G.pg.base.equip_data_statistics[90787] = {
 
 
 _G.pg.base.equip_data_statistics[90800] = {
-	name = "155mm単装副砲Mle1920",
+	name = "单装155mm副炮Mle1920",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -156459,7 +158999,7 @@ _G.pg.base.equip_data_statistics[90807] = {
 
 
 _G.pg.base.equip_data_statistics[90820] = {
-	name = "グールドゥ・ルスールGL.2戦闘機",
+	name = "GL.2舰载战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -156630,7 +159170,7 @@ _G.pg.base.equip_data_statistics[90827] = {
 
 
 _G.pg.base.equip_data_statistics[90840] = {
-	name = "ピエール・ルヴァッスールPL.7攻撃機",
+	name = "PL.7舰载鱼雷机",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 3,
@@ -156825,7 +159365,7 @@ _G.pg.base.equip_data_statistics[90847] = {
 
 
 _G.pg.base.equip_data_statistics[90860] = {
-	name = "203mm連装砲Mle1931",
+	name = "双联装203mm主炮Mle1931",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
@@ -156953,7 +159493,7 @@ _G.pg.base.equip_data_statistics[90866] = {
 
 
 _G.pg.base.equip_data_statistics[90880] = {
-	name = "203mm連装砲Mle1931",
+	name = "双联装203mm主炮Mle1931",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
@@ -157125,7 +159665,7 @@ _G.pg.base.equip_data_statistics[90890] = {
 
 
 _G.pg.base.equip_data_statistics[90900] = {
-	name = "203mm連装砲Mle1931",
+	name = "双联装203mm主炮Mle1931",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
@@ -157333,7 +159873,7 @@ _G.pg.base.equip_data_statistics[90913] = {
 
 
 _G.pg.base.equip_data_statistics[91000] = {
-	name = "試作型406mm/50三連装砲",
+	name = "试作型三联装406mm/50主炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
@@ -157535,7 +160075,7 @@ _G.pg.base.equip_data_statistics[91013] = {
 
 
 _G.pg.base.equip_data_statistics[91100] = {
-	name = "203mm連装砲Mle1924",
+	name = "双联装203mm主炮Mle1924",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
@@ -157630,7 +160170,7 @@ _G.pg.base.equip_data_statistics[91103] = {
 
 
 _G.pg.base.equip_data_statistics[91140] = {
-	name = "203mm連装砲Mle1924",
+	name = "双联装203mm主炮Mle1924",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
@@ -157822,7 +160362,7 @@ _G.pg.base.equip_data_statistics[91180] = {
 	value_2 = 12,
 	icon = "51160",
 	attribute_2 = "air",
-	descrip = "FBA 19 水上機",
+	descrip = "FBA 19水上机",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -157969,7 +160509,7 @@ _G.pg.base.equip_data_statistics[91200] = {
 	value_2 = 25,
 	icon = "51160",
 	attribute_2 = "air",
-	descrip = "FBA 19 水上機",
+	descrip = "FBA 19水上机",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -158189,7 +160729,7 @@ _G.pg.base.equip_data_statistics[91211] = {
 
 
 _G.pg.base.equip_data_statistics[91220] = {
-	name = "ドボワチン D.790戦闘機",
+	name = "D.790",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -158197,7 +160737,7 @@ _G.pg.base.equip_data_statistics[91220] = {
 	value_2 = 25,
 	icon = "51220",
 	attribute_2 = "air",
-	descrip = "アイリスがD.520戦闘機を元に試作開発した艦載機",
+	descrip = "鸢尾以D.520战斗机为基础尝试研发的舰载机型",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -158477,7 +161017,7 @@ _G.pg.base.equip_data_statistics[91231] = {
 
 
 _G.pg.base.equip_data_statistics[91240] = {
-	name = "ブレゲー BR.810攻撃機",
+	name = "BR.810",
 	type = 8,
 	speciality = "<[TRP]>",
 	rarity = 5,
@@ -158485,7 +161025,7 @@ _G.pg.base.equip_data_statistics[91240] = {
 	value_2 = 45,
 	icon = "51240",
 	attribute_2 = "air",
-	descrip = "アイリスがBR.690戦闘機を元に試作開発した双発艦載機",
+	descrip = "鸢尾以BR.690攻击机为基础尝试研发的舰载机型，采用了双发设计",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -158865,7 +161405,7 @@ _G.pg.base.equip_data_statistics[91253] = {
 
 
 _G.pg.base.equip_data_statistics[91260] = {
-	name = "アイリス天使の羽根",
+	name = "天使之羽",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -158876,7 +161416,7 @@ _G.pg.base.equip_data_statistics[91260] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 10,
-	descrip = "戦闘天使の翼。勇気と奉献、忠誠を象徴する",
+	descrip = "战斗天使的羽翼，象征着无畏、奉献与忠诚。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -159040,7 +161580,7 @@ _G.pg.base.equip_data_statistics[91273] = {
 
 
 _G.pg.base.equip_data_statistics[91280] = {
-	name = "クロスプローチ",
+	name = "十字胸针",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -159049,7 +161589,7 @@ _G.pg.base.equip_data_statistics[91280] = {
 	icon = "51280",
 	value_1 = "140",
 	rarity = 4,
-	descrip = "クレマンソーが身につけているプローチ。一部には彼女の本人が降臨させるが如く効果があるという",
+	descrip = "一枚克莱蒙梭主教随身佩戴的十字胸针，见之如见人。",
 	nationality = 10,
 	ammo = 10,
 	value_3 = 0,
@@ -160461,14 +163001,14 @@ _G.pg.base.equip_data_statistics[91387] = {
 
 
 _G.pg.base.equip_data_statistics[95000] = {
-	name = "381mm三連装砲Model1934",
+	name = "三联装381mm主炮Model1934",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "55000",
 	attribute_2 = "cannon",
-	descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "三联装381mm主炮，维托里奥·维内托级战列舰主炮，战巡和战列可以使用",
 	rarity = 3,
 	damage = "42 x 3",
 	nationality = 6,
@@ -160582,14 +163122,14 @@ _G.pg.base.equip_data_statistics[95006] = {
 
 
 _G.pg.base.equip_data_statistics[95020] = {
-	name = "381mm三連装砲Model1934",
+	name = "三联装381mm主炮Model1934",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 2,
 	value_2 = 25,
 	icon = "55000",
 	attribute_2 = "cannon",
-	descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "三联装381mm主炮，维托里奥·维内托级战列舰主炮，战巡和战列可以使用",
 	rarity = 4,
 	damage = "47 x 3",
 	nationality = 6,
@@ -160748,14 +163288,14 @@ _G.pg.base.equip_data_statistics[95030] = {
 
 
 _G.pg.base.equip_data_statistics[95040] = {
-	name = "381mm三連装砲Model1934",
+	name = "三联装381mm主炮Model1934",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "55000",
 	attribute_2 = "cannon",
-	descrip = "ヴィットリオ・ヴェネト級戦艦に装備されていた主砲。戦艦・巡洋戦艦が装備可能",
+	descrip = "三联装381mm主炮，维托里奥·维内托级战列舰主炮，战巡和战列可以使用",
 	rarity = 5,
 	damage = "52 x 3",
 	nationality = 6,
@@ -160955,14 +163495,14 @@ _G.pg.base.equip_data_statistics[95053] = {
 
 
 _G.pg.base.equip_data_statistics[95100] = {
-	name = "90mm単装高角砲Model1939",
+	name = "90mm单装高角炮Model1939",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 12,
 	icon = "55100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "34<[WAVE]>",
 	nationality = 6,
@@ -161090,14 +163630,14 @@ _G.pg.base.equip_data_statistics[95106] = {
 
 
 _G.pg.base.equip_data_statistics[95120] = {
-	name = "90mm単装高角砲Model1939",
+	name = "90mm单装高角炮Model1939",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 25,
 	icon = "55100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "35<[WAVE]>",
 	nationality = 6,
@@ -161269,14 +163809,14 @@ _G.pg.base.equip_data_statistics[95130] = {
 
 
 _G.pg.base.equip_data_statistics[95140] = {
-	name = "90mm単装高角砲Model1939",
+	name = "90mm单装高角炮Model1939",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 45,
 	icon = "55100",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "40<[WAVE]>",
 	nationality = 6,
@@ -161484,14 +164024,14 @@ _G.pg.base.equip_data_statistics[95153] = {
 
 
 _G.pg.base.equip_data_statistics[95160] = {
-	name = "試作型90mm連装高角砲Model1939",
+	name = "试作型双联90mm高角炮Model1939",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
 	value_2 = 45,
 	icon = "55160",
 	attribute_2 = "antiaircraft",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "50<[WAVE]>",
 	nationality = 6,
@@ -161699,14 +164239,14 @@ _G.pg.base.equip_data_statistics[95173] = {
 
 
 _G.pg.base.equip_data_statistics[95200] = {
-	name = "203mm連装砲Model1927",
+	name = "双联203mm主炮Model1927",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 12,
 	icon = "55200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "19 x 8",
 	nationality = 6,
@@ -161827,14 +164367,14 @@ _G.pg.base.equip_data_statistics[95206] = {
 
 
 _G.pg.base.equip_data_statistics[95220] = {
-	name = "203mm連装砲Model1927",
+	name = "双联203mm主炮Model1927",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 25,
 	icon = "55200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "26 x 8",
 	nationality = 6,
@@ -161998,14 +164538,14 @@ _G.pg.base.equip_data_statistics[95230] = {
 
 
 _G.pg.base.equip_data_statistics[95240] = {
-	name = "203mm連装砲Model1927",
+	name = "双联203mm主炮Model1927",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 45,
 	icon = "55200",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "36 x 8",
 	nationality = 6,
@@ -162206,14 +164746,14 @@ _G.pg.base.equip_data_statistics[95253] = {
 
 
 _G.pg.base.equip_data_statistics[95300] = {
-	name = "203mm連装砲Model1924",
+	name = "双联203mm主炮Model1924",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 1,
 	value_2 = 5,
 	icon = "55300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "22 x 6",
 	nationality = 6,
@@ -162301,14 +164841,14 @@ _G.pg.base.equip_data_statistics[95303] = {
 
 
 _G.pg.base.equip_data_statistics[95320] = {
-	name = "203mm連装砲Model1924",
+	name = "双联203mm主炮Model1924",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 2,
 	value_2 = 12,
 	icon = "55300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "24 x 6",
 	nationality = 6,
@@ -162429,14 +164969,14 @@ _G.pg.base.equip_data_statistics[95326] = {
 
 
 _G.pg.base.equip_data_statistics[95340] = {
-	name = "203mm連装砲Model1924",
+	name = "双联203mm主炮Model1924",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 3,
 	value_2 = 25,
 	icon = "55300",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "26 x 6",
 	nationality = 6,
@@ -162613,14 +165153,14 @@ _G.pg.base.equip_data_statistics[95351] = {
 
 
 _G.pg.base.equip_data_statistics[95400] = {
-	name = "120mm連装砲Model1936",
+	name = "双联装120mm炮Model1936",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "55400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "6 x 4",
 	nationality = 6,
@@ -162717,14 +165257,14 @@ _G.pg.base.equip_data_statistics[95403] = {
 
 
 _G.pg.base.equip_data_statistics[95420] = {
-	name = "120mm連装砲Model1936",
+	name = "双联装120mm炮Model1936",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 2,
 	value_2 = 12,
 	icon = "55400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "6 x 4",
 	nationality = 6,
@@ -162854,14 +165394,14 @@ _G.pg.base.equip_data_statistics[95426] = {
 
 
 _G.pg.base.equip_data_statistics[95440] = {
-	name = "120mm連装砲Model1936",
+	name = "双联装120mm炮Model1936",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 25,
 	icon = "55400",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "6 x 4",
 	nationality = 6,
@@ -163048,14 +165588,14 @@ _G.pg.base.equip_data_statistics[95451] = {
 
 
 _G.pg.base.equip_data_statistics[95460] = {
-	name = "120mm連装砲Model1933",
+	name = "双联装120mm炮Model1933",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 0,
 	value_2 = 12,
 	icon = "55460",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 6,
@@ -163195,14 +165735,14 @@ _G.pg.base.equip_data_statistics[95467] = {
 
 
 _G.pg.base.equip_data_statistics[95480] = {
-	name = "320mm三連装砲Model1934",
+	name = "三联装320mm主炮Model1934",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 12,
 	icon = "55480",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "34 x 3",
 	nationality = 6,
@@ -163328,14 +165868,14 @@ _G.pg.base.equip_data_statistics[95487] = {
 
 
 _G.pg.base.equip_data_statistics[95500] = {
-	name = "37mm連装機銃Model1932",
+	name = "双联37mm机枪Model1932",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 1,
 	value_2 = 5,
 	icon = "55500",
 	attribute_2 = "antiaircraft",
-	descrip = "37mm連装機銃。対空兵装として使用可能",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "15<[WAVE]>",
 	nationality = 6,
@@ -163430,14 +165970,14 @@ _G.pg.base.equip_data_statistics[95503] = {
 
 
 _G.pg.base.equip_data_statistics[95520] = {
-	name = "37mm連装機銃Model1932",
+	name = "双联37mm机枪Model1932",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 2,
 	value_2 = 12,
 	icon = "55500",
 	attribute_2 = "antiaircraft",
-	descrip = "37mm連装機銃。対空兵装として使用可能",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "17<[WAVE]>",
 	nationality = 6,
@@ -163565,14 +166105,14 @@ _G.pg.base.equip_data_statistics[95526] = {
 
 
 _G.pg.base.equip_data_statistics[95540] = {
-	name = "37mm連装機銃Model1932",
+	name = "双联37mm机枪Model1932",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
 	value_2 = 25,
 	icon = "55500",
 	attribute_2 = "antiaircraft",
-	descrip = "37mm連装機銃。対空兵装として使用可能",
+	descrip = "说明未填写",
 	rarity = 4,
 	damage = "20<[WAVE]>",
 	nationality = 6,
@@ -163756,14 +166296,14 @@ _G.pg.base.equip_data_statistics[95551] = {
 
 
 _G.pg.base.equip_data_statistics[95560] = {
-	name = "120mm連装砲",
+	name = "双联装120mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 5,
 	icon = "55560",
 	attribute_2 = "cannon",
-	descrip = "",
+	descrip = "说明未填写",
 	rarity = 2,
 	damage = "5 x 4",
 	nationality = 6,
@@ -163860,7 +166400,7 @@ _G.pg.base.equip_data_statistics[95563] = {
 
 
 _G.pg.base.equip_data_statistics[95580] = {
-	name = "120mm連装砲",
+	name = "双联装120mm主炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
@@ -164054,14 +166594,14 @@ _G.pg.base.equip_data_statistics[95591] = {
 
 
 _G.pg.base.equip_data_statistics[95600] = {
-	name = "152mm三連装砲Model1934",
+	name = "三联装152mm主炮Model1934",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 1,
 	value_2 = 12,
 	icon = "55600",
 	attribute_2 = "cannon",
-	descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+	descrip = "撒丁帝国制造的改良型轻巡洋舰主炮",
 	rarity = 3,
 	damage = "7 x 6",
 	nationality = 6,
@@ -164183,14 +166723,14 @@ _G.pg.base.equip_data_statistics[95606] = {
 
 
 _G.pg.base.equip_data_statistics[95640] = {
-	name = "152mm三連装砲Model1934",
+	name = "三联装152mm主炮Model1934 ",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 3,
 	value_2 = 45,
 	icon = "55600",
 	attribute_2 = "cannon",
-	descrip = "サディア帝国製の改良型軽巡洋艦主砲 ",
+	descrip = "撒丁帝国制造的改良型轻巡洋舰主炮",
 	rarity = 5,
 	damage = "9 x 6",
 	nationality = 6,
@@ -164392,7 +166932,7 @@ _G.pg.base.equip_data_statistics[95653] = {
 
 
 _G.pg.base.equip_data_statistics[95660] = {
-	name = "試作型152mm三連装砲Model1936",
+	name = "试作型三联装152mm主炮Model1936",
 	speciality = "<[LOCK]>",
 	type = 2,
 	tech = 0,
@@ -164600,14 +167140,14 @@ _G.pg.base.equip_data_statistics[95673] = {
 
 
 _G.pg.base.equip_data_statistics[95700] = {
-	name = "潜水艦用533mm魚雷Si 270",
+	name = "潜艇用533mm鱼雷Si 270",
 	speciality = "<[TRP]>",
 	type = 13,
 	tech = 1,
 	value_2 = 12,
 	icon = "55700",
 	attribute_2 = "torpedo",
-	descrip = "",
+	descrip = "说明未填写",
 	rarity = 3,
 	damage = "42 x 2",
 	nationality = 6,
@@ -164728,7 +167268,7 @@ _G.pg.base.equip_data_statistics[95706] = {
 
 
 _G.pg.base.equip_data_statistics[95720] = {
-	name = "Fiat G.50戦闘機「アロー」",
+	name = "G.50箭式战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -164736,7 +167276,7 @@ _G.pg.base.equip_data_statistics[95720] = {
 	value_2 = 5,
 	icon = "55720",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -164847,7 +167387,7 @@ _G.pg.base.equip_data_statistics[95723] = {
 
 
 _G.pg.base.equip_data_statistics[95740] = {
-	name = "Fiat G.50戦闘機「アロー」",
+	name = "G.50箭式战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -164855,7 +167395,7 @@ _G.pg.base.equip_data_statistics[95740] = {
 	value_2 = 12,
 	icon = "55720",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -165029,7 +167569,7 @@ _G.pg.base.equip_data_statistics[95746] = {
 
 
 _G.pg.base.equip_data_statistics[95760] = {
-	name = "Fiat G.50戦闘機「アロー」",
+	name = "G.50箭式战斗机",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -165037,7 +167577,7 @@ _G.pg.base.equip_data_statistics[95760] = {
 	value_2 = 25,
 	icon = "55720",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -165317,7 +167857,7 @@ _G.pg.base.equip_data_statistics[95771] = {
 
 
 _G.pg.base.equip_data_statistics[95800] = {
-	name = "Re.2001戦闘機「アリエテ」",
+	name = "Re.2001公羊",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 2,
@@ -165325,7 +167865,7 @@ _G.pg.base.equip_data_statistics[95800] = {
 	value_2 = 5,
 	icon = "55800",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -165452,7 +167992,7 @@ _G.pg.base.equip_data_statistics[95803] = {
 
 
 _G.pg.base.equip_data_statistics[95820] = {
-	name = "Re.2001戦闘機「アリエテ」",
+	name = "Re.2001公羊",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 3,
@@ -165460,7 +168000,7 @@ _G.pg.base.equip_data_statistics[95820] = {
 	value_2 = 12,
 	icon = "55800",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -165662,7 +168202,7 @@ _G.pg.base.equip_data_statistics[95826] = {
 
 
 _G.pg.base.equip_data_statistics[95840] = {
-	name = "Re.2001戦闘機「アリエテ」",
+	name = "Re.2001公羊",
 	type = 7,
 	speciality = "<[AIR]>",
 	rarity = 4,
@@ -165670,7 +168210,7 @@ _G.pg.base.equip_data_statistics[95840] = {
 	value_2 = 25,
 	icon = "55800",
 	attribute_2 = "air",
-	descrip = "",
+	descrip = "说明未填写",
 	nationality = 6,
 	ammo = 5,
 	value_3 = 0,
@@ -165998,14 +168538,14 @@ _G.pg.base.equip_data_statistics[95851] = {
 
 
 _G.pg.base.equip_data_statistics[95900] = {
-	name = "試作型三連装406mm主砲Model1940",
+	name = "试作型三联装406mm主炮Model1940",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 45,
 	icon = "55900",
 	attribute_2 = "cannon",
-	descrip = "0",
+	descrip = "说明未填写",
 	rarity = 5,
 	damage = "53 x 3",
 	nationality = 6,
@@ -166200,7 +168740,7 @@ _G.pg.base.equip_data_statistics[95913] = {
 
 
 _G.pg.base.equip_data_statistics[95920] = {
-	name = "135mm連装砲Model1938",
+	name = "双联装135mm主炮Model1938",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -166211,7 +168751,7 @@ _G.pg.base.equip_data_statistics[95920] = {
 	rarity = 3,
 	damage = "4 x 4",
 	nationality = 6,
-	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	descrip = "撒丁帝国制造的135mm主炮，被用于罗马统帅级",
 	ammo = 3,
 	value_3 = 5,
 	id = 95920,
@@ -166338,7 +168878,7 @@ _G.pg.base.equip_data_statistics[95926] = {
 
 
 _G.pg.base.equip_data_statistics[95940] = {
-	name = "135mm連装砲Model1938",
+	name = "双联装135mm主炮Model1938",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -166349,7 +168889,7 @@ _G.pg.base.equip_data_statistics[95940] = {
 	rarity = 4,
 	damage = "4 x 4",
 	nationality = 6,
-	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	descrip = "撒丁帝国制造的135mm主炮，被用于罗马统帅级",
 	ammo = 7,
 	value_3 = 10,
 	id = 95940,
@@ -166521,7 +169061,7 @@ _G.pg.base.equip_data_statistics[95950] = {
 
 
 _G.pg.base.equip_data_statistics[95960] = {
-	name = "135mm連装砲Model1938",
+	name = "双联装135mm主炮Model1938",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -166532,7 +169072,7 @@ _G.pg.base.equip_data_statistics[95960] = {
 	rarity = 5,
 	damage = "4 x 4",
 	nationality = 6,
-	descrip = "カピターニ・ロマーニ級が装備していた135mm主砲",
+	descrip = "撒丁帝国制造的135mm主炮，被用于罗马统帅级",
 	ammo = 7,
 	value_3 = 15,
 	id = 95960,
@@ -166740,14 +169280,14 @@ _G.pg.base.equip_data_statistics[95973] = {
 
 
 _G.pg.base.equip_data_statistics[96000] = {
-	name = "SY-1ミサイル",
+	name = "上游-1",
 	speciality = "<[GUID]>",
 	type = 20,
 	tech = 0,
 	value_2 = 45,
 	icon = "56000",
 	attribute_2 = "torpedo",
-	descrip = "SY-1対艦ミサイル",
+	descrip = "上游-1导弹",
 	rarity = 5,
 	damage = "100 x 4",
 	nationality = 5,
@@ -166959,14 +169499,14 @@ _G.pg.base.equip_data_statistics[96013] = {
 
 
 _G.pg.base.equip_data_statistics[96020] = {
-	name = "SY-1甲",
+	name = "上游-1甲",
 	speciality = "<[GUID]>",
 	type = 20,
 	tech = 0,
 	value_2 = 45,
 	icon = "56020",
 	attribute_2 = "torpedo",
-	descrip = "SY-1甲ミサイル",
+	descrip = "上游-1甲导弹",
 	rarity = 5,
 	damage = "120 x 4",
 	nationality = 5,
@@ -167178,7 +169718,7 @@ _G.pg.base.equip_data_statistics[96033] = {
 
 
 _G.pg.base.equip_data_statistics[96100] = {
-	name = "試作型130mm連装砲Model 1936",
+	name = "试作型双联装130mm主炮Model1936",
 	speciality = "<[LOCK]>",
 	type = 1,
 	attribute_3 = "antiaircraft",
@@ -167395,7 +169935,7 @@ _G.pg.base.equip_data_statistics[96113] = {
 
 
 _G.pg.base.equip_data_statistics[96120] = {
-	name = "試作型254mm三連装砲Model1939",
+	name = "试作型三联装254mm主炮Model1939",
 	speciality = "<[LOCK]>",
 	type = 3,
 	tech = 0,
@@ -167603,7 +170143,7 @@ _G.pg.base.equip_data_statistics[96133] = {
 
 
 _G.pg.base.equip_data_statistics[96140] = {
-	name = "305mm三連装砲Model1909",
+	name = "三联装305mm主炮Model1909",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
@@ -167735,7 +170275,7 @@ _G.pg.base.equip_data_statistics[96147] = {
 
 
 _G.pg.base.equip_data_statistics[96160] = {
-	name = "381mm連装砲Model1914",
+	name = "双联装381mm主炮Model1914",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
@@ -167868,7 +170408,7 @@ _G.pg.base.equip_data_statistics[96167] = {
 
 
 _G.pg.base.equip_data_statistics[96180] = {
-	name = "13.2mmBreda連装対空機関砲",
+	name = "双联装Breda13.2mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
@@ -168014,7 +170554,7 @@ _G.pg.base.equip_data_statistics[96187] = {
 
 
 _G.pg.base.equip_data_statistics[96200] = {
-	name = "65mm対空砲Model1939",
+	name = "单装65mmModel1939高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
@@ -168205,7 +170745,7 @@ _G.pg.base.equip_data_statistics[96211] = {
 
 
 _G.pg.base.equip_data_statistics[96220] = {
-	name = "20mmBreda連装対空機関砲",
+	name = "双联装Breda20mm高炮",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 3,
@@ -168396,14 +170936,14 @@ _G.pg.base.equip_data_statistics[96231] = {
 
 
 _G.pg.base.equip_data_statistics[96240] = {
-	name = "試作型406mm三連装砲Model1940改",
+	name = "试作型三联装406mm主炮Model1940改",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 0,
 	value_2 = 65,
 	icon = "56240",
 	attribute_2 = "cannon",
-	descrip = "UP.41型戦艦に搭載予定の406mm三連装主砲",
+	descrip = "UP.41战列舰方案预计搭载的三联装406mm主炮",
 	rarity = 6,
 	damage = "58 x 3",
 	nationality = 6,
@@ -168598,7 +171138,7 @@ _G.pg.base.equip_data_statistics[96253] = {
 
 
 _G.pg.base.equip_data_statistics[96260] = {
-	name = "試作型20mmScotti六連装機関砲Model1941",
+	name = "试作型六联装Scotti20mm机炮Model1941",
 	speciality = "<[SRG]>",
 	type = 6,
 	tech = 0,
@@ -168813,7 +171353,7 @@ _G.pg.base.equip_data_statistics[96273] = {
 
 
 _G.pg.base.equip_data_statistics[96280] = {
-	name = "試作型533mm四連装魚雷Si 270",
+	name = "试作型四联装533毫米鱼雷Si 270",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,
@@ -169030,7 +171570,7 @@ _G.pg.base.equip_data_statistics[96293] = {
 
 
 _G.pg.base.equip_data_statistics[100000] = {
-	name = "0",
+	name = "装备模板",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 0,
@@ -169038,7 +171578,7 @@ _G.pg.base.equip_data_statistics[100000] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "敵装備",
+	descrip = "敌人用武器",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -169063,7 +171603,7 @@ _G.pg.base.equip_data_statistics[100000] = {
 
 
 _G.pg.base.equip_data_statistics[150000] = {
-	name = "刺繍の錦嚢",
+	name = "刺绣锦囊",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -169192,7 +171732,7 @@ _G.pg.base.equip_data_statistics[150011] = {
 
 
 _G.pg.base.equip_data_statistics[150020] = {
-	name = "テンペスタ・フラッグ",
+	name = "飓风旗",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -169321,14 +171861,14 @@ _G.pg.base.equip_data_statistics[150031] = {
 
 
 _G.pg.base.equip_data_statistics[150040] = {
-	name = "旧式重火砲",
+	name = "旧式重火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 1,
 	value_2 = 12,
 	icon = "150040",
 	attribute_2 = "cannon",
-	descrip = "謎の力の影響を受けた「旧式」重火砲",
+	descrip = "受到神秘的力量影响的“旧式”重火炮 ",
 	rarity = 3,
 	damage = "10 x 3",
 	nationality = 96,
@@ -169452,14 +171992,14 @@ _G.pg.base.equip_data_statistics[150046] = {
 
 
 _G.pg.base.equip_data_statistics[150080] = {
-	name = "旧式重火砲",
+	name = "旧式重火炮",
 	speciality = "<[LOCK]>",
 	type = 1,
 	tech = 3,
 	value_2 = 45,
 	icon = "150040",
 	attribute_2 = "cannon",
-	descrip = "謎の力の影響を受けた「旧式」重火砲",
+	descrip = "受到神秘的力量影响的“旧式”重火炮 ",
 	rarity = 5,
 	damage = "10 x 3",
 	nationality = 96,
@@ -169663,14 +172203,14 @@ _G.pg.base.equip_data_statistics[150093] = {
 
 
 _G.pg.base.equip_data_statistics[150100] = {
-	name = "旧式半カノン砲",
+	name = "旧式半加农炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 1,
 	value_2 = 12,
 	icon = "150100",
 	attribute_2 = "cannon",
-	descrip = "謎の力の影響を受けた「旧式」半キャノン砲",
+	descrip = "受到神秘的力量影响的“旧式”半加农炮 ",
 	rarity = 3,
 	damage = "30 x 6",
 	nationality = 96,
@@ -169781,14 +172321,14 @@ _G.pg.base.equip_data_statistics[150106] = {
 
 
 _G.pg.base.equip_data_statistics[150140] = {
-	name = "旧式半カノン砲",
+	name = "旧式半加农炮",
 	speciality = "<[VOL]>",
 	type = 4,
 	tech = 3,
 	value_2 = 45,
 	icon = "150100",
 	attribute_2 = "cannon",
-	descrip = "謎の力の影響を受けた「旧式」半キャノン砲",
+	descrip = "受到神秘的力量影响的“旧式”半加农炮 ",
 	rarity = 5,
 	damage = "38 x 6",
 	nationality = 96,
@@ -169979,7 +172519,7 @@ _G.pg.base.equip_data_statistics[150153] = {
 
 
 _G.pg.base.equip_data_statistics[150160] = {
-	name = "果物補給",
+	name = "果蔬补给品",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -169988,7 +172528,7 @@ _G.pg.base.equip_data_statistics[150160] = {
 	icon = "150160",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "航海に必要なビタミン源。果物と野菜を補給しよう！",
+	descrip = "航海中必不可少的果蔬补给品",
 	nationality = 96,
 	ammo = 10,
 	value_3 = 0,
@@ -170116,7 +172656,7 @@ _G.pg.base.equip_data_statistics[150171] = {
 
 
 _G.pg.base.equip_data_statistics[150180] = {
-	name = "航海望遠鏡",
+	name = "航海望远镜",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170127,7 +172667,7 @@ _G.pg.base.equip_data_statistics[150180] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 96,
-	descrip = "快活なる海の少女たちが愛用する望遠鏡",
+	descrip = "说明未填写",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -170254,7 +172794,7 @@ _G.pg.base.equip_data_statistics[150191] = {
 
 
 _G.pg.base.equip_data_statistics[150200] = {
-	name = "星の海B2Oエリア通行パス",
+	name = "星海B2O区通行证",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170265,7 +172805,7 @@ _G.pg.base.equip_data_statistics[150200] = {
 	attribute_2 = "antiaircraft",
 	rarity = 4,
 	nationality = 1,
-	descrip = "B2Oエリアに出入りするために必要な通行許可証。大切に保管するように",
+	descrip = "出入星海B2O区所需的通行证，请妥善保管。 ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -170394,7 +172934,7 @@ _G.pg.base.equip_data_statistics[150211] = {
 
 
 _G.pg.base.equip_data_statistics[150240] = {
-	name = "寰昌の釣り竿",
+	name = "寰昌的钓鱼竿",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170543,7 +173083,7 @@ _G.pg.base.equip_data_statistics[150251] = {
 
 
 _G.pg.base.equip_data_statistics[150260] = {
-	name = "アセンション・ボックス",
+	name = "通天之匣",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170552,7 +173092,7 @@ _G.pg.base.equip_data_statistics[150260] = {
 	icon = "150260",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "世界を一つの街に凝縮し、街を一つの世界に築く。天に登る秘奥は「箱」にあり",
+	descrip = "融世界于一城，筑一城为世界。飞升登天之道，负于一匣之中。 ",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -170671,7 +173211,7 @@ _G.pg.base.equip_data_statistics[150271] = {
 
 
 _G.pg.base.equip_data_statistics[150280] = {
-	name = "異世界冒険端末",
+	name = "异世界冒险终端",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170680,7 +173220,7 @@ _G.pg.base.equip_data_statistics[150280] = {
 	icon = "150280",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "異世界の冒険に必要不可欠なアイテム！",
+	descrip = "异世界冒险途中的不可或缺的道具！",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -170817,7 +173357,7 @@ _G.pg.base.equip_data_statistics[150293] = {
 
 
 _G.pg.base.equip_data_statistics[150300] = {
-	name = "残された時の残響",
+	name = "被定格的彼岸花",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -170950,7 +173490,7 @@ _G.pg.base.equip_data_statistics[150311] = {
 
 
 _G.pg.base.equip_data_statistics[150320] = {
-	name = "謎のD装置",
+	name = "奇怪装置「D」",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171078,7 +173618,7 @@ _G.pg.base.equip_data_statistics[150331] = {
 
 
 _G.pg.base.equip_data_statistics[150340] = {
-	name = "共同演習記念コイン（限定版）",
+	name = "联合演习纪念币（限定版）",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171087,7 +173627,7 @@ _G.pg.base.equip_data_statistics[150340] = {
 	icon = "150340",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "サディアとアイリスが共同で作った限定記念コイン。最も貴き客人にのみ贈られる",
+	descrip = "由撒丁帝国和鸢尾教国联名制作的限定版纪念币，只赠送给最尊贵的客人。",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -171206,7 +173746,7 @@ _G.pg.base.equip_data_statistics[150351] = {
 
 
 _G.pg.base.equip_data_statistics[150360] = {
-	name = "輸送用高速ドローン",
+	name = "速运高速无人机",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171217,7 +173757,7 @@ _G.pg.base.equip_data_statistics[150360] = {
 	attribute_2 = "antiaircraft",
 	rarity = 5,
 	nationality = 1,
-	descrip = "量産型の輸送用高速ドローン。高い航続力と信頼度を誇る",
+	descrip = "量产型高速货运无人机，续航持久，安全可靠。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -171390,7 +173930,7 @@ _G.pg.base.equip_data_statistics[150373] = {
 
 
 _G.pg.base.equip_data_statistics[150380] = {
-	name = "貴重品の箱",
+	name = "珍贵货物箱",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171401,7 +173941,7 @@ _G.pg.base.equip_data_statistics[150380] = {
 	attribute_2 = "reload",
 	rarity = 5,
 	nationality = 96,
-	descrip = "無数の貴重品が入っている宝箱！",
+	descrip = "装载有无数珍贵货物的宝箱！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -171545,7 +174085,7 @@ _G.pg.base.equip_data_statistics[150393] = {
 
 
 _G.pg.base.equip_data_statistics[150400] = {
-	name = "ぶどう弾",
+	name = "葡萄弹",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171556,7 +174096,7 @@ _G.pg.base.equip_data_statistics[150400] = {
 	attribute_2 = "hit",
 	rarity = 4,
 	nationality = 96,
-	descrip = "殺傷力に長ける特殊な砲弾。フネの奪取に必須かも？",
+	descrip = "专注于人员打击的特殊炮弹，夺船必备！ ",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -171694,7 +174234,7 @@ _G.pg.base.equip_data_statistics[150411] = {
 
 
 _G.pg.base.equip_data_statistics[150420] = {
-	name = "酒類補給品",
+	name = "酒饮补给品",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171703,7 +174243,7 @@ _G.pg.base.equip_data_statistics[150420] = {
 	icon = "150420",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "へべれけになるが環境の辛さも忘れさせてくれる大切な水分補給",
+	descrip = "描述待定",
 	nationality = 96,
 	ammo = 10,
 	value_3 = 0,
@@ -171831,7 +174371,7 @@ _G.pg.base.equip_data_statistics[150431] = {
 
 
 _G.pg.base.equip_data_statistics[150440] = {
-	name = "ぐつぐつ料理くん",
+	name = "咻咻料理君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171842,7 +174382,7 @@ _G.pg.base.equip_data_statistics[150440] = {
 	attribute_2 = "luck",
 	rarity = 5,
 	nationality = 111,
-	descrip = "ミクロレベルで食材を美味しく調理できるよ！",
+	descrip = "可以从微观层面让食物变得更好吃！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -171969,7 +174509,7 @@ _G.pg.base.equip_data_statistics[150453] = {
 
 
 _G.pg.base.equip_data_statistics[150460] = {
-	name = "売上アップマシン",
+	name = "嗡嗡倾听君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -171980,7 +174520,7 @@ _G.pg.base.equip_data_statistics[150460] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 111,
-	descrip = "気持ちと心の声を読み取れるすごい発明だけど、悪用しちゃだめだよ！",
+	descrip = "能够读取对方心情与想法的特殊发明，不能乱用哦！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -172115,7 +174655,7 @@ _G.pg.base.equip_data_statistics[150473] = {
 
 
 _G.pg.base.equip_data_statistics[150480] = {
-	name = "存在感消去スプレー",
+	name = "嘘嘘隐身君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172126,7 +174666,7 @@ _G.pg.base.equip_data_statistics[150480] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 111,
-	descrip = "存在感を一気に消せるよ！使いすぎると大変なことになるかも…？",
+	descrip = "使用之后存在感会变得非常稀薄，用太多的话也许会……？",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "dodge",
@@ -172260,7 +174800,7 @@ _G.pg.base.equip_data_statistics[150493] = {
 
 
 _G.pg.base.equip_data_statistics[150500] = {
-	name = "仕事が楽しくなるメカ",
+	name = "嘻嘻加班君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172271,7 +174811,7 @@ _G.pg.base.equip_data_statistics[150500] = {
 	attribute_2 = "cannon",
 	rarity = 5,
 	nationality = 111,
-	descrip = "疲労を抑えるだけじゃなく、楽しい気分にもさせるよ！残業にピッタリだね！",
+	descrip = "可以抑制疲劳的同时，让人产生快乐和幸福的感觉，很适合加班呢！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -172407,7 +174947,7 @@ _G.pg.base.equip_data_statistics[150513] = {
 
 
 _G.pg.base.equip_data_statistics[150520] = {
-	name = "ぐんぐんグロースくん",
+	name = "嘭嘭速生君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172416,7 +174956,7 @@ _G.pg.base.equip_data_statistics[150520] = {
 	icon = "150520",
 	value_1 = "10",
 	rarity = 5,
-	descrip = "対象をぐんぐん成長させるビームが出せるよ！",
+	descrip = "可以发射一种特殊的射线，让目标长大！",
 	nationality = 111,
 	ammo = 10,
 	value_3 = 0,
@@ -172569,7 +175109,7 @@ _G.pg.base.equip_data_statistics[150533] = {
 
 
 _G.pg.base.equip_data_statistics[150540] = {
-	name = "もくもくホラーくん",
+	name = "噗噗氛围君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172580,7 +175120,7 @@ _G.pg.base.equip_data_statistics[150540] = {
 	attribute_2 = "hit",
 	rarity = 5,
 	nationality = 111,
-	descrip = "使用者の感情をモニタリングし、ゾッとする雰囲気を定期的に作り出せるよ！",
+	descrip = "通过探测使用者的情绪，可以周期性制造恐怖惊悚的氛围感！",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -172739,7 +175279,7 @@ _G.pg.base.equip_data_statistics[150553] = {
 
 
 _G.pg.base.equip_data_statistics[150560] = {
-	name = "でるでるオーラくん",
+	name = "辉辉光环君",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172748,7 +175288,7 @@ _G.pg.base.equip_data_statistics[150560] = {
 	icon = "150560",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "ロイヤルの気品を纏い、強烈なオーラを放つ一品。ロイヤル以外の人でも使用可能だよ！",
+	descrip = "散发着强烈的皇家威严气息，但非皇家人士也可以试试哦！",
 	nationality = 111,
 	ammo = 10,
 	value_3 = 0,
@@ -172872,7 +175412,7 @@ _G.pg.base.equip_data_statistics[150573] = {
 
 
 _G.pg.base.equip_data_statistics[150580] = {
-	name = "絆のハンカチ",
+	name = "孟菲斯之蓝",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -172881,7 +175421,7 @@ _G.pg.base.equip_data_statistics[150580] = {
 	icon = "150580",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "メンフィスがいつも持ち歩いているハンカチ。名前は頑張って縫い付けた",
+	descrip = "孟菲斯随身携带的手帕，名字是自己努力绣上去的。",
 	nationality = 1,
 	ammo = 10,
 	value_3 = 0,
@@ -173000,7 +175540,7 @@ _G.pg.base.equip_data_statistics[150591] = {
 
 
 _G.pg.base.equip_data_statistics[150600] = {
-	name = "伏波の作戦計画",
+	name = "伏波的计划书",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173009,7 +175549,7 @@ _G.pg.base.equip_data_statistics[150600] = {
 	icon = "150600",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "『新春大冒険計画』の隣に、うっすらと消された『打倒！建武大魔王』の文字の跡が見える",
+	descrip = "在标题《庆祝新春大冒险计划书》之下，隐约可以看到被涂掉的字迹：《打倒建武大魔王大冒险计划书》。 ",
 	nationality = 5,
 	ammo = 10,
 	value_3 = 0,
@@ -173129,7 +175669,7 @@ _G.pg.base.equip_data_statistics[150611] = {
 
 
 _G.pg.base.equip_data_statistics[150620] = {
-	name = "ティアーラ・プレフェリータ",
+	name = "黑日之冕",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173140,7 +175680,7 @@ _G.pg.base.equip_data_statistics[150620] = {
 	attribute_2 = "cannon",
 	rarity = 4,
 	nationality = 6,
-	descrip = "マルコ・ポーロが2番目に好きな帽子",
+	descrip = "马可波罗仅次于圣座冠冕之外第二喜欢的帽子。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -173278,7 +175818,7 @@ _G.pg.base.equip_data_statistics[150631] = {
 
 
 _G.pg.base.equip_data_statistics[150640] = {
-	name = "チューリップの花束",
+	name = "郁金香花束",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173287,7 +175827,7 @@ _G.pg.base.equip_data_statistics[150640] = {
 	icon = "150640",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "チューリップを献じた手に余香あり",
+	descrip = "予人郁金，手有余香。",
 	nationality = 11,
 	ammo = 10,
 	value_3 = 0,
@@ -173407,7 +175947,7 @@ _G.pg.base.equip_data_statistics[150651] = {
 
 
 _G.pg.base.equip_data_statistics[150660] = {
-	name = "あたしの大事なクジラ",
+	name = "我的宝贝鲸鱼",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173416,7 +175956,7 @@ _G.pg.base.equip_data_statistics[150660] = {
 	icon = "150660",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "かわいいかわいいかわいいかわいいクジラ～！チュッ！",
+	descrip = "可爱可爱可爱可爱大鲸鱼~mua！",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -173535,7 +176075,7 @@ _G.pg.base.equip_data_statistics[150671] = {
 
 
 _G.pg.base.equip_data_statistics[150680] = {
-	name = "グランシャイン",
+	name = "宏伟光辉",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173544,7 +176084,7 @@ _G.pg.base.equip_data_statistics[150680] = {
 	icon = "150680",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "虹色の輝きを放つ大剣。あらゆる力を兼ね備えている",
+	descrip = "绽放七彩光芒的大剑，兼具所有种类的力量。",
 	nationality = 113,
 	ammo = 10,
 	value_3 = 0,
@@ -173690,7 +176230,7 @@ _G.pg.base.equip_data_statistics[150693] = {
 
 
 _G.pg.base.equip_data_statistics[150700] = {
-	name = "スペリオルグリモア",
+	name = "高级魔导书",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173699,7 +176239,7 @@ _G.pg.base.equip_data_statistics[150700] = {
 	icon = "150700",
 	value_1 = "40",
 	rarity = 5,
-	descrip = "強力な風の力を封じ込めた魔導書。本を開けば中の力を解放できる",
+	descrip = "封印了强大风之力的魔导书，只要打开便可解放书中的力量。",
 	nationality = 113,
 	ammo = 10,
 	value_3 = 0,
@@ -173844,7 +176384,7 @@ _G.pg.base.equip_data_statistics[150713] = {
 
 
 _G.pg.base.equip_data_statistics[150720] = {
-	name = "エンデメテオ",
+	name = "最终陨石",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -173855,7 +176395,7 @@ _G.pg.base.equip_data_statistics[150720] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 113,
-	descrip = "火と雷の力を纏わせた双頭剣。使いこなせば２つの力をすぐに振るうことができる",
+	descrip = "缠绕着火与雷两种力量的双头剑。熟练使用的话可以迅速发挥两种力量。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",
@@ -174012,7 +176552,7 @@ _G.pg.base.equip_data_statistics[150733] = {
 
 
 _G.pg.base.equip_data_statistics[150740] = {
-	name = "パナケイアスフィア",
+	name = "神药球",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -174023,7 +176563,7 @@ _G.pg.base.equip_data_statistics[150740] = {
 	attribute_2 = "speed",
 	rarity = 5,
 	nationality = 113,
-	descrip = "美しい花畑と青空を映し出す水晶玉。すべての傷を癒す効果を持つ",
+	descrip = "映照着美丽花田与晴空的水晶球，具有可以治愈所有伤势的效果。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",
@@ -174169,7 +176709,7 @@ _G.pg.base.equip_data_statistics[150753] = {
 
 
 _G.pg.base.equip_data_statistics[150760] = {
-	name = "アンフェルキューブ",
+	name = "地狱立方体",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -174180,7 +176720,7 @@ _G.pg.base.equip_data_statistics[150760] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 113,
-	descrip = "太古の恐ろしい魔物を封印しているキューブ。解くのはやめたほうがいいよ",
+	descrip = "封印着太古时代可怕魔物的立方体，禁止擅自解除封印。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -174328,7 +176868,7 @@ _G.pg.base.equip_data_statistics[150773] = {
 
 
 _G.pg.base.equip_data_statistics[150780] = {
-	name = "天恵のアーミラリ",
+	name = "天恩浑仪",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -174337,7 +176877,7 @@ _G.pg.base.equip_data_statistics[150780] = {
 	icon = "150780",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "再生の力を有する天球儀。中心の宝石には癒しの力が秘められている",
+	descrip = "拥有再生之力的天球仪，中心的宝石蕴含治愈之力。",
 	nationality = 113,
 	ammo = 10,
 	value_3 = 0,
@@ -174474,7 +177014,7 @@ _G.pg.base.equip_data_statistics[150793] = {
 
 
 _G.pg.base.equip_data_statistics[150800] = {
-	name = "フラミィ",
+	name = "芙拉米",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -174483,7 +177023,7 @@ _G.pg.base.equip_data_statistics[150800] = {
 	icon = "150800",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "探索を助けてくれる不思議な装置。本人曰く「機能豊富で超高性能」らしい",
+	descrip = "辅助探索用的奇特装置，自称“功能完备性能高超”。",
 	nationality = 113,
 	ammo = 10,
 	value_3 = 0,
@@ -174620,7 +177160,7 @@ _G.pg.base.equip_data_statistics[150813] = {
 
 
 _G.pg.base.equip_data_statistics[150820] = {
-	name = "重桜の招待状",
+	name = "重樱的邀请函",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -174631,7 +177171,7 @@ _G.pg.base.equip_data_statistics[150820] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 3,
-	descrip = "拝啓、指揮官様――雲仙より",
+	descrip = "指挥官，亲启——云仙",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -176395,6 +178935,61 @@ _G.pg.base.equip_data_statistics[170802] = {
 	id = 170802,
 	weapon_id = {
 		170822
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170861] = {
+	name = "专属弹幕-杜威META",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170861,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170861
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170862] = {
+	name = "专属弹幕-杜威META",
+	base = 170861,
+	id = 170862,
+	weapon_id = {
+		170862
 	},
 	hidden_skill_id = {}
 }
@@ -179412,8 +182007,10 @@ _G.pg.base.equip_data_statistics[3317601] = {
 
 _G.pg.base.equip_data_statistics[800000] = {
 	type = 1,
+	name = "【三笠剧情】驱逐武器",
 	base = 100000,
 	id = 800000,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800000
 	},
@@ -179423,8 +182020,10 @@ _G.pg.base.equip_data_statistics[800000] = {
 
 _G.pg.base.equip_data_statistics[800001] = {
 	type = 3,
+	name = "【三笠剧情】重巡武器",
 	base = 100000,
 	id = 800001,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800001
 	},
@@ -179434,8 +182033,10 @@ _G.pg.base.equip_data_statistics[800001] = {
 
 _G.pg.base.equip_data_statistics[800002] = {
 	type = 6,
+	name = "【三笠剧情】防空炮",
 	base = 100000,
 	id = 800002,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800002
 	},
@@ -179445,8 +182046,10 @@ _G.pg.base.equip_data_statistics[800002] = {
 
 _G.pg.base.equip_data_statistics[800003] = {
 	type = 5,
+	name = "【三笠剧情】三联鱼雷",
 	base = 100000,
 	id = 800003,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800003
 	},
@@ -179456,8 +182059,10 @@ _G.pg.base.equip_data_statistics[800003] = {
 
 _G.pg.base.equip_data_statistics[800004] = {
 	type = 5,
+	name = "【三笠剧情】四联鱼雷",
 	base = 100000,
 	id = 800004,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800004
 	},
@@ -179467,8 +182072,10 @@ _G.pg.base.equip_data_statistics[800004] = {
 
 _G.pg.base.equip_data_statistics[800005] = {
 	type = 7,
+	name = "【三笠剧情】重樱战斗机",
 	base = 100000,
 	id = 800005,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800005
 	},
@@ -179478,8 +182085,10 @@ _G.pg.base.equip_data_statistics[800005] = {
 
 _G.pg.base.equip_data_statistics[800006] = {
 	type = 8,
+	name = "【三笠剧情】重樱鱼雷机",
 	base = 100000,
 	id = 800006,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800006
 	},
@@ -179489,8 +182098,10 @@ _G.pg.base.equip_data_statistics[800006] = {
 
 _G.pg.base.equip_data_statistics[800007] = {
 	type = 9,
+	name = "【三笠剧情】重樱轰炸机",
 	base = 100000,
 	id = 800007,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800007
 	},
@@ -179500,8 +182111,10 @@ _G.pg.base.equip_data_statistics[800007] = {
 
 _G.pg.base.equip_data_statistics[800008] = {
 	type = 4,
+	name = "【三笠剧情】三笠主炮",
 	base = 100000,
 	id = 800008,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800008
 	},
@@ -179511,8 +182124,10 @@ _G.pg.base.equip_data_statistics[800008] = {
 
 _G.pg.base.equip_data_statistics[800009] = {
 	type = 4,
+	name = "【三笠剧情】比叡主炮",
 	base = 100000,
 	id = 800009,
+	descrip = "三笠剧情",
 	weapon_id = {
 		800009
 	},

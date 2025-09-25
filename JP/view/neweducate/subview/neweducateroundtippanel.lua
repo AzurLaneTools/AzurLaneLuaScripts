@@ -32,11 +32,9 @@ slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.callback = slot1
-	slot2 = pg.UIMgr.GetInstance()
 
-	slot2:OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 1
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1
 	})
 
 	slot2 = slot0.contextData.char
@@ -85,7 +83,7 @@ slot0.Show = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	existCall(slot0.callback)
 
 	slot0.callback = nil

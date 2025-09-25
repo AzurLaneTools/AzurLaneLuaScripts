@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "InstagramUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "InstagramMainUI"
+end
+
 slot0.preload = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.REQ_OLD_INSTAGRAM_DATA, {
 		callback = function ()
@@ -57,10 +61,7 @@ slot0.init = function(slot0)
 	slot0.timers = {}
 	slot0.toDownloadList = {}
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.SetImageByUrl = function(slot0, slot1, slot2, slot3)
@@ -387,9 +388,8 @@ slot0.willExit = function(slot0)
 	end
 
 	slot0.toDownloadList = {}
-	slot4 = pg.UIMgr.GetInstance()._normalUIMain
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:ExitDetail()
 
 	for slot4, slot5 in pairs(slot0.sprites) do

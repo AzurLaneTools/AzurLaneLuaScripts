@@ -11,14 +11,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uiAnim = slot0._tf:GetComponent(typeof(Animation))
-	slot0.uiAnimEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
-
-	slot0.uiAnimEvent:SetEndEvent(function ()
-		uv0.playingHideAnim = false
-
-		uv1.super.Hide(uv0)
-	end)
 	setText(slot0._tf:Find("top/title/Text"), i18n("island_manage_title"))
 
 	slot0.rankTF = slot0._tf:Find("rank")
@@ -44,6 +36,9 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.commoditiesTF = slot1:Find("right/commodities")
 	slot0.commoditiesEmptyTF = slot1:Find("right/commodities_empty")
+
+	setText(slot0.commoditiesEmptyTF, i18n("island_manage_stock_out"))
+
 	slot0.scrollRect = slot0.commoditiesTF:GetComponent("LScrollRect")
 	slot0.detailPanel = slot1:Find("right/detail")
 	slot0.detailNameTF = slot0.detailPanel:Find("dot/name")
@@ -51,6 +46,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.detailDescTF = slot0.detailPanel:Find("desc")
 	slot0.detailEffectTF = slot0.detailPanel:Find("effect/Text")
 	slot0.shelfsTF = slot1:Find("right/shelfs")
+
+	setText(slot0.shelfsTF:Find("infos/tip"), i18n("island_manage_item_select"))
+
 	slot0.extraCapacityTF = slot0.shelfsTF:Find("infos/capacity")
 
 	setText(slot0.extraCapacityTF:Find("name"), i18n("island_manage_capacity"))
@@ -85,6 +83,8 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.btnsTF:Find("opening/Text"), i18n("island_manage_working"))
 	setText(slot0.btnsTF:Find("close/Text"), i18n("island_manage_result"))
 	setText(slot0.btnsTF:Find("end/Text"), i18n("island_manage_end_daily_work"))
+
+	slot0.ticketBtn = slot0.btnsTF:Find("opening/ticket")
 end
 
 slot0.OnInit = function(slot0)
@@ -123,7 +123,7 @@ slot0.OnInit = function(slot0)
 	slot3 = slot0.btnsTF
 
 	onButton(slot0, slot3:Find("close"), function ()
-		uv0:emit(IslandMediator.CLOSE_RESTAURANT, uv0.restId)
+		uv0:emit(IslandMediator.CLOSE_RESTAURANT, uv0.restId, uv0.isPost)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.buffInfoBtn, function ()
 		if isActive(uv0.buffInfoPanel) then
@@ -133,6 +133,9 @@ slot0.OnInit = function(slot0)
 			uv0.buffInfoUIList:align(#uv0.buffInfos)
 			setActive(uv0.buffInfoEmptyTF, #uv0.buffInfos == 0)
 		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.ticketBtn, function ()
+		uv0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.MANAGE, uv0.restId)
 	end, SFX_PANEL)
 
 	slot1 = slot0.shipUIList
@@ -258,11 +261,12 @@ slot0.UpdateCardWithItemId = function(slot0, slot1)
 	end
 end
 
-slot0.OnShow = function(slot0, slot1)
+slot0.OnShow = function(slot0, slot1, slot2)
 	slot0:BlurPanel()
 	setActive(slot0.buffInfoPanel, false)
 
 	slot0.restId = slot1
+	slot0.isPost = slot2
 	slot0.cards = {}
 
 	slot0:Flush()
@@ -307,11 +311,10 @@ end
 slot0.FlushRank = function(slot0)
 	LoadImageSpriteAsync("island/islandrestaurant/" .. slot0.rest:GetRankIcon(), slot0.rankIcon)
 
-	slot1 = slot0.rest:GetSales()
 	slot2 = slot0.rest:GetCanUpgradeExp()
 
-	setText(slot0.rankText, slot1 .. "/" .. slot2)
-	setSlider(slot0.rankSlider, 0, 1, slot1 / slot2)
+	setText(slot0.rankText, slot0.rest:GetSales() .. "/" .. slot2)
+	setSlider(slot0.rankSlider, 0, 1, slot2 == 0 and 0 or slot1 / slot2)
 end
 
 slot0.FlushEvent = function(slot0)
@@ -407,10 +410,13 @@ slot0.UpdateShipItem = function(slot0, slot1, slot2)
 			return
 		end
 
-		uv1:OpenPage(IslandShipSelectPage, #uv1.assistantsData, Clone(uv1.selectedShipIds), nil, function (slot0)
-			uv0:OnSelectedShipsDone(slot0)
-		end, nil, {
+		uv1:OpenPage(IslandShipSelectPage, {
 			showBenefits = true,
+			selectNum = #uv1.assistantsData,
+			selectedIds = Clone(uv1.selectedShipIds),
+			confirmFunc = function (slot0)
+				uv0:OnSelectedShipsDone(slot0)
+			end,
 			emptyInfoTitle = uv1.rest:getConfig("name")
 		})
 	end, SFX_PANEL)
@@ -536,7 +542,7 @@ end
 slot0.GetAttrsFactorsRatio = function(slot0, slot1)
 	slot2 = uv0[slot1].sub_attribute[2] / 100
 
-	return (slot0:GetMainAttrFactors(slot1) + slot0:GetSubAttrFactors(slot1) * slot2) / (#slot0.assistantsData * (slot0.maxAttrEffect + slot0.maxAttrEffect * slot2))
+	return #slot0.assistantsData * (slot0.maxAttrEffect + slot0.maxAttrEffect * slot2) == 0 and 0 or (slot0:GetMainAttrFactors(slot1) + slot0:GetSubAttrFactors(slot1) * slot2) / slot4
 end
 
 slot0.FlushShelfs = function(slot0)
@@ -707,6 +713,10 @@ slot0.GetAutoShipIds = function(slot0)
 		end
 	end
 
+	if #slot2 == 0 and #slot0.assistantsData > 0 then
+		table.insert(slot2, IslandCharacterAgency.NPC_CONFIG_ID)
+	end
+
 	return slot2
 end
 
@@ -754,16 +764,6 @@ slot0.StopTimer = function(slot0)
 	end
 end
 
-slot0.Hide = function(slot0)
-	if slot0.playingHideAnim then
-		return
-	end
-
-	slot0.uiAnim:Play("anim_IslandRestaurantUI_Out")
-
-	slot0.playingHideAnim = true
-end
-
 slot0.OnHide = function(slot0)
 	slot0:StopTimer()
 	slot0:UnBlurPanel()
@@ -775,7 +775,6 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:OnHide()
-	slot0.uiAnimEvent:SetEndEvent(nil)
 end
 
 slot0.CaclShipAttrFactors = function(slot0, slot1)

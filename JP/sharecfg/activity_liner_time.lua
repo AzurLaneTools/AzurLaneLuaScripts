@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.activity_liner_time = {
 	{
-		desc_before = "クルーズ船に登ろう",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 1,
-		desc_after = "いよいよ出航だ",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -16,10 +16,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "出航の宴会に参加しよう",
+		desc_before = "参加「启航之宴」",
 		type = 1,
 		id = 2,
-		desc_after = "宴会をいっぱい楽しんだ",
+		desc_after = "吃饱喝足，宴会圆满结束",
 		bg_name = "day",
 		time = {
 			8,
@@ -31,10 +31,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "ジムに行って運動する",
+		desc_before = "计划去运动场活动一下",
 		type = 1,
 		id = 3,
-		desc_after = "盛り上がる試合を見させてもらった",
+		desc_after = "在运动场见识了一场精彩的比赛",
 		bg_name = "day",
 		time = {
 			12,
@@ -46,10 +46,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "水族館に行ってみよう",
+		desc_before = "计划去水族馆参观一下",
 		type = 1,
 		id = 4,
-		desc_after = "水族館とのんびりとした時間を過ごした",
+		desc_after = "在水族馆度过了惬意的时光",
 		bg_name = "day",
 		time = {
 			14,
@@ -61,10 +61,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "テラスバーに一杯やってみよう",
+		desc_before = "考虑去露天水吧小酌几杯",
 		type = 1,
 		id = 5,
-		desc_after = "チェシャーのマジックショー、最高だ",
+		desc_after = "欣赏了柴郡厉害的魔术表演",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -77,10 +77,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 6,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -88,10 +88,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "謎の間に行ってみよう",
+		desc_before = "前去神秘角落赴约",
 		type = 3,
 		id = 7,
-		desc_after = "調査員に転職！したのかな？",
+		desc_after = "成为，调查员！",
 		bg_name = "night",
 		time = {
 			1,
@@ -107,10 +107,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 8,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -122,10 +122,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "甲板プールに行ってみよう",
+		desc_before = "考虑去露天泳池游泳",
 		type = 1,
 		id = 9,
-		desc_after = "オーバーヒートしてしまったアルザスを保健室に運んだ",
+		desc_after = "将过热的阿尔萨斯送去了医务室",
 		bg_name = "day",
 		time = {
 			8,
@@ -137,10 +137,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "客室エリアを散歩しよう",
+		desc_before = "考虑去居住区转转",
 		type = 1,
 		id = 10,
-		desc_after = "何も起きなかった…か",
+		desc_after = "一切正常，无事发生",
 		bg_name = "day",
 		time = {
 			12,
@@ -152,10 +152,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "レジャートーナメントに参加しよう",
+		desc_before = "参加「水上乐园大赛」",
 		type = 1,
 		id = 11,
-		desc_after = "激しい戦いだったが、試合は大成功だ",
+		desc_after = "激战后，大赛圆满结束",
 		bg_name = "day",
 		time = {
 			14,
@@ -167,10 +167,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "教室の様子が気になる",
+		desc_before = "去教室看看或许会很有趣",
 		type = 1,
 		id = 12,
-		desc_after = "みんなよく勉強しているな……",
+		desc_after = "好好学习，天天向上",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -183,10 +183,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 13,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -194,10 +194,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "不思議事件の調査",
+		desc_before = "调查异常事件",
 		type = 3,
 		id = 14,
-		desc_after = "不思議事件調査完了",
+		desc_after = "异常事件调查完毕",
 		bg_name = "night",
 		time = {
 			1,
@@ -207,7 +207,7 @@ pg.activity_liner_time = {
 			{
 				7,
 				1,
-				"プリンツ・オイゲンの連絡を受けてメイド喫茶にやってきた。少し離れた場所で、仲間たちがテーブルを囲んで歓談している。",
+				"收到{namecode:427}的联络后来到了女仆咖啡厅。不远处，一些同伴正围着一张餐桌交谈着。",
 				{
 					1
 				}
@@ -215,7 +215,7 @@ pg.activity_liner_time = {
 			{
 				6,
 				1,
-				"甲板ガーデンで、ブリストルは何か調べているようだ。",
+				"露天公园中，布里斯托尔似乎正调查着什么。",
 				{
 					2
 				}
@@ -223,7 +223,7 @@ pg.activity_liner_time = {
 			{
 				8,
 				1,
-				"ジムを通りかかった時、重い物が床を引きずる音が聞こえた。",
+				"在路过运动场时，听到了重物拖过地板的声音。",
 				{
 					3
 				}
@@ -231,10 +231,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 15,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -246,10 +246,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "甲板ガーデンで気分転換",
+		desc_before = "考虑去露天公园散步",
 		type = 1,
 		id = 16,
-		desc_after = "コンステレーションからの「お礼」を貰った",
+		desc_after = "获得了星座的“谢礼”",
 		bg_name = "day",
 		time = {
 			8,
@@ -276,10 +276,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"休憩時間"
+				"休息或其他"
 			},
 			{
-				"無人島に上陸する"
+				"重返「无人岛」"
 			},
 			{},
 			{},
@@ -289,10 +289,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"休憩時間"
+				"休息或其他"
 			},
 			{
-				"無人島に上陸した"
+				"重返「无人岛」"
 			},
 			{},
 			{},
@@ -300,10 +300,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "大浴場でモガドールのニオイが…？",
+		desc_before = "预定去大浴场找莫加多尔",
 		type = 1,
 		id = 18,
-		desc_after = "更衣室のエアコンもついでに直した",
+		desc_after = "最后成功修好了更衣室的空调",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -316,10 +316,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 19,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -327,10 +327,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "不思議事件の調査",
+		desc_before = "调查异常事件",
 		type = 3,
 		id = 20,
-		desc_after = "調査隊と中間会議を行った",
+		desc_after = "调查阶段性会议顺利闭幕",
 		bg_name = "night",
 		time = {
 			1,
@@ -340,7 +340,7 @@ pg.activity_liner_time = {
 			{
 				25,
 				1,
-				"龍武からの連絡を受けて中央キッチンに向かった。キッチンでは、仲間たちが何かを探し回っていた。",
+				"收到龙武的联络后来到了中央厨房。厨房中，一些同伴正在四处翻找着什么。",
 				{
 					4
 				}
@@ -348,7 +348,7 @@ pg.activity_liner_time = {
 			{
 				10,
 				1,
-				"ニューカッスルからの連絡を受けて、バンケットの貯蔵庫に向かった。",
+				"收到纽卡斯尔的联络来到了宴会厅的储藏室。",
 				{
 					5
 				}
@@ -356,7 +356,7 @@ pg.activity_liner_time = {
 			{
 				28,
 				1,
-				"2つの事件はどちらも食べ物に関連しているが、食料の在庫量が最も多い場所といえば、間違いなく貯蔵庫だ。",
+				"两起事件都与食物有关，而说到食物保有量最大的地方，无疑就是仓库了。",
 				{
 					6
 				}
@@ -370,10 +370,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 21,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -385,10 +385,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "セキュリティ演習に参加しよう",
+		desc_before = "参加「安全演习」",
 		type = 1,
 		id = 22,
-		desc_after = "無事護衛されながら演習をこなした",
+		desc_after = "护送任务成功，演习圆满结束",
 		bg_name = "day",
 		time = {
 			8,
@@ -400,10 +400,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "荷卸通路で騒ぎが…？",
+		desc_before = "今天的转接区好像很热闹",
 		type = 1,
 		id = 23,
-		desc_after = "相変わらず騒がしいな…",
+		desc_after = "今天的转接区好像很热闹",
 		bg_name = "day",
 		time = {
 			12,
@@ -415,10 +415,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "甲板プールでセントルイスと…",
+		desc_before = "预定去露天泳池找圣路易斯",
 		type = 1,
 		id = 24,
-		desc_after = "日焼け止めクリームも飲み物も結構効いたな…",
+		desc_after = "防晒乳很有效，冰饮也好喝",
 		bg_name = "day",
 		time = {
 			14,
@@ -430,10 +430,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "中央キッチンを見学しよう",
+		desc_before = "去厨房看看吧",
 		type = 1,
 		id = 25,
-		desc_after = "きっちん…うま……",
+		desc_after = "厨房，好吃",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -446,10 +446,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 26,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -457,10 +457,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "调查异常事件",
 		type = 3,
 		id = 27,
-		desc_after = "不思議事件調査完了",
+		desc_after = "异常事件调查完毕",
 		bg_name = "night",
 		time = {
 			1,
@@ -470,7 +470,7 @@ pg.activity_liner_time = {
 			{
 				17,
 				1,
-				"撫順が収集した情報に基づき、客室エリア・Aのある廊下にやってきた。",
+				"根据抚顺收集到的情报来到了居住船舱（A区）的某条走廊中。",
 				{
 					7
 				}
@@ -478,7 +478,7 @@ pg.activity_liner_time = {
 			{
 				18,
 				1,
-				"ジャーナリスト兼探偵のアルフレード・オリアーニから連絡を受け、客室エリア・Bにやってきた。",
+				"接到在记者兼调查员阿尔弗雷多的联络，来到了居住船舱（B区）",
 				{
 					8
 				}
@@ -486,7 +486,7 @@ pg.activity_liner_time = {
 			{
 				19,
 				1,
-				"客室エリア・Cの廊下を通りかかったところ、こそこそと動く人影を見かけた。",
+				"路过居住船舱（C区）的走廊时，看见了一个鬼鬼祟祟的身影。",
 				{
 					9
 				}
@@ -507,56 +507,56 @@ pg.activity_liner_time = {
 		},
 		desc_before = {
 			{
-				"休憩時間"
+				"休息或其他"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			}
 		},
 		desc_after = {
 			{
-				"休憩時間"
+				"休息或其他"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			},
 			{
-				"海賊船に「拉致」された"
+				"遭遇'海盗'劫持"
 			}
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 29,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -568,10 +568,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "日向ぼっこ日和だ",
+		desc_before = "阳光明媚，宜晒太阳",
 		type = 1,
 		id = 30,
-		desc_after = "ハルビンと新しい約束をした",
+		desc_after = "与滨江定下了新的约定",
 		bg_name = "day",
 		time = {
 			8,
@@ -583,10 +583,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "テンペスタの拠点で観光",
+		desc_before = "前往「飓风码头」观光",
 		type = 1,
 		id = 31,
-		desc_after = "海の下で「お宝」を手に入れた",
+		desc_after = "在水下得到了“宝藏”",
 		bg_name = "day",
 		time = {
 			12,
@@ -598,10 +598,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "土佐は客室エリアに…？",
+		desc_before = "去居住区寻找{namecode:81}的身影",
 		type = 1,
 		id = 32,
-		desc_after = "パーティー前にいい景色を眺めた",
+		desc_after = "于舞会前欣赏了美好的风景",
 		bg_name = "day",
 		time = {
 			14,
@@ -613,10 +613,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "仮装パーティーに参加しよう",
+		desc_before = "参加「变装舞会」",
 		type = 1,
 		id = 33,
-		desc_after = "パーティーは無事終了した",
+		desc_after = "曲终人不散，舞会圆满结束",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -629,10 +629,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 34,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -640,10 +640,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "貯蔵庫に行ってみよう",
+		desc_before = "前往储藏室赴约",
 		type = 3,
 		id = 35,
-		desc_after = "不思議事件、ようやく真相にたどり着いた",
+		desc_after = "异常事件终于真相大白了",
 		bg_name = "night",
 		time = {
 			1,
@@ -659,10 +659,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 36,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -674,10 +674,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "操舵室で浮き氷の状況を確認",
+		desc_before = "去驾驶台调查浮冰情况",
 		type = 1,
 		id = 37,
-		desc_after = "氷山が氷像になった。まあいいんじゃない？",
+		desc_after = "冰山变成了冰雕，好看",
 		bg_name = "day",
 		time = {
 			8,
@@ -689,10 +689,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "メイド・コンクールとは…？",
+		desc_before = "参加「女仆营业大比拼」",
 		type = 1,
 		id = 38,
-		desc_after = "対局が終わった？かも",
+		desc_after = "比拼结束了么？或许吧",
 		bg_name = "day",
 		time = {
 			12,
@@ -704,10 +704,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "ネコハウスで癒やされに行こう",
+		desc_before = "计划去猫房治愈一下精神",
 		type = 1,
 		id = 39,
-		desc_after = "猫をネコハウスに返した",
+		desc_after = "用高效手段抓回了越狱的猫",
 		bg_name = "day",
 		time = {
 			14,
@@ -719,10 +719,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "アーダルベルトの部屋にて…",
+		desc_before = "前去{namecode:455}的船舱赴约",
 		type = 1,
 		id = 40,
-		desc_after = "こっちも滑らないように注意しないと",
+		desc_after = "肥皂危险，小心地滑",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -735,10 +735,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 41,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -746,10 +746,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "謎の間に集合しよう",
+		desc_before = "前往神秘角落赴约",
 		type = 3,
 		id = 42,
-		desc_after = "またもや不思議事件が出た。引き続き調査しよう",
+		desc_after = "异常事件再次出现，继续调查",
 		bg_name = "night",
 		time = {
 			1,
@@ -765,10 +765,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 43,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "night",
 		time = {
 			3,
@@ -780,10 +780,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "テナントエリアでお買い物",
+		desc_before = "去大商场购物",
 		type = 1,
 		id = 44,
-		desc_after = "商品に隠された真実を見つけた",
+		desc_after = "找到了商品中隐藏的真相",
 		bg_name = "day",
 		time = {
 			8,
@@ -795,10 +795,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "客室エリアで散歩しよう",
+		desc_before = "考虑去居住区转转",
 		type = 1,
 		id = 45,
-		desc_after = "危うく寝てしまったところだった……",
+		desc_after = "好险，差点就睡着了……",
 		bg_name = "day",
 		time = {
 			12,
@@ -810,10 +810,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "ゲームコーナーで肩慣らし",
+		desc_before = "比赛前先去娱乐室找找手感",
 		type = 1,
 		id = 46,
-		desc_after = "タシュケントから「おしおき」を受けた",
+		desc_after = "接受了塔什干的“惩罚”",
 		bg_name = "day",
 		time = {
 			14,
@@ -825,10 +825,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "「ゲーム☆ナイト」の時間だ",
+		desc_before = "参与「游戏之夜」",
 		type = 1,
 		id = 47,
-		desc_after = "いいゲームだった。GG",
+		desc_after = "游戏很好玩",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -841,10 +841,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "4",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 48,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "night",
 		time = {
 			20,
@@ -852,10 +852,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "不思議事件の調査",
+		desc_before = "调查异常事件",
 		type = 3,
 		id = 49,
-		desc_after = "不思議事件調査完了",
+		desc_after = "异常事件调查完毕",
 		bg_name = "night",
 		time = {
 			1,
@@ -865,7 +865,7 @@ pg.activity_liner_time = {
 			{
 				23,
 				1,
-				"映画館を通りかかった時、悲鳴が聞こえ、続けて一連の小さな爆発音が聞こえた。",
+				"路过电影院时，听到了一声凄惨的尖叫，紧接着是一连串细小的爆炸声。",
 				{
 					10
 				}
@@ -873,7 +873,7 @@ pg.activity_liner_time = {
 			{
 				21,
 				1,
-				"エマから、大浴場で開かれているサディアのパーティーで極めて深刻な危機的事態が発生したとの連絡を受けた。",
+				"收到佩萨格诺的联络，大浴场中举行的撒丁派对出现了一场极其严重的危机事件。",
 				{
 					11
 				}
@@ -881,7 +881,7 @@ pg.activity_liner_time = {
 			{
 				24,
 				1,
-				"テナントを通りかかった時、エセックスが突然店内でお土産を買いたいと言い出した。",
+				"路过大商场时，埃塞克斯突然提出要去商场里购买纪念品。",
 				{
 					12
 				}
@@ -889,10 +889,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "休憩時間",
+		desc_before = "休息或其它",
 		type = 4,
 		id = 50,
-		desc_after = "休憩時間",
+		desc_after = "休息或其它",
 		bg_name = "aurora",
 		time = {
 			3,
@@ -904,10 +904,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "バルコニーで気分転換",
+		desc_before = "考虑去露天阳台散心",
 		type = 1,
 		id = 51,
-		desc_after = "エムデンから「ヒント」をもらった",
+		desc_after = "从{namecode:448}处得到了“指引”",
 		bg_name = "aurora",
 		time = {
 			8,
@@ -919,10 +919,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "露天バーベキュー大会に参加しよう",
+		desc_before = "参加「露天海上烧烤会」",
 		type = 1,
 		id = 52,
-		desc_after = "オーロラBBQ大会が大成功した",
+		desc_after = "极光下，露天海上烧烤会圆满成功",
 		bg_name = "aurora",
 		time = {
 			12,
@@ -950,10 +950,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"帰る前にやらなきゃならない仕事が…"
+				"还有在返航前需要处理的工作"
 			},
 			{
-				"自由時間"
+				"无计划自由时间"
 			},
 			{},
 			{}
@@ -963,10 +963,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"メンフィスと一緒に仕事をした"
+				"和孟菲斯一同在办公室工作"
 			},
 			{
-				"メンフィスと一緒に仕事をした"
+				"和孟菲斯一同在办公室工作"
 			},
 			{},
 			{}
@@ -974,10 +974,10 @@ pg.activity_liner_time = {
 	},
 	{
 		param = "3",
-		desc_before = "自由時間",
+		desc_before = "无计划自由时间",
 		type = 2,
 		id = 54,
-		desc_after = "$1を調べた",
+		desc_after = "探索了$1",
 		bg_name = "aurora",
 		time = {
 			20,
@@ -985,10 +985,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "不思議事件の調査",
+		desc_before = "调查异常事件",
 		type = 3,
 		id = 55,
-		desc_after = "真実を知ることができた",
+		desc_after = "得到了真正的真相",
 		bg_name = "aurora",
 		time = {
 			1,

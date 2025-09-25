@@ -29,17 +29,19 @@ slot0.execute = function(slot0, slot1)
 			slot2:UpdateEnergyBeginRecoverTime(slot1:GetDelegationSlotData(slot0.ship_appoint.id):GetRoleDelegateFinishTime())
 			slot2:UpdateState(uv1 == IslandTechnologyAgency.PLACE_ID and IslandShip.STATE_DELEGATION or IslandShip.STATE_TECHNOLOGY, uv1)
 
-			for slot11, slot12 in ipairs(pg.island_formula[uv4].commission_cost) do
-				uv5:RemoveItem(slot12[1], slot12[2] * uv6)
+			for slot12, slot13 in ipairs(pg.island_formula[slot3:GetFormulaId()].commission_cost) do
+				uv4:RemoveItem(slot13[1], slot13[2] * uv5)
 			end
 
-			uv2:DispatchEvent(uv7.START_DELEGATION, {
+			uv2:DispatchEvent(uv6.START_DELEGATION, {
 				build_id = uv1,
 				ship_id = uv3,
-				area_id = uv8
+				area_id = uv7
 			})
-			uv9:sendNotification(GAME.ISLAND_START_DELEGATION_DONE)
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv8, uv4, uv6))
+			uv8:sendNotification(GAME.ISLAND_START_DELEGATION_DONE, {
+				slotId = uv7
+			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandStartDelegation(uv3, uv1, uv7, uv9, uv5))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

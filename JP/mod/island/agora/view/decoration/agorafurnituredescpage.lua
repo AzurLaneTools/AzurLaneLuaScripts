@@ -14,6 +14,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.descTxt = slot0:findTF("Text"):GetComponent(typeof(Text))
 	slot0.icon = slot0:findTF("icon"):GetComponent(typeof(Image))
 	slot0.cntTxt = slot0:findTF("cnt/Text"):GetComponent(typeof(Text))
+
+	setActive(slot0:findTF("cnt"), false)
 end
 
 slot0.Show = function(slot0, slot1, slot2)
@@ -38,7 +40,9 @@ slot0.FlushInfo = function(slot0, slot1)
 	slot0.cntTxt.text = slot1:GetAvailableCnt()
 
 	LoadSpriteAsync("island/IslandFurnitureIcon/" .. slot2:GetIcon(), function (slot0)
-		uv0.icon.sprite = slot0
+		if not IsNil(uv0.icon) then
+			uv0.icon.sprite = slot0
+		end
 	end)
 end
 

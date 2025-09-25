@@ -4580,6 +4580,18 @@ pg.painting_filte_map = {
 			"painting/duwei_3"
 		}
 	},
+	duwei_alter = {
+		key = "duwei_alter",
+		res_list = {
+			"painting/duwei_alter_tex",
+			"painting/duwei_alter_rw_tex",
+			"painting/duwei_alter_n_tex",
+			"painting/duwei_alter_n_rw_tex",
+			"painting/duwei_alter_n",
+			"painting/duwei_alter_bj_tex",
+			"painting/duwei_alter"
+		}
+	},
 	duyisibao = {
 		key = "duyisibao",
 		res_list = {
@@ -6704,6 +6716,17 @@ pg.painting_filte_map = {
 			"painting/heitaizi_5"
 		}
 	},
+	heitaizi_h = {
+		key = "heitaizi_h",
+		res_list = {
+			"painting/heitaizi_h_tex",
+			"painting/heitaizi_h_rw_tex",
+			"painting/heitaizi_h_n_rw_tex",
+			"painting/heitaizi_h_n",
+			"painting/heitaizi_h_bj_tex",
+			"painting/heitaizi_h"
+		}
+	},
 	heiyansheshou = {
 		key = "heiyansheshou",
 		res_list = {
@@ -7720,6 +7743,16 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/jiangfeng_2_tex",
 			"painting/jiangfeng_2"
+		}
+	},
+	jiangfeng_3 = {
+		key = "jiangfeng_3",
+		res_list = {
+			"painting/jiangfeng_3_tex",
+			"painting/jiangfeng_3_rw_tex",
+			"painting/jiangfeng_3_n_rw_tex",
+			"painting/jiangfeng_3_n",
+			"painting/jiangfeng_3"
 		}
 	},
 	jiangfeng_alter = {
@@ -15712,6 +15745,7 @@ pg.painting_filte_map = {
 		key = "tiancheng",
 		res_list = {
 			"painting/tiancheng_tex",
+			"painting/tiancheng_h_rw_tex",
 			"painting/tiancheng"
 		}
 	},
@@ -15755,6 +15789,16 @@ pg.painting_filte_map = {
 			"painting/tiancheng_cv_2_n_tex",
 			"painting/tiancheng_cv_2_n",
 			"painting/tiancheng_cv_2"
+		}
+	},
+	tiancheng_cv_h = {
+		key = "tiancheng_cv_h",
+		res_list = {
+			"painting/tiancheng_cv_h_tex",
+			"painting/tiancheng_cv_h_n_rw_tex",
+			"painting/tiancheng_cv_h_n",
+			"painting/tiancheng_cv_h_bj_tex",
+			"painting/tiancheng_cv_h"
 		}
 	},
 	tiancheng_hei = {
@@ -17041,6 +17085,18 @@ pg.painting_filte_map = {
 			"painting/wuerlixi_4_n_tex",
 			"painting/wuerlixi_4_n",
 			"painting/wuerlixi_4"
+		}
+	},
+	wuerlixi_h = {
+		key = "wuerlixi_h",
+		res_list = {
+			"painting/wuerlixi_h_tex",
+			"painting/wuerlixi_h_rw_tex",
+			"painting/wuerlixi_h_n_tex",
+			"painting/wuerlixi_h_n_rw_tex",
+			"painting/wuerlixi_h_n",
+			"painting/wuerlixi_h_bj_tex",
+			"painting/wuerlixi_h"
 		}
 	},
 	wululu = {

@@ -106,7 +106,7 @@ slot0.Hide = function(slot0)
 
 	slot0.spItemID = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.setOpenCommanderTag = function(slot0, slot1)
@@ -482,8 +482,7 @@ slot0.set = function(slot0, slot1, slot2, slot3)
 						PlayerPrefs.SetInt("SPOPItemReminder", 1)
 						PlayerPrefs.Save()
 						uv0()
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			else
 				slot0()

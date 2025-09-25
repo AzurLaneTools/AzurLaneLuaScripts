@@ -21,6 +21,7 @@ slot0.Ctor = function(slot0)
 	pg.m02:registerMediator(slot0)
 
 	slot0.state = uv1
+	slot0.settingsDic = {}
 	slot0.settingsStack = {}
 end
 
@@ -82,18 +83,39 @@ slot0.Init = function(slot0, slot1)
 	setActive(slot0._go, true)
 end
 
-slot0.SetActive = function(slot0, slot1)
-	if slot1.active then
-		table.insert(slot0.settingsStack, slot1)
-		slot0:Enable(slot1)
-	else
-		if slot1.clear then
-			slot0.settingsStack = {}
-		else
-			table.remove(slot0.settingsStack)
-		end
+slot0.SetSettings = function(slot0, slot1, slot2)
+	slot0.settingsDic[slot1] = slot2
 
-		slot0:Disable()
+	slot0:Reflush()
+end
+
+slot0.RemoveSettings = function(slot0, slot1)
+	slot0.settingsDic[slot1] = nil
+
+	slot0:Reflush()
+end
+
+slot0.GetWeight = function(slot0, slot1)
+	return pg.LayerWeightMgr.GetInstance().groupWeightDic[slot1]
+end
+
+slot0.Reflush = function(slot0)
+	slot1 = nil
+
+	for slot5, slot6 in pairs(slot0.settingsDic) do
+		if not slot1 or slot0:GetWeight(slot1) < slot0:GetWeight(slot5) then
+			slot1 = slot5
+		end
+	end
+
+	if (slot1 and slot0.settingsDic[slot1] or nil) ~= slot0.topSettings then
+		slot0.topSettings = slot1 and slot0.settingsDic[slot1] or nil
+
+		if slot0.topSettings then
+			slot0:Enable(slot0.topSettings)
+		else
+			slot0:Disable()
+		end
 	end
 end
 
@@ -128,15 +150,9 @@ slot0.Disable = function(slot0)
 		pg.goldExchangeMgr = nil
 	end
 
-	if #slot0.settingsStack > 0 then
-		slot1 = slot0.settingsStack[#slot0.settingsStack]
-		slot1.anim = false
-
-		slot0:Enable(slot1)
-	elseif slot0:IsLoaded() then
-		if slot0:IsLoaded() then
-			setActive(slot0._go, false)
-		end
+	if slot0:IsLoaded() then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+		setActive(slot0._go, false)
 
 		slot0.state = uv0
 	end
@@ -146,7 +162,6 @@ slot0.CustomSetting = function(slot0, slot1)
 	setActive(slot0.oilAddBtn, bit.band(slot1.showType, uv0.TYPE_OIL) > 0)
 	setActive(slot0.goldAddBtn, bit.band(slot2, uv0.TYPE_GOLD) > 0)
 	setActive(slot0.gemAddBtn, bit.band(slot2, uv0.TYPE_GEM) > 0)
-	slot0._go.transform:SetAsLastSibling()
 
 	if slot1.anim then
 		slot0:DoAnimation()
@@ -156,15 +171,7 @@ slot0.CustomSetting = function(slot0, slot1)
 	slot0.gemAddBtn.anchoredPosition3D = Vector3(slot0.gemPos.x + slot3, slot0.gemPos.y, 1)
 	slot0.oilAddBtn.anchoredPosition3D = Vector3(slot0.oilPos.x + slot3, slot0.oilPos.y, 1)
 
-	NotchAdapt.AdjustUI()
-	setCanvasOverrideSorting(slot0._tf, tobool(slot1.canvasOrder))
-
-	if slot1.canvasOrder then
-		GetComponent(slot0._tf, typeof(Canvas)).sortingOrder = slot1.canvasOrder
-	end
-
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
-		weight = slot1.weight,
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot1.groupName
 	})
 end
@@ -193,8 +200,7 @@ slot0.ClickGem = function(slot0)
 			yesText = "text_buy",
 			content = i18n("word_diamond_tip", slot1:getFreeGem(), slot1:getChargeGem(), slot1:getTotalGem()),
 			onYes = slot2,
-			alignment = TextAnchor.UpperLeft,
-			weight = LayerWeightConst.TOP_LAYER
+			alignment = TextAnchor.UpperLeft
 		})
 	else
 		slot2()
@@ -242,8 +248,7 @@ slot0.ClickOil = function(slot0)
 					id = uv0
 				})
 				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_OIL)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

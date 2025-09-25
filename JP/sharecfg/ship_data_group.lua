@@ -1958,6 +1958,12 @@ pg.ship_data_group = setmetatable({
 		[1010008] = {
 			10008
 		},
+		[1020001] = {
+			10021
+		},
+		[1020002] = {
+			10022
+		},
 		[1030001] = {
 			10031
 		},
@@ -2437,6 +2443,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970109] = {
 			30051
+		},
+		[970110] = {
+			30052
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3095,6 +3104,8 @@ pg.ship_data_group = setmetatable({
 			10006,
 			10007,
 			10008,
+			10021,
+			10022,
 			10031,
 			10032,
 			10033,
@@ -3258,7 +3269,8 @@ pg.ship_data_group = setmetatable({
 			30048,
 			30049,
 			30050,
-			30051
+			30051,
+			30052
 		}
 	},
 	all = {
@@ -3914,6 +3926,8 @@ pg.ship_data_group = setmetatable({
 		10006,
 		10007,
 		10008,
+		10021,
+		10022,
 		10031,
 		10032,
 		10033,
@@ -4073,7 +4087,8 @@ pg.ship_data_group = setmetatable({
 		30048,
 		30049,
 		30050,
-		30051
+		30051,
+		30052
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4102,7 +4117,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"勲章交換",
+				"勋章商店兑换",
 				{
 					"SHOP",
 					{
@@ -4112,7 +4127,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特別補給",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -4122,7 +4137,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設任務",
+				"每周任务",
 				{
 					""
 				},
@@ -4154,7 +4169,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"勲章交換",
+				"勋章商店兑换",
 				{
 					"SHOP",
 					{
@@ -4164,7 +4179,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特別補給",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -4174,7 +4189,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設任務",
+				"每周任务",
 				{
 					""
 				},
@@ -4206,7 +4221,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"プロトショップ",
+				"原型商店兑换",
 				{
 					"SHOP",
 					{
@@ -4241,7 +4256,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域13-3",
+				"推荐探索关卡13-3",
 				{
 					"LEVEL",
 					{
@@ -4285,7 +4300,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4295,7 +4310,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-3",
+				"推荐探索关卡1-3",
 				{
 					"LEVEL",
 					{
@@ -4305,7 +4320,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4350,7 +4365,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4360,7 +4375,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-3",
+				"推荐探索关卡1-3",
 				{
 					"LEVEL",
 					{
@@ -4370,7 +4385,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4406,7 +4421,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4416,7 +4431,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -4451,7 +4466,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
@@ -4483,7 +4498,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4493,7 +4508,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-1",
+				"推荐探索关卡1-1",
 				{
 					"LEVEL",
 					{
@@ -4503,7 +4518,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4539,7 +4554,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4549,7 +4564,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-1",
+				"推荐探索关卡1-1",
 				{
 					"LEVEL",
 					{
@@ -4559,7 +4574,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4595,7 +4610,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"図鑑報酬達成",
+				"收藏解锁",
 				{
 					"COLLECTSHIP",
 					{
@@ -4639,7 +4654,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4649,7 +4664,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-1",
+				"推荐探索关卡4-1",
 				{
 					"LEVEL",
 					{
@@ -4695,7 +4710,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4705,7 +4720,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-1",
+				"推荐探索关卡4-1",
 				{
 					"LEVEL",
 					{
@@ -4715,7 +4730,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4751,7 +4766,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -4797,7 +4812,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -4807,7 +4822,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4852,7 +4867,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -4887,7 +4902,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4898,7 +4913,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
@@ -4930,7 +4945,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -4941,7 +4956,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
@@ -4973,7 +4988,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -4983,7 +4998,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-3",
+				"推荐探索关卡2-3",
 				{
 					"LEVEL",
 					{
@@ -4993,7 +5008,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5004,7 +5019,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -5039,7 +5054,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域9-2",
+				"推荐探索关卡9-2",
 				{
 					"LEVEL",
 					{
@@ -5074,7 +5089,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域9-2",
+				"推荐探索关卡9-2",
 				{
 					"LEVEL",
 					{
@@ -5118,7 +5133,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域9-3",
+				"推荐探索关卡9-3",
 				{
 					"LEVEL",
 					{
@@ -5153,7 +5168,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5189,14 +5204,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ログインボーナス",
+				"限时活动：特别登陆",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5232,7 +5247,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5242,7 +5257,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-2",
+				"推荐探索关卡1-2",
 				{
 					"LEVEL",
 					{
@@ -5252,7 +5267,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5288,7 +5303,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5298,7 +5313,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-2",
+				"推荐探索关卡1-2",
 				{
 					"LEVEL",
 					{
@@ -5308,7 +5323,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5344,7 +5359,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5354,7 +5369,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-3",
+				"推荐探索关卡2-3",
 				{
 					"LEVEL",
 					{
@@ -5389,14 +5404,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ワイワイ旧正月",
+				"限时活动：闹腾嬉戏东煌春节",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5406,7 +5421,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -5441,14 +5456,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -5483,14 +5498,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ワイワイ旧正月",
+				"限时活动：闹腾嬉戏东煌春节",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5500,7 +5515,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -5535,7 +5550,17 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"月度签到",
 				{
 					""
 				},
@@ -5567,7 +5592,17 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"月度签到",
 				{
 					""
 				},
@@ -5599,14 +5634,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -5616,7 +5651,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5651,7 +5686,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5687,7 +5722,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5697,7 +5732,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-2",
+				"推荐探索关卡1-2",
 				{
 					"LEVEL",
 					{
@@ -5707,7 +5742,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -5743,7 +5778,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬翼空翔",
+				"限时活动：铁翼擎风",
 				{
 					""
 				},
@@ -5784,7 +5819,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5794,7 +5829,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-2",
+				"推荐探索关卡3-2",
 				{
 					"LEVEL",
 					{
@@ -5829,14 +5864,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊2nd",
+				"限时活动：战斗！皇家女仆队2nd",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5846,7 +5881,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -5881,7 +5916,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：病院探訪",
+				"限时活动：深谷来信",
 				{
 					""
 				},
@@ -5913,14 +5948,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -5930,7 +5965,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -5965,14 +6000,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6008,14 +6043,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6051,14 +6086,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6101,7 +6136,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -6138,7 +6173,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：積重なる事象の幻界",
+				"限时活动：定向折叠",
 				{
 					""
 				},
@@ -6172,7 +6207,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -6204,7 +6239,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6214,7 +6249,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -6224,7 +6259,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6260,7 +6295,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6270,7 +6305,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -6280,7 +6315,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6316,7 +6351,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域8-4",
+				"推荐探索关卡8-4",
 				{
 					"LEVEL",
 					{
@@ -6351,7 +6386,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6387,14 +6422,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6430,7 +6465,17 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"舰队商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"月度签到",
 				{
 					""
 				},
@@ -6462,7 +6507,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6472,7 +6517,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -6482,7 +6527,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6518,7 +6563,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6528,7 +6573,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-1",
+				"推荐探索关卡4-1",
 				{
 					"LEVEL",
 					{
@@ -6538,7 +6583,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6549,7 +6594,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -6586,14 +6631,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6631,7 +6676,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -6663,7 +6708,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域10-2",
+				"推荐探索关卡10-2",
 				{
 					"LEVEL",
 					{
@@ -6698,7 +6743,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域10-3",
+				"推荐探索关卡10-3",
 				{
 					"LEVEL",
 					{
@@ -6708,7 +6753,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6753,7 +6798,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6763,7 +6808,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-1",
+				"推荐探索关卡5-1",
 				{
 					"LEVEL",
 					{
@@ -6773,7 +6818,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -6808,7 +6853,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6844,7 +6889,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6854,7 +6899,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-2",
+				"推荐探索关卡5-2",
 				{
 					"LEVEL",
 					{
@@ -6864,7 +6909,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6907,7 +6952,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6917,7 +6962,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-2",
+				"推荐探索关卡5-2",
 				{
 					"LEVEL",
 					{
@@ -6927,7 +6972,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6972,7 +7017,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -6982,7 +7027,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -6993,7 +7038,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -7028,14 +7073,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -7070,14 +7115,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7113,14 +7158,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：明日の星☆新登場",
+				"限时活动：『明日之星?闪亮登场！』",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -7157,7 +7202,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7167,7 +7212,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-3",
+				"推荐探索关卡5-3",
 				{
 					"LEVEL",
 					{
@@ -7177,7 +7222,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -7212,7 +7257,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域11-4",
+				"推荐探索关卡11-4",
 				{
 					"LEVEL",
 					{
@@ -7247,7 +7292,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7283,7 +7328,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7319,14 +7364,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -7336,7 +7381,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7371,14 +7416,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊2nd",
+				"限时活动：战斗！皇家女仆队2nd",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7388,7 +7433,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -7425,7 +7470,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域15-4",
+				"推荐探索关卡15-4",
 				{
 					"LEVEL",
 					{
@@ -7460,7 +7505,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬翼空翔",
+				"限时活动：铁翼擎风",
 				{
 					""
 				},
@@ -7492,7 +7537,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：病院探訪",
+				"限时活动：深谷来信",
 				{
 					""
 				},
@@ -7524,7 +7569,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7562,14 +7607,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激奏のポラリス",
+				"限时活动：激奏的Polaris",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -7579,7 +7624,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7614,7 +7659,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7624,7 +7669,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -7634,7 +7679,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7670,7 +7715,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域8-3",
+				"推荐探索关卡8-3",
 				{
 					"LEVEL",
 					{
@@ -7707,7 +7752,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7717,7 +7762,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -7727,7 +7772,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7763,7 +7808,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7773,7 +7818,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -7783,7 +7828,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7821,7 +7866,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7831,7 +7876,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -7841,7 +7886,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -7884,38 +7929,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推奨入手海域4-1",
-				{
-					"LEVEL",
-					{
-						chapterid = 401
-					}
-				},
-				0
-			},
-			{
-				"大型艦建造、特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -7950,7 +7964,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -7960,7 +7974,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-3",
+				"推荐探索关卡3-3",
 				{
 					"LEVEL",
 					{
@@ -7970,7 +7984,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8006,7 +8020,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域14-4",
+				"推荐探索关卡14-4",
 				{
 					"LEVEL",
 					{
@@ -8041,14 +8055,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：月夜の開幕曲",
+				"限时活动：月光下的序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -8083,14 +8097,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8100,7 +8114,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -8135,14 +8149,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8178,14 +8192,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：月夜の開幕曲",
+				"限时活动：月光下的序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -8220,14 +8234,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：月夜の開幕曲",
+				"限时活动：月光下的序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -8260,18 +8274,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"図鑑報酬達成",
-				{
-					"COLLECTSHIP",
-					{
-						shipGroupId = 10311
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[50] = {
 		nationality = 1,
@@ -8299,14 +8302,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -8316,7 +8319,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8351,7 +8354,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬翼空翔",
+				"限时活动：铁翼擎风",
 				{
 					""
 				},
@@ -8383,14 +8386,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8428,7 +8431,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：積重なる事象の幻界",
+				"限时活动：定向折叠",
 				{
 					""
 				},
@@ -8460,7 +8463,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -8494,14 +8497,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -8511,7 +8514,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8546,7 +8549,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星々を描いて",
+				"限时活动：画出漫天小星星",
 				{
 					""
 				},
@@ -8578,7 +8581,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -8619,7 +8622,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8629,7 +8632,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -8639,7 +8642,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8684,7 +8687,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8694,7 +8697,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -8704,7 +8707,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8740,7 +8743,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8750,7 +8753,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -8760,7 +8763,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8771,7 +8774,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -8806,7 +8809,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8816,7 +8819,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -8826,7 +8829,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8837,7 +8840,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -8872,7 +8875,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8882,7 +8885,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -8892,7 +8895,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8928,7 +8931,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -8938,7 +8941,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -8948,7 +8951,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -8993,14 +8996,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -9044,14 +9047,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -9095,14 +9098,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -9137,14 +9140,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9154,7 +9157,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -9189,14 +9192,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9206,7 +9209,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -9239,18 +9242,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"特別補給（ランダム出現）",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[66] = {
 		nationality = 1,
@@ -9276,7 +9268,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬翼空翔",
+				"限时活动：铁翼擎风",
 				{
 					""
 				},
@@ -9308,14 +9300,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9326,7 +9318,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -9362,14 +9354,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -9379,7 +9371,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9414,14 +9406,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -9431,7 +9423,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9475,7 +9467,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9485,7 +9477,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -9495,7 +9487,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行轻型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9540,7 +9532,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9550,7 +9542,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -9560,7 +9552,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行轻型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9596,14 +9588,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -9649,7 +9641,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9659,7 +9651,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -9669,7 +9661,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行轻型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9705,7 +9697,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9715,7 +9707,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -9725,7 +9717,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9770,7 +9762,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9780,7 +9772,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-1",
+				"推荐探索关卡4-1",
 				{
 					"LEVEL",
 					{
@@ -9790,7 +9782,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9835,7 +9827,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9845,7 +9837,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -9855,7 +9847,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行轻型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9893,7 +9885,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9903,7 +9895,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域7-2",
+				"推荐探索关卡7-2",
 				{
 					"LEVEL",
 					{
@@ -9913,7 +9905,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9949,7 +9941,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -9959,7 +9951,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -9970,7 +9962,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -10005,14 +9997,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇に堕ちた青き翼",
+				"限时活动：坠落之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -10049,7 +10041,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -10059,7 +10051,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-3",
+				"推荐探索关卡5-3",
 				{
 					"LEVEL",
 					{
@@ -10069,7 +10061,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10114,7 +10106,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10152,7 +10144,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：積重なる事象の幻界",
+				"限时活动：定向折叠",
 				{
 					""
 				},
@@ -10184,14 +10176,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10229,7 +10221,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：積重なる事象の幻界",
+				"限时活动：定向折叠",
 				{
 					""
 				},
@@ -10261,7 +10253,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：病院探訪",
+				"限时活动：深谷来信",
 				{
 					""
 				},
@@ -10293,14 +10285,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10336,7 +10328,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域13-4",
+				"推荐探索关卡13-4",
 				{
 					"LEVEL",
 					{
@@ -10380,14 +10372,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：特別演習・超空強襲波",
+				"限时活动：特别演习·埃塞克斯级",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -10422,14 +10414,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：奔る彩帆の青",
+				"限时活动：划破海空之翼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10467,7 +10459,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：積重なる事象の幻界",
+				"限时活动：定向折叠",
 				{
 					""
 				},
@@ -10499,14 +10491,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -10541,7 +10533,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -10573,14 +10565,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：特別演習・超空強襲波",
+				"限时活动：特别演习·埃塞克斯级",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10616,14 +10608,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けろ　幼き翼！",
+				"限时活动：奋斗吧，小企业！",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10661,14 +10653,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"一周年のおえかき",
+				"限时活动：大青花鱼的涂鸦板",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -10703,14 +10695,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -10745,7 +10737,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：開かれし紺碧の砂箱",
+				"限时活动：箱庭疗法",
 				{
 					""
 				},
@@ -10777,7 +10769,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -10814,14 +10806,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -10831,7 +10823,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -10866,14 +10858,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：照らす螺旋の鏡海",
+				"限时活动：镜位螺旋",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10909,14 +10901,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：闇靄払う銀翼",
+				"限时活动：微层混合",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -10952,7 +10944,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -10984,7 +10976,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬翼空翔",
+				"限时活动：铁翼擎风",
 				{
 					""
 				},
@@ -11016,7 +11008,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11026,7 +11018,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域7-3",
+				"推荐探索关卡7-3",
 				{
 					"LEVEL",
 					{
@@ -11036,7 +11028,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11047,7 +11039,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -11082,7 +11074,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光追う星の海",
+				"限时活动：星海逐光",
 				{
 					""
 				},
@@ -11114,7 +11106,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11158,7 +11150,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11168,7 +11160,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-1",
+				"推荐探索关卡5-1",
 				{
 					"LEVEL",
 					{
@@ -11178,7 +11170,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11189,7 +11181,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -11233,7 +11225,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11278,7 +11270,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11314,7 +11306,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11324,7 +11316,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -11334,7 +11326,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11370,7 +11362,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11380,7 +11372,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -11390,7 +11382,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11435,7 +11427,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11445,7 +11437,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-1",
+				"推荐探索关卡1-1",
 				{
 					"LEVEL",
 					{
@@ -11455,7 +11447,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11500,7 +11492,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11510,7 +11502,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-1",
+				"推荐探索关卡1-1",
 				{
 					"LEVEL",
 					{
@@ -11520,7 +11512,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11565,7 +11557,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11575,7 +11567,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-1",
+				"推荐探索关卡1-1",
 				{
 					"LEVEL",
 					{
@@ -11585,7 +11577,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11621,14 +11613,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -11672,7 +11664,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11682,7 +11674,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-2",
+				"推荐探索关卡1-2",
 				{
 					"LEVEL",
 					{
@@ -11692,7 +11684,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11737,7 +11729,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11747,7 +11739,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-3",
+				"推荐探索关卡3-3",
 				{
 					"LEVEL",
 					{
@@ -11782,14 +11774,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
+				"限时活动：凛冬王冠",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -11833,7 +11825,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -11843,7 +11835,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-2",
+				"推荐探索关卡5-2",
 				{
 					"LEVEL",
 					{
@@ -11878,7 +11870,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -11910,14 +11902,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：輝ける峡湾の星",
+				"限时活动：峡湾间的星辰",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -11953,14 +11945,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：フィヨルド·ハンター",
+				"限时活动：峡湾间的星辰",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -11995,7 +11987,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黙示の遺構",
+				"限时活动：湮烬尘墟",
 				{
 					""
 				},
@@ -12027,14 +12019,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -12078,7 +12070,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -12088,7 +12080,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12124,7 +12116,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12134,7 +12126,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -12169,7 +12161,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12180,14 +12172,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ログインスタンプ",
+				"月度签到",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -12222,7 +12214,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12233,7 +12225,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -12268,14 +12260,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
+				"限时活动：凛冬王冠",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12285,7 +12277,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -12320,14 +12312,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
+				"限时活动：凛冬王冠",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -12362,14 +12354,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：峡湾間の反撃",
+				"限时活动：峡湾间的反击",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12405,14 +12397,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：誠閃の剣　搖光の城",
+				"限时活动：泠誓光庭",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12448,14 +12440,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊3rd",
+				"限时活动：战斗！皇家女仆队3RD?",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12491,7 +12483,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ゼロから頑張る魔王討伐 ",
+				"限时活动：从零开始的魔王讨伐之旅",
 				{
 					""
 				},
@@ -12523,7 +12515,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -12564,14 +12556,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：ワイワイ旧正月",
+				"限时活动：闹腾嬉戏东煌春节",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12616,14 +12608,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：ワイワイ旧正月",
+				"限时活动：闹腾嬉戏东煌春节",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12659,14 +12651,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アイリスの天使",
+				"限时活动：来自鸢尾的天使",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12711,7 +12703,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12721,7 +12713,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -12731,7 +12723,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12776,7 +12768,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12786,7 +12778,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -12796,7 +12788,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12841,7 +12833,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12851,7 +12843,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -12861,7 +12853,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -12897,7 +12889,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12907,7 +12899,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-2",
+				"推荐探索关卡3-2",
 				{
 					"LEVEL",
 					{
@@ -12942,7 +12934,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -12952,7 +12944,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域3-2",
+				"推荐探索关卡3-2",
 				{
 					"LEVEL",
 					{
@@ -12987,14 +12979,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -13004,7 +12996,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13039,7 +13031,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13075,20 +13067,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -13127,21 +13119,21 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊",
+				"限时活动：战斗！皇家女仆队",
 				{
 					""
 				},
 				0
 			},
 			{
-				"イベント：戦え！ロイヤルメイド隊2nd",
+				"限时活动：战斗！皇家女仆队2nd",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -13178,14 +13170,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
+				"限时活动：凛冬王冠",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13195,7 +13187,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -13230,7 +13222,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13266,14 +13258,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊3rd",
+				"限时活动：战斗！皇家女仆队3RD?",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13309,14 +13301,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊2nd",
+				"限时活动：战斗！皇家女仆队2nd",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13326,7 +13318,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -13361,7 +13353,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ゼロから頑張る魔王討伐 ",
+				"限时活动：从零开始的魔王讨伐之旅",
 				{
 					""
 				},
@@ -13393,7 +13385,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13403,7 +13395,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -13436,39 +13428,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"勲章交換（ランダムで出現）",
-				{
-					"SHOP",
-					{
-						warp = "medal"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[335] = {
 		nationality = 2,
@@ -13494,14 +13454,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：饅頭大作戦",
+				"限时活动：啾啾总动员",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13539,14 +13499,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激奏のポラリス",
+				"限时活动：激奏的Polaris",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -13583,14 +13543,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊2nd",
+				"限时活动：战斗！皇家女仆队2nd",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -13600,7 +13560,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13635,14 +13595,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13678,7 +13638,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黙示の遺構",
+				"限时活动：湮烬尘墟",
 				{
 					""
 				},
@@ -13710,14 +13670,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -13751,35 +13711,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"イベント：凛冽なりし冬の王冠",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"特別補給（ランダム出現）",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[408] = {
 		nationality = 2,
@@ -13805,7 +13737,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13815,7 +13747,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -13850,7 +13782,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -13882,14 +13814,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：誠閃の剣　搖光の城",
+				"限时活动：泠誓光庭",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -13926,14 +13858,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -13943,7 +13875,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -13978,14 +13910,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
+				"限时活动：凛冬王冠",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -14020,14 +13952,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14037,7 +13962,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"限时活动：凛冬王冠",
+				{
+					""
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -14072,7 +14004,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -14104,7 +14036,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14149,7 +14081,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14159,7 +14091,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -14169,7 +14101,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14180,7 +14112,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -14224,7 +14156,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14234,7 +14166,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-2",
+				"推荐探索关卡5-2",
 				{
 					"LEVEL",
 					{
@@ -14244,7 +14176,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14280,7 +14212,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14316,7 +14248,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14326,7 +14258,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -14336,7 +14268,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14381,7 +14313,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14391,7 +14323,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-4",
+				"推荐探索关卡2-4",
 				{
 					"LEVEL",
 					{
@@ -14401,7 +14333,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14437,7 +14369,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14447,7 +14379,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-3",
+				"推荐探索关卡2-3",
 				{
 					"LEVEL",
 					{
@@ -14457,7 +14389,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14493,7 +14425,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"図鑑報酬達成",
+				"收藏解锁",
 				{
 					"COLLECTSHIP",
 					{
@@ -14537,7 +14469,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14547,7 +14479,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域8-1",
+				"推荐探索关卡8-1",
 				{
 					"LEVEL",
 					{
@@ -14557,7 +14489,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14600,39 +14532,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			10710
 		},
-		description = {
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推奨入手海域8-1",
-				{
-					"LEVEL",
-					{
-						chapterid = 801
-					}
-				},
-				0
-			},
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[552] = {
 		nationality = 2,
@@ -14658,7 +14558,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ころんとあげる　プチクッキー ",
+				"限时活动：奶油曲奇带夹心！",
 				{
 					""
 				},
@@ -14690,7 +14590,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ゼロから頑張る魔王討伐 ",
+				"限时活动：从零开始的魔王讨伐之旅",
 				{
 					""
 				},
@@ -14722,7 +14622,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14732,7 +14632,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -14742,7 +14642,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14778,7 +14678,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14788,7 +14688,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域1-4",
+				"推荐探索关卡1-4",
 				{
 					"LEVEL",
 					{
@@ -14798,7 +14698,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14834,14 +14734,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：リトル　ロイヤルナイト",
+				"限时活动：小骑士的训练日",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14877,7 +14777,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14887,7 +14787,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14898,7 +14798,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -14933,7 +14833,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -14943,7 +14843,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-2",
+				"推荐探索关卡5-2",
 				{
 					"LEVEL",
 					{
@@ -14953,7 +14853,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -14998,7 +14898,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15008,7 +14908,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15019,7 +14919,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -15054,14 +14954,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15097,14 +14997,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：誠閃の剣　搖光の城",
+				"限时活动：泠誓光庭",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15140,7 +15040,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黙示の遺構",
+				"限时活动：湮烬尘墟",
 				{
 					""
 				},
@@ -15181,7 +15081,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15191,7 +15091,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-3",
+				"推荐探索关卡2-3",
 				{
 					"LEVEL",
 					{
@@ -15201,7 +15101,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15235,39 +15135,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推奨入手海域2-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 204
-					}
-				},
-				0
-			},
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[134] = {
 		nationality = 2,
@@ -15293,14 +15161,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -15335,7 +15203,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15345,7 +15213,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -15380,19 +15248,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
-				{
-					""
-				},
-				0
-			},
-			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "supplies"
 					}
+				},
+				0
+			},
+			{
+				"限时活动：凛冬王冠",
+				{
+					""
 				},
 				0
 			}
@@ -15422,14 +15290,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15465,14 +15333,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：誠閃の剣　搖光の城",
+				"限时活动：泠誓光庭",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15483,7 +15351,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -15519,7 +15387,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -15560,7 +15428,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15570,7 +15438,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域2-1",
+				"推荐探索关卡2-1",
 				{
 					"LEVEL",
 					{
@@ -15580,7 +15448,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15616,7 +15484,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黙示の遺構",
+				"限时活动：湮烬尘墟",
 				{
 					""
 				},
@@ -15655,7 +15523,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15665,7 +15533,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-4",
+				"推荐探索关卡4-4",
 				{
 					"LEVEL",
 					{
@@ -15675,7 +15543,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15686,7 +15554,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -15721,14 +15589,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ワイワイ旧正月",
+				"限时活动：闹腾嬉戏东煌春节",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -15738,7 +15606,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -15773,14 +15641,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15816,14 +15684,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15859,7 +15727,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15895,14 +15763,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：戦え！ロイヤルメイド隊3rd",
+				"限时活动：战斗！皇家女仆队3RD?",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15938,14 +15806,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：極夜照らす幻光",
+				"限时活动：永夜幻光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -15981,7 +15849,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -16023,39 +15891,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			14710
 		},
-		description = {
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"推奨入手海域6-3",
-				{
-					"LEVEL",
-					{
-						chapterid = 603
-					}
-				},
-				0
-			},
-			{
-				"特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[145] = {
 		nationality = 2,
@@ -16081,39 +15917,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			},
-			{
-				"特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"勲章交換（ランダムで出現）",
-				{
-					"SHOP",
-					{
-						warp = "medal"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[146] = {
 		nationality = 2,
@@ -16139,20 +15943,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凛冽なりし冬の王冠",
-				{
-					""
-				},
-				0
-			},
-			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			},
+			{
+				"限时活动：凛冬王冠",
+				{
+					""
 				},
 				0
 			}
@@ -16184,14 +15988,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -16201,7 +16005,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -16236,14 +16040,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：誠閃の剣　搖光の城",
+				"限时活动：泠誓光庭",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16279,14 +16083,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愛と平和の夢 ",
+				"限时活动：爱与和平的梦",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16324,14 +16128,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -16366,7 +16170,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：小さなレディのマナー講義",
+				"限时活动：“小淑女”的礼仪课",
 				{
 					""
 				},
@@ -16400,7 +16204,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -16432,7 +16236,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黙示の遺構",
+				"限时活动：湮烬尘墟",
 				{
 					""
 				},
@@ -16464,7 +16268,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -16474,7 +16278,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-3",
+				"推荐探索关卡4-3",
 				{
 					"LEVEL",
 					{
@@ -16484,7 +16288,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16520,7 +16324,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -16530,7 +16334,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域4-3",
+				"推荐探索关卡4-3",
 				{
 					"LEVEL",
 					{
@@ -16540,7 +16344,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16576,7 +16380,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16621,7 +16425,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16666,7 +16470,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16677,7 +16481,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -16712,14 +16516,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16755,14 +16559,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"月度签到",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16807,7 +16611,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16852,7 +16656,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16888,7 +16692,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16924,7 +16728,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域10-1",
+				"推荐探索关卡10-1",
 				{
 					"LEVEL",
 					{
@@ -16959,7 +16763,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -16970,7 +16774,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
@@ -17002,19 +16806,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -17044,7 +16848,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域10-1",
+				"推荐探索关卡10-1",
 				{
 					"LEVEL",
 					{
@@ -17079,7 +16883,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17115,14 +16919,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -17132,7 +16936,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -17167,7 +16971,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫の涙月　菫の暁風",
+				"限时活动：紫绛槿岚",
 				{
 					""
 				},
@@ -17199,7 +17003,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：浦波のカワイイ図鑑",
+				"限时活动：朴的可爱<怪奇>生物图鉴",
 				{
 					""
 				},
@@ -17240,22 +17044,11 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域2-1",
+				"收藏解锁",
 				{
-					"LEVEL",
+					"COLLECTSHIP",
 					{
-						chapterid = 201
-					}
-				},
-				0
-			},
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
+						shipGroupId = 30105
 					}
 				},
 				0
@@ -17286,14 +17079,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"作戦履歴：紅染の来訪者",
+				"作战档案：红染的参访者",
 				{
 					"LEVEL"
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -17328,14 +17121,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -17370,7 +17163,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域8-2",
+				"推荐探索关卡8-2",
 				{
 					"LEVEL",
 					{
@@ -17405,7 +17198,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域8-1",
+				"推荐探索关卡8-1",
 				{
 					"LEVEL",
 					{
@@ -17449,14 +17242,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ログインスタンプ",
+				"月度签到",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17467,7 +17260,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -17502,14 +17295,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"月度签到",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17520,7 +17313,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -17564,19 +17357,19 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -17615,19 +17408,19 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -17666,7 +17459,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17677,7 +17470,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -17721,7 +17514,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域4-3",
+				"推荐探索关卡4-3",
 				{
 					"LEVEL",
 					{
@@ -17763,7 +17556,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域4-2",
+				"推荐探索关卡4-2",
 				{
 					"LEVEL",
 					{
@@ -17805,18 +17598,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			14900
 		},
-		description = {
-			{
-				"推奨入手海域6-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 604
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[286] = {
 		nationality = 3,
@@ -17842,14 +17624,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17885,14 +17667,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -17927,19 +17709,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特別補給（ランダム出現）",
+				"限时活动：墨染的钢铁之花",
+				{
+					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "supplies"
 					}
-				},
-				0
-			},
-			{
-				"イベント：墨染まりし鋼の桜",
-				{
-					""
 				},
 				0
 			}
@@ -17969,7 +17751,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -17980,7 +17762,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
@@ -18012,14 +17794,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18055,19 +17837,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -18097,19 +17879,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -18146,14 +17928,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -18163,7 +17945,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -18207,7 +17989,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域3-3",
+				"推荐探索关卡3-3",
 				{
 					"LEVEL",
 					{
@@ -18251,7 +18033,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域4-1",
+				"推荐探索关卡4-1",
 				{
 					"LEVEL",
 					{
@@ -18286,14 +18068,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：軍神の帰還",
+				"限时活动：归来与新生",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -18328,14 +18110,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：軍神の帰還",
+				"限时活动：归来与新生",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -18370,17 +18152,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"限时活动：红染的参访者",
 				{
-					"GETBOAT",
-					{
-						page = 3
-					}
+					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -18390,9 +18169,12 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：紅染の来訪者",
+				"勋章支援（概率产出）",
 				{
-					""
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -18422,7 +18204,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18433,7 +18215,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -18468,7 +18250,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18479,7 +18261,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -18523,14 +18305,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：軍神の帰還",
+				"限时活动：归来与新生",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18575,7 +18357,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18611,14 +18393,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：紅染の来訪者",
+				"限时活动：红染的参访者",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -18628,7 +18410,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -18663,14 +18445,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -18680,7 +18462,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -18715,14 +18497,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -18732,7 +18514,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -18767,14 +18549,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -18809,20 +18591,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -18852,14 +18634,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -18895,7 +18677,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域9-4",
+				"推荐探索关卡9-4",
 				{
 					"LEVEL",
 					{
@@ -18930,7 +18712,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫の涙月　菫の暁風",
+				"限时活动：紫绛槿岚",
 				{
 					""
 				},
@@ -18962,7 +18744,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：須臾望月抄",
+				"限时活动：须臾望月抄",
 				{
 					""
 				},
@@ -18994,7 +18776,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：須臾望月抄",
+				"限时活动：须臾望月抄",
 				{
 					""
 				},
@@ -19026,7 +18808,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：絳染む　丹華の詠歌",
+				"限时活动：唤醒苍红之炎",
 				{
 					""
 				},
@@ -19058,7 +18840,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -19090,14 +18872,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -19107,7 +18889,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -19142,14 +18924,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -19159,7 +18941,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -19194,14 +18976,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -19211,7 +18993,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -19246,14 +19028,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限定イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造・特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -19264,7 +19046,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -19300,7 +19082,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -19345,7 +19127,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域7-3",
+				"推荐探索关卡7-3",
 				{
 					"LEVEL",
 					{
@@ -19380,7 +19162,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：須臾望月抄",
+				"限时活动：须臾望月抄",
 				{
 					""
 				},
@@ -19412,14 +19194,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -19464,14 +19246,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -19515,7 +19297,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域8-1",
+				"推荐探索关卡8-1",
 				{
 					"LEVEL",
 					{
@@ -19557,19 +19339,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			12040
 		},
-		description = {
-			{
-				"小型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[308] = {
 		nationality = 3,
@@ -19604,7 +19374,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域11-3",
+				"推荐探索关卡11-3",
 				{
 					"LEVEL",
 					{
@@ -19648,7 +19418,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域10-4",
+				"推荐探索关卡10-4",
 				{
 					"LEVEL",
 					{
@@ -19683,14 +19453,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -19726,7 +19496,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：絳染む　丹華の詠歌",
+				"限时活动：唤醒苍红之炎",
 				{
 					""
 				},
@@ -19758,7 +19528,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -19799,14 +19569,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：紅染の来訪者",
+				"限时活动：红染的参访者",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -19816,7 +19586,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -19851,14 +19621,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：紅染の来訪者",
+				"限时活动：红染的参访者",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -19893,7 +19663,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -19904,7 +19674,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
@@ -19936,14 +19706,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -19978,7 +19748,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域11-2",
+				"推荐探索关卡11-2",
 				{
 					"LEVEL",
 					{
@@ -20015,14 +19785,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -20057,7 +19827,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫の涙月　菫の暁風",
+				"限时活动：紫绛槿岚",
 				{
 					""
 				},
@@ -20091,7 +19861,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -20123,7 +19893,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：絳染む　丹華の詠歌",
+				"限时活动：唤醒苍红之炎",
 				{
 					""
 				},
@@ -20164,7 +19934,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域3-3",
+				"推荐探索关卡3-3",
 				{
 					"LEVEL",
 					{
@@ -20208,7 +19978,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域3-3",
+				"推荐探索关卡3-3",
 				{
 					"LEVEL",
 					{
@@ -20243,7 +20013,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20279,7 +20049,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20315,14 +20085,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20358,7 +20128,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域5-1",
+				"推荐探索关卡5-1",
 				{
 					"LEVEL",
 					{
@@ -20402,7 +20172,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域8-3",
+				"推荐探索关卡8-3",
 				{
 					"LEVEL",
 					{
@@ -20437,14 +20207,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -20454,7 +20224,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -20489,7 +20259,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫の涙月　菫の暁風",
+				"限时活动：紫绛槿岚",
 				{
 					""
 				},
@@ -20521,7 +20291,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -20531,7 +20301,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20542,7 +20312,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -20577,7 +20347,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -20587,7 +20357,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -20622,7 +20392,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域8-4",
+				"推荐探索关卡8-4",
 				{
 					"LEVEL",
 					{
@@ -20657,7 +20427,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域12-4",
+				"推荐探索关卡12-4",
 				{
 					"LEVEL",
 					{
@@ -20692,7 +20462,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：須臾望月抄",
+				"限时活动：须臾望月抄",
 				{
 					""
 				},
@@ -20724,7 +20494,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -20758,14 +20528,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -20800,14 +20570,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：軍神の帰還",
+				"限时活动：归来与新生",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20843,14 +20613,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -20885,7 +20655,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20896,7 +20666,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"期間限定ログインイベント",
+				"限时活动：一周年登录活动",
 				{
 					""
 				},
@@ -20928,7 +20698,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -20939,7 +20709,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：母校脱出大作戦?",
+				"限时活动：港区逃离大作战",
 				{
 					""
 				},
@@ -20971,14 +20741,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -20988,7 +20758,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -21023,14 +20793,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：すこやかりとる",
+				"限时活动：小小军师成长记",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -21068,7 +20838,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -21100,14 +20870,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：軍神の帰還",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -21117,7 +20880,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"限时活动：归来与新生",
+				{
+					""
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -21159,18 +20929,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			10830
 		},
-		description = {
-			{
-				"推奨入手海域6-3",
-				{
-					"LEVEL",
-					{
-						chapterid = 603
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[209] = {
 		nationality = 3,
@@ -21205,7 +20964,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域6-3",
+				"推荐探索关卡6-3",
 				{
 					"LEVEL",
 					{
@@ -21249,14 +21008,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：紅染の来訪者",
+				"限时活动：红染的参访者",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -21267,7 +21026,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -21309,36 +21068,7 @@ pg.base.ship_data_group = {
 		trans_skill = {
 			11600
 		},
-		description = {
-			{
-				"イベント：紅染の来訪者",
-				{
-					""
-				},
-				0
-			},
-			{
-				"大型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
-				{
-					"GETBOAT",
-					{
-						page = 3
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[212] = {
 		nationality = 3,
@@ -21364,28 +21094,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = "medal"
 					}
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
-					"SHOP",
+					"GETBOAT",
 					{
-						warp = "medal"
+						page = 3
 					}
 				},
 				0
@@ -21416,14 +21146,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -21458,14 +21188,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -21500,14 +21230,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：縹映る深緋の残響",
+				"限时活动：苍红的回响",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -21517,7 +21247,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -21552,14 +21282,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -21595,7 +21325,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：須臾望月抄",
+				"限时活动：须臾望月抄",
 				{
 					""
 				},
@@ -21627,14 +21357,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -21644,7 +21374,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -21679,7 +21409,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -21711,7 +21441,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫の涙月　菫の暁風",
+				"限时活动：紫绛槿岚",
 				{
 					""
 				},
@@ -21743,7 +21473,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域12-2",
+				"推荐探索关卡12-2",
 				{
 					"LEVEL",
 					{
@@ -21778,7 +21508,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域12-3",
+				"推荐探索关卡12-3",
 				{
 					"LEVEL",
 					{
@@ -21813,7 +21543,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"推奨入手海域7-4",
+				"推荐探索关卡7-4",
 				{
 					"LEVEL",
 					{
@@ -21848,7 +21578,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：徒花咲かす彼岸",
+				"限时活动：埋葬于彼岸之花",
 				{
 					""
 				},
@@ -21889,7 +21619,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域2-2",
+				"推荐探索关卡2-2",
 				{
 					"LEVEL",
 					{
@@ -21899,7 +21629,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -21934,14 +21664,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：南洋に靡く硝煙",
+				"限时活动：斯图尔特的硝烟",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -21976,14 +21706,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：翳りし満ちる影の華",
+				"限时活动：浮樱影华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -21993,7 +21723,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -22028,14 +21758,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22071,14 +21801,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22114,18 +21844,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"推奨入手海域3-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 304
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[225] = {
 		nationality = 3,
@@ -22149,18 +21868,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"推奨入手海域3-4",
-				{
-					"LEVEL",
-					{
-						chapterid = 304
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[384] = {
 		nationality = 3,
@@ -22186,7 +21894,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22197,7 +21905,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：母校脱出大作戦?",
+				"限时活动：港区逃离大作战",
 				{
 					""
 				},
@@ -22231,14 +21939,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激奏のポラリス",
+				"限时活动：激奏的Polaris",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -22248,7 +21956,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -22292,7 +22000,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -22336,7 +22044,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"推奨入手海域3-1",
+				"推荐探索关卡3-1",
 				{
 					"LEVEL",
 					{
@@ -22371,14 +22079,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：紅染の来訪者",
+				"限时活动：红染的参访者",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -22388,7 +22096,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -22423,14 +22131,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"作戦履歴：紅染の来訪者",
+				"作战档案：红染的参访者",
 				{
 					"LEVEL"
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -22440,7 +22148,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -22475,19 +22183,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[474] = {
 		nationality = 3,
@@ -22515,14 +22211,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -22532,7 +22228,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -22567,7 +22263,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：熱烈の告白演習",
+				"限时活动：热烈的告白练习",
 				{
 					""
 				},
@@ -22599,14 +22295,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22617,7 +22313,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -22653,7 +22349,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：甜き夢は共に",
+				"限时活动：共坠甜蜜之梦",
 				{
 					""
 				},
@@ -22685,14 +22381,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：駆けよ 碧海の吹き風",
+				"限时活动：碧海光粼",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22728,7 +22424,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：絳染む　丹華の詠歌",
+				"限时活动：唤醒苍红之炎",
 				{
 					""
 				},
@@ -22760,7 +22456,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -22792,7 +22488,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22828,7 +22524,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22864,7 +22560,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22900,7 +22596,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22936,7 +22632,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -22972,7 +22668,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -23008,7 +22704,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -23019,7 +22715,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：墨染まりし鋼の桜",
+				"限时活动：墨染的钢铁之花",
 				{
 					""
 				},
@@ -23051,7 +22747,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アマハラに舞い奉れ",
+				"限时活动：起舞于天原之上",
 				{
 					""
 				},
@@ -23083,7 +22779,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"隠し任務：明石のお願い",
+				"隐藏：找到茗的肉球印了吗？",
 				{
 					""
 				},
@@ -23115,14 +22811,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：刹那觀る胡蝶の夢",
+				"限时活动：蝶海梦花",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -23167,7 +22863,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -23177,7 +22873,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-1",
+				"推荐探索关卡5-1",
 				{
 					"LEVEL",
 					{
@@ -23212,14 +22908,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：輝ける峡湾の星",
+				"限时活动：峡湾间的星辰",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -23255,7 +22951,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -23287,7 +22983,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -23319,7 +23015,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ネオンシティの探索者",
+				"限时活动：迷彩都市的寻踪者",
 				{
 					""
 				},
@@ -23351,7 +23047,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：結像点作戦",
+				"限时活动：远汇点作战",
 				{
 					""
 				},
@@ -23383,19 +23079,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
-				{
-					""
-				},
-				0
-			},
-			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
 						warp = "guild"
 					}
+				},
+				0
+			},
+			{
+				"月度签到",
+				{
+					""
 				},
 				0
 			}
@@ -23425,14 +23121,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -23468,7 +23164,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
@@ -23500,7 +23196,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
@@ -23541,11 +23237,22 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"図鑑報酬達成",
+				"推荐探索关卡10-1",
 				{
-					"COLLECTSHIP",
+					"LEVEL",
 					{
-						shipGroupId = 40123
+						chapterid = 1001
+					}
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
 					}
 				},
 				0
@@ -23576,14 +23283,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -23618,14 +23325,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -23635,7 +23335,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"限时活动：异色格",
+				{
+					""
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -23670,14 +23377,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -23712,14 +23419,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -23754,19 +23461,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
 						page = 3
 					}
+				},
+				0
+			},
+			{
+				"限时活动：异色格",
+				{
+					""
 				},
 				0
 			}
@@ -23796,14 +23503,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -23838,7 +23545,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：リトル学園へようこそ",
+				"限时活动：欢迎来到童心学院",
 				{
 					""
 				},
@@ -23870,14 +23577,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -23887,7 +23594,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -23922,7 +23629,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：リトル学園へようこそ",
+				"限时活动：欢迎来到童心学院",
 				{
 					""
 				},
@@ -23954,7 +23661,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -23986,7 +23693,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：覆天せし万象の塵",
+				"限时活动：空相交汇点",
 				{
 					""
 				},
@@ -24018,14 +23725,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24061,14 +23768,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24104,7 +23811,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24114,7 +23821,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-3",
+				"推荐探索关卡5-3",
 				{
 					"LEVEL",
 					{
@@ -24124,7 +23831,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24169,7 +23876,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24179,7 +23886,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-3",
+				"推荐探索关卡5-3",
 				{
 					"LEVEL",
 					{
@@ -24189,7 +23896,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24234,7 +23941,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24244,7 +23951,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"推奨入手海域5-3",
+				"推荐探索关卡5-3",
 				{
 					"LEVEL",
 					{
@@ -24254,7 +23961,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24299,7 +24006,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"図鑑報酬達成",
+				"收藏解锁",
 				{
 					"COLLECTSHIP",
 					{
@@ -24334,14 +24041,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24377,14 +24084,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：遡望せし虹彩の塔",
+				"限时活动：逆转彩虹之塔",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24420,7 +24127,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：覆天せし万象の塵",
+				"限时活动：空相交汇点",
 				{
 					""
 				},
@@ -24452,7 +24159,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -24484,20 +24191,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			},
+			{
+				"限时活动：异色格",
+				{
+					""
 				},
 				0
 			}
@@ -24527,14 +24234,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：グラーフ・シュペー追撃戦",
+				"限时活动：围剿{namecode:431}",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -24571,14 +24278,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24588,7 +24295,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -24623,7 +24330,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：結像点作戦 ",
+				"限时活动：远汇点作战",
 				{
 					""
 				},
@@ -24657,7 +24364,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24667,7 +24374,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24678,7 +24385,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -24715,14 +24422,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激奏のポラリス",
+				"限时活动：激奏的Polaris",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -24732,7 +24439,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -24769,14 +24476,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -24811,14 +24518,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24854,14 +24561,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：遡望せし虹彩の塔",
+				"限时活动：逆转彩虹之塔",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -24897,7 +24604,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ゼロから頑張る魔王討伐",
+				"限时活动：从零开始的魔王讨伐之旅",
 				{
 					""
 				},
@@ -24929,14 +24636,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：甘えちゃいたい　ケーゼクーヘン",
+				"限时活动：芝士奶酪要加糖！",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -24971,14 +24678,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25014,7 +24721,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：追撃　シュペーちゃん",
+				"限时活动：“围剿”{namecode:459}伯爵",
 				{
 					""
 				},
@@ -25048,7 +24755,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -25080,7 +24787,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：「深淵の国」の支配者",
+				"限时活动：「深渊之国」的缔造者",
 				{
 					""
 				},
@@ -25110,25 +24817,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"コアショップ",
-				{
-					"SHOP",
-					{
-						warp = "sham"
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[249] = {
 		nationality = 4,
@@ -25154,7 +24843,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
@@ -25186,14 +24875,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25229,14 +24918,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25272,7 +24961,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：結像点作戦",
+				"限时活动：远汇点作战",
 				{
 					""
 				},
@@ -25304,7 +24993,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：リトル学園へようこそ",
+				"限时活动：欢迎来到童心学院",
 				{
 					""
 				},
@@ -25336,7 +25025,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ネオンシティの探索者",
+				"限时活动：迷彩都市的寻踪者",
 				{
 					""
 				},
@@ -25370,14 +25059,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -25387,7 +25076,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -25422,14 +25111,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -25439,7 +25121,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"限时活动：异色格",
+				{
+					""
+				},
+				0
+			},
+			{
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -25474,14 +25163,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：遡望せし虹彩の塔",
+				"限时活动：逆转彩虹之塔",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25492,7 +25181,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -25528,14 +25217,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：吟ずる瑠璃の楽章",
+				"限时活动：虹彩的终幕曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -25572,7 +25261,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：覆天せし万象の塵",
+				"限时活动：空相交汇点",
 				{
 					""
 				},
@@ -25604,7 +25293,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ママの演奏練習",
+				"限时活动：今日的指挥练习",
 				{
 					""
 				},
@@ -25636,14 +25325,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25679,14 +25368,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：遡望せし虹彩の塔",
+				"限时活动：逆转彩虹之塔",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25722,7 +25411,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：覆天せし万象の塵",
+				"限时活动：空相交汇点",
 				{
 					""
 				},
@@ -25752,26 +25441,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"イベント：鏡写されし異色",
-				{
-					""
-				},
-				0
-			},
-			{
-				"特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[482] = {
 		nationality = 4,
@@ -25797,14 +25467,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25840,7 +25510,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -25872,7 +25542,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25883,7 +25553,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"イベント：母校脱出大作戦?",
+				"限时活动：港区逃离大作战",
 				{
 					""
 				},
@@ -25915,7 +25585,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：リトル学園へようこそ",
+				"限时活动：欢迎来到童心学院",
 				{
 					""
 				},
@@ -25947,14 +25617,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：虚畳なりし限象",
+				"限时活动：负象限作战",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -25965,7 +25635,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -26000,14 +25670,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26043,14 +25713,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26060,7 +25730,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26095,7 +25765,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26131,14 +25801,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -26148,7 +25818,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26183,7 +25853,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26219,14 +25889,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鉄血鮫とエニグマ",
+				"限时活动：最重要的宝物",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26236,7 +25906,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26246,7 +25916,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -26281,7 +25951,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：春節の特別任務",
+				"限时活动：春节的特别锻炼",
 				{
 					""
 				},
@@ -26313,7 +25983,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26349,7 +26019,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ネオンシティの探索者",
+				"限时活动：迷彩都市的寻踪者",
 				{
 					""
 				},
@@ -26381,14 +26051,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：黒鉄の楽章　誓いの海",
+				"限时活动：铁血、音符&誓言",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26398,7 +26068,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26433,14 +26103,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鏡写されし異色",
+				"限时活动：异色格",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26450,7 +26120,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26485,14 +26155,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：遡望せし虹彩の塔",
+				"限时活动：逆转彩虹之塔",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -26534,7 +26204,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：四天王の大冒険・鞍山編",
+				"限时活动：鞍山的绘图教室",
 				{
 					""
 				},
@@ -26573,14 +26243,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：四天王の大冒険・撫順編",
+				"限时活动：抚顺的大冒险",
 				{
 					""
 				},
 				0
 			},
 			{
-				"イベント：四天王の大冒険・撫順編Ⅱ",
+				"限时活动：抚顺的大冒险II",
 				{
 					""
 				},
@@ -26619,14 +26289,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26636,7 +26306,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26678,14 +26348,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26695,7 +26365,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26730,14 +26400,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春宴会狂騒曲",
+				"限时活动：寰昌宇定家事忙",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26773,14 +26443,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春宴会狂騒曲",
+				"限时活动：寰昌宇定家事忙",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -26816,14 +26486,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：飛雲の新春冒険",
+				"限时活动：新春的冒险之王",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -26858,7 +26528,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春華裳協奏曲",
+				"限时活动：华裳巧展喜事长",
 				{
 					""
 				},
@@ -26890,7 +26560,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春華裳協奏曲",
+				"限时活动：华裳巧展喜事长",
 				{
 					""
 				},
@@ -26922,14 +26592,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26939,7 +26609,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -26974,14 +26644,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -26991,7 +26661,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -27035,7 +26705,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27080,7 +26750,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -27124,7 +26794,7 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -27159,7 +26829,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：画中世界",
+				"限时活动：海天与海圻的画中世界",
 				{
 					""
 				},
@@ -27191,7 +26861,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：画中世界",
+				"限时活动：海天与海圻的画中世界",
 				{
 					""
 				},
@@ -27223,14 +26893,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春宴会狂騒曲",
+				"限时活动：寰昌宇定家事忙",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27266,7 +26936,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春華裳協奏曲",
+				"限时活动：华裳巧展喜事长",
 				{
 					""
 				},
@@ -27298,7 +26968,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春華裳協奏曲",
+				"限时活动：华裳巧展喜事长",
 				{
 					""
 				},
@@ -27330,14 +27000,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：新春宴会狂騒曲",
+				"限时活动：寰昌宇定家事忙",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27382,14 +27052,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27434,14 +27104,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27477,14 +27147,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：花火迎新春",
+				"限时活动：飞彩迎新春",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -27519,14 +27189,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -27561,14 +27231,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27604,14 +27274,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -27646,14 +27316,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27689,14 +27359,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27732,14 +27402,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27775,14 +27445,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27818,7 +27488,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：緑地伽話",
+				"限时活动：绿洲往事",
 				{
 					""
 				},
@@ -27850,7 +27520,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：籠檻に囚われし神光",
+				"限时活动：樊笼内的神光",
 				{
 					""
 				},
@@ -27882,14 +27552,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻像の塔·発見編",
+				"限时活动：虚像构筑之塔·序章",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27925,14 +27595,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -27968,14 +27638,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28011,7 +27681,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：籠檻に囚われし神光",
+				"限时活动：樊笼内的神光",
 				{
 					""
 				},
@@ -28043,14 +27713,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -28085,14 +27755,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻像の塔·発見編",
+				"限时活动：虚像构筑之塔·序章",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28128,14 +27798,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -28145,7 +27815,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -28180,14 +27850,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -28197,7 +27867,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -28232,14 +27902,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28275,7 +27945,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：緑地伽話",
+				"限时活动：绿洲往事",
 				{
 					""
 				},
@@ -28307,14 +27977,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28350,14 +28020,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -28392,14 +28062,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28435,14 +28105,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -28477,14 +28147,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：悲歎せし焔海の詩",
+				"限时活动：神圣的悲喜剧",
 				{
 					""
 				},
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -28494,7 +28164,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -28529,7 +28199,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：緑地伽話",
+				"限时活动：绿洲往事",
 				{
 					""
 				},
@@ -28561,7 +28231,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：籠檻に囚われし神光",
+				"限时活动：樊笼内的神光",
 				{
 					""
 				},
@@ -28593,14 +28263,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28636,14 +28306,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻像の塔·発見編",
+				"限时活动：虚像构筑之塔·序章",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28679,14 +28349,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：讃える復興の迷路",
+				"限时活动：复兴的赞美诗",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -28721,14 +28391,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鋼鷲の冒険譚",
+				"限时活动：雄鹰的叙事歌",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28764,7 +28434,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：籠檻に囚われし神光",
+				"限时活动：樊笼内的神光",
 				{
 					""
 				},
@@ -28796,14 +28466,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -28838,14 +28508,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28881,14 +28551,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28924,14 +28594,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"ログインスタンプ",
+				"月度签到",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -28967,14 +28637,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鳴動せし星霜の淵",
+				"限时活动：深度回音",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -29009,14 +28679,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -29053,14 +28723,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29098,14 +28768,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -29115,7 +28785,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -29150,14 +28820,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鳴動せし星霜の淵",
+				"限时活动：深度回音",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29193,7 +28863,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"限时活动：雪境迷踪",
 				{
 					""
 				},
@@ -29225,7 +28895,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"限时活动：雪境迷踪",
 				{
 					""
 				},
@@ -29257,21 +28927,21 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：再诞·曙光",
 				{
 					""
 				},
 				0
 			},
 			{
-				"イベント：再誕の暁",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29316,14 +28986,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29359,7 +29029,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：チュリッパの海へ",
+				"限时活动：扬起郁金之旗",
 				{
 					""
 				},
@@ -29391,14 +29061,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29434,14 +29104,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29477,7 +29147,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星霜海嵐",
+				"限时活动：极地风暴",
 				{
 					""
 				},
@@ -29509,14 +29179,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29552,14 +29222,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：期間限定建造",
+				"限时活动：新春限时建造",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29595,14 +29265,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29638,7 +29308,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星霜海嵐",
+				"限时活动：极地风暴",
 				{
 					""
 				},
@@ -29670,14 +29340,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -29712,7 +29382,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"限时活动：雪境迷踪",
 				{
 					""
 				},
@@ -29744,14 +29414,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：暁射す氷華の嵐",
+				"限时活动：破晓冰华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29787,14 +29457,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：凍絶の北海",
+				"限时活动：北境序曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29830,14 +29500,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鳴動せし星霜の淵",
+				"限时活动：深度回音",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -29873,7 +29543,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星霜海嵐",
+				"限时活动：极地风暴",
 				{
 					""
 				},
@@ -29905,7 +29575,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"限时活动：雪境迷踪",
 				{
 					""
 				},
@@ -29937,7 +29607,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：チュリッパの海へ",
+				"限时活动：扬起郁金之旗",
 				{
 					""
 				},
@@ -29969,14 +29639,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鳴動せし星霜の淵",
+				"限时活动：深度回音",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30012,14 +29682,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：鳴動せし星霜の淵",
+				"限时活动：深度回音",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造、特型艦建造",
+				"进行重型、特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30030,7 +29700,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"常設UR交換",
+				"常驻UR兑换",
 				{
 					"GETBOAT",
 					{
@@ -30075,14 +29745,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30120,7 +29790,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -30155,14 +29825,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
-				{
-					""
-				},
-				0
-			},
-			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -30172,7 +29835,14 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"ショップの大艦隊補給にて入手可能",
+				"限时活动：光与影的鸢尾之华",
+				{
+					""
+				},
+				0
+			},
+			{
+				"舰队商店兑换",
 				{
 					"SHOP",
 					{
@@ -30207,7 +29877,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：淵層界の秘密",
+				"限时活动：奇渊下的秘密",
 				{
 					""
 				},
@@ -30241,7 +29911,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：共鳴のパッション",
+				"限时活动：共鸣的Passion",
 				{
 					""
 				},
@@ -30273,14 +29943,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -30290,7 +29960,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -30325,14 +29995,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30368,14 +30038,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30420,14 +30090,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -30462,14 +30132,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30505,7 +30175,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -30537,7 +30207,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：淵層界の秘密",
+				"限时活动：奇渊下的秘密",
 				{
 					""
 				},
@@ -30569,7 +30239,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -30601,7 +30271,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -30633,7 +30303,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：淵層界の秘密",
+				"限时活动：奇渊下的秘密",
 				{
 					""
 				},
@@ -30665,7 +30335,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：淵層界の秘密",
+				"限时活动：奇渊下的秘密",
 				{
 					""
 				},
@@ -30697,14 +30367,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30740,7 +30410,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -30772,7 +30442,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -30804,7 +30474,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：淵層界の秘密",
+				"限时活动：奇渊下的秘密",
 				{
 					""
 				},
@@ -30836,14 +30506,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -30878,7 +30548,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -30910,14 +30580,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -30962,14 +30632,14 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -30979,7 +30649,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31015,14 +30685,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：帰路は海色の陰りへと",
+				"限时活动：夜幕下的归途",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31058,14 +30728,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31101,7 +30771,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -31133,7 +30803,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -31165,7 +30835,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -31197,7 +30867,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -31231,14 +30901,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -31248,7 +30918,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -31283,14 +30953,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アイリスの天使",
+				"限时活动：来自鸢尾的天使",
 				{
 					""
 				},
 				0
 			},
 			{
-				"小型艦建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31328,14 +30998,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激唱のユニバース",
+				"限时活动：激唱的Universe",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -31370,7 +31040,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の間奏曲",
+				"限时活动：幻梦间奏曲",
 				{
 					""
 				},
@@ -31402,14 +31072,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特別補給（ランダム出現）",
+				"军需商店兑换",
 				{
 					"SHOP",
 					{
@@ -31444,7 +31114,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：燃ゆる聖都の回想曲",
+				"限时活动：奏响鸢尾之歌",
 				{
 					""
 				},
@@ -31476,14 +31146,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：燈火のシニエ",
+				"限时活动：杰诺瓦的焰火",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31519,14 +31189,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：神穹を衝く聖歌",
+				"限时活动：穹顶下的圣咏曲",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31562,7 +31232,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の間奏曲",
+				"限时活动：幻梦间奏曲",
 				{
 					""
 				},
@@ -31594,14 +31264,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"大型艦建造",
+				"进行重型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31637,7 +31307,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の間奏曲",
+				"限时活动：幻梦间奏曲",
 				{
 					""
 				},
@@ -31669,28 +31339,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：光と影のアイリス",
+				"限时活动：光与影的鸢尾之华",
 				{
 					""
 				},
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章商店兑换",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						page = 3
+						warp = "medal"
 					}
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
-					"SHOP",
+					"GETBOAT",
 					{
-						warp = "medal"
+						page = 3
 					}
 				},
 				0
@@ -31721,7 +31391,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：愚者の天秤",
+				"限时活动：愚者的天平",
 				{
 					""
 				},
@@ -31755,14 +31425,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：激奏のポラリス",
+				"限时活动：激奏的Polaris",
 				{
 					""
 				},
 				0
 			},
 			{
-				"勲章交換（ランダムで出現）",
+				"勋章商店兑换（概率刷新）",
 				{
 					"SHOP",
 					{
@@ -31772,7 +31442,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"支援要請（ランダムで出現）",
+				"勋章支援（概率产出）",
 				{
 					"GETBOAT",
 					{
@@ -31807,14 +31477,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：アイリスの天使",
+				"限时活动：来自鸢尾的天使",
 				{
 					""
 				},
 				0
 			},
 			{
-				"特型艦建造",
+				"进行特型舰建造",
 				{
 					"GETBOAT",
 					{
@@ -31850,7 +31520,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：チュリッパの海へ",
+				"限时活动：扬起郁金之旗",
 				{
 					""
 				},
@@ -31882,7 +31552,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：チュリッパの海へ",
+				"限时活动：扬起郁金之旗",
 				{
 					""
 				},
@@ -31914,14 +31584,14 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：ハロウィンの「嵐」",
+				"限时活动：万圣节的「奇遇」",
 				{
 					""
 				},
 				0
 			},
 			{
-				"コアショップ",
+				"核心兑换获得",
 				{
 					"SHOP",
 					{
@@ -31956,7 +31626,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと若返りの泉",
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},
@@ -31988,7 +31658,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと若返りの泉",
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},
@@ -32020,7 +31690,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと若返りの泉",
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},
@@ -32052,7 +31722,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと若返りの泉",
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},
@@ -32084,7 +31754,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと若返りの泉",
+				"限时活动：飓风与青春之泉",
 				{
 					""
 				},
@@ -32116,7 +31786,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと眠りし海",
+				"限时活动：飓风与沉眠之海",
 				{
 					""
 				},
@@ -32148,7 +31818,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと眠りし海",
+				"限时活动：飓风与沉眠之海",
 				{
 					""
 				},
@@ -32180,7 +31850,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと眠りし海",
+				"限时活动：飓风与沉眠之海",
 				{
 					""
 				},
@@ -32212,7 +31882,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと眠りし海",
+				"限时活动：飓风与沉眠之海",
 				{
 					""
 				},
@@ -32244,7 +31914,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：テンペスタと眠りし海",
+				"限时活动：飓风与沉眠之海",
 				{
 					""
 				},
@@ -32276,7 +31946,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32308,7 +31978,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32340,7 +32010,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32372,7 +32042,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32404,7 +32074,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32436,7 +32106,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32468,7 +32138,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
 				{
 					""
 				},
@@ -32500,7 +32170,71 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：異次元からの来訪者",
+				"限时活动：异次元的访客",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10021] = {
+		nationality = 102,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1020001,
+		index_id = 10021,
+		code = 10021,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：电量支援计划",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10022] = {
+		nationality = 102,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1020002,
+		index_id = 10022,
+		code = 10022,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：电量支援计划",
 				{
 					""
 				},
@@ -32532,7 +32266,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32564,7 +32298,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32596,7 +32330,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32628,7 +32362,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32660,7 +32394,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32692,7 +32426,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：夢幻の邂逅",
+				"限时活动：梦幻的交汇",
 				{
 					""
 				},
@@ -32724,7 +32458,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：仮想繋げし共時性",
+				"限时活动：虚拟链接的共时性",
 				{
 					""
 				},
@@ -32756,7 +32490,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：仮想繋げし共時性",
+				"限时活动：虚拟链接的共时性",
 				{
 					""
 				},
@@ -32788,7 +32522,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：仮想繋げし共時性",
+				"限时活动：虚拟链接的共时性",
 				{
 					""
 				},
@@ -32820,7 +32554,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：仮想繋げし共時性",
+				"限时活动：虚拟链接的共时性",
 				{
 					""
 				},
@@ -32852,7 +32586,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -32884,7 +32618,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -32916,7 +32650,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -32948,7 +32682,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -32980,7 +32714,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -33012,7 +32746,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -33044,7 +32778,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻想と真実の二重奏",
+				"限时活动：虚拟与真实的双向镜",
 				{
 					""
 				},
@@ -33076,7 +32810,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33108,7 +32842,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33140,7 +32874,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33172,7 +32906,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33204,7 +32938,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33236,7 +32970,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33268,7 +33002,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33300,7 +33034,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33332,7 +33066,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：バケーションレーン",
+				"限时活动：假日航线",
 				{
 					""
 				},
@@ -33364,7 +33098,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33396,7 +33130,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33428,7 +33162,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33460,7 +33194,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33492,7 +33226,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33524,7 +33258,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33556,7 +33290,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：海に響くアイドルの歌",
+				"限时活动：响彻碧海的偶像歌",
 				{
 					""
 				},
@@ -33588,7 +33322,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33620,7 +33354,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33652,7 +33386,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33684,7 +33418,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33716,7 +33450,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33748,7 +33482,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33780,7 +33514,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33812,7 +33546,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33844,7 +33578,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：弧光は交わる世界にて",
+				"限时活动：交汇世界的弧光",
 				{
 					""
 				},
@@ -33876,7 +33610,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -33908,7 +33642,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -33940,7 +33674,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -33972,7 +33706,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -34004,7 +33738,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -34036,7 +33770,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と謎の遺跡群島",
+				"限时活动：炼金术士与秘密遗迹群岛",
 				{
 					""
 				},
@@ -34068,7 +33802,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34100,7 +33834,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34132,7 +33866,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34164,7 +33898,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34196,7 +33930,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34228,7 +33962,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34260,7 +33994,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：蒼閃忍法帖",
+				"限时活动：苍闪忍法帖",
 				{
 					""
 				},
@@ -34292,7 +34026,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34324,7 +34058,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34356,7 +34090,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34388,7 +34122,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34420,7 +34154,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34452,7 +34186,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：危険発明接近中！",
+				"限时活动：危险发明接近中！",
 				{
 					""
 				},
@@ -34484,7 +34218,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻影の迷い人",
+				"限时活动：幻影迷途者",
 				{
 					""
 				},
@@ -34516,7 +34250,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：幻影の迷い人",
+				"限时活动：幻影迷途者",
 				{
 					""
 				},
@@ -34548,7 +34282,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と天空邂逅の塔",
+				"限时活动：炼金术士与天际交汇之塔",
 				{
 					""
 				},
@@ -34580,7 +34314,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と天空邂逅の塔",
+				"限时活动：炼金术士与天际交汇之塔",
 				{
 					""
 				},
@@ -34612,7 +34346,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と天空邂逅の塔",
+				"限时活动：炼金术士与天际交汇之塔",
 				{
 					""
 				},
@@ -34644,7 +34378,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：錬金術士と天空邂逅の塔",
+				"限时活动：炼金术士与天际交汇之塔",
 				{
 					""
 				},
@@ -34676,7 +34410,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34711,7 +34445,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34746,7 +34480,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34781,7 +34515,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34818,7 +34552,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34853,7 +34587,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34888,7 +34622,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34923,7 +34657,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34958,7 +34692,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -34993,7 +34727,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35028,7 +34762,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35065,7 +34799,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35100,7 +34834,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35135,7 +34869,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35170,7 +34904,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35205,7 +34939,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35240,7 +34974,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35275,7 +35009,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35310,7 +35044,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35345,7 +35079,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35380,7 +35114,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35415,7 +35149,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35450,7 +35184,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35485,7 +35219,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35520,7 +35254,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35555,7 +35289,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35590,7 +35324,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35625,7 +35359,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35660,7 +35394,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35695,7 +35429,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35730,7 +35464,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35765,7 +35499,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35800,7 +35534,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35835,7 +35569,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35870,7 +35604,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35905,7 +35639,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35940,7 +35674,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -35975,7 +35709,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -36010,7 +35744,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -36045,7 +35779,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -36080,7 +35814,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -36115,7 +35849,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"研究ドック",
+				"科研开发",
 				{
 					"SHIPBLUEPRINT",
 					{
@@ -36150,7 +35884,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36185,7 +35919,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36220,7 +35954,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36255,7 +35989,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36290,7 +36024,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36325,7 +36059,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36360,7 +36094,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36395,7 +36129,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36430,7 +36164,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36465,7 +36199,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36500,7 +36234,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36535,7 +36269,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36570,7 +36304,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36605,7 +36339,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36640,7 +36374,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36675,7 +36409,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36710,7 +36444,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36745,11 +36479,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
-						autoOpenShipConfigID = 9703021
+						autoOpenShipConfigID = 9702031
 					}
 				},
 				0
@@ -36780,7 +36514,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36815,7 +36549,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36850,7 +36584,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：覆天せし万象の塵",
+				"限时活动：空相交汇点",
 				{
 					""
 				},
@@ -36882,7 +36616,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36917,7 +36651,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -36952,7 +36686,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -36987,7 +36721,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37022,7 +36756,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37057,7 +36791,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37092,7 +36826,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37127,7 +36861,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37162,7 +36896,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：銀界遊廻",
+				"限时活动：雪境迷踪",
 				{
 					""
 				},
@@ -37194,7 +36928,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37229,7 +36963,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37264,7 +36998,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：赫輝のマルティリウム",
+				"限时活动：绽放于辉光之城",
 				{
 					""
 				},
@@ -37296,7 +37030,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37331,7 +37065,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37366,7 +37100,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37401,7 +37135,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37436,7 +37170,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：絳染む　丹華の詠歌",
+				"限时活动：唤醒苍红之炎",
 				{
 					""
 				},
@@ -37468,7 +37202,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37503,7 +37237,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37538,7 +37272,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37573,7 +37307,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：星降る夕影の残光",
+				"限时活动：星光下的余晖",
 				{
 					""
 				},
@@ -37605,7 +37339,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37640,7 +37374,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：籠檻に囚われし神光",
+				"限时活动：樊笼内的神光",
 				{
 					""
 				},
@@ -37672,7 +37406,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37707,7 +37441,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37742,7 +37476,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37777,7 +37511,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"イベント：高い塔の薔薇",
+				"限时活动：高塔上的蔷薇",
 				{
 					""
 				},
@@ -37809,7 +37543,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
@@ -37844,7 +37578,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"限时活动：世界巡游",
 				{
 					"METACHARACTER",
 					{
@@ -37879,11 +37613,46 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・情報解析",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701091
+					}
+				},
+				0
+			}
+		}
+	},
+	[30052] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970110,
+		index_id = 30052,
+		code = 30052,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701101
 					}
 				},
 				0

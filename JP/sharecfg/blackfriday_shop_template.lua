@@ -7,7 +7,7 @@ pg.blackfriday_shop_template = {
 		type = 14,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "迎春CP記念",
+		goods_name = "冬至促销纪念",
 		discount = 0,
 		goods_type = 1,
 		id = 27,
@@ -24,14 +24,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "ディスカウント弾",
+		goods_name = "折扣标签子弹",
 		discount = 0,
 		goods_type = 1,
 		id = 28,
 		resource_num = 500,
-		goods_icon = "equips/99158",
+		goods_icon = "equips/99151",
 		goods = {
-			3035
+			3024
 		}
 	},
 	[29] = {
@@ -41,14 +41,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "割引バッグ魚雷",
+		goods_name = "赠品购物袋鱼雷",
 		discount = 0,
 		goods_type = 1,
 		id = 29,
 		resource_num = 500,
-		goods_icon = "equips/99159",
+		goods_icon = "equips/99152",
 		goods = {
-			3036
+			3025
 		}
 	},
 	[30] = {
@@ -58,14 +58,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "ラッピング砲弾",
+		goods_name = "精选礼盒炮弹",
 		discount = 0,
 		goods_type = 1,
 		id = 30,
 		resource_num = 500,
-		goods_icon = "equips/99160",
+		goods_icon = "equips/99153",
 		goods = {
-			3037
+			3026
 		}
 	},
 	[31] = {
@@ -75,14 +75,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "スーパーカート（攻撃）",
+		goods_name = "超级折扣推车（鱼雷）",
 		discount = 0,
 		goods_type = 1,
 		id = 31,
 		resource_num = 200,
-		goods_icon = "equips/99161",
+		goods_icon = "equips/99154",
 		goods = {
-			3038
+			3027
 		}
 	},
 	[32] = {
@@ -92,14 +92,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "スーパーカート（戦闘）",
+		goods_name = "超级折扣推车（战斗）",
 		discount = 0,
 		goods_type = 1,
 		id = 32,
 		resource_num = 200,
-		goods_icon = "equips/99161",
+		goods_icon = "equips/99154",
 		goods = {
-			3039
+			3028
 		}
 	},
 	[33] = {
@@ -109,14 +109,14 @@ pg.blackfriday_shop_template = {
 		type = 9,
 		goods_purchase_limit = 1,
 		num = 1,
-		goods_name = "スーパーカート（爆撃）",
+		goods_name = "超级折扣推车（轰炸）",
 		discount = 0,
 		goods_type = 1,
 		id = 33,
 		resource_num = 200,
-		goods_icon = "equips/99161",
+		goods_icon = "equips/99154",
 		goods = {
-			3040
+			3029
 		}
 	},
 	[34] = {
@@ -126,7 +126,7 @@ pg.blackfriday_shop_template = {
 		type = 2,
 		goods_purchase_limit = 20,
 		num = 1,
-		goods_name = "指向型強化ユニット・Ⅶ期",
+		goods_name = "定向蓝图・七期",
 		discount = 0,
 		goods_type = 1,
 		id = 34,
@@ -143,7 +143,7 @@ pg.blackfriday_shop_template = {
 		type = 2,
 		goods_purchase_limit = 5,
 		num = 1,
-		goods_name = "上級指向型強化ユニット・Ⅶ期",
+		goods_name = "高级定向蓝图・七期",
 		discount = 0,
 		goods_type = 1,
 		id = 35,
@@ -160,7 +160,7 @@ pg.blackfriday_shop_template = {
 		type = 2,
 		goods_purchase_limit = 5,
 		num = 1,
-		goods_name = "フルコース",
+		goods_name = "满汉全席",
 		discount = 0,
 		goods_type = 1,
 		id = 36,
@@ -177,7 +177,7 @@ pg.blackfriday_shop_template = {
 		type = 4,
 		goods_purchase_limit = 2,
 		num = 1,
-		goods_name = "試作型ブリMKII",
+		goods_name = "试作型布里MKII",
 		discount = 0,
 		goods_type = 1,
 		id = 37,
@@ -194,7 +194,7 @@ pg.blackfriday_shop_template = {
 		type = 2,
 		goods_purchase_limit = 2,
 		num = 1,
-		goods_name = "ネコハコSSR",
+		goods_name = "喵箱SSR型",
 		discount = 0,
 		goods_type = 1,
 		id = 38,
@@ -211,7 +211,7 @@ pg.blackfriday_shop_template = {
 		type = 2,
 		goods_purchase_limit = 10,
 		num = 100,
-		goods_name = "特装コア",
+		goods_name = "特装原型",
 		discount = 0,
 		goods_type = 1,
 		id = 39,

@@ -9,11 +9,19 @@ slot0.SetUp = function(slot0)
 	slot0.strollAllocator = IslandStrollAllocator.New(slot0)
 	slot0.visibilityAllocator = IslandVisibilityAllocator.New(slot0)
 	slot0.giftAllocator = IslandGiftAllocator.New(slot0)
+	slot0.activityNpcAllocator = IslandActivityNpcAllocator.New(slot0)
+	slot0.timeDelayCreate = IslandDelayCreationSystem.New(slot0)
 	slot0.playerInputManager = PlayerInputManager.New(slot0)
 	slot0.islandSyncMgr = IslandSyncMgr.New(slot0)
 
 	for slot4, slot5 in ipairs(slot0.sceneData.unitList) do
 		if slot0.visibilityAllocator:IsVisible(slot5.id) then
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0.sceneData.activityUnits) do
+		if slot0.activityNpcAllocator:IsVisible(slot5.id) then
 			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
 		end
 	end
@@ -38,12 +46,18 @@ slot0.SetUp = function(slot0)
 		slot5:SetPath(slot6, slot7)
 		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
 	end
+
+	for slot4, slot5 in ipairs(slot0.sceneData.followUnits) do
+		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+	end
+
+	slot0.timeDelayCreate:InitUnit()
 end
 
 slot0.ResetPlayerPosition = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.sceneData.unitList) do
 		if slot6:IsPlayer() then
-			slot0:NotifiyCore(ISLAND_EVT.RESET_UNIT_POS, slot6.id, slot6.position)
+			slot0:NotifiyCore(ISLAND_EVT.RESET_UNIT_POS, slot6.id, IslandConst.UNIT_LIST_PLAYER, slot6.position)
 		end
 	end
 end
@@ -53,10 +67,15 @@ slot0.OnCoreInitFinish = function(slot0)
 	slot0:NotifiyIsland(ISLAND_EX_EVT.INIT_FINISH)
 	slot0.playerInputManager:Init()
 	slot0:InitSyncMgr()
+	slot0:InitStrollUnitsAwards()
 end
 
-slot0.InitSyncMgr = function(slot0)
-	slot0.islandSyncMgr:Init(slot0.sceneData.unitList)
+slot0.InitStrollUnitsAwards = function(slot0)
+	for slot4, slot5 in ipairs(slot0.sceneData.strollUnits) do
+		if slot5:ExistActionFeedback() then
+			slot0:NotifiyCore(ISLAND_EVT.SHOW_NPC_ANIMATION_BUBBLE, slot5)
+		end
+	end
 end
 
 slot0.GetMapID = function(slot0)
@@ -67,10 +86,11 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandVisitorAgency.VISITOR_ADD, slot0.OnPlayerAdd)
 	slot0:AddIslandListener(IslandVisitorAgency.VISITOR_EXIT, slot0.OnPlayerExit)
 	slot0:AddIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
+	slot0:AddIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
-	slot0:AddIslandListener(IslandBuildingAgency.SlOT_UNIT_INIT, slot0.OnInitSlotUnit)
-	slot0:AddIslandListener(IslandBuildingAgency.SLOT_UNIT_REMOVE, slot0.OnRemoveSlotUnit)
+	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
+	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, slot0.OnCollectSloSlotUnitRemove)
 	slot0:AddIslandListener(IslandStartDelegationCommand.START_DELEGATION, slot0.OnStartDelegation)
 	slot0:AddIslandListener(IslandFinishDelegationCommand.END_DELEGATION, slot0.OnEndDelegation)
 	slot0:AddIslandListener(IslandBuildingAgency.SLOT_RESET_DELEGATION_STATE_DONE, slot0.OnGetAllDelegationAward)
@@ -81,6 +101,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandSlotHandPlantAwardCommand.START_HANDPLANT_AWARD_DONE, slot0.OnEndPlant)
 	slot0:AddIslandListener(IslandSlotCollectCommand.START_HAND_COLLECT_DONE, slot0.OnStartHandCollect)
 	slot0:AddIslandListener(IslandBuildingAgency.SLOT_HANDPLABT_SLOT_UNIT_CHANGE, slot0.OnHandPlantSlotChangeUnit)
+	slot0:AddIslandListener(IslandBuildingAgency.CHANGE_PRODUCT_MODEL, slot0.OnProductPlaceChangeUnit)
 	slot0:AddIslandListener(IslandGatherCollectAgency.RemoveGatherUnit, slot0.OnRemoveWildGatherDone)
 	slot0:AddIslandListener(IslandGatherCollectAgency.AddGatherUnit, slot0.OnAddWildGatherDone)
 	slot0:AddIslandListener(ISLAND_EVT.CHANGE_SLOT_MODEL, slot0.OnChangeSlotModel)
@@ -95,16 +116,27 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandProxy.ACTIVE_OR_DISABLE_UNIT, slot0.OnActiveOrDisableUnit)
 	slot0:AddIslandListener(IslandProxy.LINK_CORE, slot0.OnLinkCore)
 	slot0:AddIslandListener(IslandBuildingAgency.GEN_ANIMAL_INT, slot0.OnAnimalInit)
+	slot0:AddIslandListener(IslandNpcFeedbackAgency.NPC_ACTION_CHANGE, slot0.OnNpcActionFeedBackChange)
+	slot0:AddIslandListener(IslandNpcFeedbackAgency.RESET_NPC_ACTIONS, slot0.OnResetNpcActionFeedback)
+	slot0:AddIslandListener(IslandFollowerAgency.ADD_FOLLOWER, slot0.OnAddFollower)
+	slot0:AddIslandListener(IslandFollowerAgency.DEL_FOLLOWER, slot0.OnDelFollower)
+	slot0:AddIslandListener(ActivityProxy.ACTIVITY_UPDATED, slot0.OnActivityUpdate)
+	slot0:AddIslandListener(IslandProxy.GEN_RECYCLEITEM, slot0.OnGenRecycleItem)
+	slot0:AddIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_ADD, slot0.OnActivityNpcAdd)
+	slot0:AddIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_UPDATE, slot0.OnActivityNpcUpdate)
+	slot0:AddIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_DEL, slot0.OnActivityNpcDel)
+	slot0:AddIslandListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnSystemUnlock)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandVisitorAgency.VISITOR_ADD, slot0.OnPlayerAdd)
 	slot0:RemoveIslandListener(IslandVisitorAgency.VISITOR_EXIT, slot0.OnPlayerExit)
 	slot0:RemoveIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
+	slot0:RemoveIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
-	slot0:RemoveIslandListener(IslandBuildingAgency.SlOT_UNIT_INIT, slot0.OnInitSlotUnit)
-	slot0:RemoveIslandListener(IslandBuildingAgency.SLOT_UNIT_REMOVE, slot0.OnRemoveSlotUnit)
+	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
+	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, slot0.OnCollectSloSlotUnitRemove)
 	slot0:RemoveIslandListener(IslandStartDelegationCommand.START_DELEGATION, slot0.OnStartDelegation)
 	slot0:RemoveIslandListener(IslandFinishDelegationCommand.END_DELEGATION, slot0.OnEndDelegation)
 	slot0:RemoveIslandListener(IslandBuildingAgency.SLOT_RESET_DELEGATION_STATE_DONE, slot0.OnGetAllDelegationAward)
@@ -115,6 +147,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandSlotHandPlantAwardCommand.START_HANDPLANT_AWARD_DONE, slot0.OnEndPlant)
 	slot0:RemoveIslandListener(IslandSlotCollectCommand.START_HAND_COLLECT_DONE, slot0.OnStartHandCollect)
 	slot0:RemoveIslandListener(IslandBuildingAgency.SLOT_HANDPLABT_SLOT_UNIT_CHANGE, slot0.OnHandPlantSlotChangeUnit)
+	slot0:RemoveIslandListener(IslandBuildingAgency.CHANGE_PRODUCT_MODEL, slot0.OnProductPlaceChangeUnit)
 	slot0:RemoveIslandListener(IslandGatherCollectAgency.RemoveGatherUnit, slot0.OnRemoveWildGatherDone)
 	slot0:RemoveIslandListener(IslandGatherCollectAgency.AddGatherUnit, slot0.OnAddWildGatherDone)
 	slot0:RemoveIslandListener(ISLAND_EVT.CHANGE_SLOT_MODEL, slot0.OnChangeSlotModel)
@@ -128,6 +161,118 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandProxy.ACTIVE_OR_DISABLE_UNIT, slot0.OnActiveOrDisableUnit)
 	slot0:RemoveIslandListener(IslandProxy.LINK_CORE, slot0.OnLinkCore)
 	slot0:RemoveIslandListener(IslandBuildingAgency.GEN_ANIMAL_INT, slot0.OnAnimalInit)
+	slot0:RemoveIslandListener(IslandNpcFeedbackAgency.NPC_ACTION_CHANGE, slot0.OnNpcActionFeedBackChange)
+	slot0:RemoveIslandListener(IslandNpcFeedbackAgency.RESET_NPC_ACTIONS, slot0.OnResetNpcActionFeedback)
+	slot0:RemoveIslandListener(IslandFollowerAgency.ADD_FOLLOWER, slot0.OnAddFollower)
+	slot0:RemoveIslandListener(IslandFollowerAgency.DEL_FOLLOWER, slot0.OnDelFollower)
+	slot0:RemoveIslandListener(ActivityProxy.ACTIVITY_UPDATED, slot0.OnActivityUpdate)
+	slot0:RemoveIslandListener(IslandProxy.GEN_RECYCLEITEM, slot0.OnGenRecycleItem)
+	slot0:RemoveIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_ADD, slot0.OnActivityNpcAdd)
+	slot0:RemoveIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_UPDATE, slot0.OnActivityNpcUpdate)
+	slot0:RemoveIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_DEL, slot0.OnActivityNpcDel)
+	slot0:RemoveIslandListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnSystemUnlock)
+end
+
+slot0.OnSystemUnlock = function(slot0, slot1)
+	slot0:NotifiyCore(ISLAND_EVT.SYSTEM_UNLOCK, slot1)
+end
+
+slot0.OnActivityNpcAdd = function(slot0, slot1)
+	slot0.activityNpcAllocator:AddNpc(slot1)
+	slot0.activityNpcAllocator:Flush()
+end
+
+slot0.OnActivityNpcUpdate = function(slot0, slot1, slot2)
+	slot0.activityNpcAllocator:DelNpc(slot1)
+	slot0.activityNpcAllocator:AddNpc(slot2)
+	slot0.activityNpcAllocator:Flush()
+end
+
+slot0.OnActivityNpcDel = function(slot0, slot1)
+	slot0.activityNpcAllocator:DelNpc(slot1)
+	slot0.activityNpcAllocator:Flush()
+end
+
+slot0.OnActivityUpdate = function(slot0)
+	slot0.activityNpcAllocator:Flush()
+end
+
+slot0.OnGenRecycleItem = function(slot0, slot1)
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, IslandDataConvertor.GenDelayRecycleIslandUnit(slot1))
+end
+
+slot0.OnAddFollower = function(slot0, slot1)
+	slot4 = slot0:GetIsland():GetCharacterAgency():GetShipById(slot1)
+	slot7 = IslandFollowerUnitVO.New(slot4.id, slot1, slot4:GetModelUnit(), slot0:GetView():GetPlayerPosition(), Vector3(0, 0, 0), not (#slot0.sceneData.followUnits > 0))
+
+	table.insert(slot0.sceneData.followUnits, slot7)
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot7)
+
+	for slot11, slot12 in ipairs(slot0.sceneData.strollUnits) do
+		if slot4:getConfig("unit_id") == slot12.config.unit_id then
+			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_STROLL, slot12.id)
+		end
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.ADD_FOLLOWER)
+end
+
+slot0.OnDelFollower = function(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.sceneData.followUnits) do
+		if slot7.id == slot1 then
+			slot2 = slot6
+
+			break
+		end
+	end
+
+	if slot2 <= 0 then
+		return
+	end
+
+	slot3 = table.remove(slot0.sceneData.followUnits, slot2)
+
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_FOLLOW, slot3.id)
+
+	if slot3:IsRandomizer() and #slot0.sceneData.followUnits > 0 then
+		slot4 = slot0.sceneData.followUnits[1]
+
+		slot4:ActiveRandomizer()
+		slot0:NotifiyCore(ISLAND_EVT.RESET_FOLLOW_RANDOMIZER, slot4.id)
+	end
+
+	slot5 = slot0:GetIsland():GetCharacterAgency():GetShipById(slot1)
+
+	for slot9, slot10 in ipairs(slot0.sceneData.strollUnits) do
+		if slot5:getConfig("unit_id") == slot10.config.unit_id then
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot10)
+		end
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.DEL_FOLLOWER)
+end
+
+slot0.OnResetNpcActionFeedback = function(slot0)
+	for slot4, slot5 in ipairs(slot0.sceneData.strollUnits) do
+		if slot5:ExistActionFeedback() then
+			slot5:ClearActionFeedback()
+			slot0:NotifiyCore(ISLAND_EVT.HIDE_NPC_ANIMATION_BUBBLE, slot5)
+		end
+	end
+
+	IslandDataConvertor.DistributeAward4StrollUnits(slot0.sceneData.strollUnits, slot0:GetIsland())
+	slot0:InitStrollUnitsAwards()
+end
+
+slot0.OnNpcActionFeedBackChange = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.sceneData.strollUnits) do
+		if slot6.id == slot1 and slot6:ExistActionFeedback() then
+			slot6:ClearActionFeedback()
+			slot0:NotifiyCore(ISLAND_EVT.HIDE_NPC_ANIMATION_BUBBLE, slot6)
+		end
+	end
 end
 
 slot0.OnLinkCore = function(slot0, slot1, ...)
@@ -160,9 +305,12 @@ slot0.OnStartStory = function(slot0)
 	slot0:NotifiyCore(ISLAND_EVT.START_STORY)
 end
 
-slot0.OnEndStory = function(slot0)
+slot0.OnEndStory = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.END_STORY)
-	slot0.visibilityAllocator:Flush()
+
+	if slot1 then
+		slot0.visibilityAllocator:Flush()
+	end
 end
 
 slot0.OnTaskAdd = function(slot0)
@@ -184,18 +332,22 @@ slot0.OnUpdateTask = function(slot0)
 end
 
 slot0.OnPlayerAdd = function(slot0, slot1)
-	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, IslandDataConvertor.PlayerData2IslandUnit(slot1.player, slot0.mapId), function (slot0)
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, IslandDataConvertor.PlayerData2IslandUnit(slot1.player, slot0.mapId, slot0:GetIsland().id), function (slot0)
 		uv0.islandSyncMgr:OnVisitorEnter(uv1.player.id, slot0)
 	end)
 end
 
 slot0.OnPlayerExit = function(slot0, slot1)
-	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.id)
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_PLAYER, slot1.id)
 	slot0.islandSyncMgr:OnVisitorExit(slot1.id)
 end
 
 slot0.OnPlayerChangeDress = function(slot0, slot1, slot2)
 	slot0:NotifiyCore(ISLAND_EVT.CHANGE_DRESS, slot1, slot2)
+end
+
+slot0.OnShipChangeDress = function(slot0, slot1, slot2, slot3, slot4)
+	slot0:NotifiyCore(ISLAND_EVT.CHANGE_CHARACTER_DRESS, slot1, slot2, slot3, slot4)
 end
 
 slot0.OnStartPlant = function(slot0, slot1)
@@ -217,27 +369,6 @@ slot0.OnStartPlant = function(slot0, slot1)
 
 	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3)
 	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot2:GenHandPlantUnitBySlotData(slot1.area_id, slot1.formula_id))
-	slot0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, slot3)
-end
-
-slot0.OnStartHandCollect = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
-		if slot7.id == slot1.build_id then
-			slot2 = slot7
-
-			break
-		end
-	end
-
-	if not slot2 then
-		return
-	end
-
-	slot3 = slot2:GetUnitIdBySlotId(slot1.area_id)
-
-	slot0:NotifiyCore(ISLAND_EVT.UPDATE_UNIT_HP, slot3)
 	slot0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, slot3)
 end
 
@@ -263,6 +394,166 @@ slot0.OnEndPlant = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, slot3)
 end
 
+slot0.OnStartDelegation = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
+		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.sceneData.productSystems) do
+		if slot8.id == slot1.build_id then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if table.contains(IslandProductConst.PlantPlaceIdLists, slot1.build_id) then
+		for slot8, slot9 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
+			if slot3:GetUnitVOByUnitId(slot3:GetUnitIdBySlotId(slot9)) then
+				slot11:ChangeSlotType(IslandProductConst.ProductSlotType.RoleDelegation)
+			end
+		end
+	end
+
+	if slot2:GetUnit(slot1.ship_id, slot1.area_id, true) then
+		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4)
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.START_DEGATION, slot1, slot3)
+end
+
+slot0.OnEndDelegation = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
+		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if not slot2 then
+		return
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.END_DEGATION, slot1)
+
+	if slot2:GetUnitShipIdBySlotId(slot1.ship_id, slot1.area_id) then
+		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_DELEGATION, slot3)
+	end
+
+	if slot1.remainReward then
+		return
+	end
+
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
+		if slot9.id == slot1.build_id then
+			slot4 = slot9
+
+			break
+		end
+	end
+
+	if table.contains(IslandProductConst.PlantPlaceIdLists, slot1.build_id) then
+		for slot9, slot10 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
+			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot4:GetUnitIdBySlotId(slot10))
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4:GenHandPlantUnitBySlotData(slot10))
+		end
+	end
+end
+
+slot0.OnGetAllDelegationAward = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
+		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.sceneData.productSystems) do
+		if slot8.id == slot1.build_id then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if slot1.build_id == IslandProductConst.FarmlandPlaceId then
+		for slot8, slot9 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
+			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetUnitIdBySlotId(slot9))
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GenHandPlantUnitBySlotData(slot9))
+		end
+	end
+end
+
+slot0.OnChangeSlotModel = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
+		if slot7.id == IslandProductConst.FarmlandPlaceId then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if not slot2 then
+		return
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.id)
+
+	slot3 = slot2:GetUnitVOByUnitId(slot1.id)
+	slot3.modelId = slot1.modelId
+
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3)
+end
+
+slot0.OnStartHandCollect = function(slot0, slot1)
+	slot2 = nil
+
+	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
+		if slot7.id == slot1.build_id then
+			slot2 = slot7
+
+			break
+		end
+	end
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = slot2:GetUnitIdBySlotId(slot1.area_id)
+
+	slot0:NotifiyCore(ISLAND_EVT.UPDATE_UNIT_HAND_COLLECT, slot3)
+	slot0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, slot3)
+end
+
 slot0.OnHandPlantSlotChangeUnit = function(slot0, slot1)
 	slot2 = nil
 
@@ -282,6 +573,26 @@ slot0.OnHandPlantSlotChangeUnit = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot2:GenHandPlantUnitBySlotData(slot1.slotId))
 end
 
+slot0.OnProductPlaceChangeUnit = function(slot0, slot1)
+	slot2 = slot1.build_id
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.sceneData.productSystems) do
+		if slot8.id == slot2 then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if not slot3 then
+		return
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetPlaceModelId(slot2))
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GetPlaceModelId(slot2))
+end
+
 slot0.OnRemoveWildGatherDone = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.unitId)
 	slot0:NotifiyCore(ISLAND_EVT.LEAVE_UNIT, {
@@ -290,40 +601,51 @@ slot0.OnRemoveWildGatherDone = function(slot0, slot1)
 end
 
 slot0.OnAddWildGatherDone = function(slot0, slot1)
-	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.unitId)
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, IslandDataConvertor.GenWildGatherUnit(slot1))
 end
 
-slot0.OnInitSlotUnit = function(slot0, slot1)
-	assert(slot1.unitId and slot1.modelId)
+slot0.OnCollectSlotUnitInit = function(slot0, slot1)
+	slot3 = pg.island_production_slot[slot1.slotId].place
+	slot4 = nil
 
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
-		if slot7.id == slot1.build_id then
-			slot2 = slot7
+	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
+		if slot9.id == slot3 then
+			slot4 = slot9
 
 			break
 		end
 	end
 
-	if not slot2 then
+	if not slot4 then
 		return
 	end
 
-	if slot2:ProductSlotObj2IslandUnit(pg.island_world_objects[slot1.unitId] or {}, {
-		unitId = slot1.modelId,
-		typ = slot1.unitType,
-		formula_id = slot1.fammulaId,
-		slotId = slot1.slotId,
-		slotType = IslandProductSystemVO.SlotType.HandCollect
-	}) then
-		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+	if slot4:InitHandCollectSlotBySlotId(slot2) then
+		if slot5.delayTime then
+			slot0.timeDelayCreate:DelayInitUnit(slot5)
+		else
+			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+		end
 	end
 end
 
-slot0.OnRemoveSlotUnit = function(slot0, slot1)
-	assert(slot1.unitId)
-	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.unitId)
+slot0.OnCollectSloSlotUnitRemove = function(slot0, slot1)
+	slot3 = pg.island_production_slot[slot1.slotId].place
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
+		if slot9.id == slot3 then
+			slot4 = slot9
+
+			break
+		end
+	end
+
+	if not slot4 then
+		return
+	end
+
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot4:GetHandCollectSlotBySlotId(slot2))
 end
 
 slot0.OnSyncDataUpdate = function(slot0, slot1)
@@ -369,152 +691,25 @@ slot0.OnDispose = function(slot0)
 
 		slot0.giftAllocator = nil
 	end
-end
 
-slot0.OnStartDelegation = function(slot0, slot1)
-	slot2 = nil
+	if slot0.timeDelayCreate then
+		slot0.timeDelayCreate:Dispose()
 
-	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
-		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
-			slot2 = slot7
-
-			break
-		end
+		slot0.timeDelayCreate = nil
 	end
 
-	if not slot2 then
-		return
+	if slot0.activityNpcAllocator then
+		slot0.activityNpcAllocator:Dispose()
+
+		slot0.activityNpcAllocator = nil
 	end
-
-	slot3 = nil
-
-	for slot7, slot8 in ipairs(slot0.sceneData.productSystems) do
-		if slot8.id == slot1.build_id then
-			slot3 = slot8
-
-			break
-		end
-	end
-
-	if slot1.build_id == IslandProductSystemVO.FarmlandPlaceId then
-		for slot8, slot9 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
-			if slot3:GetUnitVOByUnitId(slot3:GetUnitIdBySlotId(slot9)) then
-				slot11:ChangeSlotType(IslandProductSystemVO.SlotType.RoleDelegation)
-			end
-		end
-	end
-
-	if slot2:GetUnit(slot1.ship_id, slot1.area_id, true) then
-		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4)
-	end
-
-	slot0:NotifiyCore(ISLAND_EVT.START_DEGATION, slot1, slot3)
-end
-
-slot0.OnEndDelegation = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
-		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
-			slot2 = slot7
-
-			break
-		end
-	end
-
-	if not slot2 then
-		return
-	end
-
-	slot0:NotifiyCore(ISLAND_EVT.END_DEGATION, slot1)
-
-	if slot2:GetUnit(slot1.ship_id, slot1.area_id, true) then
-		slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_DELEGATION, slot3.id)
-	end
-
-	if slot1.remainReward then
-		return
-	end
-
-	slot4 = nil
-
-	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
-		if slot9.id == slot1.build_id then
-			slot4 = slot9
-
-			break
-		end
-	end
-
-	if slot1.build_id == IslandProductSystemVO.FarmlandPlaceId then
-		for slot9, slot10 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
-			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot4:GetUnitIdBySlotId(slot10))
-			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot4:GenHandPlantUnitBySlotData(slot10))
-		end
-	end
-end
-
-slot0.OnGetAllDelegationAward = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.sceneData.systemList) do
-		if isa(slot7, IslandCharacterSystemVO) and slot7.id == slot1.build_id then
-			slot2 = slot7
-
-			break
-		end
-	end
-
-	if not slot2 then
-		return
-	end
-
-	slot3 = nil
-
-	for slot7, slot8 in ipairs(slot0.sceneData.productSystems) do
-		if slot8.id == slot1.build_id then
-			slot3 = slot8
-
-			break
-		end
-	end
-
-	if slot1.build_id == IslandProductSystemVO.FarmlandPlaceId then
-		for slot8, slot9 in ipairs(pg.island_production_slot[slot1.area_id].exclusion_slot) do
-			slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetUnitIdBySlotId(slot9))
-			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GenHandPlantUnitBySlotData(slot9))
-		end
-	end
-end
-
-slot0.OnChangeSlotModel = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
-		if slot7.id == IslandProductSystemVO.FarmlandPlaceId then
-			slot2 = slot7
-
-			break
-		end
-	end
-
-	if not slot2 then
-		return
-	end
-
-	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot1.id)
-
-	slot3 = slot2:GetUnitVOByUnitId(slot1.id)
-	slot3.modelId = slot1.modelId
-
-	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3)
 end
 
 slot0.OnAnimalInit = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot0.sceneData.productSystems) do
-		if slot7.id == IslandProductSystemVO.PasturePlaceId then
+		if slot7.id == IslandProductConst.PasturePlaceId then
 			slot2 = slot7
 
 			break
@@ -532,64 +727,90 @@ slot0.OnAnimalInit = function(slot0, slot1)
 	end
 end
 
-slot0.WorldObjectInterAction = function(slot0, slot1, slot2, slot3, slot4)
-	slot3 = slot3 or 1
-
-	if not _.detect(slot0.sceneData.unitList, function (slot0)
-		return slot0.id == uv0
-	end) or not slot5:Interactable() then
-		return
-	end
-
-	if not slot5:GetEmptySlot() then
-		return
-	end
-
-	slot7 = function()
-		uv0:Lock(uv1)
-		uv2:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, uv3, uv0, uv4)
-	end
-
-	if slot4 then
-		slot7()
-	else
-		slot8 = slot0.islandSyncMgr
-
-		slot8:TryControlUnit(IslandConst.SYNC_TYPE_UNIT_STATIC, slot1, slot6.id, slot3, function (slot0)
-			if slot0 then
-				uv0()
-			end
-		end)
-	end
+slot0.InitSyncMgr = function(slot0)
+	slot0.islandSyncMgr:Init(slot0.sceneData.unitList)
 end
 
-slot0.WorldObjectInterActionEnd = function(slot0, slot1, slot2, slot3)
+slot0.SetVisitorSyncData = function(slot0, slot1, slot2)
+	slot0:NotifiyCore(ISLAND_EVT.SET_VISITOR_SYNC_DATA, slot1, slot2)
+end
+
+slot0.WorldObjectInterAction = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+
 	if not _.detect(slot0.sceneData.unitList, function (slot0)
 		return slot0.id == uv0
 	end) or not slot4:Interactable() then
 		return
 	end
 
-	if not slot4:GetUsingSlot(slot2) then
+	if not slot4:GetEmptySlot() then
 		return
 	end
 
 	slot6 = function()
+		uv0:Lock(uv1)
+		uv2:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, uv3, uv0, uv4)
+	end
+
+	slot7 = slot0.islandSyncMgr
+
+	slot7:TryControlUnit(IslandConst.SYNC_TYPE_UNIT_STATIC, slot1, slot5.id, slot3, function (slot0)
+		if slot0 then
+			uv0()
+		end
+	end)
+end
+
+slot0.WorldObjectInterActionSync = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+
+	if not _.detect(slot0.sceneData.unitList, function (slot0)
+		return slot0.id == uv0
+	end) or not slot4:Interactable() then
+		return
+	end
+
+	if not slot4:GetEmptySlot() then
+		return
+	end
+
+	slot5:Lock(slot2)
+	slot0:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, slot4, slot5, slot3)
+end
+
+slot0.WorldObjectInterActionEnd = function(slot0, slot1, slot2)
+	if not _.detect(slot0.sceneData.unitList, function (slot0)
+		return slot0.id == uv0
+	end) or not slot3:Interactable() then
+		return
+	end
+
+	slot5 = function()
 		uv0:Release()
 		uv1:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_END_INTERACTION, uv2, Clone(uv0))
 	end
 
-	if slot3 then
-		slot6()
-	else
-		slot7 = slot0.islandSyncMgr
+	slot6 = slot0.islandSyncMgr
 
-		slot7:EndControlUnit(IslandConst.SYNC_TYPE_UNIT_STATIC, slot1, slot5.id, function (slot0)
-			if slot0 then
-				uv0()
-			end
-		end)
+	slot6:EndControlUnit(IslandConst.SYNC_TYPE_UNIT_STATIC, slot1, slot3:GetUsingSlot(slot2).id, function (slot0)
+		if slot0 then
+			uv0()
+		end
+	end)
+end
+
+slot0.WorldObjectInterActionEndSync = function(slot0, slot1, slot2)
+	if not _.detect(slot0.sceneData.unitList, function (slot0)
+		return slot0.id == uv0
+	end) or not slot3:Interactable() then
+		return
 	end
+
+	slot4 = slot3:GetUsingSlot(slot2)
+
+	slot4:Release()
+	slot0:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_END_INTERACTION, slot3, Clone(slot4))
 end
 
 slot0.WorldObjectInitStatus = function(slot0, slot1, slot2)

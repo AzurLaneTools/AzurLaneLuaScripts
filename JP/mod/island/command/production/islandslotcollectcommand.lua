@@ -3,23 +3,15 @@ slot0.START_HAND_COLLECT_DONE = "IslandSlotCollectCommand:START_HAND_COLLECT_DON
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.build_id
-	slot4 = slot2.area_id
-	slot6 = getProxy(IslandProxy):GetIsland():GetBuildingAgency()
-	slot8 = 1
+	slot5 = getProxy(IslandProxy)
+	slot5 = slot5:GetIsland()
+	slot6 = slot5:GetBuildingAgency()
+	slot8 = pg.ConnectionMgr.GetInstance()
 
-	for slot12, slot13 in ipairs(pg.island_set.mission_gather_point.key_value_varchar) do
-		if slot4 == slot13[1] then
-			slot8 = 2
-		end
-	end
-
-	slot9 = pg.ConnectionMgr.GetInstance()
-
-	slot9:Send(21507, {
-		build_id = slot3,
-		area_id = slot4,
-		type = slot8
+	slot8:Send(21507, {
+		build_id = slot2.build_id,
+		area_id = slot2.area_id,
+		type = slot2.type
 	}, 21508, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0:GetBuilding(uv1)
@@ -31,6 +23,7 @@ slot0.execute = function(slot0, slot1)
 				}
 			end
 
+			slot1:GetBuildingCollectData():UpdateCollectRefreshtTime(slot0.refresh_time, uv2)
 			slot1:UpdateCollectDataBySlotId(slot2, uv2)
 			uv4:sendNotification(GAME.ISLAND_DROPMAIN_AWARD, {
 				dropData = IslandDropHelper.AddItems(slot0)

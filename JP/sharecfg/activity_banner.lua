@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					19
+					25
 				},
 				{
 					0,
@@ -25,12 +25,12 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					2
+					9
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -125,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					19
+					25
 				},
 				{
 					0,
@@ -137,12 +137,12 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					2
+					9
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -152,17 +152,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene core activity",
-			{
-				coreName = "EighthAnniversaryJpCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					1
 				},
 				{
 					0,
@@ -173,13 +170,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					30
+					10,
+					9
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -199,7 +196,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					12
+					25
 				},
 				{
 					0,
@@ -210,13 +207,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					8
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -226,95 +223,9 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
@@ -322,7 +233,53 @@ pg.activity_banner = {
 					25
 				},
 				{
-					16,
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene dockyard"
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
 					0,
 					0
 				}
@@ -352,15 +309,36 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
+		pic = "limit_skin"
+	},
+	[100] = {
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
+		type = 10,
+		id = 100,
+		pic = "dumpling"
+	},
+	[101] = {
+		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
+		type = 10,
+		id = 101,
+		pic = "jingbing"
+	},
+	[102] = {
+		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		type = 10,
+		id = 102,
+		pic = "guihuagao",
 		time = {
 			{
 				{
 					2025,
 					9,
-					12
+					25
 				},
 				{
 					0,
@@ -372,29 +350,15 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					2
+					9
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
-	},
-	[100] = {
-		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		time = "stop",
-		type = 10,
-		id = 100,
-		pic = "dumpling"
-	},
-	[101] = {
-		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		time = "stop",
-		type = 10,
-		id = 101,
-		pic = "jingbing"
 	},
 	[200] = {
 		param = "",
@@ -426,7 +390,6 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
 			9
 		},
 		[9] = {
@@ -441,7 +404,8 @@ pg.activity_banner = {
 		},
 		[10] = {
 			100,
-			101
+			101,
+			102
 		},
 		[13] = {
 			200,
@@ -457,7 +421,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
 		9,
 		90,
 		91,
@@ -465,6 +428,7 @@ pg.activity_banner = {
 		99,
 		100,
 		101,
+		102,
 		200,
 		201,
 		202

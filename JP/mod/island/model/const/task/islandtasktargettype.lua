@@ -24,7 +24,7 @@ slot0.TASK = 22
 slot0.TASK_TYPE = 23
 slot0.HAND_PROD_PLUS = 24
 slot0.GIVE_GIFT = 25
-slot0.PRDO_ITEM = 26
+slot0.PROD_ITEM = 26
 slot0.RESTAURANT_SHELVE = 27
 slot0.RESTAURANT_SELL = 28
 slot0.RESTAURANT_SALES = 29
@@ -33,11 +33,25 @@ slot0.RESTAURANT_OPEN = 31
 slot0.SHIP_EXP_BOOK = 32
 slot0.SHIP_SKILL_UPGRADE = 33
 slot0.STORY = 34
+slot0.ACTION = 35
+slot0.ACTION_END = 36
+slot0.ACTION_HELLO = 37
+slot0.FOLLOW = 38
+slot0.ACTIVITY_ORDER = 39
+slot0.ACTIVIEY_GATHER = 40
+slot0.ACTIVIEY_FORMULA = 41
+slot0.START_DELEGATE = 42
+slot0.TAKE_PHOTO = 43
+slot0.COMMANDER_DRESS_ID = 44
+slot0.SHIP_DRESS_ID = 45
 
 slot0.GetRuntimeTypes = function()
 	return {
 		uv0.RECYCLE,
+		uv0.TECHNOLOGY,
 		uv0.ISLAND_LV,
+		uv0.FRAGMENT,
+		uv0.UNLOCK_SHIP,
 		uv0.FURNITURE,
 		uv0.COMMANDER_DRESS,
 		uv0.SHIP_DRESS,
@@ -47,20 +61,24 @@ slot0.GetRuntimeTypes = function()
 		uv0.ACHIEVEMENT,
 		uv0.TASK,
 		uv0.RESTAURANT_RANK,
-		uv0.STORY
+		uv0.STORY,
+		uv0.ACTION,
+		uv0.COMMANDER_DRESS_ID,
+		uv0.SHIP_DRESS_ID
 	}
 end
 
 slot0.GetClientTypes = function()
 	return {
 		uv0.INTERACTION,
-		uv0.APPROACH
+		uv0.APPROACH,
+		uv0.ACTION_END,
+		uv0.TAKE_PHOTO
 	}
 end
 
 slot0.GetObjectLinkTypes = function()
 	return {
-		uv0.INTERACTION,
 		uv0.APPROACH
 	}
 end

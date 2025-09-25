@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001034",
 	map = {
 		{
@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "怎么样指挥官，这样的体验是不是还不错吧？",
-			animation = "clap",
-			characterId = 101000,
-			subName = "集会岛接待员",
+			say = "――なかなか可愛いな。……開発エリアのバスは海から走ってくることはないが、飾りとしては申し分ない",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,26 +33,18 @@ return {
 			}
 		},
 		{
-			say = "我相信，在指挥官的努力下集会岛一定会成为大家最喜欢来的地方。",
-			subName = "集会岛接待员",
+			subName = "集会島受付",
+			say = "指揮官、いかがでしたか？",
 			characterId = 101000,
+			animation = "clap",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官也可以经常来享受一下。",
-			subName = "集会岛接待员",
-			characterId = 101000,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			say = "――ああ、思い描いたものがこうして目の前で形になっていくのは嬉しいものだな",
 			animation = "nod",
-			say = "好。如果这里没有宝藏……把这里变成大家的宝藏也不错……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,17 +52,7 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "欸~宝藏么……指挥官，您最近有感觉太累吗？",
-			characterId = 101000,
-			animation = "talk",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "累啊……还好，我在港区就已经习惯了。",
+			say = "――こうして…ここを少しずつみんなの「宝の島」にするのも悪くないな……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +60,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "果然如此，您难得来开发区一趟，却一直被各种事务缠身……",
+			subName = "集会島受付",
+			say = "まぁ…！指揮官はいつだって皆さんのことを考えていらっしゃるんですね",
 			characterId = 101000,
 			animation = "sad",
 			typewriter = {
@@ -90,18 +70,8 @@ return {
 			}
 		},
 		{
-			say = "修复交通线、运送资源、规划订单和委托……虽然是为了开发区的未来着想。",
-			animation = "talk",
-			characterId = 101000,
-			subName = "集会岛接待员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但大家在忙碌之余，也在担忧着您的健康。",
-			subName = "集会岛接待员",
+			say = "ですが、ご自分のことも大事にしてください。もうお疲れでしょう？",
+			subName = "集会島受付",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +79,44 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "所以……仅在此处，在这座集会岛上——",
+			say = "――疲れ……か、そんなの母港にいた頃から慣れてるさ",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "集会島受付",
+			say = "ここは母港ではありませんよ？せっかく開発エリアに来たのに、ずっとお仕事に追われるなんて……",
+			characterId = 101000,
+			animation = "shakehead",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "駅の修理、資材の運搬、依頼や委託の管理……どれも島の未来のためだとわかりますが…",
+			subName = "集会島受付",
+			characterId = 101000,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "でも皆さん、指揮官のお体を心配しているのです",
+			subName = "集会島受付",
+			characterId = 101000,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "集会島受付",
+			say = "なので、せめてこの集会島では……",
 			characterId = 101000,
 			animation = "clap",
 			typewriter = {
@@ -119,8 +125,8 @@ return {
 			}
 		},
 		{
-			say = "大家希望能为您创造一个暂时远离烦恼、真正放松下来的地方。",
-			subName = "集会岛接待员",
+			say = "悩みを忘れて、心から休める場所を作ってほしいと、みんな願ってます",
+			subName = "集会島受付",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +134,7 @@ return {
 			}
 		},
 		{
-			say = "你们让我来这里，就是为了……休息？",
+			say = "――ここに連れてきたのは……自分を休ませるため？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -136,18 +142,18 @@ return {
 			}
 		},
 		{
-			say = "是的。请您暂且放下重担，享受沙滩的阳光，倾听海风的旋律，让紧绷的思绪真正地舒缓下来。",
+			say = "はい。しばらく肩の荷を下ろして、張りつめた心をほぐしてほしいのです",
 			animation = "talk",
 			characterId = 101000,
-			subName = "集会岛接待员",
+			subName = "集会島受付",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过，大家的心意，也不止于此。",
-			subName = "集会岛接待员",
+			say = "このカメラをどうぞ。落ち着いたひと時やお気に入りの景色とかを記録してみてくださいね",
+			subName = "集会島受付",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "不止于此？",
+			say = "――記録……？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -163,29 +169,19 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "大家确实为您准备了一份小小的宝藏——一份凝结了伙伴们心意的礼物。",
+			subName = "集会島受付",
+			say = "はい。隣にちょうど建てたばかりの建物がありますし、練習がてら使ってみるといいですよ",
 			characterId = 101000,
-			animation = "shy",
+			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "等您休息好了，就去帕特莉小姐那里看看吧~",
-			subName = "集会岛接待员",
+			say = "分からないことがあれば、いつでも声をかけてください。難しいものではないのでご安心を",
+			subName = "集会島受付",
 			characterId = 101000,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "那份宝藏，将由她亲手交给您，相信……不会让您失望的。",
-			animation = "clap",
-			characterId = 101000,
-			subName = "集会岛接待员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

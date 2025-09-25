@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child2_ending = {
 	{
 		pic_preview = "oceana_ending1",
-		name = "進学",
+		name = "继续升学",
 		character = 1,
 		id = 1,
 		pic = "bg_project_oceana_cg23",
@@ -12,7 +12,7 @@ pg.child2_ending = {
 				{
 					300041
 				},
-				"育成クリア"
+				"完成养成计划"
 			}
 		},
 		condition = {
@@ -24,7 +24,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending2",
-		name = "パティシエール",
+		name = "甜品能手",
 		character = 1,
 		id = 2,
 		pic = "bg_project_oceana_cg24",
@@ -34,13 +34,13 @@ pg.child2_ending = {
 				{
 					300001
 				},
-				"全属性>2000"
+				"总属性>2000"
 			},
 			{
 				{
 					300002
 				},
-				"性格-大人しい"
+				"性格-乖巧"
 			}
 		},
 		condition = {
@@ -53,7 +53,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending3",
-		name = "バーテンダー",
+		name = "调酒师",
 		character = 1,
 		id = 3,
 		pic = "bg_project_oceana_cg25",
@@ -63,13 +63,13 @@ pg.child2_ending = {
 				{
 					300001
 				},
-				"全属性>2000"
+				"总属性>2000"
 			},
 			{
 				{
 					300003
 				},
-				"性格-ワガママ"
+				"性格-叛逆"
 			}
 		},
 		condition = {
@@ -82,7 +82,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending4",
-		name = "風景写真",
+		name = "自然摄影",
 		character = 1,
 		id = 4,
 		pic = "bg_project_oceana_cg26",
@@ -92,7 +92,7 @@ pg.child2_ending = {
 				{
 					300004
 				},
-				"性格-大人しい>80"
+				"性格-乖巧>80"
 			}
 		},
 		condition = {
@@ -104,7 +104,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending5",
-		name = "デモリショニスト",
+		name = "爆破大师",
 		character = 1,
 		id = 5,
 		pic = "bg_project_oceana_cg27",
@@ -114,7 +114,7 @@ pg.child2_ending = {
 				{
 					300005
 				},
-				"性格-ワガママ>80"
+				"性格-叛逆>80"
 			}
 		},
 		condition = {
@@ -126,7 +126,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending6",
-		name = "カウンセラー",
+		name = "心理咨询师",
 		character = 1,
 		id = 6,
 		pic = "bg_project_oceana_cg28",
@@ -136,13 +136,13 @@ pg.child2_ending = {
 				{
 					300027
 				},
-				"知識>6000"
+				"知识>6000"
 			},
 			{
 				{
 					300023
 				},
-				"特殊エンディング達成"
+				"完成特殊结局事件"
 			}
 		},
 		condition = {
@@ -155,7 +155,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending7",
-		name = "セキュリティ専門家",
+		name = "安全专家",
 		character = 1,
 		id = 7,
 		pic = "bg_project_oceana_cg29",
@@ -165,7 +165,7 @@ pg.child2_ending = {
 				{
 					300028
 				},
-				"器用>7200"
+				"实践>7200"
 			}
 		},
 		condition = {
@@ -177,7 +177,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending8",
-		name = "キャンプインストラクター",
+		name = "露营指导",
 		character = 1,
 		id = 8,
 		pic = "bg_project_oceana_cg30",
@@ -187,13 +187,13 @@ pg.child2_ending = {
 				{
 					300029
 				},
-				"感受性>6000"
+				"感知>6000"
 			},
 			{
 				{
 					300024
 				},
-				"観光旅行回数>=20"
+				"外出旅游次数>=20"
 			}
 		},
 		condition = {
@@ -206,7 +206,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending9",
-		name = "バイクライダー",
+		name = "摩托骑士",
 		character = 1,
 		id = 9,
 		pic = "bg_project_oceana_cg31",
@@ -216,13 +216,13 @@ pg.child2_ending = {
 				{
 					300030
 				},
-				"体力>6000"
+				"体能>6000"
 			},
 			{
 				{
 					300022
 				},
-				"特殊エンディング達成"
+				"完成特殊结局事件"
 			}
 		},
 		condition = {
@@ -235,7 +235,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending10",
-		name = "獣医",
+		name = "宠物医生",
 		character = 1,
 		id = 10,
 		pic = "bg_project_oceana_cg32",
@@ -245,13 +245,13 @@ pg.child2_ending = {
 				{
 					300033
 				},
-				"知識>4000"
+				"知识>4000"
 			},
 			{
 				{
 					300031
 				},
-				"全属性>10000"
+				"总属性>10000"
 			}
 		},
 		condition = {
@@ -264,7 +264,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending11",
-		name = "ロックスター",
+		name = "摇滚歌手",
 		character = 1,
 		id = 11,
 		pic = "bg_project_oceana_cg33",
@@ -274,13 +274,13 @@ pg.child2_ending = {
 				{
 					300034
 				},
-				"体力>4000"
+				"体能>4000"
 			},
 			{
 				{
 					300031
 				},
-				"全属性>10000"
+				"总属性>10000"
 			}
 		},
 		condition = {
@@ -293,7 +293,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending12",
-		name = "シャイニングアイドル",
+		name = "闪耀明星",
 		character = 1,
 		id = 12,
 		pic = "bg_project_oceana_cg34",
@@ -303,13 +303,13 @@ pg.child2_ending = {
 				{
 					300035
 				},
-				"感受性>4000"
+				"感知>4000"
 			},
 			{
 				{
 					300031
 				},
-				"全属性>10000"
+				"总属性>10000"
 			}
 		},
 		condition = {
@@ -322,7 +322,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending13",
-		name = "看護師見習い",
+		name = "见习护士",
 		character = 1,
 		id = 13,
 		pic = "bg_project_oceana_cg35",
@@ -332,19 +332,19 @@ pg.child2_ending = {
 				{
 					300036
 				},
-				"器用>1600"
+				"实践>1600"
 			},
 			{
 				{
 					300032
 				},
-				"全属性>4000"
+				"总属性>4000"
 			},
 			{
 				{
 					300003
 				},
-				"性格-ワガママ"
+				"性格-叛逆"
 			}
 		},
 		condition = {
@@ -358,7 +358,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending14",
-		name = "動物園園長",
+		name = "动物园园长",
 		character = 1,
 		id = 14,
 		pic = "bg_project_oceana_cg36",
@@ -368,13 +368,13 @@ pg.child2_ending = {
 				{
 					300037
 				},
-				"感受性>1600"
+				"感知>1600"
 			},
 			{
 				{
 					300032
 				},
-				"全属性>4000"
+				"总属性>4000"
 			}
 		},
 		condition = {
@@ -387,7 +387,7 @@ pg.child2_ending = {
 	},
 	{
 		pic_preview = "oceana_ending15",
-		name = "敏腕整備士",
+		name = "修理达人",
 		character = 1,
 		id = 15,
 		pic = "bg_project_oceana_cg37",
@@ -397,13 +397,13 @@ pg.child2_ending = {
 				{
 					300038
 				},
-				"体力>1600"
+				"体能>1600"
 			},
 			{
 				{
 					300032
 				},
-				"全属性>4000"
+				"总属性>4000"
 			}
 		},
 		condition = {

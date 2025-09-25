@@ -6,9 +6,5 @@ return {
 	{
 		objId = 10020003,
 		type = 2
-	},
-	{
-		name = "ISLAND1001021",
-		type = 3
 	}
 }

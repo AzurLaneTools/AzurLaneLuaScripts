@@ -31,6 +31,18 @@ pg.dorm3d_ins_chat_group = setmetatable({
 			10517102,
 			10517103,
 			10517104
+		},
+		[30707] = {
+			30707101,
+			30707102,
+			30707103,
+			30707104,
+			30707105,
+			30707106,
+			30707107,
+			30707108,
+			30707109,
+			30707110
 		}
 	},
 	all = {
@@ -55,15 +67,25 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		10517101,
 		10517102,
 		10517103,
-		10517104
+		10517104,
+		30707101,
+		30707102,
+		30707103,
+		30707104,
+		30707105,
+		30707106,
+		30707107,
+		30707108,
+		30707109,
+		30707110
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_group = {
 	[20220101] = {
 		ship_group = 20220,
-		name = "安らぎ",
-		unlock_desc = "シリアスの部屋を1回訪問する",
+		name = "安心",
+		unlock_desc = "累计进入天狼星宿舍1天",
 		type = "1",
 		id = 20220101,
 		content = {
@@ -88,8 +110,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[20220102] = {
 		ship_group = 20220,
-		name = "二度目の勘違い",
-		unlock_desc = "シリアスの部屋のアイテムを20個収集する",
+		name = "再次会错意 ",
+		unlock_desc = "在天狼星宿舍中收集20件物品",
 		type = "1",
 		id = 20220102,
 		content = {
@@ -112,8 +134,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[20220103] = {
 		ship_group = 20220,
-		name = "また元気に",
-		unlock_desc = "シリアスの部屋でシリアスを10回タッチする",
+		name = "恢复精神",
+		unlock_desc = "进入10次天狼星的触摸模式",
 		type = "1",
 		id = 20220103,
 		content = {
@@ -137,8 +159,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[20220104] = {
 		ship_group = 20220,
-		name = "記録",
-		unlock_desc = "シリアスの部屋で写真を2回撮る",
+		name = "记录",
+		unlock_desc = "给天狼星拍2张照片",
 		type = "1",
 		id = 20220104,
 		content = {
@@ -159,8 +181,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[20220105] = {
 		ship_group = 20220,
-		name = "願い",
-		unlock_desc = "（夜）シリアスをタッチする",
+		name = "实现愿望",
+		unlock_desc = "在夜晚触摸天狼星1次",
 		type = "1",
 		id = 20220105,
 		content = {
@@ -183,8 +205,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[30221101] = {
 		ship_group = 30221,
-		name = "お望みであれば……",
-		unlock_desc = "能代の部屋を1回訪問する",
+		name = "只要是您所希望的……",
+		unlock_desc = "累计进入{namecode:50}宿舍1天",
 		type = "1",
 		id = 30221101,
 		content = {
@@ -207,8 +229,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[30221102] = {
 		ship_group = 30221,
-		name = "頼り",
-		unlock_desc = "能代の部屋のアイテムを20個収集する",
+		name = "依赖",
+		unlock_desc = "在{namecode:50}宿舍中收集20件物品",
 		type = "1",
 		id = 30221102,
 		content = {
@@ -232,8 +254,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[30221103] = {
 		ship_group = 30221,
-		name = "話題",
-		unlock_desc = "能代の部屋で能代と15回会話する",
+		name = "话题",
+		unlock_desc = "和{namecode:50}对话15次",
 		type = "1",
 		id = 30221103,
 		content = {
@@ -257,8 +279,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[30221104] = {
 		ship_group = 30221,
-		name = "未来へ",
-		unlock_desc = "能代の部屋で能代を10回タッチする",
+		name = "向着未来",
+		unlock_desc = "进入10次{namecode:50}的触摸模式",
 		type = "1",
 		id = 30221104,
 		content = {
@@ -281,8 +303,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[30221105] = {
 		ship_group = 30221,
-		name = "月が綺麗ですね",
-		unlock_desc = "（夜）能代の部屋で写真を1回撮る",
+		name = "今宵月色真美",
+		unlock_desc = "在夜晚给{namecode:50}拍照",
 		type = "1",
 		id = 30221105,
 		content = {
@@ -306,8 +328,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903101] = {
 		ship_group = 19903,
-		name = "寝る前に",
-		unlock_desc = "アンカレッジの部屋を1回訪問する",
+		name = "睡前",
+		unlock_desc = "累计进入安克雷奇宿舍1天",
 		type = "1",
 		id = 19903101,
 		content = {
@@ -333,8 +355,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903102] = {
 		ship_group = 19903,
-		name = "いちばんほしい",
-		unlock_desc = "アンカレッジの部屋を2日間訪問する",
+		name = "最需要 ",
+		unlock_desc = "进入安克雷奇宿舍第2天解锁",
 		type = "1",
 		id = 19903102,
 		content = {
@@ -361,8 +383,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903103] = {
 		ship_group = 19903,
-		name = "とくべつなのは……",
-		unlock_desc = "アンカレッジの部屋を4日間訪問する",
+		name = "特别的是…",
+		unlock_desc = "进入安克雷奇宿舍第4天解锁",
 		type = "1",
 		id = 19903103,
 		content = {
@@ -389,8 +411,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903104] = {
 		ship_group = 19903,
-		name = "失ったヒミツ",
-		unlock_desc = "アンカレッジの部屋のアイテムを20個収集する",
+		name = "丢失的秘密 ",
+		unlock_desc = "在安克雷奇宿舍中收集20件物品",
 		type = "1",
 		id = 19903104,
 		content = {
@@ -421,8 +443,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903105] = {
 		ship_group = 19903,
-		name = "もっとほしい",
-		unlock_desc = "アンカレッジの部屋でアンカレッジを10回タッチする",
+		name = "需要更多…",
+		unlock_desc = "进入10次安克雷奇的触摸模式",
 		type = "1",
 		id = 19903105,
 		content = {
@@ -449,8 +471,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903106] = {
 		ship_group = 19903,
-		name = "「ありがとう」の意味",
-		unlock_desc = "アンカレッジにプレゼントを5回贈る",
+		name = "谢谢的意义",
+		unlock_desc = "给安克雷奇赠送5次礼物",
 		type = "1",
 		id = 19903106,
 		content = {
@@ -477,8 +499,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903107] = {
 		ship_group = 19903,
-		name = "好きの理由",
-		unlock_desc = "アンカレッジのミニゲームでスコア3達成",
+		name = "喜欢的理由…",
+		unlock_desc = "在安克雷奇小游戏中获得3分",
 		type = "1",
 		id = 19903107,
 		content = {
@@ -504,8 +526,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[19903108] = {
 		ship_group = 19903,
-		name = "お返し",
-		unlock_desc = "（夜）アンカレッジにプレゼントを贈る",
+		name = "回礼 ",
+		unlock_desc = "在夜晚给安克雷奇送礼",
 		type = "1",
 		id = 19903108,
 		content = {
@@ -532,8 +554,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[10517101] = {
 		ship_group = 10517,
-		name = "目覚めたらあなたがほしい",
-		unlock_desc = "ニュージャージーの部屋を1日訪問する",
+		name = "醒来之后，想看到你",
+		unlock_desc = "新泽西进入宿舍1天",
 		type = "1",
 		id = 10517101,
 		content = {
@@ -560,8 +582,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[10517102] = {
 		ship_group = 10517,
-		name = "スケジュール管理",
-		unlock_desc = "ニュージャージーの部屋を4日訪問する",
+		name = "关于行程安排",
+		unlock_desc = "新泽西解锁宿舍4天",
 		type = "1",
 		id = 10517102,
 		content = {
@@ -590,8 +612,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[10517103] = {
 		ship_group = 10517,
-		name = "アクション映画",
-		unlock_desc = "ニュージャージーの部屋を7日訪問する",
+		name = "动作电影",
+		unlock_desc = "新泽西解锁宿舍7天",
 		type = "1",
 		id = 10517103,
 		content = {
@@ -616,8 +638,8 @@ pg.base.dorm3d_ins_chat_group = {
 	},
 	[10517104] = {
 		ship_group = 10517,
-		name = "彼女の秘密",
-		unlock_desc = "ニュージャージーの部屋でアイテムを20個集める",
+		name = "少女的秘密？",
+		unlock_desc = "新泽西可收集物品达到20个",
 		type = "1",
 		id = 10517104,
 		content = {
@@ -642,6 +664,231 @@ pg.base.dorm3d_ins_chat_group = {
 			383,
 			384,
 			385
+		}
+	},
+	[30707101] = {
+		ship_group = 30707,
+		name = "二人世界 ",
+		unlock_desc = "累计进入{namecode:97}宿舍1天",
+		type = "1",
+		id = 30707101,
+		content = {
+			386,
+			387,
+			388,
+			389,
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396
+		}
+	},
+	[30707102] = {
+		ship_group = 30707,
+		name = "变慢的时间 ",
+		unlock_desc = "进入{namecode:97}宿舍第2天解锁",
+		type = "1",
+		id = 30707102,
+		content = {
+			397,
+			398,
+			399,
+			400,
+			401,
+			402,
+			403,
+			404,
+			405,
+			406,
+			407,
+			408,
+			409
+		}
+	},
+	[30707103] = {
+		ship_group = 30707,
+		name = "爱心便当 ",
+		unlock_desc = "进入{namecode:97}宿舍第4天解锁",
+		type = "1",
+		id = 30707103,
+		content = {
+			410,
+			411,
+			412,
+			413,
+			414,
+			415,
+			416,
+			417,
+			418,
+			419,
+			420,
+			421,
+			422
+		}
+	},
+	[30707104] = {
+		ship_group = 30707,
+		name = "杀虫规划图 ",
+		unlock_desc = "在{namecode:97}宿舍中收集20件物品",
+		type = "1",
+		id = 30707104,
+		content = {
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433
+		}
+	},
+	[30707105] = {
+		ship_group = 30707,
+		name = "合照 ",
+		unlock_desc = "触摸{namecode:97}3次",
+		type = "1",
+		id = 30707105,
+		content = {
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444
+		}
+	},
+	[30707106] = {
+		ship_group = 30707,
+		name = "被炉 ",
+		unlock_desc = "给{namecode:97}赠送5次礼物",
+		type = "1",
+		id = 30707106,
+		content = {
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459,
+			460,
+			461
+		}
+	},
+	[30707107] = {
+		ship_group = 30707,
+		name = "正常清洗 ",
+		unlock_desc = "累计进入{namecode:97}宿舍7天",
+		type = "1",
+		id = 30707107,
+		content = {
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471,
+			472,
+			473,
+			474
+		}
+	},
+	[30707108] = {
+		ship_group = 30707,
+		name = "话题与茶 ",
+		unlock_desc = "和{namecode:97}对话15次",
+		type = "1",
+		id = 30707108,
+		content = {
+			475,
+			476,
+			477,
+			478,
+			479,
+			480,
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490
+		}
+	},
+	[30707109] = {
+		ship_group = 30707,
+		name = "依赖与按摩 ",
+		unlock_desc = "触摸{namecode:97}5次",
+		type = "1",
+		id = 30707109,
+		content = {
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505
+		}
+	},
+	[30707110] = {
+		ship_group = 30707,
+		name = "珍贵之物 ",
+		unlock_desc = "给{namecode:97}赠送10次礼物",
+		type = "1",
+		id = 30707110,
+		content = {
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520
 		}
 	}
 }

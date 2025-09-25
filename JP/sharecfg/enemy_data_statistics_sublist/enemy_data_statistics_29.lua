@@ -123,7 +123,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90899] = {
 		cannon = 0,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -265,7 +265,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90900] = {
 		cannon = 0,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -407,7 +407,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90901] = {
 		cannon = 0,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -549,7 +549,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90902] = {
 		cannon = 0,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -691,7 +691,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90903] = {
 		cannon = 0,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -833,7 +833,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90904] = {
 		cannon = 0,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -954,7 +954,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90905] = {
 		cannon = 0,
-		name = "キング饅頭スライム",
+		name = "啾莱姆王",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1076,7 +1076,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90906] = {
 		cannon = 0,
-		name = "ウィングド饅頭スライム",
+		name = "有翼啾莱姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1198,7 +1198,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90907] = {
 		cannon = 0,
-		name = "メカ・フレイム・ドラゴン",
+		name = "巨炎龙",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1331,7 +1331,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90908] = {
 		cannon = 0,
-		name = "魔女アイドル・イイコ・ヤーデ",
+		name = "魔女偶像·好孩子·亚德",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1478,7 +1478,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90909] = {
 		cannon = 0,
-		name = "完璧で究極な吸血鬼",
+		name = "完美究极吸血鬼",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1634,7 +1634,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90910] = {
 		cannon = 0,
-		name = "ドラゴンロード・ブリュッヒャー",
+		name = "巨龙领主·布吕歇尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1790,7 +1790,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90911] = {
 		cannon = 0,
-		name = "魔王・デヴォンシャー",
+		name = "魔王·德文郡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1946,7 +1946,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90912] = {
 		cannon = 0,
-		name = "空を翔けるゆーちゃん",
+		name = "飞天独角兽",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2189,7 +2189,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90914] = {
 		cannon = 0,
-		name = "量産型駆逐艦(μ)",
+		name = "量产型驱逐舰(μ) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2344,7 +2344,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90915] = {
 		cannon = 0,
-		name = "量産型軽巡洋艦(μ)",
+		name = "量产型轻巡洋舰(μ) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2506,7 +2506,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90916] = {
 		cannon = 0,
-		name = "量産型重巡洋艦(μ)",
+		name = "量产型重巡洋舰(μ) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2674,7 +2674,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90917] = {
 		cannon = 0,
-		name = "量産型戦艦(μ)",
+		name = "量产型战列舰(μ) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2842,7 +2842,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90918] = {
 		cannon = 0,
-		name = "量産型空母(μ)",
+		name = "量产型航空母舰(μ) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3011,7 +3011,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90919] = {
 		cannon = 0,
-		name = "ラフィー",
+		name = "拉菲",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3316,7 +3316,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90921] = {
 		cannon = 0,
-		name = "クイーン·エリザベス",
+		name = "伊丽莎白女王",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3472,7 +3472,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90922] = {
 		cannon = 0,
-		name = "金剛(μ兵装)",
+		name = "金刚(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3628,7 +3628,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90923] = {
 		cannon = 0,
-		name = "フォーミダブル(μ兵装)",
+		name = "可畏(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3777,7 +3777,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90924] = {
 		cannon = 0,
-		name = "ル·テメレール(μ兵装)",
+		name = "鲁莽(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3933,7 +3933,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90925] = {
 		cannon = 0,
-		name = "プリンツ·オイゲン(μ兵装)",
+		name = "欧根亲王(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4089,7 +4089,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90926] = {
 		cannon = 0,
-		name = "ボイシ(μ兵装)",
+		name = "博伊西(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4403,7 +4403,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90928] = {
 		cannon = 0,
-		name = "マティリアル・クリスタル",
+		name = "辉光之核",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

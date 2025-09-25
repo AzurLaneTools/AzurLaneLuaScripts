@@ -23,7 +23,7 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.mainAttrBar = slot0.benefitsTF:Find("main/slider/bar")
 
-	setText(slot0.benefitsTF:Find("main/Text"), IslandShipAttr.ATTRS_CH[1])
+	setText(slot0.benefitsTF:Find("main/Text"), IslandShipAttr.ATTRS_CH[IslandShipAttr.MANAGE_KEY])
 
 	slot0.subAttrUIList = UIItemList.New(slot0.benefitsTF:Find("subs"), slot0.benefitsTF:Find("subs/tpl"))
 	slot0.infoEmptyTF = slot0:findTF("info/empty")
@@ -56,28 +56,46 @@ slot0.OnLoaded = function(slot0)
 	slot0.skillDes = slot0.skill:Find("desc/Text"):GetComponent(typeof(Text))
 	slot0.shipContent = slot0.frameTF:Find("ships")
 	slot0.shipEmpty = slot0.frameTF:Find("empShip")
-	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
-	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
+
+	setText(slot0.shipEmpty:Find("Text"), i18n("island_production_selected_tip2"))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0.dftAniEvent:SetEndEvent(nil)
-		uv0.dftAniEvent:SetEndEvent(function ()
-			uv0:Hide()
-
-			if uv0.cancelFunc then
-				uv0.cancelFunc()
-			end
-		end)
-		uv0.animationPlayer:Play("anim_IslandShipSelectUI_Out")
+		uv0:Hide()
+		existCall(uv0.cancelFunc)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sureBtn, function ()
-		uv0:Hide()
+		slot1 = getProxy(IslandProxy):GetIsland():GetFollowerAgency()
+		slot2 = {}
 
-		if uv0.confirmFunc then
-			uv0.confirmFunc(uv0.selectedIds)
+		for slot6, slot7 in ipairs(uv0.selectedIds) do
+			if slot1:Following(slot7) then
+				table.insert(slot2, slot7)
+			end
 		end
+
+		if #slot2 > 0 then
+			uv0:ShowMsgBox({
+				type = IslandMsgBox.TYPE_COMMON,
+				content = i18n("island_cancel_follow_tip"),
+				onYes = function ()
+					for slot3, slot4 in ipairs(uv0) do
+						uv1:emit(IslandMediator.DEL_FOLLOWER, slot4)
+					end
+
+					uv1:Hide()
+					existCall(uv1.confirmFunc, uv1.selectedIds)
+				end,
+				onNo = function ()
+				end
+			})
+
+			return
+		end
+
+		uv0:Hide()
+		existCall(uv0.confirmFunc, uv0.selectedIds)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.indexBtn, function (slot0)
 		if slot0 then
@@ -171,19 +189,21 @@ slot0.UpdateAttr = function(slot0, slot1, slot2, slot3, slot4)
 	slot1:Find("grade_bg"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/IslandShipUI_atlas", slot8[2])
 end
 
-slot0.OnShow = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+slot0.OnShow = function(slot0, slot1)
+	slot0:BlurPanel()
 
-	slot0.selectNum = slot1
-	slot0.selectedIds = slot2
-	slot0.attrType = slot3
-	slot0.confirmFunc = slot4
-	slot0.cancelFunc = slot5
+	slot0.selectNum = slot1.selectNum or 1
+	slot0.selectedIds = slot1.selectedIds or {}
+	slot0.attrType = slot1.attrType
+	slot0.confirmFunc = slot1.confirmFunc
+	slot0.cancelFunc = slot1.cancelFunc
+	slot0.placeId = slot1.placeId
+	slot0.showBenefits = slot1.showBenefits
+
+	setText(slot0.infoEmptyTitleTF, slot1.emptyInfoTitle or "")
+
 	slot0.characterAgency = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
-	slot0.place_Id = slot6 and slot6.place_Id
-	slot0.showBenefits = slot6 and slot6.showBenefits
 
-	setText(slot0.infoEmptyTitleTF, slot6 and slot6.emptyInfoTitle and slot6.emptyInfoTitle or "")
 	slot0:FlushShips(#slot0.selectedIds == 0 and slot0.selectNum == 1)
 end
 
@@ -232,7 +252,7 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 
 		uv1:FlushInfo()
 	end, SFX_PANEL)
-	slot3:Update(slot4, slot0.attrType, slot0.place_Id, slot0.selectedIds)
+	slot3:Update(slot4, slot0.attrType, slot0.placeId, slot0.selectedIds)
 end
 
 slot0.FlushShips = function(slot0, slot1)
@@ -323,7 +343,7 @@ slot0.FlushInfo = function(slot0)
 	setActive(slot0.skillEmp, not slot6)
 	setText(slot0.skillEmpDes, i18n("island_need_star", slot1:GetSkillUnlockLevel()))
 
-	slot7 = slot5:IsEffectiveInPlace(slot0.place_Id)
+	slot7 = slot5:IsEffectiveInPlace(slot0.placeId)
 
 	setActive(slot0.skillInuse, slot7)
 	setActive(slot0.skillUnuse, not slot7)
@@ -409,11 +429,10 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:StopTimer()
-	slot0.dftAniEvent:SetEndEvent(nil)
 end
 
 slot0.OnHide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnBlurPanel()
 end
 
 return slot0

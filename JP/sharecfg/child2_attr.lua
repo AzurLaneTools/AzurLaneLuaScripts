@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child2_attr = {
 	[101] = {
 		character = 1,
-		name = "体力",
+		name = "体能",
 		item_icon = "attr_tineng2",
 		type = 1,
 		min_value = 0,
@@ -43,7 +43,7 @@ pg.child2_attr = {
 	},
 	[102] = {
 		character = 1,
-		name = "知識",
+		name = "知识",
 		item_icon = "attr_zhishi2",
 		type = 1,
 		min_value = 0,
@@ -84,7 +84,7 @@ pg.child2_attr = {
 	},
 	[103] = {
 		character = 1,
-		name = "器用",
+		name = "实践",
 		item_icon = "attr_shijian2",
 		type = 1,
 		min_value = 0,
@@ -125,7 +125,7 @@ pg.child2_attr = {
 	},
 	[104] = {
 		character = 1,
-		name = "感受性",
+		name = "感知",
 		item_icon = "attr_ganzhi2",
 		type = 1,
 		min_value = 0,

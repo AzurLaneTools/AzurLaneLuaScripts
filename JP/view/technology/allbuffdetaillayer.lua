@@ -10,15 +10,13 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = slot0:getWeightFromData()
-	})
+	slot0:BlurPanel(slot0._tf)
 	slot0:addListener()
 	slot0:updateDetail()
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.initData = function(slot0)

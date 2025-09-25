@@ -21,7 +21,7 @@ slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	UpdateBeat:RemoveListener(slot0.handle)
 	slot0:ClearPreviewer()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.InitData = function(slot0)

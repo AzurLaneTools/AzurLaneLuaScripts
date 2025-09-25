@@ -42,7 +42,7 @@ end
 slot0.Disable = function(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
 		if slot5.Puase then
-			slot5:Puase()
+			slot5:Pause()
 		end
 	end
 end

@@ -87,9 +87,7 @@ slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	setActive(slot0._tf:Find("window"), true)
 	setActive(slot0._tf:Find("select_skin"), false)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.selectIds = {}
 	slot0.skin = slot1
@@ -249,7 +247,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	slot0.selectIds = {}
 

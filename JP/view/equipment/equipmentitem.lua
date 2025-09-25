@@ -78,7 +78,6 @@ slot0.updateSkin = function(slot0)
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		count = slot1.count
 	})
-	setActive(slot0.nameTF, true)
 
 	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
 end

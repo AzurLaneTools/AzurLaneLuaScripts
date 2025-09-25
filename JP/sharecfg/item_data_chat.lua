@@ -1,227 +1,227 @@
 pg = pg or {}
 pg.item_data_chat = {
 	[0] = {
-		name = "デフォルト",
+		name = "默认装扮",
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
-		desc = "デフォルト",
+		desc = "不设置任何聊天气泡",
 		scene = {}
 	},
 	[101] = {
-		name = "一周年記念",
+		name = "一周年纪念",
 		time_second = 0,
 		id = 101,
 		time_limit_type = 0,
-		desc = "First　Anniversary！\n<color=#A7A7AAFF>「再誕の暁」使用で開放可能</color>",
+		desc = "献给所有一年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>开启「再诞·曙光」纪念币获取</color>",
 		scene = {}
 	},
 	[102] = {
-		name = "二周年記念",
+		name = "二周年纪念",
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
-		desc = "Second　Anniversary！\n<color=#A7A7AAFF>二周年記念イベントで開放可能</color>",
+		desc = "献给所有两年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与二周年限定活动获取</color>",
 		scene = {}
 	},
 	[103] = {
-		name = "三周年記念",
+		name = "三周年纪念",
 		time_second = 0,
 		id = 103,
 		time_limit_type = 0,
-		desc = "Third　Anniversary！\n<color=#A7A7AAFF>三周年記念イベントで開放可能</color>",
+		desc = "献给所有三年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与三周年限定活动获取</color>",
 		scene = {}
 	},
 	[104] = {
-		name = "四周年記念",
+		name = "四周年纪念",
 		time_second = 0,
 		id = 104,
 		time_limit_type = 0,
-		desc = "Fourth　Anniversary！\n<color=#A7A7AAFF>四周年記念イベントで開放可能</color>",
+		desc = "献给所有四年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与四周年限定活动获取</color>",
 		scene = {}
 	},
 	[105] = {
-		name = "五周年記念",
+		name = "五周年纪念",
 		time_second = 0,
 		id = 105,
 		time_limit_type = 0,
-		desc = "Fifth　Anniversary！\n<color=#A7A7AAFF>五周年記念イベントで開放可能</color>",
+		desc = "献给所有五年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与五周年限定活动获取</color>",
 		scene = {}
 	},
 	[106] = {
-		name = "六周年記念",
+		name = "六周年纪念",
 		time_second = 0,
 		id = 106,
 		time_limit_type = 0,
-		desc = "Sixth　Anniversary！\n<color=#A7A7AAFF>六周年記念イベントで開放可能</color>",
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
 		scene = {}
 	},
 	[107] = {
-		name = "七周年記念",
+		name = "七周年纪念",
 		time_second = 0,
 		id = 107,
 		time_limit_type = 0,
-		desc = "7thアニバーサリーは指揮官とともにーー\n<color=#A7A7AAFF>7周年記念イベント二参加した指揮官に贈る</color>",
+		desc = "献给所有七年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与七周年限定活动获取</color>",
 		scene = {}
 	},
 	[108] = {
-		name = "八周年記念",
+		name = "八周年纪念",
 		time_second = 0,
 		id = 108,
 		time_limit_type = 0,
-		desc = "Eighth　Anniversary！\n<color=#A7A7AAFF>八周年記念イベントで開放可能</color>",
+		desc = "献给所有八年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与八周年限定活动获取</color>",
 		scene = {}
 	},
 	[300] = {
-		name = "カリスマ指揮官",
+		name = "召集者",
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "カムバックミッションの累計Pt入手数報酬で\n<color=#A7A7AAFF>開放可能（30日限定）</color>",
+		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
 	[301] = {
-		name = "フレンドシップ",
+		name = "回归者",
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "カムバックミッションで\n<color=#A7A7AAFF>開放可能（30日限定）</color>",
+		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
 	[602] = {
-		name = "潮風と夏の別荘地",
+		name = "绿野的余响",
 		time_second = 0,
 		id = 602,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>無人島でのバケーションを楽しもう~！</color>イベント「潮風と夏の無人島」に参加した指揮官に贈る</size>",
+		desc = "献给所有六年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与六周年限定活动获取</color>",
 		scene = {}
 	},
 	[603] = {
-		name = "華麗なる招待",
+		name = "华丽的邀约",
 		time_second = 0,
 		id = 603,
 		time_limit_type = 0,
-		desc = "<size=28>母港パーティーの参加記念。華麗に艦船たちに招待状を届けた指揮官に贈る<color=#A7A7AAFF>「宴会会場」イベントに参加した指揮官に贈る</color></size>",
+		desc = "献给所有参与港区宴会的指挥官！\n<color=#A7A7AAFF>通过参与「宴会邀约」获取 </color>",
 		scene = {}
 	},
 	[606] = {
-		name = "碧き海の返し波",
+		name = "碧海的回波",
 		time_second = 0,
 		id = 606,
 		time_limit_type = 0,
-		desc = "<size=28>揺れる波の中でクルーズバカンスを楽しもう！\n<color=#A7A7AAFF>イベント「休日トキメク大航海」参加で入手可能</color></size>",
+		desc = "在水波荡漾之中，尽情享受假日邮轮之旅吧~！\n<color=#A7A7AAFF>通过参与七周年限定活动获取</color>",
 		scene = {}
 	},
 	[607] = {
-		name = "休日開拓の思い出",
+		name = "荒野的追忆",
 		time_second = 0,
 		id = 607,
 		time_limit_type = 0,
-		desc = "<size=28>荒野、開拓、ウェスタン的な休日な思い出。\n<color=#A7A7AAFF>イベント「荒野休日開拓記」に参加した指揮官に贈る</color></size>",
+		desc = "荒野、开拓与假日的回忆纪念。\n<color=#A7A7AAFF>通过参与「荒野假日开拓记」活动获取</color>",
 		scene = {}
 	},
 	[610] = {
-		name = "ビーチウェーブ",
+		name = "海滨的轻浪",
 		time_second = 0,
 		id = 610,
 		time_limit_type = 0,
-		desc = "海辺を歩き、さざなみの声に耳を傾けよう。\n<color=#A7A7AAFF>「盛夏再び！リゾート再建計画！」参加で入手可能</color>",
+		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
 		scene = {}
 	},
 	[10001] = {
-		name = "限界挑戦・ふたご座",
+		name = "限界的挑战者·双子座",
 		time_second = 0,
 		id = 10001,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.06.15-23.06.30）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10002] = {
-		name = "限界挑戦・かに座",
+		name = "限界的挑战者·巨蟹座",
 		time_second = 0,
 		id = 10002,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.07.01-23.07.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10003] = {
-		name = "限界挑戦・しし座",
+		name = "限界的挑战者·狮子座",
 		time_second = 0,
 		id = 10003,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.08.01-23.08.30）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10004] = {
-		name = "限界挑戦・おとめ座",
+		name = "限界的挑战者·处女座",
 		time_second = 0,
 		id = 10004,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.09.01-23.09.30）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10005] = {
-		name = "限界挑戦・てんびん座",
+		name = "限界的挑战者·天秤座",
 		time_second = 0,
 		id = 10005,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.10.01-23.10.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10006] = {
-		name = "限界挑戦・サソリ座",
+		name = "限界的挑战者·天蝎座",
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.11.01-23.11.30）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10007] = {
-		name = "限界挑戦・いて座",
+		name = "限界的挑战者·射手座",
 		time_second = 0,
 		id = 10007,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（23.12.01-23.12.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10008] = {
-		name = "限界挑戦・やぎ座",
+		name = "限界的挑战者·摩羯座",
 		time_second = 0,
 		id = 10008,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.01.01-24.01.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10009] = {
-		name = "限界挑戦・みずかめ座",
+		name = "限界的挑战者·水瓶座",
 		time_second = 0,
 		id = 10009,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能 （24.02.01-24.02.29）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10010] = {
-		name = "限界挑戦・うお座",
+		name = "限界的挑战者·双鱼座",
 		time_second = 0,
 		id = 10010,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.03.01-24.03.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10011] = {
-		name = "限界挑戦・ひつじ座",
+		name = "限界的挑战者·白羊座",
 		time_second = 0,
 		id = 10011,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.04.01-24.04.30）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	[10012] = {
-		name = "限界挑戦・おうし座",
+		name = "限界的挑战者·金牛座",
 		time_second = 0,
 		id = 10012,
 		time_limit_type = 0,
-		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.05.01-24.05.31）</color></size>",
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
 		scene = {}
 	},
 	all = {

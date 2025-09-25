@@ -50,8 +50,8 @@ slot0.didEnter = function(slot0)
 
 		uv0:emit(Dorm3dSkinSelectMediator.CHANGE_SKIN, uv0.contextData.groupId, uv0.selectedSkinId, uv0.hiddenList)
 
-		if not uv0.contextData.onSwitchSkin then
-			uv0.contextData.ladyEnv:PlaySingleAction(pg.dorm3d_resource[uv0.selectedSkinId].wear_anim)
+		if not uv0.contextData.onSwitchSkin and pg.dorm3d_resource[uv0.selectedSkinId].wear_anim and slot0 ~= "" then
+			uv0.contextData.ladyEnv:PlaySingleAction(slot0)
 		end
 
 		uv0.sortSkinId = uv0.selectedSkinId
@@ -169,7 +169,10 @@ slot0.OnclickSkin = function(slot0, slot1, slot2)
 		else
 			slot3:SwitchCharacterSkin(slot4, slot0.selectedSkinId, function ()
 				uv0:HideCharacterPart(uv1.selectedSkinId, uv1.hiddenList)
-				uv0:PlaySingleAction(uv1.skinDic[uv1.selectedSkinId]:GetSwitchAnim())
+
+				if uv1.skinDic[uv1.selectedSkinId]:GetSwitchAnim() and slot0 ~= "" then
+					uv0:PlaySingleAction(slot0)
+				end
 			end)
 		end
 	end

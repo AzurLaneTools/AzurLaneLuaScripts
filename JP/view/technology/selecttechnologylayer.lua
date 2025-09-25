@@ -13,9 +13,7 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.LOWER_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot0.bg = slot0:findTF("frame/bg")
 	slot0.bluePrintBtn = slot0:findTF("blueprint_btn", slot0.bg)
@@ -74,8 +72,7 @@ slot0.didEnter = function(slot0)
 		if pg.gametip[pg.SystemOpenMgr.GetInstance():isOpenSystem(uv0.playerVO.level, "ShipBluePrintMediator") and "help_technolog" or "help_technolog0"] then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip[slot1].tip,
-				weight = LayerWeightConst.SECOND_LAYER
+				helps = pg.gametip[slot1].tip
 			})
 		end
 	end, SFX_PANEL)

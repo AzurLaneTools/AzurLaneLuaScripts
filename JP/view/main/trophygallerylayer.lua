@@ -47,11 +47,9 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = pg.LayerWeightMgr.GetInstance()
+	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot1:OverlayPanel(slot0._tf)
 	onButton(slot0, slot0._backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)

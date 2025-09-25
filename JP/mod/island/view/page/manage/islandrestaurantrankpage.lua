@@ -5,15 +5,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uiAnim = slot0._tf:GetComponent(typeof(Animation))
-	slot0.uiAnimEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
-
-	slot0.uiAnimEvent:SetEndEvent(function ()
-		uv0.playingHideAnim = false
-
-		uv1.super.Hide(uv0)
-	end)
-
 	slot0.viewTF = slot0._tf:Find("window/view")
 	slot1 = slot0.viewTF:Find("content")
 	slot2 = slot1:Find("tpl")
@@ -74,17 +65,20 @@ end
 
 slot0.UpdataItem = function(slot0, slot1, slot2)
 	slot3 = slot0.rankIds[slot1 + 1]
-	slot5 = slot0.expData[slot3]
 	slot6 = slot3 <= slot0.level
 
 	setActive(slot2:Find("dot/finished"), slot6)
 	setActive(slot2:Find("info/top/finished"), slot6)
 	setActive(slot2:Find("info/top/exp"), not slot6)
-	setText(slot2:Find("info/top/exp/value"), slot0.sales .. "/" .. slot5)
 
-	slot7 = slot0.expData[slot0.rankIds[slot1]] or 0
+	slot8 = 0
 
-	setSlider(slot2:Find("dot/silder"), 0, 1, (slot0.sales - slot7) / (slot5 - slot7))
+	if slot0.expData[slot3] ~= (slot0.expData[slot0.rankIds[slot1]] or 0) then
+		slot8 = (slot0.sales - slot7) / (slot5 - slot7)
+	end
+
+	setSlider(slot2:Find("dot/silder"), 0, 1, slot8)
+	setText(slot2:Find("info/top/exp/value"), slot0.sales .. "/" .. slot7)
 end
 
 slot0.OnShow = function(slot0, slot1)
@@ -128,22 +122,11 @@ slot0.OnShow = function(slot0, slot1)
 	end)
 end
 
-slot0.HideByAnim = function(slot0)
-	if slot0.playingHideAnim then
-		return
-	end
-
-	slot0.uiAnim:Play("anim_IslandRestaurantRankUI_Out")
-
-	slot0.playingHideAnim = true
-end
-
 slot0.OnHide = function(slot0)
 	slot0:UnBlurPanel()
 end
 
 slot0.OnDestroy = function(slot0)
-	slot0.uiAnimEvent:SetEndEvent(nil)
 end
 
 return slot0

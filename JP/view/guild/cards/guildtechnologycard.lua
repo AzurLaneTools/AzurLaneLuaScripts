@@ -86,7 +86,7 @@ slot0.DoUprade = function(slot0, slot1)
 	slot2 = function()
 		slot1, slot2 = uv0:GetConsume()
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_tech_consume_tip", slot1, slot2, uv0:getConfig("name")),
 			onYes = function ()
 				uv0.view:emit(GuildTechnologyMediator.ON_UPGRADE, uv1.group.id)
@@ -103,7 +103,7 @@ slot0.DoUprade = function(slot0, slot1)
 				slot4 = i18n("guild_tech_livness_no_enough", uv0:GetLivenessOffset())
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = slot4,
 				onYes = slot0
 			})

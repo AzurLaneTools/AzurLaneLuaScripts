@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_24 = {
 	[90741] = {
 		cannon = 0,
-		name = "審判型武装機構・Noir",
+		name = "审判型机甲武装-饥荒",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -165,7 +165,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90742] = {
 		cannon = 0,
-		name = "「エミール・ベルタン」",
+		name = "埃米尔·贝尔汀",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -321,7 +321,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90743] = {
 		cannon = 0,
-		name = "ブーラスク級量産型",
+		name = "狂风级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -483,7 +483,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90744] = {
 		cannon = 0,
-		name = "エミールベルタン級量産型",
+		name = "埃米尔·贝尔汀级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -645,7 +645,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90745] = {
 		cannon = 0,
-		name = "アルジェリー級量産型",
+		name = "阿尔及利亚级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -814,7 +814,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90746] = {
 		cannon = 0,
-		name = "プロヴァンス級量産型",
+		name = "布列塔尼级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -983,7 +983,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90747] = {
 		cannon = 0,
-		name = "ベアルン級量産型",
+		name = "贝亚恩级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1145,7 +1145,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90748] = {
 		cannon = 0,
-		name = "クイーン·エリザベス(META)",
+		name = "伊丽莎白·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1317,7 +1317,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90749] = {
 		cannon = 0,
-		name = "幻影の騎士",
+		name = "领域骑士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1473,7 +1473,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90750] = {
 		cannon = 0,
-		name = "オブストラクターⅣ型",
+		name = "侵扰者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1637,7 +1637,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90751] = {
 		cannon = 0,
-		name = "クルスク",
+		name = "库尔斯克",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1793,7 +1793,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90752] = {
 		cannon = 0,
-		name = "ヴォロシーロフ",
+		name = "伏罗希洛夫",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1949,7 +1949,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90753] = {
 		cannon = 0,
-		name = "セヴァストポリ",
+		name = "塞瓦斯托波尔",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2105,7 +2105,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90754] = {
 		cannon = 0,
-		name = "たまき",
+		name = "环",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2261,7 +2261,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90755] = {
 		cannon = 0,
-		name = "ルナ",
+		name = "露娜",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2416,7 +2416,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90756] = {
 		cannon = 0,
-		name = "エンフォーサーIX「Concealment」",
+		name = "代行者IX「Concealment」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2572,7 +2572,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90757] = {
 		cannon = 0,
-		name = "エンフォーサーIX「Exploration」",
+		name = "代行者IX「Exploration」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2728,7 +2728,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90758] = {
 		cannon = 0,
-		name = "エンフォーサーIX「Concealment」/*0x0F*/",
+		name = "代行者IX「Concealment」/*0x0F*/",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2884,7 +2884,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90759] = {
 		cannon = 0,
-		name = "エンフォーサーIX「Exploration」/*0x0F*/",
+		name = "代行者IX「Exploration」/*0x0F*/",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3040,7 +3040,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90760] = {
 		cannon = 0,
-		name = "アビータ·Hermit·IX/*0x0F*/",
+		name = "仲裁者·赫米忒·IX/*0x0F*/",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3192,7 +3192,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90761] = {
 		cannon = 0,
-		name = "U-556(META)？",
+		name = "U-556.META？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3336,7 +3336,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90762] = {
 		cannon = 0,
-		name = "ヴェスタル(META)",
+		name = "女灶神·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3505,7 +3505,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90763] = {
 		cannon = 0,
-		name = "ビスマルクZwei",
+		name = "俾斯麦Zwei",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3665,7 +3665,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90764] = {
 		cannon = 0,
-		name = "自律型艤装「ゲリュオン」",
+		name = "革律翁",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3811,7 +3811,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90765] = {
 		cannon = 0,
-		name = "アルジェリー(META)",
+		name = "阿尔及利亚·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3960,7 +3960,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90766] = {
 		cannon = 0,
-		name = "ピラー・オブ・シン",
+		name = "堕天之柱",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4116,7 +4116,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90767] = {
 		cannon = 0,
-		name = "ワシントン",
+		name = "华盛顿",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4263,7 +4263,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90768] = {
 		cannon = 0,
-		name = "サウスダコタ",
+		name = "南达科他",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4410,7 +4410,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90769] = {
 		cannon = 0,
-		name = "アンドレア・ドーリア",
+		name = "安德烈亚·多利亚",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4566,7 +4566,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90770] = {
 		cannon = 0,
-		name = "アッティリオ・レゴロ",
+		name = "阿蒂利奥·雷戈洛",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4722,7 +4722,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90771] = {
 		cannon = 0,
-		name = "ゴリツィア",
+		name = "戈里齐亚",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

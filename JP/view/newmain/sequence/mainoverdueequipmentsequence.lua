@@ -25,8 +25,7 @@ slot0.ShowMsgBox = function(slot0, slot1)
 			uv0:ShowItemBox(slot0, function ()
 				uv0:ShowMsgBox(uv1)
 			end)
-		end,
-		weight = LayerWeightConst.TOP_LAYER
+		end
 	})
 end
 
@@ -38,8 +37,7 @@ slot0.ShowItemBox = function(slot0, slot1, slot2)
 			data = {
 				equipmentId = slot1:getConfig("id"),
 				type = EquipmentInfoMediator.TYPE_DISPLAY,
-				onRemoved = slot2,
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+				onRemoved = slot2
 			}
 		}))
 	elseif slot1.type == DROP_TYPE_SPWEAPON then
@@ -49,8 +47,7 @@ slot0.ShowItemBox = function(slot0, slot1, slot2)
 			data = {
 				spWeaponConfigId = slot1:getConfig("id"),
 				type = SpWeaponInfoLayer.TYPE_DISPLAY,
-				onRemoved = slot2,
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+				onRemoved = slot2
 			}
 		}))
 	else
@@ -58,8 +55,7 @@ slot0.ShowItemBox = function(slot0, slot1, slot2)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = slot1,
 			onNo = slot2,
-			onYes = slot2,
-			weight = LayerWeightConst.TOP_LAYER
+			onYes = slot2
 		})
 	end
 end

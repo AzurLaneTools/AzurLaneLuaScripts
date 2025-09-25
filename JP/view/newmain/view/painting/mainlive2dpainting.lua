@@ -292,7 +292,7 @@ end
 slot0.OnDisplayWorld = function(slot0)
 end
 
-slot0.OnPuase = function(slot0)
+slot0.OnPause = function(slot0)
 	slot0:RemoveScreenChangeTimer()
 	slot0:ResetContainerPosition()
 

@@ -65,7 +65,7 @@ end
 
 slot0.InitEvent = function(slot0)
 	slot1 = function()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.firstAlertWin, uv0.airijpPanel)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.firstAlertWin, uv0.airijpPanel)
 		setActive(uv0.firstAlertWin, false)
 	end
 

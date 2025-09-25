@@ -10,18 +10,20 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1006,
 		1007,
 		1008,
-		1009
+		1009,
+		1010,
+		1011
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {
 	[1001] = {
-		name = "デフォルト",
+		name = "默认",
 		rarity = 2,
 		farme_path = "photo_frame_default",
 		frameTfName = "DefaultFrame",
-		desc = "入手するとカメラ機能で「デフォルト」フレームを適用可能",
-		unlock_text = "シリアス親愛度Lv1で開放",
+		desc = "获得后可以在相机功能中解锁默认相框",
+		unlock_text = "天狼星契合度1级解锁",
 		id = 1001,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_default_small",
@@ -36,12 +38,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1002] = {
-		name = "動画",
+		name = "视频",
 		rarity = 2,
 		farme_path = "photo_frame_vcr",
 		frameTfName = "VcrFrame",
-		desc = "入手するとカメラ機能で「動画風」フレームを適用可能",
-		unlock_text = "シリアス親愛度Lv1で開放",
+		desc = "获得后可以在相机功能中解锁视频相框",
+		unlock_text = "天狼星契合度1级解锁",
 		id = 1002,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_vcr_small",
@@ -56,12 +58,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1003] = {
-		name = "切符",
+		name = "票根",
 		rarity = 2,
 		farme_path = "photo_frame_counterfoil",
 		frameTfName = "CounterfoilFrame",
-		desc = "入手するとカメラ機能で「切符風」フレームを適用可能",
-		unlock_text = "シリアス親愛度Lv5で開放",
+		desc = "获得后可以在相机功能中解锁票根相框",
+		unlock_text = "天狼星契合度5级解锁",
 		id = 1003,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_counterfoil_small",
@@ -76,12 +78,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1004] = {
-		name = "プロマイド",
+		name = "拍立得",
 		rarity = 3,
 		farme_path = "photo_frame_polaroid",
 		frameTfName = "InstantFrame",
-		desc = "入手するとカメラ機能で「プロマイド」フレームを適用可能",
-		unlock_text = "シリアス親愛度Lv7で開放",
+		desc = "获得后可以在相机功能中解锁拍立得相框",
+		unlock_text = "天狼星契合度7级解锁",
 		id = 1004,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_polaroid_small",
@@ -96,12 +98,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1005] = {
-		name = "カード",
+		name = "卡片",
 		rarity = 3,
 		farme_path = "photo_frame_card",
 		frameTfName = "CardInstantFrame",
-		desc = "入手するとカメラ機能で「カード」フレームを適用可能",
-		unlock_text = "シリアス親愛度Lv12で開放",
+		desc = "获得后可以在相机功能中解锁卡片相框",
+		unlock_text = "天狼星契合度12级解锁",
 		id = 1005,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_card_small",
@@ -116,12 +118,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1006] = {
-		name = "トレンド",
+		name = "格调风向",
 		rarity = 3,
 		farme_path = "photo_frame_ins",
 		frameTfName = "InsFrame",
-		desc = "入手するとカメラ機能で「トレンド」フレームを適用可能",
-		unlock_text = "能代親愛度Lv5で開放",
+		desc = "获得后可以在相机功能中解锁格调风向相框",
+		unlock_text = "能代契合度5级解锁",
 		id = 1006,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_ins_small",
@@ -136,12 +138,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1007] = {
-		name = "フィルム",
+		name = "胶片质感",
 		rarity = 3,
 		farme_path = "photo_frame_film",
 		frameTfName = "FilmFrame",
-		desc = "入手するとカメラ機能で「フィルム」フレームを適用可能",
-		unlock_text = "能代親愛度Lv13で開放",
+		desc = "获得后可以在相机功能中解锁胶片质感相框",
+		unlock_text = "能代契合度13级解锁",
 		id = 1007,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_film_small",
@@ -156,12 +158,12 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1008] = {
-		name = "クルミ",
+		name = "雅致胡桃",
 		rarity = 3,
 		farme_path = "photo_frame_Wood",
 		frameTfName = "WoodFrame",
-		desc = "入手するとカメラ機能で「クルミ」フレームを適用可能",
-		unlock_text = "ニュージャージー親愛度Lv5で解放",
+		desc = "获得后可以在相机功能中解锁雅致胡桃相框",
+		unlock_text = "{namecode:199}5级解锁",
 		id = 1008,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_Wood_small",
@@ -176,18 +178,58 @@ pg.base.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1009] = {
-		name = "フォト",
+		name = "镜头感",
 		rarity = 3,
 		farme_path = "photo_frame_Focus",
 		frameTfName = "FocusFrame",
-		desc = "入手するとカメラ機能で「フォト」フレームを適用可能",
-		unlock_text = "ニュージャージー親密度Lv13で解放",
+		desc = "获得后可以在相机功能中解锁镜头感相框",
+		unlock_text = "{namecode:199}契合度13级解锁",
 		id = 1009,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_Focus_small",
 		unlock = {
 			1,
 			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1010] = {
+		name = "影音之窗",
+		rarity = 3,
+		farme_path = "photo_frame_player",
+		frameTfName = "PlayerFrame",
+		desc = "获得后可以在相机功能中解锁雅致影音之窗相框",
+		unlock_text = "{namecode:97}5级解锁",
+		id = 1010,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_player_small",
+		unlock = {
+			1,
+			30707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1011] = {
+		name = "言说之间",
+		rarity = 3,
+		farme_path = "photo_frame_phone",
+		frameTfName = "PhoneFrame",
+		desc = "获得后可以在相机功能中解锁言说之间相框",
+		unlock_text = "{namecode:97}契合度13级解锁",
+		id = 1011,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_phone_small",
+		unlock = {
+			1,
+			30707,
 			13
 		},
 		watermark_location = {

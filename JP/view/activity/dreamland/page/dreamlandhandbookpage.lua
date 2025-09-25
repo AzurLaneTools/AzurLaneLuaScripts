@@ -110,7 +110,7 @@ end
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:RemoveHideTimer()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.SwitchPage = function(slot0, slot1)

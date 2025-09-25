@@ -31,12 +31,12 @@ pg.activity_task_permanent = setmetatable({
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {
 	[6000] = {
-		gametip = "「山城」の着せ替えをGET!",
+		gametip = "可获得鲼限定换装「季夏攻势」",
 		banner_route = "permanent_yamashiro",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "夏の大作戦？",
+		activity_name = "季夏(?)攻势",
 		id = 6000,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -50,12 +50,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6001] = {
-		gametip = "「クレイヴン」の着せ替えをGET!",
+		gametip = "可获得克雷文限定换装「操场边的拉拉队长」",
 		banner_route = "permanent_craven",
-		gametip_extra = "最速10日間で入手",
+		gametip_extra = "最快10日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "新学期 ",
+		activity_name = "开学祭",
 		id = 6001,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -82,12 +82,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6002] = {
-		gametip = "「ヴァンパイア」の着せ替えをGET!",
+		gametip = "可获得吸血鬼限定换装「白衣小恶魔」",
 		banner_route = "permanent_xixuegui",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "白衣の天使OR悪魔",
+		activity_name = "白衣天使or恶魔？",
 		id = 6002,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -101,12 +101,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6003] = {
-		gametip = "「シグニット」の着せ替えをGET!",
+		gametip = "可获得小天鹅限定换装「海滨的十字星」",
 		banner_route = "permanent_xiaotiane",
-		gametip_extra = "最速10日間で入手",
+		gametip_extra = "最快10日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "春風の十字星",
+		activity_name = "春风的十字星！！",
 		id = 6003,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -133,12 +133,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6004] = {
-		gametip = "「大潮」の着せ替えをGET!",
+		gametip = "可获得荙限定换装「夜宴微醺」",
 		banner_route = "permanent_dachaolifu",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "微酔の夜宴",
+		activity_name = "夜宴微醺",
 		id = 6004,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -159,12 +159,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6005] = {
-		gametip = "「山城」の着せ替えをGET!",
+		gametip = "可获得鲼限定换装「盛装的黑猫」",
 		banner_route = "permanent_shanchenglifu",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "母港の特別宴会",
+		activity_name = "港区的特别宴会",
 		id = 6005,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -185,23 +185,23 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6006] = {
-		gametip = "「メンフィス」の着せ替えをGET!",
+		gametip = "可获得孟菲斯限定换装「Mystical Night」",
 		banner_route = "permanent_mengfeisi",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "カオティック ハロウィンナイト",
+		activity_name = "混沌的万圣之夜",
 		id = 6006,
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
 	[6007] = {
-		gametip = "「若葉」の着せ替えをGET!",
+		gametip = "可获得楉限定换装「限时圣诞Wakaba」",
 		banner_route = "permanent_ruoyeshengdan",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "聖夜ナッツ！",
+		activity_name = "限时圣诞",
 		id = 6007,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -222,12 +222,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6008] = {
-		gametip = "「大潮」の着せ替えをGET!",
+		gametip = "可获得荙限定换装「驯鹿与圣诞礼物」",
 		banner_route = "permanent_dachaoshengdan",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "オペレーション・クリスマス",
+		activity_name = "圣诞礼物大作战",
 		id = 6008,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -248,12 +248,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6009] = {
-		gametip = "「グリッドレイ」の着せ替えをGET!",
+		gametip = "可获得格里德利限定换装「圣诞摄影会！」",
 		banner_route = "permanent_gelidelishengdan",
-		gametip_extra = "最速8日間で入手",
+		gametip_extra = "最快8日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "愛と平和の聖夜祭",
+		activity_name = "爱与和平的圣诞祭",
 		id = 6009,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -268,23 +268,23 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6010] = {
-		gametip = "「サラトガ」の着せ替えをGET!",
+		gametip = "可获得萨拉托加限定换装「异国的偶像？」",
 		banner_route = "permanent_salatuojia",
-		gametip_extra = "最速9日間で入手",
+		gametip_extra = "最快9日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "異国風アイドル？",
+		activity_name = "异国的偶像？",
 		id = 6010,
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
 	[6011] = {
-		gametip = "「ジャベリン」の着せ替えをGET!",
+		gametip = "可获得标枪限定换装「微速前进！」",
 		banner_route = "permanent_biaoqiang",
-		gametip_extra = "最速9日間で入手",
+		gametip_extra = "最快9日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "月刊マンガJavelin",
+		activity_name = "月刊漫画Javelin",
 		id = 6011,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -309,12 +309,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6012] = {
-		gametip = "「U-73」の着せ替えをGET!",
+		gametip = "可获得{namecode:417}限定换装「理科实验时间！」",
 		banner_route = "permanent_u73",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "理科実験タイム！",
+		activity_name = "理科实验时间！",
 		id = 6012,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -339,12 +339,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6013] = {
-		gametip = "「カヴァラ」の着せ替えをGET!",
+		gametip = "可获得棘鳍限定换装「五彩斑斓的宴会」",
 		banner_route = "permanent_jiqi",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "カラフルセレモニー！",
+		activity_name = "五彩斑斓的宴会",
 		id = 6013,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -365,12 +365,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6014] = {
-		gametip = "「吹雪」の着せ替えをGET!",
+		gametip = "可获得桐限定换装「特型偶像Fubuki」",
 		banner_route = "permanent_chuixue",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "激奏のポラリス",
+		activity_name = "激奏的Polaris ",
 		id = 6014,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -391,12 +391,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6015] = {
-		gametip = "「ベイリー」の着せ替えをGET!",
+		gametip = "可获得贝利限定换装「捣蛋黑兔」",
 		banner_route = "permanent_beili",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "悪戯ハロウィン",
+		activity_name = "捣蛋万圣夜",
 		id = 6015,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -417,12 +417,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6016] = {
-		gametip = "「Z23」の着せ替えをGET!",
+		gametip = "可获得{namecode:408}限定换装「哲学讲师」",
 		banner_route = "permanent_z23",
-		gametip_extra = "最速10日間で入手",
+		gametip_extra = "最快10日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "36年Z組　ニーミ先生",
+		activity_name = "36年Z组 {namecode:408}老师",
 		id = 6016,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -449,23 +449,23 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6017] = {
-		gametip = "「マーブルヘッド」の着せ替えをGET!",
+		gametip = "可获得马布尔黑德限定换装「魅惑的缤纷雪夜」",
 		banner_route = "permanent_mabuerheide",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "雪のチャーミングタイム",
+		activity_name = "魅惑的缤纷雪夜",
 		id = 6017,
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
 	[6018] = {
-		gametip = "限定家具「チョコ饅頭」をGET!",
+		gametip = "可获得限定家具「巧克力啾」",
 		banner_route = "permanent_qiaokelijiu",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "饅頭チョコ工場",
+		activity_name = "啾啾巧克力工厂",
 		id = 6018,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -479,12 +479,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6019] = {
-		gametip = "「伊56」の着せ替えをGET!",
+		gametip = "可获得{namecode:254}限定换装「角落的向日葵」",
 		banner_route = "permanent_i56",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "隅っコのひまわり",
+		activity_name = "角落的向日葵",
 		id = 6019,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -505,12 +505,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6020] = {
-		gametip = "「満潮」の着せ替えをGET!",
+		gametip = "可获得{namecode:147}限定换装「缎带轻飘飘」",
 		banner_route = "permanent_manchao",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "ふんわりリテール",
+		activity_name = "缎带轻飘飘",
 		id = 6020,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -531,12 +531,12 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6021] = {
-		gametip = "「長良」の着せ替えをGET!",
+		gametip = "可获得{namecode:46}限定换装「悠闲春日」",
 		banner_route = "permanent_changliang",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "春日ゆらり",
+		activity_name = "悠闲春日",
 		id = 6021,
 		over_task_id = "",
 		eliminate_task_id = {
@@ -557,23 +557,23 @@ pg.base.activity_task_permanent = {
 		}
 	},
 	[6022] = {
-		gametip = "艦船「U-410」をGET!",
+		gametip = "可获得角色{namecode:475}",
 		banner_route = "permanent_u410",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "U-410の特別鍛錬",
+		activity_name = "特别锻炼",
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
 	},
 	[6023] = {
-		gametip = "「初春」の着せ替えをGET!",
+		gametip = "可获得{namecode:30}限定换装「春邀灯火」",
 		banner_route = "permanent_chunyaodenghuo",
-		gametip_extra = "最速7日間で入手",
+		gametip_extra = "最快7日获得",
 		task_extra = "",
 		over_pt = 0,
-		activity_name = "灯の初春",
+		activity_name = "春邀灯火",
 		id = 6023,
 		over_task_id = "",
 		eliminate_task_id = {

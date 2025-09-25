@@ -4,80 +4,161 @@ pg.island_storage_filter_template = {
 		belong_filter_id = 0,
 		filter_level = 1,
 		args = "",
-		name = "材料",
+		name = "資源",
 		id = 101,
 		res = "",
 		sort_id = 1010
 	},
-	[11] = {
+	[1011] = {
 		belong_filter_id = 101,
 		filter_level = 2,
 		args = "",
-		name = "种类",
-		id = 11,
+		name = "分類",
+		id = 1011,
 		res = "",
 		sort_id = 0
 	},
-	[3] = {
-		belong_filter_id = 11,
+	[10111] = {
+		belong_filter_id = 1011,
 		filter_level = 3,
 		args = "",
-		name = "基础材料",
-		id = 3,
+		name = "基本資源",
+		id = 10111,
 		res = "",
 		sort_id = 0
 	},
-	[4] = {
-		belong_filter_id = 11,
+	[10112] = {
+		belong_filter_id = 1011,
 		filter_level = 3,
 		args = "",
-		name = "一级合成",
-		id = 4,
+		name = "加工品",
+		id = 10112,
 		res = "",
 		sort_id = 0
 	},
-	[5] = {
-		belong_filter_id = 11,
+	[10113] = {
+		belong_filter_id = 1011,
 		filter_level = 3,
 		args = "",
-		name = "二级合成",
-		id = 5,
+		name = "生産物",
+		id = 10113,
 		res = "",
 		sort_id = 0
 	},
-	[21] = {
+	[10114] = {
+		belong_filter_id = 1011,
+		filter_level = 3,
+		args = "",
+		name = "その他",
+		id = 10114,
+		res = "",
+		sort_id = 0
+	},
+	[1012] = {
 		belong_filter_id = 101,
 		filter_level = 2,
 		args = "",
-		name = "设施",
-		id = 21,
+		name = "生産地",
+		id = 1012,
 		res = "",
 		sort_id = 0
 	},
-	[6] = {
-		belong_filter_id = 21,
+	[10121] = {
+		belong_filter_id = 1012,
 		filter_level = 3,
 		args = "",
-		name = "矿山",
-		id = 6,
+		name = "豊穣の畑",
+		id = 10121,
 		res = "",
 		sort_id = 0
 	},
-	[7] = {
-		belong_filter_id = 21,
+	[10122] = {
+		belong_filter_id = 1012,
 		filter_level = 3,
 		args = "",
-		name = "浴场",
-		id = 7,
+		name = "悠々牧場",
+		id = 10122,
 		res = "",
 		sort_id = 0
 	},
-	[8] = {
-		belong_filter_id = 21,
+	[10123] = {
+		belong_filter_id = 1012,
 		filter_level = 3,
 		args = "",
-		name = "农田",
-		id = 8,
+		name = "積岩鉱山",
+		id = 10123,
+		res = "",
+		sort_id = 0
+	},
+	[10124] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "翠緑の森",
+		id = 10124,
+		res = "",
+		sort_id = 0
+	},
+	[10126] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "饅頭カフェ",
+		id = 10126,
+		res = "",
+		sort_id = 0
+	},
+	[10127] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "有魚飯店",
+		id = 10127,
+		res = "",
+		sort_id = 0
+	},
+	[10128] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "白クマ茶房",
+		id = 10128,
+		res = "",
+		sort_id = 0
+	},
+	[10129] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "饅頭軽食",
+		id = 10129,
+		res = "",
+		sort_id = 0
+	},
+	[10130] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "烏魚焼肉",
+		id = 10130,
+		res = "",
+		sort_id = 0
+	},
+	[10131] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "基地工場",
+		id = 10131,
+		res = "",
+		sort_id = 0
+	},
+	[10140] = {
+		belong_filter_id = 1012,
+		filter_level = 3,
+		args = "",
+		name = "その他",
+		id = 10140,
 		res = "",
 		sort_id = 0
 	},
@@ -90,39 +171,39 @@ pg.island_storage_filter_template = {
 		res = "",
 		sort_id = 1010
 	},
-	[12] = {
+	[1021] = {
 		belong_filter_id = 102,
 		filter_level = 2,
 		args = "",
-		name = "付费消耗品",
-		id = 12,
+		name = "分類",
+		id = 1021,
 		res = "",
 		sort_id = 0
 	},
-	[9] = {
-		belong_filter_id = 12,
+	[10211] = {
+		belong_filter_id = 1021,
 		filter_level = 3,
 		args = "",
-		name = "角色up",
-		id = 9,
+		name = "キャラ育成",
+		id = 10211,
 		res = "",
 		sort_id = 0
 	},
-	[22] = {
-		belong_filter_id = 102,
-		filter_level = 2,
-		args = "",
-		name = "免费道具",
-		id = 22,
-		res = "",
-		sort_id = 0
-	},
-	[15] = {
-		belong_filter_id = 22,
+	[10212] = {
+		belong_filter_id = 1021,
 		filter_level = 3,
 		args = "",
-		name = "增加效率",
-		id = 15,
+		name = "バフ",
+		id = 10212,
+		res = "",
+		sort_id = 0
+	},
+	[10213] = {
+		belong_filter_id = 1021,
+		filter_level = 3,
+		args = "",
+		name = "その他",
+		id = 10213,
 		res = "",
 		sort_id = 0
 	},
@@ -130,44 +211,44 @@ pg.island_storage_filter_template = {
 		belong_filter_id = 0,
 		filter_level = 1,
 		args = "",
-		name = "特殊类",
+		name = "特殊",
 		id = 103,
 		res = "",
 		sort_id = 1010
 	},
-	[13] = {
+	[1031] = {
 		belong_filter_id = 103,
 		filter_level = 2,
 		args = "",
-		name = "任务道具",
-		id = 13,
+		name = "分類",
+		id = 1031,
 		res = "",
 		sort_id = 0
 	},
-	[16] = {
-		belong_filter_id = 13,
+	[10311] = {
+		belong_filter_id = 1031,
 		filter_level = 3,
 		args = "",
-		name = "钥匙",
-		id = 16,
+		name = "任務",
+		id = 10311,
 		res = "",
 		sort_id = 0
 	},
-	[23] = {
-		belong_filter_id = 103,
-		filter_level = 2,
-		args = "",
-		name = "纪念道具",
-		id = 23,
-		res = "",
-		sort_id = 0
-	},
-	[17] = {
-		belong_filter_id = 23,
+	[10312] = {
+		belong_filter_id = 1031,
 		filter_level = 3,
 		args = "",
-		name = "舰娘礼物",
-		id = 17,
+		name = "資金",
+		id = 10312,
+		res = "",
+		sort_id = 0
+	},
+	[10313] = {
+		belong_filter_id = 1031,
+		filter_level = 3,
+		args = "",
+		name = "その他",
+		id = 10313,
 		res = "",
 		sort_id = 0
 	},
@@ -175,17 +256,17 @@ pg.island_storage_filter_template = {
 		belong_filter_id = 0,
 		filter_level = 2,
 		args = "",
-		name = "排序",
+		name = "ソート",
 		id = 1010,
 		res = "",
 		sort_id = 0
 	},
-	[1011] = {
+	[104] = {
 		belong_filter_id = 1010,
 		filter_level = 3,
 		args = "GetRarity",
-		name = "稀有度",
-		id = 1011,
+		name = "レアリティ",
+		id = 104,
 		res = "",
 		sort_id = 0
 	},
@@ -197,64 +278,78 @@ pg.island_storage_filter_template = {
 			1010
 		},
 		[101] = {
-			11,
-			21
+			1011,
+			1012
 		},
-		[11] = {
-			3,
-			4,
-			5
+		[1011] = {
+			10111,
+			10112,
+			10113,
+			10114
 		},
-		[21] = {
-			6,
-			7,
-			8
+		[1012] = {
+			10121,
+			10122,
+			10123,
+			10124,
+			10126,
+			10127,
+			10128,
+			10129,
+			10130,
+			10131,
+			10140
 		},
 		[102] = {
-			12,
-			22
+			1021
 		},
-		[12] = {
-			9
-		},
-		[22] = {
-			15
+		[1021] = {
+			10211,
+			10212,
+			10213
 		},
 		[103] = {
-			13,
-			23
+			1031
 		},
-		[13] = {
-			16
-		},
-		[23] = {
-			17
+		[1031] = {
+			10311,
+			10312,
+			10313
 		},
 		[1010] = {
-			1011
+			104
 		}
 	},
 	all = {
 		101,
-		11,
-		3,
-		4,
-		5,
-		21,
-		6,
-		7,
-		8,
+		1011,
+		10111,
+		10112,
+		10113,
+		10114,
+		1012,
+		10121,
+		10122,
+		10123,
+		10124,
+		10126,
+		10127,
+		10128,
+		10129,
+		10130,
+		10131,
+		10140,
 		102,
-		12,
-		9,
-		22,
-		15,
+		1021,
+		10211,
+		10212,
+		10213,
 		103,
-		13,
-		16,
-		23,
-		17,
+		1031,
+		10311,
+		10312,
+		10313,
 		1010,
-		1011
+		104
 	}
 }

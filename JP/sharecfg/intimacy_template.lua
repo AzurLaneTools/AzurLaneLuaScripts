@@ -10,7 +10,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_1"
 	},
 	{
-		name = "知り合い",
+		name = "陌生",
 		upper_bound = 6099,
 		id = 2,
 		attr_bonus = 0,
@@ -28,7 +28,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_3"
 	},
 	{
-		name = "好き",
+		name = "喜欢",
 		upper_bound = 9999,
 		id = 4,
 		attr_bonus = 300,
@@ -37,7 +37,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_4"
 	},
 	{
-		name = "愛",
+		name = "爱",
 		upper_bound = 10000,
 		id = 5,
 		attr_bonus = 600,
@@ -46,7 +46,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_5"
 	},
 	{
-		name = "ケッコン",
+		name = "婚",
 		upper_bound = 19999,
 		id = 6,
 		attr_bonus = 900,
@@ -55,7 +55,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_6"
 	},
 	{
-		name = "ケッコン",
+		name = "婚",
 		upper_bound = 20000,
 		id = 7,
 		attr_bonus = 1200,

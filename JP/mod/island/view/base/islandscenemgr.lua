@@ -5,7 +5,7 @@ slot3 = 2
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.scene = slot1
-	slot0.capacity = 3
+	slot0.capacity = 2
 	slot0.stack = {}
 	slot0.noStatePages = {}
 	slot0.pages = {}
@@ -15,27 +15,26 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.OpenPage = function(slot0, slot1, slot2, ...)
-	slot3 = nil
+	slot3 = packEx(...)
 
 	if slot0:IsSceneType(slot1) then
-		slot0:ClosePrevScenePage()
-
-		slot3 = slot0:CreateScenePage(slot2)
-
 		slot0:CheckOverflowAndDestory()
-		slot0:Record(IslandSceneContext.New(slot2, ...), true)
+		slot0:ClosePrevScenePage(function ()
+			uv0:Record(IslandSceneContext.New(uv1, unpackEx(uv2)), true)
+			uv0:StartPage(uv3, uv2)
+		end)
+
+		return slot0:CreateScenePage(slot2)
 	else
-		slot3 = slot0:CreateSubPage(slot1, slot2)
-		slot4 = slot0:GetContext(slot1)
+		slot4 = slot0:CreateSubPage(slot1, slot2)
+		slot5 = slot0:GetContext(slot1)
 
-		assert(slot4, slot1.__cname)
-		slot4:AddSubPage(slot2, ...)
+		assert(slot5, slot1.__cname)
+		slot5:AddSubPage(slot2, ...)
+		slot0:StartPage(slot4, slot3)
+
+		return slot4
 	end
-
-	slot0:StartPage(slot3, ...)
-	slot0:Debug()
-
-	return slot3
 end
 
 slot0.GetContext = function(slot0, slot1)
@@ -60,9 +59,7 @@ slot0.GetSubPage = function(slot0, slot1)
 	end)
 end
 
-slot0.StartPage = function(slot0, slot1, ...)
-	slot2 = packEx(...)
-
+slot0.StartPage = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			uv0:Preload(slot0, unpackEx(uv1))
@@ -100,25 +97,35 @@ slot0.CreateSubPage = function(slot0, slot1, slot2)
 	return slot4
 end
 
-slot0.ClosePrevScenePage = function(slot0)
-	if slot0.stack[#slot0.stack] and slot0:GetPage(slot1.class) and slot2:GetLoaded() and slot2:isShowing() then
-		slot2:Disable()
+slot0.ClosePrevScenePage = function(slot0, slot1)
+	if slot0.stack[#slot0.stack] then
+		if slot0:GetPage(slot2.class) and slot3:GetLoaded() and slot3:isShowing() then
+			slot3:Disable(slot1)
 
-		for slot6, slot7 in ipairs(slot1:GetSubPages()) do
-			if slot0:GetSubPage(slot7.class):GetLoaded() then
-				slot8:Disable()
+			for slot7, slot8 in ipairs(slot2:GetSubPages()) do
+				if slot0:GetSubPage(slot8.class):GetLoaded() then
+					slot9:Disable()
+				end
 			end
+		else
+			slot1()
 		end
+	else
+		slot1()
 	end
 end
 
 slot0.CheckOverflowAndDestory = function(slot0)
 	if slot0.capacity < #slot0.pages then
-		slot0:DestroyPage(slot0.pages[1])
+		if slot0:GetContext(slot0.pages[1].class) then
+			slot2:DisabelDelRecordWhenClose()
+		end
+
+		slot0:DestroyPage(slot1, nil, true)
 
 		slot0.gcCnt = slot0.gcCnt + 1
 
-		if slot0.gcCnt % 3 == 0 then
+		if slot0.gcCnt % 5 == 0 then
 			gcAll(false)
 
 			slot0.gcCnt = 0
@@ -137,17 +144,24 @@ end
 slot0.CheckAndCloseScenePage = function(slot0, slot1)
 	if slot0:GetContext(slot1) then
 		if slot0:GetPage(slot2.class) and slot3:GetLoaded() and slot3:isShowing() then
-			slot0:DelRecord(slot2)
+			slot4 = slot2:GetOpenPrevWhenClose()
+
+			if slot2:GetDelRecordWhenClose() then
+				slot0:DelRecord(slot2)
+			end
+
 			slot3:Disable()
 
-			for slot7, slot8 in ipairs(slot2:GetSubPages()) do
-				if slot0:GetSubPage(slot8.class):GetLoaded() then
-					slot9:Destroy()
-					table.removebyvalue(slot0.subPages, slot9)
+			for slot9, slot10 in ipairs(slot2:GetSubPages()) do
+				if slot0:GetSubPage(slot10.class):GetLoaded() then
+					slot11:Destroy()
+					table.removebyvalue(slot0.subPages, slot11)
 				end
 			end
 
-			slot0:OpenPrevScenePage()
+			if slot4 then
+				slot0:OpenPrevScenePage()
+			end
 		end
 
 		return slot3 ~= nil
@@ -220,18 +234,20 @@ slot0.CheckAndCloseNoStatePage = function(slot0, slot1)
 	return slot3
 end
 
-slot0.DestroyPage = function(slot0, slot1, slot2)
+slot0.DestroyPage = function(slot0, slot1, slot2, slot3)
 	if slot2 or slot0:GetContext(slot1.class) then
-		for slot6, slot7 in ipairs(slot2:GetSubPages()) do
-			if slot0:GetSubPage(slot7.class):GetLoaded() then
-				slot8:Destroy()
+		slot2:DisabelOpenPrevWhenClose()
+
+		for slot7, slot8 in ipairs(slot2:GetSubPages()) do
+			if slot0:GetSubPage(slot8.class):GetLoaded() then
+				slot9:Destroy()
 				table.removebyvalue(slot0.subPages, slot1)
 			end
 		end
 	end
 
 	if slot1:GetLoaded() then
-		slot1:Destroy()
+		slot1:Destroy(slot3)
 
 		if slot1:NeedCache() then
 			table.removebyvalue(slot0.pages, slot1)

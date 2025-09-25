@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这样就好了？",
+			say = "――これでいいか？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，没错喵！现在这座岛屿相关的一切都完全交给指挥官了喵~呜呜，终于可以松口气了喵~",
-			animation = "happy",
+			say = "ムフフ～！バッチリにゃ！これでこの離島の全部が指揮官に委ねられたにゃ",
+			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,25 +42,7 @@ return {
 			}
 		},
 		{
-			say = "那这些岛屿建设用贷款也都交给指挥官还了喵~",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "什么贷款？",
-					flag = 1
-				},
-				{
-					content = "你贷这么多钱做什么？！",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "友情提示，债务详情可以点进去查看具体账单喵~",
+			say = "離島の開発エリアに関するすべての資産、施設、運営権限……全部指揮官に移譲したにゃ！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -68,16 +50,8 @@ return {
 			}
 		},
 		{
-			say = "港口扩建……新开发农场、牧场、商场、种植园？下面居然还有个海滩开发计划？！",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			say = "――これでいいか？",
 			animation = "nod",
-			say = "难怪帕特莉说最近的港口繁忙了不少……不过你贷款开发这么多地方做什么？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +59,24 @@ return {
 			}
 		},
 		{
-			say = "我……我只是想赚钱赚得更快些喵~",
+			say = "あ、ちょっと待つにゃ。それと……残りの問題も一緒に指揮官に任せるにゃ",
+			animation = "idea",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――残りの問題？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "……それは、この半年間この離島を今の形にするために必要だった……えーと、開発資金にゃ",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -94,16 +85,7 @@ return {
 			}
 		},
 		{
-			say = "而且这些贷款可是按外部时间来结算利息的喵~几乎可以说是零利率呢喵~",
-			animation = "elation",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "只要指挥官努努力，总能赚回来的喵~",
+			say = "つまり建設のための借金にゃ……ふぅ、これでやっと肩の荷が下りるにゃ〜",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -111,17 +93,13 @@ return {
 			},
 			options = {
 				{
-					content = "（总感觉哪里有问题……）",
+					content = "……建設のための借金？",
 					flag = 1
-				},
-				{
-					content = "（{namecode:98:明石}真的会这么好心？）",
-					flag = 2
 				}
 			}
 		},
 		{
-			say = "……我好像明白了，你不会是等这些地方都开发完才发现自己人手不够的吧？",
+			say = "――いくらなんだ？出しておくよ",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +107,16 @@ return {
 			}
 		},
 		{
-			say = "喵呜？！被、被发现了喵……",
-			animation = "amaze",
+			say = "――でも……オーナーの明石が離島を開発するのに、なんで借金なんて発生したんだ？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "うにゃ……それは……特異点の開発には専用の通貨が必要で、その通貨は離島の生産や経営活動からしか得られないにゃ……",
+			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +124,15 @@ return {
 			}
 		},
 		{
-			say = "这就好办了，那我怎么才能带人进来？",
+			say = "だから一気にフル稼働で開発するために、明石は……借り入れをしたにゃ！",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――……そんな変なルール、聞いたことないな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼，这就要用到我最新研发的岛屿权限认证函了喵~",
+			say = "特異点の開発だから、変わったことがあるのは当然にゃ！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -155,7 +149,118 @@ return {
 			}
 		},
 		{
-			say = "指挥官快过来喵~",
+			say = "――となると、初期開発資金はどこから借りたんだ？",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "にゃ……！そ、それは……企業機密にゃ！",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "指揮官、細かいことは気にしないにゃ！",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "それよりヒントを一つ、借金の詳細は債務一覧から確認できるにゃ〜",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "――港の拡張……農場の開発、牧場、商店街、農園、砂浜の開発計画まで……",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――だからパトリックは最近港が忙しくなったって言ってたのか……でもどうしてこんなに開発計画を？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "sad",
+			say = "……早くお金を稼ぎたかっただけにゃ",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――欲張りだな……これだけのプロジェクトが完成したところで運営の人手も足りないだろう？",
+			animation = "shakehead",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指揮官はちょうどいいところに来てくれたにゃ～",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "elation",
+			say = "もっと人手を増やして……みんなで委託を受けて、工場を稼働させて、作物を育て、畜産ができれば……",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "投資をすぐ回収できるにゃ",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――で、どうやって人手を増やすんだ？",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "ムフフ、それには離島権限認証装置が必要にゃ",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指揮官、ついてきてにゃ",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

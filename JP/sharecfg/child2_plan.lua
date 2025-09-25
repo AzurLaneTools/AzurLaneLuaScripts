@@ -7,10 +7,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_1",
 		type = 1,
-		name_2 = "ボール遊び",
+		name_2 = "趣球课堂",
 		id = 1101,
 		group_id = 1,
-		name = "ボール遊び",
+		name = "趣球课堂",
 		result_node = 20001,
 		cost = {
 			{
@@ -42,10 +42,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_2",
 		type = 1,
-		name_2 = "積み木遊び",
+		name_2 = "巧手课堂",
 		id = 1102,
 		group_id = 2,
-		name = "積み木遊び",
+		name = "巧手课堂",
 		result_node = 20003,
 		cost = {
 			{
@@ -77,10 +77,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_3",
 		type = 1,
-		name_2 = "読書タイム",
+		name_2 = "悦读课堂",
 		id = 1103,
 		group_id = 3,
-		name = "読書タイム",
+		name = "悦读课堂",
 		result_node = 20005,
 		cost = {
 			{
@@ -112,10 +112,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_4",
 		type = 1,
-		name_2 = "発想タイム",
+		name_2 = "奇思课堂",
 		id = 1104,
 		group_id = 4,
-		name = "発想タイム",
+		name = "奇思课堂",
 		result_node = 20007,
 		cost = {
 			{
@@ -147,10 +147,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_5",
 		type = 2,
-		name_2 = "リズム練習",
+		name_2 = "律动课堂",
 		id = 1105,
 		group_id = 5,
-		name = "リズム練習",
+		name = "律动课堂",
 		result_node = 20009,
 		cost = {},
 		level_condition = {},
@@ -171,10 +171,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_6",
 		type = 2,
-		name_2 = "家事手伝い",
+		name_2 = "生活课堂",
 		id = 1106,
 		group_id = 6,
-		name = "家事手伝い",
+		name = "生活课堂",
 		result_node = 20011,
 		cost = {},
 		level_condition = {},
@@ -195,10 +195,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 1107,
 		group_id = 7,
-		name = "体力授業Lv.1",
+		name = "体能课程Lv.1",
 		result_node = 20013,
 		cost = {
 			{
@@ -224,13 +224,13 @@ pg.child2_plan = {
 				{
 					20010
 				},
-				"体力<color=#f7f7f7>>=300</color>"
+				"体能<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"パラメータ合計<color=#f7f7f7>>=600</color>"
+				"总属性<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -252,10 +252,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 1108,
 		group_id = 7,
-		name = "体力授業Lv.2",
+		name = "体能课程Lv.2",
 		result_node = 20015,
 		cost = {
 			{
@@ -281,13 +281,13 @@ pg.child2_plan = {
 				{
 					20011
 				},
-				"体力<color=#f7f7f7>>=1000</color>"
+				"体能<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"パラメータ合計<color=#f7f7f7>>=1800</color>"
+				"总属性<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -309,10 +309,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 1109,
 		group_id = 7,
-		name = "体力授業Lv.Max",
+		name = "体能课程Lv.Max",
 		result_node = 20017,
 		cost = {
 			{
@@ -347,10 +347,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 1110,
 		group_id = 8,
-		name = "器用授業Lv.1",
+		name = "实践课程Lv.1",
 		result_node = 20019,
 		cost = {
 			{
@@ -376,13 +376,13 @@ pg.child2_plan = {
 				{
 					20020
 				},
-				"器用<color=#f7f7f7>>=300</color>"
+				"实践<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"パラメータ合計<color=#f7f7f7>>=600</color>"
+				"总属性<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -404,10 +404,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 1111,
 		group_id = 8,
-		name = "器用授業Lv.2",
+		name = "实践课程Lv.2",
 		result_node = 20021,
 		cost = {
 			{
@@ -433,13 +433,13 @@ pg.child2_plan = {
 				{
 					20021
 				},
-				"器用<color=#f7f7f7>>=1000</color>"
+				"实践<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"パラメータ合計<color=#f7f7f7>>=1800</color>"
+				"总属性<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -461,10 +461,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 1112,
 		group_id = 8,
-		name = "器用授業Lv.Max",
+		name = "实践课程Lv.Max",
 		result_node = 20023,
 		cost = {
 			{
@@ -499,10 +499,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 1113,
 		group_id = 9,
-		name = "知識授業Lv.1",
+		name = "阅读课程Lv.1",
 		result_node = 20025,
 		cost = {
 			{
@@ -528,13 +528,13 @@ pg.child2_plan = {
 				{
 					20040
 				},
-				"知識<color=#f7f7f7>>=300</color>"
+				"知识<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"パラメータ合計<color=#f7f7f7>>=600</color>"
+				"总属性<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -556,10 +556,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 1114,
 		group_id = 9,
-		name = "知識授業Lv.2",
+		name = "阅读课程Lv.2",
 		result_node = 20027,
 		cost = {
 			{
@@ -585,13 +585,13 @@ pg.child2_plan = {
 				{
 					20041
 				},
-				"知識<color=#f7f7f7>>=1000</color>"
+				"知识<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"パラメータ合計<color=#f7f7f7>>=1800</color>"
+				"总属性<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -613,10 +613,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 1115,
 		group_id = 9,
-		name = "知識授業Lv.Max",
+		name = "阅读课程Lv.Max",
 		result_node = 20029,
 		cost = {
 			{
@@ -651,10 +651,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 1116,
 		group_id = 10,
-		name = "感受性授業Lv.1",
+		name = "感知课程Lv.1",
 		result_node = 20031,
 		cost = {
 			{
@@ -680,13 +680,13 @@ pg.child2_plan = {
 				{
 					20030
 				},
-				"感受性<color=#f7f7f7>>=300</color>"
+				"感知<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"パラメータ合計<color=#f7f7f7>>=600</color>"
+				"总属性<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -708,10 +708,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 1117,
 		group_id = 10,
-		name = "感受性授業Lv.2",
+		name = "感知课程Lv.2",
 		result_node = 20033,
 		cost = {
 			{
@@ -737,13 +737,13 @@ pg.child2_plan = {
 				{
 					20031
 				},
-				"感受性<color=#f7f7f7>>=1000</color>"
+				"感知<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"パラメータ合計<color=#f7f7f7>>=1800</color>"
+				"总属性<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -765,10 +765,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 1118,
 		group_id = 10,
-		name = "感受性授業Lv.Max",
+		name = "感知课程Lv.Max",
 		result_node = 20035,
 		cost = {
 			{
@@ -803,10 +803,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_12",
 		type = 2,
-		name_2 = "元気ダンス",
+		name_2 = "元气舞蹈",
 		id = 1119,
 		group_id = 11,
-		name = "元気ダンス",
+		name = "元气舞蹈",
 		result_node = 20037,
 		cost = {},
 		level_condition = {},
@@ -827,10 +827,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_11",
 		type = 2,
-		name_2 = "農業手伝い",
+		name_2 = "庄园助手",
 		id = 1122,
 		group_id = 12,
-		name = "農業手伝い",
+		name = "庄园助手",
 		result_node = 20039,
 		cost = {},
 		level_condition = {},
@@ -851,10 +851,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_15",
 		type = 1,
-		name_2 = "お散歩",
+		name_2 = "自由漫步",
 		id = 3001,
 		group_id = 30,
-		name = "お散歩",
+		name = "自由漫步",
 		result_node = 20501,
 		cost = {},
 		level_condition = {},
@@ -875,10 +875,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_15",
 		type = 1,
-		name_2 = "お散歩",
+		name_2 = "自由漫步",
 		id = 3002,
 		group_id = 30,
-		name = "お散歩",
+		name = "自由漫步",
 		result_node = 20503,
 		cost = {},
 		level_condition = {},
@@ -899,10 +899,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_15",
 		type = 1,
-		name_2 = "お散歩",
+		name_2 = "自由漫步",
 		id = 3003,
 		group_id = 30,
-		name = "お散歩",
+		name = "自由漫步",
 		result_node = 20505,
 		cost = {},
 		level_condition = {},
@@ -923,10 +923,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 3107,
 		group_id = 15,
-		name = "体力授業Lv.1",
+		name = "体能课程Lv.1",
 		result_node = 20513,
 		cost = {
 			{
@@ -958,10 +958,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 3108,
 		group_id = 15,
-		name = "体力授業Lv.2",
+		name = "体能课程Lv.2",
 		result_node = 20515,
 		cost = {
 			{
@@ -993,10 +993,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_7",
 		type = 1,
-		name_2 = "体力授業",
+		name_2 = "体能课程",
 		id = 3109,
 		group_id = 15,
-		name = "体力授業Lv.Max",
+		name = "体能课程Lv.Max",
 		result_node = 20517,
 		cost = {
 			{
@@ -1028,10 +1028,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 3110,
 		group_id = 16,
-		name = "器用授業Lv.1",
+		name = "实践课程Lv.1",
 		result_node = 20519,
 		cost = {
 			{
@@ -1063,10 +1063,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 3111,
 		group_id = 16,
-		name = "器用授業Lv.2",
+		name = "实践课程Lv.2",
 		result_node = 20521,
 		cost = {
 			{
@@ -1098,10 +1098,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_8",
 		type = 1,
-		name_2 = "器用授業",
+		name_2 = "实践课程",
 		id = 3112,
 		group_id = 16,
-		name = "器用授業Lv.Max",
+		name = "实践课程Lv.Max",
 		result_node = 20523,
 		cost = {
 			{
@@ -1133,10 +1133,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 3113,
 		group_id = 17,
-		name = "知識授業Lv.1",
+		name = "阅读课程Lv.1",
 		result_node = 20525,
 		cost = {
 			{
@@ -1168,10 +1168,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 3114,
 		group_id = 17,
-		name = "知識授業Lv.2",
+		name = "阅读课程Lv.2",
 		result_node = 20527,
 		cost = {
 			{
@@ -1203,10 +1203,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_9",
 		type = 1,
-		name_2 = "知識授業",
+		name_2 = "阅读课程",
 		id = 3115,
 		group_id = 17,
-		name = "知識授業Lv.Max",
+		name = "阅读课程Lv.Max",
 		result_node = 20529,
 		cost = {
 			{
@@ -1238,10 +1238,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 3116,
 		group_id = 18,
-		name = "感受性授業Lv.1",
+		name = "感知课程Lv.1",
 		result_node = 20531,
 		cost = {
 			{
@@ -1273,10 +1273,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 3117,
 		group_id = 18,
-		name = "感受性授業Lv.2",
+		name = "感知课程Lv.2",
 		result_node = 20533,
 		cost = {
 			{
@@ -1308,10 +1308,10 @@ pg.child2_plan = {
 		is_show = 1,
 		icon_square = "plan_square_10",
 		type = 1,
-		name_2 = "感受性授業",
+		name_2 = "感知课程",
 		id = 3118,
 		group_id = 18,
-		name = "感受性授業Lv.Max",
+		name = "感知课程Lv.Max",
 		result_node = 20535,
 		cost = {
 			{

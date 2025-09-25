@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_35 = {
 	[91084] = {
 		cannon = 0,
-		name = "量産型ヴォルガ級",
+		name = "伏尔加级量产型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -169,7 +169,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91085] = {
 		cannon = 0,
-		name = "偽相体-コウサギ",
+		name = "ÄâĚŹÎď-ĐĄÍĂ×Ó",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -299,7 +299,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91086] = {
 		cannon = 0,
-		name = "偽相体-暗所匍匐種",
+		name = "ÄâĚŹÎď-Ňő°ľĹŔĐĐ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -429,7 +429,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91087] = {
 		cannon = 0,
-		name = "偽相体-三分探索木",
+		name = "ÄâĚŹÎď-Čý˛ćĘ÷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -559,7 +559,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91088] = {
 		cannon = 0,
-		name = "偽相体-ハウリングロア",
+		name = "ÄâĚŹÎď-ËťĂůźâĐĽ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -689,7 +689,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91089] = {
 		cannon = 0,
-		name = "偽相体-巨大水生怪異",
+		name = "ÄâĚŹÎď-´óşŁšÖ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -826,7 +826,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91090] = {
 		cannon = 0,
-		name = "偽相体-ホッチキス",
+		name = "ÄâĚŹÎď-śŠĘéś¤",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -949,7 +949,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91091] = {
 		cannon = 0,
-		name = "偽相体-根部付き魚雷",
+		name = "ÄâĚŹÎď-ÓĐ¸ůÓăŔ×",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1086,7 +1086,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91092] = {
 		cannon = 0,
-		name = "偽相体-怪異ハウリングロア",
+		name = "ÄâĚŹĘŢ-ËťĂůźâĐĽ´óşŁšÖ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1209,7 +1209,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91093] = {
 		cannon = 0,
-		name = "グロリアス(META)",
+		name = "光荣·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1365,7 +1365,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91094] = {
 		cannon = 0,
-		name = "ライオン",
+		name = "狮",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1521,7 +1521,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91095] = {
 		cannon = 0,
-		name = "光翼の獅子",
+		name = "辉翼狮",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1642,7 +1642,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91096] = {
 		cannon = 0,
-		name = "ロイヤル・オーク",
+		name = "皇家橡树",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1799,7 +1799,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91097] = {
 		cannon = 0,
-		name = "クイーン・エリザベス",
+		name = "伊丽莎白女王",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1971,7 +1971,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91098] = {
 		cannon = 0,
-		name = "トラファルガー",
+		name = "特拉法尔加",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2127,7 +2127,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91099] = {
 		cannon = 0,
-		name = "江風(META)",
+		name = "江风·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2274,7 +2274,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91100] = {
 		cannon = 0,
-		name = "「血の影」",
+		name = "血影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2393,7 +2393,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91101] = {
 		cannon = 0,
-		name = "ブラック★ロックシューター",
+		name = "BLACK★ROCK SHOOTER",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2549,7 +2549,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91102] = {
 		cannon = 0,
-		name = "デッドマスター",
+		name = "DEAD MASTER",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2705,7 +2705,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91103] = {
 		cannon = 0,
-		name = "都市ギャングヘリ",
+		name = "都市帮派型直升机",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2860,7 +2860,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91104] = {
 		cannon = 0,
-		name = "都市ギャング巡洋艦",
+		name = "都市帮派型巡洋舰",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3022,7 +3022,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91105] = {
 		cannon = 0,
-		name = "都市ギャング戦艦",
+		name = "都市帮派型障碍舰",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3190,7 +3190,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91106] = {
 		cannon = 0,
-		name = "都市ギャング火力艦",
+		name = "都市帮派型火力舰",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3358,7 +3358,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91107] = {
 		cannon = 0,
-		name = "都市ギャング飛行母艦",
+		name = "都市帮派型飞行器母舰",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3527,7 +3527,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91108] = {
 		cannon = 0,
-		name = "都市ギャング自爆艇",
+		name = "都市帮派型自爆船",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3675,7 +3675,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91109] = {
 		cannon = 0,
-		name = "都市ギャング潜航艦",
+		name = "都市帮派型潜航器",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3826,7 +3826,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91110] = {
 		cannon = 0,
-		name = "U-552警部補",
+		name = "优可可妮警部补",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3977,7 +3977,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91111] = {
 		cannon = 0,
-		name = "U-37巡査部長",
+		name = "优米娜巡查部长",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4128,7 +4128,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91112] = {
 		cannon = 0,
-		name = "Z13警部補",
+		name = "埃丝特警部补",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4277,7 +4277,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91113] = {
 		cannon = 0,
-		name = "ネプチューン警部",
+		name = "海王星警部",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4426,7 +4426,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91114] = {
 		cannon = 0,
-		name = "吾妻先生",
+		name = "猉老师",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

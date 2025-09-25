@@ -3,6 +3,10 @@ return {
 	id = "ISLAND1001017",
 	map = {
 		{
+			1014,
+			10070027
+		},
+		{
 			3120100,
 			10070005
 		}
@@ -19,8 +23,18 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}……你还想躲哪去啊~",
+			say = "――捕まえたぞ明石。まだ逃げるつもりか？",
+			animation = "nod",
 			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "うにゃー？！指揮官にゃ……逃げるなんて人聞き悪いにゃ",
+			characterId = 3120100,
+			animation = "scare",
 			face2Face = {
 				{
 					0,
@@ -33,8 +47,7 @@ return {
 			}
 		},
 		{
-			say = "呜喵~？！是指挥官啊……哪有什么躲不躲的喵~",
-			animation = "scare",
+			say = "指揮官が島に視察に来てくれて、明石は嬉しいにゃ",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,16 +55,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官能来岛屿上视察，{namecode:98:明石}很高兴喵~",
-			animation = "embarrass",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "还在狡辩……所以说，这个奇异点是怎么回事？",
+			say = "――まだ白を切るのか……この特異点は一体どうなってるんだ？",
+			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -59,58 +64,7 @@ return {
 			}
 		},
 		{
-			say = "其实我们也是刚来时在一次爆破矿山的作业中被意外卷进来的喵。",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "因为这里环境十分稳定，和外面的地形也相差不大，所以大家都以为还在之前的那个无人岛上喵~",
-			animation = "talk",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "所以你就这样瞒着大家一起在这里面开发了半年？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我没有瞒着喵~是大家都没问过喵~",
-			animation = "embarrass",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "而且作为奇异点，这里的订单不但可以直接发往港区，还可以利用奇异点发到很远很远的地方喵！",
-			animation = "elation",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我也是发现了这个秘密才准备自己先在这里大赚特赚一笔的喵~",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "没想到这么快就被指挥官发现了喵~",
+			say = "明石たちも、最初は鉱山の爆破作業の時に偶然巻き込まれたにゃ",
 			animation = "sad",
 			characterId = 3120100,
 			typewriter = {
@@ -119,8 +73,15 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "（果然如此，能让{namecode:98:明石}如此上心的事就只能是赚钱了。）",
+			say = "ここは環境が安定していて、外の地形ともあまり差がないから、みんなはまだ無人島にいると思い込んでるにゃ",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――つまりこの半年、みんなを騙してここを開発させてきたのか？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +89,41 @@ return {
 			}
 		},
 		{
-			say = "那这个奇异点有安全上的隐患吗？",
+			say = "騙してないにゃ。みんなに聞かれなかっただけにゃ",
+			animation = "elation",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "それにここは特異点だから、母港に直接依頼だって送れるし、遠くにも送れるにゃ！",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "その特性を利用して一儲けしようと思ってたにゃ",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "まさかこんなに早く指揮官にバレるなんてにゃ",
+			animation = "sad",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "（やっぱり明石をここまで滾らせるのは金儲けだったか）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +131,15 @@ return {
 			}
 		},
 		{
-			say = "完全没有喵~我已经把所有的出入口都控制下来了喵，没有我的允许，没有人能够进来喵！",
+			say = "――で、この特異点は安全面でも問題はないのか？",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "全く問題ないにゃ。出入り口は全部ちゃんと制御できてるから、明石の許可なしでは誰も入れないにゃ！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -145,7 +148,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？那我是怎么进来的。",
+			say = "――ん？じゃあ自分はどうやって入って来れたんだ",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +156,7 @@ return {
 			}
 		},
 		{
-			say = "唔……这个嘛……是因为我的权限无法管控指挥官喵~",
+			say = "うーん……それは……明石の権限では指揮官をどうにもできないにゃ〜",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -162,7 +165,8 @@ return {
 			}
 		},
 		{
-			say = "明白了……咳咳，{namecode:98:明石}啊。",
+			say = "――捕まえたぞ明石。まだ逃げるつもりか？",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +174,7 @@ return {
 			}
 		},
 		{
-			say = "你知道我向来讲究公平……奇异点岛屿是你主持开发出来的就理应由你来掌控。",
+			say = "――どんな時もフェアに行かないと……特異点の離島は明石が開発を進めてきたから、明石が管理していたのには理解できる",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +182,7 @@ return {
 			}
 		},
 		{
-			say = "但……这毕竟是个奇异点，无论它现在表现得多么安稳……终归是个不稳定因素。",
+			say = "――だが……ここはあくまで特異点、今どれだけ安定してるように見えても……楽観視はできない",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +190,7 @@ return {
 			}
 		},
 		{
-			say = "所以喵？",
+			say = "というと？",
 			characterId = 3120100,
 			animation = "doubt",
 			typewriter = {
@@ -195,18 +199,17 @@ return {
 			},
 			options = {
 				{
-					content = "这里还是由我来接管吧。",
+					content = "やはり自分が管理しよう",
 					flag = 1
 				},
 				{
-					content = "奇异点水很深，你把握不住。",
+					content = "特異点を任せるには責任が重すぎる",
 					flag = 2
 				}
 			}
 		},
 		{
-			say = "可……这不太好吧喵~",
-			animation = "amaze",
+			say = "えぇ…それは指揮官に悪いにゃ",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +217,8 @@ return {
 			}
 		},
 		{
+			say = "――悪いとかじゃない。現に自分はこうして入ってこれたくらいだ。見落としはもっと出てくるぞ",
 			animation = "shakehead",
-			say = "没什么不好，你看我不就在你的掌控下进来了吗？漏洞不堵上就会越来越多的！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +226,8 @@ return {
 			}
 		},
 		{
-			say = "好像有道理喵~那就把这里的一切都交给指挥官吧喵！",
-			animation = "talk",
+			say = "確かににゃ。じゃあ全部指揮官に任せるにゃ！",
+			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "（欸，这就……同意了？是不是太容易了点？）",
+			say = "（あれ？……すんなり譲った？あっさりすぎる……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +243,8 @@ return {
 			}
 		},
 		{
-			say = "交接权限的机器就在这里，指挥官直接确认就好了喵~",
-			animation = "talk",
+			say = "権限移譲の装置はこれにゃ。あとは指揮官が確認するだけにゃ〜",
+			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -249,7 +252,7 @@ return {
 			}
 		},
 		{
-			say = "（怎么突然这么积极……算了，还是获取完各项控制权再说。）",
+			say = "（やけに積極的だな……とりあえずは権限を手に入れてから考えよう）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

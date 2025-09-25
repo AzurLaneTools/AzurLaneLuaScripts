@@ -61,7 +61,6 @@ slot0.Play = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	LeanTween.cancel(slot0._go)
 end
 

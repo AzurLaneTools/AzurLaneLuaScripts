@@ -394,7 +394,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[39904] = {
 		ship_group = 39904,
-		name = "AzumaB65",
+		name = "",
 		background = "",
 		sculpture = "wuqi",
 		nationality = 0,
@@ -3834,7 +3834,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70508] = {
 		ship_group = 70508,
-		name = "Sovetsky Soyuz",
+		name = "Poltava",
 		background = "",
 		sculpture = "boertawa",
 		nationality = 0,
@@ -4146,7 +4146,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[101] = {
 		ship_group = 101,
-		name = "ユニオンチャンネル",
+		name = "白鹰阵营专用频道",
 		background = "101",
 		sculpture = "101",
 		nationality = 1,
@@ -4154,7 +4154,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[102] = {
 		ship_group = 102,
-		name = "北方連合チャンネル",
+		name = "北方联合阵营专用频道",
 		background = "102",
 		sculpture = "102",
 		nationality = 7,
@@ -4162,7 +4162,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[103] = {
 		ship_group = 103,
-		name = "東煌チャンネル",
+		name = "东煌阵营专用频道",
 		background = "103",
 		sculpture = "103",
 		nationality = 5,
@@ -4170,7 +4170,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[104] = {
 		ship_group = 104,
-		name = "サディアチャンネル",
+		name = "撒丁阵营专用频道",
 		background = "104",
 		sculpture = "104",
 		nationality = 6,
@@ -4178,7 +4178,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[105] = {
 		ship_group = 105,
-		name = "鉄血チャンネル",
+		name = "铁血阵营专用频道",
 		background = "105",
 		sculpture = "105",
 		nationality = 4,
@@ -4186,7 +4186,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[106] = {
 		ship_group = 106,
-		name = "アイリスチャンネル",
+		name = "鸢尾阵营专用频道",
 		background = "106",
 		sculpture = "106",
 		nationality = 8,
@@ -4194,7 +4194,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[107] = {
 		ship_group = 107,
-		name = "重桜チャンネル",
+		name = "重樱阵营专用频道",
 		background = "107",
 		sculpture = "107",
 		nationality = 3,
@@ -4202,7 +4202,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[108] = {
 		ship_group = 108,
-		name = "ロイヤルチャンネル",
+		name = "皇家阵营专用频道",
 		background = "108",
 		sculpture = "108",
 		nationality = 2,
@@ -4210,7 +4210,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[109] = {
 		ship_group = 109,
-		name = "テンペスタチャンネル",
+		name = "飓风阵营专用频道",
 		background = "109",
 		sculpture = "109",
 		nationality = 10,
@@ -4218,7 +4218,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[200] = {
 		ship_group = 200,
-		name = "公共チャンネル",
+		name = "公共频道",
 		background = "200",
 		sculpture = "200",
 		nationality = 12,

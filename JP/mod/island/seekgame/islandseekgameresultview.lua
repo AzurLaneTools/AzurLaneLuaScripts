@@ -1,9 +1,9 @@
-slot0 = class("IslandSeekGameResultView", import("Mod.Island.Core.View.IslandBaseSubView"))
+slot0 = class("IslandSeekGameResultView", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 slot0.Ctor = function(slot0, slot1, slot2)
-	uv0.super.Ctor(slot0, slot1)
-
 	slot0.uiName = slot2
+
+	uv0.super.Ctor(slot0, slot1)
 end
 
 slot0.GetUIName = function(slot0)
@@ -11,8 +11,6 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.FirstFlush = function(slot0)
-	slot0:Hide()
-
 	slot1 = slot0._tf
 	slot0.animation = slot1:GetComponent(typeof(Animation))
 	slot1 = slot0._tf
@@ -44,6 +42,8 @@ slot0.FirstFlush = function(slot0)
 end
 
 slot0.Flush = function(slot0)
+	slot0.animation:Play("anim_IslandSeekGameUI_in")
+
 	slot0.clickableTime = pg.island_set.seek_game_reset_cd.key_value_int + pg.TimeMgr.GetInstance():GetServerTime()
 end
 

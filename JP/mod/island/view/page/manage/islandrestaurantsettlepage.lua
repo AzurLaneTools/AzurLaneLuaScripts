@@ -114,9 +114,8 @@ slot0.OnShow = function(slot0, slot1, slot2)
 
 	slot4 = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(slot0.restId)
 	slot5 = slot4:GetSales()
-	slot6 = slot4:GetCanUpgradeExp()
 
-	setSlider(slot0.expSliderTF, 0, 1, slot5 / slot6)
+	setSlider(slot0.expSliderTF, 0, 1, slot4:GetCanUpgradeExp() == 0 and 0 or slot5 / slot6)
 	setText(slot0.expProgressTF, slot5 .. "/" .. slot6)
 	triggerToggle(slot0.switchToggle, false)
 end
@@ -138,7 +137,7 @@ slot0.GetAttrsFactorsRatio = function(slot0, slot1)
 	slot2 = pg.island_item_data_template[slot1].sub_attribute
 	slot3 = slot2[2] / 100
 
-	return (IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, IslandShipAttr.MANAGE_KEY) + IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, slot2[1]) * slot3) / (slot0.shipCnt * (slot0.maxAttrEffect + slot0.maxAttrEffect * slot3))
+	return slot0.shipCnt * (slot0.maxAttrEffect + slot0.maxAttrEffect * slot3) == 0 and 0 or (IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, IslandShipAttr.MANAGE_KEY) + IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, slot2[1]) * slot3) / slot7
 end
 
 return slot0

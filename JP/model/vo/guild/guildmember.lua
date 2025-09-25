@@ -125,7 +125,7 @@ slot0.GetShip = function(slot0)
 end
 
 slot0.GetJoinZeroTime = function(slot0)
-	return pg.TimeMgr:GetInstance():GetNextTimeByTimeStamp(slot0.joinTime)
+	return pg.TimeMgr.GetInstance():GetNextTimeByTimeStamp(slot0.joinTime)
 end
 
 return slot0

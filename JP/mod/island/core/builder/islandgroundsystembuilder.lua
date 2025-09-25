@@ -7,11 +7,15 @@ slot0.Load = function(slot0, slot1, slot2)
 end
 
 slot0.CreateNode = function(slot0, slot1, slot2)
-	slot3 = ResourceMgr.Inst
+	slot3 = IslandAssetLoadDispatcher.Instance
 
-	slot3:getAssetAsync(slot1:GetAssetPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0(GameObject.Instantiate(slot0))
-	end), true, true)
+	slot0:AddLoadingID(slot3:Enqueue(slot1:GetAssetPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot1 = FrameAsyncInstantiateManager.Instance
+
+		table.insert(uv1.insIdList, slot1:EnqueueInstantiate(slot0, function (slot0)
+			uv0(slot0)
+		end))
+	end), true, true))
 end
 
 return slot0

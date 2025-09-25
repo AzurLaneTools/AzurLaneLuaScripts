@@ -5,10 +5,10 @@ pg.guardian_template = {
 		guardian_painting = "lisailiu",
 		buff = 200852,
 		type = 1,
-		guardian_gain_desc = "力の像に$1/10回祈りを捧げる",
-		guardian_desc = "戦闘中、一定時間経過毎に支援弾幕を展開する",
+		guardian_gain_desc = "向力量神像祈求$1/10次",
+		guardian_desc = "战斗中，每隔一段时间释放一次支援弹幕",
 		id = 1,
-		guardian_name = "光と正義の神",
+		guardian_name = "光明与正义之神",
 		guardian_gain = {
 			17,
 			10
@@ -26,10 +26,10 @@ pg.guardian_template = {
 		guardian_painting = "chicheng",
 		buff = 200857,
 		type = 1,
-		guardian_gain_desc = "力の像に$1/30回祈りを捧げる",
-		guardian_desc = "戦闘開始時、すべての敵は特殊炎上効果が付与される",
+		guardian_gain_desc = "向力量神像祈求$1/30次",
+		guardian_desc = "战斗开始后，所有敌人会持续受到特殊灼烧效果",
 		id = 2,
-		guardian_name = "炎と浄化の神",
+		guardian_name = "火焰与净化之神",
 		guardian_gain = {
 			17,
 			30
@@ -47,10 +47,10 @@ pg.guardian_template = {
 		guardian_painting = "kelaimengsuo",
 		buff = 200863,
 		type = 1,
-		guardian_gain_desc = "力の像に$1/70回祈りを捧げる",
-		guardian_desc = "味方艦船が与えるダメージが15％アップするが、5秒毎に上限の0.5%分の耐久を失う",
+		guardian_gain_desc = "向力量神像祈求$1/70次",
+		guardian_desc = "己方角色伤害提升15%，但每5秒会流失0.5%耐久",
 		id = 3,
-		guardian_name = "闇と陰謀の神",
+		guardian_name = "黑暗与诡计之神",
 		guardian_gain = {
 			17,
 			70
@@ -68,10 +68,10 @@ pg.guardian_template = {
 		guardian_painting = "bisimaiZ",
 		buff = 200855,
 		type = 1,
-		guardian_gain_desc = "力の像に$1/120回祈りを捧げる",
-		guardian_desc = "鋼鉄の巨竜を召喚し戦闘に参加させる",
+		guardian_gain_desc = "向力量神像祈求$1/120次",
+		guardian_desc = "可召唤一头钢铁巨龙加入战斗",
 		id = 4,
-		guardian_name = "鋼鉄と巨竜の神",
+		guardian_name = "钢铁与巨龙之神",
 		guardian_gain = {
 			17,
 			120
@@ -89,10 +89,10 @@ pg.guardian_template = {
 		guardian_painting = "mingshi",
 		buff = 200871,
 		type = 1,
-		guardian_gain_desc = "豊穣の像に$1/10回祈りを捧げる",
-		guardian_desc = "戦闘中、味方艦船の速力が10％アップし、運が66アップ",
+		guardian_gain_desc = "向丰饶神像祈求$1/10次",
+		guardian_desc = "战斗中，己方角色航速增加10%，幸运增加66点",
 		id = 5,
-		guardian_name = "幸運と富の神",
+		guardian_name = "幸运与财富之神",
 		guardian_gain = {
 			18,
 			10
@@ -110,10 +110,10 @@ pg.guardian_template = {
 		guardian_painting = "yilishabai",
 		buff = 200872,
 		type = 1,
-		guardian_gain_desc = "豊穣の像に$1/30回祈りを捧げる",
-		guardian_desc = "戦闘中、10秒毎に味方全体の耐久がそれぞれの耐久上限の1%回復する",
+		guardian_gain_desc = "向丰饶神像祈求$1/30次",
+		guardian_desc = "战斗中，每过10秒回复己方全体角色1%耐久",
 		id = 6,
-		guardian_name = "お茶会とお菓子の神",
+		guardian_name = "茶会与点心之神",
 		guardian_gain = {
 			18,
 			30
@@ -131,10 +131,10 @@ pg.guardian_template = {
 		guardian_painting = "yixian",
 		buff = 200868,
 		type = 1,
-		guardian_gain_desc = "豊穣の像に$1/70回祈りを捧げる",
-		guardian_desc = "味方旗艦が受けるダメージが40％ダウンするが、ほかの味方のダメージの20％分を肩代わりする",
+		guardian_gain_desc = "向丰饶神像祈求$1/70次",
+		guardian_desc = "旗舰获得40%减伤，但会分担其余己方角色受到伤害的20%",
 		id = 7,
-		guardian_name = "平安と守護の神",
+		guardian_name = "平安与守护之神",
 		guardian_gain = {
 			18,
 			70
@@ -152,10 +152,10 @@ pg.guardian_template = {
 		guardian_painting = "salatuojia",
 		buff = 200862,
 		type = 1,
-		guardian_gain_desc = "豊穣の像に$1/120回祈りを捧げる",
-		guardian_desc = "味方艦船の装甲タイプを重装甲に変更する",
+		guardian_gain_desc = "向丰饶神像祈求$1/120次",
+		guardian_desc = "可让己方全体角色的最终护甲类型变为重甲",
 		id = 8,
-		guardian_name = "始まりと終わりの神",
+		guardian_name = "起始与终焉之神",
 		guardian_gain = {
 			18,
 			120
@@ -173,10 +173,10 @@ pg.guardian_template = {
 		guardian_painting = "weineituo",
 		buff = 200873,
 		type = 1,
-		guardian_gain_desc = "知恵の像に$1/10回祈りを捧げる",
-		guardian_desc = "20秒毎に味方艦船一人を対象に、8秒間与えるダメージが30%アップさせる",
+		guardian_gain_desc = "向智慧神像祈求$1/10次",
+		guardian_desc = "每过20秒会随机使一名己方角色在8秒内伤害提升30%",
 		id = 9,
-		guardian_name = "復興と風呂の神",
+		guardian_name = "复兴与浴室之神",
 		guardian_gain = {
 			19,
 			10
@@ -194,10 +194,10 @@ pg.guardian_template = {
 		guardian_painting = "huangjiacaifu",
 		buff = 200860,
 		type = 1,
-		guardian_gain_desc = "知恵の像に$1/30回祈りを捧げる",
-		guardian_desc = "戦闘開始60秒間味方の与えるダメージが15%アップ、60秒後味方の与えるダメージが10％ダウン",
+		guardian_gain_desc = "向智慧神像祈求$1/30次",
+		guardian_desc = "战斗开始时，己方角色伤害提升15%，60秒后效果变更为己方角色伤害降低10%",
 		id = 10,
-		guardian_name = "開拓と冒険の神",
+		guardian_name = "开拓与冒险之神",
 		guardian_gain = {
 			19,
 			30
@@ -215,10 +215,10 @@ pg.guardian_template = {
 		guardian_painting = "tbniang",
 		buff = 200864,
 		type = 1,
-		guardian_gain_desc = "知恵の像に$1/70回祈りを捧げる",
-		guardian_desc = "オート戦闘時の味方の移動アルゴリズムが変化する",
+		guardian_gain_desc = "向智慧神像祈求$1/70次",
+		guardian_desc = "开启自律战斗时，改变自律移动轨迹",
 		id = 11,
-		guardian_name = "秩序と規則の神",
+		guardian_name = "秩序与规则之神",
 		guardian_gain = {
 			19,
 			70
@@ -236,10 +236,10 @@ pg.guardian_template = {
 		guardian_painting = "suweiaitongmengnew",
 		buff = 200865,
 		type = 1,
-		guardian_gain_desc = "知恵の像に$1/120回祈りを捧げる",
-		guardian_desc = "味方艦隊の艦船の陣営数が多いほど、味方艦船のステータスがアップする",
+		guardian_gain_desc = "向智慧神像祈求$1/120次",
+		guardian_desc = "己方角色全属性将随编队中的阵营数增加而提升",
 		id = 12,
-		guardian_name = "団結と強靭の神",
+		guardian_name = "坚韧与团结之神",
 		guardian_gain = {
 			19,
 			120
@@ -258,9 +258,9 @@ pg.guardian_template = {
 		buff = 200877,
 		type = 2,
 		guardian_gain_desc = "???",
-		guardian_desc = "敵ボス出現時支援弾幕を展開し、そのボスの耐久上限30％分のダメージを与える",
+		guardian_desc = "BOSS出现时释放支援弹幕，令其损失30%最大耐久",
 		id = 13,
-		guardian_name = "戦争の神",
+		guardian_name = "战争之神",
 		guardian_gain = {
 			1,
 			2,
@@ -281,9 +281,9 @@ pg.guardian_template = {
 		buff = 200884,
 		type = 2,
 		guardian_gain_desc = "???",
-		guardian_desc = "味方が主力艦隊砲撃・航空攻撃・魚雷攻撃を行う毎に、それぞれ【戦闘終了時まで、与えるダメージが2%/2%/1%アップする】効果を得る",
+		guardian_desc = "每次跨射/空袭/雷击都能为己方全体提供2%/2%/1%增伤",
 		id = 14,
-		guardian_name = "知恵の神",
+		guardian_name = "智慧之神",
 		guardian_gain = {
 			5,
 			6,
@@ -304,9 +304,9 @@ pg.guardian_template = {
 		buff = 200887,
 		type = 2,
 		guardian_gain_desc = "???",
-		guardian_desc = "戦闘開始時、忠誠で勇敢な仲間を召喚し戦闘に参加させる",
+		guardian_desc = "战斗开始时，召唤一名忠心勇猛的伙伴协助战斗",
 		id = 15,
-		guardian_name = "愉悦の神",
+		guardian_name = "欢愉之神",
 		guardian_gain = {
 			9,
 			10,

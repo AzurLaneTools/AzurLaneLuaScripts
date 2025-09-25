@@ -66,10 +66,15 @@ slot0.Show = function(slot0, slot1, slot2)
 	setActive(slot0.dropPanelTr, slot4)
 
 	slot0.targetTr = slot4 and slot0.dropPanelTr or slot0.onlnyLevelTr
+	slot5 = slot0.targetTr:GetComponent(typeof(Animation))
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	if slot0.targetTr == slot0.onlnyLevelTr then
+		slot5:Play("anim_Island_commonget_onlylv_in")
+	else
+		slot5:Play("anim_Island_commonget_single_in")
+	end
+
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
@@ -77,6 +82,16 @@ slot0.Hide = function(slot0)
 
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+end
+
+slot0.OnShow = function(slot0)
+	slot0.canvasGroup.interactable = true
+	slot0.canvasGroup.blocksRaycasts = true
+end
+
+slot0.OnHide = function(slot0)
+	slot0.canvasGroup.interactable = false
+	slot0.canvasGroup.blocksRaycasts = false
 end
 
 slot0.CommonSettings = function(slot0, slot1, slot2)

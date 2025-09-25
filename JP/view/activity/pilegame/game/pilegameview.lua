@@ -72,7 +72,7 @@ slot0.ShowExitMsg = function(slot0)
 	setActive(slot0.exitPanel, true)
 	onButton(slot0, slot0.exitPanelCancelBtn, function ()
 		setActive(uv0.exitPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.exitPanel, uv0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.exitPanel, uv0.bg)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.exitPanelConfirmBtn, function ()
 		uv0()
@@ -293,7 +293,7 @@ slot0.OnGameEnd = function(slot0, slot1, slot2)
 		setActive(uv0.resultPanel, true)
 		onButton(uv0, uv0.endGameBtn, function ()
 			setActive(uv0.resultPanel, false)
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.resultPanel, uv0.bg)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.resultPanel, uv0.bg)
 			uv0.controller:ExitGame()
 		end)
 
@@ -382,13 +382,13 @@ end
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.resultPanel) then
 		setActive(slot0.resultPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.resultPanel, slot0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.resultPanel, slot0.bg)
 		slot0.controller:ExitGame()
 
 		return true
 	elseif isActive(slot0.exitPanel) then
 		setActive(slot0.exitPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.exitPanel, slot0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.exitPanel, slot0.bg)
 
 		return true
 	elseif isActive(slot0.bg) then

@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊——突然出现的指挥官！真的假的？",
-			subName = "林场管理员",
-			characterId = 100700,
-			animation = "amaze",
+			say = "――やあ、オブライン",
+			characterId = 0,
+			animation = "hi",
 			face2Face = {
 				{
 					0,
@@ -35,8 +34,17 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "当然是真的！",
+			animation = "amaze",
+			say = "あ……し、指揮官さん？ほんとに指揮官さんですか？",
+			characterId = 100700,
+			subName = "森の管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――紛れもない本物さ",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -44,27 +52,26 @@ return {
 			}
 		},
 		{
-			animation = "hi",
-			say = "嘿嘿~好久不见，我还以为你都把我们忘了呢~",
+			animation = "shy",
+			say = "よかった……！本当に久しぶりです！み、みんなすごく指揮官さんに会いたがってます！もう、忘れられているんじゃないかと……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "elation",
-			say = "这半年来，我们可是一直都在很努力地建设这里哦~没有偷懒的。",
+			say = "この半年間、みんなサボることなく、一生懸命ここの開発に励んていました……",
+			subName = "森の管理人",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "半年？",
+			say = "――半年…？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -72,26 +79,26 @@ return {
 			}
 		},
 		{
+			animation = "embarrass",
+			say = "えっと……あまり変わってないように見えるかもだけど……港を丸々作ったから、時間があったらぜひ行ってみてください！",
+			characterId = 100700,
+			subName = "森の管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "（一週間しか経ってないのに……時間の流れが異なるせいか？……それなら飛行装置が故障するのも無理はない）",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――わかった……ところでオブラインたちはずっとここにいて、何か異常はなかったか？",
 			animation = "talk",
-			say = "是啊，虽然这里看着是有些不明显，不过港口那边可是被我们建得超漂亮的，指挥官一定要去看看哦~",
-			characterId = 100700,
-			subName = "林场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（是时间流速不同的原因么……这么大的差值也难怪飞行器会故障了。）",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "嗯……你们在这里待了这么久，就没有发现什么异常吗？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -100,36 +107,44 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "异常么……之前岛屿上一直都很正常的。",
+			say = "異常、ですか？この半年特になかったと思いますが…",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "倒是指挥官你来之前，附近刚刚发生了大爆炸哦，好像是有一艘飞行器坠毁在这附近了！",
+			say = "強いて言えば指揮官さんが来る直前に、近くで大きな爆発があったくらいです",
+			subName = "森の管理人",
 			characterId = 100700,
-			subName = "林场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "何か……飛行装置が近くに墜落した、と聞いています",
+			characterId = 100700,
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "实不相瞒……",
+					content = "実は……",
 					flag = 1
 				},
 				{
-					content = "有么？我怎么没听到。",
+					content = "そ、そうなのか？初耳だけど",
 					flag = 2
 				}
 			}
 		},
 		{
-			say = "其实那是我来时乘坐的飞行器，出了点小意外。",
+			say = "――あれは自分が使っていた飛行装置なんだ。ちょっとしたトラブルがあってな",
 			optionFlag = 1,
 			characterId = 0,
 			typewriter = {
@@ -138,21 +153,20 @@ return {
 			}
 		},
 		{
-			say = "欸？原来是指挥官的飞行器啊，爆炸时散落的零件把到港口交通线都给砸坏了呢。",
+			say = "なるほど…指揮官さんの飛行装置だったんですね……実は爆発で飛び散った破片で港との連絡バスのバス停が壊れてしまって……",
 			characterId = 100700,
 			optionFlag = 1,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "talk",
-			say = "肯定有啦！爆炸散落的零件把到港口交通线都破坏了。",
+			say = "なるほど…指揮官さんの飛行装置だったんですね……実は爆発で飛び散った破片で港との連絡バスのバス停が壊れてしまって……",
 			characterId = 100700,
 			optionFlag = 2,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,16 +174,16 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "因为是{namecode:98:明石}订单期限的最后一天，现在原材料运送受阻，乔安正在矿场那边发愁呢~",
+			say = "しかも今日は明石からの依頼の締切日で……原材料の輸送が滞るとなると……はあ……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "{namecode:98:明石}的订单么……你知道她在哪吗？",
+			say = "――明石からの依頼……彼女がどこにいるか知ってる？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -178,25 +192,24 @@ return {
 		},
 		{
 			animation = "think",
-			say = "她一般都会待在港口那边的，指挥官想去找她也得等交通线修复后哦~",
+			say = "はい。たいてい港の方にいるんですが……今はバス停が壊れているから、しばらく待つしかないですね",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我过去看看。",
+					content = "バス停か……じゃあこっちも状況を見に行ってみよう",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "nod",
-			say = "好哦~指挥官可以去矿场找乔安问问~车站的修复工作是她在负责的。",
+			say = "わ、わかりました……では積岩鉱山でジョンに話を聞いてみてください。バス停の修復は彼女が担当していますので",
+			subName = "森の管理人",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

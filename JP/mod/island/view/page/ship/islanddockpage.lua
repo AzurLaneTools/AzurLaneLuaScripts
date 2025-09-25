@@ -21,10 +21,6 @@ slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("frame/filter_panel/index/content/Text")
 	slot0.orderTxt = slot1:GetComponent(typeof(Text))
-	slot1 = slot0._tf
-	slot0.animationPlayer = slot1:GetComponent(typeof(Animation))
-	slot1 = slot0._tf
-	slot0.dftAniEvent = slot1:GetComponent(typeof(DftAniEvent))
 
 	slot0.shipRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -49,11 +45,7 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0.dftAniEvent:SetEndEvent(function ()
-			uv0.dftAniEvent:SetEndEvent(nil)
-			uv0:Hide()
-		end)
-		uv0.animationPlayer:Play("IslandDockUI_out")
+		uv0:Hide()
 	end, SFX_PANEL)
 	onInputChanged(slot0, slot0.inputTr, function ()
 		uv0.searchKey = getInputText(uv0.inputTr)
@@ -211,7 +203,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.frameTr, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.frameTr, slot0._tf)
 	slot0:emit(IslandShipMainPage.CLOSE_DOCK)
 end
 

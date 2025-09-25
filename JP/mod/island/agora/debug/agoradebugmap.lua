@@ -1,4 +1,4 @@
-slot0 = class("AgoraDebugMap", import("Mod.Island.Core.View.IslandBaseSubView"))
+slot0 = class("AgoraDebugMap", import("Mod.Island.Core.View.IslandBaseOpView"))
 slot1 = Color.New(1, 0, 0, 1)
 slot2 = Color.New(0, 1, 0, 1)
 

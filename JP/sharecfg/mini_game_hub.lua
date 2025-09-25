@@ -317,7 +317,7 @@ pg.mini_game_hub = {
 		}
 	},
 	{
-		reward = 96160,
+		reward = 0,
 		reward_need = 7,
 		reborn_times = 1,
 		reward_target = 0,

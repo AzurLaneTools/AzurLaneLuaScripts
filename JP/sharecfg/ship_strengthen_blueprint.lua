@@ -2,7 +2,7 @@ pg = pg or {}
 pg.ship_strengthen_blueprint = {
 	[101] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -106,7 +106,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+199|対空+17|魚雷装填数+1|開始時魚雷+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+199|防空+17|鱼雷底座+1|鱼雷预装填+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		need_lv = 1,
 		effect_equipment_proficiency = "",
@@ -252,7 +252,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[110] = {
 		effect_breakout = 299012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -278,9 +278,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[111] = {
@@ -385,7 +385,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+398|対空+34|主砲補正＋5%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+398|防空+34|主炮效率提高5%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -526,7 +526,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[120] = {
 		effect_breakout = 299013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -552,8 +552,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[121] = {
@@ -658,7 +658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+596|対空+51|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+596|防空+51|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -798,7 +798,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[130] = {
 		effect_breakout = 299014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -820,14 +820,14 @@ pg.ship_strengthen_blueprint = {
 			225
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高15%"
 		}
 	},
 	[131] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -857,7 +857,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[132] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -887,7 +887,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[133] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -917,7 +917,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[134] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -947,7 +947,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[135] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「MKV徹甲弾」が「MKV徹甲弾 +」に変化",
+		effect_desc = "幸运+5|【MKV型穿甲弹】技能强化为【MKV型穿甲弹 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -980,7 +980,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[201] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -1084,7 +1084,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+325|対空+11|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1225,7 +1225,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[210] = {
 		effect_breakout = 299022,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1251,9 +1251,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[211] = {
@@ -1358,7 +1358,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+651|対空+21|対空炮補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+651|防空+21|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1499,7 +1499,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[220] = {
 		effect_breakout = 299023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1525,9 +1525,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[221] = {
@@ -1632,7 +1632,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+976|対空+31|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+976|防空+31|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1772,7 +1772,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[230] = {
 		effect_breakout = 299024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1794,14 +1794,14 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[231] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1831,7 +1831,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[232] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1861,7 +1861,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[233] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1891,7 +1891,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[234] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1921,7 +1921,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[235] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「力戦奮闘」が「力戦奮闘 +」に変化",
+		effect_desc = "幸运+5|【底力爆发】技能强化为【底力爆发 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -1954,7 +1954,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[301] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -2058,7 +2058,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[305] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+201|対空+9|回避+5|魚雷装填数+1|開始時魚雷+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+201|防空+9|机动+5|鱼雷底座+1|鱼雷预装填+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		need_lv = 1,
 		effect_equipment_proficiency = "",
@@ -2208,7 +2208,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[310] = {
 		effect_breakout = 399012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2234,9 +2234,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[311] = {
@@ -2341,7 +2341,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[315] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+402|対空+18|主砲補正＋10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+402|防空+18|主炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -2486,7 +2486,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[320] = {
 		effect_breakout = 399013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2512,8 +2512,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[321] = {
@@ -2618,7 +2618,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+603|対空+26|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+603|防空+26|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2759,7 +2759,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[330] = {
 		effect_breakout = 399014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2781,14 +2781,14 @@ pg.ship_strengthen_blueprint = {
 			255
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"魚雷補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"鱼雷效率提高15%"
 		}
 	},
 	[331] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2818,7 +2818,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[332] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2848,7 +2848,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[333] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2878,7 +2878,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[334] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2908,7 +2908,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[335] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「心舷合一」が「心舷合一 +」に変化",
+		effect_desc = "幸运+5|【心神合一】技能强化为【心神合一 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -2941,7 +2941,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[401] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -3045,7 +3045,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[405] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+347|対空+11|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+347|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3186,7 +3186,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[410] = {
 		effect_breakout = 399022,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3212,9 +3212,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[411] = {
@@ -3319,7 +3319,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[415] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+694|対空+21|対空炮補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+694|防空+21|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3460,7 +3460,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[420] = {
 		effect_breakout = 399023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3486,9 +3486,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[421] = {
@@ -3593,7 +3593,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1041|対空+33|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1041|防空+33|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3733,7 +3733,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[430] = {
 		effect_breakout = 399024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3755,14 +3755,14 @@ pg.ship_strengthen_blueprint = {
 			200
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[431] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3792,7 +3792,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[432] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3822,7 +3822,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[433] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3852,7 +3852,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[434] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3882,7 +3882,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[435] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「神話伝承」が「神話伝承 +」に変化",
+		effect_desc = "幸运+5|【神话之传承】技能强化为【神话之传承 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -3915,7 +3915,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[501] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -4019,7 +4019,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[505] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+254|対空+11|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+254|防空+11|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -4165,7 +4165,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[510] = {
 		effect_breakout = 499012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4191,9 +4191,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"武器補正＋2%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"全武器效率提高2%"
 		}
 	},
 	[511] = {
@@ -4298,7 +4298,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[515] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+508|対空+21|主砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+508|防空+21|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4439,7 +4439,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[520] = {
 		effect_breakout = 499013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4465,8 +4465,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"武器補正＋3%"
+			"【塞壬之敌】升级",
+			"全武器效率提高3%"
 		}
 	},
 	[521] = {
@@ -4571,7 +4571,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+761|対空+32|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+761|防空+32|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4712,7 +4712,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[530] = {
 		effect_breakout = 499014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4734,14 +4734,14 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"武器補正＋5%",
-			"特殊弾幕強化"
+			"【塞壬之敌】升级",
+			"全武器效率提高5%",
+			"专属弹幕升级"
 		}
 	},
 	[531] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4771,7 +4771,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[532] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4801,7 +4801,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[533] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4831,7 +4831,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[534] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4861,7 +4861,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[535] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「全方位装甲」が「全方位装甲 +」に変化",
+		effect_desc = "幸运+5|【全方位装甲】技能强化为【全方位装甲 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4894,7 +4894,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[601] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -4998,7 +4998,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[605] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+230|対空+11|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+230|防空+11|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -5144,7 +5144,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[610] = {
 		effect_breakout = 899012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5170,9 +5170,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[611] = {
@@ -5277,7 +5277,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[615] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+460|対空+23|主砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+460|防空+23|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5418,7 +5418,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[620] = {
 		effect_breakout = 899013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5444,8 +5444,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[621] = {
@@ -5550,7 +5550,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+690|対空+34|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+690|防空+34|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5691,7 +5691,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[630] = {
 		effect_breakout = 899014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5713,14 +5713,14 @@ pg.ship_strengthen_blueprint = {
 			260
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高15%"
 		}
 	},
 	[631] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5750,7 +5750,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[632] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5780,7 +5780,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[633] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5810,7 +5810,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[634] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5840,7 +5840,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[635] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「エンジンブースト」が「エンジンブースト +」に変化",
+		effect_desc = "幸运+5|【Engine boost】技能强化为【Engine boost +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5873,7 +5873,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[701] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -5977,7 +5977,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[705] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+225|対空+17|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+225|防空+17|主武器底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -6119,7 +6119,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[710] = {
 		effect_breakout = 199012,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6145,9 +6145,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[711] = {
@@ -6252,7 +6252,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+451|対空+34|主砲補正＋5%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+451|防空+34|主炮效率提高5%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6393,7 +6393,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[720] = {
 		effect_breakout = 199013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6419,9 +6419,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋10%",
-			"副兵装枠に主砲が装備可能"
+			"【塞壬之敌】升级",
+			"主炮效率提高10%",
+			"副武器栏位可以装备主炮"
 		}
 	},
 	[721] = {
@@ -6526,7 +6526,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+677|対空+51|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+677|防空+51|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6666,7 +6666,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[730] = {
 		effect_breakout = 199014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6688,14 +6688,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高15%"
 		}
 	},
 	[731] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6725,7 +6725,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[732] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6755,7 +6755,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[733] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6785,7 +6785,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[734] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6815,7 +6815,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[735] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「フライングはNG！」が「フライングはNG！ +」に変化",
+		effect_desc = "幸运+5|【飞行NG!】技能强化为【飞行NG! +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6848,7 +6848,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[801] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -6952,7 +6952,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[805] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+356|対空+19|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+356|防空+19|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7093,7 +7093,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[810] = {
 		effect_breakout = 199022,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7119,9 +7119,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[811] = {
@@ -7226,7 +7226,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[815] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+711|対空+39|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+711|防空+39|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7367,7 +7367,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[820] = {
 		effect_breakout = 199023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7393,9 +7393,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[821] = {
@@ -7500,7 +7500,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1068|対空+58|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1068|防空+58|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7640,7 +7640,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[830] = {
 		effect_breakout = 199024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7662,13 +7662,13 @@ pg.ship_strengthen_blueprint = {
 			225
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[831] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7698,7 +7698,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[832] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7728,7 +7728,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[833] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7758,7 +7758,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[834] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7788,7 +7788,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[835] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「アイアンサイト・キャリバー」が「アイアンサイト・キャリバー +」に変化",
+		effect_desc = "幸运+5|【Iron Sight Caliber】技能强化为【Iron Sight Caliber +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7821,7 +7821,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[901] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -7925,7 +7925,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[905] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+111|対空+9|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+111|防空+9|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -8067,7 +8067,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[910] = {
 		effect_breakout = 399032,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8093,9 +8093,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[911] = {
@@ -8200,7 +8200,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[915] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+221|対空+18|主砲補正＋10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+221|防空+18|主炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -8345,7 +8345,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[920] = {
 		effect_breakout = 399033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8371,8 +8371,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"対空砲補正＋10%"
+			"【塞壬之敌】升级",
+			"防空炮效率提高10%"
 		}
 	},
 	[921] = {
@@ -8477,7 +8477,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+333|対空+27|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+333|防空+27|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8614,7 +8614,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[930] = {
 		effect_breakout = 399034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8636,15 +8636,15 @@ pg.ship_strengthen_blueprint = {
 			305
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"武器補正+5%",
-			"特殊弾幕発動に必要な主砲攻撃回数半減"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%",
+			"触发专属弹幕所需主炮射击次数减半"
 		}
 	},
 	[931] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8674,7 +8674,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[932] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8704,7 +8704,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[933] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8734,7 +8734,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[934] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8764,7 +8764,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[935] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「北風流・魚雷ロクレン弾」が「北風流・魚雷ロクレン弾 +」に変化",
+		effect_desc = "幸运+5|【苝流·六莲雷】技能强化为【苝流·六莲雷 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8797,7 +8797,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1001] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -8901,7 +8901,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+315|対空+10|主砲補正＋5%|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+315|防空+10|主炮效率提高5%|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -9046,7 +9046,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1010] = {
 		effect_breakout = 399042,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9072,8 +9072,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%"
 		}
 	},
 	[1011] = {
@@ -9178,7 +9178,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+629|対空+21|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+629|防空+21|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9319,7 +9319,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1020] = {
 		effect_breakout = 399043,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9345,8 +9345,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲補正+10%"
+			"【塞壬之敌】升级",
+			"副炮效率提高10%"
 		}
 	},
 	[1021] = {
@@ -9451,7 +9451,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+945|対空+31|主砲補正＋5%|回避+5|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+945|防空+31|机动+5|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9595,7 +9595,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1030] = {
 		effect_breakout = 399044,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9617,13 +9617,13 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1031] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9653,7 +9653,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1032] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9683,7 +9683,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1033] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「ミズホの直感」が「ミズホの直感 +」に変化",
+		effect_desc = "幸运+5|【战场嗅觉】技能强化为【战场嗅觉 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9716,7 +9716,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1034] = {
 		effect_breakout = 0,
-		effect_desc = "運+6",
+		effect_desc = "幸运+6",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9746,7 +9746,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1035] = {
 		effect_breakout = 0,
-		effect_desc = "運+7|「特殊砲術操典」が「特殊砲術操典 +」に変化",
+		effect_desc = "幸运+7|【特殊炮击训练】技能强化为【特殊炮击训练 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9779,7 +9779,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1101] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -9883,7 +9883,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+400|対空+11|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+400|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10024,7 +10024,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1110] = {
 		effect_breakout = 499022,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10050,9 +10050,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[1111] = {
@@ -10157,7 +10157,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+797|対空+22|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+797|防空+22|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10298,7 +10298,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1120] = {
 		effect_breakout = 499023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10324,9 +10324,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[1121] = {
@@ -10431,7 +10431,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1195|対空+33|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10571,7 +10571,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1130] = {
 		effect_breakout = 499024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10593,14 +10593,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[1131] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10630,7 +10630,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1132] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10660,7 +10660,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1133] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「闇黒のRhapsodie」が「闇黒のRhapsodie +」に変化",
+		effect_desc = "幸运+5|【暗黑的狂想曲】技能强化为【暗黑的狂想曲 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10693,7 +10693,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1134] = {
 		effect_breakout = 0,
-		effect_desc = "運+6",
+		effect_desc = "幸运+6",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10723,7 +10723,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1135] = {
 		effect_breakout = 0,
-		effect_desc = "運+7|「破壊のSinfonie」が「破壊のSinfonie +」に変化",
+		effect_desc = "幸运+7|【破坏的交响曲】技能强化为【破坏的交响曲 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10756,7 +10756,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1201] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -10860,7 +10860,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+325|対空+11|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11001,7 +11001,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1210] = {
 		effect_breakout = 999012,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11027,8 +11027,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%"
 		}
 	},
 	[1211] = {
@@ -11133,7 +11133,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+651|対空+22|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+651|防空+22|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11274,7 +11274,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1220] = {
 		effect_breakout = 999013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11300,9 +11300,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[1221] = {
@@ -11407,7 +11407,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+976|対空+33|主砲補正＋5%|図鑑開放：メイン４、タッチ2、損傷大",
+		effect_desc = "耐久+976|防空+33|主炮效率提高5%|鉴赏解锁：主界面4、血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11548,7 +11548,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1230] = {
 		effect_breakout = 999014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11570,13 +11570,13 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1231] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11606,7 +11606,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1232] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11636,7 +11636,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1233] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11666,7 +11666,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1234] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11696,7 +11696,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1235] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「感情抑制モジュール」が「感情抑制モジュール +」に変化",
+		effect_desc = "幸运+5|【感知抑制模块】技能强化为【感知抑制模块 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -11729,7 +11729,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1301] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -11833,7 +11833,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1305] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+217|対空+19|回避+5|対空砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+217|防空+19|机动+5|防空炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -11979,7 +11979,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1310] = {
 		effect_breakout = 299032,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12005,9 +12005,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[1311] = {
@@ -12112,7 +12112,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1315] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+433|対空+39|主砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+433|防空+39|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12253,7 +12253,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1320] = {
 		effect_breakout = 299033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12279,8 +12279,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"対空砲補正＋10%"
+			"【塞壬之敌】升级",
+			"防空炮效率提高10%"
 		}
 	},
 	[1321] = {
@@ -12385,7 +12385,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+649|対空+58|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+649|防空+58|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12526,7 +12526,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1330] = {
 		effect_breakout = 299034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12548,14 +12548,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"武器補正+5%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%"
 		}
 	},
 	[1331] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12585,7 +12585,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1332] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12615,7 +12615,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1333] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12645,7 +12645,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1334] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12675,7 +12675,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1335] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【チェシャーがやるよ！】スキルが【チェシャーがやるよ！+】に強化 ",
+		effect_desc = "幸运+5|【柴郡PowerUp！】技能强化为【柴郡PowerUp！ +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12708,7 +12708,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1401] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -12812,7 +12812,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1405] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+237|対空+13|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+237|防空+13|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -12958,7 +12958,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1410] = {
 		effect_breakout = 299042,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -12984,9 +12984,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[1411] = {
@@ -13091,7 +13091,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1415] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+473|対空+27|開始時魚雷+1|主砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+473|防空+27|鱼雷预装填+1|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -13236,7 +13236,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1420] = {
 		effect_breakout = 299043,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13262,8 +13262,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[1421] = {
@@ -13368,7 +13368,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+710|対空+40|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+710|防空+40|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13509,7 +13509,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1430] = {
 		effect_breakout = 299044,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13531,14 +13531,14 @@ pg.ship_strengthen_blueprint = {
 			190
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1431] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13568,7 +13568,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1432] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13598,7 +13598,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1433] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|「フリントバースト」が「フリントバースト +」に変化",
+		effect_desc = "幸运+5|【断罪之炎】技能强化为【断罪之炎 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13631,7 +13631,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1434] = {
 		effect_breakout = 0,
-		effect_desc = "運+6",
+		effect_desc = "幸运+6",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13661,7 +13661,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1435] = {
 		effect_breakout = 0,
-		effect_desc = "運+7|「勇闘のプライベーティア」が「勇闘のプライベーティア +」に変化",
+		effect_desc = "幸运+7|【勇斗的Privateer】技能强化为【勇斗的Privateer +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13694,7 +13694,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1501] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -13798,7 +13798,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1505] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+226|対空+17|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+226|防空+17|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -13940,7 +13940,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1510] = {
 		effect_breakout = 499032,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -13966,9 +13966,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[1511] = {
@@ -14073,7 +14073,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1515] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+451|対空+33|主砲補正＋10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+451|防空+33|主炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -14218,7 +14218,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1520] = {
 		effect_breakout = 499033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14244,8 +14244,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[1521] = {
@@ -14350,7 +14350,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+677|対空+49|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+677|防空+49|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14487,7 +14487,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1530] = {
 		effect_breakout = 499034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14509,14 +14509,14 @@ pg.ship_strengthen_blueprint = {
 			250
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1531] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14546,7 +14546,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1532] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14576,7 +14576,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1533] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14606,7 +14606,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1534] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14636,7 +14636,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1535] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【「アオスゲヴォーゲン」】スキルが【「アオスゲヴォーゲン」+】に強化 ",
+		effect_desc = "幸运+5|【「Ausgewogen」】技能强化为【「Ausgewogen」 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14669,7 +14669,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1601] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -14773,7 +14773,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1605] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+289|対空+16|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+289|防空+16|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14914,7 +14914,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1610] = {
 		effect_breakout = 499042,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -14940,9 +14940,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"特殊副砲攻撃を追加"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"装备特殊副炮"
 		}
 	},
 	[1611] = {
@@ -15047,7 +15047,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1615] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+579|対空+31|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+579|防空+31|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15188,7 +15188,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1620] = {
 		effect_breakout = 499043,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15214,8 +15214,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1621] = {
@@ -15320,7 +15320,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+868|対空+47|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+868|防空+47|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15460,7 +15460,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1630] = {
 		effect_breakout = 499044,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15482,14 +15482,14 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[1631] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15519,7 +15519,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1632] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15549,7 +15549,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1633] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15579,7 +15579,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1634] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15609,7 +15609,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1635] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【ヘルテイトの轟雷】スキルが【ヘルテイトの轟雷+】に強化",
+		effect_desc = "幸运+5|【贯穿之轰雷】技能强化为【贯穿之轰雷 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15642,7 +15642,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1701] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -15746,7 +15746,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1705] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+285|対空+11|主砲補正＋5%|図鑑開放：メイン1、戦闘開始、任務|開始時主砲+1",
+		effect_desc = "耐久+285|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务|主炮预装填+1",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 1,
@@ -15891,7 +15891,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1710] = {
 		effect_breakout = 899022,
-		effect_desc = "限界突破★４|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -15917,8 +15917,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%"
 		}
 	},
 	[1711] = {
@@ -16023,7 +16023,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+571|対空+22|対空砲補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+571|防空+22|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16164,7 +16164,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1720] = {
 		effect_breakout = 899023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16190,9 +16190,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[1721] = {
@@ -16297,7 +16297,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+856|対空+33|主砲補正＋5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+856|防空+33|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16437,7 +16437,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1730] = {
 		effect_breakout = 899024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16459,13 +16459,13 @@ pg.ship_strengthen_blueprint = {
 			250
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[1731] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16495,7 +16495,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1732] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16525,7 +16525,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1733] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16555,7 +16555,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1734] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16585,7 +16585,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1735] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【補助機構ゼッツアプリンシパル】スキルが【補助機構ゼッツアプリンシパル+】に強化",
+		effect_desc = "幸运+5|【辅助机构「S.P.」】技能强化为【辅助机构「S.P.」 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16618,7 +16618,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1801] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -16722,7 +16722,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1805] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+268|対空+10|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+268|防空+10|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -16868,7 +16868,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1810] = {
 		effect_breakout = 199032,
-		effect_desc = "限界突破★4|開始時魚雷+1|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鱼雷预装填+1|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -16894,9 +16894,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[1811] = {
@@ -17001,7 +17001,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1815] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+537|対空+21|主砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+537|防空+21|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17142,7 +17142,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1820] = {
 		effect_breakout = 199033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17168,8 +17168,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[1821] = {
@@ -17274,7 +17274,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+805|対空+31|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+805|防空+31|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17415,7 +17415,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1830] = {
 		effect_breakout = 199034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17437,14 +17437,14 @@ pg.ship_strengthen_blueprint = {
 			225
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"武器補正＋5%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%"
 		}
 	},
 	[1831] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17474,7 +17474,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1832] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17504,7 +17504,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1833] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17534,7 +17534,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1834] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17564,7 +17564,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1835] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【Riddle a riddle】スキルが【Riddle a riddle +】に強化",
+		effect_desc = "幸运+5|【Riddle a riddle】技能强化为【Riddle a riddle +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17597,7 +17597,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1901] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -17701,7 +17701,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1905] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+346|対空+15|戦闘機補正＋5%|戦闘機数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+346|防空+15|战斗机效率提高5%|所有战斗机+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -17846,7 +17846,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1910] = {
 		effect_breakout = 399052,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -17872,9 +17872,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"戦闘機補正+5%",
-			"戦闘機枠に攻撃機装備可能"
+			"习得技能【塞壬之敌】",
+			"战斗机效率提高5%",
+			"战斗机栏位可以装备鱼雷机"
 		}
 	},
 	[1911] = {
@@ -17979,7 +17979,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1915] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+691|対空+30|爆撃機数+2|爆撃機補正＋10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+691|防空+30|所有轰炸机+2|轰炸机效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -18124,7 +18124,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1920] = {
 		effect_breakout = 399053,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18150,9 +18150,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"攻撃隊上限+1",
-			"爆撃機補正+10%"
+			"【塞壬之敌】升级",
+			"机库容量+1",
+			"轰炸机效率提高10%"
 		}
 	},
 	[1921] = {
@@ -18257,7 +18257,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1037|対空+45|攻撃機補正+5%|艦載機数+1|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1037|防空+45|鱼雷机效率提高5%|所有舰载机+1|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -18401,7 +18401,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1930] = {
 		effect_breakout = 399054,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18423,14 +18423,14 @@ pg.ship_strengthen_blueprint = {
 			175
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"艦載機補正+5%",
-			"攻撃機枠に爆撃機装備可能"
+			"【塞壬之敌】升级",
+			"舰载机效率提高5%",
+			"鱼雷机栏位可以装备轰炸机"
 		}
 	},
 	[1931] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18460,7 +18460,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1932] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18490,7 +18490,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1933] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【白龍雲影】スキルが【白龍雲影 +】に強化",
+		effect_desc = "幸运+5|【白龙云影】技能强化为【白龙云影 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18523,7 +18523,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1934] = {
 		effect_breakout = 0,
-		effect_desc = "運+6",
+		effect_desc = "幸运+6",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18553,7 +18553,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1935] = {
 		effect_breakout = 0,
-		effect_desc = "運+7|【天雷罪滅】スキルが【天雷罪滅 +】に強化",
+		effect_desc = "幸运+7|【天雷罪灭】技能强化为【天雷罪灭 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18586,7 +18586,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2001] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -18690,7 +18690,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+338|対空+12|主炮補正+5%|主炮砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+338|防空+12|主炮效率提高5%|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -18835,7 +18835,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2010] = {
 		effect_breakout = 499052,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -18861,9 +18861,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲補正+5%",
-			"特殊副砲攻撃を追加"
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%",
+			"装备特殊副炮"
 		}
 	},
 	[2011] = {
@@ -18968,7 +18968,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+675|対空+23|対空砲補正+10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+675|防空+23|防空炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -19113,7 +19113,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2020] = {
 		effect_breakout = 499053,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -19139,8 +19139,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正+10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[2021] = {
@@ -19245,7 +19245,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1014|対空+34|回避+5|主炮補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1014|防空+34|机动+5|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -19389,7 +19389,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2030] = {
 		effect_breakout = 499054,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -19411,13 +19411,13 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正+15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[2101] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -19521,7 +19521,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+310|対空+15|戦闘機補正+5%|爆撃機数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+310|防空+15|战斗机效率提高5%|所有轰炸机+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -19666,7 +19666,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2110] = {
 		effect_breakout = 499062,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -19692,8 +19692,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"戦闘機補正+5%"
+			"习得技能【塞壬之敌】",
+			"战斗机效率提高5%"
 		}
 	},
 	[2111] = {
@@ -19798,7 +19798,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+621|対空+30|攻撃機補正+5%|攻撃機数+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+621|防空+30|鱼雷机效率提高5%|所有鱼雷机+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -19943,7 +19943,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2120] = {
 		effect_breakout = 499063,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -19969,9 +19969,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"攻撃隊上限+1",
-			"攻撃機補正+10%"
+			"【塞壬之敌】升级",
+			"机库容量+1",
+			"鱼雷机效率提高10%"
 		}
 	},
 	[2121] = {
@@ -20076,7 +20076,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+931|対空+46|艦載機数+1|戦闘機補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+931|防空+46|所有舰载机+1|战斗机效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -20220,7 +20220,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2130] = {
 		effect_breakout = 499064,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20242,13 +20242,13 @@ pg.ship_strengthen_blueprint = {
 			165
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"艦載機補正+5%"
+			"【塞壬之敌】升级",
+			"舰载机效率提高5%"
 		}
 	},
 	[2131] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20278,7 +20278,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2132] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20308,7 +20308,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2133] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20338,7 +20338,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2134] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20368,7 +20368,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2135] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【洞察技術-思想掌握】スキルが【洞察技術-思想掌握+】に強化",
+		effect_desc = "幸运+5|【洞察技术-思想掌握】技能强化为【洞察技术-思想掌握 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20401,7 +20401,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2201] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -20505,7 +20505,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+344|対空+12|主砲補正+5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+344|防空+12|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20646,7 +20646,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2210] = {
 		effect_breakout = 699012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、MVP、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20672,9 +20672,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正+5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[2211] = {
@@ -20779,7 +20779,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+688|対空+24|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+688|防空+24|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20920,7 +20920,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2220] = {
 		effect_breakout = 699013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -20946,9 +20946,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正+10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[2221] = {
@@ -21053,7 +21053,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1032|対空+35|主砲補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1032|防空+35|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21193,7 +21193,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2230] = {
 		effect_breakout = 699014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21215,14 +21215,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正+15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[2231] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21252,7 +21252,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2232] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21282,7 +21282,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2233] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21312,7 +21312,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2234] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21342,7 +21342,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2235] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【野心と向上心のgiovane】スキルが【野心と向上心のgiovane+】に強化",
+		effect_desc = "幸运+5|【野心与恩泽之威】技能强化为【野心与恩泽之威 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21375,7 +21375,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2301] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -21479,7 +21479,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2305] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+227|対空+16|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+227|防空+16|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -21621,7 +21621,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2310] = {
 		effect_breakout = 299052,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21647,9 +21647,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[2311] = {
@@ -21754,7 +21754,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2315] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+453|対空+31|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+453|防空+31|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21892,7 +21892,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2320] = {
 		effect_breakout = 299053,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -21918,8 +21918,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"主炮效率提高10%"
 		}
 	},
 	[2321] = {
@@ -22024,7 +22024,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+681|対空+46|主砲補正+15%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+681|防空+46|主炮效率提高15%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22164,7 +22164,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2330] = {
 		effect_breakout = 299054,
-		effect_desc = "限界突破★6|主砲砲座＋1",
+		effect_desc = "突破至6星|主炮底座+1",
 		effect_attr = "",
 		effect_preload = "",
 		need_lv = 70,
@@ -22190,13 +22190,13 @@ pg.ship_strengthen_blueprint = {
 			1
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化"
+			"【塞壬之敌】升级",
+			"专属弹幕升级"
 		}
 	},
 	[2401] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -22300,7 +22300,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2405] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+344|対空+15|主砲補正+5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+344|防空+15|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22441,7 +22441,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2410] = {
 		effect_breakout = 499072,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22467,8 +22467,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座＋1"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1"
 		}
 	},
 	[2411] = {
@@ -22573,7 +22573,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2415] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+688|対空+29|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+688|防空+29|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22714,7 +22714,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2420] = {
 		effect_breakout = 499073,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22740,9 +22740,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座＋1",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+1",
+			"主炮效率提高10%"
 		}
 	},
 	[2421] = {
@@ -22847,7 +22847,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1032|対空+45|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1032|防空+45|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22984,7 +22984,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2430] = {
 		effect_breakout = 499074,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23006,14 +23006,14 @@ pg.ship_strengthen_blueprint = {
 			205
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座＋1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[2431] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23043,7 +23043,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2432] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23073,7 +23073,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2433] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23103,7 +23103,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2434] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23133,7 +23133,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2435] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|スキル【邪竜艤装-グリードシザー】は【邪竜艤装-グリードシザー +】に強化",
+		effect_desc = "幸运+5|【邪龙舰装·欲求之刃】技能强化为【邪龙舰装·欲求之刃 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23166,7 +23166,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2501] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -23270,7 +23270,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2505] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+152|対空+19|魚雷装填数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+152|防空+19|鱼雷底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -23412,7 +23412,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2510] = {
 		effect_breakout = 599012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23438,10 +23438,10 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"魚雷補正＋5%",
-			"開始時魚雷＋1"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"鱼雷效率提高5%",
+			"鱼雷预装填+1"
 		}
 	},
 	[2511] = {
@@ -23546,7 +23546,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2515] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+305|対空+38|魚雷補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+305|防空+38|鱼雷效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23687,7 +23687,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2520] = {
 		effect_breakout = 599013,
-		effect_desc = "限界突破★5|主砲砲座＋1|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|主炮底座+1|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -23717,8 +23717,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正+10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[2521] = {
@@ -23823,7 +23823,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+457|対空+58|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+457|防空+58|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23960,7 +23960,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2530] = {
 		effect_breakout = 599014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23982,15 +23982,15 @@ pg.ship_strengthen_blueprint = {
 			265
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"魚雷補正＋15%",
-			"自身の魚雷兵装散布ダウン"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"鱼雷效率提高15%",
+			"自身装备的鱼雷武器散布角减小"
 		}
 	},
 	[2531] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24020,7 +24020,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2532] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24050,7 +24050,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2533] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24080,7 +24080,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2534] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24110,7 +24110,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2535] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|スキル【砲火、雨霰の如し】は【砲火、雨霰の如し+】に強化",
+		effect_desc = "幸运+5|【炮火，倾泻如瀑！】技能强化为【炮火，倾泻如瀑！ +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24143,7 +24143,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2601] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -24247,7 +24247,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2605] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+269|対空+15|攻撃機数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+269|防空+15|所有鱼雷机+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -24389,7 +24389,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2610] = {
 		effect_breakout = 799012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24415,8 +24415,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"攻撃機補正+5%"
+			"习得技能【塞壬之敌】",
+			"鱼雷机效率提高5%"
 		}
 	},
 	[2611] = {
@@ -24521,7 +24521,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2615] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+539|対空+30|艦載機数+1|攻撃機補正＋5%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+539|防空+30|鱼雷机效率提高5%|所有舰载机+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -24666,7 +24666,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2620] = {
 		effect_breakout = 799013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24692,9 +24692,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"攻撃隊上限+1",
-			"攻撃機補正+10%"
+			"【塞壬之敌】升级",
+			"机库容量+1",
+			"鱼雷机效率提高10%"
 		}
 	},
 	[2621] = {
@@ -24799,7 +24799,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+809|対空+44|攻撃機数+1|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+809|防空+44|所有鱼雷机+1|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -24940,7 +24940,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2630] = {
 		effect_breakout = 799014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24962,13 +24962,13 @@ pg.ship_strengthen_blueprint = {
 			165
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"攻撃機補正+15%"
+			"【塞壬之敌】升级",
+			"鱼雷机效率提高15%"
 		}
 	},
 	[2631] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24998,7 +24998,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2632] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25028,7 +25028,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2633] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25058,7 +25058,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2634] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25088,7 +25088,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2635] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|スキル【根回し作業・対防空制圧射撃】は【根回し作業・対防空制圧射撃 +】に強化",
+		effect_desc = "幸运+5|【辅助试验·冻结射击】技能强化为【辅助试验·冻结射击 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25121,7 +25121,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2701] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -25225,7 +25225,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2705] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+307|対空+12|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+307|防空+12|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -25367,7 +25367,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2710] = {
 		effect_breakout = 899032,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25393,9 +25393,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊副砲を追加",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%",
+			"装备特殊后向副炮"
 		}
 	},
 	[2711] = {
@@ -25500,7 +25500,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+614|対空+23|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+614|防空+23|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25641,7 +25641,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2720] = {
 		effect_breakout = 899033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25667,8 +25667,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮效率提高10%"
 		}
 	},
 	[2721] = {
@@ -25773,7 +25773,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+921|対空+35|回避+5|対空砲補正+10%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+921|防空+35|机动+5|防空炮效率提高10%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25917,7 +25917,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2730] = {
 		effect_breakout = 899034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -25939,13 +25939,13 @@ pg.ship_strengthen_blueprint = {
 			260
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮效率提高15%"
 		}
 	},
 	[2801] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -26049,7 +26049,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2805] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+383|対空+15|主砲補正+5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+383|防空+15|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26190,7 +26190,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2810] = {
 		effect_breakout = 199042,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26216,10 +26216,10 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正+5%",
-			"特殊副砲を追加"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%",
+			"装备特殊副炮"
 		}
 	},
 	[2811] = {
@@ -26324,7 +26324,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2815] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+766|対空+31|戦闘機補正+20%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+766|防空+31|战斗机效率提高20%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26465,7 +26465,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2820] = {
 		effect_breakout = 199043,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26491,10 +26491,10 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"戦闘機数+1",
-			"主砲補正+10%",
-			"戦闘機補正＋10%"
+			"【塞壬之敌】升级",
+			"所有战斗机+1",
+			"主炮效率提高10%",
+			"战斗机效率提高10%"
 		}
 	},
 	[2821] = {
@@ -26599,7 +26599,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1195|対空+33|主砲補正+5%|戦闘機数+1|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|所有战斗机+1|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -26743,7 +26743,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2830] = {
 		effect_breakout = 199044,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26765,15 +26765,15 @@ pg.ship_strengthen_blueprint = {
 			210
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正+15%",
-			"戦闘機補正+10%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%",
+			"战斗机效率提高10%"
 		}
 	},
 	[2901] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -26877,7 +26877,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2905] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+223|対空+21|魚雷装填数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+223|防空+21|鱼雷底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -27019,7 +27019,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2910] = {
 		effect_breakout = 399062,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27045,9 +27045,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"魚雷同時装填可能",
-			"魚雷補正+5%"
+			"习得技能【塞壬之敌】",
+			"鱼雷底座可同时装填",
+			"鱼雷效率提高5%"
 		}
 	},
 	[2911] = {
@@ -27152,7 +27152,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2915] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+447|対空+43|主砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+447|防空+43|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27293,7 +27293,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2920] = {
 		effect_breakout = 399063,
-		effect_desc = "限界突破★5|主砲砲座+1|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|主炮底座+1|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -27323,8 +27323,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[2921] = {
@@ -27429,7 +27429,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+670|対空+63|対空砲補正+10%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+670|防空+63|防空炮效率提高10%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27569,7 +27569,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2930] = {
 		effect_breakout = 399064,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27591,14 +27591,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"魚雷補正+15%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"鱼雷效率提高15%"
 		}
 	},
 	[2931] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27628,7 +27628,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2932] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27658,7 +27658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2933] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27688,7 +27688,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2934] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27718,7 +27718,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2935] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|スキル【龍神の神威】は【龍神の神威+】に強化",
+		effect_desc = "幸运+5|【水龙神威】技能强化为【水龙神威 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -27751,7 +27751,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3001] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -27855,7 +27855,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+134|対空+7|魚雷装填数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+134|防空+7|鱼雷底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -27997,7 +27997,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3010] = {
 		effect_breakout = 499082,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28023,9 +28023,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正+5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[3011] = {
@@ -28130,7 +28130,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+269|対空+15|主砲補正+10%|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+269|防空+15|主炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -28275,7 +28275,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3020] = {
 		effect_breakout = 499083,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28301,8 +28301,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"対空砲補正+10%"
+			"【塞壬之敌】升级",
+			"防空炮效率提高10%"
 		}
 	},
 	[3021] = {
@@ -28407,7 +28407,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+403|対空+22|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+403|防空+22|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28544,7 +28544,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3030] = {
 		effect_breakout = 499084,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28566,15 +28566,15 @@ pg.ship_strengthen_blueprint = {
 			295
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"兵装補正+5%",
-			"設備装備時のステータス上昇+30%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%",
+			"设备提供的基础属性额外提高30%"
 		}
 	},
 	[3031] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28604,7 +28604,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3032] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28634,7 +28634,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3033] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28664,7 +28664,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3034] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28694,7 +28694,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3035] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【弱いなら苦しんでなさい】技能强化为【弱いなら苦しんでなさい +】",
+		effect_desc = "幸运+5|【弱者的苦痛之源】技能强化为【弱者的苦痛之源 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28727,7 +28727,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3101] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -28831,7 +28831,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+253|対空+11|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+253|防空+11|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -28977,7 +28977,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3110] = {
 		effect_breakout = 499092,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29003,9 +29003,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"兵装補正+2%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"全武器效率提高2%"
 		}
 	},
 	[3111] = {
@@ -29110,7 +29110,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+506|対空+21|主砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+506|防空+21|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29251,7 +29251,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3120] = {
 		effect_breakout = 499093,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29277,8 +29277,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"兵装補正+3%"
+			"【塞壬之敌】升级",
+			"全武器效率提高3%"
 		}
 	},
 	[3121] = {
@@ -29383,7 +29383,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+759|対空+32|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+759|防空+32|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29524,7 +29524,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3130] = {
 		effect_breakout = 499094,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29546,15 +29546,15 @@ pg.ship_strengthen_blueprint = {
 			240
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"兵装補正+5%",
-			"三つ目の兵装枠に主砲兵装装備可能"
+			"【塞壬之敌】升级",
+			"全武器效率提高5%",
+			"专属弹幕升级",
+			"第三武器栏位可以装备主炮武器"
 		}
 	},
 	[3201] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -29658,7 +29658,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+356|対空+12|主砲補正+5%|開始時主砲+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+356|防空+12|主炮效率提高5%|主炮预装填+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 1,
@@ -29803,7 +29803,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3210] = {
 		effect_breakout = 999022,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、敗北",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29829,9 +29829,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正+5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[3211] = {
@@ -29936,7 +29936,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+712|対空+25|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+712|防空+25|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30077,7 +30077,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3220] = {
 		effect_breakout = 999023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30103,9 +30103,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正+10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[3221] = {
@@ -30210,7 +30210,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1068|対空+37|主砲補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1068|防空+37|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30350,7 +30350,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3230] = {
 		effect_breakout = 999024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30372,14 +30372,14 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正+15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[3231] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30409,7 +30409,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3232] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30439,7 +30439,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3233] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30469,7 +30469,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3234] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30499,7 +30499,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3235] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【聖徒指令「輝装急襲」】技能强化为【聖徒指令「輝装急襲」 +】",
+		effect_desc = "幸运+5|【战斗命令「急袭突破」】技能强化为【战斗命令「急袭突破」 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30532,7 +30532,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3301] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -30636,7 +30636,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3305] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+100|対空+8|主砲補正+10%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+100|防空+8|主炮效率提高10%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30777,7 +30777,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3310] = {
 		effect_breakout = 199052,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30803,10 +30803,10 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕習得",
-			"兵装補正+2%",
-			"兵装枠3番目水上機装備可能"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"全武器效率提高2%",
+			"第三武器栏位可以装备水上机"
 		}
 	},
 	[3311] = {
@@ -30911,7 +30911,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3315] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+201|対空+16|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+201|防空+16|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -31053,7 +31053,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3320] = {
 		effect_breakout = 199053,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31079,8 +31079,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"武器補正＋3%"
+			"【塞壬之敌】升级",
+			"全武器效率提高3%"
 		}
 	},
 	[3321] = {
@@ -31185,7 +31185,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+301|対空+24|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+301|防空+24|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31322,7 +31322,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3330] = {
 		effect_breakout = 199054,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31344,15 +31344,15 @@ pg.ship_strengthen_blueprint = {
 			305
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"兵装補正+5%",
-			"設備装備時のステータス上昇+30%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%",
+			"设备提供的基础属性额外提高30%"
 		}
 	},
 	[3331] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31382,7 +31382,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3332] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31412,7 +31412,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3333] = {
 		effect_breakout = 0,
-		effect_desc = "運+3|対空砲砲座+1、水上機数+1",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 70,
@@ -31446,7 +31446,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3334] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31476,7 +31476,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3335] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【ナイト・ジャッジメント+】習得",
+		effect_desc = "幸运+5 |【暗夜的制裁】技能强化为【暗夜的制裁 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31509,7 +31509,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3401] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -31613,7 +31613,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3405] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+337|対空+12|主砲補正+5%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+337|防空+12|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31754,7 +31754,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3410] = {
 		effect_breakout = 399072,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31780,9 +31780,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[3411] = {
@@ -31887,7 +31887,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3415] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+674|対空+25|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+674|防空+25|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32028,7 +32028,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3420] = {
 		effect_breakout = 399073,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32054,9 +32054,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正＋10%"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[3421] = {
@@ -32161,7 +32161,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1010|対空+35|主砲補正+5%|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1010|防空+35|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32301,7 +32301,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3430] = {
 		effect_breakout = 399074,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32323,14 +32323,14 @@ pg.ship_strengthen_blueprint = {
 			260
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正＋15%"
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[3431] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32360,7 +32360,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3432] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32390,7 +32390,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3433] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32420,7 +32420,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3434] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32450,7 +32450,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3435] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【因果係留+】習得",
+		effect_desc = "幸运+5|【因果锚定】技能强化为【因果锚定 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32483,7 +32483,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3501] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -32587,7 +32587,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3505] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+298|対空+12|回避+5|副砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+298|防空+12|机动+5|副炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -32733,7 +32733,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3510] = {
 		effect_breakout = 699022,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32759,9 +32759,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[3511] = {
@@ -32866,7 +32866,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3515] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+597|対空+23|主砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+597|防空+23|主炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33007,7 +33007,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3520] = {
 		effect_breakout = 699023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33033,8 +33033,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲補正+10%"
+			"【塞壬之敌】升级",
+			"副炮效率提高10%"
 		}
 	},
 	[3521] = {
@@ -33139,7 +33139,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+894|対空+36|回避+10|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+894|防空+36|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33280,7 +33280,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3530] = {
 		effect_breakout = 699024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33302,14 +33302,14 @@ pg.ship_strengthen_blueprint = {
 			250
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"武器補正+5%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%"
 		}
 	},
 	[3601] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -33413,7 +33413,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3605] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+393|対空+14|爆撃機数+1|攻撃機数+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+393|防空+14|所有轰炸机+1|所有鱼雷机+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -33555,7 +33555,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3610] = {
 		effect_breakout = 799022,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33581,9 +33581,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"爆撃機補正+5%",
-			"攻撃機補正+5%"
+			"习得技能【塞壬之敌】",
+			"轰炸机效率提高5%",
+			"鱼雷机效率提高5%"
 		}
 	},
 	[3611] = {
@@ -33688,7 +33688,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3615] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+787|対空+27|戦闘機数+1|爆撃機補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+787|防空+27|所有战斗机+1|轰炸机效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -33833,7 +33833,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3620] = {
 		effect_breakout = 799023,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33859,9 +33859,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"攻撃隊上限+1",
-			"戦闘機補正+10%"
+			"【塞壬之敌】升级",
+			"机库容量+1",
+			"战斗机效率提高10%"
 		}
 	},
 	[3621] = {
@@ -33966,7 +33966,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1180|対空+41|攻撃機補正+10%|艦載機数+1|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+1180|防空+41|鱼雷机效率提高10%|所有舰载机+1|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -34110,7 +34110,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3630] = {
 		effect_breakout = 799024,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34132,14 +34132,14 @@ pg.ship_strengthen_blueprint = {
 			175
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"艦載機補正+5%",
-			"爆撃機枠に任意機種装備可能"
+			"【塞壬之敌】升级",
+			"舰载机效率提高5%",
+			"轰炸机栏位可以装备任意类型舰载机"
 		}
 	},
 	[3701] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -34243,7 +34243,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3705] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+202|対空+17|魚雷補正+10%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+202|防空+17|鱼雷效率提高10%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34384,7 +34384,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3710] = {
 		effect_breakout = 899042,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34410,9 +34410,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕Ⅰ習得",
-			"主砲補正＋5%"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[3711] = {
@@ -34517,7 +34517,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+405|対空+35|魚雷装填数+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+405|防空+35|鱼雷底座+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -34659,7 +34659,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3720] = {
 		effect_breakout = 899043,
-		effect_desc = "限界突破★5|主砲砲座＋1|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|主炮底座+1|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -34689,8 +34689,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正＋10%"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[3721] = {
@@ -34795,7 +34795,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+607|対空+51|図鑑開放：タッチ2、損傷大",
+		effect_desc = "耐久+607|防空+51|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34932,7 +34932,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3730] = {
 		effect_breakout = 899044,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34954,14 +34954,14 @@ pg.ship_strengthen_blueprint = {
 			280
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正+10%"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高10%"
 		}
 	},
 	[3731] = {
 		effect_breakout = 0,
-		effect_desc = "運+1",
+		effect_desc = "幸运+1",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -34991,7 +34991,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3732] = {
 		effect_breakout = 0,
-		effect_desc = "運+2",
+		effect_desc = "幸运+2",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35021,7 +35021,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3733] = {
 		effect_breakout = 0,
-		effect_desc = "運+3",
+		effect_desc = "幸运+3",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35051,7 +35051,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3734] = {
 		effect_breakout = 0,
-		effect_desc = "運+4",
+		effect_desc = "幸运+4",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35081,7 +35081,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3735] = {
 		effect_breakout = 0,
-		effect_desc = "運+5|【望まれるアイリスの刃+】習得",
+		effect_desc = "幸运+5|【承接期望的鸢尾之剑】技能强化为【承接期望的鸢尾之剑 +】",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35114,7 +35114,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3801] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -35218,7 +35218,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3805] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+350|対空+19|副砲補正+10％|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+350|防空+19|副炮效率提高10%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35359,7 +35359,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3810] = {
 		effect_breakout = 199062,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35385,9 +35385,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正+5% "
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[3811] = {
@@ -35492,7 +35492,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3815] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+700|対空+37|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+700|防空+37|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35633,7 +35633,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3820] = {
 		effect_breakout = 199063,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35659,9 +35659,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"副砲砲座+2",
-			"主砲補正+10％"
+			"【塞壬之敌】升级",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[3821] = {
@@ -35766,7 +35766,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1049|対空+56|主砲補正+5%|図鑑開放：損傷大",
+		effect_desc = "耐久+1049|防空+56|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35906,7 +35906,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3830] = {
 		effect_breakout = 199064,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -35928,14 +35928,14 @@ pg.ship_strengthen_blueprint = {
 			200
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正+15% "
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[3901] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -36039,7 +36039,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3905] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+409|対空+12|主砲補正+5％|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+409|防空+12|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36180,7 +36180,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3910] = {
 		effect_breakout = 499102,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36206,9 +36206,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲砲座+1",
-			"主砲補正+5% "
+			"习得技能【塞壬之敌】",
+			"主炮底座+1",
+			"主炮效率提高5%"
 		}
 	},
 	[3911] = {
@@ -36313,7 +36313,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3915] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+818|対空+24|対空砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+818|防空+24|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36454,7 +36454,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3920] = {
 		effect_breakout = 499103,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36480,10 +36480,10 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲装填上限+1",
-			"副砲砲座+2",
-			"主砲補正+10％"
+			"【塞壬之敌】升级",
+			"主炮装填上限+1",
+			"副炮底座+2",
+			"主炮效率提高10%"
 		}
 	},
 	[3921] = {
@@ -36588,7 +36588,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1226|対空+35|主砲補正+5％|図鑑開放：損傷大",
+		effect_desc = "耐久+1226|防空+35|主炮效率提高5%|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36728,7 +36728,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3930] = {
 		effect_breakout = 499104,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -36750,14 +36750,14 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲砲座+1",
-			"主砲補正+15% "
+			"【塞壬之敌】升级",
+			"主炮底座+1",
+			"主炮效率提高15%"
 		}
 	},
 	[4001] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -36861,7 +36861,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+84|対空+9|主砲補正+5％|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+84|防空+9|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37002,7 +37002,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4010] = {
 		effect_breakout = 699032,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37028,9 +37028,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"主砲補正+5％",
-			"特殊弾幕スキルI習得 "
+			"习得技能【塞壬之敌】",
+			"主炮效率提高5%",
+			"获得专属弹幕I"
 		}
 	},
 	[4011] = {
@@ -37135,7 +37135,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+168|対空+17|開始時魚雷+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+168|防空+17|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -37277,7 +37277,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4020] = {
 		effect_breakout = 699033,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37303,8 +37303,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"主砲補正+10％"
+			"【塞壬之敌】升级",
+			"主炮效率提高10%"
 		}
 	},
 	[4021] = {
@@ -37409,7 +37409,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+252|対空+26|図鑑開放：損傷大",
+		effect_desc = "耐久+252|防空+26|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37546,7 +37546,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4030] = {
 		effect_breakout = 699034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37568,15 +37568,15 @@ pg.ship_strengthen_blueprint = {
 			295
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化 ",
-			"武器補正+5%",
-			"特殊弾幕発動に必要な主砲攻撃回数半減"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"全武器效率提高5%",
+			"触发专属弹幕所需主炮射击次数减半"
 		}
 	},
 	[4101] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -37680,7 +37680,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+200|対空+18|魚雷補正+10%|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+200|防空+18|鱼雷效率提高10%|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37821,7 +37821,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4110] = {
 		effect_breakout = 799032,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -37847,9 +37847,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"特殊弾幕スキルI習得",
-			"主砲補正+5％"
+			"习得技能【塞壬之敌】",
+			"获得专属弹幕I",
+			"主炮效率提高5%"
 		}
 	},
 	[4111] = {
@@ -37954,7 +37954,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+400|対空+35|魚雷装填数+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+400|防空+35|鱼雷底座+1|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,
@@ -38096,7 +38096,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4120] = {
 		effect_breakout = 799033,
-		effect_desc = "限界突破★5|主砲砲座+1|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|主炮底座+1|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -38126,8 +38126,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"魚雷補正+10％"
+			"【塞壬之敌】升级",
+			"鱼雷效率提高10%"
 		}
 	},
 	[4121] = {
@@ -38232,7 +38232,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+600|対空+53|図鑑開放：損傷大",
+		effect_desc = "耐久+600|防空+53|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38369,7 +38369,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4130] = {
 		effect_breakout = 799034,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38391,14 +38391,15 @@ pg.ship_strengthen_blueprint = {
 			265
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"特殊弾幕強化",
-			"主砲補正+10％"
+			"【塞壬之敌】升级",
+			"专属弹幕升级",
+			"主炮效率提高10%"
 		}
 	},
 	[4201] = {
 		effect_breakout = 0,
-		effect_desc = "図鑑開放：ログイン、母港帰還、自己紹介",
+		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38422,9 +38423,6 @@ pg.ship_strengthen_blueprint = {
 			"login",
 			"home",
 			"profile"
-		},
-		extra_desc = {
-			"爆弾空襲Lv.1"
 		}
 	},
 	[4202] = {
@@ -38504,7 +38502,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+296|対空+22|回避+5|主砲砲座+1|図鑑開放：メイン1、戦闘開始、任務",
+		effect_desc = "耐久+296|防空+22|机动+5|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -38650,7 +38648,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4210] = {
 		effect_breakout = 1199012,
-		effect_desc = "限界突破★4|図鑑開放：メイン2、勝利、失敗",
+		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38676,9 +38674,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】習得",
-			"爆弾空襲Lv.2",
-			"主砲補正+5%"
+			"习得技能【塞壬之敌】",
+			"空袭航空属性Lv.2",
+			"主炮效率提高5%"
 		}
 	},
 	[4211] = {
@@ -38783,7 +38781,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+592|対空+43|副砲補正+10%|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+592|防空+43|副炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38924,7 +38922,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4220] = {
 		effect_breakout = 1199013,
-		effect_desc = "限界突破★5|図鑑開放：スキル、メール、委託完了",
+		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -38950,9 +38948,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"爆弾空襲Lv.3",
-			"対空砲砲座+1"
+			"【塞壬之敌】升级",
+			"空袭航空属性Lv.3",
+			"防空炮底座+1"
 		}
 	},
 	[4221] = {
@@ -39057,7 +39055,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+887|対空+65|回避+10|図鑑開放：損傷大",
+		effect_desc = "耐久+887|防空+65|机动+10|鉴赏解锁：血量警报",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -39198,7 +39196,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[4230] = {
 		effect_breakout = 1199014,
-		effect_desc = "限界突破★6",
+		effect_desc = "突破至6星",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -39220,9 +39218,9 @@ pg.ship_strengthen_blueprint = {
 			245
 		},
 		extra_desc = {
-			"【対セイレーン特化改修】強化",
-			"爆弾空襲Lv.4",
-			"主砲補正+15％"
+			"【塞壬之敌】升级",
+			"空袭航空属性Lv.4",
+			"主炮效率提高15%"
 		}
 	},
 	all = {

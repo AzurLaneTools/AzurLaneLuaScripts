@@ -126,6 +126,42 @@ pg.dorm3d_ins_player_template = {
 			14
 		}
 	},
+	{
+		id = 15,
+		message = {
+			"dafeng_1_1"
+		},
+		npc_reply = {
+			15
+		}
+	},
+	{
+		id = 16,
+		message = {
+			"dafeng_1_2"
+		},
+		npc_reply = {
+			16
+		}
+	},
+	{
+		id = 17,
+		message = {
+			"dafeng_2_1"
+		},
+		npc_reply = {
+			17
+		}
+	},
+	{
+		id = 18,
+		message = {
+			"dafeng_2_2"
+		},
+		npc_reply = {
+			18
+		}
+	},
 	all = {
 		1,
 		2,
@@ -140,6 +176,10 @@ pg.dorm3d_ins_player_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15,
+		16,
+		17,
+		18
 	}
 }

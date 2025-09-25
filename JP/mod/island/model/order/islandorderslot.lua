@@ -49,10 +49,14 @@ slot0.GenOrder = function(slot0, slot1)
 	elseif slot1.type == IslandOrder.TYPE_URGENCY then
 		return IslandUrgencyOrder.New(slot1)
 	elseif slot1.type == IslandOrder.TYPE_FORM then
-		if pg.island_order[slot1.id].type == 2 then
+		if pg.island_order[slot1.id].type == IslandFirmOrder.FIRM_ORDER_TYPE_URGENCY then
 			return IslandFirmUrgencyOrder.New(slot1)
-		else
+		elseif slot2 == IslandFirmOrder.FIRM_ORDER_TYPE_ACT then
+			return IslandFirmActivityOrder.New(slot1)
+		elseif slot2 == IslandFirmOrder.FIRM_ORDER_TYPE_COMMON then
 			return IslandFirmOrder.New(slot1)
+		else
+			assert(false, "typ is nil" .. slot2)
 		end
 	end
 
@@ -119,6 +123,14 @@ end
 
 slot0.GetOrder = function(slot0)
 	return slot0.order
+end
+
+slot0.SetReduceTime = function(slot0, slot1)
+	slot0.order:SetReduceTime(slot1)
+end
+
+slot0.AddReduceTime = function(slot0, slot1)
+	slot0.order:AddReduceTime(slot1)
 end
 
 return slot0

@@ -135,7 +135,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goBtn, function ()
 		if uv0.mission:IsFinish() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_event_is_finish"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_is_finish"))
 
 			return
 		end
@@ -148,7 +148,7 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_event_start_event_tip"),
 			onYes = function ()
 				uv0:emit(GuildEventMediator.JOIN_MISSION, uv0.mission.id, uv0.contextData.missionShips)
@@ -296,9 +296,9 @@ slot0.UpdateFleet = function(slot0, slot1)
 		end)
 	end
 
-	pg.UIMgr:GetInstance():LoadingOn(false)
+	pg.UIMgr.GetInstance():LoadingOn(false)
 	parallelAsync(slot5, function ()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 
 	if slot2:IsEliteType() then

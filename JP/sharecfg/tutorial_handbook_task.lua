@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.tutorial_handbook_task = {
 	[100101] = {
-		name = "段階１",
+		name = "阶段一",
 		type = 1,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -37,9 +37,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100201] = {
-		name = "段階２",
+		name = "阶段二",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100201,
 		pt = 68801,
@@ -75,9 +75,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100301] = {
-		name = "段階３",
+		name = "阶段三",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100301,
 		pt = 68802,
@@ -113,9 +113,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100401] = {
-		name = "段階４",
+		name = "阶段四",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100401,
 		pt = 68803,
@@ -151,9 +151,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100501] = {
-		name = "段階５",
+		name = "阶段五",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100501,
 		pt = 68804,
@@ -189,9 +189,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100601] = {
-		name = "段階６",
+		name = "阶段六",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100601,
 		pt = 68805,
@@ -227,9 +227,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100701] = {
-		name = "段階７",
+		name = "阶段七",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100701,
 		pt = 68806,
@@ -265,9 +265,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100801] = {
-		name = "段階８",
+		name = "阶段八",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100801,
 		pt = 68807,
@@ -303,9 +303,9 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[100901] = {
-		name = "段階９",
+		name = "阶段九",
 		type = 1,
-		lock_name = "未開放",
+		lock_name = "未解锁",
 		eng_name = "HANDBOOK",
 		id = 100901,
 		pt = 68808,
@@ -342,7 +342,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200101] = {
-		name = "レベル",
+		name = "等级",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -405,7 +405,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200301] = {
-		name = "編成",
+		name = "编队",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -441,7 +441,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200401] = {
-		name = "出撃",
+		name = "出击",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -479,7 +479,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200501] = {
-		name = "イベント",
+		name = "活动",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -509,7 +509,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200601] = {
-		name = "育成",
+		name = "养成",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -546,7 +546,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200701] = {
-		name = "ウィークリー",
+		name = "周常",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -575,7 +575,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200801] = {
-		name = "ショップ",
+		name = "商城",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -605,7 +605,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[200901] = {
-		name = "購買部",
+		name = "军火商店",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -634,7 +634,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201001] = {
-		name = "戦術教室",
+		name = "战术学院",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -664,7 +664,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201101] = {
-		name = "海軍食堂",
+		name = "食堂",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -693,7 +693,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201201] = {
-		name = "勲章",
+		name = "勋章收藏",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -723,7 +723,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201301] = {
-		name = "シーズン任務",
+		name = "世界巡游",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -753,7 +753,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201401] = {
-		name = "メール",
+		name = "邮箱",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -782,7 +782,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201501] = {
-		name = "装備",
+		name = "装备",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -817,7 +817,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201601] = {
-		name = "艦船技術",
+		name = "科技点",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",
@@ -846,7 +846,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201701] = {
-		name = "寮舎",
+		name = "后宅",
 		type = 2,
 		lock_name = "Lv.8",
 		eng_name = "HANDBOOK",
@@ -879,7 +879,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201801] = {
-		name = "デイリー",
+		name = "日常",
 		type = 2,
 		lock_name = "Lv.10",
 		eng_name = "HANDBOOK",
@@ -915,7 +915,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201901] = {
-		name = "コアショップ",
+		name = "核心商店",
 		type = 2,
 		lock_name = "Lv.10",
 		eng_name = "HANDBOOK",
@@ -946,7 +946,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202001] = {
-		name = "委託",
+		name = "委托",
 		type = 2,
 		lock_name = "Lv.11",
 		eng_name = "HANDBOOK",
@@ -978,7 +978,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202101] = {
-		name = "大艦隊",
+		name = "大舰队",
 		type = 2,
 		lock_name = "Lv.11",
 		eng_name = "HANDBOOK",
@@ -1013,7 +1013,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202201] = {
-		name = "演習",
+		name = "演习",
 		type = 2,
 		lock_name = "Lv.15",
 		eng_name = "HANDBOOK",
@@ -1047,7 +1047,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202301] = {
-		name = "プロトショップ",
+		name = "原型商店",
 		type = 2,
 		lock_name = "Lv.30",
 		eng_name = "HANDBOOK",
@@ -1079,7 +1079,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202401] = {
-		name = "ゲームセンター",
+		name = "游戏屋",
 		type = 2,
 		lock_name = "Lv.30",
 		eng_name = "HANDBOOK",
@@ -1110,7 +1110,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202501] = {
-		name = "科学研究",
+		name = "军部研究室",
 		type = 2,
 		lock_name = "Lv.30",
 		eng_name = "HANDBOOK",
@@ -1144,7 +1144,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202601] = {
-		name = "開発ドック",
+		name = "开发船坞",
 		type = 2,
 		lock_name = "Lv.30",
 		eng_name = "HANDBOOK",
@@ -1178,7 +1178,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202701] = {
-		name = "TB育成",
+		name = "养成计划",
 		type = 2,
 		lock_name = "Lv.30",
 		eng_name = "HANDBOOK",
@@ -1210,7 +1210,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202801] = {
-		name = "オフニャ",
+		name = "指挥喵",
 		type = 2,
 		lock_name = "Lv.40",
 		eng_name = "HANDBOOK",
@@ -1243,7 +1243,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[202901] = {
-		name = "大講堂",
+		name = "大讲堂",
 		type = 2,
 		lock_name = "Lv.50",
 		eng_name = "HANDBOOK",
@@ -1275,7 +1275,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203001] = {
-		name = "兵装開発",
+		name = "装备研发",
 		type = 2,
 		lock_name = "Lv.60",
 		eng_name = "HANDBOOK",
@@ -1306,7 +1306,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203101] = {
-		name = "限界チャレンジ",
+		name = "限界挑战",
 		type = 2,
 		lock_name = "Lv.80",
 		eng_name = "HANDBOOK",
@@ -1337,7 +1337,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203201] = {
-		name = "セイレーン作戦",
+		name = "大型作战",
 		type = 2,
 		lock_name = "Lv.80",
 		eng_name = "HANDBOOK",
@@ -1377,7 +1377,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203301] = {
-		name = "METAラボ",
+		name = "META研究室",
 		type = 2,
 		lock_name = "Lv.80",
 		eng_name = "HANDBOOK",
@@ -1408,7 +1408,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[203401] = {
-		name = "交流宿舎",
+		name = "宿舍计划",
 		type = 2,
 		lock_name = "Lv.80",
 		eng_name = "HANDBOOK",

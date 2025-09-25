@@ -9,8 +9,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0:Init()
 end
 
-slot0.Emit = function(slot0, slot1, ...)
-	slot0.view:Emit(slot1, ...)
+slot0.NotifiyCore = function(slot0, slot1, ...)
+	slot0.view:NotifiyCore(slot1, ...)
 end
 
 slot0.Init = function(slot0)

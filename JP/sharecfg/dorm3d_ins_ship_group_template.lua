@@ -32,10 +32,19 @@ pg.dorm3d_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[30707] = {
+		ship_group = 30707,
+		name = "Taihou",
+		background = "",
+		sculpture = "Dafeng_2",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		20220,
 		30221,
 		19903,
-		10517
+		10517,
+		30707
 	}
 }

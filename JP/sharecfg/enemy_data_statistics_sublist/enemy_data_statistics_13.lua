@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_13 = {
 	[90368] = {
 		cannon = 0,
-		name = "イラストリアス",
+		name = "光辉",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -155,7 +155,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90369] = {
 		cannon = 0,
-		name = "デイス",
+		name = "鲦鱼",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -299,7 +299,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90370] = {
 		cannon = 0,
-		name = "ブルックリン",
+		name = "布鲁克林",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -469,7 +469,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90371] = {
 		cannon = 0,
-		name = "フェニックス",
+		name = "菲尼克斯",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -639,7 +639,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90372] = {
 		cannon = 0,
-		name = "ヨーク",
+		name = "约克",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -806,7 +806,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90373] = {
 		cannon = 0,
-		name = "ザラ",
+		name = "扎拉",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -960,7 +960,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90374] = {
 		cannon = 0,
-		name = "ポーラ",
+		name = "波拉",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1114,7 +1114,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90375] = {
 		cannon = 0,
-		name = "カラビニエーレ",
+		name = "龙骑兵",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1268,7 +1268,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90376] = {
 		cannon = 0,
-		name = "ジュリオ・チェザーレ",
+		name = "朱利奥·凯撒",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1422,7 +1422,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90377] = {
 		cannon = 0,
-		name = "コンテ・ディ・カブール",
+		name = "加富尔伯爵",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1576,7 +1576,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90378] = {
 		cannon = 0,
-		name = "トレント",
+		name = "特伦托",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1730,7 +1730,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90379] = {
 		cannon = 0,
-		name = "リットリオ",
+		name = "利托里奥",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1884,7 +1884,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90380] = {
 		cannon = 0,
-		name = "駿河",
+		name = "骏河",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2038,7 +2038,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90381] = {
 		cannon = 0,
-		name = "U-110",
+		name = "U110",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2182,7 +2182,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90382] = {
 		cannon = 0,
-		name = "アマゾン",
+		name = "女将",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2349,7 +2349,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90383] = {
 		cannon = 0,
-		name = "U-556",
+		name = "U556",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2493,7 +2493,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90384] = {
 		cannon = 0,
-		name = "ガスコーニュ(μ兵装)",
+		name = "加斯科涅(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2647,7 +2647,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90385] = {
 		cannon = 0,
-		name = "ラフィー",
+		name = "拉菲",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2947,7 +2947,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90387] = {
 		cannon = 0,
-		name = "綾波",
+		name = "绫波",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3100,7 +3100,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90388] = {
 		cannon = 0,
-		name = "エルドリッジ",
+		name = "埃尔德里奇",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3253,7 +3253,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90389] = {
 		cannon = 0,
-		name = "アドミラル·グラーフ·シュペー",
+		name = "斯佩伯爵海军上将",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3409,7 +3409,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90390] = {
 		cannon = 0,
-		name = "シェフィールド(μ兵装)",
+		name = "谢菲尔德(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3565,7 +3565,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90391] = {
 		cannon = 0,
-		name = "クリーブランド(μ兵装)",
+		name = "克利夫兰(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3735,7 +3735,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90392] = {
 		cannon = 0,
-		name = "アカギ(μ兵装)",
+		name = "赤城(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3888,7 +3888,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90393] = {
 		cannon = 0,
-		name = "アドミラル·ヒッパー(μ兵装)",
+		name = "希佩尔海军上将(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4055,7 +4055,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90394] = {
 		cannon = 0,
-		name = "ジャベリン",
+		name = "标枪",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4375,7 +4375,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90396] = {
 		cannon = 0,
-		name = "輸送艦.F",
+		name = "物资船.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4535,7 +4535,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90397] = {
 		cannon = 0,
-		name = "駆逐「Pawn」.F",
+		name = "驱逐「Pawn」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4697,7 +4697,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90398] = {
 		cannon = 0,
-		name = "軽巡「Knight」.F",
+		name = "轻巡「Knight」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

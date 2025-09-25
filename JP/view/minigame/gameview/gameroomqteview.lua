@@ -149,8 +149,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.ruleBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = uv0.gameHelpTip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = uv0.gameHelpTip
 		})
 	end)
 	onButton(slot0, slot0.startBtn, function ()
@@ -290,7 +289,7 @@ slot0.setGameState = function(slot0, slot1)
 		if isActive(uv0.endUI) then
 			pg.UIMgr.GetInstance():BlurPanel(uv0.endUI)
 		else
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.endUI, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.endUI, uv0._tf)
 		end
 	end
 
@@ -964,7 +963,7 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:clearTimer()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.endUI, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.endUI, slot0._tf)
 
 	slot0.xgm = nil
 	slot0.xgmSpine = nil

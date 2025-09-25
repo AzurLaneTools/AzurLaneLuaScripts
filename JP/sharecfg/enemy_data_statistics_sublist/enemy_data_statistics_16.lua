@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_16 = {
 	[90462] = {
 		cannon = 0,
-		name = "夢界泡影-「Queen」",
+		name = "噩梦剪影-「Queen」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -171,7 +171,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90463] = {
 		cannon = 0,
-		name = "夢界泡影-「Assassin」",
+		name = "噩梦剪影-「Assassin」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -322,7 +322,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90464] = {
 		cannon = 0,
-		name = "夢界泡影-「Buster」",
+		name = "噩梦剪影-「Buster」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -470,7 +470,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90465] = {
 		cannon = 0,
-		name = "夢界結晶-「スカベンジャー」",
+		name = "噩梦结晶-「探索者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -626,7 +626,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90466] = {
 		cannon = 0,
-		name = "夢界結晶-「チェイサー」",
+		name = "噩梦结晶-「追迹者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -782,7 +782,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90467] = {
 		cannon = 0,
-		name = "夢界結晶-「ナビゲーター」",
+		name = "噩梦结晶-「领洋者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -938,7 +938,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90468] = {
 		cannon = 0,
-		name = "夢界結晶-「スマッシャー」",
+		name = "噩梦结晶-「破局者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1108,7 +1108,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90469] = {
 		cannon = 0,
-		name = "夢界結晶-「コンダクター」",
+		name = "噩梦结晶-「执棋者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1264,7 +1264,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90470] = {
 		cannon = 0,
-		name = "夢界結晶-「ダイバー」",
+		name = "噩梦结晶-「潜伏者」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1408,7 +1408,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90471] = {
 		cannon = 0,
-		name = "ダイバーⅡ型",
+		name = "潜伏者II型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1552,7 +1552,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90472] = {
 		cannon = 0,
-		name = "しなの",
+		name = "信浓",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1701,7 +1701,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90473] = {
 		cannon = 0,
-		name = "ル・マラン(μ兵装)",
+		name = "恶毒(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1857,7 +1857,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90474] = {
 		cannon = 0,
-		name = "ダイドー(μ兵装)",
+		name = "黛朵(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2013,7 +2013,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90475] = {
 		cannon = 0,
-		name = "ボルチモア(μ兵装)",
+		name = "巴尔的摩(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2162,7 +2162,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90476] = {
 		cannon = 0,
-		name = "ローン(μ兵装)",
+		name = "罗恩(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2318,7 +2318,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90477] = {
 		cannon = 0,
-		name = "イラストリアス(μ兵装)",
+		name = "光辉(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2473,7 +2473,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90478] = {
 		cannon = 0,
-		name = "アルバコア(μ兵装)",
+		name = "大青花鱼(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2617,7 +2617,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90479] = {
 		cannon = 0,
-		name = "タシュケント(μ兵装)",
+		name = "塔什干(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2773,7 +2773,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90480] = {
 		cannon = 0,
-		name = "タイホウ(μ兵装)",
+		name = "大凤(μ兵装)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2927,7 +2927,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90481] = {
 		cannon = 0,
-		name = "マリー・ローズ",
+		name = "玛莉萝丝",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3083,7 +3083,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90482] = {
 		cannon = 0,
-		name = "みさき",
+		name = "海咲 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3239,7 +3239,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90483] = {
 		cannon = 0,
-		name = "かすみ",
+		name = "霞 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3388,7 +3388,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90484] = {
 		cannon = 0,
-		name = "なぎさ",
+		name = "凪咲 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3699,7 +3699,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90486] = {
 		cannon = 0,
-		name = "ほのか",
+		name = "穗香",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3855,7 +3855,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90487] = {
 		cannon = 0,
-		name = "モニカ",
+		name = "莫妮卡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4011,7 +4011,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90488] = {
 		cannon = 0,
-		name = "量産型駆逐艦(Venus)",
+		name = "量产型驱逐舰(Venus) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4166,7 +4166,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90489] = {
 		cannon = 0,
-		name = "量産型軽巡(Venus)",
+		name = "量产型轻巡洋舰(Venus) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4328,7 +4328,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90490] = {
 		cannon = 0,
-		name = "量産型重巡(Venus)",
+		name = "量产型重巡洋舰(Venus) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4496,7 +4496,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90491] = {
 		cannon = 0,
-		name = "量産型戦艦(Venus)",
+		name = "量产型战列舰(Venus) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4664,7 +4664,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90492] = {
 		cannon = 0,
-		name = "量産型空母(Venus)",
+		name = "量产型航空母舰(Venus) ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

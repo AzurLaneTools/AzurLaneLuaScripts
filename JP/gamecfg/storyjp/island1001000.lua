@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这寻常的一天，我看着手中的报告陷入了沉思。",
+			say = "何気ない一日。手にした報告書を見つめながら思いを巡らせていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}居然已经有一周以上没有回港区了……",
+			say = "――明石はもう一週間以上母港に戻ってきていないのか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是她的经营活动数据量却在一直攀升……",
+			say = "――にもかかわらず、経営活動のデータ量は着実に増えている……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无人岛开发的利润那么大……已经让她乐不思港了？",
+			say = "――無人島開発の利益が……母港に戻る気も起きないほど大きいのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我联系一下{namecode:98:明石}，我亲自问问她。",
+			say = "――TB、明石に連絡を取ってくれ。直接聞いてみよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在联络中——",
+			say = "オーダーを受領しました。連絡を試みます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "异常警告：与无人岛开发区的联络线路遭受干扰，联络请求失败。",
+			say = "異常警報：無人島開発エリアとの通信回線がジャミングされ、連絡が取れません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……遭受干扰？立刻接周围的监测站，看看无人岛那边出了什么事。",
+			say = "――……ジャミング？すぐに周辺の監視基地に接続し、無人島の様子を確認してくれ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在控制监测站扫描无人岛开发区及其周边区域——",
+			say = "オーダーを受領しました。監視基地から無人島開発エリアおよび周辺エリアのスキャンを開始します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "数据结果……很奇妙。",
+			say = "不可解です",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，不同监测站针对开发区的同一片区域，给出了截然不同的结果。",
+			say = "指揮官、複数の監視基地から開発エリアをスキャンしましたが、まったく異なる結果が得られました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "推测，无人岛开发区上空存在细微时空异常现象。",
+			say = "推測。無人島開発エリア上空に微細な時空異常現象が発生している可能性があります",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "区域性时空异常现象……难道说是奇异点？",
+			say = "――局所的な時空異常ってことか……まさか特異点？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的意思是，我们的无人岛度假开发区的天上出现了一个未知奇异点……？",
+			say = "――無人島リゾート開発エリアの上空に…特異点が現れたのか……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且{namecode:98:明石}和整个开发团队都失联了！？！",
+			say = "――しかも明石と開発チーム全員が音信不通に！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肯定，这是当前最合理的推测。",
+			say = "はい。これが目下最も合理的な推測です",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是{namecode:98:明石}的经营活动数据量却一直在攀升……？",
+			say = "――にもかかわらず、経営活動のデータ量は着実に増えている……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，根据统计，{namecode:98:明石}小姐本周的经营活动数据相较于历史同期提高了170%。",
+			say = "はい。統計によると、今週の明石の経営活動は過去の同時期に比べて170%も上昇しています",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她……生意都做到奇异点里去了？",
+			say = "――明石……ビジネスを特異点の中まで持ち込んだというのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情报不足，我无法得出确切结论。不过，这是一个相当有合理性的推论。",
+			say = "情報不足のため断定はできません。合理的な推測ではそうとしか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真可疑……我必须去亲自调查一下了。",
+			say = "――怪しい……一度調査しに現地まで行ってみよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我准备一个安全可靠的飞行器。",
+			say = "――TB、安心安全な飛行装置を用意してくれ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在查询“安全可靠的飞行器”——",
+			say = "はい。「安心安全な飛行装置」を検索します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "查询到20台不同型号的飞行器，设计者均为莱昂纳多·达·芬奇。",
+			say = "20種類の飛行装置がヒットしました。全てレオナルド・ダ・ヴィンチがデザインしたものです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达芬奇的飞行器么……应该是可靠的……吧？",
+			say = "――ダ・ヴィンチの飛行装置か……一応、ちゃんとしている……よな……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也好，帮我随便抽选一台，做好起飞准备。",
+			say = "――じゃあ適当に一機選んで、出発の準備を進めて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让我们去无人岛上空的奇异点中一探究竟吧——",
+			say = "――無人島の空にある特異点の正体を掴みに行こう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

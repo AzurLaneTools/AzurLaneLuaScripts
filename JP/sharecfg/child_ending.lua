@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_ending = {
 	{
 		id = 1,
-		name = "写真モデル",
+		name = "平面模特",
 		group = 1,
 		polaroid_condition = 201,
 		pic = "bg_project_tb_cg26",
@@ -34,7 +34,7 @@ pg.child_ending = {
 	},
 	{
 		id = 2,
-		name = "凄腕アーティスト",
+		name = "艺术家",
 		group = 2,
 		polaroid_condition = 201,
 		pic = "bg_project_tb_cg27",
@@ -71,7 +71,7 @@ pg.child_ending = {
 	},
 	{
 		id = 3,
-		name = "人気ミュージシャン",
+		name = "音乐人",
 		group = 3,
 		polaroid_condition = 201,
 		pic = "bg_project_tb_cg28",
@@ -98,7 +98,7 @@ pg.child_ending = {
 	},
 	{
 		id = 4,
-		name = "注目ニュースター",
+		name = "瞩目新星",
 		group = 4,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg29",
@@ -135,7 +135,7 @@ pg.child_ending = {
 	},
 	{
 		id = 5,
-		name = "達人コック",
+		name = "烘焙达人",
 		group = 5,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg30",
@@ -167,7 +167,7 @@ pg.child_ending = {
 	},
 	{
 		id = 6,
-		name = "有望ライター",
+		name = "小说作家",
 		group = 6,
 		polaroid_condition = 203,
 		pic = "bg_project_tb_cg31",
@@ -199,7 +199,7 @@ pg.child_ending = {
 	},
 	{
 		id = 7,
-		name = "期待アスリート",
+		name = "赛场新秀",
 		group = 7,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg32",
@@ -226,7 +226,7 @@ pg.child_ending = {
 	},
 	{
 		id = 8,
-		name = "奇才ビジネスウーマン",
+		name = "商业奇才",
 		group = 8,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg33",
@@ -258,7 +258,7 @@ pg.child_ending = {
 	},
 	{
 		id = 9,
-		name = "溌剌ファーマー",
+		name = "农场能手",
 		group = 9,
 		polaroid_condition = 202,
 		pic = "bg_project_tb_cg34",
@@ -295,7 +295,7 @@ pg.child_ending = {
 	},
 	{
 		id = 10,
-		name = "日常は繰り返す",
+		name = "日复一日",
 		group = 10,
 		polaroid_condition = 0,
 		pic = "bg_project_tb_cg35",
@@ -328,7 +328,7 @@ pg.child_ending = {
 	},
 	{
 		id = 11,
-		name = "外に出ることなく",
+		name = "足不出户",
 		group = 11,
 		polaroid_condition = 0,
 		pic = "bg_project_tb_cg36",

@@ -1,106 +1,138 @@
-slot0 = class("IslandTopHeadHudView", import(".IslandBaseOpView"))
-
-slot0.Ctor = function(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
-end
-
-slot0.GetSubView = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.views) do
-		if isa(slot6, slot1) then
-			return slot6
-		end
-	end
-
-	return nil
-end
-
-slot0.SubViewInit = function(slot0)
-	slot0.views = {
-		slot0:CreateInfoHudView()
-	}
-	slot0.chatBubblePlayers = {}
-end
-
-slot0.CreateInfoHudView = function(slot0)
-	return IslandHudView.New(slot0.view)
-end
+slot0 = class("IslandTopHeadHudView", import(".IslandBaseHudView"))
 
 slot0.GetUIName = function(slot0)
 	return "IslandTopHeadHudUI"
 end
 
-slot0.OnInit = function(slot0, slot1)
-	slot0._go = slot1
-	slot0._tf = slot1.transform
-	slot0.chatTpl = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
-	slot0.parent = slot0._tf:Find("parent")
-	slot0.unitHudRoot = slot0._tf:Find("parent/unitHud")
-	slot0.unitHudDic = {}
-
-	slot0:SubViewInit()
+slot0.GetHeadOffset = function(slot0)
+	return Vector3(0, 1.8, 0)
 end
 
-slot0.Update = function(slot0)
-	for slot4, slot5 in ipairs(slot0.views) do
-		slot5:Update()
+slot0.SubViewInit = function(slot0)
+	table.insert(slot0.views, IslandHudView.New(slot0.view))
+end
+
+slot0.OnInit = function(slot0, slot1)
+	slot0.time = 0
+	slot2 = slot0._tf:GetComponent(typeof(ItemList))
+	slot0.chatTpl = slot2.prefabItem[3]
+	slot0.animationOpTpl = slot2.prefabItem[1]
+	slot0.animationOpTpls = {}
+	slot0.animationOpShowFlags = {}
+	slot0.isResponeAnimationOp = {}
+	slot0.bubblePlayers = {}
+	slot0.chatPlayers = {}
+	slot0.includePlayerStorys = {}
+	slot0.animationOpShowDistance = pg.island_set.action_detection.key_value_int
+	slot0.chatBubbleShowDistance = pg.island_set.island_message_bubble_range.key_value_int
+
+	uv0.super.OnInit(slot0, slot1)
+end
+
+slot0.OnLateUpdate = function(slot0)
+	uv0.super.OnLateUpdate(slot0)
+
+	slot0.time = slot0.time + Time.deltaTime
+
+	if slot0.time > 1 then
+		slot0.time = 0
+
+		if slot0:GetView().player then
+			slot0:CheckAnimationOpDistance(slot1)
+			slot0:CheckChatBubbleDistance(slot1)
+		end
 	end
 end
 
-slot0.LateUpdate = function(slot0)
-	slot0:UpdateChatPosition()
-end
+slot0.CheckAnimationOpDistance = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.animationOpShowFlags) do
+		slot7 = slot0.animationOpTpls[slot5]
+		slot8 = slot0:UnitKey2unitData(slot5)
 
-slot0.UpdateChatPosition = function(slot0)
-	for slot4, slot5 in pairs(slot0.unitHudDic) do
-		slot6 = slot0:UnitKey2unitData(slot4)
-		slot8 = slot0.view:GetUnitModuleWithType(slot6.type, slot6.id) and slot7._go or nil
+		if slot0:GetView():GetUnitModuleWithType(slot8.type, slot8.id) then
+			slot10 = Vector3.Distance(slot1._go.transform.position, slot9._go.transform.position) <= slot0.animationOpShowDistance
+			slot11 = isActive(slot7)
 
-		if slot7 and not IsNil(slot8) then
-			if IslandCalcUtil.IsInViewport(slot8.transform.position + Vector3(0, 1.8, 0)) then
-				setActive(slot5, true)
+			setActive(slot7, slot10)
 
-				slot5.transform.localPosition = IslandCalcUtil.WorldPosition2LocalPosition(slot0.parent, slot9)
-			else
-				setActive(slot5, false)
+			if slot10 then
+				slot0:PlayAnimationOpEffect(slot5, slot11, slot6, slot7)
 			end
 		end
 	end
 end
 
-slot0.UnitKey2unitData = function(slot0, slot1)
-	slot2 = string.split(slot1, "_")
-
-	return {
-		id = tonumber(slot2[2]),
-		type = tonumber(slot2[1])
-	}
-end
-
-slot0.GetUnitHudRoot = function(slot0, slot1)
-	if IsNil(slot0.unitHudDic[slot1.key]) then
-		slot2 = Object.Instantiate(slot0.unitHudRoot, slot0.parent)
-		slot2.name = slot1.key
-
-		setActive(slot2, true)
-
-		slot0.unitHudDic[slot1.key] = slot2
+slot0.PlayAnimationOpEffect = function(slot0, slot1, slot2, slot3, slot4)
+	if slot0.animationOpShowFlags[slot1] then
+		slot0.animationOpShowFlags[slot1] = true
 	end
 
-	return slot2.transform
+	slot5 = slot4.transform:Find("tpl")
+	slot6 = slot5:GetComponent(typeof(Animation))
+	slot7 = slot5:GetComponent(typeof(DftAniEvent))
+
+	if not slot3 and not slot2 then
+		slot7:SetEndEvent(nil)
+		slot7:SetEndEvent(function ()
+			uv0:SetEndEvent(nil)
+			uv1:Play("anim_IslandAnimationOpTpl_loadingcallback")
+		end)
+		slot6:Play("anim_IslandAnimationOpTpl_In")
+	elseif not slot2 then
+		slot7:SetEndEvent(nil)
+		slot6:Play("anim_IslandAnimationOpTpl_loadingcallback")
+	end
 end
 
-slot0.GenUnitData = function(slot0, slot1, slot2)
-	return {
-		id = slot1,
-		type = slot2,
-		key = slot2 .. "_" .. slot1
-	}
+slot0.CheckChatBubbleDistance = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.chatPlayers) do
+		if slot6:IsPlaying() and slot1.role then
+			slot6:SetShowFlag(Vector3.Distance(slot1._go.transform.position, slot7._go.transform.position) <= slot0.chatBubbleShowDistance)
+		end
+	end
+end
+
+slot0.CheckPlayerStory = function(slot0, slot1)
+	return slot1 == slot0:GetView().player and #slot0.includePlayerStorys > 0
+end
+
+slot0.PlayChat = function(slot0, slot1, slot2, slot3, slot4)
+	if slot0:CheckPlayerStory() then
+		return
+	end
+
+	if slot0.chatPlayers[slot0:GenUnitData(slot1.id, slot1.unitType).key] and slot0.chatPlayers[slot5.key]:IsPlaying() then
+		slot0.chatPlayers[slot5.key]:Stop()
+	end
+
+	slot7 = slot0.chatPlayers[slot5.key] or IslandChatBubblePlayer.New(Object.Instantiate(slot0.chatTpl, slot0:GetUnitHudRoot(slot5):Find("chatContainer")), slot1._go)
+
+	slot7:Play(BubbleStep.New({
+		say = slot3,
+		emoji = slot2
+	}), slot4)
+
+	slot0.chatPlayers[slot5.key] = slot7
+end
+
+slot0.TryHidePlayerChat = function(slot0)
+	slot1 = slot0:GetView().player
+
+	if slot0.chatPlayers[slot0:GenUnitData(slot1.id, slot1.unitType).key] and slot3:IsPlaying() then
+		slot3:Stop()
+	end
 end
 
 slot0.PlayBubble = function(slot0, slot1, slot2, slot3)
+	slot0:TryHidePlayerChat()
+
+	if IslandStory.New(pg.NewStoryMgr.GetInstance():GetScript(slot1), slot2, IslandStory.MODE_BUBBLE):ContainerPlayer() then
+		table.insert(slot0.includePlayerStorys, slot1)
+	end
+
 	slot6 = {}
 
-	for slot10, slot11 in ipairs(IslandStory.New(pg.NewStoryMgr.GetInstance():GetScript(slot1), slot2, IslandStory.MODE_BUBBLE).steps) do
+	for slot10, slot11 in ipairs(slot5.steps) do
 		slot12 = slot11:GetUnitData()
 		slot13 = slot0:GetUnitHudRoot(slot12)
 		slot13 = slot13:Find("bubleContainer")
@@ -108,27 +140,90 @@ slot0.PlayBubble = function(slot0, slot1, slot2, slot3)
 
 		assert(slot14:GetUnitModuleWithType(slot12.type, slot12.id))
 		table.insert(slot6, function (slot0)
-			slot1 = uv0.chatBubblePlayers[uv1.key] or IslandChatBubblePlayer.New(Object.Instantiate(uv0.chatTpl, uv2), uv3._go)
+			slot1 = uv0.bubblePlayers[uv1.key] or IslandChatBubblePlayer.New(Object.Instantiate(uv0.chatTpl, uv2), uv3._go)
 
 			slot1:Play(uv4, uv5)
 
-			uv0.chatBubblePlayers[uv1.key] = slot1
+			uv0.bubblePlayers[uv1.key] = slot1
 		end)
 	end
 
 	seriesAsync(slot6, function ()
-		if uv0 then
-			uv0()
+		table.removebyvalue(uv0.includePlayerStorys, uv1)
+
+		if uv2 then
+			uv2()
 		end
 	end)
 end
 
+slot0.ShowAnimationOp = function(slot0, slot1, slot2)
+	slot3 = slot0:GenUnitData(slot1.id, slot1.unitType)
+	slot4 = slot0:GetUnitHudRoot(slot3):Find("aniamtionOpContainer")
+	slot5 = slot0.animationOpTpls[slot3.key] or Object.Instantiate(slot0.animationOpTpl, slot4)
+
+	setParent(slot5, slot4)
+	setActive(slot5, false)
+
+	slot0.animationOpTpls[slot3.key] = slot5
+
+	onButton(slot0, slot5, function ()
+		if not uv0:CanReponseAnimationOp(uv1, uv2) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_position_cant_response_cp_action"))
+
+			return
+		end
+
+		uv0.isResponeAnimationOp[uv3.key] = true
+
+		uv0:NotifiyMeditor(IslandBaseMediator.ANIMATION_OP, uv1.id, uv2)
+	end, SFX_PANEL)
+
+	slot0.animationOpShowFlags[slot3.key] = false
+end
+
+slot0.CanReponseAnimationOp = function(slot0, slot1, slot2)
+	return IslandCalcUtil.CanReachPoint(slot0:GetView().player._go.transform.position, BuildVector3(pg.island_action[slot2].respond_point).magnitude, slot1.agent, slot1._tf.position, 36)
+end
+
+slot0.HideAnimationOp = function(slot0, slot1)
+	if slot0.animationOpShowFlags[slot0:GenUnitData(slot1.id, slot1.unitType).key] == nil then
+		return
+	end
+
+	slot0.animationOpShowFlags[slot2.key] = nil
+
+	if not slot0.animationOpTpls[slot2.key] then
+		return
+	end
+
+	slot4 = slot3.transform
+	slot4 = slot4:Find("tpl")
+	slot5 = slot4:GetComponent(typeof(DftAniEvent))
+	slot6 = slot4:GetComponent(typeof(Animation))
+
+	slot5:SetEndEvent(nil)
+	slot5:SetEndEvent(function ()
+		uv0:SetEndEvent(nil)
+		setActive(uv1, false)
+		removeOnButton(uv1)
+	end)
+
+	if slot0.isResponeAnimationOp[slot2.key] then
+		slot6:Play("anim_IslandAnimationOpTpl_callback")
+	else
+		slot6:Play("anim_IslandAnimationOpTpl_Out")
+	end
+
+	slot0.isResponeAnimationOp[slot2.key] = nil
+end
+
 slot0.ShowHud = function(slot0, slot1)
-	slot0:GetSubView(IslandHudView):ShowHud(slot1, slot0:GetUnitHudRoot(slot0:GenUnitData(slot1.id, slot1.type)):Find("npcInfoContainer"))
+	slot0:GetSubView(IslandHudView):ShowHud(slot1, slot0:GetUnitHudRoot(slot0:GenUnitData(slot1.id, slot1.type)):Find(IslandHudView.LuaName2ContainerName[slot1.uiLuaName]))
 end
 
 slot0.RefreshHud = function(slot0, slot1)
-	slot0:GetSubView(IslandHudView):RefreshHud(slot1, slot0:GetUnitHudRoot(slot0:GenUnitData(slot1.id, slot1.type)):Find("npcInfoContainer"))
+	slot0:GetSubView(IslandHudView):RefreshHud(slot1, slot0:GetUnitHudRoot(slot0:GenUnitData(slot1.id, slot1.type)):Find(IslandHudView.LuaName2ContainerName[slot1.uiLuaName]))
 end
 
 slot0.HideHud = function(slot0, slot1)
@@ -142,11 +237,27 @@ end
 slot0.OnDispose = function(slot0)
 	uv0.super.OnDispose(slot0)
 
-	for slot4, slot5 in pairs(slot0.chatBubblePlayers) do
+	for slot4, slot5 in pairs(slot0.bubblePlayers) do
 		slot5:Dispose()
 	end
 
-	slot0.chatBubblePlayers = nil
+	slot0.bubblePlayers = nil
+
+	for slot4, slot5 in pairs(slot0.chatPlayers) do
+		slot5:Dispose()
+	end
+
+	slot0.chatPlayers = nil
+
+	for slot4, slot5 in pairs(slot0.animationOpTpls) do
+		slot5.transform:Find("tpl"):GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
+		Object.Destroy(slot5)
+	end
+
+	slot0.animationOpTpls = nil
+	slot0.animationOpShowFlags = nil
+	slot0.includePlayerStorys = nil
+	slot0.isResponeAnimationOp = nil
 end
 
 return slot0

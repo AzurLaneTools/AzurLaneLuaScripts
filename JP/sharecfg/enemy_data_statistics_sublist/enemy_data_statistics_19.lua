@@ -1121,7 +1121,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90593] = {
 		cannon = 0,
-		name = "スカベンジャー特殊兵装：「Wander」",
+		name = "探索者武装:「漫游」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1277,7 +1277,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90594] = {
 		cannon = 0,
-		name = "チェイサー特殊兵装：「Guard」",
+		name = "追迹者武装:「铁卫」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1433,7 +1433,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90595] = {
 		cannon = 0,
-		name = "ナビゲーター特殊兵装：「Invade」",
+		name = "领洋者武装:「侵袭」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1589,7 +1589,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90596] = {
 		cannon = 0,
-		name = "スマッシャー特殊兵装：「Blast」",
+		name = "破局者武装:「毁灭」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1759,7 +1759,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90597] = {
 		cannon = 0,
-		name = "コンダクター特殊兵装：「Moderate」",
+		name = "执棋者武装:「宿主」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1915,7 +1915,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90598] = {
 		cannon = 0,
-		name = "メガアーマメント：「グリッダー」",
+		name = "巨构武装:「弧光」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2078,7 +2078,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90599] = {
 		cannon = 0,
-		name = "ムジナ",
+		name = "貉",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2228,7 +2228,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90600] = {
 		cannon = 0,
-		name = "グナイゼナウ(META)",
+		name = "奥古斯塔·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2397,7 +2397,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90601] = {
 		cannon = 0,
-		name = "セイレーン重魚雷",
+		name = "潜航鱼雷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2534,7 +2534,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90602] = {
 		cannon = 0,
-		name = "エンフォーサーフェロー",
+		name = "代行节点VI-01",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2690,7 +2690,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90603] = {
 		cannon = 0,
-		name = "エンフォーサーVI「Combination」",
+		name = "代行者VI「Combination」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2850,7 +2850,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90604] = {
 		cannon = 0,
-		name = "エンフォーサーVI「Attraction」",
+		name = "代行者VI「Attraction」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3006,7 +3006,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90605] = {
 		cannon = 0,
-		name = "駆逐「Pawn」IV型",
+		name = "驱逐「Pawn」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3168,7 +3168,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90606] = {
 		cannon = 0,
-		name = "軽巡「Knight」IV型",
+		name = "轻巡「Knight」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3499,7 +3499,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90608] = {
 		cannon = 0,
-		name = "戦艦「Rook」IV型",
+		name = "战舰「Rook」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3668,7 +3668,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90609] = {
 		cannon = 0,
-		name = "空母「Queen」IV型",
+		name = "航母「Queen」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3837,7 +3837,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90610] = {
 		cannon = 0,
-		name = "自爆ボート「Buster」IV型",
+		name = "自爆船「Buster」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3983,7 +3983,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90611] = {
 		cannon = 0,
-		name = "潜水艦「Assassin」IV型",
+		name = "潜艇「Assassin」IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4134,7 +4134,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90612] = {
 		cannon = 0,
-		name = "スカベンジャーIV型",
+		name = "探索者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4291,7 +4291,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90613] = {
 		cannon = 0,
-		name = "チェイサーIV型",
+		name = "追迹者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4448,7 +4448,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90614] = {
 		cannon = 0,
-		name = "ナビゲーターIV型",
+		name = "领洋者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4605,7 +4605,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90615] = {
 		cannon = 0,
-		name = "スマッシャーIV型",
+		name = "破局者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4776,7 +4776,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90616] = {
 		cannon = 0,
-		name = "コンダクターIV型",
+		name = "执棋者IV型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

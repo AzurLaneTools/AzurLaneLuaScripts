@@ -17,60 +17,60 @@ pg.vote_champion = {
 		story = "RENQIBEIERFASITE"
 	},
 	{
-		ship_group = 30105,
+		ship_group = 30114,
 		task = 31019,
 		rank = 3,
 		group = 2017,
 		id = 3,
-		story = "RENQILINGBO"
+		story = "RENQIXILI"
 	},
 	{
-		ship_group = 20220,
+		ship_group = 50201,
 		task = 31042,
 		rank = 1,
 		group = 2019,
 		id = 4,
-		story = "RENQITIANLANGXING"
+		story = "RENQIYIXIAN"
 	},
 	{
-		ship_group = 30505,
+		ship_group = 10117,
 		task = 31043,
 		rank = 2,
 		group = 2019,
 		id = 5,
-		story = "RENQICHANGMEN"
+		story = "RENQILAFEI"
 	},
 	{
-		ship_group = 49901,
+		ship_group = 20603,
 		task = 31044,
 		rank = 3,
 		group = 2019,
 		id = 6,
-		story = "RENQILUOEN"
+		story = "RENQIDUJIAOSHOU"
 	},
 	{
-		ship_group = 30708,
-		task = 31046,
+		ship_group = 50204,
+		task = 31045,
 		rank = 1,
 		group = 2021,
 		id = 7,
-		story = "RENQIXINNONG"
-	},
-	{
-		ship_group = 30221,
-		task = 31047,
-		rank = 2,
-		group = 2021,
-		id = 8,
-		story = "RENQINENGDAI"
+		story = "RENQIYINGRUI"
 	},
 	{
 		ship_group = 29903,
-		task = 31045,
+		task = 31046,
+		rank = 2,
+		group = 2021,
+		id = 8,
+		story = "RENQICHAIJUN"
+	},
+	{
+		ship_group = 10517,
+		task = 31047,
 		rank = 3,
 		group = 2021,
 		id = 9,
-		story = "RENQICHAIJUN"
+		story = "RENQIXINZEXI"
 	},
 	get_id_list_by_group = {
 		[2017] = {

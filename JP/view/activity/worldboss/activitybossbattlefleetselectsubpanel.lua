@@ -327,14 +327,14 @@ slot0.clearFleet = function(slot0, slot1)
 end
 
 slot0.OnShow = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE,
-		weight = #getProxy(ContextProxy):getCurrentContext().children > 0 and LayerWeightConst.LOWER_LAYER or nil
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		groupDelta = -1,
+		groupName = "ActivityBossSceneTemplate"
 	})
 end
 
 slot0.OnHide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.viewParent._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.viewParent._tf)
 	triggerToggle(slot0.commanderToggle, false)
 end
 

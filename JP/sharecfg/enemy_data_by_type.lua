@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.enemy_data_by_type = {
 	{
-		type_name = "駆逐",
+		type_name = "驱逐",
 		type = 1
 	},
 	{
-		type_name = "軽巡",
+		type_name = "轻巡",
 		type = 2
 	},
 	{
@@ -13,23 +13,23 @@ pg.enemy_data_by_type = {
 		type = 3
 	},
 	{
-		type_name = "巡戦",
+		type_name = "战巡",
 		type = 4
 	},
 	{
-		type_name = "戦列",
+		type_name = "战列",
 		type = 5
 	},
 	{
-		type_name = "軽母",
+		type_name = "轻母",
 		type = 6
 	},
 	{
-		type_name = "空母",
+		type_name = "航母",
 		type = 7
 	},
 	{
-		type_name = "潜水",
+		type_name = "潜艇",
 		type = 8
 	},
 	{
@@ -37,7 +37,7 @@ pg.enemy_data_by_type = {
 		type = 9
 	},
 	{
-		type_name = "航戦",
+		type_name = "航战",
 		type = 10
 	},
 	{
@@ -45,27 +45,27 @@ pg.enemy_data_by_type = {
 		type = 11
 	},
 	{
-		type_name = "工作",
+		type_name = "维修",
 		type = 12
 	},
 	{
-		type_name = "砲艦",
+		type_name = "重炮",
 		type = 13
 	},
 	{
-		type_name = "魚雷艇",
+		type_name = "鱼雷艇",
 		type = 14
 	},
 	{
-		type_name = "輸送艦",
+		type_name = "运输舰",
 		type = 15
 	},
 	{
-		type_name = "自爆艦",
+		type_name = "自爆艇",
 		type = 16
 	},
 	{
-		type_name = "旗艦",
+		type_name = "旗舰",
 		type = 17
 	},
 	{
@@ -73,31 +73,31 @@ pg.enemy_data_by_type = {
 		type = 18
 	},
 	{
-		type_name = "運送",
+		type_name = "运输",
 		type = 19
 	},
 	{
-		type_name = "ミ駆",
+		type_name = "导驱",
 		type = 20
 	},
 	{
-		type_name = "ミ駆",
+		type_name = "导驱",
 		type = 21
 	},
 	{
-		type_name = "風帆",
+		type_name = "风帆",
 		type = 22
 	},
 	{
-		type_name = "風帆",
+		type_name = "风帆",
 		type = 23
 	},
 	{
-		type_name = "風帆",
+		type_name = "风帆",
 		type = 24
 	},
 	{
-		type_name = "不明",
+		type_name = "未知",
 		type = 25
 	},
 	all = {

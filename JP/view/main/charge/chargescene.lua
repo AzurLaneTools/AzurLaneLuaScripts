@@ -483,7 +483,7 @@ slot0.stopCV = function(slot0)
 end
 
 slot0.blurView = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.viewContainer, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.viewContainer, {
 		pbList = {
 			slot0:findTF("blurBg", slot0.viewContainer)
 		}

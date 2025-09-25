@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "你要的东西，我都带来了。",
+			say = "――いい香りだ……もうできたのか？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……鸡蛋色泽均匀，表面光滑，看起来很棒！",
-			animation = "think",
+			say = "どうぞ。指揮官だけの特製オムレツ、熱いうちに食べて",
+			animation = "elation",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "カフェ店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "面粉颗粒细腻，麦香纯正……哇，都是上好的原料，辛苦了，指挥官~",
-			subName = "啾咖啡店员",
+			say = "指揮官の頑張りが実った最初の成果よ",
+			subName = "カフェ店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "不错吧，这可都是岛上农场的第一批产品。",
+			say = "――おいしそう……この香りだけでも来た甲斐があるな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "原来农场已经开始运作起来了，而且东西看起来不错……",
-			animation = "doubt",
+			say = "ふふ、ステファンの分も一つ作っておいたけど……",
+			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "カフェ店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "请放心，我会认真对待这些原料的。",
-			subName = "啾咖啡店员",
+			say = "指揮官、彼女に届けてもらえない？",
+			subName = "カフェ店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -80,19 +80,28 @@ return {
 			}
 		},
 		{
-			say = "为您特制的苹果派很快就好，请指挥官稍等片刻。",
+			say = "――ステファンか……ちょうどいい。働きぶりを見に行こうと思ってたところだったよ",
+			subName = "カフェ店員",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "ありがとう。今はまず、オムレツをゆっくり楽しんでって",
+			subName = "カフェ店員",
+			characterId = 101200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "ステファンの分はもう包んであるから、このまま持ってって",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "没问题。",
-			characterId = 0,
+			subName = "カフェ店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

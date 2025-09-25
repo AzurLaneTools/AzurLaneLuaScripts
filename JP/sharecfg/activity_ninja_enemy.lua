@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_ninja_enemy = {
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 1,
 		first_drop = 907150,
@@ -28,7 +28,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 2,
 		first_drop = 907151,
@@ -54,7 +54,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 3,
 		first_drop = 907152,
@@ -80,7 +80,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 4,
 		first_drop = 907153,
@@ -106,7 +106,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-クラーケン・テンタクル",
+		name = "寂静守卫-克拉肯之触",
 		model = "fengfan_haigu03",
 		id = 5,
 		first_drop = 907154,
@@ -137,7 +137,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 6,
 		first_drop = 907155,
@@ -163,7 +163,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 7,
 		first_drop = 907156,
@@ -189,7 +189,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 8,
 		first_drop = 907157,
@@ -215,7 +215,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 9,
 		first_drop = 907158,
@@ -241,7 +241,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "裁きのオニ-アルザス",
+		name = "裁决之鬼-阿尔萨斯",
 		model = "aersasi_3",
 		id = 10,
 		first_drop = 907159,
@@ -272,7 +272,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 11,
 		first_drop = 907160,
@@ -298,7 +298,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 12,
 		first_drop = 907161,
@@ -324,7 +324,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 13,
 		first_drop = 907162,
@@ -350,7 +350,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 14,
 		first_drop = 907163,
@@ -376,7 +376,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-ソビエツキー・ソユーズ",
+		name = "忍者五人众-苏维埃同盟",
 		model = "suweiaitongmeng_3",
 		id = 15,
 		first_drop = 907164,
@@ -407,7 +407,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ブライトマッドスライム饅頭",
+		name = "腐烂软泥啾莱姆",
 		model = "jiulaimu_ruanniguai",
 		id = 16,
 		first_drop = 907165,
@@ -433,7 +433,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 17,
 		first_drop = 907166,
@@ -459,7 +459,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 18,
 		first_drop = 907167,
@@ -485,7 +485,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 19,
 		first_drop = 907168,
@@ -511,7 +511,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-白鳳",
+		name = "忍者五人众-白凤",
 		model = "baifeng_2",
 		id = 20,
 		first_drop = 907169,
@@ -542,7 +542,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 21,
 		first_drop = 907170,
@@ -563,7 +563,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 22,
 		first_drop = 907171,
@@ -584,7 +584,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 23,
 		first_drop = 907172,
@@ -605,7 +605,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 24,
 		first_drop = 907173,
@@ -626,7 +626,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-グアム",
+		name = "忍者五人众-关岛",
 		model = "guandao_3",
 		id = 25,
 		first_drop = 907174,
@@ -647,7 +647,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 26,
 		first_drop = 907175,
@@ -668,7 +668,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 27,
 		first_drop = 907176,
@@ -689,7 +689,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-灯のアンコウ",
+		name = "寂静之灵-掌灯幽影",
 		model = "fengfan_haigu04",
 		id = 28,
 		first_drop = 907177,
@@ -710,7 +710,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		model = "fengfan_haigu01",
 		id = 29,
 		first_drop = 907178,
@@ -731,7 +731,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-雲仙",
+		name = "忍者五人众-云仙",
 		model = "yunxian_3",
 		id = 30,
 		first_drop = 907179,
@@ -752,7 +752,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 31,
 		first_drop = 907180,
@@ -773,7 +773,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 32,
 		first_drop = 907181,
@@ -794,7 +794,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 33,
 		first_drop = 907182,
@@ -815,7 +815,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 34,
 		first_drop = 907183,
@@ -836,7 +836,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-伊404",
+		name = "忍者五人众-伊404",
 		model = "i404_2",
 		id = 35,
 		first_drop = 907184,
@@ -857,7 +857,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 36,
 		first_drop = 907185,
@@ -878,7 +878,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 37,
 		first_drop = 907186,
@@ -899,7 +899,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 38,
 		first_drop = 907187,
@@ -920,7 +920,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 39,
 		first_drop = 907188,
@@ -941,7 +941,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-グアム",
+		name = "忍者五人众-关岛",
 		model = "guandao_3",
 		id = 40,
 		first_drop = 907189,
@@ -962,7 +962,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 41,
 		first_drop = 907190,
@@ -983,7 +983,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ブライトマッドスライム饅頭",
+		name = "腐烂软泥啾莱姆",
 		model = "jiulaimu_ruanniguai",
 		id = 42,
 		first_drop = 907191,
@@ -1004,7 +1004,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 43,
 		first_drop = 907192,
@@ -1025,7 +1025,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 44,
 		first_drop = 907193,
@@ -1046,7 +1046,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "華裳のオニ-浅間",
+		name = "华裳之鬼-浅间",
 		model = "qianjian_2",
 		id = 45,
 		first_drop = 907194,
@@ -1067,7 +1067,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 46,
 		first_drop = 907195,
@@ -1088,7 +1088,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 47,
 		first_drop = 907196,
@@ -1109,7 +1109,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 48,
 		first_drop = 907197,
@@ -1130,7 +1130,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 49,
 		first_drop = 907198,
@@ -1151,7 +1151,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "水辺のオニ-近江",
+		name = "溺诱之鬼-近江",
 		model = "jinjiang_2",
 		id = 50,
 		first_drop = 907199,
@@ -1172,7 +1172,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 51,
 		first_drop = 907200,
@@ -1193,7 +1193,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 52,
 		first_drop = 907201,
@@ -1214,7 +1214,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 53,
 		first_drop = 907202,
@@ -1235,7 +1235,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 54,
 		first_drop = 907203,
@@ -1256,7 +1256,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "華裳のオニ-浅間",
+		name = "华裳之鬼-浅间",
 		model = "qianjian_2",
 		id = 55,
 		first_drop = 907204,
@@ -1277,7 +1277,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 56,
 		first_drop = 907205,
@@ -1298,7 +1298,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 57,
 		first_drop = 907206,
@@ -1319,7 +1319,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 58,
 		first_drop = 907207,
@@ -1340,7 +1340,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 59,
 		first_drop = 907208,
@@ -1361,7 +1361,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-伊404",
+		name = "忍者五人众-伊404",
 		model = "i404_2",
 		id = 60,
 		first_drop = 907209,
@@ -1382,7 +1382,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ブライトマッドスライム饅頭",
+		name = "腐烂软泥啾莱姆",
 		model = "jiulaimu_ruanniguai",
 		id = 61,
 		first_drop = 907210,
@@ -1403,7 +1403,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 62,
 		first_drop = 907211,
@@ -1424,7 +1424,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 63,
 		first_drop = 907212,
@@ -1445,7 +1445,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 64,
 		first_drop = 907213,
@@ -1466,7 +1466,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "子狐-水無瀬",
+		name = "小狐妖-水无濑",
 		model = "shuiwulai_2",
 		id = 65,
 		first_drop = 907214,
@@ -1487,7 +1487,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-灯のアンコウ",
+		name = "寂静之灵-掌灯幽影",
 		model = "fengfan_haigu04",
 		id = 66,
 		first_drop = 907215,
@@ -1508,7 +1508,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 67,
 		first_drop = 907216,
@@ -1529,7 +1529,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 68,
 		first_drop = 907217,
@@ -1550,7 +1550,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 69,
 		first_drop = 907218,
@@ -1571,7 +1571,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-ソビエツキー・ソユーズ",
+		name = "忍者五人众-苏维埃同盟",
 		model = "suweiaitongmeng_3",
 		id = 70,
 		first_drop = 907219,
@@ -1592,7 +1592,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 71,
 		first_drop = 907220,
@@ -1613,7 +1613,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 72,
 		first_drop = 907221,
@@ -1634,7 +1634,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "キング饅頭スライム",
+		name = "啾莱姆王",
 		model = "jiulaimu_guowang",
 		id = 73,
 		first_drop = 907222,
@@ -1655,7 +1655,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		model = "fengfan_haigu01",
 		id = 74,
 		first_drop = 907223,
@@ -1676,7 +1676,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-モリソン",
+		name = "忍者五人众-莫里森",
 		model = "molisen_3",
 		id = 75,
 		first_drop = 907224,
@@ -1697,7 +1697,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 76,
 		first_drop = 907225,
@@ -1718,7 +1718,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 77,
 		first_drop = 907226,
@@ -1739,7 +1739,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-灯のアンコウ",
+		name = "寂静之灵-掌灯幽影",
 		model = "fengfan_haigu04",
 		id = 78,
 		first_drop = 907227,
@@ -1760,7 +1760,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 79,
 		first_drop = 907228,
@@ -1781,7 +1781,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "裁きのオニ-アルザス",
+		name = "裁决之鬼-阿尔萨斯",
 		model = "aersasi_3",
 		id = 80,
 		first_drop = 907229,
@@ -1802,7 +1802,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 81,
 		first_drop = 907230,
@@ -1823,7 +1823,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 82,
 		first_drop = 907231,
@@ -1844,7 +1844,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ミミック饅頭スライム",
+		name = "宝箱啾莱姆",
 		model = "jiulaimu_quzhu",
 		id = 83,
 		first_drop = 907232,
@@ -1865,7 +1865,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 84,
 		first_drop = 907233,
@@ -1886,7 +1886,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "子狐-水無瀬",
+		name = "小狐妖-水无濑",
 		model = "shuiwulai_2",
 		id = 85,
 		first_drop = 907234,
@@ -1907,7 +1907,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ブライトマッドスライム饅頭",
+		name = "腐烂软泥啾莱姆",
 		model = "jiulaimu_ruanniguai",
 		id = 86,
 		first_drop = 907235,
@@ -1928,7 +1928,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 87,
 		first_drop = 907236,
@@ -1949,7 +1949,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "キング饅頭スライム",
+		name = "啾莱姆王",
 		model = "jiulaimu_guowang",
 		id = 88,
 		first_drop = 907237,
@@ -1970,7 +1970,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 89,
 		first_drop = 907238,
@@ -1991,7 +1991,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の巨獣-クラーケン",
+		name = "寂静领主-克拉肯",
 		model = "fengfan_haigu06",
 		id = 90,
 		first_drop = 907239,
@@ -2012,7 +2012,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 91,
 		first_drop = 907240,
@@ -2033,7 +2033,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		model = "fengfan_haigu01",
 		id = 92,
 		first_drop = 907241,
@@ -2054,7 +2054,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ヘルデーモンスライム饅頭",
+		name = "地狱恶魔啾莱姆",
 		model = "jiulaimu_emo",
 		id = 93,
 		first_drop = 907242,
@@ -2075,7 +2075,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 94,
 		first_drop = 907243,
@@ -2096,7 +2096,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-モリソン",
+		name = "忍者五人众-莫里森",
 		model = "molisen_3",
 		id = 95,
 		first_drop = 907244,
@@ -2117,7 +2117,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 96,
 		first_drop = 907245,
@@ -2138,7 +2138,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "魔導饅頭スライム",
+		name = "魔法啾莱姆",
 		model = "jiulaimu_hangmu",
 		id = 97,
 		first_drop = 907246,
@@ -2159,7 +2159,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		model = "fengfan_haigu01",
 		id = 98,
 		first_drop = 907247,
@@ -2180,7 +2180,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 99,
 		first_drop = 907248,
@@ -2201,7 +2201,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-クラーケン・テンタクル",
+		name = "寂静守卫-克拉肯之触",
 		model = "fengfan_haigu03",
 		id = 100,
 		first_drop = 907249,
@@ -2222,7 +2222,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 101,
 		first_drop = 0,
@@ -2232,7 +2232,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 102,
 		first_drop = 0,
@@ -2242,7 +2242,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 103,
 		first_drop = 0,
@@ -2252,7 +2252,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ダーク饅頭スライムナイト",
+		name = "黑暗啾莱姆骑士",
 		model = "jiulaimu_zhanlie",
 		id = 104,
 		first_drop = 0,
@@ -2262,7 +2262,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "忍者五人衆-白鳳",
+		name = "忍者五人众-白凤",
 		model = "baifeng_2",
 		id = 105,
 		first_drop = 0,
@@ -2272,7 +2272,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 106,
 		first_drop = 0,
@@ -2282,7 +2282,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ガーゴイルスライム饅頭",
+		name = "啾莱姆石像鬼",
 		model = "jiulaimu_shixianggui",
 		id = 107,
 		first_drop = 0,
@@ -2292,7 +2292,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 108,
 		first_drop = 0,
@@ -2302,7 +2302,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "キング饅頭スライム",
+		name = "啾莱姆王",
 		model = "jiulaimu_guowang",
 		id = 109,
 		first_drop = 0,
@@ -2312,7 +2312,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の巨獣-クラーケン",
+		name = "寂静领主-克拉肯",
 		model = "fengfan_haigu06",
 		id = 110,
 		first_drop = 0,
@@ -2322,7 +2322,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-灯のアンコウ",
+		name = "寂静守卫-掌灯幽影",
 		model = "fengfan_haigu01",
 		id = 111,
 		first_drop = 0,
@@ -2332,7 +2332,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 112,
 		first_drop = 0,
@@ -2342,7 +2342,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 113,
 		first_drop = 0,
@@ -2352,7 +2352,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の魂-眠れるサメ",
+		name = "寂静之灵-沉眠潜伏者",
 		model = "fengfan_haigu05",
 		id = 114,
 		first_drop = 0,
@@ -2362,7 +2362,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "プチ忍者-妙風",
+		name = "小忍者-妙风",
 		model = "miaofeng_2",
 		id = 115,
 		first_drop = 0,
@@ -2372,7 +2372,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "爆弾饅頭スライム",
+		name = "炎爆啾莱姆",
 		model = "jiulaimu_zibao",
 		id = 116,
 		first_drop = 0,
@@ -2382,7 +2382,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "ゴースト饅頭スライム",
+		name = "幽魂啾莱姆",
 		model = "jiulaimu_qingxun",
 		id = 117,
 		first_drop = 0,
@@ -2392,7 +2392,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "バーサーク饅頭スライムナイト",
+		name = "狂野啾莱姆战士",
 		model = "jiulaimu_zhongxun",
 		id = 118,
 		first_drop = 0,
@@ -2402,7 +2402,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "静寂の守り手-眠れるサメ",
+		name = "寂静守卫-沉眠潜伏者",
 		model = "fengfan_haigu02",
 		id = 119,
 		first_drop = 0,
@@ -2412,7 +2412,7 @@ pg.activity_ninja_enemy = {
 	},
 	{
 		drop = 545,
-		name = "プチ忍者-妙風",
+		name = "小忍者-妙风",
 		model = "miaofeng_2",
 		id = 120,
 		first_drop = 0,

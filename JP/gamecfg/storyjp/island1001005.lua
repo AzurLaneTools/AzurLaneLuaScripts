@@ -1,5 +1,6 @@
 return {
 	mode = 10,
+	fadeOut = 1,
 	id = "ISLAND1001005",
 	map = {
 		{
@@ -13,48 +14,77 @@ return {
 	},
 	look_weight = {
 		{
-			0.7,
+			0,
 			0
 		},
 		{
 			0.3,
 			0
+		},
+		{
+			0.7,
+			0
 		}
 	},
 	scripts = {
 		{
-			animation = "talk",
-			subName = "矿山管理员",
-			characterId = 100600,
-			say = "喔哦，指挥官好厉害！加上你采的这些，修复计划用到的煤炭就足够了。",
+			say = "――ジョン、これで十分かな？",
+			characterId = 0,
+			camera = "StoryCamera2",
 			face2Face = {
 				{
 					0,
 					100600
 				}
 			},
-			turnto = {
-				{
-					100700,
-					0
-				}
-			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "おお！さすが指揮官！すごいすごい！",
+			characterId = 100600,
+			subName = "鉱山管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			speed = 3.5,
+			style = 4,
+			hide = false,
+			characterId = 100700,
+			delay = 0,
+			wait_until_done = false,
+			position = {
+				71.59,
+				3.98,
+				70.66
+			}
+		},
+		{
+			say = "指揮官が掘ってくれた分を合わせたら揃ったよ！やっと希望が見えてきた…",
+			characterId = 100600,
+			subName = "鉱山管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这样就能修复好交通线了？",
+					content = "じゃあこれで修理できるのか？",
 					flag = 1
 				}
 			}
 		},
 		{
 			animation = "think",
-			say = "还不行，要想完全修好的话还需要一些木材。",
+			say = "あと少し！完全に直すには屋根の補強用木材も欲しいから",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "鉱山管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,16 +92,17 @@ return {
 		},
 		{
 			animation = "amaze",
-			say = "欸？原来还要木材啊，我都没准备呢。",
+			say = "あ……も、木材ですか？そこは準備していませんでした……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "乔安，现在去还来得及吗？",
+			say = "――ジョン、今からでも間に合う？",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,10 +110,28 @@ return {
 			}
 		},
 		{
-			animation = "talk",
-			say = "嗯……我会在你们去准备木材的同时进行一些基础的修复工作，这样就来得及了！",
+			animation = "nod",
+			say = "うん！絶対に間に合うよ！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "鉱山管理人",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "指揮官たちが木材の準備をしてくれてる間に、この石炭を使って路面の修復からやってみる！",
+			subName = "鉱山管理人",
+			characterId = 100600,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "二手に分かれれば間に合うでしょ！オブライン、指揮官を森に連れて行ってくれる？",
+			subName = "鉱山管理人",
+			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,29 +139,29 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好耶~那指挥官，我们赶快出发吧！",
+			say = "は、はい！",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "要快点采集到这些木材才行。",
+			say = "指揮官……早く木材を集めに行きましょう",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "森の管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，我这就去看看。",
+					content = "わかった。すぐ行く",
 					flag = 1
 				},
 				{
-					content = "包在我身上！",
+					content = "任せて！",
 					flag = 2
 				}
 			}

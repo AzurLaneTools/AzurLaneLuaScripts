@@ -184,6 +184,7 @@ slot0.doMain = function(slot0)
 		uv0.intimacyTF = uv0:findTF("intimacy/icon", uv0.window)
 		uv0.intimacyValueTF = uv0:findTF("intimacy/value", uv0.window)
 		uv0.button = uv0:findTF("button", uv0.window)
+		uv0.giftButton = uv0:findTF("giftBtn", uv0.window)
 		uv0.intimacyDesc = uv0:findTF("desc", uv0.window)
 		uv0.intimacydescTime = uv0:findTF("descPic/desc_time", uv0.window)
 		uv0.intimacyDescPic = uv0:findTF("descPic", uv0.window)
@@ -260,9 +261,7 @@ slot0.doMain = function(slot0)
 
 		setText(uv0.intimacyBuffDesc, "*" .. i18n(slot4 .. "_buff"))
 		uv0:loadChar()
-		pg.UIMgr.GetInstance():BlurPanel(uv0._tf, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(uv0._tf)
 		setActive(uv0.button, not uv0.shipVO:ShowPropose())
 
 		uv0.button:GetComponent(typeof(Button)).interactable = not uv0.shipVO.propose and slot1 <= slot2 or uv0.shipVO.propose and not uv0.shipVO:ShowPropose()
@@ -317,6 +316,14 @@ slot0.doMain = function(slot0)
 			else
 				uv1:closeView()
 			end
+		end, SFX_PANEL)
+		setActive(uv0.giftButton, not LOCK_SHIP_GIFT)
+		onButton(uv0, uv0.giftButton, function ()
+			if LOCK_SHIP_GIFT then
+				return
+			end
+
+			uv0:emit(ProposeMediator.GIFT_SHIP, uv0.shipVO.id)
 		end, SFX_PANEL)
 	end)
 end
@@ -433,7 +440,7 @@ slot0.willExit = function(slot0)
 		setActive(slot0.commonTF, true)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.l2dChar then
 		slot0.l2dChar:ClearPics()
@@ -1263,14 +1270,12 @@ end
 
 slot0.showExchangePanel = function(slot0)
 	setActive(slot0.exchangePanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel)
 end
 
 slot0.hideExchangePanel = function(slot0)
 	setActive(slot0.exchangePanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.exchangePanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.exchangePanel, slot0._tf)
 end
 
 slot0.checkPaintingRes = function(slot0, slot1, slot2)

@@ -24,9 +24,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
@@ -116,7 +114,7 @@ end
 slot0.willExit = function(slot0)
 	slot4 = pg.UIMgr.GetInstance().UIMain
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot4)
 
 	for slot4, slot5 in ipairs(slot0.cards) do
 		slot5:Dispose()

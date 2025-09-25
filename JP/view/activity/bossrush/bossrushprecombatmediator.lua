@@ -207,8 +207,7 @@ slot0.bindEvent = function(slot0)
 					getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.GOLD_MAX)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
-						onYes = slot0,
-						weight = LayerWeightConst.SECOND_LAYER
+						onYes = slot0
 					})
 				else
 					slot0()

@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
-			subName = "牧场管理员",
-			characterId = 100500,
-			say = "呀！是指挥官！欢迎来到梅莉的悠然牧场！",
+			say = "――アメリゴ？",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,17 +33,26 @@ return {
 			}
 		},
 		{
-			say = "我正在给未来的小家伙们收拾睡觉的地方呢！",
-			animation = "talk",
+			say = "あっ、指揮官！アメリゴの悠々牧場へようこそ！",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "计划上的……高精尖技术聚合而成，能让动物们获得最佳生存环境的悠然牧场……",
+			say = "これからやってくる、ちびちゃんたちの寝床を整えているところなんだ！",
+			subName = "牧場管理人",
+			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "――「最新鋭の技術を集結させて、動物たちに最高の暮らしを提供する理想の牧場」って計画書にあったな……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "没错，很快这里就能变得超——级舒服，动物们一定会喜欢的！",
+			say = "その通り！もうすぐ超快適になるから、動物たちも絶対気に入ってくれるよ！",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "辛苦了梅莉……但是计划中的动物……怎么一只也没有呢？",
+			say = "――それはお疲れさまだね……でも、計画にあった肝心の動物は……一匹もいないようだけど？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,17 +78,16 @@ return {
 			}
 		},
 		{
-			say = "计划是计划啦~现在的牧场还只有一只咯咯鸡哦，我散养着呢！",
-			animation = "embarrass",
+			say = "あくまで計画ってだけだから！今牧場には放し飼いのコッコートリ一羽しかいないよ！",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……散养？梅莉，我怎么什么都没看到？",
+			say = "――……放し飼い？アメリゴ、どこにも見当たらないけど？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,18 +95,18 @@ return {
 			}
 		},
 		{
-			say = "哎呀，指挥官你真是不懂牧场的浪漫！",
+			say = "もう、指揮官は牧場のロマンがわかってないな",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "散养嘛~就是让它自由自在地在牧场范围内活动呀！",
-			subName = "牧场管理员",
+			say = "放し飼いっていうのはね、自由気ままに過ごさせることなの",
+			subName = "牧場管理人",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -108,27 +114,28 @@ return {
 			}
 		},
 		{
-			say = "你看~只要这样撒上一点食物……然后再……",
+			say = "でもほら、こうして餌をパラパラっと撒いて……それから……",
 			animation = "sow",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咕咕咕——！开饭啦！好吃的来喽！快回来呀——！",
+			say = "コッコー！ごはんだよ！おいしいごはんだよー！おいでー！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……好像什么也没发生啊。",
+			animation = "talk",
+			say = "――……何も起きないな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -136,48 +143,46 @@ return {
 			}
 		},
 		{
-			say = "等等！让我再试试！",
-			animation = "embarrass",
+			say = "待って！もう一回やるから！",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咕咕咕——！今天有好吃的玉米粒哦！再不回来就被小鸟吃掉啦！",
+			say = "コッコー！今日は甘～いトウモロコシだよ！早く来ないと片づけちゃうよー！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "奇、奇怪……平时一叫它就扑腾扑腾跑回来了啊……",
-			animation = "doubt",
+			say = "あ、あれ……いつもなら呼んだらすぐ来るのに……",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "该不会……该不会是跑出牧场范围了吧？！",
-			animation = "embarrass",
+			say = "まさか……牧場の外に出ちゃった？！",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
-			say = "看来……我们唯一的牧场居民追求更大的自由去了。",
+			animation = "talk",
+			say = "――自由を求めに外に出たのかも……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -185,28 +190,27 @@ return {
 			}
 		},
 		{
-			say = "指——挥——官——！帮帮我！求求你帮我把它带回来好不好？",
+			say = "指揮官ー！お願い！あの子を連れ戻してくれない？",
 			animation = "sad",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没有它，我的牧场梦想第一步就要完蛋了啦！",
-			animation = "embarrass",
+			say = "あの子がいないと、牧場の夢が始まる前に終わっちゃうよ！",
+			subName = "牧場管理人",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "clap",
-			say = "好了好了，别慌~它应该不会跑远，我这就去把我们牧场的唯一居民给……请回来。",
+			animation = "nod",
+			say = "――わかったから落ち着いて。すぐに連れ戻してくる",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +218,10 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯！指挥官你最好啦！",
+			say = "やったぁ！指揮官、大好き！",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

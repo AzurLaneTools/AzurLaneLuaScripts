@@ -57,7 +57,6 @@ slot0.onRegister = function(slot0)
 			})
 		end
 
-		pg.PoolMgr.GetInstance():ClearAllTempCache()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)
 	end)
 	slot0:bind(BaseUI.ON_CLOSE, function (slot0)
@@ -151,8 +150,7 @@ slot0.onRegister = function(slot0)
 						mediator = NewSkinMediator,
 						viewComponent = NewSkinLayer,
 						data = {
-							skinId = uv1.id,
-							LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+							skinId = uv1.id
 						},
 						onRemoved = slot0
 					}))
@@ -167,8 +165,7 @@ slot0.onRegister = function(slot0)
 							viewComponent = NewSkinLayer,
 							data = {
 								timeLimit = true,
-								skinId = uv1.id,
-								LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+								skinId = uv1.id
 							},
 							onRemoved = slot0
 						}))
@@ -304,8 +301,7 @@ slot0.commonBind = function(slot0)
 					data = {
 						equipmentId = slot2:getConfig("id"),
 						type = EquipmentInfoMediator.TYPE_DISPLAY,
-						onRemoved = slot3,
-						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+						onRemoved = slot3
 					}
 				}))
 			elseif slot2.type == DROP_TYPE_SPWEAPON then
@@ -315,8 +311,7 @@ slot0.commonBind = function(slot0)
 					data = {
 						spWeaponConfigId = slot2:getConfig("id"),
 						type = SpWeaponInfoLayer.TYPE_DISPLAY,
-						onRemoved = slot3,
-						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+						onRemoved = slot3
 					}
 				}))
 			elseif slot2.type == DROP_TYPE_EQUIPMENT_SKIN then
@@ -325,8 +320,7 @@ slot0.commonBind = function(slot0)
 					viewComponent = EquipmentSkinLayer,
 					data = {
 						skinId = slot2:getConfig("id"),
-						mode = EquipmentSkinLayer.DISPLAY,
-						weight = LayerWeightConst.TOP_LAYER
+						mode = EquipmentSkinLayer.DISPLAY
 					}
 				}))
 			elseif slot2.type == DROP_TYPE_EMOJI then
@@ -350,8 +344,7 @@ slot0.commonBind = function(slot0)
 					type = MSGBOX_TYPE_SINGLE_ITEM,
 					drop = slot2,
 					onNo = slot3,
-					onYes = slot3,
-					weight = LayerWeightConst.TOP_LAYER
+					onYes = slot3
 				})
 			end
 		end,
@@ -366,8 +359,7 @@ slot0.commonBind = function(slot0)
 					uv0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
 						uv0.viewComponent:emit(BaseUI.ON_DROP_LIST, uv1)
 					end)
-				end,
-				weight = LayerWeightConst.TOP_LAYER
+				end
 			})
 		end,
 		[BaseUI.ON_DROP_LIST_OWN] = function (slot0, slot1, slot2)
@@ -381,8 +373,7 @@ slot0.commonBind = function(slot0)
 					uv0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
 						uv0.viewComponent:emit(BaseUI.ON_DROP_LIST, uv1)
 					end)
-				end,
-				weight = LayerWeightConst.TOP_LAYER
+				end
 			})
 		end,
 		[BaseUI.ON_ITEM] = function (slot0, slot1, slot2, slot3)
@@ -434,23 +425,11 @@ slot0.commonBind = function(slot0)
 			}))
 		end,
 		[BaseUI.ON_NEW_DROP] = function (slot0, slot1, slot2)
-			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP, setmetatable(slot2, {
-				__index = {
-					blurParams = {
-						weight = LayerWeightConst.TOP_LAYER
-					}
-				}
-			}))
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP, slot2)
 		end,
 		[BaseUI.ON_NEW_STYLE_DROP] = function (slot0, slot1, slot2)
 			slot3 = pg.NewStyleMsgboxMgr.TYPE_COMMON_DROP
-			slot4 = setmetatable(slot2, {
-				__index = {
-					blurParams = {
-						weight = LayerWeightConst.TOP_LAYER
-					}
-				}
-			})
+			slot4 = slot2
 
 			if slot2.useDeepShow then
 				pg.NewStyleMsgboxMgr.GetInstance():DeepShow(slot3, slot4)
@@ -468,9 +447,6 @@ slot0.commonBind = function(slot0)
 							name = i18n("msgbox_text_confirm"),
 							sound = SFX_CONFIRM
 						}
-					},
-					blurParams = {
-						weight = LayerWeightConst.TOP_LAYER
 					},
 					items = slot2.itemList,
 					content = slot2.content,

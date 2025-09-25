@@ -10,6 +10,10 @@ slot0.getUIName = function(slot0)
 	return "ShipRemouldUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "ShipMainScene"
+end
+
 slot0.init = function(slot0)
 	slot0.container = slot0:findTF("main/bg/container")
 	slot0.gridContainer = slot0:findTF("grids", slot0.container)
@@ -851,15 +855,12 @@ slot0.showToolTip = function(slot0, slot1)
 		uv0:closeTip()
 	end, SFX_CANCEL)
 	setActive(slot0.tooltip, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.tooltip, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	slot0:OverlayPanel(slot0.tooltip)
 end
 
 slot0.closeTip = function(slot0)
 	setActive(slot0.tooltip, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
+	slot0:UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
 slot0.willExit = function(slot0)
@@ -867,7 +868,7 @@ slot0.willExit = function(slot0)
 		setActive(slot0.helpBtn, true)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
+	slot0:UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)

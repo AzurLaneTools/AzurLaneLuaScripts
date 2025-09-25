@@ -1,4 +1,9 @@
 slot0 = class("IslandHudView")
+slot0.LuaName2ContainerName = {
+	IslandVisitorHudPanel = "visitorContainer",
+	IslandNormalHudPanel = "npcInfoContainer",
+	IslandCustomerHudPanel = "npcInfoContainer"
+}
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.view = slot1
