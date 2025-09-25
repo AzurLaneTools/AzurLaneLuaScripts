@@ -2,7 +2,7 @@ pg = pg or {}
 pg.arena_data_template = {
 	{
 		id = 1,
-		display = "恭喜您，您获得本赛季竞技场的冠军，获得以下奖励。",
+		display = "演習強化期間・筆頭主力艦隊の報酬が届きました！",
 		order = {
 			1,
 			1
@@ -17,7 +17,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 2,
-		display = "恭喜您，您获得本赛季竞技场的第2档奖励，奖励如下。",
+		display = "演習強化期間・第二群の報酬が届きました！",
 		order = {
 			2,
 			5
@@ -32,7 +32,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 3,
-		display = "恭喜您，您获得本赛季竞技场的第3档奖励，奖励如下。",
+		display = "演習強化期間・第三群の報酬が届きました！",
 		order = {
 			6,
 			10
@@ -47,7 +47,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 4,
-		display = "恭喜您，您获得本赛季竞技场的第4档奖励，奖励如下。",
+		display = "演習強化期間・第四群の報酬が届きました！",
 		order = {
 			11,
 			20
@@ -62,7 +62,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 5,
-		display = "恭喜您，您获得本赛季竞技场的第5档奖励，奖励如下。",
+		display = "演習強化期間・第五群の報酬が届きました！",
 		order = {
 			21,
 			50
@@ -77,7 +77,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 6,
-		display = "恭喜您，您获得本赛季竞技场的第6档奖励，奖励如下。",
+		display = "演習強化期間・第六群の報酬が届きました！",
 		order = {
 			51,
 			100
@@ -92,7 +92,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 7,
-		display = "恭喜您，您获得本赛季竞技场的第7档奖励，奖励如下。",
+		display = "演習強化期間・第七群の報酬が届きました！",
 		order = {
 			101,
 			500
@@ -107,7 +107,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 8,
-		display = "恭喜您，您获得本赛季竞技场的第8档奖励，奖励如下。",
+		display = "演習強化期間・第八群の報酬が届きました！",
 		order = {
 			501,
 			1000
@@ -122,7 +122,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 9,
-		display = "恭喜您，您获得本赛季竞技场的第9档奖励，奖励如下。",
+		display = "演習強化期間・第九群の報酬が届きました！",
 		order = {
 			1001,
 			2000
@@ -137,7 +137,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 10,
-		display = "恭喜您，您获得本赛季竞技场的第10档奖励，奖励如下。",
+		display = "演習強化期間・第十群の報酬が届きました！",
 		order = {
 			2001,
 			3000
@@ -152,7 +152,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 11,
-		display = "恭喜您，您获得本赛季竞技场的参与奖励，奖励如下。",
+		display = "演習強化期間・参加報酬が届きました！",
 		order = {
 			3001,
 			9999999

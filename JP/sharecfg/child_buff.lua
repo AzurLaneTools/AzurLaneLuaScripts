@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.child_buff = {
 	[1001] = {
-		name = "忧心忡忡·弱",
+		name = "遠慮近憂·普",
 		during_time = 1,
 		id = 1001,
 		icon = "1001",
-		desc = "消耗心情+1",
+		desc = "気分消費+1",
 		effect = {
 			{
 				2,
@@ -16,11 +16,11 @@ pg.child_buff = {
 		}
 	},
 	[1002] = {
-		name = "忧心忡忡·中",
+		name = "遠慮近憂·中",
 		during_time = 1,
 		id = 1002,
 		icon = "1002",
-		desc = "消耗心情+2",
+		desc = "気分消費+2",
 		effect = {
 			{
 				2,
@@ -31,11 +31,11 @@ pg.child_buff = {
 		}
 	},
 	[1003] = {
-		name = "忧心忡忡·强",
+		name = "遠慮近憂·強",
 		during_time = 1,
 		id = 1003,
 		icon = "1003",
-		desc = "消耗心情+3",
+		desc = "気分消費+3",
 		effect = {
 			{
 				2,
@@ -46,11 +46,11 @@ pg.child_buff = {
 		}
 	},
 	[1004] = {
-		name = "悠然自得·良",
+		name = "悠々自適·良",
 		during_time = 1,
 		id = 1004,
 		icon = "1004",
-		desc = "消耗心情-1",
+		desc = "気分消費-1",
 		effect = {
 			{
 				2,
@@ -61,11 +61,11 @@ pg.child_buff = {
 		}
 	},
 	[1005] = {
-		name = "悠然自得·佳",
+		name = "悠々自適·優",
 		during_time = 1,
 		id = 1005,
 		icon = "1005",
-		desc = "消耗心情-2",
+		desc = "気分消費-2",
 		effect = {
 			{
 				2,
@@ -76,11 +76,11 @@ pg.child_buff = {
 		}
 	},
 	[1006] = {
-		name = "悠然自得·优",
+		name = "悠々自適·秀",
 		during_time = 1,
 		id = 1006,
 		icon = "1006",
-		desc = "消耗心情-3",
+		desc = "気分消費-3",
 		effect = {
 			{
 				2,
@@ -91,11 +91,11 @@ pg.child_buff = {
 		}
 	},
 	[1011] = {
-		name = "挥金如土·弱",
+		name = "無為浪費·普",
 		during_time = 1,
 		id = 1011,
 		icon = "1011",
-		desc = "消耗金钱-1",
+		desc = "財貨消費-1",
 		effect = {
 			{
 				2,
@@ -106,11 +106,11 @@ pg.child_buff = {
 		}
 	},
 	[1012] = {
-		name = "挥金如土·中",
+		name = "無為浪費·中",
 		during_time = 1,
 		id = 1012,
 		icon = "1012",
-		desc = "消耗金钱-2",
+		desc = "財貨消費-2",
 		effect = {
 			{
 				2,
@@ -121,11 +121,11 @@ pg.child_buff = {
 		}
 	},
 	[1013] = {
-		name = "挥金如土·强",
+		name = "無為浪費·強",
 		during_time = 1,
 		id = 1013,
 		icon = "1013",
-		desc = "消耗金钱-3",
+		desc = "財貨消費-3",
 		effect = {
 			{
 				2,
@@ -136,11 +136,11 @@ pg.child_buff = {
 		}
 	},
 	[1014] = {
-		name = "日进斗金·良",
+		name = "金運招来·良",
 		during_time = 1,
 		id = 1014,
 		icon = "1014",
-		desc = "获得金钱+1",
+		desc = "財貨消費+1",
 		effect = {
 			{
 				2,
@@ -151,11 +151,11 @@ pg.child_buff = {
 		}
 	},
 	[1015] = {
-		name = "日进斗金·佳",
+		name = "金運招来·優",
 		during_time = 1,
 		id = 1015,
 		icon = "1015",
-		desc = "获得金钱+2",
+		desc = "財貨消費+2",
 		effect = {
 			{
 				2,
@@ -166,11 +166,11 @@ pg.child_buff = {
 		}
 	},
 	[1016] = {
-		name = "日进斗金·优",
+		name = "金運招来·秀",
 		during_time = 1,
 		id = 1016,
 		icon = "1016",
-		desc = "获得金钱+3",
+		desc = "財貨消費+3",
 		effect = {
 			{
 				2,
@@ -181,11 +181,11 @@ pg.child_buff = {
 		}
 	},
 	[1021] = {
-		name = "体弱多病·弱",
+		name = "虚弱体質·普",
 		during_time = 1,
 		id = 1021,
 		icon = "1021",
-		desc = "获得体能-1",
+		desc = "体力入手量-1",
 		effect = {
 			{
 				1,
@@ -196,11 +196,11 @@ pg.child_buff = {
 		}
 	},
 	[1022] = {
-		name = "体弱多病·中",
+		name = "虚弱体質·中",
 		during_time = 1,
 		id = 1022,
 		icon = "1022",
-		desc = "获得体能-2",
+		desc = "体力入手量-2",
 		effect = {
 			{
 				1,
@@ -211,11 +211,11 @@ pg.child_buff = {
 		}
 	},
 	[1023] = {
-		name = "体弱多病·强",
+		name = "虚弱体質·強",
 		during_time = 1,
 		id = 1023,
 		icon = "1023",
-		desc = "获得体能-3",
+		desc = "体力入手量-3",
 		effect = {
 			{
 				1,
@@ -226,11 +226,11 @@ pg.child_buff = {
 		}
 	},
 	[1024] = {
-		name = "强身健体·良",
+		name = "質実剛健·良",
 		during_time = 1,
 		id = 1024,
 		icon = "1024",
-		desc = "获得体能+1",
+		desc = "体力入手量+1",
 		effect = {
 			{
 				1,
@@ -241,11 +241,11 @@ pg.child_buff = {
 		}
 	},
 	[1025] = {
-		name = "强身健体·佳",
+		name = "質実剛健·優",
 		during_time = 1,
 		id = 1025,
 		icon = "1025",
-		desc = "获得体能+2",
+		desc = "体力入手量+2",
 		effect = {
 			{
 				1,
@@ -256,11 +256,11 @@ pg.child_buff = {
 		}
 	},
 	[1026] = {
-		name = "强身健体·优",
+		name = "質実剛健·秀",
 		during_time = 1,
 		id = 1026,
 		icon = "1026",
-		desc = "获得体能+3",
+		desc = "体力入手量+3",
 		effect = {
 			{
 				1,
@@ -271,11 +271,11 @@ pg.child_buff = {
 		}
 	},
 	[1031] = {
-		name = "心不在焉·弱",
+		name = "注意散漫·普",
 		during_time = 1,
 		id = 1031,
 		icon = "1031",
-		desc = "获得智慧-1",
+		desc = "知識入手量-1",
 		effect = {
 			{
 				1,
@@ -286,11 +286,11 @@ pg.child_buff = {
 		}
 	},
 	[1032] = {
-		name = "心不在焉·中",
+		name = "注意散漫·中",
 		during_time = 1,
 		id = 1032,
 		icon = "1032",
-		desc = "获得智慧-2",
+		desc = "知識入手量-2",
 		effect = {
 			{
 				1,
@@ -301,11 +301,11 @@ pg.child_buff = {
 		}
 	},
 	[1033] = {
-		name = "心不在焉·强",
+		name = "注意散漫·強",
 		during_time = 1,
 		id = 1033,
 		icon = "1033",
-		desc = "获得智慧-3",
+		desc = "知識入手量-3",
 		effect = {
 			{
 				1,
@@ -316,11 +316,11 @@ pg.child_buff = {
 		}
 	},
 	[1034] = {
-		name = "专心致志·良",
+		name = "一意専心·良",
 		during_time = 1,
 		id = 1034,
 		icon = "1034",
-		desc = "获得智慧+1",
+		desc = "知識入手量+1",
 		effect = {
 			{
 				1,
@@ -331,11 +331,11 @@ pg.child_buff = {
 		}
 	},
 	[1035] = {
-		name = "专心致志·佳",
+		name = "注意散漫·優",
 		during_time = 1,
 		id = 1035,
 		icon = "1035",
-		desc = "获得智慧+2",
+		desc = "知識入手量+2",
 		effect = {
 			{
 				1,
@@ -346,11 +346,11 @@ pg.child_buff = {
 		}
 	},
 	[1036] = {
-		name = "专心致志·优",
+		name = "注意散漫·秀",
 		during_time = 1,
 		id = 1036,
 		icon = "1036",
-		desc = "获得智慧+3",
+		desc = "知識入手量+3",
 		effect = {
 			{
 				1,
@@ -361,11 +361,11 @@ pg.child_buff = {
 		}
 	},
 	[1041] = {
-		name = "不修边幅·弱",
+		name = "不安困惑·普",
 		during_time = 1,
 		id = 1041,
 		icon = "1041",
-		desc = "获得气质-1",
+		desc = "魅力入手量-1",
 		effect = {
 			{
 				1,
@@ -376,11 +376,11 @@ pg.child_buff = {
 		}
 	},
 	[1042] = {
-		name = "不修边幅·中",
+		name = "不安困惑·中",
 		during_time = 1,
 		id = 1042,
 		icon = "1042",
-		desc = "获得气质-2",
+		desc = "魅力入手量-2",
 		effect = {
 			{
 				1,
@@ -391,11 +391,11 @@ pg.child_buff = {
 		}
 	},
 	[1043] = {
-		name = "不修边幅·强",
+		name = "不安困惑·強",
 		during_time = 1,
 		id = 1043,
 		icon = "1043",
-		desc = "获得气质-3",
+		desc = "魅力入手量-3",
 		effect = {
 			{
 				1,
@@ -406,11 +406,11 @@ pg.child_buff = {
 		}
 	},
 	[1044] = {
-		name = "风度翩翩·良",
+		name = "カリスマ·良",
 		during_time = 1,
 		id = 1044,
 		icon = "1044",
-		desc = "获得气质+1",
+		desc = "魅力入手量+1",
 		effect = {
 			{
 				1,
@@ -421,11 +421,11 @@ pg.child_buff = {
 		}
 	},
 	[1045] = {
-		name = "风度翩翩·佳",
+		name = "カリスマ·優",
 		during_time = 1,
 		id = 1045,
 		icon = "1045",
-		desc = "获得气质+2",
+		desc = "魅力入手量+2",
 		effect = {
 			{
 				1,
@@ -436,11 +436,11 @@ pg.child_buff = {
 		}
 	},
 	[1046] = {
-		name = "风度翩翩·优",
+		name = "カリスマ·秀",
 		during_time = 1,
 		id = 1046,
 		icon = "1046",
-		desc = "获得气质+3",
+		desc = "魅力入手量+3",
 		effect = {
 			{
 				1,
@@ -451,11 +451,11 @@ pg.child_buff = {
 		}
 	},
 	[1051] = {
-		name = "苦思冥想·弱",
+		name = "旧套墨守·普",
 		during_time = 1,
 		id = 1051,
 		icon = "1051",
-		desc = "获得感知-1",
+		desc = "感受性入手量-1",
 		effect = {
 			{
 				1,
@@ -466,11 +466,11 @@ pg.child_buff = {
 		}
 	},
 	[1052] = {
-		name = "苦思冥想·中",
+		name = "旧套墨守·中",
 		during_time = 1,
 		id = 1052,
 		icon = "1052",
-		desc = "获得感知-2",
+		desc = "感受性入手量-2",
 		effect = {
 			{
 				1,
@@ -481,11 +481,11 @@ pg.child_buff = {
 		}
 	},
 	[1053] = {
-		name = "苦思冥想·强",
+		name = "旧套墨守·強",
 		during_time = 1,
 		id = 1053,
 		icon = "1053",
-		desc = "获得感知-3",
+		desc = "感受性入手量-3",
 		effect = {
 			{
 				1,
@@ -496,11 +496,11 @@ pg.child_buff = {
 		}
 	},
 	[1054] = {
-		name = "灵光一闪·良",
+		name = "ひらめき·良",
 		during_time = 1,
 		id = 1054,
 		icon = "1054",
-		desc = "获得感知+1",
+		desc = "感受性入手量+1",
 		effect = {
 			{
 				1,
@@ -511,11 +511,11 @@ pg.child_buff = {
 		}
 	},
 	[1055] = {
-		name = "灵光一闪·佳",
+		name = "ひらめき·優",
 		during_time = 1,
 		id = 1055,
 		icon = "1055",
-		desc = "获得感知+2",
+		desc = "感受性入手量+2",
 		effect = {
 			{
 				1,
@@ -526,11 +526,11 @@ pg.child_buff = {
 		}
 	},
 	[1056] = {
-		name = "灵光一闪·优",
+		name = "ひらめき·秀",
 		during_time = 1,
 		id = 1056,
 		icon = "1056",
-		desc = "获得感知+3",
+		desc = "感受性入手量+3",
 		effect = {
 			{
 				1,
@@ -541,11 +541,11 @@ pg.child_buff = {
 		}
 	},
 	[1061] = {
-		name = "不尽人意·弱",
+		name = "大根役者·普",
 		during_time = 1,
 		id = 1061,
 		icon = "1061",
-		desc = "获得表现-1",
+		desc = "表現力入手量-1",
 		effect = {
 			{
 				1,
@@ -556,11 +556,11 @@ pg.child_buff = {
 		}
 	},
 	[1062] = {
-		name = "不尽人意·中",
+		name = "大根役者·中",
 		during_time = 1,
 		id = 1062,
 		icon = "1062",
-		desc = "获得表现-2",
+		desc = "表現力入手量-2",
 		effect = {
 			{
 				1,
@@ -571,11 +571,11 @@ pg.child_buff = {
 		}
 	},
 	[1063] = {
-		name = "不尽人意·强",
+		name = "大根役者·強",
 		during_time = 1,
 		id = 1063,
 		icon = "1063",
-		desc = "获得表现-3",
+		desc = "表現力入手量-3",
 		effect = {
 			{
 				1,
@@ -586,11 +586,11 @@ pg.child_buff = {
 		}
 	},
 	[1064] = {
-		name = "才华横溢·良",
+		name = "多芸多才·良",
 		during_time = 1,
 		id = 1064,
 		icon = "1064",
-		desc = "获得表现+1",
+		desc = "表現力入手量+1",
 		effect = {
 			{
 				1,
@@ -601,11 +601,11 @@ pg.child_buff = {
 		}
 	},
 	[1065] = {
-		name = "才华横溢·佳",
+		name = "多芸多才·優",
 		during_time = 1,
 		id = 1065,
 		icon = "1065",
-		desc = "获得表现+2",
+		desc = "表現力入手量+2",
 		effect = {
 			{
 				1,
@@ -616,11 +616,11 @@ pg.child_buff = {
 		}
 	},
 	[1066] = {
-		name = "才华横溢·优",
+		name = "多芸多才·秀",
 		during_time = 1,
 		id = 1066,
 		icon = "1066",
-		desc = "获得表现+3",
+		desc = "表現力入手量+3",
 		effect = {
 			{
 				1,
@@ -631,11 +631,11 @@ pg.child_buff = {
 		}
 	},
 	[1071] = {
-		name = "五音不全·弱",
+		name = "音程迷子·普",
 		during_time = 1,
 		id = 1071,
 		icon = "1071",
-		desc = "获得乐理-1",
+		desc = "音楽入手量-1",
 		effect = {
 			{
 				1,
@@ -646,11 +646,11 @@ pg.child_buff = {
 		}
 	},
 	[1072] = {
-		name = "五音不全·中",
+		name = "音程迷子·中",
 		during_time = 1,
 		id = 1072,
 		icon = "1072",
-		desc = "获得乐理-2",
+		desc = "音楽入手量-2",
 		effect = {
 			{
 				1,
@@ -661,11 +661,11 @@ pg.child_buff = {
 		}
 	},
 	[1073] = {
-		name = "五音不全·强",
+		name = "音程迷子·強",
 		during_time = 1,
 		id = 1073,
 		icon = "1073",
-		desc = "获得乐理-3",
+		desc = "音楽入手量-3",
 		effect = {
 			{
 				1,
@@ -676,11 +676,11 @@ pg.child_buff = {
 		}
 	},
 	[1074] = {
-		name = "悠扬悦耳·良",
+		name = "美声天籟·良",
 		during_time = 1,
 		id = 1074,
 		icon = "1074",
-		desc = "获得乐理+1",
+		desc = "音楽入手量+1",
 		effect = {
 			{
 				1,
@@ -691,11 +691,11 @@ pg.child_buff = {
 		}
 	},
 	[1075] = {
-		name = "悠扬悦耳·佳",
+		name = "美声天籟·優",
 		during_time = 1,
 		id = 1075,
 		icon = "1075",
-		desc = "获得乐理+2",
+		desc = "音楽入手量+2",
 		effect = {
 			{
 				1,
@@ -706,11 +706,11 @@ pg.child_buff = {
 		}
 	},
 	[1076] = {
-		name = "悠扬悦耳·优",
+		name = "美声天籟·秀",
 		during_time = 1,
 		id = 1076,
 		icon = "1076",
-		desc = "获得乐理+3",
+		desc = "音楽入手量+3",
 		effect = {
 			{
 				1,
@@ -721,11 +721,11 @@ pg.child_buff = {
 		}
 	},
 	[1081] = {
-		name = "粗心大意·弱",
+		name = "迂闊粗雑·普",
 		during_time = 1,
 		id = 1081,
 		icon = "1081",
-		desc = "获得细心-1",
+		desc = "繊細さ入手量-1",
 		effect = {
 			{
 				1,
@@ -736,11 +736,11 @@ pg.child_buff = {
 		}
 	},
 	[1082] = {
-		name = "粗心大意·中",
+		name = "迂闊粗雑·中",
 		during_time = 1,
 		id = 1082,
 		icon = "1082",
-		desc = "获得细心-2",
+		desc = "繊細さ入手量-2",
 		effect = {
 			{
 				1,
@@ -751,11 +751,11 @@ pg.child_buff = {
 		}
 	},
 	[1083] = {
-		name = "粗心大意·强",
+		name = "迂闊粗雑·強",
 		during_time = 1,
 		id = 1083,
 		icon = "1083",
-		desc = "获得细心-3",
+		desc = "繊細さ入手量-3",
 		effect = {
 			{
 				1,
@@ -766,11 +766,11 @@ pg.child_buff = {
 		}
 	},
 	[1084] = {
-		name = "心细如发·良",
+		name = "優美繊細·良",
 		during_time = 1,
 		id = 1084,
 		icon = "1084",
-		desc = "获得细心+1",
+		desc = "繊細さ入手量+1",
 		effect = {
 			{
 				1,
@@ -781,11 +781,11 @@ pg.child_buff = {
 		}
 	},
 	[1085] = {
-		name = "心细如发·佳",
+		name = "優美繊細·優",
 		during_time = 1,
 		id = 1085,
 		icon = "1085",
-		desc = "获得细心+2",
+		desc = "繊細さ入手量+2",
 		effect = {
 			{
 				1,
@@ -796,11 +796,11 @@ pg.child_buff = {
 		}
 	},
 	[1086] = {
-		name = "心细如发·优",
+		name = "優美繊細·秀",
 		during_time = 1,
 		id = 1086,
 		icon = "1086",
-		desc = "获得细心+3",
+		desc = "繊細さ入手量+3",
 		effect = {
 			{
 				1,
@@ -811,11 +811,11 @@ pg.child_buff = {
 		}
 	},
 	[1091] = {
-		name = "才思枯竭·弱",
+		name = "感情枯渇·普",
 		during_time = 1,
 		id = 1091,
 		icon = "1091",
-		desc = "获得想象-1",
+		desc = "想像力入手量-1",
 		effect = {
 			{
 				1,
@@ -826,11 +826,11 @@ pg.child_buff = {
 		}
 	},
 	[1092] = {
-		name = "才思枯竭·中",
+		name = "感情枯渇·中",
 		during_time = 1,
 		id = 1092,
 		icon = "1092",
-		desc = "获得想象-2",
+		desc = "想像力入手量-2",
 		effect = {
 			{
 				1,
@@ -841,11 +841,11 @@ pg.child_buff = {
 		}
 	},
 	[1093] = {
-		name = "才思枯竭·强",
+		name = "感情枯渇·強",
 		during_time = 1,
 		id = 1093,
 		icon = "1093",
-		desc = "获得想象-3",
+		desc = "想像力入手量-3",
 		effect = {
 			{
 				1,
@@ -856,11 +856,11 @@ pg.child_buff = {
 		}
 	},
 	[1094] = {
-		name = "天马行空·良",
+		name = "自由奔放·良",
 		during_time = 1,
 		id = 1094,
 		icon = "1094",
-		desc = "获得想象+1",
+		desc = "想像力入手量+1",
 		effect = {
 			{
 				1,
@@ -871,11 +871,11 @@ pg.child_buff = {
 		}
 	},
 	[1095] = {
-		name = "天马行空·佳",
+		name = "自由奔放·優",
 		during_time = 1,
 		id = 1095,
 		icon = "1095",
-		desc = "获得想象+2",
+		desc = "想像力入手量+2",
 		effect = {
 			{
 				1,
@@ -886,11 +886,11 @@ pg.child_buff = {
 		}
 	},
 	[1096] = {
-		name = "天马行空·优",
+		name = "自由奔放·秀",
 		during_time = 1,
 		id = 1096,
 		icon = "1096",
-		desc = "获得想象+3",
+		desc = "想像力入手量+3",
 		effect = {
 			{
 				1,
@@ -901,11 +901,11 @@ pg.child_buff = {
 		}
 	},
 	[1101] = {
-		name = "精疲力竭·弱",
+		name = "疲労困憊·普",
 		during_time = 1,
 		id = 1101,
 		icon = "1101",
-		desc = "获得运动-1",
+		desc = "運動入手量-1",
 		effect = {
 			{
 				1,
@@ -916,11 +916,11 @@ pg.child_buff = {
 		}
 	},
 	[1102] = {
-		name = "精疲力竭·中",
+		name = "疲労困憊·中",
 		during_time = 1,
 		id = 1102,
 		icon = "1102",
-		desc = "获得运动-2",
+		desc = "運動入手量-2",
 		effect = {
 			{
 				1,
@@ -931,11 +931,11 @@ pg.child_buff = {
 		}
 	},
 	[1103] = {
-		name = "精疲力竭·强",
+		name = "疲労困憊·強",
 		during_time = 1,
 		id = 1103,
 		icon = "1103",
-		desc = "获得运动-3",
+		desc = "運動入手量-3",
 		effect = {
 			{
 				1,
@@ -946,11 +946,11 @@ pg.child_buff = {
 		}
 	},
 	[1104] = {
-		name = "运动健将·良",
+		name = "運動上手·良",
 		during_time = 1,
 		id = 1104,
 		icon = "1104",
-		desc = "获得运动+1",
+		desc = "運動入手量+1",
 		effect = {
 			{
 				1,
@@ -961,11 +961,11 @@ pg.child_buff = {
 		}
 	},
 	[1105] = {
-		name = "运动健将·佳",
+		name = "運動上手·優",
 		during_time = 1,
 		id = 1105,
 		icon = "1105",
-		desc = "获得运动+2",
+		desc = "運動入手量+2",
 		effect = {
 			{
 				1,
@@ -976,11 +976,11 @@ pg.child_buff = {
 		}
 	},
 	[1106] = {
-		name = "运动健将·优",
+		name = "運動上手·秀",
 		during_time = 1,
 		id = 1106,
 		icon = "1106",
-		desc = "获得运动+3",
+		desc = "運動入手量+3",
 		effect = {
 			{
 				1,
@@ -991,11 +991,11 @@ pg.child_buff = {
 		}
 	},
 	[1111] = {
-		name = "笨手笨脚·弱",
+		name = "技量未熟·普",
 		during_time = 1,
 		id = 1111,
 		icon = "1111",
-		desc = "获得实践-1",
+		desc = "器用さ入手量-1",
 		effect = {
 			{
 				1,
@@ -1006,11 +1006,11 @@ pg.child_buff = {
 		}
 	},
 	[1112] = {
-		name = "笨手笨脚·中",
+		name = "技量未熟·中",
 		during_time = 1,
 		id = 1112,
 		icon = "1112",
-		desc = "获得实践-2",
+		desc = "器用さ入手量-2",
 		effect = {
 			{
 				1,
@@ -1021,11 +1021,11 @@ pg.child_buff = {
 		}
 	},
 	[1113] = {
-		name = "笨手笨脚·强",
+		name = "技量未熟·強",
 		during_time = 1,
 		id = 1113,
 		icon = "1113",
-		desc = "获得实践-3",
+		desc = "器用さ入手量-3",
 		effect = {
 			{
 				1,
@@ -1036,11 +1036,11 @@ pg.child_buff = {
 		}
 	},
 	[1114] = {
-		name = "心灵手巧·良",
+		name = "手練手管·良",
 		during_time = 1,
 		id = 1114,
 		icon = "1114",
-		desc = "获得实践+1",
+		desc = "器用さ入手量+1",
 		effect = {
 			{
 				1,
@@ -1051,11 +1051,11 @@ pg.child_buff = {
 		}
 	},
 	[1115] = {
-		name = "心灵手巧·佳",
+		name = "手練手管·優",
 		during_time = 1,
 		id = 1115,
 		icon = "1115",
-		desc = "获得实践+2",
+		desc = "器用さ入手量+2",
 		effect = {
 			{
 				1,
@@ -1066,11 +1066,11 @@ pg.child_buff = {
 		}
 	},
 	[1116] = {
-		name = "心灵手巧·优",
+		name = "手練手管·秀",
 		during_time = 1,
 		id = 1116,
 		icon = "1116",
-		desc = "获得实践+3",
+		desc = "器用さ入手量+3",
 		effect = {
 			{
 				1,

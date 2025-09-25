@@ -2,40 +2,42 @@ pg = pg or {}
 pg.child2_resource = {
 	{
 		item_icon = "res_jinqian2",
-		name = "金钱",
+		name = "財貨",
 		min_value = 0,
 		type = 1,
 		max_value = 99999,
 		default_value = 50,
-		desc = "虚拟小镇的货币，用处多多",
+		desc = "「育成」の様々な場面で使用されるお金",
 		character = 1,
 		id = 1,
 		icon = "res_jinqian"
 	},
 	{
 		item_icon = "res_xinqing2",
-		name = "心情",
+		name = "気分",
 		min_value = 0,
 		type = 2,
 		max_value = 100,
 		default_value = 50,
 		desc = [[
 $1
-心情将会影响属性、金钱的收益
-0~19:收益减少40%      20~39:收益减少20%
-40~59:收益不变             60~100: 收益增加40%]],
+気分は各種パラメータ・財貨の獲得数に影響する
+0~19:絶不調 獲得-40%
+20~39:不調 獲得-20%
+40~59:普通 獲得+0%
+60~100:好調 獲得+40%]],
 		character = 1,
 		id = 2,
 		icon = "res_xinqing"
 	},
 	{
 		item_icon = "res_xingdongli2",
-		name = "行动力",
+		name = "行動力",
 		min_value = 0,
 		type = 3,
 		max_value = 3,
 		default_value = 3,
-		desc = "用于大地图出行，每回合会回复至满值。",
+		desc = "おでかけ時に行動をする際に消費され、毎ターン回復します。",
 		character = 1,
 		id = 3,
 		icon = "res_xingdongli"
@@ -47,7 +49,7 @@ $1
 		type = 4,
 		max_value = 500,
 		default_value = 50,
-		desc = "完成主界面对话事件可增加好感度。\n好感度提升可获得奖励。",
+		desc = "メイン画面の会話イベントをこなすと好感度を上昇させることができます。\nまた、好感度報酬を受け取ることができます",
 		character = 1,
 		id = 4,
 		icon = "res_haogandu"

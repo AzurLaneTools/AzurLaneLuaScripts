@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "theme-umieyuku",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "theme-umieyuku"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",

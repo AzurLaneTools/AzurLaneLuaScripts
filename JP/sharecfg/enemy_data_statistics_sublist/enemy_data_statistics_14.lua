@@ -171,7 +171,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90400] = {
 		cannon = 0,
-		name = "战舰「Rook」.F",
+		name = "戦艦「Rook」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -340,7 +340,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90401] = {
 		cannon = 0,
-		name = "航母「Queen」.F",
+		name = "空母「Queen」.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -509,7 +509,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90402] = {
 		cannon = 0,
-		name = "玉米特快.F",
+		name = "トウモロコシ特急.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -655,7 +655,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90403] = {
 		cannon = 0,
-		name = "白上吹雪 ",
+		name = "白上フブキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -822,7 +822,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90404] = {
 		cannon = 0,
-		name = "夏色祭 ",
+		name = "夏色まつり",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -989,7 +989,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90405] = {
 		cannon = 0,
-		name = "湊阿库娅 ",
+		name = "湊あくあ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1133,7 +1133,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90406] = {
 		cannon = 0,
-		name = "大神澪 ",
+		name = "大神ミオ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1287,7 +1287,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90407] = {
 		cannon = 0,
-		name = "百鬼绫目 ",
+		name = "百鬼 あやめ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1447,7 +1447,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90408] = {
 		cannon = 0,
-		name = "时乃空",
+		name = "ときのそら",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1601,7 +1601,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90409] = {
 		cannon = 0,
-		name = "紫咲诗音 ",
+		name = "紫咲シオン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1750,7 +1750,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90410] = {
 		cannon = 0,
-		name = "空母·赤城",
+		name = "空母·アカギ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1917,7 +1917,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90411] = {
 		cannon = 0,
-		name = "龙凤",
+		name = "リュウホウ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2070,7 +2070,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90412] = {
 		cannon = 0,
-		name = "能代",
+		name = "ノシロ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2227,7 +2227,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90413] = {
 		cannon = 0,
-		name = "鬼怒",
+		name = "キヌ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2384,7 +2384,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90414] = {
 		cannon = 0,
-		name = "霞",
+		name = "カスミ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2553,7 +2553,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90415] = {
 		cannon = 0,
-		name = "黛朵",
+		name = "ダイドー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2707,7 +2707,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90416] = {
 		cannon = 0,
-		name = "侵扰者",
+		name = "オブストラクター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2870,7 +2870,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90417] = {
 		cannon = 0,
-		name = "驱逐「Pawn」III型",
+		name = "駆逐「Pawn」Ⅲ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3032,7 +3032,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90418] = {
 		cannon = 0,
-		name = "轻巡「Knight」III型",
+		name = "軽巡「Knight」Ⅲ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3194,7 +3194,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90419] = {
 		cannon = 0,
-		name = "重巡「Bishop」III型",
+		name = "重巡「Bishop」Ⅲ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3363,7 +3363,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90420] = {
 		cannon = 0,
-		name = "战舰「Rook」III型",
+		name = "戦艦「Rook」Ⅲ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3532,7 +3532,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90421] = {
 		cannon = 0,
-		name = "航母「Queen」III型",
+		name = "空母「Queen」Ⅲ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3701,7 +3701,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90422] = {
 		cannon = 0,
-		name = "自爆船「Buster」III型",
+		name = "量産型自爆ボートⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3847,7 +3847,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90423] = {
 		cannon = 0,
-		name = "探索者III型",
+		name = "スカベンジャーⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4003,7 +4003,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90424] = {
 		cannon = 0,
-		name = "追迹者III型",
+		name = "チェイサーⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4159,7 +4159,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90425] = {
 		cannon = 0,
-		name = "领洋者III型",
+		name = "ナビゲーターⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4315,7 +4315,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90426] = {
 		cannon = 0,
-		name = "破局者III型",
+		name = "スマッシャーⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4485,7 +4485,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90427] = {
 		cannon = 0,
-		name = "执棋者III型",
+		name = "コンダクターⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4641,7 +4641,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90428] = {
 		cannon = 0,
-		name = "清除者",
+		name = "オミッター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4791,7 +4791,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90429] = {
 		cannon = 0,
-		name = "驱逐「Pawn」II型",
+		name = "駆逐「Pawn」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

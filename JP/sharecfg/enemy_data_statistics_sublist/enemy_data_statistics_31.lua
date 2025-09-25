@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_31 = {
 	[90960] = {
 		cannon = 0,
-		name = "朱塞佩·加里波第",
+		name = "ジュゼッペ・ガリバルディ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90961] = {
 		cannon = 0,
-		name = "果敢",
+		name = "ル・アルディ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -314,7 +314,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90962] = {
 		cannon = 0,
-		name = "迪普莱克斯",
+		name = "デュプレクス",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -470,7 +470,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90963] = {
 		cannon = 0,
-		name = "斯特拉斯堡",
+		name = "ストラスブール",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -617,7 +617,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90964] = {
 		cannon = 0,
-		name = "「苍红之息-海洋」",
+		name = "「蒼紅の影-潮波」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -773,7 +773,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90965] = {
 		cannon = 0,
-		name = "「苍红之息-信风」",
+		name = "「蒼紅の影-信風」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -929,7 +929,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90966] = {
 		cannon = 0,
-		name = "「苍红之息-环流」",
+		name = "「蒼紅の影-還流」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1085,7 +1085,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90967] = {
 		cannon = 0,
-		name = "「苍红之息-大地」",
+		name = "「蒼紅の影-地塊」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1255,7 +1255,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90968] = {
 		cannon = 0,
-		name = "「苍红之息-天空」",
+		name = "「蒼紅の影-蒼穹」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1411,7 +1411,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90969] = {
 		cannon = 0,
-		name = "「苍红之息-深渊」",
+		name = "「蒼紅の影-深淵」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1555,7 +1555,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90970] = {
 		cannon = 0,
-		name = "鳐",
+		name = "天城",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1711,7 +1711,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90971] = {
 		cannon = 0,
-		name = "「无形之息-苍红」",
+		name = "「穢れの影-蒼紅」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1867,7 +1867,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90972] = {
 		cannon = 0,
-		name = "素体舰-「蟒蛇」",
+		name = "具現実体【オロチ】",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1986,7 +1986,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90973] = {
 		cannon = 0,
-		name = "素体舰-「蟒蛇」",
+		name = "具現実体【オロチ】",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2105,7 +2105,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90974] = {
 		cannon = 0,
-		name = "「冻雨」型火力投射舰",
+		name = "「凍雨」型アーセナルシップ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2258,7 +2258,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90975] = {
 		cannon = 0,
-		name = "「幻形之息-兔」",
+		name = "「穢れの化生-兎」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2400,7 +2400,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90976] = {
 		cannon = 0,
-		name = "「幻形之息-猫」",
+		name = "「穢れの化生-猫」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2542,7 +2542,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90977] = {
 		cannon = 0,
-		name = "「幻形之息-鬼」",
+		name = "「穢れの化生-鬼」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2684,7 +2684,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90978] = {
 		cannon = 0,
-		name = "「幻形之息-狐」",
+		name = "「穢れの化生-狐」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2826,7 +2826,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90979] = {
 		cannon = 0,
-		name = "「幻形之息-凰」",
+		name = "「穢れの化生-鳳」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2968,7 +2968,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90980] = {
 		cannon = 0,
-		name = "「幻形之息-鸦」",
+		name = "「穢れの化生-鴉」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3089,7 +3089,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90981] = {
 		cannon = 0,
-		name = "「幻形之息-鱼」",
+		name = "「穢れの化生-魚」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3235,7 +3235,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90982] = {
 		cannon = 0,
-		name = "「幻形之息-朱红」",
+		name = "「穢れの化生-朱赫」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3391,7 +3391,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90983] = {
 		cannon = 0,
-		name = "长门·META",
+		name = "長門(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3548,7 +3548,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90984] = {
 		cannon = 0,
-		name = "「自在之息-九尾天狐」",
+		name = "穢れの影『自在天狐』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3690,7 +3690,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90985] = {
 		cannon = 0,
-		name = "「青蓝之息-九尾幻狐」",
+		name = "穢れの影『式鬼・玉面九尾』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3832,7 +3832,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90986] = {
 		cannon = 0,
-		name = "「朱红之息-九尾幻狐」",
+		name = "穢れの影『式鬼・朱顔九尾』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3974,7 +3974,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90987] = {
 		cannon = 0,
-		name = "苍蓝之影",
+		name = "青の影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4130,7 +4130,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90988] = {
 		cannon = 0,
-		name = "苍红之影",
+		name = "紅の影",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4286,7 +4286,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90989] = {
 		cannon = 0,
-		name = "凰·META",
+		name = "赤城・META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4442,7 +4442,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90990] = {
 		cannon = 0,
-		name = "冈依沙瓦号",
+		name = "ガンズウェイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

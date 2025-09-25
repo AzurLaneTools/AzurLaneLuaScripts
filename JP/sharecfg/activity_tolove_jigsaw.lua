@@ -1,14 +1,14 @@
 pg = pg or {}
 pg.activity_tolove_jigsaw = {
 	{
-		desc_demand = "如果有办法让天狼星做的料理变美味的话……",
+		desc_demand = "シリアスが作る料理をもっと美味しく出来たら……",
 		portrait_up = "tianlangxing",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO2",
 		ship_id = 202201,
 		id = 1,
 		item_icon = "liaolijun",
-		desc_bubble = "美味的秘诀吗？应该在于仔细而精确吧？我有想法了~！",
+		desc_bubble = "美味しく作るコツは…きっと丁寧に正確に作ることなんだよね！あ、いいアイデア思いついた～！",
 		need = {
 			1,
 			441,
@@ -27,21 +27,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "想要提高销售额，无论什么手段都可以喵。",
+		desc_demand = "売上を伸ばすためにゃら、どんな手を使ってでもかまわないにゃ！",
 		portrait_up = "mingshi",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO3",
 		ship_id = 312013,
 		id = 2,
 		item_icon = "wengwengjun",
-		desc_bubble = "哇~！这次的委托看起来有点复杂呢！",
+		desc_bubble = "わぁ～！今回の依頼、ちょっと手強そうね～！",
 		need = {
 			1,
 			441,
@@ -60,21 +60,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "如果能一直偷懒就好了，欸嘿嘿……这种夸张的要求能满足吗？",
+		desc_demand = "ずっとサボってられたらいいのにね～えへへ…こんなとんでもない願いも叶えてくれるの～？",
 		portrait_up = "changdao",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO4",
 		ship_id = 106013,
 		id = 3,
 		item_icon = "yinshenpenwu",
-		desc_bubble = "嗯……只要不被人发现就可以吧？",
+		desc_bubble = "うーん…つまり人に見つからなければいいってこと？",
 		need = {
 			1,
 			441,
@@ -93,21 +93,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "事先声明……姐姐我不是喜欢加班，但如果无论如何都要加班的话……",
+		desc_demand = "予め言っておくけど、残業は好きじゃないわ。ただ、どうせ残業するのなら……",
 		portrait_up = "dipulaikesi",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO5",
 		ship_id = 903031,
 		id = 4,
 		item_icon = "yinshenerhuan",
-		desc_bubble = "只要通过“情绪控制”让自己感觉高兴就行了吧？应该没问题！",
+		desc_bubble = "「感情コントロール」して楽しい気持ちになれればいいんだよね？多分できるよ～！",
 		need = {
 			1,
 			441,
@@ -126,21 +126,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "我种了很多指挥官喜欢的蔬菜~但是长得有点慢呢，有什么办法吗？",
+		desc_demand = "指揮官の好きな野菜をいっぱい育ててるんだけど～どうしても成長はゆっくりでさ～何かいい方法はないかな？",
 		portrait_up = "weizhang",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO6",
 		ship_id = 305131,
 		id = 5,
 		item_icon = "jiguangqiang",
-		desc_bubble = "这个很轻松哦！",
+		desc_bubble = "こんなの楽勝だよ～！",
 		need = {
 			1,
 			441,
@@ -159,21 +159,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "对于喜欢调查不可思议事件的人来说，如果时时刻刻都有强烈的氛围感就太棒了~！",
+		desc_demand = "ぐへへ、不思議事件を調査する探索者としては、常にドキドキワクワクな臨場感がほしいよね～！",
 		portrait_up = "bulisituoer",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO7",
 		ship_id = 101491,
 		id = 6,
 		item_icon = "fenweijun",
-		desc_bubble = "很有意思呢～！有干劲啦！",
+		desc_bubble = "面白そう〜！気合入っちゃうね！",
 		need = {
 			1,
 			441,
@@ -192,21 +192,21 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	{
-		desc_demand = "本王贵为皇家女王，当然会希望追求更极致的皇家气质！",
+		desc_demand = "ロイヤルの女王さまとして、ロイヤルオーラを極めたいわ！",
 		portrait_up = "yilishabai",
 		portrait_down = "lala_tolove",
 		after_story = "WEIXIANFAMINGPOJINZHONGWEITUO8",
 		ship_id = 205011,
 		id = 7,
 		item_icon = "hualitoushi",
-		desc_bubble = "这个轻松，就交给我吧！",
+		desc_bubble = "うん！この程度なら任せて～！",
 		need = {
 			1,
 			441,
@@ -225,10 +225,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· 「エネルギーの破片」$1個で依頼解放（$2/$3) ",
+			"（任意のコラボ通常・SPイベントステージかメイン海域ノーマル3章以降のステージをクリアすると入手可能）",
+			"· 回路パーツを組み立てる",
+			"· 組み立てた回路を繋ぐ（一筆描きで回路をすべて繋ぐ）"
 		}
 	},
 	all = {

@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.activity_vote = {
 	[29] = {
-		name = "预选赛",
+		name = "予選",
 		ticket_period = 480,
 		type = 1,
-		desc = "预选赛仅显示得票排名，排名前240名的角色晋级小组赛",
+		desc = "予選では240までの順位の艦船が【グループ戦】に進出します",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 0,
@@ -235,6 +235,7 @@ pg.activity_vote = {
 			10124,
 			10125,
 			10116,
+			10117,
 			10127,
 			10136,
 			10137,
@@ -313,6 +314,7 @@ pg.activity_vote = {
 			10512,
 			10513,
 			10514,
+			10517,
 			10519,
 			10520,
 			10601,
@@ -388,7 +390,6 @@ pg.activity_vote = {
 			20227,
 			20233,
 			20230,
-			20220,
 			20224,
 			20231,
 			20216,
@@ -420,6 +421,7 @@ pg.activity_vote = {
 			20513,
 			20601,
 			20602,
+			20603,
 			20605,
 			20606,
 			20608,
@@ -451,7 +453,6 @@ pg.activity_vote = {
 			30102,
 			30104,
 			30172,
-			30105,
 			30109,
 			30110,
 			30111,
@@ -463,6 +464,7 @@ pg.activity_vote = {
 			30126,
 			30113,
 			30115,
+			30114,
 			30147,
 			30148,
 			30149,
@@ -509,7 +511,6 @@ pg.activity_vote = {
 			30317,
 			30318,
 			30220,
-			30221,
 			30223,
 			30301,
 			30302,
@@ -535,7 +536,6 @@ pg.activity_vote = {
 			30502,
 			30503,
 			30504,
-			30505,
 			30506,
 			30508,
 			30512,
@@ -557,7 +557,6 @@ pg.activity_vote = {
 			30705,
 			30706,
 			30707,
-			30708,
 			30712,
 			30801,
 			30804,
@@ -631,7 +630,9 @@ pg.activity_vote = {
 			50102,
 			50103,
 			50104,
+			50204,
 			50205,
+			50201,
 			50202,
 			50203,
 			50207,
@@ -729,7 +730,6 @@ pg.activity_vote = {
 			29902,
 			39901,
 			39902,
-			49901,
 			89901,
 			19901,
 			19902,
@@ -1021,10 +1021,10 @@ pg.activity_vote = {
 		}
 	},
 	[30] = {
-		name = "小组赛A",
+		name = "グループA",
 		ticket_period = 200,
 		type = 3,
-		desc = "小组赛排名前5的角色直接晋级决赛，第6至15名将进入决胜复活赛",
+		desc = "1～5位は【決勝戦】に進出、6～15位は【決勝復活戦】に進出",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -1270,10 +1270,10 @@ pg.activity_vote = {
 		}
 	},
 	[31] = {
-		name = "小组赛B",
+		name = "グループB",
 		ticket_period = 200,
 		type = 3,
-		desc = "小组赛排名前5的角色直接晋级决赛，第6至15名将进入决胜复活赛",
+		desc = "1～5位は【決勝戦】に進出、6～15位は【決勝復活戦】に進出",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -1519,10 +1519,10 @@ pg.activity_vote = {
 		}
 	},
 	[32] = {
-		name = "小组赛C",
+		name = "グループC",
 		ticket_period = 200,
 		type = 3,
-		desc = "小组赛排名前5的角色直接晋级决赛，第6至15名将进入决胜复活赛",
+		desc = "1～5位は【決勝戦】に進出、6～15位は【決勝復活戦】に進出",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -1768,10 +1768,10 @@ pg.activity_vote = {
 		}
 	},
 	[33] = {
-		name = "小组赛D",
+		name = "グループD",
 		ticket_period = 200,
 		type = 3,
-		desc = "小组赛排名前5的角色直接晋级决赛，第6至15名将进入决胜复活赛",
+		desc = "1～5位は【決勝戦】に進出、6～15位は【決勝復活戦】に進出",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -2017,10 +2017,10 @@ pg.activity_vote = {
 		}
 	},
 	[35] = {
-		name = "决胜复活赛",
+		name = "決勝復活戦",
 		ticket_period = 160,
 		type = 4,
-		desc = "决胜复活赛排名前15的角色将晋级决赛",
+		desc = "1～15位は【決勝戦】に進出",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -2261,10 +2261,10 @@ pg.activity_vote = {
 		}
 	},
 	[36] = {
-		name = "决赛",
+		name = "決勝戦",
 		ticket_period = 280,
 		type = 5,
-		desc = "晋级决赛的35名角色，将进行为期7天的决赛投票",
+		desc = "【グループ戦】から20名、【決勝復活戦】から15名が参加！",
 		sub_type = 0,
 		ticket_id_period = 59826,
 		same_rank_by_id = 20,
@@ -2524,7 +2524,7 @@ pg.activity_vote = {
 		}
 	},
 	[37] = {
-		name = "趣味投票一",
+		name = "特別投票Ⅰ",
 		ticket_period = 0,
 		type = 7,
 		desc = "",
@@ -2630,7 +2630,7 @@ pg.activity_vote = {
 		}
 	},
 	[38] = {
-		name = "趣味投票二",
+		name = "特別投票Ⅱ",
 		ticket_period = 0,
 		type = 7,
 		desc = "",
@@ -2755,7 +2755,7 @@ pg.activity_vote = {
 		}
 	},
 	[39] = {
-		name = "趣味投票三",
+		name = "特別投票Ⅲ",
 		ticket_period = 0,
 		type = 7,
 		desc = "",

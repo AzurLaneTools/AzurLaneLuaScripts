@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.ship_data_blueprint = {
 	[29901] = {
-		unlock_word = "皇家先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
-		name = "海王星",
+		unlock_word = "図鑑のロイヤル前衛艦登録数が<color=#92fc63>20</color>以上",
+		name = "ネプチューン ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -105,8 +105,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29902] = {
-		unlock_word = "皇家主力角色图鉴登录数达到<color=#92fc63>10</color>个以上 ",
-		name = "君主",
+		unlock_word = "図鑑のロイヤル主力艦登録数が<color=#92fc63>10</color>以上",
+		name = "モナーク ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -209,8 +209,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39901] = {
-		unlock_word = "重樱先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
-		name = "伊吹",
+		unlock_word = "図鑑の重桜前衛艦登録数が<color=#92fc63>20</color>以上 ",
+		name = "伊吹 ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -313,8 +313,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39902] = {
-		unlock_word = "重樱主力角色图鉴登录数达到<color=#92fc63>10</color>个以上 ",
-		name = "出云",
+		unlock_word = "図鑑の重桜主力艦登録数が<color=#92fc63>10</color>以上 ",
+		name = "出雲 ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -417,8 +417,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49901] = {
-		unlock_word = "铁血先锋角色图鉴登录数达到<color=#92fc63>7</color>个以上 ",
-		name = "罗恩",
+		unlock_word = "図鑑の鉄血前衛艦登録数が<color=#92fc63>7</color>以上 ",
+		name = "ローン ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -521,8 +521,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89901] = {
-		unlock_word = "白鹰先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
-		name = "路易九世",
+		unlock_word = "図鑑のユニオン前衛艦登録数が<color=#92fc63>20</color>以上 ",
+		name = "サン・ルイ ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -625,8 +625,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19901] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>",
-		name = "西雅图",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上",
+		name = "シアトル ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -729,8 +729,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19902] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>810</color>",
-		name = "佐治亚",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>810</color>以上",
+		name = "ジョージア ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -833,8 +833,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39903] = {
-		unlock_word = "重樱阵营科技点数达到<color=#92fc63>780</color>",
-		name = "北风",
+		unlock_word = "重桜陣営技術Pt<color=#92fc63>780</color>以上",
+		name = "北風 ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -937,8 +937,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39904] = {
-		unlock_word = "重樱阵营科技点数达到<color=#92fc63>900</color>",
-		name = "吾妻",
+		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
+		name = "吾妻 ",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 1,
@@ -1043,8 +1043,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49902] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>630</color>",
-		name = "腓特烈大帝",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>630</color>以上",
+		name = "フリードリヒ・デア・グローセ ",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 1,
@@ -1149,8 +1149,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99901] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>、铁血阵营科技点数达到<color=#92fc63>420</color>",
-		name = "加斯科涅",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・鉄血陣営技術Pt<color=#92fc63>420</color>以上",
+		name = "ガスコーニュ ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1254,8 +1254,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29903] = {
-		unlock_word = "皇家阵营科技点数达到<color=#92fc63>700</color>",
-		name = "柴郡",
+		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		name = "チェシャー",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1358,8 +1358,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29904] = {
-		unlock_word = "皇家阵营科技点数达到<color=#92fc63>820</color>",
-		name = "德雷克",
+		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>820</color>以上",
+		name = "ドレイク",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 1,
@@ -1464,8 +1464,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49903] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>550</color>",
-		name = "美因茨",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>550</color>以上",
+		name = "マインツ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1568,8 +1568,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49904] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>600</color>",
-		name = "奥丁",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
+		name = "オーディン",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1672,8 +1672,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89902] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>、皇家阵营科技点数达到<color=#92fc63>700</color>",
-		name = "香槟",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		name = "シャンパーニュ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1777,8 +1777,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19903] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>850</color>",
-		name = "安克雷奇",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>850</color>以上",
+		name = "アンカレッジ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -1881,8 +1881,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39905] = {
-		unlock_word = "重樱阵营科技点数达到<color=#92fc63>950</color>",
-		name = "白龙",
+		unlock_word = "重桜陣営技術Pt<color=#92fc63>950</color>以上",
+		name = "白龍",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 1,
@@ -1987,8 +1987,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49905] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>700</color>",
-		name = "埃吉尔",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
+		name = "エーギル",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 1,
@@ -2078,8 +2078,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49906] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>600</color>",
-		name = "奥古斯特·冯·帕塞瓦尔",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
+		name = "アウグスト・フォン・パーセヴァル",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -2182,8 +2182,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[69901] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>600</color>、皇家阵营科技点数达到<color=#92fc63>700</color>",
-		name = "马可波罗",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		name = "マルコ・ポーロ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -2287,8 +2287,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29905] = {
-		unlock_word = "皇家阵营科技点数达到<color=#92fc63>900</color>",
-		name = "普利茅斯",
+		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>900</color>以上",
+		name = "プリマス",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -2378,8 +2378,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49907] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>700</color>",
-		name = "鲁普雷希特亲王",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
+		name = "プリンツ・ループレヒト",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -2482,8 +2482,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[59901] = {
-		unlock_word = "东煌阵营科技点数达到<color=#92fc63>160</color>",
-		name = "哈尔滨",
+		unlock_word = "東煌陣営技術Pt<color=#92fc63>160</color>以上",
+		name = "ハルビン",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -2586,8 +2586,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[79901] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>、撒丁阵营科技点数达到<color=#92fc63>300</color>",
-		name = "契卡洛夫",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上、サディア陣営技術Pt<color=#92fc63>300</color>以上",
+		name = "チカロフ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 1,
@@ -2691,8 +2691,8 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89903] = {
-		unlock_word = "自由鸢尾阵营科技点数达到<color=#92fc63>250</color>",
-		name = "布雷斯特",
+		unlock_word = "アイリス陣営技術Pt<color=#92fc63>250</color>以上",
+		name = "ブレスト",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -2782,8 +2782,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19904] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>1000</color>",
-		name = "奇尔沙治",
+		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>1000</color>以上",
+		name = "キアサージ",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -2873,7 +2873,7 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39906] = {
-		unlock_word = "重樱阵营科技点数达到<color=#92fc63>900</color>",
+		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
 		name = "四万十",
 		normal_display = "",
 		price = 1500,
@@ -2975,8 +2975,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49908] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>850</color>",
-		name = "菲利克斯·舒尔茨",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>850</color>以上",
+		name = "フィリックス・シュルツ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -3077,8 +3077,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49909] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>950</color>",
-		name = "兴登堡",
+		unlock_word = "鉄血陣営技術Pt<color=#92fc63>950</color>以上",
+		name = "ヒンデンブルク",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -3168,8 +3168,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99902] = {
-		unlock_word = "维希教廷阵营科技点数达到<color=#92fc63>180</color>、铁血阵营科技点数达到<color=#92fc63>800</color>",
-		name = "弗兰德尔",
+		unlock_word = "ヴィシア陣営技術Pt<color=#92fc63>180</color>以上、鉄血陣営技術Pt<color=#92fc63>800</color>以上",
+		name = "フランドル",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -3271,8 +3271,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19905] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>950</color>",
-		name = "哈尔福德",
+		unlock_word = "ユニオン技術Pt<color=#92fc63>950</color>以上",
+		name = "ハルフォード",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -3373,7 +3373,7 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39907] = {
-		unlock_word = "重樱阵营科技点数达到<color=#92fc63>950</color>",
+		unlock_word = "重桜技術Pt<color=#92fc63>950</color>以上",
 		name = "大山",
 		normal_display = "",
 		price = 1500,
@@ -3475,8 +3475,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[69902] = {
-		unlock_word = "撒丁帝国阵营科技点数达到<color=#92fc63>300</color>、北方联合阵营科技点数达到<color=#92fc63>200</color>",
-		name = "那不勒斯",
+		unlock_word = "サディア技術Pt<color=#92fc63>300</color>以上、北方連合技術Pt<color=#92fc63>200</color>以上",
+		name = "ナポリ",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -3567,8 +3567,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79902] = {
-		unlock_word = "北方联合阵营科技点数达到<color=#92fc63>300</color>、撒丁帝国阵营科技点数达到<color=#92fc63>200</color>",
-		name = "纳希莫夫",
+		unlock_word = "北方連合技術Pt<color=#92fc63>300</color>以上、サディア技術Pt<color=#92fc63>200</color>以上",
+		name = "アドミラル・ナヒーモフ",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -3659,8 +3659,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[89904] = {
-		unlock_word = "自由鸢尾阵营科技点数达到<color=#92fc63>230</color>",
-		name = "贝亚德",
+		unlock_word = "アイリス技術Pt<color=#92fc63>230</color>以上",
+		name = "バヤール",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -3761,8 +3761,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19906] = {
-		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>950</color>",
-		name = "堪萨斯",
+		unlock_word = "ユニオン技術Pt<color=#92fc63>950</color>以上",
+		name = "カンザス",
 		price = 1500,
 		is_pursuing = 0,
 		simulate_dungeon = 9938,
@@ -3850,12 +3850,12 @@ pg.ship_data_blueprint = {
 		},
 		gain_item_id = {},
 		normal_display = {
-			"主炮底座+1"
+			"主砲砲座+1"
 		}
 	},
 	[49910] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>950</color>",
-		name = "梅克伦堡",
+		unlock_word = "鉄血技術Pt<color=#92fc63>950</color>以上",
+		name = "メークレンブルク",
 		normal_display = "",
 		price = 6000,
 		is_pursuing = 0,
@@ -3945,8 +3945,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[69903] = {
-		unlock_word = "撒丁帝国阵营科技点数达到<color=#92fc63>300</color>",
-		name = "维托里奥·库尼贝尔蒂",
+		unlock_word = "サディア技術Pt<color=#92fc63>300</color>以上",
+		name = "ヴィットリオ・クニベルティ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -4036,8 +4036,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79903] = {
-		unlock_word = "北方联合阵营科技点数达到<color=#92fc63>300</color>",
-		name = "迪米特里·顿斯科伊",
+		unlock_word = "北方連合技術Pt<color=#92fc63>300</color>以上",
+		name = "ドミートリィ・ドンスコイ",
 		normal_display = "",
 		price = 1500,
 		is_pursuing = 0,
@@ -4127,8 +4127,8 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[119901] = {
-		unlock_word = "铁血阵营科技点数达到<color=#92fc63>800</color>、撒丁帝国阵营科技点数达到<color=#92fc63>200</color>",
-		name = "金狮",
+		unlock_word = "鉄血技術Pt<color=#92fc63>800</color>以上、サディア技術Pt<color=#92fc63>200</color>以上",
+		name = "ハウデン・リーウ",
 		price = 6000,
 		is_pursuing = 0,
 		simulate_dungeon = 9942,
@@ -4217,7 +4217,7 @@ pg.ship_data_blueprint = {
 		},
 		gain_item_id = {},
 		normal_display = {
-			"空袭航空属性Lv.1"
+			"爆弾空襲Lv.1"
 		}
 	},
 	all = {

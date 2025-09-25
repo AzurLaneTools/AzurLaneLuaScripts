@@ -2,12 +2,12 @@ pg = pg or {}
 pg.activity_holiday_trans = {
 	{
 		cost_task_id = 23727,
-		name = "小型运输船队",
+		name = "小型輸送船団",
 		type = 1,
 		id = 1,
 		icon = "HolidayIcon/trans_1",
 		result_ani = "",
-		result_desc = "灵活机动的小批量运输专家，堪称性价比之王。\n完成了小型运输，获得木材X200，石材X200",
+		result_desc = "速さと円滑さを兼ね備えた小規模輸送エキスパート。ナイスコスパ！\n小型輸送船団から　木材×200 石材×200　を手に入れた",
 		award = {
 			{
 				8,
@@ -23,12 +23,12 @@ pg.activity_holiday_trans = {
 	},
 	{
 		cost_task_id = 23728,
-		name = "中型运输船队",
+		name = "中型輸送船団",
 		type = 1,
 		id = 2,
 		icon = "HolidayIcon/trans_2",
 		result_ani = "",
-		result_desc = "规模与效率的平衡之选，绝不将就的务实派。\n完成了中型运输，获得钢材*800",
+		result_desc = "規模と効率を両立させ、妥協なき実用性に拘った。\n中型輸送船団から　鋼材×800　を手に入れた",
 		award = {
 			{
 				8,
@@ -39,12 +39,12 @@ pg.activity_holiday_trans = {
 	},
 	{
 		cost_task_id = 23729,
-		name = "大型运输船队",
+		name = "大型輸送船団",
 		type = 1,
 		id = 3,
 		icon = "HolidayIcon/trans_3",
 		result_ani = "",
-		result_desc = "大就是好，有钱就是任性，重建工作的可靠保障。\n完成了大型运输，获得电子零件*1200",
+		result_desc = "大きいのはいいものだ。資金さえあればなんでもできる。これで再建もバッチリ。\n大型輸送船団から　電子部品×1200　を手に入れた",
 		award = {
 			{
 				8,
@@ -55,12 +55,12 @@ pg.activity_holiday_trans = {
 	},
 	{
 		cost_task_id = 23730,
-		name = "邮轮观光船队",
+		name = "観光クルーズ",
 		type = 2,
 		id = 4,
 		icon = "HolidayIcon/trans_4",
 		result_ani = "",
-		result_desc = "奢华与探险的完美结合，海上旅程的梦幻体验。\n完成邮轮观光，获得重建币*1000",
+		result_desc = "冒険にもラグジュアリーを。これぞ夢のような船旅。\n観光クルーズから　再建コイン×1000　を手に入れた",
 		award = {
 			{
 				8,

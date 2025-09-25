@@ -1037,7 +1037,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 11000,
+		exp = 12100,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8500,
 		level_limit = 0,
@@ -1052,7 +1052,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 11400,
+		exp = 12540,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8550,
 		level_limit = 0,
@@ -1067,7 +1067,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 11800,
+		exp = 12980,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8600,
 		level_limit = 0,
@@ -1082,7 +1082,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 12200,
+		exp = 13420,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8650,
 		level_limit = 0,
@@ -1097,7 +1097,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 12600,
+		exp = 13860,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8700,
 		level_limit = 0,
@@ -1112,7 +1112,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 13000,
+		exp = 14300,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8750,
 		level_limit = 0,
@@ -1127,7 +1127,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 13400,
+		exp = 14740,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8800,
 		level_limit = 0,
@@ -1142,7 +1142,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 13800,
+		exp = 15180,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8850,
 		level_limit = 0,
@@ -1157,7 +1157,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 14200,
+		exp = 15620,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8900,
 		level_limit = 0,
@@ -1172,7 +1172,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 14600,
+		exp = 16060,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 8950,
 		level_limit = 0,
@@ -1187,7 +1187,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 15000,
+		exp = 17250,
 		energy_recover_time_ratio = 40,
 		fight_oil_ratio = 9000,
 		level_limit = 0,
@@ -1202,7 +1202,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 15500,
+		exp = 17825,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9050,
 		level_limit = 0,
@@ -1217,7 +1217,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 16000,
+		exp = 18400,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9100,
 		level_limit = 0,
@@ -1232,7 +1232,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 16500,
+		exp = 18975,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9150,
 		level_limit = 0,
@@ -1247,7 +1247,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 17000,
+		exp = 19550,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9200,
 		level_limit = 0,
@@ -1262,7 +1262,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 17500,
+		exp = 20125,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9250,
 		level_limit = 0,
@@ -1277,7 +1277,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 18000,
+		exp = 20700,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9300,
 		level_limit = 0,
@@ -1292,7 +1292,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 18500,
+		exp = 21275,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9350,
 		level_limit = 0,
@@ -1307,7 +1307,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 19000,
+		exp = 21850,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9400,
 		level_limit = 0,
@@ -1322,7 +1322,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 19500,
+		exp = 22425,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9450,
 		level_limit = 0,
@@ -1337,7 +1337,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 20000,
+		exp = 24000,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9500,
 		level_limit = 0,
@@ -1352,7 +1352,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 21000,
+		exp = 25200,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9550,
 		level_limit = 0,
@@ -1367,7 +1367,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 22000,
+		exp = 26400,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9600,
 		level_limit = 0,
@@ -1382,7 +1382,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 24000,
+		exp = 28800,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9650,
 		level_limit = 0,
@@ -1397,7 +1397,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 26000,
+		exp = 31200,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9700,
 		level_limit = 0,
@@ -1412,7 +1412,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 30000,
+		exp = 36000,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9750,
 		level_limit = 0,
@@ -1427,7 +1427,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 35000,
+		exp = 42000,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9800,
 		level_limit = 0,
@@ -1442,7 +1442,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 40000,
+		exp = 48000,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9850,
 		level_limit = 0,
@@ -1457,7 +1457,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 60000,
+		exp = 72000,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9900,
 		level_limit = 0,
@@ -1472,7 +1472,7 @@ pg.ship_level = {
 	},
 	{
 		arena_durability_add = 0,
-		exp = 132000,
+		exp = 158400,
 		energy_recover_time_ratio = 45,
 		fight_oil_ratio = 9950,
 		level_limit = 0,

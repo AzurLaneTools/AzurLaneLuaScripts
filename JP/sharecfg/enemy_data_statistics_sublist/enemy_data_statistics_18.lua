@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_18 = {
 	[90529] = {
 		cannon = 0,
-		name = "潜艇「Assassin」-R",
+		name = "潜水艦「Assassin」-R",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -153,7 +153,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90530] = {
 		cannon = 0,
-		name = "阿贾克斯",
+		name = "エイジャックス",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -322,7 +322,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90531] = {
 		cannon = 0,
-		name = "厌战",
+		name = "ウォースパイト",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -494,7 +494,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90532] = {
 		cannon = 0,
-		name = "可畏",
+		name = "フォーミダブル",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -641,7 +641,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90533] = {
 		cannon = 0,
-		name = "欧若拉",
+		name = "オーロラ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -797,7 +797,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90534] = {
 		cannon = 0,
-		name = "格罗斯特",
+		name = "グロスター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1079,7 +1079,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90536] = {
 		cannon = 0,
-		name = "蛟·META",
+		name = "蒼龍(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1230,7 +1230,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90537] = {
 		cannon = 0,
-		name = "杜威",
+		name = "デューイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1379,7 +1379,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90538] = {
 		cannon = 0,
-		name = "亚特兰大",
+		name = "アトランタ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1546,7 +1546,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90539] = {
 		cannon = 0,
-		name = "北安普顿",
+		name = "ノーザンプトン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1708,7 +1708,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90540] = {
 		cannon = 0,
-		name = "哈曼",
+		name = "ハムマン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1877,7 +1877,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90541] = {
 		cannon = 0,
-		name = "海伦娜·META",
+		name = "ヘレナ(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2046,7 +2046,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90542] = {
 		cannon = 0,
-		name = "满潮",
+		name = "ミチシオ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2202,7 +2202,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90543] = {
 		cannon = 0,
-		name = "扶桑改",
+		name = "フソウ改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2358,7 +2358,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90570] = {
 		cannon = 0,
-		name = "量产型驱逐舰(IDOL) ",
+		name = "量産型駆逐艦(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2513,7 +2513,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90571] = {
 		cannon = 0,
-		name = "量产型轻巡洋舰(IDOL) ",
+		name = "量産型軽巡洋艦(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2675,7 +2675,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90572] = {
 		cannon = 0,
-		name = "量产型重巡洋舰(IDOL) ",
+		name = "量産型重巡洋艦(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2843,7 +2843,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90573] = {
 		cannon = 0,
-		name = "量产型战列舰(IDOL) ",
+		name = "量産型戦艦(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3011,7 +3011,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90574] = {
 		cannon = 0,
-		name = "量产型航空母舰(IDOL) ",
+		name = "量産型空母(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3180,7 +3180,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90575] = {
 		cannon = 0,
-		name = "自爆船(IDOL) ",
+		name = "自爆ボート(IDOL)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3326,7 +3326,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90576] = {
 		cannon = 0,
-		name = "模拟·亚美 ",
+		name = "ホログラフィック・アミ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3472,7 +3472,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90577] = {
 		cannon = 0,
-		name = "模拟·真美 ",
+		name = "ホログラフィック・マミ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3618,7 +3618,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90578] = {
 		cannon = 0,
-		name = "模拟·春香 ",
+		name = "ホログラフィック・ハルカ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3774,7 +3774,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90579] = {
 		cannon = 0,
-		name = "模拟·梓 ",
+		name = "ホログラフィック・アズサ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3923,7 +3923,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90580] = {
 		cannon = 0,
-		name = "模拟·伊织 ",
+		name = "ホログラフィック・イオリ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4079,7 +4079,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90581] = {
 		cannon = 0,
-		name = "模拟·千早 ",
+		name = "ホログラフィック・チハヤ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4234,7 +4234,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90582] = {
 		cannon = 0,
-		name = "龙宫城机关要塞",
+		name = "竜宮仕掛",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4400,7 +4400,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90583] = {
 		cannon = 0,
-		name = "白龙",
+		name = "白龍",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4550,7 +4550,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90584] = {
 		cannon = 0,
-		name = "狮级量产型",
+		name = "量産型ライオン級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4705,7 +4705,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90585] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型",
+		name = "量産型コンテ・ディ・カブール",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

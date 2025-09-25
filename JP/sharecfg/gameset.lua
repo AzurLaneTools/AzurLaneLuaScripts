@@ -126,11 +126,11 @@ pg.gameset = {
 	},
 	dorm_exp_once_limit_base = {
 		description = "",
-		key_value = 50000
+		key_value = 30000
 	},
 	dorm_exp_once_limit_by_level = {
 		description = "",
-		key_value = 1000
+		key_value = 800
 	},
 	exp_admiral_a = {
 		description = "",
@@ -1017,8 +1017,8 @@ pg.gameset = {
 	world_sairen_weekly = {
 		key_value = 0,
 		description = {
-			1,
-			1
+			2,
+			2
 		}
 	},
 	world_sairen_max1 = {
@@ -1922,7 +1922,7 @@ pg.gameset = {
 		key_value = 1
 	},
 	vote_web_url = {
-		description = "https://www.bilibili.com/blackboard/activity-rqtp2019.html",
+		description = "https://vote.azurlane.jp/",
 		key_value = 0
 	},
 	skin_ticket = {
@@ -2648,7 +2648,7 @@ pg.gameset = {
 				30
 			},
 			{
-				12,
+				16,
 				0,
 				0
 			}
@@ -2664,7 +2664,7 @@ pg.gameset = {
 	},
 	vote_enlarge = {
 		description = "",
-		key_value = 15000
+		key_value = 23000
 	},
 	general_blueprint_list = {
 		key_value = 0,
@@ -3741,6 +3741,40 @@ pg.gameset = {
 			7311
 		}
 	},
+	new_login_extra_voice = {
+		key_value = 0,
+		description = {
+			"jp_7th",
+			{
+				{
+					{
+						2024,
+						9,
+						12
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2024,
+						10,
+						10
+					},
+					{
+						23,
+						59,
+						59,
+						59
+					}
+				}
+			},
+			126
+		}
+	},
 	no_share_skin_tip = {
 		key_value = 0,
 		description = {
@@ -3925,10 +3959,6 @@ pg.gameset = {
 		description = "",
 		key_value = 9
 	},
-	WeChat_Mini_Program = {
-		description = "",
-		key_value = 50098
-	},
 	ninja_Param1 = {
 		description = "1.15",
 		key_value = 0
@@ -4000,11 +4030,11 @@ pg.gameset = {
 			},
 			{
 				6,
-				"动态立绘"
+				"プチMOTION"
 			},
 			{
 				7,
-				"特殊动态"
+				"特殊MOTION"
 			},
 			{
 				9,

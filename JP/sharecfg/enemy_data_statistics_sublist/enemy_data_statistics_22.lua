@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_22 = {
 	[90679] = {
 		cannon = 0,
-		name = "最上级量产型T2",
+		name = "量産型最上級T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -170,7 +170,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90680] = {
 		cannon = 0,
-		name = "扶桑级量产型T2",
+		name = "量産型扶桑級T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -338,7 +338,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90681] = {
 		cannon = 0,
-		name = "赤城级量产型T2",
+		name = "量産型赤城級T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -507,7 +507,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90682] = {
 		cannon = 0,
-		name = "自爆船T2",
+		name = "自爆ボートT2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -653,7 +653,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90683] = {
 		cannon = 0,
-		name = "潜艇量产型T2",
+		name = "量産型潜水艦 T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -953,7 +953,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90685] = {
 		cannon = 0,
-		name = "凉月",
+		name = "涼月",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1266,7 +1266,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90687] = {
 		cannon = 0,
-		name = "千岁",
+		name = "千歳",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1716,7 +1716,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90690] = {
 		cannon = 0,
-		name = "羽黑",
+		name = "羽黒",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2029,7 +2029,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90692] = {
 		cannon = 0,
-		name = "武藏",
+		name = "武蔵",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2183,7 +2183,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90693] = {
 		cannon = 0,
-		name = "测试者",
+		name = "テスター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2507,7 +2507,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90695] = {
 		cannon = 0,
-		name = "纪伊",
+		name = "紀伊",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2968,7 +2968,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90698] = {
 		cannon = 0,
-		name = "小斯佩",
+		name = "シュペーちゃん",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3124,7 +3124,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90699] = {
 		cannon = 0,
-		name = "甜品运输船",
+		name = "お菓子輸送艦？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3284,7 +3284,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90700] = {
 		cannon = 0,
-		name = "异世界自爆船",
+		name = "異世界自爆ボート？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3430,7 +3430,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90701] = {
 		cannon = 0,
-		name = "雅努斯",
+		name = "ジェーナス",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3586,7 +3586,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90702] = {
 		cannon = 0,
-		name = "曼彻斯特",
+		name = "マンチェスター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3742,7 +3742,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90703] = {
 		cannon = 0,
-		name = "阿尔比恩",
+		name = "アルビオン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3891,7 +3891,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90704] = {
 		cannon = 0,
-		name = "菲尔弗萨级驱逐-「Pawn」",
+		name = "フィルフサ級量産駆逐-「Pawn」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4053,7 +4053,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90705] = {
 		cannon = 0,
-		name = "菲尔弗萨级轻巡-「Knight」",
+		name = "フィルフサ級量産軽巡-「Knight」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4215,7 +4215,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90706] = {
 		cannon = 0,
-		name = "菲尔弗萨级重巡-「Bishop」",
+		name = "フィルフサ級量産重巡-「Bishop」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4384,7 +4384,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90707] = {
 		cannon = 0,
-		name = "菲尔弗萨级战舰-「Rook」",
+		name = "フィルフサ級量産戦艦-「Rook」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4553,7 +4553,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90708] = {
 		cannon = 0,
-		name = "菲尔弗萨级航母-「Queen」",
+		name = "フィルフサ級量産空母-「Queen」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4722,7 +4722,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90709] = {
 		cannon = 0,
-		name = "菲尔弗萨级自爆船「Buster」",
+		name = "フィルフサ級量産自爆ボート-「Buster」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

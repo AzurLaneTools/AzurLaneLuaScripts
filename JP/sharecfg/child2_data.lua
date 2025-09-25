@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.child2_data = {
 	{
-		name = "娜比娅",
+		name = "ナビィ",
 		name_background = "educate_oceana_1",
 		personality_type = 1,
 		id = 1,
 		head = "lingyangzhe1_1",
-		name2 = "领洋者",
+		name2 = "ナビゲーター",
 		favor_level = 5,
 		memory_group = 1003,
 		personality_param = {

@@ -7,7 +7,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10001,
 		target_num = 1,
-		desc = "【1/7】舰队出征，获得1次胜利。",
+		desc = "【1/7】艦隊を出撃させ、1回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -21,7 +21,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10002,
 		target_num = 5,
-		desc = "【2/7】舰队出征，获得5次胜利。",
+		desc = "【2/7】艦隊を出撃させ、5回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -35,7 +35,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10003,
 		target_num = 10,
-		desc = "【3/7】舰队出征，获得10次胜利。",
+		desc = "【3/7】艦隊を出撃させ、10回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -49,7 +49,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10004,
 		target_num = 20,
-		desc = "【4/7】舰队出征，获得20次胜利。",
+		desc = "【4/7】艦隊を出撃させ、20回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -63,7 +63,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10005,
 		target_num = 50,
-		desc = "【5/7】舰队出征，获得50次胜利。",
+		desc = "【5/7】艦隊を出撃させ、50回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -77,7 +77,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10006,
 		target_num = 100,
-		desc = "【6/7】舰队出征，获得100次胜利。",
+		desc = "【6/7】艦隊を出撃させ、100回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -91,7 +91,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10007,
 		target_num = 200,
-		desc = "【7/7】舰队出征，获得200次胜利。",
+		desc = "【7/7】艦隊を出撃させ、200回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -105,7 +105,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10011,
 		target_num = 50,
-		desc = "【1/6】击沉任意敌人50艘。",
+		desc = "【1/6】任意の敵を50隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -119,7 +119,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10012,
 		target_num = 100,
-		desc = "【2/6】击沉任意敌人100艘。",
+		desc = "【2/6】任意の敵を100隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -133,7 +133,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10013,
 		target_num = 200,
-		desc = "【3/6】击沉任意敌人200艘。",
+		desc = "【3/6】任意の敵を200隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -147,7 +147,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10014,
 		target_num = 500,
-		desc = "【4/6】击沉任意敌人500艘。",
+		desc = "【4/6】任意の敵を500隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -161,7 +161,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10015,
 		target_num = 1000,
-		desc = "【5/6】击沉任意敌人1000艘。",
+		desc = "【5/6】任意の敵を1000隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -175,7 +175,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10016,
 		target_num = 2000,
-		desc = "【6/6】击沉任意敌人2000艘。",
+		desc = "【6/6】任意の敵を2000隻撃破する",
 		award_display = {
 			8,
 			59012,
@@ -189,7 +189,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10021,
 		target_num = 5000,
-		desc = "【1/5】后宅补给存粮5000。",
+		desc = "【1/5】寮舎食料を5000補充する",
 		award_display = {
 			8,
 			59012,
@@ -203,7 +203,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10022,
 		target_num = 10000,
-		desc = "【2/5】后宅补给存粮10000。",
+		desc = "【2/5】寮舎食料を10000補充する",
 		award_display = {
 			8,
 			59012,
@@ -217,7 +217,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10023,
 		target_num = 20000,
-		desc = "【3/5】后宅补给存粮20000。",
+		desc = "【3/5】寮舎食料を20000補充する",
 		award_display = {
 			8,
 			59012,
@@ -231,7 +231,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10024,
 		target_num = 50000,
-		desc = "【4/5】后宅补给存粮50000。",
+		desc = "【4/5】寮舎食料を50000補充する",
 		award_display = {
 			8,
 			59012,
@@ -245,7 +245,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10025,
 		target_num = 100000,
-		desc = "【5/5】后宅补给存粮100000。",
+		desc = "【5/5】寮舎食料を100000補充する",
 		award_display = {
 			8,
 			59012,
@@ -259,7 +259,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10031,
 		target_num = 1,
-		desc = "【1/3】训练指挥喵1只。",
+		desc = "【1/3】オフニャを1回訓練する",
 		award_display = {
 			8,
 			59012,
@@ -273,7 +273,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10032,
 		target_num = 5,
-		desc = "【2/3】训练指挥喵5只。",
+		desc = "【2/3】オフニャを5回訓練する",
 		award_display = {
 			8,
 			59012,
@@ -287,7 +287,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10033,
 		target_num = 7,
-		desc = "【3/3】训练指挥喵7只。",
+		desc = "【3/3】オフニャを7回訓練する",
 		award_display = {
 			8,
 			59012,
@@ -301,7 +301,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10041,
 		target_num = 1,
-		desc = "【1/4】建造舰船1次。",
+		desc = "【1/4】建造を1回行う",
 		award_display = {
 			8,
 			59012,
@@ -315,7 +315,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10042,
 		target_num = 5,
-		desc = "【2/4】建造舰船5次。",
+		desc = "【2/4】建造を5回行う",
 		award_display = {
 			8,
 			59012,
@@ -329,7 +329,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10043,
 		target_num = 7,
-		desc = "【3/4】建造舰船7次。",
+		desc = "【3/4】建造を7回行う",
 		award_display = {
 			8,
 			59012,
@@ -343,7 +343,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10044,
 		target_num = 10,
-		desc = "【4/4】建造舰船10次。",
+		desc = "【4/4】建造を10回行う",
 		award_display = {
 			8,
 			59012,
@@ -357,7 +357,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10051,
 		target_num = 1000,
-		desc = "【1/5】累计消耗石油1000。",
+		desc = "【1/5】燃料を1000消費する",
 		award_display = {
 			8,
 			59012,
@@ -371,7 +371,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10052,
 		target_num = 2000,
-		desc = "【2/5】累计消耗石油2000。",
+		desc = "【2/5】燃料を2000消費する",
 		award_display = {
 			8,
 			59012,
@@ -385,7 +385,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10053,
 		target_num = 3000,
-		desc = "【3/5】累计消耗石油3000。",
+		desc = "【3/5】燃料を3000消費する",
 		award_display = {
 			8,
 			59012,
@@ -399,7 +399,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10054,
 		target_num = 5000,
-		desc = "【4/5】累计消耗石油5000。",
+		desc = "【4/5】燃料を5000消費する",
 		award_display = {
 			8,
 			59012,
@@ -413,7 +413,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10055,
 		target_num = 7500,
-		desc = "【5/5】累计消耗石油7500。",
+		desc = "【5/5】燃料を7500消費する",
 		award_display = {
 			8,
 			59012,
@@ -427,7 +427,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10061,
 		target_num = 1,
-		desc = "【1/4】舰队出征，以A评价通关1次。 ",
+		desc = "【1/4】艦隊を出撃させ、1回A評価で勝利せよ！",
 		award_display = {
 			8,
 			59012,
@@ -441,7 +441,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10062,
 		target_num = 10,
-		desc = "【2/4】舰队出征，以A评价通关10次。 ",
+		desc = "【2/4】艦隊を出撃させ、10回A評価で勝利せよ！",
 		award_display = {
 			8,
 			59012,
@@ -455,7 +455,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10063,
 		target_num = 20,
-		desc = "【3/4】舰队出征，以A评价通关20次。 ",
+		desc = "【3/4】艦隊を出撃させ、20回A評価で勝利せよ！",
 		award_display = {
 			8,
 			59012,
@@ -469,7 +469,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10064,
 		target_num = 50,
-		desc = "【4/4】舰队出征，以A评价通关50次。 ",
+		desc = "【4/4】艦隊を出撃させ、50回A評価で勝利せよ！",
 		award_display = {
 			8,
 			59012,
@@ -483,7 +483,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10071,
 		target_num = 1,
-		desc = "【1/5】完成科研1次。",
+		desc = "【1/5】科学研究を1回行う",
 		award_display = {
 			8,
 			59012,
@@ -497,7 +497,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10072,
 		target_num = 3,
-		desc = "【2/5】完成科研3次。",
+		desc = "【2/5】科学研究を3回行う",
 		award_display = {
 			8,
 			59012,
@@ -511,7 +511,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10073,
 		target_num = 5,
-		desc = "【3/5】完成科研5次。",
+		desc = "【3/5】科学研究を5回行う",
 		award_display = {
 			8,
 			59012,
@@ -525,7 +525,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10074,
 		target_num = 10,
-		desc = "【4/5】完成科研10次。",
+		desc = "【4/5】科学研究を10回行う",
 		award_display = {
 			8,
 			59012,
@@ -539,7 +539,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10075,
 		target_num = 20,
-		desc = "【5/5】完成科研20次。",
+		desc = "【5/5】科学研究を20回行う",
 		award_display = {
 			8,
 			59012,
@@ -553,7 +553,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10081,
 		target_num = 1,
-		desc = "【1/5】舰船强化1次。",
+		desc = "【1/5】艦を1回「強化」せよ！",
 		award_display = {
 			8,
 			59012,
@@ -567,7 +567,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10082,
 		target_num = 5,
-		desc = "【2/5】舰船强化5次。",
+		desc = "【2/5】艦を5回「強化」せよ！",
 		award_display = {
 			8,
 			59012,
@@ -581,7 +581,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10083,
 		target_num = 10,
-		desc = "【3/5】舰船强化10次。",
+		desc = "【3/5】艦を10回「強化」せよ！",
 		award_display = {
 			8,
 			59012,
@@ -595,7 +595,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10084,
 		target_num = 20,
-		desc = "【4/5】舰船强化20次。",
+		desc = "【4/5】艦を20回「強化」せよ！",
 		award_display = {
 			8,
 			59012,
@@ -609,7 +609,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10085,
 		target_num = 50,
-		desc = "【5/5】舰船强化50次。",
+		desc = "【5/5】艦を50回「強化」せよ！",
 		award_display = {
 			8,
 			59012,
@@ -623,7 +623,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10091,
 		target_num = 1,
-		desc = "【1/3】装备强化1次。",
+		desc = "【1/3】装備強化を1回行う",
 		award_display = {
 			8,
 			59012,
@@ -637,7 +637,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10092,
 		target_num = 5,
-		desc = "【2/3】装备强化5次。",
+		desc = "【2/3】装備強化を5回行う",
 		award_display = {
 			8,
 			59012,
@@ -651,7 +651,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10093,
 		target_num = 10,
-		desc = "【3/3】装备强化10次。",
+		desc = "【3/3】装備強化を10回行う",
 		award_display = {
 			8,
 			59012,
@@ -665,7 +665,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10101,
 		target_num = 3,
-		desc = "【1/5】完成3个「每日挑战」关卡。",
+		desc = "【1/5】デイリーチャレンジを3回行う",
 		award_display = {
 			8,
 			59012,
@@ -679,7 +679,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10102,
 		target_num = 9,
-		desc = "【2/5】完成9个「每日挑战」关卡。",
+		desc = "【2/5】デイリーチャレンジを9回行う",
 		award_display = {
 			8,
 			59012,
@@ -693,7 +693,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10103,
 		target_num = 15,
-		desc = "【3/5】完成15个「每日挑战」关卡。",
+		desc = "【3/5】デイリーチャレンジを15回行う",
 		award_display = {
 			8,
 			59012,
@@ -707,7 +707,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10104,
 		target_num = 21,
-		desc = "【4/5】完成21个「每日挑战」关卡。",
+		desc = "【4/5】デイリーチャレンジを21回行う",
 		award_display = {
 			8,
 			59012,
@@ -721,7 +721,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10105,
 		target_num = 27,
-		desc = "【5/5】完成27个「每日挑战」关卡。",
+		desc = "【5/5】デイリーチャレンジを27回行う",
 		award_display = {
 			8,
 			59012,
@@ -735,7 +735,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10111,
 		target_num = 1,
-		desc = "【1/4】进行战术训练1次。",
+		desc = "【1/4】戦術訓練（スキル強化）を1回行う",
 		award_display = {
 			8,
 			59012,
@@ -749,7 +749,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10112,
 		target_num = 5,
-		desc = "【2/4】进行战术训练5次。",
+		desc = "【2/4】戦術訓練（スキル強化）を5回行う",
 		award_display = {
 			8,
 			59012,
@@ -763,7 +763,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10113,
 		target_num = 10,
-		desc = "【3/4】进行战术训练10次。",
+		desc = "【3/4】戦術訓練（スキル強化）を10回行う",
 		award_display = {
 			8,
 			59012,
@@ -777,7 +777,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10114,
 		target_num = 15,
-		desc = "【4/4】进行战术训练15次。",
+		desc = "【4/4】戦術訓練（スキル強化）を15回行う",
 		award_display = {
 			8,
 			59012,
@@ -791,7 +791,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10121,
 		target_num = 5,
-		desc = "【1/5】执行军事委托5次。",
+		desc = "【1/5】軍事委託を5回行う",
 		award_display = {
 			8,
 			59012,
@@ -805,7 +805,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10122,
 		target_num = 10,
-		desc = "【2/5】执行军事委托10次。",
+		desc = "【2/5】軍事委託を10回行う",
 		award_display = {
 			8,
 			59012,
@@ -819,7 +819,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10123,
 		target_num = 20,
-		desc = "【3/5】执行军事委托20次。",
+		desc = "【3/5】軍事委託を20回行う",
 		award_display = {
 			8,
 			59012,
@@ -833,7 +833,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10124,
 		target_num = 30,
-		desc = "【4/5】执行军事委托30次。",
+		desc = "【4/5】軍事委託を30回行う",
 		award_display = {
 			8,
 			59012,
@@ -847,7 +847,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10125,
 		target_num = 50,
-		desc = "【5/5】执行军事委托50次。",
+		desc = "【5/5】軍事委託を50回行う",
 		award_display = {
 			8,
 			59012,
@@ -861,7 +861,7 @@ pg.weekly_task_template = {
 		target_id = "1",
 		id = 10131,
 		target_num = 5,
-		desc = "【1/5】获得5次军事演习胜利。",
+		desc = "【1/5】演習で5回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -875,7 +875,7 @@ pg.weekly_task_template = {
 		target_id = "1",
 		id = 10132,
 		target_num = 10,
-		desc = "【2/5】获得10次军事演习胜利。",
+		desc = "【2/5】演習で10回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -889,7 +889,7 @@ pg.weekly_task_template = {
 		target_id = "1",
 		id = 10133,
 		target_num = 20,
-		desc = "【3/5】获得20次军事演习胜利。",
+		desc = "【3/5】演習で20回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -903,7 +903,7 @@ pg.weekly_task_template = {
 		target_id = "1",
 		id = 10134,
 		target_num = 30,
-		desc = "【4/5】获得30次军事演习胜利。",
+		desc = "【4/5】演習で30回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -917,7 +917,7 @@ pg.weekly_task_template = {
 		target_id = "1",
 		id = 10135,
 		target_num = 50,
-		desc = "【5/5】获得50次军事演习胜利。",
+		desc = "【5/5】演習で50回勝利する",
 		award_display = {
 			8,
 			59012,
@@ -931,7 +931,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10141,
 		target_num = 1,
-		desc = "【1/4】舰船退役1次。",
+		desc = "【1/4】艦船を1隻退役する",
 		award_display = {
 			8,
 			59012,
@@ -945,7 +945,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10142,
 		target_num = 3,
-		desc = "【2/4】舰船退役3次。",
+		desc = "【2/4】艦船を3隻退役する",
 		award_display = {
 			8,
 			59012,
@@ -959,7 +959,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10143,
 		target_num = 5,
-		desc = "【3/4】舰船退役5次。",
+		desc = "【3/4】艦船を5隻退役する",
 		award_display = {
 			8,
 			59012,
@@ -973,7 +973,7 @@ pg.weekly_task_template = {
 		target_id = "0",
 		id = 10144,
 		target_num = 10,
-		desc = "【4/4】舰船退役10次。",
+		desc = "【4/4】艦船を10隻退役する",
 		award_display = {
 			8,
 			59012,
@@ -986,7 +986,7 @@ pg.weekly_task_template = {
 		target_id_for_client = 0,
 		id = 10151,
 		target_num = 3,
-		desc = "【1/5】通关3次「困难副本」。",
+		desc = "【1/5】通常海域ハードを3回クリアする",
 		award_display = {
 			8,
 			59012,
@@ -1053,7 +1053,7 @@ pg.weekly_task_template = {
 		target_id_for_client = 0,
 		id = 10152,
 		target_num = 6,
-		desc = "【2/5】通关6次「困难副本」。",
+		desc = "【2/5】通常海域ハードを6回クリアする",
 		award_display = {
 			8,
 			59012,
@@ -1120,7 +1120,7 @@ pg.weekly_task_template = {
 		target_id_for_client = 0,
 		id = 10153,
 		target_num = 9,
-		desc = "【3/5】通关9次「困难副本」。",
+		desc = "【3/5】通常海域ハードを9回クリアする",
 		award_display = {
 			8,
 			59012,
@@ -1187,7 +1187,7 @@ pg.weekly_task_template = {
 		target_id_for_client = 0,
 		id = 10154,
 		target_num = 12,
-		desc = "【4/5】通关12次「困难副本」。",
+		desc = "【4/5】通常海域ハードを12回クリアする",
 		award_display = {
 			8,
 			59012,
@@ -1254,7 +1254,7 @@ pg.weekly_task_template = {
 		target_id_for_client = 0,
 		id = 10155,
 		target_num = 15,
-		desc = "【5/5】通关15次「困难副本」。",
+		desc = "【5/5】通常海域ハードを15回クリアする",
 		award_display = {
 			8,
 			59012,

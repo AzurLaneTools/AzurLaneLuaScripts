@@ -2580,7 +2580,7 @@ pg.activity_ins_npc_template = {
 				26
 			},
 			{
-				16,
+				20,
 				6,
 				0
 			}
@@ -2603,7 +2603,7 @@ pg.activity_ins_npc_template = {
 				26
 			},
 			{
-				16,
+				20,
 				15,
 				0
 			}
@@ -2621,7 +2621,7 @@ pg.activity_ins_npc_template = {
 				26
 			},
 			{
-				16,
+				20,
 				18,
 				0
 			}
@@ -2639,7 +2639,7 @@ pg.activity_ins_npc_template = {
 				26
 			},
 			{
-				16,
+				20,
 				23,
 				0
 			}
@@ -2656,7 +2656,7 @@ pg.activity_ins_npc_template = {
 				26
 			},
 			{
-				16,
+				20,
 				36,
 				0
 			}
@@ -6150,7 +6150,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				8,
 				0
 			}
@@ -6173,7 +6173,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				13,
 				0
 			}
@@ -6191,7 +6191,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				21,
 				0
 			}
@@ -6209,7 +6209,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				30,
 				0
 			}
@@ -6226,7 +6226,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				38,
 				0
 			}
@@ -6247,7 +6247,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				46,
 				0
 			}
@@ -6264,7 +6264,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
+				17,
 				55,
 				0
 			}
@@ -6285,7 +6285,7 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				14,
+				18,
 				0,
 				0
 			}
@@ -8709,7 +8709,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				7,
 				0
 			}
@@ -8731,7 +8731,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				11,
 				0
 			}
@@ -8749,7 +8749,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				15,
 				0
 			}
@@ -8767,7 +8767,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				41,
 				0
 			}
@@ -8784,7 +8784,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				21,
 				0
 			}
@@ -8808,7 +8808,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				26,
 				0
 			}
@@ -8826,7 +8826,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				29,
 				0
 			}
@@ -8844,7 +8844,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				13,
+				16,
 				34,
 				0
 			}
@@ -8897,7 +8897,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				24,
 				0
 			}
@@ -8920,7 +8920,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				29,
 				0
 			}
@@ -8938,7 +8938,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				33,
 				0
 			}
@@ -8956,7 +8956,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				35,
 				0
 			}
@@ -8973,7 +8973,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				45,
 				0
 			}
@@ -8996,7 +8996,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				51,
 				0
 			}
@@ -9014,7 +9014,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				14,
+				17,
 				54,
 				0
 			}
@@ -9032,7 +9032,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				15,
+				18,
 				6,
 				0
 			}
@@ -9085,7 +9085,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				14,
 				0
 			}
@@ -9107,7 +9107,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				19,
 				0
 			}
@@ -9125,7 +9125,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				23,
 				0
 			}
@@ -9142,7 +9142,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				30,
 				0
 			}
@@ -9164,7 +9164,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				34,
 				0
 			}
@@ -9182,7 +9182,7 @@ pg.activity_ins_npc_template = {
 				28
 			},
 			{
-				18,
+				20,
 				38,
 				0
 			}
@@ -14900,7 +14900,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				2,
 				0
 			}
@@ -14924,7 +14924,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				5,
 				0
 			}
@@ -14942,7 +14942,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				9,
 				0
 			}
@@ -14960,7 +14960,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				15,
 				0
 			}
@@ -14978,7 +14978,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				19,
 				0
 			}
@@ -14995,7 +14995,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				26,
 				0
 			}
@@ -15018,7 +15018,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				30,
 				0
 			}
@@ -15036,7 +15036,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				34,
 				0
 			}
@@ -15054,7 +15054,7 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				20,
+				21,
 				39,
 				0
 			}

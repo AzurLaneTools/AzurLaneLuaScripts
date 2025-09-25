@@ -7,17 +7,17 @@ pg.property_data_template = {
 	},
 	cannon = {
 		view = "cannon",
-		name = "炮击",
+		name = "火力",
 		icon = "cannon"
 	},
 	torpedo = {
 		view = "torpedo",
-		name = "雷击",
+		name = "雷装",
 		icon = "torpedo"
 	},
 	antiaircraft = {
 		view = "antiaircraft",
-		name = "防空",
+		name = "対空",
 		icon = "antiaircraft"
 	},
 	air = {
@@ -47,32 +47,32 @@ pg.property_data_template = {
 	},
 	dodge = {
 		view = "dodge",
-		name = "机动",
+		name = "回避",
 		icon = "dodge"
 	},
 	speed = {
 		view = "speed",
-		name = "航速",
+		name = "速力",
 		icon = "speed"
 	},
 	luck = {
 		view = "luck",
-		name = "幸运",
+		name = "運",
 		icon = "luck"
 	},
 	damage = {
 		view = "damage",
-		name = "火力",
+		name = "威力",
 		icon = "cannon"
 	},
 	healthy = {
 		view = "healthy",
-		name = "治疗",
+		name = "回復",
 		icon = "durability"
 	},
 	cd = {
 		view = "cd",
-		name = "射速",
+		name = "攻速",
 		icon = "reload"
 	},
 	speciality = {

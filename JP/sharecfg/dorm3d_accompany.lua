@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_accompany = {
 	{
 		sceneInfo = "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
-		name = "日常相伴",
+		name = "ビーチ",
 		performance_time = 20,
 		image = "tianlangxing_accompany_room",
 		ship_id = 20220,
@@ -22,7 +22,7 @@ pg.dorm3d_accompany = {
 	},
 	{
 		sceneInfo = "map_beach_01|Beach",
-		name = "休闲相伴",
+		name = "寝室",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
 		ship_id = 20220,
@@ -46,7 +46,7 @@ pg.dorm3d_accompany = {
 	},
 	[21] = {
 		sceneInfo = "map_noshirohostel_01|Nengdai_DB/NoshiroHostel",
-		name = "日常相伴",
+		name = "ビーチ",
 		performance_time = 20,
 		image = "nengdai_accompany_room",
 		ship_id = 30221,
@@ -66,7 +66,7 @@ pg.dorm3d_accompany = {
 	},
 	[22] = {
 		sceneInfo = "map_beach_01|Beach",
-		name = "休闲相伴",
+		name = "寝室",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
 		ship_id = 30221,
@@ -90,7 +90,7 @@ pg.dorm3d_accompany = {
 	},
 	[31] = {
 		sceneInfo = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
-		name = "日常相伴",
+		name = "ビーチ",
 		performance_time = 20,
 		image = "ankeleiqi_accompany_room",
 		ship_id = 19903,
@@ -110,7 +110,7 @@ pg.dorm3d_accompany = {
 	},
 	[32] = {
 		sceneInfo = "map_beach_01|Beach",
-		name = "休闲相伴",
+		name = "寝室",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
 		ship_id = 19903,
@@ -134,7 +134,7 @@ pg.dorm3d_accompany = {
 	},
 	[111] = {
 		sceneInfo = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
-		name = "日常相伴",
+		name = "ビーチ",
 		performance_time = 20,
 		image = "xinzexi_accompany_room",
 		ship_id = 10517,
@@ -154,7 +154,7 @@ pg.dorm3d_accompany = {
 	},
 	[112] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
-		name = "休闲相伴",
+		name = "寝室",
 		performance_time = 20,
 		image = "cafe_accompany",
 		ship_id = 10517,
@@ -178,7 +178,7 @@ pg.dorm3d_accompany = {
 	},
 	[121] = {
 		sceneInfo = "map_dafeng_01|Dafeng_DB/Dafenghostel",
-		name = "日常相伴",
+		name = "ビーチ",
 		performance_time = 20,
 		image = "dafeng_accompany_room",
 		ship_id = 30707,
@@ -198,7 +198,7 @@ pg.dorm3d_accompany = {
 	},
 	[122] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
-		name = "休闲相伴",
+		name = "寝室",
 		performance_time = 20,
 		image = "cafe_accompany",
 		ship_id = 30707,

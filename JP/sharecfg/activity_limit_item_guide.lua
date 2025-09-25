@@ -19,7 +19,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -42,7 +42,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -65,7 +65,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -88,7 +88,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -111,7 +111,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -134,7 +134,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -151,7 +151,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -168,7 +168,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -188,7 +188,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"寮舎の家具ショップで購入"
 			}
 		}
 	},
@@ -208,7 +208,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"寮舎の家具ショップで購入"
 			}
 		}
 	},
@@ -225,7 +225,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -245,7 +245,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"寮舎の家具ショップで購入"
 			}
 		}
 	},
@@ -265,7 +265,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"寮舎の家具ショップで購入"
 			}
 		}
 	},
@@ -282,7 +282,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -301,7 +301,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「スペシャルログインボーナス」報酬"
 			}
 		}
 	},
@@ -320,7 +320,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「スペシャルログインボーナス」報酬"
 			}
 		}
 	},
@@ -339,7 +339,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「スペシャルログインボーナス」報酬"
 			}
 		}
 	},
@@ -358,7 +358,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「スペシャルログインボーナス」報酬"
 			}
 		}
 	},
@@ -377,7 +377,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"「スペシャルログインボーナス」報酬"
 			}
 		}
 	},
@@ -396,7 +396,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -416,7 +416,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"寮舎の家具ショップで購入"
 			}
 		}
 	},
@@ -435,7 +435,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -454,7 +454,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -471,7 +471,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -490,7 +490,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -509,7 +509,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -528,7 +528,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -551,7 +551,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -568,7 +568,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -591,7 +591,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -610,7 +610,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"「激戦！電光饅頭VS怪獣饅頭」報酬"
 			}
 		}
 	},
@@ -633,7 +633,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -652,7 +652,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"イベント限定任務クリア"
 			}
 		}
 	},
@@ -671,7 +671,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"イベント限定任務クリア"
 			}
 		}
 	},
@@ -688,7 +688,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -705,7 +705,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"「弧光結晶」累計入手数報酬で入手"
 			}
 		}
 	},
@@ -728,7 +728,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"イベントショップで入手"
 			}
 		}
 	},
@@ -747,7 +747,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单1"
+				"「助けて！ララさん」で依頼1をクリア"
 			}
 		}
 	},
@@ -766,7 +766,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单2"
+				"「助けて！ララさん」で依頼2をクリア"
 			}
 		}
 	},
@@ -785,7 +785,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单3"
+				"「助けて！ララさん」で依頼3をクリア"
 			}
 		}
 	},
@@ -804,7 +804,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单4"
+				"「助けて！ララさん」で依頼4をクリア"
 			}
 		}
 	},
@@ -823,7 +823,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单5"
+				"「助けて！ララさん」で依頼5をクリア"
 			}
 		}
 	},
@@ -842,7 +842,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单6"
+				"「助けて！ララさん」で依頼6をクリア"
 			}
 		}
 	},
@@ -861,7 +861,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单7"
+				"「助けて！ララさん」で依頼7をクリア"
 			}
 		}
 	},
@@ -878,9 +878,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -897,9 +897,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -918,7 +918,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene level"
 				},
-				"完成剧情模式"
+				"コラボステージのストーリーをすべて解放"
 			}
 		}
 	},
@@ -938,7 +938,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"家具ショップで購入"
 			}
 		}
 	},
@@ -957,7 +957,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"「ピポピポトレーニングくん」をクリア"
 			}
 		}
 	},
@@ -974,9 +974,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -995,7 +995,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"「ピポピポトレーニングくん」をクリア"
 			}
 		}
 	},
@@ -1014,7 +1014,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"「ピポピポトレーニングくん」をクリア"
 			}
 		}
 	},
@@ -1031,9 +1031,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1050,9 +1050,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1069,9 +1069,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1088,9 +1088,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1107,9 +1107,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1126,9 +1126,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1145,9 +1145,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1164,9 +1164,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成「帮帮我，菈菈小姐！」玩法相关任务"
+				"「助けて！ララさん」関連任務をクリア"
 			}
 		}
 	},
@@ -1181,11 +1181,11 @@ pg.activity_limit_item_guide = {
 		count_storage = 0,
 		link_params = {
 			{
-				7,
+				2,
 				{
-					69
+					"ToLoveGameView"
 				},
-				"完成「滴滴特训君」玩法相关任务"
+				"「ピポピポトレーニングくん」関連任務をクリア"
 			}
 		}
 	},
@@ -1202,9 +1202,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1221,9 +1221,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1240,9 +1240,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1259,9 +1259,9 @@ pg.activity_limit_item_guide = {
 			{
 				2,
 				{
-					"TOLOVE_COLLAB_BACKHILL"
+					"scene task"
 				},
-				"完成活动任务"
+				"限定任務をクリア"
 			}
 		}
 	},
@@ -1278,7 +1278,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1295,7 +1295,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1312,7 +1312,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1329,7 +1329,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1346,7 +1346,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1363,7 +1363,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1380,7 +1380,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1397,7 +1397,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1414,7 +1414,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1431,7 +1431,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1448,7 +1448,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1465,7 +1465,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1482,7 +1482,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"「幻影の挑戦」で入手可能"
 			}
 		}
 	},
@@ -1499,7 +1499,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"「幻影の挑戦」で入手可能"
 			}
 		}
 	},
@@ -1519,7 +1519,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"家具ショップで購入"
 			}
 		}
 	},
@@ -1539,7 +1539,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"家具ショップで購入"
 			}
 		}
 	},
@@ -1556,7 +1556,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"「幻影の挑戦」で入手可能"
 			}
 		}
 	},
@@ -1573,7 +1573,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"「黒の痕跡」で入手可能"
 			}
 		}
 	},
@@ -1590,7 +1590,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"「死の意匠」で入手可能"
 			}
 		}
 	},
@@ -1607,7 +1607,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1624,7 +1624,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1641,7 +1641,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1658,7 +1658,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1675,7 +1675,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1692,7 +1692,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1709,7 +1709,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1726,7 +1726,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1743,7 +1743,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1760,7 +1760,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1777,7 +1777,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50055,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1794,7 +1794,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1811,7 +1811,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1828,7 +1828,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1845,7 +1845,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1862,7 +1862,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1879,7 +1879,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1896,7 +1896,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1913,7 +1913,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50049,
-				"「噗尼的异世界之旅」活动奖励"
+				"「ぷにの異世界旅行」イベント報酬"
 			}
 		}
 	},
@@ -1930,12 +1930,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
-			},
-			{
-				3,
-				50046,
-				"「温泉开发战」奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1952,12 +1947,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50044,
-				"「港区委托版」任务奖励"
-			},
-			{
-				3,
-				50046,
-				"「温泉开发战」奖励"
+				"「依頼任務」任務報酬"
 			}
 		}
 	},
@@ -1973,8 +1963,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -1990,8 +1980,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2007,8 +1997,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2024,8 +2014,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2041,8 +2031,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2058,8 +2048,8 @@ pg.activity_limit_item_guide = {
 		link_params = {
 			{
 				3,
-				50043,
-				"「炼金工房」调合获得"
+				50055,
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2076,7 +2066,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2093,7 +2083,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2110,7 +2100,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2127,7 +2117,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2144,7 +2134,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2161,7 +2151,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2178,7 +2168,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50058,
-				"累计「天际微尘」领取"
+				"「蒼穹の塵」累計入手数報酬"
 			}
 		}
 	},
@@ -2197,12 +2187,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
-			},
-			{
-				3,
-				50063,
-				"「据点建装」奖励"
+				"イベント任務報酬"
 			}
 		}
 	},
@@ -2221,12 +2206,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
-			},
-			{
-				3,
-				50063,
-				"「据点建装」奖励"
+				"イベント任務報酬"
 			}
 		}
 	},
@@ -2243,7 +2223,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2260,7 +2240,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2277,7 +2257,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},
@@ -2294,7 +2274,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				50043,
-				"「炼金工房」调合获得"
+				"調合で入手可能"
 			}
 		}
 	},

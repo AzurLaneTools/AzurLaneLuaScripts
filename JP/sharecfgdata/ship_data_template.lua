@@ -138,7 +138,7 @@ _G.pg.base.ship_data_template[100021] = {
 
 _G.pg.base.ship_data_template[101021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -183,7 +183,7 @@ _G.pg.base.ship_data_template[101021] = {
 
 _G.pg.base.ship_data_template[101022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -229,7 +229,7 @@ _G.pg.base.ship_data_template[101022] = {
 
 _G.pg.base.ship_data_template[101023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -323,7 +323,7 @@ _G.pg.base.ship_data_template[101024] = {
 
 _G.pg.base.ship_data_template[101031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -369,7 +369,7 @@ _G.pg.base.ship_data_template[101031] = {
 
 _G.pg.base.ship_data_template[101032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -416,7 +416,7 @@ _G.pg.base.ship_data_template[101032] = {
 
 _G.pg.base.ship_data_template[101033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -512,7 +512,7 @@ _G.pg.base.ship_data_template[101034] = {
 
 _G.pg.base.ship_data_template[101041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -558,7 +558,7 @@ _G.pg.base.ship_data_template[101041] = {
 
 _G.pg.base.ship_data_template[101042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -605,7 +605,7 @@ _G.pg.base.ship_data_template[101042] = {
 
 _G.pg.base.ship_data_template[101043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -701,7 +701,7 @@ _G.pg.base.ship_data_template[101044] = {
 
 _G.pg.base.ship_data_template[101051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -748,7 +748,7 @@ _G.pg.base.ship_data_template[101051] = {
 
 _G.pg.base.ship_data_template[101052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -796,7 +796,7 @@ _G.pg.base.ship_data_template[101052] = {
 
 _G.pg.base.ship_data_template[101053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -894,7 +894,7 @@ _G.pg.base.ship_data_template[101054] = {
 
 _G.pg.base.ship_data_template[101061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -939,7 +939,7 @@ _G.pg.base.ship_data_template[101061] = {
 
 _G.pg.base.ship_data_template[101062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -985,7 +985,7 @@ _G.pg.base.ship_data_template[101062] = {
 
 _G.pg.base.ship_data_template[101063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -1079,7 +1079,7 @@ _G.pg.base.ship_data_template[101064] = {
 
 _G.pg.base.ship_data_template[101071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -1124,7 +1124,7 @@ _G.pg.base.ship_data_template[101071] = {
 
 _G.pg.base.ship_data_template[101072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -1170,7 +1170,7 @@ _G.pg.base.ship_data_template[101072] = {
 
 _G.pg.base.ship_data_template[101073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -1264,7 +1264,7 @@ _G.pg.base.ship_data_template[101074] = {
 
 _G.pg.base.ship_data_template[101081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -1311,7 +1311,7 @@ _G.pg.base.ship_data_template[101081] = {
 
 _G.pg.base.ship_data_template[101082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -1359,7 +1359,7 @@ _G.pg.base.ship_data_template[101082] = {
 
 _G.pg.base.ship_data_template[101083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -1457,7 +1457,7 @@ _G.pg.base.ship_data_template[101084] = {
 
 _G.pg.base.ship_data_template[101091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -1504,7 +1504,7 @@ _G.pg.base.ship_data_template[101091] = {
 
 _G.pg.base.ship_data_template[101092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -1552,7 +1552,7 @@ _G.pg.base.ship_data_template[101092] = {
 
 _G.pg.base.ship_data_template[101093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -1650,7 +1650,7 @@ _G.pg.base.ship_data_template[101094] = {
 
 _G.pg.base.ship_data_template[101111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -1698,7 +1698,7 @@ _G.pg.base.ship_data_template[101111] = {
 
 _G.pg.base.ship_data_template[101112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -1747,7 +1747,7 @@ _G.pg.base.ship_data_template[101112] = {
 
 _G.pg.base.ship_data_template[101113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -1847,7 +1847,7 @@ _G.pg.base.ship_data_template[101114] = {
 
 _G.pg.base.ship_data_template[101121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -1892,7 +1892,7 @@ _G.pg.base.ship_data_template[101121] = {
 
 _G.pg.base.ship_data_template[101122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -1938,7 +1938,7 @@ _G.pg.base.ship_data_template[101122] = {
 
 _G.pg.base.ship_data_template[101123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -2032,7 +2032,7 @@ _G.pg.base.ship_data_template[101124] = {
 
 _G.pg.base.ship_data_template[101131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -2077,7 +2077,7 @@ _G.pg.base.ship_data_template[101131] = {
 
 _G.pg.base.ship_data_template[101132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -2123,7 +2123,7 @@ _G.pg.base.ship_data_template[101132] = {
 
 _G.pg.base.ship_data_template[101133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -2217,7 +2217,7 @@ _G.pg.base.ship_data_template[101134] = {
 
 _G.pg.base.ship_data_template[101141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -2262,7 +2262,7 @@ _G.pg.base.ship_data_template[101141] = {
 
 _G.pg.base.ship_data_template[101142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -2308,7 +2308,7 @@ _G.pg.base.ship_data_template[101142] = {
 
 _G.pg.base.ship_data_template[101143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -2402,7 +2402,7 @@ _G.pg.base.ship_data_template[101144] = {
 
 _G.pg.base.ship_data_template[101151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -2447,7 +2447,7 @@ _G.pg.base.ship_data_template[101151] = {
 
 _G.pg.base.ship_data_template[101152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -2493,7 +2493,7 @@ _G.pg.base.ship_data_template[101152] = {
 
 _G.pg.base.ship_data_template[101153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -2587,7 +2587,7 @@ _G.pg.base.ship_data_template[101154] = {
 
 _G.pg.base.ship_data_template[101161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -2632,7 +2632,7 @@ _G.pg.base.ship_data_template[101161] = {
 
 _G.pg.base.ship_data_template[101162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -2678,7 +2678,7 @@ _G.pg.base.ship_data_template[101162] = {
 
 _G.pg.base.ship_data_template[101163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -2772,7 +2772,7 @@ _G.pg.base.ship_data_template[101164] = {
 
 _G.pg.base.ship_data_template[101171] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -2818,7 +2818,7 @@ _G.pg.base.ship_data_template[101171] = {
 
 _G.pg.base.ship_data_template[101172] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -2865,7 +2865,7 @@ _G.pg.base.ship_data_template[101172] = {
 
 _G.pg.base.ship_data_template[101173] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -2961,7 +2961,7 @@ _G.pg.base.ship_data_template[101174] = {
 
 _G.pg.base.ship_data_template[101241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -3007,7 +3007,7 @@ _G.pg.base.ship_data_template[101241] = {
 
 _G.pg.base.ship_data_template[101242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3054,7 +3054,7 @@ _G.pg.base.ship_data_template[101242] = {
 
 _G.pg.base.ship_data_template[101243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -3150,7 +3150,7 @@ _G.pg.base.ship_data_template[101244] = {
 
 _G.pg.base.ship_data_template[101251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -3196,7 +3196,7 @@ _G.pg.base.ship_data_template[101251] = {
 
 _G.pg.base.ship_data_template[101252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3243,7 +3243,7 @@ _G.pg.base.ship_data_template[101252] = {
 
 _G.pg.base.ship_data_template[101253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -3339,7 +3339,7 @@ _G.pg.base.ship_data_template[101254] = {
 
 _G.pg.base.ship_data_template[101261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3385,7 +3385,7 @@ _G.pg.base.ship_data_template[101261] = {
 
 _G.pg.base.ship_data_template[101262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -3432,7 +3432,7 @@ _G.pg.base.ship_data_template[101262] = {
 
 _G.pg.base.ship_data_template[101263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -3528,7 +3528,7 @@ _G.pg.base.ship_data_template[101264] = {
 
 _G.pg.base.ship_data_template[101271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -3574,7 +3574,7 @@ _G.pg.base.ship_data_template[101271] = {
 
 _G.pg.base.ship_data_template[101272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3621,7 +3621,7 @@ _G.pg.base.ship_data_template[101272] = {
 
 _G.pg.base.ship_data_template[101273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -3717,7 +3717,7 @@ _G.pg.base.ship_data_template[101274] = {
 
 _G.pg.base.ship_data_template[101291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -3762,7 +3762,7 @@ _G.pg.base.ship_data_template[101291] = {
 
 _G.pg.base.ship_data_template[101292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3808,7 +3808,7 @@ _G.pg.base.ship_data_template[101292] = {
 
 _G.pg.base.ship_data_template[101293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -3902,7 +3902,7 @@ _G.pg.base.ship_data_template[101294] = {
 
 _G.pg.base.ship_data_template[101301] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -3947,7 +3947,7 @@ _G.pg.base.ship_data_template[101301] = {
 
 _G.pg.base.ship_data_template[101302] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -3993,7 +3993,7 @@ _G.pg.base.ship_data_template[101302] = {
 
 _G.pg.base.ship_data_template[101303] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -4087,7 +4087,7 @@ _G.pg.base.ship_data_template[101304] = {
 
 _G.pg.base.ship_data_template[101311] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -4135,7 +4135,7 @@ _G.pg.base.ship_data_template[101311] = {
 
 _G.pg.base.ship_data_template[101312] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -4184,7 +4184,7 @@ _G.pg.base.ship_data_template[101312] = {
 
 _G.pg.base.ship_data_template[101313] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -4284,7 +4284,7 @@ _G.pg.base.ship_data_template[101314] = {
 
 _G.pg.base.ship_data_template[101331] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -4329,7 +4329,7 @@ _G.pg.base.ship_data_template[101331] = {
 
 _G.pg.base.ship_data_template[101332] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -4375,7 +4375,7 @@ _G.pg.base.ship_data_template[101332] = {
 
 _G.pg.base.ship_data_template[101333] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -4469,7 +4469,7 @@ _G.pg.base.ship_data_template[101334] = {
 
 _G.pg.base.ship_data_template[101341] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -4514,7 +4514,7 @@ _G.pg.base.ship_data_template[101341] = {
 
 _G.pg.base.ship_data_template[101342] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -4560,7 +4560,7 @@ _G.pg.base.ship_data_template[101342] = {
 
 _G.pg.base.ship_data_template[101343] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -4654,7 +4654,7 @@ _G.pg.base.ship_data_template[101344] = {
 
 _G.pg.base.ship_data_template[101351] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -4699,7 +4699,7 @@ _G.pg.base.ship_data_template[101351] = {
 
 _G.pg.base.ship_data_template[101352] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -4745,7 +4745,7 @@ _G.pg.base.ship_data_template[101352] = {
 
 _G.pg.base.ship_data_template[101353] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -4839,7 +4839,7 @@ _G.pg.base.ship_data_template[101354] = {
 
 _G.pg.base.ship_data_template[101361] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -4884,7 +4884,7 @@ _G.pg.base.ship_data_template[101361] = {
 
 _G.pg.base.ship_data_template[101362] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -4930,7 +4930,7 @@ _G.pg.base.ship_data_template[101362] = {
 
 _G.pg.base.ship_data_template[101363] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -5024,7 +5024,7 @@ _G.pg.base.ship_data_template[101364] = {
 
 _G.pg.base.ship_data_template[101371] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -5069,7 +5069,7 @@ _G.pg.base.ship_data_template[101371] = {
 
 _G.pg.base.ship_data_template[101372] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -5115,7 +5115,7 @@ _G.pg.base.ship_data_template[101372] = {
 
 _G.pg.base.ship_data_template[101373] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -5209,7 +5209,7 @@ _G.pg.base.ship_data_template[101374] = {
 
 _G.pg.base.ship_data_template[101381] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -5254,7 +5254,7 @@ _G.pg.base.ship_data_template[101381] = {
 
 _G.pg.base.ship_data_template[101382] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -5300,7 +5300,7 @@ _G.pg.base.ship_data_template[101382] = {
 
 _G.pg.base.ship_data_template[101383] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -5394,7 +5394,7 @@ _G.pg.base.ship_data_template[101384] = {
 
 _G.pg.base.ship_data_template[101391] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -5439,7 +5439,7 @@ _G.pg.base.ship_data_template[101391] = {
 
 _G.pg.base.ship_data_template[101392] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -5485,7 +5485,7 @@ _G.pg.base.ship_data_template[101392] = {
 
 _G.pg.base.ship_data_template[101393] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -5579,7 +5579,7 @@ _G.pg.base.ship_data_template[101394] = {
 
 _G.pg.base.ship_data_template[101401] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -5624,7 +5624,7 @@ _G.pg.base.ship_data_template[101401] = {
 
 _G.pg.base.ship_data_template[101402] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -5670,7 +5670,7 @@ _G.pg.base.ship_data_template[101402] = {
 
 _G.pg.base.ship_data_template[101403] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -5764,7 +5764,7 @@ _G.pg.base.ship_data_template[101404] = {
 
 _G.pg.base.ship_data_template[101411] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -5809,7 +5809,7 @@ _G.pg.base.ship_data_template[101411] = {
 
 _G.pg.base.ship_data_template[101412] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -5855,7 +5855,7 @@ _G.pg.base.ship_data_template[101412] = {
 
 _G.pg.base.ship_data_template[101413] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -5949,7 +5949,7 @@ _G.pg.base.ship_data_template[101414] = {
 
 _G.pg.base.ship_data_template[101421] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -5994,7 +5994,7 @@ _G.pg.base.ship_data_template[101421] = {
 
 _G.pg.base.ship_data_template[101422] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -6040,7 +6040,7 @@ _G.pg.base.ship_data_template[101422] = {
 
 _G.pg.base.ship_data_template[101423] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -6134,7 +6134,7 @@ _G.pg.base.ship_data_template[101424] = {
 
 _G.pg.base.ship_data_template[101431] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -6179,7 +6179,7 @@ _G.pg.base.ship_data_template[101431] = {
 
 _G.pg.base.ship_data_template[101432] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -6225,7 +6225,7 @@ _G.pg.base.ship_data_template[101432] = {
 
 _G.pg.base.ship_data_template[101433] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -6319,7 +6319,7 @@ _G.pg.base.ship_data_template[101434] = {
 
 _G.pg.base.ship_data_template[101441] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -6364,7 +6364,7 @@ _G.pg.base.ship_data_template[101441] = {
 
 _G.pg.base.ship_data_template[101442] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -6410,7 +6410,7 @@ _G.pg.base.ship_data_template[101442] = {
 
 _G.pg.base.ship_data_template[101443] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -6504,7 +6504,7 @@ _G.pg.base.ship_data_template[101444] = {
 
 _G.pg.base.ship_data_template[101451] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -6551,7 +6551,7 @@ _G.pg.base.ship_data_template[101451] = {
 
 _G.pg.base.ship_data_template[101452] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -6599,7 +6599,7 @@ _G.pg.base.ship_data_template[101452] = {
 
 _G.pg.base.ship_data_template[101453] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -6697,7 +6697,7 @@ _G.pg.base.ship_data_template[101454] = {
 
 _G.pg.base.ship_data_template[101461] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -6744,7 +6744,7 @@ _G.pg.base.ship_data_template[101461] = {
 
 _G.pg.base.ship_data_template[101462] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -6792,7 +6792,7 @@ _G.pg.base.ship_data_template[101462] = {
 
 _G.pg.base.ship_data_template[101463] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -6890,7 +6890,7 @@ _G.pg.base.ship_data_template[101464] = {
 
 _G.pg.base.ship_data_template[101471] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -6937,7 +6937,7 @@ _G.pg.base.ship_data_template[101471] = {
 
 _G.pg.base.ship_data_template[101472] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -6985,7 +6985,7 @@ _G.pg.base.ship_data_template[101472] = {
 
 _G.pg.base.ship_data_template[101473] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -7083,7 +7083,7 @@ _G.pg.base.ship_data_template[101474] = {
 
 _G.pg.base.ship_data_template[101481] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -7130,7 +7130,7 @@ _G.pg.base.ship_data_template[101481] = {
 
 _G.pg.base.ship_data_template[101482] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -7178,7 +7178,7 @@ _G.pg.base.ship_data_template[101482] = {
 
 _G.pg.base.ship_data_template[101483] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -7276,7 +7276,7 @@ _G.pg.base.ship_data_template[101484] = {
 
 _G.pg.base.ship_data_template[101491] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -7323,7 +7323,7 @@ _G.pg.base.ship_data_template[101491] = {
 
 _G.pg.base.ship_data_template[101492] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -7371,7 +7371,7 @@ _G.pg.base.ship_data_template[101492] = {
 
 _G.pg.base.ship_data_template[101493] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -7469,7 +7469,7 @@ _G.pg.base.ship_data_template[101494] = {
 
 _G.pg.base.ship_data_template[101501] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -7516,7 +7516,7 @@ _G.pg.base.ship_data_template[101501] = {
 
 _G.pg.base.ship_data_template[101502] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -7564,7 +7564,7 @@ _G.pg.base.ship_data_template[101502] = {
 
 _G.pg.base.ship_data_template[101503] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -7863,7 +7863,7 @@ _G.pg.base.ship_data_template[101514] = {
 
 _G.pg.base.ship_data_template[101521] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -7910,7 +7910,7 @@ _G.pg.base.ship_data_template[101521] = {
 
 _G.pg.base.ship_data_template[101522] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -7958,7 +7958,7 @@ _G.pg.base.ship_data_template[101522] = {
 
 _G.pg.base.ship_data_template[101523] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -8056,7 +8056,7 @@ _G.pg.base.ship_data_template[101524] = {
 
 _G.pg.base.ship_data_template[101531] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -8103,7 +8103,7 @@ _G.pg.base.ship_data_template[101531] = {
 
 _G.pg.base.ship_data_template[101532] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -8151,7 +8151,7 @@ _G.pg.base.ship_data_template[101532] = {
 
 _G.pg.base.ship_data_template[101533] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -8298,7 +8298,7 @@ _G.pg.base.ship_data_template[101994] = {
 
 _G.pg.base.ship_data_template[102011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 2,
 	energy = 150,
@@ -8343,7 +8343,7 @@ _G.pg.base.ship_data_template[102011] = {
 
 _G.pg.base.ship_data_template[102012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -8389,7 +8389,7 @@ _G.pg.base.ship_data_template[102012] = {
 
 _G.pg.base.ship_data_template[102013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -8481,7 +8481,7 @@ _G.pg.base.ship_data_template[102014] = {
 
 _G.pg.base.ship_data_template[102021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 2,
 	energy = 150,
@@ -8526,7 +8526,7 @@ _G.pg.base.ship_data_template[102021] = {
 
 _G.pg.base.ship_data_template[102022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -8572,7 +8572,7 @@ _G.pg.base.ship_data_template[102022] = {
 
 _G.pg.base.ship_data_template[102023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -8664,7 +8664,7 @@ _G.pg.base.ship_data_template[102024] = {
 
 _G.pg.base.ship_data_template[102031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -8709,7 +8709,7 @@ _G.pg.base.ship_data_template[102031] = {
 
 _G.pg.base.ship_data_template[102032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -8755,7 +8755,7 @@ _G.pg.base.ship_data_template[102032] = {
 
 _G.pg.base.ship_data_template[102033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -8847,7 +8847,7 @@ _G.pg.base.ship_data_template[102034] = {
 
 _G.pg.base.ship_data_template[102041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -8892,7 +8892,7 @@ _G.pg.base.ship_data_template[102041] = {
 
 _G.pg.base.ship_data_template[102042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -8938,7 +8938,7 @@ _G.pg.base.ship_data_template[102042] = {
 
 _G.pg.base.ship_data_template[102043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -9030,7 +9030,7 @@ _G.pg.base.ship_data_template[102044] = {
 
 _G.pg.base.ship_data_template[102051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -9076,7 +9076,7 @@ _G.pg.base.ship_data_template[102051] = {
 
 _G.pg.base.ship_data_template[102052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -9123,7 +9123,7 @@ _G.pg.base.ship_data_template[102052] = {
 
 _G.pg.base.ship_data_template[102053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -9217,7 +9217,7 @@ _G.pg.base.ship_data_template[102054] = {
 
 _G.pg.base.ship_data_template[102061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -9265,7 +9265,7 @@ _G.pg.base.ship_data_template[102061] = {
 
 _G.pg.base.ship_data_template[102062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -9314,7 +9314,7 @@ _G.pg.base.ship_data_template[102062] = {
 
 _G.pg.base.ship_data_template[102063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -9412,7 +9412,7 @@ _G.pg.base.ship_data_template[102064] = {
 
 _G.pg.base.ship_data_template[102071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -9460,7 +9460,7 @@ _G.pg.base.ship_data_template[102071] = {
 
 _G.pg.base.ship_data_template[102072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -9509,7 +9509,7 @@ _G.pg.base.ship_data_template[102072] = {
 
 _G.pg.base.ship_data_template[102073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -9607,7 +9607,7 @@ _G.pg.base.ship_data_template[102074] = {
 
 _G.pg.base.ship_data_template[102081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 5,
 	energy = 150,
@@ -9654,7 +9654,7 @@ _G.pg.base.ship_data_template[102081] = {
 
 _G.pg.base.ship_data_template[102082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -9702,7 +9702,7 @@ _G.pg.base.ship_data_template[102082] = {
 
 _G.pg.base.ship_data_template[102083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -9798,7 +9798,7 @@ _G.pg.base.ship_data_template[102084] = {
 
 _G.pg.base.ship_data_template[102091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -9845,7 +9845,7 @@ _G.pg.base.ship_data_template[102091] = {
 
 _G.pg.base.ship_data_template[102092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -9893,7 +9893,7 @@ _G.pg.base.ship_data_template[102092] = {
 
 _G.pg.base.ship_data_template[102093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -9989,7 +9989,7 @@ _G.pg.base.ship_data_template[102094] = {
 
 _G.pg.base.ship_data_template[102101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -10036,7 +10036,7 @@ _G.pg.base.ship_data_template[102101] = {
 
 _G.pg.base.ship_data_template[102102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -10084,7 +10084,7 @@ _G.pg.base.ship_data_template[102102] = {
 
 _G.pg.base.ship_data_template[102103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -10180,7 +10180,7 @@ _G.pg.base.ship_data_template[102104] = {
 
 _G.pg.base.ship_data_template[102111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 2,
 	energy = 150,
@@ -10225,7 +10225,7 @@ _G.pg.base.ship_data_template[102111] = {
 
 _G.pg.base.ship_data_template[102112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -10271,7 +10271,7 @@ _G.pg.base.ship_data_template[102112] = {
 
 _G.pg.base.ship_data_template[102113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -10363,7 +10363,7 @@ _G.pg.base.ship_data_template[102114] = {
 
 _G.pg.base.ship_data_template[102121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -10408,7 +10408,7 @@ _G.pg.base.ship_data_template[102121] = {
 
 _G.pg.base.ship_data_template[102122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -10454,7 +10454,7 @@ _G.pg.base.ship_data_template[102122] = {
 
 _G.pg.base.ship_data_template[102123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -10546,7 +10546,7 @@ _G.pg.base.ship_data_template[102124] = {
 
 _G.pg.base.ship_data_template[102131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -10593,7 +10593,7 @@ _G.pg.base.ship_data_template[102131] = {
 
 _G.pg.base.ship_data_template[102132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -10641,7 +10641,7 @@ _G.pg.base.ship_data_template[102132] = {
 
 _G.pg.base.ship_data_template[102133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -10737,7 +10737,7 @@ _G.pg.base.ship_data_template[102134] = {
 
 _G.pg.base.ship_data_template[102141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 5,
 	energy = 150,
@@ -10784,7 +10784,7 @@ _G.pg.base.ship_data_template[102141] = {
 
 _G.pg.base.ship_data_template[102142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -10832,7 +10832,7 @@ _G.pg.base.ship_data_template[102142] = {
 
 _G.pg.base.ship_data_template[102143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -10928,7 +10928,7 @@ _G.pg.base.ship_data_template[102144] = {
 
 _G.pg.base.ship_data_template[102151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -10975,7 +10975,7 @@ _G.pg.base.ship_data_template[102151] = {
 
 _G.pg.base.ship_data_template[102152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -11023,7 +11023,7 @@ _G.pg.base.ship_data_template[102152] = {
 
 _G.pg.base.ship_data_template[102153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -11119,7 +11119,7 @@ _G.pg.base.ship_data_template[102154] = {
 
 _G.pg.base.ship_data_template[102161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 3,
 	energy = 150,
@@ -11164,7 +11164,7 @@ _G.pg.base.ship_data_template[102161] = {
 
 _G.pg.base.ship_data_template[102162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -11210,7 +11210,7 @@ _G.pg.base.ship_data_template[102162] = {
 
 _G.pg.base.ship_data_template[102163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -11350,7 +11350,7 @@ _G.pg.base.ship_data_template[102174] = {
 
 _G.pg.base.ship_data_template[102181] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 3,
 	energy = 150,
@@ -11395,7 +11395,7 @@ _G.pg.base.ship_data_template[102181] = {
 
 _G.pg.base.ship_data_template[102182] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -11441,7 +11441,7 @@ _G.pg.base.ship_data_template[102182] = {
 
 _G.pg.base.ship_data_template[102183] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -11533,7 +11533,7 @@ _G.pg.base.ship_data_template[102184] = {
 
 _G.pg.base.ship_data_template[102191] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -11580,7 +11580,7 @@ _G.pg.base.ship_data_template[102191] = {
 
 _G.pg.base.ship_data_template[102192] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -11628,7 +11628,7 @@ _G.pg.base.ship_data_template[102192] = {
 
 _G.pg.base.ship_data_template[102193] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -11724,7 +11724,7 @@ _G.pg.base.ship_data_template[102194] = {
 
 _G.pg.base.ship_data_template[102201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -11771,7 +11771,7 @@ _G.pg.base.ship_data_template[102201] = {
 
 _G.pg.base.ship_data_template[102202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -11819,7 +11819,7 @@ _G.pg.base.ship_data_template[102202] = {
 
 _G.pg.base.ship_data_template[102203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -11915,7 +11915,7 @@ _G.pg.base.ship_data_template[102204] = {
 
 _G.pg.base.ship_data_template[102211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -11963,7 +11963,7 @@ _G.pg.base.ship_data_template[102211] = {
 
 _G.pg.base.ship_data_template[102212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -12012,7 +12012,7 @@ _G.pg.base.ship_data_template[102212] = {
 
 _G.pg.base.ship_data_template[102213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -12110,7 +12110,7 @@ _G.pg.base.ship_data_template[102214] = {
 
 _G.pg.base.ship_data_template[102221] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 3,
 	energy = 150,
@@ -12156,7 +12156,7 @@ _G.pg.base.ship_data_template[102221] = {
 
 _G.pg.base.ship_data_template[102222] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -12203,7 +12203,7 @@ _G.pg.base.ship_data_template[102222] = {
 
 _G.pg.base.ship_data_template[102223] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -12297,7 +12297,7 @@ _G.pg.base.ship_data_template[102224] = {
 
 _G.pg.base.ship_data_template[102231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -12344,7 +12344,7 @@ _G.pg.base.ship_data_template[102231] = {
 
 _G.pg.base.ship_data_template[102232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -12392,7 +12392,7 @@ _G.pg.base.ship_data_template[102232] = {
 
 _G.pg.base.ship_data_template[102233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -12488,7 +12488,7 @@ _G.pg.base.ship_data_template[102234] = {
 
 _G.pg.base.ship_data_template[102241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -12535,7 +12535,7 @@ _G.pg.base.ship_data_template[102241] = {
 
 _G.pg.base.ship_data_template[102242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -12583,7 +12583,7 @@ _G.pg.base.ship_data_template[102242] = {
 
 _G.pg.base.ship_data_template[102243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -12679,7 +12679,7 @@ _G.pg.base.ship_data_template[102244] = {
 
 _G.pg.base.ship_data_template[102251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 4,
 	energy = 150,
@@ -12726,7 +12726,7 @@ _G.pg.base.ship_data_template[102251] = {
 
 _G.pg.base.ship_data_template[102252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -12774,7 +12774,7 @@ _G.pg.base.ship_data_template[102252] = {
 
 _G.pg.base.ship_data_template[102253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -12870,7 +12870,7 @@ _G.pg.base.ship_data_template[102254] = {
 
 _G.pg.base.ship_data_template[102261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16300,
 	oil_at_end = 5,
 	energy = 150,
@@ -12918,7 +12918,7 @@ _G.pg.base.ship_data_template[102261] = {
 
 _G.pg.base.ship_data_template[102262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -12967,7 +12967,7 @@ _G.pg.base.ship_data_template[102262] = {
 
 _G.pg.base.ship_data_template[102263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -13065,7 +13065,7 @@ _G.pg.base.ship_data_template[102264] = {
 
 _G.pg.base.ship_data_template[102271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 3,
 	energy = 150,
@@ -13110,7 +13110,7 @@ _G.pg.base.ship_data_template[102271] = {
 
 _G.pg.base.ship_data_template[102272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -13156,7 +13156,7 @@ _G.pg.base.ship_data_template[102272] = {
 
 _G.pg.base.ship_data_template[102273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -13295,7 +13295,7 @@ _G.pg.base.ship_data_template[102284] = {
 
 _G.pg.base.ship_data_template[102291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -13342,7 +13342,7 @@ _G.pg.base.ship_data_template[102291] = {
 
 _G.pg.base.ship_data_template[102292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -13390,7 +13390,7 @@ _G.pg.base.ship_data_template[102292] = {
 
 _G.pg.base.ship_data_template[102293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -13535,7 +13535,7 @@ _G.pg.base.ship_data_template[102304] = {
 
 _G.pg.base.ship_data_template[102311] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 5,
 	energy = 150,
@@ -13582,7 +13582,7 @@ _G.pg.base.ship_data_template[102311] = {
 
 _G.pg.base.ship_data_template[102312] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -13630,7 +13630,7 @@ _G.pg.base.ship_data_template[102312] = {
 
 _G.pg.base.ship_data_template[102313] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -13726,7 +13726,7 @@ _G.pg.base.ship_data_template[102314] = {
 
 _G.pg.base.ship_data_template[102321] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16200,
 	oil_at_end = 4,
 	energy = 150,
@@ -13773,7 +13773,7 @@ _G.pg.base.ship_data_template[102321] = {
 
 _G.pg.base.ship_data_template[102322] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -13821,7 +13821,7 @@ _G.pg.base.ship_data_template[102322] = {
 
 _G.pg.base.ship_data_template[102323] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -13917,7 +13917,7 @@ _G.pg.base.ship_data_template[102324] = {
 
 _G.pg.base.ship_data_template[102331] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 5,
 	energy = 150,
@@ -13964,7 +13964,7 @@ _G.pg.base.ship_data_template[102331] = {
 
 _G.pg.base.ship_data_template[102332] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -14012,7 +14012,7 @@ _G.pg.base.ship_data_template[102332] = {
 
 _G.pg.base.ship_data_template[102333] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -14108,7 +14108,7 @@ _G.pg.base.ship_data_template[102334] = {
 
 _G.pg.base.ship_data_template[102341] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 5,
 	energy = 150,
@@ -14155,7 +14155,7 @@ _G.pg.base.ship_data_template[102341] = {
 
 _G.pg.base.ship_data_template[102342] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -14203,7 +14203,7 @@ _G.pg.base.ship_data_template[102342] = {
 
 _G.pg.base.ship_data_template[102343] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -14299,7 +14299,7 @@ _G.pg.base.ship_data_template[102344] = {
 
 _G.pg.base.ship_data_template[103011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16000,
 	oil_at_end = 3,
 	energy = 150,
@@ -14342,7 +14342,7 @@ _G.pg.base.ship_data_template[103011] = {
 
 _G.pg.base.ship_data_template[103012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -14386,7 +14386,7 @@ _G.pg.base.ship_data_template[103012] = {
 
 _G.pg.base.ship_data_template[103013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -14474,7 +14474,7 @@ _G.pg.base.ship_data_template[103014] = {
 
 _G.pg.base.ship_data_template[103021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16000,
 	oil_at_end = 3,
 	energy = 150,
@@ -14517,7 +14517,7 @@ _G.pg.base.ship_data_template[103021] = {
 
 _G.pg.base.ship_data_template[103022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -14561,7 +14561,7 @@ _G.pg.base.ship_data_template[103022] = {
 
 _G.pg.base.ship_data_template[103023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -14649,7 +14649,7 @@ _G.pg.base.ship_data_template[103024] = {
 
 _G.pg.base.ship_data_template[103031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 4,
 	energy = 150,
@@ -14692,7 +14692,7 @@ _G.pg.base.ship_data_template[103031] = {
 
 _G.pg.base.ship_data_template[103032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -14736,7 +14736,7 @@ _G.pg.base.ship_data_template[103032] = {
 
 _G.pg.base.ship_data_template[103033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -14824,7 +14824,7 @@ _G.pg.base.ship_data_template[103034] = {
 
 _G.pg.base.ship_data_template[103041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 4,
 	energy = 150,
@@ -14867,7 +14867,7 @@ _G.pg.base.ship_data_template[103041] = {
 
 _G.pg.base.ship_data_template[103042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -14911,7 +14911,7 @@ _G.pg.base.ship_data_template[103042] = {
 
 _G.pg.base.ship_data_template[103043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -14999,7 +14999,7 @@ _G.pg.base.ship_data_template[103044] = {
 
 _G.pg.base.ship_data_template[103051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 5,
 	energy = 150,
@@ -15042,7 +15042,7 @@ _G.pg.base.ship_data_template[103051] = {
 
 _G.pg.base.ship_data_template[103052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -15086,7 +15086,7 @@ _G.pg.base.ship_data_template[103052] = {
 
 _G.pg.base.ship_data_template[103053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -15174,7 +15174,7 @@ _G.pg.base.ship_data_template[103054] = {
 
 _G.pg.base.ship_data_template[103061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 4,
 	energy = 150,
@@ -15219,7 +15219,7 @@ _G.pg.base.ship_data_template[103061] = {
 
 _G.pg.base.ship_data_template[103062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -15265,7 +15265,7 @@ _G.pg.base.ship_data_template[103062] = {
 
 _G.pg.base.ship_data_template[103063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -15357,7 +15357,7 @@ _G.pg.base.ship_data_template[103064] = {
 
 _G.pg.base.ship_data_template[103071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 5,
 	energy = 150,
@@ -15402,7 +15402,7 @@ _G.pg.base.ship_data_template[103071] = {
 
 _G.pg.base.ship_data_template[103072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -15448,7 +15448,7 @@ _G.pg.base.ship_data_template[103072] = {
 
 _G.pg.base.ship_data_template[103073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -15540,7 +15540,7 @@ _G.pg.base.ship_data_template[103074] = {
 
 _G.pg.base.ship_data_template[103081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 5,
 	energy = 150,
@@ -15585,7 +15585,7 @@ _G.pg.base.ship_data_template[103081] = {
 
 _G.pg.base.ship_data_template[103082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -15631,7 +15631,7 @@ _G.pg.base.ship_data_template[103082] = {
 
 _G.pg.base.ship_data_template[103083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -15723,7 +15723,7 @@ _G.pg.base.ship_data_template[103084] = {
 
 _G.pg.base.ship_data_template[103091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 5,
 	energy = 150,
@@ -15768,7 +15768,7 @@ _G.pg.base.ship_data_template[103091] = {
 
 _G.pg.base.ship_data_template[103092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -15814,7 +15814,7 @@ _G.pg.base.ship_data_template[103092] = {
 
 _G.pg.base.ship_data_template[103093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -15906,7 +15906,7 @@ _G.pg.base.ship_data_template[103094] = {
 
 _G.pg.base.ship_data_template[103101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 5,
 	energy = 150,
@@ -15951,7 +15951,7 @@ _G.pg.base.ship_data_template[103101] = {
 
 _G.pg.base.ship_data_template[103102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -15997,7 +15997,7 @@ _G.pg.base.ship_data_template[103102] = {
 
 _G.pg.base.ship_data_template[103103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -16089,7 +16089,7 @@ _G.pg.base.ship_data_template[103104] = {
 
 _G.pg.base.ship_data_template[103111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 5,
 	energy = 150,
@@ -16134,7 +16134,7 @@ _G.pg.base.ship_data_template[103111] = {
 
 _G.pg.base.ship_data_template[103112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -16180,7 +16180,7 @@ _G.pg.base.ship_data_template[103112] = {
 
 _G.pg.base.ship_data_template[103113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -16272,7 +16272,7 @@ _G.pg.base.ship_data_template[103114] = {
 
 _G.pg.base.ship_data_template[103121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -16317,7 +16317,7 @@ _G.pg.base.ship_data_template[103121] = {
 
 _G.pg.base.ship_data_template[103122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -16363,7 +16363,7 @@ _G.pg.base.ship_data_template[103122] = {
 
 _G.pg.base.ship_data_template[103123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -16455,7 +16455,7 @@ _G.pg.base.ship_data_template[103124] = {
 
 _G.pg.base.ship_data_template[103131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -16500,7 +16500,7 @@ _G.pg.base.ship_data_template[103131] = {
 
 _G.pg.base.ship_data_template[103132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -16546,7 +16546,7 @@ _G.pg.base.ship_data_template[103132] = {
 
 _G.pg.base.ship_data_template[103133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -16638,7 +16638,7 @@ _G.pg.base.ship_data_template[103134] = {
 
 _G.pg.base.ship_data_template[103141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -16683,7 +16683,7 @@ _G.pg.base.ship_data_template[103141] = {
 
 _G.pg.base.ship_data_template[103142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -16729,7 +16729,7 @@ _G.pg.base.ship_data_template[103142] = {
 
 _G.pg.base.ship_data_template[103143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -16821,7 +16821,7 @@ _G.pg.base.ship_data_template[103144] = {
 
 _G.pg.base.ship_data_template[103161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -16866,7 +16866,7 @@ _G.pg.base.ship_data_template[103161] = {
 
 _G.pg.base.ship_data_template[103162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -16912,7 +16912,7 @@ _G.pg.base.ship_data_template[103162] = {
 
 _G.pg.base.ship_data_template[103163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -17004,7 +17004,7 @@ _G.pg.base.ship_data_template[103164] = {
 
 _G.pg.base.ship_data_template[103241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -17049,7 +17049,7 @@ _G.pg.base.ship_data_template[103241] = {
 
 _G.pg.base.ship_data_template[103242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -17095,7 +17095,7 @@ _G.pg.base.ship_data_template[103242] = {
 
 _G.pg.base.ship_data_template[103243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -17187,7 +17187,7 @@ _G.pg.base.ship_data_template[103244] = {
 
 _G.pg.base.ship_data_template[103251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 5,
 	energy = 150,
@@ -17232,7 +17232,7 @@ _G.pg.base.ship_data_template[103251] = {
 
 _G.pg.base.ship_data_template[103252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -17278,7 +17278,7 @@ _G.pg.base.ship_data_template[103252] = {
 
 _G.pg.base.ship_data_template[103253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -17370,7 +17370,7 @@ _G.pg.base.ship_data_template[103254] = {
 
 _G.pg.base.ship_data_template[103261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16100,
 	oil_at_end = 6,
 	energy = 150,
@@ -17415,7 +17415,7 @@ _G.pg.base.ship_data_template[103261] = {
 
 _G.pg.base.ship_data_template[103262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -17461,7 +17461,7 @@ _G.pg.base.ship_data_template[103262] = {
 
 _G.pg.base.ship_data_template[103263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -17553,7 +17553,7 @@ _G.pg.base.ship_data_template[103264] = {
 
 _G.pg.base.ship_data_template[103271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 5,
 	energy = 150,
@@ -17598,7 +17598,7 @@ _G.pg.base.ship_data_template[103271] = {
 
 _G.pg.base.ship_data_template[103272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -17644,7 +17644,7 @@ _G.pg.base.ship_data_template[103272] = {
 
 _G.pg.base.ship_data_template[103273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -17736,7 +17736,7 @@ _G.pg.base.ship_data_template[103274] = {
 
 _G.pg.base.ship_data_template[103281] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -17781,7 +17781,7 @@ _G.pg.base.ship_data_template[103281] = {
 
 _G.pg.base.ship_data_template[103282] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -17827,7 +17827,7 @@ _G.pg.base.ship_data_template[103282] = {
 
 _G.pg.base.ship_data_template[103283] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -17919,7 +17919,7 @@ _G.pg.base.ship_data_template[103284] = {
 
 _G.pg.base.ship_data_template[103291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -17962,7 +17962,7 @@ _G.pg.base.ship_data_template[103291] = {
 
 _G.pg.base.ship_data_template[103292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -18006,7 +18006,7 @@ _G.pg.base.ship_data_template[103292] = {
 
 _G.pg.base.ship_data_template[103293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -18094,7 +18094,7 @@ _G.pg.base.ship_data_template[103294] = {
 
 _G.pg.base.ship_data_template[104011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -18141,7 +18141,7 @@ _G.pg.base.ship_data_template[104011] = {
 
 _G.pg.base.ship_data_template[104012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -18189,7 +18189,7 @@ _G.pg.base.ship_data_template[104012] = {
 
 _G.pg.base.ship_data_template[104013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -18285,7 +18285,7 @@ _G.pg.base.ship_data_template[104014] = {
 
 _G.pg.base.ship_data_template[105011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -18331,7 +18331,7 @@ _G.pg.base.ship_data_template[105011] = {
 
 _G.pg.base.ship_data_template[105012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -18378,7 +18378,7 @@ _G.pg.base.ship_data_template[105012] = {
 
 _G.pg.base.ship_data_template[105013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -18472,7 +18472,7 @@ _G.pg.base.ship_data_template[105014] = {
 
 _G.pg.base.ship_data_template[105021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -18518,7 +18518,7 @@ _G.pg.base.ship_data_template[105021] = {
 
 _G.pg.base.ship_data_template[105022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -18565,7 +18565,7 @@ _G.pg.base.ship_data_template[105022] = {
 
 _G.pg.base.ship_data_template[105023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -18659,7 +18659,7 @@ _G.pg.base.ship_data_template[105024] = {
 
 _G.pg.base.ship_data_template[105031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -18704,7 +18704,7 @@ _G.pg.base.ship_data_template[105031] = {
 
 _G.pg.base.ship_data_template[105032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -18750,7 +18750,7 @@ _G.pg.base.ship_data_template[105032] = {
 
 _G.pg.base.ship_data_template[105033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -18842,7 +18842,7 @@ _G.pg.base.ship_data_template[105034] = {
 
 _G.pg.base.ship_data_template[105041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -18887,7 +18887,7 @@ _G.pg.base.ship_data_template[105041] = {
 
 _G.pg.base.ship_data_template[105042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -18933,7 +18933,7 @@ _G.pg.base.ship_data_template[105042] = {
 
 _G.pg.base.ship_data_template[105043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -19025,7 +19025,7 @@ _G.pg.base.ship_data_template[105044] = {
 
 _G.pg.base.ship_data_template[105071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -19070,7 +19070,7 @@ _G.pg.base.ship_data_template[105071] = {
 
 _G.pg.base.ship_data_template[105072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -19116,7 +19116,7 @@ _G.pg.base.ship_data_template[105072] = {
 
 _G.pg.base.ship_data_template[105073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -19208,7 +19208,7 @@ _G.pg.base.ship_data_template[105074] = {
 
 _G.pg.base.ship_data_template[105081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -19253,7 +19253,7 @@ _G.pg.base.ship_data_template[105081] = {
 
 _G.pg.base.ship_data_template[105082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -19299,7 +19299,7 @@ _G.pg.base.ship_data_template[105082] = {
 
 _G.pg.base.ship_data_template[105083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -19391,7 +19391,7 @@ _G.pg.base.ship_data_template[105084] = {
 
 _G.pg.base.ship_data_template[105091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -19437,7 +19437,7 @@ _G.pg.base.ship_data_template[105091] = {
 
 _G.pg.base.ship_data_template[105092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -19484,7 +19484,7 @@ _G.pg.base.ship_data_template[105092] = {
 
 _G.pg.base.ship_data_template[105093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -19625,7 +19625,7 @@ _G.pg.base.ship_data_template[105214] = {
 
 _G.pg.base.ship_data_template[105101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26320,
 	oil_at_end = 8,
 	energy = 150,
@@ -19673,7 +19673,7 @@ _G.pg.base.ship_data_template[105101] = {
 
 _G.pg.base.ship_data_template[105102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -19722,7 +19722,7 @@ _G.pg.base.ship_data_template[105102] = {
 
 _G.pg.base.ship_data_template[105103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -19869,7 +19869,7 @@ _G.pg.base.ship_data_template[105224] = {
 
 _G.pg.base.ship_data_template[105111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26320,
 	oil_at_end = 8,
 	energy = 150,
@@ -19915,7 +19915,7 @@ _G.pg.base.ship_data_template[105111] = {
 
 _G.pg.base.ship_data_template[105112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -19962,7 +19962,7 @@ _G.pg.base.ship_data_template[105112] = {
 
 _G.pg.base.ship_data_template[105113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -20103,7 +20103,7 @@ _G.pg.base.ship_data_template[105234] = {
 
 _G.pg.base.ship_data_template[105121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -20150,7 +20150,7 @@ _G.pg.base.ship_data_template[105121] = {
 
 _G.pg.base.ship_data_template[105122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -20198,7 +20198,7 @@ _G.pg.base.ship_data_template[105122] = {
 
 _G.pg.base.ship_data_template[105123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -20294,7 +20294,7 @@ _G.pg.base.ship_data_template[105124] = {
 
 _G.pg.base.ship_data_template[105131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -20341,7 +20341,7 @@ _G.pg.base.ship_data_template[105131] = {
 
 _G.pg.base.ship_data_template[105132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -20389,7 +20389,7 @@ _G.pg.base.ship_data_template[105132] = {
 
 _G.pg.base.ship_data_template[105133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -20485,7 +20485,7 @@ _G.pg.base.ship_data_template[105134] = {
 
 _G.pg.base.ship_data_template[105141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -20532,7 +20532,7 @@ _G.pg.base.ship_data_template[105141] = {
 
 _G.pg.base.ship_data_template[105142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -20580,7 +20580,7 @@ _G.pg.base.ship_data_template[105142] = {
 
 _G.pg.base.ship_data_template[105143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -20676,7 +20676,7 @@ _G.pg.base.ship_data_template[105144] = {
 
 _G.pg.base.ship_data_template[105151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -20723,7 +20723,7 @@ _G.pg.base.ship_data_template[105151] = {
 
 _G.pg.base.ship_data_template[105152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -20771,7 +20771,7 @@ _G.pg.base.ship_data_template[105152] = {
 
 _G.pg.base.ship_data_template[105153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -21066,7 +21066,7 @@ _G.pg.base.ship_data_template[105174] = {
 
 _G.pg.base.ship_data_template[105191] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -21113,7 +21113,7 @@ _G.pg.base.ship_data_template[105191] = {
 
 _G.pg.base.ship_data_template[105192] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -21161,7 +21161,7 @@ _G.pg.base.ship_data_template[105192] = {
 
 _G.pg.base.ship_data_template[105193] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -21257,7 +21257,7 @@ _G.pg.base.ship_data_template[105194] = {
 
 _G.pg.base.ship_data_template[105201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 16400,
 	oil_at_end = 9,
 	energy = 150,
@@ -21304,7 +21304,7 @@ _G.pg.base.ship_data_template[105201] = {
 
 _G.pg.base.ship_data_template[105202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -21352,7 +21352,7 @@ _G.pg.base.ship_data_template[105202] = {
 
 _G.pg.base.ship_data_template[105203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -21448,7 +21448,7 @@ _G.pg.base.ship_data_template[105204] = {
 
 _G.pg.base.ship_data_template[106011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -21497,7 +21497,7 @@ _G.pg.base.ship_data_template[106011] = {
 
 _G.pg.base.ship_data_template[106012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -21546,7 +21546,7 @@ _G.pg.base.ship_data_template[106012] = {
 
 _G.pg.base.ship_data_template[106013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -21646,7 +21646,7 @@ _G.pg.base.ship_data_template[106014] = {
 
 _G.pg.base.ship_data_template[106021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -21695,7 +21695,7 @@ _G.pg.base.ship_data_template[106021] = {
 
 _G.pg.base.ship_data_template[106022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -21744,7 +21744,7 @@ _G.pg.base.ship_data_template[106022] = {
 
 _G.pg.base.ship_data_template[106023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -21844,7 +21844,7 @@ _G.pg.base.ship_data_template[106024] = {
 
 _G.pg.base.ship_data_template[106551] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -21894,7 +21894,7 @@ _G.pg.base.ship_data_template[106551] = {
 
 _G.pg.base.ship_data_template[106552] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -21944,7 +21944,7 @@ _G.pg.base.ship_data_template[106552] = {
 
 _G.pg.base.ship_data_template[106553] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -22046,7 +22046,7 @@ _G.pg.base.ship_data_template[106554] = {
 
 _G.pg.base.ship_data_template[107011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -22095,7 +22095,7 @@ _G.pg.base.ship_data_template[107011] = {
 
 _G.pg.base.ship_data_template[107012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -22144,7 +22144,7 @@ _G.pg.base.ship_data_template[107012] = {
 
 _G.pg.base.ship_data_template[107013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -22244,7 +22244,7 @@ _G.pg.base.ship_data_template[107014] = {
 
 _G.pg.base.ship_data_template[107021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 19200,
 	oil_at_end = 6,
 	energy = 150,
@@ -22292,7 +22292,7 @@ _G.pg.base.ship_data_template[107021] = {
 
 _G.pg.base.ship_data_template[107022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -22340,7 +22340,7 @@ _G.pg.base.ship_data_template[107022] = {
 
 _G.pg.base.ship_data_template[107023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -22438,7 +22438,7 @@ _G.pg.base.ship_data_template[107024] = {
 
 _G.pg.base.ship_data_template[107031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 19200,
 	oil_at_end = 6,
 	energy = 150,
@@ -22487,7 +22487,7 @@ _G.pg.base.ship_data_template[107031] = {
 
 _G.pg.base.ship_data_template[107032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -22536,7 +22536,7 @@ _G.pg.base.ship_data_template[107032] = {
 
 _G.pg.base.ship_data_template[107033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -22636,7 +22636,7 @@ _G.pg.base.ship_data_template[107034] = {
 
 _G.pg.base.ship_data_template[107041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -22685,7 +22685,7 @@ _G.pg.base.ship_data_template[107041] = {
 
 _G.pg.base.ship_data_template[107042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -22734,7 +22734,7 @@ _G.pg.base.ship_data_template[107042] = {
 
 _G.pg.base.ship_data_template[107043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -22834,7 +22834,7 @@ _G.pg.base.ship_data_template[107044] = {
 
 _G.pg.base.ship_data_template[107051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18000,
 	oil_at_end = 6,
 	energy = 150,
@@ -22882,7 +22882,7 @@ _G.pg.base.ship_data_template[107051] = {
 
 _G.pg.base.ship_data_template[107052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -22930,7 +22930,7 @@ _G.pg.base.ship_data_template[107052] = {
 
 _G.pg.base.ship_data_template[107053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -23028,7 +23028,7 @@ _G.pg.base.ship_data_template[107054] = {
 
 _G.pg.base.ship_data_template[107061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18000,
 	oil_at_end = 7,
 	energy = 150,
@@ -23074,7 +23074,7 @@ _G.pg.base.ship_data_template[107061] = {
 
 _G.pg.base.ship_data_template[107062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -23120,7 +23120,7 @@ _G.pg.base.ship_data_template[107062] = {
 
 _G.pg.base.ship_data_template[107063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -23214,7 +23214,7 @@ _G.pg.base.ship_data_template[107064] = {
 
 _G.pg.base.ship_data_template[107071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18000,
 	oil_at_end = 6,
 	energy = 150,
@@ -23262,7 +23262,7 @@ _G.pg.base.ship_data_template[107071] = {
 
 _G.pg.base.ship_data_template[107072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -23310,7 +23310,7 @@ _G.pg.base.ship_data_template[107072] = {
 
 _G.pg.base.ship_data_template[107073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -23408,7 +23408,7 @@ _G.pg.base.ship_data_template[107074] = {
 
 _G.pg.base.ship_data_template[107081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18000,
 	oil_at_end = 5,
 	energy = 150,
@@ -23454,7 +23454,7 @@ _G.pg.base.ship_data_template[107081] = {
 
 _G.pg.base.ship_data_template[107082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -23500,7 +23500,7 @@ _G.pg.base.ship_data_template[107082] = {
 
 _G.pg.base.ship_data_template[107083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -23594,7 +23594,7 @@ _G.pg.base.ship_data_template[107084] = {
 
 _G.pg.base.ship_data_template[107091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -23645,7 +23645,7 @@ _G.pg.base.ship_data_template[107091] = {
 
 _G.pg.base.ship_data_template[107092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -23696,7 +23696,7 @@ _G.pg.base.ship_data_template[107092] = {
 
 _G.pg.base.ship_data_template[107093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -24008,7 +24008,7 @@ _G.pg.base.ship_data_template[107104] = {
 
 _G.pg.base.ship_data_template[107111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -24058,7 +24058,7 @@ _G.pg.base.ship_data_template[107111] = {
 
 _G.pg.base.ship_data_template[107112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -24108,7 +24108,7 @@ _G.pg.base.ship_data_template[107112] = {
 
 _G.pg.base.ship_data_template[107113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -24210,7 +24210,7 @@ _G.pg.base.ship_data_template[107114] = {
 
 _G.pg.base.ship_data_template[107121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -24260,7 +24260,7 @@ _G.pg.base.ship_data_template[107121] = {
 
 _G.pg.base.ship_data_template[107122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -24310,7 +24310,7 @@ _G.pg.base.ship_data_template[107122] = {
 
 _G.pg.base.ship_data_template[107123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -24412,7 +24412,7 @@ _G.pg.base.ship_data_template[107124] = {
 
 _G.pg.base.ship_data_template[107131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -24460,7 +24460,7 @@ _G.pg.base.ship_data_template[107131] = {
 
 _G.pg.base.ship_data_template[107132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -24508,7 +24508,7 @@ _G.pg.base.ship_data_template[107132] = {
 
 _G.pg.base.ship_data_template[107133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -24606,7 +24606,7 @@ _G.pg.base.ship_data_template[107134] = {
 
 _G.pg.base.ship_data_template[107141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -24656,7 +24656,7 @@ _G.pg.base.ship_data_template[107141] = {
 
 _G.pg.base.ship_data_template[107142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -24706,7 +24706,7 @@ _G.pg.base.ship_data_template[107142] = {
 
 _G.pg.base.ship_data_template[107143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -24808,7 +24808,7 @@ _G.pg.base.ship_data_template[107144] = {
 
 _G.pg.base.ship_data_template[107171] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -24856,7 +24856,7 @@ _G.pg.base.ship_data_template[107171] = {
 
 _G.pg.base.ship_data_template[107172] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -24904,7 +24904,7 @@ _G.pg.base.ship_data_template[107172] = {
 
 _G.pg.base.ship_data_template[107173] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -25002,7 +25002,7 @@ _G.pg.base.ship_data_template[107174] = {
 
 _G.pg.base.ship_data_template[107221] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -25053,7 +25053,7 @@ _G.pg.base.ship_data_template[107221] = {
 
 _G.pg.base.ship_data_template[107222] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -25104,7 +25104,7 @@ _G.pg.base.ship_data_template[107222] = {
 
 _G.pg.base.ship_data_template[107223] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -25208,7 +25208,7 @@ _G.pg.base.ship_data_template[107224] = {
 
 _G.pg.base.ship_data_template[107231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -25258,7 +25258,7 @@ _G.pg.base.ship_data_template[107231] = {
 
 _G.pg.base.ship_data_template[107232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -25308,7 +25308,7 @@ _G.pg.base.ship_data_template[107232] = {
 
 _G.pg.base.ship_data_template[107233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -25410,7 +25410,7 @@ _G.pg.base.ship_data_template[107234] = {
 
 _G.pg.base.ship_data_template[107271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -25460,7 +25460,7 @@ _G.pg.base.ship_data_template[107271] = {
 
 _G.pg.base.ship_data_template[107272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -25510,7 +25510,7 @@ _G.pg.base.ship_data_template[107272] = {
 
 _G.pg.base.ship_data_template[107273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -25612,7 +25612,7 @@ _G.pg.base.ship_data_template[107274] = {
 
 _G.pg.base.ship_data_template[107291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -25662,7 +25662,7 @@ _G.pg.base.ship_data_template[107291] = {
 
 _G.pg.base.ship_data_template[107292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -25712,7 +25712,7 @@ _G.pg.base.ship_data_template[107292] = {
 
 _G.pg.base.ship_data_template[107293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -25814,7 +25814,7 @@ _G.pg.base.ship_data_template[107294] = {
 
 _G.pg.base.ship_data_template[107301] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -25864,7 +25864,7 @@ _G.pg.base.ship_data_template[107301] = {
 
 _G.pg.base.ship_data_template[107302] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -25914,7 +25914,7 @@ _G.pg.base.ship_data_template[107302] = {
 
 _G.pg.base.ship_data_template[107303] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -26016,7 +26016,7 @@ _G.pg.base.ship_data_template[107304] = {
 
 _G.pg.base.ship_data_template[107381] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -26064,7 +26064,7 @@ _G.pg.base.ship_data_template[107381] = {
 
 _G.pg.base.ship_data_template[107382] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -26112,7 +26112,7 @@ _G.pg.base.ship_data_template[107382] = {
 
 _G.pg.base.ship_data_template[107383] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -26316,7 +26316,7 @@ _G.pg.base.ship_data_template[107984] = {
 
 _G.pg.base.ship_data_template[107991] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18000,
 	oil_at_end = 6,
 	energy = 150,
@@ -26362,7 +26362,7 @@ _G.pg.base.ship_data_template[107991] = {
 
 _G.pg.base.ship_data_template[107992] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -26408,7 +26408,7 @@ _G.pg.base.ship_data_template[107992] = {
 
 _G.pg.base.ship_data_template[107993] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -26502,7 +26502,7 @@ _G.pg.base.ship_data_template[107994] = {
 
 _G.pg.base.ship_data_template[108011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -26547,7 +26547,7 @@ _G.pg.base.ship_data_template[108011] = {
 
 _G.pg.base.ship_data_template[108012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -26593,7 +26593,7 @@ _G.pg.base.ship_data_template[108012] = {
 
 _G.pg.base.ship_data_template[108013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -26685,7 +26685,7 @@ _G.pg.base.ship_data_template[108014] = {
 
 _G.pg.base.ship_data_template[108021] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -26730,7 +26730,7 @@ _G.pg.base.ship_data_template[108021] = {
 
 _G.pg.base.ship_data_template[108022] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -26776,7 +26776,7 @@ _G.pg.base.ship_data_template[108022] = {
 
 _G.pg.base.ship_data_template[108023] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -26868,7 +26868,7 @@ _G.pg.base.ship_data_template[108024] = {
 
 _G.pg.base.ship_data_template[108031] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -26913,7 +26913,7 @@ _G.pg.base.ship_data_template[108031] = {
 
 _G.pg.base.ship_data_template[108032] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -26959,7 +26959,7 @@ _G.pg.base.ship_data_template[108032] = {
 
 _G.pg.base.ship_data_template[108033] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -27051,7 +27051,7 @@ _G.pg.base.ship_data_template[108034] = {
 
 _G.pg.base.ship_data_template[108041] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -27096,7 +27096,7 @@ _G.pg.base.ship_data_template[108041] = {
 
 _G.pg.base.ship_data_template[108042] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -27142,7 +27142,7 @@ _G.pg.base.ship_data_template[108042] = {
 
 _G.pg.base.ship_data_template[108043] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -27234,7 +27234,7 @@ _G.pg.base.ship_data_template[108044] = {
 
 _G.pg.base.ship_data_template[108051] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -27277,7 +27277,7 @@ _G.pg.base.ship_data_template[108051] = {
 
 _G.pg.base.ship_data_template[108052] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -27321,7 +27321,7 @@ _G.pg.base.ship_data_template[108052] = {
 
 _G.pg.base.ship_data_template[108053] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -27409,7 +27409,7 @@ _G.pg.base.ship_data_template[108054] = {
 
 _G.pg.base.ship_data_template[108061] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -27454,7 +27454,7 @@ _G.pg.base.ship_data_template[108061] = {
 
 _G.pg.base.ship_data_template[108062] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -27500,7 +27500,7 @@ _G.pg.base.ship_data_template[108062] = {
 
 _G.pg.base.ship_data_template[108063] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -27592,7 +27592,7 @@ _G.pg.base.ship_data_template[108064] = {
 
 _G.pg.base.ship_data_template[108071] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -27638,7 +27638,7 @@ _G.pg.base.ship_data_template[108071] = {
 
 _G.pg.base.ship_data_template[108072] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -27685,7 +27685,7 @@ _G.pg.base.ship_data_template[108072] = {
 
 _G.pg.base.ship_data_template[108073] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -27779,7 +27779,7 @@ _G.pg.base.ship_data_template[108074] = {
 
 _G.pg.base.ship_data_template[108081] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -27824,7 +27824,7 @@ _G.pg.base.ship_data_template[108081] = {
 
 _G.pg.base.ship_data_template[108082] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -27870,7 +27870,7 @@ _G.pg.base.ship_data_template[108082] = {
 
 _G.pg.base.ship_data_template[108083] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -27962,7 +27962,7 @@ _G.pg.base.ship_data_template[108084] = {
 
 _G.pg.base.ship_data_template[108091] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -28007,7 +28007,7 @@ _G.pg.base.ship_data_template[108091] = {
 
 _G.pg.base.ship_data_template[108092] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -28053,7 +28053,7 @@ _G.pg.base.ship_data_template[108092] = {
 
 _G.pg.base.ship_data_template[108093] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -28145,7 +28145,7 @@ _G.pg.base.ship_data_template[108094] = {
 
 _G.pg.base.ship_data_template[112011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -28191,7 +28191,7 @@ _G.pg.base.ship_data_template[112011] = {
 
 _G.pg.base.ship_data_template[112012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -28237,7 +28237,7 @@ _G.pg.base.ship_data_template[112012] = {
 
 _G.pg.base.ship_data_template[112013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -28513,7 +28513,7 @@ _G.pg.base.ship_data_template[118024] = {
 
 _G.pg.base.ship_data_template[201011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -28559,7 +28559,7 @@ _G.pg.base.ship_data_template[201011] = {
 
 _G.pg.base.ship_data_template[201012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -28606,7 +28606,7 @@ _G.pg.base.ship_data_template[201012] = {
 
 _G.pg.base.ship_data_template[201013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -28702,7 +28702,7 @@ _G.pg.base.ship_data_template[201014] = {
 
 _G.pg.base.ship_data_template[201021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -28750,7 +28750,7 @@ _G.pg.base.ship_data_template[201021] = {
 
 _G.pg.base.ship_data_template[201022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -28799,7 +28799,7 @@ _G.pg.base.ship_data_template[201022] = {
 
 _G.pg.base.ship_data_template[201023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -28899,7 +28899,7 @@ _G.pg.base.ship_data_template[201024] = {
 
 _G.pg.base.ship_data_template[201031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -28947,7 +28947,7 @@ _G.pg.base.ship_data_template[201031] = {
 
 _G.pg.base.ship_data_template[201032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -28996,7 +28996,7 @@ _G.pg.base.ship_data_template[201032] = {
 
 _G.pg.base.ship_data_template[201033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -29096,7 +29096,7 @@ _G.pg.base.ship_data_template[201034] = {
 
 _G.pg.base.ship_data_template[201061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -29141,7 +29141,7 @@ _G.pg.base.ship_data_template[201061] = {
 
 _G.pg.base.ship_data_template[201062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -29187,7 +29187,7 @@ _G.pg.base.ship_data_template[201062] = {
 
 _G.pg.base.ship_data_template[201063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -29281,7 +29281,7 @@ _G.pg.base.ship_data_template[201064] = {
 
 _G.pg.base.ship_data_template[201071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -29326,7 +29326,7 @@ _G.pg.base.ship_data_template[201071] = {
 
 _G.pg.base.ship_data_template[201072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -29372,7 +29372,7 @@ _G.pg.base.ship_data_template[201072] = {
 
 _G.pg.base.ship_data_template[201073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -29466,7 +29466,7 @@ _G.pg.base.ship_data_template[201074] = {
 
 _G.pg.base.ship_data_template[201081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -29512,7 +29512,7 @@ _G.pg.base.ship_data_template[201081] = {
 
 _G.pg.base.ship_data_template[201082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -29559,7 +29559,7 @@ _G.pg.base.ship_data_template[201082] = {
 
 _G.pg.base.ship_data_template[201083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -29655,7 +29655,7 @@ _G.pg.base.ship_data_template[201084] = {
 
 _G.pg.base.ship_data_template[201091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -29701,7 +29701,7 @@ _G.pg.base.ship_data_template[201091] = {
 
 _G.pg.base.ship_data_template[201092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -29748,7 +29748,7 @@ _G.pg.base.ship_data_template[201092] = {
 
 _G.pg.base.ship_data_template[201093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -29844,7 +29844,7 @@ _G.pg.base.ship_data_template[201094] = {
 
 _G.pg.base.ship_data_template[201101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -29890,7 +29890,7 @@ _G.pg.base.ship_data_template[201101] = {
 
 _G.pg.base.ship_data_template[201102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -29937,7 +29937,7 @@ _G.pg.base.ship_data_template[201102] = {
 
 _G.pg.base.ship_data_template[201103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -30033,7 +30033,7 @@ _G.pg.base.ship_data_template[201104] = {
 
 _G.pg.base.ship_data_template[201111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -30079,7 +30079,7 @@ _G.pg.base.ship_data_template[201111] = {
 
 _G.pg.base.ship_data_template[201112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -30126,7 +30126,7 @@ _G.pg.base.ship_data_template[201112] = {
 
 _G.pg.base.ship_data_template[201113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -30222,7 +30222,7 @@ _G.pg.base.ship_data_template[201114] = {
 
 _G.pg.base.ship_data_template[201121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -30268,7 +30268,7 @@ _G.pg.base.ship_data_template[201121] = {
 
 _G.pg.base.ship_data_template[201122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -30315,7 +30315,7 @@ _G.pg.base.ship_data_template[201122] = {
 
 _G.pg.base.ship_data_template[201123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -30411,7 +30411,7 @@ _G.pg.base.ship_data_template[201124] = {
 
 _G.pg.base.ship_data_template[201131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -30458,7 +30458,7 @@ _G.pg.base.ship_data_template[201131] = {
 
 _G.pg.base.ship_data_template[201132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -30506,7 +30506,7 @@ _G.pg.base.ship_data_template[201132] = {
 
 _G.pg.base.ship_data_template[201133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -30604,7 +30604,7 @@ _G.pg.base.ship_data_template[201134] = {
 
 _G.pg.base.ship_data_template[201141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -30652,7 +30652,7 @@ _G.pg.base.ship_data_template[201141] = {
 
 _G.pg.base.ship_data_template[201142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -30701,7 +30701,7 @@ _G.pg.base.ship_data_template[201142] = {
 
 _G.pg.base.ship_data_template[201143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -30801,7 +30801,7 @@ _G.pg.base.ship_data_template[201144] = {
 
 _G.pg.base.ship_data_template[201161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -30848,7 +30848,7 @@ _G.pg.base.ship_data_template[201161] = {
 
 _G.pg.base.ship_data_template[201162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -30896,7 +30896,7 @@ _G.pg.base.ship_data_template[201162] = {
 
 _G.pg.base.ship_data_template[201163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -30994,7 +30994,7 @@ _G.pg.base.ship_data_template[201164] = {
 
 _G.pg.base.ship_data_template[201201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -31039,7 +31039,7 @@ _G.pg.base.ship_data_template[201201] = {
 
 _G.pg.base.ship_data_template[201202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -31085,7 +31085,7 @@ _G.pg.base.ship_data_template[201202] = {
 
 _G.pg.base.ship_data_template[201203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -31179,7 +31179,7 @@ _G.pg.base.ship_data_template[201204] = {
 
 _G.pg.base.ship_data_template[201211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -31225,7 +31225,7 @@ _G.pg.base.ship_data_template[201211] = {
 
 _G.pg.base.ship_data_template[201212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -31272,7 +31272,7 @@ _G.pg.base.ship_data_template[201212] = {
 
 _G.pg.base.ship_data_template[201213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -31368,7 +31368,7 @@ _G.pg.base.ship_data_template[201214] = {
 
 _G.pg.base.ship_data_template[201221] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -31413,7 +31413,7 @@ _G.pg.base.ship_data_template[201221] = {
 
 _G.pg.base.ship_data_template[201222] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -31459,7 +31459,7 @@ _G.pg.base.ship_data_template[201222] = {
 
 _G.pg.base.ship_data_template[201223] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -31553,7 +31553,7 @@ _G.pg.base.ship_data_template[201224] = {
 
 _G.pg.base.ship_data_template[201231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -31598,7 +31598,7 @@ _G.pg.base.ship_data_template[201231] = {
 
 _G.pg.base.ship_data_template[201232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -31644,7 +31644,7 @@ _G.pg.base.ship_data_template[201232] = {
 
 _G.pg.base.ship_data_template[201233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -31738,7 +31738,7 @@ _G.pg.base.ship_data_template[201234] = {
 
 _G.pg.base.ship_data_template[201241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -31783,7 +31783,7 @@ _G.pg.base.ship_data_template[201241] = {
 
 _G.pg.base.ship_data_template[201242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -31829,7 +31829,7 @@ _G.pg.base.ship_data_template[201242] = {
 
 _G.pg.base.ship_data_template[201243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -31923,7 +31923,7 @@ _G.pg.base.ship_data_template[201244] = {
 
 _G.pg.base.ship_data_template[201251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -31968,7 +31968,7 @@ _G.pg.base.ship_data_template[201251] = {
 
 _G.pg.base.ship_data_template[201252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -32014,7 +32014,7 @@ _G.pg.base.ship_data_template[201252] = {
 
 _G.pg.base.ship_data_template[201253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -32108,7 +32108,7 @@ _G.pg.base.ship_data_template[201254] = {
 
 _G.pg.base.ship_data_template[201261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -32155,7 +32155,7 @@ _G.pg.base.ship_data_template[201261] = {
 
 _G.pg.base.ship_data_template[201262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -32203,7 +32203,7 @@ _G.pg.base.ship_data_template[201262] = {
 
 _G.pg.base.ship_data_template[201263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -32301,7 +32301,7 @@ _G.pg.base.ship_data_template[201264] = {
 
 _G.pg.base.ship_data_template[201271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -32346,7 +32346,7 @@ _G.pg.base.ship_data_template[201271] = {
 
 _G.pg.base.ship_data_template[201272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -32392,7 +32392,7 @@ _G.pg.base.ship_data_template[201272] = {
 
 _G.pg.base.ship_data_template[201273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -32486,7 +32486,7 @@ _G.pg.base.ship_data_template[201274] = {
 
 _G.pg.base.ship_data_template[201291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -32531,7 +32531,7 @@ _G.pg.base.ship_data_template[201291] = {
 
 _G.pg.base.ship_data_template[201292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -32577,7 +32577,7 @@ _G.pg.base.ship_data_template[201292] = {
 
 _G.pg.base.ship_data_template[201293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -32671,7 +32671,7 @@ _G.pg.base.ship_data_template[201294] = {
 
 _G.pg.base.ship_data_template[201321] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -32716,7 +32716,7 @@ _G.pg.base.ship_data_template[201321] = {
 
 _G.pg.base.ship_data_template[201322] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -32762,7 +32762,7 @@ _G.pg.base.ship_data_template[201322] = {
 
 _G.pg.base.ship_data_template[201323] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -32856,7 +32856,7 @@ _G.pg.base.ship_data_template[201324] = {
 
 _G.pg.base.ship_data_template[201331] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -32903,7 +32903,7 @@ _G.pg.base.ship_data_template[201331] = {
 
 _G.pg.base.ship_data_template[201332] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -32951,7 +32951,7 @@ _G.pg.base.ship_data_template[201332] = {
 
 _G.pg.base.ship_data_template[201333] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -33049,7 +33049,7 @@ _G.pg.base.ship_data_template[201334] = {
 
 _G.pg.base.ship_data_template[201341] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -33096,7 +33096,7 @@ _G.pg.base.ship_data_template[201341] = {
 
 _G.pg.base.ship_data_template[201342] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -33144,7 +33144,7 @@ _G.pg.base.ship_data_template[201342] = {
 
 _G.pg.base.ship_data_template[201343] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -33242,7 +33242,7 @@ _G.pg.base.ship_data_template[201344] = {
 
 _G.pg.base.ship_data_template[201351] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -33289,7 +33289,7 @@ _G.pg.base.ship_data_template[201351] = {
 
 _G.pg.base.ship_data_template[201352] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -33337,7 +33337,7 @@ _G.pg.base.ship_data_template[201352] = {
 
 _G.pg.base.ship_data_template[201353] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -33435,7 +33435,7 @@ _G.pg.base.ship_data_template[201354] = {
 
 _G.pg.base.ship_data_template[201361] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -33482,7 +33482,7 @@ _G.pg.base.ship_data_template[201361] = {
 
 _G.pg.base.ship_data_template[201362] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -33530,7 +33530,7 @@ _G.pg.base.ship_data_template[201362] = {
 
 _G.pg.base.ship_data_template[201363] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -33628,7 +33628,7 @@ _G.pg.base.ship_data_template[201364] = {
 
 _G.pg.base.ship_data_template[201371] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -33675,7 +33675,7 @@ _G.pg.base.ship_data_template[201371] = {
 
 _G.pg.base.ship_data_template[201372] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -33723,7 +33723,7 @@ _G.pg.base.ship_data_template[201372] = {
 
 _G.pg.base.ship_data_template[201373] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -34022,7 +34022,7 @@ _G.pg.base.ship_data_template[201384] = {
 
 _G.pg.base.ship_data_template[201391] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -34069,7 +34069,7 @@ _G.pg.base.ship_data_template[201391] = {
 
 _G.pg.base.ship_data_template[201392] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -34117,7 +34117,7 @@ _G.pg.base.ship_data_template[201392] = {
 
 _G.pg.base.ship_data_template[201393] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -34315,7 +34315,7 @@ _G.pg.base.ship_data_template[201524] = {
 
 _G.pg.base.ship_data_template[202011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 2,
 	energy = 150,
@@ -34361,7 +34361,7 @@ _G.pg.base.ship_data_template[202011] = {
 
 _G.pg.base.ship_data_template[202012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -34408,7 +34408,7 @@ _G.pg.base.ship_data_template[202012] = {
 
 _G.pg.base.ship_data_template[202013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -34502,7 +34502,7 @@ _G.pg.base.ship_data_template[202014] = {
 
 _G.pg.base.ship_data_template[202021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 3,
 	energy = 150,
@@ -34548,7 +34548,7 @@ _G.pg.base.ship_data_template[202021] = {
 
 _G.pg.base.ship_data_template[202022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -34595,7 +34595,7 @@ _G.pg.base.ship_data_template[202022] = {
 
 _G.pg.base.ship_data_template[202023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -34689,7 +34689,7 @@ _G.pg.base.ship_data_template[202024] = {
 
 _G.pg.base.ship_data_template[202031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 6000,
 	oil_at_end = 3,
 	energy = 150,
@@ -34735,7 +34735,7 @@ _G.pg.base.ship_data_template[202031] = {
 
 _G.pg.base.ship_data_template[202032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -34782,7 +34782,7 @@ _G.pg.base.ship_data_template[202032] = {
 
 _G.pg.base.ship_data_template[202033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -34876,7 +34876,7 @@ _G.pg.base.ship_data_template[202034] = {
 
 _G.pg.base.ship_data_template[202041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -34924,7 +34924,7 @@ _G.pg.base.ship_data_template[202041] = {
 
 _G.pg.base.ship_data_template[202042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -34973,7 +34973,7 @@ _G.pg.base.ship_data_template[202042] = {
 
 _G.pg.base.ship_data_template[202043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -35071,7 +35071,7 @@ _G.pg.base.ship_data_template[202044] = {
 
 _G.pg.base.ship_data_template[202071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -35118,7 +35118,7 @@ _G.pg.base.ship_data_template[202071] = {
 
 _G.pg.base.ship_data_template[202072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -35166,7 +35166,7 @@ _G.pg.base.ship_data_template[202072] = {
 
 _G.pg.base.ship_data_template[202073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -35262,7 +35262,7 @@ _G.pg.base.ship_data_template[202074] = {
 
 _G.pg.base.ship_data_template[202081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -35309,7 +35309,7 @@ _G.pg.base.ship_data_template[202081] = {
 
 _G.pg.base.ship_data_template[202082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -35357,7 +35357,7 @@ _G.pg.base.ship_data_template[202082] = {
 
 _G.pg.base.ship_data_template[202083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -35453,7 +35453,7 @@ _G.pg.base.ship_data_template[202084] = {
 
 _G.pg.base.ship_data_template[202091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -35500,7 +35500,7 @@ _G.pg.base.ship_data_template[202091] = {
 
 _G.pg.base.ship_data_template[202092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -35548,7 +35548,7 @@ _G.pg.base.ship_data_template[202092] = {
 
 _G.pg.base.ship_data_template[202093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -35644,7 +35644,7 @@ _G.pg.base.ship_data_template[202094] = {
 
 _G.pg.base.ship_data_template[202101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -35691,7 +35691,7 @@ _G.pg.base.ship_data_template[202101] = {
 
 _G.pg.base.ship_data_template[202102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -35739,7 +35739,7 @@ _G.pg.base.ship_data_template[202102] = {
 
 _G.pg.base.ship_data_template[202103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -35835,7 +35835,7 @@ _G.pg.base.ship_data_template[202104] = {
 
 _G.pg.base.ship_data_template[202111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -35880,7 +35880,7 @@ _G.pg.base.ship_data_template[202111] = {
 
 _G.pg.base.ship_data_template[202112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -35926,7 +35926,7 @@ _G.pg.base.ship_data_template[202112] = {
 
 _G.pg.base.ship_data_template[202113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -36018,7 +36018,7 @@ _G.pg.base.ship_data_template[202114] = {
 
 _G.pg.base.ship_data_template[202121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -36065,7 +36065,7 @@ _G.pg.base.ship_data_template[202121] = {
 
 _G.pg.base.ship_data_template[202122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -36113,7 +36113,7 @@ _G.pg.base.ship_data_template[202122] = {
 
 _G.pg.base.ship_data_template[202123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -36209,7 +36209,7 @@ _G.pg.base.ship_data_template[202124] = {
 
 _G.pg.base.ship_data_template[202131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 3,
 	energy = 150,
@@ -36254,7 +36254,7 @@ _G.pg.base.ship_data_template[202131] = {
 
 _G.pg.base.ship_data_template[202132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -36300,7 +36300,7 @@ _G.pg.base.ship_data_template[202132] = {
 
 _G.pg.base.ship_data_template[202133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -36392,7 +36392,7 @@ _G.pg.base.ship_data_template[202134] = {
 
 _G.pg.base.ship_data_template[202141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 3,
 	energy = 150,
@@ -36437,7 +36437,7 @@ _G.pg.base.ship_data_template[202141] = {
 
 _G.pg.base.ship_data_template[202142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -36483,7 +36483,7 @@ _G.pg.base.ship_data_template[202142] = {
 
 _G.pg.base.ship_data_template[202143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -36575,7 +36575,7 @@ _G.pg.base.ship_data_template[202144] = {
 
 _G.pg.base.ship_data_template[202151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -36622,7 +36622,7 @@ _G.pg.base.ship_data_template[202151] = {
 
 _G.pg.base.ship_data_template[202152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -36670,7 +36670,7 @@ _G.pg.base.ship_data_template[202152] = {
 
 _G.pg.base.ship_data_template[202153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -36766,7 +36766,7 @@ _G.pg.base.ship_data_template[202154] = {
 
 _G.pg.base.ship_data_template[202161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -36811,7 +36811,7 @@ _G.pg.base.ship_data_template[202161] = {
 
 _G.pg.base.ship_data_template[202162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -36857,7 +36857,7 @@ _G.pg.base.ship_data_template[202162] = {
 
 _G.pg.base.ship_data_template[202163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -36949,7 +36949,7 @@ _G.pg.base.ship_data_template[202164] = {
 
 _G.pg.base.ship_data_template[202171] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -36994,7 +36994,7 @@ _G.pg.base.ship_data_template[202171] = {
 
 _G.pg.base.ship_data_template[202172] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -37040,7 +37040,7 @@ _G.pg.base.ship_data_template[202172] = {
 
 _G.pg.base.ship_data_template[202173] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -37132,7 +37132,7 @@ _G.pg.base.ship_data_template[202174] = {
 
 _G.pg.base.ship_data_template[202181] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -37179,7 +37179,7 @@ _G.pg.base.ship_data_template[202181] = {
 
 _G.pg.base.ship_data_template[202182] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -37227,7 +37227,7 @@ _G.pg.base.ship_data_template[202182] = {
 
 _G.pg.base.ship_data_template[202183] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -37323,7 +37323,7 @@ _G.pg.base.ship_data_template[202184] = {
 
 _G.pg.base.ship_data_template[202191] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -37371,7 +37371,7 @@ _G.pg.base.ship_data_template[202191] = {
 
 _G.pg.base.ship_data_template[202192] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -37420,7 +37420,7 @@ _G.pg.base.ship_data_template[202192] = {
 
 _G.pg.base.ship_data_template[202193] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -37518,7 +37518,7 @@ _G.pg.base.ship_data_template[202194] = {
 
 _G.pg.base.ship_data_template[202211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -37566,7 +37566,7 @@ _G.pg.base.ship_data_template[202211] = {
 
 _G.pg.base.ship_data_template[202212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -37614,7 +37614,7 @@ _G.pg.base.ship_data_template[202212] = {
 
 _G.pg.base.ship_data_template[202213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -37710,7 +37710,7 @@ _G.pg.base.ship_data_template[202214] = {
 
 _G.pg.base.ship_data_template[202221] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -37758,7 +37758,7 @@ _G.pg.base.ship_data_template[202221] = {
 
 _G.pg.base.ship_data_template[202222] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -37806,7 +37806,7 @@ _G.pg.base.ship_data_template[202222] = {
 
 _G.pg.base.ship_data_template[202223] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -37902,7 +37902,7 @@ _G.pg.base.ship_data_template[202224] = {
 
 _G.pg.base.ship_data_template[202201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -37950,7 +37950,7 @@ _G.pg.base.ship_data_template[202201] = {
 
 _G.pg.base.ship_data_template[202202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -37999,7 +37999,7 @@ _G.pg.base.ship_data_template[202202] = {
 
 _G.pg.base.ship_data_template[202203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -38097,7 +38097,7 @@ _G.pg.base.ship_data_template[202204] = {
 
 _G.pg.base.ship_data_template[202231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -38144,7 +38144,7 @@ _G.pg.base.ship_data_template[202231] = {
 
 _G.pg.base.ship_data_template[202232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -38192,7 +38192,7 @@ _G.pg.base.ship_data_template[202232] = {
 
 _G.pg.base.ship_data_template[202233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -38288,7 +38288,7 @@ _G.pg.base.ship_data_template[202234] = {
 
 _G.pg.base.ship_data_template[202241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -38336,7 +38336,7 @@ _G.pg.base.ship_data_template[202241] = {
 
 _G.pg.base.ship_data_template[202242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -38385,7 +38385,7 @@ _G.pg.base.ship_data_template[202242] = {
 
 _G.pg.base.ship_data_template[202243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -38483,7 +38483,7 @@ _G.pg.base.ship_data_template[202244] = {
 
 _G.pg.base.ship_data_template[202251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -38530,7 +38530,7 @@ _G.pg.base.ship_data_template[202251] = {
 
 _G.pg.base.ship_data_template[202252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -38578,7 +38578,7 @@ _G.pg.base.ship_data_template[202252] = {
 
 _G.pg.base.ship_data_template[202253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -38674,7 +38674,7 @@ _G.pg.base.ship_data_template[202254] = {
 
 _G.pg.base.ship_data_template[202261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -38721,7 +38721,7 @@ _G.pg.base.ship_data_template[202261] = {
 
 _G.pg.base.ship_data_template[202262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -38769,7 +38769,7 @@ _G.pg.base.ship_data_template[202262] = {
 
 _G.pg.base.ship_data_template[202263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -38865,7 +38865,7 @@ _G.pg.base.ship_data_template[202264] = {
 
 _G.pg.base.ship_data_template[202271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -38913,7 +38913,7 @@ _G.pg.base.ship_data_template[202271] = {
 
 _G.pg.base.ship_data_template[202272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -38962,7 +38962,7 @@ _G.pg.base.ship_data_template[202272] = {
 
 _G.pg.base.ship_data_template[202273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -39060,7 +39060,7 @@ _G.pg.base.ship_data_template[202274] = {
 
 _G.pg.base.ship_data_template[202281] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -39108,7 +39108,7 @@ _G.pg.base.ship_data_template[202281] = {
 
 _G.pg.base.ship_data_template[202282] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -39157,7 +39157,7 @@ _G.pg.base.ship_data_template[202282] = {
 
 _G.pg.base.ship_data_template[202283] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -39255,7 +39255,7 @@ _G.pg.base.ship_data_template[202284] = {
 
 _G.pg.base.ship_data_template[202291] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -39302,7 +39302,7 @@ _G.pg.base.ship_data_template[202291] = {
 
 _G.pg.base.ship_data_template[202292] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -39350,7 +39350,7 @@ _G.pg.base.ship_data_template[202292] = {
 
 _G.pg.base.ship_data_template[202293] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -39446,7 +39446,7 @@ _G.pg.base.ship_data_template[202294] = {
 
 _G.pg.base.ship_data_template[202301] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -39494,7 +39494,7 @@ _G.pg.base.ship_data_template[202301] = {
 
 _G.pg.base.ship_data_template[202302] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -39543,7 +39543,7 @@ _G.pg.base.ship_data_template[202302] = {
 
 _G.pg.base.ship_data_template[202303] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -39641,7 +39641,7 @@ _G.pg.base.ship_data_template[202304] = {
 
 _G.pg.base.ship_data_template[202311] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -39689,7 +39689,7 @@ _G.pg.base.ship_data_template[202311] = {
 
 _G.pg.base.ship_data_template[202312] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -39738,7 +39738,7 @@ _G.pg.base.ship_data_template[202312] = {
 
 _G.pg.base.ship_data_template[202313] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -39836,7 +39836,7 @@ _G.pg.base.ship_data_template[202314] = {
 
 _G.pg.base.ship_data_template[202321] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -39883,7 +39883,7 @@ _G.pg.base.ship_data_template[202321] = {
 
 _G.pg.base.ship_data_template[202322] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -39931,7 +39931,7 @@ _G.pg.base.ship_data_template[202322] = {
 
 _G.pg.base.ship_data_template[202323] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -40027,7 +40027,7 @@ _G.pg.base.ship_data_template[202324] = {
 
 _G.pg.base.ship_data_template[202331] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -40075,7 +40075,7 @@ _G.pg.base.ship_data_template[202331] = {
 
 _G.pg.base.ship_data_template[202332] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -40124,7 +40124,7 @@ _G.pg.base.ship_data_template[202332] = {
 
 _G.pg.base.ship_data_template[202333] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -40222,7 +40222,7 @@ _G.pg.base.ship_data_template[202334] = {
 
 _G.pg.base.ship_data_template[202341] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -40269,7 +40269,7 @@ _G.pg.base.ship_data_template[202341] = {
 
 _G.pg.base.ship_data_template[202342] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -40317,7 +40317,7 @@ _G.pg.base.ship_data_template[202342] = {
 
 _G.pg.base.ship_data_template[202343] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -40413,7 +40413,7 @@ _G.pg.base.ship_data_template[202344] = {
 
 _G.pg.base.ship_data_template[202351] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -40461,7 +40461,7 @@ _G.pg.base.ship_data_template[202351] = {
 
 _G.pg.base.ship_data_template[202352] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -40510,7 +40510,7 @@ _G.pg.base.ship_data_template[202352] = {
 
 _G.pg.base.ship_data_template[202353] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -40608,7 +40608,7 @@ _G.pg.base.ship_data_template[202354] = {
 
 _G.pg.base.ship_data_template[202361] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -40655,7 +40655,7 @@ _G.pg.base.ship_data_template[202361] = {
 
 _G.pg.base.ship_data_template[202362] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -40703,7 +40703,7 @@ _G.pg.base.ship_data_template[202362] = {
 
 _G.pg.base.ship_data_template[202363] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -40799,7 +40799,7 @@ _G.pg.base.ship_data_template[202364] = {
 
 _G.pg.base.ship_data_template[203011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 5,
 	energy = 150,
@@ -40843,7 +40843,7 @@ _G.pg.base.ship_data_template[203011] = {
 
 _G.pg.base.ship_data_template[203012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -40888,7 +40888,7 @@ _G.pg.base.ship_data_template[203012] = {
 
 _G.pg.base.ship_data_template[203013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -41024,7 +41024,7 @@ _G.pg.base.ship_data_template[203114] = {
 
 _G.pg.base.ship_data_template[203021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -41068,7 +41068,7 @@ _G.pg.base.ship_data_template[203021] = {
 
 _G.pg.base.ship_data_template[203022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -41113,7 +41113,7 @@ _G.pg.base.ship_data_template[203022] = {
 
 _G.pg.base.ship_data_template[203023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -41249,7 +41249,7 @@ _G.pg.base.ship_data_template[203124] = {
 
 _G.pg.base.ship_data_template[203031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -41292,7 +41292,7 @@ _G.pg.base.ship_data_template[203031] = {
 
 _G.pg.base.ship_data_template[203032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -41336,7 +41336,7 @@ _G.pg.base.ship_data_template[203032] = {
 
 _G.pg.base.ship_data_template[203033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -41424,7 +41424,7 @@ _G.pg.base.ship_data_template[203034] = {
 
 _G.pg.base.ship_data_template[203041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -41468,7 +41468,7 @@ _G.pg.base.ship_data_template[203041] = {
 
 _G.pg.base.ship_data_template[203042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -41513,7 +41513,7 @@ _G.pg.base.ship_data_template[203042] = {
 
 _G.pg.base.ship_data_template[203043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -41603,7 +41603,7 @@ _G.pg.base.ship_data_template[203044] = {
 
 _G.pg.base.ship_data_template[203051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26200,
 	oil_at_end = 4,
 	energy = 150,
@@ -41646,7 +41646,7 @@ _G.pg.base.ship_data_template[203051] = {
 
 _G.pg.base.ship_data_template[203052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -41690,7 +41690,7 @@ _G.pg.base.ship_data_template[203052] = {
 
 _G.pg.base.ship_data_template[203053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -41778,7 +41778,7 @@ _G.pg.base.ship_data_template[203054] = {
 
 _G.pg.base.ship_data_template[203061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26200,
 	oil_at_end = 4,
 	energy = 150,
@@ -41821,7 +41821,7 @@ _G.pg.base.ship_data_template[203061] = {
 
 _G.pg.base.ship_data_template[203062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -41865,7 +41865,7 @@ _G.pg.base.ship_data_template[203062] = {
 
 _G.pg.base.ship_data_template[203063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -41953,7 +41953,7 @@ _G.pg.base.ship_data_template[203064] = {
 
 _G.pg.base.ship_data_template[203071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26000,
 	oil_at_end = 5,
 	energy = 150,
@@ -41997,7 +41997,7 @@ _G.pg.base.ship_data_template[203071] = {
 
 _G.pg.base.ship_data_template[203072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -42042,7 +42042,7 @@ _G.pg.base.ship_data_template[203072] = {
 
 _G.pg.base.ship_data_template[203073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -42132,7 +42132,7 @@ _G.pg.base.ship_data_template[203074] = {
 
 _G.pg.base.ship_data_template[203081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26000,
 	oil_at_end = 5,
 	energy = 150,
@@ -42178,7 +42178,7 @@ _G.pg.base.ship_data_template[203081] = {
 
 _G.pg.base.ship_data_template[203082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -42225,7 +42225,7 @@ _G.pg.base.ship_data_template[203082] = {
 
 _G.pg.base.ship_data_template[203083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -42319,7 +42319,7 @@ _G.pg.base.ship_data_template[203084] = {
 
 _G.pg.base.ship_data_template[203091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 4,
 	energy = 150,
@@ -42362,7 +42362,7 @@ _G.pg.base.ship_data_template[203091] = {
 
 _G.pg.base.ship_data_template[203092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -42406,7 +42406,7 @@ _G.pg.base.ship_data_template[203092] = {
 
 _G.pg.base.ship_data_template[203093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -42494,7 +42494,7 @@ _G.pg.base.ship_data_template[203094] = {
 
 _G.pg.base.ship_data_template[203101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -42539,7 +42539,7 @@ _G.pg.base.ship_data_template[203101] = {
 
 _G.pg.base.ship_data_template[203102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -42585,7 +42585,7 @@ _G.pg.base.ship_data_template[203102] = {
 
 _G.pg.base.ship_data_template[203103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -42677,7 +42677,7 @@ _G.pg.base.ship_data_template[203104] = {
 
 _G.pg.base.ship_data_template[203131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 5,
 	energy = 150,
@@ -42722,7 +42722,7 @@ _G.pg.base.ship_data_template[203131] = {
 
 _G.pg.base.ship_data_template[203132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -42768,7 +42768,7 @@ _G.pg.base.ship_data_template[203132] = {
 
 _G.pg.base.ship_data_template[203133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -42860,7 +42860,7 @@ _G.pg.base.ship_data_template[203134] = {
 
 _G.pg.base.ship_data_template[204011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -42905,7 +42905,7 @@ _G.pg.base.ship_data_template[204011] = {
 
 _G.pg.base.ship_data_template[204012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -42951,7 +42951,7 @@ _G.pg.base.ship_data_template[204012] = {
 
 _G.pg.base.ship_data_template[204013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -43043,7 +43043,7 @@ _G.pg.base.ship_data_template[204014] = {
 
 _G.pg.base.ship_data_template[204021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -43088,7 +43088,7 @@ _G.pg.base.ship_data_template[204021] = {
 
 _G.pg.base.ship_data_template[204022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -43134,7 +43134,7 @@ _G.pg.base.ship_data_template[204022] = {
 
 _G.pg.base.ship_data_template[204023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -43226,7 +43226,7 @@ _G.pg.base.ship_data_template[204024] = {
 
 _G.pg.base.ship_data_template[204031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -43271,7 +43271,7 @@ _G.pg.base.ship_data_template[204031] = {
 
 _G.pg.base.ship_data_template[204032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -43317,7 +43317,7 @@ _G.pg.base.ship_data_template[204032] = {
 
 _G.pg.base.ship_data_template[204033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -43409,7 +43409,7 @@ _G.pg.base.ship_data_template[204034] = {
 
 _G.pg.base.ship_data_template[204041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -43456,7 +43456,7 @@ _G.pg.base.ship_data_template[204041] = {
 
 _G.pg.base.ship_data_template[204042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -43504,7 +43504,7 @@ _G.pg.base.ship_data_template[204042] = {
 
 _G.pg.base.ship_data_template[204043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -43600,7 +43600,7 @@ _G.pg.base.ship_data_template[204044] = {
 
 _G.pg.base.ship_data_template[205011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -43646,7 +43646,7 @@ _G.pg.base.ship_data_template[205011] = {
 
 _G.pg.base.ship_data_template[205012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -43693,7 +43693,7 @@ _G.pg.base.ship_data_template[205012] = {
 
 _G.pg.base.ship_data_template[205013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -43787,7 +43787,7 @@ _G.pg.base.ship_data_template[205014] = {
 
 _G.pg.base.ship_data_template[205021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -43834,7 +43834,7 @@ _G.pg.base.ship_data_template[205021] = {
 
 _G.pg.base.ship_data_template[205022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -43882,7 +43882,7 @@ _G.pg.base.ship_data_template[205022] = {
 
 _G.pg.base.ship_data_template[205023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -44027,7 +44027,7 @@ _G.pg.base.ship_data_template[205124] = {
 
 _G.pg.base.ship_data_template[205031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -44074,7 +44074,7 @@ _G.pg.base.ship_data_template[205031] = {
 
 _G.pg.base.ship_data_template[205032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -44122,7 +44122,7 @@ _G.pg.base.ship_data_template[205032] = {
 
 _G.pg.base.ship_data_template[205033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -44266,7 +44266,7 @@ _G.pg.base.ship_data_template[205154] = {
 
 _G.pg.base.ship_data_template[205041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -44312,7 +44312,7 @@ _G.pg.base.ship_data_template[205041] = {
 
 _G.pg.base.ship_data_template[205042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -44359,7 +44359,7 @@ _G.pg.base.ship_data_template[205042] = {
 
 _G.pg.base.ship_data_template[205043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -44453,7 +44453,7 @@ _G.pg.base.ship_data_template[205044] = {
 
 _G.pg.base.ship_data_template[205051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -44501,7 +44501,7 @@ _G.pg.base.ship_data_template[205051] = {
 
 _G.pg.base.ship_data_template[205052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -44550,7 +44550,7 @@ _G.pg.base.ship_data_template[205052] = {
 
 _G.pg.base.ship_data_template[205053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -44648,7 +44648,7 @@ _G.pg.base.ship_data_template[205054] = {
 
 _G.pg.base.ship_data_template[205061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -44694,7 +44694,7 @@ _G.pg.base.ship_data_template[205061] = {
 
 _G.pg.base.ship_data_template[205062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -44741,7 +44741,7 @@ _G.pg.base.ship_data_template[205062] = {
 
 _G.pg.base.ship_data_template[205063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -44835,7 +44835,7 @@ _G.pg.base.ship_data_template[205064] = {
 
 _G.pg.base.ship_data_template[205071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -44883,7 +44883,7 @@ _G.pg.base.ship_data_template[205071] = {
 
 _G.pg.base.ship_data_template[205072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -44932,7 +44932,7 @@ _G.pg.base.ship_data_template[205072] = {
 
 _G.pg.base.ship_data_template[205073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -45030,7 +45030,7 @@ _G.pg.base.ship_data_template[205074] = {
 
 _G.pg.base.ship_data_template[205091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -45078,7 +45078,7 @@ _G.pg.base.ship_data_template[205091] = {
 
 _G.pg.base.ship_data_template[205092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -45127,7 +45127,7 @@ _G.pg.base.ship_data_template[205092] = {
 
 _G.pg.base.ship_data_template[205093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -45225,7 +45225,7 @@ _G.pg.base.ship_data_template[205094] = {
 
 _G.pg.base.ship_data_template[205101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -45273,7 +45273,7 @@ _G.pg.base.ship_data_template[205101] = {
 
 _G.pg.base.ship_data_template[205102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -45322,7 +45322,7 @@ _G.pg.base.ship_data_template[205102] = {
 
 _G.pg.base.ship_data_template[205103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -45420,7 +45420,7 @@ _G.pg.base.ship_data_template[205104] = {
 
 _G.pg.base.ship_data_template[205111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -45468,7 +45468,7 @@ _G.pg.base.ship_data_template[205111] = {
 
 _G.pg.base.ship_data_template[205112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -45517,7 +45517,7 @@ _G.pg.base.ship_data_template[205112] = {
 
 _G.pg.base.ship_data_template[205113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -45818,7 +45818,7 @@ _G.pg.base.ship_data_template[205134] = {
 
 _G.pg.base.ship_data_template[205141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -45866,7 +45866,7 @@ _G.pg.base.ship_data_template[205141] = {
 
 _G.pg.base.ship_data_template[205142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -45915,7 +45915,7 @@ _G.pg.base.ship_data_template[205142] = {
 
 _G.pg.base.ship_data_template[205143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -46216,7 +46216,7 @@ _G.pg.base.ship_data_template[205164] = {
 
 _G.pg.base.ship_data_template[206011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -46265,7 +46265,7 @@ _G.pg.base.ship_data_template[206011] = {
 
 _G.pg.base.ship_data_template[206012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -46314,7 +46314,7 @@ _G.pg.base.ship_data_template[206012] = {
 
 _G.pg.base.ship_data_template[206013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -46414,7 +46414,7 @@ _G.pg.base.ship_data_template[206014] = {
 
 _G.pg.base.ship_data_template[206021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -46464,7 +46464,7 @@ _G.pg.base.ship_data_template[206021] = {
 
 _G.pg.base.ship_data_template[206022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -46514,7 +46514,7 @@ _G.pg.base.ship_data_template[206022] = {
 
 _G.pg.base.ship_data_template[206023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -46616,7 +46616,7 @@ _G.pg.base.ship_data_template[206024] = {
 
 _G.pg.base.ship_data_template[206031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -46666,7 +46666,7 @@ _G.pg.base.ship_data_template[206031] = {
 
 _G.pg.base.ship_data_template[206032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -46716,7 +46716,7 @@ _G.pg.base.ship_data_template[206032] = {
 
 _G.pg.base.ship_data_template[206033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -46869,7 +46869,7 @@ _G.pg.base.ship_data_template[206134] = {
 
 _G.pg.base.ship_data_template[206041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 18100,
 	oil_at_end = 7,
 	energy = 150,
@@ -46919,7 +46919,7 @@ _G.pg.base.ship_data_template[206041] = {
 
 _G.pg.base.ship_data_template[206042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -46969,7 +46969,7 @@ _G.pg.base.ship_data_template[206042] = {
 
 _G.pg.base.ship_data_template[206043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -47071,7 +47071,7 @@ _G.pg.base.ship_data_template[206044] = {
 
 _G.pg.base.ship_data_template[206051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -47121,7 +47121,7 @@ _G.pg.base.ship_data_template[206051] = {
 
 _G.pg.base.ship_data_template[206052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -47171,7 +47171,7 @@ _G.pg.base.ship_data_template[206052] = {
 
 _G.pg.base.ship_data_template[206053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -47273,7 +47273,7 @@ _G.pg.base.ship_data_template[206054] = {
 
 _G.pg.base.ship_data_template[206061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26100,
 	oil_at_end = 6,
 	energy = 150,
@@ -47327,7 +47327,7 @@ _G.pg.base.ship_data_template[206061] = {
 
 _G.pg.base.ship_data_template[206062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -47381,7 +47381,7 @@ _G.pg.base.ship_data_template[206062] = {
 
 _G.pg.base.ship_data_template[206063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -47489,7 +47489,7 @@ _G.pg.base.ship_data_template[206064] = {
 
 _G.pg.base.ship_data_template[206071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -47541,7 +47541,7 @@ _G.pg.base.ship_data_template[206071] = {
 
 _G.pg.base.ship_data_template[206072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -47593,7 +47593,7 @@ _G.pg.base.ship_data_template[206072] = {
 
 _G.pg.base.ship_data_template[206073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -47700,7 +47700,7 @@ _G.pg.base.ship_data_template[206074] = {
 
 _G.pg.base.ship_data_template[206081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -47752,7 +47752,7 @@ _G.pg.base.ship_data_template[206081] = {
 
 _G.pg.base.ship_data_template[206082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -47804,7 +47804,7 @@ _G.pg.base.ship_data_template[206082] = {
 
 _G.pg.base.ship_data_template[206083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -47910,7 +47910,7 @@ _G.pg.base.ship_data_template[206084] = {
 
 _G.pg.base.ship_data_template[207011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 22000,
 	oil_at_end = 6,
 	energy = 150,
@@ -47959,7 +47959,7 @@ _G.pg.base.ship_data_template[207011] = {
 
 _G.pg.base.ship_data_template[207012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -48008,7 +48008,7 @@ _G.pg.base.ship_data_template[207012] = {
 
 _G.pg.base.ship_data_template[207013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -48108,7 +48108,7 @@ _G.pg.base.ship_data_template[207014] = {
 
 _G.pg.base.ship_data_template[207021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 29000,
 	oil_at_end = 6,
 	energy = 150,
@@ -48157,7 +48157,7 @@ _G.pg.base.ship_data_template[207021] = {
 
 _G.pg.base.ship_data_template[207022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -48206,7 +48206,7 @@ _G.pg.base.ship_data_template[207022] = {
 
 _G.pg.base.ship_data_template[207023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -48306,7 +48306,7 @@ _G.pg.base.ship_data_template[207024] = {
 
 _G.pg.base.ship_data_template[207031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28020,
 	oil_at_end = 7,
 	energy = 150,
@@ -48352,7 +48352,7 @@ _G.pg.base.ship_data_template[207031] = {
 
 _G.pg.base.ship_data_template[207032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -48398,7 +48398,7 @@ _G.pg.base.ship_data_template[207032] = {
 
 _G.pg.base.ship_data_template[207033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -48492,7 +48492,7 @@ _G.pg.base.ship_data_template[207034] = {
 
 _G.pg.base.ship_data_template[207041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28020,
 	oil_at_end = 7,
 	energy = 150,
@@ -48540,7 +48540,7 @@ _G.pg.base.ship_data_template[207041] = {
 
 _G.pg.base.ship_data_template[207042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -48588,7 +48588,7 @@ _G.pg.base.ship_data_template[207042] = {
 
 _G.pg.base.ship_data_template[207043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -48686,7 +48686,7 @@ _G.pg.base.ship_data_template[207044] = {
 
 _G.pg.base.ship_data_template[207051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28300,
 	oil_at_end = 7,
 	energy = 150,
@@ -48736,7 +48736,7 @@ _G.pg.base.ship_data_template[207051] = {
 
 _G.pg.base.ship_data_template[207052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -48786,7 +48786,7 @@ _G.pg.base.ship_data_template[207052] = {
 
 _G.pg.base.ship_data_template[207053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -48889,7 +48889,7 @@ _G.pg.base.ship_data_template[207054] = {
 
 _G.pg.base.ship_data_template[207061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28000,
 	oil_at_end = 6,
 	energy = 150,
@@ -48937,7 +48937,7 @@ _G.pg.base.ship_data_template[207061] = {
 
 _G.pg.base.ship_data_template[207062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -48985,7 +48985,7 @@ _G.pg.base.ship_data_template[207062] = {
 
 _G.pg.base.ship_data_template[207063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -49287,7 +49287,7 @@ _G.pg.base.ship_data_template[207074] = {
 
 _G.pg.base.ship_data_template[207091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28020,
 	oil_at_end = 6,
 	energy = 150,
@@ -49335,7 +49335,7 @@ _G.pg.base.ship_data_template[207091] = {
 
 _G.pg.base.ship_data_template[207092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -49383,7 +49383,7 @@ _G.pg.base.ship_data_template[207092] = {
 
 _G.pg.base.ship_data_template[207093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -49481,7 +49481,7 @@ _G.pg.base.ship_data_template[207094] = {
 
 _G.pg.base.ship_data_template[207111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28020,
 	oil_at_end = 7,
 	energy = 150,
@@ -49529,7 +49529,7 @@ _G.pg.base.ship_data_template[207111] = {
 
 _G.pg.base.ship_data_template[207112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -49577,7 +49577,7 @@ _G.pg.base.ship_data_template[207112] = {
 
 _G.pg.base.ship_data_template[207113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -49675,7 +49675,7 @@ _G.pg.base.ship_data_template[207114] = {
 
 _G.pg.base.ship_data_template[207121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28020,
 	oil_at_end = 7,
 	energy = 150,
@@ -49725,7 +49725,7 @@ _G.pg.base.ship_data_template[207121] = {
 
 _G.pg.base.ship_data_template[207122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -49775,7 +49775,7 @@ _G.pg.base.ship_data_template[207122] = {
 
 _G.pg.base.ship_data_template[207123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -49877,7 +49877,7 @@ _G.pg.base.ship_data_template[207124] = {
 
 _G.pg.base.ship_data_template[207131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28300,
 	oil_at_end = 6,
 	energy = 150,
@@ -49925,7 +49925,7 @@ _G.pg.base.ship_data_template[207131] = {
 
 _G.pg.base.ship_data_template[207132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -49973,7 +49973,7 @@ _G.pg.base.ship_data_template[207132] = {
 
 _G.pg.base.ship_data_template[207133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -50072,7 +50072,7 @@ _G.pg.base.ship_data_template[207134] = {
 
 _G.pg.base.ship_data_template[207141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 28300,
 	oil_at_end = 7,
 	energy = 150,
@@ -50122,7 +50122,7 @@ _G.pg.base.ship_data_template[207141] = {
 
 _G.pg.base.ship_data_template[207142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -50172,7 +50172,7 @@ _G.pg.base.ship_data_template[207142] = {
 
 _G.pg.base.ship_data_template[207143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -50275,7 +50275,7 @@ _G.pg.base.ship_data_template[207144] = {
 
 _G.pg.base.ship_data_template[213011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -50319,7 +50319,7 @@ _G.pg.base.ship_data_template[213011] = {
 
 _G.pg.base.ship_data_template[213012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -50363,7 +50363,7 @@ _G.pg.base.ship_data_template[213012] = {
 
 _G.pg.base.ship_data_template[213013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -50453,7 +50453,7 @@ _G.pg.base.ship_data_template[213014] = {
 
 _G.pg.base.ship_data_template[213021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -50497,7 +50497,7 @@ _G.pg.base.ship_data_template[213021] = {
 
 _G.pg.base.ship_data_template[213022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -50541,7 +50541,7 @@ _G.pg.base.ship_data_template[213022] = {
 
 _G.pg.base.ship_data_template[213023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -50631,7 +50631,7 @@ _G.pg.base.ship_data_template[213024] = {
 
 _G.pg.base.ship_data_template[213041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -50675,7 +50675,7 @@ _G.pg.base.ship_data_template[213041] = {
 
 _G.pg.base.ship_data_template[213042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -50719,7 +50719,7 @@ _G.pg.base.ship_data_template[213042] = {
 
 _G.pg.base.ship_data_template[213043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -50809,7 +50809,7 @@ _G.pg.base.ship_data_template[213044] = {
 
 _G.pg.base.ship_data_template[301011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -50854,7 +50854,7 @@ _G.pg.base.ship_data_template[301011] = {
 
 _G.pg.base.ship_data_template[301012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -50900,7 +50900,7 @@ _G.pg.base.ship_data_template[301012] = {
 
 _G.pg.base.ship_data_template[301013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -50994,7 +50994,7 @@ _G.pg.base.ship_data_template[301014] = {
 
 _G.pg.base.ship_data_template[301021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -51041,7 +51041,7 @@ _G.pg.base.ship_data_template[301021] = {
 
 _G.pg.base.ship_data_template[301022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -51089,7 +51089,7 @@ _G.pg.base.ship_data_template[301022] = {
 
 _G.pg.base.ship_data_template[301023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -51187,7 +51187,7 @@ _G.pg.base.ship_data_template[301024] = {
 
 _G.pg.base.ship_data_template[301041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -51234,7 +51234,7 @@ _G.pg.base.ship_data_template[301041] = {
 
 _G.pg.base.ship_data_template[301042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -51282,7 +51282,7 @@ _G.pg.base.ship_data_template[301042] = {
 
 _G.pg.base.ship_data_template[301043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -51380,7 +51380,7 @@ _G.pg.base.ship_data_template[301044] = {
 
 _G.pg.base.ship_data_template[301051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -51426,7 +51426,7 @@ _G.pg.base.ship_data_template[301051] = {
 
 _G.pg.base.ship_data_template[301052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -51473,7 +51473,7 @@ _G.pg.base.ship_data_template[301052] = {
 
 _G.pg.base.ship_data_template[301053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -51569,7 +51569,7 @@ _G.pg.base.ship_data_template[301054] = {
 
 _G.pg.base.ship_data_template[301091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -51614,7 +51614,7 @@ _G.pg.base.ship_data_template[301091] = {
 
 _G.pg.base.ship_data_template[301092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -51660,7 +51660,7 @@ _G.pg.base.ship_data_template[301092] = {
 
 _G.pg.base.ship_data_template[301093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -51754,7 +51754,7 @@ _G.pg.base.ship_data_template[301094] = {
 
 _G.pg.base.ship_data_template[301101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -51801,7 +51801,7 @@ _G.pg.base.ship_data_template[301101] = {
 
 _G.pg.base.ship_data_template[301102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -51849,7 +51849,7 @@ _G.pg.base.ship_data_template[301102] = {
 
 _G.pg.base.ship_data_template[301103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -51947,7 +51947,7 @@ _G.pg.base.ship_data_template[301104] = {
 
 _G.pg.base.ship_data_template[301111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -51992,7 +51992,7 @@ _G.pg.base.ship_data_template[301111] = {
 
 _G.pg.base.ship_data_template[301112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -52038,7 +52038,7 @@ _G.pg.base.ship_data_template[301112] = {
 
 _G.pg.base.ship_data_template[301113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -52132,7 +52132,7 @@ _G.pg.base.ship_data_template[301114] = {
 
 _G.pg.base.ship_data_template[301121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -52177,7 +52177,7 @@ _G.pg.base.ship_data_template[301121] = {
 
 _G.pg.base.ship_data_template[301122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -52223,7 +52223,7 @@ _G.pg.base.ship_data_template[301122] = {
 
 _G.pg.base.ship_data_template[301123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -52317,7 +52317,7 @@ _G.pg.base.ship_data_template[301124] = {
 
 _G.pg.base.ship_data_template[301131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -52363,7 +52363,7 @@ _G.pg.base.ship_data_template[301131] = {
 
 _G.pg.base.ship_data_template[301132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -52410,7 +52410,7 @@ _G.pg.base.ship_data_template[301132] = {
 
 _G.pg.base.ship_data_template[301133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -52506,7 +52506,7 @@ _G.pg.base.ship_data_template[301134] = {
 
 _G.pg.base.ship_data_template[301141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -52552,7 +52552,7 @@ _G.pg.base.ship_data_template[301141] = {
 
 _G.pg.base.ship_data_template[301142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -52599,7 +52599,7 @@ _G.pg.base.ship_data_template[301142] = {
 
 _G.pg.base.ship_data_template[301143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -52695,7 +52695,7 @@ _G.pg.base.ship_data_template[301144] = {
 
 _G.pg.base.ship_data_template[301151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -52741,7 +52741,7 @@ _G.pg.base.ship_data_template[301151] = {
 
 _G.pg.base.ship_data_template[301152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -52788,7 +52788,7 @@ _G.pg.base.ship_data_template[301152] = {
 
 _G.pg.base.ship_data_template[301153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -52884,7 +52884,7 @@ _G.pg.base.ship_data_template[301154] = {
 
 _G.pg.base.ship_data_template[301161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -52931,7 +52931,7 @@ _G.pg.base.ship_data_template[301161] = {
 
 _G.pg.base.ship_data_template[301162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -52979,7 +52979,7 @@ _G.pg.base.ship_data_template[301162] = {
 
 _G.pg.base.ship_data_template[301163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -53077,7 +53077,7 @@ _G.pg.base.ship_data_template[301164] = {
 
 _G.pg.base.ship_data_template[301171] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -53125,7 +53125,7 @@ _G.pg.base.ship_data_template[301171] = {
 
 _G.pg.base.ship_data_template[301172] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -53174,7 +53174,7 @@ _G.pg.base.ship_data_template[301172] = {
 
 _G.pg.base.ship_data_template[301173] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -53274,7 +53274,7 @@ _G.pg.base.ship_data_template[301174] = {
 
 _G.pg.base.ship_data_template[301181] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -53320,7 +53320,7 @@ _G.pg.base.ship_data_template[301181] = {
 
 _G.pg.base.ship_data_template[301182] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -53367,7 +53367,7 @@ _G.pg.base.ship_data_template[301182] = {
 
 _G.pg.base.ship_data_template[301183] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -53463,7 +53463,7 @@ _G.pg.base.ship_data_template[301184] = {
 
 _G.pg.base.ship_data_template[301201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -53508,7 +53508,7 @@ _G.pg.base.ship_data_template[301201] = {
 
 _G.pg.base.ship_data_template[301202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -53554,7 +53554,7 @@ _G.pg.base.ship_data_template[301202] = {
 
 _G.pg.base.ship_data_template[301203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -53648,7 +53648,7 @@ _G.pg.base.ship_data_template[301204] = {
 
 _G.pg.base.ship_data_template[301211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -53694,7 +53694,7 @@ _G.pg.base.ship_data_template[301211] = {
 
 _G.pg.base.ship_data_template[301212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -53741,7 +53741,7 @@ _G.pg.base.ship_data_template[301212] = {
 
 _G.pg.base.ship_data_template[301213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -53837,7 +53837,7 @@ _G.pg.base.ship_data_template[301214] = {
 
 _G.pg.base.ship_data_template[301231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -53882,7 +53882,7 @@ _G.pg.base.ship_data_template[301231] = {
 
 _G.pg.base.ship_data_template[301232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -53928,7 +53928,7 @@ _G.pg.base.ship_data_template[301232] = {
 
 _G.pg.base.ship_data_template[301233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -54022,7 +54022,7 @@ _G.pg.base.ship_data_template[301234] = {
 
 _G.pg.base.ship_data_template[301241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -54068,7 +54068,7 @@ _G.pg.base.ship_data_template[301241] = {
 
 _G.pg.base.ship_data_template[301242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -54115,7 +54115,7 @@ _G.pg.base.ship_data_template[301242] = {
 
 _G.pg.base.ship_data_template[301243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -54211,7 +54211,7 @@ _G.pg.base.ship_data_template[301244] = {
 
 _G.pg.base.ship_data_template[301251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -54257,7 +54257,7 @@ _G.pg.base.ship_data_template[301251] = {
 
 _G.pg.base.ship_data_template[301252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -54304,7 +54304,7 @@ _G.pg.base.ship_data_template[301252] = {
 
 _G.pg.base.ship_data_template[301253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -54400,7 +54400,7 @@ _G.pg.base.ship_data_template[301254] = {
 
 _G.pg.base.ship_data_template[301261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -54446,7 +54446,7 @@ _G.pg.base.ship_data_template[301261] = {
 
 _G.pg.base.ship_data_template[301262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -54493,7 +54493,7 @@ _G.pg.base.ship_data_template[301262] = {
 
 _G.pg.base.ship_data_template[301263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -54589,7 +54589,7 @@ _G.pg.base.ship_data_template[301264] = {
 
 _G.pg.base.ship_data_template[301271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -54636,7 +54636,7 @@ _G.pg.base.ship_data_template[301271] = {
 
 _G.pg.base.ship_data_template[301272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -54684,7 +54684,7 @@ _G.pg.base.ship_data_template[301272] = {
 
 _G.pg.base.ship_data_template[301273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -54782,7 +54782,7 @@ _G.pg.base.ship_data_template[301274] = {
 
 _G.pg.base.ship_data_template[301281] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -54829,7 +54829,7 @@ _G.pg.base.ship_data_template[301281] = {
 
 _G.pg.base.ship_data_template[301282] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -54877,7 +54877,7 @@ _G.pg.base.ship_data_template[301282] = {
 
 _G.pg.base.ship_data_template[301283] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -55176,7 +55176,7 @@ _G.pg.base.ship_data_template[301294] = {
 
 _G.pg.base.ship_data_template[301301] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -55222,7 +55222,7 @@ _G.pg.base.ship_data_template[301301] = {
 
 _G.pg.base.ship_data_template[301302] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -55269,7 +55269,7 @@ _G.pg.base.ship_data_template[301302] = {
 
 _G.pg.base.ship_data_template[301303] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -55365,7 +55365,7 @@ _G.pg.base.ship_data_template[301304] = {
 
 _G.pg.base.ship_data_template[301311] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -55411,7 +55411,7 @@ _G.pg.base.ship_data_template[301311] = {
 
 _G.pg.base.ship_data_template[301312] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -55458,7 +55458,7 @@ _G.pg.base.ship_data_template[301312] = {
 
 _G.pg.base.ship_data_template[301313] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -55554,7 +55554,7 @@ _G.pg.base.ship_data_template[301314] = {
 
 _G.pg.base.ship_data_template[301321] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -55600,7 +55600,7 @@ _G.pg.base.ship_data_template[301321] = {
 
 _G.pg.base.ship_data_template[301322] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -55647,7 +55647,7 @@ _G.pg.base.ship_data_template[301322] = {
 
 _G.pg.base.ship_data_template[301323] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -55743,7 +55743,7 @@ _G.pg.base.ship_data_template[301324] = {
 
 _G.pg.base.ship_data_template[301331] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -55789,7 +55789,7 @@ _G.pg.base.ship_data_template[301331] = {
 
 _G.pg.base.ship_data_template[301332] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -55836,7 +55836,7 @@ _G.pg.base.ship_data_template[301332] = {
 
 _G.pg.base.ship_data_template[301333] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -55932,7 +55932,7 @@ _G.pg.base.ship_data_template[301334] = {
 
 _G.pg.base.ship_data_template[301351] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -55977,7 +55977,7 @@ _G.pg.base.ship_data_template[301351] = {
 
 _G.pg.base.ship_data_template[301352] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -56023,7 +56023,7 @@ _G.pg.base.ship_data_template[301352] = {
 
 _G.pg.base.ship_data_template[301353] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -56117,7 +56117,7 @@ _G.pg.base.ship_data_template[301354] = {
 
 _G.pg.base.ship_data_template[301371] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -56162,7 +56162,7 @@ _G.pg.base.ship_data_template[301371] = {
 
 _G.pg.base.ship_data_template[301372] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -56208,7 +56208,7 @@ _G.pg.base.ship_data_template[301372] = {
 
 _G.pg.base.ship_data_template[301373] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -56302,7 +56302,7 @@ _G.pg.base.ship_data_template[301374] = {
 
 _G.pg.base.ship_data_template[301381] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -56347,7 +56347,7 @@ _G.pg.base.ship_data_template[301381] = {
 
 _G.pg.base.ship_data_template[301382] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -56393,7 +56393,7 @@ _G.pg.base.ship_data_template[301382] = {
 
 _G.pg.base.ship_data_template[301383] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -56487,7 +56487,7 @@ _G.pg.base.ship_data_template[301384] = {
 
 _G.pg.base.ship_data_template[301391] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -56532,7 +56532,7 @@ _G.pg.base.ship_data_template[301391] = {
 
 _G.pg.base.ship_data_template[301392] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -56578,7 +56578,7 @@ _G.pg.base.ship_data_template[301392] = {
 
 _G.pg.base.ship_data_template[301393] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -56672,7 +56672,7 @@ _G.pg.base.ship_data_template[301394] = {
 
 _G.pg.base.ship_data_template[301411] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -56717,7 +56717,7 @@ _G.pg.base.ship_data_template[301411] = {
 
 _G.pg.base.ship_data_template[301412] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -56763,7 +56763,7 @@ _G.pg.base.ship_data_template[301412] = {
 
 _G.pg.base.ship_data_template[301413] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -56857,7 +56857,7 @@ _G.pg.base.ship_data_template[301414] = {
 
 _G.pg.base.ship_data_template[301471] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -56904,7 +56904,7 @@ _G.pg.base.ship_data_template[301471] = {
 
 _G.pg.base.ship_data_template[301472] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -56952,7 +56952,7 @@ _G.pg.base.ship_data_template[301472] = {
 
 _G.pg.base.ship_data_template[301473] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -57050,7 +57050,7 @@ _G.pg.base.ship_data_template[301474] = {
 
 _G.pg.base.ship_data_template[301481] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -57097,7 +57097,7 @@ _G.pg.base.ship_data_template[301481] = {
 
 _G.pg.base.ship_data_template[301482] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -57145,7 +57145,7 @@ _G.pg.base.ship_data_template[301482] = {
 
 _G.pg.base.ship_data_template[301483] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -57243,7 +57243,7 @@ _G.pg.base.ship_data_template[301484] = {
 
 _G.pg.base.ship_data_template[301491] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -57290,7 +57290,7 @@ _G.pg.base.ship_data_template[301491] = {
 
 _G.pg.base.ship_data_template[301492] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -57338,7 +57338,7 @@ _G.pg.base.ship_data_template[301492] = {
 
 _G.pg.base.ship_data_template[301493] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -57486,7 +57486,7 @@ _G.pg.base.ship_data_template[301534] = {
 
 _G.pg.base.ship_data_template[301541] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -57533,7 +57533,7 @@ _G.pg.base.ship_data_template[301541] = {
 
 _G.pg.base.ship_data_template[301542] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -57581,7 +57581,7 @@ _G.pg.base.ship_data_template[301542] = {
 
 _G.pg.base.ship_data_template[301543] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -57679,7 +57679,7 @@ _G.pg.base.ship_data_template[301544] = {
 
 _G.pg.base.ship_data_template[301561] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -57726,7 +57726,7 @@ _G.pg.base.ship_data_template[301561] = {
 
 _G.pg.base.ship_data_template[301562] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -57774,7 +57774,7 @@ _G.pg.base.ship_data_template[301562] = {
 
 _G.pg.base.ship_data_template[301563] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -57872,7 +57872,7 @@ _G.pg.base.ship_data_template[301564] = {
 
 _G.pg.base.ship_data_template[301571] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -57917,7 +57917,7 @@ _G.pg.base.ship_data_template[301571] = {
 
 _G.pg.base.ship_data_template[301572] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -57963,7 +57963,7 @@ _G.pg.base.ship_data_template[301572] = {
 
 _G.pg.base.ship_data_template[301573] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -58057,7 +58057,7 @@ _G.pg.base.ship_data_template[301574] = {
 
 _G.pg.base.ship_data_template[301581] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -58102,7 +58102,7 @@ _G.pg.base.ship_data_template[301581] = {
 
 _G.pg.base.ship_data_template[301582] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -58148,7 +58148,7 @@ _G.pg.base.ship_data_template[301582] = {
 
 _G.pg.base.ship_data_template[301583] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -58242,7 +58242,7 @@ _G.pg.base.ship_data_template[301584] = {
 
 _G.pg.base.ship_data_template[301591] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -58287,7 +58287,7 @@ _G.pg.base.ship_data_template[301591] = {
 
 _G.pg.base.ship_data_template[301592] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -58333,7 +58333,7 @@ _G.pg.base.ship_data_template[301592] = {
 
 _G.pg.base.ship_data_template[301593] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -58427,7 +58427,7 @@ _G.pg.base.ship_data_template[301594] = {
 
 _G.pg.base.ship_data_template[301601] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -58472,7 +58472,7 @@ _G.pg.base.ship_data_template[301601] = {
 
 _G.pg.base.ship_data_template[301602] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -58518,7 +58518,7 @@ _G.pg.base.ship_data_template[301602] = {
 
 _G.pg.base.ship_data_template[301603] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -58612,7 +58612,7 @@ _G.pg.base.ship_data_template[301604] = {
 
 _G.pg.base.ship_data_template[301611] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -58658,7 +58658,7 @@ _G.pg.base.ship_data_template[301611] = {
 
 _G.pg.base.ship_data_template[301612] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -58705,7 +58705,7 @@ _G.pg.base.ship_data_template[301612] = {
 
 _G.pg.base.ship_data_template[301613] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -58801,7 +58801,7 @@ _G.pg.base.ship_data_template[301614] = {
 
 _G.pg.base.ship_data_template[301621] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -58847,7 +58847,7 @@ _G.pg.base.ship_data_template[301621] = {
 
 _G.pg.base.ship_data_template[301622] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -58894,7 +58894,7 @@ _G.pg.base.ship_data_template[301622] = {
 
 _G.pg.base.ship_data_template[301623] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -58990,7 +58990,7 @@ _G.pg.base.ship_data_template[301624] = {
 
 _G.pg.base.ship_data_template[301631] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -59037,7 +59037,7 @@ _G.pg.base.ship_data_template[301631] = {
 
 _G.pg.base.ship_data_template[301632] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -59085,7 +59085,7 @@ _G.pg.base.ship_data_template[301632] = {
 
 _G.pg.base.ship_data_template[301633] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -59183,7 +59183,7 @@ _G.pg.base.ship_data_template[301634] = {
 
 _G.pg.base.ship_data_template[301641] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -59228,7 +59228,7 @@ _G.pg.base.ship_data_template[301641] = {
 
 _G.pg.base.ship_data_template[301642] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -59274,7 +59274,7 @@ _G.pg.base.ship_data_template[301642] = {
 
 _G.pg.base.ship_data_template[301643] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -59368,7 +59368,7 @@ _G.pg.base.ship_data_template[301644] = {
 
 _G.pg.base.ship_data_template[301651] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -59413,7 +59413,7 @@ _G.pg.base.ship_data_template[301651] = {
 
 _G.pg.base.ship_data_template[301652] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -59459,7 +59459,7 @@ _G.pg.base.ship_data_template[301652] = {
 
 _G.pg.base.ship_data_template[301653] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -59553,7 +59553,7 @@ _G.pg.base.ship_data_template[301654] = {
 
 _G.pg.base.ship_data_template[301661] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -59598,7 +59598,7 @@ _G.pg.base.ship_data_template[301661] = {
 
 _G.pg.base.ship_data_template[301662] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -59644,7 +59644,7 @@ _G.pg.base.ship_data_template[301662] = {
 
 _G.pg.base.ship_data_template[301663] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -59738,7 +59738,7 @@ _G.pg.base.ship_data_template[301664] = {
 
 _G.pg.base.ship_data_template[301721] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -59785,7 +59785,7 @@ _G.pg.base.ship_data_template[301721] = {
 
 _G.pg.base.ship_data_template[301722] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -59833,7 +59833,7 @@ _G.pg.base.ship_data_template[301722] = {
 
 _G.pg.base.ship_data_template[301723] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -59931,7 +59931,7 @@ _G.pg.base.ship_data_template[301724] = {
 
 _G.pg.base.ship_data_template[301791] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -59976,7 +59976,7 @@ _G.pg.base.ship_data_template[301791] = {
 
 _G.pg.base.ship_data_template[301792] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -60022,7 +60022,7 @@ _G.pg.base.ship_data_template[301792] = {
 
 _G.pg.base.ship_data_template[301793] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -60116,7 +60116,7 @@ _G.pg.base.ship_data_template[301794] = {
 
 _G.pg.base.ship_data_template[301801] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -60163,7 +60163,7 @@ _G.pg.base.ship_data_template[301801] = {
 
 _G.pg.base.ship_data_template[301802] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -60211,7 +60211,7 @@ _G.pg.base.ship_data_template[301802] = {
 
 _G.pg.base.ship_data_template[301803] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -60309,7 +60309,7 @@ _G.pg.base.ship_data_template[301804] = {
 
 _G.pg.base.ship_data_template[301811] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -60356,7 +60356,7 @@ _G.pg.base.ship_data_template[301811] = {
 
 _G.pg.base.ship_data_template[301812] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -60404,7 +60404,7 @@ _G.pg.base.ship_data_template[301812] = {
 
 _G.pg.base.ship_data_template[301813] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -60502,7 +60502,7 @@ _G.pg.base.ship_data_template[301814] = {
 
 _G.pg.base.ship_data_template[301821] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -60547,7 +60547,7 @@ _G.pg.base.ship_data_template[301821] = {
 
 _G.pg.base.ship_data_template[301822] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -60593,7 +60593,7 @@ _G.pg.base.ship_data_template[301822] = {
 
 _G.pg.base.ship_data_template[301823] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -60687,7 +60687,7 @@ _G.pg.base.ship_data_template[301824] = {
 
 _G.pg.base.ship_data_template[301831] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -60734,7 +60734,7 @@ _G.pg.base.ship_data_template[301831] = {
 
 _G.pg.base.ship_data_template[301832] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -60782,7 +60782,7 @@ _G.pg.base.ship_data_template[301832] = {
 
 _G.pg.base.ship_data_template[301833] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -60880,7 +60880,7 @@ _G.pg.base.ship_data_template[301834] = {
 
 _G.pg.base.ship_data_template[301841] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -60927,7 +60927,7 @@ _G.pg.base.ship_data_template[301841] = {
 
 _G.pg.base.ship_data_template[301842] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -60975,7 +60975,7 @@ _G.pg.base.ship_data_template[301842] = {
 
 _G.pg.base.ship_data_template[301843] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -61073,7 +61073,7 @@ _G.pg.base.ship_data_template[301844] = {
 
 _G.pg.base.ship_data_template[301851] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -61118,7 +61118,7 @@ _G.pg.base.ship_data_template[301851] = {
 
 _G.pg.base.ship_data_template[301852] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -61164,7 +61164,7 @@ _G.pg.base.ship_data_template[301852] = {
 
 _G.pg.base.ship_data_template[301853] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -61258,7 +61258,7 @@ _G.pg.base.ship_data_template[301854] = {
 
 _G.pg.base.ship_data_template[301861] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -61305,7 +61305,7 @@ _G.pg.base.ship_data_template[301861] = {
 
 _G.pg.base.ship_data_template[301862] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -61353,7 +61353,7 @@ _G.pg.base.ship_data_template[301862] = {
 
 _G.pg.base.ship_data_template[301863] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -61500,7 +61500,7 @@ _G.pg.base.ship_data_template[301874] = {
 
 _G.pg.base.ship_data_template[301881] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -61547,7 +61547,7 @@ _G.pg.base.ship_data_template[301881] = {
 
 _G.pg.base.ship_data_template[301882] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -61595,7 +61595,7 @@ _G.pg.base.ship_data_template[301882] = {
 
 _G.pg.base.ship_data_template[301883] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -61693,7 +61693,7 @@ _G.pg.base.ship_data_template[301884] = {
 
 _G.pg.base.ship_data_template[301891] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -61740,7 +61740,7 @@ _G.pg.base.ship_data_template[301891] = {
 
 _G.pg.base.ship_data_template[301892] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -61788,7 +61788,7 @@ _G.pg.base.ship_data_template[301892] = {
 
 _G.pg.base.ship_data_template[301893] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -61886,7 +61886,7 @@ _G.pg.base.ship_data_template[301894] = {
 
 _G.pg.base.ship_data_template[301901] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -61933,7 +61933,7 @@ _G.pg.base.ship_data_template[301901] = {
 
 _G.pg.base.ship_data_template[301902] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -61981,7 +61981,7 @@ _G.pg.base.ship_data_template[301902] = {
 
 _G.pg.base.ship_data_template[301903] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -62079,7 +62079,7 @@ _G.pg.base.ship_data_template[301904] = {
 
 _G.pg.base.ship_data_template[301911] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -62126,7 +62126,7 @@ _G.pg.base.ship_data_template[301911] = {
 
 _G.pg.base.ship_data_template[301912] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -62174,7 +62174,7 @@ _G.pg.base.ship_data_template[301912] = {
 
 _G.pg.base.ship_data_template[301913] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -62272,7 +62272,7 @@ _G.pg.base.ship_data_template[301914] = {
 
 _G.pg.base.ship_data_template[301921] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -62319,7 +62319,7 @@ _G.pg.base.ship_data_template[301921] = {
 
 _G.pg.base.ship_data_template[301922] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -62367,7 +62367,7 @@ _G.pg.base.ship_data_template[301922] = {
 
 _G.pg.base.ship_data_template[301923] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -62514,7 +62514,7 @@ _G.pg.base.ship_data_template[301934] = {
 
 _G.pg.base.ship_data_template[302011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -62562,7 +62562,7 @@ _G.pg.base.ship_data_template[302011] = {
 
 _G.pg.base.ship_data_template[302012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -62611,7 +62611,7 @@ _G.pg.base.ship_data_template[302012] = {
 
 _G.pg.base.ship_data_template[302013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -62709,7 +62709,7 @@ _G.pg.base.ship_data_template[302014] = {
 
 _G.pg.base.ship_data_template[302041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -62754,7 +62754,7 @@ _G.pg.base.ship_data_template[302041] = {
 
 _G.pg.base.ship_data_template[302042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -62800,7 +62800,7 @@ _G.pg.base.ship_data_template[302042] = {
 
 _G.pg.base.ship_data_template[302043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -62892,7 +62892,7 @@ _G.pg.base.ship_data_template[302044] = {
 
 _G.pg.base.ship_data_template[302051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -62938,7 +62938,7 @@ _G.pg.base.ship_data_template[302051] = {
 
 _G.pg.base.ship_data_template[302052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -62985,7 +62985,7 @@ _G.pg.base.ship_data_template[302052] = {
 
 _G.pg.base.ship_data_template[302053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -63081,7 +63081,7 @@ _G.pg.base.ship_data_template[302054] = {
 
 _G.pg.base.ship_data_template[302061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -63128,7 +63128,7 @@ _G.pg.base.ship_data_template[302061] = {
 
 _G.pg.base.ship_data_template[302062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -63176,7 +63176,7 @@ _G.pg.base.ship_data_template[302062] = {
 
 _G.pg.base.ship_data_template[302063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -63272,7 +63272,7 @@ _G.pg.base.ship_data_template[302064] = {
 
 _G.pg.base.ship_data_template[302071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -63319,7 +63319,7 @@ _G.pg.base.ship_data_template[302071] = {
 
 _G.pg.base.ship_data_template[302072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -63367,7 +63367,7 @@ _G.pg.base.ship_data_template[302072] = {
 
 _G.pg.base.ship_data_template[302073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -63463,7 +63463,7 @@ _G.pg.base.ship_data_template[302074] = {
 
 _G.pg.base.ship_data_template[302081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -63509,7 +63509,7 @@ _G.pg.base.ship_data_template[302081] = {
 
 _G.pg.base.ship_data_template[302082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -63556,7 +63556,7 @@ _G.pg.base.ship_data_template[302082] = {
 
 _G.pg.base.ship_data_template[302083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -63650,7 +63650,7 @@ _G.pg.base.ship_data_template[302084] = {
 
 _G.pg.base.ship_data_template[302091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -63696,7 +63696,7 @@ _G.pg.base.ship_data_template[302091] = {
 
 _G.pg.base.ship_data_template[302092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -63743,7 +63743,7 @@ _G.pg.base.ship_data_template[302092] = {
 
 _G.pg.base.ship_data_template[302093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -63837,7 +63837,7 @@ _G.pg.base.ship_data_template[302094] = {
 
 _G.pg.base.ship_data_template[302101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -63885,7 +63885,7 @@ _G.pg.base.ship_data_template[302101] = {
 
 _G.pg.base.ship_data_template[302102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -63934,7 +63934,7 @@ _G.pg.base.ship_data_template[302102] = {
 
 _G.pg.base.ship_data_template[302103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -64032,7 +64032,7 @@ _G.pg.base.ship_data_template[302104] = {
 
 _G.pg.base.ship_data_template[302111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -64079,7 +64079,7 @@ _G.pg.base.ship_data_template[302111] = {
 
 _G.pg.base.ship_data_template[302112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -64127,7 +64127,7 @@ _G.pg.base.ship_data_template[302112] = {
 
 _G.pg.base.ship_data_template[302113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -64223,7 +64223,7 @@ _G.pg.base.ship_data_template[302114] = {
 
 _G.pg.base.ship_data_template[302121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -64269,7 +64269,7 @@ _G.pg.base.ship_data_template[302121] = {
 
 _G.pg.base.ship_data_template[302122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -64316,7 +64316,7 @@ _G.pg.base.ship_data_template[302122] = {
 
 _G.pg.base.ship_data_template[302123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -64410,7 +64410,7 @@ _G.pg.base.ship_data_template[302124] = {
 
 _G.pg.base.ship_data_template[302131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -64456,7 +64456,7 @@ _G.pg.base.ship_data_template[302131] = {
 
 _G.pg.base.ship_data_template[302132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -64503,7 +64503,7 @@ _G.pg.base.ship_data_template[302132] = {
 
 _G.pg.base.ship_data_template[302133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -64597,7 +64597,7 @@ _G.pg.base.ship_data_template[302134] = {
 
 _G.pg.base.ship_data_template[302141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -64642,7 +64642,7 @@ _G.pg.base.ship_data_template[302141] = {
 
 _G.pg.base.ship_data_template[302142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -64688,7 +64688,7 @@ _G.pg.base.ship_data_template[302142] = {
 
 _G.pg.base.ship_data_template[302143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -64780,7 +64780,7 @@ _G.pg.base.ship_data_template[302144] = {
 
 _G.pg.base.ship_data_template[302261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -64827,7 +64827,7 @@ _G.pg.base.ship_data_template[302261] = {
 
 _G.pg.base.ship_data_template[302262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -64875,7 +64875,7 @@ _G.pg.base.ship_data_template[302262] = {
 
 _G.pg.base.ship_data_template[302263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -64971,7 +64971,7 @@ _G.pg.base.ship_data_template[302264] = {
 
 _G.pg.base.ship_data_template[302271] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -65018,7 +65018,7 @@ _G.pg.base.ship_data_template[302271] = {
 
 _G.pg.base.ship_data_template[302272] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -65066,7 +65066,7 @@ _G.pg.base.ship_data_template[302272] = {
 
 _G.pg.base.ship_data_template[302273] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -65162,7 +65162,7 @@ _G.pg.base.ship_data_template[302274] = {
 
 _G.pg.base.ship_data_template[302201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -65209,7 +65209,7 @@ _G.pg.base.ship_data_template[302201] = {
 
 _G.pg.base.ship_data_template[302202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -65257,7 +65257,7 @@ _G.pg.base.ship_data_template[302202] = {
 
 _G.pg.base.ship_data_template[302203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -65353,7 +65353,7 @@ _G.pg.base.ship_data_template[302204] = {
 
 _G.pg.base.ship_data_template[302211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -65400,7 +65400,7 @@ _G.pg.base.ship_data_template[302211] = {
 
 _G.pg.base.ship_data_template[302212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -65448,7 +65448,7 @@ _G.pg.base.ship_data_template[302212] = {
 
 _G.pg.base.ship_data_template[302213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -65544,7 +65544,7 @@ _G.pg.base.ship_data_template[302214] = {
 
 _G.pg.base.ship_data_template[302231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -65591,7 +65591,7 @@ _G.pg.base.ship_data_template[302231] = {
 
 _G.pg.base.ship_data_template[302232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -65639,7 +65639,7 @@ _G.pg.base.ship_data_template[302232] = {
 
 _G.pg.base.ship_data_template[302233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -65735,7 +65735,7 @@ _G.pg.base.ship_data_template[302234] = {
 
 _G.pg.base.ship_data_template[302241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -65782,7 +65782,7 @@ _G.pg.base.ship_data_template[302241] = {
 
 _G.pg.base.ship_data_template[302242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -65830,7 +65830,7 @@ _G.pg.base.ship_data_template[302242] = {
 
 _G.pg.base.ship_data_template[302243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -65926,7 +65926,7 @@ _G.pg.base.ship_data_template[302244] = {
 
 _G.pg.base.ship_data_template[302251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -65973,7 +65973,7 @@ _G.pg.base.ship_data_template[302251] = {
 
 _G.pg.base.ship_data_template[302252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -66021,7 +66021,7 @@ _G.pg.base.ship_data_template[302252] = {
 
 _G.pg.base.ship_data_template[302253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -66117,7 +66117,7 @@ _G.pg.base.ship_data_template[302254] = {
 
 _G.pg.base.ship_data_template[303011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -66161,7 +66161,7 @@ _G.pg.base.ship_data_template[303011] = {
 
 _G.pg.base.ship_data_template[303012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -66206,7 +66206,7 @@ _G.pg.base.ship_data_template[303012] = {
 
 _G.pg.base.ship_data_template[303013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -66296,7 +66296,7 @@ _G.pg.base.ship_data_template[303014] = {
 
 _G.pg.base.ship_data_template[303021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -66340,7 +66340,7 @@ _G.pg.base.ship_data_template[303021] = {
 
 _G.pg.base.ship_data_template[303022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -66385,7 +66385,7 @@ _G.pg.base.ship_data_template[303022] = {
 
 _G.pg.base.ship_data_template[303023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -66475,7 +66475,7 @@ _G.pg.base.ship_data_template[303024] = {
 
 _G.pg.base.ship_data_template[303031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -66518,7 +66518,7 @@ _G.pg.base.ship_data_template[303031] = {
 
 _G.pg.base.ship_data_template[303032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -66562,7 +66562,7 @@ _G.pg.base.ship_data_template[303032] = {
 
 _G.pg.base.ship_data_template[303033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -66650,7 +66650,7 @@ _G.pg.base.ship_data_template[303034] = {
 
 _G.pg.base.ship_data_template[303041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -66693,7 +66693,7 @@ _G.pg.base.ship_data_template[303041] = {
 
 _G.pg.base.ship_data_template[303042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -66737,7 +66737,7 @@ _G.pg.base.ship_data_template[303042] = {
 
 _G.pg.base.ship_data_template[303043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -66825,7 +66825,7 @@ _G.pg.base.ship_data_template[303044] = {
 
 _G.pg.base.ship_data_template[303061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -66870,7 +66870,7 @@ _G.pg.base.ship_data_template[303061] = {
 
 _G.pg.base.ship_data_template[303062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -66916,7 +66916,7 @@ _G.pg.base.ship_data_template[303062] = {
 
 _G.pg.base.ship_data_template[303063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -67008,7 +67008,7 @@ _G.pg.base.ship_data_template[303064] = {
 
 _G.pg.base.ship_data_template[303071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -67051,7 +67051,7 @@ _G.pg.base.ship_data_template[303071] = {
 
 _G.pg.base.ship_data_template[303072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -67095,7 +67095,7 @@ _G.pg.base.ship_data_template[303072] = {
 
 _G.pg.base.ship_data_template[303073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -67183,7 +67183,7 @@ _G.pg.base.ship_data_template[303074] = {
 
 _G.pg.base.ship_data_template[303081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -67227,7 +67227,7 @@ _G.pg.base.ship_data_template[303081] = {
 
 _G.pg.base.ship_data_template[303082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -67272,7 +67272,7 @@ _G.pg.base.ship_data_template[303082] = {
 
 _G.pg.base.ship_data_template[303083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -67362,7 +67362,7 @@ _G.pg.base.ship_data_template[303084] = {
 
 _G.pg.base.ship_data_template[303091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -67405,7 +67405,7 @@ _G.pg.base.ship_data_template[303091] = {
 
 _G.pg.base.ship_data_template[303092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -67449,7 +67449,7 @@ _G.pg.base.ship_data_template[303092] = {
 
 _G.pg.base.ship_data_template[303093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -67537,7 +67537,7 @@ _G.pg.base.ship_data_template[303094] = {
 
 _G.pg.base.ship_data_template[303101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -67582,7 +67582,7 @@ _G.pg.base.ship_data_template[303101] = {
 
 _G.pg.base.ship_data_template[303102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -67628,7 +67628,7 @@ _G.pg.base.ship_data_template[303102] = {
 
 _G.pg.base.ship_data_template[303103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -67720,7 +67720,7 @@ _G.pg.base.ship_data_template[303104] = {
 
 _G.pg.base.ship_data_template[303111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -67765,7 +67765,7 @@ _G.pg.base.ship_data_template[303111] = {
 
 _G.pg.base.ship_data_template[303112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -67811,7 +67811,7 @@ _G.pg.base.ship_data_template[303112] = {
 
 _G.pg.base.ship_data_template[303113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -67903,7 +67903,7 @@ _G.pg.base.ship_data_template[303114] = {
 
 _G.pg.base.ship_data_template[303121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -67948,7 +67948,7 @@ _G.pg.base.ship_data_template[303121] = {
 
 _G.pg.base.ship_data_template[303122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -67994,7 +67994,7 @@ _G.pg.base.ship_data_template[303122] = {
 
 _G.pg.base.ship_data_template[303123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -68086,7 +68086,7 @@ _G.pg.base.ship_data_template[303124] = {
 
 _G.pg.base.ship_data_template[303131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -68129,7 +68129,7 @@ _G.pg.base.ship_data_template[303131] = {
 
 _G.pg.base.ship_data_template[303132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -68173,7 +68173,7 @@ _G.pg.base.ship_data_template[303132] = {
 
 _G.pg.base.ship_data_template[303133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -68261,7 +68261,7 @@ _G.pg.base.ship_data_template[303134] = {
 
 _G.pg.base.ship_data_template[303141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -68306,7 +68306,7 @@ _G.pg.base.ship_data_template[303141] = {
 
 _G.pg.base.ship_data_template[303142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -68352,7 +68352,7 @@ _G.pg.base.ship_data_template[303142] = {
 
 _G.pg.base.ship_data_template[303143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -68491,7 +68491,7 @@ _G.pg.base.ship_data_template[303154] = {
 
 _G.pg.base.ship_data_template[303171] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -68537,7 +68537,7 @@ _G.pg.base.ship_data_template[303171] = {
 
 _G.pg.base.ship_data_template[303172] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -68584,7 +68584,7 @@ _G.pg.base.ship_data_template[303172] = {
 
 _G.pg.base.ship_data_template[303173] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -68678,7 +68678,7 @@ _G.pg.base.ship_data_template[303174] = {
 
 _G.pg.base.ship_data_template[303181] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -68724,7 +68724,7 @@ _G.pg.base.ship_data_template[303181] = {
 
 _G.pg.base.ship_data_template[303182] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -68771,7 +68771,7 @@ _G.pg.base.ship_data_template[303182] = {
 
 _G.pg.base.ship_data_template[303183] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -69048,7 +69048,7 @@ _G.pg.base.ship_data_template[303194] = {
 
 _G.pg.base.ship_data_template[303201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -69093,7 +69093,7 @@ _G.pg.base.ship_data_template[303201] = {
 
 _G.pg.base.ship_data_template[303202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -69139,7 +69139,7 @@ _G.pg.base.ship_data_template[303202] = {
 
 _G.pg.base.ship_data_template[303203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -69231,7 +69231,7 @@ _G.pg.base.ship_data_template[303204] = {
 
 _G.pg.base.ship_data_template[304011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -69277,7 +69277,7 @@ _G.pg.base.ship_data_template[304011] = {
 
 _G.pg.base.ship_data_template[304012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -69324,7 +69324,7 @@ _G.pg.base.ship_data_template[304012] = {
 
 _G.pg.base.ship_data_template[304013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -69418,7 +69418,7 @@ _G.pg.base.ship_data_template[304014] = {
 
 _G.pg.base.ship_data_template[304021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -69464,7 +69464,7 @@ _G.pg.base.ship_data_template[304021] = {
 
 _G.pg.base.ship_data_template[304022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -69511,7 +69511,7 @@ _G.pg.base.ship_data_template[304022] = {
 
 _G.pg.base.ship_data_template[304023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -69605,7 +69605,7 @@ _G.pg.base.ship_data_template[304024] = {
 
 _G.pg.base.ship_data_template[304031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -69651,7 +69651,7 @@ _G.pg.base.ship_data_template[304031] = {
 
 _G.pg.base.ship_data_template[304032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -69698,7 +69698,7 @@ _G.pg.base.ship_data_template[304032] = {
 
 _G.pg.base.ship_data_template[304033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -69792,7 +69792,7 @@ _G.pg.base.ship_data_template[304034] = {
 
 _G.pg.base.ship_data_template[304041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -69838,7 +69838,7 @@ _G.pg.base.ship_data_template[304041] = {
 
 _G.pg.base.ship_data_template[304042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -69885,7 +69885,7 @@ _G.pg.base.ship_data_template[304042] = {
 
 _G.pg.base.ship_data_template[304043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -69979,7 +69979,7 @@ _G.pg.base.ship_data_template[304044] = {
 
 _G.pg.base.ship_data_template[304051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -70029,7 +70029,7 @@ _G.pg.base.ship_data_template[304051] = {
 
 _G.pg.base.ship_data_template[304052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -70080,7 +70080,7 @@ _G.pg.base.ship_data_template[304052] = {
 
 _G.pg.base.ship_data_template[304053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -70182,7 +70182,7 @@ _G.pg.base.ship_data_template[304054] = {
 
 _G.pg.base.ship_data_template[304061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -70230,7 +70230,7 @@ _G.pg.base.ship_data_template[304061] = {
 
 _G.pg.base.ship_data_template[304062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -70279,7 +70279,7 @@ _G.pg.base.ship_data_template[304062] = {
 
 _G.pg.base.ship_data_template[304063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -70377,7 +70377,7 @@ _G.pg.base.ship_data_template[304064] = {
 
 _G.pg.base.ship_data_template[304071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -70425,7 +70425,7 @@ _G.pg.base.ship_data_template[304071] = {
 
 _G.pg.base.ship_data_template[304072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -70474,7 +70474,7 @@ _G.pg.base.ship_data_template[304072] = {
 
 _G.pg.base.ship_data_template[304073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -70572,7 +70572,7 @@ _G.pg.base.ship_data_template[304074] = {
 
 _G.pg.base.ship_data_template[304081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36500,
 	oil_at_end = 8,
 	energy = 150,
@@ -70620,7 +70620,7 @@ _G.pg.base.ship_data_template[304081] = {
 
 _G.pg.base.ship_data_template[304082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -70669,7 +70669,7 @@ _G.pg.base.ship_data_template[304082] = {
 
 _G.pg.base.ship_data_template[304083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -70767,7 +70767,7 @@ _G.pg.base.ship_data_template[304084] = {
 
 _G.pg.base.ship_data_template[305011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36300,
 	oil_at_end = 7,
 	energy = 150,
@@ -70814,7 +70814,7 @@ _G.pg.base.ship_data_template[305011] = {
 
 _G.pg.base.ship_data_template[305012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -70862,7 +70862,7 @@ _G.pg.base.ship_data_template[305012] = {
 
 _G.pg.base.ship_data_template[305013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -70958,7 +70958,7 @@ _G.pg.base.ship_data_template[305014] = {
 
 _G.pg.base.ship_data_template[305021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36300,
 	oil_at_end = 7,
 	energy = 150,
@@ -71005,7 +71005,7 @@ _G.pg.base.ship_data_template[305021] = {
 
 _G.pg.base.ship_data_template[305022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -71053,7 +71053,7 @@ _G.pg.base.ship_data_template[305022] = {
 
 _G.pg.base.ship_data_template[305023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -71149,7 +71149,7 @@ _G.pg.base.ship_data_template[305024] = {
 
 _G.pg.base.ship_data_template[305031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36300,
 	oil_at_end = 7,
 	energy = 150,
@@ -71196,7 +71196,7 @@ _G.pg.base.ship_data_template[305031] = {
 
 _G.pg.base.ship_data_template[305032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -71244,7 +71244,7 @@ _G.pg.base.ship_data_template[305032] = {
 
 _G.pg.base.ship_data_template[305033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -71340,7 +71340,7 @@ _G.pg.base.ship_data_template[305034] = {
 
 _G.pg.base.ship_data_template[305041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36300,
 	oil_at_end = 7,
 	energy = 150,
@@ -71389,7 +71389,7 @@ _G.pg.base.ship_data_template[305041] = {
 
 _G.pg.base.ship_data_template[305042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -71439,7 +71439,7 @@ _G.pg.base.ship_data_template[305042] = {
 
 _G.pg.base.ship_data_template[305043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -71539,7 +71539,7 @@ _G.pg.base.ship_data_template[305044] = {
 
 _G.pg.base.ship_data_template[305051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36200,
 	oil_at_end = 9,
 	energy = 150,
@@ -71587,7 +71587,7 @@ _G.pg.base.ship_data_template[305051] = {
 
 _G.pg.base.ship_data_template[305052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -71636,7 +71636,7 @@ _G.pg.base.ship_data_template[305052] = {
 
 _G.pg.base.ship_data_template[305053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -71734,7 +71734,7 @@ _G.pg.base.ship_data_template[305054] = {
 
 _G.pg.base.ship_data_template[305061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 36200,
 	oil_at_end = 8,
 	energy = 150,
@@ -71780,7 +71780,7 @@ _G.pg.base.ship_data_template[305061] = {
 
 _G.pg.base.ship_data_template[305062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -71827,7 +71827,7 @@ _G.pg.base.ship_data_template[305062] = {
 
 _G.pg.base.ship_data_template[305063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -71921,7 +71921,7 @@ _G.pg.base.ship_data_template[305064] = {
 
 _G.pg.base.ship_data_template[305071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -71969,7 +71969,7 @@ _G.pg.base.ship_data_template[305071] = {
 
 _G.pg.base.ship_data_template[305072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -72018,7 +72018,7 @@ _G.pg.base.ship_data_template[305072] = {
 
 _G.pg.base.ship_data_template[305073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -72116,7 +72116,7 @@ _G.pg.base.ship_data_template[305074] = {
 
 _G.pg.base.ship_data_template[305081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -72164,7 +72164,7 @@ _G.pg.base.ship_data_template[305081] = {
 
 _G.pg.base.ship_data_template[305082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -72213,7 +72213,7 @@ _G.pg.base.ship_data_template[305082] = {
 
 _G.pg.base.ship_data_template[305083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -72518,7 +72518,7 @@ _G.pg.base.ship_data_template[305104] = {
 
 _G.pg.base.ship_data_template[305111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -72565,7 +72565,7 @@ _G.pg.base.ship_data_template[305111] = {
 
 _G.pg.base.ship_data_template[305112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -72613,7 +72613,7 @@ _G.pg.base.ship_data_template[305112] = {
 
 _G.pg.base.ship_data_template[305113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -72709,7 +72709,7 @@ _G.pg.base.ship_data_template[305114] = {
 
 _G.pg.base.ship_data_template[305121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -72757,7 +72757,7 @@ _G.pg.base.ship_data_template[305121] = {
 
 _G.pg.base.ship_data_template[305122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -72806,7 +72806,7 @@ _G.pg.base.ship_data_template[305122] = {
 
 _G.pg.base.ship_data_template[305123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -72904,7 +72904,7 @@ _G.pg.base.ship_data_template[305124] = {
 
 _G.pg.base.ship_data_template[305131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -72952,7 +72952,7 @@ _G.pg.base.ship_data_template[305131] = {
 
 _G.pg.base.ship_data_template[305132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -73001,7 +73001,7 @@ _G.pg.base.ship_data_template[305132] = {
 
 _G.pg.base.ship_data_template[305133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -73099,7 +73099,7 @@ _G.pg.base.ship_data_template[305134] = {
 
 _G.pg.base.ship_data_template[305141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -73147,7 +73147,7 @@ _G.pg.base.ship_data_template[305141] = {
 
 _G.pg.base.ship_data_template[305142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -73196,7 +73196,7 @@ _G.pg.base.ship_data_template[305142] = {
 
 _G.pg.base.ship_data_template[305143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -73294,7 +73294,7 @@ _G.pg.base.ship_data_template[305144] = {
 
 _G.pg.base.ship_data_template[305161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -73342,7 +73342,7 @@ _G.pg.base.ship_data_template[305161] = {
 
 _G.pg.base.ship_data_template[305162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -73391,7 +73391,7 @@ _G.pg.base.ship_data_template[305162] = {
 
 _G.pg.base.ship_data_template[305163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -73489,7 +73489,7 @@ _G.pg.base.ship_data_template[305164] = {
 
 _G.pg.base.ship_data_template[306011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 5,
 	energy = 150,
@@ -73537,7 +73537,7 @@ _G.pg.base.ship_data_template[306011] = {
 
 _G.pg.base.ship_data_template[306012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -73585,7 +73585,7 @@ _G.pg.base.ship_data_template[306012] = {
 
 _G.pg.base.ship_data_template[306013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -73683,7 +73683,7 @@ _G.pg.base.ship_data_template[306014] = {
 
 _G.pg.base.ship_data_template[306021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 5,
 	energy = 150,
@@ -73731,7 +73731,7 @@ _G.pg.base.ship_data_template[306021] = {
 
 _G.pg.base.ship_data_template[306022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -73779,7 +73779,7 @@ _G.pg.base.ship_data_template[306022] = {
 
 _G.pg.base.ship_data_template[306023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -73877,7 +73877,7 @@ _G.pg.base.ship_data_template[306024] = {
 
 _G.pg.base.ship_data_template[306031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 5,
 	energy = 150,
@@ -73927,7 +73927,7 @@ _G.pg.base.ship_data_template[306031] = {
 
 _G.pg.base.ship_data_template[306032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -73977,7 +73977,7 @@ _G.pg.base.ship_data_template[306032] = {
 
 _G.pg.base.ship_data_template[306033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -74079,7 +74079,7 @@ _G.pg.base.ship_data_template[306034] = {
 
 _G.pg.base.ship_data_template[306041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -74129,7 +74129,7 @@ _G.pg.base.ship_data_template[306041] = {
 
 _G.pg.base.ship_data_template[306042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -74179,7 +74179,7 @@ _G.pg.base.ship_data_template[306042] = {
 
 _G.pg.base.ship_data_template[306043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -74281,7 +74281,7 @@ _G.pg.base.ship_data_template[306044] = {
 
 _G.pg.base.ship_data_template[306051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -74330,7 +74330,7 @@ _G.pg.base.ship_data_template[306051] = {
 
 _G.pg.base.ship_data_template[306052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -74379,7 +74379,7 @@ _G.pg.base.ship_data_template[306052] = {
 
 _G.pg.base.ship_data_template[306053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -74479,7 +74479,7 @@ _G.pg.base.ship_data_template[306054] = {
 
 _G.pg.base.ship_data_template[306061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -74529,7 +74529,7 @@ _G.pg.base.ship_data_template[306061] = {
 
 _G.pg.base.ship_data_template[306062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -74579,7 +74579,7 @@ _G.pg.base.ship_data_template[306062] = {
 
 _G.pg.base.ship_data_template[306063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -74681,7 +74681,7 @@ _G.pg.base.ship_data_template[306064] = {
 
 _G.pg.base.ship_data_template[306071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -74731,7 +74731,7 @@ _G.pg.base.ship_data_template[306071] = {
 
 _G.pg.base.ship_data_template[306072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -74781,7 +74781,7 @@ _G.pg.base.ship_data_template[306072] = {
 
 _G.pg.base.ship_data_template[306073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -74883,7 +74883,7 @@ _G.pg.base.ship_data_template[306074] = {
 
 _G.pg.base.ship_data_template[306081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -74933,7 +74933,7 @@ _G.pg.base.ship_data_template[306081] = {
 
 _G.pg.base.ship_data_template[306082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -74983,7 +74983,7 @@ _G.pg.base.ship_data_template[306082] = {
 
 _G.pg.base.ship_data_template[306083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -75085,7 +75085,7 @@ _G.pg.base.ship_data_template[306084] = {
 
 _G.pg.base.ship_data_template[306091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -75135,7 +75135,7 @@ _G.pg.base.ship_data_template[306091] = {
 
 _G.pg.base.ship_data_template[306092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -75185,7 +75185,7 @@ _G.pg.base.ship_data_template[306092] = {
 
 _G.pg.base.ship_data_template[306093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -75287,7 +75287,7 @@ _G.pg.base.ship_data_template[306094] = {
 
 _G.pg.base.ship_data_template[307011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 7,
 	energy = 150,
@@ -75335,7 +75335,7 @@ _G.pg.base.ship_data_template[307011] = {
 
 _G.pg.base.ship_data_template[307012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -75383,7 +75383,7 @@ _G.pg.base.ship_data_template[307012] = {
 
 _G.pg.base.ship_data_template[307013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -75481,7 +75481,7 @@ _G.pg.base.ship_data_template[307014] = {
 
 _G.pg.base.ship_data_template[307021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 7,
 	energy = 150,
@@ -75529,7 +75529,7 @@ _G.pg.base.ship_data_template[307021] = {
 
 _G.pg.base.ship_data_template[307022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -75577,7 +75577,7 @@ _G.pg.base.ship_data_template[307022] = {
 
 _G.pg.base.ship_data_template[307023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -75675,7 +75675,7 @@ _G.pg.base.ship_data_template[307024] = {
 
 _G.pg.base.ship_data_template[307031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 6,
 	energy = 150,
@@ -75724,7 +75724,7 @@ _G.pg.base.ship_data_template[307031] = {
 
 _G.pg.base.ship_data_template[307032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -75773,7 +75773,7 @@ _G.pg.base.ship_data_template[307032] = {
 
 _G.pg.base.ship_data_template[307033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -75873,7 +75873,7 @@ _G.pg.base.ship_data_template[307034] = {
 
 _G.pg.base.ship_data_template[307041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 6,
 	energy = 150,
@@ -75922,7 +75922,7 @@ _G.pg.base.ship_data_template[307041] = {
 
 _G.pg.base.ship_data_template[307042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -75971,7 +75971,7 @@ _G.pg.base.ship_data_template[307042] = {
 
 _G.pg.base.ship_data_template[307043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -76071,7 +76071,7 @@ _G.pg.base.ship_data_template[307044] = {
 
 _G.pg.base.ship_data_template[307051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 7,
 	energy = 150,
@@ -76119,7 +76119,7 @@ _G.pg.base.ship_data_template[307051] = {
 
 _G.pg.base.ship_data_template[307052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -76167,7 +76167,7 @@ _G.pg.base.ship_data_template[307052] = {
 
 _G.pg.base.ship_data_template[307053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -76265,7 +76265,7 @@ _G.pg.base.ship_data_template[307054] = {
 
 _G.pg.base.ship_data_template[307061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 7,
 	energy = 150,
@@ -76313,7 +76313,7 @@ _G.pg.base.ship_data_template[307061] = {
 
 _G.pg.base.ship_data_template[307062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -76361,7 +76361,7 @@ _G.pg.base.ship_data_template[307062] = {
 
 _G.pg.base.ship_data_template[307063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -76459,7 +76459,7 @@ _G.pg.base.ship_data_template[307064] = {
 
 _G.pg.base.ship_data_template[307071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38100,
 	oil_at_end = 7,
 	energy = 150,
@@ -76507,7 +76507,7 @@ _G.pg.base.ship_data_template[307071] = {
 
 _G.pg.base.ship_data_template[307072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -76555,7 +76555,7 @@ _G.pg.base.ship_data_template[307072] = {
 
 _G.pg.base.ship_data_template[307073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -76865,7 +76865,7 @@ _G.pg.base.ship_data_template[307084] = {
 
 _G.pg.base.ship_data_template[307091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 6,
 	energy = 150,
@@ -76913,7 +76913,7 @@ _G.pg.base.ship_data_template[307091] = {
 
 _G.pg.base.ship_data_template[307092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -76961,7 +76961,7 @@ _G.pg.base.ship_data_template[307092] = {
 
 _G.pg.base.ship_data_template[307093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -77059,7 +77059,7 @@ _G.pg.base.ship_data_template[307094] = {
 
 _G.pg.base.ship_data_template[307101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38000,
 	oil_at_end = 7,
 	energy = 150,
@@ -77107,7 +77107,7 @@ _G.pg.base.ship_data_template[307101] = {
 
 _G.pg.base.ship_data_template[307102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -77155,7 +77155,7 @@ _G.pg.base.ship_data_template[307102] = {
 
 _G.pg.base.ship_data_template[307103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -77253,7 +77253,7 @@ _G.pg.base.ship_data_template[307104] = {
 
 _G.pg.base.ship_data_template[307111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 38100,
 	oil_at_end = 7,
 	energy = 150,
@@ -77301,7 +77301,7 @@ _G.pg.base.ship_data_template[307111] = {
 
 _G.pg.base.ship_data_template[307112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -77349,7 +77349,7 @@ _G.pg.base.ship_data_template[307112] = {
 
 _G.pg.base.ship_data_template[307113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -77447,7 +77447,7 @@ _G.pg.base.ship_data_template[307114] = {
 
 _G.pg.base.ship_data_template[307121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -77495,7 +77495,7 @@ _G.pg.base.ship_data_template[307121] = {
 
 _G.pg.base.ship_data_template[307122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -77543,7 +77543,7 @@ _G.pg.base.ship_data_template[307122] = {
 
 _G.pg.base.ship_data_template[307123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -77641,7 +77641,7 @@ _G.pg.base.ship_data_template[307124] = {
 
 _G.pg.base.ship_data_template[307131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -77689,7 +77689,7 @@ _G.pg.base.ship_data_template[307131] = {
 
 _G.pg.base.ship_data_template[307132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -77737,7 +77737,7 @@ _G.pg.base.ship_data_template[307132] = {
 
 _G.pg.base.ship_data_template[307133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -77835,7 +77835,7 @@ _G.pg.base.ship_data_template[307134] = {
 
 _G.pg.base.ship_data_template[307141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -77884,7 +77884,7 @@ _G.pg.base.ship_data_template[307141] = {
 
 _G.pg.base.ship_data_template[307142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -77935,7 +77935,7 @@ _G.pg.base.ship_data_template[307142] = {
 
 _G.pg.base.ship_data_template[307143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -78453,7 +78453,7 @@ _G.pg.base.ship_data_template[307164] = {
 
 _G.pg.base.ship_data_template[308011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -78498,7 +78498,7 @@ _G.pg.base.ship_data_template[308011] = {
 
 _G.pg.base.ship_data_template[308012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -78544,7 +78544,7 @@ _G.pg.base.ship_data_template[308012] = {
 
 _G.pg.base.ship_data_template[308013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -78636,7 +78636,7 @@ _G.pg.base.ship_data_template[308014] = {
 
 _G.pg.base.ship_data_template[308021] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -78681,7 +78681,7 @@ _G.pg.base.ship_data_template[308021] = {
 
 _G.pg.base.ship_data_template[308022] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -78727,7 +78727,7 @@ _G.pg.base.ship_data_template[308022] = {
 
 _G.pg.base.ship_data_template[308023] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -78819,7 +78819,7 @@ _G.pg.base.ship_data_template[308024] = {
 
 _G.pg.base.ship_data_template[308031] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -78862,7 +78862,7 @@ _G.pg.base.ship_data_template[308031] = {
 
 _G.pg.base.ship_data_template[308032] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -78906,7 +78906,7 @@ _G.pg.base.ship_data_template[308032] = {
 
 _G.pg.base.ship_data_template[308033] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -78994,7 +78994,7 @@ _G.pg.base.ship_data_template[308034] = {
 
 _G.pg.base.ship_data_template[308041] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -79039,7 +79039,7 @@ _G.pg.base.ship_data_template[308041] = {
 
 _G.pg.base.ship_data_template[308042] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -79085,7 +79085,7 @@ _G.pg.base.ship_data_template[308042] = {
 
 _G.pg.base.ship_data_template[308043] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -79177,7 +79177,7 @@ _G.pg.base.ship_data_template[308044] = {
 
 _G.pg.base.ship_data_template[308051] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -79222,7 +79222,7 @@ _G.pg.base.ship_data_template[308051] = {
 
 _G.pg.base.ship_data_template[308052] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -79268,7 +79268,7 @@ _G.pg.base.ship_data_template[308052] = {
 
 _G.pg.base.ship_data_template[308053] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -79360,7 +79360,7 @@ _G.pg.base.ship_data_template[308054] = {
 
 _G.pg.base.ship_data_template[308061] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -79405,7 +79405,7 @@ _G.pg.base.ship_data_template[308061] = {
 
 _G.pg.base.ship_data_template[308062] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -79451,7 +79451,7 @@ _G.pg.base.ship_data_template[308062] = {
 
 _G.pg.base.ship_data_template[308063] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -79751,7 +79751,7 @@ _G.pg.base.ship_data_template[310044] = {
 
 _G.pg.base.ship_data_template[312011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -79799,7 +79799,7 @@ _G.pg.base.ship_data_template[312011] = {
 
 _G.pg.base.ship_data_template[312012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -79847,7 +79847,7 @@ _G.pg.base.ship_data_template[312012] = {
 
 _G.pg.base.ship_data_template[312013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -79943,7 +79943,7 @@ _G.pg.base.ship_data_template[312014] = {
 
 _G.pg.base.ship_data_template[317011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -79990,7 +79990,7 @@ _G.pg.base.ship_data_template[317011] = {
 
 _G.pg.base.ship_data_template[317012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -80038,7 +80038,7 @@ _G.pg.base.ship_data_template[317012] = {
 
 _G.pg.base.ship_data_template[317013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -80317,7 +80317,7 @@ _G.pg.base.ship_data_template[317024] = {
 
 _G.pg.base.ship_data_template[319011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -80365,7 +80365,7 @@ _G.pg.base.ship_data_template[319011] = {
 
 _G.pg.base.ship_data_template[319012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -80414,7 +80414,7 @@ _G.pg.base.ship_data_template[319012] = {
 
 _G.pg.base.ship_data_template[319013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -80512,7 +80512,7 @@ _G.pg.base.ship_data_template[319014] = {
 
 _G.pg.base.ship_data_template[401011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -80558,7 +80558,7 @@ _G.pg.base.ship_data_template[401011] = {
 
 _G.pg.base.ship_data_template[401012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -80605,7 +80605,7 @@ _G.pg.base.ship_data_template[401012] = {
 
 _G.pg.base.ship_data_template[401013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -80701,7 +80701,7 @@ _G.pg.base.ship_data_template[401014] = {
 
 _G.pg.base.ship_data_template[401021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -80748,7 +80748,7 @@ _G.pg.base.ship_data_template[401021] = {
 
 _G.pg.base.ship_data_template[401022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -80796,7 +80796,7 @@ _G.pg.base.ship_data_template[401022] = {
 
 _G.pg.base.ship_data_template[401023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -80894,7 +80894,7 @@ _G.pg.base.ship_data_template[401024] = {
 
 _G.pg.base.ship_data_template[401091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -80941,7 +80941,7 @@ _G.pg.base.ship_data_template[401091] = {
 
 _G.pg.base.ship_data_template[401092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -80989,7 +80989,7 @@ _G.pg.base.ship_data_template[401092] = {
 
 _G.pg.base.ship_data_template[401093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -81087,7 +81087,7 @@ _G.pg.base.ship_data_template[401094] = {
 
 _G.pg.base.ship_data_template[401111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -81134,7 +81134,7 @@ _G.pg.base.ship_data_template[401111] = {
 
 _G.pg.base.ship_data_template[401112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -81182,7 +81182,7 @@ _G.pg.base.ship_data_template[401112] = {
 
 _G.pg.base.ship_data_template[401113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -81280,7 +81280,7 @@ _G.pg.base.ship_data_template[401114] = {
 
 _G.pg.base.ship_data_template[401131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -81327,7 +81327,7 @@ _G.pg.base.ship_data_template[401131] = {
 
 _G.pg.base.ship_data_template[401132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -81375,7 +81375,7 @@ _G.pg.base.ship_data_template[401132] = {
 
 _G.pg.base.ship_data_template[401133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -81473,7 +81473,7 @@ _G.pg.base.ship_data_template[401134] = {
 
 _G.pg.base.ship_data_template[401161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -81520,7 +81520,7 @@ _G.pg.base.ship_data_template[401161] = {
 
 _G.pg.base.ship_data_template[401162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -81568,7 +81568,7 @@ _G.pg.base.ship_data_template[401162] = {
 
 _G.pg.base.ship_data_template[401163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -81666,7 +81666,7 @@ _G.pg.base.ship_data_template[401164] = {
 
 _G.pg.base.ship_data_template[401181] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -81711,7 +81711,7 @@ _G.pg.base.ship_data_template[401181] = {
 
 _G.pg.base.ship_data_template[401182] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -81757,7 +81757,7 @@ _G.pg.base.ship_data_template[401182] = {
 
 _G.pg.base.ship_data_template[401183] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -81851,7 +81851,7 @@ _G.pg.base.ship_data_template[401184] = {
 
 _G.pg.base.ship_data_template[401191] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -81896,7 +81896,7 @@ _G.pg.base.ship_data_template[401191] = {
 
 _G.pg.base.ship_data_template[401192] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -81942,7 +81942,7 @@ _G.pg.base.ship_data_template[401192] = {
 
 _G.pg.base.ship_data_template[401193] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -82036,7 +82036,7 @@ _G.pg.base.ship_data_template[401194] = {
 
 _G.pg.base.ship_data_template[401201] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -82081,7 +82081,7 @@ _G.pg.base.ship_data_template[401201] = {
 
 _G.pg.base.ship_data_template[401202] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -82127,7 +82127,7 @@ _G.pg.base.ship_data_template[401202] = {
 
 _G.pg.base.ship_data_template[401203] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -82221,7 +82221,7 @@ _G.pg.base.ship_data_template[401204] = {
 
 _G.pg.base.ship_data_template[401211] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 1,
 	energy = 150,
@@ -82266,7 +82266,7 @@ _G.pg.base.ship_data_template[401211] = {
 
 _G.pg.base.ship_data_template[401212] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -82312,7 +82312,7 @@ _G.pg.base.ship_data_template[401212] = {
 
 _G.pg.base.ship_data_template[401213] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -82406,7 +82406,7 @@ _G.pg.base.ship_data_template[401214] = {
 
 _G.pg.base.ship_data_template[401231] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -82453,7 +82453,7 @@ _G.pg.base.ship_data_template[401231] = {
 
 _G.pg.base.ship_data_template[401232] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -82501,7 +82501,7 @@ _G.pg.base.ship_data_template[401232] = {
 
 _G.pg.base.ship_data_template[401233] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -82599,7 +82599,7 @@ _G.pg.base.ship_data_template[401234] = {
 
 _G.pg.base.ship_data_template[401241] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -82647,7 +82647,7 @@ _G.pg.base.ship_data_template[401241] = {
 
 _G.pg.base.ship_data_template[401242] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -82696,7 +82696,7 @@ _G.pg.base.ship_data_template[401242] = {
 
 _G.pg.base.ship_data_template[401243] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -82796,7 +82796,7 @@ _G.pg.base.ship_data_template[401244] = {
 
 _G.pg.base.ship_data_template[401251] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -82844,7 +82844,7 @@ _G.pg.base.ship_data_template[401251] = {
 
 _G.pg.base.ship_data_template[401252] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -82893,7 +82893,7 @@ _G.pg.base.ship_data_template[401252] = {
 
 _G.pg.base.ship_data_template[401253] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -82993,7 +82993,7 @@ _G.pg.base.ship_data_template[401254] = {
 
 _G.pg.base.ship_data_template[401261] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -83041,7 +83041,7 @@ _G.pg.base.ship_data_template[401261] = {
 
 _G.pg.base.ship_data_template[401262] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -83090,7 +83090,7 @@ _G.pg.base.ship_data_template[401262] = {
 
 _G.pg.base.ship_data_template[401263] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -83190,7 +83190,7 @@ _G.pg.base.ship_data_template[401264] = {
 
 _G.pg.base.ship_data_template[401281] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -83238,7 +83238,7 @@ _G.pg.base.ship_data_template[401281] = {
 
 _G.pg.base.ship_data_template[401282] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -83287,7 +83287,7 @@ _G.pg.base.ship_data_template[401282] = {
 
 _G.pg.base.ship_data_template[401283] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -83387,7 +83387,7 @@ _G.pg.base.ship_data_template[401284] = {
 
 _G.pg.base.ship_data_template[401351] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -83432,7 +83432,7 @@ _G.pg.base.ship_data_template[401351] = {
 
 _G.pg.base.ship_data_template[401352] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -83478,7 +83478,7 @@ _G.pg.base.ship_data_template[401352] = {
 
 _G.pg.base.ship_data_template[401353] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -83572,7 +83572,7 @@ _G.pg.base.ship_data_template[401354] = {
 
 _G.pg.base.ship_data_template[401361] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -83617,7 +83617,7 @@ _G.pg.base.ship_data_template[401361] = {
 
 _G.pg.base.ship_data_template[401362] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -83663,7 +83663,7 @@ _G.pg.base.ship_data_template[401362] = {
 
 _G.pg.base.ship_data_template[401363] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -83757,7 +83757,7 @@ _G.pg.base.ship_data_template[401364] = {
 
 _G.pg.base.ship_data_template[401431] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -83804,7 +83804,7 @@ _G.pg.base.ship_data_template[401431] = {
 
 _G.pg.base.ship_data_template[401432] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -83852,7 +83852,7 @@ _G.pg.base.ship_data_template[401432] = {
 
 _G.pg.base.ship_data_template[401433] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -83950,7 +83950,7 @@ _G.pg.base.ship_data_template[401434] = {
 
 _G.pg.base.ship_data_template[401461] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -83997,7 +83997,7 @@ _G.pg.base.ship_data_template[401461] = {
 
 _G.pg.base.ship_data_template[401462] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -84045,7 +84045,7 @@ _G.pg.base.ship_data_template[401462] = {
 
 _G.pg.base.ship_data_template[401463] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -84143,7 +84143,7 @@ _G.pg.base.ship_data_template[401464] = {
 
 _G.pg.base.ship_data_template[401471] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -84190,7 +84190,7 @@ _G.pg.base.ship_data_template[401471] = {
 
 _G.pg.base.ship_data_template[401472] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -84238,7 +84238,7 @@ _G.pg.base.ship_data_template[401472] = {
 
 _G.pg.base.ship_data_template[401473] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -84537,7 +84537,7 @@ _G.pg.base.ship_data_template[401524] = {
 
 _G.pg.base.ship_data_template[401991] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -84585,7 +84585,7 @@ _G.pg.base.ship_data_template[401991] = {
 
 _G.pg.base.ship_data_template[401992] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -84634,7 +84634,7 @@ _G.pg.base.ship_data_template[401992] = {
 
 _G.pg.base.ship_data_template[401993] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -84734,7 +84734,7 @@ _G.pg.base.ship_data_template[401994] = {
 
 _G.pg.base.ship_data_template[402011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -84779,7 +84779,7 @@ _G.pg.base.ship_data_template[402011] = {
 
 _G.pg.base.ship_data_template[402012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -84825,7 +84825,7 @@ _G.pg.base.ship_data_template[402012] = {
 
 _G.pg.base.ship_data_template[402013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -84917,7 +84917,7 @@ _G.pg.base.ship_data_template[402014] = {
 
 _G.pg.base.ship_data_template[402021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -84963,7 +84963,7 @@ _G.pg.base.ship_data_template[402021] = {
 
 _G.pg.base.ship_data_template[402022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -85010,7 +85010,7 @@ _G.pg.base.ship_data_template[402022] = {
 
 _G.pg.base.ship_data_template[402023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -85104,7 +85104,7 @@ _G.pg.base.ship_data_template[402024] = {
 
 _G.pg.base.ship_data_template[402031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -85150,7 +85150,7 @@ _G.pg.base.ship_data_template[402031] = {
 
 _G.pg.base.ship_data_template[402032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -85197,7 +85197,7 @@ _G.pg.base.ship_data_template[402032] = {
 
 _G.pg.base.ship_data_template[402033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -85339,7 +85339,7 @@ _G.pg.base.ship_data_template[402134] = {
 
 _G.pg.base.ship_data_template[402041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -85385,7 +85385,7 @@ _G.pg.base.ship_data_template[402041] = {
 
 _G.pg.base.ship_data_template[402042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -85432,7 +85432,7 @@ _G.pg.base.ship_data_template[402042] = {
 
 _G.pg.base.ship_data_template[402043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -85526,7 +85526,7 @@ _G.pg.base.ship_data_template[402044] = {
 
 _G.pg.base.ship_data_template[402051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -85573,7 +85573,7 @@ _G.pg.base.ship_data_template[402051] = {
 
 _G.pg.base.ship_data_template[402052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -85621,7 +85621,7 @@ _G.pg.base.ship_data_template[402052] = {
 
 _G.pg.base.ship_data_template[402053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -85717,7 +85717,7 @@ _G.pg.base.ship_data_template[402054] = {
 
 _G.pg.base.ship_data_template[402061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -85764,7 +85764,7 @@ _G.pg.base.ship_data_template[402061] = {
 
 _G.pg.base.ship_data_template[402062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -85812,7 +85812,7 @@ _G.pg.base.ship_data_template[402062] = {
 
 _G.pg.base.ship_data_template[402063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -85908,7 +85908,7 @@ _G.pg.base.ship_data_template[402064] = {
 
 _G.pg.base.ship_data_template[402071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -85956,7 +85956,7 @@ _G.pg.base.ship_data_template[402071] = {
 
 _G.pg.base.ship_data_template[402072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -86005,7 +86005,7 @@ _G.pg.base.ship_data_template[402072] = {
 
 _G.pg.base.ship_data_template[402073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -86103,7 +86103,7 @@ _G.pg.base.ship_data_template[402074] = {
 
 _G.pg.base.ship_data_template[402081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -86151,7 +86151,7 @@ _G.pg.base.ship_data_template[402081] = {
 
 _G.pg.base.ship_data_template[402082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -86200,7 +86200,7 @@ _G.pg.base.ship_data_template[402082] = {
 
 _G.pg.base.ship_data_template[402083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -86298,7 +86298,7 @@ _G.pg.base.ship_data_template[402084] = {
 
 _G.pg.base.ship_data_template[402101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -86345,7 +86345,7 @@ _G.pg.base.ship_data_template[402101] = {
 
 _G.pg.base.ship_data_template[402102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -86393,7 +86393,7 @@ _G.pg.base.ship_data_template[402102] = {
 
 _G.pg.base.ship_data_template[402103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -86489,7 +86489,7 @@ _G.pg.base.ship_data_template[402104] = {
 
 _G.pg.base.ship_data_template[402111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -86536,7 +86536,7 @@ _G.pg.base.ship_data_template[402111] = {
 
 _G.pg.base.ship_data_template[402112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -86584,7 +86584,7 @@ _G.pg.base.ship_data_template[402112] = {
 
 _G.pg.base.ship_data_template[402113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -86680,7 +86680,7 @@ _G.pg.base.ship_data_template[402114] = {
 
 _G.pg.base.ship_data_template[403011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -86725,7 +86725,7 @@ _G.pg.base.ship_data_template[403011] = {
 
 _G.pg.base.ship_data_template[403012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -86771,7 +86771,7 @@ _G.pg.base.ship_data_template[403012] = {
 
 _G.pg.base.ship_data_template[403013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -86863,7 +86863,7 @@ _G.pg.base.ship_data_template[403014] = {
 
 _G.pg.base.ship_data_template[403021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -86908,7 +86908,7 @@ _G.pg.base.ship_data_template[403021] = {
 
 _G.pg.base.ship_data_template[403022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -86954,7 +86954,7 @@ _G.pg.base.ship_data_template[403022] = {
 
 _G.pg.base.ship_data_template[403023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -87046,7 +87046,7 @@ _G.pg.base.ship_data_template[403024] = {
 
 _G.pg.base.ship_data_template[403031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -87089,7 +87089,7 @@ _G.pg.base.ship_data_template[403031] = {
 
 _G.pg.base.ship_data_template[403032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -87133,7 +87133,7 @@ _G.pg.base.ship_data_template[403032] = {
 
 _G.pg.base.ship_data_template[403033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -87221,7 +87221,7 @@ _G.pg.base.ship_data_template[403034] = {
 
 _G.pg.base.ship_data_template[403041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -87265,7 +87265,7 @@ _G.pg.base.ship_data_template[403041] = {
 
 _G.pg.base.ship_data_template[403042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -87310,7 +87310,7 @@ _G.pg.base.ship_data_template[403042] = {
 
 _G.pg.base.ship_data_template[403043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -87400,7 +87400,7 @@ _G.pg.base.ship_data_template[403044] = {
 
 _G.pg.base.ship_data_template[403051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -87444,7 +87444,7 @@ _G.pg.base.ship_data_template[403051] = {
 
 _G.pg.base.ship_data_template[403052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -87489,7 +87489,7 @@ _G.pg.base.ship_data_template[403052] = {
 
 _G.pg.base.ship_data_template[403053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -87579,7 +87579,7 @@ _G.pg.base.ship_data_template[403054] = {
 
 _G.pg.base.ship_data_template[403071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -87624,7 +87624,7 @@ _G.pg.base.ship_data_template[403071] = {
 
 _G.pg.base.ship_data_template[403072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -87670,7 +87670,7 @@ _G.pg.base.ship_data_template[403072] = {
 
 _G.pg.base.ship_data_template[403073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -87762,7 +87762,7 @@ _G.pg.base.ship_data_template[403074] = {
 
 _G.pg.base.ship_data_template[403081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -87807,7 +87807,7 @@ _G.pg.base.ship_data_template[403081] = {
 
 _G.pg.base.ship_data_template[403082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -87853,7 +87853,7 @@ _G.pg.base.ship_data_template[403082] = {
 
 _G.pg.base.ship_data_template[403083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -87945,7 +87945,7 @@ _G.pg.base.ship_data_template[403084] = {
 
 _G.pg.base.ship_data_template[403091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -87991,7 +87991,7 @@ _G.pg.base.ship_data_template[403091] = {
 
 _G.pg.base.ship_data_template[403092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -88038,7 +88038,7 @@ _G.pg.base.ship_data_template[403092] = {
 
 _G.pg.base.ship_data_template[403093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -88132,7 +88132,7 @@ _G.pg.base.ship_data_template[403094] = {
 
 _G.pg.base.ship_data_template[403101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -88178,7 +88178,7 @@ _G.pg.base.ship_data_template[403101] = {
 
 _G.pg.base.ship_data_template[403102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -88225,7 +88225,7 @@ _G.pg.base.ship_data_template[403102] = {
 
 _G.pg.base.ship_data_template[403103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -88319,7 +88319,7 @@ _G.pg.base.ship_data_template[403104] = {
 
 _G.pg.base.ship_data_template[403111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -88365,7 +88365,7 @@ _G.pg.base.ship_data_template[403111] = {
 
 _G.pg.base.ship_data_template[403112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -88412,7 +88412,7 @@ _G.pg.base.ship_data_template[403112] = {
 
 _G.pg.base.ship_data_template[403113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -88506,7 +88506,7 @@ _G.pg.base.ship_data_template[403114] = {
 
 _G.pg.base.ship_data_template[403121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -88549,7 +88549,7 @@ _G.pg.base.ship_data_template[403121] = {
 
 _G.pg.base.ship_data_template[403122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -88593,7 +88593,7 @@ _G.pg.base.ship_data_template[403122] = {
 
 _G.pg.base.ship_data_template[403123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -88681,7 +88681,7 @@ _G.pg.base.ship_data_template[403124] = {
 
 _G.pg.base.ship_data_template[403131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -88727,7 +88727,7 @@ _G.pg.base.ship_data_template[403131] = {
 
 _G.pg.base.ship_data_template[403132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -88774,7 +88774,7 @@ _G.pg.base.ship_data_template[403132] = {
 
 _G.pg.base.ship_data_template[403133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -88868,7 +88868,7 @@ _G.pg.base.ship_data_template[403134] = {
 
 _G.pg.base.ship_data_template[403141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -88914,7 +88914,7 @@ _G.pg.base.ship_data_template[403141] = {
 
 _G.pg.base.ship_data_template[403142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -88961,7 +88961,7 @@ _G.pg.base.ship_data_template[403142] = {
 
 _G.pg.base.ship_data_template[403143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -89055,7 +89055,7 @@ _G.pg.base.ship_data_template[403144] = {
 
 _G.pg.base.ship_data_template[403151] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -89100,7 +89100,7 @@ _G.pg.base.ship_data_template[403151] = {
 
 _G.pg.base.ship_data_template[403152] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -89146,7 +89146,7 @@ _G.pg.base.ship_data_template[403152] = {
 
 _G.pg.base.ship_data_template[403153] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -89238,7 +89238,7 @@ _G.pg.base.ship_data_template[403154] = {
 
 _G.pg.base.ship_data_template[403161] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -89283,7 +89283,7 @@ _G.pg.base.ship_data_template[403161] = {
 
 _G.pg.base.ship_data_template[403162] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -89328,7 +89328,7 @@ _G.pg.base.ship_data_template[403162] = {
 
 _G.pg.base.ship_data_template[403163] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -89418,7 +89418,7 @@ _G.pg.base.ship_data_template[403164] = {
 
 _G.pg.base.ship_data_template[404011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -89465,7 +89465,7 @@ _G.pg.base.ship_data_template[404011] = {
 
 _G.pg.base.ship_data_template[404012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -89513,7 +89513,7 @@ _G.pg.base.ship_data_template[404012] = {
 
 _G.pg.base.ship_data_template[404013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -89611,7 +89611,7 @@ _G.pg.base.ship_data_template[404014] = {
 
 _G.pg.base.ship_data_template[404021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -89658,7 +89658,7 @@ _G.pg.base.ship_data_template[404021] = {
 
 _G.pg.base.ship_data_template[404022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -89706,7 +89706,7 @@ _G.pg.base.ship_data_template[404022] = {
 
 _G.pg.base.ship_data_template[404023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -89804,7 +89804,7 @@ _G.pg.base.ship_data_template[404024] = {
 
 _G.pg.base.ship_data_template[404031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -89855,7 +89855,7 @@ _G.pg.base.ship_data_template[404031] = {
 
 _G.pg.base.ship_data_template[404032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -89907,7 +89907,7 @@ _G.pg.base.ship_data_template[404032] = {
 
 _G.pg.base.ship_data_template[404033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -90011,7 +90011,7 @@ _G.pg.base.ship_data_template[404034] = {
 
 _G.pg.base.ship_data_template[404041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -90062,7 +90062,7 @@ _G.pg.base.ship_data_template[404041] = {
 
 _G.pg.base.ship_data_template[404042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -90114,7 +90114,7 @@ _G.pg.base.ship_data_template[404042] = {
 
 _G.pg.base.ship_data_template[404043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -90218,7 +90218,7 @@ _G.pg.base.ship_data_template[404044] = {
 
 _G.pg.base.ship_data_template[404051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -90266,7 +90266,7 @@ _G.pg.base.ship_data_template[404051] = {
 
 _G.pg.base.ship_data_template[404052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -90315,7 +90315,7 @@ _G.pg.base.ship_data_template[404052] = {
 
 _G.pg.base.ship_data_template[404053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -90413,7 +90413,7 @@ _G.pg.base.ship_data_template[404054] = {
 
 _G.pg.base.ship_data_template[404061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -90461,7 +90461,7 @@ _G.pg.base.ship_data_template[404061] = {
 
 _G.pg.base.ship_data_template[404062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -90510,7 +90510,7 @@ _G.pg.base.ship_data_template[404062] = {
 
 _G.pg.base.ship_data_template[404063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -90608,7 +90608,7 @@ _G.pg.base.ship_data_template[404064] = {
 
 _G.pg.base.ship_data_template[404071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -90656,7 +90656,7 @@ _G.pg.base.ship_data_template[404071] = {
 
 _G.pg.base.ship_data_template[404072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -90705,7 +90705,7 @@ _G.pg.base.ship_data_template[404072] = {
 
 _G.pg.base.ship_data_template[404073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -90803,7 +90803,7 @@ _G.pg.base.ship_data_template[404074] = {
 
 _G.pg.base.ship_data_template[405011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -90854,7 +90854,7 @@ _G.pg.base.ship_data_template[405011] = {
 
 _G.pg.base.ship_data_template[405012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -90906,7 +90906,7 @@ _G.pg.base.ship_data_template[405012] = {
 
 _G.pg.base.ship_data_template[405013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -91010,7 +91010,7 @@ _G.pg.base.ship_data_template[405014] = {
 
 _G.pg.base.ship_data_template[405021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -91057,7 +91057,7 @@ _G.pg.base.ship_data_template[405021] = {
 
 _G.pg.base.ship_data_template[405022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -91105,7 +91105,7 @@ _G.pg.base.ship_data_template[405022] = {
 
 _G.pg.base.ship_data_template[405023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -91406,7 +91406,7 @@ _G.pg.base.ship_data_template[405034] = {
 
 _G.pg.base.ship_data_template[405041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -91455,7 +91455,7 @@ _G.pg.base.ship_data_template[405041] = {
 
 _G.pg.base.ship_data_template[405042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -91505,7 +91505,7 @@ _G.pg.base.ship_data_template[405042] = {
 
 _G.pg.base.ship_data_template[405043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -91812,7 +91812,7 @@ _G.pg.base.ship_data_template[405054] = {
 
 _G.pg.base.ship_data_template[405061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -91860,7 +91860,7 @@ _G.pg.base.ship_data_template[405061] = {
 
 _G.pg.base.ship_data_template[405062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -91909,7 +91909,7 @@ _G.pg.base.ship_data_template[405062] = {
 
 _G.pg.base.ship_data_template[405063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -92007,7 +92007,7 @@ _G.pg.base.ship_data_template[405064] = {
 
 _G.pg.base.ship_data_template[406011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -92055,7 +92055,7 @@ _G.pg.base.ship_data_template[406011] = {
 
 _G.pg.base.ship_data_template[406012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -92103,7 +92103,7 @@ _G.pg.base.ship_data_template[406012] = {
 
 _G.pg.base.ship_data_template[406013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -92201,7 +92201,7 @@ _G.pg.base.ship_data_template[406014] = {
 
 _G.pg.base.ship_data_template[406021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -92249,7 +92249,7 @@ _G.pg.base.ship_data_template[406021] = {
 
 _G.pg.base.ship_data_template[406022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -92297,7 +92297,7 @@ _G.pg.base.ship_data_template[406022] = {
 
 _G.pg.base.ship_data_template[406023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -92395,7 +92395,7 @@ _G.pg.base.ship_data_template[406024] = {
 
 _G.pg.base.ship_data_template[406031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -92443,7 +92443,7 @@ _G.pg.base.ship_data_template[406031] = {
 
 _G.pg.base.ship_data_template[406032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -92491,7 +92491,7 @@ _G.pg.base.ship_data_template[406032] = {
 
 _G.pg.base.ship_data_template[406033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -92589,7 +92589,7 @@ _G.pg.base.ship_data_template[406034] = {
 
 _G.pg.base.ship_data_template[407011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 49000,
 	oil_at_end = 7,
 	energy = 150,
@@ -92637,7 +92637,7 @@ _G.pg.base.ship_data_template[407011] = {
 
 _G.pg.base.ship_data_template[407012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -92685,7 +92685,7 @@ _G.pg.base.ship_data_template[407012] = {
 
 _G.pg.base.ship_data_template[407013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -92784,7 +92784,7 @@ _G.pg.base.ship_data_template[407014] = {
 
 _G.pg.base.ship_data_template[407021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 42200,
 	oil_at_end = 6,
 	energy = 150,
@@ -92833,7 +92833,7 @@ _G.pg.base.ship_data_template[407021] = {
 
 _G.pg.base.ship_data_template[407022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -92882,7 +92882,7 @@ _G.pg.base.ship_data_template[407022] = {
 
 _G.pg.base.ship_data_template[407023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -92982,7 +92982,7 @@ _G.pg.base.ship_data_template[407024] = {
 
 _G.pg.base.ship_data_template[407031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -93032,7 +93032,7 @@ _G.pg.base.ship_data_template[407031] = {
 
 _G.pg.base.ship_data_template[407032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -93082,7 +93082,7 @@ _G.pg.base.ship_data_template[407032] = {
 
 _G.pg.base.ship_data_template[407033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -93392,7 +93392,7 @@ _G.pg.base.ship_data_template[407044] = {
 
 _G.pg.base.ship_data_template[408011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -93437,7 +93437,7 @@ _G.pg.base.ship_data_template[408011] = {
 
 _G.pg.base.ship_data_template[408012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -93483,7 +93483,7 @@ _G.pg.base.ship_data_template[408012] = {
 
 _G.pg.base.ship_data_template[408013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -93575,7 +93575,7 @@ _G.pg.base.ship_data_template[408014] = {
 
 _G.pg.base.ship_data_template[408021] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -93620,7 +93620,7 @@ _G.pg.base.ship_data_template[408021] = {
 
 _G.pg.base.ship_data_template[408022] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -93666,7 +93666,7 @@ _G.pg.base.ship_data_template[408022] = {
 
 _G.pg.base.ship_data_template[408023] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -93758,7 +93758,7 @@ _G.pg.base.ship_data_template[408024] = {
 
 _G.pg.base.ship_data_template[408031] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -93803,7 +93803,7 @@ _G.pg.base.ship_data_template[408031] = {
 
 _G.pg.base.ship_data_template[408032] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -93849,7 +93849,7 @@ _G.pg.base.ship_data_template[408032] = {
 
 _G.pg.base.ship_data_template[408033] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -93941,7 +93941,7 @@ _G.pg.base.ship_data_template[408034] = {
 
 _G.pg.base.ship_data_template[408041] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -93987,7 +93987,7 @@ _G.pg.base.ship_data_template[408041] = {
 
 _G.pg.base.ship_data_template[408042] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94034,7 +94034,7 @@ _G.pg.base.ship_data_template[408042] = {
 
 _G.pg.base.ship_data_template[408043] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94128,7 +94128,7 @@ _G.pg.base.ship_data_template[408044] = {
 
 _G.pg.base.ship_data_template[408051] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -94173,7 +94173,7 @@ _G.pg.base.ship_data_template[408051] = {
 
 _G.pg.base.ship_data_template[408052] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94219,7 +94219,7 @@ _G.pg.base.ship_data_template[408052] = {
 
 _G.pg.base.ship_data_template[408053] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94311,7 +94311,7 @@ _G.pg.base.ship_data_template[408054] = {
 
 _G.pg.base.ship_data_template[408061] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94356,7 +94356,7 @@ _G.pg.base.ship_data_template[408061] = {
 
 _G.pg.base.ship_data_template[408062] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94402,7 +94402,7 @@ _G.pg.base.ship_data_template[408062] = {
 
 _G.pg.base.ship_data_template[408063] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -94494,7 +94494,7 @@ _G.pg.base.ship_data_template[408064] = {
 
 _G.pg.base.ship_data_template[408071] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -94539,7 +94539,7 @@ _G.pg.base.ship_data_template[408071] = {
 
 _G.pg.base.ship_data_template[408072] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94585,7 +94585,7 @@ _G.pg.base.ship_data_template[408072] = {
 
 _G.pg.base.ship_data_template[408073] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94677,7 +94677,7 @@ _G.pg.base.ship_data_template[408074] = {
 
 _G.pg.base.ship_data_template[408081] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -94722,7 +94722,7 @@ _G.pg.base.ship_data_template[408081] = {
 
 _G.pg.base.ship_data_template[408082] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94768,7 +94768,7 @@ _G.pg.base.ship_data_template[408082] = {
 
 _G.pg.base.ship_data_template[408083] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94860,7 +94860,7 @@ _G.pg.base.ship_data_template[408084] = {
 
 _G.pg.base.ship_data_template[408091] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -94905,7 +94905,7 @@ _G.pg.base.ship_data_template[408091] = {
 
 _G.pg.base.ship_data_template[408092] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -94951,7 +94951,7 @@ _G.pg.base.ship_data_template[408092] = {
 
 _G.pg.base.ship_data_template[408093] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -95043,7 +95043,7 @@ _G.pg.base.ship_data_template[408094] = {
 
 _G.pg.base.ship_data_template[408101] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -95088,7 +95088,7 @@ _G.pg.base.ship_data_template[408101] = {
 
 _G.pg.base.ship_data_template[408102] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -95134,7 +95134,7 @@ _G.pg.base.ship_data_template[408102] = {
 
 _G.pg.base.ship_data_template[408103] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -95226,7 +95226,7 @@ _G.pg.base.ship_data_template[408104] = {
 
 _G.pg.base.ship_data_template[408111] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -95271,7 +95271,7 @@ _G.pg.base.ship_data_template[408111] = {
 
 _G.pg.base.ship_data_template[408112] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -95317,7 +95317,7 @@ _G.pg.base.ship_data_template[408112] = {
 
 _G.pg.base.ship_data_template[408113] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -95409,7 +95409,7 @@ _G.pg.base.ship_data_template[408114] = {
 
 _G.pg.base.ship_data_template[408121] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -95454,7 +95454,7 @@ _G.pg.base.ship_data_template[408121] = {
 
 _G.pg.base.ship_data_template[408122] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -95500,7 +95500,7 @@ _G.pg.base.ship_data_template[408122] = {
 
 _G.pg.base.ship_data_template[408123] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -95592,7 +95592,7 @@ _G.pg.base.ship_data_template[408124] = {
 
 _G.pg.base.ship_data_template[408131] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -95637,7 +95637,7 @@ _G.pg.base.ship_data_template[408131] = {
 
 _G.pg.base.ship_data_template[408132] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -95683,7 +95683,7 @@ _G.pg.base.ship_data_template[408132] = {
 
 _G.pg.base.ship_data_template[408133] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -95775,7 +95775,7 @@ _G.pg.base.ship_data_template[408134] = {
 
 _G.pg.base.ship_data_template[408141] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -95820,7 +95820,7 @@ _G.pg.base.ship_data_template[408141] = {
 
 _G.pg.base.ship_data_template[408142] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -95866,7 +95866,7 @@ _G.pg.base.ship_data_template[408142] = {
 
 _G.pg.base.ship_data_template[408143] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -95958,7 +95958,7 @@ _G.pg.base.ship_data_template[408144] = {
 
 _G.pg.base.ship_data_template[501011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96004,7 +96004,7 @@ _G.pg.base.ship_data_template[501011] = {
 
 _G.pg.base.ship_data_template[501012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -96051,7 +96051,7 @@ _G.pg.base.ship_data_template[501012] = {
 
 _G.pg.base.ship_data_template[501013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -96147,7 +96147,7 @@ _G.pg.base.ship_data_template[501014] = {
 
 _G.pg.base.ship_data_template[501021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96193,7 +96193,7 @@ _G.pg.base.ship_data_template[501021] = {
 
 _G.pg.base.ship_data_template[501022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -96240,7 +96240,7 @@ _G.pg.base.ship_data_template[501022] = {
 
 _G.pg.base.ship_data_template[501023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -96336,7 +96336,7 @@ _G.pg.base.ship_data_template[501024] = {
 
 _G.pg.base.ship_data_template[501031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96382,7 +96382,7 @@ _G.pg.base.ship_data_template[501031] = {
 
 _G.pg.base.ship_data_template[501032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -96429,7 +96429,7 @@ _G.pg.base.ship_data_template[501032] = {
 
 _G.pg.base.ship_data_template[501033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -96525,7 +96525,7 @@ _G.pg.base.ship_data_template[501034] = {
 
 _G.pg.base.ship_data_template[501041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96571,7 +96571,7 @@ _G.pg.base.ship_data_template[501041] = {
 
 _G.pg.base.ship_data_template[501042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -96618,7 +96618,7 @@ _G.pg.base.ship_data_template[501042] = {
 
 _G.pg.base.ship_data_template[501043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -96714,7 +96714,7 @@ _G.pg.base.ship_data_template[501044] = {
 
 _G.pg.base.ship_data_template[501051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96761,7 +96761,7 @@ _G.pg.base.ship_data_template[501051] = {
 
 _G.pg.base.ship_data_template[501052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -96809,7 +96809,7 @@ _G.pg.base.ship_data_template[501052] = {
 
 _G.pg.base.ship_data_template[501053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -96907,7 +96907,7 @@ _G.pg.base.ship_data_template[501054] = {
 
 _G.pg.base.ship_data_template[501061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -96954,7 +96954,7 @@ _G.pg.base.ship_data_template[501061] = {
 
 _G.pg.base.ship_data_template[501062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -97002,7 +97002,7 @@ _G.pg.base.ship_data_template[501062] = {
 
 _G.pg.base.ship_data_template[501063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -97100,7 +97100,7 @@ _G.pg.base.ship_data_template[501064] = {
 
 _G.pg.base.ship_data_template[501071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -97147,7 +97147,7 @@ _G.pg.base.ship_data_template[501071] = {
 
 _G.pg.base.ship_data_template[501072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -97195,7 +97195,7 @@ _G.pg.base.ship_data_template[501072] = {
 
 _G.pg.base.ship_data_template[501073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -97293,7 +97293,7 @@ _G.pg.base.ship_data_template[501074] = {
 
 _G.pg.base.ship_data_template[501081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -97340,7 +97340,7 @@ _G.pg.base.ship_data_template[501081] = {
 
 _G.pg.base.ship_data_template[501082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -97388,7 +97388,7 @@ _G.pg.base.ship_data_template[501082] = {
 
 _G.pg.base.ship_data_template[501083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -97486,7 +97486,7 @@ _G.pg.base.ship_data_template[501084] = {
 
 _G.pg.base.ship_data_template[501091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -97533,7 +97533,7 @@ _G.pg.base.ship_data_template[501091] = {
 
 _G.pg.base.ship_data_template[501092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -97581,7 +97581,7 @@ _G.pg.base.ship_data_template[501092] = {
 
 _G.pg.base.ship_data_template[501093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -97679,7 +97679,7 @@ _G.pg.base.ship_data_template[501094] = {
 
 _G.pg.base.ship_data_template[502011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -97727,7 +97727,7 @@ _G.pg.base.ship_data_template[502011] = {
 
 _G.pg.base.ship_data_template[502012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -97776,7 +97776,7 @@ _G.pg.base.ship_data_template[502012] = {
 
 _G.pg.base.ship_data_template[502013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -97923,7 +97923,7 @@ _G.pg.base.ship_data_template[502114] = {
 
 _G.pg.base.ship_data_template[502021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -97971,7 +97971,7 @@ _G.pg.base.ship_data_template[502021] = {
 
 _G.pg.base.ship_data_template[502022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -98020,7 +98020,7 @@ _G.pg.base.ship_data_template[502022] = {
 
 _G.pg.base.ship_data_template[502023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -98118,7 +98118,7 @@ _G.pg.base.ship_data_template[502024] = {
 
 _G.pg.base.ship_data_template[502031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -98166,7 +98166,7 @@ _G.pg.base.ship_data_template[502031] = {
 
 _G.pg.base.ship_data_template[502032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -98215,7 +98215,7 @@ _G.pg.base.ship_data_template[502032] = {
 
 _G.pg.base.ship_data_template[502033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -98313,7 +98313,7 @@ _G.pg.base.ship_data_template[502034] = {
 
 _G.pg.base.ship_data_template[502041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -98360,7 +98360,7 @@ _G.pg.base.ship_data_template[502041] = {
 
 _G.pg.base.ship_data_template[502042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -98408,7 +98408,7 @@ _G.pg.base.ship_data_template[502042] = {
 
 _G.pg.base.ship_data_template[502043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -98504,7 +98504,7 @@ _G.pg.base.ship_data_template[502044] = {
 
 _G.pg.base.ship_data_template[502051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -98551,7 +98551,7 @@ _G.pg.base.ship_data_template[502051] = {
 
 _G.pg.base.ship_data_template[502052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -98599,7 +98599,7 @@ _G.pg.base.ship_data_template[502052] = {
 
 _G.pg.base.ship_data_template[502053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -98695,7 +98695,7 @@ _G.pg.base.ship_data_template[502054] = {
 
 _G.pg.base.ship_data_template[502071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -98742,7 +98742,7 @@ _G.pg.base.ship_data_template[502071] = {
 
 _G.pg.base.ship_data_template[502072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -98790,7 +98790,7 @@ _G.pg.base.ship_data_template[502072] = {
 
 _G.pg.base.ship_data_template[502073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -98886,7 +98886,7 @@ _G.pg.base.ship_data_template[502074] = {
 
 _G.pg.base.ship_data_template[502081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -98933,7 +98933,7 @@ _G.pg.base.ship_data_template[502081] = {
 
 _G.pg.base.ship_data_template[502082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -98981,7 +98981,7 @@ _G.pg.base.ship_data_template[502082] = {
 
 _G.pg.base.ship_data_template[502083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -99077,7 +99077,7 @@ _G.pg.base.ship_data_template[502084] = {
 
 _G.pg.base.ship_data_template[502091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -99124,7 +99124,7 @@ _G.pg.base.ship_data_template[502091] = {
 
 _G.pg.base.ship_data_template[502092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -99172,7 +99172,7 @@ _G.pg.base.ship_data_template[502092] = {
 
 _G.pg.base.ship_data_template[502093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -99268,7 +99268,7 @@ _G.pg.base.ship_data_template[502094] = {
 
 _G.pg.base.ship_data_template[502101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -99315,7 +99315,7 @@ _G.pg.base.ship_data_template[502101] = {
 
 _G.pg.base.ship_data_template[502102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -99363,7 +99363,7 @@ _G.pg.base.ship_data_template[502102] = {
 
 _G.pg.base.ship_data_template[502103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -99459,7 +99459,7 @@ _G.pg.base.ship_data_template[502104] = {
 
 _G.pg.base.ship_data_template[503011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -99504,7 +99504,7 @@ _G.pg.base.ship_data_template[503011] = {
 
 _G.pg.base.ship_data_template[503012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -99550,7 +99550,7 @@ _G.pg.base.ship_data_template[503012] = {
 
 _G.pg.base.ship_data_template[503013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -99642,7 +99642,7 @@ _G.pg.base.ship_data_template[503014] = {
 
 _G.pg.base.ship_data_template[504011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -99689,7 +99689,7 @@ _G.pg.base.ship_data_template[504011] = {
 
 _G.pg.base.ship_data_template[504012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -99737,7 +99737,7 @@ _G.pg.base.ship_data_template[504012] = {
 
 _G.pg.base.ship_data_template[504013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -99833,7 +99833,7 @@ _G.pg.base.ship_data_template[504014] = {
 
 _G.pg.base.ship_data_template[506011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -99882,7 +99882,7 @@ _G.pg.base.ship_data_template[506011] = {
 
 _G.pg.base.ship_data_template[506012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -99932,7 +99932,7 @@ _G.pg.base.ship_data_template[506012] = {
 
 _G.pg.base.ship_data_template[506013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -100089,7 +100089,7 @@ _G.pg.base.ship_data_template[506114] = {
 
 _G.pg.base.ship_data_template[506021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -100138,7 +100138,7 @@ _G.pg.base.ship_data_template[506021] = {
 
 _G.pg.base.ship_data_template[506022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -100187,7 +100187,7 @@ _G.pg.base.ship_data_template[506022] = {
 
 _G.pg.base.ship_data_template[506023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -100341,7 +100341,7 @@ _G.pg.base.ship_data_template[506124] = {
 
 _G.pg.base.ship_data_template[519011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -100391,7 +100391,7 @@ _G.pg.base.ship_data_template[519011] = {
 
 _G.pg.base.ship_data_template[519012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -100441,7 +100441,7 @@ _G.pg.base.ship_data_template[519012] = {
 
 _G.pg.base.ship_data_template[519013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -100955,7 +100955,7 @@ _G.pg.base.ship_data_template[521044] = {
 
 _G.pg.base.ship_data_template[601021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -101002,7 +101002,7 @@ _G.pg.base.ship_data_template[601021] = {
 
 _G.pg.base.ship_data_template[601022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -101050,7 +101050,7 @@ _G.pg.base.ship_data_template[601022] = {
 
 _G.pg.base.ship_data_template[601023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -101148,7 +101148,7 @@ _G.pg.base.ship_data_template[601024] = {
 
 _G.pg.base.ship_data_template[601031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -101195,7 +101195,7 @@ _G.pg.base.ship_data_template[601031] = {
 
 _G.pg.base.ship_data_template[601032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -101243,7 +101243,7 @@ _G.pg.base.ship_data_template[601032] = {
 
 _G.pg.base.ship_data_template[601033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -101341,7 +101341,7 @@ _G.pg.base.ship_data_template[601034] = {
 
 _G.pg.base.ship_data_template[601041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -101388,7 +101388,7 @@ _G.pg.base.ship_data_template[601041] = {
 
 _G.pg.base.ship_data_template[601042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -101436,7 +101436,7 @@ _G.pg.base.ship_data_template[601042] = {
 
 _G.pg.base.ship_data_template[601043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -101534,7 +101534,7 @@ _G.pg.base.ship_data_template[601044] = {
 
 _G.pg.base.ship_data_template[601051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -101581,7 +101581,7 @@ _G.pg.base.ship_data_template[601051] = {
 
 _G.pg.base.ship_data_template[601052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -101629,7 +101629,7 @@ _G.pg.base.ship_data_template[601052] = {
 
 _G.pg.base.ship_data_template[601053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -101727,7 +101727,7 @@ _G.pg.base.ship_data_template[601054] = {
 
 _G.pg.base.ship_data_template[601061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -101774,7 +101774,7 @@ _G.pg.base.ship_data_template[601061] = {
 
 _G.pg.base.ship_data_template[601062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -101822,7 +101822,7 @@ _G.pg.base.ship_data_template[601062] = {
 
 _G.pg.base.ship_data_template[601063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -101920,7 +101920,7 @@ _G.pg.base.ship_data_template[601064] = {
 
 _G.pg.base.ship_data_template[601071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -101967,7 +101967,7 @@ _G.pg.base.ship_data_template[601071] = {
 
 _G.pg.base.ship_data_template[601072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -102015,7 +102015,7 @@ _G.pg.base.ship_data_template[601072] = {
 
 _G.pg.base.ship_data_template[601073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -102113,7 +102113,7 @@ _G.pg.base.ship_data_template[601074] = {
 
 _G.pg.base.ship_data_template[601081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -102160,7 +102160,7 @@ _G.pg.base.ship_data_template[601081] = {
 
 _G.pg.base.ship_data_template[601082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -102208,7 +102208,7 @@ _G.pg.base.ship_data_template[601082] = {
 
 _G.pg.base.ship_data_template[601083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -102306,7 +102306,7 @@ _G.pg.base.ship_data_template[601084] = {
 
 _G.pg.base.ship_data_template[601091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -102353,7 +102353,7 @@ _G.pg.base.ship_data_template[601091] = {
 
 _G.pg.base.ship_data_template[601092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -102401,7 +102401,7 @@ _G.pg.base.ship_data_template[601092] = {
 
 _G.pg.base.ship_data_template[601093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -102499,7 +102499,7 @@ _G.pg.base.ship_data_template[601094] = {
 
 _G.pg.base.ship_data_template[601101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -102546,7 +102546,7 @@ _G.pg.base.ship_data_template[601101] = {
 
 _G.pg.base.ship_data_template[601102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -102594,7 +102594,7 @@ _G.pg.base.ship_data_template[601102] = {
 
 _G.pg.base.ship_data_template[601103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -102692,7 +102692,7 @@ _G.pg.base.ship_data_template[601104] = {
 
 _G.pg.base.ship_data_template[601111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -102739,7 +102739,7 @@ _G.pg.base.ship_data_template[601111] = {
 
 _G.pg.base.ship_data_template[601112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -102787,7 +102787,7 @@ _G.pg.base.ship_data_template[601112] = {
 
 _G.pg.base.ship_data_template[601113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -102885,7 +102885,7 @@ _G.pg.base.ship_data_template[601114] = {
 
 _G.pg.base.ship_data_template[602011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -102934,7 +102934,7 @@ _G.pg.base.ship_data_template[602011] = {
 
 _G.pg.base.ship_data_template[602012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -102984,7 +102984,7 @@ _G.pg.base.ship_data_template[602012] = {
 
 _G.pg.base.ship_data_template[602013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -103084,7 +103084,7 @@ _G.pg.base.ship_data_template[602014] = {
 
 _G.pg.base.ship_data_template[602021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -103133,7 +103133,7 @@ _G.pg.base.ship_data_template[602021] = {
 
 _G.pg.base.ship_data_template[602022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -103183,7 +103183,7 @@ _G.pg.base.ship_data_template[602022] = {
 
 _G.pg.base.ship_data_template[602023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -103283,7 +103283,7 @@ _G.pg.base.ship_data_template[602024] = {
 
 _G.pg.base.ship_data_template[602031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -103330,7 +103330,7 @@ _G.pg.base.ship_data_template[602031] = {
 
 _G.pg.base.ship_data_template[602032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -103378,7 +103378,7 @@ _G.pg.base.ship_data_template[602032] = {
 
 _G.pg.base.ship_data_template[602033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -103474,7 +103474,7 @@ _G.pg.base.ship_data_template[602034] = {
 
 _G.pg.base.ship_data_template[603011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 4,
 	energy = 150,
@@ -103517,7 +103517,7 @@ _G.pg.base.ship_data_template[603011] = {
 
 _G.pg.base.ship_data_template[603012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -103561,7 +103561,7 @@ _G.pg.base.ship_data_template[603012] = {
 
 _G.pg.base.ship_data_template[603013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -103649,7 +103649,7 @@ _G.pg.base.ship_data_template[603014] = {
 
 _G.pg.base.ship_data_template[603021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 6,
 	energy = 150,
@@ -103694,7 +103694,7 @@ _G.pg.base.ship_data_template[603021] = {
 
 _G.pg.base.ship_data_template[603022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -103740,7 +103740,7 @@ _G.pg.base.ship_data_template[603022] = {
 
 _G.pg.base.ship_data_template[603023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -103832,7 +103832,7 @@ _G.pg.base.ship_data_template[603024] = {
 
 _G.pg.base.ship_data_template[603031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 6,
 	energy = 150,
@@ -103877,7 +103877,7 @@ _G.pg.base.ship_data_template[603031] = {
 
 _G.pg.base.ship_data_template[603032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -103923,7 +103923,7 @@ _G.pg.base.ship_data_template[603032] = {
 
 _G.pg.base.ship_data_template[603033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -104015,7 +104015,7 @@ _G.pg.base.ship_data_template[603034] = {
 
 _G.pg.base.ship_data_template[603041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 5,
 	energy = 150,
@@ -104060,7 +104060,7 @@ _G.pg.base.ship_data_template[603041] = {
 
 _G.pg.base.ship_data_template[603042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -104106,7 +104106,7 @@ _G.pg.base.ship_data_template[603042] = {
 
 _G.pg.base.ship_data_template[603043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -104198,7 +104198,7 @@ _G.pg.base.ship_data_template[603044] = {
 
 _G.pg.base.ship_data_template[603051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 5,
 	energy = 150,
@@ -104243,7 +104243,7 @@ _G.pg.base.ship_data_template[603051] = {
 
 _G.pg.base.ship_data_template[603052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -104289,7 +104289,7 @@ _G.pg.base.ship_data_template[603052] = {
 
 _G.pg.base.ship_data_template[603053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -104381,7 +104381,7 @@ _G.pg.base.ship_data_template[603054] = {
 
 _G.pg.base.ship_data_template[603061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95500,
 	oil_at_end = 6,
 	energy = 150,
@@ -104426,7 +104426,7 @@ _G.pg.base.ship_data_template[603061] = {
 
 _G.pg.base.ship_data_template[603062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -104472,7 +104472,7 @@ _G.pg.base.ship_data_template[603062] = {
 
 _G.pg.base.ship_data_template[603063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -104564,7 +104564,7 @@ _G.pg.base.ship_data_template[603064] = {
 
 _G.pg.base.ship_data_template[605011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95100,
 	oil_at_end = 9,
 	energy = 150,
@@ -104614,7 +104614,7 @@ _G.pg.base.ship_data_template[605011] = {
 
 _G.pg.base.ship_data_template[605012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -104665,7 +104665,7 @@ _G.pg.base.ship_data_template[605012] = {
 
 _G.pg.base.ship_data_template[605013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -104767,7 +104767,7 @@ _G.pg.base.ship_data_template[605014] = {
 
 _G.pg.base.ship_data_template[605021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95100,
 	oil_at_end = 9,
 	energy = 150,
@@ -104815,7 +104815,7 @@ _G.pg.base.ship_data_template[605021] = {
 
 _G.pg.base.ship_data_template[605022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -104864,7 +104864,7 @@ _G.pg.base.ship_data_template[605022] = {
 
 _G.pg.base.ship_data_template[605023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -104962,7 +104962,7 @@ _G.pg.base.ship_data_template[605024] = {
 
 _G.pg.base.ship_data_template[605031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 95100,
 	oil_at_end = 9,
 	energy = 150,
@@ -105012,7 +105012,7 @@ _G.pg.base.ship_data_template[605031] = {
 
 _G.pg.base.ship_data_template[605032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -105063,7 +105063,7 @@ _G.pg.base.ship_data_template[605032] = {
 
 _G.pg.base.ship_data_template[605033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -105165,7 +105165,7 @@ _G.pg.base.ship_data_template[605034] = {
 
 _G.pg.base.ship_data_template[605051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -105210,7 +105210,7 @@ _G.pg.base.ship_data_template[605051] = {
 
 _G.pg.base.ship_data_template[605052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -105256,7 +105256,7 @@ _G.pg.base.ship_data_template[605052] = {
 
 _G.pg.base.ship_data_template[605053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -105348,7 +105348,7 @@ _G.pg.base.ship_data_template[605054] = {
 
 _G.pg.base.ship_data_template[605061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -105395,7 +105395,7 @@ _G.pg.base.ship_data_template[605061] = {
 
 _G.pg.base.ship_data_template[605062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -105443,7 +105443,7 @@ _G.pg.base.ship_data_template[605062] = {
 
 _G.pg.base.ship_data_template[605063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -105539,7 +105539,7 @@ _G.pg.base.ship_data_template[605064] = {
 
 _G.pg.base.ship_data_template[605071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -105587,7 +105587,7 @@ _G.pg.base.ship_data_template[605071] = {
 
 _G.pg.base.ship_data_template[605072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -105636,7 +105636,7 @@ _G.pg.base.ship_data_template[605072] = {
 
 _G.pg.base.ship_data_template[605073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -105937,7 +105937,7 @@ _G.pg.base.ship_data_template[605084] = {
 
 _G.pg.base.ship_data_template[607011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -105987,7 +105987,7 @@ _G.pg.base.ship_data_template[607011] = {
 
 _G.pg.base.ship_data_template[607012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -106037,7 +106037,7 @@ _G.pg.base.ship_data_template[607012] = {
 
 _G.pg.base.ship_data_template[607013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -106140,7 +106140,7 @@ _G.pg.base.ship_data_template[607014] = {
 
 _G.pg.base.ship_data_template[607021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -106188,7 +106188,7 @@ _G.pg.base.ship_data_template[607021] = {
 
 _G.pg.base.ship_data_template[607022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -106236,7 +106236,7 @@ _G.pg.base.ship_data_template[607022] = {
 
 _G.pg.base.ship_data_template[607023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -106333,7 +106333,7 @@ _G.pg.base.ship_data_template[607024] = {
 
 _G.pg.base.ship_data_template[608011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -106376,7 +106376,7 @@ _G.pg.base.ship_data_template[608011] = {
 
 _G.pg.base.ship_data_template[608012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -106420,7 +106420,7 @@ _G.pg.base.ship_data_template[608012] = {
 
 _G.pg.base.ship_data_template[608013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -106508,7 +106508,7 @@ _G.pg.base.ship_data_template[608014] = {
 
 _G.pg.base.ship_data_template[608021] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -106555,7 +106555,7 @@ _G.pg.base.ship_data_template[608021] = {
 
 _G.pg.base.ship_data_template[608022] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -106603,7 +106603,7 @@ _G.pg.base.ship_data_template[608022] = {
 
 _G.pg.base.ship_data_template[608023] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -106699,7 +106699,7 @@ _G.pg.base.ship_data_template[608024] = {
 
 _G.pg.base.ship_data_template[608031] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -106746,7 +106746,7 @@ _G.pg.base.ship_data_template[608031] = {
 
 _G.pg.base.ship_data_template[608032] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -106794,7 +106794,7 @@ _G.pg.base.ship_data_template[608032] = {
 
 _G.pg.base.ship_data_template[608033] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -106890,7 +106890,7 @@ _G.pg.base.ship_data_template[608034] = {
 
 _G.pg.base.ship_data_template[701021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -106937,7 +106937,7 @@ _G.pg.base.ship_data_template[701021] = {
 
 _G.pg.base.ship_data_template[701022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -106985,7 +106985,7 @@ _G.pg.base.ship_data_template[701022] = {
 
 _G.pg.base.ship_data_template[701023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -107083,7 +107083,7 @@ _G.pg.base.ship_data_template[701024] = {
 
 _G.pg.base.ship_data_template[701031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -107130,7 +107130,7 @@ _G.pg.base.ship_data_template[701031] = {
 
 _G.pg.base.ship_data_template[701032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -107178,7 +107178,7 @@ _G.pg.base.ship_data_template[701032] = {
 
 _G.pg.base.ship_data_template[701033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -107276,7 +107276,7 @@ _G.pg.base.ship_data_template[701034] = {
 
 _G.pg.base.ship_data_template[701041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -107323,7 +107323,7 @@ _G.pg.base.ship_data_template[701041] = {
 
 _G.pg.base.ship_data_template[701042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -107371,7 +107371,7 @@ _G.pg.base.ship_data_template[701042] = {
 
 _G.pg.base.ship_data_template[701043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -107469,7 +107469,7 @@ _G.pg.base.ship_data_template[701044] = {
 
 _G.pg.base.ship_data_template[701051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -107516,7 +107516,7 @@ _G.pg.base.ship_data_template[701051] = {
 
 _G.pg.base.ship_data_template[701052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -107564,7 +107564,7 @@ _G.pg.base.ship_data_template[701052] = {
 
 _G.pg.base.ship_data_template[701053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -107662,7 +107662,7 @@ _G.pg.base.ship_data_template[701054] = {
 
 _G.pg.base.ship_data_template[701061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -107709,7 +107709,7 @@ _G.pg.base.ship_data_template[701061] = {
 
 _G.pg.base.ship_data_template[701062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -107757,7 +107757,7 @@ _G.pg.base.ship_data_template[701062] = {
 
 _G.pg.base.ship_data_template[701063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -107855,7 +107855,7 @@ _G.pg.base.ship_data_template[701064] = {
 
 _G.pg.base.ship_data_template[701071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -107902,7 +107902,7 @@ _G.pg.base.ship_data_template[701071] = {
 
 _G.pg.base.ship_data_template[701072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -107950,7 +107950,7 @@ _G.pg.base.ship_data_template[701072] = {
 
 _G.pg.base.ship_data_template[701073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -108048,7 +108048,7 @@ _G.pg.base.ship_data_template[701074] = {
 
 _G.pg.base.ship_data_template[701081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -108095,7 +108095,7 @@ _G.pg.base.ship_data_template[701081] = {
 
 _G.pg.base.ship_data_template[701082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -108143,7 +108143,7 @@ _G.pg.base.ship_data_template[701082] = {
 
 _G.pg.base.ship_data_template[701083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -108241,7 +108241,7 @@ _G.pg.base.ship_data_template[701084] = {
 
 _G.pg.base.ship_data_template[701091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -108288,7 +108288,7 @@ _G.pg.base.ship_data_template[701091] = {
 
 _G.pg.base.ship_data_template[701092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -108336,7 +108336,7 @@ _G.pg.base.ship_data_template[701092] = {
 
 _G.pg.base.ship_data_template[701093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -108434,7 +108434,7 @@ _G.pg.base.ship_data_template[701094] = {
 
 _G.pg.base.ship_data_template[701101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -108481,7 +108481,7 @@ _G.pg.base.ship_data_template[701101] = {
 
 _G.pg.base.ship_data_template[701102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -108529,7 +108529,7 @@ _G.pg.base.ship_data_template[701102] = {
 
 _G.pg.base.ship_data_template[701103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -108627,7 +108627,7 @@ _G.pg.base.ship_data_template[701104] = {
 
 _G.pg.base.ship_data_template[701111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -108674,7 +108674,7 @@ _G.pg.base.ship_data_template[701111] = {
 
 _G.pg.base.ship_data_template[701112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -108722,7 +108722,7 @@ _G.pg.base.ship_data_template[701112] = {
 
 _G.pg.base.ship_data_template[701113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -108820,7 +108820,7 @@ _G.pg.base.ship_data_template[701114] = {
 
 _G.pg.base.ship_data_template[701121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -108867,7 +108867,7 @@ _G.pg.base.ship_data_template[701121] = {
 
 _G.pg.base.ship_data_template[701122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -108915,7 +108915,7 @@ _G.pg.base.ship_data_template[701122] = {
 
 _G.pg.base.ship_data_template[701123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -109013,7 +109013,7 @@ _G.pg.base.ship_data_template[701124] = {
 
 _G.pg.base.ship_data_template[702011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -109058,7 +109058,7 @@ _G.pg.base.ship_data_template[702011] = {
 
 _G.pg.base.ship_data_template[702012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -109104,7 +109104,7 @@ _G.pg.base.ship_data_template[702012] = {
 
 _G.pg.base.ship_data_template[702013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -109196,7 +109196,7 @@ _G.pg.base.ship_data_template[702014] = {
 
 _G.pg.base.ship_data_template[702021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -109242,7 +109242,7 @@ _G.pg.base.ship_data_template[702021] = {
 
 _G.pg.base.ship_data_template[702022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -109289,7 +109289,7 @@ _G.pg.base.ship_data_template[702022] = {
 
 _G.pg.base.ship_data_template[702023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -109383,7 +109383,7 @@ _G.pg.base.ship_data_template[702024] = {
 
 _G.pg.base.ship_data_template[702031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 85060,
 	oil_at_end = 5,
 	energy = 150,
@@ -109430,7 +109430,7 @@ _G.pg.base.ship_data_template[702031] = {
 
 _G.pg.base.ship_data_template[702032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -109478,7 +109478,7 @@ _G.pg.base.ship_data_template[702032] = {
 
 _G.pg.base.ship_data_template[702033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -109574,7 +109574,7 @@ _G.pg.base.ship_data_template[702034] = {
 
 _G.pg.base.ship_data_template[702041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -109621,7 +109621,7 @@ _G.pg.base.ship_data_template[702041] = {
 
 _G.pg.base.ship_data_template[702042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -109669,7 +109669,7 @@ _G.pg.base.ship_data_template[702042] = {
 
 _G.pg.base.ship_data_template[702043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -109765,7 +109765,7 @@ _G.pg.base.ship_data_template[702044] = {
 
 _G.pg.base.ship_data_template[702051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 85060,
 	oil_at_end = 5,
 	energy = 150,
@@ -109812,7 +109812,7 @@ _G.pg.base.ship_data_template[702051] = {
 
 _G.pg.base.ship_data_template[702052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -109860,7 +109860,7 @@ _G.pg.base.ship_data_template[702052] = {
 
 _G.pg.base.ship_data_template[702053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -109956,7 +109956,7 @@ _G.pg.base.ship_data_template[702054] = {
 
 _G.pg.base.ship_data_template[702061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 26300,
 	oil_at_end = 4,
 	energy = 150,
@@ -110003,7 +110003,7 @@ _G.pg.base.ship_data_template[702061] = {
 
 _G.pg.base.ship_data_template[702062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -110051,7 +110051,7 @@ _G.pg.base.ship_data_template[702062] = {
 
 _G.pg.base.ship_data_template[702063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -110147,7 +110147,7 @@ _G.pg.base.ship_data_template[702064] = {
 
 _G.pg.base.ship_data_template[702071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -110194,7 +110194,7 @@ _G.pg.base.ship_data_template[702071] = {
 
 _G.pg.base.ship_data_template[702072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -110242,7 +110242,7 @@ _G.pg.base.ship_data_template[702072] = {
 
 _G.pg.base.ship_data_template[702073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -110338,7 +110338,7 @@ _G.pg.base.ship_data_template[702074] = {
 
 _G.pg.base.ship_data_template[702081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -110385,7 +110385,7 @@ _G.pg.base.ship_data_template[702081] = {
 
 _G.pg.base.ship_data_template[702082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -110433,7 +110433,7 @@ _G.pg.base.ship_data_template[702082] = {
 
 _G.pg.base.ship_data_template[702083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -110576,7 +110576,7 @@ _G.pg.base.ship_data_template[702124] = {
 
 _G.pg.base.ship_data_template[703011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -110624,7 +110624,7 @@ _G.pg.base.ship_data_template[703011] = {
 
 _G.pg.base.ship_data_template[703012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -110673,7 +110673,7 @@ _G.pg.base.ship_data_template[703012] = {
 
 _G.pg.base.ship_data_template[703013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -110771,7 +110771,7 @@ _G.pg.base.ship_data_template[703014] = {
 
 _G.pg.base.ship_data_template[703021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -110820,7 +110820,7 @@ _G.pg.base.ship_data_template[703021] = {
 
 _G.pg.base.ship_data_template[703022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -110870,7 +110870,7 @@ _G.pg.base.ship_data_template[703022] = {
 
 _G.pg.base.ship_data_template[703023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -110970,7 +110970,7 @@ _G.pg.base.ship_data_template[703024] = {
 
 _G.pg.base.ship_data_template[705011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -111018,7 +111018,7 @@ _G.pg.base.ship_data_template[705011] = {
 
 _G.pg.base.ship_data_template[705012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -111067,7 +111067,7 @@ _G.pg.base.ship_data_template[705012] = {
 
 _G.pg.base.ship_data_template[705013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -111368,7 +111368,7 @@ _G.pg.base.ship_data_template[705024] = {
 
 _G.pg.base.ship_data_template[705041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 85360,
 	oil_at_end = 9,
 	energy = 150,
@@ -111416,7 +111416,7 @@ _G.pg.base.ship_data_template[705041] = {
 
 _G.pg.base.ship_data_template[705042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -111465,7 +111465,7 @@ _G.pg.base.ship_data_template[705042] = {
 
 _G.pg.base.ship_data_template[705043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -111563,7 +111563,7 @@ _G.pg.base.ship_data_template[705044] = {
 
 _G.pg.base.ship_data_template[705051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 85360,
 	oil_at_end = 9,
 	energy = 150,
@@ -111611,7 +111611,7 @@ _G.pg.base.ship_data_template[705051] = {
 
 _G.pg.base.ship_data_template[705052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -111660,7 +111660,7 @@ _G.pg.base.ship_data_template[705052] = {
 
 _G.pg.base.ship_data_template[705053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -111758,7 +111758,7 @@ _G.pg.base.ship_data_template[705054] = {
 
 _G.pg.base.ship_data_template[705061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -111806,7 +111806,7 @@ _G.pg.base.ship_data_template[705061] = {
 
 _G.pg.base.ship_data_template[705062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -111855,7 +111855,7 @@ _G.pg.base.ship_data_template[705062] = {
 
 _G.pg.base.ship_data_template[705063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -111953,7 +111953,7 @@ _G.pg.base.ship_data_template[705064] = {
 
 _G.pg.base.ship_data_template[705071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -112001,7 +112001,7 @@ _G.pg.base.ship_data_template[705071] = {
 
 _G.pg.base.ship_data_template[705072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -112050,7 +112050,7 @@ _G.pg.base.ship_data_template[705072] = {
 
 _G.pg.base.ship_data_template[705073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -112148,7 +112148,7 @@ _G.pg.base.ship_data_template[705074] = {
 
 _G.pg.base.ship_data_template[705081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -112196,7 +112196,7 @@ _G.pg.base.ship_data_template[705081] = {
 
 _G.pg.base.ship_data_template[705082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -112245,7 +112245,7 @@ _G.pg.base.ship_data_template[705082] = {
 
 _G.pg.base.ship_data_template[705083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -112343,7 +112343,7 @@ _G.pg.base.ship_data_template[705084] = {
 
 _G.pg.base.ship_data_template[705091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -112391,7 +112391,7 @@ _G.pg.base.ship_data_template[705091] = {
 
 _G.pg.base.ship_data_template[705092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -112440,7 +112440,7 @@ _G.pg.base.ship_data_template[705092] = {
 
 _G.pg.base.ship_data_template[705093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -112538,7 +112538,7 @@ _G.pg.base.ship_data_template[705094] = {
 
 _G.pg.base.ship_data_template[707011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -112588,7 +112588,7 @@ _G.pg.base.ship_data_template[707011] = {
 
 _G.pg.base.ship_data_template[707012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -112638,7 +112638,7 @@ _G.pg.base.ship_data_template[707012] = {
 
 _G.pg.base.ship_data_template[707013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -112928,7 +112928,7 @@ _G.pg.base.ship_data_template[718014] = {
 
 _G.pg.base.ship_data_template[801011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -112975,7 +112975,7 @@ _G.pg.base.ship_data_template[801011] = {
 
 _G.pg.base.ship_data_template[801012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -113023,7 +113023,7 @@ _G.pg.base.ship_data_template[801012] = {
 
 _G.pg.base.ship_data_template[801013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -113121,7 +113121,7 @@ _G.pg.base.ship_data_template[801014] = {
 
 _G.pg.base.ship_data_template[801021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -113167,7 +113167,7 @@ _G.pg.base.ship_data_template[801021] = {
 
 _G.pg.base.ship_data_template[801022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -113214,7 +113214,7 @@ _G.pg.base.ship_data_template[801022] = {
 
 _G.pg.base.ship_data_template[801023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -113310,7 +113310,7 @@ _G.pg.base.ship_data_template[801024] = {
 
 _G.pg.base.ship_data_template[801031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -113357,7 +113357,7 @@ _G.pg.base.ship_data_template[801031] = {
 
 _G.pg.base.ship_data_template[801032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -113405,7 +113405,7 @@ _G.pg.base.ship_data_template[801032] = {
 
 _G.pg.base.ship_data_template[801033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -113503,7 +113503,7 @@ _G.pg.base.ship_data_template[801034] = {
 
 _G.pg.base.ship_data_template[801041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -113550,7 +113550,7 @@ _G.pg.base.ship_data_template[801041] = {
 
 _G.pg.base.ship_data_template[801042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -113598,7 +113598,7 @@ _G.pg.base.ship_data_template[801042] = {
 
 _G.pg.base.ship_data_template[801043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -113696,7 +113696,7 @@ _G.pg.base.ship_data_template[801044] = {
 
 _G.pg.base.ship_data_template[801051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -113743,7 +113743,7 @@ _G.pg.base.ship_data_template[801051] = {
 
 _G.pg.base.ship_data_template[801052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -113791,7 +113791,7 @@ _G.pg.base.ship_data_template[801052] = {
 
 _G.pg.base.ship_data_template[801053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -113889,7 +113889,7 @@ _G.pg.base.ship_data_template[801054] = {
 
 _G.pg.base.ship_data_template[801071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -113936,7 +113936,7 @@ _G.pg.base.ship_data_template[801071] = {
 
 _G.pg.base.ship_data_template[801072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -113984,7 +113984,7 @@ _G.pg.base.ship_data_template[801072] = {
 
 _G.pg.base.ship_data_template[801073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -114082,7 +114082,7 @@ _G.pg.base.ship_data_template[801074] = {
 
 _G.pg.base.ship_data_template[801081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -114127,7 +114127,7 @@ _G.pg.base.ship_data_template[801081] = {
 
 _G.pg.base.ship_data_template[801082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -114173,7 +114173,7 @@ _G.pg.base.ship_data_template[801082] = {
 
 _G.pg.base.ship_data_template[801083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -114267,7 +114267,7 @@ _G.pg.base.ship_data_template[801084] = {
 
 _G.pg.base.ship_data_template[801091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -114314,7 +114314,7 @@ _G.pg.base.ship_data_template[801091] = {
 
 _G.pg.base.ship_data_template[801092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -114362,7 +114362,7 @@ _G.pg.base.ship_data_template[801092] = {
 
 _G.pg.base.ship_data_template[801093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -114460,7 +114460,7 @@ _G.pg.base.ship_data_template[801094] = {
 
 _G.pg.base.ship_data_template[802011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -114508,7 +114508,7 @@ _G.pg.base.ship_data_template[802011] = {
 
 _G.pg.base.ship_data_template[802012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -114557,7 +114557,7 @@ _G.pg.base.ship_data_template[802012] = {
 
 _G.pg.base.ship_data_template[802013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -114655,7 +114655,7 @@ _G.pg.base.ship_data_template[802014] = {
 
 _G.pg.base.ship_data_template[802021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -114702,7 +114702,7 @@ _G.pg.base.ship_data_template[802021] = {
 
 _G.pg.base.ship_data_template[802022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -114750,7 +114750,7 @@ _G.pg.base.ship_data_template[802022] = {
 
 _G.pg.base.ship_data_template[802023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -114846,7 +114846,7 @@ _G.pg.base.ship_data_template[802024] = {
 
 _G.pg.base.ship_data_template[802031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -114893,7 +114893,7 @@ _G.pg.base.ship_data_template[802031] = {
 
 _G.pg.base.ship_data_template[802032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -114941,7 +114941,7 @@ _G.pg.base.ship_data_template[802032] = {
 
 _G.pg.base.ship_data_template[802033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -115037,7 +115037,7 @@ _G.pg.base.ship_data_template[802034] = {
 
 _G.pg.base.ship_data_template[802041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -115084,7 +115084,7 @@ _G.pg.base.ship_data_template[802041] = {
 
 _G.pg.base.ship_data_template[802042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -115132,7 +115132,7 @@ _G.pg.base.ship_data_template[802042] = {
 
 _G.pg.base.ship_data_template[802043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -115228,7 +115228,7 @@ _G.pg.base.ship_data_template[802044] = {
 
 _G.pg.base.ship_data_template[803011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -115273,7 +115273,7 @@ _G.pg.base.ship_data_template[803011] = {
 
 _G.pg.base.ship_data_template[803012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -115319,7 +115319,7 @@ _G.pg.base.ship_data_template[803012] = {
 
 _G.pg.base.ship_data_template[803013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -115411,7 +115411,7 @@ _G.pg.base.ship_data_template[803014] = {
 
 _G.pg.base.ship_data_template[803021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -115456,7 +115456,7 @@ _G.pg.base.ship_data_template[803021] = {
 
 _G.pg.base.ship_data_template[803022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -115502,7 +115502,7 @@ _G.pg.base.ship_data_template[803022] = {
 
 _G.pg.base.ship_data_template[803023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -115594,7 +115594,7 @@ _G.pg.base.ship_data_template[803024] = {
 
 _G.pg.base.ship_data_template[803031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -115639,7 +115639,7 @@ _G.pg.base.ship_data_template[803031] = {
 
 _G.pg.base.ship_data_template[803032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -115685,7 +115685,7 @@ _G.pg.base.ship_data_template[803032] = {
 
 _G.pg.base.ship_data_template[803033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -115777,7 +115777,7 @@ _G.pg.base.ship_data_template[803034] = {
 
 _G.pg.base.ship_data_template[804011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -115824,7 +115824,7 @@ _G.pg.base.ship_data_template[804011] = {
 
 _G.pg.base.ship_data_template[804012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -115872,7 +115872,7 @@ _G.pg.base.ship_data_template[804012] = {
 
 _G.pg.base.ship_data_template[804013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -115968,7 +115968,7 @@ _G.pg.base.ship_data_template[804014] = {
 
 _G.pg.base.ship_data_template[805011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -116018,7 +116018,7 @@ _G.pg.base.ship_data_template[805011] = {
 
 _G.pg.base.ship_data_template[805012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -116068,7 +116068,7 @@ _G.pg.base.ship_data_template[805012] = {
 
 _G.pg.base.ship_data_template[805013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -116170,7 +116170,7 @@ _G.pg.base.ship_data_template[805014] = {
 
 _G.pg.base.ship_data_template[805021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -116218,7 +116218,7 @@ _G.pg.base.ship_data_template[805021] = {
 
 _G.pg.base.ship_data_template[805022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -116267,7 +116267,7 @@ _G.pg.base.ship_data_template[805022] = {
 
 _G.pg.base.ship_data_template[805023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -116568,7 +116568,7 @@ _G.pg.base.ship_data_template[805034] = {
 
 _G.pg.base.ship_data_template[806011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -116618,7 +116618,7 @@ _G.pg.base.ship_data_template[806011] = {
 
 _G.pg.base.ship_data_template[806012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -116668,7 +116668,7 @@ _G.pg.base.ship_data_template[806012] = {
 
 _G.pg.base.ship_data_template[806013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -116770,7 +116770,7 @@ _G.pg.base.ship_data_template[806014] = {
 
 _G.pg.base.ship_data_template[807011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 90800,
 	oil_at_end = 6,
 	energy = 150,
@@ -116819,7 +116819,7 @@ _G.pg.base.ship_data_template[807011] = {
 
 _G.pg.base.ship_data_template[807012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -116868,7 +116868,7 @@ _G.pg.base.ship_data_template[807012] = {
 
 _G.pg.base.ship_data_template[807013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -116968,7 +116968,7 @@ _G.pg.base.ship_data_template[807014] = {
 
 _G.pg.base.ship_data_template[807021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -117016,7 +117016,7 @@ _G.pg.base.ship_data_template[807021] = {
 
 _G.pg.base.ship_data_template[807022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -117064,7 +117064,7 @@ _G.pg.base.ship_data_template[807022] = {
 
 _G.pg.base.ship_data_template[807023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -117162,7 +117162,7 @@ _G.pg.base.ship_data_template[807024] = {
 
 _G.pg.base.ship_data_template[808011] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 7340,
 	oil_at_end = 4,
 	energy = 150,
@@ -117207,7 +117207,7 @@ _G.pg.base.ship_data_template[808011] = {
 
 _G.pg.base.ship_data_template[808012] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -117253,7 +117253,7 @@ _G.pg.base.ship_data_template[808012] = {
 
 _G.pg.base.ship_data_template[808013] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -117345,7 +117345,7 @@ _G.pg.base.ship_data_template[808014] = {
 
 _G.pg.base.ship_data_template[901011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 2,
 	energy = 150,
@@ -117391,7 +117391,7 @@ _G.pg.base.ship_data_template[901011] = {
 
 _G.pg.base.ship_data_template[901012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -117438,7 +117438,7 @@ _G.pg.base.ship_data_template[901012] = {
 
 _G.pg.base.ship_data_template[901013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -117534,7 +117534,7 @@ _G.pg.base.ship_data_template[901014] = {
 
 _G.pg.base.ship_data_template[901021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -117579,7 +117579,7 @@ _G.pg.base.ship_data_template[901021] = {
 
 _G.pg.base.ship_data_template[901022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -117625,7 +117625,7 @@ _G.pg.base.ship_data_template[901022] = {
 
 _G.pg.base.ship_data_template[901023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -117719,7 +117719,7 @@ _G.pg.base.ship_data_template[901024] = {
 
 _G.pg.base.ship_data_template[901031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -117764,7 +117764,7 @@ _G.pg.base.ship_data_template[901031] = {
 
 _G.pg.base.ship_data_template[901032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -117810,7 +117810,7 @@ _G.pg.base.ship_data_template[901032] = {
 
 _G.pg.base.ship_data_template[901033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -117904,7 +117904,7 @@ _G.pg.base.ship_data_template[901034] = {
 
 _G.pg.base.ship_data_template[901041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -117949,7 +117949,7 @@ _G.pg.base.ship_data_template[901041] = {
 
 _G.pg.base.ship_data_template[901042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -117995,7 +117995,7 @@ _G.pg.base.ship_data_template[901042] = {
 
 _G.pg.base.ship_data_template[901043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -118089,7 +118089,7 @@ _G.pg.base.ship_data_template[901044] = {
 
 _G.pg.base.ship_data_template[901051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -118136,7 +118136,7 @@ _G.pg.base.ship_data_template[901051] = {
 
 _G.pg.base.ship_data_template[901052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -118184,7 +118184,7 @@ _G.pg.base.ship_data_template[901052] = {
 
 _G.pg.base.ship_data_template[901053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -118282,7 +118282,7 @@ _G.pg.base.ship_data_template[901054] = {
 
 _G.pg.base.ship_data_template[901061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -118329,7 +118329,7 @@ _G.pg.base.ship_data_template[901061] = {
 
 _G.pg.base.ship_data_template[901062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -118377,7 +118377,7 @@ _G.pg.base.ship_data_template[901062] = {
 
 _G.pg.base.ship_data_template[901063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -118676,7 +118676,7 @@ _G.pg.base.ship_data_template[901074] = {
 
 _G.pg.base.ship_data_template[901111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -118723,7 +118723,7 @@ _G.pg.base.ship_data_template[901111] = {
 
 _G.pg.base.ship_data_template[901112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -118771,7 +118771,7 @@ _G.pg.base.ship_data_template[901112] = {
 
 _G.pg.base.ship_data_template[901113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -118869,7 +118869,7 @@ _G.pg.base.ship_data_template[901114] = {
 
 _G.pg.base.ship_data_template[901121] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -118916,7 +118916,7 @@ _G.pg.base.ship_data_template[901121] = {
 
 _G.pg.base.ship_data_template[901122] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -118964,7 +118964,7 @@ _G.pg.base.ship_data_template[901122] = {
 
 _G.pg.base.ship_data_template[901123] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -119062,7 +119062,7 @@ _G.pg.base.ship_data_template[901124] = {
 
 _G.pg.base.ship_data_template[901131] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -119109,7 +119109,7 @@ _G.pg.base.ship_data_template[901131] = {
 
 _G.pg.base.ship_data_template[901132] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -119157,7 +119157,7 @@ _G.pg.base.ship_data_template[901132] = {
 
 _G.pg.base.ship_data_template[901133] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -119255,7 +119255,7 @@ _G.pg.base.ship_data_template[901134] = {
 
 _G.pg.base.ship_data_template[901141] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -119302,7 +119302,7 @@ _G.pg.base.ship_data_template[901141] = {
 
 _G.pg.base.ship_data_template[901142] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -119350,7 +119350,7 @@ _G.pg.base.ship_data_template[901142] = {
 
 _G.pg.base.ship_data_template[901143] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -119448,7 +119448,7 @@ _G.pg.base.ship_data_template[901144] = {
 
 _G.pg.base.ship_data_template[902011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -119495,7 +119495,7 @@ _G.pg.base.ship_data_template[902011] = {
 
 _G.pg.base.ship_data_template[902012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -119543,7 +119543,7 @@ _G.pg.base.ship_data_template[902012] = {
 
 _G.pg.base.ship_data_template[902013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -119639,7 +119639,7 @@ _G.pg.base.ship_data_template[902014] = {
 
 _G.pg.base.ship_data_template[902021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -119686,7 +119686,7 @@ _G.pg.base.ship_data_template[902021] = {
 
 _G.pg.base.ship_data_template[902022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -119734,7 +119734,7 @@ _G.pg.base.ship_data_template[902022] = {
 
 _G.pg.base.ship_data_template[902023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -119830,7 +119830,7 @@ _G.pg.base.ship_data_template[902024] = {
 
 _G.pg.base.ship_data_template[903011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -119875,7 +119875,7 @@ _G.pg.base.ship_data_template[903011] = {
 
 _G.pg.base.ship_data_template[903012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -119921,7 +119921,7 @@ _G.pg.base.ship_data_template[903012] = {
 
 _G.pg.base.ship_data_template[903013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -120013,7 +120013,7 @@ _G.pg.base.ship_data_template[903014] = {
 
 _G.pg.base.ship_data_template[903021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -120058,7 +120058,7 @@ _G.pg.base.ship_data_template[903021] = {
 
 _G.pg.base.ship_data_template[903022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -120104,7 +120104,7 @@ _G.pg.base.ship_data_template[903022] = {
 
 _G.pg.base.ship_data_template[903023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -120196,7 +120196,7 @@ _G.pg.base.ship_data_template[903024] = {
 
 _G.pg.base.ship_data_template[903031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -120241,7 +120241,7 @@ _G.pg.base.ship_data_template[903031] = {
 
 _G.pg.base.ship_data_template[903032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -120287,7 +120287,7 @@ _G.pg.base.ship_data_template[903032] = {
 
 _G.pg.base.ship_data_template[903033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -120379,7 +120379,7 @@ _G.pg.base.ship_data_template[903034] = {
 
 _G.pg.base.ship_data_template[904011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -120424,7 +120424,7 @@ _G.pg.base.ship_data_template[904011] = {
 
 _G.pg.base.ship_data_template[904012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -120469,7 +120469,7 @@ _G.pg.base.ship_data_template[904012] = {
 
 _G.pg.base.ship_data_template[904013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -120560,7 +120560,7 @@ _G.pg.base.ship_data_template[904014] = {
 
 _G.pg.base.ship_data_template[904021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -120607,7 +120607,7 @@ _G.pg.base.ship_data_template[904021] = {
 
 _G.pg.base.ship_data_template[904022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -120654,7 +120654,7 @@ _G.pg.base.ship_data_template[904022] = {
 
 _G.pg.base.ship_data_template[904023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -120749,7 +120749,7 @@ _G.pg.base.ship_data_template[904024] = {
 
 _G.pg.base.ship_data_template[905011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -120797,7 +120797,7 @@ _G.pg.base.ship_data_template[905011] = {
 
 _G.pg.base.ship_data_template[905012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -120845,7 +120845,7 @@ _G.pg.base.ship_data_template[905012] = {
 
 _G.pg.base.ship_data_template[905013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -120942,7 +120942,7 @@ _G.pg.base.ship_data_template[905014] = {
 
 _G.pg.base.ship_data_template[905021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -120992,7 +120992,7 @@ _G.pg.base.ship_data_template[905021] = {
 
 _G.pg.base.ship_data_template[905022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -121042,7 +121042,7 @@ _G.pg.base.ship_data_template[905022] = {
 
 _G.pg.base.ship_data_template[905023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -121143,7 +121143,7 @@ _G.pg.base.ship_data_template[905024] = {
 
 _G.pg.base.ship_data_template[905031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -121191,7 +121191,7 @@ _G.pg.base.ship_data_template[905031] = {
 
 _G.pg.base.ship_data_template[905032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -121239,7 +121239,7 @@ _G.pg.base.ship_data_template[905032] = {
 
 _G.pg.base.ship_data_template[905033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -121335,7 +121335,7 @@ _G.pg.base.ship_data_template[905034] = {
 
 _G.pg.base.ship_data_template[907011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -121383,7 +121383,7 @@ _G.pg.base.ship_data_template[907011] = {
 
 _G.pg.base.ship_data_template[907012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -121431,7 +121431,7 @@ _G.pg.base.ship_data_template[907012] = {
 
 _G.pg.base.ship_data_template[907013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -121689,51 +121689,6 @@ _G.pg.base.ship_data_template[900007] = {
 	buff_list_display = {},
 	hide_buff_list = {
 		340
-	}
-}
-
-
-_G.pg.base.ship_data_template[900020] = {
-	oil_at_start = 0,
-	max_level = 100,
-	equip_id_3 = 36550,
-	oil_at_end = 0,
-	energy = 150,
-	type = 2,
-	can_get_proficency = 0,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 50201,
-	equip_id_2 = 32046,
-	equip_id_1 = 7146,
-	group_type = 50201,
-	id = 900020,
-	specific_type = {},
-	equip_1 = {
-		2
-	},
-	equip_2 = {
-		1,
-		2
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {},
-	buff_list_display = {},
-	hide_buff_list = {
-		9010,
-		9020,
-		24122
 	}
 }
 
@@ -122066,145 +122021,6 @@ _G.pg.base.ship_data_template[900046] = {
 	hide_buff_list = {
 		340
 	}
-}
-
-
-_G.pg.base.ship_data_template[900047] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 13,
-	energy = 150,
-	type = 7,
-	can_get_proficency = 0,
-	star = 6,
-	star_max = 6,
-	strengthen_id = 20703,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 20703,
-	id = 900047,
-	specific_type = {},
-	equip_1 = {
-		7
-	},
-	equip_2 = {
-		7
-	},
-	equip_3 = {
-		8
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {
-		25,
-		25
-	},
-	buff_list = {
-		10340
-	},
-	buff_list_display = {
-		10340
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900048] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 8,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 30111,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 30111,
-	id = 900048,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10620,
-		22072
-	},
-	buff_list_display = {
-		10620,
-		22072
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900049] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 8,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 30112,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 30112,
-	id = 900049,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10630,
-		22072
-	},
-	buff_list_display = {
-		10630,
-		22072
-	},
-	hide_buff_list = {}
 }
 
 
@@ -125186,234 +125002,6 @@ _G.pg.base.ship_data_template[900282] = {
 		2,
 		340
 	}
-}
-
-
-_G.pg.base.ship_data_template[900290] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 10117,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 10117,
-	id = 900290,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10410,
-		29052
-	},
-	buff_list_display = {
-		10410,
-		11210,
-		29052
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900291] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 10117,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 10117,
-	id = 900291,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10410,
-		29052
-	},
-	buff_list_display = {
-		10410,
-		11210,
-		29052
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900292] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 10117,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 10117,
-	id = 900292,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10410,
-		29052
-	},
-	buff_list_display = {
-		10410,
-		11210,
-		29052
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900293] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 10117,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 10117,
-	id = 900293,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		10410,
-		29052
-	},
-	buff_list_display = {
-		10410,
-		11210,
-		29052
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[900294] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 10117,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 10117,
-	id = 900294,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {},
-	buff_list_display = {},
-	hide_buff_list = {}
 }
 
 
@@ -135741,7 +135329,7 @@ _G.pg.base.ship_data_template[900912] = {
 
 _G.pg.base.ship_data_template[1101011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -135788,7 +135376,7 @@ _G.pg.base.ship_data_template[1101011] = {
 
 _G.pg.base.ship_data_template[1101012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -135836,7 +135424,7 @@ _G.pg.base.ship_data_template[1101012] = {
 
 _G.pg.base.ship_data_template[1101013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -135934,7 +135522,7 @@ _G.pg.base.ship_data_template[1101014] = {
 
 _G.pg.base.ship_data_template[1102011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -135981,7 +135569,7 @@ _G.pg.base.ship_data_template[1102011] = {
 
 _G.pg.base.ship_data_template[1102012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -136029,7 +135617,7 @@ _G.pg.base.ship_data_template[1102012] = {
 
 _G.pg.base.ship_data_template[1102013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -136126,7 +135714,7 @@ _G.pg.base.ship_data_template[1102014] = {
 
 _G.pg.base.ship_data_template[9600011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -136174,7 +135762,7 @@ _G.pg.base.ship_data_template[9600011] = {
 
 _G.pg.base.ship_data_template[9600012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -136223,7 +135811,7 @@ _G.pg.base.ship_data_template[9600012] = {
 
 _G.pg.base.ship_data_template[9600013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -136321,7 +135909,7 @@ _G.pg.base.ship_data_template[9600014] = {
 
 _G.pg.base.ship_data_template[9600021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -136367,7 +135955,7 @@ _G.pg.base.ship_data_template[9600021] = {
 
 _G.pg.base.ship_data_template[9600022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -136414,7 +136002,7 @@ _G.pg.base.ship_data_template[9600022] = {
 
 _G.pg.base.ship_data_template[9600023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -136508,7 +136096,7 @@ _G.pg.base.ship_data_template[9600024] = {
 
 _G.pg.base.ship_data_template[9600031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -136553,7 +136141,7 @@ _G.pg.base.ship_data_template[9600031] = {
 
 _G.pg.base.ship_data_template[9600032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -136599,7 +136187,7 @@ _G.pg.base.ship_data_template[9600032] = {
 
 _G.pg.base.ship_data_template[9600033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -136691,7 +136279,7 @@ _G.pg.base.ship_data_template[9600034] = {
 
 _G.pg.base.ship_data_template[9600041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -136739,7 +136327,7 @@ _G.pg.base.ship_data_template[9600041] = {
 
 _G.pg.base.ship_data_template[9600042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -136788,7 +136376,7 @@ _G.pg.base.ship_data_template[9600042] = {
 
 _G.pg.base.ship_data_template[9600043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -136886,7 +136474,7 @@ _G.pg.base.ship_data_template[9600044] = {
 
 _G.pg.base.ship_data_template[9600051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -136934,7 +136522,7 @@ _G.pg.base.ship_data_template[9600051] = {
 
 _G.pg.base.ship_data_template[9600052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -136983,7 +136571,7 @@ _G.pg.base.ship_data_template[9600052] = {
 
 _G.pg.base.ship_data_template[9600053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -137081,7 +136669,7 @@ _G.pg.base.ship_data_template[9600054] = {
 
 _G.pg.base.ship_data_template[9600061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -137126,7 +136714,7 @@ _G.pg.base.ship_data_template[9600061] = {
 
 _G.pg.base.ship_data_template[9600062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -137172,7 +136760,7 @@ _G.pg.base.ship_data_template[9600062] = {
 
 _G.pg.base.ship_data_template[9600063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -137264,7 +136852,7 @@ _G.pg.base.ship_data_template[9600064] = {
 
 _G.pg.base.ship_data_template[9600071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -137310,7 +136898,7 @@ _G.pg.base.ship_data_template[9600071] = {
 
 _G.pg.base.ship_data_template[9600072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -137357,7 +136945,7 @@ _G.pg.base.ship_data_template[9600072] = {
 
 _G.pg.base.ship_data_template[9600073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -137451,7 +137039,7 @@ _G.pg.base.ship_data_template[9600074] = {
 
 _G.pg.base.ship_data_template[9600081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -137496,7 +137084,7 @@ _G.pg.base.ship_data_template[9600081] = {
 
 _G.pg.base.ship_data_template[9600082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -137542,7 +137130,7 @@ _G.pg.base.ship_data_template[9600082] = {
 
 _G.pg.base.ship_data_template[9600083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -137634,7 +137222,7 @@ _G.pg.base.ship_data_template[9600084] = {
 
 _G.pg.base.ship_data_template[9600091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -137682,7 +137270,7 @@ _G.pg.base.ship_data_template[9600091] = {
 
 _G.pg.base.ship_data_template[9600092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -137731,7 +137319,7 @@ _G.pg.base.ship_data_template[9600092] = {
 
 _G.pg.base.ship_data_template[9600093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -137829,7 +137417,7 @@ _G.pg.base.ship_data_template[9600094] = {
 
 _G.pg.base.ship_data_template[9600101] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -137874,7 +137462,7 @@ _G.pg.base.ship_data_template[9600101] = {
 
 _G.pg.base.ship_data_template[9600102] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -137920,7 +137508,7 @@ _G.pg.base.ship_data_template[9600102] = {
 
 _G.pg.base.ship_data_template[9600103] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -138012,7 +137600,7 @@ _G.pg.base.ship_data_template[9600104] = {
 
 _G.pg.base.ship_data_template[9600111] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -138060,7 +137648,7 @@ _G.pg.base.ship_data_template[9600111] = {
 
 _G.pg.base.ship_data_template[9600112] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -138109,7 +137697,7 @@ _G.pg.base.ship_data_template[9600112] = {
 
 _G.pg.base.ship_data_template[9600113] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -149646,7 +149234,7 @@ _G.pg.base.ship_data_template[900943] = {
 
 _G.pg.base.ship_data_template[10100011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -149690,7 +149278,7 @@ _G.pg.base.ship_data_template[10100011] = {
 
 _G.pg.base.ship_data_template[10100012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -149734,7 +149322,7 @@ _G.pg.base.ship_data_template[10100012] = {
 
 _G.pg.base.ship_data_template[10100013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -149822,7 +149410,7 @@ _G.pg.base.ship_data_template[10100014] = {
 
 _G.pg.base.ship_data_template[10100021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -149864,7 +149452,7 @@ _G.pg.base.ship_data_template[10100021] = {
 
 _G.pg.base.ship_data_template[10100022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -149906,7 +149494,7 @@ _G.pg.base.ship_data_template[10100022] = {
 
 _G.pg.base.ship_data_template[10100023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -149990,7 +149578,7 @@ _G.pg.base.ship_data_template[10100024] = {
 
 _G.pg.base.ship_data_template[10100031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -150034,7 +149622,7 @@ _G.pg.base.ship_data_template[10100031] = {
 
 _G.pg.base.ship_data_template[10100032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -150078,7 +149666,7 @@ _G.pg.base.ship_data_template[10100032] = {
 
 _G.pg.base.ship_data_template[10100033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -150168,7 +149756,7 @@ _G.pg.base.ship_data_template[10100034] = {
 
 _G.pg.base.ship_data_template[10100041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -150214,7 +149802,7 @@ _G.pg.base.ship_data_template[10100041] = {
 
 _G.pg.base.ship_data_template[10100042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -150260,7 +149848,7 @@ _G.pg.base.ship_data_template[10100042] = {
 
 _G.pg.base.ship_data_template[10100043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -150354,7 +149942,7 @@ _G.pg.base.ship_data_template[10100044] = {
 
 _G.pg.base.ship_data_template[10100051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -150401,7 +149989,7 @@ _G.pg.base.ship_data_template[10100051] = {
 
 _G.pg.base.ship_data_template[10100052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -150449,7 +150037,7 @@ _G.pg.base.ship_data_template[10100052] = {
 
 _G.pg.base.ship_data_template[10100053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -150545,7 +150133,7 @@ _G.pg.base.ship_data_template[10100054] = {
 
 _G.pg.base.ship_data_template[10100061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -150588,7 +150176,7 @@ _G.pg.base.ship_data_template[10100061] = {
 
 _G.pg.base.ship_data_template[10100062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -150632,7 +150220,7 @@ _G.pg.base.ship_data_template[10100062] = {
 
 _G.pg.base.ship_data_template[10100063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -150720,7 +150308,7 @@ _G.pg.base.ship_data_template[10100064] = {
 
 _G.pg.base.ship_data_template[10100071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -150765,7 +150353,7 @@ _G.pg.base.ship_data_template[10100071] = {
 
 _G.pg.base.ship_data_template[10100072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -150811,7 +150399,7 @@ _G.pg.base.ship_data_template[10100072] = {
 
 _G.pg.base.ship_data_template[10100073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -150905,7 +150493,7 @@ _G.pg.base.ship_data_template[10100074] = {
 
 _G.pg.base.ship_data_template[10100081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -150953,7 +150541,7 @@ _G.pg.base.ship_data_template[10100081] = {
 
 _G.pg.base.ship_data_template[10100082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -151001,7 +150589,7 @@ _G.pg.base.ship_data_template[10100082] = {
 
 _G.pg.base.ship_data_template[10100083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -151099,7 +150687,7 @@ _G.pg.base.ship_data_template[10100084] = {
 
 _G.pg.base.ship_data_template[10300011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -151142,7 +150730,7 @@ _G.pg.base.ship_data_template[10300011] = {
 
 _G.pg.base.ship_data_template[10300012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -151186,7 +150774,7 @@ _G.pg.base.ship_data_template[10300012] = {
 
 _G.pg.base.ship_data_template[10300013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -151274,7 +150862,7 @@ _G.pg.base.ship_data_template[10300014] = {
 
 _G.pg.base.ship_data_template[10300021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -151319,7 +150907,7 @@ _G.pg.base.ship_data_template[10300021] = {
 
 _G.pg.base.ship_data_template[10300022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -151365,7 +150953,7 @@ _G.pg.base.ship_data_template[10300022] = {
 
 _G.pg.base.ship_data_template[10300023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -151459,7 +151047,7 @@ _G.pg.base.ship_data_template[10300024] = {
 
 _G.pg.base.ship_data_template[10300031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -151504,7 +151092,7 @@ _G.pg.base.ship_data_template[10300031] = {
 
 _G.pg.base.ship_data_template[10300032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -151550,7 +151138,7 @@ _G.pg.base.ship_data_template[10300032] = {
 
 _G.pg.base.ship_data_template[10300033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -151642,7 +151230,7 @@ _G.pg.base.ship_data_template[10300034] = {
 
 _G.pg.base.ship_data_template[10300041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -151692,7 +151280,7 @@ _G.pg.base.ship_data_template[10300041] = {
 
 _G.pg.base.ship_data_template[10300042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -151742,7 +151330,7 @@ _G.pg.base.ship_data_template[10300042] = {
 
 _G.pg.base.ship_data_template[10300043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -151844,7 +151432,7 @@ _G.pg.base.ship_data_template[10300044] = {
 
 _G.pg.base.ship_data_template[10300051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -151894,7 +151482,7 @@ _G.pg.base.ship_data_template[10300051] = {
 
 _G.pg.base.ship_data_template[10300052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -151944,7 +151532,7 @@ _G.pg.base.ship_data_template[10300052] = {
 
 _G.pg.base.ship_data_template[10300053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -152046,7 +151634,7 @@ _G.pg.base.ship_data_template[10300054] = {
 
 _G.pg.base.ship_data_template[10300061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -152094,7 +151682,7 @@ _G.pg.base.ship_data_template[10300061] = {
 
 _G.pg.base.ship_data_template[10300062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -152142,7 +151730,7 @@ _G.pg.base.ship_data_template[10300062] = {
 
 _G.pg.base.ship_data_template[10300063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -152238,379 +151826,9 @@ _G.pg.base.ship_data_template[10300064] = {
 }
 
 
-_G.pg.base.ship_data_template[10200011] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 3,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 2,
-	star_max = 5,
-	strengthen_id = 1020001,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020001,
-	id = 10200011,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102020
-	},
-	buff_list_display = {
-		102020,
-		29291
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200012] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 5,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 3,
-	star_max = 5,
-	strengthen_id = 1020001,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020001,
-	id = 10200012,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102020,
-		29291
-	},
-	buff_list_display = {
-		102020,
-		29291
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200013] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 7,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 4,
-	star_max = 5,
-	strengthen_id = 1020001,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020001,
-	id = 10200013,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102020,
-		29291
-	},
-	buff_list_display = {
-		102020,
-		29291
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200014] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 1020001,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020001,
-	id = 10200014,
-	specific_type = {
-		"AUX"
-	},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102020,
-		29292
-	},
-	buff_list_display = {
-		102020,
-		29292
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200021] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 3,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 2,
-	star_max = 5,
-	strengthen_id = 1020002,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020002,
-	id = 10200021,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102010
-	},
-	buff_list_display = {
-		102010,
-		29301
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200022] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 5,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 3,
-	star_max = 5,
-	strengthen_id = 1020002,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020002,
-	id = 10200022,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102010,
-		29301
-	},
-	buff_list_display = {
-		102010,
-		29301
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200023] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 7,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 0,
-	star = 4,
-	star_max = 5,
-	strengthen_id = 1020002,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020002,
-	id = 10200023,
-	specific_type = {},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102010,
-		29301
-	},
-	buff_list_display = {
-		102010,
-		29301
-	},
-	hide_buff_list = {}
-}
-
-
-_G.pg.base.ship_data_template[10200024] = {
-	oil_at_start = 1,
-	max_level = 100,
-	equip_id_3 = 0,
-	oil_at_end = 9,
-	energy = 150,
-	type = 1,
-	can_get_proficency = 1,
-	star = 5,
-	star_max = 5,
-	strengthen_id = 1020002,
-	equip_id_2 = 0,
-	equip_id_1 = 0,
-	group_type = 1020002,
-	id = 10200024,
-	specific_type = {
-		"AUX"
-	},
-	equip_1 = {
-		1
-	},
-	equip_2 = {
-		5
-	},
-	equip_3 = {
-		6
-	},
-	equip_4 = {
-		10,
-		14
-	},
-	equip_5 = {
-		10,
-		14
-	},
-	airassist_time = {},
-	buff_list = {
-		102010,
-		29302
-	},
-	buff_list_display = {
-		102010,
-		29302
-	},
-	hide_buff_list = {}
-}
-
-
 _G.pg.base.ship_data_template[10400011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -152656,7 +151874,7 @@ _G.pg.base.ship_data_template[10400011] = {
 
 _G.pg.base.ship_data_template[10400012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -152702,7 +151920,7 @@ _G.pg.base.ship_data_template[10400012] = {
 
 _G.pg.base.ship_data_template[10400013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -152796,7 +152014,7 @@ _G.pg.base.ship_data_template[10400014] = {
 
 _G.pg.base.ship_data_template[10400021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -152840,7 +152058,7 @@ _G.pg.base.ship_data_template[10400021] = {
 
 _G.pg.base.ship_data_template[10400022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -152884,7 +152102,7 @@ _G.pg.base.ship_data_template[10400022] = {
 
 _G.pg.base.ship_data_template[10400023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -152972,7 +152190,7 @@ _G.pg.base.ship_data_template[10400024] = {
 
 _G.pg.base.ship_data_template[10400031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -153020,7 +152238,7 @@ _G.pg.base.ship_data_template[10400031] = {
 
 _G.pg.base.ship_data_template[10400032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -153068,7 +152286,7 @@ _G.pg.base.ship_data_template[10400032] = {
 
 _G.pg.base.ship_data_template[10400033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -153166,7 +152384,7 @@ _G.pg.base.ship_data_template[10400034] = {
 
 _G.pg.base.ship_data_template[10400041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -153214,7 +152432,7 @@ _G.pg.base.ship_data_template[10400041] = {
 
 _G.pg.base.ship_data_template[10400042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -153263,7 +152481,7 @@ _G.pg.base.ship_data_template[10400042] = {
 
 _G.pg.base.ship_data_template[10400043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -153361,7 +152579,7 @@ _G.pg.base.ship_data_template[10400044] = {
 
 _G.pg.base.ship_data_template[10500011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -153409,7 +152627,7 @@ _G.pg.base.ship_data_template[10500011] = {
 
 _G.pg.base.ship_data_template[10500012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -153457,7 +152675,7 @@ _G.pg.base.ship_data_template[10500012] = {
 
 _G.pg.base.ship_data_template[10500013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -153555,7 +152773,7 @@ _G.pg.base.ship_data_template[10500014] = {
 
 _G.pg.base.ship_data_template[10500021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -153603,7 +152821,7 @@ _G.pg.base.ship_data_template[10500021] = {
 
 _G.pg.base.ship_data_template[10500022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -153651,7 +152869,7 @@ _G.pg.base.ship_data_template[10500022] = {
 
 _G.pg.base.ship_data_template[10500023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -153749,7 +152967,7 @@ _G.pg.base.ship_data_template[10500024] = {
 
 _G.pg.base.ship_data_template[10500031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -153795,7 +153013,7 @@ _G.pg.base.ship_data_template[10500031] = {
 
 _G.pg.base.ship_data_template[10500032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -153841,7 +153059,7 @@ _G.pg.base.ship_data_template[10500032] = {
 
 _G.pg.base.ship_data_template[10500033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -153933,7 +153151,7 @@ _G.pg.base.ship_data_template[10500034] = {
 
 _G.pg.base.ship_data_template[10500041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 3,
 	energy = 150,
@@ -153979,7 +153197,7 @@ _G.pg.base.ship_data_template[10500041] = {
 
 _G.pg.base.ship_data_template[10500042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -154025,7 +153243,7 @@ _G.pg.base.ship_data_template[10500042] = {
 
 _G.pg.base.ship_data_template[10500043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -154119,7 +153337,7 @@ _G.pg.base.ship_data_template[10500044] = {
 
 _G.pg.base.ship_data_template[10500051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -154163,7 +153381,7 @@ _G.pg.base.ship_data_template[10500051] = {
 
 _G.pg.base.ship_data_template[10500052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -154207,7 +153425,7 @@ _G.pg.base.ship_data_template[10500052] = {
 
 _G.pg.base.ship_data_template[10500053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -154295,7 +153513,7 @@ _G.pg.base.ship_data_template[10500054] = {
 
 _G.pg.base.ship_data_template[10500061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -154345,7 +153563,7 @@ _G.pg.base.ship_data_template[10500061] = {
 
 _G.pg.base.ship_data_template[10500062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -154395,7 +153613,7 @@ _G.pg.base.ship_data_template[10500062] = {
 
 _G.pg.base.ship_data_template[10500063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -154497,7 +153715,7 @@ _G.pg.base.ship_data_template[10500064] = {
 
 _G.pg.base.ship_data_template[10500071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -154545,7 +153763,7 @@ _G.pg.base.ship_data_template[10500071] = {
 
 _G.pg.base.ship_data_template[10500072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -154593,7 +153811,7 @@ _G.pg.base.ship_data_template[10500072] = {
 
 _G.pg.base.ship_data_template[10500073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -154691,7 +153909,7 @@ _G.pg.base.ship_data_template[10500074] = {
 
 _G.pg.base.ship_data_template[10600011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -154737,7 +153955,7 @@ _G.pg.base.ship_data_template[10600011] = {
 
 _G.pg.base.ship_data_template[10600012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -154783,7 +154001,7 @@ _G.pg.base.ship_data_template[10600012] = {
 
 _G.pg.base.ship_data_template[10600013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -154877,7 +154095,7 @@ _G.pg.base.ship_data_template[10600014] = {
 
 _G.pg.base.ship_data_template[10600021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -154925,7 +154143,7 @@ _G.pg.base.ship_data_template[10600021] = {
 
 _G.pg.base.ship_data_template[10600022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -154974,7 +154192,7 @@ _G.pg.base.ship_data_template[10600022] = {
 
 _G.pg.base.ship_data_template[10600023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -155072,7 +154290,7 @@ _G.pg.base.ship_data_template[10600024] = {
 
 _G.pg.base.ship_data_template[10600031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -155116,7 +154334,7 @@ _G.pg.base.ship_data_template[10600031] = {
 
 _G.pg.base.ship_data_template[10600032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -155160,7 +154378,7 @@ _G.pg.base.ship_data_template[10600032] = {
 
 _G.pg.base.ship_data_template[10600033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -155248,7 +154466,7 @@ _G.pg.base.ship_data_template[10600034] = {
 
 _G.pg.base.ship_data_template[10600041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -155294,7 +154512,7 @@ _G.pg.base.ship_data_template[10600041] = {
 
 _G.pg.base.ship_data_template[10600042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -155340,7 +154558,7 @@ _G.pg.base.ship_data_template[10600042] = {
 
 _G.pg.base.ship_data_template[10600043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -155432,7 +154650,7 @@ _G.pg.base.ship_data_template[10600044] = {
 
 _G.pg.base.ship_data_template[10600051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -155480,7 +154698,7 @@ _G.pg.base.ship_data_template[10600051] = {
 
 _G.pg.base.ship_data_template[10600052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -155529,7 +154747,7 @@ _G.pg.base.ship_data_template[10600052] = {
 
 _G.pg.base.ship_data_template[10600053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -155627,7 +154845,7 @@ _G.pg.base.ship_data_template[10600054] = {
 
 _G.pg.base.ship_data_template[10600061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -155675,7 +154893,7 @@ _G.pg.base.ship_data_template[10600061] = {
 
 _G.pg.base.ship_data_template[10600062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -155723,7 +154941,7 @@ _G.pg.base.ship_data_template[10600062] = {
 
 _G.pg.base.ship_data_template[10600063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -155821,7 +155039,7 @@ _G.pg.base.ship_data_template[10600064] = {
 
 _G.pg.base.ship_data_template[10600071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -155867,7 +155085,7 @@ _G.pg.base.ship_data_template[10600071] = {
 
 _G.pg.base.ship_data_template[10600072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -155913,7 +155131,7 @@ _G.pg.base.ship_data_template[10600072] = {
 
 _G.pg.base.ship_data_template[10600073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -156005,7 +155223,7 @@ _G.pg.base.ship_data_template[10600074] = {
 
 _G.pg.base.ship_data_template[10600081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -156056,7 +155274,7 @@ _G.pg.base.ship_data_template[10600081] = {
 
 _G.pg.base.ship_data_template[10600082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -156107,7 +155325,7 @@ _G.pg.base.ship_data_template[10600082] = {
 
 _G.pg.base.ship_data_template[10600083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -156211,7 +155429,7 @@ _G.pg.base.ship_data_template[10600084] = {
 
 _G.pg.base.ship_data_template[10600091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -156259,7 +155477,7 @@ _G.pg.base.ship_data_template[10600091] = {
 
 _G.pg.base.ship_data_template[10600092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -156308,7 +155526,7 @@ _G.pg.base.ship_data_template[10600092] = {
 
 _G.pg.base.ship_data_template[10600093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -156406,7 +155624,7 @@ _G.pg.base.ship_data_template[10600094] = {
 
 _G.pg.base.ship_data_template[10700011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -156454,7 +155672,7 @@ _G.pg.base.ship_data_template[10700011] = {
 
 _G.pg.base.ship_data_template[10700012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -156502,7 +155720,7 @@ _G.pg.base.ship_data_template[10700012] = {
 
 _G.pg.base.ship_data_template[10700013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -156598,7 +155816,7 @@ _G.pg.base.ship_data_template[10700014] = {
 
 _G.pg.base.ship_data_template[10700021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -156648,7 +155866,7 @@ _G.pg.base.ship_data_template[10700021] = {
 
 _G.pg.base.ship_data_template[10700022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -156698,7 +155916,7 @@ _G.pg.base.ship_data_template[10700022] = {
 
 _G.pg.base.ship_data_template[10700023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -156800,7 +156018,7 @@ _G.pg.base.ship_data_template[10700024] = {
 
 _G.pg.base.ship_data_template[10700031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -156847,7 +156065,7 @@ _G.pg.base.ship_data_template[10700031] = {
 
 _G.pg.base.ship_data_template[10700032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -156895,7 +156113,7 @@ _G.pg.base.ship_data_template[10700032] = {
 
 _G.pg.base.ship_data_template[10700033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -156991,7 +156209,7 @@ _G.pg.base.ship_data_template[10700034] = {
 
 _G.pg.base.ship_data_template[10700041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -157037,7 +156255,7 @@ _G.pg.base.ship_data_template[10700041] = {
 
 _G.pg.base.ship_data_template[10700042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -157083,7 +156301,7 @@ _G.pg.base.ship_data_template[10700042] = {
 
 _G.pg.base.ship_data_template[10700043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -157175,7 +156393,7 @@ _G.pg.base.ship_data_template[10700044] = {
 
 _G.pg.base.ship_data_template[10700051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -157222,7 +156440,7 @@ _G.pg.base.ship_data_template[10700051] = {
 
 _G.pg.base.ship_data_template[10700052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -157269,7 +156487,7 @@ _G.pg.base.ship_data_template[10700052] = {
 
 _G.pg.base.ship_data_template[10700053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -157363,7 +156581,7 @@ _G.pg.base.ship_data_template[10700054] = {
 
 _G.pg.base.ship_data_template[10700061] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -157407,7 +156625,7 @@ _G.pg.base.ship_data_template[10700061] = {
 
 _G.pg.base.ship_data_template[10700062] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -157451,7 +156669,7 @@ _G.pg.base.ship_data_template[10700062] = {
 
 _G.pg.base.ship_data_template[10700063] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -157539,7 +156757,7 @@ _G.pg.base.ship_data_template[10700064] = {
 
 _G.pg.base.ship_data_template[10700071] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -157583,7 +156801,7 @@ _G.pg.base.ship_data_template[10700071] = {
 
 _G.pg.base.ship_data_template[10700072] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -157627,7 +156845,7 @@ _G.pg.base.ship_data_template[10700072] = {
 
 _G.pg.base.ship_data_template[10700073] = {
 	oil_at_start = 0,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -157715,7 +156933,7 @@ _G.pg.base.ship_data_template[10700074] = {
 
 _G.pg.base.ship_data_template[10800011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -157766,7 +156984,7 @@ _G.pg.base.ship_data_template[10800011] = {
 
 _G.pg.base.ship_data_template[10800012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -157817,7 +157035,7 @@ _G.pg.base.ship_data_template[10800012] = {
 
 _G.pg.base.ship_data_template[10800013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -157919,7 +157137,7 @@ _G.pg.base.ship_data_template[10800014] = {
 
 _G.pg.base.ship_data_template[10800021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -157969,7 +157187,7 @@ _G.pg.base.ship_data_template[10800021] = {
 
 _G.pg.base.ship_data_template[10800022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -158020,7 +157238,7 @@ _G.pg.base.ship_data_template[10800022] = {
 
 _G.pg.base.ship_data_template[10800023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -158122,7 +157340,7 @@ _G.pg.base.ship_data_template[10800024] = {
 
 _G.pg.base.ship_data_template[10800031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -158168,7 +157386,7 @@ _G.pg.base.ship_data_template[10800031] = {
 
 _G.pg.base.ship_data_template[10800032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -158214,7 +157432,7 @@ _G.pg.base.ship_data_template[10800032] = {
 
 _G.pg.base.ship_data_template[10800033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -158306,7 +157524,7 @@ _G.pg.base.ship_data_template[10800034] = {
 
 _G.pg.base.ship_data_template[10800041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -158350,7 +157568,7 @@ _G.pg.base.ship_data_template[10800041] = {
 
 _G.pg.base.ship_data_template[10800042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -158394,7 +157612,7 @@ _G.pg.base.ship_data_template[10800042] = {
 
 _G.pg.base.ship_data_template[10800043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -158482,7 +157700,7 @@ _G.pg.base.ship_data_template[10800044] = {
 
 _G.pg.base.ship_data_template[10800051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -158528,7 +157746,7 @@ _G.pg.base.ship_data_template[10800051] = {
 
 _G.pg.base.ship_data_template[10800052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -158574,7 +157792,7 @@ _G.pg.base.ship_data_template[10800052] = {
 
 _G.pg.base.ship_data_template[10800053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -158666,7 +157884,7 @@ _G.pg.base.ship_data_template[10800054] = {
 
 _G.pg.base.ship_data_template[10800061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -158714,7 +157932,7 @@ _G.pg.base.ship_data_template[10800061] = {
 
 _G.pg.base.ship_data_template[10800062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -158762,7 +157980,7 @@ _G.pg.base.ship_data_template[10800062] = {
 
 _G.pg.base.ship_data_template[10800063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -158860,7 +158078,7 @@ _G.pg.base.ship_data_template[10800064] = {
 
 _G.pg.base.ship_data_template[10800071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -158908,7 +158126,7 @@ _G.pg.base.ship_data_template[10800071] = {
 
 _G.pg.base.ship_data_template[10800072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -158957,7 +158175,7 @@ _G.pg.base.ship_data_template[10800072] = {
 
 _G.pg.base.ship_data_template[10800073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 12,
 	energy = 150,
@@ -159055,7 +158273,7 @@ _G.pg.base.ship_data_template[10800074] = {
 
 _G.pg.base.ship_data_template[10800081] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -159104,7 +158322,7 @@ _G.pg.base.ship_data_template[10800081] = {
 
 _G.pg.base.ship_data_template[10800082] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -159154,7 +158372,7 @@ _G.pg.base.ship_data_template[10800082] = {
 
 _G.pg.base.ship_data_template[10800083] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -159254,7 +158472,7 @@ _G.pg.base.ship_data_template[10800084] = {
 
 _G.pg.base.ship_data_template[10800091] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -159301,7 +158519,7 @@ _G.pg.base.ship_data_template[10800091] = {
 
 _G.pg.base.ship_data_template[10800092] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -159348,7 +158566,7 @@ _G.pg.base.ship_data_template[10800092] = {
 
 _G.pg.base.ship_data_template[10800093] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -159442,7 +158660,7 @@ _G.pg.base.ship_data_template[10800094] = {
 
 _G.pg.base.ship_data_template[10900011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -159494,7 +158712,7 @@ _G.pg.base.ship_data_template[10900011] = {
 
 _G.pg.base.ship_data_template[10900012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -159546,7 +158764,7 @@ _G.pg.base.ship_data_template[10900012] = {
 
 _G.pg.base.ship_data_template[10900013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -159650,7 +158868,7 @@ _G.pg.base.ship_data_template[10900014] = {
 
 _G.pg.base.ship_data_template[10900021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -159702,7 +158920,7 @@ _G.pg.base.ship_data_template[10900021] = {
 
 _G.pg.base.ship_data_template[10900022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -159754,7 +158972,7 @@ _G.pg.base.ship_data_template[10900022] = {
 
 _G.pg.base.ship_data_template[10900023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -159860,7 +159078,7 @@ _G.pg.base.ship_data_template[10900024] = {
 
 _G.pg.base.ship_data_template[10900031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -159910,7 +159128,7 @@ _G.pg.base.ship_data_template[10900031] = {
 
 _G.pg.base.ship_data_template[10900032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -159961,7 +159179,7 @@ _G.pg.base.ship_data_template[10900032] = {
 
 _G.pg.base.ship_data_template[10900033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -160063,7 +159281,7 @@ _G.pg.base.ship_data_template[10900034] = {
 
 _G.pg.base.ship_data_template[10900041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -160109,7 +159327,7 @@ _G.pg.base.ship_data_template[10900041] = {
 
 _G.pg.base.ship_data_template[10900042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -160155,7 +159373,7 @@ _G.pg.base.ship_data_template[10900042] = {
 
 _G.pg.base.ship_data_template[10900043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -160247,7 +159465,7 @@ _G.pg.base.ship_data_template[10900044] = {
 
 _G.pg.base.ship_data_template[10900051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -160297,7 +159515,7 @@ _G.pg.base.ship_data_template[10900051] = {
 
 _G.pg.base.ship_data_template[10900052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -160347,7 +159565,7 @@ _G.pg.base.ship_data_template[10900052] = {
 
 _G.pg.base.ship_data_template[10900053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -160449,7 +159667,7 @@ _G.pg.base.ship_data_template[10900054] = {
 
 _G.pg.base.ship_data_template[10900061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -160496,7 +159714,7 @@ _G.pg.base.ship_data_template[10900061] = {
 
 _G.pg.base.ship_data_template[10900062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -160543,7 +159761,7 @@ _G.pg.base.ship_data_template[10900062] = {
 
 _G.pg.base.ship_data_template[10900063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -160637,7 +159855,7 @@ _G.pg.base.ship_data_template[10900064] = {
 
 _G.pg.base.ship_data_template[11000011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -160683,7 +159901,7 @@ _G.pg.base.ship_data_template[11000011] = {
 
 _G.pg.base.ship_data_template[11000012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -160729,7 +159947,7 @@ _G.pg.base.ship_data_template[11000012] = {
 
 _G.pg.base.ship_data_template[11000013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -160823,7 +160041,7 @@ _G.pg.base.ship_data_template[11000014] = {
 
 _G.pg.base.ship_data_template[11000021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -160867,7 +160085,7 @@ _G.pg.base.ship_data_template[11000021] = {
 
 _G.pg.base.ship_data_template[11000022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -160911,7 +160129,7 @@ _G.pg.base.ship_data_template[11000022] = {
 
 _G.pg.base.ship_data_template[11000023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -161001,7 +160219,7 @@ _G.pg.base.ship_data_template[11000024] = {
 
 _G.pg.base.ship_data_template[11000031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -161045,7 +160263,7 @@ _G.pg.base.ship_data_template[11000031] = {
 
 _G.pg.base.ship_data_template[11000032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -161089,7 +160307,7 @@ _G.pg.base.ship_data_template[11000032] = {
 
 _G.pg.base.ship_data_template[11000033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -161179,7 +160397,7 @@ _G.pg.base.ship_data_template[11000034] = {
 
 _G.pg.base.ship_data_template[11000041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -161227,7 +160445,7 @@ _G.pg.base.ship_data_template[11000041] = {
 
 _G.pg.base.ship_data_template[11000042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -161275,7 +160493,7 @@ _G.pg.base.ship_data_template[11000042] = {
 
 _G.pg.base.ship_data_template[11000043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -161374,7 +160592,7 @@ _G.pg.base.ship_data_template[11000044] = {
 
 _G.pg.base.ship_data_template[11000051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -161422,7 +160640,7 @@ _G.pg.base.ship_data_template[11000051] = {
 
 _G.pg.base.ship_data_template[11000052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -161471,7 +160689,7 @@ _G.pg.base.ship_data_template[11000052] = {
 
 _G.pg.base.ship_data_template[11000053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -161570,7 +160788,7 @@ _G.pg.base.ship_data_template[11000054] = {
 
 _G.pg.base.ship_data_template[11000061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -161620,7 +160838,7 @@ _G.pg.base.ship_data_template[11000061] = {
 
 _G.pg.base.ship_data_template[11000062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -161670,7 +160888,7 @@ _G.pg.base.ship_data_template[11000062] = {
 
 _G.pg.base.ship_data_template[11000063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -161773,7 +160991,7 @@ _G.pg.base.ship_data_template[11000064] = {
 
 _G.pg.base.ship_data_template[11000071] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -161817,7 +161035,7 @@ _G.pg.base.ship_data_template[11000071] = {
 
 _G.pg.base.ship_data_template[11000072] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -161861,7 +161079,7 @@ _G.pg.base.ship_data_template[11000072] = {
 
 _G.pg.base.ship_data_template[11000073] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -161951,7 +161169,7 @@ _G.pg.base.ship_data_template[11000074] = {
 
 _G.pg.base.ship_data_template[11100011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -161995,7 +161213,7 @@ _G.pg.base.ship_data_template[11100011] = {
 
 _G.pg.base.ship_data_template[11100012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -162039,7 +161257,7 @@ _G.pg.base.ship_data_template[11100012] = {
 
 _G.pg.base.ship_data_template[11100013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -162127,7 +161345,7 @@ _G.pg.base.ship_data_template[11100014] = {
 
 _G.pg.base.ship_data_template[11100021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -162173,7 +161391,7 @@ _G.pg.base.ship_data_template[11100021] = {
 
 _G.pg.base.ship_data_template[11100022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -162219,7 +161437,7 @@ _G.pg.base.ship_data_template[11100022] = {
 
 _G.pg.base.ship_data_template[11100023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -162313,7 +161531,7 @@ _G.pg.base.ship_data_template[11100024] = {
 
 _G.pg.base.ship_data_template[11100031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -162359,7 +161577,7 @@ _G.pg.base.ship_data_template[11100031] = {
 
 _G.pg.base.ship_data_template[11100032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -162405,7 +161623,7 @@ _G.pg.base.ship_data_template[11100032] = {
 
 _G.pg.base.ship_data_template[11100033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -162497,7 +161715,7 @@ _G.pg.base.ship_data_template[11100034] = {
 
 _G.pg.base.ship_data_template[11100041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -162545,7 +161763,7 @@ _G.pg.base.ship_data_template[11100041] = {
 
 _G.pg.base.ship_data_template[11100042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -162594,7 +161812,7 @@ _G.pg.base.ship_data_template[11100042] = {
 
 _G.pg.base.ship_data_template[11100043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -162692,7 +161910,7 @@ _G.pg.base.ship_data_template[11100044] = {
 
 _G.pg.base.ship_data_template[11100051] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -162739,7 +161957,7 @@ _G.pg.base.ship_data_template[11100051] = {
 
 _G.pg.base.ship_data_template[11100052] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -162787,7 +162005,7 @@ _G.pg.base.ship_data_template[11100052] = {
 
 _G.pg.base.ship_data_template[11100053] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -162883,7 +162101,7 @@ _G.pg.base.ship_data_template[11100054] = {
 
 _G.pg.base.ship_data_template[11100061] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -162931,7 +162149,7 @@ _G.pg.base.ship_data_template[11100061] = {
 
 _G.pg.base.ship_data_template[11100062] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -162979,7 +162197,7 @@ _G.pg.base.ship_data_template[11100062] = {
 
 _G.pg.base.ship_data_template[11100063] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -163077,7 +162295,7 @@ _G.pg.base.ship_data_template[11100064] = {
 
 _G.pg.base.ship_data_template[11200011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -163125,7 +162343,7 @@ _G.pg.base.ship_data_template[11200011] = {
 
 _G.pg.base.ship_data_template[11200012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -163174,7 +162392,7 @@ _G.pg.base.ship_data_template[11200012] = {
 
 _G.pg.base.ship_data_template[11200013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -163272,7 +162490,7 @@ _G.pg.base.ship_data_template[11200014] = {
 
 _G.pg.base.ship_data_template[11200021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -163320,7 +162538,7 @@ _G.pg.base.ship_data_template[11200021] = {
 
 _G.pg.base.ship_data_template[11200022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -163368,7 +162586,7 @@ _G.pg.base.ship_data_template[11200022] = {
 
 _G.pg.base.ship_data_template[11200023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -163466,7 +162684,7 @@ _G.pg.base.ship_data_template[11200024] = {
 
 _G.pg.base.ship_data_template[11300011] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -163520,7 +162738,7 @@ _G.pg.base.ship_data_template[11300011] = {
 
 _G.pg.base.ship_data_template[11300012] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,
@@ -163574,7 +162792,7 @@ _G.pg.base.ship_data_template[11300012] = {
 
 _G.pg.base.ship_data_template[11300013] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 10,
 	energy = 150,
@@ -163684,7 +162902,7 @@ _G.pg.base.ship_data_template[11300014] = {
 
 _G.pg.base.ship_data_template[11300021] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 5,
 	energy = 150,
@@ -163732,7 +162950,7 @@ _G.pg.base.ship_data_template[11300021] = {
 
 _G.pg.base.ship_data_template[11300022] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 7,
 	energy = 150,
@@ -163780,7 +162998,7 @@ _G.pg.base.ship_data_template[11300022] = {
 
 _G.pg.base.ship_data_template[11300023] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -163876,7 +163094,7 @@ _G.pg.base.ship_data_template[11300024] = {
 
 _G.pg.base.ship_data_template[11300031] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 9,
 	energy = 150,
@@ -163925,7 +163143,7 @@ _G.pg.base.ship_data_template[11300031] = {
 
 _G.pg.base.ship_data_template[11300032] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 11,
 	energy = 150,
@@ -163975,7 +163193,7 @@ _G.pg.base.ship_data_template[11300032] = {
 
 _G.pg.base.ship_data_template[11300033] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 13,
 	energy = 150,
@@ -164075,7 +163293,7 @@ _G.pg.base.ship_data_template[11300034] = {
 
 _G.pg.base.ship_data_template[11300041] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 70,
 	equip_id_3 = 0,
 	oil_at_end = 4,
 	energy = 150,
@@ -164123,7 +163341,7 @@ _G.pg.base.ship_data_template[11300041] = {
 
 _G.pg.base.ship_data_template[11300042] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 80,
 	equip_id_3 = 0,
 	oil_at_end = 6,
 	energy = 150,
@@ -164171,7 +163389,7 @@ _G.pg.base.ship_data_template[11300042] = {
 
 _G.pg.base.ship_data_template[11300043] = {
 	oil_at_start = 1,
-	max_level = 100,
+	max_level = 90,
 	equip_id_3 = 0,
 	oil_at_end = 8,
 	energy = 150,

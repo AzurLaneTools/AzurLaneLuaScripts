@@ -2,10 +2,10 @@ pg = pg or {}
 pg.child_polaroid = {
 	{
 		group = 101,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 1,
-		title = "舌尖幸福",
+		title = "味覚の幸せ",
 		pic = "tb_1_2_1",
 		desc = "虽然只是普通的汉堡套餐……\n但是在玩累的时候吃上一口，就会觉得格外美味。",
 		stage = {
@@ -14,10 +14,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 101,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 2,
-		title = "舌尖幸福",
+		title = "味覚の幸せ",
 		pic = "tb_1_2_2",
 		desc = "餐厅的料理非常美味。\n还吃了好多好多小笼包。",
 		stage = {
@@ -26,10 +26,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 102,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 3,
-		title = "便利店的美味",
+		title = "コンビニグルメ",
 		pic = "tb_2_2_1",
 		desc = "说到露营，篝火和烤棉花糖就是必不可少的！\n如果棉花糖没有烤焦的话就更完美了。",
 		stage = {
@@ -38,10 +38,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 102,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 4,
-		title = "便利店的美味",
+		title = "コンビニグルメ",
 		pic = "tb_2_2_2",
 		desc = "在咖啡店里点了一杯咖啡。\n苦涩的液体让人难以下口……",
 		stage = {
@@ -50,9 +50,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 103,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 5,
-		title = "泡澡过后",
+		title = "お風呂上がり",
 		pic = "tb_3_31_1",
 		desc = "今天去赏樱了。\n樱花真的好美……",
 		stage = {
@@ -64,9 +64,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 103,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 6,
-		title = "泡澡过后",
+		title = "お風呂上がり",
 		pic = "tb_3_32_1",
 		desc = "试着做个苹果派吧。\n《烘焙指北》上面说这个最简单。",
 		stage = {
@@ -78,9 +78,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 103,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 7,
-		title = "泡澡过后",
+		title = "お風呂上がり",
 		pic = "tb_3_33_1",
 		desc = "和小动物相处的时候比较自在。\n就这样玩一整天好了。",
 		stage = {
@@ -92,9 +92,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 104,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 8,
-		title = "消磨时间",
+		title = "暇つぶし",
 		pic = "tb_4_31_1",
 		desc = "画画的时候就会觉得很平静。\n也许，之后应该试着去参加绘画比赛？",
 		stage = {
@@ -106,9 +106,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 104,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 9,
-		title = "消磨时间",
+		title = "暇つぶし",
 		pic = "tb_4_32_1",
 		desc = "发烧，好难受。\n什么时候才能恢复呢？",
 		stage = {
@@ -120,9 +120,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 104,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 10,
-		title = "消磨时间",
+		title = "暇つぶし",
 		pic = "tb_4_33_1",
 		desc = "飞机和积木……？\n这个要怎么才能拼在一起？",
 		stage = {
@@ -134,9 +134,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 105,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 11,
-		title = "欧气爆棚",
+		title = "運勢上々",
 		pic = "tb_5_31_1",
 		desc = "今天也给蔬菜浇了水。\n之后一定会迎来大丰收的。",
 		stage = {
@@ -148,9 +148,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 105,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 12,
-		title = "欧气爆棚",
+		title = "運勢上々",
 		pic = "tb_5_32_1",
 		desc = "校园开放日还是有点紧张。\n不能睡着……绝对不能睡着！",
 		stage = {
@@ -162,9 +162,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 105,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 13,
-		title = "欧气爆棚",
+		title = "運勢上々",
 		pic = "tb_5_33_1",
 		desc = "在学校里有些不习惯。\n不过，会慢慢适应校园生活的。",
 		stage = {
@@ -176,10 +176,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 106,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 14,
-		title = "大快朵颐",
+		title = "幸せごはん",
 		pic = "tb_6_2_1",
 		desc = "再多练几圈的话，游泳的速度会再提升一些吗？",
 		stage = {
@@ -188,10 +188,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 107,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 15,
-		title = "诱人香气",
+		title = "この香りは…",
 		pic = "tb_7_1_1",
 		desc = "游泳用时……\n或许以后可以往专业运动员方向发展？",
 		stage = {
@@ -200,9 +200,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 108,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 16,
-		title = "阅读时间",
+		title = "読書タイム",
 		pic = "tb_8_31_1",
 		desc = "不小心惹它生气了。\n对不起！但是……不要再追了！！！",
 		stage = {
@@ -214,9 +214,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 108,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 17,
-		title = "阅读时间",
+		title = "読書タイム",
 		pic = "tb_8_32_1",
 		desc = "甜点有些太多了。\n不知道能不能顺利吃完？",
 		stage = {
@@ -228,9 +228,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 108,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 18,
-		title = "阅读时间",
+		title = "読書タイム",
 		pic = "tb_8_33_1",
 		desc = "上钩的鱼跑了。\n看来钓鱼技术还有待加强。",
 		stage = {
@@ -242,10 +242,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 109,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 19,
-		title = "新鲜空气",
+		title = "リフレッシュ",
 		pic = "tb_9_1_1",
 		desc = "大鱼上钩！\n今天的收获不错呢。",
 		stage = {
@@ -254,10 +254,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 109,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 20,
-		title = "新鲜空气",
+		title = "リフレッシュ",
 		pic = "tb_9_1_2",
 		desc = "看来是个大家伙！\n钓上来的话，应该可以突破自己的纪录吧。",
 		stage = {
@@ -266,10 +266,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 110,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 21,
-		title = "选择困难",
+		title = "選べない…",
 		pic = "tb_10_2_1",
 		desc = "烟花秀开始前在集市上随便逛逛。\n买了苹果糖，但是……这个要怎么下口？",
 		stage = {
@@ -278,10 +278,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 110,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 22,
-		title = "选择困难",
+		title = "選べない…",
 		pic = "tb_10_2_2",
 		desc = "被洋葱辣到流泪！\n洋葱好难切……",
 		stage = {
@@ -290,9 +290,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 111,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 23,
-		title = "尽情吃喝",
+		title = "たらふく！",
 		pic = "tb_11_31_2",
 		desc = "便利店的饭团也很好吃。\n不想做饭的时候可以用它填饱肚子。",
 		stage = {
@@ -304,9 +304,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 111,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 24,
-		title = "尽情吃喝 ",
+		title = "たらふく！",
 		pic = "tb_11_32_2",
 		desc = "逛街的时候看到了好看的花。\n不知道下一个转角会有什么？",
 		stage = {
@@ -318,9 +318,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 111,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 25,
-		title = "尽情吃喝 ",
+		title = "たらふく！",
 		pic = "tb_11_33_2",
 		desc = "临近考试，赶紧复习复习。\n这种临时抱佛脚的做法……希望会有用。",
 		stage = {
@@ -332,10 +332,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 112,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 26,
-		title = "促销活动",
+		title = "セール！",
 		pic = "tb_12_2_2",
 		desc = "露营的时候记录一下自然风光。",
 		stage = {
@@ -344,10 +344,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 112,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 27,
-		title = "促销活动 ",
+		title = "セール！",
 		pic = "tb_12_2_3",
 		desc = "货架上的乐器……\n每一个都想试试。",
 		stage = {
@@ -356,9 +356,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 113,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 28,
-		title = "推荐菜品",
+		title = "オススメの一品",
 		pic = "tb_13_31_1",
 		desc = "学校鼓励增加课外阅读量。\n嗯……不知道有没有什么好书…",
 		stage = {
@@ -370,9 +370,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 113,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 29,
-		title = "推荐菜品",
+		title = "オススメの一品",
 		pic = "tb_13_32_1",
 		desc = "在演出之前一定要好好练习！",
 		stage = {
@@ -384,9 +384,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 113,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 30,
-		title = "推荐菜品",
+		title = "オススメの一品",
 		pic = "tb_13_33_1",
 		desc = "打工的商店举办了促销活动。\n卖力吆喝，好累……",
 		stage = {
@@ -398,9 +398,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 114,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 31,
-		title = "打工日常",
+		title = "バイトの日常",
 		pic = "tb_14_31_1",
 		desc = "对着照片画了学校的一部分。\n希望之后能有机会展览。",
 		stage = {
@@ -412,9 +412,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 114,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 32,
-		title = "打工日常",
+		title = "バイトの日常",
 		pic = "tb_14_32_1",
 		desc = "在运动中受伤了。\n下次得小心点。",
 		stage = {
@@ -426,9 +426,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 114,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 33,
-		title = "打工日常",
+		title = "バイトの日常",
 		pic = "tb_14_33_1",
 		desc = "拿的书太多全都掉地上了。\n下次还是要准备一个小推车才行啊。",
 		stage = {
@@ -440,9 +440,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 115,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 34,
-		title = "拉花的诀窍",
+		title = "ラテアート",
 		pic = "tb_15_31_1",
 		desc = "虽然摔了一跤，但比赛拿了第一！\n回去以后要好好庆祝一下。",
 		stage = {
@@ -454,9 +454,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 115,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 35,
-		title = "拉花的诀窍",
+		title = "ラテアート",
 		pic = "tb_15_32_1",
 		desc = "以最快的速度来到了终点！\n回去以后要好好庆祝一下。",
 		stage = {
@@ -468,9 +468,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 115,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 36,
-		title = "拉花的诀窍",
+		title = "ラテアート",
 		pic = "tb_15_33_1",
 		desc = "射击的姿势一定要帅气。\n全都射中的话大奖能带走吗？",
 		stage = {
@@ -482,10 +482,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 116,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 37,
-		title = "黑暗料理",
+		title = "ダーク料理",
 		pic = "tb_16_2_2",
 		desc = "毕业典礼就要开始了。\n但是毕业之后……做什么好？",
 		stage = {
@@ -494,10 +494,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 116,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 38,
-		title = "黑暗料理",
+		title = "ダーク料理",
 		pic = "tb_16_2_3",
 		desc = "没想到画作真的被展出了。\n看来成为大画家的未来近在咫尺。",
 		stage = {
@@ -506,10 +506,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 117,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 39,
-		title = "美味的汉堡",
+		title = "これ美味しい",
 		pic = "tb_17_1_1",
 		desc = "写真拍摄进行中……\n之后都洗出来放在相框里当纪念吧。",
 		stage = {
@@ -518,10 +518,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 117,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 40,
-		title = "美味的汉堡",
+		title = "これ美味しい",
 		pic = "tb_17_2_1",
 		desc = "希望表演一切顺利。\n一定可以的！",
 		stage = {
@@ -530,9 +530,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 117,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 41,
-		title = "美味的汉堡",
+		title = "これ美味しい",
 		pic = "tb_17_31_1",
 		desc = "在外面散步。\n和自然多多接触的话，心情也能变好。",
 		stage = {
@@ -544,9 +544,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 117,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 42,
-		title = "美味的汉堡",
+		title = "これ美味しい",
 		pic = "tb_17_32_1",
 		desc = "题目好难……\n还好提前复习了，危机顺利戒除。",
 		stage = {
@@ -558,9 +558,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 117,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 43,
-		title = "美味的汉堡",
+		title = "これ美味しい",
 		pic = "tb_17_33_1",
 		desc = "学园祭……基本一路都在吃小吃。\n晚饭还吃得下吗？",
 		stage = {
@@ -572,10 +572,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 118,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 44,
-		title = "拉面的做法",
+		title = "ラーメンの作り方",
 		pic = "tb_18_1_1",
 		desc = "为了考试成绩，得好好复习呢。\n不过不戴眼镜就很难看清楚字了……",
 		stage = {
@@ -584,10 +584,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 119,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 45,
-		title = "下厨体验",
+		title = "料理体験",
 		pic = "tb_19_2_1",
 		desc = "今天是便利店的打工日。\n希望下班前一切顺利。",
 		stage = {
@@ -596,10 +596,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 120,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 46,
-		title = "什么是“适量”？",
+		title = "適量とは…？",
 		pic = "tb_20_2_1",
 		desc = "在便利店里看漫画……\n不知不觉就用掉了好多时间。",
 		stage = {
@@ -608,9 +608,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 121,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 47,
-		title = "烘焙的方式",
+		title = "ベイキング",
 		pic = "tb_21_31_1",
 		desc = "蛋糕蛋糕~美味的蛋糕~\n一直这样说的话，做出来的成品应该会变得更美味吧。",
 		stage = {
@@ -622,9 +622,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 121,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 48,
-		title = "烘焙的方式",
+		title = "ベイキング",
 		pic = "tb_21_32_1",
 		desc = "精彩的扣篮。\n没想到还能爆发出这样的弹跳力。",
 		stage = {
@@ -636,9 +636,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 121,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 49,
-		title = "烘焙的方式",
+		title = "ベイキング",
 		pic = "tb_21_33_1",
 		desc = "在海边玩了蒙眼打西瓜的游戏。\n今天的西瓜很甜。 ",
 		stage = {
@@ -650,10 +650,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 122,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 50,
-		title = "美味的拉面",
+		title = "美味のラーメン",
 		pic = "tb_22_1_1",
 		desc = "放在最上层的书……踮脚也拿不到。\n下次还是垫个小椅子吧。",
 		stage = {
@@ -662,9 +662,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 123,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 51,
-		title = "出发海钓 ",
+		title = "釣りに行こう！",
 		pic = "tb_23_31_1",
 		desc = "奶泡冲倒速度不能太快……\n要匀速……嗯，完美的树叶拉花。",
 		stage = {
@@ -676,9 +676,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 123,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 52,
-		title = "出发海钓 ",
+		title = "釣りに行こう！",
 		pic = "tb_23_32_1",
 		desc = "今日的特别推荐是——刚出炉的包子。",
 		stage = {
@@ -690,9 +690,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 123,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 53,
-		title = "出发海钓 ",
+		title = "釣りに行こう！",
 		pic = "tb_23_33_1",
 		desc = "测试用文字",
 		stage = {
@@ -704,9 +704,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 124,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 54,
-		title = "砍树作业",
+		title = "木こり木こり",
 		pic = "tb_24_31_1",
 		desc = "洗完澡和泡完温泉后最舒服的事——\n就是来一杯冰镇牛奶！",
 		stage = {
@@ -718,9 +718,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 124,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 55,
-		title = "砍树作业",
+		title = "木こり木こり",
 		pic = "tb_24_32_1",
 		desc = "听说对着绽放的烟花许愿的话就能实现愿望。\n那就许愿……一直在一起吧。",
 		stage = {
@@ -732,9 +732,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 124,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 56,
-		title = "砍树作业",
+		title = "木こり木こり",
 		pic = "tb_24_33_1",
 		desc = "测试用文字",
 		stage = {
@@ -746,10 +746,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 125,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 57,
-		title = "两手空空",
+		title = "成果なし",
 		pic = "tb_25_2_1",
 		desc = "阳光、沙滩和饮料……\n海边的日光浴也很惬意呢。",
 		stage = {
@@ -758,10 +758,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 125,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 58,
-		title = "两手空空",
+		title = "成果なし",
 		pic = "tb_25_2_2",
 		desc = "在转角书屋挑到了好书，等不及回家了。\n就先这样看吧。",
 		stage = {
@@ -770,10 +770,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 125,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 59,
-		title = "两手空空",
+		title = "成果なし",
 		pic = "tb_25_2_3",
 		desc = "先是摇到三等奖的小熊，然后是特等奖的温泉旅行……\n运气真好！",
 		stage = {
@@ -782,9 +782,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 126,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 60,
-		title = "钓鱼达人！",
+		title = "釣りの達人",
 		pic = "tb_26_31_1",
 		desc = "游泳的时候收获了一个可爱的海星。\n不知道能不能养在家里。",
 		stage = {
@@ -796,9 +796,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 126,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 61,
-		title = "钓鱼达人！",
+		title = "釣りの達人",
 		pic = "tb_26_32_1",
 		desc = "",
 		stage = {
@@ -810,9 +810,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 126,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 62,
-		title = "钓鱼达人！",
+		title = "釣りの達人",
 		pic = "tb_26_33_1",
 		desc = "",
 		stage = {
@@ -824,10 +824,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 127,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 63,
-		title = "露营写生",
+		title = "大自然デッサン",
 		pic = "tb_27_2_1",
 		desc = "",
 		stage = {
@@ -836,10 +836,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 127,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 64,
-		title = "露营写生",
+		title = "大自然デッサン",
 		pic = "tb_27_2_2",
 		desc = "",
 		stage = {
@@ -848,10 +848,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 128,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 65,
-		title = "和小动物玩",
+		title = "一緒に遊ぼ？",
 		pic = "tb_28_1_1",
 		desc = "",
 		stage = {
@@ -860,10 +860,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 128,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 66,
-		title = "和小动物玩",
+		title = "一緒に遊ぼ？",
 		pic = "tb_28_2_1",
 		desc = "",
 		stage = {
@@ -872,9 +872,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 128,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 67,
-		title = "和小动物玩",
+		title = "一緒に遊ぼ？",
 		pic = "tb_28_31_1",
 		desc = "",
 		stage = {
@@ -886,9 +886,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 128,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 68,
-		title = "和小动物玩",
+		title = "一緒に遊ぼ？",
 		pic = "tb_28_32_1",
 		desc = "",
 		stage = {
@@ -900,9 +900,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 128,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 69,
-		title = "和小动物玩",
+		title = "一緒に遊ぼ？",
 		pic = "tb_28_33_1",
 		desc = "",
 		stage = {
@@ -914,9 +914,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 70,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_31_1",
 		desc = "",
 		stage = {
@@ -928,9 +928,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 71,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_31_2",
 		desc = "",
 		stage = {
@@ -942,9 +942,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 72,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_32_1",
 		desc = "",
 		stage = {
@@ -956,9 +956,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 73,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_32_2",
 		desc = "",
 		stage = {
@@ -970,9 +970,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 74,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_33_1",
 		desc = "",
 		stage = {
@@ -984,9 +984,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 129,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 75,
-		title = "挥手问候",
+		title = "あいさつの時間",
 		pic = "tb_29_33_2",
 		desc = "",
 		stage = {
@@ -998,10 +998,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 130,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 76,
-		title = "努力劳作中",
+		title = "手伝い頑張ろう",
 		pic = "tb_30_1_1",
 		desc = "",
 		stage = {
@@ -1010,10 +1010,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 130,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 77,
-		title = "努力劳作中",
+		title = "手伝い頑張ろう",
 		pic = "tb_30_2_1",
 		desc = "",
 		stage = {
@@ -1022,9 +1022,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 130,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 78,
-		title = "努力劳作中",
+		title = "手伝い頑張ろう",
 		pic = "tb_30_31_1",
 		desc = "",
 		stage = {
@@ -1036,9 +1036,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 130,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 79,
-		title = "努力劳作中",
+		title = "手伝い頑張ろう",
 		pic = "tb_30_32_1",
 		desc = "",
 		stage = {
@@ -1050,9 +1050,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 130,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 80,
-		title = "努力劳作中",
+		title = "手伝い頑張ろう",
 		pic = "tb_30_33_1",
 		desc = "",
 		stage = {
@@ -1064,10 +1064,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 131,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 81,
-		title = "烤棉花糖记",
+		title = "マシュマロ…？",
 		pic = "tb_31_1_1",
 		desc = "",
 		stage = {
@@ -1076,10 +1076,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 131,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 82,
-		title = "烤棉花糖记",
+		title = "マシュマロ…？",
 		pic = "tb_31_2_1",
 		desc = "",
 		stage = {
@@ -1088,9 +1088,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 131,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 83,
-		title = "烤棉花糖记",
+		title = "マシュマロ…？",
 		pic = "tb_31_31_1",
 		desc = "",
 		stage = {
@@ -1102,9 +1102,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 131,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 84,
-		title = "烤棉花糖记",
+		title = "マシュマロ…？",
 		pic = "tb_31_32_1",
 		desc = "",
 		stage = {
@@ -1116,9 +1116,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 131,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 85,
-		title = "烤棉花糖记",
+		title = "マシュマロ…？",
 		pic = "tb_31_33_1",
 		desc = "",
 		stage = {
@@ -1130,10 +1130,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 132,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 86,
-		title = "被牛追了！",
+		title = "追われた！",
 		pic = "tb_32_2_1",
 		desc = "",
 		stage = {
@@ -1142,10 +1142,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 132,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 87,
-		title = "被牛追了！",
+		title = "追われた！",
 		pic = "tb_32_2_2",
 		desc = "",
 		stage = {
@@ -1154,9 +1154,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 133,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 88,
-		title = "沙滩排球",
+		title = "ビーチバレー",
 		pic = "tb_33_31_1",
 		desc = "",
 		stage = {
@@ -1168,9 +1168,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 133,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 89,
-		title = "沙滩排球",
+		title = "ビーチバレー",
 		pic = "tb_33_32_1",
 		desc = "",
 		stage = {
@@ -1182,9 +1182,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 133,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 90,
-		title = "沙滩排球",
+		title = "ビーチバレー",
 		pic = "tb_33_33_1",
 		desc = "",
 		stage = {
@@ -1196,9 +1196,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 134,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 91,
-		title = "堆沙堡",
+		title = "砂のお城",
 		pic = "tb_34_31_1",
 		desc = "",
 		stage = {
@@ -1210,9 +1210,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 134,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 92,
-		title = "堆沙堡",
+		title = "砂のお城",
 		pic = "tb_34_32_1",
 		desc = "",
 		stage = {
@@ -1224,9 +1224,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 134,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 93,
-		title = "堆沙堡",
+		title = "砂のお城",
 		pic = "tb_34_33_1",
 		desc = "",
 		stage = {
@@ -1238,9 +1238,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 135,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 94,
-		title = "捡到贝壳了！",
+		title = "貝発見！",
 		pic = "tb_35_31_1",
 		desc = "",
 		stage = {
@@ -1252,9 +1252,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 135,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 95,
-		title = "捡到贝壳了！",
+		title = "貝発見！",
 		pic = "tb_35_32_1",
 		desc = "",
 		stage = {
@@ -1266,9 +1266,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 135,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 96,
-		title = "捡到贝壳了！",
+		title = "貝発見！",
 		pic = "tb_35_33_1",
 		desc = "",
 		stage = {
@@ -1280,10 +1280,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 136,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 97,
-		title = "海边小吃",
+		title = "海辺のグルメ",
 		pic = "tb_36_2_1",
 		desc = "",
 		stage = {
@@ -1292,9 +1292,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 137,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 98,
-		title = "沙滩和西瓜！",
+		title = "スイカ割り！",
 		pic = "tb_37_31_1",
 		desc = "",
 		stage = {
@@ -1306,9 +1306,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 137,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 99,
-		title = "沙滩和西瓜！",
+		title = "スイカ割り！",
 		pic = "tb_37_32_1",
 		desc = "",
 		stage = {
@@ -1320,9 +1320,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 137,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 100,
-		title = "沙滩和西瓜！",
+		title = "スイカ割り！",
 		pic = "tb_37_33_1",
 		desc = "",
 		stage = {
@@ -1334,9 +1334,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 138,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 101,
-		title = "日光浴时间",
+		title = "日光浴の時間",
 		pic = "tb_38_31_1",
 		desc = "",
 		stage = {
@@ -1348,9 +1348,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 138,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 102,
-		title = "日光浴时间",
+		title = "日光浴の時間",
 		pic = "tb_38_32_1",
 		desc = "",
 		stage = {
@@ -1362,9 +1362,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 138,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 103,
-		title = "日光浴时间",
+		title = "日光浴の時間",
 		pic = "tb_38_33_1",
 		desc = "",
 		stage = {
@@ -1376,10 +1376,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 139,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 104,
-		title = "手忙脚乱",
+		title = "ドタバタ",
 		pic = "tb_39_2_2",
 		desc = "",
 		stage = {
@@ -1388,10 +1388,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 140,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 105,
-		title = "认真读书中",
+		title = "読書中",
 		pic = "tb_40_1_1",
 		desc = "",
 		stage = {
@@ -1400,10 +1400,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 141,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 106,
-		title = "校园生活",
+		title = "学園生活",
 		pic = "tb_41_1_2",
 		desc = "",
 		stage = {
@@ -1412,10 +1412,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 142,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 107,
-		title = "听课中…",
+		title = "授業中…",
 		pic = "tb_42_1_2",
 		desc = "",
 		stage = {
@@ -1424,9 +1424,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 143,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 108,
-		title = "拿书好吃力",
+		title = "届かない…",
 		pic = "tb_43_31_1",
 		desc = "",
 		stage = {
@@ -1438,9 +1438,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 143,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 109,
-		title = "拿书好吃力",
+		title = "届かない…",
 		pic = "tb_43_32_1",
 		desc = "",
 		stage = {
@@ -1452,9 +1452,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 143,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 110,
-		title = "拿书好吃力",
+		title = "届かない…",
 		pic = "tb_43_33_1",
 		desc = "",
 		stage = {
@@ -1466,10 +1466,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 144,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 111,
-		title = "生病了……",
+		title = "具合が……",
 		pic = "tb_44_1_1",
 		desc = "",
 		stage = {
@@ -1478,10 +1478,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 144,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 112,
-		title = "生病了……",
+		title = "具合が……",
 		pic = "tb_44_2_1",
 		desc = "",
 		stage = {
@@ -1490,9 +1490,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 144,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 113,
-		title = "生病了……",
+		title = "具合が……",
 		pic = "tb_44_31_1",
 		desc = "",
 		stage = {
@@ -1504,9 +1504,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 144,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 114,
-		title = "生病了……",
+		title = "具合が……",
 		pic = "tb_44_32_1",
 		desc = "",
 		stage = {
@@ -1518,9 +1518,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 144,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 115,
-		title = "生病了……",
+		title = "具合が……",
 		pic = "tb_44_33_1",
 		desc = "",
 		stage = {
@@ -1532,10 +1532,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 145,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 116,
-		title = "下次注意",
+		title = "次は気をつけて",
 		pic = "tb_45_2_2",
 		desc = "",
 		stage = {
@@ -1544,10 +1544,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 145,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 117,
-		title = "下次注意",
+		title = "次は気をつけて",
 		pic = "tb_45_2_3",
 		desc = "",
 		stage = {
@@ -1556,10 +1556,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 146,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 118,
-		title = "考前复习",
+		title = "テスト前の復習",
 		pic = "tb_46_2_1",
 		desc = "",
 		stage = {
@@ -1568,10 +1568,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 146,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 119,
-		title = "考前复习",
+		title = "テスト前の復習",
 		pic = "tb_46_2_2",
 		desc = "",
 		stage = {
@@ -1580,9 +1580,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 147,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 120,
-		title = "答案是……",
+		title = "答えは……",
 		pic = "tb_47_31_2",
 		desc = "",
 		stage = {
@@ -1594,9 +1594,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 147,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 121,
-		title = "答案是……",
+		title = "答えは……",
 		pic = "tb_47_32_2",
 		desc = "",
 		stage = {
@@ -1608,9 +1608,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 147,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 122,
-		title = "答案是……",
+		title = "答えは……",
 		pic = "tb_47_33_2",
 		desc = "",
 		stage = {
@@ -1622,10 +1622,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 148,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 123,
-		title = "自信之作",
+		title = "自信作",
 		pic = "tb_48_2_2",
 		desc = "",
 		stage = {
@@ -1634,10 +1634,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 149,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 124,
-		title = "课外阅读",
+		title = "もっと読書",
 		pic = "tb_49_2_1",
 		desc = "",
 		stage = {
@@ -1646,10 +1646,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 149,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 125,
-		title = "课外阅读",
+		title = "もっと読書",
 		pic = "tb_49_2_2",
 		desc = "",
 		stage = {
@@ -1658,9 +1658,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 150,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 126,
-		title = "专心致志",
+		title = "一意専心",
 		pic = "tb_50_31_2",
 		desc = "",
 		stage = {
@@ -1672,9 +1672,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 150,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 127,
-		title = "专心致志",
+		title = "一意専心",
 		pic = "tb_50_32_2",
 		desc = "",
 		stage = {
@@ -1686,9 +1686,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 150,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 128,
-		title = "专心致志",
+		title = "一意専心",
 		pic = "tb_50_33_2",
 		desc = "",
 		stage = {
@@ -1700,10 +1700,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 151,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 129,
-		title = "精彩瞬间",
+		title = "輝く瞬間",
 		pic = "tb_51_2_3",
 		desc = "",
 		stage = {
@@ -1712,10 +1712,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 152,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 130,
-		title = "啦啦操！",
+		title = "フレーフレー！",
 		pic = "tb_52_2_3",
 		desc = "",
 		stage = {
@@ -1724,10 +1724,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 153,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 131,
-		title = "投篮成功",
+		title = "ナイスシュート",
 		pic = "tb_53_2_3",
 		desc = "",
 		stage = {
@@ -1736,10 +1736,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 154,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 132,
-		title = "还能更快",
+		title = "もっと速く",
 		pic = "tb_54_1_3",
 		desc = "",
 		stage = {
@@ -1748,10 +1748,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 155,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 133,
-		title = "新纪录！",
+		title = "新記録！",
 		pic = "tb_55_1_3",
 		desc = "",
 		stage = {
@@ -1760,10 +1760,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 156,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 134,
-		title = "射击体验！",
+		title = "射撃体験",
 		pic = "tb_56_2_3",
 		desc = "",
 		stage = {
@@ -1772,10 +1772,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 157,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 135,
-		title = "夺冠身姿",
+		title = "優勝！",
 		pic = "tb_57_2_3",
 		desc = "",
 		stage = {
@@ -1784,10 +1784,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 158,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 136,
-		title = "到终点了！",
+		title = "ゴール！",
 		pic = "tb_58_2_3",
 		desc = "",
 		stage = {
@@ -1796,9 +1796,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 159,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 137,
-		title = "演出彩排",
+		title = "リハーサル",
 		pic = "tb_59_31_2",
 		desc = "",
 		stage = {
@@ -1810,9 +1810,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 159,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 138,
-		title = "演出彩排",
+		title = "リハーサル",
 		pic = "tb_59_32_2",
 		desc = "",
 		stage = {
@@ -1824,9 +1824,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 159,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 139,
-		title = "演出彩排",
+		title = "リハーサル",
 		pic = "tb_59_33_2",
 		desc = "",
 		stage = {
@@ -1838,10 +1838,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 160,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 140,
-		title = "开嗓练习",
+		title = "本番前の練習",
 		pic = "tb_60_2_2",
 		desc = "",
 		stage = {
@@ -1850,9 +1850,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 160,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 141,
-		title = "开嗓练习",
+		title = "本番前の練習",
 		pic = "tb_60_31_2",
 		desc = "",
 		stage = {
@@ -1864,9 +1864,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 160,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 142,
-		title = "开嗓练习",
+		title = "本番前の練習",
 		pic = "tb_60_32_2",
 		desc = "",
 		stage = {
@@ -1878,9 +1878,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 160,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 143,
-		title = "开嗓练习",
+		title = "本番前の練習",
 		pic = "tb_60_33_2",
 		desc = "",
 		stage = {
@@ -1892,9 +1892,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 161,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 144,
-		title = "成长的纪念",
+		title = "成長記念",
 		pic = "tb_61_31_2",
 		desc = "",
 		stage = {
@@ -1906,9 +1906,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 161,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 145,
-		title = "成长的纪念",
+		title = "成長記念",
 		pic = "tb_61_32_2",
 		desc = "",
 		stage = {
@@ -1920,9 +1920,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 161,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 146,
-		title = "成长的纪念",
+		title = "成長記念",
 		pic = "tb_61_33_2",
 		desc = "",
 		stage = {
@@ -1934,9 +1934,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 162,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 147,
-		title = "未来的大画家？",
+		title = "未来の画家",
 		pic = "tb_62_31_2",
 		desc = "",
 		stage = {
@@ -1948,9 +1948,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 162,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 148,
-		title = "未来的大画家？",
+		title = "未来の画家",
 		pic = "tb_62_32_2",
 		desc = "",
 		stage = {
@@ -1962,9 +1962,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 162,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 149,
-		title = "未来的大画家？",
+		title = "未来の画家",
 		pic = "tb_62_33_2",
 		desc = "",
 		stage = {
@@ -1976,9 +1976,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 163,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 150,
-		title = "特别的愿望 ",
+		title = "特別な願い",
 		pic = "tb_63_31_1",
 		desc = "",
 		stage = {
@@ -1990,9 +1990,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 163,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 151,
-		title = "特别的愿望 ",
+		title = "特別な願い",
 		pic = "tb_63_32_1",
 		desc = "",
 		stage = {
@@ -2004,9 +2004,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 163,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 152,
-		title = "特别的愿望 ",
+		title = "特別な願い",
 		pic = "tb_63_33_1",
 		desc = "",
 		stage = {
@@ -2018,9 +2018,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 164,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 153,
-		title = "道具摆放",
+		title = "倒さず慎重に",
 		pic = "tb_64_31_2",
 		desc = "",
 		stage = {
@@ -2032,9 +2032,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 164,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 154,
-		title = "道具摆放",
+		title = "倒さず慎重に",
 		pic = "tb_64_32_2",
 		desc = "",
 		stage = {
@@ -2046,9 +2046,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 164,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 155,
-		title = "道具摆放",
+		title = "倒さず慎重に",
 		pic = "tb_64_33_2",
 		desc = "",
 		stage = {
@@ -2060,10 +2060,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 165,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 156,
-		title = "去赏樱了！",
+		title = "お花見",
 		pic = "tb_65_1_1",
 		desc = "",
 		stage = {
@@ -2072,9 +2072,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 166,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 157,
-		title = "迫不及待",
+		title = "待ちきれない",
 		pic = "tb_66_31_1",
 		desc = "",
 		stage = {
@@ -2086,9 +2086,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 166,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 158,
-		title = "迫不及待",
+		title = "待ちきれない",
 		pic = "tb_66_32_1",
 		desc = "",
 		stage = {
@@ -2100,9 +2100,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 166,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 159,
-		title = "迫不及待",
+		title = "待ちきれない",
 		pic = "tb_66_33_1",
 		desc = "",
 		stage = {
@@ -2114,10 +2114,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 167,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 160,
-		title = "对绘画的兴趣",
+		title = "絵に興味",
 		pic = "tb_67_1_1",
 		desc = "",
 		stage = {
@@ -2126,10 +2126,10 @@ pg.child_polaroid = {
 	},
 	{
 		group = 168,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		xingge = "",
 		id = 161,
-		title = "新玩具",
+		title = "新しいおもちゃ",
 		pic = "tb_68_1_1",
 		desc = "",
 		stage = {
@@ -2138,9 +2138,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 169,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 162,
-		title = "可爱时光",
+		title = "かわいい一時",
 		pic = "tb_69_31_2",
 		desc = "",
 		stage = {
@@ -2152,9 +2152,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 169,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 163,
-		title = "可爱时光 ",
+		title = "かわいい一時",
 		pic = "tb_69_32_2",
 		desc = "",
 		stage = {
@@ -2166,9 +2166,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 169,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 164,
-		title = "可爱时光 ",
+		title = "かわいい一時",
 		pic = "tb_69_33_2",
 		desc = "",
 		stage = {
@@ -2180,9 +2180,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 170,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 165,
-		title = "心跳加速 ",
+		title = "ドキワク！？",
 		pic = "tb_70_31_2",
 		desc = "",
 		stage = {
@@ -2194,9 +2194,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 170,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 166,
-		title = "心跳加速 ",
+		title = "ドキワク！？",
 		pic = "tb_70_32_2",
 		desc = "",
 		stage = {
@@ -2208,9 +2208,9 @@ pg.child_polaroid = {
 	},
 	{
 		group = 170,
-		condition = "出行-随便逛逛",
+		condition = "お出かけ\n適当にぶらつく",
 		id = 167,
-		title = "心跳加速 ",
+		title = "ドキワク！？",
 		pic = "tb_70_33_2",
 		desc = "",
 		stage = {

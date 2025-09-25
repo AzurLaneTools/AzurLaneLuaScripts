@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_30 = {
 	[90929] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÉăĎńÍˇ",
+		name = "偽相体-カメラアイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -132,7 +132,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90930] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-şÜśŕ´ĽĐë",
+		name = "偽相体-群れる触腕",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -262,7 +262,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90931] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÄÜĹŔÄÜ´ň",
+		name = "偽相体-殴打及び匍匐移動能力を有する",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -392,7 +392,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90932] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÂÝĐý´óĹÚ",
+		name = "偽相体-スパイラリーガン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -522,7 +522,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90933] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ĹŕľĂşÜżě",
+		name = "偽相体-高速爬行種",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -659,7 +659,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90934] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-´ó×ŞÂÖ",
+		name = "偽相体-回転リング",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -782,7 +782,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90935] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ľĆÁýÓă",
+		name = "偽相体-チョウチンアンコウ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -919,7 +919,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90936] = {
 		cannon = 0,
-		name = "ÄâĚŹĘŢ-śúĚý°Ëˇ˝",
+		name = "偽相獣・八方聴かす耳",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1165,7 +1165,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90938] = {
 		cannon = 0,
-		name = "死神之影",
+		name = "デスシャドウ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1301,7 +1301,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90939] = {
 		cannon = 0,
-		name = "掠影·XIII",
+		name = "絡め取る影·XIII",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1422,7 +1422,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90940] = {
 		cannon = 0,
-		name = "樋·META~Shadow Of Hierophant~",
+		name = "旗風·META~Shadow Of Hierophant~",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1566,7 +1566,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90941] = {
 		cannon = 0,
-		name = "威奇塔·META",
+		name = "ウィチタ(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1726,7 +1726,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90942] = {
 		cannon = 0,
-		name = "童心喵石驱逐舰",
+		name = "リトルオフニャ・駆逐",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1881,7 +1881,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90943] = {
 		cannon = 0,
-		name = "童心喵石轻巡洋舰",
+		name = "リトルオフニャ・軽巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2043,7 +2043,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90944] = {
 		cannon = 0,
-		name = "童心喵石重巡洋舰",
+		name = "リトルオフニャ・重巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2211,7 +2211,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90945] = {
 		cannon = 0,
-		name = "童心喵石战列舰",
+		name = "リトルオフニャ・戦艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2379,7 +2379,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90946] = {
 		cannon = 0,
-		name = "童心喵石航空母舰",
+		name = "リトルオフニャ・空母",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2548,7 +2548,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90947] = {
 		cannon = 0,
-		name = "童心喵石爆炸船",
+		name = "リトルオフニャ・爆発",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2696,7 +2696,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90948] = {
 		cannon = 0,
-		name = "健康活力·石膏喵",
+		name = "健康運動・石膏オフニャ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2818,7 +2818,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90949] = {
 		cannon = 0,
-		name = "永葆童心·石膏喵",
+		name = "純真無垢・石膏オフニャ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2940,7 +2940,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90950] = {
 		cannon = 0,
-		name = "兴趣培养·石膏喵",
+		name = "趣味嗜好・石膏オフニャ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3062,7 +3062,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90951] = {
 		cannon = 0,
-		name = "理性思维·石膏喵",
+		name = "座学勉強・石膏オフニャ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3184,7 +3184,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90952] = {
 		cannon = 0,
-		name = "趣味玩乐·石膏喵",
+		name = "おあそび・石膏オフニャ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3306,7 +3306,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90953] = {
 		cannon = 0,
-		name = "赫敏",
+		name = "ハーマイオニー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3462,7 +3462,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90954] = {
 		cannon = 0,
-		name = "天狼星",
+		name = "シリアス",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3618,7 +3618,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90955] = {
 		cannon = 0,
-		name = "妮米改",
+		name = "Z23改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3774,7 +3774,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90956] = {
 		cannon = 0,
-		name = "莉普莎改",
+		name = "ライプツィヒ改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3930,7 +3930,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90957] = {
 		cannon = 0,
-		name = "克劳迪亚改",
+		name = "ケルン改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4086,7 +4086,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90958] = {
 		cannon = 0,
-		name = "庞培·马格诺",
+		name = "ポンペオ·マーニョ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4242,7 +4242,7 @@ pg.enemy_data_statistics_30 = {
 	},
 	[90959] = {
 		cannon = 0,
-		name = "阿尔弗雷多·奥里亚尼",
+		name = "アルフレード・オリアーニ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

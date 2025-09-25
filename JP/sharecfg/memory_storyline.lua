@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.memory_storyline = {
 	{
-		description = "将至的“大演习”，智斗与勇武交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
-		name = "苍红的回响·上",
+		description = "来たる大演習、知と武が交錯する中、将たるものを阻むその先兵とは…？",
+		name = "縹映る深緋の残響・前編",
 		column = 1,
 		world_id = "",
 		bgm = "main-newyear",
@@ -47,8 +47,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "异色格象——双方棋手各有的一个象存在于不同色的棋格里，它们将永远无法接触。",
-		name = "「异色格」作战",
+		description = "異色ビショップ――互いに相容れぬ色に封じられ、決して交わることがない鏡写しの存在",
+		name = "鏡写されし異色",
 		link_event = "",
 		column = 2,
 		world_id = "",
@@ -68,8 +68,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「仁慈的主啊，愿您的光辉能照耀至教国的每一处——」\n「护佑我等的和平与希望——」\n「护佑我等平静又安宁的日常——」",
-		name = "来自鸢尾的天使",
+		description = "「今日も無事に終わりました。そして、願わくば明日も、明後日も無事でいられますように」\n「アイリスのご加護のもとで、私たちの平和な日々が永遠に続きますように」",
+		name = "アイリスの天使",
 		link_event = "",
 		column = 2,
 		world_id = "",
@@ -90,8 +90,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "从隐秘的不冻港到宏伟的极地要塞，一场极地的破冰之旅就要开始了。",
-		name = "深度回音·上",
+		description = "絶海の秘密を調査するため、北方連合の艦船たちは旅に出る――",
+		name = "鳴動せし星霜の淵・前編",
 		link_event = "",
 		column = 2,
 		world_id = "",
@@ -139,8 +139,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「希望我们有能再次相见的一天，腓特烈。」\n「俾斯麦，让我们一同向着未来进发吧。」",
-		name = "远汇点作战·上",
+		description = "「また会えるといいわ。グローセ」「一緒に未来に向かいましょう。ビルマルク」",
+		name = "結像点作戦・前編",
 		column = 3,
 		world_id = "",
 		bgm = "bsm-6",
@@ -164,8 +164,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "高举战无不胜的鹫旗，吾辈再次凯旋。鸢尾之安危，吾辈之担当。纵使烈焰灼身，吾辈义无反顾。",
-		name = "杰诺瓦的焰火",
+		description = [[
+「我らが旗が掲げられる戦場は勝利なり」
+「我らが力振われる未来は平和なり」
+「炎に包まれようとも――」
+「我らが進む足、留まること無く」]],
+		name = "燈火のシニエ",
 		column = 4,
 		world_id = "",
 		bgm = "story-french1",
@@ -188,8 +192,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响..……",
-		name = "光与影的鸢尾之华·上",
+		description = "ヴィシア聖座の索敵を行うロイヤル艦隊はその道中、セイレーン艦隊の前衛に遭遇した。今、戦いが始まる――",
+		name = "光と影のアイリス・前編",
 		column = 5,
 		world_id = "",
 		bgm = "level-french1",
@@ -217,8 +221,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一场神圣的喜剧，一场神圣的悲剧。古老的帝国在风雨中摇摆，璀璨的宝石，却依然闪耀着亘古不变的光芒。",
-		name = "神圣的悲喜剧",
+		description = "神聖な喜劇であり悲劇。風雨の中で揺らぐ古の帝国。輝かしい宝石は今も尚、不変の光を放ち続ける……",
+		name = "悲歎せし焔海の詩",
 		column = 6,
 		world_id = "",
 		bgm = "battle-boss-italy",
@@ -240,8 +244,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "我们的生存空间，不是靠乞求和抗议来实现的。铁血没有别的路可走，唯有奋斗！——Eisen und Blut über alles！",
-		name = "铁血、音符与誓言·上",
+		description = "この先にもはや権謀術数や話し合いなど小細工は不要――我らが安息の海は、この黒鉄の力と赤き血潮を以て奪わねばならん！",
+		name = "黒鉄の楽章、誓いの海・前編",
 		column = 7,
 		world_id = "",
 		bgm = "bsm-4",
@@ -266,8 +270,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>实验对象已入场，开始为「红方」与「蓝方」生产「棋子<Piece>」——参与测试之人，祝你好运。",
-		name = "远汇点作战·中",
+		description = "<<SysLog>>実験対象の入場を確認。交戦双方に「駒<Piece>」の生成を開始する。",
+		name = "結像点作戦・中編",
 		column = 7,
 		world_id = "",
 		bgm = "bsm-7",
@@ -299,8 +303,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "世界分崩离析，拥有力量之人站了起来，想要对抗历史的洪流\n殊不知，力量与力量之间互相吸引，唤起了更大的波澜……",
-		name = "战火序幕",
+		description = "世界が崩れ去るとき、力ある者は立ち上がり、歴史の大波に立ち向かおうとする。力と力は互いに引き合い、さらに大きな波乱を呼び起こすとも知らずに――",
+		name = "メイン海域",
 		column = 8,
 		world_id = "",
 		bgm = "battle-boss-2",
@@ -326,8 +330,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「保证书」\n……无论在任何地方，如果俾斯麦姐姐不幸受伤，哪怕是用拖，U556也要把她的姐姐拖回港口……",
-		name = "小小的誓言",
+		description = "「ビスマルクのアネキがもし傷ついたら……いつでもどこでも駆けつけ、引っ張ってでも母港に連れ帰ります…」",
+		name = "小さな約束",
 		link_event = "",
 		column = 9,
 		world_id = "",
@@ -347,8 +351,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "俾斯麦丧失了行动力，但仍在负隅顽抗。胜利终将属于我们，为了胡德，为了皇家舰队的荣耀，开火！",
-		name = "铁血、音符与誓言·下",
+		description = "ビスマルク追撃戦もいよいよ終盤。傷つけられた仲間、そして王家の栄光のために、勝利を我が手で掴め！",
+		name = "黒鉄の楽章、誓いの海・後編",
 		column = 9,
 		world_id = "",
 		bgm = "bsm-9",
@@ -391,8 +395,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>指令已获取，作战名「远汇点」，于远方相汇的交点，数据记录完毕。",
-		name = "远汇点作战·下",
+		description = "<<SysLog>>オーダー確認。作戦名「結像点」、鏡の向こうにて結像す。データ記録完了。",
+		name = "結像点作戦・前編・後編",
 		link_event = "",
 		column = 9,
 		world_id = "",
@@ -419,8 +423,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "收到急报，PH港受到不明舰队空袭，停泊舰队已陷入火海之中……究竟发生什么事了？",
-		name = "虎！虎！虎！",
+		description = "緊急報告を受信、PH港が正体不明の艦隊による空襲を受け、停泊中の艦隊はすでに火の海に包まれている……一体何が起きたのか？",
+		name = "メイン海域",
 		column = 10,
 		world_id = "",
 		bgm = "battle-boss-1",
@@ -443,8 +447,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "坚守阵地，在敌人没有开枪射击以前，不要先开枪。但是，如果敌人硬要把战争强加在我们头上——那么，就让战争从这儿开始吧！",
-		name = "珊瑚海首秀",
+		description = "陣地を固守せよ、敵が仕掛けてくる前に先に撃ってはならない。しかし、敵が戦争を我々に強いるというのであれば——ここから戦争を始めよう！",
+		name = "メイン海域",
 		column = 11,
 		world_id = "",
 		bgm = "level",
@@ -470,8 +474,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "“AF可能缺少淡水，攻击部队带足淡水”——我们这次可是钓到大鱼了",
-		name = "决战中途岛",
+		description = "真水が不足している可能性あり、攻撃部隊は十分な真水を持参せよ」——今回は大物を釣り上げたようだ",
+		name = "メイン海域",
 		column = 12,
 		world_id = "",
 		bgm = "battle-AF",
@@ -494,8 +498,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "尘封的档案，承载着沉重的过去。有些事永远不会被遗忘，但是，我们依然要鼓起勇气迈向明天——",
-		name = "银色档案",
+		description = "封印された記録が背負った重い過去。忘れられなくても、勇気を出して明日へと歩み続けなければ――",
+		name = "再現記録",
 		link_event = "",
 		column = 12,
 		world_id = "",
@@ -515,8 +519,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "天城大人，如果是你的话，能告诉我接下来该如何选择吗？",
-		name = "苍红的回响·下",
+		description = "「天城さん、教えてください。私はこれから、どうすればいい……？」",
+		name = "縹映る深緋の残響・後編",
 		column = 12,
 		world_id = "",
 		bgm = "battle-boss-tiancheng",
@@ -541,8 +545,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "穿越风暴，与同伴离散，瑞鹤独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
-		name = "红染的参访者",
+		description = "嵐をくぐり抜け、仲間とはぐれた瑞鶴は未知なる海域に足を踏み入れた。探し求めた「聖域」はここだろうか？",
+		name = "紅染の来訪者",
 		link_event = "",
 		column = 13,
 		world_id = "",
@@ -562,8 +566,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "后辈们，再次一起奋战吧！——新生重樱联合，出击！",
-		name = "归来与新生",
+		description = "後輩たち、もう一度戦おう！――新生連合艦隊、推して参る！！",
+		name = "軍神の帰還",
 		column = 14,
 		world_id = "",
 		bgm = "theme-misaka",
@@ -587,8 +591,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "在凯比尔港修养了将近两年之后，敦刻尔克终于踏上了回家的道路，首先，突破前方的海域吧！",
-		name = "夜幕下的归途",
+		description = "メルセルケビールにて損傷したダンケルク。小さな騎士たちにエスコートされ、故郷への帰路を辿る。",
+		name = "帰路は海色の陰りへと",
 		link_event = "",
 		column = 15,
 		world_id = "",
@@ -609,8 +613,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决……",
-		name = "光与影的鸢尾之华·下",
+		description = "それぞれの正義のため、大洋をまたぐ「最強戦艦」の二人がついに対峙した。",
+		name = "光と影のアイリス・後編",
 		link_event = "",
 		column = 15,
 		world_id = "",
@@ -640,8 +644,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "我曾认为，把所有枪口对准我们的敌人都击败后，就能找回些许的宁静。然而，未来背叛了我们。就算再怎么努力，前方依然只有无尽的战斗……",
-		name = "坠落之翼",
+		description = "現れるすべての敵を破壊すれば、平穏が戻ってくると思っていた。だが未来は裏切った。我が身となる鋼が軋んでも、戦いは終わらない",
+		name = "闇に堕ちた青き翼",
 		column = 16,
 		world_id = "",
 		bgm = "story-5",
@@ -663,8 +667,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "极北之北，完成护航任务的皇家舰队在返航的途中先后遭遇到了新型塞壬与铁血舰队的袭击……这一切真的只是巧合么？",
-		name = "凛冬皇冠",
+		description = "北極の絶海。護衛任務を終えたロイヤル艦隊は新型セイレーンと鉄血の襲撃を受けた……全ては偶然だろうか？",
+		name = "凛冽なりし冬の王冠",
 		column = 17,
 		world_id = "",
 		bgm = "battle-seirencleaner-theme",
@@ -687,8 +691,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影..……",
-		name = "墨染的钢铁之花",
+		description = "仲間を救うため、重桜所属の戦士たちは帰郷の途につく。しかし、彼女たちの航路にはセイレーンが待ち構えていた。",
+		name = "墨染まりし鋼の桜",
 		column = 18,
 		world_id = "",
 		bgm = "nagato-map",
@@ -712,8 +716,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "指挥官即将抵达NY司令部，白鹰舰队正在紧锣密鼓的准备着……然而，陷阱已经布下。视线之外的地方，一场风暴正在酝酿！",
-		name = "风暴前夕",
+		description = "NYシティでユニオン艦船たちが指揮官を歓迎する準備を進めている。その視線の外で嵐が出来上がりつつあることも知らずに……",
+		name = "迫りくる嵐",
 		column = 19,
 		world_id = "",
 		bgm = "xinnong-3",
@@ -736,8 +740,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一场蓄谋已久的意外，两处精心布置的舞台。何为箱庭？谁为病人？\n唯有直面过去，才能走向未来——",
-		name = "箱庭疗法",
+		description = "仕組まれたトラブル、整えられた二つの舞台。開かれた砂箱と閉ざされた被験者。過去に直面しなければ未来へは立ち向かえない。",
+		name = "開かれし紺碧の砂箱",
 		column = 19,
 		world_id = "",
 		bgm = "story-6",
@@ -760,8 +764,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "远离重樱本岛，供奉着神石「海若」的天岩岛之上，各方面的势力汇聚一堂。渴望力量之人，信仰坚定之人，耍弄权谋之人……祭典就要开始了。",
-		name = "浮樱影华",
+		description = "重桜の離島で開かれる、宝器【ワタツミ】を奉る祭儀。力を欲する者、信仰篤き者、策謀を巡らせる者、それぞれの思いが交錯し、新たな戦いが始まろうとしていた。",
+		name = "翳りし満ちる影の華",
 		column = 20,
 		world_id = "",
 		bgm = "xinnong-1",
@@ -786,8 +790,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "迷雾突现，白鹰派往巴拿马要塞的增援舰队在不知不觉间迷失在了浓厚的海雾之中——",
-		name = "迷雾之下",
+		description = "運河要塞に移動中の艦隊が、知らず知らずのうちに謎の海霧に迷い込む。",
+		name = "闇靄接近",
 		column = 21,
 		world_id = "",
 		bgm = "hunhe-level",
@@ -809,8 +813,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了调查失踪的舰队企业一行人来到了连接大洋的枢纽，巴拿马要塞。迷雾中的同伴、水面下的敌人，当你凝视深渊时——深渊也在凝视你。",
-		name = "微层混合",
+		description = "謎の海霧の中で行方不明になった艦隊。その救出のため、海霧の発生機構を求め探索するエンタープライズたち。彼女たちを阻む新型セイレーン、そして深淵から覗く目とは――",
+		name = "闇靄払う銀翼",
 		column = 21,
 		world_id = "",
 		bgm = "hunhe-battle",
@@ -832,8 +836,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "纵使经历了毁灭与新生，神圣的梦想却从未消散。同志们，团结起来，凝结成最坚固的堡垒，构建出牢不可破的联盟。",
-		name = "北境序曲",
+		description = "融ければ水、凍れば氷、知らぬ間にこの極北の空気に溶け込む。しかし、どのような形態を取っていようと本質が変わることはない――同志たちよ。破れぬ連邦を共に築き上げよう！",
+		name = "凍絶の北海",
 		column = 21,
 		world_id = "",
 		bgm = "bgm-cccp3",
@@ -854,8 +858,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "向上苍奉献信仰，向内心赋予勇气。故事之外，穹顶之下，圣咏之曲再次奏响——",
-		name = "穹顶下的圣咏曲",
+		description = "闇に染まりし激情の衝撃、想いが織りなす黄金の聖壁、決意を胸に、今もう一度、神穹を衝く――",
+		name = "神穹を衝く聖歌",
 		column = 22,
 		world_id = "",
 		bgm = "theme-richelieu",
@@ -879,8 +883,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "满载物资的船团正行驶在危险的极地航线上。虽然永夜并不是执行任务的理想时期，不过紧急任务从来就没有选择时间的权利......不是么？",
-		name = "永夜幻光",
+		description = "物資で満載の輸送隊が極地航路を往く。一日中太陽が沈んでいる極夜のバレンツ海を通るのは好ましくなかったが、北方連合の要請を優先せざるを得なかった。",
+		name = "極夜照らす幻光",
 		column = 23,
 		world_id = "",
 		bgm = "level03",
@@ -904,8 +908,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "昔者庄周梦为胡蝶，栩栩然胡蝶也。自喻适志与，不知周也。俄然觉，则蘧蘧然周也。不知，周之梦为胡蝶与？胡蝶之梦为周与？",
-		name = "蝶海梦花",
+		description = "荘周が観る夢の蝶。己を忘れた存在は荘周なりや？覚めたのは蝶の夢なりや？",
+		name = "刹那觀る胡蝶の夢",
 		column = 24,
 		world_id = "",
 		bgm = "battle-xinnong-image",
@@ -927,8 +931,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "北境的战士们，挥舞冷彻的冰华，斩断漫长的夜幕，迎接破晓之曙光吧！",
-		name = "破晓冰华",
+		description = "氷雪を携える戦士たちよ、吹き荒れる払暁の嵐となりて、悪しき闇夜の影を振り払え！",
+		name = "暁射す氷華の嵐",
 		column = 25,
 		world_id = "",
 		bgm = "bgm-cccp",
@@ -951,8 +955,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "NA海域大型作战已经开始，指挥官，预祝您战斗顺利。",
-		name = "银翼苍穹",
+		description = "NA海域でセイレーンに対する大型作戦が開始された。指揮官、ご命令を！",
+		name = "セイレーン作戦・灰翼の跡",
 		memory_id = "",
 		column = 26,
 		bgm = "blueocean-image",
@@ -976,8 +980,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>T2-XI-N002号镜面海域数据录入结束，试验场设置完毕——测试开始。",
-		name = "负象限作战",
+		description = "<<SysLog>>T2-XI-N002鏡面海域データ入力完了、試験場設定完了、実験開始",
+		name = "虚畳なりし限象",
 		column = 26,
 		world_id = "",
 		bgm = "stoy-6",
@@ -999,8 +1003,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "NA海域被分为了四个战区，其中B战区由皇家海军负责。时机已至，舰队启航！",
-		name = "皇家号令",
+		description = "4つの作戦エリアに分けられた作戦海域。ロイヤル艦隊、エリアBに出撃する！",
+		name = "セイレーン作戦・女王指令",
 		memory_id = "",
 		column = 27,
 		bgm = "story-richang",
@@ -1025,8 +1029,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "在AB战区开战的同时，针对C战区的战斗也开始了。现在白鹰的实力已经今非昔比，其中的变化就让塞壬好好领教一下吧！",
-		name = "渐入迷踪",
+		description = "複数の海域で同時に激戦が繰り広げられる――ユニオンの新しい力をセイレーンに見せてやるのだ！",
+		name = "セイレーン作戦・迷いの海",
 		memory_id = "",
 		column = 27,
 		bgm = "xinnong-2",
@@ -1046,8 +1050,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "在NA海域战场的一角，重樱舰队开启了属于自己的远航——",
-		name = "红樱远航",
+		description = "NA海域の一角、重桜艦隊も己の航海を始めた――",
+		name = "セイレーン作戦・遠航の紅",
 		memory_id = "",
 		column = 28,
 		bgm = "theme-IJNdailymeeting",
@@ -1072,8 +1076,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「花瓣纷飞，旌旗飘扬。凯旋门下，再铸辉煌。」",
-		name = "复兴的赞美诗",
+		description = "花びらと共に舞う総軍の旗印。凱旋は、再び威光を――",
+		name = "讃える復興の迷路",
 		column = 28,
 		world_id = "",
 		bgm = "story-italy",
@@ -1093,8 +1097,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "碧色号角奏于大洋，赤红之影迷离虚妄。海妖之暗，燃烬之灰，四方势力于此汇聚。仲裁机关的目的与风暴中心的秘密……海域之中隐藏的一切，即将揭晓——",
-		name = "火烬余辉",
+		description = "迷い込む陰謀の霧、響き渡る開戦の歌。セイレーン、余燼、アズールレーン、レッドアクシズ、アビータの目的、嵐の中心の秘密、各々の思惑が巡る、西大洋の中心へ",
+		name = "セイレーン作戦・燃ゆる灰の煌き",
 		memory_id = "",
 		column = 29,
 		bgm = "theme-thehermitIX",
@@ -1120,8 +1124,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「亦或因循守旧，亦或随波逐流。在螺旋的尽头，究竟是绝望，还是希望呢？」",
-		name = "镜位螺旋",
+		description = "私たちを縛りしものは運命の螺旋、私たちを定めしものは水面の鏡。絶望と希望、映し合うか、絡み合うか――",
+		name = "照らす螺旋の鏡海",
 		column = 30,
 		world_id = "",
 		bgm = "hunhe-level",
@@ -1143,8 +1147,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "意外之旅终于意外之获。在那碧海的光粼之中，命运之轮已然开始转动。隐藏在谜面中的答案，你注意到了么？",
-		name = "碧海光鳞",
+		description = "思わぬ旅に思わぬ収穫。碧海の吹く風は運命を動かす。隠された答えに……気づいたか？",
+		name = "駆けよ 碧海の吹き風",
 		column = 30,
 		world_id = "",
 		bgm = "theme-longgong",
@@ -1167,8 +1171,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「现在，我要重铸高塔了。前来阻挡我的神，在哪里？」",
-		name = "逆转彩虹之塔",
+		description = "「今再び塔を築き上げよう。私を止めに来る神はいずこ？」",
+		name = "遡望せし虹彩の塔",
 		column = 31,
 		world_id = "",
 		bgm = "theme-midgard-hunting",
@@ -1191,8 +1195,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一份来之不易的情报，揭开了一段尘封的往事……度过黑暗的煎熬，黎明终将到来。",
-		name = "黎明之暗",
+		description = "情報で明かされたはるか昔のエピソード。闇夜の先に、やがて暁が訪れる。",
+		name = "絶海前話",
 		column = 32,
 		world_id = "",
 		bgm = "battle-boss-deepecho",
@@ -1214,8 +1218,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「完成任务，然后将全员平安带回。这就是我喀琅施塔得立下的誓言，也是我为祖国献上的忠诚！」",
-		name = "深度回音·下",
+		description = "「任務を完遂し、仲間を無事に連れ戻す。クロンシュタットの北方連合への忠誠にして誓いだ！」",
+		name = "鳴動せし星霜の淵・後編",
 		column = 32,
 		world_id = "",
 		bgm = "bgm-cccp",
@@ -1248,8 +1252,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「逆转彩虹之塔，奏响终幕乐章~Die götter sind tot~」",
-		name = "虹彩的终幕曲",
+		description = "「虹の塔を逆転し、終焉の楽章を奏でる。～神は、死んだ～」",
+		name = "吟ずる瑠璃の楽章",
 		column = 33,
 		world_id = "",
 		bgm = "theme-frederick",
@@ -1275,8 +1279,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了拯救皇家海军的荣耀，君主暗自下定了某个决心……",
-		name = "意外的旅途",
+		description = "ロイヤルネイビーの栄光を守るべく、モナークはある決心をした……",
+		name = "慶弔と帰路",
 		column = 34,
 		world_id = "",
 		bgm = "theme-camelot-up",
@@ -1298,8 +1302,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「如清风拂面，如冷泉沁淋。少女之姿，近卫之仪。泠然之誓、光耀之庭——」",
-		name = "泠誓光庭",
+		description = "「清らかであれ、凛とあれ。婀娜な少女の流儀は近衛らしく。誠閃の誓い、揺光の城を輝かす――」",
+		name = "誠閃の剣 搖光の城",
 		column = 34,
 		world_id = "",
 		bgm = "theme-royalknights-battle",
@@ -1322,8 +1326,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "撒丁帝国正在筹备世界博览会，为此，向世界各方广发邀约——",
-		name = "撒丁的邀约",
+		description = "サディア帝国にて世界博覧会が開かれ、各陣営に招待状が届く――",
+		name = "開け！世界博覧会",
 		column = 35,
 		world_id = "",
 		bgm = "story-roma-outside",
@@ -1352,8 +1356,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "所有的史诗都将迎来终结，正如所有的帝国都将走向崩塌。但在那之前，雄鹰依旧振翅高歌于广袤天穹之上。",
-		name = "雄鹰的叙事歌",
+		description = "すべての帝国が崩壊へと向かうように、すべての叙事詩には終わりが訪れる。だがその時が来るまで、雄鷹はなお広大な天空の上で翼を広げ、高らかに歌い続けるだろう",
+		name = "鋼鷲の冒険譚",
 		column = 35,
 		world_id = "",
 		bgm = "story-roma-inside",
@@ -1384,8 +1388,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「将欲弱之，必固强之。将欲去之，必固兴之。此乃以柔克刚，以弱胜强之道也。」",
-		name = "静海惊雷",
+		description = "「弱きを助けたくばと力を与え、悪しきを挫けたくば加勢を装う。柔をもって剛を制し、弱きをもって強きに勝つ道理なり」",
+		name = "静海遠雷",
 		column = 36,
 		world_id = "",
 		bgm = "musashi-1",
@@ -1407,8 +1411,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一副与众不同的棋盘，四位心思各异的棋手，在棋盘上演绎的舞台剧，现在开幕——",
-		name = "紫绛槿岚",
+		description = "聖地の楼閣で繰り広げられる盤上の演習、競うのは采配、そして各々の覚悟にあり。",
+		name = "赫の涙月 菫の暁風",
 		column = 37,
 		world_id = "",
 		bgm = "theme-musashi-outside",
@@ -1432,8 +1436,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「蝴蝶已经扇动了翅膀，风暴将在何处降临？」",
-		name = "异向偏振",
+		description = "「胡蝶は羽ばたいた。嵐はいずこへ…？」",
+		name = "分極する空想の因果",
 		column = 36,
 		world_id = "",
 		bgm = "theme-starsea-core",
@@ -1455,8 +1459,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「从随机到稳定的定向， 从无限到有限的折叠。蝴蝶既存在于此处，又存在于彼方。」",
-		name = "定向折叠",
+		description = "「ランダムから固定が、無限から有限、存在の状態は畳まれる。蝶はコナタにあり、カナタにもある」",
+		name = "積重なる事象の幻界",
 		column = 37,
 		world_id = "",
 		bgm = "theme-threat-typeV",
@@ -1476,8 +1480,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "日之计在于晨，阳光穿过窗帘将金色洒入室内，女王美好的一天即将开始了——",
-		name = "女王的一天",
+		description = "一日の計は朝にあり。太陽の輝きがカーテンから差し込む頃、女王の華麗なる一日が始まる。",
+		name = "女王の一日",
 		column = 36,
 		world_id = "",
 		bgm = "theme-partydress",
@@ -1499,8 +1503,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「证物在湮灭中化为灰烬，真相在尘墟中永世封存。」",
-		name = "湮烬尘墟",
+		description = "仮初の証拠は星霜の中で灰燼と化し、黙示された真実は廃墟の中で永遠となる。",
+		name = "黙示の遺構",
 		column = 37,
 		world_id = "",
 		bgm = "theme-vichy-church",
@@ -1521,8 +1525,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "智者在沉思，蜘蛛在编织。浩瀚星空，无垠大海——尽在蛛网中。",
-		name = "智者与蜘蛛",
+		description = "思慮する智者。織りに励む蜘蛛。星空と海…全ては既に網にかかっている。",
+		name = "凶兆のアクム",
 		column = 38,
 		world_id = "",
 		bgm = "theme-ulrich",
@@ -1547,8 +1551,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「身处星盘之上的空相位，将会在何时迎来交汇？」",
-		name = "空相交汇点",
+		description = "「アストロラーベにある位相なき星、果たしてどこで交わるのか――」",
+		name = "覆天せし万象の塵",
 		column = 38,
 		world_id = "",
 		bgm = "theme-bismark-reborn",
@@ -1572,8 +1576,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "本次行动代号「极地风暴」,战役开始时间为今日0100时。请各作战分队提前就位，祝各位旗开得胜！",
-		name = "极地风暴",
+		description = "作戦名は「極海の嵐」、開始時間は本日0100。速やかに所定の位置まで移動して、作戦開始に備えてください。革命の仲間たちにご武運を――",
+		name = "星霜海嵐",
 		column = 38,
 		world_id = "",
 		bgm = "bgm-cccp2",
@@ -1593,8 +1597,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "肆虐的沙尘让这片小小绿洲成为了风暴中的孤岛。无事可做，不如来一场关于往昔的故事会吧——",
-		name = "绿洲往事",
+		description = "砂塵嵐でオアシスが陸の孤島に化した。どうせやることもないし、昔話でもしようか！",
+		name = "緑地伽話",
 		column = 39,
 		world_id = "",
 		bgm = "story-italy",
@@ -1614,8 +1618,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "为了寻找圣座冠冕，黎塞留一行人出发前往圣赫勒拿。然而此行，注定艰险……l",
-		name = "奏响鸢尾之歌",
+		description = "アイリスの「聖座の冠」を求めるため、そして仲間を助けるために、リシュリューたちは出撃する。",
+		name = "燃ゆる聖都の回想曲",
 		column = 39,
 		world_id = "",
 		bgm = "theme-irisangel",
@@ -1637,8 +1641,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "不论有千种安排，都到今夜为止。\n明日——审判将至——祂将降临。",
-		name = "长夜降临之前",
+		description = "準備も仕掛けも今宵まで。明日には審判が――「其れ」が世界に降誕す。",
+		name = "博覧会の夜",
 		column = 40,
 		world_id = "",
 		bgm = "theme-clemenceau",
@@ -1666,8 +1670,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「剧目名为《愚者的天平》，可是，何为愚者？何为天平？」",
-		name = "愚者的天平",
+		description = "「演目の名称は『愚者の天秤』――されど愚者とは？天秤とは？」",
+		name = "愚者の天秤",
 		column = 41,
 		world_id = "",
 		bgm = "theme-marcopolo",
@@ -1697,8 +1701,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "夜幕中，众人回想起多年前的那场传说之战……",
-		name = "月夜未央",
+		description = "夜陰の候、重桜の艦船たちはかつての大戦に思いを馳せた……",
+		name = "暁夜半宵",
 		column = 42,
 		world_id = "",
 		bgm = "story-unzen",
@@ -1720,8 +1724,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "望月之下，须臾之间，是谁牵动了她的心弦？",
-		name = "须臾望月抄",
+		description = "月下の寸刻、庭園の一隅、彼女の心を動かしたのは――",
+		name = "須臾望月抄",
 		column = 42,
 		world_id = "",
 		bgm = "story-unzen-heart",
@@ -1744,8 +1748,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「陆上神国」事件结束了，世界一扫阴霾，沐浴在晴空之下——",
-		name = "晴空之下",
+		description = "「偽神事件」が無事解決し、世界は晴れやかな空に包まれた――",
+		name = "星凪の空",
 		column = 43,
 		world_id = "",
 		bgm = "story-expo-lastday",
@@ -1772,8 +1776,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「逐光星海间，何处是归途。」",
-		name = "星海逐光",
+		description = "「星々の海をさまよい、故郷への道はいずれ」",
+		name = "光追う星の海",
 		column = 43,
 		world_id = "",
 		bgm = "theme-ucnf-image",
@@ -1796,8 +1800,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为什么要向山而行？因为——山就在前方。",
-		name = "向山而行",
+		description = "なにゆえ山に挑むのか？それは…山がそこにあるからだ。",
+		name = "銀嶺烟霞",
 		column = 44,
 		world_id = "",
 		bgm = "story-antarctica-serious",
@@ -1824,8 +1828,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「真实与虚妄、未来与往昔，到头来只剩下这片无垠的白。雪境之中，路在何方？」",
-		name = "雪境迷踪",
+		description = "艤装と共鳴する特殊鉱物を探し求めて、南極に向かったソユーズ率いる北方連合艦隊。中には思惑を抱えたメンバーも…？",
+		name = "銀界遊廻",
 		column = 44,
 		world_id = "",
 		bgm = "theme-antarctica",
@@ -1851,8 +1855,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "彼岸花，曼珠沙华，艳丽、张扬、有毒。早在花开之前，你就已经深陷其中了——",
-		name = "彼岸花开暗香来",
+		description = "彼岸花、曼珠沙華、美しく、艶しく、毒あり。咲き誇る前から既に術中に嵌っている。",
+		name = "彼岸のレドレント",
 		column = 45,
 		world_id = "",
 		bgm = "theme-akagi-inside",
@@ -1879,8 +1883,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "你听到了么，那跨越了现实与梦境，在星间回荡的彼方之音？",
-		name = "彼方之音",
+		description = "聞こえているか？現実と夢の境界線をも超越した、星空に響く彼方の響きを。",
+		name = "彼方の響",
 		column = 46,
 		world_id = "",
 		bgm = "story-startravel",
@@ -1905,8 +1909,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「辉光之城中，你将见证死亡，接受死亡，最终——在死亡之中绽放。」",
-		name = "绽放于辉光之城",
+		description = "「輝くマルティリウムで死を見届け、死を受け入れ――死に誇れ」",
+		name = "赫輝のマルティリウム",
 		column = 46,
 		world_id = "",
 		bgm = "theme-lightheven",
@@ -1930,8 +1934,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「一曲间奏，一场幻梦。长梦不醒，曲终不散——」",
-		name = "幻梦间奏曲",
+		description = "「間奏であり、幻夢であり、目は覚めず、曲は終わらない――」",
+		name = "夢幻の間奏曲",
 		column = 47,
 		world_id = "",
 		bgm = "story-richang-light",
@@ -1961,8 +1965,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「万事万物，有因必有果，有果必有因。伪物为果，真物为因。果在，因成。」",
-		name = "朱红迷局",
+		description = "「ニセモノが『果』、本物が『因』。すなわち道理なり」",
+		name = "朱染断章",
 		column = 48,
 		world_id = "",
 		bgm = "theme-akagi-inside",
@@ -1990,8 +1994,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「自由之翼，钢铁之躯。巨鹰展翅，碎浪擎风。」",
-		name = "铁翼擎风",
+		description = "「自由の翼、鋼鉄の躯。我羽ばたけば波をも打ち砕く！」",
+		name = "錬翼空翔",
 		column = 48,
 		world_id = "",
 		bgm = "battle-eagleunion",
@@ -2016,8 +2020,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「斯人已逝，彼岸成花。心有执念，奈落留形。」",
-		name = "埋葬于彼岸之花",
+		description = "「死する者は花を咲かせ、残されし想いは奈落に散りゆく」",
+		name = "徒花咲かす彼岸",
 		column = 48,
 		world_id = "",
 		bgm = "story-nailuo-theme",
@@ -2039,8 +2043,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「尘土虽微，聚沙成塔。集此岸之尘，战命定乾坤。」",
-		name = "汇聚于此岸之尘",
+		description = "「此岸の風塵を集め、築き上げるは砂の楼閣。運命と戦う力とならん――」",
+		name = "風塵積もる此岸",
 		column = 49,
 		world_id = "",
 		bgm = "story-flowerdust-soft",
@@ -2065,8 +2069,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「出于现实，落于幻想。虽有执念，亦是执着。」\n「狐鸣凤影，烈火浴心。苍红之炎，于此新生。」",
-		name = "唤醒苍红之炎",
+		description = "「現実に基づき、幻想に落とし込む。執着は執念にあらず、タマシイが築くはヒトの意志」「生まれ変わりの炎、ワタツミが与えしはリュウコツの軀。ここで新たな生を具現化せん」",
+		name = "絳染む丹華の詠歌",
 		column = 50,
 		world_id = "",
 		bgm = "theme-akagi-meta",
@@ -2096,8 +2100,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "所谓归途，并不总能一帆风顺。领域之中尚且如此，领域之外亦存乾坤——",
-		name = "领域外的归途",
+		description = "帰途は順風満帆とは限らず。領域の外に洞天あり――",
+		name = "領域外からの帰還",
 		column = 51,
 		world_id = "",
 		bgm = "theme-nagato-meta",
@@ -2121,8 +2125,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「在余晖消散前，于星光下尽情探寻吧。寻找那些被白日掩盖的细节，寻找黑夜之中隐藏的——真正秘密」",
-		name = "星光下的余晖",
+		description = "「夕日の輝きが消える前に、星空の下で探し求めよう。白昼に隠された手がかりを。夕闇に隠された真実を」",
+		name = "星降る夕影の残光",
 		column = 51,
 		world_id = "",
 		bgm = "story-ironblood-strong",
@@ -2148,8 +2152,12 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「余乃海洛芬特。秉持沟通，提倡交流。受选之人，来余身边。合余之道，颂余之名」",
-		name = "受选者之路",
+		description = [[
+「余はハイエロファント」
+「調和を司り、対話を推し進める者なり」
+「選ばれし者よ、余のもとへ集え」
+「余の理を受け入れ、余の名を高らかに謳うがいい」]],
+		name = "被選者の道",
 		column = 52,
 		world_id = "",
 		bgm = "theme-thehierophantV",
@@ -2174,8 +2182,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「以天地为笼，化信仰为锁。如此，樊笼之中，亦有神光。」",
-		name = "樊笼内的神光",
+		description = "「天地を檻に、信仰を鎖に、さすれば檻籠にて神の光を囚えられよう」",
+		name = "籠檻に囚われし神光",
 		column = 52,
 		world_id = "",
 		bgm = "story-theme-sardinia",
@@ -2198,8 +2206,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "经过烈火焚烧的土地，新芽将会更加繁盛。扬起郁金之旗，驶向那充满希望的远方吧——",
-		name = "扬起郁金之旗",
+		description = "烈火に焼かれし大地に新たな芽吹きが豊かに花開く。チュリッパの旗を掲げ、希望の光満ちる彼方へといざ出航――",
+		name = "チュリッパの海へ",
 		column = 53,
 		world_id = "",
 		bgm = "story-tulipa",
@@ -2224,8 +2232,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "愿帝国的太阳永不落下，愿帝国的舰队永远强盛——",
-		name = "日不落的远征",
+		description = "帝国の太陽が永遠に沈まぬように、帝国の艦隊が永遠に強盛を誇れるように――",
+		name = "太陽未だ沈まぬ",
 		column = 54,
 		world_id = "",
 		bgm = "theme-camelot-up",
@@ -2248,8 +2256,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「蔷薇塔，就由我来守护你。然后，我们一同守护皇家吧——」",
-		name = "高塔上的蔷薇",
+		description = "「薔薇の塔よ、今度は私が守ります。そして一緒にロイヤルを守っていきましょうーー」",
+		name = "高い塔の薔薇",
 		column = 54,
 		world_id = "",
 		bgm = "theme-glorious-meta",
@@ -2272,8 +2280,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "礼炮和乐队均检查完毕…… \n那么先来预演下吧……\n指挥官阁下——欢迎来到重樱！",
-		name = "重樱的邀约",
+		description = "祝砲も音楽隊も準備よし……\n じゃあ、リハーサルを始めるわよ……\n 指揮官、ようこそ重桜へ！",
+		name = "重桜の招待",
 		column = 55,
 		world_id = "",
 		bgm = "story-newsakura",
@@ -2295,8 +2303,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「天域，乃外域之屏。天原，因天域而定。纵使地崩山摧，浩劫将至——天域天原，亦需永存」",
-		name = "起舞于天原之上",
+		description = "「天域は外域の屏なり。アマハラは天域に因りて定まる。たとえ地崩れ山潰え、浩劫来たるとも――天域アマハラ、永存を要す」",
+		name = "アマハラに舞い奉れ",
 		column = 55,
 		world_id = "",
 		bgm = "story-amahara-stage1",

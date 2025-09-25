@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_target_set = {
 	{
 		target_progress = 5,
-		name = "快乐玩耍",
+		name = "健気爛漫",
 		stage = 1,
 		recommend_attr = 0,
 		pic = "tb_target_desc_1_1",
@@ -34,7 +34,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "教育启蒙",
+		name = "頭脳明晰",
 		stage = 1,
 		recommend_attr = 0,
 		pic = "tb_target_desc_1_2",
@@ -66,7 +66,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "举止优雅",
+		name = "気配上手",
 		stage = 1,
 		recommend_attr = 0,
 		pic = "tb_target_desc_1_4",
@@ -98,7 +98,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "感知世界",
+		name = "世界探索",
 		stage = 1,
 		recommend_attr = 0,
 		pic = "tb_target_desc_1_3",
@@ -130,7 +130,7 @@ pg.child_target_set = {
 	},
 	[11] = {
 		target_progress = 5,
-		name = "精力充沛",
+		name = "元気十分",
 		stage = 2,
 		recommend_attr = 101,
 		pic = "tb_target_desc_2_1",
@@ -165,7 +165,7 @@ pg.child_target_set = {
 	},
 	[12] = {
 		target_progress = 5,
-		name = "聪颖过人",
+		name = "聡明叡知",
 		stage = 2,
 		recommend_attr = 102,
 		pic = "tb_target_desc_2_2",
@@ -200,7 +200,7 @@ pg.child_target_set = {
 	},
 	[13] = {
 		target_progress = 5,
-		name = "举止大方",
+		name = "行儀良好",
 		stage = 2,
 		recommend_attr = 103,
 		pic = "tb_target_desc_2_3",
@@ -235,7 +235,7 @@ pg.child_target_set = {
 	},
 	[14] = {
 		target_progress = 5,
-		name = "细致入微",
+		name = "世話上手",
 		stage = 2,
 		recommend_attr = 104,
 		pic = "tb_target_desc_2_4",
@@ -270,7 +270,7 @@ pg.child_target_set = {
 	},
 	[21] = {
 		target_progress = 8,
-		name = "身姿矫健",
+		name = "質実剛健",
 		stage = 3,
 		recommend_attr = 101,
 		pic = "tb_target_desc_3_1",
@@ -300,7 +300,7 @@ pg.child_target_set = {
 	},
 	[22] = {
 		target_progress = 8,
-		name = "才思敏捷",
+		name = "才気煥発",
 		stage = 3,
 		recommend_attr = 102,
 		pic = "tb_target_desc_3_2",
@@ -330,7 +330,7 @@ pg.child_target_set = {
 	},
 	[23] = {
 		target_progress = 8,
-		name = "气质非凡",
+		name = "流麗優雅",
 		stage = 3,
 		recommend_attr = 103,
 		pic = "tb_target_desc_3_3",
@@ -360,7 +360,7 @@ pg.child_target_set = {
 	},
 	[24] = {
 		target_progress = 8,
-		name = "敏感细腻",
+		name = "懇切丁寧",
 		stage = 3,
 		recommend_attr = 104,
 		pic = "tb_target_desc_3_4",
@@ -390,7 +390,7 @@ pg.child_target_set = {
 	},
 	[31] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "機敏利発",
 		stage = 4,
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -429,7 +429,7 @@ pg.child_target_set = {
 	},
 	[32] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "創発無限",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -469,7 +469,7 @@ pg.child_target_set = {
 	},
 	[33] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "繊細周密",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -509,7 +509,7 @@ pg.child_target_set = {
 	},
 	[34] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "果敢貫徹",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -549,7 +549,7 @@ pg.child_target_set = {
 	},
 	[35] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "音律精通",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -589,7 +589,7 @@ pg.child_target_set = {
 	},
 	[36] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "魅力抜群",
 		stage = 4,
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",
@@ -629,7 +629,7 @@ pg.child_target_set = {
 	},
 	[41] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "機敏利発",
 		stage = 4,
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -668,7 +668,7 @@ pg.child_target_set = {
 	},
 	[42] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "創発無限",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -708,7 +708,7 @@ pg.child_target_set = {
 	},
 	[43] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "繊細周密",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -748,7 +748,7 @@ pg.child_target_set = {
 	},
 	[44] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "果敢貫徹",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -788,7 +788,7 @@ pg.child_target_set = {
 	},
 	[45] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "音律精通",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -828,7 +828,7 @@ pg.child_target_set = {
 	},
 	[46] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "魅力抜群",
 		stage = 4,
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",
@@ -868,7 +868,7 @@ pg.child_target_set = {
 	},
 	[51] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "機敏利発",
 		stage = 4,
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -907,7 +907,7 @@ pg.child_target_set = {
 	},
 	[52] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "創発無限",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -947,7 +947,7 @@ pg.child_target_set = {
 	},
 	[53] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "繊細周密",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -987,7 +987,7 @@ pg.child_target_set = {
 	},
 	[54] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "果敢貫徹",
 		stage = 4,
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -1027,7 +1027,7 @@ pg.child_target_set = {
 	},
 	[55] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "音律精通",
 		stage = 4,
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -1067,7 +1067,7 @@ pg.child_target_set = {
 	},
 	[56] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "魅力抜群",
 		stage = 4,
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",

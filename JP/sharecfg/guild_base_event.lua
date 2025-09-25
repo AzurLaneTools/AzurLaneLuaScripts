@@ -207,7 +207,7 @@ pg.base = pg.base or {}
 pg.base.guild_base_event = {
 	[1001] = {
 		extra_squedron_ratio = 0,
-		name = "北方海域清扫作战",
+		name = "北方海域掃討作戦",
 		extra_squadron = "",
 		pic = "1_1",
 		workload = 907200,
@@ -216,9 +216,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维北方近海(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ北方近海(ユニオン艦船作戦評価UP)",
 		id = 1001,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -267,14 +267,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1002] = {
 		extra_squedron_ratio = 0,
-		name = "南方海域清扫作战",
+		name = "南方海域掃討作戦",
 		extra_squadron = "",
 		pic = "1_1",
 		workload = 907200,
@@ -283,9 +283,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维南方近海(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ南方近海(ユニオン艦船作戦評価UP)",
 		id = 1002,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -334,14 +334,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1003] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港航路清扫",
+		name = "真珠湾航路掃討",
 		extra_squadron = "",
 		pic = "1_1",
 		workload = 1209600,
@@ -350,9 +350,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港-米德维航路(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾－ミッドウェイ航路(ユニオン艦船作戦評価UP)",
 		id = 1003,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -402,14 +402,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1004] = {
 		extra_squedron_ratio = 0,
-		name = "航迹岛航路清扫",
+		name = "ウェーク島航路掃討",
 		extra_squadron = "",
 		pic = "1_1",
 		workload = 1209600,
@@ -418,9 +418,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ－ウェーク島航路(ユニオン艦船作戦評価UP)",
 		id = 1004,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -470,14 +470,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1005] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港物资接收护卫",
+		name = "真珠湾物資接収護衛",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 907200,
@@ -486,9 +486,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港方向海域(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾方面海域(ユニオン艦船作戦評価UP)",
 		id = 1005,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -533,14 +533,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1006] = {
 		extra_squedron_ratio = 0,
-		name = "航迹岛物资运输护卫",
+		name = "ウェーク島物資輸送護衛",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 907200,
@@ -549,9 +549,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ－ウェーク島航路(ユニオン艦船作戦評価UP)",
 		id = 1006,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -596,14 +596,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1007] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港飞机接收护卫",
+		name = "真珠湾航空機材接収護衛",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 907200,
@@ -612,9 +612,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "飞机运输(驱逐、轻母效率加成)",
+		ship_type_display = "航空輸送(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港方向海域(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾方面海域(ユニオン艦船作戦評価UP)",
 		id = 1007,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -663,14 +663,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1008] = {
 		extra_squedron_ratio = 0,
-		name = "航迹岛飞机运输护卫",
+		name = "ウェーク島航空機材輸送護衛",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 907200,
@@ -679,9 +679,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "飞机运输(驱逐、轻母效率加成)",
+		ship_type_display = "航空輸送(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ－ウェーク島航路(ユニオン艦船作戦評価UP)",
 		id = 1008,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -730,14 +730,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1009] = {
 		extra_squedron_ratio = 0,
-		name = "米德维近海巡逻",
+		name = "ミッドウェイ近海巡回",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 604800,
@@ -746,9 +746,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维近海(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ近海(ユニオン艦船作戦評価UP)",
 		id = 1009,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -792,14 +792,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1010] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港近海巡逻",
+		name = "真珠湾近海巡回",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 604800,
@@ -808,9 +808,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港近海(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾近海(ユニオン艦船作戦評価UP)",
 		id = 1010,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -854,14 +854,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1011] = {
 		extra_squedron_ratio = 0,
-		name = "查尔斯环礁海域巡逻",
+		name = "ジョンストン環礁海域巡回",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 604800,
@@ -870,9 +870,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "查尔斯环礁近海(白鹰角色评价加成)",
+		ship_camp_display = "ジョンストン環礁近海(ユニオン艦船作戦評価UP)",
 		id = 1011,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -916,14 +916,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1012] = {
 		extra_squedron_ratio = 0,
-		name = "航迹岛海域巡逻",
+		name = "ウェーク島海域巡回",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 604800,
@@ -932,9 +932,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "航迹岛近海(白鹰角色评价加成)",
+		ship_camp_display = "ウェーク島近海(ユニオン艦船作戦評価UP)",
 		id = 1012,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -978,14 +978,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1013] = {
 		extra_squedron_ratio = 0,
-		name = "玛丽安娜群岛侦察",
+		name = "北マリアナ諸島偵察",
 		extra_squadron = "",
 		pic = "1_4",
 		workload = 1058400,
@@ -994,9 +994,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "玛丽安娜群岛(白鹰角色评价加成)",
+		ship_camp_display = "北マリアナ諸島(ユニオン艦船作戦評価UP)",
 		id = 1013,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -1046,14 +1046,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1014] = {
 		extra_squedron_ratio = 0,
-		name = "米德维岛南部海域侦察",
+		name = "ミッドウェイ島南部海域偵察",
 		extra_squadron = "",
 		pic = "1_4",
 		workload = 756000,
@@ -1062,9 +1062,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维南方海域(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ南方海域(ユニオン艦船作戦評価UP)",
 		id = 1014,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -1113,14 +1113,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1015] = {
 		extra_squedron_ratio = 0,
-		name = "莫沙尔群岛侦察",
+		name = "マーシャル諸島偵察",
 		extra_squadron = "",
 		pic = "1_4",
 		workload = 1058400,
@@ -1129,9 +1129,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "莫沙尔群岛(白鹰角色评价加成)",
+		ship_camp_display = "マーシャル諸島(ユニオン艦船作戦評価UP)",
 		id = 1015,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -1181,14 +1181,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1101] = {
 		extra_squedron_ratio = 200,
-		name = "新楠塔基特岛航路清扫",
+		name = "ベーカー島航路掃討",
 		extra_squadron = "Brooklyn-Class",
 		pic = "1_1",
 		workload = 1512000,
@@ -1197,9 +1197,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：布鲁克林级轻巡洋舰3艘以上",
-		ship_camp_display = "米德维-新楠塔基特岛航路(白鹰角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：ブルックリン級軽巡3",
+		ship_camp_display = "ミッドウェイ－ベーカー島航路(ユニオン艦船作戦評価UP)",
 		id = 1101,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -1257,14 +1257,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1102] = {
 		extra_squedron_ratio = 200,
-		name = "查尔斯环礁航路清扫",
+		name = "ジョンストン環礁航路掃討",
 		extra_squadron = "Northampton-Class",
 		pic = "1_1",
 		workload = 1512000,
@@ -1273,9 +1273,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：北安普敦级重巡洋舰2艘以上",
-		ship_camp_display = "米德维-查尔斯环礁航路(白鹰角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：ノーザンプトン級重巡2",
+		ship_camp_display = "ミッドウェイ－ジョンストン環礁航路(ユニオン艦船作戦評価UP)",
 		id = 1102,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1333,14 +1333,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1103] = {
 		extra_squedron_ratio = 200,
-		name = "古阿姆岛护航任务",
+		name = "グアム島護衛任務",
 		extra_squadron = "Fletcher-Class",
 		pic = "1_2",
 		workload = 1058400,
@@ -1349,9 +1349,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
-		ship_camp_display = "米德维-古阿姆岛航路(白鹰角色评价加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：フレッチャー級駆逐3",
+		ship_camp_display = "ミッドウェイ－グアム島航路(ユニオン艦船作戦評価UP)",
 		id = 1103,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -1408,14 +1408,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1104] = {
 		extra_squedron_ratio = 200,
-		name = "新楠塔基特岛护航任务",
+		name = "ベーカー島護衛任務",
 		extra_squadron = "Cleveland-Class",
 		pic = "1_2",
 		workload = 1058400,
@@ -1424,9 +1424,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：克利夫兰级轻巡洋舰2艘以上",
-		ship_camp_display = "米德维-新楠塔基特岛航路(白鹰角色评价加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：クリーブランド級軽巡2",
+		ship_camp_display = "ミッドウェイ－ベーカー島航路(ユニオン艦船作戦評価UP)",
 		id = 1104,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1483,14 +1483,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1105] = {
 		extra_squedron_ratio = 200,
-		name = "查尔斯环礁护航任务",
+		name = "ジョンストン環礁護衛任務",
 		extra_squadron = "Benson-Class",
 		pic = "1_2",
 		workload = 756000,
@@ -1499,9 +1499,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：本森级驱逐舰3艘以上",
-		ship_camp_display = "米德维-查尔斯环礁航路(白鹰角色评价加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：ベンソン級駆逐3",
+		ship_camp_display = "ミッドウェイ－ジョンストン環礁航路(ユニオン艦船作戦評価UP)",
 		id = 1105,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -1557,14 +1557,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1106] = {
 		extra_squedron_ratio = 200,
-		name = "西部海岸护航任务",
+		name = "西部海岸護衛任務",
 		extra_squadron = "Omaha-Class",
 		pic = "1_2",
 		workload = 756000,
@@ -1573,9 +1573,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：奥马哈级轻巡洋舰2艘以上",
-		ship_camp_display = "米德维-白鹰本土航路(白鹰角色评价加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：オマハ級軽巡2",
+		ship_camp_display = "ミッドウェイ－ユニオン本土航路(ユニオン艦船作戦評価UP)",
 		id = 1106,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1631,14 +1631,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1107] = {
 		extra_squedron_ratio = 200,
-		name = "利亚辛海域警戒",
+		name = "リシアンスキー島海域警戒",
 		extra_squadron = "Sims-Class",
 		pic = "1_4",
 		workload = 907200,
@@ -1647,9 +1647,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：西姆斯级驱逐舰2艘以上",
-		ship_camp_display = "利亚辛岛海域(白鹰角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：シムス級駆逐2",
+		ship_camp_display = "リシアンスキー島海域(ユニオン艦船作戦評価UP)",
 		id = 1107,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1705,14 +1705,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1108] = {
 		extra_squedron_ratio = 200,
-		name = "莱珊海域警戒",
+		name = "レーザン島海域警戒",
 		extra_squadron = "Gridley-Class",
 		pic = "1_4",
 		workload = 1058400,
@@ -1721,9 +1721,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：格里德利级驱逐舰2艘以上",
-		ship_camp_display = "莱珊岛海域(白鹰角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：グリッドレイ級駆逐2",
+		ship_camp_display = "レーザン島(ユニオン艦船作戦評価UP)",
 		id = 1108,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1780,14 +1780,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1109] = {
 		extra_squedron_ratio = 200,
-		name = "爱丽丝环礁海域警戒",
+		name = "クレ環礁海域警戒",
 		extra_squadron = "Pensacola-Class",
 		pic = "1_4",
 		workload = 1209600,
@@ -1796,9 +1796,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：彭萨科拉级重巡洋舰2艘以上",
-		ship_camp_display = "鸢尾环礁海域(白鹰角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：ペンサコーラ級重巡2",
+		ship_camp_display = "クレ環礁海域(ユニオン艦船作戦評価UP)",
 		id = 1109,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1855,14 +1855,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1110] = {
 		extra_squedron_ratio = 200,
-		name = "玛库纳马纳海域警戒",
+		name = "ネッカー島海域警戒",
 		extra_squadron = "Farragut-Class",
 		pic = "1_4",
 		workload = 1058400,
@@ -1871,9 +1871,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：法拉格特级驱逐舰2艘以上",
-		ship_camp_display = "玛库纳马纳岛海域(白鹰角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：ファラガット級駆逐2",
+		ship_camp_display = "ネッカー島海域(ユニオン艦船作戦評価UP)",
 		id = 1110,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -1930,14 +1930,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1111] = {
 		extra_squedron_ratio = 200,
-		name = "尼阿霍海域警戒",
+		name = "ニホア島海域警戒",
 		extra_squadron = "Mahan-Class",
 		pic = "1_4",
 		workload = 907200,
@@ -1946,9 +1946,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：马汉级驱逐舰2艘以上",
-		ship_camp_display = "尼阿霍岛海域(白鹰角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：マハン級駆逐2",
+		ship_camp_display = "ニホア島海域(ユニオン艦船作戦評価UP)",
 		id = 1111,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -2004,14 +2004,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1112] = {
 		extra_squedron_ratio = 200,
-		name = "北方海域侦察",
+		name = "北方海域偵察",
 		extra_squadron = "Fletcher-Class",
 		pic = "1_4",
 		workload = 756000,
@@ -2020,9 +2020,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐效率加成)",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
-		ship_camp_display = "米德维北方海域(白鹰角色评价加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
+		extra_squadron_display = "特殊編成：フレッチャー級駆逐3",
+		ship_camp_display = "ミッドウェイ北方海域(ユニオン艦船作戦評価UP)",
 		id = 1112,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -2074,14 +2074,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1113] = {
 		extra_squedron_ratio = 200,
-		name = "查尔斯环礁南部海域侦察",
+		name = "ジョンストン環礁南部海域偵察",
 		extra_squadron = "Benson-Class",
 		pic = "1_4",
 		workload = 907200,
@@ -2090,9 +2090,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐效率加成)",
-		extra_squadron_display = "特殊编制：本森级驱逐舰3艘以上",
-		ship_camp_display = "查尔斯环礁南方海域(白鹰角色评价加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
+		extra_squadron_display = "特殊編成：ベンソン級駆逐3",
+		ship_camp_display = "ジョンストン環礁南方海域(ユニオン艦船作戦評価UP)",
 		id = 1113,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -2144,14 +2144,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1114] = {
 		extra_squedron_ratio = 200,
-		name = "新楠塔基特岛海域侦察",
+		name = "ベーカー島海域偵察",
 		extra_squadron = "Lexington-Class",
 		pic = "1_4",
 		workload = 1058400,
@@ -2160,9 +2160,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：列克星敦级航空母舰2艘以上",
-		ship_camp_display = "新楠塔基特岛海域(白鹰角色评价加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：レキシントン級空母2",
+		ship_camp_display = "ベーカー島海域(ユニオン艦船作戦評価UP)",
 		id = 1114,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -2219,14 +2219,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[1201] = {
 		extra_squedron_ratio = 0,
-		name = "米德维近海夜间警戒",
+		name = "ミッドウェイ近海夜間警戒",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 453600,
@@ -2235,9 +2235,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维近海(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ近海(ユニオン艦船作戦評価UP)",
 		id = 1201,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2281,14 +2281,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1202] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港近海夜间警戒",
+		name = "真珠湾近海夜間警戒",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 453600,
@@ -2297,9 +2297,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港近海(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾近海(ユニオン艦船作戦評価UP)",
 		id = 1202,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2343,14 +2343,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1203] = {
 		extra_squedron_ratio = 0,
-		name = "环礁海域夜间警戒",
+		name = "環礁海域夜間警戒",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 453600,
@@ -2359,9 +2359,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "查尔斯环礁近海(白鹰角色评价加成)",
+		ship_camp_display = "ジョンストン環礁近海(ユニオン艦船作戦評価UP)",
 		id = 1203,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2405,14 +2405,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1204] = {
 		extra_squedron_ratio = 0,
-		name = "航迹岛海域夜间警戒",
+		name = "ウェーク島海域夜間警戒",
 		extra_squadron = "",
 		pic = "1_3",
 		workload = 453600,
@@ -2421,9 +2421,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "航迹岛近海(白鹰角色评价加成)",
+		ship_camp_display = "ウェーク島近海(ユニオン艦船作戦評価UP)",
 		id = 1204,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2467,14 +2467,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1205] = {
 		extra_squedron_ratio = 0,
-		name = "米德维岛后勤整备",
+		name = "ミッドウェイ島補給整備",
 		extra_squadron = "",
 		pic = "1_5",
 		workload = 604800,
@@ -2483,9 +2483,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "海域補給(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维岛(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ島(ユニオン艦船作戦評価UP)",
 		id = 1205,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2529,14 +2529,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1206] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港后勤整备",
+		name = "真珠湾補給整備",
 		extra_squadron = "",
 		pic = "1_5",
 		workload = 907200,
@@ -2545,9 +2545,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "海域補給(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾(ユニオン艦船作戦評価UP)",
 		id = 1206,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2592,14 +2592,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1207] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港舰装维修",
+		name = "真珠湾艤装補修",
 		extra_squadron = "",
 		pic = "1_5",
 		workload = 1209600,
@@ -2608,9 +2608,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾(ユニオン艦船作戦評価UP)",
 		id = 1207,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2656,14 +2656,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1208] = {
 		extra_squedron_ratio = 0,
-		name = "米德维岛物资整备",
+		name = "ミッドウェイ島物資整備",
 		extra_squadron = "",
 		pic = "1_5",
 		workload = 604800,
@@ -2672,9 +2672,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "米德维岛(白鹰角色评价加成)",
+		ship_camp_display = "ミッドウェイ島(ユニオン艦船作戦評価UP)",
 		id = 1208,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2718,14 +2718,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[1209] = {
 		extra_squedron_ratio = 0,
-		name = "波尔港物资整备",
+		name = "真珠湾物資整備",
 		extra_squadron = "",
 		pic = "1_5",
 		workload = 907200,
@@ -2734,9 +2734,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "真珠湾(ユニオン艦船作戦評価UP)",
 		id = 1209,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2781,14 +2781,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2001] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域西南护航战",
+		name = "NA海域南西護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -2797,9 +2797,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域西南(皇家角色评价加成)",
+		ship_camp_display = "NA海域南西(ロイヤル艦船作戦評価UP)",
 		id = 2001,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2849,14 +2849,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2002] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域东南护航战",
+		name = "NA海域南東護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -2865,9 +2865,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(重巡、战列效率加成)",
+		ship_type_display = "海域制圧(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域东南(皇家角色评价加成)",
+		ship_camp_display = "NA海域南東(ロイヤル艦船作戦評価UP)",
 		id = 2002,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2917,14 +2917,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2003] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域西北护航战",
+		name = "NA海域北西護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -2933,9 +2933,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、航母效率加成)",
+		ship_type_display = "海域制圧(軽巡、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域西北(皇家角色评价加成)",
+		ship_camp_display = "NA海域北西(ロイヤル艦船作戦評価UP)",
 		id = 2003,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -2985,14 +2985,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2004] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域东北护航战",
+		name = "NA海域北東護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -3001,9 +3001,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、战列效率加成)",
+		ship_type_display = "海域制圧(軽巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域东北(皇家角色评价加成)",
+		ship_camp_display = "NA海域北東(ロイヤル艦船作戦評価UP)",
 		id = 2004,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3053,14 +3053,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2005] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域西部护航战",
+		name = "NA海域西部護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -3069,9 +3069,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域西部(皇家角色评价加成)",
+		ship_camp_display = "NA海域西部(ロイヤル艦船作戦評価UP)",
 		id = 2005,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3121,14 +3121,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2006] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域东部护航战",
+		name = "NA海域東部護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -3137,9 +3137,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(重巡、战列效率加成)",
+		ship_type_display = "海域制圧(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域东部(皇家角色评价加成)",
+		ship_camp_display = "NA海域東部(ロイヤル艦船作戦評価UP)",
 		id = 2006,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3189,14 +3189,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2007] = {
 		extra_squedron_ratio = 0,
-		name = "NA海域北部护航战",
+		name = "NA海域北部護衛戦",
 		extra_squadron = "",
 		pic = "2_1",
 		workload = 1209600,
@@ -3205,9 +3205,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NA海域北部(皇家角色评价加成)",
+		ship_camp_display = "NA海域北部(ロイヤル艦船作戦評価UP)",
 		id = 2007,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3257,14 +3257,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2008] = {
 		extra_squedron_ratio = 0,
-		name = "极地航线西段护卫",
+		name = "極地航路西部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 1209600,
@@ -3273,9 +3273,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_camp_display = "NY－ムルマンスク航路(ロイヤル、北連艦船作戦評価UP)",
 		id = 2008,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3325,14 +3325,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2009] = {
 		extra_squedron_ratio = 0,
-		name = "LD至SP西段护卫",
+		name = "LD－SP航路西部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 756000,
@@ -3341,9 +3341,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_camp_display = "NY－リバープール北方航路(ロイヤル艦船作戦評価UP)",
 		id = 2009,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3388,14 +3388,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2010] = {
 		extra_squedron_ratio = 0,
-		name = "NY至LD西段护卫",
+		name = "NY－LD航路西部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 756000,
@@ -3404,9 +3404,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_camp_display = "NY－リバープール南方航路(ロイヤル艦船作戦評価UP)",
 		id = 2010,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3451,14 +3451,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2011] = {
 		extra_squedron_ratio = 0,
-		name = "极地航线东段护卫",
+		name = "極地航路東部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 1209600,
@@ -3467,9 +3467,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_camp_display = "NY－ムルマンスク航路(ロイヤル、北連艦船作戦評価UP)",
 		id = 2011,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3519,14 +3519,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2012] = {
 		extra_squedron_ratio = 0,
-		name = "LD至SP东段护卫",
+		name = "LD－SP航路東部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 756000,
@@ -3535,9 +3535,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_camp_display = "NY－リバープール北方航路(ロイヤル艦船作戦評価UP)",
 		id = 2012,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3582,14 +3582,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2013] = {
 		extra_squedron_ratio = 0,
-		name = "NY至LD东段护卫",
+		name = "NY－LD航路東部護衛",
 		extra_squadron = "",
 		pic = "2_2",
 		workload = 756000,
@@ -3598,9 +3598,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_camp_display = "NY－リバープール南方航路(ロイヤル艦船作戦評価UP)",
 		id = 2013,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3645,14 +3645,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2014] = {
 		extra_squedron_ratio = 0,
-		name = "NY近海巡逻",
+		name = "NY近海巡回",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 604800,
@@ -3661,9 +3661,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY近海(白鹰角色评价加成)",
+		ship_camp_display = "NY近海(ユニオン艦船作戦評価UP)",
 		id = 2014,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3707,14 +3707,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2015] = {
 		extra_squedron_ratio = 0,
-		name = "王家海峡巡逻",
+		name = "王家海峡巡回",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 604800,
@@ -3723,9 +3723,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "王家海峡(皇家角色评价加成)",
+		ship_camp_display = "王家海峡(ロイヤル艦船作戦評価UP)",
 		id = 2015,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3769,14 +3769,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2016] = {
 		extra_squedron_ratio = 0,
-		name = "摩斯科尔曼近海巡逻",
+		name = "ムルマンスク近海巡回",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 604800,
@@ -3785,9 +3785,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "海域巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "摩斯科尔曼(北联角色评价加成)",
+		ship_camp_display = "ムルマンスク(北連艦船作戦評価UP)",
 		id = 2016,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3831,14 +3831,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2017] = {
 		extra_squedron_ratio = 0,
-		name = "萨默斯群岛侦察",
+		name = "バミューダ海偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -3847,9 +3847,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "萨默斯群岛(白鹰角色评价加成)",
+		ship_camp_display = "バミューダ海(ユニオン艦船作戦評価UP)",
 		id = 2017,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3898,14 +3898,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2018] = {
 		extra_squedron_ratio = 0,
-		name = "简·梅恩岛侦察",
+		name = "ヤンマイエン島偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -3914,9 +3914,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "简·梅恩岛(皇家角色评价加成)",
+		ship_camp_display = "ヤンマイエン島(ロイヤル艦船作戦評価UP)",
 		id = 2018,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -3965,14 +3965,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2019] = {
 		extra_squedron_ratio = 0,
-		name = "拉布多拉海侦察",
+		name = "ラブラドル海偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -3981,9 +3981,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "拉布多拉海(皇家角色评价加成)",
+		ship_camp_display = "ラブラドル海(ロイヤル艦船作戦評価UP)",
 		id = 2019,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -4028,14 +4028,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2020] = {
 		extra_squedron_ratio = 0,
-		name = "巴伦支海侦察",
+		name = "バレンツ海偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -4044,9 +4044,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "巴伦支海(北联角色评价加成)",
+		ship_camp_display = "バレンツ海(北連艦船作戦評価UP)",
 		id = 2020,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -4091,14 +4091,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2021] = {
 		extra_squedron_ratio = 0,
-		name = "诺斯克哈维特海侦察",
+		name = "ノルスカ海偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -4107,9 +4107,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "诺斯克哈维特海(皇家角色评价加成)",
+		ship_camp_display = "ノルスカ海(ロイヤル艦船作戦評価UP)",
 		id = 2021,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -4154,14 +4154,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2101] = {
 		extra_squedron_ratio = 200,
-		name = "拉布多拉护航战",
+		name = "ラブラドル護衛戦",
 		extra_squadron = "Leander-Class",
 		pic = "2_1",
 		workload = 1512000,
@@ -4170,9 +4170,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：利安得级轻巡洋舰2艘以上",
-		ship_camp_display = "拉布多拉海(皇家角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：リアンダー級軽巡2",
+		ship_camp_display = "ラブラドル海(ロイヤル艦船作戦評価UP)",
 		id = 2101,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4230,14 +4230,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2102] = {
 		extra_squedron_ratio = 200,
-		name = "诺斯克哈维特护航战",
+		name = "ノルスカ海護衛戦",
 		extra_squadron = "Nelson-Class",
 		pic = "2_1",
 		workload = 1512000,
@@ -4246,9 +4246,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：纳尔逊级战列舰2艘以上",
-		ship_camp_display = "诺斯克哈维特海(皇家角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：ネルソン級戦艦2",
+		ship_camp_display = "ノルスカ海(ロイヤル艦船作戦評価UP)",
 		id = 2102,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4306,14 +4306,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2103] = {
 		extra_squedron_ratio = 200,
-		name = "巴伦支海护航战",
+		name = "バレンツ海護衛戦",
 		extra_squadron = "Northern Union-DD",
 		pic = "2_1",
 		workload = 1512000,
@@ -4322,9 +4322,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：北联所属驱逐舰2艘以上",
-		ship_camp_display = "巴伦支海(皇家、北联角色评价加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：北方連合所属駆逐2",
+		ship_camp_display = "バレンツ海(ロイヤル、北連艦船作戦評価UP)",
 		id = 2103,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4386,14 +4386,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2104] = {
 		extra_squedron_ratio = 200,
-		name = "圣洛伦茨湾护航战",
+		name = "セントローレンス湾護衛戦",
 		extra_squadron = "County-Class",
 		pic = "2_1",
 		workload = 1512000,
@@ -4402,9 +4402,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：郡级重巡洋舰3艘以上",
-		ship_camp_display = "圣洛伦茨湾(皇家角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：カウンティ級重巡3",
+		ship_camp_display = "セントローレンス湾(ロイヤル艦船作戦評価UP)",
 		id = 2104,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -4462,14 +4462,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2105] = {
 		extra_squedron_ratio = 200,
-		name = "极地航线中段护卫",
+		name = "極地航路中部護衛",
 		extra_squadron = "Northern Union-DD",
 		pic = "2_2",
 		workload = 1209600,
@@ -4478,9 +4478,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "商路护航(驱逐效率加成)",
-		extra_squadron_display = "特殊编制：北联所属驱逐舰2艘以上",
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
+		extra_squadron_display = "特殊編成：北方連合所属駆逐2",
+		ship_camp_display = "NY－ムルマンスク航路(ロイヤル、北連艦船作戦評価UP)",
 		id = 2105,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4537,14 +4537,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2106] = {
 		extra_squedron_ratio = 200,
-		name = "LD至SP中段护卫",
+		name = "LD－SP航路中部護衛",
 		extra_squadron = "C-Class",
 		pic = "2_2",
 		workload = 756000,
@@ -4553,9 +4553,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "商路护航(驱逐效率加成)",
-		extra_squadron_display = "特殊编制：C级驱逐舰3艘以上",
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
+		extra_squadron_display = "特殊編成：Cクラス駆逐3",
+		ship_camp_display = "NY－リバープール北方航路(ロイヤル艦船作戦評価UP)",
 		id = 2106,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -4607,14 +4607,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2107] = {
 		extra_squedron_ratio = 200,
-		name = "NY至LD中段护卫",
+		name = "NY－LD航路中部護衛",
 		extra_squadron = "B-Class",
 		pic = "2_2",
 		workload = 756000,
@@ -4623,9 +4623,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "商路护航(驱逐效率加成)",
-		extra_squadron_display = "特殊编制：B级驱逐舰2艘以上",
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_type_display = "通商護衛(駆逐効率UP)",
+		extra_squadron_display = "特殊編成：Bクラス駆逐2",
+		ship_camp_display = "NY－リバープール南方航路(ロイヤル艦船作戦評価UP)",
 		id = 2107,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4677,14 +4677,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2108] = {
 		extra_squedron_ratio = 200,
-		name = "林鸽群岛警戒",
+		name = "アゾレス諸島警戒",
 		extra_squadron = "J-Class",
 		pic = "2_4",
 		workload = 1058400,
@@ -4693,9 +4693,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：J级驱逐舰3艘以上",
-		ship_camp_display = "林鸽群岛(皇家角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：Jクラス駆逐3",
+		ship_camp_display = "アゾレス諸島(ロイヤル艦船作戦評価UP)",
 		id = 2108,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -4752,14 +4752,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2109] = {
 		extra_squedron_ratio = 200,
-		name = "凯尔特海警戒",
+		name = "ケルト海警戒",
 		extra_squadron = "F-Class",
 		pic = "2_4",
 		workload = 1058400,
@@ -4768,9 +4768,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
-		ship_camp_display = "凯尔特海(皇家角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：Fクラス駆逐2",
+		ship_camp_display = "ケルト海(ロイヤル艦船作戦評価UP)",
 		id = 2109,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4827,9 +4827,9 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2110] = {
@@ -4843,9 +4843,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(重巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：郡级重巡洋舰2艘以上",
-		ship_camp_display = "NY海域北部(皇家角色评价加成)",
+		ship_type_display = "海域警戒(重巡、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：カウンティ級重巡2",
+		ship_camp_display = "NY海域北部(ロイヤル艦船作戦評価UP)",
 		id = 2110,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4902,9 +4902,9 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2111] = {
@@ -4918,9 +4918,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：城级轻巡洋舰2艘以上",
-		ship_camp_display = "白海(皇家角色评价加成)",
+		ship_type_display = "海域警戒(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：タウン級軽巡2",
+		ship_camp_display = "白海(ロイヤル艦船作戦評価UP)",
 		id = 2111,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -4977,14 +4977,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2112] = {
 		extra_squedron_ratio = 200,
-		name = "冲沙湾警戒",
+		name = "チェシュスカヤ湾警戒",
 		extra_squadron = "Northern Union-CL",
 		pic = "2_4",
 		workload = 1058400,
@@ -4993,9 +4993,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：北联所属轻巡洋舰2艘以上",
-		ship_camp_display = "冲沙湾(皇家、北联角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：北方連合所属軽巡2",
+		ship_camp_display = "チェシュスカヤ湾(ロイヤル、北連艦船作戦評価UP)",
 		id = 2112,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -5056,14 +5056,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2113] = {
 		extra_squedron_ratio = 200,
-		name = "绍伯拉海警戒",
+		name = "ペチョラ湾警戒",
 		extra_squadron = "Northern Union-CL",
 		pic = "2_4",
 		workload = 1058400,
@@ -5072,9 +5072,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：北联所属轻巡洋舰2艘以上",
-		ship_camp_display = "绍伯拉海(皇家、北联角色评价加成)",
+		ship_type_display = "海域警戒(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：北方連合所属軽巡2",
+		ship_camp_display = "ペチョラ湾(ロイヤル、北連艦船作戦評価UP)",
 		id = 2113,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -5135,14 +5135,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2114] = {
 		extra_squedron_ratio = 200,
-		name = "绿地海深处侦察",
+		name = "グリーンランド海深部偵察",
 		extra_squadron = "Royal Fleet-CVL",
 		pic = "2_4",
 		workload = 1360800,
@@ -5151,9 +5151,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰2艘以上",
-		ship_camp_display = "绿地海深处(皇家角色评价加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：ロイヤル所属軽母2",
+		ship_camp_display = "グリーンランド海深部(ロイヤル艦船作戦評価UP)",
 		id = 2114,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -5211,14 +5211,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2115] = {
 		extra_squedron_ratio = 200,
-		name = "NA海域深处侦察",
+		name = "NA海域深部偵察",
 		extra_squadron = "F-Class",
 		pic = "2_4",
 		workload = 1360800,
@@ -5227,9 +5227,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
-		ship_camp_display = "NA海域中心(皇家角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：Fクラス駆逐2",
+		ship_camp_display = "NA海域中心(ロイヤル艦船作戦評価UP)",
 		id = 2115,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -5287,14 +5287,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2116] = {
 		extra_squedron_ratio = 200,
-		name = "巴弗因湾侦察",
+		name = "バフィン湾偵察",
 		extra_squadron = "Eagle Union-CVL",
 		pic = "2_4",
 		workload = 1360800,
@@ -5303,9 +5303,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：白鹰所属轻型航空母舰2艘以上",
-		ship_camp_display = "巴弗因湾(白鹰、皇家角色评价加成)",
+		ship_type_display = "海域偵察(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：ユニオン所属軽母2",
+		ship_camp_display = "バフィン湾(ユニオン、ロイヤル艦船作戦評価UP)",
 		id = 2116,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -5367,14 +5367,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2201] = {
 		extra_squedron_ratio = 0,
-		name = "NY近海夜间警戒",
+		name = "NY近海夜間警戒",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 453600,
@@ -5383,9 +5383,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "NY近海(白鹰角色评价加成)",
+		ship_camp_display = "NY近海(ユニオン艦船作戦評価UP)",
 		id = 2201,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5429,14 +5429,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2202] = {
 		extra_squedron_ratio = 0,
-		name = "王家海峡夜间警戒",
+		name = "王家海峡夜間警戒",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 453600,
@@ -5445,9 +5445,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "王家海峡(皇家角色评价加成)",
+		ship_camp_display = "王家海峡(ロイヤル艦船作戦評価UP)",
 		id = 2202,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5491,14 +5491,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2203] = {
 		extra_squedron_ratio = 0,
-		name = "摩斯科尔曼夜间警戒",
+		name = "ムルマンスク夜間警戒",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 453600,
@@ -5507,9 +5507,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "夜間巡回(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "摩斯科尔曼(北联角色评价加成)",
+		ship_camp_display = "ムルマンスク(北連艦船作戦評価UP)",
 		id = 2203,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5553,14 +5553,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[2204] = {
 		extra_squedron_ratio = 0,
-		name = "贝尔岛侦察",
+		name = "ベア島偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -5569,9 +5569,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "贝尔岛(北联角色评价加成)",
+		ship_camp_display = "ベア島(北連艦船作戦評価UP)",
 		id = 2204,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5620,14 +5620,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2205] = {
 		extra_squedron_ratio = 0,
-		name = "霍本岛侦察",
+		name = "ホーペン島偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -5636,9 +5636,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "霍本岛(北联角色评价加成)",
+		ship_camp_display = "ホーペン島(北連艦船作戦評価UP)",
 		id = 2205,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5687,14 +5687,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2206] = {
 		extra_squedron_ratio = 0,
-		name = "圣洛伦茨湾侦察",
+		name = "セントローレンス湾偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -5703,9 +5703,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "圣洛伦茨湾(皇家角色评价加成)",
+		ship_camp_display = "セントローレンス湾(ロイヤル艦船作戦評価UP)",
 		id = 2206,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5750,14 +5750,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[2207] = {
 		extra_squedron_ratio = 0,
-		name = "卡坦布里安海侦察",
+		name = "カンタブリア海偵察",
 		extra_squadron = "",
 		pic = "2_4",
 		workload = 907200,
@@ -5766,9 +5766,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "海域偵察(駆逐効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "卡坦布里安海(皇家角色评价加成)",
+		ship_camp_display = "カンタブリア海(ロイヤル艦船作戦評価UP)",
 		id = 2207,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5813,14 +5813,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3001] = {
 		extra_squedron_ratio = 0,
-		name = "西部峡湾海战",
+		name = "ベストフィヨルド海戦",
 		extra_squadron = "",
 		pic = "3_2",
 		workload = 907200,
@@ -5829,9 +5829,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "戦艦対決(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "西部峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "ベストフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3001,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5884,14 +5884,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3002] = {
 		extra_squedron_ratio = 0,
-		name = "哈特里岛海域遭遇战",
+		name = "ヒートラ島遭遇戦",
 		extra_squadron = "",
 		pic = "3_2",
 		workload = 907200,
@@ -5900,9 +5900,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "戦艦対決(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "哈特里岛海域(皇家、铁血角色评价加成)",
+		ship_camp_display = "ヒートラ島(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3002,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -5955,14 +5955,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3003] = {
 		extra_squedron_ratio = 0,
-		name = "伯克纳峡湾海战",
+		name = "ボクナフィヨルド海戦",
 		extra_squadron = "",
 		pic = "3_2",
 		workload = 907200,
@@ -5971,9 +5971,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "戦艦対決(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "伯克纳峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "ボクナフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3003,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6026,14 +6026,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3004] = {
 		extra_squedron_ratio = 0,
-		name = "北海海战",
+		name = "北海海戦",
 		extra_squadron = "",
 		pic = "3_2",
 		workload = 907200,
@@ -6042,9 +6042,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "北海(皇家、铁血角色评价加成)",
+		ship_camp_display = "北海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3004,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6097,14 +6097,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3005] = {
 		extra_squedron_ratio = 0,
-		name = "尼尔瓦克运输线破袭",
+		name = "ナルビク輸送路破壊",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -6113,9 +6113,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "補給破壊(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼德罗斯-尼尔瓦克航路(铁血角色评价加成)",
+		ship_camp_display = "トロンハイム－ナルビク航路(鉄血艦船作戦評価UP)",
 		id = 3005,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6164,14 +6164,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3006] = {
 		extra_squedron_ratio = 0,
-		name = "南索斯运输线破袭",
+		name = "ナムソース輸送路破壊",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -6180,9 +6180,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "補給破壊(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼德罗斯-南索斯航路(铁血角色评价加成)",
+		ship_camp_display = "トロンハイム－ナムソース航路(鉄血艦船作戦評価UP)",
 		id = 3006,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6231,14 +6231,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3007] = {
 		extra_squedron_ratio = 0,
-		name = "夸特运输线破袭",
+		name = "クリスチャンサン輸送路破壊",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -6247,9 +6247,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "補給破壊(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "阿克斯胡斯-夸特航路(铁血角色评价加成)",
+		ship_camp_display = "オスロ－クリスチャンサン航路(鉄血艦船作戦評価UP)",
 		id = 3007,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6298,14 +6298,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3008] = {
 		extra_squedron_ratio = 0,
-		name = "斯特凡格运输线破袭",
+		name = "スタヴァンゲル輸送路破壊",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -6314,9 +6314,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "補給破壊(重巡、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布丽根-斯特凡格航路(铁血角色评价加成)",
+		ship_camp_display = "ベルゲン－スタヴァンゲル航路(鉄血艦船作戦評価UP)",
 		id = 3008,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6365,14 +6365,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3009] = {
 		extra_squedron_ratio = 0,
-		name = "尼尔瓦克港制海权夺取",
+		name = "ナルビク港制海権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6381,9 +6381,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼尔瓦克近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "ナルビク近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3009,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6436,14 +6436,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3010] = {
 		extra_squedron_ratio = 0,
-		name = "南索斯港制海权夺取",
+		name = "ナムソース港制海権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6452,9 +6452,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "南索斯近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "ナムソース近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3010,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6507,14 +6507,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3011] = {
 		extra_squedron_ratio = 0,
-		name = "夸特港制海权夺取",
+		name = "クリスチャンサン港制海権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6523,9 +6523,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "夸特近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "クリスチャンサン近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3011,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6578,14 +6578,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3012] = {
 		extra_squedron_ratio = 0,
-		name = "斯特凡格港制海权夺取",
+		name = "スタヴァンゲル港制海権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6594,9 +6594,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "斯特凡格近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "スタヴァンゲル近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3012,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6649,14 +6649,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3013] = {
 		extra_squedron_ratio = 0,
-		name = "尼尔瓦克港制空权夺取",
+		name = "ナルビク港制空権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6665,9 +6665,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼尔瓦克近海(皇家角色评价加成)",
+		ship_camp_display = "ナルビク近海(ロイヤル艦船作戦評価UP)",
 		id = 3013,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6712,14 +6712,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3014] = {
 		extra_squedron_ratio = 0,
-		name = "南索斯港制空权夺取",
+		name = "ナムソース港制空権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6728,9 +6728,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "南索斯近海(皇家角色评价加成)",
+		ship_camp_display = "ナムソース近海(ロイヤル艦船作戦評価UP)",
 		id = 3014,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6775,14 +6775,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3015] = {
 		extra_squedron_ratio = 0,
-		name = "夸特港制空权夺取",
+		name = "クリスチャンサン港制空権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6791,9 +6791,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "夸特近海(皇家角色评价加成)",
+		ship_camp_display = "クリスチャンサン近海(ロイヤル艦船作戦評価UP)",
 		id = 3015,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6838,14 +6838,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3016] = {
 		extra_squedron_ratio = 0,
-		name = "斯特凡格港制空权夺取",
+		name = "スタヴァンゲル港制空権確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -6854,9 +6854,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "斯特凡格近海(皇家角色评价加成)",
+		ship_camp_display = "スタヴァンゲル近海(ロイヤル艦船作戦評価UP)",
 		id = 3016,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6901,14 +6901,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3017] = {
 		extra_squedron_ratio = 0,
-		name = "奥福托峡湾侦察",
+		name = "オフォトフィヨルド偵察",
 		extra_squadron = "",
 		pic = "3_4",
 		workload = 1058400,
@@ -6917,9 +6917,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "奥福托峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "オフォトフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3017,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -6973,14 +6973,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3018] = {
 		extra_squedron_ratio = 0,
-		name = "诺斯海峡侦察",
+		name = "スカゲラク海峡偵察",
 		extra_squadron = "",
 		pic = "3_4",
 		workload = 1058400,
@@ -6989,9 +6989,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "诺斯海峡(皇家、铁血角色评价加成)",
+		ship_camp_display = "スカゲラク海峡(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3018,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7045,14 +7045,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3019] = {
 		extra_squedron_ratio = 0,
-		name = "伯克纳峡湾侦察",
+		name = "ボクナフィヨルド偵察",
 		extra_squadron = "",
 		pic = "3_4",
 		workload = 1058400,
@@ -7061,9 +7061,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "伯克纳峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "ボクナフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3019,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7117,14 +7117,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3020] = {
 		extra_squedron_ratio = 0,
-		name = "马特拉斯峡湾侦察",
+		name = "マストラフィヨルド偵察",
 		extra_squadron = "",
 		pic = "3_4",
 		workload = 1058400,
@@ -7133,9 +7133,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "马特拉斯峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "マストラフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3020,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7189,14 +7189,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3021] = {
 		extra_squedron_ratio = 0,
-		name = "布列斯特舰装维修",
+		name = "ブレスト艤装補修",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -7205,9 +7205,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布列斯特港(皇家角色评价加成)",
+		ship_camp_display = "ブレスト港(ロイヤル艦船作戦評価UP)",
 		id = 3021,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7252,14 +7252,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3022] = {
 		extra_squedron_ratio = 0,
-		name = "威尔海姆港舰装维修",
+		name = "ヴィルヘルムスハーフェン港艤装補修",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 907200,
@@ -7268,9 +7268,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "威尔海姆港(铁血角色评价加成)",
+		ship_camp_display = "ヴィルヘルムスハーフェン港(鉄血艦船作戦評価UP)",
 		id = 3022,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7315,14 +7315,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3023] = {
 		extra_squedron_ratio = 0,
-		name = "布列斯特物资整备",
+		name = "ブレスト物資整備",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 756000,
@@ -7331,9 +7331,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布列斯特港(皇家角色评价加成)",
+		ship_camp_display = "ブレスト港(ロイヤル艦船作戦評価UP)",
 		id = 3023,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7378,14 +7378,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3024] = {
 		extra_squedron_ratio = 0,
-		name = "威尔海姆港物资整备",
+		name = "ヴィルヘルムスハーフェン港物資整備",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 756000,
@@ -7394,9 +7394,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "威尔海姆港(铁血角色评价加成)",
+		ship_camp_display = "ヴィルヘルムスハーフェン港(鉄血艦船作戦評価UP)",
 		id = 3024,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -7441,14 +7441,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3101] = {
 		extra_squedron_ratio = 200,
-		name = "萨特罗岛海域遭遇战",
+		name = "ジブラルタル海域遭遇戦",
 		extra_squadron = "H-Class",
 		pic = "3_2",
 		workload = 1209600,
@@ -7457,9 +7457,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：H级驱逐舰2艘以上",
-		ship_camp_display = "萨特罗岛海域(皇家、铁血角色评价加成)",
+		ship_type_display = "戦艦対決(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：Hクラス駆逐2",
+		ship_camp_display = "ジブラルタル海域(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3101,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7520,14 +7520,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3102] = {
 		extra_squedron_ratio = 200,
-		name = "诺斯海峡海战",
+		name = "スカゲラク海峡海戦",
 		extra_squadron = "Nelson-Class",
 		pic = "3_2",
 		workload = 1209600,
@@ -7536,9 +7536,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：纳尔逊级战列舰2艘以上",
-		ship_camp_display = "诺斯海峡(皇家、铁血角色评价加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：ネルソン級戦艦2",
+		ship_camp_display = "スカゲラク海峡(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3102,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7599,14 +7599,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3103] = {
 		extra_squedron_ratio = 200,
-		name = "尼德罗斯运输线破袭",
+		name = "トロンハイム輸送路破壊",
 		extra_squadron = "U-boat",
 		pic = "3_3",
 		workload = 1209600,
@@ -7615,9 +7615,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "补给破坏(重巡、潜艇效率加成)",
-		extra_squadron_display = "特殊编制：U型潜艇2艘以上",
-		ship_camp_display = "尼尔瓦克-尼德罗斯航路(铁血角色评价加成)",
+		ship_type_display = "補給破壊(重巡、潜水効率UP)",
+		extra_squadron_display = "特殊編成：Uボード潜水2",
+		ship_camp_display = "ナルビク－トロンハイム航路(鉄血艦船作戦評価UP)",
 		id = 3103,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7674,14 +7674,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3104] = {
 		extra_squedron_ratio = 200,
-		name = "布丽根运输线破袭",
+		name = "ベルゲン輸送路破壊",
 		extra_squadron = "U-boat",
 		pic = "3_3",
 		workload = 1209600,
@@ -7690,9 +7690,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "补给破坏(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：U型潜艇2艘以上",
-		ship_camp_display = "南索斯-布丽根航路(铁血角色评价加成)",
+		ship_type_display = "補給破壊(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：Uボード潜水2",
+		ship_camp_display = "ナムソース－ベルゲン(鉄血艦船作戦評価UP)",
 		id = 3104,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7749,14 +7749,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3105] = {
 		extra_squedron_ratio = 200,
-		name = "阿克斯胡斯运输线破袭",
+		name = "オスロ輸送路破壊",
 		extra_squadron = "Admiral Hipper-Class",
 		pic = "3_3",
 		workload = 1209600,
@@ -7765,9 +7765,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "补给破坏(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：{namecode:425}级重巡洋舰2艘以上",
-		ship_camp_display = "夸特-阿克斯胡斯航路(铁血角色评价加成)",
+		ship_type_display = "補給破壊(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：アドミラル・ヒッパー級重巡2",
+		ship_camp_display = "クリスチャンサン－オスロ(鉄血艦船作戦評価UP)",
 		id = 3105,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7824,14 +7824,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3106] = {
 		extra_squedron_ratio = 200,
-		name = "尼德罗斯港制海权夺取",
+		name = "トロンハイム港制海権確保",
 		extra_squadron = "Leander-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -7840,9 +7840,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "炮击港口(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：利安得级轻巡洋舰2艘以上",
-		ship_camp_display = "尼德罗斯近海(皇家、铁血角色评价加成)",
+		ship_type_display = "軍港砲撃(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：リアンダー級軽巡2",
+		ship_camp_display = "トロンハイム近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3106,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7903,14 +7903,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3107] = {
 		extra_squedron_ratio = 200,
-		name = "布丽根港制海权夺取",
+		name = "ベルゲン港制海権確保",
 		extra_squadron = "Konigsberg-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -7919,9 +7919,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "炮击港口(轻巡、战巡效率加成)",
-		extra_squadron_display = "特殊编制：{namecode:421}级轻巡洋舰2艘以上",
-		ship_camp_display = "布丽根近海(皇家、铁血角色评价加成)",
+		ship_type_display = "軍港砲撃(軽巡、巡戦効率UP)",
+		extra_squadron_display = "特殊編成：ケーニヒスベルク級軽巡2",
+		ship_camp_display = "ベルゲン近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3107,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -7982,14 +7982,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3108] = {
 		extra_squedron_ratio = 200,
-		name = "阿克斯胡斯港制海权夺取",
+		name = "オスロ港制海権確保",
 		extra_squadron = "Admiral Hipper-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -7998,9 +7998,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "炮击港口(重巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：{namecode:425}级重巡洋舰3艘以上",
-		ship_camp_display = "阿克斯胡斯近海(皇家、铁血角色评价加成)",
+		ship_type_display = "軍港砲撃(重巡、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：アドミラル・ヒッパー級重巡3",
+		ship_camp_display = "オスロ近海(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3108,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -8061,14 +8061,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3109] = {
 		extra_squedron_ratio = 200,
-		name = "尼德罗斯港制空权夺取",
+		name = "トロンハイム港制空権確保",
 		extra_squadron = "Illustrious-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -8077,9 +8077,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "轰炸港口(航母效率加成)",
-		extra_squadron_display = "特殊编制：光辉级航空母舰2艘以上",
-		ship_camp_display = "尼德罗斯近海(皇家角色评价加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
+		extra_squadron_display = "特殊編成：イラストリアス級空母2",
+		ship_camp_display = "トロンハイム近海(ロイヤル艦船作戦評価UP)",
 		id = 3109,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -8132,14 +8132,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3110] = {
 		extra_squedron_ratio = 200,
-		name = "布丽根港制空权夺取",
+		name = "ベルゲン港制空権確保",
 		extra_squadron = "Illustrious-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -8148,9 +8148,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "轰炸港口(航母效率加成)",
-		extra_squadron_display = "特殊编制：光辉级航空母舰2艘以上",
-		ship_camp_display = "布丽根近海(皇家角色评价加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
+		extra_squadron_display = "特殊編成：イラストリアス級空母2",
+		ship_camp_display = "ベルゲン近海(ロイヤル艦船作戦評価UP)",
 		id = 3110,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -8203,14 +8203,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3111] = {
 		extra_squedron_ratio = 200,
-		name = "阿克斯胡斯港制空权夺取",
+		name = "オスロ港制空権確保",
 		extra_squadron = "Illustrious-Class",
 		pic = "3_1",
 		workload = 1209600,
@@ -8219,9 +8219,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "轰炸港口(航母效率加成)",
-		extra_squadron_display = "特殊编制：光辉级航空母舰3艘以上",
-		ship_camp_display = "阿克斯胡斯近海(皇家角色评价加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
+		extra_squadron_display = "特殊編成：イラストリアス級空母3",
+		ship_camp_display = "オスロ近海(ロイヤル艦船作戦評価UP)",
 		id = 3111,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -8274,14 +8274,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3112] = {
 		extra_squedron_ratio = 200,
-		name = "尼德罗斯峡湾侦察",
+		name = "トロンハイムフィヨルド偵察",
 		extra_squadron = "Royal Fleet-CVL",
 		pic = "3_4",
 		workload = 1360800,
@@ -8290,9 +8290,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰3艘以上",
-		ship_camp_display = "尼德罗斯峡湾(皇家、铁血角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：ロイヤル所属軽母3",
+		ship_camp_display = "トロンハイムフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3112,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -8354,14 +8354,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3113] = {
 		extra_squedron_ratio = 200,
-		name = "森弗峡湾侦察",
+		name = "フェンズフィヨルド偵察",
 		extra_squadron = "F-Class",
 		pic = "3_4",
 		workload = 1360800,
@@ -8370,9 +8370,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
-		ship_camp_display = "森弗峡湾(皇家、铁血角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：Fクラス駆逐2",
+		ship_camp_display = "フェンズフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3113,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -8434,14 +8434,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3114] = {
 		extra_squedron_ratio = 200,
-		name = "巴约纳峡湾侦察",
+		name = "ビョーナフィヨルド偵察",
 		extra_squadron = "C-Class",
 		pic = "3_4",
 		workload = 1360800,
@@ -8450,9 +8450,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：C级驱逐舰2艘以上",
-		ship_camp_display = "巴约纳峡湾(皇家、铁血角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：Cクラス駆逐2",
+		ship_camp_display = "ビョーナフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3114,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -8514,14 +8514,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3115] = {
 		extra_squedron_ratio = 200,
-		name = "阿克斯胡斯峡湾侦察",
+		name = "オスロフィヨルド偵察",
 		extra_squadron = "Royal Fleet-CVL",
 		pic = "3_4",
 		workload = 1360800,
@@ -8530,9 +8530,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰3艘以上",
-		ship_camp_display = "阿克斯胡斯峡湾(皇家、铁血角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：ロイヤル所属軽母3",
+		ship_camp_display = "オスロフィヨルド(ロイヤル、鉄血艦船作戦評価UP)",
 		id = 3115,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -8594,14 +8594,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[3201] = {
 		extra_squedron_ratio = 0,
-		name = "布列斯特运输护航",
+		name = "ブレスト輸送護衛",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 756000,
@@ -8610,9 +8610,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布列斯特近海航路(皇家角色评价加成)",
+		ship_camp_display = "ブレスト近海航路(ロイヤル艦船作戦評価UP)",
 		id = 3201,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8661,14 +8661,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3202] = {
 		extra_squedron_ratio = 0,
-		name = "威尔海姆港运输护航",
+		name = "ヴィルヘルムスハーフェン港輸送護衛",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 756000,
@@ -8677,9 +8677,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "威尔海姆近海航路(铁血角色评价加成)",
+		ship_camp_display = "ヴィルヘルムスハーフェン近海航路(鉄血艦船作戦評価UP)",
 		id = 3202,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8728,14 +8728,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3203] = {
 		extra_squedron_ratio = 0,
-		name = "利维浦运输护航",
+		name = "リバープール輸送護衛",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 1058400,
@@ -8744,9 +8744,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "利维浦近海航路(皇家角色评价加成)",
+		ship_camp_display = "リバープール近海航路(ロイヤル艦船作戦評価UP)",
 		id = 3203,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8796,14 +8796,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3204] = {
 		extra_squedron_ratio = 0,
-		name = "霍尔斯坦港运输护航",
+		name = "キール港輸送護衛",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 1058400,
@@ -8812,9 +8812,9 @@ pg.base.guild_base_event = {
 		class = 3,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "艦隊護衛(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "霍尔斯坦近海航路(铁血角色评价加成)",
+		ship_camp_display = "キール近海航路(鉄血艦船作戦評価UP)",
 		id = 3204,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8864,14 +8864,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3205] = {
 		extra_squedron_ratio = 0,
-		name = "尼尔瓦克运输拦截",
+		name = "ナルビク輸送封鎖",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 604800,
@@ -8880,9 +8880,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "兵站封鎖(軽巡、巡戦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼德罗斯-尼尔瓦克航路(铁血角色评价加成)",
+		ship_camp_display = "トロンハイム－ナルビク航路(鉄血艦船作戦評価UP)",
 		id = 3205,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8930,14 +8930,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3206] = {
 		extra_squedron_ratio = 0,
-		name = "南索斯运输拦截",
+		name = "ナムソース輸送封鎖",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 604800,
@@ -8946,9 +8946,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "兵站封鎖(軽巡、巡戦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼德罗斯-南索斯航路(铁血角色评价加成)",
+		ship_camp_display = "トロンハイム－ナムソース航路(鉄血艦船作戦評価UP)",
 		id = 3206,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -8996,14 +8996,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3207] = {
 		extra_squedron_ratio = 0,
-		name = "斯特凡格运输拦截",
+		name = "スタヴァンゲル輸送封鎖",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -9012,9 +9012,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "兵站封鎖(軽巡、巡戦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "阿克斯胡斯-夸特航路(铁血角色评价加成)",
+		ship_camp_display = "オスロ－クリスチャンサン航路(鉄血艦船作戦評価UP)",
 		id = 3207,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9063,14 +9063,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3208] = {
 		extra_squedron_ratio = 0,
-		name = "夸特运输拦截",
+		name = "クリスチャンサン輸送封鎖",
 		extra_squadron = "",
 		pic = "3_3",
 		workload = 907200,
@@ -9079,9 +9079,9 @@ pg.base.guild_base_event = {
 		class = 4,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "兵站封鎖(軽巡、巡戦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布丽根-斯特凡格航路(铁血角色评价加成)",
+		ship_camp_display = "ベルゲン－スタヴァンゲル航路(鉄血艦船作戦評価UP)",
 		id = 3208,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9130,14 +9130,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3209] = {
 		extra_squedron_ratio = 0,
-		name = "尼尔瓦克港控制权确保",
+		name = "ナルビク港拠点確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 831600,
@@ -9146,9 +9146,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对岸压制(重巡、重炮效率加成)",
+		ship_type_display = "対岸制圧(重巡、砲艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "尼尔瓦克港(皇家角色评价加成)",
+		ship_camp_display = "ナルビク港(ロイヤル艦船作戦評価UP)",
 		id = 3209,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9197,14 +9197,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3210] = {
 		extra_squedron_ratio = 0,
-		name = "南索斯港控制权确保",
+		name = "ナムソース港拠点確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 831600,
@@ -9213,9 +9213,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对岸压制(重巡、重炮效率加成)",
+		ship_type_display = "対岸制圧(重巡、砲艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "南索斯港(皇家角色评价加成)",
+		ship_camp_display = "ナムソース港(ロイヤル艦船作戦評価UP)",
 		id = 3210,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9264,14 +9264,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3211] = {
 		extra_squedron_ratio = 0,
-		name = "斯特凡格港控制权确保",
+		name = "スタヴァンゲル港拠点確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 831600,
@@ -9280,9 +9280,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "対岸制圧(重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "斯特凡格港(铁血角色评价加成)",
+		ship_camp_display = "スタヴァンゲル港(鉄血艦船作戦評価UP)",
 		id = 3211,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9327,14 +9327,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3212] = {
 		extra_squedron_ratio = 0,
-		name = "夸特港控制权确保",
+		name = "クリスチャンサン港拠点確保",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 831600,
@@ -9343,9 +9343,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "対岸制圧(重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "夸特港(铁血角色评价加成)",
+		ship_camp_display = "クリスチャンサン港(鉄血艦船作戦評価UP)",
 		id = 3212,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9390,14 +9390,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3213] = {
 		extra_squedron_ratio = 0,
-		name = "利维浦舰装维修",
+		name = "リバープール艤装補修",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 1209600,
@@ -9406,9 +9406,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "利维浦港(皇家角色评价加成)",
+		ship_camp_display = "リバープール港(ロイヤル艦船作戦評価UP)",
 		id = 3213,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9454,14 +9454,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3214] = {
 		extra_squedron_ratio = 0,
-		name = "霍尔斯坦港舰装维修",
+		name = "キール港艤装補修",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 1209600,
@@ -9470,9 +9470,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "霍尔斯坦港(铁血角色评价加成)",
+		ship_camp_display = "キール港(鉄血艦船作戦評価UP)",
 		id = 3214,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9518,14 +9518,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3215] = {
 		extra_squedron_ratio = 0,
-		name = "利维浦物资整备",
+		name = "リバープール物資整備",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 1058400,
@@ -9534,9 +9534,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "利维浦港(皇家角色评价加成)",
+		ship_camp_display = "リバープール港(ロイヤル艦船作戦評価UP)",
 		id = 3215,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9582,14 +9582,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[3216] = {
 		extra_squedron_ratio = 0,
-		name = "霍尔斯坦港物资整备",
+		name = "キール港物資整備",
 		extra_squadron = "",
 		pic = "3_1",
 		workload = 1058400,
@@ -9598,9 +9598,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "物資整備(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "霍尔斯坦港(铁血角色评价加成)",
+		ship_camp_display = "キール港(鉄血艦船作戦評価UP)",
 		id = 3216,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9646,14 +9646,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4001] = {
 		extra_squedron_ratio = 0,
-		name = "北方海域塞壬清理",
+		name = "北方海域セイレーン掃討",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 756000,
@@ -9662,9 +9662,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
+		ship_type_display = "潜航襲撃(潜水、潜母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "北方海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4001,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9717,14 +9717,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4002] = {
 		extra_squedron_ratio = 0,
-		name = "克罗尔海塞壬清理",
+		name = "珊瑚海セイレーン掃討",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 756000,
@@ -9733,9 +9733,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
+		ship_type_display = "潜航襲撃(潜水、潜母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "克罗尔海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "珊瑚海(ユニオン、重桜艦船作戦評価UP)",
 		id = 4002,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9788,14 +9788,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4003] = {
 		extra_squedron_ratio = 0,
-		name = "木偶环礁塞壬歼灭",
+		name = "ヌクマヌ環礁セイレーン殲滅",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 907200,
@@ -9804,9 +9804,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "木偶环礁(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ヌクマヌ環礁(ユニオン、重桜艦船作戦評価UP)",
 		id = 4003,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9859,14 +9859,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4004] = {
 		extra_squedron_ratio = 0,
-		name = "因迪萨布海峡控制权确保",
+		name = "インディスペンサブル海峡拠点確保",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 907200,
@@ -9875,9 +9875,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "因迪萨布海峡(白鹰角色评价加成)",
+		ship_camp_display = "インディスペンサブル海峡(ユニオン艦船作戦評価UP)",
 		id = 4004,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9926,14 +9926,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4005] = {
 		extra_squedron_ratio = 0,
-		name = "拉维湾控制权确保",
+		name = "ヴェラ・ガルフ拠点確保",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 907200,
@@ -9942,9 +9942,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "拉维湾(重樱角色评价加成)",
+		ship_camp_display = "ヴェラ・ガルフ(重桜艦船作戦評価UP)",
 		id = 4005,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -9993,14 +9993,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4006] = {
 		extra_squedron_ratio = 0,
-		name = "布伦查海峡阻击战",
+		name = "ブランチ海峡阻止戦",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 1058400,
@@ -10009,9 +10009,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "布伦查水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ブランチ海峡(ユニオン、重桜艦船作戦評価UP)",
 		id = 4006,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10065,14 +10065,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4007] = {
 		extra_squedron_ratio = 0,
-		name = "黑色海峡遭遇战",
+		name = "ブラッケット海峡遭遇戦",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 1058400,
@@ -10081,9 +10081,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "黑色海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ブラッケット海峡(ユニオン、重桜艦船作戦評価UP)",
 		id = 4007,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10137,14 +10137,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4008] = {
 		extra_squedron_ratio = 0,
-		name = "马恩宁海峡遭遇战",
+		name = "マニング海峡遭遇戦",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 1058400,
@@ -10153,9 +10153,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "马恩宁海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "マニング海峡(ユニオン、重桜艦船作戦評価UP)",
 		id = 4008,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10209,14 +10209,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4009] = {
 		extra_squedron_ratio = 0,
-		name = "北方海域制空权夺取",
+		name = "北方海域制空権確保",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 907200,
@@ -10225,9 +10225,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "北方海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4009,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10280,14 +10280,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4010] = {
 		extra_squedron_ratio = 0,
-		name = "南方海域制空权夺取",
+		name = "南方海域制空権確保",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 907200,
@@ -10296,9 +10296,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "克罗尔海北部海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "珊瑚海北部海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4010,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10351,14 +10351,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4011] = {
 		extra_squedron_ratio = 0,
-		name = "达古康纳尔制空权夺取",
+		name = "ガダルカナル制空権確保",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 907200,
@@ -10367,9 +10367,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "恩格拉群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "フロリダ諸島域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4011,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10422,14 +10422,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4012] = {
 		extra_squedron_ratio = 0,
-		name = "北方海域对空护航",
+		name = "北方海域対空護衛",
 		extra_squadron = "",
 		pic = "4_3",
 		workload = 831600,
@@ -10438,9 +10438,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "対空援護(軽巡、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "北方海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4012,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10493,14 +10493,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4013] = {
 		extra_squedron_ratio = 0,
-		name = "南方海域对空护航",
+		name = "南方海域対空護衛",
 		extra_squadron = "",
 		pic = "4_3",
 		workload = 831600,
@@ -10509,9 +10509,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "対空援護(軽巡、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "克罗尔海北部海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "珊瑚海北部海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4013,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10564,14 +10564,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4014] = {
 		extra_squedron_ratio = 0,
-		name = "达古康纳尔对空护航",
+		name = "ガダルカナル対空護衛",
 		extra_squadron = "",
 		pic = "4_3",
 		workload = 831600,
@@ -10580,9 +10580,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "対空援護(軽巡、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "恩格拉群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "フロリダ諸島域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4014,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10635,14 +10635,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4015] = {
 		extra_squedron_ratio = 0,
-		name = "塔里古岛航空支援",
+		name = "ツラギ島航空支援",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 756000,
@@ -10651,9 +10651,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ツラギ島近海(ユニオン、重桜艦船作戦評価UP)",
 		id = 4015,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10706,14 +10706,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4018] = {
 		extra_squedron_ratio = 0,
-		name = "塔里古岛战役支援",
+		name = "ツラギ島作戦支援",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 756000,
@@ -10722,9 +10722,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "対岸制圧(重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ツラギ島近海(ユニオン、重桜艦船作戦評価UP)",
 		id = 4018,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10773,14 +10773,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4019] = {
 		extra_squedron_ratio = 0,
-		name = "塔里古岛制海权夺取",
+		name = "ツラギ島制海権確保",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 756000,
@@ -10789,9 +10789,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ツラギ島近海(ユニオン、重桜艦船作戦評価UP)",
 		id = 4019,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10844,14 +10844,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4020] = {
 		extra_squedron_ratio = 0,
-		name = "塔里古岛制空权夺取",
+		name = "ツラギ島制空権確保",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 756000,
@@ -10860,9 +10860,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ツラギ島近海(ユニオン、重桜艦船作戦評価UP)",
 		id = 4020,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10911,14 +10911,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4021] = {
 		extra_squedron_ratio = 0,
-		name = "恩德群岛警戒",
+		name = "サンタクルーズ諸島警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 907200,
@@ -10927,9 +10927,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(轻巡、航母效率加成)",
+		ship_type_display = "海域警戒(軽巡、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "恩德群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "サンタクルーズ諸島海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4021,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -10982,14 +10982,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4022] = {
 		extra_squedron_ratio = 0,
-		name = "圣佩欧卡机场警戒",
+		name = "サントペコア飛行場警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 907200,
@@ -10998,9 +10998,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(轻巡、航母效率加成)",
+		ship_type_display = "海域警戒(軽巡、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "圣灵岛(白鹰角色评价加成)",
+		ship_camp_display = "エスピリトゥサント島(ユニオン艦船作戦評価UP)",
 		id = 4022,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11049,14 +11049,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4023] = {
 		extra_squedron_ratio = 0,
-		name = "瓦里港警戒",
+		name = "ビラ湾警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 756000,
@@ -11065,9 +11065,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "海域警戒(駆逐、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "瓦里港(白鹰角色评价加成)",
+		ship_camp_display = "ビラ湾(ユニオン艦船作戦評価UP)",
 		id = 4023,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11116,14 +11116,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4024] = {
 		extra_squedron_ratio = 0,
-		name = "诺埃姆港警戒",
+		name = "ヌメア港警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 756000,
@@ -11132,9 +11132,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(驱逐、航母效率加成)",
+		ship_type_display = "海域警戒(駆逐、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "诺埃姆港(白鹰角色评价加成)",
+		ship_camp_display = "ヌメア港(ユニオン艦船作戦評価UP)",
 		id = 4024,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11183,14 +11183,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4025] = {
 		extra_squedron_ratio = 0,
-		name = "辛普森港警戒",
+		name = "ラバウル港警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 756000,
@@ -11199,9 +11199,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(轻巡、重巡效率加成)",
+		ship_type_display = "海域警戒(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "辛普森港(重樱角色评价加成)",
+		ship_camp_display = "ラバウル港(重桜艦船作戦評価UP)",
 		id = 4025,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11250,14 +11250,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4026] = {
 		extra_squedron_ratio = 0,
-		name = "乌古拉特警戒",
+		name = "チューク警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 756000,
@@ -11266,9 +11266,9 @@ pg.base.guild_base_event = {
 		class = 6,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域警戒(驱逐、战列效率加成)",
+		ship_type_display = "海域警戒(駆逐、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "乌古拉特(重樱角色评价加成)",
+		ship_camp_display = "チューク(重桜艦船作戦評価UP)",
 		id = 4026,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11317,14 +11317,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4027] = {
 		extra_squedron_ratio = 0,
-		name = "罗默斯岛水道警戒",
+		name = "ラモス島水路警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 1058400,
@@ -11333,9 +11333,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "罗默斯岛水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ラモス島水路(ユニオン、重桜艦船作戦評価UP)",
 		id = 4027,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11389,14 +11389,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[4028] = {
 		extra_squedron_ratio = 0,
-		name = "巴弗尔水道警戒",
+		name = "バルフォー海峡警戒",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 1058400,
@@ -11405,9 +11405,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "巴弗尔水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "バルフォー海峡(ユニオン、重桜艦船作戦評価UP)",
 		id = 4028,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -11461,14 +11461,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[4101] = {
 		extra_squedron_ratio = 200,
-		name = "佐治亚海峡塞壬清理",
+		name = "ニュージョージアサウンドセイレーン掃討",
 		extra_squadron = "Gato-Class",
 		pic = "4_4",
 		workload = 1058400,
@@ -11477,9 +11477,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
-		extra_squadron_display = "特殊编制：猫鲨级潜艇舰2艘以上",
-		ship_camp_display = "佐治亚海峡(白鹰、重樱角色评价加成)",
+		ship_type_display = "潜航襲撃(潜水、潜母効率UP)",
+		extra_squadron_display = "特殊編成：ガトー級潜水2",
+		ship_camp_display = "ニュージョージアサウンド(ユニオン、重桜艦船作戦評価UP)",
 		id = 4101,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -11540,14 +11540,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4102] = {
 		extra_squedron_ratio = 200,
-		name = "恩加瓦南部暗礁塞壬清理",
+		name = "レンネル島南部暗礁セイレーン掃討",
 		extra_squadron = "Brooklyn-Class",
 		pic = "4_4",
 		workload = 1209600,
@@ -11556,9 +11556,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：布鲁克林级轻巡洋舰2艘以上",
-		ship_camp_display = "恩加瓦南部暗礁(白鹰、重樱角色评价加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：ブルックリン級軽巡2",
+		ship_camp_display = "レンネル島南部暗礁(ユニオン、重桜艦船作戦評価UP)",
 		id = 4102,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -11619,14 +11619,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4103] = {
 		extra_squedron_ratio = 200,
-		name = "喀特蕾特群岛塞壬歼灭",
+		name = "カーテレット諸島セイレーン殲滅",
 		extra_squadron = "Cleveland-Class",
 		pic = "4_4",
 		workload = 1209600,
@@ -11635,9 +11635,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
-		extra_squadron_display = "特殊编制：克利夫兰级轻巡洋舰3艘以上",
-		ship_camp_display = "喀特蕾特群岛海域(白鹰、重樱角色评价加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
+		extra_squadron_display = "特殊編成：クリーブランド級軽巡3",
+		ship_camp_display = "カーテレット諸島海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4103,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -11698,14 +11698,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4104] = {
 		extra_squedron_ratio = 200,
-		name = "索瓦岛海战",
+		name = "サボ島海戦",
 		extra_squadron = "Northampton-Class",
 		pic = "4_4",
 		workload = 1512000,
@@ -11714,9 +11714,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：北安普敦级重巡洋舰2艘以上",
-		ship_camp_display = "索瓦岛附近海域(白鹰、重樱角色评价加成)",
+		ship_type_display = "海域制圧(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：ノーザンプトン級重巡2",
+		ship_camp_display = "サボ島付近海域(ユニオン、重桜艦船作戦評価UP)",
 		id = 4104,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -11778,14 +11778,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4105] = {
 		extra_squedron_ratio = 200,
-		name = "特努拉河口决战",
+		name = "テナル湾決戦",
 		extra_squadron = "Furutaka-Class",
 		pic = "4_4",
 		workload = 1360800,
@@ -11794,9 +11794,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "战舰对决(重巡、战巡效率加成)",
-		extra_squadron_display = "特殊编制：狼级重巡洋舰2艘以上",
-		ship_camp_display = "特努拉河口(白鹰、重樱角色评价加成)",
+		ship_type_display = "戦艦対決(重巡、巡戦効率UP)",
+		extra_squadron_display = "特殊編成：古鷹型重巡2",
+		ship_camp_display = "テナル湾(ユニオン、重桜艦船作戦評価UP)",
 		id = 4105,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -11858,14 +11858,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4106] = {
 		extra_squedron_ratio = 200,
-		name = "埃隆勃特姆炮击战",
+		name = "アイアンボトムサウンド砲撃戦",
 		extra_squadron = "Kongo-Class",
 		pic = "4_4",
 		workload = 1360800,
@@ -11874,9 +11874,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
-		ship_camp_display = "埃隆勃特姆(重樱角色评价加成)",
+		ship_type_display = "戦艦対決(巡戦、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：金剛型巡戦2",
+		ship_camp_display = "アイアンボトムサウンド(重桜艦船作戦評価UP)",
 		id = 4106,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -11934,14 +11934,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4107] = {
 		extra_squedron_ratio = 200,
-		name = "萨塔弗隆加遭遇战",
+		name = "タサファロンガ遭遇戦",
 		extra_squadron = "Kagero-Class",
 		pic = "4_4",
 		workload = 1360800,
@@ -11950,9 +11950,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "战舰对决(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：萩级驱逐舰3艘以上",
-		ship_camp_display = "萨塔弗隆加(白鹰、重樱角色评价加成)",
+		ship_type_display = "戦艦対決(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：陽炎型駆逐3",
+		ship_camp_display = "タサファロンガ(ユニオン、重桜艦船作戦評価UP)",
 		id = 4107,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -12014,14 +12014,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4108] = {
 		extra_squedron_ratio = 200,
-		name = "埃隆勃特姆夜战",
+		name = "アイアンボトムサウンド夜戦",
 		extra_squadron = "Special Type",
 		pic = "4_4",
 		workload = 1058400,
@@ -12030,9 +12030,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "战舰对决(驱逐、战巡效率加成)",
-		extra_squadron_display = "特殊编制：特型驱逐舰3艘以上",
-		ship_camp_display = "埃隆勃特姆(重樱角色评价加成)",
+		ship_type_display = "戦艦対決(駆逐、巡戦効率UP)",
+		extra_squadron_display = "特殊編成：特型駆逐3",
+		ship_camp_display = "アイアンボトムサウンド(重桜艦船作戦評価UP)",
 		id = 4108,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -12089,14 +12089,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4109] = {
 		extra_squedron_ratio = 200,
-		name = "拉克湾夜战",
+		name = "クラ湾夜戦",
 		extra_squadron = "Special Type",
 		pic = "4_4",
 		workload = 1058400,
@@ -12105,9 +12105,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
-		extra_squadron_display = "特殊编制：特型驱逐舰2艘以上",
-		ship_camp_display = "拉克湾(重樱角色评价加成)",
+		ship_type_display = "戦艦対決(駆逐、軽巡効率UP)",
+		extra_squadron_display = "特殊編成：特型駆逐2",
+		ship_camp_display = "クラ湾(重桜艦船作戦評価UP)",
 		id = 4109,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12164,14 +12164,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4110] = {
 		extra_squedron_ratio = 200,
-		name = "萨塔弗隆加夜战",
+		name = "タサファロンガ夜戦",
 		extra_squadron = "Kongo-Class",
 		pic = "4_4",
 		workload = 1058400,
@@ -12180,9 +12180,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "战舰对决(驱逐、重巡效率加成)",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
-		ship_camp_display = "萨塔弗隆加(白鹰、重樱角色评价加成)",
+		ship_type_display = "戦艦対決(駆逐、重巡効率UP)",
+		extra_squadron_display = "特殊編成：金剛型巡戦2",
+		ship_camp_display = "タサファロンガ(ユニオン、重桜艦船作戦評価UP)",
 		id = 4110,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12243,14 +12243,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4111] = {
 		extra_squedron_ratio = 200,
-		name = "特努拉河口制空权夺取",
+		name = "テナル湾制空権確保",
 		extra_squadron = "Eagle Union-CVL",
 		pic = "4_2",
 		workload = 1209600,
@@ -12259,9 +12259,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：白鹰所属轻型航空母舰2艘以上",
-		ship_camp_display = "特努拉河口(白鹰角色评价加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：ユニオン所属軽母2",
+		ship_camp_display = "テナル湾(ユニオン艦船作戦評価UP)",
 		id = 4111,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12318,14 +12318,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4112] = {
 		extra_squedron_ratio = 200,
-		name = "星雨岛制空权夺取",
+		name = "スチュアート島制空権確保",
 		extra_squadron = "Essex-Class",
 		pic = "4_2",
 		workload = 1209600,
@@ -12334,9 +12334,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰2艘以上",
-		ship_camp_display = "星雨岛(白鹰、重樱角色评价加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：エセックス級空母2",
+		ship_camp_display = "スチュアート島(ユニオン、重桜艦船作戦評価UP)",
 		id = 4112,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12397,14 +12397,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4113] = {
 		extra_squedron_ratio = 200,
-		name = "因迪萨布海峡制空权夺取",
+		name = "インディスペンサブル海峡制空権確保",
 		extra_squadron = "Independence-Class",
 		pic = "4_2",
 		workload = 1209600,
@@ -12413,9 +12413,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：独立级轻型航空母舰2艘以上",
-		ship_camp_display = "因迪萨布海峡(白鹰角色评价加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：インディペンデンス級軽母2",
+		ship_camp_display = "インディスペンサブル海峡(ユニオン艦船作戦評価UP)",
 		id = 4113,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12472,14 +12472,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4114] = {
 		extra_squedron_ratio = 200,
-		name = "恩德群岛制空权夺取",
+		name = "サンタクルーズ諸島制空権確保",
 		extra_squadron = "Yorktown-Class",
 		pic = "4_2",
 		workload = 1209600,
@@ -12488,9 +12488,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：约克城级航空母舰2艘以上",
-		ship_camp_display = "恩德群岛海域(白鹰角色评价加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：ヨークタウン級空母2",
+		ship_camp_display = "サンタクルーズ諸島海域(ユニオン艦船作戦評価UP)",
 		id = 4114,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12547,14 +12547,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4115] = {
 		extra_squedron_ratio = 200,
-		name = "恩加瓦岛对空护航",
+		name = "レンネル島対空護衛",
 		extra_squadron = "Atlanta-Class",
 		pic = "4_3",
 		workload = 1058400,
@@ -12563,9 +12563,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
-		extra_squadron_display = "特殊编制：亚特兰大级轻巡洋舰3艘以上",
-		ship_camp_display = "恩加瓦岛(白鹰、重樱角色评价加成)",
+		ship_type_display = "対空援護(軽巡、空母効率UP)",
+		extra_squadron_display = "特殊編成：アトランタ級軽巡3",
+		ship_camp_display = "レンネル島(ユニオン、重桜艦船作戦評価UP)",
 		id = 4115,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -12626,14 +12626,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4116] = {
 		extra_squedron_ratio = 200,
-		name = "加隆角航空支援",
+		name = "ルンガ岬航空支援",
 		extra_squadron = "5th-airfleet",
 		pic = "4_1",
 		workload = 1058400,
@@ -12642,9 +12642,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：五航战所属航空母舰2艘以上",
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_type_display = "空襲爆撃(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：五航戦空母2",
+		ship_camp_display = "ルンガ岬(ユニオン、重桜艦船作戦評価UP)",
 		id = 4116,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12705,14 +12705,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4117] = {
 		extra_squedron_ratio = 200,
-		name = "古斯塔奥湾海战",
+		name = "エンプレスオーガスタベイ海戦",
 		extra_squadron = "Essex-Class",
 		pic = "4_1",
 		workload = 1058400,
@@ -12721,9 +12721,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰3艘以上",
-		ship_camp_display = "古斯塔奥湾(白鹰、重樱角色评价加成)",
+		ship_type_display = "空襲爆撃(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：エセックス級空母3",
+		ship_camp_display = "エンプレスオーガスタベイ(ユニオン、重桜艦船作戦評価UP)",
 		id = 4117,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -12784,14 +12784,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4118] = {
 		extra_squedron_ratio = 200,
-		name = "加拉班科海战",
+		name = "コロンバンガラ海戦海戦",
 		extra_squadron = "Yorktown-Class",
 		pic = "4_1",
 		workload = 1058400,
@@ -12800,9 +12800,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 4,
 		type = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
-		extra_squadron_display = "特殊编制：约克城级航空母舰2艘以上",
-		ship_camp_display = "加拉班科岛附近海域(白鹰角色评价加成)",
+		ship_type_display = "空襲爆撃(軽母、空母効率UP)",
+		extra_squadron_display = "特殊編成：ヨークタウン級空母2",
+		ship_camp_display = "コロンバンガラ島付近海域(ユニオン艦船作戦評価UP)",
 		id = 4118,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -12859,14 +12859,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，下記報酬獲得",
+			"作戦成功，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4120] = {
 		extra_squedron_ratio = 200,
-		name = "加隆角战役支援",
+		name = "ルンガ岬作戦支援",
 		extra_squadron = "Astoria-Class",
 		pic = "4_4",
 		workload = 907200,
@@ -12875,9 +12875,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "对岸压制(重巡、战巡效率加成)",
-		extra_squadron_display = "特殊编制：新奥尔良级重巡洋舰3艘以上",
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_type_display = "対岸制圧(重巡、巡戦効率UP)",
+		extra_squadron_display = "特殊編成：ニューオーリンズ級重巡3",
+		ship_camp_display = "ルンガ岬(ユニオン、重桜艦船作戦評価UP)",
 		id = 4120,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -12937,14 +12937,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4121] = {
 		extra_squedron_ratio = 200,
-		name = "加隆角制海权夺取",
+		name = "ルンガ岬制海権確保",
 		extra_squadron = "Kongo-Class",
 		pic = "4_4",
 		workload = 907200,
@@ -12953,9 +12953,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_type_display = "軍港砲撃(巡戦、戦艦効率UP)",
+		extra_squadron_display = "特殊編成：金剛型巡戦2",
+		ship_camp_display = "ルンガ岬(ユニオン、重桜艦船作戦評価UP)",
 		id = 4121,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -13015,14 +13015,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4122] = {
 		extra_squedron_ratio = 200,
-		name = "加隆角制空权夺取",
+		name = "ルンガ岬制空権確保",
 		extra_squadron = "Essex-Class",
 		pic = "4_1",
 		workload = 907200,
@@ -13031,9 +13031,9 @@ pg.base.guild_base_event = {
 		class = 5,
 		node_num = 3,
 		type = 2,
-		ship_type_display = "轰炸港口(航母效率加成)",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰2艘以上",
-		ship_camp_display = "加隆角(白鹰角色评价加成)",
+		ship_type_display = "軍港爆撃(空母効率UP)",
+		extra_squadron_display = "特殊編成：エセックス級空母2",
+		ship_camp_display = "ルンガ岬(ユニオン艦船作戦評価UP)",
 		id = 4122,
 		extra_squadron_num = 2,
 		ship_camp_effect = {
@@ -13085,14 +13085,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，手掛り発見，下記報酬獲得",
+			"任務成功，手掛り発見，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4123] = {
 		extra_squedron_ratio = 200,
-		name = "佐治亚海峡警戒",
+		name = "ニュージョージアサウンド警戒",
 		extra_squadron = "Fletcher-Class",
 		pic = "4_1",
 		workload = 1512000,
@@ -13101,9 +13101,9 @@ pg.base.guild_base_event = {
 		class = 7,
 		node_num = 5,
 		type = 2,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
-		ship_camp_display = "佐治亚海峡(白鹰、重樱角色评价加成)",
+		ship_type_display = "海域偵察(駆逐、軽母効率UP)",
+		extra_squadron_display = "特殊編成：フレッチャー級駆逐3",
+		ship_camp_display = "ニュージョージアサウンド(ユニオン、重桜艦船作戦評価UP)",
 		id = 4123,
 		extra_squadron_num = 3,
 		ship_camp_effect = {
@@ -13165,14 +13165,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"調査大成功，手掛り発見，下記報酬獲得",
+			"調査成功，手掛り発見，下記報酬獲得",
+			"調査失敗，下記報酬獲得"
 		}
 	},
 	[4201] = {
 		extra_squedron_ratio = 0,
-		name = "威尔森海峡控制权确保",
+		name = "ウィルソン海峡拠点確保",
 		extra_squadron = "",
 		pic = "4_1",
 		workload = 1058400,
@@ -13181,9 +13181,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "海域制圧(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "威尔森海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ウィルソン海峡(ユニオン、重桜艦船作戦評価UP)",
 		id = 4201,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13237,14 +13237,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4202] = {
 		extra_squedron_ratio = 0,
-		name = "哈留那湾伏击战",
+		name = "ハリウナ湾待ち伏せ",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 907200,
@@ -13253,9 +13253,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "哈留那湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ハリウナ湾(ユニオン、重桜艦船作戦評価UP)",
 		id = 4202,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13308,14 +13308,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4203] = {
 		extra_squedron_ratio = 0,
-		name = "露缇湾伏击战",
+		name = "ルティ湾待ち伏せ",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 907200,
@@ -13324,9 +13324,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "海域制圧(駆逐、軽巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "露缇湾(重樱角色评价加成)",
+		ship_camp_display = "ルティ湾(重桜艦船作戦評価UP)",
 		id = 4203,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13375,14 +13375,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4204] = {
 		extra_squedron_ratio = 0,
-		name = "马罗乌湾塞壬歼灭",
+		name = "マロウ湾セイレーン殲滅",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 680400,
@@ -13391,9 +13391,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "战舰对决(驱逐、战列效率加成)",
+		ship_type_display = "戦艦対決(駆逐、戦艦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "马罗乌湾(白鹰角色评价加成)",
+		ship_camp_display = "マロウ湾(ユニオン艦船作戦評価UP)",
 		id = 4204,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13441,14 +13441,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4205] = {
 		extra_squedron_ratio = 0,
-		name = "怀拉哈湾塞壬歼灭",
+		name = "ワイラハ湾セイレーン殲滅",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 680400,
@@ -13457,9 +13457,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "战舰对决(驱逐、战巡效率加成)",
+		ship_type_display = "戦艦対決(駆逐、巡戦効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "怀拉哈湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "ワイラハ湾(ユニオン、重桜艦船作戦評価UP)",
 		id = 4205,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13511,14 +13511,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4206] = {
 		extra_squedron_ratio = 0,
-		name = "苏皮内湾塞壬歼灭",
+		name = "スペイネ湾セイレーン殲滅",
 		extra_squadron = "",
 		pic = "4_4",
 		workload = 680400,
@@ -13527,9 +13527,9 @@ pg.base.guild_base_event = {
 		class = 1,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "战舰对决(轻巡、重巡效率加成)",
+		ship_type_display = "戦艦対決(軽巡、重巡効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "苏皮内湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "スペイネ湾(ユニオン、重桜艦船作戦評価UP)",
 		id = 4206,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13581,14 +13581,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"作戦大成功，手掛り発見，下記報酬獲得",
+			"作戦成功，手掛り発見，下記報酬獲得",
+			"作戦ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4207] = {
 		extra_squedron_ratio = 0,
-		name = "近海制空权夺取",
+		name = "近海制空権確保",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 604800,
@@ -13597,9 +13597,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "圣灵岛东面海域(白鹰角色评价加成)",
+		ship_camp_display = "東部海域(ユニオン艦船作戦評価UP)",
 		id = 4207,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13647,14 +13647,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4208] = {
 		extra_squedron_ratio = 0,
-		name = "近海制空权夺取",
+		name = "近海制空権確保",
 		extra_squadron = "",
 		pic = "4_2",
 		workload = 604800,
@@ -13663,9 +13663,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "制空争奪(軽母、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "辛普森港南面海域(重樱角色评价加成)",
+		ship_camp_display = "南部海域(重桜艦船作戦評価UP)",
 		id = 4208,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13713,14 +13713,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4209] = {
 		extra_squedron_ratio = 0,
-		name = "近海对空护航",
+		name = "近海対空護衛",
 		extra_squadron = "",
 		pic = "4_3",
 		workload = 604800,
@@ -13729,9 +13729,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
+		ship_type_display = "対空援護(軽巡、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "圣灵岛东面海域(白鹰角色评价加成)",
+		ship_camp_display = "東部海域(ユニオン艦船作戦評価UP)",
 		id = 4209,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13779,14 +13779,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4210] = {
 		extra_squedron_ratio = 0,
-		name = "近海对空护航",
+		name = "近海対空護衛",
 		extra_squadron = "",
 		pic = "4_3",
 		workload = 604800,
@@ -13795,9 +13795,9 @@ pg.base.guild_base_event = {
 		class = 2,
 		node_num = 2,
 		type = 1,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
+		ship_type_display = "対空援護(軽巡、空母効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "辛普森港南面海域(重樱角色评价加成)",
+		ship_camp_display = "南部海域(重桜艦船作戦評価UP)",
 		id = 4210,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13845,14 +13845,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4211] = {
 		extra_squedron_ratio = 0,
-		name = "圣佩欧卡机场补给运输",
+		name = "サントペコア飛行場補給輸送",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 756000,
@@ -13861,9 +13861,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "海域補給(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "诺埃姆港-圣灵岛航路(白鹰角色评价加成)",
+		ship_camp_display = "ヌメア港－エスピリトゥサント島航路(ユニオン艦船作戦評価UP)",
 		id = 4211,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13908,14 +13908,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4212] = {
 		extra_squedron_ratio = 0,
-		name = "辛普森港补给运输",
+		name = "ラバウル港補給輸送",
 		extra_squadron = "",
 		pic = "1_2",
 		workload = 756000,
@@ -13924,9 +13924,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 3,
 		type = 1,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "海域補給(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "乌古拉特-辛普森港航路(重樱角色评价加成)",
+		ship_camp_display = "チューク－ラバウル航路(重桜艦船作戦評価UP)",
 		id = 4212,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -13971,14 +13971,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4213] = {
 		extra_squedron_ratio = 0,
-		name = "诺埃姆港后勤整备",
+		name = "ヌメア港補給整備",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 1209600,
@@ -13987,9 +13987,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "诺埃姆港(白鹰角色评价加成)",
+		ship_camp_display = "ヌメア港(ユニオン艦船作戦評価UP)",
 		id = 4213,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -14035,14 +14035,14 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	},
 	[4214] = {
 		extra_squedron_ratio = 0,
-		name = "辛普森港后勤整备",
+		name = "ラバウル港補給整備",
 		extra_squadron = "",
 		pic = "2_3",
 		workload = 1209600,
@@ -14051,9 +14051,9 @@ pg.base.guild_base_event = {
 		class = 8,
 		node_num = 4,
 		type = 1,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "緊急補修(工作効率UP)",
 		extra_squadron_display = "",
-		ship_camp_display = "辛普森港(重樱角色评价加成)",
+		ship_camp_display = "ラバウル港(重桜艦船作戦評価UP)",
 		id = 4214,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
@@ -14099,9 +14099,9 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"任務大成功，下記報酬獲得",
+			"任務成功，下記報酬獲得",
+			"任務ほぼ成功，下記報酬獲得"
 		}
 	}
 }

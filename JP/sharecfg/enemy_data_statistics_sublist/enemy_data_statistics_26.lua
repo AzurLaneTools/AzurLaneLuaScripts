@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_26 = {
 	[90803] = {
 		cannon = 0,
-		name = "可怖",
+		name = "ル·テリブル",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90804] = {
 		cannon = 0,
-		name = "香槟",
+		name = "シャンパーニュ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -315,7 +315,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90805] = {
 		cannon = 0,
-		name = "神通·META",
+		name = "神通(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -472,7 +472,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90806] = {
 		cannon = 0,
-		name = "「无形之息-海洋」",
+		name = "「穢れの影-潮波」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -630,7 +630,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90807] = {
 		cannon = 0,
-		name = "「无形之息-信风」",
+		name = "「穢れの影-信風」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -788,7 +788,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90808] = {
 		cannon = 0,
-		name = "「无形之息-环流」",
+		name = "「穢れの影-還流」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -959,7 +959,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90809] = {
 		cannon = 0,
-		name = "「无形之息-大地」",
+		name = "「穢れの影-地塊」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1130,7 +1130,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90810] = {
 		cannon = 0,
-		name = "「无形之息-天空」",
+		name = "「穢れの影-蒼穹」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1302,7 +1302,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90811] = {
 		cannon = 0,
-		name = "「无形之息-火山」",
+		name = "「穢れの影-火山」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1453,7 +1453,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90812] = {
 		cannon = 0,
-		name = "「无形之息-深渊」",
+		name = "「穢れの影-深淵」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1602,7 +1602,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90813] = {
 		cannon = 0,
-		name = "「无形之息-X半影」",
+		name = "「穢れの影-半影のエックス」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1741,7 +1741,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90814] = {
 		cannon = 0,
-		name = "「无形投影-驱逐舰」",
+		name = "「穢れの影-駆逐艦」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1898,7 +1898,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90815] = {
 		cannon = 0,
-		name = "「无形投影-轻巡洋舰」",
+		name = "「穢れの影-軽巡洋艦」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2055,7 +2055,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90816] = {
 		cannon = 0,
-		name = "「无形投影-重巡洋舰」",
+		name = "「穢れの影-重巡洋艦」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2212,7 +2212,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90817] = {
 		cannon = 0,
-		name = "「无形投影-战列舰」",
+		name = "「穢れの影-戦艦」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2369,7 +2369,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90818] = {
 		cannon = 0,
-		name = "「无形投影-航空母舰」",
+		name = "「穢れの影-空母」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2519,7 +2519,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90819] = {
 		cannon = 0,
-		name = "「无形投影-暗面」",
+		name = "「穢れの影-闇刻の裏」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2988,7 +2988,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90822] = {
 		cannon = 0,
-		name = "瑞凤",
+		name = "瑞鳳",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3137,7 +3137,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90823] = {
 		cannon = 0,
-		name = "企业",
+		name = "エンタープライズ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3290,7 +3290,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90824] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "均衡の分銅",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3459,7 +3459,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90825] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "均衡の分銅",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3628,7 +3628,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90826] = {
 		cannon = 0,
-		name = "伊势改",
+		name = "伊勢改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3941,7 +3941,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90828] = {
 		cannon = 0,
-		name = "伊势级量产型",
+		name = "量産型伊勢級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4109,7 +4109,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90829] = {
 		cannon = 0,
-		name = "秋月级量产型",
+		name = "量産型秋月級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4264,7 +4264,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90830] = {
 		cannon = 0,
-		name = "阳炎级量产型",
+		name = "量産型陽炎級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4575,7 +4575,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90832] = {
 		cannon = 0,
-		name = "科律治城邦-护卫舰",
+		name = "カレッジポリス-コルベット",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4728,7 +4728,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90833] = {
 		cannon = 0,
-		name = "繁星城邦-巡航舰",
+		name = "ステラポリス-フリゲート",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

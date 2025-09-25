@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_6 = {
 	[90151] = {
 		cannon = 0,
-		name = "克雷文",
+		name = "クレイヴン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -155,7 +155,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90152] = {
 		cannon = 0,
-		name = "麦考尔",
+		name = "マッコール",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -313,7 +313,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90153] = {
 		cannon = 0,
-		name = "莫里",
+		name = "モーリー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -466,7 +466,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90154] = {
 		cannon = 0,
-		name = "松风",
+		name = "マツカゼ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -623,7 +623,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90155] = {
 		cannon = 0,
-		name = "睦月",
+		name = "ムツキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -779,7 +779,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90156] = {
 		cannon = 0,
-		name = "如月",
+		name = "キサラギ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -935,7 +935,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90157] = {
 		cannon = 0,
-		name = "卯月",
+		name = "ウヅキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1092,7 +1092,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90158] = {
 		cannon = 0,
-		name = "水无月",
+		name = "ミナヅキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1269,7 +1269,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90159] = {
 		cannon = 0,
-		name = "三日月",
+		name = "ミカヅキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1416,7 +1416,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90160] = {
 		cannon = 0,
-		name = "绫波",
+		name = "アヤナミ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1569,7 +1569,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90161] = {
 		cannon = 0,
-		name = "晓",
+		name = "アカツキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1738,7 +1738,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90162] = {
 		cannon = 0,
-		name = "响",
+		name = "ヒビキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1907,7 +1907,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90163] = {
 		cannon = 0,
-		name = "雷",
+		name = "イカズチ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2076,7 +2076,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90164] = {
 		cannon = 0,
-		name = "电",
+		name = "イナヅマ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2245,7 +2245,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90165] = {
 		cannon = 0,
-		name = "白露",
+		name = "シラツユ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2408,7 +2408,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90166] = {
 		cannon = 0,
-		name = "时雨",
+		name = "シグレ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2568,7 +2568,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90167] = {
 		cannon = 0,
-		name = "夕立",
+		name = "ユウダチ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2721,7 +2721,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90168] = {
 		cannon = 0,
-		name = "夕暮",
+		name = "ユウグレ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2890,7 +2890,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90169] = {
 		cannon = 0,
-		name = "阳炎",
+		name = "カゲロウ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3050,7 +3050,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90170] = {
 		cannon = 0,
-		name = "不知火",
+		name = "シラヌイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3217,7 +3217,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90171] = {
 		cannon = 0,
-		name = "亲潮",
+		name = "オヤシオ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3364,7 +3364,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90172] = {
 		cannon = 0,
-		name = "雪风",
+		name = "ユキカゼ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3524,7 +3524,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90173] = {
 		cannon = 0,
-		name = "滨风",
+		name = "ハマカゼ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3671,7 +3671,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90174] = {
 		cannon = 0,
-		name = "谷风",
+		name = "タニカゼ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3818,7 +3818,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90175] = {
 		cannon = 0,
-		name = "野分",
+		name = "ノワキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3971,7 +3971,7 @@ pg.enemy_data_statistics_6 = {
 	},
 	[90176] = {
 		cannon = 0,
-		name = "新月",
+		name = "ニイヅキ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

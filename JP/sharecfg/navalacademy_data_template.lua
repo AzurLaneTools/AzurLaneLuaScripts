@@ -3,7 +3,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "大讲堂",
+		name = "大講堂",
 		id = 1,
 		information = "",
 		schedule = {}
@@ -11,7 +11,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "体育馆",
+		name = "体育館",
 		id = 2,
 		information = "",
 		schedule = {}
@@ -19,7 +19,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "小卖部",
+		name = "海軍売店",
 		id = 3,
 		information = "",
 		schedule = {}
@@ -27,7 +27,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "海军食堂",
+		name = "海軍食堂",
 		id = 4,
 		information = "",
 		schedule = {}
@@ -35,7 +35,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "补给商店",
+		name = "購買部",
 		id = 5,
 		information = "",
 		schedule = {}
@@ -43,7 +43,7 @@ pg.navalacademy_data_template = {
 	{
 		slot = 0,
 		painting = 0,
-		name = "战术学院",
+		name = "戦術教室",
 		id = 6,
 		information = "",
 		schedule = {}

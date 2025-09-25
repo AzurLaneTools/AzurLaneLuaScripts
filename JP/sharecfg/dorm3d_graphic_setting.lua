@@ -5,7 +5,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 1,
 		dispaySelectName = "",
-		settingName = "允许GPGPU",
+		settingName = "GPGPU許可",
 		isShow = 1
 	},
 	{
@@ -13,25 +13,25 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 2,
 		dispaySelectName = "",
-		settingName = "高精度渲染",
+		settingName = "高解像度レンダリング",
 		isShow = 1
 	},
 	{
 		parentSetting = 0,
 		displayType = 2,
 		id = 3,
-		settingName = "绘制深度",
+		settingName = "描画深度",
 		isShow = 1,
 		dispaySelectName = {
-			"自动",
-			"强制启用"
+			"自動",
+			"強制適用"
 		}
 	},
 	{
 		parentSetting = 0,
 		displayType = 2,
 		id = 4,
-		settingName = "着色器精度",
+		settingName = "シェーダー精度",
 		isShow = 1,
 		dispaySelectName = {
 			"低",
@@ -43,7 +43,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 5,
-		settingName = "硬件抗锯齿",
+		settingName = "ハードウェアアンチエイリアス",
 		isShow = 1,
 		dispaySelectName = {
 			"None",
@@ -56,7 +56,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 6,
-		settingName = "最大分辨率",
+		settingName = "最大解像度",
 		isShow = 1,
 		dispaySelectName = {
 			"720P",
@@ -69,7 +69,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 7,
-		settingName = "场景分辨率",
+		settingName = "フィールド解像度",
 		isShow = 0,
 		dispaySelectName = {
 			"Full",
@@ -88,7 +88,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 8,
-		settingName = "场景最低分辨率",
+		settingName = "フィールド最低解像度",
 		isShow = 0,
 		dispaySelectName = {
 			"360P",
@@ -100,7 +100,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 9,
-		settingName = "贴图分辨率",
+		settingName = "テクスチャ解像度",
 		isShow = 0,
 		dispaySelectName = {
 			"低",
@@ -113,12 +113,12 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 10,
-		settingName = "静态阴影",
+		settingName = "シャドウ描画",
 		isShow = 0,
 		dispaySelectName = {
-			"禁用",
-			"静态硬阴影",
-			"静态软阴影"
+			"なし",
+			"ハードシャドウ",
+			"ソフトシャドウ"
 		}
 	},
 	{
@@ -126,7 +126,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 11,
 		dispaySelectName = "",
-		settingName = "实时阴影",
+		settingName = "リアルタイムシャドウ",
 		isShow = 1
 	},
 	{
@@ -134,7 +134,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 12,
 		dispaySelectName = "",
-		settingName = "反射",
+		settingName = "リフレクション",
 		isShow = 1
 	},
 	{
@@ -142,7 +142,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 13,
 		dispaySelectName = "",
-		settingName = "多光源",
+		settingName = "マルチライト",
 		isShow = 1
 	},
 	{
@@ -150,19 +150,19 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 14,
 		dispaySelectName = "",
-		settingName = "角色描边",
+		settingName = "キャラアウトライン",
 		isShow = 1
 	},
 	{
 		parentSetting = 0,
 		displayType = 2,
 		id = 15,
-		settingName = "后处理",
+		settingName = "ポストプロセス",
 		isShow = 1,
 		dispaySelectName = {
-			"关",
-			"开",
-			"高品质"
+			"OFF",
+			"ON",
+			"高品質"
 		}
 	},
 	{
@@ -170,7 +170,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 16,
 		dispaySelectName = "",
-		settingName = "抗锯齿",
+		settingName = "アンチエイリアス",
 		isShow = 1
 	},
 	{
@@ -186,7 +186,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 18,
 		dispaySelectName = "",
-		settingName = "景深",
+		settingName = "DOF",
 		isShow = 1
 	},
 	{
@@ -194,7 +194,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 19,
 		dispaySelectName = "",
-		settingName = "扭曲",
+		settingName = "ディストーション",
 		isShow = 1
 	},
 	all = {

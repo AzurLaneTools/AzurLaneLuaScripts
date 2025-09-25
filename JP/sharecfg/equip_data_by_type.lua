@@ -2,155 +2,155 @@ pg = pg or {}
 pg.equip_data_by_type = {
 	{
 		distory_resource_gold_ratio = 1,
-		type_name = "舰炮",
+		type_name = "艦砲",
 		equip_skin = 1,
 		equip_type = 1,
 		compare_group = 1,
-		type_name2 = "舰炮(驱逐)"
+		type_name2 = "艦砲(駆逐)"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "舰炮",
+		type_name = "艦砲",
 		equip_skin = 1,
 		equip_type = 2,
 		compare_group = 1,
-		type_name2 = "舰炮(轻巡)"
+		type_name2 = "艦砲(軽巡)"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "舰炮",
+		type_name = "艦砲",
 		equip_skin = 1,
 		equip_type = 3,
 		compare_group = 1,
-		type_name2 = "舰炮(重巡)"
+		type_name2 = "艦砲(重巡)"
 	},
 	{
 		distory_resource_gold_ratio = 3,
-		type_name = "舰炮",
+		type_name = "艦砲",
 		equip_skin = 1,
 		equip_type = 4,
 		compare_group = 1,
-		type_name2 = "舰炮(战列)"
+		type_name2 = "艦砲(戦列)"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "鱼雷",
+		type_name = "魚雷",
 		equip_skin = 1,
 		equip_type = 5,
 		compare_group = 2,
-		type_name2 = "鱼雷"
+		type_name2 = "魚雷"
 	},
 	{
 		distory_resource_gold_ratio = 1,
-		type_name = "防空炮",
+		type_name = "対空",
 		equip_skin = 0,
 		equip_type = 6,
 		compare_group = 3,
-		type_name2 = "防空炮"
+		type_name2 = "対空"
 	},
 	{
 		distory_resource_gold_ratio = 1,
-		type_name = "战斗机",
+		type_name = "戦闘機",
 		equip_skin = 1,
 		equip_type = 7,
 		compare_group = 4,
-		type_name2 = "战斗机"
+		type_name2 = "戦闘機"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "鱼雷机",
+		type_name = "攻撃機",
 		equip_skin = 1,
 		equip_type = 8,
 		compare_group = 4,
-		type_name2 = "鱼雷机"
+		type_name2 = "攻撃機"
 	},
 	{
 		distory_resource_gold_ratio = 3,
-		type_name = "轰炸机",
+		type_name = "爆撃機",
 		equip_skin = 1,
 		equip_type = 9,
 		compare_group = 4,
-		type_name2 = "轰炸机"
+		type_name2 = "爆撃機"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "设备",
+		type_name = "その他",
 		equip_skin = 1,
 		equip_type = 10,
 		compare_group = 5,
-		type_name2 = "设备"
+		type_name2 = "その他"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "舰炮",
+		type_name = "艦砲",
 		equip_skin = 1,
 		equip_type = 11,
 		compare_group = 1,
-		type_name2 = "舰炮(大口径重巡)"
+		type_name2 = "艦砲(ポケット戦艦)"
 	},
 	{
 		distory_resource_gold_ratio = 1,
-		type_name = "水上机",
+		type_name = "水上機",
 		equip_skin = 1,
 		equip_type = 12,
 		compare_group = 5,
-		type_name2 = "水上机"
+		type_name2 = "水上機"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "鱼雷",
+		type_name = "魚雷",
 		equip_skin = 1,
 		equip_type = 13,
 		compare_group = 6,
-		type_name2 = "鱼雷(潜艇)"
+		type_name2 = "魚雷(潜水艦)"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "设备",
+		type_name = "その他",
 		equip_skin = 0,
 		equip_type = 14,
 		compare_group = 5,
-		type_name2 = "设备"
+		type_name2 = "その他"
 	},
 	{
 		distory_resource_gold_ratio = 2,
-		type_name = "反潜机",
+		type_name = "その他",
 		equip_skin = 0,
 		equip_type = 15,
 		compare_group = 5,
-		type_name2 = "反潜机"
+		type_name2 = "その他"
 	},
 	[17] = {
 		distory_resource_gold_ratio = 2,
-		type_name = "直升机",
+		type_name = "ヘリ",
 		equip_skin = 0,
 		equip_type = 17,
 		compare_group = 5,
-		type_name2 = "直升机"
+		type_name2 = "ヘリ"
 	},
 	[18] = {
 		distory_resource_gold_ratio = 2,
-		type_name = "货物",
+		type_name = "積載",
 		equip_skin = 0,
 		equip_type = 18,
 		compare_group = 5,
-		type_name2 = "货物"
+		type_name2 = "積載"
 	},
 	[20] = {
 		distory_resource_gold_ratio = 2,
-		type_name = "导弹",
+		type_name = "ミサイル",
 		equip_skin = 0,
 		equip_type = 20,
 		compare_group = 1,
-		type_name2 = "导弹"
+		type_name2 = "ミサイル"
 	},
 	[21] = {
 		distory_resource_gold_ratio = 1,
-		type_name = "防空炮",
+		type_name = "対空",
 		equip_skin = 0,
 		equip_type = 21,
 		compare_group = 3,
-		type_name2 = "防空炮"
+		type_name2 = "対空"
 	},
 	all = {
 		1,

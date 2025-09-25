@@ -45,7 +45,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 1,
-		title = "深谷病院·上",
+		title = "バレー病院・上",
 		pic = "1",
 		unlock_jump = {
 			{
@@ -58,7 +58,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 2,
-		title = "深谷病院·下",
+		title = "バレー病院・下",
 		pic = "2",
 		unlock_jump = {
 			{
@@ -71,7 +71,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 3,
-		title = "诊疗中心",
+		title = "診療センター",
 		pic = "3",
 		unlock_jump = {
 			{
@@ -84,7 +84,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 4,
-		title = "医生办公室",
+		title = "オフィス",
 		pic = "4",
 		unlock_jump = {
 			{
@@ -102,7 +102,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 5,
-		title = "诊疗中心(地下)",
+		title = "診療センター（地下）",
 		pic = "5",
 		unlock_jump = {
 			{
@@ -120,7 +120,7 @@ pg.base.activity_clue_group = {
 		task_id = "21606",
 		type = 1,
 		id = 6,
-		title = "住院大楼",
+		title = "入院棟",
 		pic = "6",
 		unlock_jump = {
 			{
@@ -136,7 +136,7 @@ pg.base.activity_clue_group = {
 		task_id = "21606",
 		type = 1,
 		id = 7,
-		title = "护士站",
+		title = "控え室",
 		pic = "7",
 		unlock_jump = {
 			{
@@ -153,7 +153,7 @@ pg.base.activity_clue_group = {
 		task_id = "21606",
 		type = 1,
 		id = 8,
-		title = "病房",
+		title = "病室",
 		pic = "8",
 		unlock_jump = {
 			{
@@ -170,7 +170,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 9,
-		title = "住院大楼(地下)",
+		title = "入院棟（地下）",
 		pic = "9",
 		unlock_jump = {
 			{
@@ -187,7 +187,7 @@ pg.base.activity_clue_group = {
 		task_id = "21609",
 		type = 1,
 		id = 10,
-		title = "研究中心",
+		title = "研究センター",
 		pic = "10",
 		unlock_jump = {
 			{
@@ -203,7 +203,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 11,
-		title = "研究中心(地下)",
+		title = "研究センター（地下）",
 		pic = "11",
 		unlock_jump = {
 			{
@@ -221,7 +221,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 12,
-		title = "疗养中心",
+		title = "療養センター",
 		pic = "12",
 		unlock_jump = {
 			{
@@ -237,7 +237,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 13,
-		title = "疗养中心(地下)",
+		title = "療養センター（地下）",
 		pic = "13",
 		unlock_jump = {
 			{
@@ -255,7 +255,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 14,
-		title = "后勤中心",
+		title = "物流センター",
 		pic = "14",
 		unlock_jump = {
 			{
@@ -271,7 +271,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 15,
-		title = "后勤中心(地下)",
+		title = "物流センター（地下）",
 		pic = "15",
 		unlock_jump = {
 			{
@@ -287,7 +287,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 16,
-		title = "停车场",
+		title = "駐車場",
 		pic = "16",
 		unlock_jump = {
 			{
@@ -304,7 +304,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 17,
-		title = "停车场(地下)",
+		title = "駐車場（地下）",
 		pic = "17",
 		unlock_jump = {
 			{
@@ -322,7 +322,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 18,
-		title = "门卫亭",
+		title = "守衛室",
 		pic = "18",
 		unlock_jump = {
 			{
@@ -339,7 +339,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 19,
-		title = "古典长廊",
+		title = "廊下",
 		pic = "19",
 		unlock_jump = {
 			{
@@ -357,7 +357,7 @@ pg.base.activity_clue_group = {
 		task_id = "21609",
 		type = 1,
 		id = 20,
-		title = "庭院",
+		title = "庭園",
 		pic = "20",
 		unlock_jump = {
 			{
@@ -375,7 +375,7 @@ pg.base.activity_clue_group = {
 		task_id = "21609",
 		type = 1,
 		id = 21,
-		title = "樱花树",
+		title = "桜の木",
 		pic = "21",
 		unlock_jump = {
 			{
@@ -393,7 +393,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 22,
-		title = "小树林",
+		title = "小さな森",
 		pic = "22",
 		unlock_jump = {
 			{
@@ -411,7 +411,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 23,
-		title = "正门",
+		title = "正門",
 		pic = "23",
 		unlock_jump = {
 			{
@@ -427,7 +427,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 24,
-		title = "后门",
+		title = "裏口",
 		pic = "24",
 		unlock_jump = {
 			{
@@ -445,7 +445,7 @@ pg.base.activity_clue_group = {
 		task_id = "21614",
 		type = 2,
 		id = 25,
-		title = "莫加多尔",
+		title = "モガドール",
 		pic = "25",
 		unlock_jump = {
 			{
@@ -458,7 +458,7 @@ pg.base.activity_clue_group = {
 		task_id = "21615",
 		type = 2,
 		id = 26,
-		title = "富兰克林",
+		title = "フランクリン",
 		pic = "26",
 		unlock_jump = {
 			{
@@ -473,7 +473,7 @@ pg.base.activity_clue_group = {
 		task_id = "21616",
 		type = 2,
 		id = 27,
-		title = "华盛顿",
+		title = "ワシントン",
 		pic = "27",
 		unlock_jump = {
 			{
@@ -491,7 +491,7 @@ pg.base.activity_clue_group = {
 		task_id = "21617",
 		type = 2,
 		id = 28,
-		title = "{namecode:59}",
+		title = "鈴谷",
 		pic = "28",
 		unlock_jump = {
 			{
@@ -506,7 +506,7 @@ pg.base.activity_clue_group = {
 		task_id = "21618",
 		type = 2,
 		id = 29,
-		title = "伏罗希洛夫",
+		title = "ヴォロシーロフ",
 		pic = "29",
 		unlock_jump = {
 			{
@@ -524,7 +524,7 @@ pg.base.activity_clue_group = {
 		task_id = "21619",
 		type = 2,
 		id = 30,
-		title = "鹰",
+		title = "イーグル",
 		pic = "30",
 		unlock_jump = {
 			{
@@ -540,7 +540,7 @@ pg.base.activity_clue_group = {
 		task_id = "21620",
 		type = 2,
 		id = 31,
-		title = "神速",
+		title = "ストレミテルヌイ",
 		pic = "31",
 		unlock_jump = {
 			{
@@ -555,7 +555,7 @@ pg.base.activity_clue_group = {
 		task_id = "21621",
 		type = 2,
 		id = 32,
-		title = "圣塔菲",
+		title = "サンタフェ",
 		pic = "32",
 		unlock_jump = {
 			{
@@ -570,7 +570,7 @@ pg.base.activity_clue_group = {
 		task_id = "21622",
 		type = 2,
 		id = 33,
-		title = "米勒",
+		title = "ミラー",
 		pic = "33",
 		unlock_jump = {
 			{
@@ -588,7 +588,7 @@ pg.base.activity_clue_group = {
 		task_id = "21623",
 		type = 2,
 		id = 34,
-		title = "哈尔福德",
+		title = "ハルフォード",
 		pic = "34",
 		unlock_jump = {
 			{
@@ -601,7 +601,7 @@ pg.base.activity_clue_group = {
 		task_id = "21624",
 		type = 2,
 		id = 35,
-		title = "{namecode:91}",
+		title = "赤城",
 		pic = "35",
 		unlock_jump = {
 			{

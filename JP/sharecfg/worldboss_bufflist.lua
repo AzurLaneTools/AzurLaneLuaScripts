@@ -6,7 +6,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.1",
 		id = 1001,
 		buff_target = 1,
-		desc = "敌方旗舰的炮击增加50%"
+		desc = "敵旗艦の火力が50%アップ"
 	},
 	[1002] = {
 		buff_icon = "1002",
@@ -14,7 +14,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.1",
 		id = 1002,
 		buff_target = 1,
-		desc = "敌方旗舰的雷击增加50%"
+		desc = "敵旗艦の雷装が50%アップ"
 	},
 	[1003] = {
 		buff_icon = "1003",
@@ -22,7 +22,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.1",
 		id = 1003,
 		buff_target = 1,
-		desc = "敌方旗舰的航空增加50%"
+		desc = "敵旗艦の航空が50%アップ"
 	},
 	[1004] = {
 		buff_icon = "1004",
@@ -30,7 +30,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1004,
 		buff_target = 1,
-		desc = "敌方旗舰受到的炮击伤害降低30%"
+		desc = "敵旗艦が受ける砲撃ダメージが30%ダウン"
 	},
 	[1005] = {
 		buff_icon = "1005",
@@ -38,7 +38,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1005,
 		buff_target = 1,
-		desc = "敌方旗舰受到的雷击伤害降低30%"
+		desc = "敵旗艦が受ける雷撃ダメージが30%ダウン"
 	},
 	[1006] = {
 		buff_icon = "1006",
@@ -46,7 +46,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1006,
 		buff_target = 1,
-		desc = "敌方旗舰受到的航空伤害降低30%"
+		desc = "敵旗艦が受ける航空ダメージが30%ダウン"
 	},
 	[1007] = {
 		buff_icon = "1007",
@@ -54,7 +54,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.1",
 		id = 1007,
 		buff_target = 1,
-		desc = "敌方旗舰的伤害提高20%"
+		desc = "敵旗艦が与えるダメージが20%アップ"
 	},
 	[1008] = {
 		buff_icon = "1008",
@@ -62,7 +62,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1008,
 		buff_target = 1,
-		desc = "在本次战斗中，我方全部角色受到的恢复效果会被反转为伤害效果"
+		desc = "戦闘中、味方が受ける回復効果がダメージ効果になる"
 	},
 	[1009] = {
 		buff_icon = "1009",
@@ -70,7 +70,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.03",
 		id = 1009,
 		buff_target = 1,
-		desc = "敌方旗舰耐久值下降至20%以下时，生成一面能够阻挡子弹的护盾，护盾永久存在"
+		desc = "敵旗艦の耐久が20%を下回った場合に、戦闘終了まで持続し砲弾を無効化できるシールドを1枚生成する"
 	},
 	[1010] = {
 		buff_icon = "1010",
@@ -78,7 +78,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1010,
 		buff_target = 1,
-		desc = "敌方旗舰的航速增加30%"
+		desc = "敵旗艦の速力が30%アップ"
 	},
 	[1011] = {
 		buff_icon = "1011",
@@ -86,7 +86,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1011,
 		buff_target = 1,
-		desc = "敌方旗舰的防空增加30%"
+		desc = "敵旗艦の対空が30%アップ"
 	},
 	[1012] = {
 		buff_icon = "1012",
@@ -94,7 +94,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1012,
 		buff_target = 1,
-		desc = "敌方旗舰对我方前排先锋造成的伤害增加20%"
+		desc = "敵旗艦が味方前衛艦隊に与えるダメージが20%アップ"
 	},
 	[1013] = {
 		buff_icon = "1013",
@@ -102,7 +102,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1013,
 		buff_target = 1,
-		desc = "敌方旗舰对我方后排主力造成的伤害增加20%"
+		desc = "敵旗艦が味方主力艦隊に与えるダメージが20%アップ"
 	},
 	[1014] = {
 		buff_icon = "1014",
@@ -110,7 +110,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1014,
 		buff_target = 1,
-		desc = "敌方旗舰登场后，每过15秒对我方全体角色造成最大耐久值5%的伤害"
+		desc = "敵旗艦登場後、15秒毎に味方艦船にそれぞれ耐久上限の5％分のダメージを与える"
 	},
 	[1015] = {
 		buff_icon = "1015",
@@ -118,7 +118,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1015,
 		buff_target = 1,
-		desc = "在战斗中每间隔一段时间会生成减速力场，进入力场的我方舰船角色减速10%"
+		desc = "戦闘中、一定時間ごとに減速フィールドが出現し、中にいる味方艦船の速力が10％ダウンする"
 	},
 	[1016] = {
 		buff_icon = "1016",
@@ -126,7 +126,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.05",
 		id = 1016,
 		buff_target = 1,
-		desc = "我方航母以外的单位命中率下降5%"
+		desc = "味方空母以外の艦船の命中率が5％ダウン"
 	},
 	[1017] = {
 		buff_icon = "1017",
@@ -134,7 +134,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.03",
 		id = 1017,
 		buff_target = 1,
-		desc = "战斗中每隔一段时间，敌方旗舰会发射一轮特殊弹幕"
+		desc = "戦闘中一定時間ごとに、敵旗艦が特殊弾幕を展開する"
 	},
 	[1018] = {
 		buff_icon = "1018",
@@ -158,7 +158,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.1",
 		id = 1020,
 		buff_target = 1,
-		desc = "敌方旗舰登场后，每过15秒提高自身全属性提升10%，最高叠加5层"
+		desc = "敵旗艦は登場後から15秒毎に自身の全ステータスが10％アップ（最大5回まで加算可能）"
 	},
 	[1021] = {
 		buff_icon = "1021",
@@ -174,7 +174,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.03",
 		id = 101701,
 		buff_target = 1,
-		desc = "战斗中每隔一段时间，敌方旗舰会发射一轮特殊弹幕"
+		desc = "戦闘中一定時間ごとに、敵旗艦が特殊弾幕を展開する"
 	},
 	[101801] = {
 		buff_icon = "1018",
@@ -182,7 +182,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.03",
 		id = 101801,
 		buff_target = 1,
-		desc = "战斗随机出现敌方的航空编队支援"
+		desc = "戦闘中、敵の航空支援がランダムで出現する"
 	},
 	all = {
 		1001,

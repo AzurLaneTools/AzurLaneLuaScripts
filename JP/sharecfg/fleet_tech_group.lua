@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.fleet_tech_group = {
 	{
-		name = "作战技术-白鹰",
+		name = "陣営技術-ユニオン",
 		id = 1,
 		nation = {
 			1
@@ -20,7 +20,7 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		name = "作战技术-皇家",
+		name = "陣営技術-ロイヤル",
 		id = 2,
 		nation = {
 			2
@@ -39,7 +39,7 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		name = "作战技术-重樱",
+		name = "陣営技術-重桜",
 		id = 3,
 		nation = {
 			3
@@ -58,7 +58,7 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		name = "作战技术-铁血",
+		name = "陣営技術-鉄血",
 		id = 4,
 		nation = {
 			4

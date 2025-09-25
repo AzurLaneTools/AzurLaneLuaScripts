@@ -10,8 +10,8 @@ pg.activity_event_chequer = {
 		id = 1,
 		chequer_box = 5,
 		list_boss = {
-			1450001,
-			1450002
+			1450016,
+			1450017
 		},
 		chequer_map = {
 			5,
@@ -46,8 +46,8 @@ pg.activity_event_chequer = {
 		id = 2,
 		chequer_box = 5,
 		list_boss = {
-			1450003,
-			1450004
+			1450018,
+			1450019
 		},
 		chequer_map = {
 			5,
@@ -82,8 +82,8 @@ pg.activity_event_chequer = {
 		id = 3,
 		chequer_box = 5,
 		list_boss = {
-			1450005,
-			1450006
+			1450020,
+			1450021
 		},
 		chequer_map = {
 			5,
@@ -118,8 +118,8 @@ pg.activity_event_chequer = {
 		id = 4,
 		chequer_box = 5,
 		list_boss = {
-			1450007,
-			1450008
+			1450022,
+			1450023
 		},
 		chequer_map = {
 			5,
@@ -154,8 +154,8 @@ pg.activity_event_chequer = {
 		id = 5,
 		chequer_box = 5,
 		list_boss = {
-			1450009,
-			1450010
+			1450024,
+			1450025
 		},
 		chequer_map = {
 			5,
@@ -190,8 +190,8 @@ pg.activity_event_chequer = {
 		id = 6,
 		chequer_box = 5,
 		list_boss = {
-			1450011,
-			1450012
+			1450026,
+			1450027
 		},
 		chequer_map = {
 			5,
@@ -226,9 +226,9 @@ pg.activity_event_chequer = {
 		id = 7,
 		chequer_box = 5,
 		list_boss = {
-			1450013,
-			1450014,
-			1450015
+			1450028,
+			1450029,
+			1450030
 		},
 		chequer_map = {
 			5,

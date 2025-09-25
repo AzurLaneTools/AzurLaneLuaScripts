@@ -3,42 +3,42 @@ pg.music_album = {
 	{
 		order = 5,
 		cover = "MusicCover1",
-		album_name = "铁血、音符&誓言"
+		album_name = "黒鉄の楽章、誓の海"
 	},
 	{
 		order = 4,
 		cover = "MusicCover2",
-		album_name = "神圣的悲喜剧"
+		album_name = "悲歎せし焔海の詩"
 	},
 	{
 		order = 3,
 		cover = "MusicCover3",
-		album_name = "空相交汇点"
+		album_name = "覆天せし万象の塵"
 	},
 	{
 		order = 2,
 		cover = "MusicCover4",
-		album_name = "海风与夏日的无人岛"
+		album_name = "潮風と夏の無人島"
 	},
 	{
 		order = 1,
 		cover = "MusicCover5",
-		album_name = "启航之时"
+		album_name = "出航の時"
 	},
 	{
 		order = 6,
 		cover = "MusicCover6",
-		album_name = "清茶氤氲"
+		album_name = "清茶馥郁"
 	},
 	{
 		order = 7,
 		cover = "MusicCover7",
-		album_name = "翩若飞仙"
+		album_name = "天女の如く"
 	},
 	{
 		order = 8,
 		cover = "MusicCover8",
-		album_name = "湮烬尘墟"
+		album_name = "黙示の遺構"
 	},
 	{
 		order = 9,
@@ -48,37 +48,37 @@ pg.music_album = {
 	{
 		order = 10,
 		cover = "MusicCover10",
-		album_name = "奏响鸢尾之歌"
+		album_name = "燃ゆる聖都の回想曲"
 	},
 	get_id_list_by_album_name = {
-		["铁血、音符&誓言"] = {
+		["黒鉄の楽章、誓の海"] = {
 			1
 		},
-		["神圣的悲喜剧"] = {
+		["悲歎せし焔海の詩"] = {
 			2
 		},
-		["空相交汇点"] = {
+		["覆天せし万象の塵"] = {
 			3
 		},
-		["海风与夏日的无人岛"] = {
+		["潮風と夏の無人島"] = {
 			4
 		},
-		["启航之时"] = {
+		["出航の時"] = {
 			5
 		},
-		["清茶氤氲"] = {
+		["清茶馥郁"] = {
 			6
 		},
-		["翩若飞仙"] = {
+		["天女の如く"] = {
 			7
 		},
-		["湮烬尘墟"] = {
+		["黙示の遺構"] = {
 			8
 		},
 		["弧光"] = {
 			9
 		},
-		["奏响鸢尾之歌"] = {
+		["燃ゆる聖都の回想曲"] = {
 			10
 		}
 	},

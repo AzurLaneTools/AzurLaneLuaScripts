@@ -33,151 +33,151 @@ pg.base = pg.base or {}
 pg.base.pay_level_award = {
 	{
 		exp = 6,
-		dialog = "欢迎光临喵！",
+		dialog = "いらしゃいませ、にゃ！",
 		cv_key = "shop1",
 		level = 1
 	},
 	{
 		exp = 15,
-		dialog = "呼喵？",
+		dialog = "ふにゃ？",
 		cv_key = "shop2",
 		level = 2
 	},
 	{
 		exp = 30,
-		dialog = "谢谢惠顾喵～",
+		dialog = "まいどありだにゃ～",
 		cv_key = "shop3",
 		level = 3
 	},
 	{
 		exp = 60,
-		dialog = "今天也有很多好东西～指挥官不要错过了喵！",
+		dialog = "今日もお得が一杯あるにゃ～逃したら後悔するにゃ～",
 		cv_key = "",
 		level = 4
 	},
 	{
 		exp = 100,
-		dialog = "指挥官原来这么闲喵？",
+		dialog = "指揮官そんなに暇なのかにゃ？",
 		cv_key = "shop4",
 		level = 5
 	},
 	{
 		exp = 150,
-		dialog = "{namecode:98}可是很忙的喵，才没有空陪指挥官玩喵",
+		dialog = "明石は忙しいにゃ。指揮官と遊ぶ暇がないにゃ～",
 		cv_key = "",
 		level = 6
 	},
 	{
 		exp = 200,
-		dialog = "指挥官也想被{namecode:98}“修理”一下吗？",
+		dialog = "指揮官も明石に「修理」されたいかにゃ？",
 		cv_key = "shop7",
 		level = 7
 	},
 	{
 		exp = 250,
-		dialog = "喵？！原来是指挥官…要买点什么喵？",
+		dialog = "にゃ？！指揮官にゃ…何か買うかにゃ？",
 		cv_key = "",
 		level = 8
 	},
 	{
 		exp = 300,
-		dialog = "{namecode:98}耳朵都要被你摸平了喵…",
+		dialog = "明石のミミがベタんこにされそうだにゃ… ",
 		cv_key = "shop9",
 		level = 9
 	},
 	{
 		exp = 350,
-		dialog = "喵？指挥官又来看{namecode:98}了？",
+		dialog = "にゃ？また明石を見に来たのかにゃ？",
 		cv_key = "shop10",
 		level = 10
 	},
 	{
 		exp = 400,
-		dialog = "多看看店里的商品{namecode:98}会更高兴的喵",
+		dialog = "お店のものをもっと見たら、明石はもっと楽しいにゃ♪",
 		cv_key = "",
 		level = 11
 	},
 	{
 		exp = 450,
-		dialog = "明、{namecode:98}可不是宠物喵！",
+		dialog = "あ、明石はペットじゃないにゃ！",
 		cv_key = "shop12",
 		level = 12
 	},
 	{
 		exp = 500,
-		dialog = "如果乱碰到奇怪的设备，可是会受伤的喵！",
+		dialog = "変な設備に触ると怪我するにゃ。",
 		cv_key = "",
 		level = 13
 	},
 	{
 		exp = 550,
-		dialog = "才、才没有觉得开心呢喵…",
+		dialog = "べ、別に嬉しくなんかないにゃ…",
 		cv_key = "shop14",
 		level = 14
 	},
 	{
 		exp = 600,
-		dialog = "呼喵？指挥官又在摸鱼了喵？不想被举报的话就多买点东西喵！",
+		dialog = "うにゃ？またサボりに来たかにゃ？上に報告されたくなかったら商品を見てみるにゃ～",
 		cv_key = "",
 		level = 15
 	},
 	{
 		exp = 650,
-		dialog = "{namecode:98}有点困了喵…",
+		dialog = "明石、ちょっと眠いにゃ…",
 		cv_key = "",
 		level = 16
 	},
 	{
 		exp = 700,
-		dialog = "这是…亲密的touch喵？",
+		dialog = "これは…スキンシップにゃ？",
 		cv_key = "shop17",
 		level = 17
 	},
 	{
 		exp = 800,
-		dialog = "要经常来看人家喔喵～",
+		dialog = "また会いに来てにゃ～",
 		cv_key = "shop18",
 		level = 18
 	},
 	{
 		exp = 900,
-		dialog = "指挥官状态怎么样，要不要{namecode:98}给你检查下喵？",
+		dialog = "指揮官、どうかにゃ？明石が検査してあげようかにゃ？",
 		cv_key = "",
 		level = 19
 	},
 	{
 		exp = 1000,
-		dialog = "呼喵…咕噜噜噜……",
+		dialog = "うにゃ……ぐー……ぐーにゃ……",
 		cv_key = "",
 		level = 20
 	},
 	{
 		exp = 1100,
-		dialog = "就、就算这样也不会给你打折的喵！",
+		dialog = "や、安くして上げないにゃ！ ",
 		cv_key = "shop21",
 		level = 21
 	},
 	{
 		exp = 1200,
-		dialog = "呼喵…哈！！太、太舒服了差点就被你蒙混过去了喵！",
+		dialog = "ふにゃあ…ハッ！！き、気持ちよすぎてついごまかされるところだったにゃ！",
 		cv_key = "shop22",
 		level = 22
 	},
 	{
 		exp = 1300,
-		dialog = "眼睛和脑袋都骨碌碌晕乎乎了喵…",
+		dialog = "目も頭もフラフラだにゃ…",
 		cv_key = "",
 		level = 23
 	},
 	{
 		exp = 1400,
-		dialog = "指挥官身上有股让人安心的味道喵…",
+		dialog = "指揮官から安心する匂いがするにゃ……",
 		cv_key = "",
 		level = 24
 	},
 	{
 		exp = 1500,
-		dialog = "最喜欢指挥官了喵～",
+		dialog = "指揮官、ダイスキにゃ～",
 		cv_key = "shop25",
 		level = 25
 	}

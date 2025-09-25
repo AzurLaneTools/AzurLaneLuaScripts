@@ -3,7 +3,7 @@ pg.activity_ins_redpackage = {
 	[1000] = {
 		type = 2,
 		id = 1000,
-		desc = "新年快乐，财源滚滚",
+		desc = "新年快楽・金運招来",
 		content = {
 			1,
 			1,
@@ -33,7 +33,7 @@ pg.activity_ins_redpackage = {
 	[1001] = {
 		type = 2,
 		id = 1001,
-		desc = "新年吃好喝好！",
+		desc = "新しい一年はいいもの食べよう！",
 		content = {
 			1,
 			1,
@@ -69,7 +69,7 @@ pg.activity_ins_redpackage = {
 	[1002] = {
 		type = 2,
 		id = 1002,
-		desc = "新年天天开心",
+		desc = "新しい一年は毎日ハッピー！",
 		content = {
 			1,
 			1,
@@ -100,7 +100,7 @@ pg.activity_ins_redpackage = {
 		group_receive = "",
 		type = 1,
 		id = 1003,
-		desc = "指挥官新年快乐",
+		desc = "指揮官あけおめ",
 		content = {
 			1,
 			1,

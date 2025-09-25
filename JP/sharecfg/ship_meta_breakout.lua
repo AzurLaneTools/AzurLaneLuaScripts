@@ -215,7 +215,7 @@ pg.ship_meta_breakout = setmetatable({
 pg.base = pg.base or {}
 pg.base.ship_meta_breakout = {
 	[9701011] = {
-		breakout_view = "习得技能【逐光之焰·猎人】/主炮效率提高5%",
+		breakout_view = "【焔追の灰-ハンター】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -231,7 +231,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701012] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9701011,
 		repair = 0,
@@ -248,7 +248,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701013] = {
-		breakout_view = "【逐光之焰·猎人】升级/全武器效率提高5%",
+		breakout_view = "【焔追の灰-ハンター】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701012,
 		repair = 0,
@@ -264,7 +264,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701013,
 		repair = 0,
@@ -278,7 +278,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701021] = {
-		breakout_view = "习得技能【逐光之焰·命运女神】/主炮效率提高5%",
+		breakout_view = "【焔追の灰-フォーチュン(META)】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -294,7 +294,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9701021,
 		repair = 0,
@@ -311,7 +311,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701023] = {
-		breakout_view = "【逐光之焰·命运女神】弹幕升级/全武器效率提高5%",
+		breakout_view = "【焔追の灰-フォーチュン(META)】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701022,
 		repair = 0,
@@ -327,7 +327,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701023,
 		repair = 0,
@@ -341,7 +341,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701031] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:140}】/鱼雷效率提高5%",
+		breakout_view = "【湮燼の核-旗風】習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -357,7 +357,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701032] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9701031,
 		repair = 0,
@@ -374,7 +374,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701033] = {
-		breakout_view = "【湮烬之核·{namecode:140}】升级/全武器效率提高5%",
+		breakout_view = "【湮燼の核-旗風】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701032,
 		repair = 0,
@@ -390,7 +390,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701033,
 		repair = 0,
@@ -404,7 +404,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701041] = {
-		breakout_view = "习得技能【破敌之炬·金伯利】/全武器效率提高2%",
+		breakout_view = "【炬火の力-キンバリー】習得/武器補正+2%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -420,7 +420,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701042] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
 		item2 = 21001,
 		pre_id = 9701041,
 		repair = 0,
@@ -437,7 +437,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701043] = {
-		breakout_view = "【破敌之炬·金伯利】升级/全武器效率提高5%",
+		breakout_view = "【炬火の力-キンバリー】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701042,
 		repair = 0,
@@ -453,7 +453,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701043,
 		repair = 0,
@@ -467,7 +467,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701051] = {
-		breakout_view = "习得技能【逐光之焰·吸血鬼】I/鱼雷效率提高5%",
+		breakout_view = "【焔追の灰-ヴァンパイア】習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -483,7 +483,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701052] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9701051,
 		repair = 0,
@@ -500,7 +500,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701053] = {
-		breakout_view = "【逐光之焰·吸血鬼】升级/全武器效率提高5%",
+		breakout_view = "【焔追の灰-ヴァンパイア】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701052,
 		repair = 0,
@@ -516,7 +516,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701053,
 		repair = 0,
@@ -530,7 +530,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701061] = {
-		breakout_view = "习得技能【构造之理·{namecode:180}】/鱼雷效率提高5%",
+		breakout_view = "【構造の理·霞】スキル習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -546,7 +546,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701062] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9701061,
 		repair = 0,
@@ -563,7 +563,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701063] = {
-		breakout_view = "【构造之理·{namecode:180}】升级/全武器效率提高5%",
+		breakout_view = "【構造の理·霞】スキル強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701062,
 		repair = 0,
@@ -579,7 +579,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701063,
 		repair = 0,
@@ -593,7 +593,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701071] = {
-		breakout_view = "习得技能【逐光之焰·格伦维尔】I/主炮效率提高5%",
+		breakout_view = "スキル【焔追の灰・グレンヴィル】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -609,7 +609,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701072] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9701071,
 		repair = 0,
@@ -626,7 +626,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701073] = {
-		breakout_view = "【逐光之焰·格伦维尔】升级/全武器效率提高5%",
+		breakout_view = "スキル【焔追の灰・グレンヴィル】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701072,
 		repair = 0,
@@ -642,7 +642,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701074] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701073,
 		repair = 0,
@@ -656,7 +656,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701081] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:158}】/鱼雷效率提高5%",
+		breakout_view = "【湮燼の核-江風】習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -672,7 +672,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701082] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9701081,
 		repair = 0,
@@ -689,7 +689,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701083] = {
-		breakout_view = "【湮烬之核·{namecode:158}】升级/全武器效率提高5%",
+		breakout_view = "【湮燼の核-江風】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701082,
 		repair = 0,
@@ -705,7 +705,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701084] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701083,
 		repair = 0,
@@ -719,7 +719,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701091] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:16}】/鱼雷效率提高5%",
+		breakout_view = "【炬火の力-夕立(META)】習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -735,7 +735,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701092] = {
-		breakout_view = "主炮底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "主砲砲座+1/開始時魚雷+1/魚雷補正10%",
 		item2 = 21001,
 		pre_id = 9701091,
 		repair = 0,
@@ -752,7 +752,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701093] = {
-		breakout_view = "【破敌之炬·{namecode:16}】升级/全武器效率提高5%",
+		breakout_view = "【炬火の力-夕立(META)】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701092,
 		repair = 0,
@@ -768,7 +768,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701094] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701093,
 		repair = 0,
@@ -782,7 +782,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701101] = {
-		breakout_view = "习得技能【破敌之炬·杜威】/全武器效率提高2%",
+		breakout_view = "【炬火の力-デューイ(META)】習得/武器補正+2%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -798,7 +798,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701102] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
 		item2 = 21001,
 		pre_id = 9701101,
 		repair = 0,
@@ -815,7 +815,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701103] = {
-		breakout_view = "【破敌之炬·杜威】升级/全武器效率提高5%",
+		breakout_view = "【炬火の力-デューイ(META)】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9701102,
 		repair = 0,
@@ -831,7 +831,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701104] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9701103,
 		repair = 0,
@@ -845,7 +845,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702011] = {
-		breakout_view = "习得技能【破敌之炬·海伦娜】/主炮效率提高5%",
+		breakout_view = "【炬火の力-ヘレナ】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -861,7 +861,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702012] = {
-		breakout_view = "主炮底座+1/主炮效率提高10%",
+		breakout_view = "主砲砲座+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9702011,
 		repair = 0,
@@ -878,7 +878,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702013] = {
-		breakout_view = "【破敌之炬·海伦娜】升级/主炮效率提高15%",
+		breakout_view = "【炬火の力-ヘレナ】強化/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9702012,
 		repair = 0,
@@ -894,7 +894,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9702013,
 		repair = 0,
@@ -908,7 +908,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702021] = {
-		breakout_view = "习得技能【构造之理·孟菲斯】/全武器效率提高2%",
+		breakout_view = "【構造の理-メンフィス】習得/武器補正+2%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -924,7 +924,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3%",
 		item2 = 21001,
 		pre_id = 9702021,
 		repair = 0,
@@ -941,7 +941,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702023] = {
-		breakout_view = "【构造之理·孟菲斯】升级/全武器效率提高5%",
+		breakout_view = "【構造の理-メンフィス】強化/武器補正+5%",
 		item2 = 21001,
 		pre_id = 9702022,
 		repair = 0,
@@ -957,7 +957,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9702023,
 		repair = 0,
@@ -971,7 +971,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702031] = {
-		breakout_view = "习得技能【破敌之炬·谢菲尔德】/主炮效率提高5%",
+		breakout_view = "【炬火の力-シェフィールド】習得/主砲補正+5%",
 		item2 = 21018,
 		pre_id = 0,
 		repair = 0,
@@ -987,7 +987,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702032] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21018,
 		pre_id = 9702031,
 		repair = 0,
@@ -1004,7 +1004,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702033] = {
-		breakout_view = "【破敌之炬·谢菲尔德】升级/主炮效率提高15%",
+		breakout_view = "【炬火の力-シェフィールド】強化/主砲補正+15%",
 		item2 = 21018,
 		pre_id = 9702032,
 		repair = 0,
@@ -1020,7 +1020,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21018,
 		pre_id = 9702033,
 		repair = 0,
@@ -1034,7 +1034,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702041] = {
-		breakout_view = "习得技能【逐光之焰·拉·加利索尼埃】/主炮效率提高5%",
+		breakout_view = "【焔追の灰-ラ·ガリソニエール】習得/主砲補正+5%",
 		item2 = 21020,
 		pre_id = 0,
 		repair = 0,
@@ -1050,7 +1050,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702042] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21020,
 		pre_id = 9702041,
 		repair = 0,
@@ -1067,7 +1067,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702043] = {
-		breakout_view = "【逐光之焰·拉·加利索尼埃】升级/主炮效率提高10%",
+		breakout_view = "【焔追の灰-ラ·ガリソニエール】強化/主砲補正+15%",
 		item2 = 21020,
 		pre_id = 9702042,
 		repair = 0,
@@ -1083,7 +1083,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21020,
 		pre_id = 9702043,
 		repair = 0,
@@ -1097,7 +1097,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702051] = {
-		breakout_view = "习得技能【构造之理·{namecode:293}】/主炮效率提高5%",
+		breakout_view = "【構造の理-神通(META)】習得/主砲補正+5%",
 		item2 = 21025,
 		pre_id = 0,
 		repair = 0,
@@ -1113,7 +1113,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702052] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "弾薬上限+1/対空火器砲座+1/対空補正+5%",
 		item2 = 21025,
 		pre_id = 9702051,
 		repair = 0,
@@ -1130,7 +1130,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702053] = {
-		breakout_view = "【构造之理·{namecode:293}】升级/鱼雷效率提高15%",
+		breakout_view = "【構造の理-神通(META)】強化/魚雷補正+15%",
 		item2 = 21025,
 		pre_id = 9702052,
 		repair = 0,
@@ -1146,7 +1146,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21025,
 		pre_id = 9702053,
 		repair = 0,
@@ -1160,7 +1160,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702061] = {
-		breakout_view = "习得技能【逐光之焰·基洛夫】/主炮效率提高5%",
+		breakout_view = "【焔追の灰-キーロフ】習得/主砲補正+5%",
 		item2 = 21028,
 		pre_id = 0,
 		repair = 0,
@@ -1176,7 +1176,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702062] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
 		item2 = 21028,
 		pre_id = 9702061,
 		repair = 0,
@@ -1193,7 +1193,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702063] = {
-		breakout_view = "【逐光之焰·基洛夫】升级/主炮效率提高15%",
+		breakout_view = "【焔追の灰-キーロフ】強化/主砲補正+15%",
 		item2 = 21028,
 		pre_id = 9702062,
 		repair = 0,
@@ -1209,7 +1209,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21028,
 		pre_id = 9702063,
 		repair = 0,
@@ -1223,7 +1223,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702071] = {
-		breakout_view = "获得【摇曳之火·水星纪念】/主炮效率提高5%",
+		breakout_view = "【揺灯の力-パーミャチ・メルクーリヤ】習得/主砲補正+5%",
 		item2 = 21030,
 		pre_id = 0,
 		repair = 0,
@@ -1239,7 +1239,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702072] = {
-		breakout_view = "主炮底座+1/主炮效率提高10%",
+		breakout_view = "主砲砲座+1/主砲補正+10%",
 		item2 = 21030,
 		pre_id = 9702071,
 		repair = 0,
@@ -1256,7 +1256,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702073] = {
-		breakout_view = "【摇曳之火·水星纪念】升级/主炮效率提高15%",
+		breakout_view = "【揺灯の力-パーミャチ・メルクーリヤ】強化/主砲補正+15%",
 		item2 = 21030,
 		pre_id = 9702072,
 		repair = 0,
@@ -1272,7 +1272,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702074] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21030,
 		pre_id = 9702073,
 		repair = 0,
@@ -1286,7 +1286,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703011] = {
-		breakout_view = "习得技能【摇曳之火·特伦托】/主炮效率提高5%",
+		breakout_view = "【揺灯の力-トレント】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1302,7 +1302,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703012] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9703011,
 		repair = 0,
@@ -1319,7 +1319,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703013] = {
-		breakout_view = "【摇曳之火·特伦托】升级/鱼雷效率提高15%",
+		breakout_view = "【揺灯の力-トレント】強化/魚雷補正+15%",
 		item2 = 21001,
 		pre_id = 9703012,
 		repair = 0,
@@ -1335,7 +1335,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703013,
 		repair = 0,
@@ -1349,7 +1349,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703021] = {
-		breakout_view = "习得技能【逐光之焰·阿尔及利亚】/主炮效率提高5%",
+		breakout_view = "【焔追の灰】スキル習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1365,7 +1365,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9703021,
 		repair = 0,
@@ -1382,7 +1382,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703023] = {
-		breakout_view = "【逐光之焰·阿尔及利亚】升级/鱼雷效率提高15%",
+		breakout_view = "【焔追の灰】スキル強化/魚雷補正+15%",
 		item2 = 21001,
 		pre_id = 9703022,
 		repair = 0,
@@ -1398,7 +1398,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703023,
 		repair = 0,
@@ -1412,7 +1412,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703031] = {
-		breakout_view = "习得技能【逐光之焰·福煦】/主炮效率提高5%",
+		breakout_view = "【焔追の灰-フォッシュ】習得/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1428,7 +1428,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703032] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9703031,
 		repair = 0,
@@ -1445,7 +1445,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703033] = {
-		breakout_view = "【逐光之焰·福煦】升级/鱼雷效率提高15%",
+		breakout_view = "【焔追の灰-フォッシュ】強化/魚雷補正+15%",
 		item2 = 21001,
 		pre_id = 9703032,
 		repair = 0,
@@ -1461,7 +1461,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703033,
 		repair = 0,
@@ -1475,7 +1475,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703041] = {
-		breakout_view = "习得技能【破敌之炬·威奇塔】/主炮效率提高5%",
+		breakout_view = "スキル【炬火の力·ウイチタ】/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1491,7 +1491,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703042] = {
-		breakout_view = "主炮底座+1/主炮效率提高10%",
+		breakout_view = "主砲砲座+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9703041,
 		repair = 0,
@@ -1508,7 +1508,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703043] = {
-		breakout_view = "【破敌之炬·威奇塔】升级/全武器效率提高5%",
+		breakout_view = "【炬火の力·ウイチタ】強化/兵装補正+5%",
 		item2 = 21001,
 		pre_id = 9703042,
 		repair = 0,
@@ -1524,7 +1524,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703043,
 		repair = 0,
@@ -1538,7 +1538,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703051] = {
-		breakout_view = "习得技能【逐光之焰·{namecode:425}】I/主炮效率提高5%",
+		breakout_view = "スキル【焔追の灰・アドミラル・ヒッパー】習得 / 主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1554,7 +1554,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703052] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10％",
 		item2 = 21001,
 		pre_id = 9703051,
 		repair = 0,
@@ -1571,7 +1571,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703053] = {
-		breakout_view = "【逐光之焰·{namecode:425}】升级/鱼雷效率提高15%",
+		breakout_view = "スキル【焔追の灰・アドミラル・ヒッパー】強化 / 魚雷補正+15%",
 		item2 = 21001,
 		pre_id = 9703052,
 		repair = 0,
@@ -1587,7 +1587,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703053,
 		repair = 0,
@@ -1601,7 +1601,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703061] = {
-		breakout_view = "习得技能【逐光之焰·博尔扎诺】I/主炮效率提高5%",
+		breakout_view = "スキル【焔追の灰・ボルツァーノ】習得 / 主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1617,7 +1617,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703062] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10％",
 		item2 = 21001,
 		pre_id = 9703061,
 		repair = 0,
@@ -1634,7 +1634,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703063] = {
-		breakout_view = "【逐光之焰·博尔扎诺】升级/鱼雷效率提高15%",
+		breakout_view = "スキル【焔追の灰・ボルツァーノ】強化 / 魚雷補正+15%",
 		item2 = 21001,
 		pre_id = 9703062,
 		repair = 0,
@@ -1650,7 +1650,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9703063,
 		repair = 0,
@@ -1729,7 +1729,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704021] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:433}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【炬火の力-シャルンホルスト】スキル習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1746,7 +1746,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704022] = {
-		breakout_view = "装备特殊副炮/主炮效率提高10%",
+		breakout_view = "特殊副砲を追加/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9704021,
 		repair = 0,
@@ -1762,7 +1762,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704023] = {
-		breakout_view = "【破敌之炬·{namecode:433}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【炬火の力-シャルンホルスト】スキル強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9704022,
 		repair = 0,
@@ -1780,7 +1780,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9704023,
 		repair = 0,
@@ -1794,7 +1794,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704031] = {
-		breakout_view = "习得技能【破敌之炬·反击】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【炬火の力-レパルス】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1811,7 +1811,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704032] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9704031,
 		repair = 0,
@@ -1829,7 +1829,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704033] = {
-		breakout_view = "【破敌之炬·反击】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【炬火の力-レパルス】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9704032,
 		repair = 0,
@@ -1847,7 +1847,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9704033,
 		repair = 0,
@@ -1861,7 +1861,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704041] = {
-		breakout_view = "习得技能【破敌之炬·声望】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【炬火の力-レナウン】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1878,7 +1878,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704042] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9704041,
 		repair = 0,
@@ -1896,7 +1896,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704043] = {
-		breakout_view = "【破敌之炬·声望】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【炬火の力-レナウン】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9704042,
 		repair = 0,
@@ -1914,7 +1914,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9704043,
 		repair = 0,
@@ -1928,7 +1928,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704051] = {
-		breakout_view = "习得技能【逐光之焰·{namecode:71}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "スキル【焔追の灰・比叡】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1945,7 +1945,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704052] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9704051,
 		repair = 0,
@@ -1963,7 +1963,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704053] = {
-		breakout_view = "【逐光之焰·{namecode:71}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "スキル【焔追の灰・比叡】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9704052,
 		repair = 0,
@@ -1981,7 +1981,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9704053,
 		repair = 0,
@@ -1995,7 +1995,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704061] = {
-		breakout_view = "习得技能【逐光之焰·敦刻尔克】/主炮预装填+1/主炮效率提高5%",
+		breakout_view = "【焔追の灰-ダンケルク(META)】習得/開始時主砲+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2011,7 +2011,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704062] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9704061,
 		repair = 0,
@@ -2029,7 +2029,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704063] = {
-		breakout_view = "【逐光之焰·敦刻尔克】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【焔追の灰-ダンケルク(META)】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9704062,
 		repair = 0,
@@ -2046,7 +2046,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9704063,
 		repair = 0,
@@ -2060,7 +2060,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705011] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:78}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【炬火の力-扶桑】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2077,7 +2077,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705012] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705011,
 		repair = 0,
@@ -2095,7 +2095,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705013] = {
-		breakout_view = "【破敌之炬·{namecode:78}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【炬火の力-扶桑】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705012,
 		repair = 0,
@@ -2113,7 +2113,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705013,
 		repair = 0,
@@ -2127,7 +2127,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705021] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:79}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【揺灯の力-山城】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2144,7 +2144,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705022] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705021,
 		repair = 0,
@@ -2162,7 +2162,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705023] = {
-		breakout_view = "【摇曳之火·{namecode:79}】升级/主炮效率提高15%",
+		breakout_view = "【揺灯の力-山城】強化/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705022,
 		repair = 0,
@@ -2179,7 +2179,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705023,
 		repair = 0,
@@ -2193,7 +2193,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705031] = {
-		breakout_view = "习得技能【构造之理·亚利桑那】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【構造の理-アリゾナ】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2210,7 +2210,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705032] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705031,
 		repair = 0,
@@ -2228,7 +2228,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705033] = {
-		breakout_view = "【构造之理·亚利桑那】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【構造の理-アリゾナ】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705032,
 		repair = 0,
@@ -2246,7 +2246,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705033,
 		repair = 0,
@@ -2260,7 +2260,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705041] = {
-		breakout_view = "习得技能【逐光之焰·伊丽莎白女王】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【焔追の灰】スキル習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2277,7 +2277,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705042] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705041,
 		repair = 0,
@@ -2295,7 +2295,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705043] = {
-		breakout_view = "【逐光之焰·伊丽莎白女王】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【焔追の灰】スキル強化主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705042,
 		repair = 0,
@@ -2313,7 +2313,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705043,
 		repair = 0,
@@ -2327,7 +2327,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705051] = {
-		breakout_view = "习得技能【构造之理·罗德尼】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【構造の理・ロドニー】スキル習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2344,7 +2344,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705052] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705051,
 		repair = 0,
@@ -2362,7 +2362,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705053] = {
-		breakout_view = "【构造之理·罗德尼】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【構造の理・ロドニー】スキル強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705052,
 		repair = 0,
@@ -2380,7 +2380,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705053,
 		repair = 0,
@@ -2394,7 +2394,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705061] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:230}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "スキル【湮滅の核・長門】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2411,7 +2411,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705062] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705061,
 		repair = 0,
@@ -2429,7 +2429,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705063] = {
-		breakout_view = "【湮烬之核·{namecode:230}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "スキル【湮滅の核・長門】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705062,
 		repair = 0,
@@ -2447,7 +2447,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705063,
 		repair = 0,
@@ -2461,7 +2461,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705071] = {
-		breakout_view = "习得技能【逐光之焰·朱利奥·凯撒】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【焔追の灰-ジュリオ・チェザーレ】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2478,7 +2478,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705072] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705071,
 		repair = 0,
@@ -2496,7 +2496,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705073] = {
-		breakout_view = "【逐光之焰·朱利奥·凯撒】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【焔追の灰-ジュリオ・チェーザレ】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705072,
 		repair = 0,
@@ -2514,7 +2514,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705074] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705073,
 		repair = 0,
@@ -2528,7 +2528,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705081] = {
-		breakout_view = "习得技能【逐光之焰·安德烈亚·多利亚】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【焔追いの灰-アンドレア・ドーリア】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2545,7 +2545,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705082] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705081,
 		repair = 0,
@@ -2563,7 +2563,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705083] = {
-		breakout_view = "【逐光之焰·安德烈亚·多利亚】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【焔追いの灰-アンドレア・ドーリア】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705082,
 		repair = 0,
@@ -2581,7 +2581,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705084] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705083,
 		repair = 0,
@@ -2595,7 +2595,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705091] = {
-		breakout_view = "习得技能【破敌之炬·内华达】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "【炬火の力-ネバダ】習得/主砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2612,7 +2612,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705092] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "副砲砲座+2/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9705091,
 		repair = 0,
@@ -2630,7 +2630,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705093] = {
-		breakout_view = "【破敌之炬·内华达】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "【炬火の力-ネバダ】強化/主砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9705092,
 		repair = 0,
@@ -2648,7 +2648,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705094] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9705093,
 		repair = 0,
@@ -2662,7 +2662,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706011] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:220}】/所有鱼雷机+1/舰载机效率提高3%",
+		breakout_view = "【炬火の力-飛鷹】習得/攻撃機数+1/艦載機補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2679,7 +2679,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706012] = {
-		breakout_view = "机库容量+1/所有战斗机+1/舰载机效率提高5%",
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/艦載機補正+5%",
 		item2 = 21001,
 		pre_id = 9706011,
 		repair = 0,
@@ -2698,7 +2698,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706013] = {
-		breakout_view = "【破敌之炬·{namecode:220}】升级/所有轰炸机+2/舰载机效率提高7%",
+		breakout_view = "【炬火の力-飛鷹】強化/爆撃機数+2/艦載機補正+7%",
 		item2 = 21001,
 		pre_id = 9706012,
 		repair = 0,
@@ -2717,7 +2717,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9706013,
 		repair = 0,
@@ -2731,7 +2731,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706021] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:221}】/所有轰炸机+1/舰载机效率提高3%",
+		breakout_view = "【炬火の力-隼鷹】習得/爆撃機数+1/艦載機補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2748,7 +2748,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706022] = {
-		breakout_view = "机库容量+1/所有战斗机+1/舰载机效率提高5%",
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/艦載機補正+5%",
 		item2 = 21001,
 		pre_id = 9706021,
 		repair = 0,
@@ -2767,7 +2767,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706023] = {
-		breakout_view = "【破敌之炬·{namecode:221}】升级/所有鱼雷机+2/舰载机效率提高7%",
+		breakout_view = "【炬火の力-隼鷹】強化/攻撃機数+2/艦載機補正+7%",
 		item2 = 21001,
 		pre_id = 9706022,
 		repair = 0,
@@ -2786,7 +2786,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9706023,
 		repair = 0,
@@ -2800,7 +2800,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706031] = {
-		breakout_view = "习得技能【破敌之炬·普林斯顿】/所有战斗机+1/战斗机效率提高5%",
+		breakout_view = "【炬火の力-プリンストン】習得/戦闘機数+1/戦闘機補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2817,7 +2817,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706032] = {
-		breakout_view = "机库容量+1/所有鱼雷机+1/战斗机效率提高10%",
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/戦闘機補正+10%",
 		item2 = 21001,
 		pre_id = 9706031,
 		repair = 0,
@@ -2836,7 +2836,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706033] = {
-		breakout_view = "【破敌之炬·普林斯顿】升级/所有舰载机+1/鱼雷机效率提高15%",
+		breakout_view = "【炬火の力-プリンストン】強化/艦載機数+1/攻撃機補正+15%",
 		item2 = 21001,
 		pre_id = 9706032,
 		repair = 0,
@@ -2855,7 +2855,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9706033,
 		repair = 0,
@@ -2869,7 +2869,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706041] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:89}】/所有战斗机+1/舰载机效率提高3%",
+		breakout_view = "【湮滅の核・鳳翔】習得/戦闘機数+1/艦載機補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2886,7 +2886,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706042] = {
-		breakout_view = "机库容量+1/所有鱼雷机+1/舰载机效率提高5%",
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/艦載機補正+5%",
 		item2 = 21001,
 		pre_id = 9706041,
 		repair = 0,
@@ -2905,7 +2905,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706043] = {
-		breakout_view = "【湮烬之核·{namecode:89}】升级/所有舰载机+1/主炮底座+1/舰载机效率提高7%",
+		breakout_view = "【湮滅の核・鳳翔】強化/艦載機数+1/主砲砲座+1/艦載機補正+7%",
 		item2 = 21001,
 		pre_id = 9706042,
 		repair = 0,
@@ -2924,7 +2924,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9706043,
 		repair = 0,
@@ -2938,7 +2938,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707011] = {
-		breakout_view = "习得技能【破敌之炬·{namecode:94}】/所有鱼雷机+1/鱼雷机效率提高5%",
+		breakout_view = "【炬火の力-飛龍】習得/攻撃機数+1/攻撃機補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2955,7 +2955,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707012] = {
-		breakout_view = "机库容量+1/所有战斗机+1/鱼雷机效率提高10%",
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/攻撃機補正+10%",
 		item2 = 21001,
 		pre_id = 9707011,
 		repair = 0,
@@ -2974,7 +2974,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707013] = {
-		breakout_view = "【破敌之炬·{namecode:94}】升级/所有舰载机+1/鱼雷机效率提高15%",
+		breakout_view = "【炬火の力-飛龍】強化/艦載機数+1/攻撃機補正+15%",
 		item2 = 21001,
 		pre_id = 9707012,
 		repair = 0,
@@ -2993,7 +2993,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707013,
 		repair = 0,
@@ -3007,7 +3007,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707021] = {
-		breakout_view = "习得技能【破敌之炬·皇家方舟】/所有鱼雷机+1/鱼雷机效率提高3%",
+		breakout_view = "【炬火の力-アーク・ロイヤル】習得/攻撃機数＋1/攻撃機補正+3%",
 		item2 = 21002,
 		pre_id = 0,
 		repair = 0,
@@ -3024,7 +3024,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707022] = {
-		breakout_view = "机库容量+1/所有轰炸机+1/鱼雷机效率提高5%",
+		breakout_view = "攻撃隊上限+1/爆撃機+1/攻撃機補正+5% ",
 		item2 = 21002,
 		pre_id = 9707021,
 		repair = 0,
@@ -3043,7 +3043,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707023] = {
-		breakout_view = "【破敌之炬·皇家方舟】升级/所有鱼雷机+1/鱼雷机效率提高7%",
+		breakout_view = "【炬火の力-アーク・ロイヤル】強化/攻撃機数＋1/攻撃機補正+7% ",
 		item2 = 21002,
 		pre_id = 9707022,
 		repair = 0,
@@ -3062,7 +3062,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707024] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21002,
 		pre_id = 9707023,
 		repair = 0,
@@ -3076,7 +3076,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707031] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:205}】/所有轰炸机+1/轰炸机效率提高5%",
+		breakout_view = "【揺灯の力-蒼龍】習得/爆撃機数+1/爆撃機補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3093,7 +3093,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707032] = {
-		breakout_view = "机库容量+1/所有战斗机+1/轰炸机效率提高10%",
+		breakout_view = "攻撃隊上限+1/戦闘機数+1/爆撃機補正+10%",
 		item2 = 21001,
 		pre_id = 9707031,
 		repair = 0,
@@ -3112,7 +3112,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707033] = {
-		breakout_view = "【摇曳之火·{namecode:205}】升级/所有舰载机+1/轰炸机效率提高15%",
+		breakout_view = "【揺灯の力-蒼龍】強化/艦載機数+1/爆撃機補正+15%",
 		item2 = 21001,
 		pre_id = 9707032,
 		repair = 0,
@@ -3131,7 +3131,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707034] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707033,
 		repair = 0,
@@ -3145,7 +3145,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707041] = {
-		breakout_view = "习得技能【摇曳之火·贝亚恩】/所有舰载机+1/舰载机效率提高3%",
+		breakout_view = "【揺灯の力・ベアルン】習得/艦載機数+1/艦載機補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3162,7 +3162,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707042] = {
-		breakout_view = "机库容量+1/副武器底座+1/舰载机效率提高5%",
+		breakout_view = "攻撃隊上限+1/副兵装砲座+1/艦載機補正+5%",
 		item2 = 21001,
 		pre_id = 9707041,
 		repair = 0,
@@ -3181,7 +3181,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707043] = {
-		breakout_view = "【摇曳之火·贝亚恩】升级/所有舰载机+1/舰载机效率提高7%",
+		breakout_view = "【揺灯の力・ベアルン】強化/艦載機数+1/艦載機補正+7%",
 		item2 = 21001,
 		pre_id = 9707042,
 		repair = 0,
@@ -3200,7 +3200,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707044] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707043,
 		repair = 0,
@@ -3214,7 +3214,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707051] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:97}】/所有轰炸机+1/轰炸机效率提高5%",
+		breakout_view = "【揺灯の力-大鳳】習得/爆撃機数+1/爆撃機補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3231,7 +3231,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707052] = {
-		breakout_view = "机库容量+1/所有鱼雷机+1/战斗机效率提高10%",
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/戦闘機補正+10%",
 		item2 = 21001,
 		pre_id = 9707051,
 		repair = 0,
@@ -3250,7 +3250,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707053] = {
-		breakout_view = "【摇曳之火·{namecode:97}】升级/所有舰载机+1/鱼雷机效率提高15%",
+		breakout_view = "【揺灯の力-大鳳】強化/艦載機数+1/攻撃機補正+15%",
 		item2 = 21001,
 		pre_id = 9707052,
 		repair = 0,
@@ -3269,7 +3269,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707054] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707053,
 		repair = 0,
@@ -3283,7 +3283,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707061] = {
-		breakout_view = "习得技能【破敌之炬·大黄蜂】/所有战斗机+1/舰载机效率提高3%",
+		breakout_view = "【炬火の力-ホーネット】習得/戦闘機数+1/艦載機補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3300,7 +3300,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707062] = {
-		breakout_view = "机库容量+1/所有轰炸机+1/舰载机效率提高5%",
+		breakout_view = "攻撃隊上限+1/爆撃機数+1/艦載機補正+5%",
 		item2 = 21001,
 		pre_id = 9707061,
 		repair = 0,
@@ -3319,7 +3319,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707063] = {
-		breakout_view = "【破敌之炬·大黄蜂】升级/所有舰载机+1/舰载机效率提高7%",
+		breakout_view = "【炬火の力-ホーネット】強化/艦載機数+1/艦載機補正+7%",
 		item2 = 21001,
 		pre_id = 9707062,
 		repair = 0,
@@ -3338,7 +3338,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707064] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707063,
 		repair = 0,
@@ -3352,7 +3352,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707071] = {
-		breakout_view = "习得技能【逐光之焰·光荣】/所有战斗机+1/战斗机效率提高5%",
+		breakout_view = "スキル【焔追の灰・グロリアス】習得/戦闘機数+1/戦闘機補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3369,7 +3369,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707072] = {
-		breakout_view = "机库容量+1/所有鱼雷机+1/鱼雷机效率提高5%",
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/攻撃機補正+5%",
 		item2 = 21001,
 		pre_id = 9707071,
 		repair = 0,
@@ -3388,7 +3388,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707073] = {
-		breakout_view = "【逐光之焰·光荣】升级/所有战斗机+1/战斗机效率提高15%",
+		breakout_view = "スキル【焔追の灰・グロリアス】強化/戦闘機数+1/戦闘補正+15%",
 		item2 = 21001,
 		pre_id = 9707072,
 		repair = 0,
@@ -3407,7 +3407,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707074] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9707073,
 		repair = 0,
@@ -3421,7 +3421,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9708011] = {
-		breakout_view = "习得技能【摇曳之火·{namecode:416}】/鱼雷效率提高5%",
+		breakout_view = "【揺灯の力-U-556(META)】習得/魚雷補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3437,7 +3437,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9708012] = {
-		breakout_view = "鱼雷底座+1/狩猎范围升级",
+		breakout_view = "魚雷装填数+1/支援範囲拡大",
 		item2 = 21001,
 		pre_id = 9708011,
 		repair = 0,
@@ -3456,7 +3456,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9708013] = {
-		breakout_view = "【摇曳之火·{namecode:416}】升级/鱼雷效率提高10%",
+		breakout_view = "【揺灯の力-U-556(META)】強化/魚雷補正+10%",
 		item2 = 21001,
 		pre_id = 9708012,
 		repair = 0,
@@ -3472,7 +3472,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9708014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9708013,
 		repair = 0,
@@ -3486,7 +3486,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712011] = {
-		breakout_view = "习得技能【构造之理·女灶神】/团队策略-紧急维修次数+1/防空炮效率提高3%",
+		breakout_view = "【構造の理-ヴェスタル(META)】習得/緊急補修回数+1/対空補正+3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3500,7 +3500,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712012] = {
-		breakout_view = "队伍携带弹药量+1/防空炮底座+1/防空炮效率提高5%",
+		breakout_view = "弾薬上限+1/対空火器砲座+1/対空補正+5%",
 		item2 = 21001,
 		pre_id = 9712011,
 		repair = 0,
@@ -3514,7 +3514,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712013] = {
-		breakout_view = "【构造之理·女灶神】升级/团队策略-紧急维修次数+1/防空炮效率提高7%",
+		breakout_view = "【構造の理-ヴェスタル(META)】強化/緊急補修回数+1/対空補正+7%",
 		item2 = 21001,
 		pre_id = 9712012,
 		repair = 0,
@@ -3528,7 +3528,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9712014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9712013,
 		repair = 0,
@@ -3542,7 +3542,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9713011] = {
-		breakout_view = "习得技能【逐光之焰·黑暗界】/副炮底座+1/主炮效率提高5%",
+		breakout_view = "【焔追の灰】スキル習得/副砲砲座+1/主砲補正+5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -3559,7 +3559,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713012] = {
-		breakout_view = "主炮底座+1/主炮效率提高10%",
+		breakout_view = "主砲砲座+1/主砲補正+10%",
 		item2 = 21001,
 		pre_id = 9713011,
 		repair = 0,
@@ -3576,7 +3576,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713013] = {
-		breakout_view = "【逐光之焰·黑暗界】升级/副炮底座+1/主炮效率提高15%",
+		breakout_view = "【焔追の灰】スキル強化/副砲砲座+1/主砲補正+15%",
 		item2 = 21001,
 		pre_id = 9713012,
 		repair = 0,
@@ -3594,7 +3594,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713014] = {
-		breakout_view = "无",
+		breakout_view = "なし",
 		item2 = 21001,
 		pre_id = 9713013,
 		repair = 0,

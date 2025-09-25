@@ -2,7 +2,7 @@ pg = pg or {}
 pg.open_systems_limited = {
 	{
 		scene = "MAINUI",
-		name = "后宅",
+		name = "寮舎",
 		story_id = "SYG001",
 		id = 1,
 		mediator = "CourtYardMediator",
@@ -10,7 +10,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "每日副本",
+		name = "デイリー",
 		story_id = "",
 		id = 2,
 		mediator = "DailyLevelMediator",
@@ -18,7 +18,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "大舰队",
+		name = "大艦隊",
 		story_id = "SYG002",
 		id = 3,
 		mediator = "NewGuildMediator",
@@ -26,7 +26,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军事委托",
+		name = "軍事委託",
 		story_id = "SYG003",
 		id = 4,
 		mediator = "EventMediator",
@@ -34,7 +34,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军事演习",
+		name = "軍事演習",
 		story_id = "SYG004",
 		id = 5,
 		mediator = "MilitaryExerciseMediator",
@@ -42,7 +42,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "排行榜",
+		name = "ランキング",
 		story_id = "SYG005",
 		id = 6,
 		mediator = "BillboardMediator",
@@ -50,7 +50,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "模拟战",
+		name = "鏡面海域",
 		story_id = "",
 		id = 7,
 		mediator = "ShamPreCombatMediator",
@@ -58,7 +58,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "核心兑换·月度",
+		name = "コアショップ（モンスリー）で交換",
 		story_id = "",
 		id = 8,
 		mediator = "ShamShop",
@@ -66,7 +66,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "大讲堂",
+		name = "大講堂",
 		story_id = "",
 		id = 9,
 		mediator = "ClassMediator",
@@ -74,7 +74,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "开发船坞",
+		name = "開発ドック",
 		story_id = "",
 		id = 10,
 		mediator = "ShipBluePrintMediator",
@@ -82,7 +82,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军部科研室",
+		name = "科学研究室",
 		story_id = "",
 		id = 11,
 		mediator = "TechnologyMediator",
@@ -90,7 +90,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "商路护航",
+		name = "海上護衛",
 		story_id = "",
 		id = 12,
 		mediator = "Escort",
@@ -98,7 +98,7 @@ pg.open_systems_limited = {
 	},
 	[14] = {
 		scene = "MAINUI",
-		name = "指挥喵",
+		name = "オフニャ",
 		story_id = "",
 		id = 14,
 		mediator = "CommanderCatMediator",
@@ -106,7 +106,7 @@ pg.open_systems_limited = {
 	},
 	[15] = {
 		scene = "MAINUI",
-		name = "限界挑战",
+		name = "チャレンジ",
 		story_id = "",
 		id = 15,
 		mediator = "ChallengeMainMediator",
@@ -114,7 +114,7 @@ pg.open_systems_limited = {
 	},
 	[16] = {
 		scene = "MAINUI",
-		name = "原型商店",
+		name = "プロトショップ",
 		story_id = "",
 		id = 16,
 		mediator = "FragmentShop",
@@ -122,7 +122,7 @@ pg.open_systems_limited = {
 	},
 	[17] = {
 		scene = "MAINUI",
-		name = "meta研究室",
+		name = "メタラボ",
 		story_id = "",
 		id = 17,
 		mediator = "MetaCharacterMediator",
@@ -130,7 +130,7 @@ pg.open_systems_limited = {
 	},
 	[18] = {
 		scene = "MAINUI",
-		name = "装备改造",
+		name = "兵装開発",
 		story_id = "",
 		id = 18,
 		mediator = "EquipmentTransformTreeMediator",
@@ -138,7 +138,7 @@ pg.open_systems_limited = {
 	},
 	[19] = {
 		scene = "MAINUI",
-		name = "大型作战",
+		name = "セイレーン作戦",
 		story_id = "",
 		id = 19,
 		mediator = "WorldMediator",
@@ -154,7 +154,7 @@ pg.open_systems_limited = {
 	},
 	[21] = {
 		scene = "MAINUI",
-		name = "小游戏大厅",
+		name = "ゲームロビー",
 		story_id = "",
 		id = 21,
 		mediator = "GameHallMediator",
@@ -162,7 +162,7 @@ pg.open_systems_limited = {
 	},
 	[22] = {
 		scene = "MAINUI",
-		name = "核心兑换·限定",
+		name = "コアショップ（所持上限）で交換",
 		story_id = "",
 		id = 22,
 		mediator = "QuotaShop",
@@ -178,7 +178,7 @@ pg.open_systems_limited = {
 	},
 	[24] = {
 		scene = "MAINUI",
-		name = "养成系统",
+		name = "限界チャレンジ",
 		story_id = "",
 		id = 24,
 		mediator = "EducateMediator",
@@ -186,7 +186,7 @@ pg.open_systems_limited = {
 	},
 	[25] = {
 		scene = "MAINUI",
-		name = "宿舍计划",
+		name = "交流宿舎",
 		story_id = "",
 		id = 25,
 		mediator = "SelectDorm3DMediator",
@@ -194,7 +194,7 @@ pg.open_systems_limited = {
 	},
 	[26] = {
 		scene = "MAINUI",
-		name = "养成系统",
+		name = "育成",
 		story_id = "",
 		id = 26,
 		mediator = "NewEducateSelectMediator",

@@ -5,7 +5,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 1800,
-		title = "初级矿脉护卫委托",
+		title = "初級鉄鋼輸送護衛",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -41,7 +41,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54011,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -50,7 +50,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 1800,
-		title = "初级林木护卫委托",
+		title = "初級木材輸送護衛",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -85,7 +85,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54011,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -94,7 +94,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 18000,
-		title = "小型商船护卫",
+		title = "小型船団護衛",
 		drop_gold_max = 350,
 		drop_oil_max = 0,
 		exp = 600,
@@ -129,7 +129,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -138,7 +138,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 1200,
-		title = "短距离航行训练",
+		title = "短距離練習航海",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 120,
@@ -173,7 +173,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -182,7 +182,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 1800,
-		title = "舰队护卫演习",
+		title = "船団護衛演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -208,7 +208,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -217,7 +217,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 9600,
-		title = "近海防卫巡逻",
+		title = "近海防衛巡回",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1000,
@@ -253,7 +253,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -262,7 +262,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 14400,
-		title = "舰队初阶演习",
+		title = "装備慣熟演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1500,
@@ -290,7 +290,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -299,7 +299,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "小型油田开发I",
+		title = "小型油田開発I",
 		drop_gold_max = 0,
 		drop_oil_max = 30,
 		exp = 120,
@@ -341,7 +341,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 14400,
-		title = "中型油田开发I",
+		title = "中型油田開発I",
 		drop_gold_max = 0,
 		drop_oil_max = 140,
 		exp = 480,
@@ -383,7 +383,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 28800,
-		title = "大型油田开发I",
+		title = "大型油田開発I",
 		drop_gold_max = 0,
 		drop_oil_max = 300,
 		exp = 960,
@@ -425,7 +425,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "中级矿脉护卫委托",
+		title = "中級鉄鋼輸送護衛",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -461,7 +461,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54012,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -470,7 +470,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "中级林木护卫委托",
+		title = "中級木材輸送護衛",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -505,7 +505,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54012,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -514,7 +514,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 21600,
-		title = "中型商船护卫",
+		title = "中型船団護衛",
 		drop_gold_max = 450,
 		drop_oil_max = 0,
 		exp = 720,
@@ -550,7 +550,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -559,7 +559,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "中距离航行训练",
+		title = "中距離練習航海",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 380,
@@ -595,7 +595,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -604,7 +604,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 5400,
-		title = "舰队运输演习",
+		title = "艦隊輸送演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 560,
@@ -630,7 +630,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -639,7 +639,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 12000,
-		title = "海域浮标检查作业",
+		title = "海域浮標保守作業",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1250,
@@ -675,7 +675,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -684,7 +684,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 18000,
-		title = "舰队中阶演习",
+		title = "艦隊慣熟演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1880,
@@ -710,7 +710,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -719,7 +719,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "小型油田开发II",
+		title = "小型油田開発Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 40,
 		exp = 120,
@@ -761,7 +761,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 14400,
-		title = "中型油田开发II",
+		title = "中型油田開発Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 180,
 		exp = 480,
@@ -800,7 +800,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 28800,
-		title = "大型油田开发II",
+		title = "大型油田開発Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 400,
 		exp = 960,
@@ -839,7 +839,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 5400,
-		title = "高级矿脉护卫委托",
+		title = "上級鉄鋼輸送護衛",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 180,
@@ -875,7 +875,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54013,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -884,7 +884,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 5400,
-		title = "高级林木护卫委托",
+		title = "上級木材輸送護衛",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 180,
@@ -919,7 +919,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54013,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -928,7 +928,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 28800,
-		title = "大型商船护卫",
+		title = "大型船団護衛",
 		drop_gold_max = 660,
 		drop_oil_max = 0,
 		exp = 960,
@@ -965,7 +965,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54006,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -974,7 +974,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 7200,
-		title = "远距离航行训练",
+		title = "外洋練習航海",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 750,
@@ -1008,7 +1008,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1017,7 +1017,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 10800,
-		title = "舰队实战演习",
+		title = "艦隊実弾演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1120,
@@ -1044,7 +1044,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1053,7 +1053,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 19200,
-		title = "前沿基地防卫巡逻",
+		title = "前線基地防衛巡回",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2000,
@@ -1091,7 +1091,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1100,7 +1100,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 28800,
-		title = "舰队高阶演习",
+		title = "艦隊運動演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 3000,
@@ -1124,7 +1124,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1133,7 +1133,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 3600,
-		title = "小型油田开发III",
+		title = "小型油田開発Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 50,
 		exp = 120,
@@ -1176,7 +1176,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 14400,
-		title = "中型油田开发III",
+		title = "中型油田開発Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 220,
 		exp = 480,
@@ -1214,7 +1214,7 @@ pg.collection_template = {
 		time = 0,
 		type = 1,
 		collect_time = 28800,
-		title = "大型油田开发III",
+		title = "大型油田開発Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 500,
 		exp = 960,
@@ -1253,7 +1253,7 @@ pg.collection_template = {
 		time = 7200,
 		type = 2,
 		collect_time = 1800,
-		title = "支援维拉维拉岛",
+		title = "近海掃海任務",
 		drop_gold_max = 80,
 		drop_oil_max = 0,
 		exp = 90,
@@ -1289,7 +1289,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54011,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1298,7 +1298,7 @@ pg.collection_template = {
 		time = 7200,
 		type = 2,
 		collect_time = 1800,
-		title = "支援土豪尔岛",
+		title = "離島物資輸送",
 		drop_gold_max = 80,
 		drop_oil_max = 0,
 		exp = 90,
@@ -1334,7 +1334,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1343,7 +1343,7 @@ pg.collection_template = {
 		time = 10800,
 		type = 2,
 		collect_time = 3600,
-		title = "保卫运输部队Ⅰ",
+		title = "輸送部隊護衛Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 600,
@@ -1380,7 +1380,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1389,7 +1389,7 @@ pg.collection_template = {
 		time = 10800,
 		type = 2,
 		collect_time = 5400,
-		title = "解救商船Ⅰ",
+		title = "船団救出Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 900,
@@ -1416,7 +1416,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1425,7 +1425,7 @@ pg.collection_template = {
 		time = 19200,
 		type = 2,
 		collect_time = 3600,
-		title = "BIW装备运输",
+		title = "BIW装備輸送",
 		drop_gold_max = 0,
 		drop_oil_max = 80,
 		exp = 180,
@@ -1460,7 +1460,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54032,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1469,7 +1469,7 @@ pg.collection_template = {
 		time = 19200,
 		type = 2,
 		collect_time = 3600,
-		title = "NYB装备运输",
+		title = "NYB装備輸送",
 		drop_gold_max = 0,
 		drop_oil_max = 80,
 		exp = 180,
@@ -1505,7 +1505,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54032,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1514,7 +1514,7 @@ pg.collection_template = {
 		time = 7200,
 		type = 2,
 		collect_time = 3600,
-		title = "支援“伊”岛",
+		title = "近海航行展示",
 		drop_gold_max = 170,
 		drop_oil_max = 0,
 		exp = 180,
@@ -1551,7 +1551,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54011,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1560,7 +1560,7 @@ pg.collection_template = {
 		time = 7200,
 		type = 2,
 		collect_time = 3600,
-		title = "支援姆波罗岛",
+		title = "近海パトロール",
 		drop_gold_max = 170,
 		drop_oil_max = 0,
 		exp = 180,
@@ -1597,7 +1597,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1606,7 +1606,7 @@ pg.collection_template = {
 		time = 8400,
 		type = 2,
 		collect_time = 4200,
-		title = "歼灭敌侦查部队",
+		title = "敵偵察部隊迎撃",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 660,
@@ -1643,7 +1643,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1652,7 +1652,7 @@ pg.collection_template = {
 		time = 8400,
 		type = 2,
 		collect_time = 6300,
-		title = "敌袭Ⅰ",
+		title = "敵襲Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 990,
@@ -1678,7 +1678,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1687,7 +1687,7 @@ pg.collection_template = {
 		time = 19200,
 		type = 2,
 		collect_time = 7200,
-		title = "BIW要员护卫",
+		title = "BIW要人護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 170,
 		exp = 360,
@@ -1720,7 +1720,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1729,7 +1729,7 @@ pg.collection_template = {
 		time = 19200,
 		type = 2,
 		collect_time = 7200,
-		title = "NYB要员护卫",
+		title = "NYB要人護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 170,
 		exp = 360,
@@ -1761,7 +1761,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1770,7 +1770,7 @@ pg.collection_template = {
 		time = 21600,
 		type = 2,
 		collect_time = 10800,
-		title = "小型观舰仪式",
+		title = "小型観艦式",
 		drop_gold_max = 540,
 		drop_oil_max = 0,
 		exp = 1120,
@@ -1806,7 +1806,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 56501,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1815,7 +1815,7 @@ pg.collection_template = {
 		time = 18000,
 		type = 2,
 		collect_time = 4800,
-		title = "支援多伦瓦岛",
+		title = "離島火力支援",
 		drop_gold_max = 240,
 		drop_oil_max = 0,
 		exp = 240,
@@ -1851,7 +1851,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54012,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1860,7 +1860,7 @@ pg.collection_template = {
 		time = 18000,
 		type = 2,
 		collect_time = 4800,
-		title = "支援马拉基岛",
+		title = "離島漸減支援",
 		drop_gold_max = 240,
 		drop_oil_max = 0,
 		exp = 240,
@@ -1896,7 +1896,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1905,7 +1905,7 @@ pg.collection_template = {
 		time = 12000,
 		type = 2,
 		collect_time = 5400,
-		title = "保卫运输部队Ⅱ",
+		title = "輸送部隊護衛Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 840,
@@ -1942,7 +1942,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1951,7 +1951,7 @@ pg.collection_template = {
 		time = 12000,
 		type = 2,
 		collect_time = 8100,
-		title = "解救商船Ⅱ",
+		title = "船団救出Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1260,
@@ -1978,7 +1978,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -1987,7 +1987,7 @@ pg.collection_template = {
 		time = 40800,
 		type = 2,
 		collect_time = 10800,
-		title = "BIW物资交接",
+		title = "BIW物資交換",
 		drop_gold_max = 0,
 		drop_oil_max = 260,
 		exp = 540,
@@ -2021,7 +2021,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2030,7 +2030,7 @@ pg.collection_template = {
 		time = 40800,
 		type = 2,
 		collect_time = 10800,
-		title = "NYB物资交接",
+		title = "NYB物資交換",
 		drop_gold_max = 0,
 		drop_oil_max = 260,
 		exp = 540,
@@ -2062,7 +2062,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2071,7 +2071,7 @@ pg.collection_template = {
 		time = 18000,
 		type = 2,
 		collect_time = 6000,
-		title = "支援恐班纳",
+		title = "離島兵員輸送",
 		drop_gold_max = 300,
 		drop_oil_max = 0,
 		exp = 300,
@@ -2108,7 +2108,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54012,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2117,7 +2117,7 @@ pg.collection_template = {
 		time = 18000,
 		type = 2,
 		collect_time = 6000,
-		title = "支援卡波罗岛",
+		title = "外敵動静哨戒",
 		drop_gold_max = 300,
 		drop_oil_max = 0,
 		exp = 300,
@@ -2154,7 +2154,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2163,7 +2163,7 @@ pg.collection_template = {
 		time = 40800,
 		type = 2,
 		collect_time = 7200,
-		title = "歼灭敌主力部队",
+		title = "敵主力艦隊撃破",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1125,
@@ -2200,7 +2200,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2209,7 +2209,7 @@ pg.collection_template = {
 		time = 40800,
 		type = 2,
 		collect_time = 10800,
-		title = "敌袭Ⅱ",
+		title = "敵襲Ⅱ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1680,
@@ -2235,7 +2235,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2244,7 +2244,7 @@ pg.collection_template = {
 		time = 32400,
 		type = 2,
 		collect_time = 14400,
-		title = "BIW度假护卫",
+		title = "BIW休暇護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 360,
 		exp = 720,
@@ -2277,7 +2277,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2286,7 +2286,7 @@ pg.collection_template = {
 		time = 32400,
 		type = 2,
 		collect_time = 14400,
-		title = "NYB度假护卫",
+		title = "NYB休暇護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 360,
 		exp = 720,
@@ -2318,7 +2318,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2327,7 +2327,7 @@ pg.collection_template = {
 		time = 43200,
 		type = 2,
 		collect_time = 21600,
-		title = "联合观舰仪式",
+		title = "連合艦隊観艦式",
 		drop_gold_max = 1040,
 		drop_oil_max = 0,
 		exp = 2250,
@@ -2361,7 +2361,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 56500,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2370,7 +2370,7 @@ pg.collection_template = {
 		time = 36000,
 		type = 2,
 		collect_time = 7200,
-		title = "支援马内岛",
+		title = "外敵生態調査",
 		drop_gold_max = 360,
 		drop_oil_max = 0,
 		exp = 360,
@@ -2404,7 +2404,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54013,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2413,7 +2413,7 @@ pg.collection_template = {
 		time = 36000,
 		type = 2,
 		collect_time = 7200,
-		title = "支援玛丽岛",
+		title = "前線部隊支援",
 		drop_gold_max = 360,
 		drop_oil_max = 0,
 		exp = 360,
@@ -2447,7 +2447,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54006,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2456,7 +2456,7 @@ pg.collection_template = {
 		time = 62400,
 		type = 2,
 		collect_time = 9600,
-		title = "保卫运输部队Ⅲ",
+		title = "輸送部隊護衛Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 1500,
@@ -2493,7 +2493,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2502,7 +2502,7 @@ pg.collection_template = {
 		time = 62400,
 		type = 2,
 		collect_time = 14400,
-		title = "解救商船Ⅲ",
+		title = "船団救出Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2250,
@@ -2529,7 +2529,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2538,7 +2538,7 @@ pg.collection_template = {
 		time = 24000,
 		type = 2,
 		collect_time = 21600,
-		title = "BIW装备研发",
+		title = "BIW装備試験",
 		drop_gold_max = 0,
 		drop_oil_max = 540,
 		exp = 1080,
@@ -2571,7 +2571,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54034,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2580,7 +2580,7 @@ pg.collection_template = {
 		time = 24000,
 		type = 2,
 		collect_time = 21600,
-		title = "NYB装备研发",
+		title = "NYB装備試験",
 		drop_gold_max = 0,
 		drop_oil_max = 540,
 		exp = 1080,
@@ -2613,7 +2613,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54034,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2622,7 +2622,7 @@ pg.collection_template = {
 		time = 36000,
 		type = 2,
 		collect_time = 9000,
-		title = "支援萌岛",
+		title = "兵站航路確保",
 		drop_gold_max = 450,
 		drop_oil_max = 0,
 		exp = 450,
@@ -2656,7 +2656,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54013,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2665,7 +2665,7 @@ pg.collection_template = {
 		time = 36000,
 		type = 2,
 		collect_time = 9000,
-		title = "支援特林岛",
+		title = "外敵中枢偵察",
 		drop_gold_max = 450,
 		drop_oil_max = 0,
 		exp = 450,
@@ -2699,7 +2699,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54006,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2708,7 +2708,7 @@ pg.collection_template = {
 		time = 62400,
 		type = 2,
 		collect_time = 14400,
-		title = "歼灭敌精锐部队",
+		title = "敵精鋭部隊撃破",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2250,
@@ -2745,7 +2745,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2754,7 +2754,7 @@ pg.collection_template = {
 		time = 62400,
 		type = 2,
 		collect_time = 21600,
-		title = "敌袭Ⅲ",
+		title = "敵襲Ⅲ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 3375,
@@ -2780,7 +2780,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2789,7 +2789,7 @@ pg.collection_template = {
 		time = 64800,
 		type = 2,
 		collect_time = 28800,
-		title = "BIW巡视护卫",
+		title = "BIW要人護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 720,
 		exp = 1440,
@@ -2821,7 +2821,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2830,7 +2830,7 @@ pg.collection_template = {
 		time = 64800,
 		type = 2,
 		collect_time = 28800,
-		title = "NYB巡视护卫",
+		title = "NYB要人護衛",
 		drop_gold_max = 0,
 		drop_oil_max = 720,
 		exp = 1440,
@@ -2863,7 +2863,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 59004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2872,7 +2872,7 @@ pg.collection_template = {
 		time = 86400,
 		type = 2,
 		collect_time = 43200,
-		title = "同盟观舰仪式",
+		title = "多国連合観艦式",
 		drop_gold_max = 2000,
 		drop_oil_max = 0,
 		exp = 4500,
@@ -2905,8 +2905,8 @@ pg.collection_template = {
 			}
 		},
 		special_drop = {
-			id = 56000,
-			nums = "概率获得",
+			id = 56500,
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -2915,7 +2915,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶自主训练",
+		title = "初級自主訓練",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -2971,7 +2971,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶自主训练",
+		title = "中級自主訓練",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3027,7 +3027,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶自主训练",
+		title = "上級自主訓練",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3083,7 +3083,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶对抗演习",
+		title = "初級対抗演習",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -3139,7 +3139,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶对抗演习",
+		title = "中級対抗演習",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3195,7 +3195,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶对抗演习",
+		title = "上級対抗演習",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3251,7 +3251,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶战术课程",
+		title = "初級戦術課程",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -3307,7 +3307,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶战术课程",
+		title = "中級戦術課程",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3363,7 +3363,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶战术课程",
+		title = "上級戦術課程",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3419,7 +3419,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶科研任务",
+		title = "初級科学研究",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -3475,7 +3475,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶科研任务",
+		title = "中級科学研究",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3531,7 +3531,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶科研任务",
+		title = "上級科学研究",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3587,7 +3587,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶货物运输",
+		title = "初級貨物輸送",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -3643,7 +3643,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶货物运输",
+		title = "中級貨物輸送",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3699,7 +3699,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶货物运输",
+		title = "上級貨物輸送",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3755,7 +3755,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 28800,
-		title = "初阶工具整备",
+		title = "初級資材整理",
 		drop_gold_max = 4000,
 		drop_oil_max = 0,
 		exp = 8000,
@@ -3811,7 +3811,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 32400,
-		title = "中阶工具整备",
+		title = "中級資材整理",
 		drop_gold_max = 5000,
 		drop_oil_max = 0,
 		exp = 12000,
@@ -3867,7 +3867,7 @@ pg.collection_template = {
 		time = 0,
 		type = 3,
 		collect_time = 36000,
-		title = "高阶工具整备",
+		title = "上級資材整理",
 		drop_gold_max = 6000,
 		drop_oil_max = 0,
 		exp = 18000,
@@ -3923,7 +3923,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发I",
+		title = "日常資源開発I",
 		drop_gold_max = 80,
 		drop_oil_max = 80,
 		exp = 180,
@@ -3979,7 +3979,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -3988,7 +3988,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发I",
+		title = "日常資源開発I",
 		drop_gold_max = 80,
 		drop_oil_max = 80,
 		exp = 180,
@@ -4044,7 +4044,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4053,7 +4053,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发II",
+		title = "日常資源開発II",
 		drop_gold_max = 170,
 		drop_oil_max = 170,
 		exp = 360,
@@ -4109,7 +4109,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4118,7 +4118,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发II",
+		title = "日常資源開発II",
 		drop_gold_max = 170,
 		drop_oil_max = 170,
 		exp = 360,
@@ -4174,7 +4174,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4183,7 +4183,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发I",
+		title = "日常資源開発I",
 		drop_gold_max = 80,
 		drop_oil_max = 80,
 		exp = 180,
@@ -4239,7 +4239,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4248,7 +4248,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发I",
+		title = "日常資源開発I",
 		drop_gold_max = 80,
 		drop_oil_max = 80,
 		exp = 180,
@@ -4304,7 +4304,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4313,7 +4313,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发I",
+		title = "日常資源開発I",
 		drop_gold_max = 80,
 		drop_oil_max = 80,
 		exp = 180,
@@ -4369,7 +4369,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4378,7 +4378,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发II",
+		title = "日常資源開発II",
 		drop_gold_max = 170,
 		drop_oil_max = 170,
 		exp = 360,
@@ -4434,7 +4434,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4443,7 +4443,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发II",
+		title = "日常資源開発II",
 		drop_gold_max = 170,
 		drop_oil_max = 170,
 		exp = 360,
@@ -4499,7 +4499,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4508,7 +4508,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发II",
+		title = "日常資源開発II",
 		drop_gold_max = 170,
 		drop_oil_max = 170,
 		exp = 360,
@@ -4564,7 +4564,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4573,7 +4573,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发III",
+		title = "日常資源開発III",
 		drop_gold_max = 90,
 		drop_oil_max = 90,
 		exp = 180,
@@ -4629,7 +4629,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4638,7 +4638,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发III",
+		title = "日常資源開発III",
 		drop_gold_max = 90,
 		drop_oil_max = 90,
 		exp = 180,
@@ -4694,7 +4694,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4703,7 +4703,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发IV",
+		title = "日常資源開発IV",
 		drop_gold_max = 200,
 		drop_oil_max = 200,
 		exp = 360,
@@ -4759,7 +4759,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4768,7 +4768,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发IV",
+		title = "日常資源開発IV",
 		drop_gold_max = 200,
 		drop_oil_max = 200,
 		exp = 360,
@@ -4824,7 +4824,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4833,7 +4833,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发III",
+		title = "日常資源開発III",
 		drop_gold_max = 90,
 		drop_oil_max = 90,
 		exp = 180,
@@ -4889,7 +4889,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4898,7 +4898,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发III",
+		title = "日常資源開発III",
 		drop_gold_max = 90,
 		drop_oil_max = 90,
 		exp = 180,
@@ -4954,7 +4954,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -4963,7 +4963,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发III",
+		title = "日常資源開発III",
 		drop_gold_max = 90,
 		drop_oil_max = 90,
 		exp = 180,
@@ -5019,7 +5019,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5028,7 +5028,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发IV",
+		title = "日常資源開発IV",
 		drop_gold_max = 200,
 		drop_oil_max = 200,
 		exp = 360,
@@ -5084,7 +5084,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5093,7 +5093,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发IV",
+		title = "日常資源開発IV",
 		drop_gold_max = 200,
 		drop_oil_max = 200,
 		exp = 360,
@@ -5149,7 +5149,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5158,7 +5158,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发IV",
+		title = "日常資源開発IV",
 		drop_gold_max = 200,
 		drop_oil_max = 200,
 		exp = 360,
@@ -5214,7 +5214,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5223,7 +5223,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发V",
+		title = "日常資源開発V",
 		drop_gold_max = 100,
 		drop_oil_max = 100,
 		exp = 180,
@@ -5279,7 +5279,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5288,7 +5288,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发V",
+		title = "日常資源開発V",
 		drop_gold_max = 100,
 		drop_oil_max = 100,
 		exp = 180,
@@ -5344,7 +5344,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5353,7 +5353,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发VI",
+		title = "日常資源開発VI",
 		drop_gold_max = 220,
 		drop_oil_max = 220,
 		exp = 360,
@@ -5409,7 +5409,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5418,7 +5418,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发VI",
+		title = "日常資源開発VI",
 		drop_gold_max = 220,
 		drop_oil_max = 220,
 		exp = 360,
@@ -5474,7 +5474,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5483,7 +5483,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发V",
+		title = "日常資源開発V",
 		drop_gold_max = 100,
 		drop_oil_max = 100,
 		exp = 180,
@@ -5539,7 +5539,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5548,7 +5548,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发V",
+		title = "日常資源開発V",
 		drop_gold_max = 100,
 		drop_oil_max = 100,
 		exp = 180,
@@ -5604,7 +5604,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5613,7 +5613,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 3600,
-		title = "日常资源开发V",
+		title = "日常資源開発V",
 		drop_gold_max = 100,
 		drop_oil_max = 100,
 		exp = 180,
@@ -5669,7 +5669,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5678,7 +5678,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发VI",
+		title = "日常資源開発VI",
 		drop_gold_max = 220,
 		drop_oil_max = 220,
 		exp = 360,
@@ -5734,7 +5734,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5743,7 +5743,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发VI",
+		title = "日常資源開発VI",
 		drop_gold_max = 220,
 		drop_oil_max = 220,
 		exp = 360,
@@ -5799,7 +5799,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5808,7 +5808,7 @@ pg.collection_template = {
 		time = 0,
 		type = 4,
 		collect_time = 7200,
-		title = "日常资源开发VI",
+		title = "日常資源開発VI",
 		drop_gold_max = 220,
 		drop_oil_max = 220,
 		exp = 360,
@@ -5864,7 +5864,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5873,7 +5873,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 3600,
-		title = "高阶战术研发I",
+		title = "覚醒実証研究I",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -5929,7 +5929,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -5938,7 +5938,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 3600,
-		title = "高阶战术研发I",
+		title = "覚醒実証研究I",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -5994,7 +5994,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6003,7 +6003,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 3600,
-		title = "高阶战术研发I",
+		title = "覚醒実証研究I",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -6059,7 +6059,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6068,7 +6068,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 3600,
-		title = "高阶战术研发I",
+		title = "覚醒実証研究I",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -6124,7 +6124,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6133,7 +6133,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 3600,
-		title = "高阶战术研发I",
+		title = "覚醒実証研究I",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 180,
@@ -6189,7 +6189,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6198,7 +6198,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 7200,
-		title = "高阶战术研发II",
+		title = "覚醒実証研究II",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 360,
@@ -6254,7 +6254,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6263,7 +6263,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 7200,
-		title = "高阶战术研发II",
+		title = "覚醒実証研究II",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 360,
@@ -6319,7 +6319,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6328,7 +6328,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 7200,
-		title = "高阶战术研发II",
+		title = "覚醒実証研究II",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 360,
@@ -6384,7 +6384,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6393,7 +6393,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 7200,
-		title = "高阶战术研发II",
+		title = "覚醒実証研究II",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 360,
@@ -6449,7 +6449,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54049,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6458,7 +6458,7 @@ pg.collection_template = {
 		time = 0,
 		type = 6,
 		collect_time = 7200,
-		title = "高阶战术研发II",
+		title = "覚醒実証研究II",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 360,
@@ -6514,7 +6514,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54033,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6523,7 +6523,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 21600,
-		title = "小型商船护卫",
+		title = "小型船団護衛",
 		drop_gold_max = 450,
 		drop_oil_max = 0,
 		exp = 720,
@@ -6558,7 +6558,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6567,7 +6567,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 21600,
-		title = "近海防卫巡逻",
+		title = "近海防衛巡回",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2240,
@@ -6603,7 +6603,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6612,7 +6612,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 21600,
-		title = "舰队初阶演习",
+		title = "装備慣熟演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2240,
@@ -6640,7 +6640,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6649,7 +6649,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发I",
+		title = "大型油田開発I",
 		drop_gold_max = 0,
 		drop_oil_max = 300,
 		exp = 960,
@@ -6691,7 +6691,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 21600,
-		title = "小型商船护卫",
+		title = "小型船団護衛",
 		drop_gold_max = 450,
 		drop_oil_max = 0,
 		exp = 720,
@@ -6726,7 +6726,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54004,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6735,7 +6735,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发I",
+		title = "大型油田開発I",
 		drop_gold_max = 0,
 		drop_oil_max = 300,
 		exp = 960,
@@ -6777,7 +6777,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 25200,
-		title = "中型商船护卫",
+		title = "中型船団護衛",
 		drop_gold_max = 550,
 		drop_oil_max = 0,
 		exp = 840,
@@ -6813,7 +6813,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6822,7 +6822,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 25200,
-		title = "海域浮标检查作业",
+		title = "海域浮標保守作業",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2600,
@@ -6858,7 +6858,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6867,7 +6867,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 25200,
-		title = "舰队中阶演习",
+		title = "艦隊慣熟演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 2600,
@@ -6893,7 +6893,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6902,7 +6902,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发II",
+		title = "大型油田開発II",
 		drop_gold_max = 0,
 		drop_oil_max = 400,
 		exp = 960,
@@ -6941,7 +6941,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 25200,
-		title = "中型商船护卫",
+		title = "中型船団護衛",
 		drop_gold_max = 550,
 		drop_oil_max = 0,
 		exp = 840,
@@ -6977,7 +6977,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54005,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -6986,7 +6986,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发II",
+		title = "大型油田開発II",
 		drop_gold_max = 0,
 		drop_oil_max = 400,
 		exp = 960,
@@ -7025,7 +7025,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型商船护卫",
+		title = "大型船団護衛",
 		drop_gold_max = 660,
 		drop_oil_max = 0,
 		exp = 960,
@@ -7062,7 +7062,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54006,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -7071,7 +7071,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "前沿基地防卫巡逻",
+		title = "前線基地防衛巡回",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 3000,
@@ -7109,7 +7109,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 15003,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -7118,7 +7118,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "舰队高阶演习",
+		title = "艦隊運動演習",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
 		exp = 3000,
@@ -7142,7 +7142,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 20001,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -7151,7 +7151,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发III",
+		title = "大型油田開発III",
 		drop_gold_max = 0,
 		drop_oil_max = 500,
 		exp = 960,
@@ -7190,7 +7190,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型商船护卫",
+		title = "大型船団護衛",
 		drop_gold_max = 660,
 		drop_oil_max = 0,
 		exp = 960,
@@ -7227,7 +7227,7 @@ pg.collection_template = {
 		},
 		special_drop = {
 			id = 54006,
-			nums = "概率获得",
+			nums = "入手可能",
 			type = 2
 		}
 	},
@@ -7236,7 +7236,7 @@ pg.collection_template = {
 		time = 0,
 		type = 5,
 		collect_time = 28800,
-		title = "大型油田开发III",
+		title = "大型油田開発III",
 		drop_gold_max = 0,
 		drop_oil_max = 500,
 		exp = 960,
@@ -7275,7 +7275,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 1800,
-		title = "港区扫除",
+		title = "（限定）寮舎エリア掃除",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -7336,7 +7336,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "料理制作",
+		title = "（限定）料理担当作業",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -7397,7 +7397,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "补给采购",
+		title = "（限定）生活施設備品調達",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -7458,7 +7458,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "岛屿巡逻",
+		title = "（限定）島航路パトロール",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -7519,7 +7519,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 10800,
-		title = "自然调查",
+		title = "（限定）自然環境調査",
 		drop_gold_max = 0,
 		drop_oil_max = 130,
 		exp = 360,
@@ -7580,7 +7580,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 14400,
-		title = "撰写报告",
+		title = "（限定）報告書類作成",
 		drop_gold_max = 0,
 		drop_oil_max = 180,
 		exp = 480,
@@ -7641,7 +7641,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 1800,
-		title = "港区扫除",
+		title = "（限定）寮舎エリア掃除",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -7702,7 +7702,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "料理制作",
+		title = "（限定）料理担当作業",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -7763,7 +7763,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "补给采购",
+		title = "（限定）生活施設備品調達",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -7824,7 +7824,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "岛屿巡逻",
+		title = "（限定）島航路パトロール",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -7885,7 +7885,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 10800,
-		title = "自然调查",
+		title = "（限定）自然環境調査",
 		drop_gold_max = 0,
 		drop_oil_max = 130,
 		exp = 360,
@@ -7946,7 +7946,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 14400,
-		title = "撰写报告",
+		title = "（限定）報告書類作成",
 		drop_gold_max = 0,
 		drop_oil_max = 180,
 		exp = 480,
@@ -8007,7 +8007,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "料理制作",
+		title = "（限定）料理担当作業",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -8068,7 +8068,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "岛屿巡逻",
+		title = "（限定）島航路パトロール",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -8129,7 +8129,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 1800,
-		title = "码放待售的换装",
+		title = "饅頭：着せ替え棚卸し",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -8190,7 +8190,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "piqiu~piqiu~搓碟",
+		title = "饅頭：饅頭DJセット",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -8251,7 +8251,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "点亮大屏幕",
+		title = "饅頭：モニターオンだピョ！",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -8312,7 +8312,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "布置广场灯光",
+		title = "饅頭：会場ライト調整",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -8373,7 +8373,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 10800,
-		title = "随着节奏摇摆",
+		title = "饅頭：リズムダンス",
 		drop_gold_max = 0,
 		drop_oil_max = 130,
 		exp = 360,
@@ -8434,7 +8434,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 14400,
-		title = "擦亮小金人",
+		title = "饅頭：饅頭像掃除",
 		drop_gold_max = 0,
 		drop_oil_max = 180,
 		exp = 480,
@@ -8495,7 +8495,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 1800,
-		title = "码放待售的换装",
+		title = "饅頭：着せ替え棚卸し",
 		drop_gold_max = 40,
 		drop_oil_max = 0,
 		exp = 60,
@@ -8556,7 +8556,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "piqiu~piqiu~搓碟",
+		title = "饅頭：饅頭DJセット",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -8617,7 +8617,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "点亮大屏幕",
+		title = "饅頭：モニターオンだピョ！",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -8678,7 +8678,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "布置广场灯光",
+		title = "饅頭：会場ライト調整",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,
@@ -8739,7 +8739,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 10800,
-		title = "随着节奏摇摆",
+		title = "饅頭：リズムダンス",
 		drop_gold_max = 0,
 		drop_oil_max = 130,
 		exp = 360,
@@ -8800,7 +8800,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 14400,
-		title = "擦亮小金人",
+		title = "饅頭：饅頭像掃除",
 		drop_gold_max = 0,
 		drop_oil_max = 180,
 		exp = 480,
@@ -8861,7 +8861,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 3600,
-		title = "piqiu~piqiu~搓碟",
+		title = "饅頭：饅頭DJセット",
 		drop_gold_max = 85,
 		drop_oil_max = 0,
 		exp = 120,
@@ -8922,7 +8922,7 @@ pg.collection_template = {
 		time = 0,
 		type = 0,
 		collect_time = 7200,
-		title = "布置广场灯光",
+		title = "饅頭：会場ライト調整",
 		drop_gold_max = 190,
 		drop_oil_max = 0,
 		exp = 240,

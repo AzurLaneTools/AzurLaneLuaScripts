@@ -1928,7 +1928,7 @@ pg.mini_game = {
 		}
 	},
 	{
-		is_ranking = 1,
+		is_ranking = 0,
 		view_name = "RacingMiniGameView",
 		game_room = 0,
 		type = 2,

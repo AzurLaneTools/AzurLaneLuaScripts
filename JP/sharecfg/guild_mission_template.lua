@@ -2,7 +2,7 @@ pg = pg or {}
 pg.guild_mission_template = {
 	{
 		id = 1,
-		name = "塞壬歼灭I-舰队累计完成【击沉任意敌人60艘】任务100次",
+		name = "セイレーン殲滅Ⅰ-【任意の敵を60体撃破する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -12,7 +12,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 2,
-		name = "塞壬歼灭II-舰队累计完成【击沉任意敌人180艘】任务100次",
+		name = "セイレーン殲滅Ⅱ-【任意の敵を180体撃破する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -22,7 +22,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 3,
-		name = "塞壬歼灭III-舰队累计完成【击沉任意敌人300艘】任务100次",
+		name = "セイレーン殲滅Ⅲ-【任意の敵を300体撃破する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -32,7 +32,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 4,
-		name = "海域清扫I-舰队累计完成【舰队出征，获得15次战斗胜利】任务100次",
+		name = "海域掃討Ⅰ-【艦隊を出撃させ、15回勝利する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -42,7 +42,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 5,
-		name = "海域清扫II-舰队累计完成【舰队出征，获得45次战斗胜利】任务100次",
+		name = "海域掃討Ⅱ-【艦隊を出撃させ、45回勝利する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -52,7 +52,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 6,
-		name = "海域清扫III-舰队累计完成【舰队出征，获得75次战斗胜利】任务100次",
+		name = "海域掃討Ⅲ-【艦隊を出撃させ、75回勝利する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -62,7 +62,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 7,
-		name = "军需筹备I-舰队累计完成【执行军需筹备任务3次】任务100次",
+		name = "物資拠出Ⅰ-【物資拠出Ⅰ任務を3回クリアする】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -72,7 +72,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 8,
-		name = "军需筹备II-舰队累计完成【执行军需筹备任务9次】任务100次",
+		name = "物資拠出Ⅱ-【物資拠出Ⅰ任務を9回クリアする】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -82,7 +82,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 9,
-		name = "军需筹备III-舰队累计完成【执行军需筹备任务15次】任务100次",
+		name = "物資拠出Ⅲ-【物資拠出Ⅰ任務を15回クリアする】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,
@@ -92,7 +92,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 10,
-		name = "大舰队作战I-舰队累计完成【参与1次大舰队作战任意事件】任务100次",
+		name = "大艦隊作戦Ⅰ-【大艦隊作戦の作戦事件を1回参加する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,
@@ -102,7 +102,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 11,
-		name = "大舰队作战II-舰队累计完成【参与3次大舰队作战任意事件】任务100次",
+		name = "大艦隊作戦Ⅱ-【大艦隊作戦の作戦事件を3回参加する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 25,
 		task_scale = 2,
@@ -112,7 +112,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 12,
-		name = "大舰队作战III-舰队累计完成【参与5次大舰队作战任意事件】任务100次",
+		name = "大艦隊作戦Ⅲ-【大艦隊作戦の作戦事件を5回参加する】大艦隊メンバー合計クリア回数100回まで",
 		max_num = 100,
 		award_capital_display = 35,
 		task_scale = 3,

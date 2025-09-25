@@ -37,7 +37,7 @@ pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {
 	{
 		rarity = 4,
-		name = "甜蜜心事",
+		name = "スイートシークレット",
 		type = 1,
 		room_id = 20220,
 		unlock = "",
@@ -59,7 +59,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "午后遐乡",
+		name = "午後の夢郷",
 		type = 1,
 		room_id = 20220,
 		unlock = "",
@@ -81,7 +81,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "柔软怀抱",
+		name = "タヌクッション",
 		type = 1,
 		room_id = 30221,
 		unlock = "",
@@ -104,7 +104,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "对坐之谈",
+		name = "逢瀬の机",
 		type = 1,
 		room_id = 30221,
 		unlock = "",
@@ -127,7 +127,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 5,
-		name = "圣诞雪橇沙发套组",
+		name = "聖夜のソリソファ",
 		type = 1,
 		room_id = 20220,
 		unlock = "",
@@ -147,7 +147,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 5,
-		name = "暖意入梦",
+		name = "ぬくぬくこたつ",
 		type = 1,
 		room_id = 30221,
 		unlock = "",
@@ -167,7 +167,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "童心下午茶",
+		name = "ピュアティータイム",
 		type = 1,
 		room_id = 19903,
 		unlock = "",
@@ -190,7 +190,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "星河满船",
+		name = "星々の遊船",
 		type = 1,
 		room_id = 19903,
 		unlock = "",
@@ -213,7 +213,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "清扫工具箱",
+		name = "清掃ツールボックス",
 		type = 2,
 		room_id = 20220,
 		unlock = "",
@@ -235,7 +235,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "茶享套装",
+		name = "ロイヤルティーセット",
 		type = 2,
 		room_id = 20220,
 		unlock = "",
@@ -257,7 +257,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "素色物语 ",
+		name = "素直ローファー",
 		type = 2,
 		room_id = 30221,
 		unlock = "",
@@ -279,7 +279,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "彩虹心语",
+		name = "なないろ気持ち",
 		type = 2,
 		room_id = 19903,
 		unlock = "",
@@ -301,7 +301,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 3,
-		name = "浪漫满分",
+		name = "満点のロマンチック",
 		type = 2,
 		room_id = 0,
 		unlock = "",
@@ -325,7 +325,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 3,
-		name = "蛋糕礼盒",
+		name = "ケーキギフトボックス",
 		type = 2,
 		room_id = 0,
 		unlock = "",
@@ -346,7 +346,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "天狼星沙滩邀请函",
+		name = "シリアス・砂浜開放",
 		type = 3,
 		room_id = 20220,
 		unlock = "",
@@ -367,7 +367,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "{namecode:50}沙滩邀请函",
+		name = "能代・砂浜開放",
 		type = 3,
 		room_id = 30221,
 		unlock = "",
@@ -387,7 +387,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "安克雷奇沙滩邀请函",
+		name = "アンカレッジ・砂浜開放",
 		type = 3,
 		room_id = 19903,
 		unlock = "",
@@ -407,7 +407,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "能量修复仪",
+		name = "フットマッサージャー",
 		type = 2,
 		room_id = 30221,
 		unlock = "",
@@ -429,7 +429,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "星球一隅",
+		name = "星空のコーナー",
 		type = 1,
 		room_id = 10517,
 		unlock = "",
@@ -452,7 +452,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "水晶糖",
+		name = "水晶キャンディ",
 		type = 2,
 		room_id = 10517,
 		unlock = "",
@@ -474,7 +474,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "{namecode:199}咖啡馆邀请函",
+		name = "カフェ招待状NJ",
 		type = 3,
 		room_id = 10517,
 		unlock = "",
@@ -494,7 +494,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "安逸时光",
+		name = "安らぎの時間",
 		type = 1,
 		room_id = 30221,
 		unlock = "",
@@ -517,7 +517,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "动感飞轮",
+		name = "ダイナミックホイール",
 		type = 1,
 		room_id = 10517,
 		unlock = "",
@@ -540,7 +540,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "精致画框 ",
+		name = "精緻な額縁",
 		type = 2,
 		room_id = 19903,
 		unlock = "",
@@ -562,7 +562,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 5,
-		name = "滨海欢愉",
+		name = "シーサイドレジャー",
 		type = 1,
 		room_id = 0,
 		unlock = "",
@@ -582,7 +582,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "云中甜梦",
+		name = "クラウドドリーム",
 		type = 1,
 		room_id = 19903,
 		unlock = "",
@@ -605,7 +605,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "爱之巢 ",
+		name = "愛の巣",
 		type = 1,
 		room_id = 30707,
 		unlock = "",
@@ -628,7 +628,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "相连的爱意 ",
+		name = "繋げられた愛",
 		type = 2,
 		room_id = 30707,
 		unlock = "",
@@ -650,7 +650,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "{namecode:97}咖啡馆邀请函",
+		name = "カフェ招待状・大鳳",
 		type = 3,
 		room_id = 30707,
 		unlock = "",

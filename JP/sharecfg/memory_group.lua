@@ -6,15 +6,12 @@ pg.memory_group = setmetatable({
 		2,
 		3,
 		4,
+		5,
 		98,
 		99,
 		100,
 		101,
 		102,
-		103,
-		104,
-		105,
-		106,
 		107,
 		108,
 		109,
@@ -35,6 +32,7 @@ pg.memory_group = setmetatable({
 		124,
 		125,
 		126,
+		127,
 		128,
 		129,
 		130,
@@ -108,6 +106,7 @@ pg.memory_group = setmetatable({
 		198,
 		199,
 		200,
+		201,
 		202,
 		203,
 		204,
@@ -214,7 +213,6 @@ pg.memory_group = setmetatable({
 		305,
 		306,
 		307,
-		308,
 		309,
 		310,
 		311,
@@ -387,7 +385,7 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "虎！虎！虎！",
+		title = "トラ！トラ！トラ！",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -408,7 +406,7 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "珊瑚海首秀",
+		title = "初陣！珊瑚海",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -422,7 +420,7 @@ pg.base.memory_group = {
 		}
 	},
 	{
-		title = "决战中途岛",
+		title = "AF決戦",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -441,8 +439,32 @@ pg.base.memory_group = {
 			28
 		}
 	},
+	{
+		title = "ソロモン海にて・上",
+		subtype = 0,
+		link_event = 0,
+		type = 1,
+		id = 5,
+		icon = "title_main",
+		group_id = "",
+		memories = {
+			1191,
+			1192,
+			1193,
+			1194,
+			1195,
+			1196,
+			1197,
+			1198,
+			1199,
+			1200,
+			1201,
+			1202,
+			1203
+		}
+	},
 	[98] = {
-		title = "「天运拟合」开启",
+		title = "「竜骨編纂」開放 ",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -483,7 +505,7 @@ pg.base.memory_group = {
 		}
 	},
 	[99] = {
-		title = "指挥喵、登场！",
+		title = "オフニャ、登場！",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -498,7 +520,7 @@ pg.base.memory_group = {
 		}
 	},
 	[100] = {
-		title = "科研系统·开放",
+		title = "新機能「研究」開放！",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -512,7 +534,7 @@ pg.base.memory_group = {
 		}
 	},
 	[101] = {
-		title = "努力、希望和计划",
+		title = "「努力、希望と計画」",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -520,16 +542,21 @@ pg.base.memory_group = {
 		icon = "title_event",
 		group_id = "",
 		memories = {
-			29,
-			30,
-			31,
-			32,
-			33,
-			34
+			10000,
+			10001,
+			10002,
+			10003,
+			10004,
+			10005,
+			10006,
+			10007,
+			10008,
+			10009,
+			10010
 		}
 	},
 	[102] = {
-		title = "「异色格」作战",
+		title = "鏡写されし異色",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -558,88 +585,8 @@ pg.base.memory_group = {
 			50
 		}
 	},
-	[103] = {
-		title = "七夕与传说的巧克力",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 103,
-		icon = "title_event",
-		group_id = "",
-		memories = {
-			51,
-			52,
-			53,
-			54,
-			55,
-			56,
-			57,
-			58,
-			59,
-			60,
-			61
-		}
-	},
-	[104] = {
-		title = "与{namecode:89}相处的一天",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 104,
-		icon = "title_event",
-		group_id = "",
-		memories = {
-			82,
-			83,
-			84,
-			85,
-			86,
-			87,
-			88,
-			89
-		}
-	},
-	[105] = {
-		title = "铅色的追忆",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 105,
-		icon = "title_event",
-		group_id = "",
-		memories = {
-			90,
-			91,
-			92,
-			93,
-			94,
-			95,
-			96,
-			97,
-			98
-		}
-	},
-	[106] = {
-		title = "逸仙·羁绊",
-		subtype = 2,
-		link_event = 0,
-		type = 2,
-		id = 106,
-		icon = "title_event",
-		group_id = "",
-		memories = {
-			99,
-			100,
-			101,
-			102,
-			103,
-			104,
-			105,
-			106
-		}
-	},
 	[107] = {
-		title = "月夕·愿祈",
+		title = "玉兎・月夜に酔う",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -657,7 +604,7 @@ pg.base.memory_group = {
 		}
 	},
 	[108] = {
-		title = "红染的参访者",
+		title = "紅染の来訪者",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -686,7 +633,7 @@ pg.base.memory_group = {
 		}
 	},
 	[109] = {
-		title = "光荣之战",
+		title = "栄光なる最終戦",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -707,7 +654,7 @@ pg.base.memory_group = {
 		}
 	},
 	[110] = {
-		title = "“魔女”们的万圣夜",
+		title = "「魔女達」の前夜祭",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -725,7 +672,7 @@ pg.base.memory_group = {
 		}
 	},
 	[111] = {
-		title = "小小的勇气",
+		title = "星の歌姫と小さな勇気",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -743,7 +690,7 @@ pg.base.memory_group = {
 		}
 	},
 	[112] = {
-		title = "热热闹闹的下午茶",
+		title = "ワイワイお茶会",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -761,7 +708,7 @@ pg.base.memory_group = {
 		}
 	},
 	[113] = {
-		title = "爱与和平的圣夜祭",
+		title = "愛と平和の聖夜祭",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -780,7 +727,7 @@ pg.base.memory_group = {
 		}
 	},
 	[114] = {
-		title = "新年快乐",
+		title = "謹賀新年",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -798,7 +745,7 @@ pg.base.memory_group = {
 		}
 	},
 	[115] = {
-		title = "坠落之翼",
+		title = "闇に堕ちた青き翼",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -822,7 +769,7 @@ pg.base.memory_group = {
 		}
 	},
 	[116] = {
-		title = "冬日攻势",
+		title = "夏(?)の大作戦",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -840,7 +787,7 @@ pg.base.memory_group = {
 		}
 	},
 	[117] = {
-		title = "围剿{namecode:431}！",
+		title = "グラーフ・シュペー追撃戦",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -860,7 +807,7 @@ pg.base.memory_group = {
 		}
 	},
 	[118] = {
-		title = "异次元的访客-日常篇",
+		title = "別次元からの来訪者・日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -878,7 +825,7 @@ pg.base.memory_group = {
 		}
 	},
 	[119] = {
-		title = "异次元的访客-关卡篇",
+		title = "別次元からの来訪者・ステージ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -897,7 +844,7 @@ pg.base.memory_group = {
 		}
 	},
 	[120] = {
-		title = "鞍山的绘图日记",
+		title = "四天王大冒険・鞍山編",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -913,7 +860,7 @@ pg.base.memory_group = {
 		}
 	},
 	[121] = {
-		title = "抚顺的大冒险",
+		title = "四天王大冒険・撫順編",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -928,7 +875,7 @@ pg.base.memory_group = {
 		}
 	},
 	[122] = {
-		title = "春风的十字星",
+		title = "春風の十字星",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -946,7 +893,7 @@ pg.base.memory_group = {
 		}
 	},
 	[123] = {
-		title = "凛冬王冠",
+		title = "凛冽なりし冬の王冠",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -975,7 +922,7 @@ pg.base.memory_group = {
 		}
 	},
 	[124] = {
-		title = "春天的赏樱大会",
+		title = "春のお花見大会",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -993,7 +940,7 @@ pg.base.memory_group = {
 		}
 	},
 	[125] = {
-		title = "樱花烂漫开学祭",
+		title = "桜華爛漫新学期",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1011,7 +958,7 @@ pg.base.memory_group = {
 		}
 	},
 	[126] = {
-		title = "归来与新生",
+		title = "軍神の帰還",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1019,11 +966,32 @@ pg.base.memory_group = {
 		icon = "title_event",
 		group_id = "",
 		memories = {
-			10018
+			10018,
+			10019,
+			10020,
+			10021
+		}
+	},
+	[127] = {
+		title = "最近、綾波の様子が…？",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 127,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027,
+			10028
 		}
 	},
 	[128] = {
-		title = "36年Z组 {namecode:408}老师",
+		title = "36年Z組ニーミ先生",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1041,7 +1009,7 @@ pg.base.memory_group = {
 		}
 	},
 	[129] = {
-		title = "明日的淑女",
+		title = "小さなめいどちょー",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1056,7 +1024,7 @@ pg.base.memory_group = {
 		}
 	},
 	[130] = {
-		title = "炎夏的火锅大会？！",
+		title = "夏の鍋大会！？",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1073,7 +1041,7 @@ pg.base.memory_group = {
 		}
 	},
 	[131] = {
-		title = "墨染的钢铁之花",
+		title = "墨染まりし鋼の桜",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1098,7 +1066,7 @@ pg.base.memory_group = {
 		}
 	},
 	[132] = {
-		title = "月光下的序曲",
+		title = "月夜の開幕曲 ",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1118,7 +1086,7 @@ pg.base.memory_group = {
 		}
 	},
 	[133] = {
-		title = "光与影的鸢尾之华",
+		title = "光と影のアイリス",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1140,7 +1108,7 @@ pg.base.memory_group = {
 		}
 	},
 	[134] = {
-		title = "白衣天使or恶魔？",
+		title = "白衣の天使or悪魔？",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1156,7 +1124,7 @@ pg.base.memory_group = {
 		}
 	},
 	[135] = {
-		title = "盛夏的半人马座",
+		title = "盛夏の射手座",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1173,7 +1141,7 @@ pg.base.memory_group = {
 		}
 	},
 	[136] = {
-		title = "{namecode:82}前辈的收藏大公开",
+		title = "三笠大先輩のミニ博物館",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1188,7 +1156,7 @@ pg.base.memory_group = {
 		}
 	},
 	[137] = {
-		title = "特别庆典·开幕！",
+		title = "特別パーティー、開幕！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1204,7 +1172,7 @@ pg.base.memory_group = {
 		}
 	},
 	[138] = {
-		title = "港区的特别宴会",
+		title = "母港の特別宴会",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1221,7 +1189,7 @@ pg.base.memory_group = {
 		}
 	},
 	[139] = {
-		title = "闪耀☆战斗之星！",
+		title = "輝く☆バトルスター！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1236,7 +1204,7 @@ pg.base.memory_group = {
 		}
 	},
 	[140] = {
-		title = "战斗！皇家女仆队！",
+		title = "戦え！ロイヤルメイド隊",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1252,7 +1220,7 @@ pg.base.memory_group = {
 		}
 	},
 	[141] = {
-		title = "捣蛋万圣夜！",
+		title = "悪戯ハロウィン",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1270,7 +1238,7 @@ pg.base.memory_group = {
 		}
 	},
 	[142] = {
-		title = "梦幻的交汇-关卡篇",
+		title = "夢幻の邂逅・ステージ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1309,7 +1277,7 @@ pg.base.memory_group = {
 		}
 	},
 	[143] = {
-		title = "梦幻的交汇-日常篇",
+		title = "夢幻の邂逅・日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1327,7 +1295,7 @@ pg.base.memory_group = {
 		}
 	},
 	[144] = {
-		title = "梦幻的交汇-特别篇",
+		title = "夢幻の邂逅・スペシャル",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1348,7 +1316,7 @@ pg.base.memory_group = {
 		}
 	},
 	[145] = {
-		title = "斯图尔特的硝烟",
+		title = "南洋に靡く硝煙",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1370,7 +1338,7 @@ pg.base.memory_group = {
 		}
 	},
 	[146] = {
-		title = "圣诞礼物大作战！",
+		title = "オペレーション・クリスマス！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1388,7 +1356,7 @@ pg.base.memory_group = {
 		}
 	},
 	[147] = {
-		title = "新年的祝福",
+		title = "正月の祝福",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1406,7 +1374,7 @@ pg.base.memory_group = {
 		}
 	},
 	[148] = {
-		title = "苍红的回响",
+		title = "縹映る深緋の残響",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1439,7 +1407,7 @@ pg.base.memory_group = {
 		}
 	},
 	[149] = {
-		title = "闹腾嬉戏东煌春节",
+		title = "ワイワイ旧正月！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1457,7 +1425,7 @@ pg.base.memory_group = {
 		}
 	},
 	[150] = {
-		title = "特别演习·埃塞克斯级",
+		title = "特別演習・超空強襲波",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1473,7 +1441,7 @@ pg.base.memory_group = {
 		}
 	},
 	[151] = {
-		title = "峡湾间的星辰",
+		title = "輝ける峡湾の星",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1496,7 +1464,7 @@ pg.base.memory_group = {
 		}
 	},
 	[152] = {
-		title = "「虚拟连接的共时性」-日常篇",
+		title = "「仮想繋げし共時性」-日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1514,7 +1482,7 @@ pg.base.memory_group = {
 		}
 	},
 	[153] = {
-		title = "「虚拟连接的共时性」-净化篇",
+		title = "「仮想繋げし共時性」-スッキリ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1529,7 +1497,7 @@ pg.base.memory_group = {
 		}
 	},
 	[154] = {
-		title = "「虚拟连接的共时性」-关卡篇",
+		title = "「仮想繋げし共時性」-ステージ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1564,7 +1532,7 @@ pg.base.memory_group = {
 		}
 	},
 	[155] = {
-		title = "港区逃离大作战！",
+		title = "母港脱出作戦！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1580,7 +1548,7 @@ pg.base.memory_group = {
 		}
 	},
 	[156] = {
-		title = "小小的誓言",
+		title = "小さな約束",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1594,7 +1562,7 @@ pg.base.memory_group = {
 		}
 	},
 	[157] = {
-		title = "理科实验时间！",
+		title = "理科実験タイム！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1610,7 +1578,7 @@ pg.base.memory_group = {
 		}
 	},
 	[158] = {
-		title = "铁血、音符与誓言",
+		title = "黒鉄の楽章、誓いの海",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1642,7 +1610,7 @@ pg.base.memory_group = {
 		}
 	},
 	[159] = {
-		title = "祈愿与祝福之宴",
+		title = "平和に祈りを",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1660,7 +1628,7 @@ pg.base.memory_group = {
 		}
 	},
 	[160] = {
-		title = "月刊漫画Javelin",
+		title = "月刊マンガJavelin",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1676,7 +1644,7 @@ pg.base.memory_group = {
 		}
 	},
 	[161] = {
-		title = "角落的向日葵",
+		title = "隅っこのヒマワリ",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1691,7 +1659,7 @@ pg.base.memory_group = {
 		}
 	},
 	[162] = {
-		title = "风暴前夕",
+		title = "迫りくる嵐",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1712,7 +1680,7 @@ pg.base.memory_group = {
 		}
 	},
 	[163] = {
-		title = "箱庭疗法",
+		title = "開かれし紺碧の砂箱",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1756,7 +1724,7 @@ pg.base.memory_group = {
 		}
 	},
 	[164] = {
-		title = "碧海的偶像",
+		title = "青い海のアイドル",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1772,7 +1740,7 @@ pg.base.memory_group = {
 		}
 	},
 	[165] = {
-		title = "大家的夏日祭",
+		title = "みんなの夏祭り",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1785,7 +1753,7 @@ pg.base.memory_group = {
 		}
 	},
 	[166] = {
-		title = "荣耀殿堂",
+		title = "SPストーリー",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -1795,17 +1763,17 @@ pg.base.memory_group = {
 		memories = {
 			891,
 			892,
-			893,
-			1868,
-			1869,
-			1870,
-			3214,
+			894,
+			1871,
+			1872,
+			1873,
+			3212,
 			3215,
-			3218
+			3216
 		}
 	},
 	[167] = {
-		title = "神圣的悲喜剧",
+		title = "悲歎せし焔海の詩",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -1839,7 +1807,7 @@ pg.base.memory_group = {
 		}
 	},
 	[168] = {
-		title = "心血来潮的夜宴",
+		title = "シンプルパーティー？",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1854,7 +1822,7 @@ pg.base.memory_group = {
 		}
 	},
 	[169] = {
-		title = "穿越彼方的水线",
+		title = "交錯する新たな波",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1870,7 +1838,7 @@ pg.base.memory_group = {
 		}
 	},
 	[170] = {
-		title = "最珍贵的宝物",
+		title = "鉄血鮫とエニグマ",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1891,7 +1859,7 @@ pg.base.memory_group = {
 		}
 	},
 	[171] = {
-		title = "混沌的万圣之夜",
+		title = "カオティック・ハロウィンナイト",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -1907,7 +1875,7 @@ pg.base.memory_group = {
 		}
 	},
 	[172] = {
-		title = "激奏的Polaris",
+		title = "激奏のポラリス",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1942,7 +1910,7 @@ pg.base.memory_group = {
 		}
 	},
 	[173] = {
-		title = "某日的polaris",
+		title = "ある日のポラリス",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -1956,7 +1924,7 @@ pg.base.memory_group = {
 		}
 	},
 	[174] = {
-		title = "「虚拟与真实的双向镜」-关卡篇",
+		title = "「幻想と真実の二重奏」-ステージ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2018,7 +1986,7 @@ pg.base.memory_group = {
 		}
 	},
 	[175] = {
-		title = "「虚拟与真实的双向镜」-日常篇",
+		title = "「幻想と真実の二重奏」-日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2039,7 +2007,7 @@ pg.base.memory_group = {
 		}
 	},
 	[176] = {
-		title = "平安夜的姜饼物语",
+		title = "クリスマスパーティー！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -2055,7 +2023,7 @@ pg.base.memory_group = {
 		}
 	},
 	[177] = {
-		title = "浮樱影华",
+		title = "翳りし満ちる影の華",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2094,7 +2062,7 @@ pg.base.memory_group = {
 		}
 	},
 	[178] = {
-		title = "各自的新年",
+		title = "あけおめ2020",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -2110,7 +2078,7 @@ pg.base.memory_group = {
 		}
 	},
 	[179] = {
-		title = "战斗！皇家女仆队2nd",
+		title = "戦え！ロイヤルメイド2nd",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2126,7 +2094,7 @@ pg.base.memory_group = {
 		}
 	},
 	[180] = {
-		title = "各自的春节",
+		title = "新春パーティー",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -2141,7 +2109,7 @@ pg.base.memory_group = {
 		}
 	},
 	[181] = {
-		title = "北境序曲",
+		title = "凍絶の北海",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2184,7 +2152,7 @@ pg.base.memory_group = {
 		}
 	},
 	[182] = {
-		title = "迷雾之下",
+		title = "闇靄接近",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2199,7 +2167,7 @@ pg.base.memory_group = {
 		}
 	},
 	[183] = {
-		title = "微层混合",
+		title = "闇靄払う銀翼 ",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2245,7 +2213,7 @@ pg.base.memory_group = {
 		}
 	},
 	[184] = {
-		title = "黄金的秘宝",
+		title = "ブリと黄金の秘宝",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -2260,7 +2228,7 @@ pg.base.memory_group = {
 		}
 	},
 	[185] = {
-		title = "夜幕下的归途",
+		title = "帰路は海色の陰りへと",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2280,7 +2248,7 @@ pg.base.memory_group = {
 		}
 	},
 	[186] = {
-		title = "穹顶下的圣咏曲",
+		title = "神穹を衝く聖歌",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2325,7 +2293,7 @@ pg.base.memory_group = {
 		}
 	},
 	[187] = {
-		title = "峡湾间的反击",
+		title = "峡湾間の反撃",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2349,7 +2317,7 @@ pg.base.memory_group = {
 		}
 	},
 	[188] = {
-		title = "永夜幻光",
+		title = "極夜照らす幻光  ",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2400,7 +2368,7 @@ pg.base.memory_group = {
 		}
 	},
 	[189] = {
-		title = "蝶海梦花",
+		title = "刹那觀る胡蝶の夢",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2453,7 +2421,7 @@ pg.base.memory_group = {
 		}
 	},
 	[190] = {
-		title = "划破海空之翼",
+		title = "奔る彩帆の青",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2474,7 +2442,7 @@ pg.base.memory_group = {
 		}
 	},
 	[191] = {
-		title = "激唱的Universe",
+		title = "激唱のユニバース",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2507,7 +2475,7 @@ pg.base.memory_group = {
 		}
 	},
 	[192] = {
-		title = "「假日航线」-关卡篇",
+		title = "バケーションレーン-ステージ",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2534,7 +2502,7 @@ pg.base.memory_group = {
 		}
 	},
 	[193] = {
-		title = "「假日航线」-日常篇",
+		title = "バケーションレーン-日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2549,7 +2517,7 @@ pg.base.memory_group = {
 		}
 	},
 	[194] = {
-		title = "负象限作战",
+		title = "虚畳なりし限象",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2595,7 +2563,7 @@ pg.base.memory_group = {
 		}
 	},
 	[195] = {
-		title = "破晓冰华",
+		title = "暁射す氷華の嵐",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2637,7 +2605,7 @@ pg.base.memory_group = {
 		}
 	},
 	[196] = {
-		title = "复兴的赞美诗",
+		title = "讃える復興の迷路",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2683,7 +2651,7 @@ pg.base.memory_group = {
 		}
 	},
 	[197] = {
-		title = "银色档案",
+		title = "再現記録",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2698,7 +2666,7 @@ pg.base.memory_group = {
 		}
 	},
 	[198] = {
-		title = "镜位螺旋",
+		title = "照らす螺旋の鏡海",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2742,7 +2710,7 @@ pg.base.memory_group = {
 		}
 	},
 	[199] = {
-		title = "「响彻碧海的偶像歌」-日常篇",
+		title = "海に響くアイドルの歌-日常編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2757,7 +2725,7 @@ pg.base.memory_group = {
 		}
 	},
 	[200] = {
-		title = "「响彻碧海的偶像歌」-关卡篇",
+		title = "海に響くアイドルの歌-ステージ編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2783,8 +2751,26 @@ pg.base.memory_group = {
 			1766
 		}
 	},
+	[201] = {
+		title = "『装甲騎兵ボトムズ』コラボシナリオ",
+		subtype = 2,
+		link_event = 0,
+		type = 2,
+		id = 201,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			10065,
+			10066,
+			10067,
+			10068,
+			10069,
+			10070,
+			10071
+		}
+	},
 	[202] = {
-		title = "碧海光粼",
+		title = "駆けよ 碧海の吹き風",
 		subtype = 1,
 		link_event = 5069,
 		type = 2,
@@ -2830,7 +2816,7 @@ pg.base.memory_group = {
 		}
 	},
 	[203] = {
-		title = "杰诺瓦的焰火",
+		title = "燈火のシニエ",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2853,7 +2839,7 @@ pg.base.memory_group = {
 		}
 	},
 	[204] = {
-		title = "「交汇世界的弧光」-关卡篇",
+		title = "弧光は交わる世界にて-ステージ編",
 		subtype = 2,
 		link_event = 4932,
 		type = 2,
@@ -2889,7 +2875,7 @@ pg.base.memory_group = {
 		}
 	},
 	[205] = {
-		title = "「交汇世界的弧光」-日常篇",
+		title = "弧光は交わる世界にて-日常編",
 		subtype = 2,
 		link_event = 4933,
 		type = 2,
@@ -2904,7 +2890,7 @@ pg.base.memory_group = {
 		}
 	},
 	[206] = {
-		title = "碳酸与红茶",
+		title = "炭酸と紅茶",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -2927,7 +2913,7 @@ pg.base.memory_group = {
 		}
 	},
 	[207] = {
-		title = "逆转彩虹之塔",
+		title = "遡望せし虹彩の塔",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -2975,7 +2961,7 @@ pg.base.memory_group = {
 		}
 	},
 	[208] = {
-		title = "演习神秘事件调查",
+		title = "名状しがたき演習事件",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -2991,7 +2977,7 @@ pg.base.memory_group = {
 		}
 	},
 	[209] = {
-		title = "春节游园摄影会",
+		title = "春節遊園撮影会",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3009,7 +2995,7 @@ pg.base.memory_group = {
 		}
 	},
 	[210] = {
-		title = "黎明之暗",
+		title = "絶海前話",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3024,7 +3010,7 @@ pg.base.memory_group = {
 		}
 	},
 	[211] = {
-		title = "深度回音",
+		title = "鳴動せし星霜の淵",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3068,7 +3054,7 @@ pg.base.memory_group = {
 		}
 	},
 	[212] = {
-		title = "虚像构筑之塔·序章",
+		title = "幻像の塔・発見編",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -3090,7 +3076,7 @@ pg.base.memory_group = {
 		}
 	},
 	[213] = {
-		title = "布里之誓",
+		title = "ブリの誓い",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3103,7 +3089,7 @@ pg.base.memory_group = {
 		}
 	},
 	[214] = {
-		title = "永夜之城的魅影",
+		title = "永き城の麗しき影",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3121,7 +3107,7 @@ pg.base.memory_group = {
 		}
 	},
 	[215] = {
-		title = "虹彩的终幕曲",
+		title = "吟ずる瑠璃の楽章",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3166,7 +3152,7 @@ pg.base.memory_group = {
 		}
 	},
 	[216] = {
-		title = "意外的旅途",
+		title = "慶弔と帰路",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3181,7 +3167,7 @@ pg.base.memory_group = {
 		}
 	},
 	[217] = {
-		title = "女仆的另一面",
+		title = "風変わりなメイドたち",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3195,7 +3181,7 @@ pg.base.memory_group = {
 		}
 	},
 	[218] = {
-		title = "泠誓光庭",
+		title = "誠閃の剣　搖光の城",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3242,7 +3228,7 @@ pg.base.memory_group = {
 		}
 	},
 	[219] = {
-		title = "合雅之宴",
+		title = "雅なる宴",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3257,7 +3243,7 @@ pg.base.memory_group = {
 		}
 	},
 	[220] = {
-		title = "童话森林奇遇记",
+		title = "御伽の森冒険記",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3274,7 +3260,7 @@ pg.base.memory_group = {
 		}
 	},
 	[221] = {
-		title = "来自鸢尾的天使",
+		title = "アイリスの天使",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3292,7 +3278,7 @@ pg.base.memory_group = {
 		}
 	},
 	[222] = {
-		title = "撒丁的邀约",
+		title = "開け！世界博覧会",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3310,7 +3296,7 @@ pg.base.memory_group = {
 		}
 	},
 	[223] = {
-		title = "雄鹰的叙事歌",
+		title = "鋼鷲の冒険譚",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3358,7 +3344,7 @@ pg.base.memory_group = {
 		}
 	},
 	[224] = {
-		title = "远汇点作战",
+		title = "結像点作戦",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3385,7 +3371,7 @@ pg.base.memory_group = {
 		}
 	},
 	[225] = {
-		title = "静海惊雷",
+		title = "静海遠雷",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3403,7 +3389,7 @@ pg.base.memory_group = {
 		}
 	},
 	[226] = {
-		title = "紫绛槿岚",
+		title = "赫の涙月　菫の暁風",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3453,7 +3439,7 @@ pg.base.memory_group = {
 		}
 	},
 	[227] = {
-		title = "勇者的旅途",
+		title = "勇者の旅路",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -3469,7 +3455,7 @@ pg.base.memory_group = {
 		}
 	},
 	[228] = {
-		title = "围剿{namecode:459}伯爵",
+		title = "シュペーちゃん追撃戦？",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -3483,7 +3469,7 @@ pg.base.memory_group = {
 		}
 	},
 	[229] = {
-		title = "战斗！皇家女仆队3rd？ ",
+		title = "戦え！ロイヤルメイド隊？",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3499,7 +3485,7 @@ pg.base.memory_group = {
 		}
 	},
 	[230] = {
-		title = "万圣夜的「奇遇」",
+		title = "ハロウィンの遭遇",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -3516,7 +3502,7 @@ pg.base.memory_group = {
 		}
 	},
 	[231] = {
-		title = "「炼金术士与秘密遗迹群岛」-日常篇",
+		title = "錬金術士と謎の遺跡群島-「日常編」",
 		subtype = 2,
 		link_event = 4584,
 		type = 2,
@@ -3534,7 +3520,7 @@ pg.base.memory_group = {
 		}
 	},
 	[232] = {
-		title = "「炼金术士与秘密遗迹群岛」-关卡篇",
+		title = "錬金術士と謎の遺跡群島-「ステージ編」",
 		subtype = 2,
 		link_event = 4580,
 		type = 2,
@@ -3571,7 +3557,7 @@ pg.base.memory_group = {
 		}
 	},
 	[233] = {
-		title = "异向偏振",
+		title = "分極する空想の因果",
 		subtype = 1,
 		link_event = 4597,
 		type = 2,
@@ -3589,7 +3575,7 @@ pg.base.memory_group = {
 		}
 	},
 	[234] = {
-		title = "水边的假日",
+		title = "水辺の休日",
 		subtype = 3,
 		link_event = 4618,
 		type = 2,
@@ -3607,7 +3593,7 @@ pg.base.memory_group = {
 		}
 	},
 	[235] = {
-		title = "定向折叠",
+		title = "積重なる事象の幻界",
 		subtype = 1,
 		link_event = 4607,
 		type = 2,
@@ -3653,7 +3639,7 @@ pg.base.memory_group = {
 		}
 	},
 	[236] = {
-		title = "冬日的寻路人",
+		title = "ウィンター・パスファインダー",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3669,7 +3655,7 @@ pg.base.memory_group = {
 		}
 	},
 	[237] = {
-		title = "华灯流彩正佳音",
+		title = "春節2023",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3684,7 +3670,7 @@ pg.base.memory_group = {
 		}
 	},
 	[238] = {
-		title = "飞彩迎新春",
+		title = "華彩舞い上がる新春",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3698,7 +3684,7 @@ pg.base.memory_group = {
 		}
 	},
 	[239] = {
-		title = "女王的一天",
+		title = "女王の一日",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3716,7 +3702,7 @@ pg.base.memory_group = {
 		}
 	},
 	[240] = {
-		title = "湮烬尘墟",
+		title = "黙示の遺構",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3757,7 +3743,7 @@ pg.base.memory_group = {
 		}
 	},
 	[241] = {
-		title = "极地风暴",
+		title = "星霜海嵐",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3787,7 +3773,7 @@ pg.base.memory_group = {
 		}
 	},
 	[242] = {
-		title = "融雪的邀约",
+		title = "雪見温泉の招待状",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3803,7 +3789,7 @@ pg.base.memory_group = {
 		}
 	},
 	[243] = {
-		title = "一锤！Burin！",
+		title = "一撃！PURIN！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3817,7 +3803,7 @@ pg.base.memory_group = {
 		}
 	},
 	[244] = {
-		title = "智者与蜘蛛",
+		title = "凶兆のアクム",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3835,7 +3821,7 @@ pg.base.memory_group = {
 		}
 	},
 	[245] = {
-		title = "空相交汇点",
+		title = "覆天せし万象の塵",
 		subtype = 1,
 		link_event = 0,
 		type = 2,
@@ -3883,7 +3869,7 @@ pg.base.memory_group = {
 		}
 	},
 	[246] = {
-		title = "海风与夏日的无人岛",
+		title = "潮風と夏の無人島",
 		subtype = 2,
 		link_event = 0,
 		type = 2,
@@ -3928,7 +3914,7 @@ pg.base.memory_group = {
 		}
 	},
 	[247] = {
-		title = "清茶氤氲",
+		title = "清茶馥郁",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3940,7 +3926,7 @@ pg.base.memory_group = {
 		}
 	},
 	[248] = {
-		title = "翩若飞仙",
+		title = "飛仙にあやかりて",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -3952,7 +3938,7 @@ pg.base.memory_group = {
 		}
 	},
 	[249] = {
-		title = "绿洲往事",
+		title = "緑地伽話",
 		subtype = 1,
 		link_event = 4915,
 		type = 2,
@@ -3968,7 +3954,7 @@ pg.base.memory_group = {
 		}
 	},
 	[250] = {
-		title = "白领与美梦",
+		title = "オフィス・ドリーム",
 		subtype = 3,
 		link_event = 4919,
 		type = 2,
@@ -3982,7 +3968,7 @@ pg.base.memory_group = {
 		}
 	},
 	[251] = {
-		title = "奏响鸢尾之歌",
+		title = "燃ゆる聖都の回想曲",
 		subtype = 1,
 		link_event = 4940,
 		type = 2,
@@ -4003,7 +3989,7 @@ pg.base.memory_group = {
 		}
 	},
 	[252] = {
-		title = "长夜降临之前",
+		title = "博覧会の夜",
 		subtype = 1,
 		link_event = 4951,
 		type = 2,
@@ -4021,7 +4007,7 @@ pg.base.memory_group = {
 		}
 	},
 	[253] = {
-		title = "鸢尾芳馨弥漫时",
+		title = "パーティー・ウィズ・アイリス",
 		subtype = 2,
 		link_event = 4963,
 		type = 2,
@@ -4049,7 +4035,7 @@ pg.base.memory_group = {
 		}
 	},
 	[254] = {
-		title = "愚者的天平",
+		title = "愚者の天秤",
 		subtype = 1,
 		link_event = 4967,
 		type = 2,
@@ -4105,7 +4091,7 @@ pg.base.memory_group = {
 		}
 	},
 	[255] = {
-		title = "薰风下的邀约",
+		title = "薫風の招待状",
 		subtype = 3,
 		link_event = 4962,
 		type = 2,
@@ -4119,7 +4105,7 @@ pg.base.memory_group = {
 		}
 	},
 	[256] = {
-		title = "月夜未央",
+		title = "暁夜半宵",
 		subtype = 1,
 		link_event = 4974,
 		type = 2,
@@ -4137,7 +4123,7 @@ pg.base.memory_group = {
 		}
 	},
 	[257] = {
-		title = "须臾望月抄",
+		title = "須臾望月抄",
 		subtype = 1,
 		link_event = 5001,
 		type = 2,
@@ -4182,7 +4168,7 @@ pg.base.memory_group = {
 		}
 	},
 	[258] = {
-		title = "港区时尚特刊：合订集[1]",
+		title = "母港着せ替え特集！その①",
 		subtype = 3,
 		link_event = 5009,
 		type = 2,
@@ -4198,7 +4184,7 @@ pg.base.memory_group = {
 		}
 	},
 	[259] = {
-		title = "度假村神秘事件调查",
+		title = "温泉街神隠し事件",
 		subtype = 2,
 		link_event = 4990,
 		type = 2,
@@ -4221,7 +4207,7 @@ pg.base.memory_group = {
 		}
 	},
 	[260] = {
-		title = "港区时尚特刊：合订集[2]",
+		title = "母港着せ替え特集！その②",
 		subtype = 3,
 		link_event = 5015,
 		type = 2,
@@ -4235,7 +4221,7 @@ pg.base.memory_group = {
 		}
 	},
 	[261] = {
-		title = "港区时尚特刊：Race Begins！",
+		title = "レーシング・ステージ！",
 		subtype = 3,
 		link_event = 5019,
 		type = 2,
@@ -4251,7 +4237,7 @@ pg.base.memory_group = {
 		}
 	},
 	[262] = {
-		title = "皇家财富的秘密船厂",
+		title = "ロイヤル・フォーチュンの秘密造船所",
 		subtype = 2,
 		link_event = 5023,
 		type = 2,
@@ -4270,7 +4256,7 @@ pg.base.memory_group = {
 		}
 	},
 	[263] = {
-		title = "飓风与青春之泉",
+		title = "テンペスタと若返りの泉",
 		subtype = 2,
 		link_event = 5051,
 		type = 2,
@@ -4309,7 +4295,7 @@ pg.base.memory_group = {
 		}
 	},
 	[264] = {
-		title = "雨夜惊魂",
+		title = "嵐夜綺譚",
 		subtype = 3,
 		link_event = 5054,
 		type = 2,
@@ -4348,7 +4334,7 @@ pg.base.memory_group = {
 		}
 	},
 	[265] = {
-		title = "今日主推商品是…？",
+		title = "今日の一押しは？",
 		subtype = 3,
 		link_event = 5082,
 		type = 2,
@@ -4362,7 +4348,7 @@ pg.base.memory_group = {
 		}
 	},
 	[266] = {
-		title = "「苍闪忍法帖」-关卡篇",
+		title = "蒼閃忍法帖-ステージ",
 		subtype = 2,
 		link_event = 5101,
 		type = 2,
@@ -4397,7 +4383,7 @@ pg.base.memory_group = {
 		}
 	},
 	[267] = {
-		title = "「苍闪忍法帖」-日常篇",
+		title = "蒼閃忍法帖-日常",
 		subtype = 2,
 		link_event = 5096,
 		type = 2,
@@ -4415,7 +4401,7 @@ pg.base.memory_group = {
 		}
 	},
 	[268] = {
-		title = "人气投票新篇章",
+		title = "人気投票2023",
 		subtype = 3,
 		link_event = 1068,
 		type = 2,
@@ -4443,7 +4429,7 @@ pg.base.memory_group = {
 		}
 	},
 	[269] = {
-		title = "晴空之下",
+		title = "星凪の空",
 		subtype = 1,
 		link_event = 5105,
 		type = 2,
@@ -4461,7 +4447,7 @@ pg.base.memory_group = {
 		}
 	},
 	[270] = {
-		title = "星海逐光",
+		title = "光追う星の海",
 		subtype = 1,
 		link_event = 5131,
 		type = 2,
@@ -4509,7 +4495,7 @@ pg.base.memory_group = {
 		}
 	},
 	[271] = {
-		title = "港区时尚特刊：炫彩缤纷夜",
+		title = "母港ナイト",
 		subtype = 3,
 		link_event = 5143,
 		type = 2,
@@ -4524,7 +4510,7 @@ pg.base.memory_group = {
 		}
 	},
 	[272] = {
-		title = "港区时尚特刊：合订集[3]",
+		title = "母港着せ替え特集！その③",
 		subtype = 3,
 		link_event = 5150,
 		type = 2,
@@ -4538,7 +4524,7 @@ pg.base.memory_group = {
 		}
 	},
 	[273] = {
-		title = "寰昌宇定家事忙",
+		title = "新春宴会狂騒曲",
 		subtype = 3,
 		link_event = 5178,
 		type = 2,
@@ -4554,7 +4540,7 @@ pg.base.memory_group = {
 		}
 	},
 	[274] = {
-		title = "新春的冒险之王",
+		title = "スプリング冒険キング",
 		subtype = 3,
 		link_event = 5178,
 		type = 2,
@@ -4568,7 +4554,7 @@ pg.base.memory_group = {
 		}
 	},
 	[275] = {
-		title = "港区时尚特刊：新春合集[1]",
+		title = "着せ替え特集　春節2023　①",
 		subtype = 3,
 		link_event = 5184,
 		type = 2,
@@ -4582,7 +4568,7 @@ pg.base.memory_group = {
 		}
 	},
 	[276] = {
-		title = "港区时尚特刊：新春合集[2]",
+		title = "着せ替え特集　春節2023　②",
 		subtype = 3,
 		link_event = 5184,
 		type = 2,
@@ -4596,7 +4582,7 @@ pg.base.memory_group = {
 		}
 	},
 	[277] = {
-		title = "向山而行",
+		title = "銀嶺烟霞",
 		subtype = 1,
 		link_event = 5212,
 		type = 2,
@@ -4615,7 +4601,7 @@ pg.base.memory_group = {
 		}
 	},
 	[278] = {
-		title = "雪境迷踪",
+		title = "銀界遊廻",
 		subtype = 1,
 		link_event = 5221,
 		type = 2,
@@ -4660,7 +4646,7 @@ pg.base.memory_group = {
 		}
 	},
 	[279] = {
-		title = "暗金不夜城",
+		title = "電影不夜城",
 		subtype = 3,
 		link_event = 5224,
 		type = 2,
@@ -4679,7 +4665,7 @@ pg.base.memory_group = {
 		}
 	},
 	[280] = {
-		title = "吟游者之诗",
+		title = "バードの詩",
 		subtype = 2,
 		link_event = 5243,
 		type = 2,
@@ -4695,7 +4681,7 @@ pg.base.memory_group = {
 		}
 	},
 	[281] = {
-		title = "从零开始的魔王讨伐之旅",
+		title = "ゼロから頑張る魔王討伐",
 		subtype = 2,
 		link_event = 5265,
 		type = 2,
@@ -4734,7 +4720,7 @@ pg.base.memory_group = {
 		}
 	},
 	[282] = {
-		title = "觉醒的黄金",
+		title = "蘇るゴールデン",
 		subtype = 2,
 		link_event = 5267,
 		type = 2,
@@ -4748,7 +4734,7 @@ pg.base.memory_group = {
 		}
 	},
 	[283] = {
-		title = "彼岸花开暗香来",
+		title = "彼岸のレドレント",
 		subtype = 1,
 		link_event = 5305,
 		type = 2,
@@ -4766,7 +4752,7 @@ pg.base.memory_group = {
 		}
 	},
 	[284] = {
-		title = "共鸣的Passion",
+		title = "共鳴のパッション",
 		subtype = 2,
 		link_event = 5301,
 		type = 2,
@@ -4794,7 +4780,7 @@ pg.base.memory_group = {
 		}
 	},
 	[285] = {
-		title = "港区时尚特刊：别样的日常",
+		title = "着せ替え特集  一味違う日常",
 		subtype = 3,
 		link_event = 5311,
 		type = 2,
@@ -4808,7 +4794,7 @@ pg.base.memory_group = {
 		}
 	},
 	[286] = {
-		title = "于启航之前",
+		title = "出航せよ母港クルーズ",
 		subtype = 2,
 		link_event = 5324,
 		type = 2,
@@ -4824,7 +4810,7 @@ pg.base.memory_group = {
 		}
 	},
 	[287] = {
-		title = "彼方之音",
+		title = "彼方の響",
 		subtype = 1,
 		link_event = 5341,
 		type = 2,
@@ -4842,7 +4828,7 @@ pg.base.memory_group = {
 		}
 	},
 	[288] = {
-		title = "假日！心跳！大邮轮！",
+		title = "トキメク休日大航海",
 		subtype = 3,
 		link_event = 5335,
 		type = 2,
@@ -4899,7 +4885,7 @@ pg.base.memory_group = {
 		}
 	},
 	[289] = {
-		title = "绽放于辉光之城",
+		title = "赫輝のマルティリウム",
 		subtype = 1,
 		link_event = 5331,
 		type = 2,
@@ -4945,7 +4931,7 @@ pg.base.memory_group = {
 		}
 	},
 	[290] = {
-		title = "翠园佳绣",
+		title = "翠園佳繍",
 		subtype = 3,
 		link_event = 5360,
 		type = 2,
@@ -4969,7 +4955,7 @@ pg.base.memory_group = {
 		}
 	},
 	[292] = {
-		title = "欢迎来到童心学院",
+		title = "リトル学園へようこそ",
 		subtype = 2,
 		link_event = 5402,
 		type = 2,
@@ -4990,7 +4976,7 @@ pg.base.memory_group = {
 		}
 	},
 	[293] = {
-		title = "幻梦间奏曲",
+		title = "夢幻の間奏曲",
 		subtype = 1,
 		link_event = 5501,
 		type = 2,
@@ -5011,7 +4997,7 @@ pg.base.memory_group = {
 		}
 	},
 	[294] = {
-		title = "港区时尚特刊：夏日极速",
+		title = "着せ替え特集  サマーレース",
 		subtype = 3,
 		link_event = 5504,
 		type = 2,
@@ -5025,7 +5011,7 @@ pg.base.memory_group = {
 		}
 	},
 	[295] = {
-		title = "朱红迷局",
+		title = "朱染断章",
 		subtype = 1,
 		link_event = 5512,
 		type = 2,
@@ -5043,7 +5029,7 @@ pg.base.memory_group = {
 		}
 	},
 	[296] = {
-		title = "铁翼擎风",
+		title = "錬翼空翔",
 		subtype = 1,
 		link_event = 5521,
 		type = 2,
@@ -5091,7 +5077,7 @@ pg.base.memory_group = {
 		}
 	},
 	[297] = {
-		title = "荒野假日开拓记",
+		title = "荒野休日開拓記",
 		subtype = 3,
 		link_event = 5523,
 		type = 2,
@@ -5120,7 +5106,7 @@ pg.base.memory_group = {
 		}
 	},
 	[298] = {
-		title = "埋葬于彼岸之花",
+		title = "徒花咲かす彼岸",
 		subtype = 1,
 		link_event = 5541,
 		type = 2,
@@ -5144,7 +5130,7 @@ pg.base.memory_group = {
 		}
 	},
 	[299] = {
-		title = "汇聚于此岸之尘",
+		title = "風塵積もる此岸",
 		subtype = 1,
 		link_event = 5551,
 		type = 2,
@@ -5162,7 +5148,7 @@ pg.base.memory_group = {
 		}
 	},
 	[300] = {
-		title = "乐园的起始符",
+		title = "楽園の開始符",
 		subtype = 2,
 		link_event = 5548,
 		type = 2,
@@ -5178,7 +5164,7 @@ pg.base.memory_group = {
 		}
 	},
 	[301] = {
-		title = "梦幻乐园的梦幻假日",
+		title = "ドリームランド・ドリームデイズ",
 		subtype = 2,
 		link_event = 5560,
 		type = 2,
@@ -5208,7 +5194,7 @@ pg.base.memory_group = {
 		}
 	},
 	[302] = {
-		title = "唤醒苍红之炎",
+		title = "絳染む丹華の詠歌",
 		subtype = 1,
 		link_event = 5562,
 		type = 2,
@@ -5256,7 +5242,7 @@ pg.base.memory_group = {
 		}
 	},
 	[303] = {
-		title = "环绕心间之舞",
+		title = "ハート・ダンシング",
 		subtype = 3,
 		link_event = 5581,
 		type = 2,
@@ -5268,7 +5254,7 @@ pg.base.memory_group = {
 		}
 	},
 	[304] = {
-		title = "宿舍焕新计划！",
+		title = "寮舎新館計画だにゃ！",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -5280,7 +5266,7 @@ pg.base.memory_group = {
 		}
 	},
 	[305] = {
-		title = "啾信火热测试中！",
+		title = "艦船通信、新装テスト！",
 		subtype = 0,
 		link_event = 0,
 		type = 1,
@@ -5292,7 +5278,7 @@ pg.base.memory_group = {
 		}
 	},
 	[306] = {
-		title = "飓风与沉眠之海",
+		title = "テンペスタと眠りし海",
 		subtype = 2,
 		link_event = 5625,
 		type = 2,
@@ -5325,7 +5311,7 @@ pg.base.memory_group = {
 		}
 	},
 	[307] = {
-		title = "《港区假日鬼怪故事集》",
+		title = "母港休日ハロウィン",
 		subtype = 3,
 		link_event = 5623,
 		type = 2,
@@ -5343,20 +5329,8 @@ pg.base.memory_group = {
 			3988
 		}
 	},
-	[308] = {
-		title = "新型促销来袭！",
-		subtype = 3,
-		link_event = 5654,
-		type = 2,
-		id = 308,
-		icon = "title_event",
-		group_id = "",
-		memories = {
-			4011
-		}
-	},
 	[309] = {
-		title = "「危险发明迫近中！」-关卡篇",
+		title = "危険発明接近中！-ステージ編",
 		subtype = 2,
 		link_event = 5679,
 		type = 2,
@@ -5384,7 +5358,7 @@ pg.base.memory_group = {
 		}
 	},
 	[310] = {
-		title = "「危险发明迫近中！」-日常篇",
+		title = "危険発明接近中！-日常編",
 		subtype = 2,
 		link_event = 5681,
 		type = 2,
@@ -5401,7 +5375,7 @@ pg.base.memory_group = {
 		}
 	},
 	[311] = {
-		title = "「危险发明迫近中！」-委托篇",
+		title = "危険発明接近中！-依頼編",
 		subtype = 2,
 		link_event = 5691,
 		type = 2,
@@ -5420,7 +5394,7 @@ pg.base.memory_group = {
 		}
 	},
 	[312] = {
-		title = "领域外的归途",
+		title = "領域外からの帰還",
 		subtype = 1,
 		link_event = 5699,
 		type = 2,
@@ -5440,7 +5414,7 @@ pg.base.memory_group = {
 		}
 	},
 	[313] = {
-		title = "星光下的余晖",
+		title = "星降る夕影の残光",
 		subtype = 1,
 		link_event = 5711,
 		type = 2,
@@ -5484,7 +5458,7 @@ pg.base.memory_group = {
 		}
 	},
 	[314] = {
-		title = "港区时尚特刊·节日特辑",
+		title = "ゲーミング・ナイト！",
 		subtype = 3,
 		link_event = 5721,
 		type = 2,
@@ -5501,7 +5475,7 @@ pg.base.memory_group = {
 		}
 	},
 	[315] = {
-		title = "港区时尚特刊：合订集[5]",
+		title = "ゲーミング・ナイト！",
 		subtype = 3,
 		link_event = 5735,
 		type = 2,
@@ -5517,7 +5491,7 @@ pg.base.memory_group = {
 		}
 	},
 	[316] = {
-		title = "港区时尚特刊：新春合集[3]",
+		title = "新春華裳協奏曲",
 		subtype = 3,
 		link_event = 5777,
 		type = 2,
@@ -5532,7 +5506,7 @@ pg.base.memory_group = {
 		}
 	},
 	[317] = {
-		title = "华裳巧展喜事长",
+		title = "新春華裳協奏曲",
 		subtype = 3,
 		link_event = 5772,
 		type = 2,
@@ -5548,7 +5522,7 @@ pg.base.memory_group = {
 		}
 	},
 	[318] = {
-		title = "港区时尚特刊：新春合集[4]",
+		title = "新春華裳協奏曲",
 		subtype = 3,
 		link_event = 5790,
 		type = 2,
@@ -5563,7 +5537,7 @@ pg.base.memory_group = {
 		}
 	},
 	[319] = {
-		title = "受选者之路",
+		title = "被選者の道",
 		subtype = 1,
 		link_event = 5809,
 		type = 2,
@@ -5581,7 +5555,7 @@ pg.base.memory_group = {
 		}
 	},
 	[320] = {
-		title = "樊笼内的神光",
+		title = "籠檻に囚われし神光",
 		subtype = 1,
 		link_event = 5821,
 		type = 2,
@@ -5628,7 +5602,7 @@ pg.base.memory_group = {
 		}
 	},
 	[321] = {
-		title = "港区时尚特刊：尼罗河文化展",
+		title = "ナイル文化展",
 		subtype = 3,
 		link_event = 5830,
 		type = 2,
@@ -5643,7 +5617,7 @@ pg.base.memory_group = {
 		}
 	},
 	[322] = {
-		title = "深谷来信",
+		title = "病院探訪",
 		subtype = 2,
 		link_event = 5871,
 		type = 2,
@@ -5665,7 +5639,7 @@ pg.base.memory_group = {
 		}
 	},
 	[323] = {
-		title = "布里战队大破港区危机",
+		title = "ブリ戦隊と母港暗黒コーポ",
 		subtype = 2,
 		link_event = 5879,
 		type = 2,
@@ -5679,7 +5653,7 @@ pg.base.memory_group = {
 		}
 	},
 	[324] = {
-		title = "港区时尚特刊：春日慵懒",
+		title = "母港着せ替え特集:春のんびり",
 		subtype = 3,
 		link_event = 5911,
 		type = 2,
@@ -5694,7 +5668,7 @@ pg.base.memory_group = {
 		}
 	},
 	[325] = {
-		title = "扬起郁金之旗",
+		title = "チュリッパの海へ",
 		subtype = 1,
 		link_event = 5901,
 		type = 2,
@@ -5713,7 +5687,7 @@ pg.base.memory_group = {
 		}
 	},
 	[326] = {
-		title = "假日别墅筹备中",
+		title = "リゾート準備中",
 		subtype = 2,
 		link_event = 5924,
 		type = 2,
@@ -5729,7 +5703,7 @@ pg.base.memory_group = {
 		}
 	},
 	[327] = {
-		title = "日不落的远征",
+		title = "太陽未だ沈まぬ",
 		subtype = 1,
 		link_event = 5924,
 		type = 2,
@@ -5747,7 +5721,7 @@ pg.base.memory_group = {
 		}
 	},
 	[328] = {
-		title = "夏日重建！海岛别墅度假计划！",
+		title = "盛夏再び！リゾート再建計画！",
 		subtype = 2,
 		link_event = 5952,
 		type = 2,
@@ -5785,7 +5759,7 @@ pg.base.memory_group = {
 		}
 	},
 	[329] = {
-		title = "高塔上的蔷薇",
+		title = "高い塔の薔薇",
 		subtype = 1,
 		link_event = 5941,
 		type = 2,
@@ -5832,7 +5806,7 @@ pg.base.memory_group = {
 		}
 	},
 	[330] = {
-		title = "天青胜玉",
+		title = "碧玉勝りし天青",
 		subtype = 3,
 		link_event = 5979,
 		type = 2,
@@ -5844,7 +5818,7 @@ pg.base.memory_group = {
 		}
 	},
 	[331] = {
-		title = "幻影迷途者-「关卡篇」",
+		title = "幻影の迷い人",
 		subtype = 2,
 		link_event = 5985,
 		type = 2,
@@ -5860,7 +5834,7 @@ pg.base.memory_group = {
 		}
 	},
 	[332] = {
-		title = "幻影迷途者-「日常篇」",
+		title = "幻影の迷い人",
 		subtype = 2,
 		link_event = 5985,
 		type = 2,
@@ -5873,7 +5847,7 @@ pg.base.memory_group = {
 		}
 	},
 	[333] = {
-		title = "迷彩都市的寻踪者",
+		title = "ネオンシティの探索者",
 		subtype = 2,
 		link_event = 50013,
 		type = 2,
@@ -5894,7 +5868,7 @@ pg.base.memory_group = {
 		}
 	},
 	[334] = {
-		title = "炼金术士与天际交汇之塔-「关卡篇」",
+		title = "錬金術士と天空邂逅の塔-ステージ編",
 		subtype = 2,
 		link_event = 50054,
 		type = 2,
@@ -5939,7 +5913,7 @@ pg.base.memory_group = {
 		}
 	},
 	[335] = {
-		title = "炼金术士与天际交汇之塔-「日常篇」",
+		title = "錬金術士と天空邂逅の塔-日常編",
 		subtype = 2,
 		link_event = 50054,
 		type = 2,
@@ -5954,7 +5928,7 @@ pg.base.memory_group = {
 		}
 	},
 	[336] = {
-		title = "奇渊下的秘密",
+		title = "淵層界の秘密",
 		subtype = 2,
 		link_event = 50081,
 		type = 2,
@@ -5994,7 +5968,7 @@ pg.base.memory_group = {
 		}
 	},
 	[337] = {
-		title = "港区时尚特刊：假日悠闲",
+		title = "母港ファッション　ホリデー",
 		subtype = 3,
 		link_event = 50084,
 		type = 2,
@@ -6012,7 +5986,7 @@ pg.base.memory_group = {
 		}
 	},
 	[338] = {
-		title = "重樱的邀约",
+		title = "重桜の招待",
 		subtype = 1,
 		link_event = 50104,
 		type = 2,
@@ -6030,7 +6004,7 @@ pg.base.memory_group = {
 		}
 	},
 	[339] = {
-		title = "起舞于天原之上",
+		title = "アマハラに舞い奉れ",
 		subtype = 1,
 		link_event = 50114,
 		type = 2,
@@ -6080,7 +6054,7 @@ pg.base.memory_group = {
 		}
 	},
 	[340] = {
-		title = "激战！忍者之城！",
+		title = "激戦！忍びの城！",
 		subtype = 2,
 		link_event = 50116,
 		type = 2,
@@ -6111,7 +6085,7 @@ pg.base.memory_group = {
 		}
 	},
 	[501] = {
-		title = "{namecode:98}的委托",
+		title = "明石のお願い",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6142,7 +6116,7 @@ pg.base.memory_group = {
 		}
 	},
 	[502] = {
-		title = "长岛小姐提不起劲",
+		title = "幽霊さんはガンバラナイ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6162,7 +6136,7 @@ pg.base.memory_group = {
 		}
 	},
 	[503] = {
-		title = "幸运之鹤",
+		title = "幸運の鶴",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6182,7 +6156,7 @@ pg.base.memory_group = {
 		}
 	},
 	[504] = {
-		title = "叫我{namecode:22}大人！",
+		title = "佐世保生まれの幸運艦",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6202,7 +6176,7 @@ pg.base.memory_group = {
 		}
 	},
 	[505] = {
-		title = "我的美好回忆",
+		title = "私の素晴らしい記憶",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6222,7 +6196,7 @@ pg.base.memory_group = {
 		}
 	},
 	[506] = {
-		title = "哈曼观察日志",
+		title = "ハムマン観察記録",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6242,7 +6216,7 @@ pg.base.memory_group = {
 		}
 	},
 	[507] = {
-		title = "彼岸花之恋？",
+		title = "ヒガンバナの恋",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6262,7 +6236,7 @@ pg.base.memory_group = {
 		}
 	},
 	[508] = {
-		title = "骑士与奖赏",
+		title = "ナイト＆アワード",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6282,7 +6256,7 @@ pg.base.memory_group = {
 		}
 	},
 	[509] = {
-		title = "雨后天晴",
+		title = "雨のち晴れ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6302,7 +6276,7 @@ pg.base.memory_group = {
 		}
 	},
 	[510] = {
-		title = "荣光的间奏曲",
+		title = "栄光なる間奏曲",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6322,7 +6296,7 @@ pg.base.memory_group = {
 		}
 	},
 	[511] = {
-		title = "Best Pictures!",
+		title = "ベストピクチャーズ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6342,7 +6316,7 @@ pg.base.memory_group = {
 		}
 	},
 	[512] = {
-		title = "和姐姐的一日约会",
+		title = "お姉さんと一日デート",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6362,7 +6336,7 @@ pg.base.memory_group = {
 		}
 	},
 	[513] = {
-		title = "纯白之诗",
+		title = "白き詩",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6382,7 +6356,7 @@ pg.base.memory_group = {
 		}
 	},
 	[515] = {
-		title = "骑士公主的忧郁",
+		title = "騎士姫の憂鬱",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6402,7 +6376,7 @@ pg.base.memory_group = {
 		}
 	},
 	[516] = {
-		title = "自由的天使",
+		title = "踊り子天使エミール",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6422,7 +6396,7 @@ pg.base.memory_group = {
 		}
 	},
 	[517] = {
-		title = "絮库夫的一天",
+		title = "ジュルネ・シュルクーフ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6442,7 +6416,7 @@ pg.base.memory_group = {
 		}
 	},
 	[518] = {
-		title = "融冰",
+		title = "「Schmelzen」",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6462,7 +6436,7 @@ pg.base.memory_group = {
 		}
 	},
 	[519] = {
-		title = "半人马与港区的“前辈”们",
+		title = "セントーと先輩たち",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6482,7 +6456,7 @@ pg.base.memory_group = {
 		}
 	},
 	[520] = {
-		title = "{namecode:71}的宴会",
+		title = "御召艦の宴",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6502,7 +6476,7 @@ pg.base.memory_group = {
 		}
 	},
 	[521] = {
-		title = "{namecode:429}的忧郁",
+		title = "曇りの仮面",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6522,7 +6496,7 @@ pg.base.memory_group = {
 		}
 	},
 	[522] = {
-		title = "大青花鱼的“陷阱”",
+		title = "サブマリン・トラップ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6542,7 +6516,7 @@ pg.base.memory_group = {
 		}
 	},
 	[523] = {
-		title = "“献身”的{namecode:97}",
+		title = "その女、賢妻につき",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6562,7 +6536,7 @@ pg.base.memory_group = {
 		}
 	},
 	[524] = {
-		title = "前辈与心结",
+		title = "先輩とわだかまり",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6582,7 +6556,7 @@ pg.base.memory_group = {
 		}
 	},
 	[525] = {
-		title = "忍者修行之路？",
+		title = "ニンジャ暁参上！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6602,7 +6576,7 @@ pg.base.memory_group = {
 		}
 	},
 	[526] = {
-		title = "讴歌平静的日常",
+		title = "平穏を讃えて",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6622,7 +6596,7 @@ pg.base.memory_group = {
 		}
 	},
 	[527] = {
-		title = "有关火奴鲁鲁的二三事",
+		title = "拗ねやすい彼女の小さなお話",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6642,7 +6616,7 @@ pg.base.memory_group = {
 		}
 	},
 	[528] = {
-		title = "神秘的兔兔星人？！",
+		title = "ウサウサ星人の謎？",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6662,7 +6636,7 @@ pg.base.memory_group = {
 		}
 	},
 	[529] = {
-		title = "万能看板娘{namecode:20}",
+		title = "万能店員シラヌイ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6682,7 +6656,7 @@ pg.base.memory_group = {
 		}
 	},
 	[530] = {
-		title = "康克德与甜食",
+		title = "シュガリーコンコード",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6702,7 +6676,7 @@ pg.base.memory_group = {
 		}
 	},
 	[531] = {
-		title = "轻型航母{namecode:90}参上！",
+		title = "軽空母龍驤ここにあり",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6722,7 +6696,7 @@ pg.base.memory_group = {
 		}
 	},
 	[532] = {
-		title = "来自{namecode:146}的温柔",
+		title = "大潮よりお届け♪",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6742,7 +6716,7 @@ pg.base.memory_group = {
 		}
 	},
 	[533] = {
-		title = "前进吧，{namecode:144}！",
+		title = "足柄、すゝめ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6762,7 +6736,7 @@ pg.base.memory_group = {
 		}
 	},
 	[534] = {
-		title = "与{namecode:93}共度的时光",
+		title = "蒼龍さんと一緒",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6782,7 +6756,7 @@ pg.base.memory_group = {
 		}
 	},
 	[535] = {
-		title = "{namecode:30}的烦恼",
+		title = "人見知りの黒猫",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6802,7 +6776,7 @@ pg.base.memory_group = {
 		}
 	},
 	[536] = {
-		title = "妹妹的变化",
+		title = "妹の成長期？！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6822,7 +6796,7 @@ pg.base.memory_group = {
 		}
 	},
 	[537] = {
-		title = "这个女仆不太冷",
+		title = "銃弾と、愛を込めて",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6842,7 +6816,7 @@ pg.base.memory_group = {
 		}
 	},
 	[538] = {
-		title = "天狼星改造计划",
+		title = "シリアス改造計画",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6862,7 +6836,7 @@ pg.base.memory_group = {
 		}
 	},
 	[539] = {
-		title = "皇家的骑士",
+		title = "ナイト・オブ・ロイヤル",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6882,7 +6856,7 @@ pg.base.memory_group = {
 		}
 	},
 	[540] = {
-		title = "纪行的藏红花",
+		title = "紀行のサフラン",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6902,7 +6876,7 @@ pg.base.memory_group = {
 		}
 	},
 	[542] = {
-		title = "港湾",
+		title = "小さな出来事",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6922,7 +6896,7 @@ pg.base.memory_group = {
 		}
 	},
 	[543] = {
-		title = "另一个领导者？",
+		title = "もうひとりのカリスマ？",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6942,7 +6916,7 @@ pg.base.memory_group = {
 		}
 	},
 	[544] = {
-		title = "小小的骑士誓言！",
+		title = "誓ってナイト！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6962,7 +6936,7 @@ pg.base.memory_group = {
 		}
 	},
 	[545] = {
-		title = "才不是小孩子！",
+		title = "コドモじゃないもん！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6982,7 +6956,7 @@ pg.base.memory_group = {
 		}
 	},
 	[546] = {
-		title = "彼岸的玫瑰",
+		title = "ローザ・ストーリア",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7002,7 +6976,7 @@ pg.base.memory_group = {
 		}
 	},
 	[547] = {
-		title = "阿芙乐尔和愉快的伙伴们",
+		title = "アヴローラと愉快な仲間たち",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7022,7 +6996,7 @@ pg.base.memory_group = {
 		}
 	},
 	[548] = {
-		title = "笑容Overflow！",
+		title = "笑顔オーバーフロー！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7042,7 +7016,7 @@ pg.base.memory_group = {
 		}
 	},
 	[549] = {
-		title = "为了印第的笑容！",
+		title = "インディちゃんの笑顔のために！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7062,7 +7036,7 @@ pg.base.memory_group = {
 		}
 	},
 	[550] = {
-		title = "淑女的小小提案",
+		title = "ご令嬢の小さな提案",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7082,7 +7056,7 @@ pg.base.memory_group = {
 		}
 	},
 	[551] = {
-		title = "笑容之下的真心",
+		title = "笑顔なあの子の胸のウチ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7102,7 +7076,7 @@ pg.base.memory_group = {
 		}
 	},
 	[552] = {
-		title = "幸福的范式",
+		title = "幸せテンプレート",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7122,7 +7096,7 @@ pg.base.memory_group = {
 		}
 	},
 	[553] = {
-		title = "GO！肯特选手！",
+		title = "GO！ポジティブ・メイド！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7142,7 +7116,7 @@ pg.base.memory_group = {
 		}
 	},
 	[554] = {
-		title = "与「大小姐」共处的时刻",
+		title = "お嬢様とめぐるひとときを",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7162,7 +7136,7 @@ pg.base.memory_group = {
 		}
 	},
 	[555] = {
-		title = "恋爱的季节到了",
+		title = "それは恋を呼ぶ季節",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7182,7 +7156,7 @@ pg.base.memory_group = {
 		}
 	},
 	[556] = {
-		title = "飒爽之白",
+		title = "颯爽の「白」",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7202,7 +7176,7 @@ pg.base.memory_group = {
 		}
 	},
 	[557] = {
-		title = "丹佛的港区委托！",
+		title = "デンバーの母港クエスト！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7222,7 +7196,7 @@ pg.base.memory_group = {
 		}
 	},
 	[558] = {
-		title = "3星豪华恋物语",
+		title = "3つ星プレミアム恋物語",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7242,7 +7216,7 @@ pg.base.memory_group = {
 		}
 	},
 	[559] = {
-		title = "爱操心的她可不是闹着玩的",
+		title = "世話焼き娘はダテじゃない",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7262,7 +7236,7 @@ pg.base.memory_group = {
 		}
 	},
 	[560] = {
-		title = "大小姐的学习日记",
+		title = "お嬢様学習帳",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7282,7 +7256,7 @@ pg.base.memory_group = {
 		}
 	},
 	[561] = {
-		title = "温柔、安静又温暖",
+		title = "やさしくて静かであたたかくて",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7302,7 +7276,7 @@ pg.base.memory_group = {
 		}
 	},
 	[562] = {
-		title = "无法坦率的心意",
+		title = "素直になれないキモチ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7322,7 +7296,7 @@ pg.base.memory_group = {
 		}
 	},
 	[563] = {
-		title = "香醇的提拉米苏",
+		title = "ティラミス・マーマレード",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7342,7 +7316,7 @@ pg.base.memory_group = {
 		}
 	},
 	[564] = {
-		title = "在樱花纷飞的那天之后",
+		title = "桜流しの日のあとで",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7362,7 +7336,7 @@ pg.base.memory_group = {
 		}
 	},
 	[565] = {
-		title = "凛冽如恶鬼",
+		title = "凛として鬼の如く",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7382,7 +7356,7 @@ pg.base.memory_group = {
 		}
 	},
 	[566] = {
-		title = "像牛仔一样!",
+		title = "サンシャイン・デュエル！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7402,7 +7376,7 @@ pg.base.memory_group = {
 		}
 	},
 	[567] = {
-		title = "突如其来的罗曼史",
+		title = "ラブロマンスは突然に",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7422,7 +7396,7 @@ pg.base.memory_group = {
 		}
 	},
 	[568] = {
-		title = "太阳般的辣妹",
+		title = "太陽のギャル",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7442,7 +7416,7 @@ pg.base.memory_group = {
 		}
 	},
 	[569] = {
-		title = "欲速则不达",
+		title = "急がば回れ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7462,7 +7436,7 @@ pg.base.memory_group = {
 		}
 	},
 	[570] = {
-		title = "从内到外魅力MAX！",
+		title = "裏表魅力MAXガール",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7502,7 +7476,7 @@ pg.base.memory_group = {
 		}
 	},
 	[572] = {
-		title = "夏日里的“惊喜”",
+		title = "夏の日の「サプライズ」",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7522,7 +7496,7 @@ pg.base.memory_group = {
 		}
 	},
 	[573] = {
-		title = "“我”独一无二的价值",
+		title = "「ワタシ」にしかない価値を",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7542,7 +7516,7 @@ pg.base.memory_group = {
 		}
 	},
 	[574] = {
-		title = "暴风雨与麦芽糖",
+		title = "スイート・デイは二人の雨模様",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7562,7 +7536,7 @@ pg.base.memory_group = {
 		}
 	},
 	[575] = {
-		title = "西南风，全速前进！",
+		title = "リベッチオ、全力でがんばるよ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7582,7 +7556,7 @@ pg.base.memory_group = {
 		}
 	},
 	[576] = {
-		title = "听你说喜欢",
+		title = "好きを伝えよう！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7602,7 +7576,7 @@ pg.base.memory_group = {
 		}
 	},
 	[577] = {
-		title = "薰衣草味的“恶魔”",
+		title = "クーちゃんが秘書艦！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7622,7 +7596,7 @@ pg.base.memory_group = {
 		}
 	},
 	[578] = {
-		title = "与牛仔的旅途",
+		title = "ネバダとの旅",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7642,7 +7616,7 @@ pg.base.memory_group = {
 		}
 	},
 	[579] = {
-		title = "花之语",
+		title = "言の葉、空に舞う花びら",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7662,7 +7636,7 @@ pg.base.memory_group = {
 		}
 	},
 	[580] = {
-		title = "元气甜心的爱意攻势",
+		title = "大大大大好きアタック！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7682,7 +7656,7 @@ pg.base.memory_group = {
 		}
 	},
 	[581] = {
-		title = "港区秘闻特别篇",
+		title = "母港ジャーナル・THE特別号！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7702,7 +7676,7 @@ pg.base.memory_group = {
 		}
 	},
 	[582] = {
-		title = "为了眼中的光芒",
+		title = "瞳に宿る光のために",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7722,7 +7696,7 @@ pg.base.memory_group = {
 		}
 	},
 	[583] = {
-		title = "热闹的“环球”晚宴",
+		title = "オール陣営パーティーナイト！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7742,7 +7716,7 @@ pg.base.memory_group = {
 		}
 	},
 	[584] = {
-		title = "于阳光照耀之外",
+		title = "日陰のトリチェリ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7762,7 +7736,7 @@ pg.base.memory_group = {
 		}
 	},
 	[585] = {
-		title = "献给碧海之歌",
+		title = "青き海と仲間のための",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7782,7 +7756,7 @@ pg.base.memory_group = {
 		}
 	},
 	[586] = {
-		title = "“好孩子”的偷懒时间",
+		title = "「いい子」とのおサボりタイム",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7802,7 +7776,7 @@ pg.base.memory_group = {
 		}
 	},
 	[587] = {
-		title = "绽放的铁蓝蔷薇",
+		title = "ほころぶアイアンローズ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7822,7 +7796,7 @@ pg.base.memory_group = {
 		}
 	},
 	[588] = {
-		title = "最甜蜜的发明",
+		title = "あなたのためのインベンション",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7842,7 +7816,7 @@ pg.base.memory_group = {
 		}
 	},
 	[589] = {
-		title = "与你一起的风景",
+		title = "あなたと共に見る風景",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7862,7 +7836,7 @@ pg.base.memory_group = {
 		}
 	},
 	[590] = {
-		title = "守护之刃需守护",
+		title = "守られし悪しき剣",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7882,7 +7856,7 @@ pg.base.memory_group = {
 		}
 	},
 	[591] = {
-		title = "隐藏于纯白之下",
+		title = "白に隠されしもの",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7902,7 +7876,7 @@ pg.base.memory_group = {
 		}
 	},
 	[592] = {
-		title = "全都交给我就好了！",
+		title = "キャプテンポンペイにおまかせを！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7922,7 +7896,7 @@ pg.base.memory_group = {
 		}
 	},
 	[593] = {
-		title = "主持人、艺人与秘书舰",
+		title = "タレントキャスターセクレタリー！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7942,7 +7916,7 @@ pg.base.memory_group = {
 		}
 	},
 	[594] = {
-		title = "不可思议的“大危机”",
+		title = "不思議に大ピンチ！？",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7962,7 +7936,7 @@ pg.base.memory_group = {
 		}
 	},
 	[595] = {
-		title = "提升棋力的妙手",
+		title = "棋力を上達させる妙手",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -7982,7 +7956,7 @@ pg.base.memory_group = {
 		}
 	},
 	[596] = {
-		title = "消除疲劳的秘诀是？",
+		title = "疲労回復の秘訣とは⁉",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8002,7 +7976,7 @@ pg.base.memory_group = {
 		}
 	},
 	[597] = {
-		title = "与天使的约会",
+		title = "天使とのランデブー",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8022,7 +7996,7 @@ pg.base.memory_group = {
 		}
 	},
 	[598] = {
-		title = "出发！寻找灵感之旅！",
+		title = "いざ出発！閃きを求める旅へ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8042,7 +8016,7 @@ pg.base.memory_group = {
 		}
 	},
 	[599] = {
-		title = "激荡的荒海之神",
+		title = "激動する荒海の主",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8062,7 +8036,7 @@ pg.base.memory_group = {
 		}
 	},
 	[600] = {
-		title = "阿尔萨斯过热中！",
+		title = "アルザス、オーバーヒート！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8082,7 +8056,7 @@ pg.base.memory_group = {
 		}
 	},
 	[601] = {
-		title = "谈心小屋，今日休假！",
+		title = "今日はお休み相談屋",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8102,7 +8076,7 @@ pg.base.memory_group = {
 		}
 	},
 	[602] = {
-		title = "{namecode:66}的修行",
+		title = "タカオ・スタディー",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8122,7 +8096,7 @@ pg.base.memory_group = {
 		}
 	},
 	[603] = {
-		title = "外出！寻得珍宝吧！",
+		title = "お出かけ！お宝探し！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8142,7 +8116,7 @@ pg.base.memory_group = {
 		}
 	},
 	[604] = {
-		title = "属于彼此的甜蜜饼干",
+		title = "二人だけのスイートクッキー",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8162,7 +8136,7 @@ pg.base.memory_group = {
 		}
 	},
 	[605] = {
-		title = "夺回甜蜜美梦！",
+		title = "スイートドリームを取り戻せ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8182,7 +8156,7 @@ pg.base.memory_group = {
 		}
 	},
 	[606] = {
-		title = "田园美味食记",
+		title = "それゆけグルメファーム！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8202,7 +8176,7 @@ pg.base.memory_group = {
 		}
 	},
 	[607] = {
-		title = "指挥官，该动筷了！",
+		title = "指揮官、ご飯の時間ですよ！",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8222,7 +8196,7 @@ pg.base.memory_group = {
 		}
 	},
 	[608] = {
-		title = " 风暴中心的依偎",
+		title = "ネッスル・イン・ストーム",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8242,7 +8216,7 @@ pg.base.memory_group = {
 		}
 	},
 	[609] = {
-		title = "独占时光",
+		title = "二人繋ぎ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8262,7 +8236,7 @@ pg.base.memory_group = {
 		}
 	},
 	[610] = {
-		title = "无效节能",
+		title = "無効な省エネ",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8282,7 +8256,7 @@ pg.base.memory_group = {
 		}
 	},
 	[611] = {
-		title = "魔女的命运之夜",
+		title = "魔女の運命の夜",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8302,7 +8276,7 @@ pg.base.memory_group = {
 		}
 	},
 	[612] = {
-		title = "微醺心事",
+		title = "思い、酔いしれて",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8322,7 +8296,7 @@ pg.base.memory_group = {
 		}
 	},
 	[613] = {
-		title = "花与剑的魔术师",
+		title = "花と剣の魔術師",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8342,7 +8316,7 @@ pg.base.memory_group = {
 		}
 	},
 	[614] = {
-		title = "天衣结缘",
+		title = "天衣結縁",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -8362,7 +8336,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1000] = {
-		title = "领航员养成计划",
+		title = "TB育成計画",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -8417,7 +8391,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1001] = {
-		title = "心与心的交汇",
+		title = "分かり合う心",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -8436,7 +8410,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1002] = {
-		title = "倾心交谈",
+		title = "耳を傾ければ",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -8477,7 +8451,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1003] = {
-		title = "领洋者养成计划",
+		title = "ナビゲーター育成",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -8534,7 +8508,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1004] = {
-		title = "心之絮语",
+		title = "ナビィの心の声",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
@@ -8554,7 +8528,7 @@ pg.base.memory_group = {
 		}
 	},
 	[1005] = {
-		title = "来访记事",
+		title = "仲間会話",
 		subtype = 3,
 		link_event = 0,
 		type = 2,

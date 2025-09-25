@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.child_plan = {
 	[1101] = {
-		name = "吃饭",
+		name = "ごはん",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -60,7 +60,7 @@ pg.child_plan = {
 		}
 	},
 	[1102] = {
-		name = "洗漱",
+		name = "支度",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -114,7 +114,7 @@ pg.child_plan = {
 		}
 	},
 	[1103] = {
-		name = "读故事",
+		name = "読み聞かせ",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -168,7 +168,7 @@ pg.child_plan = {
 		}
 	},
 	[1104] = {
-		name = "搭积木",
+		name = "積み木遊び",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -222,7 +222,7 @@ pg.child_plan = {
 		}
 	},
 	[1105] = {
-		name = "锻炼",
+		name = "運動",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -276,7 +276,7 @@ pg.child_plan = {
 		}
 	},
 	[1106] = {
-		name = "洗澡",
+		name = "お風呂",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -335,7 +335,7 @@ pg.child_plan = {
 		}
 	},
 	[1107] = {
-		name = "初级研修",
+		name = "初級座学",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -424,7 +424,7 @@ pg.child_plan = {
 		}
 	},
 	[1108] = {
-		name = "中级研修",
+		name = "中級座学",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -522,7 +522,7 @@ pg.child_plan = {
 		}
 	},
 	[1109] = {
-		name = "高级研修",
+		name = "上級座学",
 		type = 1,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -620,7 +620,7 @@ pg.child_plan = {
 		}
 	},
 	[1110] = {
-		name = "初级体能",
+		name = "初級体育",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -709,7 +709,7 @@ pg.child_plan = {
 		}
 	},
 	[1111] = {
-		name = "中级体能",
+		name = "中級体育",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -807,7 +807,7 @@ pg.child_plan = {
 		}
 	},
 	[1112] = {
-		name = "高级体能",
+		name = "上級体育",
 		type = 1,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -905,7 +905,7 @@ pg.child_plan = {
 		}
 	},
 	[1113] = {
-		name = "初级手工",
+		name = "初級手芸",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -994,7 +994,7 @@ pg.child_plan = {
 		}
 	},
 	[1114] = {
-		name = "中级手工",
+		name = "中級手芸",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -1092,7 +1092,7 @@ pg.child_plan = {
 		}
 	},
 	[1115] = {
-		name = "高级手工",
+		name = "上級手芸",
 		type = 1,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -1190,7 +1190,7 @@ pg.child_plan = {
 		}
 	},
 	[1116] = {
-		name = "初级声乐",
+		name = "初級音楽",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -1279,7 +1279,7 @@ pg.child_plan = {
 		}
 	},
 	[1117] = {
-		name = "中级声乐",
+		name = "中級音楽",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -1377,7 +1377,7 @@ pg.child_plan = {
 		}
 	},
 	[1118] = {
-		name = "高级声乐",
+		name = "上級音楽",
 		type = 1,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -1475,7 +1475,7 @@ pg.child_plan = {
 		}
 	},
 	[1119] = {
-		name = "初级美术",
+		name = "初級美術",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -1580,7 +1580,7 @@ pg.child_plan = {
 		}
 	},
 	[1120] = {
-		name = "中级美术",
+		name = "中級美術",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -1688,7 +1688,7 @@ pg.child_plan = {
 		}
 	},
 	[1121] = {
-		name = "高级美术",
+		name = "上級美術",
 		type = 1,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -1796,7 +1796,7 @@ pg.child_plan = {
 		}
 	},
 	[1122] = {
-		name = "初级形体",
+		name = "初級舞踊",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -1901,7 +1901,7 @@ pg.child_plan = {
 		}
 	},
 	[1123] = {
-		name = "中级形体",
+		name = "中級舞踊",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -2009,7 +2009,7 @@ pg.child_plan = {
 		}
 	},
 	[1124] = {
-		name = "高级形体",
+		name = "上級舞踊",
 		type = 1,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -2117,7 +2117,7 @@ pg.child_plan = {
 		}
 	},
 	[1125] = {
-		name = "初级表演",
+		name = "初級演技",
 		type = 1,
 		cost_resource2 = 0,
 		cost_resource3 = 1,
@@ -2222,7 +2222,7 @@ pg.child_plan = {
 		}
 	},
 	[1126] = {
-		name = "中级表演",
+		name = "中級演技",
 		type = 1,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -2330,7 +2330,7 @@ pg.child_plan = {
 		}
 	},
 	[1127] = {
-		name = "高级表演",
+		name = "上級演技",
 		type = 1,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -2438,7 +2438,7 @@ pg.child_plan = {
 		}
 	},
 	[1128] = {
-		name = "初级书法",
+		name = "初級書道",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -2543,7 +2543,7 @@ pg.child_plan = {
 		}
 	},
 	[1129] = {
-		name = "中级书法",
+		name = "中級書道",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -2651,7 +2651,7 @@ pg.child_plan = {
 		}
 	},
 	[1130] = {
-		name = "高级书法",
+		name = "上級書道",
 		type = 1,
 		cost_resource2 = 1,
 		cost_resource3 = 1,
@@ -2759,7 +2759,7 @@ pg.child_plan = {
 		}
 	},
 	[1201] = {
-		name = "初级烹饪",
+		name = "初級料理",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -2858,7 +2858,7 @@ pg.child_plan = {
 		}
 	},
 	[1202] = {
-		name = "中级烹饪",
+		name = "中級料理",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -2960,7 +2960,7 @@ pg.child_plan = {
 		}
 	},
 	[1203] = {
-		name = "高级烹饪",
+		name = "上級料理",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -3062,7 +3062,7 @@ pg.child_plan = {
 		}
 	},
 	[1204] = {
-		name = "初级园艺",
+		name = "初級園芸",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -3161,7 +3161,7 @@ pg.child_plan = {
 		}
 	},
 	[1205] = {
-		name = "中级园艺",
+		name = "中級園芸",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -3263,7 +3263,7 @@ pg.child_plan = {
 		}
 	},
 	[1206] = {
-		name = "高级园艺",
+		name = "上級園芸",
 		type = 2,
 		cost_resource2 = 7,
 		cost_resource3 = 1,
@@ -3365,7 +3365,7 @@ pg.child_plan = {
 		}
 	},
 	[1207] = {
-		name = "初级运动",
+		name = "初級運動",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -3459,7 +3459,7 @@ pg.child_plan = {
 		}
 	},
 	[1208] = {
-		name = "中级运动",
+		name = "中級運動",
 		type = 2,
 		cost_resource2 = 7,
 		cost_resource3 = 1,
@@ -3556,7 +3556,7 @@ pg.child_plan = {
 		}
 	},
 	[1209] = {
-		name = "高级运动",
+		name = "上級運動",
 		type = 2,
 		cost_resource2 = 8,
 		cost_resource3 = 1,
@@ -3653,7 +3653,7 @@ pg.child_plan = {
 		}
 	},
 	[1210] = {
-		name = "初级写生",
+		name = "初級芸術",
 		type = 2,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -3752,7 +3752,7 @@ pg.child_plan = {
 		}
 	},
 	[1211] = {
-		name = "中级写生",
+		name = "中級芸術",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -3854,7 +3854,7 @@ pg.child_plan = {
 		}
 	},
 	[1212] = {
-		name = "高级写生",
+		name = "上級芸術",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -3956,7 +3956,7 @@ pg.child_plan = {
 		}
 	},
 	[1213] = {
-		name = "初级茶道",
+		name = "初級茶道",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -4065,7 +4065,7 @@ pg.child_plan = {
 		}
 	},
 	[1214] = {
-		name = "中级茶道",
+		name = "中級茶道",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -4177,7 +4177,7 @@ pg.child_plan = {
 		}
 	},
 	[1215] = {
-		name = "高级茶道",
+		name = "上級茶道",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -4289,7 +4289,7 @@ pg.child_plan = {
 		}
 	},
 	[1216] = {
-		name = "初级戏剧",
+		name = "初級演劇",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -4388,7 +4388,7 @@ pg.child_plan = {
 		}
 	},
 	[1217] = {
-		name = "中级戏剧",
+		name = "中級演劇",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -4490,7 +4490,7 @@ pg.child_plan = {
 		}
 	},
 	[1218] = {
-		name = "高级戏剧",
+		name = "上級演劇",
 		type = 2,
 		cost_resource2 = 7,
 		cost_resource3 = 1,
@@ -4592,7 +4592,7 @@ pg.child_plan = {
 		}
 	},
 	[1219] = {
-		name = "初级演奏",
+		name = "初級演奏",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -4691,7 +4691,7 @@ pg.child_plan = {
 		}
 	},
 	[1220] = {
-		name = "中级演奏",
+		name = "中級演奏",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -4793,7 +4793,7 @@ pg.child_plan = {
 		}
 	},
 	[1221] = {
-		name = "高级演奏",
+		name = "上級演奏",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -4895,7 +4895,7 @@ pg.child_plan = {
 		}
 	},
 	[1222] = {
-		name = "初级拓展",
+		name = "初級補修",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -5004,7 +5004,7 @@ pg.child_plan = {
 		}
 	},
 	[1223] = {
-		name = "中级拓展",
+		name = "中級補修",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -5116,7 +5116,7 @@ pg.child_plan = {
 		}
 	},
 	[1224] = {
-		name = "高级拓展",
+		name = "上級補修",
 		type = 2,
 		cost_resource2 = 7,
 		cost_resource3 = 1,
@@ -5228,7 +5228,7 @@ pg.child_plan = {
 		}
 	},
 	[1225] = {
-		name = "初级音乐剧",
+		name = "初級音楽劇",
 		type = 2,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -5337,7 +5337,7 @@ pg.child_plan = {
 		}
 	},
 	[1226] = {
-		name = "中级音乐剧",
+		name = "中級音楽劇",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -5449,7 +5449,7 @@ pg.child_plan = {
 		}
 	},
 	[1227] = {
-		name = "高级音乐剧",
+		name = "上級音楽劇",
 		type = 2,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -5561,7 +5561,7 @@ pg.child_plan = {
 		}
 	},
 	[1301] = {
-		name = "初级绘画",
+		name = "路上デッサンⅠ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -5660,7 +5660,7 @@ pg.child_plan = {
 		}
 	},
 	[1302] = {
-		name = "初级书店店员",
+		name = "本屋手伝いⅠ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -5754,7 +5754,7 @@ pg.child_plan = {
 		}
 	},
 	[1303] = {
-		name = "初级庄园助手",
+		name = "農場手伝いⅠ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -5853,7 +5853,7 @@ pg.child_plan = {
 		}
 	},
 	[1304] = {
-		name = "初级运动指导",
+		name = "インストラクターⅠ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -5947,7 +5947,7 @@ pg.child_plan = {
 		}
 	},
 	[1305] = {
-		name = "初级舞台表演",
+		name = "俳優見習いⅠ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -6046,7 +6046,7 @@ pg.child_plan = {
 		}
 	},
 	[1306] = {
-		name = "初级歌手活动",
+		name = "歌手見習いⅠ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -6140,7 +6140,7 @@ pg.child_plan = {
 		}
 	},
 	[1307] = {
-		name = "初级英雄表演",
+		name = "演者見習いⅠ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -6239,7 +6239,7 @@ pg.child_plan = {
 		}
 	},
 	[1308] = {
-		name = "初级促销专员",
+		name = "販売スタッフⅠ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -6338,7 +6338,7 @@ pg.child_plan = {
 		}
 	},
 	[1310] = {
-		name = "初级便利店店员",
+		name = "売店手伝いⅠ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -6426,7 +6426,7 @@ pg.child_plan = {
 		}
 	},
 	[1311] = {
-		name = "初级咖啡店店员",
+		name = "バリスタⅠ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -6525,7 +6525,7 @@ pg.child_plan = {
 		}
 	},
 	[1312] = {
-		name = "中级绘画",
+		name = "路上デッサンⅡ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -6627,7 +6627,7 @@ pg.child_plan = {
 		}
 	},
 	[1313] = {
-		name = "中级书店店员",
+		name = "本屋手伝いⅡ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -6724,7 +6724,7 @@ pg.child_plan = {
 		}
 	},
 	[1314] = {
-		name = "中级庄园助手",
+		name = "農場手伝いⅡ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -6826,7 +6826,7 @@ pg.child_plan = {
 		}
 	},
 	[1315] = {
-		name = "中级运动指导",
+		name = "インストラクターⅡ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -6923,7 +6923,7 @@ pg.child_plan = {
 		}
 	},
 	[1316] = {
-		name = "中级舞台表演",
+		name = "俳優見習いⅡ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -7025,7 +7025,7 @@ pg.child_plan = {
 		}
 	},
 	[1317] = {
-		name = "中级歌手活动",
+		name = "歌手見習いⅡ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -7122,7 +7122,7 @@ pg.child_plan = {
 		}
 	},
 	[1318] = {
-		name = "中级英雄表演",
+		name = "演者見習いⅡ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -7224,7 +7224,7 @@ pg.child_plan = {
 		}
 	},
 	[1319] = {
-		name = "中级促销专员",
+		name = "販売スタッフⅡ",
 		type = 3,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -7326,7 +7326,7 @@ pg.child_plan = {
 		}
 	},
 	[1320] = {
-		name = "中级便利店店员",
+		name = "売店手伝いⅡ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -7417,7 +7417,7 @@ pg.child_plan = {
 		}
 	},
 	[1321] = {
-		name = "中级咖啡店店员",
+		name = "バリスタⅡ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -7519,7 +7519,7 @@ pg.child_plan = {
 		}
 	},
 	[1322] = {
-		name = "高级绘画",
+		name = "路上デッサンⅢ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -7621,7 +7621,7 @@ pg.child_plan = {
 		}
 	},
 	[1323] = {
-		name = "高级书店店员",
+		name = "本屋手伝いⅢ",
 		type = 3,
 		cost_resource2 = 3,
 		cost_resource3 = 1,
@@ -7718,7 +7718,7 @@ pg.child_plan = {
 		}
 	},
 	[1324] = {
-		name = "高级庄园助手",
+		name = "農場手伝いⅢ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -7820,7 +7820,7 @@ pg.child_plan = {
 		}
 	},
 	[1325] = {
-		name = "高级运动指导",
+		name = "インストラクターⅢ",
 		type = 3,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -7917,7 +7917,7 @@ pg.child_plan = {
 		}
 	},
 	[1326] = {
-		name = "高级舞台表演",
+		name = "俳優見習いⅢ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -8019,7 +8019,7 @@ pg.child_plan = {
 		}
 	},
 	[1327] = {
-		name = "高级歌手活动",
+		name = "歌手見習いⅢ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -8116,7 +8116,7 @@ pg.child_plan = {
 		}
 	},
 	[1328] = {
-		name = "高级英雄表演",
+		name = "演者見習いⅢ",
 		type = 3,
 		cost_resource2 = 6,
 		cost_resource3 = 1,
@@ -8218,7 +8218,7 @@ pg.child_plan = {
 		}
 	},
 	[1329] = {
-		name = "高级促销专员",
+		name = "販売スタッフⅢ",
 		type = 3,
 		cost_resource2 = 7,
 		cost_resource3 = 1,
@@ -8320,7 +8320,7 @@ pg.child_plan = {
 		}
 	},
 	[1330] = {
-		name = "高级便利店店员",
+		name = "売店手伝いⅢ",
 		type = 3,
 		cost_resource2 = 5,
 		cost_resource3 = 1,
@@ -8411,7 +8411,7 @@ pg.child_plan = {
 		}
 	},
 	[1331] = {
-		name = "高级咖啡店店员",
+		name = "バリスタⅢ",
 		type = 3,
 		cost_resource2 = 4,
 		cost_resource3 = 1,
@@ -8513,7 +8513,7 @@ pg.child_plan = {
 		}
 	},
 	[1404] = {
-		name = "做家务",
+		name = "家事手伝いⅠ",
 		type = 5,
 		cost_resource2 = 2,
 		cost_resource3 = 1,
@@ -8618,7 +8618,7 @@ pg.child_plan = {
 		}
 	},
 	[1402] = {
-		name = "宅家睡觉",
+		name = "自宅ごろごろ",
 		type = 4,
 		cost_resource2 = 0,
 		cost_resource3 = 1,

@@ -2,10 +2,10 @@ pg = pg or {}
 pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
-		name = "休闲计划",
+		name = "ブチ旅計画",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1,
@@ -43,10 +43,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960007,
-		name = "共进晚餐",
+		name = "一緒に夕ご飯",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			32,
@@ -72,10 +72,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960007,
-		name = "日出",
+		name = "一緒に日の出",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			51,
@@ -117,10 +117,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "沐浴露",
+		name = "ボディソープ？",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			86,
@@ -148,10 +148,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "味道",
+		name = "味わい",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			107,
@@ -186,10 +186,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "无聊",
+		name = "退屈",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			135,
@@ -217,10 +217,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "爱好",
+		name = "趣味",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			156,
@@ -274,10 +274,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "夜宵",
+		name = "夜食",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			203,
@@ -309,10 +309,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "思念",
+		name = "恋しさ",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			228,
@@ -346,10 +346,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "踩背",
+		name = "背中踏み踏み",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			255,
@@ -379,10 +379,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "醉话",
+		name = "酔っ払い",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			278,
@@ -413,10 +413,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "健身",
+		name = "トレーニング",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			302,
@@ -450,10 +450,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "手机短信",
+		name = "スタンプ",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			329,
@@ -496,10 +496,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "走失",
+		name = "迷子",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			365,
@@ -528,10 +528,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "失眠",
+		name = "眠れぬ夜",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			387,
@@ -574,10 +574,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "请假",
+		name = "休みを取りたいな",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			423,
@@ -637,10 +637,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "下雨天",
+		name = "雨の日",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			476,
@@ -694,10 +694,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "睡醒",
+		name = "目覚め",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			523,
@@ -723,9 +723,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 109,
-		name = "指挥室的宝藏",
+		name = "執務室のお宝？",
 		id = 19,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -800,9 +800,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 200,
-		name = "给指挥官的惊喜",
+		name = "指揮官サプライズ",
 		id = 20,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -884,9 +884,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 101,
-		name = "观影会筹备中",
+		name = "上映会に向けて",
 		id = 21,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -966,9 +966,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 102,
-		name = "“遵守纪律”的北方联合",
+		name = "規律は大事",
 		id = 22,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1038,9 +1038,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 103,
-		name = "聚餐",
+		name = "食事会",
 		id = 23,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1117,9 +1117,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 104,
-		name = "特别关注",
+		name = "特別フォロー",
 		id = 24,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1208,9 +1208,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 105,
-		name = "演习成绩",
+		name = "演習結果",
 		id = 25,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1281,9 +1281,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 106,
-		name = "频道幸运日",
+		name = "幸運の日",
 		id = 26,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1364,9 +1364,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 107,
-		name = "重樱的实力！",
+		name = "重桜の実力",
 		id = 27,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1450,9 +1450,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 108,
-		name = "特别的茶会",
+		name = "特別なお茶会",
 		id = 28,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1533,10 +1533,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "甜品课",
+		name = "スイーツ作り教室",
 		id = 29,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1122,
@@ -1581,10 +1581,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "约会的行程",
+		name = "デートコース",
 		id = 30,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1160,
@@ -1624,10 +1624,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "弄脏的衣物",
+		name = "洗濯の話",
 		id = 31,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1193,
@@ -1666,10 +1666,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "音乐会邀请",
+		name = "コンサート",
 		id = 32,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1225,
@@ -1707,10 +1707,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "不可思议事件",
+		name = "不思議事件",
 		id = 33,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1257,
@@ -1751,10 +1751,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "健康工作小贴士",
+		name = "体調管理のコツ",
 		id = 34,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1291,
@@ -1790,10 +1790,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "表情包的魔法",
+		name = "スタンプ☆マジック",
 		id = 35,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1320,
@@ -1824,10 +1824,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "魔法甘露",
+		name = "魔法の雫",
 		id = 36,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1344,
@@ -1867,10 +1867,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "魔女的梦",
+		name = "魔女の夢",
 		id = 37,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1377,
@@ -1903,10 +1903,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "睡过头了",
+		name = "寝坊",
 		id = 38,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1403,
@@ -1937,10 +1937,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "等指挥官的地方",
+		name = "待ち合わせ場所",
 		id = 39,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1427,
@@ -1980,10 +1980,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "与指挥官约会的方法",
+		name = "デートの仕方",
 		id = 40,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1460,
@@ -2023,10 +2023,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "高效沟通",
+		name = "効率的なコミュニケーション",
 		id = 41,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1493,
@@ -2071,10 +2071,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "深夜的监督者",
+		name = "深夜の監督者",
 		id = 42,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1531,
@@ -2107,10 +2107,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "鲁梅的晚餐",
+		name = "ルメイとの夕食",
 		id = 43,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1557,
@@ -2143,10 +2143,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "跑酷线路",
+		name = "パルクールルート",
 		id = 44,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1583,
@@ -2177,10 +2177,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "雨天",
+		name = "雨の日",
 		id = 45,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1607,
@@ -2218,10 +2218,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "整理文件",
+		name = "書類整理",
 		id = 46,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1638,
@@ -2263,10 +2263,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "甜品店",
+		name = "スイーツ屋",
 		id = 47,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1673,
@@ -2300,10 +2300,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "口红",
+		name = "リップの色",
 		id = 48,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1700,
@@ -2334,10 +2334,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "开店构想",
+		name = "いつかのこと",
 		id = 49,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1724,
@@ -2375,10 +2375,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "整理文件",
+		name = "書類の整理",
 		id = 50,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1755,
@@ -2419,10 +2419,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "绘本",
+		name = "絵本のお話",
 		id = 51,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1789,
@@ -2464,10 +2464,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "噩梦",
+		name = "悪い夢",
 		id = 52,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1824,
@@ -2516,10 +2516,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "新游戏",
+		name = "新作",
 		id = 53,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1866,
@@ -2564,10 +2564,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "料理练习",
+		name = "料理練習",
 		id = 54,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			1904,
@@ -2608,10 +2608,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "克服家里蹲",
+		name = "引きこもらないで",
 		id = 55,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			1938,
@@ -2653,10 +2653,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "口味调查",
+		name = "好みの調査",
 		id = 56,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			1973,
@@ -2693,10 +2693,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "厨房中的战场",
+		name = "厨房の中の戦場",
 		id = 57,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2003,
@@ -2731,10 +2731,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "香甜软糯？",
+		name = "甘くてふわふわ？",
 		id = 58,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2031,
@@ -2780,10 +2780,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "细节问题",
+		name = "細部について",
 		id = 59,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2070,
@@ -2820,10 +2820,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "晚间邀约",
+		name = "夜のお誘い",
 		id = 60,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2100,
@@ -2858,10 +2858,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "正式邀约",
+		name = "フォーマルデート",
 		id = 61,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2128,
@@ -2898,10 +2898,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "过度关注",
+		name = "過度な注目",
 		id = 62,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2158,
@@ -2935,10 +2935,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "展览邀约",
+		name = "イベントのお誘い",
 		id = 63,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2185,
@@ -2975,10 +2975,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "心意传递",
+		name = "伝えたい気持ち",
 		id = 64,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2215,
@@ -3023,10 +3023,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "撤回大法",
+		name = "撤回マスター",
 		id = 65,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2253,
@@ -3061,10 +3061,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "恶作剧计划",
+		name = "イタズラ計画",
 		id = 66,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2281,
@@ -3109,10 +3109,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "分享灵感",
+		name = "閃きは一緒に",
 		id = 67,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2319,
@@ -3153,10 +3153,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "保持洁净",
+		name = "清潔維持",
 		id = 68,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2353,
@@ -3190,10 +3190,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "围裙挑选",
+		name = "エプロン選び",
 		id = 69,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2380,
@@ -3231,10 +3231,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "到达前的准备",
+		name = "事前準備",
 		id = 70,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2411,
@@ -3272,9 +3272,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 103,
-		name = "新年红包",
+		name = "新年の紅包",
 		id = 71,
-		unlock_desc = "时间解锁",
+		unlock_desc = "特定時間に開放",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -3362,10 +3362,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "排忧解难",
+		name = "お悩み相談",
 		id = 72,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2509,
@@ -3402,10 +3402,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "下厨",
+		name = "台所へ",
 		id = 73,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2539,
@@ -3445,10 +3445,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "仪式感",
+		name = "幸せは細部に宿る",
 		id = 74,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2572,
@@ -3479,10 +3479,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "灵感再现",
+		name = "閃き、再び",
 		id = 75,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2596,
@@ -3539,10 +3539,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "照片，看看",
+		name = "写真、ちらっと",
 		id = 76,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2646,
@@ -3578,10 +3578,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "艺术家的饭",
+		name = "アーティストめし",
 		id = 77,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2675,
@@ -3613,10 +3613,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "探险！",
+		name = "リスキールート",
 		id = 78,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2700,
@@ -3672,10 +3672,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "整理文件",
+		name = "書類整理",
 		id = 79,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2749,
@@ -3718,10 +3718,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "心路",
+		name = "心境",
 		id = 80,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2785,
@@ -3765,10 +3765,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "去标准化",
+		name = "アンチ・フォーマライズ",
 		id = 81,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2822,
@@ -3808,10 +3808,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "看书的地点",
+		name = "読書に向いている場所",
 		id = 82,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2855,
@@ -3851,10 +3851,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "诗歌的灵感",
+		name = "詩の閃き",
 		id = 83,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			2888,
@@ -3911,10 +3911,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "特别的作战报告",
+		name = "スペシャルレポート",
 		id = 84,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			2938,
@@ -3959,10 +3959,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "战术饮品",
+		name = "戦術ドリンク",
 		id = 85,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			2976,
@@ -4001,10 +4001,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "错发的快件",
+		name = "配達ミス",
 		id = 86,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3008,
@@ -4051,10 +4051,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "问候之夜",
+		name = "最初のチャット",
 		id = 87,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3048,
@@ -4097,10 +4097,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "加班之夜",
+		name = "残業",
 		id = 88,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3084,
@@ -4138,10 +4138,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "浓情之夜",
+		name = "熱き夜",
 		id = 89,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3115,
@@ -4181,10 +4181,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "探险装备",
+		name = "探検装備",
 		id = 90,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3148,
@@ -4212,10 +4212,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "野外求生食谱",
+		name = "サバイバルレシピ",
 		id = 91,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3169,
@@ -4256,10 +4256,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "深夜温泉探险",
+		name = "夜中の温泉探検",
 		id = 92,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3203,
@@ -4295,10 +4295,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的纸飞机",
+		name = "ミラーさまの紙飛行機",
 		id = 93,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3232,
@@ -4324,10 +4324,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的笔记本",
+		name = "ミラーさまのノート",
 		id = 94,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3251,
@@ -4377,10 +4377,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的咖啡",
+		name = "ミラーさまのコーヒー",
 		id = 95,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3294,
@@ -4414,10 +4414,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "指挥官——！！！",
+		name = "指揮官――！！！",
 		id = 96,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3321,
@@ -4455,10 +4455,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "日程安排",
+		name = "日程調整",
 		id = 97,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3352,
@@ -4491,10 +4491,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "八卦特刊重磅头版！",
+		name = "母港ウワサ誌のトップニュース",
 		id = 98,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3378,
@@ -4541,10 +4541,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "宠物",
+		name = "ペット",
 		id = 99,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3418,
@@ -4586,10 +4586,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "互相监督",
+		name = "互いは見張り役",
 		id = 100,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3453,
@@ -4636,10 +4636,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "新装",
+		name = "新しいドレス",
 		id = 101,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3493,
@@ -4693,7 +4693,7 @@ pg.activity_ins_chat_group = {
 		name = "植物交流",
 		id = 102,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3537,
@@ -4727,10 +4727,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110201,
-		name = "厨房大危机",
+		name = "キッチン大ピンチ",
 		id = 103,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3564,
@@ -4779,10 +4779,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110201,
-		name = "孩子们的名字",
+		name = "子供たちの名前",
 		id = 104,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3606,
@@ -4825,10 +4825,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "绿色环境",
+		name = "緑のある環境",
 		id = 105,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3642,
@@ -4858,10 +4858,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "疗愈魔法",
+		name = "癒しの魔法",
 		id = 106,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3665,
@@ -4892,10 +4892,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "真是浪漫",
+		name = "ロマンチック",
 		id = 107,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3689,
@@ -4935,10 +4935,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "送饭",
+		name = "食事配達",
 		id = 108,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3722,
@@ -4964,10 +4964,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "你觉得冷么？",
+		name = "寒くない？",
 		id = 109,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3741,
@@ -4994,10 +4994,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "暖夜",
+		name = "暖かい夜",
 		id = 110,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3761,
@@ -5033,10 +5033,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "提神机器人",
+		name = "居眠り防止ロボット",
 		id = 111,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3790,
@@ -5073,10 +5073,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "爆炸发明",
+		name = "爆発する発明品",
 		id = 112,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3820,
@@ -5109,10 +5109,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "专属发明",
+		name = "専用発明品",
 		id = 113,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3846,
@@ -5159,10 +5159,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "休息的艺术",
+		name = "休憩の芸術",
 		id = 114,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3886,
@@ -5207,10 +5207,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "午休",
+		name = "昼休み",
 		id = 115,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			3924,
@@ -5253,10 +5253,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "睡衣办公革命",
+		name = "パジャマ勤務革命",
 		id = 116,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			3960,
@@ -5299,10 +5299,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "百密一疏",
+		name = "千慮の一失",
 		id = 117,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			3996,
@@ -5333,10 +5333,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "你所期望的惩罚",
+		name = "お前が望んだ罰",
 		id = 118,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4020,
@@ -5375,10 +5375,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "彼此的信物",
+		name = "二人だけの証",
 		id = 119,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4052,
@@ -5419,10 +5419,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "罪孽深重之人",
+		name = "罪深き人",
 		id = 120,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4086,
@@ -5457,10 +5457,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "距离感",
+		name = "距離感",
 		id = 121,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4114,
@@ -5498,10 +5498,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "指挥官研究进行中",
+		name = "指揮官研究進行中",
 		id = 122,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4145,
@@ -5542,10 +5542,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "尼罗河粽子",
+		name = "ナイルちまき",
 		id = 123,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4179,
@@ -5579,10 +5579,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "招财狮身人面像",
+		name = "招きスフィンクス",
 		id = 124,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4206,
@@ -5612,10 +5612,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "从未失去",
+		name = "灯台下暗し",
 		id = 125,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4229,
@@ -5655,10 +5655,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "惊喜",
+		name = "サプライズ",
 		id = 126,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4262,
@@ -5695,10 +5695,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "七彩按摩仪",
+		name = "七色マッサージ機",
 		id = 127,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4292,
@@ -5734,10 +5734,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "各自的工作",
+		name = "それぞれの仕事",
 		id = 128,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4321,
@@ -5785,10 +5785,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "握住我的手",
+		name = "私の手を握って",
 		id = 129,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4362,
@@ -5825,10 +5825,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "我会一直注视着你",
+		name = "ずっと見守っているから",
 		id = 130,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4392,
@@ -5865,10 +5865,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "猎人与猎手",
+		name = "狩人と獲物",
 		id = 131,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4422,
@@ -5902,10 +5902,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "系统的日程规划",
+		name = "省エネの心得",
 		id = 132,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4449,
@@ -5937,10 +5937,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "给我好好休息",
+		name = "横になる場所",
 		id = 133,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4474,
@@ -5969,10 +5969,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "反客为主",
+		name = "星の降る夜",
 		id = 134,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4496,
@@ -6012,10 +6012,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "节能教学",
+		name = "スケジューリングはしっかり",
 		id = 135,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4529,
@@ -6045,10 +6045,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "睡觉的地方",
+		name = "ちゃんと休んで",
 		id = 136,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4552,
@@ -6087,10 +6087,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "星夜休憩",
+		name = "ハプニングをチャンスに",
 		id = 137,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4584,
@@ -6126,10 +6126,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "开发顾问",
+		name = "開発アドバイザー",
 		id = 138,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4613,
@@ -6167,10 +6167,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "评分系统",
+		name = "採点アイテム",
 		id = 139,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4644,
@@ -6212,10 +6212,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "恋爱大师",
+		name = "恋愛マスター",
 		id = 140,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4679,
@@ -6259,10 +6259,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "甜点派送",
+		name = "お菓子デリバリー",
 		id = 141,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4716,
@@ -6305,10 +6305,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "香味残留",
+		name = "残り香",
 		id = 142,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4752,
@@ -6355,10 +6355,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90401,
-		name = "哄睡服务",
+		name = "添い寝",
 		id = 143,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4792,
@@ -6412,10 +6412,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90105,
-		name = "神秘记事本",
+		name = "謎のノート",
 		id = 144,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4839,
@@ -6451,10 +6451,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90105,
-		name = "魔术柜子",
+		name = "マジックキャビネット",
 		id = 145,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4868,
@@ -6492,10 +6492,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90105,
-		name = "花的实验",
+		name = "フラワーテスト",
 		id = 146,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4899,
@@ -6532,10 +6532,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80401,
-		name = "“公平交易”",
+		name = "「公平な取引」",
 		id = 147,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			4929,
@@ -6561,10 +6561,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80401,
-		name = "咖啡除外",
+		name = "コーヒー以外",
 		id = 148,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			4948,
@@ -6601,10 +6601,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80401,
-		name = "指挥官的味道",
+		name = "指揮官の味",
 		id = 149,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			4978,
@@ -6636,10 +6636,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80601,
-		name = "线上工作",
+		name = "オンライン聖務",
 		id = 150,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5003,
@@ -6679,10 +6679,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80601,
-		name = "健康与音乐",
+		name = "健康と音楽",
 		id = 151,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5036,
@@ -6721,10 +6721,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80601,
-		name = "梦境控制",
+		name = "夢のコントロール",
 		id = 152,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5068,
@@ -6759,10 +6759,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80105,
-		name = "形象改造",
+		name = "イメチェン",
 		id = 153,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5096,
@@ -6791,10 +6791,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80105,
-		name = "柜子动了",
+		name = "動くキャビネット",
 		id = 154,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5118,
@@ -6837,10 +6837,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80105,
-		name = "真心话大冒险",
+		name = "真実か挑戦か",
 		id = 155,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5154,
@@ -6880,10 +6880,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80303,
-		name = "特色庆典",
+		name = "スペシャルフェス",
 		id = 156,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5187,
@@ -6916,10 +6916,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80303,
-		name = "喜欢的餐点",
+		name = "好物の料理",
 		id = 157,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5213,
@@ -6951,10 +6951,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80303,
-		name = "挑战旅行",
+		name = "チャレンジの旅",
 		id = 158,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5238,
@@ -6989,10 +6989,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80204,
-		name = "净化邪祟",
+		name = "邪悪を浄化せん",
 		id = 159,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5266,
@@ -7026,10 +7026,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80204,
-		name = "打碟机与专辑",
+		name = "DJプレイヤーとアルバム",
 		id = 160,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5293,
@@ -7058,10 +7058,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 80204,
-		name = "一日支配权",
+		name = "一日の支配権",
 		id = 161,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5315,
@@ -7094,10 +7094,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10709,
-		name = "一起喝",
+		name = "一緒に飲もう",
 		id = 162,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5341,
@@ -7126,10 +7126,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10709,
-		name = "创意汉堡",
+		name = "オリジナルハンバーガー",
 		id = 163,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5363,
@@ -7161,10 +7161,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10709,
-		name = "约会的默契",
+		name = "シンクロするデート",
 		id = 164,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5388,
@@ -7194,10 +7194,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30716,
-		name = "雨天的香道",
+		name = "雨の日の香道",
 		id = 165,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5411,
@@ -7229,10 +7229,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30716,
-		name = "镜中画面",
+		name = "鏡の中の景色",
 		id = 166,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5436,
@@ -7267,10 +7267,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30716,
-		name = "相伴永恒",
+		name = "共に、そして永遠に",
 		id = 167,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5464,
@@ -7299,10 +7299,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 31702,
-		name = "水族馆",
+		name = "アクアリウム",
 		id = 168,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5486,
@@ -7334,10 +7334,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 31702,
-		name = "快速召唤",
+		name = "クイックサモン",
 		id = 169,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5511,
@@ -7373,10 +7373,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 31702,
-		name = "深海之舞",
+		name = "深海の舞",
 		id = 170,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5540,
@@ -7403,10 +7403,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30516,
-		name = "对酒当歌",
+		name = "酒に歌うべし",
 		id = 171,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5560,
@@ -7443,10 +7443,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30516,
-		name = "俳谐情真切",
+		name = "俳諧に込めた真心",
 		id = 172,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5590,
@@ -7481,10 +7481,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30516,
-		name = "酒一杯",
+		name = "一杯だけ",
 		id = 173,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5618,
@@ -7521,7 +7521,7 @@ pg.activity_ins_chat_group = {
 		name = "迷迭香",
 		id = 174,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5645,
@@ -7552,10 +7552,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30320,
-		name = "温泉邀约",
+		name = "湯治のお誘い",
 		id = 175,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5669,
@@ -7586,10 +7586,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30320,
-		name = "未完成的告别",
+		name = "果たさなかった別れ",
 		id = 176,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5693,
@@ -7623,10 +7623,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30227,
-		name = "奇特食材",
+		name = "ちょっと変わった食材",
 		id = 177,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5720,
@@ -7656,10 +7656,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30227,
-		name = "汤锅升级",
+		name = "お鍋アップグレード",
 		id = 178,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5743,
@@ -7694,10 +7694,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30227,
-		name = "汤名为爱",
+		name = "愛という名のお鍋",
 		id = 179,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5771,
@@ -7728,10 +7728,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30192,
-		name = "盆栽在说话",
+		name = "喋る盆栽",
 		id = 180,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5795,
@@ -7763,10 +7763,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30192,
-		name = "你以为是忍具？",
+		name = "ただの忍具だと思った？",
 		id = 181,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5820,
@@ -7795,10 +7795,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30192,
-		name = "小心头顶",
+		name = "頭上に注意",
 		id = 182,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5842,
@@ -7824,10 +7824,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30225,
-		name = "缝缝补补",
+		name = "補修のお手伝い",
 		id = 183,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "キャラ入手",
 		trigger_type = 1,
 		content = {
 			5861,
@@ -7853,10 +7853,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30225,
-		name = "武者的直觉",
+		name = "武者の勘",
 		id = 184,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "好感度愛達成",
 		trigger_type = 2,
 		content = {
 			5880,
@@ -7883,10 +7883,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 30225,
-		name = "彼此的工作",
+		name = "お互いの仕事",
 		id = 185,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "ケッコン済",
 		trigger_type = 2,
 		content = {
 			5900,

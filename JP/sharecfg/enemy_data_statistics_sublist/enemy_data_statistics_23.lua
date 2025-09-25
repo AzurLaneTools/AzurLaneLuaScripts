@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_23 = {
 	[90710] = {
 		cannon = 0,
-		name = "菲尔弗萨级潜艇「Assassin」",
+		name = "フィルフサ級量産潜水艦-「Assassin」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -153,7 +153,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90711] = {
 		cannon = 0,
-		name = "古代遗迹探索者",
+		name = "古代遺跡スカベンジャー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -309,7 +309,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90712] = {
 		cannon = 0,
-		name = "古代遗迹追迹者",
+		name = "古代遺跡チェイサー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -465,7 +465,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90713] = {
 		cannon = 0,
-		name = "古代遗迹领洋者",
+		name = "古代遺跡ナビゲーター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -621,7 +621,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90714] = {
 		cannon = 0,
-		name = "古代遗迹破局者",
+		name = "古代遺跡スマッシャー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -777,7 +777,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90715] = {
 		cannon = 0,
-		name = "古代遗迹执棋者",
+		name = "古代遺跡コンダクター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -933,7 +933,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90716] = {
 		cannon = 0,
-		name = "古代遗迹守护者原型机",
+		name = "古代遺跡守護者プロトタイプ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1096,7 +1096,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90717] = {
 		cannon = 0,
-		name = "古代遗迹守护者原型机-第二形态",
+		name = "古代遺跡守護者プロトタイプ・第二形態",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1259,7 +1259,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90718] = {
 		cannon = 0,
-		name = "亚利桑那·META",
+		name = "アリゾナ(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1431,7 +1431,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90719] = {
 		cannon = 0,
-		name = "OFS.轻型护卫舰",
+		name = "OFS.量産型小型コルベット",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1593,7 +1593,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90720] = {
 		cannon = 0,
-		name = "OFS.导弹驱逐舰",
+		name = "OFS.量産型ミサイル駆逐艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1762,7 +1762,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90721] = {
 		cannon = 0,
-		name = "OFS.导弹巡洋舰",
+		name = "OFS.量産型ミサイル巡洋艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1938,7 +1938,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90722] = {
 		cannon = 0,
-		name = "OFS.重型驱逐舰",
+		name = "OFS.量産型重装駆逐艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2114,7 +2114,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90723] = {
 		cannon = 0,
-		name = "OFS.导弹战列舰",
+		name = "OFS.量産型ミサイリアー戦艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2290,7 +2290,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90724] = {
 		cannon = 0,
-		name = "OFS.无人机母舰",
+		name = "OFS.量産型ドローンキャリア",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2459,7 +2459,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90725] = {
 		cannon = 0,
-		name = "OFS.航空母舰",
+		name = "OFS.量産型空母",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2628,7 +2628,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90726] = {
 		cannon = 0,
-		name = "OFS.自动化水下航行器",
+		name = "OFS.自律潜航機",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2780,7 +2780,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90727] = {
 		cannon = 0,
-		name = "OFS.攻击潜艇",
+		name = "OFS.量産型攻撃潜水艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2940,7 +2940,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90728] = {
 		cannon = 0,
-		name = "OFS.防空快艇",
+		name = "OFS.量産型対空ボート",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3095,7 +3095,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90729] = {
 		cannon = 0,
-		name = "OFS.快速战斗支援舰",
+		name = "OFS.量産型高速支援艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3250,7 +3250,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90730] = {
 		cannon = 0,
-		name = "代行者XV「Temptation」",
+		name = "エンフォーサーXV「Temptation」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3406,7 +3406,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90731] = {
 		cannon = 0,
-		name = "代行者XV「Restriction」",
+		name = "エンフォーサーXV「Restriction」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3562,7 +3562,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90732] = {
 		cannon = 0,
-		name = "仲裁者·迪贝路·XV",
+		name = "アビータ・DevilXV",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3714,7 +3714,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90733] = {
 		cannon = 0,
-		name = "Devil.压制模块",
+		name = "Devil-制圧ドローン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3835,7 +3835,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90734] = {
 		cannon = 0,
-		name = "Devil.狙击模块",
+		name = "Devil-狙撃ドローン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3956,7 +3956,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90735] = {
 		cannon = 0,
-		name = "OFS.深水情报舰「厄庇墨透斯」",
+		name = "OFS.大型深海探査情報収集潜航艦「エピメテウス」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4136,7 +4136,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90736] = {
 		cannon = 0,
-		name = "阿芙乐尔",
+		name = "アヴローラ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4305,7 +4305,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90737] = {
 		cannon = 0,
-		name = "甘古特",
+		name = "ガングート",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4461,7 +4461,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90738] = {
 		cannon = 0,
-		name = "忒修斯",
+		name = "シーシュース",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4624,7 +4624,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90739] = {
 		cannon = 0,
-		name = "古比雪夫",
+		name = "クイビシェフ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4780,7 +4780,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90740] = {
 		cannon = 0,
-		name = "审判型机甲武装-战争",
+		name = "審判型武装機構・Rouge",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

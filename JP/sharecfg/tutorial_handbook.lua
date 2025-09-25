@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.tutorial_handbook = {
 	[100] = {
-		name = "新手任务",
+		name = "新兵任務",
 		eng_name = "NEWCOMER",
 		type = 1,
 		id = 100,
@@ -21,7 +21,7 @@ pg.tutorial_handbook = {
 		}
 	},
 	[200] = {
-		name = "功能指引",
+		name = "機能案内",
 		eng_name = "TUTORIAL",
 		type = 1,
 		id = 200,
@@ -66,7 +66,7 @@ pg.tutorial_handbook = {
 		}
 	},
 	[900] = {
-		name = "科研任务",
+		name = "開発任務",
 		eng_name = "RESEARCH",
 		type = 2,
 		id = 900,

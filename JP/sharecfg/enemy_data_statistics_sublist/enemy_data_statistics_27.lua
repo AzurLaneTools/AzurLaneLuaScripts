@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_27 = {
 	[90834] = {
 		cannon = 0,
-		name = "别兰特城邦-战列舰",
+		name = "プラントポリス-シップ・オブ・ザ・ライン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -170,7 +170,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90835] = {
 		cannon = 0,
-		name = "王座城邦-大型战列舰",
+		name = "クラウンポリス-マン・オブ・ウォー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -336,7 +336,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90836] = {
 		cannon = 0,
-		name = "新世界-快速帆船",
+		name = "新世界-クリッパー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -496,7 +496,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90837] = {
 		cannon = 0,
-		name = "新世界-火攻船",
+		name = "新世界-ファイアシップ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -642,7 +642,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90838] = {
 		cannon = 0,
-		name = "“往日幽影”-护卫舰",
+		name = "「旧き影」-コルベット",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -795,7 +795,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90839] = {
 		cannon = 0,
-		name = "“往日幽影”-巡航舰",
+		name = "「旧き影」-フリゲート",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -948,7 +948,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90840] = {
 		cannon = 0,
-		name = "“往日幽影”-战列舰",
+		name = "「旧き影」-シップ・オブ・ザ・ライン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1116,7 +1116,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90841] = {
 		cannon = 0,
-		name = "“往日幽影”-大型战列舰",
+		name = "「旧き影」-マン・オブ・ウォー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1282,7 +1282,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90842] = {
 		cannon = 0,
-		name = "“往日幽影“-快速帆船",
+		name = "「旧き影」-クリッパー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1442,7 +1442,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90843] = {
 		cannon = 0,
-		name = "“往日幽影”-火攻船",
+		name = "「旧き影」-ファイアシップ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1588,7 +1588,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90844] = {
 		cannon = 0,
-		name = "加里冒险号",
+		name = "アドヴェンチャー・ギャレー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1737,7 +1737,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90845] = {
 		cannon = 0,
-		name = "圣马丁号",
+		name = "サン・マルチーニョ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1894,7 +1894,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90846] = {
 		cannon = 0,
-		name = "玛丽·西莱斯特号",
+		name = "メアリー・セレスト",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2038,7 +2038,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90847] = {
 		cannon = 0,
-		name = "维达号",
+		name = "ウィダー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2182,7 +2182,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90848] = {
 		cannon = 0,
-		name = "金鹿号",
+		name = "ゴールデン・ハインド",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2331,7 +2331,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90849] = {
 		cannon = 0,
-		name = "埃尔薇菈",
+		name = "エルビング",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2638,7 +2638,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90851] = {
 		cannon = 0,
-		name = "战忍型驱逐舰",
+		name = "量産型戦ニン駆逐艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2800,7 +2800,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90852] = {
 		cannon = 0,
-		name = "战忍型轻巡洋舰",
+		name = "量産型戦ニン軽巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2962,7 +2962,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90853] = {
 		cannon = 0,
-		name = "战忍型重巡洋舰",
+		name = "量産型戦ニン重巡",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3131,7 +3131,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90854] = {
 		cannon = 0,
-		name = "战忍型战列舰",
+		name = "量産型戦ニン戦艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3300,7 +3300,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90855] = {
 		cannon = 0,
-		name = "战忍型航空母舰",
+		name = "量産型戦ニン空母",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3469,7 +3469,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90856] = {
 		cannon = 0,
-		name = "战忍型自爆船",
+		name = "量産型戦ニン自爆船",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3615,7 +3615,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90857] = {
 		cannon = 0,
-		name = "战忍型潜水艇",
+		name = "量産型戦ニン潜水艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3766,7 +3766,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90858] = {
 		cannon = 0,
-		name = "战忍机铠-「剑」",
+		name = "戦ニン機甲-「剣」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3922,7 +3922,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90859] = {
 		cannon = 0,
-		name = "战忍机铠-「刃」",
+		name = "戦ニン機甲-「刃」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4078,7 +4078,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90860] = {
 		cannon = 0,
-		name = "战忍机铠-「爪」",
+		name = "戦ニン機甲-「爪」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4234,7 +4234,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90861] = {
 		cannon = 0,
-		name = "战忍机铠-「炮」",
+		name = "戦ニン機甲-「砲」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4390,7 +4390,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90862] = {
 		cannon = 0,
-		name = "战忍机铠-「弓」",
+		name = "戦ニン機甲-「弓」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4546,7 +4546,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90863] = {
 		cannon = 0,
-		name = "实验型战忍机铠武装",
+		name = "テスター・戦ニン機甲ボディ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4709,7 +4709,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90864] = {
 		cannon = 0,
-		name = "飞鸟",
+		name = "飛鳥",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.guild_operation_template = {
 	{
-		scale = "小型远征：1~5人(推荐)",
-		name = "米德维岛哨卫作战",
+		scale = "小規模：(推奨参加メンバー数）1～5人",
+		name = "大洋基地哨戒作戦",
 		theme = "midway",
-		profile = "近期米德维岛附近的塞壬反应异常强烈，敌人也许正在酝酿新的攻击，请加强戒备！",
+		profile = "大洋基地近辺にセイレーン反応！海域哨戒を実施し、敵の大規模作戦を未然に防げ！",
 		unlock_guild_level = 1,
 		consume = 1000,
 		id = 1,
@@ -32,10 +32,10 @@ pg.guild_operation_template = {
 		}
 	},
 	{
-		scale = "中型远征：3~8人(推荐)",
-		name = "北方商路护航作战",
+		scale = "中規模：(推奨参加メンバー数）3～8人",
+		name = "北方航路護衛作戦",
 		theme = "northern",
-		profile = "NA海域中的商路航线最近频繁遭遇塞壬规模不等舰队的袭扰，请带领舰队确保航线通畅，注意安全！",
+		profile = "北方海域の航路にセイレーン来襲！艦隊を派遣し通商船団の安全を確保せよ！",
 		unlock_guild_level = 3,
 		consume = 2000,
 		id = 2,
@@ -62,10 +62,10 @@ pg.guild_operation_template = {
 		}
 	},
 	{
-		scale = "大型远征：6~14人(推荐)",
-		name = "半岛攻略战",
+		scale = "大規模：(推奨参加メンバー数）6～14人",
+		name = "半島航路確保作戦",
 		theme = "norskehavet",
-		profile = "为了确保重要物资，指挥部需要取得北地半岛的完全控制权。请集结舰队，准备战斗！",
+		profile = "物資輸送を確保するため、艦隊を派遣し、半島航路の護衛支援に尽力すべし！",
 		unlock_guild_level = 5,
 		consume = 3000,
 		id = 3,
@@ -94,10 +94,10 @@ pg.guild_operation_template = {
 		}
 	},
 	{
-		scale = "大型远征：8~20人(推荐)",
-		name = "达古康纳尔岛海空战",
+		scale = "超大規模：(推奨参加メンバー数）8～20人",
+		name = "離島支援作戦",
 		theme = "guadalcanal",
-		profile = "达古康纳尔岛处于群岛争夺作战中的关键位置，敌人航空力量强大，但我们绝对不能失去它！",
+		profile = "大洋離島の制空権確保作戦に艦隊を派遣し、周辺海域に出現するセイレーンの航空戦力を駆除せよ！",
 		unlock_guild_level = 7,
 		consume = 5000,
 		id = 4,

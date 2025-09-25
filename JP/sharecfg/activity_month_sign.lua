@@ -180,7 +180,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100069,
+				100068,
 				1
 			}
 		},
@@ -435,7 +435,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100070,
+				100069,
 				1
 			}
 		},
@@ -690,7 +690,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100071,
+				100070,
 				1
 			}
 		},
@@ -945,7 +945,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100072,
+				100071,
 				1
 			}
 		},
@@ -1200,7 +1200,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100073,
+				100072,
 				1
 			}
 		},
@@ -1455,7 +1455,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100074,
+				100073,
 				1
 			}
 		},
@@ -1710,7 +1710,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100075,
+				100074,
 				1
 			}
 		},
@@ -1965,7 +1965,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100076,
+				100075,
 				1
 			}
 		},
@@ -2220,7 +2220,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100077,
+				100076,
 				1
 			}
 		},
@@ -2475,7 +2475,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100078,
+				100077,
 				1
 			}
 		},
@@ -2730,7 +2730,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100067,
+				100066,
 				1
 			}
 		},
@@ -2985,7 +2985,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100068,
+				100067,
 				1
 			}
 		},

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_36 = {
 	[91115] = {
 		cannon = 0,
-		name = "泽特警部",
+		name = "ツェンカー警部",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -151,7 +151,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91116] = {
 		cannon = 0,
-		name = "帝国警视长",
+		name = "インペロ本部長",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -300,7 +300,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91117] = {
 		cannon = 0,
-		name = "拟似炼金魔物-「JELLYFISH」",
+		name = "擬似錬金魔物-「JELLYFISH」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -442,7 +442,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91118] = {
 		cannon = 0,
-		name = "拟似炼金魔物-「HORSE」",
+		name = "擬似錬金魔物-「HORSE」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -584,7 +584,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91119] = {
 		cannon = 0,
-		name = "拟似炼金魔物-「HERMITCRAB」",
+		name = "擬似錬金魔物-「HERMITCRAB」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -726,7 +726,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91120] = {
 		cannon = 0,
-		name = "拟似炼金魔物-「GIANT」",
+		name = "擬似錬金魔物-「GIANT」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -868,7 +868,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91121] = {
 		cannon = 0,
-		name = "拟似炼金魔物-「BAT」",
+		name = "擬似錬金魔物-「BAT」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1010,7 +1010,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91122] = {
 		cannon = 0,
-		name = "拟似炼金武装-「JELLYFISH」",
+		name = "擬似錬金武装-「JELLYFISH」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1166,7 +1166,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91123] = {
 		cannon = 0,
-		name = "拟似炼金武装-「HORSE」",
+		name = "擬似錬金武装-「HORSE」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1322,7 +1322,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91124] = {
 		cannon = 0,
-		name = "拟似炼金武装-「HERMITCRAB」",
+		name = "擬似錬金武装-「HERMITCRAB」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1478,7 +1478,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91125] = {
 		cannon = 0,
-		name = "拟似炼金武装-「GIANT」",
+		name = "擬似錬金武装-「GIANT」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1634,7 +1634,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91126] = {
 		cannon = 0,
-		name = "拟似炼金武装-「BAT」",
+		name = "擬似錬金武装-「BAT」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1790,7 +1790,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91127] = {
 		cannon = 0,
-		name = "维序单元-宝剑II「Resist」",
+		name = "維持ユニット-ソードII「Resist」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1939,7 +1939,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91128] = {
 		cannon = 0,
-		name = "勇气",
+		name = "ギャラント",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2244,7 +2244,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91130] = {
 		cannon = 0,
-		name = "腐烂软泥啾莱姆",
+		name = "ブライトマッドスライム饅頭",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2380,7 +2380,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91131] = {
 		cannon = 0,
-		name = "啾莱姆石像鬼",
+		name = "ガーゴイルスライム饅頭",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2516,7 +2516,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91132] = {
 		cannon = 0,
-		name = "地狱恶魔啾莱姆",
+		name = "ヘルデーモンスライム饅頭",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2652,7 +2652,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91133] = {
 		cannon = 0,
-		name = "黑棋士兵",
+		name = "ブラックチェス兵士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2801,7 +2801,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91134] = {
 		cannon = 0,
-		name = "本森",
+		name = "ベンソン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2957,7 +2957,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91135] = {
 		cannon = 0,
-		name = "贝利",
+		name = "ベイリー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3106,7 +3106,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91136] = {
 		cannon = 0,
-		name = "「冬将军」贝劳森林",
+		name = "「冬将軍」ボア・ベロー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3255,7 +3255,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91137] = {
 		cannon = 0,
-		name = "「魔姬」亚勒玛妮亚",
+		name = "「魔姫」ドイッチュラント",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3411,7 +3411,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91138] = {
 		cannon = 0,
-		name = "「奇渊之主」阿尔比恩",
+		name = "「淵層の主」アルビオン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3574,7 +3574,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91139] = {
 		cannon = 0,
-		name = "「大魔法师」克莱蒙梭",
+		name = "「大魔法使い」クレマンソー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3731,7 +3731,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91140] = {
 		cannon = 0,
-		name = "「灾厄之子」埃玛",
+		name = "「厄災の子」エムデン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3887,7 +3887,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91141] = {
 		cannon = 0,
-		name = "夕立·META",
+		name = "夕立(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4034,7 +4034,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91142] = {
 		cannon = 0,
-		name = "白凤",
+		name = "白鳳",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4184,7 +4184,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91143] = {
 		cannon = 0,
-		name = "「天原之息-兔」",
+		name = "「アマハラの穢れ-兎」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4326,7 +4326,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91144] = {
 		cannon = 0,
-		name = "「天原之息-猫」",
+		name = "「アマハラの穢れ-猫」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4468,7 +4468,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91145] = {
 		cannon = 0,
-		name = "「天原之息-鬼」",
+		name = "「アマハラの穢れ-鬼」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

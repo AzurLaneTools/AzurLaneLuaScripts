@@ -2,7 +2,7 @@ pg = pg or {}
 pg.class_upgrade_group = {
 	{
 		id = 201011,
-		name_show = "驱逐雷击教学",
+		name_show = "『駆逐艦コース――アマゾンの水雷戦教室！』",
 		day = 1,
 		type = {
 			1,
@@ -15,7 +15,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 302011,
-		name_show = "巡洋炮击教学",
+		name_show = "『巡洋艦コース――タマの選び方ver.1.03』",
 		day = 2,
 		type = {
 			2,
@@ -29,7 +29,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 105031,
-		name_show = "战列理论教学",
+		name_show = "『戦艦コース――大艦巨砲ドクトリンの優位性』",
 		day = 3,
 		type = {
 			4,
@@ -40,7 +40,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 107011,
-		name_show = "航母理论教学",
+		name_show = "『空母コース――空海統合作戦ポジショニング』",
 		day = 4,
 		type = {
 			6,
@@ -50,7 +50,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 201011,
-		name_show = "驱逐实战教学",
+		name_show = "『駆逐艦コース――サルでもわかる戦術学！』",
 		day = 5,
 		type = {
 			1,
@@ -63,7 +63,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 302011,
-		name_show = "巡洋实战教学",
+		name_show = "『巡洋艦コース――Howto火力最大ver.2.2』",
 		day = 6,
 		type = {
 			2,
@@ -77,7 +77,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 105031,
-		name_show = "自主学习",
+		name_show = "『自習』",
 		day = 7,
 		type = {
 			1,

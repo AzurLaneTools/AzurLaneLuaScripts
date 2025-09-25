@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_5 = {
 	[90113] = {
 		cannon = 0,
-		name = "妙高级量产型",
+		name = "量産型ミョウコウ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -168,7 +168,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90114] = {
 		cannon = 0,
-		name = "高雄级量产型",
+		name = "量産型タカオ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -336,7 +336,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90115] = {
 		cannon = 0,
-		name = "最上级量产型",
+		name = "量産型モガミ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -504,7 +504,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90116] = {
 		cannon = 0,
-		name = "伊势级量产型",
+		name = "量産型イセ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -670,7 +670,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90117] = {
 		cannon = 0,
-		name = "扶桑级量产型",
+		name = "量産型フソウ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -836,7 +836,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90118] = {
 		cannon = 0,
-		name = "战舰·雾岛",
+		name = "戦艦キリシマ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1004,7 +1004,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90119] = {
 		cannon = 0,
-		name = "战舰·比叡",
+		name = "戦艦ヒエイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1172,7 +1172,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90120] = {
 		cannon = 0,
-		name = "空母·赤城",
+		name = "空母アカギ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1338,7 +1338,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90121] = {
 		cannon = 0,
-		name = "空母·加贺",
+		name = "空母カガ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1504,7 +1504,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90122] = {
 		cannon = 9999,
-		name = "水雷",
+		name = "機雷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1653,7 +1653,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90123] = {
 		cannon = 0,
-		name = "驱逐「Pawn」",
+		name = "駆逐「Pawn」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1815,7 +1815,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90124] = {
 		cannon = 0,
-		name = "轻巡「Knight」",
+		name = "軽巡「Knight」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2146,7 +2146,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90126] = {
 		cannon = 0,
-		name = "战舰「Rook」",
+		name = "戦艦「Rook」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2315,7 +2315,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90127] = {
 		cannon = 0,
-		name = "航母「Queen」",
+		name = "空母「Queen」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2484,7 +2484,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90129] = {
 		cannon = 0,
-		name = "潜艇量产型",
+		name = "量産型潜水艦 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2628,7 +2628,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90130] = {
 		cannon = 0,
-		name = "岸防舰",
+		name = "海防戦艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2790,7 +2790,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90131] = {
 		cannon = 0,
-		name = "指挥舰",
+		name = "指揮艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2952,7 +2952,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90132] = {
 		cannon = 0,
-		name = "维修舰A",
+		name = "工作艦A",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3107,7 +3107,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90133] = {
 		cannon = 0,
-		name = "防空舰",
+		name = "防空艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3262,7 +3262,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90134] = {
 		cannon = 0,
-		name = "维修舰S",
+		name = "工作艦S",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3417,7 +3417,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90135] = {
 		cannon = 0,
-		name = "阳炎级量产型.verAI",
+		name = "量産型カゲロウ級.verAI",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3570,7 +3570,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90136] = {
 		cannon = 0,
-		name = "妙高级量产型.verAI",
+		name = "量産型ミョウコウ級.verAI",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3736,7 +3736,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90137] = {
 		cannon = 0,
-		name = "扶桑级量产型.verAI",
+		name = "量産型フソウ級.verAI",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3902,7 +3902,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90138] = {
 		cannon = 0,
-		name = "自爆船.pink",
+		name = "自爆ボート.pink",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4048,7 +4048,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90139] = {
 		cannon = 0,
-		name = "水面水雷",
+		name = "浮遊機雷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4194,7 +4194,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90140] = {
 		cannon = 0,
-		name = "水下水雷",
+		name = "係維機雷",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4340,7 +4340,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90141] = {
 		cannon = 0,
-		name = "扎拉级量产型",
+		name = "量産型ザラ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4508,7 +4508,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90142] = {
 		cannon = 0,
-		name = "朱萨诺级量产型",
+		name = "量産型ドゥーカ・デッリ・アブルッツィ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4663,7 +4663,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90143] = {
 		cannon = 0,
-		name = "指挥舰",
+		name = "指揮艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4831,7 +4831,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90150] = {
 		cannon = 0,
-		name = "格里德利",
+		name = "グリッドレイ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

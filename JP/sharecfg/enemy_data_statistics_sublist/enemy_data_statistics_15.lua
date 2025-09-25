@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_15 = {
 	[90430] = {
 		cannon = 0,
-		name = "轻巡「Knight」II型",
+		name = "軽巡「Knight」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -164,7 +164,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90431] = {
 		cannon = 0,
-		name = "重巡「Bishop」II型",
+		name = "重巡「Bishop」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -333,7 +333,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90432] = {
 		cannon = 0,
-		name = "战舰「Rook」II型",
+		name = "戦艦「Rook」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -502,7 +502,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90433] = {
 		cannon = 0,
-		name = "航母「Queen」II型",
+		name = "空母「Queen」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -671,7 +671,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90435] = {
 		cannon = 0,
-		name = "钻头艇",
+		name = "ブリドリル",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -817,7 +817,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90436] = {
 		cannon = 0,
-		name = "试作型布里MKII",
+		name = "試作型ブリMKII",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -970,7 +970,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90437] = {
 		cannon = 0,
-		name = "自爆船「Buster」II型",
+		name = "量産型自爆ボートⅡ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1116,7 +1116,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90438] = {
 		cannon = 0,
-		name = "构建者",
+		name = "コンパイラー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1270,7 +1270,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90439] = {
 		cannon = 0,
-		name = "潜艇「Assassin」",
+		name = "潜水艦「Assassin」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1421,7 +1421,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90440] = {
 		cannon = 0,
-		name = "纳尔逊",
+		name = "ネルソン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1584,7 +1584,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90441] = {
 		cannon = 0,
-		name = "沃克兰",
+		name = "ヴォークラン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1753,7 +1753,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90442] = {
 		cannon = 0,
-		name = "拉·加利索尼埃",
+		name = "ラ・ガリソニエール",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1909,7 +1909,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90443] = {
 		cannon = 0,
-		name = "阿尔及利亚",
+		name = "アルジェリー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2058,7 +2058,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90444] = {
 		cannon = 0,
-		name = "加斯科涅",
+		name = "ガスコーニュ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2207,7 +2207,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90445] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "量産型ブーラスク級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2372,7 +2372,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90446] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
+		name = "量産型エミール・ベルタン級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2537,7 +2537,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90447] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "量産型アルジェリー級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2709,7 +2709,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90448] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "量産型プロヴァンス級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2881,7 +2881,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90449] = {
 		cannon = 0,
-		name = "贝亚恩级量产型",
+		name = "量産型ベアルン級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3046,7 +3046,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90450] = {
 		cannon = 0,
-		name = "U81",
+		name = "U-81",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3190,7 +3190,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90451] = {
 		cannon = 0,
-		name = "U73",
+		name = "U-73",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3334,7 +3334,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90452] = {
 		cannon = 0,
-		name = "U101",
+		name = "U-101",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3478,7 +3478,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90453] = {
 		cannon = 0,
-		name = "U522",
+		name = "U-522",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3789,7 +3789,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90455] = {
 		cannon = 0,
-		name = "侵扰者III型",
+		name = "オブストラクターⅢ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3952,7 +3952,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90456] = {
 		cannon = 0,
-		name = "拉菲",
+		name = "ラフィー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4112,7 +4112,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90457] = {
 		cannon = 0,
-		name = "潜艇「Assassin」II型",
+		name = "潜水艦「Assassin」Ⅱ型",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4263,7 +4263,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90458] = {
 		cannon = 0,
-		name = "噩梦剪影-「Pawn」",
+		name = "夢界泡影-「Pawn」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4425,7 +4425,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90459] = {
 		cannon = 0,
-		name = "噩梦剪影-「Knight」",
+		name = "夢界泡影-「Knight」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4587,7 +4587,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90460] = {
 		cannon = 0,
-		name = "噩梦剪影-「Bishop」",
+		name = "夢界泡影-「Bishop」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4756,7 +4756,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90461] = {
 		cannon = 0,
-		name = "噩梦剪影-「Rook」",
+		name = "夢界泡影-「Rook」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

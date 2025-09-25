@@ -2,11 +2,11 @@ pg = pg or {}
 pg.dorm3d_dorm_template = {
 	[20220] = {
 		skin_model = 202201,
-		name = "天狼星",
+		name = "シリアス",
 		bind_room = 1,
 		asset_name = "tianlangxing_db",
 		id = 20220,
-		default_appellation = "主人"
+		default_appellation = "ご主人様"
 	},
 	[30221] = {
 		skin_model = 302211,
@@ -14,31 +14,31 @@ pg.dorm3d_dorm_template = {
 		bind_room = 2,
 		asset_name = "nengdai_db",
 		id = 30221,
-		default_appellation = "指挥官"
+		default_appellation = "指揮官"
 	},
 	[19903] = {
 		skin_model = 199031,
-		name = "安克雷奇",
+		name = "アンカレッジ",
 		bind_room = 3,
 		asset_name = "Ankeleiqi_DB",
 		id = 19903,
-		default_appellation = "老师"
+		default_appellation = "せんせい"
 	},
 	[10517] = {
 		skin_model = 105171,
-		name = "新泽西",
+		name = "ニュージャージー",
 		bind_room = 11,
 		asset_name = "Xinzexi_DB",
 		id = 10517,
-		default_appellation = "指挥官"
+		default_appellation = "指揮官"
 	},
 	[30707] = {
 		skin_model = 307071,
-		name = "大凤",
+		name = "大鳳",
 		bind_room = 12,
 		asset_name = "Dafeng_DB",
 		id = 30707,
-		default_appellation = "指挥官大人 "
+		default_appellation = "指揮官様"
 	},
 	all = {
 		20220,

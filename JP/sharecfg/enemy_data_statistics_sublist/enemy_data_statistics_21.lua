@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_21 = {
 	[90648] = {
 		cannon = 0,
-		name = "霞飞",
+		name = "ジョッフル",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -151,7 +151,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90649] = {
 		cannon = 0,
-		name = "天鹰级量产型",
+		name = "量産型アクィラ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -320,7 +320,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90650] = {
 		cannon = 0,
-		name = "马可尼级量产型",
+		name = "量産型グリエルモ・マルコーニ級",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -471,7 +471,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90651] = {
 		cannon = 0,
-		name = "海王星",
+		name = "ネプチューン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -627,7 +627,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90652] = {
 		cannon = 0,
-		name = "女灶神",
+		name = "ヴェスタル",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -796,7 +796,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90653] = {
 		cannon = 0,
-		name = "竞技神",
+		name = "ハーミーズ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -945,7 +945,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90654] = {
 		cannon = 0,
-		name = "丘比特",
+		name = "ジュピター",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1114,7 +1114,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90655] = {
 		cannon = 0,
-		name = "天后",
+		name = "ジュノー",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1283,7 +1283,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90656] = {
 		cannon = 0,
-		name = "罗马",
+		name = "ローマ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1433,7 +1433,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90657] = {
 		cannon = 0,
-		name = "狮级量产型-灵魂态？",
+		name = "量産型ライオン級の幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1586,7 +1586,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90658] = {
 		cannon = 0,
-		name = "朱萨诺级量产型-灵魂态？",
+		name = "量産型ドゥーカ・デッリ・アブルッツィ級の幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1739,7 +1739,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90659] = {
 		cannon = 0,
-		name = "扎拉级量产型-灵魂态？",
+		name = "量産型ザラ級の幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1907,7 +1907,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90660] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型-灵魂态？",
+		name = "量産型コンテ・ディ・カブールの幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2073,7 +2073,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90661] = {
 		cannon = 0,
-		name = "天鹰级量产型-灵魂态？",
+		name = "量産型アクィラ級の幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2242,7 +2242,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90662] = {
 		cannon = 0,
-		name = "自爆船-灵魂态？",
+		name = "量産型自爆ボートの幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2388,7 +2388,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90663] = {
 		cannon = 0,
-		name = "马可尼级量产型-灵魂态？",
+		name = "量産型グリエルモ・マルコーニ級の幻？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2539,7 +2539,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90664] = {
 		cannon = 0,
-		name = "女灶神~Shadow Of Vesta~",
+		name = "ヴェスタルの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2708,7 +2708,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90665] = {
 		cannon = 0,
-		name = "丘比特~Shadow Of Jupiter~",
+		name = "ジュピターの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2877,7 +2877,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90666] = {
 		cannon = 0,
-		name = "天后~Shadow Of Juno~ ",
+		name = "ジュノーの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3046,7 +3046,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90667] = {
 		cannon = 0,
-		name = "海王星~Shadow Of Neptune~",
+		name = "ネプチューンの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3202,7 +3202,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90668] = {
 		cannon = 0,
-		name = "勒马尔~Shadow Of Mars~",
+		name = "ル·マルスの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3358,7 +3358,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90669] = {
 		cannon = 0,
-		name = "竞技神~Shadow Of Mercury~",
+		name = "ハーミーズの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3507,7 +3507,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90670] = {
 		cannon = 0,
-		name = "罗马~Incarnation Of Roma Gods~",
+		name = "ローマの影？",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3657,7 +3657,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90671] = {
 		cannon = 0,
-		name = "马格德堡",
+		name = "マクデブルク",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3813,7 +3813,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90672] = {
 		cannon = 0,
-		name = "阿达尔伯特亲王",
+		name = "プリンツ·アーダルベルト",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3969,7 +3969,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90673] = {
 		cannon = 0,
-		name = "布伦希尔德",
+		name = "ブリュンヒルデ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4138,7 +4138,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90674] = {
 		cannon = 0,
-		name = "乌尔里希·冯·胡滕",
+		name = "ウルリッヒ·フォン·フッテン",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4294,7 +4294,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90675] = {
 		cannon = 0,
-		name = "声望·META",
+		name = "レナウン(META)",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4443,7 +4443,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90676] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX",
+		name = "アビータ・HermitⅨ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4595,7 +4595,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90677] = {
 		cannon = 0,
-		name = "夕云级量产型T2",
+		name = "量産型夕雲級T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4750,7 +4750,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90678] = {
 		cannon = 0,
-		name = "川内级量产型T2",
+		name = "量産型川内級T2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

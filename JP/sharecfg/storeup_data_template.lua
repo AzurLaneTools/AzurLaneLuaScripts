@@ -26,7 +26,7 @@ pg.base = pg.base or {}
 pg.base.storeup_data_template = {
 	{
 		id = 1,
-		name = "航空先驱",
+		name = "航空先駆",
 		char_list = {
 			10701,
 			20601,
@@ -57,11 +57,11 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 2,
-		name = "主角队",
+		name = "主人公",
 		char_list = {
 			20121,
 			10117,
-			40123
+			30105
 		},
 		level = {
 			6,
@@ -81,14 +81,14 @@ pg.base.storeup_data_template = {
 			},
 			{
 				4,
-				301051,
+				401231,
 				1
 			}
 		}
 	},
 	{
 		id = 3,
-		name = "格里德利级",
+		name = "グリッドレイ級",
 		char_list = {
 			10105,
 			10106,
@@ -119,7 +119,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 4,
-		name = "小海狸中队",
+		name = "ビーバーズ隊",
 		char_list = {
 			10111,
 			10112,
@@ -152,7 +152,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 5,
-		name = "布鲁克林级",
+		name = "ブルックリン級",
 		char_list = {
 			10203,
 			10204,
@@ -183,7 +183,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 6,
-		name = "亚特兰大级",
+		name = "アトランタ級",
 		char_list = {
 			10206,
 			10207,
@@ -214,7 +214,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 7,
-		name = "北安普顿级",
+		name = "1927年度計画",
 		char_list = {
 			10303,
 			10304,
@@ -245,7 +245,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 8,
-		name = "波特兰级",
+		name = "ポートランド級",
 		char_list = {
 			10306,
 			10307
@@ -263,7 +263,7 @@ pg.base.storeup_data_template = {
 			},
 			{
 				5,
-				103,
+				107,
 				1
 			},
 			{
@@ -275,7 +275,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 9,
-		name = "独立之路",
+		name = "独立の道",
 		char_list = {
 			10702,
 			10703,
@@ -306,7 +306,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 10,
-		name = "约克城级",
+		name = "ヨークタウン級",
 		char_list = {
 			10705,
 			10706,
@@ -337,7 +337,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 11,
-		name = "珍珠之泪",
+		name = "真珠の涙",
 		char_list = {
 			10504,
 			10502,
@@ -369,7 +369,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 12,
-		name = "C级",
+		name = "Cクラス",
 		char_list = {
 			20108,
 			20109,
@@ -400,7 +400,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 13,
-		name = "利安得级",
+		name = "リアンダー級",
 		char_list = {
 			20201,
 			20202,
@@ -431,7 +431,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 14,
-		name = "伊丽莎白女王级",
+		name = "Qエリザベス級",
 		char_list = {
 			20501,
 			20502
@@ -461,7 +461,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 15,
-		name = "纳尔逊级",
+		name = "ネルソン級",
 		char_list = {
 			20503,
 			20504
@@ -491,7 +491,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 16,
-		name = "战巡世家",
+		name = "巡洋戦艦家系",
 		char_list = {
 			20401,
 			20402,
@@ -522,7 +522,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 17,
-		name = "郡级巡洋舰",
+		name = "カウンティ級",
 		char_list = {
 			20301,
 			20302,
@@ -555,7 +555,7 @@ pg.base.storeup_data_template = {
 	},
 	{
 		id = 18,
-		name = "{namecode:421}级",
+		name = "鉄血K級",
 		char_list = {
 			40201,
 			40202,
