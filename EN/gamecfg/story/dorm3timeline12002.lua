@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "New Jersey...? Hmm, is she not here?"
+										content = "...Is she asleep?"
 									}
 								}
 							},
