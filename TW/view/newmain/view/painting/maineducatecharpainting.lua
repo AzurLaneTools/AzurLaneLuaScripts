@@ -216,7 +216,7 @@ slot0.EnableOrDisableMove = function(slot0, slot1)
 end
 
 slot0.OnPause = function(slot0)
-	uv0.super.OnPuase(slot0)
+	uv0.super.OnPause(slot0)
 
 	slot0.waitForCharEnd = nil
 

@@ -14,7 +14,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
+				path = "UICamera/Canvas/UIOrigin/blur_panel/adapt/top/back_btn",
 				triggerType = {
 					1
 				},

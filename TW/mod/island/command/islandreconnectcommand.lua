@@ -13,7 +13,7 @@ slot0.execute = function(slot0, slot1)
 				getProxy(IslandProxy):RecordTempPlayerPosition(_IslandCore:GetController().mapId, slot3, slot4)
 			end
 
-			pg.m02:sendNotification(GAME.ISLAND_ENTER, {
+			pg.m02:sendNotification(GAME.ISLAND_ON_RECONNECT, {
 				reconnect = true,
 				id = uv0
 			})

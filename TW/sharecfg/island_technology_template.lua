@@ -171,7 +171,6 @@ pg.island_technology_template = setmetatable({
 		{
 			610101,
 			610102,
-			610103,
 			610401,
 			610402,
 			610403,
@@ -362,7 +361,6 @@ pg.island_technology_template = setmetatable({
 		550204,
 		610101,
 		610102,
-		610103,
 		610401,
 		610402,
 		610403,
@@ -4780,33 +4778,6 @@ pg.base.island_technology_template = {
 			1
 		}
 	},
-	[610103] = {
-		tech_desc = "提升货运委托接取上限，让资源的获取更加迅速。",
-		auto_finish = 1,
-		tech_chara = 1,
-		tech_icon = "tech_610101",
-		tech_belong = 6,
-		tech_name = "货运委托上限提升III",
-		complete_tips = "可前往“货运委托”界面查看",
-		formula_id = 7610103,
-		tech_level = "3",
-		id = 610103,
-		island_level = 14,
-		sys_unlock = {
-			{
-				3,
-				610402
-			}
-		},
-		tech_repeat = {
-			0,
-			0
-		},
-		axis = {
-			13,
-			1
-		}
-	},
 	[610401] = {
 		tech_desc = "缩短货运委托的运输时间，让货物的运转更加高效。",
 		auto_finish = 1,
@@ -4876,7 +4847,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				610103
+				610402
 			}
 		},
 		tech_repeat = {
@@ -4884,7 +4855,7 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			16,
+			13,
 			1
 		}
 	},

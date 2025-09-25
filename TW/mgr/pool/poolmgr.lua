@@ -60,36 +60,26 @@ end
 
 slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
+	slot6 = "char/" .. slot1
+	slot7, slot8 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
+	slot8 = slot8 .. "_SkeletonData"
 
-	if not slot0.pools_plural["char/" .. slot1] then
-		table.insert(slot4, function (slot0)
-			uv0:GetSpineSkel(uv1, uv2, function (slot0)
-				assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
+	slot0:FromPlural(slot7, "", slot2, 1, function (slot0)
+		setActiveViaLayer(slot0, true)
+		uv0(slot0)
+	end, function (slot0)
+		assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
 
-				if not uv1.pools_plural[uv2] then
-					slot0 = SpineAnimUI.AnimChar(uv0, slot0)
+		slot0 = SpineAnimUI.AnimChar(uv0, slot0)
 
-					slot0:SetActive(false)
-					tf(slot0):SetParent(uv1.root, false)
+		tf(slot0):SetParent(uv1.root, false)
 
-					slot1 = slot0:GetComponent("SkeletonGraphic")
-					slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
-					uv1.pools_plural[uv2] = uv3.New(slot0, 1)
-				end
+		slot1 = slot0:GetComponent("SkeletonGraphic")
+		slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
 
-				uv4()
-			end)
-		end)
-	end
+		slot0:SetActive(false)
 
-	seriesAsync(slot4, function ()
-		slot0 = uv0.pools_plural[uv1]
-		slot0.index = uv0.pluralIndex
-		uv0.pluralIndex = uv0.pluralIndex + 1
-		slot1 = slot0:Dequeue()
-
-		slot1:SetActive(true)
-		uv2(slot1)
+		return slot0
 	end)
 end
 
@@ -195,6 +185,7 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, false)
 		slot2.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
@@ -475,7 +466,7 @@ slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 		slot3.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot5]:Enqueue(slot3)
 
-		if slot4 and slot0.pools_plural[slot5].balance <= 0 and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
+		if slot4 and slot0.pools_plural[slot5]:AllReturned() and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
 			slot0:DestroyPrefab(slot1, slot2)
 		end
 	else
@@ -546,11 +537,11 @@ slot0.GetPluralStatus = function(slot0, slot1)
 	}, tostring), " ")
 end
 
-slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot7 = {}
+slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot8 = {}
 
 	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
-		table.insert(slot7, function (slot0)
+		table.insert(slot8, function (slot0)
 			uv0:LoadAsset(uv1, uv2, typeof(Object), uv3, function (slot0)
 				if slot0 == nil then
 					Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
@@ -558,18 +549,22 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
 					return
 				end
 
-				if not uv2.pools_plural[uv3] then
-					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
-
-					uv2.pools_plural[uv3]:SetKeep(tobool(uv2.keepDic[uv3]))
+				if uv2 then
+					slot0 = uv2(slot0)
 				end
 
-				uv6()
+				if not uv3.pools_plural[uv4] then
+					uv3.pools_plural[uv4] = uv5.New(slot0, uv6)
+
+					uv3.pools_plural[uv4]:SetKeep(tobool(uv3.keepDic[uv4]))
+				end
+
+				uv7()
 			end, true)
 		end)
 	end
 
-	seriesAsync(slot7, function ()
+	seriesAsync(slot8, function ()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1

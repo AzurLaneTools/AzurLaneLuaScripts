@@ -82,7 +82,7 @@ return {
 			portrait = 102059,
 			side = 2,
 			blackBg = true,
-			actorName = "「——歡迎來到天域天原」",
+			actorName = "海倫娜",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……指揮官，終於找到你了。",
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			actorName = "「——歡迎來到天域天原」",
+			actorName = "海倫娜",
 			blackBg = true,
 			say = "指揮官，我是海倫娜，聽得到嗎？！",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			actorName = "「——歡迎來到天域天原」",
+			actorName = "海倫娜",
 			hidePaintObj = true,
 			say = "指揮官！",
 			typewriter = {

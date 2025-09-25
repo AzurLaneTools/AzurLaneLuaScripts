@@ -363,6 +363,8 @@ end
 slot0.ResetShowBalance = function(slot0)
 	if slot0.showBalance ~= 1 then
 		slot0.showBalance = 1
+
+		slot0:EnablePlayerOp()
 	end
 end
 

@@ -14,6 +14,7 @@ slot0.Flush = function(slot0)
 			slot0:CheckProductions(slot4)
 			slot0:CheckAcceptableTask(slot4)
 			slot0:CheckFinishableTask(slot4)
+			setActive(slot5:Find("icon"), not isActive(slot5:Find("fetch")) and not isActive(slot5:Find("finish")) and not isActive(slot5:Find("full")))
 		end
 	end
 end

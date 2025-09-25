@@ -199,6 +199,11 @@ pg.island_shop_template = {
 				0,
 				1,
 				14
+			},
+			{
+				0,
+				41,
+				1
 			}
 		},
 		goods_id = {

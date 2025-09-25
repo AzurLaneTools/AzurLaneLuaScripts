@@ -451,7 +451,7 @@ return {
 			},
 			options = {
 				{
-					content = "……你想做什麼？",
+					content = "……妳想做什麼？",
 					flag = 1
 				},
 				{

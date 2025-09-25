@@ -28,7 +28,9 @@ slot0.UpdateAwards = function(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			updateCustomDrop(slot2, slot3)
+			updateCustomDrop(slot2, slot3, {
+				style = "island"
+			})
 			setText(findTF(slot2, "icon_bg/count_bg/count"), "x" .. slot3.count)
 		end
 	end)

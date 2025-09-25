@@ -566,7 +566,7 @@ return {
 			actor = 900332,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各地船艦和安蒂克絲巡邏隊也在陸續向那裡集中。",
+			say = "各地艦船和安蒂克絲巡邏隊也在陸續向那裡集中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

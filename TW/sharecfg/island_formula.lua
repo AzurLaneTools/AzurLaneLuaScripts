@@ -11056,50 +11056,6 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
-	[7610103] = {
-		workload = 18000,
-		name = "货运委托上限提升III",
-		vfx_offset = "",
-		affected_vfx_offset = "",
-		harvest_vfx = 0,
-		is_condition = 1,
-		stamina_cost = 6,
-		item_id = 0,
-		hitpoint = 0,
-		production_limit = 1,
-		unitid = "",
-		unlock_type = 37610103,
-		affected_vfx = "",
-		ship_exp = 30,
-		pt_award = 0,
-		id = 7610103,
-		collectable_vfx = 0,
-		attribute = 6,
-		cost = {
-			{
-				1,
-				4000
-			},
-			{
-				2700,
-				33
-			}
-		},
-		drop_display = {},
-		commission_cost = {
-			{
-				1,
-				4000
-			},
-			{
-				2700,
-				33
-			}
-		},
-		commission_product = {},
-		second_product_display = {},
-		second_product = {}
-	},
 	[7610401] = {
 		workload = 3000,
 		name = "货运效率提升I",
@@ -12982,7 +12938,6 @@ pg.island_formula = {
 		7550204,
 		7610101,
 		7610102,
-		7610103,
 		7610401,
 		7610402,
 		7610403,

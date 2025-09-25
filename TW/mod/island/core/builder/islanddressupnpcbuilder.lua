@@ -5,7 +5,7 @@ slot0.GetModule = function(slot0, slot1, slot2)
 end
 
 slot0.LoadOtherPart = function(slot0, slot1, slot2, slot3, slot4)
-	if not slot3.shipId then
+	if not slot3.shipId or slot5 == 0 then
 		slot4()
 
 		return

@@ -1228,7 +1228,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10070028,
 		reward_exp = 100,
-		complete_tips = "和{namecode:98:明石}聊聊",
+		complete_tips = "和{namecode:98:明石}聊聊(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "初临篇",
@@ -1394,7 +1394,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020013,
 		reward_exp = 100,
-		complete_tips = "去找{namecode:98:明石}吧",
+		complete_tips = "去找{namecode:98:明石}吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "初临篇",
@@ -1720,7 +1720,7 @@ pg.base.island_task = {
 		reward_show = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "跟斯蒂芬妮聊聊",
+		complete_tips = "跟斯蒂芬妮聊聊(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -1907,7 +1907,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010040,
 		reward_exp = 100,
-		complete_tips = "跟赫莫聊聊",
+		complete_tips = "跟赫莫聊聊(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -1990,7 +1990,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 100,
-		complete_tips = "回去找梅莉吧",
+		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -2073,7 +2073,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 100,
-		complete_tips = "回去找梅莉吧",
+		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -2355,7 +2355,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 200,
-		complete_tips = "跟布莱梅聊聊",
+		complete_tips = "跟布莱梅聊聊(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -2943,7 +2943,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030006,
 		reward_exp = 300,
-		complete_tips = "问问玛丽吧",
+		complete_tips = "问问玛丽吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -2986,7 +2986,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030003,
 		reward_exp = 300,
-		complete_tips = "去和玛丽聊聊",
+		complete_tips = "去和玛丽聊聊(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -3069,7 +3069,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧",
+		complete_tips = "去找莉莎吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -3112,7 +3112,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧",
+		complete_tips = "去找莉莎吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -3155,7 +3155,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 300,
-		complete_tips = "去找莉莎吧",
+		complete_tips = "去找莉莎吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -3198,7 +3198,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030008,
 		reward_exp = 400,
-		complete_tips = "去找莉莎吧",
+		complete_tips = "去找莉莎吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "债务篇",
@@ -3521,7 +3521,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 500,
-		complete_tips = "去找阿莫玛吧",
+		complete_tips = "去找阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "新枝篇",
@@ -3564,7 +3564,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 500,
-		complete_tips = "去找阿莫玛吧",
+		complete_tips = "去找阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "新枝篇",
@@ -3727,7 +3727,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 500,
-		complete_tips = "去找拉科尼娅吧",
+		complete_tips = "去找拉科尼娅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "新枝篇",
@@ -3850,7 +3850,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 500,
-		complete_tips = "也给拉科尼娅尝尝吧",
+		complete_tips = "也给拉科尼娅尝尝吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "新枝篇",
@@ -3893,7 +3893,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 500,
-		complete_tips = "去告诉拉科尼娅吧",
+		complete_tips = "去告诉拉科尼娅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "新枝篇",
@@ -4020,7 +4020,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10070030,
 		reward_exp = 500,
-		complete_tips = "去找{namecode:98:明石}吧",
+		complete_tips = "去找{namecode:98:明石}吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "发展篇",
@@ -4111,7 +4111,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090018,
 		reward_exp = 500,
-		complete_tips = "去找{namecode:98:明石}吧",
+		complete_tips = "去找{namecode:98:明石}吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -4159,7 +4159,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4229,7 +4229,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4301,7 +4301,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4373,7 +4373,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4445,7 +4445,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4522,7 +4522,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4599,7 +4599,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4676,7 +4676,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4746,7 +4746,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4818,7 +4818,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4890,7 +4890,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -4962,7 +4962,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5039,7 +5039,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5116,7 +5116,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5193,7 +5193,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5263,7 +5263,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5335,7 +5335,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -5407,7 +5407,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020025,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		series = "【秋季特产经营】",
 		navigation = 0,
@@ -6764,7 +6764,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "回去告诉奥布莱恩吧",
+		complete_tips = "回去告诉奥布莱恩吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -6951,7 +6951,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "快拿给奥布莱恩吧",
+		complete_tips = "快拿给奥布莱恩吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7033,7 +7033,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "告诉乔安可以休息了",
+		complete_tips = "告诉乔安可以休息了(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7207,7 +7207,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "回去告诉帕特莉吧",
+		complete_tips = "回去告诉帕特莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7244,7 +7244,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "把画笔拿给帕特莉吧",
+		complete_tips = "把画笔拿给帕特莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7281,7 +7281,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "去找奥布莱恩制作画框吧",
+		complete_tips = "去找奥布莱恩制作画框吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7407,7 +7407,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "去找乔安吧",
+		complete_tips = "去找乔安吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7444,7 +7444,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040022,
 		reward_exp = 0,
-		complete_tips = "回去找乔安吧",
+		complete_tips = "回去找乔安吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7574,7 +7574,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "去找布莱梅吧",
+		complete_tips = "去找布莱梅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -7805,7 +7805,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "回去找梅莉吧",
+		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8107,7 +8107,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "回去找梅莉吧",
+		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8288,7 +8288,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 100,
-		complete_tips = "回去找梅莉吧",
+		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8341,7 +8341,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040057,
 		reward_exp = 0,
-		complete_tips = "去找墙内的无名氏吧",
+		complete_tips = "去找墙内的无名氏吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8389,7 +8389,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020026,
 		reward_exp = 0,
-		complete_tips = "去找小车里的无名氏吧",
+		complete_tips = "去找小车里的无名氏吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8426,7 +8426,7 @@ pg.base.island_task = {
 		}
 	},
 	[20007003] = {
-		trigger_data = 10010082,
+		trigger_data = 10010087,
 		trigger_tips = 1,
 		name = "农场的蜜蜂防治",
 		type = 2,
@@ -8435,9 +8435,9 @@ pg.base.island_task = {
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
-		complete_data = 10010082,
+		complete_data = 10010087,
 		reward_exp = 0,
-		complete_tips = "去找井里的无名氏吧",
+		complete_tips = "去找井里的无名氏吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8474,12 +8474,12 @@ pg.base.island_task = {
 		}
 	},
 	[20007004] = {
-		trigger_data = 10010082,
+		trigger_data = 10040057,
 		trigger_tips = 1,
 		name = "消除疲劳的蜂蜜水",
 		type = 2,
 		task_desc = "能够赐予一夜好梦的蜂蜜水……听起来很美味呢？",
-		map_trigger_tips = 1001,
+		map_trigger_tips = 1004,
 		complete_type = 2,
 		trigger_type = 1,
 		com_page = "",
@@ -8519,7 +8519,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "回去找布莱梅吧",
+		complete_tips = "回去找布莱梅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8703,7 +8703,7 @@ pg.base.island_task = {
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
-		navigation = 1001,
+		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
@@ -8783,7 +8783,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "回去找斯蒂芬妮吧",
+		complete_tips = "回去找斯蒂芬妮吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -8820,7 +8820,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020004,
 		reward_exp = 0,
-		complete_tips = "回去找斯蒂芬妮吧",
+		complete_tips = "回去找斯蒂芬妮吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9100,7 +9100,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10020009,
 		reward_exp = 0,
-		complete_tips = "询问帕特莉的想法",
+		complete_tips = "询问帕特莉的想法(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9137,7 +9137,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10010003,
 		reward_exp = 0,
-		complete_tips = "找梅莉了解保持元气的秘诀",
+		complete_tips = "找梅莉了解保持元气的秘诀(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9245,7 +9245,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 0,
-		complete_tips = "找布莱梅改进配方",
+		complete_tips = "找布莱梅改进配方(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9319,7 +9319,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10090008,
 		reward_exp = 100,
-		complete_tips = "向布莱梅反馈帕特莉的建议",
+		complete_tips = "向布莱梅反馈帕特莉的建议(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9467,7 +9467,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 0,
-		complete_tips = "回去交给阿莫玛吧",
+		complete_tips = "回去交给阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9516,7 +9516,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10060002,
 		reward_exp = 200,
-		complete_tips = "回去交给阿莫玛吧",
+		complete_tips = "回去交给阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9604,7 +9604,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10040002,
 		reward_exp = 0,
-		complete_tips = "找奥布莱恩制作一个新的修枝剪",
+		complete_tips = "找奥布莱恩制作一个新的修枝剪(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9675,7 +9675,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 0,
-		complete_tips = "回去交给露西吧",
+		complete_tips = "回去交给露西吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9712,7 +9712,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 0,
-		complete_tips = "回去交给露西吧",
+		complete_tips = "回去交给露西吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -9896,7 +9896,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050002,
 		reward_exp = 200,
-		complete_tips = "回去交给露西吧",
+		complete_tips = "回去交给露西吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10051,7 +10051,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "回去找帕特莉吧",
+		complete_tips = "回去找帕特莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10119,7 +10119,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 0,
-		complete_tips = "回去找拉科尼娅吧",
+		complete_tips = "回去找拉科尼娅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10156,7 +10156,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10050003,
 		reward_exp = 0,
-		complete_tips = "回去找拉科尼娅吧",
+		complete_tips = "回去找拉科尼娅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10290,7 +10290,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "去地图上标记的地方寻找秘宝吧",
+		complete_tips = "去地图上标记的地方寻找秘宝吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10325,9 +10325,9 @@ pg.base.island_task = {
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
-		complete_data = 10070004,
+		complete_data = 10070026,
 		reward_exp = 200,
-		complete_tips = "去岛屿基地里看看卡里的余额吧",
+		complete_tips = "去岛屿基地里看看卡里的余额吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10375,7 +10375,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 0,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10420,7 +10420,7 @@ pg.base.island_task = {
 		com_page = "",
 		complete_data = 10030006,
 		reward_exp = 0,
-		complete_tips = "去找佩芮吧",
+		complete_tips = "去找佩芮吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
@@ -10491,7 +10491,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10531,7 +10531,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10571,7 +10571,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10611,7 +10611,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10652,7 +10652,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				1000
 			}
 		}
 	},
@@ -10667,7 +10667,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -10688,13 +10688,7 @@ pg.base.island_task = {
 		target_id = {
 			300000061
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30000007] = {
 		trigger_data = 0,
@@ -10733,7 +10727,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10774,7 +10768,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				1000
 			}
 		}
 	},
@@ -10813,7 +10807,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10853,8 +10847,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -10893,8 +10887,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				110001,
+				2
 			}
 		}
 	},
@@ -10933,8 +10927,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -10949,7 +10943,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -10970,13 +10964,7 @@ pg.base.island_task = {
 		target_id = {
 			305010011
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501002] = {
 		trigger_data = 0,
@@ -11016,7 +11004,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11031,7 +11019,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11052,13 +11040,7 @@ pg.base.island_task = {
 		target_id = {
 			305010111
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501012] = {
 		trigger_data = 0,
@@ -11098,7 +11080,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11113,7 +11095,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11140,13 +11122,7 @@ pg.base.island_task = {
 		target_id = {
 			305010211
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501022] = {
 		trigger_data = 0,
@@ -11186,7 +11162,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11201,7 +11177,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11228,13 +11204,7 @@ pg.base.island_task = {
 		target_id = {
 			305010311
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501032] = {
 		trigger_data = 0,
@@ -11274,7 +11244,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11289,7 +11259,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11316,13 +11286,7 @@ pg.base.island_task = {
 		target_id = {
 			305020011
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502002] = {
 		trigger_data = 0,
@@ -11362,7 +11326,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11377,7 +11341,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11404,13 +11368,7 @@ pg.base.island_task = {
 		target_id = {
 			305020111
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502012] = {
 		trigger_data = 0,
@@ -11450,7 +11408,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11465,7 +11423,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11492,13 +11450,7 @@ pg.base.island_task = {
 		target_id = {
 			305020211
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502022] = {
 		trigger_data = 0,
@@ -11538,7 +11490,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11553,7 +11505,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11580,13 +11532,7 @@ pg.base.island_task = {
 		target_id = {
 			305020311
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502032] = {
 		trigger_data = 0,
@@ -11626,7 +11572,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11666,7 +11612,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11706,7 +11652,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11746,7 +11692,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11786,7 +11732,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11825,8 +11771,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11865,8 +11811,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11909,8 +11855,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11953,8 +11899,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11997,8 +11943,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -12041,8 +11987,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -12081,8 +12027,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12121,8 +12067,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12165,8 +12111,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12209,8 +12155,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12253,8 +12199,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12297,8 +12243,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12341,8 +12287,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12385,8 +12331,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12429,8 +12375,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12473,8 +12419,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12513,8 +12459,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100002,
+				2
 			}
 		}
 	},
@@ -12553,7 +12499,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100002,
 				1
 			}
 		}
@@ -12593,8 +12539,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12633,8 +12579,13 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100002,
 				1
+			},
+			{
+				41,
+				100102,
+				2
 			}
 		}
 	},
@@ -12673,8 +12624,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100103,
+				3
 			}
 		}
 	}

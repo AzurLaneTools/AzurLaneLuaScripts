@@ -79,6 +79,12 @@ slot0.getIcon = function(slot0)
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
 			return "island/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function ()
+			return "island/IslandDressIcon/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function ()
+			return "island/IslandActionIcon/" .. uv0:getConfig("resource")
 		end
 	}, function ()
 		return uv0:getConfig("icon")

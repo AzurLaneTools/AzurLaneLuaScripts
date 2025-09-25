@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_306",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我沒事，你們來的很及時。",
+			say = "我沒事，妳們來的很及時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

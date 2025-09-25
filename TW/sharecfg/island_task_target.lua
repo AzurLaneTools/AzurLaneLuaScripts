@@ -1995,12 +1995,12 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "",
-		name = "到翠土林场周围寻找精选之木",
+		name = "获得实用之木",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
 		target_param = {
-			2802
+			2801
 		}
 	},
 	[200010071] = {
@@ -2015,7 +2015,7 @@ pg.base.island_task_target = {
 	},
 	[200010081] = {
 		tips = "",
-		name = "在沉石矿场采集铁矿",
+		name = "获得铁矿 ",
 		type = 4,
 		id = 200010081,
 		target_num = 10,
@@ -2464,7 +2464,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070101] = {
-		tips = "10010082",
+		tips = "10040057",
 		name = "将蜂蜜水送给无名氏",
 		type = 1,
 		id = 200070101,
@@ -2978,7 +2978,7 @@ pg.base.island_task_target = {
 		name = "手动采集任意矿石和木材",
 		type = 6,
 		id = 301010011,
-		target_num = 1,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3493,7 +3493,7 @@ pg.base.island_task_target = {
 		name = "采集任意矿物",
 		type = 6,
 		id = 300000011,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3508,7 +3508,7 @@ pg.base.island_task_target = {
 		name = "采集任意木材",
 		type = 6,
 		id = 300000021,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			402001,
 			402002,

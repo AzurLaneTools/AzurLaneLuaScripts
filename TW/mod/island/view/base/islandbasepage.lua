@@ -146,6 +146,12 @@ slot0.SetVisible = function(slot0, slot1, slot2)
 	slot3.blocksRaycasts = slot2
 end
 
+slot0.ActiveOrDisactive = function(slot0, slot1)
+	if not IsNil(slot0._tf) then
+		setActive(slot0._tf, slot1)
+	end
+end
+
 slot0.AddListeners = function(slot0)
 end
 

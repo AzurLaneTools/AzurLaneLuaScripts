@@ -22,6 +22,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.buyBtn = slot0:findTF("buyBtn", slot0.panel)
 	slot0.consumeIcon = slot0:findTF("consume/icon", slot0.buyBtn)
 	slot0.consumeCount = slot0:findTF("consume/count", slot0.buyBtn)
+
+	setText(slot0._tf:Find("panel/title"), i18n("island_3Dshop_buy_confirm"))
+	setText(slot0._tf:Find("panel/buyBtn/text"), i18n("island_3Dshop_buy"))
+	setText(slot0._tf:Find("panel/getDesc"), i18n("island_3Dshop_buy_tip0"))
 end
 
 slot0.OnInit = function(slot0)

@@ -2759,7 +2759,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{
@@ -2800,7 +2800,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{
@@ -2841,7 +2841,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{

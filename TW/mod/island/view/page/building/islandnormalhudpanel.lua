@@ -24,7 +24,7 @@ slot0.OnInit = function(slot0)
 	setText(slot0.hudTitle, slot1.title)
 	setText(slot0.hudName, slot1.name)
 
-	slot0.playerTF = slot0:GetPlayer()
+	slot0.playerObj = slot0:GetPlayer()
 
 	slot0:CheckPlayer()
 end
@@ -46,7 +46,7 @@ slot0.GetPlayer = function(slot0)
 		if slot7.isPlayer then
 			slot0.hasPlayer = true
 
-			return slot7.gameObject.transform
+			return slot7.gameObject
 		end
 	end
 
@@ -60,19 +60,13 @@ slot0.CheckIsNear = function(slot0)
 		return false
 	end
 
-	if not slot0.playerTF then
+	if IsNil(slot0.playerObj) then
+		warning("playerObj is nil")
+
 		return false
 	end
 
-	if slot0.playerTF == nil then
-		warning("self.playerTF is nil ")
-	end
-
-	if slot2.transform == nil then
-		warning("role.transform is nil")
-	end
-
-	if (slot0.playerTF.position - slot2.transform.position).magnitude < slot0.hud_name_range then
+	if (slot0.playerObj.transform.position - slot2.transform.position).magnitude < slot0.hud_name_range then
 		return true
 	end
 

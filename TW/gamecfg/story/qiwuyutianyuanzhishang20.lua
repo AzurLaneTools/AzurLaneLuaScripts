@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你也說了，這裡是我的夢，不是現實……你沒有必要在這裡執行任何任務。",
+			say = "妳也說了，這裡是我的夢，不是現實……你沒有必要在這裡執行任何任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
