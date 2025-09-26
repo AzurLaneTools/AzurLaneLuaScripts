@@ -504,7 +504,7 @@ slot0.SwitchZone = function(slot0)
 	slot0:UpdateCameraPanel()
 	slot0:UpdateLightingPanel()
 	slot0:UpdateAnimSpeedPanel()
-	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", slot0.animSpeed)
+	slot0:SetAllAnimSpeed(slot0.animSpeed)
 end
 
 slot0.UpdateZoneList = function(slot0)
@@ -617,8 +617,11 @@ slot0.UpdateActionPanel = function(slot0)
 		end
 
 		slot8 = function(slot0, slot1, slot2)
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterSceneAnim", slot0:GetEnterSceneAnim(), slot2 ~= slot1)
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterExtraItem", slot0:GetEnterExtraItem(), slot2 ~= slot1)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterSceneAnim", slot0:GetEnterSceneAnim(), slot2 ~= slot1, uv0.animSpeed)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterExtraItem", slot0:GetEnterExtraItem(), uv0.animSpeed)
+
+			uv0.cacheSceneAnim = slot0:GetEnterSceneAnim()
+			uv0.cacheExtraItem = slot0:GetEnterExtraItem()
 		end
 
 		slot9 = _.reduce(slot3, 0, function (slot0, slot1)
@@ -1025,6 +1028,12 @@ slot0.RefreshCamera = function(slot0)
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SettingCamera", slot0.cameraSettings)
 end
 
+slot0.SetAllAnimSpeed = function(slot0, slot1)
+	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", slot1)
+	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetSceneAnimSpeed", slot0.cacheSceneAnim, slot1)
+	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetExtraAnimSpeed", slot0.cacheExtraItem, slot1)
+end
+
 slot0.UpdateAnimSpeedPanel = function(slot0)
 	slot1 = function()
 		if not uv0.timerAnim then
@@ -1059,7 +1068,7 @@ slot0.UpdateAnimSpeedPanel = function(slot0)
 
 			uv0.animSpeed = uv1
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", uv1)
+			uv0:SetAllAnimSpeed(uv1)
 			uv0:UpdateAnimSpeedPanel()
 		end, SFX_PANEL)
 	end)
@@ -1077,7 +1086,7 @@ slot0.UpdateAnimSpeedPanel = function(slot0)
 
 		uv0.animSpeed = slot0
 
-		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", slot0)
+		uv0:SetAllAnimSpeed(slot0)
 		uv0:UpdateAnimSpeedPanel()
 	end, SFX_PANEL)
 	UIItemList.StaticAlign(slot0.listAnimSpeed, slot0.listAnimSpeed:GetChild(0), #slot2, function (slot0, slot1, slot2)
@@ -1254,7 +1263,7 @@ slot0.willExit = function(slot0)
 	end
 
 	if slot0.animSpeed ~= 1 then
-		slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
+		slot0:SetAllAnimSpeed(1)
 	end
 
 	if slot0.settingHideCharacter then

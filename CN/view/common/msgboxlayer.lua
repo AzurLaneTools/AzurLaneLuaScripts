@@ -499,7 +499,6 @@ end
 slot0.Loaded = function(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		groupName = slot1.groupName,
-		blurLevelCamera = slot1.blurLevelCamera,
 		parent = slot1.parent
 	})
 	pg.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)

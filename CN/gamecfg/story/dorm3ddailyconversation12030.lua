@@ -14,13 +14,41 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
-			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "唔啊啊！{namecode:97}衣服的扣子怎么也扣不上……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "excited_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_think_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{

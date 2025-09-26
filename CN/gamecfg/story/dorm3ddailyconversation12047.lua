@@ -14,13 +14,41 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
-			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "{namecode:97}发现了一个很有趣的游戏，{dorm3d}要不要一起玩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "hello_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_smile_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{

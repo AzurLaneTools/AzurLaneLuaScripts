@@ -54,8 +54,7 @@ slot0.register = function(slot0)
 			mediator = NotificationMediator,
 			viewComponent = NotificationLayer,
 			data = {
-				form = NotificationLayer.FORM_BATTLE,
-				chatViewParent = slot1
+				form = NotificationLayer.FORM_BATTLE
 			}
 		}))
 	end)

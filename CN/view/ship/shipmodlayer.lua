@@ -20,7 +20,7 @@ slot0.init = function(slot0)
 	slot0.shipContainer = slot0:findTF("bg/add_ship_panel/ships", slot0.mainPanel)
 	slot0.attrsPanel = slot0:findTF("bg/property_panel/attrs", slot0.mainPanel)
 
-	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_ShipFashionView:90:to_attr_tip"))
+	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
 end
 
 slot0.didEnter = function(slot0)
@@ -75,7 +75,8 @@ slot0.blurPanel = function(slot0, slot1)
 		slot0:OverlayPanel(slot0.blurPanelTF, {
 			pbList = {
 				slot0.mainPanel:Find("bg")
-			}
+			},
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		slot0:UnOverlayPanel(slot0.blurPanelTF, slot0._tf)
