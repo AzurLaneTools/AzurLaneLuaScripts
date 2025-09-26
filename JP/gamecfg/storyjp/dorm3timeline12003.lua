@@ -20,7 +20,7 @@ return {
 					op_list = {
 						{
 							sceneRoot = "Dafeng_DB/Dafenghostel",
-							name = "Qihe_03",
+							name = "Qihe_30707_03",
 							scene = "map_dafeng_01",
 							type = "timeline",
 							skip = false,

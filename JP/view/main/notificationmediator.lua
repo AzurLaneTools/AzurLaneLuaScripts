@@ -178,7 +178,6 @@ slot0.handleNotification = function(slot0, slot1)
 					pos = slot0.contextData.pos,
 					msg = slot0.contextData.msg,
 					form = slot0.contextData.form,
-					parent = slot0.contextData.chatViewParent,
 					groupName = slot0.viewComponent:getGroupName()
 				}
 			}))

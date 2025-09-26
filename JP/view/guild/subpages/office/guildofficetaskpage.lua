@@ -43,7 +43,8 @@ slot0.OnInit = function(slot0)
 	slot1:OverlayPanel(slot0.taskTF, {
 		pbList = {
 			slot0.taskTF
-		}
+		},
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 	})
 	onButton(slot0, slot0.supplyUnOpenAdminTF, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

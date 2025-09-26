@@ -14,13 +14,41 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
-			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "次の休暇に一緒に行く場所について相談ですけど…森がいいですか？それとも海辺の方がいいですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "talk_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_think_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{

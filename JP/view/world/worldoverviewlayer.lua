@@ -70,9 +70,7 @@ slot0.init = function(slot0)
 			uv0:closeView()
 		end
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)

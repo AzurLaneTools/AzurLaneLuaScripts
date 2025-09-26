@@ -423,7 +423,8 @@ slot0.OnSelected = function(slot0, slot1)
 				slot0.detailPanel:Find("attrs"),
 				slot0.detailPanel:Find("equipments"),
 				slot0.detailPanel:Find("quick_panel")
-			}
+			},
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		slot0:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)

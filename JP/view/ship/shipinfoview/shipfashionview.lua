@@ -79,7 +79,8 @@ slot0.OnSelected = function(slot0, slot1)
 			pbList = {
 				slot0.stylePanel:Find("style_desc"),
 				slot0.stylePanel:Find("frame")
-			}
+			},
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		slot0:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)

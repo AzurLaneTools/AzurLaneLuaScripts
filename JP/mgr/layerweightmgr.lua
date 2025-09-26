@@ -66,6 +66,8 @@ end
 
 slot1.CreateRefreshHandler = function(slot0)
 	if not slot0.luHandle then
+		slot0:Log("CreateRefreshHandler")
+
 		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.Refresh, slot0)
 
 		LateUpdateBeat:AddListener(slot0.luHandle)
@@ -92,13 +94,19 @@ slot1.Add2Overlay = function(slot0, slot1, slot2)
 	slot2.overlayType = slot2.overlayType or LayerWeightConst.OVERLAY_UI_MAIN
 	slot2.groupName = slot2.groupName or LayerWeightConst.GROUP_TOP
 	slot2.groupDelta = slot2.groupDelta or 0
-	slot2.blurCamList = slot2.blurCamList or (slot0.lvCamera.enabled and {
-		uv0.UIMgr.CameraLevel
-	} or {
-		uv0.UIMgr.CameraUI
-	})
 
-	assert(slot2.type and LayerWeightConst.TYPE_DIC[slot4])
+	if not slot2.blurCamList then
+		if slot2.globalBlur or #slot2.pbList > 0 then
+			slot2.blurCamList = {
+				uv0.UIMgr.CameraLevel,
+				uv0.UIMgr.CameraUI
+			}
+		else
+			slot2.blurCamList = {}
+		end
+	end
+
+	assert(slot2.type and LayerWeightConst.TYPE_DIC[slot3])
 	slot0:Log(string.format("ui:%s 加入了ui层级管理\n%s", slot1.name, PrintTable(slot2)))
 	slot0:ClearBlurData(slot0:DelList(slot1))
 	table.insert(slot0.storeUIs, slot2)
