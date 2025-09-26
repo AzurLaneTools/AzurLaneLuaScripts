@@ -149,7 +149,7 @@ slot0.didEnter = function(slot0)
 			end)
 		end
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
+	slot0:OverlayPanel(slot0.top)
 end
 
 slot0.UpdateScrollContent = function(slot0, slot1, slot2, slot3, slot4)
@@ -360,7 +360,7 @@ slot0.LoadingOff = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
+	slot0:UnOverlayPanel(slot0.top, slot0._tf)
 	Object.Destroy(slot0.washMaterial)
 	slot0:RecordPos(slot0.slotShipPos)
 	slot0:CleanSpines()

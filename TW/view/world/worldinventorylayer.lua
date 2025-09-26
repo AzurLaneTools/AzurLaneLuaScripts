@@ -82,30 +82,6 @@ slot0.didEnter = function(slot0)
 	slot0:OverlayPanel(slot0._tf)
 end
 
-slot0.OverlayPanel = function(slot0, slot1)
-	slot0.overlayIndex = slot0.overlayIndex or 0
-	slot0.overlayIndex = slot0.overlayIndex + 1
-
-	setParent(tf(slot1), slot0._tf.parent, false)
-	tf(slot1):SetSiblingIndex(slot0._tf:GetSiblingIndex() + slot0.overlayIndex)
-
-	if slot0:findTF("bg") then
-		print(slot0:findTF("bg").rect.width)
-	end
-end
-
-slot0.UnOverlayPanel = function(slot0, slot1, slot2)
-	setParent(tf(slot1), slot2, false)
-
-	slot0.overlayIndex = slot0.overlayIndex or 0
-	slot0.overlayIndex = slot0.overlayIndex - 1
-	slot0.overlayIndex = math.max(slot0.overlayIndex, 0)
-
-	if slot0:findTF("bg") then
-		print(slot0:findTF("bg").rect.width)
-	end
-end
-
 slot0.onBackPressed = function(slot0)
 	print(slot0:findTF("bg").rect.width)
 
@@ -137,8 +113,6 @@ slot0.initData = function(slot0)
 
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.isEquipingOn = false
-
-	print(slot0:findTF("bg").rect.width)
 end
 
 slot0.GetShowBusyFlag = function(slot0)

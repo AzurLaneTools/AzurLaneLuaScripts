@@ -75,8 +75,7 @@ slot0.blurPanel = function(slot0, slot1)
 		slot0:OverlayPanel(slot0.blurPanelTF, {
 			pbList = {
 				slot0.mainPanel:Find("bg")
-			},
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			}
 		})
 	else
 		slot0:UnOverlayPanel(slot0.blurPanelTF, slot0._tf)

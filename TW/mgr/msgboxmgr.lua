@@ -1119,7 +1119,6 @@ end
 slot1.Loaded = function(slot0, slot1)
 	uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		groupName = slot1.groupName,
-		blurLevelCamera = slot1.blurLevelCamera,
 		parent = slot1.parent
 	})
 	uv0.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)

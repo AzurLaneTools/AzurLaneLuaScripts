@@ -515,13 +515,9 @@ slot0.didEnter = function(slot0)
 			end)
 		end)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
 	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.topItems)
 
 	slot2 = slot0.contextData.mode or StoreHouseConst.OVERVIEW
 	slot0.contextData.warp = nil

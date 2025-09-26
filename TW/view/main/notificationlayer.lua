@@ -125,6 +125,8 @@ slot0.init = function(slot0)
 		others = {}
 	}
 	uv0.ChannelBits.recv = getProxy(SettingsProxy):GetChatFlag()
+
+	slot0:BlurPanel(slot0._tf)
 end
 
 slot0.adjustMsgListPanel = function(slot0)
@@ -145,8 +147,9 @@ slot0.didEnter = function(slot0)
 		end
 
 		uv0.isExitPlay = true
+		slot0 = uv0
 
-		uv0:PlayUIAnimation(uv0._tf, "exit", function ()
+		slot0:PlayUIAnimation(uv0._tf, "exit", function ()
 			if uv0.currentForm == uv1.FORM_BATTLE then
 				uv0:emit(NotificationMediator.BATTLE_CHAT_CLOSE)
 			end
@@ -190,7 +193,10 @@ slot0.didEnter = function(slot0)
 		end
 	end)
 	pg.DelegateInfo.Add(slot0, slot0.scroll.onValueChanged)
-	slot0.scroll.onValueChanged:AddListener(function (slot0)
+
+	slot1 = slot0.scroll.onValueChanged
+
+	slot1:AddListener(function (slot0)
 		if uv0.index > 1 and slot0.y >= 1 then
 			slot1 = uv0.content.sizeDelta.y * slot0.y
 			slot2 = uv0.scroll.velocity
@@ -214,29 +220,12 @@ slot0.didEnter = function(slot0)
 	slot0:initFilter()
 	slot0:updateFilter()
 	slot0:updateAll()
-
-	if slot0.currentForm == uv0.FORM_BATTLE then
-		slot0._tf:SetParent(slot0.contextData.chatViewParent, true)
-
-		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
-	else
-		slot0:BlurPanel()
-	end
-
 	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
 		scrollToBottom(uv0.content.parent)
 	end))
 
 	rtf(slot0._tf).offsetMax = Vector2(0, 0)
 	rtf(slot0._tf).offsetMin = Vector2(0, 0)
-end
-
-slot0.BlurPanel = function(slot0)
-	uv0.super.BlurPanel(slot0, slot0._tf)
-end
-
-slot0.UnblurPanel = function(slot0)
-	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -354,8 +343,6 @@ slot0.updateRoom = function(slot0)
 end
 
 slot0.showChangeRoomPanel = function(slot0)
-	slot0:UnblurPanel()
-
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0.changeRoomPanel)
@@ -427,15 +414,6 @@ end
 
 slot0.closeChangeRoomPanel = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.changeRoomPanel, slot0._tf)
-
-	if slot0.currentForm == uv0.FORM_BATTLE then
-		slot0._tf:SetParent(slot0.contextData.chatViewParent, true)
-
-		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
-	else
-		slot0:BlurPanel()
-	end
-
 	setActive(slot0.changeRoomPanel, false)
 end
 
@@ -616,14 +594,11 @@ slot0.displayEmojiPanel = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	if slot0.currentForm == uv0.FORM_BATTLE then
-		if isActive(slot0.changeRoomPanel) then
-			slot0:closeChangeRoomPanel()
-		end
-	else
-		slot0:UnblurPanel()
+	if isActive(slot0.changeRoomPanel) then
+		slot0:closeChangeRoomPanel()
 	end
 
+	slot0:UnOverlayPanel(slot0._tf)
 	LeanTween.cancel(slot0._go)
 	LeanTween.cancel(go(slot0.enterRoomTip))
 
