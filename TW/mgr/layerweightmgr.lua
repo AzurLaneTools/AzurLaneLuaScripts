@@ -108,9 +108,7 @@ slot1.Add2Overlay = function(slot0, slot1, slot2)
 
 	assert(slot2.type and LayerWeightConst.TYPE_DIC[slot3])
 	slot0:Log(string.format("ui:%s 加入了ui层级管理\n%s", slot1.name, PrintTable(slot2)))
-
-	slot4 = slot0:DelList(slot1)
-
+	slot0:ClearBlurData(slot0:DelList(slot1))
 	table.insert(slot0.storeUIs, slot2)
 	slot0:CreateRefreshHandler()
 
@@ -126,6 +124,7 @@ slot1.DelFromOverlay = function(slot0, slot1, slot2)
 		slot5 = slot0:GetAdaptObjFromUI(slot3.ui) or slot4
 
 		slot0:CheckRecycleAdaptObj(slot4, slot2)
+		slot0:ClearBlurData(slot3)
 	end
 
 	slot0:CreateRefreshHandler()
@@ -145,6 +144,29 @@ slot1.DelList = function(slot0, slot1)
 	end
 
 	return slot2
+end
+
+slot1.ClearBlurData = function(slot0, slot1)
+	if slot1 == nil then
+		return
+	end
+
+	if slot1.pbList ~= nil then
+		uv0.UIMgr.GetInstance():RevertPBMaterial(slot1.pbList)
+	end
+
+	if slot1.lockGlobalBlur then
+		slot3 = slot1.blurCamList
+
+		for slot7, slot8 in ipairs({
+			uv0.UIMgr.CameraUI,
+			uv0.UIMgr.CameraLevel
+		}) do
+			if table.contains(slot3, slot8) then
+				uv0.UIMgr.GetInstance():UnblurCamera(slot8, slot2)
+			end
+		end
+	end
 end
 
 slot1.SortStoreUIs = function(slot0)
