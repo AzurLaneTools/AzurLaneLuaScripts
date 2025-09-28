@@ -108,7 +108,9 @@ slot1.Add2Overlay = function(slot0, slot1, slot2)
 
 	assert(slot2.type and LayerWeightConst.TYPE_DIC[slot3])
 	slot0:Log(string.format("ui:%s 加入了ui层级管理\n%s", slot1.name, PrintTable(slot2)))
-	slot0:ClearBlurData(slot0:DelList(slot1))
+
+	slot4 = slot0:DelList(slot1)
+
 	table.insert(slot0.storeUIs, slot2)
 	slot0:CreateRefreshHandler()
 
@@ -124,7 +126,6 @@ slot1.DelFromOverlay = function(slot0, slot1, slot2)
 		slot5 = slot0:GetAdaptObjFromUI(slot3.ui) or slot4
 
 		slot0:CheckRecycleAdaptObj(slot4, slot2)
-		slot0:ClearBlurData(slot3)
 	end
 
 	slot0:CreateRefreshHandler()
@@ -144,29 +145,6 @@ slot1.DelList = function(slot0, slot1)
 	end
 
 	return slot2
-end
-
-slot1.ClearBlurData = function(slot0, slot1)
-	if slot1 == nil then
-		return
-	end
-
-	if slot1.pbList ~= nil then
-		uv0.UIMgr.GetInstance():RevertPBMaterial(slot1.pbList)
-	end
-
-	if slot1.lockGlobalBlur then
-		slot3 = slot1.blurCamList
-
-		for slot7, slot8 in ipairs({
-			uv0.UIMgr.CameraUI,
-			uv0.UIMgr.CameraLevel
-		}) do
-			if table.contains(slot3, slot8) then
-				uv0.UIMgr.GetInstance():UnblurCamera(slot8, slot2)
-			end
-		end
-	end
 end
 
 slot1.SortStoreUIs = function(slot0)
@@ -215,19 +193,16 @@ slot1.LayerSortHandler = function(slot0)
 			end
 		end
 
+		slot5 = slot5 or slot19
+
 		if not slot1 or slot1 <= slot11 then
 			slot4 = slot4 or slot18
-			slot5 = slot5 or slot19
 			slot6 = slot6 or slot20
 
 			table.insertto(slot7, slot21)
-		end
 
-		if #slot22 > 0 then
-			if slot24 then
+			if #slot22 > 0 then
 				table.insertto(slot3, slot22)
-			else
-				uv0.UIMgr.GetInstance():RevertPBMaterial(slot22)
 			end
 		end
 
@@ -259,30 +234,29 @@ slot1.LayerSortHandler = function(slot0)
 		end
 	end
 
+	if not slot5 then
+		uv0.UIMgr.GetInstance():SetCameraBlurLock(slot5)
+	end
+
 	if not slot4 and #slot3 > 0 then
 		uv0.UIMgr.GetInstance():PartialBlurTfs(slot3)
 	else
 		uv0.UIMgr.GetInstance():ShutdownPartialBlur()
 	end
 
-	if slot4 then
-		for slot11, slot12 in ipairs({
-			uv0.UIMgr.CameraUI,
-			uv0.UIMgr.CameraLevel
-		}) do
-			if table.contains(slot7, slot12) then
-				uv0.UIMgr.GetInstance():BlurCamera(slot12, slot6, slot5)
-			else
-				uv0.UIMgr.GetInstance():UnblurCamera(slot12)
-			end
-		end
-	else
-		for slot11, slot12 in ipairs({
-			uv0.UIMgr.CameraUI,
-			uv0.UIMgr.CameraLevel
-		}) do
+	for slot11, slot12 in ipairs({
+		uv0.UIMgr.CameraUI,
+		uv0.UIMgr.CameraLevel
+	}) do
+		if slot4 and table.contains(slot7, slot12) then
+			uv0.UIMgr.GetInstance():BlurCamera(slot12, slot6)
+		else
 			uv0.UIMgr.GetInstance():UnblurCamera(slot12)
 		end
+	end
+
+	if slot5 then
+		uv0.UIMgr.GetInstance():SetCameraBlurLock(slot5)
 	end
 end
 

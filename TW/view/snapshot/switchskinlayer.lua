@@ -28,6 +28,8 @@ end
 
 slot0.init = function(slot0)
 	slot0.shareBtn = slot0:findTF("select_skin/share_btn")
+
+	slot0:BlurPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)
@@ -145,6 +147,8 @@ slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.skinCardMap) do
 		slot5:clear()
 	end
+
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

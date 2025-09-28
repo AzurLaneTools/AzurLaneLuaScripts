@@ -112,7 +112,7 @@ slot0.ReturnGroup = function(slot0, slot1)
 end
 
 slot0.GetSpine = function(slot0, slot1, slot2, slot3)
-	if not slot1 or #slot1 < 0 then
+	if not noEmptyStr(slot1) then
 		return
 	end
 

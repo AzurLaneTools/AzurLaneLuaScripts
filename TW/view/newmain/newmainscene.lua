@@ -27,6 +27,10 @@ slot0.needCache = function(slot0)
 	return true
 end
 
+slot0.forceGC = function(slot0)
+	return true
+end
+
 slot0.GetThemeStyle = function(slot0)
 	return getProxy(SettingsProxy):GetMainSceneThemeStyle()
 end
@@ -385,6 +389,7 @@ slot0.OnDisVisible = function(slot0)
 	slot0.isInit = false
 
 	slot0:RevertSleepTimeout()
+	gcAll()
 end
 
 slot0.UnloadTheme = function(slot0)
