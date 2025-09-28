@@ -17553,7 +17553,7 @@ pg.base.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 301139,
 		hide = 0,
 		group_type = 30113,
 		index_id = 294,
@@ -17567,8 +17567,17 @@ pg.base.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			151630
+		},
 		description = {
 			{
 				"메인 스테이지 해역4-3",
