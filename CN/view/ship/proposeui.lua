@@ -448,9 +448,11 @@ slot0.willExit = function(slot0)
 		slot0.l2dChar = nil
 	end
 
-	pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
+	if slot0.live2dRequestId then
+		pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
 
-	slot0.live2dRequestId = nil
+		slot0.live2dRequestId = nil
+	end
 
 	if slot0._delayVoiceTweenID then
 		LeanTween.cancel(slot0._delayVoiceTweenID)

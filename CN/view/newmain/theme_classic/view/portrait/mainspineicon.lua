@@ -21,7 +21,7 @@ slot0.Load = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetSpineChar(slot1, true, function (slot0)
-		if uv0.exited then
+		if uv0.name ~= uv1 then
 			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
 
 			return
