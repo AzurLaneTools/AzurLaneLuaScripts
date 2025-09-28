@@ -11,6 +11,7 @@ slot7 = 2
 slot8 = 1
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
+	slot0.data = slot1
 	slot0.live2dData = slot2
 	slot0.commonData = slot3
 	slot0.frameRate = Application.targetFrameRate or 60
@@ -1506,7 +1507,9 @@ slot0.dispose = function(slot0)
 	slot0.parameterTargetValue = 0
 	slot0.parameterSmooth = 0
 	slot0.mouseInputDown = Vector2(0, 0)
+	slot0.data = nil
 	slot0.live2dData = nil
+	slot0.commonData = nil
 end
 
 return slot0

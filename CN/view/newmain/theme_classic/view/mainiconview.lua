@@ -23,7 +23,6 @@ end
 
 slot0.Init = function(slot0, slot1)
 	slot0.ship = slot1
-	slot2 = slot0:GetIconType(slot1)
 
 	if slot0.iconInstance then
 		slot0.iconInstance:Unload()
@@ -31,7 +30,7 @@ slot0.Init = function(slot0, slot1)
 		slot0.iconInstance = nil
 	end
 
-	slot0.iconInstance = slot0.iconList[slot2]
+	slot0.iconInstance = slot0.iconList[slot0:GetIconType(slot1)]
 
 	slot0.iconInstance:Load(slot1:getPrefab())
 end

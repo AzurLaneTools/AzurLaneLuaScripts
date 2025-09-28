@@ -15,8 +15,6 @@ slot0.Ctor = function(slot0)
 	slot0.callbacks = {}
 	slot0.pluralIndex = 0
 	slot0.singleIndex = 0
-	slot0.paintingCount = 0
-	slot0.commanderPaintingCount = 0
 	slot0.preloadDic = {
 		["ui/share/world_common_atlas"] = 1,
 		["shipyardicon/unknown"] = 1,
@@ -122,29 +120,25 @@ slot0.ReturnSpineChar = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.ExcessSpineChar = function(slot0)
-	slot1 = 0
-	slot2 = 6
-	slot3 = {}
+slot0.ExcessSpineChar = function(slot0, slot1)
+	slot2 = 0
+	slot3 = 6
+	slot4 = {}
 
-	for slot7, slot8 in pairs(slot0.pools_plural) do
-		if string.find(slot7, "char/") == 1 then
-			table.insert(slot3, slot7)
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "char/", nil, true) == 1 and slot9:AllReturned() then
+			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot2 < #slot3 then
-		table.sort(slot3, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
-		for slot7 = slot2 + 1, #slot3 do
-			slot8 = slot3[slot7]
-
-			slot0.pools_plural[slot8]:Clear()
-
-			slot0.pools_plural[slot8] = nil
+			slot0.pools_plural[slot9] = nil
 		end
+	elseif slot3 < #slot4 then
+		gcAll()
 	end
 end
 
@@ -293,36 +287,22 @@ end
 
 slot0.ExcessPainting = function(slot0, slot1)
 	slot2 = 0
-	slot3 = 4
+	slot3 = 6
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.pools_plural) do
-		if string.find(slot8, "painting/") and slot10 >= 1 then
+		if string.find(slot8, "painting/", nil, true) == 1 and slot9:AllReturned() then
 			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot3 < #slot4 then
-		table.sort(slot4, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
-
-		for slot8 = slot3 + 1, #slot4 do
-			slot9 = slot4[slot8]
-
-			slot0.pools_plural[slot9]:Clear(true)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
 			slot0.pools_plural[slot9] = nil
 		end
-
-		slot0.paintingCount = slot0.paintingCount + 1
-	end
-
-	if slot1 then
-		slot0.paintingCount = 0
-	elseif slot0.paintingCount >= 10 then
-		slot0.paintingCount = 0
-
+	elseif slot3 < #slot4 then
 		gcAll(false)
 	end
 end
@@ -360,6 +340,90 @@ slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 		slot0:ExcessPainting()
 	else
 		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetSpinePainting = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("spinePainting/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnSpinePainting = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("spinePainting/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetLive2D = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("live2d/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnLive2D = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("live2d/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot8 = {
+	["spinePainting/"] = true,
+	["live2d/"] = true
+}
+slot9 = ApartmentProxy.CheckDeviceRAMEnough() and 6 or 2
+
+slot0.ExcessDymPainting = function(slot0, slot1)
+	slot2 = 0
+	slot3 = uv0
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "/", nil, true) and uv1[string.sub(slot8, 1, slot10)] and slot9:AllReturned() then
+			table.insert(slot4, slot8)
+		end
+	end
+
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
+
+			slot0.pools_plural[slot9] = nil
+		end
+	elseif slot3 < #slot4 then
+		gcAll(false)
 	end
 end
 
@@ -441,8 +505,8 @@ slot0.SpriteMemUsage = function(slot0)
 	return slot1
 end
 
-slot8 = 64
-slot9 = {
+slot10 = 64
+slot11 = {
 	"chapter/",
 	"emoji/",
 	"world/"

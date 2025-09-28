@@ -1,7 +1,7 @@
 slot0 = class("MainSpineIcon", import(".MainBaseIcon"))
 
 slot0.Resume = function(slot0)
-	if slot0.spineAnim then
+	if slot0.spineAnim and not IsNil(slot0.spineAnim) then
 		slot0.spineAnim:Resume()
 	end
 end
@@ -14,10 +14,16 @@ end
 
 slot0.Load = function(slot0, slot1)
 	slot0.loading = true
+
+	assert(not slot0.shipModel)
+
+	slot0.name = slot1
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetSpineChar(slot1, true, function (slot0)
 		if uv0.exited then
+			PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+
 			return
 		end
 
@@ -37,23 +43,23 @@ slot0.Load = function(slot0, slot1)
 		uv0.spineAnim = slot4
 
 		onNextTick(function ()
-			if uv0.spineAnim then
-				uv0.spineAnim:Resume()
+			if uv0.name ~= uv1 then
+				return
 			end
+
+			uv2:Resume()
 		end)
 	end)
-
-	slot0.name = slot1
 end
 
 slot0.Unload = function(slot0)
 	if slot0.name and slot0.shipModel then
-		slot0.spineAnim:Resume()
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.name, slot0.shipModel)
-
-		slot0.spineAnim = nil
-		slot0.name = nil
 	end
+
+	slot0.name = nil
+	slot0.shipModel = nil
+	slot0.spineAnim = nil
 end
 
 return slot0
