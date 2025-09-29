@@ -41569,7 +41569,7 @@ _G.pg.base.gametip.island_help_commission = {
 }
 
 
-_G.pg.base.gametip.island_help_cafe_minigasme = {
+_G.pg.base.gametip.island_help_cafe_minigame = {
 	tip = {
 		{
 			icon = {
@@ -43810,7 +43810,7 @@ _G.pg.base.gametip.island_production_seeds_empty = {
 
 
 _G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
-	tip = "Submit All"
+	tip = "<size=20>Submit</size>\nAll"
 }
 
 
@@ -44140,7 +44140,7 @@ _G.pg.base.gametip.island_draw_S_order_title = {
 
 
 _G.pg.base.gametip.island_draw_S_order = {
-	tip = "Drag to Change Order"
+	tip = "Drag to Change Order of Acquirement"
 }
 
 
@@ -44225,7 +44225,7 @@ _G.pg.base.gametip.island_freight_btn_receive = {
 
 
 _G.pg.base.gametip.island_freight_btn_idle = {
-	tip = "Awaiting Transport"
+	tip = "Awaiting\nTransport"
 }
 
 

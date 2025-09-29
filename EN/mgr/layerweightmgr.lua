@@ -67,6 +67,7 @@ end
 slot1.CreateRefreshHandler = function(slot0)
 	if not slot0.luHandle then
 		slot0:Log("CreateRefreshHandler")
+		NotchAdapt.AdjustUI()
 
 		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.Refresh, slot0)
 

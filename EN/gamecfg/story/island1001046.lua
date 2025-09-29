@@ -43,17 +43,17 @@ return {
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "elation",
 			say = "Heheh, isn't it awesome, nya?",
+			animation = "elation",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 3120100,
 			say = "And this is just phase one, nya! Before long, it'll be full of assembly lines that operate all day and all night, nya!",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,17 +152,17 @@ return {
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "elation",
 			say = "Nya-nya! Standardizing all these products will make the development area's trade volume boom, too, nya!",
+			animation = "elation",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 3120100,
 			say = "Our excess flour, feed, and alloys can be sold off for pure profit, nya!",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,26 +178,26 @@ return {
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "nod",
 			say = "Darn right, nya! Once these hunks of metal get to work, your debt...",
+			animation = "nod",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 3120100,
 			say = "Ahem! The island's balance sheet, I mean, will be greener than ever, nya!",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "talk",
 			say = "Endless money... no, PROSPERITY, is almost in our paws, nya!",
+			animation = "talk",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "clap",
 			say = "Nyahaha! By then, we won't be worrying about going hungry anymore, nya!",
+			animation = "clap",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			actor = 3120100,
-			animation = "clap",
 			say = "It's a promise then, nya! We'll all keep working hard at it, nya!",
+			animation = "clap",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -202,7 +202,7 @@ pg.open_systems_limited = {
 	},
 	[27] = {
 		scene = "MAINUI",
-		name = "岛屿",
+		name = "Island",
 		story_id = "",
 		id = 27,
 		mediator = "IslandMediator",

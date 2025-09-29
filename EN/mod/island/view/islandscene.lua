@@ -6,6 +6,19 @@ slot0.getUIName = function(slot0)
 	return "IslandUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	seriesAsync({
+		function (slot0)
+			uv0.super.preload(uv1, slot0)
+		end,
+		function (slot0)
+			IslandTaskHelper.FixTaskLinksStory(slot0)
+		end
+	}, function ()
+		uv0()
+	end)
+end
+
 slot0.loadingQueue = function(slot0)
 	return function (slot0)
 		slot1 = pg.SceneAnimMgr.GetInstance()
