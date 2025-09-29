@@ -440,4 +440,8 @@ slot0.OnHide = function(slot0)
 	slot0:UnBlurPanel()
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
 return slot0

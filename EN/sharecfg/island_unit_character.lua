@@ -459,7 +459,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 		personal_ani = "",
 		id = 300900,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -478,7 +478,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 		personal_ani = "",
 		id = 300901,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -497,7 +497,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 		personal_ani = "",
 		id = 300902,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -516,14 +516,14 @@ Be sure to give me a call the next time you come to the harbor!]],
 		personal_ani = "",
 		id = 300903,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
 	},
 	[301000] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "Oinky Oinky Pig",
 		group = 3010,
@@ -542,7 +542,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 	},
 	[301100] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "Cow (Ranch)",
 		group = 3011,
@@ -561,7 +561,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 	},
 	[301200] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "Ox (Ranch)",
 		group = 3012,
@@ -580,7 +580,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 	},
 	[301300] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "Sheep (Ranch)",
 		group = 3013,
@@ -599,7 +599,7 @@ Be sure to give me a call the next time you come to the harbor!]],
 	},
 	[302000] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "Clucky Clucky Bird",
 		group = 3020,

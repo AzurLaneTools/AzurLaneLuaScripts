@@ -74,7 +74,7 @@ pg.island_map_details = {
 	},
 	[100302] = {
 		belong_map = 1003,
-		name = "Regular Supplies",
+		name = "Daily Supply",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100302,

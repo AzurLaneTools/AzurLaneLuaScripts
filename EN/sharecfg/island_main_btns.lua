@@ -136,7 +136,7 @@ pg.island_main_btns = {
 		page_param = {}
 	},
 	{
-		ability_id = 8,
+		ability_id = 28,
 		name = "Tech Research",
 		main_type = 1,
 		btn_name = "technology",

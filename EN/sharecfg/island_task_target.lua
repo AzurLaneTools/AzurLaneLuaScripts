@@ -897,7 +897,7 @@ pg.base.island_task_target = {
 	},
 	[80010018] = {
 		tips = "",
-		name = "Accept 3 Daily Supplies.",
+		name = "Accept 5 Daily Supplies.",
 		type = 13,
 		id = 80010018,
 		target_num = 5,
@@ -905,7 +905,7 @@ pg.base.island_task_target = {
 	},
 	[80010019] = {
 		tips = "",
-		name = "Accept 5 Daily Supplies.",
+		name = "Accept 10 Daily Supplies.",
 		type = 13,
 		id = 80010019,
 		target_num = 10,
@@ -913,7 +913,7 @@ pg.base.island_task_target = {
 	},
 	[80010020] = {
 		tips = "",
-		name = "Accept 10 Daily Supplies.",
+		name = "Accept 20 Daily Supplies.",
 		type = 13,
 		id = 80010020,
 		target_num = 20,
@@ -921,7 +921,7 @@ pg.base.island_task_target = {
 	},
 	[80010021] = {
 		tips = "",
-		name = "Accept 15 Daily Supplies.",
+		name = "Accept 30 Daily Supplies.",
 		type = 13,
 		id = 80010021,
 		target_num = 30,
@@ -929,7 +929,7 @@ pg.base.island_task_target = {
 	},
 	[80010022] = {
 		tips = "",
-		name = "Accept 20 Daily Supplies.",
+		name = "Accept 45 Daily Supplies.",
 		type = 13,
 		id = 80010022,
 		target_num = 45,
@@ -937,7 +937,7 @@ pg.base.island_task_target = {
 	},
 	[80010023] = {
 		tips = "",
-		name = "Accept 25 Daily Supplies.",
+		name = "Accept 60 Daily Supplies.",
 		type = 13,
 		id = 80010023,
 		target_num = 60,
@@ -1997,7 +1997,7 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "",
-		name = "Look for Premium Wood around the Verdant Woods.",
+		name = "Look for Workable Wood around the Verdant Woods.",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
@@ -2195,7 +2195,7 @@ pg.base.island_task_target = {
 	},
 	[200050031] = {
 		tips = "10010040",
-		name = "Go to the forest and investigate.",
+		name = "Go talk to Homeric.",
 		type = 1,
 		id = 200050031,
 		target_num = 1,
@@ -2485,7 +2485,7 @@ pg.base.island_task_target = {
 	},
 	[200080011] = {
 		tips = "10020004",
-		name = "Check out the request.",
+		name = "Go to Stephen and scope out the situation.",
 		type = 1,
 		id = 200080011,
 		target_num = 1,

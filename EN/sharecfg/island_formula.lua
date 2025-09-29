@@ -5692,7 +5692,7 @@ pg.island_formula = {
 	},
 	[7100308] = {
 		workload = 288000,
-		name = "Warehouse Capacity+ VII",
+		name = "Warehouse Capacity+ VIII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,

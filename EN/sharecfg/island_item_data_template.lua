@@ -5400,7 +5400,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"Gather on Map",
 				{}
 			}
 		}
@@ -5430,7 +5430,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"Gather on Map",
 				{}
 			}
 		}
@@ -5460,7 +5460,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"Gather on Map",
 				{}
 			}
 		}
@@ -5490,7 +5490,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"Gather on Map",
 				{}
 			}
 		}
@@ -5521,7 +5521,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"Sweetscent Orchard",
 				{}
 			}
 		}
