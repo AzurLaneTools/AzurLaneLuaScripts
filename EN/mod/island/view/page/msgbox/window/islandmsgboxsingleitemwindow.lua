@@ -40,12 +40,15 @@ end
 slot0.FlushAcquiringWay = function(slot0, slot1)
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2:Find("Text"), uv0[slot1 + 1][1])
+			slot3 = uv0[slot1 + 1]
+
+			setText(slot2:Find("Text"), slot3[1])
 			setText(slot2:Find("go/Text"), i18n("island_word_go"))
 			onButton(uv1, slot2:Find("go"), function ()
 				uv0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, uv1[2][1], uv1[2][2])
 				uv0:Hide()
 			end, SFX_PANEL)
+			setActive(slot2:Find("go"), slot3[2] and #slot3[2] > 0)
 		end
 	end)
 	slot0.uiItemList:align(#IslandItem.New({

@@ -1,5 +1,5 @@
 slot0 = class("IslandHearBeatMgr")
-slot0.SERVER_HEART_BEAT_INTERVAL = 30
+slot0.SERVER_HEART_BEAT_INTERVAL = 10
 
 slot0.Ctor = function(slot0)
 	slot0.heartBeatTimer = Timer.New(function ()

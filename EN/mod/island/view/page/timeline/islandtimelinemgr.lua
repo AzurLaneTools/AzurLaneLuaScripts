@@ -14,7 +14,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.skipBtn = slot0:findTF("skip_button")
+	slot0.skipBtn = slot0:findTF("adapt/skip_button")
 	slot0.maskCG = slot0:findTF("mask"):GetComponent(typeof(CanvasGroup))
 	slot0.state = uv0
 end

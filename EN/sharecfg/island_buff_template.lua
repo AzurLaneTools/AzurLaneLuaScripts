@@ -62,7 +62,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		name = "Production Stat Boost",
+		name = "Manuf. Efficiency Boost",
 		buff_group = 1,
 		buff_desc = "Increases the Production stat by 6% for 8 hours.",
 		buff_color = 2,
@@ -105,7 +105,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10000] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -125,7 +125,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10001] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -145,7 +145,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10002] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -165,7 +165,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10003] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -185,7 +185,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10004] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -205,7 +205,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10005] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -225,7 +225,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10006] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -245,7 +245,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10007] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -265,7 +265,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10008] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -285,7 +285,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10009] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		buff_group = 1000,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,

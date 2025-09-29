@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "集会岛向导",
+			subName = "Get-Together Island Guide",
 			animation = "hi",
 			characterId = 101300,
-			say = "欢迎来到最棒的集会！美食！美酒！奇珍！异宝！玛丽随时为你指路！",
+			say = "Welcome to the best party in the world! We've got tasty food, drinks, and rare treasure! I'm here if you ever need guidance!",
 			face2Face = {
 				{
 					0,

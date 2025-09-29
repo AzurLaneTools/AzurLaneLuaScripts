@@ -145,7 +145,8 @@ pg.island_interaction = setmetatable({
 			2102
 		},
 		[22] = {
-			2201
+			2201,
+			2202
 		},
 		[23] = {
 			2301,
@@ -231,7 +232,8 @@ pg.island_interaction = setmetatable({
 			3008,
 			3009,
 			3010,
-			3011
+			3011,
+			3012
 		},
 		[31] = {
 			3101
@@ -342,14 +344,15 @@ pg.island_interaction = setmetatable({
 			5303,
 			5304,
 			5305,
-			5313,
 			5306,
 			5307,
 			5308,
 			5309,
 			5310,
 			5311,
-			5312
+			5312,
+			5313,
+			5314
 		},
 		[54] = {
 			5401
@@ -376,7 +379,8 @@ pg.island_interaction = setmetatable({
 			5711,
 			5712,
 			5713,
-			5714
+			5714,
+			5715
 		},
 		[58] = {
 			5800,
@@ -588,6 +592,7 @@ pg.island_interaction = setmetatable({
 		2104,
 		2105,
 		2201,
+		2202,
 		2301,
 		2302,
 		2303,
@@ -656,6 +661,7 @@ pg.island_interaction = setmetatable({
 		3009,
 		3010,
 		3011,
+		3012,
 		3101,
 		3201,
 		3202,
@@ -720,7 +726,6 @@ pg.island_interaction = setmetatable({
 		5303,
 		5304,
 		5305,
-		5313,
 		5306,
 		5307,
 		5308,
@@ -728,6 +733,8 @@ pg.island_interaction = setmetatable({
 		5310,
 		5311,
 		5312,
+		5313,
+		5314,
 		5401,
 		5501,
 		5502,
@@ -747,6 +754,7 @@ pg.island_interaction = setmetatable({
 		5712,
 		5713,
 		5714,
+		5715,
 		5800,
 		5801,
 		5802,
@@ -1200,7 +1208,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[1205] = {
-		text = "Produce a commodity.",
+		text = "Make a commodity.",
 		groupId = 12,
 		only_self = 0,
 		type = 6,
@@ -2264,6 +2272,21 @@ pg.base.island_interaction = {
 			}
 		}
 	},
+	[2202] = {
+		text = "This must be the bus stop...",
+		groupId = 22,
+		only_self = 0,
+		type = 21,
+		id = 2202,
+		icon = 7,
+		param = "ISLANDPERFORMANCE3",
+		show_condition = {
+			{
+				2,
+				10001050
+			}
+		}
+	},
 	[2301] = {
 		text = "Talk",
 		groupId = 23,
@@ -3188,7 +3211,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3006] = {
-		text = "Homeric...",
+		text = "Delivery's here!",
 		groupId = 30,
 		only_self = 0,
 		type = 1,
@@ -3275,6 +3298,33 @@ pg.base.island_interaction = {
 			{
 				2,
 				20012001
+			}
+		}
+	},
+	[3012] = {
+		text = "Go check out the Seed Shop",
+		groupId = 30,
+		only_self = 0,
+		type = 6,
+		id = 3012,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10022
+			}
+		},
+		show_condition = {
+			{
+				4,
+				10002070
 			}
 		}
 	},
@@ -3528,7 +3578,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[3905] = {
-		text = "{namecode:98:明石}！",
+		text = "Akashi!",
 		groupId = 39,
 		only_self = 0,
 		type = 12,
@@ -3577,7 +3627,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[4101] = {
-		text = "Claim supplies.",
+		text = "Claim Supplies",
 		groupId = 41,
 		only_self = 1,
 		type = 14,
@@ -4183,7 +4233,7 @@ pg.base.island_interaction = {
 		show_condition = {
 			{
 				11,
-				2005
+				99101
 			}
 		}
 	},
@@ -4247,21 +4297,6 @@ pg.base.island_interaction = {
 			{
 				3,
 				10003080
-			}
-		}
-	},
-	[5313] = {
-		text = "What's wrong?",
-		groupId = 53,
-		only_self = 0,
-		type = 11,
-		id = 5313,
-		icon = 9,
-		param = "20012001",
-		show_condition = {
-			{
-				1,
-				20012001
 			}
 		}
 	},
@@ -4370,6 +4405,48 @@ pg.base.island_interaction = {
 			}
 		}
 	},
+	[5313] = {
+		text = "What's wrong?",
+		groupId = 53,
+		only_self = 0,
+		type = 11,
+		id = 5313,
+		icon = 9,
+		param = "20012001",
+		show_condition = {
+			{
+				1,
+				20012001
+			}
+		}
+	},
+	[5314] = {
+		text = "Go check out the Seed Shop",
+		groupId = 53,
+		only_self = 0,
+		type = 6,
+		id = 5314,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10025
+			}
+		},
+		show_condition = {
+			{
+				11,
+				404
+			}
+		}
+	},
 	[5401] = {
 		text = "Russell?",
 		groupId = 54,
@@ -4469,7 +4546,7 @@ pg.base.island_interaction = {
 		show_condition = {
 			{
 				11,
-				2006
+				99111
 			}
 		}
 	},
@@ -4656,6 +4733,33 @@ pg.base.island_interaction = {
 			}
 		}
 	},
+	[5715] = {
+		text = "Go check out the Seed Shop",
+		groupId = 57,
+		only_self = 0,
+		type = 6,
+		id = 5715,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10028
+			}
+		},
+		show_condition = {
+			{
+				4,
+				10003070
+			}
+		}
+	},
 	[5800] = {
 		text = "Talk",
 		groupId = 58,
@@ -4714,7 +4818,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[5804] = {
-		text = "Produce Autumn Specialties (1/7)",
+		text = "Gather Autumn Specialties (1/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4729,7 +4833,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[5805] = {
-		text = "Produce Autumn Specialties (2/7)",
+		text = "Gather Autumn Specialties (2/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4740,11 +4844,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001002
+			},
+			{
+				4,
+				50001001
 			}
 		}
 	},
 	[5806] = {
-		text = "Produce Autumn Specialties (3/7)",
+		text = "Gather Autumn Specialties (3/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4755,11 +4863,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001003
+			},
+			{
+				4,
+				50001002
 			}
 		}
 	},
 	[5807] = {
-		text = "Produce Autumn Specialties (4/7)",
+		text = "Gather Autumn Specialties (4/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4770,11 +4882,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001004
+			},
+			{
+				4,
+				50001003
 			}
 		}
 	},
 	[5808] = {
-		text = "Produce Autumn Specialties (5/7)",
+		text = "Gather Autumn Specialties (5/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4785,11 +4901,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001005
+			},
+			{
+				4,
+				50001004
 			}
 		}
 	},
 	[5809] = {
-		text = "Produce Autumn Specialties (6/7)",
+		text = "Gather Autumn Specialties (6/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4800,11 +4920,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001006
+			},
+			{
+				4,
+				50001005
 			}
 		}
 	},
 	[5810] = {
-		text = "Produce Autumn Specialties (7/7)",
+		text = "Gather Autumn Specialties (7/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4815,11 +4939,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001007
+			},
+			{
+				4,
+				50001006
 			}
 		}
 	},
 	[5811] = {
-		text = "Produce Autumn Specialties (1/7)",
+		text = "Make Autumn Specialties (1/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4834,7 +4962,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[5812] = {
-		text = "Produce Autumn Specialties (2/7)",
+		text = "Make Autumn Specialties (2/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4845,11 +4973,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002002
+			},
+			{
+				4,
+				50002001
 			}
 		}
 	},
 	[5813] = {
-		text = "Produce Autumn Specialties (3/7)",
+		text = "Make Autumn Specialties (3/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4860,11 +4992,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002003
+			},
+			{
+				4,
+				50002002
 			}
 		}
 	},
 	[5814] = {
-		text = "Produce Autumn Specialties (4/7)",
+		text = "Make Autumn Specialties (4/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4875,11 +5011,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002004
+			},
+			{
+				4,
+				50002003
 			}
 		}
 	},
 	[5815] = {
-		text = "Produce Autumn Specialties (5/7)",
+		text = "Make Autumn Specialties (5/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4890,11 +5030,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002005
+			},
+			{
+				4,
+				50002004
 			}
 		}
 	},
 	[5816] = {
-		text = "Produce Autumn Specialties (6/7)",
+		text = "Make Autumn Specialties (6/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4905,11 +5049,15 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002006
+			},
+			{
+				4,
+				50002005
 			}
 		}
 	},
 	[5817] = {
-		text = "Produce Autumn Specialties (7/7)",
+		text = "Make Autumn Specialties (7/7)",
 		groupId = 58,
 		only_self = 0,
 		type = 12,
@@ -4920,6 +5068,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002007
+			},
+			{
+				4,
+				50002006
 			}
 		}
 	},
@@ -4950,6 +5102,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003002
+			},
+			{
+				4,
+				50003001
 			}
 		}
 	},
@@ -4965,6 +5121,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003003
+			},
+			{
+				4,
+				50003002
 			}
 		}
 	},
@@ -4980,6 +5140,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003004
+			},
+			{
+				4,
+				50003003
 			}
 		}
 	},
@@ -5218,12 +5382,7 @@ pg.base.island_interaction = {
 		id = 6305,
 		icon = 17,
 		param = "45",
-		show_condition = {
-			{
-				11,
-				2012
-			}
-		}
+		show_condition = {}
 	},
 	[6401] = {
 		text = "Gather bee nests.",

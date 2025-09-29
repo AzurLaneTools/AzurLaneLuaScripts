@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			animation = "think",
-			subName = "农田管理员",
+			say = "Thank you kindly for this, Commander. I'll do my best to manage the farm well.",
+			animation = "talk",
 			characterId = 100400,
-			say = "嗯……指挥官，你送来的这些东西品质都很好。",
+			subName = "Manager of the Farm",
 			face2Face = {
 				{
 					0,
@@ -35,28 +35,17 @@ return {
 			}
 		},
 		{
-			say = "谢谢~为了收集到这些东西一定很辛苦吧……",
-			animation = "nod",
+			say = "I'll strive to quickly provide a wide array of fresh vegetables for all the islanders to eat.",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，我也会加倍努力管理好农场的，让岛上的大家都吃上新鲜的蔬菜。",
-			animation = "elation",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "这就是我唯一能做的事情了。",
-			subName = "农田管理员",
+			say = "It's the one thing I can do to help you.",
+			subName = "Manager of the Farm",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,

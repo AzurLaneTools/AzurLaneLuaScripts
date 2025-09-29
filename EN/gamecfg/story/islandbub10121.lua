@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "完美的焦糖色，喜欢苹果的甜香。",
+			say = "Perfect caramel color. Love that sweet apple smell.",
 			hideType = 2,
 			characterId = 101200,
 			animation = "rest"

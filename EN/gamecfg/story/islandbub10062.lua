@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "最后一车……就快能歇口气了……",
+			say = "Last minecart! C'mon, you can do it! You're almost there!",
 			hideType = 2,
 			characterId = 100600,
 			animation = "rest"

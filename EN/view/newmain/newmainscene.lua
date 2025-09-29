@@ -27,6 +27,10 @@ slot0.needCache = function(slot0)
 	return true
 end
 
+slot0.forceGC = function(slot0)
+	return true
+end
+
 slot0.GetThemeStyle = function(slot0)
 	return getProxy(SettingsProxy):GetMainSceneThemeStyle()
 end

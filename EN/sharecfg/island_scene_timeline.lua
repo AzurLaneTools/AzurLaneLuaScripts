@@ -390,74 +390,6 @@ pg.island_scene_timeline = {
 			}
 		}
 	},
-	[8] = {
-		name = "Island/Timeline_scene/prologue_sc06_2",
-		id = 8,
-		sequence = "[sequence]",
-		obj = {
-			{
-				"all_con/[actor]/ZHG",
-				{
-					0,
-					0,
-					0
-				},
-				{
-					0,
-					0,
-					0
-				},
-				{
-					0,
-					0
-				}
-			}
-		},
-		tracks = {
-			{
-				{
-					"[sequence]/vfx/shot05",
-					"2",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot05",
-					"5",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot05",
-					"6",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot05",
-					"7",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot04",
-					"2",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot04",
-					"5",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot04",
-					"6",
-					"Animator"
-				},
-				{
-					"[sequence]/vfx/shot04",
-					"7",
-					"Animator"
-				}
-			}
-		}
-	},
 	[9] = {
 		name = "Island/Timeline_scene/prologue_sc06_3",
 		id = 9,
@@ -986,54 +918,6 @@ pg.island_scene_timeline = {
 			}
 		}
 	},
-	[18] = {
-		name = "Island/Timeline_scene/prologue_sc08_1",
-		id = 18,
-		sequence = "[sequence]",
-		obj = {
-			{
-				"All_Con/[assets]/Character/Commander_Control",
-				{
-					0,
-					0,
-					-1.222575e-08
-				},
-				{
-					0,
-					0,
-					0
-				},
-				{
-					0,
-					0
-				}
-			}
-		},
-		tracks = {
-			{
-				{
-					"[sequence]/Shot1",
-					"3",
-					"GameObject"
-				},
-				{
-					"[sequence]/Shot1",
-					"7",
-					"Animator"
-				},
-				{
-					"[sequence]/Shot1",
-					"8",
-					"Animator"
-				},
-				{
-					"[sequence]/Shot1",
-					"9",
-					"Animator"
-				}
-			}
-		}
-	},
 	[19] = {
 		name = "Island/Timeline_scene/sceneview_orchard",
 		id = 19,
@@ -1119,6 +1003,122 @@ pg.island_scene_timeline = {
 			}
 		}
 	},
+	[8] = {
+		name = "Island/Timeline_scene/prologue_sc06_2",
+		id = 8,
+		sequence = "[sequence]",
+		obj = {
+			{
+				"all_con/[actor]/ZHG",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0
+				}
+			}
+		},
+		tracks = {
+			{
+				{
+					"[sequence]/vfx/shot05",
+					"2",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot05",
+					"5",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot05",
+					"6",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot05",
+					"7",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot04",
+					"2",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot04",
+					"5",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot04",
+					"6",
+					"Animator"
+				},
+				{
+					"[sequence]/vfx/shot04",
+					"7",
+					"Animator"
+				}
+			}
+		}
+	},
+	[18] = {
+		name = "Island/Timeline_scene/prologue_sc08_1",
+		id = 18,
+		sequence = "[sequence]",
+		obj = {
+			{
+				"All_Con/[assets]/Character/Commander_Control",
+				{
+					0,
+					0,
+					-1.222575e-08
+				},
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0
+				}
+			}
+		},
+		tracks = {
+			{
+				{
+					"[sequence]/[vfx]/Shot1",
+					"3",
+					"GameObject"
+				},
+				{
+					"[sequence]/[vfx]/Shot1",
+					"7",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot1",
+					"8",
+					"Animator"
+				},
+				{
+					"[sequence]/[vfx]/Shot1",
+					"9",
+					"Animator"
+				}
+			}
+		}
+	},
 	all = {
 		3,
 		4,
@@ -1126,7 +1126,6 @@ pg.island_scene_timeline = {
 		6,
 		15,
 		7,
-		8,
 		9,
 		10,
 		13,
@@ -1136,8 +1135,9 @@ pg.island_scene_timeline = {
 		14,
 		2,
 		1,
-		18,
 		19,
-		17
+		17,
+		8,
+		18
 	}
 }

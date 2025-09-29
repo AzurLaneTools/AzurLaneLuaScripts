@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "欢迎光临——这里是集会的欢乐向导玛丽！",
+			say = "Welcome! I'm Mary, your fun get-together guide!",
 			hideType = 2,
 			characterId = 101300,
 			animation = "hi"

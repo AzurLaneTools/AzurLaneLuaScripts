@@ -169,8 +169,8 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		setActive(slot0.opBtn, false)
 		setActive(slot0.areaChangeBtn, false)
 		setActive(slot0.seedBtn, false)
-		setActive(slot0.seed_detals, false)
 		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
 
 		return
 	end
@@ -185,8 +185,8 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		setActive(slot0.opBtn, false)
 		setActive(slot0.areaChangeBtn, false)
 		setActive(slot0.seedBtn, false)
-		setActive(slot0.seed_detals, false)
 		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
 
 		return
 	end
@@ -363,6 +363,8 @@ end
 slot0.ResetShowBalance = function(slot0)
 	if slot0.showBalance ~= 1 then
 		slot0.showBalance = 1
+
+		slot0:EnablePlayerOp()
 	end
 end
 
@@ -382,15 +384,23 @@ slot0.EnablePlayerOp = function(slot0)
 	slot0.playerInputManager:EnableInput()
 	slot0:GetView():GetSubView(IslandDistanceView):TryEnable()
 	slot0:GetView().player:ActiveOrDisactive(true)
+
+	if slot0.inInteraction then
+		slot0:StartInteraction()
+	end
 end
 
 slot0.StartInteraction = function(slot0)
+	slot0.inInteraction = true
+
 	slot0:ShowOrHideGameObject(slot0.moveBtn, false)
 	slot0:ShowOrHideGameObject(slot0.opPanel, false)
 	slot0.playerInputManager:DisablePlayerHandle()
 end
 
 slot0.EndInteraction = function(slot0)
+	slot0.inInteraction = false
+
 	slot0:ShowOrHideGameObject(slot0.moveBtn, true)
 	slot0:ShowOrHideGameObject(slot0.opPanel, true)
 	slot0.playerInputManager:EnablePlayerHandle()

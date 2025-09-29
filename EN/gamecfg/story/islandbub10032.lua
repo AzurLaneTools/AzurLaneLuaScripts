@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "希望下一班运输船能准时回来啊……",
+			say = "I sure hope the next transport ship returns on schedule.",
 			characterId = 100300
 		}
 	}

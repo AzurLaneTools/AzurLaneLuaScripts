@@ -20,6 +20,7 @@ slot0.OnInit = function(slot0)
 	slot0:InitEvent()
 	setParent(slot0.randomFlagToggle, slot0._tf.parent)
 	setActive(slot0.randomFlagToggle, true)
+	triggerToggle(slot0.showQuickBtn, false)
 end
 
 slot0.InitDetail = function(slot0)
@@ -423,7 +424,8 @@ slot0.OnSelected = function(slot0, slot1)
 				slot0.detailPanel:Find("attrs"),
 				slot0.detailPanel:Find("equipments"),
 				slot0.detailPanel:Find("quick_panel")
-			}
+			},
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		slot0:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)

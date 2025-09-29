@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.island_wild_gather = {
 	{
-		name = "蜂巢",
+		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -17,7 +17,7 @@ pg.island_wild_gather = {
 		}
 	},
 	{
-		name = "蜂巢",
+		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -32,7 +32,7 @@ pg.island_wild_gather = {
 		}
 	},
 	{
-		name = "蜂巢",
+		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -48,7 +48,7 @@ pg.island_wild_gather = {
 		}
 	},
 	{
-		name = "蜂蜜桶",
+		name = "Honey Barrel",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -62,7 +62,7 @@ pg.island_wild_gather = {
 		}
 	},
 	{
-		name = "蜂巢",
+		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -76,7 +76,7 @@ pg.island_wild_gather = {
 		}
 	},
 	{
-		name = "蜂巢",
+		name = "Bee Nest",
 		refresh = 1,
 		type = 1,
 		time_taked = 3,
@@ -90,7 +90,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1001] = {
-		name = "秋菊花丛",
+		name = "Autumn Chrysanthemum",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -104,7 +104,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1002] = {
-		name = "秋菊花丛",
+		name = "Autumn Chrysanthemum",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -118,7 +118,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1003] = {
-		name = "芦苇丛",
+		name = "Reed Bed",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -132,7 +132,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1004] = {
-		name = "芦苇丛",
+		name = "Reed Bed",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -146,7 +146,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1005] = {
-		name = "花生",
+		name = "Peanuts",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -160,7 +160,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1006] = {
-		name = "花生",
+		name = "Peanuts",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -174,7 +174,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1007] = {
-		name = "松茸丛",
+		name = "Matsutake",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -188,7 +188,7 @@ pg.island_wild_gather = {
 		}
 	},
 	[1008] = {
-		name = "松茸丛",
+		name = "Matsutake",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,

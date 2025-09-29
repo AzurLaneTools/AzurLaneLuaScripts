@@ -113,15 +113,18 @@ slot0.OnSelected = function(slot0, slot1)
 		table.insert(slot2, slot0.equipmentL:Find("equipment/equipment_l1"))
 		slot0:OverlayPanel(slot0.equipRCon, {
 			groupDelta = -1,
-			pbList = slot3
+			pbList = slot3,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 		slot0:OverlayPanel(slot0.equipLCon, {
 			groupDelta = -1,
-			pbList = slot2
+			pbList = slot2,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 		slot0:OverlayPanel(slot0.equipBCon, {
 			groupDelta = -1,
-			pbList = slot4
+			pbList = slot4,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		slot0:UnOverlayPanel(slot0.equipRCon, slot0._parentTf)

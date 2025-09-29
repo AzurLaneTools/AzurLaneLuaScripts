@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			animation = "nod",
 			characterId = 100500,
-			say = "喂最新鲜的牧草产的奶才会格外好哦~这就是努力的回报！",
+			say = "Feeding 'em especially fresh grass makes their milk extra tasty. That's our hard work paying off right there!",
 			face2Face = {
 				{
 					0,

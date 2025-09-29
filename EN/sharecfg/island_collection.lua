@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.island_collection = {
 	{
-		name = "飞行器",
+		name = "Aircraft",
 		type = 1,
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16001,
-		desc = "飞行器-港口",
+		desc = "Aircraft – Harbor",
 		id = 1,
 		icon = "IslandProps/gold",
 		end_time = {
@@ -28,11 +28,11 @@ pg.island_collection = {
 		award = {}
 	},
 	{
-		name = "飞行器",
+		name = "Aircraft",
 		type = 1,
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16002,
-		desc = "飞行器-野外",
+		desc = "Aircraft – Wilderness",
 		id = 2,
 		icon = "IslandProps/gold",
 		end_time = {
@@ -56,11 +56,11 @@ pg.island_collection = {
 		award = {}
 	},
 	{
-		name = "飞行器",
+		name = "Aircraft",
 		type = 1,
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16003,
-		desc = "飞行器-农场",
+		desc = "Aircraft – Farm",
 		id = 3,
 		icon = "IslandProps/gold",
 		end_time = {

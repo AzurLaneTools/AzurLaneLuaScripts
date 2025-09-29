@@ -223,7 +223,16 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		title = "Automatically Lock New Characters",
 		desc = "When enabled, shipgirls who are newly-acquired for the first time will automatically be locked."
 	},
-	[24] = {
+	{
+		default = 1,
+		name = "ISLAND_NOTIFYCATION",
+		alignment = 0,
+		type = 0,
+		id = 23,
+		title = "岛屿访客通知",
+		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+	},
+	{
 		default = 1,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		alignment = 0,
@@ -255,6 +264,7 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		20,
 		21,
 		22,
+		23,
 		24
 	}
 }

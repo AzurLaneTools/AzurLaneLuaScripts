@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这样就好了？",
+			say = "How's that?",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，没错喵！现在这座岛屿相关的一切都完全交给指挥官了喵~呜呜，终于可以松口气了喵~",
-			animation = "happy",
+			say = "Nyahaha! Perfect, nya! Now you hold the reins over this island, nya.",
+			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,25 +42,7 @@ return {
 			}
 		},
 		{
-			say = "那这些岛屿建设用贷款也都交给指挥官还了喵~",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "什么贷款？",
-					flag = 1
-				},
-				{
-					content = "你贷这么多钱做什么？！",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "友情提示，债务详情可以点进去查看具体账单喵~",
+			say = "All assets, facilities, and operational rights have been transferred to you, nya!",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -68,16 +50,8 @@ return {
 			}
 		},
 		{
-			say = "港口扩建……新开发农场、牧场、商场、种植园？下面居然还有个海滩开发计划？！",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			say = "Alright. Thank you, Akashi.",
 			animation = "nod",
-			say = "难怪帕特莉说最近的港口繁忙了不少……不过你贷款开发这么多地方做什么？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +59,24 @@ return {
 			}
 		},
 		{
-			say = "我……我只是想赚钱赚得更快些喵~",
+			say = "Oh, but wait, nya! That also means... there are a few problems YOU have to deal with now, nya.",
+			animation = "idea",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "What problems?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Well... I needed some, uh... startup capital to kick off the development efforts, nya.",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -94,16 +85,7 @@ return {
 			}
 		},
 		{
-			say = "而且这些贷款可是按外部时间来结算利息的喵~几乎可以说是零利率呢喵~",
-			animation = "elation",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "只要指挥官努努力，总能赚回来的喵~",
+			say = "Basically, this place is in debt... Phew! That's a weight off my shoulders, nya!",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -111,17 +93,13 @@ return {
 			},
 			options = {
 				{
-					content = "（总感觉哪里有问题……）",
+					content = "Did you just say \"debt\"?",
 					flag = 1
-				},
-				{
-					content = "（{namecode:98:明石}真的会这么好心？）",
-					flag = 2
 				}
 			}
 		},
 		{
-			say = "……我好像明白了，你不会是等这些地方都开发完才发现自己人手不够的吧？",
+			say = "Tell me how much we're in the hole, and I'll cover it.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +107,16 @@ return {
 			}
 		},
 		{
-			say = "喵呜？！被、被发现了喵……",
-			animation = "amaze",
+			say = "But why would you, of all people, need to go into debt to develop this island in the first place?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Umm, basically... Developing inside the Singularity requires a special currency, and you can only get that currency from productive and business activities on the island, nya...",
+			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +124,15 @@ return {
 			}
 		},
 		{
-			say = "这就好办了，那我怎么才能带人进来？",
+			say = "To get this snowball rolling, I needed to take a loan, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I've never heard of a rule as asinine as that.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼，这就要用到我最新研发的岛屿权限认证函了喵~",
+			say = "We're building an island in a Singularity here, nya! EVERYTHING is asinine, nya!",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -155,7 +149,118 @@ return {
 			}
 		},
 		{
-			say = "指挥官快过来喵~",
+			say = "Okay, so who did you get this loan from?",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Nya... Nyahaha! That would be... a trade secret, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "Don't worry about the details, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I do have a friendly tip for you, though: You can check out the details of the loan in the debt mission!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "Expanding the harbor... Farm development, animal ranch, commercial area, and plantations? A beach development, too?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "No wonder Patrick said the harbor's gotten so much busier. Why did you take on all of these projects?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "sad",
+			say = "I... wanted to make money faster, nya.",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Greedy as always. Do you even have the personnel to staff all of these developments when they're finished?",
+			animation = "shakehead",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Hahaha... That's why I'm so glad you came when you did, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "elation",
+			say = "If we just bring more people in, take on more commissions, get the factories moving, raise some crops, and breed some livestock...",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "We'll recoup that investment in no time, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Okay. And how do you plan to bring people in?",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Heheheh. That's what the Island Authorization Permit is for, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Come with me, nya!",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

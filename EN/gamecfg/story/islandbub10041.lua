@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "长势真好……阳光都收在里面了。",
+			say = "The plants are growing so well, filled with the sun's warm grace.",
 			hideType = 2,
 			characterId = 100400,
 			animation = "nod"

@@ -12,7 +12,7 @@ pg.island_shop_normal_template = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -187,6 +187,33 @@ pg.island_shop_normal_template = {
 		refresh_time = 0,
 		unlock = ""
 	},
+	[10024] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10024,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10027] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10027,
+		refresh_time = 0,
+		unlock = ""
+	},
+	[10030] = {
+		refresh_player = "",
+		exist_time = "always",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 10030,
+		refresh_time = 0,
+		unlock = ""
+	},
 	all = {
 		10012,
 		10013,
@@ -199,6 +226,9 @@ pg.island_shop_normal_template = {
 		50131,
 		50132,
 		50133,
-		50123
+		50123,
+		10024,
+		10027,
+		10030
 	}
 }

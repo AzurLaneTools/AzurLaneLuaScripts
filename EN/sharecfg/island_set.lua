@@ -95,7 +95,7 @@ pg.island_set = {
 	order_favor = {
 		key_value_varchar = "",
 		key = "order_favor",
-		key_value_int = 50
+		key_value_int = 20
 	},
 	order_special_duration = {
 		key_value_varchar = "",
@@ -113,7 +113,7 @@ pg.island_set = {
 	order_special_refresh_time = {
 		key_value_varchar = "",
 		key = "order_special_refresh_time",
-		key_value_int = 600
+		key_value_int = 900
 	},
 	island_daily_task_reward = {
 		key = "island_daily_task_reward",
@@ -312,31 +312,31 @@ pg.island_set = {
 				1
 			},
 			{
-				24,
+				2,
 				1
 			},
 			{
-				25,
+				3,
 				1
 			},
 			{
-				26,
+				4,
 				1
 			},
 			{
-				27,
+				5,
 				1
 			},
 			{
-				28,
+				6,
 				1
 			},
 			{
-				29,
+				7,
 				1
 			},
 			{
-				30,
+				8,
 				1
 			}
 		}
@@ -374,7 +374,7 @@ pg.island_set = {
 	chara_att_unlock = {
 		key_value_varchar = "",
 		key = "chara_att_unlock",
-		key_value_int = 100000
+		key_value_int = 0
 	},
 	daily_gift_get_max = {
 		key_value_varchar = "",
@@ -407,22 +407,22 @@ pg.island_set = {
 	island_manage_sale_coefficient_a = {
 		key_value_varchar = "",
 		key = "island_manage_sale_coefficient_a",
-		key_value_int = 80
+		key_value_int = 60
 	},
 	island_manage_sale_coefficient_b = {
 		key_value_varchar = "",
 		key = "island_manage_sale_coefficient_b",
-		key_value_int = 100
+		key_value_int = 240
 	},
 	island_manage_sale_coefficient_c = {
 		key_value_varchar = "",
 		key = "island_manage_sale_coefficient_c",
-		key_value_int = 100
+		key_value_int = 0
 	},
 	island_manage_sale_constant = {
 		key_value_varchar = "",
 		key = "island_manage_sale_constant",
-		key_value_int = 100
+		key_value_int = 160
 	},
 	whit_list_max_cnt = {
 		key_value_varchar = "",
@@ -887,6 +887,11 @@ pg.island_set = {
 			}
 		}
 	},
+	agora_reloading_base_cd = {
+		key_value_varchar = "",
+		key = "agora_reloading_base_cd",
+		key_value_int = 3
+	},
 	all = {
 		"order_complete_refresh_time",
 		"order_change_time",
@@ -976,6 +981,7 @@ pg.island_set = {
 		"island_photohight_FPS",
 		"island_photohight_TPS",
 		"island_dress_follow_param",
-		"island_ticket_shopid"
+		"island_ticket_shopid",
+		"agora_reloading_base_cd"
 	}
 }

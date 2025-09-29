@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "集会指南、简易医疗包、备用联络器……准备万全。",
+			say = "The guide, first-aid kit, spare communicator... Okay, I'm all set.",
 			hideType = 2,
 			characterId = 101000,
 			animation = "note"

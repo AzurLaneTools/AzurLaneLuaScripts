@@ -15,8 +15,6 @@ slot0.Ctor = function(slot0)
 	slot0.callbacks = {}
 	slot0.pluralIndex = 0
 	slot0.singleIndex = 0
-	slot0.paintingCount = 0
-	slot0.commanderPaintingCount = 0
 	slot0.preloadDic = {
 		["ui/share/world_common_atlas"] = 1,
 		["shipyardicon/unknown"] = 1,
@@ -60,36 +58,26 @@ end
 
 slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
+	slot6 = "char/" .. slot1
+	slot7, slot8 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
+	slot8 = slot8 .. "_SkeletonData"
 
-	if not slot0.pools_plural["char/" .. slot1] then
-		table.insert(slot4, function (slot0)
-			uv0:GetSpineSkel(uv1, uv2, function (slot0)
-				assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
+	slot0:FromPlural(slot7, "", slot2, 1, function (slot0)
+		setActiveViaLayer(slot0, true)
+		uv0(slot0)
+	end, function (slot0)
+		assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
 
-				if not uv1.pools_plural[uv2] then
-					slot0 = SpineAnimUI.AnimChar(uv0, slot0)
+		slot0 = SpineAnimUI.AnimChar(uv0, slot0)
 
-					slot0:SetActive(false)
-					tf(slot0):SetParent(uv1.root, false)
+		tf(slot0):SetParent(uv1.root, false)
 
-					slot1 = slot0:GetComponent("SkeletonGraphic")
-					slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
-					uv1.pools_plural[uv2] = uv3.New(slot0, 1)
-				end
+		slot1 = slot0:GetComponent("SkeletonGraphic")
+		slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
 
-				uv4()
-			end)
-		end)
-	end
+		slot0:SetActive(false)
 
-	seriesAsync(slot4, function ()
-		slot0 = uv0.pools_plural[uv1]
-		slot0.index = uv0.pluralIndex
-		uv0.pluralIndex = uv0.pluralIndex + 1
-		slot1 = slot0:Dequeue()
-
-		slot1:SetActive(true)
-		uv2(slot1)
+		return slot0
 	end)
 end
 
@@ -122,29 +110,25 @@ slot0.ReturnSpineChar = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.ExcessSpineChar = function(slot0)
-	slot1 = 0
-	slot2 = 6
-	slot3 = {}
+slot0.ExcessSpineChar = function(slot0, slot1)
+	slot2 = 0
+	slot3 = 6
+	slot4 = {}
 
-	for slot7, slot8 in pairs(slot0.pools_plural) do
-		if string.find(slot7, "char/") == 1 then
-			table.insert(slot3, slot7)
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "char/", nil, true) == 1 and slot9:AllReturned() then
+			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot2 < #slot3 then
-		table.sort(slot3, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
-		for slot7 = slot2 + 1, #slot3 do
-			slot8 = slot3[slot7]
-
-			slot0.pools_plural[slot8]:Clear()
-
-			slot0.pools_plural[slot8] = nil
+			slot0.pools_plural[slot9] = nil
 		end
+	elseif slot3 < #slot4 then
+		gcAll()
 	end
 end
 
@@ -293,36 +277,22 @@ end
 
 slot0.ExcessPainting = function(slot0, slot1)
 	slot2 = 0
-	slot3 = 4
+	slot3 = 6
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.pools_plural) do
-		if string.find(slot8, "painting/") and slot10 >= 1 then
+		if string.find(slot8, "painting/", nil, true) == 1 and slot9:AllReturned() then
 			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot3 < #slot4 then
-		table.sort(slot4, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
-
-		for slot8 = slot3 + 1, #slot4 do
-			slot9 = slot4[slot8]
-
-			slot0.pools_plural[slot9]:Clear(true)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
 			slot0.pools_plural[slot9] = nil
 		end
-
-		slot0.paintingCount = slot0.paintingCount + 1
-	end
-
-	if slot1 then
-		slot0.paintingCount = 0
-	elseif slot0.paintingCount >= 10 then
-		slot0.paintingCount = 0
-
+	elseif slot3 < #slot4 then
 		gcAll(false)
 	end
 end
@@ -360,6 +330,90 @@ slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 		slot0:ExcessPainting()
 	else
 		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetSpinePainting = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("spinePainting/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnSpinePainting = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("spinePainting/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetLive2D = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("live2d/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnLive2D = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("live2d/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot8 = {
+	["spinePainting/"] = true,
+	["live2d/"] = true
+}
+slot9 = ApartmentProxy.CheckDeviceRAMEnough() and 6 or 2
+
+slot0.ExcessDymPainting = function(slot0, slot1)
+	slot2 = 0
+	slot3 = uv0
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "/", nil, true) and uv1[string.sub(slot8, 1, slot10)] and slot9:AllReturned() then
+			table.insert(slot4, slot8)
+		end
+	end
+
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
+
+			slot0.pools_plural[slot9] = nil
+		end
+	elseif slot3 < #slot4 then
+		gcAll(false)
 	end
 end
 
@@ -441,8 +495,8 @@ slot0.SpriteMemUsage = function(slot0)
 	return slot1
 end
 
-slot8 = 64
-slot9 = {
+slot10 = 64
+slot11 = {
 	"chapter/",
 	"emoji/",
 	"world/"
@@ -476,7 +530,7 @@ slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 		slot3.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot5]:Enqueue(slot3)
 
-		if slot4 and slot0.pools_plural[slot5].balance <= 0 and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
+		if slot4 and slot0.pools_plural[slot5]:AllReturned() and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
 			slot0:DestroyPrefab(slot1, slot2)
 		end
 	else
@@ -547,11 +601,11 @@ slot0.GetPluralStatus = function(slot0, slot1)
 	}, tostring), " ")
 end
 
-slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot7 = {}
+slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot8 = {}
 
 	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
-		table.insert(slot7, function (slot0)
+		table.insert(slot8, function (slot0)
 			uv0:LoadAsset(uv1, uv2, typeof(Object), uv3, function (slot0)
 				if slot0 == nil then
 					Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
@@ -559,18 +613,22 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
 					return
 				end
 
-				if not uv2.pools_plural[uv3] then
-					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
-
-					uv2.pools_plural[uv3]:SetKeep(tobool(uv2.keepDic[uv3]))
+				if uv2 then
+					slot0 = uv2(slot0)
 				end
 
-				uv6()
-			end, true)
+				if not uv3.pools_plural[uv4] then
+					uv3.pools_plural[uv4] = uv5.New(slot0, uv6)
+
+					uv3.pools_plural[uv4]:SetKeep(tobool(uv3.keepDic[uv4]))
+				end
+
+				uv7()
+			end, true, true)
 		end)
 	end
 
-	seriesAsync(slot7, function ()
+	seriesAsync(slot8, function ()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
@@ -596,21 +654,22 @@ slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
+slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8, slot9 = HXSet.autoHxShiftPath(slot1, slot2)
 
-	if slot0.callbacks[slot7 .. "|" .. slot8] then
+	if slot0.callbacks[slot8 .. "|" .. slot9] then
 		if not slot4 then
 			errorMsg("Sync Loading after async operation")
 		end
 
-		table.insert(slot0.callbacks[slot7], slot5)
+		table.insert(slot0.callbacks[slot8], slot5)
 	elseif slot4 then
-		slot0.callbacks[slot7] = {
+		slot0.callbacks[slot8] = {
 			slot5
 		}
+		slot9 = uv0
 
-		uv0:getAssetAsync(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot9:getAssetAsync(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
 				slot1 = uv0.callbacks[uv1]
 				uv0.callbacks[uv1] = nil
@@ -619,9 +678,9 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 					table.remove(slot1)(slot0)
 				end
 			end
-		end), slot6, false)
+		end), slot6, slot7 or false)
 	else
-		slot5(uv0:getAssetSync(slot1, slot2, slot3, slot6, false))
+		slot5(uv0:getAssetSync(slot1, slot2, slot3, slot6, slot7 or false))
 	end
 end
 

@@ -59,7 +59,7 @@ pg.island_main_btns = {
 		}
 	},
 	{
-		ability_id = 0,
+		ability_id = 2,
 		name = "Equipment",
 		main_type = 1,
 		btn_name = "device",
@@ -203,7 +203,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 0,
-		name = "Art Collection",
+		name = "Collection",
 		main_type = 2,
 		btn_name = "book",
 		open_page = "IslandBookPage",
@@ -214,7 +214,7 @@ pg.island_main_btns = {
 	},
 	{
 		ability_id = 41,
-		name = "Photos",
+		name = "Photo",
 		main_type = 2,
 		btn_name = "photo",
 		open_page = "IslandPhotoMainPage",

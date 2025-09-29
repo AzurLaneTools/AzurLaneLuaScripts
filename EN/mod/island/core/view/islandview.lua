@@ -493,6 +493,11 @@ slot0.OnGenPathFinder = function(slot0, slot1)
 	IslandPathFinder.New(slot0):Start(slot1.navData, function ()
 		table.removebyvalue(uv0.pathfinders, uv1)
 		uv1:Dispose()
+
+		if uv2.onEndAction then
+			uv2.onEndAction()
+		end
+
 		uv0:NotifiyIsland(ISLAND_EX_EVT.NAV_PATH_DONE, uv2.navData.index)
 
 		if uv3 and uv2.callback then

@@ -200,6 +200,14 @@ pg.open_systems_limited = {
 		mediator = "NewEducateSelectMediator",
 		level = 30
 	},
+	[27] = {
+		scene = "MAINUI",
+		name = "岛屿",
+		story_id = "",
+		id = 27,
+		mediator = "IslandMediator",
+		level = 50
+	},
 	all = {
 		1,
 		2,
@@ -225,6 +233,7 @@ pg.open_systems_limited = {
 		23,
 		24,
 		25,
-		26
+		26,
+		27
 	}
 }

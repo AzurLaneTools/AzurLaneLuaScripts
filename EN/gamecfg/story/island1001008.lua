@@ -23,10 +23,9 @@ return {
 	},
 	scripts = {
 		{
-			animation = "talk",
-			subName = "矿山管理员",
-			characterId = 100600,
-			say = "终于修好了，这样一来交通线就能恢复正常运转了。",
+			animation = "hi",
+			characterId = 0,
+			say = "Reckon this will do?",
 			face2Face = {
 				{
 					0,
@@ -45,10 +44,29 @@ return {
 			}
 		},
 		{
-			animation = "clap",
-			say = "说不定还能赶在晚上前把货物送到呢。",
+			animation = "rest",
+			say = "Yep! It's finally done!",
+			characterId = 100600,
+			subName = "Manager of the Mine",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Man, it took a lot of work to fully repair the station, huh?",
+			subName = "Manager of the Mine",
+			characterId = 100600,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "rest",
+			say = "Will we be able to deliver our packages before nightfall now?",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,32 +74,41 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯嗯，真是多亏指挥官了。",
+			say = "Yeah, no problem! And we couldn't have achieved this without the Commander.",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了，作为谢礼……啊，在这儿，这个送给你——",
+			say = "You deserve a reward. Let's see... Here it is!",
+			subName = "Manager of the Mine",
 			characterId = 100600,
-			subName = "矿山管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I found this while mining. Pretty, isn't it?",
+			characterId = 100600,
+			subName = "Manager of the Mine",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好漂亮的矿石。",
+					content = "Sure does. That's some beautiful ore.",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "是我采矿时发现的。",
-			subName = "矿山管理员",
+			say = "Right? It glitters, and looks so beautiful!",
+			subName = "Manager of the Mine",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -89,28 +116,28 @@ return {
 			}
 		},
 		{
+			animation = "shy",
+			say = "Y-you can also have this...",
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "It's... some wood I processed in a special way. Doesn't the texture remind you of a star?",
+			subName = "Manager of the Forest",
+			characterId = 100700,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You're right, it does. Thanks.",
 			animation = "nod",
-			say = "还有我的这份！是特别加工过的木材，上面的木纹是不是很像星星呀~",
-			characterId = 100700,
-			subName = "林场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "谢谢~看来你们在这里待得还算开心。",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "elation",
-			say = "哼哼，车来啦~不过上面好像装满了货物，指挥官不急的话可以等下一班的。",
-			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,25 +145,9 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "因为交通瘫痪的原因，这里堆积了很多需要加急送往码头的货物。",
-			characterId = 100600,
-			subName = "矿山管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "没关系，由我来带着这些货物一起去码头就好。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "刚好我也很好奇现在这片区域的运作情况。",
-			characterId = 0,
+			say = "The bus is he– Oh, it looks like it's already full of cargo.",
+			characterId = 100700,
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,35 +155,80 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "那麻烦指挥官了，这是货物清单，等货物运到港口后帮忙交给帕特莉就好。",
+			say = "Yup. Urgent packages really piled up 'cause of the bus stop being destroyed.",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Commander, if you're not in a rush, do you mind waiting for the next one?",
+			subName = "Manager of the Mine",
+			characterId = 100600,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "No worries. I'll just carry the cargo to the harbor myself.",
+			animation = "shakehead",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Besides, I'm curious to see how this place operates.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "Alright, thanks! Here's the cargo list. Give it to Patrick when you get to the harbor!",
+			characterId = 100600,
+			subName = "Manager of the Mine",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You're bound to find her standing guard there.",
+			characterId = 100600,
+			subName = "Manager of the Mine",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "帕特莉？好的，交给我吧。",
+					content = "Patrick? Okay, I'll do that.",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "hi",
-			say = "指挥官，车来啦~一路顺风哦~",
+			animation = "bye",
+			say = "Best of luck to you, Commander.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "hi",
-			say = "一路顺风。",
+			animation = "bye",
+			say = "See you, Commander! Stop by and ride a minecart sometime!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

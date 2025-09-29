@@ -8,6 +8,9 @@ slot0.END_PATHFINDER = "IslandProxy:END_PATHFINDER"
 slot0.ACTIVE_OR_DISABLE_UNIT = "IslandProxy:ACTIVE_OR_DISABLE_UNIT"
 slot0.LINK_CORE = "IslandProxy:LINK_CORE"
 slot0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
+slot0.LOCK_NPC_REFRESH = "IslandProxy:LOCK_NPC_REFRESH"
+slot0.RELEASE_NPC_REFRESH = "IslandProxy:RELEASE_NPC_REFRESH"
+slot0.RESET_SP = "IslandProxy:RESET_SP"
 slot0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 slot0.register = function(slot0)

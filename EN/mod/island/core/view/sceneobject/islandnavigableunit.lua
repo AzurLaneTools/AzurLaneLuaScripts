@@ -98,6 +98,10 @@ slot0.GetElapsedTime = function(slot0)
 end
 
 slot0.NavUpdate = function(slot0)
+	if not slot0.agent then
+		return
+	end
+
 	if not slot0.agent.pathPending and slot0.agent.remainingDistance <= slot0.agent.stoppingDistance then
 		if not slot0.agent.hasPath or slot0.agent.velocity.sqrMagnitude < 0.01 then
 			slot0.reached = true

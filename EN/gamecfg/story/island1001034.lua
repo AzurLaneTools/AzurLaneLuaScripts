@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001034",
 	map = {
 		{
@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "怎么样指挥官，这样的体验是不是还不错吧？",
-			animation = "clap",
-			characterId = 101000,
-			subName = "集会岛接待员",
+			say = "Now that's adorable. It might not be a real bus stop, but I can't complain about how good it looks.",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,26 +33,18 @@ return {
 			}
 		},
 		{
-			say = "我相信，在指挥官的努力下集会岛一定会成为大家最喜欢来的地方。",
-			subName = "集会岛接待员",
+			subName = "Get-Together Island Receptionist",
+			say = "It sounds like you like it. Wasn't this a good experience?",
 			characterId = 101000,
+			animation = "clap",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官也可以经常来享受一下。",
-			subName = "集会岛接待员",
-			characterId = 101000,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			say = "Yeah. It's a joy seeing the building I envisioned take shape right before my eyes.",
 			animation = "nod",
-			say = "好。如果这里没有宝藏……把这里变成大家的宝藏也不错……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,17 +52,7 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "欸~宝藏么……指挥官，您最近有感觉太累吗？",
-			characterId = 101000,
-			animation = "talk",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "累啊……还好，我在港区就已经习惯了。",
+			say = "It'd be nice to make this place into a figurative \"Treasure\" Island for us all.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +60,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "果然如此，您难得来开发区一趟，却一直被各种事务缠身……",
+			subName = "Get-Together Island Receptionist",
+			say = "You always have others' best interests in mind. That's so sweet.",
 			characterId = 101000,
 			animation = "sad",
 			typewriter = {
@@ -90,18 +70,8 @@ return {
 			}
 		},
 		{
-			say = "修复交通线、运送资源、规划订单和委托……虽然是为了开发区的未来着想。",
-			animation = "talk",
-			characterId = 101000,
-			subName = "集会岛接待员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但大家在忙碌之余，也在担忧着您的健康。",
-			subName = "集会岛接待员",
+			say = "Having said that, you mustn't neglect yourself. You must be tired, no?",
+			subName = "Get-Together Island Receptionist",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +79,44 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "所以……仅在此处，在这座集会岛上——",
+			say = "Tired? I guess, but I'm long since used to it from working at the port.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Get-Together Island Receptionist",
+			say = "This is not the port, however. You shouldn't need to be dragged down by work everywhere you go in the development area.",
+			characterId = 101000,
+			animation = "shakehead",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You've repaired the bus stop, carried materials, managed requests and commissions...",
+			subName = "Get-Together Island Receptionist",
+			characterId = 101000,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I know it's for the sake of the island's future, but still, you must stop and take care of yourself once in a while.",
+			subName = "Get-Together Island Receptionist",
+			characterId = 101000,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Get-Together Island Receptionist",
+			say = "So, at the very least, when you come to Get-Together Island...",
 			characterId = 101000,
 			animation = "clap",
 			typewriter = {
@@ -119,8 +125,8 @@ return {
 			}
 		},
 		{
-			say = "大家希望能为您创造一个暂时远离烦恼、真正放松下来的地方。",
-			subName = "集会岛接待员",
+			say = "We all want you to forget your troubles and create a place where you can relax.",
+			subName = "Get-Together Island Receptionist",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +134,7 @@ return {
 			}
 		},
 		{
-			say = "你们让我来这里，就是为了……休息？",
+			say = "So... relaxation is the reason I was brought here?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -136,18 +142,18 @@ return {
 			}
 		},
 		{
-			say = "是的。请您暂且放下重担，享受沙滩的阳光，倾听海风的旋律，让紧绷的思绪真正地舒缓下来。",
+			say = "Yes. You should take a load off, relax by the beachside, listen to the waves, and release the stress in your heart.",
 			animation = "talk",
 			characterId = 101000,
-			subName = "集会岛接待员",
+			subName = "Get-Together Island Receptionist",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过，大家的心意，也不止于此。",
-			subName = "集会岛接待员",
+			say = "By the way, please take this camera. Use it to snap pictures and record tranquil moments and sights that bring you joy.",
+			subName = "Get-Together Island Receptionist",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "不止于此？",
+			say = "You want me to photograph stuff?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -163,29 +169,19 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "大家确实为您准备了一份小小的宝藏——一份凝结了伙伴们心意的礼物。",
+			subName = "Get-Together Island Receptionist",
+			say = "Indeed. Since we're right next to this newly finished building, I suggest you use it to get a feel for the camera.",
 			characterId = 101000,
-			animation = "shy",
+			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "等您休息好了，就去帕特莉小姐那里看看吧~",
-			subName = "集会岛接待员",
+			say = "If you have any questions, don't hesitate to come to me. It's simple, so don't be worried.",
+			subName = "Get-Together Island Receptionist",
 			characterId = 101000,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "那份宝藏，将由她亲手交给您，相信……不会让您失望的。",
-			animation = "clap",
-			characterId = 101000,
-			subName = "集会岛接待员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

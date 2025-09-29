@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			3120100,
-			10070005
+			10070029
 		}
 	},
 	look_weight = {
@@ -19,8 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯？这机器怎么就停了？我还打算多叫点帮手来的。",
+			say = "Hmm? The machine stopped working. I wanted to call more people in.",
 			characterId = 0,
+			camera = "StoryCamera5",
 			face2Face = {
 				{
 					0,
@@ -33,8 +34,8 @@ return {
 			}
 		},
 		{
-			say = "没办法……奇异点的规则十分复杂，权限认证函也是有制作周期的喵~",
-			animation = "embarrass",
+			say = "Too bad, nya... The rules of the Singularity don't allow it. You have to wait between each permit you issue, nya.",
+			animation = "shakehead",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +43,7 @@ return {
 			}
 		},
 		{
-			animation = "",
-			say = "不过不用担心，权限一次认证永久有效，之后会有越来越多的同伴来到岛屿上帮助建设的喵！~",
+			say = "But don't worry! You'll have plenty of people helping out around the island before you know it, nya!",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,8 @@ return {
 			}
 		},
 		{
-			say = "不过现在，还是先去码头迎接新来的伙伴吧喵~",
+			say = "For now, let's go back to the harbor to meet our new development partner, nya!",
+			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			100400,
-			10010040
+			10010068
 		}
 	},
 	look_weight = {
@@ -19,9 +19,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "Homeric?",
 			animation = "hi",
 			characterId = 0,
-			say = "这么专注，莫非……是发现什么宝藏了？",
+			camera = "StoryCamera8",
 			face2Face = {
 				{
 					0,
@@ -34,17 +35,25 @@ return {
 			}
 		},
 		{
-			say = "嗯？指挥官……我只是在观察这些新长的小麦……",
+			say = "You sure look concentrated. Did you find treasure or something?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Hm? Oh, Commander. I was just observing the wheat that's growing.",
 			animation = "shy",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "它们是有什么特别之处吗？",
+			say = "Is there something unusual about it?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……你看，它的分蘖数会比岛外种植出的平均多上1.5个。",
+			say = "Yes. It's the number of tillers. There are 50% more on average than wheat grown off the island.",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "生长更快，茎秆更粗壮，抗倒伏性也明显更强。",
-			subName = "农田管理员",
+			say = "It grows fast, the stems are thick and robust, and it's remarkably resilient.",
+			subName = "Manager of the Farm",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +80,8 @@ return {
 			}
 		},
 		{
-			say = "是所有的作物都这样吗？",
+			say = "Are any other farm plants like this?",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,29 +89,66 @@ return {
 			}
 		},
 		{
-			say = "嗯，就目前我观察到的情况来说……",
+			say = "Well, as far as I can tell at the moment...",
+			animation = "nod",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "All plants grown on the island are clearly superior to those grown elsewhere.",
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I want to find out why that is. Could it be the sunlight? Or is it the soil?",
+			animation = "think",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Whatever the case, you've got a keen eye.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Pl-please, you flatter me... These features are simply so evident that anyone who's grown them before will notice.",
+			animation = "shy",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I have an idea – why don't you buy some seeds and try growing them?",
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "talk",
+			say = "Then we can thoroughly observe their growth process, from planting to harvest!",
 			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "即使是同样的种子，岛上种出来的都会比外面好上不少。",
-			subName = "农田管理员",
-			characterId = 100400,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我想找出它们表现优异的原因……到底是光照？还是土壤呢……",
-			animation = "doubt",
-			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,46 +156,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "真是了不起的观察力……",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "这、这没什么……特征都很明显的，只要种过就能轻松知道差异。",
-			animation = "shy",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "对了！我这里还剩下一些小麦种子，指挥官也可以自己试试的。",
-			animation = "idea",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "talk",
-			say = "从播种到收获~慢慢观察它们生长的全过程！",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "嗯，给我一些种子吧，我也来试试。",
+			say = "Good idea. I'll give it a shot.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

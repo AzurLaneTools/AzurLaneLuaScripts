@@ -147,6 +147,19 @@ slot0.UpdateDeleationRewardDataBySlotId = function(slot0, slot1, slot2)
 	slot3:UpdateSlotRewardData(slot2)
 end
 
+slot0.GetShipAddExpData = function(slot0, slot1)
+	slot2 = nil
+
+	if slot0:GetDelegationSlotData(slot1):GetSlotRewardData() then
+		slot2 = {
+			addShipId = slot4.ship_id,
+			addExp = slot4.exp
+		}
+	end
+
+	return slot2
+end
+
 slot0.UpdateCollectDataBySlotId = function(slot0, slot1, slot2)
 	if slot0.collectPlaceSystem then
 		slot0.collectPlaceSystem:UpdateCollectDataBySlotId(slot1, slot2)

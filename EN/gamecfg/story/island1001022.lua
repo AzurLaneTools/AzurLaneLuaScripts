@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "忙……目前看来的话，是一件好事情。",
+			say = "(Patrick looks awfully busy.)",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,10 +33,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官？你怎么了？是还在为大家的工作操心吗？",
-			animation = "curious",
+			say = "I guess being busy is a good thing, given how much work there is to be done.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Commander? What's the matter? Are you still worrying yourself over everyone's duties?",
+			animation = "doubt",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +52,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "……现在不止要为大家的工作操心了，还有整个无人岛开发计划的贷款。",
+			say = "Not just that. I've inherited all of the debt taken on by this island and its development project.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "天文数字级别。",
+			say = "And it's astronomical, I'll have you know.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,46 +68,46 @@ return {
 			}
 		},
 		{
-			say = "呵呵呵，之前{namecode:98:明石}一个劲地造农场、扩港口、建商区……",
-			animation = "talk",
-			characterId = 100200,
-			subName = "订单管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "我还以为是得到了指挥官的支持呢~",
-			subName = "订单管理员",
-			characterId = 100200,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "支持……虽迟但到，骗到的支持也是支持……接手的贷款也是贷款。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "只是再不想办法的话……整个开发区都会在还款日来临的时候一起破产。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "？这、这样吗？那指挥官来找我……我，也不能分担啊！",
+			say = "Hahaha... Akashi was so busy building farms, expanding the harbor, and establishing a commercial area that she never stopped to question if she should.",
 			animation = "sad",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I just assumed you were funding her efforts.",
+			subName = "Manager of Requests",
+			characterId = 100200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			say = "Funding her? Well, you're not wrong now, I guess... Either way, we're in debt.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I need to do something, or else this place is going bankrupt the instant the repayment deadline comes.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Oh, my. I'm sorry to say, but I can't really solve that problem.",
+			animation = "scare",
+			characterId = 100200,
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +115,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "咳咳……贷款不会分到大家头上的。",
+			say = "Ahem... I'm not trying to make the loan everyone's problem, or anything.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +123,7 @@ return {
 			}
 		},
 		{
-			say = "我只是想找你确认一下，作为订单管理员，你有没有总结出……来钱最快的方式。",
+			say = "But since you're in charge of managing requests, I thought maybe you'd know a way or two to get rich quick.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,46 +131,37 @@ return {
 			}
 		},
 		{
-			say = "……最简单、最稳妥的……应该是完成货运委托。",
+			say = "The simplest and most reliable way would probably be completing transport jobs.",
 			animation = "think",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只要把岛上的物资运到更需要它们的地方，就能赚得更多，只可惜开发区物产还不够丰富。",
+			say = "Transporting the island's assets to where they're needed most is a good way to earn money. Unfortunately, the development area isn't exactly overstocked.",
+			subName = "Manager of Requests",
+			characterId = 100200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Whether we can make money quickly depends on your actions.",
+			subName = "Manager of Requests",
+			characterId = 100200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "talk",
-			characterId = 100200,
-			subName = "订单管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "至于快的问题……就要看指挥官怎么做了。",
-			subName = "订单管理员",
-			characterId = 100200,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "还有没有那种，更复杂，更冒险……更高效一点的办法……呢？",
+			say = "Okay, moving on... Any more efficient methods that would involve more complexity or risk?",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "哼哼~指挥官的胃口不小嘛……",
-			subName = "订单管理员",
-			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,17 +169,17 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "不过既然你都问到了……那不知道你有没有留意过最近在港口流传的……",
+			say = "Heheh, someone's getting greedy...",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那个宝藏岛的传说？",
-			subName = "订单管理员",
+			say = "Since you asked, though, there have been some rumors circulating about...",
+			subName = "Manager of Requests",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +187,16 @@ return {
 			}
 		},
 		{
-			say = "什么宝藏岛？",
+			say = "Have you heard of the legend of Treasure Island?",
+			subName = "Manager of Requests",
+			characterId = 100200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Treasure Island?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -196,18 +204,18 @@ return {
 			}
 		},
 		{
-			say = "一个传言而已~说是在开发区附近的海域里，有一座时隐时现的神秘小岛。",
+			say = "It's just a rumor, but apparently, there's this island that sometimes appears like a mirage in the seas near the development.",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "上面据说埋藏着数量庞大的宝藏……黄金、珠宝、失落的科技——",
-			subName = "订单管理员",
+			say = "They say there's tons of treasure there, from precious metals and jewels to even lost technology.",
+			subName = "Manager of Requests",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -215,81 +223,80 @@ return {
 			}
 		},
 		{
-			say = "怎样~指挥官心动了吗？",
+			say = "Interested yet?",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……还是聊聊货运委托的事吧。",
+					content = "You know, I think I'd prefer transport jobs.",
 					flag = 1
 				},
 				{
-					content = "宝藏猎人心动中……",
+					content = "This calls to my treasure hunter nature...",
 					flag = 2
 				}
 			}
 		},
 		{
-			say = "欸，不愧是指挥官，完全不为所动呢~",
+			animation = "clap",
+			say = "Hah! I knew you wouldn't be impressed by hearsay.",
 			characterId = 100200,
 			optionFlag = 1,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过负责货运委托的斯蒂芬妮就曾见过那个岛哦~",
-			animation = "talk",
+			say = "But Stephen, the person in charge of transport jobs, says she's seen it with her own two eyes.",
 			characterId = 100200,
-			dir = 1,
 			optionFlag = 1,
-			subName = "订单管理员",
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "shakehead",
+			say = "It sounds a little fake, though.",
+			optionFlag = 2,
 			characterId = 0,
-			optionFlag = 2,
-			say = "但这故事……听起来有点假。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不管是真是假……指挥官都可以去找斯蒂芬妮打听打听嘛~",
-			characterId = 100200,
-			optionFlag = 2,
-			subName = "订单管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "她负责管理货运委托，肯定听到过更多的消息。",
-			characterId = 100200,
-			optionFlag = 2,
-			subName = "订单管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官可以去问一下斯蒂芬妮嘛，说不定会有大——收货哦！",
 			animation = "talk",
+			say = "Don't take my word for it. Go ask Stephen for yourself.",
 			characterId = 100200,
-			subName = "订单管理员",
+			optionFlag = 2,
+			subName = "Manager of Requests",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "She's in charge of transport jobs, so I think she'll know a lot more about it.",
+			characterId = 100200,
+			optionFlag = 2,
+			subName = "Manager of Requests",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You might just win big!",
+			animation = "clap",
+			characterId = 100200,
+			subName = "Manager of Requests",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

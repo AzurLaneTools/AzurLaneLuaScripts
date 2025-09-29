@@ -23,10 +23,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊，指挥官快来！赫莫一直在说一些我听不懂的话！",
-			subName = "牧场管理员",
-			characterId = 100500,
-			animation = "nod",
+			characterId = 0,
+			say = "*pant*... You run way too fast, Amerigo.",
 			face2Face = {
 				{
 					0,
@@ -45,7 +43,17 @@ return {
 			}
 		},
 		{
-			say = "听不懂的话？",
+			say = "Oh, Commander! Come here! Homeric's been rambling about some stuff I don't understand!",
+			animation = "hi",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Stuff you don't understand?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "指、指挥官，刚才梅莉告诉了我牧场产出的事情，我就和她聊了聊，嗯……",
+			say = "C-Commander, Amerigo told me about the situation on the ranch, so we chatted, and...",
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "关于您之前提到的，利用牧场有机肥料滋养农田的生态循环构想。",
-			subName = "农田管理员",
+			say = "Well, it's about your ecological cycle idea. About using natural fertilizer from the ranch to replenish the farm's nutrients.",
+			subName = "Manager of the Farm",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "哦？赫莫，你已经有结论了？",
+			say = "Ah, that. Did you reach a conclusion?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,18 +88,18 @@ return {
 			}
 		},
 		{
-			say = "嗯。结合牧场的现状和农田的需求，我认为——牧场和农田的发展必须同步进行。",
+			say = "Yes. Considering the ranch's and the farm's current states and needs, it's necessary to expand them both.",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "单靠一只家禽还是远远不够支撑农场大规模种植需求的。",
-			subName = "农田管理员",
+			say = "As you might expect, it's completely impossible for a single chicken to sustain a large farm.",
+			subName = "Manager of the Farm",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -99,17 +107,17 @@ return {
 			}
 		},
 		{
-			say = "嗯？简单来说就是我的牧场还需要更多的动物？好棒！",
+			say = "So basically, the ranch needs more animals? Sounds perfect!",
 			animation = "doubt",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过这并不着急对吧？",
+			say = "We don't need them right this moment, though, right?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -117,17 +125,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，目前农田里的土壤还很健康，梅莉可以慢慢来的……不着急……",
-			subName = "农田管理员",
+			say = "Not yet, no. The farm's soil is still nice and fertile, so Amerigo doesn't need to rush to get more animals.",
+			animation = "nod",
 			characterId = 100400,
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "clap",
-			say = "很好！只要这样稳步发展，不仅能还掉欠款，还能极大地丰富岛上的产出。",
+			animation = "nod",
+			say = "Great! If we do it slow and steady, we can not only pay back our debts, but also greatly increase the island's output.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +144,7 @@ return {
 			}
 		},
 		{
-			say = "不过梅莉，往后可就要辛苦你了哦！",
+			say = "Granted, Amerigo will have to put in some work for it.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -143,74 +152,37 @@ return {
 			}
 		},
 		{
-			say = "包在我身上！指挥官，我一定会把所有动物都养得白白胖胖的！",
+			say = "Then work I will! I'll raise all the animals by myself, just you wait and see!",
+			animation = "nod",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "That's the spirit. Oh, geesh, look how late it is, and I've barely had a bite to eat the whole day. Is there any good food on the island?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Ah! You hungry? Then you'll definitely wanna check out Café Manjuu by the harbor!",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
-			say = "有自信就好……不过不知不觉都这么晚了，忙了一整天，岛屿上有什么好吃的吗？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊！指挥官你是饿了吗？那一定要去港口的那家啾咖啡！",
-			animation = "nod",
-			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啾咖啡……饿了去咖啡馆做什么？不会来了这里也要我熬夜工作吧？",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "不是咖啡，是她家的苹果派啦！外皮烤得酥酥脆脆，里面的苹果馅也又香又软！",
-			subName = "牧场管理员",
-			characterId = 100500,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官你一定要去尝尝！",
-			animation = "hi",
-			characterId = 100500,
-			subName = "牧场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嗯……听梅莉的描述，似乎确实……很诱人。",
 			animation = "talk",
-			characterId = 100400,
-			subName = "农田管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "好吧，那就听你们的，我去犒劳一下自己。",
+			say = "You're saying I should have coffee for dinner? I'm not sure I need something to put my brain into work mode this late.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -218,28 +190,65 @@ return {
 			}
 		},
 		{
-			say = "你们也早点休息，农场的未来可就要靠你们了。",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "放心吧指挥官！快去快去！记得一定要点苹果派哦！",
-			animation = "hi",
+			say = "Hey, I'm not telling you to drink coffee! Remember the eggs you just got?",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官慢走。",
-			animation = "hi",
+			say = "You can give those to the staff at the café, and they'll whip up a heavenly omelette for you!",
+			animation = "talk",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Ah, an omelette. That sounds lovely.",
+			animation = "nod",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Okay, I'll go do that. I deserve a little treat after today.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You two should head to bed soon. The future of the farm and the ranch depends on you.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Yeah, we know! Come on, off you go! Go have yourself an omelette made with fresh eggs!",
+			animation = "bye",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "See you later, Commander.",
+			animation = "bye",
+			characterId = 100400,
+			subName = "Manager of the Farm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -325,7 +325,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnPhantom, function ()
 		uv0:emit(ShipBluePrintMediator.OPEN_PHANTOM_LAYER, uv0.version)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
 		pbList = {
 			slot0.rightPanel:Find("task_list"),
 			slot0.rightPanel:Find("mod_panel"),
@@ -2206,7 +2206,6 @@ end
 slot0.openPreView = function(slot0)
 	if slot0.contextData.shipBluePrintVO then
 		setActive(slot0.preViewer, true)
-		setParent(slot0.blurPanel, slot0._tf)
 		pg.UIMgr.GetInstance():BlurPanel(slot0.preViewer)
 		slot0:playLoadingAni()
 
@@ -2284,11 +2283,6 @@ slot0.closePreview = function(slot0, slot1)
 
 	setActive(slot0.preViewer, false)
 	setActive(slot0.rawImage, false)
-
-	if not slot1 then
-		SetParent(slot0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
-	end
-
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.preViewer, slot0._tf)
 
 	slot0.isShowPreview = nil
@@ -2420,7 +2414,7 @@ slot0.willExit = function(slot0)
 		setActive(slot0.unlockPanel, false)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	LeanTween.cancel(go(slot0.fittingAttrPanel))
 
 	if slot0.lastPaintingName then

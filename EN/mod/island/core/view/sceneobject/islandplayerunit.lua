@@ -94,7 +94,10 @@ slot3.RefreshTemp = function(slot0)
 	if slot0.orginTargetDir.x ~= 0 or slot0.orginTargetDir.z ~= 0 then
 		slot1 = IslandCameraMgr.instance._mainCamera.transform:TransformVector(slot0.orginTargetDir)
 		slot0.targetDir = uv0(slot1.x, 0, slot1.z).normalized
-		slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+
+		if slot0.targetDir ~= Vector3.zero then
+			slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+		end
 	end
 end
 
@@ -272,8 +275,13 @@ slot3.DeviceStateHandle = function(slot0, slot1)
 		return
 	end
 
+	if slot0.view:GetController():IsPlayerInTimeline() then
+		return
+	end
+
 	if slot1 then
 		slot0.animator:SetTrigger(IslandConst.DEVICE_SHOW_FLAG)
+		slot0.animator:ResetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	else
 		slot0.animator:SetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	end

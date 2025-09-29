@@ -2,13 +2,6 @@ pg = pg or {}
 pg.island_npc_hud = setmetatable({
 	__name = "island_npc_hud",
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
 		1001,
 		1002,
 		1003,
@@ -29,55 +22,6 @@ pg.island_npc_hud = setmetatable({
 }, confHX)
 pg.base = pg.base or {}
 pg.base.island_npc_hud = {
-	{
-		title = "科研机器",
-		name = "",
-		id = 1,
-		icon = "1",
-		show_condition = {}
-	},
-	{
-		title = "邀请函机器",
-		name = "",
-		id = 2,
-		icon = "2",
-		show_condition = {}
-	},
-	{
-		title = "",
-		name = "",
-		id = 3,
-		icon = "3",
-		show_condition = {}
-	},
-	{
-		title = "",
-		name = "",
-		id = 4,
-		icon = "4",
-		show_condition = {}
-	},
-	{
-		title = "商店",
-		name = "",
-		id = 5,
-		icon = "5",
-		show_condition = {}
-	},
-	{
-		title = "装扮商店",
-		name = "",
-		id = 6,
-		icon = "6",
-		show_condition = {}
-	},
-	{
-		title = "家具售卖",
-		name = "",
-		id = 7,
-		icon = "7",
-		show_condition = {}
-	},
 	[1001] = {
 		title = "Manager of the Mill",
 		name = "Olympic",

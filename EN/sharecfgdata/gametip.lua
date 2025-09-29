@@ -1779,6 +1779,11 @@ _G.pg.base.gametip.channel_name_5 = {
 }
 
 
+_G.pg.base.gametip.channel_name_6 = {
+	tip = "Island"
+}
+
+
 _G.pg.base.gametip.common_wait = {
 	tip = "Commander, please wait a moment "
 }
@@ -24515,8 +24520,8 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
-_G.pg.base.gametip.setting_resdownload_title_island = {
-	tip = "Update Island Assets"
+_G.pg.base.gametip.setting_resdownload_title_map = {
+	tip = "岛屿资源更新"
 }
 
 
@@ -38735,17 +38740,17 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 
 
 _G.pg.base.gametip.island_name_too_long_or_too_short = {
-	tip = "岛屿名称为1-9个字，请重新输入"
+	tip = "Island name must be 1-18 characters long. Please re-enter."
 }
 
 
 _G.pg.base.gametip.island_name_exist_special_word = {
-	tip = "岛屿名称不可含特殊字符，请重新输入"
+	tip = "Island name contains invalid characters. Please re-enter."
 }
 
 
 _G.pg.base.gametip.island_name_exist_ban_word = {
-	tip = "岛屿名称包含敏感词汇，请重新输入"
+	tip = "Island name contains sensitive terms. Please re-enter."
 }
 
 
@@ -38940,7 +38945,7 @@ _G.pg.base.gametip.grapihcs3d_setting_control = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_general = {
-	tip = "Island Settings"
+	tip = "Island\nSettings"
 }
 
 
@@ -38959,33 +38964,108 @@ _G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
 }
 
 
+_G.pg.base.gametip.grapihcs3d_setting_common_title = {
+	tip = "General Island Settings"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_use = {
+	tip = "Use"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck = {
+	tip = "Position Reset"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck_msgbox = {
+	tip = "Do you want to use the position reset and return to the starting position of this area?"
+}
+
+
 _G.pg.base.gametip.island_daily_gift_invite_success = {
-	tip = "已成功发送领取补给邀请"
+	tip = "Request to collect resources has been sent."
 }
 
 
 _G.pg.base.gametip.island_build_save_conflict = {
-	tip = "该位置已被占用"
+	tip = "Already Placed"
 }
 
 
 _G.pg.base.gametip.island_build_save_success = {
-	tip = "保存成功"
+	tip = "Successfully saved."
 }
 
 
 _G.pg.base.gametip.island_build_capacity_tip = {
-	tip = "超过当前场景容量上限"
+	tip = "You've exceeded the maximum allowed capacity."
 }
 
 
 _G.pg.base.gametip.island_build_clean_tip = {
-	tip = "是否确认清空所有家具？"
+	tip = "Would you like to remove all furniture arrangement?"
 }
 
 
 _G.pg.base.gametip.island_build_revert_tip = {
-	tip = "是否确认还原所有改动？"
+	tip = "Would you like to reset to previous furniture arrangement?"
+}
+
+
+_G.pg.base.gametip.island_dress_exit = {
+	tip = "Do you want to save the outfit changes?"
+}
+
+
+_G.pg.base.gametip.island_dress_exit2 = {
+	tip = "Unowned outfits have been removed."
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive = {
+	tip = "$1 cannot be worn with current outfit, has been automatically removed."
+}
+
+
+_G.pg.base.gametip.island_dress_skin_buy = {
+	tip = "Do you want to use $1 to buy $2?"
+}
+
+
+_G.pg.base.gametip.island_dress_color_buy = {
+	tip = "Do you want to use $1 to unlock this color?"
+}
+
+
+_G.pg.base.gametip.island_dress_color_unlock = {
+	tip = "Color unlocked"
+}
+
+
+_G.pg.base.gametip.island_dress_save1 = {
+	tip = "Saved"
+}
+
+
+_G.pg.base.gametip.island_dress_save2 = {
+	tip = "Saved. Unowned outfits have been removed."
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
+	tip = "$1 cannot be worn with current outfit."
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip = {
+	tip = "Do you want to gift $1 to $1"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip_success = {
+	tip = "$1 gifted to $1"
 }
 
 
@@ -40730,6 +40810,3745 @@ _G.pg.base.gametip.shop_filter_retro = {
 }
 
 
+_G.pg.base.gametip.island_chara_invitename = {
+	tip = "Island Authority Permit for $1"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname = {
+	tip = "Character Details"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname_en = {
+	tip = "SHIPINFO"
+}
+
+
+_G.pg.base.gametip.island_chara_power = {
+	tip = "Stamina"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute1 = {
+	tip = "Farm."
+}
+
+
+_G.pg.base.gametip.island_chara_attribute2 = {
+	tip = "Gath."
+}
+
+
+_G.pg.base.gametip.island_chara_attribute3 = {
+	tip = "Husb."
+}
+
+
+_G.pg.base.gametip.island_chara_attribute4 = {
+	tip = "Cook."
+}
+
+
+_G.pg.base.gametip.island_chara_attribute5 = {
+	tip = "Mana."
+}
+
+
+_G.pg.base.gametip.island_chara_attribute6 = {
+	tip = "Manuf."
+}
+
+
+_G.pg.base.gametip.island_chara_skill_lock = {
+	tip = "Must be enhanced to 2 stars."
+}
+
+
+_G.pg.base.gametip.island_chara_list = {
+	tip = "Character List"
+}
+
+
+_G.pg.base.gametip.island_chara_list_filter = {
+	tip = "Filter"
+}
+
+
+_G.pg.base.gametip.island_chara_list_sort = {
+	tip = "Sort"
+}
+
+
+_G.pg.base.gametip.island_chara_list_level = {
+	tip = "Island Level"
+}
+
+
+_G.pg.base.gametip.island_chara_list_attribute = {
+	tip = "Combined Stats"
+}
+
+
+_G.pg.base.gametip.island_index_name = {
+	tip = "Stamina Left"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "Unlimited"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "Can Be Leveled"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "Skill Upgradable"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "Buffed"
+}
+
+
+_G.pg.base.gametip.island_confirm = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.island_cancel = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.island_chara_levelup = {
+	tip = "Level Up"
+}
+
+
+_G.pg.base.gametip.islland_chara_material_consum = {
+	tip = "Material Cost"
+}
+
+
+_G.pg.base.gametip.island_chara_up_button = {
+	tip = "Level Up"
+}
+
+
+_G.pg.base.gametip.island_chara_now_rank = {
+	tip = "Current Rank"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout = {
+	tip = "Enhance"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_tip = {
+	tip = "Unlock Skill:"
+}
+
+
+_G.pg.base.gametip.island_chara_consum = {
+	tip = "Spend"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_button = {
+	tip = "Enhance"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_down = {
+	tip = "Enhanced"
+}
+
+
+_G.pg.base.gametip.island_chara_level_limit = {
+	tip = "Level Cap"
+}
+
+
+_G.pg.base.gametip.island_chara_power_limit = {
+	tip = "Stamina Cap"
+}
+
+
+_G.pg.base.gametip.island_click_to_close = {
+	tip = "Tap to Return"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_unlock = {
+	tip = "Skill Unlocked"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute_develop = {
+	tip = "Enhance Stats"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_attribute = {
+	tip = "Select Stat to Enhance"
+}
+
+
+_G.pg.base.gametip.island_chara_rating_up = {
+	tip = "Stat Enhanced"
+}
+
+
+_G.pg.base.gametip.island_chara_limit_up = {
+	tip = "Limit Break"
+}
+
+
+_G.pg.base.gametip.island_chara_ceiling_unlock = {
+	tip = "Do you want to spend 1 Profession Star to Limit Break this character?"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_gift = {
+	tip = "Tap to Select Gift"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_better = {
+	tip = "This character already has a stronger buff. Continue?"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_nomal = {
+	tip = "The applied buff will be overwritten. Continue?"
+}
+
+
+_G.pg.base.gametip.island_chara_gift_power = {
+	tip = "Stamina Recovery: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_title = {
+	tip = "Visit"
+}
+
+
+_G.pg.base.gametip.island_visit_friend = {
+	tip = "Friends"
+}
+
+
+_G.pg.base.gametip.island_visit_teammate = {
+	tip = "Guild"
+}
+
+
+_G.pg.base.gametip.island_visit_code = {
+	tip = "Visit Code"
+}
+
+
+_G.pg.base.gametip.island_visit_search = {
+	tip = "Search"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist = {
+	tip = "Whitelist"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist = {
+	tip = "Blacklist"
+}
+
+
+_G.pg.base.gametip.island_visit_set = {
+	tip = "Settings"
+}
+
+
+_G.pg.base.gametip.island_visit_delete = {
+	tip = "Delete"
+}
+
+
+_G.pg.base.gametip.island_visit_more = {
+	tip = "More"
+}
+
+
+_G.pg.base.gametip.island_visit_code_title = {
+	tip = "Visit Code"
+}
+
+
+_G.pg.base.gametip.island_visit_code_input = {
+	tip = "Enter Code"
+}
+
+
+_G.pg.base.gametip.island_visit_code_like = {
+	tip = "Set as Favorite"
+}
+
+
+_G.pg.base.gametip.island_visit_code_likelist = {
+	tip = "Favorite Codes"
+}
+
+
+_G.pg.base.gametip.island_visit_code_remove = {
+	tip = "Remove"
+}
+
+
+_G.pg.base.gametip.island_visit_code_copy = {
+	tip = "Copy"
+}
+
+
+_G.pg.base.gametip.island_visit_search_mineid = {
+	tip = "UID"
+}
+
+
+_G.pg.base.gametip.island_visit_search_input = {
+	tip = "Tap to Enter UID"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist_tip = {
+	tip = "Visit requests from whitelisted users will always be accepted."
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist_tip = {
+	tip = "Visit requests from blacklisted users will never be accepted."
+}
+
+
+_G.pg.base.gametip.island_visit_set_title = {
+	tip = "Island Visit Approval"
+}
+
+
+_G.pg.base.gametip.island_visit_set_tip = {
+	tip = "Set Visit Permission Range"
+}
+
+
+_G.pg.base.gametip.island_visit_set_refresh = {
+	tip = "Refresh"
+}
+
+
+_G.pg.base.gametip.island_visit_set_close = {
+	tip = "Visitors are prohibited."
+}
+
+
+_G.pg.base.gametip.island_visit_set_help = {
+	tip = [[
+Island Visits Enabled: Only the group of users chosen may visit the island.
+Island Visits Disabled: No guests may visit the island.
+Invite Code: If island visits are enabled, as long as a user is not on your blacklist, they may visit the island using a code.
+Invite Code Reset: Your visit code can be reset once a day.]]
+}
+
+
+_G.pg.base.gametip.island_visitor_button = {
+	tip = "Visit"
+}
+
+
+_G.pg.base.gametip.island_visitor_status = {
+	tip = "Visiting"
+}
+
+
+_G.pg.base.gametip.island_visitor_record = {
+	tip = "Visit Log"
+}
+
+
+_G.pg.base.gametip.island_visitor_num = {
+	tip = "Queue:"
+}
+
+
+_G.pg.base.gametip.island_visitor_kick = {
+	tip = "Kick"
+}
+
+
+_G.pg.base.gametip.island_visitor_kickall = {
+	tip = "Kick All"
+}
+
+
+_G.pg.base.gametip.island_visitor_close = {
+	tip = "Visits Disabled"
+}
+
+
+_G.pg.base.gametip.island_lineup_tip = {
+	tip = "The max number of people are visiting the island. You will enter a queue."
+}
+
+
+_G.pg.base.gametip.island_lineup_button = {
+	tip = "Cancel Visit"
+}
+
+
+_G.pg.base.gametip.island_visit_tip1 = {
+	tip = "Cannot visit island."
+}
+
+
+_G.pg.base.gametip.island_visit_tip2 = {
+	tip = "The island does not permit visitors."
+}
+
+
+_G.pg.base.gametip.island_visit_tip3 = {
+	tip = "Your visit code is invalid."
+}
+
+
+_G.pg.base.gametip.island_visit_tip4 = {
+	tip = "You were kicked from the island."
+}
+
+
+_G.pg.base.gametip.island_visit_tip5 = {
+	tip = "Visit Cooldown: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_tip6 = {
+	tip = "Operation successful."
+}
+
+
+_G.pg.base.gametip.island_visit_tip7 = {
+	tip = "You cannot set any more favorite codes."
+}
+
+
+_G.pg.base.gametip.island_season_help = {
+	tip = [[
+1. When a new season begins, your Island Development Points (IDP) will automatically reset.
+2. During a season, you can earn IDP by doing things such as exchanging resources, producing specific resources, completing transport jobs, participating in seasonal events, and making purchases in the shop.
+3. At the end of a season, the resources in your warehouse will be automatically converted to IDP, and you will be placed on the development ranking accordingly.
+4. When the season finishes, you will be unable to claim development and milestone rewards from the season that just ended.]]
+}
+
+
+_G.pg.base.gametip.island_season_title = {
+	tip = "Season"
+}
+
+
+_G.pg.base.gametip.island_season_pt_hold = {
+	tip = "Obtained"
+}
+
+
+_G.pg.base.gametip.island_season_pt_collectall = {
+	tip = "Obtain All"
+}
+
+
+_G.pg.base.gametip.island_season_activity = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.island_season_pt = {
+	tip = "Milestone Points"
+}
+
+
+_G.pg.base.gametip.island_season_task = {
+	tip = "Development Plan"
+}
+
+
+_G.pg.base.gametip.island_season_shop = {
+	tip = "Shop"
+}
+
+
+_G.pg.base.gametip.island_season_charts = {
+	tip = "Development Rank"
+}
+
+
+_G.pg.base.gametip.island_season_review = {
+	tip = "Review"
+}
+
+
+_G.pg.base.gametip.island_season_task_collect = {
+	tip = "Claim"
+}
+
+
+_G.pg.base.gametip.island_season_task_collected = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.island_season_task_collectall = {
+	tip = "Claim All"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage1 = {
+	tip = "Stage 1"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage2 = {
+	tip = "Stage 2"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage3 = {
+	tip = "Stage 3"
+}
+
+
+_G.pg.base.gametip.island_season_charts_ranking = {
+	tip = "Development Rank"
+}
+
+
+_G.pg.base.gametip.island_season_charts_information = {
+	tip = "Island Info"
+}
+
+
+_G.pg.base.gametip.island_season_charts_pt = {
+	tip = "Island Dev. Points"
+}
+
+
+_G.pg.base.gametip.island_season_charts_award = {
+	tip = "Ranking Rewards"
+}
+
+
+_G.pg.base.gametip.island_season_charts_level = {
+	tip = "Island Dev. Level"
+}
+
+
+_G.pg.base.gametip.island_season_charts_refresh = {
+	tip = "The Development Ranks are updated every 30 minutes."
+}
+
+
+_G.pg.base.gametip.island_season_review_charnum = {
+	tip = "No. of Characters"
+}
+
+
+_G.pg.base.gametip.island_season_review_projuctnum = {
+	tip = "Research Technology"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptnum = {
+	tip = "IDP"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptrank = {
+	tip = "Development Rank"
+}
+
+
+_G.pg.base.gametip.island_season_review_produce = {
+	tip = "Island Production"
+}
+
+
+_G.pg.base.gametip.island_season_review_ordernum = {
+	tip = "Resources Delivered"
+}
+
+
+_G.pg.base.gametip.island_season_review_formulanum = {
+	tip = "Dishes Produced"
+}
+
+
+_G.pg.base.gametip.island_season_review_relax = {
+	tip = "Minigame"
+}
+
+
+_G.pg.base.gametip.island_season_review_fishnum = {
+	tip = "Fish Obtained"
+}
+
+
+_G.pg.base.gametip.island_season_review_gamenum = {
+	tip = "Events Done"
+}
+
+
+_G.pg.base.gametip.island_season_window_end = {
+	tip = "The season will end soon."
+}
+
+
+_G.pg.base.gametip.island_season_window_end2 = {
+	tip = "Season ends in: $1 day(s)"
+}
+
+
+_G.pg.base.gametip.island_season_window_rule = {
+	tip = "1. At the end of a season, the resources in your warehouse will be automatically converted to IDP, and you will be placed on the development ranking accordingly. Additionally, the contents of your temporary warehouse will be cleared, and all active requests, transport commissions, food production, and character assignments will be reset.\n2. When the season finishes, you will be unable to claim development and milestone rewards from the season that just ended.\n3. When a new season begins, your Island Development Points (IDP) will automatically reset."
+}
+
+
+_G.pg.base.gametip.island_season_window_transformtip = {
+	tip = "Do you want to convert the selected item(s)?"
+}
+
+
+_G.pg.base.gametip.island_season_window_pt = {
+	tip = "Obtained Through $1 Resource Conversion"
+}
+
+
+_G.pg.base.gametip.island_season_window_ranking = {
+	tip = "Final Ranking"
+}
+
+
+_G.pg.base.gametip.island_season_window_award = {
+	tip = "Ranking Rewards"
+}
+
+
+_G.pg.base.gametip.island_season_window_out = {
+	tip = "Not Listed"
+}
+
+
+_G.pg.base.gametip.island_season_review_miss = {
+	tip = "You have not yet participated in the season."
+}
+
+
+_G.pg.base.gametip.island_season_reset = {
+	tip = "The season has been reset."
+}
+
+
+_G.pg.base.gametip.island_help_ship_order = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_farm = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_farm"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_commission = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_cafe_minigasme = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_cafe_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_signin = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_ranch = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_manage = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_combo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_friends = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_season = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_archive = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_archive1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_renovation = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_photo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_photo1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_greet = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_skin_original_desc = {
+	tip = "Default"
+}
+
+
+_G.pg.base.gametip.island_dress_no_item = {
+	tip = "There are no outfits of this kind."
+}
+
+
+_G.pg.base.gametip.island_agora_deco_empty = {
+	tip = "Not Placed"
+}
+
+
+_G.pg.base.gametip.island_agora_pos_unavailability = {
+	tip = "Already Placed"
+}
+
+
+_G.pg.base.gametip.island_agora_max_capacity = {
+	tip = "Storage Capacity Reached"
+}
+
+
+_G.pg.base.gametip.island_agora_label_base = {
+	tip = "Address"
+}
+
+
+_G.pg.base.gametip.island_agora_label_building = {
+	tip = "Site"
+}
+
+
+_G.pg.base.gametip.island_agora_label_furniture = {
+	tip = "Furnishings"
+}
+
+
+_G.pg.base.gametip.island_agora_label_dec = {
+	tip = "Decorations"
+}
+
+
+_G.pg.base.gametip.island_agora_label_floor = {
+	tip = "Floors"
+}
+
+
+_G.pg.base.gametip.island_agora_label_tile = {
+	tip = "Floor Decorations"
+}
+
+
+_G.pg.base.gametip.island_agora_label_collection = {
+	tip = "Collection"
+}
+
+
+_G.pg.base.gametip.island_agora_label_default = {
+	tip = "Default"
+}
+
+
+_G.pg.base.gametip.island_agora_label_rarity = {
+	tip = "Rarity"
+}
+
+
+_G.pg.base.gametip.island_agora_label_gettime = {
+	tip = "Time Obtained"
+}
+
+
+_G.pg.base.gametip.island_agora_label_capacity = {
+	tip = "Capacity"
+}
+
+
+_G.pg.base.gametip.island_agora_capacity = {
+	tip = "Space Capacity"
+}
+
+
+_G.pg.base.gametip.island_agora_furniure_preview = {
+	tip = "Preview"
+}
+
+
+_G.pg.base.gametip.island_agora_function_unuse = {
+	tip = "This feature has not yet been unlocked."
+}
+
+
+_G.pg.base.gametip.island_agora_signIn_tip = {
+	tip = "It's the start of a new day. Come get your daily supplies!"
+}
+
+
+_G.pg.base.gametip.island_agora_working = {
+	tip = "Remodeling in progress..."
+}
+
+
+_G.pg.base.gametip.island_agora_using = {
+	tip = "In Use"
+}
+
+
+_G.pg.base.gametip.island_agora_save_theme = {
+	tip = "Save Theme"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_clear = {
+	tip = "Clear"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_revert = {
+	tip = "Reset"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_save = {
+	tip = "Save"
+}
+
+
+_G.pg.base.gametip.island_agora_title = {
+	tip = "Get-Together Island"
+}
+
+
+_G.pg.base.gametip.island_agora_label_search = {
+	tip = "Tap to Search"
+}
+
+
+_G.pg.base.gametip.island_agora_label_theme = {
+	tip = "Theme"
+}
+
+
+_G.pg.base.gametip.island_agora_label_empty_tip = {
+	tip = "There is no furniture of this kind."
+}
+
+
+_G.pg.base.gametip.island_agora_clear_tip = {
+	tip = "Do you want to clear your current layout?"
+}
+
+
+_G.pg.base.gametip.island_agora_revert_tip = {
+	tip = "Do you want to reset all changes?"
+}
+
+
+_G.pg.base.gametip.island_agora_save_or_exit_tip = {
+	tip = "Do you want to save this layout as a theme?"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_unsave = {
+	tip = "Remove Theme"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_save = {
+	tip = "Save Changes"
+}
+
+
+_G.pg.base.gametip.island_agora_no_pos_place = {
+	tip = "There is no location to save to."
+}
+
+
+_G.pg.base.gametip.island_agora_pave_tip = {
+	tip = "Drag and drop to arrange."
+}
+
+
+_G.pg.base.gametip.island_enter_island_ban = {
+	tip = "Visits Forbidden"
+}
+
+
+_G.pg.base.gametip.island_order_not_get_award = {
+	tip = "This cannot be claimed."
+}
+
+
+_G.pg.base.gametip.island_order_cant_replace = {
+	tip = "This cannot be replaced."
+}
+
+
+_G.pg.base.gametip.island_rename_tip = {
+	tip = "Confirm your island's name.\nYou can change it later."
+}
+
+
+_G.pg.base.gametip.island_rename_confirm = {
+	tip = "Your island's name will be changed to: $1"
+}
+
+
+_G.pg.base.gametip.island_bag_max_level = {
+	tip = "Max level reached."
+}
+
+
+_G.pg.base.gametip.island_bag_uprade_success = {
+	tip = "Level increased."
+}
+
+
+_G.pg.base.gametip.island_agora_save_success = {
+	tip = "Successfully saved."
+}
+
+
+_G.pg.base.gametip.island_agora_max_level = {
+	tip = "Max level reached."
+}
+
+
+_G.pg.base.gametip.island_white_list_full = {
+	tip = "Your whitelist is full."
+}
+
+
+_G.pg.base.gametip.island_black_list_full = {
+	tip = "Your blacklist is full."
+}
+
+
+_G.pg.base.gametip.island_inviteCode_refresh = {
+	tip = "You have already updated your code today."
+}
+
+
+_G.pg.base.gametip.island_give_gift_success = {
+	tip = "Gift given."
+}
+
+
+_G.pg.base.gametip.island_get_git_tip = {
+	tip = "You have already claimed the island supplies."
+}
+
+
+_G.pg.base.gametip.island_get_git_cnt_tip = {
+	tip = "You cannot claim any more today."
+}
+
+
+_G.pg.base.gametip.island_share_gift_success = {
+	tip = "Set to Public"
+}
+
+
+_G.pg.base.gametip.island_invitation_gift_success = {
+	tip = "Request to collect resources has been sent."
+}
+
+
+_G.pg.base.gametip.island_dectect_mode3x3 = {
+	tip = "Changed to 3*3 Mode"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode1x1 = {
+	tip = "Changed to 1-Tile Mode"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover = {
+	tip = "The currently applied buff will be overwritten. Do you want to use a gift?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_1 = {
+	tip = "The currently applied buff will be overwritten. Do you want to use a gift?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_2 = {
+	tip = "There is a stronger buff available. Do you want to use this gift?"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_3 = {
+	tip = "There is a stronger buff available. Do you want to use this gift?"
+}
+
+
+_G.pg.base.gametip.island_log_visit = {
+	tip = "has come to your island."
+}
+
+
+_G.pg.base.gametip.island_log_exit = {
+	tip = "has left your island."
+}
+
+
+_G.pg.base.gametip.island_log_gift = {
+	tip = "has invited you to collect resources."
+}
+
+
+_G.pg.base.gametip.island_item_type_res = {
+	tip = "Resources"
+}
+
+
+_G.pg.base.gametip.island_item_type_consume = {
+	tip = "Consumables"
+}
+
+
+_G.pg.base.gametip.island_item_type_spe = {
+	tip = "Special"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_1 = {
+	tip = "Farm."
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_2 = {
+	tip = "Gath."
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_3 = {
+	tip = "Husb."
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_4 = {
+	tip = "Cook."
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_5 = {
+	tip = "Mana."
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_6 = {
+	tip = "Manuf."
+}
+
+
+_G.pg.base.gametip.island_task_title = {
+	tip = "Development Plan"
+}
+
+
+_G.pg.base.gametip.island_task_title_en = {
+	tip = "MISSIONS"
+}
+
+
+_G.pg.base.gametip.island_task_type_1 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.island_task_type_2 = {
+	tip = "Island\nDevelopment"
+}
+
+
+_G.pg.base.gametip.island_task_type_3 = {
+	tip = "Island Life"
+}
+
+
+_G.pg.base.gametip.island_task_type_4 = {
+	tip = "Daily"
+}
+
+
+_G.pg.base.gametip.island_task_type_5 = {
+	tip = "Weekly"
+}
+
+
+_G.pg.base.gametip.island_task_type_6 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.island_tech_type_1 = {
+	tip = "Research Center"
+}
+
+
+_G.pg.base.gametip.island_default_name = {
+	tip = "$1's Island"
+}
+
+
+_G.pg.base.gametip.island_order_type_1 = {
+	tip = "Regular Requests"
+}
+
+
+_G.pg.base.gametip.island_order_type_2 = {
+	tip = "Urgent Requests"
+}
+
+
+_G.pg.base.gametip.island_order_desc_1 = {
+	tip = "A request that takes some effort. Your hard work will be repaid."
+}
+
+
+_G.pg.base.gametip.island_order_desc_2 = {
+	tip = "A request that could be done with your eyes closed. The rewards aren't the best, though."
+}
+
+
+_G.pg.base.gametip.island_order_desc_3 = {
+	tip = "A somewhat challenging request. Takes more effort, but the rewards will be well worth it."
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_1 = {
+	tip = "Normal"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_2 = {
+	tip = "Easy"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_3 = {
+	tip = "Hard"
+}
+
+
+_G.pg.base.gametip.island_commander = {
+	tip = "Commander"
+}
+
+
+_G.pg.base.gametip.island_task_lefttime = {
+	tip = "$1 day(s), $2 hour(s)"
+}
+
+
+_G.pg.base.gametip.island_seek_game_tip = {
+	tip = "Watch out for the warning device!"
+}
+
+
+_G.pg.base.gametip.island_item_transfer = {
+	tip = "The following items have been moved:"
+}
+
+
+_G.pg.base.gametip.island_set_manifesto_success = {
+	tip = "Changes Saved"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level = {
+	tip = "繁荣度"
+}
+
+
+_G.pg.base.gametip.island_toast_status = {
+	tip = "$2 gained the buff\n[$1]."
+}
+
+
+_G.pg.base.gametip.island_toast_level = {
+	tip = "$2 has reached level $1."
+}
+
+
+_G.pg.base.gametip.island_toast_ship = {
+	tip = "$2 has formally joined $1."
+}
+
+
+_G.pg.base.gametip.island_lock_map_tip = {
+	tip = "You haven't unlocked the map yet."
+}
+
+
+_G.pg.base.gametip.island_home_btn_cant_use = {
+	tip = "You cannot use this for the time being."
+}
+
+
+_G.pg.base.gametip.island_item_overflow = {
+	tip = "Exceeded by $1"
+}
+
+
+_G.pg.base.gametip.island_item_no_capacity = {
+	tip = "Warehouse is Full"
+}
+
+
+_G.pg.base.gametip.island_ship_no_energy = {
+	tip = "Exhausted"
+}
+
+
+_G.pg.base.gametip.island_ship_working = {
+	tip = "Working:"
+}
+
+
+_G.pg.base.gametip.island_ship_level_limit = {
+	tip = "Stamina Cap"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_limit = {
+	tip = "Level Cap"
+}
+
+
+_G.pg.base.gametip.island_click_close = {
+	tip = "Tap to Close"
+}
+
+
+_G.pg.base.gametip.island_break_finish = {
+	tip = "<color=#39bfff>[Enhanced]</color>"
+}
+
+
+_G.pg.base.gametip.island_unlock_skill = {
+	tip = "<color=#39bfff>[Skill Unlocked]</color>"
+}
+
+
+_G.pg.base.gametip.island_ship_title_info = {
+	tip = "Character Info"
+}
+
+
+_G.pg.base.gametip.island_building_title_info = {
+	tip = "建筑信息"
+}
+
+
+_G.pg.base.gametip.island_word_effect = {
+	tip = "Effect:"
+}
+
+
+_G.pg.base.gametip.island_word_dispatch = {
+	tip = "Dispatched:"
+}
+
+
+_G.pg.base.gametip.island_word_working = {
+	tip = "Working"
+}
+
+
+_G.pg.base.gametip.island_word_stop_work = {
+	tip = "Stop Working"
+}
+
+
+_G.pg.base.gametip.island_level_to_unlock = {
+	tip = "Unlocked at Island Level $1"
+}
+
+
+_G.pg.base.gametip.island_select_product = {
+	tip = "Select Product"
+}
+
+
+_G.pg.base.gametip.island_sub_product_cnt = {
+	tip = "By-Products x $1"
+}
+
+
+_G.pg.base.gametip.island_make_unlock_tip = {
+	tip = "Unlocked at $1 Level $2"
+}
+
+
+_G.pg.base.gametip.island_need_star = {
+	tip = "Must be enhanced to $1 stars."
+}
+
+
+_G.pg.base.gametip.island_need_star_1 = {
+	tip = "Must be enhanced to $1."
+}
+
+
+_G.pg.base.gametip.island_select_ship = {
+	tip = "Select Character"
+}
+
+
+_G.pg.base.gametip.island_select_ship_label_1 = {
+	tip = "Selected:"
+}
+
+
+_G.pg.base.gametip.island_select_ship_overview = {
+	tip = "Buff List"
+}
+
+
+_G.pg.base.gametip.island_select_ship_tip = {
+	tip = [[
+The customer appeal of your dishes affects your sales. The higher the customer appeal, the likelier a customer is to make a purchase.
+Customer appeal is influenced by the stats (main and sub) of your assigned characters.
+
+· Main stats: Greatly increase the customer appeal.
+· Sub stats: Moderately increase the customer appeal.]]
+}
+
+
+_G.pg.base.gametip.island_friend = {
+	tip = "Friends"
+}
+
+
+_G.pg.base.gametip.island_guild = {
+	tip = "Guild"
+}
+
+
+_G.pg.base.gametip.island_code = {
+	tip = "Visit Code"
+}
+
+
+_G.pg.base.gametip.island_search = {
+	tip = "Search"
+}
+
+
+_G.pg.base.gametip.island_whiteList = {
+	tip = "Whitelist"
+}
+
+
+_G.pg.base.gametip.island_add_friend = {
+	tip = "Add"
+}
+
+
+_G.pg.base.gametip.island_blackList = {
+	tip = "Blacklist"
+}
+
+
+_G.pg.base.gametip.island_settings = {
+	tip = "Settings"
+}
+
+
+_G.pg.base.gametip.island_settings_en = {
+	tip = "SETTINGS"
+}
+
+
+_G.pg.base.gametip.island_btn_label_visit = {
+	tip = "Visit"
+}
+
+
+_G.pg.base.gametip.island_git_cnt_tip = {
+	tip = "Obtainable Today:"
+}
+
+
+_G.pg.base.gametip.island_public_invitation = {
+	tip = "Public Invite"
+}
+
+
+_G.pg.base.gametip.island_onekey_invitation = {
+	tip = "Invite All"
+}
+
+
+_G.pg.base.gametip.island_public_invitation_1 = {
+	tip = "Already set to public."
+}
+
+
+_G.pg.base.gametip.island_curr_visitor = {
+	tip = "Visiting"
+}
+
+
+_G.pg.base.gametip.island_visitor_log = {
+	tip = "Visit Log"
+}
+
+
+_G.pg.base.gametip.island_kick_all = {
+	tip = "Kick All"
+}
+
+
+_G.pg.base.gametip.island_close_visit = {
+	tip = "Cannot Visit"
+}
+
+
+_G.pg.base.gametip.island_curr_people_cnt = {
+	tip = "Visitors:"
+}
+
+
+_G.pg.base.gametip.island_close_access_state = {
+	tip = "Already blocked to visitors."
+}
+
+
+_G.pg.base.gametip.island_btn_label_remove = {
+	tip = "Remove"
+}
+
+
+_G.pg.base.gametip.island_btn_label_del = {
+	tip = "Delete"
+}
+
+
+_G.pg.base.gametip.island_btn_label_copy = {
+	tip = "Copy"
+}
+
+
+_G.pg.base.gametip.island_btn_label_more = {
+	tip = "Misc."
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation = {
+	tip = "Invite"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation_already = {
+	tip = "Invited"
+}
+
+
+_G.pg.base.gametip.island_btn_label_online = {
+	tip = "Logged In"
+}
+
+
+_G.pg.base.gametip.island_btn_label_kick = {
+	tip = "Kick"
+}
+
+
+_G.pg.base.gametip.island_btn_label_location = {
+	tip = "Place in Queue: $1"
+}
+
+
+_G.pg.base.gametip.island_black_list_tip = {
+	tip = "Blacklisted users cannot visit your island."
+}
+
+
+_G.pg.base.gametip.island_white_list_tip = {
+	tip = "Whitelisted users' requests to visit your island are automatically approved."
+}
+
+
+_G.pg.base.gametip.island_input_code_tip = {
+	tip = "Visit Code"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip_1 = {
+	tip = "Enter Code"
+}
+
+
+_G.pg.base.gametip.island_set_like = {
+	tip = "Set as Favorite"
+}
+
+
+_G.pg.base.gametip.island_input_code_erro = {
+	tip = "Please enter a code."
+}
+
+
+_G.pg.base.gametip.island_code_exist = {
+	tip = "This code already exists."
+}
+
+
+_G.pg.base.gametip.island_like_title = {
+	tip = "Favorite Codes"
+}
+
+
+_G.pg.base.gametip.island_my_id = {
+	tip = "Your UID:"
+}
+
+
+_G.pg.base.gametip.island_input_my_id = {
+	tip = "Tap to Enter UID"
+}
+
+
+_G.pg.base.gametip.island_open_settings = {
+	tip = "Island Visit Approval"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip1 = {
+	tip = "Please set a range where visits are allowed."
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip2 = {
+	tip = "Visitors are prohibited."
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip3 = {
+	tip = [[
+Island Visits Enabled: Only the group of users chosen may visit the island.
+Island Visits Disabled: No guests may visit the island.
+Invite Code: If island visits are enabled, as long as a user is not on your blacklist, they may visit the island using a code.
+Invite Code Reset: Your visit code can be reset once a day.]]
+}
+
+
+_G.pg.base.gametip.island_code_refresh_cnt = {
+	tip = "Refreshes ($1/1)"
+}
+
+
+_G.pg.base.gametip.island_word_sort = {
+	tip = "Sort"
+}
+
+
+_G.pg.base.gametip.island_word_reset = {
+	tip = "Reset"
+}
+
+
+_G.pg.base.gametip.island_bag_title = {
+	tip = "Warehouse"
+}
+
+
+_G.pg.base.gametip.island_batch_covert = {
+	tip = "Batch Convert"
+}
+
+
+_G.pg.base.gametip.island_total_price = {
+	tip = "Total Price:"
+}
+
+
+_G.pg.base.gametip.island_word_temp = {
+	tip = "Temporary"
+}
+
+
+_G.pg.base.gametip.island_word_desc = {
+	tip = "Details"
+}
+
+
+_G.pg.base.gametip.island_open_ship_tip = {
+	tip = "You will jump to the Research Center. Continue?"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_tip = {
+	tip = "Expand Resource Warehouse"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_req = {
+	tip = "Needed to Expand"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_max_level = {
+	tip = "Max level reached."
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_capacity = {
+	tip = "Resource Warehouse Capacity"
+}
+
+
+_G.pg.base.gametip.island_rename_title = {
+	tip = "Rename Island"
+}
+
+
+_G.pg.base.gametip.island_rename_input_tip = {
+	tip = "Tap to Enter Name"
+}
+
+
+_G.pg.base.gametip.island_rename_consutme_tip = {
+	tip = "Island's name can be up to 18 characters long."
+}
+
+
+_G.pg.base.gametip.island_upgrade_preview = {
+	tip = "Level Up Effects"
+}
+
+
+_G.pg.base.gametip.island_upgrade_exp = {
+	tip = "Island Dev. EXP"
+}
+
+
+_G.pg.base.gametip.island_upgrade_res = {
+	tip = "Resources Needed"
+}
+
+
+_G.pg.base.gametip.island_word_award = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.island_word_unlock = {
+	tip = "Unlock"
+}
+
+
+_G.pg.base.gametip.island_word_get = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level_display = {
+	tip = "小岛当前繁荣度：$1"
+}
+
+
+_G.pg.base.gametip.island_prosperity_value_display = {
+	tip = "繁荣度达到：$1"
+}
+
+
+_G.pg.base.gametip.island_rename_subtitle = {
+	tip = "Island Name"
+}
+
+
+_G.pg.base.gametip.island_manage_title = {
+	tip = "Store Management"
+}
+
+
+_G.pg.base.gametip.island_manage_sp_event = {
+	tip = "Business Event"
+}
+
+
+_G.pg.base.gametip.island_manage_no_work = {
+	tip = "No Work"
+}
+
+
+_G.pg.base.gametip.island_manage_end_work = {
+	tip = "Work Done"
+}
+
+
+_G.pg.base.gametip.island_manage_view = {
+	tip = "Inspect"
+}
+
+
+_G.pg.base.gametip.island_manage_result = {
+	tip = "Work Results"
+}
+
+
+_G.pg.base.gametip.island_manage_prepare = {
+	tip = "Start Work"
+}
+
+
+_G.pg.base.gametip.island_manage_daily_cnt_tip = {
+	tip = "On Break"
+}
+
+
+_G.pg.base.gametip.island_manage_produce_tip = {
+	tip = "Some Items Gain Customer Appeal"
+}
+
+
+_G.pg.base.gametip.island_manage_sel_worker = {
+	tip = "Select Staff"
+}
+
+
+_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+	tip = "Must be Upgraded to Gold Store"
+}
+
+
+_G.pg.base.gametip.island_manage_saleroom = {
+	tip = "Sales"
+}
+
+
+_G.pg.base.gametip.island_manage_capacity = {
+	tip = "Lineup Capacity"
+}
+
+
+_G.pg.base.gametip.island_manage_skill_cant_use = {
+	tip = "This skill is not applicable here."
+}
+
+
+_G.pg.base.gametip.island_manage_predict_saleroom = {
+	tip = "Predicted Sales"
+}
+
+
+_G.pg.base.gametip.island_manage_cnt = {
+	tip = "Amount:"
+}
+
+
+_G.pg.base.gametip.island_manage_addition = {
+	tip = "Buff List"
+}
+
+
+_G.pg.base.gametip.island_manage_no_addition = {
+	tip = "There are no applicable buffs."
+}
+
+
+_G.pg.base.gametip.island_manage_auto_work = {
+	tip = "Auto-Select"
+}
+
+
+_G.pg.base.gametip.island_manage_start_work = {
+	tip = "Start Work"
+}
+
+
+_G.pg.base.gametip.island_manage_working = {
+	tip = "Working"
+}
+
+
+_G.pg.base.gametip.island_manage_end_daily_work = {
+	tip = "On Break"
+}
+
+
+_G.pg.base.gametip.island_manage_attr_effect = {
+	tip = "Stats in Effect:"
+}
+
+
+_G.pg.base.gametip.island_manage_need_ext = {
+	tip = "EXP Needed"
+}
+
+
+_G.pg.base.gametip.island_manage_reach = {
+	tip = "Completed"
+}
+
+
+_G.pg.base.gametip.island_manage_slot = {
+	tip = "Dish Slots"
+}
+
+
+_G.pg.base.gametip.island_manage_food_cnt = {
+	tip = "Dish Capacity"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_ratio = {
+	tip = "Sales Rate"
+}
+
+
+_G.pg.base.gametip.island_manage_worker_cnt = {
+	tip = "Staff"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_daily = {
+	tip = "Sold Dishes"
+}
+
+
+_G.pg.base.gametip.island_manage_fake_price = {
+	tip = "Hide Price"
+}
+
+
+_G.pg.base.gametip.island_manage_real_price = {
+	tip = "Show Price"
+}
+
+
+_G.pg.base.gametip.island_manage_result_1 = {
+	tip = "Dishes Left"
+}
+
+
+_G.pg.base.gametip.island_manage_result_3 = {
+	tip = "Current Sales"
+}
+
+
+_G.pg.base.gametip.island_manage_word_cnt = {
+	tip = "Sales"
+}
+
+
+_G.pg.base.gametip.island_manage_shop_exp = {
+	tip = "Store EXP"
+}
+
+
+_G.pg.base.gametip.island_manage_help_tip = {
+	tip = [[
+The customer appeal of your dishes affects your sales. The higher the customer appeal, the likelier a customer is to make a purchase.
+Customer appeal is influenced by the stats (main and sub) of your assigned characters.
+
+· Main stats: Greatly increase the customer appeal.
+· Sub stats: Moderately increase the customer appeal.]]
+}
+
+
+_G.pg.base.gametip.island_word_go = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.island_map_title = {
+	tip = "Island Map"
+}
+
+
+_G.pg.base.gametip.island_label_furniture = {
+	tip = "Furniture"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_cnt = {
+	tip = "Amount"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity = {
+	tip = "Space Capacity"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_tip = {
+	tip = "Furniture takes up space capacity. You cannot exceed the maximum allowed capacity."
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity_display = {
+	tip = "Total Space Occupied:"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_exit = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save = {
+	tip = "Save Later"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save_tip = {
+	tip = "Can Be Saved in $1"
+}
+
+
+_G.pg.base.gametip.island_agora_extend = {
+	tip = "Expand"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_consume = {
+	tip = "Expansion Materials"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_capacity = {
+	tip = "Capacity Limit"
+}
+
+
+_G.pg.base.gametip.island_msg_info = {
+	tip = "Info"
+}
+
+
+_G.pg.base.gametip.island_get_way = {
+	tip = "How to Get"
+}
+
+
+_G.pg.base.gametip.island_own_cnt = {
+	tip = "Owned:"
+}
+
+
+_G.pg.base.gametip.island_word_convert = {
+	tip = "Convert"
+}
+
+
+_G.pg.base.gametip.island_no_remind_today = {
+	tip = "Don't Show Again Today"
+}
+
+
+_G.pg.base.gametip.island_input_theme_name = {
+	tip = "Enter Theme Name"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name = {
+	tip = "Custom Theme $1"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name_tip = {
+	tip = "Save this layout as a theme?"
+}
+
+
+_G.pg.base.gametip.island_skill_desc = {
+	tip = "Skill Details"
+}
+
+
+_G.pg.base.gametip.island_word_place = {
+	tip = "Place"
+}
+
+
+_G.pg.base.gametip.island_word_turndown = {
+	tip = "Decline"
+}
+
+
+_G.pg.base.gametip.island_word_sbumit = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.island_word_speedup = {
+	tip = "Speed Up"
+}
+
+
+_G.pg.base.gametip.island_order_cd_tip = {
+	tip = "Compiling Requests\nNew Requests Ready in"
+}
+
+
+_G.pg.base.gametip.island_order_leftcnt_dispaly = {
+	tip = "Weekly Urgent Requests Left: $1"
+}
+
+
+_G.pg.base.gametip.island_order_title = {
+	tip = "Request List"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty = {
+	tip = "Request Preference"
+}
+
+
+_G.pg.base.gametip.island_order_leftCnt_tip = {
+	tip = "Daily Requests Left:"
+}
+
+
+_G.pg.base.gametip.island_order_get_label = {
+	tip = "Claim Rewards"
+}
+
+
+_G.pg.base.gametip.island_order_ship_working = {
+	tip = "Transporting..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_end_work = {
+	tip = "Complete..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_worktime = {
+	tip = "Transport Time: $1"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip = {
+	tip = "Unlock slots by doing research."
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip_2 = {
+	tip = " Unlock"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_award = {
+	tip = "Acceptance Bonus"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_nores = {
+	tip = "Insufficient Quantity"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_req = {
+	tip = "View Details"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_award = {
+	tip = "View Rewards"
+}
+
+
+_G.pg.base.gametip.island_cancel_queue = {
+	tip = "Cancel Visit"
+}
+
+
+_G.pg.base.gametip.island_queue_display = {
+	tip = "The island has reached its visitor limit. You will enter a queue.\nPlace in Queue: $1"
+}
+
+
+_G.pg.base.gametip.island_first_season = {
+	tip = "Season I"
+}
+
+
+_G.pg.base.gametip.island_word_own = {
+	tip = "Owned: $1"
+}
+
+
+_G.pg.base.gametip.island_ship_title1 = {
+	tip = "Develop Stats"
+}
+
+
+_G.pg.base.gametip.island_ship_title2 = {
+	tip = "Enhance Stats"
+}
+
+
+_G.pg.base.gametip.island_ship_title3 = {
+	tip = "Limit Break"
+}
+
+
+_G.pg.base.gametip.island_ship_title4 = {
+	tip = "Resources Needed"
+}
+
+
+_G.pg.base.gametip.island_ship_lock_attr_tip = {
+	tip = "Select Stat to Enhance"
+}
+
+
+_G.pg.base.gametip.island_ship_unlock_limit_tip = {
+	tip = "Do you want to spend 1 Profession Star to Limit Break this character?"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout = {
+	tip = "Enhance"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout_consume = {
+	tip = "Spend"
+}
+
+
+_G.pg.base.gametip.island_ship_newskill_unlock = {
+	tip = "Unlock Skill:"
+}
+
+
+_G.pg.base.gametip.island_word_give = {
+	tip = "Not Given"
+}
+
+
+_G.pg.base.gametip.island_unlock_ship_skill_color = {
+	tip = "Do you want to unlock outfit coloring?"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip = {
+	tip = "Do you want to keep this appearance? You can change it later."
+}
+
+
+_G.pg.base.gametip.island_dressup_titile = {
+	tip = "Outfits"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip_1 = {
+	tip = "Your appearance has been changed. Do you want to save the changes?"
+}
+
+
+_G.pg.base.gametip.island_ship_energy = {
+	tip = "Stamina:"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_full = {
+	tip = "Stamina is Full"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_recoverytips = {
+	tip = "Stamina full in"
+}
+
+
+_G.pg.base.gametip.island_word_ship_buff_desc = {
+	tip = "Details"
+}
+
+
+_G.pg.base.gametip.island_word_ship_desc = {
+	tip = "Character Details"
+}
+
+
+_G.pg.base.gametip.island_need_ship_level = {
+	tip = "Must Reach Character Lv. $1"
+}
+
+
+_G.pg.base.gametip.island_skill_consume_title = {
+	tip = "Resource Cost"
+}
+
+
+_G.pg.base.gametip.island_select_ship_gift = {
+	tip = "Select a Gift"
+}
+
+
+_G.pg.base.gametip.island_word_ship_enengy_recover = {
+	tip = "Stamina Recovery"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade = {
+	tip = "Level Up"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+	tip = "At Each Level Up"
+}
+
+
+_G.pg.base.gametip.island_word_ship_rank = {
+	tip = "Current Rank"
+}
+
+
+_G.pg.base.gametip.island_task_open = {
+	tip = "Unlocked:"
+}
+
+
+_G.pg.base.gametip.island_task_target = {
+	tip = "Target:"
+}
+
+
+_G.pg.base.gametip.island_task_award = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.island_task_tracking = {
+	tip = "Select"
+}
+
+
+_G.pg.base.gametip.island_task_tracked = {
+	tip = "Selected"
+}
+
+
+_G.pg.base.gametip.island_dev_level = {
+	tip = "Island Dev. Level"
+}
+
+
+_G.pg.base.gametip.island_dev_level_tip = {
+	tip = "Raising your Island Development Level increases your research power and unlocks new technologies to research."
+}
+
+
+_G.pg.base.gametip.island_invite_title = {
+	tip = "Island Authorization Device"
+}
+
+
+_G.pg.base.gametip.island_technology_title = {
+	tip = "Island Technologies"
+}
+
+
+_G.pg.base.gametip.island_tech_noauthority = {
+	tip = "Research Unavailable"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_need = {
+	tip = "Technology Needed"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_dev = {
+	tip = "Unlock Research"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_start = {
+	tip = "Begin Research"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_starting = {
+	tip = "Researching"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_success = {
+	tip = "Research Complete"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish = {
+	tip = "Researched"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish_1 = {
+	tip = "Research Complete"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_cost = {
+	tip = "Research Cost"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_desctitle = {
+	tip = "科技成果"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+	tip = "Unlock Conditions"
+}
+
+
+_G.pg.base.gametip.island_tech_nodev = {
+	tip = "No Research"
+}
+
+
+_G.pg.base.gametip.island_tech_can_get = {
+	tip = "Claimable"
+}
+
+
+_G.pg.base.gametip.island_get_item_tip = {
+	tip = "Items Obtained"
+}
+
+
+_G.pg.base.gametip.island_add_temp_bag = {
+	tip = "The following items will be moved to your temporary warehouse:"
+}
+
+
+_G.pg.base.gametip.island_buff_lasttime = {
+	tip = "Time Left: $1"
+}
+
+
+_G.pg.base.gametip.island_visit_off = {
+	tip = "Off"
+}
+
+
+_G.pg.base.gametip.island_visit_on = {
+	tip = "On"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip = {
+	tip = "Insufficient levels and items."
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip0 = {
+	tip = "Dev. Level Needed: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip1 = {
+	tip = "Completed Projects Needed: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip2 = {
+	tip = "Unlocked Features Needed: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip3 = {
+	tip = "Researched Technologies Needed: $1"
+}
+
+
+_G.pg.base.gametip.island_tech_no_slot = {
+	tip = "All Research Slots Are Full"
+}
+
+
+_G.pg.base.gametip.island_tech_lock = {
+	tip = "Locked"
+}
+
+
+_G.pg.base.gametip.island_tech_empty = {
+	tip = "Stay Tuned"
+}
+
+
+_G.pg.base.gametip.island_submit_order_cd_tip = {
+	tip = "Can Be Submitted in $1"
+}
+
+
+_G.pg.base.gametip.island_friend_add = {
+	tip = "Add"
+}
+
+
+_G.pg.base.gametip.island_friend_agree = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse = {
+	tip = "Refuse"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse_all = {
+	tip = "Refuse All"
+}
+
+
+_G.pg.base.gametip.island_request = {
+	tip = "Request"
+}
+
+
+_G.pg.base.gametip.island_post_manage = {
+	tip = "Manage All"
+}
+
+
+_G.pg.base.gametip.island_post_produce = {
+	tip = "Production"
+}
+
+
+_G.pg.base.gametip.island_post_operate = {
+	tip = "Management"
+}
+
+
+_G.pg.base.gametip.island_post_acceptable = {
+	tip = "Gathering"
+}
+
+
+_G.pg.base.gametip.island_post_vacant = {
+	tip = "Slots Available"
+}
+
+
+_G.pg.base.gametip.island_production_selected_character = {
+	tip = "Assign"
+}
+
+
+_G.pg.base.gametip.island_production_collect = {
+	tip = "Collect Products"
+}
+
+
+_G.pg.base.gametip.island_production_selected_item = {
+	tip = "Select Products"
+}
+
+
+_G.pg.base.gametip.island_production_byproduct = {
+	tip = "Got By-Products x $1"
+}
+
+
+_G.pg.base.gametip.island_production_start = {
+	tip = "Start Work"
+}
+
+
+_G.pg.base.gametip.island_production_finish = {
+	tip = "Work Complete"
+}
+
+
+_G.pg.base.gametip.island_production_additional = {
+	tip = "Additional Slots"
+}
+
+
+_G.pg.base.gametip.island_production_count = {
+	tip = "Production Times"
+}
+
+
+_G.pg.base.gametip.island_production_character_info = {
+	tip = "Character Details"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip1 = {
+	tip = "No Characters That Meet Requirements"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip2 = {
+	tip = "Select a Character"
+}
+
+
+_G.pg.base.gametip.island_production_hold = {
+	tip = "Owned: $1"
+}
+
+
+_G.pg.base.gametip.island_production_log_recover = {
+	tip = "All gathering opportunities have been used. New ones gained in: $1"
+}
+
+
+_G.pg.base.gametip.island_production_plantable = {
+	tip = "Plantable"
+}
+
+
+_G.pg.base.gametip.island_production_being_planted = {
+	tip = "No Growing Crops to Harvest"
+}
+
+
+_G.pg.base.gametip.island_production_cost_notenough = {
+	tip = "Insufficient resources or stamina."
+}
+
+
+_G.pg.base.gametip.island_production_manually_cancel = {
+	tip = "You are already growing crops. Would you like to stop growing and assign a character?"
+}
+
+
+_G.pg.base.gametip.island_production_harvestable = {
+	tip = "Harvestable"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_notenough = {
+	tip = "Insufficient seeds."
+}
+
+
+_G.pg.base.gametip.island_production_seeds_empty = {
+	tip = "You have no seeds. Please buy some in the shop."
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
+	tip = "Submit All"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme = {
+	tip = "Theme: $1"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme_none = {
+	tip = "- None -"
+}
+
+
+_G.pg.base.gametip.island_achievement_title = {
+	tip = "Island Achievements"
+}
+
+
+_G.pg.base.gametip.island_achv_total = {
+	tip = "Achievements Complete:"
+}
+
+
+_G.pg.base.gametip.island_achv_finish_tip = {
+	tip = "Achievement: [$1] Completed"
+}
+
+
+_G.pg.base.gametip.island_card_edit_name = {
+	tip = "Rename Island"
+}
+
+
+_G.pg.base.gametip.island_card_edit_word = {
+	tip = "Change Greeting"
+}
+
+
+_G.pg.base.gametip.island_card_default_word = {
+	tip = "Welcome to the Island Development Area"
+}
+
+
+_G.pg.base.gametip.island_card_view_detaills = {
+	tip = "View Rating Tags"
+}
+
+
+_G.pg.base.gametip.island_card_close = {
+	tip = "Tap to Close"
+}
+
+
+_G.pg.base.gametip.island_card_choose_photo = {
+	tip = "Island Photo Collection"
+}
+
+
+_G.pg.base.gametip.island_card_word_title = {
+	tip = "Island Greeting"
+}
+
+
+_G.pg.base.gametip.island_card_label_list = {
+	tip = "Island Rating Tags"
+}
+
+
+_G.pg.base.gametip.island_card_choose_achievement = {
+	tip = "Selected: $1/4"
+}
+
+
+_G.pg.base.gametip.island_card_edit_label = {
+	tip = "Add Rating Tags"
+}
+
+
+_G.pg.base.gametip.island_card_choose_label = {
+	tip = "Selected: $1/$2"
+}
+
+
+_G.pg.base.gametip.island_card_like_done = {
+	tip = "You've already left a like today."
+}
+
+
+_G.pg.base.gametip.island_card_label_done = {
+	tip = "You've already given a rating this week."
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_self = {
+	tip = "Not Displayed"
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_other = {
+	tip = "- Not Displayed -"
+}
+
+
+_G.pg.base.gametip.island_leave = {
+	tip = "Return to the Port"
+}
+
+
+_G.pg.base.gametip.island_repeat_vip = {
+	tip = "This user is already on your whitelist."
+}
+
+
+_G.pg.base.gametip.island_repeat_blacklist = {
+	tip = "This user is already on your blacklist."
+}
+
+
+_G.pg.base.gametip.island_chat_settings = {
+	tip = "Chat Settings"
+}
+
+
+_G.pg.base.gametip.island_card_no_label = {
+	tip = "No Tags"
+}
+
+
+_G.pg.base.gametip.ship_gift = {
+	tip = "Gifts"
+}
+
+
+_G.pg.base.gametip.ship_gift_cnt = {
+	tip = "Amount:"
+}
+
+
+_G.pg.base.gametip.ship_gift2 = {
+	tip = "Give"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_exceed = {
+	tip = "You are at the maximum capacity and cannot gain more gift tickets."
+}
+
+
+_G.pg.base.gametip.shipyard_gift_non_existent = {
+	tip = "No Gifts to Give"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_exceed = {
+	tip = "Any Affinity past the cap will be wasted. Continue?"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_threshold = {
+	tip = "Your Affinity is at the maximum. You can make an Oath to raise your Affinity cap."
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_max = {
+	tip = "Your Affinity is at the maximum."
+}
+
+
+_G.pg.base.gametip.island_activity_decorative_word = {
+	tip = "Special Event"
+}
+
+
+_G.pg.base.gametip.island_no_activity = {
+	tip = "No Events Available"
+}
+
+
+_G.pg.base.gametip.island_spoperation_level_2509_1 = {
+	tip = "Requirement: Reach Island Dev. Level 1"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_1 = {
+	tip = "During the event, Peary will issue requests for specialty products. Complete these orders to earn rewards such as Season Points.\nNote: Specialty products do not count toward your request completion limit, and they do not affect your rating level."
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+	tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+	tip = "During the event, you can produce corresponding specialty products at Sweetscent Orchard, the Golden Koi Restaurant, Polar Bear Teahouse, and the Base Factory."
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+	tip = "Make Specialty Products"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+	tip = "Gather Specialty Products"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+	tip = "Event Manager"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_1 = {
+	tip = "Autumn Chrysanthemum"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+	tip = "Reed Flowers"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_3 = {
+	tip = "Peanuts"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+	tip = "Matsutake"
+}
+
+
+_G.pg.base.gametip.island_follow_success = {
+	tip = "Followed"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_success = {
+	tip = "Unfollow"
+}
+
+
+_G.pg.base.gametip.island_follower_cnt_max = {
+	tip = "You cannot have any more followers."
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_tip = {
+	tip = "Character is following you, do you want to unfollow?"
+}
+
+
+_G.pg.base.gametip.island_follower_state_no_normal = {
+	tip = "This person seems to be busy."
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_usable = {
+	tip = "Follow Request"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_cancel = {
+	tip = "Unfollow"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_disable = {
+	tip = "Busy"
+}
+
+
+_G.pg.base.gametip.island_draw_tab = {
+	tip = "Stellar Prize Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_tab_en = {
+	tip = "Stellar Prize Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_last = {
+	tip = "Remaining:"
+}
+
+
+_G.pg.base.gametip.island_draw_null = {
+	tip = "Finished"
+}
+
+
+_G.pg.base.gametip.island_draw_num = {
+	tip = "Draws"
+}
+
+
+_G.pg.base.gametip.island_draw_lottery = {
+	tip = "Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_pick = {
+	tip = "Choices"
+}
+
+
+_G.pg.base.gametip.island_draw_reward = {
+	tip = "View Details"
+}
+
+
+_G.pg.base.gametip.island_draw_time = {
+	tip = "Available For:"
+}
+
+
+_G.pg.base.gametip.island_draw_time_1 = {
+	tip = "Maintenance"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order_title = {
+	tip = "Prize S Order"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order = {
+	tip = "Drag to Change Order"
+}
+
+
+_G.pg.base.gametip.island_draw_S = {
+	tip = "Prize S"
+}
+
+
+_G.pg.base.gametip.island_draw_A = {
+	tip = "Prize A"
+}
+
+
+_G.pg.base.gametip.island_draw_B = {
+	tip = "Prize B"
+}
+
+
+_G.pg.base.gametip.island_draw_C = {
+	tip = "Prize C"
+}
+
+
+_G.pg.base.gametip.island_draw_get = {
+	tip = "Obtained"
+}
+
+
+_G.pg.base.gametip.island_draw_ready = {
+	tip = "Do you want to try the Stellar Prize Draw?"
+}
+
+
+_G.pg.base.gametip.island_draw_float = {
+	tip = "Insufficient Prizes"
+}
+
+
+_G.pg.base.gametip.island_draw_choice_title = {
+	tip = "Choices"
+}
+
+
+_G.pg.base.gametip.island_draw_choice = {
+	tip = "Draws Made"
+}
+
+
+_G.pg.base.gametip.island_draw_sort = {
+	tip = "Acquisition order changed."
+}
+
+
+_G.pg.base.gametip.island_draw_tip1 = {
+	tip = "Do you want to spend $1 to draw 1 time?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip2 = {
+	tip = "Do you want to spend $1 to draw 10 times?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip3 = {
+	tip = "Do you want to spend $1 to buy $2?"
+}
+
+
+_G.pg.base.gametip.island_draw_tip4 = {
+	tip = "Insufficient Gems. Do you want to purchase some?"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_locked = {
+	tip = "Unavailable"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_receive = {
+	tip = "Obtainable"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_idle = {
+	tip = "Awaiting Transport"
+}
+
+
+_G.pg.base.gametip.island_ticket_shop = {
+	tip = "Obtain"
+}
+
+
+_G.pg.base.gametip.island_ticket_remain_time = {
+	tip = "Time Left"
+}
+
+
+_G.pg.base.gametip.island_ticket_auto_select = {
+	tip = "Auto-Select"
+}
+
+
+_G.pg.base.gametip.island_ticket_use = {
+	tip = "Use Express Tickets"
+}
+
+
+_G.pg.base.gametip.island_ticket_view = {
+	tip = "Show All"
+}
+
+
+_G.pg.base.gametip.island_ticket_storage_title = {
+	tip = "Express Tickets"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_valid = {
+	tip = "Valid Period"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_speedup = {
+	tip = "Speed Up"
+}
+
+
+_G.pg.base.gametip.island_ticket_completed_quantity = {
+	tip = "Speed Up $1 Time(s)"
+}
+
+
+_G.pg.base.gametip.island_ticket_nearing_expiration = {
+	tip = "Tickets Near Expiration: $1"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip1 = {
+	tip = "The following Express Tickets have nearly expired:"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip2 = {
+	tip = "The following Express Tickets have expired:"
+}
+
+
+_G.pg.base.gametip.island_ticket_finished = {
+	tip = "Finished"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired = {
+	tip = "Expired"
+}
+
+
+_G.pg.base.gametip.island_use_ticket_success = {
+	tip = "Successfully Used"
+}
+
+
+_G.pg.base.gametip.island_sure_ticket_overflow = {
+	tip = "You have selected more tickets than necessary for the production time. Continue?"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired_day = {
+	tip = "Expired in $1 Day(s)"
+}
+
+
+_G.pg.base.gametip.island_dress_replace_tip = {
+	tip = "Another character is using this outfit. Do you want to take it off?"
+}
+
+
+_G.pg.base.gametip.island_activity_expired = {
+	tip = "Event Has Ended"
+}
+
+
+_G.pg.base.gametip.island_guide = {
+	tip = "Collection"
+}
+
+
+_G.pg.base.gametip.island_guide_help = {
+	tip = [[
+Unlocking character-related content on the island gives you Collection Points. Once you accumulate enough points, your Collection Level will increase, and you'll receive the corresponding Collection Rewards:
+
+1. When you <color=#39bfff>obtain a character (complete their Island Authority Permit process)</color>, you'll receive <color=#39bfff>20</color> Collection Points per character.
+2. When you <color=#39bfff>Limit Break a character (use a Profession Star on them)</color>, you'll receive <color=#39bfff>30</color> Collection Points per Limit Break. And when a character reaches Limit Break ★5, you'll receive an additional <color=#39bfff>10</color> Collection Points.
+3. When <color=#39bfff>raising a character's Island Level to 50</color>, you'll receive <color=#39bfff>50</color> Collection Points.]]
+}
+
+
+_G.pg.base.gametip.island_guide_character_help = {
+	tip = "Info"
+}
+
+
+_G.pg.base.gametip.island_guide_en = {
+	tip = "Collection"
+}
+
+
+_G.pg.base.gametip.island_guide_character = {
+	tip = "Characters"
+}
+
+
+_G.pg.base.gametip.island_guide_character_en = {
+	tip = "Characters"
+}
+
+
+_G.pg.base.gametip.island_guide_npc = {
+	tip = "Island Development Team"
+}
+
+
+_G.pg.base.gametip.island_guide_npc_en = {
+	tip = "Island Development Team"
+}
+
+
+_G.pg.base.gametip.island_guide_item = {
+	tip = "Resources"
+}
+
+
+_G.pg.base.gametip.island_guide_item_en = {
+	tip = "Resources"
+}
+
+
+_G.pg.base.gametip.island_guide_collectionpoint = {
+	tip = "Get Collection Points"
+}
+
+
+_G.pg.base.gametip.island_get_collect_point_success = {
+	tip = "Receive $1 Collection Points"
+}
+
+
+_G.pg.base.gametip.island_guide_active = {
+	tip = "Unlockable"
+}
+
+
+_G.pg.base.gametip.island_book_collection_award_title = {
+	tip = "Collection $1 Rewards"
+}
+
+
+_G.pg.base.gametip.island_book_award_title = {
+	tip = "View Details"
+}
+
+
+_G.pg.base.gametip.island_guide_do_active = {
+	tip = "Unlock"
+}
+
+
+_G.pg.base.gametip.island_guide_lock_desc = {
+	tip = "Unavailable"
+}
+
+
+_G.pg.base.gametip.island_gift_entrance = {
+	tip = "Daily Supply"
+}
+
+
+_G.pg.base.gametip.island_sign_text = {
+	tip = "- Development Stars -"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_set = {
+	tip = "Set Display Character"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_choose = {
+	tip = "Select Character"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_res_have = {
+	tip = "Max Amount of Resources Owned: "
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_close = {
+	tip = "The shop will close in $1."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_refresh = {
+	tip = "Refreshes in $1"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_refresh_limit = {
+	tip = "You cannot refresh any more."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_have = {
+	tip = "Owned:"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_unlock = {
+	tip = "Unlocks in $1"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_no = {
+	tip = "Number Bought"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_last = {
+	tip = "(Remaining: $1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_close = {
+	tip = "Tap the Screen to Close"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_no_have = {
+	tip = "Owned ($1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_goods_time = {
+	tip = "$1 Day(s) Left"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_clothes_jump = {
+	tip = "Do you want to jump to the outfits menu?"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_confirm = {
+	tip = "Buy"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy = {
+	tip = "Buy"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+	tip = "Obtain"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_return = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_price = {
+	tip = "Price"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_have = {
+	tip = "Owned"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_bag_max = {
+	tip = "You have reached your storage capacity for island items."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gold = {
+	tip = "Insufficient port resources."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gem = {
+	tip = "Insufficient Gems."
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_res = {
+	tip = "Insufficient island resources."
+}
+
+
+_G.pg.base.gametip.island_photo_fur_lock = {
+	tip = "You cannot use the camera right now."
+}
+
+
 _G.pg.base.gametip.graphi_api_switch_opengl = {
 	tip = "When rendering compatibility mode is toggled OFF, your screen may turn black under certain circumstances. You will need to restart the game when changing this setting. Would you like to change this setting?"
 }
@@ -41173,6 +44992,41 @@ _G.pg.base.gametip.ninja_game_booktip = {
 }
 
 
+_G.pg.base.gametip.island_no_position_to_reponse_action = {
+	tip = "You cannot interact in your current position. The animation has been skipped."
+}
+
+
+_G.pg.base.gametip.island_position_cant_play_cp_action = {
+	tip = "You cannot interact in your current position. Please adjust it and try again."
+}
+
+
+_G.pg.base.gametip.island_position_cant_response_cp_action = {
+	tip = "Your interaction isn't suited for your current position. Please adjust it and try again."
+}
+
+
+_G.pg.base.gametip.island_card_no_achieve_tip = {
+	tip = "You have no achievements."
+}
+
+
+_G.pg.base.gametip.island_card_no_label_tip = {
+	tip = "You have not received any rating tags."
+}
+
+
+_G.pg.base.gametip.gift_giving_prefer = {
+	tip = "It seems she really likes your gift."
+}
+
+
+_G.pg.base.gametip.gift_giving_dislike = {
+	tip = "It seems she is confused by your gift."
+}
+
+
 _G.pg.base.gametip.dorm3d_publicroom_unlock = {
 	tip = "You need to unlock shared areas first."
 }
@@ -41190,4 +45044,98 @@ _G.pg.base.gametip.dorm3d_dafeng_chair = {
 
 _G.pg.base.gametip.dorm3d_dafeng_bed = {
 	tip = "Bedroom"
+}
+
+
+_G.pg.base.gametip.island_draw_help = {
+	tip = [[
+You can spend Stellar Tickets on the Stellar Prize Draw to draw various prizes, ranging in grade from S (highest) to C (lowest).
+1. There are two ways to obtain Stellar Tickets. They can be earned through playing Island Planner, or purchased using Gems.
+2. There is a fixed number of prizes of each grade, and the probability of receiving each respective prize within a grade is the same. Once you get a certain prize, it will not appear again during the duration of the Stellar Prize Draw.
+· S-grade prizes are special in that you may change the order you acquire them if you so like.
+3. The Stellar Prize Draw lineup is exclusive to each limited period during which it runs. Once one run of it ends, the next one will have a different lineup of prizes.
+4. During a single Stellar Prize Draw run, once you've won a certain number of prizes, you may select a prize from the Total Draws shown on the Stellar Prize Draw menu. Your total number of draws is reset between individual runs of the Stellar Prize Draw.
+5. When a given run of the Stellar Prize Draw ends, if you have yet to obtain all the prizes and you still possess any Stellar Tickets, as many of them as possible will automatically be used in order to give you all the prizes.
+· If you've won all the prizes, any leftover Stellar Tickets will be converted to Gems.
+· Prizes and Gems obtained through the above method will be sent to your Mailbox.]]
+}
+
+
+_G.pg.base.gametip.island_dress_initial_makesure = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.island_shop_lock_tip = {
+	tip = "You have not unlocked the shop."
+}
+
+
+_G.pg.base.gametip.island_agora_no_size = {
+	tip = "No vacancies available."
+}
+
+
+_G.pg.base.gametip.island_combo_unlock = {
+	tip = "You have unlocked meal combos."
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip1 = {
+	tip = "Added Production"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip2 = {
+	tip = "No more can be added as the current production is done."
+}
+
+
+_G.pg.base.gametip.island_manage_stock_out = {
+	tip = "You have no food items to sell."
+}
+
+
+_G.pg.base.gametip.island_manage_item_select = {
+	tip = "Food Selected"
+}
+
+
+_G.pg.base.gametip.island_combo_produced = {
+	tip = "Make"
+}
+
+
+_G.pg.base.gametip.island_combo_produced_times = {
+	tip = "$1 time(s)"
+}
+
+
+_G.pg.base.gametip.island_agora_no_interact_point = {
+	tip = "You cannot interact with this."
+}
+
+
+_G.pg.base.gametip.island_reward_tip = {
+	tip = "Obtain"
+}
+
+
+_G.pg.base.gametip.island_commontips_close = {
+	tip = "Tap the Screen to Close"
+}
+
+
+_G.pg.base.gametip.world_inventory_tip = {
+	tip = "Converted After the Reset"
+}
+
+
+_G.pg.base.gametip.island_setmeal_title = {
+	tip = "Combo Guide"
+}
+
+
+_G.pg.base.gametip.island_shipselect_confirm = {
+	tip = "Confirm"
 }

@@ -141,16 +141,20 @@ slot0.GetMaxEnergy = function(slot0)
 	return slot0.maxEnerey
 end
 
-slot0.InitMaxEnergy = function(slot0)
-	slot1 = slot0.maxEnerey
-	slot3 = slot0:getConfig("upgrade_power")
+slot0.InitMaxEnergy = function(slot0, slot1)
+	slot2 = slot0.maxEnerey
+	slot4 = slot0:getConfig("upgrade_power")
 
-	for slot8 = 1, slot0:GetBreakLevel() do
-		slot0.maxEnerey = slot0.maxEnerey + (slot3[slot8] or 0)
+	for slot9 = 1, slot0:GetBreakLevel() do
+		slot0.maxEnerey = slot0.maxEnerey + (slot4[slot9] or 0)
 	end
 
-	if slot0.maxEnerey - slot1 > 0 then
-		slot0.energy = slot0.maxEnerey - (slot1 - slot0.energy)
+	if not slot1 then
+		return
+	end
+
+	if slot0.maxEnerey - slot2 > 0 then
+		slot0.energy = slot0.maxEnerey - (slot2 - slot0.energy)
 	end
 end
 
@@ -377,7 +381,7 @@ slot0.UpgradeBreakOut = function(slot0)
 	slot1 = slot0:GetMaxEnergy()
 	slot3 = slot1 - slot0:GetEnergy()
 
-	slot0:InitMaxEnergy()
+	slot0:InitMaxEnergy(true)
 
 	if slot1 < slot0:GetMaxEnergy() then
 		slot0.energy = slot0.energy + slot3

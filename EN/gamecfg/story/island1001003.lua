@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊——突然出现的指挥官！真的假的？",
-			subName = "林场管理员",
-			characterId = 100700,
-			animation = "amaze",
+			say = "O'Brien! Hey there.",
+			characterId = 0,
+			animation = "hi",
 			face2Face = {
 				{
 					0,
@@ -35,8 +34,17 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "当然是真的！",
+			animation = "amaze",
+			say = "Ah... C-Commander? That is you, isn't it?",
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "The one and only.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -44,27 +52,26 @@ return {
 			}
 		},
 		{
-			animation = "hi",
-			say = "嘿嘿~好久不见，我还以为你都把我们忘了呢~",
+			animation = "shy",
+			say = "Thank goodness! Long time no see. We all missed you so much! God, we were starting to worry that you'd forgotten about us.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "elation",
-			say = "这半年来，我们可是一直都在很努力地建设这里哦~没有偷懒的。",
+			say = "Over these six months, we've been hard at work developing the island.",
+			subName = "Manager of the Forest",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "半年？",
+			say = "Did you just say six months?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -72,26 +79,26 @@ return {
 			}
 		},
 		{
+			animation = "embarrass",
+			say = "Yeah... It might not look very different, but we built an entire harbor on the shore. You should totally check it out when you get the chance!",
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "(Outside, it's just been a week... The flow of time must be different here. No wonder the aircraft malfunctioned.)",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I'll do that. By the way, you've been here for a long time. Have you noticed anything strange?",
 			animation = "talk",
-			say = "是啊，虽然这里看着是有些不明显，不过港口那边可是被我们建得超漂亮的，指挥官一定要去看看哦~",
-			characterId = 100700,
-			subName = "林场管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（是时间流速不同的原因么……这么大的差值也难怪飞行器会故障了。）",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			say = "嗯……你们在这里待了这么久，就没有发现什么异常吗？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -100,36 +107,44 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "异常么……之前岛屿上一直都很正常的。",
+			say = "Strange? I can't think of anything in particular during these six months.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "倒是指挥官你来之前，附近刚刚发生了大爆炸哦，好像是有一艘飞行器坠毁在这附近了！",
+			say = "Except for the huge explosion that happened just before you got here, that is.",
+			subName = "Manager of the Forest",
 			characterId = 100700,
-			subName = "林场管理员",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I'm told that an aircraft crashed nearby?",
+			characterId = 100700,
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "实不相瞒……",
+					content = "Funny you should mention that...",
 					flag = 1
 				},
 				{
-					content = "有么？我怎么没听到。",
+					content = "Oh, really? I didn't know that.",
 					flag = 2
 				}
 			}
 		},
 		{
-			say = "其实那是我来时乘坐的飞行器，出了点小意外。",
+			say = "I was on that aircraft. Things went a little awry, as you can tell.",
 			optionFlag = 1,
 			characterId = 0,
 			typewriter = {
@@ -138,21 +153,20 @@ return {
 			}
 		},
 		{
-			say = "欸？原来是指挥官的飞行器啊，爆炸时散落的零件把到港口交通线都给砸坏了呢。",
+			say = "Oh, my. That was your ride? Well, unfortunately, shrapnel from the explosion destroyed the bus stop leading to the harbor...",
 			characterId = 100700,
 			optionFlag = 1,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "talk",
-			say = "肯定有啦！爆炸散落的零件把到港口交通线都破坏了。",
+			say = "Really! Shrapnel from the explosion destroyed the bus stop leading to the harbor!",
 			characterId = 100700,
 			optionFlag = 2,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,16 +174,16 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "因为是{namecode:98:明石}订单期限的最后一天，现在原材料运送受阻，乔安正在矿场那边发愁呢~",
+			say = "Worse, today is the deadline for Akashi's request. This is definitely going to delay our materials shipment...",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "{namecode:98:明石}的订单么……你知道她在哪吗？",
+			say = "Akashi's request? Speaking of her, do you know where she is?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -178,25 +192,24 @@ return {
 		},
 		{
 			animation = "think",
-			say = "她一般都会待在港口那边的，指挥官想去找她也得等交通线修复后哦~",
+			say = "She's usually around the harbor, but with the bus stop as wrecked as it is, you'll have to wait for the time being.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我过去看看。",
+					content = "The bus stop, huh? I'll go check it out.",
 					flag = 1
 				}
 			}
 		},
 		{
-			animation = "nod",
-			say = "好哦~指挥官可以去矿场找乔安问问~车站的修复工作是她在负责的。",
+			say = "O-okay... You might wanna talk to John over in Rockheap Mine. She's the one in charge of repairing the stop.",
+			subName = "Manager of the Forest",
 			characterId = 100700,
-			subName = "林场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

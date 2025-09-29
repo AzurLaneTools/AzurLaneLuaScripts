@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "牧场上的微风很舒服呢~",
+			say = "Ah, I love the breeze that blows through the ranch.",
 			characterId = 100500
 		}
 	}

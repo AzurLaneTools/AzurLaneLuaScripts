@@ -126,6 +126,9 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_UPDATE, slot0.OnActivityNpcUpdate)
 	slot0:AddIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_DEL, slot0.OnActivityNpcDel)
 	slot0:AddIslandListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnSystemUnlock)
+	slot0:AddIslandListener(IslandProxy.LOCK_NPC_REFRESH, slot0.OnLockNpcRefresh)
+	slot0:AddIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
+	slot0:AddIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -171,6 +174,38 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_UPDATE, slot0.OnActivityNpcUpdate)
 	slot0:RemoveIslandListener(IslandActivityNpcAgency.ACTIVITY_NPC_DEL, slot0.OnActivityNpcDel)
 	slot0:RemoveIslandListener(IslandAblityAgency.UNLOCK_SYSTEM, slot0.OnSystemUnlock)
+	slot0:RemoveIslandListener(IslandProxy.LOCK_NPC_REFRESH, slot0.OnLockNpcRefresh)
+	slot0:RemoveIslandListener(IslandProxy.RELEASE_NPC_REFRESH, slot0.OnReleaseNpcRefresh)
+	slot0:RemoveIslandListener(IslandProxy.RESET_SP, slot0.OnResetSp)
+end
+
+slot0.OnResetSp = function(slot0)
+	slot2 = pg.island_world_objects.get_id_list_by_mapId[slot0.mapId] or {}
+
+	for slot6, slot7 in ipairs(slot2) do
+		if pg.island_world_objects[slot7].unitId == 0 then
+			spConfig = slot8
+
+			break
+		end
+	end
+
+	if not spConfig then
+		return
+	end
+
+	slot5 = getProxy(PlayerProxy):getRawData().id
+
+	slot0:NotifiyCore(ISLAND_EVT.RESET_UNIT_POS, slot5, IslandConst.UNIT_LIST_PLAYER, BuildVector3(spConfig.param.position))
+	slot0:NotifiyCore(ISLAND_EVT.RESET_UNIT_ROT, slot5, IslandConst.UNIT_LIST_PLAYER, BuildVector3(spConfig.param.rotation))
+end
+
+slot0.OnLockNpcRefresh = function(slot0, slot1, slot2)
+	slot0.visibilityAllocator:LockNpc(slot1, slot2)
+end
+
+slot0.OnReleaseNpcRefresh = function(slot0, slot1, slot2)
+	slot0.visibilityAllocator:ReleaseNpc(slot1, slot2)
 end
 
 slot0.OnSystemUnlock = function(slot0, slot1)
@@ -296,9 +331,13 @@ slot0.OnStartPerformance = function(slot0)
 	slot0:NotifiyCore(ISLAND_EVT.START_PERFORMANCE)
 end
 
-slot0.OnEndPerformance = function(slot0)
+slot0.OnEndPerformance = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.END_STORY)
 	slot0:NotifiyCore(ISLAND_EVT.END_PERFORMANCE)
+
+	if slot1 then
+		slot0:OnUpdateTask()
+	end
 end
 
 slot0.OnStartStory = function(slot0)
@@ -326,9 +365,27 @@ slot0.OnFinishTask = function(slot0)
 end
 
 slot0.OnUpdateTask = function(slot0)
-	slot0.visibilityAllocator:Flush()
-	slot0:NotifiyCore(ISLAND_EVT.REFRESH_INTERACTION)
-	slot0:NotifiyCore(ISLAND_EVT.REFRESH_TASK_HUD_INFO)
+	slot0:Debounce("RefreshTask", function ()
+		if not uv0.visibilityAllocator then
+			return
+		end
+
+		uv0.visibilityAllocator:Flush()
+		uv0:NotifiyCore(ISLAND_EVT.REFRESH_INTERACTION)
+		uv0:NotifiyCore(ISLAND_EVT.REFRESH_TASK_HUD_INFO)
+	end, 0.5, false)()
+end
+
+slot0.Debounce = function(slot0, slot1, slot2, slot3, slot4)
+	if not slot0.__debouncers then
+		slot0.__debouncers = {}
+	end
+
+	if not slot0.__debouncers[slot1] then
+		slot0.__debouncers[slot1] = debounce(slot2, slot3, slot4)
+	end
+
+	return slot0.__debouncers[slot1]
 end
 
 slot0.OnPlayerAdd = function(slot0, slot1)
@@ -589,8 +646,8 @@ slot0.OnProductPlaceChangeUnit = function(slot0, slot1)
 		return
 	end
 
-	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetPlaceModelId(slot2))
-	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GetPlaceModelId(slot2))
+	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_OBJ, slot3:GetPlaceModelId(false))
+	slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot3:GetPlaceModelUnit(true))
 end
 
 slot0.OnRemoveWildGatherDone = function(slot0, slot1)
@@ -703,6 +760,8 @@ slot0.OnDispose = function(slot0)
 
 		slot0.activityNpcAllocator = nil
 	end
+
+	slot0.__debouncers = nil
 end
 
 slot0.OnAnimalInit = function(slot0, slot1)
@@ -727,6 +786,10 @@ slot0.OnAnimalInit = function(slot0, slot1)
 	end
 end
 
+slot0.IsPlayerInTimeline = function(slot0)
+	return slot0.islandSyncMgr.player:InTimeline()
+end
+
 slot0.InitSyncMgr = function(slot0)
 	slot0.islandSyncMgr:Init(slot0.sceneData.unitList)
 end
@@ -745,6 +808,8 @@ slot0.WorldObjectInterAction = function(slot0, slot1, slot2, slot3)
 	end
 
 	if not slot4:GetEmptySlot() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_interact_point"))
+
 		return
 	end
 
@@ -762,21 +827,19 @@ slot0.WorldObjectInterAction = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.WorldObjectInterActionSync = function(slot0, slot1, slot2, slot3)
+slot0.WorldObjectInterActionSync = function(slot0, slot1, slot2, slot3, slot4)
 	slot3 = slot3 or 1
 
 	if not _.detect(slot0.sceneData.unitList, function (slot0)
 		return slot0.id == uv0
-	end) or not slot4:Interactable() then
+	end) or not slot5:Interactable() then
 		return
 	end
 
-	if not slot4:GetEmptySlot() then
-		return
-	end
+	slot6 = slot5:GetSlotById(slot4)
 
-	slot5:Lock(slot2)
-	slot0:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, slot4, slot5, slot3)
+	slot6:Lock(slot2)
+	slot0:NotifiyCore(ISLAND_EVT.WORLD_OBJECT_START_INTERACTION, slot5, slot6, slot3)
 end
 
 slot0.WorldObjectInterActionEnd = function(slot0, slot1, slot2)

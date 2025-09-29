@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "集会岛接待员",
+			subName = "Get-Together Island Receptionist",
 			animation = "hi",
 			characterId = 101000,
-			say = "您好，是有新的探索需求需要协助吗？",
+			say = "Hello. Do you need assistance with a new exploration request?",
 			face2Face = {
 				{
 					0,

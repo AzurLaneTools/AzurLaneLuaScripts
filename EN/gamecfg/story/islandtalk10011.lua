@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "天气真好呢……请再让我……眯一会儿……",
+			say = "Such nice weather... Let me... snooze for a little longer...",
 			characterId = 100100,
 			face2Face = {
 				{

@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "补货单需要加急处理了。",
+			say = "The restocking order needs to be processed urgently.",
 			hideType = 2,
 			characterId = 100800,
 			animation = "note"

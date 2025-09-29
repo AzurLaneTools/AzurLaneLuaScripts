@@ -111,6 +111,7 @@ pg.island_task = setmetatable({
 			20003002,
 			20003003,
 			20003004,
+			20004000,
 			20004001,
 			20004002,
 			20004003,
@@ -173,6 +174,7 @@ pg.island_task = setmetatable({
 			20012008,
 			20012009,
 			20012010,
+			20013000,
 			20013001,
 			20013002,
 			20013003,
@@ -452,6 +454,7 @@ pg.island_task = setmetatable({
 		20003002,
 		20003003,
 		20003004,
+		20004000,
 		20004001,
 		20004002,
 		20004003,
@@ -514,6 +517,7 @@ pg.island_task = setmetatable({
 		20012008,
 		20012009,
 		20012010,
+		20013000,
 		20013001,
 		20013002,
 		20013003,
@@ -663,7 +667,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 50,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "First Arrival",
 		navigation = 1004,
@@ -706,7 +710,7 @@ pg.base.island_task = {
 		complete_data = 10040022,
 		reward_exp = 50,
 		complete_tips = "Deliver the Coal to John.",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "First Arrival",
 		navigation = 1004,
@@ -747,7 +751,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040060,
-		reward_exp = 50,
+		reward_exp = 100,
 		complete_tips = "Deliver the Raw Timber to O'Brien.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -790,7 +794,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -872,7 +876,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 0,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "First Arrival",
 		navigation = 1002,
@@ -1059,7 +1063,7 @@ pg.base.island_task = {
 	[10001110] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "消失的{namecode:98:明石}",
+		name = "The Missing Green Cat",
 		type = 1,
 		task_desc = "Akashi is gone. Where did she go?",
 		map_trigger_tips = 0,
@@ -1136,6 +1140,11 @@ pg.base.island_task = {
 				41,
 				1,
 				1000
+			},
+			{
+				50,
+				10004,
+				10
 			}
 		}
 	},
@@ -1312,8 +1321,9 @@ pg.base.island_task = {
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
+		reward_show = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1333,13 +1343,6 @@ pg.base.island_task = {
 		link_task = {},
 		target_id = {
 			100011511
-		},
-		reward_show = {
-			{
-				41,
-				1,
-				1000
-			}
 		}
 	},
 	[10001160] = {
@@ -1393,7 +1396,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020013,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "Talk to Akashi.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1418,6 +1421,11 @@ pg.base.island_task = {
 			100011701
 		},
 		reward_show = {
+			{
+				41,
+				100001,
+				10
+			},
 			{
 				41,
 				1,
@@ -1475,7 +1483,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1499,11 +1507,6 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				100001,
-				10
-			},
-			{
-				41,
 				2700,
 				20
 			},
@@ -1525,7 +1528,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1636,7 +1639,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1687,7 +1690,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 0,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1002,
@@ -1834,7 +1837,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 100,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1001,
@@ -1989,7 +1992,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "Return to Amerigo.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2032,7 +2035,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2072,9 +2075,9 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "Return to Amerigo.",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1001,
@@ -2316,7 +2319,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 200,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1002,
@@ -2442,7 +2445,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 200,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1002,
@@ -2738,7 +2741,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 300,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2785,7 +2788,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 300,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2827,7 +2830,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 300,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "Indebted",
 		navigation = 1002,
@@ -3197,7 +3200,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "Talk to Elizabeth.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3241,7 +3244,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3281,7 +3284,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3321,7 +3324,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3482,7 +3485,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 400,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "New Sprouts",
 		navigation = 1006,
@@ -3520,7 +3523,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Go back to Am-Mer-Mar.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3563,7 +3566,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Go back to Am-Mer-Mar.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3643,7 +3646,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3683,7 +3686,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Show Laconia what you've got.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3726,9 +3729,9 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Go see Laconia.",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "New Sprouts",
 		navigation = 1005,
@@ -3755,6 +3758,11 @@ pg.base.island_task = {
 				41,
 				1,
 				2000
+			},
+			{
+				41,
+				1016,
+				1
 			}
 		}
 	},
@@ -3769,7 +3777,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3849,7 +3857,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Let Laconia taste-test.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3892,7 +3900,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "Tell Laconia what you've learned.",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3925,12 +3933,12 @@ pg.base.island_task = {
 			{
 				50,
 				10004,
-				120
+				60
 			},
 			{
 				50,
 				20004,
-				24
+				12
 			}
 		}
 	},
@@ -4137,8 +4145,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				100000,
-				3
+				100201,
+				2
 			},
 			{
 				41,
@@ -4179,7 +4187,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4249,7 +4257,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4321,7 +4329,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4393,7 +4401,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4465,7 +4473,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4542,7 +4550,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4619,7 +4627,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4667,7 +4675,7 @@ pg.base.island_task = {
 	[50002001] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (1/7)",
+		name = "Make Autumn Specialties (1/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -4696,7 +4704,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4737,7 +4745,7 @@ pg.base.island_task = {
 	[50002002] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (2/7)",
+		name = "Make Autumn Specialties (2/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -4766,7 +4774,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4809,7 +4817,7 @@ pg.base.island_task = {
 	[50002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (3/7)",
+		name = "Make Autumn Specialties (3/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -4838,7 +4846,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4881,7 +4889,7 @@ pg.base.island_task = {
 	[50002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (4/7)",
+		name = "Make Autumn Specialties (4/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -4910,7 +4918,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4953,7 +4961,7 @@ pg.base.island_task = {
 	[50002005] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (5/7)",
+		name = "Make Autumn Specialties (5/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -4982,7 +4990,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5030,7 +5038,7 @@ pg.base.island_task = {
 	[50002006] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (6/7)",
+		name = "Make Autumn Specialties (6/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -5059,7 +5067,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5107,7 +5115,7 @@ pg.base.island_task = {
 	[50002007] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Produce Autumn Specialties (7/7)",
+		name = "Make Autumn Specialties (7/7)",
 		type = 5,
 		task_desc = "These autumn specialties seem like they'd generate good economic value. Commander, for the sake of the island's development, please procure some!",
 		map_trigger_tips = 0,
@@ -5136,7 +5144,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5213,7 +5221,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5283,7 +5291,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5355,7 +5363,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5427,7 +5435,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -6227,7 +6235,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Safely Stored",
 		type = 8,
-		task_desc = "Fill up that warehouse with three sets of daily supplies.\nAccept 3 Daily Supplies.",
+		task_desc = "Fill up that warehouse with three sets of daily supplies.\nAccept 5 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6267,7 +6275,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Regular Resupply",
 		type = 8,
-		task_desc = "Build a habit of grabbing your daily goodies.\nAccept 5 Daily Supplies.",
+		task_desc = "Build a habit of grabbing your daily goodies.\nAccept 10 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6307,7 +6315,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Efficient Delivery",
 		type = 8,
-		task_desc = "Free stuff, easy and efficient!\nAccept 10 Daily Supplies.",
+		task_desc = "Free stuff, easy and efficient!\nAccept 20 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6347,7 +6355,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Space to Spare",
 		type = 8,
-		task_desc = "Abundant reserves for a confident settlement!\nAccept 15 Daily Supplies.",
+		task_desc = "Abundant reserves for a confident settlement!\nAccept 30 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6387,7 +6395,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Sustainable Reserves",
 		type = 8,
-		task_desc = "Steady supplies, a vital resource for this island.\nAccept 20 Daily Supplies.",
+		task_desc = "Steady supplies, a vital resource for this island.\nAccept 45 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6427,7 +6435,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Foundation for Development",
 		type = 8,
-		task_desc = "Regular accumulation of goods has become the basis of your development.\nAccept 25 Daily Supplies.",
+		task_desc = "Regular accumulation of goods has become the basis of your development.\nAccept 60 Daily Supplies.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -6896,7 +6904,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				20001002
+				20001003
 			}
 		},
 		link_task = {},
@@ -7386,7 +7394,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10001141
+				10004010
 			}
 		},
 		link_task = {},
@@ -7524,6 +7532,46 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[20004000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Raise the Island Development Level",
+		type = 2,
+		task_desc = "前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "前置",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "Raise the Island Development Level",
+		id = 20004000,
+		unlock_condition = {
+			{
+				2,
+				10003040
+			},
+			{
+				2,
+				20011005
+			}
+		},
+		link_task = {
+			0
+		},
+		target_id = {
+			200040000
+		},
+		reward_show = {}
+	},
 	[20004001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
@@ -7549,11 +7597,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10003040
-			},
-			{
-				2,
-				20011005
+				20004000
 			}
 		},
 		link_task = {},
@@ -7679,7 +7723,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10002140
+				10002150
 			}
 		},
 		link_task = {},
@@ -8426,7 +8470,7 @@ pg.base.island_task = {
 		}
 	},
 	[20007003] = {
-		trigger_data = 10010082,
+		trigger_data = 10010087,
 		trigger_tips = 1,
 		name = "Removing Bees Around the Farm",
 		type = 2,
@@ -8435,7 +8479,7 @@ pg.base.island_task = {
 		complete_type = 1,
 		trigger_type = 1,
 		com_page = "",
-		complete_data = 10010082,
+		complete_data = 10010087,
 		reward_exp = 0,
 		complete_tips = "Go see the person in the well.",
 		is_tech_task = 0,
@@ -8474,12 +8518,12 @@ pg.base.island_task = {
 		}
 	},
 	[20007004] = {
-		trigger_data = 10010082,
+		trigger_data = 10040057,
 		trigger_tips = 1,
 		name = "Reinvigorating Honey Water",
 		type = 2,
 		task_desc = "A drink that makes you sleep like a baby through the night. Sounds tasty.",
-		map_trigger_tips = 1001,
+		map_trigger_tips = 1004,
 		complete_type = 2,
 		trigger_type = 1,
 		com_page = "",
@@ -8703,7 +8747,7 @@ pg.base.island_task = {
 		is_tech_task = 0,
 		unlock_time = "always",
 		series = "",
-		navigation = 1001,
+		navigation = 1004,
 		map_complete_tips = 0,
 		rec_perform = "",
 		com_perform = "",
@@ -8776,7 +8820,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Another Problem",
 		type = 2,
-		task_desc = "Some of the coal in the harbor's storehouse has vanished. It needs to be replenished immediately!",
+		task_desc = "The harbor is short of wood. It needs to be replenished immediately!",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
@@ -8813,7 +8857,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "Risk Management",
 		type = 2,
-		task_desc = "You've delivered the coal. Now you should check if the freight risk has gone down.",
+		task_desc = "Some of the coal in the harbor's storehouse has vanished. Gather more and get it to Stephen.",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
@@ -9345,7 +9389,27 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
+				2
+			},
+			{
+				41,
+				110002,
+				1
+			},
+			{
+				41,
+				110003,
+				1
+			},
+			{
+				41,
+				110004,
+				1
+			},
+			{
+				41,
+				110005,
 				1
 			}
 		}
@@ -9937,6 +10001,42 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[20013000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "Raise the Island Development Level",
+		type = 2,
+		task_desc = "Raise the Island Development Level",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "Raise the Island Development Level",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "Raise the Island Development Level",
+		id = 20013000,
+		unlock_condition = {
+			{
+				2,
+				10003100
+			}
+		},
+		link_task = {
+			0
+		},
+		target_id = {
+			200130000
+		},
+		reward_show = {}
+	},
 	[20013001] = {
 		trigger_data = 10050003,
 		trigger_tips = 1,
@@ -9962,7 +10062,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10003100
+				20013000
 			}
 		},
 		link_task = {},
@@ -10325,7 +10425,7 @@ pg.base.island_task = {
 		complete_type = 1,
 		trigger_type = 2,
 		com_page = "",
-		complete_data = 10070004,
+		complete_data = 10070026,
 		reward_exp = 200,
 		complete_tips = "Bring the card to the Island Base and check its balance.",
 		is_tech_task = 0,
@@ -10364,12 +10464,12 @@ pg.base.island_task = {
 		}
 	},
 	[20015001] = {
-		trigger_data = 10030006,
+		trigger_data = 10020025,
 		trigger_tips = 0,
 		name = "Let's Get Started!",
 		type = 2,
 		task_desc = "It's time to develop the island! Peary is putting together a resource plan. Go see her.",
-		map_trigger_tips = 1003,
+		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
 		com_page = "",
@@ -10491,7 +10591,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10531,7 +10631,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10571,7 +10671,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10611,7 +10711,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100001,
 				1
 			}
 		}
@@ -10652,7 +10752,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				1000
 			}
 		}
 	},
@@ -10667,7 +10767,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -10688,13 +10788,7 @@ pg.base.island_task = {
 		target_id = {
 			300000061
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30000007] = {
 		trigger_data = 0,
@@ -10727,13 +10821,12 @@ pg.base.island_task = {
 		link_task = {},
 		target_id = {
 			300000071,
-			300000072,
-			300000073
+			300000072
 		},
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10774,7 +10867,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				1000
 			}
 		}
 	},
@@ -10813,7 +10906,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
 				1
 			}
 		}
@@ -10853,8 +10946,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -10893,8 +10986,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				110001,
+				2
 			}
 		}
 	},
@@ -10933,8 +11026,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -10949,7 +11042,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -10970,13 +11063,7 @@ pg.base.island_task = {
 		target_id = {
 			305010011
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501002] = {
 		trigger_data = 0,
@@ -11016,7 +11103,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11031,7 +11118,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11052,13 +11139,7 @@ pg.base.island_task = {
 		target_id = {
 			305010111
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501012] = {
 		trigger_data = 0,
@@ -11098,7 +11179,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11113,7 +11194,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11140,13 +11221,7 @@ pg.base.island_task = {
 		target_id = {
 			305010211
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501022] = {
 		trigger_data = 0,
@@ -11186,7 +11261,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11201,7 +11276,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11228,13 +11303,7 @@ pg.base.island_task = {
 		target_id = {
 			305010311
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30501032] = {
 		trigger_data = 0,
@@ -11274,7 +11343,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11289,7 +11358,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11316,13 +11385,7 @@ pg.base.island_task = {
 		target_id = {
 			305020011
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502002] = {
 		trigger_data = 0,
@@ -11362,7 +11425,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11377,7 +11440,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11404,13 +11467,7 @@ pg.base.island_task = {
 		target_id = {
 			305020111
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502012] = {
 		trigger_data = 0,
@@ -11450,7 +11507,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11465,7 +11522,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11492,13 +11549,7 @@ pg.base.island_task = {
 		target_id = {
 			305020211
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502022] = {
 		trigger_data = 0,
@@ -11538,7 +11589,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11553,7 +11604,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -11580,13 +11631,7 @@ pg.base.island_task = {
 		target_id = {
 			305020311
 		},
-		reward_show = {
-			{
-				41,
-				1,
-				1
-			}
-		}
+		reward_show = {}
 	},
 	[30502032] = {
 		trigger_data = 0,
@@ -11626,7 +11671,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11666,7 +11711,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11706,7 +11751,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11746,7 +11791,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11786,7 +11831,7 @@ pg.base.island_task = {
 			{
 				41,
 				1,
-				1
+				2000
 			}
 		}
 	},
@@ -11825,8 +11870,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11865,8 +11910,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11909,8 +11954,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11953,8 +11998,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -11997,8 +12042,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -12041,8 +12086,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				2
 			}
 		}
 	},
@@ -12081,8 +12126,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12121,8 +12166,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12165,8 +12210,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12209,8 +12254,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12253,8 +12298,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12297,8 +12342,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12341,8 +12386,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12385,8 +12430,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12429,8 +12474,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12473,8 +12518,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12513,8 +12558,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100002,
+				2
 			}
 		}
 	},
@@ -12553,7 +12598,7 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100002,
 				1
 			}
 		}
@@ -12593,8 +12638,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100001,
+				20
 			}
 		}
 	},
@@ -12633,8 +12678,13 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				100002,
 				1
+			},
+			{
+				41,
+				100102,
+				2
 			}
 		}
 	},
@@ -12673,8 +12723,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
-				1
+				100103,
+				3
 			}
 		}
 	}

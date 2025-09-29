@@ -1,14 +1,14 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001037",
 	map = {
 		{
-			100800,
-			10060002
+			101100,
+			10050000
 		},
 		{
-			100200,
-			10060029
+			101400,
+			10050003
 		}
 	},
 	look_weight = {
@@ -23,19 +23,18 @@ return {
 	},
 	scripts = {
 		{
-			animation = "nod",
-			subName = "商区管理员",
-			characterId = 100800,
-			say = "是啊指挥官，大家……看上去真的很开心。",
+			animation = "hi",
+			characterId = 0,
+			say = "Lusitania and Laconia? Hey. How are you two doing?",
 			face2Face = {
 				{
 					0,
-					100800
+					101100
 				}
 			},
 			turnto = {
 				{
-					100200,
+					101400,
 					0
 				}
 			},
@@ -45,18 +44,27 @@ return {
 			}
 		},
 		{
-			animation = "amaze",
-			say = "毕竟自从来到这里以后，大家已经很久没这样聚在一起了~",
-			characterId = 100200,
-			subName = "订单管理员",
+			animation = "hi",
+			say = "Oh, Commander! Heehee – welcome to Prosperous Plantation!",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "比起数据上的增长，眼前这份纯粹的快乐和满足……才更能衡量一个地方是不是真正的繁荣。",
-			animation = "nod",
+			animation = "amaze",
+			say = "Commander... Hello.",
+			characterId = 101400,
+			subName = "Manager of the Plantation",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Why the long faces? Something the matter?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -64,10 +72,135 @@ return {
 			}
 		},
 		{
-			animation = "elation",
-			say = "指挥官，这份投入并非没有回报哦~",
-			characterId = 100800,
-			subName = "商区管理员",
+			animation = "sad",
+			say = "Umm... It's the apple trees. The orchard was completed quite some time ago, but most of the trees haven't even blossomed, let alone produced fruit.",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "doubt",
+			say = "Yeah... Even the ones that have bloomed haven't produced fruit.",
+			characterId = 101400,
+			subName = "Manager of the Plantation",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I see. I was hoping you'd have new ingredients ready to deliver to the stores in the harbor.",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Sounds like the orchard's not doing too well, though.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "doubt",
+			say = "Sadly not. We HAVE been doing our best, so it's not that!",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "We've been watering on time, and making sure they get plenty of sunlight, but while the leaves are lush and green, there just aren't any flowers growing, much less fruit!",
+			subName = "Manager of the Orchard",
+			characterId = 101100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Little blooming, and no fruit... Lusitania, have you been pollinating them?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "amaze",
+			say = "Sorry? Polli-what?",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Then there's your problem. See all the bees flying around outside?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "They fly from flower to flower, carrying pollen from one to the other. That's what pollination is.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Fruit trees – especially apple and mandarin trees – don't grow fruit unless they're pollinated. Just giving them water and sunlight won't cut it.",
+			animation = "talk",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "clap",
+			say = "That's why?! Gosh, what a fool I was for going out of my way to chase them away...",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "What's done is done. What matters is that the solution's easy now that we know the cause.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "doubt",
+			say = "Bees? Wait, are we going to start raising bees?",
+			characterId = 101400,
+			subName = "Manager of the Plantation",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Uhh... Yeah, basically. You'll need some nests and their inhabitants.",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,17 +208,7 @@ return {
 		},
 		{
 			animation = "talk",
-			subName = "商区管理员",
-			characterId = 100800,
-			say = "正如您所预见的那样，商区的发展已经让整个开发区的经济都活络起来了呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "阿莫玛，暂且先将工作放下，先享受努力的成果吧。",
-			nameColor = "#A9F548FF",
+			say = "I'll go look for some in the wild, and bring them back to the orchard once I find some. I'll leave them somewhere around...",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -93,38 +216,8 @@ return {
 			}
 		},
 		{
-			animation = "slap",
-			say = "没错哦，我已经闻到食物的香气了~",
-			characterId = 100200,
-			subName = "订单管理员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "帕特莉，还有阿莫玛——欢迎光临~港口商区！",
-			nameColor = "#A9F548FF",
+			say = "Ah, I'm getting carried away. You'll need some beehives, too.",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "快去享受一下难得的休闲时光吧！",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官，谢谢您！",
-			nameColor = "#A9F548FF",
-			subName = "商区管理员",
-			characterId = 100800,
-			animation = "shy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,9 +225,45 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "我们一定会好好享受的！",
-			characterId = 100200,
-			subName = "订单管理员",
+			say = "Right, beehives! Can't raise bees without a place for them to live.",
+			characterId = 101400,
+			subName = "Manager of the Plantation",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I'll get some set up right away!",
+			subName = "Manager of the Plantation",
+			characterId = 101400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You sound... really hyped about it. Are you a bee enthusiast?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			say = "Yeah, she is. She gets really excited whenever the subject of bees comes up!",
+			characterId = 101100,
+			subName = "Manager of the Orchard",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "That's reassuring. Anyway, I'll go look for those nests. Laconia, I trust you to make some big and sturdy boxes.",
+			animation = "nod",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

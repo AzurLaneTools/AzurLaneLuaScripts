@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "核对数量~检查品质~斯蒂芬妮很重要~ ♪",
+			say = "Checking the quantity, verifying the quality – Stephen's a prodigy♪",
 			hideType = 2,
 			characterId = 100300,
 			animation = "clap"

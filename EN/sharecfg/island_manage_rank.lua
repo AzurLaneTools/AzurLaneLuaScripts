@@ -55,11 +55,8 @@ pg.island_manage_rank = {
 			}
 		},
 		random_range = {
-			-3,
-			-2,
 			-1,
-			0,
-			1
+			0
 		}
 	},
 	{
@@ -117,7 +114,6 @@ pg.island_manage_rank = {
 			}
 		},
 		random_range = {
-			-2,
 			-1,
 			0,
 			1
@@ -178,7 +174,6 @@ pg.island_manage_rank = {
 			}
 		},
 		random_range = {
-			-2,
 			-1,
 			0,
 			1,

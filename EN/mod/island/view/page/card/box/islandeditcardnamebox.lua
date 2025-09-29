@@ -69,18 +69,11 @@ end
 
 slot0.UpdateContent = function(slot0)
 	setInputText(slot0.input, "")
-
-	slot2 = getProxy(IslandProxy):GetIsland():GetModifyNameConsume()
-	slot3 = Drop.New({
-		type = slot2[1],
-		id = slot2[2],
-		count = slot2[3]
-	})
-
-	setText(slot0.content, i18n("island_rename_consutme_tip", slot3:getName() .. setColorStr(slot5 .. "/" .. slot3.count, slot3:getOwnedCount() < slot3.count and "#f36c6e" or "#39bfff")))
+	setText(slot0.content, i18n("island_rename_consutme_tip"))
 end
 
 slot0.OnDestroy = function(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0.aniDft:SetEndEvent(nil)
 end
 

@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "汗水都洒在这田里了。",
+			say = "I'm so sweaty because I've been working in this field.",
 			hideType = 2,
 			characterId = 100400,
 			animation = "rest"

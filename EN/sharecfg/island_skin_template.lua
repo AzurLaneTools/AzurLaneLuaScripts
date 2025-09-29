@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_skin_template = {
 	[1051701] = {
 		ship_group = 10517,
-		name = "The Easygoing Life",
+		name = "Daily Steps",
 		model = 1051701,
 		shop_goods_id = 0,
 		id = 1051701,
@@ -11,7 +11,7 @@ pg.island_skin_template = {
 	},
 	[1070301] = {
 		ship_group = 10703,
-		name = "Innocent School Days",
+		name = "Canvas Day",
 		model = 1070301,
 		shop_goods_id = 0,
 		id = 1070301,
@@ -47,7 +47,7 @@ pg.island_skin_template = {
 	},
 	[3120101] = {
 		ship_group = 31201,
-		name = "Bell of the Night",
+		name = "Night of the Empty Bell",
 		model = 3120101,
 		shop_goods_id = 0,
 		id = 3120101,

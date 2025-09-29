@@ -180,6 +180,7 @@ pg.island_task_target = setmetatable({
 		200030021,
 		200030031,
 		200030041,
+		200040000,
 		200040011,
 		200040021,
 		200040031,
@@ -247,6 +248,7 @@ pg.island_task_target = setmetatable({
 		200120081,
 		200120091,
 		200120101,
+		200130000,
 		200130011,
 		200130021,
 		200130031,
@@ -568,7 +570,7 @@ pg.base.island_task_target = {
 	},
 	[50002001] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002001,
 		target_num = 40,
@@ -585,7 +587,7 @@ pg.base.island_task_target = {
 	},
 	[50002002] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002002,
 		target_num = 80,
@@ -602,7 +604,7 @@ pg.base.island_task_target = {
 	},
 	[50002003] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002003,
 		target_num = 100,
@@ -619,7 +621,7 @@ pg.base.island_task_target = {
 	},
 	[50002004] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002004,
 		target_num = 200,
@@ -636,7 +638,7 @@ pg.base.island_task_target = {
 	},
 	[50002005] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002005,
 		target_num = 400,
@@ -653,7 +655,7 @@ pg.base.island_task_target = {
 	},
 	[50002006] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002006,
 		target_num = 600,
@@ -670,7 +672,7 @@ pg.base.island_task_target = {
 	},
 	[50002007] = {
 		tips = "",
-		name = "Produce autumn specialties",
+		name = "Make autumn specialties.",
 		type = 5,
 		id = 50002007,
 		target_num = 800,
@@ -1199,7 +1201,7 @@ pg.base.island_task_target = {
 	},
 	[100011701] = {
 		tips = "",
-		name = "Complete a Daily Plan.",
+		name = "Complete Daily Plan.",
 		type = 23,
 		id = 100011701,
 		target_num = 1,
@@ -1719,7 +1721,7 @@ pg.base.island_task_target = {
 	},
 	[100023401] = {
 		tips = "",
-		name = "Coal",
+		name = "Gather Coal.",
 		type = 4,
 		id = 100023401,
 		target_num = 10,
@@ -1729,7 +1731,7 @@ pg.base.island_task_target = {
 	},
 	[100023402] = {
 		tips = "",
-		name = "Raw Timber",
+		name = "Gather Raw Timber.",
 		type = 4,
 		id = 100023402,
 		target_num = 10,
@@ -1925,7 +1927,7 @@ pg.base.island_task_target = {
 	},
 	[100040201] = {
 		tips = "",
-		name = "Coal",
+		name = "Gather Coal",
 		type = 4,
 		id = 100040201,
 		target_num = 10,
@@ -2000,7 +2002,7 @@ pg.base.island_task_target = {
 		id = 200010061,
 		target_num = 10,
 		target_param = {
-			2802
+			2801
 		}
 	},
 	[200010071] = {
@@ -2034,7 +2036,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020011] = {
-		tips = "10020023",
+		tips = "10020018",
 		name = "Look around at the harbor.",
 		type = 1,
 		id = 200020011,
@@ -2132,6 +2134,14 @@ pg.base.island_task_target = {
 		target_param = {
 			5001
 		}
+	},
+	[200040000] = {
+		tips = "",
+		name = "Raise the Island Development Level.",
+		type = 9,
+		id = 200040000,
+		target_num = 29,
+		target_param = ""
 	},
 	[200040011] = {
 		tips = "10090008",
@@ -2464,7 +2474,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070101] = {
-		tips = "10010082",
+		tips = "10040057",
 		name = "Give Honey Water to the nameless person.",
 		type = 1,
 		id = 200070101,
@@ -2485,7 +2495,7 @@ pg.base.island_task_target = {
 	},
 	[200080021] = {
 		tips = "",
-		name = "Gather wood and give it to Stephen.",
+		name = "Gather Raw Timber.",
 		type = 4,
 		id = 200080021,
 		target_num = 10,
@@ -2495,7 +2505,7 @@ pg.base.island_task_target = {
 	},
 	[200080031] = {
 		tips = "",
-		name = "Ask Stephen about risk management.",
+		name = "Gather Coal.",
 		type = 4,
 		id = 200080031,
 		target_num = 10,
@@ -2803,6 +2813,14 @@ pg.base.island_task_target = {
 			7202
 		}
 	},
+	[200130000] = {
+		tips = "",
+		name = "Raise the Island Development Level.",
+		type = 9,
+		id = 200130000,
+		target_num = 22,
+		target_param = ""
+	},
 	[200130011] = {
 		tips = "10020004",
 		name = "Talk to Stephen.",
@@ -2855,8 +2873,8 @@ pg.base.island_task_target = {
 	},
 	[200130061] = {
 		tips = "",
-		name = "Plant lavenders in the nursery.",
-		type = 42,
+		name = "Assign a character to plant lavenders in the nursery.",
+		type = 14,
 		id = 200130061,
 		target_num = 1,
 		target_param = {
@@ -2965,7 +2983,7 @@ pg.base.island_task_target = {
 	},
 	[200150021] = {
 		tips = "",
-		name = "Complete seasonal event.",
+		name = "Complete seasonal plans.",
 		type = 23,
 		id = 200150021,
 		target_num = 5,
@@ -2978,7 +2996,7 @@ pg.base.island_task_target = {
 		name = "Collect lumber or minerals manually.",
 		type = 6,
 		id = 301010011,
-		target_num = 1,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3380,7 +3398,7 @@ pg.base.island_task_target = {
 	},
 	[307010011] = {
 		tips = "",
-		name = "Produce any dish.",
+		name = "Make any dish.",
 		type = 7,
 		id = 307010011,
 		target_num = 5,
@@ -3493,7 +3511,7 @@ pg.base.island_task_target = {
 		name = "Gather some minerals.",
 		type = 6,
 		id = 300000011,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3508,7 +3526,7 @@ pg.base.island_task_target = {
 		name = "Gather any lumber resource.",
 		type = 6,
 		id = 300000021,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			402001,
 			402002,
@@ -3934,7 +3952,7 @@ pg.base.island_task_target = {
 	},
 	[402010011] = {
 		tips = "",
-		name = "Produce a meal combo.",
+		name = "Make a meal combo.",
 		type = 7,
 		id = 402010011,
 		target_num = 20,
@@ -3976,7 +3994,7 @@ pg.base.island_task_target = {
 	},
 	[405010011] = {
 		tips = "",
-		name = "Complete a daily plan.",
+		name = "Complete Daily Plan.",
 		type = 23,
 		id = 405010011,
 		target_num = 25,

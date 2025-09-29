@@ -510,6 +510,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/02/20153/prefab/pre_item_02_20153"
 	},
+	[20154] = {
+		id = 20154,
+		navAgentParam = "",
+		model = "island/item/02/20154/prefab/pre_item_02_20154"
+	},
 	[60001] = {
 		id = 60001,
 		navAgentParam = "",
@@ -614,6 +619,26 @@ pg.island_unit_item = {
 		id = 60047,
 		navAgentParam = "",
 		model = "island/effect/prefab/renwu/vfx_yangjiaoyin02"
+	},
+	[60048] = {
+		id = 60048,
+		navAgentParam = "",
+		model = "island/effect/prefab/renwu/vfx_yangjiaoyin03"
+	},
+	[60049] = {
+		id = 60049,
+		navAgentParam = "",
+		model = "island/effect/prefab/renwu/vfx_yangjiaoyin04"
+	},
+	[60050] = {
+		id = 60050,
+		navAgentParam = "",
+		model = "island/effect/prefab/renwu/vfx_juesejiaoyin01"
+	},
+	[60051] = {
+		id = 60051,
+		navAgentParam = "",
+		model = "island/effect/prefab/renwu/vfx_juesejiaoyin02"
 	},
 	[100101] = {
 		id = 100101,
@@ -783,6 +808,7 @@ pg.island_unit_item = {
 		20150,
 		20152,
 		20153,
+		20154,
 		60001,
 		60002,
 		60003,
@@ -804,6 +830,10 @@ pg.island_unit_item = {
 		60045,
 		60046,
 		60047,
+		60048,
+		60049,
+		60050,
+		60051,
 		100101,
 		100102,
 		100201,

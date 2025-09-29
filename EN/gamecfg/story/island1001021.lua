@@ -13,7 +13,11 @@ return {
 	},
 	look_weight = {
 		{
-			0.7,
+			0.4,
+			0
+		},
+		{
+			0.4,
 			0
 		},
 		{
@@ -23,9 +27,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "Tadah! Sara has arrived!",
 			animation = "hi",
 			characterId = 1070300,
-			say = "萨拉托加——平安抵达！",
+			camera = "StoryCamera7",
 			face2Face = {
 				{
 					0,
@@ -44,7 +49,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官，想我了吗~",
+			say = "Did you miss me that bad, Commander?",
 			characterId = 1070300,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +57,7 @@ return {
 			}
 		},
 		{
-			say = "欢迎来到奇异点无人岛开发区，萨拉托加。",
+			say = "Saratoga! Welcome to the Singularity's island development area.",
 			animation = "hi",
 			characterId = 0,
 			typewriter = {
@@ -61,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "欢迎欢迎喵~",
+			say = "Welcome, nya!",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -70,7 +75,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官，事情我都了解了哦~",
+			say = "I've been briefed on everything.",
 			animation = "elation",
 			characterId = 1070300,
 			typewriter = {
@@ -79,8 +84,7 @@ return {
 			}
 		},
 		{
-			say = "从无人岛开发计划变为奇异点无人岛开发计划，如果不是指挥官的消息，我都以为是谁的恶作剧呢~",
-			animation = "talk",
+			say = "We all would've thought this whole Singularity business was a silly prank if you weren't the one telling us about it.",
 			characterId = 1070300,
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +92,8 @@ return {
 			}
 		},
 		{
+			say = "I'm just as surprised as you are, but now that I'm in charge, I plan to see it through.",
 			animation = "nod",
-			say = "我也没想到会发展成现在这样，不过既然接手了，那就得负责到底才行。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +101,8 @@ return {
 			}
 		},
 		{
-			say = "欸嘿，我也会和指挥官一起的喔~",
-			animation = "nod",
+			say = "Hehehe. Don't worry – I'm here to help.",
+			animation = "shy",
 			characterId = 1070300,
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +110,8 @@ return {
 			}
 		},
 		{
-			say = "我也是喵~建设时，指挥官有什么需要尽管来找我，给你优惠价喵~",
-			animation = "clap",
+			say = "Same here, nya! If you need any help during construction, come to me, nya. You'll get a special discount, nya!",
+			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +119,7 @@ return {
 			}
 		},
 		{
-			say = "才刚脱手你就做回奸商了啊。",
+			say = "You're already trying to squeeze me for money right after foisting this whole thing onto me?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +127,7 @@ return {
 			}
 		},
 		{
-			say = "哪有……我只是想早点看到这里热闹起来的样子喵~绝对不是为了赚钱喵~",
+			say = "Pssh, NO, nya... I just wanna see this place thriving already, nya! Money is no object, of course, nya.",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -132,8 +136,7 @@ return {
 			}
 		},
 		{
-			say = "我也很期待岛屿的未来呢~",
-			animation = "clap",
+			say = "I'm excited for this island's future, too!",
 			characterId = 1070300,
 			typewriter = {
 				speed = 0.05,
@@ -141,9 +144,128 @@ return {
 			}
 		},
 		{
-			say = "好，那大家一起加油，把这里建设成最繁华的岛屿吧！",
+			say = "Great. Let's all do our best to make this island thrive!",
 			animation = "nod",
 			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I can't wait, Commander!",
+			characterId = 1070300,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "So, where do we begin? I'm dying to get started!",
+			animation = "curious",
+			characterId = 1070300,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Hmm... Good question.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "If you don't have any ideas, I've got just the proposal for you, nya!",
+			animation = "elation",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Let's hear it.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Start out with your Daily Plans, nya.",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Everyone on the island is gonna have different missions and needs every day, and helping them out will be a major part of the project, nya.",
+			animation = "talk",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Assisting with other people's work sounds perfect for me! I'm always helping people around the port.",
+			animation = "nod",
+			characterId = 1070300,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Not a bad proposal, surprisingly.",
+			animation = "nod",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I take it you're familiar with everyone's daily life here, right?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Of course, nya! Go ahead and try doing one of today's plans, nya.",
+			animation = "elation",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I'll go look for a nice reward for you while you do, nya!",
+			characterId = 3120100,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "I'm scared. What is this reward?",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "It's an Island EXP Textbook, nya! Just the thing for newcomers, nya!",
+			animation = "clap",
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

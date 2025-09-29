@@ -23,21 +23,23 @@ slot0.execute = function(slot0, slot1)
 				uv3:GetTechnologyAgency():AddFinishCntByFormulatId(slot1:GetDelegationSlotData(uv2):GetFormulaId())
 			end
 
+			slot2 = slot1:GetShipAddExpData(uv2)
+
 			slot1:UpdateDeleationRewardDataBySlotId(uv2, nil)
 
 			if uv4 == 1 and slot1:GetDelegationSlotData(uv2):GetSlotRoleData() then
-				slot3:ResetGetTimes(slot0.get_times)
+				slot4:ResetGetTimes(slot0.get_times)
 			end
 
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGetDelegationAward(uv5 and 1 or 0, slot0.drop_list))
 
-			slot2 = {}
+			slot3 = {}
 
-			for slot6, slot7 in ipairs(slot0.drop_list) do
-				table.insert(slot2, slot7)
+			for slot7, slot8 in ipairs(slot0.drop_list) do
+				table.insert(slot3, slot8)
 			end
 
-			table.insert(slot2, {
+			table.insert(slot3, {
 				id = 0,
 				type = VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT,
 				count = slot0.pt_award or 0
@@ -45,9 +47,10 @@ slot0.execute = function(slot0, slot1)
 			uv6:sendNotification(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, {
 				slotId = uv2,
 				dropData = IslandDropHelper.AddItems({
-					drop_list = slot2
+					drop_list = slot3
 				}),
-				callback = uv7
+				callback = uv7,
+				addShipExpData = slot2
 			})
 
 			if uv4 == 2 then

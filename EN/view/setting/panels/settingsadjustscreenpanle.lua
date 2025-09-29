@@ -24,6 +24,7 @@ slot0.OnUpdate = function(slot0)
 		uv0:SetScreenRatio(slot0)
 
 		NotchAdapt.CheckNotchRatio = slot0
+		NewNotchAdapt.CheckNotchRatio = slot0
 
 		NotchAdapt.AdjustUI()
 	end)

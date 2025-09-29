@@ -40582,6 +40582,71 @@ pg.activity_template = {
 			ui_name = "DormSignTwoPage"
 		}
 	},
+	[7503] = {
+		mark = 20250929,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "Island_Sign",
+		id = 7503,
+		page_core = "",
+		config_data = {
+			{
+				24481
+			},
+			{
+				24482
+			},
+			{
+				24483
+			},
+			{
+				24484
+			},
+			{
+				24485
+			},
+			{
+				24486
+			},
+			{
+				24487
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					9,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "IslandSignPage",
+			ui_name = "IslandSignPage"
+		}
+	},
 	[8009] = {
 		mark = 20220414,
 		type = 3,
@@ -67669,7 +67734,8 @@ pg.activity_template = {
 			5261,
 			50044,
 			7501,
-			7502
+			7502,
+			7503
 		},
 		[22] = {
 			5264,
@@ -68808,6 +68874,7 @@ pg.activity_template = {
 		7109,
 		7501,
 		7502,
+		7503,
 		8009,
 		8010,
 		8050,

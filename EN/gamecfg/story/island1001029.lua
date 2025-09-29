@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "happy",
-			subName = "牧场管理员",
-			characterId = 100500,
-			say = "没错！是蛋哦！是我们牧场的——第一枚鸡蛋！",
+			say = "Hey, Amerigo, are these eggs?",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,7 +33,17 @@ return {
 			}
 		},
 		{
-			say = "看来你的努力没有白费，虽然只是个开始，但这也意味着牧场真的运转起来了。",
+			say = "They sure are! Eggs laid on this very ranch!",
+			animation = "nod",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Your hard work's paid off. They're only the beginning, but they're also proof that the ranch is in business.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +51,18 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯，虽然辛苦，但是看到它！就觉得一切都值得了！",
+			say = "Yep. It wasn't easy, but looking at 'em makes me feel like it was all worth it!",
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官！这个！送给你！",
-			subName = "牧场管理员",
+			say = "Here, Commander! They're all yours!",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +70,8 @@ return {
 			}
 		},
 		{
-			say = "嗯？送给我……梅莉，这可是牧场的第一次的收获，应该好好保存起来，或者……",
+			say = "Wait, you're giving them to me? But it's the ranch's first yield. Shouldn't you keep them?",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,20 +79,19 @@ return {
 			}
 		},
 		{
-			say = "才不要，食物可不是用来收藏的哦~而且鸡蛋放久了也会坏掉的！",
-			animation = "shakehead",
+			say = "I said they're yours! You can't keep food as a trophy, and even eggs go bad if you leave them lying around.",
+			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那可就成坏蛋了~梅莉不要坏蛋！",
-			animation = "elation",
+			say = "And I don't want no rotten eggs on my ranch.",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +99,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好……那我收下了，谢谢你，梅莉。",
+			say = "Alright, I'll take it, then. Thanks.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -99,17 +107,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官喜欢就好！",
+			say = "I'm just glad you're happy!",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，我们快去告诉赫莫这个好消息吧。",
+			say = "Anyway, we should go and tell Homeric the good news.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -117,16 +125,17 @@ return {
 			}
 		},
 		{
-			say = "好哦！三、二、一……",
-			subName = "牧场管理员",
+			animation = "nod",
+			say = "Okey-dokey! Three, two, one...",
 			characterId = 100500,
+			subName = "Manager of the Ranch",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？",
+			say = "Yes?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +143,17 @@ return {
 			}
 		},
 		{
-			say = "我先走一步啦！指挥官——",
-			subName = "牧场管理员",
+			say = "Last one there's a rotten–",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Hey! Look before you run off!",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,5 +1,5 @@
 return {
-	mode = 9,
+	mode = 10,
 	id = "ISLAND1001036_2",
 	map = {
 		{
@@ -19,18 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "所有的套餐都准备好了哦。",
+			say = "Am-Mer-Mar, I got all the food ready.",
 			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "辛苦指挥官了，放到这里的桌子上就好。",
-			animation = "clap",
-			characterId = 100800,
-			subName = "商区管理员",
 			face2Face = {
 				{
 					0,
@@ -43,7 +33,17 @@ return {
 			}
 		},
 		{
-			say = "咦，这里已经有这么多制作好的美食了么？",
+			subName = "Commercial Area Supervisor",
+			say = "Thank you, Commander. Just place it on the table here for me.",
+			characterId = 100800,
+			animation = "note",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Now that I'm seeing it all lined up, the selection might be a little too limited.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,58 +51,55 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "这些啊，大家一听说要举办聚会，就送来了不少好东西。",
-			characterId = 100800,
-			animation = "elation",
+			say = "It might be fine for one restaurant, but it's far from enough for the whole district...",
+			animation = "nod",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "赫莫的蔬菜，梅莉的肉和奶牛，布莱梅的派……",
-			nameColor = "#A9F548FF",
+			subName = "Commercial Area Supervisor",
+			say = "If variety is your concern, I did hear that the farms and ranches of the development have been ramping up production.",
 			characterId = 100800,
-			subName = "商区管理员",
+			animation = "think",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯！伙伴们的心意和指挥官的努力，都凝聚在这里面了！",
+			say = "You could try going to the Prosperous Plantation.",
+			subName = "Commercial Area Supervisor",
 			characterId = 100800,
-			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看来大家是很期待啊。",
+			say = "Tell me more.",
 			hidePaintObj = true,
 			characterId = 0,
-			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "idea",
-			say = "呵呵呵~指挥官，在聚会正式开始前，你可以去休息一下。",
+			animation = "talk",
+			say = "It was built a long time ago, but there hasn't been any proper activity there.",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "Commercial Area Supervisor",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这里我来盯着就好。",
-			subName = "商区管理员",
+			say = "Maybe they've hit a wall.",
+			subName = "Commercial Area Supervisor",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +107,7 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "好，那就辛苦你了，阿莫玛。",
+			say = "In that case, I'd better go check it out. We can't let anyone get left behind.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +115,26 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯，我保证今天的商区一定会香气四溢地等着大家光临！",
+			subName = "Commercial Area Supervisor",
+			say = "Thank you. I can handle things here for the time being.",
+			characterId = 100800,
+			animation = "clap",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Good luck, Am-Mer-Mar.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Commercial Area Supervisor",
+			say = "Thank you! I promise, I'll make this commercial district the tastiest-smelling place in the whole development!",
 			characterId = 100800,
 			animation = "nod",
 			typewriter = {

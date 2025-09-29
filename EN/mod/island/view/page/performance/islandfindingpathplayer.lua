@@ -10,8 +10,19 @@ slot0.Play = function(slot0, slot1, slot2)
 			waitUntilDone = slot1.waitUntilDone,
 			index = slot1.index
 		},
-		callback = slot2
+		callback = slot2,
+		onEndAction = function ()
+			if uv0.endCallback then
+				uv0.endCallback()
+			end
+
+			uv0.endCallback = nil
+		end
 	})
+end
+
+slot0.SetEndCallback = function(slot0, slot1)
+	slot0.endCallback = slot1
 end
 
 return slot0

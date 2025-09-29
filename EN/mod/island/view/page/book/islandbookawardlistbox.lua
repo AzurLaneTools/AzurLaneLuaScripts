@@ -58,7 +58,11 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	})
 	setText(slot4:Find("level"), string.format("%02d", slot5.level))
 	setText(slot4:Find("desc"), slot5.describe)
-	setGray(slot4, not table.contains(slot0.gotIds, slot3), true)
+
+	slot6 = table.contains(slot0.gotIds, slot3)
+
+	setActive(slot4:Find("drop/got"), slot6)
+	setGray(slot4, not slot6, true)
 end
 
 slot0.Show = function(slot0)
@@ -73,6 +77,10 @@ end
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+end
+
+slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
 end
 
 return slot0

@@ -1,10 +1,50 @@
 return {
-	id = "ISLAND1001030_4",
 	mode = 10,
-	map = {},
+	id = "ISLAND1001030_4",
+	map = {
+		{
+			101200,
+			10090008
+		}
+	},
+	look_weight = {
+		{
+			0.7,
+			0
+		},
+		{
+			0.3,
+			0
+		}
+	},
 	scripts = {
 		{
-			say = "很好，这些苹果派都上架了。",
+			say = "Bremen, I gave your omelette to Stephen, and she proposed an idea. Wanna hear it?",
+			characterId = 0,
+			face2Face = {
+				{
+					0,
+					101200
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "doubt",
+			say = "An idea? Tell me.",
+			characterId = 101200,
+			subName = "Manager of the Café",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			say = "She said we should make more food made with ingredients from the island, like the omelette was, and serve it here.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,33 +52,43 @@ return {
 			}
 		},
 		{
-			say = "这浓郁的香味，让我看看谁会成为它们的第一位买家……",
+			say = "Sounds good. Only problem is, the island's ingredient supply still isn't all that stable.",
+			subName = "Manager of the Café",
+			characterId = 101200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "True. That is a bottleneck. I'll see if I can't do something about the ingredients.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Although we can only serve a limited number of dishes right now, the variety and quantity should steadily increase as we develop this place.",
+			characterId = 0,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Alright, then how about first I sell what dishes I can make using the ingredients available, then you come have a look?",
+			animation = "clap",
+			characterId = 101200,
+			subName = "Manager of the Café",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "nod",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorIcon = 3120199,
-			actorName = "？？？",
-			say = "喵——！这个味道！不会错的喵！是刚烤好的顶级苹果派的香气喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（好耳熟的声音……）",
-			characterId = 0,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊——是绿头猫咪！",
+			say = "Let's do that. I'll add all the omelettes you just made to the shop lineup.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "好……放这边，我来看看成色。",
+			say = "Alright, leave it here. I'll check the purity.",
 			characterId = 100600
 		}
 	}

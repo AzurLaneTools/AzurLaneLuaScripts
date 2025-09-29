@@ -105193,6 +105193,61 @@ _G.pg.base.item_data_statistics[60564] = {
 }
 
 
+_G.pg.base.item_data_statistics[69959] = {
+	open_directly = 0,
+	name = "Mystery T5 Tech Pack",
+	type = 17,
+	display = "Receive a random T5 Tech Pack",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30005",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "69959",
+	id = 69959,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30015,
+			1
+		},
+		{
+			2,
+			30025,
+			1
+		},
+		{
+			2,
+			30035,
+			1
+		},
+		{
+			2,
+			30045,
+			1
+		}
+	},
+	price = {
+		1,
+		100
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "Resplendent Night Lucky Bag I",
@@ -106619,6 +106674,48 @@ _G.pg.base.item_data_statistics[81219] = {
 			307073
 		}
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81220] = {
+	open_directly = 1,
+	name = "The Heart-Throbber Pack",
+	type = 17,
+	display = "Buy to receive Limited-Edition Coins x 10 and T2 EXP Data Packs x 12.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxDokidoki",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998561",
+	id = 81220,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180001,
+			10
+		},
+		{
+			2,
+			16502,
+			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }
 
@@ -109141,5 +109238,311 @@ _G.pg.base.item_data_statistics[100025] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180001] = {
+	open_directly = 0,
+	name = "Limited-Edition Coin",
+	type = 50,
+	display = "A fairly heavy commemorative coin. It has an exceptional glow, and represents a special honor and a memory.\nCan be given to raise Affinity by <color=#92fc63FF>5</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift01",
+	price = "",
+	order = 0,
+	rarity = 5,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180001,
+		500
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180002] = {
+	open_directly = 0,
+	name = "Hardcover Book",
+	type = 50,
+	display = "A hardcover book that smells of ink and sports a classic vibe. It's worthy of going on your table and being reread time and time again.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180002,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180003] = {
+	open_directly = 0,
+	name = "Bouquet",
+	type = 50,
+	display = "A gorgeous, fresh bouquet. Its flowers are brimming with color and life, and they promise joy for the days to come.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift03",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180003,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180004] = {
+	open_directly = 0,
+	name = "Ceremonial Sword",
+	type = 50,
+	display = "This ceremonial sword with a flowing silhouette gives off the cold brilliance of steel. It silently speaks of order and majesty.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift04",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180004,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180005] = {
+	open_directly = 0,
+	name = "Fluffy Stuffed Animal",
+	type = 50,
+	display = "An adorable stuffed animal that's soft to the touch. Give it a hug, and its fluffy warmth and innocent smile will soften your heart.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift05",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180005,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180006] = {
+	open_directly = 0,
+	name = "Antique Ornament",
+	type = 50,
+	display = "The sands of time have poured over this ornament, turning it into an elegant antique. Quietly, it lends an air of tranquility to a room.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift06",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180006,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180007] = {
+	open_directly = 0,
+	name = "Exquisite Accessory",
+	type = 50,
+	display = "An accessory that, although understated, glimmers with exceptional craftsmanship. It adds just a little light to every moment of one's life.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift07",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180007,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180008] = {
+	open_directly = 0,
+	name = "Premium Perfume",
+	type = 50,
+	display = "A wonderfully pure aroma hides inside this modest flask. Just one spray of this fragrance brings out tones of refined class.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift08",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180008,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180009] = {
+	open_directly = 0,
+	name = "Game Console Set",
+	type = 50,
+	display = "An entertainment system that will fill up every moment of your spare time. This thoughtful gift contains just about all the content you need for a fun play session.\nCan be given to raise Affinity by <color=#92fc63FF>1</color> with shipgirls who like this gift.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift09",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180009,
+		100
+	},
 	limit = {}
 }

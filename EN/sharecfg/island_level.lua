@@ -104,7 +104,7 @@ pg.island_level = {
 		}
 	},
 	{
-		island_exp = 1000,
+		island_exp = 500,
 		island_level = 10,
 		ability_drop = {},
 		island_level_award = {},
@@ -152,7 +152,7 @@ pg.island_level = {
 		}
 	},
 	{
-		island_exp = 1400,
+		island_exp = 1000,
 		island_level = 14,
 		ability_drop = {},
 		island_level_award = {},
@@ -188,7 +188,7 @@ pg.island_level = {
 		}
 	},
 	{
-		island_exp = 2000,
+		island_exp = 2500,
 		island_level = 17,
 		ability_drop = {},
 		island_level_award = {},
@@ -212,7 +212,7 @@ pg.island_level = {
 		}
 	},
 	{
-		island_exp = 3000,
+		island_exp = 3400,
 		island_level = 19,
 		ability_drop = {},
 		island_level_award = {},

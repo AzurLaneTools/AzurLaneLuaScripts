@@ -5,6 +5,10 @@ return {
 
 		if slot1 and not slot2 then
 			Object.Destroy(slot0)
+
+			return true
+		else
+			return false
 		end
 	end
 }

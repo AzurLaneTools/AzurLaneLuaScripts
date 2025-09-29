@@ -3029,7 +3029,7 @@ she finds a better version of herself than the day before.]],
 		time = 0,
 		room_id = 12,
 		desc = "A beautifully maintained bonsai with glossy and vibrant leaves. You can tell at a glance how much care it's given.",
-		text = "dorm3d_dafeng_chair",
+		text = "dorm3d_dafeng_bed",
 		id = 1205,
 		icon = "3Ddrom_dafeng_item5",
 		model = {

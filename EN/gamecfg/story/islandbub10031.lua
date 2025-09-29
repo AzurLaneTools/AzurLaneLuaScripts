@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "呼~订单又堆成一座小山了！",
+			say = "Whew... The requests have piled up again!",
 			hideType = 2,
 			characterId = 100300,
 			animation = "rest"

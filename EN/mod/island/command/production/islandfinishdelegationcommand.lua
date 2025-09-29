@@ -47,6 +47,16 @@ slot0.execute = function(slot0, slot1)
 			slot3:UpdateEnergy(slot0.cur_energy)
 			slot3:UpdateEnergyBeginRecoverTime(slot0.recover_time)
 			slot3:AddExp(slot0.add_exp)
+
+			slot4 = nil
+
+			if #slot0.award == 0 and slot0.add_exp > 0 then
+				slot4 = {
+					addShipId = slot0.ship_id,
+					addExp = slot0.add_exp
+				}
+			end
+
 			uv4:DispatchEvent(uv5.END_DELEGATION, {
 				build_id = uv1,
 				ship_id = slot0.ship_id,
@@ -54,7 +64,8 @@ slot0.execute = function(slot0, slot1)
 				remainReward = slot2
 			})
 			uv6:sendNotification(GAME.ISLAND_FINISH_DELEGATION_DONE, {
-				slotId = uv2
+				slotId = uv2,
+				addShipExpData = slot4
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

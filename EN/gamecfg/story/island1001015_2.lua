@@ -4,8 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			animation = "nod",
-			say = "被我抓住了吧——{namecode:98:明石}……？",
+			say = "I've got you now, Aka– Huh?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -13,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "欸？我明明是看着她进来的啊……怎么不见了？！",
+			say = "Wait, I could've sworn I saw her go in here... Where is she?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +20,8 @@ return {
 			}
 		},
 		{
-			say = "（难道我刚看见的那个……）",
+			say = "(Unless what I saw was a ghost... No, come on, that can't be.)",
+			animation = "shakehaed",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "（众所周知，猫是不会凭空消失的，所以这里一定是有暗道……究竟在哪里呢？）",
+			say = "(Cats vanishing without a trace isn't unusual. There must be a secret passage somewhere – but where?)",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

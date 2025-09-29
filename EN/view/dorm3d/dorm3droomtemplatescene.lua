@@ -297,6 +297,7 @@ slot0.BindEvent = function(slot0)
 
 	slot3 = {
 		ResetCharacterExtraItem = true,
+		SetExtraAnimSpeed = true,
 		EnableHeadIK = true,
 		PlayEnterExtraItem = true,
 		HideCharacterBylayer = true,
@@ -717,9 +718,13 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 
 				slot1:LoadBundle(uv1, function (slot0)
 					for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
-						slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
+						slot6, slot7, slot8 = string.find(string.lower(slot5), "material_hx[/\\](.*).mat")
 
 						if slot6 then
+							uv0.hxMatDict[slot8 .. " (Instance)"] = {
+								slot0,
+								slot5
+							}
 							uv0.hxMatDict[slot8] = {
 								slot0,
 								slot5
@@ -745,11 +750,7 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 				ladyGameObject = slot0
 			}
 
-			if uv3 ~= uv4:GetHXModel() then
-				uv1:HXCharacter(slot0.transform)
-			end
-
-			uv5()
+			uv3()
 		end)
 	end)
 
@@ -767,15 +768,10 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 							uv0.skinDict[uv1] = {
 								ladyGameObject = slot0
 							}
-
-							if uv2 ~= uv3:GetHXModel() then
-								uv0:HXCharacter(slot0.transform)
-							end
-
 							GetComponent(slot0, "GraphOwner").enabled = false
 
 							setActive(slot0, false)
-							uv4()
+							uv2()
 						end)
 					end)
 				end
@@ -825,12 +821,15 @@ slot0.HXCharacter = function(slot0, slot1)
 
 		if false then
 			slot1.sharedMaterials = slot2
+
+			GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(uv1))
 		end
 	end)
 end
 
 slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1:InitCharacter(slot2)
+	slot0:HXCharacter(slot1.lady)
 	slot1:SetZone(slot0.contextData.ladyZone[slot2])
 	slot0:ChangeCharacterPosition(slot1)
 end
@@ -1740,30 +1739,51 @@ slot0.GetSceneItem = function(slot0, slot1)
 	return slot2
 end
 
-slot0.PlayEnterSceneAnim = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.SetSceneAnimSpeed = function(slot0, slot1, slot2)
+	table.Ipairs(slot1 or {}, function (slot0, slot1)
+		if uv0.sceneAnimatorDict[slot1] then
+			uv0.sceneAnimatorDict[slot1].animator.speed = uv1
+		end
+	end)
+end
+
+slot0.SetExtraAnimSpeed = function(slot0, slot1, slot2, slot3)
+	table.Ipairs(slot2 or {}, function (slot0, slot1)
+		if uv0.extraItems[slot1[1]] then
+			uv0.extraItems[slot2].trans:GetComponent(typeof(Animator)).speed = uv1
+		end
+	end)
+end
+
+slot0.PlayEnterSceneAnim = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+	slot4 = {}
 
 	if slot1 and #slot1 > 0 then
 		table.Ipairs(slot1, function (slot0, slot1)
 			uv0:PlaySceneItemAnim(slot1[1], slot1[2], uv1)
-			table.insert(uv2, slot1[1])
+			uv0:SetSceneAnimSpeed({
+				slot1[1]
+			}, uv2)
+			table.insert(uv3, slot1[1])
 		end)
 	end
 
-	slot0:ResetSceneItemAnimators(slot3)
+	slot0:ResetSceneItemAnimators(slot4)
 end
 
-slot0.PlayEnterExtraItem = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.PlayEnterExtraItem = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+	slot4 = {}
 
 	if slot2 and #slot2 > 0 then
 		table.Ipairs(slot2, function (slot0, slot1)
-			uv0:LoadCharacterExtraItem(uv1, slot1[1], slot1[2], slot1[3] and Vector3.New(unpack(slot1[3])), slot1[4] and Quaternion.Euler(unpack(slot1[4])), #slot1 > 4 and slot1[5] or nil)
-			table.insert(uv2, slot1[1])
+			uv0:LoadCharacterExtraItem(uv1, slot1[1], slot1[2], slot1[3] and Vector3.New(unpack(slot1[3])), slot1[4] and Quaternion.Euler(unpack(slot1[4])), #slot1 > 4 and slot1[5] or nil, uv2)
+			table.insert(uv3, slot1[1])
 		end)
 	end
 
-	slot0:ResetCharacterExtraItem(slot1, slot3)
+	slot0:ResetCharacterExtraItem(slot1, slot4)
 end
 
 slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
@@ -3005,44 +3025,46 @@ slot0.ResetSceneItemAnimators = function(slot0, slot1)
 	end)
 end
 
-slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7 = function(slot0)
+slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8 = function(slot0)
 		if uv0 and slot0:GetComponent(typeof(Animator)) then
 			slot1:Play(uv0)
+
+			slot1.speed = uv1
 		end
 	end
 
 	slot1.extraItems = slot1.extraItems or {}
 
 	if slot1.extraItems[slot2] then
-		slot7(slot1.extraItems[slot2].trans)
+		slot8(slot1.extraItems[slot2].trans)
 
 		return
 	end
 
-	slot8 = nil
+	slot9 = nil
 
 	if slot3 == "" then
-		slot8 = slot1.lady
+		slot9 = slot1.lady
 	elseif slot3 == "scene_root" then
-		slot8 = slot0.modelRoot
+		slot9 = slot0.modelRoot
 	else
-		slot10 = slot1.lady
+		slot11 = slot1.lady
 
-		table.IpairsCArray(slot10:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
+		table.IpairsCArray(slot11:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
 			if slot1.name == uv0 then
 				uv1 = slot1
 			end
 		end)
 	end
 
-	if not slot8 then
+	if not slot9 then
 		return
 	end
 
-	slot9 = slot0.loader
+	slot10 = slot0.loader
 
-	slot9:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
+	slot10:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then

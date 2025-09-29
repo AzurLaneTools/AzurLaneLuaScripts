@@ -207,7 +207,7 @@ slot0.UpdateBreakOutLevel = function(slot0, slot1)
 end
 
 slot0.UpdateEnergy = function(slot0, slot1)
-	slot0.energyTxt.text = "[" .. (slot1:GetEnergy() <= 20 and "<color=#ab4734>" .. slot2 .. "</color>" or slot2) .. "/" .. slot1:GetMaxEnergy() .. "]"
+	slot0.energyTxt.text = "[" .. (slot1:GetCurrentEnergy() <= 20 and "<color=#ab4734>" .. slot2 .. "</color>" or slot2) .. "/" .. slot1:GetMaxEnergy() .. "]"
 end
 
 slot0.UpdateLevelAndExp = function(slot0, slot1)

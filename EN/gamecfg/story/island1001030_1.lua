@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
-			subName = "啾咖啡店员",
-			characterId = 101200,
-			say = "啊——欢迎光临，指挥官。",
+			say = "Hey there, Bremen.",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,8 +33,18 @@ return {
 			}
 		},
 		{
-			say = "您是来店里巡视的吗？我马上就把今天的营业额计算出来！",
-			subName = "啾咖啡店员",
+			say = "Oh, welcome, Commander.",
+			animation = "hi",
+			characterId = 101200,
+			subName = "Manager of the Café",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You here to inspect the shop? Then I'll calculate our earnings for today right away.",
+			subName = "Manager of the Café",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -44,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "——还有周报表、月报表，以及营业情况总结等，我马上给您说明情况。",
+			say = "Then I'll give you a weekly and monthly report, followed by a business overview.",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？什么……情况？",
+			say = "Uh, what are you talking about?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,18 +70,18 @@ return {
 			}
 		},
 		{
-			say = "欸？指挥官不知道吗？这家店从昨天起就已经从{namecode:98:明石}那里转移到你的名下了。",
+			say = "Huh? You don't know? Akashi made you the store's new owner yesterday.",
 			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以我连忙做了工作汇报……",
-			subName = "啾咖啡店员",
+			say = "So I rushed to put together a business report.",
+			subName = "Manager of the Café",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "（是跟着开发区一起转让的么……）",
+			say = "(She really gave me everything alongside the development area...)",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +97,7 @@ return {
 			}
 		},
 		{
-			animation = "nod",
-			say = "辛苦完成工作汇报了……但在那之前……",
+			say = "I do appreciate the report, but before you give me that...",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +105,8 @@ return {
 			}
 		},
 		{
-			say = "布莱梅，能给我来一份梅莉极力推荐的招牌苹果派吗？",
+			animation = "talk",
+			say = "Could you give me one of your signature omelettes first?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,26 +114,17 @@ return {
 			}
 		},
 		{
-			say = "苹果派？非常抱歉，指挥官……今天的苹果派，已经卖光了。",
+			say = "An omelette? Well, sorry to say, but we sold out on those today.",
 			animation = "shakehead",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "最后一份在中午就卖掉了，下次可以给您单独留一份……",
-			subName = "啾咖啡店员",
-			characterId = 101200,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "……那现在还有别的吗？",
+			say = "You... sold out? Are you only serving a limited quantity or something?",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -133,27 +132,35 @@ return {
 			}
 		},
 		{
-			say = "也没有了……店里餐品的原料大多都是从港区送来的，数量有限。",
+			say = "Funny you ask that, 'cause Stephen just said the same thing.",
+			subName = "Manager of the Café",
+			characterId = 101200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "It's not how I'd describe it, but I guess it fits. Why? Because we have a limited amount of ingredients.",
 			animation = "sad",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过……新鲜的苹果还有一些富余，品质也很好~指挥官想吃吗？",
-			animation = "idea",
+			say = "See, most of our ingredients are brought in from the port, and there's not much to go around.",
+			subName = "Manager of the Café",
 			characterId = 101200,
-			subName = "啾咖啡店员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "想吃，但更想吃能稍微饱腹一点的……",
+			say = "I see, so it's a supply issue. Then I've got just the thing for you.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -161,18 +168,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官，如果你真的很想吃苹果派……",
-			animation = "think",
+			say = "Oh? These eggs are excellent. Nice color and gloss, with smooth shells.",
+			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你只要弄来一些面粉和鸡蛋的话……不用多久，我就能给您做出来苹果派。",
-			subName = "啾咖啡店员",
+			say = "Did you bring these in from the port?",
+			subName = "Manager of the Café",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -180,17 +187,8 @@ return {
 			}
 		},
 		{
-			say = "而且……不止是苹果派，如果有对应材料，店里所有的餐品都能正常供应！",
-			animation = "talk",
-			characterId = 101200,
-			subName = "啾咖啡店员",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "（……或许是新的收入来源？）",
+			animation = "shakehead",
+			say = "No, they're from Amerigo's ranch. Collected just today.",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -198,17 +196,19 @@ return {
 			}
 		},
 		{
-			say = "……我这就去岛屿仓库里找找看。",
-			characterId = 0,
+			say = "I see. No wonder they look so fresh.",
+			subName = "Manager of the Café",
+			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "I'd love to make some food for you out of these. I'll use them responsibly.",
 			animation = "nod",
-			say = "好吧，不是为了收入，是为了让大家都能吃上热乎的苹果派……",
-			characterId = 0,
+			characterId = 101200,
+			subName = "Manager of the Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

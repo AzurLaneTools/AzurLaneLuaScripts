@@ -361,9 +361,11 @@ slot0.clearSkin = function(slot0)
 		slot0.live2dCom = nil
 	end
 
-	pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
+	if slot0.live2dRequestId then
+		pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
 
-	slot0.live2dRequestId = nil
+		slot0.live2dRequestId = nil
+	end
 end
 
 slot0.checkSkin = function(slot0, slot1)

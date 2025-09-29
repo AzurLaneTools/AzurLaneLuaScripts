@@ -67,10 +67,14 @@ end
 slot0.Flush = function(slot0)
 	for slot4, slot5 in pairs(slot0.maps) do
 		setActive(slot5:Find("selcted"), false)
-		setActive(slot5:Find("lock"), not slot0:CheckUnlock(slot4))
+
+		slot6 = slot0:CheckUnlock(slot4)
+
+		setActive(slot5:Find("lock"), not slot6)
 		setActive(slot5:Find("full"), false)
 		setActive(slot5:Find("finish"), false)
 		setActive(slot5:Find("fetch"), false)
+		setActive(slot5:Find("icon"), slot6)
 	end
 end
 

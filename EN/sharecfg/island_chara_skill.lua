@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.island_chara_skill = {
 	[1000] = {
-		name = "Production Expertise",
+		name = "Manufacturing Expertise",
 		id = 1000,
 		icon = "chara_all_skill_14",
 		desc = "When assigned to the manual workbench at the Base Factory, items take $1% less time to manufacture.",

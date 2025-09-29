@@ -198,6 +198,8 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:UnBlurPanel()
+
 	for slot4, slot5 in ipairs(slot0.pages) do
 		slot5:Destroy()
 	end
