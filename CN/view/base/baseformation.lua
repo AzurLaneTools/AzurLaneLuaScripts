@@ -596,6 +596,8 @@ slot0.Destroy = function(slot0)
 
 		slot0._eventTriggers = nil
 	end
+
+	pg.DelegateInfo.Dispose(slot0)
 end
 
 return slot0

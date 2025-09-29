@@ -57,6 +57,7 @@ slot0.OnLoaded = function(slot0)
 		isPermanent = true,
 		alignRight = true
 	})
+	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
 end
 
 slot0.OnInit = function(slot0)
@@ -206,6 +207,10 @@ slot0.OnHide = function(slot0)
 	slot0:StopTimer()
 	slot0:emitCore(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT)
 	slot0:UnloadPreconcenCharacter()
+
+	if slot0.awardDisplayPanel then
+		slot0.awardDisplayPanel:Hide()
+	end
 end
 
 slot0.OnExit = function(slot0)
@@ -240,13 +245,39 @@ slot0.OnDestroy = function(slot0)
 
 		slot0.selectPanel = nil
 	end
+
+	if slot0.awardDisplayPanel then
+		slot0.awardDisplayPanel:Destroy()
+
+		slot0.awardDisplayPanel = nil
+	end
 end
 
-slot0.OnGetDelegationAwardDone = function(slot0)
+slot0.OnGetDelegationAwardDone = function(slot0, slot1)
+	if slot1.addShipExpData then
+		slot2 = {}
+
+		slot0:UpdateMainAwardReward({
+			shipExp = true,
+			icon = "island/IslandShipIcon/" .. IslandShip.StaticGetPrefab(slot1.addShipExpData.addShipId),
+			num = slot1.addShipExpData.addExp
+		})
+	end
+
 	slot0.delegationTabList:align(#slot0.placeCommissionList)
 end
 
-slot0.OnFinishDelegationDone = function(slot0)
+slot0.OnFinishDelegationDone = function(slot0, slot1)
+	if slot1.addShipExpData then
+		slot2 = {}
+
+		slot0:UpdateMainAwardReward({
+			shipExp = true,
+			icon = "island/IslandShipIcon/" .. IslandShip.StaticGetPrefab(slot1.addShipExpData.addShipId),
+			num = slot1.addShipExpData.addExp
+		})
+	end
+
 	slot0.delegationTabList:align(#slot0.placeCommissionList)
 end
 
@@ -267,6 +298,10 @@ end
 
 slot0.UnloadPreconcenCharacter = function(slot0)
 	slot0:emitCore(ISLAND_EVT.UN_LOAD_DELEGATE_PREVIEW_ROLE)
+end
+
+slot0.UpdateMainAwardReward = function(slot0, slot1)
+	slot0.awardDisplayPanel:ExecuteAction("ShowAwards", slot1)
 end
 
 return slot0

@@ -126,6 +126,18 @@ slot0.GetProductAdditionSpeedByAblityType = function(slot0, slot1)
 	return slot2
 end
 
+slot0.GetAdditionEffectByAblityType = function(slot0, slot1)
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot0.abilitys) do
+		if pg.island_ability_template[slot7].type == slot1 then
+			slot2 = slot2 + slot8.effect
+		end
+	end
+
+	return slot2
+end
+
 slot0.GetSignInGiftAddition = function(slot0)
 	slot1 = 0
 

@@ -176,7 +176,7 @@ slot0.OnInit = function(slot0)
 	slot0.priceFactor = uv0.island_manage_price_coefficient.key_value_int / 100
 	slot0.argA = uv0.island_manage_sale_coefficient_a.key_value_int / 100
 	slot0.argB = uv0.island_manage_sale_coefficient_b.key_value_int / 100
-	slot0.argC = uv0.island_manage_sale_coefficient_b.key_value_int / 100
+	slot0.argC = uv0.island_manage_sale_coefficient_c.key_value_int / 100
 	slot0.saleConst = uv0.island_manage_sale_constant.key_value_int / 100
 	slot0.maxAttrEffect = pg.island_chara_att[1].manage_effect / 10000
 end
@@ -774,6 +774,7 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
 	slot0:OnHide()
 end
 

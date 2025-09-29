@@ -5,22 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf
-	slot0.frameTr = slot1:Find("frame")
-	slot1 = slot0._tf
-	slot1 = slot1:Find("frame/ships")
-	slot0.shipRect = slot1:GetComponent("LScrollRect")
-	slot1 = slot0._tf
-	slot0.inputTr = slot1:Find("frame/filter_panel/search/input")
-	slot1 = slot0._tf
-	slot0.indexBtn = slot1:Find("frame/filter_panel/IndexIco")
-	slot1 = slot0._tf
-	slot0.orderBtn = slot1:Find("frame/filter_panel/index")
-	slot1 = slot0._tf
-	slot0.orderIco = slot1:Find("frame/filter_panel/index/content/icon/icon")
-	slot1 = slot0._tf
-	slot1 = slot1:Find("frame/filter_panel/index/content/Text")
-	slot0.orderTxt = slot1:GetComponent(typeof(Text))
+	slot0.frameTr = slot0._tf:Find("frame")
+	slot0.shipRect = slot0._tf:Find("frame/ships"):GetComponent("LScrollRect")
+	slot0.inputTr = slot0._tf:Find("frame/filter_panel/search/input")
+	slot0.indexBtn = slot0._tf:Find("frame/filter_panel/IndexIco")
+	slot0.orderBtn = slot0._tf:Find("frame/filter_panel/index")
+	slot0.orderIco = slot0._tf:Find("frame/filter_panel/index/content/icon/icon")
+	slot0.orderTxt = slot0._tf:Find("frame/filter_panel/index/content/Text"):GetComponent(typeof(Text))
 
 	slot0.shipRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -29,6 +20,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.shipRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
+
+	setText(slot0._tf:Find("frame/title/Text"), i18n("island_chara_list"))
 end
 
 slot0.AddListeners = function(slot0)

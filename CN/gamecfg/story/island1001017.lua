@@ -1,26 +1,27 @@
 return {
-	mode = 10,
 	id = "ISLAND1001017",
+	mode = 10,
 	map = {
 		{
 			3120100,
 			10070005
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}……你还想躲哪去啊~",
+			animation = "nod",
+			say = "抓住你了，{namecode:98:明石}，你还想躲哪去？",
 			characterId = 0,
+			camera = "StoryCamera6",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "呜喵~？！是指挥官啊……哪有什么躲不躲的喵~",
+			characterId = 3120100,
+			animation = "scare",
 			face2Face = {
 				{
 					0,
@@ -33,17 +34,7 @@ return {
 			}
 		},
 		{
-			say = "呜喵~？！是指挥官啊……哪有什么躲不躲的喵~",
-			animation = "scare",
-			characterId = 3120100,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			say = "指挥官能来岛屿上视察，{namecode:98:明石}很高兴喵~",
-			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -52,6 +43,7 @@ return {
 		},
 		{
 			say = "还在狡辩……所以说，这个奇异点是怎么回事？",
+			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,6 +52,7 @@ return {
 		},
 		{
 			say = "其实我们也是刚来时在一次爆破矿山的作业中被意外卷进来的喵。",
+			animation = "sad",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +61,6 @@ return {
 		},
 		{
 			say = "因为这里环境十分稳定，和外面的地形也相差不大，所以大家都以为还在之前的那个无人岛上喵~",
-			animation = "talk",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +77,7 @@ return {
 		},
 		{
 			say = "我没有瞒着喵~是大家都没问过喵~",
-			animation = "embarrass",
+			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +86,6 @@ return {
 		},
 		{
 			say = "而且作为奇异点，这里的订单不但可以直接发往港区，还可以利用奇异点发到很远很远的地方喵！",
-			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -119,7 +110,6 @@ return {
 			}
 		},
 		{
-			animation = "nod",
 			say = "（果然如此，能让{namecode:98:明石}如此上心的事就只能是赚钱了。）",
 			characterId = 0,
 			typewriter = {
@@ -128,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "那这个奇异点有安全上的隐患吗？",
+			say = "那这个奇异点有安全上的隐患么？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -163,6 +153,7 @@ return {
 		},
 		{
 			say = "明白了……咳咳，{namecode:98:明石}啊。",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +197,6 @@ return {
 		},
 		{
 			say = "可……这不太好吧喵~",
-			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +204,8 @@ return {
 			}
 		},
 		{
+			say = "没什么不好，你看我不就在你的掌控下进来了？漏洞不堵上就会越来越多的。",
 			animation = "shakehead",
-			say = "没什么不好，你看我不就在你的掌控下进来了吗？漏洞不堵上就会越来越多的！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +214,7 @@ return {
 		},
 		{
 			say = "好像有道理喵~那就把这里的一切都交给指挥官吧喵！",
-			animation = "talk",
+			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +231,7 @@ return {
 		},
 		{
 			say = "交接权限的机器就在这里，指挥官直接确认就好了喵~",
-			animation = "talk",
+			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

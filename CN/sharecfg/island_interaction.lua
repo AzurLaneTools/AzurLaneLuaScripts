@@ -145,7 +145,8 @@ pg.island_interaction = setmetatable({
 			2102
 		},
 		[22] = {
-			2201
+			2201,
+			2202
 		},
 		[23] = {
 			2301,
@@ -588,6 +589,7 @@ pg.island_interaction = setmetatable({
 		2104,
 		2105,
 		2201,
+		2202,
 		2301,
 		2302,
 		2303,
@@ -2261,6 +2263,21 @@ pg.base.island_interaction = {
 			{
 				2,
 				10001060
+			}
+		}
+	},
+	[2202] = {
+		text = "看来这里就是车站了……",
+		groupId = 22,
+		only_self = 0,
+		type = 21,
+		id = 2202,
+		icon = 7,
+		param = "ISLANDPERFORMANCE3",
+		show_condition = {
+			{
+				2,
+				10001050
 			}
 		}
 	},
@@ -4183,7 +4200,7 @@ pg.base.island_interaction = {
 		show_condition = {
 			{
 				11,
-				2005
+				99101
 			}
 		}
 	},
@@ -4469,7 +4486,7 @@ pg.base.island_interaction = {
 		show_condition = {
 			{
 				11,
-				2006
+				99111
 			}
 		}
 	},
@@ -4740,6 +4757,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001002
+			},
+			{
+				4,
+				50001001
 			}
 		}
 	},
@@ -4755,6 +4776,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001003
+			},
+			{
+				4,
+				50001002
 			}
 		}
 	},
@@ -4770,6 +4795,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001004
+			},
+			{
+				4,
+				50001003
 			}
 		}
 	},
@@ -4785,6 +4814,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001005
+			},
+			{
+				4,
+				50001004
 			}
 		}
 	},
@@ -4800,6 +4833,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001006
+			},
+			{
+				4,
+				50001005
 			}
 		}
 	},
@@ -4815,6 +4852,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50001007
+			},
+			{
+				4,
+				50001006
 			}
 		}
 	},
@@ -4845,6 +4886,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002002
+			},
+			{
+				4,
+				50002001
 			}
 		}
 	},
@@ -4860,6 +4905,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002003
+			},
+			{
+				4,
+				50002002
 			}
 		}
 	},
@@ -4875,6 +4924,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002004
+			},
+			{
+				4,
+				50002003
 			}
 		}
 	},
@@ -4890,6 +4943,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002005
+			},
+			{
+				4,
+				50002004
 			}
 		}
 	},
@@ -4905,6 +4962,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002006
+			},
+			{
+				4,
+				50002005
 			}
 		}
 	},
@@ -4920,6 +4981,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50002007
+			},
+			{
+				4,
+				50002006
 			}
 		}
 	},
@@ -4950,6 +5015,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003002
+			},
+			{
+				4,
+				50003001
 			}
 		}
 	},
@@ -4965,6 +5034,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003003
+			},
+			{
+				4,
+				50003002
 			}
 		}
 	},
@@ -4980,6 +5053,10 @@ pg.base.island_interaction = {
 			{
 				3,
 				50003004
+			},
+			{
+				4,
+				50003003
 			}
 		}
 	},
@@ -5218,12 +5295,7 @@ pg.base.island_interaction = {
 		id = 6305,
 		icon = 17,
 		param = "45",
-		show_condition = {
-			{
-				11,
-				2012
-			}
-		}
+		show_condition = {}
 	},
 	[6401] = {
 		text = "收集蜂巢",

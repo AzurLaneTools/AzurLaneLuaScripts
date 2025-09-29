@@ -64,6 +64,8 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.shipDetailsPanel:Find("title"), i18n("island_production_character_info"))
 	setText(slot0.getBtn:Find("Text"), i18n("island_production_collect"))
+	setText(slot0.addBtn:Find("num"), i18n("island_additional_production_tip1"))
+	setText(slot0.currentFormula:Find("tips"), i18n("island_production_count"))
 	slot0:ApplyDiff()
 
 	slot0.extraProductList = UIItemList.New(slot0.extraProduct:Find("process"), slot0.extraProduct:Find("process/item"))

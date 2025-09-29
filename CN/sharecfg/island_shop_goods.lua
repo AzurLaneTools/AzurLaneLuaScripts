@@ -323,7 +323,7 @@ pg.base.island_shop_goods = {
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 1,
+		have_show = 0,
 		discount = 0,
 		limited_show = 1,
 		id = 10000,
@@ -2742,7 +2742,7 @@ pg.base.island_shop_goods = {
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 1,
+		have_show = 0,
 		discount = 0,
 		limited_show = 0,
 		id = 4600001,
@@ -2759,7 +2759,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{
@@ -2783,7 +2783,7 @@ pg.base.island_shop_goods = {
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 1,
+		have_show = 0,
 		discount = 0,
 		limited_show = 0,
 		id = 4600002,
@@ -2800,7 +2800,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{
@@ -2824,7 +2824,7 @@ pg.base.island_shop_goods = {
 		pay_id = 0,
 		time = "always",
 		remian_show = 1,
-		have_show = 1,
+		have_show = 0,
 		discount = 0,
 		limited_show = 0,
 		id = 4600003,
@@ -2841,7 +2841,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			1,
 			14,
-			300
+			200
 		},
 		items = {
 			{
@@ -4098,15 +4098,15 @@ pg.base.island_shop_goods = {
 		groups_detail_type = "",
 		limited_num = 100,
 		unlock = "",
-		goods_name = "1分钟加速券（赛季）",
+		goods_name = "1分钟加速券（开发季）",
 		desc = "使用后，能加速1分钟的时间，让发展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
-		remian_show = 0,
+		remian_show = 1,
 		have_show = 0,
 		discount = 0,
-		limited_show = 0,
+		limited_show = 1,
 		id = 5010001,
 		weight = 0,
 		discount_time = "",
@@ -4164,15 +4164,15 @@ pg.base.island_shop_goods = {
 		groups_detail_type = "",
 		limited_num = 30,
 		unlock = "",
-		goods_name = "10分钟加速券（赛季）",
+		goods_name = "10分钟加速券（开发季）",
 		desc = "使用后，能加速10分钟的时间，让发展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
-		remian_show = 0,
+		remian_show = 1,
 		have_show = 0,
 		discount = 0,
-		limited_show = 0,
+		limited_show = 1,
 		id = 5020001,
 		weight = 0,
 		discount_time = "",
@@ -4230,15 +4230,15 @@ pg.base.island_shop_goods = {
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "60分钟加速券（赛季）",
+		goods_name = "60分钟加速券（开发季）",
 		desc = "使用后，能加速60分钟的时间，让发展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
-		remian_show = 0,
+		remian_show = 1,
 		have_show = 0,
 		discount = 0,
-		limited_show = 0,
+		limited_show = 1,
 		id = 5030001,
 		weight = 0,
 		discount_time = "",

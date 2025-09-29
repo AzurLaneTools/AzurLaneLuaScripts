@@ -29,6 +29,7 @@ slot0.Start = function(slot0, slot1, slot2)
 
 	slot7:SetNavAgentStopDistance(0.26)
 	slot7:SetDestination(slot3, slot5, slot1.radius, slot1.charaRadius)
+	slot7:CheckMovement()
 
 	slot0.starting = true
 end

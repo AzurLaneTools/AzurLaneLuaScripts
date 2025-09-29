@@ -312,6 +312,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
+	ClearLScrollrect(slot0.shipRect)
 
 	slot1 = pairs
 	slot2 = slot0.cards or {}
@@ -331,9 +332,15 @@ slot0.OnDestroy = function(slot0)
 	end
 end
 
-slot0.OnCharLoaded = function(slot0)
+slot0.OnHide = function(slot0)
 	if slot0.shipDressHelper then
-		slot0.shipDressHelper:OnRoleLoaded(slot0.role.transform, slot0.modelData)
+		slot0.shipDressHelper:Destroy()
+	end
+end
+
+slot0.OnCharLoaded = function(slot0, slot1)
+	if slot0.shipDressHelper then
+		slot0.shipDressHelper:OnRoleLoaded(slot0.role.transform, slot1)
 	end
 end
 

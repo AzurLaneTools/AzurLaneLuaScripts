@@ -66,7 +66,7 @@ slot0.OnVisitorExit = function(slot0, slot1)
 			if slot3.type == IslandConst.SYNC_TYPE_AGORA then
 				slot0:Op("InterActionEndSync", slot3.id, slot1)
 			elseif slot3.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-				slot0:Op("WorldObjectInterActionEnd", slot3.id, slot1, true)
+				slot0:Op("WorldObjectInterActionEndSync", slot3.id, slot1)
 			end
 		end
 
@@ -182,7 +182,7 @@ slot0.InitSyncObj = function(slot0)
 					for slot11, slot12 in pairs(slot7.owners) do
 						if slot12 ~= slot0.playerId then
 							slot0.visitorDic[slot12]:RecordLastInteract(slot6.id, slot6.type)
-							slot0:Op("WorldObjectInterAction", slot6.id, slot12, slot6.status, true)
+							slot0:Op("WorldObjectInterActionSync", slot6.id, slot12, slot6.status, slot11)
 						end
 					end
 				elseif slot6.status > 0 then
@@ -226,16 +226,16 @@ slot0.UpdateSyncObj = function(slot0, slot1)
 			uv0:Op("InterActionEndSync", uv1.id, slot0)
 		end)
 	elseif slot1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-		slot0:OnVisitorInteract(slot1, function (slot0)
+		slot0:OnVisitorInteract(slot1, function (slot0, slot1)
 			uv0:GetUnit(uv1.type, uv1.id):SetStatus(uv1.status)
 
 			if not uv0:SyncVisitorExist(slot0) then
 				return
 			end
 
-			uv0:Op("WorldObjectInterAction", uv1.id, slot0, uv1.status, true)
+			uv0:Op("WorldObjectInterActionSync", uv1.id, slot0, uv1.status, slot1)
 		end, function (slot0)
-			uv0:Op("WorldObjectInterActionEnd", uv1.id, slot0, true)
+			uv0:Op("WorldObjectInterActionEndSync", uv1.id, slot0)
 		end)
 	end
 end

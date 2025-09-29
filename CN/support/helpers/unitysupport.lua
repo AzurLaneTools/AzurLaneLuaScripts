@@ -398,6 +398,10 @@ ClearEventTrigger = function(slot0)
 end
 
 ClearLScrollrect = function(slot0)
+	if not slot0 then
+		return
+	end
+
 	slot0.onStart = nil
 	slot0.onInitItem = nil
 	slot0.onUpdateItem = nil
@@ -729,8 +733,8 @@ setSizeDelta = function(slot0, slot1)
 	end
 
 	slot3 = slot2.sizeDelta
-	slot3.x = slot1.x
-	slot3.y = slot1.y
+	slot3.x = slot1.x or slot3.x
+	slot3.y = slot1.y or slot3.y
 	slot2.sizeDelta = slot3
 end
 

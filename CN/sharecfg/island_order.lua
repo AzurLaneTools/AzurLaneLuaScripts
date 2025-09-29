@@ -22,7 +22,7 @@ pg.island_order = {
 			}
 		},
 		award = {
-			30,
+			50,
 			200
 		}
 	},

@@ -272,8 +272,13 @@ slot3.DeviceStateHandle = function(slot0, slot1)
 		return
 	end
 
+	if slot0.view:GetController():IsPlayerInTimeline() then
+		return
+	end
+
 	if slot1 then
 		slot0.animator:SetTrigger(IslandConst.DEVICE_SHOW_FLAG)
+		slot0.animator:ResetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	else
 		slot0.animator:SetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	end

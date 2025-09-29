@@ -4,7 +4,8 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（嗯？那里好像有人……）",
+			camera = "StoryCamera1",
+			say = "（嗯？那个人好像是……{namecode:98:明石}开发团队里的奥布莱恩？）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

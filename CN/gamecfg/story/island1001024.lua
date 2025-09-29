@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			animation = "rest",
-			subName = "货运管理员",
-			characterId = 100300,
-			say = "呼——！终于……都装好啦！",
+			say = "斯蒂芬妮，你还好吧？",
+			characterId = 0,
 			face2Face = {
 				{
 					0,
@@ -35,8 +33,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官，多亏有你！不然我肯定要忙到晚上去了！",
-			animation = "nod",
+			say = "呼——！终于……都装好啦！",
+			animation = "rest",
 			characterId = 100300,
 			subName = "货运管理员",
 			typewriter = {
@@ -45,8 +43,17 @@ return {
 			}
 		},
 		{
+			say = "指挥官，多亏有你！不然我肯定要忙到晚上去了！",
+			subName = "货运管理员",
+			characterId = 100300,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "完成了就好，下次可别再“逸”过头了。",
 			animation = "nod",
-			say = "完成了就好，下次可别再逸过头了哦，斯蒂芬妮。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +61,8 @@ return {
 			}
 		},
 		{
-			say = "知道啦知道啦~",
-			animation = "shy",
+			say = "知道啦知道啦~对了指挥官！",
+			animation = "embarrass",
 			characterId = 100300,
 			subName = "货运管理员",
 			typewriter = {
@@ -64,18 +71,17 @@ return {
 			}
 		},
 		{
-			say = "对了指挥官！你听说了吗？那个宝藏岛！",
-			animation = "curious",
-			characterId = 100300,
+			say = "你听说了吗？那个宝藏岛！",
 			subName = "货运管理员",
+			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
-			say = "嗯，帕特莉刚才跟我说过……怎么，你也对寻宝感兴趣？",
+			animation = "talk",
+			say = "哦？帕特莉刚才跟我说过……怎么，你也对寻宝感兴趣？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +90,7 @@ return {
 		},
 		{
 			say = "嗯嗯！那可是我跑远洋的时候看到的！",
-			animation = "nod",
+			animation = "elation",
 			characterId = 100300,
 			subName = "货运管理员",
 			typewriter = {
@@ -94,9 +100,8 @@ return {
 		},
 		{
 			say = "在东南方向的海域，真的有一座雾气缭绕、闪着金光的小岛！可神奇了！",
-			animation = "talk",
-			characterId = 100300,
 			subName = "货运管理员",
+			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +136,7 @@ return {
 		},
 		{
 			say = "呜……指挥官你真是太专注眼前了~",
-			animation = "sad",
+			animation = "talk",
 			characterId = 100300,
 			subName = "货运管理员",
 			typewriter = {
@@ -149,8 +154,8 @@ return {
 			}
 		},
 		{
-			animation = "nod",
 			say = "嗯……有道理，目前岛上的产出确实太单一了些，很多生活物资都还需要港区来供给。",
+			animation = "nod",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -166,16 +171,16 @@ return {
 			}
 		},
 		{
+			animation = "curious",
 			say = "欸？指挥官很缺钱吗？",
-			subName = "货运管理员",
 			characterId = 100300,
+			subName = "货运管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
 			say = "实不相瞒，缺、紧缺、特别缺……",
 			characterId = 0,
 			typewriter = {
@@ -185,9 +190,8 @@ return {
 		},
 		{
 			say = "如果是这样的话！指挥官可以考虑运送一些农作物！",
-			animation = "elation",
-			characterId = 100300,
 			subName = "货运管理员",
+			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +199,9 @@ return {
 		},
 		{
 			say = "尤其是新鲜的水果和蔬菜！",
-			subName = "货运管理员",
+			animation = "talk",
 			characterId = 100300,
+			subName = "货运管理员",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,6 +252,7 @@ return {
 			}
 		},
 		{
+			animation = "talk",
 			say = "顺便休息一下吧~就是别忘了等下还有堆松木料会送过来。",
 			characterId = 0,
 			typewriter = {
@@ -265,7 +271,6 @@ return {
 			}
 		},
 		{
-			animation = "nod",
 			say = "（农作物么……也许真是个突破口……至少比寻找宝藏岛实际一些。）",
 			characterId = 0,
 			typewriter = {

@@ -12,7 +12,7 @@ pg.island_shop_normal_template = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,

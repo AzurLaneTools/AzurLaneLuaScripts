@@ -8,6 +8,9 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.nameTf = slot0._tf:Find("title/name")
+
+	setText(slot0.nameTf, i18n("word_get"))
+
 	slot0.container = slot0:findTF("content")
 	slot0.item = slot0:findTF("tpl")
 	slot0.poolContainer = slot0:findTF("pool")
@@ -19,7 +22,6 @@ slot0.OnInit = function(slot0)
 	slot0.timers = {}
 	slot0.showCount = 0
 
-	setText(slot0.nameTf, "获得")
 	setActive(slot0.item, false)
 end
 
@@ -35,13 +37,34 @@ slot0.Hide = function(slot0)
 	slot0.isShow = false
 end
 
-slot0.ShowAwards = function(slot0, slot1)
-	for slot6, slot7 in ipairs(slot1.awards) do
-		slot8 = slot0:CreateItem()
+slot0.OnHide = function(slot0)
+	for slot4, slot5 in pairs(slot0.timers) do
+		if slot5 then
+			slot5:Stop()
+		end
+	end
+end
 
-		setText(findTF(slot8, "name"), string.format(slot7:getName()))
-		GetImageSpriteFromAtlasAsync(slot7:getIcon(), "", findTF(slot8, "icon"))
-		setText(findTF(slot8, "name/count"), slot7:getCount())
+slot0.ShowAwards = function(slot0, slot1)
+	setActive(slot0.nameTf, not slot1.shipExp)
+
+	if not slot1.shipExp then
+		for slot6, slot7 in ipairs(slot1.awards) do
+			slot8 = slot0:CreateItem()
+
+			setActive(findTF(slot8, "name"), true)
+			setActive(findTF(slot8, "exp"), false)
+			setText(findTF(slot8, "name"), string.format(slot7:getName()))
+			GetImageSpriteFromAtlasAsync(slot7:getIcon(), "", findTF(slot8, "icon"))
+			setText(findTF(slot8, "name/count"), slot7:getCount())
+		end
+	else
+		slot2 = slot0:CreateItem()
+
+		setActive(findTF(slot2, "name"), false)
+		setActive(findTF(slot2, "exp"), true)
+		GetImageSpriteFromAtlasAsync(slot1.icon, "", findTF(slot2, "icon"))
+		setText(findTF(slot2, "exp/count"), slot1.num)
 	end
 end
 

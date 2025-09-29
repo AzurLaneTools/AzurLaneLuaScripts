@@ -15,7 +15,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.conditionList = UIItemList.New(slot0.detail:Find("conditionList"), slot0.detail:Find("conditionList/condition"))
 
 	setActive(slot0.detail, false)
-	setText(slot0._tf:Find("top/title/Text"), i18n1("套餐图鉴"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_setmeal_title"))
 	setText(slot0._tf:Find("top/title/Text/en"), i18n1("HANDBOOK"))
 end
 
@@ -134,14 +134,20 @@ slot0.SetDetail = function(slot0, slot1)
 	slot0.conditionList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.unlock_condition[slot1 + 1][1]
+			slot4 = uv0.unlock_condition[slot1 + 1][2]
 
-			setText(slot2:Find("name"), "制作" .. pg.island_formula[slot3].name)
+			setText(slot2:Find("name"), i18n("island_combo_produced") .. pg.island_formula[slot3].name)
 
-			if uv0.unlock_condition[slot1 + 1][2] < (uv1.formulaNums[slot3] or 0) then
+			slot6 = uv1.formulaNums[slot3] or 0
+
+			setActive(slot2:Find("notComplete"), slot6 < slot4)
+			setActive(slot2:Find("complete"), slot4 <= slot6)
+
+			if slot4 < slot6 then
 				formulaNum = slot4
 			end
 
-			setText(slot2:Find("count"), "" .. slot6 .. "/" .. slot4 .. "次")
+			setText(slot2:Find("count"), i18n("island_combo_produced_times", "" .. slot6 .. "/" .. slot4))
 
 			if slot6 < slot4 then
 				uv2 = false
@@ -151,7 +157,7 @@ slot0.SetDetail = function(slot0, slot1)
 	slot0.conditionList:align(#slot1.unlock_condition)
 
 	if true == true then
-		setText(slot0.detailDesc, i18n1("已解锁套餐制作"))
+		setText(slot0.detailDesc, i18n("island_combo_unlock"))
 	else
 		setText(slot0.detailDesc, slot1.desc or "")
 	end

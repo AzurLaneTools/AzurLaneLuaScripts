@@ -22,6 +22,7 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.togglesTF:Find("rest/sel/content/Text"), i18n("island_post_operate"))
 
 	slot0.signInNoticeTF = slot0._tf:Find("Adapt/signInBtn/notice")
+	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
 end
 
 slot0.OnInit = function(slot0)
@@ -59,8 +60,8 @@ end
 
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_START_DELEGATION_DONE, slot0.FlushProdPage)
-	slot0:AddListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.FlushProdPage)
-	slot0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.FlushProdPage)
+	slot0:AddListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.OnFlushProdPageAndShipExpDone)
+	slot0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.OnFlushProdPageAndShipExpDone)
 	slot0:AddListener(GAME.ISLAND_OPEN_RESTAURANT_DONE, slot0.FlushRestPage)
 	slot0:AddListener(GAME.ISLAND_CLOSE_RESTAURANT_DONE, slot0.FlushRestPage)
 	slot0:AddListener(IslandManageAgecny.ADD_RESTAURANT, slot0.FlushRestPage)
@@ -70,8 +71,8 @@ end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_START_DELEGATION_DONE, slot0.FlushProdPage)
-	slot0:RemoveListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.FlushProdPage)
-	slot0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.FlushProdPage)
+	slot0:RemoveListener(GAME.ISLAND_FINISH_DELEGATION_DONE, slot0.OnFlushProdPageAndShipExpDone)
+	slot0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, slot0.OnFlushProdPageAndShipExpDone)
 	slot0:RemoveListener(GAME.ISLAND_OPEN_RESTAURANT_DONE, slot0.FlushRestPage)
 	slot0:RemoveListener(GAME.ISLAND_CLOSE_RESTAURANT_DONE, slot0.FlushRestPage)
 	slot0:RemoveListener(IslandManageAgecny.ADD_RESTAURANT, slot0.FlushRestPage)
@@ -115,6 +116,20 @@ slot0.FlushRestTip = function(slot0)
 	setActive(slot0.togglesTF:Find("rest/sel/tip"), slot1)
 end
 
+slot0.OnFlushProdPageAndShipExpDone = function(slot0, slot1)
+	if slot1.addShipExpData then
+		slot2 = {}
+
+		slot0.awardDisplayPanel:ExecuteAction("ShowAwards", {
+			shipExp = true,
+			icon = "island/IslandShipIcon/" .. IslandShip.StaticGetPrefab(slot1.addShipExpData.addShipId),
+			num = slot1.addShipExpData.addExp
+		})
+	end
+
+	slot0:FlushProdPage(slot1)
+end
+
 slot0.FlushProdPage = function(slot0, slot1)
 	slot0:FlushProdTip()
 	slot0.pages[uv0.PAGE_PROD]:ExecuteAction("FlushSlot", slot1.slotId)
@@ -127,6 +142,10 @@ end
 
 slot0.OnHide = function(slot0)
 	slot0:UnBlurPanel()
+
+	if slot0.awardDisplayPanel then
+		slot0.awardDisplayPanel:Hide()
+	end
 end
 
 slot0.OnDisable = function(slot0)
@@ -140,6 +159,12 @@ slot0.OnDestroy = function(slot0)
 
 			slot5 = nil
 		end
+	end
+
+	if slot0.awardDisplayPanel then
+		slot0.awardDisplayPanel:Destroy()
+
+		slot0.awardDisplayPanel = nil
 	end
 end
 

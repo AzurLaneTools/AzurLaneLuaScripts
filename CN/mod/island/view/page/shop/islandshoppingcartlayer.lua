@@ -12,6 +12,18 @@ slot0.OnLoaded = function(slot0)
 	slot0.buyBtn = slot0.panel:Find("buyBtn")
 	slot0.consumeIcon = slot0.buyBtn:Find("consume/icon")
 	slot0.consumeCount = slot0.buyBtn:Find("consume/count")
+
+	setText(slot0.panel:Find("title"), i18n("island_3Dshop_buy_confirm"))
+	setText(slot0.cancelBtn:Find("text"), i18n("island_3Dshop_buy_return"))
+
+	slot4 = "island_3Dshop_buy"
+
+	setText(slot0.buyBtn:Find("text"), i18n(slot4))
+
+	for slot4 = 1, 3 do
+		setText(slot0.commodityList:Find("commodity" .. slot4 .. "/normal/cost"), i18n("island_3Dshop_buy_price"))
+		setText(slot0.commodityList:Find("commodity" .. slot4 .. "/normal/have"), i18n("island_3Dshop_buy_have"))
+	end
 end
 
 slot0.OnInit = function(slot0)

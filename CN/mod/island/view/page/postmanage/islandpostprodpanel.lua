@@ -95,6 +95,8 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	if slot0.selectPanel then
 		slot0.selectPanel:Destroy()
 

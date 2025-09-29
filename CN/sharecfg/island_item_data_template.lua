@@ -34,7 +34,6 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
-			1501,
 			2000,
 			2001,
 			2002,
@@ -90,7 +89,6 @@ pg.island_item_data_template = setmetatable({
 			3013,
 			3014,
 			3015,
-			3016,
 			3017,
 			3018,
 			3019,
@@ -104,7 +102,6 @@ pg.island_item_data_template = setmetatable({
 			3028,
 			3029,
 			3030,
-			3031,
 			3032,
 			3033,
 			3034,
@@ -158,7 +155,6 @@ pg.island_item_data_template = setmetatable({
 			4012,
 			4013,
 			4014,
-			100000,
 			100001,
 			100002,
 			100003,
@@ -233,7 +229,6 @@ pg.island_item_data_template = setmetatable({
 			1020,
 			1021,
 			1022,
-			1501,
 			2000,
 			2001,
 			2002,
@@ -289,7 +284,6 @@ pg.island_item_data_template = setmetatable({
 			3013,
 			3014,
 			3015,
-			3016,
 			3017,
 			3018,
 			3019,
@@ -303,7 +297,6 @@ pg.island_item_data_template = setmetatable({
 			3028,
 			3029,
 			3030,
-			3031,
 			3032,
 			3033,
 			3034,
@@ -372,7 +365,6 @@ pg.island_item_data_template = setmetatable({
 		[2] = {
 			3,
 			4,
-			100000,
 			100011,
 			100012,
 			100013,
@@ -455,7 +447,6 @@ pg.island_item_data_template = setmetatable({
 		1020,
 		1021,
 		1022,
-		1501,
 		2000,
 		2001,
 		2002,
@@ -511,7 +502,6 @@ pg.island_item_data_template = setmetatable({
 		3013,
 		3014,
 		3015,
-		3016,
 		3017,
 		3018,
 		3019,
@@ -525,7 +515,6 @@ pg.island_item_data_template = setmetatable({
 		3028,
 		3029,
 		3030,
-		3031,
 		3032,
 		3033,
 		3034,
@@ -579,7 +568,6 @@ pg.island_item_data_template = setmetatable({
 		4012,
 		4013,
 		4014,
-		100000,
 		100001,
 		100002,
 		100003,
@@ -652,7 +640,16 @@ pg.base.island_item_data_template = {
 			10312
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"岛屿订单",
+				{}
+			},
+			{
+				"店铺经营",
+				{}
+			}
+		}
 	},
 	{
 		pt_num = 0,
@@ -676,7 +673,16 @@ pg.base.island_item_data_template = {
 			10312
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"岛屿订单",
+				{}
+			},
+			{
+				"计划",
+				{}
+			}
+		}
 	},
 	{
 		pt_num = 0,
@@ -700,7 +706,12 @@ pg.base.island_item_data_template = {
 			10312
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"商店购买",
+				{}
+			}
+		}
 	},
 	{
 		pt_num = 0,
@@ -1572,39 +1583,6 @@ pg.base.island_item_data_template = {
 			}
 		}
 	},
-	[1501] = {
-		pt_num = 0,
-		name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
-		type = 1,
-		group_max = 0,
-		manage_influence = 0,
-		usage = "usage_undefined",
-		usage_arg = "[]",
-		drop_after_use = 0,
-		order_price = 0,
-		icon = "IslandProps/item_1501",
-		price = 1,
-		rarity = 1,
-		convert = 1,
-		resource_type = 1,
-		id = 1501,
-		have_max = 0,
-		filter = {
-			10114,
-			10127
-		},
-		sub_attribute = {},
-		jump_page = {
-			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
-			}
-		}
-	},
 	[2000] = {
 		pt_num = 1,
 		name = "小麦",
@@ -1615,7 +1593,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 35,
+		order_price = 8,
 		icon = "IslandProps/item_2000",
 		price = 1,
 		rarity = 1,
@@ -1630,11 +1608,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1648,7 +1623,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 210,
+		order_price = 8,
 		icon = "IslandProps/item_2001",
 		price = 1,
 		rarity = 1,
@@ -1663,11 +1638,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1681,7 +1653,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 155,
+		order_price = 17,
 		icon = "IslandProps/item_2002",
 		price = 1,
 		rarity = 1,
@@ -1696,11 +1668,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1714,7 +1683,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 170,
+		order_price = 14,
 		icon = "IslandProps/item_2003",
 		price = 1,
 		rarity = 1,
@@ -1729,11 +1698,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1747,7 +1713,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 130,
+		order_price = 34,
 		icon = "IslandProps/item_2004",
 		price = 1,
 		rarity = 1,
@@ -1762,11 +1728,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -1780,7 +1743,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 250,
+		order_price = 33,
 		icon = "IslandProps/item_2005",
 		price = 1,
 		rarity = 1,
@@ -1795,11 +1758,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1813,7 +1773,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 72,
+		order_price = 14,
 		icon = "IslandProps/item_2006",
 		price = 1,
 		rarity = 1,
@@ -1828,11 +1788,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1846,10 +1803,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 480,
+		order_price = 244,
 		icon = "IslandProps/item_2007",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2007,
@@ -1861,11 +1818,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -1879,7 +1833,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 45,
+		order_price = 11,
 		icon = "IslandProps/item_2008",
 		price = 1,
 		rarity = 1,
@@ -1894,11 +1848,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1912,10 +1863,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 640,
+		order_price = 68,
 		icon = "IslandProps/item_2009",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2009,
@@ -1927,11 +1878,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"丰壤农田",
+				{}
 			}
 		}
 	},
@@ -1945,10 +1893,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 72,
 		icon = "IslandProps/item_2010",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2010,
@@ -1960,11 +1908,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -1978,10 +1923,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 54,
 		icon = "IslandProps/item_2011",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2011,
@@ -1993,11 +1938,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -2011,10 +1953,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 92,
 		icon = "IslandProps/item_2012",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2012,
@@ -2026,11 +1968,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -2044,10 +1983,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 118,
 		icon = "IslandProps/item_2014",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2014,
@@ -2059,11 +1998,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -2077,10 +2013,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 294,
 		icon = "IslandProps/item_2015",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2015,
@@ -2092,11 +2028,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"青芽苗圃",
+				{}
 			}
 		}
 	},
@@ -2110,7 +2043,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 50,
 		icon = "IslandProps/item_2016",
 		price = 1,
 		rarity = 1,
@@ -2125,11 +2058,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2143,7 +2073,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 65,
 		icon = "IslandProps/item_2017",
 		price = 1,
 		rarity = 1,
@@ -2158,11 +2088,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2176,7 +2103,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 80,
 		icon = "IslandProps/item_2018",
 		price = 1,
 		rarity = 1,
@@ -2191,11 +2118,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2209,10 +2133,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 180,
 		icon = "IslandProps/item_2019",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2019,
@@ -2224,11 +2148,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2242,10 +2163,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 32,
 		icon = "IslandProps/item_2020",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2020,
@@ -2257,11 +2178,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2275,10 +2193,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 375,
 		icon = "IslandProps/item_2021",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2021,
@@ -2290,11 +2208,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2308,10 +2223,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 250,
 		icon = "IslandProps/item_2022",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2022,
@@ -2323,11 +2238,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"坠香果园",
+				{}
 			}
 		}
 	},
@@ -2341,7 +2253,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 450,
+		order_price = 200,
 		icon = "IslandProps/item_2600",
 		price = 1,
 		rarity = 1,
@@ -2356,11 +2268,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2374,7 +2283,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 240,
+		order_price = 55,
 		icon = "IslandProps/item_2601",
 		price = 1,
 		rarity = 1,
@@ -2389,11 +2298,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2407,7 +2313,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 350,
+		order_price = 20,
 		icon = "IslandProps/item_2602",
 		price = 1,
 		rarity = 1,
@@ -2422,11 +2328,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2440,7 +2343,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 450,
+		order_price = 136,
 		icon = "IslandProps/item_2603",
 		price = 1,
 		rarity = 1,
@@ -2455,11 +2358,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2473,10 +2373,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1800,
+		order_price = 95,
 		icon = "IslandProps/item_2604",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2604,
@@ -2488,11 +2388,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2506,10 +2403,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1400,
+		order_price = 600,
 		icon = "IslandProps/item_2605",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2605,
@@ -2521,11 +2418,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"悠然牧场",
+				{}
 			}
 		}
 	},
@@ -2539,7 +2433,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 200,
 		icon = "IslandProps/item_2606",
 		price = 1,
 		rarity = 1,
@@ -2554,11 +2448,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"地图采集",
+				{}
 			}
 		}
 	},
@@ -2587,11 +2478,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2605,7 +2493,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 400,
+		order_price = 100,
 		icon = "IslandProps/item_2701",
 		price = 1,
 		rarity = 1,
@@ -2620,11 +2508,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2638,10 +2523,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 580,
+		order_price = 300,
 		icon = "IslandProps/item_2702",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2702,
@@ -2653,11 +2538,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2671,10 +2553,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 760,
+		order_price = 180,
 		icon = "IslandProps/item_2703",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2703,
@@ -2686,11 +2568,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2704,10 +2583,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 920,
+		order_price = 700,
 		icon = "IslandProps/item_2704",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 2704,
@@ -2719,11 +2598,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2737,10 +2613,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1100,
+		order_price = 1600,
 		icon = "IslandProps/item_2705",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 2705,
@@ -2752,11 +2628,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"沉石矿山",
+				{}
 			}
 		}
 	},
@@ -2785,11 +2658,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"翠土林场",
+				{}
 			}
 		}
 	},
@@ -2803,7 +2673,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 400,
+		order_price = 125,
 		icon = "IslandProps/item_2801",
 		price = 1,
 		rarity = 1,
@@ -2818,11 +2688,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"翠土林场",
+				{}
 			}
 		}
 	},
@@ -2836,10 +2703,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 760,
+		order_price = 360,
 		icon = "IslandProps/item_2802",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 2802,
@@ -2851,11 +2718,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"翠土林场",
+				{}
 			}
 		}
 	},
@@ -2872,7 +2736,7 @@ pg.base.island_item_data_template = {
 		order_price = 1200,
 		icon = "IslandProps/item_2803",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 2803,
@@ -2884,11 +2748,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"翠土林场",
+				{}
 			}
 		}
 	},
@@ -2902,7 +2763,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 290,
+		order_price = 25,
 		icon = "IslandProps/item_3000",
 		price = 1,
 		rarity = 1,
@@ -2917,11 +2778,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"磨坊",
+				{}
 			}
 		}
 	},
@@ -2935,7 +2793,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 400,
+		order_price = 25,
 		icon = "IslandProps/item_3001",
 		price = 1,
 		rarity = 1,
@@ -2950,11 +2808,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"磨坊",
+				{}
 			}
 		}
 	},
@@ -2968,10 +2823,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 350,
+		order_price = 40,
 		icon = "IslandProps/item_3002",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3002,
@@ -2983,11 +2838,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"磨坊",
+				{}
 			}
 		}
 	},
@@ -3001,10 +2853,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 400,
+		order_price = 40,
 		icon = "IslandProps/item_3003",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3003,
@@ -3016,11 +2868,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"磨坊",
+				{}
 			}
 		}
 	},
@@ -3034,7 +2883,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 400,
+		order_price = 50,
 		icon = "IslandProps/item_3004",
 		price = 1,
 		rarity = 1,
@@ -3049,11 +2898,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"磨坊",
+				{}
 			}
 		}
 	},
@@ -3063,11 +2909,11 @@ pg.base.island_item_data_template = {
 		desc = "口感清爽，适合夏日消暑和提神。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 560,
+		manage_influence = 190,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1400,
+		order_price = 95,
 		icon = "IslandProps/item_3005",
 		price = 1,
 		rarity = 1,
@@ -3085,11 +2931,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3099,14 +2942,14 @@ pg.base.island_item_data_template = {
 		desc = "以奶类为原料制成，含有丰富的蛋白质和脂质，常用来搭配面包使用。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 560,
+		manage_influence = 150,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1400,
+		order_price = 550,
 		icon = "IslandProps/item_3006",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3006,
@@ -3121,11 +2964,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3135,14 +2975,14 @@ pg.base.island_item_data_template = {
 		desc = "浓缩咖啡与蒸奶混合，口感香滑，深受咖啡爱好者喜爱 。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 1000,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2500,
+		order_price = 250,
 		icon = "IslandProps/item_3007",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3007,
@@ -3157,11 +2997,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3171,14 +3008,14 @@ pg.base.island_item_data_template = {
 		desc = "加入了柑橘汁的咖啡饮品，以清新的酸度和自然的果香为特色。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 110,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 190,
 		icon = "IslandProps/item_3008",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3008,
@@ -3193,11 +3030,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3207,14 +3041,14 @@ pg.base.island_item_data_template = {
 		desc = "将苹果馅料裹在酥皮之中，口感香甜，是经典甜点代表之一。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 400,
+		manage_influence = 190,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1000,
+		order_price = 385,
 		icon = "IslandProps/item_3009",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3009,
@@ -3229,11 +3063,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3243,14 +3074,14 @@ pg.base.island_item_data_template = {
 		desc = "入口细腻的奶沫，清新丝滑，口感丰富。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 120,
+		manage_influence = 240,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 260,
 		icon = "IslandProps/item_3010",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3010,
@@ -3265,11 +3096,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -3279,14 +3107,14 @@ pg.base.island_item_data_template = {
 		desc = "白净柔嫩，由大豆制成，富含丰富的植物蛋白。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 220,
+		manage_influence = 170,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 550,
+		order_price = 340,
 		icon = "IslandProps/item_3011",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3011,
@@ -3301,11 +3129,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"有鱼餐馆",
+				{}
 			}
 		}
 	},
@@ -3315,14 +3140,14 @@ pg.base.island_item_data_template = {
 		desc = "经典家常菜，口感滑嫩、汤汁浓郁。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 840,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2100,
+		order_price = 1300,
 		icon = "IslandProps/item_3012",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3012,
@@ -3337,11 +3162,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"有鱼餐馆",
+				{}
 			}
 		}
 	},
@@ -3351,14 +3173,14 @@ pg.base.island_item_data_template = {
 		desc = "金黄的煎蛋包裹着松软的米饭，每一口都充满了惊喜！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 760,
+		manage_influence = 240,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1900,
+		order_price = 355,
 		icon = "IslandProps/item_3013",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3013,
@@ -3373,11 +3195,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"有鱼餐馆",
+				{}
 			}
 		}
 	},
@@ -3387,14 +3206,14 @@ pg.base.island_item_data_template = {
 		desc = "白菜的鲜甜与豆腐的嫩滑交织，是非常清淡健康的菜式。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 1040,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2600,
+		order_price = 425,
 		icon = "IslandProps/item_3014",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3014,
@@ -3409,11 +3228,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"有鱼餐馆",
+				{}
 			}
 		}
 	},
@@ -3423,14 +3239,14 @@ pg.base.island_item_data_template = {
 		desc = "新鲜的蔬菜搭配香浓的酱汁，清爽可口！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 580,
+		manage_influence = 160,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1450,
+		order_price = 105,
 		icon = "IslandProps/item_3015",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3015,
@@ -3445,47 +3261,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
-			}
-		}
-	},
-	[3016] = {
-		pt_num = 0,
-		name = "炸鱼薯条",
-		desc = "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
-		type = 1,
-		group_max = 0,
-		manage_influence = 120,
-		usage = "usage_undefined",
-		usage_arg = "[]",
-		drop_after_use = 0,
-		order_price = 2,
-		icon = "IslandProps/item_3016",
-		price = 1,
-		rarity = 1,
-		convert = 1,
-		resource_type = 1,
-		id = 3016,
-		have_max = 0,
-		filter = {
-			10113,
-			10125
-		},
-		sub_attribute = {
-			4,
-			35
-		},
-		jump_page = {
-			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"有鱼餐馆",
+				{}
 			}
 		}
 	},
@@ -3495,14 +3272,14 @@ pg.base.island_item_data_template = {
 		desc = "鲜榨水果汁果香浓郁，是很受欢迎的健康饮品！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 200,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 105,
 		icon = "IslandProps/item_3017",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3017,
@@ -3517,11 +3294,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3531,14 +3305,14 @@ pg.base.island_item_data_template = {
 		desc = "香蕉与芒果的完美融合，是热带风味的浓缩！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 190,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 215,
 		icon = "IslandProps/item_3018",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3018,
@@ -3553,11 +3327,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3567,14 +3338,14 @@ pg.base.island_item_data_template = {
 		desc = "甘甜蜂蜜与清爽柠檬的美妙融合，还能补充维c。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 240,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 140,
 		icon = "IslandProps/item_3019",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3019,
@@ -3589,11 +3360,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3603,14 +3371,14 @@ pg.base.island_item_data_template = {
 		desc = "草莓与柠檬的奇妙组合，清爽不腻的果味特饮。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 270,
 		icon = "IslandProps/item_3020",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3020,
@@ -3625,11 +3393,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3639,14 +3404,14 @@ pg.base.island_item_data_template = {
 		desc = "具有净化心绪，舒解压力的作用，很适合调养身心。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 120,
+		manage_influence = 160,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 1590,
 		icon = "IslandProps/item_3021",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3021,
@@ -3661,11 +3426,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3675,14 +3437,14 @@ pg.base.island_item_data_template = {
 		desc = "草莓的酸甜与蜂蜜的香浓完美融合，构成甜蜜的冰沙世界。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 120,
+		manage_influence = 220,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 790,
 		icon = "IslandProps/item_3022",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3022,
@@ -3697,11 +3459,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"白熊饮品",
+				{}
 			}
 		}
 	},
@@ -3711,14 +3470,14 @@ pg.base.island_item_data_template = {
 		desc = "金黄的玉米粒经过简单蒸煮变得香甜可口，是常见的美味小吃。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 45,
 		icon = "IslandProps/item_3023",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3023,
@@ -3733,11 +3492,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾啾简餐",
+				{}
 			}
 		}
 	},
@@ -3747,14 +3503,14 @@ pg.base.island_item_data_template = {
 		desc = "经典甜点，下午茶时间食用更佳。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 185,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 375,
 		icon = "IslandProps/item_3024",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3024,
@@ -3769,11 +3525,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾啾简餐",
+				{}
 			}
 		}
 	},
@@ -3783,14 +3536,14 @@ pg.base.island_item_data_template = {
 		desc = "热带风情特色家常菜，适合没食欲的时候食用。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 160,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 510,
 		icon = "IslandProps/item_3025",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3025,
@@ -3805,11 +3558,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾啾简餐",
+				{}
 			}
 		}
 	},
@@ -3819,14 +3569,14 @@ pg.base.island_item_data_template = {
 		desc = "经典早餐，口感酥脆，老少皆宜。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 110,
+		manage_influence = 170,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 230,
 		icon = "IslandProps/item_3026",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3026,
@@ -3841,11 +3591,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾啾简餐",
+				{}
 			}
 		}
 	},
@@ -3855,14 +3602,14 @@ pg.base.island_item_data_template = {
 		desc = "口感酥脆的蛋白霜底搭配香甜的草莓馅料，深受甜品爱好者的喜爱。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 120,
+		manage_influence = 190,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 1350,
 		icon = "IslandProps/item_3028",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3028,
@@ -3877,11 +3624,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾啾简餐",
+				{}
 			}
 		}
 	},
@@ -3891,14 +3635,14 @@ pg.base.island_item_data_template = {
 		desc = "外焦里嫩，香气扑鼻，烧烤派对的必备美食！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 950,
+		order_price = 390,
 		icon = "IslandProps/item_3029",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3029,
@@ -3913,11 +3657,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"乌鱼烤肉",
+				{}
 			}
 		}
 	},
@@ -3927,14 +3668,14 @@ pg.base.island_item_data_template = {
 		desc = "简单而美味，是家庭餐桌上的经典搭配！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 110,
+		manage_influence = 230,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1600,
+		order_price = 370,
 		icon = "IslandProps/item_3030",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3030,
@@ -3949,47 +3690,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
-			}
-		}
-	},
-	[3031] = {
-		pt_num = 0,
-		name = "柠檬虾",
-		desc = "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
-		type = 1,
-		group_max = 0,
-		manage_influence = 120,
-		usage = "usage_undefined",
-		usage_arg = "[]",
-		drop_after_use = 0,
-		order_price = 0,
-		icon = "IslandProps/item_3031",
-		price = 1,
-		rarity = 1,
-		convert = 1,
-		resource_type = 1,
-		id = 3031,
-		have_max = 0,
-		filter = {
-			10113,
-			10125
-		},
-		sub_attribute = {
-			4,
-			35
-		},
-		jump_page = {
-			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"乌鱼烤肉",
+				{}
 			}
 		}
 	},
@@ -3999,14 +3701,14 @@ pg.base.island_item_data_template = {
 		desc = "禽肉搭配调料爆炒出锅，香气四溢！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 220,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2200,
+		order_price = 580,
 		icon = "IslandProps/item_3032",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3032,
@@ -4021,11 +3723,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"乌鱼烤肉",
+				{}
 			}
 		}
 	},
@@ -4035,14 +3734,14 @@ pg.base.island_item_data_template = {
 		desc = "薄薄的蛋皮裹着香甜的胡萝卜，口感层次丰富，是早餐或下午茶的绝佳选择！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 110,
+		manage_influence = 180,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 980,
+		order_price = 170,
 		icon = "IslandProps/item_3033",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3033,
@@ -4057,11 +3756,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"乌鱼烤肉",
+				{}
 			}
 		}
 	},
@@ -4071,14 +3767,14 @@ pg.base.island_item_data_template = {
 		desc = "既有快餐的便捷，又能享受主食的饱腹感，当之无愧的多功能美食！",
 		type = 1,
 		group_max = 0,
-		manage_influence = 120,
+		manage_influence = 150,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1200,
+		order_price = 845,
 		icon = "IslandProps/item_3034",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3034,
@@ -4093,11 +3789,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"乌鱼烤肉",
+				{}
 			}
 		}
 	},
@@ -4111,10 +3804,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 340,
 		icon = "IslandProps/item_3035",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3035,
@@ -4126,11 +3819,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4144,10 +3834,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 600,
 		icon = "IslandProps/item_3036",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3036,
@@ -4159,11 +3849,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4177,10 +3864,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 600,
 		icon = "IslandProps/item_3037",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3037,
@@ -4192,11 +3879,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4210,10 +3894,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 890,
 		icon = "IslandProps/item_3038",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3038,
@@ -4225,11 +3909,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4243,10 +3924,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 1100,
 		icon = "IslandProps/item_3039",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3039,
@@ -4258,11 +3939,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4276,10 +3954,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 2380,
 		icon = "IslandProps/item_3040",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3040,
@@ -4291,11 +3969,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4309,10 +3984,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 2380,
 		icon = "IslandProps/item_3041",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3041,
@@ -4324,11 +3999,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"手工制作设备",
+				{}
 			}
 		}
 	},
@@ -4342,10 +4014,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 300,
 		icon = "IslandProps/item_3042",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3042,
@@ -4357,11 +4029,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4375,10 +4044,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 770,
 		icon = "IslandProps/item_3043",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3043,
@@ -4390,11 +4059,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4408,10 +4074,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 660,
 		icon = "IslandProps/item_3044",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3044,
@@ -4423,11 +4089,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4441,10 +4104,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 840,
 		icon = "IslandProps/item_3045",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3045,
@@ -4456,11 +4119,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4474,10 +4134,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 1200,
 		icon = "IslandProps/item_3046",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3046,
@@ -4489,11 +4149,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4507,10 +4164,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 2560,
 		icon = "IslandProps/item_3047",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3047,
@@ -4522,11 +4179,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"工业生产设备",
+				{}
 			}
 		}
 	},
@@ -4540,7 +4194,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 175,
 		icon = "IslandProps/item_3048",
 		price = 1,
 		rarity = 1,
@@ -4555,11 +4209,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"木料加工设备",
+				{}
 			}
 		}
 	},
@@ -4573,10 +4224,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 1230,
 		icon = "IslandProps/item_3049",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3049,
@@ -4588,11 +4239,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"木料加工设备",
+				{}
 			}
 		}
 	},
@@ -4606,10 +4254,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 810,
 		icon = "IslandProps/item_3050",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3050,
@@ -4621,11 +4269,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"木料加工设备",
+				{}
 			}
 		}
 	},
@@ -4639,10 +4284,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 12,
+		order_price = 1610,
 		icon = "IslandProps/item_3051",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3051,
@@ -4654,11 +4299,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"木料加工设备",
+				{}
 			}
 		}
 	},
@@ -4672,10 +4314,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 2,
+		order_price = 2880,
 		icon = "IslandProps/item_3052",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3052,
@@ -4687,11 +4329,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"木料加工设备",
+				{}
 			}
 		}
 	},
@@ -4705,10 +4344,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 4,
+		order_price = 570,
 		icon = "IslandProps/item_3053",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 3053,
@@ -4720,11 +4359,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"电子加工设备",
+				{}
 			}
 		}
 	},
@@ -4738,10 +4374,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 6,
+		order_price = 2590,
 		icon = "IslandProps/item_3054",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3054,
@@ -4753,11 +4389,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"电子加工设备",
+				{}
 			}
 		}
 	},
@@ -4771,10 +4404,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 8,
+		order_price = 1750,
 		icon = "IslandProps/item_3055",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3055,
@@ -4786,11 +4419,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"电子加工设备",
+				{}
 			}
 		}
 	},
@@ -4804,10 +4434,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 2400,
 		icon = "IslandProps/item_3056",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3056,
@@ -4819,11 +4449,8 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"电子加工设备",
+				{}
 			}
 		}
 	},
@@ -4833,11 +4460,11 @@ pg.base.island_item_data_template = {
 		desc = "蓬松蛋皮包裹柔嫩内馅，金黄诱人，简单而满足的美味",
 		type = 1,
 		group_max = 0,
-		manage_influence = 560,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 1400,
+		order_price = 50,
 		icon = "IslandProps/item_3059",
 		price = 1,
 		rarity = 1,
@@ -4855,11 +4482,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"啾咖啡",
+				{}
 			}
 		}
 	},
@@ -4869,14 +4493,14 @@ pg.base.island_item_data_template = {
 		desc = "肉末烧豆腐搭配白菜豆腐汤，简单美味的一餐。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 1735,
 		icon = "IslandProps/item_3101",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3101,
@@ -4891,11 +4515,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -4905,14 +4526,14 @@ pg.base.island_item_data_template = {
 		desc = "蓬松蛋包饭搭配温润嫩豆腐，简单却令人满足的滋味。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 220,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 695,
 		icon = "IslandProps/item_3102",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3102,
@@ -4927,11 +4548,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -4941,14 +4559,14 @@ pg.base.island_item_data_template = {
 		desc = "薰衣草的舒缓芬芳与苹果的清新甘甜巧妙融合，带来双重味觉享受。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 170,
 		icon = "IslandProps/item_3103",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3103,
@@ -4963,11 +4581,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -4977,14 +4592,14 @@ pg.base.island_item_data_template = {
 		desc = "香甜香蕉芒果汁碰撞草莓蜂蜜冰沙，双重果味为你带去清爽的体验。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 215,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 1000,
 		icon = "IslandProps/item_3104",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3104,
@@ -4999,11 +4614,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5013,14 +4625,14 @@ pg.base.island_item_data_template = {
 		desc = "草莓蜜沁的甜美与蜂蜜柠檬水的清新，碰撞出活力十足的阳光味道。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 260,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 410,
 		icon = "IslandProps/item_3105",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3105,
@@ -5035,11 +4647,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5049,14 +4658,14 @@ pg.base.island_item_data_template = {
 		desc = "热带芒果香糯，遇上甜脆玉米杯，一次尝遍两种幸福甜味。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 250,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 560,
 		icon = "IslandProps/item_3106",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3106,
@@ -5071,11 +4680,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5085,14 +4691,14 @@ pg.base.island_item_data_template = {
 		desc = "香蕉可丽饼的柔软搭配金黄苹果派的酥香，一次享受双重果味甜蜜。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 240,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 615,
 		icon = "IslandProps/item_3107",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3107,
@@ -5107,11 +4713,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5121,14 +4724,14 @@ pg.base.island_item_data_template = {
 		desc = "草莓的浪漫邂逅香橙的阳光气息，碰撞出令人陶醉的甜点时光。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 1730,
 		icon = "IslandProps/item_3108",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3108,
@@ -5143,11 +4746,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5157,14 +4757,14 @@ pg.base.island_item_data_template = {
 		desc = "香烤肉串配酥嫩禽肉土豆，让你一次吃个过瘾。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 230,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 760,
 		icon = "IslandProps/item_3109",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3109,
@@ -5179,11 +4779,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5193,14 +4790,14 @@ pg.base.island_item_data_template = {
 		desc = "经典汉堡肉饭搭配香辣爆炒禽肉，双重蛋白质满足你一天的能量。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 210,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 1430,
 		icon = "IslandProps/item_3110",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3110,
@@ -5215,11 +4812,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5229,14 +4823,14 @@ pg.base.island_item_data_template = {
 		desc = "蓬松欧姆蛋邂逅香浓拿铁，给你一个完美的早餐时刻。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 250,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 300,
 		icon = "IslandProps/item_3111",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3111,
@@ -5251,11 +4845,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5265,14 +4856,14 @@ pg.base.island_item_data_template = {
 		desc = "冰咖啡搭配浓郁芝士，苦甜平衡的经典醒神套餐。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 240,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 650,
 		icon = "IslandProps/item_3112",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 3112,
@@ -5287,11 +4878,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5301,14 +4889,14 @@ pg.base.island_item_data_template = {
 		desc = "柑橘咖啡的微酸邂逅草莓奶绿的香甜，两份特调一次满足。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 100,
+		manage_influence = 260,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 10,
+		order_price = 450,
 		icon = "IslandProps/item_3113",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 3113,
@@ -5323,11 +4911,8 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"商店购买",
-				{
-					"IslandShopScene",
-					"page = 1"
-				}
+				"套餐菜单",
+				{}
 			}
 		}
 	},
@@ -5341,10 +4926,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 400,
 		icon = "IslandProps/item_4001",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 4001,
@@ -5353,7 +4938,12 @@ pg.base.island_item_data_template = {
 			10111
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
 	},
 	[4002] = {
 		pt_num = 2,
@@ -5365,7 +4955,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 200,
 		icon = "IslandProps/item_4002",
 		price = 1,
 		rarity = 1,
@@ -5377,7 +4967,12 @@ pg.base.island_item_data_template = {
 			10111
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
 	},
 	[4003] = {
 		pt_num = 1,
@@ -5389,7 +4984,7 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 150,
 		icon = "IslandProps/item_4003",
 		price = 1,
 		rarity = 1,
@@ -5401,7 +4996,12 @@ pg.base.island_item_data_template = {
 			10111
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
 	},
 	[4004] = {
 		pt_num = 95,
@@ -5413,10 +5013,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 800,
 		icon = "IslandProps/item_4004",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 4004,
@@ -5425,7 +5025,12 @@ pg.base.island_item_data_template = {
 			10111
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"地图采集",
+				{}
+			}
+		}
 	},
 	[4005] = {
 		pt_num = 5,
@@ -5437,10 +5042,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 70,
 		icon = "IslandProps/item_4005",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 4005,
@@ -5450,7 +5055,12 @@ pg.base.island_item_data_template = {
 			10121
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"坠香果园",
+				{}
+			}
+		}
 	},
 	[4006] = {
 		pt_num = 1,
@@ -5474,7 +5084,15 @@ pg.base.island_item_data_template = {
 			10114
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"商店购买",
+				{
+					"IslandShopScene",
+					"page = 1"
+				}
+			}
+		}
 	},
 	[4007] = {
 		pt_num = 24,
@@ -5486,10 +5104,10 @@ pg.base.island_item_data_template = {
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 200,
 		icon = "IslandProps/item_4007",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 4007,
@@ -5499,7 +5117,12 @@ pg.base.island_item_data_template = {
 			10121
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"坠香果园",
+				{}
+			}
+		}
 	},
 	[4008] = {
 		pt_num = 1,
@@ -5523,7 +5146,15 @@ pg.base.island_item_data_template = {
 			10114
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"商店购买",
+				{
+					"IslandShopScene",
+					"page = 1"
+				}
+			}
+		}
 	},
 	[4009] = {
 		pt_num = 25,
@@ -5531,14 +5162,14 @@ pg.base.island_item_data_template = {
 		desc = "香甜软糯的柿子饼，由鲜柿制作而成，是传统风味茶点。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 210,
 		icon = "IslandProps/item_4009",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 4009,
@@ -5547,8 +5178,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10129
 		},
-		sub_attribute = {},
-		jump_page = {}
+		sub_attribute = {
+			4,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
 	},
 	[4010] = {
 		pt_num = 135,
@@ -5556,14 +5195,14 @@ pg.base.island_item_data_template = {
 		desc = "鲜香浓郁的松茸鸡汤，使用禽肉与松茸慢炖，温补滋养。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 900,
 		icon = "IslandProps/item_4010",
 		price = 1,
-		rarity = 1,
+		rarity = 4,
 		convert = 1,
 		resource_type = 1,
 		id = 4010,
@@ -5572,8 +5211,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10129
 		},
-		sub_attribute = {},
-		jump_page = {}
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"有鱼餐馆",
+				{}
+			}
+		}
 	},
 	[4011] = {
 		pt_num = 70,
@@ -5581,14 +5228,14 @@ pg.base.island_item_data_template = {
 		desc = "温暖橘黄的秋季花束，精选菊花、芦苇等时令花材，装点秋意。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 705,
 		icon = "IslandProps/item_4011",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 4011,
@@ -5597,8 +5244,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10131
 		},
-		sub_attribute = {},
-		jump_page = {}
+		sub_attribute = {
+			3,
+			35
+		},
+		jump_page = {
+			{
+				"手工制作设备",
+				{}
+			}
+		}
 	},
 	[4012] = {
 		pt_num = 100,
@@ -5606,14 +5261,14 @@ pg.base.island_item_data_template = {
 		desc = "醇香浓郁的花生油，由优质花生压榨，是健康烹饪用油。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 1005,
 		icon = "IslandProps/item_4012",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 4012,
@@ -5622,8 +5277,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10131
 		},
-		sub_attribute = {},
-		jump_page = {}
+		sub_attribute = {
+			5,
+			35
+		},
+		jump_page = {
+			{
+				"手工制作设备",
+				{}
+			}
+		}
 	},
 	[4013] = {
 		pt_num = 20,
@@ -5631,14 +5294,14 @@ pg.base.island_item_data_template = {
 		desc = "鲜榨甘甜的胡萝卜秋梨汁，融合秋梨的清润与胡萝卜的营养，清爽解渴。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 200,
 		icon = "IslandProps/item_4013",
 		price = 1,
-		rarity = 1,
+		rarity = 2,
 		convert = 1,
 		resource_type = 1,
 		id = 4013,
@@ -5647,8 +5310,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10128
 		},
-		sub_attribute = {},
-		jump_page = {}
+		sub_attribute = {
+			4,
+			35
+		},
+		jump_page = {
+			{
+				"白熊饮品",
+				{}
+			}
+		}
 	},
 	[4014] = {
 		pt_num = 100,
@@ -5656,14 +5327,14 @@ pg.base.island_item_data_template = {
 		desc = "淡雅清香的菊花茶，冲泡秋菊花瓣，清热降火，回味甘醇。",
 		type = 1,
 		group_max = 0,
-		manage_influence = 0,
+		manage_influence = 280,
 		usage = "usage_undefined",
 		usage_arg = "[]",
 		drop_after_use = 0,
-		order_price = 0,
+		order_price = 840,
 		icon = "IslandProps/item_4014",
 		price = 1,
-		rarity = 1,
+		rarity = 3,
 		convert = 1,
 		resource_type = 1,
 		id = 4014,
@@ -5672,32 +5343,16 @@ pg.base.island_item_data_template = {
 			10113,
 			10128
 		},
-		sub_attribute = {},
-		jump_page = {}
-	},
-	[100000] = {
-		pt_num = 0,
-		name = "职责之星",
-		desc = "一颗能够解锁无限可能的职责之星。使用后，使角色所有能力的上限解锁至满值。",
-		type = 2,
-		group_max = 0,
-		manage_influence = 0,
-		usage = "usage_undefined",
-		usage_arg = "[]",
-		drop_after_use = 0,
-		order_price = 0,
-		icon = "IslandProps/item_100000",
-		price = 0,
-		rarity = 4,
-		convert = 0,
-		resource_type = 0,
-		id = 100000,
-		have_max = 0,
-		filter = {
-			10211
+		sub_attribute = {
+			3,
+			35
 		},
-		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"白熊饮品",
+				{}
+			}
+		}
 	},
 	[100001] = {
 		pt_num = 0,
@@ -5721,7 +5376,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"白熊饮品",
+				{}
+			}
+		}
 	},
 	[100002] = {
 		pt_num = 0,
@@ -5745,7 +5405,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			},
+			{
+				"计划",
+				{}
+			}
+		}
 	},
 	[100003] = {
 		pt_num = 0,
@@ -5769,7 +5438,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			},
+			{
+				"计划",
+				{}
+			}
+		}
 	},
 	[100011] = {
 		pt_num = 0,
@@ -5793,7 +5471,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			},
+			{
+				"计划",
+				{}
+			}
+		}
 	},
 	[100012] = {
 		pt_num = 0,
@@ -5817,7 +5504,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100013] = {
 		pt_num = 0,
@@ -5841,7 +5537,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100021] = {
 		pt_num = 0,
@@ -5865,7 +5566,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100022] = {
 		pt_num = 0,
@@ -5889,7 +5599,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100023] = {
 		pt_num = 0,
@@ -5937,7 +5652,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100032] = {
 		pt_num = 0,
@@ -5961,7 +5685,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100033] = {
 		pt_num = 0,
@@ -6009,7 +5738,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100042] = {
 		pt_num = 0,
@@ -6033,7 +5771,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100043] = {
 		pt_num = 0,
@@ -6081,7 +5824,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100052] = {
 		pt_num = 0,
@@ -6105,7 +5857,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100053] = {
 		pt_num = 0,
@@ -6153,7 +5910,16 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			},
+			{
+				"开发计划",
+				{}
+			}
+		}
 	},
 	[100062] = {
 		pt_num = 0,
@@ -6177,7 +5943,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"累计PT",
+				{}
+			}
+		}
 	},
 	[100063] = {
 		pt_num = 0,
@@ -6225,7 +5996,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
 	},
 	[100102] = {
 		pt_num = 0,
@@ -6249,7 +6025,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
 	},
 	[100103] = {
 		pt_num = 0,
@@ -6273,7 +6054,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
 	},
 	[100201] = {
 		pt_num = 0,
@@ -6297,7 +6083,12 @@ pg.base.island_item_data_template = {
 			10211
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
+		}
 	},
 	[110001] = {
 		pt_num = 0,
@@ -6330,7 +6121,16 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			},
+			{
+				"每日计划",
+				{}
+			}
+		}
 	},
 	[110002] = {
 		pt_num = 0,
@@ -6365,7 +6165,12 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			}
+		}
 	},
 	[110003] = {
 		pt_num = 0,
@@ -6400,7 +6205,12 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			}
+		}
 	},
 	[110004] = {
 		pt_num = 0,
@@ -6435,7 +6245,12 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			}
+		}
 	},
 	[110005] = {
 		pt_num = 0,
@@ -6470,7 +6285,12 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			}
+		}
 	},
 	[110006] = {
 		pt_num = 0,
@@ -6503,7 +6323,12 @@ pg.base.island_item_data_template = {
 				{}
 			}
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"日常补给",
+				{}
+			}
+		}
 	},
 	[200001] = {
 		pt_num = 0,

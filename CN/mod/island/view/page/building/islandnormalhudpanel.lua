@@ -56,20 +56,12 @@ end
 slot0.CheckIsNear = function(slot0)
 	slot2 = slot0.view:GetUnitModuleWithType(slot0.unitType, slot0.unitId) and slot1._go or nil
 
-	if not slot1 or IsNil(slot2) or not slot2.transform then
+	if not slot1 or IsNil(slot2) or IsNil(slot2.transform) then
 		return false
 	end
 
-	if not slot0.playerTF then
+	if IsNil(slot0.playerTF) then
 		return false
-	end
-
-	if slot0.playerTF == nil then
-		warning("self.playerTF is nil ")
-	end
-
-	if slot2.transform == nil then
-		warning("role.transform is nil")
 	end
 
 	if (slot0.playerTF.position - slot2.transform.position).magnitude < slot0.hud_name_range then

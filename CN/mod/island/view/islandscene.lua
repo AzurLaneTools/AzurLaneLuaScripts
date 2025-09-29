@@ -159,9 +159,7 @@ slot0.OnStartNavPath = function(slot0, slot1)
 end
 
 slot0.OnNavPathDone = function(slot0, slot1)
-	if slot1 then
-		slot0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
-	end
+	slot0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
 end
 
 slot0.OnExpChange = function(slot0)

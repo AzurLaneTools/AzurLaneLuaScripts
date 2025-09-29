@@ -67,6 +67,10 @@ slot0.Reset = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	if slot0.__state == uv0 then
+		return
+	end
+
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0:IsLoaded() then

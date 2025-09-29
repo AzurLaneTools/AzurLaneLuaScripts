@@ -121933,6 +121933,48 @@ _G.pg.base.item_data_statistics[81219] = {
 }
 
 
+_G.pg.base.item_data_statistics[81220] = {
+	open_directly = 1,
+	name = "心动时刻礼包",
+	type = 17,
+	display = "购买礼包可获得限量纪念币*10，舰艇演习数据T2*12",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxDokidoki",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998561",
+	id = 81220,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180001,
+			10
+		},
+		{
+			2,
+			16502,
+			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "冬日自选礼包1",
@@ -123328,5 +123370,311 @@ _G.pg.base.item_data_statistics[100025] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180001] = {
+	open_directly = 0,
+	name = "限量纪念币",
+	type = 50,
+	display = "一枚颇具分量的专属纪念币，流转着不凡的光泽，象征着一段独特的荣耀与回忆。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>5点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift01",
+	price = "",
+	order = 0,
+	rarity = 5,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180001,
+		500
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180002] = {
+	open_directly = 0,
+	name = "精装书",
+	type = 50,
+	display = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180002,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180003] = {
+	open_directly = 0,
+	name = "鲜花束",
+	type = 50,
+	display = "一束新鲜采摘的缤纷花礼。洋溢着自然的生机与明快的色彩，能带去每一日的美好心情。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift03",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180003,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180004] = {
+	open_directly = 0,
+	name = "仪式剑",
+	type = 50,
+	display = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift04",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180004,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180005] = {
+	open_directly = 0,
+	name = "绒绒玩偶",
+	type = 50,
+	display = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖慰藉和憨态可掬的笑容。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift05",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180005,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180006] = {
+	open_directly = 0,
+	name = "古董摆件",
+	type = 50,
+	display = "时光在此沉淀，化作一件温润雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift06",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180006,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180007] = {
+	open_directly = 0,
+	name = "精致首饰",
+	type = 50,
+	display = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift07",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180007,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180008] = {
+	open_directly = 0,
+	name = "高档香水",
+	type = 50,
+	display = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift08",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180008,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180009] = {
+	open_directly = 0,
+	name = "游戏机套组",
+	type = 50,
+	display = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。\n赠送给喜欢该礼物的舰船，会增加<color=#92fc63FF>1点</color>好感度。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift09",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180009,
+		100
+	},
 	limit = {}
 }

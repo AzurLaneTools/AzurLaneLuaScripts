@@ -4,7 +4,7 @@ return {
 	map = {
 		{
 			100400,
-			10010040
+			10010068
 		}
 	},
 	look_weight = {
@@ -19,15 +19,23 @@ return {
 	},
 	scripts = {
 		{
-			animation = "hi",
+			say = "赫莫？",
 			characterId = 0,
-			say = "这么专注，莫非……是发现什么宝藏了？",
+			animation = "hi",
 			face2Face = {
 				{
 					0,
 					100400
 				}
 			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "这么专注，莫非……是发现什么宝藏了？",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "它们是有什么特别之处吗？",
+			say = "它们有什么特别之处么？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +79,8 @@ return {
 			}
 		},
 		{
-			say = "是所有的作物都这样吗？",
+			say = "是所有的作物都这样么？",
+			animation = "talk",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +89,7 @@ return {
 		},
 		{
 			say = "嗯，就目前我观察到的情况来说……",
-			animation = "talk",
+			animation = "nod",
 			characterId = 100400,
 			subName = "农田管理员",
 			typewriter = {
@@ -99,7 +108,7 @@ return {
 		},
 		{
 			say = "我想找出它们表现优异的原因……到底是光照？还是土壤呢……",
-			animation = "doubt",
+			animation = "think",
 			characterId = 100400,
 			subName = "农田管理员",
 			typewriter = {
@@ -108,7 +117,6 @@ return {
 			}
 		},
 		{
-			animation = "nod",
 			say = "真是了不起的观察力……",
 			characterId = 0,
 			typewriter = {
@@ -127,10 +135,9 @@ return {
 			}
 		},
 		{
-			say = "对了！我这里还剩下一些小麦种子，指挥官也可以自己试试的。",
-			animation = "idea",
-			characterId = 100400,
+			say = "指挥官也可以购买些种子来种种看。",
 			subName = "农田管理员",
+			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +145,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "从播种到收获~慢慢观察它们生长的全过程！",
+			say = "从播种到收获……慢慢观察它们生长的全过程！",
 			characterId = 100400,
 			subName = "农田管理员",
 			typewriter = {
@@ -148,7 +155,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯，给我一些种子吧，我也来试试。",
+			say = "嗯，那我来试试看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

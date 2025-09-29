@@ -51,9 +51,9 @@ slot0.SortIndexs = {
 	slot0.SortEnergy
 }
 slot0.SortNames = {
-	"word_lv",
-	"word_synthesize_power",
-	"sort_energy"
+	"island_chara_list_level",
+	"island_chara_list_attribute",
+	"island_index_name"
 }
 slot0.ExtraPotency = bit.lshift(1, 0)
 slot0.ExtraCanUpgSkill = bit.lshift(1, 1)

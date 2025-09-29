@@ -108,7 +108,9 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.CHANGE_CHAT_ROOM_DONE,
 		GAME.FRIEND_SEARCH_DONE,
 		GAME.ON_APPLICATION_PAUSE,
-		GAME.ISLAND_ON_HOME
+		GAME.ISLAND_ON_HOME,
+		GAME.ISLAND_ON_RECONNECT,
+		GAME.ISLAND_SELECT_GIFT_DONE
 	}
 
 	for slot6, slot7 in ipairs(slot0:_listNotificationInterests()) do
@@ -152,6 +154,15 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.ISLAND_ON_HOME then
 		slot0.viewComponent:emit(BaseUI.ON_HOME)
+	elseif slot2 == GAME.ISLAND_ON_RECONNECT then
+		slot4 = slot0.viewComponent
+
+		slot4:ExitProcess(BaseUI.ON_HOME, function ()
+			pg.m02:sendNotification(GAME.ISLAND_ENTER, uv0)
+			pg.NewGuideMgr.GetInstance():Stop()
+		end)
+	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
+		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	end
 
 	slot0:_handleNotification(slot1)
