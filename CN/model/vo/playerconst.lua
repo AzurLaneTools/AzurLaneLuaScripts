@@ -106,7 +106,7 @@ slot0.addTranDrop = function(slot0, slot1)
 	for slot8, slot9 in ipairs(slot0) do
 		slot10, slot11 = slot9:DropTrans(slot3, slot1)
 
-		if slot10 then
+		if slot10 and slot10.type ~= DROP_TYPE_TIMESTAMP then
 			table.insert(slot4, slot10)
 			pg.m02:sendNotification(GAME.ADD_ITEM, slot10)
 		end

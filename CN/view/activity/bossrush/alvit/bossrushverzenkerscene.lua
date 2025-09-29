@@ -348,9 +348,8 @@ slot0.UpdateStory = function(slot0)
 
 	for slot7, slot8 in pairs(slot0.storyNodesDict) do
 		slot9 = slot0.nodes[tostring(slot8.id)]
-		slot10 = slot8:IsActive(slot0.activity, slot0.ptActivity)
 
-		setActive(slot9, slot9)
+		setActive(slot9, slot8:IsActive(slot0.activity, slot0.ptActivity))
 		setText(slot9:Find("main/char/bg/Text"), slot8:GetName())
 
 		slot2 = slot2 + (slot8:IsReaded() and 1 or 0)
@@ -381,10 +380,6 @@ slot0.UpdateStory = function(slot0)
 		end, SFX_PANEL)
 		setActive(slot6:Find("get"), slot0.storyTask:getTaskStatus() == 1)
 		setActive(slot6:Find("got"), slot7 == 2)
-
-		if slot7 == 1 then
-			slot0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, slot0.storyTask)
-		end
 	end
 end
 

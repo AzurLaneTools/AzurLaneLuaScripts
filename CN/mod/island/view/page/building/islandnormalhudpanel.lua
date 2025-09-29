@@ -93,6 +93,10 @@ slot0.RefreshHud = function(slot0)
 end
 
 slot0.UpdateTaskDisplay = function(slot0)
+	if IsNil(slot0.hudImageBg) then
+		return
+	end
+
 	slot1, slot2 = IslandObjectTaskHudHelper.GetObjectTaskHud(slot0.unitId)
 
 	if slot0.currentTaskId ~= slot2 then

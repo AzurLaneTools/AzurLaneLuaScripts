@@ -44819,3 +44819,8 @@ _G.pg.base.gametip.world_inventory_tip = {
 _G.pg.base.gametip.island_setmeal_title = {
 	tip = "套餐图鉴"
 }
+
+
+_G.pg.base.gametip.island_shipselect_confirm = {
+	tip = "确认"
+}

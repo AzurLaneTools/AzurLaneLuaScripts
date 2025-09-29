@@ -101,7 +101,7 @@ slot0.GetShowTasks = function(slot0)
 				return uv0:IsFinishTask(slot0)
 			end)
 
-			if slot7 == IslandTaskType.SEASON then
+			if slot7 == IslandTaskType.HIDE then
 				if #slot8 > 0 and slot9 then
 					table.insert(slot1, slot6)
 				end

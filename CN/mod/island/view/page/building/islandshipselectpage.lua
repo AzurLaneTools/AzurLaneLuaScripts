@@ -41,7 +41,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.statusTF = slot0:findTF("status", slot0.infoPanel)
 	slot0.sureBtn = slot0:findTF("sure")
 
-	setText(slot0.sureBtn:Find("Text"), i18n("shop_new_confirm"))
+	setText(slot0.sureBtn:Find("Text"), i18n("island_shipselect_confirm"))
 
 	slot0.indexBtn = slot0._tf:Find("frame/filter_panel/IndexIco")
 	slot0.orderBtn = slot0._tf:Find("frame/filter_panel/index")

@@ -1070,13 +1070,15 @@ slot0.UpdateView = function(slot0, slot1)
 					type = IslandMsgBox.TYPE_COMMON,
 					content = i18n("island_3Dshop_clothes_jump"),
 					onYes = function ()
-						if uv0.showingShop:GetCommanderOrCharaType() == 0 then
-							uv0:OpenScenePage(IslandShipIslandCommanderMainPage)
-						elseif slot0 == 1 or slot0 == 2 then
-							uv0:OpenScenePage(IslandShipMainPage, 3)
-						end
+						uv0:ClearCharacterScene(function ()
+							uv0:Hide()
 
-						uv0:Hide()
+							if uv0.showingShop:GetCommanderOrCharaType() == 0 then
+								uv0:OpenScenePage(IslandShipIslandCommanderMainPage)
+							elseif slot0 == 1 or slot0 == 2 then
+								uv0:OpenScenePage(IslandShipMainPage, 3)
+							end
+						end)
 					end
 				})
 			end

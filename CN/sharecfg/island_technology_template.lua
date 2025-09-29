@@ -1449,7 +1449,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			1,
-			6
+			6.5
 		}
 	},
 	[220501] = {
@@ -1476,7 +1476,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			3,
-			7
+			10
 		}
 	},
 	[210401] = {
@@ -1502,8 +1502,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			3,
-			2
+			3.5,
+			4.5
 		}
 	},
 	[220201] = {
@@ -1520,8 +1520,8 @@ pg.base.island_technology_template = {
 		island_level = 9,
 		sys_unlock = {
 			{
-				1,
-				10001020
+				3,
+				220101
 			}
 		},
 		tech_repeat = {
@@ -1529,8 +1529,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			5,
-			9
+			4,
+			8.5
 		}
 	},
 	[220401] = {
@@ -1557,7 +1557,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			6,
-			7
+			10
 		}
 	},
 	[210102] = {
@@ -1601,8 +1601,8 @@ pg.base.island_technology_template = {
 		island_level = 11,
 		sys_unlock = {
 			{
-				1,
-				10001030
+				3,
+				210101
 			}
 		},
 		tech_repeat = {
@@ -1610,8 +1610,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			5,
-			4
+			4,
+			3
 		}
 	},
 	[220202] = {
@@ -1638,7 +1638,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			8,
-			9
+			8.5
 		}
 	},
 	[210501] = {
@@ -1664,8 +1664,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			7,
-			2
+			6.5,
+			4.5
 		}
 	},
 	[220502] = {
@@ -1692,7 +1692,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			9,
-			7
+			10
 		}
 	},
 	[220102] = {
@@ -1718,8 +1718,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			11,
-			6
+			9,
+			6.5
 		}
 	},
 	[220203] = {
@@ -1746,7 +1746,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			11,
-			9
+			8.5
 		}
 	},
 	[210202] = {
@@ -1772,8 +1772,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			11,
-			4
+			9,
+			3
 		}
 	},
 	[210502] = {
@@ -1799,8 +1799,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			11,
-			2
+			11.5,
+			4.5
 		}
 	},
 	[220103] = {
@@ -1827,7 +1827,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			14,
-			6
+			6.5
 		}
 	},
 	[220204] = {
@@ -1854,7 +1854,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			14,
-			9
+			8.5
 		}
 	},
 	[210103] = {
@@ -1908,7 +1908,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			14,
-			4
+			3
 		}
 	},
 	[210104] = {
@@ -1962,7 +1962,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			17,
-			6
+			6.5
 		}
 	},
 	[210601] = {
@@ -1988,8 +1988,8 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			19,
-			2
+			20,
+			4.5
 		}
 	},
 	[220601] = {
@@ -2016,7 +2016,7 @@ pg.base.island_technology_template = {
 		},
 		axis = {
 			20,
-			7
+			10
 		}
 	},
 	[310301] = {
@@ -2329,6 +2329,10 @@ pg.base.island_technology_template = {
 		id = 320202,
 		island_level = 13,
 		sys_unlock = {
+			{
+				1,
+				10003070
+			},
 			{
 				3,
 				310202

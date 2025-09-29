@@ -94,7 +94,10 @@ slot3.RefreshTemp = function(slot0)
 	if slot0.orginTargetDir.x ~= 0 or slot0.orginTargetDir.z ~= 0 then
 		slot1 = IslandCameraMgr.instance._mainCamera.transform:TransformVector(slot0.orginTargetDir)
 		slot0.targetDir = uv0(slot1.x, 0, slot1.z).normalized
-		slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+
+		if slot0.targetDir ~= Vector3.zero then
+			slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+		end
 	end
 end
 

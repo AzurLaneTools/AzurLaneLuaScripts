@@ -4,14 +4,15 @@ return {
 	map = {
 		{
 			3120100,
-			10020027
+			10020013
 		}
 	},
 	scripts = {
 		{
 			say = "{namecode:98:明石}，怎么样，你找到那本生活经验指南了？",
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			camera = "StoryCamera7",
 			face2Face = {
 				{
 					0,

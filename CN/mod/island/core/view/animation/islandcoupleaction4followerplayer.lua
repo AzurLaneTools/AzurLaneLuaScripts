@@ -16,8 +16,6 @@ slot0.EnableOrDisableUnitSyn = function(slot0, slot1, slot2, slot3)
 	if isa(slot2, IslandFollowNpcUnit) then
 		slot4(slot2, slot3)
 	end
-
-	slot0:EnableOrDisableNavMeshObstacle(slot2, slot3)
 end
 
 slot0.EnableOrDisableNavMeshObstacle = function(slot0, slot1, slot2)

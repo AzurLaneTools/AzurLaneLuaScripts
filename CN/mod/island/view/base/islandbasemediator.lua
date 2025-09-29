@@ -159,7 +159,6 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot4:ExitProcess(BaseUI.ON_HOME, function ()
 			pg.m02:sendNotification(GAME.ISLAND_ENTER, uv0)
-			pg.NewGuideMgr.GetInstance():Stop()
 		end)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)

@@ -3408,6 +3408,7 @@ pg.base.island_shop_goods = {
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
+		unlock = "",
 		goods_name = "亚麻种子",
 		desc = "购买可获得亚麻种子",
 		pt_award = 0,
@@ -3440,9 +3441,6 @@ pg.base.island_shop_goods = {
 				1010,
 				1
 			}
-		},
-		unlock = {
-			3502001
 		}
 	},
 	[411011] = {

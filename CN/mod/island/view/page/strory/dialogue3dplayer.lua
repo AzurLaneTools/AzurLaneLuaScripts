@@ -477,10 +477,19 @@ slot0.TryFace2Face = function(slot0, slot1, slot2)
 end
 
 slot0.Face2Face = function(slot0, slot1, slot2, slot3)
-	slot1.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot2.position - slot1.position).eulerAngles.y, 0)
-	slot2.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot1.position - slot2.position).eulerAngles.y, 0)
+	slot5 = slot1.position - slot2.position
 
-	slot3()
+	if (slot2.position - slot1.position).sqrMagnitude > 0.0001 then
+		slot1.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot4).eulerAngles.y, 0)
+	end
+
+	if slot5.sqrMagnitude > 0.0001 then
+		slot2.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot5).eulerAngles.y, 0)
+	end
+
+	if slot3 then
+		slot3()
+	end
 end
 
 slot0.StartUIAnimations = function(slot0, slot1, slot2)

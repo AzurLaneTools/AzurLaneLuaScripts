@@ -20,12 +20,12 @@ slot0.TYPE_RECOVER_ORE = 23
 slot0.TYPE_SECOND_PRODUCT = 24
 slot0.TYPE_PRODUCT_FELLING = 26
 slot0.TYPE_PRODUCT_MINING = 27
+slot0.TYPE_ORDER_EXP = 31
 slot0.TYPE_POST_MANAGE = 37
 slot0.TYPE_PRODUCT_FARM = 38
 slot0.TYPE_PRODUCT_ORCHARD = 39
 slot0.TYPE_PRODUCT_GARDEN = 40
 slot0.ANIMATION_OP_ID = 40
-slot0.ORDER_EXP_ID = 31
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.abilitys = {}
@@ -48,6 +48,12 @@ slot0.AddAblity = function(slot0, slot1)
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandUnlockMap(uv0.GetEffect(slot1)))
 		getProxy(IslandProxy):GetIsland():GetTechnologyAgency():TryAutoUnlock()
 	end
+end
+
+slot0.IsUnlockOrderExp = function(slot0)
+	return _.any(slot0.abilitys, function (slot0)
+		return uv0.IsOrderExpType(slot0)
+	end)
 end
 
 slot0.IsUnlockPostManage = function(slot0)
@@ -220,6 +226,10 @@ end
 
 slot0.GetEffect = function(slot0)
 	return pg.island_ability_template[slot0].effect
+end
+
+slot0.IsOrderExpType = function(slot0)
+	return pg.island_ability_template[slot0].type == uv0.TYPE_ORDER_EXP
 end
 
 return slot0

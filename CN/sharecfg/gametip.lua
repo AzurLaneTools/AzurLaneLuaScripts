@@ -34300,5 +34300,10 @@ cs.gametip = {
 		1173955,
 		96,
 		true
+	},
+	island_shipselect_confirm = {
+		1174051,
+		95,
+		true
 	}
 }
