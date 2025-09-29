@@ -309,7 +309,9 @@ slot0.OnBackPressed = function(slot0)
 	end
 
 	for slot4 = #slot0.pages, 1, -1 do
-		slot0:ClosePage(slot0.pages[slot4].class)
+		if slot0.pages[slot4]:CanEsc() then
+			slot0:ClosePage(slot5.class)
+		end
 
 		return true
 	end
@@ -325,11 +327,17 @@ slot0.Dispose = function(slot0)
 	slot0.state = uv0
 
 	for slot4 = #slot0.pages, 1, -1 do
-		slot0:DestroyPage(slot0.pages[slot4])
+		slot5 = slot0.pages[slot4]
+
+		slot5:ActiveOrDisactive(false)
+		slot0:DestroyPage(slot5)
 	end
 
 	for slot4 = #slot0.noStatePages, 1, -1 do
-		slot0:DestroyPage(slot0.noStatePages[slot4])
+		slot5 = slot0.noStatePages[slot4]
+
+		slot5:ActiveOrDisactive(false)
+		slot0:DestroyPage(slot5)
 	end
 
 	slot0.stack = nil

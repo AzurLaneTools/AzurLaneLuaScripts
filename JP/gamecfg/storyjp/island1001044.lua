@@ -3,7 +3,7 @@ return {
 	id = "ISLAND1001044",
 	map = {
 		{
-			10070030,
+			3120100,
 			10070030
 		}
 	},
@@ -24,7 +24,7 @@ return {
 			face2Face = {
 				{
 					0,
-					10070030
+					3120100
 				}
 			},
 			typewriter = {
@@ -35,7 +35,7 @@ return {
 		{
 			say = "にゃ？！し、指揮官？！",
 			animation = "amaze",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			say = "にゃ……それは……",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 		{
 			say = "指揮官、明石はとある壮大な計画を温めているにゃ！開発エリア全体の生産フローを変える、画期的な事業にゃ！",
 			animation = "clap",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 		{
 			say = "ずばり、工場の生産ラインにゃ！",
 			animation = "talk",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 		{
 			say = "その通りにゃ！",
 			animation = "nod",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			say = "ただ……完璧な計画があっても……材料が……ちょっと足りないにゃ……",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 		{
 			say = "ムフフ、安心するにゃ！この島で集められるものばかりにゃ！",
 			animation = "elation",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 		{
 			say = "もう用意してあるにゃ！じゃあ指揮官、行ってらっしゃいにゃ〜",
 			animation = "clap",
-			characterId = 10070030,
+			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

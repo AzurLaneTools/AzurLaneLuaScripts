@@ -72,7 +72,7 @@ slot0.LateUpdate = function(slot0)
 	end
 end
 
-slot0.OnDispose = function(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.hudPanelDic) do
 		for slot9, slot10 in pairs(slot5) do
 			slot10:Dispose()

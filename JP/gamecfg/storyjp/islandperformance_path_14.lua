@@ -1,6 +1,11 @@
 return {
 	{
+		index = "ISLAND_STORYNPC_PATH_14",
+		type = 5
+	},
+	{
 		name = "ISLAND1001041",
+		refreshNpc = false,
 		type = 3
 	},
 	{
@@ -8,7 +13,6 @@ return {
 		waitUntilDone = false,
 		hide = false,
 		type = 1,
-		index = "ISLAND_STORYNPC_PATH_14",
 		object = 10050033,
 		position = {
 			119.15,

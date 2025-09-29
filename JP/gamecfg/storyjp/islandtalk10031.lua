@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "货运管理员",
+			subName = "物流スタッフ",
 			animation = "nod",
 			characterId = 100300,
-			say = "建材、工具、补给品……港口能搞到的，斯蒂芬妮一定尽力帮你安排~",
+			say = "建材、工具、補給品……港で手に入るものなら、全力で手配するからね～",
 			face2Face = {
 				{
 					0,

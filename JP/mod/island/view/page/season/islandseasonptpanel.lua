@@ -121,6 +121,7 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollCom)
 	slot0:OnHide()
 end
 

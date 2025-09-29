@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "――これでいいか？",
+			say = "――わかった。お疲れ様、明石",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

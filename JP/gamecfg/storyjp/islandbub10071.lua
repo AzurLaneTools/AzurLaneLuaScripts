@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "哈~密实又匀称！上等木料！",
+			say = "うん、しっかりしててバランスもいい、上等な木材ですね。",
 			characterId = 100700
 		}
 	}

@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actorName = "咯咯鸡",
+			actorName = "コッコートリ",
 			withoutIcon = true,
 			say = "コッコッコー",
 			typewriter = {

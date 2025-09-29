@@ -21,10 +21,10 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.targetTF:Find("Text"), i18n("island_task_target"))
 
-	slot0.finishedTargetTF = slot0.targetTF:Find("finished")
+	slot0.finishedTargetTF = slot0.targetTF:Find("content/finished")
 	slot0.finishedTargetTextTF = slot0.finishedTargetTF:Find("Text")
 	slot0.finishedTargetLocTF = slot0.finishedTargetTF:Find("location")
-	slot0.targetContent = slot0.targetTF:Find("content")
+	slot0.targetContent = slot0.targetTF:Find("content/list")
 	slot0.targetUIList = UIItemList.New(slot0.targetContent, slot0.targetContent:Find("tpl"))
 	slot0.awardsTF = slot0.detailTF:Find("awards")
 
@@ -167,10 +167,12 @@ slot0.UpdateTaskItem = function(slot0, slot1, slot2)
 		setActive(uv0:Find("main/selected"), slot0 and not uv1)
 		setActive(uv0:Find("sub/selected"), slot0 and uv1)
 
-		if slot0 and (not uv2.selectedTaskId or uv2.selectedTaskId ~= uv3.id) then
+		if slot0 and (not uv2.selectedTaskId or uv2.selectedTaskId ~= uv3.id or uv2.isOpen) then
 			uv2.selectedTaskId = uv3.id
 
 			uv2:FlushDetail()
+
+			uv2.isOpen = false
 		end
 	end, SFX_PANEL)
 end
@@ -318,14 +320,12 @@ slot0.FlushDetail = function(slot0)
 		slot0.showTargets = slot0.showVO:GetTargetList()
 		slot3 = not slot0.showVO:IsSubmitImmediately() and slot0.showVO:IsFinish()
 
+		slot0.targetUIList:align(#slot0.showTargets)
 		setActive(slot0.finishedTargetTF, slot3)
-		setActive(slot0.targetContent, not slot3)
 
 		if slot3 then
 			setText(slot0.finishedTargetTextTF, slot0.showVO:GetFinishedDesc())
 			slot0:UpdateLocation(slot0.finishedTargetLocTF, slot0.showVO)
-		else
-			slot0.targetUIList:align(#slot0.showTargets)
 		end
 
 		slot0.showAwards = slot0.showVO:GetAwards()
@@ -343,6 +343,7 @@ slot0.FlushDetail = function(slot0)
 end
 
 slot0.OnShow = function(slot0, slot1, slot2)
+	slot0.isOpen = true
 	slot0.toggleList = slot0:GetShowTypeList()
 
 	table.insert(slot0.toggleList, 1, IslandTaskType.SHOW_ALL)
@@ -390,6 +391,7 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
 end
 
 return slot0

@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "好像不是这边的问题。",
+			say = "こっちの問題じゃないみたい。",
 			hideType = 2,
 			characterId = 100900,
 			animation = "shakehead"

@@ -26,6 +26,13 @@ slot0.ComponentType = {
 	Hair = 3
 }
 
+slot0.Ctor = function(slot0, slot1)
+	if slot1 then
+		slot0.curIsland = slot1
+		slot0.isOtherIsland = getProxy(PlayerProxy):getRawData().id ~= slot0.curIsland.id
+	end
+end
+
 slot0.GetInitDressByType = function(slot0)
 	slot1 = function(slot0)
 		for slot5, slot6 in ipairs(pg.island_set.default_dress.key_value_varchar) do
@@ -153,11 +160,17 @@ slot0.PreLoadShipDressupItem = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	if slot0.isOtherIsland then
+		slot3()
+
+		return
+	end
+
 	slot0.modelData = slot5:GetCharacterAgency():GetShipById(slot0.shipId):GetModel()
 	slot8 = 0
 
 	for slot12, slot13 in pairs(slot4) do
-		if slot6:GetCurDressIdByShipId(slot0.shipId, slot13) and dressId ~= 0 then
+		if slot6:GetCurDressIdByShipId(slot0.shipId, slot13) then
 			slot0.currentDressDataDic[slot13] = {
 				id = slot14.dress_id,
 				colorId = 0
@@ -568,6 +581,8 @@ slot0.ChangeModelTransfromByUnitIdAndChangeDress = function(slot0, slot1, slot2,
 end
 
 slot0.Destroy = function(slot0)
+	slot0.curIsland = nil
+
 	slot0:RemoveDressTF()
 
 	slot1 = ipairs

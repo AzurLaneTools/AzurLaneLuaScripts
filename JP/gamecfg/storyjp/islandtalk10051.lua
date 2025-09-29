@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "牧场管理员",
+			subName = "牧場管理人",
 			animation = "nod",
 			characterId = 100500,
-			say = "喂最新鲜的牧草产的奶才会格外好哦~这就是努力的回报！",
+			say = "特に新鮮な牧草を食べさせると、ミルクも格別に美味しくなるの～。これが努力の成果よ！",
 			face2Face = {
 				{
 					0,

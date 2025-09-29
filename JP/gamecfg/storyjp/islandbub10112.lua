@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯~酸甜爆汁！",
+			say = "う～ん、甘酸っぱくて果汁たっぷり！",
 			hideType = 2,
 			characterId = 101100,
 			animation = "nod"

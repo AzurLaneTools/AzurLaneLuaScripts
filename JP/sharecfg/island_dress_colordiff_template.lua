@@ -2,7 +2,7 @@ pg = pg or {}
 pg.island_dress_colordiff_template = {
 	[104000101] = {
 		related_dress = 0,
-		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_0",
+		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_0",
 		id = 104000101,
 		color_icon = "color_104000101",
 		belongto_dress = 1040001,
@@ -15,7 +15,7 @@ pg.island_dress_colordiff_template = {
 	},
 	[104000102] = {
 		related_dress = 0,
-		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_1",
+		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_1",
 		id = 104000102,
 		color_icon = "color_104000102",
 		belongto_dress = 1040001,
@@ -54,7 +54,7 @@ pg.island_dress_colordiff_template = {
 	},
 	[104000301] = {
 		related_dress = 0,
-		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_0",
+		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_0",
 		id = 104000301,
 		color_icon = "color_104000101",
 		belongto_dress = 1040003,
@@ -67,7 +67,7 @@ pg.island_dress_colordiff_template = {
 	},
 	[104000302] = {
 		related_dress = 0,
-		model = "island/character/9001/prefab/9001_02_hair_component_desc_ext_mat_1",
+		model = "island/character/9001/prefab/9001_00_hair_component_desc_ext_mat_1",
 		id = 104000302,
 		color_icon = "color_104000102",
 		belongto_dress = 1040003,

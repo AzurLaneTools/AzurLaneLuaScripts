@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "扳手！我的扳手去哪了？",
+			say = "レンチ！私のレンチはどこ？",
 			characterId = 100900
 		}
 	}

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "果园管理员",
+			subName = "果樹園管理人",
 			animation = "hi",
 			characterId = 101100,
-			say = "嘻嘻，欢迎来到果园，想问什么？露西听着呢~",
+			say = "えへへ、果樹園にようこそ！何か聞きたいことはあります？私が聞きますからね～",
 			face2Face = {
 				{
 					0,

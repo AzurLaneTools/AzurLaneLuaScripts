@@ -593,8 +593,8 @@ pg.island_furniture_template = {
 		bt = "",
 		id = 10305,
 		size = {
-			2,
-			1
+			4,
+			2
 		}
 	},
 	[10306] = {
@@ -1526,8 +1526,8 @@ pg.island_furniture_template = {
 	},
 	[20801] = {
 		setNum = 999,
-		describe = "秋の芝生が地面に敷かれている。ほのかな暖かさを感じられる。",
-		name = "秋の芝生(小)",
+		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
+		name = "石の小道(小)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,
@@ -1545,8 +1545,8 @@ pg.island_furniture_template = {
 	},
 	[20802] = {
 		setNum = 999,
-		describe = "秋の芝生が地面に敷かれている。ほのかな暖かさを感じられる。",
-		name = "秋の芝生(中)",
+		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
+		name = "石の小道(中)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,
@@ -1564,8 +1564,8 @@ pg.island_furniture_template = {
 	},
 	[20803] = {
 		setNum = 999,
-		describe = "秋の芝生が地面に敷かれている。ほのかな暖かさを感じられる。",
-		name = "秋の芝生(大)",
+		describe = "くねくねしている石の小道。荒削りの自然の美を表している。",
+		name = "石の小道(大)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,

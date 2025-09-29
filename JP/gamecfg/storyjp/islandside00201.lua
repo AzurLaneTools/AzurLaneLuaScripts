@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "――自分で書いてるんだ…それならなおさらいいな",
+			say = "――自分で描いてるんだ…それならなおさらいいな",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

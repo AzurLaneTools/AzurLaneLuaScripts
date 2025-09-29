@@ -42,4 +42,8 @@ slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
+slot0.OnDestroy = function(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+end
+
 return slot0

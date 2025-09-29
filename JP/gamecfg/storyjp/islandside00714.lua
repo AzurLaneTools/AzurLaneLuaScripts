@@ -103,8 +103,8 @@ return {
 			style = 2,
 			sequence = {
 				{
-					"<size=45>一段时间后……</size>",
-					1
+					"<size=45>しばらくして……</size>",
+					2
 				}
 			}
 		},

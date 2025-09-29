@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯……这块铁含量不错……杂质少……",
+			say = "うん、なかなかいい鉱石！不純物も少ないし……",
 			hideType = 2,
 			characterId = 100600,
 			animation = "nod"

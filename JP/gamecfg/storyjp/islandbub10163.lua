@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "林场的这批木材品质很好……",
+			say = "この木材、品質がすごく良いですね。",
 			hideType = 2,
 			characterId = 101600,
 			animation = "note"

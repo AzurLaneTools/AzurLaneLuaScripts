@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "――オブライン、鉱石の輸送依頼を出したんだって？",
+			say = "――明石が？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

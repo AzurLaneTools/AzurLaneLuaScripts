@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			say = "じゃあ、こんな感じで行こうか",
+			say = "――じゃあ、こんな感じで行こうか",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

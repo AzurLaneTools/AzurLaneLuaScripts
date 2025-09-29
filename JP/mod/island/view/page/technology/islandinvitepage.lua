@@ -5,6 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
+	slot2 = slot0._tf
+
+	setText(slot2:Find("top/title/Text"), i18n("island_invite_title"))
+
 	slot1 = slot0._tf
 	slot0.contentText = slot1:Find("Text")
 
@@ -222,6 +226,7 @@ slot0.CheckCardBound = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollrect)
 end
 
 return slot0

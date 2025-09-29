@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "真是充满活力的港口~|",
+			say = "本当に活気のある港だね",
 			characterId = 100200
 		}
 	}

@@ -180,6 +180,7 @@ pg.island_task_target = setmetatable({
 		200030021,
 		200030031,
 		200030041,
+		200040000,
 		200040011,
 		200040021,
 		200040031,
@@ -247,6 +248,7 @@ pg.island_task_target = setmetatable({
 		200120081,
 		200120091,
 		200120101,
+		200130000,
 		200130011,
 		200130021,
 		200130031,
@@ -1049,7 +1051,7 @@ pg.base.island_task_target = {
 	},
 	[100010501] = {
 		tips = "10040066",
-		name = "破損した駅を修復",
+		name = "バス停を修復する",
 		type = 34,
 		id = 100010501,
 		target_num = 1,
@@ -1199,7 +1201,7 @@ pg.base.island_task_target = {
 	},
 	[100011701] = {
 		tips = "",
-		name = "デイリー計画を一つ完成させる",
+		name = "デイリー計画を完成させる",
 		type = 23,
 		id = 100011701,
 		target_num = 1,
@@ -1443,7 +1445,7 @@ pg.base.island_task_target = {
 	},
 	[100021801] = {
 		tips = "10020004",
-		name = "オムレツをステファンに持って行く",
+		name = "オムレツを制作",
 		type = 4,
 		id = 100021801,
 		target_num = 1,
@@ -1719,7 +1721,7 @@ pg.base.island_task_target = {
 	},
 	[100023401] = {
 		tips = "",
-		name = "石炭",
+		name = "石炭を集める",
 		type = 4,
 		id = 100023401,
 		target_num = 10,
@@ -1729,7 +1731,7 @@ pg.base.island_task_target = {
 	},
 	[100023402] = {
 		tips = "",
-		name = "大自然の原木",
+		name = "大自然の原木を集める",
 		type = 4,
 		id = 100023402,
 		target_num = 10,
@@ -1807,7 +1809,7 @@ pg.base.island_task_target = {
 	},
 	[100030301] = {
 		tips = "10060002",
-		name = "とうふを作る",
+		name = "豆腐を作る",
 		type = 5,
 		id = 100030301,
 		target_num = 1,
@@ -1857,7 +1859,7 @@ pg.base.island_task_target = {
 	},
 	[100030701] = {
 		tips = "",
-		name = "新鮮なはちみつを採集",
+		name = "はちみつを手に入れる",
 		type = 5,
 		id = 100030701,
 		target_num = 1,
@@ -1887,7 +1889,7 @@ pg.base.island_task_target = {
 	},
 	[100030911] = {
 		tips = "",
-		name = "りんごを収穫",
+		name = "りんごを集める",
 		type = 4,
 		id = 100030911,
 		target_num = 1,
@@ -1925,7 +1927,7 @@ pg.base.island_task_target = {
 	},
 	[100040201] = {
 		tips = "",
-		name = "石炭",
+		name = "石炭を集める",
 		type = 4,
 		id = 100040201,
 		target_num = 10,
@@ -1995,12 +1997,12 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "",
-		name = "翠緑の森周辺でプレミアム木材を探す",
+		name = "実用の木材を集める",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
 		target_param = {
-			2802
+			2801
 		}
 	},
 	[200010071] = {
@@ -2015,7 +2017,7 @@ pg.base.island_task_target = {
 	},
 	[200010081] = {
 		tips = "",
-		name = "積岩鉱山で鉄鉱石を採集",
+		name = "鉄鉱石を集める",
 		type = 4,
 		id = 200010081,
 		target_num = 10,
@@ -2034,7 +2036,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020011] = {
-		tips = "10020023",
+		tips = "10020018",
 		name = "埠頭の先を見に行く",
 		type = 1,
 		id = 200020011,
@@ -2105,7 +2107,7 @@ pg.base.island_task_target = {
 	},
 	[200030021] = {
 		tips = "",
-		name = "アルミ鉱石を採集",
+		name = "アルミ鉱石を集める",
 		type = 4,
 		id = 200030021,
 		target_num = 10,
@@ -2132,6 +2134,14 @@ pg.base.island_task_target = {
 		target_param = {
 			5001
 		}
+	},
+	[200040000] = {
+		tips = "",
+		name = "離島開発レベルを上げよう",
+		type = 9,
+		id = 200040000,
+		target_num = 29,
+		target_param = ""
 	},
 	[200040011] = {
 		tips = "10090008",
@@ -2355,7 +2365,7 @@ pg.base.island_task_target = {
 	},
 	[200060091] = {
 		tips = "",
-		name = "大自然の原木を30個渡そう",
+		name = "大自然の原木を集める",
 		type = 4,
 		id = 200060091,
 		target_num = 10,
@@ -2464,7 +2474,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070101] = {
-		tips = "10010082",
+		tips = "10040057",
 		name = "謎の存在にはちみつ水を届けよう",
 		type = 1,
 		id = 200070101,
@@ -2485,7 +2495,7 @@ pg.base.island_task_target = {
 	},
 	[200080021] = {
 		tips = "",
-		name = "木材を集めてステファンに渡そう",
+		name = "大自然の原木を集める",
 		type = 4,
 		id = 200080021,
 		target_num = 10,
@@ -2495,7 +2505,7 @@ pg.base.island_task_target = {
 	},
 	[200080031] = {
 		tips = "",
-		name = "ステファンにリスクの対処状況を聞く",
+		name = "石炭を集める",
 		type = 4,
 		id = 200080031,
 		target_num = 10,
@@ -2803,6 +2813,14 @@ pg.base.island_task_target = {
 			7202
 		}
 	},
+	[200130000] = {
+		tips = "",
+		name = "離島開発レベルを上げよう",
+		type = 9,
+		id = 200130000,
+		target_num = 22,
+		target_param = ""
+	},
 	[200130011] = {
 		tips = "10020004",
 		name = "ステファンに聞く",
@@ -2855,8 +2873,8 @@ pg.base.island_task_target = {
 	},
 	[200130061] = {
 		tips = "",
-		name = "苗場でラベンダーを植える",
-		type = 42,
+		name = "仲間を配置して苗場でラベンダーを植える",
+		type = 14,
 		id = 200130061,
 		target_num = 1,
 		target_param = {
@@ -2865,7 +2883,7 @@ pg.base.island_task_target = {
 	},
 	[200130071] = {
 		tips = "",
-		name = "ラベンダーを収穫しよう",
+		name = "ラベンダーを集める",
 		type = 4,
 		id = 200130071,
 		target_num = 1,
@@ -2978,7 +2996,7 @@ pg.base.island_task_target = {
 		name = "手動で木材か鉱物を採集する",
 		type = 6,
 		id = 301010011,
-		target_num = 1,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3493,7 +3511,7 @@ pg.base.island_task_target = {
 		name = "任意の鉱物を採集",
 		type = 6,
 		id = 300000011,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			401001,
 			401002,
@@ -3508,7 +3526,7 @@ pg.base.island_task_target = {
 		name = "任意の木材を採集",
 		type = 6,
 		id = 300000021,
-		target_num = 5,
+		target_num = 4,
 		target_param = {
 			402001,
 			402002,

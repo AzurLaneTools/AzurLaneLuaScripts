@@ -4,9 +4,10 @@ return {
 	map = {},
 	scripts = {
 		{
-			withoutName = true,
-			withoutIcon = true,
 			say = "持っていた小さな袋から、羊の好物のエサをひとつまみ取り出し、ゆっくりと近づいた。",
+			withoutIcon = true,
+			withoutName = true,
+			camera = "StoryCameraSideTask1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,12 +17,12 @@ return {
 			style = 2,
 			sequence = {
 				{
-					"<size=45>咩咩羊警惕地抬起头，看到是指挥官和熟悉的食物，犹豫了一下，还是慢慢走了过来。</size>",
-					1
+					"<size=45>羊は警戒して頭を上げたが、少し戸惑いながらもゆっくりと近づいてきた。</size>",
+					2
 				},
 				{
-					"<size=45>我趁机将带来的绳索熟练地套在它脖子上，打了个活结。</size>",
-					2
+					"<size=45>その隙に持ってきた投げ縄を手際よく首にかけた。</size>",
+					4
 				}
 			}
 		},

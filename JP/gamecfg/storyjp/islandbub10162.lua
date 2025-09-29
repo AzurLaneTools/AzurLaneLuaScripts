@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯……这些要求，感觉还是太难了。",
+			say = "うーん……これらのリクエストに応えるのは難しすぎますね。",
 			hideType = 2,
 			characterId = 101600,
 			animation = "think"

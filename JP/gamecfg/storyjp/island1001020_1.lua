@@ -21,6 +21,7 @@ return {
 		{
 			say = "――ん？機械が止まった？もっと仲間を呼びたかったのに",
 			characterId = 0,
+			camera = "StoryCamera5",
 			face2Face = {
 				{
 					0,

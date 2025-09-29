@@ -19,11 +19,11 @@ return {
 	},
 	scripts = {
 		{
-			subName = "林场管理员",
+			subName = "森の管理人",
 			hideType = 0,
 			time = 3,
 			characterId = 100700,
-			say = "木料的品质？哈~问我就对啦！是有什么好东西要我看看吗？",
+			say = "こんにちは。木製品をオーダーするなら……丈夫で厳選されたプレミアム木材のものをおすすめします……",
 			face2Face = {
 				{
 					0,

@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "水流稳定，萃取才会均匀。",
+			say = "湯の流れが安定してると、抽出も均一になるの。",
 			characterId = 101200
 		}
 	}

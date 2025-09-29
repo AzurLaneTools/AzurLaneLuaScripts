@@ -66,7 +66,7 @@ slot0.OnVisitorExit = function(slot0, slot1)
 			if slot3.type == IslandConst.SYNC_TYPE_AGORA then
 				slot0:Op("InterActionEndSync", slot3.id, slot1)
 			elseif slot3.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-				slot0:Op("WorldObjectInterActionEnd", slot3.id, slot1, true)
+				slot0:Op("WorldObjectInterActionEndSync", slot3.id, slot1)
 			end
 		end
 
@@ -104,6 +104,8 @@ end
 
 slot0.UpdateVisitorSyncData = function(slot0, slot1)
 	if not slot0.visitorDic[slot1.id] then
+		Debugger.LogWarning(string.format("访客不存在 id=%d", slot2))
+
 		return
 	end
 
@@ -180,9 +182,9 @@ slot0.InitSyncObj = function(slot0)
 			if slot6.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
 				if slot7:OwnerCount() > 0 then
 					for slot11, slot12 in pairs(slot7.owners) do
-						if slot12 ~= slot0.playerId then
+						if slot12 ~= slot0.playerId and slot0.visitorDic[slot12] then
 							slot0.visitorDic[slot12]:RecordLastInteract(slot6.id, slot6.type)
-							slot0:Op("WorldObjectInterAction", slot6.id, slot12, slot6.status, true)
+							slot0:Op("WorldObjectInterActionSync", slot6.id, slot12, slot6.status, slot11)
 						end
 					end
 				elseif slot6.status > 0 then
@@ -190,7 +192,7 @@ slot0.InitSyncObj = function(slot0)
 				end
 			elseif slot6.type == IslandConst.SYNC_TYPE_AGORA and slot7:OwnerCount() > 0 then
 				for slot11, slot12 in pairs(slot7.owners) do
-					if slot12 ~= slot0.playerId then
+					if slot12 ~= slot0.playerId and slot0.visitorDic[slot12] then
 						slot0.visitorDic[slot12]:RecordLastInteract(slot6.id, slot6.type)
 						slot0:Op("InterActionSync", slot6.id, slot12, slot11)
 					end
@@ -226,28 +228,40 @@ slot0.UpdateSyncObj = function(slot0, slot1)
 			uv0:Op("InterActionEndSync", uv1.id, slot0)
 		end)
 	elseif slot1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-		slot0:OnVisitorInteract(slot1, function (slot0)
-			uv0:GetUnit(uv1.type, uv1.id):SetStatus(uv1.status)
+		slot0:OnVisitorInteract(slot1, function (slot0, slot1)
+			if not uv0:GetUnit(uv1.type, uv1.id) then
+				return
+			end
+
+			slot2:SetStatus(uv1.status)
 
 			if not uv0:SyncVisitorExist(slot0) then
 				return
 			end
 
-			uv0:Op("WorldObjectInterAction", uv1.id, slot0, uv1.status, true)
+			uv0:Op("WorldObjectInterActionSync", uv1.id, slot0, uv1.status, slot1)
 		end, function (slot0)
-			uv0:Op("WorldObjectInterActionEnd", uv1.id, slot0, true)
+			uv0:Op("WorldObjectInterActionEndSync", uv1.id, slot0)
 		end)
 	end
 end
 
 slot0.OnVisitorInteract = function(slot0, slot1, slot2, slot3)
-	slot5, slot6, slot7 = slot0:GetUnit(slot1.type, slot1.id):UpdateOwner(slot1.slots)
+	if not slot0:GetUnit(slot1.type, slot1.id) then
+		return
+	end
+
+	slot5, slot6, slot7 = slot4:UpdateOwner(slot1.slots)
 
 	if slot6 == slot0.playerId then
 		return
 	end
 
-	slot8 = slot0.visitorDic[slot6]
+	if not slot0.visitorDic[slot6] then
+		Debugger.LogWarning(string.format("访客不存在 id=%d", slot6))
+
+		return
+	end
 
 	if slot5 then
 		slot8:RecordLastInteract(slot1.id, slot1.type)

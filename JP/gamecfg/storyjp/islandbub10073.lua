@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嗯~又截了一单！先休息会儿。",
+			say = "ふぅ……木材の処理は終わったので、少し休憩を～",
 			hideType = 2,
 			characterId = 100700,
 			animation = "rest"

@@ -762,7 +762,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	assert(not slot0.live2dData:isEmpty())
 
-	slot0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.live2dData:GetShipName(), function (slot0)
+	slot0.modelName = slot0.live2dData:GetShipName()
+	slot0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.modelName, function (slot0)
 		uv0(uv1, slot0)
 
 		if uv2 then
@@ -1288,6 +1289,7 @@ slot0.Dispose = function(slot0)
 		slot0.liveCom:SetMouseInputActions(nil, )
 	end
 
+	slot0.dftCom:SetCommonEvent(nil)
 	slot0:stopVoice()
 	slot0:unloadCueSheet()
 
@@ -1330,7 +1332,10 @@ slot0.Dispose = function(slot0)
 	end
 
 	if slot0._go and slot0.state == uv0.STATE_INITED then
-		Destroy(slot0._go)
+		pg.Live2DMgr.GetInstance():ReturnLive2DModel(slot0.modelName, slot0._go)
+
+		slot0.modelName = nil
+		slot0._go = nil
 	end
 
 	slot0.state = uv0.STATE_DISPOSE

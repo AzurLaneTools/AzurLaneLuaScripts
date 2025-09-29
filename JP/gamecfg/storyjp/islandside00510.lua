@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "――待てよ…あのシルエット……",
+			say = "――明石？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

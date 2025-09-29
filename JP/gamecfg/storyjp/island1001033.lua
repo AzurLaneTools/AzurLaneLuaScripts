@@ -82,7 +82,7 @@ return {
 		{
 			subName = "集会島受付",
 			say = "これは…メリーが渡したものでしょうか？この島に建てたいって何度も私にせがんできて…",
-			characterId = 101300,
+			characterId = 101000,
 			animation = "think",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 		{
 			say = "配置を決めて教えていただければ、それで大丈夫です",
 			subName = "集会島受付",
-			characterId = 101300,
+			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

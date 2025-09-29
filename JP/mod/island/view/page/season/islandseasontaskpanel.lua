@@ -38,7 +38,9 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	setText(slot2:Find("name"), slot5.name)
 	UIItemList.StaticAlign(slot2:Find("awards"), slot2:Find("awards/tpl"), #IslandTask.GetAwardsStatic(slot3), function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateCustomDrop(slot2, uv0[slot1 + 1])
+			updateCustomDrop(slot2, uv0[slot1 + 1], {
+				style = "island"
+			})
 		end
 	end)
 
@@ -88,6 +90,10 @@ slot0.Flush = function(slot0)
 	end)
 
 	setActive(slot0.getAllBtn, #slot0.canSubmitIds > 0)
+end
+
+slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollCom)
 end
 
 return slot0

@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "気分はどうだ？",
+			say = "――気分はどうだ？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

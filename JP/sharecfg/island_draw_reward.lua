@@ -97,7 +97,7 @@ pg.island_draw_reward = {
 		show = ""
 	},
 	[1013] = {
-		drop_id = 1070003,
+		drop_id = 1060003,
 		rarity = 3,
 		drop_num = 1,
 		id = 1013,

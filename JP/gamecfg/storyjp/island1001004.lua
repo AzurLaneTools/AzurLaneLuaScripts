@@ -114,7 +114,7 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "助かるよ！人手不足のだったからよかったぁ！",
+			say = "助かるよ！人手不足だったからよかったぁ！",
 			characterId = 100600,
 			subName = "鉱山管理人",
 			typewriter = {

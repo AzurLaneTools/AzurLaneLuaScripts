@@ -176,7 +176,7 @@ pg.base.island_unit_character = {
 		CollisionParam = ""
 	},
 	[100600] = {
-		describe_illustrated_guid = "指揮官！こっちだよ、ジョアンが鉱山をご案内しまーす！\n この鉱洞はすっごく面白くて、探索しがいがあるんだ！準備が整ったら、トロッコに乗って一緒に見学してみようよ！\n それからね、探鉱の特別な歌も披露しちゃうから……楽しみにしてて！",
+		describe_illustrated_guid = "指揮官！こっちだよ、ジョンが鉱山をご案内しまーす！\n この鉱洞はすっごく面白くて、探索しがいがあるんだ！準備が整ったら、トロッコに乗って一緒に見学してみようよ！\n それからね、探鉱の特別な歌も披露しちゃうから……楽しみにしてて！",
 		IslandShipIcon = "100600",
 		english_name = "SS John W. Brown",
 		name = "ジョン",
@@ -191,7 +191,7 @@ pg.base.island_unit_character = {
 		CollisionParam = ""
 	},
 	[100700] = {
-		describe_illustrated_guid = "私はオブライエン。離島開発計画のために奮闘しています。\n 指揮官さんは知らないでしょうけど……仕事で疲れてしまった時は、いつもこっそりあなたのことを思い出しているんです。伐採がどんなに大変でも、不思議と嬉しくなりますの",
+		describe_illustrated_guid = "私はオブライン。離島開発計画のために奮闘しています。\n 指揮官さんは知らないでしょうけど……仕事で疲れてしまった時は、いつもこっそりあなたのことを思い出しているんです。伐採がどんなに大変でも、不思議と嬉しくなりますの",
 		IslandShipIcon = "100700",
 		english_name = "Jeremiah O'Brien",
 		name = "オブライン",
@@ -314,7 +314,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "101500",
 		english_name = "",
-		name = "珂汀 ",
+		name = "キャティン",
 		group = 1015,
 		animator = "island/animator/ani_role_all_01_01",
 		shipId = 0,
@@ -344,7 +344,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "gongzuojiu",
 		english_name = "",
-		name = "工作啾",
+		name = "作業饅頭",
 		group = 3002,
 		animator = "island/animator/ani_role_3002_01_01",
 		shipId = 0,
@@ -359,7 +359,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "直升鸡",
+		name = "ヘリ饅頭",
 		group = 3003,
 		animator = "island/animator/ani_role_3003_01_01",
 		shipId = 0,
@@ -374,7 +374,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "路障鸡",
+		name = "バリケード饅頭",
 		group = 3004,
 		animator = "island/animator/ani_role_3004_01_01",
 		shipId = 0,
@@ -389,7 +389,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "粉鸡",
+		name = "ピンク饅頭",
 		group = 3005,
 		animator = "island/animator/ani_role_3005_01_01",
 		shipId = 0,
@@ -404,7 +404,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "礼帽鸡",
+		name = "ハット饅頭",
 		group = 3006,
 		animator = "island/animator/ani_role_all_01_01",
 		shipId = 0,
@@ -419,7 +419,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "麻雀",
+		name = "スズメ",
 		group = 3007,
 		animator = "island/animator/ani_role_3007_01_01",
 		shipId = 0,
@@ -434,7 +434,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "海鸥",
+		name = "カモメ",
 		group = 3008,
 		animator = "island/animator/ani_role_3008_01_01",
 		shipId = 0,
@@ -459,7 +459,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300900,
 		CollisionParam = {
-			0.2,
+			0.4,
 			0.2,
 			0.25
 		}
@@ -478,7 +478,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300901,
 		CollisionParam = {
-			0.2,
+			0.4,
 			0.2,
 			0.25
 		}
@@ -497,7 +497,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300902,
 		CollisionParam = {
-			0.2,
+			0.4,
 			0.2,
 			0.25
 		}
@@ -516,7 +516,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300903,
 		CollisionParam = {
-			0.2,
+			0.4,
 			0.2,
 			0.25
 		}
@@ -525,7 +525,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "哼哼猪",
+		name = "ブーブーブタ",
 		group = 3010,
 		animator = "island/animator/ani_role_3010_01_01",
 		shipId = 0,
@@ -544,7 +544,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "奶牛(牧场)",
+		name = "乳牛（牧場）",
 		group = 3011,
 		animator = "island/animator/ani_role_3011_01_01",
 		shipId = 0,
@@ -563,7 +563,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "黄牛(牧场)",
+		name = "乳牛（牧場）",
 		group = 3012,
 		animator = "island/animator/ani_role_3011_01_01",
 		shipId = 0,
@@ -582,7 +582,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "羊(牧场)",
+		name = "アカウシ（牧場）",
 		group = 3013,
 		animator = "island/animator/ani_role_3013_01_01",
 		shipId = 0,
@@ -601,7 +601,7 @@ pg.base.island_unit_character = {
 		describe_illustrated_guid = "",
 		IslandShipIcon = "",
 		english_name = "",
-		name = "咯咯鸡",
+		name = "コッコートリ",
 		group = 3020,
 		animator = "island/animator/ani_role_3020_01_01",
 		shipId = 0,

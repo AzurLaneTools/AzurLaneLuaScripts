@@ -8,6 +8,7 @@ slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot0.viewTF = slot1:Find("view")
 	slot1 = slot0.viewTF
+	slot1 = slot1:Find("content")
 	slot0.scrollRect = slot1:GetComponent("LScrollRect")
 
 	slot0.scrollRect.onInitItem = function(slot0)
@@ -63,7 +64,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
-		slot0:OnInitItem(slot1, slot2)
+		slot0:OnInitItem(slot2)
 
 		slot3 = slot0.cards[slot2]
 	end
@@ -87,8 +88,9 @@ slot0.Flush = function(slot0)
 	slot1 = getProxy(IslandProxy):GetIsland()
 	slot0.islandLevel = slot1:GetLevel()
 	slot0.techAgency = slot1:GetTechnologyAgency()
+	slot0.scrollRect.enabled = true
 
-	slot0.scrollRect:SetTotalCount(#slot0.levels, -1)
+	slot0.scrollRect:SetTotalCount(#slot0.levels, 0)
 end
 
 slot0.AutoFocus = function(slot0)
@@ -125,6 +127,8 @@ slot0.GetFocusTechId = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

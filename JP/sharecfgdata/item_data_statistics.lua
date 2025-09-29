@@ -114874,6 +114874,48 @@ _G.pg.base.item_data_statistics[81219] = {
 }
 
 
+_G.pg.base.item_data_statistics[81220] = {
+	open_directly = 1,
+	name = "ドキドキパック",
+	type = 17,
+	display = "購入すると限定記念コイン×10、経験値パックT2×12を入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxDokidoki",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998561",
+	id = 81220,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			180001,
+			10
+		},
+		{
+			2,
+			16502,
+			12
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "選べる迎春パック2025A",
@@ -116287,5 +116329,311 @@ _G.pg.base.item_data_statistics[100025] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180001] = {
+	open_directly = 0,
+	name = "限定記念コイン",
+	type = 50,
+	display = "そこそこ重い記念コイン。ただならぬ輝きを放ち、特別な栄誉と記憶を象徴する。このプレゼントが好きな艦船に渡せば、好感度が5上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift01",
+	price = "",
+	order = 0,
+	rarity = 5,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180001,
+		500
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180002] = {
+	open_directly = 0,
+	name = "特装本",
+	type = 50,
+	display = "インクの香りとノスタルジックな雰囲気を纏うハードカバー本。机上に置き、幾度となく読み返すにふさわしい一冊。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift02",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180002,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180003] = {
+	open_directly = 0,
+	name = "花束",
+	type = 50,
+	display = "華やかで新鮮な花々。自然の生命力と明るい彩りがあふれ、日々に心地よい喜びを運んでくれる。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift03",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180003,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180004] = {
+	open_directly = 0,
+	name = "儀式剣",
+	type = 50,
+	display = "流麗なシルエットが金属の冷たい輝きを放つ礼装の剣。秩序と威厳を無言で物語る。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift04",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180004,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180005] = {
+	open_directly = 0,
+	name = "ふわふわのぬいぐるみ",
+	type = 50,
+	display = "ふわふわ手触りの愛らしいぬいぐるみ。抱きしめれば、もふもふで温かい感触と無邪気な笑顔が心を和ませてくれる。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift05",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180005,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180006] = {
+	open_directly = 0,
+	name = "アンティーク装飾品",
+	type = 50,
+	display = "時の流れが深み増し、気品を宿したアンティークな調度品。静かに佇むそれが、空間に落ち着きと趣を添えてくれる。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift06",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180006,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180007] = {
+	open_directly = 0,
+	name = "精緻なアクセサリー",
+	type = 50,
+	display = "華美ではないものの、繊細で細やかな技に輝く一品。日常の小さな瞬間を明るく照らすだろう。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift07",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180007,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180008] = {
+	open_directly = 0,
+	name = "高級香水",
+	type = 50,
+	display = "簡素な瓶には清らかな香りが秘められている。上品さ格調を映し出す、優雅なフレグランス。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift08",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180008,
+		100
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[180009] = {
+	open_directly = 0,
+	name = "ゲーム機セット",
+	type = 50,
+	display = "余暇を完璧に満たしてくれるエンタメアイテム。ラクラクで遊べるコンテンツが揃っていて、心配りの行き届いた贈り物である。このプレゼントが好きな艦船に渡せば、好感度が1上昇する",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_favorability",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/gift09",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 180009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		180009,
+		100
+	},
 	limit = {}
 }

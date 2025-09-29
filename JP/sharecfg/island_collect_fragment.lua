@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.island_collect_fragment = {
 	[1001] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在晨露农场或许会有发现",
+		tip = "朝露農場で見つかるかもしれない",
 		collection_id = 3,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1001,
 		icon = "IslandProps/morensuipian",
@@ -15,11 +15,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1002] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在晨露农场或许会有发现",
+		tip = "朝露農場で見つかるかもしれない",
 		collection_id = 3,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1002,
 		icon = "IslandProps/morensuipian",
@@ -29,11 +29,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1003] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在晨露农场或许会有发现",
+		tip = "朝露農場で見つかるかもしれない",
 		collection_id = 3,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1003,
 		icon = "IslandProps/morensuipian",
@@ -43,11 +43,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1004] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在晨露农场或许会有发现",
+		tip = "朝露農場で見つかるかもしれない",
 		collection_id = 3,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1004,
 		icon = "IslandProps/morensuipian",
@@ -57,11 +57,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1005] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在晨露农场或许会有发现",
+		tip = "朝露農場で見つかるかもしれない",
 		collection_id = 3,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1005,
 		icon = "IslandProps/morensuipian",
@@ -71,11 +71,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1006] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在栖风原野或许会有发现",
+		tip = "風の原野で見つかるかもしれない ",
 		collection_id = 2,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1006,
 		icon = "IslandProps/morensuipian",
@@ -85,11 +85,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1007] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在栖风原野或许会有发现",
+		tip = "風の原野で見つかるかもしれない ",
 		collection_id = 2,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1007,
 		icon = "IslandProps/morensuipian",
@@ -99,11 +99,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1008] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在栖风原野或许会有发现",
+		tip = "風の原野で見つかるかもしれない ",
 		collection_id = 2,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1008,
 		icon = "IslandProps/morensuipian",
@@ -113,11 +113,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1009] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在栖风原野或许会有发现",
+		tip = "風の原野で見つかるかもしれない ",
 		collection_id = 2,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1009,
 		icon = "IslandProps/morensuipian",
@@ -127,11 +127,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1010] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在港口或许会有发现",
+		tip = "埠頭で見つかるかもしれない ",
 		collection_id = 1,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1010,
 		icon = "IslandProps/morensuipian",
@@ -141,11 +141,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1011] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在港口或许会有发现",
+		tip = "埠頭で見つかるかもしれない ",
 		collection_id = 1,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1011,
 		icon = "IslandProps/morensuipian",
@@ -155,11 +155,11 @@ pg.island_collect_fragment = {
 		}
 	},
 	[1012] = {
-		name = "飞行器碎片",
+		name = "飛行装置の破片 ",
 		time_taked = 10,
-		tip = "在港口或许会有发现",
+		tip = "埠頭で見つかるかもしれない ",
 		collection_id = 1,
-		desc = "飞行器的组成之一",
+		desc = "飛行装置を構成する一部",
 		task = 0,
 		id = 1012,
 		icon = "IslandProps/morensuipian",

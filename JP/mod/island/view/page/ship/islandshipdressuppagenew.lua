@@ -71,6 +71,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.skinRect = slot0.skinTF:Find("dress_container/dress"):GetComponent("LScrollRect")
 	slot0.skinRectTF = slot0.skinTF:Find("dress_container")
 	slot0.skinEmpty = slot0.skinTF:Find("skinEmpty")
+	slot0.skinEmptyTips = slot0.skinEmpty:Find("layout/empty_tips")
 
 	slot0.skinRect.onInitItem = function(slot0)
 		uv0:OnSkinInitItem(slot0)
@@ -607,6 +608,7 @@ slot0.UpdateSkinList = function(slot0)
 	setActive(slot0.skinRectTF, #slot0.skinList ~= 0)
 	setActive(slot0.skinEmpty, slot1 == 0)
 	slot0.skinRect:SetTotalCount(slot1)
+	setText(slot0.skinEmptyTips, i18n("island_dress_no_item"))
 end
 
 slot0.UpdateDressUpList = function(slot0)
@@ -1228,11 +1230,14 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.dressRect)
+	ClearLScrollrect(slot0.skinRect)
+
 	slot1 = pairs
 	slot2 = slot0.dressCards or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		-- Nothing
+		slot5:Dispose()
 	end
 
 	slot0.dressCards = nil

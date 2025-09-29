@@ -39,6 +39,9 @@ slot0.OnLoaded = function(slot0)
 	}
 	slot0.costTF = slot0.panel:Find("status/normal/cost")
 	slot0.costUIList = UIItemList.New(slot0.costTF:Find("list"), slot0.costTF:Find("list/tpl"))
+
+	setText(slot0._tf:Find("panel/desc/name"), i18n("island_tech_detail_desctitle"))
+	setText(slot0._tf:Find("panel/unlock/title"), i18n("island_tech_detail_unlocktitle"))
 end
 
 slot0.OnInit = function(slot0)
@@ -137,8 +140,11 @@ slot0.Flush = function(slot0)
 			end, SFX_PANEL)
 		end,
 		[IslandTechnology.STATUS.NORMAL] = function ()
+			setGray(uv0.statusTFs[uv1], not uv0:CheckCost(), false)
 			onButton(uv0, uv0.statusTFs[uv1], function ()
 				if not uv0:CheckCost() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_cost_notenough"))
+
 					return
 				end
 

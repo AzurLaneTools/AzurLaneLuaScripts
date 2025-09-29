@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "来来往往的船，堆积如山的货~",
+			say = "行き交う船、山積みの荷物～",
 			characterId = 100200
 		}
 	}

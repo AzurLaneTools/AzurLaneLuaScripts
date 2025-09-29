@@ -8,10 +8,11 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Flush = function(slot0)
+	slot1 = Clone(slot0.flags)
 	slot0.flags = {}
 
-	slot0:OnInitFlags()
-	slot0:OnCompareSample(Clone(slot0.flags), slot0.flags)
+	slot0:OnInitFlags(slot1)
+	slot0:OnCompareSample(slot1, slot0.flags)
 end
 
 slot0.Dispose = function(slot0)

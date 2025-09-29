@@ -1,6 +1,6 @@
 return {
-	mode = 10,
 	id = "ISLAND1001031",
+	mode = 10,
 	map = {
 		{
 			101200,
@@ -11,21 +11,12 @@ return {
 			10090021
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
+			say = "――よし、これでオムレツはラインナップに載せ終わった",
 			animation = "nod",
 			characterId = 0,
-			say = "――よし、これでオムレツはラインナップに載せ終わった",
+			camera = "StoryCamera4",
 			face2Face = {
 				{
 					0,
@@ -65,8 +56,8 @@ return {
 			style = 2,
 			sequence = {
 				{
-					"<size=45>一段时间后……</size>",
-					1
+					"<size=45>しばらくして……</size>",
+					2
 				}
 			}
 		},
@@ -87,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "――よし、これでオムレツはラインナップに載せ終わった",
+			say = "――明石じゃないか！",
 			characterId = 0,
 			face2Face = {
 				{

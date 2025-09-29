@@ -24,9 +24,23 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
+slot0.CheckCanPressDown = function(slot0)
+	if slot0.configId == 19 and _IslandCore and _IslandCore:GetView():GetController():IsPlayerInTimeline() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_photo_fur_lock"))
+
+		return false
+	end
+
+	return true
+end
+
 slot0.Init = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if not uv0:IsUnlock() then
+			return
+		end
+
+		if not uv0:CheckCanPressDown() then
 			return
 		end
 

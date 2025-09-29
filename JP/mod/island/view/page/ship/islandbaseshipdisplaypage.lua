@@ -81,60 +81,84 @@ slot0.OnHome = function(slot0)
 end
 
 slot0.LoadCharacter = function(slot0, slot1, slot2)
-	slot0:UnloadCharacter()
+	slot0:UnloadCharacter(slot0.loadData)
 
-	slot0.isCommander = slot2
-	slot0.modelData = slot1
+	slot3 = {
+		isCommander = slot2,
+		modelData = slot1
+	}
+	slot0.loadData = slot3
 
-	slot3 = function(slot0)
-		uv0.role = slot0
+	slot0:_LoadModel(slot3, function (slot0, slot1)
+		if uv0.modelData.model ~= uv1.loadData.modelData.model then
+			uv1:UnloadCharacter(uv0)
 
-		pg.ViewUtils.SetLayer(uv0.role.transform, Layer.Character3D)
-		setParent(uv0.role, uv0.roleContainer)
-
-		uv0.role.transform.eulerAngles = Vector3(0, 180, 0)
-		slot1 = 0
-
-		if uv0._tf.rect.width / uv0._tf.rect.height < 1.7777777777777777 then
-			slot1 = 0.5 * (1.7777777777777777 - slot2) / 0.4444444444444444
+			return
 		end
 
-		uv0.role.transform.localPosition = Vector3(slot1, 0, 0)
-		slot4 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+		uv1.role = slot0
 
-		slot4:SetUp(uv0.role.transform)
+		pg.ViewUtils.SetLayer(uv1.role.transform, Layer.Character3D)
+		setParent(uv1.role, uv1.roleContainer)
 
-		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		uv1.role.transform.eulerAngles = Vector3(0, 180, 0)
+		slot2 = 0
 
-		if uv0.modelData.personal_ani and slot6 ~= "" then
-			for slot11 = 1, GetOrAddComponent(uv0.role.transform:GetChild(0), typeof(Animator)).layerCount do
-				slot7:CrossFadeInFixedTime(slot6, 0, slot11 - 1)
+		if uv1._tf.rect.width / uv1._tf.rect.height < 1.7777777777777777 then
+			slot2 = 0.5 * (1.7777777777777777 - slot3) / 0.4444444444444444
+		end
+
+		uv1.role.transform.localPosition = Vector3(slot2, 0, 0)
+		slot5 = GetOrAddComponent(uv1:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+
+		slot5:SetUp(uv1.role.transform)
+
+		slot5.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+
+		if slot1 and slot1 ~= "" then
+			for slot11 = 1, GetOrAddComponent(uv1.role.transform:GetChild(0), typeof(Animator)).layerCount do
+				slot7:CrossFadeInFixedTime(slot1, 0, slot11 - 1)
 			end
 		end
 
-		uv0:OnCharLoaded()
-	end
+		uv1:OnCharLoaded(uv0.modelData)
+	end)
+end
 
-	if slot0.isCommander then
-		slot4 = slot0:GetPoolMgr()
+slot0._LoadModel = function(slot0, slot1, slot2)
+	pg.UIMgr.GetInstance():LoadingOn()
 
-		slot4:GetCommanderModel(slot1, function (slot0)
-			uv0(slot0)
+	slot3 = slot1.modelData
+
+	if slot1.isCommander then
+		slot5 = slot0:GetPoolMgr()
+
+		slot5:GetCommanderModel(slot3, function (slot0)
+			uv0(slot0, uv1.personal_ani)
+			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	else
-		slot4 = slot0:GetPoolMgr()
+		slot5 = slot0:GetPoolMgr()
 
-		slot4:GetCharacter(slot1.model, slot1.animator, function (slot0)
-			uv0(slot0)
+		slot5:GetCharacter(slot3.model, slot3.animator, function (slot0)
+			uv0(slot0, uv1.personal_ani)
+			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	end
 end
 
-slot0.UnloadCharacter = function(slot0)
-	if slot0:GetSmoothRotateObject():GetComponent(typeof(SmoothRotateObject)) then
-		Object.Destroy(slot2)
+slot0.UnloadCharacter = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
 
-		slot2 = nil
+	slot2 = slot1.modelData
+	slot3 = slot1.isCommander
+
+	if slot0:GetSmoothRotateObject():GetComponent(typeof(SmoothRotateObject)) then
+		Object.Destroy(slot5)
+
+		slot5 = nil
 	end
 
 	if slot0.role then
@@ -142,20 +166,18 @@ slot0.UnloadCharacter = function(slot0)
 
 		if slot0.isCommander then
 			slot0:GetPoolMgr():ReturnCommanderModel(slot0.role)
-		elseif slot0.modelData then
-			slot0:GetPoolMgr():ReturnCharacter(slot0.modelData.model, slot0.modelData.animator, slot0.role)
-
-			slot0.modelData = nil
+		else
+			slot0:GetPoolMgr():ReturnCharacter(slot2.model, slot2.animator, slot0.role)
 		end
 
 		slot0.role = nil
 	end
-
-	slot0.modelData = nil
 end
 
 slot0.ClearCharacterContainer = function(slot0)
-	slot0:UnloadCharacter()
+	slot0:UnloadCharacter(slot0.loadData)
+
+	slot0.loadData = nil
 
 	if not IsNil(slot0.roleContainer) then
 		Object.Destroy(slot0.roleContainer.gameObject)

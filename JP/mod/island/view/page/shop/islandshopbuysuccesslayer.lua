@@ -27,30 +27,12 @@ end
 slot0.SetUp = function(slot0, slot1)
 	slot0.awardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if uv0[slot1 + 1].type == VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT and slot3.id == 0 then
-				LoadImageSpriteAtlasAsync("island/" .. pg.island_set.season_pt.key_value_varchar[2], "", slot2:Find("IslandItemTpl/icon_bg/icon"))
-				setText(slot2:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3.count)
-				setActive(slot2:Find("split"), true)
-			else
-				setActive(slot2:Find("split"), false)
+			slot3 = uv0[slot1 + 1]
 
-				if slot3.type == DROP_TYPE_ISLAND_ITEM or slot3.type == DROP_TYPE_ISLAND_SPEEDUP_TICKET then
-					updateCustomDrop(slot2:Find("IslandItemTpl"), {
-						type = slot3.type,
-						id = slot3.id,
-						count = slot3.count
-					})
-				elseif slot3.type == DROP_TYPE_ISLAND_FURNITURE then
-					GetImageSpriteFromAtlasAsync("island/IslandFurnitureIcon/" .. pg.island_furniture_template[slot3.id].icon, "", slot2:Find("IslandItemTpl/icon_bg/icon"))
-					setText(slot2:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3.count)
-				elseif slot3.type == DROP_TYPE_ISLAND_DRESS then
-					GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. pg.island_dress_template[slot3.id].icon, "", slot2:Find("IslandItemTpl/icon_bg/icon"))
-					setText(slot2:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3.count)
-				elseif slot3.type == DROP_TYPE_ISLAND_SKIN then
-					GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. pg.island_skin_template[slot3.id].icon, "", slot2:Find("IslandItemTpl/icon_bg/icon"))
-					setText(slot2:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3.count)
-				end
-			end
+			updateCustomDrop(slot2:Find("IslandItemTpl"), slot3, {
+				style = "island"
+			})
+			setActive(slot2:Find("split"), slot3.type == VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT)
 		end
 	end)
 	slot0.awardList:align(#slot1)
@@ -58,7 +40,15 @@ end
 
 slot0.OnShow = function(slot0, slot1, slot2)
 	slot0:BlurPanel(slot0._tf)
-	slot0:SetUp(slot1)
+
+	slot3 = table.mergeArray(slot1.awards or {}, slot1.drops or {})
+
+	table.sort(slot3, CompareFuncs({
+		function (slot0)
+			return slot0.type == VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT and 0 or 1
+		end
+	}))
+	slot0:SetUp(slot3)
 
 	slot0.callback = slot2
 	slot0.active = true

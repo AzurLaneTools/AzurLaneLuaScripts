@@ -826,6 +826,8 @@ slot0.HXCharacter = function(slot0, slot1)
 
 		if false then
 			slot1.sharedMaterials = slot2
+
+			GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(uv1))
 		end
 	end)
 end

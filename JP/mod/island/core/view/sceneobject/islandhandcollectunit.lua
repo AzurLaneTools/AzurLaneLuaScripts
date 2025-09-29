@@ -125,9 +125,13 @@ end
 
 slot0.CheckCanStartColloct = function(slot0)
 	if not (slot0.slotData:GetCanCollectTimeStamps() == 0) then
-		slot4 = nil
+		slot2 = slot0.slotData
+		slot3 = pg.TimeMgr.GetInstance()
+		slot6 = pg.TipsMgr.GetInstance()
 
-		pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_log_recover", (slot0.slotData:GetCanCollectTimeStamps() - pg.TimeMgr.GetInstance():GetServerTime() <= 86400 or pg.TimeMgr.GetInstance():STimeDescC(slot2 or 0)) and os.date("%H:%M:%S", slot2 or 0)))
+		slot6:ShowTips(i18n("island_production_log_recover", (function (slot0)
+			return string.format("%02d:%02d:%02d", math.floor(slot0 / 3600), math.floor(slot0 % 3600 / 60), slot0 % 60)
+		end)(slot2:GetCanCollectTimeStamps() - slot3:GetServerTime())))
 
 		return false
 	end

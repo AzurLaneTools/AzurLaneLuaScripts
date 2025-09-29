@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "工厂管理员",
+			subName = "工場管理人",
 			animation = "note",
 			characterId = 100900,
-			say = "进度？啊！对对对！进度！整体……应该……可能……勉强跟上计划了？",
+			say = "進捗？あ！そうだ！進捗！全体的には……多分……なんとか……ギリギリ計画に間に合いそう…？",
 			face2Face = {
 				{
 					0,

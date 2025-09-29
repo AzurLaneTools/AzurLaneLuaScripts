@@ -61,7 +61,7 @@ slot0.ActivityCharacterCamera = function(slot0)
 end
 
 slot0.GetActiveCamName = function(slot0)
-	return IslandConst.CHARA_CAMERA_NAME
+	return IslandConst.DRESSUP_CAMERA_NAME
 end
 
 slot0.UnLoadCharacterScene = function(slot0, slot1)
@@ -105,18 +105,15 @@ slot0.LoadCharacter = function(slot0, slot1)
 		setParent(uv0.role, uv0.roleContainer)
 
 		uv0.role.transform.eulerAngles = Vector3(0, 180, 0)
-		slot1 = 0
 
-		if uv0._tf.rect.width / uv0._tf.rect.height < 1.7777777777777777 then
-			slot1 = 0 - 0.5 * (1.7777777777777777 - slot2) / 0.4444444444444444
-		end
+		IslandCameraMgr.instance:CinemachineComposerTrackObjOffset(uv0:GetActiveCamName(), Vector3(0.9 - (1.7777777777777777 - Screen.width / Screen.height) * 0.5, 1, 0))
 
-		uv0.role.transform.localPosition = Vector3(slot1, 0, 0)
-		slot4 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+		uv0.role.transform.localPosition = Vector3(0, 0, 0)
+		slot6 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
 
-		slot4:SetUp(uv0.role.transform)
+		slot6:SetUp(uv0.role.transform)
 
-		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		slot6.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
 		uv0:OnCharLoaded()
 	end)

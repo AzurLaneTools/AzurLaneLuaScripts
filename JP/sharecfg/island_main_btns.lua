@@ -59,7 +59,7 @@ pg.island_main_btns = {
 		}
 	},
 	{
-		ability_id = 0,
+		ability_id = 2,
 		name = "設備",
 		main_type = 1,
 		btn_name = "device",

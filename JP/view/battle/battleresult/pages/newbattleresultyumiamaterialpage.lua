@@ -4,6 +4,10 @@ slot0.YUMIA_MATERIAL_DROP_TYPE_LIST = {
 }
 
 slot0.NeedShowYumiaMaterailDrop = function(slot0)
+	if not slot0 then
+		return false
+	end
+
 	for slot4, slot5 in ipairs(slot0) do
 		if table.contains(uv0.YUMIA_MATERIAL_DROP_TYPE_LIST, slot5.type) then
 			return true

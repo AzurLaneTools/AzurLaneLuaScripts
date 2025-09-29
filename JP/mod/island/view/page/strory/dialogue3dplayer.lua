@@ -55,11 +55,11 @@ slot0.CancelAuto = function(slot0)
 end
 
 slot0.OnStart = function(slot0, slot1)
-	slot0:ActiveDefaultCamera(slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
 slot0.OnStartAction = function(slot0, slot1, slot2)
+	slot0:ActiveDefaultCamera(slot1)
 	slot0:StartFadeIn(slot1)
 	slot2()
 end

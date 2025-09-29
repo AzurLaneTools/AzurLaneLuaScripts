@@ -1,27 +1,18 @@
 return {
-	mode = 10,
 	id = "ISLAND1001021_1",
+	mode = 10,
 	map = {
 		{
 			3120100,
 			10020013
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
 			say = "――明石、そのEXP教科書とやらはどうなったの？",
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			camera = "StoryCamera7",
 			face2Face = {
 				{
 					0,

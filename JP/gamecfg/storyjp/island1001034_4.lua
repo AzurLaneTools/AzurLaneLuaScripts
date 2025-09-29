@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "……このカプラー……角度がズレてる？いや違う……こっちの問題じゃない……",
-			subName = "工場管理人",
+			say = "……啧，这个耦合器……角度偏差一些？不对……好像不是这边的问题……",
+			subName = "工厂管理员",
 			characterId = 100900,
 			animation = "doubt",
 			face2Face = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "……レンチ！六角レンチはどこ！？さっきここに置いたのに！",
-			subName = "工場管理人",
+			say = "……扳手！我的内六角扳手去哪了？！刚才明明放在这儿的！",
+			subName = "工厂管理员",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "……このカプラー……角度がズレてる？いや違う……こっちの問題じゃない……",
+			say = "――明石……また騙したな……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			style = 2,
 			sequence = {
 				{
-					"<size=45>数小时后……</size>",
-					1
+					"<size=45>数時間後……</size>",
+					2
 				}
 			}
 		},

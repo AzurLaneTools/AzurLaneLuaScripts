@@ -4,9 +4,10 @@ return {
 	map = {},
 	scripts = {
 		{
-			withoutName = true,
-			withoutIcon = true,
 			say = "カラン……カラン……カランカラン……",
+			withoutIcon = true,
+			withoutName = true,
+			camera = "StoryCamera10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +40,7 @@ return {
 			}
 		},
 		{
-			actorName = "哞哞牛",
+			actorName = "モーモーウシ",
 			withoutIcon = true,
 			say = "モ〜〜〜……",
 			typewriter = {

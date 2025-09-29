@@ -1,10 +1,20 @@
 slot0 = class("IslandVisibilityAllocator", import(".IslandComparableAllocator"))
 
-slot0.OnInitFlags = function(slot0)
-	for slot4, slot5 in ipairs(slot0.controller.sceneData.unitList) do
-		slot0.flags[slot5.id] = not slot5.isDynamic
+slot0.Ctor = function(slot0, slot1)
+	slot0.lockNpcList = {}
 
-		slot0:ApplyCondition(slot5)
+	uv0.super.Ctor(slot0, slot1)
+end
+
+slot0.OnInitFlags = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.controller.sceneData.unitList) do
+		if not slot0:IsLockNpc(slot6.id, IslandConst.UNIT_LIST_OBJ) then
+			slot0.flags[slot6.id] = not slot6.isDynamic
+
+			slot0:ApplyCondition(slot6)
+		elseif slot1 then
+			slot0.flags[slot6.id] = slot1[slot6.id] or not slot6.isDynamic
+		end
 	end
 end
 
@@ -229,6 +239,27 @@ end
 
 slot0.IsVisible = function(slot0, slot1)
 	return slot0.flags[slot1] == true
+end
+
+slot0.IsLockNpc = function(slot0, slot1, slot2)
+	return _.any(slot0.lockNpcList or {}, function (slot0)
+		return slot0[1] == uv0 and slot0[2] == uv1
+	end)
+end
+
+slot0.LockNpc = function(slot0, slot1, slot2)
+	table.insert(slot0.lockNpcList, {
+		slot1,
+		slot2
+	})
+end
+
+slot0.ReleaseNpc = function(slot0, slot1, slot2)
+	for slot6 = #slot0.lockNpcList, 1, -1 do
+		if slot0.lockNpcList[slot6][1] == slot1 and slot7[2] == slot2 then
+			table.remove(slot0.lockNpcList, slot6)
+		end
+	end
 end
 
 return slot0

@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "阳光的香味！就快能摘啦！",
+			say = "太陽の香り！もうすぐ摘めますね！",
 			characterId = 101100
 		}
 	}

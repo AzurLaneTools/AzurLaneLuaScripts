@@ -1,31 +1,18 @@
 return {
-	mode = 10,
 	id = "ISLAND1001017",
+	mode = 10,
 	map = {
-		{
-			1014,
-			10070027
-		},
 		{
 			3120100,
 			10070005
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
-			say = "――捕まえたぞ明石。まだ逃げるつもりか？",
 			animation = "nod",
+			say = "――捕まえたぞ明石。まだ逃げるつもりか？",
 			characterId = 0,
+			camera = "StoryCamera6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +152,7 @@ return {
 			}
 		},
 		{
-			say = "――捕まえたぞ明石。まだ逃げるつもりか？",
+			say = "――なるほど……こほん、明石",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

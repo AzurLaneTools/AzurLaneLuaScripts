@@ -7,7 +7,7 @@ pg.island_order_favor = {
 			{
 				41,
 				1,
-				1000
+				2000
 			}
 		}
 	},
@@ -17,8 +17,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				100002,
-				10
+				100001,
+				15
 			}
 		}
 	},
@@ -28,8 +28,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				1,
-				1000
+				110001,
+				1
 			}
 		}
 	},
@@ -39,8 +39,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				3,
-				2
+				100101,
+				1
 			}
 		}
 	},
@@ -51,7 +51,7 @@ pg.island_order_favor = {
 			{
 				41,
 				1,
-				1000
+				2000
 			}
 		}
 	},
@@ -61,7 +61,7 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				100101,
+				100002,
 				2
 			}
 		}
@@ -72,8 +72,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				1,
-				1000
+				110001,
+				2
 			}
 		}
 	},
@@ -83,8 +83,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				3,
-				3
+				100102,
+				1
 			}
 		}
 	},
@@ -94,8 +94,8 @@ pg.island_order_favor = {
 		award_display = {
 			{
 				41,
-				100102,
-				2
+				1,
+				5000
 			}
 		}
 	},

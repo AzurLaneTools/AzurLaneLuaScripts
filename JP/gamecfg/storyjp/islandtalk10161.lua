@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "开发季管理员",
+			subName = "シーズン担当",
 			animation = "curious",
 			characterId = 101600,
-			say = "有什么需要我帮忙的吗？",
+			say = "何か手伝えることはありますか？",
 			face2Face = {
 				{
 					0,

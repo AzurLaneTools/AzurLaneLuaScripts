@@ -17,7 +17,9 @@ slot0.EnableOrDisableUnitSyn = function(slot0, slot1, slot2, slot3)
 		slot4(slot2, slot3)
 	end
 
-	slot0:EnableOrDisableNavMeshObstacle(slot2, slot3)
+	if PLATFORM ~= PLATFORM_IPHONEPLAYER then
+		slot0:EnableOrDisableNavMeshObstacle(slot2, slot3)
+	end
 end
 
 slot0.EnableOrDisableNavMeshObstacle = function(slot0, slot1, slot2)

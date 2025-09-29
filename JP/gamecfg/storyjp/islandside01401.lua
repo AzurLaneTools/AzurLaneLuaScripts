@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "――また紙か……これで四枚目だ……",
+			say = "――また紙か……これで五枚目だ……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

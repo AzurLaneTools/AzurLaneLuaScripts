@@ -63,7 +63,7 @@ slot0.GetNextRecoverTimes = function(slot0, slot1)
 end
 
 slot0.GetRecoverCD = function(slot0)
-	return slot0.cd
+	return slot0.cd - getProxy(IslandProxy):GetIsland():GetAblityAgency():GetAdditionEffectByAblityType(slot0.placeId == IslandProductConst.MinePlaceId and IslandAblityAgency.TYPE_RECOVER_ORE or IslandAblityAgency.TYPE_RECOVER_CAMP)
 end
 
 slot0.UpdateCollectRefreshtTime = function(slot0, slot1, slot2)

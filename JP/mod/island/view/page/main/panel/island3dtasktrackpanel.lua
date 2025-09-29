@@ -48,6 +48,8 @@ slot0.UpdateTargetItem = function(slot0, slot1, slot2)
 
 	if slot4 then
 		slot2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_finish_in")
+	else
+		slot2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_unfinished_in")
 	end
 
 	GetOrAddComponent(slot2:Find("content"), "CanvasGroup").alpha = slot4 and 0.5 or 1
@@ -92,8 +94,8 @@ end
 slot0.UpdateTarget = function(slot0)
 	slot1 = not slot0.task:IsSubmitImmediately() and slot0.task:IsFinish()
 
+	slot0.targetUIList:align(#slot0.task:GetTargetList())
 	setActive(slot0.finishedTF, slot1)
-	setActive(slot0.unFinishTF, not slot1)
 
 	if slot1 then
 		if slot0:GetMapTip(tonumber(slot0.task:GetTraceParam())) then
@@ -101,8 +103,6 @@ slot0.UpdateTarget = function(slot0)
 		else
 			setText(slot0.finishedTF:Find("Text"), HXSet.hxLan(slot0.task:GetFinishedDesc()))
 		end
-	else
-		slot0.targetUIList:align(#slot0.task:GetTargetList())
 	end
 end
 
@@ -124,9 +124,11 @@ slot0.TrackUI = function(slot0)
 
 	if tonumber(slot0.task:GetTraceParam()) then
 		if getProxy(IslandProxy):GetIsland():GetMapId() == pg.island_world_objects[slot2].mapId then
-			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-				id = slot2
-			})
+			if _IslandCore then
+				_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
+					id = slot2
+				})
+			end
 		else
 			slot0:UnTrackUI()
 		end
@@ -156,7 +158,9 @@ slot0.UnTrackUI = function(slot0)
 		return
 	end
 
-	_IslandCore:GetController():NotifiyCore(ISLAND_EVT.UNTRACKING)
+	if _IslandCore then
+		_IslandCore:GetController():NotifiyCore(ISLAND_EVT.UNTRACKING)
+	end
 end
 
 slot0.RemoveTask = function(slot0)

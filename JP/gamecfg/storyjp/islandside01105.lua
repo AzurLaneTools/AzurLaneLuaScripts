@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "どうしたの？何か問題が起きたのか？",
+			say = "――どうしたの？何か問題が起きたのか？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

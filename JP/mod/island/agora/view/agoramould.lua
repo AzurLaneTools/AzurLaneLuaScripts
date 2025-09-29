@@ -67,6 +67,8 @@ slot0.UpdatePosition = function(slot0, slot1)
 
 	if slot0.data:IsBuildingType() then
 		slot3 = IslandConst.AGORA_BUILDING_Y_OFFSET
+	elseif slot0.data:IsNewTileType() then
+		slot3 = Vector3(0, 0.01, 0)
 	end
 
 	slot0.root.position = slot2 + IslandConst.AGORA_POSITION_OFFSET + slot3

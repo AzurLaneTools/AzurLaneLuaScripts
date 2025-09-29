@@ -3,7 +3,7 @@ return {
 	id = "ISLAND1001046",
 	map = {
 		{
-			10070031,
+			3120100,
 			10070031
 		},
 		{
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "elation",
 			say = "えへへ、すごいと思うにゃ？",
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			say = "これでもまだ一期目にゃ！ゆくゆくは生産ラインでいっぱいになって、昼夜を問わず稼働し続けるようになるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "elation",
 			say = "そうにゃ！開発エリアの取引量も一気に増えるにゃ！",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			say = "余った小麦粉や飼料、将来的には加工した合金まで販売できるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "nod",
 			say = "そうにゃ！ここが回って行けば指揮官の借金も…",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			say = "こほん、島の資金繰りに一気に余裕ができるようになるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "talk",
 			say = "お金……じゃなかった、繁栄！はもう目の前にゃ！",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "clap",
 			say = "ムフフ！そうなればもう食うに困らなくなるにゃ！",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
+			actor = 3120100,
 			animation = "clap",
 			say = "じゃあ約束にゃ！これからも一緒に頑張ろうにゃ！",
 			typewriter = {

@@ -1790,6 +1790,11 @@ _G.pg.base.gametip.channel_name_5 = {
 }
 
 
+_G.pg.base.gametip.channel_name_6 = {
+	tip = "離島"
+}
+
+
 _G.pg.base.gametip.common_wait = {
 	tip = "少し時間を置いてから再度お試しください"
 }
@@ -24580,7 +24585,7 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
-_G.pg.base.gametip.setting_resdownload_title_island = {
+_G.pg.base.gametip.setting_resdownload_title_map = {
 	tip = "離島アセット更新"
 }
 
@@ -31345,7 +31350,7 @@ _G.pg.base.gametip.word_maingroup_updatefailure = {
 
 
 _G.pg.base.gametip.group_download_tip = {
-	tip = "更新するには$1のデータをダウンロードする必要があります。更新を行いますか？"
+	tip = "更新するには$1のデータをダウンロ\nードする必要があります。更新を行いますか？"
 }
 
 
@@ -39126,7 +39131,7 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
-	tip = "グラフィック"
+	tip = "画質設定"
 }
 
 
@@ -39152,6 +39157,26 @@ _G.pg.base.gametip.grapihcs3d_setting_card_tag = {
 
 _G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
 	tip = "データ展示"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_title = {
+	tip = "離島汎用機能"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_use = {
+	tip = "使用"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck = {
+	tip = "位置リセット"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck_msgbox = {
+	tip = "位置リセットを使用し、現在位置をエリアの初期位置に戻りますか？"
 }
 
 
@@ -39182,6 +39207,61 @@ _G.pg.base.gametip.island_build_clean_tip = {
 
 _G.pg.base.gametip.island_build_revert_tip = {
 	tip = "変更を全てリセットしますか？"
+}
+
+
+_G.pg.base.gametip.island_dress_exit = {
+	tip = "着せ替えを保存しますか？"
+}
+
+
+_G.pg.base.gametip.island_dress_exit2 = {
+	tip = "未所持の着せ替えが自動で外されました"
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive = {
+	tip = "$1と現在の着せ替えを同時に適用できないため、自動で外されました"
+}
+
+
+_G.pg.base.gametip.island_dress_skin_buy = {
+	tip = "$1を消費し$2を購入しますか？"
+}
+
+
+_G.pg.base.gametip.island_dress_color_buy = {
+	tip = "$1でこのカラーを開放しますか？"
+}
+
+
+_G.pg.base.gametip.island_dress_color_unlock = {
+	tip = "カラーを開放しました"
+}
+
+
+_G.pg.base.gametip.island_dress_save1 = {
+	tip = "保存に成功しました"
+}
+
+
+_G.pg.base.gametip.island_dress_save2 = {
+	tip = "保存に成功しました。未所持の着せ替えが自動で外されました"
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
+	tip = "この着せ替えはこのキャラに適用できません"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip = {
+	tip = "$1を$1にプレゼントし、適用させますか？"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip_success = {
+	tip = "$1を$1にプレゼントしました"
 }
 
 
@@ -40922,6 +41002,3735 @@ _G.pg.base.gametip.shop_filter_retro = {
 }
 
 
+_G.pg.base.gametip.island_chara_invitename = {
+	tip = "$1離島権限認証"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname = {
+	tip = "キャラ詳細"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname_en = {
+	tip = "SHIPINFO"
+}
+
+
+_G.pg.base.gametip.island_chara_power = {
+	tip = "体力"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute1 = {
+	tip = "農業"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute2 = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute3 = {
+	tip = "飼養"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute4 = {
+	tip = "料理"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute5 = {
+	tip = "経営"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute6 = {
+	tip = "制作"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_lock = {
+	tip = "★2に突破する必要があります"
+}
+
+
+_G.pg.base.gametip.island_chara_list = {
+	tip = "キャラ一覧"
+}
+
+
+_G.pg.base.gametip.island_chara_list_filter = {
+	tip = "絞り込み"
+}
+
+
+_G.pg.base.gametip.island_chara_list_sort = {
+	tip = "ソート"
+}
+
+
+_G.pg.base.gametip.island_chara_list_level = {
+	tip = "生活LV"
+}
+
+
+_G.pg.base.gametip.island_chara_list_attribute = {
+	tip = "総合能力"
+}
+
+
+_G.pg.base.gametip.island_index_name = {
+	tip = "残り体力"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "無制限"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "能力強化可"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "ｽｷﾙ強化可"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "バフあり"
+}
+
+
+_G.pg.base.gametip.island_confirm = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.island_cancel = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.island_chara_levelup = {
+	tip = "レベルアップ"
+}
+
+
+_G.pg.base.gametip.islland_chara_material_consum = {
+	tip = "消費素材"
+}
+
+
+_G.pg.base.gametip.island_chara_up_button = {
+	tip = "レベルアップ"
+}
+
+
+_G.pg.base.gametip.island_chara_now_rank = {
+	tip = "現在★"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_tip = {
+	tip = "スキル開放："
+}
+
+
+_G.pg.base.gametip.island_chara_consum = {
+	tip = "消費"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_button = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_down = {
+	tip = "突破完了"
+}
+
+
+_G.pg.base.gametip.island_chara_level_limit = {
+	tip = "レベル上限"
+}
+
+
+_G.pg.base.gametip.island_chara_power_limit = {
+	tip = "体力上限"
+}
+
+
+_G.pg.base.gametip.island_click_to_close = {
+	tip = "画面タップで戻る"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_unlock = {
+	tip = "スキル開放"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute_develop = {
+	tip = "能力強化"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_attribute = {
+	tip = "強化したい能力を選択"
+}
+
+
+_G.pg.base.gametip.island_chara_rating_up = {
+	tip = "能力強化"
+}
+
+
+_G.pg.base.gametip.island_chara_limit_up = {
+	tip = "上限突破"
+}
+
+
+_G.pg.base.gametip.island_chara_ceiling_unlock = {
+	tip = "職責の星の1個消費し限界突破しますか？"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_gift = {
+	tip = "タップでプレゼント選択"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_better = {
+	tip = "効果がもっと高いバフを所持しています。続けますか？"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_nomal = {
+	tip = "所持中のバフが上書きされます。続けますか？"
+}
+
+
+_G.pg.base.gametip.island_chara_gift_power = {
+	tip = "体力回復：$1"
+}
+
+
+_G.pg.base.gametip.island_visit_title = {
+	tip = "訪問"
+}
+
+
+_G.pg.base.gametip.island_visit_friend = {
+	tip = "友達"
+}
+
+
+_G.pg.base.gametip.island_visit_teammate = {
+	tip = "大艦隊"
+}
+
+
+_G.pg.base.gametip.island_visit_code = {
+	tip = "コード"
+}
+
+
+_G.pg.base.gametip.island_visit_search = {
+	tip = "検索"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist = {
+	tip = "自動許可"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist = {
+	tip = "訪問禁止"
+}
+
+
+_G.pg.base.gametip.island_visit_set = {
+	tip = "設定"
+}
+
+
+_G.pg.base.gametip.island_visit_delete = {
+	tip = "削除"
+}
+
+
+_G.pg.base.gametip.island_visit_more = {
+	tip = "もっと"
+}
+
+
+_G.pg.base.gametip.island_visit_code_title = {
+	tip = "訪問コード"
+}
+
+
+_G.pg.base.gametip.island_visit_code_input = {
+	tip = "コード入力"
+}
+
+
+_G.pg.base.gametip.island_visit_code_like = {
+	tip = "常用に設定"
+}
+
+
+_G.pg.base.gametip.island_visit_code_likelist = {
+	tip = "常用コード"
+}
+
+
+_G.pg.base.gametip.island_visit_code_remove = {
+	tip = "外す"
+}
+
+
+_G.pg.base.gametip.island_visit_code_copy = {
+	tip = "コピー"
+}
+
+
+_G.pg.base.gametip.island_visit_search_mineid = {
+	tip = "UID"
+}
+
+
+_G.pg.base.gametip.island_visit_search_input = {
+	tip = "タップで入力"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist_tip = {
+	tip = "自動許可リストのユーザーは訪問が自動で許可されます"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist_tip = {
+	tip = "訪問禁止リストのユーザーは訪問が許可されません"
+}
+
+
+_G.pg.base.gametip.island_visit_set_title = {
+	tip = "離島訪問許可"
+}
+
+
+_G.pg.base.gametip.island_visit_set_tip = {
+	tip = "許可開放範囲を選択"
+}
+
+
+_G.pg.base.gametip.island_visit_set_refresh = {
+	tip = "更新"
+}
+
+
+_G.pg.base.gametip.island_visit_set_close = {
+	tip = "離島への訪問を許可しません"
+}
+
+
+_G.pg.base.gametip.island_visit_set_help = {
+	tip = [[
+訪問許可ON：訪問許可を選択したグループのユーザーに限り離島に訪問できます
+訪問許可OFF：離島への訪問が許可されません
+訪問コード：訪問許可をONに設定すると、訪問禁止リストにいないユーザーに限り、コードを使うことで離島に訪問できます
+コードリセット：訪問コードは毎日一回リセットできます]]
+}
+
+
+_G.pg.base.gametip.island_visitor_button = {
+	tip = "来訪"
+}
+
+
+_G.pg.base.gametip.island_visitor_status = {
+	tip = "来訪中"
+}
+
+
+_G.pg.base.gametip.island_visitor_record = {
+	tip = "来訪記録"
+}
+
+
+_G.pg.base.gametip.island_visitor_num = {
+	tip = "現在待機：XX"
+}
+
+
+_G.pg.base.gametip.island_visitor_kick = {
+	tip = "キック"
+}
+
+
+_G.pg.base.gametip.island_visitor_kickall = {
+	tip = "一括キック"
+}
+
+
+_G.pg.base.gametip.island_visitor_close = {
+	tip = "訪問禁止"
+}
+
+
+_G.pg.base.gametip.island_lineup_tip = {
+	tip = "離島訪問数が上限になっています。待機リストに入ります"
+}
+
+
+_G.pg.base.gametip.island_lineup_button = {
+	tip = "訪問中止"
+}
+
+
+_G.pg.base.gametip.island_visit_tip1 = {
+	tip = "離島に訪問できません"
+}
+
+
+_G.pg.base.gametip.island_visit_tip2 = {
+	tip = "離島の訪問が許可されていません"
+}
+
+
+_G.pg.base.gametip.island_visit_tip3 = {
+	tip = "訪問コードが無効です"
+}
+
+
+_G.pg.base.gametip.island_visit_tip4 = {
+	tip = "離島からキックされました"
+}
+
+
+_G.pg.base.gametip.island_visit_tip5 = {
+	tip = "訪問可能まで：$1"
+}
+
+
+_G.pg.base.gametip.island_visit_tip6 = {
+	tip = "操作に成功しました"
+}
+
+
+_G.pg.base.gametip.island_visit_tip7 = {
+	tip = "これ以上常用コードを設定できません"
+}
+
+
+_G.pg.base.gametip.island_season_help = {
+	tip = [[
+1.新しいシーズンが開始すると、離島開発PTは自動でリセットされます
+22.開発シーズンでは、資源変換・特定の資源を生産・ショップ購入で離島開発PTを入手できます
+23.シーズン終了時、資源倉庫の資源は自動で開発PTに変換され、開発順位の計算において統計されます
+24.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が受け取れなくなります]]
+}
+
+
+_G.pg.base.gametip.island_season_title = {
+	tip = "シーズン"
+}
+
+
+_G.pg.base.gametip.island_season_pt_hold = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.island_season_pt_collectall = {
+	tip = "一括入手"
+}
+
+
+_G.pg.base.gametip.island_season_activity = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.island_season_pt = {
+	tip = "累計PT"
+}
+
+
+_G.pg.base.gametip.island_season_task = {
+	tip = "開発計画"
+}
+
+
+_G.pg.base.gametip.island_season_shop = {
+	tip = "ショップ"
+}
+
+
+_G.pg.base.gametip.island_season_charts = {
+	tip = "開発順位"
+}
+
+
+_G.pg.base.gametip.island_season_review = {
+	tip = "振り返り"
+}
+
+
+_G.pg.base.gametip.island_season_task_collect = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.island_season_task_collected = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.island_season_task_collectall = {
+	tip = "一括受取"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage1 = {
+	tip = "段階Ⅰ"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage2 = {
+	tip = "段階Ⅱ"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage3 = {
+	tip = "段階Ⅲ"
+}
+
+
+_G.pg.base.gametip.island_season_charts_ranking = {
+	tip = "開発順位"
+}
+
+
+_G.pg.base.gametip.island_season_charts_information = {
+	tip = "離島情報"
+}
+
+
+_G.pg.base.gametip.island_season_charts_pt = {
+	tip = "離島開発PT"
+}
+
+
+_G.pg.base.gametip.island_season_charts_award = {
+	tip = "順位報酬"
+}
+
+
+_G.pg.base.gametip.island_season_charts_level = {
+	tip = "離島開発Lv"
+}
+
+
+_G.pg.base.gametip.island_season_charts_refresh = {
+	tip = "開発順位は30分毎に更新されます"
+}
+
+
+_G.pg.base.gametip.island_season_review_charnum = {
+	tip = "仲間人数"
+}
+
+
+_G.pg.base.gametip.island_season_review_projuctnum = {
+	tip = "技術研究"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptnum = {
+	tip = "開発PT"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptrank = {
+	tip = "開発順位"
+}
+
+
+_G.pg.base.gametip.island_season_review_produce = {
+	tip = "離島生産"
+}
+
+
+_G.pg.base.gametip.island_season_review_ordernum = {
+	tip = "輸送資源数"
+}
+
+
+_G.pg.base.gametip.island_season_review_formulanum = {
+	tip = "メニュー製作数"
+}
+
+
+_G.pg.base.gametip.island_season_review_relax = {
+	tip = "ミニゲーム"
+}
+
+
+_G.pg.base.gametip.island_season_review_fishnum = {
+	tip = "釣り成果"
+}
+
+
+_G.pg.base.gametip.island_season_review_gamenum = {
+	tip = "イベント参加"
+}
+
+
+_G.pg.base.gametip.island_season_window_end = {
+	tip = "まもなくシーズンが終了します"
+}
+
+
+_G.pg.base.gametip.island_season_window_end2 = {
+	tip = "シーズン終了まで：$1日"
+}
+
+
+_G.pg.base.gametip.island_season_window_rule = {
+	tip = "1.シーズンが終了すると、資源倉庫の資源は自動で開発PTに変換され、開発順位の計算において統計されます。また、一時倉庫の中身がクリアされ、進行中の依頼・輸送委託・料理制作・仲間の生産配置もリセットされます\n2.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が受け取れなくなります\n3.新しいシーズンが開始すると、開発PTは自動でリセットされます"
+}
+
+
+_G.pg.base.gametip.island_season_window_transformtip = {
+	tip = "選択したアイテムを変換しますか？"
+}
+
+
+_G.pg.base.gametip.island_season_window_pt = {
+	tip = "$1資源変換で入手"
+}
+
+
+_G.pg.base.gametip.island_season_window_ranking = {
+	tip = "最終順位"
+}
+
+
+_G.pg.base.gametip.island_season_window_award = {
+	tip = "順位報酬"
+}
+
+
+_G.pg.base.gametip.island_season_window_out = {
+	tip = "圏外"
+}
+
+
+_G.pg.base.gametip.island_season_review_miss = {
+	tip = "シーズンに参加していません"
+}
+
+
+_G.pg.base.gametip.island_season_reset = {
+	tip = "シーズンがリセットされました"
+}
+
+
+_G.pg.base.gametip.island_help_ship_order = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_farm = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_farm"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_commission = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_cafe_minigame = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_cafe_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_signin = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_ranch = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_manage = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_combo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_friends = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_season = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_archive = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_archive1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_renovation = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_photo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_photo1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_greet = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_skin_original_desc = {
+	tip = "基本"
+}
+
+
+_G.pg.base.gametip.island_dress_no_item = {
+	tip = "この分類の着せ替えはありません"
+}
+
+
+_G.pg.base.gametip.island_agora_deco_empty = {
+	tip = "配置されていません"
+}
+
+
+_G.pg.base.gametip.island_agora_pos_unavailability = {
+	tip = "すでに配置されています"
+}
+
+
+_G.pg.base.gametip.island_agora_max_capacity = {
+	tip = "配置容量がいっぱいです"
+}
+
+
+_G.pg.base.gametip.island_agora_label_base = {
+	tip = "居所"
+}
+
+
+_G.pg.base.gametip.island_agora_label_building = {
+	tip = "敷地"
+}
+
+
+_G.pg.base.gametip.island_agora_label_furniture = {
+	tip = "置物"
+}
+
+
+_G.pg.base.gametip.island_agora_label_dec = {
+	tip = "装飾"
+}
+
+
+_G.pg.base.gametip.island_agora_label_floor = {
+	tip = "床"
+}
+
+
+_G.pg.base.gametip.island_agora_label_tile = {
+	tip = "床飾"
+}
+
+
+_G.pg.base.gametip.island_agora_label_collection = {
+	tip = "蒐集"
+}
+
+
+_G.pg.base.gametip.island_agora_label_default = {
+	tip = "デフォルト"
+}
+
+
+_G.pg.base.gametip.island_agora_label_rarity = {
+	tip = "レアリティ"
+}
+
+
+_G.pg.base.gametip.island_agora_label_gettime = {
+	tip = "入手順"
+}
+
+
+_G.pg.base.gametip.island_agora_label_capacity = {
+	tip = "容量消費"
+}
+
+
+_G.pg.base.gametip.island_agora_capacity = {
+	tip = "容量消費"
+}
+
+
+_G.pg.base.gametip.island_agora_furniure_preview = {
+	tip = "プレビュー"
+}
+
+
+_G.pg.base.gametip.island_agora_function_unuse = {
+	tip = "機能が開放されていません"
+}
+
+
+_G.pg.base.gametip.island_agora_signIn_tip = {
+	tip = "新しい一日が始まった。定期補給を確認しよう！"
+}
+
+
+_G.pg.base.gametip.island_agora_working = {
+	tip = "模様替え適用中……"
+}
+
+
+_G.pg.base.gametip.island_agora_using = {
+	tip = "適用中"
+}
+
+
+_G.pg.base.gametip.island_agora_save_theme = {
+	tip = "セット保存"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_clear = {
+	tip = "クリア"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_revert = {
+	tip = "リセット"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_save = {
+	tip = "保存"
+}
+
+
+_G.pg.base.gametip.island_agora_title = {
+	tip = "集会島"
+}
+
+
+_G.pg.base.gametip.island_agora_label_search = {
+	tip = "タップで検索"
+}
+
+
+_G.pg.base.gametip.island_agora_label_theme = {
+	tip = "テーマ"
+}
+
+
+_G.pg.base.gametip.island_agora_label_empty_tip = {
+	tip = "この分類の家具はありません"
+}
+
+
+_G.pg.base.gametip.island_agora_clear_tip = {
+	tip = "現在の配置をクリアしますか？"
+}
+
+
+_G.pg.base.gametip.island_agora_revert_tip = {
+	tip = "すべての変更をリセットしますか？"
+}
+
+
+_G.pg.base.gametip.island_agora_save_or_exit_tip = {
+	tip = "現在の配置をマイセットに保存しますか？"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_unsave = {
+	tip = "セット削除"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_save = {
+	tip = "一括配置"
+}
+
+
+_G.pg.base.gametip.island_agora_no_pos_place = {
+	tip = "保存先はありません"
+}
+
+
+_G.pg.base.gametip.island_agora_pave_tip = {
+	tip = "ドラッグ＆ドロップで配置可能"
+}
+
+
+_G.pg.base.gametip.island_enter_island_ban = {
+	tip = "訪問禁止"
+}
+
+
+_G.pg.base.gametip.island_order_not_get_award = {
+	tip = "受取出来ません"
+}
+
+
+_G.pg.base.gametip.island_order_cant_replace = {
+	tip = "入れ替え出来ません"
+}
+
+
+_G.pg.base.gametip.island_rename_tip = {
+	tip = "現在の離島名を確定します\n後でも変更できます"
+}
+
+
+_G.pg.base.gametip.island_rename_confirm = {
+	tip = "離島名が変更されます：$1"
+}
+
+
+_G.pg.base.gametip.island_bag_max_level = {
+	tip = "レベル最大です"
+}
+
+
+_G.pg.base.gametip.island_bag_uprade_success = {
+	tip = "レベルアップしました"
+}
+
+
+_G.pg.base.gametip.island_agora_save_success = {
+	tip = "保存しました"
+}
+
+
+_G.pg.base.gametip.island_agora_max_level = {
+	tip = "レベル最大です"
+}
+
+
+_G.pg.base.gametip.island_white_list_full = {
+	tip = "自動許可リストがいっぱいです"
+}
+
+
+_G.pg.base.gametip.island_black_list_full = {
+	tip = "訪問禁止リストがいっぱいです"
+}
+
+
+_G.pg.base.gametip.island_inviteCode_refresh = {
+	tip = "本日はすでに更新を行いました"
+}
+
+
+_G.pg.base.gametip.island_give_gift_success = {
+	tip = "プレゼントしました"
+}
+
+
+_G.pg.base.gametip.island_get_git_tip = {
+	tip = "離島補給をすでに受け取りました"
+}
+
+
+_G.pg.base.gametip.island_get_git_cnt_tip = {
+	tip = "本日はこれ以上受取できません"
+}
+
+
+_G.pg.base.gametip.island_share_gift_success = {
+	tip = "設定完了しました"
+}
+
+
+_G.pg.base.gametip.island_invitation_gift_success = {
+	tip = "補給受領要請を発送しました"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode3x3 = {
+	tip = "3*3モードに変更"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode1x1 = {
+	tip = "1マスモードに変更"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover = {
+	tip = "現在適用中のバフ効果が上書きされます。プレゼントを使用しますか？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_1 = {
+	tip = "現在適用中のバフ効果が上書きされます。プレゼントを使用しますか？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_2 = {
+	tip = "もっと高いバフ効果があります。プレゼントを使用しますか？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_3 = {
+	tip = "もっと高いバフ効果があります。プレゼントを使用しますか？"
+}
+
+
+_G.pg.base.gametip.island_log_visit = {
+	tip = "が離島に来訪しました"
+}
+
+
+_G.pg.base.gametip.island_log_exit = {
+	tip = "が離島から離れました"
+}
+
+
+_G.pg.base.gametip.island_log_gift = {
+	tip = "が補給の受取を連絡しました"
+}
+
+
+_G.pg.base.gametip.island_item_type_res = {
+	tip = "資源"
+}
+
+
+_G.pg.base.gametip.island_item_type_consume = {
+	tip = "消耗品"
+}
+
+
+_G.pg.base.gametip.island_item_type_spe = {
+	tip = "特殊"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_1 = {
+	tip = "栽培"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_2 = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_3 = {
+	tip = "飼養"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_4 = {
+	tip = "料理"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_5 = {
+	tip = "経営"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_6 = {
+	tip = "制作"
+}
+
+
+_G.pg.base.gametip.island_task_title = {
+	tip = "開発計画"
+}
+
+
+_G.pg.base.gametip.island_task_title_en = {
+	tip = "MISSION"
+}
+
+
+_G.pg.base.gametip.island_task_type_1 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.island_task_type_2 = {
+	tip = "離島開発"
+}
+
+
+_G.pg.base.gametip.island_task_type_3 = {
+	tip = "離島生活"
+}
+
+
+_G.pg.base.gametip.island_task_type_4 = {
+	tip = "デイリー"
+}
+
+
+_G.pg.base.gametip.island_task_type_5 = {
+	tip = "ｳｲｰｸﾘｰ"
+}
+
+
+_G.pg.base.gametip.island_task_type_6 = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.island_tech_type_1 = {
+	tip = "研究本部"
+}
+
+
+_G.pg.base.gametip.island_default_name = {
+	tip = "$1の離島"
+}
+
+
+_G.pg.base.gametip.island_order_type_1 = {
+	tip = "通常依頼"
+}
+
+
+_G.pg.base.gametip.island_order_type_2 = {
+	tip = "緊急依頼"
+}
+
+
+_G.pg.base.gametip.island_order_desc_1 = {
+	tip = "少し努力が必要な依頼。頑張った分は報われる"
+}
+
+
+_G.pg.base.gametip.island_order_desc_2 = {
+	tip = "楽々とこなせる依頼。ただし報酬がちょっと少ないかも？"
+}
+
+
+_G.pg.base.gametip.island_order_desc_3 = {
+	tip = "ちょっと挑戦的な依頼。大量の報酬が手に入ることも"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_1 = {
+	tip = "普通"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_2 = {
+	tip = "楽々"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_3 = {
+	tip = "手強い"
+}
+
+
+_G.pg.base.gametip.island_commander = {
+	tip = "指揮官"
+}
+
+
+_G.pg.base.gametip.island_task_lefttime = {
+	tip = "$1日$2時間"
+}
+
+
+_G.pg.base.gametip.island_seek_game_tip = {
+	tip = "警報装置に気をつけよう！"
+}
+
+
+_G.pg.base.gametip.island_item_transfer = {
+	tip = "下記アイテムが移動されました"
+}
+
+
+_G.pg.base.gametip.island_set_manifesto_success = {
+	tip = "修正完了"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level = {
+	tip = "繁栄度"
+}
+
+
+_G.pg.base.gametip.island_toast_status = {
+	tip = "$2はバフ効果\n[$1]を入手しました"
+}
+
+
+_G.pg.base.gametip.island_toast_level = {
+	tip = "$2はレベル$1になりました"
+}
+
+
+_G.pg.base.gametip.island_toast_ship = {
+	tip = "$2は正式に$1に参加しました"
+}
+
+
+_G.pg.base.gametip.island_lock_map_tip = {
+	tip = "マップは開放されていません"
+}
+
+
+_G.pg.base.gametip.island_home_btn_cant_use = {
+	tip = "現在は使用できません"
+}
+
+
+_G.pg.base.gametip.island_item_overflow = {
+	tip = "超過*$1"
+}
+
+
+_G.pg.base.gametip.island_item_no_capacity = {
+	tip = "倉庫満杯"
+}
+
+
+_G.pg.base.gametip.island_ship_no_energy = {
+	tip = "疲労"
+}
+
+
+_G.pg.base.gametip.island_ship_working = {
+	tip = "作業中："
+}
+
+
+_G.pg.base.gametip.island_ship_level_limit = {
+	tip = "体力上限"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_limit = {
+	tip = "レベル上限"
+}
+
+
+_G.pg.base.gametip.island_click_close = {
+	tip = "画面タップで閉じる"
+}
+
+
+_G.pg.base.gametip.island_break_finish = {
+	tip = "<color=#39bfff>[ 突破完了 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_unlock_skill = {
+	tip = "<color=#39bfff>[ スキル解放 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_ship_title_info = {
+	tip = "キャラ情報"
+}
+
+
+_G.pg.base.gametip.island_building_title_info = {
+	tip = "施設情報"
+}
+
+
+_G.pg.base.gametip.island_word_effect = {
+	tip = "効果："
+}
+
+
+_G.pg.base.gametip.island_word_dispatch = {
+	tip = "配置中："
+}
+
+
+_G.pg.base.gametip.island_word_working = {
+	tip = "作業中"
+}
+
+
+_G.pg.base.gametip.island_word_stop_work = {
+	tip = "作業中止"
+}
+
+
+_G.pg.base.gametip.island_level_to_unlock = {
+	tip = "離島レベル$1で開放"
+}
+
+
+_G.pg.base.gametip.island_select_product = {
+	tip = "生産物選択"
+}
+
+
+_G.pg.base.gametip.island_sub_product_cnt = {
+	tip = "副産物 × $1"
+}
+
+
+_G.pg.base.gametip.island_make_unlock_tip = {
+	tip = "$1 レベル$2で開放"
+}
+
+
+_G.pg.base.gametip.island_need_star = {
+	tip = "★$1に突破する必要があります"
+}
+
+
+_G.pg.base.gametip.island_need_star_1 = {
+	tip = "$1に突破する必要があります"
+}
+
+
+_G.pg.base.gametip.island_select_ship = {
+	tip = "キャラ選択"
+}
+
+
+_G.pg.base.gametip.island_select_ship_label_1 = {
+	tip = "選択済："
+}
+
+
+_G.pg.base.gametip.island_select_ship_overview = {
+	tip = "キャラバフ一覧"
+}
+
+
+_G.pg.base.gametip.island_select_ship_tip = {
+	tip = [[
+メニューの集客力は売上に影響します。集客力が高いほど、客が購入する確率が上がります。
+集客力は担当仲間の能力（メイン・サブ）によって影響されます。
+ メイン能力：集客力を著しく上昇させる能力 
+サブ能力：集客力をそこそこ上昇させる能力]]
+}
+
+
+_G.pg.base.gametip.island_friend = {
+	tip = "友達"
+}
+
+
+_G.pg.base.gametip.island_guild = {
+	tip = "大艦隊"
+}
+
+
+_G.pg.base.gametip.island_code = {
+	tip = "訪問コード"
+}
+
+
+_G.pg.base.gametip.island_search = {
+	tip = "検索"
+}
+
+
+_G.pg.base.gametip.island_whiteList = {
+	tip = "自動許可"
+}
+
+
+_G.pg.base.gametip.island_add_friend = {
+	tip = "追加"
+}
+
+
+_G.pg.base.gametip.island_blackList = {
+	tip = "訪問禁止"
+}
+
+
+_G.pg.base.gametip.island_settings = {
+	tip = "設定"
+}
+
+
+_G.pg.base.gametip.island_settings_en = {
+	tip = "SETTINGS"
+}
+
+
+_G.pg.base.gametip.island_btn_label_visit = {
+	tip = "訪問"
+}
+
+
+_G.pg.base.gametip.island_git_cnt_tip = {
+	tip = "本日入手可能："
+}
+
+
+_G.pg.base.gametip.island_public_invitation = {
+	tip = "公開招待"
+}
+
+
+_G.pg.base.gametip.island_onekey_invitation = {
+	tip = "一括招待"
+}
+
+
+_G.pg.base.gametip.island_public_invitation_1 = {
+	tip = "すでに公開状態です"
+}
+
+
+_G.pg.base.gametip.island_curr_visitor = {
+	tip = "来訪中"
+}
+
+
+_G.pg.base.gametip.island_visitor_log = {
+	tip = "来訪記録"
+}
+
+
+_G.pg.base.gametip.island_kick_all = {
+	tip = "一括キック"
+}
+
+
+_G.pg.base.gametip.island_close_visit = {
+	tip = "訪問不可"
+}
+
+
+_G.pg.base.gametip.island_curr_people_cnt = {
+	tip = "訪問者数："
+}
+
+
+_G.pg.base.gametip.island_close_access_state = {
+	tip = "すでに訪問不可状態です"
+}
+
+
+_G.pg.base.gametip.island_btn_label_remove = {
+	tip = "外す"
+}
+
+
+_G.pg.base.gametip.island_btn_label_del = {
+	tip = "削除"
+}
+
+
+_G.pg.base.gametip.island_btn_label_copy = {
+	tip = "コピー"
+}
+
+
+_G.pg.base.gametip.island_btn_label_more = {
+	tip = "その他"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation = {
+	tip = "招待"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation_already = {
+	tip = "招待済"
+}
+
+
+_G.pg.base.gametip.island_btn_label_online = {
+	tip = "ログイン中"
+}
+
+
+_G.pg.base.gametip.island_btn_label_kick = {
+	tip = "キック"
+}
+
+
+_G.pg.base.gametip.island_btn_label_location = {
+	tip = "待機順位：$1"
+}
+
+
+_G.pg.base.gametip.island_black_list_tip = {
+	tip = "訪問禁止リストのユーザーは訪問が許可されません"
+}
+
+
+_G.pg.base.gametip.island_white_list_tip = {
+	tip = "自動許可リストのユーザーは訪問が自動で許可されます"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip = {
+	tip = "訪問コード"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip_1 = {
+	tip = "コード入力"
+}
+
+
+_G.pg.base.gametip.island_set_like = {
+	tip = "常用設定"
+}
+
+
+_G.pg.base.gametip.island_input_code_erro = {
+	tip = "コードを入力してください"
+}
+
+
+_G.pg.base.gametip.island_code_exist = {
+	tip = "すでに存在しているコードです"
+}
+
+
+_G.pg.base.gametip.island_like_title = {
+	tip = "常用コード"
+}
+
+
+_G.pg.base.gametip.island_my_id = {
+	tip = "自分のUID"
+}
+
+
+_G.pg.base.gametip.island_input_my_id = {
+	tip = "タップでUID入力"
+}
+
+
+_G.pg.base.gametip.island_open_settings = {
+	tip = "離島訪問許可"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip1 = {
+	tip = "訪問許可範囲を設定してください"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip2 = {
+	tip = "訪問を禁止します"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip3 = {
+	tip = "訪問許可ON：訪問許可を選択したグループのユーザーに限り離島に訪問できます訪問許可OFF：離島への訪問が許可されません訪問コード：訪問許可をONに設定すると、訪問禁止リストにいないユーザーに限り、コードを使うことで離島に訪問できますコードリセット：訪問コードは毎日一回リセットできます"
+}
+
+
+_G.pg.base.gametip.island_code_refresh_cnt = {
+	tip = "更新($1/1)"
+}
+
+
+_G.pg.base.gametip.island_word_sort = {
+	tip = "ソート"
+}
+
+
+_G.pg.base.gametip.island_word_reset = {
+	tip = "リセット"
+}
+
+
+_G.pg.base.gametip.island_bag_title = {
+	tip = "倉庫"
+}
+
+
+_G.pg.base.gametip.island_batch_covert = {
+	tip = "一括変換"
+}
+
+
+_G.pg.base.gametip.island_total_price = {
+	tip = "合計金額："
+}
+
+
+_G.pg.base.gametip.island_word_temp = {
+	tip = "一時"
+}
+
+
+_G.pg.base.gametip.island_word_desc = {
+	tip = "詳細"
+}
+
+
+_G.pg.base.gametip.island_open_ship_tip = {
+	tip = "研究本部に移動します。続けますか？"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_tip = {
+	tip = "資源倉庫拡張"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_req = {
+	tip = "拡張に必要"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_max_level = {
+	tip = "最大レベルです"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_capacity = {
+	tip = "資源倉庫容量"
+}
+
+
+_G.pg.base.gametip.island_rename_title = {
+	tip = "離島名変更"
+}
+
+
+_G.pg.base.gametip.island_rename_input_tip = {
+	tip = "タップで名前を入力"
+}
+
+
+_G.pg.base.gametip.island_rename_consutme_tip = {
+	tip = "離島名は9文字までとなります。離島名を変更するには$1を消費します"
+}
+
+
+_G.pg.base.gametip.island_upgrade_preview = {
+	tip = "レベルアップ効果"
+}
+
+
+_G.pg.base.gametip.island_upgrade_exp = {
+	tip = "離島開発EXP"
+}
+
+
+_G.pg.base.gametip.island_upgrade_res = {
+	tip = "必要資源"
+}
+
+
+_G.pg.base.gametip.island_word_award = {
+	tip = "報酬"
+}
+
+
+_G.pg.base.gametip.island_word_unlock = {
+	tip = "開放"
+}
+
+
+_G.pg.base.gametip.island_word_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level_display = {
+	tip = "離島繁栄度：$1"
+}
+
+
+_G.pg.base.gametip.island_prosperity_value_display = {
+	tip = "繁栄度必要：$1"
+}
+
+
+_G.pg.base.gametip.island_rename_subtitle = {
+	tip = "離島名"
+}
+
+
+_G.pg.base.gametip.island_manage_title = {
+	tip = "店舗経営"
+}
+
+
+_G.pg.base.gametip.island_manage_sp_event = {
+	tip = "経営ｲﾍﾞﾝﾄ"
+}
+
+
+_G.pg.base.gametip.island_manage_no_work = {
+	tip = "未営業"
+}
+
+
+_G.pg.base.gametip.island_manage_end_work = {
+	tip = "営業終了"
+}
+
+
+_G.pg.base.gametip.island_manage_view = {
+	tip = "経営状況"
+}
+
+
+_G.pg.base.gametip.island_manage_result = {
+	tip = "経営開始"
+}
+
+
+_G.pg.base.gametip.island_manage_prepare = {
+	tip = "経営開始"
+}
+
+
+_G.pg.base.gametip.island_manage_daily_cnt_tip = {
+	tip = "休暇中"
+}
+
+
+_G.pg.base.gametip.island_manage_produce_tip = {
+	tip = "一部商品集客力が上昇"
+}
+
+
+_G.pg.base.gametip.island_manage_sel_worker = {
+	tip = "スタッフ選択"
+}
+
+
+_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+	tip = "ゴールド店舗が必要"
+}
+
+
+_G.pg.base.gametip.island_manage_saleroom = {
+	tip = "売上"
+}
+
+
+_G.pg.base.gametip.island_manage_capacity = {
+	tip = "ラインナップ容量"
+}
+
+
+_G.pg.base.gametip.island_manage_skill_cant_use = {
+	tip = "スキルが適用されません"
+}
+
+
+_G.pg.base.gametip.island_manage_predict_saleroom = {
+	tip = "業績予測"
+}
+
+
+_G.pg.base.gametip.island_manage_cnt = {
+	tip = "数量："
+}
+
+
+_G.pg.base.gametip.island_manage_addition = {
+	tip = "キャラバフ一覧"
+}
+
+
+_G.pg.base.gametip.island_manage_no_addition = {
+	tip = "適用中のバフはありません"
+}
+
+
+_G.pg.base.gametip.island_manage_auto_work = {
+	tip = "自動選択"
+}
+
+
+_G.pg.base.gametip.island_manage_start_work = {
+	tip = "経営開始"
+}
+
+
+_G.pg.base.gametip.island_manage_working = {
+	tip = "営業中"
+}
+
+
+_G.pg.base.gametip.island_manage_end_daily_work = {
+	tip = "休暇中"
+}
+
+
+_G.pg.base.gametip.island_manage_attr_effect = {
+	tip = "関連能力："
+}
+
+
+_G.pg.base.gametip.island_manage_need_ext = {
+	tip = "必要EXP"
+}
+
+
+_G.pg.base.gametip.island_manage_reach = {
+	tip = "達成済"
+}
+
+
+_G.pg.base.gametip.island_manage_slot = {
+	tip = "メニュー枠数"
+}
+
+
+_G.pg.base.gametip.island_manage_food_cnt = {
+	tip = "メニュー数量"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_ratio = {
+	tip = "販売確率"
+}
+
+
+_G.pg.base.gametip.island_manage_worker_cnt = {
+	tip = "スタッフ数"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_daily = {
+	tip = "販売メニュー"
+}
+
+
+_G.pg.base.gametip.island_manage_fake_price = {
+	tip = "価格非表示"
+}
+
+
+_G.pg.base.gametip.island_manage_real_price = {
+	tip = "価格表示"
+}
+
+
+_G.pg.base.gametip.island_manage_result_1 = {
+	tip = "残りメニュー"
+}
+
+
+_G.pg.base.gametip.island_manage_result_3 = {
+	tip = "販売状況"
+}
+
+
+_G.pg.base.gametip.island_manage_word_cnt = {
+	tip = "販売数"
+}
+
+
+_G.pg.base.gametip.island_manage_shop_exp = {
+	tip = "店舗EXP"
+}
+
+
+_G.pg.base.gametip.island_manage_help_tip = {
+	tip = "メニューの集客力は売上に影響します。集客力が高いほど、客が購入する確率が上がります集客力は担当仲間の能力（メイン・サブ）によって影響されますメイン能力：集客力を著しく上昇させる能力サブ能力：集客力をそこそこ上昇させる能力"
+}
+
+
+_G.pg.base.gametip.island_word_go = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.island_map_title = {
+	tip = "離島地図"
+}
+
+
+_G.pg.base.gametip.island_label_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_cnt = {
+	tip = "数量"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity = {
+	tip = "容量消費"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_tip = {
+	tip = "家具は配置容量を消費します。配置可能容量を超える容量消費はできません"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity_display = {
+	tip = "合計容量消費："
+}
+
+
+_G.pg.base.gametip.island_label_furniture_exit = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save = {
+	tip = "後で保存"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save_tip = {
+	tip = "$1後に保存可能"
+}
+
+
+_G.pg.base.gametip.island_agora_extend = {
+	tip = "拡張"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_consume = {
+	tip = "拡張素材"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_capacity = {
+	tip = "配置容量"
+}
+
+
+_G.pg.base.gametip.island_msg_info = {
+	tip = "情報"
+}
+
+
+_G.pg.base.gametip.island_get_way = {
+	tip = "入手方法"
+}
+
+
+_G.pg.base.gametip.island_own_cnt = {
+	tip = "所持中："
+}
+
+
+_G.pg.base.gametip.island_word_convert = {
+	tip = "変換"
+}
+
+
+_G.pg.base.gametip.island_no_remind_today = {
+	tip = "今日はこれ以上表示しません"
+}
+
+
+_G.pg.base.gametip.island_input_theme_name = {
+	tip = "テーマ名入力"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name = {
+	tip = "マイテーマ$1"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name_tip = {
+	tip = "この配置をマイセットに保存しますか？"
+}
+
+
+_G.pg.base.gametip.island_skill_desc = {
+	tip = "スキル詳細"
+}
+
+
+_G.pg.base.gametip.island_word_place = {
+	tip = "配置"
+}
+
+
+_G.pg.base.gametip.island_word_turndown = {
+	tip = "辞退"
+}
+
+
+_G.pg.base.gametip.island_word_sbumit = {
+	tip = "受注"
+}
+
+
+_G.pg.base.gametip.island_word_speedup = {
+	tip = "加速"
+}
+
+
+_G.pg.base.gametip.island_order_cd_tip = {
+	tip = "依頼準備中\n新しい依頼が出現するまで"
+}
+
+
+_G.pg.base.gametip.island_order_leftcnt_dispaly = {
+	tip = "今週緊急依頼残り：$1"
+}
+
+
+_G.pg.base.gametip.island_order_title = {
+	tip = "依頼一覧"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty = {
+	tip = "依頼傾向"
+}
+
+
+_G.pg.base.gametip.island_order_leftCnt_tip = {
+	tip = "本日残り依頼："
+}
+
+
+_G.pg.base.gametip.island_order_get_label = {
+	tip = "報酬受取"
+}
+
+
+_G.pg.base.gametip.island_order_ship_working = {
+	tip = "輸送中..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_end_work = {
+	tip = "完了済..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_worktime = {
+	tip = "開始待ち 輸送時間 $1"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip = {
+	tip = "技術開発で枠を開放できます"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip_2 = {
+	tip = "開放"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_award = {
+	tip = "受注報酬"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup = {
+	tip = "受注"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_nores = {
+	tip = "数量不足"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_req = {
+	tip = "委託内容確認"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_award = {
+	tip = "委託報酬確認"
+}
+
+
+_G.pg.base.gametip.island_cancel_queue = {
+	tip = "訪問中止"
+}
+
+
+_G.pg.base.gametip.island_queue_display = {
+	tip = "離島訪問数が上限になっています。待機リストに入ります\n指揮官の待機番号：$1"
+}
+
+
+_G.pg.base.gametip.island_first_season = {
+	tip = "シーズンI"
+}
+
+
+_G.pg.base.gametip.island_word_own = {
+	tip = "所持中：$1"
+}
+
+
+_G.pg.base.gametip.island_ship_title1 = {
+	tip = "能力育成"
+}
+
+
+_G.pg.base.gametip.island_ship_title2 = {
+	tip = "能力強化"
+}
+
+
+_G.pg.base.gametip.island_ship_title3 = {
+	tip = "限界突破"
+}
+
+
+_G.pg.base.gametip.island_ship_title4 = {
+	tip = "必要資源"
+}
+
+
+_G.pg.base.gametip.island_ship_lock_attr_tip = {
+	tip = "タップ強化したい能力を選択"
+}
+
+
+_G.pg.base.gametip.island_ship_unlock_limit_tip = {
+	tip = "職責の星を1個消費し限界突破しますか？"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout_consume = {
+	tip = "消費"
+}
+
+
+_G.pg.base.gametip.island_ship_newskill_unlock = {
+	tip = "スキル開放："
+}
+
+
+_G.pg.base.gametip.island_word_give = {
+	tip = "未贈与"
+}
+
+
+_G.pg.base.gametip.island_unlock_ship_skill_color = {
+	tip = "カラーを開放しますか？"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip = {
+	tip = "外見を確定しますか？あとでも変更できます"
+}
+
+
+_G.pg.base.gametip.island_dressup_titile = {
+	tip = "着せ替え"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip_1 = {
+	tip = "外見が変更されました。現在の外見を確定しますか？"
+}
+
+
+_G.pg.base.gametip.island_ship_energy = {
+	tip = "体力:"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_full = {
+	tip = "体力がいっぱいです"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_recoverytips = {
+	tip = "体力回復まで"
+}
+
+
+_G.pg.base.gametip.island_word_ship_buff_desc = {
+	tip = "詳細"
+}
+
+
+_G.pg.base.gametip.island_word_ship_desc = {
+	tip = "キャラ詳細"
+}
+
+
+_G.pg.base.gametip.island_need_ship_level = {
+	tip = "キャラLv$1が必要です"
+}
+
+
+_G.pg.base.gametip.island_skill_consume_title = {
+	tip = "消費資源"
+}
+
+
+_G.pg.base.gametip.island_select_ship_gift = {
+	tip = "贈り物を選んでください"
+}
+
+
+_G.pg.base.gametip.island_word_ship_enengy_recover = {
+	tip = "体力回復"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade = {
+	tip = "レベル強化"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+	tip = "レベル上昇時"
+}
+
+
+_G.pg.base.gametip.island_word_ship_rank = {
+	tip = "現在★"
+}
+
+
+_G.pg.base.gametip.island_task_open = {
+	tip = "開放済"
+}
+
+
+_G.pg.base.gametip.island_task_target = {
+	tip = "目標："
+}
+
+
+_G.pg.base.gametip.island_task_award = {
+	tip = "報酬"
+}
+
+
+_G.pg.base.gametip.island_task_tracking = {
+	tip = "選択"
+}
+
+
+_G.pg.base.gametip.island_task_tracked = {
+	tip = "選択済"
+}
+
+
+_G.pg.base.gametip.island_dev_level = {
+	tip = "離島開発Lv"
+}
+
+
+_G.pg.base.gametip.island_dev_level_tip = {
+	tip = "離島開発LVを上げると、研究権限が上昇し、更なる技術研究が開放されます"
+}
+
+
+_G.pg.base.gametip.island_invite_title = {
+	tip = "離島権限認証装置"
+}
+
+
+_G.pg.base.gametip.island_technology_title = {
+	tip = "技術開発"
+}
+
+
+_G.pg.base.gametip.island_tech_noauthority = {
+	tip = "研究未開放"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_need = {
+	tip = "必要技術研究"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_dev = {
+	tip = "研究開放"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_start = {
+	tip = "研究開始"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_starting = {
+	tip = "研究中"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_success = {
+	tip = "研究完了"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish = {
+	tip = "研究済"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish_1 = {
+	tip = "研究完了"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_cost = {
+	tip = "研究消費"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_desctitle = {
+	tip = " 技術効果"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+	tip = "開放条件"
+}
+
+
+_G.pg.base.gametip.island_tech_nodev = {
+	tip = "研究なし"
+}
+
+
+_G.pg.base.gametip.island_tech_can_get = {
+	tip = "受取可"
+}
+
+
+_G.pg.base.gametip.island_get_item_tip = {
+	tip = "アイテム入手"
+}
+
+
+_G.pg.base.gametip.island_add_temp_bag = {
+	tip = "下記アイテムは一時倉庫に移動されます"
+}
+
+
+_G.pg.base.gametip.island_buff_lasttime = {
+	tip = "残り時間:$1"
+}
+
+
+_G.pg.base.gametip.island_visit_off = {
+	tip = "OFF"
+}
+
+
+_G.pg.base.gametip.island_visit_on = {
+	tip = "ON"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip = {
+	tip = "必要なレベル＆アイテムが不足しています"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip0 = {
+	tip = "必要開発Lv：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip1 = {
+	tip = "必要計画完了：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip2 = {
+	tip = "必要機能開放：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip3 = {
+	tip = "必要研究済技術：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_no_slot = {
+	tip = "研究枠がいっぱいです"
+}
+
+
+_G.pg.base.gametip.island_tech_lock = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.island_tech_empty = {
+	tip = "未実装"
+}
+
+
+_G.pg.base.gametip.island_submit_order_cd_tip = {
+	tip = "$1後に提出可能"
+}
+
+
+_G.pg.base.gametip.island_friend_add = {
+	tip = "追加"
+}
+
+
+_G.pg.base.gametip.island_friend_agree = {
+	tip = "同意"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse = {
+	tip = "拒否"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse_all = {
+	tip = "一括拒否"
+}
+
+
+_G.pg.base.gametip.island_request = {
+	tip = "申請"
+}
+
+
+_G.pg.base.gametip.island_post_manage = {
+	tip = "一括管理"
+}
+
+
+_G.pg.base.gametip.island_post_produce = {
+	tip = "生産"
+}
+
+
+_G.pg.base.gametip.island_post_operate = {
+	tip = "経営"
+}
+
+
+_G.pg.base.gametip.island_post_acceptable = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_post_vacant = {
+	tip = "配置可能"
+}
+
+
+_G.pg.base.gametip.island_production_selected_character = {
+	tip = "配置"
+}
+
+
+_G.pg.base.gametip.island_production_collect = {
+	tip = "生産物獲得"
+}
+
+
+_G.pg.base.gametip.island_production_selected_item = {
+	tip = "生産物選択"
+}
+
+
+_G.pg.base.gametip.island_production_byproduct = {
+	tip = "追加入手 × $1"
+}
+
+
+_G.pg.base.gametip.island_production_start = {
+	tip = "作業開始"
+}
+
+
+_G.pg.base.gametip.island_production_finish = {
+	tip = "作業が完了しました"
+}
+
+
+_G.pg.base.gametip.island_production_additional = {
+	tip = "追加配置"
+}
+
+
+_G.pg.base.gametip.island_production_count = {
+	tip = "生産回数"
+}
+
+
+_G.pg.base.gametip.island_production_character_info = {
+	tip = "キャラ詳細"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip1 = {
+	tip = "条件を満たすキャラがいません"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip2 = {
+	tip = "キャラを選択してください"
+}
+
+
+_G.pg.base.gametip.island_production_hold = {
+	tip = "所持：$1"
+}
+
+
+_G.pg.base.gametip.island_production_log_recover = {
+	tip = "採集回数が尽きました。回復まで：$1"
+}
+
+
+_G.pg.base.gametip.island_production_plantable = {
+	tip = "栽培可"
+}
+
+
+_G.pg.base.gametip.island_production_being_planted = {
+	tip = "成長中の作物を収穫できません"
+}
+
+
+_G.pg.base.gametip.island_production_cost_notenough = {
+	tip = "配置に失敗しました。キャラ体力・資源をご確認ください"
+}
+
+
+_G.pg.base.gametip.island_production_manually_cancel = {
+	tip = "すでに作物が栽培されています。現在の栽培を中止し、キャラを配置しますか？"
+}
+
+
+_G.pg.base.gametip.island_production_harvestable = {
+	tip = "収穫可"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_notenough = {
+	tip = "種が足りません"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_empty = {
+	tip = "種を所持していません。ショップで購入してください"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
+	tip = "一括受注"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme = {
+	tip = "テーマ：$1"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme_none = {
+	tip = "-なし-"
+}
+
+
+_G.pg.base.gametip.island_achievement_title = {
+	tip = "離島実績"
+}
+
+
+_G.pg.base.gametip.island_achv_total = {
+	tip = "達成実績："
+}
+
+
+_G.pg.base.gametip.island_achv_finish_tip = {
+	tip = "実績：【$1】達成済"
+}
+
+
+_G.pg.base.gametip.island_card_edit_name = {
+	tip = "離島名変更"
+}
+
+
+_G.pg.base.gametip.island_card_edit_word = {
+	tip = "あいさつ修正"
+}
+
+
+_G.pg.base.gametip.island_card_default_word = {
+	tip = "離島開発エリアへようこそ"
+}
+
+
+_G.pg.base.gametip.island_card_view_detaills = {
+	tip = "評判タグを確認"
+}
+
+
+_G.pg.base.gametip.island_card_close = {
+	tip = "タップして閉じる"
+}
+
+
+_G.pg.base.gametip.island_card_choose_photo = {
+	tip = "離島写真選択"
+}
+
+
+_G.pg.base.gametip.island_card_word_title = {
+	tip = "離島挨拶"
+}
+
+
+_G.pg.base.gametip.island_card_label_list = {
+	tip = "離島評判タグ"
+}
+
+
+_G.pg.base.gametip.island_card_choose_achievement = {
+	tip = "選択済：$1/4"
+}
+
+
+_G.pg.base.gametip.island_card_edit_label = {
+	tip = "評判タグ追加"
+}
+
+
+_G.pg.base.gametip.island_card_choose_label = {
+	tip = "選択済：$1/$2"
+}
+
+
+_G.pg.base.gametip.island_card_like_done = {
+	tip = "本日はすでにいいねしました"
+}
+
+
+_G.pg.base.gametip.island_card_label_done = {
+	tip = "今週はすでに評価しました"
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_self = {
+	tip = "実績展示はありません"
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_other = {
+	tip = "-実績展示はありません-"
+}
+
+
+_G.pg.base.gametip.island_leave = {
+	tip = "母港に戻る"
+}
+
+
+_G.pg.base.gametip.island_repeat_vip = {
+	tip = "すでに自動許可リストにいます"
+}
+
+
+_G.pg.base.gametip.island_repeat_blacklist = {
+	tip = "すでに訪問禁止リストにいます"
+}
+
+
+_G.pg.base.gametip.island_chat_settings = {
+	tip = "チャット設定"
+}
+
+
+_G.pg.base.gametip.island_card_no_label = {
+	tip = "タグがありません"
+}
+
+
+_G.pg.base.gametip.ship_gift = {
+	tip = "プレゼント"
+}
+
+
+_G.pg.base.gametip.ship_gift_cnt = {
+	tip = "数量："
+}
+
+
+_G.pg.base.gametip.ship_gift2 = {
+	tip = "贈る"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_exceed = {
+	tip = "プレゼントチケットが上限を超えているため、入手できません"
+}
+
+
+_G.pg.base.gametip.shipyard_gift_non_existent = {
+	tip = "贈れるプレゼントがありません"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_exceed = {
+	tip = "上限を超えた好感度が無効になります。続けますか？"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_threshold = {
+	tip = "好感度が上限になっています。ケッコンで好感度上限を上昇させることが出来ます"
+}
+
+
+_G.pg.base.gametip.shipyard_favorability_max = {
+	tip = "好感度が上限になっています。"
+}
+
+
+_G.pg.base.gametip.island_activity_decorative_word = {
+	tip = "SPECIAL EVENT"
+}
+
+
+_G.pg.base.gametip.island_no_activity = {
+	tip = "開催中のイベントはありません"
+}
+
+
+_G.pg.base.gametip.island_spoperation_level_2509_1 = {
+	tip = "開放条件：離島開発Lv.1"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_1 = {
+	tip = "イベント期間中、ピアリの特産品依頼が出現します。特産品依頼をこなすとシーズンPTなどの報酬を入手可能。\n*特産品依頼は依頼完成上限に影響せず、評価レベルを上昇させられません"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+	tip = "イベント期間中、特定の区域内に毎日イベント採集アイテムが出現します。早く探しに行きましょう！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+	tip = "イベント期間内、【薫る果樹園】【有魚飯店】【白クマ茶房】【基地工場】で対応の特産品を生産可能"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+	tip = "特産品制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+	tip = "特産品採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+	tip = "ｲﾍﾞﾝﾄ管理者"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_1 = {
+	tip = "アキギク"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+	tip = "葦の花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_3 = {
+	tip = "落花生"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+	tip = "松茸"
+}
+
+
+_G.pg.base.gametip.island_follow_success = {
+	tip = "同伴成功"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_success = {
+	tip = "同伴解除"
+}
+
+
+_G.pg.base.gametip.island_follower_cnt_max = {
+	tip = "これ以上は同伴させられません"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_tip = {
+	tip = "同伴中の仲間です。同伴を解除しますか？"
+}
+
+
+_G.pg.base.gametip.island_follower_state_no_normal = {
+	tip = "多忙中"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_usable = {
+	tip = "同伴要請"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_cancel = {
+	tip = "同伴解除"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_disable = {
+	tip = "用事あり"
+}
+
+
+_G.pg.base.gametip.island_draw_tab = {
+	tip = "星彩賞"
+}
+
+
+_G.pg.base.gametip.island_draw_tab_en = {
+	tip = "Stellar Prize Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_last = {
+	tip = "残り："
+}
+
+
+_G.pg.base.gametip.island_draw_null = {
+	tip = "コンプ済"
+}
+
+
+_G.pg.base.gametip.island_draw_num = {
+	tip = "引いた回数"
+}
+
+
+_G.pg.base.gametip.island_draw_lottery = {
+	tip = "引く"
+}
+
+
+_G.pg.base.gametip.island_draw_pick = {
+	tip = "選べる中身"
+}
+
+
+_G.pg.base.gametip.island_draw_reward = {
+	tip = "詳細確認"
+}
+
+
+_G.pg.base.gametip.island_draw_time = {
+	tip = "開催時間："
+}
+
+
+_G.pg.base.gametip.island_draw_time_1 = {
+	tip = "メンテ"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order_title = {
+	tip = "S賞入手順番"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order = {
+	tip = "ドラッグで入手順番を変更可能"
+}
+
+
+_G.pg.base.gametip.island_draw_S = {
+	tip = "S賞"
+}
+
+
+_G.pg.base.gametip.island_draw_A = {
+	tip = "A賞"
+}
+
+
+_G.pg.base.gametip.island_draw_B = {
+	tip = "B賞"
+}
+
+
+_G.pg.base.gametip.island_draw_C = {
+	tip = "C賞"
+}
+
+
+_G.pg.base.gametip.island_draw_get = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.island_draw_ready = {
+	tip = "星彩賞を引きますか？"
+}
+
+
+_G.pg.base.gametip.island_draw_float = {
+	tip = "賞品は不足しています"
+}
+
+
+_G.pg.base.gametip.island_draw_choice_title = {
+	tip = "選べる中身"
+}
+
+
+_G.pg.base.gametip.island_draw_choice = {
+	tip = "引いた回数"
+}
+
+
+_G.pg.base.gametip.island_draw_sort = {
+	tip = "入手順番を変更しました"
+}
+
+
+_G.pg.base.gametip.island_draw_tip1 = {
+	tip = "$1を消費し1回引きますか？"
+}
+
+
+_G.pg.base.gametip.island_draw_tip2 = {
+	tip = "$1を消費し10回引きますか？"
+}
+
+
+_G.pg.base.gametip.island_draw_tip3 = {
+	tip = "$1を消費し$2を購入しますか？"
+}
+
+
+_G.pg.base.gametip.island_draw_tip4 = {
+	tip = "ダイヤが不足しています。購入しますか？"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_locked = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_receive = {
+	tip = "入手可"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_idle = {
+	tip = "受注待ち"
+}
+
+
+_G.pg.base.gametip.island_ticket_shop = {
+	tip = "入手へ"
+}
+
+
+_G.pg.base.gametip.island_ticket_remain_time = {
+	tip = "残り時間"
+}
+
+
+_G.pg.base.gametip.island_ticket_auto_select = {
+	tip = "自動選択"
+}
+
+
+_G.pg.base.gametip.island_ticket_use = {
+	tip = "加速券を使う"
+}
+
+
+_G.pg.base.gametip.island_ticket_view = {
+	tip = "全て表示"
+}
+
+
+_G.pg.base.gametip.island_ticket_storage_title = {
+	tip = "加速券"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_valid = {
+	tip = "有効期限"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_speedup = {
+	tip = "短縮時間"
+}
+
+
+_G.pg.base.gametip.island_ticket_completed_quantity = {
+	tip = "加速$1回"
+}
+
+
+_G.pg.base.gametip.island_ticket_nearing_expiration = {
+	tip = "期限間近：$1枚"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip1 = {
+	tip = "下記の加速券が期限切れ間近です"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip2 = {
+	tip = "下記の加速券が期限切れになりました"
+}
+
+
+_G.pg.base.gametip.island_ticket_finished = {
+	tip = "終了済"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired = {
+	tip = "期限切れ"
+}
+
+
+_G.pg.base.gametip.island_use_ticket_success = {
+	tip = "使用成功"
+}
+
+
+_G.pg.base.gametip.island_sure_ticket_overflow = {
+	tip = "生産に必要な時間以上の加速券を選択しています。続けますか？"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired_day = {
+	tip = "$1日"
+}
+
+
+_G.pg.base.gametip.island_dress_replace_tip = {
+	tip = "ほかのキャラに適用されている着せ替えです。着せ替えの適用を解除しますか？"
+}
+
+
+_G.pg.base.gametip.island_activity_expired = {
+	tip = "イベントが終了しました"
+}
+
+
+_G.pg.base.gametip.island_guide = {
+	tip = "図鑑"
+}
+
+
+_G.pg.base.gametip.island_guide_help = {
+	tip = [[
+離島のキャラ関連のコンテンツを開放することで図鑑Ptを貯めることができます。図鑑Ptが貯まると図鑑Lvが上がり、対応の図鑑報酬を開放できます：
+
+1.キャラを<color=#39bfff>入手（離島権限認証を完了）</color>すると、キャラ1名につき<color=#39bfff>20</color>の図鑑Ptを入手できます
+2.キャラを<color=#39bfff>突破（職責の星を使用する）</color>すると、突破する毎に<color=#39bfff>30</color>の図鑑Ptを入手でき、更に★5に突破した場合追加で<color=#39bfff>10</color>の図鑑Ptを入手できます
+3.キャラを育成し<color=#39bfff>離島でのレベルが50到達</color>させると、図鑑Ptを<color=#39bfff>50</color>入手可能]]
+}
+
+
+_G.pg.base.gametip.island_guide_character_help = {
+	tip = "情報"
+}
+
+
+_G.pg.base.gametip.island_guide_en = {
+	tip = "HANDBOOK"
+}
+
+
+_G.pg.base.gametip.island_guide_character = {
+	tip = "キャラ"
+}
+
+
+_G.pg.base.gametip.island_guide_character_en = {
+	tip = "CHARACTER"
+}
+
+
+_G.pg.base.gametip.island_guide_npc = {
+	tip = "離島開発チーム"
+}
+
+
+_G.pg.base.gametip.island_guide_npc_en = {
+	tip = "ISLAND DEVELOPMENT TEAM"
+}
+
+
+_G.pg.base.gametip.island_guide_item = {
+	tip = "資源"
+}
+
+
+_G.pg.base.gametip.island_guide_item_en = {
+	tip = "MATERIALS"
+}
+
+
+_G.pg.base.gametip.island_guide_collectionpoint = {
+	tip = "図鑑Pt入手"
+}
+
+
+_G.pg.base.gametip.island_get_collect_point_success = {
+	tip = "累計で図鑑Ptを$1入手"
+}
+
+
+_G.pg.base.gametip.island_guide_active = {
+	tip = "開放可"
+}
+
+
+_G.pg.base.gametip.island_book_collection_award_title = {
+	tip = "図鑑Lv報酬-Lv$1"
+}
+
+
+_G.pg.base.gametip.island_book_award_title = {
+	tip = "報酬詳細"
+}
+
+
+_G.pg.base.gametip.island_guide_do_active = {
+	tip = "開放"
+}
+
+
+_G.pg.base.gametip.island_guide_lock_desc = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.island_gift_entrance = {
+	tip = "定期補給"
+}
+
+
+_G.pg.base.gametip.island_sign_text = {
+	tip = "- 離島開発スター -"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_set = {
+	tip = "展示キャラ変更"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_choose = {
+	tip = "キャラ選択"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_res_have = {
+	tip = "アイテム最大所持可能数："
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_close = {
+	tip = "ショップ開店残り $1 "
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_refresh = {
+	tip = "$1後にリセット"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_refresh_limit = {
+	tip = "これ以上リセットできません"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_have = {
+	tip = "所持："
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_unlock = {
+	tip = "$1後に開放します"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_no = {
+	tip = "購入数"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_last = {
+	tip = "(残り:$1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_close = {
+	tip = "画面タップで閉じる"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_no_have = {
+	tip = "所持数($1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_goods_time = {
+	tip = "残り$1日"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_clothes_jump = {
+	tip = "着せ替え画面に移動しますか？"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_confirm = {
+	tip = "購入"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy = {
+	tip = "購入"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+	tip = "入手"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_return = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_price = {
+	tip = "価格"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_have = {
+	tip = "所持"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_bag_max = {
+	tip = "離島アイテム所持数が上限に達しています"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gold = {
+	tip = "母港資源が不足しています"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gem = {
+	tip = "ダイヤが不足しています"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_res = {
+	tip = "離島資源が不足しています"
+}
+
+
+_G.pg.base.gametip.island_photo_fur_lock = {
+	tip = "現在カメラを使用できません"
+}
+
+
 _G.pg.base.gametip.graphi_api_switch_opengl = {
 	tip = "一部の環境ではレンダリング互換性モードをOFFにすると、特定の状況下で画面が黒くなる場合があります。レンダリング互換性モードの設定を切り替えると、ゲームを再度起動する必要があります。レンダリング互換性モードを切り替えますか？"
 }
@@ -41365,6 +45174,41 @@ _G.pg.base.gametip.ninja_game_booktip = {
 }
 
 
+_G.pg.base.gametip.island_no_position_to_reponse_action = {
+	tip = "現在位置はインタラクトできません。演出がスキップされました"
+}
+
+
+_G.pg.base.gametip.island_position_cant_play_cp_action = {
+	tip = "現在位置ではインタラクトを行えません。位置を調整してもう一度お試しください"
+}
+
+
+_G.pg.base.gametip.island_position_cant_response_cp_action = {
+	tip = "現在位置ではインタラクトに対応できません。位置を調整してもう一度お試しください"
+}
+
+
+_G.pg.base.gametip.island_card_no_achieve_tip = {
+	tip = "達成した実績はありません"
+}
+
+
+_G.pg.base.gametip.island_card_no_label_tip = {
+	tip = "入手した評価タグはありません"
+}
+
+
+_G.pg.base.gametip.gift_giving_prefer = {
+	tip = "プレゼントにとても喜んでくれたようだ"
+}
+
+
+_G.pg.base.gametip.gift_giving_dislike = {
+	tip = "プレゼントにちょっと困惑しているようだ　"
+}
+
+
 _G.pg.base.gametip.dorm3d_publicroom_unlock = {
 	tip = "公共エリアの開放が必要です"
 }
@@ -41382,4 +45226,98 @@ _G.pg.base.gametip.dorm3d_dafeng_chair = {
 
 _G.pg.base.gametip.dorm3d_dafeng_bed = {
 	tip = "寝室"
+}
+
+
+_G.pg.base.gametip.island_draw_help = {
+	tip = [[
+星彩賞は「星彩チケット」を消費し、ランダムでS・A・B・Cランクの賞品アイテムを入手できます。
+ 1.星彩賞の「星彩チケット」は離島経営の各種コンテンツを遊ぶか、ダイヤを消費して購入することが出来ます。
+ 2.星彩賞の各ランクの賞品はそれぞれ総数が固定であり、出現確率が同じになります。一度賞品を入手すると、その賞品が開催期間中再度出現することがありません。
+   また、S賞の賞品については、入手の順番（出現順番）を変更することができます。
+ 3.星彩賞は期毎に期間限定で開催されます。星彩賞の開催期間が終了すると、賞品のラインナップが更新されます。
+ 4.星彩賞の開催期間中に賞品を一定個数入手（引く）すると、星彩賞の画面で「累計入手回数報酬」を選んで入手できます。「累計入手回数報酬」の累計入手回数カウントは開催期間終了後にリセットされます。
+ 5.星彩賞の開催期間終了時、賞品が全部入手されていなく、かつ「星彩チケット」を所持している場合、賞品を全部入手できるよう自動で「星彩チケット」が消費されます。
+ 　賞品が全部入手された場合、余った「星彩チケット」は自動でダイヤに変換されます。
+ 　この方法で自動入手した賞品・変換されたダイヤはメールボックスに送られます。]]
+}
+
+
+_G.pg.base.gametip.island_dress_initial_makesure = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.island_shop_lock_tip = {
+	tip = "ショップは開放されていません"
+}
+
+
+_G.pg.base.gametip.island_agora_no_size = {
+	tip = "空きがありません"
+}
+
+
+_G.pg.base.gametip.island_combo_unlock = {
+	tip = "セットメニュー制作が開放されました"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip1 = {
+	tip = "追加生産"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip2 = {
+	tip = "作業が終了したため、追加できません"
+}
+
+
+_G.pg.base.gametip.island_manage_stock_out = {
+	tip = "販売できるメニューがありません"
+}
+
+
+_G.pg.base.gametip.island_manage_item_select = {
+	tip = "選択済み食材"
+}
+
+
+_G.pg.base.gametip.island_combo_produced = {
+	tip = "制作"
+}
+
+
+_G.pg.base.gametip.island_combo_produced_times = {
+	tip = "$1回"
+}
+
+
+_G.pg.base.gametip.island_agora_no_interact_point = {
+	tip = "インタラクトできません"
+}
+
+
+_G.pg.base.gametip.island_reward_tip = {
+	tip = "入手"
+}
+
+
+_G.pg.base.gametip.island_commontips_close = {
+	tip = "画面をタップで閉じる"
+}
+
+
+_G.pg.base.gametip.world_inventory_tip = {
+	tip = "リセット後に変換される"
+}
+
+
+_G.pg.base.gametip.island_setmeal_title = {
+	tip = "セット図鑑"
+}
+
+
+_G.pg.base.gametip.island_shipselect_confirm = {
+	tip = "確定"
 }

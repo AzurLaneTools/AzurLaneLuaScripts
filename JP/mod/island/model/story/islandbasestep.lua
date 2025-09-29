@@ -62,7 +62,7 @@ slot0.GetActorName = function(slot0)
 		return ""
 	end
 
-	return slot1.name
+	return HXSet.hxLan(slot1.name)
 end
 
 slot0.GetUnitData = function(slot0)

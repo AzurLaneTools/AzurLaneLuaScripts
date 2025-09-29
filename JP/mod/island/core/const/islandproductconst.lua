@@ -3,6 +3,8 @@ slot0.FarmlandPlaceId = 101
 slot0.PasturePlaceId = 102
 slot0.MilkTeaPlaceId = 601
 slot0.MealPlaceId = 602
+slot0.SimpeleMealPlaceId = 603
+slot0.kebabPlaceId = 604
 slot0.MinePlaceId = 401
 slot0.FellingPlaceId = 402
 slot0.TechnologyPlaceId = 702
@@ -23,7 +25,11 @@ slot0.haveModelPlaces = {
 	slot0.WoodProcessingPlaceId,
 	slot0.MachinePlaceId,
 	slot0.ElectronicPlaceId,
-	slot0.HandworkWorkbench
+	slot0.HandworkWorkbench,
+	slot0.MilkTeaPlaceId,
+	slot0.MealPlaceId,
+	slot0.SimpeleMealPlaceId,
+	slot0.kebabPlaceId
 }
 slot0.PlantPlaceIdLists = {
 	slot0.FarmlandPlaceId,

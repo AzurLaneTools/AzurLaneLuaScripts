@@ -73,7 +73,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "――指揮官、新鮮な卵を探してきてもらえる？",
+			say = "指揮官、新鮮な卵を探してきてもらえる？",
 			characterId = 101200,
 			subName = "カフェ店員",
 			typewriter = {

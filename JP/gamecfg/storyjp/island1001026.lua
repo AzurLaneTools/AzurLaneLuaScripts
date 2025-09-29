@@ -20,8 +20,9 @@ return {
 	scripts = {
 		{
 			say = "――ホメリック？",
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			camera = "StoryCamera8",
 			face2Face = {
 				{
 					0,

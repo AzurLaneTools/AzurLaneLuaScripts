@@ -5,6 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
+	slot2 = slot0._tf
+
+	setText(slot2:Find("top/title/Text"), i18n("island_technology_title"))
+
 	slot1 = slot0._tf
 	slot0.centreToggleTF = slot1:Find("adapt/types/1")
 	slot1 = slot0.centreToggleTF
