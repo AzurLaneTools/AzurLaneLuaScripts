@@ -37,7 +37,7 @@ slot0.OnFirstFlush = function(slot0)
 			setActive(uv0:findTF("got", slot2), slot1 < uv0.nday)
 			setActive(uv0:findTF("getEffect", slot2), uv0.activity.data1 == slot1 and uv0.activity:readyToAchieve())
 
-			if not table.contains(uv0.playedAnimationList, slot1) then
+			if table.contains(uv0.playedAnimationList, slot1) and slot1 == uv0.nday - 1 then
 				GetComponent(slot2, typeof(Animation)):Play("anim_AnniversaryEightLoginJPPage_tpl_get")
 			end
 		end
@@ -83,6 +83,10 @@ end
 
 slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data1
+
+	for slot4 = 1, slot0.activity.data1 do
+		table.insert(slot0.playedAnimationList, slot4 - 1)
+	end
 
 	slot0.itemList:align(slot0.Day, slot0.enterFlag and 0.1 or 0)
 	setText(slot0.bg:Find("items/Root/image_05/Text"), slot0.nday .. "/" .. slot0.Day)

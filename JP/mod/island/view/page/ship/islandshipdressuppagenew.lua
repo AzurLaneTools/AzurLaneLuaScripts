@@ -1123,7 +1123,7 @@ slot0.UpdateColorUnlockState = function(slot0)
 
 					return true
 				end)(uv0.cost) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("ShowTips"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				end

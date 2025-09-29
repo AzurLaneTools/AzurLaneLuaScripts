@@ -57,7 +57,7 @@ slot0.getIcon = function(slot0)
 			return "Props/icon_frame"
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function ()
-			return uv0:getConfig("icon_normal")
+			return uv0:getConfig("icon_normal") ~= "" and slot0 or "island/" .. uv0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function ()
 			return "island/" .. uv0:getConfig("cmd_icon")
@@ -78,7 +78,7 @@ slot0.getIcon = function(slot0)
 			return "island/" .. uv0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
-			return "island/" .. uv0:getConfig("icon")
+			return uv0:getConfig("icon_normal")
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function ()
 			return "island/IslandDressIcon/" .. uv0:getConfig("icon")
@@ -367,9 +367,10 @@ slot0.InitSwitch = function()
 			return pg.island_action[slot0.id]
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_speedup_ticket[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_speedup_ticket[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0)
 			return pg.island_card_diy[slot0.id]

@@ -56,6 +56,7 @@ end
 slot0.InitCommodities = function(slot0)
 	slot0.cards = {}
 	slot0.displays = slot0.shop:GetCommodities()
+	slot0.lScrollrect.enabled = true
 
 	slot0.lScrollrect:SetTotalCount(#slot0.displays, 0)
 end

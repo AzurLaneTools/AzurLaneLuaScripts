@@ -353,7 +353,7 @@ slot0.GetSelectedTickets = function(slot0)
 			else
 				table.insert(slot1, IslandTicket.New(slot14.id, slot14.endTime, slot14:GetCount()))
 
-				slot16 = slot9 + slot14:GetCount()
+				slot9 = slot9 + slot14:GetCount()
 			end
 		end
 	end

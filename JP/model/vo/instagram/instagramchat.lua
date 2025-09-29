@@ -129,6 +129,12 @@ slot0.SetBackgrounds = function(slot0)
 	end
 end
 
+slot0.GetSkins = function(slot0)
+	slot0:SetBackgrounds()
+
+	return slot0.skins
+end
+
 slot0.GetPainting = function(slot0)
 	slot1 = ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
 	slot2 = pg.ship_skin_template[slot1]

@@ -748,33 +748,33 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 		pg.UIMgr.GetInstance():BlurPanel(uv0.backgroundUI)
 
 		uv0.currentBgId = nil
-		slot0 = UIItemList.New(uv0:findTF("panel/backgroundScroll/Viewport/Content", uv0.backgroundUI), uv0:findTF("panel/backgroundScroll/Viewport/Content/background", uv0.backgroundUI))
+		slot1 = UIItemList.New(uv0:findTF("panel/backgroundScroll/Viewport/Content", uv0.backgroundUI), uv0:findTF("panel/backgroundScroll/Viewport/Content/background", uv0.backgroundUI))
 
-		slot0:make(function (slot0, slot1, slot2)
+		slot1:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				slot4 = 0
 
-				if uv0.skins[slot1 + 1].id ~= uv1 then
+				if uv0[slot1 + 1].id ~= uv1 then
 					slot4 = slot3.id
 				end
 
 				LoadImageSpriteAsync("herohrzicon/" .. slot3.painting, slot2:Find("skinMask/skin"), false)
 				setScrollText(slot2:Find("skinMask/Panel/mask/Text"), slot3.name)
 				SetActive(slot2:Find("lockFrame"), not (getProxy(ShipSkinProxy):hasSkin(slot3.id) or slot3.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or slot3.skin_type == ShipSkin.SKIN_TYPE_PROPOSE or slot3.skin_type == ShipSkin.SKIN_TYPE_REMAKE))
-				SetActive(slot2:Find("selectedFrame"), uv0.skinId == slot4)
-				SetActive(slot2:Find("selected"), uv0.skinId == slot4)
+				SetActive(slot2:Find("selectedFrame"), uv2.skinId == slot4)
+				SetActive(slot2:Find("selected"), uv2.skinId == slot4)
 
-				if uv0.skinId == slot4 then
-					uv2.currentBgId = slot4
+				if uv2.skinId == slot4 then
+					uv3.currentBgId = slot4
 				end
 
-				onButton(uv2, slot2, function ()
+				onButton(uv3, slot2, function ()
 					if uv0 then
 						slot3 = "selectedFrame"
 
 						SetActive(uv1:Find(slot3), true)
 
-						for slot3 = 1, #uv2.skins do
+						for slot3 = 1, #uv2 do
 							if slot3 ~= uv3 + 1 then
 								SetActive(uv4:findTF("selectedFrame", uv4:findTF("panel/backgroundScroll/Viewport/Content", uv4.backgroundUI):GetChild(slot3 - 1)), false)
 							end
@@ -787,7 +787,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 				end, SFX_PANEL)
 			end
 		end)
-		slot0:align(#uv1.skins)
+		slot1:align(#uv1:GetSkins())
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("bg", slot0.backgroundUI), function ()
 		uv0:CloseBackgroundPanel()
