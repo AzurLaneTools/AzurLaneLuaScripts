@@ -70,6 +70,18 @@ slot0.init = function(slot0)
 		slot0:findTF("shop_container", slot0.main),
 		slot0:findTF("gift_container", slot0.main)
 	}
+	slot0.newServerTaskPage = NewServerTaskPage.New(slot0.pages[uv0.TASK_PAGE], slot0.event, slot0.contextData)
+	slot0.newServerShopPage = NewServerShopPage.New(slot0.pages[uv0.SHOP_PAGE], slot0.event, slot0.contextData)
+	slot1 = slot0.newServerShopPage
+
+	slot1:SetShop(slot0.newServerShop)
+
+	slot0.newServerGiftPage = NewServerGiftPage.New(slot0.pages[uv0.GIFT_PAGE], slot0.event, slot0.contextData)
+	slot0.pageDic = {
+		[uv0.TASK_PAGE] = slot0.newServerTaskPage,
+		[uv0.SHOP_PAGE] = slot0.newServerShopPage,
+		[uv0.GIFT_PAGE] = slot0.newServerGiftPage
+	}
 end
 
 slot0.didEnter = function(slot0)
@@ -105,7 +117,6 @@ slot0.didEnter = function(slot0)
 			slot0()
 		end
 	end, SFX_PANEL)
-	slot0:updatePages()
 	slot0:updateTime()
 
 	slot5 = slot0.resPanel
@@ -116,9 +127,8 @@ slot0.didEnter = function(slot0)
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
-			setActive(uv0.pages[uv1], slot0)
 			uv0:updateLocalRedDotData(uv1)
-			uv0:updatePages()
+			uv0:updatePages(uv1, slot0)
 			setActive(uv0.resPanel, slot0 and uv1 == uv2.GIFT_PAGE)
 		end)
 	end
@@ -127,8 +137,7 @@ slot0.didEnter = function(slot0)
 	setActive(slot0.toggles[uv0.SHOP_PAGE], slot0.shopActivity)
 	setActive(slot0.toggles[uv0.GIFT_PAGE], slot0.giftActivity)
 
-	slot0.page = slot0.taskActivity and uv0.TASK_PAGE or uv0.SHOP_PAGE
-	slot0.page = slot0.contextData.page and slot0.contextData.page or slot0.page
+	slot0.page = slot0.contextData.page or slot0.taskActivity and uv0.TASK_PAGE or uv0.SHOP_PAGE
 
 	triggerToggle(slot0.toggles[slot0.page], true)
 end
@@ -137,38 +146,30 @@ slot0.updateShopDedDot = function(slot0)
 	setActive(slot0:findTF("tip", slot0.toggles[uv0.SHOP_PAGE]), slot0.newServerShopPage:isTip())
 end
 
-slot0.updatePages = function(slot0)
-	if slot0.taskActivity then
-		if not slot0.newServerTaskPage then
-			slot0.newServerTaskPage = NewServerTaskPage.New(slot0.pages[uv0.TASK_PAGE], slot0.event, slot0.contextData)
-
-			slot0.newServerTaskPage:Reset()
-			slot0.newServerTaskPage:Load()
+slot0.updatePages = function(slot0, slot1, slot2)
+	if slot0.pageDic[slot1]:isShowing() ~= slot2 then
+		if slot2 then
+			if slot1 == uv0.SHOP_PAGE then
+				slot0.pageDic[slot1]:ExecuteAction("Flush")
+			else
+				slot0.pageDic[slot1]:ExecuteAction("Show")
+			end
+		else
+			slot0.pageDic[slot1]:ExecuteAction("Hide")
 		end
+	end
+end
 
+slot0.updateTips = function(slot0)
+	if slot0.taskActivity then
 		setActive(slot0:findTF("tip", slot0.toggles[uv0.TASK_PAGE]), slot0.newServerTaskPage:isTip())
 	end
 
 	if slot0.shopActivity then
-		if not slot0.newServerShopPage then
-			slot0.newServerShopPage = NewServerShopPage.New(slot0.pages[uv0.SHOP_PAGE], slot0.event, slot0.contextData)
-
-			slot0.newServerShopPage:Reset()
-			slot0.newServerShopPage:SetShop(slot0.newServerShop)
-			slot0.newServerShopPage:Load()
-		end
-
 		setActive(slot0:findTF("tip", slot0.toggles[uv0.SHOP_PAGE]), slot0.newServerShopPage:isTip())
 	end
 
 	if slot0.giftActivity then
-		if not slot0.newServerGiftPage then
-			slot0.newServerGiftPage = NewServerGiftPage.New(slot0.pages[uv0.GIFT_PAGE], slot0.event, slot0.contextData)
-
-			slot0.newServerGiftPage:Reset()
-			slot0.newServerGiftPage:Load()
-		end
-
 		setActive(slot0:findTF("tip", slot0.toggles[uv0.GIFT_PAGE]), slot0.newServerGiftPage:isTip())
 	end
 end
@@ -193,36 +194,27 @@ slot0.updateTime = function(slot0)
 end
 
 slot0.onUpdateTask = function(slot0)
-	if slot0.newServerTaskPage then
-		slot0.newServerTaskPage:onUpdateTask()
-	end
-
-	if slot0.newServerShopPage then
-		slot0.newServerShopPage:UpdateRes()
-	end
-
-	slot0:updatePages()
+	slot0.newServerTaskPage:ActionInvoke("onUpdateTask")
+	slot0.newServerShopPage:ActionInvoke("UpdateRes")
+	slot0:updateTips()
 end
 
 slot0.onUpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	setText(slot0:findTF("gem/gem_value", slot0.resPanel), slot0.player:getTotalGem())
-
-	if slot0.newServerGiftPage then
-		slot0.newServerGiftPage:onUpdatePlayer(slot1)
-	end
+	slot0.newServerGiftPage:onUpdatePlayer(slot1)
 end
 
 slot0.onUpdateGift = function(slot0)
-	if slot0.newServerGiftPage then
-		slot0.newServerGiftPage:onUpdateGift()
-	end
-
-	slot0:updatePages()
+	slot0.newServerGiftPage:ActionInvoke("onUpdateGift")
+	slot0:updateTips()
 end
 
 slot0.willExit = function(slot0)
+	slot0.newServerTaskPage:Destroy()
+	slot0.newServerShopPage:Destroy()
+	slot0.newServerGiftPage:Destroy()
 end
 
 slot0.isShow = function()

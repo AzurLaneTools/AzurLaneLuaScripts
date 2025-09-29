@@ -80,6 +80,10 @@ slot0.CheckMutex = function(slot0, slot1)
 	end)
 end
 
+slot0.GetFinishedIds = function(slot0)
+	return slot0.finishedIds
+end
+
 slot0.IsFinishTask = function(slot0, slot1)
 	return table.contains(slot0.finishedIds, slot1)
 end

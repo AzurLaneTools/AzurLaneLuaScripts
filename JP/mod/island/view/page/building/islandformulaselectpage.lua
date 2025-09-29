@@ -594,6 +594,10 @@ slot0.OnHide = function(slot0)
 	end
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
 slot0.OnDestroy = function(slot0)
 end
 

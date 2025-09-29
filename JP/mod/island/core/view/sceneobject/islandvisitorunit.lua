@@ -59,7 +59,7 @@ slot0.MoveHandle = function(slot0)
 end
 
 slot0.AnimHandle = function(slot0)
-	if slot0.speed < 7.5 and slot0.speed > 5 then
+	if slot0.speed > 0 then
 		slot0.speed = 5
 	end
 

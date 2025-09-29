@@ -15,6 +15,7 @@ slot0.onRegister = function(slot0)
 	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
 	slot0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = slot0._screenRatio
+	NewNotchAdapt.CheckNotchRatio = slot0._screenRatio
 	slot0._nextTipActBossTime = PlayerPrefs.GetInt("ActBossTipLastTime", 0)
 
 	if GetZeroTime() <= slot0._nextTipActBossTime then

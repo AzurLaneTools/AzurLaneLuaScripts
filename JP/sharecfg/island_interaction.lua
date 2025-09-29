@@ -2273,7 +2273,7 @@ pg.base.island_interaction = {
 		}
 	},
 	[2202] = {
-		text = "ここが駅のようだ……",
+		text = "ここがバス停のようだ……",
 		groupId = 22,
 		only_self = 0,
 		type = 21,

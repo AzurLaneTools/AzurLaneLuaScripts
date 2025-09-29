@@ -2,6 +2,7 @@ slot0 = class("Dialogue3DPlayer", import("Mgr.Story.model.animation.StoryAnimtio
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0)
+	pg.DelegateInfo.New(slot0)
 
 	slot0.view = slot1
 	slot0._tf = slot1._tf
@@ -55,7 +56,6 @@ slot0.CancelAuto = function(slot0)
 end
 
 slot0.OnStart = function(slot0, slot1)
-	pg.DelegateInfo.New(slot0)
 end
 
 slot0.OnStartAction = function(slot0, slot1, slot2)
@@ -624,13 +624,14 @@ end
 slot0.OnEnd = function(slot0)
 	slot0:DisactiveDefaultCamera()
 	slot0:ClearCustomCameraBlend()
-	pg.DelegateInfo.Dispose(slot0)
 end
 
 slot0.Dispose = function(slot0)
 	slot0.asidePlayer:Dispose()
 
 	slot0.asidePlayer = nil
+
+	pg.DelegateInfo.Dispose(slot0)
 end
 
 return slot0

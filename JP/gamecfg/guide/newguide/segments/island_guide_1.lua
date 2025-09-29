@@ -34,17 +34,13 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "タップで離島経営に向かいましょう",
+				text = "離島経営が開放されています。生活エリアの該当ボタンで移動できます",
 				mode = 2,
 				char = 1,
 				posY = 200,
 				dir = 1,
 				posX = 0,
 				uiset = {}
-			},
-			ui = {
-				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/island_btn"
 			}
 		}
 	}

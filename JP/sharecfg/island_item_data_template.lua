@@ -5741,7 +5741,7 @@ pg.base.island_item_data_template = {
 		order_price = 0,
 		icon = "IslandProps/item_100001",
 		price = 0,
-		icon_normal = "",
+		icon_normal = "props/item_100001",
 		rarity = 2,
 		convert = 0,
 		resource_type = 0,
@@ -6389,7 +6389,7 @@ pg.base.island_item_data_template = {
 	},
 	[110002] = {
 		name = "新緑ドリンク",
-		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。新緑の清らかな香りがスッキリさせてくれる",
+		desc = "体力50回復する。まるで潮風が舌先を吹き抜けるような、塩っぱくて甘い独特な味覚",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6425,7 +6425,7 @@ pg.base.island_item_data_template = {
 	},
 	[110003] = {
 		name = "いちごドリンク",
-		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。いちごの甘い香りで今日も元気いっぱい",
+		desc = "体力が50回復し、8時間、基本資源生産時に生産に必要な時間を5％短縮する。いちごの甘い香りで今日も元気いっぱい",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6461,7 +6461,7 @@ pg.base.island_item_data_template = {
 	},
 	[110004] = {
 		name = "キンカンドリンク",
-		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。キンカンの渋みもあるけど、後味が甘く気分も爽やかに",
+		desc = "体力が50回復し、8時間、基地工場でアイテム制作時に制作に必要な時間を5％短縮する。キンカンの渋みもあるけど、後味が甘く気分も爽やかに",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6497,7 +6497,7 @@ pg.base.island_item_data_template = {
 	},
 	[110005] = {
 		name = "ベリードリンク",
-		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。酸っぱくて甘い、フルーティーなベリーの嬉しい味覚",
+		desc = "体力が50回復し、8時間、店舗で料理アイテム制作時に制作に必要な時間を5％短縮する。酸っぱくて甘い、フルーティーなベリーの嬉しい味覚",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -6533,7 +6533,7 @@ pg.base.island_item_data_template = {
 	},
 	[110006] = {
 		name = "ぶどうドリンク",
-		desc = "体力50回復する。好物のキャラが追加でバフ効果を得る。まろやか甘々な風味がたまらない",
+		desc = "体力が50回復し、8時間、店舗で店員スタッフを担当する時、店舗の売上が5％アップ。まろやか甘々な風味がたまらない",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,

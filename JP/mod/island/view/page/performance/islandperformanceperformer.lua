@@ -8,6 +8,38 @@ slot0.TYPE_HIDE_UNIT = 4
 slot0.TYPE_UPDATE_STORY = 5
 slot0.TYPE_LOCK_NPC_REFRESH = 6
 
+slot0.GetStoryNameList = function(slot0)
+	if not pg.NewStoryMgr.GetInstance():GetScript(slot0) then
+		return {}
+	end
+
+	slot2 = function(slot0, slot1)
+		if pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1) then
+			table.insert(slot0, slot2)
+		end
+	end
+
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1) do
+		if slot8.type == uv0.TYPE_STORY then
+			if slot8.name then
+				slot2(slot3, slot8.name)
+			end
+		elseif slot8.type == uv0.TYPE_UPDATE_STORY then
+			if slot8.index then
+				slot2(slot3, slot8.index)
+			end
+		elseif slot8.type == uv0.TYPE_FINDPATH and slot8.index then
+			slot2(slot3, slot8.index)
+		end
+	end
+
+	slot2(slot3, slot0)
+
+	return slot3
+end
+
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 

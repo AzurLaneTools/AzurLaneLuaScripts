@@ -243,8 +243,8 @@ pg.settings_other_template = {
 		alignment = 0,
 		type = 0,
 		id = 23,
-		title = "岛屿访客通知",
-		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+		title = "離島来訪通知",
+		desc = "ONにすると、離島に来訪者がいる場合にポップアップで通知する"
 	},
 	{
 		default = 1,

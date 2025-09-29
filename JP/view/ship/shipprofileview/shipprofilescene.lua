@@ -587,7 +587,7 @@ slot0.CreateLive2D = function(slot0)
 		offset = slot2,
 		parent = slot0.l2dRoot
 	}), function (slot0)
-		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
+		slot0:setSortingModeFrontZ()
 		uv0.live2DBtn:SetEnable(true)
 	end)
 

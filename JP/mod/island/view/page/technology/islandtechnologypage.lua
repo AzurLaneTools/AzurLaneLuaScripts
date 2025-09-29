@@ -5,9 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot2 = slot0._tf
+	slot1 = slot0._tf
+	slot0.rtTop = slot1:Find("adapt/top")
+	slot2 = slot0.rtTop
 
-	setText(slot2:Find("top/title/Text"), i18n("island_technology_title"))
+	setText(slot2:Find("title/Text"), i18n("island_technology_title"))
 
 	slot1 = slot0._tf
 	slot0.centreToggleTF = slot1:Find("adapt/types/1")
@@ -73,15 +75,15 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot3 = slot0._tf
+	slot3 = slot0.rtTop
 
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot3:Find("back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot3 = slot0._tf
+	slot3 = slot0.rtTop
 
-	onButton(slot0, slot3:Find("top/home"), function ()
+	onButton(slot0, slot3:Find("home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.centreToggleTF, function (slot0)
