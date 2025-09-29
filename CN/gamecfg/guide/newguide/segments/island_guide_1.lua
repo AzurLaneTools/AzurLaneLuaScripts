@@ -34,17 +34,13 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击进入",
+				text = "岛屿计划现已开启，指挥官可随时前往岛屿开发区",
 				mode = 2,
 				char = 1,
 				posY = 200,
 				dir = 1,
 				posX = 0,
 				uiset = {}
-			},
-			ui = {
-				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/island_btn"
 			}
 		}
 	}

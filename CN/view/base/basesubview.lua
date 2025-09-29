@@ -212,7 +212,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.isShowing = function(slot0)
-	return slot0._tf and isActive(slot0._tf)
+	return slot0._tf and isActive(slot0._tf) or false
 end
 
 slot0.getBGM = function(slot0, slot1)

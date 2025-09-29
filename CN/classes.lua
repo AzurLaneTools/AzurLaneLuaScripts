@@ -372,6 +372,7 @@ TimeSynchronizationCommand = import("controller.command.player.TimeSynchronizati
 UpdateCommonFlagCommand = import("controller.command.player.UpdateCommonFlagCommand")
 UpdateGuideIndexCommand = import("controller.command.player.UpdateGuideIndexCommand")
 UpdateStoryCommand = import("controller.command.player.UpdateStoryCommand")
+UpdateStoryListCommand = import("controller.command.player.UpdateStoryListCommand")
 UrExchangeTrackingCommand = import("controller.command.player.UrExchangeTrackingCommand")
 PrayPoolBuildCommand = import("controller.command.praypool.PrayPoolBuildCommand")
 RefluxGetPTAwardCommand = import("controller.command.reflux.RefluxGetPTAwardCommand")

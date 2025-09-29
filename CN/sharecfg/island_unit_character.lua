@@ -455,7 +455,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300900,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -474,7 +474,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300901,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -493,7 +493,7 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300902,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
@@ -512,14 +512,14 @@ pg.base.island_unit_character = {
 		personal_ani = "",
 		id = 300903,
 		CollisionParam = {
-			0.4,
+			0.3,
 			0.2,
 			0.25
 		}
 	},
 	[301000] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "哼哼猪",
 		group = 3010,
@@ -538,7 +538,7 @@ pg.base.island_unit_character = {
 	},
 	[301100] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "奶牛(牧场)",
 		group = 3011,
@@ -557,7 +557,7 @@ pg.base.island_unit_character = {
 	},
 	[301200] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "黄牛(牧场)",
 		group = 3012,
@@ -576,7 +576,7 @@ pg.base.island_unit_character = {
 	},
 	[301300] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "羊(牧场)",
 		group = 3013,
@@ -595,7 +595,7 @@ pg.base.island_unit_character = {
 	},
 	[302000] = {
 		describe_illustrated_guid = "",
-		IslandShipIcon = "",
+		IslandShipIcon = "1",
 		english_name = "",
 		name = "咯咯鸡",
 		group = 3020,

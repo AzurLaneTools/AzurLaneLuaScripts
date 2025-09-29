@@ -848,7 +848,6 @@ pg.island_shop_template = {
 			}
 		},
 		goods_id = {
-			471070301,
 			473120101,
 			471051701
 		}

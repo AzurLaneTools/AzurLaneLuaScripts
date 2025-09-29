@@ -30,6 +30,8 @@ slot0.OnUpdate = function(slot0)
 		NotchAdapt.CheckNotchRatio = slot0
 
 		NotchAdapt.AdjustUI()
+
+		NewNotchAdapt.CheckNotchRatio = slot0
 	end)
 end
 

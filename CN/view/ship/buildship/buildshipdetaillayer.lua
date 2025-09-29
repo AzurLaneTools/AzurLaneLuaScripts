@@ -213,9 +213,6 @@ slot0.updateProject = function(slot0, slot1, slot2)
 				slot0.transform.localScale = Vector3(1, 1, 1)
 
 				slot0.transform:SetAsFirstSibling()
-
-				slot0.name = "shipModelBuliding" .. uv1
-
 				setActive(slot0, true)
 			end)
 		else

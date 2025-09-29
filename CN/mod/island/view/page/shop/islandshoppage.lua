@@ -1268,6 +1268,16 @@ slot0.OnHide = function(slot0)
 	slot0.loadingIdList = {}
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+	uv0.super.OnDisable(slot0)
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
+	uv0.super.OnDestroy(slot0)
+end
+
 slot0.StaticUpdateCommodityTpl = function(slot0, slot1)
 	slot2 = slot1:GetMaxNum() - slot1.purchasedNum
 

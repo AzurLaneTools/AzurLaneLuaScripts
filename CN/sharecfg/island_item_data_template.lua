@@ -1378,7 +1378,7 @@ pg.base.island_item_data_template = {
 	},
 	[1016] = {
 		name = "苹果树种",
-		desc = "港区培育的优质柑橘树种，可以结出清脆可口的苹果。",
+		desc = "港区培育的优质苹果树种，可以结出清脆可口的苹果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,

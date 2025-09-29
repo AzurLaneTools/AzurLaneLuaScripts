@@ -43,8 +43,6 @@ slot0.OnInit = function(slot0)
 	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
-
-	slot0:Flush()
 end
 
 slot0.OnInitItem = function(slot0, slot1)

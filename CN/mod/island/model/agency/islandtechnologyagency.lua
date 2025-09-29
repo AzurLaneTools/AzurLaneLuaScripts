@@ -107,21 +107,31 @@ slot0.RemoveLockId = function(slot0, slot1)
 end
 
 slot0.TryAutoUnlock = function(slot0, slot1)
+	if slot0.isInPlan then
+		return
+	end
+
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.lockIds) do
-		if slot0.techData[slot7]:CanUnlock() then
-			table.insert(slot2, function (slot0)
+		table.insert(slot2, function (slot0)
+			if not uv0.techData[uv1]:IsUnlock() and uv0.techData[uv1]:CanUnlock() then
 				pg.m02:sendNotification(GAME.ISLAND_UNLOCK_TECH, {
-					techId = uv0,
+					techId = uv1,
 					callback = slot0
 				})
-			end)
-		end
+			else
+				slot0()
+			end
+		end)
 	end
+
+	slot0.isInPlan = true
 
 	seriesAsync(slot2, function ()
 		existCall(uv0)
+
+		uv1.isInPlan = false
 	end)
 end
 

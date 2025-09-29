@@ -10,8 +10,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.toggle = slot0._tf:Find("toggle")
-	slot0.panel = slot0._tf:Find("panel")
+	slot0.toggle = slot0._tf:Find("adapt/toggle")
+	slot0.panel = slot0._tf:Find("adapt/panel")
 	slot1 = slot0.panel:Find("content")
 	slot2 = slot1:Find("tpl")
 
