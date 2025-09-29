@@ -85,6 +85,8 @@ slot0.init = function(slot0)
 
 	slot0.rtName = slot0._tf:Find("select/name_bg")
 	slot0.rtPaint = slot0._tf:Find("main/paint")
+
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.setSelectedShip = function(slot0, slot1)
@@ -121,6 +123,8 @@ slot0.willExit = function(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.rtPaint, slot0.shipVO:getPainting())
 	end
+
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

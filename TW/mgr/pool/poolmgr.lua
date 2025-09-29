@@ -383,6 +383,7 @@ slot0.ReturnLive2D = function(slot0, slot1, slot2)
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0.pools_plural[slot4]:ClearItems()
 		slot0:ExcessDymPainting()
 	else
 		uv0.Destroy(slot2)

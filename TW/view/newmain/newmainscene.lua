@@ -389,7 +389,6 @@ slot0.OnDisVisible = function(slot0)
 	slot0.isInit = false
 
 	slot0:RevertSleepTimeout()
-	gcAll()
 end
 
 slot0.UnloadTheme = function(slot0)

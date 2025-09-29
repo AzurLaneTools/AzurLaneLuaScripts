@@ -172,6 +172,7 @@ end
 
 slot0.updateScrollRect = function(slot0)
 	slot0.filterList = slot0:getFilterList()
+	slot0.lScrollRect.enabled = true
 
 	slot0.lScrollRect:SetTotalCount(#slot0.filterList, slot0.lScrollRect.value)
 end
