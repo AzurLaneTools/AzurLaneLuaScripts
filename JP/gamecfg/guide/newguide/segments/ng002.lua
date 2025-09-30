@@ -54,7 +54,7 @@ return {
 		{
 			ui = {
 				delay = 1,
-				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/mask/content/10302/frame/get_btn"
+				path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListPage(Clone)/right_panel/content/10302/frame/get_btn"
 			}
 		},
 		{

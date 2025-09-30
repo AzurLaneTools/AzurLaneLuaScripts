@@ -7,7 +7,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 1051701,
 		icon = "skin_1051701",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_1051701"
 	},
 	[1070301] = {
 		ship_group = 10703,
@@ -16,7 +17,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 1070301,
 		icon = "skin_1070301",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_1070301"
 	},
 	[2060301] = {
 		ship_group = 20603,
@@ -25,7 +27,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 2060301,
 		icon = "skin_2060301",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_2060301"
 	},
 	[2990301] = {
 		ship_group = 29903,
@@ -34,7 +37,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 2990301,
 		icon = "skin_2990301",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_2990301"
 	},
 	[3040701] = {
 		ship_group = 30407,
@@ -43,7 +47,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 3040701,
 		icon = "skin_3040701",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_3040701"
 	},
 	[3120101] = {
 		ship_group = 31201,
@@ -52,7 +57,8 @@ pg.island_skin_template = {
 		shop_goods_id = 0,
 		id = 3120101,
 		icon = "skin_3120101",
-		shop_id = 0
+		shop_id = 0,
+		icon_normal = "props/skin_3120101"
 	},
 	get_id_list_by_ship_group = {
 		[10517] = {

@@ -182,7 +182,13 @@ slot3.CalcGrounded = function(slot0)
 	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
-		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+		slot3 = slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+
+		if slot2.collider.isTrigger then
+			return false
+		end
+
+		return true, slot3
 	end
 
 	return false
@@ -192,7 +198,13 @@ slot3.CalcNotFalling = function(slot0)
 	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 0.3 + 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
-		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+		slot3 = slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+
+		if slot2.collider.isTrigger then
+			return false
+		end
+
+		return true, slot3
 	end
 
 	return false
@@ -238,6 +250,16 @@ end
 slot3.StopMoveHandle = function(slot0)
 	slot0.targetSpeed = 0
 	slot0.speed = 0
+
+	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
+	slot0.animator:SetFloat(IslandConst.INPUT_MAGNITUDE, 0)
+
+	slot0.orginTargetDir = uv0
+	slot0.isSprint = false
+end
+
+slot3.StopMoveHandleByInput = function(slot0)
+	slot0.targetSpeed = 0
 
 	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
 	slot0.animator:SetFloat(IslandConst.INPUT_MAGNITUDE, 0)

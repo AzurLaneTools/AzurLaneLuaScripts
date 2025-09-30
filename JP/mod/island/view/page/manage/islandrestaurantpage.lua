@@ -179,6 +179,7 @@ slot0.OnInit = function(slot0)
 	slot0.argC = uv0.island_manage_sale_coefficient_c.key_value_int / 100
 	slot0.saleConst = uv0.island_manage_sale_constant.key_value_int / 100
 	slot0.maxAttrEffect = pg.island_chara_att[1].manage_effect / 10000
+	slot0.minSaleCnt = uv0.island_manage_sale_limit.key_value_int
 end
 
 slot0.AddListeners = function(slot0)
@@ -625,8 +626,8 @@ slot0.FlushEstimate = function(slot0)
 
 	for slot10, slot11 in pairs(slot0.selectedDic) do
 		slot12 = slot0:CaclBaseSaleCnt(slot10)
-		slot13 = math.max(0, math.min(slot11, slot12 + slot1))
-		slot14 = math.max(0, math.min(slot11, slot12 + slot2))
+		slot13 = math.min(slot11, math.max(slot0.minSaleCnt, slot12 + slot1))
+		slot14 = math.min(slot11, math.max(slot0.minSaleCnt, slot12 + slot2))
 		slot5 = slot5 + slot0:CaclGroupPrice(slot10, slot13)
 		slot6 = slot6 + slot0:CaclGroupPrice(slot10, slot14)
 		slot3 = slot3 + slot13

@@ -45321,3 +45321,13 @@ _G.pg.base.gametip.island_setmeal_title = {
 _G.pg.base.gametip.island_shipselect_confirm = {
 	tip = "確定"
 }
+
+
+_G.pg.base.gametip.island_dresscolorunlock_tips = {
+	tip = "開放消費"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock = {
+	tip = "開放"
+}

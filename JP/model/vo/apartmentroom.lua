@@ -202,6 +202,12 @@ slot0.GetFurnitures = function(slot0)
 	return slot0.furnitures
 end
 
+slot0.HasFurniture = function(slot0, slot1)
+	return _.any(slot0.furnitures, function (slot0)
+		return slot0:GetConfigID() == uv0
+	end)
+end
+
 slot0.AddFurnitureByID = function(slot0, slot1)
 	table.insert(slot0.furnitures, Dorm3dFurniture.New({
 		configId = slot1
