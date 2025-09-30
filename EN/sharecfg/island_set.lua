@@ -424,6 +424,11 @@ pg.island_set = {
 		key = "island_manage_sale_constant",
 		key_value_int = 160
 	},
+	island_manage_sale_limit = {
+		key_value_varchar = "",
+		key = "island_manage_sale_limit",
+		key_value_int = 1
+	},
 	whit_list_max_cnt = {
 		key_value_varchar = "",
 		key = "whit_list_max_cnt",
@@ -699,6 +704,11 @@ pg.island_set = {
 		key = "achievement_target_num_max",
 		key_value_int = 9999
 	},
+	achievement_target_num_max_special = {
+		key_value_varchar = "",
+		key = "achievement_target_num_max_special",
+		key_value_int = 99999999
+	},
 	default_dress = {
 		key = "default_dress",
 		key_value_int = 0,
@@ -936,6 +946,7 @@ pg.island_set = {
 		"island_manage_sale_coefficient_b",
 		"island_manage_sale_coefficient_c",
 		"island_manage_sale_constant",
+		"island_manage_sale_limit",
 		"whit_list_max_cnt",
 		"main_page_function_unlock",
 		"farm_empty_state_info",
@@ -959,6 +970,7 @@ pg.island_set = {
 		"information_hud_height",
 		"achievement_mention_time",
 		"achievement_target_num_max",
+		"achievement_target_num_max_special",
 		"default_dress",
 		"island_time_rate",
 		"initial_dress_colordiff",

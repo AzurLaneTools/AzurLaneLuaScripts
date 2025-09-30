@@ -100,6 +100,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.color_cost_item_count = slot0.color_bg_locked:Find("cost_num")
 
 	setActive(slot0.sortBtn, false)
+	setText(slot0.color_bg_locked:Find("tips"), i18n("island_dresscolorunlock_tips"))
+	setText(slot0.color_lockedBtn:Find("Text"), i18n("island_dresscolorunlock"))
 
 	slot0.colorItemUIList = UIItemList.New(slot0.colorList, slot0.colorItem)
 	slot0.hatTF = slot0:findTF("adapt/hat")

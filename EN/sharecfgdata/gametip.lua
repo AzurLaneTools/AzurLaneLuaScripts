@@ -42995,7 +42995,7 @@ _G.pg.base.gametip.island_manage_capacity = {
 
 
 _G.pg.base.gametip.island_manage_skill_cant_use = {
-	tip = "This skill is not applicable here."
+	tip = "Not applicable here"
 }
 
 
@@ -43015,7 +43015,7 @@ _G.pg.base.gametip.island_manage_addition = {
 
 
 _G.pg.base.gametip.island_manage_no_addition = {
-	tip = "There are no applicable buffs."
+	tip = "No applicable buffs"
 }
 
 
@@ -45138,4 +45138,14 @@ _G.pg.base.gametip.island_setmeal_title = {
 
 _G.pg.base.gametip.island_shipselect_confirm = {
 	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock_tips = {
+	tip = "解锁消耗"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock = {
+	tip = "解锁"
 }

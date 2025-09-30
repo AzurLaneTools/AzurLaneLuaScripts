@@ -229,8 +229,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		alignment = 0,
 		type = 0,
 		id = 23,
-		title = "岛屿访客通知",
-		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+		title = "Island Visitor Notification",
+		desc = "Toggle this setting ON to get push notifications when another player visits your Island."
 	},
 	{
 		default = 1,

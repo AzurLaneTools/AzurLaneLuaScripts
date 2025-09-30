@@ -13,7 +13,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot1 = slot0:findTF("right_panel/task_progress")
+	slot1 = slot0:findTF("task_progress")
 
 	setActive(slot1, true)
 	setText(slot1:Find("title"), i18n("week_task_title_label"))
@@ -40,30 +40,12 @@ slot0.OnLoaded = function(slot0)
 	onButton(slot0, slot0.awardPreviewBtn, function ()
 		uv0.contextData.ptAwardWindow:ExecuteAction("Display", uv0.contextData.weekTaskProgressInfo:GetAllPhaseDrops())
 	end, SFX_PANEL)
-
-	slot0.topTF = slot0._scrllPanel.parent
-	slot0.topPosy = slot0._scrllPanel.localPosition.y + slot0._scrllPanel.rect.height * 0.5
-	slot2 = slot0._scrollView.onValueChanged
-
-	slot2:AddListener(function (slot0)
-		uv0:UpdateCardTip()
-	end)
-end
-
-slot0.UpdateCardTip = function(slot0)
-	for slot4, slot5 in pairs(slot0.taskCards) do
-		slot5.tip.anchoredPosition3D = math.abs(slot0.topTF:InverseTransformPoint(slot5._tf.position).y + slot5.height * 0.5 - slot0.topPosy) < slot5.tip.rect.height * 0.5 and Vector3(-5, -25) or Vector3(-5, 0)
-	end
 end
 
 slot0.onUpdateTask = function(slot0, slot1, slot2)
 	uv0.super.onUpdateTask(slot0, slot1, slot2)
 
 	slot2.name = slot0.taskCards[slot2].taskVO.id
-
-	if slot1 == 0 then
-		slot3.tip.anchoredPosition3D = Vector3(-5, -25)
-	end
 end
 
 slot0.Update = function(slot0, slot1, slot2, slot3)
@@ -167,6 +149,9 @@ slot0.Flush = function(slot0, slot1)
 		end
 	}))
 	slot0:Show()
+
+	slot0._scrollView.enabled = true
+
 	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
 end
 

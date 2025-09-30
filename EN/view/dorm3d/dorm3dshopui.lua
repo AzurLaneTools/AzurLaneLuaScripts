@@ -1013,9 +1013,9 @@ slot0.ShouldShowCommodtyTip = function(slot0)
 	end
 
 	if slot0.type == 1 then
-		return Dorm3dFurniture.GetViewedFlag(slot0.item_id) == 0
+		return Dorm3dFurniture.NeedViewTipByFurnitureId(slot0.item_id)
 	elseif slot0.type == 2 then
-		return Dorm3dGift.GetViewedFlag(slot0.item_id) == 0 or uv1[slot0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftWeekViewed_" .. slot0.item_id, 0) == 0
+		return Dorm3dGift.NeedViewTipByGiftId(slot0.item_id) or uv1[slot0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftWeekViewed_" .. slot0.item_id, 0) == 0
 	end
 
 	return false

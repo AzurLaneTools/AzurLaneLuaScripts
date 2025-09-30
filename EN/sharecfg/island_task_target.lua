@@ -2365,7 +2365,7 @@ pg.base.island_task_target = {
 	},
 	[200060091] = {
 		tips = "",
-		name = "Turn in 30 Raw Timber.",
+		name = "Gather Raw Timber.",
 		type = 4,
 		id = 200060091,
 		target_num = 10,
