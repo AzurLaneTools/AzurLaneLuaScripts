@@ -79,6 +79,10 @@ slot0.NeedViewTip = function(slot0)
 	end)
 end
 
+slot0.NeedViewTipByGiftId = function(slot0)
+	return Dorm3dGift.GetViewedFlag(slot0) == 0 and not getProxy(ApartmentProxy):isGiveGiftDone(slot0)
+end
+
 slot0.GetViewedFlag = function(slot0)
 	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftViewed_" .. slot0, 0)
 end

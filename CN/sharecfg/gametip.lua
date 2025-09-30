@@ -34305,5 +34305,15 @@ cs.gametip = {
 		1174051,
 		95,
 		true
+	},
+	island_dresscolorunlock_tips = {
+		1174146,
+		104,
+		true
+	},
+	island_dresscolorunlock = {
+		1174250,
+		93,
+		true
 	}
 }

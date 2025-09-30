@@ -118,6 +118,12 @@ slot0.NeedViewTip = function(slot0)
 	end)
 end
 
+slot0.NeedViewTipByFurnitureId = function(slot0)
+	return Dorm3dFurniture.GetViewedFlag(slot0) == 0 and not (function (slot0)
+		return getProxy(ApartmentProxy):getRoom(pg.dorm3d_furniture_template[slot0].room_id) and slot2:HasFurniture(slot0)
+	end)(slot0)
+end
+
 slot0.GetViewedFlag = function(slot0)
 	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dFurnitureViewed_" .. slot0, 0)
 end

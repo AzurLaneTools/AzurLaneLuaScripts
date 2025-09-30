@@ -515,6 +515,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/02/20154/prefab/pre_item_02_20154"
 	},
+	[20158] = {
+		id = 20158,
+		navAgentParam = "",
+		model = "island/item/02/20158/prefab/pre_item_02_20158"
+	},
 	[60001] = {
 		id = 60001,
 		navAgentParam = "",
@@ -809,6 +814,7 @@ pg.island_unit_item = {
 		20152,
 		20153,
 		20154,
+		20158,
 		60001,
 		60002,
 		60003,

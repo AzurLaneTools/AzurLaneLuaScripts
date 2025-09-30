@@ -9,12 +9,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.getAllBtn = slot1:Find("get_all")
 
 	setText(slot0.getAllBtn:Find("Text"), i18n("island_season_task_collectall"))
-
-	slot2 = slot1:Find("tpl")
-
-	setActive(slot2, false)
-	setText(slot2:Find("get/Text"), i18n("island_season_task_collect"))
-	setText(slot2:Find("got/Text"), i18n("island_season_task_collected"))
+	setActive(slot1:Find("tpl"), false)
 
 	slot0.scrollCom = slot1:Find("view"):GetComponent("LScrollRect")
 end
@@ -32,6 +27,10 @@ end
 slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot3 = slot0.taskIds[slot1 + 1]
 	slot2.name = slot3
+
+	setText(slot2:Find("get/Text"), i18n("island_season_task_collect"))
+	setText(slot2:Find("got/Text"), i18n("island_season_task_collected"))
+
 	slot5 = pg.island_task[slot3]
 
 	setText(slot2:Find("desc"), slot5.task_desc)

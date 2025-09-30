@@ -56,7 +56,7 @@ return {
 					{
 						pathIndex = 0,
 						lineMode = 2,
-						path = "UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListForWeekPage(Clone)/right_panel/mask/content"
+						path = "UICamera/Canvas/UIMain/TaskScene(Clone)/pages/TaskListForWeekPage(Clone)/right_panel/content"
 					}
 				}
 			}

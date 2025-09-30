@@ -87,7 +87,7 @@ slot0.getIcon = function(slot0)
 			return "island/IslandActionIcon/" .. uv0:getConfig("resource")
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function ()
-			return "island/IslandDressIcon/" .. uv0:getConfig("icon")
+			return uv0:getConfig("icon_normal")
 		end
 	}, function ()
 		return uv0:getConfig("icon")
@@ -556,8 +556,12 @@ slot0.InitSwitch = function()
 			return 0
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
-			if getProxy(IslandProxy):GetIsland() then
-				return slot1:GetCharacterAgency():CheckSkinIsOwned(slot0.id) and 1 or 0
+			if not getProxy(IslandProxy) then
+				return 0
+			end
+
+			if slot1:GetIsland() then
+				return slot2:GetCharacterAgency():CheckSkinIsOwned(slot0.id) and 1 or 0
 			end
 
 			return 0
@@ -1514,6 +1518,9 @@ slot0.InitSwitch = function()
 			updateItem(slot1, Item.New({
 				id = slot0.id
 			}), slot2)
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0, slot1, slot2)
+			updateIslandSkin(slot1, slot0, slot2)
 		end
 	}
 

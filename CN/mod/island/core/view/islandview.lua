@@ -170,7 +170,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.MOVE_UNIT, slot0.OnMoveUnit)
 	slot0:AddListener(ISLAND_EVT.INIT_FINISH, slot0.OnSceneInited)
 	slot0:AddListener(ISLAND_EVT.MOVE_PLAYER, slot0.OnPlayerMove)
-	slot0:AddListener(ISLAND_EVT.STOP_MOVE_PLAYER, slot0.OnPlayerStopMove)
+	slot0:AddListener(ISLAND_EVT.STOP_MOVE_PLAYER, slot0.OnPlayerStopMoveHandle)
 	slot0:AddListener(ISLAND_EVT.JUMP_PLAYER, slot0.OnPlayerJump)
 	slot0:AddListener(ISLAND_EVT.APPROACH_UNIT, slot0.OnShowInterActionPanel)
 	slot0:AddListener(ISLAND_EVT.LEAVE_UNIT, slot0.OnHideInterActionPanel)
@@ -262,7 +262,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.MOVE_UNIT, slot0.OnMoveUnit)
 	slot0:RemoveListener(ISLAND_EVT.INIT_FINISH, slot0.OnSceneInited)
 	slot0:RemoveListener(ISLAND_EVT.MOVE_PLAYER, slot0.OnPlayerMove)
-	slot0:RemoveListener(ISLAND_EVT.STOP_MOVE_PLAYER, slot0.OnPlayerStopMove)
+	slot0:RemoveListener(ISLAND_EVT.STOP_MOVE_PLAYER, slot0.OnPlayerStopMoveHandle)
 	slot0:RemoveListener(ISLAND_EVT.JUMP_PLAYER, slot0.OnPlayerJump)
 	slot0:RemoveListener(ISLAND_EVT.APPROACH_UNIT, slot0.OnShowInterActionPanel)
 	slot0:RemoveListener(ISLAND_EVT.LEAVE_UNIT, slot0.OnHideInterActionPanel)
@@ -995,6 +995,22 @@ slot0.OnPlayerStopMove = function(slot0)
 		slot0.thirdTakePhotoItem:StopMoveHandle()
 	else
 		slot0.player:StopMoveHandle()
+	end
+end
+
+slot0.OnPlayerStopMoveHandle = function(slot0)
+	if slot0.isLockPlayInput then
+		slot0.isLockPlayInput = false
+	end
+
+	slot0.playerInputing = true
+
+	if slot0.takePhotoModel == IslandConst.TakePhotoModel.First then
+		slot0.firstTakePhotoItem:StopMoveHandle()
+	elseif slot0.takePhotoModel == IslandConst.TakePhotoModel.Third then
+		slot0.thirdTakePhotoItem:StopMoveHandle()
+	else
+		slot0.player:StopMoveHandleByInput()
 	end
 end
 
