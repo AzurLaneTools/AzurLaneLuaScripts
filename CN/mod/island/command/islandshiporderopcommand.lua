@@ -91,7 +91,7 @@ slot0.HandleLoadUpAll = function(slot0, slot1)
 		slot13 = Drop.New(slot2:GetComsume(slot10))
 		slot14 = slot2:GetConsumeAwards(slot10)
 
-		if slot13.count <= slot13:getOwnedCount() then
+		if not slot2:ItemIsSubmited(slot10) and slot13.count <= slot13:getOwnedCount() then
 			slot3 = slot3 + slot14[2].count
 
 			table.insert(slot4, slot12.id)
@@ -104,10 +104,6 @@ slot0.HandleLoadUpAll = function(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
-	end
-
-	for slot10, slot11 in ipairs(slot4) do
-		print(slot11)
 	end
 
 	slot7 = pg.ConnectionMgr.GetInstance()

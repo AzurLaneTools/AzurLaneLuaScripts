@@ -395,6 +395,7 @@ slot8 = {
 	["live2d/"] = true
 }
 slot9 = ApartmentProxy.CheckDeviceRAMEnough() and 6 or 2
+slot10 = 0
 
 slot0.ExcessDymPainting = function(slot0, slot1)
 	slot2 = 0
@@ -407,6 +408,8 @@ slot0.ExcessDymPainting = function(slot0, slot1)
 		end
 	end
 
+	uv2 = uv2 + 1
+
 	if slot1 then
 		for slot8, slot9 in ipairs(slot4) do
 			slot0.pools_plural[slot9]:Clear()
@@ -414,6 +417,8 @@ slot0.ExcessDymPainting = function(slot0, slot1)
 			slot0.pools_plural[slot9] = nil
 		end
 	elseif slot3 < #slot4 then
+		gcAll(false)
+	elseif uv2 >= 10 then
 		gcAll(false)
 	end
 end
@@ -496,8 +501,8 @@ slot0.SpriteMemUsage = function(slot0)
 	return slot1
 end
 
-slot10 = 64
-slot11 = {
+slot11 = 64
+slot12 = {
 	"chapter/",
 	"emoji/",
 	"world/"
