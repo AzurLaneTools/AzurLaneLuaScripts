@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天衣结缘\n\n<size=45>五 白泷公主</size>",
+					"천의의 결연\n\n<size=45>5 시라타키 공주</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "battle-newwind",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剧场·后台",
+			say = "극장, 대기실.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "帷幕滤进稀薄的晨光，舞台的粉尘在光束里浮沉。",
+			say = "막의 틈새로 은은한 햇살이 스며들어 무대가 따뜻하게 밝혀지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,20 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}将自己新编的剧本递了过来，纸页间的墨迹犹如蝶群，覆满了原本工整的印刷体。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "呃……用歌声传情还算正常，只是这后面的关押和私奔是怎么回事？",
+			say = "와타라세가 내민 연극 대본의 인쇄된 활자들 사이사이에는 손글씨로 적힌 메모가 수놓아져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +71,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还有逃亡时的打戏……这在原作的基础上新增的幅度有点太大了吧？",
+			say = "——……노래로 마음을 전한다는 건 이해했는데, 그 뒤에 유폐, 탈출극이 이어지는 건…… 대체……?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_522",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "——게다가 도망치는 중에는 격투씬까지 있어… 원작에 이런 부분이 있었던가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来的故事太静了，对于舞台剧而言太内敛了些。",
+			say = "원작을 그대로 쓰면 밋밋해서…… 무대 위에서 표현하기엔 너무 정적인 느낌일 것 같아서요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们难得一同站在了舞台之上，我想将设定上的矛盾引爆成真正的冲突并持续不断升级。",
+			say = "모처럼 같은 무대에 서는 거니까 갈등과 전개를 극대화하고 승화시켜서, 보다 깊은 인상을 남길 수 있게 만들고 싶었어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样，一定会成为一出令人难忘的好剧目的。",
+			say = "그러면 기억에 오래 남을 멋진 공연이 될 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是……这样的么？",
+			say = "——그, 그런가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~请指挥官放心，虽然是第一次尝试，但我可是有去请教过港区里冒险剧本创作方面的大师。",
+			say = "후후후, 걱정하지 않으셔도 돼요. 모험극 대본을 잘 쓰는 분께 자문을 받았거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,18 +164,18 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "获得了相当不错的评价哦~",
+			say = "꽤 좋은 평가를 받았으니 너무 걱정하지 마세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "剧本创作方面的大师？",
+					content = "대본을 잘 쓰는 분?",
 					flag = 1
 				},
 				{
-					content = "这强烈的既视感……",
+					content = "뭐지, 강렬한 기시감……",
 					flag = 2
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……剧本创作方面的大师？",
+			say = "——……모험극을 잘 쓰는 사람이라면, 혹시?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧，你这么说，那我大概知道是什么情况了。",
+			say = "——아… 대충 짐작이 가네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这强烈的既视感……不愧是获得了她们好评的剧本。",
+			say = "——이 강렬한 기시감…… 뭐, 당연히 좋아했겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸，难道这剧本……有什么问题吗？",
+			say = "혹시 이 대본에…… 뭔가 문제라도……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不……整体想法是挺好的。",
+			say = "——아니…… 발상 자체는 좋다고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只是独战追兵这段……这么长时间的打戏，你看我行吗？",
+			say = "——다만 이 「추격자와의 일기토 장면」 말인데…… 이렇게 긴 액션을 소화할 자신은 없어서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "我试着挥了挥刀刃，虽不至于毫无章法，但在港区里演出，也算是班门弄斧了。",
+			say = "소품용 검을 가볍게 휘둘러 보았다. 기본 소양은 있지만, 모항의 동료들 앞에서 선보이기에는 한참이나 미숙한 수준이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}突然拿着手中的剧本贴了过来，随着淡淡的皂香漫进呼吸，她用指尖点了点剧本旁新注的小字。",
+			say = "코끝을 간질이는 비누향을 풍기며 와타라세는 다가와 손끝으로 대본 옆에 적힌 주석을 가리켰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以才是白泷独战追兵嘛——这可是公主大人的守护之战哦~",
+			say = "여기는 지휘관님이 아닌 공주가 혼자서 추격자들과 맞서는 장면이에요. 사랑하는 이를 지키기 위해 직접 싸우는 거죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你只需摆个起手势……余下的交给我就好。",
+			say = "지휘관님은 손짓으로 신호만 주시면 돼요. 나머지는 제게 맡겨주시고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}将自己的佩刀解下，塞入了我的手中，随后将自己的手覆在我的手背之上。",
+			say = "와타라세는 자신이 쓰던 칼을 칼집째 내민 뒤, 그 위에 자신의 손을 포갰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "倏地，手臂被她牵引着划出一道弧光，刀尖扫过，在竹节滚过地板的咕噜声里，她笑音落进耳廓。",
+			say = "그녀의 이끄는 대로 칼끝을 자연스레 움직이자, 가벼운 웃음 소리와 함께 대나무가 쓰러지는 소리가 들렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看，这样的一刀下去，冲突就来了。",
+			say = "보세요, 이렇게 한 번 휘두르는 것만으로 이야기가 단번에 움직이잖아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "传说就像匹素缎，美则美矣，没有金线压纹就显寡淡。",
+			say = "이야기는 백지 상태의 비단 같아요. 그 자체로도 아름답지만, 그 위에 금실이 수놓아져야 비로소 찬란함이 더해지는 법이죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少了沿路箭矢的破空声，剧终时的平安抵达就显得不再可贵。",
+			say = "도중에 화살비가 쏟아지지 않으면, 후반부의 무사 귀환도 그다지 인상 깊지 않게 느껴질 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不怕观众觉得老套？",
+			say = "——오히려 진부하다고 여겨지는 거 아닐까…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许吧……可当公主为所爱之人挡开箭雨时——",
+			say = "그럴지도요…… 하지만, 공주가 사랑하는 사람을 지키기 위해 화살비를 몸소 막아낼 때——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "台下心跳加速的瞬间才是我想织就的……比传说更加真实的锦。",
+			say = "관객들의 심장이 뛰기 시작할 거예요. 그 찰나의 고동이야말로 제가 짜내고 싶은…… 진정성 있는 비단 직물이고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}模拟着拨开箭矢的格挡动作，近乎本能地侧步挡在我身前，逆着晨光，垂落的振袖如展翼。",
+			say = "와타라세는 화살을 막는 동작을 재현하듯 몸을 움직여, 나를 감싸면서 앞으로 나섰다. 그러자 소매가 펴지며 하늘을 나는 날개처럼 펼쳐졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

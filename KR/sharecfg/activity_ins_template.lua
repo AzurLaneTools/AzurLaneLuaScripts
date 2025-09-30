@@ -22184,6 +22184,174 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[590] = {
+		ship_group = 30319,
+		name = "Unzen",
+		sculpture = "yunxian_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 590,
+		group_id = 590,
+		time = {
+			{
+				2025,
+				10,
+				2
+			},
+			{
+				15,
+				35,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[591] = {
+		ship_group = 70301,
+		name = "Tallinn",
+		sculpture = "talin_4",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 591,
+		group_id = 591,
+		time = {
+			{
+				2025,
+				10,
+				3
+			},
+			{
+				21,
+				3,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[592] = {
+		ship_group = 11802,
+		name = "Guam",
+		sculpture = "guandao_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 592,
+		group_id = 592,
+		time = {
+			{
+				2025,
+				10,
+				4
+			},
+			{
+				22,
+				18,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[593] = {
+		ship_group = 70502,
+		name = "Sovetsky Soyuz",
+		sculpture = "suweiaitongmeng_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 593,
+		group_id = 593,
+		time = {
+			{
+				2025,
+				10,
+				5
+			},
+			{
+				20,
+				37,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[594] = {
+		ship_group = 80302,
+		name = "Brennus",
+		sculpture = "bulunnusi_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 594,
+		group_id = 594,
+		time = {
+			{
+				2025,
+				10,
+				6
+			},
+			{
+				19,
+				24,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[595] = {
+		ship_group = 99901,
+		name = "GascogneT8",
+		sculpture = "jiasikenie_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 595,
+		group_id = 595,
+		time = {
+			{
+				2025,
+				10,
+				7
+			},
+			{
+				17,
+				58,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[596] = {
+		ship_group = 80503,
+		name = "Alsace",
+		sculpture = "aersasi_3",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 596,
+		group_id = 596,
+		time = {
+			{
+				2025,
+				10,
+				8
+			},
+			{
+				21,
+				14,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -22763,6 +22931,13 @@ pg.activity_ins_template = {
 		586,
 		587,
 		588,
-		589
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596
 	}
 }

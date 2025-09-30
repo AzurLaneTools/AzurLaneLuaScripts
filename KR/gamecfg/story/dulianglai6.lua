@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天衣结缘\n\n<size=45>六 天衣有缝</size>",
+					"천의의 결연\n\n<size=45>6 무봉이 되지 못한 천의</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "battle-newwind",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剧场·舞台",
+			say = "극장, 무대.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "追光灯泼下青白的月色，我吟着歌踱至舞台中央，深蓝的衣服上荡起光的波纹。",
+			say = "푸른 달빛처럼 쏟아지는 스포트라이트를 맞으며, 나는 반짝이는 의상을 입은 채로 노래를 부르며 무대 중앙으로 걸어 나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,18 +60,18 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……很厉害哦~这才几次排练，吐息、眼神，甚至指尖颤动的弧度都恰到好处呢。",
+			say = "지휘관님…… 정말 훌륭해요. 리허설을 몇 번밖에 못 했는데, 호흡도 시선도… 손끝의 떨림까지 완벽했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "都是{namecode:231:渡良濑}教得好",
+					content = "와타라세가 정성껏 가르쳐 준 덕분이지",
 					flag = 1
 				},
 				{
-					content = "都是公主大人教得好",
+					content = "공주님께서 성심껏 지도해주신 덕분이오",
 					flag = 2
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~",
+			say = "후후후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……要不要试试剧目最终幕的机关？也是我亲自设计的哦？",
+			say = "그럼…… 피날레에 숨겨둔 장치를 시험해볼까요? 그것도 제가 설계했답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你还会……设计机关？",
+			say = "——……무대 장치까지 만들 수 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~落穴、箭雨，还有一些藏在阴影里的小机关——怎么样，想体验一番吗？",
+			say = "후후후, 네. 함정이라든가, 화살비, 그림자 속 작은 장치들까지…… 어떠세요? 직접 체험해보시겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "我的目光扫过地面、梁柱和幕布下的阴影，并没发现{namecode:231:渡良濑}设置的舞台机关。",
+			say = "무대의 바닥과 들보, 막 뒷편을 살펴봤지만 장치 같은 건 어디에도 보이지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呃……这上面真的有机关吗？我怎么没看到呢？",
+			say = "——아무리 봐도 안 보이는데…… 정말 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然是机关，隐藏起来效果才好嘛~",
+			say = "숨겨진 장치니까요. 안 보이는 게 오히려 잘 된 거죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过没关系，等下指挥官只要跟在……",
+			say = "괜찮아요. 제가 나중에……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "咔——",
+			say = "!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "话音未落，一道细微却清晰的机械传动声从头顶的暗格中响起。",
+			say = "그녀의 말이 끝나기도 전에 천장 위 어딘가에서 기계가 작동하는 듯한 희미한 소리가 울렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，实验用的机关……",
+			say = "아…… 실험용 장치가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在——指挥官只要跟在我身边就好。",
+			say = "지휘관님, 그대로 제 뒤에 계세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "舞台上方的暗格弹开，一排排箭雨在我的身边落下。",
+			say = "무대 위쪽 장치가 움직이기 시작하더니, 화살비가 바로 곁으로 쏟아져 내렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，低头！",
+			say = "고개를 숙여요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "回过神来的我把头埋低，眼角的余光瞥见一道白影如惊鸿般卷至身前。",
+			say = "재빨리 몸을 웅크리자, 하얀 그림자가 눈앞을 번개처럼 스쳐 지나가며——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			side = 2,
-			say = "头顶的箭雨被{namecode:231:渡良濑}轻轻松松挑飞到远处。",
+			say = "쏟아지는 모든 화살을 한순간에 멀리 튕겨냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来右移三步。",
+			say = "다음은 오른쪽으로 세 걸음 이동하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "我跟随着她的脚步来到了舞台外围。",
+			say = "그녀의 동작에 맞춰 무대 끝으로 이동했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "随着一阵金属的摩擦声，舞台中央的翻板落下，露出了一个陷阱。",
+			say = "그러자 금속이 삐걱거리는 소리와 함께 중앙 바닥이 열리며 깊은 함정이 드러났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "连陷阱都弄出来了……看着还挺唬人的。",
+			say = "——함정이…… 꽤 박력적이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，太平顺的私奔路可配不上公主的刀哦~",
+			say = "당연하죠. 탈출극이 너무 미미하면 공주님의 검이 울잖아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "唉……你……小心身后——",
+			say = "——하아…… 잠깐, 와타라세! 뒤!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "舞台侧面竟然还有一个陷阱，我本能去拉{namecode:231:渡良濑}。",
+			say = "무대 측면, 예상치 못한 위치에서 함정이 열리는 걸 보고 반사적으로 와타라세를 붙잡으려 손을 뻗었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "嗤啦——！",
+			say = "!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "身体交错倒进柔软陷阱的瞬间，我的衣服被一边的机关勾住，深蓝色的衣服被扯开一道半尺长的破口。",
+			say = "바닥에는 부드러운 쿠션이 깔려 있었지만, 떨어질 때 의상이 스친 건지 약 반 뼘 정도가 찢어지고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "她从我怀里抬起头来，第一眼看到的就是我衣服上的裂痕，声音带着明显的自责。",
+			say = "내 품에 쓰러진 와타라세가 고개를 들고는 찢어진 자국을 보자마자 깜짝 놀라 미안해하는 표정을 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！指挥官？你还好吗？",
+			say = "지휘관님! 다치신 데는 없으세요!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别担心，你设置的这个陷阱很柔软，我没事。",
+			say = "——괜찮아. 바닥도 푹신해서 아무렇지도 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕——那应该是前几幕的机关才对，我忘记复位了……",
+			say = "죄송해요…… 막을 열기 전에 쓰려던 장치를 원위치로 돌려놓는 걸 깜빡했어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在衣服也……都怪我，非要加这段戏……",
+			say = "의상까지…… 제가 괜히 쓸데없는 장면을 추가한 탓이에요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别担心，衣服应该也是被机关勾住才扯开的，并不危险。",
+			say = "——의상은 좀 아깝지만, 둘 다 다치지 않아서 다행이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……幸好指挥官没事，不然……",
+			say = "……네. 무사하셔서 정말 다행이에요. 다치기라도 하셨으면, 저……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……可惜现在说什么都晚了……",
+			say = "하아…… 이제와서 무슨 말을 한들 소용없겠죠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都说天衣无缝，最后还是因我失了这份完美……",
+			say = "천의무봉(天衣無縫)을 목표로 했는데…… 결국 제 실수로 그 완벽함이 무너져버렸어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:231:渡良濑}……天衣虽失了完美，却也有了能为它填上珍贵回忆的机会哦。",
+			say = "——아니야, 와타라세. 무봉(無縫)은 아니게 되었지만, 대신 새로운 추억을 꿰매 넣을 자리가 생겼잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~真是歪理……",
+			say = "후후후…… 그건 조금… 억지 같지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过填满回忆的天衣啊……听起来也还不错……",
+			say = "그래도 추억이 깃든 천의(天衣)라니…… 나쁘지 않네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
-			say = "月色的灯光淌过相扣的十指，照着裂帛在舞台上绽放成蝶。",
+			say = "달빛 같은 조명이 무대 위의 두 사람을 나비처럼 은은히 비추었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

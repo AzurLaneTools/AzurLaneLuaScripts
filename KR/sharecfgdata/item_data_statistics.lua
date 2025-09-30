@@ -16003,9 +16003,9 @@ _G.pg.base.item_data_statistics[21051] = {
 
 _G.pg.base.item_data_statistics[21052] = {
 	open_directly = 0,
-	name = "结晶：杜威·META",
+	name = "결정: 듀이·META",
 	type = 4,
-	display = "杜威·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "듀이·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -29549,9 +29549,9 @@ _G.pg.base.item_data_statistics[30430] = {
 
 _G.pg.base.item_data_statistics[30431] = {
 	open_directly = 1,
-	name = "外观装备箱(世界巡游)",
+	name = "장비스킨 상자(월드 투어)",
 	type = 11,
-	display = "可以随机获得一件本次世界巡游限定外观装备",
+	display = "크루즈 보상 장비 스킨을 랜덤으로 하나 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -103567,9 +103567,9 @@ _G.pg.base.item_data_statistics[81217] = {
 
 _G.pg.base.item_data_statistics[81218] = {
 	open_directly = 1,
-	name = "忍者之城换装礼盒II",
+	name = "닌자의 성 스킨 패키지 II",
 	type = 17,
-	display = "购买礼包可获得随机换装*1，钻石*2025，心智单元*50，心智魔方*20，高级定向蓝图·八期*2，快速完成工具*10，家具币*100",
+	display = "랜덤(랜덤 닌자의 성 스킨 패키지 II의) 스킨, 상급 지향형 강화 유닛·8기×2, 다이아×2025, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

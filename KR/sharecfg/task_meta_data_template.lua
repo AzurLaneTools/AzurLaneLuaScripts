@@ -3049,7 +3049,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 100471,
 		target_num = 1,
-		desc = "使用杜威·META获得1次胜利"
+		desc = "듀이·META를 편성한 함대로 전투에서 1회 승리"
 	},
 	[100472] = {
 		target_id = "30",
@@ -3057,7 +3057,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 100472,
 		target_num = 1,
-		desc = "使用杜威·META击破等级＞30的敌方1次"
+		desc = "듀이·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
 	},
 	[100473] = {
 		target_id = "55",
@@ -3065,7 +3065,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 100473,
 		target_num = 1,
-		desc = "使用杜威·META击破等级＞55的敌方1次"
+		desc = "듀이·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
 	},
 	[100474] = {
 		target_id = "80",
@@ -3073,7 +3073,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 100474,
 		target_num = 1,
-		desc = "使用杜威·META击破等级＞80的敌方1次"
+		desc = "듀이·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
 	},
 	[100475] = {
 		target_id = "100",
@@ -3081,7 +3081,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 100475,
 		target_num = 1,
-		desc = "使用杜威·META击破等级＞100的敌方1次"
+		desc = "듀이·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
 	[200001] = {
 		target_id = "0",
@@ -4273,7 +4273,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 200381,
 		target_num = 1,
-		desc = "大型作战内使用杜威·META获得1次胜利"
+		desc = "대형작전에서 듀이·META를 포함한 함대로 1회 승리"
 	},
 	[200382] = {
 		target_id = "70",
@@ -4281,7 +4281,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 200382,
 		target_num = 1,
-		desc = "大型作战内使用杜威·META击破等级＞70的敌方1次"
+		desc = "대형작전에서 듀이·META를 포함한 함대로 Lv70 이상의 적 격파"
 	},
 	[200383] = {
 		target_id = "90",
@@ -4289,7 +4289,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 200383,
 		target_num = 1,
-		desc = "大型作战内使用杜威·META击破等级＞90的敌方1次"
+		desc = "대형작전에서 듀이·META를 포함한 함대로 Lv90 이상의 적 격파"
 	},
 	[200384] = {
 		target_id = "100",
@@ -4297,6 +4297,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970110",
 		id = 200384,
 		target_num = 1,
-		desc = "大型作战内使用杜威·META击破等级＞100的敌方1次"
+		desc = "대형작전에서 듀이·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

@@ -10011,9 +10011,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9701100] = {
-		name = "杜威·META",
+		name = "듀이·META",
 		change_skin = "",
-		desc = "驱逐舰杜威·META，将从今天开始担任指挥官的作战参谋。杜威会一直在指挥官身后提供专业的战术辅佐，今后请多指教了。 ",
+		desc = "구축함, 「META」 듀이입니다. 오늘부터 지휘관님의 작전 참모로서 보좌를 맡게 되었습니다. 늘 뒤에서 전문적인 전술 지원을 제공해 드릴 테니, 앞으로 잘 부탁드립니다.",
 		illustrator2 = -1,
 		ship_group = 970110,
 		group_index = 0,

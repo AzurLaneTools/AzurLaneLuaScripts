@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天衣结缘\n\n<size=45>四 织物的温度</size>",
+					"천의의 결연\n\n<size=45>4 직물의 온기</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "newyear2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "樱花庭院·制衣间",
+			say = "벚꽃이 핀 정원, 재봉실.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "深蓝的服装平铺在案上，领口袖缘的金线藤蔓在晨光中流转。",
+			say = "짙은 감색의 의상이 작업대 위에 펼쳐져 있다. 깃과 소매를 따라 흐르는 금빛 덩굴 무늬가 햇빛을 받아 반짝이고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}指尖拂过衣襟内衬，那里用银灰丝绣满繁密的暗纹，唯有贴肤才能感知其中的温度。",
+			say = "깃 안쪽 안감에는 회색 실로 정교한 무늬가 빼곡하게 수놓아져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来，试试合不合身？",
+			say = "지휘관님, 한 번 입어보시겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "服装可是角色的第二层皮肤——穿上的瞬间，舞台的呼吸就落在你肩上。",
+			say = "배우에게 있어 의상은 제2의 피부—— 몸에 걸치면, 무대의 숨결이 느껴지기 시작할 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "我感受着身上衣物的重量，看着它们随呼吸在胸膛起伏。",
+			say = "천이 호흡에 따라 가슴팍에서 부드럽게 오르내리는 모습을 보며, 그 무게를 피부로 느꼈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "肩线这里……感觉有点紧？",
+			say = "——어깨 쪽이 약간 타이트한 것 같기도 하고…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……需要在这里放半指余量，你挥刀的时候，肩膀这块肌肉会鼓起来一点……放心，这很容易调整。",
+			say = "그러네요…… 검을 휘두를 때 편하도록 손가락 한 마디 정도는 여유 공간을 남겨두는 게 좋겠어요. 괜찮아요, 바로 수정할게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来，背再挺直一些，舞台上灯光可是从头顶打下来哦~",
+			say = "자, 등을 한 번만 더 곧게 펴주세요. 무대에서는 조명이 위에서 내려오잖아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里多弯一寸，影子就矮了三分。",
+			say = "조금이라도 등이 굽으면, 그림자가 확 줄어들어 버린답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}摸着我的腰口，来到身前，一枚赤铜领针扣上襟口，冰凉的金属贴上喉结。",
+			say = "와타라세가 적동색 핀으로 깃을 고정시키자, 차가운 금속의 감촉이 목덜미에 스쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "领针的位置和领型的弧度应该贴得刚好，转头试试，会磨脖子吗？",
+			say = "깃 고정 위치는 괜찮은 것 같은데… 고개 한 번 움직여보시겠어요? 쓸리는 느낌은 안 드세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还好，很顺滑。",
+			say = "——응, 전혀.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好……不过指挥官的心，突然跳得很快哦~",
+			say = "다행이에요. 그런데… 아까부터 심장 박동이 빨라지신 것 같은데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,18 +214,18 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么，是衣服太沉？还是……想到要与我同台出演的事了？",
+			say = "혹시, 옷이 무거워서 그런 건가요? 아니면…… 저와 함께 무대에 오르는 것 때문에……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是衣服沉了点……",
+					content = "옷 때문에…",
 					flag = 1
 				},
 				{
-					content = "是有些紧张……",
+					content = "긴장해서…",
 					flag = 2
 				}
 			}
@@ -238,7 +238,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，衣服确实有些沉了……不过面料都很舒服。",
+			say = "——응, 착용감은 좋은데, 좀 무거운 것 같아서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样啊~之前指挥官说凉，我特意多叠了层布衬，等会我去掉就好。",
+			say = "그랬군요. 시원한 감촉이 좋다고 하셨던 것 같아서 안감을 한 겹 더 덧댔거든요. 나중에 한 겹 빼드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，是有些紧张……毕竟是登台演出。",
+			say = "——응, 무대에 선다고 생각하니 약간 긴장이 돼서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没事，有我在哦~到时候就算真的出了什么状况，那也会是剧本的一部分。",
+			say = "후훗, 제가 함께하니까 걱정하지 않으셔도 돼요. 무슨 일이 있더라도 그것도 연극의 일부인 걸요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样就好。",
+			say = "——든든한걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}取出了一条革制腰带，俯身蹲下，裙摆像朵墨色小花铺在地上。",
+			say = "와타라세는 가죽 벨트를 꺼내어, 무릎을 꿇고 허리에 조심스럽게 감아주었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "在金属扣环锁紧腰腹的刹那，我本能地绷紧身体。",
+			say = "잠금쇠가 찰칵 소리를 내며 채워지자, 반사적으로 몸에 힘이 들어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别憋气哦，腰带是力的支点，可不是什么刑具。",
+			say = "후훗, 그렇게 긴장하지 않으셔도 괜찮아요. 이건 몸을 지지해주기 위한 거지, 아프라고 하는 게 아니니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,84 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "我试着沉了沉肩膀，神奇地，刚才勒人的皮带变成了稳稳托住腰的感觉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_191",
-			dir = 1,
-			actor = 302250,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "嗯……看来这里还需要稍微改小一点腰围，让皮带扣在最佳发力位置。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 302250,
-			side = 2,
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "借它的束缚感凝聚气势——就像我借刀鞘蓄力拔刀一般。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}见状递来了一把木刀。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "这里怎么会有这种东西？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 302250,
-			side = 2,
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呵呵~你忘了这是谁的制衣间了？有时我做衣服累了，也会练一会刀放松一下的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "用练刀来放松？",
+			say = "어깨에 힘을 빼자 신기하게도, 조이던 벨트가 허리를 단단히 받쳐주는 느낌으로 변했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +355,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说是会有些奇怪，但只是适当转化一下自己的心情而已，就像练刀累了我也会用织布作为休息一样。",
+			say = "음…… 허리 부분을 조금 더 다듬어서 힘이 가장 잘 들어가는 위치에 맞춰 조여야겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦~试着挥一下吧？注意手臂动作时袖口处的感觉。",
+			say = "검집으로 검을 뽑아내는 동작처럼, 조임도 중요하답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,18 +379,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "我用力下劈，衣摆随之呼地旋开，在晨光里唰出一片金光。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_191",
-			hidePaintObj = true,
-			say = "但挥臂时，上臂外侧传来一丝不易察觉的牵制。",
+			say = "그녀는 그렇게 말하며, 목도를 내밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +392,33 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这里……腋下到上臂，动起来好像有点拘着？",
+			say = "——왜 여기 이런 게……?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 302250,
+			side = 2,
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "후후후, 재봉으로 피곤할 때는 기분 전환 삼아 살짝씩 검을 휘둘러 보거든요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "——기분 전환하려고… 검을 휘두른다고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +432,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，袖肥这里果然需要再改大一点点，和日常不同，舞台动作幅度很大，可不能让它绊住你。",
+			say = "조금 이상하게 들릴 수도 있지만… 제 나름대로는 마음을 다잡는 방법 중 하나랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +445,69 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过下摆的弧度倒是刚好，指挥官刚才挥刀时扬起的幅度很漂亮，改下摆这一步看来很成功。",
+			say = "한 번 휘둘러보시겠어요? 팔을 움직일 때 소매 부분이 조이지 않는지도 확인해야 하거든요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			say = "목도를 받아 쥐고 힘껏 휘둘러 보자, 옷자락이 휘몰아치듯 펼쳐졌다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			say = "그러자 팔 윗부분의 바깥쪽에 미세하게 당겨지는 감각이 느껴졌다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "——여기… 겨드랑이에서 팔 윗부분이 살짝 움직이기 불편한 것 같아.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_191",
+			dir = 1,
+			actor = 302250,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그렇군요. 소매 폭을 조금 더 여유 있게 조절해야겠어요. 옷에 당겨지는 느낌이 있으면 안 되죠.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 302250,
+			side = 2,
+			bgName = "star_level_bg_191",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "단 조절은 딱 좋은 것 같네요. 아까 지휘관이 검을 휘두르실 때, 옷자락이 아주 멋지게 나풀거렸거든요. 성공한 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刀刃追着光走，衣服跟着你动……这时候啊，它们才不是件死物。",
+			say = "반짝이는 검과 함께 휘날리는 의상…… 분명 연기에도 생동감이 더해질 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "晨光把我们的影子定在布墙上，她手心的温热透过丝绒传到了我的皮肤上，化为了无声的默契与守护。",
+			say = "햇살이 두 그림자를 천 위에 길게 드리웠고, 그녀의 손바닥에서 전해지는 따스한 온기가 비단을 통해 피부에 조용히 스며들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

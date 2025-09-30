@@ -4307,7 +4307,7 @@ pg.activity_sp_story = {
 	},
 	[248] = {
 		story_type = 1,
-		name = "EP-? 클리어",
+		name = "아마하라 진입·下",
 		change_prefab = "",
 		unlock_conditions = "EP-? 클리어",
 		change_background = "bg_xiangting_2",
@@ -4326,7 +4326,7 @@ pg.activity_sp_story = {
 	},
 	[249] = {
 		story_type = 1,
-		name = "EP4-1 클리어",
+		name = "다시 LI 방어선으로",
 		change_prefab = "",
 		unlock_conditions = "EP-? 클리어",
 		change_background = "star_level_bg_494",
@@ -4345,7 +4345,7 @@ pg.activity_sp_story = {
 	},
 	[250] = {
 		story_type = 1,
-		name = "EP4-2 클리어",
+		name = "안제 구출 작전",
 		change_prefab = "",
 		unlock_conditions = "EP4-1 클리어",
 		change_background = "star_level_bg_170",
@@ -4364,7 +4364,7 @@ pg.activity_sp_story = {
 	},
 	[251] = {
 		story_type = 1,
-		name = "EP4-3 클리어",
+		name = "현 속의 희미한 빛",
 		change_prefab = "",
 		unlock_conditions = "EP4-2 클리어",
 		change_background = "bg_zhedie_2",
@@ -4383,7 +4383,7 @@ pg.activity_sp_story = {
 	},
 	[252] = {
 		story_type = 1,
-		name = "EP4-4 클리어",
+		name = "안제 구조 계획 Ver. 2",
 		change_prefab = "",
 		unlock_conditions = "EP4-3 클리어",
 		change_background = "star_level_bg_306",
@@ -4402,7 +4402,7 @@ pg.activity_sp_story = {
 	},
 	[253] = {
 		story_type = 1,
-		name = "EP4-5 클리어",
+		name = "사전 준비",
 		change_prefab = "",
 		unlock_conditions = "EP4-4 클리어",
 		change_background = "bg_zhedie_2",
@@ -4421,7 +4421,7 @@ pg.activity_sp_story = {
 	},
 	[254] = {
 		story_type = 1,
-		name = "EP4-6 클리어",
+		name = "감옥",
 		change_prefab = "",
 		unlock_conditions = "EP4-5 클리어",
 		change_background = "bg_zhedie_2",
@@ -4440,7 +4440,7 @@ pg.activity_sp_story = {
 	},
 	[255] = {
 		story_type = 1,
-		name = "EP5-1 클리어",
+		name = "사전 준비 Ver. 2",
 		change_prefab = "",
 		unlock_conditions = "EP4-6 클리어",
 		change_background = "bg_zhedie_2",
@@ -4459,7 +4459,7 @@ pg.activity_sp_story = {
 	},
 	[256] = {
 		story_type = 1,
-		name = "EP5-2 클리어",
+		name = "방어 구역 A",
 		change_prefab = "",
 		unlock_conditions = "EP5-1 클리어",
 		change_background = "bg_zhedie_2",
@@ -4478,7 +4478,7 @@ pg.activity_sp_story = {
 	},
 	[257] = {
 		story_type = 1,
-		name = "EP5-3 클리어",
+		name = "방어 구역 B",
 		change_prefab = "",
 		unlock_conditions = "EP5-2 클리어",
 		change_background = "bg_zhedie_2",
@@ -4497,7 +4497,7 @@ pg.activity_sp_story = {
 	},
 	[258] = {
 		story_type = 1,
-		name = "EP5-4 클리어",
+		name = "방어 구역 C",
 		change_prefab = "",
 		unlock_conditions = "EP5-3 클리어",
 		change_background = "bg_zhedie_2",
@@ -4516,7 +4516,7 @@ pg.activity_sp_story = {
 	},
 	[259] = {
 		story_type = 1,
-		name = "EP5-5 클리어",
+		name = "한 줄기 붉은 빛",
 		change_prefab = "",
 		unlock_conditions = "EP5-4 클리어",
 		change_background = "bg_zhedie_2",
@@ -4537,7 +4537,7 @@ pg.activity_sp_story = {
 	},
 	[260] = {
 		story_type = 1,
-		name = "EP6-1 클리어",
+		name = "검은 벽",
 		change_prefab = "",
 		unlock_conditions = "EP5-5 클리어",
 		change_background = "bg_zhedie_2",
@@ -4556,7 +4556,7 @@ pg.activity_sp_story = {
 	},
 	[261] = {
 		story_type = 1,
-		name = "EP6-2 클리어",
+		name = "위기일발",
 		change_prefab = "",
 		unlock_conditions = "EP6-1 클리어",
 		change_background = "bg_amahara_cg10",
@@ -4575,7 +4575,7 @@ pg.activity_sp_story = {
 	},
 	[262] = {
 		story_type = 1,
-		name = "EP6-3 클리어",
+		name = "바다처럼 푸른 빛",
 		change_prefab = "",
 		unlock_conditions = "EP6-2 클리어",
 		change_background = "bg_underwater",
@@ -4594,7 +4594,7 @@ pg.activity_sp_story = {
 	},
 	[263] = {
 		story_type = 1,
-		name = "EP6-4 클리어",
+		name = "작별",
 		change_prefab = "",
 		unlock_conditions = "EP6-3 클리어",
 		change_background = "bg_amahara_4",
@@ -4613,7 +4613,7 @@ pg.activity_sp_story = {
 	},
 	[264] = {
 		story_type = 1,
-		name = "EP6-5 클리어",
+		name = "에필로그",
 		change_prefab = "",
 		unlock_conditions = "EP6-4 클리어",
 		change_background = "star_level_bg_111",
@@ -4632,7 +4632,7 @@ pg.activity_sp_story = {
 	},
 	[265] = {
 		story_type = 1,
-		name = "EX-1 클리어",
+		name = "그 후의 아마하라",
 		change_prefab = "",
 		unlock_conditions = "EP6-5 클리어",
 		change_background = "star_level_bg_492",
@@ -4651,7 +4651,7 @@ pg.activity_sp_story = {
 	},
 	[266] = {
 		story_type = 1,
-		name = "EX-2 클리어",
+		name = "붉은 이별",
 		change_prefab = "",
 		unlock_conditions = "EX-1 클리어",
 		change_background = "bg_port_chongdong",
@@ -4670,7 +4670,7 @@ pg.activity_sp_story = {
 	},
 	[267] = {
 		story_type = 1,
-		name = "EX-3 클리어",
+		name = "「헬레나」의 결의",
 		change_prefab = "",
 		unlock_conditions = "EX-2 클리어",
 		change_background = "star_level_bg_170",
@@ -4689,7 +4689,7 @@ pg.activity_sp_story = {
 	},
 	[268] = {
 		story_type = 1,
-		name = "EX-4 클리어",
+		name = "분명 괜찮을 거야",
 		change_prefab = "",
 		unlock_conditions = "EX-3 클리어",
 		change_background = "star_level_bg_589",
@@ -4708,7 +4708,7 @@ pg.activity_sp_story = {
 	},
 	[269] = {
 		story_type = 1,
-		name = "EX-5 클리어",
+		name = "달콤한 미끼",
 		change_prefab = "Map_1960002",
 		unlock_conditions = "EX-4 클리어",
 		change_background = "bg_amahara_4",

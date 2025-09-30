@@ -782,7 +782,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701101] = {
-		breakout_view = "习得技能【破敌之炬·杜威】/全武器效率提高2%",
+		breakout_view = "[섬멸의 횃불 - 듀이·META] 습득 / 무기 보정 +2%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -798,7 +798,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701102] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 무기 보정 +3%",
 		item2 = 21001,
 		pre_id = 9701101,
 		repair = 0,
@@ -815,7 +815,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701103] = {
-		breakout_view = "【破敌之炬·杜威】升级/全武器效率提高5%",
+		breakout_view = "[섬멸의 횃불 - 듀이·META] 강화 / 무기 보정 +5%",
 		item2 = 21001,
 		pre_id = 9701102,
 		repair = 0,
@@ -831,7 +831,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701104] = {
-		breakout_view = "无",
+		breakout_view = "없음",
 		item2 = 21001,
 		pre_id = 9701103,
 		repair = 0,
