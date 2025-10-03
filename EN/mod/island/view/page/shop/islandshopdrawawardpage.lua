@@ -303,6 +303,15 @@ slot0.ShowDrawAwardWindow = function(slot0, slot1)
 		if slot0.name == uv0 then
 			uv1 = slot0
 		end
+
+		eachChild(slot0:Find("container"), function (slot0, slot1)
+			slot2 = slot0:Find("card")
+
+			setActive(slot2:Find("front/S/IslandDrawAwardPage_bomb01"), false)
+			setActive(slot2:Find("bg/S/SCardLoopVX"), false)
+			setActive(slot2:Find("front/A/IslandDrawAwardPage_bomb02"), false)
+			setActive(slot2:Find("bg/A/ACardLoopVX"), false)
+		end)
 	end)
 
 	slot4 = {}
@@ -465,13 +474,6 @@ slot0.HideDrawAwardWindow = function(slot0)
 	eachChild(slot2:Find("window"), function (slot0, slot1)
 		eachChild(slot0:Find("container"), function (slot0, slot1)
 			LeanTween.cancel(slot0.gameObject)
-
-			slot2 = slot0:Find("card")
-
-			setActive(slot2:Find("IslandDrawAwardPage_bomb01"), false)
-			setActive(slot2:Find("SCardLoopVX"), false)
-			setActive(slot2:Find("IslandDrawAwardPage_bomb02"), false)
-			setActive(slot2:Find("ACardLoopVX"), false)
 		end)
 	end)
 end

@@ -260,7 +260,7 @@ pg.island_shop_template = {
 		tag_type = 3,
 		shop_icon = {
 			"Seasonal",
-			"mystery"
+			"Seasonal"
 		},
 		tag_icon = {
 			"Stage 1"
@@ -316,7 +316,7 @@ pg.island_shop_template = {
 		tag_type = 3,
 		shop_icon = {
 			"Seasonal",
-			"mystery"
+			"Seasonal"
 		},
 		tag_icon = {
 			"Stage 2"
@@ -361,7 +361,7 @@ pg.island_shop_template = {
 		tag_type = 3,
 		shop_icon = {
 			"Seasonal",
-			"mystery"
+			"Seasonal"
 		},
 		tag_icon = {
 			"Stage 3"
