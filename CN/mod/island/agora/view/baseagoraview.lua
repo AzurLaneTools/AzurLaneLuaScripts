@@ -1,7 +1,7 @@
 slot0 = class("BaseAgoraView", import("Mod.Island.Core.View.IslandView"))
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.Ctor(slot0, slot1, slot3, slot4)
 
 	slot0.agora = slot2
 	slot0.agora_callbacks = {}

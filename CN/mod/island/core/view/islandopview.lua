@@ -18,13 +18,12 @@ slot0.OnInit = function(slot0, slot1)
 
 	setParent(slot0.opUI, slot1)
 
-	slot0.showBalance = 1
+	slot0.showBalance = slot0:GetView():GetCacheOpCount() or 1
 	slot0.inputController = IslandCameraMgr.instance.gameObject:GetComponent(typeof(InputController))
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.opPanel = slot0.opUI:Find("op_btns")
-	slot2 = slot0.opPanel
-	slot0.opBtn = slot2:Find("op_btn")
+	slot0.opBtn = slot0.opPanel:Find("op_btn")
 	slot0.opBtnList = {
 		slot0.opBtn:Find("interaction"),
 		slot0.opBtn:Find("plant"),
