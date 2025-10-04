@@ -168,11 +168,11 @@ slot0.handleNotification = function(slot0, slot1)
 	slot0.viewComponent:emit(slot2, slot3)
 end
 
-slot0.SetUp = function(slot0)
-	slot1 = slot0.viewComponent:GetIsland()
-	_IslandCore = IslandCore.New(slot0.viewComponent:GetPoolMgr(), slot1, slot0.viewComponent._container)
+slot0.SetUp = function(slot0, slot1)
+	slot2 = slot0.viewComponent:GetIsland()
+	_IslandCore = IslandCore.New(slot0.viewComponent:GetPoolMgr(), slot2, slot0.viewComponent._container, slot1)
 
-	slot0.viewComponent:OnSetUpCore(slot1.mapID, slot1.spawnPointId)
+	slot0.viewComponent:OnSetUpCore(slot2.mapID, slot2.spawnPointId)
 end
 
 slot0.SwitchScene = function(slot0, slot1, slot2)
@@ -182,8 +182,7 @@ slot0.SwitchScene = function(slot0, slot1, slot2)
 		slot3:SetSpawnPointId(slot2)
 	end
 
-	slot0:UnloadScene()
-	slot0:SetUp()
+	slot0:SetUp(slot0:UnloadScene())
 end
 
 slot0.UnloadScene = function(slot0, slot1)
@@ -193,7 +192,11 @@ slot0.UnloadScene = function(slot0, slot1)
 		_IslandCore:Dispose(slot1)
 
 		_IslandCore = nil
+
+		return _IslandCore:GetView():GetSubView(IslandOpView) and slot3.showBalance or 1
 	end
+
+	return 1
 end
 
 slot0.remove = function(slot0)
