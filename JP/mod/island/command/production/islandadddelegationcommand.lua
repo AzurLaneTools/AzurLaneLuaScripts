@@ -18,17 +18,17 @@ slot0.execute = function(slot0, slot1)
 	}, 21538, function (slot0)
 		if slot0.result == 0 then
 			slot2 = uv0:GetBuilding(uv1):GetDelegationSlotData(uv2)
-			slot3 = slot2:GetSlotRoleData()
 
-			slot3:AddCostList(slot0.cost_time_list)
+			slot2:GetSlotRoleData():AddCostList(slot0.cost_time_list)
 
-			slot4 = uv3:GetCharacterAgency():GetShipById(slot3.ship_id)
-
-			for slot11, slot12 in ipairs(pg.island_formula[slot2:GetFormulaId()].commission_cost) do
-				uv4:RemoveItem(slot12[1], slot12[2] * uv5)
+			for slot10, slot11 in ipairs(pg.island_formula[slot2:GetFormulaId()].commission_cost) do
+				uv3:RemoveItem(slot11[1], slot11[2] * uv4)
 			end
 
-			slot4:UpdateEnergyBeginRecoverTime(slot3:GetFinishTime())
+			slot7 = uv5:GetCharacterAgency():GetShipById(slot3.ship_id)
+
+			slot7:UpdateEnergy(slot7:GetCurrentEnergy() - slot5.stamina_cost * uv4)
+			slot7:UpdateEnergyBeginRecoverTime(slot3:GetFinishTime())
 			uv6:sendNotification(GAME.ISLAND_FINISH_DELEGATION_DONE, {
 				slotId = uv2
 			})

@@ -106,7 +106,7 @@ slot0.GetCommissionSlotId = function(slot0, slot1)
 end
 
 slot0.GenHandCollectSlot = function(slot0, slot1)
-	if not slot0.building then
+	if not slot0.building or not slot0.isSelf then
 		return
 	end
 
