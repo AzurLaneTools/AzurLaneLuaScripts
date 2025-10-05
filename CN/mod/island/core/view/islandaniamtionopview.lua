@@ -207,6 +207,7 @@ slot0.InitList = function(slot0)
 	end
 
 	slot0.displays = slot3
+	slot0.scrollrect.enabled = true
 
 	slot0.scrollrect:SetTotalCount(#slot3, 0)
 
