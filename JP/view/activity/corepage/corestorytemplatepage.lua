@@ -7,7 +7,6 @@ slot0.OnInit = function(slot0)
 	slot0.scenario = CoreScenarioTemplatePage.New(slot0._tf)
 
 	slot0.scenario:SetCoreStoryPage(slot0)
-	slot0.scenario:Load()
 
 	slot0.loader = AutoLoader.New()
 	slot0.mapGroup = {}
@@ -16,9 +15,10 @@ end
 
 slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.goBtn, function ()
+		uv0.scenario:Load()
 		uv0.scenario:SetActivity(uv0.activity)
 		uv0.scenario:UpdateStoryTask()
-		uv0.scenario:UpdateView()
+		uv0.scenario:ActionInvoke("UpdateView")
 		uv0:ShowScenarioLayer(true)
 	end, SFX_PANEL)
 end
@@ -27,6 +27,8 @@ slot0.OnShowFlush = function(slot0)
 	uv0.super.OnShowFlush(slot0)
 
 	if slot0.coreActivityUI.contextData.activeScenario then
+		slot0.scenario.needFocusStory = true
+
 		triggerButton(slot0.goBtn)
 	end
 end
@@ -60,7 +62,7 @@ end
 
 slot0.ShowScenarioLayer = function(slot0, slot1)
 	if slot1 then
-		slot0.scenario:Show()
+		slot0.scenario:ActionInvoke("Show")
 		slot0.coreActivityUI:ActiveScenarioLayer(true)
 		SetActive(slot0.ad, false)
 		SetActive(slot0.bg, true)

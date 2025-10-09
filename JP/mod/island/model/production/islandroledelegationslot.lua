@@ -76,6 +76,24 @@ slot0.CanStartDelegation = function(slot0)
 	return slot0.islandRoleDelegationData == nil and slot0.islandRoleDelegationReward == nil
 end
 
+slot0.CanStartDelegationTip = function(slot0)
+	return slot0.islandRoleDelegationData == nil and slot0.islandRoleDelegationReward == nil and not slot0:CheckChildSlotIsInWork()
+end
+
+slot0.CheckChildSlotIsInWork = function(slot0)
+	if getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(slot0.buildId) then
+		slot5 = pg.island_production_slot[slot0.id].exclusion_slot == "" and {} or slot4.exclusion_slot
+
+		for slot9, slot10 in ipairs(slot5) do
+			if slot3:GetHandPlantSlotData(slot10) and slot11.state == 1 then
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
 slot0.Clear = function(slot0)
 end
 

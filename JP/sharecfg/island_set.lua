@@ -906,8 +906,8 @@ pg.island_set = {
 		key = "island_corncup_return_mail_content",
 		key_value_int = 0,
 		key_value_varchar = {
-			"岛屿科技额外消耗资源返还",
-			"感谢指挥官在岛屿计划中作出的贡献喵~"
+			"離島技術研究資源補填",
+			"離島技術研究仕様変更につき、消費した資源を補填させていただきます。ご迷惑をおかけし誠に申し訳ございませんでした"
 		}
 	},
 	all = {

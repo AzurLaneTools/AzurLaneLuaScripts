@@ -4645,7 +4645,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				520205
+				520204
 			}
 		},
 		tech_repeat = {

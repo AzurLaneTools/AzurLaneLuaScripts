@@ -223,7 +223,7 @@ slot0.GetTipInfos = function(slot0)
 			for slot13, slot14 in pairs(slot9:GetDelegationSlotDatas()) do
 				if slot14:GetSlotRewardData() then
 					slot1 = slot1 + 1
-				elseif slot14:CanStartDelegation() then
+				elseif slot14:CanStartDelegationTip() then
 					slot2 = slot2 + 1
 				elseif slot14:GetSlotRoleData() then
 					table.insert(slot3, slot14:GetSlotRoleData():GetFinishTime())

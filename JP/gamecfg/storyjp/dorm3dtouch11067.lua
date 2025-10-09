@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要、要是一直这样继续下去的话……真是的！Honey坏心眼哦！",
+			say = "こ、こんなことずっと続けられたら⋯本当に！ハニーったら意地悪なんだから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

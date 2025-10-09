@@ -185,7 +185,7 @@ slot3.CalcGrounded = function(slot0)
 		slot3 = slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
 
 		if slot2.collider.isTrigger then
-			return false
+			return true, 0
 		end
 
 		return true, slot3

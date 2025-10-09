@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我想要永远和Honey在一起……不行吗？哼哼~就知道你会说可以~！",
+			say = "ハニーとずっと一緒にいたい⋯ダメかな？あはは、ハニーなら断らないと思った♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "Honey要是再靠近一点的话……会让我……没、没什么啦！",
+			say = "これ以上近づかれたらあたし⋯な、なんでもないから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

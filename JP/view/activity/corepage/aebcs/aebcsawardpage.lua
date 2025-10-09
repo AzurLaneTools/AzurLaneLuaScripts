@@ -68,4 +68,18 @@ slot0.RefreshCountText = function(slot0, slot1, slot2)
 	setText(slot0:findTF("owner/number", slot2), slot1.count .. "/" .. slot1.config.count)
 end
 
+slot0.showBoxPanel = function(slot0, slot1)
+	setActive(slot0.boxTF, slot1)
+
+	if slot1 == true then
+		pg.UIMgr.GetInstance():BlurPanel(slot0.boxTF)
+	else
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.boxTF, slot0._tf)
+	end
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0:showBoxPanel(false)
+end
+
 return slot0

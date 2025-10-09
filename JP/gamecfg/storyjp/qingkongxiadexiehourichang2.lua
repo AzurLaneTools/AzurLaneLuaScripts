@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_105",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "それで、なにを退治すればよろしいのでしょう？",
+			say = "それで、なにを討伐すればよろしいのでしょう？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11400020,
-			say = "一生のお願いなのに突然ですか…？",
+			say = "はぁ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "細かいことは言いっこなしにゃ！だから…お願いできないかにゃ！決して迷惑はかけないにゃ！",
+			say = "お願いできないかにゃ！決して迷惑はかけないにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11400020,
-			say = "わかりました。指揮官さんもそう仰るのなら、私がとやかく言うこともありません。よろしくお願いします",
+			say = "…分かりました。指揮官さんもそうおっしゃるのなら、やってみましょう。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "『いよいよ母港の新作アトラクション、【オラトリオ迷宮】の初公開！』",
+			say = "『いよいよ母港の新作アトラクション、【オラリオの迷宮】の初公開！』",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "『本作は異世界に存在する本物の高難易度ダンジョンを模した世界初！超本格派アトラクションでえす！』",
+			say = "『本作は異世界に存在する本物のダンジョンを模した世界初！超本格派アトラクションでえす！』",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11400020,
-			say = "試されちゃいけない方の力だと思うんだが……",
+			say = "ダンジョンの実力が試されるのはいけないのでは……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11400020,
-			say = "なんであんなところに…？まさか幻影体（ミラージュ）…！？",
+			say = "なぜあんなところに…？まさか幻影体（ミラージュ）…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "あんなのまで再現できたなんて…本当に気合が入っていますね",
+			say = "砲龍（ヴァルガング・ドラゴン）まで再現できたなんて…本当に気合が入っていますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11400020,
-			say = "「本物」には敵いませんね。ふふふ",
+			say = "「本物」には敵いませんね。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
