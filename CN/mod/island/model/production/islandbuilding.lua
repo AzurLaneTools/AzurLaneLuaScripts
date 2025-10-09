@@ -242,7 +242,7 @@ end
 
 slot0.IsPostTip = function(slot0)
 	for slot4, slot5 in pairs(slot0.delegationSlotData) do
-		if slot5:CanStartDelegation() or slot5:GetSlotRewardData() then
+		if slot5:CanStartDelegationTip() or slot5:GetSlotRewardData() then
 			return true
 		end
 	end

@@ -82,6 +82,9 @@ slot0.getOrCreateMonster = function(slot0, slot1)
 
 		setParent(slot5, slot0._parent)
 
+		findTF(slot5, "collider").gameObject.layer = LayerMask.NameToLayer("Character")
+		findTF(slot5, "collider3D").gameObject.layer = LayerMask.NameToLayer("Character")
+		slot5.gameObject.layer = LayerMask.NameToLayer("Character")
 		slot9 = GetComponent(findTF(slot5, "anim"), typeof(DftAniEvent))
 
 		slot9:SetEndEvent(function ()

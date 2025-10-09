@@ -48088,7 +48088,6 @@ pg.equip_skin_template = {
 		id = 1507,
 		themeid = 74,
 		orbit_rotate = false,
-		orbit_hidden_action = "",
 		mirror = 0,
 		rarity = 4,
 		orbit_slg = "",
@@ -48124,6 +48123,10 @@ pg.equip_skin_template = {
 				0.44,
 				121.4
 			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	},
 	[2001] = {

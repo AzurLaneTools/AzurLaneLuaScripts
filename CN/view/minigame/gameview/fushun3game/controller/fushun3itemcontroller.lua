@@ -189,6 +189,7 @@ slot0.getOrCreateItem = function(slot0, slot1)
 		if Clone(Fushun3GameConst.item_data[slot5]).name == slot1 then
 			slot7 = tf(instantiate(findTF(slot0._itemTpls, slot1)))
 			slot7.localScale = Fushun3GameConst.game_scale_v3
+			findTF(slot7, "collider").gameObject.layer = LayerMask.NameToLayer("Collider")
 
 			setParent(slot7, slot0._itemPos)
 

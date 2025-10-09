@@ -249,9 +249,9 @@ slot0.UpdateStory = function(slot0)
 
 				nextPos = tf(slot7).anchoredPosition + Vector2.New(uv6 + uv7, 0)
 				slot8 = uv1.storyNodeStatus[slot6].status
-				slot10 = tf(slot7)
+				slot9 = tf(slot7)
 
-				eachChild(slot10:Find("mask/Lines"), function (slot0)
+				eachChild(slot9:Find("mask/Lines"), function (slot0)
 					setImageColor(slot0, Color.NewHex(uv0[uv1]))
 				end)
 				table.insert(uv0, {
@@ -294,9 +294,9 @@ slot0.UpdateStory = function(slot0)
 					uv1 = uv1 + Vector2.New(uv2, 0)
 					slot2 = uv3[1]
 					slot1 = uv0.storyNodeStatus[slot2:GetConfigID()].status
-					slot3 = tf(slot0)
+					slot2 = tf(slot0)
 
-					eachChild(slot3:Find("mask/Lines"), function (slot0)
+					eachChild(slot2:Find("mask/Lines"), function (slot0)
 						setImageColor(slot0, Color.NewHex(uv0[uv1]))
 					end)
 				end)()
@@ -366,9 +366,9 @@ slot0.UpdateStory = function(slot0)
 
 						slot0.name = string.format("Branch%s_%s", uv9, uv10)
 						slot1 = uv1.storyNodeStatus[uv10].status
-						slot3 = tf(slot0)
+						slot2 = tf(slot0)
 
-						eachChild(slot3:Find("mask/Lines"), function (slot0)
+						eachChild(slot2:Find("mask/Lines"), function (slot0)
 							setImageColor(slot0, Color.NewHex(uv0[uv1]))
 						end)
 					end)()
@@ -411,13 +411,13 @@ slot0.UpdateStory = function(slot0)
 							setImageColor(slot0, Color.NewHex(uv0[uv1]))
 						end)
 
-						slot2 = uv2:DequeItem(uv2.storyNodeTpl)
-						slot2.name = uv0:GetConfigID()
+						slot3 = uv2:DequeItem(uv2.storyNodeTpl)
+						slot3.name = uv0:GetConfigID()
 
-						setAnchoredPosition(slot2, uv4)
+						setAnchoredPosition(slot3, uv4)
 
 						uv2.storyNodeTFsById[uv0:GetConfigID()] = {
-							nodeTF = tf(slot2)
+							nodeTF = tf(slot3)
 						}
 						uv4 = uv4 + Vector2.New(uv8 + uv9, 0)
 						uv3 = uv0
@@ -481,9 +481,9 @@ slot0.UpdateStory = function(slot0)
 						slot10.name = string.format("Union%s_%s", slot8:GetConfigID(), slot14:GetConfigID())
 						slot12 = uv14
 						slot11 = uv8.storyNodeStatus[slot12:GetConfigID()].status
-						slot13 = tf(slot10)
+						slot12 = tf(slot10)
 
-						eachChild(slot13:Find("mask/Lines"), function (slot0)
+						eachChild(slot12:Find("mask/Lines"), function (slot0)
 							setImageColor(slot0, Color.NewHex(uv0[uv1]))
 						end)
 					end
@@ -502,9 +502,9 @@ slot0.UpdateStory = function(slot0)
 						uv0 = uv0 + Vector2.New(uv3 + uv4, 0)
 						slot2 = uv5
 						slot1 = uv2.storyNodeStatus[slot2:GetConfigID()].status
-						slot3 = tf(slot0)
+						slot2 = tf(slot0)
 
-						eachChild(slot3:Find("mask/Lines"), function (slot0)
+						eachChild(slot2:Find("mask/Lines"), function (slot0)
 							setImageColor(slot0, Color.NewHex(uv0[uv1]))
 						end)
 					end)()

@@ -332,6 +332,16 @@ slot0.RefreshCanStart = function(slot0)
 							build_id = uv0.placeId,
 							slot_list = uv1
 						})
+						existCall(uv0.unLoadCharacterFunc)
+
+						if uv0.addDelegateFormula then
+							uv0:emit(IslandMediator.ADD_DELEGATION, uv0.placeId, uv0.slotId, uv0.curSelectCount - uv0.addDelegateFormulaTimes)
+						else
+							uv0:emit(IslandMediator.START_DELEGATION, uv0.placeId, uv0.slotId, uv0.selectedShipId, uv0.selectFormulaId, uv0.curSelectCount)
+						end
+
+						existCall(uv0.confirmFunc)
+						uv0:Hide()
 					end,
 					onNo = function ()
 					end

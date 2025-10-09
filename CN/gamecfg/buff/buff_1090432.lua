@@ -33,7 +33,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 4041,
+				skill_id = 1090432,
 				target = "TargetSelf"
 			}
 		}
