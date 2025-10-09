@@ -12,6 +12,7 @@ slot0.init = function(slot0)
 	slot0.musicPlayerView = MainMusicPlayerView.New(slot0._tf, slot0.event)
 
 	slot0.musicPlayerView:Load(slot0._tf:Find("MusicPlayer").gameObject)
+	slot0.musicPlayerView:ActionInvoke("Hide")
 	slot0:ChangeChatTip()
 	slot0:ChangeJuusTip()
 	slot0:BlurPanel(slot0._tf)

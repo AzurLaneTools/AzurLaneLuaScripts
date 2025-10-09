@@ -4,10 +4,6 @@ slot0.getUIName = function(slot0)
 	return "InstagramUI"
 end
 
-slot0.getGroupName = function(slot0)
-	return "InstagramMainUI"
-end
-
 slot0.preload = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.REQ_OLD_INSTAGRAM_DATA, {
 		callback = function ()

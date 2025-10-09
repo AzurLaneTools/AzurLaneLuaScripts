@@ -39,7 +39,11 @@ return {
 		return slot0
 	end,
 	GetItemFavoriteState = function (slot0, slot1)
-		if table.contains(slot0:getConfig("gift_prefer") ~= "" and slot0:getConfig("gift_dislike") or {}, slot1.id) then
+		if type(slot0.getConfig(slot0, "gift_dislike")) ~= "table" then
+			slot2 = {} or slot2
+		end
+
+		if table.contains(slot2, slot1.id) then
 			return ShipGiftConst.GIFT_FAVORITE_STATE.HATE
 		end
 

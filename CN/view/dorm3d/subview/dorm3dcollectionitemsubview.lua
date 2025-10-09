@@ -1,4 +1,9 @@
-slot0 = class("Dorm3dCollectionItemSubView", import("view.base.BaseSubView"))
+slot0 = class("Dorm3dCollectionItemSubView", import("view.dorm3d.Game.Dorm3dGameBaseSubView"))
+
+slot0.Init = function(slot0)
+	slot0:OnLoaded()
+	slot0:OnInit()
+end
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf:Find("list/container")
@@ -101,9 +106,6 @@ slot0.UpdateDisplay = function(slot0, slot1, slot2)
 	if slot3.award > 0 then
 		setText(slot5:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot3.award].num)
 	end
-end
-
-slot0.OnDestroy = function(slot0)
 end
 
 return slot0

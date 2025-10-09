@@ -15,7 +15,7 @@ slot0.LoadList = function(slot0)
 	slot0._parentTF = slot0._tf.parent
 	slot0.adpter = slot0:findTF("adpter")
 	slot0.themeContainer = slot0:findTF("list/frame")
-	slot0.scrollRect = slot0:findTF("list/frame/mask"):GetComponent("LScrollRect")
+	slot0.scrollRect = slot0:findTF("list/frame/mask/content"):GetComponent("LScrollRect")
 	slot0.scrollRectWidth = slot0:findTF("list/frame/mask").rect.width
 	slot0.searchInput = slot0:findTF("adpter/search")
 	slot0.searchClear = slot0.searchInput:Find("clear")
@@ -152,6 +152,8 @@ slot0.InitThemeList = function(slot0)
 	slot0.disPlays = slot0:GetData()
 
 	onNextTick(function ()
+		uv0.scrollRect.enabled = true
+
 		uv0.scrollRect:SetTotalCount(#uv0.disPlays)
 	end)
 end

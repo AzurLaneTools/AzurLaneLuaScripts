@@ -13,13 +13,19 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_CHAT, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = InstagramChatLayer,
-			mediator = InstagramChatMediator
+			mediator = InstagramChatMediator,
+			data = {
+				groupName = uv0.viewComponent:getGroupName()
+			}
 		}))
 	end)
 	slot0:bind(uv0.OPEN_JUUS, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = InstagramLayer,
-			mediator = InstagramMediator
+			mediator = InstagramMediator,
+			data = {
+				groupName = uv0.viewComponent:getGroupName()
+			}
 		}))
 	end)
 	slot0:bind(uv0.CLOSE_CHAT, function (slot0)

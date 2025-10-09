@@ -7,10 +7,6 @@ slot0.getUIName = function(slot0)
 	return "InstagramChatUI"
 end
 
-slot0.getGroupName = function(slot0)
-	return "InstagramMainUI"
-end
-
 slot0.ReadType = {
 	"all",
 	"hasReaded",
