@@ -93,6 +93,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	setActive(slot0.limitCountLabelTF, true)
+	setActive(slot0.groupLocked, slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
@@ -125,6 +126,8 @@ slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
 	else
 		setText(slot0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot7)
 	end
+
+	setActive(slot0.groupLocked, slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.setAsLastSibling = function(slot0)
@@ -173,6 +176,8 @@ slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 	if slot1:getConfig("num_limit") >= 99 then
 		setText(slot12, i18n("shop_label_unlimt_cnt"))
 	end
+
+	setActive(findTF(slot4, "group_locked"), slot5:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.OnDispose = function(slot0)

@@ -54,7 +54,8 @@ pg.island_achievement_group = {
 			304,
 			305,
 			306,
-			307
+			307,
+			308
 		}
 	},
 	all = {

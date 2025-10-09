@@ -12,6 +12,10 @@ slot0.OnInit = function(slot0, slot1)
 	}
 end
 
+slot0.OnInitCombine = function(slot0, slot1)
+	slot0.combineData = slot1
+end
+
 slot0.GetMask = function(slot0)
 	if slot0.mask == "" then
 		return nil
@@ -21,6 +25,10 @@ slot0.GetMask = function(slot0)
 end
 
 slot0.OnStart = function(slot0)
+	if slot0:GetCombineFurnitureAnimator() then
+		return slot1[2] or slot0.defaultAction
+	end
+
 	slot0.user:UpdateInteraction({
 		action = slot0.actionName
 	})

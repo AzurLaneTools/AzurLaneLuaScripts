@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_339 = {
+	[16690313] = {
+		cannon = 40,
+		name = "Extradimensional Horde",
+		luck_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		type = 2,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		battle_unit_type = 95,
+		fog_fx = "",
+		dodge_growth = 156,
+		icon = "unknownV_crystal_qingxun",
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90535,
+		durability = 3600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 16690313,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 60,
+		durability_growth = 0,
+		antiaircraft = 125,
+		hit_growth = 210,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201201,
+				LV = 2
+			}
+		}
+	},
 	[16690321] = {
 		cannon = 80,
 		battle_unit_type = 95,
@@ -1376,58 +1416,6 @@ pg.enemy_data_statistics_339 = {
 			{
 				ID = 50500,
 				LV = 3
-			}
-		}
-	},
-	[16692205] = {
-		cannon = 98,
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		hit_growth = 210,
-		antisub = 0,
-		fog_fx = "",
-		dodge_growth = 170,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 91028,
-		durability = 13040,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		speed = 20,
-		luck = 15,
-		id = 16692205,
-		scale = 200,
-		cannon_growth = 1700,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 12,
-		reload_growth = 0,
-		hit = 16,
-		torpedo = 75,
-		durability_growth = 270400,
-		antiaircraft = 155,
-		antiaircraft_growth = 3200,
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01"
-		},
-		equipment_list = {
-			1009032,
-			1009037,
-			1009042,
-			1009102
-		},
-		buff_list = {
-			{
-				ID = 201185,
-				LV = 1
-			},
-			{
-				ID = 201189,
-				LV = 1
 			}
 		}
 	}

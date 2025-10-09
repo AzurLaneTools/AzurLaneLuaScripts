@@ -115,8 +115,18 @@ slot0.getPlatform = function(slot0)
 	slot6 = slot1.item
 
 	if not slot0:getPlatformFromPool(slot1.name) then
-		slot8 = tf(instantiate(findTF(slot0._tplTf, slot2)))
-		slot8.localScale = Fushun3GameConst.game_scale_v3
+		slot12 = slot2
+		tf(instantiate(findTF(slot0._tplTf, slot12))).localScale = Fushun3GameConst.game_scale_v3
+
+		for slot12 = 0, 5 do
+			if findTF(slot8, "collider" .. (slot12 == 0 and "" or slot12)) then
+				slot14.gameObject.layer = LayerMask.NameToLayer("Collider")
+			end
+		end
+
+		if findTF(slot8, "high_roof") then
+			slot9.gameObject.layer = LayerMask.NameToLayer("Collider")
+		end
 
 		setParent(slot8, slot0._content)
 

@@ -58,6 +58,14 @@ slot0.RemoveListeners = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_commission.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 		existCall(uv0.cancelFunc)
@@ -324,6 +332,16 @@ slot0.RefreshCanStart = function(slot0)
 							build_id = uv0.placeId,
 							slot_list = uv1
 						})
+						existCall(uv0.unLoadCharacterFunc)
+
+						if uv0.addDelegateFormula then
+							uv0:emit(IslandMediator.ADD_DELEGATION, uv0.placeId, uv0.slotId, uv0.curSelectCount - uv0.addDelegateFormulaTimes)
+						else
+							uv0:emit(IslandMediator.START_DELEGATION, uv0.placeId, uv0.slotId, uv0.selectedShipId, uv0.selectFormulaId, uv0.curSelectCount)
+						end
+
+						existCall(uv0.confirmFunc)
+						uv0:Hide()
 					end,
 					onNo = function ()
 					end

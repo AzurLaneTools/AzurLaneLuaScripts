@@ -1611,6 +1611,19 @@ pg.equip_skin_theme_template = {
 			4239
 		}
 	},
+	[74] = {
+		id = 74,
+		name = "Danmachi",
+		ids = {
+			1501,
+			1502,
+			1503,
+			1504,
+			1505,
+			1506,
+			1507
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1900,6 +1913,7 @@ pg.equip_skin_theme_template = {
 		71,
 		72,
 		73,
+		74,
 		101,
 		102,
 		103,

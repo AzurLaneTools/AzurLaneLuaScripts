@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_236 = {
+	[15900302] = {
+		cannon = 45,
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 68,
+		armor = 0,
+		antisub = 0,
+		battle_unit_type = 94,
+		fog_fx = "",
+		dodge_growth = 156,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90469,
+		durability = 5200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 0,
+		id = 15900302,
+		scale = 144,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 116,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			893101,
+			893102,
+			893103,
+			893108,
+			893109,
+			893110
+		}
+	},
 	[15900303] = {
 		cannon = 80,
 		air = 0,
@@ -1231,49 +1276,6 @@ pg.enemy_data_statistics_236 = {
 			1000806,
 			1000816,
 			1000821
-		}
-	},
-	[15901131] = {
-		cannon = 6,
-		name = "Data Phantom DD",
-		antiaircraft_growth = 1638,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		icon_type = 1,
-		id = 15901131,
-		type = 1,
-		hit_growth = 210,
-		antiaircraft = 20,
-		fog_fx = "",
-		dodge_growth = 222,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90639,
-		durability = 640,
-		armor_growth = 0,
-		torpedo_growth = 4491,
-		speed = 32,
-		armor = 0,
-		antisub = 0,
-		cannon_growth = 468,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 15,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 54,
-		durability_growth = 20080,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		armor_type = 1,
-		appear_fx = {
-			"heisewuqi_stg"
-		},
-		equipment_list = {
-			871901,
-			871902,
-			1100016
 		}
 	}
 }

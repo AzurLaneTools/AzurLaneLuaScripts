@@ -186,7 +186,7 @@ pg.activity_template = {
 		}
 	},
 	[40] = {
-		mark = 20250102,
+		mark = 20251009,
 		page_info = "",
 		time = "stop",
 		type = 0,
@@ -37754,6 +37754,7 @@ pg.activity_template = {
 	},
 	[50111] = {
 		mark = 20250912,
+		time = "stop",
 		type = 115,
 		login_pop = 0,
 		config_id = 1,
@@ -37762,33 +37763,6 @@ pg.activity_template = {
 		id = 50111,
 		page_core = "TianYuTianYuanCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "TianYuTianYuanURExchangePage",
 			ui_name = "TianYuTianYuanUrExchangePage"
@@ -38141,6 +38115,7 @@ pg.activity_template = {
 	[50119] = {
 		mark = 20250912,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -38156,33 +38131,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50120] = {
@@ -38357,6 +38305,7 @@ pg.activity_template = {
 	[50128] = {
 		mark = 20250912,
 		page_info = "",
+		time = "stop",
 		type = 10,
 		login_pop = 0,
 		config_id = 50127,
@@ -38365,38 +38314,12 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50128,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50129] = {
 		mark = 20250912,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -38436,33 +38359,6 @@ pg.activity_template = {
 			3189,
 			3190
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			"commonbg/bg_pt_aersasi",
 			{
@@ -38478,6 +38374,7 @@ pg.activity_template = {
 	},
 	[50130] = {
 		mark = 20250912,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50130,
@@ -38486,33 +38383,6 @@ pg.activity_template = {
 		id = 50130,
 		page_core = "TianYuTianYuanCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "TianYuTianYuanPtPage",
 			ui_name = "TianYuTianYuanPtPage"
@@ -38530,6 +38400,7 @@ pg.activity_template = {
 	[50131] = {
 		mark = 20250912,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 543,
@@ -38538,34 +38409,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 50131,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50132] = {
 		mark = 20250912,
@@ -38798,6 +38642,7 @@ pg.activity_template = {
 	[50136] = {
 		mark = 20250912,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -38817,33 +38662,6 @@ pg.activity_template = {
 			21842,
 			21843,
 			21844
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50137] = {
@@ -39086,6 +38904,392 @@ pg.activity_template = {
 					2025,
 					9,
 					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50151] = {
+		mark = 20251009,
+		type = 74,
+		login_pop = 0,
+		config_id = 50151,
+		is_show = 3,
+		title_res_tag = "HeLanSP_pt",
+		id = 50151,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSPtPage",
+			ui_name = "AEBCSPtPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{},
+				{
+					"QINGKONGXIADEXIEHOURICHANG2"
+				},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[50152] = {
+		mark = 20251009,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "",
+		id = 50152,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSMainPage",
+			ui_name = "AEBCSMainPage"
+		}
+	},
+	[50153] = {
+		mark = 20251009,
+		type = 74,
+		login_pop = 0,
+		config_id = 50153,
+		is_show = 2,
+		title_res_tag = "xiaoankeleiqi_pt",
+		id = 50153,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSHestiaPage",
+			ui_name = "AEBCSHestiaPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{},
+				{
+					"QINGKONGXIADEXIEHOURICHANG1"
+				},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[50154] = {
+		mark = 20251009,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50154,
+		page_core = "",
+		config_data = {
+			24501
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				24501
+			}
+		}
+	},
+	[50155] = {
+		mark = 20251009,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 5,
+		title_res_tag = "tolovecollect",
+		id = 50155,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSAwardPage",
+			ui_name = "AEBCSAwardPage"
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"TOLOVE_COLLAB_BACKHILL"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30362,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"Merit Shop"
+					},
+					{
+						2,
+						{
+							"scene level",
+							{}
+						},
+						"Event Stages"
+					}
+				}
+			}
+		}
+	},
+	[50156] = {
+		mark = 20251009,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "",
+		id = 50156,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSStoryPage",
+			ui_name = "AEBCSStoryPage"
+		},
+		config_client = {
+			default_background = "star_level_bg_9999",
+			task_id = 21848,
+			storys = {
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285
+			}
+		}
+	},
+	[50159] = {
+		mark = 20251009,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50159,
+		page_core = "",
+		config_data = {
+			21848
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					9
 				},
 				{
 					0,
@@ -48352,8 +48556,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					7,
-					18
+					10,
+					10
 				},
 				{
 					0,
@@ -48364,8 +48568,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					15
 				},
 				{
 					23,
@@ -66687,6 +66891,8 @@ pg.activity_template = {
 			50058,
 			50085,
 			50130,
+			50151,
+			50153,
 			1086,
 			6006,
 			6010,
@@ -66900,6 +67106,9 @@ pg.activity_template = {
 			50136,
 			50137,
 			50139,
+			50152,
+			50154,
+			50159,
 			1079,
 			1080,
 			1081,
@@ -67776,7 +67985,8 @@ pg.activity_template = {
 			5690,
 			5988,
 			50064,
-			50066
+			50066,
+			50155
 		},
 		[26] = {
 			4946,
@@ -67959,6 +68169,7 @@ pg.activity_template = {
 			5246,
 			5350,
 			50055,
+			50156,
 			1068,
 			30411
 		},
@@ -69100,6 +69311,13 @@ pg.activity_template = {
 		50140,
 		50141,
 		50142,
+		50151,
+		50152,
+		50153,
+		50154,
+		50155,
+		50156,
+		50159,
 		7001,
 		7011,
 		7012,

@@ -3008,6 +3008,14 @@ pg.skill_data_display = setmetatable({
 		112290,
 		112291,
 		112292,
+		114101,
+		114102,
+		114104,
+		114111,
+		114118,
+		114121,
+		114122,
+		114128,
 		190001,
 		190002,
 		190003,
@@ -3698,6 +3706,10 @@ pg.skill_data_display = setmetatable({
 		1011242,
 		1011243,
 		1011245,
+		1012430,
+		1012431,
+		1012432,
+		1012435,
 		1090020,
 		1090042,
 		1090043,
@@ -3772,7 +3784,8 @@ pg.skill_data_display = setmetatable({
 		1090410,
 		1090420,
 		1090421,
-		1090422
+		1090422,
+		1090432
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15801,6 +15814,38 @@ pg.base.skill_data_display = {
 		id = 112292,
 		name = "Isolation"
 	},
+	[114101] = {
+		id = 114101,
+		name = "Star Justitory"
+	},
+	[114102] = {
+		id = 114102,
+		name = "Agaris Alvesynth"
+	},
+	[114104] = {
+		id = 114104,
+		name = "Alvelia"
+	},
+	[114111] = {
+		id = 114111,
+		name = "Luvia"
+	},
+	[114118] = {
+		id = 114118,
+		name = "Luminous Wind"
+	},
+	[114121] = {
+		id = 114121,
+		name = "Luminous Wind+"
+	},
+	[114122] = {
+		id = 114122,
+		name = "Luvia"
+	},
+	[114128] = {
+		id = 114128,
+		name = "Luminous Wind+"
+	},
 	[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -18561,6 +18606,22 @@ pg.base.skill_data_display = {
 		id = 1011245,
 		name = "The Unsinkable Lucky Ship+"
 	},
+	[1012430] = {
+		id = 1012430,
+		name = "Lucky A +"
+	},
+	[1012431] = {
+		id = 1012431,
+		name = "Lucky A +"
+	},
+	[1012432] = {
+		id = 1012432,
+		name = "Lucky A +"
+	},
+	[1012435] = {
+		id = 1012435,
+		name = "Lucky A +"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -18860,5 +18921,9 @@ pg.base.skill_data_display = {
 	[1090422] = {
 		id = 1090422,
 		name = "Full Firepower - Grozny"
+	},
+	[1090432] = {
+		id = 1090432,
+		name = "Draw Fire - Myoukou"
 	}
 }

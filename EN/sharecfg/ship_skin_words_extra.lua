@@ -359,7 +359,9 @@ pg.ship_skin_words_extra = setmetatable({
 		303200,
 		302270,
 		301920,
-		999012
+		999012,
+		11400010,
+		11400020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25390,6 +25392,152 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Abnormal increase in body temperature detected... I-is it because of my thick clothes?"
+			}
+		}
+	},
+	[11400010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11400010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Oh, Commander! You here to see me?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm the goddess of victory!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I'll try my darnedest to help you!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, you're setting yourself up for punishment by ignoring me too often, you know?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Huh? Feeling a little weary, Commander? Then as a special favor, I'll give you a lap pillow! And in exchange... I'll be watching your face closely while you sleep!|Heheheh... Look who's here. Let's have ourselves a tea party with desserts, Commander!|Ugghh... Sorry I made you worry. I'm not worthy of being a goddess... I dunno if this makes up for it, but how about I make you some food?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Still got missions to do, do you? I'll help you out – as a treat."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Finished your mission, huh? That's my Commander. A bit of praise, just for you!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Stop, stop! That's a no-go, Commander! I'm serious!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Do I make myself clear, Commander? Don't push your luck by leaving me all by myself. I don't like being alone in an unfamiliar place."
+			}
+		}
+	},
+	[11400020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11400020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Commander! I've waited so... I-I mean, um... Good morning."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We won... all thanks to you."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Here I come!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"How many events have led this place to be the battlefield it is today? My past, too, is... No, never mind. Forget I said a word."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Is there something on my face? Huh? No, I'm not unhappy with you... I appreciate your attention – er, I mean, umm...|My lack of experience in combat at sea left me hesitant, but I think I'm beginning to understand. I even look forward to taking on this new challenge... Would you train with me for a while?|Waitressing? Well, yes, I'm very experienced... Huh? You want to see my uniform? A-absolutely not! It's too embarrassing..."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You still haven't finished your work, have you? I guess I have no choice but to help."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You've already finished your duties? Impressive."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ah, hngh! (It's impossible to keep a straight face under these conditions...)"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"What I've seen and heard here, the things I've felt in our time together, and my own thoughts... There are too many things to discuss. Could you spare some time for me, please?"
 			}
 		}
 	}

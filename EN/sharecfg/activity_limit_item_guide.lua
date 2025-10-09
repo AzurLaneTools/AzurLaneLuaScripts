@@ -2298,6 +2298,273 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[151] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 151,
+		drop_id = 11400011,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50153,
+				"Eternal Sacred Flame Rewards"
+			}
+		}
+	},
+	[152] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 152,
+		drop_id = 11400021,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[153] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 153,
+		drop_id = 1501,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[154] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 154,
+		drop_id = 1502,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50153,
+				"Eternal Sacred Flame Rewards"
+			}
+		}
+	},
+	[155] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 155,
+		drop_id = 1503,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50153,
+				"Eternal Sacred Flame Rewards"
+			}
+		}
+	},
+	[156] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 156,
+		drop_id = 1504,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50153,
+				"Eternal Sacred Flame Rewards"
+			}
+		}
+	},
+	[157] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 157,
+		drop_id = 1505,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[158] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 158,
+		drop_id = 1506,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[159] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 159,
+		drop_id = 1507,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[160] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 160,
+		drop_id = 330102,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in Furniture Shop"
+			}
+		}
+	},
+	[161] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 161,
+		drop_id = 14580,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50153,
+				"Eternal Sacred Flame Rewards"
+			}
+		}
+	},
+	[162] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 162,
+		drop_id = 14600,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50151,
+				"Unstoppable Gale Rewards"
+			}
+		}
+	},
+	[163] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 163,
+		drop_id = 330001,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in Furniture Shop"
+			}
+		}
+	},
+	[164] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 164,
+		drop_id = 330002,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in Furniture Shop"
+			}
+		}
+	},
+	[165] = {
+		is_new = 1,
+		activity = 50155,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 165,
+		drop_id = 330101,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in Furniture Shop"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -2432,6 +2699,23 @@ pg.activity_limit_item_guide = {
 			141,
 			142,
 			143
+		},
+		[50155] = {
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165
 		}
 	},
 	all = {
@@ -2558,6 +2842,21 @@ pg.activity_limit_item_guide = {
 		140,
 		141,
 		142,
-		143
+		143,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165
 	}
 }
