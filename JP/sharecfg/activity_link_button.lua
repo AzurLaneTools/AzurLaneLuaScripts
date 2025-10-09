@@ -305,7 +305,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "TianYuTianYuanCoreActivityUI",
+		param = "AEBCSCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -315,7 +315,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50130
+			50152
 		}
 	},
 	[110] = {

@@ -4848,6 +4848,22 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[1140001] = {
+		ship_group = 1140001,
+		name = "Hestia",
+		background = "",
+		sculpture = "hesitiya",
+		nationality = 0,
+		type = 1
+	},
+	[1140002] = {
+		ship_group = 1140002,
+		name = "Ryu Lion",
+		background = "",
+		sculpture = "liuliang",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5454,6 +5470,8 @@ pg.activity_ins_ship_group_template = {
 		30192,
 		20103,
 		10201,
-		69903
+		69903,
+		1140001,
+		1140002
 	}
 }

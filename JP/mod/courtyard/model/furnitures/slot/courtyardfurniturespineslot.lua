@@ -45,6 +45,10 @@ slot0.OnInit = function(slot0, slot1)
 	end
 end
 
+slot0.OnInitCombine = function(slot0, slot1)
+	slot0.combineData = slot1
+end
+
 slot0.InitUpdateStrategy = function(slot0, slot1)
 	slot2 = nil
 
@@ -133,19 +137,27 @@ slot5 = function(slot0)
 end
 
 slot6 = function(slot0)
-	slot1 = {}
+	slot1 = slot0:GetCombineFurnitureAnimator()
 	slot2 = {}
 	slot3 = {}
+	slot4 = {}
 
-	for slot7, slot8 in ipairs(slot0.actions) do
-		slot11 = type(slot8[1]) == "table" and slot9[math.random(1, #slot9)] or slot9
+	for slot8, slot9 in ipairs(slot0.actions) do
+		slot10 = slot9[1]
+		slot11 = slot9[3]
 
-		table.insert(slot1, slot0:GetOwnerSubstituteAction(slot11))
-		table.insert(slot2, slot0:GetUserSubstituteAction(slot8[3] or slot11))
-		table.insert(slot3, tobool(slot8[2]))
+		if slot1 and slot1[3] then
+			slot10 = slot1[3][slot8] or slot10
+		end
+
+		slot12 = type(slot10) == "table" and slot10[math.random(1, #slot10)] or slot10
+
+		table.insert(slot2, slot0:GetOwnerSubstituteAction(slot12))
+		table.insert(slot3, slot0:GetUserSubstituteAction(slot11 or slot12))
+		table.insert(slot4, tobool(slot9[2]))
 	end
 
-	return slot1, slot2, slot3
+	return slot2, slot3, slot4
 end
 
 slot0.GetActions = function(slot0)
@@ -211,6 +223,10 @@ slot0.Reset = function(slot0)
 end
 
 slot0.GetSpineDefaultAction = function(slot0)
+	if slot0:GetCombineFurnitureAnimator() then
+		return slot1[2] or slot0.defaultAction
+	end
+
 	return slot0.defaultAction
 end
 

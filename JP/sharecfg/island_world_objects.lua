@@ -1,1428 +1,5 @@
 pg = pg or {}
 pg.island_world_objects = {
-	[10020001] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "BornStation",
-		gen_type = 0,
-		id = 10020001,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-3.23,
-				0,
-				-7.243
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020002] = {
-		behaviourTree = "",
-		unitId = 100204,
-		type = 0,
-		name = "Drone",
-		gen_type = 2,
-		id = 10020002,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002260,
-				0
-			},
-			{
-				2,
-				10002260,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-14.21,
-				-1.5,
-				36.68
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020003] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "born_task",
-		gen_type = 1,
-		id = 10020003,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-0.87,
-				-1.596,
-				55.52
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020004] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1003",
-		unitId = 100300,
-		type = 1,
-		name = "npc_chuanbodingdan",
-		gen_type = 2,
-		id = 10020004,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				10002040,
-				0
-			},
-			{
-				3,
-				3120010,
-				1
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10002360,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				44.18002,
-				-1.702,
-				11.62044
-			},
-			rotation = {
-				0,
-				180.3325,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020005] = {
-		behaviourTree = "Island/NodeCanvas/Fishery_station",
-		unitId = 1013,
-		type = 0,
-		name = "Fishery_station",
-		gen_type = 0,
-		id = 10020005,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = true,
-			position = {
-				-6.992,
-				0,
-				-7.357
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020006] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_1",
-		gen_type = 2,
-		id = 10020006,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10001080,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				4.174,
-				-1.705,
-				5.585
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020007] = {
-		behaviourTree = "Island/NodeCanvas/CoffeeShop_Entrance",
-		unitId = 60043,
-		type = 0,
-		name = "CoffeeShop_Entrance",
-		gen_type = 0,
-		id = 10020007,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				9.771,
-				1.6,
-				-8.553
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020008] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20038,
-		type = 0,
-		name = "feixingqi10",
-		gen_type = 1,
-		id = 10020008,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-3.63,
-				-1.7,
-				46.79
-			},
-			rotation = {
-				0,
-				286.3958,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020009] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1002",
-		unitId = 100200,
-		type = 1,
-		name = "npc_dingdan",
-		gen_type = 0,
-		id = 10020009,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0.91,
-				-1.727,
-				7.6
-			},
-			rotation = {
-				0,
-				345.772,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020010] = {
-		behaviourTree = "Island/NodeCanvas/jhs_Entrance",
-		unitId = 100202,
-		type = 0,
-		name = "jhs_Entrance",
-		gen_type = 2,
-		id = 10020010,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				10002260,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-4.778,
-				-1.676,
-				36.11
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020011] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "Player2",
-		gen_type = 0,
-		id = 10020011,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				7.124,
-				0.03,
-				-8.698
-			},
-			rotation = {
-				0,
-				264.5443,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020012] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_fishery_salatuojia_task",
-		unitId = 1070300,
-		type = 1,
-		name = "npc_salatuojia_task",
-		gen_type = 2,
-		id = 10020012,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10001160,
-				0
-			},
-			{
-				1,
-				10001160,
-				0
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10001160,
-				1
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				-2.318,
-				-1.596,
-				64.041
-			},
-			rotation = {
-				0,
-				176.9445,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020013] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_3120100_fishery_task",
-		unitId = 3120100,
-		type = 1,
-		name = "npc_mingshi_task",
-		gen_type = 2,
-		id = 10020013,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10001160,
-				0
-			},
-			{
-				2,
-				10001160,
-				0
-			},
-			{
-				1,
-				10001160,
-				0
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10002010,
-				1
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				-4.211573,
-				-1.623,
-				63.93505
-			},
-			rotation = {
-				0,
-				147.3303,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020014] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20041,
-		type = 0,
-		name = "feixingqi11",
-		gen_type = 1,
-		id = 10020014,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-38.81077,
-				-2.133312,
-				22.2
-			},
-			rotation = {
-				0,
-				0,
-				3.464817
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020015] = {
-		behaviourTree = "Island/NodeCanvas/WildCollectItem",
-		unitId = 20041,
-		type = 0,
-		name = "feixingqi12",
-		gen_type = 1,
-		id = 10020015,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				41.14796,
-				0.06589621,
-				2.916163
-			},
-			rotation = {
-				0.560115,
-				10.62835,
-				7.252096
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020016] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_3120100_fishery_task",
-		unitId = 3120100,
-		type = 1,
-		name = "npc_mingshi_task2",
-		gen_type = 2,
-		id = 10020016,
-		mapId = 1002,
-		show_param = {
-			{
-				1,
-				10002260,
-				0
-			},
-			{
-				2,
-				10002260,
-				0
-			},
-			{
-				0,
-				10002260,
-				0
-			}
-		},
-		hide_param = {
-			{
-				2,
-				10002270,
-				1
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				-3.759,
-				-1.623,
-				40.548
-			},
-			rotation = {
-				0,
-				147.3303,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020017] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "born_task2",
-		gen_type = 1,
-		id = 10020017,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-8.086,
-				0.03,
-				-0.606
-			},
-			rotation = {
-				0,
-				108.2364,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020018] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20002001",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20002001",
-		gen_type = 2,
-		id = 10020018,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20002001,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				4,
-				-1.959,
-				104.587
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020019] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20003003",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20003003",
-		gen_type = 2,
-		id = 10020019,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20003003,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				6.61,
-				-1.7,
-				7.215
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020020] = {
-		behaviourTree = "",
-		unitId = 100200,
-		type = 1,
-		name = "Sidetask_20002001",
-		gen_type = 2,
-		id = 10020020,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20002001,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130012,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				2.456,
-				-1.707,
-				104.262
-			},
-			rotation = {
-				0,
-				152.3398,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020021] = {
-		behaviourTree = "Island/NodeCanvas/Player",
-		unitId = 0,
-		type = 2,
-		name = "BornDrone",
-		gen_type = 1,
-		id = 10020021,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-0.16,
-				-1.689,
-				37.66
-			},
-			rotation = {
-				0,
-				176.9638,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020022] = {
-		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
-		unitId = 300903,
-		type = 1,
-		name = "SceneAnimalCat",
-		gen_type = 0,
-		id = 10020022,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				6.323,
-				0,
-				-4.28
-			},
-			rotation = {
-				0,
-				270,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020023] = {
-		behaviourTree = "",
-		unitId = 100201,
-		type = 0,
-		name = "Collider",
-		gen_type = 0,
-		id = 10020023,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				0,
-				0,
-				0
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020024] = {
-		behaviourTree = "",
-		unitId = 100300,
-		type = 1,
-		name = "StoryNpc_sidifenni2",
-		gen_type = 2,
-		id = 10020024,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				10002360,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3120010,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				2.048,
-				-1.702,
-				9.209
-			},
-			rotation = {
-				0,
-				242.0797,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020025] = {
-		behaviourTree = "Island/NodeCanvas/PlaceNpc_1016",
-		unitId = 101600,
-		type = 1,
-		name = "npc_saiji",
-		gen_type = 4,
-		id = 10020025,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-9.145,
-				-2.4,
-				17.23
-			},
-			rotation = {
-				0,
-				90,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			},
-			activity = {
-				990001
-			}
-		}
-	},
-	[10020026] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 20036,
-		type = 0,
-		name = "Sidetask_20007002",
-		gen_type = 2,
-		id = 10020026,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20007002,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				28.725,
-				0.635,
-				3.228
-			},
-			rotation = {
-				0,
-				300.6611,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020027] = {
-		behaviourTree = "",
-		unitId = 3120100,
-		type = 1,
-		name = "Sidetask_20011002_1",
-		gen_type = 2,
-		id = 10020027,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				20011002,
-				0
-			}
-		},
-		hide_param = {
-			{
-				3,
-				3130090,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				-60.31,
-				-2.414,
-				27.36
-			},
-			rotation = {
-				0,
-				140.2887,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020028] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20011002",
-		gen_type = 2,
-		id = 10020028,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20011002,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-59.377,
-				-2.176,
-				25.924
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020029] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20009003",
-		unitId = 3120100,
-		type = 1,
-		name = "Sidetask_20009003",
-		gen_type = 2,
-		id = 10020029,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				20009002,
-				0
-			}
-		},
-		hide_param = {
-			{
-				2,
-				20009003,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				51.07,
-				-1.716,
-				11.33
-			},
-			rotation = {
-				0,
-				229.1657,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020030] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_20013004",
-		unitId = 1022,
-		type = 0,
-		name = "Sidetask_20013004",
-		gen_type = 2,
-		id = 10020030,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				20013004,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				7.697,
-				-1.9289,
-				10.549
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020031] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "task_jiaoyin_1",
-		gen_type = 2,
-		id = 10020031,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002030,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				18.03,
-				0,
-				3.21
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020032] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "task_jiaoyin_2",
-		gen_type = 2,
-		id = 10020032,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002031,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-0.22,
-				-1.703,
-				14.89
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020033] = {
-		behaviourTree = "",
-		unitId = 1022,
-		type = 0,
-		name = "task_jiaoyin_3",
-		gen_type = 2,
-		id = 10020033,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002032,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-11.654,
-				-2.395,
-				5.83
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020034] = {
-		behaviourTree = "Island/NodeCanvas/Main_Quest_Fishery_sidifenni1",
-		unitId = 100300,
-		type = 1,
-		name = "Storynpc_sidifenni",
-		gen_type = 2,
-		id = 10020034,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002040,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-25.637,
-				-2.324,
-				11.887
-			},
-			rotation = {
-				0,
-				90.12212,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020035] = {
-		behaviourTree = "",
-		unitId = 1014,
-		type = 0,
-		name = "task_jiaoyin0",
-		gen_type = 2,
-		id = 10020035,
-		mapId = 1002,
-		show_param = {
-			{
-				0,
-				10002020,
-				0
-			}
-		},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				44.18002,
-				-1.702,
-				11.62044
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020036] = {
-		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
-		unitId = 300200,
-		type = 1,
-		name = "scene_stroll_jiujiu1",
-		gen_type = 0,
-		id = 10020036,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-3.631,
-				-1.718,
-				20.421
-			},
-			rotation = {
-				0,
-				162.017,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020037] = {
-		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
-		unitId = 300200,
-		type = 1,
-		name = "scene_stroll_jiujiu2",
-		gen_type = 0,
-		id = 10020037,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				1.193,
-				-1.711,
-				18.705
-			},
-			rotation = {
-				0,
-				41.79902,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020038] = {
-		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
-		unitId = 300200,
-		type = 1,
-		name = "scene_stroll_jiujiu3",
-		gen_type = 0,
-		id = 10020038,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-39.06,
-				-2.407,
-				18.65
-			},
-			rotation = {
-				0,
-				61.93926,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020039] = {
-		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
-		unitId = 300200,
-		type = 1,
-		name = "scene_stroll_jiujiu4",
-		gen_type = 0,
-		id = 10020039,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				31.37,
-				-1.708,
-				9.66
-			},
-			rotation = {
-				0,
-				245.725,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020040] = {
-		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
-		unitId = 300200,
-		type = 1,
-		name = "scene_stroll_jiujiu5",
-		gen_type = 0,
-		id = 10020040,
-		mapId = 1002,
-		show_param = {},
-		hide_param = {},
-		param = {
-			hide = false,
-			position = {
-				-18.02,
-				0,
-				0.184
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
-	[10020041] = {
-		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
-		unitId = 1014,
-		type = 0,
-		name = "Side_wumingshi2",
-		gen_type = 2,
-		id = 10020041,
-		mapId = 1002,
-		show_param = {
-			{
-				2,
-				20007001,
-				0
-			},
-			{
-				1,
-				20007002,
-				0
-			}
-		},
-		hide_param = {
-			{
-				0,
-				20007002,
-				0
-			},
-			{
-				2,
-				20007002,
-				0
-			}
-		},
-		param = {
-			hide = false,
-			position = {
-				3.851,
-				-0.872,
-				38.058
-			},
-			rotation = {
-				0,
-				0,
-				0
-			},
-			scale = {
-				1,
-				1,
-				1
-			}
-		}
-	},
 	[10030001] = {
 		behaviourTree = "Island/NodeCanvas/Player",
 		unitId = 0,
@@ -12484,50 +11061,1440 @@ pg.island_world_objects = {
 			}
 		}
 	},
-	get_id_list_by_mapId = {
-		[1002] = {
-			10020001,
-			10020002,
-			10020003,
-			10020004,
-			10020005,
-			10020006,
-			10020007,
-			10020008,
-			10020009,
-			10020010,
-			10020011,
-			10020012,
-			10020013,
-			10020014,
-			10020015,
-			10020016,
-			10020017,
-			10020018,
-			10020019,
-			10020020,
-			10020021,
-			10020022,
-			10020023,
-			10020024,
-			10020025,
-			10020026,
-			10020027,
-			10020028,
-			10020029,
-			10020030,
-			10020031,
-			10020032,
-			10020033,
-			10020034,
-			10020035,
-			10020036,
-			10020037,
-			10020038,
-			10020039,
-			10020040,
-			10020041
+	[10020001] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "BornStation",
+		gen_type = 0,
+		id = 10020001,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-3.23,
+				0,
+				-7.243
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020002] = {
+		behaviourTree = "",
+		unitId = 100204,
+		type = 0,
+		name = "Drone",
+		gen_type = 2,
+		id = 10020002,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002260,
+				0
+			},
+			{
+				2,
+				10002260,
+				0
+			}
 		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-14.21,
+				-1.5,
+				36.68
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020003] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "born_task",
+		gen_type = 1,
+		id = 10020003,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-0.87,
+				-1.596,
+				55.52
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020004] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1003",
+		unitId = 100300,
+		type = 1,
+		name = "npc_chuanbodingdan",
+		gen_type = 2,
+		id = 10020004,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				10002040,
+				0
+			},
+			{
+				3,
+				3120010,
+				1
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10002360,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				44.18002,
+				-1.702,
+				11.62044
+			},
+			rotation = {
+				0,
+				180.3325,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020005] = {
+		behaviourTree = "Island/NodeCanvas/Fishery_station",
+		unitId = 1013,
+		type = 0,
+		name = "Fishery_station",
+		gen_type = 0,
+		id = 10020005,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = true,
+			position = {
+				-6.992,
+				0,
+				-7.357
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020006] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_1",
+		gen_type = 2,
+		id = 10020006,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10001080,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				4.174,
+				-1.705,
+				5.585
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020007] = {
+		behaviourTree = "Island/NodeCanvas/CoffeeShop_Entrance",
+		unitId = 60043,
+		type = 0,
+		name = "CoffeeShop_Entrance",
+		gen_type = 0,
+		id = 10020007,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				9.771,
+				1.6,
+				-8.553
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020008] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20038,
+		type = 0,
+		name = "feixingqi10",
+		gen_type = 1,
+		id = 10020008,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-3.63,
+				-1.7,
+				46.79
+			},
+			rotation = {
+				0,
+				286.3958,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020009] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1002",
+		unitId = 100200,
+		type = 1,
+		name = "npc_dingdan",
+		gen_type = 0,
+		id = 10020009,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0.91,
+				-1.727,
+				7.6
+			},
+			rotation = {
+				0,
+				345.772,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020010] = {
+		behaviourTree = "Island/NodeCanvas/jhs_Entrance",
+		unitId = 100202,
+		type = 0,
+		name = "jhs_Entrance",
+		gen_type = 2,
+		id = 10020010,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				10002260,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-4.778,
+				-1.676,
+				36.11
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020011] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "Player2",
+		gen_type = 0,
+		id = 10020011,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				7.124,
+				0.03,
+				-8.698
+			},
+			rotation = {
+				0,
+				264.5443,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020012] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_fishery_salatuojia_task",
+		unitId = 1070300,
+		type = 1,
+		name = "npc_salatuojia_task",
+		gen_type = 2,
+		id = 10020012,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10001160,
+				0
+			},
+			{
+				1,
+				10001160,
+				0
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10001160,
+				1
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				-2.318,
+				-1.596,
+				64.041
+			},
+			rotation = {
+				0,
+				176.9445,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020013] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_3120100_fishery_task",
+		unitId = 3120100,
+		type = 1,
+		name = "npc_mingshi_task",
+		gen_type = 2,
+		id = 10020013,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10001160,
+				0
+			},
+			{
+				2,
+				10001160,
+				0
+			},
+			{
+				1,
+				10001160,
+				0
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10002010,
+				1
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				-4.211573,
+				-1.623,
+				63.93505
+			},
+			rotation = {
+				0,
+				147.3303,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020014] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20041,
+		type = 0,
+		name = "feixingqi11",
+		gen_type = 1,
+		id = 10020014,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-38.81077,
+				-2.133312,
+				22.2
+			},
+			rotation = {
+				0,
+				0,
+				3.464817
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020015] = {
+		behaviourTree = "Island/NodeCanvas/WildCollectItem",
+		unitId = 20041,
+		type = 0,
+		name = "feixingqi12",
+		gen_type = 1,
+		id = 10020015,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				41.14796,
+				0.06589621,
+				2.916163
+			},
+			rotation = {
+				0.560115,
+				10.62835,
+				7.252096
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020016] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_3120100_fishery_task",
+		unitId = 3120100,
+		type = 1,
+		name = "npc_mingshi_task2",
+		gen_type = 2,
+		id = 10020016,
+		mapId = 1002,
+		show_param = {
+			{
+				1,
+				10002260,
+				0
+			},
+			{
+				2,
+				10002260,
+				0
+			},
+			{
+				0,
+				10002260,
+				0
+			}
+		},
+		hide_param = {
+			{
+				2,
+				10002270,
+				1
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				-3.759,
+				-1.623,
+				40.548
+			},
+			rotation = {
+				0,
+				147.3303,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020017] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "born_task2",
+		gen_type = 1,
+		id = 10020017,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-8.086,
+				0.03,
+				-0.606
+			},
+			rotation = {
+				0,
+				108.2364,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020018] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20002001",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20002001",
+		gen_type = 2,
+		id = 10020018,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20002001,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				4,
+				-1.959,
+				104.587
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020019] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20003003",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20003003",
+		gen_type = 2,
+		id = 10020019,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20003003,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.61,
+				-1.7,
+				7.215
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020020] = {
+		behaviourTree = "",
+		unitId = 100200,
+		type = 1,
+		name = "Sidetask_20002001",
+		gen_type = 2,
+		id = 10020020,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20002001,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3130012,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				2.456,
+				-1.707,
+				104.262
+			},
+			rotation = {
+				0,
+				152.3398,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020021] = {
+		behaviourTree = "Island/NodeCanvas/Player",
+		unitId = 0,
+		type = 2,
+		name = "BornDrone",
+		gen_type = 1,
+		id = 10020021,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-0.16,
+				-1.689,
+				37.66
+			},
+			rotation = {
+				0,
+				176.9638,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020022] = {
+		behaviourTree = "Island/NodeCanvas/SceneAnimal_Cat",
+		unitId = 300903,
+		type = 1,
+		name = "SceneAnimalCat",
+		gen_type = 0,
+		id = 10020022,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				6.323,
+				0,
+				-4.28
+			},
+			rotation = {
+				0,
+				270,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020023] = {
+		behaviourTree = "",
+		unitId = 100201,
+		type = 0,
+		name = "Collider",
+		gen_type = 0,
+		id = 10020023,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				0,
+				0,
+				0
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020024] = {
+		behaviourTree = "",
+		unitId = 100300,
+		type = 1,
+		name = "StoryNpc_sidifenni2",
+		gen_type = 2,
+		id = 10020024,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				10002360,
+				0
+			}
+		},
+		hide_param = {
+			{
+				3,
+				3120010,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				2.048,
+				-1.702,
+				9.209
+			},
+			rotation = {
+				0,
+				242.0797,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020025] = {
+		behaviourTree = "Island/NodeCanvas/PlaceNpc_1016",
+		unitId = 101600,
+		type = 1,
+		name = "npc_saiji",
+		gen_type = 4,
+		id = 10020025,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-9.145,
+				-2.4,
+				17.23
+			},
+			rotation = {
+				0,
+				90,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			},
+			activity = {
+				990001
+			}
+		}
+	},
+	[10020026] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 20036,
+		type = 0,
+		name = "Sidetask_20007002",
+		gen_type = 2,
+		id = 10020026,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20007002,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				28.725,
+				0.635,
+				3.228
+			},
+			rotation = {
+				0,
+				300.6611,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020027] = {
+		behaviourTree = "",
+		unitId = 3120100,
+		type = 1,
+		name = "Sidetask_20011002_1",
+		gen_type = 2,
+		id = 10020027,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				20011002,
+				0
+			},
+			{
+				0,
+				20011002,
+				0
+			},
+			{
+				1,
+				20011002,
+				0
+			}
+		},
+		hide_param = {
+			{
+				2,
+				20011003,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				-60.31,
+				-2.414,
+				27.36
+			},
+			rotation = {
+				0,
+				140.2887,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020028] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20011002",
+		gen_type = 2,
+		id = 10020028,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20011002,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-59.377,
+				-2.176,
+				25.924
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020029] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20009003",
+		unitId = 3120100,
+		type = 1,
+		name = "Sidetask_20009003",
+		gen_type = 2,
+		id = 10020029,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				20009002,
+				0
+			}
+		},
+		hide_param = {
+			{
+				2,
+				20009003,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				51.07,
+				-1.716,
+				11.33
+			},
+			rotation = {
+				0,
+				229.1657,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020030] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_20013004",
+		unitId = 1022,
+		type = 0,
+		name = "Sidetask_20013004",
+		gen_type = 2,
+		id = 10020030,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				20013004,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				7.697,
+				-1.9289,
+				10.549
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020031] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "task_jiaoyin_1",
+		gen_type = 2,
+		id = 10020031,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002030,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				18.03,
+				0,
+				3.21
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020032] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "task_jiaoyin_2",
+		gen_type = 2,
+		id = 10020032,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002031,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-0.22,
+				-1.703,
+				14.89
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020033] = {
+		behaviourTree = "",
+		unitId = 1022,
+		type = 0,
+		name = "task_jiaoyin_3",
+		gen_type = 2,
+		id = 10020033,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002032,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-11.654,
+				-2.395,
+				5.83
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020034] = {
+		behaviourTree = "Island/NodeCanvas/Main_Quest_Fishery_sidifenni1",
+		unitId = 100300,
+		type = 1,
+		name = "Storynpc_sidifenni",
+		gen_type = 2,
+		id = 10020034,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002040,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-25.637,
+				-2.324,
+				11.887
+			},
+			rotation = {
+				0,
+				90.12212,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020035] = {
+		behaviourTree = "",
+		unitId = 1014,
+		type = 0,
+		name = "task_jiaoyin0",
+		gen_type = 2,
+		id = 10020035,
+		mapId = 1002,
+		show_param = {
+			{
+				0,
+				10002020,
+				0
+			}
+		},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				44.18002,
+				-1.702,
+				11.62044
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020036] = {
+		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
+		unitId = 300200,
+		type = 1,
+		name = "scene_stroll_jiujiu1",
+		gen_type = 0,
+		id = 10020036,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-3.631,
+				-1.718,
+				20.421
+			},
+			rotation = {
+				0,
+				162.017,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020037] = {
+		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
+		unitId = 300200,
+		type = 1,
+		name = "scene_stroll_jiujiu2",
+		gen_type = 0,
+		id = 10020037,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				1.193,
+				-1.711,
+				18.705
+			},
+			rotation = {
+				0,
+				41.79902,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020038] = {
+		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
+		unitId = 300200,
+		type = 1,
+		name = "scene_stroll_jiujiu3",
+		gen_type = 0,
+		id = 10020038,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-39.06,
+				-2.407,
+				18.65
+			},
+			rotation = {
+				0,
+				61.93926,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020039] = {
+		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
+		unitId = 300200,
+		type = 1,
+		name = "scene_stroll_jiujiu4",
+		gen_type = 0,
+		id = 10020039,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				31.37,
+				-1.708,
+				9.66
+			},
+			rotation = {
+				0,
+				245.725,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020040] = {
+		behaviourTree = "Island/NodeCanvas/Scene_Stroll_jiujiu",
+		unitId = 300200,
+		type = 1,
+		name = "scene_stroll_jiujiu5",
+		gen_type = 0,
+		id = 10020040,
+		mapId = 1002,
+		show_param = {},
+		hide_param = {},
+		param = {
+			hide = false,
+			position = {
+				-18.02,
+				0,
+				0.184
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	[10020041] = {
+		behaviourTree = "Island/NodeCanvas/Sidetask_2000700N",
+		unitId = 1014,
+		type = 0,
+		name = "Side_wumingshi2",
+		gen_type = 2,
+		id = 10020041,
+		mapId = 1002,
+		show_param = {
+			{
+				2,
+				20007001,
+				0
+			},
+			{
+				1,
+				20007002,
+				0
+			}
+		},
+		hide_param = {
+			{
+				0,
+				20007002,
+				0
+			},
+			{
+				2,
+				20007002,
+				0
+			}
+		},
+		param = {
+			hide = false,
+			position = {
+				3.851,
+				-0.872,
+				38.058
+			},
+			rotation = {
+				0,
+				0,
+				0
+			},
+			scale = {
+				1,
+				1,
+				1
+			}
+		}
+	},
+	get_id_list_by_mapId = {
 		[1003] = {
 			10030001,
 			10030002,
@@ -12899,50 +12866,52 @@ pg.island_world_objects = {
 			10010086,
 			10010087,
 			10010088
+		},
+		[1002] = {
+			10020001,
+			10020002,
+			10020003,
+			10020004,
+			10020005,
+			10020006,
+			10020007,
+			10020008,
+			10020009,
+			10020010,
+			10020011,
+			10020012,
+			10020013,
+			10020014,
+			10020015,
+			10020016,
+			10020017,
+			10020018,
+			10020019,
+			10020020,
+			10020021,
+			10020022,
+			10020023,
+			10020024,
+			10020025,
+			10020026,
+			10020027,
+			10020028,
+			10020029,
+			10020030,
+			10020031,
+			10020032,
+			10020033,
+			10020034,
+			10020035,
+			10020036,
+			10020037,
+			10020038,
+			10020039,
+			10020040,
+			10020041
 		}
 	},
 	all = {
-		10020001,
-		10020002,
-		10020003,
-		10020004,
-		10020005,
-		10020006,
-		10020007,
-		10020008,
-		10020009,
-		10020010,
-		10020011,
-		10020012,
-		10020013,
-		10020014,
-		10020015,
-		10020016,
-		10020017,
-		10020018,
-		10020019,
-		10020020,
-		10020021,
-		10020022,
-		10020023,
-		10020024,
-		10020025,
-		10020026,
-		10020027,
-		10020028,
-		10020029,
-		10020030,
-		10020031,
-		10020032,
-		10020033,
-		10020034,
-		10020035,
-		10020036,
-		10020037,
-		10020038,
-		10020039,
-		10020040,
-		10020041,
 		10030001,
 		10030002,
 		10030003,
@@ -13296,6 +13265,47 @@ pg.island_world_objects = {
 		10010085,
 		10010086,
 		10010087,
-		10010088
+		10010088,
+		10020001,
+		10020002,
+		10020003,
+		10020004,
+		10020005,
+		10020006,
+		10020007,
+		10020008,
+		10020009,
+		10020010,
+		10020011,
+		10020012,
+		10020013,
+		10020014,
+		10020015,
+		10020016,
+		10020017,
+		10020018,
+		10020019,
+		10020020,
+		10020021,
+		10020022,
+		10020023,
+		10020024,
+		10020025,
+		10020026,
+		10020027,
+		10020028,
+		10020029,
+		10020030,
+		10020031,
+		10020032,
+		10020033,
+		10020034,
+		10020035,
+		10020036,
+		10020037,
+		10020038,
+		10020039,
+		10020040,
+		10020041
 	}
 }

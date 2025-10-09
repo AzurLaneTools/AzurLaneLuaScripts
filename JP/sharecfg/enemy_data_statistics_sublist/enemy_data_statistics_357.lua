@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_357 = {
+	[16762303] = {
+		cannon = 81,
+		air = 445,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 20,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 32,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 91136,
+		durability = 46820,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 428,
+		speed = 18,
+		luck = 18,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		id = 16762303,
+		scale = 180,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			3302101,
+			3302102,
+			3302103,
+			3302104
+		}
+	},
 	[16762304] = {
 		cannon = 255,
 		name = "キングデーモンスライム饅頭",
@@ -1146,42 +1187,6 @@ pg.enemy_data_statistics_357 = {
 			3139024,
 			3139029,
 			3139034
-		}
-	},
-	[16766003] = {
-		cannon = 120,
-		air = 0,
-		torpedo = 50,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 35,
-		base = 90901,
-		durability = 5000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 100,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 0,
-		id = 16766003,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			3139039,
-			3139044,
-			3139049
 		}
 	}
 }

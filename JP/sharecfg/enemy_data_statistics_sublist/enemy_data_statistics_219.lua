@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_219 = {
+	[15601305] = {
+		cannon = 170,
+		name = "演算投影「空母」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 310,
+		type = 7,
+		antisub = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90620,
+		durability = 105000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 25,
+		id = 15601305,
+		scale = 180,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 400,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			871301
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15601901] = {
 		cannon = 80,
 		antisub = 0,
@@ -1201,51 +1248,6 @@ pg.enemy_data_statistics_219 = {
 			1003124,
 			1003129,
 			1003134
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15603103] = {
-		cannon = 54,
-		hit_growth = 280,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		battle_unit_type = 60,
-		fog_fx = "",
-		dodge_growth = 136,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90467,
-		durability = 4420,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		speed = 18,
-		luck = 0,
-		id = 15603103,
-		cannon_growth = 1500,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 58,
-		durability_growth = 41600,
-		antiaircraft = 88,
-		antiaircraft_growth = 3380,
-		specific_fx_scale = {},
-		equipment_list = {
-			1003139,
-			1003144,
-			1003149,
-			1003154
 		},
 		buff_list = {
 			{

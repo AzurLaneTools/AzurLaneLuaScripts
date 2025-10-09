@@ -80,7 +80,7 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "TianYuTianYuanCoreActivityUI"
+				coreName = "AEBCSCoreActivityUI"
 			}
 		},
 		time = {
@@ -152,7 +152,7 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"crusing"
+			"scene court yard"
 		},
 		time = {
 			{
@@ -186,9 +186,10 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -289,7 +290,7 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene dockyard"
+			"scene level"
 		},
 		time = {
 			{

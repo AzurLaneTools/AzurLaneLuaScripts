@@ -24,7 +24,8 @@ return {
 		show = false,
 		type = 4,
 		unitIdList = {
-			0
+			0,
+			10070040
 		}
 	},
 	{
@@ -35,7 +36,8 @@ return {
 		show = true,
 		type = 4,
 		unitIdList = {
-			0
+			0,
+			10070040
 		}
 	},
 	{

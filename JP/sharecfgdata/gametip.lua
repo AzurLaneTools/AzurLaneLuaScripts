@@ -7129,6 +7129,11 @@ _G.pg.base.gametip.word_shipNation_yumia = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_danmachi = {
+	tip = "danmachi"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -45330,4 +45335,74 @@ _G.pg.base.gametip.island_dresscolorunlock_tips = {
 
 _G.pg.base.gametip.island_dresscolorunlock = {
 	tip = "開放"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet1 = {
+	tip = "青空の下で出会いを"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet2 = {
+	tip = "消えない聖火"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet3 = {
+	tip = "止まない疾風"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet4 = {
+	tip = "邂逅の旅"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet5 = {
+	tip = "報酬一覧"
+}
+
+
+_G.pg.base.gametip.danmachi_main_time = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.danmachi_award_1 = {
+	tip = "艦船"
+}
+
+
+_G.pg.base.gametip.danmachi_award_2 = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.danmachi_award_3 = {
+	tip = "装備外装"
+}
+
+
+_G.pg.base.gametip.danmachi_award_4 = {
+	tip = "特殊装備"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name1 = {
+	tip = "ヘスティア"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name2 = {
+	tip = "リュー・リオン"
+}
+
+
+_G.pg.base.gametip.danmachi_award_get = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.danmachi_award_unget = {
+	tip = "未入手"
 }

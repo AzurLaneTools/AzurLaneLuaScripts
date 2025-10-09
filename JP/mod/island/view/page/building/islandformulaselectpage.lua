@@ -58,6 +58,14 @@ slot0.RemoveListeners = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_commission.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 		existCall(uv0.cancelFunc)

@@ -4,6 +4,10 @@ slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
+slot0.SetCoreActivityUI = function(slot0, slot1)
+	slot0.coreActivityUI = slot1
+end
+
 slot0.SetUIName = function(slot0, slot1)
 	slot0._uiName = slot1
 end
@@ -93,6 +97,10 @@ slot0.IsShowingPopWindow = function(slot0)
 end
 
 slot0.ClosePopWindow = function(slot0)
+end
+
+slot0.IsShowReminder = function(slot0)
+	return nil
 end
 
 return slot0
