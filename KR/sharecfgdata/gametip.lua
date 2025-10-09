@@ -24044,6 +24044,11 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
+_G.pg.base.gametip.setting_resdownload_title_island = {
+	tip = "岛屿资源更新"
+}
+
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "버튼 위치"
 }
@@ -37756,6 +37761,16 @@ _G.pg.base.gametip.skin_original_price = {
 }
 
 
+_G.pg.base.gametip.SkinDiscount_Owned_Tips = {
+	tip = "이미 스킨을 보유하고 있습니다($1/$2). 구매하면 미보유 스킨 구매 시에 적용 가능한 쿠폰을 획득할 수 있습니다. \n이미 대상 스킨을 모두 보유하고 있는 경우에는 획득 스킨이 자동으로 다이아 680개로 변환되며, 쿠폰권을 획득할 수 없습니다. \n특별 패키지를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Last_Coupon = {
+	tip = "구매하면 쿠폰 수가 적용 가능한 스킨 수를 초과하게 되어 일부 쿠폰을 적용할 수 없게 됩니다. \n그래도 구매하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.clue_title_1 = {
 	tip = "장소 정보"
 }
@@ -38986,7 +39001,7 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 _G.pg.base.gametip.SkinDiscountHelp_Carnival = {
 	tip = {
 		{
-			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「嘉年华」系列换装或一个换装礼盒(嘉年华)时，可领取一张<color=#92fc63>换装折扣券（嘉年华）</color>\n2.<color=#92fc63>换装折扣券（嘉年华）</color>可用于购买「嘉年华」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（嘉年华）</color>将会在活动结束后（2025年8月13日23:59:59）消失"
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「运动时间」、「疾速狂热」系列换装或一个换装礼盒(疾速狂热)时，可领取一张<color=#92fc63>换装折扣券（疾速狂热）</color>\n2.<color=#92fc63>换装折扣券（疾速狂热）</color>可用于购买「运动时间」、「疾速狂热」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（疾速狂热）</color>将会在活动结束后（2025年10月22日23:59:59）消失"
 		}
 	}
 }
@@ -40442,4 +40457,24 @@ _G.pg.base.gametip.ninja_game_cant_pickup = {
 
 _G.pg.base.gametip.ninja_game_booktip = {
 	tip = "※「성주의 두루마리」로 원군 요청·시설 복구를 진행하면, 복구 진행도가 상승합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+	tip = "공공 구역을 오픈해야 합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_table = {
+	tip = "주방"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_dafeng_bed = {
+	tip = "침실"
 }

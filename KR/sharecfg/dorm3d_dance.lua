@@ -4,7 +4,7 @@ pg.dorm3d_dance = {
 		default_camera = "dance_camera1",
 		song_name = "매혹적인 만남",
 		director_name = "[sequence]",
-		timeline_scene = "Dance",
+		timeline_scene = "Dance_10517",
 		id = 10517,
 		finish_anim = "weixiao",
 		cucoloris_group = {
@@ -35,7 +35,43 @@ pg.dorm3d_dance = {
 			"컷3"
 		}
 	},
+	[30707] = {
+		default_camera = "dance_camera1",
+		song_name = "오늘의 기분_shade",
+		director_name = "[sequence]",
+		timeline_scene = "Dance_30707",
+		id = 30707,
+		finish_anim = "weixiao",
+		cucoloris_group = {
+			{
+				201,
+				204,
+				207
+			},
+			{
+				202,
+				205,
+				208
+			},
+			{
+				203,
+				206,
+				209
+			}
+		},
+		camera_tracks = {
+			"dance_camera1",
+			"dance_camera2",
+			"dance_camera3"
+		},
+		camera_names = {
+			"컷1",
+			"컷2",
+			"컷3"
+		}
+	},
 	all = {
-		10517
+		10517,
+		30707
 	}
 }

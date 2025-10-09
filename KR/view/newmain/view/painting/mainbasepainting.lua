@@ -491,9 +491,9 @@ slot0._Pause = function(slot0)
 	slot0.cvLoader:Stop()
 end
 
-slot0.Puase = function(slot0)
+slot0.Pause = function(slot0)
 	slot0:_Pause()
-	slot0:OnPuase()
+	slot0:OnPause()
 end
 
 slot0.ResumeForSilent = function(slot0)
@@ -711,7 +711,7 @@ end
 slot0.OnEnableOrDisableDragAndZoom = function(slot0, slot1)
 end
 
-slot0.OnPuase = function(slot0)
+slot0.OnPause = function(slot0)
 end
 
 slot0.OnResume = function(slot0)

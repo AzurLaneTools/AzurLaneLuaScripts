@@ -102,7 +102,6 @@ slot0.notification = function(slot0, slot1)
 			hideNo = true,
 			hideClose = true,
 			content = i18n("open_system_tip", slot2.name),
-			weight = LayerWeightConst.TOP_LAYER,
 			onYes = function ()
 				uv0:doSystemGuide(uv1.id)
 			end

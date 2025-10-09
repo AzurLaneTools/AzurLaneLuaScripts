@@ -103,8 +103,7 @@ slot1.error = function(slot0, slot1, slot2)
 			uv0:startDownload()
 		end,
 		onNo = slot4,
-		onClose = slot4,
-		weight = LayerWeightConst.TOP_LAYER
+		onClose = slot4
 	})
 end
 

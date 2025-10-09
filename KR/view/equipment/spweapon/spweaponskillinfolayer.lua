@@ -89,7 +89,7 @@ slot0.showInfo = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()

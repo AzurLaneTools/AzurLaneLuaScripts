@@ -454,16 +454,20 @@ end
 slot0.UpdateExpTip = function(slot0, slot1)
 	setActive(slot0.expTip, not slot1:isReachNextMaxLevel() and not (slot1.maxLevel <= slot1.level))
 	onButton(slot0, slot0.expTip, function ()
+		slot0 = {}
+
 		if uv0:isActivityNpc() then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("coures_exp_npc_tip"),
-				onYes = function ()
-					uv0:emit(ShipViewConst.SHOW_EXP_ITEM_USAGE, uv1)
-				end
-			})
-		else
-			uv1:emit(ShipViewConst.SHOW_EXP_ITEM_USAGE, uv0)
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("coures_exp_npc_tip"),
+					onYes = slot0
+				})
+			end)
 		end
+
+		seriesAsync(slot0, function ()
+			uv0:emit(ShipViewConst.SHOW_EXP_ITEM_USAGE, uv1)
+		end)
 	end, SFX_PANEL)
 end
 

@@ -48,7 +48,7 @@ end
 
 slot0.UnBlur = function(slot0, slot1, slot2)
 	slot0:BlurTopPanel(slot0.topPanel)
-	pg.UIMgr.GetInstance():UnblurPanel(slot1, slot2)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot1, slot2)
 end
 
 slot0.BlurForLevel = function(slot0, slot1)

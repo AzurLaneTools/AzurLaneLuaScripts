@@ -729,8 +729,7 @@ slot0.EnergyCheck = function(slot0, slot1, slot2, slot3, slot4)
 			end,
 			onNo = function ()
 				uv0(false)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		existCall(slot3, true)

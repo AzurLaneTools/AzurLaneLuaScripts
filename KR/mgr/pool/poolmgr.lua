@@ -15,8 +15,6 @@ slot0.Ctor = function(slot0)
 	slot0.callbacks = {}
 	slot0.pluralIndex = 0
 	slot0.singleIndex = 0
-	slot0.paintingCount = 0
-	slot0.commanderPaintingCount = 0
 	slot0.preloadDic = {
 		["ui/share/world_common_atlas"] = 1,
 		["shipyardicon/unknown"] = 1,
@@ -37,7 +35,7 @@ slot0.Ctor = function(slot0)
 		shiptype = 1,
 		shipframe = 1
 	}
-	slot0.ui_tempCache = {}
+	slot0.keepDic = {}
 end
 
 slot0.Init = function(slot0, slot1)
@@ -54,6 +52,7 @@ slot0.Init = function(slot0, slot1)
 		end)
 	end
 
+	slot0:RegisterUIConst()
 	seriesAsync(slot2, slot1)
 end
 
@@ -121,29 +120,25 @@ slot0.ReturnSpineChar = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.ExcessSpineChar = function(slot0)
-	slot1 = 0
-	slot2 = 6
-	slot3 = {}
+slot0.ExcessSpineChar = function(slot0, slot1)
+	slot2 = 0
+	slot3 = 6
+	slot4 = {}
 
-	for slot7, slot8 in pairs(slot0.pools_plural) do
-		if string.find(slot7, "char/") == 1 then
-			table.insert(slot3, slot7)
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "char/", nil, true) == 1 and slot9:AllReturned() then
+			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot2 < #slot3 then
-		table.sort(slot3, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
-		for slot7 = slot2 + 1, #slot3 do
-			slot8 = slot3[slot7]
-
-			slot0.pools_plural[slot8]:Clear()
-
-			slot0.pools_plural[slot8] = nil
+			slot0.pools_plural[slot9] = nil
 		end
+	elseif slot3 < #slot4 then
+		gcAll()
 	end
 end
 
@@ -161,8 +156,8 @@ slot0.IsSpineSkelCached = function(slot0, slot1)
 end
 
 slot6 = {
-	"ResPanel",
-	"WorldResPanel"
+	WorldResPanel = 3,
+	ResPanel = 3
 }
 slot7 = {
 	"ResPanel",
@@ -178,8 +173,14 @@ slot7 = {
 	"WorldUI"
 }
 
+slot0.RegisterUIConst = function(slot0)
+	for slot4, slot5 in ipairs(uv0) do
+		slot0:KeepUICache(slot5, true)
+	end
+end
+
 slot0.GetUI = function(slot0, slot1, slot2, slot3)
-	slot0:FromPlural("ui/" .. slot1, "", slot2, table.contains(uv0, slot1) and 3 or 1, slot3)
+	slot0:FromPlural("ui/" .. slot1, "", slot2, uv0[slot1] or 1, slot3)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
@@ -188,29 +189,18 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
 	elseif slot0.pools_plural[slot4] then
-		if table.indexof(uv0, slot1) then
-			slot2.transform:SetParent(slot0.root, false)
-		end
+		setActiveViaLayer(slot2, false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
-		if table.indexof(uv1, slot1) or slot0.ui_tempCache[slot1] then
-			setActiveViaLayer(slot2.transform, false)
-			slot0.pools_plural[slot4]:Enqueue(slot2)
-		else
-			slot0.pools_plural[slot4]:Enqueue(slot2, true)
+		if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
+			slot0.pools_plural[slot4]:Clear()
 
-			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
-				slot0.pools_plural[slot4]:Clear()
-
-				slot0.pools_plural[slot4] = nil
-			end
+			slot0.pools_plural[slot4] = nil
 		end
 	else
-		uv2.Destroy(slot2)
+		uv0.Destroy(slot2)
 	end
-end
-
-slot0.HasCacheUI = function(slot0, slot1)
-	return slot0.pools_plural["ui/" .. slot1] ~= nil
 end
 
 slot0.PreloadUI = function(slot0, slot1, slot2)
@@ -229,20 +219,17 @@ slot0.PreloadUI = function(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-slot0.AddTempCache = function(slot0, slot1)
-	slot0.ui_tempCache[slot1] = true
-end
+slot0.KeepUICache = function(slot0, slot1, slot2)
+	slot3 = "ui/" .. slot1
+	slot0.keepDic[slot3] = slot2 or nil
 
-slot0.DelTempCache = function(slot0, slot1)
-	slot0.ui_tempCache[slot1] = nil
-end
+	if slot0.pools_plural[slot3] then
+		slot0.pools_plural[slot3]:SetKeep(tobool(slot0.keepDic[slot3]))
 
-slot0.ClearAllTempCache = function(slot0)
-	for slot4, slot5 in pairs(slot0.ui_tempCache) do
-		if slot5 and slot0.pools_plural["ui/" .. slot4] then
-			slot0.pools_plural[slot7]:Clear()
+		if slot0.pools_plural[slot3]:AllReturned() and (not slot0.callbacks[slot3] or #slot0.callbacks[slot3] == 0) then
+			slot0.pools_plural[slot3]:Clear()
 
-			slot0.pools_plural[slot7] = nil
+			slot0.pools_plural[slot3] = nil
 		end
 	end
 end
@@ -300,36 +287,22 @@ end
 
 slot0.ExcessPainting = function(slot0, slot1)
 	slot2 = 0
-	slot3 = 4
+	slot3 = 6
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.pools_plural) do
-		if string.find(slot8, "painting/") and slot10 >= 1 then
+		if string.find(slot8, "painting/", nil, true) == 1 and slot9:AllReturned() then
 			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot3 < #slot4 then
-		table.sort(slot4, function (slot0, slot1)
-			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
-		end)
-
-		for slot8 = slot3 + 1, #slot4 do
-			slot9 = slot4[slot8]
-
-			slot0.pools_plural[slot9]:Clear(true)
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
 
 			slot0.pools_plural[slot9] = nil
 		end
-
-		slot0.paintingCount = slot0.paintingCount + 1
-	end
-
-	if slot1 then
-		slot0.paintingCount = 0
-	elseif slot0.paintingCount >= 10 then
-		slot0.paintingCount = 0
-
+	elseif slot3 < #slot4 then
 		gcAll(false)
 	end
 end
@@ -367,6 +340,90 @@ slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 		slot0:ExcessPainting()
 	else
 		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetSpinePainting = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("spinePainting/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnSpinePainting = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("spinePainting/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot0.GetLive2D = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5, slot6 = HXSet.autoHxShift("live2d/", slot1)
+
+	slot0:FromPlural(slot5 .. slot6, "", slot2, 1, function (slot0)
+		slot0:SetActive(true)
+		uv0(slot0)
+	end)
+end
+
+slot0.ReturnLive2D = function(slot0, slot1, slot2)
+	slot3 = nil
+	slot4, slot5 = HXSet.autoHxShift("live2d/", slot1)
+	slot4 = slot4 .. slot5
+
+	if IsNil(slot2) then
+		Debugger.LogError(debug.traceback("empty go: " .. slot1))
+	elseif slot0.pools_plural[slot4] then
+		setActiveViaLayer(slot2, true)
+		slot2:SetActive(false)
+		slot2.transform:SetParent(slot0.root, false)
+		slot0.pools_plural[slot4]:Enqueue(slot2)
+		slot0:ExcessDymPainting()
+	else
+		uv0.Destroy(slot2)
+	end
+end
+
+slot8 = {
+	["spinePainting/"] = true,
+	["live2d/"] = true
+}
+slot9 = ApartmentProxy.CheckDeviceRAMEnough() and 6 or 2
+
+slot0.ExcessDymPainting = function(slot0, slot1)
+	slot2 = 0
+	slot3 = uv0
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "/", nil, true) and uv1[string.sub(slot8, 1, slot10)] and slot9:AllReturned() then
+			table.insert(slot4, slot8)
+		end
+	end
+
+	if slot1 then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0.pools_plural[slot9]:Clear()
+
+			slot0.pools_plural[slot9] = nil
+		end
+	elseif slot3 < #slot4 then
+		gcAll(false)
 	end
 end
 
@@ -448,8 +505,8 @@ slot0.SpriteMemUsage = function(slot0)
 	return slot1
 end
 
-slot8 = 64
-slot9 = {
+slot10 = 64
+slot11 = {
 	"chapter/",
 	"emoji/",
 	"world/"
@@ -483,7 +540,7 @@ slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 		slot3.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot5]:Enqueue(slot3)
 
-		if slot4 and slot0.pools_plural[slot5].balance <= 0 and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
+		if slot4 and slot0.pools_plural[slot5]:AllReturned() and (not slot0.callbacks[slot5] or #slot0.callbacks[slot5] == 0) then
 			slot0:DestroyPrefab(slot1, slot2)
 		end
 	else
@@ -568,10 +625,12 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				if not uv2.pools_plural[uv3] then
 					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
+
+					uv2.pools_plural[uv3]:SetKeep(tobool(uv2.keepDic[uv3]))
 				end
 
 				uv6()
-			end, true)
+			end, true, true)
 		end)
 	end
 
@@ -601,21 +660,22 @@ slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
+slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8, slot9 = HXSet.autoHxShiftPath(slot1, slot2)
 
-	if slot0.callbacks[slot7 .. "|" .. slot8] then
+	if slot0.callbacks[slot8 .. "|" .. slot9] then
 		if not slot4 then
 			errorMsg("Sync Loading after async operation")
 		end
 
-		table.insert(slot0.callbacks[slot7], slot5)
+		table.insert(slot0.callbacks[slot8], slot5)
 	elseif slot4 then
-		slot0.callbacks[slot7] = {
+		slot0.callbacks[slot8] = {
 			slot5
 		}
+		slot9 = uv0
 
-		uv0:getAssetAsync(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot9:getAssetAsync(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
 				slot1 = uv0.callbacks[uv1]
 				uv0.callbacks[uv1] = nil
@@ -624,9 +684,9 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 					table.remove(slot1)(slot0)
 				end
 			end
-		end), slot6, false)
+		end), slot6, slot7 or false)
 	else
-		slot5(uv0:getAssetSync(slot1, slot2, slot3, slot6, false))
+		slot5(uv0:getAssetSync(slot1, slot2, slot3, slot6, slot7 or false))
 	end
 end
 

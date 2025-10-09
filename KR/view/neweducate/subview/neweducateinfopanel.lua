@@ -71,12 +71,11 @@ slot0.OnInit = function(slot0)
 			uv0:OnUpdateStatusItem(slot1, slot2)
 		end
 	end)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = -1,
 		pbList = {
 			slot0.blurBg
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = slot0.contextData.weight or LayerWeightConst.BASE_LAYER - 1
+		}
 	})
 	setActive(slot0.foldPanelTF, true)
 	setActive(slot0.showPanelTF, false)
@@ -199,7 +198,7 @@ slot0.FlushStatus = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 slot0.GetArrtInfo = function(slot0, slot1)

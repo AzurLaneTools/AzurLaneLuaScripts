@@ -475,6 +475,7 @@ slot0.openBuyPanel = function(slot0)
 
 	slot0:emit(CrusingMediator.EVENT_GO_CHARGE, {
 		isChargeType = true,
+		commodity = slot2,
 		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),

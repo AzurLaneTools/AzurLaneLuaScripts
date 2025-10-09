@@ -175,6 +175,56 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_3_2_1",
 		is_active = "0"
 	},
+	dafeng_1 = {
+		value = "지휘관님과 숨바꼭질 하는 중~",
+		key = "dafeng_1",
+		is_active = "0"
+	},
+	dafeng_1_1 = {
+		value = "여기 숨어 있었네.",
+		key = "dafeng_1_1",
+		is_active = "0"
+	},
+	dafeng_1_1_1 = {
+		value = "맞아요~ 어서 다이호를 잡아보세요♡",
+		key = "dafeng_1_1_1",
+		is_active = "0"
+	},
+	dafeng_1_2 = {
+		value = "대체 어디야?",
+		key = "dafeng_1_2",
+		is_active = "0"
+	},
+	dafeng_1_2_1 = {
+		value = "아직 다이호의 방 구조를 완전히 파악 못 하셨나 봐요… 다음에 천천히 안내해 드릴게요~",
+		key = "dafeng_1_2_1",
+		is_active = "0"
+	},
+	dafeng_2 = {
+		value = "지휘관님과 함께한 시간을 빠짐없이 기록해 둬야 해요~",
+		key = "dafeng_2",
+		is_active = "0"
+	},
+	dafeng_2_1 = {
+		value = "방 안을 전부 찍은 거야?",
+		key = "dafeng_2_1",
+		is_active = "0"
+	},
+	dafeng_2_1_1 = {
+		value = "다음엔 지휘관님이 출근하시는 모습도 꼭 찍어야겠어요~",
+		key = "dafeng_2_1_1",
+		is_active = "0"
+	},
+	dafeng_2_2 = {
+		value = "왜 기록하는 거야?",
+		key = "dafeng_2_2",
+		is_active = "0"
+	},
+	dafeng_2_2_1 = {
+		value = "「지휘관님과 다이호의 알콩달콩한 하루」… 이건 정말 중요한 자료니까요♡",
+		key = "dafeng_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -210,6 +260,16 @@ pg.dorm3d_ins_language = {
 		"xinzexi_3_1",
 		"xinzexi_3_1_1",
 		"xinzexi_3_2",
-		"xinzexi_3_2_1"
+		"xinzexi_3_2_1",
+		"dafeng_1",
+		"dafeng_1_1",
+		"dafeng_1_1_1",
+		"dafeng_1_2",
+		"dafeng_1_2_1",
+		"dafeng_2",
+		"dafeng_2_1",
+		"dafeng_2_1_1",
+		"dafeng_2_2",
+		"dafeng_2_2_1"
 	}
 }

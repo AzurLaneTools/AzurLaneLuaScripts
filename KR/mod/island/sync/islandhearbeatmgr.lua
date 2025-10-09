@@ -22,7 +22,9 @@ slot0.SendHeartBeat = function(slot0)
 
 	slot0.lastHeartBeatTime = slot1
 
-	pg.m02:sendNotification(GAME.ISLAND_HEART_BEAT, slot0.islandId)
+	pg.ConnectionMgr.GetInstance():Send(21215, {
+		island_id = slot0.islandId
+	})
 end
 
 slot0.EnterIsland = function(slot0, slot1)

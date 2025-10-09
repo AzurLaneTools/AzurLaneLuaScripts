@@ -407,16 +407,15 @@ slot0.ShowOrHideChatWindow = function(slot0, slot1)
 
 	slot7:setOnComplete(System.Action(function ()
 		if uv0 then
-			setParent(uv1.chatPanel, pg.UIMgr:GetInstance().OverlayMain, true)
+			setParent(uv1.chatPanel, pg.UIMgr.GetInstance().OverlayMain, true)
 
 			slot0 = uv1.chatPanel.localPosition
 			uv1.chatPanel.localPosition = Vector3(slot0.x, slot0.y, 0)
 
-			pg.UIMgr.GetInstance():OverlayPanelPB(uv1.chatPanel, {
+			pg.UIMgr.GetInstance():OverlayPanel(uv1.chatPanel, {
 				pbList = {
 					uv1.chatPanel
-				},
-				weight = LayerWeightConst.TOP_LAYER
+				}
 			})
 
 			uv1.chatPanelAnchoredPositionX = uv1.chatPanel.anchoredPosition.x

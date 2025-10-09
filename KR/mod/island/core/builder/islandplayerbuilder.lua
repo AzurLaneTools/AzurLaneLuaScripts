@@ -32,12 +32,25 @@ slot0.LoadAsset = function(slot0, slot1, slot2)
 end
 
 slot0.LoadOtherPart = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = ResourceMgr.Inst
+	seriesAsync({
+		function (slot0)
+			slot1 = IslandAssetLoadDispatcher.Instance
+			slot2 = uv1
 
-	slot5:getAssetAsync("island/jumpcurve/jumpcurve", "", typeof(JumpCurve), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0:InitJump(slot0.curve)
-		uv1()
-	end), true, true)
+			slot2:AddLoadingID(slot1:Enqueue("island/jumpcurve/jumpcurve", "", typeof(JumpCurve), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				uv0:InitJump(slot0.curve)
+				uv1()
+			end), true, true))
+		end,
+		function (slot0)
+			slot1 = IslandShipDressHelperNew.New()
+
+			uv0:SetShipDressHelper(slot1)
+			slot1:PreLoadShipDressupItem(uv1, 0, slot0)
+		end
+	}, function ()
+		existCall(uv0)
+	end)
 end
 
 slot0.Recycle = function(slot0, slot1, slot2)

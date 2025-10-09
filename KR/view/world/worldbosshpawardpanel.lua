@@ -31,7 +31,7 @@ slot0.Show = function(slot0)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	uv0.super.Hide(slot0)
 end
 

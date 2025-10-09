@@ -1,4 +1,4 @@
-slot0 = class("AgoraMouldBuilder", import("Mod.Island.Core.Builder.IslandItemInteractBuilder"))
+slot0 = class("AgoraMouldBuilder", import("Mod.Island.Core.Builder.IslandGenericBuilder"))
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
@@ -31,9 +31,6 @@ slot0.Build = function(slot0, slot1, slot2)
 		end,
 		function (slot0)
 			uv0:SetupBT(uv1, uv2:GetBt(), slot0)
-		end,
-		function (slot0)
-			uv0:LoadTimeline(uv1, uv2, uv3, slot0)
 		end
 	}, function ()
 		uv0:AddTypeAndID(uv1, uv2)
@@ -53,15 +50,15 @@ slot0.SetupBT = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot4 = ResourceMgr.Inst
+	slot4 = IslandAssetLoadDispatcher.Instance
 
-	slot4:getAssetAsync(slot2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot0:AddLoadingID(slot4:Enqueue(slot2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		assert(slot0, uv0)
 
 		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
 
 		uv2()
-	end), true, true)
+	end), true, true))
 end
 
 slot0.GetModule = function(slot0, slot1, slot2)

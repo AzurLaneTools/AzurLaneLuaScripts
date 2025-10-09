@@ -204,14 +204,14 @@ slot0.Show = function(slot0)
 	end
 
 	setActive(slot0.transform, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.transform, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.transform)
 end
 
 slot0.Hide = function(slot0)
 	slot0.preSelectIndex = nil
 
 	setActive(slot0.transform, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.transform, slot0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.transform, slot0.UIMain)
 end
 
 slot0.IsShowing = function(slot0)

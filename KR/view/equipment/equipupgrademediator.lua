@@ -32,8 +32,7 @@ slot0.register = function(slot0)
 				type = DROP_TYPE_ITEM,
 				id = slot1,
 				cfg = Item.getConfigData(slot1)
-			},
-			weight = LayerWeightConst.TOP_LAYER
+			}
 		})
 	end)
 

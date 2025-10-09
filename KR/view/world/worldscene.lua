@@ -54,9 +54,8 @@ slot0.init = function(slot0)
 		uv0:Op(...)
 	end)
 
-	slot1 = pg.UIMgr.GetInstance()
-	slot0.camera = slot1.levelCamera:GetComponent(typeof(Camera))
-	slot0.rtUIMain = slot1.LevelMain
+	slot0.camera = pg.UIMgr.GetInstance().levelCamera:GetComponent(typeof(Camera))
+	slot0.rtUIMain = pg.UIMgr.GetInstance().LevelMain
 
 	setActive(slot0.rtUIMain, false)
 
@@ -122,9 +121,9 @@ slot0.init = function(slot0)
 	slot0.resAtlas:setParent(slot0.rtTopAtlas:Find("resources"), false)
 
 	slot0.resMap = WorldResource.New()
-	slot4 = slot0.rtTopMap
+	slot3 = slot0.rtTopMap
 
-	slot0.resMap:setParent(slot4:Find("resources"), false)
+	slot0.resMap:setParent(slot3:Find("resources"), false)
 
 	slot0.wsPool = WSPool.New()
 
@@ -249,7 +248,7 @@ slot0.InitSubView = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtTop)
+	slot0:OverlayPanel(slot0.rtTop)
 
 	slot0.warningSairen = not slot0.contextData.inSave
 
@@ -361,7 +360,7 @@ end
 slot0.willExit = function(slot0)
 	slot0:SaveState()
 	slot0:RemoveWorldListener()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtTop, slot0._tf)
+	slot0:UnOverlayPanel(slot0.rtTop, slot0._tf)
 	slot0.svOrderPanel:Destroy()
 	slot0.svScannerPanel:Destroy()
 	slot0.svAchievement:Destroy()
@@ -1890,13 +1889,13 @@ slot0.BuildCutInAnim = function(slot0, slot1, slot2)
 			if not IsNil(uv0.tfAnim) then
 				uv0.inCutIn = false
 
-				pg.UIMgr.GetInstance():UnOverlayPanel(uv0.tfAnim, uv0.rtPanelList)
+				uv0:UnOverlayPanel(uv0.tfAnim, uv0.rtPanelList)
 				setActive(uv0.tfAnim, false)
 
 				return uv1()
 			end
 		end)
-		pg.UIMgr.GetInstance():OverlayPanel(uv0.tfAnim)
+		uv0:OverlayPanel(uv0.tfAnim)
 		setActive(uv0.tfAnim, true)
 	end)
 	seriesAsync(slot3, function ()

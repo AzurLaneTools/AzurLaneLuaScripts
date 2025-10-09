@@ -5,19 +5,19 @@ slot0.execute = function(slot0, slot1)
 	slot7 = getProxy(PlayerProxy):getData()
 
 	if not getProxy(GuildProxy):getData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not slot6:getTechnologyById(slot3) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_tech"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_tech"))
 
 		return
 	end
 
 	if not slot8:CanUpgrade() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
 
 		return
 	end
@@ -25,13 +25,13 @@ slot0.execute = function(slot0, slot1)
 	slot9, slot10 = slot8:GetConsume()
 
 	if slot7.gold < slot10 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_gold_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_gold_no_enough"))
 
 		return
 	end
 
 	if slot7.guildCoin < slot9 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_guildgold_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_guildgold_no_enough"))
 
 		return
 	end

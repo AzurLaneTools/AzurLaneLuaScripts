@@ -12,25 +12,22 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.InitTimeCfg = function(slot0)
-	if slot0:getConfig("unlock_condition") == "" or #slot1 == 0 then
-		slot0.unlockTime = 0
-		slot0.endTime = 0
-	end
-
-	if not underscore.detect(slot1, function (slot0)
-		return slot0[1] == IslandTaskConditionType.IN_TIME
-	end) then
+	if slot0:getConfig("unlock_time") == "always" then
 		slot0.unlockTime = 0
 		slot0.endTime = 0
 	else
-		slot3 = pg.TimeMgr.GetInstance()
-		slot0.unlockTime = slot3:parseTimeFromConfig(slot2[2][1])
-		slot0.endTime = slot3:parseTimeFromConfig(slot2[2][2])
+		slot2 = pg.TimeMgr.GetInstance()
+		slot0.unlockTime = slot2:parseTimeFromConfig(slot1[1])
+		slot0.endTime = slot2:parseTimeFromConfig(slot1[2])
 	end
 end
 
 slot0.GetUnlockTime = function(slot0)
 	return slot0.unlockTime
+end
+
+slot0.IsMatchUnlockTime = function(slot0)
+	return slot0.unlockTime < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 slot0.InTime = function(slot0)
@@ -49,7 +46,7 @@ slot0.CheckAcceptOnApproach = function(slot0, slot1)
 	return slot0:getConfig("trigger_data") == slot1 and slot0:getConfig("trigger_type") == 2
 end
 
-slot0.IsUnlock = function(slot0)
+slot0.IsMatchUnlockConditions = function(slot0)
 	if slot0:getConfig("unlock_condition") == "" or #slot1 == 0 then
 		return true
 	end
@@ -59,22 +56,20 @@ slot0.IsUnlock = function(slot0)
 	end)
 end
 
+slot0.IsUnlock = function(slot0)
+	return slot0:IsMatchUnlockTime() and slot0:IsMatchUnlockConditions()
+end
+
 slot0.IsUnlockWaitTime = function(slot0)
+	if slot0.unlockTime == 0 then
+		return false
+	end
+
 	if slot0:getConfig("unlock_condition") == "" or #slot1 == 0 then
 		return false
 	end
 
-	for slot5, slot6 in ipairs(slot1) do
-		slot7 = IslandTaskConditionType.IsMatch(slot6)
-
-		if slot6[1] == IslandTaskConditionType.IN_TIME and slot7 then
-			return false
-		elseif not slot8 and not slot7 then
-			return false
-		end
-	end
-
-	return true
+	return slot0:IsMatchUnlockConditions() and not slot0:IsMatchUnlockTime()
 end
 
 return slot0

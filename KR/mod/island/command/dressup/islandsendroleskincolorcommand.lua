@@ -2,13 +2,13 @@ slot0 = class("IslandSendRoleSkinColorCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot4 = slot2.skin_id
 	slot6 = getProxy(IslandProxy)
 	slot6 = slot6:GetIsland()
 	slot7 = pg.ConnectionMgr.GetInstance()
 
 	slot7:Send(21619, {
 		ship_id = slot2.ship_id,
-		skin_id = slot2.skin_id,
 		color_id = slot2.color_id
 	}, 21620, function (slot0)
 		if slot0.result == 0 then

@@ -11,9 +11,8 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		lockGlobalBlur = true,
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		lockGlobalBlur = true
 	})
 	slot0:UpdateView()
 

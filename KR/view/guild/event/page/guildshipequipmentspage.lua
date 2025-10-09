@@ -47,7 +47,7 @@ slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:Flush(slot1, slot2)
-	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0.nextBtn, slot0.onNext ~= nil)
 	SetActive(slot0.prevBtn, slot0.onPrev ~= nil)
 end
@@ -101,7 +101,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.OnHide then
 		slot0.OnHide()

@@ -374,13 +374,11 @@ slot0.openRepairEffectBoxPanel = function(slot0, slot1)
 	end)
 	slot12:align(1 + #slot1:getAttrAdditionList() + #slot1:getDescs())
 	setActive(slot0.repairEffectBoxPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.repairEffectBoxPanel, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.repairEffectBoxPanel)
 end
 
 slot0.closeRepairEffectBoxPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.repairEffectBoxPanel)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.repairEffectBoxPanel)
 	setActive(slot0.repairEffectBoxPanel, false)
 end
 
@@ -389,9 +387,7 @@ slot0.openDetailPanel = function(slot0)
 
 	slot1 = pg.UIMgr.GetInstance()
 
-	slot1:BlurPanel(slot0.detailPanel, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	slot1:BlurPanel(slot0.detailPanel)
 
 	slot0.isOpening = true
 	slot1 = slot0:managedTween(LeanTween.value, nil, go(slot0.detailTF), slot0.detailTF.rect.width, 0, 0.3)
@@ -423,7 +419,7 @@ slot0.closeDetailPanel = function(slot0)
 		uv0.isClosing = nil
 
 		setActive(uv0.detailPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.detailPanel)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.detailPanel)
 	end))
 end
 

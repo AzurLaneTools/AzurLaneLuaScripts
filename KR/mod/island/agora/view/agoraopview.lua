@@ -6,10 +6,11 @@ end
 
 slot0.OnInit = function(slot0, slot1)
 	uv0.super.OnInit(slot0, slot1)
+	slot0.opUI:SetAsFirstSibling()
 
 	slot0.agoraPanel = slot0._tf:Find("agora_op_btns")
-	slot0.lookBtn = slot0._tf:Find("look")
-	slot0.moveBtn = slot0._tf:Find("move")
+	slot0.lookBtn = slot0.opUI:Find("look")
+	slot0.moveBtn = slot0.opUI:Find("move")
 	slot0.agoraMoveBtn = slot0.agoraPanel:Find("move")
 	slot0.agoraMoveDirTr = slot0._tf:Find("agora_op_btns/move/Area/dir")
 	slot0.dragBtn = slot0.agoraPanel:Find("drag")
@@ -18,6 +19,9 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.rotationBtn = slot0.dragBtn:Find("rotation")
 	slot0.signInTip = slot0._tf:Find("adapt/signIn_tip")
 	slot0.isDraging = false
+
+	slot0:ShowOrHideGameObject(slot0.agoraPanel, false)
+
 	slot0.animator = slot0.agoraPanel:GetComponent(typeof(Animation))
 	slot0.dftAniEvent = slot0.agoraPanel:GetComponent(typeof(DftAniEvent))
 
@@ -51,6 +55,10 @@ slot0.UpdateSignInTip = function(slot0)
 	end
 end
 
+slot0.ShowMoveBtn = function(slot0, slot1)
+	slot0:ShowOrHideGameObject(slot0.agoraPanel, slot1)
+end
+
 slot0.ActiveDragBtn = function(slot0, slot1)
 	slot0.dftAniEvent:SetEndEvent(nil)
 	slot0:UpdateDragPosition(slot1)
@@ -70,6 +78,9 @@ slot0.InActiveDragBtn = function(slot0)
 	slot0.isDraging = false
 
 	slot0.animator:Stop()
+	removeOnButton(slot0.confirmBtn)
+	removeOnButton(slot0.removeBtn)
+	removeOnButton(slot0.rotationBtn)
 	slot0.dftAniEvent:SetEndEvent(nil)
 	slot0.dftAniEvent:SetEndEvent(function ()
 		uv0.dftAniEvent:SetEndEvent(nil)
@@ -121,19 +132,18 @@ slot0.RemoveDraglistener = function(slot0)
 	slot1:AddDragEndFunc(nil)
 	removeOnButton(slot0.confirmBtn)
 	removeOnButton(slot0.removeBtn)
-	removeOnButton(slot0.removeBtn)
 end
 
 slot0.EnterMode = function(slot0, slot1)
 	if slot1 == AgoraView.MODE_OVERVIEW then
-		setActive(slot0.moveBtn, true)
-		setActive(slot0.agoraMoveBtn, false)
+		slot0:ShowOrHideGameObject(slot0.moveBtn, true)
+		slot0:ShowOrHideGameObject(slot0.agoraPanel, false)
 		slot0:TryEnablePlayerOp()
 		slot0.inputController:ActivePlayerActionMap(IslandConst.PLAYER_INPUT_INDEX)
 		slot0:RemoveEditModeListener()
 	elseif slot1 == AgoraView.MODE_EDIT then
-		setActive(slot0.moveBtn, false)
-		setActive(slot0.agoraMoveBtn, true)
+		slot0:ShowOrHideGameObject(slot0.moveBtn, false)
+		slot0:ShowOrHideGameObject(slot0.agoraPanel, true)
 
 		if not slot0.mode or slot0.mode == AgoraView.MODE_OVERVIEW then
 			slot0:TryDisablePlayerOp()
@@ -152,18 +162,10 @@ slot0.EnterMode = function(slot0, slot1)
 	slot0.mode = slot1
 end
 
-slot0.StartInteraction = function(slot0)
-	slot0.super.StartInteraction(slot0)
-	setActive(slot0.agoraPanel, false)
-end
-
-slot0.EndInteraction = function(slot0)
-	slot0.super.EndInteraction(slot0)
-	setActive(slot0.agoraPanel, true)
-end
-
 slot0.OnEditModeClick = function(slot0, slot1)
-	slot0:Op("TrySelectItem", AgoraCalc.ScreenPostion2MapPosition(slot1))
+	if IslandHelper.Raycast4Agora(slot1, IslandConst.UNIT_LIST_AGORA, IslandConst.LAYER_WORLDMAP3D) > 0 then
+		slot0:Op("TrySelectItemById", slot2)
+	end
 end
 
 slot0.AddEditModeListener = function(slot0)

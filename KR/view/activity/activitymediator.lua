@@ -46,6 +46,7 @@ slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
 slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
 slot0.ON_ACTIVITY_TASK_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_SUBMIT"
+slot0.ON_ACTIVITY_TASK_LIST_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_LIST_SUBMIT"
 slot0.GO_CHANGE_SHOP = "go Change shop"
 slot0.GO_Activity_level = "go Activity level"
 slot0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
@@ -412,6 +413,12 @@ slot0.register = function(slot0)
 			task_ids = {
 				slot1.id
 			}
+		})
+	end)
+	slot0:bind(uv0.ON_ACTIVITY_TASK_LIST_SUBMIT, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+			act_id = slot1.activityId,
+			task_ids = slot1.ids
 		})
 	end)
 	slot0:bind(uv0.GO_SINGLE_PRECOMBAT, function (slot0, slot1)

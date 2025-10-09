@@ -35,7 +35,7 @@ end
 slot0.Hide = function(slot0)
 	LeanTween.cancel(go(slot0.rtFrame))
 	setActive(slot0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0:emit(uv0.HideView, slot0.callback)
 end
 

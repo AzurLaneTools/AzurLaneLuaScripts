@@ -36,7 +36,7 @@ slot0.CollectActivity = function(slot0)
 	slot3 = 0
 	slot4 = nil
 
-	for slot9, slot10 in pairs(getProxy(ActivityProxy):getCorePanelActivity(pg.activity_template[slot0:GetLinkConfig().time[2]].page_core)) do
+	for slot9, slot10 in pairs(getProxy(ActivityProxy):getCorePanelActivities(pg.activity_template[slot0:GetLinkConfig().time[2]].page_core)) do
 		if slot10:readyToAchieve() then
 			slot3 = slot3 + 1
 

@@ -9,84 +9,70 @@ end
 slot0.LoadBg = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = "bg/star_level_bg_" .. slot2
 
+	slot0:ClearBg(slot1:getUIName())
+
 	if checkABExist("ui/star_level_bg_" .. slot2) then
-		slot0:ClearBg(slot1:getUIName())
 		PoolMgr.GetInstance():GetPrefab(slot8, "", true, function (slot0)
-			if not uv0.exited then
-				setParent(slot0, uv1, false)
+			if uv0.exited then
+				PoolMgr.GetInstance():ReturnPrefab(uv1, "", slot0, true)
 
-				if slot0:GetComponent(typeof(CriManaEffectUI)) then
-					slot1.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
-
-					slot1:Pause(false)
-				end
-
-				setActive(uv2, false)
-
-				if uv3 ~= nil then
-					uv3(slot0)
-				end
-
-				uv4:InsertCache(uv0:getUIName(), uv5, slot0)
-			else
-				PoolMgr.GetInstance():DestroyPrefab(uv6, "")
+				return
 			end
+
+			setActive(uv2, false)
+			setParent(slot0, uv3, false)
+
+			if slot0:GetComponent(typeof(CriManaEffectUI)) then
+				slot1.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
+
+				slot1:Pause(false)
+			end
+
+			uv4.cache[uv5] = {
+				path = uv1,
+				dyBg = slot0
+			}
+
+			existCall(uv6, slot0)
 		end, 1)
 	else
-		slot0:ClearBg(slot1:getUIName())
-		GetSpriteFromAtlasAsync(slot7, "", function (slot0)
-			if not uv0.exited then
-				setImageSprite(uv1, slot0)
-				setActive(uv1, true)
+		PoolMgr.GetInstance():GetSprite(slot7, "", true, function (slot0)
+			if uv0.exited then
+				PoolMgr.GetInstance():DecreasSprite(uv1, "")
 
-				if uv2 ~= nil then
-					uv2(slot0)
-				end
-			else
-				PoolMgr.GetInstance():DestroySprite(uv3)
+				return
 			end
+
+			setActive(uv2, true)
+			setImageSprite(uv2, slot0)
+
+			uv3.cache[uv4] = {
+				path = uv1,
+				staticBgTf = uv2,
+				sp = slot0
+			}
+
+			existCall(uv5, slot0)
 		end)
 	end
 end
 
 slot0.ClearBg = function(slot0, slot1)
-	for slot5 = #slot0.cache, 1, -1 do
-		if slot0.cache[slot5].uiName == slot1 then
-			slot7 = "ui/star_level_bg_" .. slot6.bgName
-
-			if IsNil(slot6.dyBg) then
-				table.remove(slot0.cache, slot5)
-
-				return
-			end
-
-			if slot8:GetComponent(typeof(CriManaEffectUI)) then
-				slot9:Pause(true)
-			end
-
-			PoolMgr.GetInstance():ReturnPrefab(slot7, "", slot8)
-
-			if #slot0.cache > 1 then
-				PoolMgr.GetInstance():DestroyPrefab(slot7, "")
-			end
-
-			table.remove(slot0.cache, slot5)
-		end
-	end
-end
-
-slot0.InsertCache = function(slot0, slot1, slot2, slot3)
-	for slot7, slot8 in ipairs(slot0.cache) do
-		if slot8.uiName == slot1 and slot8.bgName == slot2 then
-			slot8.dyBg = slot3
-
-			return
-		end
+	if not slot0.cache[slot1] then
+		return
 	end
 
-	table.insert(slot0.cache, {
-		uiName = slot1,
-		bgName = slot2,
-		dyBg = slot3
-	})
+	if slot0.cache[slot1].dyBg then
+		if slot2.dyBg:GetComponent(typeof(CriManaEffectUI)) then
+			slot3:Pause(true)
+		end
+
+		PoolMgr.GetInstance():ReturnPrefab(slot2.path, "", slot2.dyBg, true)
+	elseif slot2.staticBgTf then
+		PoolMgr.GetInstance():DecreasSprite(slot2.path, "")
+	else
+		assert(false)
+	end
+
+	slot0.cache[slot1] = nil
 end

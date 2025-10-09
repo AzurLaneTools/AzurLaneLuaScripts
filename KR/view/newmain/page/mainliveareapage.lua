@@ -24,7 +24,17 @@ slot0.OnLoaded = function(slot0)
 	slot0._commanderBtn = slot0:findTF("commander_btn")
 	slot0._educateBtn = slot0:findTF("educate_btn")
 	slot0._islandBtn = slot0:findTF("island_btn")
+	slot0.islandAwardTF = slot0._islandBtn:Find("banners/award")
+
+	setText(slot0.islandAwardTF:Find("Text"), i18n("island_post_acceptable"))
+
+	slot1 = slot0._islandBtn
+	slot0.islandEmptyTF = slot1:Find("banners/empty")
+
+	setText(slot0.islandEmptyTF:Find("Text"), i18n("island_post_vacant"))
+
 	slot0._dormBtn = slot0:findTF("dorm_btn")
+	slot0._islandBtnEffect = slot0:findTF("VX", slot0._islandBtn)
 	slot0.coverPage = LivingAreaCoverPage.New(slot0._tf, slot0.event, {
 		onHide = function ()
 			uv0:UpdateCoverTip()
@@ -33,34 +43,43 @@ slot0.OnLoaded = function(slot0)
 			uv0:UpdateCoverTemp(slot0)
 		end
 	})
+	slot4 = {
+		slot5
+	}
+	slot5 = pg.RedDotMgr.TYPES.COMMANDER
+	slot0.redList = {
+		RedDotNode.New(slot0._haremBtn:Find("tip"), {
+			pg.RedDotMgr.TYPES.COURTYARD
+		}),
+		SelfRefreshRedDotNode.New(slot0._academyBtn:Find("tip"), {
+			pg.RedDotMgr.TYPES.SCHOOL
+		}),
+		SelfRefreshRedDotNode.New(slot0._commanderBtn:Find("tip"), slot4)
+	}
 
-	pg.redDotHelper:AddNode(RedDotNode.New(slot0._haremBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.COURTYARD
-	}))
-	pg.redDotHelper:AddNode(SelfRefreshRedDotNode.New(slot0._academyBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.SCHOOL
-	}))
-	pg.redDotHelper:AddNode(SelfRefreshRedDotNode.New(slot0._commanderBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.COMMANDER
-	}))
+	for slot4, slot5 in ipairs(slot0.redList) do
+		pg.redDotHelper:AddNode(slot5)
+	end
 end
 
 slot0.OnInit = function(slot0)
+	slot0.mediator = MainLiveAreaPageMediator.New()
+
 	onButton(slot0, slot0._coverBtn, function ()
 		uv0.coverPage:ExecuteAction("Show")
 	end, SFX_MAIN)
 	onButton(slot0, slot0._commanderBtn, function ()
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COMMANDERCAT, {
+		uv0.mediator:GoScene(SCENE.COMMANDERCAT, {
 			fromMain = true,
 			fleetType = CommanderCatScene.FLEET_TYPE_COMMON
 		})
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._haremBtn, function ()
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COURTYARD)
+		uv0.mediator:GoScene(SCENE.COURTYARD)
 	end, SFX_MAIN)
 	onButton(slot0, slot0._academyBtn, function ()
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.NAVALACADEMYSCENE)
+		uv0.mediator:GoScene(SCENE.NAVALACADEMYSCENE)
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._educateBtn, function ()
@@ -69,11 +88,11 @@ slot0.OnInit = function(slot0)
 		end
 
 		if LOCK_NEW_EDUCATE_SYSTEM then
-			uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
+			uv0.mediator:GoScene(SCENE.EDUCATE, {
 				isMainEnter = true
 			})
 		else
-			uv0:emit(NewMainMediator.GO_SCENE, SCENE.NEW_EDUCATE_SELECT)
+			uv0.mediator:GoScene(SCENE.NEW_EDUCATE_SELECT)
 		end
 
 		uv0:Hide()
@@ -83,11 +102,58 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		uv0:emit(NewMainMediator.GO_ISLAND, getProxy(PlayerProxy):getRawData().id)
-		uv0:Hide()
+		slot0 = function()
+			uv0.mediator:GoIsland(getProxy(PlayerProxy):getRawData().id)
+			uv0:Hide()
+		end
+
+		slot1 = "MAP"
+
+		if Application.isEditor or GroupHelper.IsGroupVerLastest(slot1) or not GroupHelper.IsGroupWaitToUpdate(slot1) then
+			slot0()
+
+			return
+		end
+
+		slot2 = {}
+		slot3 = GroupHelper.GetGroupSize(slot1)
+		slot4 = HashUtil.BytesToString(slot3)
+
+		if slot3 > 0 then
+			table.insert(slot2, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					modal = true,
+					locked = true,
+					type = MSGBOX_TYPE_FILE_DOWNLOAD,
+					content = string.format(i18n("group_download_tip", uv0)),
+					onYes = slot0
+				})
+			end)
+		end
+
+		table.insert(slot2, function (slot0)
+			slot1 = {}
+
+			if GroupHelper.GetGroupMgrByName(uv0).toUpdate then
+				for slot7 = 0, slot2.toUpdate.Count - 1 do
+					table.insert(slot1, slot2.toUpdate[slot7][0])
+				end
+			end
+
+			pg.FileDownloadMgr.GetInstance():Main({
+				dataList = {
+					{
+						groupName = uv0,
+						fileNameList = slot1
+					}
+				},
+				onFinish = slot0
+			})
+		end)
+		seriesAsync(slot2, slot0)
 	end, SFX_MAIN)
 	onButton(slot0, slot0._dormBtn, function ()
-		uv0:emit(NewMainMediator.OPEN_DORM_SELECT_LAYER)
+		uv0.mediator:OpenDormSelectLayer()
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._tf, function ()
@@ -95,10 +161,10 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 end
 
-slot0.Show = function(slot0)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		staticBlur = true
 	})
 
 	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator") then
@@ -107,13 +173,13 @@ slot0.Show = function(slot0)
 		slot0._commanderBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "CourtYardMediator") then
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot3.level, "CourtYardMediator") then
 		slot0._haremBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
 		slot0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, LOCK_NEW_EDUCATE_SYSTEM and "EducateMediator" or "NewEducateSelectMediator") then
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot3.level, LOCK_NEW_EDUCATE_SYSTEM and "EducateMediator" or "NewEducateSelectMediator") then
 		slot0._educateBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
 		slot0._educateBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
@@ -121,18 +187,24 @@ slot0.Show = function(slot0)
 
 	setActive(slot0._educateBtn:Find("tip"), NewEducateHelper.IsShowNewChildTip())
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "SelectDorm3DMediator") then
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot3.level, "SelectDorm3DMediator") then
 		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
 		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
 	(function ()
-		slot2 = uv0 and Dorm3dFurniture.IsTimelimitShopTip()
-
-		setActive(uv1._dormBtn:Find("tip"), not slot2 and (uv0 and Dorm3dGift.NeedViewTip() or uv0 and Dorm3dFurniture.NeedViewTip()))
-		setActive(uv1._dormBtn:Find("tagFurniture"), slot2)
+		setActive(uv1._dormBtn:Find("tip"), uv0 and Dorm3dShopUI.ShouldShowAllTip())
+		setActive(uv1._dormBtn:Find("tagFurniture"), uv0 and Dorm3dFurniture.IsTimelimitShopTip())
 	end)()
+
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot3.level, "IslandMediator") then
+		slot0._islandBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	else
+		slot0._islandBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+	end
+
+	slot0:UpdataIslandTip()
 	slot0:UpdateCover()
 	slot0:UpdateCoverTip()
 	slot0:UpdateTime()
@@ -142,6 +214,11 @@ slot0.Show = function(slot0)
 	end, 60, -1)
 
 	slot0.timer:Start()
+	setActive(slot0._islandBtnEffect, tobool(slot1))
+
+	if slot2 then
+		slot2()
+	end
 end
 
 slot0.UpdateTime = function(slot0)
@@ -151,8 +228,8 @@ slot0.UpdateTime = function(slot0)
 	setActive(slot0:findTF("PM", slot0._bg), not slot3)
 	setActive(slot0:findTF("day", slot0._bg), slot0:getCoverType(slot2) == LivingAreaCover.TYPE_DAY)
 	setActive(slot0:findTF("night", slot0._bg), slot4 == LivingAreaCover.TYPE_NIGHT)
-	setActive(slot0:findTF("day", slot0._islandBtn), slot4 == LivingAreaCover.TYPE_DAY)
-	setActive(slot0:findTF("night", slot0._islandBtn), slot4 ~= LivingAreaCover.TYPE_DAY)
+	setActive(slot0:findTF("lock/day", slot0._islandBtn), slot4 == LivingAreaCover.TYPE_DAY)
+	setActive(slot0:findTF("lock/night", slot0._islandBtn), slot4 ~= LivingAreaCover.TYPE_DAY)
 	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
 
 	slot6 = slot1:CurrentSTimeDesc(":%M", true)
@@ -206,6 +283,19 @@ slot0.UpdateCoverTip = function(slot0)
 	setActive(slot0:findTF("tip", slot0._coverBtn), getProxy(LivingAreaCoverProxy):IsTip())
 end
 
+slot0.UpdataIslandTip = function(slot0)
+	setActive(slot0._islandBtn:Find("banners"), not LOCK_ISLAND_DISPLAY)
+
+	if LOCK_ISLAND_DISPLAY then
+		return
+	end
+
+	slot1, slot2 = getProxy(SystemTipProxy):GetIslandTipInfos()
+
+	setActive(slot0.islandAwardTF, slot1 > 0)
+	setActive(slot0.islandEmptyTF, slot2 > 0)
+end
+
 slot0.Hide = function(slot0)
 	if slot0.coverPage and slot0.coverPage:GetLoaded() and slot0.coverPage:isShowing() then
 		slot0.coverPage:Hide()
@@ -215,7 +305,7 @@ slot0.Hide = function(slot0)
 
 	if slot0:isShowing() then
 		uv0.super.Hide(slot0)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	end
 
 	if slot0.timer ~= nil then
@@ -226,6 +316,16 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	for slot4, slot5 in ipairs(slot0.redList) do
+		pg.redDotHelper:RemoveNode(slot5)
+	end
+
+	slot0.redList = nil
+
+	slot0.mediator:Dispose()
+
+	slot0.mediator = nil
+
 	slot0:Hide()
 	slot0.coverPage:Destroy()
 

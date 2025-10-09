@@ -67,7 +67,7 @@ slot0.UpdateSendBtn = function(slot0)
 
 	onButton(slot0, slot0.sendBtn, function ()
 		if uv0.existBossBattle then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 			return
 		end
@@ -122,7 +122,7 @@ slot0.UpdateSlot = function(slot0, slot1, slot2, slot3)
 		end
 
 		if uv1.existBossBattle then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 			return
 		end
@@ -143,7 +143,7 @@ slot0.RefreshCdTimer = function(slot0, slot1)
 	if not getProxy(GuildProxy):CanFormationPos(slot1) then
 		slot0.cdTimer[slot1] = Timer.New(function ()
 			if getProxy(GuildProxy):GetNextCanFormationTime(uv0) - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-				uv1.text = pg.TimeMgr:GetInstance():DescCDTime(slot1)
+				uv1.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 			else
 				setActive(uv2, false)
 				setActive(uv3:Find("tag"), isActive(uv4))

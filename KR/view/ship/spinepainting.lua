@@ -130,29 +130,34 @@ end
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._spinePaintingData = slot1
-	slot0._loader = AutoLoader.New()
+	slot0._loadSpineDic = {}
+	slot0._loadUIDic = {}
 
 	parallelAsync({
 		function (slot0)
 			slot1 = uv0._spinePaintingData
-			slot2, slot3 = HXSet.autoHxShift("spinepainting/", slot1:GetShipName())
+			slot1 = slot1:GetShipName()
+			slot2, slot3 = HXSet.autoHxShift("spinepainting/", slot1)
 			slot4 = slot2 .. slot3
-			slot5 = uv0._loader
+			slot5 = PoolMgr.GetInstance()
 
-			slot5:LoadPrefab(slot4, nil, function (slot0)
-				uv0(uv1, slot0)
-				uv2()
-			end, slot4)
+			slot5:GetSpinePainting(slot1, true, function (slot0)
+				uv0._loadSpineDic[uv1] = slot0
+
+				uv2(uv0, slot0)
+				uv3()
+			end)
 		end,
 		function (slot0)
 			if uv0._spinePaintingData.bgEffectName ~= nil then
-				slot2 = "ui/" .. slot1
-				slot3 = uv0._loader
+				slot2 = PoolMgr.GetInstance()
 
-				slot3:LoadPrefab(slot2, "", function (slot0)
-					uv0(uv1, slot0)
-					uv2()
-				end, slot2)
+				slot2:GetUI(slot1, true, function (slot0)
+					uv0._loadUIDic[uv1] = slot0
+
+					uv2(uv0, slot0)
+					uv3()
+				end)
 			else
 				slot0()
 			end
@@ -667,7 +672,16 @@ slot0.Dispose = function(slot0)
 		slot0._spinePaintingData:Clear()
 	end
 
-	slot0._loader:Clear()
+	for slot4, slot5 in pairs(slot0._loadSpineDic) do
+		PoolMgr.GetInstance():ReturnSpinePainting(slot4, slot5)
+	end
+
+	for slot4, slot5 in pairs(slot0._loadUIDic) do
+		PoolMgr.GetInstance():ReturnUI(slot4, slot5)
+	end
+
+	slot0._loadSpineDic = {}
+	slot0._loadUIDic = {}
 
 	if slot0._go ~= nil then
 		uv0.Destroy(slot0._go)

@@ -32,10 +32,19 @@ pg.dorm3d_dorm_template = {
 		id = 10517,
 		default_appellation = "지휘관"
 	},
+	[30707] = {
+		skin_model = 307071,
+		name = "다이호",
+		bind_room = 12,
+		asset_name = "Dafeng_DB",
+		id = 30707,
+		default_appellation = "지휘관님"
+	},
 	all = {
 		20220,
 		30221,
 		19903,
-		10517
+		10517,
+		30707
 	}
 }

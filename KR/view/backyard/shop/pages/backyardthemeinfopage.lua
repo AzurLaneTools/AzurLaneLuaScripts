@@ -197,9 +197,7 @@ end
 
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	if slot0.OnEnter then
 		slot0.OnEnter()

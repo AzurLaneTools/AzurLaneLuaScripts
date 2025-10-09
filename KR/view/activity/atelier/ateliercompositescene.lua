@@ -1359,7 +1359,7 @@ slot0.HideCompositeConfirmWindow = function(slot0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.layerCompositeConfirm, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.layerCompositeConfirm, slot0._tf)
 	setActive(slot0.layerCompositeConfirm, false)
 
 	return true
@@ -1381,9 +1381,7 @@ slot0.OnCompositeResult = function(slot0, slot1)
 	slot4:GetPrefab("ui/" .. uv0, "", function (slot0)
 		slot1 = pg.UIMgr.GetInstance()
 
-		slot1:OverlayPanel(tf(slot0), {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		slot1:OverlayPanel(tf(slot0))
 		setAnchoredPosition(slot0, Vector2.zero)
 
 		slot1 = uv0
@@ -1468,7 +1466,7 @@ slot0.HideCompositeResult = function(slot0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.layerCompositeResult, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.layerCompositeResult, slot0._tf)
 	setActive(slot0.layerCompositeResult, false)
 
 	if pg.NewStoryMgr.GetInstance():IsPlayed("NG0032") then
@@ -1523,7 +1521,7 @@ slot0.HideStoreHouseWindow = function(slot0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.layerStoreHouse, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.layerStoreHouse, slot0._tf)
 	setActive(slot0.layerStoreHouse, false)
 
 	return true
@@ -1673,7 +1671,7 @@ slot0.HideMaterialsPreview = function(slot0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.layerMaterialsPreview, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.layerMaterialsPreview, slot0._tf)
 	setActive(slot0.layerMaterialsPreview, false)
 
 	return true

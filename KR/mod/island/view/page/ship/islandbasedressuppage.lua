@@ -105,19 +105,26 @@ slot0.LoadCharacter = function(slot0, slot1)
 		setParent(uv0.role, uv0.roleContainer)
 
 		uv0.role.transform.eulerAngles = Vector3(0, 180, 0)
-		slot1 = uv0:GetSmoothRotateObject()
+		slot1 = 0
 
-		slot1:SetUp(uv0.role.transform)
+		if uv0._tf.rect.width / uv0._tf.rect.height < 1.7777777777777777 then
+			slot1 = 0 - 0.5 * (1.7777777777777777 - slot2) / 0.4444444444444444
+		end
 
-		slot1.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		uv0.role.transform.localPosition = Vector3(slot1, 0, 0)
+		slot4 = GetOrAddComponent(uv0:GetSmoothRotateObject(), typeof(SmoothRotateObject))
+
+		slot4:SetUp(uv0.role.transform)
+
+		slot4.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
 		uv0:OnCharLoaded()
 	end)
 end
 
 slot0.UnloadCharacter = function(slot0)
-	if slot0:GetSmoothRotateObject() then
-		Object.Destroy(slot1)
+	if slot0:GetSmoothRotateObject():GetComponent(typeof(SmoothRotateObject)) then
+		Object.Destroy(slot2)
 	end
 
 	if slot0.role then

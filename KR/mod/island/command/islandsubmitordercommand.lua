@@ -86,12 +86,18 @@ slot0.HandleFirmOrder = function(slot0, slot1)
 		order_id = slot1.id
 	}, 21415, function (slot0)
 		if slot0.result == 0 then
+			slot1 = uv0:HandleDrops(uv1)
+
 			uv0:HandleConsume(uv1)
 			uv2:RemoveSlot(uv1.id)
 			uv2:RecordNextCanSubmitTime()
-			uv2:AddExp(uv1:GetOrder():GetExpValue())
+
+			if not isa(uv1:GetOrder(), IslandFirmActivityOrder) then
+				uv2:AddExp(slot2:GetExpValue())
+			end
+
 			uv0:sendNotification(GAME.ISLAND_SUBMIT_ORDER_DONE, {
-				dropData = uv0:HandleDrops(uv1),
+				dropData = slot1,
 				slotId = uv1.id
 			})
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_FORM, uv1.id))

@@ -27,16 +27,15 @@ slot0.CommonInit = function(slot0)
 	slot0._popup = slot0._costContainer:Find("popup")
 	slot0._costText = slot0._popup:Find("Text")
 	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
 	slot0._autoToggle = slot0:findTF("auto_toggle")
 	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
 	slot0._fleetInfo = slot0._tf:Find("right/fleet_info")
 	slot0._fleetNameText = slot0._fleetInfo:Find("fleet_name/Text")
-	slot2 = slot0._fleetInfo
-	slot0._fleetNumText = slot2:Find("fleet_number")
+	slot0._fleetNumText = slot0._fleetInfo:Find("fleet_number")
 
 	setActive(slot0._fleetInfo, true)
 
+	slot1 = slot0:findTF("middle")
 	slot0._mainGS = slot1:Find("gear_score/main/Text")
 	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
 	slot0._subGS = slot1:Find("gear_score/submarine/Text")
@@ -97,6 +96,8 @@ slot0.CommonInit = function(slot0)
 	slot0:SetStageID(slot0.contextData.stageId)
 
 	slot0.commanderFormationPanel = LimitChallengeCommanderFormationPage.New(slot0._tf, slot0.event, slot0.contextData)
+
+	slot0.commanderFormationPanel:RegisterView(slot0)
 end
 
 slot0.Register = function(slot0)
@@ -402,6 +403,8 @@ slot0.uiExitAnimating = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).interactable = true
+
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = uv0
 
@@ -416,9 +419,9 @@ slot0.didEnter = function(slot0)
 		end))
 	end, SFX_CANCEL)
 
-	slot3 = slot0._tf
+	slot4 = slot0._tf
 
-	onButton(slot0, slot3:Find("blur_panel/top/option"), function ()
+	onButton(slot0, slot4:Find("blur_panel/top/option"), function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
@@ -450,15 +453,15 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL, SFX_PANEL)
 
-	slot3 = slot0._tf
+	slot4 = slot0._tf
 
-	onButton(slot0, slot3:Find("bottom/fleet_select/regular"), function ()
+	onButton(slot0, slot4:Find("bottom/fleet_select/regular"), function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_FLEET_ID)
 	end, SFX_PANEL)
 
-	slot3 = slot0._tf
+	slot4 = slot0._tf
 
-	onButton(slot0, slot3:Find("bottom/fleet_select/sub"), function ()
+	onButton(slot0, slot4:Find("bottom/fleet_select/sub"), function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_SUB_FLEET_ID)
 	end, SFX_PANEL)
 
@@ -471,9 +474,7 @@ slot0.didEnter = function(slot0)
 		uv0:uiStartAnimating()
 	end)
 	slot0:SetFleetStepper()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
-	})
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.UpdateSubToggle = function(slot0)
@@ -539,11 +540,12 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0.commanderFormationPanel:Destroy()
 	slot0._formationLogic:Destroy()
 
 	slot0._formationLogic = nil
+
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

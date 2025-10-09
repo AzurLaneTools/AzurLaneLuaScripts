@@ -70,14 +70,13 @@ end
 
 slot0.UpdateBuildPoolPaiting = function(slot0)
 	if slot0.painting ~= slot0.contextData.falgShip:getPainting() then
-		slot2 = pg.UIMgr
-		slot2 = slot2:GetInstance()
+		slot2 = pg.UIMgr.GetInstance()
 
 		slot2:LoadingOn()
 		setPaintingPrefabAsync(slot0.patingTF, slot1, "build", function ()
 			uv0.painting = uv1
 
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	end
 end

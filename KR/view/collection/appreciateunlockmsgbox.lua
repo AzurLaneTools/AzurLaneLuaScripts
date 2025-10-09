@@ -57,9 +57,7 @@ slot0.showCustomMsgBox = function(slot0, slot1)
 	slot0.settings = slot1
 
 	setActive(slot0.customMsgbox, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox)
 
 	slot2 = slot1.items and #slot1.items > 0
 

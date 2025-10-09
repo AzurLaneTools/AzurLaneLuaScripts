@@ -33,8 +33,13 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 		slot0.director:Stop()
 	end
 
+	slot1:ActiveOrDisactive(false)
+
 	if slot7 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
+		slot0:SetPlayerTransform(slot1, slot0._go.transform)
+	else
+		slot0:SetVisitorTransform(slot1, slot0._go.transform)
 	end
 
 	if slot5 and #slot5 > 1 then
@@ -44,7 +49,6 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 	slot0.director.playableAsset = slot0.timelineDic[slot3]
 	slot0.director.extrapolationMode = slot4.is_loop and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
 
-	slot0:SetPlayerTransform(slot1, slot0._go.transform)
 	slot0:BindPlayer(slot2, slot1)
 	slot0:BindSelf(slot4)
 
@@ -55,19 +59,27 @@ end
 
 slot0.EndInteract = function(slot0, slot1, slot2, slot3, slot4)
 	if slot3 then
+		slot0.director.time = 0
+
+		slot0.director:Evaluate()
 		slot0.director:Stop()
 
 		slot0.director.enabled = true
 	end
 
-	if slot4 then
-		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", false)
-	end
-
 	slot0:BindPlayer(slot2, nil)
-	onNextTick(function ()
-		uv0:RevertPlayerTransform(uv1)
-	end)
+	slot1:ActiveOrDisactive(true)
+
+	if slot4 then
+		slot5 = slot0.behaviourTreeOwner.graph.blackboard
+
+		slot5:SetVariableValue("inProgress", false)
+		onNextTick(function ()
+			uv0:RevertPlayerTransform(uv1)
+		end)
+	else
+		slot0:RevertVisitorTransform(slot1)
+	end
 end
 
 slot0.InitStatus = function(slot0, slot1, slot2, slot3)
@@ -91,14 +103,14 @@ slot0.InitStatus = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.BindSelf = function(slot0, slot1)
-	if TimelineHelper.GetGroupTracks(slot0.director).Length > 0 and slot0._go.transform.childCount > 0 then
-		for slot7 = 0, TimelineHelper.GetChildTracks(slot2[0]).Length - 1 do
-			slot8, slot9 = table.Find(slot1.binding_track, function (slot0, slot1)
-				return slot1 == uv0[uv1].name
+	if #TimelineHelper.GetGroupTracks(slot0.director):ToTable() > 0 then
+		for slot7, slot8 in ipairs(TimelineHelper.GetChildTracks(slot2[1]):ToTable()) do
+			slot9, slot10 = table.Find(slot1.binding_track, function (slot0, slot1)
+				return slot1 == uv0
 			end)
 
-			if slot9 ~= nil then
-				TimelineHelper.SetAutoBinding(slot0.director, slot3[slot7], go(slot0._go.transform:Find(string.find(slot1.binding_path[slot9], "/") and string.sub(slot10, 1, slot11 - 1) .. "(Clone)" .. string.sub(slot10, slot11) or slot10 .. "(Clone)")))
+			if slot10 ~= nil and slot0._go.transform:Find(slot1.binding_path[slot10]) then
+				TimelineHelper.SetAutoBinding(slot0.director, slot8, go(slot12))
 			end
 		end
 	end
@@ -106,10 +118,15 @@ end
 
 slot0.BindPlayer = function(slot0, slot1, slot2)
 	slot4 = slot2 and go(slot2._go.transform:GetChild(0))
+	slot5 = slot2 and slot2._go
 
-	if slot1 < TimelineHelper.GetGroupTracks(slot0.director).Length then
-		for slot9 = 0, TimelineHelper.GetChildTracks(slot3[slot1]).Length - 1 do
-			TimelineHelper.SetAutoBinding(slot0.director, slot5[slot9], slot4)
+	if slot1 < #TimelineHelper.GetGroupTracks(slot0.director):ToTable() then
+		for slot10, slot11 in ipairs(TimelineHelper.GetChildTracks(slot3[slot1 + 1]):ToTable()) do
+			if slot10 == 1 then
+				TimelineHelper.SetAutoBinding(slot0.director, slot11, slot5)
+			else
+				TimelineHelper.SetAutoBinding(slot0.director, slot11, slot4)
+			end
 		end
 	end
 end
@@ -119,9 +136,12 @@ slot0.SetPlayerTransform = function(slot0, slot1, slot2)
 		position = slot1._tf.position,
 		rotation = slot1._tf.rotation
 	}
-	slot1._tf.position = slot2.position
 
-	slot1:SetTargetRotation(slot2.rotation)
+	setParent(slot1._tf, slot2)
+
+	slot1._tf.localPosition = Vector3.zero
+	slot1._tf.localRotation = Quaternion.identity
+	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = true
 end
 
 slot0.RevertPlayerTransform = function(slot0, slot1)
@@ -129,11 +149,26 @@ slot0.RevertPlayerTransform = function(slot0, slot1)
 		return
 	end
 
+	setParent(slot1._tf, slot0.view.root)
+
 	slot1._tf.position = slot0.cachePlayerTransformInfo.position
-
-	slot1:SetTargetRotation(slot0.cachePlayerTransformInfo.rotation)
-
+	slot1._tf.rotation = slot0.cachePlayerTransformInfo.rotation
+	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = false
 	slot0.cachePlayerTransformInfo = nil
+end
+
+slot0.SetVisitorTransform = function(slot0, slot1, slot2)
+	setParent(slot1._tf, slot2)
+
+	slot1._tf.localPosition = Vector3.zero
+	slot1._tf.localRotation = Quaternion.identity
+	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = true
+end
+
+slot0.RevertVisitorTransform = function(slot0, slot1)
+	setParent(slot1._tf, slot0.view.root)
+
+	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = false
 end
 
 return slot0

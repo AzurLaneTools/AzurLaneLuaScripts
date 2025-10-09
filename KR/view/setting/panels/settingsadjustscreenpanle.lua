@@ -1,4 +1,4 @@
-slot0 = class("SettingsAdjustScreenPanle", import(".SettingsBasePanel"))
+slot0 = class("IslandSettingsAdjustScreenPanle", import(".SettingsBasePanel"))
 
 slot0.GetUIName = function(slot0)
 	return "SettingsAdjustScreen"

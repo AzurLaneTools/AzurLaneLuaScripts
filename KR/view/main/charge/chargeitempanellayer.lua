@@ -21,7 +21,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.initData = function(slot0)
@@ -80,30 +80,59 @@ slot0.addListener = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot0 = function()
-			if uv0.panelConfig.onYes then
-				uv0.panelConfig.onYes()
-				uv0:closeView()
-			end
-		end
+		slot0 = {}
 
 		if uv0.panelConfig.limitArgs and type(slot1) == "table" and slot1[1] and type(slot2) == "table" and #slot2 >= 2 then
-			slot4 = slot2[2]
+			slot3, slot4 = unpack(slot2)
 			slot5 = getProxy(PlayerProxy):getRawData()
 
-			if slot2[1] == "lv_70" and slot4 <= slot5.level then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("lv70_package_tip"),
-					onYes = function ()
-						uv0()
-					end
-				})
-
-				return
+			if slot3 == "lv_70" and slot4 <= slot5.level then
+				table.insert(slot0, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("lv70_package_tip"),
+						onYes = slot0
+					})
+				end)
 			end
 		end
 
-		slot0()
+		slot5 = ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING
+
+		for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot5)) do
+			if not uv0.panelConfig.isChargeType then
+				break
+			end
+
+			if not slot6:isEnd() and table.contains(slot6:getConfig("config_data")[1], uv0.panelConfig.commodity.id) and getProxy(ActivityProxy):getActivityById(Drop.New({
+				type = DROP_TYPE_VITEM,
+				id = slot6:GetConfigClientSetting("item_id")
+			}):getConfig("link_id")) and not slot8:isEnd() then
+				assert(slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SKIN_COUPON)
+
+				slot9, slot10 = slot8:GetOwnCount()
+
+				table.insert(slot0, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("SkinDiscount_Owned_Tips", uv0, uv1),
+						onYes = slot0
+					})
+				end)
+
+				if slot8:GetCanUsageCnt() + slot6:getData1() + 1 > slot10 - slot9 - 1 then
+					table.insert(slot0, function (slot0)
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							content = i18n("SkinDiscount_Last_Coupon"),
+							onYes = slot0
+						})
+					end)
+				end
+			end
+		end
+
+		seriesAsync(slot0, function ()
+			existCall(uv0.panelConfig.onYes)
+			uv0:closeView()
+		end)
 	end, SFX_PANEL)
 end
 

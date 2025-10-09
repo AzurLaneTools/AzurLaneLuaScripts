@@ -312,7 +312,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	end
 end
 
-slot0.Puase = function(slot0)
+slot0.Pause = function(slot0)
 	if slot0.state ~= uv0 then
 		uv1("state is not 'running'")
 
@@ -548,11 +548,11 @@ slot0.RegistSkipBtn = function(slot0)
 			return
 		end
 
-		uv0:Puase()
+		uv0:Pause()
 
 		uv0.isOpenMsgbox = true
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			parent = rtf(uv0._tf:Find("front")),
 			content = i18n("story_skip_confirm"),
 			onYes = function ()
@@ -563,8 +563,7 @@ slot0.RegistSkipBtn = function(slot0)
 				uv0.isOpenMsgbox = false
 
 				uv0:Resume()
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end, SFX_PANEL)
 end
@@ -819,7 +818,7 @@ slot0.Clear = function(slot0)
 	slot0:SendNotification(GAME.STORY_END)
 
 	if slot0.isOpenMsgbox then
-		pg.MsgboxMgr:GetInstance():hide()
+		pg.MsgboxMgr.GetInstance():hide()
 	end
 
 	slot0:RevertBgmVolumeValue()

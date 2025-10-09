@@ -34,7 +34,7 @@ slot0.execute = function(slot0, slot1)
 			uv1:sendNotification(GAME.GUILD_REFRESH_MISSION_DONE, {
 				id = slot4.id
 			})
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 
 			if uv2 then
 				uv2()

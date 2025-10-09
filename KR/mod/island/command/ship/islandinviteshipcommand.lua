@@ -18,6 +18,8 @@ slot0.execute = function(slot0, slot1)
 			uv2:sendNotification(GAME.ISLAND_INVITE_SHIP_DONE, {
 				ship = slot1
 			})
+			IslandBookHelper.OnAddNewShip(slot1.id)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.UNLOCK_SHIP)
 			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandUnlockShip(uv1))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

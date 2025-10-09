@@ -1,4 +1,4 @@
-slot0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandInteractUnit"))
+slot0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandSceneUnit"))
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot3)
@@ -35,6 +35,9 @@ end
 
 slot0.OnInit = function(slot0, slot1, slot2)
 	slot0._go = slot1
+
+	UIUtil.SetLayerRecursively(slot0._go, LayerMask.NameToLayer(IslandConst.LAYER_WORLDMAP3D))
+
 	slot0.builder = slot2
 	slot0.root.name = slot0.data.id
 

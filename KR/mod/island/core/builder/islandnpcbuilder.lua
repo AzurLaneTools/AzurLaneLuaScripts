@@ -9,6 +9,8 @@ slot0.SetTag = function(slot0, slot1)
 end
 
 slot0.AddComponents = function(slot0, slot1, slot2)
+	uv0.super.AddComponents(slot0, slot1, slot2)
+
 	slot3 = GetOrAddComponent(slot1, typeof(CharacterController))
 	slot3.slopeLimit = 50
 	slot3.stepOffset = 0.3

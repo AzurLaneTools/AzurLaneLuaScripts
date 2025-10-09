@@ -43,7 +43,7 @@ slot0.OnDestroy = function(slot0)
 
 	slot0.awards = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.displayAwards = function(slot0)

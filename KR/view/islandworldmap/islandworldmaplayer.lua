@@ -14,9 +14,7 @@ slot0.didEnter = function(slot0)
 	slot0:initPanel()
 	slot0:initButtonEvent()
 	slot0:initMapTestButton()
-	pg.UIMgr.GetInstance():BlurPanel(slot0.ad, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0.ad)
 end
 
 slot0.initPanel = function(slot0)
@@ -76,7 +74,7 @@ slot0.willExit = function(slot0)
 	slot0.mapContainer:dispose()
 	slot0.buildPanel:dispose()
 	slot0.missionPanel:dispose()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.ad, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.ad, slot0._tf)
 end
 
 return slot0

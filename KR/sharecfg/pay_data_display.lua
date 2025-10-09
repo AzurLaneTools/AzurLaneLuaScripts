@@ -93,6 +93,7 @@ pg.pay_data_display = setmetatable({
 		97,
 		98,
 		99,
+		9001,
 		1000,
 		1001,
 		1002,
@@ -11194,6 +11195,120 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				2024
+			}
+		}
+	},
+	[9001] = {
+		picture = "fudai29",
+		name = "스킨 패키지(스포츠, 레이스퀸)",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "<size=18>다음 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아로 변환), 그리고 기타 아이템을 획득할 수 있습니다.</size>",
+		subject = "스킨 패키지(스포츠, 레이스퀸)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 9900,
+		descrip_extra = "※복주머니는 우편함으로 발송됩니다.\n※모두 소지하고 있는 경우에는 자동으로 다이아×680개로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift161",
+		extra_gem = 0,
+		id = 9001,
+		airijp_id = "com.yostarjp.azurlane.diamond188",
+		name_display = "스킨 패키지(스포츠, 레이스퀸)",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86219,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86219,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81219,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86219,
+				1
 			}
 		}
 	},

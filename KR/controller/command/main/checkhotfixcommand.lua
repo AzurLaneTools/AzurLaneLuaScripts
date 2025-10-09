@@ -33,7 +33,6 @@ slot0.execute = function(slot0, slot1)
 					locked = true,
 					hideNo = true,
 					content = i18n("new_version_tip"),
-					weight = LayerWeightConst.TOP_LAYER,
 					onYes = function ()
 						Application.Quit()
 					end,

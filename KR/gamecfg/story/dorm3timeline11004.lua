@@ -20,7 +20,7 @@ return {
 					op_list = {
 						{
 							sceneRoot = "Xinzexi_DB/Newjerseyhostel",
-							name = "FFliwu_01",
+							name = "FFliwu_10517_01",
 							scene = "map_newjerseyhostel_01",
 							type = "timeline",
 							skip = false,

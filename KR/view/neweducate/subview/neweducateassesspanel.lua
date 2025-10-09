@@ -52,9 +52,8 @@ slot0.Show = function(slot0, slot1)
 
 	slot0.callback = slot1
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 1
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 1
 	})
 	slot0:InitData()
 	slot0:InitStaticUI()
@@ -291,7 +290,7 @@ slot0.GetAnimationState = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 
 	if slot0.bossName and slot0.bossModel then
 		slot0:GetAnimationState(slot0.bossModel).TimeScale = 1

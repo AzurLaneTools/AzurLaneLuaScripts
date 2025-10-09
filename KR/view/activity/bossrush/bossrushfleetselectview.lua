@@ -14,7 +14,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:InitUI()
 end
 
@@ -273,7 +273,7 @@ slot0.ShowDropDetail = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.onCancelHard = function(slot0)

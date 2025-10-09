@@ -24,9 +24,7 @@ slot0.Show = function(slot0, slot1, slot2)
 	slot0._tf.localPosition = slot2
 	slot0._parentTf = slot0._tf.parent
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		overlayType = LayerWeightConst.OVERLAY_UI_TOP
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
 slot0.UpdateDesc = function(slot0, slot1)
@@ -47,7 +45,7 @@ end
 slot0.UpdateDescPreSce = function(slot0, slot1)
 	slot2 = slot1:getConfig("desc")
 
-	if slot1.timestamp - pg.TimeMgr:GetInstance():GetServerTime() > 0 then
+	if slot1.timestamp - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		slot0.descTxt.text = string.gsub(slot2, "$1", pg.TimeMgr.GetInstance():DescCDTime(slot4))
 	else
 		slot0:Hide()

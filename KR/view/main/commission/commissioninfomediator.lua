@@ -198,7 +198,6 @@ slot0.handleNotification = function(slot0, slot1)
 					hideNo = false,
 					hideClose = true,
 					content = slot9 .. i18n("tactics_continue_to_learn"),
-					weight = LayerWeightConst.THIRD_LAYER,
 					onYes = function ()
 						uv0.openMsgBox = false
 
@@ -266,7 +265,6 @@ slot0.HandleClassMaxLevel = function(slot0, slot1, slot2, slot3, slot4)
 			modal = true,
 			hideClose = true,
 			content = slot5 .. i18n("tactics_continue_to_learn_other_skill"),
-			weight = LayerWeightConst.THIRD_LAYER,
 			onYes = function ()
 				uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 					shipToLesson = {

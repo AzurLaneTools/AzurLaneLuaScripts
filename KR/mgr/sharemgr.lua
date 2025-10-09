@@ -310,7 +310,11 @@ slot1.ShowOwnUI = function(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
 
 	if not slot4 then
-		uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, true, slot3)
+		uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, setmetatable({
+			staticBlur = true
+		}, {
+			__index = slot3
+		}))
 	end
 
 	onButton(slot0, slot0.panel:Find("main/top/btnBack"), function ()
@@ -335,7 +339,7 @@ slot1.Dispose = function(slot0)
 	slot0.go:SetActive(false)
 
 	if slot0.panel and not slot0.noBlur then
-		uv0.UIMgr.GetInstance():UnblurPanel(slot0.panel, slot0.tr)
+		uv0.UIMgr.GetInstance():UnOverlayPanel(slot0.panel, slot0.tr)
 	end
 
 	PoolMgr.GetInstance():ReturnUI("ShareUI", slot0.go)

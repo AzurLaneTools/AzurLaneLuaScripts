@@ -34,6 +34,12 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
+	for slot4, slot5 in pairs(slot0.pageDic) do
+		if slot5.onBackPressed and slot5:onBackPressed() then
+			return
+		end
+	end
+
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
@@ -79,22 +85,31 @@ slot0.init = function(slot0)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if uv0.pageDic[uv0.activities[slot1 + 1].id] ~= nil then
-				if slot3:getConfig("title_res_tag") then
-					setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot5 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
-					setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot5 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
-					setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
-					onToggle(uv0, slot2, function (slot0)
-						if slot0 then
-							uv0:selectActivity(uv1)
-						end
-					end, SFX_PANEL)
-				else
-					onToggle(uv0, slot2, function (slot0)
-						uv0:loadActivityPanel(slot0, uv1)
-					end, SFX_PANEL)
-				end
+			slot3 = uv0.activities[slot1 + 1]
+			slot2.name = slot3.id
+
+			if slot3:getConfig("title_res_tag") then
+				setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
+				setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
+				setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
+				onToggle(uv0, slot2, function (slot0)
+					if slot0 then
+						uv0:selectActivity(uv1)
+					end
+				end, SFX_PANEL)
 			end
+
+			slot5 = uv0.pageDic[slot3.id]
+
+			onToggle(uv0, slot2, function (slot0)
+				if uv0 then
+					if slot0 then
+						uv1:selectActivity(uv2)
+					end
+				else
+					uv1:loadActivityPanel(slot0, uv2)
+				end
+			end, SFX_PANEL)
 		end
 	end)
 end

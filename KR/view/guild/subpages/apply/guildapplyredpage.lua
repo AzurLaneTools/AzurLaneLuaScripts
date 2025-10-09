@@ -92,7 +92,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.circle.childCount > 0 then
 		slot1 = slot0.circle:GetChild(0).gameObject

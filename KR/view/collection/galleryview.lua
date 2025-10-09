@@ -479,11 +479,7 @@ slot0.switchPicImg = function(slot0, slot1)
 end
 
 slot0.openPicPanel = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:BlurPanel(slot0.picPanel, false, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
-	})
+	slot0:BlurPanel(slot0.picPanel)
 
 	slot0.picPanel.offsetMax = slot0._tf.parent.offsetMax
 	slot0.picPanel.offsetMin = slot0._tf.parent.offsetMin
@@ -508,7 +504,7 @@ end
 
 slot0.closePicPanel = function(slot0, slot1)
 	if slot1 == true then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.picPanel, slot0._tf)
+		slot0:UnOverlayPanel(slot0.picPanel, slot0._tf)
 		setActive(slot0.picPanel, false)
 
 		return
@@ -528,7 +524,7 @@ slot0.closePicPanel = function(slot0, slot1)
 				x = 0,
 				y = 0
 			})
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.picPanel, uv0._tf)
+			uv0:UnOverlayPanel(uv0.picPanel, uv0._tf)
 			setActive(uv0.picPanel, false)
 		end))
 	end

@@ -18,9 +18,7 @@ slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UpdateUrShipAndContent(slot1)
 	slot0:RegisterEvent(slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER - 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot1 = function(slot0)
@@ -88,7 +86,7 @@ end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	removeOnButton(slot0.confirmBtn)
 	slot0:RemoveTimer()
 end

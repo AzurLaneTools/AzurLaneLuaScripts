@@ -35,7 +35,7 @@ slot0.initUI = function(slot0, slot1)
 end
 
 slot0.onTimer = function(slot0)
-	slot0._subTime = slot0._gmtTime - pg.TimeMgr:GetInstance():GetServerTime()
+	slot0._subTime = slot0._gmtTime - pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0._go == nil then
 		slot0:initUI(function ()

@@ -10,39 +10,20 @@ slot0.OnLoaded = function(slot0)
 	slot0.expTxt = slot0:findTF("frame/animroot/exp"):GetComponent(typeof(Text))
 	slot0.cntTxt = slot0:findTF("frame/bg/Image/cnt"):GetComponent(typeof(Text))
 	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/animroot/rect/content"), slot0:findTF("frame/animroot/rect/content/tpl"))
-	slot0.animator = slot0._tf:GetComponent(typeof(Animation))
-	slot0.aniDft = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		slot0 = uv0
-
-		slot0:PlayExitAnimation(function ()
-			uv0:Hide()
-		end)
+		uv0:Hide()
 	end, SFX_PANEL)
-end
-
-slot0.PlayExitAnimation = function(slot0, slot1)
-	slot0.canvasGroup.blocksRaycasts = false
-
-	slot0.aniDft:SetEndEvent(function ()
-		uv0.canvasGroup.blocksRaycasts = true
-
-		if uv1 then
-			uv1()
-		end
-	end)
-	slot0.animator:Play("anim_island_shiporder_LVinfo_out")
 end
 
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(IslandOrderAgency.ORDER_FINISH_UPDATE, slot0.OnReset)
 end
 
-slot0.RemoveListener = function(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(IslandOrderAgency.ORDER_FINISH_UPDATE, slot0.OnReset)
 end
 
@@ -58,9 +39,9 @@ end
 slot0.Flush = function(slot0)
 	slot1 = getProxy(IslandProxy):GetIsland():GetOrderAgency()
 
+	slot0:FlushCnt(slot1)
 	slot0:FlushLevelInfo(slot1)
 	slot0:FlushList(slot1)
-	slot0:FlushCnt(slot1)
 end
 
 slot0.FlushCnt = function(slot0, slot1)

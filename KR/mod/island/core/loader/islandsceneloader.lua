@@ -7,7 +7,7 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot5 = {
 		function (slot0)
-			uv0:LoadProgressUI(slot0)
+			uv0:LoadProgressUI(uv1, slot0)
 		end,
 		function (slot0)
 			gcAll(true)
@@ -17,7 +17,13 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 			uv0:LoadScene(uv1, slot0)
 		end,
 		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			uv0:LoadNavigationMesh(uv1, slot0)
+		end,
+		function (slot0)
+			onNextTick(slot0)
 		end,
 		function (slot0)
 			uv0:UnloadProgressUI()
@@ -26,7 +32,7 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	}
 
 	for slot9 = #slot3, 1, -1 do
-		table.insert(slot5, 5, slot3[slot9])
+		table.insert(slot5, #slot5, slot3[slot9])
 	end
 
 	seriesAsync(slot5, function ()
@@ -34,10 +40,17 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-slot0.LoadProgressUI = function(slot0, slot1)
-	slot2 = pg.SceneAnimMgr.GetInstance()
+slot0.LoadProgressUI = function(slot0, slot1, slot2)
+	slot3 = "Dorm3DLoading"
 
-	slot2:Dorm3DSceneChange(function (slot0)
+	if uv0.lastMapId and slot1 then
+		slot3 = (pg.island_map[uv0.lastMapId].loading == 1 or pg.island_map[slot1].loading == 1) and "IslandplaneLoading" or "IslandcarLoading"
+	end
+
+	uv0.lastMapId = slot1
+	slot4 = pg.SceneAnimMgr.GetInstance()
+
+	slot4:CommonSceneChange(slot3, function (slot0)
 		uv0.resumeCallback = slot0
 
 		return uv1()
@@ -82,12 +95,14 @@ slot0.LoadNavigationMesh = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("island/Navmesh/" .. slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3 = IslandAssetLoadDispatcher.Instance
+	slot0.navMeshLoadingId = slot3:Enqueue("island/Navmesh/" .. slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		assert(slot0, "导航网格不能为空>>>>>" .. uv0)
-		Object.Instantiate(slot0)
-		uv1()
+
+		slot2 = FrameAsyncInstantiateManager.Instance
+		uv1.navMeshInstId = slot2:EnqueueInstantiate(slot0, function (slot0)
+			uv0()
+		end)
 	end), true, true)
 end
 
@@ -116,6 +131,18 @@ end
 
 slot0.Dispose = function(slot0, slot1)
 	slot0:UnLoad(slot1)
+
+	if slot0.navMeshInstId then
+		FrameAsyncInstantiateManager.Instance:Cancel(slot0.navMeshInstId)
+
+		slot0.navMeshInstId = nil
+	end
+
+	if slot0.navMeshLoadingId then
+		IslandAssetLoadDispatcher.Instance:Cancel(slot0.navMeshLoadingId)
+
+		slot0.navMeshLoadingId = nil
+	end
 end
 
 return slot0

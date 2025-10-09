@@ -55,9 +55,7 @@ end
 
 slot0.Show = function(slot0, slot1)
 	slot0:UpdateList(slot1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.UpdateList = function(slot0, slot1)
@@ -84,7 +82,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 return slot0

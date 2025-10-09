@@ -514,9 +514,7 @@ slot0.OnCompositeResult = function(slot0, slot1)
 	slot4:GetPrefab("ui/" .. slot0:GetAtelierCompositEffect(), "", function (slot0)
 		slot1 = pg.UIMgr.GetInstance()
 
-		slot1:OverlayPanel(tf(slot0), {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		slot1:OverlayPanel(tf(slot0))
 
 		slot3 = uv0
 

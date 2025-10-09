@@ -86,9 +86,7 @@ slot0.display = function(slot0, slot1)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	end
 
 	slot2 = SeasonInfo.getMilitaryRank(slot1.score, slot1.rank)
@@ -164,7 +162,7 @@ end
 
 slot0.willExit = function(slot0)
 	if not slot0.contextData.parent then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	end
 
 	if slot0.circle.childCount > 0 then

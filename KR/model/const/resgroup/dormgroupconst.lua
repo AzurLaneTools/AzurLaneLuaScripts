@@ -132,8 +132,7 @@ return {
 						uv0.ExtraDownload(uv1)
 					end,
 					onNo = slot3,
-					onClose = slot3,
-					weight = LayerWeightConst.TOP_LAYER
+					onClose = slot3
 				})
 			end
 		end, function (slot0, slot1, slot2, slot3, slot4, slot5)

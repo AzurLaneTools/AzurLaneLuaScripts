@@ -33,7 +33,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = AirFightActivity,
 		[ActivityConst.ACTIVITY_TYPE_NOT_TRACEABLE] = NotTraceableTaskActivity,
 		[ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA] = VirtualBagActivity,
-		[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = VirtualBagActivity
+		[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = VirtualBagActivity,
+		[ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD] = DrawAwardActivity
 	}
 
 	return uv0
@@ -213,6 +214,22 @@ slot0.getDataConfig = function(slot0, slot1)
 	assert(slot2, "miss config : " .. slot0.id)
 
 	return slot2 and slot2[slot1]
+end
+
+slot0.getIslandConfigTable = function(slot0)
+	return pg.island_activity_template[slot0.configId]
+end
+
+slot0.getIslandConfig = function(slot0, slot1)
+	slot2 = slot0:getIslandConfigTable()
+
+	assert(slot2, "miss config : " .. slot0.id)
+
+	return slot2 and slot2[slot1] or slot0:getConfig(slot1)
+end
+
+slot0.isIslandShow = function(slot0)
+	return slot0:getIslandConfigTable() and slot0:getIslandConfig("is_show") > 0
 end
 
 slot0.isEnd = function(slot0)
@@ -750,6 +767,7 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID_2] = DormSignTwoPage.IsShowRed,
+		[ActivityConst.ISLAND_SIGN_ID] = IslandSignPage.IsShowRed,
 		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed,
 		[ActivityConst.YUMIA_BASE_ACT_ID] = YoumiyaStrongholdLayer.ShouldShowTip,
 		[ActivityConst.NINJA_CITY_MAIN_ACTIVITY_ID] = function ()

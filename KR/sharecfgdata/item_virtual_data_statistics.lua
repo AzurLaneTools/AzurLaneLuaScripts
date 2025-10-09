@@ -171592,6 +171592,31 @@ _G.pg.base.item_virtual_data_statistics[65551] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65552] = {
+	drop_gold_max = 0,
+	name = "스킨 쿠폰(스포츠, 레이스퀸)",
+	display = "이벤트 기간 중에 상점에서 「스포츠, 레이스퀸」 시리즈 스킨을 구매할 때, 다이아×300개만큼 할인이 적용됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50142,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65552,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65561] = {
 	drop_gold_max = 0,
 	name = "텐코 그룹 배지",
@@ -182751,6 +182776,56 @@ _G.pg.base.item_virtual_data_statistics[86218] = {
 			1820
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86219] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = [[
+구매하면 해당 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아×680개로 변환) 획득합니다. 각 스킨은 동일한 확률로 출현합니다.
+  쉬프랑 「임펄시브 액시던트」
+ 웨스트버지니아 「시닉 랩소디」
+ 리옹 「페어 엑서사이즈」
+ 팽르베 「두 사람의 스트레칭」
+ 배시 「눈부신 경기장의 별」
+ 시그넷 「로열 응원가」
+ 마블헤드 「Boxing Girl!」
+ 리노 「파도의 치어리더 단장!」
+ 미니애폴리스 「익스트림 스포츠 X」
+ 볼티모어 「Black Ace」
+ 브레머튼 「열정의 테니스 연습」
+ 카사블랑카 「치어리더의 휴식 시간」
+ 인트레피드 「인트레피드의 일투」
+ 블루길 「견습 에이스 필더!」
+ 요이즈키 「운동회 준비」
+ 프린츠 오이겐 「Final Lap」
+ 엔터프라이즈 「Wind Catcher」
+ 타카오 「집중 최고조」
+ 아타고 「최절정 속도」
+ 프린스 오브 웨일즈 「영광의 빅토리 레이싱」
+ 듀크 오브 요크 「위대한 글로리어스 포뮬러」
+ 쇼카쿠 「신속의 학」
+ 즈이카쿠 「광속의 학」
+ 다이호 「사랑의 파트너」]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86219,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

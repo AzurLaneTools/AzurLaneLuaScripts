@@ -1,9 +1,10 @@
 slot0 = class("IslandBuildingAgency", import(".IslandBaseAgency"))
-slot0.SlOT_UNIT_INIT = "IslandBuildingAgency:SlOT_UNIT_INIT"
-slot0.SLOT_UNIT_REMOVE = "IslandBuildingAgency:SLOT_UNIT_REMOVE"
+slot0.COLLECT_SlOT_UNIT_INIT = "IslandBuildingAgency:COLLECT_SlOT_UNIT_INIT"
+slot0.COLLECT_SLOT_UNIT_REMOVE = "IslandBuildingAgency:COLLECT_SLOT_UNIT_REMOVE"
 slot0.SLOT_HANDPLABT_SLOT_UNIT_CHANGE = "IslandBuildingAgency:SLOT_HANDPLABT_SLOT_UNIT_CHANGE"
 slot0.SLOT_RESET_DELEGATION_STATE_DONE = "IslandBuildingAgency:SLOT_RESET_DELEGATION_STATE_DONE"
 slot0.GEN_ANIMAL_INT = "IslandBuildingAgency:GEN_ANIMAL_INT"
+slot0.CHANGE_PRODUCT_MODEL = "IslandBuildingAgency:CHANGE_PRODUCT_MODEL"
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.buildings = {}
@@ -83,37 +84,40 @@ slot0.InitBuildData = function(slot0, slot1)
 	end
 
 	slot0.buildings[slot1.id] = IslandBuilding.New(slot1, true)
-	slot3 = ipairs
-	slot4 = slot1.collect_list or {}
+	slot3 = getProxy(IslandProxy):GetIsland()
+	slot4 = ipairs
+	slot5 = slot1.build_collect.collect_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot2:GetCollectSlotData(slot7.id):SetNeedLoadModel()
-	end
-
-	slot3 = ipairs
-	slot4 = slot1.hand_list or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.SLOT_HANDPLABT_SLOT_UNIT_CHANGE, {
-			build_id = slot1.id,
-			slotId = slot7.id
+	for slot7, slot8 in slot4(slot5) do
+		slot3:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
+			slotId = slot8.id
 		})
 	end
 
-	slot3 = ipairs
-	slot4 = slot1.appoint_list or {}
+	slot4 = ipairs
+	slot5 = slot1.hand_list or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		slot8 = {}
+	for slot7, slot8 in slot4(slot5) do
+		slot3:DispatchEvent(IslandBuildingAgency.SLOT_HANDPLABT_SLOT_UNIT_CHANGE, {
+			build_id = slot1.id,
+			slotId = slot8.id
+		})
+	end
 
-		for slot12, slot13 in ipairs(slot7.part_list) do
-			table.insert(slot8, slot13)
+	slot4 = ipairs
+	slot5 = slot1.appoint_list or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		slot9 = {}
+
+		for slot13, slot14 in ipairs(slot8.part_list) do
+			table.insert(slot9, slot14)
 		end
 
-		if #slot8 > 0 then
-			getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
-				aniList = slot8,
-				slotId = slot7.id
+		if #slot9 > 0 then
+			slot3:DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
+				aniList = slot9,
+				slotId = slot8.id
 			})
 		end
 	end
@@ -168,6 +172,10 @@ slot0.GetDelegationSlotDataByTechId = function(slot0, slot1)
 	return slot2:GetDelegationSlotDataByFormulaId(pg.island_technology_template[slot1].formula_id)
 end
 
+slot0.GetDelegationSlotDataBySlotId = function(slot0, slot1)
+	return slot0.buildings[pg.island_production_slot[slot1].place] and slot3:GetDelegationSlotData(slot1)
+end
+
 slot0.GetBuildingListByMap = function(slot0, slot1)
 	slot2 = pg.island_production_place.get_id_list_by_map_id[slot1] or {}
 	slot3 = {}
@@ -196,6 +204,32 @@ slot0.AddFormulaNum = function(slot0, slot1, slot2)
 	else
 		slot0.formulaNums[slot1] = slot2
 	end
+end
+
+slot0.GetTipInfos = function(slot0)
+	slot1 = 0
+	slot2 = 0
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(pg.island_set.post_manage_produce.key_value_varchar) do
+		if slot0.buildings[slot8] then
+			for slot13, slot14 in pairs(slot9:GetDelegationSlotDatas()) do
+				if slot14:GetSlotRewardData() then
+					slot1 = slot1 + 1
+				elseif slot14:CanStartDelegation() then
+					slot2 = slot2 + 1
+				elseif slot14:GetSlotRoleData() then
+					table.insert(slot3, slot14:GetSlotRoleData():GetFinishTime())
+				end
+			end
+		end
+	end
+
+	return {
+		awardCnt = slot1,
+		emptyCnt = slot2,
+		timestamps = slot3
+	}
 end
 
 return slot0

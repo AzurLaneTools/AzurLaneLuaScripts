@@ -40,7 +40,7 @@ end
 
 slot0.IsValid = function(slot0, slot1)
 	if slot1.type == uv0.STORY and table.contains(slot0.ignoringStoryList, slot1.args.name) then
-		slot0:ExecuteStory(slot1.callback, slot1.args.name)
+		slot0:ExecuteStory(slot1.callback, slot1.args.name, slot1.args.refreshNpc)
 
 		return false
 	end
@@ -70,7 +70,7 @@ slot0.ProcessNextOne = function(slot0)
 	elseif slot1.type == uv0.MSGBOX then
 		slot0:ExecuteMsgbox(slot2, slot1.args)
 	elseif slot1.type == uv0.STORY then
-		slot0:ExecuteStory(slot2, slot1.args.name)
+		slot0:ExecuteStory(slot2, slot1.args.name, slot1.args.refreshNpc)
 	elseif slot1.type == uv0.TASK_ACCEPT_PAGE then
 		slot0:ExecuteTaskAcceptWin(slot2, slot1.args.taskId)
 	else
@@ -78,15 +78,15 @@ slot0.ProcessNextOne = function(slot0)
 	end
 end
 
-slot0.ExecuteStory = function(slot0, slot1, slot2)
-	slot3 = slot0:GetSceneView()
+slot0.ExecuteStory = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetSceneView()
 
-	slot3:TryDisVisible()
+	slot4:TryDisVisible()
 
-	slot3 = slot0:GetSceneView()
-	slot3 = slot3:GetSubView(IslandStoryMgr)
+	slot4 = slot0:GetSceneView()
+	slot4 = slot4:GetSubView(IslandStoryMgr)
 
-	slot3:ExecuteAction("Play", slot2, function ()
+	slot4:ExecuteAction("Play", slot2, slot3, function ()
 		uv0:GetSceneView():TryVisible()
 		uv1()
 	end)

@@ -2,6 +2,7 @@ slot0 = class("IslandOwnedDressItem", import("model.vo.BaseVO"))
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
+	slot0.configId = slot0.id
 	slot0.num = slot1.num
 	slot0.read = slot1.read
 end

@@ -35,6 +35,16 @@ slot0.GetEmptySlot = function(slot0)
 	return nil
 end
 
+slot0.GetSlotById = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.slots) do
+		if slot6.id == slot1 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
 slot0.GetUsingSlot = function(slot0, slot1)
 	if slot1 then
 		for slot5, slot6 in ipairs(slot0.slots) do

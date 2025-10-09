@@ -33,9 +33,7 @@ slot0.Init = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeValentineQte, nil, {
-			weight = LayerWeightConst.TOP_LAYER + 1
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeValentineQte)
 	end, SFX_PANEL)
 end
 
@@ -81,7 +79,7 @@ slot0.GetChatTxt = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	slot0.callback = nil
 

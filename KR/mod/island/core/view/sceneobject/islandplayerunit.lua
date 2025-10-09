@@ -7,8 +7,10 @@ slot6 = slot1(1.8, 1.8)
 slot7 = slot1(0, 2)
 slot9 = bit.bnot(bit.lshift(1, LayerMask.NameToLayer("IgnoreIslandCharacter")))
 slot10 = {
+	LoadToolHandle = 2,
 	JumpHandle = 1,
-	LoadToolHandle = 2
+	NoMoveAndWork = 3,
+	AttackHandle = 4
 }
 
 slot3.OnAttach = function(slot0, slot1)
@@ -74,7 +76,7 @@ end
 slot3.OnLateUpdate = function(slot0)
 end
 
-slot3.OnNormalUpdate = function(slot0)
+slot3.OnUpdate = function(slot0)
 	slot0:RefreshTemp()
 
 	slot1 = Time.deltaTime
@@ -206,6 +208,10 @@ slot3.Sit = function(slot0, slot1, slot2)
 end
 
 slot3.MoveHandle = function(slot0, slot1, slot2)
+	if slot0.cantMove then
+		return
+	end
+
 	if slot0.isSitting and slot0.prevStandPosition then
 		slot0.characterController.enabled = true
 		slot0._tf.position = slot0.prevStandPosition
@@ -238,18 +244,23 @@ slot3.StopMoveHandle = function(slot0)
 end
 
 slot3.JumpHandle = function(slot0)
+	if slot0.cantMove then
+		return
+	end
+
 	if slot0:CheckCanJump() then
 		slot0.animator:SetTrigger(IslandConst.JUMP_FLAG)
 	end
 end
 
-slot3.WorkHandle = function(slot0, slot1, slot2, slot3)
-	if slot3 then
-		slot0.collectToolId = slot3
+slot3.WorkHandle = function(slot0, slot1, slot2)
+	if slot0.cantMove then
+		return
 	end
 
 	if slot2 then
-		slot4 = slot2 - slot0:GetCurrentPosition()
+		slot0.unitData = slot2
+		slot4 = slot2.position - slot0:GetCurrentPosition()
 		slot0.targetRotation = Quaternion.LookRotation(uv0(slot4.x, 0, slot4.z).normalized)
 	end
 
@@ -287,7 +298,7 @@ end
 
 slot3.LoadInteractiveTool = function(slot0, slot1)
 	if slot1 == 0 then
-		slot0.toolId = slot0.collectToolId
+		slot0.toolId = slot0.unitData:GetToolId()
 	else
 		slot0.toolId = slot1
 	end
@@ -314,11 +325,50 @@ slot3.UnLoadInteractiveTool = function(slot0)
 	end
 end
 
+slot3.NoMoveHandle = function(slot0, slot1)
+	slot0.cantMove = true
+
+	if slot0.delayMoveTimer then
+		slot0.delayMoveTimer:Stop()
+
+		slot0.delayMoveTimer = nil
+	end
+
+	slot0.delayMoveTimer = Timer.New(function ()
+		uv0.cantMove = false
+	end, slot1, 1)
+
+	slot0.delayMoveTimer:Start()
+end
+
+slot3.AttackHandle = function(slot0, slot1)
+	if slot0.delayAttackTimer then
+		slot0.delayAttackTimer:Stop()
+
+		slot0.delayAttackTimer = nil
+	end
+
+	slot0.delayAttackTimer = Timer.New(function ()
+		if uv0.unitData then
+			uv0:NotifiyCore(ISLAND_EVT.Take_Plant_Attact, {
+				type = uv0.unitData.unitType,
+				id = uv0.unitData.id
+			})
+		end
+	end, slot1, 1)
+
+	slot0.delayAttackTimer:Start()
+end
+
 slot3.StateEnterHandle = function(slot0, slot1, slot2)
 	if slot1 == uv0.JumpHandle then
 		slot0:OnEnterJumpState()
 	elseif slot1 == uv0.LoadToolHandle then
 		slot0:LoadInteractiveTool(slot2)
+	elseif slot1 == uv0.NoMoveAndWork then
+		slot0:NoMoveHandle(slot2)
+	elseif slot1 == uv0.AttackHandle then
+		slot0:AttackHandle(slot2)
 	end
 end
 
@@ -347,27 +397,38 @@ end
 slot11 = slot1(0, 0)
 
 slot3.InitFarmCheckWorldObject = function(slot0)
-	if slot0.mapId ~= 1001 then
+	if not slot0:IsSpecialMap() then
 		return
 	end
 
 	slot0.detectionList = {}
+	slot1 = ipairs
+	slot2 = pg.island_production_place.get_id_list_by_map_id[slot0.mapId] or {}
 
-	for slot4, slot5 in ipairs(pg.island_production_farm.all) do
-		slot7 = pg.island_world_objects[pg.island_production_farm[slot5].objId]
+	for slot4, slot5 in slot1(slot2) do
+		slot6 = ipairs
+		slot7 = pg.island_production_farm.get_id_list_by_place_id[slot5] or {}
 
-		table.insert(slot0.detectionList, {
-			id = slot7.id,
-			position = slot7.param.position
-		})
+		for slot9, slot10 in slot6(slot7) do
+			slot12 = pg.island_world_objects[pg.island_production_farm[slot10].objId]
+
+			table.insert(slot0.detectionList, {
+				id = slot12.id,
+				position = slot12.param.position
+			})
+		end
 	end
+end
+
+slot3.IsSpecialMap = function(slot0)
+	return slot0.mapId == 1001 or slot0.mapId == 1005
 end
 
 slot3.IsSelf = function(slot0)
 end
 
 slot3.Detectionobject = function(slot0)
-	if slot0.mapId ~= 1001 or not slot0.isSelfIsland then
+	if not slot0:IsSpecialMap() or not slot0.isSelfIsland then
 		return
 	end
 
@@ -524,17 +585,19 @@ slot3.Detectionobject = function(slot0)
 		slot0.lastCrossCount = slot12
 
 		if slot12 == 0 then
-			slot0:Emit(ISLAND_EVT.HIDE_UNIT_HUD, {
+			slot0:NotifiyCore(ISLAND_EVT.HIDE_UNIT_HUD_OP, {
 				isHighLightControl = true,
-				id = tonumber(slot0.nearId)
+				id = tonumber(slot0.nearId),
+				type = IslandConst.UNIT_LIST_OBJ
 			})
 
 			slot0.nearId = 0
 		else
-			slot0:Emit(ISLAND_EVT.SHOW_UNIT_HUD, {
+			slot0:NotifiyCore(ISLAND_EVT.SHOW_UNIT_HUD_OP, {
 				isHighLightControl = true,
 				id = tonumber(slot0.nearId),
-				operationType = IslandOpView.OperationType.Plant
+				operationType = IslandOpView.OperationType.Plant,
+				type = IslandConst.UNIT_LIST_OBJ
 			})
 		end
 	end
@@ -546,49 +609,6 @@ end
 
 slot3.GetNearItemId = function(slot0)
 	return slot0.nearId
-end
-
-slot3.OnChangeDress = function(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = getProxy(IslandProxy)
-	slot4 = slot4:GetIsland()
-	slot5 = slot4:GetDressUpAgency()
-
-	slot6 = function(slot0)
-		for slot4, slot5 in ipairs(uv0) do
-			if slot0 == slot5.id then
-				return slot5.color, true
-			end
-		end
-
-		return uv1:GetCurrentColorByDressId(slot0), false
-	end
-
-	for slot10, slot11 in ipairs(slot1) do
-		slot12, slot13 = slot6(slot11.id)
-
-		if slot13 then
-			slot3[slot11.id] = true
-		end
-
-		slot0.shipDressHelper:ChangeDressByType(slot11.type, {
-			id = slot11.id,
-			colorId = slot12
-		})
-	end
-
-	for slot10, slot11 in ipairs(slot2) do
-		if not slot3[slot11.id] then
-			slot0.shipDressHelper:ChangeCommanderPartColor(pg.island_dress_template[slot12].type, slot11.color)
-		end
-	end
-end
-
-slot3.InitDress = function(slot0)
-	slot0.shipDressHelper = IslandShipDressHelperNew.New()
-
-	slot0.shipDressHelper:SetShipId(0)
-	slot0.shipDressHelper:OnRoleLoaded(slot0._tf)
 end
 
 slot3.GetCurrentPosition = function(slot0)
@@ -628,6 +648,18 @@ slot3.CheckCanJump = function(slot0)
 end
 
 slot3.OnDetach = function(slot0)
+	if slot0.delayMoveTimer then
+		slot0.delayMoveTimer:Stop()
+
+		slot0.delayMoveTimer = nil
+	end
+
+	if slot0.delayAttackTimer then
+		slot0.delayAttackTimer:Stop()
+
+		slot0.delayAttackTimer = nil
+	end
+
 	slot0:ClearAnimationTools()
 	slot0.shipDressHelper:Destroy()
 	slot0.characterHandleController:AddStateEnterFunc(nil)
@@ -640,6 +672,57 @@ slot3.ClearAnimationTools = function(slot0)
 	end
 
 	slot0.objTfList = {}
+end
+
+slot3.SetActiveByLayer = function(slot0, slot1)
+	if slot1 then
+		pg.ViewUtils.SetLayer(slot0._tf, Layer.Default)
+	else
+		pg.ViewUtils.SetLayer(slot0._tf, Layer.UIHidden)
+	end
+end
+
+slot3.SetShipDressHelper = function(slot0, slot1)
+	slot0.shipDressHelper = slot1
+end
+
+slot3.OnChangeDress = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = getProxy(IslandProxy)
+	slot4 = slot4:GetIsland()
+	slot5 = slot4:GetDressUpAgency()
+
+	slot6 = function(slot0)
+		for slot4, slot5 in ipairs(uv0) do
+			if slot0 == slot5.id then
+				return slot5.color, true
+			end
+		end
+
+		return uv1:GetCurrentColorByDressId(slot0), false
+	end
+
+	for slot10, slot11 in ipairs(slot1) do
+		slot12, slot13 = slot6(slot11.id)
+
+		if slot13 then
+			slot3[slot11.id] = true
+		end
+
+		slot0.shipDressHelper:ChangeDressByType(slot11.type, {
+			id = slot11.id,
+			colorId = slot12
+		})
+	end
+
+	for slot10, slot11 in ipairs(slot2) do
+		if not slot3[slot11.id] then
+			slot0.shipDressHelper:ChangeCommanderPartColor(pg.island_dress_template[slot12].type, slot11.color)
+		end
+	end
+end
+
+slot3.InitDress = function(slot0)
 end
 
 return slot3

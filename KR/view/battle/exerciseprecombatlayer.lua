@@ -161,8 +161,7 @@ slot0.didEnter = function(slot0)
 							uv0()
 						end)
 					end,
-					onNo = slot0,
-					weight = LayerWeightConst.TOP_LAYER
+					onNo = slot0
 				})
 			end)
 		end
@@ -191,8 +190,7 @@ slot0.didEnter = function(slot0)
 							pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 							uv1()
 						end)
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end)
 		end

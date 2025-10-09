@@ -185,7 +185,7 @@ end
 
 slot0.Disable = function(slot0)
 	if slot0.painting then
-		slot0.painting:Puase()
+		slot0.painting:Pause()
 	end
 end
 
@@ -308,6 +308,10 @@ slot0.Fold = function(slot0, slot1, slot2)
 		slot4 = slot4:setEase(LeanTweenType.easeInOutExpo)
 
 		slot4:setOnComplete(System.Action(function ()
+			if uv0.exited then
+				return
+			end
+
 			uv0.painting:Fold(uv1, uv2)
 		end))
 	end

@@ -83,9 +83,8 @@ slot0.OnInit = function(slot0)
 			end
 		end
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 2
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -432,7 +431,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.cpkHandler then
 		slot0.cpkHandler:Destroy()

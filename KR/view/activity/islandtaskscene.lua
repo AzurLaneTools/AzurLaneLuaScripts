@@ -153,7 +153,7 @@ slot0.willExit = function(slot0)
 	slot0.taskPage:dispose()
 	slot0.historyPage:dispose()
 	slot0.buildPage:dispose()
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 return slot0

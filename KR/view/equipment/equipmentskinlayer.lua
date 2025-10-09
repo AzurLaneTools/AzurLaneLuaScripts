@@ -11,9 +11,7 @@ slot0.setShip = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, slot0.contextData.weight and {
-		weight = slot0.contextData.weight
-	} or {})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.displayPanel = slot0:findTF("display")
 
@@ -154,7 +152,7 @@ slot0.updateSkinView = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.UIMain)
 end
 
 return slot0

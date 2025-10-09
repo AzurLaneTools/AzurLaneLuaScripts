@@ -27,14 +27,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		slot0:UpdateDeleationRewardDataBySlotId(slot7.id, slot7)
 	end
 
-	slot0.collectionSlotData = {}
-	slot3 = ipairs
-	slot4 = slot1.collect_list or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		slot0.collectionSlotData[slot7.id] = IslandCollectSlot.New(slot0.configId, slot7)
-	end
-
 	slot0.handSlotData = {}
 	slot3 = ipairs
 	slot4 = slot1.hand_list or {}
@@ -42,6 +34,14 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	for slot6, slot7 in slot3(slot4) do
 		slot0.handSlotData[slot7.id] = IslandHandSlot.New(slot0.configId, slot7)
 	end
+
+	if slot1.build_collect then
+		slot0.collectPlaceSystem = IslandCollectSlotPlace.New(slot1.id, slot1.build_collect)
+	end
+end
+
+slot0.GetBuildingCollectData = function(slot0)
+	return slot0.collectPlaceSystem
 end
 
 slot0.bindConfigTable = function(slot0)
@@ -64,14 +64,6 @@ slot0.GetDelegationSlotDataByFormulaId = function(slot0, slot1)
 	end
 
 	return nil
-end
-
-slot0.GetCollectSlotDatas = function(slot0)
-	return slot0.collectionSlotData
-end
-
-slot0.GetCollectSlotData = function(slot0, slot1)
-	return slot0.collectionSlotData[slot1]
 end
 
 slot0.GetHandPlantSlotData = function(slot0, slot1)
@@ -130,16 +122,9 @@ slot0.InitSlotHandPlantByAbility = function(slot0, slot1)
 end
 
 slot0.InitHandSlotData = function(slot0, slot1)
-	if slot0.collectionSlotData[slot1.id] then
-		warning("已经存在当前槽位的信息了")
-
-		return
+	if slot0.collectPlaceSystem then
+		slot0.collectPlaceSystem:InitHandSlotData(slot1)
 	end
-
-	slot2 = IslandCollectSlot.New(slot0.configId, slot1)
-	slot0.collectionSlotData[slot1.id] = slot2
-
-	slot2:SetNeedLoadModel()
 end
 
 slot0.UpdateDeleationRoleDataBySlotId = function(slot0, slot1, slot2)
@@ -163,13 +148,9 @@ slot0.UpdateDeleationRewardDataBySlotId = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateCollectDataBySlotId = function(slot0, slot1, slot2)
-	if not slot0:GetCollectSlotData(slot1.id) then
-		warning("下发数据有问题,下发的槽位id不是当前区域能委派的槽位,下发的槽位id为" .. slot1.id)
-
-		return
+	if slot0.collectPlaceSystem then
+		slot0.collectPlaceSystem:UpdateCollectDataBySlotId(slot1, slot2)
 	end
-
-	slot3:UpdateCollectData(slot1, slot2)
 end
 
 slot0.UpdateHandPlantDataBySlotId = function(slot0, slot1)
@@ -208,10 +189,6 @@ slot0.UpdatePerSecond = function(slot0)
 	for slot4, slot5 in pairs(slot0.delegationSlotData) do
 		slot5:UpdatePerSecond(slot0.isSelf)
 	end
-
-	for slot4, slot5 in pairs(slot0.collectionSlotData) do
-		slot5:UpdatePerSecond()
-	end
 end
 
 slot0.GetSlotUnitDataByModelData = function(slot0)
@@ -248,6 +225,22 @@ slot0.GetShipIdAndAreaIdList = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.IsPostTip = function(slot0)
+	for slot4, slot5 in pairs(slot0.delegationSlotData) do
+		if slot5:CanStartDelegation() or slot5:GetSlotRewardData() then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.GetCollectSlotData = function(slot0, slot1)
+	if slot0.collectPlaceSystem then
+		return slot0.collectPlaceSystem:GetCollectSlotData(slot1)
+	end
 end
 
 return slot0

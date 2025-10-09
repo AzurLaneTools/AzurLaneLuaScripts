@@ -142,7 +142,6 @@ slot0.GoShoppingMsgBox = function(slot0, slot1, slot2, slot3)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		parent = rtf(pg.UIMgr.GetInstance().OverlayToast),
 		content = slot1,
-		weight = LayerWeightConst.TOP_LAYER,
 		onYes = function ()
 			gotoChargeScene(uv0, uv1)
 		end
@@ -273,14 +272,12 @@ slot0.Show = function(slot0)
 
 	slot0.skip = false
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.playBoxMove = function(slot0, slot1)

@@ -323,7 +323,7 @@ slot0.ShowPanel = function(slot0, slot1)
 end
 
 slot0.blurView = function(slot0)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0:findTF("bg")
 		}
@@ -331,7 +331,7 @@ slot0.blurView = function(slot0)
 end
 
 slot0.unBlurView = function(slot0)
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf, slot0._parentTf)
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 return slot0

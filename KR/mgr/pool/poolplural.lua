@@ -17,14 +17,14 @@ end
 slot1.Enqueue = function(slot0, slot1, slot2)
 	slot0.balance = slot0.balance - 1
 
-	if slot2 or slot0.capacity <= #slot0.items then
-		uv0.Destroy(slot1)
-
-		return true
-	else
+	if #slot0.items < slot0.capacity and (slot0.keep or not slot2) then
 		table.insert(slot0.items, slot1)
 
 		return false
+	else
+		uv0.Destroy(slot1)
+
+		return true
 	end
 end
 
@@ -48,7 +48,7 @@ slot1.NewItem = function(slot0)
 end
 
 slot1.AllReturned = function(slot0)
-	return slot0.balance == 0
+	return slot0.balance == 0 and not slot0.keep
 end
 
 slot1.ClearPrefab = function(slot0)
@@ -58,13 +58,15 @@ slot1.ClearPrefab = function(slot0)
 end
 
 slot1.ClearItems = function(slot0)
-	for slot4 = 1, #slot0.items do
-		uv0.Destroy(slot0.items[slot4])
+	while #slot0.items > 0 do
+		uv0.Destroy(table.remove(slot0.items))
 	end
 
-	table.clear(slot0.items)
-
 	slot0.balance = 0
+end
+
+slot1.SetKeep = function(slot0, slot1)
+	slot0.keep = slot1
 end
 
 slot1.Clear = function(slot0)

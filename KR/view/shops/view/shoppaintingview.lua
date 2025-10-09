@@ -44,7 +44,7 @@ slot0.Init = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot5 then
 		onButton(slot0, slot0.touch, function ()
 			uv0()
-		end, SFX_PACNEL)
+		end, SFX_PANEL)
 	end
 end
 

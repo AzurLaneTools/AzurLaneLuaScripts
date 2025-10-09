@@ -1144,6 +1144,229 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1201] = {
+		rarity = 3,
+		name = "폭신한 침대",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "부드러운 더블 침대. 푹신한 매트리스와 이불, 베개가 완비되어 있다. 이불 속에 들어가면, 하루의 피로가 말끔히 풀린다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 1201,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1202] = {
+		rarity = 3,
+		name = "목제 식탁",
+		unlock_tips = "",
+		type = 6,
+		room_id = 12,
+		desc = "좌판과 등받이만 있는 단순한 구조의 좌식 의자. 다다미용으로, 푹신한 방석과 함께 쓰면 오래 앉아도 근육에 무리가 가지 않아 매우 편안하다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
+		scene_hides = "",
+		acesses = "",
+		id = 1202,
+		target_slots = {
+			1120203
+		},
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1203] = {
+		rarity = 3,
+		name = "심플한 좌식 의자",
+		unlock_tips = "",
+		type = 5,
+		room_id = 12,
+		desc = "튼튼하고 내구성 좋은 고급 원목으로 만든 식탁. 상판은 매끄러워 청소가 쉬우며, 짙은 색감이 오염을 잘 가려주고, 자단나무 특유의 질감을 그대로 살렸다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
+		scene_hides = "",
+		acesses = "",
+		id = 1203,
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1152"
+		}
+	},
+	[1211] = {
+		rarity = 2,
+		name = "고풍스러운 족자",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "은은한 고풍미가 흐르는 족자. 절제미와 고요한 운치가 있어 방의 정취와 조화를 이루고 있다. 방에 고요함과 우아함을 더한다.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1211,
+		target_slots = {
+			1120301
+		},
+		shop_id = {}
+	},
+	[1212] = {
+		rarity = 2,
+		name = "사랑의 파트너",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "가볍고 부드러운 소재로 만든 특별한 의상. 몸에 걸치면 마치 아무것도 입지 않은 듯한 편안함을 느낄 수 있다.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_cloth01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1212,
+		target_slots = {
+			1120101
+		},
+		shop_id = {}
+	},
+	[1213] = {
+		rarity = 2,
+		name = "플로어 램프",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "바닥에 놓는 기다란 목재 스탠드. 부드러운 빛을 발하는 이 스탠드는 다이호가 정성을 들여 고른 인테리어용 조명이다.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1213,
+		target_slots = {
+			1120302
+		},
+		shop_id = {}
+	},
+	[1214] = {
+		rarity = 2,
+		name = "반투명 병풍",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "정교한 무늬가 새겨진 반투명 병풍. 다이호는 이걸 침대 옆에 두는 걸 좋아하며, 반투명 특유의 디자인이 방 안에 은은히 매혹적인 분위기를 더해준다.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_frame01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		unlock_banners = "",
+		acesses = "",
+		id = 1214,
+		target_slots = {
+			1120102
+		},
+		shop_id = {},
+		scene_hides = {
+			"no_bake_prop_substitute/pre_db_frame32"
+		}
+	},
+	[1215] = {
+		rarity = 2,
+		name = "무드등",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 12,
+		desc = "귀여운 디자인의 취침등. 안에는 등나무 가지를 형상화한 장식이 있어, 따뜻하고 부드러운 빛이 방 안을 포근히 감싸준다.",
+		is_exclusive = 0,
+		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1215,
+		target_slots = {
+			1120104
+		},
+		shop_id = {}
+	},
+	[1221] = {
+		rarity = 4,
+		name = "사랑의 둥지",
+		unlock_tips = "",
+		type = 4,
+		room_id = 12,
+		desc = "심플한 디자인의 더블 침대. 고강도 소재와 견고한 금속 프레임으로, 높은 하중도 견딜 수 있다. 엄선된 저반발 매트리스와의 조합이 안전하고 편안한 수면을 보장한다.",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		acesses = "",
+		id = 1221,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070740
+			}
+		},
+		shop_id = {
+			270501
+		},
+		unlock_banners = {
+			"banner_furniture1221"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1198,6 +1421,17 @@ pg.dorm3d_furniture_template = {
 			1108,
 			1151,
 			1152
+		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1221
 		}
 	},
 	all = {
@@ -1244,6 +1478,15 @@ pg.dorm3d_furniture_template = {
 		1107,
 		1108,
 		1151,
-		1152
+		1152,
+		1201,
+		1202,
+		1203,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1221
 	}
 }

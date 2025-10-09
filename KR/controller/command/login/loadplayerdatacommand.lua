@@ -275,6 +275,10 @@ slot0.execute = function(slot0, slot1)
 			true
 		},
 		{
+			SystemTipProxy,
+			true
+		},
+		{
 			CommanderManualProxy,
 			true
 		},

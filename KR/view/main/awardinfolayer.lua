@@ -16,9 +16,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.awards = _.select(slot0.contextData.items or {}, function (slot0)
 		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME and slot0.type ~= DROP_TYPE_LIVINGAREA_COVER
@@ -337,7 +335,7 @@ end
 slot0.willExit = function(slot0)
 	slot0:RemoveCloseTimer()
 	setActive(slot0.spriteMask, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.title ~= uv0.TITLE.SHIP then
 		for slot4 = 0, slot0.container.childCount - 1 do

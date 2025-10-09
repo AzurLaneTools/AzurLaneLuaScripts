@@ -843,10 +843,8 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("SkinDiscount_Hint"),
 					onYes = function ()
-						if checkExist(SkinCouponActivity.GetSkinCouponEncoreAct(), {
-							"id"
-						}) then
-							uv0:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0)
+						if SkinCouponActivity.GetSkinCouponEncoreAct(uv0.id) then
+							uv1:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0.id)
 						end
 					end,
 					onNo = function ()

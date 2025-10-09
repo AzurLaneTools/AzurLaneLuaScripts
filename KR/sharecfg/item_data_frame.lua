@@ -729,6 +729,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>스타일리시한 빛을 받으며 춤추는 토끼. 그 존재의 정체는 뭘까…? </color>\n「교류 숙소」에서의 뉴저지 친밀도 Lv 보상",
 		scene = {}
 	},
+	[1009] = {
+		name = "벚꽃의 이야기",
+		gain_by = "",
+		time_second = 0,
+		id = 1009,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>바람과 함께 흩날리는 벚꽃잎. 봄의 생명력과 아름다움을 이야기하고 있다. </color>「교류 숙소」에서의 다이호 친밀도 Lv 보상",
+		scene = {}
+	},
+	[1010] = {
+		name = "봉황의 빛",
+		gain_by = "",
+		time_second = 0,
+		id = 1010,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>금빛 날개를 펼치면, 깃털이 빛처럼 반짝인다. 우아하고도 신비로운 자태.</color>\n「교류 숙소」에서의 다이호 친밀도 Lv 보상",
+		scene = {}
+	},
 	[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",
@@ -919,6 +937,8 @@ pg.item_data_frame = {
 		1006,
 		1007,
 		1008,
+		1009,
+		1010,
 		10001,
 		10002,
 		10003,

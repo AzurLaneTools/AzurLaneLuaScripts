@@ -137,7 +137,7 @@ slot0.InitBanner = function(slot0)
 				return
 			end
 
-			uv1.bannerRect:Puase()
+			uv1.bannerRect:Pause()
 
 			uv1.lookUpIndex = uv2
 

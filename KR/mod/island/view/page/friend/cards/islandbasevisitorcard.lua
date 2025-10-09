@@ -7,6 +7,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.levelTxt = slot1.transform:Find("level"):GetComponent(typeof(Text))
 	slot0.btn = slot1.transform:Find("btn")
 	slot0.btnTxt = slot1.transform:Find("btn/Text"):GetComponent(typeof(Text))
+	slot0.cardBtn = slot1.transform:Find("frame/icon")
 end
 
 slot0.Update = function(slot0, slot1)

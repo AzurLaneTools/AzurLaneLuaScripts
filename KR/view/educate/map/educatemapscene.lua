@@ -42,24 +42,29 @@ slot0.findUI = function(slot0)
 	slot0.siteUIList = UIItemList.New(slot0.mapContent, slot0.mapSiteTpl)
 	slot0.datePanel = EducateDatePanel.New(slot0:findTF("date", slot0.topTF), slot0.event)
 
+	slot0.datePanel:RegisterView(slot0)
 	slot0.datePanel:Load()
 
 	slot0.resPanel = EducateResPanel.New(slot0:findTF("res", slot0.topTF), slot0.event, {
 		showBg = true
 	})
 
+	slot0.resPanel:RegisterView(slot0)
 	slot0.resPanel:Load()
 
 	slot0.topPanel = EducateTopPanel.New(slot0:findTF("top_right", slot0.topTF), slot0.event)
 
+	slot0.topPanel:RegisterView(slot0)
 	slot0.topPanel:Load()
 
 	slot0.targetPanel = EducateTargetPanel.New(slot0:findTF("ui/target"), slot0.event)
 
+	slot0.targetPanel:RegisterView(slot0)
 	slot0.targetPanel:Load()
 
 	slot0.archivePanel = EducateArchivePanel.New(slot0:findTF("ui/archive_panel"), slot0.event)
 
+	slot0.archivePanel:RegisterView(slot0)
 	slot0.archivePanel:Load()
 
 	slot0.detailPanel = EducateSiteDetailPanel.New(slot0:findTF("ui/detail_panel"), slot0.event, {
@@ -71,6 +76,7 @@ slot0.findUI = function(slot0)
 		end
 	})
 
+	slot0.detailPanel:RegisterView(slot0)
 	slot0.detailPanel:Load()
 end
 
@@ -81,12 +87,7 @@ slot0.addListener = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:OverlayPanel(slot0.topTF, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData()
-	})
+	slot0:OverlayPanel(slot0.topTF)
 
 	slot1 = slot0.siteUIList
 
@@ -225,7 +226,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topTF, slot0:findTF("ui"))
+	slot0:UnOverlayPanel(slot0.topTF, slot0:findTF("ui"))
 	slot0.datePanel:Destroy()
 
 	slot0.datePanel = nil

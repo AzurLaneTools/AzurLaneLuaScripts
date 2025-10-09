@@ -103,8 +103,7 @@ slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0:findTF("frame/right")
-		},
-		weight = LayerWeightConst.SECOND_LAYER
+		}
 	})
 end
 

@@ -5,12 +5,22 @@ slot0.OPEN_BACKYARD = "FriendInfoMediator:OPEN_BACKYARD"
 slot0.TOGGLE_BLACK = "FriendInfoMediator:TOGGLE_BLACK"
 slot0.INFORM = "FriendInfoMediator:INFORM"
 slot0.INFORM_BACKYARD = "FriendInfoMediator:INFORM_BACKYARD"
+slot0.OPEN_ISLAND_CARD = "FriendInfoMediator:OPEN_ISLAND_CARD"
 
 slot0.register = function(slot0)
 	slot1 = slot0.contextData.friend
 
 	assert(slot1, "friend is nil")
 	slot0.viewComponent:setFriend(slot1)
+	slot0:bind(uv0.OPEN_ISLAND_CARD, function (slot0)
+		uv0:addSubLayers(Context.New({
+			mediator = IslandOtherCardMediator,
+			viewComponent = IslandOtherCardLayer,
+			data = {
+				userId = uv0.contextData.friend.id
+			}
+		}))
+	end)
 	slot0:bind(uv0.INFORM_BACKYARD, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.INFORM_THEME_TEMPLATE, {
 			uid = slot1,
@@ -41,8 +51,7 @@ slot0.register = function(slot0)
 			viewComponent = resumeLayer,
 			data = {
 				player = uv1,
-				parent = uv0.contextData.parent,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
+				parent = uv0.contextData.parent
 			}
 		}))
 	end)

@@ -333,7 +333,7 @@ slot0.GetOffset = function(slot0)
 	return slot0.spTF.localPosition.x
 end
 
-slot0.OnPuase = function(slot0)
+slot0.OnPause = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(false)
 	end

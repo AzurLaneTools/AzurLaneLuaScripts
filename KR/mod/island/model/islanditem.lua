@@ -3,6 +3,7 @@ slot0.TYPE_MATERIAL = 1
 slot0.TYPE_PROP = 2
 slot0.TYPE_SPECIAL_PROP = 3
 slot0.TYPE_SHIP_EXP_BOOK = 5
+slot0.GOLD_ID = 1
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id

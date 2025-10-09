@@ -28,7 +28,7 @@ slot0.OnInit = function(slot0)
 		slot1, slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "FragmentShop")
 
 		if not slot1 then
-			pg.TipsMgr:GetInstance():ShowTips(slot2)
+			pg.TipsMgr.GetInstance():ShowTips(slot2)
 
 			return
 		end

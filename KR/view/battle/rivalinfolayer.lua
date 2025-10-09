@@ -24,9 +24,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.startBtn, function ()
 		uv0:emit(RivalInfoMediator.START_BATTLE)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:initRivalInfo()
 
 	slot0.isRealName = false
@@ -136,7 +134,7 @@ slot0.initRivalInfo = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 return slot0

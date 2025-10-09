@@ -20,8 +20,7 @@ slot0.OnClick = function(slot0)
 			parentContext = getProxy(ContextProxy):getCurrentContext(),
 			context = Context.New({
 				mediator = MedalCollectionTemplateMediator,
-				viewComponent = ToLoveCollabMedalView,
-				weight = LayerWeightConst.TOP_LAYER
+				viewComponent = ToLoveCollabMedalView
 			})
 		})
 	else

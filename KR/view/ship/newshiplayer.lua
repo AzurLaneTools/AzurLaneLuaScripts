@@ -11,10 +11,6 @@ slot0.getUIName = function(slot0)
 	return "NewShipUI"
 end
 
-slot0.getLayerWeight = function(slot0)
-	return LayerWeightConst.THIRD_LAYER
-end
-
 slot0.preload = function(slot0, slot1)
 	slot2 = slot0.contextData.ship
 
@@ -61,10 +57,7 @@ slot0.init = function(slot0)
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
 	setActive(slot0._left, true)
 	setActive(slot0.audioBtn, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-		hideLowerLayer = true,
-		weight = slot0:getWeightFromData()
-	})
+	slot0:OverlayPanel(slot0._tf)
 
 	slot0.metaRepeatTF = slot0:findTF("MetaRepeat", slot0.rarityTF)
 	slot0.metaDarkTF = slot0:findTF("MetaMask", slot0._shake)
@@ -450,8 +443,7 @@ slot0.showExitTip = function(slot0, slot1)
 				else
 					uv1:emit(NewShipMediator.ON_EXIT)
 				end
-			end,
-			weight = slot0:getWeightFromData()
+			end
 		})
 	elseif slot1 then
 		slot1()
@@ -496,9 +488,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
 		uv0:StopAutoExitTimer()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip, nil, {
-			weight = uv0:getWeightFromData()
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		uv0:StopAutoExitTimer()
@@ -819,9 +809,7 @@ slot0.playOpening = function(slot0, slot1)
 			if uv0 then
 				uv0()
 			end
-		end, "ui/skinunlockanim", slot3, true, false, {
-			weight = slot0:getWeightFromData()
-		})
+		end, "ui/skinunlockanim", slot3, true, false)
 	elseif slot1 then
 		slot1()
 	end
@@ -861,7 +849,7 @@ slot0.willExit = function(slot0)
 	end
 
 	slot0:recyclePainting()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then

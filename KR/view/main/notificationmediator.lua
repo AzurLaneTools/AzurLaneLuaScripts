@@ -11,10 +11,12 @@ slot0.register = function(slot0)
 	slot4 = slot0.viewComponent
 
 	slot4:setInGuild(getProxy(GuildProxy):getRawData() ~= nil)
-	slot0.viewComponent:setMessages(slot0:getAllMessages())
+	slot0.viewComponent:setMessages(getProxy(NotificationProxy):getAllMessages())
 	slot0:bind(uv0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
 		if slot2 == "$ rndsec refresh" and Application.isEditor then
 			MainRandomFlagShipSequence.ForceRandom()
+		elseif slot2 == "$ force gc" then
+			gcAll(true)
 		elseif slot2:match("$ rndskin print %d+") and Application.isEditor then
 			MainRandomFlagShipSequence.CalcRatio(tonumber(string.gmatch(slot2, "%d+")()), function (slot0)
 				getProxy(ChatProxy):addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
@@ -112,7 +114,7 @@ slot0.register = function(slot0)
 			data = {
 				callback = slot1,
 				pos = slot2,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION,
+				groupName = uv0.viewComponent:getGroupName(),
 				emojiIconCallback = function (slot0)
 					uv0.viewComponent:insertEmojiToInputText(slot0)
 				end
@@ -176,8 +178,7 @@ slot0.handleNotification = function(slot0, slot1)
 					pos = slot0.contextData.pos,
 					msg = slot0.contextData.msg,
 					form = slot0.contextData.form,
-					parent = slot0.contextData.chatViewParent,
-					LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
+					groupName = slot0.viewComponent:getGroupName()
 				}
 			}))
 
@@ -191,30 +192,6 @@ slot0.handleNotification = function(slot0, slot1)
 	end
 end
 
-slot0.getAllMessages = function(slot0)
-	slot1 = {}
-
-	_.each(getProxy(ChatProxy):getRawData(), function (slot0)
-		table.insert(uv0, slot0)
-	end)
-
-	if getProxy(GuildProxy):getRawData() then
-		_.each(slot3:getChatMsgs(), function (slot0)
-			table.insert(uv0, slot0)
-		end)
-	end
-
-	_.each(getProxy(FriendProxy):getCacheMsgList(), function (slot0)
-		table.insert(uv0, slot0)
-	end)
-
-	return _(slot1):chain():filter(function (slot0)
-		return not uv0:isInBlackList(slot0.playerId)
-	end):sort(function (slot0, slot1)
-		return slot0.timestamp < slot1.timestamp
-	end):value()
-end
-
 slot0.onChangeChatRoomDone = function(slot0, slot1)
 	if slot0.viewComponent.tempRoomSendBits then
 		NotificationLayer.ChannelBits.send = slot0.viewComponent.tempRoomSendBits
@@ -225,7 +202,7 @@ slot0.onChangeChatRoomDone = function(slot0, slot1)
 	end
 
 	slot0.viewComponent:closeChangeRoomPanel()
-	slot0.viewComponent:setMessages(slot0:getAllMessages())
+	slot0.viewComponent:setMessages(getProxy(NotificationProxy):getAllMessages())
 	slot0.viewComponent:updateChatChannel()
 	slot0.viewComponent:updateFilter()
 	slot0.viewComponent:updateAll()

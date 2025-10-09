@@ -279,6 +279,132 @@ pg.dorm3d_ins_unlock = {
 		content = 10517302,
 		trigger_type = 101
 	},
+	[30707101] = {
+		text = "숙소 진입 1일",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 30707101,
+		content = 30707101,
+		trigger_type = 152
+	},
+	[30707102] = {
+		text = "다이호 숙소 해금 2일",
+		trigger_num = 2,
+		trigger_id = 0,
+		type = 1,
+		id = 30707102,
+		content = 30707102,
+		trigger_type = 151
+	},
+	[30707103] = {
+		text = "다이호 숙소 해금 4일",
+		trigger_num = 4,
+		trigger_id = 0,
+		type = 1,
+		id = 30707103,
+		content = 30707103,
+		trigger_type = 151
+	},
+	[30707104] = {
+		text = "수집품 해금 20개",
+		trigger_num = 20,
+		trigger_id = 0,
+		type = 1,
+		id = 30707104,
+		content = 30707104,
+		trigger_type = 153
+	},
+	[30707105] = {
+		text = "상호작용 누적 3회",
+		trigger_num = 3,
+		trigger_id = 0,
+		type = 1,
+		id = 30707105,
+		content = 30707105,
+		trigger_type = 156
+	},
+	[30707106] = {
+		text = "다이호에게 선물 누적 5회",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 30707106,
+		content = 30707106,
+		trigger_type = 157
+	},
+	[30707107] = {
+		text = "다이호 숙소 해금 7일",
+		trigger_num = 7,
+		trigger_id = 0,
+		type = 1,
+		id = 30707107,
+		content = 30707107,
+		trigger_type = 152
+	},
+	[30707108] = {
+		text = "대화 누적 15회",
+		trigger_num = 15,
+		trigger_id = 0,
+		type = 1,
+		id = 30707108,
+		content = 30707108,
+		trigger_type = 155
+	},
+	[30707109] = {
+		text = "상호작용 누적 5회",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 30707109,
+		content = 30707109,
+		trigger_type = 156
+	},
+	[30707110] = {
+		text = "선물 누적 10회",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 1,
+		id = 30707110,
+		content = 30707110,
+		trigger_type = 157
+	},
+	[30707201] = {
+		text = "다이호 호감도 5레벨",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 3,
+		id = 30707201,
+		content = 30707201,
+		trigger_type = 101
+	},
+	[30707202] = {
+		text = "다이호 호감도 10레벨",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 3,
+		id = 30707202,
+		content = 30707202,
+		trigger_type = 101
+	},
+	[30707301] = {
+		text = "다이호 숙소 진입 1일",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 2,
+		id = 30707301,
+		content = 30707301,
+		trigger_type = 152
+	},
+	[30707302] = {
+		text = "다이호 호감도 12레벨",
+		trigger_num = 12,
+		trigger_id = 0,
+		type = 2,
+		id = 30707302,
+		content = 30707302,
+		trigger_type = 101
+	},
 	get_id_list_by_type = {
 		{
 			1,
@@ -302,11 +428,23 @@ pg.dorm3d_ins_unlock = {
 			10517101,
 			10517102,
 			10517103,
-			10517104
+			10517104,
+			30707101,
+			30707102,
+			30707103,
+			30707104,
+			30707105,
+			30707106,
+			30707107,
+			30707108,
+			30707109,
+			30707110
 		},
 		{
 			10517301,
-			10517302
+			10517302,
+			30707301,
+			30707302
 		},
 		[3] = {
 			19,
@@ -315,7 +453,9 @@ pg.dorm3d_ins_unlock = {
 			22,
 			10517201,
 			10517202,
-			10517203
+			10517203,
+			30707201,
+			30707202
 		}
 	},
 	all = {
@@ -349,6 +489,20 @@ pg.dorm3d_ins_unlock = {
 		10517202,
 		10517203,
 		10517301,
-		10517302
+		10517302,
+		30707101,
+		30707102,
+		30707103,
+		30707104,
+		30707105,
+		30707106,
+		30707107,
+		30707108,
+		30707109,
+		30707110,
+		30707201,
+		30707202,
+		30707301,
+		30707302
 	}
 }

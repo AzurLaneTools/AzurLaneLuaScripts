@@ -6,13 +6,13 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.cmd
 
 	if not getProxy(GuildProxy):getRawData() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not GuildMember.IsAdministrator(slot6:getSelfDuty()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
 
 		return
 	end

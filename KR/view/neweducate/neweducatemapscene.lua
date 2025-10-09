@@ -32,17 +32,25 @@ slot0.init = function(slot0)
 	slot2 = slot0.mapTF:Find("content/ships")
 	slot0.shipUIList = UIItemList.New(slot2, slot2:Find("tpl"))
 	slot0.personalityTipPanel = NewEducatePersonalityTipPanel.New(slot0.adaptTF, slot0.event, slot0.contextData)
+
+	slot0.personalityTipPanel:RegisterView(slot0)
+
 	slot0.topPanel = NewEducateTopPanel.New(slot0.uiTF, slot0.event, setmetatable({
 		showBack = true
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.topPanel:RegisterView(slot0)
+
 	slot0.infoPanel = NewEducateInfoPanel.New(slot0.uiTF, slot0.event, setmetatable({
-		hide = true,
-		weight = LayerWeightConst.BASE_LAYER + 3
+		hide = true
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.infoPanel:RegisterView(slot0)
+
 	slot0.detailPanel = NewEducateSiteDetailPanel.New(slot0.uiTF, slot0.event, setmetatable({
 		onHide = function ()
 			uv0:OnDetailHide()
@@ -50,6 +58,9 @@ slot0.init = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.detailPanel:RegisterView(slot0)
+
 	slot0.nodePanel = NewEducateNodePanel.New(slot0.adaptTF, slot0.event, setmetatable({
 		onHide = function ()
 			uv0:OnDetailHide()
@@ -65,6 +76,9 @@ slot0.init = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
+
+	slot0.nodePanel:RegisterView(slot0)
+
 	slot0.extendLimit = Vector2(slot0.mapTF.rect.width - slot0._tf.rect.width, slot0.mapTF.rect.height - slot0._tf.rect.height) / 2
 	slot0.duration = 0.5
 	slot0.curSiteId = 0

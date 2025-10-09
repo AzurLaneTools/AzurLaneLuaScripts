@@ -70,10 +70,7 @@ slot0.init = function(slot0)
 			uv0:closeView()
 		end
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		blurLevelCamera = true,
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.didEnter = function(slot0)
@@ -127,7 +124,7 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.mode then
 		setActive(slot0["rt" .. slot0.mode .. "Panel"], false)

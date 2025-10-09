@@ -86,7 +86,7 @@ slot0.OnInitItem = function(slot0, slot1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():BlurPanel(uv0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(uv0._tf)
 	end
 
 	slot4 = function()
@@ -94,7 +94,7 @@ slot0.OnInitItem = function(slot0, slot1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():UnblurPanel(uv0._tf, uv0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
 	end
 
 	onButton(slot0, slot2.viewEquipmentBtn, function ()

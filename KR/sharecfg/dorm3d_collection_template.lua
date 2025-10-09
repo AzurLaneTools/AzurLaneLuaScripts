@@ -134,6 +134,38 @@ pg.dorm3d_collection_template = setmetatable({
 			1127,
 			1128
 		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
+			1209,
+			1210,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1216,
+			1217,
+			1218,
+			1219,
+			1220,
+			1221,
+			1222,
+			1223,
+			1224,
+			1225,
+			1226,
+			1227,
+			1228,
+			1229,
+			1230
+		},
 		[16] = {
 			1601,
 			1602,
@@ -269,6 +301,36 @@ pg.dorm3d_collection_template = setmetatable({
 		1126,
 		1127,
 		1128,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
 		1601,
 		1602,
 		1603,
@@ -2902,6 +2964,636 @@ pg.base.dorm3d_collection_template = {
 			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
 		}
 	},
+	[1201] = {
+		name = "자기",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "섬세하고 복잡한 무늬가 새겨진 백자. 정성스럽게 관리되어, 표면엔 먼지 하나 없이 빛나고 있다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1201,
+		icon = "3Ddrom_dafeng_item1",
+		model = {
+			"fbx/litmap_01/pre_db_ceram23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram23/vfx_wupintishi01"
+		}
+	},
+	[1202] = {
+		name = "방과후 달콤한 시간",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "완장이 달린 교복과 스커트. 평소의 붉은 의상과는 달리, 가끔 보여주는 이 모습도 신선하다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1202,
+		icon = "3Ddrom_dafeng_item2",
+		model = {
+			"fbx/litmap_01/night/pre_db_cloth11"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cloth11/vfx_wupintishi01"
+		}
+	},
+	[1203] = {
+		name = "금단의 연회",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "우아한 붉은 파티 드레스. 가볍고 부드러운 소재로 만들어졌다. 다이호가 연회나 특별한 자리에서 즐겨 입는다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1203,
+		icon = "3Ddrom_dafeng_item3",
+		model = {
+			"fbx/litmap_01/pre_db_cloth10"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth10/vfx_wupintishi01"
+		}
+	},
+	[1204] = {
+		name = "목제 수납 상자",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "다이호의 수집품이 하나하나 담긴 작은 나무 상자. 안에는 사랑하는 이와의 추억이 가득 담겨 있다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1204,
+		icon = "3Ddrom_dafeng_item4",
+		model = {
+			"fbx/litmap_01/pre_db_woodbox03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_woodbox03/vfx_wupintishi01"
+		}
+	},
+	[1205] = {
+		name = "미니 분재",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "윤기 나고 생기 넘치는 잎, 가지까지 잘 다듬어진 작은 분재. 손이 많이 들인 정성이 느껴진다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1205,
+		icon = "3Ddrom_dafeng_item5",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai20"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai20/vfx_wupintishi01"
+		}
+	},
+	[1206] = {
+		name = "봉황 머리장식",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "화장대 위에 놓인 봉황 모양의 머리장식. 평소에도 즐겨 착용하는 것으로, 얼마나 애착이 있는지 느껴진다.",
+		text = "dorm3d_dafeng_table",
+		id = 1206,
+		icon = "3Ddrom_dafeng_item6",
+		model = {
+			"fbx/litmap_01/pre_db_headgear02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear02/vfx_wupintishi01"
+		}
+	},
+	[1207] = {
+		name = "나막신",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "밑창에 무늬가 새겨진 전통적인 나막신. 가끔 신고 밖을 걸으면, 그 발소리가 경쾌하게 울린다.",
+		text = "dorm3d_dafeng_table",
+		id = 1207,
+		icon = "3Ddrom_dafeng_item7",
+		model = {
+			"fbx/litmap_01/pre_db_shoe02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_shoe02/vfx_wupintishi01"
+		}
+	},
+	[1208] = {
+		name = "다이호의 책",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "일반 문학부터 군사 문학까지 다양한 장르를 갖춘 책들. …그중에는 조금 독특한 내용의 책도 섞여 있는 듯하다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1208,
+		icon = "3Ddrom_dafeng_item8",
+		model = {
+			"fbx/litmap_01/pre_db_book19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_book19/vfx_wupintishi01"
+		}
+	},
+	[1209] = {
+		name = "맑은 아로마",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "은은한 꽃 향기를 풍기는 아로마. 다이호가 잠들기 전에 방 안을 조용하고 평온한 분위기로 채우기 위해 사용한다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1209,
+		icon = "3Ddrom_dafeng_item9",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration17"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration17/vfx_wupintishi01"
+		}
+	},
+	[1210] = {
+		name = "캣타워",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "귀여운 디자인의 캣타워, 꼭대기에는 장난감 공이 매달려 있다. …고양이라도 기르려는 건가?",
+		text = "dorm3d_dafeng_chair",
+		id = 1210,
+		icon = "3Ddrom_dafeng_item10",
+		model = {
+			"fbx/litmap_01/pre_db_decoration04"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration04/vfx_wupintishi01"
+		}
+	},
+	[1211] = {
+		name = "아로마 캔들",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "조명과 장식 역할을 겸하는 캔들. 다이호가 더한 아로마 오일 때문인지, 따뜻한 불빛과 함께 은은한 라벤더 향이 느껴진다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1211,
+		icon = "3Ddrom_dafeng_item11",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration19/vfx_wupintishi01"
+		}
+	},
+	[1212] = {
+		name = "신선한 꽃",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "선명한 색상의 꽃들이 창가에 정갈하게 놓여 있다. 다이호가 매일 돌보는 듯, 항상 생기가 넘친다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1212,
+		icon = "3Ddrom_dafeng_item12",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot16"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot16/vfx_wupintishi01"
+		}
+	},
+	[1213] = {
+		name = "모노크롬 고양이 밥그릇",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "용도 구분을 위해 흑백으로 나뉘어진 새 고양이용 밥그릇.",
+		text = "dorm3d_dafeng_chair",
+		id = 1213,
+		icon = "3Ddrom_dafeng_item13",
+		model = {
+			"fbx/litmap_01/pre_db_tableware44"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware44/vfx_wupintishi01"
+		}
+	},
+	[1214] = {
+		name = "과일 모둠",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "테이블 위 쟁반에 담긴 과일 모둠. 늘 신선하고 먹음직스러운 과일로 채워져 있어, 언제든 손님을 대접할 준비가 되어 있다.",
+		text = "dorm3d_dafeng_table",
+		id = 1214,
+		icon = "3Ddrom_dafeng_item14",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47/vfx_wupintishi01"
+		}
+	},
+	[1215] = {
+		name = "대형 냉장고",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "과일, 채소, 간식, 음료까지 가득 들어 있는 대형 냉장고. 다이호는 자주 내용물을 바꾸며 다양한 입맛에 맞추고 있다.",
+		text = "dorm3d_dafeng_table",
+		id = 1215,
+		icon = "3Ddrom_dafeng_item15",
+		model = {
+			"fbx/litmap_01/pre_db_appliances08"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances08/vfx_wupintishi01"
+		}
+	},
+	[1216] = {
+		name = "세라믹 칼",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "고급 세라믹 재질의 칼. 사용하기 편하며, 사랑 가득한 도시락을 만드는 데 꼭 필요한 다이호의 애용품이다.",
+		text = "dorm3d_dafeng_table",
+		id = 1216,
+		icon = "3Ddrom_dafeng_item16",
+		model = {
+			"no_bake/pre_db_kitchenware25"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake/pre_db_kitchenware25/vfx_wupintishi01"
+		}
+	},
+	[1217] = {
+		name = "주전자",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "심플한 주전자. 차를 끓일 때 자주 쓰는데, 예전에는 실수로 데인 적도 있었다고 한다.",
+		text = "dorm3d_dafeng_table",
+		id = 1217,
+		icon = "3Ddrom_dafeng_item17",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware19/vfx_wupintishi01"
+		}
+	},
+	[1218] = {
+		name = "색실공",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "정교하게 만들어진 색실공. 오랫동안 장식용으로 방치되고 있다. 슬슬 놀이 방법을 배워도 좋을 듯한데…",
+		text = "dorm3d_dafeng_chair",
+		id = 1218,
+		icon = "3Ddrom_dafeng_item18",
+		model = {
+			"fbx/litmap_01/night/pre_db_toy15"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_toy15/vfx_wupintishi01"
+		}
+	},
+	[1219] = {
+		name = "쿠션 방석",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "진한 색의 동그란 쿠션 방석. 앉을 때 느낌은 편하지만 낮아서, 다다미 위에 올려두는 용도로 쓰인다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1219,
+		icon = "3Ddrom_dafeng_item19",
+		model = {
+			"fbx/litmap_01/pre_db_chair28"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair28/vfx_wupintishi01"
+		}
+	},
+	[1220] = {
+		name = "참치 초밥",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "신선한 참치로 만든 초밥. 사랑하는 이를 위해 준비한 특별한 요리로, 이외에 다른 초밥 모둠도 있다.",
+		text = "dorm3d_dafeng_table",
+		id = 1220,
+		icon = "3Ddrom_dafeng_item20",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22/vfx_wupintishi01"
+		}
+	},
+	[1221] = {
+		name = "사랑의 도시락",
+		award = 0,
+		time = 2,
+		room_id = 12,
+		desc = "9칸으로 나뉜 화려한 도시락. 반찬 종류도 다양하고 영양도 풍부해, 한 번 먹으면 절대 잊지 못할 맛이다.",
+		text = "dorm3d_dafeng_table",
+		id = 1221,
+		icon = "3Ddrom_dafeng_item21",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23/vfx_wupintishi01"
+		}
+	},
+	[1222] = {
+		name = "목제 수납장",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "현관에 놓인 나무로 된 작은 수납장. 안에는 그녀의 소지품이 가지런히 정리되어 있다.",
+		text = "dorm3d_dafeng_table",
+		id = 1222,
+		icon = "3Ddrom_dafeng_item22",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard29"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard29/vfx_wupintishi01"
+		}
+	},
+	[1223] = {
+		name = "주방 도구 세트",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "프라이팬, 국자, 뒤집개 등으로 구성된 정교한 주방 도구 세트. 전부 깨끗하게 벽에 걸려 있다.",
+		text = "dorm3d_dafeng_table",
+		id = 1223,
+		icon = "3Ddrom_dafeng_item23",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware21"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware21/vfx_wupintishi01"
+		}
+	},
+	[1224] = {
+		name = "전통 부채",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "사쿠라 엠파이어 스타일의 붉은 부채. 부채 면에는 기러기와 흰 벚꽃이 그려져 있으며, 다이호가 스스로 장식한 것이라고 한다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1224,
+		icon = "3Ddrom_dafeng_item24",
+		model = {
+			"fbx/litmap_01/pre_db_decoration16b"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration16b/vfx_wupintishi01"
+		}
+	},
+	[1225] = {
+		name = "서예 책상",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "단촐한 서예용 책상. 위에는 화선지가 놓여 있고, 이곳에서 가끔 글씨나 그림을 그린다.",
+		text = "dorm3d_dafeng_bed",
+		id = 1225,
+		icon = "3Ddrom_dafeng_item25",
+		model = {
+			"fbx/litmap_01/pre_db_table19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table19/vfx_wupintishi01"
+		}
+	},
+	[1226] = {
+		name = "장식용 꽃",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "은은한 색감의 장식 꽃. 균형 있게 정돈되어 있으며, 매일 정성스럽게 관리되고 있다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1226,
+		icon = "3Ddrom_dafeng_item26",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot19/vfx_wupintishi01"
+		}
+	},
+	[1227] = {
+		name = "레인지 후드",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "가스레인지 위에 설치된 레인지 후드. 실용적이면서도 성능이 뛰어나고, 작동 소리도 조용하다.",
+		text = "dorm3d_dafeng_table",
+		id = 1227,
+		icon = "3Ddrom_dafeng_item27",
+		model = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01/vfx_wupintishi01"
+		}
+	},
+	[1228] = {
+		name = "부채 모양 액자",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "장식용 부채 모양 액자. 눈에 띄는 곳에 걸려 있어, 한순간에 시선을 사로잡는다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1228,
+		icon = "3Ddrom_dafeng_item28",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27/vfx_wupintishi01"
+		}
+	},
+	[1229] = {
+		name = "고양이 그림 족자",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "눈에 띄는 곳에 걸려 있는 귀여운 고양이 그림 족자. 생동감 있는 붓 터치에서 그린 이의 고양이 사랑이 느껴진다.",
+		text = "dorm3d_dafeng_chair",
+		id = 1229,
+		icon = "3Ddrom_dafeng_item29",
+		model = {
+			"fbx/litmap_01/pre_db_wallscrolls03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_wallscrolls03/vfx_wupintishi01"
+		}
+	},
+	[1230] = {
+		name = "정교한 자기",
+		award = 0,
+		time = 0,
+		room_id = 12,
+		desc = "다양한 종류의 정교한 자기. 복잡한 문양과 매끈한 촉감이 어우러져, 손이 저절로 간다.",
+		text = "dorm3d_dafeng_table",
+		id = 1230,
+		icon = "3Ddrom_dafeng_item30",
+		model = {
+			"fbx/litmap_01/pre_db_ceram18"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram18/vfx_wupintishi01"
+		}
+	},
 	[1601] = {
 		name = "간판 메뉴",
 		award = 0,
@@ -2914,11 +3606,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_billboard16_2"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
 		}
@@ -2935,11 +3623,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_billboard13"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
 		}
@@ -2956,11 +3640,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_desklamp06_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
 		}
@@ -2977,11 +3657,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_electrical19"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
 		}
@@ -2998,11 +3674,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_drink03_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
 		}
@@ -3019,11 +3691,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_food07"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
 		}
@@ -3040,11 +3708,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_frame23_group"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
 		}
@@ -3061,11 +3725,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_tableware30_4"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
 		}
@@ -3082,11 +3742,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}

@@ -124,7 +124,7 @@ slot0.Hide = function(slot0)
 		setActiveViaLayer(slot0._go, false)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.isShowing = function(slot0)

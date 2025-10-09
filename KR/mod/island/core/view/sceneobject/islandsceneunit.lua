@@ -14,6 +14,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.unitType = nil
 end
 
+slot0.IsSelf = function(slot0, slot1)
+	return slot0:GetUnitType() == slot1:GetUnitType() and slot0.id == slot1.id
+end
+
 slot0.GetDataVO = function(slot0)
 	return slot0.data
 end
@@ -21,6 +25,10 @@ end
 slot0.ResetPosition = function(slot0)
 	slot0._go.transform.position = slot0.position
 	slot0._go.transform.eulerAngles = slot0.rotation
+end
+
+slot0.GetPosition = function(slot0)
+	return slot0._go.transform.position
 end
 
 slot0.OnInit = function(slot0, slot1, slot2)
@@ -34,14 +42,9 @@ slot0.OnInit = function(slot0, slot1, slot2)
 	slot0.behaviourTreeOwner = slot0._go:GetComponent(typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner))
 
 	slot0:OnAttach(slot1)
-
-	slot0._go.transform.position = slot0.position
-	slot0._go.transform.eulerAngles = slot0.rotation
-
+	slot0:ResetPosition()
 	slot0:OnLaterAttach(slot1)
-
-	slot0._go.transform.position = slot0.position
-	slot0._go.transform.eulerAngles = slot0.rotation
+	slot0:ResetPosition()
 
 	if slot0:GetView():IsInit() then
 		slot0:Start()
@@ -145,6 +148,10 @@ slot0.Update = function(slot0)
 	end
 
 	uv0.super.Update(slot0)
+end
+
+slot0.IsActive = function(slot0)
+	return slot0.active
 end
 
 slot0.OnAttach = function(slot0, slot1)

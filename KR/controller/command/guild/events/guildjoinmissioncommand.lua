@@ -29,7 +29,7 @@ slot0.execute = function(slot0, slot1)
 			uv2:sendNotification(GAME.GUILD_JOIN_MISSION_DONE, {
 				id = uv0
 			})
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

@@ -5,6 +5,10 @@ slot0.GetUIName = function(slot0)
 	return "IslandSlotHudUI"
 end
 
+slot0.SetUIParent = function(slot0, slot1)
+	setParent(slot1, slot0:GetView().hudContainer)
+end
+
 slot0.OnInit = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
@@ -41,7 +45,7 @@ slot0.ShowHud = function(slot0, slot1, slot2)
 	slot0:ShowUnitHud(slot1, slot2)
 end
 
-slot0.UpdateHud = function(slot0, slot1)
+slot0.UpdateHud = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return
 	end
@@ -50,14 +54,16 @@ slot0.UpdateHud = function(slot0, slot1)
 		return
 	end
 
-	slot3 = slot2:GetHudInfo()
+	slot4 = slot3:GetHudInfo()
 
 	if not slot0.currentHud then
+		slot0:ShowUnitHud(slot1, slot2)
+
 		return
 	end
 
 	if slot0.currentHud.unitId == slot1 then
-		slot0.currentHud:UpdateUnitHud(slot3)
+		slot0.currentHud:UpdateUnitHud(slot4)
 	end
 end
 

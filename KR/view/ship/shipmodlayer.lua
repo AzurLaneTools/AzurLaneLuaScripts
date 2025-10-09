@@ -6,6 +6,10 @@ slot0.getUIName = function(slot0)
 	return "ShipModUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "ShipMainScene"
+end
+
 slot0.setShipVOs = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -67,18 +71,15 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.blurPanel = function(slot0, slot1)
-	slot2 = pg.UIMgr.GetInstance()
-
 	if slot1 then
-		slot2:OverlayPanelPB(slot0.blurPanelTF, {
+		slot0:OverlayPanel(slot0.blurPanelTF, {
 			pbList = {
 				slot0.mainPanel:Find("bg")
 			},
-			groupName = slot0:getGroupNameFromData(),
 			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		slot2:UnOverlayPanel(slot0.blurPanelTF, slot0._tf)
+		slot0:UnOverlayPanel(slot0.blurPanelTF, slot0._tf)
 	end
 end
 

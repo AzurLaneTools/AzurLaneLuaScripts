@@ -36,9 +36,7 @@ slot0.GetCurrentPage = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
-	})
+	slot0:OverlayPanel(slot0.top)
 	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/option"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
@@ -61,8 +59,10 @@ slot0.EnterPage = function(slot0, slot1)
 		end
 
 		slot0.contextData[slot4] = slot0.contextData[slot4] or {}
+		slot3 = slot4.New(slot0, slot0.viewContainer, slot0.event, slot0.contextData)
 
-		slot4.New(slot0, slot0.viewContainer, slot0.event, slot0.contextData):Load()
+		slot3:RegisterView(slot0)
+		slot3:Load()
 	end
 
 	if slot0.contextData.page and slot0.subViews[slot0.contextData.page] and not slot2 then
@@ -135,7 +135,7 @@ slot0.willExit = function(slot0)
 	end
 
 	table.clear(slot0.subViews)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
+	slot0:UnOverlayPanel(slot0.top, slot0._tf)
 end
 
 return slot0

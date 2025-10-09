@@ -178,7 +178,7 @@ slot0.init = function(slot0)
 	slot0.sceneGroupDic = {}
 	slot0.lastSceneRootDict = {}
 
-	pg.ClickEffectMgr:GetInstance():SetClickEffect("DORM3D")
+	pg.ClickEffectMgr.GetInstance():SetClickEffect("DORM3D")
 end
 
 slot0.BindEvent = function(slot0)
@@ -297,6 +297,7 @@ slot0.BindEvent = function(slot0)
 
 	slot3 = {
 		ResetCharacterExtraItem = true,
+		SetExtraAnimSpeed = true,
 		EnableHeadIK = true,
 		PlayEnterExtraItem = true,
 		HideCharacterBylayer = true,
@@ -700,23 +701,30 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 	slot0.ladyDict[slot1] = LadyEnv.New(slot0)
 	slot5 = getProxy(ApartmentProxy):getApartment(slot1)
 	slot6 = slot5:getConfig("asset_name")
-	slot8 = pg.dorm3d_resource[slot5:GetSkinModelID(slot0.room:getConfig("tag"))].model_id
+	slot9 = slot0.room
+	slot9 = Dorm3dSkin.New({
+		configId = slot5:GetSkinModelID(slot9:getConfig("tag"))
+	}):GetModelName()
 
-	assert(slot8)
+	assert(slot9)
 
-	for slot12, slot13 in ipairs({
+	for slot13, slot14 in ipairs({
 		"common",
-		slot8
+		slot9
 	}) do
-		if checkABExist(string.format("dorm3d/character/%s/res/%s", slot6, slot13)) then
+		if checkABExist(string.format("dorm3d/character/%s/res/%s", slot6, slot14)) then
 			table.insert(slot3, function (slot0)
 				slot1 = uv0.loader
 
 				slot1:LoadBundle(uv1, function (slot0)
 					for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
-						slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
+						slot6, slot7, slot8 = string.find(string.lower(slot5), "material_hx[/\\](.*).mat")
 
 						if slot6 then
+							uv0.hxMatDict[slot8 .. " (Instance)"] = {
+								slot0,
+								slot5
+							}
 							uv0.hxMatDict[slot8] = {
 								slot0,
 								slot5
@@ -747,10 +755,12 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 	end)
 
 	if slot0.room:isPersonalRoom() then
-		for slot12, slot13 in ipairs(slot5:GetAllModelIds()) do
-			if not table.contains(slot4.skinIdList, slot13) then
-				if checkABExist(string.format("dorm3d/character/%s/prefabs/%s", slot6, pg.dorm3d_resource[slot13].model_id)) then
-					table.insert(slot4.skinIdList, slot13)
+		for slot13, slot14 in ipairs(slot5:GetAllModelIds()) do
+			if not table.contains(slot4.skinIdList, slot14) then
+				if checkABExist(string.format("dorm3d/character/%s/prefabs/%s", slot6, Dorm3dSkin.New({
+					configId = slot14
+				}):GetModelName())) then
+					table.insert(slot4.skinIdList, slot14)
 					table.insert(slot3, function (slot0)
 						slot1 = uv0.loader
 
@@ -811,12 +821,15 @@ slot0.HXCharacter = function(slot0, slot1)
 
 		if false then
 			slot1.sharedMaterials = slot2
+
+			GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(uv1))
 		end
 	end)
 end
 
 slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1:InitCharacter(slot2)
+	slot0:HXCharacter(slot1.lady)
 	slot1:SetZone(slot0.contextData.ladyZone[slot2])
 	slot0:ChangeCharacterPosition(slot1)
 end
@@ -1020,10 +1033,7 @@ slot0.didEnter = function(slot0)
 
 	slot0.expressionDict = {}
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blockLayer, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	slot0:OverlayPanel(slot0.blockLayer)
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.POV])
 
 	slot4, slot5 = nil
@@ -1729,30 +1739,51 @@ slot0.GetSceneItem = function(slot0, slot1)
 	return slot2
 end
 
-slot0.PlayEnterSceneAnim = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.SetSceneAnimSpeed = function(slot0, slot1, slot2)
+	table.Ipairs(slot1 or {}, function (slot0, slot1)
+		if uv0.sceneAnimatorDict[slot1] then
+			uv0.sceneAnimatorDict[slot1].animator.speed = uv1
+		end
+	end)
+end
+
+slot0.SetExtraAnimSpeed = function(slot0, slot1, slot2, slot3)
+	table.Ipairs(slot2 or {}, function (slot0, slot1)
+		if uv0.extraItems[slot1[1]] then
+			uv0.extraItems[slot2].trans:GetComponent(typeof(Animator)).speed = uv1
+		end
+	end)
+end
+
+slot0.PlayEnterSceneAnim = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+	slot4 = {}
 
 	if slot1 and #slot1 > 0 then
 		table.Ipairs(slot1, function (slot0, slot1)
 			uv0:PlaySceneItemAnim(slot1[1], slot1[2], uv1)
-			table.insert(uv2, slot1[1])
+			uv0:SetSceneAnimSpeed({
+				slot1[1]
+			}, uv2)
+			table.insert(uv3, slot1[1])
 		end)
 	end
 
-	slot0:ResetSceneItemAnimators(slot3)
+	slot0:ResetSceneItemAnimators(slot4)
 end
 
-slot0.PlayEnterExtraItem = function(slot0, slot1, slot2)
-	slot3 = {}
+slot0.PlayEnterExtraItem = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+	slot4 = {}
 
 	if slot2 and #slot2 > 0 then
 		table.Ipairs(slot2, function (slot0, slot1)
-			uv0:LoadCharacterExtraItem(uv1, slot1[1], slot1[2], slot1[3] and Vector3.New(unpack(slot1[3])), slot1[4] and Quaternion.Euler(unpack(slot1[4])), #slot1 > 4 and slot1[5] or nil)
-			table.insert(uv2, slot1[1])
+			uv0:LoadCharacterExtraItem(uv1, slot1[1], slot1[2], slot1[3] and Vector3.New(unpack(slot1[3])), slot1[4] and Quaternion.Euler(unpack(slot1[4])), #slot1 > 4 and slot1[5] or nil, uv2)
+			table.insert(uv3, slot1[1])
 		end)
 	end
 
-	slot0:ResetCharacterExtraItem(slot1, slot3)
+	slot0:ResetCharacterExtraItem(slot1, slot4)
 end
 
 slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
@@ -2767,6 +2798,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv0.nowTimelinePlayer = TimelinePlayer.New(GameObject.Find("[sequence]").transform)
 
+		TimelineSupport.InitSubtitle(uv0.nowTimelinePlayer.comDirector, uv0.apartment:GetCallName())
 		uv0.nowTimelinePlayer:Register(uv1.time, function (slot0, slot1, slot2)
 			switch(slot1.stringParameter, {
 				TimelinePause = function ()
@@ -2993,44 +3025,46 @@ slot0.ResetSceneItemAnimators = function(slot0, slot1)
 	end)
 end
 
-slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7 = function(slot0)
+slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8 = function(slot0)
 		if uv0 and slot0:GetComponent(typeof(Animator)) then
 			slot1:Play(uv0)
+
+			slot1.speed = uv1
 		end
 	end
 
 	slot1.extraItems = slot1.extraItems or {}
 
 	if slot1.extraItems[slot2] then
-		slot7(slot1.extraItems[slot2].trans)
+		slot8(slot1.extraItems[slot2].trans)
 
 		return
 	end
 
-	slot8 = nil
+	slot9 = nil
 
 	if slot3 == "" then
-		slot8 = slot1.lady
+		slot9 = slot1.lady
 	elseif slot3 == "scene_root" then
-		slot8 = slot0.modelRoot
+		slot9 = slot0.modelRoot
 	else
-		slot10 = slot1.lady
+		slot11 = slot1.lady
 
-		table.IpairsCArray(slot10:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
+		table.IpairsCArray(slot11:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
 			if slot1.name == uv0 then
 				uv1 = slot1
 			end
 		end)
 	end
 
-	if not slot8 then
+	if not slot9 then
 		return
 	end
 
-	slot9 = slot0.loader
+	slot10 = slot0.loader
 
-	slot9:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
+	slot10:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then
@@ -3267,7 +3301,6 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 		assetRootName = slot0.apartment:getConfig("asset_name"),
 		isCache = slot2,
 		waitForTimeline = slot3,
-		callName = slot0.apartment:GetCallName(),
 		loadSceneFunc = function (slot0, slot1)
 			uv0:HXCharacter(tf(GameObject.Find("[actor]").transform))
 		end
@@ -3446,12 +3479,12 @@ slot0.willExit = function(slot0)
 	slot0.camBrainEvenetHandler.OnBlendStarted = nil
 	slot0.camBrainEvenetHandler.OnBlendFinished = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blockLayer, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blockLayer, slot0._tf)
 	table.Foreach(slot0.expressionDict, function (slot0)
 		uv0:RemoveExpression(slot0)
 	end)
 	slot0.loader:Clear()
-	pg.ClickEffectMgr:GetInstance():SetClickEffect("NORMAL")
+	pg.ClickEffectMgr.GetInstance():SetClickEffect("NORMAL")
 	pg.NodeCanvasMgr.GetInstance():Clear()
 	slot0.dormSceneMgr:Dispose()
 

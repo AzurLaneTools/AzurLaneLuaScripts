@@ -47,8 +47,7 @@ slot0.addListener = function(slot0)
 		if pg.gametip.help_tempesteve then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.help_tempesteve.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.help_tempesteve.tip
 			})
 		end
 	end, SFX_PANEL)

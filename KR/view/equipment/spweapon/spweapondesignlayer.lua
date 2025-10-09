@@ -54,9 +54,7 @@ slot0.init = function(slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.indexPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	slot0:OverlayPanel(slot0.indexPanel)
 end
 
 slot0.SetParentTF = function(slot0, slot1)
@@ -287,7 +285,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.indexPanel, slot0._tf)
 	setParent(slot0.toggleOwned, slot0._tf)
 	setParent(slot0.top, slot0._tf)
 end

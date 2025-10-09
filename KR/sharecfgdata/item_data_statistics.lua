@@ -29549,9 +29549,9 @@ _G.pg.base.item_data_statistics[30430] = {
 
 _G.pg.base.item_data_statistics[30431] = {
 	open_directly = 1,
-	name = "장비스킨 상자(월드 투어)",
+	name = "무작위 장비 스킨",
 	type = 11,
-	display = "크루즈 보상 장비 스킨을 랜덤으로 하나 획득 가능",
+	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -102913,7 +102913,6 @@ _G.pg.base.item_data_statistics[81209] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998311",
@@ -102960,7 +102959,8 @@ _G.pg.base.item_data_statistics[81209] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -102980,7 +102980,6 @@ _G.pg.base.item_data_statistics[81210] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998312",
@@ -103027,7 +103026,8 @@ _G.pg.base.item_data_statistics[81210] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -103047,7 +103047,6 @@ _G.pg.base.item_data_statistics[81211] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998313",
@@ -103094,7 +103093,8 @@ _G.pg.base.item_data_statistics[81211] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -103248,7 +103248,6 @@ _G.pg.base.item_data_statistics[81213] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998315",
@@ -103295,7 +103294,8 @@ _G.pg.base.item_data_statistics[81213] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -103315,7 +103315,6 @@ _G.pg.base.item_data_statistics[81214] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998316",
@@ -103362,7 +103361,8 @@ _G.pg.base.item_data_statistics[81214] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -103514,7 +103514,6 @@ _G.pg.base.item_data_statistics[81217] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998318",
@@ -103561,7 +103560,8 @@ _G.pg.base.item_data_statistics[81217] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -103581,7 +103581,6 @@ _G.pg.base.item_data_statistics[81218] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998319",
@@ -103628,7 +103627,100 @@ _G.pg.base.item_data_statistics[81218] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81219] = {
+	open_directly = 1,
+	name = "스킨 패키지(스포츠, 레이스퀸)",
+	type = 17,
+	display = "구매하면 해당 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아×680개로 변환), 자금×2000, 연료×1000, 성정 유닛×20개를 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_random_skin",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai29",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 81219,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86219,
+			1
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			2,
+			15008,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		998320,
+		680,
+		{
+			236032,
+			801033,
+			803011,
+			106551,
+			805021,
+			807021,
+			902021,
+			401161,
+			401242,
+			702043,
+			403021,
+			404051,
+			107073,
+			408092,
+			101352,
+			201105,
+			102271,
+			102261,
+			103132,
+			103162,
+			103241,
+			105112,
+			107111,
+			108041,
+			301581,
+			101255,
+			403034,
+			107066,
+			303115,
+			303124,
+			205064,
+			205073,
+			307052,
+			307062,
+			307073
+		}
+	},
+	limit = {}
 }
 
 
@@ -104275,7 +104367,6 @@ _G.pg.base.item_data_statistics[81425] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "906148",
@@ -104292,7 +104383,8 @@ _G.pg.base.item_data_statistics[81425] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 

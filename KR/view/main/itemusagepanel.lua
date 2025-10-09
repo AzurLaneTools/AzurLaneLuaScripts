@@ -63,7 +63,7 @@ slot0.Close = function(slot0)
 	slot0.settings = nil
 
 	setActive(slot0._go, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._go, slot0._parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._go, slot0._parent)
 end
 
 slot0.Update = function(slot0, slot1)

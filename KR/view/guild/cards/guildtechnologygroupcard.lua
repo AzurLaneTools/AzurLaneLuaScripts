@@ -28,7 +28,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 				return
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_start_tech_group_tip", uv1:getConfig("name")),
 				onYes = function ()
 					uv0.view:emit(GuildTechnologyMediator.ON_START, uv1)
@@ -55,7 +55,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_cancel_tech_tip", uv1:getConfig("name")),
 			onYes = function ()
 				uv0.view:emit(GuildTechnologyMediator.ON_CANCEL_TECH, uv1)

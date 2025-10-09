@@ -156,6 +156,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101103_icon"
 	},
+	[101201] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "독점의 초대",
+		nighttime_res = "101201_bg_night",
+		daytime_res = "101201_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「독점의 초대」로 적용 가능",
+		unlock_text = "다이호의 숙소 친밀도 Lv2 달성 시 오픈",
+		id = 101201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101201_icon"
+	},
+	[101202] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "다가붙는 감정",
+		nighttime_res = "101202_bg_night",
+		daytime_res = "101202_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「다가붙는 감정」으로 적용 가능",
+		unlock_text = "다이호의 숙소 친밀도 Lv7 달성 시 오픈",
+		id = 101202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101202_icon"
+	},
+	[101203] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "설레는 손끝",
+		nighttime_res = "101203_bg_night",
+		daytime_res = "101203_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「설레는 손끝」으로 적용 가능",
+		unlock_text = "다이호의 숙소 친밀도 Lv10 달성 시 오픈",
+		id = 101203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101203_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -169,6 +205,9 @@ pg.livingarea_cover = {
 		100303,
 		101101,
 		101102,
-		101103
+		101103,
+		101201,
+		101202,
+		101203
 	}
 }

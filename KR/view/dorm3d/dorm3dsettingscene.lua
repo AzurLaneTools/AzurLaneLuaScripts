@@ -21,9 +21,7 @@ slot0.didEnter = function(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 	slot0:SwitchPage(1)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		interactableAlways = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -31,7 +29,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	uv0.super.willExit(slot0)
 end
 

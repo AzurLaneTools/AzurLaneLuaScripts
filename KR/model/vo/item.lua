@@ -26,6 +26,7 @@ slot0.LOVE_LETTER_TYPE = 23
 slot0.SPWEAPON_MATERIAL_TYPE = 24
 slot0.METALESSON_TYPE = 25
 slot0.SKIN_ASSIGNED_TYPE = 26
+slot0.SHIP_GIFT = 50
 
 slot0.Ctor = function(slot0, slot1)
 	assert(not slot1.type or slot1.type == DROP_TYPE_VITEM or slot1.type == DROP_TYPE_ITEM)

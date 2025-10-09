@@ -14,8 +14,8 @@ end
 
 slot0.ResUISettings = function(slot0)
 	return {
-		showType = PlayerResUI.TYPE_ALL,
-		groupName = LayerWeightConst.GROUP_LEVELUI
+		groupDelta = 1,
+		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
@@ -1296,7 +1296,6 @@ slot0.updateRemasterInfo = function(slot0)
 					type = uv0,
 					id = uv1
 				},
-				weight = LayerWeightConst.TOP_LAYER,
 				remaster = {
 					word = i18n("level_remaster_tip4", pg.chapter_template[uv2].chapter_name),
 					number = uv3.count .. "/" .. uv4,
@@ -1719,9 +1718,7 @@ slot0.DisplaySPAnim = function(slot0, slot1, slot2, slot3)
 
 		uv0:frozen()
 		uv1:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1))
 
 		if uv2 then
 			uv2(uv1)
@@ -2044,16 +2041,10 @@ slot0.switchToChapter = function(slot0, slot1)
 			function (slot0)
 				setActive(uv0.clouds, false)
 				uv0.mapBuilder:HideFloat()
-				pg.UIMgr.GetInstance():BlurPanel(uv0.topPanel, false, {
+				uv0:BlurPanel(uv0.topPanel, {
 					blurCamList = {
 						pg.UIMgr.CameraUI
-					},
-					groupName = LayerWeightConst.GROUP_LEVELUI
-				})
-				pg.playerResUI:SetActive({
-					active = true,
-					groupName = LayerWeightConst.GROUP_LEVELUI,
-					showType = PlayerResUI.TYPE_ALL
+					}
 				})
 				uv0.levelStageView:updateStageInfo()
 				uv0.levelStageView:updateAmbushRate(uv1.fleet.line, true)
@@ -2243,10 +2234,7 @@ slot0.switchToMap = function(slot0, slot1)
 			uv0.mapBuilder:UpdateMapItems()
 		end
 	})
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
-	pg.playerResUI:SetActive({
-		active = false
-	})
+	slot0:UnOverlayPanel(slot0.topPanel, slot0._tf)
 
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
 	slot0.canvasGroup.interactable = true
@@ -2510,9 +2498,7 @@ slot0.PlayMapTransition = function(slot0, slot1, slot2, slot3, slot4)
 		uv0:frozen()
 		existCall(uv1, uv2)
 		uv2:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv2), {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv2))
 
 		slot1 = uv2:GetComponent(typeof(Animator))
 
@@ -2867,9 +2853,7 @@ slot0.doPlayAnim = function(slot0, slot1, slot2, slot3)
 
 		uv0:frozen()
 		uv1:SetActive(true)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1), {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(tf(uv1))
 
 		if uv2 then
 			uv2(uv1)
@@ -3354,7 +3338,7 @@ slot0.enableLevelCamera = function(slot0)
 	if slot0.levelCamIndices == 0 then
 		slot0.levelCam.enabled = true
 
-		pg.LayerWeightMgr.GetInstance():switchOriginParent()
+		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
@@ -3364,7 +3348,7 @@ slot0.disableLevelCamera = function(slot0)
 	if slot0.levelCamIndices > 0 then
 		slot0.levelCam.enabled = false
 
-		pg.LayerWeightMgr.GetInstance():switchOriginParent()
+		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
@@ -3519,10 +3503,7 @@ slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 
 	if slot0.contextData.chapterVO then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
-		pg.playerResUI:SetActive({
-			active = false
-		})
+		slot0:UnOverlayPanel(slot0.topPanel, slot0._tf)
 	end
 
 	if slot0.levelFleetView and slot0.levelFleetView.selectIds then

@@ -189,8 +189,7 @@ slot0.execute = function(slot0, slot1)
 
 						uv1:sendNotification(GAME.ISLAND_SHOP_OP_DONE, {
 							operation = uv3.operation,
-							awards = slot0.drop_list,
-							ptAward = slot2
+							awards = slot3.awards
 						})
 
 						if uv3.callback then

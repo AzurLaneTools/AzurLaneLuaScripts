@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "MetaQuickTacticsUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "MetaCharacterScene"
+end
+
 slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()
@@ -114,12 +118,9 @@ end
 
 slot0.overlayPanel = function(slot0, slot1)
 	if slot1 and slot0._tf then
-		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER
-		})
+		slot0:OverlayPanel(slot0._tf)
 	elseif slot0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+		slot0:UnOverlayPanel(slot0._tf)
 	end
 end
 

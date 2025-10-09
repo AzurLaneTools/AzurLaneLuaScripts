@@ -94,21 +94,28 @@ slot0.ShopId2SkinId = function(slot0, slot1)
 	return pg.shop_template[slot1].effect_args[1]
 end
 
-slot0.OwnAllSkin = function(slot0)
-	return _.all(_.map(slot0:GetShopIdList(), function (slot0)
+slot0.GetOwnCount = function(slot0)
+	slot1 = underscore.map(slot0:GetShopIdList(), function (slot0)
 		return uv0:ShopId2SkinId(slot0)
-	end), function (slot0)
-		return getProxy(ShipSkinProxy):hasSkin(slot0)
 	end)
+
+	return #underscore.filter(slot1, function (slot0)
+		return getProxy(ShipSkinProxy):hasNonLimitSkin(slot0)
+	end), #slot1
 end
 
-slot0.GetSkinCouponAct = function()
-	if #(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}) <= 0 then
-		return nil
-	end
+slot0.OwnAllSkin = function(slot0)
+	slot1, slot2 = slot0:GetOwnCount()
 
-	for slot4 = #slot0, 1, -1 do
-		if getProxy(ActivityProxy):RawGetActivityById(slot0[slot4]) and not slot6:isEnd() then
+	return slot1 == slot2
+end
+
+slot0.GetSkinCouponAct = function(slot0)
+	slot1 = ipairs
+	slot2 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		if getProxy(ActivityProxy):RawGetActivityById(slot5) and not slot6:isEnd() and (not slot0 or slot6:IncludeShop(slot0)) then
 			return slot6
 		end
 	end
@@ -116,13 +123,12 @@ slot0.GetSkinCouponAct = function()
 	return nil
 end
 
-slot0.GetSkinCouponEncoreAct = function()
-	if #(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}) <= 0 then
-		return nil
-	end
+slot0.GetSkinCouponEncoreAct = function(slot0)
+	slot1 = ipairs
+	slot2 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}
 
-	for slot4 = #slot0, 1, -1 do
-		if getProxy(ActivityProxy):RawGetActivityById(slot0[slot4]) and not slot6:isEnd() then
+	for slot4, slot5 in slot1(slot2) do
+		if getProxy(ActivityProxy):RawGetActivityById(slot5) and not slot6:isEnd() and (not slot0 or table.contains(slot6:getConfig("config_data")[2], slot0)) then
 			return slot6
 		end
 	end
@@ -130,125 +136,48 @@ slot0.GetSkinCouponEncoreAct = function()
 	return nil
 end
 
-slot0.StaticExistActivity = function()
-	return uv0.GetSkinCouponAct() and not slot0:isEnd()
+slot0.StaticExistActivityAndCoupon = function(slot0)
+	return uv0.GetSkinCouponAct(slot0) and slot1:GetCanUsageCnt() > 0
 end
 
-slot0.StaticExistActivityAndCoupon = function()
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():GetCanUsageCnt() > 0
-end
-
-slot0.StaticOwnMaxCntSkinCoupon = function()
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():IsMaxCnt()
-end
-
-slot0.StaticOwnAllSkin = function()
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():OwnAllSkin()
-end
-
-slot0.StaticGetEquivalentRes = function()
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():GetEquivalentRes()
+slot0.StaticOwnMaxCntSkinCoupon = function(slot0)
+	return uv0.GetSkinCouponAct(slot0) and slot1:IsMaxCnt()
 end
 
 slot0.StaticCanUsageSkinCoupon = function(slot0)
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():CanUsageSkinCoupon(slot0)
+	return uv0.GetSkinCouponAct(slot0) and slot1:CanUsageSkinCoupon(slot0)
 end
 
-slot0.StaticIsShop = function(slot0)
-	if not uv0.StaticExistActivity() then
-		return false
-	end
-
-	return uv0.GetSkinCouponAct():IncludeShop(slot0)
-end
-
-slot0.StaticGetNewPrice = function(slot0)
-	if not uv0.StaticExistActivity() then
-		return slot0
-	end
-
-	return uv0.GetSkinCouponAct():GetNewPrice(slot0)
-end
-
-slot0.StaticGetItemConfig = function()
-	if not uv0.StaticExistActivity() then
-		return {}
-	end
-
-	return uv0.GetSkinCouponAct():GetItemConfig()
-end
-
-slot0.StaticGetItemDrop = function()
-	if not uv0.StaticExistActivity() then
-		return {}
-	end
-
-	slot0 = uv0.GetSkinCouponAct()
-
-	return Drop.New({
+slot0.StaticGetItemDrop = function(slot0)
+	return uv0.GetSkinCouponAct(slot0) and Drop.New({
 		type = DROP_TYPE_VITEM,
-		id = slot0:GetItemId(),
-		count = slot0:GetCanUsageCnt()
+		id = slot1:GetItemId(),
+		count = slot1:GetCanUsageCnt()
 	})
 end
 
 slot0.StaticEncoreActTip = function(slot0)
-	if not uv0.StaticExistActivity() then
+	assert(slot0)
+
+	slot2 = uv0.GetSkinCouponEncoreAct(slot0)
+
+	if not uv0.GetSkinCouponAct(slot0) or not slot2 then
 		return false
 	end
 
-	return uv0.GetSkinCouponAct():IncludeShop(slot0) and slot1:GetCanUsageCnt() <= 0 and uv0.GetSkinCouponEncoreAct():getData1() > 0
+	return slot1:GetCanUsageCnt() <= 0 and slot2:getData1() > 0
 end
 
-slot0.AddSkinCoupon = function(slot0, slot1)
-	if not uv0.StaticExistActivity() then
+slot0.UseSkinCoupon = function(slot0)
+	if not uv0.GetSkinCouponAct(slot0) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end
 
-	if uv0.GetSkinCouponAct():IsMaxCnt() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_already owned"))
+	slot1.data2 = slot1.data2 + 1
 
-		return
-	end
-
-	slot2.data1 = slot2.data1 + slot1
-
-	getProxy(ActivityProxy):updateActivity(slot2)
-end
-
-slot0.UseSkinCoupon = function()
-	if not uv0.StaticExistActivity() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-		return
-	end
-
-	slot0 = uv0.GetSkinCouponAct()
-	slot0.data2 = slot0.data2 + 1
-
-	getProxy(ActivityProxy):updateActivity(slot0)
+	getProxy(ActivityProxy):updateActivity(slot1)
 end
 
 return slot0

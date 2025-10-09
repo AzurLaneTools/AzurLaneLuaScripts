@@ -55,7 +55,7 @@ slot0.showConformMsgBox = function(slot0, slot1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._overflowconfirmButton, function ()
 		if uv0.key and uv0.key ~= tonumber(getInputText(uv0._confireInput)) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("mail_input_erro"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_input_erro"))
 
 			return
 		end
@@ -88,7 +88,7 @@ slot0.Show = function(slot0, slot1)
 end
 
 slot0.Hide = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	uv0.super.Hide(slot0)
 	setInputText(slot0._confireInput, "")
 end

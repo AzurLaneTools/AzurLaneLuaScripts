@@ -571,7 +571,7 @@ slot0.Sort = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.IsCouponType = function(slot0, slot1, slot2)
-	if slot1 and not SkinCouponActivity.StaticIsShop(slot2.id) then
+	if slot1 and not SkinCouponActivity.GetSkinCouponAct(slot2.id) then
 		return false
 	end
 

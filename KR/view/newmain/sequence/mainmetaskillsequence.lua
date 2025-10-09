@@ -31,8 +31,7 @@ slot0.Execute = function(slot0, slot1)
 					autoOpenShipConfigID = uv0[1].metaShipVO.configId
 				})
 			end,
-			onClose = slot1,
-			weight = LayerWeightConst.TOP_LAYER
+			onClose = slot1
 		})
 	else
 		slot1()

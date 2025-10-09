@@ -117,7 +117,7 @@ slot0.Update = function(slot0, slot1)
 end
 
 slot0.Close = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parent)
 	setActive(slot0._tf, false)
 	retPaintingPrefab(slot0.paitingTF, slot0.paintingName)
 

@@ -61,7 +61,7 @@ slot0.register = function(slot0)
 		slot1, slot2 = uv0:GetFleet(uv1.contextData.bossId):isLegalToFight()
 
 		if slot1 ~= true then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
 		end
@@ -73,7 +73,7 @@ slot0.register = function(slot0)
 		end
 
 		if uv1.contextData.isOther and uv0:GetPt() <= 0 and WorldBossConst._IsCurrBoss(slot4) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
 
 			return
 		end

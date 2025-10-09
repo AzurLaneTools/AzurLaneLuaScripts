@@ -57,7 +57,7 @@ slot0.InitItem = function(slot0, slot1, slot2)
 	slot2.name = slot3
 	slot4 = pg.island_achievement_group[slot3]
 
-	LoadImageSpriteAtlasAsync("island/islandachievement", slot4.icon, slot2:Find("icon"), true)
+	LoadImageSpriteAtlasAsync("islandachievement", slot4.icon, slot2:Find("icon"), true)
 	setText(slot2:Find("name"), slot4.name)
 	onButton(slot0, slot2, function ()
 		uv0:OpenPage(IslandAchvDetailPage, uv1)

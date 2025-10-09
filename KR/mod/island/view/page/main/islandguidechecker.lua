@@ -1,16 +1,18 @@
 slot0 = class("IslandGuideChecker")
-slot0.MOVE_TASK_ID = 10010000
-slot0.FIRST_TASK_ID = 10010001
-slot0.ORDER_TASK_ID = 10010033
-slot0.ORDER_TASK_PRE_ID = 10010008
-slot0.TECH_TASK_ID = 10010037
+slot0.MOVE_TASK_ID = 10001000
+slot0.FIRST_TASK_ID = 10001010
+slot0.ORDER_TASK_ID = 10001071
+slot0.ORDER_TASK_PRE_ID = 10001070
+slot0.TECH_TASK_ID = 10001141
 slot0.MAP_GUIDE_ABILITY_ID = 5004
-slot0.INVITE_TASK_ID = 10010036
-slot0.INVITE_TASK_PRE_ID = 10010035
+slot0.INVITE_TASK_ID = 10001151
+slot0.INVITE_TASK_PRE_ID = 10001150
 slot0.MANAGE_ABILITY_ID = 26
 slot0.MINING_ABILITY_ID = 2003
 slot0.PASTIRE_ABILITY_ID = 2002
 slot0.COMBP_ABILITY_ID = 29001
+slot0.DAILY_TASK_ABILITY_ID = 30001
+slot0.SIGNIN_STORY_NAME = "ISLAND1001032_1"
 slot0.FINISH_TYPE = {
 	ON_GUIDE = 2,
 	ON_END = 3,
@@ -28,14 +30,6 @@ slot0.loadedConfig = {
 	{
 		id = "ISLAND_GUIDE_25",
 		condition = function ()
-			return true
-		end,
-		mapId = IslandConst.AGORA_MAP_ID,
-		type = slot0.FINISH_TYPE.ON_BEGIN
-	},
-	{
-		id = "ISLAND_GUIDE_27",
-		condition = function ()
 			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.MANAGE_ABILITY_ID)
 		end,
 		mapId = IslandConst.COFFEE_SHOP_MAP_ID,
@@ -50,17 +44,17 @@ slot0.interactionConfig = {
 			return true
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
-	},
-	{
-		id = "ISLAND_GUIDE_8",
-		interactionId = 10070004,
-		condition = function ()
-			return getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(uv0.TECH_TASK_ID)
-		end,
-		type = slot0.FINISH_TYPE.ON_GUIDE
 	}
 }
 slot0.pageConfig = {
+	{
+		id = "ISLAND_GUIDE_5",
+		page = "IslandUpgradeDisplayPage",
+		condition = function ()
+			return true
+		end,
+		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
 	{
 		id = "ISLAND_GUIDE_6",
 		page = "IslandMapPage",
@@ -68,6 +62,14 @@ slot0.pageConfig = {
 			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.MAP_GUIDE_ABILITY_ID)
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_8",
+		page = "IslandTechnologyPage",
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(uv0.TECH_TASK_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_GUIDE
 	},
 	{
 		id = "ISLAND_GUIDE_9",
@@ -78,6 +80,14 @@ slot0.pageConfig = {
 		type = slot0.FINISH_TYPE.ON_GUIDE
 	},
 	{
+		id = "ISLAND_GUIDE_13",
+		page = "Island3dTaskPage",
+		condition = function ()
+			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.DAILY_TASK_ABILITY_ID)
+		end,
+		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
 		id = "ISLAND_GUIDE_21",
 		page = "IslandShipOrderPage",
 		condition = function ()
@@ -86,24 +96,24 @@ slot0.pageConfig = {
 		type = slot0.FINISH_TYPE.ON_BEGIN
 	},
 	{
-		id = "ISLAND_GUIDE_28",
-		page = "IslandSetMealHandbookPage",
-		condition = function ()
-			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(uv0.COMBP_ABILITY_ID)
-		end,
-		type = slot0.FINISH_TYPE.ON_BEGIN
-	},
-	{
-		id = "ISLAND_GUIDE_29",
-		page = "IslandFriendPage",
+		id = "ISLAND_GUIDE_23",
+		page = "IslandBookPage",
 		condition = function ()
 			return true
 		end,
 		type = slot0.FINISH_TYPE.ON_BEGIN
 	},
 	{
-		id = "ISLAND_GUIDE_30",
-		page = "IslandInventoryPage",
+		id = "ISLAND_GUIDE_28",
+		page = "IslandPhotoMainPage",
+		condition = function ()
+			return true
+		end,
+		type = slot0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_29",
+		page = "IslandFriendPage",
 		condition = function ()
 			return true
 		end,

@@ -10,8 +10,17 @@ slot0.GetRuntimeData = function(slot0, slot1)
 		[IslandTaskTargetType.RECYCLE] = function ()
 			return uv0:GetInventoryAgency():GetOwnCount(uv1)
 		end,
+		[IslandTaskTargetType.TECHNOLOGY] = function ()
+			return uv0:GetTechnologyAgency():IsFinishedTech(uv1) and 1 or 0
+		end,
 		[IslandTaskTargetType.ISLAND_LV] = function ()
 			return uv0:GetLevel()
+		end,
+		[IslandTaskTargetType.FRAGMENT] = function ()
+			return uv0:GetWildCollectAgency():ExistFragment(uv1) and 1 or 0
+		end,
+		[IslandTaskTargetType.UNLOCK_SHIP] = function ()
+			return uv0:GetShipById(uv1) and 1 or 0
 		end,
 		[IslandTaskTargetType.FURNITURE] = function ()
 			slot0 = uv0:GetAgoraAgency()
@@ -48,6 +57,15 @@ slot0.GetRuntimeData = function(slot0, slot1)
 			slot0 = pg.NewStoryMgr.GetInstance()
 
 			return slot0:IsPlayed(slot0:StoryId2StoryName(uv0)) and 1 or 0
+		end,
+		[IslandTaskTargetType.ACTION] = function ()
+			return uv0:GetActionAgency():ExistAction(uv1) and 1 or 0
+		end,
+		[IslandTaskTargetType.COMMANDER_DRESS_ID] = function ()
+			return uv0:GetDressUpAgency():CheckOwnDress(uv1) and 1 or 0
+		end,
+		[IslandTaskTargetType.SHIP_DRESS_ID] = function ()
+			return uv0:GetDressIdRealCount(uv1)
 		end
 	}, function ()
 		assert(false, "not exist runtime type: " .. uv0)
@@ -117,6 +135,11 @@ slot0.OnApproach = function(slot0)
 	}, function ()
 		uv0.UpdateClientTaskProgress(IslandTaskTargetType.APPROACH, uv1)
 	end)
+end
+
+slot0.OnActionEnd = function(slot0)
+	uv0.UpdateClientTaskProgress(IslandTaskTargetType.ACTION_END, slot0)
+	uv0.UpdateClientTaskProgress(IslandTaskTargetType.ACTION_END, 0)
 end
 
 return slot0

@@ -75,17 +75,37 @@ slot0.findUI = function(slot0)
 	setText(slot0:findTF("unlock/Text", slot0.bagBtn), i18n("child_btn_bag"))
 
 	slot0.datePanel = EducateDatePanel.New(slot0:findTF("date", slot0.topTF), slot0.event)
+
+	slot0.datePanel:RegisterView(slot0)
+
 	slot0.favorPanel = EducateFavorPanel.New(slot0:findTF("favor_panel", slot0.topTF), slot0.event)
+
+	slot0.favorPanel:RegisterView(slot0)
+
 	slot0.resPanel = EducateResPanel.New(slot0:findTF("res", slot0.topTF), slot0.event)
+
+	slot0.resPanel:RegisterView(slot0)
+
 	slot0.topPanel = EducateTopPanel.New(slot0:findTF("top_right", slot0.topTF), slot0.event)
+
+	slot0.topPanel:RegisterView(slot0)
+
 	slot0.targetPanel = EducateTargetPanel.New(slot0:findTF("target", slot0.topTF), slot0.event)
+
+	slot0.targetPanel:RegisterView(slot0)
+
 	slot0.bottomPanel = EducateBottomPanel.New(slot0:findTF("right", slot0.bottomTF), slot0.event, {
 		isMainEnter = slot0.contextData.isMainEnter
 	})
+
+	slot0.bottomPanel:RegisterView(slot0)
+
 	slot0.archivePanel = EducateArchivePanel.New(slot0:findTF("archive_panel", slot0.mainTF), slot0.event, {
 		isShow = true,
 		isMainEnter = slot0.contextData.isMainEnter
 	})
+
+	slot0.archivePanel:RegisterView(slot0)
 end
 
 slot0._loadSubViews = function(slot0)
@@ -96,11 +116,10 @@ slot0._loadSubViews = function(slot0)
 	slot0.targetPanel:Load()
 	slot0.bottomPanel:Load()
 	slot0.archivePanel:Load()
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
 		pbList = {
 			slot0:findTF("bottom/left", slot0.blurPanel)
-		},
-		groupName = slot0:getGroupNameFromData()
+		}
 	})
 	slot0.mainAnim:Play(slot0.contextData.isMainEnter and "anim_educate_educateUI_bg_in" or "anim_educate_educateUI_bg_show")
 	slot0.blurPanelAnim:Play(slot0.contextData.isMainEnter and "anim_educate_educateUI_in" or "anim_educate_educateUI_show")
@@ -549,7 +568,7 @@ slot0.willExit = function(slot0)
 		LeanTween.cancel(slot0.dialogueTF)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 return slot0

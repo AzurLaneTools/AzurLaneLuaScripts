@@ -34,7 +34,7 @@ slot0.init = function(slot0)
 
 	onButton(slot0, slot0.rtTimeSelectWindow:Find("bg"), function ()
 		setActive(uv0.rtTimeSelectWindow, false)
-		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.rtTimeSelectWindow, uv0._tf)
+		uv0:UnOverlayPanel(uv0.rtTimeSelectWindow, uv0._tf)
 	end, SFX_CANCEL)
 
 	slot0.rtRenameWindow = slot0._tf:Find("RenameWindow")
@@ -270,16 +270,14 @@ slot0.ShowRenameWindow = function(slot0)
 	setActive(slot0.rtLevelPanel, false)
 	setActive(slot0.rtRenameWindow, true)
 	setActive(slot0.blurPanel, true)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
+		groupDelta = 1,
 		pbList = {
 			slot0.blurPanel
-		},
-		groupName = LayerWeightConst.GROUP_DORM3D,
-		weight = slot0:getWeightFromData() + 1
+		}
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtRenameWindow, {
-		groupName = LayerWeightConst.GROUP_DORM3D,
-		weight = slot0:getWeightFromData() + 1
+	slot0:OverlayPanel(slot0.rtRenameWindow, {
+		groupDelta = 1
 	})
 	setInputText(slot0.callInput, slot0.apartment:GetCallName())
 
@@ -296,8 +294,8 @@ slot0.CloseRenameWindow = function(slot0)
 	setActive(slot0.rtLevelPanel, true)
 	setActive(slot0.rtRenameWindow, false)
 	setActive(slot0.blurPanel, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtRenameWindow, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.rtRenameWindow, slot0._tf)
 	slot0:UpdateName()
 end
 
@@ -351,10 +349,7 @@ slot0.ShowTimeSelectWindow = function(slot0)
 		end
 	end, SFX_CONFIRM)
 	setActive(slot0.rtTimeSelectWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtTimeSelectWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	slot0:OverlayPanel(slot0.rtTimeSelectWindow)
 end
 
 slot0.onBackPressed = function(slot0)

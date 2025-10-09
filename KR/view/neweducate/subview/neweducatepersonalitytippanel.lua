@@ -11,12 +11,11 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	slot0:OverlayPanel(slot0._tf, {
+		groupDelta = 2,
 		pbList = {
 			slot0.resTF
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 2
+		}
 	})
 end
 
@@ -56,7 +55,7 @@ slot0.FlushPersonality = function(slot0, slot1, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 end
 
 return slot0

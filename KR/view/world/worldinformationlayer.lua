@@ -80,11 +80,11 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	slot0:OnUpdateDailyTask()
 	triggerToggle(slot0.toggleAll, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	slot0:BlurPanel(slot0._tf)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnOverlayPanel(slot0._tf)
 	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
 	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDailyTask)
 	slot0.wsWorldInfo:Dispose()

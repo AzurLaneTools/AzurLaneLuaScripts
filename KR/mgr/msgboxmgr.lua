@@ -1117,10 +1117,8 @@ slot1.updateButton = function(slot0, slot1, slot2, slot3)
 end
 
 slot1.Loaded = function(slot0, slot1)
-	uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+	uv0.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		groupName = slot1.groupName,
-		weight = slot1.weight or LayerWeightConst.SECOND_LAYER,
-		blurLevelCamera = slot1.blurLevelCamera,
 		parent = slot1.parent
 	})
 	uv0.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)
@@ -1186,7 +1184,7 @@ slot1.Clear = function(slot0)
 
 	uv0.DelegateInfo.Dispose(slot0)
 	removeAllChildren(slot0._btnContainer)
-	uv0.UIMgr.GetInstance():UnblurPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
+	uv0.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, uv0.UIMgr.GetInstance().OverlayMain)
 	slot0.contentText:RemoveAllListeners()
 
 	slot0.settings = nil

@@ -325,7 +325,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnPhantom, function ()
 		uv0:emit(ShipBluePrintMediator.OPEN_PHANTOM_LAYER, uv0.version)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
 		pbList = {
 			slot0.rightPanel:Find("task_list"),
 			slot0.rightPanel:Find("mod_panel"),
@@ -335,31 +335,31 @@ slot0.didEnter = function(slot0)
 	})
 	setText(slot0:findTF("window/top/bg/infomation/title", slot0.msgPanel), i18n("title_info"))
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgPanel), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
 	end, SFX_CANCEL)
 	setText(slot0:findTF("window/confirm_btn/Text", slot0.msgPanel), i18n("text_confirm"))
 	onButton(slot0, slot0:findTF("window/confirm_btn", slot0.msgPanel), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("bg", slot0.msgPanel), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.msgPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.msgPanel, uv0.top)
 		setActive(uv0.msgPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.unlockPanel:Find("window/top/btnBack"), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
 	setText(slot0.unlockPanel:Find("window/confirm_btn/Text"), i18n("text_confirm"))
 	setText(slot0.unlockPanel:Find("window/cancel_btn/Text"), i18n("text_cancel"))
 	setText(slot0.unlockPanel:Find("window/top/bg/infomation/title"), i18n("title_info"))
 	onButton(slot0, slot0.unlockPanel:Find("window/cancel_btn"), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.unlockPanel:Find("bg"), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 	end, SFX_CANCEL)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot0.version, slot0.versionBtn)
@@ -375,7 +375,7 @@ slot0.didEnter = function(slot0)
 			pg.UIMgr.GetInstance():BlurPanel(uv0.versionPanel)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.versionPanel:Find("bg"), function ()
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.versionPanel, uv0._tf)
 			setActive(uv0.versionPanel, false)
 		end, SFX_CANCEL)
 
@@ -406,7 +406,7 @@ slot0.didEnter = function(slot0)
 					uv0:initShips()
 					uv0:updateVersionBtnTip()
 					uv2:align(uv3)
-					pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
+					pg.UIMgr.GetInstance():UnOverlayPanel(uv0.versionPanel, uv0._tf)
 					setActive(uv0.versionPanel, false)
 				end, SFX_CANCEL)
 			end
@@ -2206,7 +2206,6 @@ end
 slot0.openPreView = function(slot0)
 	if slot0.contextData.shipBluePrintVO then
 		setActive(slot0.preViewer, true)
-		setParent(slot0.blurPanel, slot0._tf)
 		pg.UIMgr.GetInstance():BlurPanel(slot0.preViewer)
 		slot0:playLoadingAni()
 
@@ -2284,12 +2283,7 @@ slot0.closePreview = function(slot0, slot1)
 
 	setActive(slot0.preViewer, false)
 	setActive(slot0.rawImage, false)
-
-	if not slot1 then
-		SetParent(slot0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
-	end
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.preViewer, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.preViewer, slot0._tf)
 
 	slot0.isShowPreview = nil
 end
@@ -2391,10 +2385,10 @@ end
 
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.msgPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.msgPanel, slot0.top)
 		setActive(slot0.msgPanel, false)
 	elseif isActive(slot0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.unlockPanel, slot0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.unlockPanel, slot0.top)
 		setActive(slot0.unlockPanel, false)
 	elseif isActive(slot0.versionPanel) then
 		triggerButton(slot0.versionPanel:Find("bg"))
@@ -2411,16 +2405,16 @@ end
 
 slot0.willExit = function(slot0)
 	if isActive(slot0.msgPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.msgPanel, slot0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.msgPanel, slot0.top)
 		setActive(slot0.msgPanel, false)
 	end
 
 	if isActive(slot0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.unlockPanel, slot0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.unlockPanel, slot0.top)
 		setActive(slot0.unlockPanel, false)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	LeanTween.cancel(go(slot0.fittingAttrPanel))
 
 	if slot0.lastPaintingName then
@@ -2478,7 +2472,7 @@ slot0.buildStartAni = function(slot0, slot1, slot2)
 		slot0:SetAsLastSibling()
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			if not IsNil(uv0.awakenAni) then
-				pg.UIMgr.GetInstance():UnblurPanel(uv1, uv0.blurPanel)
+				pg.UIMgr.GetInstance():UnOverlayPanel(uv1, uv0.blurPanel)
 				uv0.awakenAni:SetActive(false)
 
 				uv0.awakenPlay = false
@@ -2612,7 +2606,7 @@ slot0.showUnlockPanel = function(slot0)
 	slot9 = slot0.unlockPanel
 
 	onButton(slot0, slot9:Find("window/confirm_btn"), function ()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.unlockPanel, uv0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.unlockPanel, uv0.top)
 		setActive(uv0.unlockPanel, false)
 		uv0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, uv1, uv2)
 	end, SFX_CANCEL)

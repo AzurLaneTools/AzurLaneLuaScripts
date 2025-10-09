@@ -108,7 +108,7 @@ end
 
 slot0.hide = function(slot0)
 	setActive(slot0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.openDetailView = function(slot0)
@@ -389,7 +389,7 @@ slot0.updateAwards = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.onBackPressed = function(slot0)

@@ -98,9 +98,7 @@ slot0.HandleShare = function(slot0, slot1, slot2)
 		}
 	}, 28027, function (slot0)
 		if slot0.result == 0 then
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram, nil, {
-				weight = LayerWeightConst.TOP_LAYER
-			})
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram)
 			uv0:sendNotification(GAME.APARTMENT_INS_OP_DONE, {
 				op = uv1.op
 			})

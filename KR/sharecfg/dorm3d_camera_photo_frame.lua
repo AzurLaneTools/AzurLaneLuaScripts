@@ -10,7 +10,9 @@ pg.dorm3d_camera_photo_frame = setmetatable({
 		1006,
 		1007,
 		1008,
-		1009
+		1009,
+		1010,
+		1011
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -188,6 +190,46 @@ pg.base.dorm3d_camera_photo_frame = {
 		unlock = {
 			1,
 			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1010] = {
+		name = "플레이어",
+		rarity = 3,
+		farme_path = "photo_frame_player",
+		frameTfName = "PlayerFrame",
+		desc = "획득하면 카메라 기능에서 「플레이어」 프레임 적용 가능",
+		unlock_text = "다이호 친밀도 Lv5 달성 시 오픈",
+		id = 1010,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_player_small",
+		unlock = {
+			1,
+			30707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1011] = {
+		name = "메신저",
+		rarity = 3,
+		farme_path = "photo_frame_phone",
+		frameTfName = "PhoneFrame",
+		desc = "획득하면 카메라 기능에서 「메신저」 프레임 적용 가능",
+		unlock_text = "다이호 친밀도 Lv13 달성 시 오픈",
+		id = 1011,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_phone_small",
+		unlock = {
+			1,
+			30707,
 			13
 		},
 		watermark_location = {

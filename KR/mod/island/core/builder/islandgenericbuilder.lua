@@ -22,11 +22,15 @@ slot0.Load = function(slot0, slot1, slot2)
 end
 
 slot0.LoadAsset = function(slot0, slot1, slot2)
-	slot3 = ResourceMgr.Inst
+	slot3 = IslandAssetLoadDispatcher.Instance
 
-	slot3:getAssetAsync(slot1:GetAssetPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		uv0(Object.Instantiate(slot0))
-	end), true, true)
+	slot0:AddLoadingID(slot3:Enqueue(slot1:GetAssetPath(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot1 = FrameAsyncInstantiateManager.Instance
+
+		table.insert(uv1.insIdList, slot1:EnqueueInstantiate(slot0, function (slot0)
+			uv0(slot0)
+		end))
+	end), true, true))
 end
 
 slot0.SetupBT = function(slot0, slot1, slot2, slot3)
@@ -36,15 +40,15 @@ slot0.SetupBT = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot5 = ResourceMgr.Inst
+	slot5 = IslandAssetLoadDispatcher.Instance
 
-	slot5:getAssetAsync(slot4, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot0:AddLoadingID(slot5:Enqueue(slot4, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		assert(slot0, uv0)
 
 		GetOrAddComponent(uv1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(slot0)
 
 		uv2()
-	end), true, true)
+	end), true, true))
 end
 
 slot0.Recycle = function(slot0, slot1, slot2)

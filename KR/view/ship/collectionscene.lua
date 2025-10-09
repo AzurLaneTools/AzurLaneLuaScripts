@@ -119,7 +119,6 @@ slot0.init = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
 	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
-	slot0.UIMgr = pg.UIMgr.GetInstance()
 	slot0.backBtn = findTF(slot0.top, "back_btn")
 	slot0.contextData.toggle = slot0.contextData.toggle or 2
 	slot0.toggles = {
@@ -235,14 +234,12 @@ slot0.didEnter = function(slot0)
 		if uv0.contextData.toggle == uv1.MUSIC_INDEX then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.NewMusic_help.tip,
-				weight = LayerWeightConst.THIRD_LAYER
+				helps = pg.gametip.NewMusic_help.tip
 			})
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.collection_help.tip,
-				weight = LayerWeightConst.THIRD_LAYER
+				helps = pg.gametip.collection_help.tip
 			})
 		end
 	end, SFX_PANEL)
@@ -372,12 +369,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:calFavoriteRate()
-
-	slot4 = pg.UIMgr.GetInstance()
-
-	slot4:OverlayPanelPB(slot0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
-	})
+	slot0:OverlayPanel(slot0.blurPanel)
 	onButton(slot0, slot0.bonusPanel, function ()
 		uv0:closeBonus()
 	end, SFX_PANEL)
@@ -721,7 +713,7 @@ slot0.openBonus = function(slot0, slot1)
 end
 
 slot0.closeBonus = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.bonusPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.bonusPanel, slot0._tf)
 	setActive(slot0.bonusPanel, false)
 end
 
@@ -900,7 +892,7 @@ slot0.willExit = function(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	if slot0.bonusPanel.gameObject.activeSelf then
 		slot0:closeBonus()
@@ -943,6 +935,7 @@ slot0.initGalleryPanel = function(slot0)
 	if not slot0.galleryView then
 		slot0.galleryView = GalleryView.New(slot0.galleryPanelContainer, slot0.event, slot0.contextData)
 
+		slot0.galleryView:RegisterView(slot0)
 		slot0.galleryView:Reset()
 		slot0.galleryView:Load()
 	end

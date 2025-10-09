@@ -153,16 +153,22 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 		end)
 		slot0:flushSkin()
 
-		slot10 = getProxy(ShipSkinProxy):getSkinById(slot0.skin.id) and slot9:isExpireType() and not slot9:isExpired()
+		slot9 = slot0.skin.id
 
-		setActive(slot0.timelimitTag, slot10)
-		setActive(slot0.timelimitTimeTxt, slot10)
+		if ShipSkin.IsChangeSkin(slot0.skin.id) then
+			slot9 = ShipSkin.GetChangeSkinMainId(slot0.skin.id)
+		end
+
+		slot11 = getProxy(ShipSkinProxy):getSkinById(slot9) and slot10:isExpireType() and not slot10:isExpired()
+
+		setActive(slot0.timelimitTag, slot11)
+		setActive(slot0.timelimitTimeTxt, slot11)
 
 		if slot0.skinTimer then
 			slot0.skinTimer:Stop()
 		end
 
-		if slot10 then
+		if slot11 then
 			slot0.skinTimer = Timer.New(function ()
 				setText(uv1.timelimitTimeTxt:Find("Text"), skinTimeStamp(uv0:getRemainTime()))
 			end, 1, -1)

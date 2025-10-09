@@ -25,8 +25,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0._tf:SetAsLastSibling()
-
 	slot1 = slot0.contextData
 	slot1.mode = defaultValue(slot1.mode, uv0.MODE_SELECT)
 	slot1.otherSelectedIds = defaultValue(slot1.otherSelectedIds, {})
@@ -193,8 +191,7 @@ slot0.init = function(slot0)
 	onButton(slot0, slot0.helpPhantom, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("projection_help"),
-			weight = uv0.contextData.LayerWeightMgr_weight or nil
+			helps = i18n("projection_help")
 		})
 	end, SFX_PANEL)
 
@@ -1143,9 +1140,13 @@ slot0.GetConfirmSelect = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
-		weight = slot0:getWeightFromData()
-	})
+	if slot0:isLayer() then
+		slot0:OverlayPanel(slot0._tf, {
+			groupDelta = -1
+		})
+	end
+
+	slot0:OverlayPanel(slot0.blurPanel)
 	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
 	setActive(slot0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled() and slot0.contextData.mode ~= uv0.MODE_GUILD_BOSS)
 	slot0:UpdateGuildViewEquipmentsBtn()
@@ -2010,7 +2011,11 @@ slot0.willExit = function(slot0)
 		slot0.bulinTip = nil
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
+
+	if slot0:isLayer() then
+		slot0:UnOverlayPanel(slot0._tf)
+	end
 end
 
 slot0.uiStartAnimating = function(slot0)

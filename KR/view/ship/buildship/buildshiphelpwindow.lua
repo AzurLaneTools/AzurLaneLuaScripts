@@ -29,9 +29,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.Show = function(slot0, slot1, slot2, slot3)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.isSupport = slot2 == "support"
 	slot4 = slot0:findTF("window/rateList/title/Text")
@@ -88,7 +86,7 @@ slot0.Hide = function(slot0)
 	slot0.showing = false
 
 	setActiveViaLayer(slot0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._tf)
 end
 
 slot0.isShowing = function(slot0)

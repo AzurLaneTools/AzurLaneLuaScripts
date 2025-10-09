@@ -46,6 +46,11 @@ slot0.OnInitItem = function(slot0, slot1)
 			uv0:OpenMorePanel(uv1.player, uv1.moreBtn.parent.parent:InverseTransformPoint(uv1.moreBtn.position))
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot2.cardBtn, function ()
+		uv0:emit(IslandMediator.OPEN_PAGE, "IslandOtherCardPage", {
+			uv1.player.id
+		})
+	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2
 end
@@ -72,7 +77,12 @@ slot0.InitMoreBtns = function(slot0, slot1)
 		uv0:emit(IslandMediator.ADD_BLACK_LIST, uv1.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.delBtn, function ()
-		uv0:emit(IslandMediator.REMOVE_FRIEND, uv1.id)
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+			contentText = i18n("remove_friend_tip"),
+			onConfirm = function ()
+				uv0:emit(IslandMediator.REMOVE_FRIEND, uv1.id)
+			end
+		})
 	end, SFX_PANEL)
 end
 

@@ -386,7 +386,142 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		382,
 		383,
 		384,
-		385
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
+		418,
+		419,
+		420,
+		421,
+		422,
+		423,
+		424,
+		425,
+		426,
+		427,
+		428,
+		429,
+		430,
+		431,
+		432,
+		433,
+		434,
+		435,
+		436,
+		437,
+		438,
+		439,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
+		458,
+		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
+		466,
+		467,
+		468,
+		469,
+		470,
+		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
+		478,
+		479,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3740,5 +3875,1175 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 385,
 		flag = 3
+	},
+	{
+		param = "지휘관님, 드디어 돌아오셨군요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 386,
+		flag = 0
+	},
+	{
+		param = "다이호가 방을 구석구석 정리해두었답니다~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 387,
+		flag = 0
+	},
+	{
+		param = "이제 드디어 지휘관님과 둘만의 세상에 젖어들 수 있겠어요……",
+		ship_group = 30707,
+		type = 1,
+		id = 388,
+		flag = 0,
+		option = {
+			{
+				1,
+				"방 배치가 근사하네"
+			}
+		}
+	},
+	{
+		param = "방 배치가 근사하네. 마음에 들어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 389,
+		flag = 1
+	},
+	{
+		param = "후훗, 지휘관님의 취향은 이미 완벽히 파악하고 있으니까요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 390,
+		flag = 1
+	},
+	{
+		param = "여길 지휘관님이 가장 좋아하는, 가장 그리운 곳으로 만들면…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 391,
+		flag = 1
+	},
+	{
+		param = "언제든 다이호가 보고싶어져서 달려오실 테니까요~",
+		ship_group = 30707,
+		type = 1,
+		id = 392,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그러게…"
+			}
+		}
+	},
+	{
+		param = "그러게, 확실히 오래 있고 싶은 느낌이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 393,
+		flag = 2
+	},
+	{
+		param = "쉬실 때는 소파랑 침대…… 그리고 다이호의 몸까지 마음껏 써주세요!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 394,
+		flag = 2
+	},
+	{
+		param = "이 방을 지휘관님의 색깔로 한껏 물들여주세요~!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 395,
+		flag = 2
+	},
+	{
+		param = "후후후후♥",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 396,
+		flag = 2
+	},
+	{
+		param = "하아… 기다리는 시간이 어쩌면 이렇게 길게만 느껴지는지…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 397,
+		flag = 0
+	},
+	{
+		param = "어서 지휘관님을 만나고 싶어요~",
+		ship_group = 30707,
+		type = 1,
+		id = 398,
+		flag = 0,
+		option = {
+			{
+				1,
+				"오늘 업무가 아직 안 끝났어……"
+			}
+		}
+	},
+	{
+		param = "오늘 할 일이 아직 덜 끝났어… 그리고 방금 막 다녀온 참이잖아…?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 399,
+		flag = 1
+	},
+	{
+		param = "후후후, 다이호는 언제든 지휘관님이랑 함께 있고 싶은걸요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 400,
+		flag = 1
+	},
+	{
+		param = "하지만 지휘관님은 늘 너무 바쁘시죠…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 401,
+		flag = 1
+	},
+	{
+		param = "그래서 이렇게 숙소에 와주시는 것만으로는 전혀 부족해요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 402,
+		flag = 1
+	},
+	{
+		param = "시계의 짧은 바늘이 한 바퀴 채 돌기도 전에 또 떠나버리셨는걸요…",
+		ship_group = 30707,
+		type = 1,
+		id = 403,
+		flag = 1,
+		option = {
+			{
+				2,
+				"고작 한 시간밖에 안 지났었나!?"
+			}
+		}
+	},
+	{
+		param = "고작 한 시간밖에 안 지났었나!?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 404,
+		flag = 2
+	},
+	{
+		param = "다이호랑 같이 있으면, 시간이 느릿느릿 흘러가는 느낌이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 405,
+		flag = 2
+	},
+	{
+		param = "그럼 다음엔 좀 더 오래 같이 있어주세요!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 406,
+		flag = 2
+	},
+	{
+		param = "짧은 바늘이 두 바퀴 돌 때까지… 어떠신가요?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 407,
+		flag = 2
+	},
+	{
+		param = "다이호가… 시간이 좀 더 천천히 흐르도록 해볼게요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 408,
+		flag = 2
+	},
+	{
+		param = "그러면 지휘관님이랑 더 오래 함께 있을 수 있겠죠~?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 409,
+		flag = 2
+	},
+	{
+		param = "지휘관님~ 다이호가 사랑을 듬뿍 담은 도시락을 만들었어요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 410,
+		flag = 0
+	},
+	{
+		param = "조금 무게가 있어서… 이렇게 직접 들고 왔답니다~",
+		ship_group = 30707,
+		type = 1,
+		id = 411,
+		flag = 0,
+		option = {
+			{
+				1,
+				"얼마나 만든 거야?"
+			}
+		}
+	},
+	{
+		param = "얼마나 만든 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 412,
+		flag = 1
+	},
+	{
+		param = "도시락은 전부 합쳐서 4단이에요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 413,
+		flag = 1
+	},
+	{
+		param = "1단은 명란조림, 왕새우구이, 냉두부…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 414,
+		flag = 1
+	},
+	{
+		param = "2단은 주먹밥, 계란말이, 어묵…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 415,
+		flag = 1
+	},
+	{
+		param = "3단과 4단은 안주류예요, 된장국도 준비했답니다~",
+		ship_group = 30707,
+		type = 1,
+		id = 416,
+		flag = 1,
+		option = {
+			{
+				2,
+				"이건 사랑의 도시락이라기 보다는……"
+			}
+		}
+	},
+	{
+		param = "이건… 사랑의 도시락이라기보단 거의 진수성찬 수준이잖아. 너무 호화로운데…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 417,
+		flag = 2
+	},
+	{
+		param = "최대한 다 먹으려고 노력해볼게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 418,
+		flag = 2
+	},
+	{
+		param = "후후후, 양은 신경 쓰지 마시고 배부를 때까지만 실컷 드세요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 419,
+		flag = 2
+	},
+	{
+		param = "그러면… 다른 사람이 만든 도시락은 안 드시게 되겠죠…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 420,
+		flag = 2
+	},
+	{
+		param = "뭐… 안 그래도 누군가가 밖에 있는 도시락을 모조리 사버린 모양이지만, 상관없어요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 421,
+		flag = 2
+	},
+	{
+		param = "왜냐면 지휘관님은 다이호가 만든 도시락밖에 못 드시니까요, 후후후~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 422,
+		flag = 2
+	},
+	{
+		param = "지휘관님, 다이호의 방을 「탐험」하신 모양이네요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 423,
+		flag = 0
+	},
+	{
+		param = "다이호에 대해 더 많이 알게 되셨나요~?",
+		ship_group = 30707,
+		type = 1,
+		id = 424,
+		flag = 0,
+		option = {
+			{
+				1,
+				"응, 재밌는 걸 찾았어"
+			}
+		}
+	},
+	{
+		param = "응, 재밌는 걸 찾았어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 425,
+		flag = 1
+	},
+	{
+		param = "어머, 무척 즐거워 보이시네요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 426,
+		flag = 1
+	},
+	{
+		param = "방 안에 있는 모든 것들은 지휘관님을 위해 준비한 거랍니다.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 427,
+		flag = 1
+	},
+	{
+		param = "왜냐면 다이호의 모든 것은 지휘관님의 것이니까요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 428,
+		flag = 1
+	},
+	{
+		param = "지휘관님도 더 많이 다이호의 일상 속으로 들어와 주셨으면 해요~",
+		ship_group = 30707,
+		type = 1,
+		id = 429,
+		flag = 1,
+		option = {
+			{
+				2,
+				"이건…"
+			}
+		}
+	},
+	{
+		param = "그나저나 이건…? 무슨 계획도 같은데… 사진?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 430,
+		flag = 2
+	},
+	{
+		param = "아아… 그건 해충을 박멸하기 위한 계획이랍니다. 신경 쓰지 않으셔도 돼요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 431,
+		flag = 2
+	},
+	{
+		param = "해충은 다이호가 이 방에 얼씬도 못 하게 할 테니까요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 432,
+		flag = 2
+	},
+	{
+		param = "후후후…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 433,
+		flag = 2
+	},
+	{
+		param = "지휘관님, 다이호의 룸웨어가 그렇게 마음에 드세요~?",
+		ship_group = 30707,
+		type = 1,
+		id = 434,
+		flag = 0,
+		option = {
+			{
+				1,
+				"응, 정말 잘 어울려"
+			}
+		}
+	},
+	{
+		param = "응, 정말 잘 어울려.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 435,
+		flag = 1
+	},
+	{
+		param = "후후후, 원하시면 얼마든지 사진을 찍으셔도 돼요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 436,
+		flag = 1
+	},
+	{
+		param = "지휘관님이 칭찬해 주시니까, 다이호… 두근두근 간질간질하네요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 437,
+		flag = 1
+	},
+	{
+		param = "하지만… 다이호 혼자만 찍는 건 싫어요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 438,
+		flag = 1
+	},
+	{
+		param = "기왕이면 지휘관님과 같이 찍고 싶어요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 439,
+		flag = 1
+	},
+	{
+		param = "다이호 혼자만 찍힌 사진은… 왠지 너무 외롭게 느껴지거든요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 440,
+		flag = 1
+	},
+	{
+		param = "아… 가족사진을 찍는 전문 사진관에 가는 것도 좋을 것 같네요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 441,
+		flag = 1
+	},
+	{
+		param = "의상도 빌려주니까, 지휘관님께 이것저것 입혀보고 싶어요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 442,
+		flag = 1
+	},
+	{
+		param = "같이 찍은 사진을 최대 크기로 인화해서, 액자에 넣어 거실에 잔뜩 장식하면…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 443,
+		flag = 1
+	},
+	{
+		param = "우후후, 그러면 지휘관님은 다이호의 시선에서 절~대 도망칠 수 없게 되겠죠~?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 444,
+		flag = 1
+	},
+	{
+		param = "지휘관님~ 앞으로 며칠 동안은 눈 때문에 기온이 내려간다고 해요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 445,
+		flag = 0
+	},
+	{
+		param = "우산이랑 코트는 미리 준비해뒀으니까, 잊지 말고 챙기세요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 446,
+		flag = 0
+	},
+	{
+		param = "안 그러면 다이호가 직접 집무실까지 가져가서 지휘관님을 따뜻하게 해드려야 하니까요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 447,
+		flag = 0
+	},
+	{
+		param = "후후후후~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 448,
+		flag = 0
+	},
+	{
+		param = "아, 만약을 대비해서, 코타츠도 준비해뒀답니다.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 449,
+		flag = 0
+	},
+	{
+		param = "다이호… 한시라도 빨리… 지휘관님이랑 같이 코타츠 속에서… 온기를 느끼고 싶어요~",
+		ship_group = 30707,
+		type = 1,
+		id = 450,
+		flag = 0,
+		option = {
+			{
+				1,
+				"코타츠라…"
+			}
+		}
+	},
+	{
+		param = "코타츠는 정말 훌륭한 발명품이지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 451,
+		flag = 1
+	},
+	{
+		param = "후후후, 따뜻한 걸 싫어하는 사람은 없으니까요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 452,
+		flag = 1
+	},
+	{
+		param = "다이호도 지휘관님을 꼭 안고 있을 때는 그 온기를 더 느끼고 싶어서, 손을 놓기 싫어지거든요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 453,
+		flag = 1
+	},
+	{
+		param = "하지만 지금은~ 코타츠의 온기뿐만 아니라, 다이호의 온기도 지휘관님께 나눠드릴래요♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 454,
+		flag = 1
+	},
+	{
+		param = "지휘관님도… 다이호와 떨어지고 싶지 않으시죠?",
+		ship_group = 30707,
+		type = 1,
+		id = 455,
+		flag = 1,
+		option = {
+			{
+				2,
+				"하지만…"
+			}
+		}
+	},
+	{
+		param = "하지만 그러면 일은 어떻게 하라고.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 456,
+		flag = 2
+	},
+	{
+		param = "걱정 마세요. 그러실 줄 알고 미리 준비해뒀답니다~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 457,
+		flag = 2
+	},
+	{
+		param = "업무에 필요한 서류를 전부 방으로 옮기기만 하면…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 458,
+		flag = 2
+	},
+	{
+		param = "그대로 코타츠 속에서 일하실 수 있어요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 459,
+		flag = 2
+	},
+	{
+		param = "다이호도 코타츠 속에서 지휘관님과 계속 함께…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 460,
+		flag = 2
+	},
+	{
+		param = "계속, 계속, 떨어지지 않고 그대로… 후후후.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 461,
+		flag = 2
+	},
+	{
+		param = "지휘관님, 모자는 세탁해서 말려뒀어요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 462,
+		flag = 0
+	},
+	{
+		param = "지금은 코트랑 같이 현관 쪽 행거에 걸어뒀답니다.",
+		ship_group = 30707,
+		type = 1,
+		id = 463,
+		flag = 0,
+		option = {
+			{
+				1,
+				"딱히 더럽진 않았던 것 같은데"
+			}
+		}
+	},
+	{
+		param = "딱히 더럽진 않았던 것 같은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 464,
+		flag = 0
+	},
+	{
+		param = "아아, 눈치 못 채셨군요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 465,
+		flag = 1
+	},
+	{
+		param = "걱정하지 마세요. 그래도 괜찮아요. 그냥… 소독이라고 생각해 주세요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 466,
+		flag = 1
+	},
+	{
+		param = "지휘관님이 몸에 걸치는 모든 것들… 모자든, 옷이든, 바지든… 그 어떤 것도 다른 냄새가 배어서는 안 돼요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 467,
+		flag = 1
+	},
+	{
+		param = "다른 냄새는 지휘관님의 건강을 해칠 수도 있답니다~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 468,
+		flag = 1
+	},
+	{
+		param = "그러니 이 다이호가 책임지고 전부 깨끗하게 해드릴게요♪",
+		ship_group = 30707,
+		type = 1,
+		id = 469,
+		flag = 1,
+		option = {
+			{
+				2,
+				"확실히…"
+			}
+		}
+	},
+	{
+		param = "확실히 깨끗해졌네. 새 것 같아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 470,
+		flag = 2
+	},
+	{
+		param = "그러고 보니 전에 잃어버린 코트는 찾았어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 471,
+		flag = 2
+	},
+	{
+		param = "아… 안타깝지만 아직 못 찾았어요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 472,
+		flag = 2
+	},
+	{
+		param = "코트를 입고 싶으신 거면, 다이호가 노력해서 똑같은 걸 만들어드릴게요!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 473,
+		flag = 2
+	},
+	{
+		param = "그러면 잃어버린 걸 더 이상 신경 안 쓰셔도 되겠죠~ 후후후…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 474,
+		flag = 2
+	},
+	{
+		param = "아아… 설마 지휘관님이…!",
+		ship_group = 30707,
+		type = 1,
+		id = 475,
+		flag = 0,
+		option = {
+			{
+				1,
+				"설마?"
+			}
+		}
+	},
+	{
+		param = "설마?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 476,
+		flag = 1
+	},
+	{
+		param = "설마 다이호랑 이렇게 오래 대화를 나눠주실 줄은 몰랐어요!",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 477,
+		flag = 1
+	},
+	{
+		param = "어느새 벌써 이런 시간이 되어버렸네요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 478,
+		flag = 1
+	},
+	{
+		param = "역시 지휘관님과 함께 있으면 이야깃거리가 끝도 없어요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 479,
+		flag = 1
+	},
+	{
+		param = "이게 바로 지휘관님의 카리스마겠죠. 후후후~",
+		ship_group = 30707,
+		type = 1,
+		id = 480,
+		flag = 1,
+		option = {
+			{
+				2,
+				"아직 하고 싶은 얘기가 많아"
+			}
+		}
+	},
+	{
+		param = "아직 하고 싶은 얘기가 많아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 481,
+		flag = 2
+	},
+	{
+		param = "그럼 지금 바로 만나러 갈게요~ 더 많은 이야기를 다이호에게 들려주세요♪",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 482,
+		flag = 2
+	},
+	{
+		param = "아, 너무 많이 이야기하면 지휘관님도 목이 마르실 테죠?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 483,
+		flag = 2
+	},
+	{
+		param = "목 마를 때 드실 수 있도록 차를 준비해둘게요~",
+		ship_group = 30707,
+		type = 1,
+		id = 484,
+		flag = 2,
+		option = {
+			{
+				3,
+				"전에 내어줬던 그 말차야?"
+			}
+		}
+	},
+	{
+		param = "전에 내어줬던 그 말차야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 485,
+		flag = 3
+	},
+	{
+		param = "후후후, 이번에는 호지차예요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 486,
+		flag = 3
+	},
+	{
+		param = "몸과 마음을 편안하게 해주고, 말차처럼 쓴맛도 없답니다.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 487,
+		flag = 3
+	},
+	{
+		param = "하지만… 혹시 달콤한 걸 원하신다면…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 488,
+		flag = 3
+	},
+	{
+		param = "안 그래도 마침 과일사탕을 먹으려던 참이었거든요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 489,
+		flag = 3
+	},
+	{
+		param = "괜찮으시면 같이 드시지 않으실래요…?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 490,
+		flag = 3
+	},
+	{
+		param = "역시 지휘관님은 다이호의 몸이 마음에 드시나 봐요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 491,
+		flag = 0
+	},
+	{
+		param = "좀 더 다양한 포즈를 보고 싶으신 거죠?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 492,
+		flag = 0
+	},
+	{
+		param = "아니면 마사지를 받고 싶으신 건가요~?",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 493,
+		flag = 0
+	},
+	{
+		param = "어느 쪽이든 다이호는 지휘관님이 더 가까이, 더 대담해지셨으면 해요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 494,
+		flag = 0
+	},
+	{
+		param = "이 다이호가… 지휘관님의 안식처가 되어드릴게요♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 495,
+		flag = 0
+	},
+	{
+		param = "다이호의 마음은 온통 지휘관님으로 가득하답니다…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 496,
+		flag = 0
+	},
+	{
+		param = "그런데도 발자국 하나 안 내딛고 계시다니… 지휘관님 정말 너무해요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 497,
+		flag = 0
+	},
+	{
+		param = "하지만… 후후…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 498,
+		flag = 0
+	},
+	{
+		param = "이렇게 의지하시는 만큼, 다이호도 최선을 다해 응해야겠죠~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 499,
+		flag = 0
+	},
+	{
+		param = "지휘관님, 릴랙스 마사지라고… 혹시 아시나요?",
+		ship_group = 30707,
+		type = 1,
+		id = 500,
+		flag = 0,
+		option = {
+			{
+				1,
+				"피로 회복 마사지?"
+			}
+		}
+	},
+	{
+		param = "피로 회복 마사지 같은 건가?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 501,
+		flag = 1
+	},
+	{
+		param = "후후후, 맞아요~ 편안한 상태에서 피로를 풀 수 있는 마사지랍니다.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 502,
+		flag = 1
+	},
+	{
+		param = "언젠가 도움이 될 날이 올 것 같아서 배워뒀죠.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 503,
+		flag = 1
+	},
+	{
+		param = "지휘관님, 돌아오시면 침대에 누워주세요. 다이호가 풀코스로 마사지해드릴게요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 504,
+		flag = 1
+	},
+	{
+		param = "다이호의 품 속에서 피로를 전부… 다 쏟아내세요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 505,
+		flag = 1
+	},
+	{
+		param = "지휘관님~ 다이호에게 주신 선물이 벌써 10번째예요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 506,
+		flag = 0
+	},
+	{
+		param = "선물을 열 때마다 다이호, 심장이 두근거려서 멈추질 않아요~",
+		ship_group = 30707,
+		type = 1,
+		id = 507,
+		flag = 0,
+		option = {
+			{
+				1,
+				"전부 기억하고 있네"
+			}
+		}
+	},
+	{
+		param = "전부 기억하고 있네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 508,
+		flag = 1
+	},
+	{
+		param = "후후후, 모든 선물을 다 기록해두고 있거든요~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 509,
+		flag = 1
+	},
+	{
+		param = "지휘관님이 주신 선물 하나하나…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 510,
+		flag = 1
+	},
+	{
+		param = "그 안엔 지휘관님의 사랑이 잔뜩 담겨 있죠♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 511,
+		flag = 1
+	},
+	{
+		param = "다이호에게는 이 세상의 무엇보다 소중한 보물이랍니다~",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 512,
+		flag = 1
+	},
+	{
+		param = "그러니 잘 보관해야 해요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 513,
+		flag = 1
+	},
+	{
+		param = "지휘관님, 기억하시나요? 다이호가 처음으로 지휘관님께 선물을 받았을 때를…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 514,
+		flag = 1
+	},
+	{
+		param = "아아… 그 설렘, 목이 바싹 마르면서 황홀해지던 그 감각…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 515,
+		flag = 1
+	},
+	{
+		param = "생각만 해도 감동에 빠져들 것 같아요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 516,
+		flag = 1
+	},
+	{
+		param = "후후… 후후후…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 517,
+		flag = 1
+	},
+	{
+		param = "다이호는… 지휘관님도 그 감동을 느껴보셨으면 해요…",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 518,
+		flag = 1
+	},
+	{
+		param = "이젠 다이호가 지휘관님께 선물을 드릴 차례예요.",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 519,
+		flag = 1
+	},
+	{
+		param = "다이호의 서프라이즈를… 거절하시거나, 도망가시면 안 돼요♡",
+		ship_group = 30707,
+		option = "",
+		type = 1,
+		id = 520,
+		flag = 1
 	}
 }
