@@ -101,6 +101,30 @@ slot0.AddFurniture = function(slot0, slot1, slot2)
 	if slot1:CanTouch() and slot1:TriggerTouchDefault() then
 		slot0:ClickFurniture(slot1.id)
 	end
+
+	if not slot2 then
+		slot0:RefreshCombineFruniture(slot1.configId)
+	end
+end
+
+slot0.RefreshCombineFruniture = function(slot0, slot1)
+	slot3 = {
+		slot1
+	}
+
+	if type(pg.furniture_data_template[slot1].spine_combine_action_replace) == "table" then
+		for slot7, slot8 in pairs(slot2.spine_combine_action_replace) do
+			for slot12, slot13 in ipairs(slot8[1]) do
+				table.insert(slot3, slot13)
+			end
+		end
+	end
+
+	for slot7, slot8 in pairs(slot0.furnitures) do
+		if table.contains(slot3, slot8.configId) then
+			slot8:RefreshState()
+		end
+	end
 end
 
 slot0.AddPaper = function(slot0, slot1)
@@ -752,6 +776,7 @@ slot0.RemoveFurniture = function(slot0, slot1)
 
 	slot0:DispatchEvent(CourtYardEvent.DETORY_ITEM, slot2)
 	slot0.composeChecker:Check()
+	slot0:RefreshCombineFruniture(slot2.configId)
 end
 
 slot0.RemoveAllFurniture = function(slot0)

@@ -1,5 +1,333 @@
 pg = pg or {}
 pg.enemy_data_statistics_399 = {
+	[295241] = {
+		cannon = 80,
+		name = "鹩·META(Tier.1)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 164,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295241,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 54000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 115,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 1
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295242] = {
+		cannon = 92,
+		name = "鹩·META(Tier.2)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 187,
+		reload = 150,
+		armor = 0,
+		dodge = 28,
+		id = 295242,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 58000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 131,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 2
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295243] = {
+		cannon = 103,
+		name = "鹩·META(Tier.3)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 210,
+		reload = 150,
+		armor = 0,
+		dodge = 32,
+		id = 295243,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 45,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 62000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 148,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 3
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295244] = {
+		cannon = 115,
+		name = "鹩·META(Tier.4)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 234,
+		reload = 150,
+		armor = 0,
+		dodge = 35,
+		id = 295244,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 75000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 164,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 4
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295245] = {
+		cannon = 126,
+		name = "鹩·META(Tier.5)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 257,
+		reload = 150,
+		armor = 0,
+		dodge = 39,
+		id = 295245,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 118000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 181,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 5
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295246] = {
+		cannon = 138,
+		name = "鹩·META(Tier.6)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 281,
+		reload = 150,
+		armor = 0,
+		dodge = 42,
+		id = 295246,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 162000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 197,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 6
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295247] = {
+		cannon = 149,
+		name = "鹩·META(Tier.7)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 304,
+		reload = 150,
+		armor = 0,
+		dodge = 46,
+		id = 295247,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 248000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 214,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 7
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
+	[295248] = {
+		cannon = 161,
+		name = "鹩·META(Tier.8)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 328,
+		reload = 150,
+		armor = 0,
+		dodge = 50,
+		id = 295248,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 91025,
+		durability = 335000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 230,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 201171,
+				LV = 8
+			},
+			{
+				ID = 201175,
+				LV = 1
+			}
+		}
+	},
 	[295249] = {
 		cannon = 172,
 		name = "鹩·META(Tier.9)",
@@ -798,406 +1126,6 @@ pg.enemy_data_statistics_399 = {
 			},
 			{
 				ID = 201428,
-				LV = 1
-			}
-		}
-	},
-	[295272] = {
-		cannon = 89,
-		name = "茳·META(Tier.2)",
-		torpedo = 139,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 28,
-		id = 295272,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 58000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 116,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981005
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201429,
-				LV = 1
-			}
-		}
-	},
-	[295273] = {
-		cannon = 100,
-		name = "茳·META(Tier.3)",
-		torpedo = 156,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 32,
-		id = 295273,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 62000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 130,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981005
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201430,
-				LV = 1
-			}
-		}
-	},
-	[295274] = {
-		cannon = 111,
-		name = "茳·META(Tier.4)",
-		torpedo = 173,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 35,
-		id = 295274,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 75000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 145,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981006
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201431,
-				LV = 1
-			}
-		}
-	},
-	[295275] = {
-		cannon = 123,
-		name = "茳·META(Tier.5)",
-		torpedo = 191,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 39,
-		id = 295275,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 118000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 159,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981006
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201432,
-				LV = 1
-			}
-		}
-	},
-	[295276] = {
-		cannon = 134,
-		name = "茳·META(Tier.6)",
-		torpedo = 208,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 42,
-		id = 295276,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 60,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 162000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 174,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981006
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201433,
-				LV = 1
-			}
-		}
-	},
-	[295277] = {
-		cannon = 145,
-		name = "茳·META(Tier.7)",
-		torpedo = 225,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 46,
-		id = 295277,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 248000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 188,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981007
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201434,
-				LV = 1
-			}
-		}
-	},
-	[295278] = {
-		cannon = 156,
-		name = "茳·META(Tier.8)",
-		torpedo = 243,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 50,
-		id = 295278,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 335000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 203,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981007
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201435,
-				LV = 1
-			}
-		}
-	},
-	[295279] = {
-		cannon = 167,
-		name = "茳·META(Tier.9)",
-		torpedo = 260,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 53,
-		id = 295279,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91099,
-		durability = 421000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 217,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		torpedo_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			2981000,
-			2981001,
-			2981007
-		},
-		buff_list = {
-			{
-				ID = 201420,
-				LV = 1
-			},
-			{
-				ID = 201425,
-				LV = 1
-			},
-			{
-				ID = 201436,
 				LV = 1
 			}
 		}

@@ -124,6 +124,12 @@ slot0.OnInit = function(slot0)
 			content = i18n("island_manage_help_tip")
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_commission.tip
+		})
+	end, SFX_PANEL)
 
 	slot1 = slot0.subAttrUIList
 

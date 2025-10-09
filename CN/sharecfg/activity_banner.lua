@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					9
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					12,
@@ -36,6 +36,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -44,32 +45,6 @@ pg.activity_banner = {
 			{
 				projectName = "new",
 				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -80,64 +55,27 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "TianYuTianYuanCoreActivityUI"
+				coreName = "AEBCSCoreActivityUI"
 			}
 		},
 		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
 					10,
 					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					16
 				},
 				{
 					12,
@@ -148,18 +86,30 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		}
+	},
+	{
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
-			"crusing"
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					1
+					9
 				},
 				{
 					0,
@@ -171,7 +121,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					12,
@@ -186,17 +136,18 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					9
 				},
 				{
 					0,
@@ -208,12 +159,12 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					8
+					16
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -229,8 +180,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					9
 				},
 				{
 					0,
@@ -242,7 +193,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					12,
@@ -262,7 +213,7 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -274,7 +225,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					12,
@@ -289,14 +240,14 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene dockyard"
+			"scene level"
 		},
 		time = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					10
 				},
 				{
 					0,
@@ -308,12 +259,12 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					15
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}

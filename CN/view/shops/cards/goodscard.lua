@@ -71,6 +71,7 @@ slot0.update = function(slot0, slot1, slot2)
 		type = DROP_TYPE_RESOURCE,
 		id = slot1:getConfig("resource_type")
 	}):getIcon(), "", tf(slot0.resIconTF))
+	setActive(slot0.groupLocked, slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.OnDispose = function(slot0)

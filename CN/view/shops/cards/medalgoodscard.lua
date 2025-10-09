@@ -28,9 +28,7 @@ slot0.Init = function(slot0)
 	setText(slot0.countTF, slot0.goods:getConfig("price"))
 	GetImageSpriteFromAtlasAsync("props/medal", "", slot0.resIconTF)
 	GetImageSpriteFromAtlasAsync(slot0.goods:getConfig("goods_icon"), "", slot0.itemIconTF)
-
-	slot3 = slot0.goods:getConfig("is_ship")
-	slot4 = slot0.goods:getConfig("goods")
+	setActive(slot0.groupLocked, not slot0.goods:Selectable() and slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.OnDispose = function(slot0)

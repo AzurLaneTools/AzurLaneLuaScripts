@@ -20,6 +20,12 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_combo.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)

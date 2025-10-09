@@ -164,6 +164,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 21,
+		param = {
+			"scene core activity",
+			{
+				coreName = "AEBCSCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -184,6 +193,7 @@ pg.activity_banner_notice = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21
 	}
 }

@@ -480,98 +480,77 @@ pg.base.island_task_target = {
 	[50001001] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001001,
 		target_num = 8,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001002] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001002,
 		target_num = 24,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001003] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001003,
 		target_num = 48,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001004] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001004,
 		target_num = 96,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001005] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001005,
 		target_num = 120,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001006] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001006,
 		target_num = 160,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50001007] = {
 		tips = "",
 		name = "累计采集秋季特产",
-		type = 5,
+		type = 40,
 		id = 50001007,
 		target_num = 240,
 		target_param = {
-			4001,
-			4002,
-			4003,
-			4004
+			990003
 		}
 	},
 	[50002001] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002001,
 		target_num = 40,
 		target_param = {
@@ -588,7 +567,7 @@ pg.base.island_task_target = {
 	[50002002] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002002,
 		target_num = 80,
 		target_param = {
@@ -605,7 +584,7 @@ pg.base.island_task_target = {
 	[50002003] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002003,
 		target_num = 100,
 		target_param = {
@@ -622,7 +601,7 @@ pg.base.island_task_target = {
 	[50002004] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002004,
 		target_num = 200,
 		target_param = {
@@ -639,7 +618,7 @@ pg.base.island_task_target = {
 	[50002005] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002005,
 		target_num = 400,
 		target_param = {
@@ -656,7 +635,7 @@ pg.base.island_task_target = {
 	[50002006] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002006,
 		target_num = 600,
 		target_param = {
@@ -673,7 +652,7 @@ pg.base.island_task_target = {
 	[50002007] = {
 		tips = "",
 		name = "累计制作秋季特产",
-		type = 5,
+		type = 26,
 		id = 50002007,
 		target_num = 800,
 		target_param = {

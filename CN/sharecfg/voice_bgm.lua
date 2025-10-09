@@ -76,14 +76,14 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "danmachi-1",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "danmachi-1"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "danmachi-1",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "danmachi-1"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -2464,5 +2464,30 @@ pg.voice_bgm = {
 		default_bgm = "theme-myisland",
 		special_bgm = "",
 		bgm = "theme-myisland"
+	},
+	AEBCSMainPage = {
+		default_bgm = "danmachi-1",
+		special_bgm = "",
+		bgm = "danmachi-1"
+	},
+	AEBCSPtPage = {
+		default_bgm = "danmachi-2",
+		special_bgm = "",
+		bgm = "danmachi-2"
+	},
+	AEBCSAwardPage = {
+		default_bgm = "danmachi-az-story",
+		special_bgm = "",
+		bgm = "danmachi-az-story"
+	},
+	AEBCSHestiaPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
+	},
+	AEBCSStoryPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
 	}
 }

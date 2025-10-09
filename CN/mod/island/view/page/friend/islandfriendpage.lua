@@ -141,6 +141,12 @@ slot0.OnShowMsg = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_friends.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)

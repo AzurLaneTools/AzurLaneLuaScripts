@@ -57,6 +57,7 @@ slot0.Nation2Print = function(slot0)
 			[107.0] = "um",
 			[98.0] = "cm",
 			[106.0] = "um",
+			[114.0] = "um",
 			[99.0] = "sr",
 			[105.0] = "um"
 		}
@@ -80,22 +81,23 @@ slot0.Nation2Side = function(slot0)
 			"West",
 			"West",
 			"West",
+			[113.0] = "West",
 			[96.0] = "West",
-			[98.0] = "West",
 			[104.0] = "West",
 			[112.0] = "Jp",
-			[108.0] = "Jp",
 			[97.0] = "Meta",
-			[107.0] = "Imas",
-			[109.0] = "West",
-			[110.0] = "Jp",
-			[102.0] = "Cn",
-			[106.0] = "Jp",
 			[111.0] = "Jp",
-			[101.0] = "Jp",
+			[102.0] = "Cn",
+			[110.0] = "Jp",
 			[103.0] = "Jp",
-			[105.0] = "Jp",
-			[113.0] = "West"
+			[109.0] = "West",
+			[108.0] = "Jp",
+			[101.0] = "Jp",
+			[107.0] = "Imas",
+			[98.0] = "West",
+			[106.0] = "Jp",
+			[114.0] = "West",
+			[105.0] = "Jp"
 		}
 	end
 
@@ -117,22 +119,23 @@ slot0.Nation2BG = function(slot0)
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
+			[113.0] = "bg/bg_church",
 			[96.0] = "bg/bg_church",
-			[98.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
 			[112.0] = "bg/bg_church",
-			[108.0] = "bg/bg_church",
 			[97.0] = "bg/bg_church_meta",
-			[107.0] = "bg/bg_church_imas",
-			[109.0] = "bg/bg_church",
-			[110.0] = "bg/bg_church",
-			[102.0] = "bg/bg_church",
-			[106.0] = "bg/bg_church",
 			[111.0] = "bg/bg_church",
-			[101.0] = "bg/bg_church",
+			[102.0] = "bg/bg_church",
+			[110.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
-			[105.0] = "bg/bg_church",
-			[113.0] = "bg/bg_church"
+			[109.0] = "bg/bg_church",
+			[108.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
+			[107.0] = "bg/bg_church_imas",
+			[98.0] = "bg/bg_church",
+			[106.0] = "bg/bg_church",
+			[114.0] = "bg/bg_church",
+			[105.0] = "bg/bg_church"
 		}
 	end
 
@@ -169,7 +172,8 @@ slot0.Nation2Name = function(slot0)
 			[110] = i18n("word_shipNation_senran"),
 			[111] = i18n("word_shipNation_tolove"),
 			[112] = i18n("word_shipNation_brs"),
-			[113] = i18n("word_shipNation_yumia")
+			[113] = i18n("word_shipNation_yumia"),
+			[114] = i18n("word_shipNation_danmachi")
 		}
 	end
 
@@ -206,7 +210,8 @@ slot0.Nation2facionName = function(slot0)
 			[110] = i18n("guild_faction_unknown"),
 			[111] = i18n("guild_faction_unknown"),
 			[112] = i18n("guild_faction_unknown"),
-			[113] = i18n("guild_faction_unknown")
+			[113] = i18n("guild_faction_unknown"),
+			[114] = i18n("guild_faction_unknown")
 		}
 	end
 

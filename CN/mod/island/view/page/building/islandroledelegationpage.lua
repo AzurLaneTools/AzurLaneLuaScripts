@@ -66,6 +66,15 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
 	end, SFX_PANEL)
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_commission.tip
+		})
+	end, SFX_PANEL)
 end
 
 slot0.InitPlaceCfg = function(slot0)

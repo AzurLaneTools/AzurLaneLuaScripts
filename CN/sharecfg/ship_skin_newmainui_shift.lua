@@ -3992,7 +3992,7 @@ pg.ship_skin_newmainui_shift = {
 			0,
 			0,
 			1,
-			0
+			17.37
 		},
 		skin_shop_shift = {
 			0,

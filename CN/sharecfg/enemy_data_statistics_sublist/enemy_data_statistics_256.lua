@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_256 = {
+	[16305102] = {
+		cannon = 38,
+		air = 0,
+		torpedo = 76,
+		cannon_growth = 936,
+		id = 16305102,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 3366,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90712,
+		durability = 3570,
+		armor_growth = 0,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 3744,
+		fog_fx = "",
+		antisub = 0,
+		equipment_list = {
+			3035324,
+			3035325,
+			3035326,
+			3035327
+		}
+	},
 	[16305103] = {
 		cannon = 54,
 		air = 0,
@@ -1366,70 +1402,6 @@ pg.enemy_data_statistics_256 = {
 		buff_list = {
 			{
 				ID = 200236,
-				LV = 1
-			}
-		}
-	},
-	[16400302] = {
-		cannon = 150,
-		name = "OFS.导弹战列舰-演习特化型",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 16400302,
-		air = 0,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90723,
-		durability = 8900,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 0,
-		antisub = 0,
-		scale = 320,
-		cannon_growth = 0,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 30,
-		durability_growth = 0,
-		antiaircraft = 115,
-		battle_unit_type = 95,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			3040101,
-			3040102,
-			3040103,
-			3040104,
-			3040105,
-			3040106,
-			3040107,
-			3040108
-		},
-		buff_list = {
-			{
-				ID = 200236,
-				LV = 1
-			},
-			{
-				ID = 50500,
 				LV = 1
 			}
 		}

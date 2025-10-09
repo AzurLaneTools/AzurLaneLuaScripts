@@ -35,6 +35,7 @@ slot0.Init = function(slot0)
 
 	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot3)))
 	setImageColor(slot0.itemIconFrameTF, Color.NewHex(ItemRarity.Rarity2FrameHexColor(slot3)))
+	setActive(slot0.groupLocked, not slot0.goodsVO:Selectable() and slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.OnDispose = function(slot0)
