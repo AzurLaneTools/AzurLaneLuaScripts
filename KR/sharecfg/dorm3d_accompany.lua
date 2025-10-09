@@ -178,7 +178,7 @@ pg.dorm3d_accompany = {
 	},
 	[121] = {
 		sceneInfo = "map_dafeng_01|Dafeng_DB/Dafenghostel",
-		name = "日常相伴",
+		name = "일상 동반",
 		performance_time = 20,
 		image = "dafeng_accompany_room",
 		ship_id = 30707,
@@ -198,7 +198,7 @@ pg.dorm3d_accompany = {
 	},
 	[122] = {
 		sceneInfo = "map_publiccafe_01|Publiccafe",
-		name = "休闲相伴",
+		name = "캐주얼 동반",
 		performance_time = 20,
 		image = "cafe_accompany",
 		ship_id = 30707,
