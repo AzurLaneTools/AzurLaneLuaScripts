@@ -31285,7 +31285,7 @@ _G.pg.base.gametip.word_maingroup_updatefailure = {
 
 
 _G.pg.base.gametip.group_download_tip = {
-	tip = "You must download $1 of data to perform an update. Proceed with download?"
+	tip = "You must download $1 of data to perform an update./n Proceed with download?"
 }
 
 
@@ -45162,17 +45162,17 @@ _G.pg.base.gametip.danmachi_main_sheet1 = {
 
 
 _G.pg.base.gametip.danmachi_main_sheet2 = {
-	tip = "Eternal Sacred Flame"
+	tip = "Hestia"
 }
 
 
 _G.pg.base.gametip.danmachi_main_sheet3 = {
-	tip = "Unstoppable Gale"
+	tip = "Ryu Lion"
 }
 
 
 _G.pg.base.gametip.danmachi_main_sheet4 = {
-	tip = "A Journey of Encounters"
+	tip = "Story"
 }
 
 

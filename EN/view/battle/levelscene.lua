@@ -1135,6 +1135,7 @@ slot0.updateActivityBtns = function(slot0)
 	slot2, slot3 = slot1:isActivity()
 	slot4 = slot1:isRemaster()
 	slot7 = slot1:getConfig("type")
+	slot0.activityBtnLinkAct = slot8:GetActivity()
 
 	if setmetatable({}, MainActMapBtn):InShowTime() and not slot2 and not slot1:isSkirmish() and not slot1:isEscort() then
 		slot8.image = slot0.activityBtn:Find("Image"):GetComponent(typeof(Image))
@@ -1379,6 +1380,12 @@ slot0.registerActBtn = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.activityBtn, function ()
 		if uv0:isfrozen() then
+			return
+		end
+
+		if uv0.activityBtnLinkAct and uv0.activityBtnLinkAct:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+
 			return
 		end
 
