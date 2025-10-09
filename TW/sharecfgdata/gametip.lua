@@ -39444,3 +39444,8 @@ _G.pg.base.gametip.ninja_game_cant_pickup = {
 _G.pg.base.gametip.ninja_game_booktip = {
 	tip = "*在「城主手冊」中招募援軍、修復建築可推動城市修復階段。"
 }
+
+
+_G.pg.base.gametip.world_inventory_tip = {
+	tip = "重置後可轉換的兌換券 "
+}

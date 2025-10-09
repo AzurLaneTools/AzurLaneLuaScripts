@@ -636,7 +636,7 @@ pg.activity_series_enemy_story = {
 	},
 	[39] = {
 		pos_x = "",
-		name = "CH-1 爆炸疑云",
+		name = "CH-1 爆炸疑雲",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -658,7 +658,7 @@ pg.activity_series_enemy_story = {
 	},
 	[40] = {
 		pos_x = "",
-		name = "CH-2 兔警官探案中",
+		name = "CH-2 兔兔警官探案中",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -680,7 +680,7 @@ pg.activity_series_enemy_story = {
 	},
 	[41] = {
 		pos_x = "",
-		name = "CH-3 战略性约会进行时",
+		name = "CH-3 策略性約會進行時",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -702,7 +702,7 @@ pg.activity_series_enemy_story = {
 	},
 	[42] = {
 		pos_x = "",
-		name = "CH-4 公路维和组，出击！",
+		name = "CH-4 公路維安組，出擊！",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -724,7 +724,7 @@ pg.activity_series_enemy_story = {
 	},
 	[43] = {
 		pos_x = "",
-		name = "CH-5 问题的关键",
+		name = "CH-5 問題的關鍵",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -746,7 +746,7 @@ pg.activity_series_enemy_story = {
 	},
 	[44] = {
 		pos_x = "",
-		name = "CH-6 说来话长",
+		name = "CH-6 說來話長",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -768,7 +768,7 @@ pg.activity_series_enemy_story = {
 	},
 	[45] = {
 		pos_x = "",
-		name = "CH-7 谈心教室",
+		name = "CH-7 談心教室",
 		type = 1,
 		en_name = "",
 		change_background = "",
@@ -812,7 +812,7 @@ pg.activity_series_enemy_story = {
 	},
 	[47] = {
 		pos_x = "",
-		name = "CH-9 谁是卧底？",
+		name = "CH-9 誰是臥底？",
 		type = 1,
 		en_name = "",
 		change_background = "",

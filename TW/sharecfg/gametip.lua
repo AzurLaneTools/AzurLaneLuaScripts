@@ -30210,5 +30210,10 @@ cs.gametip = {
 		1053432,
 		165,
 		true
+	},
+	world_inventory_tip = {
+		1053597,
+		114,
+		true
 	}
 }
