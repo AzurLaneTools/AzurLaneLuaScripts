@@ -139,7 +139,7 @@ pg.dorm3d_accompany = {
 		image = "xinzexi_accompany_room",
 		ship_id = 10517,
 		resource_room = 11,
-		timeline = "Xiangban_personal",
+		timeline = "Xiangban_personal_10517",
 		id = 111,
 		favor = {
 			300,
@@ -159,7 +159,7 @@ pg.dorm3d_accompany = {
 		image = "cafe_accompany",
 		ship_id = 10517,
 		resource_room = 16,
-		timeline = "Xiangban_cafe",
+		timeline = "Xiangban_cafe_10517",
 		id = 112,
 		favor = {
 			300,
@@ -183,7 +183,7 @@ pg.dorm3d_accompany = {
 		image = "dafeng_accompany_room",
 		ship_id = 30707,
 		resource_room = 12,
-		timeline = "Xiangban_personal",
+		timeline = "Xiangban_personal_30707",
 		id = 121,
 		favor = {
 			300,
@@ -203,7 +203,7 @@ pg.dorm3d_accompany = {
 		image = "cafe_accompany",
 		ship_id = 30707,
 		resource_room = 16,
-		timeline = "Xiangban_cafe",
+		timeline = "Xiangban_cafe_30707",
 		id = 122,
 		favor = {
 			300,

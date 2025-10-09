@@ -62,7 +62,7 @@ pg.island_order_list = {
 		unlock_cost = {
 			{
 				1,
-				500
+				0
 			}
 		}
 	},
@@ -74,7 +74,7 @@ pg.island_order_list = {
 		unlock_cost = {
 			{
 				1,
-				1000
+				0
 			}
 		}
 	},

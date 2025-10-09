@@ -94,7 +94,10 @@ slot3.RefreshTemp = function(slot0)
 	if slot0.orginTargetDir.x ~= 0 or slot0.orginTargetDir.z ~= 0 then
 		slot1 = IslandCameraMgr.instance._mainCamera.transform:TransformVector(slot0.orginTargetDir)
 		slot0.targetDir = uv0(slot1.x, 0, slot1.z).normalized
-		slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+
+		if slot0.targetDir ~= Vector3.zero then
+			slot0.targetRotation = Quaternion.LookRotation(slot0.targetDir)
+		end
 	end
 end
 
@@ -179,7 +182,13 @@ slot3.CalcGrounded = function(slot0)
 	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
-		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+		slot3 = slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+
+		if slot2.collider.isTrigger then
+			return true, 0
+		end
+
+		return true, slot3
 	end
 
 	return false
@@ -189,7 +198,13 @@ slot3.CalcNotFalling = function(slot0)
 	slot1, slot2 = Physics.SphereCast(slot0._tf.position + slot0.characterController.center, slot0.characterController.radius, Vector3.down, nil, 0.3 + 2 * slot0.characterController.skinWidth + 0.5 * slot0.characterController.height - slot0.characterController.radius, uv0)
 
 	if slot1 then
-		return true, slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+		slot3 = slot0._tf.position.y + slot0.characterController.skinWidth - slot2.point.y
+
+		if slot2.collider.isTrigger then
+			return false
+		end
+
+		return true, slot3
 	end
 
 	return false
@@ -243,6 +258,16 @@ slot3.StopMoveHandle = function(slot0)
 	slot0.isSprint = false
 end
 
+slot3.StopMoveHandleByInput = function(slot0)
+	slot0.targetSpeed = 0
+
+	slot0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
+	slot0.animator:SetFloat(IslandConst.INPUT_MAGNITUDE, 0)
+
+	slot0.orginTargetDir = uv0
+	slot0.isSprint = false
+end
+
 slot3.JumpHandle = function(slot0)
 	if slot0.cantMove then
 		return
@@ -272,8 +297,13 @@ slot3.DeviceStateHandle = function(slot0, slot1)
 		return
 	end
 
+	if slot0.view:GetController():IsPlayerInTimeline() then
+		return
+	end
+
 	if slot1 then
 		slot0.animator:SetTrigger(IslandConst.DEVICE_SHOW_FLAG)
+		slot0.animator:ResetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	else
 		slot0.animator:SetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	end

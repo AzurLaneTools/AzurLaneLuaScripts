@@ -1,31 +1,18 @@
 return {
-	mode = 10,
 	id = "ISLAND1001017",
+	mode = 10,
 	map = {
-		{
-			1014,
-			10070027
-		},
 		{
 			3120100,
 			10070005
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
-			say = "抓住你了，{namecode:98:明石}，你还想躲哪去？",
 			animation = "nod",
+			say = "抓住你了，{namecode:98:明石}，你还想躲哪去？",
 			characterId = 0,
+			camera = "StoryCamera6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

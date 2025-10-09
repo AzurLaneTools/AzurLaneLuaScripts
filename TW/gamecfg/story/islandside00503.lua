@@ -4,9 +4,10 @@ return {
 	map = {},
 	scripts = {
 		{
-			withoutName = true,
-			withoutIcon = true,
 			say = "叮……当……叮叮……当……",
+			withoutIcon = true,
+			withoutName = true,
+			camera = "StoryCamera10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -3,6 +3,7 @@ return {
 	events = {
 		{
 			is3dDorm = false,
+			delay = 0.3,
 			alpha = 0.4,
 			style = {
 				text = "努力提升开发排名获取稀有奖励吧",

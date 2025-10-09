@@ -180,6 +180,7 @@ pg.island_task_target = setmetatable({
 		200030021,
 		200030031,
 		200030041,
+		200040000,
 		200040011,
 		200040021,
 		200040031,
@@ -247,6 +248,7 @@ pg.island_task_target = setmetatable({
 		200120081,
 		200120091,
 		200120101,
+		200130000,
 		200130011,
 		200130021,
 		200130031,
@@ -1029,7 +1031,7 @@ pg.base.island_task_target = {
 	},
 	[100010301] = {
 		tips = "10040035",
-		name = "采集煤炭",
+		name = "收集煤炭",
 		type = 4,
 		id = 100010301,
 		target_num = 1,
@@ -1039,7 +1041,7 @@ pg.base.island_task_target = {
 	},
 	[100010401] = {
 		tips = "10040040",
-		name = "采集自然之木",
+		name = "收集自然之木",
 		type = 4,
 		id = 100010401,
 		target_num = 1,
@@ -1443,7 +1445,7 @@ pg.base.island_task_target = {
 	},
 	[100021801] = {
 		tips = "10020004",
-		name = "将欧姆蛋带给斯蒂芬妮",
+		name = "制作欧姆蛋",
 		type = 4,
 		id = 100021801,
 		target_num = 1,
@@ -1719,7 +1721,7 @@ pg.base.island_task_target = {
 	},
 	[100023401] = {
 		tips = "",
-		name = "煤炭",
+		name = "收集煤炭",
 		type = 4,
 		id = 100023401,
 		target_num = 10,
@@ -1729,7 +1731,7 @@ pg.base.island_task_target = {
 	},
 	[100023402] = {
 		tips = "",
-		name = "自然之木",
+		name = "收集自然之木",
 		type = 4,
 		id = 100023402,
 		target_num = 10,
@@ -1857,7 +1859,7 @@ pg.base.island_task_target = {
 	},
 	[100030701] = {
 		tips = "",
-		name = "采集蜂蜜",
+		name = "收集蜂蜜",
 		type = 5,
 		id = 100030701,
 		target_num = 1,
@@ -1877,7 +1879,7 @@ pg.base.island_task_target = {
 	},
 	[100030901] = {
 		tips = "10050010",
-		name = "收获苹果",
+		name = "收集苹果",
 		type = 6,
 		id = 100030901,
 		target_num = 1,
@@ -1887,7 +1889,7 @@ pg.base.island_task_target = {
 	},
 	[100030911] = {
 		tips = "",
-		name = "收获苹果",
+		name = "收集苹果",
 		type = 4,
 		id = 100030911,
 		target_num = 1,
@@ -1925,7 +1927,7 @@ pg.base.island_task_target = {
 	},
 	[100040201] = {
 		tips = "",
-		name = "煤炭",
+		name = "收集煤炭",
 		type = 4,
 		id = 100040201,
 		target_num = 10,
@@ -1995,7 +1997,7 @@ pg.base.island_task_target = {
 	},
 	[200010061] = {
 		tips = "",
-		name = "获得实用之木",
+		name = "收集实用之木",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
@@ -2015,7 +2017,7 @@ pg.base.island_task_target = {
 	},
 	[200010081] = {
 		tips = "",
-		name = "获得铁矿 ",
+		name = "收集铁矿 ",
 		type = 4,
 		id = 200010081,
 		target_num = 10,
@@ -2034,7 +2036,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020011] = {
-		tips = "10020023",
+		tips = "10020018",
 		name = "去港口远点看看",
 		type = 1,
 		id = 200020011,
@@ -2105,7 +2107,7 @@ pg.base.island_task_target = {
 	},
 	[200030021] = {
 		tips = "",
-		name = "采集铝矿",
+		name = "收集铝矿",
 		type = 4,
 		id = 200030021,
 		target_num = 10,
@@ -2132,6 +2134,14 @@ pg.base.island_task_target = {
 		target_param = {
 			5001
 		}
+	},
+	[200040000] = {
+		tips = "",
+		name = "提升岛屿开发等级",
+		type = 9,
+		id = 200040000,
+		target_num = 29,
+		target_param = ""
 	},
 	[200040011] = {
 		tips = "10090008",
@@ -2185,7 +2195,7 @@ pg.base.island_task_target = {
 	},
 	[200050031] = {
 		tips = "10010040",
-		name = "去森林查看情况",
+		name = "去告诉赫莫吧",
 		type = 1,
 		id = 200050031,
 		target_num = 1,
@@ -2355,7 +2365,7 @@ pg.base.island_task_target = {
 	},
 	[200060091] = {
 		tips = "",
-		name = "交付30个自然之木",
+		name = "收集自然之木",
 		type = 4,
 		id = 200060091,
 		target_num = 10,
@@ -2485,7 +2495,7 @@ pg.base.island_task_target = {
 	},
 	[200080021] = {
 		tips = "",
-		name = "收集木材交给斯蒂芬妮吧",
+		name = "收集自然之木",
 		type = 4,
 		id = 200080021,
 		target_num = 10,
@@ -2495,7 +2505,7 @@ pg.base.island_task_target = {
 	},
 	[200080031] = {
 		tips = "",
-		name = "询问斯蒂芬妮风险处理情况",
+		name = "收集煤炭",
 		type = 4,
 		id = 200080031,
 		target_num = 10,
@@ -2803,6 +2813,14 @@ pg.base.island_task_target = {
 			7202
 		}
 	},
+	[200130000] = {
+		tips = "",
+		name = "提升岛屿开发等级",
+		type = 9,
+		id = 200130000,
+		target_num = 22,
+		target_param = ""
+	},
 	[200130011] = {
 		tips = "10020004",
 		name = "询问斯蒂芬妮",
@@ -2855,8 +2873,8 @@ pg.base.island_task_target = {
 	},
 	[200130061] = {
 		tips = "",
-		name = "在苗圃中种植薰衣草",
-		type = 42,
+		name = "在苗圃中委派种植薰衣草",
+		type = 14,
 		id = 200130061,
 		target_num = 1,
 		target_param = {
@@ -2865,7 +2883,7 @@ pg.base.island_task_target = {
 	},
 	[200130071] = {
 		tips = "",
-		name = "等待薰衣草成熟，收获薰衣草",
+		name = "收集薰衣草",
 		type = 4,
 		id = 200130071,
 		target_num = 1,
@@ -3412,7 +3430,11 @@ pg.base.island_task_target = {
 			901003,
 			901004,
 			901005,
-			901006
+			901006,
+			9900003,
+			9900004,
+			9900007,
+			9900008
 		}
 	},
 	[307020011] = {
@@ -3426,7 +3448,9 @@ pg.base.island_task_target = {
 			601002,
 			601003,
 			601004,
-			601005
+			601005,
+			9900003,
+			9900004
 		}
 	},
 	[307030011] = {
@@ -3441,7 +3465,9 @@ pg.base.island_task_target = {
 			602003,
 			602004,
 			602005,
-			602006
+			602006,
+			9900007,
+			9900008
 		}
 	},
 	[307040011] = {
@@ -3858,7 +3884,9 @@ pg.base.island_task_target = {
 			501004,
 			501005,
 			501006,
-			501007
+			501007,
+			9900001,
+			9900002
 		}
 	},
 	[401060011] = {
@@ -3887,7 +3915,9 @@ pg.base.island_task_target = {
 			701004,
 			701005,
 			701006,
-			701007
+			701007,
+			9900005,
+			9900006
 		}
 	},
 	[401080011] = {

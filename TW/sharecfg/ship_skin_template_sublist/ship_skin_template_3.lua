@@ -1,255 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103241] = {
-		name = "炙熱的網球練習",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "哈啊——哈啊——今天的陽光也太猛烈了……指揮官——不對，現在應該叫“教練”吧？趕緊找把陽傘幫我遮一下吧，不然我真的要熱死了……",
-		group_index = 1,
-		purchase_offset = "",
-		painting = "bulaimodun_3",
-		ship_group = 10324,
-		bg_sp = "",
-		shop_type_id = 13,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "112",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 103241,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_3",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70331,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.371,
-					1.067,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.316,
-					1.122,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.016,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103242] = {
-		name = "功夫少女！",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "“到此為止了，壞蛋們！在這裡遇到我算你們倒霉，該到清算你們罪惡的時候了！”……唔，果然想要有個充滿魄力的登場還是挺難的啊。",
-		group_index = 2,
-		purchase_offset = "",
-		painting = "bulaimodun_4",
-		ship_group = 10324,
-		bg_sp = "1102",
-		shop_type_id = 3,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		bgm = "",
-		special_effects = "",
-		bg = "144",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 103242,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_4",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70482,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.371,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.383,
-					0.998,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.006,
-					-0.012,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.491,
-							2.587,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 2.17
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-10,
-				10
-			}
-		}
-	},
 	[103243] = {
 		name = "Happy Dating！",
 		shop_offset = "",
@@ -14630,6 +14381,323 @@ pg.base.ship_skin_template_3 = {
 				{
 					1.464,
 					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107224] = {
+		name = "海風的Lucky Time",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "好像只要在娃娃機這裡投入硬幣，然後操縱搖桿，接著放下爪子……啊，成功了！啾啾玩偶到手了！感覺挺簡單的嘛。",
+		group_index = 4,
+		purchase_offset = "",
+		painting = "duli_3",
+		ship_group = 10722,
+		bg_sp = "",
+		shop_type_id = 9,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "108",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 107224,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "duli_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70624,
+		voice_actor = 130,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.095,
+					0
+				}
+			},
+			plane = {
+				{
+					0.999,
+					1.075,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.421,
+							2.463,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107229] = {
+		name = "獨立.改",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "輕航獨立，改造完畢！請放心大膽地把更困難更重要的任務交給我吧，我已經準備好了。",
+		group_index = 9,
+		purchase_offset = "",
+		painting = "duli_g",
+		ship_group = 10722,
+		bg_sp = "",
+		shop_type_id = 9997,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 2,
+		ship_l2d_id = "",
+		id = 107229,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "duli_g",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 130,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.1,
+					1.18,
+					0
+				}
+			},
+			plane = {
+				{
+					1.24,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.35,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107230] = {
+		name = "普林斯頓",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "獨立級航空母艦-普林斯頓，舷號CVL-23",
+		group_index = 0,
+		purchase_offset = "",
+		painting = "pulinsidun",
+		ship_group = 10723,
+		bg_sp = "",
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		ship_l2d_id = "",
+		id = 107230,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.384,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
 					0
 				}
 			}

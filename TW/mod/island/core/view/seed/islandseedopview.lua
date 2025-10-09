@@ -17,6 +17,10 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:ActiveSeedSelect(false)
 end
 
+slot0.ActiveSeedDetals = function(slot0, slot1)
+	setActive(slot0.seed_detals, slot1)
+end
+
 slot0.ActiveSeedSelect = function(slot0, slot1)
 	if slot1 then
 		slot3 = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
@@ -82,7 +86,7 @@ slot0.RefreshSeedPlane = function(slot0, slot1)
 				uv1.seed_detals.position = uv2.position
 
 				setText(uv1.seed_detals:Find("bg/itemSeed/icon_bg/count_bg/count"), uv3:GetCount())
-				GetImageSpriteFromAtlasAsync(uv3:GetIcon(), "", uv1.seed_detals:Find("bg/itemSeed/icon_bg/icon"))
+				GetImageSpriteFromAtlasAsync("island/" .. uv3:GetIcon(), "", uv1.seed_detals:Find("bg/itemSeed/icon_bg/icon"))
 				setText(uv1.seed_detals:Find("bg/detaiView/Viewport/detaiViewText"), uv3:GetDesc())
 				setText(uv1.seed_detals:Find("bg/seedName"), uv3:GetName())
 			end)

@@ -645,7 +645,6 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_SHIP_SKILL_UPGRADE_DONE,
 		GAME.ISLAND_INVITE_SHIP_DONE,
 		GAME.ISLAND_GIVE_GIFT_DONE,
-		GAME.ISLAND_SELECT_GIFT_DONE,
 		GAME.ISLAND_SIGN_IN_INVITATION_DONE,
 		GAME.FRIEND_SEARCH_DONE,
 		GAME.ISLAND_REFRESH_INVITECODE_DONE,
@@ -657,6 +656,7 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.ISLAND_SIGN_IN_DONE,
 		GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE,
 		GAME.ISLAND_FOLLOWER_OP_DONE,
+		GAME.ISLAND_RESET_SP,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		PlayerProxy.UPDATED,
@@ -680,8 +680,6 @@ slot0._handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
-	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
-		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)
 	elseif slot2 == GAME.ISLAND_INVITE_SHIP_DONE then
 		slot0:HandleShipDisplay(slot3.ship)
 	elseif slot2 == GAME.ISLAND_SHIP_BREAKOUT_DONE then
@@ -805,6 +803,13 @@ slot0._handleNotification = function(slot0, slot1)
 		slot0.viewComponent:ShowQueueUpMsgBox(slot3.id, slot3.pos)
 	elseif slot2 == GAME.ISLAND_SIGN_IN_DONE then
 		-- Nothing
+	elseif slot2 == GAME.ISLAND_RESET_SP then
+		slot0.viewComponent:ShowMsgbox({
+			content = i18n("grapihcs3d_setting_common_unstuck_msgbox"),
+			onYes = function ()
+				uv0.viewComponent:emitCoreEvt(IslandProxy.RESET_SP)
+			end
+		})
 	end
 end
 

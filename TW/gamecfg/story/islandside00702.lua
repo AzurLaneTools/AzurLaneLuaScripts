@@ -1,6 +1,7 @@
 return {
-	id = "ISLANDSIDE00702",
 	mode = 10,
+	id = "ISLANDSIDE00702",
+	cam_dir = 1,
 	map = {},
 	scripts = {
 		{

@@ -25,7 +25,7 @@ slot0.InitEventData = function(slot0, slot1)
 	slot6 = slot1.effect or {}
 
 	for slot8, slot9 in slot5(slot6) do
-		slot4[slot9.food_id] = slot9.add_per
+		slot4[slot9.food_id] = slot9.add_per / 100
 	end
 
 	for slot8, slot9 in pairs(slot0.restaurants) do

@@ -59,7 +59,7 @@ pg.island_main_btns = {
 		}
 	},
 	{
-		ability_id = 0,
+		ability_id = 2,
 		name = "设备",
 		main_type = 1,
 		btn_name = "device",
@@ -136,7 +136,7 @@ pg.island_main_btns = {
 		page_param = {}
 	},
 	{
-		ability_id = 8,
+		ability_id = 28,
 		name = "科技研发",
 		main_type = 1,
 		btn_name = "technology",

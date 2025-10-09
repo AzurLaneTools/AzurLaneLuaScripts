@@ -12090,7 +12090,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:302}(最多4次)"
+	tip = "曾克爾將軍、U-552建造追加！"
 }
 
 
@@ -37895,6 +37895,99 @@ _G.pg.base.gametip.brs_reward_tip_2 = {
 }
 
 
+_G.pg.base.gametip.zengke_series_help = {
+	tip = {
+		{
+			info = [[
+<b>活動時間：</b>
+·<color=#92fc63>10.9-10.23維護；</color>
+·活動期間開啟限時活動「迷彩都市的尋蹤者」。
+
+<b>活動說明：</b>
+·本次作戰分為<color=#92fc63>【作戰模式】</color>和<color=#92fc63>【劇情模式】</color>。
+·在【作戰模式】中，指揮官可上陣多隻隊伍依照順序分別挑戰各個關卡，完成關卡內全部挑戰後視為關卡通關並獲得獎勵。
+·同時，部分關卡可切換<color=#92fc63>「單隊連戰」</color>、<color=#92fc63>「多隊出擊」</color>兩種模式：
+--「單隊連戰」為單隻隊伍挑戰各個關卡。選擇「單隊連戰」模式時，每個關卡開始前角色耐久度及各類狀態都會重置。
+--「多隊出擊」為不同隊伍挑戰各個關卡。選擇「多隊出擊」模式時，可獲得額外獎勵。
+
+·指揮官可以透過作戰模式獲得「都會電影票」，累計收集「都會電影票」可獲得角色<color=#92fc63>「{namecode:498}」</color>、裝備<color=#92fc63>「試作型三聯裝305mmSKC39主炮」</color>在內的大量獎勵。
+
+·完成【劇情模式】的全部內容後，可獲得限定紀念外觀<color=#92fc63>「都市探照頭罩」</color>。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.zengke_series_pt = {
+	tip = "累積PT"
+}
+
+
+_G.pg.base.gametip.zengke_series_pt_small = {
+	tip = "PT REWARD"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank = {
+	tip = "排行榜"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank_small = {
+	tip = "RANKING"
+}
+
+
+_G.pg.base.gametip.zengke_series_task = {
+	tip = "活動任務"
+}
+
+
+_G.pg.base.gametip.zengke_series_task_small = {
+	tip = "TASK"
+}
+
+
+_G.pg.base.gametip.zengke_series_confirm = {
+	tip = "立即前往"
+}
+
+
+_G.pg.base.gametip.zengke_story_reward_count = {
+	tip = "通關全部劇情後可獲得限定紀念外觀："
+}
+
+
+_G.pg.base.gametip.zengke_series_easy = {
+	tip = "簡單"
+}
+
+
+_G.pg.base.gametip.zengke_series_normal = {
+	tip = "普通"
+}
+
+
+_G.pg.base.gametip.zengke_series_hard = {
+	tip = "困難"
+}
+
+
+_G.pg.base.gametip.zengke_series_sp = {
+	tip = "S.P"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex = {
+	tip = "E.X"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex_confirm = {
+	tip = "返回"
+}
+
+
 _G.pg.base.gametip.battleui_display1 = {
 	tip = "全新介面"
 }
@@ -37907,6 +38000,11 @@ _G.pg.base.gametip.battleui_display2 = {
 
 _G.pg.base.gametip.battleui_display3 = {
 	tip = "暫停欄"
+}
+
+
+_G.pg.base.gametip.zengke_series_serverinfo = {
+	tip = "伺服器:"
 }
 
 

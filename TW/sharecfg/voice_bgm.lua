@@ -1975,6 +1975,21 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "brs-1-inst"
 	},
+	ZengKeMainPage = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
+	},
+	ZengKePtPage = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
+	},
+	CamouflageCityMedalAlbumView = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
+	},
 	RyzaMainRePage = {
 		default_bgm = "ryza-1",
 		special_bgm = "",

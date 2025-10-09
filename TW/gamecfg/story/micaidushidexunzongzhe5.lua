@@ -37,11 +37,11 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>Chapter-4-公路维和组，出击！</size>",
+					"Chapter-4-公路維和組，出擊！",
 					0.5
 				},
 				{
-					"<size=45>Scene：警视厅停车场</size>",
+					"<size=45>Scene：警視廳停車場</size>",
 					1
 				},
 				{
@@ -53,15 +53,15 @@ return {
 					2
 				},
 				{
-					"<size=45>历经波折，你终于设法恢复了遭受删改前的监控内容，一道模糊的可疑的黑影出现在了屏幕上。</size>",
+					"歷經波折，你終於設法恢復了遭受刪改前的監控內容，一道模糊的可疑的黑影出現在了螢幕上。",
 					2.5
 				},
 				{
-					"<size=45>你莫名觉得这个快速移动的身影有些熟悉，却又想不起来是谁。</size>",
+					"你莫名覺得這個快速移動的身影有些熟悉，卻又想不起來是誰。",
 					3
 				},
 				{
-					"<size=45>于是，你准备先去询问一下经常与此类犯罪打交道的零课人员……</size>",
+					"於是，你準備先去詢問一下經常與此類犯罪打交道的零課人員……",
 					3.5
 				}
 			}
@@ -69,7 +69,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			bgName = "star_level_bg_171",
 			hideRecordIco = true,
@@ -103,12 +103,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "不用调查了，我知道了！",
+			say = "不用調查了，我知道了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "卧底就是——{namecode:55:青叶}！",
+			say = "臥底就是——青葉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,8 +137,8 @@ return {
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 408102,
-			actorName = "剧中旁白",
-			say = "不对。",
+			actorName = "劇中旁白",
+			say = "不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,12 +148,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "……阿尔弗雷多？格里德利？",
+			say = "……阿爾弗雷多？格里德利？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 408102,
-			actorName = "剧中旁白",
-			say = "不对。",
+			actorName = "劇中旁白",
+			say = "不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "抚顺？飞云？伏波？布里斯托尔？勇气？",
+			say = "撫順？飛雲？伏波？布里斯托爾？勇氣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "{namecode:18:岛风}？果敢？恶毒？可怖？凯旋？不屈？",
+			say = "島風？大膽？惡毒？可怖？凱旋？不屈？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,8 +212,8 @@ return {
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 408102,
-			actorName = "剧中旁白",
-			say = "不对不对不对，全都不对。你奇怪地自言自语，很快引起了一旁巡警的注意。",
+			actorName = "劇中旁白",
+			say = "不對不對不對，全都不對。你奇怪地自言自語，很快就引起了一旁巡警的注意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,10 +223,10 @@ return {
 			actor = 408102,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哟，顾问怎么来停车场了？这是要去哪里啊？",
+			say = "喲，顧問怎麼來停車場了？這是要去哪裡啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,11 +236,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "看你这么着急，要不我载你一程？",
+			say = "看你這麼急，要不我載你一程？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,13 +250,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "有些事需要找零课的人确认一下，你知道{namecode:547:曾克}警部和{namecode:548:U552}警部补在什么地方么？",
+			say = "有些事要找零課的人確認一下，妳知道曾克爾警部和U552警部補在什麼地方嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +266,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "零课的人的行踪我还真不知道……顾问这是发现线索了？",
+			say = "零課的人的行蹤我還真不知道……顧問這是發現線索了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,11 +280,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "要不说来给我听听，说不定我能帮上忙哦！",
+			say = "要不說來給我聽聽，說不定我能幫上忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,13 +294,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "……你不是交通课的么？",
+			say = "……妳不是交通課的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,11 +310,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "交通课怎么了！交通课也是警察，顾问这是赤裸裸的偏见哦！",
+			say = "交通課怎麼了！交通課也是警察，顧問這是赤裸裸的偏見哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,11 +324,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "我可是成功骑车拦截过那些飙车党的！就在前不久……",
+			say = "我可是成功騎車攔截過那些飆車黨的！就在前不久……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,10 +338,10 @@ return {
 			actor = 408102,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了，先上车，我们边走边说~",
+			say = "算了，先上車，我們邊走邊說~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,12 +351,12 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "……去哪里？",
+			say = "……去哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,11 +366,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "现在是执勤时间，自然是先执勤啦~不能因为和你讨论线索耽误正经工作嘛。",
+			say = "現在是執勤時間，自然是先執勤啦~不能因為跟你討論線索耽誤正經工作嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,13 +380,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "热爱工作，很好。",
+			say = "熱愛工作，很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,24 +396,24 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "不过……",
+			say = "不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "U37巡查部长，你是卧底吗？",
+					content = "U37巡查部長，妳是臥底嗎？",
 					flag = 1
 				},
 				{
-					content = "（顺着剧本情景继续演下去……）",
+					content = "（順著劇本情景繼續演下去……）",
 					flag = 2
 				}
 			}
@@ -422,12 +422,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "咦？卧底？",
+			say = "咦？臥底？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,12 +437,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "你明明看到了热爱工作的我，竟然还怀疑我是卧底吗？！",
+			say = "你明明看到了熱愛工作的我，竟然還懷疑我是臥底嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "热爱工作么……可是你看你的这辆巡逻车。",
+			say = "熱愛工作嗎……可是妳看妳的這輛巡邏車。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,14 +469,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "你就是靠这个速度拦截的飙车党？",
+			say = "你就是靠這個速度攔截的飆車黨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,14 +486,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "就算飚的是自行车你也追不上吧……",
+			say = "就算飆的是自行車妳也追不上吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
@@ -518,7 +518,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
@@ -535,14 +535,14 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "别人都步行了……你也抓？",
+			say = "別人都走路了……妳也抓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,12 +551,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "哼哼，那当然！正义出警，义不容辞~！",
+			say = "哼哼，那當然！正義出警，義不容辭~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,13 +566,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "我算是知道为什么你会收到“因走路太快被抓”的奇怪投诉了……",
+			say = "我算是知道為什麼妳會收到「因走路太快被抓」的奇怪投訴了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,12 +582,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "咦……我居然被投诉了么？！",
+			say = "咦……我居然被投訴了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,14 +597,14 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "没事，已经被烧掉一大半，看不清细节了。",
+			say = "沒事，已經被燒掉一大半，看不清楚細節了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
@@ -629,14 +629,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "所以……你真的是在以自己的方式认真工作？",
+			say = "所以……妳真的是用自己的方式認真工作？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,12 +645,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "当然啦~好啦，顾问上车再聊！该去巡逻啦！",
+			say = "當然啦~好啦，顧問上車再聊！該去巡邏啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,14 +660,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "你这辆车可以带人么？难道不算违反交通规则么？",
+			say = "妳這輛車可以帶人嗎？難道不算違反交通規則嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,12 +677,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "哎呀~我说的当然不是这辆，而是一旁的巡逻车啦！",
+			say = "哎呀~我說的當然不是這輛，而是一旁的巡邏車！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,12 +692,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "走吧走吧，我们上巡逻车！",
+			say = "走吧走吧，我們上巡邏車！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,12 +707,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "欸……我的车钥匙在……",
+			say = "欸……我的車鑰匙在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,14 +722,14 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "可是你刚刚明明想邀请我坐在你的单人电车上。",
+			say = "可是妳剛剛明明想邀請我坐在妳的單人電車上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,14 +739,14 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "该不会……{namecode:549:U-37}巡查部长，你在背地里其实并不怎么遵守交通规则吧？",
+			say = "該不會……U-37巡查部長，妳在背地裡其實不怎麼遵守交通規則吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,12 +756,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "怎、怎么会呢……！",
+			say = "怎、怎麼會呢……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,12 +771,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "我可是每年都能收到优秀表彰的出色巡警哦！",
+			say = "我可是每年都能收到優秀表彰的出色巡警哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,13 +786,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "确实……我并没有听到任何你违反交通规则的事……",
+			say = "確實……我並沒有聽到任何妳違反交通規則的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
@@ -818,12 +818,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "哎呀~这不是说明我规则遵守得好嘛~！",
+			say = "哎呀~這不是說明我規則遵守得很好啊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,12 +832,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 408102,
 			nameColor = "#A9F548FF",
-			say = "好啦，别想那么多啦！顾问你先忙，我也该去巡逻啦！",
+			say = "好啦，別想那麼多啦！顧問你先忙，我也該去巡邏了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,8 +847,8 @@ return {
 			portrait = 312013,
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:98:明石}",
-			factiontag = "导演",
+			actorName = "明石",
+			factiontag = "導演",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			say = "CUT~喵！",

@@ -111,6 +111,12 @@ slot0.SetPlayedFlag = function(slot0, slot1)
 	slot0.playedList[slot1] = true
 end
 
+slot0.SetPlayedFlagList = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.playedList[slot6] = true
+	end
+end
+
 slot0.GetPlayedFlag = function(slot0, slot1)
 	return slot0.playedList[slot1]
 end

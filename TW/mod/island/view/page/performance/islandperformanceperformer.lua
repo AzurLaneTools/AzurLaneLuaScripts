@@ -6,6 +6,39 @@ slot0.TYPE_TRANSFER = 2
 slot0.TYPE_STORY = 3
 slot0.TYPE_HIDE_UNIT = 4
 slot0.TYPE_UPDATE_STORY = 5
+slot0.TYPE_LOCK_NPC_REFRESH = 6
+
+slot0.GetStoryNameList = function(slot0)
+	if not pg.NewStoryMgr.GetInstance():GetScript(slot0) then
+		return {}
+	end
+
+	slot2 = function(slot0, slot1)
+		if pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot1) then
+			table.insert(slot0, slot2)
+		end
+	end
+
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1) do
+		if slot8.type == uv0.TYPE_STORY then
+			if slot8.name then
+				slot2(slot3, slot8.name)
+			end
+		elseif slot8.type == uv0.TYPE_UPDATE_STORY then
+			if slot8.index then
+				slot2(slot3, slot8.index)
+			end
+		elseif slot8.type == uv0.TYPE_FINDPATH and slot8.index then
+			slot2(slot3, slot8.index)
+		end
+	end
+
+	slot2(slot3, slot0)
+
+	return slot3
+end
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -33,6 +66,8 @@ slot0.GetPlayer = function(slot0, slot1)
 		return IslandPerformanceActiveUnitPlayer.New(slot0)
 	elseif slot1 == uv0.TYPE_UPDATE_STORY then
 		return IslandUpdateStoryPlayer.New(slot0)
+	elseif slot1 == uv0.TYPE_LOCK_NPC_REFRESH then
+		return IslandLockNpcRefreshPlayer.New(slot0)
 	end
 end
 
@@ -40,10 +75,20 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot0:OnStart(slot1)
 
 	slot4 = {}
+	slot5 = _.detect(slot2, function (slot0)
+		return slot0.type == uv0.TYPE_LOCK_NPC_REFRESH
+	end)
+	slot6 = false
 
-	for slot8, slot9 in ipairs(slot2) do
+	for slot10, slot11 in ipairs(slot2) do
 		table.insert(slot4, function (slot0)
-			slot1 = uv0:GetPlayer(uv1.type)
+			if isa(uv0:GetPlayer(uv1.type), IslandFindingPathPlayer) and uv2 then
+				slot1:SetEndCallback(function ()
+					uv0:ClearLockNpc(uv1.unitIdList, false)
+				end)
+
+				uv3 = true
+			end
 
 			slot1:Play(uv1, slot0)
 
@@ -52,14 +97,28 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	end
 
 	seriesAsync(slot4, function ()
-		uv0:OnEnd()
+		if not uv0 and uv1 then
+			uv2:ClearLockNpc(uv1.unitIdList, true)
+		end
 
-		uv0.player = nil
+		uv2:OnEnd(slot0)
 
-		if uv1 then
-			uv1()
+		uv2.player = nil
+
+		if uv3 then
+			uv3()
 		end
 	end)
+end
+
+slot0.ClearLockNpc = function(slot0, slot1, slot2)
+	if not slot1 then
+		return
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.RELEASE_NPC_REFRESH, slot7, IslandConst.UNIT_LIST_OBJ)
+	end
 end
 
 slot0.OnStart = function(slot0, slot1)
@@ -71,10 +130,10 @@ slot0.OnStart = function(slot0, slot1)
 	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.PERFORMANCE_START)
 end
 
-slot0.OnEnd = function(slot0)
+slot0.OnEnd = function(slot0, slot1)
 	slot0.runing = false
 
-	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.PERFORMANCE_END)
+	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.PERFORMANCE_END, slot1)
 end
 
 slot0.OnSceneLoaded = function(slot0)

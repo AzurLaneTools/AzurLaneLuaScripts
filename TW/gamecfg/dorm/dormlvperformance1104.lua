@@ -4,7 +4,7 @@ return {
 		type = 9,
 		params = {
 			wait_timeline = false,
-			name = "FFliwu_01"
+			name = "FFliwu_10517_01"
 		}
 	},
 	{
@@ -40,7 +40,7 @@ return {
 		type = 9,
 		params = {
 			wait_timeline = false,
-			name = "FFliwu_01"
+			name = "FFliwu_10517_01"
 		}
 	}
 }

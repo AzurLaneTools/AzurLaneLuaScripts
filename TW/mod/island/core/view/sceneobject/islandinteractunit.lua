@@ -19,6 +19,7 @@ slot0.OnAttach = function(slot0, slot1)
 	end)
 
 	slot0.director = GetOrAddComponent(slot2, typeof(UnityEngine.Playables.PlayableDirector))
+	slot0.cachePlayerTransformInfoDic = {}
 end
 
 slot0.SetTimelineDic = function(slot0, slot1)
@@ -37,10 +38,9 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 
 	if slot7 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
-		slot0:SetPlayerTransform(slot1, slot0._go.transform)
-	else
-		slot0:SetVisitorTransform(slot1, slot0._go.transform)
 	end
+
+	slot0:SetPlayerTransform(slot1, slot0._go.transform)
 
 	if slot5 and #slot5 > 1 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot5[1], slot5[2])
@@ -78,7 +78,7 @@ slot0.EndInteract = function(slot0, slot1, slot2, slot3, slot4)
 			uv0:RevertPlayerTransform(uv1)
 		end)
 	else
-		slot0:RevertVisitorTransform(slot1)
+		slot0:RevertPlayerTransform(slot1)
 	end
 end
 
@@ -132,7 +132,7 @@ slot0.BindPlayer = function(slot0, slot1, slot2)
 end
 
 slot0.SetPlayerTransform = function(slot0, slot1, slot2)
-	slot0.cachePlayerTransformInfo = {
+	slot0.cachePlayerTransformInfoDic[slot1.id] = {
 		position = slot1._tf.position,
 		rotation = slot1._tf.rotation
 	}
@@ -145,30 +145,16 @@ slot0.SetPlayerTransform = function(slot0, slot1, slot2)
 end
 
 slot0.RevertPlayerTransform = function(slot0, slot1)
-	if not slot0.cachePlayerTransformInfo then
+	if not slot0.cachePlayerTransformInfoDic[slot1.id] then
 		return
 	end
 
 	setParent(slot1._tf, slot0.view.root)
 
-	slot1._tf.position = slot0.cachePlayerTransformInfo.position
-	slot1._tf.rotation = slot0.cachePlayerTransformInfo.rotation
+	slot1._tf.position = slot0.cachePlayerTransformInfoDic[slot1.id].position
+	slot1._tf.rotation = slot0.cachePlayerTransformInfoDic[slot1.id].rotation
 	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = false
-	slot0.cachePlayerTransformInfo = nil
-end
-
-slot0.SetVisitorTransform = function(slot0, slot1, slot2)
-	setParent(slot1._tf, slot2)
-
-	slot1._tf.localPosition = Vector3.zero
-	slot1._tf.localRotation = Quaternion.identity
-	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = true
-end
-
-slot0.RevertVisitorTransform = function(slot0, slot1)
-	setParent(slot1._tf, slot0.view.root)
-
-	GetOrAddComponent(slot1._go, typeof(UnityEngine.Animator)).enabled = false
+	slot0.cachePlayerTransformInfoDic[slot1.id] = nil
 end
 
 return slot0

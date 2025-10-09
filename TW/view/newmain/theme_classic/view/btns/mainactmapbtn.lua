@@ -29,7 +29,7 @@ slot0.IsShowTip = function(slot0)
 		return false
 	end
 
-	return getProxy(ChapterProxy):IsActivitySPChapterActive(slot1) and SettingsProxy.IsShowActivityMapSPTip()
+	return getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()
 end
 
 slot0.CustomOnClick = function(slot0)

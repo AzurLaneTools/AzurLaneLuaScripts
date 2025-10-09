@@ -131,7 +131,10 @@ slot0.FlushDetail = function(slot0)
 			return slot0.id
 		end
 	}))
-	slot0.scrollRect:SetTotalCount(#slot0.showAchvList, -1)
+
+	slot0.scrollRect.enabled = true
+
+	slot0.scrollRect:SetTotalCount(#slot0.showAchvList, 0)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -152,6 +155,8 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 		slot3 = slot0.cards[slot2]
 	end
+
+	warning(slot1 + 1)
 
 	if slot0.showAchvList[slot1 + 1] then
 		slot3:Update(slot4)
@@ -187,6 +192,8 @@ slot0.OnGetAchvAwardDone = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

@@ -116,6 +116,8 @@ slot0.SetUp = function(slot0, slot1, slot2)
 				type = slot3[1],
 				id = slot3[2],
 				count = slot3[3]
+			}, {
+				style = "island"
 			})
 			table.insert(uv1.itemsCountTFs, slot2:Find("icon_bg/count_bg/count"))
 		end

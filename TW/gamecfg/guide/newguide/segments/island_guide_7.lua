@@ -8,9 +8,9 @@ return {
 				text = "点击打开等待交付的岛屿订单",
 				mode = 2,
 				char = 1,
-				posY = 0,
+				posY = -300,
 				dir = -1,
-				posX = 0,
+				posX = 300,
 				uiset = {
 					{
 						pathIndex = -1,
@@ -27,9 +27,9 @@ return {
 				text = "交付订单所需资材后，就能获得下方的订单奖励",
 				mode = 2,
 				char = 1,
-				posY = 0,
+				posY = -220,
 				dir = 1,
-				posX = 0,
+				posX = 110,
 				uiset = {
 					{
 						pathIndex = -1,
@@ -51,9 +51,9 @@ return {
 				text = "如果觉得订单交付困难，可以点击驳回按钮，重新接取新订单。",
 				mode = 2,
 				char = 1,
-				posY = 0,
+				posY = -330,
 				dir = 1,
-				posX = 0,
+				posX = 110,
 				uiset = {
 					{
 						pathIndex = -1,
@@ -70,9 +70,9 @@ return {
 				text = "点击按钮交付订单",
 				mode = 2,
 				char = 1,
-				posY = 0,
+				posY = -290,
 				dir = 1,
-				posX = 0,
+				posX = 500,
 				uiset = {
 					{
 						pathIndex = -1,
@@ -103,14 +103,18 @@ return {
 				text = "点击关闭订单",
 				mode = 2,
 				char = 1,
-				posY = -350,
+				posY = -365,
 				dir = 1,
-				posX = 350,
+				posX = -350,
 				uiset = {}
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIOverlay/IslandAwardDisplayConatiner(Clone)"
+				path = "OverlayCamera/Overlay/UIOverlay/IslandAwardDisplayConatiner(Clone)",
+				fingerPos = {
+					posY = -360,
+					posX = 100
+				}
 			}
 		},
 		{

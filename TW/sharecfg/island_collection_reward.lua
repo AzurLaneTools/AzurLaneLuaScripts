@@ -80,7 +80,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 60,
-		describe = "累计获得60收集点：指挥官皮肤（线条装）",
+		describe = "累计获得60收集点：指挥官装扮-线条人套装",
 		id = 3,
 		level = 3,
 		award_display = {
@@ -91,7 +91,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 80,
-		describe = "累计获得80收集点：单人互动动作-叉腰",
+		describe = "累计获得80收集点：互动动作-叉腰",
 		id = 4,
 		level = 4,
 		award_display = {
@@ -102,7 +102,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 100,
-		describe = "累计获得100收集点：丰壤农田 委派效率提高 4%",
+		describe = "累计获得100收集点：丰壤农田委派效率提高 4%",
 		id = 5,
 		level = 5,
 		award_display = {
@@ -135,7 +135,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 250,
-		describe = "累计获得250收集点：林中小屋（升级版）",
+		describe = "累计获得250收集点：林间居所",
 		id = 8,
 		level = 8,
 		award_display = {
@@ -146,7 +146,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 300,
-		describe = "累计获得300收集点：角色散件-热气球-漂浮物",
+		describe = "累计获得300收集点：角色漂浮物-微风气球",
 		id = 9,
 		level = 9,
 		award_display = {
@@ -157,7 +157,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 350,
-		describe = "累计获得350收集点：坠香果园 委派效率提高 4%",
+		describe = "累计获得350收集点：坠香果园委派效率提高 4%",
 		id = 10,
 		level = 10,
 		award_display = {
@@ -190,7 +190,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 500,
-		describe = "累计获得500收集点：{namecode:18}岛屿权限认证函",
+		describe = "累计获得500收集点：{namecode:18:岛风}岛屿权限认证函",
 		id = 13,
 		level = 13,
 		award_display = {
@@ -201,7 +201,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 550,
-		describe = "累计获得550收集点：角色散件-学院书包-背饰",
+		describe = "累计获得550收集点：角色背饰-学院背包",
 		id = 14,
 		level = 14,
 		award_display = {
@@ -212,7 +212,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 600,
-		describe = "累计获得600收集点：青芽苗圃 委派效率提高 4%",
+		describe = "累计获得600收集点：青芽苗圃委派效率提高 4%",
 		id = 15,
 		level = 15,
 		award_display = {
@@ -245,7 +245,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 750,
-		describe = "累计获得750收集点：单人互动动作-鞠躬",
+		describe = "累计获得750收集点：互动动作-鞠躬",
 		id = 18,
 		level = 18,
 		award_display = {
@@ -256,7 +256,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 800,
-		describe = "累计获得800收集点：角色散件-鸡脚-脚印",
+		describe = "累计获得800收集点：角色脚印-叽爪咔哇",
 		id = 19,
 		level = 19,
 		award_display = {
@@ -267,7 +267,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 850,
-		describe = "累计获得850收集点：丰壤农田 委派效率提高 8%",
+		describe = "累计获得850收集点：丰壤农田委派效率提高 8%",
 		id = 20,
 		level = 20,
 		award_display = {
@@ -300,7 +300,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 1000,
-		describe = "累计获得1000收集点：单人互动动作-跺脚",
+		describe = "累计获得1000收集点：互动动作-跺脚",
 		id = 23,
 		level = 23,
 		award_display = {
@@ -311,7 +311,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 1100,
-		describe = "累计获得1100收集点：熊熊候车站*4",
+		describe = "累计获得1100收集点：熊熊候车亭*4",
 		id = 24,
 		level = 24,
 		award_display = {
@@ -322,7 +322,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 1200,
-		describe = "累计获得1200收集点：坠香果园 委派效率提高 8%",
+		describe = "累计获得1200收集点：坠香果园委派效率提高 8%",
 		id = 25,
 		level = 25,
 		award_display = {
@@ -366,7 +366,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 1600,
-		describe = "累计获得1600收集点：熊熊玩偶*2",
+		describe = "累计获得1600收集点：毛绒熊偶*2",
 		id = 29,
 		level = 29,
 		award_display = {
@@ -377,7 +377,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 1700,
-		describe = "累计获得1700收集点：青芽苗圃 委派效率提高 8%",
+		describe = "累计获得1700收集点：青芽苗圃委派效率提高 8%",
 		id = 30,
 		level = 30,
 		award_display = {
@@ -421,7 +421,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 2200,
-		describe = "累计获得2200收集点：熊熊玩偶*3",
+		describe = "累计获得2200收集点：毛绒熊偶*3",
 		id = 34,
 		level = 34,
 		award_display = {
@@ -476,7 +476,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 3200,
-		describe = "累计获得3200收集点：小木屋*1",
+		describe = "累计获得3200收集点：林中小屋*1",
 		id = 39,
 		level = 39,
 		award_display = {
@@ -520,7 +520,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 4000,
-		describe = "累计获得4000收集点：限量纪念币*1",
+		describe = "累计获得4000收集点：高级礼物*1",
 		id = 43,
 		level = 43,
 		award_display = {
@@ -531,7 +531,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 4200,
-		describe = "累计获得4200收集点：小木屋*1",
+		describe = "累计获得4200收集点：林中小屋*1",
 		id = 44,
 		level = 44,
 		award_display = {
@@ -586,7 +586,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 5500,
-		describe = "累计获得5500收集点：小木屋*1",
+		describe = "累计获得5500收集点：林中小屋*1",
 		id = 49,
 		level = 49,
 		award_display = {

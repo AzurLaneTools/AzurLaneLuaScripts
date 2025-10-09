@@ -1,5 +1,12 @@
 return {
 	{
+		type = 6,
+		unitIdList = {
+			10040045,
+			10040060
+		}
+	},
+	{
 		index = "ISLAND_STORYNPC_PATH_1",
 		type = 5
 	},

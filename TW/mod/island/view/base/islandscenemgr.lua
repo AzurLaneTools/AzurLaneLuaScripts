@@ -309,7 +309,9 @@ slot0.OnBackPressed = function(slot0)
 	end
 
 	for slot4 = #slot0.pages, 1, -1 do
-		slot0:ClosePage(slot0.pages[slot4].class)
+		if slot0.pages[slot4]:CanEsc() then
+			slot0:ClosePage(slot5.class)
+		end
 
 		return true
 	end

@@ -11,6 +11,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.lineTF = slot2:Find("line")
 	slot2 = slot0._tf
 	slot0.lockTF = slot2:Find("lock")
+	slot3 = slot0.lockTF
+
+	setText(slot3:Find("Image/tip/Text"), i18n("island_tech_lock"))
+
 	slot2 = slot0._tf
 	slot2 = slot2:Find("items_view/content")
 	slot0.uiList = UIItemList.New(slot2, slot2:Find("tpl"))

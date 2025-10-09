@@ -56,7 +56,7 @@ return {
 			sequence = {
 				{
 					"<size=45>一段时间后……</size>",
-					1
+					2
 				}
 			}
 		},

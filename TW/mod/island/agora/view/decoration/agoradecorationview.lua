@@ -692,6 +692,9 @@ slot0.RemoveSaveCdTimer = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+	ClearLScrollrect(slot0.scrollRect4Theme)
+
 	if slot0.dftAniEvent then
 		slot0.dftAniEvent:SetEndEvent(nil)
 	end

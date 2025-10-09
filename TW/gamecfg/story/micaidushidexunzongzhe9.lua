@@ -41,7 +41,7 @@ return {
 					0.5
 				},
 				{
-					"<size=45>Scene：商业街居酒屋</size>",
+					"<size=45>Scene：商業街居酒屋</size>",
 					1
 				},
 				{
@@ -53,15 +53,15 @@ return {
 					2
 				},
 				{
-					"<size=45>离开了教室后，你在脑海中盘算着接下来的行动，不知不觉间来到了一家居酒屋。</size>",
+					"離開了教室後，你在腦海中盤算著接下來的行動，不知不覺地來到了一家居酒屋。",
 					2.5
 				},
 				{
-					"<size=45>一日的忙碌让你的肚子在此时发出了有声的抗议。</size>",
+					"一日的忙碌讓你的肚子在此時發出了有聲的抗議。",
 					3
 				},
 				{
-					"<size=45>于是，你准备进入居酒屋中吃顿便饭……</size>",
+					"於是，你準備進入居酒屋吃頓便飯……",
 					3.5
 				}
 			}
@@ -69,14 +69,14 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			bgName = "star_level_bg_160",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
 			bgm = "story-nonightcity",
-			say = "（来居酒屋吃饭么……终于等到拍吃饭的场景了。）",
+			say = "（來居酒屋吃飯嗎……終於等到拍吃飯的場景了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			},
 			options = {
 				{
-					content = "必须要点菜了！",
+					content = "必須要點菜了！",
 					flag = 1
 				},
 				{
-					content = "还是算了……",
+					content = "還是算了……",
 					flag = 2
 				}
 			}
@@ -113,13 +113,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "老板，我想吃炸鸡汉堡、海军咖喱、烤香肠、烤猪肘、罗宋汤、红酒焗蜗牛、仰望星空派、玛格丽特披萨，以及满汉全席！",
+			say = "老闆，我想吃炸雞漢堡、海軍咖哩、烤香腸、烤豬肘、羅宋湯、紅酒焗蝸牛、仰望星空派、瑪格麗特披薩，以及滿漢全席！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
-			actorName = "剧中旁白",
-			say = "你一走进店内，就一口气点了一连串居酒屋菜单上没有的菜。",
+			actorName = "劇中旁白",
+			say = "你一走進店內，一口氣點了一連串居酒屋菜單上沒有的菜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,8 +166,8 @@ return {
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
-			actorName = "剧中旁白",
-			say = "这一举动不但没有引起老板的注意，反而引来了一位熟人的目光。",
+			actorName = "劇中旁白",
+			say = "這一舉動不但沒有引起老闆的注意，反而引來了一位熟人的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,10 +177,10 @@ return {
 			actor = 607022,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……？顾问啊……？",
+			say = "唔……？顧問啊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "……刚加班结束么？",
+			say = "……剛加班結束嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,22 +204,22 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "你来得正好……一起来喝一杯吧~！",
+			say = "你來得正好……一起來喝一杯吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "帝国警视长，你是卧底吗？",
+					content = "帝國警視長，妳是臥底嗎？",
 					flag = 1
 				},
 				{
-					content = "（顺着剧本情景继续演下去……）",
+					content = "（順著劇本情景繼續演下去……）",
 					flag = 2
 				}
 			}
@@ -228,12 +228,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "……卧底？对哦……伟大的帝国警视长就是卧底~！",
+			say = "……臥底？對哦……偉大的帝國警視長就是臥底~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "快逮捕我吧……工作好累啊……我实在是不想工作了……",
+			say = "快逮捕我吧……工作好累……我實在是不想工作了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			portrait = "zhihuiguan",
@@ -275,12 +275,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "唔……好像也是……那还是别逮捕伟大的帝国警视长了……",
+			say = "嗯……好像也是……那還是別逮捕偉大的帝國警視長了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,12 +290,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "一起来喝酒吃烤串吧~！",
+			say = "一起來喝酒吃烤串吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,14 +305,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "是啊……刚加班结束。",
+			say = "是啊……剛加班結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,14 +322,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "最近的事情真是越来越多，越来越累了……",
+			say = "最近的事情真是越來越多，越來越累了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,14 +339,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "帝国警视长呢？也是么？",
+			say = "帝國警視長呢？也是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,12 +356,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼……考勤状态里应该算是在加班中吧~",
+			say = "呼呼呼……考勤狀態裡應該算是在加班中吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,12 +371,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "虽然伟大的帝国警视长此时此刻正在进行战略休息呢……",
+			say = "雖然偉大的帝國警視長此時此刻正在進行戰略休息呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,12 +386,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "咕咚咕咚——啊——有点轻飘飘的感觉了……",
+			say = "咕咚咕咚——啊——有點輕飄飄的感覺了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,12 +401,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "顾问啊……你说，每天上班已经很辛苦了……为什么还要加班……",
+			say = "顧問啊……你說，每天上班已經很辛苦了……為什麼還要加班……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,23 +416,23 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "为什么还要加班啊……",
+			say = "為什麼還要加班啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "因为我喜欢工作！",
+					content = "因為我喜歡工作！",
 					flag = 3
 				},
 				{
-					content = "不论怎样都不应该加班！",
+					content = "不論怎樣都不該加班！",
 					flag = 4
 				}
 			}
@@ -441,12 +441,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "那你是真厉害……",
+			say = "那你是真厲害……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,12 +456,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "伟大的帝国警视长敬你一杯——干杯~！",
+			say = "偉大的帝國警視長敬你一杯——乾杯~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,12 +471,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "欸……听我一句劝，特别顾问。",
+			say = "欸……聽我一句勸，特別顧問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作这种事……差不多就可以了……",
+			say = "工作這種事……差不多就可以了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,12 +501,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "身体是自己的，生活也是自己的……",
+			say = "身體是自己的，生活也是自己的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,12 +516,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作结束之后的生活……才是真正的生活呢……",
+			say = "工作結束後的生活……才是真正的生活呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,12 +531,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "在疲劳的工作结束之后，来阿卡西居酒屋吧。",
+			say = "在疲勞的工作結束後，來阿卡西居酒屋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,12 +546,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "说得对……没错！干杯~！",
+			say = "說得對……沒錯！乾杯~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,12 +561,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "欸……听我一句劝，特别顾问。",
+			say = "欸……聽我一句勸，特別顧問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,12 +576,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作这种事……差不多就可以了……",
+			say = "工作這種事……差不多就可以了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,12 +591,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "身体是自己的，生活也是自己的……",
+			say = "身體是自己的，生活也是自己的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,12 +606,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作结束之后的生活……才是真正的生活呢……",
+			say = "工作結束後的生活……才是真正的生活呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,12 +621,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "在疲劳的工作结束之后，来阿卡西居酒屋吧。",
+			say = "在疲勞的工作結束後，來阿卡西居酒屋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,11 +636,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "跟你说哦……这家阿卡西居酒屋的啤酒，由特推阿卡西啤酒工坊采用72小时阶梯式降温发酵工艺精心酿造而成。",
+			say = "跟你說喔……這家阿卡西居酒屋的啤酒，由特推阿卡西啤酒工坊採用72小時階梯式降溫發酵工藝精心釀造而成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,11 +650,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "啤酒呈现出如琥珀般的色泽与香槟级的绵密泡沫……",
+			say = "啤酒呈現出如琥珀般的色澤與香檳級的綿密泡沫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,11 +664,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "搭配上同样由阿卡西集团所属阿卡西生态农场供应的精选肉串，以传统工艺——",
+			say = "搭配上同樣由阿卡西集團所屬阿卡西生態農場供應的精選肉串，以傳統工藝——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,13 +678,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "帝国……绿头猫咪给了你多少钱让你念广告？",
+			say = "帝國……綠頭貓咪給了妳多少錢讓妳念廣告？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
@@ -708,13 +708,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "没事了……那我先回家了，帝国警视长。",
+			say = "沒事了……那我先回家了，帝國警視長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,13 +724,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			portrait = "zhihuiguan",
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "你也别喝太多，回家的时候注意安全。",
+			say = "妳也別喝太多，回家的時候要注意安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
@@ -754,11 +754,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "特别顾问……抓卧底……加油zZZZ",
+			say = "特別顧問……抓臥底……加油zZZZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,8 +768,8 @@ return {
 			portrait = 312013,
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:98:明石}",
-			factiontag = "导演",
+			actorName = "明石",
+			factiontag = "導演",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "喵呼呼~！CUT~喵！",

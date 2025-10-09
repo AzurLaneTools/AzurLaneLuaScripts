@@ -2919,6 +2919,41 @@ pg.name_code = {
 		code = "小埃吉爾",
 		nation = 0
 	},
+	[545] = {
+		name = "U-552",
+		type = 1,
+		id = 545,
+		code = "U-552",
+		nation = 0
+	},
+	[546] = {
+		name = "曾克爾將軍",
+		type = 1,
+		id = 546,
+		code = "曾克爾",
+		nation = 0
+	},
+	[547] = {
+		name = "曾克爾",
+		type = 1,
+		id = 547,
+		code = "曾克爾",
+		nation = 0
+	},
+	[548] = {
+		name = "U552",
+		type = 1,
+		id = 548,
+		code = "U-552",
+		nation = 0
+	},
+	[549] = {
+		name = "U37",
+		type = 1,
+		id = 549,
+		code = "U-37",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戰五二型",
 		type = 2,

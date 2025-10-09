@@ -1,27 +1,18 @@
 return {
-	mode = 10,
 	id = "ISLAND1001021_1",
+	mode = 10,
 	map = {
 		{
 			3120100,
 			10020013
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
 			say = "{namecode:98:明石}，怎么样，你找到那本生活经验指南了？",
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			camera = "StoryCamera7",
 			face2Face = {
 				{
 					0,

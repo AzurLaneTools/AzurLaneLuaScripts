@@ -30,8 +30,7 @@ end
 
 slot0._listNotificationInterests = function(slot0)
 	return {
-		GAME.ISLAND_EXIT_SHARED_DONE,
-		GAME.ISLAND_SELECT_GIFT_DONE
+		GAME.ISLAND_EXIT_SHARED_DONE
 	}
 end
 
@@ -40,8 +39,6 @@ slot0._handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == GAME.ISLAND_EXIT_SHARED_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_HOME)
-	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
-		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
 	end
 end
 

@@ -29,6 +29,8 @@ slot0.FirstFlush = function(slot0)
 	slot0.lookParent = slot0.opPanel.parent
 	slot1 = slot0.opPanel
 	slot0.moveBtn = slot1:Find("move")
+	slot1 = slot0.opPanel
+	slot0.lookBtn = slot1:Find("look")
 	slot0.moveBtnCg = GetOrAddComponent(slot0.moveBtn, typeof(CanvasGroup))
 
 	slot0.scrollrect.onInitItem = function(slot0)
@@ -85,10 +87,16 @@ slot0.SwitchPage = function(slot0, slot1)
 
 	if slot1 == uv0 then
 		slot0:InitList()
+
+		slot0.lookBtn.offsetMax = Vector2(-594, slot0.lookBtn.offsetMax.y)
 	elseif slot1 == uv1 then
 		slot0:InitList()
+
+		slot0.lookBtn.offsetMax = Vector2(-594, slot0.lookBtn.offsetMax.y)
 	elseif slot1 == uv2 then
 		slot0.chatView:Execute("Show", true)
+
+		slot0.lookBtn.offsetMax = Vector2(-985, slot0.lookBtn.offsetMax.y)
 	end
 end
 
@@ -199,6 +207,7 @@ slot0.InitList = function(slot0)
 	end
 
 	slot0.displays = slot3
+	slot0.scrollrect.enabled = true
 
 	slot0.scrollrect:SetTotalCount(#slot3, 0)
 
@@ -403,6 +412,7 @@ end
 
 slot0.OnDispose = function(slot0)
 	uv0.super.OnDispose(slot0)
+	ClearLScrollrect(slot0.scrollrect)
 	slot0.chatView:Dispose()
 
 	slot0.chatView = nil

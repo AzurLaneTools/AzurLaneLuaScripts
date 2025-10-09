@@ -142,4 +142,99 @@ slot0.OnActionEnd = function(slot0)
 	uv0.UpdateClientTaskProgress(IslandTaskTargetType.ACTION_END, 0)
 end
 
+slot0._GetTaskAcceptStoryId = function(slot0)
+	return pg.NewStoryMgr.GetInstance():StoryName2StoryId(pg.island_task[slot0].rec_perform)
+end
+
+slot0._GetTaskTargetLinkStoryIds = function(slot0)
+	if pg.island_task_target[slot0].type ~= IslandTaskTargetType.INTERACTION then
+		return nil
+	end
+
+	if pg.island_interaction[pg.island_task_target[slot0].target_param[1]].type == IslandInteractionUntil.TYPE_STORY then
+		return pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot3.param) and {
+			slot4
+		} or nil
+	elseif slot3.type == IslandInteractionUntil.TYPE_PERFORMANCE then
+		return IslandPerformancePerformer.GetStoryNameList(slot3.param)
+	end
+
+	return nil
+end
+
+slot0._GetTaskSubmitStoryIds = function(slot0)
+	if not pg.island_task[slot0].com_perform[1] then
+		return nil
+	end
+
+	slot3 = slot1[2]
+
+	if slot2 == 1 then
+		return pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot3) and {
+			slot4
+		} or nil
+	elseif slot2 == 2 then
+		return IslandPerformancePerformer.GetStoryNameList(slot3)
+	end
+
+	return nil
+end
+
+slot0._GetTaskLinkStoryIds = function(slot0)
+	slot1 = {}
+
+	if uv0._GetTaskAcceptStoryId(slot0.id) then
+		table.insert(slot1, slot2)
+	end
+
+	for slot6, slot7 in ipairs(slot0:GetTargetList()) do
+		if slot7:IsFinish() and uv0._GetTaskTargetLinkStoryIds(slot7.id) then
+			table.insertto(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
+slot0._GetFinishTaskLinkStoryIds = function(slot0)
+	slot1 = {}
+
+	if uv0._GetTaskAcceptStoryId(slot0) then
+		table.insert(slot1, slot2)
+	end
+
+	for slot6, slot7 in ipairs(pg.island_task[slot0].target_id) do
+		if uv0._GetTaskTargetLinkStoryIds(slot7) then
+			table.insertto(slot1, slot8)
+		end
+	end
+
+	if uv0._GetTaskSubmitStoryIds(slot0) then
+		table.insertto(slot1, slot3)
+	end
+
+	return slot1
+end
+
+slot0.FixTaskLinksStory = function(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTasks()) do
+		table.insertto(slot2, uv0._GetTaskLinkStoryIds(slot7))
+	end
+
+	for slot6, slot7 in ipairs(slot1:GetFinishedIds()) do
+		table.insertto(slot2, uv0._GetFinishTaskLinkStoryIds(slot7))
+	end
+
+	if #slot2 > 0 then
+		pg.m02:sendNotification(GAME.STORY_UPDATE_LIST, {
+			storyIds = slot2,
+			callback = slot0
+		})
+	else
+		slot0()
+	end
+end
+
 return slot0

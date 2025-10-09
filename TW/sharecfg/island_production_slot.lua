@@ -1796,7 +1796,7 @@ pg.island_production_slot = {
 	},
 	[9032] = {
 		exclusion_slot = "",
-		unlock_type = 0,
+		unlock_type = 1,
 		type = 3,
 		place = 102,
 		id = 9032,
@@ -1818,7 +1818,7 @@ pg.island_production_slot = {
 	},
 	[9033] = {
 		exclusion_slot = "",
-		unlock_type = 0,
+		unlock_type = 1,
 		type = 3,
 		place = 102,
 		id = 9033,
@@ -1840,7 +1840,7 @@ pg.island_production_slot = {
 	},
 	[9034] = {
 		exclusion_slot = "",
-		unlock_type = 0,
+		unlock_type = 1,
 		type = 3,
 		place = 102,
 		id = 9034,

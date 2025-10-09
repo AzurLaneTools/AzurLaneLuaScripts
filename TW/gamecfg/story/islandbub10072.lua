@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "这会儿都没人，偷下懒也不要紧吧？",
+			say = "刚才树丛好像动了？不……应该是看错了……",
 			hideType = 2,
 			characterId = 100700,
 			animation = "slack"

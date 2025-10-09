@@ -40,6 +40,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.energyTF = slot0:findTF("energy", slot0.energyTFInfo)
 	slot0.statusTF = slot0:findTF("status", slot0.infoPanel)
 	slot0.sureBtn = slot0:findTF("sure")
+
+	setText(slot0.sureBtn:Find("Text"), i18n("island_shipselect_confirm"))
+
 	slot0.indexBtn = slot0._tf:Find("frame/filter_panel/IndexIco")
 	slot0.orderBtn = slot0._tf:Find("frame/filter_panel/index")
 	slot0.orderIco = slot0._tf:Find("frame/filter_panel/index/content/icon/icon")
@@ -58,6 +61,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.shipEmpty = slot0.frameTF:Find("empShip")
 
 	setText(slot0.shipEmpty:Find("Text"), i18n("island_production_selected_tip2"))
+	setText(slot0.recoveryTimeTips, i18n("island_ship_energy_recoverytips"))
 end
 
 slot0.OnInit = function(slot0)
@@ -428,11 +432,16 @@ slot0.GetShips = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.shipRectCom)
 	slot0:StopTimer()
 end
 
 slot0.OnHide = function(slot0)
 	slot0:UnBlurPanel()
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
 end
 
 return slot0

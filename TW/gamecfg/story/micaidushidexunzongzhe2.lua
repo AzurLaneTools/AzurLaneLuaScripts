@@ -37,11 +37,11 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>Chapter-1-爆炸疑云</size>",
+					"<size=45>Chapter-1-爆炸疑雲</size>",
 					0.5
 				},
 				{
-					"<size=45>Scene：警视厅会议室</size>",
+					"<size=45>Scene：警視廳會議室</size>",
 					1
 				},
 				{
@@ -53,11 +53,11 @@ return {
 					2
 				},
 				{
-					"<size=45>作为高层派遣的特别顾问，你受命调查警视厅内可能存在的犯罪组织卧底。</size>",
+					"身為高層派遣的特別顧問，你受命調查警視廳內可能存在的犯罪組織臥底。",
 					2.5
 				},
 				{
-					"<size=45>在警视总监的授意下，你以安全审查的名义，将可疑对象都叫到了会议室。</size>",
+					"在警視總監的授意下，你以安全審查的名義，將可疑對象都叫到了會議室。",
 					3
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			actor = 399040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准备好了么，警视厅新来的顾问~",
+			say = "準備好了嗎，警視廳新來的顧問~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,11 +98,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是……{namecode:165:吾妻}？怎么会在这里。",
+			say = "妳是……吾妻？怎麼會在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 399040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要叫{namecode:165:吾妻}老师才对哦~",
+			say = "要叫吾妻老師才對哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 399040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听警视长说自己的学生回来了呢~怎么，不想见到老师我吗？",
+			say = "我聽警視長說我的學生回來了呢～怎麼，不想見到老師我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,11 +141,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（嗯……已经开始对戏了么。）",
+			say = "（嗯……已經開始對戲了嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有的事，还能再见到{namecode:165:吾妻}老师，我很高兴！",
+			say = "沒有的事，還能再見到吾妻老師，我很高興！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 399040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦~快进去吧，她们还在等你呢，老师就不耽误你的工作了~",
+			say = "好啦~快進去吧，她們還在等你呢，老師就不耽誤你的工作了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,10 +199,10 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看着{namecode:165:吾妻}老师肯定的微笑，定了定心神，走入了会议室中。",
+			say = "你看著吾妻老師肯定的微笑，定了定心神，走入了會議室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,11 +212,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……这么生硬的剧情推进方式？！）",
+			say = "（……這麼生硬的劇情推進方式？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,11 +226,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（也行……有提示总比没有好。）",
+			say = "（也行……有提示總比沒有好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,12 +239,12 @@ return {
 		{
 			portrait = 401022,
 			side = 2,
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你一走进会议室，就立刻被六双眼睛紧紧盯住了。",
+			say = "你一走進會議室，就立刻被六雙眼睛緊緊盯住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,10 +272,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们分别是刑事部，帝国警视长。零课，{namecode:546:曾克海军上将}警部。零课，{namecode:545:U-552}警部补。",
+			say = "她們分別是刑事部，帝國警視長。零課，曾克爾將軍警部。零課，U-552警部補。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,10 +286,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "搜查一课，海王星警部。搜查二课，{namecode:498:Z13}警部补。交通执行课，{namecode:474:U-37}巡查部长。",
+			say = "搜查一課，海王星警部。搜查二課，Z13警部補。交通執行課，U-37巡查部長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +299,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（谢谢你，旁白侠。）",
+			say = "（謝謝你，旁白俠。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……本部高层收到密信，警视厅里可能存在着国际犯罪组织的卧底。",
+			say = "咳……本部高層收到密信，警視廳裡可能存在國際犯罪組織的臥底。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,11 +327,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位——有什么想说的么？",
+			say = "諸位——有什麼想說的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,12 +340,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？把大家都叫出来就是为了这种事啊？",
+			say = "哈？把大家都叫出來就是為了這種事啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,12 +355,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "交通执行课 巡查部长",
+			factiontag = "交通執行課 巡查部長",
 			dir = 1,
 			actor = 408100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "信里说是就是么，那我还说警视总监才是卧底呢！",
+			say = "信裡說是就是嗎，那我還說警視總監才是臥底呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,12 +370,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "零课 警部",
+			factiontag = "零課 警部",
 			dir = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有道理，连零课都不知道的密信……很可疑呢~",
+			say = "有道理，連零科都不知道的密信……很可疑呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,12 +384,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说的是啊~人事一课监察系应该对我们的资料都有详细记录吧，特别顾问不应该先去那边看看吗？",
+			say = "說的是啊~人事一課監察系應該對我們的資料都有詳細紀錄吧，特別顧問不應該先去那邊看看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,11 +399,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（监察系的资料么……倒确实如此，现在最缺少的就是资料了……）",
+			say = "（監察系的資料嗎……倒確實如此，現在最缺少的就是資料了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,11 +413,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人事一课监察系的资料都存放在什么地方？",
+			say = "人事一課監察系的資料都存放在什麼地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,12 +426,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "搜查一课 警部",
+			factiontag = "搜查一課 警部",
 			dir = 1,
 			actor = 299010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……监察档案啊，我记得是放在旁边那栋档案馆里的吧？",
+			say = "嗯……監察檔案啊，我記得是放在旁邊那棟檔案館裡的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "BOOM——",
@@ -461,10 +461,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海王星警部的话音刚落，大楼外不远处的档案馆就在猛烈的爆炸声中化为了废墟。",
+			say = "海王星警部的話音剛落，大樓外不遠處的檔案館就在猛烈的爆炸聲中化為了廢墟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,10 +475,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_310",
 			factiontag = "旁白",
-			actorName = "剧中旁白",
+			actorName = "劇中旁白",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烈火熊熊燃烧，刺耳的警报也在整个警视厅里回响着。",
+			say = "烈火熊熊燃燒，刺耳的警報也在整個警視廳迴響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,12 +488,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊——档案馆……爆开了？！！",
+			say = "啊——檔案館……爆開了？！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,12 +503,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "刑事部 警视长",
+			factiontag = "刑事部 警視長",
 			dir = 1,
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家都集中在这里了……果然，卧底另有其人呢。",
+			say = "大家都集中在這裡了……果然，臥底另有其人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,12 +517,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "零课 警部补",
+			factiontag = "零課 警部補",
 			dir = 1,
 			actor = 408140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "火势看起来不大，现在过去也许还能剩点什么……唉，好麻烦啊……",
+			say = "火勢看起來不大，現在過去也許還能剩點什麼……唉，好麻煩啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,12 +532,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "零课 警部",
+			factiontag = "零課 警部",
 			dir = 1,
 			actor = 404070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然敢在警局制造爆炸案……简直无法无天！",
+			say = "居然敢在警局製造爆炸案……簡直無法無天！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,11 +547,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这爆炸可真巧啊。",
+			say = "……這爆炸可真是巧啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,11 +561,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先散会吧，我要去现场看看。",
+			say = "先散會吧，我要去現場看看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,12 +574,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_310",
-			factiontag = "搜查一课 警部",
+			factiontag = "搜查一課 警部",
 			dir = 1,
 			actor = 299010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸，顾问等等，我叫上搜查一课的人一起去呀~！",
+			say = "欸，顧問等等，我叫上搜索一課的人一起去呀~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,9 +588,9 @@ return {
 		{
 			portrait = 312013,
 			side = 2,
-			factiontag = "导演",
+			factiontag = "導演 ",
 			dir = 1,
-			actorName = "{namecode:98:明石}",
+			actorName = "明石",
 			nameColor = "#A9F548FF",
 			bgName = "bg_spycity_2",
 			hidePaintObj = true,

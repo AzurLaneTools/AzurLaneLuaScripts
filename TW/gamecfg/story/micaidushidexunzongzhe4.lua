@@ -37,11 +37,11 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>Chapter-3-战略性约会进行时</size>",
+					"<size=45>Chapter-3-策略性約會進行時</size>",
 					0.5
 				},
 				{
-					"<size=45>Scene：警视厅办公室</size>",
+					"<size=45>Scene：警視廳辦公室</size>",
 					1
 				},
 				{
@@ -53,29 +53,29 @@ return {
 					2
 				},
 				{
-					"<size=45>你已经认定此次爆炸案与卧底有关，但却苦于没有任何线索。</size>",
+					"你已經認定這起爆炸案與臥底有關，但卻苦於沒有任何線索。",
 					2.5
 				},
 				{
-					"<size=45>终于，细心的你发现，近期的监控似乎都有细微地被删改过的痕迹，时间轴混乱。</size>",
+					"終於，細心的你發現，近期的監控似乎都有細微被刪改過的痕跡，時間軸混亂。",
 					3
 				},
 				{
-					"<size=45>为此，你找到了警视厅内经常接触监控的{namecode:498:Z13}警部补……</size>",
+					"為此，你找到了警視廳內經常接觸監控的Z13警部補……",
 					3.5
 				}
 			}
 		},
 		{
 			side = 2,
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			bgName = "star_level_bg_169",
 			bgm = "story-spycity-fashion",
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "哎呀，这不是顾问吗？不会是来视察工作的吧？",
+			say = "哎呀，這不是顧問嗎？不會是來視察工作的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "先说明，我可没有在偷懒，我这叫战略性休息~",
+			say = "先說明，我可沒有在偷懶，我這叫戰略性休息~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,13 +117,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "休息……是指开着电脑玩游戏？",
+			say = "休息……是指開著電腦玩遊戲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,13 +133,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "该不会你在港区平时办公的时候也……",
+			say = "該不會妳在港區平時辦公的時候也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,12 +149,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咳……港区是什么？顾问怎么一来就在说奇怪的话！",
+			say = "咳……港區是什麼？顧問怎麼一來就在說奇怪的話！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "顾问难道不懂“劳逸结合”的道理？",
+			say = "顧問難道不懂「勞逸結合」的道理？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,12 +179,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "快来坐下一起玩……咳、我是说，一起休息一会儿吧~！",
+			say = "快來坐下一起玩……咳、我是說，一起休息一下吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这可是伟大的帝国警视长允许过的哦~",
+			say = "這可是偉大的帝國警視長允許過的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,13 +208,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……你们的警视长居然还能允许这种事？",
+			say = "……妳們的警視長居然還能允許這種事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,12 +224,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "当然啦~我们伟大的帝国警视长还经常在工作时间亲自前往居酒屋战略性休息呢~",
+			say = "當然啦~我們偉大的帝國警視長還經常在工作時間親自前往居酒屋戰略性休息呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,14 +239,14 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "真是看不出来……不对，真是显而易见的展开。",
+			say = "真是看不出來……不對，真是顯而易見的展開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "对吧？所以，顾问在工作时间来找我……难道说……是想和我来一场战略性约会？",
+			say = "對吧？所以，顧問在工作時間來找我……難道說……是想跟我來一場策略性約會？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,25 +271,25 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（……应该直球突破还是，继续迂回一下呢。）",
+			say = "（……應該直球突破還是，繼續迂迴一下呢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:498:Z13}警部补，你是卧底吗？",
+					content = "Z13警部補，妳是臥底嗎？",
 					flag = 1
 				},
 				{
-					content = "（顺着剧本情景继续演下去……）",
+					content = "（順著劇本情景繼續演下去……）",
 					flag = 2
 				}
 			}
@@ -298,13 +298,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "哎呀，顾问，可不能随便说些没有根据的话哦~这是很严重的指控呢~",
+			say = "哎呀，顧問，可不能隨便說些沒有根據的話哦~這是很嚴重的指控呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -322,7 +322,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那你是怎么知道帝国警视长在工作时间亲自前往居酒屋……战略休息的呢？",
+			say = "那妳是怎麼知道帝國警視長在工作時間親自前往居酒屋……戰略休息的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -340,7 +340,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "是从监控器里看到的吧。",
+			say = "是從監視器裡看到的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -358,7 +358,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果一个人一直用监控器盯着监察人员，那她不是卧底是什么？",
+			say = "如果一個人一直用監視器盯著監察人員，那她不是臥底是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,13 +368,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "也可以是认真工作的好警员啊！",
+			say = "也可以是認真工作的好警員啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,14 +384,14 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "认真工作……么？",
+			say = "認真工作……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,14 +401,14 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那你知道警视厅的监控录像被人为修改过么？",
+			say = "那妳知道警視廳的監視器畫面被人為修改過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,13 +418,13 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咦？！居然还有这种事？！",
+			say = "咦？！居然還有這種事？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -442,7 +442,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……是你删改的么？",
+			say = "……是妳刪改的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,13 +452,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "太复杂了，物理意义上不会啊！",
+			say = "太複雜了，物理意義上不會啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -476,7 +476,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……那查出是谁改过你总会吧？",
+			say = "……那要查出是誰改過妳總會吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,13 +486,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呃……也不会哦！",
+			say = "呃……也不會哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,13 +501,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "人家只会看监控嘛……所以把每一个画面都看得很仔细！",
+			say = "人家只會看監視嘛……所以把每個畫面都看得很仔細！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,13 +517,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "只是发生爆炸的时候，顾问你也知道……人家被叫去开会了嘛……",
+			say = "只是發生爆炸的時候，顧問你也知道……人家被叫去開會了嘛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			actorName = "{playername}",
@@ -541,7 +541,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……没事了，你把那天的监控调出来，我们一起再检查一遍吧。",
+			say = "……沒事了，妳把那天的監控調出來，我們一起再檢查一次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,13 +551,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 1,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸……怎么调出来……来着？",
+			say = "欸……怎麼調出來……來著？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,14 +567,14 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好啊，那么作为约会的一环，能把加密数据盘打开我看看么？",
+			say = "好啊，那麼作為約會的一環，能把加密硬碟打開我看看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,13 +584,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸~什么样的约会还要先看加密数据盘呀~",
+			say = "欸~什麼樣的約會還要先看加密硬碟呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -608,7 +608,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "“战略性约会”？",
+			say = "「策略性約會」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,13 +618,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "欸~讨厌啦~",
+			say = "欸~討厭啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,13 +634,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咦？顾问你要亲自来操作电脑吗？不过这附近也没有空椅子……",
+			say = "咦？顧問你要親自來操作電腦嗎？不過這附近也沒有空椅子……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,13 +650,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这样吧！您坐我这，我呢，就坐您腿上，好不好~？",
+			say = "這樣吧！您坐我這，我呢，就坐您腿上，好不好~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -674,7 +674,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我站着就好，来，把密码说一下？",
+			say = "我站著就好，來，把密碼說一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,13 +684,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这也是约会的一环吗~那——I~M~YOURS~",
+			say = "這也是約會的一環嗎~那——I~M~YOURS~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -708,7 +708,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "密码错误。",
+			say = "密碼錯誤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,13 +717,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "再加上我的名字试试~？",
+			say = "再加上我的名字試試看~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,13 +733,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "来，我握着你的手一起输入~",
+			say = "來，我握著你的手一起輸入~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,13 +749,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样，顾问的心有在砰砰砰地乱跳吗？",
+			say = "怎麼樣，顧問的心有在砰砰砰亂跳嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,13 +765,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "悄悄告诉你，我这里可是办公室的视觉死角，就算偷偷做些什么，也不会被发现的哦~",
+			say = "悄悄告訴你，我這裡可是辦公室的視覺死角，就算偷偷做些什麼，也不會被發現的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -789,7 +789,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……密码错误。",
+			say = "……密碼錯誤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,13 +799,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "顾问，你——好吧，其实我也不记得密码是什么了……",
+			say = "顧問，你——好吧，其實我也不記得密碼是什麼了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -833,13 +833,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "要不然你随便试试吧……",
+			say = "要不然你隨便試試吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -857,7 +857,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那就试试最常用的……PASSWORD？",
+			say = "那就試試最常用的……PASSWORD？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,7 +867,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			actorName = "{playername}",
@@ -875,7 +875,7 @@ return {
 			actor = 401131,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……密码正确？",
+			say = "……密碼正確？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "搜查二课 警部补",
+			factiontag = "搜查二課 警部補",
 			dir = 1,
 			optionFlag = 2,
 			actor = 401131,
@@ -901,8 +901,8 @@ return {
 			portrait = 312013,
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:98:明石}",
-			factiontag = "导演",
+			actorName = "明石",
+			factiontag = "導演",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			say = "CUT~喵！",

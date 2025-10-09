@@ -21,6 +21,7 @@ return {
 		{
 			say = "嗯？这机器怎么就停了？我还打算多叫点帮手来的。",
 			characterId = 0,
+			camera = "StoryCamera5",
 			face2Face = {
 				{
 					0,

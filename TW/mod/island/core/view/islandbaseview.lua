@@ -1,11 +1,16 @@
 slot0 = class("IslandBaseView")
 
-slot0.Ctor = function(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.core = slot1
 	slot0.callbacks = {}
 	slot0.unitRegister = {}
 	slot0.registerIndex = 0
+	slot0.opCount = slot3 or 1
 	slot0.baseContainer = slot2
+end
+
+slot0.GetCacheOpCount = function(slot0)
+	return slot0.opCount
 end
 
 slot0.SetUp = function(slot0)

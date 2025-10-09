@@ -2675,6 +2675,273 @@ pg.activity_ins_chat_language = setmetatable({
 		4446,
 		4447,
 		4448,
+		4449,
+		4450,
+		4451,
+		4452,
+		4453,
+		4454,
+		4455,
+		4456,
+		4457,
+		4458,
+		4459,
+		4460,
+		4461,
+		4462,
+		4463,
+		4464,
+		4465,
+		4466,
+		4467,
+		4468,
+		4469,
+		4470,
+		4471,
+		4472,
+		4473,
+		4474,
+		4475,
+		4476,
+		4477,
+		4478,
+		4479,
+		4480,
+		4481,
+		4482,
+		4483,
+		4484,
+		4485,
+		4486,
+		4487,
+		4488,
+		4489,
+		4490,
+		4491,
+		4492,
+		4493,
+		4494,
+		4495,
+		4496,
+		4497,
+		4498,
+		4499,
+		4500,
+		4501,
+		4502,
+		4503,
+		4504,
+		4505,
+		4506,
+		4507,
+		4508,
+		4509,
+		4510,
+		4511,
+		4512,
+		4513,
+		4514,
+		4515,
+		4516,
+		4517,
+		4518,
+		4519,
+		4520,
+		4521,
+		4522,
+		4523,
+		4524,
+		4525,
+		4526,
+		4527,
+		4528,
+		4529,
+		4530,
+		4531,
+		4532,
+		4533,
+		4534,
+		4535,
+		4536,
+		4537,
+		4538,
+		4539,
+		4540,
+		4541,
+		4542,
+		4543,
+		4544,
+		4545,
+		4546,
+		4547,
+		4548,
+		4549,
+		4550,
+		4551,
+		4552,
+		4553,
+		4554,
+		4555,
+		4556,
+		4557,
+		4558,
+		4559,
+		4560,
+		4561,
+		4562,
+		4563,
+		4564,
+		4565,
+		4566,
+		4567,
+		4568,
+		4569,
+		4570,
+		4571,
+		4572,
+		4573,
+		4574,
+		4575,
+		4576,
+		4577,
+		4578,
+		4579,
+		4580,
+		4581,
+		4582,
+		4583,
+		4584,
+		4585,
+		4586,
+		4587,
+		4588,
+		4589,
+		4590,
+		4591,
+		4592,
+		4593,
+		4594,
+		4595,
+		4596,
+		4597,
+		4598,
+		4599,
+		4600,
+		4601,
+		4602,
+		4603,
+		4604,
+		4605,
+		4606,
+		4607,
+		4608,
+		4609,
+		4610,
+		4611,
+		4612,
+		4613,
+		4614,
+		4615,
+		4616,
+		4617,
+		4618,
+		4619,
+		4620,
+		4621,
+		4622,
+		4623,
+		4624,
+		4625,
+		4626,
+		4627,
+		4628,
+		4629,
+		4630,
+		4631,
+		4632,
+		4633,
+		4634,
+		4635,
+		4636,
+		4637,
+		4638,
+		4639,
+		4640,
+		4641,
+		4642,
+		4643,
+		4644,
+		4645,
+		4646,
+		4647,
+		4648,
+		4649,
+		4650,
+		4651,
+		4652,
+		4653,
+		4654,
+		4655,
+		4656,
+		4657,
+		4658,
+		4659,
+		4660,
+		4661,
+		4662,
+		4663,
+		4664,
+		4665,
+		4666,
+		4667,
+		4668,
+		4669,
+		4670,
+		4671,
+		4672,
+		4673,
+		4674,
+		4675,
+		4676,
+		4677,
+		4678,
+		4679,
+		4680,
+		4681,
+		4682,
+		4683,
+		4684,
+		4685,
+		4686,
+		4687,
+		4688,
+		4689,
+		4690,
+		4691,
+		4692,
+		4693,
+		4694,
+		4695,
+		4696,
+		4697,
+		4698,
+		4699,
+		4700,
+		4701,
+		4702,
+		4703,
+		4704,
+		4705,
+		4706,
+		4707,
+		4708,
+		4709,
+		4710,
+		4711,
+		4712,
+		4713,
+		4714,
+		4715,
 		4929,
 		4930,
 		4931,
@@ -27590,6 +27857,2336 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 4448,
 		flag = 5
+	},
+	[4449] = {
+		param = "指揮官，您好。我是曾克爾將軍，今日由我擔任秘書艦",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4449,
+		flag = 0
+	},
+	[4450] = {
+		param = "接下來就請多多指教了",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4450,
+		flag = 0
+	},
+	[4451] = {
+		param = "那麼事不宜遲，我先為您檢查一下明日行程規劃吧",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4451,
+		flag = 0
+	},
+	[4452] = {
+		param = "不過，行程這麼近，上一位秘書艦應該已經把相關事宜都安排妥當了吧",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4452,
+		flag = 0
+	},
+	[4453] = {
+		param = "明天是……會議，嗯……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4453,
+		flag = 0
+	},
+	[4454] = {
+		param = "後天……也是會議啊……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4454,
+		flag = 0
+	},
+	[4455] = {
+		param = "今天是……會議，然後處理文件……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4455,
+		flag = 0
+	},
+	[4456] = {
+		param = "然後昨天是……會議，吃飯和散步……？！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4456,
+		flag = 0
+	},
+	[4457] = {
+		param = "為什麼更早的紀錄裡還有摸魚……這是可以寫在行程表裡的東西嗎……？",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4457,
+		flag = 0
+	},
+	[4458] = {
+		param = "41",
+		ship_group = 40407,
+		type = 4,
+		id = 4458,
+		flag = 0,
+		option = {
+			{
+				1,
+				"畢竟不同同伴的行事風格不同……"
+			}
+		}
+	},
+	[4459] = {
+		param = "畢竟不同同伴的風格差異很大……所以規劃的方式差異也很大",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4459,
+		flag = 1
+	},
+	[4460] = {
+		param = "但行程規劃還是做得更清晰一些會比較好……對吧？",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4460,
+		flag = 1
+	},
+	[4461] = {
+		param = "畢竟，這也能幫助您更有效率地完成工作",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4461,
+		flag = 1
+	},
+	[4462] = {
+		param = "事已至此，我還是先幫您重新整理行程規劃吧",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4462,
+		flag = 1
+	},
+	[4463] = {
+		param = "首先是處理好工作安排，然後是整理申請表……",
+		ship_group = 40407,
+		type = 1,
+		id = 4463,
+		flag = 1,
+		option = {
+			{
+				2,
+				"時間不早了，早點休息吧"
+			}
+		}
+	},
+	[4464] = {
+		param = "這些事不急於一時",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4464,
+		flag = 2
+	},
+	[4465] = {
+		param = "今天時間不早了，早點休息吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4465,
+		flag = 2
+	},
+	[4466] = {
+		param = "今日事今日畢，整理完了就休息",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4466,
+		flag = 2
+	},
+	[4467] = {
+		param = "反倒是指揮官你，一定要注意自己的身體健康",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4467,
+		flag = 2
+	},
+	[4468] = {
+		param = "早點休息吧",
+		ship_group = 40407,
+		type = 1,
+		id = 4468,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今日事今日畢，整理完了就休息"
+			}
+		}
+	},
+	[4469] = {
+		param = "今日事今日畢，整理完了就休息",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4469,
+		flag = 3
+	},
+	[4470] = {
+		param = "啊哈哈……那，加油！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4470,
+		flag = 3
+	},
+	[4471] = {
+		param = "8",
+		ship_group = 40407,
+		type = 4,
+		id = 4471,
+		flag = 3,
+		option = {
+			{
+				4,
+				"加油！"
+			}
+		}
+	},
+	[4472] = {
+		param = "加油！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4472,
+		flag = 4
+	},
+	[4473] = {
+		param = "8",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4473,
+		flag = 4
+	},
+	[4474] = {
+		param = "指揮官，我是曾克爾將軍，因為突發高燒，需要申請一天病假",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4474,
+		flag = 0
+	},
+	[4475] = {
+		param = "量了幾次體溫，都在40℃以上，目前已經吃了退燒藥",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4475,
+		flag = 0
+	},
+	[4476] = {
+		param = "如果之後病情沒有改善，我會隨時聯絡醫療部門",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4476,
+		flag = 0
+	},
+	[4477] = {
+		param = "明天應該就能退燒了，但今天無法協助您完成工作了……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4477,
+		flag = 0
+	},
+	[4478] = {
+		param = "關於今天的工作，我已經提前做好了規劃",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4478,
+		flag = 0
+	},
+	[4479] = {
+		param = "1.今天的會議資料已經歸納好了，就放在書架的第二排",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4479,
+		flag = 0
+	},
+	[4480] = {
+		param = "2.我寫的提案修改意見，在您右手邊的抽屜裡",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4480,
+		flag = 0
+	},
+	[4481] = {
+		param = "3.經費報表也已經整理完畢，需要您簽字確認一下",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4481,
+		flag = 0
+	},
+	[4482] = {
+		param = "抱歉，今日我不能為指揮官分憂，明天我一定會準時到達的",
+		ship_group = 40407,
+		type = 1,
+		id = 4482,
+		flag = 0,
+		option = {
+			{
+				1,
+				"明天就不用來了"
+			}
+		}
+	},
+	[4483] = {
+		param = "明天就不用來了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4483,
+		flag = 1
+	},
+	[4484] = {
+		param = "什麼？",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4484,
+		flag = 1
+	},
+	[4485] = {
+		param = "……我是被開除了嗎？！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4485,
+		flag = 1
+	},
+	[4486] = {
+		param = "61",
+		ship_group = 40407,
+		option = "",
+		type = 4,
+		id = 4486,
+		flag = 1
+	},
+	[4487] = {
+		param = "我還有很多已經規劃好的工作沒有完成！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4487,
+		flag = 1
+	},
+	[4488] = {
+		param = "還有很多規劃中的計劃！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4488,
+		flag = 1
+	},
+	[4489] = {
+		param = "以及待規劃的事情！",
+		ship_group = 40407,
+		type = 1,
+		id = 4489,
+		flag = 1,
+		option = {
+			{
+				2,
+				"[暈頭轉向]"
+			}
+		}
+	},
+	[4490] = {
+		param = "322",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4490,
+		flag = 2
+	},
+	[4491] = {
+		param = "我的意思是……明天先好好休息，不用急著工作",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4491,
+		flag = 2
+	},
+	[4492] = {
+		param = "……我明白了",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4492,
+		flag = 2
+	},
+	[4493] = {
+		param = "我會好好休息的！絕對不會想休息以外的事情！",
+		ship_group = 40407,
+		type = 1,
+		id = 4493,
+		flag = 2,
+		option = {
+			{
+				3,
+				"那現在……"
+			}
+		}
+	},
+	[4494] = {
+		param = "那現在……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4494,
+		flag = 3
+	},
+	[4495] = {
+		param = "我現在就閉眼——今天的工作就拜託了！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4495,
+		flag = 3
+	},
+	[4496] = {
+		param = "指揮官，不好了",
+		ship_group = 40407,
+		type = 1,
+		id = 4496,
+		flag = 0,
+		option = {
+			{
+				1,
+				"出什麼事了？"
+			}
+		}
+	},
+	[4497] = {
+		param = "出什麼事了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4497,
+		flag = 1
+	},
+	[4498] = {
+		param = "指揮大樓配電箱故障，現在停電了，夕張正帶著後勤部門的人緊急維修",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4498,
+		flag = 1
+	},
+	[4499] = {
+		param = "今天……可能用不了指揮室了",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4499,
+		flag = 1
+	},
+	[4500] = {
+		param = "352",
+		ship_group = 40407,
+		type = 4,
+		id = 4500,
+		flag = 1,
+		option = {
+			{
+				2,
+				"確實是有點嚴重的意外……"
+			}
+		}
+	},
+	[4501] = {
+		param = "確實是有點嚴重的意外……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4501,
+		flag = 2
+	},
+	[4502] = {
+		param = "是啊……計劃都被打亂了，還有很多文件要處理呢",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4502,
+		flag = 2
+	},
+	[4503] = {
+		param = "只能先找個安靜的、明亮的，保密等級也夠高的地方，充當臨時指揮室了",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4503,
+		flag = 2
+	},
+	[4504] = {
+		param = "我這就去確認港區有沒有滿足條件的地方",
+		ship_group = 40407,
+		type = 1,
+		id = 4504,
+		flag = 2,
+		option = {
+			{
+				3,
+				"倒也不用……"
+			}
+		}
+	},
+	[4505] = {
+		param = "倒也不用……既然已經偏離了原定計劃，那順其自然就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4505,
+		flag = 3
+	},
+	[4506] = {
+		param = "那些文件也沒那麼著急",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4506,
+		flag = 3
+	},
+	[4507] = {
+		param = "嗯，正好，我現在有了一個新的計劃",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4507,
+		flag = 3
+	},
+	[4508] = {
+		param = "……新的計劃？",
+		ship_group = 40407,
+		type = 1,
+		id = 4508,
+		flag = 3,
+		option = {
+			{
+				4,
+				"今天天氣不錯吧？"
+			}
+		}
+	},
+	[4509] = {
+		param = "今天天氣不錯吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4509,
+		flag = 4
+	},
+	[4510] = {
+		param = "確實很不錯……？",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4510,
+		flag = 4
+	},
+	[4511] = {
+		param = "風和日麗，春暖花開，正是露營的好季節",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4511,
+		flag = 4
+	},
+	[4512] = {
+		param = "正好皇家今天有野餐茶會",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4512,
+		flag = 4
+	},
+	[4513] = {
+		param = "等一下一起去吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4513,
+		flag = 4
+	},
+	[4514] = {
+		param = "欸？！我們這麼突然去打擾不太好吧？",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4514,
+		flag = 4
+	},
+	[4515] = {
+		param = "畢竟我們之前沒有去參加的計劃……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4515,
+		flag = 4
+	},
+	[4516] = {
+		param = "她們應該也沒有招待我們的計劃……",
+		ship_group = 40407,
+		type = 1,
+		id = 4516,
+		flag = 4,
+		option = {
+			{
+				5,
+				"沒關係，我去打個招呼就好"
+			}
+		}
+	},
+	[4517] = {
+		param = "沒關係，我去打個招呼就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4517,
+		flag = 5
+	},
+	[4518] = {
+		param = "不如說我已經打過招呼了，光輝說十分歡迎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4518,
+		flag = 5
+	},
+	[4519] = {
+		param = "欸？！！已、已經跟她們說了嗎……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4519,
+		flag = 5
+	},
+	[4520] = {
+		param = "可、可是，我還什麼準備都沒做……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4520,
+		flag = 5
+	},
+	[4521] = {
+		param = "214",
+		ship_group = 40407,
+		type = 4,
+		id = 4521,
+		flag = 5,
+		option = {
+			{
+				6,
+				"計劃性雖然不錯……"
+			}
+		}
+	},
+	[4522] = {
+		param = "計劃性雖然不錯，生活中那些不期而遇的小意外也是些不錯的調劑",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4522,
+		flag = 6
+	},
+	[4523] = {
+		param = "二者都是重要且不可或缺的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4523,
+		flag = 6
+	},
+	[4524] = {
+		param = "既然指揮官這麼說……那就……去吧……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4524,
+		flag = 6
+	},
+	[4525] = {
+		param = "但是！參加茶會需要準備一套得體的服裝……",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4525,
+		flag = 6
+	},
+	[4526] = {
+		param = "我完全沒預料到要參加茶會，所以現在毫無準備……",
+		ship_group = 40407,
+		type = 1,
+		id = 4526,
+		flag = 6,
+		option = {
+			{
+				7,
+				"我可以去幫妳選"
+			}
+		}
+	},
+	[4527] = {
+		param = "沒關係，我可以去幫妳選",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4527,
+		flag = 7
+	},
+	[4528] = {
+		param = "那就拜託了，指揮官！等你！",
+		ship_group = 40407,
+		option = "",
+		type = 1,
+		id = 4528,
+		flag = 7
+	},
+	[4529] = {
+		param = "指揮官，我發現……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4529,
+		flag = 0
+	},
+	[4530] = {
+		param = "你的工作還是不夠高效哦~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4530,
+		flag = 0
+	},
+	[4531] = {
+		param = "我有一個不降低效率的節能方案，想聽嗎？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4531,
+		flag = 0
+	},
+	[4532] = {
+		param = "6",
+		ship_group = 40814,
+		type = 4,
+		id = 4532,
+		flag = 0,
+		option = {
+			{
+				1,
+				"願聞其詳"
+			}
+		}
+	},
+	[4533] = {
+		param = "願聞其詳",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4533,
+		flag = 1
+	},
+	[4534] = {
+		param = "首先，關於營養獲取",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4534,
+		flag = 1
+	},
+	[4535] = {
+		param = "指揮官要做那麼多腦力工作，一定很容易餓吧？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4535,
+		flag = 1
+	},
+	[4536] = {
+		param = "這種時候就應該常備一些甜食",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4536,
+		flag = 1
+	},
+	[4537] = {
+		param = "例如櫻桃黑森林蛋糕——",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4537,
+		flag = 1
+	},
+	[4538] = {
+		param = "還有裹滿肉桂粉的蘋果捲——",
+		ship_group = 40814,
+		type = 1,
+		id = 4538,
+		flag = 1,
+		option = {
+			{
+				2,
+				"聽起來不錯。不過……"
+			}
+		}
+	},
+	[4539] = {
+		param = "聽起來不錯。不過，好像都是妳愛吃的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4539,
+		flag = 2
+	},
+	[4540] = {
+		param = "當然",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4540,
+		flag = 2
+	},
+	[4541] = {
+		param = "而且我現在正在吃~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4541,
+		flag = 2
+	},
+	[4542] = {
+		param = "30",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4542,
+		flag = 2
+	},
+	[4543] = {
+		param = "指揮官如果不想孤軍奮戰的話，就準備好零食吧",
+		ship_group = 40814,
+		type = 1,
+		id = 4543,
+		flag = 2,
+		option = {
+			{
+				3,
+				"U-552這是準備來幫忙嗎？"
+			}
+		}
+	},
+	[4544] = {
+		param = "U-552這是準備來幫忙嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4544,
+		flag = 3
+	},
+	[4545] = {
+		param = "哼哼……雖然不想承認",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4545,
+		flag = 3
+	},
+	[4546] = {
+		param = "但把工作都丟給指揮官的話，實在太低效了",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4546,
+		flag = 3
+	},
+	[4547] = {
+		param = "兩個人一起加油的話，應該就能擠出不少偷懶的時間吧？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4547,
+		flag = 3
+	},
+	[4548] = {
+		param = "簡單來說，我想表達的是——",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4548,
+		flag = 3
+	},
+	[4549] = {
+		param = "工作的意義是偷懶哦~是偷懶哦~是偷懶哦~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4549,
+		flag = 3
+	},
+	[4550] = {
+		param = "重要的事情要強調三次！",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4550,
+		flag = 3
+	},
+	[4551] = {
+		param = "234",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4551,
+		flag = 3
+	},
+	[4552] = {
+		param = "指揮官",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4552,
+		flag = 0
+	},
+	[4553] = {
+		param = "外面突然下雨了，而且有越下越大的趨勢",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4553,
+		flag = 0
+	},
+	[4554] = {
+		param = "建議取消今日的外出計劃",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4554,
+		flag = 0
+	},
+	[4555] = {
+		param = "57",
+		ship_group = 40814,
+		type = 4,
+		id = 4555,
+		flag = 0,
+		option = {
+			{
+				1,
+				"知道了……"
+			}
+		}
+	},
+	[4556] = {
+		param = "知道了，我在指揮室加班，短時間也走不開",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4556,
+		flag = 1
+	},
+	[4557] = {
+		param = "妳現在在外面？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4557,
+		flag = 1
+	},
+	[4558] = {
+		param = "指揮官，你又在找藉口工作了吧？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4558,
+		flag = 1
+	},
+	[4559] = {
+		param = "我啊，找到了一處既可以躲雨，也可以躺下的地方",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4559,
+		flag = 1
+	},
+	[4560] = {
+		param = "準備睡了~晚安~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4560,
+		flag = 1
+	},
+	[4561] = {
+		param = "20",
+		ship_group = 40814,
+		type = 4,
+		id = 4561,
+		flag = 1,
+		option = {
+			{
+				2,
+				"等一下，妳先別睡"
+			}
+		}
+	},
+	[4562] = {
+		param = "等一下，妳先別睡",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4562,
+		flag = 2
+	},
+	[4563] = {
+		param = "怎麼啦？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4563,
+		flag = 2
+	},
+	[4564] = {
+		param = "事先聲明，睡前不討論工作——",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4564,
+		flag = 2
+	},
+	[4565] = {
+		param = "但如果指揮官是想找我偷懶閒聊的話，我絕對奉陪哦",
+		ship_group = 40814,
+		type = 1,
+		id = 4565,
+		flag = 2,
+		option = {
+			{
+				3,
+				"雨天在外面睡覺很容易著涼……"
+			}
+		}
+	},
+	[4566] = {
+		param = "雨天在外面睡覺很容易著涼，還是來辦公室睡吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4566,
+		flag = 3
+	},
+	[4567] = {
+		param = "嗯……也有道理……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4567,
+		flag = 3
+	},
+	[4568] = {
+		param = "但我現在的位置離辦公大樓還有段距離……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4568,
+		flag = 3
+	},
+	[4569] = {
+		param = "大雨天打傘趕路的話，完全沒有動力欸……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4569,
+		flag = 3
+	},
+	[4570] = {
+		param = "所以果然還是……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4570,
+		flag = 3
+	},
+	[4571] = {
+		param = "20",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4571,
+		flag = 3
+	},
+	[4572] = {
+		param = "晚安吧~~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4572,
+		flag = 3
+	},
+	[4573] = {
+		param = "我現在就要一邊打噴嚏，一邊蜷縮起來睡覺了喔~",
+		ship_group = 40814,
+		type = 1,
+		id = 4573,
+		flag = 3,
+		option = {
+			{
+				4,
+				"要不要喝點熱的？"
+			}
+		}
+	},
+	[4574] = {
+		param = "要不要喝點熱的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4574,
+		flag = 4
+	},
+	[4575] = {
+		param = "可以為妳準備妳喜歡的布丁和熱可可",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4575,
+		flag = 4
+	},
+	[4576] = {
+		param = "這樣既補充了能量，又能暖暖身子，怎麼樣？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4576,
+		flag = 4
+	},
+	[4577] = {
+		param = "嗯哼，這個提議不錯~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4577,
+		flag = 4
+	},
+	[4578] = {
+		param = "熱可可要多加點糖哦",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4578,
+		flag = 4
+	},
+	[4579] = {
+		param = "好——現在開始計算一下，怎麼過去最有效率吧",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4579,
+		flag = 4
+	},
+	[4580] = {
+		param = "202",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4580,
+		flag = 4
+	},
+	[4581] = {
+		param = "啊，對了，還得麻煩指揮官準備一下拖鞋和毛巾",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4581,
+		flag = 4
+	},
+	[4582] = {
+		param = "到達後我的小腿肯定會全部濕透，需要指揮官幫忙擦乾哦",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4582,
+		flag = 4
+	},
+	[4583] = {
+		param = "指揮官會同意的，對吧？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4583,
+		flag = 4
+	},
+	[4584] = {
+		param = "指揮官，睡著了嗎？",
+		ship_group = 40814,
+		type = 1,
+		id = 4584,
+		flag = 0,
+		option = {
+			{
+				1,
+				"沒有，還在加班"
+			}
+		}
+	},
+	[4585] = {
+		param = "沒有，還在加班",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4585,
+		flag = 1
+	},
+	[4586] = {
+		param = "365",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4586,
+		flag = 1
+	},
+	[4587] = {
+		param = "回答錯誤！",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4587,
+		flag = 1
+	},
+	[4588] = {
+		param = "我重新問一遍",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4588,
+		flag = 1
+	},
+	[4589] = {
+		param = "指揮官，還不睡嗎——",
+		ship_group = 40814,
+		type = 1,
+		id = 4589,
+		flag = 1,
+		option = {
+			{
+				2,
+				"馬上！"
+			}
+		}
+	},
+	[4590] = {
+		param = "馬上！很快就能解決工作了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4590,
+		flag = 2
+	},
+	[4591] = {
+		param = "還好妳已經撤離了，但妳怎麼還沒睡？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4591,
+		flag = 2
+	},
+	[4592] = {
+		param = "因為我找到了一個超級適合休息的地方~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4592,
+		flag = 2
+	},
+	[4593] = {
+		param = "29",
+		ship_group = 40814,
+		option = "",
+		type = 4,
+		id = 4593,
+		flag = 2
+	},
+	[4594] = {
+		param = "等指揮官工作完成了，就可以來這裡找我",
+		ship_group = 40814,
+		type = 1,
+		id = 4594,
+		flag = 2,
+		option = {
+			{
+				3,
+				"明明已經半夜了……"
+			}
+		}
+	},
+	[4595] = {
+		param = "明明已經半夜了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4595,
+		flag = 3
+	},
+	[4596] = {
+		param = "真是少見，竟然會大半夜還在外面活動",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4596,
+		flag = 3
+	},
+	[4597] = {
+		param = "今天的耗能指數已經完全超標了吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4597,
+		flag = 3
+	},
+	[4598] = {
+		param = "哼哼~那你猜猜看原因會是什麼呢？",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4598,
+		flag = 3
+	},
+	[4599] = {
+		param = "好了，省略猜謎環節，直接揭曉答案吧——",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4599,
+		flag = 3
+	},
+	[4600] = {
+		param = "當然是為了跟你一起偷懶，我才特地找了這個地方啊~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4600,
+		flag = 3
+	},
+	[4601] = {
+		param = "再說了，一想到可以跟你一起躺下",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4601,
+		flag = 3
+	},
+	[4602] = {
+		param = "我就覺得一點都不累……",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4602,
+		flag = 3
+	},
+	[4603] = {
+		param = "但在等你的時候……我不小心睡了一覺！",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4603,
+		flag = 3
+	},
+	[4604] = {
+		param = "都怪這個地方太適合睡覺了",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4604,
+		flag = 3
+	},
+	[4605] = {
+		param = "位置隱秘，沒有人打擾",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4605,
+		flag = 3
+	},
+	[4606] = {
+		param = "抬眼就能看到今晚的星空",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4606,
+		flag = 3
+	},
+	[4607] = {
+		param = "完全對得起我為它花的時間啊~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4607,
+		flag = 3
+	},
+	[4608] = {
+		param = "224",
+		ship_group = 40814,
+		type = 4,
+		id = 4608,
+		flag = 3,
+		option = {
+			{
+				4,
+				"這麼舒服，到底在哪裡？"
+			}
+		}
+	},
+	[4609] = {
+		param = "這麼舒服，到底在哪裡？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4609,
+		flag = 4
+	},
+	[4610] = {
+		param = "當然是最節能的——",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4610,
+		flag = 4
+	},
+	[4611] = {
+		param = "也最方便陪伴你的地方啦~",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4611,
+		flag = 4
+	},
+	[4612] = {
+		param = "回頭看，我一直沒有離開你身邊哦",
+		ship_group = 40814,
+		option = "",
+		type = 1,
+		id = 4612,
+		flag = 4
+	},
+	[4613] = {
+		param = "指揮官！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4613,
+		flag = 0
+	},
+	[4614] = {
+		param = "之前讓我做的港區開發計劃已經做好囉！",
+		ship_group = 40113,
+		type = 1,
+		id = 4614,
+		flag = 0,
+		option = {
+			{
+				1,
+				"那是什麼？"
+			}
+		}
+	},
+	[4615] = {
+		param = "那是什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4615,
+		flag = 1
+	},
+	[4616] = {
+		param = "港區開發顧問該做的計劃啊，你忘了？",
+		ship_group = 40113,
+		type = 1,
+		id = 4616,
+		flag = 1,
+		option = {
+			{
+				2,
+				"…港區開發顧問？"
+			}
+		}
+	},
+	[4617] = {
+		param = "……港區開發顧問？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4617,
+		flag = 2
+	},
+	[4618] = {
+		param = "我申請過的！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4618,
+		flag = 2
+	},
+	[4619] = {
+		param = "但是，我好像沒有同意吧……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4619,
+		flag = 2
+	},
+	[4620] = {
+		param = "等你看完我的計劃書就會同意了！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4620,
+		flag = 2
+	},
+	[4621] = {
+		param = "18",
+		ship_group = 40113,
+		option = "",
+		type = 4,
+		id = 4621,
+		flag = 2
+	},
+	[4622] = {
+		param = "那麼，先從計劃的第一部分說起~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4622,
+		flag = 2
+	},
+	[4623] = {
+		param = "首先要做的是……幫指揮官造幾個漂亮的大雕像！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4623,
+		flag = 2
+	},
+	[4624] = {
+		param = "就放在各處主要道路和建築物旁邊",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4624,
+		flag = 2
+	},
+	[4625] = {
+		param = "讓大家每天都能感受到指揮官親切的注視——",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4625,
+		flag = 2
+	},
+	[4626] = {
+		param = "當然還要給雕像加裝動作功能~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4626,
+		flag = 2
+	},
+	[4627] = {
+		param = "這樣在一些節慶或舉辦活動的時候，就可以……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4627,
+		flag = 2
+	},
+	[4628] = {
+		param = "一邊做拍手或鼓掌的動作，一邊說恭喜妳、節日快樂這樣的話！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4628,
+		flag = 2
+	},
+	[4629] = {
+		param = "怎麼樣！想想都很激動對不對！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4629,
+		flag = 2
+	},
+	[4630] = {
+		param = "這樣一想換成全像投影也可以，更逼真輝煌還充滿科技感",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4630,
+		flag = 2
+	},
+	[4631] = {
+		param = "稍等我改一下",
+		ship_group = 40113,
+		type = 1,
+		id = 4631,
+		flag = 2,
+		option = {
+			{
+				3,
+				"…………"
+			}
+		}
+	},
+	[4632] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4632,
+		flag = 3
+	},
+	[4633] = {
+		param = "繼續——",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4633,
+		flag = 3
+	},
+	[4634] = {
+		param = "計劃的第二部分，是為港區廣播電台裝上指揮官的語音包！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4634,
+		flag = 3
+	},
+	[4635] = {
+		param = "這樣每到吃飯時間，就可以循環播放指揮官的心靈雞湯~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4635,
+		flag = 3
+	},
+	[4636] = {
+		param = "還要幫指揮室安裝直連廣播的麥克風",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4636,
+		flag = 3
+	},
+	[4637] = {
+		param = "讓指揮官的聲音可以隨時透過廣播傳遍整個港區！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4637,
+		flag = 3
+	},
+	[4638] = {
+		param = "這樣既有效緩解了有些人「無指揮官就能量不足」的問題",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4638,
+		flag = 3
+	},
+	[4639] = {
+		param = "又能方便指揮官快速傳達指示命令",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4639,
+		flag = 3
+	},
+	[4640] = {
+		param = "完全是一舉兩得嘛~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4640,
+		flag = 3
+	},
+	[4641] = {
+		param = "239",
+		ship_group = 40113,
+		option = "",
+		type = 4,
+		id = 4641,
+		flag = 3
+	},
+	[4642] = {
+		param = "關於第三部分，是指揮官主題樂園的開發……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4642,
+		flag = 3
+	},
+	[4643] = {
+		param = "啊，快沒電了，指揮官稍等，我來找你當面談！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4643,
+		flag = 3
+	},
+	[4644] = {
+		param = "指揮官指揮官！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4644,
+		flag = 0
+	},
+	[4645] = {
+		param = "我買了一個有趣的神奇道具！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4645,
+		flag = 0
+	},
+	[4646] = {
+		param = "指揮官建議評分系統！",
+		ship_group = 40113,
+		type = 1,
+		id = 4646,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好像有點意思"
+			},
+			{
+				2,
+				"聽起來怪怪的"
+			}
+		}
+	},
+	[4647] = {
+		param = "好像有點意思",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4647,
+		flag = 1
+	},
+	[4648] = {
+		param = "聽起來怪怪的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4648,
+		flag = 2
+	},
+	[4649] = {
+		param = "居然能針對我的建議進行評分……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4649,
+		flag = 0
+	},
+	[4650] = {
+		param = "不是不是，不是對你提出的建議進行評分啦",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4650,
+		flag = 0
+	},
+	[4651] = {
+		param = "是對別人向你提出的建議進行評分！",
+		ship_group = 40113,
+		type = 1,
+		id = 4651,
+		flag = 0,
+		option = {
+			{
+				3,
+				"[？？？]"
+			}
+		}
+	},
+	[4652] = {
+		param = "108",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4652,
+		flag = 3
+	},
+	[4653] = {
+		param = "總之，我先試試準不準",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4653,
+		flag = 3
+	},
+	[4654] = {
+		param = "第一個建議是……每天喝一杯我做的特調飲品……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4654,
+		flag = 3
+	},
+	[4655] = {
+		param = "啊！評分！？",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4655,
+		flag = 3
+	},
+	[4656] = {
+		param = "3.0？！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4656,
+		flag = 3
+	},
+	[4657] = {
+		param = "214",
+		ship_group = 40113,
+		option = "",
+		type = 4,
+		id = 4657,
+		flag = 3
+	},
+	[4658] = {
+		param = "不應該啊……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4658,
+		flag = 3
+	},
+	[4659] = {
+		param = "我再輸入幾個建議看看！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4659,
+		flag = 3
+	},
+	[4660] = {
+		param = "第二個建議……每天和我一起做呼吸減壓訓練……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4660,
+		flag = 3
+	},
+	[4661] = {
+		param = "啊？！2.7？！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4661,
+		flag = 3
+	},
+	[4662] = {
+		param = "第三個……每天進行一次擁抱放鬆……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4662,
+		flag = 3
+	},
+	[4663] = {
+		param = "2.4？！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4663,
+		flag = 3
+	},
+	[4664] = {
+		param = "最、最後一個……大力推行上2休5的工作制……",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4664,
+		flag = 3
+	},
+	[4665] = {
+		param = "評分0分？！",
+		ship_group = 40113,
+		type = 1,
+		id = 4665,
+		flag = 3,
+		option = {
+			{
+				4,
+				"太對了，就應該是0分！"
+			},
+			{
+				5,
+				"其實我覺得這個建議還不錯？"
+			}
+		}
+	},
+	[4666] = {
+		param = "太對了，就應該是0分！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4666,
+		flag = 4
+	},
+	[4667] = {
+		param = "工作，大家一起來工作吧！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4667,
+		flag = 4
+	},
+	[4668] = {
+		param = "啊……？好恐怖哦！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4668,
+		flag = 4
+	},
+	[4669] = {
+		param = "如果失去了摸魚",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4669,
+		flag = 4
+	},
+	[4670] = {
+		param = "——我是說戰略性休息，生活還有什麼樂趣！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4670,
+		flag = 4
+	},
+	[4671] = {
+		param = "不行，這個評分系統有大問題！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4671,
+		flag = 4
+	},
+	[4672] = {
+		param = "我要立刻去退貨了！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4672,
+		flag = 4
+	},
+	[4673] = {
+		param = "其實我覺得這個建議還不錯？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4673,
+		flag = 5
+	},
+	[4674] = {
+		param = "但這個評分系統……竟然把我覺得還可以的建議打成0分",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4674,
+		flag = 5
+	},
+	[4675] = {
+		param = "肯定有問題——必然是綠頭貓咪研發的！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4675,
+		flag = 5
+	},
+	[4676] = {
+		param = "支持妳無條件退貨",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4676,
+		flag = 0
+	},
+	[4677] = {
+		param = "我去了，指揮官！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4677,
+		flag = 0
+	},
+	[4678] = {
+		param = "56",
+		ship_group = 40113,
+		option = "",
+		type = 4,
+		id = 4678,
+		flag = 0
+	},
+	[4679] = {
+		param = "指揮官！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4679,
+		flag = 0
+	},
+	[4680] = {
+		param = "我已經完全理解了戀愛心理學的所有理論！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4680,
+		flag = 0
+	},
+	[4681] = {
+		param = "要來試試效果嗎！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4681,
+		flag = 0
+	},
+	[4682] = {
+		param = "6",
+		ship_group = 40113,
+		type = 4,
+		id = 4682,
+		flag = 0,
+		option = {
+			{
+				1,
+				"怎麼試？"
+			}
+		}
+	},
+	[4683] = {
+		param = "怎麼試？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4683,
+		flag = 1
+	},
+	[4684] = {
+		param = "哼哼，那當然是要用心理學最經典的——沙盤遊戲啦！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4684,
+		flag = 1
+	},
+	[4685] = {
+		param = "現在，假設指揮官在一個密閉的、空無一物的房子裡",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4685,
+		flag = 1
+	},
+	[4686] = {
+		param = "指揮官想放個什麼物品進去呢？",
+		ship_group = 40113,
+		type = 1,
+		id = 4686,
+		flag = 1,
+		option = {
+			{
+				2,
+				"照明物"
+			},
+			{
+				3,
+				"傢俱"
+			},
+			{
+				4,
+				"岸防炮"
+			}
+		}
+	},
+	[4687] = {
+		param = "燈具之類的照明物吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4687,
+		flag = 2
+	},
+	[4688] = {
+		param = "照明物是期盼與希望的象徵~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4688,
+		flag = 2
+	},
+	[4689] = {
+		param = "說明指揮官希望有人能拉你一把呢！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4689,
+		flag = 2
+	},
+	[4690] = {
+		param = "床和桌椅之類的傢俱吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4690,
+		flag = 3
+	},
+	[4691] = {
+		param = "傢俱是疲憊與陪伴的象徵~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4691,
+		flag = 3
+	},
+	[4692] = {
+		param = "說明指揮官想要有人陪著一起休息！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4692,
+		flag = 3
+	},
+	[4693] = {
+		param = "先來個能開火的岸防炮",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4693,
+		flag = 4
+	},
+	[4694] = {
+		param = "欸？！竟然會先放武器進去嗎！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4694,
+		flag = 4
+	},
+	[4695] = {
+		param = "這……這說明指揮官可能有「火力不足恐懼症」！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4695,
+		flag = 4
+	},
+	[4696] = {
+		param = "在心理學上是需要發洩壓力的表現呢！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4696,
+		flag = 4
+	},
+	[4697] = {
+		param = "然後，在放置了第一件物品的基礎上",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4697,
+		flag = 0
+	},
+	[4698] = {
+		param = "指揮官接下來還想放什麼呢？",
+		ship_group = 40113,
+		type = 1,
+		id = 4698,
+		flag = 0,
+		option = {
+			{
+				5,
+				"食物"
+			},
+			{
+				6,
+				"通訊設備"
+			},
+			{
+				7,
+				"妳"
+			}
+		}
+	},
+	[4699] = {
+		param = "雖然我不知道要在房子裡待多久，但有食物物資儲備總比沒有好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4699,
+		flag = 5
+	},
+	[4700] = {
+		param = "食物是成就與需求的象徵~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4700,
+		flag = 5
+	},
+	[4701] = {
+		param = "說明指揮官希望有人能輔佐你完成某件事！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4701,
+		flag = 5
+	},
+	[4702] = {
+		param = "能與外界溝通訊息的通訊設備吧，工作是必須的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4702,
+		flag = 6
+	},
+	[4703] = {
+		param = "雖然很想吐槽優先想到的是工作",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4703,
+		flag = 6
+	},
+	[4704] = {
+		param = "……但資訊交流設備是知識與渴望的象徵~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4704,
+		flag = 6
+	},
+	[4705] = {
+		param = "說明指揮官渴望有人能與你交流或分享呢！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4705,
+		flag = 6
+	},
+	[4706] = {
+		param = "妳不許跑，也得跟我進來",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4706,
+		flag = 7
+	},
+	[4707] = {
+		param = "欸？！這……這是犯規啦！哪有把沙盤創造者也放進去的！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4707,
+		flag = 7
+	},
+	[4708] = {
+		param = "指揮官有這個心思的話，就暴露了你的內心不安！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4708,
+		flag = 7
+	},
+	[4709] = {
+		param = "也就是指揮官需要他人陪伴的表現！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4709,
+		flag = 7
+	},
+	[4710] = {
+		param = "好啦！兩件物品都放完了",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4710,
+		flag = 0
+	},
+	[4711] = {
+		param = "指揮官的心境也已經昭然若揭了！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4711,
+		flag = 0
+	},
+	[4712] = {
+		param = "綜上所述，指揮官很需要一個能常常幫助你的人來陪你！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4712,
+		flag = 0
+	},
+	[4713] = {
+		param = "而剛好，我現在有空~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4713,
+		flag = 0
+	},
+	[4714] = {
+		param = "嘿嘿，指揮官你等著，我這就過去陪你！",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 4714,
+		flag = 0
+	},
+	[4715] = {
+		param = "239",
+		ship_group = 40113,
+		option = "",
+		type = 4,
+		id = 4715,
+		flag = 0
 	},
 	[4929] = {
 		param = "指揮官，我把你弄丟的鈕扣帶來了",

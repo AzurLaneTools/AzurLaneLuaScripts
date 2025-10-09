@@ -24,6 +24,10 @@ slot0.emitCore = function(slot0, slot1, ...)
 	slot0.islandScene:emitCore(slot1, ...)
 end
 
+slot0.CanEsc = function(slot0)
+	return true
+end
+
 slot0.NeedCache = function(slot0)
 	return true
 end
@@ -79,11 +83,17 @@ slot0.Disable = function(slot0, slot1)
 end
 
 slot0.BlurPanel = function(slot0)
+	slot0.isBluring = true
+
 	slot0.viewComponent:BlurPanel(slot0._tf)
 end
 
 slot0.UnBlurPanel = function(slot0)
-	slot0.viewComponent:UnOverlayPanel(slot0._tf, slot0._parentTf)
+	if slot0.isBluring then
+		slot0.viewComponent:UnOverlayPanel(slot0._tf, slot0._parentTf)
+
+		slot0.isBluring = false
+	end
 end
 
 slot0.ShowMsgBox = function(slot0, slot1)

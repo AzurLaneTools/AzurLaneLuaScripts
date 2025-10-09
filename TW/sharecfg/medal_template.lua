@@ -2548,6 +2548,27 @@ pg.medal_template = {
 		explain1 = "「夏日重建」",
 		explain2 = "活動紀念"
 	},
+	[200071] = {
+		target_id = "50021",
+		name = "都市尋蹤紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "你是最敏銳的解謎人，每一處謎題都因你而解開。恭喜你，迷彩都市的尋蹤者！",
+		next = 0,
+		icon = "9071",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9071",
+		condition = "收集8個「迷彩都市的尋蹤者」紀念貼紙。",
+		rank = 1,
+		id = 200071,
+		explain1 = "「迷彩都市的尋蹤者」",
+		explain2 = "活動紀念"
+	},
 	[200081] = {
 		target_id = "50087",
 		name = "奇淵之下紀念勳章",
@@ -2707,6 +2728,7 @@ pg.medal_template = {
 		200041,
 		200051,
 		200061,
+		200071,
 		200081,
 		200091
 	}

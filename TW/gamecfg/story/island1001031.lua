@@ -1,6 +1,6 @@
 return {
-	mode = 10,
 	id = "ISLAND1001031",
+	mode = 10,
 	map = {
 		{
 			101200,
@@ -9,16 +9,6 @@ return {
 		{
 			3120100,
 			10090021
-		}
-	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
 		}
 	},
 	scripts = {
@@ -67,7 +57,7 @@ return {
 			sequence = {
 				{
 					"<size=45>一段时间后……</size>",
-					1
+					2
 				}
 			}
 		},

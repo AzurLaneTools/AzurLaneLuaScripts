@@ -167,6 +167,7 @@ pg.furniture_data_template = setmetatable({
 			303,
 			304,
 			307,
+			308,
 			311,
 			313,
 			314,
@@ -3203,6 +3204,28 @@ pg.furniture_data_template = setmetatable({
 			322115,
 			322116
 		},
+		[123] = {
+			324001,
+			324002,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
+		},
 		[124] = {
 			325001,
 			325002,
@@ -5239,6 +5262,23 @@ pg.furniture_data_template = setmetatable({
 			322113,
 			322114,
 			322115,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
 			325101,
 			325102,
 			325103,
@@ -5561,6 +5601,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			308,
 			313,
 			317,
 			100002,
@@ -5867,6 +5908,7 @@ pg.furniture_data_template = setmetatable({
 			322116,
 			323101,
 			323102,
+			324118,
 			325110,
 			325126,
 			328118,
@@ -5976,6 +6018,7 @@ pg.furniture_data_template = setmetatable({
 			321001,
 			322001,
 			323001,
+			324001,
 			325001,
 			326001,
 			327001,
@@ -6087,6 +6130,7 @@ pg.furniture_data_template = setmetatable({
 			321002,
 			322002,
 			323002,
+			324002,
 			325002,
 			326002,
 			327002,
@@ -6545,6 +6589,7 @@ pg.furniture_data_template = setmetatable({
 			321002,
 			322002,
 			323002,
+			324002,
 			325002,
 			326002,
 			327002,
@@ -8653,6 +8698,23 @@ pg.furniture_data_template = setmetatable({
 			322115,
 			322116,
 			323101,
+			324101,
+			324102,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118,
 			325101,
 			325102,
 			325106,
@@ -8743,6 +8805,7 @@ pg.furniture_data_template = setmetatable({
 			233,
 			281,
 			282,
+			308,
 			100003,
 			100008,
 			100021,
@@ -8911,6 +8974,7 @@ pg.furniture_data_template = setmetatable({
 			321001,
 			322001,
 			323001,
+			324001,
 			325001,
 			326001,
 			327001,
@@ -9056,6 +9120,7 @@ pg.furniture_data_template = setmetatable({
 			310101,
 			316107,
 			321115,
+			324103,
 			325103,
 			325104,
 			325105,
@@ -9739,6 +9804,7 @@ pg.furniture_data_template = setmetatable({
 		303,
 		304,
 		307,
+		308,
 		311,
 		313,
 		314,
@@ -12568,6 +12634,26 @@ pg.furniture_data_template = setmetatable({
 		323002,
 		323101,
 		323102,
+		324001,
+		324002,
+		324101,
+		324102,
+		324103,
+		324104,
+		324105,
+		324106,
+		324107,
+		324108,
+		324109,
+		324110,
+		324111,
+		324112,
+		324113,
+		324114,
+		324115,
+		324116,
+		324117,
+		324118,
 		325001,
 		325002,
 		325101,
@@ -20805,6 +20891,93 @@ pg.base.furniture_data_template = {
 				"brsxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[308] = {
+		can_rotate = 0,
+		describe = "車頂搭載專業攝影設備，有效應付複雜地形的拍攝需求~",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "sheyingcheicon",
+		count = 1,
+		name = "黑色高級攝影車",
+		advice = 0,
+		id = 308,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingcheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"sheyingcheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-8,
+					15.8
+				},
+				{
+					120,
+					100
+				},
+				"chuanmo/sheyingche_mask"
+			},
+			{
+				5.8,
+				-13.6
+			},
+			{
+				1,
+				1
+			},
+			0.4
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -146856,6 +147029,917 @@ pg.base.furniture_data_template = {
 				1
 			},
 			0.8
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324001] = {
+		can_rotate = 0,
+		describe = "踏上列車，感受鐵軌的律動與窗外的風景吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/dibancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "鐵路之旅地板",
+		advice = 0,
+		icon = "dibanczicon",
+		id = 324001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324002] = {
+		can_rotate = 0,
+		describe = "踏上列車，感受鐵軌的律動與窗外的風景吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道之旅壁紙",
+		advice = 0,
+		id = 324002,
+		icon = "qiangbiczicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324101] = {
+		can_rotate = 0,
+		describe = "常見的車站長椅，提供候車時的短暫休息",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "changyiczicon",
+		count = 1,
+		name = "鐵道車站長椅",
+		advice = 0,
+		id = 324101,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicz",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324102] = {
+		can_rotate = 0,
+		describe = "旅途疲憊了嗎？躺下來休息休息吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/shafacz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 2,
+		name = "鐵道列車沙發",
+		advice = 0,
+		id = 324102,
+		icon = "shafaczicon",
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324103] = {
+		can_rotate = 0,
+		describe = "柔軟的地毯，每一步都走得輕快自在！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/ditancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道列車地毯",
+		advice = 0,
+		icon = "ditanczicon",
+		id = 324103,
+		comfortable = 2,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324104] = {
+		can_rotate = 0,
+		describe = "嗶啵——客人，要買點什麼嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道車站販賣機",
+		advice = 0,
+		id = 324104,
+		icon = "fanmaijiczicon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanmaijicz",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324105] = {
+		can_rotate = 1,
+		describe = "非工作人員禁止入內哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/fengsuodaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道車站封鎖帶",
+		advice = 0,
+		icon = "fengsuodaiczicon",
+		id = 324105,
+		comfortable = 1,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324106] = {
+		can_rotate = 0,
+		describe = "歡迎搭乘本次列車啾~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道列車駕駛啾",
+		advice = 0,
+		id = 324106,
+		icon = "jiashijiuczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiashijiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324107] = {
+		can_rotate = 0,
+		describe = "獨屬於列車駕駛的戰鬥崗位！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/jiashitaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道列車駕駛台",
+		advice = 0,
+		icon = "jiashitaiczicon",
+		id = 324107,
+		comfortable = 3,
+		size = {
+			4,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324108] = {
+		can_rotate = 0,
+		describe = "車廂經過精心維護，鋥亮如嶄新出廠！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道列車車廂",
+		advice = 0,
+		id = 324108,
+		icon = "liecheqiangmianczicon",
+		comfortable = 2,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liecheqiangmiancz",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324109] = {
+		can_rotate = 0,
+		describe = "請抓緊扶手，注意腳下安全~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道車站通行梯",
+		advice = 0,
+		id = 324109,
+		icon = "louticzicon",
+		comfortable = 3,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"louticz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324110] = {
+		can_rotate = 1,
+		describe = "這樣就不會錯過發車時間了！大概……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道車站時鐘",
+		advice = 0,
+		id = 324110,
+		icon = "shizhongczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongcz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324111] = {
+		can_rotate = 0,
+		describe = "行李就放心交給推車吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/tuichecz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道車站推車",
+		advice = 0,
+		icon = "tuicheczicon",
+		id = 324111,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324112] = {
+		can_rotate = 0,
+		describe = "小巧實用，柔軟坐墊保持旅程舒適！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/xiaodengzicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道列車坐凳",
+		advice = 0,
+		id = 324112,
+		icon = "xiaodengziczicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.5,
+					51.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324113] = {
+		can_rotate = 0,
+		describe = "確保每個角落都安全無虞啾~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道車站巡邏啾",
+		advice = 0,
+		id = 324113,
+		icon = "xunluojiuczicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324114] = {
+		can_rotate = 0,
+		describe = "車次資訊一目了然！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhanpaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道車站資訊板",
+		advice = 0,
+		icon = "zhanpaiczicon",
+		id = 324114,
+		comfortable = 2,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324115] = {
+		can_rotate = 0,
+		describe = "旅途疲憊了嗎？坐下來休息休息吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi1cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鐵道列車座椅1",
+		advice = 0,
+		id = 324115,
+		icon = "zhuoyi1czicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.2,
+					12.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324116] = {
+		can_rotate = 0,
+		describe = "旅途疲憊了嗎？坐下來休息休息吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi2cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道列車座椅2",
+		advice = 0,
+		icon = "zhuoyi2czicon",
+		id = 324116,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324117] = {
+		can_rotate = 0,
+		describe = "在旅途中也要好好享受美食吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuozicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鐵道列車餐桌",
+		advice = 0,
+		icon = "zhuoziczicon",
+		id = 324117,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324118] = {
+		can_rotate = 0,
+		describe = "在車站把箱子打開，是在找什麼東西呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "xinglixiangczicon",
+		count = 1,
+		name = "鐵道車站大型旅行箱",
+		advice = 0,
+		id = 324118,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinglixiangczB",
+				"normal"
+			},
+			{
+				"xinglixiangczT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"stand2",
+						"stand2",
+						false,
+						true
+					}
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
 		},
 		followBone = {
 			"char",

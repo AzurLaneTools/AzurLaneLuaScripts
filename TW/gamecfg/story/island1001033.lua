@@ -82,7 +82,7 @@ return {
 		{
 			subName = "集会岛接待员",
 			say = "嗯……是玛丽给指挥官的吧？她之前一直缠着我想在岛上建一个。",
-			characterId = 101300,
+			characterId = 101000,
 			animation = "think",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 		{
 			say = "不用……指挥官只要把位置规划好就行了，很快就能建好的~",
 			subName = "集会岛接待员",
-			characterId = 101300,
+			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

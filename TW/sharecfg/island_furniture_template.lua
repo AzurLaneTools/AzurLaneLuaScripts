@@ -593,8 +593,8 @@ pg.island_furniture_template = {
 		bt = "",
 		id = 10305,
 		size = {
-			2,
-			1
+			4,
+			2
 		}
 	},
 	[10306] = {
@@ -1161,7 +1161,7 @@ pg.island_furniture_template = {
 	},
 	[20303] = {
 		setNum = 999,
-		describe = "想要新鲜的鱼干和苹果……",
+		describe = "好想吃油豆腐啊……",
 		name = "狐狸祠",
 		type = 3,
 		hierarchy = 5,
@@ -1526,8 +1526,8 @@ pg.island_furniture_template = {
 	},
 	[20801] = {
 		setNum = 999,
-		describe = "秋日的草色平铺在地面上，透着丝丝暖意~",
-		name = "秋日草地(小)",
+		describe = "土石小径蜿蜒其间，显露出未经修缮的自然之美~",
+		name = "土石小径(小)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,
@@ -1545,8 +1545,8 @@ pg.island_furniture_template = {
 	},
 	[20802] = {
 		setNum = 999,
-		describe = "秋日的草色平铺在地面上，透着丝丝暖意~",
-		name = "秋日草地(中)",
+		describe = "土石小径蜿蜒其间，显露出未经修缮的自然之美~",
+		name = "土石小径(中)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,
@@ -1564,8 +1564,8 @@ pg.island_furniture_template = {
 	},
 	[20803] = {
 		setNum = 999,
-		describe = "秋日的草色平铺在地面上，透着丝丝暖意~",
-		name = "秋日草地(大)",
+		describe = "土石小径蜿蜒其间，显露出未经修缮的自然之美~",
+		name = "土石小径(大)",
 		type = 8,
 		hierarchy = 6,
 		rarity = 2,

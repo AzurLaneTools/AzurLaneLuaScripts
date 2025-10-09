@@ -195,7 +195,9 @@ slot1.stopTimer = function(slot0)
 end
 
 slot1.onData = function(slot0)
-	originalPrint("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
+	if slot0.cmd ~= 21212 then
+		originalPrint("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
+	end
 
 	slot1 = uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer())
 

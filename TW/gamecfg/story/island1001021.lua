@@ -13,7 +13,11 @@ return {
 	},
 	look_weight = {
 		{
-			0.7,
+			0.4,
+			0
+		},
+		{
+			0.4,
 			0
 		},
 		{
@@ -23,9 +27,10 @@ return {
 	},
 	scripts = {
 		{
+			say = "萨拉托加——平安抵达！",
 			animation = "hi",
 			characterId = 1070300,
-			say = "萨拉托加——平安抵达！",
+			camera = "StoryCamera7",
 			face2Face = {
 				{
 					0,

@@ -229,6 +229,41 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50021] = {
+		id = 50021,
+		entrance_picture = "MedalAlbum/50021",
+		group_name = "迷彩都市的尋蹤者",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50021,
+				{
+					21776,
+					21777,
+					21778,
+					21779,
+					21780,
+					21781,
+					21782,
+					21783,
+					21784
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "CamouflageCityMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65631,
+				1
+			}
+		}
+	},
 	[50087] = {
 		id = 50087,
 		entrance_picture = "medalAlbum/50087",
@@ -315,6 +350,7 @@ pg.activity_medal_group = {
 		5913,
 		5970,
 		5971,
+		50021,
 		50087,
 		50136
 	}

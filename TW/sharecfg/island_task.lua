@@ -111,6 +111,7 @@ pg.island_task = setmetatable({
 			20003002,
 			20003003,
 			20003004,
+			20004000,
 			20004001,
 			20004002,
 			20004003,
@@ -173,6 +174,7 @@ pg.island_task = setmetatable({
 			20012008,
 			20012009,
 			20012010,
+			20013000,
 			20013001,
 			20013002,
 			20013003,
@@ -452,6 +454,7 @@ pg.island_task = setmetatable({
 		20003002,
 		20003003,
 		20003004,
+		20004000,
 		20004001,
 		20004002,
 		20004003,
@@ -514,6 +517,7 @@ pg.island_task = setmetatable({
 		20012008,
 		20012009,
 		20012010,
+		20013000,
 		20013001,
 		20013002,
 		20013003,
@@ -663,7 +667,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 50,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "初临篇",
 		navigation = 1004,
@@ -706,7 +710,7 @@ pg.base.island_task = {
 		complete_data = 10040022,
 		reward_exp = 50,
 		complete_tips = "把煤炭交给乔安吧",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "初临篇",
 		navigation = 1004,
@@ -747,7 +751,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10040060,
-		reward_exp = 50,
+		reward_exp = 100,
 		complete_tips = "把自然之木交给奥布莱恩吧",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -790,7 +794,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 50,
+		reward_exp = 100,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -872,7 +876,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 0,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "初临篇",
 		navigation = 1002,
@@ -1136,6 +1140,11 @@ pg.base.island_task = {
 				41,
 				1,
 				1000
+			},
+			{
+				50,
+				10004,
+				10
 			}
 		}
 	},
@@ -1312,8 +1321,9 @@ pg.base.island_task = {
 		complete_type = 2,
 		trigger_type = 2,
 		com_page = "",
+		reward_show = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 0,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1333,13 +1343,6 @@ pg.base.island_task = {
 		link_task = {},
 		target_id = {
 			100011511
-		},
-		reward_show = {
-			{
-				41,
-				1,
-				1000
-			}
 		}
 	},
 	[10001160] = {
@@ -1393,7 +1396,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10020013,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "去找{namecode:98:明石}吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1418,6 +1421,11 @@ pg.base.island_task = {
 			100011701
 		},
 		reward_show = {
+			{
+				41,
+				100001,
+				10
+			},
 			{
 				41,
 				1,
@@ -1475,7 +1483,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1499,11 +1507,6 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				100001,
-				10
-			},
-			{
-				41,
 				2700,
 				20
 			},
@@ -1525,7 +1528,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1636,7 +1639,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -1687,7 +1690,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 0,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1002,
@@ -1834,7 +1837,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 100,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1001,
@@ -1989,7 +1992,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "回去找梅莉吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2032,7 +2035,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2072,9 +2075,9 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10010003,
-		reward_exp = 100,
+		reward_exp = 200,
 		complete_tips = "回去找梅莉吧(0/1)",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1001,
@@ -2316,7 +2319,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 200,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1002,
@@ -2442,7 +2445,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 200,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1002,
@@ -2738,7 +2741,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 300,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2785,7 +2788,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 300,
+		reward_exp = 200,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -2827,7 +2830,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 300,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "债务篇",
 		navigation = 1002,
@@ -3197,7 +3200,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10030008,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "去找莉莎吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3241,7 +3244,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3281,7 +3284,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3321,7 +3324,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 400,
+		reward_exp = 300,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3482,7 +3485,7 @@ pg.base.island_task = {
 		complete_data = 0,
 		reward_exp = 400,
 		complete_tips = "",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "新枝篇",
 		navigation = 1006,
@@ -3520,7 +3523,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "去找阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3563,7 +3566,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10060002,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "去找阿莫玛吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3643,7 +3646,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3683,7 +3686,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "带回去给拉科尼亚看看",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3726,9 +3729,9 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "去找拉科尼娅吧(0/1)",
-		is_tech_task = 0,
+		is_tech_task = 1,
 		unlock_time = "always",
 		series = "新枝篇",
 		navigation = 1005,
@@ -3755,6 +3758,11 @@ pg.base.island_task = {
 				41,
 				1,
 				2000
+			},
+			{
+				41,
+				1016,
+				1
 			}
 		}
 	},
@@ -3769,7 +3777,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 0,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3849,7 +3857,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "也给拉科尼娅尝尝吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3892,7 +3900,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		complete_data = 10050003,
-		reward_exp = 500,
+		reward_exp = 400,
 		complete_tips = "去告诉拉科尼娅吧(0/1)",
 		is_tech_task = 0,
 		unlock_time = "always",
@@ -3925,12 +3933,12 @@ pg.base.island_task = {
 			{
 				50,
 				10004,
-				120
+				60
 			},
 			{
 				50,
 				20004,
-				24
+				12
 			}
 		}
 	},
@@ -4137,8 +4145,8 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				100000,
-				3
+				100201,
+				2
 			},
 			{
 				41,
@@ -4179,7 +4187,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4249,7 +4257,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4321,7 +4329,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4393,7 +4401,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4465,7 +4473,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4542,7 +4550,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4619,7 +4627,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4696,7 +4704,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4766,7 +4774,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4838,7 +4846,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4910,7 +4918,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -4982,7 +4990,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5059,7 +5067,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5136,7 +5144,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5213,7 +5221,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5283,7 +5291,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5355,7 +5363,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -5427,7 +5435,7 @@ pg.base.island_task = {
 				{
 					2025,
 					9,
-					25
+					29
 				},
 				{
 					0,
@@ -6896,7 +6904,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				20001002
+				20001003
 			}
 		},
 		link_task = {},
@@ -7386,7 +7394,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10001141
+				10004010
 			}
 		},
 		link_task = {},
@@ -7524,6 +7532,46 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[20004000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "提升开发等级",
+		type = 2,
+		task_desc = "前置",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "前置",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "提升开发等级",
+		id = 20004000,
+		unlock_condition = {
+			{
+				2,
+				10003040
+			},
+			{
+				2,
+				20011005
+			}
+		},
+		link_task = {
+			0
+		},
+		target_id = {
+			200040000
+		},
+		reward_show = {}
+	},
 	[20004001] = {
 		trigger_data = 10060002,
 		trigger_tips = 1,
@@ -7549,11 +7597,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10003040
-			},
-			{
-				2,
-				20011005
+				20004000
 			}
 		},
 		link_task = {},
@@ -7679,7 +7723,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10002140
+				10002150
 			}
 		},
 		link_task = {},
@@ -8813,7 +8857,7 @@ pg.base.island_task = {
 		trigger_tips = 0,
 		name = "风险处理",
 		type = 2,
-		task_desc = "煤炭成功送到，看看货运风险是否成功降低吧。",
+		task_desc = "煤炭也丢失了，快去收集一批煤炭交给斯蒂芬妮吧。",
 		map_trigger_tips = 0,
 		complete_type = 1,
 		trigger_type = 2,
@@ -9345,7 +9389,27 @@ pg.base.island_task = {
 		reward_show = {
 			{
 				41,
-				1,
+				110001,
+				2
+			},
+			{
+				41,
+				110002,
+				1
+			},
+			{
+				41,
+				110003,
+				1
+			},
+			{
+				41,
+				110004,
+				1
+			},
+			{
+				41,
+				110005,
 				1
 			}
 		}
@@ -9937,6 +10001,42 @@ pg.base.island_task = {
 			}
 		}
 	},
+	[20013000] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "提升开发等级",
+		type = 2,
+		task_desc = "提升开发等级",
+		map_trigger_tips = 0,
+		complete_type = 2,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "提升开发等级",
+		is_tech_task = 0,
+		unlock_time = "always",
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "提升开发等级",
+		id = 20013000,
+		unlock_condition = {
+			{
+				2,
+				10003100
+			}
+		},
+		link_task = {
+			0
+		},
+		target_id = {
+			200130000
+		},
+		reward_show = {}
+	},
 	[20013001] = {
 		trigger_data = 10050003,
 		trigger_tips = 1,
@@ -9962,7 +10062,7 @@ pg.base.island_task = {
 		unlock_condition = {
 			{
 				2,
-				10003100
+				20013000
 			}
 		},
 		link_task = {},
@@ -10364,12 +10464,12 @@ pg.base.island_task = {
 		}
 	},
 	[20015001] = {
-		trigger_data = 10030006,
+		trigger_data = 10020025,
 		trigger_tips = 0,
 		name = "启动时刻！",
 		type = 2,
 		task_desc = "现在正是开发岛屿的好时候，佩芮正好在进行资材规划，快去找她吧。",
-		map_trigger_tips = 1003,
+		map_trigger_tips = 1002,
 		complete_type = 2,
 		trigger_type = 1,
 		com_page = "",
@@ -10721,8 +10821,7 @@ pg.base.island_task = {
 		link_task = {},
 		target_id = {
 			300000071,
-			300000072,
-			300000073
+			300000072
 		},
 		reward_show = {
 			{

@@ -14,13 +14,41 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
-			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "最近{namecode:97}发现了创口贴全新的使用方法，不仅可以治愈伤痕，还可以用来充当衣服呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "happy_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_think_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{

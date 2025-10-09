@@ -389,7 +389,17 @@ slot0.OnShow = function(slot0)
 	slot0:RightSelectBtnHandle()
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
 slot0.OnHide = function(slot0)
+	if slot0.recordState then
+		triggerButton(slot0.btnFilm)
+
+		return
+	end
+
 	slot0.takePhotoModel = nil
 
 	slot0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)

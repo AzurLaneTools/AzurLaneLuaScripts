@@ -3,7 +3,7 @@ return {
 		show = false,
 		type = 4,
 		unitIdList = {
-			10050000
+			10060002
 		}
 	},
 	{
@@ -14,7 +14,7 @@ return {
 		show = true,
 		type = 4,
 		unitIdList = {
-			10050000
+			10060002
 		}
 	}
 }

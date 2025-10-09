@@ -78,7 +78,7 @@ slot0.GenPlaceModelUnit = function(slot0, slot1)
 		return
 	end
 
-	table.insert(slot1, IslandDataConvertor.WorldObj2IslandUnit(pg.island_world_objects[slot0:GetPlaceModelId(slot0.building ~= nil)]))
+	table.insert(slot1, slot0:GetPlaceModelUnit(slot0.building ~= nil))
 end
 
 slot0.GetPlaceModelId = function(slot0, slot1)
@@ -87,6 +87,10 @@ slot0.GetPlaceModelId = function(slot0, slot1)
 	else
 		return pg.island_production_place[slot0.productPlaceId].locked_obj
 	end
+end
+
+slot0.GetPlaceModelUnit = function(slot0, slot1)
+	return IslandDataConvertor.WorldObj2IslandUnit(pg.island_world_objects[slot0:GetPlaceModelId(slot1)])
 end
 
 slot0.InitCommissionCfgData = function(slot0)
@@ -102,7 +106,7 @@ slot0.GetCommissionSlotId = function(slot0, slot1)
 end
 
 slot0.GenHandCollectSlot = function(slot0, slot1)
-	if not slot0.building then
+	if not slot0.building or not slot0.isSelf then
 		return
 	end
 

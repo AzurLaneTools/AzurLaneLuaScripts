@@ -18,13 +18,12 @@ slot0.OnInit = function(slot0, slot1)
 
 	setParent(slot0.opUI, slot1)
 
-	slot0.showBalance = 1
+	slot0.showBalance = slot0:GetView():GetCacheOpCount() or 1
 	slot0.inputController = IslandCameraMgr.instance.gameObject:GetComponent(typeof(InputController))
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.opPanel = slot0.opUI:Find("op_btns")
-	slot2 = slot0.opPanel
-	slot0.opBtn = slot2:Find("op_btn")
+	slot0.opBtn = slot0.opPanel:Find("op_btn")
 	slot0.opBtnList = {
 		slot0.opBtn:Find("interaction"),
 		slot0.opBtn:Find("plant"),
@@ -169,8 +168,8 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		setActive(slot0.opBtn, false)
 		setActive(slot0.areaChangeBtn, false)
 		setActive(slot0.seedBtn, false)
-		setActive(slot0.seed_detals, false)
 		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
 
 		return
 	end
@@ -185,8 +184,8 @@ slot0.UpdateOperationButtonDisplay = function(slot0)
 		setActive(slot0.opBtn, false)
 		setActive(slot0.areaChangeBtn, false)
 		setActive(slot0.seedBtn, false)
-		setActive(slot0.seed_detals, false)
 		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		slot0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
 
 		return
 	end
@@ -384,15 +383,23 @@ slot0.EnablePlayerOp = function(slot0)
 	slot0.playerInputManager:EnableInput()
 	slot0:GetView():GetSubView(IslandDistanceView):TryEnable()
 	slot0:GetView().player:ActiveOrDisactive(true)
+
+	if slot0.inInteraction then
+		slot0:StartInteraction()
+	end
 end
 
 slot0.StartInteraction = function(slot0)
+	slot0.inInteraction = true
+
 	slot0:ShowOrHideGameObject(slot0.moveBtn, false)
 	slot0:ShowOrHideGameObject(slot0.opPanel, false)
 	slot0.playerInputManager:DisablePlayerHandle()
 end
 
 slot0.EndInteraction = function(slot0)
+	slot0.inInteraction = false
+
 	slot0:ShowOrHideGameObject(slot0.moveBtn, true)
 	slot0:ShowOrHideGameObject(slot0.opPanel, true)
 	slot0.playerInputManager:EnablePlayerHandle()

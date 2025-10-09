@@ -40,7 +40,6 @@ slot0.OnInit = function(slot0)
 		end
 
 		seriesAsync(slot0, function ()
-			print("??????????????")
 			uv0:emit(IslandMediator.ON_GIVE_GIFT, uv0.selectedId, 1, uv0.shipId)
 		end)
 	end, SFX_PANEL)

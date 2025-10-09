@@ -228,6 +228,9 @@ slot0.FlushPeopleCnt = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0._scrollrect)
+	ClearLScrollrect(slot0._scrollrectLog)
+
 	for slot4, slot5 in pairs(slot0.cardList) do
 		for slot9, slot10 in pairs(slot5) do
 			slot10:Dispose()

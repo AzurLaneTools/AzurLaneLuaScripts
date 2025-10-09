@@ -5445,6 +5445,9 @@ temp = function()
 			},
 			["9"] = {
 				this = true
+			},
+			["3"] = {
+				this = true
 			}
 		},
 		["2"] = {
@@ -5859,6 +5862,9 @@ temp = function()
 								}
 							}
 						}
+					},
+					["2"] = {
+						this = true
 					}
 				},
 				["2"] = {
@@ -7267,6 +7273,22 @@ temp = function()
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["曾"] = {
+		["克"] = {
+			["爾"] = {
+				["將"] = {
+					["軍"] = {
+						this = true
 					}
 				}
 			}

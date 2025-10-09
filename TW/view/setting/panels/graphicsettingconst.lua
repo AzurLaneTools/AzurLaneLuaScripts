@@ -442,7 +442,13 @@ slot0.InitDefautQuality = function(slot0)
 			end
 		end
 
-		PlayerPrefs.SetInt(slot1, slot3 == DevicePerformanceLevel.High and 3 or slot3 == DevicePerformanceLevel.Mid and 2 or 1)
+		slot2 = slot3 == DevicePerformanceLevel.High and 3 or slot3 == DevicePerformanceLevel.Mid and 2 or 1
+
+		if slot0 then
+			PlayerPrefs.SetInt(slot1, 1)
+		else
+			PlayerPrefs.SetInt(slot1, slot2)
+		end
 
 		if not slot0 then
 			Dorm3dRoomTemplateScene.FirstDefaultSetting = slot2

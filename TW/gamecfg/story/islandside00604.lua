@@ -4,8 +4,9 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "果然在这里么。",
 			characterId = 0,
+			say = "果然在这里么。",
+			camera = "StoryCameraSideTask1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

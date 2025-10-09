@@ -2113,6 +2113,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			40109,
 			40111,
+			40113,
 			40116
 		}
 	},
@@ -2359,6 +2360,17 @@ pg.fleet_tech_ship_class = {
 			40406
 		}
 	},
+	[40407] = {
+		shiptype = 4,
+		name = "曾克爾將軍",
+		t_level = 5,
+		id = 40407,
+		t_level_1 = 1,
+		nation = 4,
+		ships = {
+			40407
+		}
+	},
 	[40501] = {
 		shiptype = 5,
 		name = "俾斯麥級",
@@ -2498,7 +2510,8 @@ pg.fleet_tech_ship_class = {
 			40804,
 			40803,
 			40811,
-			40812
+			40812,
+			40814
 		}
 	},
 	[40803] = {
@@ -4419,6 +4432,7 @@ pg.fleet_tech_ship_class = {
 		40404,
 		40405,
 		40406,
+		40407,
 		40501,
 		40502,
 		40503,

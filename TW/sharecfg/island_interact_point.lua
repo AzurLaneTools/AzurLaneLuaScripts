@@ -29,9 +29,9 @@ pg.island_interact_point = {
 			{}
 		},
 		offset = {
-			6.07,
+			7.38,
 			0,
-			-0.97
+			-0.37
 		}
 	},
 	{

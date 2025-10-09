@@ -14,13 +14,41 @@ return {
 		{
 			actorName = 30707,
 			side = 2,
-			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "等、等等，{namecode:97}在{dorm3d}身上嗅到其他孩子的味道，难道{namecode:97}的宿舍不是您的唯一选择吗？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "refuse_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_shy_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{

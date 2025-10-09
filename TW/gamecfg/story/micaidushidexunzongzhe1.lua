@@ -13,33 +13,33 @@ return {
 			bgm = "story-antarctica-serious",
 			sequence = {
 				{
-					"霓虹之下，人们将谎言织成迷彩，以生存作为底色。",
+					"在霓虹之下，人們將謊言織成迷彩，以生存作為底色。",
 					1
 				},
 				{
-					"当爆炸的火光点亮城市的暗角，谁在演绎剧本，谁又在书写结局？",
+					"當爆炸的火光點亮城市的暗角，誰在演繹劇本，誰又在寫結局？",
 					2
 				},
 				{
-					"今晚，警视厅特别顾问——",
+					"今晚，警視廳特別顧問——",
 					3
 				},
 				{
-					"将找寻那唯一的真相。",
+					"將找出那唯一的真相。",
 					4
 				}
 			}
 		},
 		{
 			side = 2,
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			bgName = "star_level_bg_171",
 			bgm = "story-spycity-fashion",
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~终于要开始了喵~",
+			say = "喵呼呼~終於要開始喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,23 +65,23 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主演，剧本都记住了么喵？",
+			say = "主演，劇本都記住了嗎喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……什么主演？",
+					content = "……什麼主演？",
 					flag = 1
 				},
 				{
-					content = "……什么剧本？",
+					content = "……什麼劇本？",
 					flag = 2
 				}
 			}
@@ -90,12 +90,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵？主演就是主演，剧本就是剧本喵？",
+			say = "喵？主演就是主演，劇本就是劇本喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是贵人多忘事喵，不过没有关系喵！",
+			say = "指揮官真是貴人多忘事喵，但沒有關係喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们直接开拍吧喵！",
+			say = "我們直接開拍吧喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……我很确定我确实没有收到过剧本，也不知道主演是怎么回事。",
+			say = "等等……我很確定我確實沒有收到劇本，也不知道主演是怎麼回事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是收到了{namecode:55:青叶}的联络过来配合她取材……",
+			say = "我是收到了青葉的聯絡過來配合她取材……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +163,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "特別顧問",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们是一伙的！",
+			say = "……妳們是一伙的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,12 +177,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~没有剧本就是最好的剧本！",
+			say = "喵呼呼~沒有劇本就是最好的劇本！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,12 +191,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的本色出演才卖座的喵~",
+			say = "指揮官的本色出演才賣座的喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,12 +206,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之——警视厅特别顾问，希望你在接下来也能一直保持这份敏锐的观察力呢~",
+			say = "總之——警視廳特別顧問，希望你在接下來也能一直保持這份敏銳的觀察力呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,12 +220,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各部门注意，主演已经就位喵！",
+			say = "各部門注意，主演已經就位喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,12 +235,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "導演",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三、二、一 ——Action~喵！",
+			say = "三、二、一——Action~喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

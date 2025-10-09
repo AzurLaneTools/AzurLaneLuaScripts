@@ -24,7 +24,7 @@ slot0.OnInit = function(slot0)
 	setText(slot0.hudTitle, slot1.title)
 	setText(slot0.hudName, slot1.name)
 
-	slot0.playerObj = slot0:GetPlayer()
+	slot0.playerTF = slot0:GetPlayer()
 
 	slot0:CheckPlayer()
 end
@@ -46,7 +46,7 @@ slot0.GetPlayer = function(slot0)
 		if slot7.isPlayer then
 			slot0.hasPlayer = true
 
-			return slot7.gameObject
+			return slot7.gameObject.transform
 		end
 	end
 
@@ -56,17 +56,15 @@ end
 slot0.CheckIsNear = function(slot0)
 	slot2 = slot0.view:GetUnitModuleWithType(slot0.unitType, slot0.unitId) and slot1._go or nil
 
-	if not slot1 or IsNil(slot2) or not slot2.transform then
+	if not slot1 or IsNil(slot2) or IsNil(slot2.transform) then
 		return false
 	end
 
-	if IsNil(slot0.playerObj) then
-		warning("playerObj is nil")
-
+	if IsNil(slot0.playerTF) then
 		return false
 	end
 
-	if (slot0.playerObj.transform.position - slot2.transform.position).magnitude < slot0.hud_name_range then
+	if (slot0.playerTF.position - slot2.transform.position).magnitude < slot0.hud_name_range then
 		return true
 	end
 
@@ -95,6 +93,10 @@ slot0.RefreshHud = function(slot0)
 end
 
 slot0.UpdateTaskDisplay = function(slot0)
+	if IsNil(slot0.hudImageBg) then
+		return
+	end
+
 	slot1, slot2 = IslandObjectTaskHudHelper.GetObjectTaskHud(slot0.unitId)
 
 	if slot0.currentTaskId ~= slot2 then

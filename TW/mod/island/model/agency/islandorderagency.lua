@@ -139,7 +139,7 @@ slot0.SetTendency = function(slot0, slot1)
 end
 
 slot0.ExpSystemIsOpen = function(slot0)
-	return slot0:GetHost():GetAblityAgency():HasAbility(IslandAblityAgency.ORDER_EXP_ID)
+	return slot0:GetHost():GetAblityAgency():IsUnlockOrderExp()
 end
 
 slot0.AddExp = function(slot0, slot1)

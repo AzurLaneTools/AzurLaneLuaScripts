@@ -89,7 +89,9 @@ slot0.GetConsumeAwards = function(slot0, slot1)
 end
 
 slot0.GetAwardList = function(slot0)
-	return slot0.awardList
+	return _.select(slot0.awardList, function (slot0)
+		return slot0.count > 0
+	end)
 end
 
 return slot0
