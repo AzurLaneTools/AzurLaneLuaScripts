@@ -22,6 +22,14 @@ slot0.OnLoaded = function(slot0)
 
 	setActive(slot3:Find("tpl"), false)
 
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/get/Text"), i18n("handbook_claim"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/got/Text"), i18n("handbook_finished"))
+
 	slot2 = slot0._tf
 	slot2 = slot2:Find("view")
 	slot0.scrollRect = slot2:GetComponent("LScrollRect")

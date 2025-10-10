@@ -45323,6 +45323,11 @@ _G.pg.base.gametip.island_setmeal_title = {
 }
 
 
+_G.pg.base.gametip.island_setmeal_benifit_title = {
+	tip = "売上UP"
+}
+
+
 _G.pg.base.gametip.island_shipselect_confirm = {
 	tip = "確定"
 }
