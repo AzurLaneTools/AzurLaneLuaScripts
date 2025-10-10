@@ -120,7 +120,7 @@ slot0.loadScene = function(slot0, slot1, slot2, slot3, slot4)
 			}, slot0)
 		end,
 		function (slot0)
-			if uv0.cleanStack then
+			if uv0.cleanCacheUI then
 				uv1:clearCacheUI()
 			end
 

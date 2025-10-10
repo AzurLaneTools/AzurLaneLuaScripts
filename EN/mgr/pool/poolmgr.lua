@@ -382,8 +382,7 @@ slot0.ReturnLive2D = function(slot0, slot1, slot2)
 		setActiveViaLayer(slot2, true)
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)
-		slot0.pools_plural[slot4]:Enqueue(slot2)
-		slot0.pools_plural[slot4]:ClearItems()
+		slot0.pools_plural[slot4]:Enqueue(slot2, true)
 		slot0:ExcessDymPainting()
 	else
 		uv0.Destroy(slot2)
@@ -411,6 +410,8 @@ slot0.ExcessDymPainting = function(slot0, slot1)
 	uv2 = uv2 + 1
 
 	if slot1 then
+		uv2 = 0
+
 		for slot8, slot9 in ipairs(slot4) do
 			slot0.pools_plural[slot9]:Clear()
 

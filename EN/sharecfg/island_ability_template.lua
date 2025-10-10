@@ -1249,7 +1249,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/gold"
 	},
 	[38001] = {
-		unlock_text = "丰壤农田委派效率提高 4%",
+		unlock_text = "Working Efficiency at Faircrop Fields +4%",
 		effect = 4,
 		show_type = 0,
 		type = 38,
@@ -1257,7 +1257,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff"
 	},
 	[38002] = {
-		unlock_text = "丰壤农田委派效率提高 8%",
+		unlock_text = "Working Efficiency at Faircrop Fields +8%",
 		effect = 8,
 		show_type = 0,
 		type = 38,
@@ -1265,7 +1265,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff"
 	},
 	[39001] = {
-		unlock_text = "坠香果园委派效率提高 4%",
+		unlock_text = "Working Efficiency at Sweetscent Orchard +4%",
 		effect = 4,
 		show_type = 0,
 		type = 39,
@@ -1273,7 +1273,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff"
 	},
 	[39002] = {
-		unlock_text = "坠香果园委派效率提高 8%",
+		unlock_text = "Working Efficiency at Sweetscent Orchard +8%",
 		effect = 8,
 		show_type = 0,
 		type = 39,
@@ -1281,7 +1281,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff"
 	},
 	[40001] = {
-		unlock_text = "青芽苗圃委派效率提高 4%",
+		unlock_text = "Working Efficiency at Newsprout Nursery +4%",
 		effect = 4,
 		show_type = 0,
 		type = 40,
@@ -1289,7 +1289,7 @@ pg.island_ability_template = {
 		cmd_icon = "IslandProps/buff"
 	},
 	[40002] = {
-		unlock_text = "青芽苗圃委派效率提高 8%",
+		unlock_text = "Working Efficiency at Newsprout Nursery +8%",
 		effect = 8,
 		show_type = 0,
 		type = 40,

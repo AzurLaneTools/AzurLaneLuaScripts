@@ -945,7 +945,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130301] = {
-		tech_desc = "Increases the number of daily supply drops. That means new surprises to go and collect!",
+		tech_desc = "Increases the content of daily supply drops at Get-Together Island. That means new surprises to go and collect!",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_130301",
@@ -1038,7 +1038,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130302] = {
-		tech_desc = "Increases the number of daily supply drops. That means new surprises to go and collect!",
+		tech_desc = "Increases the content of daily supply drops at Get-Together Island. That means new surprises to go and collect!",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_130301",
@@ -1424,7 +1424,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220101] = {
-		tech_desc = "Unlocks a logging slot in Rockheap Mine. Time to accumulate heaps of minerals!",
+		tech_desc = "Unlocks a mining slot in Rockheap Mine. Time to accumulate heaps of minerals!",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_220101",
@@ -1451,7 +1451,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220501] = {
-		tech_desc = "Increases manual logging efficiency. Allows for quicker extraction of resources.",
+		tech_desc = "Increases manual mining efficiency. Allows for quicker extraction of resources.",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_220501",
@@ -1532,7 +1532,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220401] = {
-		tech_desc = "Decreases resource recovery time when logging manually. Enjoy the more frequent resources!",
+		tech_desc = "Decreases resource recovery time when mining manually. Enjoy the more frequent resources!",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_220401",
@@ -1667,7 +1667,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[220502] = {
-		tech_desc = "Increases manual logging efficiency. Allows for quicker extraction of resources.",
+		tech_desc = "Increases manual mining efficiency. Allows for quicker extraction of resources.",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_220501",
@@ -2620,7 +2620,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320205] = {
-		tech_desc = "Gives access to advanced growing techniques that make Lavender able to grow rapidly in the island's environment.",
+		tech_desc = "Lavender Cultivation Techniques",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_320201",
@@ -4094,7 +4094,7 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320203] = {
-		tech_desc = "Gives access to advanced growing techniques that make Cotton able to grow rapidly in the island's environment.",
+		tech_desc = "Gives access to advanced growing techniques that make Tea Trees able to grow rapidly in the island's environment.",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_320201",
@@ -5036,12 +5036,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[630203] = {
-		tech_desc = "Allows for the production of tightly sealed Oak Barrels for preservation.",
+		tech_desc = "Allows for the production of tightly sealed Choice Wooden Barrels for preservation.",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_630201",
 		tech_belong = 6,
-		tech_name = "Oak Barrel",
+		tech_name = "Choice Wooden Barrel",
 		complete_tips = "You can now obtain Choice Wooden Barrels.",
 		formula_id = 7630203,
 		tech_level = "1",

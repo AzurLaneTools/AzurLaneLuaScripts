@@ -27,6 +27,8 @@ slot0.OnShowFlush = function(slot0)
 	uv0.super.OnShowFlush(slot0)
 
 	if slot0.coreActivityUI.contextData.activeScenario then
+		slot0.scenario.needFocusStory = true
+
 		triggerButton(slot0.goBtn)
 	end
 end

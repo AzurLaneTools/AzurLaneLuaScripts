@@ -31285,7 +31285,7 @@ _G.pg.base.gametip.word_maingroup_updatefailure = {
 
 
 _G.pg.base.gametip.group_download_tip = {
-	tip = "You must download $1 of data to perform an update./n Proceed with download?"
+	tip = "You must download $1 of data to perform an update.\n Proceed with download?"
 }
 
 
