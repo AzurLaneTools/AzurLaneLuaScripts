@@ -158,6 +158,8 @@ slot0.SetTotalCount = function(slot0)
 		end
 	end
 
+	slot0.scrollRect.enabled = true
+
 	slot0.scrollRect:SetTotalCount(#slot0.lastDiaplys)
 end
 

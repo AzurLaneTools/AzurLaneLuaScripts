@@ -2620,12 +2620,12 @@ pg.base.island_technology_template = {
 		}
 	},
 	[320205] = {
-		tech_desc = "Lavender Cultivation Techniques",
+		tech_desc = "Gives access to advanced growing techniques that make Lavender able to grow rapidly in the island's environment.",
 		auto_finish = 1,
 		tech_chara = 1,
 		tech_icon = "tech_320201",
 		tech_belong = 3,
-		tech_name = "Lavender",
+		tech_name = "Lavender Cultivation Techniques",
 		complete_tips = "You can now obtain Lavender.",
 		formula_id = 7320205,
 		tech_level = "1",

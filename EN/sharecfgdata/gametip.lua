@@ -45141,6 +45141,11 @@ _G.pg.base.gametip.island_setmeal_title = {
 }
 
 
+_G.pg.base.gametip.island_setmeal_benifit_title = {
+	tip = "Revenue Up"
+}
+
+
 _G.pg.base.gametip.island_shipselect_confirm = {
 	tip = "Confirm "
 }

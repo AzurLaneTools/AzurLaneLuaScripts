@@ -35166,88 +35166,93 @@ cs.gametip = {
 		95,
 		true
 	},
-	island_shipselect_confirm = {
+	island_setmeal_benifit_title = {
 		1257022,
+		102,
+		true
+	},
+	island_shipselect_confirm = {
+		1257124,
 		97,
 		true
 	},
 	island_dresscolorunlock_tips = {
-		1257119,
+		1257221,
 		107,
 		true
 	},
 	island_dresscolorunlock = {
-		1257226,
+		1257328,
 		93,
 		true
 	},
 	danmachi_main_sheet1 = {
-		1257319,
+		1257421,
 		94,
 		true
 	},
 	danmachi_main_sheet2 = {
-		1257413,
+		1257515,
 		90,
 		true
 	},
 	danmachi_main_sheet3 = {
-		1257503,
+		1257605,
 		92,
 		true
 	},
 	danmachi_main_sheet4 = {
-		1257595,
+		1257697,
 		89,
 		true
 	},
 	danmachi_main_sheet5 = {
-		1257684,
+		1257786,
 		95,
 		true
 	},
 	danmachi_main_time = {
-		1257779,
+		1257881,
 		97,
 		true
 	},
 	danmachi_award_1 = {
-		1257876,
+		1257978,
 		88,
 		true
 	},
 	danmachi_award_2 = {
-		1257964,
+		1258066,
 		89,
 		true
 	},
 	danmachi_award_3 = {
-		1258053,
+		1258155,
 		90,
 		true
 	},
 	danmachi_award_4 = {
-		1258143,
+		1258245,
 		88,
 		true
 	},
 	danmachi_award_name1 = {
-		1258231,
+		1258333,
 		90,
 		true
 	},
 	danmachi_award_name2 = {
-		1258321,
+		1258423,
 		92,
 		true
 	},
 	danmachi_award_get = {
-		1258413,
+		1258515,
 		90,
 		true
 	},
 	danmachi_award_unget = {
-		1258503,
+		1258605,
 		94,
 		true
 	}
