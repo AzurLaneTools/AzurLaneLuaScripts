@@ -45,4 +45,9 @@ slot0.OnDressUpdateItem = function(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. IslandShip.StaticGetPrefab(slot4.ship_id), "", slot3:Find("shipHold/ship_icon"))
 end
 
+slot0.OnDestroy = function(slot0)
+	uv0.super.OnDestroy(slot0)
+	ClearLScrollrect(slot0.dressRect)
+end
+
 return slot0

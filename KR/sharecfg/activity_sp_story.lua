@@ -4725,6 +4725,285 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[271] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 그래서 그렇게",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA1",
+		change_bgm = "",
+		id = 271,
+		lock = ""
+	},
+	[272] = {
+		story_type = 1,
+		name = "EP1-1 헤스티아의 방문",
+		change_prefab = "",
+		unlock_conditions = "EPS-1 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA2",
+		change_bgm = "",
+		id = 272,
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				271
+			}
+		}
+	},
+	[273] = {
+		story_type = 1,
+		name = "EP1-2 신과 던전",
+		change_prefab = "",
+		unlock_conditions = "1-1 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA3",
+		change_bgm = "",
+		id = 273,
+		pre_event = {
+			272
+		},
+		lock = {
+			{
+				4,
+				272
+			}
+		}
+	},
+	[274] = {
+		story_type = 1,
+		name = "EP1-3 합류",
+		change_prefab = "",
+		unlock_conditions = "1-2 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA4",
+		change_bgm = "",
+		id = 274,
+		pre_event = {
+			273
+		},
+		lock = {
+			{
+				4,
+				273
+			}
+		}
+	},
+	[275] = {
+		story_type = 1,
+		name = "EP2-1 류의 이야기",
+		change_prefab = "",
+		unlock_conditions = "1-3 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA5",
+		change_bgm = "",
+		id = 275,
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				274
+			}
+		}
+	},
+	[276] = {
+		story_type = 1,
+		name = "EP1-2 신과 모험가",
+		change_prefab = "",
+		unlock_conditions = "2-1 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA6",
+		change_bgm = "",
+		id = 276,
+		pre_event = {
+			275
+		},
+		lock = {
+			{
+				4,
+				275
+			}
+		}
+	},
+	[277] = {
+		story_type = 1,
+		name = "EP2-3 보급 문제",
+		change_prefab = "",
+		unlock_conditions = "2-2 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA7",
+		change_bgm = "",
+		id = 277,
+		pre_event = {
+			276
+		},
+		lock = {
+			{
+				4,
+				276
+			}
+		}
+	},
+	[278] = {
+		story_type = 1,
+		name = "EP3-1 요리",
+		change_prefab = "",
+		unlock_conditions = "2-3 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA8",
+		change_bgm = "",
+		id = 278,
+		pre_event = {
+			274,
+			277
+		},
+		lock = {
+			{
+				4,
+				277
+			}
+		}
+	},
+	[279] = {
+		story_type = 1,
+		name = "EP3-2 모험가의 마법",
+		change_prefab = "",
+		unlock_conditions = "3-1 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA9",
+		change_bgm = "",
+		id = 279,
+		pre_event = {
+			278
+		},
+		lock = {
+			{
+				4,
+				278
+			}
+		}
+	},
+	[280] = {
+		story_type = 1,
+		name = "EP3-3 전리품",
+		change_prefab = "",
+		unlock_conditions = "3-2 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA10",
+		change_bgm = "",
+		id = 280,
+		pre_event = {
+			279
+		},
+		lock = {
+			{
+				4,
+				279
+			}
+		}
+	},
+	[281] = {
+		story_type = 1,
+		name = "EP4-1 의장",
+		change_prefab = "",
+		unlock_conditions = "3-3 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA11",
+		change_bgm = "",
+		id = 281,
+		pre_event = {
+			280
+		},
+		lock = {
+			{
+				4,
+				280
+			}
+		}
+	},
+	[282] = {
+		story_type = 1,
+		name = "EP4-2 자유롭게 질주",
+		change_prefab = "",
+		unlock_conditions = "4-1 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA12",
+		change_bgm = "",
+		id = 282,
+		pre_event = {
+			281
+		},
+		lock = {
+			{
+				4,
+				281
+			}
+		}
+	},
+	[283] = {
+		story_type = 2,
+		name = "EP4-3 첫 실전",
+		change_prefab = "",
+		unlock_conditions = "4-2 클리어",
+		change_background = "",
+		story = "1967001",
+		change_bgm = "",
+		id = 283,
+		pre_event = {
+			282
+		},
+		lock = {
+			{
+				4,
+				282
+			}
+		}
+	},
+	[284] = {
+		story_type = 1,
+		name = "EP4-4 숙련된 모험가",
+		change_prefab = "",
+		unlock_conditions = "4-3 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA14",
+		change_bgm = "",
+		id = 284,
+		pre_event = {
+			283
+		},
+		lock = {
+			{
+				4,
+				283
+			}
+		}
+	},
+	[285] = {
+		story_type = 1,
+		name = "EP4-5 웰컴 투 모항",
+		change_prefab = "",
+		unlock_conditions = "4-4 클리어",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA15",
+		change_bgm = "",
+		id = 285,
+		pre_event = {
+			284
+		},
+		lock = {
+			{
+				4,
+				284
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4976,6 +5255,21 @@ pg.activity_sp_story = {
 		266,
 		267,
 		268,
-		269
+		269,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285
 	}
 }

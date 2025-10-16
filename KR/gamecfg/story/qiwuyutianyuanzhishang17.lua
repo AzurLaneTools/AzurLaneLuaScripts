@@ -369,7 +369,7 @@ return {
 			portrait = 102059,
 			side = 2,
 			bgName = "star_level_bg_493",
-			actorName = "「――천역 아마하라에 온 걸 환영해」",
+			actorName = "헬레나·改",
 			bgm = "bgm-waterwave",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_493",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "「――천역 아마하라에 온 걸 환영해」",
+			actorName = "헬레나·改",
 			say = "지휘관…… 어디야?",
 			typewriter = {
 				speed = 0.05,
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_493",
 			nameColor = "#A9F548FF",
-			actorName = "「――천역 아마하라에 온 걸 환영해」",
+			actorName = "헬레나·改",
 			hidePaintObj = true,
 			say = "지휘관!!",
 			typewriter = {

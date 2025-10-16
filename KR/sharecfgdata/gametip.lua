@@ -6786,6 +6786,11 @@ _G.pg.base.gametip.word_shipNation_yumia = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_danmachi = {
+	tip = "danmachi"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -24044,11 +24049,6 @@ _G.pg.base.gametip.setting_resdownload_title_main_group = {
 }
 
 
-_G.pg.base.gametip.setting_resdownload_title_island = {
-	tip = "岛屿资源更新"
-}
-
-
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "버튼 위치"
 }
@@ -40477,4 +40477,74 @@ _G.pg.base.gametip.dorm3d_dafeng_chair = {
 
 _G.pg.base.gametip.dorm3d_dafeng_bed = {
 	tip = "침실"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet1 = {
+	tip = "푸른 하늘 아래의 만남"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet2 = {
+	tip = "꺼지지 않는 성화"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet3 = {
+	tip = "멈추지 않는 질풍"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet4 = {
+	tip = "만남의 여정"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet5 = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.danmachi_main_time = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.danmachi_award_1 = {
+	tip = "함선"
+}
+
+
+_G.pg.base.gametip.danmachi_award_2 = {
+	tip = "가구"
+}
+
+
+_G.pg.base.gametip.danmachi_award_3 = {
+	tip = "장비 스킨"
+}
+
+
+_G.pg.base.gametip.danmachi_award_4 = {
+	tip = "특수 장비"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name1 = {
+	tip = "헤스티아"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name2 = {
+	tip = "류 리온"
+}
+
+
+_G.pg.base.gametip.danmachi_award_get = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.danmachi_award_unget = {
+	tip = "미획득"
 }

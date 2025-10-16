@@ -214,6 +214,15 @@ pg.settings_other_template = {
 		title = "신규 등록 함선 자동 잠금",
 		desc = "기능 오픈 후 신규 획득한 캐릭터가 자동으로 잠기며 알림 뜨지 않습니다."
 	},
+	{
+		default = 1,
+		name = "ISLAND_NOTIFYCATION",
+		alignment = 0,
+		type = 0,
+		id = 23,
+		title = "岛屿访客通知",
+		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+	},
 	all = {
 		1,
 		2,
@@ -236,6 +245,7 @@ pg.settings_other_template = {
 		19,
 		20,
 		21,
-		22
+		22,
+		23
 	}
 }

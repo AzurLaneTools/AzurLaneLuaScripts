@@ -36,6 +36,9 @@ slot0.init = function(slot0)
 	slot0._weaponToggle = slot0:findTF("bottom_back/types/siren_weapon", slot0.topItems)
 	slot0._materialToggle = slot0:findTF("bottom_back/types/material", slot0.topItems)
 	slot0.exchangeTips = slot0:findTF("bottom_back/reset_exchange", slot0.topItems)
+
+	setText(slot0:findTF("bottom_back/reset_exchange/Text", slot0.topItems), i18n("world_inventory_tip"))
+
 	slot0.filterBusyToggle = slot0:findTF("adapt/left_length/frame/toggle_equip", slot0.blurPanel)
 	slot0.sortBtn = slot0:findTF("adapt/top/buttons/sort_button", slot0.blurPanel)
 	slot0.indexBtn = slot0:findTF("adapt/top/buttons/index_button", slot0.blurPanel)

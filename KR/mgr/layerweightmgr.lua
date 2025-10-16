@@ -67,6 +67,7 @@ end
 slot1.CreateRefreshHandler = function(slot0)
 	if not slot0.luHandle then
 		slot0:Log("CreateRefreshHandler")
+		NotchAdapt.AdjustUI()
 
 		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.Refresh, slot0)
 
@@ -107,7 +108,7 @@ slot1.Add2Overlay = function(slot0, slot1, slot2)
 	end
 
 	assert(slot2.type and LayerWeightConst.TYPE_DIC[slot3])
-	slot0:Log(string.format("ui:%s 加入了ui层级管理\n%s", slot1.name, PrintTable(slot2)))
+	slot0:Log("ui：" .. slot1.gameObject.name .. " 加入了ui层级管理, groupName:" .. slot2.groupName)
 
 	slot4 = slot0:DelList(slot1)
 
@@ -120,7 +121,7 @@ slot1.Add2Overlay = function(slot0, slot1, slot2)
 end
 
 slot1.DelFromOverlay = function(slot0, slot1, slot2)
-	slot0:Log(string.format("ui:%s 退出了ui层级管理", slot1.name))
+	slot0:Log("ui：" .. slot1.gameObject.name .. " 去除了ui层级管理")
 
 	if slot0:DelList(slot1) ~= nil then
 		slot5 = slot0:GetAdaptObjFromUI(slot3.ui) or slot4
@@ -149,15 +150,23 @@ end
 
 slot1.SortStoreUIs = function(slot0)
 	slot0:Log("-----------------------------------------")
-	mergeSort(slot0.storeUIs, CompareFuncs({
+
+	slot4 = {
 		function (slot0)
 			return uv0.groupWeightDic[slot0.groupName]
 		end,
 		function (slot0)
 			return slot0.groupDelta
 		end
-	}, true))
-	slot0:Log(PrintTable(slot0.storeUIs))
+	}
+	slot5 = true
+
+	mergeSort(slot0.storeUIs, CompareFuncs(slot4, slot5))
+
+	for slot4, slot5 in ipairs(slot0.storeUIs) do
+		slot0:Log(slot5.ui.gameObject.name .. "   globalBlur:" .. tostring(slot5.globalBlur))
+	end
+
 	slot0:Log("-----------------------------------------")
 end
 

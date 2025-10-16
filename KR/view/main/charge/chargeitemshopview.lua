@@ -172,6 +172,7 @@ end
 
 slot0.updateScrollRect = function(slot0)
 	slot0.filterList = slot0:getFilterList()
+	slot0.lScrollRect.enabled = true
 
 	slot0.lScrollRect:SetTotalCount(#slot0.filterList, slot0.lScrollRect.value)
 end
@@ -326,7 +327,7 @@ slot0.updateData = function(slot0)
 end
 
 slot0.blurView = function(slot0)
-	slot0:OverlayPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		pbList = {
 			slot0:findTF("bg")
 		}
@@ -334,7 +335,7 @@ slot0.blurView = function(slot0)
 end
 
 slot0.unBlurView = function(slot0)
-	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.IsSupplyShop = function(slot0)

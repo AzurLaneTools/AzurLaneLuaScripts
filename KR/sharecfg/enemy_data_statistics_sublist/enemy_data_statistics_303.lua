@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_303 = {
+	[16593304] = {
+		cannon = 290,
+		name = "파먀티 메르쿠리야 ~Shadow Of Hierophant~",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16593304,
+		air = 290,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 312,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90886,
+		durability = 106000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		luck = 25,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 190,
+		durability_growth = 0,
+		antiaircraft = 410,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16593305] = {
 		cannon = 330,
 		name = "파먀티 메르쿠리야 ~Shadow Of Hierophant~",
@@ -1103,42 +1141,6 @@ pg.enemy_data_statistics_303 = {
 			3139021,
 			3139026,
 			3139031
-		}
-	},
-	[16599103] = {
-		cannon = 16,
-		air = 0,
-		torpedo = 16,
-		cannon_growth = 1500,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 1200,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 35,
-		base = 90901,
-		durability = 460,
-		armor_growth = 0,
-		durability_growth = 20000,
-		antiaircraft = 35,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1000,
-		id = 16599103,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			3139036,
-			3139041,
-			3139046
 		}
 	}
 }

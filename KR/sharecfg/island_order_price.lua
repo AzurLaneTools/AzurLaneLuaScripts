@@ -345,6 +345,546 @@ pg.island_order_price = {
 	{
 		order_easy_award = {
 			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			300
+		},
+		order_award = {
+			50,
+			450
+		},
+		order_award_challenge = {
+			50,
+			600
+		},
+		order_award_special = {
+			20,
+			900
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			400
+		},
+		order_award = {
+			50,
+			600
+		},
+		order_award_challenge = {
+			50,
+			800
+		},
+		order_award_special = {
+			20,
+			1200
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
 			500
 		},
 		order_award = {
@@ -525,379 +1065,739 @@ pg.island_order_price = {
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
 			1500
-		},
-		order_award = {
-			50,
-			2250
-		},
-		order_award_challenge = {
-			50,
-			3000
-		},
-		order_award_special = {
-			20,
-			4500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			3000
+			500
 		},
 		order_award = {
 			50,
-			4500
+			750
 		},
 		order_award_challenge = {
 			50,
-			6000
+			1000
 		},
 		order_award_special = {
 			20,
-			9000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			3000
+			500
 		},
 		order_award = {
 			50,
-			4500
+			750
 		},
 		order_award_challenge = {
 			50,
-			6000
+			1000
 		},
 		order_award_special = {
 			20,
-			9000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			3000
+			500
 		},
 		order_award = {
 			50,
-			4500
+			750
 		},
 		order_award_challenge = {
 			50,
-			6000
+			1000
 		},
 		order_award_special = {
 			20,
-			9000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			3000
+			500
 		},
 		order_award = {
 			50,
-			4500
+			750
 		},
 		order_award_challenge = {
 			50,
-			6000
+			1000
 		},
 		order_award_special = {
 			20,
-			9000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			3000
+			500
 		},
 		order_award = {
 			50,
-			4500
+			750
 		},
 		order_award_challenge = {
 			50,
-			6000
+			1000
 		},
 		order_award_special = {
 			20,
-			9000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			4000
+			500
 		},
 		order_award = {
 			50,
-			6000
+			750
 		},
 		order_award_challenge = {
 			50,
-			8000
+			1000
 		},
 		order_award_special = {
 			20,
-			12000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			4000
+			500
 		},
 		order_award = {
 			50,
-			6000
+			750
 		},
 		order_award_challenge = {
 			50,
-			8000
+			1000
 		},
 		order_award_special = {
 			20,
-			12000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			4000
+			500
 		},
 		order_award = {
 			50,
-			6000
+			750
 		},
 		order_award_challenge = {
 			50,
-			8000
+			1000
 		},
 		order_award_special = {
 			20,
-			12000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			4000
+			500
 		},
 		order_award = {
 			50,
-			6000
+			750
 		},
 		order_award_challenge = {
 			50,
-			8000
+			1000
 		},
 		order_award_special = {
 			20,
-			12000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			4000
+			500
 		},
 		order_award = {
 			50,
-			6000
+			750
 		},
 		order_award_challenge = {
 			50,
-			8000
+			1000
 		},
 		order_award_special = {
 			20,
-			12000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			5000
+			500
 		},
 		order_award = {
 			50,
-			7500
+			750
 		},
 		order_award_challenge = {
 			50,
-			10000
+			1000
 		},
 		order_award_special = {
 			20,
-			15000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			5000
+			500
 		},
 		order_award = {
 			50,
-			7500
+			750
 		},
 		order_award_challenge = {
 			50,
-			10000
+			1000
 		},
 		order_award_special = {
 			20,
-			15000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			5000
+			500
 		},
 		order_award = {
 			50,
-			7500
+			750
 		},
 		order_award_challenge = {
 			50,
-			10000
+			1000
 		},
 		order_award_special = {
 			20,
-			15000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			5000
+			500
 		},
 		order_award = {
 			50,
-			7500
+			750
 		},
 		order_award_challenge = {
 			50,
-			10000
+			1000
 		},
 		order_award_special = {
 			20,
-			15000
+			1500
 		}
 	},
 	{
 		order_easy_award = {
 			50,
-			5000
+			500
 		},
 		order_award = {
 			50,
-			7500
+			750
 		},
 		order_award_challenge = {
 			50,
-			10000
+			1000
 		},
 		order_award_special = {
 			20,
-			15000
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
+		}
+	},
+	{
+		order_easy_award = {
+			50,
+			500
+		},
+		order_award = {
+			50,
+			750
+		},
+		order_award_challenge = {
+			50,
+			1000
+		},
+		order_award_special = {
+			20,
+			1500
 		}
 	},
 	all = {
@@ -950,6 +1850,56 @@ pg.island_order_price = {
 		47,
 		48,
 		49,
-		50
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
+		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
+		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99,
+		100
 	}
 }

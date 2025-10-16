@@ -5,44 +5,99 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0, slot1)
-	slot0.scrollRect = slot0._tf:Find("panel/main/scrollrect"):GetComponent("LScrollRect")
-	slot0.scrollRect4Theme = slot0._tf:Find("panel/main/scrollrect_theme"):GetComponent("LScrollRect")
-	slot0.emptyTr = slot0._tf:Find("panel/main/empty")
-	slot0.agoraSaveBtn = slot0._tf:Find("panel/btns/save")
-	slot0.agoraSaveCdBtn = slot0._tf:Find("panel/btns/save_cd")
-	slot0.agoraSaveCdTxt = slot0._tf:Find("panel/btns/save_cd/Text"):GetComponent(typeof(Text))
-	slot0.agoraClearBtn = slot0._tf:Find("panel/btns/clear")
-	slot0.agoraRevertBtn = slot0._tf:Find("panel/btns/revert")
-	slot0.topPanel = slot0._tf:Find("top")
-	slot0.agoraShopBtn = slot0._tf:Find("top/shop")
-	slot0.backBtn = slot0._tf:Find("top/back")
-	slot0.capacityBtn = slot0._tf:Find("top/capacity")
-	slot0.capacityTxt = slot0._tf:Find("top/capacity/Text"):GetComponent(typeof(Text))
-	slot0.themeBtn = slot0._tf:Find("panel/main/bg/theme")
-	slot0.hideBtn = slot0._tf:Find("panel/main/bg/hide")
-	slot0.showBtn = slot0._tf:Find("panel/btns/show")
-	slot0.tagUIItemList = UIItemList.New(slot0._tf:Find("panel/main/bg/tags"), slot0._tf:Find("panel/main/bg/tags/1_1"))
-	slot0.searchInput = slot0._tf:Find("panel/main/bg/search/search")
-	slot0.searchClearBtn = slot0._tf:Find("panel/main/bg/search/search/clear")
-	slot0.sortBtn = slot0._tf:Find("panel/main/bg/order")
-	slot0.orderBtn = slot0._tf:Find("panel/main/bg/order/icon")
-	slot0.orderTxt = slot0._tf:Find("panel/main/bg/order/Text_1"):GetComponent(typeof(Text))
+	slot2 = slot0._tf
+	slot2 = slot2:Find("panel/main/scrollrect")
+	slot0.scrollRect = slot2:GetComponent("LScrollRect")
+	slot2 = slot0._tf
+	slot2 = slot2:Find("panel/main/scrollrect_theme")
+	slot0.scrollRect4Theme = slot2:GetComponent("LScrollRect")
+	slot2 = slot0._tf
+	slot0.emptyTr = slot2:Find("panel/main/empty")
+	slot2 = slot0._tf
+	slot0.agoraSaveBtn = slot2:Find("panel/btns/save")
+	slot2 = slot0._tf
+	slot0.agoraSaveCdBtn = slot2:Find("panel/btns/save_cd")
+	slot2 = slot0._tf
+	slot2 = slot2:Find("panel/btns/save_cd/Text")
+	slot0.agoraSaveCdTxt = slot2:GetComponent(typeof(Text))
+	slot2 = slot0._tf
+	slot0.agoraClearBtn = slot2:Find("panel/btns/clear")
+	slot2 = slot0._tf
+	slot0.agoraRevertBtn = slot2:Find("panel/btns/revert")
+	slot2 = slot0._tf
+	slot0.topPanel = slot2:Find("top")
+	slot2 = slot0._tf
+	slot0.agoraShopBtn = slot2:Find("top/shop")
+	slot2 = slot0._tf
+	slot0.backBtn = slot2:Find("top/back")
+	slot2 = slot0._tf
+	slot0.capacityBtn = slot2:Find("top/capacity")
+	slot2 = slot0._tf
+	slot2 = slot2:Find("top/capacity/Text")
+	slot0.capacityTxt = slot2:GetComponent(typeof(Text))
+	slot2 = slot0._tf
+	slot0.themeBtn = slot2:Find("panel/main/bg/theme")
+	slot2 = slot0._tf
+	slot0.hideBtn = slot2:Find("panel/main/bg/hide")
+	slot2 = slot0._tf
+	slot0.showBtn = slot2:Find("panel/btns/show")
+	slot3 = slot0._tf
+	slot4 = slot0._tf
+	slot0.tagUIItemList = UIItemList.New(slot3:Find("panel/main/bg/tags"), slot4:Find("panel/main/bg/tags/1_1"))
+	slot2 = slot0._tf
+	slot0.searchInput = slot2:Find("panel/main/bg/search/search")
+	slot2 = slot0._tf
+	slot0.searchClearBtn = slot2:Find("panel/main/bg/search/search/clear")
+	slot2 = slot0._tf
+	slot0.sortBtn = slot2:Find("panel/main/bg/order")
+	slot2 = slot0._tf
+	slot0.orderBtn = slot2:Find("panel/main/bg/order/icon")
+	slot2 = slot0._tf
+	slot2 = slot2:Find("panel/main/bg/order/Text_1")
+	slot0.orderTxt = slot2:GetComponent(typeof(Text))
 	slot0.sortPage = AgoraDecorationSortPage.New(slot0._tf)
 	slot0.descPage = AgoraFurnitureDescPage.New(slot0._tf)
-	slot0.shapeSelectPanel = AgoraDecorationShapePage.New(slot0._tf:Find("shapeTpl"))
+	slot3 = slot0._tf
+	slot0.shapeSelectPanel = AgoraDecorationShapePage.New(slot3:Find("shapeTpl"))
+	slot3 = slot0.agoraClearBtn
 
-	setText(slot0.agoraClearBtn:Find("Text"), i18n("island_agora_btn_label_clear"))
-	setText(slot0.agoraRevertBtn:Find("Text"), i18n("island_agora_btn_label_revert"))
-	setText(slot0.agoraSaveBtn:Find("Text"), i18n("island_agora_btn_label_save"))
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_agora_title"))
-	setText(slot0._tf:Find("panel/main/bg/search/search/holder"), i18n("island_agora_label_search"))
-	setText(slot0._tf:Find("panel/main/bg/theme/unsel/Text"), i18n("island_agora_label_theme"))
-	setText(slot0._tf:Find("panel/main/bg/theme/sel/Text"), i18n("island_agora_label_theme"))
-	setText(slot0.emptyTr:Find("empty_1/Text"), i18n("island_agora_label_empty_tip"))
+	setText(slot3:Find("Text"), i18n("island_agora_btn_label_clear"))
 
-	slot0.anim = slot0._tf:GetComponent(typeof(Animation))
-	slot0.dftAniEvent = slot0.anim:GetComponent(typeof(DftAniEvent))
-	slot0.panelAnim = slot0._tf:Find("panel"):GetComponent(typeof(Animation))
+	slot3 = slot0.agoraRevertBtn
+
+	setText(slot3:Find("Text"), i18n("island_agora_btn_label_revert"))
+
+	slot3 = slot0.agoraSaveBtn
+
+	setText(slot3:Find("Text"), i18n("island_agora_btn_label_save"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("top/title/Text"), i18n("island_agora_title"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("panel/main/bg/search/search/holder"), i18n("island_agora_label_search"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("panel/main/bg/theme/unsel/Text"), i18n("island_agora_label_theme"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("panel/main/bg/theme/sel/Text"), i18n("island_agora_label_theme"))
+
+	slot3 = slot0.emptyTr
+
+	setText(slot3:Find("empty_1/Text"), i18n("island_agora_label_empty_tip"))
+
+	slot2 = slot0._tf
+	slot0.anim = slot2:GetComponent(typeof(Animation))
+	slot2 = slot0.anim
+	slot0.dftAniEvent = slot2:GetComponent(typeof(DftAniEvent))
+	slot2 = slot0._tf
+	slot2 = slot2:Find("panel")
+	slot0.panelAnim = slot2:GetComponent(typeof(Animation))
 	slot0.cards = {}
 	slot0.themeCards = {}
 	slot0.indexData = {
@@ -55,6 +110,15 @@ slot0.OnInit = function(slot0, slot1)
 	slot0:RegisterEvent()
 	slot0:UpdateOrderTxt()
 	slot0:InitTags()
+
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_renovation.tip
+		})
+	end, SFX_PANEL)
 end
 
 slot0.OnShow = function(slot0)
@@ -692,6 +756,9 @@ slot0.RemoveSaveCdTimer = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+	ClearLScrollrect(slot0.scrollRect4Theme)
+
 	if slot0.dftAniEvent then
 		slot0.dftAniEvent:SetEndEvent(nil)
 	end

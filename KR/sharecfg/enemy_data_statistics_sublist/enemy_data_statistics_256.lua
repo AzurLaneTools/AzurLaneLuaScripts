@@ -1,5 +1,48 @@
 pg = pg or {}
 pg.enemy_data_statistics_256 = {
+	[16305301] = {
+		cannon = 362,
+		name = "수수께끼의 적!",
+		luck_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		id = 16305301,
+		armor = 0,
+		hit_growth = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90261,
+		durability = 102000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 25,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 38,
+		reload_growth = 0,
+		hit = 45,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 470,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[16306001] = {
 		cannon = 750,
 		name = "수수께끼의 적!",
@@ -1395,51 +1438,6 @@ pg.enemy_data_statistics_256 = {
 			1006071,
 			1006076,
 			1005901
-		}
-	},
-	[16401005] = {
-		cannon = 35,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 2000,
-		armor = 0,
-		reload = 150,
-		base = 90723,
-		dodge = 0,
-		torpedo_growth = 1200,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 15,
-		durability = 650,
-		armor_growth = 0,
-		durability_growth = 33600,
-		antiaircraft = 40,
-		speed = 15,
-		luck = 0,
-		hit_growth = 144,
-		battle_unit_type = 60,
-		id = 16401005,
-		antiaircraft_growth = 1200,
-		fog_fx = "",
-		equipment_list = {
-			1006081,
-			1006086,
-			1006091,
-			1006096,
-			1006101
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 2
-			}
 		}
 	}
 }

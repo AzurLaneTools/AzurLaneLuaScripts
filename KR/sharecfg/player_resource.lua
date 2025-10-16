@@ -2040,6 +2040,11 @@ pg.player_resource = {
 		name = "limit_skinticket42",
 		itemid = 68126
 	},
+	[571] = {
+		id = 571,
+		name = "danmachi_pt",
+		itemid = 65711
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3825,6 +3830,9 @@ pg.player_resource = {
 		limit_skinticket42 = {
 			554
 		},
+		danmachi_pt = {
+			571
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4571,6 +4579,7 @@ pg.player_resource = {
 		552,
 		553,
 		554,
+		571,
 		950,
 		951,
 		952,

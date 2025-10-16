@@ -22,7 +22,8 @@ end
 
 slot0.GetPanels = function(slot0)
 	return {
-		IslandSettingsCardShowPanel
+		IslandSettingsCardShowPanel,
+		IslandSettingsEscapePanel
 	}
 end
 

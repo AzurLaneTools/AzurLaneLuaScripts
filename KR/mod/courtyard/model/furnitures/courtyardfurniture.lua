@@ -11,6 +11,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot2.id
 	slot0.configId = slot2.configId or slot0.id
 	slot0.config = pg.furniture_data_template[slot0.configId]
+
+	uv0.super.Ctor(slot0, slot1, slot0.id, slot0.config.size[1], slot0.config.size[2])
+
 	slot0.date = slot2.date or 0
 	slot0.selectedFlag = false
 	slot0.slots = {}
@@ -23,13 +26,11 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0:InitMusicData()
 
 	slot0.state = uv0.STATE_IDLE
-
-	uv0.super.Ctor(slot0, slot1, slot0.id, slot0.config.size[1], slot0.config.size[2])
 end
 
 slot0.InitSlots = function(slot0)
 	if slot0:IsSpine() then
-		table.insert(slot0.slots, CourtYardFurnitureSpineSlot.New(1, slot0.config.spine))
+		table.insert(slot0.slots, CourtYardFurnitureSpineSlot.New(1, slot0.config.spine, slot0.config.spine_combine_action_replace, slot0.host))
 
 		if type(slot0.config.spine_extra) == "table" then
 			for slot4, slot5 in ipairs(slot0.config.spine_extra) do
@@ -39,7 +40,7 @@ slot0.InitSlots = function(slot0)
 					[4] = slot5[1],
 					[5] = slot5[2],
 					[6] = slot5[3]
-				}))
+				}, slot0.config.spine_combine_action_replace, slot0.host))
 			end
 		end
 
@@ -66,7 +67,7 @@ slot0.InitSlots = function(slot0)
 		end
 	elseif type(slot0.config.interAction) == "table" then
 		for slot4, slot5 in ipairs(slot0.config.interAction) do
-			table.insert(slot0.slots, CourtYardFurnitureSlot.New(slot4, slot5))
+			table.insert(slot0.slots, CourtYardFurnitureSlot.New(slot4, slot5, slot0.config.spine_combine_action_replace, slot0.host))
 		end
 	end
 end
@@ -493,6 +494,18 @@ slot0.ClearInteraction = function(slot0, slot1)
 	onNextTick(function ()
 		uv0:DispatchEvent(CourtYardEvent.FURNITURE_STOP_INTERACTION, uv1)
 	end)
+end
+
+slot0.RefreshState = function(slot0)
+	if #_.select(slot0.slots, function (slot0)
+		return slot0:IsUsing()
+	end) <= 0 then
+		slot0:_ChangeState(uv0.STATE_IDLE)
+	else
+		for slot5, slot6 in ipairs(slot1) do
+			slot6:OnStart()
+		end
+	end
 end
 
 slot0.GetUsingSlots = function(slot0)

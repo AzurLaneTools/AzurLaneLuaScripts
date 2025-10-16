@@ -51679,6 +51679,133 @@ _G.pg.base.ship_data_breakout[11300044] = {
 }
 
 
+_G.pg.base.ship_data_breakout[11400011] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1140001,
+	breakout_id = 11400012,
+	breakout_view = "긴급 수리 횟수 +1 / 대공포 보정 +3%",
+	id = 11400011,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[11400012] = {
+	use_gold = 3000,
+	pre_id = 11400011,
+	use_char_num = 1,
+	use_char = 1140001,
+	breakout_id = 11400013,
+	breakout_view = "탄약 상한 +1 / 대공포 포좌 +1 / 대공포 보정 +5%",
+	id = 11400012,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[11400013] = {
+	use_gold = 10000,
+	pre_id = 11400012,
+	use_char_num = 2,
+	use_char = 1140001,
+	breakout_id = 11400014,
+	breakout_view = "긴급 수리 횟수 +1 / 대공포 보정 +7%",
+	id = 11400013,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[11400014] = {
+	use_gold = 0,
+	pre_id = 11400013,
+	use_char_num = 0,
+	use_char = 1140001,
+	breakout_id = 0,
+	breakout_view = "없음",
+	id = 11400014,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[11400021] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1140002,
+	breakout_id = 11400022,
+	breakout_view = "주포 보정 +5%",
+	id = 11400021,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		42240
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11400022] = {
+	use_gold = 3000,
+	pre_id = 11400021,
+	use_char_num = 1,
+	use_char = 1140002,
+	breakout_id = 11400023,
+	breakout_view = "어뢰 발사 수 +1 / 시작 시 어뢰 +1 / 어뢰 보정 +10%",
+	id = 11400022,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		106,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11400023] = {
+	use_gold = 10000,
+	pre_id = 11400022,
+	use_char_num = 2,
+	use_char = 1140002,
+	breakout_id = 11400024,
+	breakout_view = "주포 보정 +15%",
+	id = 11400023,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		42240
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11400024] = {
+	use_gold = 0,
+	pre_id = 11400023,
+	use_char_num = 0,
+	use_char = 1140002,
+	breakout_id = 0,
+	breakout_view = "없음",
+	id = 11400024,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
 _G.pg.base.ship_data_breakout[299011] = {
 	use_gold = 0,
 	pre_id = 0,

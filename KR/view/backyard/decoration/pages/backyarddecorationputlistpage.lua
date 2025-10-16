@@ -163,6 +163,9 @@ slot0.OnDisplayList = function(slot0)
 		return slot0:getConfig("type") < slot1:getConfig("type")
 	end)
 	setActive(slot0.emptyTF, #slot0.displays == 0)
+
+	slot0.scrollRect.enabled = true
+
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end
 

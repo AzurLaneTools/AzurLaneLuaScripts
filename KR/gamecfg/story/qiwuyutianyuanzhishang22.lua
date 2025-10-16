@@ -389,7 +389,7 @@ return {
 			bgName = "bg_highschool_future",
 			dir = 1,
 			actor = 900332,
-			actorName = "安洁",
+			actorName = "안제",
 			hidePaintObj = true,
 			say = "이건 휴가야! 그러니까 알아서 돌아다니면서 놀면 돼!",
 			painting = {
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_highschool_future",
 			dir = 1,
 			actor = 900332,
-			actorName = "安洁",
+			actorName = "안제",
 			hidePaintObj = true,
 			say = "음, 잠깐만…… 아! 벌써 점심시간이네! 예전에 아오스타가 소개해준 괜찮은 식당이 있어!",
 			painting = {
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_highschool_future",
 			dir = 1,
 			actor = 900332,
-			actorName = "安洁",
+			actorName = "안제",
 			hidePaintObj = true,
 			say = "아직 있으려나……? 문 열었으면 거기서 밥 먹자!",
 			painting = {
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_highschool_future",
 			dir = 1,
 			actor = 900332,
-			actorName = "安洁",
+			actorName = "안제",
 			hidePaintObj = true,
 			say = "그런 다음엔 상점가에도 가고, 영화도 보러 가자!",
 			painting = {
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_highschool_future",
 			dir = 1,
 			actor = 900332,
-			actorName = "安洁",
+			actorName = "안제",
 			hidePaintObj = true,
 			say = "오케이! 「그라나트」라는 가게야.",
 			painting = {

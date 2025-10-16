@@ -3827,8 +3827,7 @@ pg.gameset = {
 	act_npc_ship_id = {
 		key_value = 0,
 		description = {
-			5987,
-			5995
+			50154
 		}
 	},
 	music_Version = {

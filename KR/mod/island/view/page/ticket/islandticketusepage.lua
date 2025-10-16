@@ -353,7 +353,7 @@ slot0.GetSelectedTickets = function(slot0)
 			else
 				table.insert(slot1, IslandTicket.New(slot14.id, slot14.endTime, slot14:GetCount()))
 
-				slot16 = slot9 + slot14:GetCount()
+				slot9 = slot9 + slot14:GetCount()
 			end
 		end
 	end
@@ -419,6 +419,8 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

@@ -30996,6 +30996,169 @@ _G.pg.base.spweapon_data_statistics[14390] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[14400] = {
+	attribute_1 = "cannon",
+	name = "행운을 가져다주는 닻",
+	type = 6,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902030,
+	value_2_random = 5,
+	effect_id = 902030,
+	attribute_2 = "hit",
+	next = 14401,
+	upgrade_id = 101,
+	value_2 = 10,
+	icon = "14400",
+	value_1 = 13,
+	level = 1,
+	descrip = "특수 장비 코어로 제작할 수 있는 함선 전용 장비",
+	uncraftable = 0,
+	unique = 10520,
+	important = 2,
+	prev = 0,
+	id = 14400,
+	usability = {
+		5
+	},
+	skill_upgrade = {
+		{
+			0,
+			1012430
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14401] = {
+	upgrade_id = 102,
+	prev = 14400,
+	next = 14402,
+	base = 14400,
+	id = 14401,
+	value_2 = 10,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14402] = {
+	upgrade_id = 103,
+	prev = 14401,
+	next = 14403,
+	base = 14400,
+	id = 14402,
+	value_2 = 10,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14403] = {
+	upgrade_id = 104,
+	prev = 14402,
+	next = 14404,
+	base = 14400,
+	id = 14403,
+	value_2 = 11,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14404] = {
+	upgrade_id = 105,
+	prev = 14403,
+	next = 14405,
+	base = 14400,
+	id = 14404,
+	value_2 = 11,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14405] = {
+	upgrade_id = 106,
+	prev = 14404,
+	next = 14406,
+	base = 14400,
+	id = 14405,
+	value_2 = 12,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14406] = {
+	upgrade_id = 107,
+	prev = 14405,
+	next = 14407,
+	base = 14400,
+	id = 14406,
+	value_2 = 12,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14407] = {
+	upgrade_id = 108,
+	prev = 14406,
+	next = 14408,
+	base = 14400,
+	id = 14407,
+	value_2 = 13,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14408] = {
+	upgrade_id = 109,
+	prev = 14407,
+	next = 14409,
+	base = 14400,
+	id = 14408,
+	value_2 = 13,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14409] = {
+	upgrade_id = 110,
+	prev = 14408,
+	next = 14410,
+	base = 14400,
+	id = 14409,
+	value_2 = 14,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14410] = {
+	id = 14410,
+	upgrade_id = 111,
+	base = 14400,
+	next = 0,
+	prev = 14409,
+	value_2 = 15,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			12430,
+			1012430
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[14420] = {
 	attribute_1 = "cannon",
 	name = "구원자의 증표",
@@ -32132,6 +32295,494 @@ _G.pg.base.spweapon_data_statistics[14550] = {
 		{
 			19030,
 			1019030
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14560] = {
+	attribute_1 = "durability",
+	name = "풍기 교란 금지!",
+	type = 4,
+	tech = 0,
+	value_1_random = 20,
+	rarity = 4,
+	effect_id_display = 901020,
+	value_2_random = 5,
+	effect_id = 901020,
+	attribute_2 = "dodge",
+	next = 14561,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "14560",
+	value_1 = 80,
+	level = 1,
+	descrip = "특수 장비 코어로 제작할 수 있는 함선 전용 장비",
+	uncraftable = 0,
+	unique = 30307,
+	important = 2,
+	prev = 0,
+	id = 14560,
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090430
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14561] = {
+	upgrade_id = 102,
+	prev = 14560,
+	next = 14562,
+	base = 14560,
+	id = 14561,
+	value_1 = 92,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14562] = {
+	upgrade_id = 103,
+	prev = 14561,
+	next = 14563,
+	base = 14560,
+	id = 14562,
+	value_2 = 2,
+	value_1 = 104,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14563] = {
+	upgrade_id = 104,
+	prev = 14562,
+	next = 14564,
+	base = 14560,
+	id = 14563,
+	value_2 = 3,
+	value_1 = 116,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14564] = {
+	upgrade_id = 105,
+	prev = 14563,
+	next = 14565,
+	base = 14560,
+	id = 14564,
+	value_2 = 4,
+	value_1 = 128,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14565] = {
+	upgrade_id = 106,
+	prev = 14564,
+	next = 14566,
+	base = 14560,
+	id = 14565,
+	value_2 = 5,
+	value_1 = 140,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14566] = {
+	upgrade_id = 107,
+	prev = 14565,
+	next = 14567,
+	base = 14560,
+	id = 14566,
+	value_2 = 6,
+	value_1 = 152,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14567] = {
+	upgrade_id = 108,
+	prev = 14566,
+	next = 14568,
+	base = 14560,
+	id = 14567,
+	value_2 = 7,
+	value_1 = 164,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14568] = {
+	upgrade_id = 109,
+	prev = 14567,
+	next = 14569,
+	base = 14560,
+	id = 14568,
+	value_2 = 8,
+	value_1 = 176,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14569] = {
+	upgrade_id = 110,
+	prev = 14568,
+	next = 14570,
+	base = 14560,
+	id = 14569,
+	value_2 = 9,
+	value_1 = 188,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14570] = {
+	id = 14570,
+	upgrade_id = 111,
+	base = 14560,
+	next = 0,
+	prev = 14569,
+	value_2 = 10,
+	value_1 = 200,
+	level = 11,
+	skill_upgrade = {
+		{
+			4041,
+			1090430
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14580] = {
+	attribute_1 = "durability",
+	name = "헤스티아의 끈",
+	type = 3,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 114040,
+	value_2_random = 0,
+	effect_id = 114040,
+	attribute_2 = "dodge",
+	next = 14581,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "14580",
+	value_1 = 180,
+	level = 1,
+	descrip = "특수 장비 코어로 제작할 수 있는 함선 전용 장비",
+	uncraftable = 1,
+	unique = 1140001,
+	important = 2,
+	prev = 0,
+	id = 14580,
+	usability = {
+		12
+	},
+	skill_upgrade = {
+		{
+			0,
+			114030
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14581] = {
+	upgrade_id = 10002,
+	prev = 14580,
+	next = 14582,
+	base = 14580,
+	id = 14581,
+	value_2 = 6,
+	value_1 = 190,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14582] = {
+	upgrade_id = 10003,
+	prev = 14581,
+	next = 14583,
+	base = 14580,
+	id = 14582,
+	value_2 = 7,
+	value_1 = 200,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14583] = {
+	upgrade_id = 10004,
+	prev = 14582,
+	next = 14584,
+	base = 14580,
+	id = 14583,
+	value_2 = 8,
+	value_1 = 210,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14584] = {
+	upgrade_id = 10005,
+	prev = 14583,
+	next = 14585,
+	base = 14580,
+	id = 14584,
+	value_2 = 9,
+	value_1 = 220,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14585] = {
+	upgrade_id = 10006,
+	prev = 14584,
+	next = 14586,
+	base = 14580,
+	id = 14585,
+	value_2 = 10,
+	value_1 = 230,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14586] = {
+	upgrade_id = 10007,
+	prev = 14585,
+	next = 14587,
+	base = 14580,
+	id = 14586,
+	value_2 = 11,
+	value_1 = 240,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14587] = {
+	upgrade_id = 10008,
+	prev = 14586,
+	next = 14588,
+	base = 14580,
+	id = 14587,
+	value_2 = 12,
+	value_1 = 250,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14588] = {
+	upgrade_id = 10009,
+	prev = 14587,
+	next = 14589,
+	base = 14580,
+	id = 14588,
+	value_2 = 13,
+	value_1 = 260,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14589] = {
+	upgrade_id = 10010,
+	prev = 14588,
+	next = 14590,
+	base = 14580,
+	id = 14589,
+	value_2 = 14,
+	value_1 = 270,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14590] = {
+	id = 14590,
+	upgrade_id = 10011,
+	base = 14580,
+	next = 0,
+	prev = 14589,
+	value_2 = 15,
+	value_1 = 280,
+	level = 11,
+	skill_upgrade = {
+		{
+			114020,
+			114030
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14600] = {
+	attribute_1 = "cannon",
+	name = "알브스 유스티티아",
+	type = 2,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 114129,
+	value_2_random = 0,
+	effect_id = 114129,
+	attribute_2 = "dodge",
+	next = 14601,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "14600",
+	value_1 = 25,
+	level = 1,
+	descrip = "특수 장비 코어로 제작할 수 있는 함선 전용 장비",
+	uncraftable = 1,
+	unique = 1140002,
+	important = 2,
+	prev = 0,
+	id = 14600,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			114120
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14601] = {
+	upgrade_id = 10002,
+	prev = 14600,
+	next = 14602,
+	base = 14600,
+	id = 14601,
+	value_2 = 6,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14602] = {
+	upgrade_id = 10003,
+	prev = 14601,
+	next = 14603,
+	base = 14600,
+	id = 14602,
+	value_2 = 7,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14603] = {
+	upgrade_id = 10004,
+	prev = 14602,
+	next = 14604,
+	base = 14600,
+	id = 14603,
+	value_2 = 8,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14604] = {
+	upgrade_id = 10005,
+	prev = 14603,
+	next = 14605,
+	base = 14600,
+	id = 14604,
+	value_2 = 9,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14605] = {
+	upgrade_id = 10006,
+	prev = 14604,
+	next = 14606,
+	base = 14600,
+	id = 14605,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14606] = {
+	upgrade_id = 10007,
+	prev = 14605,
+	next = 14607,
+	base = 14600,
+	id = 14606,
+	value_2 = 11,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14607] = {
+	upgrade_id = 10008,
+	prev = 14606,
+	next = 14608,
+	base = 14600,
+	id = 14607,
+	value_2 = 12,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14608] = {
+	upgrade_id = 10009,
+	prev = 14607,
+	next = 14609,
+	base = 14600,
+	id = 14608,
+	value_2 = 13,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14609] = {
+	upgrade_id = 10010,
+	prev = 14608,
+	next = 14610,
+	base = 14600,
+	id = 14609,
+	value_2 = 14,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14610] = {
+	id = 14610,
+	upgrade_id = 10011,
+	base = 14600,
+	next = 0,
+	prev = 14609,
+	value_2 = 15,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			114110,
+			114120
 		}
 	}
 }

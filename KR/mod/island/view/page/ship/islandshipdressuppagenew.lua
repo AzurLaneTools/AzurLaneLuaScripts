@@ -71,6 +71,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.skinRect = slot0.skinTF:Find("dress_container/dress"):GetComponent("LScrollRect")
 	slot0.skinRectTF = slot0.skinTF:Find("dress_container")
 	slot0.skinEmpty = slot0.skinTF:Find("skinEmpty")
+	slot0.skinEmptyTips = slot0.skinEmpty:Find("layout/empty_tips")
 
 	slot0.skinRect.onInitItem = function(slot0)
 		uv0:OnSkinInitItem(slot0)
@@ -99,6 +100,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.color_cost_item_count = slot0.color_bg_locked:Find("cost_num")
 
 	setActive(slot0.sortBtn, false)
+	setText(slot0.color_bg_locked:Find("tips"), i18n("island_dresscolorunlock_tips"))
+	setText(slot0.color_lockedBtn:Find("Text"), i18n("island_dresscolorunlock"))
 
 	slot0.colorItemUIList = UIItemList.New(slot0.colorList, slot0.colorItem)
 	slot0.hatTF = slot0:findTF("adapt/hat")
@@ -607,6 +610,7 @@ slot0.UpdateSkinList = function(slot0)
 	setActive(slot0.skinRectTF, #slot0.skinList ~= 0)
 	setActive(slot0.skinEmpty, slot1 == 0)
 	slot0.skinRect:SetTotalCount(slot1)
+	setText(slot0.skinEmptyTips, i18n("island_dress_no_item"))
 end
 
 slot0.UpdateDressUpList = function(slot0)
@@ -1121,7 +1125,7 @@ slot0.UpdateColorUnlockState = function(slot0)
 
 					return true
 				end)(uv0.cost) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("ShowTips"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				end
@@ -1228,11 +1232,14 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.dressRect)
+	ClearLScrollrect(slot0.skinRect)
+
 	slot1 = pairs
 	slot2 = slot0.dressCards or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		-- Nothing
+		slot5:Dispose()
 	end
 
 	slot0.dressCards = nil

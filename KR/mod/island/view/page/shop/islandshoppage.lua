@@ -57,7 +57,6 @@ slot0.InitData = function(slot0)
 	slot0.ships = slot0.characterAgency:GetShips()
 	slot0.defaultShipId = PlayerPrefs.GetInt("island_dressShop_defaultShipId_" .. slot0.player.id, 10703)
 	slot0.islandShipDressHelper = IslandShipDressHelperNew.New()
-	slot0.drawAwardActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD)
 end
 
 slot0.DoUpdateShops = function(slot0)
@@ -95,6 +94,7 @@ end
 slot0.SetShopList = function(slot0)
 	slot0.currentShop1TgIndex = nil
 	slot0.currentShop2TgIndex = nil
+	slot0.currentShop3TgIndex = nil
 
 	slot0.shop1List:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
@@ -160,16 +160,22 @@ slot0.SetShopList = function(slot0)
 														setActive(slot2:Find("selected/lock"), not slot4)
 														onToggle(uv1, slot2, function (slot0)
 															if slot0 then
+																if uv0.currentShop1TgIndex == uv1 and uv0.currentShop2TgIndex == uv2 + 1 and uv0.currentShop3TgIndex == uv3 + 1 then
+																	return
+																end
+
 																for slot4 = 0, uv0.shop3.childCount - 1 do
 																	setActive(uv0.shop3:GetChild(slot4):Find("selected"), false)
 																end
 
-																setActive(uv1:Find("selected"), true)
-																uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop3List_Selected")
+																setActive(uv4:Find("selected"), true)
+																uv4:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop3List_Selected")
 
-																uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
+																uv0.showingShop = uv0.shopAgency:GetShopById(uv5.id)
 
 																uv0:DoUpdateShowingShop()
+
+																uv0.currentShop3TgIndex = uv3 + 1
 															end
 														end, SFX_PANEL)
 
@@ -208,15 +214,21 @@ slot0.SetShopList = function(slot0)
 														setActive(slot2:Find("selected/lock"), not slot4)
 														onToggle(uv1, slot2, function (slot0)
 															if slot0 then
+																if uv0.currentShop1TgIndex == uv1 and uv0.currentShop2TgIndex == uv2 + 1 and uv0.currentShop3TgIndex == uv3 + 1 then
+																	return
+																end
+
 																for slot4 = 0, uv0.shop32.childCount - 1 do
 																	setActive(uv0.shop32:GetChild(slot4):Find("selected"), false)
 																end
 
-																setActive(uv1:Find("selected"), true)
+																setActive(uv4:Find("selected"), true)
 
-																uv0.showingShop = uv0.shopAgency:GetShopById(uv2.id)
+																uv0.showingShop = uv0.shopAgency:GetShopById(uv5.id)
 
 																uv0:DoUpdateShowingShop()
+
+																uv0.currentShop3TgIndex = uv3 + 1
 															end
 														end, SFX_PANEL)
 
@@ -515,77 +527,22 @@ slot0.SetCloseAndRefresh = function(slot0, slot1)
 end
 
 slot0.SetCommodity = function(slot0, slot1, slot2)
-	slot3 = slot2:GetMaxNum() - slot2.purchasedNum
+	uv0.StaticUpdateCommodityTpl(slot1, slot2)
+	setActive(slot1:Find("notInTime"), not slot0.showingShop:IsInTime())
+	setText(slot1:Find("sellOut/Text"), i18n("common_sale_out"))
+	setText(slot1:Find("hold/Text"), i18n("common_already owned"))
 
-	setText(slot1:Find("name"), slot2:GetName())
+	slot3 = false
 
-	if #slot2:GetItems() == 1 and slot2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_FURNITURE and slot2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_DRESS and slot2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_SKIN then
-		slot4 = slot2:GetItems()[1]
-
-		updateCustomDrop(slot1:Find("IslandItemTpl"), {
-			type = slot4[1],
-			id = slot4[2],
-			count = slot4[3]
-		})
-	else
-		GetImageSpriteFromAtlasAsync(slot2:GetIcon(), "", slot1:Find("IslandItemTpl/icon_bg/icon"))
-	end
-
-	setActive(slot1:Find("IslandItemTpl/icon_bg/count_bg"), slot2:IsShowPurchaseLimit())
-	setText(slot1:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3 .. "/" .. slot2:GetMaxNum())
-
-	slot4 = slot2:GetResourceConsume()
-
-	GetImageSpriteFromAtlasAsync(Drop.New({
-		type = slot4[1],
-		id = slot4[2]
-	}):getIcon(), "", slot1:Find("cost/icon"))
-	setText(slot1:Find("cost/num"), math.ceil((100 - slot2:GetDiscount()) / 100 * slot4[3]))
-	setActive(slot1:Find("sellOut"), slot2:GetMaxNum() ~= 0 and slot3 == 0)
-	setActive(slot1:Find("timeLimit"), slot2:IsTimeLimitCommodity())
-	setActive(slot1:Find("discount"), slot2:GetDiscount() ~= 0)
-	setText(slot1:Find("discount/Text"), "-" .. slot2:GetDiscount() .. "%")
-
-	slot5 = false
-
-	for slot9, slot10 in ipairs(slot0.shoppingCartCommodities) do
-		if slot10.id == slot2.id then
-			slot5 = true
+	for slot7, slot8 in ipairs(slot0.shoppingCartCommodities) do
+		if slot8.id == slot2.id then
+			slot3 = true
 
 			break
 		end
 	end
 
-	setActive(slot1:Find("select"), slot5)
-
-	slot7 = slot2:GetItems()[1][2]
-	slot8 = 0
-
-	if slot2:GetItems()[1][1] == DROP_TYPE_ISLAND_ITEM then
-		slot8 = slot0.inventoryAgency:GetOwnCount(slot7)
-	elseif slot6 == DROP_TYPE_ISLAND_FURNITURE then
-		for slot14, slot15 in ipairs(getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()) do
-			if slot15.id == slot7 then
-				slot8 = slot15.count
-
-				break
-			end
-		end
-	elseif slot6 == DROP_TYPE_ISLAND_DRESS then
-		if pg.island_dress_template[slot7].belongto == 1 then
-			slot8 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(slot7) and 1 or 0
-		elseif pg.island_dress_template[slot7].belongto == 2 then
-			slot8 = slot0.characterAgency:GetOwnDressCountByDressId(slot7)
-		end
-	elseif slot6 == DROP_TYPE_ISLAND_SKIN then
-		slot8 = slot0.characterAgency:CheckSkinIsOwned(slot7) and 1 or 0
-	end
-
-	setActive(slot1:Find("have"), slot2:IsShowHave())
-	setText(slot1:Find("have"), i18n("island_3Dshop_have") .. slot8)
-	setActive(slot1:Find("hold"), slot2:IsShowHold() and (slot8 > 0 or slot2:IsCharacterInviteItemHold()))
-	setActive(slot1:Find("cost"), not isActive(slot1:Find("sellOut")) and not isActive(slot1:Find("hold")))
-	setActive(slot1:Find("notInTime"), not slot0.showingShop:IsInTime())
+	setActive(slot1:Find("select"), slot3)
 
 	if isActive(slot1:Find("sellOut")) or isActive(slot1:Find("hold")) or isActive(slot1:Find("notInTime")) then
 		removeOnButton(slot1)
@@ -812,13 +769,15 @@ slot0.SetCommodityList = function(slot0)
 			return UIItemList.New(uv0:findTF("shopView/Viewport/Content", uv0.shopSkinPage), uv0:findTF("shopView/Viewport/Content/IslandCommodityTpl", uv0.shopSkinPage))
 		end
 	})
+	slot3 = slot0.showingShop:GetCommodities()
 
+	uv0.SortShopCommodities(slot3)
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv1:SetCommodity(slot2, uv0[slot1 + 1])
 		end
 	end, SFX_PANEL)
-	slot2:align(#slot0.showingShop:GetCommodities())
+	slot2:align(#slot3)
 end
 
 slot0.ShowRecommendation = function(slot0)
@@ -1110,13 +1069,15 @@ slot0.UpdateView = function(slot0, slot1)
 					type = IslandMsgBox.TYPE_COMMON,
 					content = i18n("island_3Dshop_clothes_jump"),
 					onYes = function ()
-						if uv0.showingShop:GetCommanderOrCharaType() == 0 then
-							uv0:OpenScenePage(IslandShipIslandCommanderMainPage)
-						elseif slot0 == 1 or slot0 == 2 then
-							uv0:OpenScenePage(IslandShipMainPage, 3)
-						end
+						uv0:ClearCharacterScene(function ()
+							uv0:Hide()
 
-						uv0:Hide()
+							if uv0.showingShop:GetCommanderOrCharaType() == 0 then
+								uv0:OpenScenePage(IslandShipIslandCommanderMainPage)
+							elseif slot0 == 1 or slot0 == 2 then
+								uv0:OpenScenePage(IslandShipMainPage, 3)
+							end
+						end)
 					end
 				})
 			end
@@ -1274,6 +1235,7 @@ slot0.OnShow = function(slot0, slot1, slot2, slot3)
 	slot0.showTypes = slot1
 	slot0.firstShopIds = slot2
 	slot0.showDrawAward = slot3 == 1
+	slot0.drawAwardActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD)
 
 	slot0:DoUpdateShops()
 	slot0:UpdateData()
@@ -1304,6 +1266,87 @@ slot0.OnHide = function(slot0)
 	end
 
 	slot0.loadingIdList = {}
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+	uv0.super.OnDisable(slot0)
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
+	uv0.super.OnDestroy(slot0)
+end
+
+slot0.StaticUpdateCommodityTpl = function(slot0, slot1)
+	slot2 = slot1:GetMaxNum() - slot1.purchasedNum
+
+	setText(slot0:Find("name"), slot1:GetName())
+
+	if #slot1:GetItems() == 1 and slot1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_FURNITURE and slot1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_DRESS and slot1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_SKIN then
+		slot3 = slot1:GetItems()[1]
+
+		updateCustomDrop(slot0:Find("IslandItemTpl"), {
+			type = slot3[1],
+			id = slot3[2],
+			count = slot3[3]
+		}, {
+			style = "island"
+		})
+	else
+		GetImageSpriteFromAtlasAsync(slot1:GetIcon(), "", slot0:Find("IslandItemTpl/icon_bg/icon"))
+	end
+
+	setActive(slot0:Find("IslandItemTpl/icon_bg/count_bg"), slot1:IsShowPurchaseLimit())
+	setText(slot0:Find("IslandItemTpl/icon_bg/count_bg/count"), slot2 .. "/" .. slot1:GetMaxNum())
+
+	slot3 = slot1:GetResourceConsume()
+
+	GetImageSpriteFromAtlasAsync(Drop.New({
+		type = slot3[1],
+		id = slot3[2]
+	}):getIcon(), "", slot0:Find("cost/icon"))
+	setText(slot0:Find("cost/num"), math.ceil((100 - slot1:GetDiscount()) / 100 * slot3[3]))
+	setActive(slot0:Find("timeLimit"), slot1:IsTimeLimitCommodity())
+	setActive(slot0:Find("discount"), slot1:GetDiscount() ~= 0)
+	setText(slot0:Find("discount/Text"), "-" .. slot1:GetDiscount() .. "%")
+	setActive(slot0:Find("have"), slot1:IsShowHave())
+	setText(slot0:Find("have"), i18n("island_3Dshop_have") .. Drop.New({
+		count = 1,
+		type = slot1:GetItems()[1][1],
+		id = slot1:GetItems()[1][2]
+	}):getOwnedCount())
+	setActive(slot0:Find("hold"), slot1:IsShowHold() and (slot6 > 0 or slot1:IsCharacterInviteItemHold()))
+	setActive(slot0:Find("sellOut"), slot1:GetMaxNum() ~= 0 and slot2 == 0 and not isActive(slot0:Find("hold")))
+	setActive(slot0:Find("cost"), not isActive(slot0:Find("sellOut")) and not isActive(slot0:Find("hold")))
+	setActive(slot0:Find("select"), false)
+end
+
+slot0.SortShopCommodities = function(slot0)
+	table.sort(slot0, CompareFuncs({
+		function (slot0)
+			if slot0:GetMaxNum() ~= 0 and slot0:GetMaxNum() - slot0.purchasedNum == 0 then
+				return 3
+			end
+
+			if slot0:IsShowHold() then
+				if slot0:IsCharacterInviteItemHold() then
+					return 2
+				else
+					return Drop.New({
+						count = 1,
+						type = slot0:GetItems()[1][1],
+						id = slot0:GetItems()[1][2]
+					}):getOwnedCount() > 0 and 2 or 1
+				end
+			else
+				return 1
+			end
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
 end
 
 return slot0

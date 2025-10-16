@@ -83,7 +83,7 @@ slot0.emit = function(slot0, slot1, ...)
 			return
 		end
 
-		slot0:ExitProcess(slot1, ...)
+		slot0:ExitProcess(slot1, nil, ...)
 	else
 		uv0.super.emit(slot0, slot1, ...)
 	end
@@ -97,9 +97,9 @@ slot0.emitCore = function(slot0, slot1, ...)
 	slot0:emit(uv0.LINK_CORE_EVENT, IslandProxy.LINK_CORE, slot1, ...)
 end
 
-slot0.ExitProcess = function(slot0, slot1, ...)
-	slot2 = packEx(...)
-	slot3 = slot0:GetIsland()
+slot0.ExitProcess = function(slot0, slot1, slot2, ...)
+	slot3 = packEx(...)
+	slot4 = slot0:GetIsland()
 
 	seriesAsync({
 		function (slot0)
@@ -111,6 +111,10 @@ slot0.ExitProcess = function(slot0, slot1, ...)
 		end
 	}, function ()
 		uv0.super.emit(uv1, uv2, unpackEx(uv3))
+
+		if uv4 then
+			uv4()
+		end
 	end)
 end
 

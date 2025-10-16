@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "IslandCommanderMainUI"
 end
 
+slot0.CanEsc = function(slot0)
+	return false
+end
+
 slot0.OnLoaded = function(slot0)
 	slot0.leftPlane = slot0:findTF("adapt/left_panel")
 	slot0.backBtn = slot0:findTF("adapt/left_panel/back")

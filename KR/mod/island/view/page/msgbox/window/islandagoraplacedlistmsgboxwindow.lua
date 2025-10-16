@@ -97,4 +97,9 @@ slot0.UpdateList = function(slot0, slot1)
 	slot0.scrollRect:SetTotalCount(#slot1)
 end
 
+slot0.OnDestroy = function(slot0)
+	uv0.super.OnDestroy(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+end
+
 return slot0

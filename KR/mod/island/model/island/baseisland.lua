@@ -177,14 +177,6 @@ slot0.GetManifesto = function(slot0)
 	return slot0.manifesto
 end
 
-slot0.GetModifyNameConsume = function(slot0)
-	return {
-		DROP_TYPE_RESOURCE,
-		1,
-		1
-	}
-end
-
 slot0.AddExp = function(slot0, slot1)
 	if slot0:IsMaxLevel() then
 		return

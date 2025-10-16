@@ -59,7 +59,13 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot0.script = slot6
 
 	slot0:StartScript(slot6)
-	table.insert({}, function (slot0)
+
+	slot7 = {}
+
+	table.insert(slot7, function (slot0)
+		uv0:WaitForViewLoaded(_IslandCore:GetView(), slot0)
+	end)
+	table.insert(slot7, function (slot0)
 		uv0.player:OnStartAction(uv1, slot0)
 	end)
 
@@ -92,6 +98,33 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_26")
 		end
 	end)
+end
+
+slot0.WaitForViewLoaded = function(slot0, slot1, slot2)
+	slot0:RemoveTimer()
+
+	if slot1:IsLoaded() then
+		slot2()
+
+		return
+	end
+
+	slot0.timer = Timer.New(function ()
+		if uv0:IsLoaded() then
+			uv1:RemoveTimer()
+			uv2()
+		end
+	end, 0.1, -1)
+
+	slot0.timer:Start()
+end
+
+slot0.RemoveTimer = function(slot0, ...)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
 end
 
 slot0.StartScript = function(slot0, slot1)
@@ -205,6 +238,7 @@ slot0.EndScript = function(slot0, slot1)
 	slot0.state = uv0
 	slot0.script = nil
 
+	slot0:RemoveTimer()
 	slot0.player:OnEnd(slot1)
 	slot0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_END, slot0.refreshNpc)
 

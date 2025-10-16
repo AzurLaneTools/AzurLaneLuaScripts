@@ -317,12 +317,7 @@ slot0.doMain = function(slot0)
 				uv1:closeView()
 			end
 		end, SFX_PANEL)
-		setActive(uv0.giftButton, not LOCK_SHIP_GIFT)
 		onButton(uv0, uv0.giftButton, function ()
-			if LOCK_SHIP_GIFT then
-				return
-			end
-
 			uv0:emit(ProposeMediator.GIFT_SHIP, uv0.shipVO.id)
 		end, SFX_PANEL)
 	end)

@@ -1266,11 +1266,15 @@ end
 
 slot0.setSortingLayer = function(slot0, slot1)
 	slot0:updateL2dSortMode()
-	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot1)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot1 or LayerWeightConst.L2D_DEFAULT_LAYER)
 end
 
 slot0.updateL2dSortMode = function(slot0)
 	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil))
+end
+
+slot0.setSortingModeFrontZ = function(slot0)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontZ", nil))
 end
 
 slot0.Dispose = function(slot0)
@@ -1412,6 +1416,10 @@ end
 
 slot0.UpdateL2dSortMode = function(slot0)
 	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil))
+end
+
+slot0.SetSortingModeFrontZ = function(slot0)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontZ", nil))
 end
 
 return slot0

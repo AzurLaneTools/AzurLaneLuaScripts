@@ -1,4 +1,9 @@
-slot0 = class("Dorm3dMemorySubView", import("view.base.BaseSubView"))
+slot0 = class("Dorm3dMemorySubView", import("view.dorm3d.Game.Dorm3dGameBaseSubView"))
+
+slot0.Init = function(slot0)
+	slot0:OnLoaded()
+	slot0:OnInit()
+end
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf:Find("list/container")
@@ -72,9 +77,6 @@ slot0.UpdateDisplay = function(slot0, slot1, slot2)
 		setText(slot3:Find("name_lock"), i18n("dorm3d_reload_unlock_name"))
 		setText(slot3:Find("desc"), slot4.unlock_text)
 	end
-end
-
-slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,7 +1,7 @@
 slot0 = class("IslandSetCardWordCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	if not nameValidityCheck(slot1:getBody().word, 0, 60, {
+	if not nameValidityCheck(slot1:getBody().word, 4, 60, {
 		"spece_illegal_tip",
 		"login_newPlayerScene_name_tooShort",
 		"login_newPlayerScene_name_tooLong",

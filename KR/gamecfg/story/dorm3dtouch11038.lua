@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone3",
 			nameColor = "#FFFFFF",
-			say = "이 느낌… 왠지 심장이 멈추질 않아…",
+			hidePaintObj = true,
+			say = "계속 이러면… 뭔가 이상한 기분이 들 것 같아…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_bed02_idle01_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							skip = true,
+							name = "face_shame_start",
+							type = "action"
 						},
 						{
 							skip = false,

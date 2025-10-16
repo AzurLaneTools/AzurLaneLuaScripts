@@ -51,13 +51,13 @@ end
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, slot0.OnUnlockDone)
 	slot0:AddListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, slot0.Flush)
-	slot0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, slot0.Flush)
+	slot0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, slot0.OnGetPoointAwardDone)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, slot0.OnUnlockDone)
 	slot0:RemoveListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, slot0.Flush)
-	slot0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, slot0.Flush)
+	slot0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, slot0.OnGetPoointAwardDone)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -108,6 +108,16 @@ slot0.OnUnlockDone = function(slot0, slot1)
 	slot0:Flush()
 end
 
+slot0.OnGetPoointAwardDone = function(slot0, slot1)
+	slot2 = slot1.dropData.abilitys or {}
+
+	for slot6, slot7 in ipairs(slot2) do
+		pg.TipsMgr.GetInstance():ShowTips(pg.island_ability_template[slot7.id].unlock_text)
+	end
+
+	slot0:Flush()
+end
+
 slot0.Flush = function(slot0)
 	slot0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
 	slot0.showList = slot0.bookAgency:GetListByType(slot0:GetIllustrationType())
@@ -136,6 +146,8 @@ slot0.FlushRightPanel = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

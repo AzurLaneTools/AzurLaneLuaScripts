@@ -85,6 +85,13 @@ slot0.InitBuildData = function(slot0, slot1)
 
 	slot0.buildings[slot1.id] = IslandBuilding.New(slot1, true)
 	slot3 = getProxy(IslandProxy):GetIsland()
+
+	if table.contains(IslandProductConst.haveModelPlaces, slot1.id) then
+		slot3:DispatchEvent(IslandBuildingAgency.CHANGE_PRODUCT_MODEL, {
+			build_id = slot1.id
+		})
+	end
+
 	slot4 = ipairs
 	slot5 = slot1.build_collect.collect_list or {}
 
@@ -216,7 +223,7 @@ slot0.GetTipInfos = function(slot0)
 			for slot13, slot14 in pairs(slot9:GetDelegationSlotDatas()) do
 				if slot14:GetSlotRewardData() then
 					slot1 = slot1 + 1
-				elseif slot14:CanStartDelegation() then
+				elseif slot14:CanStartDelegationTip() then
 					slot2 = slot2 + 1
 				elseif slot14:GetSlotRoleData() then
 					table.insert(slot3, slot14:GetSlotRoleData():GetFinishTime())

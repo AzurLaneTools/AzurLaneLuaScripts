@@ -27,7 +27,7 @@ slot0.Update = function(slot0, slot1, slot2)
 	slot3 = pg.island_dress_template[slot1]
 	slot0.configType = slot3.type
 
-	setText(slot0.tf:Find("Text"), slot3.name)
+	setScrollText(slot0.tf:Find("textMask/Text"), slot3.name)
 
 	if slot3.icon ~= "" then
 		GetImageSpriteFromAtlasAsync(string.format("island/IslandDressIcon/%s", slot3.icon), "", slot0.tf:Find("icon"))

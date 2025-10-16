@@ -59,6 +59,15 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
+	onButton(slot0, slot3:Find("Center/Normal/Back/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_photo.tip
+		})
+	end, SFX_PANEL)
+
+	slot3 = slot0._tf
+
 	onButton(slot0, slot3:Find("Center/Normal/Back"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
@@ -389,7 +398,17 @@ slot0.OnShow = function(slot0)
 	slot0:RightSelectBtnHandle()
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
 slot0.OnHide = function(slot0)
+	if slot0.recordState then
+		triggerButton(slot0.btnFilm)
+
+		return
+	end
+
 	slot0.takePhotoModel = nil
 
 	slot0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)

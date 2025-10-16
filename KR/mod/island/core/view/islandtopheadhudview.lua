@@ -237,7 +237,15 @@ end
 slot0.OnDispose = function(slot0)
 	uv0.super.OnDispose(slot0)
 
+	for slot4, slot5 in ipairs(slot0.views) do
+		slot5:Dispose()
+	end
+
 	for slot4, slot5 in pairs(slot0.bubblePlayers) do
+		slot5:Dispose()
+	end
+
+	for slot4, slot5 in ipairs(slot0.views) do
 		slot5:Dispose()
 	end
 

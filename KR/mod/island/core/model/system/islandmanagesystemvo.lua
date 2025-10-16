@@ -55,18 +55,20 @@ slot0.GetUnits = function(slot0, slot1)
 		end
 	end
 
-	slot4 = pg.island_set.island_manage_customer_list.key_value_varchar
+	slot4 = Clone(pg.island_set.island_manage_customer_list.key_value_varchar)
 
 	for slot8, slot9 in ipairs(slot0.restaurant:getConfig("customer_slot")) do
 		slot10 = slot9[1]
 		slot11 = slot9[2]
 		slot12 = pg.island_world_objects[slot10]
 		slot13 = pg.island_world_objects[slot11]
+		slot14 = slot4[math.random(#slot4)]
 
+		table.removebyvalue(slot4, slot14)
 		table.insert(slot2, IslandUnitVO.New({
 			behaviourTree = "island/nodecanvas/system/system_manage_customer",
 			id = slot10,
-			modelId = slot4[math.random(#slot4)],
+			modelId = slot14,
 			type = IslandConst.UNIT_TYPE_MANAGE_CUSTOMER,
 			name = "system_unit" .. slot10,
 			position = slot12.param.position,

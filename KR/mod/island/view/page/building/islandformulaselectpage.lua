@@ -47,6 +47,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.enoughSureBg = slot0.sureBtn:Find("okBg")
 	slot0.notenoughSureBg = slot0.sureBtn:Find("notBg")
 	slot0.animationPlayer = slot0.rightInfo:GetComponent(typeof(Animation))
+	slot0.addExpTF = slot0.selectShipTf:Find("exp")
+	slot0.addExp = slot0.selectShipTf:Find("exp/addExp")
 end
 
 slot0.AddListeners = function(slot0)
@@ -56,6 +58,14 @@ slot0.RemoveListeners = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_commission.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 		existCall(uv0.cancelFunc)
@@ -295,6 +305,16 @@ slot0.RefreshCanStart = function(slot0)
 		setActive(slot0.enoughSureBg, true)
 		setActive(slot0.notenoughSureBg, false)
 		onButton(slot0, slot0.sureBtn, function ()
+			if uv0.addDelegateFormula then
+				uv0.placeId = pg.island_production_slot[uv0.slotId].place
+
+				if getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(uv0.placeId):GetDelegationSlotData(uv0.slotId) and not slot1:GetSlotRoleData() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("island_additional_production_tip2"))
+
+					return
+				end
+			end
+
 			if uv0.formulaToActivityDic[uv0.selectFormulaId] and (not getProxy(ActivityProxy):getActivityById(slot0) or slot1:isEnd()) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("island_activity_expired"))
 
@@ -312,6 +332,16 @@ slot0.RefreshCanStart = function(slot0)
 							build_id = uv0.placeId,
 							slot_list = uv1
 						})
+						existCall(uv0.unLoadCharacterFunc)
+
+						if uv0.addDelegateFormula then
+							uv0:emit(IslandMediator.ADD_DELEGATION, uv0.placeId, uv0.slotId, uv0.curSelectCount - uv0.addDelegateFormulaTimes)
+						else
+							uv0:emit(IslandMediator.START_DELEGATION, uv0.placeId, uv0.slotId, uv0.selectedShipId, uv0.selectFormulaId, uv0.curSelectCount)
+						end
+
+						existCall(uv0.confirmFunc)
+						uv0:Hide()
 					end,
 					onNo = function ()
 					end
@@ -352,6 +382,8 @@ slot0.OnShow = function(slot0, slot1)
 	slot0.addDelegateFormulaTimes = slot1.addDelegateFormulaTimes
 	slot0.canRewardTime = slot1.canRewardTime
 
+	setActive(slot0.addExpTF, slot0.selectedShipId ~= 1)
+
 	if slot0.addDelegateFormulaTimes then
 		setActive(slot0.barLimit, true)
 
@@ -363,7 +395,7 @@ slot0.OnShow = function(slot0, slot1)
 		setActive(slot0.addCountTips, false)
 	end
 
-	setText(slot0.sureBtn:Find("adapt/time/Text"), slot0.addDelegateFormulaTimes and i18n1("追加生产") or i18n("island_production_start"))
+	setText(slot0.sureBtn:Find("adapt/time/Text"), slot0.addDelegateFormulaTimes and i18n("island_additional_production_tip1") or i18n("island_production_start"))
 
 	slot0.slotId = pg.island_production_commission[slot0.commissionId].slot
 	slot0.placeId = pg.island_production_slot[slot0.slotId].place
@@ -408,6 +440,8 @@ slot0.RefreshShipEnergy = function(slot0)
 	else
 		slot0.animationPlayer:Play("anim_IslandFormulaSelectNewUI_bar_Loop")
 	end
+
+	setText(slot0.addExp, "EXP+" .. slot0.formulaCfg.ship_exp * slot1)
 
 	if slot0.eneryTimer then
 		slot0.eneryTimer:Stop()
@@ -576,6 +610,10 @@ slot0.OnHide = function(slot0)
 	if slot0.eneryTimer then
 		slot0.eneryTimer:Stop()
 	end
+end
+
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
 end
 
 slot0.OnDestroy = function(slot0)

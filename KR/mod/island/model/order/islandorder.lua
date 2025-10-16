@@ -62,11 +62,13 @@ end
 slot0.GetDisplayAwards = function(slot0)
 	slot1, slot2 = slot0:GetAwardItemAndExp()
 
-	table.insert(slot1, {
-		id = 2,
-		type = DROP_TYPE_ISLAND_ITEM,
-		count = slot2
-	})
+	if slot2 > 0 then
+		table.insert(slot1, {
+			id = 2,
+			type = DROP_TYPE_ISLAND_ITEM,
+			count = slot2
+		})
+	end
 
 	return slot1
 end

@@ -37,6 +37,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.musicPlayerView = MainMusicPlayerView.New(slot0._tf:Find("adapt"), slot0.event)
 
 	slot0.musicPlayerView:Load(slot0._tf:Find("adapt/MusicPlayer").gameObject)
+	slot0.musicPlayerView:ActionInvoke("Hide")
 
 	slot0.playedList = {}
 end

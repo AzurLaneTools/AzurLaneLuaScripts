@@ -117,7 +117,7 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			if slot10 and slot4:ExistAnyOverFlowItem() then
-				pg.TipsMgr.GetInstance():ShowTips("岛屿内背包已满")
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_bag_max"))
 
 				return
 			end
@@ -133,9 +133,9 @@ slot0.execute = function(slot0, slot1)
 						}):getName()
 
 						if slot15[2] == 1 then
-							pg.TipsMgr.GetInstance():ShowTips("物资不足")
+							pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_gold"))
 						elseif slot15[2] == 4 or slot15[2] == 14 then
-							pg.TipsMgr.GetInstance():ShowTips("钻石不足")
+							pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_gem"))
 						elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, slot15[2]) then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot17))
 						end
@@ -143,7 +143,7 @@ slot0.execute = function(slot0, slot1)
 						return
 					end
 				elseif slot15[1] == DROP_TYPE_ISLAND_ITEM and slot4:GetOwnCount(slot15[2]) < slot16 then
-					pg.TipsMgr.GetInstance():ShowTips("岛屿内道具不足")
+					pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_res"))
 
 					slot17 = pg.island_item_data_template[slot15[2]].jump_page
 
@@ -189,7 +189,7 @@ slot0.execute = function(slot0, slot1)
 
 						uv1:sendNotification(GAME.ISLAND_SHOP_OP_DONE, {
 							operation = uv3.operation,
-							awards = slot3.awards
+							awards = slot3
 						})
 
 						if uv3.callback then

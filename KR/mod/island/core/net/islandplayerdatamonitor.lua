@@ -270,12 +270,18 @@ end
 
 slot0.HandleSignInNotify = function(slot0, slot1)
 	if slot1.cmd == 2 then
-		pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(IslandVisitorLog.New({
+		slot4 = IslandVisitorLog.New({
 			id = slot1.island_id,
 			cmd = IslandConst.VISITOR_LOG_CMD_GIFT,
 			name = getProxy(FriendProxy):getFriend(slot1.island_id) and slot2:GetName() or "",
 			time = pg.TimeMgr.GetInstance():GetServerTime()
-		}))
+		})
+
+		if slot0:IsSelf(slot1.island_id) then
+			slot0:GetIsland():GetSignInAgency():AddInviter(getProxy(PlayerProxy):getRawData().id)
+		end
+
+		pg.IslandVisitorNotificationMgr.GetInstance():Enqueue(slot4)
 	end
 end
 

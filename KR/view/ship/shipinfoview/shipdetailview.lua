@@ -20,6 +20,7 @@ slot0.OnInit = function(slot0)
 	slot0:InitEvent()
 	setParent(slot0.randomFlagToggle, slot0._tf.parent)
 	setActive(slot0.randomFlagToggle, true)
+	triggerToggle(slot0.showQuickBtn, false)
 end
 
 slot0.InitDetail = function(slot0)

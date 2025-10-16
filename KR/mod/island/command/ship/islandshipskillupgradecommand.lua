@@ -19,10 +19,10 @@ slot0.execute = function(slot0, slot1)
 
 			slot1:Upgrade()
 
-			slot2 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+			slot3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 
 			for slot7, slot8 in ipairs(slot1:GetUpgradeMaterial()) do
-				slot2:RemoveItem(slot8.id, slot8.count)
+				slot3:RemoveItem(slot8.id, slot8.count)
 			end
 
 			IslandAchievementHelper.OnShipSkillUpgrade(slot1:GetLevel())

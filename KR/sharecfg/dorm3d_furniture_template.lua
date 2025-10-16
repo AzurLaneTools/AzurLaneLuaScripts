@@ -1144,6 +1144,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1153] = {
+		rarity = 4,
+		name = "천외피소",
+		type = 4,
+		room_id = 11,
+		desc = "기술과 미적 감각이 융합된 은밀한 휴식 공간. 마치 은하의 끝에 있는 따뜻한 쉘터와도 같은 느낌이다. \n 몸을 맡기면 일상을 잊고 우주의 꿈에 빠져들 수 있다.",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_bedroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture2",
+		acesses = "",
+		id = 1153,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051760
+			}
+		},
+		shop_id = {
+			270205
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1153"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
 	[1201] = {
 		rarity = 3,
 		name = "폭신한 침대",
@@ -1420,7 +1454,8 @@ pg.dorm3d_furniture_template = {
 			1107,
 			1108,
 			1151,
-			1152
+			1152,
+			1153
 		},
 		[12] = {
 			1201,
@@ -1479,6 +1514,7 @@ pg.dorm3d_furniture_template = {
 		1108,
 		1151,
 		1152,
+		1153,
 		1201,
 		1202,
 		1203,

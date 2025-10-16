@@ -40,7 +40,7 @@ slot0.DynamicBinding = function(slot0)
 		uv0.EachTrack(slot0, function (slot0, slot1)
 			if uv0[slot1.name] then
 				if GameObject.Find(uv0[slot1.name]) then
-					TimelineHelper.SetAutoBinding(uv1, slot1, slot2)
+					TimelineHelper.SetSceneBinding(uv1, slot1, slot2)
 				else
 					warning(string.format("轨道%s需要绑定的物体%s不存在", slot1.name, uv0[slot1.name]))
 				end

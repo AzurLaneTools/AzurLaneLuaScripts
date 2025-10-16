@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「또 만났군, $1」",
+			say = "「또 만났군, {playername}」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -44,20 +44,12 @@ slot0.Send = function(slot0, slot1, slot2)
 	}, 21005, function (slot0)
 		if slot0.ret == 0 then
 			if not getProxy(IslandProxy):GetIsland():IsNew() then
-				for slot6, slot7 in ipairs({
-					slot1:GetModifyNameConsume()
-				}) do
-					uv0:sendNotification(GAME.CONSUME_ITEM, Drop.New({
-						type = slot7[1],
-						id = slot7[2],
-						count = slot7[3]
-					}))
-				end
+				-- Nothing
 			end
 
-			slot1:SetName(uv1)
-			uv0:sendNotification(GAME.ISLAND_SET_NAME_DONE, {
-				name = uv1
+			slot1:SetName(uv0)
+			uv1:sendNotification(GAME.ISLAND_SET_NAME_DONE, {
+				name = uv0
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.ret] .. slot0.ret)

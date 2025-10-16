@@ -12,6 +12,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._effectFrPos = findTF(slot0._charTf, "effectFrPos")
 	slot0._effectBkPos = findTF(slot0._charTf, "effectBkPos")
 	slot0._powerSlider = slot4
+	slot0._collider = findTF(slot0._charTf, "collider")
+	slot0._collider.gameObject.layer = LayerMask.NameToLayer("Character")
 	slot6 = slot0._dftEvent
 
 	slot6:SetTriggerEvent(function ()

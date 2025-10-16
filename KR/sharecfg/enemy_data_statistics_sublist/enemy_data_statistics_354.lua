@@ -1,5 +1,39 @@
 pg = pg or {}
 pg.enemy_data_statistics_354 = {
+	[16735514] = {
+		cannon = 20,
+		air = 0,
+		torpedo = 27,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90274,
+		durability = 80,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 28,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 0,
+		id = 16735514,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1001116
+		}
+	},
 	[16735521] = {
 		cannon = 5,
 		air = 0,
@@ -1250,47 +1284,5 @@ pg.enemy_data_statistics_354 = {
 				LV = 1
 			}
 		}
-	},
-	[16739101] = {
-		cannon = 250,
-		name = "퓨리파이어?",
-		luck_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 250,
-		armor = 0,
-		id = 16739101,
-		hit_growth = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90261,
-		durability = 120000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 25,
-		antisub = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 14,
-		reload_growth = 0,
-		hit = 38,
-		torpedo = 250,
-		durability_growth = 0,
-		antiaircraft = 150,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			heisewuqi_stg = 2
-		},
-		appear_fx = {
-			"heisewuqi_stg",
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {}
 	}
 }

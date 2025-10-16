@@ -80,6 +80,10 @@ slot0.CheckMutex = function(slot0, slot1)
 	end)
 end
 
+slot0.GetFinishedIds = function(slot0)
+	return slot0.finishedIds
+end
+
 slot0.IsFinishTask = function(slot0, slot1)
 	return table.contains(slot0.finishedIds, slot1)
 end
@@ -101,7 +105,7 @@ slot0.GetShowTasks = function(slot0)
 				return uv0:IsFinishTask(slot0)
 			end)
 
-			if slot7 == IslandTaskType.SEASON then
+			if slot7 == IslandTaskType.HIDE then
 				if #slot8 > 0 and slot9 then
 					table.insert(slot1, slot6)
 				end

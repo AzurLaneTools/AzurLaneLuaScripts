@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._scrllPanel = slot0:findTF("right_panel")
+	slot0._scrllPanel = slot0:findTF("right_panel/content")
 	slot0._scrollView = slot0._scrllPanel:GetComponent("LScrollRect")
 end
 
@@ -68,6 +68,9 @@ slot0.Update = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot0:Sort()
+
+	slot0._scrollView.enabled = true
+
 	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
 
 	if slot0:GetSliderValue() > 0 then

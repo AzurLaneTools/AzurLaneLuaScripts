@@ -57,7 +57,7 @@ slot0.getIcon = function(slot0)
 			return "Props/icon_frame"
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function ()
-			return "island/" .. uv0:getConfig("icon")
+			return uv0:getConfig("icon_normal") ~= "" and slot0 or "island/" .. uv0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function ()
 			return "island/" .. uv0:getConfig("cmd_icon")
@@ -78,10 +78,47 @@ slot0.getIcon = function(slot0)
 			return "island/" .. uv0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
-			return "island/" .. uv0:getConfig("icon")
+			return uv0:getConfig("icon_normal")
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function ()
+			return "island/IslandDressIcon/" .. uv0:getConfig("icon")
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function ()
+			return "island/IslandActionIcon/" .. uv0:getConfig("resource")
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function ()
+			return uv0:getConfig("icon_normal")
 		end
 	}, function ()
 		return uv0:getConfig("icon")
+	end)
+end
+
+slot0.getIslandRarity = function(slot0)
+	return switch(slot0.type, {
+		[DROP_TYPE_ISLAND_ITEM] = function ()
+			return uv0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function ()
+			return uv0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
+			return uv0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function ()
+			return IslandItemRarity.ORANGE
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function ()
+			return IslandItemRarity.ORANGE
+		end,
+		[DROP_TYPE_ITEM] = function ()
+			return IslandItemRarity.ORANGE
+		end,
+		[DROP_TYPE_VITEM] = function ()
+			return IslandItemRarity.ORANGE
+		end
+	}, function ()
+		return IslandItemRarity.GREY
 	end)
 end
 
@@ -330,9 +367,10 @@ slot0.InitSwitch = function()
 			return pg.island_action[slot0.id]
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_speedup_ticket[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.island_speedup_ticket[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_CARD_DIY] = function (slot0)
 			return pg.island_card_diy[slot0.id]
@@ -496,12 +534,36 @@ slot0.InitSwitch = function()
 			return 0
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
+			if getProxy(IslandProxy):GetIsland() then
+				for slot6, slot7 in ipairs(slot1:GetAgoraAgency():GetFurnitures()) do
+					if slot7.id == slot0.id then
+						return slot7.count
+					end
+				end
+			end
+
 			return 0
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function (slot0)
+			if getProxy(IslandProxy):GetIsland() then
+				if slot0:getConfig("belongto") == 1 then
+					return slot1:GetDressUpAgency():CheckOwnDress(slot0.id) and 1 or 0
+				elseif slot2 == 2 then
+					return slot1:GetCharacterAgency():GetDressIdRealCount(slot0.id)
+				end
+			end
+
 			return 0
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function (slot0)
+			if not getProxy(IslandProxy) then
+				return 0
+			end
+
+			if slot1:GetIsland() then
+				return slot2:GetCharacterAgency():CheckSkinIsOwned(slot0.id) and 1 or 0
+			end
+
 			return 0
 		end
 	}
@@ -1456,6 +1518,9 @@ slot0.InitSwitch = function()
 			updateItem(slot1, Item.New({
 				id = slot0.id
 			}), slot2)
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function (slot0, slot1, slot2)
+			updateIslandSkin(slot1, slot0, slot2)
 		end
 	}
 

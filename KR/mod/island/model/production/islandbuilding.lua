@@ -147,6 +147,19 @@ slot0.UpdateDeleationRewardDataBySlotId = function(slot0, slot1, slot2)
 	slot3:UpdateSlotRewardData(slot2)
 end
 
+slot0.GetShipAddExpData = function(slot0, slot1)
+	slot2 = nil
+
+	if slot0:GetDelegationSlotData(slot1):GetSlotRewardData() then
+		slot2 = {
+			addShipId = slot4.ship_id,
+			addExp = slot4.exp
+		}
+	end
+
+	return slot2
+end
+
 slot0.UpdateCollectDataBySlotId = function(slot0, slot1, slot2)
 	if slot0.collectPlaceSystem then
 		slot0.collectPlaceSystem:UpdateCollectDataBySlotId(slot1, slot2)
@@ -229,7 +242,7 @@ end
 
 slot0.IsPostTip = function(slot0)
 	for slot4, slot5 in pairs(slot0.delegationSlotData) do
-		if slot5:CanStartDelegation() or slot5:GetSlotRewardData() then
+		if slot5:CanStartDelegationTip() or slot5:GetSlotRewardData() then
 			return true
 		end
 	end

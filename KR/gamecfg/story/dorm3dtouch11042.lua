@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone4",
 			nameColor = "#FFFFFF",
-			say = "허니라면 뭐든 괜찮아…",
+			hidePaintObj = true,
+			say = "허니… 조금만 더 이러고 있어도… 괜찮아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_bed02_idle03_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							skip = true,
+							name = "face_think_start",
+							type = "action"
 						},
 						{
 							skip = false,

@@ -20,6 +20,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.director = slot0.TOD:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 	slot0.speedComp = GetOrAddComponent(slot0.TOD, "TimelineSpeed")
+	slot0.settingComp = GetOrAddComponent(slot0.TOD, "TODSettings")
 
 	slot0:Init()
 end
@@ -35,7 +36,11 @@ slot0.Init = function(slot0)
 	slot0.director.extrapolationMode = UnityEngine.Playables.DirectorWrapMode.Loop
 	slot0._inited = true
 
-	slot0:Play()
+	if slot0.settingComp.pauseOnEnterTime then
+		slot0:PauseOnEnterTime()
+	else
+		slot0:Play()
+	end
 end
 
 slot0.Play = function(slot0)
@@ -43,11 +48,31 @@ slot0.Play = function(slot0)
 		return
 	end
 
-	slot1 = pg.TimeMgr.GetInstance()
-	slot0.director.time = math.floor((slot1:GetServerTime() - slot1._sAnchorTime) % uv0 % slot0.gameDaySec / slot0.gameDaySec * uv1) / uv2
+	slot0.director.time = slot0:GetFrame() / uv0
 
 	slot0.director:Play()
-	slot0.speedComp:SetTimelineSpeed(uv1 / uv2 / slot0.gameDaySec)
+	slot0.speedComp:SetTimelineSpeed(uv1 / uv0 / slot0.gameDaySec)
+end
+
+slot0.PauseOnEnterTime = function(slot0)
+	if not slot0._inited then
+		return
+	end
+
+	slot0.director.time = slot0:GetFrame() / uv0
+
+	slot0.director:Play()
+	slot0.speedComp:SetTimelineSpeed(0)
+end
+
+slot0.GetFrame = function(slot0)
+	if not slot0._inited then
+		return 0
+	end
+
+	slot1 = pg.TimeMgr.GetInstance()
+
+	return math.floor((slot1:GetServerTime() - slot1._sAnchorTime) % uv0 % slot0.gameDaySec / slot0.gameDaySec * uv1)
 end
 
 slot0.Dispose = function(slot0)

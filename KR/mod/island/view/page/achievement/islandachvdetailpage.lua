@@ -22,6 +22,14 @@ slot0.OnLoaded = function(slot0)
 
 	setActive(slot3:Find("tpl"), false)
 
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/get/Text"), i18n("handbook_claim"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/got/Text"), i18n("handbook_finished"))
+
 	slot2 = slot0._tf
 	slot2 = slot2:Find("view")
 	slot0.scrollRect = slot2:GetComponent("LScrollRect")
@@ -131,7 +139,10 @@ slot0.FlushDetail = function(slot0)
 			return slot0.id
 		end
 	}))
-	slot0.scrollRect:SetTotalCount(#slot0.showAchvList, -1)
+
+	slot0.scrollRect.enabled = true
+
+	slot0.scrollRect:SetTotalCount(#slot0.showAchvList, 0)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -152,6 +163,8 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 		slot3 = slot0.cards[slot2]
 	end
+
+	warning(slot1 + 1)
 
 	if slot0.showAchvList[slot1 + 1] then
 		slot3:Update(slot4)
@@ -187,6 +200,8 @@ slot0.OnGetAchvAwardDone = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
+	ClearLScrollrect(slot0.scrollRect)
+
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

@@ -13,6 +13,7 @@ slot0.PASTIRE_ABILITY_ID = 2002
 slot0.COMBP_ABILITY_ID = 29001
 slot0.DAILY_TASK_ABILITY_ID = 30001
 slot0.SIGNIN_STORY_NAME = "ISLAND1001032_1"
+slot0.TECH_FIRST_ID = 100001
 slot0.FINISH_TYPE = {
 	ON_GUIDE = 2,
 	ON_END = 3,
@@ -67,7 +68,10 @@ slot0.pageConfig = {
 		id = "ISLAND_GUIDE_8",
 		page = "IslandTechnologyPage",
 		condition = function ()
-			return getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(uv0.TECH_TASK_ID)
+			slot0 = getProxy(IslandProxy):GetIsland()
+			slot2 = slot0:GetTechnologyAgency():GetTechnology(uv0.TECH_FIRST_ID):GetStatus()
+
+			return slot0:GetTaskAgency():GetTask(uv0.TECH_TASK_ID) and (slot2 == IslandTechnology.STATUS.LOCK or slot2 == IslandTechnology.STATUS.UNLOCK or slot2 == IslandTechnology.STATUS.NORMAL)
 		end,
 		type = slot0.FINISH_TYPE.ON_GUIDE
 	},

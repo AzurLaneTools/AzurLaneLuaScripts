@@ -7,6 +7,9 @@ end
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf:Find("content")
 	slot0.lockTF = slot1:Find("view/lock")
+
+	setText(slot1:Find("view/content/tpl/sellOut/Text"), i18n("common_sale_out"))
+
 	slot0.goodUIList = UIItemList.New(slot1:Find("view/content"), slot1:Find("view/content/tpl"))
 	slot2 = slot1:Find("toggles")
 	slot0.togglesUIList = UIItemList.New(slot2, slot2:Find("tpl"))
@@ -59,37 +62,7 @@ slot0.UpdateGood = function(slot0, slot1, slot2)
 	slot3 = slot0.displaysGoods[slot1 + 1]
 	slot2.name = slot3.id
 
-	setText(slot2:Find("name"), slot3:GetName())
-
-	if #slot3:GetItems() == 1 then
-		slot4 = slot3:GetItems()[1]
-
-		updateCustomDrop(slot2:Find("IslandItemTpl"), {
-			type = slot4[1],
-			id = slot4[2],
-			count = slot4[3]
-		})
-	else
-		GetImageSpriteFromAtlasAsync("island/" .. slot3:GetIcon(), "", slot2:Find("IslandItemTpl/icon_bg/icon"))
-	end
-
-	slot4 = slot3:GetResourceConsume()
-
-	GetImageSpriteFromAtlasAsync(Drop.New({
-		type = slot4[1],
-		id = slot4[2]
-	}):getIcon(), "", slot2:Find("cost/icon"))
-	setText(slot2:Find("cost/num"), math.ceil((100 - slot3:GetDiscount()) / 100 * slot4[3]))
-	setActive(slot2:Find("IslandItemTpl/icon_bg/count_bg"), slot3:IsShowPurchaseLimit())
-	setText(slot2:Find("IslandItemTpl/icon_bg/count_bg/count"), slot3:GetMaxNum() - slot3.purchasedNum .. "/" .. slot3:GetMaxNum())
-	setActive(slot2:Find("sellOut"), slot3:GetMaxNum() ~= 0 and slot5 == 0)
-	setActive(slot2:Find("timeLimit"), slot3:IsTimeLimitCommodity())
-	setActive(slot2:Find("discount"), slot3:GetDiscount() ~= 0)
-	setText(slot2:Find("discount/Text"), "-" .. slot3:GetDiscount() .. "%")
-	setActive(slot2:Find("have"), slot3:IsShowHave())
-	setText(slot2:Find("have"), i18n("island_word_own", slot0.inventoryAgency:GetOwnCount(slot3:GetItems()[1][2])))
-	setActive(slot2:Find("hold"), slot3:IsShowHold() and (slot6 > 0 or slot3:IsCharacterInviteItemHold()))
-	setActive(slot2:Find("cost"), not isActive(slot2:Find("hold")))
+	IslandShopPage.StaticUpdateCommodityTpl(slot2, slot3)
 	setActive(slot2:Find("notInTime"), not slot0.displayShop:IsInTime())
 
 	if isActive(slot2:Find("sellOut")) or isActive(slot2:Find("hold")) or isActive(slot2:Find("notInTime")) then
@@ -115,6 +88,7 @@ slot0.Flush = function(slot0)
 
 	slot0.displaysGoods = slot0.displayShop:GetCommodities()
 
+	IslandShopPage.SortShopCommodities(slot0.displaysGoods)
 	slot0.goodUIList:align(#slot0.displaysGoods)
 	setActive(slot0.lockTF, not slot0.displayShop:IsInTime())
 end

@@ -137,7 +137,13 @@ slot0.OnHide = function(slot0)
 	end
 end
 
+slot0.OnDisable = function(slot0)
+	slot0:OnHide()
+end
+
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
+
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
 	end

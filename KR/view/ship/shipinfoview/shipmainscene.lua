@@ -443,7 +443,7 @@ slot0.didEnter = function(slot0)
 	slot0:OverlayPanel(slot0.blurPanel)
 	slot0:gotoPage(slot0:checkToggleActive(slot0.contextData.page) and slot0.contextData.page or ShipViewConst.PAGE.DETAIL)
 
-	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL then
+	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL or slot1 == ShipViewConst.PAGE.DETAIL then
 		slot0:displayShipWord(slot0:getInitmacyWords())
 		slot0:checkMaxLevelHelp()
 	end
