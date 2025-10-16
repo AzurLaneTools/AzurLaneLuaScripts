@@ -35008,7 +35008,7 @@ cs.gametip = {
 	},
 	dorm3d_shop_tag8 = {
 		1363660,
-		98,
+		104,
 		true
 	}
 }

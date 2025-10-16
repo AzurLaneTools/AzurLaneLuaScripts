@@ -2964,6 +2964,10 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 end
 
 slot0.GetCurrentLadyEnv = function(slot0)
+	if not slot0.apartment then
+		return nil
+	end
+
 	return slot0.ladyDict[slot0.apartment:GetConfigID()]
 end
 

@@ -91,6 +91,7 @@ slot0.Loaded = function(slot0, slot1)
 		SetParent(slot0._tf, slot0._parentTf, false)
 	end
 
+	bindComponent(slot0, slot0._go)
 	slot0:OnLoaded()
 end
 
@@ -101,7 +102,6 @@ slot0.Init = function(slot0)
 
 	slot0._state = uv0.STATES.INITED
 
-	bindComponent(slot0, slot0._go)
 	slot0:OnInit()
 	slot0:HandleFuncQueue()
 end

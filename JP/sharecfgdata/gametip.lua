@@ -45533,5 +45533,5 @@ _G.pg.base.gametip.island_information_tech = {
 
 
 _G.pg.base.gametip.dorm3d_shop_tag8 = {
-	tip = "解锁丝袜互动"
+	tip = "サイハイ演出開放"
 }

@@ -302,7 +302,7 @@ slot0.InitEvent = function(slot0)
 			end
 
 			setActive(findTF(tf(slot1), "IconTpl/icon_bg/icon"), true)
-			updateEquipment(tf(slot1:Find("IconTpl")), slot3)
+			updateEquipment(findTF(tf(slot1), "IconTpl"), slot3)
 
 			if slot3.shipId then
 				setImageSprite(findTF(tf(slot1), "IconTpl/icon_bg/equip_flag/Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot3.shipId):getPainting()))
