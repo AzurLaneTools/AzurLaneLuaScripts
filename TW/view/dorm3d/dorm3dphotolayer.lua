@@ -316,12 +316,6 @@ slot0.didEnter = function(slot0)
 
 		slot2 = function(slot0, slot1)
 			uv0:emit(Dorm3dPhotoMediator.SHARE_PANEL, slot1, slot0)
-
-			if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
-				print("start photo : play sound")
-				NotificationMgr.Inst:PlayShutterSound()
-			end
-
 			getProxy(Dorm3dChatProxy):TriggerEvent({
 				{
 					value = 1,

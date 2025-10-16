@@ -227,6 +227,7 @@ slot0 = {
 		slot0.mediator = IslandMediator
 		slot0.viewComponent = IslandScene
 		slot0.irregularSequence = true
+		slot0.cleanCacheUI = true
 	end,
 	[SCENE.SHARED_ISLAND] = function (slot0, slot1)
 		slot0.mediator = SharedIslandMediator
@@ -257,6 +258,7 @@ slot0 = {
 		slot0.mediator = LoginMediator
 		slot0.viewComponent = LoginScene
 		slot0.cleanStack = true
+		slot0.cleanCacheUI = true
 	end,
 	[SCENE.CREATE_PLAYER] = function (slot0, slot1)
 		slot0.mediator = NewPlayerMediator
@@ -920,6 +922,7 @@ slot0 = {
 		slot0.mediator = Dorm3dRoomMediator
 		slot0.viewComponent = Dorm3dRoomScene
 		slot0.cleanChild = true
+		slot0.cleanCacheUI = true
 	end,
 	[SCENE.DORM3D_VOLLEYBALL] = function (slot0, slot1)
 		slot0.mediator = Dorm3dGameMediatorTemplate

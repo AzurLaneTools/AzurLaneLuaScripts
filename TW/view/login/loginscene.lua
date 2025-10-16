@@ -360,17 +360,21 @@ end
 slot0.setBg = function(slot0)
 	slot0.bgImg = slot0:findTF("background/bg"):GetComponent(typeof(Image))
 
+	if slot0:findTF("background/bg"):GetComponent("AspectRatioFitter") then
+		slot1.aspectMode = AspectMode.FitInParent
+	end
+
 	if not slot0.isCriBg then
 		setImageSprite(slot0.bgImg, slot0.staticBgSprite)
 	else
 		slot0.bgImg.enabled = false
-		slot1 = slot0.criBgGo.transform
+		slot2 = slot0.criBgGo.transform
 
-		slot1:SetParent(slot0.bgImg.transform, false)
-		slot1:SetAsFirstSibling()
+		slot2:SetParent(slot0.bgImg.transform, false)
+		slot2:SetAsFirstSibling()
 
 		if slot0.criBgGo:GetComponent("AspectRatioFitter") then
-			slot2.enabled = true
+			slot3.enabled = true
 		end
 	end
 end

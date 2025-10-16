@@ -4651,6 +4651,27 @@ pg.backyard_theme_template = {
 			329119
 		}
 	},
+	[130] = {
+		Cfg_1 = 5,
+		name = "迷宮都市",
+		desc = "踏入迷宮都市，登上英雄們的冒險舞台",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 130,
+		id = 130,
+		icon = "dxthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			330001,
+			330002,
+			330101
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4760,6 +4781,7 @@ pg.backyard_theme_template = {
 		125,
 		126,
 		127,
-		129
+		129,
+		130
 	}
 }

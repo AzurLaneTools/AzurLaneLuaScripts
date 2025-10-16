@@ -28,13 +28,9 @@ slot0.init = function(slot0)
 	end)
 
 	slot2 = slot1:Find("content")
-	slot0.memoryView = Dorm3dMemorySubView.New(slot2, slot0.event, slot0.contextData)
+	slot0.memoryView = Dorm3dMemorySubView.New(slot2:Find("memory"), slot0.event, slot0.contextData)
+	slot0.collectItemView = Dorm3dCollectionItemSubView.New(slot2:Find("item"), slot0.event, slot0.contextData)
 
-	slot0.memoryView:Load(slot2:Find("memory").gameObject)
-
-	slot0.collectItemView = Dorm3dCollectionItemSubView.New(slot2, slot0.event, slot0.contextData)
-
-	slot0.collectItemView:Load(slot2:Find("item").gameObject)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
@@ -44,8 +40,8 @@ slot0.SetPage = function(slot0, slot1)
 		item = slot0.collectItemView
 	}) do
 		if slot5 == slot1 then
-			slot6:ExecuteAction("Show")
-		elseif slot6:isShowing() then
+			slot6:Show()
+		else
 			slot6:Hide()
 		end
 	end
@@ -65,8 +61,8 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	slot0.memoryView:Destroy()
-	slot0.collectItemView:Destroy()
+	slot0.memoryView:Dispose()
+	slot0.collectItemView:Dispose()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 

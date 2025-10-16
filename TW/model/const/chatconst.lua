@@ -17,7 +17,8 @@ slot0.RecvChannels = {
 	slot0.ChannelWorld,
 	slot0.ChannelPublic,
 	slot0.ChannelFriend,
-	slot0.ChannelGuild
+	slot0.ChannelGuild,
+	slot0.ChannelWorldBoss
 }
 
 slot0.GetChannelName = function(slot0)

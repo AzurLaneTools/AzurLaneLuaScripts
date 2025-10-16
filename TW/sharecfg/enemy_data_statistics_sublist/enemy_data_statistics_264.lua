@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_264 = {
+	[16502113] = {
+		cannon = 54,
+		name = "勒馬爾統御武裝-「侵襲」",
+		hit_growth = 280,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 3,
+		type = 3,
+		id = 16502113,
+		antiaircraft = 88,
+		antiaircraft_growth = 3380,
+		fog_fx = "",
+		dodge_growth = 136,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90279,
+		durability = 4420,
+		armor_growth = 0,
+		torpedo_growth = 2800,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 1500,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 58,
+		durability_growth = 41600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1101092,
+			1101097,
+			1101102,
+			1101107
+		}
+	},
 	[16502114] = {
 		cannon = 78,
 		name = "勒馬爾統御武裝-「毀滅」",
@@ -1407,54 +1454,5 @@ pg.enemy_data_statistics_264 = {
 				LV = 4
 			}
 		}
-	},
-	[16503203] = {
-		cannon = 122,
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		hit_growth = 210,
-		antisub = 0,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90250,
-		durability = 13670,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		speed = 20,
-		luck = 18,
-		id = 16503203,
-		cannon_growth = 1700,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 105,
-		durability_growth = 249600,
-		antiaircraft = 205,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000743,
-			1000748,
-			1000753,
-			1000758,
-			1000763,
-			1000768,
-			1000773
-		},
-		buff_list = {}
 	}
 }

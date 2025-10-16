@@ -98,7 +98,8 @@ slot0.init = function(slot0)
 		ChatConst.ChannelWorld,
 		ChatConst.ChannelPublic,
 		ChatConst.ChannelFriend,
-		ChatConst.ChannelGuild
+		ChatConst.ChannelGuild,
+		ChatConst.ChannelWorldBoss
 	}) do
 		slot8 = ChatConst.GetChannelSprite(slot6)
 		slot0.textSprites[slot6] = slot0:findTF("text_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite

@@ -6995,7 +6995,34 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_596_1_1",
 		"op_reply_596_1_1",
 		"ins_op_596_1_2",
-		"op_reply_596_1_2"
+		"op_reply_596_1_2",
+		"ins_597",
+		"ins_discuss_597_1",
+		"ins_reply_597_1_1",
+		"ins_reply_597_1_2",
+		"ins_reply_597_1_3",
+		"ins_discuss_597_2",
+		"ins_reply_597_2_1",
+		"ins_reply_597_2_2",
+		"ins_reply_597_2_3",
+		"ins_op_597_1_1",
+		"op_reply_597_1_1",
+		"ins_op_597_1_2",
+		"op_reply_597_1_2",
+		"ins_598",
+		"ins_discuss_598_1",
+		"ins_reply_598_1_1",
+		"ins_discuss_598_2",
+		"ins_reply_598_2_1",
+		"ins_reply_598_2_2",
+		"ins_reply_598_2_3",
+		"ins_reply_598_2_4",
+		"ins_reply_598_2_5",
+		"ins_reply_598_2_6",
+		"ins_op_598_1_1",
+		"op_reply_598_1_1",
+		"ins_op_598_1_2",
+		"op_reply_598_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27981,5 +28008,86 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_596_1_2 = {
 		value = "指揮官！酒變得更好喝了！"
+	},
+	ins_597 = {
+		value = ""
+	},
+	ins_discuss_597_1 = {
+		value = ""
+	},
+	ins_reply_597_1_1 = {
+		value = ""
+	},
+	ins_reply_597_1_2 = {
+		value = ""
+	},
+	ins_reply_597_1_3 = {
+		value = ""
+	},
+	ins_discuss_597_2 = {
+		value = ""
+	},
+	ins_reply_597_2_1 = {
+		value = ""
+	},
+	ins_reply_597_2_2 = {
+		value = ""
+	},
+	ins_reply_597_2_3 = {
+		value = ""
+	},
+	ins_op_597_1_1 = {
+		value = ""
+	},
+	op_reply_597_1_1 = {
+		value = ""
+	},
+	ins_op_597_1_2 = {
+		value = ""
+	},
+	op_reply_597_1_2 = {
+		value = ""
+	},
+	ins_598 = {
+		value = ""
+	},
+	ins_discuss_598_1 = {
+		value = ""
+	},
+	ins_reply_598_1_1 = {
+		value = ""
+	},
+	ins_discuss_598_2 = {
+		value = ""
+	},
+	ins_reply_598_2_1 = {
+		value = ""
+	},
+	ins_reply_598_2_2 = {
+		value = ""
+	},
+	ins_reply_598_2_3 = {
+		value = ""
+	},
+	ins_reply_598_2_4 = {
+		value = ""
+	},
+	ins_reply_598_2_5 = {
+		value = ""
+	},
+	ins_reply_598_2_6 = {
+		value = ""
+	},
+	ins_op_598_1_1 = {
+		value = ""
+	},
+	op_reply_598_1_1 = {
+		value = ""
+	},
+	ins_op_598_1_2 = {
+		value = ""
+	},
+	op_reply_598_1_2 = {
+		value = ""
 	}
 }

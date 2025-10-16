@@ -760,6 +760,14 @@ pg.task_data_trigger = {
 		id = 97,
 		group_id = 90701
 	},
+	[98] = {
+		task_id = 500001,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 98,
+		group_id = 50207
+	},
 	[99] = {
 		task_id = 500011,
 		activity_id = 0,
@@ -767,6 +775,14 @@ pg.task_data_trigger = {
 		type = 2,
 		id = 99,
 		group_id = 49905
+	},
+	[100] = {
+		task_id = 500021,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 100,
+		group_id = 80503
 	},
 	[101] = {
 		task_id = 500031,
@@ -888,7 +904,9 @@ pg.task_data_trigger = {
 		95,
 		96,
 		97,
+		98,
 		99,
+		100,
 		101,
 		102,
 		114

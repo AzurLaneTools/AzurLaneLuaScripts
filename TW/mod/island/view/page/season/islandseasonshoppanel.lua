@@ -7,6 +7,9 @@ end
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf:Find("content")
 	slot0.lockTF = slot1:Find("view/lock")
+
+	setText(slot1:Find("view/content/tpl/sellOut/Text"), i18n("common_sale_out"))
+
 	slot0.goodUIList = UIItemList.New(slot1:Find("view/content"), slot1:Find("view/content/tpl"))
 	slot2 = slot1:Find("toggles")
 	slot0.togglesUIList = UIItemList.New(slot2, slot2:Find("tpl"))

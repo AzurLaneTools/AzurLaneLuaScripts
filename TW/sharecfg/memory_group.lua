@@ -228,6 +228,8 @@ pg.memory_group = setmetatable({
 		338,
 		339,
 		340,
+		341,
+		342,
 		501,
 		502,
 		503,
@@ -323,7 +325,9 @@ pg.memory_group = setmetatable({
 		595,
 		596,
 		597,
+		598,
 		599,
+		600,
 		601,
 		602,
 		614,
@@ -5613,6 +5617,45 @@ pg.base.memory_group = {
 			4660
 		}
 	},
+	[341] = {
+		title = "青空下的相遇",
+		subtype = 2,
+		link_event = 50156,
+		type = 2,
+		id = 341,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4671,
+			4672,
+			4673,
+			4674,
+			4675,
+			4676,
+			4677,
+			4678,
+			4679,
+			4680,
+			4681,
+			4682,
+			4683,
+			4684,
+			4685
+		}
+	},
+	[342] = {
+		title = "青空下的相遇-「日常篇」",
+		subtype = 2,
+		link_event = 50156,
+		type = 2,
+		id = 342,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4691,
+			4692
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委託",
 		subtype = 0,
@@ -7524,6 +7567,26 @@ pg.base.memory_group = {
 			10000
 		}
 	},
+	[598] = {
+		title = "出發！尋找靈感之旅！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 598,
+		icon = "title_chara_haitian",
+		memories = {
+			3531,
+			3532,
+			3533,
+			3534,
+			3535,
+			3536,
+			3537
+		},
+		group_id = {
+			10000
+		}
+	},
 	[599] = {
 		title = "激蕩的荒海之神",
 		subtype = 0,
@@ -7539,6 +7602,26 @@ pg.base.memory_group = {
 			3675,
 			3676,
 			3677
+		},
+		group_id = {
+			10000
+		}
+	},
+	[600] = {
+		title = "亞爾薩斯過熱中！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 600,
+		icon = "title_chara_aersasi",
+		memories = {
+			3691,
+			3692,
+			3693,
+			3694,
+			3695,
+			3696,
+			3697
 		},
 		group_id = {
 			10000

@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_188 = {
+	[14404005] = {
+		cannon = 0,
+		name = "大鳳級量產型",
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		id = 14404005,
+		antiaircraft_growth = 1800,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 2000,
+		hit_growth = 144,
+		base = 90492,
+		durability = 4680,
+		armor_growth = 0,
+		durability_growth = 65600,
+		antiaircraft = 150,
+		speed = 15,
+		luck = 0,
+		battle_unit_type = 65,
+		antisub = 0,
+		torpedo_growth = 0,
+		air = 55,
+		fog_fx = "",
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		equipment_list = {
+			1101029,
+			1100799,
+			1100804,
+			1101024
+		}
+	},
 	[14404006] = {
 		cannon = 100,
 		air = 0,
@@ -1171,41 +1231,6 @@ pg.enemy_data_statistics_188 = {
 			1100165,
 			1100885,
 			1100895
-		}
-	},
-	[14500301] = {
-		cannon = 6,
-		air = 0,
-		torpedo = 54,
-		cannon_growth = 468,
-		id = 14500301,
-		reload = 150,
-		armor = 0,
-		dodge = 15,
-		torpedo_growth = 4491,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 222,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 50,
-		base = 90163,
-		durability = 640,
-		armor_growth = 0,
-		durability_growth = 20080,
-		antiaircraft = 20,
-		speed = 32,
-		luck = 0,
-		antiaircraft_growth = 1638,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1100115,
-			1100240,
-			1100475
 		}
 	}
 }

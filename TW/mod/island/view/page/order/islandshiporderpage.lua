@@ -26,6 +26,12 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("frame/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_ship_order.tip
+		})
+	end, SFX_PANEL)
 	slot0:bind(uv0.EVENT_CLOSE_LOAD_UP, function ()
 		uv0:ClearSelected()
 	end)

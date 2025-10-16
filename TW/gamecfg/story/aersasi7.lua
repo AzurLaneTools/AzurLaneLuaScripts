@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>七　“最终手段”</size>",
+					"亞爾薩斯過熱中！\n\n<size=45>7　「最終手段」  </size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			fontsize = 39,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在布伦努斯产生误会的小插曲之后，又和阿尔萨斯进行了许多项训练。",
+			say = "在布倫努斯產生誤會的小插曲之後，又和亞爾薩斯進行了許多次訓練。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "直到天色暗淡时，阿尔萨斯提出想要测试一下情感模块的耐性提升效果。",
+			say = "直到天色暗淡時，亞爾薩斯提出想要測試一下情感模組的耐性提升效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "在配合她完成了简单的测试后——",
+			say = "在配合她完成了簡單的測試後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……嗯！报告指挥官，阿尔萨斯的情感模块耐受现在提升了五秒！",
+			say = "嗯……嗯！報告指揮官，亞爾薩斯的情感模組耐受現在提升了五秒鐘！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "（虽然提高了五秒是个不小的进步，但这样下去效率还是太差了……）",
+			say = "（雖然提高了五秒是個不小的進步，但這樣下去效率還是太差了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……？您、您怎么突然在皱眉……果然是……果然是阿尔萨斯很没用吧！",
+			say = "指揮官……？您、您怎麼突然在皺眉……果然是……果然是亞爾薩斯很沒用吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……指挥官对不起。",
+			say = "嗚……指揮官對不起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "不是的，阿尔萨斯做得已经很棒了。",
+			say = "不是的，亞爾薩斯做得已經很棒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "况且，阿尔萨斯频繁失控的原因在我，就算要道歉也应该是我来道歉才对。",
+			say = "況且，亞爾薩斯頻繁失控的原因在我，就算要道歉也應該是我來道歉才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不不不对，不是这样的，怎么会是指挥官的错……",
+			say = "不、不不對，不是這樣的，怎麼會是指揮官的錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是因为阿尔萨斯……因为阿尔萨斯越来越喜欢指挥官才会这样！",
+			say = "是因為亞爾薩斯……因為亞爾薩斯越來越喜歡指揮官才會這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯如同刚刚那样红着脸，但这一次，她没有陷入失控之中。",
+			say = "亞爾薩斯如同剛剛那樣紅著臉，但這一次，她沒有陷入失控之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "少女轻轻咬了咬嘴唇，双手握拳像是下定决心一般。",
+			say = "少女輕輕咬了咬嘴唇，雙手握拳像是下定決心一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是、是因为阿尔萨斯喜欢指挥官……",
+			say = "是、是因為亞爾薩斯喜歡指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管是视线还是内心，都被指挥官的一举一动牵动着……",
+			say = "不管是視線還是內心，都被指揮官的一舉一動牽動著……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后就变得越来越难以抵抗指挥官电波了……",
+			say = "然後就變得越來越難抵抗指揮官電波了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以这不是指挥官的错，是因为阿尔萨斯越来越喜欢指挥官……才变成这样……",
+			say = "所以這不是指揮官的錯，是因為亞爾薩斯越來越喜歡指揮官……才變成這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "阿尔萨斯……你现在好像……能控制住了？",
+			say = "亞爾薩斯……妳現在好像……能控制住了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是、是的……！其实阿尔萨斯一直都有“最终手段”……只是没有告诉指挥官。",
+			say = "是、是的……！其實亞爾薩斯一直都有「最終手段」……只是沒有告訴指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，这个“最终手段”也只能经由指挥官协助才能完成……",
+			say = "不過，這個「最終手段」也只能經由指揮官協助才能完成……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "尽管告诉我吧，不管什么样的协助我都会竭尽全力。",
+			say = "儘管告訴我吧，不管什麼樣的協助我都會盡全力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那那么……阿尔萨斯就不客气了……",
+			say = "那、那那麼……亞爾薩斯就不客氣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“堵不如疏”……阿尔萨斯记得是有句话这样说吧？",
+			say = "「堵不如疏」……亞爾薩斯記得是有句話這樣說吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "过载散热模式准备……",
+			say = "過載散熱模式準備……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯把手上的甲胄脱了下来，丢在了办公桌上。",
+			say = "亞爾薩斯把手上的甲胄脫了下來，丟在了辦公桌上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这次就试着让阿尔萨斯的情感模块……尽情过热，同时……尽情释放吧。",
+			say = "指揮官，這次就試著讓亞爾薩斯的情感模組……盡情過熱，同時……盡情釋放吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "物理链接模式准备……已就绪。",
+			say = "物理連結模式準備……已就緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯的脸颊和身躯变得比平时还要潮红。",
+			say = "亞爾薩斯的臉頰和身體變得比平常還要潮紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，要释放的不光是情感模块……还有阿尔萨斯对指挥官的爱意。",
+			say = "不過，要釋放的不光是情感模組……還有亞爾薩斯對指揮官的愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "她锁上了指挥室的门，接着回头看向我，眼神中不再带着迷茫和慌乱。",
+			say = "她鎖上了指揮室的門，接著回頭看向我，眼神中不再帶著迷惘和慌張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……请您……尽情感受阿尔萨斯对您难以抑制的爱意吧——",
+			say = "指揮官……請您……盡情感受亞爾薩斯對您難以抑制的愛意吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

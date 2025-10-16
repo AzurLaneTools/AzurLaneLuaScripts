@@ -146,7 +146,6 @@ pg.island_technology_template = setmetatable({
 			530001,
 			320203,
 			520203,
-			530201,
 			500236,
 			530205,
 			520205,
@@ -338,7 +337,6 @@ pg.island_technology_template = setmetatable({
 		530001,
 		320203,
 		520203,
-		530201,
 		500236,
 		530205,
 		520205,
@@ -4149,33 +4147,6 @@ pg.base.island_technology_template = {
 			3
 		}
 	},
-	[530201] = {
-		tech_desc = "能够制作出香甜饱满的玉米杯。",
-		auto_finish = 1,
-		tech_chara = 1,
-		tech_icon = "tech_530201",
-		tech_belong = 5,
-		tech_name = "玉米杯食谱",
-		complete_tips = "可以获取“玉米杯”了",
-		formula_id = 7530201,
-		tech_level = "1",
-		id = 530201,
-		island_level = 17,
-		sys_unlock = {
-			{
-				3,
-				530001
-			}
-		},
-		tech_repeat = {
-			0,
-			0
-		},
-		axis = {
-			19,
-			5
-		}
-	},
 	[500236] = {
 		tech_desc = "先进的牛油果树种植技术，让牛油果树能在岛屿开发区的环境中茁壮成长。",
 		auto_finish = 1,
@@ -4222,7 +4193,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				530201
+				530001
 			}
 		},
 		tech_repeat = {
@@ -4230,7 +4201,7 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			22,
+			19,
 			5
 		}
 	},
@@ -4276,7 +4247,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				530201
+				530001
 			}
 		},
 		tech_repeat = {
@@ -4284,7 +4255,7 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			22,
+			19,
 			7
 		}
 	},
@@ -4315,7 +4286,7 @@ pg.base.island_technology_template = {
 			0
 		},
 		axis = {
-			25,
+			22,
 			5
 		}
 	},
@@ -4674,7 +4645,7 @@ pg.base.island_technology_template = {
 		sys_unlock = {
 			{
 				3,
-				520205
+				520204
 			}
 		},
 		tech_repeat = {

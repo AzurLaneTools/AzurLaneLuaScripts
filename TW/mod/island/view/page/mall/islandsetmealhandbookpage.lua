@@ -8,7 +8,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0._tf:Find("top/back")
 	slot0.setMealList = UIItemList.New(slot0._tf:Find("setMealList/Viewport/Content"), slot0._tf:Find("setMealList/Viewport/Content/setMealTpl"))
 	slot0.detail = slot0._tf:Find("detail")
-	slot0.detailName = slot0.detail:Find("name")
+	slot0.detailName = slot0.detail:Find("name/text")
 	slot0.formulaList1 = slot0.detail:Find("formulaList1")
 	slot0.formulaList2 = slot0.detail:Find("formulaList2")
 	slot0.detailDesc = slot0.detail:Find("desc")
@@ -17,9 +17,17 @@ slot0.OnLoaded = function(slot0)
 	setActive(slot0.detail, false)
 	setText(slot0._tf:Find("top/title/Text"), i18n("island_setmeal_title"))
 	setText(slot0._tf:Find("top/title/Text/en"), i18n1("HANDBOOK"))
+	setText(slot0._tf:Find("detail/condition"), i18n("island_tech_detail_unlocktitle"))
+	setText(slot0._tf:Find("detail/decoration2/text"), i18n("island_setmeal_benifit_title"))
 end
 
 slot0.OnInit = function(slot0)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_combo.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -91,7 +99,7 @@ slot0.SetFormulaList = function(slot0)
 			setActive(slot2:Find("lock"), not slot7)
 
 			if slot7 then
-				setText(slot2:Find("name"), slot3.name)
+				setScrollText(slot2:Find("name/text"), slot3.name)
 				updateCustomDrop(slot2:Find("IslandItemTpl"), {
 					count = 0,
 					type = DROP_TYPE_ISLAND_ITEM,
@@ -117,7 +125,7 @@ end
 
 slot0.SetDetail = function(slot0, slot1)
 	setActive(slot0.detail, true)
-	setText(slot0.detailName, slot1.name)
+	setScrollText(slot0.detailName, slot1.name)
 	setActive(slot0.formulaList1, #slot1.unlock_condition == 2)
 	setActive(slot0.formulaList2, #slot1.unlock_condition == 3)
 
@@ -136,7 +144,7 @@ slot0.SetDetail = function(slot0, slot1)
 			slot3 = uv0.unlock_condition[slot1 + 1][1]
 			slot4 = uv0.unlock_condition[slot1 + 1][2]
 
-			setText(slot2:Find("name"), i18n("island_combo_produced") .. pg.island_formula[slot3].name)
+			setScrollText(slot2:Find("name/text"), i18n("island_combo_produced") .. pg.island_formula[slot3].name)
 
 			slot6 = uv1.formulaNums[slot3] or 0
 

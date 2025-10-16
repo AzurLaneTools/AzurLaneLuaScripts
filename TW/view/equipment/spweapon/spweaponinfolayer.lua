@@ -106,7 +106,7 @@ slot0.didEnter = function(slot0)
 		slot0:updateOperation4()
 	end
 
-	slot0:BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot1 = {
@@ -303,7 +303,7 @@ slot0.cloneSampleTo = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.willExit = function(slot0)
-	slot0:UnOverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)

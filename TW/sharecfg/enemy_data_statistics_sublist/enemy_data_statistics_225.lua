@@ -1,5 +1,62 @@
 pg = pg or {}
 pg.enemy_data_statistics_225 = {
+	[15603114] = {
+		cannon = 78,
+		name = "噩夢投射-「戰列艦」",
+		antiaircraft = 106,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		luck = 0,
+		type = 5,
+		antisub = 0,
+		hit_growth = 280,
+		antiaircraft_growth = 4680,
+		dodge_growth = 136,
+		fog_fx = "",
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90622,
+		durability = 6630,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 14,
+		armor = 0,
+		id = 15603114,
+		cannon_growth = 3400,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 0,
+		durability_growth = 65600,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		armor_type = 3,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			873903,
+			873906,
+			1100723,
+			1003164,
+			1100033
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 4
+			},
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603201] = {
 		cannon = 120,
 		hit_growth = 210,
@@ -1449,58 +1506,6 @@ pg.enemy_data_statistics_225 = {
 		equipment_list = {
 			874903,
 			874904,
-			874905,
-			1100024
-		},
-		buff_list = {
-			{
-				ID = 8924,
-				LV = 1
-			}
-		}
-	},
-	[15604113] = {
-		cannon = 102,
-		name = "噩夢投射-「重巡洋艦」",
-		antiaircraft = 192,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		luck = 0,
-		type = 3,
-		antisub = 0,
-		hit_growth = 350,
-		antiaircraft_growth = 3880,
-		dodge_growth = 170,
-		fog_fx = "",
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90618,
-		durability = 6040,
-		armor_growth = 0,
-		torpedo_growth = 3200,
-		speed = 18,
-		armor = 0,
-		id = 15604113,
-		cannon_growth = 1750,
-		reload = 150,
-		dodge = 17,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 84,
-		durability_growth = 43200,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		armor_type = 2,
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg",
-			"appearQ"
-		},
-		equipment_list = {
-			874906,
-			874907,
 			874905,
 			1100024
 		},

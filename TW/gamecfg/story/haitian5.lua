@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>五　未知的景色</size>",
+					"出發！尋找靈感之旅！\n\n<size=45>5　未知的景色</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			bgm = "story-richang-5",
-			say = "我搭好天幕后又听了一会儿，直到围绕海天的松鼠们散去。",
+			say = "我搭好天幕後又聽了一陣子，直到圍繞海天的松鼠們散去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "故事还挺有趣的。",
+			say = "故事還挺有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，一时兴起就……忘了指挥官也能听到了……",
+			say = "啊，一時興起就……忘了指揮官也聽得到了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海天是能和松鼠交流么？",
+			say = "海天是能和松鼠交流嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咦？那你和它们互动的有来有回，我还以为沟通很顺畅？",
+			say = "咦？那妳跟它們互動的有來有回，我還以為溝通很順暢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要用亲切友好的语气说话，它们就会回应哦。",
+			say = "只要用親切友善的語氣說話，它們就會回應哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于看上去像是理解了彼此的意思……大概只是指挥官的错觉？",
+			say = "至於看起來像是理解了彼此的意思……大概只是指揮官的錯覺呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你也坐下来休息一下吧？休息一会儿以后，我们就在这附近走走。",
+			say = "指揮官，你也坐下來休息一下吧？休息一陣子以後，我們就在這附近走走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用，我们现在就可以去逛逛。",
+			say = "不用，我們現在就可以去逛逛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "放下手中的工具，我和海天开始围绕着这片营地散步。",
+			say = "放下手中的工具，我和海天開始圍繞著這片營地散步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？那边有一条小路……",
+			say = "欸？那邊有一條小路……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "海天抬手指向了某个方向。",
+			say = "海天抬手指向了某個方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "过去看看吧？说不定会有什么神奇的际遇。",
+			say = "過去看看吧？說不定會有什麼神奇的際遇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgm = "story-richang-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小径的尽头是一片开阔的草地，远处甚至还有一方小小的湖泊。",
+			say = "小徑的盡頭是一片開闊的草地，遠處甚至有一個小小的湖泊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然曲径通幽处用来形容这里不合适，但……",
+			say = "雖然曲徑通幽處用來形容這裡不合適，但……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "方才的林间小路，与这眼前的开阔之景倒是形成了鲜明的对比。",
+			say = "方才的林間小路，與這眼前的開闊之景倒是形成了鮮明的對比。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊，这曲径通幽的幽字，眼下怕是要换成悠闲的悠了。",
+			say = "是啊，這曲徑通幽的幽字，眼下怕是要換成悠閒的悠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……曲径通悠么？也是有趣的说法。",
+			say = "呵呵……曲徑通悠嗎？也是有趣的說法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“柳丝袅袅风缲出，草缕茸茸雨剪齐……”",
+			say = "「柳絲裊裊風繰出，草縷茸茸雨剪齊……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到还能看见这样的一幅美景。",
+			say = "沒想到還能看見這樣的美景。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我想，我现在有灵感了。",
+			say = "指揮官，我想，我現在有靈感了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "身旁的少女微微踮起脚，将头靠在了我肩上。",
+			say = "身旁的少女微微踮起腳，將頭靠在了我肩上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

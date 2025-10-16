@@ -1,5 +1,96 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[613] = {
+		cannon = 35,
+		name = "【斬首行動】赤城",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 5148,
+		air = 50,
+		armor = 0,
+		antisub = 0,
+		dodge = 6,
+		rarity = 5,
+		antiaircraft = 62,
+		dodge_growth = 90,
+		fog_fx = "",
+		star = 6,
+		antisub_growth = 0,
+		air_growth = 2000,
+		base = 90239,
+		durability = 800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 0,
+		id = 613,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 36000,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.39,
+							1,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							1.326,
+							1.256,
+							-0.046
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {
+			100201,
+			311079,
+			311081,
+			311082,
+			311083,
+			311090
+		}
+	},
 	[614] = {
 		cannon = 35,
 		name = "【斬首行動】加賀",
@@ -1370,46 +1461,6 @@ pg.enemy_data_statistics_37 = {
 		speed = 40,
 		luck = 0,
 		id = 711,
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 81,
-		torpedo = 12,
-		durability_growth = 4000,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300003
-		}
-	},
-	[712] = {
-		cannon = 0,
-		name = "【海域突進】自爆船",
-		hit_growth = 1200,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90080,
-		durability = 10,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		speed = 40,
-		luck = 0,
-		id = 712,
 		cannon_growth = 0,
 		pilot_ai_template_id = 80000,
 		reload = 150,

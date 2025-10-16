@@ -3,6 +3,20 @@ slot0.SHIP_SKINS_UPDATE = "ship skins update"
 slot0.SHIP_SKIN_EXPIRED = "ship skin expired"
 slot0.FORBIDDEN_TYPE_HIDE = 0
 slot0.FORBIDDEN_TYPE_SHOW = 1
+slot0.FORBIDDEN_OVERWRITE_TYPE_TIME = 1
+slot0.FORBIDDEN_OVERWRITE_TYPE_STOP = 2
+
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.SecondCall] = function (slot0)
+			slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+			for slot5, slot6 in ipairs(uv0.forbiddenSkinOverwriteList) do
+				uv0:CheckConfigOverwrite(slot1, slot5, slot6)
+			end
+		end
+	}
+end
 
 slot0.register = function(slot0)
 	slot0.skins = {}
@@ -10,6 +24,8 @@ slot0.register = function(slot0)
 	slot0.cacheSkins = {}
 	slot0.timers = {}
 	slot0.forbiddenSkinList = {}
+	slot0.forbiddenSkinOverwriteList = {}
+	slot0.overwriteFlag = {}
 
 	slot0:on(12201, function (slot0)
 		_.each(slot0.skin_list, function (slot0)
@@ -17,6 +33,9 @@ slot0.register = function(slot0)
 
 			uv0:addSkin(ShipSkin.New(slot0))
 		end)
+
+		uv0.forbiddenSkinList = {}
+
 		_.each(slot0.forbidden_skin_list, function (slot0)
 			table.insert(uv0.forbiddenSkinList, {
 				id = slot0,
@@ -27,7 +46,80 @@ slot0.register = function(slot0)
 		for slot4, slot5 in ipairs(slot0.forbidden_skin_type) do
 			uv0.forbiddenSkinList[slot4].type = slot5
 		end
+
+		for slot4, slot5 in ipairs(uv0.forbiddenSkinOverwriteList) do
+			uv0:RemoveConfigOverwrite(slot4)
+		end
+
+		uv0.forbiddenSkinOverwriteList = {}
+		slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+		for slot5, slot6 in ipairs(slot0.forbidden_list) do
+			if not pg.shop_template[slot6.id] then
+				warning("without config in shop_template:" .. slot6.id)
+			elseif slot7.genre ~= "skin_shop" then
+				warning("config genre error in shop_template:" .. slot6.id)
+			else
+				slot11 = pg.TimeMgr.GetInstance()
+
+				warning(slot6.id, slot6.type, slot11:STimeDescS(slot6.start_time), pg.TimeMgr.GetInstance():STimeDescS(slot6.stop_time))
+
+				uv0.forbiddenSkinOverwriteList[slot6.id] = {
+					type = slot6.type,
+					range = {
+						slot6.start_time,
+						slot6.stop_time
+					}
+				}
+
+				uv0:CheckConfigOverwrite(slot1, slot6.id, uv0.forbiddenSkinOverwriteList[slot6.id])
+			end
+		end
 	end)
+end
+
+slot0.CheckConfigOverwrite = function(slot0, slot1, slot2, slot3)
+	if slot1 == math.clamp(slot1, unpack(slot3.range)) ~= tobool(slot0.overwriteFlag[slot2]) then
+		if slot4 then
+			slot0:AddConfigOverwrite(slot2, slot3)
+		else
+			slot0:RemoveConfigOverwrite(slot2)
+		end
+	end
+end
+
+slot0.AddConfigOverwrite = function(slot0, slot1, slot2)
+	if not slot0.overwriteFlag[slot1] then
+		slot0.overwriteFlag[slot1] = true
+		pg.shop_template[slot1].time = switch(slot2.type, {
+			[uv0.FORBIDDEN_OVERWRITE_TYPE_TIME] = function ()
+				slot0 = {}
+
+				for slot4, slot5 in ipairs(uv0.range) do
+					slot8 = pg.TimeMgr.GetInstance()
+					slot6 = underscore.map(string.split(slot8:STimeDescS(slot5, "%Y/%m/%d/%H/%M/%S"), "/"), function (slot0)
+						return tonumber(slot0)
+					end)
+					slot0[slot4] = {
+						underscore.first(slot6, 3),
+						underscore.rest(slot6, 4)
+					}
+				end
+
+				return slot0
+			end,
+			[uv0.FORBIDDEN_OVERWRITE_TYPE_STOP] = function ()
+				return "stop"
+			end
+		})
+	end
+end
+
+slot0.RemoveConfigOverwrite = function(slot0, slot1)
+	if slot0.overwriteFlag[slot1] then
+		slot0.overwriteFlag[slot1] = nil
+		pg.shop_template[slot1].time = nil
+	end
 end
 
 slot0.getOverDueSkins = function(slot0)

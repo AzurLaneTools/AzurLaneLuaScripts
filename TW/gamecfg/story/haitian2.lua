@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>二　露营的准备</size>",
+					"出發！尋找靈感之旅！\n\n<size=45>2　露營的準備</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			bgm = "story-richang-6",
-			say = "在提出露营的建议后，海天便欣然同意。",
+			say = "在提出露營的建議後，海天便欣然同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "于是我们在结束工作后的假日，来到了商业街准备进行一番采购。",
+			say = "於是我們在結束工作後的假日，來到了商業街準備進行一番採購。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！我在咨询过大家以后列好了露营装备的清单，按照单据采购就好啦！",
+			say = "指揮官~！我在諮詢過大家以後列好了露營裝備的清單，按照列表採購就好啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？这不是指挥官和海天嘛，你们来买露营用的东西？",
+			say = "欸？這不是指揮官和海天嘛，你們來買露營用的東西？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有什么需要尽管和我提哦！",
+			say = "有什麼需要儘管和我提哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可我记得，{namecode:295:尾张}是经营蔬菜店的？应该没有我们需要的东西吧……",
+			say = "但我記得，尾張是經營蔬菜店的？應該沒有我們需要的東西吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔~是这样没错啦，不过除了蔬菜和水果以外，小店也会卖点别的东西。",
+			say = "嗯~是這樣沒錯啦，不過除了蔬菜水果以外，小店也會賣點別的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要在港区开店，竞争可是很激烈的，不拓宽经营方针可活不下去呢~",
+			say = "要在港區開店，競爭可是很激烈的，不拓寬經營方針可活不下去呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵？{namecode:98:明石}好像听到了“买东西”的关键词？",
+			say = "喵？明石好像聽到了「買東西」的關鍵字？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "不知何时出现的绿色身影迅速挤入了我们之中。",
+			say = "不知何時出現的綠色身影迅速擠入了我們之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看海天小姐手上的清单……原来如此喵~",
+			say = "看海天小姐手上的清單……原來如此喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是要买露营用的设备啊~{namecode:98:明石}这里有很多适合你们用的喵~！",
+			say = "是要買露營用的設備啊~明石這裡有很多適合你們用的喵~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等，等一下啦！这是我揽来的客人哦！这样明抢可不行！",
+			say = "等，等一下！這是我攬來的客人哦！這樣明搶可不行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "做生意这种事，当然还是要看顾客自己的购买意愿喵。",
+			say = "做生意這種事，當然還是要看顧客自己的購買意願喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不如我们各自把能提供的商品都提供出来，让指挥官和海天小姐来选择吧喵。",
+			say = "不如我們各自把能提供的商品都提供出來，讓指揮官和海天小姐來選擇吧喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_171",
-			say = "一段时间后——",
+			say = "一段時間後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼、呼……介绍了这么久的商品，我的嘴巴都说干了……！",
+			say = "呼、呼……介紹了這麼久的商品，我的嘴巴都說乾了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么{namecode:98:明石}你还是一副游刃有余的样子啊！",
+			say = "為什麼明石妳還是一副游刃有餘的樣子啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,25 +360,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~因为{namecode:98:明石}使用了这个——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_171",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "噔噔噔噔♪~「无论说多少话都不会口干舌燥的口腔保湿喷雾」喵！",
+			say = "喵呼呼~因為明石使用了這個——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +378,25 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要9999物资喵！这可是介绍商品的必备佳品喵！",
+			say = "噔噔噔噔♪~「無論說多少話都不會口乾舌燥的口腔保濕噴霧」喵！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_171",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "只要9999物資喵！這可是介紹商品的必備佳品喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇！感觉超实用欸~那我买两瓶好了~！",
+			say = "哇！感覺超實用欸~那我買兩瓶好了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……为什么反而被推销了啊！而且这一听就是{namecode:98:明石}乱说的吧！）",
+			say = "（……為什麼反而被推銷了啊！而且這一聽就是明石亂說的吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢惠顾喵~",
+			say = "多謝惠顧喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官和海天小姐有决定好要买什么了么？初次露营的话最好把装备准备齐全喵~",
+			say = "指揮官和海天小姐有決定要買什麼了嗎？初次露營的話最好把裝備準備齊全喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错！除了装备，像食物、和急救药箱之类的也最好多带一些哦！",
+			say = "沒錯沒錯！除了裝備，像是食物、和急救藥箱之類的也最好多帶一些喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……关于这些，我们还是先看一看再……",
+			say = "呃……關於這些，我們還是先看一看再……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯……虽然比清单上的多了不少，但考虑到露营的时候可能会有突发状况……",
+			say = "嗯嗯……雖然比清單上的多了不少，但考慮到露營的時候可能會有突發狀況……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些、还有这些，麻烦全都帮我包起来！",
+			say = "這些、還有這些，麻煩全都幫我包起來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,8 +541,8 @@ return {
 			bgName = "star_level_bg_171",
 			actor = 305130,
 			hideOther = true,
-			actorName = "{namecode:98}＆{namecode:295}",
-			say = "谢谢惠顾！海天小姐真是阔绰喵~\n哎呀，多谢照顾小店的生意♪",
+			actorName = "明石＆尾張",
+			say = "謝謝惠顧！海天小姐真是闊綽喵~  哎呀，多謝照顧小店的生意♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "来不及阻止海天，也不想扫了她的兴致，最后将{namecode:98:明石}与{namecode:295:尾张}贩卖的商品全都带了回去。",
+			say = "來不及阻止海天，也不想掃了她的興致，最後將明石與尾張販賣的商品全都帶了回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

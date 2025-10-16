@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_58 = {
+	[14021] = {
+		cannon = 625,
+		hit_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 400,
+		armor = 0,
+		reload = 150,
+		antisub = 0,
+		battle_unit_type = 75,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90143,
+		durability = 18670,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 14021,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		dodge = 20,
+		reload_growth = 0,
+		hit = 70,
+		torpedo = 0,
+		durability_growth = 162600,
+		antiaircraft = 300,
+		antiaircraft_growth = 0,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		specific_fx_scale = {
+			zhihuiRing02_buff = 2
+		},
+		equipment_list = {
+			100207,
+			100517,
+			100347,
+			350017,
+			350014,
+			350018
+		},
+		buff_list = {
+			{
+				ID = 50520,
+				LV = 7
+			}
+		}
+	},
 	[14022] = {
 		cannon = 0,
 		rarity = 1,
@@ -1412,68 +1484,6 @@ pg.enemy_data_statistics_58 = {
 		},
 		equipment_list = {
 			360012
-		}
-	},
-	[15020] = {
-		cannon = 55,
-		hit_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		reload = 150,
-		antisub = 0,
-		battle_unit_type = 65,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		rarity = 1,
-		base = 90129,
-		durability = 801,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 15020,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10002,
-		dodge = 50,
-		reload_growth = 0,
-		hit = 63,
-		torpedo = 440,
-		durability_growth = 9390,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		specific_fx_scale = {
-			zhihuiRing02_buff = 2
-		},
-		equipment_list = {
-			100582,
-			100585
 		}
 	}
 }

@@ -1,5 +1,30 @@
 pg = pg or {}
 pg.enemy_data_statistics_40 = {
+	[905] = {
+		cannon = 0,
+		name = "航母「Queen」",
+		air = 50,
+		torpedo = 0,
+		id = 905,
+		reload = 150,
+		speed = 15,
+		dodge = 0,
+		armor = 0,
+		fog_fx = "",
+		hit = 0,
+		base = 90127,
+		durability = 5000,
+		antiaircraft = 150,
+		battle_unit_type = 4,
+		luck = 0,
+		antisub = 0,
+		equipment_list = {
+			473041,
+			473042,
+			473043,
+			473044
+		}
+	},
 	[911] = {
 		cannon = 10,
 		name = "探索者I型",
@@ -1122,46 +1147,6 @@ pg.enemy_data_statistics_40 = {
 			311025,
 			311026,
 			311027
-		}
-	},
-	[1012] = {
-		cannon = 11,
-		hit_growth = 210,
-		luck = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		air_growth = 0,
-		antisub = 0,
-		battle_unit_type = 55,
-		fog_fx = "",
-		dodge_growth = 162,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90188,
-		durability = 200,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		speed = 20,
-		armor = 0,
-		id = 1012,
-		cannon_growth = 936,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 41,
-		durability_growth = 8800,
-		antiaircraft = 35,
-		antiaircraft_growth = 2500,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100211,
-			100411
 		}
 	}
 }

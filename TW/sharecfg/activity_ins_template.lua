@@ -22555,6 +22555,56 @@ pg.activity_ins_template = {
 			6457
 		}
 	},
+	[597] = {
+		ship_group = 1140001,
+		name = "Hestia",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "hesitiya",
+		id = 597,
+		group_id = 597,
+		order = 68,
+		time = {
+			{
+				2025,
+				10,
+				16
+			},
+			{
+				12,
+				22,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[598] = {
+		ship_group = 1140002,
+		name = "Ryu Lion",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "liuliang",
+		id = 598,
+		group_id = 598,
+		order = 68,
+		time = {
+			{
+				2025,
+				10,
+				17
+			},
+			{
+				11,
+				48,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -23133,6 +23183,8 @@ pg.activity_ins_template = {
 		593,
 		594,
 		595,
-		596
+		596,
+		597,
+		598
 	}
 }

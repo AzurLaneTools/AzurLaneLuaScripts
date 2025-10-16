@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>五　冰淇淋降温法！</size>",
+					"亞爾薩斯過熱中！\n\n<size=45>5　冰淇淋降溫法！   </size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			fontsize = 39,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和阿尔萨斯回到指挥室之后，连忙让她躺在沙发上。",
+			say = "和亞爾薩斯回到指揮室之後，連忙讓她躺在沙發上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "此时此刻，少女已经解除了脸上的面具，双眸带着水光，呼吸沉重。",
+			say = "此時此刻，少女已經解除了臉上的面具，雙眼帶著水光，呼吸沉重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "解除这个没问题么……？",
+			say = "解除這個沒問題嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……反正……就算不解除，阿尔萨斯对指挥官电波也毫无抵抗力……",
+			say = "呼……反正……就算不解除，亞爾薩斯對指揮官電波也毫無抵抗力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大、大概是室外转换心情的训练方法有效……阿尔萨斯现在，还能保持在临界点！",
+			say = "大、大概是室外轉換心情的訓練方法有效……亞爾薩斯現在，還能維持在臨界點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来只需要降温就好！",
+			say = "接下來只需要降溫就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "空调已经开到最大了，我再去帮你拿些冰块降温。",
+			say = "冷氣已經開到最大了，我再去幫妳拿些冰塊降溫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "——等打开冰箱时才发现，备用的冰块早已经用光了。",
+			say = "——等打開冰箱時才發現，備用的冰塊早已經用光了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过好在冰箱的冷冻层里还有不少冰淇淋。",
+			say = "不過好在冰箱的冷凍層裡還有不少冰棒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "（把这一层的冰淇淋都拿给阿尔萨斯好了，之后再买些新的补上。）",
+			say = "（把這一層的冰棒都拿給亞爾薩斯好了，之後再買些新的補上。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			fontsize = 39,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将冰淇淋递给阿尔萨斯后，她立刻撕开包装开始吮吸。",
+			say = "將冰棒遞給亞爾薩斯後，她立刻撕開包裝開始吸吮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在吃着冰淇淋的间隙，她发出一声满足的喟叹。",
+			say = "在吃著冰棒的間隙，她發出一聲滿足的喟嘆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "说起来，阿尔萨斯之前就是靠冰淇淋和泳池来进行散热吧？",
+			say = "說起來，亞爾薩斯之前就是靠冰棒和泳池來進行散熱吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是这样没错……呼……",
+			say = "是這樣沒錯……呼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过今天港区的泳池在例行清理，阿尔萨斯没办法使用……",
+			say = "不過今天港區的泳池在例行清理，亞爾薩斯沒辦法使用……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "没关系，至少这里还有很多冰淇淋。",
+			say = "沒關係，至少這裡還有很多冰棒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯！像这样吹着空调，吃着冰淇淋的话，也能起到一定的效果。",
+			say = "嗯嗯！像這樣吹著空調，吃著冰棒的話，也能起到一定的效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "感觉怎么样了，阿尔萨斯？",
+			say = "感覺怎麼樣了，亞爾薩斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢指挥官……阿尔萨斯现在感觉好多了……",
+			say = "謝謝指揮官……亞爾薩斯現在感覺好多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定是因为从濒临失控的临界点下降至稳定状态，阿尔萨斯的阈值因此得到了提升！",
+			say = "一定是因為從瀕臨失控的臨界點下降至穩定狀態，亞爾薩斯的閾值因此得到了提升！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "我觉得……也许还有摄入了大量糖分的缘故？",
+			say = "我覺得……也許還有攝取了大量糖分的緣故？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯现在的心情非常愉悦平和，莫非是因为冰淇淋？",
+			say = "亞爾薩斯現在的心情非常愉悅平和，莫非是因為冰棒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "说话间，少女已经吃完了她手中的冰淇淋。",
+			say = "說話間，少女已經吃完了她手中的冰棒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "我不假思索地从一旁拿起冰淇淋，撕开包装，递给了阿尔萨斯。",
+			say = "我不假思索地從一旁拿起冰棒，撕開包裝，遞給了亞爾薩斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "而少女也开心地凑过来一口咬上了我手中的冰淇淋。",
+			say = "而少女也開心地湊過來一口咬上了我手中的冰棒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			fontsize = 39,
-			say = "嗯？阿尔萨斯，你不自己拿着么？",
+			say = "嗯？亞爾薩斯，妳不自己拿著嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯疑惑地抬起头，目光交汇的瞬间，她的瞳孔开始颤抖。",
+			say = "亞爾薩斯疑惑地抬起頭，目光交會的瞬間，她的瞳孔開始顫抖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "少女看了看我拿着冰淇淋的手，又看了看我的脸……",
+			say = "少女看了看我拿著冰棒的手，又看了看我的臉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯……阿尔萨斯刚刚吃、吃吃了指挥官喂的……",
+			say = "亞爾薩斯……亞爾薩斯剛剛吃、吃了指揮官餵的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊啊，阿、阿尔萨斯……又要、要控制不住了！",
+			say = "啊啊，亞、亞爾薩斯……又要、要控制不住了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

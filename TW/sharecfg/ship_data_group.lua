@@ -2072,6 +2072,12 @@ pg.ship_data_group = setmetatable({
 		[1130004] = {
 			10134
 		},
+		[1140001] = {
+			10141
+		},
+		[1140002] = {
+			10142
+		},
 		[29901] = {
 			20001
 		},
@@ -3015,7 +3021,9 @@ pg.ship_data_group = setmetatable({
 			10131,
 			10132,
 			10133,
-			10134
+			10134,
+			10141,
+			10142
 		},
 		{
 			20001,
@@ -3796,6 +3804,8 @@ pg.ship_data_group = setmetatable({
 		10132,
 		10133,
 		10134,
+		10141,
+		10142,
 		20001,
 		20002,
 		20003,
@@ -32284,6 +32294,70 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：鍊金術士與天際交會之塔",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10141] = {
+		nationality = 114,
+		type = 12,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1140001,
+		index_id = 10141,
+		code = 10141,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：青空下的相遇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10142] = {
+		nationality = 114,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1140002,
+		index_id = 10142,
+		code = 10142,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：青空下的相遇",
 				{
 					""
 				},

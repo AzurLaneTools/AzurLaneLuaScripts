@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_51 = {
+	[9037] = {
+		cannon = 80,
+		name = "三日月",
+		hit_growth = 210,
+		speed_growth = 0,
+		antiaircraft_growth = 2200,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 4,
+		antiaircraft = 105,
+		fog_fx = "",
+		dodge_growth = 270,
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90159,
+		durability = 16000,
+		armor_growth = 0,
+		torpedo_growth = 4400,
+		speed = 26,
+		luck = 0,
+		id = 9037,
+		cannon_growth = 600,
+		pilot_ai_template_id = 50000,
+		reload = 150,
+		dodge = 18,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 200,
+		durability_growth = 262000,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			319080,
+			319083
+		}
+	},
 	[9038] = {
 		name = "雪風",
 		rarity = 3,
@@ -1321,44 +1362,6 @@ pg.enemy_data_statistics_51 = {
 			319037,
 			319038,
 			319039
-		}
-	},
-	[10023] = {
-		cannon = 260,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 1750,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		base = 90208,
-		dodge = 7,
-		torpedo_growth = 3200,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 102,
-		speed_growth = 0,
-		star = 4,
-		hit = 20,
-		antisub_growth = 0,
-		rarity = 4,
-		luck_growth = 0,
-		torpedo = 320,
-		durability = 7100,
-		armor_growth = 0,
-		durability_growth = 54000,
-		antiaircraft = 145,
-		speed = 18,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 60,
-		id = 10023,
-		antiaircraft_growth = 3200,
-		armor = 0,
-		fog_fx = "",
-		equipment_list = {
-			319040,
-			319041,
-			319042
 		}
 	}
 }

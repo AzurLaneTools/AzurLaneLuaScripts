@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>一　枯竭的灵感</size>",
+					"出發！尋找靈感之旅！\n\n<size=45>1　枯竭的靈感</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室——",
+			say = "港區·指揮室——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这是本周的工作安排，请过目。",
+			say = "指揮官，這是本週的工作安排，請過目。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "新任秘书舰——海天将本周的行程表和任务清单递了过来。",
+			say = "新任秘書艦——海天將本週的行程表和任務清單遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "行程表丰富且详细，各项任务之间的优先级划分清晰、逻辑也十分严谨。",
+			say = "行程表豐富且詳細，各項任務之間的優先順序劃分清晰、邏輯也十分嚴謹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过——",
+			say = "不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,19 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "认真的少女似乎没有发现，有几条特殊的纸张碎片夹在了她递给我的文件之中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（她用力抱住了眼前朝思暮想的人……删除线，删除线，恋人的胸膛宽厚而温暖，删除线……）",
+			say = "認真的少女似乎沒有發現，有幾條特殊的紙張碎片夾在了她遞給我的文件之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +110,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（删除线，雨幕遮挡了二人的视线，天地之间此刻唯有彼此，删除线）",
+			say = "（她用力抱住了眼前朝思暮想的人……刪除線，刪除線，情人的胸膛寬厚而溫暖，刪除線……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +122,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……这是海天在写的小说么？）",
+			say = "（刪除線，雨幕遮擋了兩人的視線，天地之間此刻唯有彼此，刪除線）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +134,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（用了这么多删除线，外加这明显是碎纸机掉落出来的碎片，是她对自己写的内容不满意么？）",
+			say = "（嗯……這是海天在寫的小說嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +146,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过，要创作小说，应该是需要时间好好构思框架的吧！）",
+			say = "（用了這麼多刪除線，外加這明顯是碎紙機掉落出來的碎片，是她對自己寫的內容不滿意嗎？）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "（不過，要創作小說，應該是需要時間好好構思框架的吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,18 +169,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "念及此处，我决定——",
+			say = "念及此處，我決定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "给海天放假",
+					content = "讓海天放假",
 					flag = 1
 				},
 				{
-					content = "直接问海天",
+					content = "直接問海天",
 					flag = 2
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "海天，今天的行程和任务清单我看过了，那些工作我一个人就足够了。",
+			say = "海天，今天的行程和任務清單我看過了，那些工作我一個人就夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "你今天可以先休息。不过如果你想在指挥室里处理自己的事情，也没问题。",
+			say = "妳今天可以先休息。不過如果妳想在指揮室裡處理自己的事情，也沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（直接问她会更好吧？不过还是得换个问法……）",
+			say = "（直接問她會更好吧？不過還是得換個問法……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "海天，你最近有什么烦心事么？",
+			say = "海天，妳最近有什麼煩心事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？指挥官为什么突然这么说？",
+			say = "欸？指揮官為什麼突然這麼說？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难、难道是小女子作为秘书舰的表现实在差得让指挥官难以忍受……？",
+			say = "難、難道是小女子作為秘書艦的表現實在差得讓指揮官難以忍受……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不。作为刚上任的秘书舰而言，海天已经把工作做得十分出色了。",
+			say = "不。身為剛上任的秘書艦而言，海天已經把工作做得十分出色了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且之前的日子里，你也为我做了不少。所以，我也想为你做些什么。",
+			say = "而且在之前的日子裡，妳也為我做了不少。所以，我也想為妳做些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……指挥官既然都这么说了，那小女子便把近日的困惑说与你听吧。",
+			say = "嗯……指揮官既然都這麼說了，那小女子便把近日的困惑說與你聽吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……如此如此，这般这般。",
+			say = "……如此如此，這般。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之就是在写小说的时候，灵感枯竭，彻底卡壳，写不出能让自己满意的剧情了……",
+			say = "總之就是在寫小說的時候，靈感枯竭，徹底卡住，寫不出能讓自己滿意的劇情了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通过其它的媒介来汲取一些创意有用么？比如听听音乐、看看名家之作？",
+			say = "透過其它的媒介來汲取一些創意有用嗎？例如聽聽音樂、看看名家之作？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女一脸无奈地摇了摇头。",
+			say = "少女一臉無奈地搖了搖頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些方法我都试过了，完全没有用。",
+			say = "這些方法我都試過了，完全沒用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了！古人往往畅游于山水之间，而后便得灵感赋诗一首……",
+			say = "有了！古人往往暢遊於山水之間，而後便得靈感賦詩一首……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出去露营的话，说不定你就有灵感了！",
+			say = "出去露營的話，說不定妳就有靈感了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_262 = {
+	[16500122] = {
+		cannon = 20,
+		name = "埃米爾統御武裝-「鐵衛」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 2,
+		type = 2,
+		id = 16500122,
+		antiaircraft = 28,
+		antiaircraft_growth = 3744,
+		fog_fx = "",
+		dodge_growth = 162,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90742,
+		durability = 630,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 27,
+		durability_growth = 23120,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100025,
+			1100105,
+			1100190,
+			1100475
+		}
+	},
 	[16500123] = {
 		cannon = 24,
 		name = "埃米爾統御武裝-「侵襲」",
@@ -1399,41 +1446,5 @@ pg.enemy_data_statistics_262 = {
 				LV = 2
 			}
 		}
-	},
-	[16501301] = {
-		cannon = 130,
-		air = 0,
-		torpedo = 100,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 108,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 16,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90741,
-		durability = 16500,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 180,
-		speed = 35,
-		luck = 8,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16501301,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>一　完美的守护之剑</size>",
+					"亞爾薩斯過熱中！\n\n<size=45>1　完美的守護之劍</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			fontsize = 39,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前往指挥室的路上，少女正神采奕奕大步向前走着。",
+			say = "前往指揮室的路上，少女正神采奕奕大步向前走著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
 			side = 2,
-			say = "即使此时被面具所遮盖，依然能从少女嘴角的弧度和歌声中感受到她的兴奋。",
+			say = "即使此時被面具所遮蓋，仍能從少女嘴角的弧度和歌聲中感受到她的興奮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯~帅气的阿尔萨斯♪~",
+			say = "亞爾薩斯~帥氣的亞爾薩斯♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与指挥官相伴~无所畏惧地并肩作战♪~",
+			say = "與指揮官相伴~無所畏懼地並肩作戰♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的阿尔萨斯~将要成为充满荣誉的秘书舰♪~",
+			say = "今天的亞爾薩斯~將要成為充滿榮譽的秘書艦♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，是阿尔萨斯……早、早上好……",
+			say = "啊，是亞爾薩斯……早、早安……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——阿尔萨斯是要去就任秘书舰么？好羡慕~",
+			say = "欸——亞爾薩斯是要去就任秘書艦嗎？好羨慕~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！阿尔萨斯接到了命令。花剑不用羡慕，阿尔萨斯认为只要表现优异就会有机会的！",
+			say = "沒錯！亞爾薩斯接到了命令。鈍劍不用羨慕，亞爾薩斯認為只要表現優異就會有機會的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
 			side = 2,
-			say = "少女认真地向面前两位小小的骑士解释着。",
+			say = "少女認真地向面前兩位小小的騎士解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说、说到表现优异……非常感谢阿尔萨斯上次帮我……解决了困难……",
+			say = "說、說到表現優異……非常感謝亞爾薩斯上次幫我……解決了困難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？是重剑把饮料洒在墙壁上，急着处理结果不小心把墙打了个洞的那次？",
+			say = "嗯？是銳劍把飲料灑在牆上，急著處理結果不小心把牆打了個洞的那次？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是……多亏了阿尔萨斯帮我一起重新砌了墙，不然指挥官肯定会觉得重剑没用的……呜……",
+			say = "是……多虧了亞爾薩斯幫我一起重新砌了牆，不然指揮官一定會覺得銳劍沒用的……嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就说怎么后来你们两个身上都粘上了油漆脏兮兮的……",
+			say = "我就說怎麼後來妳們兩個身上都黏上了油漆髒兮兮的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次这种事记得叫维修队来哦？而且，重剑，指挥官肯定也不会对你生气的啦。",
+			say = "下次這種事記得叫維修隊來哦？而且，銳劍，指揮官肯定也不會對妳生氣的啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实只要是阿尔萨斯可以解决的问题，就尽管找阿尔萨斯吧，不用客气。",
+			say = "其實只要是亞爾薩斯可以解決的問題，就儘管找亞爾薩斯吧，不用客氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟阿尔萨斯是指挥官的守护之剑，守护指挥官的港区也是理所应当的事情哦！",
+			say = "畢竟亞爾薩斯是指揮官的守護之劍，守護指揮官的港區也是理所當然的事喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，阿尔萨斯就先告辞了。",
+			say = "那麼，亞爾薩斯就先告辭了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
 			side = 2,
-			say = "在简单地点头告别后，少女继续哼着她自创的曲调前行。",
+			say = "在簡單地點頭告別後，少女繼續哼著她自創的曲調前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
 			side = 2,
-			say = "而留在原地的花剑则是用有些担忧的目光看向了对方的背影。",
+			say = "而留在原地的鈍劍則是用有些擔憂的目光看向了對方的背影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来……阿尔萨斯对指挥官的抗性很低吧？有点担心她会因为过热宕机呢。",
+			say = "說起來……亞爾薩斯對指揮官的抗性很低吧？有點擔心她會因為過熱當機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "应、应该没问题……！",
+			say = "應、應該沒問題……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前有几次路过她的房间门口，我都有听到阿尔萨斯念着指挥官的名字，好像在进行练习……",
+			say = "之前有幾次經過她的房間門口，我都有聽到亞爾薩斯念著指揮官的名字，好像在進行練習……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "练习？嗯……",
+			say = "練習？嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算啦算啦~还是选择相信阿尔萨斯的自控能力和指挥官的实力吧~",
+			say = "算啦算啦~還是選擇相信亞爾薩斯的自制能力和指揮官的實力吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			fontsize = 39,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在一阵敲门声响起后，一道身影走入了指挥室中。",
+			say = "在一陣敲門聲響起後，一道身影走入了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "属于鸢尾的圣迹、人类难以企及之幻梦，指挥官的守护之剑——",
+			say = "屬於鳶尾的聖跡、人類難以企及之幻夢，指揮官的守護之劍——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯，以完美且高效的秘书舰模式登场。指挥官，请下令吧！",
+			say = "亞爾薩斯，以完美且高效的秘書艦模式登場。指揮官，請下令吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

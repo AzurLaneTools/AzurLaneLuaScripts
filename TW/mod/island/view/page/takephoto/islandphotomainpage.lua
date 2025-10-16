@@ -59,6 +59,15 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
+	onButton(slot0, slot3:Find("Center/Normal/Back/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_photo.tip
+		})
+	end, SFX_PANEL)
+
+	slot3 = slot0._tf
+
 	onButton(slot0, slot3:Find("Center/Normal/Back"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)

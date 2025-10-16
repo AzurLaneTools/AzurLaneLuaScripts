@@ -1,13 +1,38 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -50,10 +75,9 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene get boat",
+			"scene core activity",
 			{
-				projectName = "new",
-				page = 1
+				coreName = "AEBCSCoreActivityUI"
 			}
 		},
 		time = {
@@ -61,7 +85,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					0,
@@ -73,7 +97,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					23
+					30
 				},
 				{
 					14,
@@ -84,16 +108,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50013",
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp4",
+		param = {
+			"scene level"
+		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					0,
@@ -108,7 +134,7 @@ pg.activity_banner = {
 					23
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -224,12 +250,41 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene court yard"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -661,6 +716,7 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
+			4,
 			5,
 			6,
 			7,
@@ -690,10 +746,6 @@ pg.activity_banner = {
 			1023,
 			1024
 		},
-		[3] = {
-			4,
-			1003
-		},
 		[9] = {
 			90,
 			91
@@ -720,6 +772,9 @@ pg.activity_banner = {
 			202,
 			203,
 			204
+		},
+		[3] = {
+			1003
 		},
 		[8] = {
 			1015

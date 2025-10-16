@@ -36,10 +36,14 @@ slot0.init = function(slot0)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				slot4 = uv0.pageDic[slot3.id]
-				slot5 = uv0
+				slot5 = uv0:findTF("tip", slot2)
 
-				setActive(slot5:findTF("tip", slot2), slot3:readyToAchieve())
+				if uv0.pageDic[slot3.id]:IsShowReminder() == nil then
+					setActive(slot5, slot3:readyToAchieve())
+				else
+					setActive(slot5, slot6)
+				end
+
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						uv0:selectActivity(uv1)
@@ -124,6 +128,14 @@ slot0.updateActivity = function(slot0, slot1)
 			slot0.pageDic[slot1.id]:ActionInvoke("Flush", slot1)
 			slot0:verifyTabs(slot0.activity.id)
 		end
+	end
+end
+
+slot0.instanceActivityPage = function(slot0, slot1)
+	uv0.super.instanceActivityPage(slot0, slot1)
+
+	for slot5, slot6 in pairs(slot0.pageDic) do
+		slot6:SetCoreActivityUI(slot0)
 	end
 end
 

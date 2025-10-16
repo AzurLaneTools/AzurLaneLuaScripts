@@ -83059,7 +83059,7 @@ _G.pg.base.shop_template[71151] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83119,7 +83119,7 @@ _G.pg.base.shop_template[71152] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83179,7 +83179,7 @@ _G.pg.base.shop_template[71153] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83239,7 +83239,7 @@ _G.pg.base.shop_template[71154] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83299,7 +83299,7 @@ _G.pg.base.shop_template[71155] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83359,7 +83359,7 @@ _G.pg.base.shop_template[71156] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -83419,7 +83419,7 @@ _G.pg.base.shop_template[71157] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 2,
 	akashi_pick = 0,
 	group = 0,
 	num = 1,
@@ -85492,6 +85492,126 @@ _G.pg.base.shop_template[71223] = {
 				2025,
 				10,
 				8
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71224] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "购买皮肤:2501009赫斯缇雅换装（动态立绘）",
+	group_limit = 0,
+	resource_num = 1000,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 71224,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		11400011
+	},
+	time = {
+		{
+			{
+				2025,
+				10,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				10,
+				29
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71225] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "购买皮肤:2501009琉换装（动态立绘）",
+	group_limit = 0,
+	resource_num = 1000,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 71225,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		11400021
+	},
+	time = {
+		{
+			{
+				2025,
+				10,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				10,
+				29
 			},
 			{
 				23,

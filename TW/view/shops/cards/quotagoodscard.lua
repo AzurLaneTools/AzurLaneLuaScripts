@@ -31,6 +31,7 @@ slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 
 	setText(slot0.limitCountLabelTF, i18n("quota_shop_owned") .. slot11 - slot1:GetPurchasableCnt() .. "/" .. slot11)
 	setActive(slot0.limitCountLabelTF, true)
+	setActive(slot0.groupLocked, slot0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 slot0.setAsLastSibling = function(slot0)

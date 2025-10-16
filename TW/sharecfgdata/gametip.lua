@@ -6418,6 +6418,11 @@ _G.pg.base.gametip.word_shipNation_yumia = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_danmachi = {
+	tip = "danmachi"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -39448,4 +39453,74 @@ _G.pg.base.gametip.ninja_game_booktip = {
 
 _G.pg.base.gametip.world_inventory_tip = {
 	tip = "重置後可轉換的兌換券 "
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet1 = {
+	tip = "青空下的相遇"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet2 = {
+	tip = "聖火不滅"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet3 = {
+	tip = "疾風不息"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet4 = {
+	tip = "邂逅之旅"
+}
+
+
+_G.pg.base.gametip.danmachi_main_sheet5 = {
+	tip = "獎勵匯總"
+}
+
+
+_G.pg.base.gametip.danmachi_main_time = {
+	tip = "剩餘$1小時"
+}
+
+
+_G.pg.base.gametip.danmachi_award_1 = {
+	tip = "艦船"
+}
+
+
+_G.pg.base.gametip.danmachi_award_2 = {
+	tip = "傢俱"
+}
+
+
+_G.pg.base.gametip.danmachi_award_3 = {
+	tip = "外觀裝備"
+}
+
+
+_G.pg.base.gametip.danmachi_award_4 = {
+	tip = "特殊兵裝"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name1 = {
+	tip = "赫斯緹雅"
+}
+
+
+_G.pg.base.gametip.danmachi_award_name2 = {
+	tip = "琉·璃昂"
+}
+
+
+_G.pg.base.gametip.danmachi_award_get = {
+	tip = "已獲得"
+}
+
+
+_G.pg.base.gametip.danmachi_award_unget = {
+	tip = "未獲得"
 }

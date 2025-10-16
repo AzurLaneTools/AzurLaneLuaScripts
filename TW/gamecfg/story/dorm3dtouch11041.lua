@@ -14,10 +14,11 @@ return {
 		{
 			actorName = 10517,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
-			say = "Honey要是再靠近一点的话……会让我……没、没什么啦！",
+			hidePaintObj = true,
+			say = "嗯……我要好好感受Honey的温度~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_bed02_idle02_fb01",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							skip = true,
+							name = "face_smile_start",
+							type = "action"
 						},
 						{
 							skip = false,

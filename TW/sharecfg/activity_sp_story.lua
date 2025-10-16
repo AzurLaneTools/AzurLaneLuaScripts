@@ -4725,6 +4725,285 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[271] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 總而言之就是來了",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA1",
+		change_bgm = "",
+		id = 271,
+		lock = ""
+	},
+	[272] = {
+		story_type = 1,
+		name = "EP1-1 赫斯緹雅的到來",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-1",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA2",
+		change_bgm = "",
+		id = 272,
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				271
+			}
+		}
+	},
+	[273] = {
+		story_type = 1,
+		name = "EP1-2 神與地下城",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-1",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA3",
+		change_bgm = "",
+		id = 273,
+		pre_event = {
+			272
+		},
+		lock = {
+			{
+				4,
+				272
+			}
+		}
+	},
+	[274] = {
+		story_type = 1,
+		name = "EP1-3 匯合",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-2",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA4",
+		change_bgm = "",
+		id = 274,
+		pre_event = {
+			273
+		},
+		lock = {
+			{
+				4,
+				273
+			}
+		}
+	},
+	[275] = {
+		story_type = 1,
+		name = "EP2-1 琉的到來",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-3",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA5",
+		change_bgm = "",
+		id = 275,
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				274
+			}
+		}
+	},
+	[276] = {
+		story_type = 1,
+		name = "EP2-2 神與冒險者",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-1",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA6",
+		change_bgm = "",
+		id = 276,
+		pre_event = {
+			275
+		},
+		lock = {
+			{
+				4,
+				275
+			}
+		}
+	},
+	[277] = {
+		story_type = 1,
+		name = "EP2-3 補給問題",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-2",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA7",
+		change_bgm = "",
+		id = 277,
+		pre_event = {
+			276
+		},
+		lock = {
+			{
+				4,
+				276
+			}
+		}
+	},
+	[278] = {
+		story_type = 1,
+		name = "EP3-1 料理",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-3",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA8",
+		change_bgm = "",
+		id = 278,
+		pre_event = {
+			274,
+			277
+		},
+		lock = {
+			{
+				4,
+				277
+			}
+		}
+	},
+	[279] = {
+		story_type = 1,
+		name = "EP3-2 冒險者的魔法",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-1",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA9",
+		change_bgm = "",
+		id = 279,
+		pre_event = {
+			278
+		},
+		lock = {
+			{
+				4,
+				278
+			}
+		}
+	},
+	[280] = {
+		story_type = 1,
+		name = "EP3-3 戰利品",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-2",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA10",
+		change_bgm = "",
+		id = 280,
+		pre_event = {
+			279
+		},
+		lock = {
+			{
+				4,
+				279
+			}
+		}
+	},
+	[281] = {
+		story_type = 1,
+		name = "EP4-1 艦裝",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-3",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA11",
+		change_bgm = "",
+		id = 281,
+		pre_event = {
+			280
+		},
+		lock = {
+			{
+				4,
+				280
+			}
+		}
+	},
+	[282] = {
+		story_type = 1,
+		name = "EP4-2 自由馳騁",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-1",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA12",
+		change_bgm = "",
+		id = 282,
+		pre_event = {
+			281
+		},
+		lock = {
+			{
+				4,
+				281
+			}
+		}
+	},
+	[283] = {
+		story_type = 2,
+		name = "EP4-3 初次實戰",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-2",
+		change_background = "",
+		story = "1967001",
+		change_bgm = "",
+		id = 283,
+		pre_event = {
+			282
+		},
+		lock = {
+			{
+				4,
+				282
+			}
+		}
+	},
+	[284] = {
+		story_type = 1,
+		name = "EP4-4 老練的冒險者",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-3",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA14",
+		change_bgm = "",
+		id = 284,
+		pre_event = {
+			283
+		},
+		lock = {
+			{
+				4,
+				283
+			}
+		}
+	},
+	[285] = {
+		story_type = 1,
+		name = "EP4-5 歡迎來到港區",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-4",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA15",
+		change_bgm = "",
+		id = 285,
+		pre_event = {
+			284
+		},
+		lock = {
+			{
+				4,
+				284
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4976,6 +5255,21 @@ pg.activity_sp_story = {
 		266,
 		267,
 		268,
-		269
+		269,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285
 	}
 }

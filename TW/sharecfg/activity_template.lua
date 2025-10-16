@@ -30271,7 +30271,7 @@ pg.activity_template = {
 					23
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -30315,7 +30315,7 @@ pg.activity_template = {
 					23
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -30563,7 +30563,7 @@ pg.activity_template = {
 					23
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -34787,6 +34787,392 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50151] = {
+		mark = 20251016,
+		type = 74,
+		login_pop = 0,
+		config_id = 50151,
+		is_show = 3,
+		title_res_tag = "HeLanSP_pt",
+		id = 50151,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSPtPage",
+			ui_name = "AEBCSPtPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{},
+				{
+					"QINGKONGXIADEXIEHOURICHANG2"
+				},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[50152] = {
+		mark = 20251016,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "",
+		id = 50152,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSMainPage",
+			ui_name = "AEBCSMainPage"
+		}
+	},
+	[50153] = {
+		mark = 20251016,
+		type = 74,
+		login_pop = 0,
+		config_id = 50153,
+		is_show = 2,
+		title_res_tag = "xiaoankeleiqi_pt",
+		id = 50153,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSHestiaPage",
+			ui_name = "AEBCSHestiaPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{},
+				{
+					"QINGKONGXIADEXIEHOURICHANG1"
+				},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[50154] = {
+		mark = 20251016,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50154,
+		page_core = "",
+		config_data = {
+			24501
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				24501
+			}
+		}
+	},
+	[50155] = {
+		mark = 20251016,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 5,
+		title_res_tag = "tolovecollect",
+		id = 50155,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSAwardPage",
+			ui_name = "AEBCSAwardPage"
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"TOLOVE_COLLAB_BACKHILL"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30362,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"军需商店兑换"
+					},
+					{
+						2,
+						{
+							"scene level",
+							{}
+						},
+						"活动关卡掉落"
+					}
+				}
+			}
+		}
+	},
+	[50156] = {
+		mark = 20251016,
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "",
+		id = 50156,
+		page_core = "AEBCSCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AEBCSStoryPage",
+			ui_name = "AEBCSStoryPage"
+		},
+		config_client = {
+			default_background = "star_level_bg_9999",
+			task_id = 21848,
+			storys = {
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285
+			}
+		}
+	},
+	[50159] = {
+		mark = 20251016,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50159,
+		page_core = "",
+		config_data = {
+			21848
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					30
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -37940,7 +38326,7 @@ pg.activity_template = {
 		}
 	},
 	[40030] = {
-		mark = 20250313,
+		mark = 20251016,
 		page_info = "",
 		type = 0,
 		login_pop = 0,
@@ -37956,8 +38342,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					3,
-					13
+					10,
+					17
 				},
 				{
 					0,
@@ -37968,8 +38354,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					3,
-					22
+					10,
+					23
 				},
 				{
 					23,
@@ -75215,6 +75601,9 @@ pg.activity_template = {
 			50136,
 			50137,
 			50139,
+			50152,
+			50154,
+			50159,
 			1079,
 			1080,
 			1081,
@@ -75803,6 +76192,8 @@ pg.activity_template = {
 			50085,
 			50125,
 			50130,
+			50151,
+			50153,
 			1086,
 			6006,
 			6010,
@@ -76582,6 +76973,7 @@ pg.activity_template = {
 			5350,
 			5568,
 			50055,
+			50156,
 			1068,
 			40329,
 			40427,
@@ -76907,6 +77299,7 @@ pg.activity_template = {
 			5988,
 			50064,
 			50066,
+			50155,
 			41271
 		},
 		[1001] = {
@@ -77926,6 +78319,13 @@ pg.activity_template = {
 		50137,
 		50138,
 		50139,
+		50151,
+		50152,
+		50153,
+		50154,
+		50155,
+		50156,
+		50159,
 		7104,
 		7501,
 		8009,

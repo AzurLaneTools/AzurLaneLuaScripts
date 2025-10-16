@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_39 = {
+	[814] = {
+		cannon = 0,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90140,
+		durability = 75,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		armor = 0,
+		id = 814,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 80,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300126
+		}
+	},
 	[820] = {
 		cannon = 45,
 		name = "熟練護衛艦",
@@ -1484,31 +1523,6 @@ pg.enemy_data_statistics_39 = {
 			473031,
 			473032,
 			473033
-		}
-	},
-	[905] = {
-		cannon = 0,
-		name = "航母「Queen」",
-		air = 50,
-		torpedo = 0,
-		id = 905,
-		reload = 150,
-		speed = 15,
-		dodge = 0,
-		armor = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90127,
-		durability = 5000,
-		antiaircraft = 150,
-		battle_unit_type = 4,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			473041,
-			473042,
-			473043,
-			473044
 		}
 	}
 }
