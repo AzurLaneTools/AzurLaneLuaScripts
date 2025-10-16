@@ -7,9 +7,9 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.icon = slot0:findTF("icon")
-	slot0.iconRaw = slot0:findTF("icon_raw"):GetComponent(typeof(RawImage))
-	slot0.inputTr = slot0:findTF("input")
+	slot0.icon = slot0._tf:Find("icon")
+	slot0.iconRaw = slot0._tf:Find("icon_raw"):GetComponent(typeof(RawImage))
+	slot0.inputTr = slot0._tf:Find("input")
 end
 
 slot0.OnInit = function(slot0)

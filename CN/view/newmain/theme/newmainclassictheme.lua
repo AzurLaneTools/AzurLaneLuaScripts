@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.adapterView = MainAdpterView.New(slot0:findTF("top_bg"), slot0:findTF("bottom_bg"), slot0:findTF("bg/right"))
+	slot0.adapterView = MainAdpterView.New(slot0._tf:Find("top_bg"), slot0._tf:Find("bottom_bg"), slot0._tf:Find("bg/right"))
 end
 
 slot0.PlayEnterAnimation = function(slot0, slot1, slot2)
@@ -44,8 +44,8 @@ end
 
 slot0.GetPbList = function(slot0)
 	return {
-		slot0:findTF("frame/chatPreview"),
-		slot0:findTF("frame/eventPanel")
+		slot0._tf:Find("frame/chatPreview"),
+		slot0._tf:Find("frame/eventPanel")
 	}
 end
 
@@ -64,47 +64,47 @@ slot0.GetPaintingOffset = function(slot0, slot1)
 end
 
 slot0.GetWordView = function(slot0)
-	return MainWordView.New(slot0:findTF("chat"), slot0.event)
+	return MainWordView.New(slot0._tf:Find("chat"), slot0.event)
 end
 
 slot0.GetTagView = function(slot0)
-	return MainTagsView.New(slot0:findTF("frame/bottom/tags"), slot0.event)
+	return MainTagsView.New(slot0._tf:Find("frame/bottom/tags"), slot0.event)
 end
 
 slot0.GetTopPanel = function(slot0)
-	return MainTopPanel.New(slot0:findTF("frame/top"), slot0.event, slot0.contextData)
+	return MainTopPanel.New(slot0._tf:Find("frame/top"), slot0.event, slot0.contextData)
 end
 
 slot0.GetRightPanel = function(slot0)
-	return MainRightPanel.New(slot0:findTF("frame/right"), slot0.event, slot0.contextData)
+	return MainRightPanel.New(slot0._tf:Find("frame/right"), slot0.event, slot0.contextData)
 end
 
 slot0.GetLeftPanel = function(slot0)
-	return MainLeftPanel.New(slot0:findTF("frame/left"), slot0.event, slot0.contextData)
+	return MainLeftPanel.New(slot0._tf:Find("frame/left"), slot0.event, slot0.contextData)
 end
 
 slot0.GetBottomPanel = function(slot0)
-	return MainBottomPanel.New(slot0:findTF("frame/bottom"), slot0.event, slot0.contextData)
+	return MainBottomPanel.New(slot0._tf:Find("frame/bottom"), slot0.event, slot0.contextData)
 end
 
 slot0.GetIconView = function(slot0)
-	return MainIconView.New(slot0:findTF("frame/char"))
+	return MainIconView.New(slot0._tf:Find("frame/char"))
 end
 
 slot0.GetChatRoomView = function(slot0)
-	return MainChatRoomView.New(slot0:findTF("frame/chatPreview"), slot0.event)
+	return MainChatRoomView.New(slot0._tf:Find("frame/chatPreview"), slot0.event)
 end
 
 slot0.GetBannerView = function(slot0)
-	return MainBannerView.New(slot0:findTF("frame/eventPanel"), slot0.event)
+	return MainBannerView.New(slot0._tf:Find("frame/eventPanel"), slot0.event)
 end
 
 slot0.GetActBtnView = function(slot0)
-	return MainActivityBtnView.New(slot0:findTF("frame/linkBtns"), slot0.event)
+	return MainActivityBtnView.New(slot0._tf:Find("frame/linkBtns"), slot0.event)
 end
 
 slot0.GetBuffView = function(slot0)
-	return MainBuffView.New(slot0:findTF("frame/buffs"), slot0.event)
+	return MainBuffView.New(slot0._tf:Find("frame/buffs"), slot0.event)
 end
 
 slot0.GetCalibrationView = function(slot0)
@@ -112,7 +112,7 @@ slot0.GetCalibrationView = function(slot0)
 end
 
 slot0.GetChangeSkinView = function(slot0)
-	return MainChangeSkinView.New(slot0:findTF("frame/left/change_skin"), slot0.event)
+	return MainChangeSkinView.New(slot0._tf:Find("frame/left/change_skin"), slot0.event)
 end
 
 slot0.GetRedDots = function(slot0)

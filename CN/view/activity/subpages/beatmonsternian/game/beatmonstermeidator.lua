@@ -12,22 +12,22 @@ end
 slot0.SetUI = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
-	slot0.monsterNian = slot0:findTF("AD/monster")
-	slot0.fushun = slot0:findTF("AD/fushun")
-	slot0.hpTF = slot0:findTF("AD/hp"):GetComponent(typeof(Slider))
-	slot2 = slot0:findTF("AD/attack_count/Text")
-	slot0.attackCntTF = slot2:GetComponent(typeof(Text))
-	slot0.actions = slot0:findTF("AD/actions")
+	slot0.monsterNian = slot0._tf:Find("AD/monster")
+	slot0.fushun = slot0._tf:Find("AD/fushun")
+	slot0.hpTF = slot0._tf:Find("AD/hp"):GetComponent(typeof(Slider))
+	slot0.attackCntTF = slot0._tf:Find("AD/attack_count/Text"):GetComponent(typeof(Text))
+	slot2 = slot0._tf
+	slot0.actions = slot2:Find("AD/actions")
 	slot0.actionKeys = {
 		slot0.actions:Find("content/1"),
 		slot0.actions:Find("content/2"),
 		slot0.actions:Find("content/3")
 	}
-	slot0.curtainTF = slot0:findTF("AD/curtain")
+	slot0.curtainTF = slot0._tf:Find("AD/curtain")
 	slot0.startLabel = slot0.curtainTF:Find("start_label")
-	slot0.ABtn = slot0:findTF("AD/A_btn")
-	slot0.BBtn = slot0:findTF("AD/B_btn")
-	slot0.joyStick = slot0:findTF("AD/joyStick")
+	slot0.ABtn = slot0._tf:Find("AD/A_btn")
+	slot0.BBtn = slot0._tf:Find("AD/B_btn")
+	slot0.joyStick = slot0._tf:Find("AD/joyStick")
 end
 
 slot0.DoCurtainUp = function(slot0, slot1)
@@ -232,12 +232,6 @@ slot0.OnJoyStickTrigger = function(slot0, slot1, slot2, slot3)
 		setActive(uv4, false)
 		setActive(uv5, false)
 	end)
-end
-
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
 end
 
 return slot0

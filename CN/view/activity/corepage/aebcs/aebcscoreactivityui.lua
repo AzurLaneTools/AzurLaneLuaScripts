@@ -34,7 +34,7 @@ slot0.init = function(slot0, ...)
 				uv0:ONToggleName(slot2, slot3)
 
 				if uv0.pageDic[slot3.id] ~= nil then
-					slot5 = uv0:findTF("tip", slot2)
+					slot5 = slot2:Find("tip")
 
 					if slot4:IsShowReminder() == nil then
 						setActive(slot5, slot3:readyToAchieve())
@@ -79,8 +79,8 @@ slot0.UpdateAdapt = function(slot0)
 end
 
 slot0.ONToggleName = function(slot0, slot1, slot2)
-	setText(slot0:findTF("off/name", slot1), i18n("danmachi_main_sheet" .. slot2:getConfig("is_show")))
-	setText(slot0:findTF("on/name", slot1), i18n("danmachi_main_sheet" .. slot2:getConfig("is_show")))
+	setText(slot1:Find("off/name"), i18n("danmachi_main_sheet" .. slot2:getConfig("is_show")))
+	setText(slot1:Find("on/name"), i18n("danmachi_main_sheet" .. slot2:getConfig("is_show")))
 end
 
 slot0.didEnter = function(slot0)

@@ -116,18 +116,18 @@ end
 slot0.init = function(slot0)
 	slot0:initEvents()
 
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.top = slot0:findTF("blur_panel/adapt/top")
-	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.top = slot0._tf:Find("blur_panel/adapt/top")
+	slot0.leftPanel = slot0._tf:Find("blur_panel/adapt/left_length")
 	slot0.backBtn = findTF(slot0.top, "back_btn")
 	slot0.contextData.toggle = slot0.contextData.toggle or 2
 	slot0.toggles = {
-		slot0:findTF("frame/tagRoot/card", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/display", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/trans", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/manga", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/gallery", slot0.leftPanel),
-		slot0:findTF("frame/tagRoot/music", slot0.leftPanel)
+		slot0.leftPanel:Find("frame/tagRoot/card"),
+		slot0.leftPanel:Find("frame/tagRoot/display"),
+		slot0.leftPanel:Find("frame/tagRoot/trans"),
+		slot0.leftPanel:Find("frame/tagRoot/manga"),
+		slot0.leftPanel:Find("frame/tagRoot/gallery"),
+		slot0.leftPanel:Find("frame/tagRoot/music")
 	}
 	slot0.toggleUpdates = {
 		"initCardPanel",
@@ -137,7 +137,7 @@ slot0.init = function(slot0)
 		"initGalleryPanel",
 		"initMusicPanel"
 	}
-	slot0.cardList = slot0:findTF("main/list_card/scroll"):GetComponent("LScrollRect")
+	slot0.cardList = slot0._tf:Find("main/list_card/scroll"):GetComponent("LScrollRect")
 
 	slot0.cardList.onInitItem = function(slot0)
 		uv0:onInitCard(slot0)
@@ -152,19 +152,19 @@ slot0.init = function(slot0)
 	end
 
 	slot0.cardItems = {}
-	slot0.cardContent = slot0:findTF("ships", slot0.cardList)
+	slot0.cardContent = tf(slot0.cardList):Find("ships")
 	slot0.contextData.cardToggle = slot0.contextData.cardToggle or 1
-	slot0.cardToggleGroup = slot0:findTF("main/list_card/types")
+	slot0.cardToggleGroup = slot0._tf:Find("main/list_card/types")
 	slot0.cardToggles = {
-		slot0:findTF("char", slot0.cardToggleGroup),
-		slot0:findTF("link", slot0.cardToggleGroup),
-		slot0:findTF("blueprint", slot0.cardToggleGroup),
-		slot0:findTF("meta", slot0.cardToggleGroup)
+		slot0.cardToggleGroup:Find("char"),
+		slot0.cardToggleGroup:Find("link"),
+		slot0.cardToggleGroup:Find("blueprint"),
+		slot0.cardToggleGroup:Find("meta")
 	}
 	slot0.cardList.decelerationRate = 0.07
-	slot0.bonusPanel = slot0:findTF("bonus_panel")
+	slot0.bonusPanel = slot0._tf:Find("bonus_panel")
 	slot0.charTpl = slot0:getTpl("chartpl")
-	slot0.tip = slot0:findTF("tip", slot0.toggles[2])
+	slot0.tip = slot0.toggles[2]:Find("tip")
 	slot0.favoriteVOs = {}
 
 	for slot5, slot6 in ipairs(pg.storeup_data_template.all) do
@@ -177,7 +177,7 @@ slot0.init = function(slot0)
 		return pg.memory_group[slot0]
 	end)
 	slot0.memories = nil
-	slot0.memoryList = slot0:findTF("main/list_memory"):GetComponent("LScrollRect")
+	slot0.memoryList = slot0._tf:Find("main/list_memory"):GetComponent("LScrollRect")
 
 	slot0.memoryList.onInitItem = function(slot0)
 		uv0:onInitMemory(slot0)
@@ -191,32 +191,33 @@ slot0.init = function(slot0)
 		uv0:onReturnMemory(slot0, slot1)
 	end
 
-	slot0.memoryViewport = slot0:findTF("main/list_memory/viewport")
-	slot0.memoriesGrid = slot0:findTF("main/list_memory/viewport/memories"):GetComponent(typeof(GridLayoutGroup))
+	slot0.memoryViewport = slot0._tf:Find("main/list_memory/viewport")
+	slot0.memoriesGrid = slot0._tf:Find("main/list_memory/viewport/memories"):GetComponent(typeof(GridLayoutGroup))
 	slot0.memoryItems = {}
-	slot0.memoryMask = slot0:findTF("blur_panel/adapt/story_mask")
+	slot0.memoryMask = slot0._tf:Find("blur_panel/story_mask")
 
-	setActive(slot0:findTF("memory", slot0.memoryList), false)
+	setActive(tf(slot0.memoryList):Find("memory"), false)
 	setActive(slot0.memoryMask, false)
 
-	slot0.memoryTogGroup = slot0:findTF("memory", slot0.top)
+	slot3 = slot0.top
+	slot0.memoryTogGroup = slot3:Find("memory")
 
 	setActive(slot0.memoryTogGroup, false)
 
 	slot0.memoryToggles = {
-		slot0:findTF("memory/0", slot0.top),
-		slot0:findTF("memory/1", slot0.top),
-		slot0:findTF("memory/2", slot0.top),
-		slot0:findTF("memory/3", slot0.top)
+		slot0.top:Find("memory/0"),
+		slot0.top:Find("memory/1"),
+		slot0.top:Find("memory/2"),
+		slot0.top:Find("memory/3")
 	}
 	slot0.memoryFilterIndex = {
 		true,
 		true,
 		true
 	}
-	slot0.galleryPanelContainer = slot0:findTF("main/GalleryContainer")
-	slot0.musicPanelContainer = slot0:findTF("main/MusicContainer")
-	slot0.mangaPanelContainer = slot0:findTF("main/MangaContainer")
+	slot0.galleryPanelContainer = slot0._tf:Find("main/GalleryContainer")
+	slot0.musicPanelContainer = slot0._tf:Find("main/MusicContainer")
+	slot0.mangaPanelContainer = slot0._tf:Find("main/MangaContainer")
 
 	slot0:initIndexPanel()
 end
@@ -228,7 +229,8 @@ slot0.didEnter = function(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.leftPanel)
+	slot1 = slot0.leftPanel
+	slot0.helpBtn = slot1:Find("help_btn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if uv0.contextData.toggle == uv1.MUSIC_INDEX then
@@ -244,7 +246,8 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot1 = slot0:findTF("stamp", slot0.top)
+	slot1 = slot0.top
+	slot1 = slot1:Find("stamp")
 	slot4 = getProxy(TaskProxy)
 
 	setActive(slot1, slot4:mingshiTouchFlagEnabled())
@@ -295,7 +298,7 @@ slot0.didEnter = function(slot0)
 						if uv0.bulinTip then
 							uv0.bulinTip.buffer:Show()
 						else
-							uv0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(uv0, uv0:findTF("main"))
+							uv0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(uv0, uv0._tf:Find("main"))
 						end
 					end
 
@@ -377,19 +380,19 @@ end
 
 slot0.updateCollectNotices = function(slot0, slot1)
 	setActive(slot0.tip, slot1)
-	setActive(slot0:findTF("tip", slot0.toggles[uv0.GALLERY_INDEX]), getProxy(AppreciateProxy):isGalleryHaveNewRes())
-	setActive(slot0:findTF("tip", slot0.toggles[uv0.MUSIC_INDEX]), getProxy(AppreciateProxy):isMusicHaveNewRes())
-	setActive(slot0:findTF("tip", slot0.toggles[uv0.MANGA_INDEX]), getProxy(AppreciateProxy):isMangaHaveNewRes())
+	setActive(slot0.toggles[uv0.GALLERY_INDEX]:Find("tip"), getProxy(AppreciateProxy):isGalleryHaveNewRes())
+	setActive(slot0.toggles[uv0.MUSIC_INDEX]:Find("tip"), getProxy(AppreciateProxy):isMusicHaveNewRes())
+	setActive(slot0.toggles[uv0.MANGA_INDEX]:Find("tip"), getProxy(AppreciateProxy):isMangaHaveNewRes())
 end
 
 slot0.calFavoriteRate = function(slot0)
 	slot1 = slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2
 
-	setActive(slot0:findTF("total/char", slot0.top), not slot1)
-	setActive(slot0:findTF("total/link", slot0.top), slot1)
-	setText(slot0:findTF("total/char/rate/Text", slot0.top), slot0.rate * 100 .. "%")
-	setText(slot0:findTF("total/char/count/Text", slot0.top), slot0.count .. "/" .. slot0.totalCount)
-	setText(slot0:findTF("total/link/count/Text", slot0.top), slot0.linkCount)
+	setActive(slot0.top:Find("total/char"), not slot1)
+	setActive(slot0.top:Find("total/link"), slot1)
+	setText(slot0.top:Find("total/char/rate/Text"), slot0.rate * 100 .. "%")
+	setText(slot0.top:Find("total/char/count/Text"), slot0.count .. "/" .. slot0.totalCount)
+	setText(slot0.top:Find("total/link/count/Text"), slot0.linkCount)
 end
 
 slot0.initCardPanel = function(slot0)
@@ -412,7 +415,8 @@ slot0.initCardPanel = function(slot0)
 end
 
 slot0.initIndexPanel = function(slot0)
-	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
+	slot1 = slot0.top
+	slot0.indexBtn = slot1:Find("index_button")
 
 	onButton(slot0, slot0.indexBtn, function ()
 		slot0 = Clone(uv0.ShipIndexData)
@@ -609,7 +613,8 @@ end
 slot0.initDisplayPanel = function(slot0)
 	if not slot0.isInitDisplay then
 		slot0.isInitDisplay = true
-		slot1 = slot0:findTF("main/list_display")
+		slot1 = slot0._tf
+		slot1 = slot1:Find("main/list_display")
 		slot0.displayRect = slot1:GetComponent("LScrollRect")
 		slot0.displayRect.decelerationRate = 0.07
 
@@ -728,7 +733,7 @@ slot0.showSubMemories = function(slot0, slot1)
 	end
 
 	slot0.memoryList:SetTotalCount(#slot0.memories, 0)
-	setActive(slot0:findTF("memory", slot0.top), false)
+	setActive(slot0.top:Find("memory"), false)
 end
 
 slot1 = 3
@@ -756,7 +761,7 @@ slot0.return2MemoryGroup = function(slot0)
 	end
 
 	slot0.memoryList:SetTotalCount(#slot0.memoryGroups, slot2)
-	setActive(slot0:findTF("memory", slot0.top), true)
+	setActive(slot0.top:Find("memory"), true)
 end
 
 slot0.initMemoryPanel = function(slot0)

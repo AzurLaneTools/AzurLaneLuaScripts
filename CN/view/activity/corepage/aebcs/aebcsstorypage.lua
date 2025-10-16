@@ -2,7 +2,7 @@ slot0 = class("AEBCSStoryPage", import("view.activity.CorePage.CoreStoryTemplate
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
-	setActive(slot0:findTF("tip", slot0.goBtn), PlayerPrefs.GetInt("AEBCSStoryReminder", 0) == 0)
+	setActive(slot0.goBtn:Find("tip"), PlayerPrefs.GetInt("AEBCSStoryReminder", 0) == 0)
 end
 
 slot0.IsShowReminder = function(slot0)

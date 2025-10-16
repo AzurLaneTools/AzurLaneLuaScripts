@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.title = slot0:findTF("top/title/Text")
+	slot0.backBtn = slot0._tf:Find("top/back")
+	slot0.title = slot0._tf:Find("top/title/Text")
 
 	setText(slot0.title, i18n("island_select_ship"))
 
-	slot0.frameTF = slot0:findTF("frame")
-	slot0.shipRectCom = slot0:findTF("ships", slot0.frameTF):GetComponent("LScrollRect")
+	slot0.frameTF = slot0._tf:Find("frame")
+	slot0.shipRectCom = slot0.frameTF:Find("ships"):GetComponent("LScrollRect")
 
 	setText(slot0.frameTF:Find("selected/Text"), i18n("island_select_ship_label_1"))
 
@@ -26,20 +26,20 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.benefitsTF:Find("main/Text"), IslandShipAttr.ATTRS_CH[IslandShipAttr.MANAGE_KEY])
 
 	slot0.subAttrUIList = UIItemList.New(slot0.benefitsTF:Find("subs"), slot0.benefitsTF:Find("subs/tpl"))
-	slot0.infoEmptyTF = slot0:findTF("info/empty")
+	slot0.infoEmptyTF = slot0._tf:Find("info/empty")
 
 	setText(slot0.infoEmptyTF:Find("Image/Text"), i18n("island_select_ship"))
 
 	slot0.infoEmptyTitleTF = slot0.infoEmptyTF:Find("name")
-	slot0.infoPanel = slot0:findTF("info/content")
-	slot0.nameTF = slot0:findTF("name", slot0.infoPanel)
-	slot0.levelTF = slot0:findTF("name/level", slot0.infoPanel)
-	slot0.attrUIList = UIItemList.New(slot0:findTF("attrs", slot0.infoPanel), slot0:findTF("attrs/tpl", slot0.infoPanel))
-	slot0.skillTF = slot0:findTF("skill", slot0.infoPanel)
-	slot0.energyTFInfo = slot0:findTF("selectShipEnergyInfo", slot0.infoPanel)
-	slot0.energyTF = slot0:findTF("energy", slot0.energyTFInfo)
-	slot0.statusTF = slot0:findTF("status", slot0.infoPanel)
-	slot0.sureBtn = slot0:findTF("sure")
+	slot0.infoPanel = slot0._tf:Find("info/content")
+	slot0.nameTF = slot0.infoPanel:Find("name")
+	slot0.levelTF = slot0.infoPanel:Find("name/level")
+	slot0.attrUIList = UIItemList.New(slot0.infoPanel:Find("attrs"), slot0.infoPanel:Find("attrs/tpl"))
+	slot0.skillTF = slot0.infoPanel:Find("skill")
+	slot0.energyTFInfo = slot0.infoPanel:Find("selectShipEnergyInfo")
+	slot0.energyTF = slot0.energyTFInfo:Find("energy")
+	slot0.statusTF = slot0.infoPanel:Find("status")
+	slot0.sureBtn = slot0._tf:Find("sure")
 
 	setText(slot0.sureBtn:Find("Text"), i18n("island_shipselect_confirm"))
 
@@ -49,7 +49,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.orderTxt = slot0._tf:Find("frame/filter_panel/index/content/Text"):GetComponent(typeof(Text))
 	slot0.shipIconTF = slot0.energyTFInfo:Find("icon_mask/icon")
 	slot0.energyTimeTextTf = slot0.energyTFInfo:Find("time_Text")
-	slot0.recoveryTimeTips = slot0:findTF("selectShipEnergyInfo/recoveryTimeTips", slot0.infoPanel)
+	slot0.recoveryTimeTips = slot0.infoPanel:Find("selectShipEnergyInfo/recoveryTimeTips")
 	slot0.skill = slot0.infoPanel:Find("skill")
 	slot0.skillEmp = slot0.infoPanel:Find("skillEmp")
 	slot0.skillEmpDes = slot0.skillEmp:Find("Text")
@@ -326,8 +326,8 @@ slot0.FlushInfo = function(slot0)
 	slot3 = slot1:GetCurrentEnergy()
 	slot4 = slot1:GetMaxEnergy()
 
-	setText(slot0:findTF("text", slot0.energyTF), slot3 .. "/" .. slot4)
-	setSlider(slot0:findTF("energy_bar", slot0.energyTF), 0, 1, slot3 / slot4)
+	setText(slot0.energyTF:Find("text"), slot3 .. "/" .. slot4)
+	setSlider(slot0.energyTF:Find("energy_bar"), 0, 1, slot3 / slot4)
 
 	if slot3 ~= slot4 then
 		setActive(slot0.recoveryTimeTips, true)

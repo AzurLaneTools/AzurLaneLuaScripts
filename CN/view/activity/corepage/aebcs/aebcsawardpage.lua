@@ -23,7 +23,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
-	slot4 = slot0:findTF("icon_mask/icon", slot2)
+	slot4 = slot2:Find("icon_mask/icon")
 
 	updateDrop(slot4, {
 		type = slot3.config.type,
@@ -49,8 +49,8 @@ end
 
 slot0.UpdateView = function(slot0)
 	for slot4 = 1, #slot0.table_Top do
-		setText(slot0:findTF("Label", slot0.table_Top[slot4]), slot0:OnGetCount(slot4) .. "/" .. slot0:OnCount(slot4))
-		setText(slot0:findTF("type_image/name", slot0.table_Top[slot4]), i18n("danmachi_award_" .. slot4))
+		setText(slot0.table_Top[slot4]:Find("Label"), slot0:OnGetCount(slot4) .. "/" .. slot0:OnCount(slot4))
+		setText(slot0.table_Top[slot4]:Find("type_image/name"), i18n("danmachi_award_" .. slot4))
 	end
 
 	triggerToggle(slot0.table_Top[slot0.pageIndex or 1], true)
@@ -58,14 +58,14 @@ end
 
 slot0.selectBoxbg = function(slot0, slot1)
 	if table.getCount(slot1.skipable_list) > 1 then
-		setImageSprite(slot0:findTF("Panel/BG", slot0.boxTF), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg1"), true)
+		setImageSprite(slot0.boxTF:Find("Panel/BG"), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg1"), true)
 	elseif table.getCount(slot1.skipable_list) == 1 then
-		setImageSprite(slot0:findTF("Panel/BG", slot0.boxTF), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg2"), true)
+		setImageSprite(slot0.boxTF:Find("Panel/BG"), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg2"), true)
 	end
 end
 
 slot0.RefreshCountText = function(slot0, slot1, slot2)
-	setText(slot0:findTF("owner/number", slot2), slot1.count .. "/" .. slot1.config.count)
+	setText(slot2:Find("owner/number"), slot1.count .. "/" .. slot1.config.count)
 end
 
 slot0.showBoxPanel = function(slot0, slot1)

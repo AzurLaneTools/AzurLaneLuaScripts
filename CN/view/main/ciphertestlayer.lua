@@ -5,9 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.nextBtn = slot0:findTF("Next")
-	slot0.gcBtn = slot0:findTF("GC")
-	slot0.live2dContainer = slot0:findTF("Painting/Live2D")
+	slot0.nextBtn = slot0._tf:Find("Next")
+	slot0.gcBtn = slot0._tf:Find("GC")
+	slot0.live2dContainer = slot0._tf:Find("Painting/Live2D")
 	slot0.l2dList = slot0:GetL2DList()
 	slot0.curIndex = 0
 	slot0.live2dChar = nil

@@ -11,8 +11,10 @@ end
 slot0.InitFashion = function(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.stylePanel = slot0._tf
-	slot0.styleScroll = slot0:findTF("style_scroll", slot0.stylePanel)
-	slot0.styleContainer = slot0:findTF("view_port", slot0.styleScroll)
+	slot1 = slot0.stylePanel
+	slot0.styleScroll = slot1:Find("style_scroll")
+	slot1 = slot0.styleScroll
+	slot0.styleContainer = slot1:Find("view_port")
 	slot1 = slot0._tf
 	slot0.styleCard = slot1:GetComponent(typeof(ItemList)).prefabItem[0]
 	slot0.hideObjToggleTF = findTF(slot0._tf, "btns/hideObjToggle")

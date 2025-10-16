@@ -1,18 +1,21 @@
 slot0 = class("AtelierMaterialSelectYumiaView", import("view.activity.Atelier.base.AtelierMaterialSelectView"))
 
 slot0.InitCustom = function(slot0)
-	slot0.item = slot0:findTF("left/Icon")
-	slot0.itemName = slot0:findTF("left/titleBg/Name")
-	slot0.itemCnt = slot0:findTF("left/titleBg/cntText")
-	slot0.itemDescription = slot0:findTF("left/Description/Text")
+	slot0.item = slot0._tf:Find("left/Icon")
+	slot0.itemName = slot0._tf:Find("left/titleBg/Name")
+	slot0.itemCnt = slot0._tf:Find("left/titleBg/cntText")
+	slot0.itemDescription = slot0._tf:Find("left/Description/Text")
 
-	setText(slot0:findTF("Frame/closeBtn/Text"), i18n("yumia_atelier_tip10"))
-	setText(slot0:findTF("left/titleBg/Text_1"), i18n("yumia_atelier_tip8"))
+	setText(slot0._tf:Find("Frame/closeBtn/Text"), i18n("yumia_atelier_tip10"))
+	setText(slot0._tf:Find("left/titleBg/Text_1"), i18n("yumia_atelier_tip8"))
 end
 
 slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
-	onButton(slot0, slot0:findTF("Frame/closeBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Frame/closeBtn"), function ()
 		uv0:CloseCandicatePanel()
 	end, SFX_PANEL)
 end
@@ -77,7 +80,7 @@ slot0.UpdateCandicatePanel = function(slot0, slot1)
 end
 
 slot0.ShowCandicatePanel = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0:findTF("Target")
+	slot4 = slot0._tf:Find("Target")
 
 	setActive(slot0._go, true)
 	SetComponentEnabled(slot0._parentClass.scrollView, typeof(ScrollRect), false)
@@ -92,7 +95,7 @@ slot0.ShowCandicatePanel = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateCandicatePanel(slot3)
 	slot0:RefreshFormula()
 	tf(slot2.GO):SetAsLastSibling()
-	setActive(slot0:findTF("select", slot2.GO), true)
+	setActive(slot2.GO:Find("select"), true)
 end
 
 slot0.RefreshFormula = function(slot0)
@@ -125,7 +128,7 @@ slot0.HideCandicatePanel = function(slot0)
 		return
 	end
 
-	setActive(slot0:findTF("select", slot0.nodeTarget.GO), false)
+	setActive(slot0.nodeTarget.GO:Find("select"), false)
 	setActive(slot0._go, false)
 
 	GetComponent(slot0._parentClass.scrollView, typeof(CanvasGroup)).blocksRaycasts = true

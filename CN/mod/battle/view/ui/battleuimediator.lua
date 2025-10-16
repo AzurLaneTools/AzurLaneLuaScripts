@@ -37,7 +37,7 @@ slot7.Reinitialize = function(slot0)
 end
 
 slot7.EnableComponent = function(slot0, slot1)
-	slot0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = slot1
+	slot0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = slot1
 
 	slot0._skillView:EnableWeaponButton(slot1)
 end
@@ -77,11 +77,11 @@ slot7.GetAppearFX = function(slot0)
 end
 
 slot7.DisableComponent = function(slot0)
-	slot0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = false
+	slot0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = false
 
 	slot0._skillView:DisableWeapnButton()
-	SetActive(slot0._ui:findTF("HPBarContainer"), false)
-	SetActive(slot0._ui:findTF("flagShipMark"), false)
+	SetActive(slot0._ui._tf:Find("HPBarContainer"), false)
+	SetActive(slot0._ui._tf:Find("flagShipMark"), false)
 
 	if slot0._jammingView then
 		slot0._jammingView:Eliminate(false)
@@ -137,7 +137,7 @@ slot7.InitScene = function(slot0)
 end
 
 slot7.InitJoystick = function(slot0)
-	slot0._joystick = slot0._ui:findTF("Stick")
+	slot0._joystick = slot0._ui._tf:Find("Stick")
 	slot1 = uv0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
 	slot5 = PlayerPrefs.GetFloat("joystick_anchorX", slot1.x)
@@ -169,36 +169,36 @@ end
 
 slot7.InitTimer = function(slot0)
 	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DUEL then
-		slot0._timerView = uv0.Battle.BattleTimerView.New(slot0._ui:findTF("DuelTimer"))
+		slot0._timerView = uv0.Battle.BattleTimerView.New(slot0._ui._tf:Find("DuelTimer"))
 	else
-		slot0._timerView = uv0.Battle.BattleTimerView.New(slot0._ui:findTF("Timer"))
+		slot0._timerView = uv0.Battle.BattleTimerView.New(slot0._ui._tf:Find("Timer"))
 	end
 end
 
 slot7.InitEnemyHpBar = function(slot0)
-	slot0._enemyHpBar = uv0.Battle.BattleEnmeyHpBarView.New(slot0._ui:findTF("EnemyHPBar"))
+	slot0._enemyHpBar = uv0.Battle.BattleEnmeyHpBarView.New(slot0._ui._tf:Find("EnemyHPBar"))
 end
 
 slot7.InitAirStrikeIcon = function(slot0)
-	slot0._airStrikeView = uv0.Battle.BattleAirStrikeIconView.New(slot0._ui:findTF("AirFighterContainer/AirStrikeIcon"))
-	slot0._airSupportTF = slot0._ui:findTF("AirSupportLabel")
+	slot0._airStrikeView = uv0.Battle.BattleAirStrikeIconView.New(slot0._ui._tf:Find("AirFighterContainer/AirStrikeIcon"))
+	slot0._airSupportTF = slot0._ui._tf:Find("AirSupportLabel")
 end
 
 slot7.InitCommonWarning = function(slot0)
-	slot0._warningView = uv0.Battle.BattleCommonWarningView.New(slot0._ui:findTF("WarningView"))
+	slot0._warningView = uv0.Battle.BattleCommonWarningView.New(slot0._ui._tf:Find("WarningView"))
 	slot0._updateViewList[slot0._warningView] = true
 end
 
 slot7.InitScoreBar = function(slot0)
-	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
+	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui._tf:Find("DodgemCountBar"))
 end
 
 slot7.InitAirFightScoreBar = function(slot0)
-	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui:findTF("AirFightCountBar"))
+	slot0._scoreBarView = uv0.Battle.BattleScoreBarView.New(slot0._ui._tf:Find("AirFightCountBar"))
 end
 
 slot7.InitAutoBtn = function(slot0)
-	slot0._autoBtn = slot0._ui:findTF("AutoBtn")
+	slot0._autoBtn = slot0._ui._tf:Find("AutoBtn")
 	slot1 = uv0.AUTO_DEFAULT_PREFERENCE
 	slot2 = PlayerPrefs.GetFloat("auto_scale", slot1.scale)
 	slot3 = PlayerPrefs.GetFloat("auto_anchorX", slot1.x)
@@ -209,33 +209,33 @@ slot7.InitAutoBtn = function(slot0)
 end
 
 slot7.InitDuelRateBar = function(slot0)
-	slot0._duelRateBar = uv0.Battle.BattleDuelDamageRateView.New(slot0._ui:findTF("DuelDamageRate"))
+	slot0._duelRateBar = uv0.Battle.BattleDuelDamageRateView.New(slot0._ui._tf:Find("DuelDamageRate"))
 
 	return slot0._duelRateBar
 end
 
 slot7.InitSimulationBuffCounting = function(slot0)
-	slot0._simulationBuffCountView = uv0.Battle.BattleSimulationBuffCountView.New(slot0._ui:findTF("SimulationWarning"))
+	slot0._simulationBuffCountView = uv0.Battle.BattleSimulationBuffCountView.New(slot0._ui._tf:Find("SimulationWarning"))
 
 	return slot0._simulationBuffCountView
 end
 
 slot7.InitMainDamagedView = function(slot0)
-	slot0._mainDamagedView = uv0.Battle.BattleMainDamagedView.New(slot0._ui:findTF("HPWarning"))
+	slot0._mainDamagedView = uv0.Battle.BattleMainDamagedView.New(slot0._ui._tf:Find("HPWarning"))
 end
 
 slot7.InitInkView = function(slot0, slot1)
-	slot0._inkView = uv0.Battle.BattleInkView.New(slot0._ui:findTF("InkContainer"))
+	slot0._inkView = uv0.Battle.BattleInkView.New(slot0._ui._tf:Find("InkContainer"))
 
 	slot1:RegisterEventListener(slot0, uv1.FLEET_HORIZON_UPDATE, slot0.onFleetHorizonUpdate)
 end
 
 slot7.InitDebugConsole = function(slot0)
-	slot0._debugConsoleView = slot0._debugConsoleView or uv0.Battle.BattleDebugConsole.New(slot0._ui:findTF("Debug_Console"), slot0._state)
+	slot0._debugConsoleView = slot0._debugConsoleView or uv0.Battle.BattleDebugConsole.New(slot0._ui._tf:Find("Debug_Console"), slot0._state)
 end
 
 slot7.InitCameraGestureSlider = function(slot0)
-	slot0._gesture = uv0.Battle.BattleCameraSlider.New(slot0._ui:findTF("CameraController"))
+	slot0._gesture = uv0.Battle.BattleCameraSlider.New(slot0._ui._tf:Find("CameraController"))
 
 	uv0.Battle.BattleCameraUtil.GetInstance():SetCameraSilder(slot0._gesture)
 	slot0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
@@ -379,7 +379,7 @@ slot7.ShowSimulationView = function(slot0)
 end
 
 slot7.ShowPauseButton = function(slot0, slot1)
-	setActive(slot0._ui:findTF("PauseBtn"), slot1)
+	setActive(slot0._ui._tf:Find("PauseBtn"), slot1)
 end
 
 slot7.ShowDodgemScoreBar = function(slot0)
@@ -399,11 +399,11 @@ slot7.ShowAirFightScoreBar = function(slot0)
 end
 
 slot7.ScaleUISpeed = function(slot0, slot1)
-	if slot0._ui:findTF("AutoBtn/on"):GetComponent(typeof(Animation)) then
+	if slot0._ui._tf:Find("AutoBtn/on"):GetComponent(typeof(Animation)) then
 		slot2:get_Item("autobtn_toOn").speed = slot1
 	end
 
-	if slot0._ui:findTF("AutoBtn/off"):GetComponent(typeof(Animation)) then
+	if slot0._ui._tf:Find("AutoBtn/off"):GetComponent(typeof(Animation)) then
 		slot3:get_Item("autobtn_toOff").speed = slot1
 	end
 end
@@ -470,7 +470,7 @@ slot7.onCommonInit = function(slot0, slot1)
 	slot0._userFleet:RegisterEventListener(slot0, uv2.FLEET_BLIND, slot0.onFleetBlind)
 	slot0._userFleet:RegisterEventListener(slot0, uv2.UPDATE_FLEET_ATTR, slot0.onFleetAttrUpdate)
 
-	slot0._sightView = uv0.Battle.BattleOpticalSightView.New(slot0._ui:findTF("ChargeAreaContainer"))
+	slot0._sightView = uv0.Battle.BattleOpticalSightView.New(slot0._ui._tf:Find("ChargeAreaContainer"))
 
 	slot0._sightView:SetFleetVO(slot0._userFleet)
 
@@ -890,7 +890,7 @@ slot7.Dispose = function(slot0)
 		slot0._gridmanSkillFloat:Dispose()
 	end
 
-	if go(slot0._ui:findTF("CardPuzzleConsole")).activeSelf then
+	if go(slot0._ui._tf:Find("CardPuzzleConsole")).activeSelf then
 		slot0:DisposeCardPuzzleComponent()
 	end
 
@@ -912,7 +912,7 @@ slot7.RegisterCardPuzzleEvent = function(slot0)
 end
 
 slot7.ShowCardPuzzleComponent = function(slot0)
-	setActive(slot0._ui:findTF("CardPuzzleConsole"), true)
+	setActive(slot0._ui._tf:Find("CardPuzzleConsole"), true)
 	slot0:InitCardPuzzleCommonHPBar()
 	slot0:InitCardPuzzleEnergyBar()
 	slot0:IntCardPuzzleFleetHead()
@@ -926,7 +926,7 @@ slot7.ShowCardPuzzleComponent = function(slot0)
 end
 
 slot7.InitCardPuzzleCommonHPBar = function(slot0)
-	slot0._cardPuzzleHPBar = uv0.Battle.CardPuzzleCommonHPBar.New(slot0._ui:findTF("CardPuzzleConsole/commonHP"))
+	slot0._cardPuzzleHPBar = uv0.Battle.CardPuzzleCommonHPBar.New(slot0._ui._tf:Find("CardPuzzleConsole/commonHP"))
 
 	slot0._cardPuzzleHPBar:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 
@@ -934,7 +934,7 @@ slot7.InitCardPuzzleCommonHPBar = function(slot0)
 end
 
 slot7.InitCardPuzzleEnergyBar = function(slot0)
-	slot0._cardPuzzleEnergyBar = uv0.Battle.CardPuzzleEnergyBar.New(slot0._ui:findTF("CardPuzzleConsole/energy_block"))
+	slot0._cardPuzzleEnergyBar = uv0.Battle.CardPuzzleEnergyBar.New(slot0._ui._tf:Find("CardPuzzleConsole/energy_block"))
 
 	slot0._cardPuzzleEnergyBar:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 
@@ -942,19 +942,19 @@ slot7.InitCardPuzzleEnergyBar = function(slot0)
 end
 
 slot7.InitCameraCardBoardClicker = function(slot0)
-	slot0._cardPuzzleBoardClicker = uv0.Battle.CardPuzzleBoardClicker.New(slot0._ui:findTF("CardBoardController"))
+	slot0._cardPuzzleBoardClicker = uv0.Battle.CardPuzzleBoardClicker.New(slot0._ui._tf:Find("CardBoardController"))
 
 	slot0._cardPuzzleBoardClicker:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 end
 
 slot7.IntCardPuzzleFleetHead = function(slot0)
-	slot0._cardPuzzleFleetHead = uv0.Battle.CardPuzzleFleetHead.New(slot0._ui:findTF("CardPuzzleConsole/fleet"))
+	slot0._cardPuzzleFleetHead = uv0.Battle.CardPuzzleFleetHead.New(slot0._ui._tf:Find("CardPuzzleConsole/fleet"))
 
 	slot0._cardPuzzleFleetHead:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 end
 
 slot7.InitCardPuzzleMovePile = function(slot0)
-	slot0._cardPuzzleMovePile = uv0.Battle.CardPuzzleMovePile.New(slot0._ui:findTF("CardPuzzleConsole/movedeck"))
+	slot0._cardPuzzleMovePile = uv0.Battle.CardPuzzleMovePile.New(slot0._ui._tf:Find("CardPuzzleConsole/movedeck"))
 
 	slot0._cardPuzzleMovePile:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 
@@ -962,13 +962,13 @@ slot7.InitCardPuzzleMovePile = function(slot0)
 end
 
 slot7.InitCardPuzzleDeckPile = function(slot0)
-	slot0._cardPuzzleDeckPile = uv0.Battle.CardPuzzleDeckPool.New(slot0._ui:findTF("CardPuzzleConsole/deck"))
+	slot0._cardPuzzleDeckPile = uv0.Battle.CardPuzzleDeckPool.New(slot0._ui._tf:Find("CardPuzzleConsole/deck"))
 
 	slot0._cardPuzzleDeckPile:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 end
 
 slot7.InitCardPuzzleIconList = function(slot0)
-	slot0._cardPuzzleStatusIcon = uv0.Battle.CardPuzzleFleetIconList.New(slot0._ui:findTF("CardPuzzleConsole/statusIcon"))
+	slot0._cardPuzzleStatusIcon = uv0.Battle.CardPuzzleFleetIconList.New(slot0._ui._tf:Find("CardPuzzleConsole/statusIcon"))
 
 	slot0._cardPuzzleStatusIcon:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 
@@ -976,7 +976,7 @@ slot7.InitCardPuzzleIconList = function(slot0)
 end
 
 slot7.InitCardPuzzleHandBoard = function(slot0)
-	slot0._cardPuzzleHandBoard = uv0.Battle.CardPuzzleHandBoard.New(slot0._ui:findTF("CardPuzzleConsole/cardboard"), slot0._ui:findTF("CardPuzzleConsole/hand"))
+	slot0._cardPuzzleHandBoard = uv0.Battle.CardPuzzleHandBoard.New(slot0._ui._tf:Find("CardPuzzleConsole/cardboard"), slot0._ui._tf:Find("CardPuzzleConsole/hand"))
 
 	slot0._cardPuzzleHandBoard:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 
@@ -984,13 +984,13 @@ slot7.InitCardPuzzleHandBoard = function(slot0)
 end
 
 slot7.InitCardPuzzleGoalRemind = function(slot0)
-	slot0._cardPuzzleGoalRemind = uv0.Battle.CardPuzzleGoalRemind.New(slot0._ui:findTF("CardPuzzleConsole/goal"))
+	slot0._cardPuzzleGoalRemind = uv0.Battle.CardPuzzleGoalRemind.New(slot0._ui._tf:Find("CardPuzzleConsole/goal"))
 
 	slot0._cardPuzzleGoalRemind:SetCardPuzzleComponent(slot0._cardPuzzleComponent)
 end
 
 slot7.InitCardPuzzleCardDetail = function(slot0)
-	slot0._cardPuzzleCardDetail = uv0.Battle.CardPuzzleCardDetail.New(slot0._ui:findTF("CardPuzzleConsole/cardDetail"))
+	slot0._cardPuzzleCardDetail = uv0.Battle.CardPuzzleCardDetail.New(slot0._ui._tf:Find("CardPuzzleConsole/cardDetail"))
 end
 
 slot7.DisposeCardPuzzleComponent = function(slot0)

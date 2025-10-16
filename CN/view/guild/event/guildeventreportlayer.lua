@@ -13,18 +13,18 @@ slot0.OnGetReportRankList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.getAll = slot0:findTF("frame/get_all")
-	slot0.gotAll = slot0:findTF("frame/get_all/gray")
-	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
-	slot0.cntTxt = slot0:findTF("frame/cnt"):GetComponent(typeof(Text))
-	slot0.closeBtn = slot0:findTF("frame/close")
+	slot0.scrollrect = slot0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.getAll = slot0._tf:Find("frame/get_all")
+	slot0.gotAll = slot0._tf:Find("frame/get_all/gray")
+	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	slot0.cntTxt = slot0._tf:Find("frame/cnt"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0._tf:Find("frame/close")
 
 	setText(slot0.getAll:Find("Text"), i18n("guild_report_get_all"))
 
 	slot0._parentTf = slot0._tf.parent
 
-	setText(slot0:findTF("frame/desc"), i18n("guild_report_tooltip"))
+	setText(slot0._tf:Find("frame/desc"), i18n("guild_report_tooltip"))
 
 	slot0.rankPage = GuildBossRankPage.New(slot0._tf, slot0.event)
 end

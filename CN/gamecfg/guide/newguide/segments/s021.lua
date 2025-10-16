@@ -60,7 +60,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
+				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/adapt/GridFrame/vanguard_3/tip",
 				triggerType = {
 					1
 				},

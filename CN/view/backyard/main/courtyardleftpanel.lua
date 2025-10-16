@@ -5,7 +5,7 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.viewBtn = slot0:findTF("eye_btn")
+	slot0.viewBtn = slot0._tf:Find("eye_btn")
 end
 
 slot0.OnRegister = function(slot0)

@@ -12,7 +12,7 @@ slot0.OnInit = function(slot0)
 	setActive(slot0._tf:Find("ItemRect/TitleRecord"), true)
 	setActive(slot0._tf:Find("ItemRect/TitleMemory"), false)
 
-	slot0.recordItemList = slot0:findTF("ItemRect"):GetComponent("LScrollRect")
+	slot0.recordItemList = slot0._tf:Find("ItemRect"):GetComponent("LScrollRect")
 
 	slot0.recordItemList.onInitItem = function(slot0)
 		uv0:OnInitRecordItem(slot0)
@@ -24,7 +24,7 @@ slot0.OnInit = function(slot0)
 
 	slot0.recordItems = {}
 
-	setActive(slot0:findTF("Item", slot0.recordItemList), false)
+	setActive(tf(slot0.recordItemList):Find("Item"), false)
 
 	slot0.loader = AutoLoader.New()
 

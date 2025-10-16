@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("close")
-	slot0.nameTxt = slot0:findTF("name"):GetComponent(typeof(Text))
-	slot0.levelTxt = slot0:findTF("level"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("content/Text"):GetComponent(typeof(Text))
-	slot0.iconTr = slot0:findTF("icon")
+	slot0.closeBtn = slot0._tf:Find("close")
+	slot0.nameTxt = slot0._tf:Find("name"):GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("level"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("content/Text"):GetComponent(typeof(Text))
+	slot0.iconTr = slot0._tf:Find("icon")
 
 	setText(slot0._tf:Find("title"), i18n("island_skill_desc"))
 end

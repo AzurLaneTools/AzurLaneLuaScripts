@@ -23,6 +23,10 @@ slot0.forceGC = function(slot0)
 	return true
 end
 
+slot0.GCWhenAwake = function(slot0)
+	return false
+end
+
 slot0.PlayBGM = function(slot0)
 	pg.BgmMgr.GetInstance():StopPlay()
 end

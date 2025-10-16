@@ -268,7 +268,9 @@ slot0.CollectPordunctSystem = function(slot0, slot1, slot2, slot3, slot4)
 
 		if slot6:GetBuilding(slot13) then
 			for slot22, slot23 in ipairs(slot16:GetShipIdAndAreaIdList()) do
-				table.insert(slot1, slot15:GetUnit(slot23.ship_id, slot23.area_id, table.contains(slot8, slot13)))
+				if slot13 ~= IslandProductConst.MinePlaceId then
+					table.insert(slot1, slot15:GetUnit(slot23.ship_id, slot23.area_id, table.contains(slot8, slot13)))
+				end
 
 				slot17 = slot17 + 1
 			end

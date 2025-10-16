@@ -37,25 +37,25 @@ slot0.setProjectList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.multLineTF = slot0:findTF("list_mult_line")
-	slot0.multLineContain = slot0:findTF("list_mult_line/content")
-	slot0.multLineTpl = slot0:findTF("project_tpl", slot0.multLineContain)
+	slot0.multLineTF = slot0._tf:Find("list_mult_line")
+	slot0.multLineContain = slot0._tf:Find("list_mult_line/content")
+	slot0.multLineTpl = slot0.multLineContain:Find("project_tpl")
 	slot0.multList = UIItemList.New(slot0.multLineContain, slot0.multLineTpl)
-	slot0.singleLineTF = slot0:findTF("list_single_line")
-	slot0.singleLineContain = slot0:findTF("list_single_line/content")
-	slot0.singleLineTpl = slot0:findTF("project_tpl", slot0.singleLineContain)
+	slot0.singleLineTF = slot0._tf:Find("list_single_line")
+	slot0.singleLineContain = slot0._tf:Find("list_single_line/content")
+	slot0.singleLineTpl = slot0.singleLineContain:Find("project_tpl")
 	slot0.singleList = UIItemList.New(slot0.singleLineContain, slot0.singleLineTpl)
-	slot0.listCountTF = slot0:findTF("title/value")
-	slot0.quickCount = slot0:findTF("quick_count")
-	slot0.quickCountTF = slot0:findTF("quick_count/value")
-	slot0.noneBg = slot0:findTF("none_bg")
-	slot0.allLaunch = slot0:findTF("all_launch")
-	slot0.aniBgTF = slot0:findTF("aniBg")
-	slot0.autoLockShipToggle = slot0:findTF("autolockship/Toggle"):GetComponent(typeof(Toggle))
+	slot0.listCountTF = slot0._tf:Find("title/value")
+	slot0.quickCount = slot0._tf:Find("quick_count")
+	slot0.quickCountTF = slot0._tf:Find("quick_count/value")
+	slot0.noneBg = slot0._tf:Find("none_bg")
+	slot0.allLaunch = slot0._tf:Find("all_launch")
+	slot0.aniBgTF = slot0._tf:Find("aniBg")
+	slot0.autoLockShipToggle = slot0._tf:Find("autolockship/Toggle"):GetComponent(typeof(Toggle))
 	slot0.canvasgroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 
-	setText(slot0:findTF("title/text"), i18n("build_detail_intro"))
-	setText(slot0:findTF("autolockship/Text"), i18n("lock_new_ship"))
+	setText(slot0._tf:Find("title/text"), i18n("build_detail_intro"))
+	setText(slot0._tf:Find("autolockship/Text"), i18n("lock_new_ship"))
 end
 
 slot0.updatePlayer = function(slot0, slot1)
@@ -187,14 +187,14 @@ slot0.updateProject = function(slot0, slot1, slot2)
 		return
 	end
 
-	setActive(slot0:findTF("frame/waiting", slot3), false)
-	setActive(slot0:findTF("frame/buiding", slot3), slot2.state == BuildShip.ACTIVE)
-	setActive(slot0:findTF("frame/finished", slot3), slot2.state == BuildShip.FINISH)
+	setActive(slot3:Find("frame/waiting"), false)
+	setActive(slot3:Find("frame/buiding"), slot2.state == BuildShip.ACTIVE)
+	setActive(slot3:Find("frame/finished"), slot2.state == BuildShip.FINISH)
 
 	slot3:GetComponent("CanvasGroup").alpha = slot2.state == BuildShip.INACTIVE and 0.6 or 1
 	slot9 = tonumber(pg.ship_data_create_material[slot2.type].ship_icon)
 
-	for slot14 = 0, slot0:findTF("ship_modal", slot4).childCount - 1 do
+	for slot14 = 0, slot4:Find("ship_modal").childCount - 1 do
 		setActive(slot10:GetChild(slot14), false)
 	end
 
@@ -203,7 +203,7 @@ slot0.updateProject = function(slot0, slot1, slot2)
 			slot11.alpha = 1
 		end
 
-		if not slot0:findTF("shipModelBuliding" .. slot9, slot10) then
+		if not slot10:Find("shipModelBuliding" .. slot9) then
 			slot13 = PoolMgr.GetInstance()
 
 			slot13:GetUI("shipModelBuliding" .. slot9, true, function (slot0)
@@ -219,9 +219,9 @@ slot0.updateProject = function(slot0, slot1, slot2)
 			setActive(slot12, true)
 		end
 
-		slot13 = slot0:findTF("timer/Text", slot4)
+		slot13 = slot4:Find("timer/Text")
 
-		onButton(slot0, slot0:findTF("quick_btn", slot4), function ()
+		onButton(slot0, slot4:Find("quick_btn"), function ()
 			slot0, slot1, slot2 = BuildShip.canQuickBuildShip(uv0)
 
 			if not slot0 then
@@ -284,11 +284,11 @@ slot0.updateProject = function(slot0, slot1, slot2)
 
 		setActive(slot4, true)
 
-		if slot0:findTF("shipModelBuliding" .. slot9, slot10) then
+		if slot10:Find("shipModelBuliding" .. slot9) then
 			setActive(slot12, true)
 		end
 
-		slot0:setSpriteTo(uv0[tonumber(slot8.ship_icon)], slot0:findTF("ship_modal", slot5), false)
+		slot0:setSpriteTo(uv0[tonumber(slot8.ship_icon)], slot5:Find("ship_modal"), false)
 		onButton(slot0, findTF(slot5, "launched_btn"), function ()
 			uv0:emit(BuildShipDetailMediator.ON_LAUNCHED, uv1)
 		end, SFX_PANEL)
@@ -343,9 +343,7 @@ slot0.willExit = function(slot0)
 	slot1 = slot0.multList
 
 	slot1:each(function (slot0, slot1)
-		slot2 = uv0
-
-		eachChild(slot2:findTF("frame/buiding/ship_modal", slot1), function (slot0)
+		eachChild(slot1:Find("frame/buiding/ship_modal"), function (slot0)
 			PoolMgr.GetInstance():ReturnUI(slot0.name, slot0)
 		end)
 	end)
@@ -353,9 +351,7 @@ slot0.willExit = function(slot0)
 	slot1 = slot0.singleList
 
 	slot1:each(function (slot0, slot1)
-		slot2 = uv0
-
-		eachChild(slot2:findTF("frame/buiding/ship_modal", slot1), function (slot0)
+		eachChild(slot1:Find("frame/buiding/ship_modal"), function (slot0)
 			PoolMgr.GetInstance():ReturnUI(slot0.name, slot0)
 		end)
 	end)

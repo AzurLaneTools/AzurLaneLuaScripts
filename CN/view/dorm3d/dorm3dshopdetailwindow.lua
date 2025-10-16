@@ -16,10 +16,10 @@ slot0.init = function(slot0)
 
 	setActive(slot0.bubbleTpl, false)
 
-	slot0.minusBtn = slot0:findTF("Window/countList/minusBtn")
-	slot0.addBtn = slot0:findTF("Window/countList/addBtn")
-	slot0.maxBtn = slot0:findTF("Window/countList/maxBtn")
-	slot0.countText = slot0:findTF("Window/countList/count/Text")
+	slot0.minusBtn = slot0._tf:Find("Window/countList/minusBtn")
+	slot0.addBtn = slot0._tf:Find("Window/countList/addBtn")
+	slot0.maxBtn = slot0._tf:Find("Window/countList/maxBtn")
+	slot0.countText = slot0._tf:Find("Window/countList/count/Text")
 	slot0.shopCfg = slot0.contextData.shopCfg
 	slot0.unlockTips = pg.dorm3d_gift[slot0.shopCfg.item_id].unlock_tips or {}
 	slot1 = slot0.shopCfg.room_id

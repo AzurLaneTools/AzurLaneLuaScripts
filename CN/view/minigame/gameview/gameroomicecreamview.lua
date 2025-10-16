@@ -115,9 +115,9 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.clickMask = slot0:findTF("ui/click_mask")
+	slot0.clickMask = slot0._tf:Find("ui/click_mask")
 	slot0.rtResource = slot0._tf:Find("Resource")
-	slot0.mainUI = slot0:findTF("ui/main_ui")
+	slot0.mainUI = slot0._tf:Find("ui/main_ui")
 	slot0.listScrollRect = GetComponent(slot0.mainUI:Find("right_panel/item_list/content"), typeof(ScrollRect))
 
 	onButton(slot0, slot0.mainUI:Find("btn_back"), function ()
@@ -136,14 +136,14 @@ slot0.initUI = function(slot0)
 	slot0.totalTimes = slot0:getGameTotalTime()
 
 	scrollTo(slot0.listScrollRect, 0, 1 - (slot0:getGameUsedTimes() - 4 < 0 and 0 or slot0:getGameUsedTimes() - 4) / (slot0.totalTimes - 4))
-	onButton(slot0, slot0:findTF("right_panel/arrows_up", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("right_panel/arrows_up"), function ()
 		if uv0.listScrollRect.normalizedPosition.y + 1 / (uv0.totalTimes - 4) > 1 then
 			slot0 = 1
 		end
 
 		scrollTo(uv0.listScrollRect, 0, slot0)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("right_panel/arrows_down", slot0.mainUI), function ()
+	onButton(slot0, slot0.mainUI:Find("right_panel/arrows_down"), function ()
 		if uv0.listScrollRect.normalizedPosition.y - 1 / (uv0.totalTimes - 4) < 0 then
 			slot0 = 0
 		end
@@ -177,9 +177,9 @@ slot0.initUI = function(slot0)
 	end)
 	slot0.itemList:align(#pg.mini_game[slot0:GetMGData().id].simple_config_data.drop_ids)
 
-	slot0.countUI = slot0:findTF("ui/count_ui")
-	slot0.countAnimator = GetComponent(slot0:findTF("count", slot0.countUI), typeof(Animator))
-	slot0.countDft = GetOrAddComponent(slot0:findTF("count", slot0.countUI), typeof(DftAniEvent))
+	slot0.countUI = slot0._tf:Find("ui/count_ui")
+	slot0.countAnimator = GetComponent(slot0.countUI:Find("count"), typeof(Animator))
+	slot0.countDft = GetOrAddComponent(slot0.countUI:Find("count"), typeof(DftAniEvent))
 
 	slot0.countDft:SetTriggerEvent(function ()
 	end)
@@ -188,31 +188,31 @@ slot0.initUI = function(slot0)
 		uv0:startGame()
 	end)
 
-	slot0.pauseUI = slot0:findTF("ui/pause_ui")
+	slot0.pauseUI = slot0._tf:Find("ui/pause_ui")
 
-	onButton(slot0, slot0:findTF("panel/btn_confirm", slot0.pauseUI), function ()
+	onButton(slot0, slot0.pauseUI:Find("panel/btn_confirm"), function ()
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.pauseUI, uv0._tf:Find("ui"))
 		setActive(uv0.pauseUI, false)
 		uv0:resumeGame()
 	end, SFX_PANEL)
 
-	slot0.returnUI = slot0:findTF("ui/return_ui")
+	slot0.returnUI = slot0._tf:Find("ui/return_ui")
 
-	onButton(slot0, slot0:findTF("panel/btn_confirm", slot0.returnUI), function ()
+	onButton(slot0, slot0.returnUI:Find("panel/btn_confirm"), function ()
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.returnUI, uv0._tf:Find("ui"))
 		setActive(uv0.returnUI, false)
 		uv0:resumeGame()
 		uv0:endGame()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/btn_cancel", slot0.returnUI), function ()
+	onButton(slot0, slot0.returnUI:Find("panel/btn_cancel"), function ()
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.returnUI, uv0._tf:Find("ui"))
 		setActive(uv0.returnUI, false)
 		uv0:resumeGame()
 	end, SFX_PANEL)
 
-	slot0.endUI = slot0:findTF("ui/end_ui")
+	slot0.endUI = slot0._tf:Find("ui/end_ui")
 
-	onButton(slot0, slot0:findTF("panel/btn_finish", slot0.endUI), function ()
+	onButton(slot0, slot0.endUI:Find("panel/btn_finish"), function ()
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.endUI, uv0._tf:Find("ui"))
 		setActive(uv0.endUI, false)
 		uv0:openMainUI()
@@ -229,7 +229,7 @@ slot0.Update = function(slot0)
 end
 
 slot0.initGameUI = function(slot0)
-	slot0.gameUI = slot0:findTF("ui/game_ui")
+	slot0.gameUI = slot0._tf:Find("ui/game_ui")
 	slot0.timeTF = slot0.gameUI:Find("Score/time/Text")
 	slot0.scoreTF = slot0.gameUI:Find("Score/point/Text")
 	slot0.addScoreTF = slot0.gameUI:Find("Score/add_score")
@@ -1165,7 +1165,7 @@ end
 slot0.showEndUI = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.endUI)
 	setActive(slot0.endUI, true)
-	setActive(slot0:findTF("panel/now/Text/new", slot0.endUI), getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id) < slot0.scoreNum)
+	setActive(slot0.endUI:Find("panel/now/Text/new"), getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id) < slot0.scoreNum)
 
 	if slot2 <= slot1 then
 		slot0:StoreDataToServer({
@@ -1173,8 +1173,8 @@ slot0.showEndUI = function(slot0)
 		})
 	end
 
-	setText(slot0:findTF("panel/max/Text", slot0.endUI), slot2)
-	setText(slot0:findTF("panel/now/Text", slot0.endUI), slot1)
+	setText(slot0.endUI:Find("panel/max/Text"), slot2)
+	setText(slot0.endUI:Find("panel/now/Text"), slot1)
 	slot0:SendSuccess(slot1)
 end
 

@@ -42,20 +42,19 @@ end
 slot1 = {}
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot1 = slot0:findTF("NotchAdapt")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.progressText = slot0:findTF("ProgressText", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
+	slot0.bg = slot0._tf:Find("BG")
+	slot1 = slot0._tf:Find("NotchAdapt")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.progressText = slot1:Find("ProgressText")
+	slot0.helpBtn = slot1:Find("HelpBtn")
 	slot0.top = slot1
-	slot2 = slot0:findTF("MedalContainer")
+	slot2 = slot0._tf:Find("MedalContainer")
 	slot0.medalContainer = slot2
-	slot0.buttonNext = slot0:findTF("ButtonNext", slot2)
-	slot0.buttonNextLocked = slot0:findTF("ButtonNextLocked", slot2)
-	slot0.buttonPrev = slot0:findTF("ButtonPrev", slot2)
-	slot0.buttonShare = slot0:findTF("ButtonShare", slot2)
-	slot6 = slot2
-	slot0.buttonReset = slot0:findTF("ButtonReset", slot6)
+	slot0.buttonNext = slot2:Find("ButtonNext")
+	slot0.buttonNextLocked = slot2:Find("ButtonNextLocked")
+	slot0.buttonPrev = slot2:Find("ButtonPrev")
+	slot0.buttonShare = slot2:Find("ButtonShare")
+	slot0.buttonReset = slot2:Find("ButtonReset")
 	slot0.pageCollection = slot2:Find("PageCollection")
 	slot0.pageModified = slot2:Find("PageModified")
 	slot0.OverlayPanel = slot2:Find("Overlay")
@@ -67,13 +66,13 @@ slot0.findUI = function(slot0)
 	slot0.medalItemList = {}
 
 	for slot6 = 1, #slot0.allIDList do
-		table.insert(slot0.medalItemList, slot0:findTF("Images/Medal" .. slot6, slot0.pageCollection))
+		table.insert(slot0.medalItemList, slot0.pageCollection:Find("Images/Medal" .. slot6))
 	end
 
 	slot0.medalTextList = {}
 
 	for slot6 = 1, #slot0.allIDList do
-		table.insert(slot0.medalTextList, slot0:findTF("Texts/Medal" .. slot6, slot0.pageCollection))
+		table.insert(slot0.medalTextList, slot0.pageCollection:Find("Texts/Medal" .. slot6))
 	end
 
 	slot0.selectPanel = slot2:Find("SelectPanel")
@@ -326,10 +325,10 @@ slot0.updateMedalView = function(slot0, slot1, slot2)
 	slot4 = table.contains(slot0.activeIDList, slot2)
 	slot5 = table.contains(slot0.activatableIDList, slot2) and not slot4
 	slot8 = slot0.medalTextList[slot3]
-	slot10 = slot0:findTF("DisActive", slot8)
+	slot10 = slot8:Find("DisActive")
 
 	setImageAlpha(slot0.medalItemList[slot3], slot4 and 1 or 0)
-	setActive(slot0:findTF("Activable", slot8), slot5)
+	setActive(slot8:Find("Activable"), slot5)
 	setActive(slot10, not slot4 and not slot5)
 	onButton(slot0, slot7, function ()
 		if not uv0 then

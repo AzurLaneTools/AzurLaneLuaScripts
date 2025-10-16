@@ -5,17 +5,22 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("window/sliders/scrollrect/content"), slot0:findTF("window/sliders/scrollrect/content/tpl"))
+	slot0.uilist = UIItemList.New(slot0._tf:Find("window/sliders/scrollrect/content"), slot0._tf:Find("window/sliders/scrollrect/content/tpl"))
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("window/confirm_btn"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/confirm_btn"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/top/btnBack"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
 end

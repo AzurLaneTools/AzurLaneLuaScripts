@@ -11,16 +11,16 @@ slot0.edge2area = {
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.top = slot0:findTF("top")
-	slot0._bg = slot0:findTF("BG")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("top")
+	slot0._bg = slot0._tf:Find("BG")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._upper = slot0:findTF("upper")
+	slot0._upper = slot0._tf:Find("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do
 		slot5 = slot0._upper:GetChild(slot4)
@@ -34,31 +34,31 @@ slot0.init = function(slot0)
 	}
 	slot0._shipTpl = slot0._map:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.OtherworldBackHillSceneGraph"))
-	slot0.ptIconTF = slot0:findTF("top/Res/icon")
-	slot0.ptValueTF = slot0:findTF("top/Res/Text")
+	slot0.ptIconTF = slot0._tf:Find("top/Res/icon")
+	slot0.ptValueTF = slot0._tf:Find("top/Res/Text")
 end
 
 slot0.didEnter = function(slot0)
 	slot0:SetNativeSizes()
-	onButton(slot0, slot0:findTF("top/Back"), function ()
+	onButton(slot0, slot0._tf:Find("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("top/Home"), function ()
+	onButton(slot0, slot0._tf:Find("top/Home"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Help"), function ()
+	onButton(slot0, slot0._tf:Find("top/Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.otherworld_backhill_help.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Terminal"), function ()
+	onButton(slot0, slot0._tf:Find("top/Terminal"), function ()
 		uv0:emit(OtherworldBackHilllMediator.GO_SUBLAYER, Context.New({
 			mediator = OtherworldTerminalMediator,
 			viewComponent = OtherworldTerminalLayer
 		}))
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("top/OtherWorld"), function ()
+	onButton(slot0, slot0._tf:Find("top/OtherWorld"), function ()
 		pg.SceneAnimMgr.GetInstance():OtherWorldCoverGoScene(SCENE.OTHERWORLD_MAP, {
 			mode = OtherworldMapScene.MODE_BATTLE
 		})
@@ -121,7 +121,7 @@ end
 slot0.UpdateView = function(slot0)
 	setActive(slot0.upper_maoxianzgonghui:Find("Tip"), uv0.GongHuiTip())
 	setActive(slot0.upper_jiujiushendian:Find("Tip"), uv0.ShenDianTip())
-	setActive(slot0:findTF("top/Terminal/Tip"), uv0.TerminalTip())
+	setActive(slot0._tf:Find("top/Terminal/Tip"), uv0.TerminalTip())
 end
 
 slot0.UpdateActivity = function(slot0)

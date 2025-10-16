@@ -16,7 +16,7 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.rtLeftPanel = slot0:findTF("adapt/left_panel")
+	slot0.rtLeftPanel = slot0._tf:Find("adapt/left_panel")
 
 	setText(slot0.rtLeftPanel:Find("title/Text"), i18n("world_map_title_tips"))
 	setText(slot0.rtLeftPanel:Find("title/Text_en"), i18n("world_map_title_tips_en"))
@@ -29,7 +29,7 @@ slot0.init = function(slot0)
 	setText(slot0.wsWorldInfo.transform:Find("explore/mileage/Text"), i18n("world_mileage"))
 	setText(slot0.wsWorldInfo.transform:Find("explore/pressing/Text"), i18n("world_pressing"))
 
-	slot0.rtRightPanel = slot0:findTF("adapt/right_panel")
+	slot0.rtRightPanel = slot0._tf:Find("adapt/right_panel")
 	slot0.rtNothingTip = slot0.rtRightPanel:Find("nothing_tip")
 	slot0.btnClose = slot0.rtRightPanel:Find("title/close_btn")
 	slot0.toggleAll = slot0.rtRightPanel:Find("title/task_all")
@@ -50,7 +50,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnClose, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("bg"), function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		triggerButton(uv0.btnClose)
 	end, SFX_CANCEL)
 	onToggle(slot0, slot0.toggleAll, function (slot0)

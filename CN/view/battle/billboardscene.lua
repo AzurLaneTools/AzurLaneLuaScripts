@@ -36,38 +36,59 @@ slot0.updateRankList = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.init = function(slot0)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot1 = slot0:findTF("main/frame/ranks")
+	slot1 = slot0._tf
+	slot0.blurPanel = slot1:Find("blur_panel")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("main/frame/ranks")
 	slot0.rankRect = slot1:GetComponent("LScrollRect")
-	slot0.playerRankTF = slot0:findTF("main/frame/player_rank")
+	slot1 = slot0._tf
+	slot0.playerRankTF = slot1:Find("main/frame/player_rank")
 
 	setActive(slot0.playerRankTF, false)
 
-	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.leftPanel = slot0:findTF("adapt/left_length", slot0.blurPanel)
-	slot0.mainPanel = slot0:findTF("main")
-	slot0.extraChapterBg = slot0:findTF("extra_chapter_bg")
-	slot0.toggleScrollRect = slot0:findTF("frame/scroll_rect", slot0.leftPanel)
-	slot0.toggleContainer = slot0:findTF("frame/scroll_rect/tagRoot", slot0.leftPanel)
-	slot0.listEmptyTF = slot0:findTF("main/frame/empty")
+	slot1 = slot0.blurPanel
+	slot0.topPanel = slot1:Find("adapt/top")
+	slot1 = slot0.blurPanel
+	slot0.leftPanel = slot1:Find("adapt/left_length")
+	slot1 = slot0._tf
+	slot0.mainPanel = slot1:Find("main")
+	slot1 = slot0._tf
+	slot0.extraChapterBg = slot1:Find("extra_chapter_bg")
+	slot1 = slot0.leftPanel
+	slot0.toggleScrollRect = slot1:Find("frame/scroll_rect")
+	slot1 = slot0.leftPanel
+	slot0.toggleContainer = slot1:Find("frame/scroll_rect/tagRoot")
+	slot1 = slot0._tf
+	slot0.listEmptyTF = slot1:Find("main/frame/empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot1 = slot0.listEmptyTF
+	slot0.listEmptyTxt = slot1:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_billboardui"))
 
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
+	slot2 = slot0.leftPanel
 	slot0.toggles = {
-		slot0:findTF("frame/scroll_rect/tagRoot/power", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/collection", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/pt", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/pledge", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/chanllenge", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/extra_chapter", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/boss_battle", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/guild", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/military", slot0.leftPanel),
-		slot0:findTF("frame/scroll_rect/tagRoot/bossrush", slot0.leftPanel)
+		slot2:Find("frame/scroll_rect/tagRoot/power"),
+		slot2:Find("frame/scroll_rect/tagRoot/collection"),
+		slot2:Find("frame/scroll_rect/tagRoot/pt"),
+		slot2:Find("frame/scroll_rect/tagRoot/pledge"),
+		slot2:Find("frame/scroll_rect/tagRoot/chanllenge"),
+		slot2:Find("frame/scroll_rect/tagRoot/extra_chapter"),
+		slot2:Find("frame/scroll_rect/tagRoot/boss_battle"),
+		slot2:Find("frame/scroll_rect/tagRoot/guild"),
+		slot2:Find("frame/scroll_rect/tagRoot/military"),
+		slot2:Find("frame/scroll_rect/tagRoot/bossrush")
 	}
 	slot0.ptToggles = {}
 	slot2 = getProxy(ActivityProxy)
@@ -115,13 +136,15 @@ slot0.updateToggles = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	slot3 = slot0.topPanel
+
 	slot4 = function()
 		uv0:emit(uv1.ON_BACK)
 	end
 
 	slot5 = SFX_CANCEL
 
-	onButton(slot0, slot0:findTF("back_btn", slot0.topPanel), slot4, slot5)
+	onButton(slot0, slot3:Find("back_btn"), slot4, slot5)
 
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
@@ -263,12 +286,12 @@ slot0.switchPage = function(slot0, slot1, slot2)
 		slot0:filter(slot0.page, slot2)
 	end
 
-	setActive(slot0:findTF("tip", slot0.topPanel), not table.contains(BillboardProxy.NONTIMER, slot0.page))
+	setActive(slot0.topPanel:Find("tip"), not table.contains(BillboardProxy.NONTIMER, slot0.page))
 	slot0:updateScoreTitle(slot0.page, slot2)
 end
 
 slot0.updateScoreTitle = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("main/frame/title")
+	slot3 = slot0._tf:Find("main/frame/title")
 	slot4 = PowerRank:getTitleWord(slot1, slot2)
 
 	for slot8 = 1, 4 do

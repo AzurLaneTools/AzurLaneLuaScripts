@@ -10,7 +10,7 @@ slot0.TOGGLE_FORMATION = "formationToggle"
 
 slot0.init = function(slot0)
 	slot0.eventTriggers = {}
-	slot0.rtMain = slot0:findTF("main")
+	slot0.rtMain = slot0._tf:Find("main")
 	slot0.bgFleet = slot0.rtMain:Find("bg_fleet")
 	slot0.bgSub = slot0.rtMain:Find("bg_sub")
 	slot0.vanguardGS = slot0.rtMain:Find("gear_score/vanguard")
@@ -43,7 +43,7 @@ slot0.init = function(slot0)
 	slot0.nextPage = slot0.rtMain:Find("nextPage")
 	slot0.prevPage = slot0.rtMain:Find("prevPage")
 	slot0.heroContainer = slot0.rtMain:Find("HeroContainer")
-	slot0.blurLayer = slot0:findTF("blur_container")
+	slot0.blurLayer = slot0._tf:Find("blur_container")
 	slot0.top = slot0.blurLayer:Find("top")
 	slot0.backBtn = slot0.top:Find("back_btn")
 	slot0.playerResOb = slot0.top:Find("res")
@@ -65,8 +65,8 @@ slot0.init = function(slot0)
 	setActive(slot0.attrFrame, false)
 	setActive(slot0.cardTpl, false)
 
-	slot0.heroInfo = slot0:findTF("heroInfo")
-	slot0.starTpl = slot0:findTF("star_tpl")
+	slot0.heroInfo = slot0._tf:Find("heroInfo")
+	slot0.starTpl = slot0._tf:Find("star_tpl")
 	slot0.commanderFormationPanel = WorldCommanderFormationPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.fleetIndex = 1
 	slot0.formationLogic = BaseFormation.New(slot0._tf, slot0.heroContainer, slot0.heroInfo, slot0.gridTFs)
@@ -417,7 +417,7 @@ slot0.initAttrFrame = function(slot0)
 		[TeamType.Submarine] = slot2[TeamType.Submarine]
 	}) do
 		if #slot0.cards[slot7] == 0 then
-			slot10 = slot0:findTF(slot7 .. "/list", slot0.attrFrame)
+			slot10 = slot0.attrFrame:Find(slot7 .. "/list")
 
 			for slot14 = 1, 3 do
 				table.insert(slot9, FormationDetailCard.New(cloneTplTo(slot0.cardTpl, slot10).gameObject))
@@ -463,9 +463,9 @@ slot0.updateAttrFrame = function(slot0)
 		end
 	end
 
-	setActive(slot0:findTF(TeamType.Main, slot0.attrFrame), slot3 == FleetType.Normal)
-	setActive(slot0:findTF(TeamType.Submarine, slot0.attrFrame), slot3 == FleetType.Submarine)
-	setActive(slot0:findTF(TeamType.Vanguard .. "/vanguard", slot0.attrFrame), slot3 ~= FleetType.Submarine)
+	setActive(slot0.attrFrame:Find(TeamType.Main), slot3 == FleetType.Normal)
+	setActive(slot0.attrFrame:Find(TeamType.Submarine), slot3 == FleetType.Submarine)
+	setActive(slot0.attrFrame:Find(TeamType.Vanguard .. "/vanguard"), slot3 ~= FleetType.Submarine)
 	slot0:updateUltimateTitle()
 end
 

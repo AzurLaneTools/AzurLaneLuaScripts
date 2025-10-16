@@ -28,8 +28,8 @@ slot0.OnInit = function(slot0)
 		[ShopConst.TYPE_MINI_GAME] = MiniGameShopPage.New(slot0, slot0._go)
 	}
 	slot0.shopResItemList = {}
-	slot0.shopResParent = slot0:findTF("bg/resList")
-	slot0.shopResItem = slot0:findTF("bg/resList/res")
+	slot0.shopResParent = slot0._tf:Find("bg/resList")
+	slot0.shopResItem = slot0._tf:Find("bg/resList/res")
 
 	slot0:blurView()
 end
@@ -55,15 +55,15 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.lScrollRect = GetComponent(slot0:findTF("scroll"), "LScrollRect")
-	slot0.scrollContent = slot0:findTF("scroll/content")
+	slot0.lScrollRect = GetComponent(slot0._tf:Find("scroll"), "LScrollRect")
+	slot0.scrollContent = slot0._tf:Find("scroll/content")
 	slot0.scrollRectTF = GetComponent(slot0.scrollContent, typeof(RectTransform))
 	slot0.layoutGroup = GetComponent(slot0.scrollContent, typeof(GridLayoutGroup))
-	slot0.scrollRectSpecial = slot0:findTF("scrollRectSpecial")
+	slot0.scrollRectSpecial = slot0._tf:Find("scrollRectSpecial")
 
 	setActive(slot0.scrollRectSpecial, false)
 
-	slot1 = GetComponent(slot0:findTF("viewport/view/group/items", slot0.scrollRectSpecial), typeof(GridLayoutGroup))
+	slot1 = GetComponent(slot0.scrollRectSpecial:Find("viewport/view/group/items"), typeof(GridLayoutGroup))
 	slot2 = slot0.scrollRectTF.rect.width
 	slot3 = slot0.layoutGroup.cellSize.x
 
@@ -105,7 +105,7 @@ slot0.SetAllShopData = function(slot0, slot1)
 	slot0:updateData()
 	slot0:initToggleList()
 	slot0:updateToggleList()
-	triggerButton(slot0:findTF("toggleGroup"):GetChild(slot0.packageSortList[slot0:GetDefaultShopIndex()].index - 1))
+	triggerButton(slot0._tf:Find("toggleGroup"):GetChild(slot0.packageSortList[slot0:GetDefaultShopIndex()].index - 1))
 	slot0:UpdateShop()
 end
 
@@ -147,24 +147,26 @@ slot0.updateToggleList = function(slot0)
 end
 
 slot0.initToggleList = function(slot0)
-	slot0.uiToggleList = UIItemList.New(slot0:findTF("toggleGroup"), slot0:findTF("toggleGroup/Toggle"))
+	slot1 = slot0._tf
+	slot2 = slot0._tf
+	slot0.uiToggleList = UIItemList.New(slot1:Find("toggleGroup"), slot2:Find("toggleGroup/Toggle"))
 	slot3 = slot0.uiToggleList
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = uv0.packageSortList[slot1 + 1].type
 
-			setText(uv0:findTF("selected/Label", slot2), i18n(ShopConst.TYPE2NAME[slot3]))
-			setText(uv0:findTF("selected/enText", slot2), i18n(ShopConst.TYPE2NAME[slot3] .. "en"))
-			setText(uv0:findTF("unselected/Label", slot2), i18n(ShopConst.TYPE2NAME[slot3]))
+			setText(slot2:Find("selected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
+			setText(slot2:Find("selected/enText"), i18n(ShopConst.TYPE2NAME[slot3] .. "en"))
+			setText(slot2:Find("unselected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
 
 			slot4 = uv0.packageSortList[slot1 + 1].index
 			slot7, slot8 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][1], uv0.player)
 
 			if slot7 == false then
-				setActive(uv0:findTF("unselected/Label/lock", slot2), true)
+				setActive(slot2:Find("unselected/Label/lock"), true)
 			else
-				setActive(uv0:findTF("unselected/Label/lock", slot2), false)
+				setActive(slot2:Find("unselected/Label/lock"), false)
 			end
 
 			setActive(slot2:Find("unselected"), true)
@@ -325,7 +327,7 @@ end
 slot0.blurView = function(slot0)
 	slot0:OverlayPanel(slot0._tf, {
 		pbList = {
-			slot0:findTF("bg")
+			slot0._tf:Find("bg")
 		}
 	})
 end

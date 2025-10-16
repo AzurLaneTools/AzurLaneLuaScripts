@@ -33,9 +33,9 @@ slot0.init = function(slot0)
 		CourtYardTopPanel.New(slot0),
 		CourtYardBottomPanel.New(slot0)
 	}
-	slot0.mainTF = slot0:findTF("main")
+	slot0.mainTF = slot0._tf:Find("main")
 	slot0.mainCG = GetOrAddComponent(slot0.mainTF, typeof(CanvasGroup))
-	slot0.bg = slot0:findTF("bg000")
+	slot0.bg = slot0._tf:Find("bg000")
 	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
 	slot0.emptyFoodPage = CourtYardEmptyFoodPage.New(slot0._tf, slot0.event)
 end

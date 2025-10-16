@@ -1,15 +1,15 @@
 slot0 = class("CardPuzzlePage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.titleTF = slot0:findTF("title", slot0.bg)
-	slot0.progressTF = slot0:findTF("progress", slot0.bg)
-	slot0.descTF = slot0:findTF("desc", slot0.bg)
-	slot0.startBtn = slot0:findTF("start_btn", slot0.bg)
-	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
-	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
-	slot0.item = slot0:findTF("levels/tpl", slot0.bg)
-	slot0.items = slot0:findTF("levels", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.titleTF = slot0.bg:Find("title")
+	slot0.progressTF = slot0.bg:Find("progress")
+	slot0.descTF = slot0.bg:Find("desc")
+	slot0.startBtn = slot0.bg:Find("start_btn")
+	slot0.getBtn = slot0.bg:Find("get_btn")
+	slot0.gotBtn = slot0.bg:Find("got_btn")
+	slot0.item = slot0.bg:Find("levels/tpl")
+	slot0.items = slot0.bg:Find("levels")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 end
 
@@ -40,17 +40,17 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.InitItem = function(slot0, slot1, slot2)
-	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("normal/num", slot2), true)
-	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("selected/num", slot2), true)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot2:Find("normal/num"), true)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot2:Find("selected/num"), true)
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)
-	setActive(slot0:findTF("selected", slot2), slot0.selectedId == slot0.levelList[slot1 + 1])
+	setActive(slot2:Find("selected"), slot0.selectedId == slot0.levelList[slot1 + 1])
 
 	slot5 = table.contains(slot0.finishList, slot4)
 
-	setActive(slot0:findTF("finish", slot2), slot5)
-	setActive(slot0:findTF("normal", slot2), not slot5 and slot0.selectedId ~= slot4)
+	setActive(slot2:Find("finish"), slot5)
+	setActive(slot2:Find("normal"), not slot5 and slot0.selectedId ~= slot4)
 	onButton(slot0, slot2, function ()
 		uv0.selectedId = uv1
 
@@ -128,7 +128,7 @@ slot0.UpdateEveryDayTip = function(slot0)
 	end
 
 	slot1, slot2 = slot0:GetCurLevel()
-	slot3 = slot0:findTF("tip", slot0.items:GetChild(slot2 - 1))
+	slot3 = slot0.items:GetChild(slot2 - 1):Find("tip")
 
 	if PlayerPrefs.GetInt("DAY_TIP_" .. slot0.activity.id .. "_" .. getProxy(PlayerProxy):getData().id .. "_" .. slot0.activity:getDayIndex()) == 0 then
 		setActive(slot3, true)

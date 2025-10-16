@@ -60,34 +60,34 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
 
-	setText(slot0:findTF("top/title", slot0.windowTF), i18n("child_filter_title"))
+	setText(slot0.windowTF:Find("top/title"), i18n("child_filter_title"))
 
-	slot0.filterContainer = slot0:findTF("frame/filter_content", slot0.windowTF)
-	slot0.filterTpl = slot0:findTF("anim_root/filter_tpl")
-	slot0.itemTpl = slot0:findTF("anim_root/item_tpl")
+	slot0.filterContainer = slot0.windowTF:Find("frame/filter_content")
+	slot0.filterTpl = slot0._tf:Find("anim_root/filter_tpl")
+	slot0.itemTpl = slot0._tf:Find("anim_root/item_tpl")
 
 	setActive(slot0.filterTpl, false)
 	setActive(slot0.itemTpl, false)
 
-	slot0.dropdownPanel = slot0:findTF("anim_root/dropdown_panel")
-	slot0.dropdownUIList = UIItemList.New(slot0:findTF("dropdown/list", slot0.dropdownPanel), slot0:findTF("dropdown/list/tpl", slot0.dropdownPanel))
+	slot0.dropdownPanel = slot0._tf:Find("anim_root/dropdown_panel")
+	slot0.dropdownUIList = UIItemList.New(slot0.dropdownPanel:Find("dropdown/list"), slot0.dropdownPanel:Find("dropdown/list/tpl"))
 
 	setActive(slot0.dropdownPanel, false)
-	setText(slot0:findTF("sure_btn/Text", slot0.windowTF), i18n("word_ok"))
-	setText(slot0:findTF("reset_btn/Text", slot0.windowTF), i18n("word_reset"))
+	setText(slot0.windowTF:Find("sure_btn/Text"), i18n("word_ok"))
+	setText(slot0.windowTF:Find("reset_btn/Text"), i18n("word_reset"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("sure_btn", slot0.windowTF), function ()
+	onButton(slot0, slot0.windowTF:Find("sure_btn"), function ()
 		if uv0.contextData.callback then
 			uv0.contextData.callback(uv0.contextData.indexDatas)
 
@@ -96,7 +96,7 @@ slot0.didEnter = function(slot0)
 
 		uv0:_close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("reset_btn", slot0.windowTF), function ()
+	onButton(slot0, slot0.windowTF:Find("reset_btn"), function ()
 		uv0.contextData.indexDatas = nil
 
 		removeAllChildren(uv0.filterContainer)
@@ -105,10 +105,10 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.dropdownPanel, function ()
 		uv0:closeDropdownPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
+	onButton(slot0, slot0._tf:Find("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/close_btn", slot0.windowTF), function ()
+	onButton(slot0, slot0.windowTF:Find("top/close_btn"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	slot0:initDropdownPanel()
@@ -128,8 +128,8 @@ slot0.initDropdownPanel = function(slot0)
 			slot6 = uv0.dropdownCfg.tags[uv0.dropdownCfgIndex]
 			slot7 = uv0.dropdownCfg.defaults[uv0.dropdownCfgIndex]
 
-			setActive(uv0:findTF("line", slot2), slot3 ~= #uv0.dropdownCfg.options[uv0.dropdownCfgIndex])
-			setText(uv0:findTF("Text", slot2), uv0.dropdownCfg.names[uv0.dropdownCfgIndex][slot3])
+			setActive(slot2:Find("line"), slot3 ~= #uv0.dropdownCfg.options[uv0.dropdownCfgIndex])
+			setText(slot2:Find("Text"), uv0.dropdownCfg.names[uv0.dropdownCfgIndex][slot3])
 			onButton(uv0, slot2, function ()
 				if uv0.contextData.indexDatas[uv1] == uv2 then
 					uv0.contextData.indexDatas[uv1] = uv3
@@ -149,7 +149,7 @@ slot0.initFilters = function(slot0)
 	slot0.uiList = {}
 
 	for slot4, slot5 in ipairs(uv0.FILTER_CONFIG) do
-		setText(slot0:findTF("title/title", cloneTplTo(slot0.filterTpl, slot0.filterContainer)), slot5.title)
+		setText(cloneTplTo(slot0.filterTpl, slot0.filterContainer):Find("title/title"), slot5.title)
 
 		if not slot5.dropdown then
 			slot0:initNormal(slot4, slot5, slot6)
@@ -160,16 +160,16 @@ slot0.initFilters = function(slot0)
 end
 
 slot0.initNormal = function(slot0, slot1, slot2, slot3)
-	slot5 = UIItemList.New(slot0:findTF("content/container", slot3), slot0.itemTpl)
+	slot5 = UIItemList.New(slot3:Find("content/container"), slot0.itemTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
 			slot5 = uv0.options[slot3]
 
-			setText(uv1:findTF("Text", slot2), uv0.names[slot3])
-			setActive(uv1:findTF("line", slot2), slot3 ~= #uv0.names)
-			setActive(uv1:findTF("arrow", slot2), false)
+			setText(slot2:Find("Text"), uv0.names[slot3])
+			setActive(slot2:Find("line"), slot3 ~= #uv0.names)
+			setActive(slot2:Find("arrow"), false)
 
 			if not uv1.contextData.indexDatas[uv0.tag] then
 				uv1.contextData.indexDatas[uv0.tag] = uv0.default
@@ -196,8 +196,8 @@ slot0.initNormal = function(slot0, slot1, slot2, slot3)
 			slot5 = nil
 			slot5 = (uv1.contextData.indexDatas[uv0.tag] ~= uv0.default or false) and bit.band(uv1.contextData.indexDatas[uv0.tag], uv0.options[slot1 + 1]) > 0
 
-			setActive(uv1:findTF("selected", slot2), slot5)
-			setTextColor(uv1:findTF("Text", slot2), slot5 and Color.white or Color.NewHex("393a3c"))
+			setActive(slot2:Find("selected"), slot5)
+			setTextColor(slot2:Find("Text"), slot5 and Color.white or Color.NewHex("393a3c"))
 		end
 	end)
 	slot5:align(#slot2.options)
@@ -206,15 +206,15 @@ slot0.initNormal = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.initDropdown = function(slot0, slot1, slot2, slot3)
-	slot5 = UIItemList.New(slot0:findTF("content/container", slot3), slot0.itemTpl)
+	slot5 = UIItemList.New(slot3:Find("content/container"), slot0.itemTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
 			slot5 = uv0.defaults[slot3]
 
-			setActive(uv1:findTF("line", slot2), slot3 ~= #uv0.tags)
-			setActive(uv1:findTF("arrow", slot2), true)
+			setActive(slot2:Find("line"), slot3 ~= #uv0.tags)
+			setActive(slot2:Find("arrow"), true)
 
 			if not uv1.contextData.indexDatas[uv0.tags[slot3]] then
 				uv1.contextData.indexDatas[slot4] = slot5
@@ -249,10 +249,10 @@ slot0.initDropdown = function(slot0, slot1, slot2, slot3)
 				end
 			end
 
-			setText(uv1:findTF("Text", slot2), slot6)
-			setActive(uv1:findTF("selected", slot2), slot7)
-			setTextColor(uv1:findTF("Text", slot2), slot7 and Color.white or Color.NewHex("393a3c"))
-			setImageColor(uv1:findTF("arrow", slot2), slot7 and Color.white or Color.NewHex("393a3c"))
+			setText(slot2:Find("Text"), slot6)
+			setActive(slot2:Find("selected"), slot7)
+			setTextColor(slot2:Find("Text"), slot7 and Color.white or Color.NewHex("393a3c"))
+			setImageColor(slot2:Find("arrow"), slot7 and Color.white or Color.NewHex("393a3c"))
 		end
 	end)
 	slot5:align(#slot2.options)
@@ -261,7 +261,7 @@ slot0.initDropdown = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.showDropdownPanel = function(slot0, slot1)
-	setAnchoredPosition(slot0:findTF("dropdown", slot0.dropdownPanel), slot1)
+	setAnchoredPosition(slot0.dropdownPanel:Find("dropdown"), slot1)
 	setActive(slot0.dropdownPanel, true)
 	slot0.dropdownUIList:align(#slot0.dropdownCfg.options[slot0.dropdownCfgIndex] - 1)
 end

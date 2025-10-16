@@ -3,8 +3,8 @@ slot0 = class("SiChuanOperaPage", import(".TemplatePage.LoginTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.dayText = slot0:findTF("AD/DayText")
-	slot0.url = slot0:findTF("AD/url")
+	slot0.dayText = slot0._tf:Find("AD/DayText")
+	slot0.url = slot0._tf:Find("AD/url")
 end
 
 slot0.OnFirstFlush = function(slot0)

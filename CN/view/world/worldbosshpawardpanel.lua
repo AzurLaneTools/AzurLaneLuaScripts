@@ -11,14 +11,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(slot0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 
-	slot0.itemList = slot0:findTF("window/panel/viewport/list")
+	slot0.itemList = slot0._tf:Find("window/panel/viewport/list")
 
-	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
+	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("bg_dark"), function ()
+	onButton(slot0, slot0._tf:Find("bg_dark"), function ()
 		uv0:Hide()
 	end)
 	slot0.buffer:SetNotifier(slot0)

@@ -178,21 +178,21 @@ slot0.updateMemorys = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("back_btn")
-	slot0.page1 = slot0:findTF("page1")
-	slot0.page2 = slot0:findTF("page2")
-	slot1 = slot0:findTF("get")
+	slot0.backBtn = slot0._tf:Find("back_btn")
+	slot0.page1 = slot0._tf:Find("page1")
+	slot0.page2 = slot0._tf:Find("page2")
+	slot1 = slot0._tf:Find("get")
 
 	setActive(slot1, false)
 
 	slot0.getSprite = slot1:GetComponent(typeof(Image)).sprite
-	slot0.slider = slot0:findTF("slider"):GetComponent(typeof(Slider))
-	slot0.totalTxt = slot0:findTF("progress"):GetComponent(typeof(Text))
-	slot0.currValueTxt = slot0:findTF("progress/value"):GetComponent(typeof(Text))
-	slot0.awardIcon = slot0:findTF("award_bg/icon")
-	slot0.awardLabel = slot0:findTF("award_bg/label")
-	slot0.awardLabelGot = slot0:findTF("award_bg/label_got")
-	slot0.helpBtn = slot0:findTF("help")
+	slot0.slider = slot0._tf:Find("slider"):GetComponent(typeof(Slider))
+	slot0.totalTxt = slot0._tf:Find("progress"):GetComponent(typeof(Text))
+	slot0.currValueTxt = slot0._tf:Find("progress/value"):GetComponent(typeof(Text))
+	slot0.awardIcon = slot0._tf:Find("award_bg/icon")
+	slot0.awardLabel = slot0._tf:Find("award_bg/label")
+	slot0.awardLabelGot = slot0._tf:Find("award_bg/label_got")
+	slot0.helpBtn = slot0._tf:Find("help")
 	slot0.pool = uv0(slot0._tf)
 end
 

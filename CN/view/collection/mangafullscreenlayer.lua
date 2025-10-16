@@ -33,14 +33,14 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.picImg = slot0:findTF("Manga/Pic")
-	slot0.indexText = slot0:findTF("Manga/Index")
-	slot0.preBtn = slot0:findTF("LeftBtn")
-	slot0.rightBtn = slot0:findTF("RightBtn")
-	slot0.tipText = slot0:findTF("Tip")
-	slot0.likeOnBtn = slot0:findTF("Manga/LikeOn")
-	slot0.likeOffBtn = slot0:findTF("Manga/LikeOff")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.picImg = slot0._tf:Find("Manga/Pic")
+	slot0.indexText = slot0._tf:Find("Manga/Index")
+	slot0.preBtn = slot0._tf:Find("LeftBtn")
+	slot0.rightBtn = slot0._tf:Find("RightBtn")
+	slot0.tipText = slot0._tf:Find("Tip")
+	slot0.likeOnBtn = slot0._tf:Find("Manga/LikeOn")
+	slot0.likeOffBtn = slot0._tf:Find("Manga/LikeOff")
 
 	setText(slot0.tipText, i18n("world_collection_back"))
 end

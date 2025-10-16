@@ -16,9 +16,9 @@ slot0.UpdateView = function(slot0, slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
 
-	setText(slot0:findTF("info_view/Viewport/Content/Text", slot0._tf), i18n(uv0.ConfigData.content, Equipment.getConfigData(uv0.ConfigData.equipID).name))
-	setText(slot0:findTF("button_container/custom_button_1(Clone)/pic", slot0._tf.parent), i18n(uv0.ConfigData.btnTxt))
-	setImageSprite(slot0:findTF("icon_bg/icon", slot0._tf), LoadSprite(uv0.ConfigData.icon))
+	setText(slot0._tf:Find("info_view/Viewport/Content/Text"), i18n(uv0.ConfigData.content, Equipment.getConfigData(uv0.ConfigData.equipID).name))
+	setText(slot0._tf:Find("button_container/custom_button_1(Clone)/pic", slot0._tf.parent), i18n(uv0.ConfigData.btnTxt))
+	setImageSprite(slot0._tf:Find("icon_bg/icon"), LoadSprite(uv0.ConfigData.icon))
 
 	if slot1.windowSize then
 		slot0._tf.parent.sizeDelta = Vector2(slot1.windowSize.x, slot1.windowSize.y)

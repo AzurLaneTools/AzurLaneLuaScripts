@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50129 = {
-		default_bgm = "story-amahara-stage1",
+	ActivityShop50170 = {
+		default_bgm = "story-expo-lastday",
 		special_bgm = "",
-		bgm = "story-amahara-stage1"
+		bgm = "story-expo-lastday"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2489,5 +2489,30 @@ pg.voice_bgm = {
 		default_bgm = "danmachi-3",
 		special_bgm = "",
 		bgm = "danmachi-3"
+	},
+	ClemenceauMainRePage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		bgm = "theme-clemenceau"
+	},
+	ExpoTicketTaskRePage = {
+		default_bgm = "story-clemenceau-judgement",
+		special_bgm = "",
+		bgm = "story-clemenceau-judgement"
+	},
+	SaDingPtRePage = {
+		default_bgm = "story-expo-lastday",
+		special_bgm = "",
+		bgm = "story-expo-lastday"
+	},
+	SaDingFrameRePage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		bgm = "theme-marcopolo"
+	},
+	SaDingLoginRePage = {
+		default_bgm = "theme-irisangel",
+		special_bgm = "",
+		bgm = "theme-irisangel"
 	}
 }

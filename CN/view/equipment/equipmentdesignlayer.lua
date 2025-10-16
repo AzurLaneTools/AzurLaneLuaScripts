@@ -17,27 +17,27 @@ slot0.setCapacity = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.designScrollView = slot0:findTF("equipment_scrollview")
-	slot0.equipmentTpl = slot0:findTF("equipment_tpl")
-	slot0.equipmentContainer = slot0:findTF("equipment_grid", slot0.designScrollView)
-	slot0.msgBoxTF = slot0:findTF("msg_panel")
+	slot0.designScrollView = slot0._tf:Find("equipment_scrollview")
+	slot0.equipmentTpl = slot0._tf:Find("equipment_tpl")
+	slot0.equipmentContainer = slot0.designScrollView:Find("equipment_grid")
+	slot0.msgBoxTF = slot0._tf:Find("msg_panel")
 
 	setActive(slot0.msgBoxTF, false)
 
-	slot0.top = slot0:findTF("top")
-	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
-	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
-	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
-	slot0.sortImgAsc = slot0:findTF("asc", slot0.decBtn)
-	slot0.sortImgDec = slot0:findTF("desc", slot0.decBtn)
-	slot0.indexPanel = slot0:findTF("index")
-	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
-	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.top = slot0._tf:Find("top")
+	slot0.sortBtn = slot0.top:Find("sort_button")
+	slot0.indexBtn = slot0.top:Find("index_button")
+	slot0.decBtn = slot0.sortBtn:Find("dec_btn")
+	slot0.sortImgAsc = slot0.decBtn:Find("asc")
+	slot0.sortImgDec = slot0.decBtn:Find("desc")
+	slot0.indexPanel = slot0._tf:Find("index")
+	slot0.tagContainer = slot0.indexPanel:Find("adapt/mask/panel")
+	slot0.tagTpl = slot0.tagContainer:Find("tpl")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 	slot0:OverlayPanel(slot0.indexPanel)
@@ -45,7 +45,7 @@ end
 
 slot0.SetParentTF = function(slot0, slot1)
 	slot0.parentTF = slot1
-	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview", slot0.parentTF)
+	slot0.equipmentView = slot0.parentTF:Find("adapt/equipment_scrollview")
 
 	setActive(slot0.equipmentView, false)
 end
@@ -320,11 +320,12 @@ slot2 = function(slot0, slot1)
 end
 
 slot0.createDesign = function(slot0, slot1)
+	slot1 = tf(slot1)
 	slot2 = findTF(slot1, "info/count")
 	slot3 = findTF(slot1, "mask")
 	slot5 = {
 		go = slot1,
-		nameTxt = slot0:findTF("name_bg/mask/name", slot1)
+		nameTxt = slot1:Find("name_bg/mask/name")
 	}
 
 	ClearTweenItemAlphaAndWhite(slot5.go)
@@ -532,7 +533,7 @@ slot0.filter = function(slot0, slot1, slot2)
 	slot0.scollRect:SetTotalCount(#slot7, slot2 and -1 or 0)
 	setActive(slot0.listEmptyTF, #slot7 <= 0)
 	Canvas.ForceUpdateCanvases()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot1]))
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", uv0[slot1]))
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
@@ -575,9 +576,9 @@ slot0.showDesignDesc = function(slot0, slot1)
 	end
 
 	slot12 = math.floor(slot0:getItemById(slot3.material_id).count / slot3.material_num)
-	slot14 = slot0:findTF("bg/calc/values/Text", slot2)
+	slot14 = slot2:Find("bg/calc/values/Text")
 	slot15 = slot3.gold_num
-	slot16 = slot0:findTF("bg/calc/gold/Text", slot2)
+	slot16 = slot2:Find("bg/calc/gold/Text")
 
 	(function (slot0)
 		setText(uv0, slot0)

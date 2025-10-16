@@ -1,9 +1,9 @@
 slot0 = class("AvroraTWCBTPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.get = slot0:findTF("get", slot0.bg)
-	slot0.go = slot0:findTF("go", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.get = slot0.bg:Find("get")
+	slot0.go = slot0.bg:Find("go")
 end
 
 slot0.OnFirstFlush = function(slot0)

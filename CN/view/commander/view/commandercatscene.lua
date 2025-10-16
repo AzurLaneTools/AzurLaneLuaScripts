@@ -49,11 +49,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bgTF = slot0:findTF("background")
-	slot1 = slot0.bgTF
-	slot0.bgImg = slot1:GetComponent(typeof(Image))
-	slot0.paintingTF = slot0:findTF("painting/frame")
-	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.bgTF = slot0._tf:Find("background")
+	slot0.bgImg = slot0.bgTF:GetComponent(typeof(Image))
+	slot0.paintingTF = slot0._tf:Find("painting/frame")
+	slot1 = slot0._tf
+	slot0.blurPanel = slot1:Find("blur_panel")
 	slot0.backBtn = findTF(slot0.blurPanel, "top/back_btn")
 	slot0.topPanel = findTF(slot0.blurPanel, "top")
 	slot0.pageContainer = findTF(slot0.blurPanel, "pages")

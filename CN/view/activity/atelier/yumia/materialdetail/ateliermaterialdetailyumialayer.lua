@@ -9,15 +9,15 @@ slot0.init = function(slot0)
 end
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Window/Text"), i18n("yumia_atelier_tip13"))
-	setText(slot0:findTF("Window/titleBg/Name"), i18n("yumia_atelier_tip14"))
+	setText(slot0._tf:Find("Window/Text"), i18n("yumia_atelier_tip13"))
+	setText(slot0._tf:Find("Window/titleBg/Name"), i18n("yumia_atelier_tip14"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:PlayCloseAni()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("Window/titleBg/closeBtn"), function ()
+	onButton(slot0, slot0._tf:Find("Window/titleBg/closeBtn"), function ()
 		uv0:PlayCloseAni()
 	end, SFX_CANCEL)
 	slot0:UpdateItemDetail()
@@ -49,12 +49,25 @@ end
 
 slot0.UpdateItemDetail = function(slot0)
 	slot1 = slot0.contextData.material
+	slot4 = slot0._tf
 
-	slot0:UpdateRyzaItem(slot0:findTF("Window/AtelierCommonYumiaItem"), slot1)
-	setText(slot0:findTF("Window/nameBg/Name"), slot1:GetName())
-	setText(slot0:findTF("Window/Description/Text"), slot1:GetDesc())
-	setScrollText(slot0:findTF("Window/sourceBg/mask/sourceText"), slot1:GetSource()[1])
-	onButton(slot0, slot0:findTF("Window/Go"), function ()
+	slot0:UpdateRyzaItem(slot4:Find("Window/AtelierCommonYumiaItem"), slot1)
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("Window/nameBg/Name"), slot1:GetName())
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("Window/Description/Text"), slot1:GetDesc())
+
+	slot4 = slot0._tf
+
+	setScrollText(slot4:Find("Window/sourceBg/mask/sourceText"), slot1:GetSource()[1])
+
+	slot5 = slot0._tf
+
+	onButton(slot0, slot5:Find("Window/Go"), function ()
 		if uv0.chapterid then
 			if not getProxy(ActivityProxy):getActivityByType(getProxy(ChapterProxy):getMapById(getProxy(ChapterProxy):getChapterById(uv0.chapterid):getConfig("map")):getConfig("on_activity")) or slot2:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))

@@ -1,9 +1,9 @@
 slot0 = class("CoreStoryTemplatePage", import("view.activity.CorePage.CoreActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg_story")
-	slot0.ad = slot0:findTF("AD")
-	slot0.goBtn = slot0:findTF("AD/go_btn")
+	slot0.bg = slot0._tf:Find("bg_story")
+	slot0.ad = slot0._tf:Find("AD")
+	slot0.goBtn = slot0._tf:Find("AD/go_btn")
 	slot0.scenario = CoreScenarioTemplatePage.New(slot0._tf)
 
 	slot0.scenario:SetCoreStoryPage(slot0)
@@ -27,6 +27,8 @@ slot0.OnShowFlush = function(slot0)
 	uv0.super.OnShowFlush(slot0)
 
 	if slot0.coreActivityUI.contextData.activeScenario then
+		slot0.scenario.needFocusStory = true
+
 		triggerButton(slot0.goBtn)
 	end
 end

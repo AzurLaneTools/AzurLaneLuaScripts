@@ -107,8 +107,8 @@ slot0.GetData = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.listPanel = slot0:findTF("list_panel")
-	slot0.scolrect = slot0:findTF("scrollrect", slot0.listPanel):GetComponent("LScrollRect")
+	slot0.listPanel = slot0._tf:Find("list_panel")
+	slot0.scolrect = slot0.listPanel:Find("scrollrect"):GetComponent("LScrollRect")
 
 	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -123,8 +123,8 @@ slot0.OnInit = function(slot0)
 	end
 
 	slot0.cards = {}
-	slot0.descPanel = AttireDescPanel.New(slot0:findTF("desc_panel"))
-	slot0.totalCount = slot0:findTF("total_count/Text"):GetComponent(typeof(Text))
+	slot0.descPanel = AttireDescPanel.New(slot0._tf:Find("desc_panel"))
+	slot0.totalCount = slot0._tf:Find("total_count/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInitItem = function(slot0, slot1)

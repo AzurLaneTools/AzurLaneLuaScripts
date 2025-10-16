@@ -3,29 +3,46 @@ slot1 = 35
 slot2 = 31
 
 slot0.OnInit = function(slot0)
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
 	slot0.icons = {
-		slot0:findTF("AD/bg/npc1"),
-		slot0:findTF("AD/bg/npc2"),
-		slot0:findTF("AD/bg/npc3"),
-		slot0:findTF("AD/bg/npc4"),
-		slot0:findTF("AD/bg/npc5"),
-		slot0:findTF("AD/bg/npc6"),
-		slot0:findTF("AD/bg/npc7")
+		slot2:Find("AD/bg/npc1"),
+		slot2:Find("AD/bg/npc2"),
+		slot2:Find("AD/bg/npc3"),
+		slot2:Find("AD/bg/npc4"),
+		slot2:Find("AD/bg/npc5"),
+		slot2:Find("AD/bg/npc6"),
+		slot2:Find("AD/bg/npc7")
 	}
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
 	slot0.locks = {
-		slot0:findTF("AD/bg/lock1"),
-		slot0:findTF("AD/bg/lock2"),
-		slot0:findTF("AD/bg/lock3"),
-		slot0:findTF("AD/bg/lock4"),
-		slot0:findTF("AD/bg/lock5"),
-		slot0:findTF("AD/bg/lock6"),
-		slot0:findTF("AD/bg/lock7")
+		slot2:Find("AD/bg/lock1"),
+		slot2:Find("AD/bg/lock2"),
+		slot2:Find("AD/bg/lock3"),
+		slot2:Find("AD/bg/lock4"),
+		slot2:Find("AD/bg/lock5"),
+		slot2:Find("AD/bg/lock6"),
+		slot2:Find("AD/bg/lock7")
 	}
-	slot0.helpBtn = slot0:findTF("AD/help")
-	slot0.goBtn = slot0:findTF("AD/go")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("AD/help")
+	slot1 = slot0._tf
+	slot0.goBtn = slot1:Find("AD/go")
 	slot2 = Drop.Create(pg.mini_game_hub[uv0].reward_display)
+	slot3 = slot0._tf
 
-	onButton(slot0, slot0:findTF("AD/btnFinalAward"), function ()
+	onButton(slot0, slot3:Find("AD/btnFinalAward"), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 end

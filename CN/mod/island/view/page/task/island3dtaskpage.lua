@@ -16,8 +16,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.typeIcon = slot0.detailTF:Find("title/icon")
 	slot0.nameTF = slot0.detailTF:Find("title/icon/name")
 	slot0.timeTF = slot0.detailTF:Find("title/time")
-	slot0.descTF = slot0.detailTF:Find("desc")
-	slot0.targetTF = slot0.detailTF:Find("targets")
+	slot0.descTF = slot0.detailTF:Find("view/Viewport/content/desc")
+	slot0.targetTF = slot0.detailTF:Find("view/Viewport/content/targets")
 
 	setText(slot0.targetTF:Find("Text"), i18n("island_task_target"))
 
@@ -40,8 +40,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.tracedBtn = slot0.detailBtns:Find("traced")
 
 	setText(slot0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
-	setText(slot0:findTF("top/title/Text"), i18n("island_task_title"))
-	setText(slot0:findTF("top/title/Text/en"), i18n("island_task_title_en"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_task_title"))
+	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_task_title_en"))
 end
 
 slot0.OnInit = function(slot0)
@@ -80,6 +80,13 @@ slot0.OnInit = function(slot0)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			updateCustomDrop(slot2, uv0.showAwards[slot1 + 1])
+			onButton(uv0, slot2, function ()
+				uv0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1
+				})
+			end)
 		end
 	end)
 end

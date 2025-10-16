@@ -4,8 +4,8 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.goBtn = slot0:findTF("BtnGO")
-	slot0.skinShopBtn = slot0:findTF("BtnShop")
+	slot0.goBtn = slot0._tf:Find("BtnGO")
+	slot0.skinShopBtn = slot0._tf:Find("BtnShop")
 
 	onButton(slot0, slot0.skinShopBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)

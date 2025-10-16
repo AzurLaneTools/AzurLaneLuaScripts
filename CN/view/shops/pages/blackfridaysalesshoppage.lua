@@ -5,29 +5,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
-	slot1 = slot0:findTF("res_pt/Text")
-	slot0.resTxt = slot1:GetComponent(typeof(Text))
-	slot0.resIcon = slot0:findTF("res_pt/icon")
+	slot0.scrollrect = slot0._tf:Find("scrollView"):GetComponent("LScrollRect")
+	slot0.resTxt = slot0._tf:Find("res_pt/Text"):GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.resIcon = slot1:Find("res_pt/icon")
 	slot0.pagefooters = {
-		slot0:findTF("pagefooter/ptShop"),
-		slot0:findTF("pagefooter/gemShop"),
-		slot0:findTF("pagefooter/coinShop")
+		slot0._tf:Find("pagefooter/ptShop"),
+		slot0._tf:Find("pagefooter/gemShop"),
+		slot0._tf:Find("pagefooter/coinShop")
 	}
 
-	setText(slot0:findTF("pagefooter/coinShop/Text"), i18n("blackfriday_coinshop"))
-	setText(slot0:findTF("pagefooter/coinShop/mark"), i18n("blackfriday_coinshop"))
-	setText(slot0:findTF("pagefooter/gemShop/Text"), i18n("blackfriday_gemshop"))
-	setText(slot0:findTF("pagefooter/gemShop/mark"), i18n("blackfriday_gemshop"))
-	setText(slot0:findTF("pagefooter/ptShop/Text"), i18n("blackfriday_ptshop"))
-	setText(slot0:findTF("pagefooter/ptShop/mark"), i18n("blackfriday_ptshop"))
+	setText(slot0._tf:Find("pagefooter/coinShop/Text"), i18n("blackfriday_coinshop"))
+	setText(slot0._tf:Find("pagefooter/coinShop/mark"), i18n("blackfriday_coinshop"))
+	setText(slot0._tf:Find("pagefooter/gemShop/Text"), i18n("blackfriday_gemshop"))
+	setText(slot0._tf:Find("pagefooter/gemShop/mark"), i18n("blackfriday_gemshop"))
+	setText(slot0._tf:Find("pagefooter/ptShop/Text"), i18n("blackfriday_ptshop"))
+	setText(slot0._tf:Find("pagefooter/ptShop/mark"), i18n("blackfriday_ptshop"))
 
 	slot0.ress = {
-		slot0:findTF("res_pt/icon_pt"),
-		slot0:findTF("res_pt/icon_gem"),
-		slot0:findTF("res_pt/icon_coin")
+		slot0._tf:Find("res_pt/icon_pt"),
+		slot0._tf:Find("res_pt/icon_gem"),
+		slot0._tf:Find("res_pt/icon_coin")
 	}
-	slot0.resText = slot0:findTF("res_pt/Text")
+	slot0.resText = slot0._tf:Find("res_pt/Text")
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x
 	slot0.purchasePage = BlackFridayServerShopPurchasePanel.New(slot0._tf, slot0.event, slot0.contextData)
@@ -198,7 +198,7 @@ slot0.SwitchTab = function(slot0, slot1)
 	slot3 = slot0.shop:GetGoodsByTabs(slot1)
 
 	if slot0.shop:GetTabCount() <= 1 then
-		setActive(slot0:findTF("pagefooter"), false)
+		setActive(slot0._tf:Find("pagefooter"), false)
 	end
 
 	slot0.displays = slot3

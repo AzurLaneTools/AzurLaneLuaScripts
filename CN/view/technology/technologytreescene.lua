@@ -79,33 +79,33 @@ end
 slot0.findUI = function(slot0)
 	slot0.nationAllToggle = nil
 	slot0.nationAllToggleCom = nil
-	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
+	slot0.nationMetaToggle = slot0._tf:Find("Adapt/Left/MetaToggle")
 	slot0.nationMetaToggleCom = GetComponent(slot0.nationMetaToggle, "Toggle")
-	slot0.nationMotToggle = slot0:findTF("Adapt/Left/MotToggle")
+	slot0.nationMotToggle = slot0._tf:Find("Adapt/Left/MotToggle")
 	slot0.nationMotToggleCom = GetComponent(slot0.nationMotToggle, "Toggle")
 	slot0.typeAllToggle = nil
 	slot0.typeAllToggleCom = nil
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.adapt = slot0:findTF("adapt", slot0.blurPanel)
-	slot0.backBtn = slot0:findTF("top/back", slot0.adapt)
-	slot0.homeBtn = slot0:findTF("top/option", slot0.adapt)
-	slot0.additionDetailBtn = slot0:findTF("AdditionDetailBtn", slot0.adapt)
-	slot0.switchBtn = slot0:findTF("SwitchToggle", slot0.adapt)
-	slot0.pointTF = slot0:findTF("PointCount", slot0.adapt)
-	slot0.pointNumText = slot0:findTF("PointCount/PointNumText", slot0.adapt)
-	slot0.redPointImg = slot0:findTF("RedPoint", slot0.switchBtn)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.adapt)
-	slot0.leftContainer = slot0:findTF("Adapt/Left/Scroll View/Content")
-	slot0.selectNationItem = slot0:findTF("SelectCampItem")
-	slot0.bottomContainer = slot0:findTF("Adapt/Bottom/Content")
-	slot0.selectTypeItem = slot0:findTF("SelectTypeItem")
-	slot0.rightContainer = slot0:findTF("Adapt/Right/Container")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.adapt = slot0.blurPanel:Find("adapt")
+	slot0.backBtn = slot0.adapt:Find("top/back")
+	slot0.homeBtn = slot0.adapt:Find("top/option")
+	slot0.additionDetailBtn = slot0.adapt:Find("AdditionDetailBtn")
+	slot0.switchBtn = slot0.adapt:Find("SwitchToggle")
+	slot0.pointTF = slot0.adapt:Find("PointCount")
+	slot0.pointNumText = slot0.adapt:Find("PointCount/PointNumText")
+	slot0.redPointImg = slot0.switchBtn:Find("RedPoint")
+	slot0.helpBtn = slot0.adapt:Find("help_btn")
+	slot0.leftContainer = slot0._tf:Find("Adapt/Left/Scroll View/Content")
+	slot0.selectNationItem = slot0._tf:Find("SelectCampItem")
+	slot0.bottomContainer = slot0._tf:Find("Adapt/Bottom/Content")
+	slot0.selectTypeItem = slot0._tf:Find("SelectTypeItem")
+	slot0.rightContainer = slot0._tf:Find("Adapt/Right/Container")
 	slot0.rightLSC = slot0.rightContainer:GetComponent("LScrollRect")
 	slot0.rightLayoutGroup = slot0.rightContainer:GetComponent("VerticalLayoutGroup")
-	slot0.headItem = slot0:findTF("HeadItem")
+	slot0.headItem = slot0._tf:Find("HeadItem")
 	slot0.rowHeight = slot0.headItem.rect.height
 	slot0.maxRowHeight = 853.5
-	slot0.emptyPage = BaseEmptyListPage.New(slot0:findTF("Adapt/Right/ViewPort"), slot0.event)
+	slot0.emptyPage = BaseEmptyListPage.New(slot0._tf:Find("Adapt/Right/ViewPort"), slot0.event)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -143,15 +143,15 @@ end
 slot0.initNationToggleUIList = function(slot0)
 	slot0.nationAllToggle = nil
 	slot0.nationAllToggleCom = nil
-	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
+	slot0.nationMetaToggle = slot0._tf:Find("Adapt/Left/MetaToggle")
 	slot0.nationMetaToggleCom = GetComponent(slot0.nationMetaToggle, "Toggle")
-	slot0.nationMotToggle = slot0:findTF("Adapt/Left/MotToggle")
+	slot0.nationMotToggle = slot0._tf:Find("Adapt/Left/MotToggle")
 	slot0.nationMotToggleCom = GetComponent(slot0.nationMotToggle, "Toggle")
 
 	setActive(slot0.nationMetaToggle, not LOCK_TEC_META)
 
 	if LOCK_TEC_META then
-		slot1 = slot0:findTF("Adapt/Left/Scroll View")
+		slot1 = slot0._tf:Find("Adapt/Left/Scroll View")
 		slot1.offsetMin = Vector2.New(slot1.offsetMin.x, 0)
 	end
 
@@ -159,7 +159,7 @@ slot0.initNationToggleUIList = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:findTF("UnSelectedImg", slot2):GetComponent("Image").sprite, uv0:findTF("SelectedImg", slot2):GetComponent("Image").sprite = TechnologyConst.GetNationSpriteByIndex(slot1 + 1)
+			slot2:Find("UnSelectedImg"):GetComponent("Image").sprite, slot2:Find("SelectedImg"):GetComponent("Image").sprite = TechnologyConst.GetNationSpriteByIndex(slot1 + 1)
 
 			if slot1 == 0 then
 				uv0.nationAllToggle = slot2
@@ -265,7 +265,7 @@ slot0.updateNationToggleUIList = function(slot0)
 		_.each(slot0.nationToggleList, function (slot0)
 			triggerToggle(slot0, false)
 			onNextTick(function ()
-				setActive(uv0:findTF("UnSelectedImg", uv1), true)
+				setActive(uv0:Find("UnSelectedImg"), true)
 			end)
 		end)
 		triggerToggle(slot0.nationMetaToggle, false)
@@ -300,7 +300,7 @@ slot0.initTypeToggleUIList = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:findTF("UnSelectedImg", slot2):GetComponent("Image").sprite, uv0:findTF("SelectedImg", slot2):GetComponent("Image").sprite = TechnologyConst.GetTypeSpriteByIndex(slot1 + 1)
+			slot2:Find("UnSelectedImg"):GetComponent("Image").sprite, slot2:Find("SelectedImg"):GetComponent("Image").sprite = TechnologyConst.GetTypeSpriteByIndex(slot1 + 1)
 
 			if slot1 + 1 == #TechnologyConst.TypeResName then
 				uv0.typeAllToggle = slot2
@@ -378,7 +378,7 @@ slot0.updateTypeToggleUIList = function(slot0)
 		_.each(slot0.typeToggleList, function (slot0)
 			triggerToggle(slot0, false)
 			onNextTick(function ()
-				setActive(uv0:findTF("UnSelectedImg", uv1), true)
+				setActive(uv0:Find("UnSelectedImg"), true)
 			end)
 		end)
 	elseif slot0.lastTypeTrige == uv0.TypeTrige.Other then
@@ -402,10 +402,10 @@ slot0.updatePreferredHeight = function(slot0, slot1, slot2)
 end
 
 slot0.onClassItemUpdate = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("CampBG", slot2)
-	slot5 = slot0:findTF("Level/LevelImg", slot2)
-	slot6 = slot0:findTF("Level/TypeTextImg", slot2)
-	slot8 = slot0:findTF("ArrowBtn", slot0:findTF("ClickBtn", slot2))
+	slot4 = tf(slot2):Find("CampBG")
+	slot5 = tf(slot2):Find("Level/LevelImg")
+	slot6 = tf(slot2):Find("Level/TypeTextImg")
+	slot8 = tf(slot2):Find("ClickBtn"):Find("ArrowBtn")
 	slot9 = slot0:getClassConfigForShow(slot1 + 1)
 	slot11 = slot9.nation
 	slot12 = slot9.shiptype
@@ -413,7 +413,7 @@ slot0.onClassItemUpdate = function(slot0, slot1, slot2)
 	slot14 = slot9.ships
 	slot16 = slot0:isMotOn()
 
-	setText(slot0:findTF("Name/NameText", slot2), slot9.name)
+	setText(tf(slot2):Find("Name/NameText"), slot9.name)
 
 	slot17 = nil
 
@@ -436,10 +436,10 @@ slot0.onClassItemUpdate = function(slot0, slot1, slot2)
 	end
 
 	setImageSprite(slot4, slot17)
-	setLocalRotation(slot0:findTF("ClickBtn/ArrowBtn", slot2), {
+	setLocalRotation(tf(slot2):Find("ClickBtn/ArrowBtn"), {
 		z = 180
 	})
-	slot0:updateShipItemList(slot14, slot0:findTF("ShipScrollView/ShipContainer", slot2))
+	slot0:updateShipItemList(slot14, tf(slot2):Find("ShipScrollView/ShipContainer"))
 
 	slot0.expanded[slot1] = 0
 
@@ -499,34 +499,34 @@ slot0.updateShipItemList = function(slot0, slot1, slot2)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("BaseImg/CharImg", slot2)
-			slot5 = uv0
-			slot7 = uv0:findTF("Frame", slot2)
-			slot8 = uv0:findTF("Star", slot2)
-			slot9 = uv0:findTF("Star/StarImg", slot2)
-			slot10 = uv0:findTF("Info", slot2)
-			slot11 = uv0:findTF("PointText", slot10)
-			slot12 = uv0
-			slot13 = uv0:findTF("TypeIcon", slot12:findTF("BuffGet", slot10))
-			slot14 = uv0:findTF("AttrIcon", slot13)
-			slot15 = uv0:findTF("NumText", slot13)
-			slot16 = uv0:findTF("Lock", slot10)
-			slot17 = uv0
-			slot18 = uv0:findTF("TypeIcon", slot17:findTF("BuffComplete", slot10))
-			slot19 = uv0:findTF("AttrIcon", slot18)
-			slot20 = uv0:findTF("NumText", slot18)
-			slot21 = uv0:findTF("BottomBG", slot2)
-			slot22 = uv0:findTF("BottomBG/StatusUnknow", slot2)
-			slot23 = uv0:findTF("BottomBG/StatusResearching", slot2)
-			slot24 = uv0:findTF("ViewIcon", slot2)
-			slot25 = uv0:findTF("keyansaohguang", slot2)
-			slot26 = uv1[slot1 + 1]
+			slot4 = slot2:Find("BaseImg/CharImg")
+			slot5 = slot2:Find("NameBG")
+			slot7 = slot2:Find("Frame")
+			slot8 = slot2:Find("Star")
+			slot9 = slot2:Find("Star/StarImg")
+			slot10 = slot2:Find("Info")
+			slot11 = slot10:Find("PointText")
+			slot12 = slot10:Find("BuffGet")
+			slot13 = slot12:Find("TypeIcon")
+			slot14 = slot13:Find("AttrIcon")
+			slot15 = slot13:Find("NumText")
+			slot16 = slot10:Find("Lock")
+			slot17 = slot10:Find("BuffComplete")
+			slot18 = slot17:Find("TypeIcon")
+			slot19 = slot18:Find("AttrIcon")
+			slot20 = slot18:Find("NumText")
+			slot21 = slot2:Find("BottomBG")
+			slot22 = slot2:Find("BottomBG/StatusUnknow")
+			slot23 = slot2:Find("BottomBG/StatusResearching")
+			slot24 = slot2:Find("ViewIcon")
+			slot25 = slot2:Find("keyansaohguang")
+			slot26 = uv0[slot1 + 1]
 
-			setText(uv0:findTF("NameText", slot5:findTF("NameBG", slot2)), shortenString(ShipGroup.getDefaultShipNameByGroupID(slot26), 6))
+			setText(slot5:Find("NameText"), shortenString(ShipGroup.getDefaultShipNameByGroupID(slot26), 6))
 
 			slot27 = slot26 * 10 + 1
 
-			setImageSprite(uv0:findTF("BaseImg", slot2), GetSpriteFromAtlas("shipraritybaseicon", "base_" .. pg.ship_data_statistics[slot27].rarity))
+			setImageSprite(slot2:Find("BaseImg"), GetSpriteFromAtlas("shipraritybaseicon", "base_" .. pg.ship_data_statistics[slot27].rarity))
 			LoadSpriteAsync("shipmodels/" .. Ship.getPaintingName(slot27), function (slot0)
 				if slot0 and not uv0.exited then
 					setImageSprite(uv1, slot0, true)
@@ -535,13 +535,13 @@ slot0.updateShipItemList = function(slot0, slot1, slot2)
 				end
 			end)
 
-			if table.indexof(uv0.groupIDGotList, slot26, 1) then
+			if table.indexof(uv1.groupIDGotList, slot26, 1) then
 				setImageSprite(slot13, GetSpriteFromAtlas("ui/technologytreeui_atlas", "label_" .. pg.fleet_tech_ship_template[slot26].add_get_shiptype[1]))
 				setImageSprite(slot14, GetSpriteFromAtlas("attricon", pg.attribute_info_by_type[pg.fleet_tech_ship_template[slot26].add_get_attr].name))
 				setText(slot15, "+" .. pg.fleet_tech_ship_template[slot26].add_get_value)
 				setActive(slot12, true)
 
-				if uv0.collectionProxy:getShipGroup(slot26).maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
+				if uv1.collectionProxy:getShipGroup(slot26).maxLV < TechnologyConst.SHIP_LEVEL_FOR_BUFF then
 					setActive(slot23, true)
 					setActive(slot22, false)
 					setActive(slot17, false)
@@ -594,7 +594,7 @@ slot0.updateShipItemList = function(slot0, slot1, slot2)
 					setActive(slot9, false)
 				end
 
-				onButton(uv0, slot2, function ()
+				onButton(uv1, slot2, function ()
 					uv0:emit(TechnologyConst.OPEN_SHIP_BUFF_DETAIL, uv1, uv2.maxLV, uv2.star)
 				end)
 			else

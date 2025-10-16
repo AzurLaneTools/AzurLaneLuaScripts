@@ -1,13 +1,15 @@
 slot0 = class("AtelierFormulaMaterialsYumiaPreview", import("view.activity.Atelier.base.AtelierFormulaMaterialsPreview"))
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Frame/closeText"), i18n("yumia_atelier_tip13"))
-	setText(slot0:findTF("Frame/Text"), i18n("yumia_atelier_tip11"))
-	setText(slot0:findTF("Frame/Text_1"), i18n("yumia_atelier_tip12"))
+	setText(slot0._tf:Find("Frame/closeText"), i18n("yumia_atelier_tip13"))
+	setText(slot0._tf:Find("Frame/Text"), i18n("yumia_atelier_tip11"))
+	setText(slot0._tf:Find("Frame/Text_1"), i18n("yumia_atelier_tip12"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("BG"), function ()
 		uv0:HideMaterialsPreview(true)
 	end, SFX_CANCEL)
 end
@@ -138,7 +140,7 @@ slot0.ShowMaterialsPreview = function(slot0, slot1)
 	table.sort(slot12, slot11)
 	table.sort(slot13, slot11)
 	(function ()
-		setActive(uv0:findTF("Frame/Scroll/Content").parent, #uv1 > 0)
+		setActive(uv0._tf:Find("Frame/Scroll/Content").parent, #uv1 > 0)
 
 		if #uv1 == 0 then
 			return
@@ -158,7 +160,7 @@ slot0.ShowMaterialsPreview = function(slot0, slot1)
 		end)
 	end)()
 	(function ()
-		setActive(uv0:findTF("Frame/LackScroll/Content").parent, #uv1 > 0)
+		setActive(uv0._tf:Find("Frame/LackScroll/Content").parent, #uv1 > 0)
 
 		if #uv1 == 0 then
 			return
@@ -221,8 +223,8 @@ end
 
 slot0.AddTimer = function(slot0, slot1, slot2)
 	slot3 = 0
-	slot4 = slot0:findTF("Frame/Scroll/Content")
-	slot5 = slot0:findTF("Frame/LackScroll/Content")
+	slot4 = slot0._tf:Find("Frame/Scroll/Content")
+	slot5 = slot0._tf:Find("Frame/LackScroll/Content")
 	slot0.timer = FrameTimer.New(function ()
 		slot0 = 0
 
@@ -253,9 +255,9 @@ slot0.AddTimer = function(slot0, slot1, slot2)
 end
 
 slot0.AddTimer2 = function(slot0)
-	slot4 = slot0:findTF("Frame/LackScroll/Content").childCount
+	slot4 = slot0._tf:Find("Frame/LackScroll/Content").childCount
 
-	for slot8 = 0, slot0:findTF("Frame/Scroll/Content").childCount - 1 do
+	for slot8 = 0, slot0._tf:Find("Frame/Scroll/Content").childCount - 1 do
 		SetComponentEnabled(slot1:GetChild(slot8), typeof(Animation), false)
 
 		GetComponent(slot1:GetChild(slot8), typeof(CanvasGroup)).alpha = 0

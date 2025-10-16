@@ -63,60 +63,59 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.shareBtn = slot0:findTF("Logo/share_btn", slot0.bg)
-	slot0.icecreamTF = slot0:findTF("Icecream", slot0.bg)
-	slot0.openBtn = slot0:findTF("open_btn", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.specialTF = slot0:findTF("Special")
-	slot0.backBG = slot0:findTF("BG", slot0.specialTF)
-	slot0.menuTF = slot0:findTF("Menu", slot0.specialTF)
-	slot4 = slot0.menuTF
-	slot0.mainPanel = slot0:findTF("MainPanel", slot4)
+	slot0.shareBtn = slot0.bg:Find("Logo/share_btn")
+	slot0.icecreamTF = slot0.bg:Find("Icecream")
+	slot0.openBtn = slot0.bg:Find("open_btn")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.specialTF = slot0._tf:Find("Special")
+	slot0.backBG = slot0.specialTF:Find("BG")
+	slot0.menuTF = slot0.specialTF:Find("Menu")
+	slot0.mainPanel = slot0.menuTF:Find("MainPanel")
 	slot0.mainToggleTFList = {}
 
 	for slot4 = 1, 4 do
 		slot0.mainToggleTFList[slot4] = slot0.mainPanel:GetChild(slot4 - 1)
 	end
 
-	slot0.secondPanel = slot0:findTF("SecondList", slot0.menuTF)
-	slot0.selectBtn = slot0:findTF("SelectBtn", slot0.menuTF)
+	slot0.secondPanel = slot0.menuTF:Find("SecondList")
+	slot0.selectBtn = slot0.menuTF:Find("SelectBtn")
 	slot0.mainPanelCG = GetComponent(slot0.mainPanel, "CanvasGroup")
 	slot0.secondPanelCG = GetComponent(slot0.secondPanel, "CanvasGroup")
 	slot0.selectBtnImg = GetComponent(slot0.selectBtn, "Image")
-	slot0.resTF = slot0:findTF("Res")
+	slot0.resTF = slot0._tf:Find("Res")
 	slot0.iconTable = {
 		["1"] = {
-			slot0:findTF("1/1", slot0.resTF),
-			slot0:findTF("1/2", slot0.resTF),
-			slot0:findTF("1/3", slot0.resTF)
+			slot0.resTF:Find("1/1"),
+			slot0.resTF:Find("1/2"),
+			slot0.resTF:Find("1/3")
 		},
 		["21"] = {
-			slot0:findTF("2/1/1", slot0.resTF),
-			slot0:findTF("2/1/2", slot0.resTF),
-			slot0:findTF("2/1/3", slot0.resTF)
+			slot0.resTF:Find("2/1/1"),
+			slot0.resTF:Find("2/1/2"),
+			slot0.resTF:Find("2/1/3")
 		},
 		["22"] = {
-			slot0:findTF("2/2/1", slot0.resTF),
-			slot0:findTF("2/2/2", slot0.resTF),
-			slot0:findTF("2/2/3", slot0.resTF)
+			slot0.resTF:Find("2/2/1"),
+			slot0.resTF:Find("2/2/2"),
+			slot0.resTF:Find("2/2/3")
 		},
 		["23"] = {
-			slot0:findTF("2/3/1", slot0.resTF),
-			slot0:findTF("2/3/2", slot0.resTF),
-			slot0:findTF("2/3/3", slot0.resTF)
+			slot0.resTF:Find("2/3/1"),
+			slot0.resTF:Find("2/3/2"),
+			slot0.resTF:Find("2/3/3")
 		},
 		["3"] = {
-			slot0:findTF("3/1", slot0.resTF),
-			slot0:findTF("3/2", slot0.resTF),
-			slot0:findTF("3/3", slot0.resTF)
+			slot0.resTF:Find("3/1"),
+			slot0.resTF:Find("3/2"),
+			slot0.resTF:Find("3/3")
 		},
 		["4"] = {
-			slot0:findTF("4/1", slot0.resTF),
-			slot0:findTF("4/2", slot0.resTF),
-			slot0:findTF("4/3", slot0.resTF)
+			slot0.resTF:Find("4/1"),
+			slot0.resTF:Find("4/2"),
+			slot0.resTF:Find("4/3")
 		}
 	}
-	slot0.icecreamResTF = slot0:findTF("Icecream")
+	slot0.icecreamResTF = slot0._tf:Find("Icecream")
 	slot0.mainToggleSelectedTF = {}
 	slot0.mainToggleUnlockTF = {}
 
@@ -128,7 +127,9 @@ end
 
 slot0.addListener = function(slot0)
 	if IsUnityEditor then
-		onButton(slot0, slot0:findTF("Logo", slot0.bg), function ()
+		slot1 = slot0.bg
+
+		onButton(slot0, slot1:Find("Logo"), function ()
 			for slot3 = 1, 4 do
 				PlayerPrefs.SetInt(uv0.Icecream_Save_Tag_Pre .. slot3, 0)
 			end
@@ -226,9 +227,9 @@ slot0.initMainPanel = function(slot0)
 				end
 
 				for slot7 = 1, 3 do
-					slot10 = uv0
+					slot10 = slot3[slot7]
 
-					setImageSprite(slot10:findTF("icon", slot3[slot7]), getImageSprite(slot2[slot7]), true)
+					setImageSprite(slot10:Find("icon"), getImageSprite(slot2[slot7]), true)
 					onToggle(uv0, slot3[slot7], function (slot0)
 						if slot0 == true then
 							slot1 = Clone(uv0.selectedList)
@@ -456,10 +457,10 @@ slot0.updateIcecream = function(slot0, slot1)
 
 	setActive(slot0.icecreamTF, slot2[1] > 0)
 
-	slot4 = slot0:findTF("Taste", slot0:findTF("1", slot0.icecreamTF))
-	slot5 = slot0:findTF("2", slot0.icecreamTF)
-	slot6 = slot0:findTF("3", slot0.icecreamTF)
-	slot7 = slot0:findTF("4", slot0.icecreamTF)
+	slot4 = slot0.icecreamTF:Find("1"):Find("Taste")
+	slot5 = slot0.icecreamTF:Find("2")
+	slot6 = slot0.icecreamTF:Find("3")
+	slot7 = slot0.icecreamTF:Find("4")
 
 	if slot2[1] and slot2[1] > 0 then
 		for slot12, slot13 in pairs(slot2) do
@@ -475,19 +476,19 @@ slot0.updateIcecream = function(slot0, slot1)
 	setActive(slot7, slot2[4] and slot2[4] > 0)
 
 	if slot8 then
-		setImageSprite(slot4, getImageSprite(slot0:findTF("1_" .. slot2[1], slot0.icecreamResTF)), true)
+		setImageSprite(slot4, getImageSprite(slot0.icecreamResTF:Find("1_" .. slot2[1])), true)
 	end
 
 	if slot2[2] and slot2[2] > 0 then
-		setImageSprite(slot5, getImageSprite(slot0:findTF("2_" .. slot2[1] .. slot2[2], slot0.icecreamResTF)), true)
+		setImageSprite(slot5, getImageSprite(slot0.icecreamResTF:Find("2_" .. slot2[1] .. slot2[2])), true)
 	end
 
 	if slot2[3] and slot2[3] > 0 then
-		setImageSprite(slot6, getImageSprite(slot0:findTF("3_" .. slot2[3], slot0.icecreamResTF)), true)
+		setImageSprite(slot6, getImageSprite(slot0.icecreamResTF:Find("3_" .. slot2[3])), true)
 	end
 
 	if slot2[4] and slot2[4] > 0 then
-		setImageSprite(slot7, getImageSprite(slot0:findTF("4_" .. slot2[4], slot0.icecreamResTF)), true)
+		setImageSprite(slot7, getImageSprite(slot0.icecreamResTF:Find("4_" .. slot2[4])), true)
 	end
 end
 
@@ -578,17 +579,17 @@ slot0.share = function(slot0)
 
 		uv0.shareGo = slot0
 
-		setText(uv0:findTF("PlayerName", slot0), i18n("icecream_make_tip", getProxy(PlayerProxy):getData().name))
+		setText(slot0:Find("PlayerName"), i18n("icecream_make_tip", getProxy(PlayerProxy):getData().name))
 
 		slot7 = getProxy(PlayerProxy):getRawData()
 		slot9 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot8.server or 0]
-		slot12 = uv0:findTF("deck", slot0)
+		slot12 = slot0:Find("deck")
 
 		setText(slot12:Find("name/value"), slot7 and slot7.name or "")
 		setText(slot12:Find("server/value"), slot9 and slot9.name or "")
 		setText(slot12:Find("lv/value"), slot7.level)
 
-		slot13 = cloneTplTo(uv0.icecreamTF, uv0:findTF("IcecreamContainer", slot0))
+		slot13 = cloneTplTo(uv0.icecreamTF, slot0:Find("IcecreamContainer"))
 
 		setLocalPosition(tf(slot13), {
 			x = 0,
@@ -609,7 +610,7 @@ slot0.share = function(slot0)
 end
 
 slot0.initSD = function(slot0)
-	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
+	slot0.sdContainer = slot0.bg:Find("sdcontainer")
 	slot0.spine = nil
 	slot0.spineLRQ = GetSpineRequestPackage.New("salatuojia_8", function (slot0)
 		SetParent(slot0, uv0.sdContainer)

@@ -5,28 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.samllTF = slot0:findTF("small")
-
 	setActive(slot0.samllTF, true)
 
-	slot0.pos1 = slot0:findTF("small/commander1", slot0.topPanel)
-	slot0.pos2 = slot0:findTF("small/commander2", slot0.topPanel)
-	slot0.descPanel = slot0:findTF("desc")
+	slot0.pos1 = slot0.samllTF:Find("commander1")
+	slot0.pos2 = slot0.samllTF:Find("commander2")
 
 	setActive(slot0.descPanel, false)
 
-	slot0.descFrameTF = slot0:findTF("desc/frame")
-	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
-	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
-	slot0.skillTFPos1 = slot0:findTF("commander1/skill_info", slot0.descFrameTF)
-	slot0.skillTFPos2 = slot0:findTF("commander2/skill_info", slot0.descFrameTF)
-	slot0.abilitysTF = UIItemList.New(slot0:findTF("atttr_panel/abilitys/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/abilitys/mask/content/attr", slot0.descFrameTF))
-	slot0.talentsTF = UIItemList.New(slot0:findTF("atttr_panel/talents/mask/content", slot0.descFrameTF), slot0:findTF("atttr_panel/talents/mask/content/attr", slot0.descFrameTF))
-	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
-	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
-	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
-	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
-	slot0.recordPanel = slot0:findTF("record_panel")
+	slot0.descFrameTF = slot0.descPanel:Find("frame")
+	slot0.descPos1 = slot0.descFrameTF:Find("commander1/frame/info")
+	slot0.descPos2 = slot0.descFrameTF:Find("commander2/frame/info")
+	slot0.skillTFPos1 = slot0.descFrameTF:Find("commander1/skill_info")
+	slot0.skillTFPos2 = slot0.descFrameTF:Find("commander2/skill_info")
+	slot0.abilitysTF = UIItemList.New(slot0.descFrameTF:Find("atttr_panel/abilitys/mask/content"), slot0.descFrameTF:Find("atttr_panel/abilitys/mask/content/attr"))
+	slot0.talentsTF = UIItemList.New(slot0.descFrameTF:Find("atttr_panel/talents/mask/content"), slot0.descFrameTF:Find("atttr_panel/talents/mask/content/attr"))
+	slot0.abilityArr = slot0.descPanel:Find("frame/atttr_panel/abilitys/arr")
+	slot0.talentsArr = slot0.descPanel:Find("frame/atttr_panel/talents/arr")
+	slot0.restAllBtn = slot0.descFrameTF:Find("rest_all")
+	slot1 = slot0.descFrameTF
+	slot0.quickBtn = slot1:Find("quick_btn")
 	slot0.recordCommanders = {
 		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
 		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
@@ -40,8 +37,15 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.samllTF, function ()
 		uv0:openDescPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.descPanel, function ()
-		uv0:closeDescPanel()
+	onButton(slot0, slot0.quickBtn, function ()
+		uv0:OpenRecordPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf:Find("bg"), function ()
+		if isActive(uv0.recordPanel) then
+			uv0:CloseRecordPanel()
+		elseif isActive(uv0.descPanel) then
+			uv0:closeDescPanel()
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.restAllBtn, function ()
 		uv0:emit(FormationMediator.COMMANDER_FORMATION_OP, {
@@ -52,15 +56,9 @@ slot0.OnInit = function(slot0)
 			fleetId = uv0.fleet.id
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.quickBtn, function ()
-		uv0:OpenRecordPanel()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.recordPanel:Find("back"), function ()
-		uv0:CloseRecordPanel()
-	end, SFX_PANEL)
-	setText(slot0:findTF("desc/frame/atttr_panel/abilitys/title/Text"), i18n("commander_subtile_ablity"))
-	setText(slot0:findTF("desc/frame/atttr_panel/talents/title/Text"), i18n("commander_subtile_talent"))
-	setText(slot0:findTF("record_panel/current/title/Text"), i18n("commander_formation_prefab_fleet"))
+	setText(slot0.descPanel:Find("frame/atttr_panel/abilitys/title/Text"), i18n("commander_subtile_ablity"))
+	setText(slot0.descPanel:Find("frame/atttr_panel/talents/title/Text"), i18n("commander_subtile_talent"))
+	setText(slot0.recordPanel:Find("current/title/Text"), i18n("commander_formation_prefab_fleet"))
 end
 
 slot0.Update = function(slot0, slot1, slot2)
@@ -87,8 +85,12 @@ slot0.openDescPanel = function(slot0, slot1)
 	setAnchoredPosition(slot0.samllTF, {
 		x = 0
 	})
-	LeanTween.moveX(slot0.samllTF, 800, slot2):setOnComplete(System.Action(function ()
+
+	slot3 = LeanTween.moveX(slot0.samllTF, 800, slot2)
+
+	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, true)
+		setActive(uv0.descBg, true)
 		pg.UIMgr.GetInstance():OverlayPanel(uv0._tf)
 		setAnchoredPosition(uv0.descFrameTF, {
 			x = 800
@@ -97,8 +99,6 @@ slot0.openDescPanel = function(slot0, slot1)
 	end))
 
 	slot0.contextData.inDescPage = true
-
-	slot0._tf:SetAsLastSibling()
 end
 
 slot0.closeDescPanel = function(slot0, slot1)
@@ -116,6 +116,7 @@ slot0.closeDescPanel = function(slot0, slot1)
 
 	slot3:setOnComplete(System.Action(function ()
 		setActive(uv0.descPanel, false)
+		setActive(uv0.descBg, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0._tf, uv0._parentTf)
 		setAnchoredPosition(uv0.samllTF, {
 			x = 800

@@ -5,32 +5,31 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.leftTF = slot0:findTF("left")
-	slot0.rightTF = slot0:findTF("right")
-	slot0.togglesTF = slot0:findTF("toggles")
-	slot0.anim = slot0:findTF("view"):GetComponent(typeof(Animation))
-	slot1 = slot0:findTF("view/content")
+	slot0.leftTF = slot0._tf:Find("left")
+	slot0.rightTF = slot0._tf:Find("right")
+	slot0.togglesTF = slot0._tf:Find("toggles")
+	slot0.anim = slot0._tf:Find("view"):GetComponent(typeof(Animation))
+	slot1 = slot0._tf:Find("view/content")
 	slot5 = "4"
-	slot6 = slot1
 	slot0.itemTFs = {
-		slot0:findTF("1", slot1),
-		slot0:findTF("2", slot1),
-		slot0:findTF("3", slot1),
-		slot0:findTF(slot5, slot6)
+		slot1:Find("1"),
+		slot1:Find("2"),
+		slot1:Find("3"),
+		slot1:Find(slot5)
 	}
 
 	for slot5, slot6 in pairs(slot0.itemTFs) do
-		slot0:findTF("empty", slot6):GetComponent(typeof(Image)):SetNativeSize()
+		slot6:Find("empty"):GetComponent(typeof(Image)):SetNativeSize()
 	end
 
-	slot0.awardTF = slot0:findTF("award/mask/IconTpl")
-	slot0.awardDesc = slot0:findTF("award/Text")
+	slot0.awardTF = slot0._tf:Find("award/mask/IconTpl")
+	slot0.awardDesc = slot0._tf:Find("award/Text")
 
 	setText(slot0.awardDesc, i18n("liner_room_award_tip"))
 
-	slot0.goBtn = slot0:findTF("award/go")
-	slot0.getBtn = slot0:findTF("award/get")
-	slot0.gotTF = slot0:findTF("award/got")
+	slot0.goBtn = slot0._tf:Find("award/go")
+	slot0.getBtn = slot0._tf:Find("award/get")
+	slot0.gotTF = slot0._tf:Find("award/got")
 end
 
 slot0.OnInit = function(slot0)
@@ -54,7 +53,7 @@ slot0.OnInit = function(slot0)
 		slot0.groups[slot4] = LinerRoomGroup.New(slot5)
 	end
 
-	slot0.toggleUIList = UIItemList.New(slot0.togglesTF, slot0:findTF("tpl", slot0.togglesTF))
+	slot0.toggleUIList = UIItemList.New(slot0.togglesTF, slot0.togglesTF:Find("tpl"))
 
 	slot0.toggleUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
@@ -84,7 +83,7 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 	slot0.toggleUIList:align(#slot0.groupIds)
-	triggerToggle(slot0:findTF("1", slot0.toggleUIList.container), true)
+	triggerToggle(slot0.toggleUIList.container:Find("1"), true)
 end
 
 slot0.UpdateActivity = function(slot0, slot1)
@@ -105,17 +104,17 @@ slot0.FlushPage = function(slot0)
 		if slot0.itemTFs[slot6] then
 			setActive(slot8, true)
 
-			slot10 = slot0:findTF("desc", slot8)
+			slot10 = slot8:Find("desc")
 
-			setText(slot0:findTF("name/Text", slot8), slot0.groups[slot0.curIdx]:GetRoom(slot7):GetName())
-			setImageSprite(slot0:findTF("icon", slot8), GetSpriteFromAtlas("ui/linermainui_atlas", "area" .. slot7, true))
+			setText(slot8:Find("name/Text"), slot0.groups[slot0.curIdx]:GetRoom(slot7):GetName())
+			setImageSprite(slot8:Find("icon"), GetSpriteFromAtlas("ui/linermainui_atlas", "area" .. slot7, true))
 
 			if not table.contains(slot0.finishRoomIds, slot7) then
 				slot1 = true
 			end
 
 			setText(slot10, slot12 and slot11:GetDesc() or "")
-			setActive(slot0:findTF("empty", slot8), not slot12)
+			setActive(slot8:Find("empty"), not slot12)
 		end
 	end
 
@@ -132,7 +131,7 @@ slot0.FlushPage = function(slot0)
 
 	setActive(slot0.goBtn, not slot4 and not slot5)
 	setActive(slot0.gotTF, slot4)
-	setActive(slot0:findTF("mask", slot0.awardTF), slot4)
+	setActive(slot0.awardTF:Find("mask"), slot4)
 	setActive(slot0.getBtn, slot5)
 	slot0:Show()
 end

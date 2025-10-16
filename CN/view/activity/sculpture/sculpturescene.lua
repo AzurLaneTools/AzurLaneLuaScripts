@@ -43,22 +43,33 @@ slot0.OnUpdateActivity = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("back")
-	slot0.helpBtn = slot0:findTF("help")
-	slot0.awardBtn = slot0:findTF("award")
-	slot1 = slot0:findTF("award/Text")
+	slot1 = slot0._tf
+	slot0.backBtn = slot1:Find("back")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("help")
+	slot1 = slot0._tf
+	slot0.awardBtn = slot1:Find("award")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("award/Text")
 	slot0.awardTxt = slot1:GetComponent(typeof(Text))
-	slot0.ore = slot0:findTF("ore")
-	slot1 = slot0:findTF("ore/icon")
+	slot1 = slot0._tf
+	slot0.ore = slot1:Find("ore")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("ore/icon")
 	slot0.oreIcon = slot1:GetComponent(typeof(Image))
-	slot1 = slot0:findTF("ore/Text")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("ore/Text")
 	slot0.oreTxt = slot1:GetComponent(typeof(Text))
-	slot0.feather = slot0:findTF("feather")
-	slot1 = slot0:findTF("feather/icon")
+	slot1 = slot0._tf
+	slot0.feather = slot1:Find("feather")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("feather/icon")
 	slot0.featherIcon = slot1:GetComponent(typeof(Image))
-	slot1 = slot0:findTF("feather/Text")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("feather/Text")
 	slot0.featherTxt = slot1:GetComponent(typeof(Text))
-	slot0.tpl = slot0:findTF("frame/content/tpl")
+	slot1 = slot0._tf
+	slot0.tpl = slot1:Find("frame/content/tpl")
 
 	setActive(slot0.tpl, false)
 

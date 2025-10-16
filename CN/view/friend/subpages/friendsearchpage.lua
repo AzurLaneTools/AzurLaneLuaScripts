@@ -6,9 +6,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.addPanel = slot0:findTF("add_panel")
-	slot0.searchPanel = slot0:findTF("search_panel", slot0.addPanel)
-	slot0.searchBar = slot0:findTF("InputField", slot0.searchPanel)
+	slot0.addPanel = slot0._tf:Find("add_panel")
+	slot0.searchPanel = slot0.addPanel:Find("search_panel")
+	slot0.searchBar = slot0.searchPanel:Find("InputField")
 end
 
 slot0.OnInit = function(slot0)
@@ -72,8 +72,9 @@ end
 
 slot0.initAddPage = function(slot0)
 	slot0.searchItems = {}
+	slot2 = slot0.searchPanel
 
-	setText(slot0:findTF("self_id_bg/Text", slot0.searchPanel), slot0.playerVO.id)
+	setText(slot2:Find("self_id_bg/Text"), slot0.playerVO.id)
 
 	slot1 = slot0.addPanel
 	slot1 = slot1:Find("mask/view")

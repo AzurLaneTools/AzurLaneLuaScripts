@@ -7,9 +7,9 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.remindToggle = slot0:findTF("remind")
+	slot0.remindToggle = slot0._tf:Find("remind")
 
-	setText(slot0:findTF("remind/Text"), i18n("island_no_remind_today"))
+	setText(slot0._tf:Find("remind/Text"), i18n("island_no_remind_today"))
 end
 
 slot0.OnInit = function(slot0)

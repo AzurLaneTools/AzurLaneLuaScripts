@@ -39,12 +39,12 @@ slot0.RefreshRegularExchangeCount = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.quickCount = slot0:findTF("gallery/res_items/item")
-	slot0.useItemTF = slot0:findTF("Text", slot0.quickCount)
-	slot0.freeCount = slot0:findTF("gallery/res_items/ticket")
-	slot0.ticketTF = slot0:findTF("Text", slot0.freeCount)
-	slot0.patingTF = slot0:findTF("painting")
-	slot0.poolContainer = slot0:findTF("gallery/toggle_bg/bg/toggles")
+	slot0.quickCount = slot0._tf:Find("gallery/res_items/item")
+	slot0.useItemTF = slot0.quickCount:Find("Text")
+	slot0.freeCount = slot0._tf:Find("gallery/res_items/ticket")
+	slot0.ticketTF = slot0.freeCount:Find("Text")
+	slot0.patingTF = slot0._tf:Find("painting")
+	slot0.poolContainer = slot0._tf:Find("gallery/toggle_bg/bg/toggles")
 	slot1 = slot0.poolContainer
 	slot0.newTpl = slot1:Find("new")
 	slot0.newPoolTpls = {
@@ -65,8 +65,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.heavyPoolTpls = {
 		slot0.heavyTpl
 	}
-	slot0.maskContainer = slot0:findTF("gallery/mask")
-	slot0.buildPoolExchangeTF = slot0:findTF("gallery/exchange_bg")
+	slot0.maskContainer = slot0._tf:Find("gallery/mask")
+	slot0.buildPoolExchangeTF = slot0._tf:Find("gallery/exchange_bg")
 	slot0.buildPoolExchangeGetBtn = slot0.buildPoolExchangeTF:Find("get")
 	slot0.buildPoolExchangeTxt = slot0.buildPoolExchangeTF:Find("Text"):GetComponent(typeof(Text))
 	slot0.buildPoolExchangeGetBtnMark = slot0.buildPoolExchangeGetBtn:Find("mark")
@@ -101,12 +101,12 @@ slot0.OnLoaded = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.tipSTxt = slot0:findTF("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
+	slot0.tipSTxt = slot0._tf:Find("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
 	slot0.tipTime = slot0._tf:Find("gallery/bg/time_text")
-	slot0.helpBtn = slot0:findTF("gallery/help_btn")
-	slot0.testBtn = slot0:findTF("gallery/test_btn")
-	slot0.prevArr = slot0:findTF("gallery/prev_arr")
-	slot0.nextArr = slot0:findTF("gallery/next_arr")
+	slot0.helpBtn = slot0._tf:Find("gallery/help_btn")
+	slot0.testBtn = slot0._tf:Find("gallery/test_btn")
+	slot0.prevArr = slot0._tf:Find("gallery/prev_arr")
+	slot0.nextArr = slot0._tf:Find("gallery/next_arr")
 	slot0.activityTimer = {}
 	slot0.freeActTimer = {}
 end
@@ -326,7 +326,7 @@ slot0.UpdateTicket = function(slot0)
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 
-		slot5 = slot0:findTF("gallery/item_bg/ticket")
+		slot5 = slot0._tf:Find("gallery/item_bg/ticket")
 
 		LoadImageSpriteAtlasAsync(slot3:getConfig("icon"), "", slot5:Find("icon"))
 		setText(slot5:Find("name"), slot3:getConfig("name"))
@@ -340,15 +340,15 @@ slot0.UpdateTicket = function(slot0)
 		}
 	}) == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 
-	setText(slot0:findTF("gallery/prints/intro/text"), slot3 and i18n("newserver_build_tip") or i18n("build_pools_intro"))
+	setText(slot0._tf:Find("gallery/prints/intro/text"), slot3 and i18n("newserver_build_tip") or i18n("build_pools_intro"))
 	setActive(slot0.freeCount, tobool(slot2))
 	setActive(slot0.quickCount, not slot3)
 
 	slot0.useTicket = slot3 or slot2 and slot2.data1 > 0
 
-	setActive(slot0:findTF("gallery/item_bg/item"), not slot0.useTicket)
-	setActive(slot0:findTF("gallery/item_bg/gold"), not slot0.useTicket)
-	setActive(slot0:findTF("gallery/item_bg/ticket"), slot0.useTicket)
+	setActive(slot0._tf:Find("gallery/item_bg/item"), not slot0.useTicket)
+	setActive(slot0._tf:Find("gallery/item_bg/gold"), not slot0.useTicket)
+	setActive(slot0._tf:Find("gallery/item_bg/ticket"), slot0.useTicket)
 end
 
 slot0.SwitchPool = function(slot0, slot1)
@@ -368,7 +368,7 @@ slot0.SwitchPool = function(slot0, slot1)
 		setText(slot0.tipTime, slot4:STimeDescC(slot3:getStartTime(), "%Y.%m.%d") .. " - " .. slot4:STimeDescC(slot3.stopTime, "%m.%d %H:%M"))
 	end
 
-	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
+	slot0._tf:Find("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
 	slot6 = slot1:getConfigTable()
 	slot7, slot8 = nil
 	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)
@@ -377,10 +377,10 @@ slot0.SwitchPool = function(slot0, slot1)
 
 	slot0.tipSTxt:SetText(slot9 and HXSet.hxLan(slot9) or i18n("buildship_" .. slot4 .. "_tip"))
 
-	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = slot9(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
+	slot0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = slot9(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
 
-	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
-	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)
+	setText(slot0._tf:Find("gallery/item_bg/item/Text"), slot6.number_1)
+	setText(slot0._tf:Find("gallery/item_bg/gold/Text"), slot6.use_gold)
 	slot0:UpdateBuildPoolExchange(slot1)
 	slot0:UpdateRegularBuildPoolExchange(slot1)
 	slot0:UpdateTicket()
@@ -414,7 +414,7 @@ slot0.SwitchPool = function(slot0, slot1)
 		end)
 	end
 
-	onButton(slot0, slot0:findTF("gallery/start_btn"), function ()
+	onButton(slot0, slot0._tf:Find("gallery/start_btn"), function ()
 		seriesAsync(uv0, function ()
 			slot0 = uv0.useTicket and uv1:getBuildFreeActivityByBuildId(uv0.pool.id) or nil
 

@@ -1,10 +1,10 @@
 slot0 = class("ChargeAwardPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.charge = slot0:findTF("charge")
-	slot0.take = slot0:findTF("take")
-	slot0.finish = slot0:findTF("finish")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.charge = slot0._tf:Find("charge")
+	slot0.take = slot0._tf:Find("take")
+	slot0.finish = slot0._tf:Find("finish")
 end
 
 slot0.OnDataSetting = function(slot0)

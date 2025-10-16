@@ -20,11 +20,18 @@ slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.videoPlayer = VoiceChatLoader.New(slot0._tf)
+	slot0.stockingView = Dorm3dStockingView.New(slot0._tf, slot0.event, setmetatable({
+		GetTipShowInfo = function ()
+			return uv0.stockingMgr:GetTipShowInfo()
+		end
+	}, {
+		__index = slot0.contextData
+	}))
 
 	Shader.SetGlobalFloat("_ScreenClipOff", 1)
 
-	slot0.uiContianer = slot0._tf:Find("UI")
-	slot1 = slot0.uiContianer:Find("base")
+	slot0.uiContainer = slot0._tf:Find("UI")
+	slot1 = slot0.uiContainer:Find("base")
 
 	onButton(slot0, slot1:Find("btn_back"), function ()
 		uv0:emit(BaseUI.ON_BACK)
@@ -166,7 +173,7 @@ slot0.init = function(slot0)
 
 	onButton(slot0, slot1:Find("left/btn_skin"), function ()
 		uv0:ActiveCamera(uv0.cameras[uv1.CAMERA.SKIN])
-		uv0:emit(Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER, uv0.apartment:GetConfigID(), uv0.ladyDict[uv0.apartment:GetConfigID()], nil, function ()
+		uv0:emit(Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER, uv0.apartment:GetConfigID(), uv0:GetCurrentLadyEnv(), nil, function ()
 			uv0:ChangePlayerPosition()
 			uv0:ActiveCamera(uv0.cameras[uv1.CAMERA.POV])
 		end, false)
@@ -213,7 +220,7 @@ slot0.init = function(slot0)
 
 			slot0 = {}
 
-			if uv0.room:isPersonalRoom() and not uv0:GetBlackboardValue(uv0.ladyDict[uv0.apartment:GetConfigID()], "inPending") then
+			if uv0.room:isPersonalRoom() and not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inPending") then
 				table.insert(slot0, function (slot0)
 					uv0:OutOfLazy(uv0.apartment:GetConfigID(), slot0)
 				end)
@@ -228,8 +235,8 @@ slot0.init = function(slot0)
 		end, SFX_PANEL)
 	end)
 
-	slot2 = slot0.uiContianer:Find("walk")
-	slot3 = slot0.uiContianer:Find("ik")
+	slot2 = slot0.uiContainer:Find("walk")
+	slot3 = slot0.uiContainer:Find("ik")
 
 	onButton(slot0, slot3:Find("btn_back"), function ()
 		if uv0.ikSpecialCall then
@@ -263,7 +270,7 @@ slot0.init = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot3:Find("Right/Menu"), function ()
 		setActive(uv0:Find("Right"), false)
-		uv1:emit(Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER, uv1.apartment:GetConfigID(), uv1.ladyDict[uv1.apartment:GetConfigID()], function (slot0, slot1, slot2)
+		uv1:emit(Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER, uv1.apartment:GetConfigID(), uv1:GetCurrentLadyEnv(), function (slot0, slot1, slot2)
 			seriesAsync({
 				function (slot0)
 					uv0:SetIKState(false, slot0)
@@ -304,7 +311,7 @@ slot0.init = function(slot0)
 
 	slot0.ikControlUI = slot4
 
-	onButton(slot0, slot0.uiContianer:Find("accompany"):Find("btn_back"), function ()
+	onButton(slot0, slot0.uiContainer:Find("accompany"):Find("btn_back"), function ()
 		uv0:ExitAccompanyMode()
 	end, SFX_DORM_BACK)
 
@@ -358,7 +365,7 @@ slot0.init = function(slot0)
 		end))
 	end, SFX_PANEL)
 
-	slot7 = slot0.uiContianer:Find("watch")
+	slot7 = slot0.uiContainer:Find("watch")
 
 	onButton(slot0, slot7:Find("btn_back"), function ()
 		uv0:ExitWatchMode()
@@ -371,10 +378,10 @@ slot0.init = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.rtStaminaDisplay = slot7:Find("stamina")
-	slot0.rtRole = slot0.uiContianer:Find("watch/Role")
+	slot0.rtRole = slot0.uiContainer:Find("watch/Role")
 
 	onButton(slot0, slot0.rtRole:Find("Talk"), function ()
-		if #uv0.apartment:getFurnitureTalking(uv0.room:GetConfigID(), uv0.ladyDict[uv0.apartment:GetConfigID()].ladyBaseZone) == 0 then
+		if #uv0.apartment:getFurnitureTalking(uv0.room:GetConfigID(), uv0:GetCurrentLadyEnv().ladyBaseZone) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips("without topic")
 
 			return
@@ -385,22 +392,15 @@ slot0.init = function(slot0)
 		end)
 	end, SFX_DORM_CLICK)
 	setText(slot0.rtRole:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
-	onButton(slot0, slot0.rtRole:Find("Touch"), function ()
-		getProxy(Dorm3dChatProxy):TriggerEvent({
-			{
-				value = 1,
-				event_type = uv0.contextData.timeIndex == 1 and 111 or 116,
-				ship_id = uv0.apartment:GetConfigID()
-			},
-			{
-				value = 1,
-				event_type = 156,
-				ship_id = uv0.apartment:GetConfigID()
-			}
-		})
-		uv0:EnterTouchPerformance()
-	end, SFX_DORM_CLICK)
-	setText(slot0.rtRole:Find("Touch/bg/Text"), i18n("dorm3d_touch"))
+
+	slot0.rtRoleTouchSubView = Dorm3dRTRoleTouchSubView.New(slot0.rtRole:Find("Touch"), slot0.event, setmetatable({
+		onClick = function (slot0)
+			uv0:EnterTouchMode(slot0)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
+
 	onButton(slot0, slot0.rtRole:Find("Gift"), function ()
 		uv0:emit(uv0.SHOW_BLOCK)
 		uv0:ActiveStateCamera("gift", function ()
@@ -416,7 +416,7 @@ slot0.init = function(slot0)
 		assert(not uv0.nowMiniGameId)
 
 		uv0.nowMiniGameId = uv0.room:getMiniGames()[1]
-		slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot1 = uv0:GetCurrentLadyEnv()
 		slot2 = getProxy(Dorm3dChatProxy)
 
 		slot2:TriggerEvent({
@@ -588,7 +588,7 @@ slot0.init = function(slot0)
 		slot1 = slot1:GetComponent(typeof(SlideController))
 
 		slot1:AddBeginDragFunc(function (slot0, slot1)
-			if not uv0.ladyDict[uv0.apartment:GetConfigID()].IKSettings then
+			if not uv0:GetCurrentLadyEnv().IKSettings then
 				return
 			end
 
@@ -610,7 +610,7 @@ slot0.init = function(slot0)
 		slot1:AddDragFunc(function (slot0, slot1)
 			slot2 = slot1.position
 
-			if uv0.ladyDict[uv0.apartment:GetConfigID()].ikHandler then
+			if uv0:GetCurrentLadyEnv().ikHandler then
 				uv0:emit(uv1.ON_DRAG_CHARACTER_BODY, slot3, slot2)
 
 				return
@@ -625,7 +625,7 @@ slot0.init = function(slot0)
 		slot1:AddDragEndFunc(function (slot0, slot1)
 			uv0 = nil
 
-			if uv1.ladyDict[uv1.apartment:GetConfigID()].ikHandler then
+			if uv1:GetCurrentLadyEnv().ikHandler then
 				uv1:emit(uv2.ON_RELEASE_CHARACTER_BODY, slot2)
 
 				return
@@ -694,14 +694,14 @@ slot0.BindEvent = function(slot0)
 		uv0:ChangeCanWatchState(uv0.ladyDict[slot1])
 	end)
 	slot0:bind(slot0.ON_TOUCH_CHARACTER, function (slot0, slot1)
-		if not uv0:GetBlackboardValue(uv0.ladyDict[uv0.apartment:GetConfigID()], "inIK") then
+		if not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inIK") then
 			return
 		end
 
 		uv0:OnTouchCharacterBody(slot1)
 	end)
 	slot0:bind(uv0.ON_IK_STATUS_CHANGED, function (slot0, slot1, slot2)
-		if not uv0:GetBlackboardValue(uv0.ladyDict[uv0.apartment:GetConfigID()], "inTouching") then
+		if not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inTouching") then
 			return
 		end
 
@@ -756,6 +756,8 @@ slot0.SetUIStore = function(slot0, slot1, ...)
 end
 
 slot0.SetUI = function(slot0, slot1, ...)
+	warning("SetUI", ...)
+
 	while rawget(slot0, "class") ~= uv0 do
 		slot0 = getmetatable(slot0).__index
 	end
@@ -780,7 +782,7 @@ slot0.SetUI = function(slot0, slot1, ...)
 
 	slot0.uiStore = {}
 
-	eachChild(slot0.uiContianer, function (slot0)
+	eachChild(slot0.uiContainer, function (slot0)
 		setActive(slot0, slot0.name == uv0.uiState)
 	end)
 	slot0:EnablePOVLayer(slot0.uiState == "base" or slot0.uiState == "walk")
@@ -788,6 +790,12 @@ slot0.SetUI = function(slot0, slot1, ...)
 	slot0:SetFloatEnable(slot0.uiState == "walk")
 	setActive(slot0.rtFloatPage, slot0.uiState == "walk")
 	setActive(slot0.ikControlUI, slot0.uiState == "ik")
+
+	if slot0.uiState ~= "stocking" then
+		slot0.stockingView:Hide()
+	end
+
+	warning("SetUI to ", slot0.uiState)
 	switch(slot0.uiState, {
 		base = function ()
 			if not uv0.room:isPersonalRoom() then
@@ -815,6 +823,12 @@ slot0.SetUI = function(slot0, slot1, ...)
 			end)) do
 				LeanTween.delayedCall(slot1, System.Action(function ()
 					setActive(uv0.rtRole:Find(uv1), true)
+
+					if uv1 == "Touch" then
+						slot0 = uv0.apartment:GetConfigID()
+
+						uv0.rtRoleTouchSubView:Flush(uv0.room, slot0, uv0.ladyDict[slot0].ladyBaseZone)
+					end
 				end))
 
 				slot1 = slot1 + 0.066
@@ -823,11 +837,14 @@ slot0.SetUI = function(slot0, slot1, ...)
 			setActive(uv0.rtRole:Find("Gift/bg/Tip"), Dorm3dGift.NeedViewTip(uv0.apartment:GetConfigID()))
 		end,
 		ik = function ()
-			setActive(uv0.uiContianer:Find("ik/Right/MenuSmall"), uv0.room:isPersonalRoom() and not uv0.performanceInfo)
-			setActive(uv0.uiContianer:Find("ik/Right/Menu"), false)
+			setActive(uv0.uiContainer:Find("ik/Right/MenuSmall"), uv0.room:isPersonalRoom() and not uv0.performanceInfo)
+			setActive(uv0.uiContainer:Find("ik/Right/Menu"), false)
 		end,
 		walk = function ()
-			setText(uv0.uiContianer:Find("walk/dialogue/content"), i18n("dorm3d_removable", uv0.apartment:getConfig("name")))
+			setText(uv0.uiContainer:Find("walk/dialogue/content"), i18n("dorm3d_removable", uv0.apartment:getConfig("name")))
+		end,
+		stocking = function ()
+			uv0.stockingView:Show()
 		end
 	})
 	slot0:ActiveStateCamera(slot0.uiState, function ()
@@ -1032,22 +1049,22 @@ slot0.ExitAccompanyMode = function(slot0)
 end
 
 slot0.EnterTouchPerformance = function(slot0)
-	if not slot0.room:getApartmentZoneConfig(slot0.ladyDict[slot0.apartment:GetConfigID()].ladyBaseZone, "touch_performance", slot0.apartment:GetConfigID()) or slot2 == 0 then
+	if not slot0.room:getApartmentZoneConfig(slot0:GetCurrentLadyEnv().ladyBaseZone, "touch_performance", slot0.apartment:GetConfigID()) or slot2 == 0 then
 		slot0:EnterTouchMode()
 	else
 		slot0:DoTalk(slot2)
 	end
 end
 
-slot0.EnterTouchMode = function(slot0)
-	if slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inTouching") then
+slot0.EnterTouchMode = function(slot0, slot1)
+	if slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inTouching") then
 		return
 	end
 
-	slot0.touchConfig = pg.dorm3d_touch_data[slot0.room:getApartmentZoneConfig(slot1.ladyBaseZone, "touch_id", slot0.apartment:GetConfigID())]
+	slot0.touchConfig = pg.dorm3d_touch_data[slot1 or slot0.room:getApartmentZoneConfig(slot2.ladyBaseZone, "touch_id", slot0.apartment:GetConfigID())]
 
 	if not slot0.touchConfig then
-		slot0:EnterTimelineTouchMode()
+		warning("dorm3d_touch_data no config for id:" .. tostring(slot1))
 
 		return
 	end
@@ -1089,7 +1106,7 @@ slot0.EnterTouchMode = function(slot0)
 	end)
 	table.insert(slot3, function (slot0)
 		uv0:SwitchIKConfig(uv1, uv0.touchConfig.ik_status[1])
-		setActive(uv0.uiContianer:Find("ik/btn_back"), true)
+		setActive(uv0.uiContainer:Find("ik/btn_back"), true)
 		uv0:SetIKState(true, slot0)
 	end)
 	table.insert(slot3, function (slot0)
@@ -1102,13 +1119,7 @@ slot0.EnterTouchMode = function(slot0)
 end
 
 slot0.ExitTouchMode = function(slot0)
-	if not slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inTouching") then
-		return
-	end
-
-	if slot0.touchTimelineConfig then
-		existCall(slot0.timelineFinishCall)
-
+	if not slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inTouching") then
 		return
 	end
 
@@ -1170,6 +1181,7 @@ slot0.ExitTouchMode = function(slot0)
 			character_action = uv1.touchConfig.finish_action
 		}
 
+		uv1:emit(uv2.STOCKING_EVENT, "OnExitTouchMode")
 		uv1:SetIKState(false, slot0)
 	end)
 	table.insert(slot2, function (slot0)
@@ -1190,8 +1202,7 @@ slot0.ExitTouchMode = function(slot0)
 end
 
 slot0.ChangeWalkScene = function(slot0, slot1, slot2, slot3)
-	slot5 = slot0.apartment
-	slot4 = slot0.ladyDict[slot5:GetConfigID()]
+	slot4 = slot0:GetCurrentLadyEnv()
 
 	seriesAsync({
 		function (slot0)
@@ -1215,76 +1226,6 @@ slot0.ChangeWalkScene = function(slot0, slot1, slot2, slot3)
 		uv0:emit(uv0.HIDE_BLOCK)
 		uv0:SetBlackboardValue(uv1, "inWalk", uv2 == "change")
 		existCall(uv3)
-	end)
-end
-
-slot0.EnterTimelineTouchMode = function(slot0)
-	if slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inIK") then
-		return
-	end
-
-	slot2 = slot0.room:getApartmentZoneConfig(slot1.ladyBaseZone, "touch_id", slot0.apartment:GetConfigID())
-
-	assert(pg.dorm3d_ik_timeline[slot2], "Missing config in dorm3d_ik_timeline ID: " .. (slot2 or "nil"))
-
-	slot0.touchTimelineConfig = slot3
-	slot4 = {}
-
-	table.insert(slot4, function (slot0)
-		uv0:SetBlackboardValue(uv1, "inIK", true)
-		uv0:emit(uv0.SHOW_BLOCK)
-		uv0:SetUI(slot0, "ik")
-	end)
-	table.insert(slot4, function (slot0)
-		setActive(uv0.uiContianer:Find("ik/btn_back"), true)
-		setActive(uv0.uiContianer:Find("ik/Right/btn_camera"), false)
-		setActive(uv0.uiContianer:Find("ik/Right/Menu"), false)
-		setActive(uv0.uiContianer:Find("ik/Right/MenuSmall"), false)
-		Shader.SetGlobalFloat("_ScreenClipOff", 0)
-		uv0:emit(uv0.HIDE_BLOCK)
-		uv0:HideCharacterBylayer(uv1)
-		setActive(uv1.ladyCollider, false)
-
-		slot1, slot2 = nil
-
-		if #uv2.scene > 0 then
-			slot1, slot2 = unpack(string.split(uv2.scene, "|"))
-		end
-
-		uv0:PlayTimeline({
-			name = uv2.timeline,
-			scene = slot1,
-			sceneRoot = slot2
-		}, function (slot0, slot1)
-			slot1()
-			uv0:ExitTimelineTouchMode()
-		end)
-	end)
-	seriesAsync(slot4, function ()
-	end)
-end
-
-slot0.ExitTimelineTouchMode = function(slot0)
-	if not slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inIK") then
-		return
-	end
-
-	slot0.touchTimelineConfig = nil
-	slot2 = {}
-
-	table.insert(slot2, function (slot0)
-		uv0:emit(uv0.SHOW_BLOCK)
-		Shader.SetGlobalFloat("_ScreenClipOff", 1)
-		slot0()
-	end)
-	table.insert(slot2, function (slot0)
-		uv0:RevertCharacterBylayer(uv1)
-		setActive(uv1.ladyCollider, true)
-		uv0:SetUI(slot0, "back")
-	end)
-	seriesAsync(slot2, function ()
-		uv0:SetBlackboardValue(uv1, "inIK", false)
-		uv0:emit(uv0.HIDE_BLOCK)
 	end)
 end
 
@@ -1384,56 +1325,57 @@ slot0.SwitchIKConfig = function(slot0, slot1, slot2)
 	slot1.ikConfig = slot3
 end
 
-slot0.SetIKState = function(slot0, slot1, slot2)
-	slot3 = slot0.ladyDict[slot0.apartment:GetConfigID()]
-	slot4 = {}
+slot0.SetIKState = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or {}
+	slot4 = slot0:GetCurrentLadyEnv()
+	slot5 = {}
 
 	if slot1 then
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			uv0:SetBlackboardValue(uv1, "inIK", true)
 			uv0:emit(uv0.SHOW_BLOCK)
-			setActive(uv0.uiContianer:Find("ik/Right/btn_camera"), #pg.dorm3d_ik_status.get_id_list_by_camera_group[uv1.ikConfig.camera_group] > 1)
+			setActive(uv0.uiContainer:Find("ik/Right/btn_camera"), #pg.dorm3d_ik_status.get_id_list_by_camera_group[uv1.ikConfig.camera_group] > 1)
 			setActive(uv0.ikControlUI, true)
 			slot0()
 		end)
 
 		if slot0.uiState ~= "ik" then
-			table.insert(slot4, function (slot0)
+			table.insert(slot5, function (slot0)
 				uv0:SetUI(slot0, "ik")
 			end)
 		end
 
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			Shader.SetGlobalFloat("_ScreenClipOff", 0)
-			uv0:SetIKStatus(uv1, uv1.ikConfig, slot0)
+			uv0:SetIKStatus(uv1, uv1.ikConfig, slot0, uv2)
 		end)
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			uv0:emit(uv0.HIDE_BLOCK)
 			slot0()
 		end)
 	else
 		assert(slot0.uiState == "ik")
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			setActive(uv0.ikControlUI, false)
 			uv0:emit(uv0.SHOW_BLOCK)
 			Shader.SetGlobalFloat("_ScreenClipOff", 1)
 			slot0()
 		end)
-		table.insert(slot4, function (slot0)
-			uv0:ExitIKStatus(uv1, uv1.ikConfig, slot0)
+		table.insert(slot5, function (slot0)
+			uv0:ExitIKStatus(uv1, uv1.ikConfig, slot0, uv2)
 			uv0:ResetSceneItemAnimators()
 		end)
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			uv0:SetUI(slot0, "back")
 		end)
-		table.insert(slot4, function (slot0)
+		table.insert(slot5, function (slot0)
 			uv0:SetBlackboardValue(uv1, "inIK", false)
 			uv0:emit(uv0.HIDE_BLOCK)
 			slot0()
 		end)
 	end
 
-	seriesAsync(slot4, slot2)
+	seriesAsync(slot5, slot2)
 end
 
 slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
@@ -1550,6 +1492,11 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
 					slot0
 				})
 			end
+		end,
+		function (slot0)
+			return function (slot0)
+				uv0.stockingMgr:SetStockingStatus(uv1)
+			end
 		end
 	}, function ()
 		return function ()
@@ -1558,7 +1505,7 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
 end
 
 slot0.OnTriggerIK = function(slot0, slot1)
-	if slot0.ladyDict[slot0.apartment:GetConfigID()].ikTimelineMode then
+	if slot0:GetCurrentLadyEnv().ikTimelineMode then
 		slot0:ExitIKTimelineStatus(slot2)
 
 		if slot1:GetTimelineAction() then
@@ -1586,7 +1533,7 @@ slot0.OnTriggerIK = function(slot0, slot1)
 end
 
 slot0.OnTouchCharacterBody = function(slot0, slot1)
-	if not slot0.ladyDict[slot0.apartment:GetConfigID()].ikConfig then
+	if not slot0:GetCurrentLadyEnv().ikConfig then
 		return
 	end
 
@@ -1644,13 +1591,13 @@ slot0.UpdateTouchGameDisplay = function(slot0)
 	setActive(slot0.rtTouchGamePanel:Find("slider/icon/beating"), slot0.touchLevel == 2)
 
 	if slot0.touchLevel == 1 then
-		setActive(slot0.uiContianer:Find("ik/btn_back"), true)
-		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), false)
+		setActive(slot0.uiContainer:Find("ik/btn_back"), true)
+		setActive(slot0.uiContainer:Find("ik/btn_back_heartbeat"), false)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change_out")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
 	elseif slot0.touchLevel == 2 then
-		setActive(slot0.uiContianer:Find("ik/btn_back"), false)
-		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), true)
+		setActive(slot0.uiContainer:Find("ik/btn_back"), false)
+		setActive(slot0.uiContainer:Find("ik/btn_back_heartbeat"), true)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon_1")
 		pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_heartbeat")
@@ -1694,8 +1641,7 @@ slot0.UpdateTouchCount = function(slot0, slot1)
 				slot0.touchCount = 0
 			end
 
-			slot5 = slot0.apartment
-			slot4 = slot0.ladyDict[slot5:GetConfigID()]
+			slot4 = slot0:GetCurrentLadyEnv()
 
 			seriesAsync({
 				function (slot0)
@@ -1756,7 +1702,7 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 		slot0 = getmetatable(slot0).__index
 	end
 
-	if slot0.apartment and slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inTalking") then
+	if slot0.apartment and slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inTalking") then
 		errorMsg("Talking block:" .. slot1)
 
 		return
@@ -1772,7 +1718,7 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 		end
 	end
 
-	slot3 = slot0.ladyDict[slot0.apartment:GetConfigID()]
+	slot3 = slot0:GetCurrentLadyEnv()
 
 	if slot1 == 10010 and not slot0.apartment.talkDic[slot1] then
 		slot0.firstTimelineTouch = true
@@ -1816,7 +1762,7 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 		end)
 	end)
 	table.insert(slot4, function (slot0)
-		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDialog(uv0.apartment.configId, uv0.apartment.level, uv1, uv2.type, uv0.room:getZoneConfig(uv0.ladyDict[uv0.apartment:GetConfigID()].ladyBaseZone, "id"), uv2.action_type, table.CastToString(uv2.trigger_config), uv0.room:GetConfigID()))
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDialog(uv0.apartment.configId, uv0.apartment.level, uv1, uv2.type, uv0.room:getZoneConfig(uv0:GetCurrentLadyEnv().ladyBaseZone, "id"), uv2.action_type, table.CastToString(uv2.trigger_config), uv0.room:GetConfigID()))
 
 		if pg.NewGuideMgr.GetInstance():IsBusy() then
 			pg.NewGuideMgr.GetInstance():Pause()
@@ -2039,8 +1985,7 @@ slot0.ChangeCanWatchState = function(slot0, slot1)
 end
 
 slot0.HandleGameNotification = function(slot0, slot1, slot2)
-	slot4 = slot0.apartment
-	slot3 = slot0.ladyDict[slot4:GetConfigID()]
+	slot3 = slot0:GetCurrentLadyEnv()
 
 	switch(slot1, {
 		[Dorm3dMiniGameMediator.OPERATION] = function ()
@@ -2208,7 +2153,7 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			end,
 			function ()
 				return function (slot0)
-					uv0:PlaySingleAction(uv0.ladyDict[uv0.apartment:GetConfigID()], uv1.name, slot0)
+					uv0:PlaySingleAction(uv0:GetCurrentLadyEnv(), uv1.name, slot0)
 				end
 			end,
 			function ()
@@ -2277,9 +2222,9 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			end,
 			function ()
 				return function (slot0)
-					setActive(uv0.uiContianer:Find("walk/btn_back"), false)
+					setActive(uv0.uiContainer:Find("walk/btn_back"), false)
 
-					slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+					slot1 = uv0:GetCurrentLadyEnv()
 
 					if uv1.name == "change" then
 						slot1.walkBornPoint = uv1.params.point or "Default"
@@ -2300,8 +2245,8 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 							for slot6, slot7 in pairs(uv1.params) do
 								switch(slot6, {
 									back_button_trigger = function (slot0)
-										onButton(uv0, uv0.uiContianer:Find("walk/btn_back"), uv1, SFX_DORM_BACK)
-										setActive(uv0.uiContianer:Find("walk/btn_back"), IsUnityEditor and slot0)
+										onButton(uv0, uv0.uiContainer:Find("walk/btn_back"), uv1, SFX_DORM_BACK)
+										setActive(uv0.uiContainer:Find("walk/btn_back"), IsUnityEditor and slot0)
 									end,
 									near_trigger = function (slot0)
 										if slot0 == true then
@@ -2339,16 +2284,16 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			function ()
 				return function (slot0)
 					if uv0.name == "set" then
-						uv1:SwitchIKConfig(uv1.ladyDict[uv1.apartment:GetConfigID()], uv0.params.state)
-						setActive(uv1.uiContianer:Find("ik/btn_back"), not uv0.params.hide_back)
+						uv1:SwitchIKConfig(uv1:GetCurrentLadyEnv(), uv0.params.state)
+						setActive(uv1.uiContainer:Find("ik/btn_back"), not uv0.params.hide_back)
 
 						uv1.ikSpecialCall = slot0
 
 						uv1:SetIKState(true)
 					else
 						if uv0.name == "back" then
-							slot2 = uv1.apartment
-							uv1.ladyDict[slot2:GetConfigID()].ikConfig = uv0.params
+							slot1 = uv1
+							slot1:GetCurrentLadyEnv().ikConfig = uv0.params
 							slot2 = uv1
 
 							slot2:SetIKState(false, function ()
@@ -2383,6 +2328,17 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					end
 
 					uv0.blackSceneInfo = nil
+				end
+			end,
+			function ()
+				return function (slot0)
+					slot1 = uv0:GetCurrentLadyEnv()
+
+					if uv1.name == "set" then
+						uv0.stockingMgr:SetStockingStatus(uv1.params)
+					elseif uv1.name == "exit" then
+						uv0.stockingMgr:ExitStocking()
+					end
 				end
 			end
 		})
@@ -2431,14 +2387,14 @@ slot0.UpdateBtnState = function(slot0)
 	slot1 = not slot0.room:isPersonalRoom() or slot0:CheckSystemOpen("Furniture")
 	slot2 = Dorm3dFurniture.IsTimelimitShopTip(slot0.room:GetConfigID())
 
-	setActive(slot0.uiContianer:Find("base/left/btn_furniture/tipTimelimit"), slot1 and slot2)
-	setActive(slot0.uiContianer:Find("base/left/btn_furniture/tip"), slot1 and not slot2 and Dorm3dFurniture.NeedViewTip(slot0.room:GetConfigID()))
-	setActive(slot0.uiContianer:Find("base/btn_back/main"), underscore(getProxy(ApartmentProxy):getRawData()):chain():values():filter(function (slot0)
+	setActive(slot0.uiContainer:Find("base/left/btn_furniture/tipTimelimit"), slot1 and slot2)
+	setActive(slot0.uiContainer:Find("base/left/btn_furniture/tip"), slot1 and not slot2 and Dorm3dFurniture.NeedViewTip(slot0.room:GetConfigID()))
+	setActive(slot0.uiContainer:Find("base/btn_back/main"), underscore(getProxy(ApartmentProxy):getRawData()):chain():values():filter(function (slot0)
 		return tobool(slot0)
 	end):any(function (slot0)
 		return #slot0:getSpecialTalking() > 0 or slot0:getIconTip() == "main"
 	end):value())
-	setActive(slot0.uiContianer:Find("base/left/btn_collection/tip"), PlayerPrefs.GetInt("apartment_collection_item", 0) > 0 or PlayerPrefs.GetInt("apartment_collection_recall", 0) > 0)
+	setActive(slot0.uiContainer:Find("base/left/btn_collection/tip"), PlayerPrefs.GetInt("apartment_collection_item", 0) > 0 or PlayerPrefs.GetInt("apartment_collection_recall", 0) > 0)
 end
 
 slot0.AddUnlockDisplay = function(slot0, slot1)
@@ -2602,7 +2558,7 @@ slot0.PopFavorLevelUp = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.PopNewStoryTip = function(slot0, slot1, slot2)
-	slot3 = slot0.uiContianer:Find("base/top/story_tip")
+	slot3 = slot0.uiContainer:Find("base/top/story_tip")
 
 	setActive(slot3, true)
 	LeanTween.delayedCall(1, System.Action(function ()
@@ -2614,7 +2570,7 @@ end
 
 slot0.UpdateZoneList = function(slot0)
 	slot1 = nil
-	slot1 = (not slot0.room:isPersonalRoom() or slot0.ladyDict[slot0.apartment:GetConfigID()].ladyBaseZone) and slot0:GetAttachedFurnitureName()
+	slot1 = (not slot0.room:isPersonalRoom() or slot0:GetCurrentLadyEnv().ladyBaseZone) and slot0:GetAttachedFurnitureName()
 
 	for slot5, slot6 in ipairs(slot0.zoneDatas) do
 		if slot6:GetWatchCameraName() == slot1 then
@@ -2641,14 +2597,14 @@ slot0.TalkingEventHandle = function(slot0, slot1)
 
 				switch(uv0.type, {
 					action = function ()
-						uv0:PlaySingleAction(uv0.ladyDict[uv0.apartment:GetConfigID()], uv1.name, uv2)
+						uv0:PlaySingleAction(uv0:GetCurrentLadyEnv(), uv1.name, uv2)
 					end,
 					item_action = function ()
 						uv0:PlaySceneItemAnim(uv1.id, uv1.name)
 						uv2()
 					end,
 					extra_item_action = function ()
-						slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()].extraItems[uv1.name]
+						slot1 = uv0:GetCurrentLadyEnv().extraItems[uv1.name]
 
 						warning(uv1.name)
 						warning(slot1.trans)
@@ -2781,7 +2737,7 @@ slot0.didEnterCheck = function(slot0)
 end
 
 slot0.CheckGuide = function(slot0)
-	if slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inPending") then
+	if slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inPending") then
 		return
 	end
 
@@ -2883,7 +2839,7 @@ slot0.CheckEnterDeal = function(slot0)
 end
 
 slot0.CheckActiveTalk = function(slot0)
-	if slot0:GetBlackboardValue(slot0.ladyDict[slot0.apartment:GetConfigID()], "inPending") then
+	if slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inPending") then
 		return false
 	end
 
@@ -3003,9 +2959,7 @@ slot0.GetIKHandTF = function(slot0)
 end
 
 slot0.CycleIKCameraGroup = function(slot0)
-	slot2 = slot0.apartment
-
-	assert(slot0:GetBlackboardValue(slot0.ladyDict[slot2:GetConfigID()], "inIK"))
+	assert(slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inIK"))
 	seriesAsync({
 		function (slot0)
 			pg.IKMgr.GetInstance():ResetActiveIKs()

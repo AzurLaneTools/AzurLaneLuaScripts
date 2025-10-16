@@ -411,13 +411,13 @@ slot0.willExit = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.backBtn = slot0:findTF("BackBtn")
-	slot0.menuListTF = slot0:findTF("MenuList")
-	slot0.initARBtn = slot0:findTF("InitARBtn", slot0.menuListTF)
-	slot0.resetBtn = slot0:findTF("ResetBtn", slot0.menuListTF)
-	slot0.tipTextTF = slot0:findTF("TipText")
-	slot0.tipsLabel = slot0:findTF("tipsText", slot0.tipTextTF)
-	slot0.tipsText = slot0:findTF("tipsText/text", slot0.tipTextTF)
+	slot0.backBtn = slot0._tf:Find("BackBtn")
+	slot0.menuListTF = slot0._tf:Find("MenuList")
+	slot0.initARBtn = slot0.menuListTF:Find("InitARBtn")
+	slot0.resetBtn = slot0.menuListTF:Find("ResetBtn")
+	slot0.tipTextTF = slot0._tf:Find("TipText")
+	slot0.tipsLabel = slot0.tipTextTF:Find("tipsText")
+	slot0.tipsText = slot0.tipTextTF:Find("tipsText/text")
 
 	setActive(slot0.tipsLabel, false)
 
@@ -426,7 +426,7 @@ slot0.findUI = function(slot0)
 	setSizeDelta(slot0.fakeARCanvas, Vector2(Screen.width, Screen.height))
 
 	slot0.fakeARCamera = GameObject.Find("FakeAR/Main Camera"):GetComponent("Camera")
-	slot0.drag = slot0:findTF("drag")
+	slot0.drag = slot0._tf:Find("drag")
 	slot0.aiHelperSC = GetComponent(GameObject.Find("ARScriptHandle"), "ARHelper")
 	slot0.aiHelperSC.tplPrefab = GameObject.Find("Tpl")
 	slot0.tpl = GameObject.Find("Tpl").transform

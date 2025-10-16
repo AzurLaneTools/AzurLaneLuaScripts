@@ -37,51 +37,51 @@ slot0.getBGM = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.matchEffect = slot0:findTF("effects/sanxiaoxiaoshi")
-	slot0.goodEffect = slot0:findTF("effects/sanxiaoGood")
-	slot0.greatEffect = slot0:findTF("effects/sanxiaoGreat")
-	slot0.perfectEffect = slot0:findTF("effects/sanxiaoPerfect")
-	slot0.hintEffect = slot0:findTF("effects/hint")
-	slot0.selectedEffect = slot0:findTF("effects/selected")
-	slot0.whitenMat = slot0:findTF("effects/whiten"):GetComponent("Image").material
-	slot0.backBtn = slot0:findTF("button/back")
-	slot0.mainPage = slot0:findTF("main")
-	slot0.startBtn = slot0:findTF("main/start")
-	slot0.helpBtn = slot0:findTF("main/rule")
-	slot0.countdownPage = slot0:findTF("countdown")
-	slot0.countdownAnim = slot0:findTF("countdown")
-	slot0.gamePage = slot0:findTF("game")
-	slot0.gameMask = slot0:findTF("game/mask")
-	slot0.warning = slot0:findTF("game/warning")
-	slot0.countdownTf = slot0:findTF("game/countdown")
-	slot0.countdownText = slot0:findTF("game/countdown/Text")
-	slot0.inf = slot0:findTF("game/countdown/inf")
-	slot0.scoreText = slot0:findTF("game/score/Text")
-	slot0.floatText = slot0:findTF("game/floatText")
+	slot0.matchEffect = slot0._tf:Find("effects/sanxiaoxiaoshi")
+	slot0.goodEffect = slot0._tf:Find("effects/sanxiaoGood")
+	slot0.greatEffect = slot0._tf:Find("effects/sanxiaoGreat")
+	slot0.perfectEffect = slot0._tf:Find("effects/sanxiaoPerfect")
+	slot0.hintEffect = slot0._tf:Find("effects/hint")
+	slot0.selectedEffect = slot0._tf:Find("effects/selected")
+	slot0.whitenMat = slot0._tf:Find("effects/whiten"):GetComponent("Image").material
+	slot0.backBtn = slot0._tf:Find("button/back")
+	slot0.mainPage = slot0._tf:Find("main")
+	slot0.startBtn = slot0._tf:Find("main/start")
+	slot0.helpBtn = slot0._tf:Find("main/rule")
+	slot0.countdownPage = slot0._tf:Find("countdown")
+	slot0.countdownAnim = slot0._tf:Find("countdown")
+	slot0.gamePage = slot0._tf:Find("game")
+	slot0.gameMask = slot0._tf:Find("game/mask")
+	slot0.warning = slot0._tf:Find("game/warning")
+	slot0.countdownTf = slot0._tf:Find("game/countdown")
+	slot0.countdownText = slot0._tf:Find("game/countdown/Text")
+	slot0.inf = slot0._tf:Find("game/countdown/inf")
+	slot0.scoreText = slot0._tf:Find("game/score/Text")
+	slot0.floatText = slot0._tf:Find("game/floatText")
 	slot0.floatChar = {}
-	slot0.pausePage = slot0:findTF("game/pause")
-	slot0.pauseYes = slot0:findTF("game/pause/yes")
-	slot0.pauseNo = slot0:findTF("game/pause/no")
+	slot0.pausePage = slot0._tf:Find("game/pause")
+	slot0.pauseYes = slot0._tf:Find("game/pause/yes")
+	slot0.pauseNo = slot0._tf:Find("game/pause/no")
 
 	for slot4 = 0, 9 do
-		slot0.floatChar[slot4] = slot0:findTF("game/floatText/" .. slot4)
+		slot0.floatChar[slot4] = slot0._tf:Find("game/floatText/" .. slot4)
 	end
 
-	slot0.tilesRoot = slot0:findTF("game/tiles")
+	slot0.tilesRoot = slot0._tf:Find("game/tiles")
 	slot0.gameListener = slot0.tilesRoot:GetComponent("EventTriggerListener")
-	slot1 = slot0.tilesRoot
-	slot0.longPressListener = slot1:GetComponent("UILongPressTrigger")
-	slot0.endPage = slot0:findTF("end")
-	slot0.endBtn = slot0:findTF("end/end_btn")
-	slot0.endScore = slot0:findTF("end/score/Text")
-	slot0.newSign = slot0:findTF("end/score/Text/new")
-	slot0.bestScore = slot0:findTF("end/highest/Text")
+	slot0.longPressListener = slot0.tilesRoot:GetComponent("UILongPressTrigger")
+	slot0.endPage = slot0._tf:Find("end")
+	slot0.endBtn = slot0._tf:Find("end/end_btn")
+	slot0.endScore = slot0._tf:Find("end/score/Text")
+	slot0.newSign = slot0._tf:Find("end/score/Text/new")
+	slot1 = slot0._tf
+	slot0.bestScore = slot1:Find("end/highest/Text")
 	slot0.tiles = {
-		slot0:findTF("tiles/Akashi"),
-		slot0:findTF("tiles/Ayanami"),
-		slot0:findTF("tiles/Javelin"),
-		slot0:findTF("tiles/Laffey"),
-		slot0:findTF("tiles/Z23")
+		slot0._tf:Find("tiles/Akashi"),
+		slot0._tf:Find("tiles/Ayanami"),
+		slot0._tf:Find("tiles/Javelin"),
+		slot0._tf:Find("tiles/Laffey"),
+		slot0._tf:Find("tiles/Z23")
 	}
 end
 

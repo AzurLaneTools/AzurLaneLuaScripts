@@ -24,11 +24,11 @@ slot7 = 0.2
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.maskNode = slot0:findTF("mask", slot0.bg)
-	slot0.bgImgTf = slot0:findTF("bg_img", slot0.bg)
-	slot0.titleImgTf = slot0:findTF("title_img", slot0.bg)
-	slot0.role = slot0:findTF("role", slot0.maskNode)
-	slot0.title = slot0:findTF("title", slot0.maskNode)
+	slot0.maskNode = slot0.bg:Find("mask")
+	slot0.bgImgTf = slot0.bg:Find("bg_img")
+	slot0.titleImgTf = slot0.bg:Find("title_img")
+	slot0.role = slot0.maskNode:Find("role")
+	slot0.title = slot0.maskNode:Find("title")
 	slot0.spineAnim = GetComponent(slot0.role, "SpineAnimUI")
 end
 
@@ -154,7 +154,7 @@ slot0.SetBgImage = function(slot0, slot1, slot2, slot3)
 		LeanTween.alpha(findTF(slot0.titleImgTf, "img" .. slot7), slot10, slot2):setEase(LeanTweenType.easeOutQuad)
 
 		if slot2 > 0 and slot1 > 1 then
-			setActive(slot0:findTF(uv0[slot1 - 1], slot0.bg), true)
+			setActive(slot0.bg:Find(uv0[slot1 - 1]), true)
 
 			if slot3 then
 				LeanTween.delayedCall(1, System.Action(slot3))

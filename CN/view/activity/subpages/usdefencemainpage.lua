@@ -29,17 +29,17 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.awardTF = slot0:findTF("Item", slot0.bg)
-	slot0.activeTF = slot0:findTF("Active", slot0.awardTF)
-	slot0.finishedTF = slot0:findTF("Finished", slot0.awardTF)
-	slot0.achievedTF = slot0:findTF("Achieved", slot0.awardTF)
+	slot0.awardTF = slot0.bg:Find("Item")
+	slot0.activeTF = slot0.awardTF:Find("Active")
+	slot0.finishedTF = slot0.awardTF:Find("Finished")
+	slot0.achievedTF = slot0.awardTF:Find("Achieved")
 
 	setActive(slot0.activeTF, false)
 	setActive(slot0.finishedTF, false)
 	setActive(slot0.achievedTF, false)
 
-	slot0.achievementBtn = slot0:findTF("AchieveMentBtn", slot0.bg)
-	slot0.subViewContainer = slot0:findTF("SubViewContainer")
+	slot0.achievementBtn = slot0.bg:Find("AchieveMentBtn")
+	slot0.subViewContainer = slot0._tf:Find("SubViewContainer")
 end
 
 slot0.updateAwardBtn = function(slot0)

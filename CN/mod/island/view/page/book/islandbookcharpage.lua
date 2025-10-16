@@ -24,7 +24,13 @@ slot0.OnLoaded = function(slot0)
 	slot0.openAwardWinBtn = slot0.pointPanel:Find("award_btn")
 	slot0.pointSliderTF = slot0.pointPanel:Find("slider")
 	slot0.pointProgressTF = slot0.pointPanel:Find("slider/progress")
-	slot0.awardListBox = IslandBookAwardListBox.New(slot0._tf, slot0.event)
+	slot0.awardListBox = IslandBookAwardListBox.New(slot0._tf, slot0.event, setmetatable({
+		ShowMsgBox = function (slot0, slot1)
+			uv0:ShowMsgBox(slot1)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
 	slot0.starList = UIItemList.New(slot0.rightTF:Find("stars"), slot0.rightTF:Find("stars/tpl"))
 end
 

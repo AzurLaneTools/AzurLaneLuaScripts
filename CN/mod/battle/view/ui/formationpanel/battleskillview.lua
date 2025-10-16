@@ -48,8 +48,8 @@ slot2.InitBtns = function(slot0)
 	slot0._activeBtnList = {}
 	slot0._delayAnimaList = {}
 	slot0._fleetVO = slot0._mediator._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)
-	slot0._buttonContainer = slot0._ui:findTF("Weapon_button_container")
-	slot0._buttonRes = slot0._ui:findTF("Weapon_button_Resource")
+	slot0._buttonContainer = slot0._ui._tf:Find("Weapon_button_container")
+	slot0._buttonRes = slot0._ui._tf:Find("Weapon_button_Resource")
 
 	slot1 = function()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_emptyBlock"))
@@ -166,7 +166,7 @@ end
 slot2.generateCommonButton = function(slot0, slot1)
 	slot3 = nil
 	slot3 = (not uv0.Battle["BattleWeaponButton" .. uv0.Battle.BattleState.GetCombatSkinKey()] or uv0.Battle["BattleWeaponButton" .. slot2].New()) and uv0.Battle.BattleWeaponButton.New()
-	slot0._progressSkin = slot0._progressSkin or slot0._ui:findTF("Weapon_button_progress")
+	slot0._progressSkin = slot0._progressSkin or slot0._ui._tf:Find("Weapon_button_progress")
 	slot4 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
 	slot4.name = "Skill_" .. slot1
 
@@ -182,7 +182,7 @@ end
 
 slot2.generateSubmarineFuncButton = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleSubmarineFuncButton.New()
-	slot0._progressSkin = slot0._progressSkin or slot0._ui:findTF("Weapon_button_progress")
+	slot0._progressSkin = slot0._progressSkin or slot0._ui._tf:Find("Weapon_button_progress")
 
 	slot2:ConfigSkin(cloneTplTo(slot0._progressSkin, slot0._buttonContainer))
 	slot2:SwitchIcon(slot1)
@@ -194,7 +194,7 @@ end
 
 slot2.generateSubmarineButton = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleSubmarineButton.New()
-	slot0._disposableSkin = slot0._disposableSkin or slot0._ui:findTF("Weapon_button")
+	slot0._disposableSkin = slot0._disposableSkin or slot0._ui._tf:Find("Weapon_button")
 
 	slot2:ConfigSkin(cloneTplTo(slot0._disposableSkin, slot0._buttonContainer))
 	slot2:SwitchIcon(slot1)

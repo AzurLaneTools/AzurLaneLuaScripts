@@ -164,33 +164,32 @@ end
 
 slot0.init = function(slot0)
 	slot0.cgGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
-	slot0.backBtn = slot0:findTF("overlay/blur_panel/adapt/top/back_btn")
-	slot0.atlasBtn = slot0:findTF("overlay/bottom/bg/atlas")
-	slot0.prevBtn = slot0:findTF("overlay/bottom/bg/left_arr")
-	slot0.nextBtn = slot0:findTF("overlay/bottom/bg/right_arr")
-	slot0.live2dFilter = slot0:findTF("overlay/blur_panel/adapt/top/live2d")
+	slot0.backBtn = slot0._tf:Find("overlay/blur_panel/adapt/top/back_btn")
+	slot0.atlasBtn = slot0._tf:Find("overlay/bottom/bg/atlas")
+	slot0.prevBtn = slot0._tf:Find("overlay/bottom/bg/left_arr")
+	slot0.nextBtn = slot0._tf:Find("overlay/bottom/bg/right_arr")
+	slot0.live2dFilter = slot0._tf:Find("overlay/blur_panel/adapt/top/live2d")
 	slot0.live2dFilterSel = slot0.live2dFilter:Find("selected")
-	slot0.indexBtn = slot0:findTF("overlay/blur_panel/adapt/top/index_btn")
+	slot0.indexBtn = slot0._tf:Find("overlay/blur_panel/adapt/top/index_btn")
 	slot0.indexBtnSel = slot0.indexBtn:Find("sel")
-	slot0.inptuTr = slot0:findTF("overlay/blur_panel/adapt/top/search")
-	slot0.changeBtn = slot0:findTF("overlay/blur_panel/adapt/top/change_btn")
+	slot0.inptuTr = slot0._tf:Find("overlay/blur_panel/adapt/top/search")
+	slot0.changeBtn = slot0._tf:Find("overlay/blur_panel/adapt/top/change_btn")
 
 	setText(slot0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
 
-	slot0.couponTr = slot0:findTF("overlay/blur_panel/adapt/top/discount/coupon")
+	slot0.couponTr = slot0._tf:Find("overlay/blur_panel/adapt/top/discount/coupon")
 	slot0.couponSelTr = slot0.couponTr:Find("selected")
-	slot0.voucherTr = slot0:findTF("overlay/blur_panel/adapt/top/discount/voucher")
+	slot0.voucherTr = slot0._tf:Find("overlay/blur_panel/adapt/top/discount/voucher")
 	slot0.voucherSelTr = slot0.voucherTr:Find("selected")
-	slot0.rollingCircleRect = RollingCircleRect.New(slot0:findTF("overlay/left/mask/content/0"), slot0:findTF("overlay/left"))
+	slot0.rollingCircleRect = RollingCircleRect.New(slot0._tf:Find("overlay/left/mask/content/0"), slot0._tf:Find("overlay/left"))
 
 	slot0.rollingCircleRect:SetCallback(slot0, uv0.OnSelectSkinPage, uv0.OnConfirmSkinPage)
 
-	slot0.rollingCircleMaskTr = slot0:findTF("overlay/left")
+	slot0.rollingCircleMaskTr = slot0._tf:Find("overlay/left")
 	slot0.mainView = NewSkinShopMainView.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.title = slot0:findTF("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
-	slot0.titleEn = slot0:findTF("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
-	slot1 = slot0:findTF("overlay/bottom/scroll")
-	slot0.scrollrect = slot1:GetComponent("LScrollRect")
+	slot0.title = slot0._tf:Find("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
+	slot0.titleEn = slot0._tf:Find("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
+	slot0.scrollrect = slot0._tf:Find("overlay/bottom/scroll"):GetComponent("LScrollRect")
 	slot0.scrollrect.isNewLoadingMethod = true
 
 	slot0.scrollrect.onInitItem = function(slot0)
@@ -201,7 +200,8 @@ slot0.init = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	slot0.emptyTr = slot0:findTF("bgs/empty")
+	slot1 = slot0._tf
+	slot0.emptyTr = slot1:Find("bgs/empty")
 	slot0.defaultIndex = {
 		typeIndex = ShipIndexConst.TypeAll,
 		campIndex = ShipIndexConst.CampAll,

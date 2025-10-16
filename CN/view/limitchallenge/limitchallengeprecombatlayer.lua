@@ -22,69 +22,32 @@ end
 
 slot0.CommonInit = function(slot0)
 	slot0.eventTriggers = {}
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._costContainer = slot0:findTF("right/start/cost_container")
-	slot0._popup = slot0._costContainer:Find("popup")
-	slot0._costText = slot0._popup:Find("Text")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot0._autoToggle = slot0:findTF("auto_toggle")
-	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
-	slot0._fleetInfo = slot0._tf:Find("right/fleet_info")
-	slot0._fleetNameText = slot0._fleetInfo:Find("fleet_name/Text")
-	slot0._fleetNumText = slot0._fleetInfo:Find("fleet_number")
 
 	setActive(slot0._fleetInfo, true)
 
-	slot1 = slot0:findTF("middle")
-	slot0._mainGS = slot1:Find("gear_score/main/Text")
-	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
-	slot0._subGS = slot1:Find("gear_score/submarine/Text")
-	slot0._bgFleet = slot1:Find("mask/grid_bg")
-	slot0._bgSub = slot1:Find("mask/bg_sub")
 	slot0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	slot0._gridFrame = slot1:Find("mask/GridFrame")
 
-	for slot5 = 1, 3 do
-		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
-		slot0._gridTFs[TeamType.Vanguard][slot5] = slot0._gridFrame:Find("vanguard_" .. slot5)
-		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
+	for slot4 = 1, 3 do
+		slot0._gridTFs[TeamType.Main][slot4] = slot0._gridFrame:Find("main_" .. slot4)
+		slot0._gridTFs[TeamType.Vanguard][slot4] = slot0._gridFrame:Find("vanguard_" .. slot4)
+		slot0._gridTFs[TeamType.Submarine][slot4] = slot0._gridFrame:Find("submarine_" .. slot4)
 	end
 
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
-	slot0._heroContainer = slot1:Find("HeroContainer")
-	slot0._blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
-	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
-	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
-	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
-
 	SetActive(slot0._item, false)
-
-	slot0._goals = slot0:findTF("right/infomation/target/goal")
-	slot0._heroInfo = slot0:getTpl("heroInfo")
-	slot0._starTpl = slot0:getTpl("star_tpl")
-
-	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	SetActive(slot0._heroInfo, false)
+	SetActive(slot0._starTpl, false)
+	setText(slot0._gearScore:Find("vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(slot0._gearScore:Find("main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(slot0._gearScore:Find("submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 	setText(slot0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(slot0._infomation:Find("target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(slot0._infomation:Find("atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
-
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
-	slot0._bottom = slot0:findTF("bottom")
-	slot0.btnRegular = slot0:findTF("fleet_select/regular", slot0._bottom)
-	slot0.btnSub = slot0:findTF("fleet_select/sub", slot0._bottom)
-
 	setText(slot0.btnRegular:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
 	setText(slot0.btnSub:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
 	setAnchoredPosition(slot0._middle, {
@@ -418,10 +381,7 @@ slot0.didEnter = function(slot0)
 			uv0:closeView()
 		end))
 	end, SFX_CANCEL)
-
-	slot4 = slot0._tf
-
-	onButton(slot0, slot4:Find("blur_panel/top/option"), function ()
+	onButton(slot0, slot0._option, function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
@@ -452,16 +412,10 @@ slot0.didEnter = function(slot0)
 			toggle = uv0._autoSubToggle
 		})
 	end, SFX_PANEL, SFX_PANEL)
-
-	slot4 = slot0._tf
-
-	onButton(slot0, slot4:Find("bottom/fleet_select/regular"), function ()
+	onButton(slot0, slot0.btnRegular, function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_FLEET_ID)
 	end, SFX_PANEL)
-
-	slot4 = slot0._tf
-
-	onButton(slot0, slot4:Find("bottom/fleet_select/sub"), function ()
+	onButton(slot0, slot0.btnSub, function ()
 		uv0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_SUB_FLEET_ID)
 	end, SFX_PANEL)
 

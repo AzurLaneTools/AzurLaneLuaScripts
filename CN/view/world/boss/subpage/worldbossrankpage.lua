@@ -5,19 +5,19 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.numberTF1 = slot0:findTF("frame/list/number1")
+	slot0.numberTF1 = slot0._tf:Find("frame/list/number1")
 
 	setActive(slot0.numberTF1, false)
 
-	slot0.numberTF2 = slot0:findTF("frame/list/number2")
+	slot0.numberTF2 = slot0._tf:Find("frame/list/number2")
 
 	setActive(slot0.numberTF2, false)
 
-	slot0.numberTF3 = slot0:findTF("frame/list/number3")
+	slot0.numberTF3 = slot0._tf:Find("frame/list/number3")
 
 	setActive(slot0.numberTF3, false)
 
-	slot0.numberTF4 = slot0:findTF("frame/list/number4")
+	slot0.numberTF4 = slot0._tf:Find("frame/list/number4")
 
 	setActive(slot0.numberTF4, false)
 end

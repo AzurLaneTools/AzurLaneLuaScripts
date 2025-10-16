@@ -26,10 +26,15 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("BG"), function ()
 		uv0:HideCompositeConfirmWindow()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("Window/Cancel"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Window/Cancel"), function ()
 		uv0:HideCompositeConfirmWindow()
 	end, SFX_CANCEL)
 end
@@ -55,7 +60,7 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 		uv1[slot1] = (uv1[slot1] or 0) + 1
 	end)
-	onButton(slot0, slot0:findTF("Window/Confirm"), function ()
+	onButton(slot0, slot0._tf:Find("Window/Confirm"), function ()
 		uv0._parentClass:emit(GAME.COMPOSITE_ATELIER_RECIPE, uv1, uv2)
 		uv0._parentClass:PlaySoundEffect(uv0._parentClass.soundStr.compositeConfirm)
 	end, SFX_PANEL)
@@ -77,21 +82,23 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 		id = slot5:GetProduction()[2]
 	})
 
-	slot0._parentClass:UpdateRyzaDrop(slot0:findTF("Window/Icon"), slot11)
+	slot0._parentClass:UpdateRyzaDrop(slot0._tf:Find("Window/Icon"), slot11)
 
 	slot13 = slot11:getConfig("name")
 
-	setActive(slot0:findTF("Window/Counters"), slot6)
+	setActive(slot0._tf:Find("Window/Counters"), slot6)
 
 	if slot6 then
-		setAnchoredPosition(slot0:findTF("Window/Icon"), {
+		slot15 = slot0._tf
+
+		setAnchoredPosition(slot15:Find("Window/Icon"), {
 			y = uv0
 		})
 		(function ()
-			setText(uv0:findTF("Number", uv1), uv2)
-			setText(uv0:findTF("Window/Text"), i18n("ryza_composite_confirm", uv3, uv2))
+			setText(uv0:Find("Number"), uv1)
+			setText(uv2._tf:Find("Window/Text"), i18n("ryza_composite_confirm", uv3, uv1))
 		end)()
-		onButton(slot0, slot0:findTF("Plus", slot12), function ()
+		onButton(slot0, slot12:Find("Plus"), function ()
 			uv0 = uv0 + 1
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -103,13 +110,13 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Minus", slot12), function ()
+		onButton(slot0, slot12:Find("Minus"), function ()
 			uv0 = uv0 - 1
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Plus10", slot12), function ()
+		onButton(slot0, slot12:Find("Plus10"), function ()
 			uv0 = uv0 + 10
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -121,7 +128,7 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Minus10", slot12), function ()
+		onButton(slot0, slot12:Find("Minus10"), function ()
 			uv0 = uv0 - 10
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -131,10 +138,10 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 		return
 	end
 
-	setAnchoredPosition(slot0:findTF("Window/Icon"), {
+	setAnchoredPosition(slot0._tf:Find("Window/Icon"), {
 		y = uv1
 	})
-	setText(slot0:findTF("Window/Text"), i18n("ryza_composite_confirm_single", slot13, slot2))
+	setText(slot0._tf:Find("Window/Text"), i18n("ryza_composite_confirm_single", slot13, slot2))
 end
 
 slot0.HideCompositeConfirmWindow = function(slot0)

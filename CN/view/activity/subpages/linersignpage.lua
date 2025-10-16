@@ -2,29 +2,29 @@ slot0 = class("LinerSignPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
 	slot0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
-	slot0.bg = slot0:findTF("AD")
-	slot0.signTF = slot0:findTF("sign", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.signTF)
-	slot0.uilist = UIItemList.New(slot0.items, slot0:findTF("tpl", slot0.items))
-	slot0.signBtn = slot0:findTF("get", slot0.signTF)
-	slot0.signGreyBtn = slot0:findTF("get_grey", slot0.signTF)
-	slot0.countText = slot0:findTF("count_bg/count", slot0.signTF)
-	slot0.namedTF = slot0:findTF("named", slot0.bg)
-	slot0.nameInput = slot0:findTF("input/nickname", slot0.namedTF)
-	slot0.sureBtn = slot0:findTF("sure", slot0.namedTF)
-	slot0.linerTF = slot0:findTF("liner", slot0.bg)
-	slot0.linerInput = slot0:findTF("name/input", slot0.linerTF)
-	slot0.linerBtn = slot0:findTF("go", slot0.linerTF)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.signTF = slot0.bg:Find("sign")
+	slot0.items = slot0.signTF:Find("items")
+	slot0.uilist = UIItemList.New(slot0.items, slot0.items:Find("tpl"))
+	slot0.signBtn = slot0.signTF:Find("get")
+	slot0.signGreyBtn = slot0.signTF:Find("get_grey")
+	slot0.countText = slot0.signTF:Find("count_bg/count")
+	slot0.namedTF = slot0.bg:Find("named")
+	slot0.nameInput = slot0.namedTF:Find("input/nickname")
+	slot0.sureBtn = slot0.namedTF:Find("sure")
+	slot0.linerTF = slot0.bg:Find("liner")
+	slot0.linerInput = slot0.linerTF:Find("name/input")
+	slot0.linerBtn = slot0.linerTF:Find("go")
 
-	setText(slot0:findTF("lock/Text", slot0.linerBtn), i18n("liner_sign_unlock_tip"))
+	setText(slot0.linerBtn:Find("lock/Text"), i18n("liner_sign_unlock_tip"))
 
 	slot0.nameInput:GetComponent(typeof(InputField)).interactable = not slot0.lockNamed
 
-	setActive(slot0:findTF("input/pan", slot0.namedTF), not slot0.lockNamed)
+	setActive(slot0.namedTF:Find("input/pan"), not slot0.lockNamed)
 
 	slot0.linerInput:GetComponent(typeof(InputField)).interactable = not slot0.lockNamed
 
-	setActive(slot0:findTF("name/edit", slot0.linerTF), not slot0.lockNamed)
+	setActive(slot0.linerTF:Find("name/edit"), not slot0.lockNamed)
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -44,11 +44,11 @@ slot0.OnFirstFlush = function(slot0)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
 
-			updateDrop(uv0:findTF("item_mask/item", slot2), Drop.Create(uv0.taskConfig[uv0.taskGroup[slot3]].award_display[1]))
+			updateDrop(slot2:Find("item_mask/item"), Drop.Create(uv0.taskConfig[uv0.taskGroup[slot3]].award_display[1]))
 			onButton(uv0, slot2, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
-			GetImageSpriteFromAtlasAsync("ui/activityuipage/linersignpage_atlas", "D" .. slot3, uv0:findTF("day", slot2), true)
+			GetImageSpriteFromAtlasAsync("ui/activityuipage/linersignpage_atlas", "D" .. slot3, slot2:Find("day"), true)
 
 			return
 		end
@@ -56,8 +56,8 @@ slot0.OnFirstFlush = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot5 = uv0.taskProxy:getTaskById(uv0.taskGroup[slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot4)
 
-			setActive(uv0:findTF("cur", slot2), slot3 == uv0.nday)
-			setActive(uv0:findTF("got", slot2), slot3 < uv0.nday or slot5 and slot5:getTaskStatus() == 2)
+			setActive(slot2:Find("cur"), slot3 == uv0.nday)
+			setActive(slot2:Find("got"), slot3 < uv0.nday or slot5 and slot5:getTaskStatus() == 2)
 		end
 	end)
 	onButton(slot0, slot0.signBtn, function ()
@@ -165,7 +165,7 @@ slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.signTF, not slot1)
 	setActive(slot0.namedTF, slot1 and not slot0:IsNamed())
 	setActive(slot0.linerTF, slot1 and slot0:IsNamed())
-	setActive(slot0:findTF("lock", slot0.linerBtn), slot0:IsLockLiner())
+	setActive(slot0.linerBtn:Find("lock"), slot0:IsLockLiner())
 
 	if not slot1 then
 		slot0.curTaskVO = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday]) or slot0.taskProxy:getFinishTaskById(slot2)

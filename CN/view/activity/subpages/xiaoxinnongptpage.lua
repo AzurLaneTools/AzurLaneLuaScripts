@@ -3,7 +3,7 @@ slot0 = class("XiaoXinNongPtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.hearts = UIItemList.New(slot0:findTF("AD/heart"), slot0:findTF("AD/heart/mark"))
+	slot0.hearts = UIItemList.New(slot0._tf:Find("AD/heart"), slot0._tf:Find("AD/heart/mark"))
 end
 
 slot0.OnFirstFlush = function(slot0)

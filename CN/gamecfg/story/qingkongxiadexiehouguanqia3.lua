@@ -545,7 +545,7 @@ return {
 			actor = 112010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关岛，听说你有重要的是要商量……？",
+			say = "关岛，听说你有重要的事要商量……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4829,32 +4829,32 @@ pg.expedition_activity_template = {
 	[1742013] = {
 		id = 1742013,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1742113] = {
 		id = 1742113,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1742213] = {
 		id = 1742213,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1743013] = {
 		id = 1743013,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1743113] = {
 		id = 1743113,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1743213] = {
 		id = 1743213,
 		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 1
 	},
 	[1744013] = {
 		id = 1744013,

@@ -183,6 +183,8 @@ slot0.InitCharacter = function(slot0, slot1)
 	slot0.transparencyComp.player = slot0:Get("player")
 	slot0.transparencyComp.minDistance = DormConst.TRANSPARENCY_MIN_DISTANCE
 	slot0.transparencyComp.maxDistance = DormConst.TRANSPARENCY_MAX_DISTANCE
+
+	slot0:Emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "InitDormStocking", slot0, slot0.skinId)
 end
 
 slot0.SetZone = function(slot0, slot1, slot2)
@@ -468,6 +470,14 @@ end
 
 slot0.BlockCanWatch = function(slot0, slot1)
 	slot0.blockCanWatch = slot1
+end
+
+slot0.SetPosition = function(slot0, slot1)
+	slot0.lady.position = slot1
+end
+
+slot0.SetRotation = function(slot0, slot1)
+	slot0.lady.rotation = slot1
 end
 
 return slot0

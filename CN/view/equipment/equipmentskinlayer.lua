@@ -13,14 +13,14 @@ end
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
-	slot0.displayPanel = slot0:findTF("display")
+	slot0.displayPanel = slot0._tf:Find("display")
 
 	setActive(slot0.displayPanel, false)
 
 	slot0.displayActions = slot0.displayPanel:Find("actions")
-	slot0.skinViewOnShipTF = slot0:findTF("replace/equipment_on_ship")
-	slot0.skinViewTF = slot0:findTF("replace/equipment")
-	slot0.replacePanel = slot0:findTF("replace")
+	slot0.skinViewOnShipTF = slot0._tf:Find("replace/equipment_on_ship")
+	slot0.skinViewTF = slot0._tf:Find("replace/equipment")
+	slot0.replacePanel = slot0._tf:Find("replace")
 
 	setActive(slot0.replacePanel, false)
 end
@@ -32,10 +32,10 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("display/top/btnBack"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("actions/cancel_button", slot0.replacePanel), function ()
+	onButton(slot0, slot0.replacePanel:Find("actions/cancel_button"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("actions/action_button_2", slot0.replacePanel), function ()
+	onButton(slot0, slot0.replacePanel:Find("actions/action_button_2"), function ()
 		if not uv0.contextData.oldShipInfo then
 			uv0:emit(EquipmentSkinMediator.ON_EQUIP)
 		else
@@ -103,9 +103,9 @@ end
 
 slot0.updateSkinView = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2 ~= 0
-	slot6 = slot0:findTF("info", slot1)
+	slot6 = slot1:Find("info")
 
-	if slot0:findTF("empty", slot1) then
+	if slot1:Find("empty") then
 		setActive(slot5, not slot4)
 	end
 
@@ -118,25 +118,25 @@ slot0.updateSkinView = function(slot0, slot1, slot2, slot3)
 
 		assert(slot7, "miss config equip_skin_template >> " .. slot2)
 
-		slot0:findTF("info/display_panel/name_container/name", slot1):GetComponent(typeof(Text)).text = slot7.name
-		slot0:findTF("info/display_panel/desc", slot1):GetComponent(typeof(Text)).text = slot7.desc
+		slot1:Find("info/display_panel/name_container/name"):GetComponent(typeof(Text)).text = slot7.name
+		slot1:Find("info/display_panel/desc"):GetComponent(typeof(Text)).text = slot7.desc
 
-		setScrollText(slot0:findTF("info/display_panel/equip_type/mask/Text", slot1), table.concat(_.map(slot7.equip_type, function (slot0)
+		setScrollText(slot1:Find("info/display_panel/equip_type/mask/Text"), table.concat(_.map(slot7.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 
-		slot11 = slot0:findTF("info/play_btn", slot1)
+		slot11 = slot1:Find("info/play_btn")
 
 		setActive(slot11, true)
 		onButton(slot0, slot11, function ()
 			uv0:emit(EquipmentSkinMediator.ON_PREVIEW, uv1)
 		end, SFX_PANEL)
-		updateDrop(slot0:findTF("info/equip", slot1), Drop.New({
+		updateDrop(slot1:Find("info/equip"), Drop.New({
 			type = DROP_TYPE_EQUIPMENT_SKIN,
 			id = slot2
 		}))
 
-		if slot0:findTF("info/head", slot1) then
+		if slot1:Find("info/head") then
 			setActive(slot12, slot3)
 
 			if slot3 then

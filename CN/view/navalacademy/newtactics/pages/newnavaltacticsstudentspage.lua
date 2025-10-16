@@ -20,16 +20,16 @@ slot0.OnExitStudent = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.helpBtn = slot0:findTF("help_btn")
+	slot0.helpBtn = slot0._tf:Find("help_btn")
 	slot0.cards = {
 		{},
 		{},
 		{}
 	}
 
-	table.insert(slot0.cards[uv0], NewNavalTacticsShipCard.New(slot0:findTF("info"), slot0.event))
-	table.insert(slot0.cards[uv1], NewNavalTacticsEmptyCard.New(slot0:findTF("add"), slot0.event))
-	table.insert(slot0.cards[uv2], NewNavalTacticsLockCard.New(slot0:findTF("lock"), slot0.event))
+	table.insert(slot0.cards[uv0], NewNavalTacticsShipCard.New(slot0._tf:Find("info"), slot0.event))
+	table.insert(slot0.cards[uv1], NewNavalTacticsEmptyCard.New(slot0._tf:Find("add"), slot0.event))
+	table.insert(slot0.cards[uv2], NewNavalTacticsLockCard.New(slot0._tf:Find("lock"), slot0.event))
 end
 
 slot0.OnInit = function(slot0)

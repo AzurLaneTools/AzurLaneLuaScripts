@@ -7,6 +7,10 @@ slot0.getUIName = function(slot0)
 	return "InstagramChatUI"
 end
 
+slot0.getGroupName = function(slot0)
+	return "InstagramMainUI"
+end
+
 slot0.ReadType = {
 	"all",
 	"hasReaded",
@@ -49,42 +53,43 @@ slot0.CampNames = {
 }
 
 slot0.init = function(slot0)
-	slot0.leftPanel = slot0:findTF("main/leftPanel")
-	slot0.filterBtn = slot0:findTF("leftTop/filter", slot0.leftPanel)
-	slot0.isFiltered = slot0:findTF("isFiltered", slot0.filterBtn)
-	slot0.charaList = UIItemList.New(slot0:findTF("charaScroll/Viewport/Content", slot0.leftPanel), slot0:findTF("charaScroll/Viewport/Content/charaMsg", slot0.leftPanel))
-	slot0.rightPanel = slot0:findTF("main/rightPanel")
-	slot0.characterName = slot0:findTF("rightTop/name", slot0.rightPanel)
-	slot0.careBtn = slot0:findTF("rightTop/careBtn", slot0.rightPanel)
-	slot0.topicBtn = slot0:findTF("rightTop/topicBtn", slot0.rightPanel)
-	slot0.backgroundBtn = slot0:findTF("rightTop/backgroundBtn", slot0.rightPanel)
-	slot0.messageList = UIItemList.New(slot0:findTF("messageScroll/Viewport/Content", slot0.rightPanel), slot0:findTF("messageScroll/Viewport/Content/messageCard", slot0.rightPanel))
-	slot0.optionPanel = slot0:findTF("optionPanel", slot0.rightPanel)
-	slot0.optionList = UIItemList.New(slot0.optionPanel, slot0:findTF("option", slot0.optionPanel))
-	slot0.filterUI = slot0:findTF("subPages/InstagramFilterUI")
-	slot0.topicUI = slot0:findTF("subPages/InstagramTopicUI")
-	slot0.backgroundUI = slot0:findTF("subPages/InstagramBackgroundUI")
-	slot0.redPacketUI = slot0:findTF("subPages/InstagramRedPacketUI")
+	slot0.leftPanel = slot0._tf:Find("main/leftPanel")
+	slot0.filterBtn = slot0.leftPanel:Find("leftTop/filter")
+	slot0.isFiltered = slot0.filterBtn:Find("isFiltered")
+	slot0.charaScrollrect = slot0.leftPanel:Find("charaScroll"):GetComponent("LScrollRect")
+	slot0.charaScrollContent = slot0.leftPanel:Find("charaScroll/Viewport/Content")
+	slot0.rightPanel = slot0._tf:Find("main/rightPanel")
+	slot0.characterName = slot0.rightPanel:Find("rightTop/name")
+	slot0.careBtn = slot0.rightPanel:Find("rightTop/careBtn")
+	slot0.topicBtn = slot0.rightPanel:Find("rightTop/topicBtn")
+	slot0.backgroundBtn = slot0.rightPanel:Find("rightTop/backgroundBtn")
+	slot0.messageList = UIItemList.New(slot0.rightPanel:Find("messageScroll/Viewport/Content"), slot0.rightPanel:Find("messageScroll/Viewport/Content/messageCard"))
+	slot0.optionPanel = slot0.rightPanel:Find("optionPanel")
+	slot0.optionList = UIItemList.New(slot0.optionPanel, slot0.optionPanel:Find("option"))
+	slot0.filterUI = slot0._tf:Find("subPages/InstagramFilterUI")
+	slot0.topicUI = slot0._tf:Find("subPages/InstagramTopicUI")
+	slot0.backgroundUI = slot0._tf:Find("subPages/InstagramBackgroundUI")
+	slot0.redPacketUI = slot0._tf:Find("subPages/InstagramRedPacketUI")
 
-	setText(slot0:findTF("Text", slot0.filterBtn), i18n("juuschat_filter_title"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/read/subTitleFrame/subTitle", slot0.filterUI), i18n("juuschat_filter_subtitle1"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle", slot0.filterUI), i18n("juuschat_filter_subtitle2"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/subTitleFrame/subTitle", slot0.filterUI), i18n("juuschat_filter_subtitle3"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/read/option/Text", slot0.filterUI), i18n("juuschat_filter_tip1"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/read/option_1/Text", slot0.filterUI), i18n("juuschat_filter_tip2"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/read/option_2/Text", slot0.filterUI), i18n("juuschat_filter_tip3"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/type/option/Text", slot0.filterUI), i18n("juuschat_filter_tip1"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/type/option_1/Text", slot0.filterUI), i18n("juuschat_filter_tip4"))
-	setText(slot0:findTF("panel/filterScroll/Viewport/Content/type/option_2/Text", slot0.filterUI), i18n("juuschat_filter_tip5"))
-	setText(slot0:findTF("panel/topicScroll/Viewport/Content/topic/waiting", slot0.topicUI), i18n("juuschat_chattip3"))
-	setText(slot0:findTF("panel/topicScroll/Viewport/Content/topic/selected/Text", slot0.topicUI), i18n("juuschat_label2"))
-	setText(slot0:findTF("panel/backgroundScroll/Viewport/Content/background/selected/Text", slot0.backgroundUI), i18n("juuschat_label1"))
-	setText(slot0:findTF("panel/got/detailBtn/Text", slot0.redPacketUI), i18n("juuschat_redpacket_show_detail"))
-	setText(slot0:findTF("panel/detail/title", slot0.redPacketUI), i18n("juuschat_redpacket_detail"))
-	setText(slot0:findTF("main/noFilteredMessageBg/Text"), i18n("juuschat_filter_empty"))
-	setText(slot0:findTF("panel/backgroundScroll/Viewport/Content/background/lockFrame/Text", slot0.backgroundUI), i18n("juuschat_background_tip1"))
+	setText(slot0.filterBtn:Find("Text"), i18n("juuschat_filter_title"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/read/subTitleFrame/subTitle"), i18n("juuschat_filter_subtitle1"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("juuschat_filter_subtitle2"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/subTitleFrame/subTitle"), i18n("juuschat_filter_subtitle3"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/read/option/Text"), i18n("juuschat_filter_tip1"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/read/option_1/Text"), i18n("juuschat_filter_tip2"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/read/option_2/Text"), i18n("juuschat_filter_tip3"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/option/Text"), i18n("juuschat_filter_tip1"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/option_1/Text"), i18n("juuschat_filter_tip4"))
+	setText(slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type/option_2/Text"), i18n("juuschat_filter_tip5"))
+	setText(slot0.topicUI:Find("panel/topicScroll/Viewport/Content/topic/waiting"), i18n("juuschat_chattip3"))
+	setText(slot0.topicUI:Find("panel/topicScroll/Viewport/Content/topic/selected/Text"), i18n("juuschat_label2"))
+	setText(slot0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content/background/selected/Text"), i18n("juuschat_label1"))
+	setText(slot0.redPacketUI:Find("panel/got/detailBtn/Text"), i18n("juuschat_redpacket_show_detail"))
+	setText(slot0.redPacketUI:Find("panel/detail/title"), i18n("juuschat_redpacket_detail"))
+	setText(slot0._tf:Find("main/noFilteredMessageBg/Text"), i18n("juuschat_filter_empty"))
+	setText(slot0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content/background/lockFrame/Text"), i18n("juuschat_background_tip1"))
 
-	slot0.redPacketGot = slot0:findTF("panel/got", slot0.redPacketUI)
+	slot0.redPacketGot = slot0.redPacketUI:Find("panel/got")
 
 	slot0:OverlayPanel(slot0._tf)
 	SetActive(slot0.filterUI, false)
@@ -96,103 +101,118 @@ slot0.init = function(slot0)
 
 	slot0.timerList = {}
 	slot0.canFresh = false
-	slot1 = slot0:findTF("messageScroll/Scrollbar Vertical", slot0.rightPanel):GetComponent(typeof(RectTransform))
+	slot1 = slot0.rightPanel:Find("messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
 	slot0.messageScrollWidth = slot1.rect.width
 	slot0.messageScrollHeight = slot1.rect.height
 
-	slot0:findTF("panel/title", slot0.filterUI):GetComponent(typeof(Image)):SetNativeSize()
-	slot0:findTF("panel/title", slot0.topicUI):GetComponent(typeof(Image)):SetNativeSize()
-	slot0:findTF("panel/title", slot0.backgroundUI):GetComponent(typeof(Image)):SetNativeSize()
+	slot0.filterUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
+	slot0.topicUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
+	slot0.backgroundUI:Find("panel/title"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 slot0.didEnter = function(slot0)
 	slot0:SetData()
+
+	slot0.charaScrollrect.onInitItem = function(slot0)
+		uv0:OnInitItem(slot0)
+	end
+
+	slot0.charaScrollrect.onUpdateItem = function(slot0, slot1)
+		uv0:OnUpdateItem(slot0, slot1)
+	end
+
 	slot0:UpdateCharaList(false, false)
 	slot0:SetFilterPanel()
+end
+
+slot0.OnInitItem = function(slot0, slot1)
+end
+
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
+	slot3 = slot0.chatList[slot1 + 1]
+	slot4 = tf(slot2)
+
+	setActive(slot4, true)
+	setImageSprite(slot4:Find("charaBg/chara"), LoadSprite("qicon/" .. slot3.sculpture), false)
+	setText(slot4:Find("name"), slot3.name)
+
+	slot5 = slot3:GetDisplayWord()
+
+	if not slot0.currentChat or slot0.currentChat.characterId ~= slot3.characterId or not slot0.isSlowMsg then
+		setText(slot4:Find("msg"), slot5)
+	end
+
+	setText(slot4:Find("displayWord"), slot5)
+	SetActive(slot4:Find("care"), slot3.care == 1)
+
+	if slot3.care == 1 and slot0.careAniTriggerId and slot0.careAniTriggerId == slot3.characterId then
+		slot0.careAniTriggerId = nil
+
+		slot4:Find("care"):GetComponent(typeof(Animation)):Play("anim_newinstagram_care")
+	end
+
+	if slot0.currentChat then
+		SetActive(slot4:Find("frame"), slot0.currentChat == slot3)
+	end
+
+	SetActive(slot4:Find("tip"), slot3:GetCharacterEndFlag() == 0)
+	setText(slot4:Find("id"), slot3.characterId)
+	onButton(slot0, slot4, function ()
+		if uv0.currentChat and uv0.currentChat.characterId ~= uv1.characterId then
+			uv0:ResetCharaTextFunc(uv0.currentChat.characterId)
+		end
+
+		uv0.currentChat = uv1
+
+		SetActive(uv0.rightPanel, true)
+		SetActive(uv0._tf:Find("main/rightNoMessageBg"), false)
+
+		slot3 = false
+
+		uv0:UpdateChatContent(uv1, slot3, false)
+		uv0:SetTopicPanel(uv1)
+		uv0:SetBackgroundPanel(uv1)
+
+		for slot3 = 0, uv0.charaScrollContent.childCount - 1 do
+			SetActive(uv0.charaScrollContent:GetChild(slot3):Find("frame"), false)
+		end
+
+		SetActive(uv2:Find("frame"), true)
+
+		uv0.cancelFrame = function()
+			if not IsNil(uv0) then
+				SetActive(uv0:Find("frame"), false)
+			end
+		end
+
+		slot0 = uv0.rightPanel:GetComponent(typeof(Animation))
+
+		slot0:Stop()
+		slot0:Play("anim_newinstagram_chat_right_in")
+	end, SFX_PANEL)
 end
 
 slot0.UpdateCharaList = function(slot0, slot1, slot2)
 	if not slot0.chatList or #slot0.chatList == 0 then
 		SetActive(slot0.leftPanel, false)
 		SetActive(slot0.rightPanel, false)
-		SetActive(slot0:findTF("main/noMessageBg"), true)
-		SetActive(slot0:findTF("main/noFilteredMessageBg"), false)
-		SetActive(slot0:findTF("main/rightNoMessageBg"), false)
+		SetActive(slot0._tf:Find("main/noMessageBg"), true)
+		SetActive(slot0._tf:Find("main/noFilteredMessageBg"), false)
+		SetActive(slot0._tf:Find("main/rightNoMessageBg"), false)
 
 		return
 	end
 
 	if not slot0.currentChat then
 		SetActive(slot0.rightPanel, false)
-		SetActive(slot0:findTF("main/rightNoMessageBg"), true)
+		SetActive(slot0._tf:Find("main/rightNoMessageBg"), true)
 	else
 		SetActive(slot0.rightPanel, true)
-		SetActive(slot0:findTF("main/rightNoMessageBg"), false)
+		SetActive(slot0._tf:Find("main/rightNoMessageBg"), false)
 	end
 
-	slot0.charaList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.chatList[slot1 + 1]
+	slot0.isSlowMsg = slot1
 
-			setImageSprite(slot2:Find("charaBg/chara"), LoadSprite("qicon/" .. slot3.sculpture), false)
-			setText(slot2:Find("name"), slot3.name)
-
-			slot4 = slot3:GetDisplayWord()
-
-			if not uv0.currentChat or uv0.currentChat.characterId ~= slot3.characterId or not uv1 then
-				setText(slot2:Find("msg"), slot4)
-			end
-
-			setText(slot2:Find("displayWord"), slot4)
-			SetActive(slot2:Find("care"), slot3.care == 1)
-
-			if slot3.care == 1 and uv0.careAniTriggerId and uv0.careAniTriggerId == slot3.characterId then
-				uv0.careAniTriggerId = nil
-
-				slot2:Find("care"):GetComponent(typeof(Animation)):Play("anim_newinstagram_care")
-			end
-
-			if uv0.currentChat then
-				SetActive(slot2:Find("frame"), uv0.currentChat == slot3)
-			end
-
-			SetActive(slot2:Find("tip"), slot3:GetCharacterEndFlag() == 0)
-			setText(slot2:Find("id"), slot3.characterId)
-			onButton(uv0, slot2, function ()
-				if uv0.currentChat and uv0.currentChat.characterId ~= uv1.characterId then
-					uv0:ResetCharaTextFunc(uv0.currentChat.characterId)
-				end
-
-				uv0.currentChat = uv1
-
-				SetActive(uv0.rightPanel, true)
-				SetActive(uv0:findTF("main/rightNoMessageBg"), false)
-
-				slot3 = false
-				slot4 = false
-
-				uv0:UpdateChatContent(uv1, slot3, slot4)
-				uv0:SetTopicPanel(uv1)
-				uv0:SetBackgroundPanel(uv1)
-
-				for slot3, slot4 in ipairs(uv0.chatList) do
-					SetActive(uv0:findTF("frame", uv0:findTF("main/leftPanel/charaScroll/Viewport/Content"):GetChild(slot3 - 1)), false)
-				end
-
-				SetActive(uv2:Find("frame"), true)
-
-				uv0.cancelFrame = function()
-					SetActive(uv0:Find("frame"), false)
-				end
-
-				slot0 = uv0.rightPanel:GetComponent(typeof(Animation))
-
-				slot0:Stop()
-				slot0:Play("anim_newinstagram_chat_right_in")
-			end, SFX_PANEL)
-		end
-	end)
-	slot0.charaList:align(#slot0.chatList)
 	slot0:SetFilterResult()
 
 	if slot0.currentChat then
@@ -204,15 +224,15 @@ end
 slot0.UpdateChatContent = function(slot0, slot1, slot2, slot3)
 	SetActive(slot0.rightPanel, true)
 	setText(slot0.characterName, slot1.name)
-	SetActive(slot0:findTF("care", slot0.careBtn), slot1.care == 1)
+	SetActive(slot0.careBtn:Find("care"), slot1.care == 1)
 	onButton(slot0, slot0.careBtn, function ()
 		uv1:emit(InstagramChatMediator.CHANGE_CARE, uv0.characterId, uv0.care == 0 and 1 or 0)
 
 		uv1.careAniTriggerId = uv0.characterId
 	end, SFX_PANEL)
 
-	slot6 = slot0:findTF("painting", slot0:findTF("paintingMask", slot0.rightPanel))
-	slot7 = slot0:findTF("groupBackground", slot0.rightPanel)
+	slot6 = slot0.rightPanel:Find("paintingMask"):Find("painting")
+	slot7 = slot0.rightPanel:Find("groupBackground")
 
 	if slot1.type == 1 then
 		SetActive(slot5, true)
@@ -297,12 +317,14 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	if slot3 then
-		onButton(slot0, slot0:findTF("messageScroll", slot0.rightPanel), function ()
+		slot10 = slot0.rightPanel
+
+		onButton(slot0, slot10:Find("messageScroll"), function ()
 			uv0:SpeedUpMessage()
 		end, SFX_PANEL)
 	end
 
-	slot8 = GetComponent(slot0:findTF("messageScroll", slot0.rightPanel), typeof(ScrollRect))
+	slot8 = GetComponent(slot0.rightPanel:Find("messageScroll"), typeof(ScrollRect))
 
 	slot9 = function(slot0)
 		uv0.normalizedPosition = Vector2(0, slot0)
@@ -363,7 +385,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							SetActive(uv0:Find("charaMessageCard/waiting"), true)
 							SetActive(uv0:Find("charaMessageCard/msgBox"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv1:findTF("messageScroll", uv1.rightPanel)), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv1.rightPanel:Find("messageScroll")), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
 							uv1:StartTimer(function ()
 								SetActive(uv0:Find("charaMessageCard/waiting"), false)
 								SetActive(uv0:Find("charaMessageCard/msgBox"), true)
@@ -378,7 +400,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(uv3:findTF("messageScroll", uv3.rightPanel)), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
+								LeanTween.value(go(uv3.rightPanel:Find("messageScroll")), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
 								uv3:SetEndAniEvent(uv0:Find("charaMessageCard/msgBox"), function ()
 									if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 										uv0:SetOptionPanelActive(true)
@@ -409,7 +431,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							SetActive(uv0:Find("charaMessageCard/voiceBox"), false)
 							SetActive(uv0:Find("charaMessageCard/voiceMsgBox"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv1:findTF("messageScroll", uv1.rightPanel)), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv1.rightPanel:Find("messageScroll")), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
 							uv1:StartTimer(function ()
 								SetActive(uv0:Find("charaMessageCard/waiting"), false)
 								SetActive(uv0:Find("charaMessageCard/voiceBox"), true)
@@ -426,7 +448,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(uv3:findTF("messageScroll", uv3.rightPanel)), uv6.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv7)):setEase(LeanTweenType.easeInOutCubic)
+								LeanTween.value(go(uv3.rightPanel:Find("messageScroll")), uv6.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv7)):setEase(LeanTweenType.easeInOutCubic)
 								uv3:SetEndAniEvent(uv0:Find("charaMessageCard/voiceBox"), function ()
 									if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 										uv0:SetOptionPanelActive(true)
@@ -461,7 +483,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							SetActive(uv0:Find("charaMessageCard/waiting"), true)
 							SetActive(uv0:Find("charaMessageCard/redPacket"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv1:findTF("messageScroll", uv1.rightPanel)), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv1.rightPanel:Find("messageScroll")), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
 							uv1:StartTimer(function ()
 								SetActive(uv0:Find("charaMessageCard/waiting"), false)
 								SetActive(uv0:Find("charaMessageCard/redPacket"), true)
@@ -476,7 +498,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(uv3:findTF("messageScroll", uv3.rightPanel)), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
+								LeanTween.value(go(uv3.rightPanel:Find("messageScroll")), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
 								uv3:SetEndAniEvent(uv0:Find("charaMessageCard/redPacket"), function ()
 									if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 										uv0:SetOptionPanelActive(true)
@@ -500,7 +522,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							SetActive(uv0:Find("charaMessageCard/waiting"), true)
 							SetActive(uv0:Find("charaMessageCard/emoji"), false)
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv1:findTF("messageScroll", uv1.rightPanel)), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv1.rightPanel:Find("messageScroll")), uv2.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv3)):setEase(LeanTweenType.easeInOutCubic)
 							uv1:StartTimer(function ()
 								SetActive(uv0:Find("charaMessageCard/waiting"), false)
 								SetActive(uv0:Find("charaMessageCard/emoji"), true)
@@ -515,7 +537,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 								end
 
 								Canvas.ForceUpdateCanvases()
-								LeanTween.value(go(uv5:findTF("messageScroll", uv5.rightPanel)), uv8.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv9)):setEase(LeanTweenType.easeInOutCubic)
+								LeanTween.value(go(uv5.rightPanel:Find("messageScroll")), uv8.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv9)):setEase(LeanTweenType.easeInOutCubic)
 								uv5:SetEndAniEvent(uv0:Find("charaMessageCard/emoji"), function ()
 									if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 										uv0:SetOptionPanelActive(true)
@@ -552,7 +574,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							end
 
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv3:findTF("messageScroll", uv3.rightPanel)), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv3.rightPanel:Find("messageScroll")), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
 							uv3:SetEndAniEvent(uv0:Find("charaMessageCard/systemTip"), function ()
 								if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 									uv0:SetOptionPanelActive(true)
@@ -618,7 +640,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							end
 
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv2:findTF("messageScroll", uv2.rightPanel)), uv9.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv10)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv2.rightPanel:Find("messageScroll")), uv9.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv10)):setEase(LeanTweenType.easeInOutCubic)
 						end, (#uv7 - table.indexof(uv7, slot1 + 1)) * uv8)
 					else
 						if slot3.type == 1 then
@@ -671,9 +693,9 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	if slot3 then
 		Canvas.ForceUpdateCanvases()
-		LeanTween.value(go(slot0:findTF("messageScroll", slot0.rightPanel)), slot8.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(slot9)):setEase(LeanTweenType.easeInOutCubic)
+		LeanTween.value(go(slot0.rightPanel:Find("messageScroll")), slot8.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(slot9)):setEase(LeanTweenType.easeInOutCubic)
 	else
-		scrollToBottom(slot0:findTF("messageScroll", slot0.rightPanel))
+		scrollToBottom(slot0.rightPanel:Find("messageScroll"))
 	end
 end
 
@@ -756,12 +778,12 @@ end
 slot0.SetOptionPanelActive = function(slot0, slot1)
 	SetActive(slot0.optionPanel, slot1)
 
-	slot2 = slot0:findTF("messageScroll/Viewport/Content", slot0.rightPanel):GetComponent(typeof(VerticalLayoutGroup))
+	slot2 = slot0.rightPanel:Find("messageScroll/Viewport/Content"):GetComponent(typeof(VerticalLayoutGroup))
 	slot3 = UnityEngine.RectOffset.New()
 	slot3.left = 0
 	slot3.right = 0
 	slot3.top = 0
-	slot4 = slot0:findTF("messageScroll/Scrollbar Vertical", slot0.rightPanel):GetComponent(typeof(RectTransform))
+	slot4 = slot0.rightPanel:Find("messageScroll/Scrollbar Vertical"):GetComponent(typeof(RectTransform))
 
 	if slot1 then
 		slot3.bottom = 42 + 88 * slot0.optionCount
@@ -773,7 +795,7 @@ slot0.SetOptionPanelActive = function(slot0, slot1)
 
 	slot2.padding = slot3
 
-	scrollToBottom(slot0:findTF("messageScroll", slot0.rightPanel))
+	scrollToBottom(slot0.rightPanel:Find("messageScroll"))
 end
 
 slot0.SetFilterPanel = function(slot0)
@@ -782,34 +804,34 @@ slot0.SetFilterPanel = function(slot0)
 	slot0.campFilter = slot0.campFilter or {
 		uv0.CampIds[1]
 	}
-	slot1 = slot0:findTF("panel/filterScroll/Viewport/Content/read", slot0.filterUI)
-	slot2 = slot0:findTF("panel/filterScroll/Viewport/Content/type", slot0.filterUI)
-	slot3 = slot0:findTF("panel/filterScroll/Viewport/Content/camp", slot0.filterUI)
-	slot4 = UIItemList.New(slot3, slot0:findTF("option", slot3))
+	slot1 = slot0.filterUI:Find("panel/filterScroll/Viewport/Content/read")
+	slot2 = slot0.filterUI:Find("panel/filterScroll/Viewport/Content/type")
+	slot3 = slot0.filterUI:Find("panel/filterScroll/Viewport/Content/camp")
+	slot4 = UIItemList.New(slot3, slot3:Find("option"))
 
 	onButton(slot0, slot0.filterBtn, function ()
 		SetActive(uv0.filterUI, true)
 		pg.UIMgr.GetInstance():BlurPanel(uv0.filterUI)
 
 		for slot3, slot4 in ipairs(uv1.ReadType) do
-			SetActive(uv0:findTF("selectedFrame", uv2:GetChild(slot3)), uv0.readFilter == slot4)
+			SetActive(uv2:GetChild(slot3):Find("selectedFrame"), uv0.readFilter == slot4)
 			onButton(uv0, slot5, function ()
 				for slot3, slot4 in ipairs(uv0.ReadType) do
-					SetActive(uv1:findTF("selectedFrame", uv2:GetChild(slot3)), false)
+					SetActive(uv1:GetChild(slot3:Find("selectedFrame")), false)
 				end
 
-				SetActive(uv3, true)
+				SetActive(uv2, true)
 			end, SFX_PANEL)
 		end
 
 		for slot3, slot4 in ipairs(uv1.TypeType) do
-			SetActive(uv0:findTF("selectedFrame", uv3:GetChild(slot3)), uv0.typeFilter == slot4)
+			SetActive(uv3:GetChild(slot3):Find("selectedFrame"), uv0.typeFilter == slot4)
 			onButton(uv0, slot5, function ()
 				for slot3, slot4 in ipairs(uv0.TypeType) do
-					SetActive(uv1:findTF("selectedFrame", uv2:GetChild(slot3)), false)
+					SetActive(uv1:GetChild(slot3:Find("selectedFrame")), false)
 				end
 
-				SetActive(uv3, true)
+				SetActive(uv2, true)
 			end, SFX_PANEL)
 		end
 
@@ -822,7 +844,7 @@ slot0.SetFilterPanel = function(slot0)
 						SetActive(uv1, true)
 
 						for slot3 = 2, #uv2.CampIds do
-							SetActive(uv3:findTF("selectedFrame", uv4:GetChild(slot3 - 1)), false)
+							SetActive(uv3:GetChild(slot3 - 1):Find("selectedFrame"), false)
 						end
 					else
 						SetActive(uv1, not isActive(uv1))
@@ -831,11 +853,11 @@ slot0.SetFilterPanel = function(slot0)
 						slot1 = true
 
 						for slot5 = 2, #uv2.CampIds do
-							if not isActive(uv3:findTF("selectedFrame", uv4:GetChild(slot5 - 1))) then
+							if not isActive(uv3:GetChild(slot5 - 1):Find("selectedFrame")) then
 								slot0 = false
 							end
 
-							if isActive(uv3:findTF("selectedFrame", uv4:GetChild(slot5 - 1))) then
+							if isActive(uv3:GetChild(slot5 - 1):Find("selectedFrame")) then
 								slot1 = false
 							end
 						end
@@ -843,15 +865,15 @@ slot0.SetFilterPanel = function(slot0)
 						if slot0 then
 							slot5 = "selectedFrame"
 
-							SetActive(uv3:findTF(slot5, uv4:GetChild(0)), true)
+							SetActive(uv3:GetChild(0):Find(slot5), true)
 
 							for slot5 = 2, #uv2.CampIds do
-								SetActive(uv3:findTF("selectedFrame", uv4:GetChild(slot5 - 1)), false)
+								SetActive(uv3:GetChild(slot5 - 1):Find("selectedFrame"), false)
 							end
 						elseif slot1 then
-							SetActive(uv3:findTF("selectedFrame", uv4:GetChild(0)), true)
+							SetActive(uv3:GetChild(0):Find("selectedFrame"), true)
 						else
-							SetActive(uv3:findTF("selectedFrame", uv4:GetChild(0)), false)
+							SetActive(uv3:GetChild(0):Find("selectedFrame"), false)
 						end
 					end
 				end, SFX_PANEL)
@@ -859,21 +881,21 @@ slot0.SetFilterPanel = function(slot0)
 		end)
 		uv4:align(#uv1.CampIds)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bg", slot0.filterUI), function ()
+	onButton(slot0, slot0.filterUI:Find("bg"), function ()
 		uv0:CloseFilterPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/close", slot0.filterUI), function ()
+	onButton(slot0, slot0.filterUI:Find("panel/bottom/close"), function ()
 		uv0:CloseFilterPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/ok", slot0.filterUI), function ()
+	onButton(slot0, slot0.filterUI:Find("panel/bottom/ok"), function ()
 		for slot3, slot4 in ipairs(uv0.ReadType) do
-			if isActive(uv2:findTF("selectedFrame", uv1:GetChild(slot3))) then
+			if isActive(uv1:GetChild(slot3):Find("selectedFrame")) then
 				uv2.readFilter = slot4
 			end
 		end
 
 		for slot3, slot4 in ipairs(uv0.TypeType) do
-			if isActive(uv2:findTF("selectedFrame", uv3:GetChild(slot3))) then
+			if isActive(uv3:GetChild(slot3):Find("selectedFrame")) then
 				uv2.typeFilter = slot4
 			end
 		end
@@ -881,7 +903,7 @@ slot0.SetFilterPanel = function(slot0)
 		uv2.campFilter = {}
 
 		for slot3, slot4 in ipairs(uv0.CampIds) do
-			if isActive(uv2:findTF("selectedFrame", uv4:GetChild(slot3 - 1))) then
+			if isActive(uv4:GetChild(slot3 - 1):Find("selectedFrame")) then
 				table.insert(uv2.campFilter, slot4)
 			end
 		end
@@ -903,7 +925,10 @@ slot0.SetFilterResult = function(slot0)
 		}
 	end
 
-	for slot6, slot7 in ipairs(slot0.chatList) do
+	slot0.chatList = table.insertto({}, slot0.allChatList)
+
+	for slot6 = #slot0.chatList, 1, -1 do
+		slot7 = slot0.chatList[slot6]
 		slot8 = true
 
 		if slot0.readFilter ~= "all" and slot7:GetCharacterEndFlag() ~= (slot0.readFilter == "hasReaded" and 1 or 0) then
@@ -918,7 +943,9 @@ slot0.SetFilterResult = function(slot0)
 			slot8 = false
 		end
 
-		SetActive(slot0:findTF("main/leftPanel/charaScroll/Viewport/Content"):GetChild(slot6 - 1), slot8)
+		if not slot8 then
+			table.remove(slot0.chatList, slot6)
+		end
 
 		if slot8 then
 			slot1 = false
@@ -932,20 +959,21 @@ slot0.SetFilterResult = function(slot0)
 	SetActive(slot0.isFiltered, not (slot0.readFilter == "all" and slot0.typeFilter == "all" and _.contains(slot0.campFilter, 0)))
 
 	if slot1 then
-		SetActive(slot0:findTF("charaScroll", slot0.leftPanel), false)
-		SetActive(slot0:findTF("main/noFilteredMessageBg"), true)
+		SetActive(slot0.leftPanel:Find("charaScroll"), false)
+		SetActive(slot0._tf:Find("main/noFilteredMessageBg"), true)
 		SetActive(slot0.rightPanel, false)
-		SetActive(slot0:findTF("main/rightNoMessageBg"), false)
+		SetActive(slot0._tf:Find("main/rightNoMessageBg"), false)
 	else
-		SetActive(slot0:findTF("charaScroll", slot0.leftPanel), true)
-		SetActive(slot0:findTF("main/noFilteredMessageBg"), false)
+		SetActive(slot0.leftPanel:Find("charaScroll"), true)
+		slot0.charaScrollrect:SetTotalCount(#slot0.chatList)
+		SetActive(slot0._tf:Find("main/noFilteredMessageBg"), false)
 
 		if slot2 then
 			SetActive(slot0.rightPanel, true)
-			SetActive(slot0:findTF("main/rightNoMessageBg"), false)
+			SetActive(slot0._tf:Find("main/rightNoMessageBg"), false)
 		else
 			SetActive(slot0.rightPanel, false)
-			SetActive(slot0:findTF("main/rightNoMessageBg"), true)
+			SetActive(slot0._tf:Find("main/rightNoMessageBg"), true)
 
 			slot0.currentChat = nil
 
@@ -959,18 +987,18 @@ slot0.SetFilterResult = function(slot0)
 end
 
 slot0.CloseFilterPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.filterUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.filterUI, slot0._tf:Find("subPages"))
 	SetActive(slot0.filterUI, false)
 end
 
 slot0.SetTopicPanel = function(slot0, slot1)
-	SetActive(slot0:findTF("tip", slot0.topicBtn), slot1:GetCharacterEndFlagExceptCurrent() == 0)
+	SetActive(slot0.topicBtn:Find("tip"), slot1:GetCharacterEndFlagExceptCurrent() == 0)
 	onButton(slot0, slot0.topicBtn, function ()
 		SetActive(uv0.topicUI, true)
 		pg.UIMgr.GetInstance():BlurPanel(uv0.topicUI)
 
 		uv0.currentTopic = nil
-		slot0 = UIItemList.New(uv0:findTF("panel/topicScroll/Viewport/Content", uv0.topicUI), uv0:findTF("panel/topicScroll/Viewport/Content/topic", uv0.topicUI))
+		slot0 = UIItemList.New(uv0.topicUI:Find("panel/topicScroll/Viewport/Content"), uv0.topicUI:Find("panel/topicScroll/Viewport/Content/topic"))
 
 		slot0:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
@@ -1000,7 +1028,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 
 						for slot3 = 1, #uv1.topics do
 							if slot3 ~= uv2 + 1 then
-								SetActive(uv3:findTF("selectedFrame", uv3:findTF("panel/topicScroll/Viewport/Content", uv3.topicUI):GetChild(slot3 - 1)), false)
+								SetActive(uv3.topicUI:Find("panel/topicScroll/Viewport/Content"):GetChild(slot3 - 1):Find("selectedFrame"), false)
 							end
 						end
 
@@ -1015,13 +1043,13 @@ slot0.SetTopicPanel = function(slot0, slot1)
 		end)
 		slot0:align(#uv1.topics)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bg", slot0.topicUI), function ()
+	onButton(slot0, slot0.topicUI:Find("bg"), function ()
 		uv0:CloseTopicPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/close", slot0.topicUI), function ()
+	onButton(slot0, slot0.topicUI:Find("panel/bottom/close"), function ()
 		uv0:CloseTopicPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/ok", slot0.topicUI), function ()
+	onButton(slot0, slot0.topicUI:Find("panel/bottom/ok"), function ()
 		uv0:emit(InstagramChatMediator.SET_CURRENT_TOPIC, uv0.currentTopic.topicId)
 		uv0:CloseTopicPanel()
 
@@ -1033,7 +1061,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 end
 
 slot0.CloseTopicPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topicUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topicUI, slot0._tf:Find("subPages"))
 	SetActive(slot0.topicUI, false)
 end
 
@@ -1053,7 +1081,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 		pg.UIMgr.GetInstance():BlurPanel(uv0.backgroundUI)
 
 		uv0.currentBgId = nil
-		slot1 = UIItemList.New(uv0:findTF("panel/backgroundScroll/Viewport/Content", uv0.backgroundUI), uv0:findTF("panel/backgroundScroll/Viewport/Content/background", uv0.backgroundUI))
+		slot1 = UIItemList.New(uv0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"), uv0.backgroundUI:Find("panel/backgroundScroll/Viewport/Content/background"))
 
 		slot1:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
@@ -1081,7 +1109,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 
 						for slot3 = 1, #uv2 do
 							if slot3 ~= uv3 + 1 then
-								SetActive(uv4:findTF("selectedFrame", uv4:findTF("panel/backgroundScroll/Viewport/Content", uv4.backgroundUI):GetChild(slot3 - 1)), false)
+								SetActive(uv4.backgroundUI:Find("panel/backgroundScroll/Viewport/Content"):GetChild(slot3 - 1):Find("selectedFrame"), false)
 							end
 						end
 
@@ -1094,20 +1122,29 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 		end)
 		slot1:align(#uv1:GetSkins())
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bg", slot0.backgroundUI), function ()
+
+	slot5 = slot0.backgroundUI
+
+	onButton(slot0, slot5:Find("bg"), function ()
 		uv0:CloseBackgroundPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/close", slot0.backgroundUI), function ()
+
+	slot5 = slot0.backgroundUI
+
+	onButton(slot0, slot5:Find("panel/bottom/close"), function ()
 		uv0:CloseBackgroundPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("panel/bottom/ok", slot0.backgroundUI), function ()
+
+	slot5 = slot0.backgroundUI
+
+	onButton(slot0, slot5:Find("panel/bottom/ok"), function ()
 		uv0:emit(InstagramChatMediator.SET_CURRENT_BACKGROUND, uv1.characterId, uv0.currentBgId)
 		uv0:CloseBackgroundPanel()
 	end, SFX_PANEL)
 end
 
 slot0.CloseBackgroundPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.backgroundUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.backgroundUI, slot0._tf:Find("subPages"))
 	SetActive(slot0.backgroundUI, false)
 end
 
@@ -1115,43 +1152,46 @@ slot0.SetRedPacketPanel = function(slot0, slot1, slot2, slot3, slot4, slot5, slo
 	onButton(slot0, slot1, function ()
 		SetActive(uv0.redPacketUI, true)
 		pg.UIMgr.GetInstance():BlurPanel(uv0.redPacketUI)
-		setImageSprite(uv0:findTF("panel/charaBg/chara", uv0.redPacketUI), LoadSprite("qicon/" .. uv1), false)
+		setImageSprite(uv0.redPacketUI:Find("panel/charaBg/chara"), LoadSprite("qicon/" .. uv1), false)
 
 		if not uv2 then
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			SetActive(slot1:findTF("panel/panelBg", uv0.redPacketUI), true)
+			SetActive(slot1:Find("panel/panelBg"), true)
 
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			SetActive(slot1:findTF("panel/openImg", uv0.redPacketUI), false)
+			SetActive(slot1:Find("panel/openImg"), false)
 
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			SetActive(slot1:findTF("panel/get", uv0.redPacketUI), true)
+			SetActive(slot1:Find("panel/get"), true)
 
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			SetActive(slot1:findTF("panel/got", uv0.redPacketUI), false)
+			SetActive(slot1:Find("panel/got"), false)
 
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			SetActive(slot1:findTF("panel/detail", uv0.redPacketUI), false)
+			SetActive(slot1:Find("panel/detail"), false)
 
-			slot1 = uv0
+			slot1 = uv0.redPacketUI
 
-			setText(slot1:findTF("panel/get/titleBg/title", uv0.redPacketUI), uv3.desc)
+			setText(slot1:Find("panel/get/titleBg/title"), uv3.desc)
 
-			slot2 = uv0
+			slot2 = uv0.redPacketUI
 
-			onButton(uv0, slot2:findTF("panel/get/getBtn", uv0.redPacketUI), function ()
+			onButton(uv0, slot2:Find("panel/get/getBtn"), function ()
 				uv0:emit(InstagramChatMediator.GET_REDPACKET, uv1, uv2, uv3.id)
 			end, SFX_PANEL)
 		else
 			uv0:UpdateRedPacketUI(uv3.id)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("bg", slot0.redPacketUI), function ()
+
+	slot9 = slot0.redPacketUI
+
+	onButton(slot0, slot9:Find("bg"), function ()
 		uv0:CloseRedPacketPanel()
 
 		if uv0.canFresh then
@@ -1170,39 +1210,44 @@ end
 slot0.UpdateRedPacketUI = function(slot0, slot1)
 	slot2 = uv0[slot1]
 
-	SetActive(slot0:findTF("panel/panelBg", slot0.redPacketUI), true)
-	SetActive(slot0:findTF("panel/openImg", slot0.redPacketUI), false)
-	SetActive(slot0:findTF("panel/get", slot0.redPacketUI), false)
-	SetActive(slot0:findTF("panel/got", slot0.redPacketUI), true)
-	SetActive(slot0:findTF("panel/detail", slot0.redPacketUI), false)
+	SetActive(slot0.redPacketUI:Find("panel/panelBg"), true)
+	SetActive(slot0.redPacketUI:Find("panel/openImg"), false)
+	SetActive(slot0.redPacketUI:Find("panel/get"), false)
+	SetActive(slot0.redPacketUI:Find("panel/got"), true)
+	SetActive(slot0.redPacketUI:Find("panel/detail"), false)
 
 	slot3 = Drop.Create(slot2.content)
 	slot3.count = 0
 
-	updateDrop(slot0:findTF("panel/got/item", slot0.redPacketUI), slot3)
-	onButton(slot0, slot0:findTF("panel/got/item", slot0.redPacketUI), function ()
+	updateDrop(slot0.redPacketUI:Find("panel/got/item"), slot3)
+	onButton(slot0, slot0.redPacketUI:Find("panel/got/item"), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 
-	slot0:findTF("panel/got/item/icon_bg", slot0.redPacketUI):GetComponent(typeof(Image)).enabled = false
-	slot0:findTF("panel/got/item/icon_bg/frame", slot0.redPacketUI):GetComponent(typeof(Image)).enabled = false
+	slot0.redPacketUI:Find("panel/got/item/icon_bg"):GetComponent(typeof(Image)).enabled = false
+	slot0.redPacketUI:Find("panel/got/item/icon_bg/frame"):GetComponent(typeof(Image)).enabled = false
 
-	setText(slot0:findTF("panel/got/awardCount", slot0.redPacketUI), slot2.content[3])
+	setText(slot0.redPacketUI:Find("panel/got/awardCount"), slot2.content[3])
 
 	if slot2.type == 1 then
-		SetActive(slot0:findTF("panel/got/detailBtn", slot0.redPacketUI), false)
+		SetActive(slot0.redPacketUI:Find("panel/got/detailBtn"), false)
 	else
-		SetActive(slot0:findTF("panel/got/detailBtn", slot0.redPacketUI), true)
-		onButton(slot0, slot0:findTF("panel/got/detailBtn", slot0.redPacketUI), function ()
-			SetActive(uv0:findTF("panel/panelBg", uv0.redPacketUI), false)
-			SetActive(uv0:findTF("panel/openImg", uv0.redPacketUI), true)
-			SetActive(uv0:findTF("panel/got", uv0.redPacketUI), false)
-			SetActive(uv0:findTF("panel/detail", uv0.redPacketUI), true)
+		slot5 = slot0.redPacketUI
+
+		SetActive(slot5:Find("panel/got/detailBtn"), true)
+
+		slot6 = slot0.redPacketUI
+
+		onButton(slot0, slot6:Find("panel/got/detailBtn"), function ()
+			SetActive(uv0.redPacketUI:Find("panel/panelBg"), false)
+			SetActive(uv0.redPacketUI:Find("panel/openImg"), true)
+			SetActive(uv0.redPacketUI:Find("panel/got"), false)
+			SetActive(uv0.redPacketUI:Find("panel/detail"), true)
 
 			slot0 = 0
 			slot1 = 0
 			slot6 = "panel/detail/detailScroll/Viewport/Content/charaGetCard"
-			slot2 = UIItemList.New(uv0:findTF("panel/detail/detailScroll/Viewport/Content", uv0.redPacketUI), uv0:findTF(slot6, uv0.redPacketUI))
+			slot2 = UIItemList.New(uv0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"), uv0.redPacketUI:Find(slot6))
 
 			slot2:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
@@ -1248,26 +1293,27 @@ slot0.UpdateRedPacketUI = function(slot0, slot1)
 			slot2:align(#uv1.group_receive)
 
 			for slot6 = 1, #uv1.group_receive do
-				SetActive(uv0:findTF("charaBg/king", uv0:findTF("panel/detail/detailScroll/Viewport/Content", uv0.redPacketUI):GetChild(slot6 - 1)), slot0 == slot6 - 1)
+				SetActive(uv0.redPacketUI:Find("panel/detail/detailScroll/Viewport/Content"):GetChild(slot6 - 1):Find("charaBg/king"), slot0 == slot6 - 1)
 			end
 		end, SFX_PANEL)
 	end
 end
 
 slot0.CloseRedPacketPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.redPacketUI, slot0:findTF("subPages"))
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.redPacketUI, slot0._tf:Find("subPages"))
 	SetActive(slot0.redPacketUI, false)
 end
 
 slot0.SetData = function(slot0)
 	slot1 = getProxy(InstagramChatProxy)
-	slot0.chatList = slot1:GetChatList()
+	slot0.allChatList = slot1:GetChatList()
+	slot0.chatList = table.insertto({}, slot0.allChatList)
 
 	slot1:SortChatList()
 end
 
 slot0.willExit = function(slot0)
-	slot1 = slot0:findTF("paintingMask/painting", slot0.rightPanel)
+	slot1 = slot0.rightPanel:Find("paintingMask/painting")
 
 	if slot0.paintingName then
 		retPaintingPrefab(slot1, slot0.paintingName)
@@ -1337,23 +1383,27 @@ slot0.ChangeFresh = function(slot0)
 end
 
 slot0.ChangeCharaTextFunc = function(slot0, slot1, slot2)
-	slot4 = slot0.charaList
-
-	slot4:each(function (slot0, slot1)
-		if slot1:Find("id"):GetComponent(typeof(Text)).text == tostring(uv0) then
-			setText(slot1:Find("msg"), uv1)
+	slot3 = function(slot0)
+		if slot0:Find("id"):GetComponent(typeof(Text)).text == tostring(uv0) then
+			setText(slot0:Find("msg"), uv1)
 		end
-	end)
+	end
+
+	for slot7 = 0, slot0.charaScrollContent.childCount - 1 do
+		slot3(slot0.charaScrollContent:GetChild(slot7))
+	end
 end
 
 slot0.ResetCharaTextFunc = function(slot0, slot1)
-	slot3 = slot0.charaList
-
-	slot3:each(function (slot0, slot1)
-		if slot1:Find("id"):GetComponent(typeof(Text)).text == tostring(uv0) then
-			setText(slot1:Find("msg"), slot1:Find("displayWord"):GetComponent(typeof(Text)).text)
+	slot2 = function(slot0)
+		if slot0:Find("id"):GetComponent(typeof(Text)).text == tostring(uv0) then
+			setText(slot0:Find("msg"), slot0:Find("displayWord"):GetComponent(typeof(Text)).text)
 		end
-	end)
+	end
+
+	for slot6 = 0, slot0.charaScrollContent.childCount - 1 do
+		slot2(slot0.charaScrollContent:GetChild(slot6))
+	end
 end
 
 slot0.SetEndAniEvent = function(slot0, slot1, slot2)

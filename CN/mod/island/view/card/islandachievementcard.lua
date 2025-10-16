@@ -1,37 +1,38 @@
 slot0 = class("IslandAchievementCard")
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
-	slot2 = slot0._tf
-	slot0.nameTF = slot2:Find("name")
-	slot2 = slot0._tf
-	slot0.descTF = slot2:Find("desc")
-	slot2 = slot0._tf
-	slot0.goTF = slot2:Find("status/go")
-	slot2 = slot0._tf
-	slot0.getBtn = slot2:Find("status/get")
-	slot2 = slot0._tf
-	slot0.gotTF = slot2:Find("status/got")
-	slot2 = slot0._tf
-	slot0.lockTF = slot2:Find("lock")
-	slot2 = slot0._tf
-	slot2 = slot2:Find("stages")
-	slot0.stageUIList = UIItemList.New(slot2, slot2:Find("tpl"))
-	slot3 = slot0.stageUIList
+	slot0.parent = slot2
+	slot3 = slot0._tf
+	slot0.nameTF = slot3:Find("name")
+	slot3 = slot0._tf
+	slot0.descTF = slot3:Find("desc")
+	slot3 = slot0._tf
+	slot0.goTF = slot3:Find("status/go")
+	slot3 = slot0._tf
+	slot0.getBtn = slot3:Find("status/get")
+	slot3 = slot0._tf
+	slot0.gotTF = slot3:Find("status/got")
+	slot3 = slot0._tf
+	slot0.lockTF = slot3:Find("lock")
+	slot3 = slot0._tf
+	slot3 = slot3:Find("stages")
+	slot0.stageUIList = UIItemList.New(slot3, slot3:Find("tpl"))
+	slot4 = slot0.stageUIList
 
-	slot3:make(function (slot0, slot1, slot2)
+	slot4:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateStageItem(slot1, slot2)
 		end
 	end)
 
-	slot3 = slot0._tf
-	slot3 = slot3:Find("awards")
-	slot0.awardUIList = UIItemList.New(slot3, slot3:Find("tpl"))
-	slot4 = slot0.awardUIList
+	slot4 = slot0._tf
+	slot4 = slot4:Find("awards")
+	slot0.awardUIList = UIItemList.New(slot4, slot4:Find("tpl"))
+	slot5 = slot0.awardUIList
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateAwardItem(slot1, slot2)
 		end
@@ -61,6 +62,13 @@ slot0.UpdateAwardItem = function(slot0, slot1, slot2)
 
 	GetImageSpriteFromAtlasAsync(slot3:getIcon(), "", slot2:Find("icon"))
 	setText(slot2:Find("count"), slot3.count)
+	onButton(slot0.parent, slot2, function ()
+		uv0.parent:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
 end
 
 slot0.UpdataData = function(slot0)

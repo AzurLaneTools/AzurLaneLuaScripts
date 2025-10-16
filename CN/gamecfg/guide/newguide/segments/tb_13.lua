@@ -52,8 +52,8 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				eventPath = "/OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3",
-				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3"
+				eventPath = "/OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/adapt/window/options/content/3",
+				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/adapt/window/options/content/3"
 			}
 		}
 	}

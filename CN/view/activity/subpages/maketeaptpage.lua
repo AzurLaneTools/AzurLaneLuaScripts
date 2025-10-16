@@ -152,7 +152,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
-	onButton(slot0, slot0:findTF("get_btn", slot2), function ()
+	onButton(slot0, slot2:Find("get_btn"), function ()
 		if uv0.nday <= uv1 then
 			uv0.mvIndex = uv0.nday
 
@@ -173,7 +173,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv2)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("got_btn", slot2), function ()
+	onButton(slot0, slot2:Find("got_btn"), function ()
 		uv0:displayWindow(true)
 	end, SFX_PANEL)
 end

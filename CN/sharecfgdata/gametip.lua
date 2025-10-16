@@ -12490,22 +12490,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:302}(最多4次)"
+	tip = "克莱蒙梭、吉尚等角色建造概率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:461}、{namecode:460}、{namecode:457} 建造追加！"
+	tip = "圣马丁号 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:448}、{namecode:449} 建造追加！"
+	tip = "金鹿号 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "莱昂纳多·达·芬奇 建造追加！"
+	tip = "玛丽·西莱斯特号、维达号 建造追加！"
 }
 
 
@@ -40943,10 +40943,10 @@ _G.pg.base.gametip.island_visit_tip7 = {
 
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
-1.新的岛屿开发季开启时，岛屿开发PT将会自动重置
-2.开发季持续时间内，可通过资材转化、生产指定资材、完成货运委托、参与岛屿活动、以及在开发季商店购买商品获得岛屿开发PT
-3.岛屿开发季结束后，资材仓库中的资材将自动转化为岛屿开发PT并计入当前开发排行
-4.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将不再可领取]]
+新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>。
+开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>完成货运委托</color>、<color=#39bfff>参与岛屿活动</color>、以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT。
+岛屿开发季结束后，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行。
+岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>。]]
 }
 
 
@@ -41626,6 +41626,45 @@ _G.pg.base.gametip.island_help_greet = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_character_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info3"
 			}
 		},
 		disableScroll = true,
@@ -44826,6 +44865,11 @@ _G.pg.base.gametip.island_setmeal_title = {
 }
 
 
+_G.pg.base.gametip.island_setmeal_benifit_title = {
+	tip = "收益提升"
+}
+
+
 _G.pg.base.gametip.island_shipselect_confirm = {
 	tip = "确认"
 }
@@ -44908,4 +44952,87 @@ _G.pg.base.gametip.danmachi_award_get = {
 
 _G.pg.base.gametip.danmachi_award_unget = {
 	tip = "未获得"
+}
+
+
+_G.pg.base.gametip.dorm3d_touch2 = {
+	tip = "触摸（$1）"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_special = {
+	tip = "特典"
+}
+
+
+_G.pg.base.gametip.island_helpbtn_order = {
+	tip = [[
+<color=#E58A00>岛屿订单</color>：通过交付对应数量的<color=#39bfff>资材</color>即可完成岛屿订单，获得岛屿<color=#39bfff>开发资金</color>和<color=#39bfff>开发经验</color>的奖励。
+<color=#E58A00>加急订单</color>：在<color=#39bfff>岛屿科技</color>中开启加急订单后，在岛屿中<color=#39bfff>游玩一定时长</color>、<color=#39bfff>交付普通订单</color>和<color=#39bfff>装载货运委托</color>均有概率刷出加急订单。
+<color=#E58A00>订单上限</color>：普通订单与加急订单均有上限，普通订单为<color=#39bfff>每日上限</color>，加急订单为<color=#39bfff>每周上限</color>。
+<color=#E58A00>订单倾向</color>：可在订单倾向中选择订单的整体交付难度，改变后的倾向将在<color=#39bfff>下次出现订单时</color>生效。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_commission = {
+	tip = [[
+在集成管理界面中可对已解锁的<color=#39bfff>生产</color>、<color=#39bfff>经营</color>以及<color=#39bfff>日常补给</color>等内容进行操作和确认。
+<color=#E58A00>生产</color>：点击<color=#39bfff>对应岗位</color>可进行角色委派和领取产物，点击<color=#39bfff>切换按钮</color>可查看委派角色与产物。
+<color=#E58A00>经营</color>：点击<color=#39bfff>经营准备</color>可进行店员、餐品选择，点击<color=#39bfff>营业结算</color>可收取营业收益。
+<color=#E58A00>补给</color>：点击<color=#39bfff>“补给”按钮</color>可快速传送至集会岛日常补给装置处。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_speedup = {
+	tip = [[
+使用加速券可缩短<color=#39bfff>角色委派</color>、<color=#39bfff>更换订单</color>的等待时间。
+
+加速券有不同的<color=#39bfff>加速时长</color>，使用后超出部分时长<color=#FD5650>不会返还</color>，请合理规划使用对应时长的加速券。
+
+加速券有对应的<color=#39bfff>到期时间</color>，超过时间后对应的加速券将会<color=#FD5650>失效</color>。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_card = {
+	tip = {
+		{
+			info = [[
+名片中可查看指挥官的各类信息，指挥官可以通过<color=#39bfff>聊天</color>或<color=#39bfff>拜访</color>功能查看他人的名片。
+<color=#E58A00>成就展示</color>：点击后可以选择已获得的<color=#39bfff>成就</color>在名片中进行展示。
+<color=#E58A00>修改名称</color>：点击<color=#39bfff>修改名称</color>可对岛屿名称进行修改。
+<color=#E58A00>修改签名</color>：点击<color=#39bfff>修改签名</color>可对名片中的签名进行修改。
+<color=#E58A00>评价标签</color>：点击查看已获得的所有评价标签。
+<color=#E58A00>岛屿形象</color>：点击切换按钮可重新选择岛屿形象。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_helpbtn_technology = {
+	tip = "可以委派角色对岛屿科技进行研发，满足科技解锁条件后消耗对应资材即可开始研发，等待研发完成后可开启全新功能、解锁<color=#39bfff>新产地</color>和<color=#39bfff>产物</color>。\n<color=#E58A00>中枢认证科技</color>：研发后可解锁<color=#39bfff>岛屿地图</color>、<color=#39bfff>集成管理</color>等便捷功能，还能进一步解锁<color=#39bfff>岛屿订单</color>、<color=#39bfff>货运委托</color>、<color=#39bfff>日常补给</color>的<color=#39bfff>额外功能</color>，以及获取<color=#39bfff>新角色</color>的岛屿权限认证函。\n<color=#E58A00>分支科技</color>：可开启各生产区域内的<color=#39bfff>委派功能</color>，提升手动及委派的生产效率，以及解锁各生产区域内的<color=#39bfff>配方</color>。"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
+	tip = "该货运委托已装载资材，无法更换"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+	tip = "是否更换货运委托"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+	tip = "货运委托准备中"
+}
+
+
+_G.pg.base.gametip.island_information_tech = {
+	tip = "科技研发-$1-$2"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag8 = {
+	tip = "解锁丝袜互动"
 }

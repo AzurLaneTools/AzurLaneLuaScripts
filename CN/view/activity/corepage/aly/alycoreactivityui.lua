@@ -36,9 +36,9 @@ slot0.init = function(slot0, ...)
 				slot4 = uv0.pageDic[slot3.id]
 
 				if slot3.id == 50063 or slot3.id == 50058 then
-					setActive(uv0:findTF("tip", slot2), slot3:readyToAchieve())
+					setActive(slot2:Find("tip"), slot3:readyToAchieve())
 				else
-					setActive(uv0:findTF("tip", slot2), false)
+					setActive(slot2:Find("tip"), false)
 				end
 
 				onToggle(uv0, slot2, function (slot0)
@@ -52,7 +52,7 @@ slot0.init = function(slot0, ...)
 						end
 
 						uv1:selectActivity(uv2)
-						quickPlayAnimation(uv1:findTF("on", uv3), "Anim_ALYCoreActivityUI_tabs_selected")
+						quickPlayAnimation(uv3:Find("on"), "Anim_ALYCoreActivityUI_tabs_selected")
 					end
 				end, SFX_PANEL)
 			end

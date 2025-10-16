@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
 	slot0.pages = {
-		Settings3DPage.New(slot0:findTF("pages"), slot0.event, slot0.contextData)
+		Settings3DPage.New(slot0._tf:Find("pages"), slot0.event, slot0.contextData)
 	}
 	slot0.toggles = {
-		slot0:findTF("blur_panel/adapt/left_length/threeD")
+		slot0._tf:Find("blur_panel/adapt/left_length/threeD")
 	}
 	slot0.otherTip = slot0.toggles[1]:Find("tip")
 	slot0.descWindow = SettingsMsgBosPage.New(slot0._tf, slot0.event)

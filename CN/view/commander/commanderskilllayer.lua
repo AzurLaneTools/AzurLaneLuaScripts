@@ -6,14 +6,14 @@ end
 
 slot0.init = function(slot0)
 	slot1 = slot0.contextData.skill
-	slot0.backBtn = slot0:findTF("top/btnBack")
-	slot0.skillInfoName = slot0:findTF("panel/bg/skill_name")
-	slot0.skillInfoLv = slot0:findTF("panel/bg/skill_lv")
-	slot0.skillInfoIntro = slot0:findTF("panel/bg/help_panel/skill_intro")
-	slot0.skillInfoIcon = slot0:findTF("panel/bg/skill_icon")
-	slot0.buttonList = slot0:findTF("panel/buttonList")
-	slot0.skillDescTF = slot0:findTF("panel/bg/help_panel/Viewport/content/introTF")
-	slot0.skillDescContent = slot0:findTF("panel/bg/help_panel/Viewport/content")
+	slot0.backBtn = slot0._tf:Find("top/btnBack")
+	slot0.skillInfoName = slot0._tf:Find("panel/bg/skill_name")
+	slot0.skillInfoLv = slot0._tf:Find("panel/bg/skill_lv")
+	slot0.skillInfoIntro = slot0._tf:Find("panel/bg/help_panel/skill_intro")
+	slot0.skillInfoIcon = slot0._tf:Find("panel/bg/skill_icon")
+	slot0.buttonList = slot0._tf:Find("panel/buttonList")
+	slot0.skillDescTF = slot0._tf:Find("panel/bg/help_panel/Viewport/content/introTF")
+	slot0.skillDescContent = slot0._tf:Find("panel/bg/help_panel/Viewport/content")
 
 	setText(slot0.skillInfoName, slot1:getConfig("name"))
 	setText(slot0.skillInfoLv, "Lv." .. slot1:getLevel())
@@ -25,8 +25,8 @@ slot0.init = function(slot0)
 end
 
 slot0.SetLocaliza = function(slot0)
-	setText(slot0:findTF("top/title_list/infomation/title"), i18n("words_information"))
-	setText(slot0:findTF("panel/buttonList/ok_button/Image"), i18n("word_ok"))
+	setText(slot0._tf:Find("top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0._tf:Find("panel/buttonList/ok_button/Image"), i18n("word_ok"))
 end
 
 slot0.didEnter = function(slot0)
@@ -36,7 +36,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("panel/buttonList/ok_button"), function ()
+	onButton(slot0, slot0._tf:Find("panel/buttonList/ok_button"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)

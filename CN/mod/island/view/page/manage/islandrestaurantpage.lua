@@ -415,6 +415,7 @@ slot0.UpdateShipItem = function(slot0, slot1, slot2)
 			showBenefits = true,
 			selectNum = #uv1.assistantsData,
 			selectedIds = Clone(uv1.selectedShipIds),
+			attrType = IslandShipAttr.MANAGE_KEY,
 			confirmFunc = function (slot0)
 				uv0:OnSelectedShipsDone(slot0)
 			end,

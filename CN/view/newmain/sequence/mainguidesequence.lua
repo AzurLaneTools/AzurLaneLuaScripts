@@ -87,7 +87,11 @@ slot1 = {
 			return pg.NewStoryMgr.GetInstance():IsPlayed("NG0030")
 		end,
 		args = function ()
-			return PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK).id), 0) == 0 and {
+			if not tobool(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)) then
+				return false
+			end
+
+			return PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, slot0.id), 0) == 0 and {
 				1,
 				2
 			} or {

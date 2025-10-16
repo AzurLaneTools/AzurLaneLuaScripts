@@ -1,7 +1,7 @@
 slot0 = class("BeatMonsterPage", import("....base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 end
 
 slot0.OnFirstFlush = function(slot0)

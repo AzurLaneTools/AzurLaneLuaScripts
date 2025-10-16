@@ -23,21 +23,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.buttonsPanel = slot0:findTF("buttons_panel")
-	slot1 = slot0:findTF("buttons_panel")
+	slot1 = slot0._tf
+	slot0.buttonsPanel = slot1:Find("buttons_panel")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("buttons_panel")
 	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
-	slot0.chatPanel = slot0:findTF("chat")
+	slot1 = slot0._tf
+	slot0.chatPanel = slot1:Find("chat")
 
 	setActive(slot0.chatPanel, false)
 	setActive(slot0.buttonsPanel, false)
 
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
+	slot2 = slot0._tf
 	slot0.btns = {
-		slot0:findTF("buttons_panel/info_btn"),
-		slot0:findTF("buttons_panel/duty_btn"),
-		slot0:findTF("buttons_panel/fire_btn"),
-		slot0:findTF("buttons_panel/impeach_btn")
+		slot2:Find("buttons_panel/info_btn"),
+		slot2:Find("buttons_panel/duty_btn"),
+		slot2:Find("buttons_panel/fire_btn"),
+		slot2:Find("buttons_panel/impeach_btn")
 	}
-	slot0.helpBtn = slot0:findTF("help")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("help")
 	slot0.pages = {
 		GuildMemberInfoPage.New(slot0._tf, slot0.event),
 		GuildAppiontPage.New(slot0._tf, slot0.event),
@@ -131,7 +139,7 @@ slot0.LoadPainting = function(slot0, slot1)
 		setActive(slot0.chatPanel, false)
 	else
 		setActive(slot0.chatPanel, true)
-		setText(slot0:findTF("Text", slot0.chatPanel), slot4)
+		setText(slot0.chatPanel:Find("Text"), slot4)
 	end
 
 	slot5 = nil

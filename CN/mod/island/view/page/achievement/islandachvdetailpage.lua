@@ -22,6 +22,14 @@ slot0.OnLoaded = function(slot0)
 
 	setActive(slot3:Find("tpl"), false)
 
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/get/Text"), i18n("handbook_claim"))
+
+	slot3 = slot0._tf
+
+	setText(slot3:Find("tpl/status/got/Text"), i18n("handbook_finished"))
+
 	slot2 = slot0._tf
 	slot2 = slot2:Find("view")
 	slot0.scrollRect = slot2:GetComponent("LScrollRect")
@@ -138,7 +146,7 @@ slot0.FlushDetail = function(slot0)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
-	slot2 = IslandAchievementCard.New(slot1)
+	slot2 = IslandAchievementCard.New(slot1, slot0)
 	slot0.cards[slot1] = slot2
 
 	onButton(slot0, slot2.getBtn, function ()
@@ -155,8 +163,6 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 		slot3 = slot0.cards[slot2]
 	end
-
-	warning(slot1 + 1)
 
 	if slot0.showAchvList[slot1 + 1] then
 		slot3:Update(slot4)

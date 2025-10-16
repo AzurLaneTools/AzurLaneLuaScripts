@@ -34,11 +34,16 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.curNumTextTF = slot0:findTF("ProgressPanel/CurNumText")
-	slot0.totalNumText = slot0:findTF("ProgressPanel/TotalNumText")
-	slot0.taskTpl = slot0:findTF("TaskTpl")
-	slot0.taskContainer = slot0:findTF("TaskList/Viewport/Content")
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("BG")
+	slot1 = slot0._tf
+	slot0.curNumTextTF = slot1:Find("ProgressPanel/CurNumText")
+	slot1 = slot0._tf
+	slot0.totalNumText = slot1:Find("ProgressPanel/TotalNumText")
+	slot1 = slot0._tf
+	slot0.taskTpl = slot1:Find("TaskTpl")
+	slot1 = slot0._tf
+	slot0.taskContainer = slot1:Find("TaskList/Viewport/Content")
 	slot0.taskList = UIItemList.New(slot0.taskContainer, slot0.taskTpl)
 
 	onButton(slot0, slot0.bg, function ()
@@ -65,12 +70,12 @@ slot0.updateTaskList = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot1 = slot1 + 1
 			slot3 = uv0.taskVOList[slot1]
-			slot7 = uv0:findTF("ItemBG/Icon", slot2)
-			slot8 = uv0:findTF("ItemBG/Finished", slot2)
+			slot7 = slot2:Find("ItemBG/Icon")
+			slot8 = slot2:Find("ItemBG/Finished")
 
-			setText(uv0:findTF("IndexText", slot2), string.format("%02d", slot1))
-			setText(uv0:findTF("TaskIndexText", slot2), "TASK-" .. string.format("%02d", slot1))
-			setText(uv0:findTF("DescText", slot2), slot3:getConfig("desc"))
+			setText(slot2:Find("IndexText"), string.format("%02d", slot1))
+			setText(slot2:Find("TaskIndexText"), "TASK-" .. string.format("%02d", slot1))
+			setText(slot2:Find("DescText"), slot3:getConfig("desc"))
 
 			if not pg.ship_data_statistics[tonumber(slot3:getConfig("target_id"))] then
 				slot10 = 205054

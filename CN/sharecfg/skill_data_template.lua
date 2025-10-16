@@ -157813,7 +157813,7 @@ pg.base.skill_data_template = {
 	},
 	[114040] = {
 		desc_get = "",
-		name = "赫斯缇亚的缎带",
+		name = "赫斯缇雅的缎带",
 		type = 3,
 		max_level = 1,
 		desc = "战斗开始后，30秒内降低先锋舰队成员受到的伤害5%",

@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.displayPanel = slot0:findTF("display")
+	slot0.displayPanel = slot0._tf:Find("display")
 	slot0.displayActions = slot0.displayPanel:Find("actions")
-	slot0.displayNameTxt = slot0:findTF("info/display_panel/name_container/name", slot0.displayPanel):GetComponent(typeof(Text))
-	slot0.displayDescTxt = slot0:findTF("info/display_panel/desc", slot0.displayPanel):GetComponent(typeof(Text))
-	slot0.playBtn = slot0:findTF("info/play_btn", slot0.displayPanel)
+	slot0.displayNameTxt = slot0.displayPanel:Find("info/display_panel/name_container/name"):GetComponent(typeof(Text))
+	slot0.displayDescTxt = slot0.displayPanel:Find("info/display_panel/desc"):GetComponent(typeof(Text))
+	slot0.playBtn = slot0.displayPanel:Find("info/play_btn")
 	slot0.confirmBtn = slot0._tf:Find("display/actions/confirm")
 
-	setText(slot0:findTF("display/top/bg/infomation/title"), i18n("words_information"))
-	setText(slot0:findTF("display/actions/cancel/upgrade"), i18n("msgbox_text_cancel"))
-	setText(slot0:findTF("display/actions/confirm/change"), i18n("shop_word_exchange"))
+	setText(slot0._tf:Find("display/top/bg/infomation/title"), i18n("words_information"))
+	setText(slot0._tf:Find("display/actions/cancel/upgrade"), i18n("msgbox_text_cancel"))
+	setText(slot0._tf:Find("display/actions/confirm/change"), i18n("shop_word_exchange"))
 end
 
 slot0.OnInit = function(slot0)
@@ -65,13 +65,13 @@ slot0.UpdateSkinView = function(slot0, slot1)
 	slot0.displayNameTxt.text = slot3.name
 	slot0.displayDescTxt.text = slot3.desc
 
-	setScrollText(slot0:findTF("info/display_panel/equip_type/mask/Text", slot2), table.concat(_.map(slot3.equip_type, function (slot0)
+	setScrollText(slot2:Find("info/display_panel/equip_type/mask/Text"), table.concat(_.map(slot3.equip_type, function (slot0)
 		return EquipType.Type2Name2(slot0)
 	end), ","))
 	onButton(slot0, slot0.playBtn, function ()
 		uv0:emit(NewShopMainMediator.ON_ESKIN_PREVIEW, uv1)
 	end, SFX_PANEL)
-	updateDrop(slot0:findTF("info/equip", slot2), {
+	updateDrop(slot2:Find("info/equip"), {
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		id = slot1
 	})

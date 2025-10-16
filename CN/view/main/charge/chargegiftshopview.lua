@@ -37,18 +37,18 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.emptyGo = slot0:findTF("emptyText")
+	slot0.emptyGo = slot0._tf:Find("emptyText")
 
 	setText(slot0.emptyGo, i18n("shop_pack_empty"))
 
-	slot0.lScrollRect = GetComponent(slot0:findTF("lScrollRect"), "LScrollRect")
+	slot0.lScrollRect = GetComponent(slot0._tf:Find("lScrollRect"), "LScrollRect")
 	slot0.chargeCardTable = {}
 
 	slot0:initScrollRect()
 	slot0:initToggleList()
 	slot0:updateToggleList()
 	slot0:updateScrollRect()
-	triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
+	triggerButton(slot0._tf:Find("toggleGroup"):GetChild(0))
 end
 
 slot0.GetViewSkinWrap = function(slot0)
@@ -228,16 +228,18 @@ slot0.confirm = function(slot0, slot1)
 end
 
 slot0.initToggleList = function(slot0)
-	slot0.uiToggleList = UIItemList.New(slot0:findTF("toggleGroup"), slot0:findTF("toggleGroup/Toggle"))
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.uiToggleList = UIItemList.New(slot2:Find("toggleGroup"), slot3:Find("toggleGroup/Toggle"))
 	slot1 = slot0.uiToggleList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = uv0.packageSortList[slot1 + 1]
 
-			setText(uv0:findTF("selected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
-			setText(uv0:findTF("selected/enText", slot2), i18n(string.format("shop_package_sort_en_%s", slot3)))
-			setText(uv0:findTF("unselected/Label", slot2), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(slot2:Find("selected/Label"), i18n(string.format("shop_package_sort_%s", slot3)))
+			setText(slot2:Find("selected/enText"), i18n(string.format("shop_package_sort_en_%s", slot3)))
+			setText(slot2:Find("unselected/Label"), i18n(string.format("shop_package_sort_%s", slot3)))
 			setActive(slot2:Find("unselected"), true)
 			setActive(slot2:Find("selected"), false)
 		elseif slot0 == UIItemList.EventUpdate then
@@ -463,7 +465,7 @@ slot0.reUpdateAll = function(slot0)
 	slot0:updateScrollRect()
 
 	if not table.contains(slot0.packageSortList, slot0.selectedPackageType) then
-		triggerButton(slot0:findTF("toggleGroup"):GetChild(0))
+		triggerButton(slot0._tf:Find("toggleGroup"):GetChild(0))
 	end
 end
 

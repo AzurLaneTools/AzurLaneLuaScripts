@@ -1883,7 +1883,7 @@ pg.island_production_slot = {
 	},
 	[9042] = {
 		exclusion_slot = "",
-		unlock_type = 0,
+		unlock_type = 1,
 		type = 9,
 		place = 901,
 		animal = "",

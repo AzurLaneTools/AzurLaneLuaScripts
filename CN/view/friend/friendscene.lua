@@ -43,8 +43,9 @@ slot0.setBlackList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.pages = slot0:findTF("pages")
-	slot0.togglesTF = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
+	slot0.pages = slot0._tf:Find("pages")
+	slot1 = slot0._tf
+	slot0.togglesTF = slot1:Find("blur_panel/adapt/left_length/frame/tagRoot")
 	slot4 = slot0.event
 	slot0.pages = {
 		FriendListPage.New(slot0.pages, slot0.event, slot0.contextData),
@@ -67,15 +68,15 @@ slot0.init = function(slot0)
 
 	slot0.chatTipContainer = slot0.toggles[1]:Find("count")
 	slot0.chatTip = slot0.toggles[1]:Find("count/Text"):GetComponent(typeof(Text))
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("blur_panel/adapt/top/back_btn"), function ()
+	onButton(slot0, slot0._tf:Find("blur_panel/adapt/top/back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
 	triggerToggle(slot0.toggles[slot0.contextData.initPage or 1], true)

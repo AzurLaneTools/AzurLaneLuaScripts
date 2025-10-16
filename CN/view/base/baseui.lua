@@ -102,6 +102,10 @@ slot0.loadUISync = function(slot0, slot1)
 	return slot2
 end
 
+slot0.GCWhenAwake = function(slot0)
+	return tobool(slot0:loadingQueue())
+end
+
 slot0.load = function(slot0)
 	slot0:setLayerMgrRegister(true)
 
@@ -111,7 +115,7 @@ slot0.load = function(slot0)
 
 	seriesAsync({
 		function (slot0)
-			if tobool(uv0:loadingQueue()) then
+			if uv0:GCWhenAwake() then
 				gcAll(true)
 			end
 
@@ -283,7 +287,7 @@ slot0.onUILoaded = function(slot0, slot1)
 	slot0.optionBtns = {}
 
 	for slot5, slot6 in ipairs(slot0.optionsPath) do
-		table.insert(slot0.optionBtns, slot0:findTF(slot6))
+		table.insert(slot0.optionBtns, slot0._tf:Find(slot6))
 	end
 
 	setActiveViaLayer(slot0._tf, true)
@@ -448,20 +452,8 @@ slot0.detach = function(slot0, slot1)
 	end
 end
 
-slot0.findGO = function(slot0, slot1, slot2)
-	assert(slot0._go, "game object should exist")
-
-	return findGO(slot2 or slot0._go, slot1)
-end
-
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 slot0.getTpl = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF(slot1, slot2)
+	slot3 = (slot2 or slot0._tf):Find(slot1)
 
 	slot3:SetParent(slot0._tf, false)
 	SetActive(slot3, false)
@@ -470,7 +462,7 @@ slot0.getTpl = function(slot0, slot1, slot2)
 end
 
 slot0.setSpriteTo = function(slot0, slot1, slot2, slot3)
-	slot2:GetComponent(typeof(Image)).sprite = slot0:findTF(slot1):GetComponent(typeof(Image)).sprite
+	slot2:GetComponent(typeof(Image)).sprite = slot0._tf:Find(slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then
 		slot4:SetNativeSize()

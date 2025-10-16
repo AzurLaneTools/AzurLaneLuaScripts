@@ -12,7 +12,7 @@ slot0.SpineShopActionSpeed = {
 
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
-	onButton(slot0, slot0:findTF("sdBtn", slot0.bg), function ()
+	onButton(slot0, slot0.bg:Find("sdBtn"), function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.battleBtn, function ()
@@ -53,7 +53,7 @@ slot0.OnFirstFlush = function(slot0)
 		end)
 	end, SFX_PANEL)
 
-	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
+	slot0.sdContainer = slot0.bg:Find("sdcontainer")
 	slot0.sdSpine = nil
 	slot0.sdName = slot0.GetRandomName()
 	slot0.sdSpineLRQ = GetSpineRequestPackage.New(slot0.sdName, function (slot0)
@@ -68,7 +68,7 @@ slot0.OnFirstFlush = function(slot0)
 
 		uv0.sdSpineLRQ = nil
 	end):Start()
-	slot0.shopSpine = slot0:findTF("shop/shop", slot0.bg)
+	slot0.shopSpine = slot0.bg:Find("shop/shop")
 	slot0.shopAnim = slot0.shopSpine:GetComponent("SpineAnimUI")
 	slot0.shopGraphic = slot0.shopSpine:GetComponent("SkeletonGraphic")
 

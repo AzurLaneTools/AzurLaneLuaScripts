@@ -31641,6 +31641,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -31671,6 +31682,17 @@ pg.base.ship_data_group = {
 				"限时活动：飓风与青春之泉",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -31705,6 +31727,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -31737,6 +31770,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -31767,6 +31811,16 @@ pg.base.ship_data_group = {
 				"限时活动：飓风与青春之泉",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

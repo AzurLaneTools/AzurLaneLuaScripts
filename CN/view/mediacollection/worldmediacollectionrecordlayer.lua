@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0._top = slot0:findTF("Top")
-	slot0.memoryMask = slot0:findTF("StoryMask", slot0._top)
+	slot0._top = slot0._tf:Find("Top")
+	slot0.memoryMask = slot0._top:Find("StoryMask")
 end
 
 slot0.OnSelected = function(slot0)
@@ -61,6 +61,7 @@ slot0.GetDetailLayer = function(slot0)
 	if not slot0.detailUI then
 		slot0.detailUI = WorldMediaCollectionRecordDetailLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
+		slot0.detailUI:RegisterView(slot0.viewComponent)
 		slot0.detailUI:Load()
 		slot0.detailUI:SetStoryMask(slot0.memoryMask)
 	end
@@ -104,6 +105,7 @@ slot0.GetGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		slot0.groupUI = WorldMediaCollectionRecordGroupLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
+		slot0.groupUI:RegisterView(slot0.viewComponent)
 		slot0.groupUI:Load()
 	end
 

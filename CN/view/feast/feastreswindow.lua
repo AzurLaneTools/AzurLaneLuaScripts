@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.icon = slot0:findTF("frame/item/icon"):GetComponent(typeof(Image))
-	slot0.name = slot0:findTF("frame/name/Text"):GetComponent(typeof(Text))
-	slot0.desc = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
-	slot0.outPut = slot0:findTF("frame/output/Text"):GetComponent(typeof(Text))
-	slot0.goBtn = slot0:findTF("frame/go")
+	slot0.icon = slot0._tf:Find("frame/item/icon"):GetComponent(typeof(Image))
+	slot0.name = slot0._tf:Find("frame/name/Text"):GetComponent(typeof(Text))
+	slot0.desc = slot0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	slot0.outPut = slot0._tf:Find("frame/output/Text"):GetComponent(typeof(Text))
+	slot0.goBtn = slot0._tf:Find("frame/go")
 
 	setText(slot0.goBtn:Find("Text"), i18n("feast_res_window_go_label"))
-	setText(slot0:findTF("frame/title"), i18n("feast_res_window_title"))
+	setText(slot0._tf:Find("frame/title"), i18n("feast_res_window_title"))
 end
 
 slot0.OnInit = function(slot0)

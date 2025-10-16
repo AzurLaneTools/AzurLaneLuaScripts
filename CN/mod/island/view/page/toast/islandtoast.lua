@@ -7,8 +7,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.container = slot0:findTF("content")
-	slot0.tpl = slot0:findTF("new")
+	slot0.container = slot0._tf:Find("content")
+	slot0.tpl = slot0._tf:Find("new")
 	slot0.hideTime = 3
 end
 

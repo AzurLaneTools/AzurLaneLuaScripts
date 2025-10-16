@@ -8,34 +8,34 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_ADVENTURE)
-	slot0.levelTF = slot0:findTF("frame/level")
+	slot0.levelTF = slot0._tf:Find("frame/level")
 
-	setText(slot0:findTF("title/content/Text", slot0.levelTF), i18n("adventure_award_title"))
-	setText(slot0:findTF("progress/title", slot0.levelTF), i18n("adventure_progress_title"))
-	setText(slot0:findTF("lv", slot0.levelTF), i18n("adventure_lv_title"))
+	setText(slot0.levelTF:Find("title/content/Text"), i18n("adventure_award_title"))
+	setText(slot0.levelTF:Find("progress/title"), i18n("adventure_progress_title"))
+	setText(slot0.levelTF:Find("lv"), i18n("adventure_lv_title"))
 
-	slot0.ptIconTF = slot0:findTF("progress/Image", slot0.levelTF)
-	slot0.ptValueTF = slot0:findTF("progress/value", slot0.levelTF)
-	slot0.ptLvTF = slot0:findTF("lv/Text", slot0.levelTF)
-	slot0.awardView = slot0:findTF("awards/view", slot0.levelTF)
-	slot0.awardUIList = UIItemList.New(slot0:findTF("content", slot0.awardView), slot0:findTF("content/tpl", slot0.awardView))
-	slot0.recordTF = slot0:findTF("frame/record")
+	slot0.ptIconTF = slot0.levelTF:Find("progress/Image")
+	slot0.ptValueTF = slot0.levelTF:Find("progress/value")
+	slot0.ptLvTF = slot0.levelTF:Find("lv/Text")
+	slot0.awardView = slot0.levelTF:Find("awards/view")
+	slot0.awardUIList = UIItemList.New(slot0.awardView:Find("content"), slot0.awardView:Find("content/tpl"))
+	slot0.recordTF = slot0._tf:Find("frame/record")
 
-	setText(slot0:findTF("title/content/Text", slot0.recordTF), i18n("adventure_record_title"))
-	setText(slot0:findTF("grade", slot0.recordTF), i18n("adventure_record_grade_title"))
+	setText(slot0.recordTF:Find("title/content/Text"), i18n("adventure_record_title"))
+	setText(slot0.recordTF:Find("grade"), i18n("adventure_record_grade_title"))
 
-	slot0.recordGradeTF = slot0:findTF("grade/Text", slot0.recordTF)
-	slot0.taskUIList = UIItemList.New(slot0:findTF("form", slot0.recordTF), slot0:findTF("form/tpl", slot0.recordTF))
+	slot0.recordGradeTF = slot0.recordTF:Find("grade/Text")
+	slot0.taskUIList = UIItemList.New(slot0.recordTF:Find("form"), slot0.recordTF:Find("form/tpl"))
 
-	setText(slot0:findTF("frame/tip"), i18n("adventure_award_end_tip"))
+	setText(slot0._tf:Find("frame/tip"), i18n("adventure_award_end_tip"))
 
-	slot0.getBtn = slot0:findTF("frame/get_all_btn")
+	slot0.getBtn = slot0._tf:Find("frame/get_all_btn")
 
-	setText(slot0:findTF("Text", slot0.getBtn), i18n("adventure_get_all"))
+	setText(slot0.getBtn:Find("Text"), i18n("adventure_get_all"))
 
-	slot0.getGreyBtn = slot0:findTF("frame/get_all_btn_grey")
+	slot0.getGreyBtn = slot0._tf:Find("frame/get_all_btn_grey")
 
-	setText(slot0:findTF("Text", slot0.getGreyBtn), i18n("adventure_get_all"))
+	setText(slot0.getGreyBtn:Find("Text"), i18n("adventure_get_all"))
 end
 
 slot0.OnInit = function(slot0)
@@ -130,8 +130,8 @@ slot0.InitTaskUI = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = getProxy(TaskProxy):getTaskById(uv0.taskIds[slot1 + 1])
 
-			setText(uv0:findTF("name", slot2), slot4:getConfig("desc"))
-			setText(uv0:findTF("value", slot2), slot4:getProgress())
+			setText(slot2:Find("name"), slot4:getConfig("desc"))
+			setText(slot2:Find("value"), slot4:getProgress())
 		end
 	end)
 end

@@ -25,12 +25,12 @@ slot1 = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.closeBtn = slot0:findTF("frame/close")
+	slot0.scrollrect = slot0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
 
-	setText(slot0:findTF("frame/titles/num"), i18n("guild_damage_ranking"))
-	setText(slot0:findTF("frame/titles/member"), i18n("guild_word_member"))
-	setText(slot0:findTF("frame/titles/damage"), i18n("guild_total_damage"))
+	setText(slot0._tf:Find("frame/titles/num"), i18n("guild_damage_ranking"))
+	setText(slot0._tf:Find("frame/titles/member"), i18n("guild_word_member"))
+	setText(slot0._tf:Find("frame/titles/damage"), i18n("guild_total_damage"))
 end
 
 slot0.OnInit = function(slot0)

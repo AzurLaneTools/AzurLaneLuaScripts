@@ -7,9 +7,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.layer = slot0:findTF("fixed")
-	slot0.top = slot0:findTF("top", slot0.layer)
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.layer = slot0._tf:Find("fixed")
+	slot0.top = slot0.layer:Find("top")
 	slot0.backBtn = slot0.top:Find("back_btn")
 	slot0.homeBtn = slot0.top:Find("option")
 	slot0.playerResOb = slot0.top:Find("playerRes")

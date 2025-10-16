@@ -25,30 +25,30 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot1 = slot0:findTF("DayImg")
+	slot1 = slot0._tf:Find("DayImg")
 	slot0.daySpriteList = {}
 
 	for slot5 = 0, slot0.totalSignCount - 1 do
 		table.insert(slot0.daySpriteList, getImageSprite(slot1:GetChild(slot5)))
 	end
 
-	slot0.dayTpl = slot0:findTF("DayTpl")
-	slot0.scrollRectTF = slot0:findTF("ScrollRect")
-	slot0.dayContainerTF = slot0:findTF("ScrollRect/Container")
-	slot0.signCountText = slot0:findTF("DayCount/Text")
+	slot0.dayTpl = slot0._tf:Find("DayTpl")
+	slot0.scrollRectTF = slot0._tf:Find("ScrollRect")
+	slot0.dayContainerTF = slot0._tf:Find("ScrollRect/Container")
+	slot0.signCountText = slot0._tf:Find("DayCount/Text")
 	slot0.dayUIItemList = UIItemList.New(slot0.dayContainerTF, slot0.dayTpl)
 
 	slot0.dayUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot6 = uv0:findTF("DayImg", slot2)
-			slot7 = uv0:findTF("Got", slot2)
-			slot8 = uv0:findTF("GotMask", slot2)
+			slot6 = slot2:Find("DayImg")
+			slot7 = slot2:Find("Got")
+			slot8 = slot2:Find("GotMask")
 			slot10 = uv0.dayAwardList[slot1 + 1]
 
 			for slot14, slot15 in ipairs({
-				uv0:findTF("Item1/Icon", slot2),
-				uv0:findTF("Item2/Icon", slot2),
-				uv0:findTF("Item3/Icon", slot2)
+				slot2:Find("Item1/Icon"),
+				slot2:Find("Item2/Icon"),
+				slot2:Find("Item3/Icon")
 			}) do
 				if slot10[slot14].type ~= DROP_TYPE_SHIP then
 					setImageSprite(slot15, LoadSprite(slot16:getIcon()))

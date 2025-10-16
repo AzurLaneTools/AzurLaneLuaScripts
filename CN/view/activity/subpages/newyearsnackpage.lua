@@ -1,11 +1,11 @@
 slot0 = class("NewYearSnackPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.progressTpl = slot0:findTF("ProgressTpl")
-	slot0.progressTplContainer = slot0:findTF("ProgressList")
+	slot0.progressTpl = slot0._tf:Find("ProgressTpl")
+	slot0.progressTplContainer = slot0._tf:Find("ProgressList")
 	slot0.progressUIItemList = UIItemList.New(slot0.progressTplContainer, slot0.progressTpl)
-	slot0.helpBtn = slot0:findTF("HelpBtn")
-	slot0.goBtn = slot0:findTF("GoBtn")
+	slot0.helpBtn = slot0._tf:Find("HelpBtn")
+	slot0.goBtn = slot0._tf:Find("GoBtn")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -20,11 +20,11 @@ end
 slot0.OnFirstFlush = function(slot0)
 	slot0.progressUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("Unlocked", slot2)
-			slot5 = uv0:findTF("Finished", slot2)
-			slot6 = uv0:findTF("FinalFinished", slot2)
+			slot4 = slot2:Find("Unlocked")
+			slot5 = slot2:Find("Finished")
+			slot6 = slot2:Find("FinalFinished")
 
-			setActive(uv0:findTF("Locked", slot2), uv0.curDay < slot1 + 1)
+			setActive(slot2:Find("Locked"), uv0.curDay < slot1 + 1)
 
 			if slot1 <= uv0.curDay then
 				setActive(slot4, uv0.playedCount < slot1)

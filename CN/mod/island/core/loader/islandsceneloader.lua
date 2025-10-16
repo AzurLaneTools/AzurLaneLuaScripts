@@ -10,10 +10,6 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 			uv0:LoadProgressUI(uv1, slot0)
 		end,
 		function (slot0)
-			gcAll(true)
-			onNextTick(slot0)
-		end,
-		function (slot0)
 			uv0:LoadScene(uv1, slot0)
 		end,
 		function (slot0)
@@ -26,8 +22,7 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 			onNextTick(slot0)
 		end,
 		function (slot0)
-			uv0:UnloadProgressUI()
-			slot0()
+			onNextTick(slot0)
 		end
 	}
 
@@ -36,6 +31,8 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	seriesAsync(slot5, function ()
+		gcAll(true)
+		uv0:UnloadProgressUI()
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end

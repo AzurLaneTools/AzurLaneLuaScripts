@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.confirmBtn = slot0:findTF("confirm_btn")
-	slot0.tipTxt = slot0:findTF("title/label"):GetComponent(typeof(Text))
-	slot0.leftList = UIItemList.New(slot0:findTF("left/scrollrect/list"), slot0:findTF("left/scrollrect/list/tpl"))
-	slot0.rightList = UIItemList.New(slot0:findTF("right/scrollrect/list"), slot0:findTF("left/scrollrect/list/tpl"))
+	slot0.confirmBtn = slot0._tf:Find("confirm_btn")
+	slot0.tipTxt = slot0._tf:Find("title/label"):GetComponent(typeof(Text))
+	slot0.leftList = UIItemList.New(slot0._tf:Find("left/scrollrect/list"), slot0._tf:Find("left/scrollrect/list/tpl"))
+	slot0.rightList = UIItemList.New(slot0._tf:Find("right/scrollrect/list"), slot0._tf:Find("left/scrollrect/list/tpl"))
 
 	setText(slot0.tipTxt, i18n("skin_discount_item_tran_tip"))
 end

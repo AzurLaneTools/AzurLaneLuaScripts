@@ -6,27 +6,42 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.togglesTF = slot0:findTF("frame/toggles")
+	slot1 = slot0._tf
+	slot0.togglesTF = slot1:Find("frame/toggles")
 
 	eachChild(slot0.togglesTF, function (slot0)
 		onToggle(uv0, slot0, function (slot0)
-			setImageColor(uv0:findTF("name", uv1), Color.NewHex(slot0 and "F5ECDD" or "796464"))
+			setImageColor(uv0:Find("name"), Color.NewHex(slot0 and "F5ECDD" or "796464"))
 		end, SFX_PANEL)
 	end)
 
-	slot0.townTip = slot0:findTF("town/tip", slot0.togglesTF)
-	slot0.placeTip = slot0:findTF("place/tip", slot0.togglesTF)
-	slot0.shipTip = slot0:findTF("ship/tip", slot0.togglesTF)
-	slot0.townPanel = slot0:findTF("frame/panels/town_panel")
-	slot0.townLevelNow = slot0:findTF("lvmask/level_now", slot0.townPanel)
-	slot0.townLevelNext = slot0:findTF("lvmask/level_next", slot0.townPanel)
-	slot0.curExp = slot0:findTF("infos/exp/value/cur", slot0.townPanel)
-	slot0.needExp = slot0:findTF("infos/exp/value/need", slot0.townPanel)
-	slot0.goldOutput = slot0:findTF("infos/output/value", slot0.townPanel)
-	slot0.goldLimit = slot0:findTF("infos/limit/value", slot0.townPanel)
-	slot0.townUpgradeTF = slot0:findTF("upgrade_status", slot0.townPanel)
-	slot0.shipPanel = slot0:findTF("frame/panels/ship_panel")
-	slot0.shipUIList = UIItemList.New(slot0:findTF("content", slot0.shipPanel), slot0:findTF("content/tpl", slot0.shipPanel))
+	slot1 = slot0.togglesTF
+	slot0.townTip = slot1:Find("town/tip")
+	slot1 = slot0.togglesTF
+	slot0.placeTip = slot1:Find("place/tip")
+	slot1 = slot0.togglesTF
+	slot0.shipTip = slot1:Find("ship/tip")
+	slot1 = slot0._tf
+	slot0.townPanel = slot1:Find("frame/panels/town_panel")
+	slot1 = slot0.townPanel
+	slot0.townLevelNow = slot1:Find("lvmask/level_now")
+	slot1 = slot0.townPanel
+	slot0.townLevelNext = slot1:Find("lvmask/level_next")
+	slot1 = slot0.townPanel
+	slot0.curExp = slot1:Find("infos/exp/value/cur")
+	slot1 = slot0.townPanel
+	slot0.needExp = slot1:Find("infos/exp/value/need")
+	slot1 = slot0.townPanel
+	slot0.goldOutput = slot1:Find("infos/output/value")
+	slot1 = slot0.townPanel
+	slot0.goldLimit = slot1:Find("infos/limit/value")
+	slot1 = slot0.townPanel
+	slot0.townUpgradeTF = slot1:Find("upgrade_status")
+	slot1 = slot0._tf
+	slot0.shipPanel = slot1:Find("frame/panels/ship_panel")
+	slot2 = slot0.shipPanel
+	slot3 = slot0.shipPanel
+	slot0.shipUIList = UIItemList.New(slot2:Find("content"), slot3:Find("content/tpl"))
 	slot1 = slot0.shipUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -35,11 +50,15 @@ slot0.OnLoaded = function(slot0)
 		end
 	end)
 
-	slot0.placePanel = slot0:findTF("frame/panels/place_panel")
+	slot1 = slot0._tf
+	slot0.placePanel = slot1:Find("frame/panels/place_panel")
+	slot2 = slot0.placePanel
 
-	setText(slot0:findTF("view/content/tpl/next/title", slot0.placePanel), i18n("town_place_next_title"))
+	setText(slot2:Find("view/content/tpl/next/title"), i18n("town_place_next_title"))
 
-	slot0.placeUIList = UIItemList.New(slot0:findTF("view/content", slot0.placePanel), slot0:findTF("view/content/tpl", slot0.placePanel))
+	slot2 = slot0.placePanel
+	slot3 = slot0.placePanel
+	slot0.placeUIList = UIItemList.New(slot2:Find("view/content"), slot3:Find("view/content/tpl"))
 	slot1 = slot0.placeUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -75,7 +94,7 @@ slot0.OnInit = function(slot0)
 			end
 		end
 	end)()
-	triggerToggle(slot0:findTF("town", slot0.togglesTF), true)
+	triggerToggle(slot0.togglesTF:Find("town"), true)
 end
 
 slot0.Flush = function(slot0)
@@ -137,7 +156,10 @@ slot0.UpdateTownStatus = function(slot0)
 	eachChild(slot0.townUpgradeTF, function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
-	onButton(slot0, slot0:findTF("normal", slot0.townUpgradeTF), function ()
+
+	slot6 = slot0.townUpgradeTF
+
+	onButton(slot0, slot6:Find("normal"), function ()
 		if not uv0 or uv1.inTownAnim then
 			return
 		end
@@ -146,10 +168,10 @@ slot0.UpdateTownStatus = function(slot0)
 	end, SFX_PANEL)
 
 	if slot2 == "no_story" then
-		setText(slot0:findTF("no_story/content/value/cur", slot0.townUpgradeTF), slot3[1])
-		setText(slot0:findTF("no_story/content/value/need", slot0.townUpgradeTF), "/" .. slot3[2])
+		setText(slot0.townUpgradeTF:Find("no_story/content/value/cur"), slot3[1])
+		setText(slot0.townUpgradeTF:Find("no_story/content/value/need"), "/" .. slot3[2])
 	elseif slot2 == "no_exp_or_gold" then
-		setTextColor(slot0:findTF("no_exp_or_gold/cost/Text", slot0.townUpgradeTF), Color.NewHex(slot3 == "no_gold" and "FF756E" or "FFEBC9"))
+		setTextColor(slot0.townUpgradeTF:Find("no_exp_or_gold/cost/Text"), Color.NewHex(slot3 == "no_gold" and "FF756E" or "FFEBC9"))
 	end
 end
 
@@ -160,8 +182,8 @@ slot0.FlushTownWithoutLv = function(slot0)
 
 	slot3 = TownActivity.GoldToShow(pg.activity_town_level[slot0.townLv].gold)
 
-	setText(slot0:findTF("normal/cost/Text", slot0.townUpgradeTF), slot3)
-	setText(slot0:findTF("no_exp_or_gold/cost/Text", slot0.townUpgradeTF), slot3)
+	setText(slot0.townUpgradeTF:Find("normal/cost/Text"), slot3)
+	setText(slot0.townUpgradeTF:Find("no_exp_or_gold/cost/Text"), slot3)
 	slot0:UpdateTownStatus()
 end
 
@@ -184,25 +206,25 @@ end
 slot0.UpdateShip = function(slot0, slot1, slot2)
 	slot4 = slot0.unlockCnt < slot1 + 1
 
-	setActive(slot0:findTF("lock", slot2), slot4)
+	setActive(slot2:Find("lock"), slot4)
 
 	if slot4 then
-		setText(slot0:findTF("lock/Text", slot2), i18n("town_lock_level", "LV" .. slot0.slotUnlockLv[slot3]))
+		setText(slot2:Find("lock/Text"), i18n("town_lock_level", "LV" .. slot0.slotUnlockLv[slot3]))
 	end
 
 	slot6 = not slot0.shipIds[slot3] or slot5 == 0
 
-	setActive(slot0:findTF("empty", slot2), slot6)
-	setActive(slot0:findTF("mask", slot2), not slot6)
+	setActive(slot2:Find("empty"), slot6)
+	setActive(slot2:Find("mask"), not slot6)
 
 	slot7 = nil
 
 	if not slot6 then
 		if getProxy(BayProxy):RawGetShipById(slot5) then
-			setImageSprite(slot0:findTF("mask/icon", slot2), LoadSprite("qicon/" .. slot8:getPainting()), true)
+			setImageSprite(slot2:Find("mask/icon"), LoadSprite("qicon/" .. slot8:getPainting()), true)
 		else
-			setActive(slot0:findTF("empty", slot2), true)
-			setActive(slot0:findTF("mask", slot2), false)
+			setActive(slot2:Find("empty"), true)
+			setActive(slot2:Find("mask"), false)
 		end
 	end
 
@@ -230,11 +252,11 @@ slot0.FlushPlacePanel = function(slot0)
 end
 
 slot0.UpdatePlaceStatus = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("upgrade_status", slot2)
+	slot3 = slot2:Find("upgrade_status")
 	slot4 = TownActivity.GoldToShow(slot1:GetCostGold())
 
-	setText(slot0:findTF("normal/cost/Text", slot3), slot4)
-	setText(slot0:findTF("no_gold/cost/Text", slot3), slot4)
+	setText(slot3:Find("normal/cost/Text"), slot4)
+	setText(slot3:Find("no_gold/cost/Text"), slot4)
 
 	slot5, slot6 = slot0.activity:CanUpgradePlace(slot1.id)
 
@@ -245,7 +267,7 @@ slot0.UpdatePlaceStatus = function(slot0, slot1, slot2)
 	eachChild(slot3, function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
-	onButton(slot0, slot0:findTF("normal", slot3), function ()
+	onButton(slot0, slot3:Find("normal"), function ()
 		if not uv0 or uv1.inPlaceAnim then
 			return
 		end
@@ -256,7 +278,7 @@ slot0.UpdatePlaceStatus = function(slot0, slot1, slot2)
 	end, SFX_PANEL)
 
 	if slot6 == "no_level" then
-		setText(slot0:findTF("no_level/Text", slot3), i18n("town_lock_level", "LV" .. slot1:GetNeedTownLv()))
+		setText(slot3:Find("no_level/Text"), i18n("town_lock_level", "LV" .. slot1:GetNeedTownLv()))
 	end
 end
 
@@ -264,9 +286,9 @@ slot0.UpdatePlace = function(slot0, slot1, slot2)
 	slot3 = slot0.placeList[slot1 + 1]
 	slot2.name = slot1 + 1
 
-	setImageSprite(slot0:findTF("info/icon", slot2), GetSpriteFromAtlas("ui/townui_atlas", slot3:GetIcon()), true)
-	setText(slot0:findTF("info/name", slot2), slot3:GetName())
-	setText(slot0:findTF("info/gold/Text", slot2), slot3:GetEffectStr())
+	setImageSprite(slot2:Find("info/icon"), GetSpriteFromAtlas("ui/townui_atlas", slot3:GetIcon()), true)
+	setText(slot2:Find("info/name"), slot3:GetName())
+	setText(slot2:Find("info/gold/Text"), slot3:GetEffectStr())
 	seriesAsync({
 		function (slot0)
 			if uv0.upgradePlaceName and uv1.name == uv0.upgradePlaceName then
@@ -299,17 +321,17 @@ slot0.UpdatePlace = function(slot0, slot1, slot2)
 		function (slot0)
 			slot2 = not uv0:GetNextId()
 
-			setActive(uv1:findTF("next", uv2), not slot2)
+			setActive(uv1:Find("next"), not slot2)
 
 			if not slot2 then
-				setText(uv1:findTF("next/infos/exp/value", uv2), "+" .. uv0:GetAddExp())
-				setText(uv1:findTF("next/infos/gold/value", uv2), TownWorkplace.New(slot1):GetEffectStr())
+				setText(uv1:Find("next/infos/exp/value"), "+" .. uv0:GetAddExp())
+				setText(uv1:Find("next/infos/gold/value"), TownWorkplace.New(slot1):GetEffectStr())
 			end
 		end
 	}, function ()
 	end)
-	setActive(slot0:findTF("info/gold", slot2), slot3:GetGroup() ~= slot0.specialWorkGroup)
-	setActive(slot0:findTF("next/infos/gold", slot2), slot3:GetGroup() ~= slot0.specialWorkGroup)
+	setActive(slot2:Find("info/gold"), slot3:GetGroup() ~= slot0.specialWorkGroup)
+	setActive(slot2:Find("next/infos/gold"), slot3:GetGroup() ~= slot0.specialWorkGroup)
 	slot0:UpdatePlaceStatus(slot3, slot2)
 end
 
@@ -319,7 +341,7 @@ slot0.OnUpdateTime = function(slot0)
 	slot0.isShowPlaceTip = false
 
 	for slot4, slot5 in ipairs(slot0.placeList) do
-		slot0:UpdatePlaceStatus(slot5, slot0:findTF(slot4, slot0.placeUIList.container))
+		slot0:UpdatePlaceStatus(slot5, slot0.placeUIList.container:Find(slot4))
 	end
 
 	setActive(slot0.placeTip, slot0.isShowPlaceTip)

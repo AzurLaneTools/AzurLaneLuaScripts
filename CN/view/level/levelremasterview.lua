@@ -5,18 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.content = slot0:findTF("list/content")
+	slot1 = slot0._tf
+	slot0.content = slot1:Find("list/content")
 	slot1 = slot0.content
 	slot0.item = slot1:Find("item")
-	slot0.numsTxt = slot0:findTF("nums/text")
-	slot0.helpBtn = slot0:findTF("help")
+	slot1 = slot0._tf
+	slot0.numsTxt = slot1:Find("nums/text")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("help")
 
 	setActive(slot0.item, false)
 
-	slot0.getRemasterTF = slot0:findTF("getBtn/state_before")
-	slot0.gotRemasterTF = slot0:findTF("getBtn/state_after")
-	slot0.exToggle = slot0:findTF("toggles/EX")
-	slot0.spToggle = slot0:findTF("toggles/SP")
+	slot1 = slot0._tf
+	slot0.getRemasterTF = slot1:Find("getBtn/state_before")
+	slot1 = slot0._tf
+	slot0.gotRemasterTF = slot1:Find("getBtn/state_after")
+	slot1 = slot0._tf
+	slot0.exToggle = slot1:Find("toggles/EX")
+	slot1 = slot0._tf
+	slot0.spToggle = slot1:Find("toggles/SP")
 
 	slot0:bind(LevelUIConst.FLUSH_REMASTER_INFO, function (slot0)
 		if not uv0:isShowing() then

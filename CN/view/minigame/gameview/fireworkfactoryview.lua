@@ -44,14 +44,14 @@ slot0.TransformColor = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0.plate = slot0:findTF("plate")
-	slot0.storage = slot0:findTF("storage")
-	slot0.dispenseView = slot0:findTF("top/dispenseView")
+	slot0.top = slot0._tf:Find("top")
+	slot0.plate = slot0._tf:Find("plate")
+	slot0.storage = slot0._tf:Find("storage")
+	slot0.dispenseView = slot0._tf:Find("top/dispenseView")
 
 	setActive(slot0.dispenseView, false)
 
-	slot0.resultWindow = slot0:findTF("top/resultwindow")
+	slot0.resultWindow = slot0._tf:Find("top/resultwindow")
 
 	setActive(slot0.resultWindow, false)
 
@@ -76,8 +76,8 @@ slot0.init = function(slot0)
 	slot0.lastSelectedBall = nil
 	slot0.ballStoragePanel = slot0.storage:Find("house/layout")
 	slot0.ballStorages = CustomIndexLayer.Clone2Full(slot0.ballStoragePanel, 6)
-	slot0.screen_mask = slot0:findTF("mask")
-	slot0.btn_next = slot0:findTF("Button")
+	slot0.screen_mask = slot0._tf:Find("mask")
+	slot0.btn_next = slot0._tf:Find("Button")
 	slot0.btn_next_text = slot0.btn_next:Find("Image")
 	slot0.desc_dispense = slot0.dispenseView:Find("intro/Scroll View/Viewport/text")
 	slot4 = "help_firework_produce"

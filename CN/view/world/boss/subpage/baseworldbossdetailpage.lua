@@ -54,16 +54,16 @@ slot0.Setup = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.supportBtn = slot0:findTF("btns/help_btn")
-	slot0.startBtn = slot0:findTF("btns/start_btn")
-	slot0.awardBtn = slot0:findTF("btns/award_btn")
-	slot0.timeTF = slot0:findTF("btns/time")
-	slot0.leftTime = slot0:findTF("btns/time/label/Text"):GetComponent(typeof(Text))
-	slot0.awardList = UIItemList.New(slot0:findTF("award_panel/list"), slot0:findTF("award_panel/list/tpl"))
-	slot0.levelTxt = slot0:findTF("hp/level/Text"):GetComponent(typeof(Text))
-	slot0.hpTxt = slot0:findTF("hp/Text"):GetComponent(typeof(Text))
-	slot0.hpSlider = slot0:findTF("hp/slider"):GetComponent(typeof(Slider))
-	slot0.painting = slot0:findTF("paint")
+	slot0.supportBtn = slot0._tf:Find("btns/help_btn")
+	slot0.startBtn = slot0._tf:Find("btns/start_btn")
+	slot0.awardBtn = slot0._tf:Find("btns/award_btn")
+	slot0.timeTF = slot0._tf:Find("btns/time")
+	slot0.leftTime = slot0._tf:Find("btns/time/label/Text"):GetComponent(typeof(Text))
+	slot0.awardList = UIItemList.New(slot0._tf:Find("award_panel/list"), slot0._tf:Find("award_panel/list/tpl"))
+	slot0.levelTxt = slot0._tf:Find("hp/level/Text"):GetComponent(typeof(Text))
+	slot0.hpTxt = slot0._tf:Find("hp/Text"):GetComponent(typeof(Text))
+	slot0.hpSlider = slot0._tf:Find("hp/slider"):GetComponent(typeof(Slider))
+	slot0.painting = slot0._tf:Find("paint")
 	slot0.infoAndRankPanel = WorldBossInfoAndRankPanel.New(slot0._tf, slot0.event)
 
 	slot0.infoAndRankPanel:SetCallback(function (slot0)
@@ -84,7 +84,7 @@ slot0.OnLoaded = function(slot0)
 			end
 		end, SFX_PANEL)
 	end)
-	setText(slot0:findTF("btns/time/label"), i18n("time_remaining_tip"))
+	setText(slot0._tf:Find("btns/time/label"), i18n("time_remaining_tip"))
 end
 
 slot0.OnInit = function(slot0)
@@ -159,7 +159,7 @@ slot0.UpdatePainting = function(slot0, slot1)
 
 	if slot0.groupId ~= slot1 then
 		slot0.groupId = slot1
-		slot2 = slot0:findTF("label"):GetComponent(typeof(Image))
+		slot2 = slot0._tf:Find("label"):GetComponent(typeof(Image))
 		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot0.groupId, "title" .. slot0:GetResSuffix())
 
 		slot2:SetNativeSize()

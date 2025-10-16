@@ -7,10 +7,10 @@ end
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.ssrToggle = slot0:findTF("frame/bg/content/rarity/ssr")
-	slot0.srToggle = slot0:findTF("frame/bg/content/rarity/sr")
-	slot0.rToggle = slot0:findTF("frame/bg/content/rarity/r")
-	slot0.descTxt = slot0:findTF("frame/bg/content/rarity/Text"):GetComponent(typeof(Text))
+	slot0.ssrToggle = slot0._tf:Find("frame/bg/content/rarity/ssr")
+	slot0.srToggle = slot0._tf:Find("frame/bg/content/rarity/sr")
+	slot0.rToggle = slot0._tf:Find("frame/bg/content/rarity/r")
+	slot0.descTxt = slot0._tf:Find("frame/bg/content/rarity/Text"):GetComponent(typeof(Text))
 end
 
 slot0.Show = function(slot0, slot1)

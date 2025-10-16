@@ -15,8 +15,8 @@ slot0.OnCatteryStyleUpdate = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollrect = slot0:findTF("scrollrect"):GetComponent("LScrollRect")
-	slot0.okBtn = slot0:findTF("ok_button")
+	slot0.scrollrect = slot0._tf:Find("scrollrect"):GetComponent("LScrollRect")
+	slot0.okBtn = slot0._tf:Find("ok_button")
 
 	setActive(slot0._tf, true)
 end

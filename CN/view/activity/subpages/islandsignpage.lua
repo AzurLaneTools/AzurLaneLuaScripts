@@ -39,7 +39,7 @@ slot0.OnFirstFlush = function(slot0)
 			slot5 = Drop.Create(uv0.taskConfig[uv0.taskGroup[slot3]].award_display[1])
 
 			if slot3 < 7 then
-				updateDrop(uv0:findTF("item", slot2), slot5)
+				updateDrop(slot2:Find("item"), slot5)
 			end
 
 			onButton(uv0, slot2, function ()
@@ -49,11 +49,11 @@ slot0.OnFirstFlush = function(slot0)
 	end)
 	slot0.uiGotList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("get_bg", slot2), uv0.taskDic[uv0.taskGroup[slot1 + 1]] and slot5:isOver())
-			setActive(uv0:findTF("tip", slot2), slot5 and slot5:getTaskStatus() == 0 and not slot5:isOver())
+			setActive(slot2:Find("get_bg"), uv0.taskDic[uv0.taskGroup[slot1 + 1]] and slot5:isOver())
+			setActive(slot2:Find("tip"), slot5 and slot5:getTaskStatus() == 0 and not slot5:isOver())
 		end
 	end)
-	setActive(slot0:findTF("tip", slot0.uiGoBtn), #slot0:GetCanReceiveTaskList() > 0)
+	setActive(slot0.uiGoBtn:Find("tip"), #slot0:GetCanReceiveTaskList() > 0)
 	onButton(slot0, slot0.uiGoBtn, function ()
 		if uv0.liveAreaPage == nil then
 			uv0.liveAreaPage = MainLiveAreaPage.New(uv0._parentTf, uv0.event)
@@ -75,7 +75,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot0:UpdateTaskData()
 	slot0.uilist:align(#slot0.taskGroup)
 	slot0.uiGotList:align(#slot0.taskGroup)
-	setActive(slot0:findTF("tip", slot0.uiGoBtn), #slot0:GetCanReceiveTaskList() > 0)
+	setActive(slot0.uiGoBtn:Find("tip"), #slot0:GetCanReceiveTaskList() > 0)
 end
 
 slot0.GetDate = function()

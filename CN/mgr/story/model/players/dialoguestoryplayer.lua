@@ -6,24 +6,24 @@ slot3 = 250
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.actorPanel = slot0:findTF("actor")
-	slot0.actorLeft = slot0:findTF("actor_left", slot0.actorPanel)
+	slot0.actorPanel = slot0._tf:Find("actor")
+	slot0.actorLeft = slot0.actorPanel:Find("actor_left")
 	slot0.initActorLeftPos = slot0.actorLeft.localPosition
-	slot0.actorMiddle = slot0:findTF("actor_middle", slot0.actorPanel)
+	slot0.actorMiddle = slot0.actorPanel:Find("actor_middle")
 	slot0.initActorMiddlePos = slot0.actorMiddle.localPosition
-	slot0.actorRgiht = slot0:findTF("actor_right", slot0.actorPanel)
+	slot0.actorRgiht = slot0.actorPanel:Find("actor_right")
 	slot0.initActorRgihtPos = slot0.actorRgiht.localPosition
 	slot0.sortingOrder = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
-	slot0.subActorMiddle = UIItemList.New(slot0:findTF("actor_middle/sub", slot0.actorPanel), slot0:findTF("actor_middle/sub/tpl", slot0.actorPanel))
-	slot0.subActorRgiht = UIItemList.New(slot0:findTF("actor_right/sub", slot0.actorPanel), slot0:findTF("actor_right/sub/tpl", slot0.actorPanel))
-	slot0.subActorLeft = UIItemList.New(slot0:findTF("actor_left/sub", slot0.actorPanel), slot0:findTF("actor_left/sub/tpl", slot0.actorPanel))
-	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
-	slot0.maskMaterial = slot0:findTF("resource/material2"):GetComponent(typeof(Image)).material
-	slot0.maskMaterialForWithLayer = slot0:findTF("resource/material5"):GetComponent(typeof(Image)).material
-	slot0.glitchArtMaterialForPainting = slot0:findTF("resource/material3"):GetComponent(typeof(Image)).material
-	slot0.glitchArtMaterialForPaintingBg = slot0:findTF("resource/material4"):GetComponent(typeof(Image)).material
-	slot0.headObjectMat = slot0:findTF("resource/material6"):GetComponent(typeof(Image)).material
-	slot0.headMaskMat = slot0:findTF("resource/material7"):GetComponent(typeof(Image)).material
+	slot0.subActorMiddle = UIItemList.New(slot0.actorPanel:Find("actor_middle/sub"), slot0.actorPanel:Find("actor_middle/sub/tpl"))
+	slot0.subActorRgiht = UIItemList.New(slot0.actorPanel:Find("actor_right/sub"), slot0.actorPanel:Find("actor_right/sub/tpl"))
+	slot0.subActorLeft = UIItemList.New(slot0.actorPanel:Find("actor_left/sub"), slot0.actorPanel:Find("actor_left/sub/tpl"))
+	slot0.glitchArtMaterial = slot0._tf:Find("resource/material1"):GetComponent(typeof(Image)).material
+	slot0.maskMaterial = slot0._tf:Find("resource/material2"):GetComponent(typeof(Image)).material
+	slot0.maskMaterialForWithLayer = slot0._tf:Find("resource/material5"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterialForPainting = slot0._tf:Find("resource/material3"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterialForPaintingBg = slot0._tf:Find("resource/material4"):GetComponent(typeof(Image)).material
+	slot0.headObjectMat = slot0._tf:Find("resource/material6"):GetComponent(typeof(Image)).material
+	slot0.headMaskMat = slot0._tf:Find("resource/material7"):GetComponent(typeof(Image)).material
 	slot0.typewriterSpeed = 0
 	slot0.contentBgAlpha = 1
 	slot0.live2dChars = {}
@@ -31,15 +31,15 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.OnStart = function(slot0, slot1)
-	slot0.nextTr = slot0:findTF("next", slot0.dialogueWin)
-	slot0.conentTr = slot0:findTF("content", slot0.dialogueWin)
-	slot0.conentTxt = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Text))
-	slot0.typewriter = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Typewriter))
-	slot0.nameTr = slot0:findTF("content/name", slot0.dialogueWin)
-	slot0.tag4Dialog2 = slot0:findTF("content/tag", slot0.dialogueWin)
-	slot0.nameTxt = slot0:findTF("Text", slot0.nameTr):GetComponent(typeof(Text))
-	slot0.portraitTr = slot0:findTF("portrait", slot0.dialogueWin)
-	slot0.conentLineTr = slot0:findTF("line", slot0.dialogueWin)
+	slot0.nextTr = slot0.dialogueWin:Find("next")
+	slot0.conentTr = slot0.dialogueWin:Find("content")
+	slot0.conentTxt = slot0.dialogueWin:Find("content"):GetComponent(typeof(Text))
+	slot0.typewriter = slot0.dialogueWin:Find("content"):GetComponent(typeof(Typewriter))
+	slot0.nameTr = slot0.dialogueWin:Find("content/name")
+	slot0.tag4Dialog2 = slot0.dialogueWin:Find("content/tag")
+	slot0.nameTxt = slot0.nameTr:Find("Text"):GetComponent(typeof(Text))
+	slot0.portraitTr = slot0.dialogueWin:Find("portrait")
+	slot0.conentLineTr = slot0.dialogueWin:Find("line")
 	slot2 = slot0.portraitTr
 	slot0.portraitImg = slot2:GetComponent(typeof(Image))
 	slot0.tags = {
@@ -47,8 +47,8 @@ slot0.OnStart = function(slot0, slot1)
 		slot0.nameTr:Find("tags/2")
 	}
 	slot0.contentBgs = {
-		slot0:findTF("bg", slot0.nameTr),
-		slot0:findTF("bg", slot0.dialogueWin)
+		slot0.nameTr:Find("bg"),
+		slot0.dialogueWin:Find("bg")
 	}
 	slot0.defualtFontSize = slot0.conentTxt.fontSize
 end

@@ -7,9 +7,9 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.config = pg.child_attr
-	slot0.foldPanelTF = slot0:findTF("fold_panel")
-	slot0.showBtn = slot0:findTF("show_btn", slot0.foldPanelTF)
-	slot0.showPanelTF = slot0:findTF("show_panel")
+	slot0.foldPanelTF = slot0._tf:Find("fold_panel")
+	slot0.showBtn = slot0.foldPanelTF:Find("show_btn")
+	slot0.showPanelTF = slot0._tf:Find("show_panel")
 	slot0.showAnim = slot0.showPanelTF:GetComponent(typeof(Animation))
 	slot0.showAnimEvent = slot0.showPanelTF:GetComponent(typeof(DftAniEvent))
 
@@ -17,35 +17,35 @@ slot0.OnInit = function(slot0)
 		setActive(uv0.showPanelTF, false)
 	end)
 
-	slot0.blurBg = slot0:findTF("panel", slot0.showPanelTF)
-	slot0.foldBtn = slot0:findTF("fold_btn", slot0.showPanelTF)
-	slot0.pageSnap = slot0:findTF("panel/event", slot0.showPanelTF):GetComponent("HScrollSnap")
+	slot0.blurBg = slot0.showPanelTF:Find("panel")
+	slot0.foldBtn = slot0.showPanelTF:Find("fold_btn")
+	slot0.pageSnap = slot0.showPanelTF:Find("panel/event"):GetComponent("HScrollSnap")
 
 	slot0.pageSnap:Init()
 
-	slot0.page1 = slot0:findTF("panel/event/content/page1", slot0.showPanelTF)
+	slot0.page1 = slot0.showPanelTF:Find("panel/event/content/page1")
 
-	setText(slot0:findTF("title/name_title/name", slot0.page1), i18n("child_archive_name"))
-	setText(slot0:findTF("attr_title/Text", slot0.page1), i18n("child_attr_name1"))
-	setText(slot0:findTF("buff_title/Text", slot0.page1), i18n("child_buff_name"))
+	setText(slot0.page1:Find("title/name_title/name"), i18n("child_archive_name"))
+	setText(slot0.page1:Find("attr_title/Text"), i18n("child_attr_name1"))
+	setText(slot0.page1:Find("buff_title/Text"), i18n("child_buff_name"))
 
-	slot0.avatarImageTF = slot0:findTF("title/avatar", slot0.page1)
-	slot0.attrsList1 = UIItemList.New(slot0:findTF("attrs/content", slot0.page1), slot0:findTF("attrs/tpl", slot0.page1))
-	slot0.gradientBgTF = slot0:findTF("attrs/bg_gradient", slot0.page1)
-	slot0.buffContentTF = slot0:findTF("buff/content", slot0.page1)
-	slot0.buffItemList = UIItemList.New(slot0:findTF("buff/content/content", slot0.page1), slot0:findTF("buff/tpl", slot0.page1))
-	slot0.buffLockTF = slot0:findTF("buff/lock", slot0.page1)
-	slot0.page2 = slot0:findTF("panel/event/content/page2", slot0.showPanelTF)
+	slot0.avatarImageTF = slot0.page1:Find("title/avatar")
+	slot0.attrsList1 = UIItemList.New(slot0.page1:Find("attrs/content"), slot0.page1:Find("attrs/tpl"))
+	slot0.gradientBgTF = slot0.page1:Find("attrs/bg_gradient")
+	slot0.buffContentTF = slot0.page1:Find("buff/content")
+	slot0.buffItemList = UIItemList.New(slot0.page1:Find("buff/content/content"), slot0.page1:Find("buff/tpl"))
+	slot0.buffLockTF = slot0.page1:Find("buff/lock")
+	slot0.page2 = slot0.showPanelTF:Find("panel/event/content/page2")
 
-	setText(slot0:findTF("attr_title/Text", slot0.page2), i18n("child_attr_name2"))
+	setText(slot0.page2:Find("attr_title/Text"), i18n("child_attr_name2"))
 
-	slot0.attr3UnlockTF = slot0:findTF("attrs/unlock", slot0.page2)
-	slot0.attr3LockTF = slot0:findTF("attrs/lock", slot0.page2)
-	slot0.attrsList2 = UIItemList.New(slot0:findTF("content", slot0.attr3UnlockTF), slot0:findTF("tpl", slot0.attr3UnlockTF))
-	slot0.attr2UnlockTF = slot0:findTF("nature/unlock", slot0.page2)
-	slot0.attr2LockTF = slot0:findTF("nature/lock", slot0.page2)
-	slot0.natureContent = slot0:findTF("content", slot0.attr2UnlockTF)
-	slot0.avatarTF = slot0:findTF("avatar", slot0.page2)
+	slot0.attr3UnlockTF = slot0.page2:Find("attrs/unlock")
+	slot0.attr3LockTF = slot0.page2:Find("attrs/lock")
+	slot0.attrsList2 = UIItemList.New(slot0.attr3UnlockTF:Find("content"), slot0.attr3UnlockTF:Find("tpl"))
+	slot0.attr2UnlockTF = slot0.page2:Find("nature/unlock")
+	slot0.attr2LockTF = slot0.page2:Find("nature/lock")
+	slot0.natureContent = slot0.attr2UnlockTF:Find("content")
+	slot0.avatarTF = slot0.page2:Find("avatar")
 
 	slot0:addListener()
 	slot0:initAttrsPanel()
@@ -110,22 +110,22 @@ end
 slot0.updateAttr1Item = function(slot0, slot1, slot2)
 	slot4 = slot0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MAJOR)[slot1 + 1][1]
 
-	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot0:findTF("icon_bg/icon", slot2), true)
-	setScrollText(slot0:findTF("name_mask/name", slot2), slot0.config[slot4].name)
+	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot2:Find("icon_bg/icon"), true)
+	setScrollText(slot2:Find("name_mask/name"), slot0.config[slot4].name)
 
 	slot6, slot7 = slot0.char:GetAttrInfo(slot4)
 
-	setText(slot0:findTF("grade/Text", slot2), slot6)
-	setText(slot0:findTF("value", slot2), slot7)
+	setText(slot2:Find("grade/Text"), slot6)
+	setText(slot2:Find("value"), slot7)
 	setImageColor(slot0.gradientBgTF:GetChild(slot1), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][1]))
-	setImageColor(slot0:findTF("grade", slot2), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][2]))
+	setImageColor(slot2:Find("grade"), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][2]))
 end
 
 slot0.updateBuffItem = function(slot0, slot1, slot2)
 	slot3 = slot0.buffList[slot1 + 1]
 
-	LoadImageSpriteAsync("educateprops/" .. slot3:getConfig("icon"), slot0:findTF("icon", slot2))
-	setText(slot0:findTF("time/Text", slot2), slot3:GetReaminWeek() .. i18n("word_week"))
+	LoadImageSpriteAsync("educateprops/" .. slot3:getConfig("icon"), slot2:Find("icon"))
+	setText(slot2:Find("time/Text"), slot3:GetReaminWeek() .. i18n("word_week"))
 	onButton(slot0, slot2, function ()
 		uv0:showBuffBox(uv1.id)
 	end, SFX_PANEL)
@@ -144,9 +144,9 @@ end
 slot0.updateAttr2Item = function(slot0, slot1, slot2)
 	slot4 = slot0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MINOR)[slot1 + 1][1]
 
-	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot0:findTF("icon", slot2), true)
-	setText(slot0:findTF("name", slot2), slot0.config[slot4].name)
-	setText(slot0:findTF("value", slot2), slot0.char:GetAttrById(slot4))
+	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot2:Find("icon"), true)
+	setText(slot2:Find("name"), slot0.config[slot4].name)
+	setText(slot2:Find("value"), slot0.char:GetAttrById(slot4))
 end
 
 slot0.updateNature = function(slot0)
@@ -156,7 +156,7 @@ slot0.updateNature = function(slot0)
 		slot6 = slot0.natureContent:GetChild(slot4 - 1)
 		slot6.name = slot5[1]
 
-		setScrollText(slot0:findTF("Text", slot6), slot0.config[slot5[1]].name .. " " .. slot5[2])
+		setScrollText(slot6:Find("Text"), slot0.config[slot5[1]].name .. " " .. slot5[2])
 	end
 end
 
@@ -179,8 +179,8 @@ slot0.Flush = function(slot0)
 
 	setImageSprite(slot0.avatarImageTF, LoadSprite("educateavatar/" .. slot1), true)
 	slot0:updateNature()
-	setImageSprite(slot0:findTF("mask/Image", slot0.avatarTF), LoadSprite("squareicon/" .. slot1), true)
-	setText(slot0:findTF("title/name/Text", slot0.page1), slot0.char:GetName())
+	setImageSprite(slot0.avatarTF:Find("mask/Image"), LoadSprite("squareicon/" .. slot1), true)
+	setText(slot0.page1:Find("title/name/Text"), slot0.char:GetName())
 
 	slot2 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_BUFF)
 
@@ -199,7 +199,7 @@ slot0.Flush = function(slot0)
 
 	slot5 = slot4
 
-	setActive(slot0:findTF("pagination", slot0.showPanelTF), slot5)
+	setActive(slot0.showPanelTF:Find("pagination"), slot5)
 	setActive(slot0.page2, slot5)
 
 	slot0.pageSnap.enabled = slot5

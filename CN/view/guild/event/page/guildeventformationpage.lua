@@ -6,12 +6,13 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.tpl = slot0._go:GetComponent("ItemList").prefabItem[0]
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.sendBtn = slot0:findTF("frame/btn")
-	slot0.sendBtnGray = slot0:findTF("frame/btn/gray")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.sendBtn = slot0._tf:Find("frame/btn")
+	slot2 = slot0._tf
+	slot0.sendBtnGray = slot2:Find("frame/btn/gray")
 	slot0.slots = {
-		slot0:findTF("frame/ship1"),
-		slot0:findTF("frame/ship2")
+		slot0._tf:Find("frame/ship1"),
+		slot0._tf:Find("frame/ship2")
 	}
 	slot0.items = {}
 	slot0.cdTimer = {}

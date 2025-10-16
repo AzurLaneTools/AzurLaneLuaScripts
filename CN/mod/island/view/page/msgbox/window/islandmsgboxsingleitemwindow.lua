@@ -7,12 +7,13 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.itemTr = slot0:findTF("IslandItemTpl")
-	slot0.nameTxt = slot0:findTF("name"):GetComponent(typeof(Text))
-	slot0.ownTxt = slot0:findTF("own"):GetComponent(typeof(Text))
-	slot0.uiItemList = UIItemList.New(slot0:findTF("list"), slot0:findTF("list/tpl"))
+	slot0.itemTr = slot0._tf:Find("IslandItemTpl")
+	slot0.nameTxt = slot0._tf:Find("name"):GetComponent(typeof(Text))
+	slot0.ownTxt = slot0._tf:Find("own"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("way/Viewport/list"), slot0._tf:Find("way/Viewport/list/tpl"))
+	slot0.contentTF = slot0._tf:Find("way/Viewport/list")
 
-	setText(slot0:findTF("label/Text"), i18n("island_get_way"))
+	setText(slot0._tf:Find("label/Text"), i18n("island_get_way"))
 end
 
 slot0.OnShow = function(slot0)
@@ -38,6 +39,14 @@ slot0.FlushMain = function(slot0, slot1)
 end
 
 slot0.FlushAcquiringWay = function(slot0, slot1)
+	slot4 = #IslandItem.New({
+		num = 0,
+		id = slot1
+	}):GetAcquiringWay() > 0
+
+	setActive(slot0._tf:Find("line"), slot4)
+	setActive(slot0._tf:Find("label"), slot4)
+	setActive(slot0._tf:Find("way"), slot4)
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -51,10 +60,11 @@ slot0.FlushAcquiringWay = function(slot0, slot1)
 			setActive(slot2:Find("go"), slot3[2] and #slot3[2] > 0)
 		end
 	end)
-	slot0.uiItemList:align(#IslandItem.New({
-		num = 0,
-		id = slot1
-	}):GetAcquiringWay())
+	slot0.uiItemList:align(#slot3)
+	setAnchoredPosition(slot0.contentTF, {
+		x = 0,
+		y = 0
+	})
 end
 
 slot0.FlushBtn = function(slot0, slot1)

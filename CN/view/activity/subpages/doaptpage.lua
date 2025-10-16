@@ -3,58 +3,58 @@ slot0 = class("DOAPtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.buffModule = slot0:findTF("buff_module", slot0.bg)
-	slot0.buffPanel = slot0:findTF("skill", slot0.buffModule)
+	slot0.buffModule = slot0.bg:Find("buff_module")
+	slot0.buffPanel = slot0.buffModule:Find("skill")
 	slot0.buffLvs = {}
 
 	eachChild(slot0.buffPanel, function (slot0)
 		table.insert(uv0.buffLvs, slot0)
 	end)
 
-	slot0.getGreyBtn = slot0:findTF("get_grey_btn", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.levelPanel = slot0:findTF("level", slot0.buffModule)
-	slot0.f2aPanel = slot0:findTF("f_to_a", slot0.levelPanel)
-	slot0.sPanel = slot0:findTF("s_ss", slot0.levelPanel)
-	slot0.sssPanel = slot0:findTF("sss", slot0.levelPanel)
-	slot0.lvBarImages = slot0:findTF("lv_bars", slot0.bg)
-	slot0.lvTagImages = slot0:findTF("lv_tags", slot0.bg)
-	slot0.shieldEffect = slot0:findTF("level/shield_effect", slot0.buffModule)
-	slot0.starEffect = slot0:findTF("level/star_effect", slot0.buffModule)
-	slot0.mask = slot0:findTF("mask", slot0.bg)
-	slot0.trainWindow = slot0:findTF("TrainWindow")
-	slot0.trainBtn = slot0:findTF("panel/train_btn", slot0.trainWindow)
-	slot0.trainSkills = slot0:findTF("panel/skills", slot0.trainWindow)
+	slot0.getGreyBtn = slot0.bg:Find("get_grey_btn")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.levelPanel = slot0.buffModule:Find("level")
+	slot0.f2aPanel = slot0.levelPanel:Find("f_to_a")
+	slot0.sPanel = slot0.levelPanel:Find("s_ss")
+	slot0.sssPanel = slot0.levelPanel:Find("sss")
+	slot0.lvBarImages = slot0.bg:Find("lv_bars")
+	slot0.lvTagImages = slot0.bg:Find("lv_tags")
+	slot0.shieldEffect = slot0.buffModule:Find("level/shield_effect")
+	slot0.starEffect = slot0.buffModule:Find("level/star_effect")
+	slot0.mask = slot0.bg:Find("mask")
+	slot0.trainWindow = slot0._tf:Find("TrainWindow")
+	slot0.trainBtn = slot0.trainWindow:Find("panel/train_btn")
+	slot0.trainSkills = slot0.trainWindow:Find("panel/skills")
 	slot0.trainSkillBtns = {}
 
 	eachChild(slot0.trainSkills, function (slot0)
 		table.insert(uv0.trainSkillBtns, slot0)
 	end)
 
-	slot0.curInfoPanel = slot0:findTF("panel/info_bg", slot0.trainWindow)
-	slot0.curInfo = slot0:findTF("panel/info_bg/cur", slot0.trainWindow)
-	slot0.nextInfo = slot0:findTF("panel/info_bg/next", slot0.trainWindow)
-	slot0.msgBox = slot0:findTF("MsgBox")
-	slot0.msgContent = slot0:findTF("panel/content", slot0.msgBox)
-	slot0.msgBoxMask = slot0:findTF("mengban", slot0.msgBox)
-	slot0.cancelBtn = slot0:findTF("panel/cancel_btn", slot0.msgBox)
-	slot0.confirmBtn = slot0:findTF("panel/confirm_btn", slot0.msgBox)
-	slot0.tipPanel = slot0:findTF("Tip")
-	slot0.buffBox = slot0:findTF("BuffBox")
-	slot0.buffMask = slot0:findTF("mask", slot0.buffBox)
-	slot0.buffIconParent = slot0:findTF("window/panel/icon", slot0.buffBox)
-	slot0.buffDescContent = slot0:findTF("window/panel/intro_view/Viewport/Content", slot0.buffBox)
-	slot0.buffDescTpl = slot0:findTF("window/panel/intro_view/buff_desc_tpl", slot0.buffBox)
-	slot0.singleBuffBox = slot0:findTF("SingleBuffBox")
-	slot0.singleBuffMask = slot0:findTF("bg", slot0.singleBuffBox)
-	slot0.singleSureBtn = slot0:findTF("window/top/btnBack", slot0.singleBuffBox)
-	slot0.singleCloseBtn = slot0:findTF("window/sure_btn", slot0.singleBuffBox)
-	slot0.singleIconParent = slot0:findTF("window/panel/icon", slot0.singleBuffBox)
-	slot0.singleDescContent = slot0:findTF("window/panel/intro_view/Viewport/Content", slot0.singleBuffBox)
-	slot0.singleDescTpl = slot0:findTF("window/panel/intro_view/buff_desc_tpl", slot0.singleBuffBox)
+	slot0.curInfoPanel = slot0.trainWindow:Find("panel/info_bg")
+	slot0.curInfo = slot0.trainWindow:Find("panel/info_bg/cur")
+	slot0.nextInfo = slot0.trainWindow:Find("panel/info_bg/next")
+	slot0.msgBox = slot0._tf:Find("MsgBox")
+	slot0.msgContent = slot0.msgBox:Find("panel/content")
+	slot0.msgBoxMask = slot0.msgBox:Find("mengban")
+	slot0.cancelBtn = slot0.msgBox:Find("panel/cancel_btn")
+	slot0.confirmBtn = slot0.msgBox:Find("panel/confirm_btn")
+	slot0.tipPanel = slot0._tf:Find("Tip")
+	slot0.buffBox = slot0._tf:Find("BuffBox")
+	slot0.buffMask = slot0.buffBox:Find("mask")
+	slot0.buffIconParent = slot0.buffBox:Find("window/panel/icon")
+	slot0.buffDescContent = slot0.buffBox:Find("window/panel/intro_view/Viewport/Content")
+	slot0.buffDescTpl = slot0.buffBox:Find("window/panel/intro_view/buff_desc_tpl")
+	slot0.singleBuffBox = slot0._tf:Find("SingleBuffBox")
+	slot0.singleBuffMask = slot0.singleBuffBox:Find("bg")
+	slot0.singleSureBtn = slot0.singleBuffBox:Find("window/top/btnBack")
+	slot0.singleCloseBtn = slot0.singleBuffBox:Find("window/sure_btn")
+	slot0.singleIconParent = slot0.singleBuffBox:Find("window/panel/icon")
+	slot0.singleDescContent = slot0.singleBuffBox:Find("window/panel/intro_view/Viewport/Content")
+	slot0.singleDescTpl = slot0.singleBuffBox:Find("window/panel/intro_view/buff_desc_tpl")
 
-	setText(slot0:findTF("window/top/bg/infomation/title", slot0.singleBuffBox), i18n("words_information"))
-	setText(slot0:findTF("window/sure_btn/pic", slot0.singleBuffBox), i18n("text_confirm"))
+	setText(slot0.singleBuffBox:Find("window/top/bg/infomation/title"), i18n("words_information"))
+	setText(slot0.singleBuffBox:Find("window/sure_btn/pic"), i18n("text_confirm"))
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -196,8 +196,8 @@ slot0.updateLevelPanel = function(slot0)
 	end
 
 	setActive(slot0.curPanel, true)
-	setImageSprite(slot0:findTF("bar", slot0.curPanel), slot0.lvBarImages:Find(slot1):GetComponent(typeof(Image)).sprite)
-	setImageSprite(slot0:findTF("lv_tag", slot0.curPanel), slot0.lvTagImages:Find(slot1):GetComponent(typeof(Image)).sprite, true)
+	setImageSprite(slot0.curPanel:Find("bar"), slot0.lvBarImages:Find(slot1):GetComponent(typeof(Image)).sprite)
+	setImageSprite(slot0.curPanel:Find("lv_tag"), slot0.lvTagImages:Find(slot1):GetComponent(typeof(Image)).sprite, true)
 	setSlider(slot0.curPanel, 0, 1, slot2)
 
 	return slot0.curPanel
@@ -296,15 +296,15 @@ end
 slot0.flushTrainPanel = function(slot0)
 	if slot0.ptData:GetCurBuffInfos() then
 		for slot5, slot6 in ipairs(slot1) do
-			setText(slot0:findTF("lv_bg/lv", slot0.trainSkillBtns[slot6.group]), slot6.next and "LV." .. slot6.lv or "MAX")
+			setText(slot0.trainSkillBtns[slot6.group]:Find("lv_bg/lv"), slot6.next and "LV." .. slot6.lv or "MAX")
 		end
 	end
 
 	for slot5, slot6 in ipairs(slot0.trainSkillBtns) do
 		if slot5 == slot0.selectIndex then
-			setActive(slot0:findTF("selected", slot6), true)
+			setActive(slot6:Find("selected"), true)
 		else
-			setActive(slot0:findTF("selected", slot6), false)
+			setActive(slot6:Find("selected"), false)
 		end
 	end
 
@@ -380,7 +380,7 @@ slot0.showTip = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.tipPanel, slot0._tf)
 
 	setActive(slot2, true)
-	setText(slot0:findTF("Text", slot2), slot1)
+	setText(slot2:Find("Text"), slot1)
 
 	slot2.transform.localScale = Vector3(0, 0.1, 1)
 

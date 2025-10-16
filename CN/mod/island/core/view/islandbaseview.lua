@@ -23,6 +23,7 @@ slot0.SetUp = function(slot0)
 	slot0.hudContainer = slot0.baseContainer:Find("layer1/hud")
 	slot0.pageContianer = slot0.baseContainer:Find("layer1/page")
 	slot0.layer2UIContianer = slot0.baseContainer:Find("layer2/ui")
+	slot0.layer2OpContianer = slot0.baseContainer:Find("layer2/op")
 	slot0.root = slot0:CreateRoot()
 
 	slot0:Init()
@@ -130,6 +131,10 @@ end
 
 slot0.InMap = function(slot0, slot1)
 	return slot0:GetCore():GetMapId() == slot1
+end
+
+slot0.GetMapId = function(slot0)
+	return slot0:GetCore():GetMapId()
 end
 
 slot0.AddListener = function(slot0, slot1, slot2)

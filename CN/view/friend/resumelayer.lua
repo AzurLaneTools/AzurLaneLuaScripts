@@ -9,20 +9,20 @@ slot0.setPlayerVO = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.frame = slot0:findTF("frame")
-	slot0.resumeIcon = slot0:findTF("frame/window/info/circle/head")
-	slot0.resumeStars = slot0:findTF("frame/window/info/circle/head/stars")
-	slot0.resumeStarTpl = slot0:findTF("frame/window/info/circle/head/star")
-	slot0.resumeLv = slot0:findTF("frame/window/info/player_info/level_bg/level"):GetComponent(typeof(Text))
-	slot0.resumeName = slot0:findTF("frame/window/info/player_info/name_bg/name"):GetComponent(typeof(Text))
-	slot0.resumeInfo = slot0:findTF("frame/window/summary/content")
-	slot0.resumeEmblem = slot0:findTF("frame/window/info/rank_bg/rank/Image")
-	slot0.resumeEmblemLabel = slot0:findTF("frame/window/info/rank_bg/rank/label")
-	slot0.resumeMedalList = slot0:findTF("frame/window/medalList/container")
-	slot0.resumeMedalTpl = slot0:findTF("frame/window/medal_tpl")
-	slot0.closeBtn = slot0:findTF("frame/window/title_bg/close_btn")
-	slot0.circle = slot0:findTF("frame/window/info/circle/head/frame")
-	slot0.titleText = slot0:findTF("frame/title/label_cn/text")
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.resumeIcon = slot0._tf:Find("frame/window/info/circle/head")
+	slot0.resumeStars = slot0._tf:Find("frame/window/info/circle/head/stars")
+	slot0.resumeStarTpl = slot0._tf:Find("frame/window/info/circle/head/star")
+	slot0.resumeLv = slot0._tf:Find("frame/window/info/player_info/level_bg/level"):GetComponent(typeof(Text))
+	slot0.resumeName = slot0._tf:Find("frame/window/info/player_info/name_bg/name"):GetComponent(typeof(Text))
+	slot0.resumeInfo = slot0._tf:Find("frame/window/summary/content")
+	slot0.resumeEmblem = slot0._tf:Find("frame/window/info/rank_bg/rank/Image")
+	slot0.resumeEmblemLabel = slot0._tf:Find("frame/window/info/rank_bg/rank/label")
+	slot0.resumeMedalList = slot0._tf:Find("frame/window/medalList/container")
+	slot0.resumeMedalTpl = slot0._tf:Find("frame/window/medal_tpl")
+	slot0.closeBtn = slot0._tf:Find("frame/window/title_bg/close_btn")
+	slot0.circle = slot0._tf:Find("frame/window/info/circle/head/frame")
+	slot0.titleText = slot0._tf:Find("frame/title/label_cn/text")
 
 	if i18n("friend_resume_title_detail") then
 		setText(slot0.titleText, slot1)
@@ -135,11 +135,11 @@ slot0.display = function(slot0, slot1)
 	removeAllChildren(slot0.resumeMedalList)
 
 	for slot12 = 1, 5 do
-		setActive(slot0:findTF("empty", cloneTplTo(slot0.resumeMedalTpl, slot0.resumeMedalList)), slot12 > #slot1.displayTrophyList)
+		setActive(cloneTplTo(slot0.resumeMedalTpl, slot0.resumeMedalList):Find("empty"), slot12 > #slot1.displayTrophyList)
 
 		if slot12 <= #slot1.displayTrophyList then
-			setActive(slot0:findTF("icon", slot13), true)
-			LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot12]].icon, slot0:findTF("icon", slot13), true)
+			setActive(slot13:Find("icon"), true)
+			LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot12]].icon, slot13:Find("icon"), true)
 		end
 	end
 

@@ -9,7 +9,7 @@ slot0.OnTechGroupUpdate = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.upgradeList = UIItemList.New(slot0:findTF("frame/upgrade/content"), slot0:findTF("frame/upgrade/content/tpl"))
+	slot0.upgradeList = UIItemList.New(slot0._tf:Find("frame/upgrade/content"), slot0._tf:Find("frame/upgrade/content/tpl"))
 end
 
 slot0.OnInit = function(slot0)

@@ -42,7 +42,7 @@ return {
 			ui = {
 				pathIndex = -1,
 				hideAnimtor = true,
-				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/nextPage",
+				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/adapt/nextPage",
 				triggerType = {
 					1
 				},

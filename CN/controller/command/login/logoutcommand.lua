@@ -65,14 +65,12 @@ slot0.execute = function(slot0, slot1)
 		slot6:SetLoginedFlag(false)
 	end
 
+	slot7 = Context.New()
+
+	slot7:extendData(slot2)
+	SCENE.SetSceneInfo(slot7, SCENE.LOGIN)
 	slot0:sendNotification(GAME.LOAD_SCENE, {
-		context = Context.New({
-			cleanStack = true,
-			scene = SCENE.LOGIN,
-			mediator = LoginMediator,
-			viewComponent = LoginScene,
-			data = slot2
-		}),
+		context = slot7,
 		callback = function ()
 			if pg.proxyRegister then
 				pg.proxyRegister:Stop()

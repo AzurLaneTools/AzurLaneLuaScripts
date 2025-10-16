@@ -1,7 +1,7 @@
 slot0 = class("DeXiQianShaoPtPage", import(".TemplatePage.PtTemplatePage"))
 
 slot0.OnFirstFlush = function(slot0)
-	slot0.awardTF = slot0:findTF("switcher/phase2/Image/award", slot0.bg)
+	slot0.awardTF = slot0.bg:Find("switcher/phase2/Image/award")
 
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, false)
@@ -11,13 +11,14 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")
-	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
-	slot0.switchBtn = slot0:findTF("AD/switcher/switch_btn")
-	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/bar")
+	slot0.step = slot0._tf:Find("AD/switcher/phase2/Image/step")
+	slot0.progress = slot0._tf:Find("AD/switcher/phase2/Image/progress")
+	slot0.switchBtn = slot0._tf:Find("AD/switcher/switch_btn")
+	slot1 = slot0._tf
+	slot0.bar = slot1:Find("AD/switcher/phase2/Image/bar")
 	slot0.phases = {
-		slot0:findTF("AD/switcher/phase1"),
-		slot0:findTF("AD/switcher/phase2")
+		slot0._tf:Find("AD/switcher/phase1"),
+		slot0._tf:Find("AD/switcher/phase2")
 	}
 	slot0.inPhase2 = false
 
@@ -71,7 +72,7 @@ slot0.UpdateAwardGot = function(slot0)
 	slot2 = slot0.ptData:CanGetAward()
 	slot3 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
 
-	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot3)
+	setActive(slot0.bg:Find("switcher/phase2/got"), slot3)
 
 	if slot3 or slot2 then
 		setActive(slot0.battleBtn, false)

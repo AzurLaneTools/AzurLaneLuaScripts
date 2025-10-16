@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.nameTxt = slot0:findTF("name_bg/Text"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("Text"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("icon_bg/icon"):GetComponent(typeof(Image))
-	slot0.shipIcon = slot0:findTF("icon_bg/ship"):GetComponent(typeof(Image))
+	slot0.nameTxt = slot0._tf:Find("name_bg/Text"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
+	slot0.icon = slot0._tf:Find("icon_bg/icon"):GetComponent(typeof(Image))
+	slot0.shipIcon = slot0._tf:Find("icon_bg/ship"):GetComponent(typeof(Image))
 	slot0.width = slot0._tf.rect.width
 	slot0.prantLeftBound = slot0._tf.parent.rect.width / 2
 end

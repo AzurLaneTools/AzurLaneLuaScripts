@@ -17,11 +17,11 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.windowTF = slot0:findTF("window")
-	slot0.attrUIList = UIItemList.New(slot0:findTF("content", slot0.windowTF), slot0:findTF("content/tpl", slot0.windowTF))
-	slot0.avatarTF = slot0:findTF("avatar", slot0.windowTF)
-	slot0.curPersonalText = slot0:findTF("Text", slot0.avatarTF)
-	slot0.sureBtn = slot0:findTF("sure_btn", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("window")
+	slot0.attrUIList = UIItemList.New(slot0.windowTF:Find("content"), slot0.windowTF:Find("content/tpl"))
+	slot0.avatarTF = slot0.windowTF:Find("avatar")
+	slot0.curPersonalText = slot0.avatarTF:Find("Text")
+	slot0.sureBtn = slot0.windowTF:Find("sure_btn")
 end
 
 slot0.addListener = function(slot0)
@@ -50,8 +50,8 @@ slot0.didEnter = function(slot0)
 		if slot0 == UIItemList.EventInit then
 			slot3 = pg.child_attr[uv0.attrList[slot1 + 1]]
 
-			LoadImageSpriteAsync("educateprops/" .. slot3.icon, uv0:findTF("icon", slot2), true)
-			setText(uv0:findTF("name", slot2), slot3.name)
+			LoadImageSpriteAsync("educateprops/" .. slot3.icon, slot2:Find("icon"), true)
+			setText(slot2:Find("name"), slot3.name)
 			onButton(uv0, slot2, function ()
 				if uv0.selectedIndex == uv1 + 1 then
 					return
@@ -62,7 +62,7 @@ slot0.didEnter = function(slot0)
 				uv0:updateView()
 			end, SFX_PANEL)
 		elseif slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("selected", slot2), uv0.selectedIndex == slot1 + 1)
+			setActive(slot2:Find("selected"), uv0.selectedIndex == slot1 + 1)
 		end
 	end)
 	slot0:updateView()

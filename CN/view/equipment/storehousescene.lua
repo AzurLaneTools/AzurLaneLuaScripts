@@ -32,22 +32,22 @@ slot8 = require("view.equipment.SpWeaponSortCfg")
 slot0.init = function(slot0)
 	slot0.filterEquipWaitting = 0
 	slot1 = slot0.contextData
-	slot0.topItems = slot0:findTF("topItems")
-	slot0.equipmentView = slot0:findTF("adapt/equipment_scrollview")
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
-	slot0.sortBtn = slot0:findTF("buttons/sort_button", slot0.topPanel)
-	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
+	slot0.topItems = slot0._tf:Find("topItems")
+	slot0.equipmentView = slot0._tf:Find("adapt/equipment_scrollview")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0.blurPanel:Find("adapt/top")
+	slot0.indexBtn = slot0.topPanel:Find("buttons/index_button")
+	slot0.sortBtn = slot0.topPanel:Find("buttons/sort_button")
+	slot0.sortPanel = slot0.topItems:Find("sort")
 	slot0.sortPanelTG = slot0.sortPanel:GetComponent("ToggleGroup")
 	slot0.sortPanelTG.allowSwitchOff = true
-	slot0.sortContain = slot0:findTF("adapt/mask/panel", slot0.sortPanel)
-	slot0.sortTpl = slot0:findTF("tpl", slot0.sortContain)
+	slot0.sortContain = slot0.sortPanel:Find("adapt/mask/panel")
+	slot0.sortTpl = slot0.sortContain:Find("tpl")
 
 	setActive(slot0.sortTpl, false)
 
-	slot0.equipSkinFilteBtn = slot0:findTF("buttons/EquipSkinFilteBtn", slot0.topPanel)
-	slot0.itemView = slot0:findTF("adapt/item_scrollview")
+	slot0.equipSkinFilteBtn = slot0.topPanel:Find("buttons/EquipSkinFilteBtn")
+	slot0.itemView = slot0._tf:Find("adapt/item_scrollview")
 	slot2 = nil
 	slot2 = (NotchAdapt.CheckNotchRatio == 2 or not getProxy(SettingsProxy):CheckLargeScreen()) and slot0.itemView.rect.width > 2000 or NotchAdapt.CheckNotchRatio >= 2
 	slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = slot2 and 8 or 7
@@ -68,19 +68,19 @@ slot0.init = function(slot0)
 	setActive(slot0.designTabRoot, false)
 
 	slot0.designTabs = CustomIndexLayer.Clone2Full(slot0.designTabRoot, 2)
-	slot0.bottomBack = slot0:findTF("adapt/bottom_back", slot0.topItems)
-	slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
+	slot0.bottomBack = slot0.topItems:Find("adapt/bottom_back")
+	slot0.bottomPanel = slot0.bottomBack:Find("types")
 	slot0.materialToggle = slot0.bottomPanel:Find("material")
 	slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
 	slot0.designToggle = slot0.bottomPanel:Find("design")
-	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
-	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
+	slot0.capacityTF = slot0.bottomBack:Find("bottom_left/tip/capcity/Text")
+	slot0.tipTF = slot0.bottomBack:Find("bottom_left/tip")
 	slot0.tip = slot0.tipTF:Find("label")
-	slot0.helpBtn = slot0:findTF("adapt/help_btn", slot0.topItems)
+	slot0.helpBtn = slot0.topItems:Find("adapt/help_btn")
 
 	setActive(slot0.helpBtn, true)
 
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
 	slot0.selectedMin = defaultValue(slot1.selectedMin, 1)
 	slot0.selectedMax = defaultValue(slot1.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
 	slot0.selectedIds = Clone(slot1.selectedIds or {})
@@ -90,28 +90,28 @@ slot0.init = function(slot0)
 	slot0.onSelected = slot1.onSelected or function ()
 		warning("not implemented.")
 	end
-	slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomPanel)
+	slot0.BatchDisposeBtn = slot0.bottomPanel:Find("dispos")
 
 	if not slot0.BatchDisposeBtn then
-		slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomBack)
+		slot0.BatchDisposeBtn = slot0.bottomBack:Find("dispos")
 	end
 
-	slot0.selectPanel = slot0:findTF("adapt/select_panel", slot0.topItems)
+	slot0.selectPanel = slot0.topItems:Find("adapt/select_panel")
 
 	setActive(slot0.selectPanel, true)
 	setAnchoredPosition(slot0.selectPanel, {
 		y = -124
 	})
 
-	slot0.selectTransformPanel = slot0:findTF("adapt/select_transform_panel", slot0.topItems)
+	slot0.selectTransformPanel = slot0.topItems:Find("adapt/select_transform_panel")
 
 	setActive(slot0.selectTransformPanel, false)
 
-	slot0.listEmptyTF = slot0:findTF("adapt/empty")
+	slot0.listEmptyTF = slot0._tf:Find("adapt/empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 	slot0.destroyConfirmView = DestroyConfirmView.New(slot0.topItems, slot0.event)
 	slot0.assignedItemView = AssignedItemView.New(slot0.topItems, slot0.event)
 	slot0.blueprintAssignedItemView = BlueprintAssignedItemView.New(slot0.topItems, slot0.event)
@@ -212,9 +212,9 @@ slot0.SetSpWeaponUpdate = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	setText(slot0:findTF("tip", slot0.selectPanel), i18n("equipment_select_device_destroy_tip"))
-	setActive(slot0:findTF("adapt/stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-	onButton(slot0, slot0:findTF("adapt/stamp", slot0.topItems), function ()
+	setText(slot0.selectPanel:Find("tip"), i18n("equipment_select_device_destroy_tip"))
+	setActive(slot0.topItems:Find("adapt/stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	onButton(slot0, slot0.topItems:Find("adapt/stamp"), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(2)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -878,7 +878,7 @@ slot0.filterEquipment = function(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot4.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot4.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 	slot0:updateCapacity()
@@ -957,7 +957,7 @@ slot0.filterSpWeapon = function(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 	slot0:UpdateSpweaponCapacity()

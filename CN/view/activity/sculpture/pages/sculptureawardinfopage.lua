@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/scrollrect/content"), slot0:findTF("frame/scrollrect/content/tpl"))
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/scrollrect/content"), slot0._tf:Find("frame/scrollrect/content/tpl"))
 end
 
 slot0.OnInit = function(slot0)
@@ -20,7 +20,7 @@ slot0.Show = function(slot0, slot1)
 	slot0.activity = slot1
 
 	slot0:UpdateList()
-	setText(slot0:findTF("frame/tip"), i18n("sculpture_close_tip"))
+	setText(slot0._tf:Find("frame/tip"), i18n("sculpture_close_tip"))
 end
 
 slot0.UpdateList = function(slot0)

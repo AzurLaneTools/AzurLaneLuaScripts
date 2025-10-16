@@ -24,12 +24,6 @@ slot0.DoInit = function(slot0, slot1, slot2)
 	slot0:OnLoaded()
 end
 
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 slot0.OnDispose = function(slot0)
 	if not IsNil(slot0._go) then
 		Object.Destroy(slot0._go)

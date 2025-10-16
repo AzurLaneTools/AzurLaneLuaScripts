@@ -33,17 +33,17 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0._challengeBottomPanel = slot0:findTF("challenge_confirm", slot0._blurConatiner)
+	slot0._challengeBottomPanel = slot0._blurConatiner:Find("challenge_confirm")
 
 	setText(findTF(slot0._challengeBottomPanel, "continue_btn/text"), i18n("battle_result_continue_battle"))
 	setText(findTF(slot0._challengeBottomPanel, "quit_btn/text"), i18n("battle_result_quit_battle"))
 	setText(findTF(slot0._challengeBottomPanel, "share_btn/text"), i18n("battle_result_share_battle"))
 
-	slot0._shareBtn = slot0:findTF("share_btn", slot0._challengeBottomPanel)
-	slot0._continueBtn = slot0:findTF("continue_btn", slot0._challengeBottomPanel)
-	slot0._quitBtn = slot0:findTF("quit_btn", slot0._challengeBottomPanel)
-	slot0._expire = slot0:findTF("challenge_expire", slot0._main)
-	slot0._expireTxt = slot0:findTF("text", slot0._expire)
+	slot0._shareBtn = slot0._challengeBottomPanel:Find("share_btn")
+	slot0._continueBtn = slot0._challengeBottomPanel:Find("continue_btn")
+	slot0._quitBtn = slot0._challengeBottomPanel:Find("quit_btn")
+	slot0._expire = slot0._main:Find("challenge_expire")
+	slot0._expireTxt = slot0._expire:Find("text")
 end
 
 slot0.didEnter = function(slot0)
@@ -68,7 +68,7 @@ slot0.setStageName = function(slot0)
 end
 
 slot0.rankAnimaFinish = function(slot0)
-	slot1 = slot0:findTF("main/conditions")
+	slot1 = slot0._tf:Find("main/conditions")
 
 	if slot0.challenge:getMode() == ChallengeProxy.MODE_INFINITE then
 		SetActive(slot1, false)
@@ -87,7 +87,7 @@ slot0.rankAnimaFinish = function(slot0)
 		table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 			uv0._stateFlag = uv1.STATE_REPORTED
 
-			SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+			SetActive(uv0._bg:Find("jieuan01/tips"), true)
 		end)).id)
 
 		slot0._stateFlag = uv0.STATE_REPORT
@@ -116,7 +116,7 @@ slot0.showRightBottomPanel = function(slot0)
 	SetActive(slot0._skipBtn, false)
 
 	if not slot0:isTotalClear() then
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
+		SetActive(slot0._bg:Find("jieuan01/tips"), false)
 	end
 
 	SetActive(slot0._challengeBottomPanel, true)
@@ -172,7 +172,7 @@ slot0.skip = function(slot0)
 			slot1 = slot1 - 1
 		end
 
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), true)
+		SetActive(slot0._bg:Find("jieuan01/tips"), true)
 
 		slot0._stateFlag = uv0.STATE_REPORTED
 	elseif slot0._stateFlag == uv0.STATE_REPORTED then

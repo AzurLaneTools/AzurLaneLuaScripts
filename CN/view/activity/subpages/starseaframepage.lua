@@ -8,8 +8,8 @@ slot0.OnFirstFlush = function(slot0)
 	end
 
 	uv0.super.OnFirstFlush(slot0)
-	GetComponent(slot0:findTF("AD/switcher/phase2/Image"), typeof(Image)):SetNativeSize()
-	GetComponent(slot0:findTF("AD/switcher/phase1/Image"), typeof(Image)):SetNativeSize()
+	GetComponent(slot0._tf:Find("AD/switcher/phase2/Image"), typeof(Image)):SetNativeSize()
+	GetComponent(slot0._tf:Find("AD/switcher/phase1/Image"), typeof(Image)):SetNativeSize()
 end
 
 slot0.Switch = function(slot0, slot1)

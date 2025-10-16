@@ -27,7 +27,7 @@ slot0.back = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.shareBtn = slot0:findTF("select_skin/share_btn")
+	slot0.shareBtn = slot0._tf:Find("select_skin/share_btn")
 
 	slot0:BlurPanel(slot0._tf)
 end
@@ -42,10 +42,10 @@ end
 slot0.initSelectSkinPanel = function(slot0)
 	slot0.skinPanel = slot0._tf
 
-	onButton(slot0, slot0:findTF("select_skin/btnBack", slot0.skinPanel), function ()
+	onButton(slot0, slot0.skinPanel:Find("select_skin/btnBack"), function ()
 		uv0:back()
 	end)
-	onButton(slot0, slot0:findTF("print", slot0.skinPanel), function ()
+	onButton(slot0, slot0.skinPanel:Find("print"), function ()
 		uv0:back()
 	end)
 	onToggle(slot0, slot0.shareBtn, function (slot0)
@@ -56,8 +56,8 @@ slot0.initSelectSkinPanel = function(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot0.skinScroll = slot0:findTF("select_skin/style_scroll", slot0.skinPanel)
-	slot0.skinContainer = slot0:findTF("view_port", slot0.skinScroll)
+	slot0.skinScroll = slot0.skinPanel:Find("select_skin/style_scroll")
+	slot0.skinContainer = slot0.skinScroll:Find("view_port")
 	slot0.skinCard = slot0._go:GetComponent(typeof(ItemList)).prefabItem[0]
 
 	setActive(slot0.skinCard, false)

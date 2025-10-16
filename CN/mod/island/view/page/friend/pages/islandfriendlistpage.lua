@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.morePanel = slot0:findTF("scrollrect/content/more_panel")
+	slot0.morePanel = slot0._tf:Find("scrollrect/content/more_panel")
 	slot0.whiteBtn = slot0.morePanel:Find("white")
 	slot0.blackBtn = slot0.morePanel:Find("black")
 	slot0.delBtn = slot0.morePanel:Find("del")
 	slot0.cards = {}
-	slot0._scrollrect = slot0:findTF("scrollrect"):GetComponent("LScrollRect")
+	slot0._scrollrect = slot0._tf:Find("scrollrect"):GetComponent("LScrollRect")
 
 	slot0._scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)

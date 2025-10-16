@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "然后看到的就是已经自然和哨站执勤舰队打成一片的名为和赫斯缇雅的少女，以及一直在一旁维持着警戒感的名为琉的少女。",
+			say = "然后看到的就是已经自然和哨站执勤舰队打成一片的名为赫斯缇雅的少女，以及一直在一旁维持着警戒感的名为琉的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

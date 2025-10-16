@@ -31,8 +31,20 @@ slot0.OnLoaded = function(slot0)
 	slot6 = slot0.event
 	slot0.pages = {
 		[uv0.PAGE_ACTIVITY] = IslandSeasonActivityPanel.New(slot1, slot0.event, slot0.contextData),
-		[uv0.PAGE_PT] = IslandSeasonPtPanel.New(slot1, slot0.event, slot0.contextData),
-		[uv0.PAGE_TASK] = IslandSeasonTaskPanel.New(slot1, slot0.event, slot0.contextData),
+		[uv0.PAGE_PT] = IslandSeasonPtPanel.New(slot1, slot0.event, setmetatable({
+			ShowMsgBox = function (slot0, slot1)
+				uv0:ShowMsgBox(slot1)
+			end
+		}, {
+			__index = slot0.contextData
+		})),
+		[uv0.PAGE_TASK] = IslandSeasonTaskPanel.New(slot1, slot0.event, setmetatable({
+			ShowMsgBox = function (slot0, slot1)
+				uv0:ShowMsgBox(slot1)
+			end
+		}, {
+			__index = slot0.contextData
+		})),
 		[uv0.PAGE_SHOP] = IslandSeasonShopPanel.New(slot1, slot0.event, setmetatable({
 			openBuyLayer = function (slot0, slot1)
 				uv0:OpenPage(IslandShopItemLayer, slot0, slot1)
@@ -40,7 +52,13 @@ slot0.OnLoaded = function(slot0)
 		}, {
 			__index = slot0.contextData
 		})),
-		[uv0.PAGE_RANK] = IslandSeasonRankPanel.New(slot5, slot6, slot0.contextData)
+		[uv0.PAGE_RANK] = IslandSeasonRankPanel.New(slot5, slot6, setmetatable({
+			ShowMsgBox = function (slot0, slot1)
+				uv0:ShowMsgBox(slot1)
+			end
+		}, {
+			__index = slot0.contextData
+		}))
 	}
 
 	for slot5, slot6 in pairs(slot0.pages) do

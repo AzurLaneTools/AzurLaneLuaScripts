@@ -24,16 +24,17 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot1 = slot0:findTF("Content")
-	slot0.timeText = slot0:findTF("Tip/Time/TimeText", slot1)
-	slot0.scoreText = slot0:findTF("Tip/Score/ScoreText", slot1)
-	slot0.snackTpl = slot0:findTF("SnackTpl", slot1)
-	slot0.orderListContainer = slot0:findTF("Order/OrderList", slot1)
+	slot1 = slot0._tf
+	slot1 = slot1:Find("Content")
+	slot0.timeText = slot1:Find("Tip/Time/TimeText")
+	slot0.scoreText = slot1:Find("Tip/Score/ScoreText")
+	slot0.snackTpl = slot1:Find("SnackTpl")
+	slot0.orderListContainer = slot1:Find("Order/OrderList")
 	slot0.orderList = UIItemList.New(slot0.orderListContainer, slot0.snackTpl)
-	slot0.selectedListContainer = slot0:findTF("Select/SelectList", slot1)
+	slot0.selectedListContainer = slot1:Find("Select/SelectList")
 	slot0.selectedList = UIItemList.New(slot0.selectedListContainer, slot0.snackTpl)
-	slot0.submitBtn = slot0:findTF("Buttons/SubmitBtn", slot1)
-	slot0.continueBtn = slot0:findTF("Buttons/ContinueBtn", slot1)
+	slot0.submitBtn = slot1:Find("Buttons/SubmitBtn")
+	slot0.continueBtn = slot1:Find("Buttons/ContinueBtn")
 
 	onButton(slot0, slot0.submitBtn, function ()
 		uv0.contextData.onSubmit(uv0:calculateLevel())
@@ -57,7 +58,7 @@ slot0.updateView = function(slot0)
 	setText(slot0.scoreText, slot0.contextData.score .. "   + " .. setColorStr(slot1, "#3068E6FF"))
 	slot0.orderList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. uv0.contextData.orderIDList[slot1 + 1]))
+			setImageSprite(slot2:Find("SnackImg"), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. uv0.contextData.orderIDList[slot1 + 1]))
 		end
 	end)
 	slot0.orderList:align(#slot0.contextData.orderIDList)
@@ -65,9 +66,9 @@ slot0.updateView = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.contextData.selectedIDList[slot1 + 1]
 
-			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot3))
-			setActive(uv0:findTF("CorrectImg", slot2), slot3 == uv0.contextData.orderIDList[slot1 + 1])
-			setActive(uv0:findTF("ErrorImg", slot2), slot3 ~= slot5)
+			setImageSprite(slot2:Find("SnackImg"), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot3))
+			setActive(slot2:Find("CorrectImg"), slot3 == uv0.contextData.orderIDList[slot1 + 1])
+			setActive(slot2:Find("ErrorImg"), slot3 ~= slot5)
 		end
 	end)
 	slot0.selectedList:align(#slot0.contextData.selectedIDList)

@@ -27,9 +27,9 @@ slot0.UpdateView = function(slot0, slot1)
 end
 
 slot0.findUI = function(slot0)
-	slot0.contextText = slot0:findTF("Context")
-	slot0.toggleTF = slot0:findTF("Toggle")
-	slot0.tickTF = slot0:findTF("Tip/TickBG/Tick", slot0.toggleTF)
+	slot0.contextText = slot0._tf:Find("Context")
+	slot0.toggleTF = slot0._tf:Find("Toggle")
+	slot0.tickTF = slot0.toggleTF:Find("Tip/TickBG/Tick")
 end
 
 slot0.addListener = function(slot0)

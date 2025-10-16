@@ -14,11 +14,11 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("Unlocked", slot2)
-			slot5 = uv0:findTF("Finished", slot2)
-			slot6 = uv0:findTF("FinalFinished", slot2)
+			slot4 = slot2:Find("Unlocked")
+			slot5 = slot2:Find("Finished")
+			slot6 = slot2:Find("FinalFinished")
 
-			setActive(uv0:findTF("Locked", slot2), uv0.curDay < slot1 + 1)
+			setActive(slot2:Find("Locked"), uv0.curDay < slot1 + 1)
 
 			if slot1 <= uv0.curDay then
 				setActive(slot4, uv0.playedCount < slot1)

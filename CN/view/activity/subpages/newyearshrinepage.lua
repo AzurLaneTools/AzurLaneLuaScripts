@@ -4,15 +4,15 @@ slot0.GO_MINI_GAME_ID = 34
 slot0.GO_BACKHILL_SCENE = SCENE.NEWYEAR_BACKHILL_2022
 
 slot0.OnInit = function(slot0)
-	slot0.progressTpl = slot0:findTF("ProgressTpl")
-	slot0.progressTplContainer = slot0:findTF("ProgressList")
+	slot0.progressTpl = slot0._tf:Find("ProgressTpl")
+	slot0.progressTplContainer = slot0._tf:Find("ProgressList")
 	slot0.progressUIItemList = UIItemList.New(slot0.progressTplContainer, slot0.progressTpl)
-	slot0.countText = slot0:findTF("CountText")
-	slot1 = slot0:findTF("Award")
-	slot0.lockTF = slot0:findTF("Unlock", slot1)
-	slot0.getBtn = slot0:findTF("Achieve", slot1)
-	slot0.gotTag = slot0:findTF("Got", slot1)
-	slot0.goBtn = slot0:findTF("GoBtn")
+	slot0.countText = slot0._tf:Find("CountText")
+	slot1 = slot0._tf:Find("Award")
+	slot0.lockTF = slot1:Find("Unlock")
+	slot0.getBtn = slot1:Find("Achieve")
+	slot0.gotTag = slot1:Find("Got")
+	slot0.goBtn = slot0._tf:Find("GoBtn")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -39,10 +39,10 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Achieve", slot2)
-			slot4 = uv0:findTF("Unlock", slot2)
+			slot3 = slot2:Find("Achieve")
+			slot4 = slot2:Find("Unlock")
 
-			setActive(uv0:findTF("Lock", slot2), slot1 + 1 > uv0.curDay)
+			setActive(slot2:Find("Lock"), slot1 + 1 > uv0.curDay)
 
 			if slot1 <= uv0.curDay then
 				setActive(slot3, slot1 <= uv1)

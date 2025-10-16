@@ -3,7 +3,8 @@ slot0 = class("HolidayVillaIslandMainPage", import(".TemplatePage.PreviewTemplat
 slot0.initBtn = function(slot0)
 	uv0.super.initBtn(slot0)
 
-	slot0.Manual = slot0:findTF("Manual", slot0.bg)
+	slot1 = slot0.bg
+	slot0.Manual = slot1:Find("Manual")
 
 	slot0.btnFuncList.shop = function(slot0)
 		onButton(uv0, slot0, function ()

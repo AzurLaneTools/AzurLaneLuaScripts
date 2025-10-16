@@ -1401,6 +1401,40 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/bedroom"
 		}
 	},
+	[1222] = {
+		rarity = 5,
+		name = "花乐留韵 ",
+		type = 99,
+		room_id = 12,
+		desc = "淡雅的光晕透出，抚过绽开的花瓣，留下她动人的身影。花影与乐声交织，仿佛自然的低语流淌其中。",
+		is_exclusive = 1,
+		model = "Pay_Dafenghostel/pre_db_df_tedian01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture2",
+		acesses = "",
+		id = 1222,
+		target_slots = {
+			1120304
+		},
+		touch_id = {
+			{
+				30707,
+				3070750
+			}
+		},
+		shop_id = {
+			270502
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture1222"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1466,7 +1500,8 @@ pg.dorm3d_furniture_template = {
 			1213,
 			1214,
 			1215,
-			1221
+			1221,
+			1222
 		}
 	},
 	all = {
@@ -1523,6 +1558,7 @@ pg.dorm3d_furniture_template = {
 		1213,
 		1214,
 		1215,
-		1221
+		1221,
+		1222
 	}
 }

@@ -59,7 +59,11 @@ slot0.InitData = function(slot0, slot1)
 		if pg.island_order_list[slot6.slot_id].type == uv0.COMMON_ORDER_TYPE then
 			slot0.slotList[slot7]:SetReduceTime(slot8)
 		elseif slot9 == uv0.SHIP_ORDER_TYPE then
-			slot0.shipSlotList[slot7]:SetReduceTime(slot8)
+			if slot0.shipSlotList[slot7] and slot10:IsWaiting() then
+				slot10:SetReloadingReduceTime(slot8)
+			elseif slot10 and slot10:IsSubmited() then
+				slot10:SetReduceTime(slot8)
+			end
 		end
 	end
 end
@@ -70,6 +74,10 @@ end
 
 slot0.GetShipOrderSlot = function(slot0, slot1)
 	return slot0.shipSlotList[slot1]
+end
+
+slot0.UpdateShipSlot = function(slot0, slot1)
+	slot0.shipSlotList[slot1.id] = slot1
 end
 
 slot0.AddSlot = function(slot0, slot1)

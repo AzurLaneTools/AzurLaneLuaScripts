@@ -10,36 +10,36 @@ slot0.OnPlayerNameChange = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.medalTpl = slot0:findTF("medalList/tpl")
-	slot0.emblemIcon = slot0:findTF("power/medal"):GetComponent(typeof(Image))
-	slot0.emblemTxt = slot0:findTF("power/medal_text"):GetComponent(typeof(Image))
-	slot0.highestEmblem = slot0:findTF("power/rank"):GetComponent(typeof(Text))
-	slot0.powerTxt = slot0:findTF("power/power"):GetComponent(typeof(Text))
-	slot0.collectionTxt = slot0:findTF("power/collection"):GetComponent(typeof(Text))
-	slot0.modityNameBtn = slot0:findTF("info/name")
-	slot0.nameTxt = slot0:findTF("info/name/Text"):GetComponent(typeof(Text))
-	slot0.idTxt = slot0:findTF("info/uid"):GetComponent(typeof(Text))
-	slot0.levelTxt = slot0:findTF("info/level"):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("info/exp"):GetComponent(typeof(Text))
-	slot0.statisticTpl = slot0:findTF("statistics/tpl")
-	slot0.shareBtn = slot0:findTF("btn_share")
-	slot0.attireBtn = slot0:findTF("btn_attire")
-	slot1 = slot0.attireBtn
-	slot0.attireBtnTip = slot1:Find("tip")
-	slot0.inputField = slot0:findTF("greet/InputField")
-	slot0.writeBtn = slot0:findTF("greet/write_btn")
+	slot0.medalTpl = slot0._tf:Find("medalList/tpl")
+	slot0.emblemIcon = slot0._tf:Find("power/medal"):GetComponent(typeof(Image))
+	slot0.emblemTxt = slot0._tf:Find("power/medal_text"):GetComponent(typeof(Image))
+	slot0.highestEmblem = slot0._tf:Find("power/rank"):GetComponent(typeof(Text))
+	slot0.powerTxt = slot0._tf:Find("power/power"):GetComponent(typeof(Text))
+	slot0.collectionTxt = slot0._tf:Find("power/collection"):GetComponent(typeof(Text))
+	slot0.modityNameBtn = slot0._tf:Find("info/name")
+	slot0.nameTxt = slot0._tf:Find("info/name/Text"):GetComponent(typeof(Text))
+	slot0.idTxt = slot0._tf:Find("info/uid"):GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("info/level"):GetComponent(typeof(Text))
+	slot0.expTxt = slot0._tf:Find("info/exp"):GetComponent(typeof(Text))
+	slot0.statisticTpl = slot0._tf:Find("statistics/tpl")
+	slot0.shareBtn = slot0._tf:Find("btn_share")
+	slot0.attireBtn = slot0._tf:Find("btn_attire")
+	slot0.attireBtnTip = slot0.attireBtn:Find("tip")
+	slot0.inputField = slot0._tf:Find("greet/InputField")
+	slot1 = slot0._tf
+	slot0.writeBtn = slot1:Find("greet/write_btn")
 	slot0.animPanels = {
-		slot0:findTF("info"),
-		slot0:findTF("power"),
-		slot0:findTF("statistics"),
-		slot0:findTF("greet")
+		slot0._tf:Find("info"),
+		slot0._tf:Find("power"),
+		slot0._tf:Find("statistics"),
+		slot0._tf:Find("greet")
 	}
 
-	setText(slot0:findTF("power/collection_label"), i18n("friend_resume_collection_rate"))
-	setText(slot0:findTF("power/power_label"), i18n("friend_resume_fleet_gs"))
-	setText(slot0:findTF("info/title_name"), i18n("friend_resume_title"))
-	setText(slot0:findTF("statistics/title_name"), i18n("friend_resume_data_title"))
-	setText(slot0:findTF("greet/InputField/Placeholder"), i18n("player_manifesto_placeholder"))
+	setText(slot0._tf:Find("power/collection_label"), i18n("friend_resume_collection_rate"))
+	setText(slot0._tf:Find("power/power_label"), i18n("friend_resume_fleet_gs"))
+	setText(slot0._tf:Find("info/title_name"), i18n("friend_resume_title"))
+	setText(slot0._tf:Find("statistics/title_name"), i18n("friend_resume_data_title"))
+	setText(slot0._tf:Find("greet/InputField/Placeholder"), i18n("player_manifesto_placeholder"))
 	slot0:MatchResolution()
 end
 

@@ -12,7 +12,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.descTxt = slot0:findTF("Text"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
 end
 
 slot0.Show = function(slot0, slot1, slot2)

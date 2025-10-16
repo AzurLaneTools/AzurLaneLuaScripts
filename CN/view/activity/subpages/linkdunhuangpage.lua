@@ -1,9 +1,9 @@
 slot0 = class("LinkDunHuangPage", import(".JavelinComicSkinPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("items/item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("items/item")
+	slot0.items = slot0.bg:Find("items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 	slot0.bgImg = slot0.bg:GetComponent(typeof(Image))
 	slot0.isReplaceBG = false

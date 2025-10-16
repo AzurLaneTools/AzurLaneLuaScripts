@@ -32464,7 +32464,7 @@ _G.pg.base.spweapon_data_statistics[14570] = {
 
 _G.pg.base.spweapon_data_statistics[14580] = {
 	attribute_1 = "durability",
-	name = "赫斯缇亚的缎带",
+	name = "赫斯缇雅的缎带",
 	type = 3,
 	tech = 0,
 	value_1_random = 0,

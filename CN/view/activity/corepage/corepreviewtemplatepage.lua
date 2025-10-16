@@ -1,8 +1,8 @@
 slot0 = class("CorePreviewTemplatePage", import("view.activity.CorePage.CoreActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.btnList = slot0.bg:Find("btn_list")
 end
 
 slot0.OnFirstFlush = function(slot0)

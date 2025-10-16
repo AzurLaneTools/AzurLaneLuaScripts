@@ -17,9 +17,9 @@ slot0.setSummaryInfo = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("bg/back_btn")
-	slot0.pageContainer = slot0:findTF("bg/main/pages")
-	slot0.pageFootContainer = slot0:findTF("bg/main/foots")
+	slot0.backBtn = slot0._tf:Find("bg/back_btn")
+	slot0.pageContainer = slot0._tf:Find("bg/main/pages")
+	slot0.pageFootContainer = slot0._tf:Find("bg/main/foots")
 
 	GetOrAddComponent(slot0.pageFootContainer, typeof(CanvasGroup))
 	setCanvasGroupAlpha(slot0.pageFootContainer, 0)
@@ -46,7 +46,7 @@ slot0.inAnim = function(slot0)
 end
 
 slot0.initSummaryInfo = function(slot0)
-	slot0.loadingPage = SecondSummaryPage1.New(slot0:findTF("page1", slot0.pageContainer))
+	slot0.loadingPage = SecondSummaryPage1.New(slot0.pageContainer:Find("page1"))
 
 	slot0.loadingPage:Init(slot0.summaryInfoVO)
 
@@ -101,7 +101,10 @@ slot0.initSummaryInfo = function(slot0)
 	slot5 = slot0.pageContainer
 
 	slot1(slot5:Find("page5"), SecondSummaryPage5, slot0.summaryInfoVO)
-	onButton(slot0, slot0:findTF("page5/share", slot0.pageContainer), function ()
+
+	slot6 = slot0.pageContainer
+
+	onButton(slot0, slot6:Find("page5/share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSecondSummary)
 	end, SFX_CONFIRM)
 	seriesAsync({
@@ -146,7 +149,9 @@ slot0.registerFootEvent = function(slot0, slot1)
 end
 
 slot0.registerDrag = function(slot0)
-	slot0:addVerticalDrag(slot0:findTF("bg"), function ()
+	slot3 = slot0._tf
+
+	slot0:addVerticalDrag(slot3:Find("bg"), function ()
 		uv0:updatePageFoot(uv0.currPage - 1)
 	end, function ()
 		uv0:updatePageFoot(uv0.currPage + 1)

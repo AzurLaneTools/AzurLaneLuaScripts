@@ -8,7 +8,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 

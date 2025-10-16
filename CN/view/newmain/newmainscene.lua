@@ -98,9 +98,9 @@ end
 
 slot0.init = function(slot0)
 	slot0.mainCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.bgView = MainBGView.New(slot0:findTF("Sea/bg"))
-	slot0.paintingView = MainPaintingView.New(slot0:findTF("paint"), slot0:findTF("paintBg"), slot0.event)
-	slot0.effectView = MainEffectView.New(slot0:findTF("paint/effect"))
+	slot0.bgView = MainBGView.New(slot0._tf:Find("Sea/bg"))
+	slot0.paintingView = MainPaintingView.New(slot0._tf:Find("paint"), slot0._tf:Find("paintBg"), slot0.event)
+	slot0.effectView = MainEffectView.New(slot0._tf:Find("paint/effect"))
 	slot0.buffDescPage = MainBuffDescPage.New(slot0._tf, slot0.event)
 	slot0.calibrationPage = MainCalibrationPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.silentView = MainSilentView.New(slot0._tf, slot0.event, slot0.contextData)

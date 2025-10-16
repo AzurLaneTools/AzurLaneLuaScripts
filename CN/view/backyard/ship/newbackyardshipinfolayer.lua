@@ -5,19 +5,19 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
-	slot1 = slot0:findTF("frame/top/value/Text")
-	slot0.counterTxt = slot1:GetComponent(typeof(Text))
-	slot0.cardContainer = slot0:findTF("frame/panel")
-	slot0.closeBtn = slot0:findTF("frame/top/close")
-	slot0.mainPanel = slot0:findTF("frame")
+	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	slot0.counterTxt = slot0._tf:Find("frame/top/value/Text"):GetComponent(typeof(Text))
+	slot0.cardContainer = slot0._tf:Find("frame/panel")
+	slot0.closeBtn = slot0._tf:Find("frame/top/close")
+	slot1 = slot0._tf
+	slot0.mainPanel = slot1:Find("frame")
 	slot0.toggles = {
-		[Ship.STATE_REST] = slot0:findTF("frame/top/rest"),
-		[Ship.STATE_TRAIN] = slot0:findTF("frame/top/train")
+		[Ship.STATE_REST] = slot0._tf:Find("frame/top/rest"),
+		[Ship.STATE_TRAIN] = slot0._tf:Find("frame/top/train")
 	}
 	slot0.animations = {
-		[Ship.STATE_REST] = slot0:findTF("frame/top/rest"):GetComponent(typeof(Animation)),
-		[Ship.STATE_TRAIN] = slot0:findTF("frame/top/train"):GetComponent(typeof(Animation))
+		[Ship.STATE_REST] = slot0._tf:Find("frame/top/rest"):GetComponent(typeof(Animation)),
+		[Ship.STATE_TRAIN] = slot0._tf:Find("frame/top/train"):GetComponent(typeof(Animation))
 	}
 	slot0.animationName = {
 		[Ship.STATE_REST] = {
@@ -42,11 +42,11 @@ slot0.init = function(slot0)
 	table.insert(slot0.cards[1], BackYardShipCard.New(slot0.shipCardTpl, slot0.event))
 	table.insert(slot0.cards[2], BackYardEmptyCard.New(slot0.addShipTpl, slot0.event))
 	table.insert(slot0.cards[3], BackYardExtendCard.New(slot0.extendShipTpl, slot0.event))
-	setText(slot0:findTF("frame/desc1"), i18n("backyard_longpress_ship_tip"))
-	setText(slot0:findTF("frame/top/rest/Text"), i18n("courtyard_label_rest"))
-	setText(slot0:findTF("frame/top/train/Text"), i18n("courtyard_label_train"))
-	setText(slot0:findTF("frame/top/rest/Text_un"), i18n("courtyard_label_rest"))
-	setText(slot0:findTF("frame/top/train/Text_un"), i18n("courtyard_label_train"))
+	setText(slot0._tf:Find("frame/desc1"), i18n("backyard_longpress_ship_tip"))
+	setText(slot0._tf:Find("frame/top/rest/Text"), i18n("courtyard_label_rest"))
+	setText(slot0._tf:Find("frame/top/train/Text"), i18n("courtyard_label_train"))
+	setText(slot0._tf:Find("frame/top/rest/Text_un"), i18n("courtyard_label_rest"))
+	setText(slot0._tf:Find("frame/top/train/Text_un"), i18n("courtyard_label_train"))
 end
 
 slot0.didEnter = function(slot0)

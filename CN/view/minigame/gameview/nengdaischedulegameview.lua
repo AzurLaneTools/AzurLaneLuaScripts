@@ -165,50 +165,51 @@ slot0.onTimer = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bgTf = slot0:findTF("bg")
-	slot0.clickMask = slot0:findTF("clickMask")
-	slot0.gameUI = slot0:findTF("ui/gameUI")
-	slot0.gameTop = slot0:findTF("top", slot0.gameUI)
-	slot0.gameUIScore = slot0:findTF("score/text", slot0.gameTop)
-	slot0.gameUITime = slot0:findTF("time/text", slot0.gameTop)
-	slot0.gameUILeave = slot0:findTF("btnLeave", slot0.gameUI)
+	slot0.bgTf = slot0._tf:Find("bg")
+	slot0.clickMask = slot0._tf:Find("clickMask")
+	slot0.gameUI = slot0._tf:Find("ui/gameUI")
+	slot0.gameTop = slot0.gameUI:Find("top")
+	slot0.gameUIScore = slot0.gameTop:Find("score/text")
+	slot0.gameUITime = slot0.gameTop:Find("time/text")
+	slot0.gameUILeave = slot0.gameUI:Find("btnLeave")
 
 	setActive(slot0.gameTop, false)
 	onButton(slot0, slot0.gameUILeave, function ()
 		uv0:checkGameExit()
 	end, SFX_PANEL)
 
-	slot0.gamingUI = slot0:findTF("gamingUI")
-	slot0.gamingShow = slot0:findTF("show", slot0.gamingUI)
-	slot0.gamingChoose = slot0:findTF("choose", slot0.gamingUI)
-	slot0.gamingSettlement = slot0:findTF("settlement", slot0.gamingUI)
+	slot0.gamingUI = slot0._tf:Find("gamingUI")
+	slot0.gamingShow = slot0.gamingUI:Find("show")
+	slot0.gamingChoose = slot0.gamingUI:Find("choose")
+	slot0.gamingSettlement = slot0.gamingUI:Find("settlement")
 
 	setActive(slot0.gamingShow, true)
 	setActive(slot0.gamingChoose, true)
 	setActive(slot0.gamingSettlement, false)
 	setActive(slot0.gamingUI, false)
-	setText(slot0:findTF("dayList/Monday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day1"))
-	setText(slot0:findTF("dayList/Tuesday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day2"))
-	setText(slot0:findTF("dayList/Wednesday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day3"))
-	setText(slot0:findTF("dayList/Thursday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day4"))
-	setText(slot0:findTF("dayList/Friday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day5"))
-	setText(slot0:findTF("dayList/Saturday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day6"))
-	setText(slot0:findTF("dayList/Sunday", slot0.gamingSettlement), i18n("dorm3d_nengdai_minigame_day7"))
-	setText(slot0:findTF("state1", slot0.gamingChoose), i18n("dorm3d_nengdai_minigame_remember"))
+	setText(slot0.gamingSettlement:Find("dayList/Monday"), i18n("dorm3d_nengdai_minigame_day1"))
+	setText(slot0.gamingSettlement:Find("dayList/Tuesday"), i18n("dorm3d_nengdai_minigame_day2"))
+	setText(slot0.gamingSettlement:Find("dayList/Wednesday"), i18n("dorm3d_nengdai_minigame_day3"))
+	setText(slot0.gamingSettlement:Find("dayList/Thursday"), i18n("dorm3d_nengdai_minigame_day4"))
+	setText(slot0.gamingSettlement:Find("dayList/Friday"), i18n("dorm3d_nengdai_minigame_day5"))
+	setText(slot0.gamingSettlement:Find("dayList/Saturday"), i18n("dorm3d_nengdai_minigame_day6"))
+	setText(slot0.gamingSettlement:Find("dayList/Sunday"), i18n("dorm3d_nengdai_minigame_day7"))
+	setText(slot0.gamingChoose:Find("state1"), i18n("dorm3d_nengdai_minigame_remember"))
 
 	slot4 = "dorm3d_nengdai_minigame_choose"
 
-	setText(slot0:findTF("state2/text", slot0.gamingChoose), i18n(slot4))
+	setText(slot0.gamingChoose:Find("state2/text"), i18n(slot4))
 
 	for slot4 = 0, 8 do
-		slot5 = slot0:findTF("scheduleList", slot0.gamingChoose):GetChild(slot4):GetChild(0)
+		slot5 = slot0.gamingChoose:Find("scheduleList"):GetChild(slot4):GetChild(0)
 
 		for slot9 = 0, 11 do
 			setText(slot5:GetChild(slot9):GetChild(0), uv0[slot9 + 1])
 		end
 	end
 
-	slot0.count = slot0:findTF("count")
+	slot1 = slot0._tf
+	slot0.count = slot1:Find("count")
 
 	setActive(slot0.count, true)
 
@@ -225,38 +226,38 @@ slot0.GamingLogic = function(slot0)
 		slot0.hasDone = true
 
 		if slot0.showFlag then
-			setActive(slot0:findTF("state1", slot0.gamingChoose), true)
-			setActive(slot0:findTF("state2", slot0.gamingChoose), false)
-			slot0:ShowSchedule(slot0:findTF("morningSchedule", slot0.gamingShow):GetChild(0), true, 1)
-			slot0:ShowSchedule(slot0:findTF("noonSchedule", slot0.gamingShow):GetChild(0), true, 1)
-			slot0:ShowSchedule(slot0:findTF("nightSchedule", slot0.gamingShow):GetChild(0), true, 1)
-			slot0:SetScheduleFrame(slot0:findTF("morningSchedule", slot0.gamingShow):GetChild(0), "")
-			slot0:SetScheduleFrame(slot0:findTF("noonSchedule", slot0.gamingShow):GetChild(0), "")
-			slot0:SetScheduleFrame(slot0:findTF("nightSchedule", slot0.gamingShow):GetChild(0), "")
+			setActive(slot0.gamingChoose:Find("state1"), true)
+			setActive(slot0.gamingChoose:Find("state2"), false)
+			slot0:ShowSchedule(slot0.gamingShow:Find("morningSchedule"):GetChild(0), true, 1)
+			slot0:ShowSchedule(slot0.gamingShow:Find("noonSchedule"):GetChild(0), true, 1)
+			slot0:ShowSchedule(slot0.gamingShow:Find("nightSchedule"):GetChild(0), true, 1)
+			slot0:SetScheduleFrame(slot0.gamingShow:Find("morningSchedule"):GetChild(0), "")
+			slot0:SetScheduleFrame(slot0.gamingShow:Find("noonSchedule"):GetChild(0), "")
+			slot0:SetScheduleFrame(slot0.gamingShow:Find("nightSchedule"):GetChild(0), "")
 
 			slot4 = "dorm3d_nengdai_minigame_day" .. slot0.round
 
-			setText(slot0:findTF("day", slot0.gamingShow), i18n(slot4))
+			setText(slot0.gamingShow:Find("day"), i18n(slot4))
 
 			for slot4 = 0, 6 do
-				setActive(slot0:findTF("dayEng", slot0.gamingShow):GetChild(slot4), slot4 + 1 == slot0.round)
+				setActive(slot0.gamingShow:Find("dayEng"):GetChild(slot4), slot4 + 1 == slot0.round)
 			end
 
 			for slot4 = 0, 8 do
-				slot0:SetScheduleFrame(slot0:findTF("scheduleList", slot0.gamingChoose):GetChild(slot4):GetChild(0), "")
+				slot0:SetScheduleFrame(slot0.gamingChoose:Find("scheduleList"):GetChild(slot4):GetChild(0), "")
 			end
 
 			for slot4 = 0, 8 do
-				slot0:ShowSchedule(slot0:findTF("scheduleList", slot0.gamingChoose):GetChild(slot4):GetChild(0), false)
+				slot0:ShowSchedule(slot0.gamingChoose:Find("scheduleList"):GetChild(slot4):GetChild(0), false)
 			end
 
-			setActive(slot0:findTF("scoreAdd", slot0.gamingShow), false)
+			setActive(slot0.gamingShow:Find("scoreAdd"), false)
 		elseif slot0.chooseFlag then
-			setActive(slot0:findTF("state1", slot0.gamingChoose), false)
-			setActive(slot0:findTF("state2", slot0.gamingChoose), true)
-			slot0:ShowSchedule(slot0:findTF("morningSchedule", slot0.gamingShow):GetChild(0), true, 0, 0)
-			slot0:ShowSchedule(slot0:findTF("noonSchedule", slot0.gamingShow):GetChild(0), true, 0, 0)
-			slot0:ShowSchedule(slot0:findTF("nightSchedule", slot0.gamingShow):GetChild(0), true, 0, 0)
+			setActive(slot0.gamingChoose:Find("state1"), false)
+			setActive(slot0.gamingChoose:Find("state2"), true)
+			slot0:ShowSchedule(slot0.gamingShow:Find("morningSchedule"):GetChild(0), true, 0, 0)
+			slot0:ShowSchedule(slot0.gamingShow:Find("noonSchedule"):GetChild(0), true, 0, 0)
+			slot0:ShowSchedule(slot0.gamingShow:Find("nightSchedule"):GetChild(0), true, 0, 0)
 
 			slot1 = {}
 			slot2 = {
@@ -279,40 +280,41 @@ slot0.GamingLogic = function(slot0)
 
 			for slot7 = 0, 8 do
 				if table.contains(slot1, slot7) then
-					slot0:ShowSchedule(slot0:findTF("scheduleList", slot0.gamingChoose):GetChild(slot7):GetChild(0), true, 2, slot0.showScheduleList[3 * (slot0.round - 1) + slot3])
+					slot0:ShowSchedule(slot0.gamingChoose:Find("scheduleList"):GetChild(slot7):GetChild(0), true, 2, slot0.showScheduleList[3 * (slot0.round - 1) + slot3])
 
 					slot3 = slot3 + 1
 				else
-					slot0:ShowSchedule(slot0:findTF("scheduleList", slot0.gamingChoose):GetChild(slot7):GetChild(0), true, 2)
+					slot0:ShowSchedule(slot0.gamingChoose:Find("scheduleList"):GetChild(slot7):GetChild(0), true, 2)
 				end
 
-				slot10 = slot0:findTF("scheduleList", slot0.gamingChoose)
+				slot10 = slot0.gamingChoose
+				slot10 = slot10:Find("scheduleList")
 
 				onButton(slot0, slot10:GetChild(slot7), function ()
-					if not uv0:IsShowing(uv0:findTF("morningSchedule", uv0.gamingShow):GetChild(0)) then
-						uv0:ShowSchedule(uv0:findTF("morningSchedule", uv0.gamingShow):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
-						uv0:SetScheduleFrame(uv0:findTF("scheduleList", uv0.gamingChoose):GetChild(uv1):GetChild(0), "morningChoose")
-					elseif not uv0:IsShowing(uv0:findTF("noonSchedule", uv0.gamingShow):GetChild(0)) then
-						uv0:ShowSchedule(uv0:findTF("noonSchedule", uv0.gamingShow):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
-						uv0:SetScheduleFrame(uv0:findTF("scheduleList", uv0.gamingChoose):GetChild(uv1):GetChild(0), "noonChoose")
-					elseif not uv0:IsShowing(uv0:findTF("nightSchedule", uv0.gamingShow):GetChild(0)) then
-						uv0:ShowSchedule(uv0:findTF("nightSchedule", uv0.gamingShow):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
-						uv0:SetScheduleFrame(uv0:findTF("scheduleList", uv0.gamingChoose):GetChild(uv1):GetChild(0), "nightChoose")
+					if not uv0:IsShowing(uv0.gamingShow:Find("morningSchedule"):GetChild(0)) then
+						uv0:ShowSchedule(uv0.gamingShow:Find("morningSchedule"):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
+						uv0:SetScheduleFrame(uv0.gamingChoose:Find("scheduleList"):GetChild(uv1):GetChild(0), "morningChoose")
+					elseif not uv0:IsShowing(uv0.gamingShow:Find("noonSchedule"):GetChild(0)) then
+						uv0:ShowSchedule(uv0.gamingShow:Find("noonSchedule"):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
+						uv0:SetScheduleFrame(uv0.gamingChoose:Find("scheduleList"):GetChild(uv1):GetChild(0), "noonChoose")
+					elseif not uv0:IsShowing(uv0.gamingShow:Find("nightSchedule"):GetChild(0)) then
+						uv0:ShowSchedule(uv0.gamingShow:Find("nightSchedule"):GetChild(0), true, 3, uv0.chooseScheduleList[uv1 + 1])
+						uv0:SetScheduleFrame(uv0.gamingChoose:Find("scheduleList"):GetChild(uv1):GetChild(0), "nightChoose")
 						uv0:ChangeMotion()
 					end
 
-					removeOnButton(uv0:findTF("scheduleList", uv0.gamingChoose):GetChild(uv1))
+					removeOnButton(uv0.gamingChoose:Find("scheduleList"):GetChild(uv1))
 				end, SFX_PANEL)
 			end
 		elseif slot0.roundSettleFlag then
-			setActive(slot0:findTF("state1", slot0.gamingChoose), false)
-			setActive(slot0:findTF("state2", slot0.gamingChoose), false)
-			slot0:ShowSchedule(slot0:findTF("morningSchedule", slot0.gamingShow):GetChild(0), true, 0, slot0.showScheduleList[3 * (slot0.round - 1) + 1])
-			slot0:ShowSchedule(slot0:findTF("noonSchedule", slot0.gamingShow):GetChild(0), true, 0, slot0.showScheduleList[3 * (slot0.round - 1) + 2])
+			setActive(slot0.gamingChoose:Find("state1"), false)
+			setActive(slot0.gamingChoose:Find("state2"), false)
+			slot0:ShowSchedule(slot0.gamingShow:Find("morningSchedule"):GetChild(0), true, 0, slot0.showScheduleList[3 * (slot0.round - 1) + 1])
+			slot0:ShowSchedule(slot0.gamingShow:Find("noonSchedule"):GetChild(0), true, 0, slot0.showScheduleList[3 * (slot0.round - 1) + 2])
 
 			slot5 = 0
 
-			slot0:ShowSchedule(slot0:findTF("nightSchedule", slot0.gamingShow):GetChild(0), true, slot5, slot0.showScheduleList[3 * (slot0.round - 1) + 3])
+			slot0:ShowSchedule(slot0.gamingShow:Find("nightSchedule"):GetChild(0), true, slot5, slot0.showScheduleList[3 * (slot0.round - 1) + 3])
 
 			slot1 = 0
 
@@ -325,11 +327,11 @@ slot0.GamingLogic = function(slot0)
 				end
 
 				if slot5 == 1 then
-					slot0:SetScheduleFrame(slot0:findTF("morningSchedule", slot0.gamingShow):GetChild(0), slot6)
+					slot0:SetScheduleFrame(slot0.gamingShow:Find("morningSchedule"):GetChild(0), slot6)
 				elseif slot5 == 2 then
-					slot0:SetScheduleFrame(slot0:findTF("noonSchedule", slot0.gamingShow):GetChild(0), slot6)
+					slot0:SetScheduleFrame(slot0.gamingShow:Find("noonSchedule"):GetChild(0), slot6)
 				elseif slot5 == 3 then
-					slot0:SetScheduleFrame(slot0:findTF("nightSchedule", slot0.gamingShow):GetChild(0), slot6)
+					slot0:SetScheduleFrame(slot0.gamingShow:Find("nightSchedule"):GetChild(0), slot6)
 				end
 			end
 
@@ -339,10 +341,10 @@ slot0.GamingLogic = function(slot0)
 
 			slot5 = "scoreAdd"
 
-			setActive(slot0:findTF(slot5, slot0.gamingShow), true)
+			setActive(slot0.gamingShow:Find(slot5), true)
 
 			for slot5 = 0, 3 do
-				setActive(slot0:findTF("scoreAdd", slot0.gamingShow):GetChild(slot5), slot1 == 100 * slot5)
+				setActive(slot0.gamingShow:Find("scoreAdd"):GetChild(slot5), slot1 == 100 * slot5)
 			end
 
 			slot0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
@@ -354,12 +356,12 @@ slot0.GamingLogic = function(slot0)
 	end
 
 	if slot0.showFlag then
-		setSlider(slot0:findTF("timeSlider", slot0.gamingChoose), 0, uv1, uv1 - slot0.showTime)
+		setSlider(slot0.gamingChoose:Find("timeSlider"), 0, uv1, uv1 - slot0.showTime)
 	end
 
 	if slot0.chooseFlag then
-		setText(slot0:findTF("state2/chooseTime", slot0.gamingChoose), math.ceil(slot0.chooseTime))
-		setSlider(slot0:findTF("timeSlider", slot0.gamingChoose), 0, uv2, slot0.chooseTime)
+		setText(slot0.gamingChoose:Find("state2/chooseTime"), math.ceil(slot0.chooseTime))
+		setSlider(slot0.gamingChoose:Find("timeSlider"), 0, uv2, slot0.chooseTime)
 	end
 end
 
@@ -515,27 +517,27 @@ slot0.GameSettlement = function(slot0)
 	setActive(slot0.gamingSettlement, true)
 
 	for slot4 = 0, 20 do
-		slot0:ShowSchedule(slot0:findTF("scheduleResultList", slot0.gamingSettlement):GetChild(slot4):GetChild(0), true, 0, slot0.playerChoosedScheduleList[slot4 + 1])
+		slot0:ShowSchedule(slot0.gamingSettlement:Find("scheduleResultList"):GetChild(slot4):GetChild(0), true, 0, slot0.playerChoosedScheduleList[slot4 + 1])
 	end
 
 	slot0.scoreNum = slot0.scoreNum + 10 * math.ceil(slot0.gameTime)
 
-	setText(slot0:findTF("currentScore/Text", slot0.gamingSettlement), slot0.scoreNum)
+	setText(slot0.gamingSettlement:Find("currentScore/Text"), slot0.scoreNum)
 
 	slot2 = PlayerPrefs.GetInt("mg_score_" .. tostring(getProxy(PlayerProxy):getPlayerId()) .. "_" .. uv0) or 0
 
-	setActive(slot0:findTF("currentScore/new", slot0.gamingSettlement), slot2 < slot0.scoreNum)
+	setActive(slot0.gamingSettlement:Find("currentScore/new"), slot2 < slot0.scoreNum)
 
 	if slot2 < slot0.scoreNum then
 		PlayerPrefs.SetInt("mg_score_" .. tostring(slot1) .. "_" .. uv0, slot0.scoreNum)
 	end
 
-	setText(slot0:findTF("highestScore/Text", slot0.gamingSettlement), slot2)
+	setText(slot0.gamingSettlement:Find("highestScore/Text"), slot2)
 
 	slot3 = math.ceil(slot0.gameTime)
 
-	setText(slot0:findTF("remainingTime/Text", slot0.gamingSettlement), string.format("%02d", math.floor(slot3 / 60)) .. ":" .. string.format("%02d", slot3 % 60))
-	setText(slot0:findTF("result/Text", slot0.gamingSettlement), slot0:GetEvaluation())
+	setText(slot0.gamingSettlement:Find("remainingTime/Text"), string.format("%02d", math.floor(slot3 / 60)) .. ":" .. string.format("%02d", slot3 % 60))
+	setText(slot0.gamingSettlement:Find("result/Text"), slot0:GetEvaluation())
 end
 
 slot0.GetEvaluation = function(slot0)

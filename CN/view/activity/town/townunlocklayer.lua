@@ -9,14 +9,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.uiList = UIItemList.New(slot0:findTF("frame/content"), slot0:findTF("frame/content/tpl"))
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.uiList = UIItemList.New(slot2:Find("frame/content"), slot3:Find("frame/content/tpl"))
 	slot1 = slot0.uiList
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(uv0:findTF("icon", slot2), GetSpriteFromAtlas("ui/townui_atlas", pg.activity_town_work_level[uv0.unlockInfos[slot1 + 1].id].pic), true)
-			setActive(uv0:findTF("new", slot2), uv0.unlockInfos[slot1 + 1].type == uv1.TYPE.NEW)
-			setText(uv0:findTF("tip/Text", slot2), slot3 == uv1.TYPE.NEW and i18n("town_unlcok_new") or i18n("town_unlcok_level"))
+			setImageSprite(slot2:Find("icon"), GetSpriteFromAtlas("ui/townui_atlas", pg.activity_town_work_level[uv0.unlockInfos[slot1 + 1].id].pic), true)
+			setActive(slot2:Find("new"), uv0.unlockInfos[slot1 + 1].type == uv1.TYPE.NEW)
+			setText(slot2:Find("tip/Text"), slot3 == uv1.TYPE.NEW and i18n("town_unlcok_new") or i18n("town_unlcok_level"))
 		end
 	end)
 end

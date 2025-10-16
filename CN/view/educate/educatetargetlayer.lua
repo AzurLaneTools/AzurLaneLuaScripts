@@ -19,67 +19,69 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.leftTF = slot0:findTF("left/content", slot0.windowTF)
-	slot0.leftEmptyTF = slot0:findTF("left/empty", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.leftTF = slot0.windowTF:Find("left/content")
+	slot0.leftEmptyTF = slot0.windowTF:Find("left/empty")
 
-	setText(slot0:findTF("target_info/Text", slot0.leftEmptyTF), i18n("child_target_set_empty"))
+	setText(slot0.leftEmptyTF:Find("target_info/Text"), i18n("child_target_set_empty"))
 
-	slot0.targetSetBtn = slot0:findTF("target_info/target_set_btn", slot0.leftEmptyTF)
+	slot0.targetSetBtn = slot0.leftEmptyTF:Find("target_info/target_set_btn")
 
-	setText(slot0:findTF("skip_title", slot0.targetSetBtn), i18n("child_target_set_skip"))
+	setText(slot0.targetSetBtn:Find("skip_title"), i18n("child_target_set_skip"))
 
-	slot0.targetInfoTF = slot0:findTF("target_info", slot0.leftTF)
-	slot0.iconTF = slot0:findTF("icon", slot0.targetInfoTF)
-	slot0.nameTF = slot0:findTF("name_bg/name", slot0.targetInfoTF)
-	slot0.unfinishTF = slot0:findTF("unfinish", slot0.targetInfoTF)
-	slot0.sliderTF = slot0:findTF("progress", slot0.unfinishTF)
-	slot0.progressWhiteTF = slot0:findTF("white", slot0.sliderTF)
+	slot0.targetInfoTF = slot0.leftTF:Find("target_info")
+	slot0.iconTF = slot0.targetInfoTF:Find("icon")
+	slot0.nameTF = slot0.targetInfoTF:Find("name_bg/name")
+	slot0.unfinishTF = slot0.targetInfoTF:Find("unfinish")
+	slot0.sliderTF = slot0.unfinishTF:Find("progress")
+	slot0.progressWhiteTF = slot0.sliderTF:Find("white")
 
 	setActive(slot0.progressWhiteTF, true)
-	setText(slot0:findTF("progress/title", slot0.unfinishTF), i18n("child_target_progress"))
+	setText(slot0.unfinishTF:Find("progress/title"), i18n("child_target_progress"))
 
-	slot0.progressTextTF = slot0:findTF("progress/title/Text", slot0.unfinishTF)
-	slot0.targetAwardTF = slot0:findTF("award", slot0.unfinishTF)
-	slot0.finishTF = slot0:findTF("finish", slot0.targetInfoTF)
+	slot0.progressTextTF = slot0.unfinishTF:Find("progress/title/Text")
+	slot0.targetAwardTF = slot0.unfinishTF:Find("award")
+	slot0.finishTF = slot0.targetInfoTF:Find("finish")
 
-	setText(slot0:findTF("Text", slot0.finishTF), i18n("child_target_finish_tip"))
-	setText(slot0:findTF("time/title", slot0.leftTF), i18n("child_target_time_title"))
+	setText(slot0.finishTF:Find("Text"), i18n("child_target_finish_tip"))
+	setText(slot0.leftTF:Find("time/title"), i18n("child_target_time_title"))
 
-	slot0.timeTF = slot0:findTF("time/Text", slot0.leftTF)
-	slot0.taskContentTF = slot0:findTF("task_scrollview/content", slot0.windowTF)
-	slot0.mainTaskTF = slot0:findTF("main_list", slot0.taskContentTF)
+	slot0.timeTF = slot0.leftTF:Find("time/Text")
+	slot0.taskContentTF = slot0.windowTF:Find("task_scrollview/content")
+	slot0.mainTaskTF = slot0.taskContentTF:Find("main_list")
 
-	setText(slot0:findTF("list/tpl/status/get/btn/Text", slot0.mainTaskTF), i18n("word_take"))
+	setText(slot0.mainTaskTF:Find("list/tpl/status/get/btn/Text"), i18n("word_take"))
 
-	slot0.mainTaskUIList = UIItemList.New(slot0:findTF("list", slot0.mainTaskTF), slot0:findTF("list/tpl", slot0.mainTaskTF))
-	slot0.mainTitleTF = slot0:findTF("title/Text", slot0.mainTaskTF)
+	slot0.mainTaskUIList = UIItemList.New(slot0.mainTaskTF:Find("list"), slot0.mainTaskTF:Find("list/tpl"))
+	slot0.mainTitleTF = slot0.mainTaskTF:Find("title/Text")
 
 	setText(slot0.mainTitleTF, i18n("child_target_title1"))
 
-	slot0.mainProgressTF = slot0:findTF("title/progress", slot0.mainTaskTF)
+	slot0.mainProgressTF = slot0.mainTaskTF:Find("title/progress")
 
 	setActive(slot0.mainProgressTF, false)
 
-	slot0.otherTaskTF = slot0:findTF("other_list", slot0.taskContentTF)
+	slot0.otherTaskTF = slot0.taskContentTF:Find("other_list")
 
-	setText(slot0:findTF("list/tpl/status/get/btn/Text", slot0.otherTaskTF), i18n("word_take"))
+	setText(slot0.otherTaskTF:Find("list/tpl/status/get/btn/Text"), i18n("word_take"))
 
-	slot0.otherTaskUIList = UIItemList.New(slot0:findTF("list", slot0.otherTaskTF), slot0:findTF("list/tpl", slot0.otherTaskTF))
-	slot0.otherTitleTF = slot0:findTF("title/Text", slot0.otherTaskTF)
+	slot0.otherTaskUIList = UIItemList.New(slot0.otherTaskTF:Find("list"), slot0.otherTaskTF:Find("list/tpl"))
+	slot0.otherTitleTF = slot0.otherTaskTF:Find("title/Text")
 
 	setText(slot0.otherTitleTF, i18n("child_target_title2"))
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/close"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("anim_root/close"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.targetSetBtn, function ()
@@ -183,8 +185,8 @@ slot0.updataTarget = function(slot0)
 	slot0.canGetFinishAward = slot4 and slot0.canGetTargetAward
 
 	setActive(slot0.unfinishTF, not slot4 or slot0.canGetFinishAward)
-	setActive(slot0:findTF("receiveVX", slot0.targetAwardTF), slot0.canGetFinishAward)
-	setActive(slot0:findTF("tip", slot0.unfinishTF), slot0.canGetFinishAward)
+	setActive(slot0.targetAwardTF:Find("receiveVX"), slot0.canGetFinishAward)
+	setActive(slot0.unfinishTF:Find("tip"), slot0.canGetFinishAward)
 	setActive(slot0.finishTF, slot4 and not slot0.canGetTargetAward)
 end
 
@@ -216,18 +218,18 @@ end
 slot0.updateItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 == "main" and slot0.mainTaskVOs[slot1 + 1] or slot0.otherTaskVOs[slot1 + 1]
 
-	setText(slot0:findTF("desc", slot2), slot4:getConfig("name"))
-	setText(slot0:findTF("status/go/btn/Text", slot2), slot4:GetProgress() .. "/" .. slot4:GetFinishNum())
-	setActive(slot0:findTF("status/go", slot2), slot4:GetTaskStatus() == EducateTask.STATUS_UNFINISH)
-	setActive(slot0:findTF("status/get", slot2), slot5 == EducateTask.STATUS_FINISH)
-	setActive(slot0:findTF("status/got", slot2), slot5 == EducateTask.STATUS_RECEIVE)
-	EducateHelper.UpdateDropShow(slot0:findTF("award", slot2), slot4:GetAwardShow())
-	onButton(slot0, slot0:findTF("award", slot2), function ()
+	setText(slot2:Find("desc"), slot4:getConfig("name"))
+	setText(slot2:Find("status/go/btn/Text"), slot4:GetProgress() .. "/" .. slot4:GetFinishNum())
+	setActive(slot2:Find("status/go"), slot4:GetTaskStatus() == EducateTask.STATUS_UNFINISH)
+	setActive(slot2:Find("status/get"), slot5 == EducateTask.STATUS_FINISH)
+	setActive(slot2:Find("status/got"), slot5 == EducateTask.STATUS_RECEIVE)
+	EducateHelper.UpdateDropShow(slot2:Find("award"), slot4:GetAwardShow())
+	onButton(slot0, slot2:Find("award"), function ()
 		uv0:emit(uv1.EDUCATE_ON_ITEM, {
 			drop = uv2
 		})
 	end)
-	onButton(slot0, slot0:findTF("status/get", slot2), function ()
+	onButton(slot0, slot2:Find("status/get"), function ()
 		if uv0.isClick then
 			return
 		end

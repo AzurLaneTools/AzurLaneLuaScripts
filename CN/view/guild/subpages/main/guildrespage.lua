@@ -17,11 +17,11 @@ slot0.Load = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.captailBg = slot0:findTF("captail"):GetComponent(typeof(Image))
-	slot0.contributionBg = slot0:findTF("contribution"):GetComponent(typeof(Image))
-	slot0.resCaptailTxt = slot0:findTF("captail/Text"):GetComponent(typeof(Text))
-	slot0.resContributionTxt = slot0:findTF("contribution/Text"):GetComponent(typeof(Text))
-	slot0.resourceLogBtn = slot0:findTF("captail/log")
+	slot0.captailBg = slot0._tf:Find("captail"):GetComponent(typeof(Image))
+	slot0.contributionBg = slot0._tf:Find("contribution"):GetComponent(typeof(Image))
+	slot0.resCaptailTxt = slot0._tf:Find("captail/Text"):GetComponent(typeof(Text))
+	slot0.resContributionTxt = slot0._tf:Find("contribution/Text"):GetComponent(typeof(Text))
+	slot0.resourceLogBtn = slot0._tf:Find("captail/log")
 
 	setActive(slot0._tf, true)
 end

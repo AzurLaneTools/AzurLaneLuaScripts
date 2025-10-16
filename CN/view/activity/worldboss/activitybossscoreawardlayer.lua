@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.uiItemList = UIItemList.New(slot0:findTF("window/panel/list"), slot0:findTF("window/panel/list/item"))
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
 
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -14,11 +14,11 @@ slot0.init = function(slot0)
 		end
 	end)
 
-	slot0.currentTxt = slot0:findTF("window/pt/Text"):GetComponent(typeof(Text))
+	slot0.currentTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
-	setText(slot0:findTF("window/pt/title"), i18n("activityboss_sp_window_best_score"))
-	setText(slot0:findTF("window/panel/list/item/target/title"), i18n("activityboss_sp_score_target"))
+	setText(slot0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(slot0._tf:Find("window/pt/title"), i18n("activityboss_sp_window_best_score"))
+	setText(slot0._tf:Find("window/panel/list/item/target/title"), i18n("activityboss_sp_score_target"))
 end
 
 slot0.didEnter = function(slot0)

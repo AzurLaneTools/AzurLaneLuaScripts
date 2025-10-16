@@ -9,38 +9,38 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.frame = slot0:findTF("frame")
+	slot0.frame = slot0._tf:Find("frame")
 	slot0.parentTr = slot0._tf.parent
-	slot0.resourcesTF = slot0:findTF("resources", slot0.frame)
-	slot0.oilTF = slot0:findTF("canteen/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
-	slot0.goldTF = slot0:findTF("merchant/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
-	slot0.classTF = slot0:findTF("class/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
+	slot0.resourcesTF = slot0.frame:Find("resources")
+	slot0.oilTF = slot0.resourcesTF:Find("canteen/bubble/Text"):GetComponent(typeof(Text))
+	slot0.goldTF = slot0.resourcesTF:Find("merchant/bubble/Text"):GetComponent(typeof(Text))
+	slot0.classTF = slot0.resourcesTF:Find("class/bubble/Text"):GetComponent(typeof(Text))
 	slot0.classLockTF = slot0.resourcesTF:Find("class/lock")
-	slot0.oilbubbleTF = slot0:findTF("canteen/bubble", slot0.resourcesTF)
-	slot0.goldbubbleTF = slot0:findTF("merchant/bubble", slot0.resourcesTF)
-	slot0.classbubbleTF = slot0:findTF("class/bubble", slot0.resourcesTF)
+	slot0.oilbubbleTF = slot0.resourcesTF:Find("canteen/bubble")
+	slot0.goldbubbleTF = slot0.resourcesTF:Find("merchant/bubble")
+	slot0.classbubbleTF = slot0.resourcesTF:Find("class/bubble")
 	slot0.oilbubbleCG = GetOrAddComponent(slot0.oilbubbleTF, typeof(CanvasGroup))
 	slot0.goldbubbleCG = GetOrAddComponent(slot0.goldbubbleTF, typeof(CanvasGroup))
 	slot0.classbubbleCG = GetOrAddComponent(slot0.classbubbleTF, typeof(CanvasGroup))
-	slot3 = slot0.classbubbleTF:Find("icon")
-	slot3:GetComponent(typeof(Image)).sprite = LoadSprite(Item.getConfigData(getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()).icon)
-	slot0.projectContainer = slot0:findTF("main/content", slot0.frame)
+	slot0.classbubbleTF:Find("icon"):GetComponent(typeof(Image)).sprite = LoadSprite(Item.getConfigData(getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()).icon)
+	slot3 = slot0.frame
+	slot0.projectContainer = slot3:Find("main/content")
 	slot0.items = {
-		CommissionInfoEventItem.New(slot0:findTF("frame/main/content/event"), slot0),
-		CommissionInfoClassItem.New(slot0:findTF("frame/main/content/class"), slot0),
-		CommissionInfoTechnologyItem.New(slot0:findTF("frame/main/content/technology"), slot0)
+		CommissionInfoEventItem.New(slot0._tf:Find("frame/main/content/event"), slot0),
+		CommissionInfoClassItem.New(slot0._tf:Find("frame/main/content/class"), slot0),
+		CommissionInfoTechnologyItem.New(slot0._tf:Find("frame/main/content/technology"), slot0)
 	}
 
 	slot0:BlurPanel()
 
-	slot0.linkBtnPanel = slot0:findTF("frame/link_btns/btns")
-	slot0.activityInsBtn = slot0:findTF("frame/link_btns/btns/ins")
-	slot0.activtyUrExchangeBtn = slot0:findTF("frame/link_btns/btns/urEx")
-	slot0.activtyUrExchangeTxt = slot0:findTF("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
+	slot0.linkBtnPanel = slot0._tf:Find("frame/link_btns/btns")
+	slot0.activityInsBtn = slot0._tf:Find("frame/link_btns/btns/ins")
+	slot0.activtyUrExchangeBtn = slot0._tf:Find("frame/link_btns/btns/urEx")
+	slot0.activtyUrExchangeTxt = slot0._tf:Find("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
 	slot0.activtyUrExchangeCG = slot0.activtyUrExchangeBtn:GetComponent(typeof(CanvasGroup))
-	slot0.activtyUrExchangeTip = slot0:findTF("frame/link_btns/btns/urEx/tip")
-	slot0.activityCrusingBtn = slot0:findTF("frame/link_btns/btns/crusing")
-	slot0.metaBossBtn = CommissionMetaBossBtn.New(slot0:findTF("frame/link_btns/btns/meta_boss"), slot0.event)
+	slot0.activtyUrExchangeTip = slot0._tf:Find("frame/link_btns/btns/urEx/tip")
+	slot0.activityCrusingBtn = slot0._tf:Find("frame/link_btns/btns/crusing")
+	slot0.metaBossBtn = CommissionMetaBossBtn.New(slot0._tf:Find("frame/link_btns/btns/meta_boss"), slot0.event)
 end
 
 slot0.BlurPanel = function(slot0)

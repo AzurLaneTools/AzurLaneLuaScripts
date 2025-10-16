@@ -955,14 +955,14 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.mapTF = slot0:findTF("map")
-	slot0.backBtn = slot0:findTF("back")
-	slot0.toggleTFs = slot0:findTF("toggles")
+	slot0.mapTF = slot0._tf:Find("map")
+	slot0.backBtn = slot0._tf:Find("back")
+	slot0.toggleTFs = slot0._tf:Find("toggles")
 	slot0.poolMgr = uv0(slot0.mapTF:Find("root"))
-	slot0.successMsgbox = uv1(slot0:findTF("success_bg"))
-	slot0.failedMsgbox = uv1(slot0:findTF("failed_bg"))
-	slot0.furGot = slot0:findTF("fur/got")
-	slot0.helpBtn = slot0:findTF("help")
+	slot0.successMsgbox = uv1(slot0._tf:Find("success_bg"))
+	slot0.failedMsgbox = uv1(slot0._tf:Find("failed_bg"))
+	slot0.furGot = slot0._tf:Find("fur/got")
+	slot0.helpBtn = slot0._tf:Find("help")
 	slot0._tf:GetComponent(typeof(Image)).sprite = slot0.bgSprite
 end
 

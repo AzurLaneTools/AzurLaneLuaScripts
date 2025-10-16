@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.cancelBtnTrans = slot0:findTF("cancelBtn")
-	slot0.confirmBtnTrans = slot0:findTF("selectPage/confirmBtn")
-	slot0.frameAdapter = slot0:findTF("frameAdapter")
-	slot1 = slot0:findTF("selectPage/Scroll/Viewport/Content")
+	slot0.cancelBtnTrans = slot0._tf:Find("cancelBtn")
+	slot0.confirmBtnTrans = slot0._tf:Find("selectPage/confirmBtn")
+	slot0.frameAdapter = slot0._tf:Find("frameAdapter")
+	slot1 = slot0._tf:Find("selectPage/Scroll/Viewport/Content")
 	slot0.frameDataList = {}
 
 	if IslandConst.OnlyShowOwnedFrame == true then

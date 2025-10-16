@@ -5,14 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.frameTr = slot0:findTF("frame")
-	slot0.title = slot0:findTF("frame/Board/Top/text/text"):GetComponent("Text")
+	slot1 = slot0._tf
+	slot0.frameTr = slot1:Find("frame")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/Board/Top/text/text")
+	slot0.title = slot1:GetComponent("Text")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.uiitemList = UIItemList.New(slot2:Find("frame/Board/Content/award/content"), slot3:Find("frame/Board/Content/award/content/tpl"))
+	slot2 = slot0._tf
 
-	setText(slot0:findTF("frame/tip"), i18n("island_click_close"))
+	setText(slot2:Find("frame/tip"), i18n("island_click_close"))
 
-	slot0.animator = slot0.frameTr:GetComponent(typeof(Animation))
-	slot0.aniDft = slot0.frameTr:GetComponent(typeof(DftAniEvent))
-	slot0.scrollRect = slot0._tf:Find("frame/Board/Content/award_scroll/content"):GetComponent("LScrollRect")
+	slot1 = slot0.frameTr
+	slot0.animator = slot1:GetComponent(typeof(Animation))
+	slot1 = slot0.frameTr
+	slot0.aniDft = slot1:GetComponent(typeof(DftAniEvent))
+	slot1 = slot0._tf
+	slot1 = slot1:Find("frame/Board/Content/award_scroll/content")
+	slot0.scrollRect = slot1:GetComponent("LScrollRect")
 
 	slot0.scrollRect.onInitItem = function(slot0)
 	end
@@ -20,8 +31,6 @@ slot0.OnLoaded = function(slot0)
 	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
-
-	slot0.uiitemList = UIItemList.New(slot0:findTF("frame/Board/Content/award/content"), slot0:findTF("frame/Board/Content/award/content/tpl"))
 end
 
 slot0.Show = function(slot0, slot1)

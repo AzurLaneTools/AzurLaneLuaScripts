@@ -9,7 +9,8 @@ slot0.UpdateDropItems = function(slot0)
 	slot2 = slot0.contextData.DisplayItems or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		slot6 = slot0:findTF("milestone/item", slot0.barList[slot4])
+		slot6 = slot0.barList[slot4]
+		slot6 = slot6:Find("milestone/item")
 
 		updateDrop(slot6:GetChild(0), {
 			type = slot0.contextData.DisplayItems[5 - slot4][1],

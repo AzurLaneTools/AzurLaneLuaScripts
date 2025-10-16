@@ -12,14 +12,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.homeBtn = slot0:findTF("top/home")
-	slot0.leftPanel = slot0:findTF("adapt/left_panel")
-	slot0.dockBtn = slot0:findTF("adapt/left_panel/dock_btn")
-	slot0.togglePanel = slot0:findTF("top/toggles")
-	slot1 = slot0:findTF("adapt/left_panel/ships")
-	slot0.shipRect = slot1:GetComponent("LScrollRect")
-	slot0.shipContainer = slot0:findTF("adapt/left_panel/ships/content")
+	slot0.backBtn = slot0._tf:Find("top/back")
+	slot0.homeBtn = slot0._tf:Find("top/home")
+	slot0.leftPanel = slot0._tf:Find("adapt/left_panel")
+	slot0.dockBtn = slot0._tf:Find("adapt/left_panel/dock_btn")
+	slot0.togglePanel = slot0._tf:Find("top/toggles")
+	slot0.shipRect = slot0._tf:Find("adapt/left_panel/ships"):GetComponent("LScrollRect")
+	slot1 = slot0._tf
+	slot0.shipContainer = slot1:Find("adapt/left_panel/ships/content")
 
 	slot0.shipRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -30,10 +30,10 @@ slot0.OnLoaded = function(slot0)
 	end
 
 	slot0.toggles = {
-		[uv0.PAGE_INFO] = slot0:findTF("top/toggles/info"),
-		[uv0.PAGE_DRESS] = slot0:findTF("top/toggles/dress"),
-		[uv0.PAGE_STATUS] = slot0:findTF("top/toggles/gift"),
-		[uv0.PAGE_PROFILE] = slot0:findTF("top/toggles/data")
+		[uv0.PAGE_INFO] = slot0._tf:Find("top/toggles/info"),
+		[uv0.PAGE_DRESS] = slot0._tf:Find("top/toggles/dress"),
+		[uv0.PAGE_STATUS] = slot0._tf:Find("top/toggles/gift"),
+		[uv0.PAGE_PROFILE] = slot0._tf:Find("topapt/toggles/data")
 	}
 	slot0.pages = {
 		[uv0.PAGE_INFO] = IslandShipInfoPage,
@@ -44,12 +44,12 @@ slot0.OnLoaded = function(slot0)
 	slot0.cards = {}
 
 	setActive(slot0.togglePanel, true)
-	setText(slot0:findTF("top/title/Text"), i18n("island_chara_totalname"))
-	setText(slot0:findTF("top/title/Text/en"), i18n("island_chara_totalname_en"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_chara_totalname"))
+	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_chara_totalname_en"))
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return slot0:findTF("adapt/char")
+	return slot0._tf:Find("adapt/char")
 end
 
 slot0.AddListeners = function(slot0)
@@ -103,6 +103,14 @@ slot0.OnTriggerPage = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/title/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_character_info.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:OnHome()
 	end, SFX_PANEL)

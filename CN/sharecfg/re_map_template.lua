@@ -2363,6 +2363,57 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[42] = {
+		id = 42,
+		name = "飓风与青春之泉常驻复刻",
+		bg = "temp_fengfanv1",
+		memory_group = 263,
+		activity_type = 2,
+		order = 42,
+		config_data = {
+			2200141,
+			2200142,
+			2200143,
+			2200144,
+			2200145,
+			2200146
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2200146,
+				4,
+				9600041,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					9600041
+				},
+				"T6"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11055
+				},
+				"T6"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2403,6 +2454,7 @@ pg.re_map_template = {
 		38,
 		39,
 		40,
-		41
+		41,
+		42
 	}
 }

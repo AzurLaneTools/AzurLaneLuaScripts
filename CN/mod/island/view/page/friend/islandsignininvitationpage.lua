@@ -7,22 +7,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.shareBtn = slot0:findTF("frame/public")
-	slot0.onkeyBtn = slot0:findTF("frame/onkey")
-	slot0.closeBtn = slot0:findTF("frame/close")
+	slot0.shareBtn = slot0._tf:Find("frame/public")
+	slot0.onkeyBtn = slot0._tf:Find("frame/onkey")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("frame/close")
 	slot0.toggles = {
-		[uv0] = slot0:findTF("frame/toggles/1"),
-		[uv1] = slot0:findTF("frame/toggles/2")
+		[uv0] = slot0._tf:Find("frame/toggles/1"),
+		[uv1] = slot0._tf:Find("frame/toggles/2")
 	}
 	slot0.texts = {
-		[uv0] = slot0:findTF("frame/toggles/1/Text"):GetComponent(typeof(Text)),
-		[uv1] = slot0:findTF("frame/toggles/2/Text"):GetComponent(typeof(Text))
+		[uv0] = slot0._tf:Find("frame/toggles/1/Text"):GetComponent(typeof(Text)),
+		[uv1] = slot0._tf:Find("frame/toggles/2/Text"):GetComponent(typeof(Text))
 	}
 	slot0.names = {
 		i18n("island_friend"),
 		i18n("island_guild")
 	}
-	slot0._scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
+	slot0._scrollrect = slot0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
 
 	slot0._scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -32,8 +33,8 @@ slot0.OnLoaded = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	setText(slot0:findTF("frame/public/Text"), i18n("island_public_invitation"))
-	setText(slot0:findTF("frame/onkey/Text"), i18n("island_onekey_invitation"))
+	setText(slot0._tf:Find("frame/public/Text"), i18n("island_public_invitation"))
+	setText(slot0._tf:Find("frame/onkey/Text"), i18n("island_onekey_invitation"))
 end
 
 slot0.OnInit = function(slot0)

@@ -100,7 +100,7 @@ slot0.init = function(slot0)
 	slot0.descTxt = slot0.selectetPanel:Find("desc/bg/Text"):GetComponent(typeof(Text))
 	slot0.timerTxt = slot0.selectetPanel:Find("timer/bg/Text"):GetComponent(typeof(Text))
 	slot0.itemContainer = slot0.selectetPanel:Find("consume_panel/bg/container")
-	slot0.itemTpl = slot0:findTF("item_tpl", slot0.itemContainer)
+	slot0.itemTpl = slot0.itemContainer:Find("item_tpl")
 	slot0.emptyTF = slot0.selectetPanel:Find("consume_panel/bg/empty")
 	slot0.taskPanel = slot0.selectetPanel:Find("consume_panel/bg/task_panel")
 	slot0.taskSlider = slot0.taskPanel:Find("slider"):GetComponent(typeof(Slider))
@@ -124,12 +124,12 @@ slot0.init = function(slot0)
 end
 
 slot0.updateSettingsBtn = function(slot0)
-	slot1 = slot0:findTF("RedPoint", slot0.settingsBtn)
+	slot1 = slot0.settingsBtn:Find("RedPoint")
 
-	setText(slot0:findTF("TipText", slot0.settingsBtn), i18n("tec_settings_btn_word"))
+	setText(slot0.settingsBtn:Find("TipText"), i18n("tec_settings_btn_word"))
 
-	slot4 = slot0:findTF("Selected", slot0:findTF("TargetCatchup", slot0.settingsBtn))
-	slot5 = slot0:findTF("ActCatchup", slot0.settingsBtn)
+	slot4 = slot0.settingsBtn:Find("TargetCatchup"):Find("Selected")
+	slot5 = slot0.settingsBtn:Find("ActCatchup")
 
 	slot0:updateSettingBtnVersion()
 
@@ -140,8 +140,8 @@ slot0.updateSettingsBtn = function(slot0)
 		slot10 = pg.activity_event_blueprint_catchup[slot9].char_choice
 
 		if slot7.data1 < pg.activity_event_blueprint_catchup[slot9].obtain_max then
-			setImageSprite(slot0:findTF("Selected/CharImg", slot5), LoadSprite("TecCatchup/QChar" .. slot10, tostring(slot10)))
-			setText(slot0:findTF("Selected/ProgressText", slot5), slot8 .. "/" .. slot11)
+			setImageSprite(slot5:Find("Selected/CharImg"), LoadSprite("TecCatchup/QChar" .. slot10, tostring(slot10)))
+			setText(slot5:Find("Selected/ProgressText"), slot8 .. "/" .. slot11)
 
 			slot14 = slot7.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -151,10 +151,10 @@ slot0.updateSettingsBtn = function(slot0)
 				slot0.actCatchupTimer = nil
 			end
 
-			slot15 = slot0:findTF("TimeLeft/Day", slot5)
-			slot16 = slot0:findTF("TimeLeft/Hour", slot5)
-			slot17 = slot0:findTF("TimeLeft/Min", slot5)
-			slot18 = slot0:findTF("TimeLeft/NumText", slot5)
+			slot15 = slot5:Find("TimeLeft/Day")
+			slot16 = slot5:Find("TimeLeft/Hour")
+			slot17 = slot5:Find("TimeLeft/Min")
+			slot18 = slot5:Find("TimeLeft/NumText")
 			slot0.actCatchupTimer = Timer.New(function ()
 				slot0, slot1, slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(uv0)
 				uv0 = uv0 - 1
@@ -209,8 +209,8 @@ slot0.updateSettingsBtn = function(slot0)
 			else
 				setActive(slot4, true)
 				setActive(slot1, false)
-				setImageSprite(slot0:findTF("CharImg", slot4), LoadSprite("TecCatchup/QChar" .. slot13, tostring(slot13)))
-				setText(slot0:findTF("ProgressText", slot4), slot14 .. "/" .. slot17)
+				setImageSprite(slot4:Find("CharImg"), LoadSprite("TecCatchup/QChar" .. slot13, tostring(slot13)))
+				setText(slot4:Find("ProgressText"), slot14 .. "/" .. slot17)
 			end
 		end
 	else
@@ -903,7 +903,7 @@ slot0.updateItem = function(slot0, slot1, slot2, slot3)
 		__index = Drop.Create(slot3)
 	}))
 
-	if not IsNil(slot0:findTF("icon_bg/count", slot1)) then
+	if not IsNil(slot1:Find("icon_bg/count")) then
 		setColorCount(slot5, slot4:getOwnedCount(), slot4.count)
 	end
 

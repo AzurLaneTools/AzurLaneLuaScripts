@@ -39,18 +39,18 @@ slot0.OnBossProgressUpdate = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.helpBtn = slot0:findTF("help")
-	slot0.compass = slot0:findTF("compass")
-	slot0.latitude = slot0:findTF("info/latitude", slot0.compass)
-	slot0.altitude = slot0:findTF("info/altitude", slot0.compass)
-	slot0.longitude = slot0:findTF("info/longitude", slot0.compass)
-	slot0.speed = slot0:findTF("info/speed", slot0.compass)
-	slot0.rader = slot0:findTF("rader/rader")
-	slot0.progressTr = slot0:findTF("progress")
+	slot0.helpBtn = slot0._tf:Find("help")
+	slot0.compass = slot0._tf:Find("compass")
+	slot0.latitude = slot0.compass:Find("info/latitude")
+	slot0.altitude = slot0.compass:Find("info/altitude")
+	slot0.longitude = slot0.compass:Find("info/longitude")
+	slot0.speed = slot0.compass:Find("info/speed")
+	slot0.rader = slot0._tf:Find("rader/rader")
+	slot0.progressTr = slot0._tf:Find("progress")
 	slot0.progressTxt = slot0.progressTr:Find("value"):GetComponent(typeof(Text))
-	slot0.activeBtn = slot0:findTF("useItem/list/tpl")
-	slot0.useItem = slot0:findTF("useItem")
-	slot0.noItem = slot0:findTF("noitem")
+	slot0.activeBtn = slot0._tf:Find("useItem/list/tpl")
+	slot0.useItem = slot0._tf:Find("useItem")
+	slot0.noItem = slot0._tf:Find("noitem")
 end
 
 slot0.OnInit = function(slot0)
@@ -60,15 +60,15 @@ slot0.OnInit = function(slot0)
 	setText(slot0.speed, "000")
 	rotateAni(slot0.rader, 1, 3)
 
-	if slot0:findTF("title") then
-		GetComponent(slot0:findTF("title"), typeof(Image)):SetNativeSize()
+	if slot0._tf:Find("title") then
+		GetComponent(slot0._tf:Find("title"), typeof(Image)):SetNativeSize()
 	end
 end
 
 slot0.UpdateUseItemStyle = function(slot0, slot1)
-	slot0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot1, "useitem")
+	slot0._tf:Find("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot1, "useitem")
 
-	slot0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)):SetNativeSize()
+	slot0._tf:Find("useItem/list/tpl"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 slot0.Update = function(slot0)

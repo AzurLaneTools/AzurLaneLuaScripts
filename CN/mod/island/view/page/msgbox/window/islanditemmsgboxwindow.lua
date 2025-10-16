@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.uiItemList = UIItemList.New(slot0:findTF("items"), slot0:findTF("items/tpl"))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("items"), slot0._tf:Find("items/tpl"))
 end
 
 slot0.OnShow = function(slot0)

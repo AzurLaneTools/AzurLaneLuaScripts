@@ -13,25 +13,25 @@ end
 
 slot0.LoadList = function(slot0)
 	slot0._parentTF = slot0._tf.parent
-	slot0.adpter = slot0:findTF("adpter")
-	slot0.themeContainer = slot0:findTF("list/frame")
-	slot0.scrollRect = slot0:findTF("list/frame/mask/content"):GetComponent("LScrollRect")
-	slot0.scrollRectWidth = slot0:findTF("list/frame/mask").rect.width
-	slot0.searchInput = slot0:findTF("adpter/search")
+	slot0.adpter = slot0._tf:Find("adpter")
+	slot0.themeContainer = slot0._tf:Find("list/frame")
+	slot0.scrollRect = slot0._tf:Find("list/frame/mask/content"):GetComponent("LScrollRect")
+	slot0.scrollRectWidth = slot0._tf:Find("list/frame/mask").rect.width
+	slot0.searchInput = slot0._tf:Find("adpter/search")
 	slot0.searchClear = slot0.searchInput:Find("clear")
 
 	setText(slot0.searchInput:Find("Placeholder"), i18n("courtyard_label_search_holder"))
 end
 
 slot0.LoadDetail = function(slot0)
-	slot0.purchaseBtn = slot0:findTF("adpter/descript/btn_goumai")
-	slot0.title = slot0:findTF("adpter/descript/title"):GetComponent(typeof(Text))
-	slot0.desc = slot0:findTF("adpter/descript/desc"):GetComponent(typeof(Text))
-	slot0.actualPrice = slot0:findTF("adpter/descript/price/actual_price")
-	slot0.actualPriceTxt = slot0:findTF("adpter/descript/price/actual_price/Text"):GetComponent(typeof(Text))
-	slot0.goldTxt = slot0:findTF("adpter/descript/price/price/Text"):GetComponent(typeof(Text))
-	slot0.preview = slot0:findTF("preview"):GetComponent(typeof(Image))
-	slot0.descript = slot0:findTF("adpter/descript")
+	slot0.purchaseBtn = slot0._tf:Find("adpter/descript/btn_goumai")
+	slot0.title = slot0._tf:Find("adpter/descript/title"):GetComponent(typeof(Text))
+	slot0.desc = slot0._tf:Find("adpter/descript/desc"):GetComponent(typeof(Text))
+	slot0.actualPrice = slot0._tf:Find("adpter/descript/price/actual_price")
+	slot0.actualPriceTxt = slot0._tf:Find("adpter/descript/price/actual_price/Text"):GetComponent(typeof(Text))
+	slot0.goldTxt = slot0._tf:Find("adpter/descript/price/price/Text"):GetComponent(typeof(Text))
+	slot0.preview = slot0._tf:Find("preview"):GetComponent(typeof(Image))
+	slot0.descript = slot0._tf:Find("adpter/descript")
 	slot0.infoPage = BackYardThemeInfoPage.New(slot0._tf.parent, slot0.event, slot0.contextData)
 
 	slot0.infoPage.OnEnter = function()
@@ -373,7 +373,7 @@ end
 slot0.BlurView = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.adpter, {
 		pbList = {
-			slot0:findTF("adpter/descript")
+			slot0._tf:Find("adpter/descript")
 		}
 	})
 end

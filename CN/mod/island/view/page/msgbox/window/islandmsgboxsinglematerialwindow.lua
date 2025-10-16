@@ -7,14 +7,14 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.valueInput = slot0:findTF("calc/value/InputField")
-	slot0.addBtn = slot0:findTF("calc/add")
-	slot0.reduceBtn = slot0:findTF("calc/reduce")
-	slot0.sellBtn = slot0:findTF("calc/sell_btn")
-	slot0.priceTxt = slot0:findTF("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
+	slot0.valueInput = slot0._tf:Find("calc/value/InputField")
+	slot0.addBtn = slot0._tf:Find("calc/add")
+	slot0.reduceBtn = slot0._tf:Find("calc/reduce")
+	slot0.sellBtn = slot0._tf:Find("calc/sell_btn")
+	slot0.priceTxt = slot0._tf:Find("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
 
-	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0:findTF("calc/sell_btn/price/res"))
-	setText(slot0:findTF("calc/sell_btn/Text"), i18n("island_word_convert"))
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0._tf:Find("calc/sell_btn/price/res"))
+	setText(slot0._tf:Find("calc/sell_btn/Text"), i18n("island_word_convert"))
 end
 
 slot0.OnShow = function(slot0)

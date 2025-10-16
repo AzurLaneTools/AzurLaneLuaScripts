@@ -8,7 +8,8 @@ slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 
 	slot0.commonFlag = defaultValue(slot0.contextData.commonFlag, true)
-	slot1 = slot0:findTF("panel/bg/tags")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("panel/bg/tags")
 
 	onToggle(slot0, slot1, function (slot0)
 		uv0.commonFlag = slot0

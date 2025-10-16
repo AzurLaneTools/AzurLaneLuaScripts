@@ -9,7 +9,7 @@ end
 
 slot0.InitView = function(slot0)
 	slot0.animations = {}
-	slot0.puzzle = slot0:findTF("Puzzle", slot0.bg)
+	slot0.puzzle = slot0.bg:Find("Puzzle")
 	slot0.linkActId = slot0:GetLinkId()
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.chargeIDList = Clone(slot0.activityProxy:getActivityById(slot0.linkActId).data1_list)
@@ -19,7 +19,8 @@ slot0.InitView = function(slot0)
 end
 
 slot0.RegisterEvent = function(slot0)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.bg)
+	slot1 = slot0.bg
+	slot0.helpBtn = slot1:Find("HelpBtn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.comic_help then

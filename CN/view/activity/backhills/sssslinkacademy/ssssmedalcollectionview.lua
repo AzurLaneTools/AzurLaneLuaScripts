@@ -27,11 +27,10 @@ slot0.init = function(slot0)
 end
 
 slot0.FindUI = function(slot0)
-	slot1 = slot0:findTF("Top")
-	slot0.backBtn = slot0:findTF("BackBtn", slot1)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
-	slot5 = slot1
-	slot0.progressText = slot0:findTF("ProgressText", slot5)
+	slot1 = slot0._tf:Find("Top")
+	slot0.backBtn = slot1:Find("BackBtn")
+	slot0.helpBtn = slot1:Find("HelpBtn")
+	slot0.progressText = slot1:Find("ProgressText")
 	slot0.slots = {}
 
 	for slot5 = 1, 6 do

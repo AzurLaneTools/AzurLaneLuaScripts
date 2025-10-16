@@ -1,10 +1,11 @@
 slot0 = class("Dorm3dFurniture", import("model.vo.BaseVO"))
 slot0.TYPE = {
-	COUCH = 5,
+	SPECIAL = 99,
 	FLOOR = 2,
 	DECORATION = 3,
 	BED = 4,
 	TABLE = 6,
+	COUCH = 5,
 	WALLPAPER = 1
 }
 slot0.TYPE2NAME = {
@@ -13,7 +14,8 @@ slot0.TYPE2NAME = {
 	"dorm3d_furnitrue_type_decoration",
 	"dorm3d_furnitrue_type_bed",
 	"dorm3d_furnitrue_type_couch",
-	"dorm3d_furnitrue_type_table"
+	"dorm3d_furnitrue_type_table",
+	[99.0] = "dorm3d_furnitrue_type_special"
 }
 
 slot0.bindConfigTable = function(slot0)
