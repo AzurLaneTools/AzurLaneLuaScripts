@@ -2295,8 +2295,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「天域，乃外域之屏。天原，因天域而定。纵使地崩山摧，浩劫将至——天域天原，亦需永存」",
-		name = "起舞于天原之上",
+		description = "「天域，乃外域之屏。天原，因天域而定。縱使地崩山摧，浩劫將至——天域天原，亦需永存」",
+		name = "起舞於天原之上",
 		column = 55,
 		world_id = "",
 		bgm = "story-amahara-stage1",
