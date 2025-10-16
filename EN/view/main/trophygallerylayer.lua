@@ -19,27 +19,27 @@ slot0.setTrophyList = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0._bg = slot0:findTF("bg")
-	slot0._blurPanel = slot0:findTF("blur_panel")
-	slot0._topPanel = slot0:findTF("adapt/top", slot0._blurPanel)
+	slot0._bg = slot0._tf:Find("bg")
+	slot0._blurPanel = slot0._tf:Find("blur_panel")
+	slot0._topPanel = slot0._blurPanel:Find("adapt/top")
 	slot0._backBtn = slot0._topPanel:Find("back_btn")
 	slot0._helpBtn = slot0._topPanel:Find("help_btn")
-	slot0._center = slot0:findTF("bg/taskBGCenter")
+	slot0._center = slot0._tf:Find("bg/taskBGCenter")
 	slot0._trophyUpperTpl = slot0:getTpl("trophy_upper", slot0._center)
 	slot0._trophyLowerTpl = slot0:getTpl("trophy_lower", slot0._center)
-	slot0._trophyContainer = slot0:findTF("bg/taskBGCenter/right_panel/Grid")
-	slot0._scrllPanel = slot0:findTF("bg/taskBGCenter/right_panel")
-	slot1 = slot0._scrllPanel
-	slot0._scrollView = slot1:GetComponent("LScrollRect")
-	slot0._trophyDetailPanel = TrophyDetailPanel.New(slot0:findTF("trophyPanel"), slot0._tf)
-	slot0._filterBtn = slot0:findTF("filter/toggle", slot0._topPanel)
-	slot0._trophyCounter = slot0:findTF("filter/counter/Text", slot0._topPanel)
-	slot0._reminderRes = slot0:findTF("bg/resource")
+	slot0._trophyContainer = slot0._tf:Find("bg/taskBGCenter/right_panel/Grid")
+	slot0._scrllPanel = slot0._tf:Find("bg/taskBGCenter/right_panel")
+	slot0._scrollView = slot0._scrllPanel:GetComponent("LScrollRect")
+	slot0._trophyDetailPanel = TrophyDetailPanel.New(slot0._tf:Find("trophyPanel"), slot0._tf)
+	slot0._filterBtn = slot0._topPanel:Find("filter/toggle")
+	slot0._trophyCounter = slot0._topPanel:Find("filter/counter/Text")
+	slot1 = slot0._tf
+	slot0._reminderRes = slot1:Find("bg/resource")
 	slot0._pageToggle = {
-		slot0:findTF("blur_panel/adapt/left_length/frame/root/common_toggle"),
-		slot0:findTF("blur_panel/adapt/left_length/frame/root/limited_toggle")
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/common_toggle"),
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/root/limited_toggle")
 	}
-	slot0._hideExpireBtn = slot0:findTF("blur_panel/adapt/top/expireCheckBox")
+	slot0._hideExpireBtn = slot0._tf:Find("blur_panel/adapt/top/expireCheckBox")
 	slot0._hideExpireCheck = slot0._hideExpireBtn:Find("check")
 	slot0._pageIndex = 1
 	slot0._hideExpire = false

@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.contentTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("frame/btns/btn_confrim")
+	slot0.contentTxt = slot0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("frame/btns/btn_confrim")
 	slot0.btnImg = slot0.confirmBtn:GetComponent(typeof(Image))
-	slot0.cancelBtn = slot0:findTF("frame/btns/btn_cancel")
+	slot0.cancelBtn = slot0._tf:Find("frame/btns/btn_cancel")
 end
 
 slot0.OnInit = function(slot0)

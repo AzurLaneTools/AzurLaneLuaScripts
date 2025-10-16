@@ -10,8 +10,8 @@ slot0.init = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0)
 	slot0.story = slot0.activity:getConfig("config_client").story
 	slot0.storyStateDic = {}
-	slot0.item = slot0:findTF("task/item", slot0.bg)
-	slot0.items = slot0:findTF("task/items", slot0.bg)
+	slot0.item = slot0.bg:Find("task/item")
+	slot0.items = slot0.bg:Find("task/items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 
 	setActive(slot0.item, false)
@@ -39,7 +39,7 @@ slot0.init = function(slot0)
 	slot0:InitStoryState()
 	slot0:UpdateStoryView()
 	slot0:DisplayBigTask()
-	setText(slot0:findTF("task/taskAll/taskallReward/hasRewardText"), i18n("activity_1024_memory_get"))
+	setText(slot0._tf:Find("task/taskAll/taskallReward/hasRewardText"), i18n("activity_1024_memory_get"))
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -79,7 +79,7 @@ slot0.UpdataTaskData = function(slot0)
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("item", slot2)
+	slot4 = slot2:Find("item")
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
 	assert(slot6, "without this task by id: " .. slot5)
@@ -97,13 +97,13 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	slot10, slot11 = slot0:GetProgressColor()
 
-	setActive(slot0:findTF("progressText", slot2), false)
-	setText(slot0:findTF("description", slot2), slot6:getConfig("desc") .. " (" .. (slot10 and setColorStr(slot8, slot10) or slot8) .. (slot11 and setColorStr("/" .. slot9, slot11) or "/" .. slot9) .. ")")
-	setSlider(slot0:findTF("progress", slot2), 0, slot9, slot8)
+	setActive(slot2:Find("progressText"), false)
+	setText(slot2:Find("description"), slot6:getConfig("desc") .. " (" .. (slot10 and setColorStr(slot8, slot10) or slot8) .. (slot11 and setColorStr("/" .. slot9, slot11) or "/" .. slot9) .. ")")
+	setSlider(slot2:Find("progress"), 0, slot9, slot8)
 
-	slot13 = slot0:findTF("go_btn", slot2)
-	slot14 = slot0:findTF("get_btn", slot2)
-	slot15 = slot0:findTF("got_btn", slot2)
+	slot13 = slot2:Find("go_btn")
+	slot14 = slot2:Find("get_btn")
+	slot15 = slot2:Find("got_btn")
 	slot16 = slot6:getTaskStatus()
 
 	if slot0.allCompleteCount == 8 then
@@ -136,7 +136,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 			uv0:emit(GhostSkinMediator.ON_TASK_SUBMIT, uv1)
 		end)
 	end, SFX_PANEL)
-	setActive(slot0:findTF("reddot", slot2), slot0.allCompleteCount < 8 and slot16 == 1)
+	setActive(slot2:Find("reddot"), slot0.allCompleteCount < 8 and slot16 == 1)
 end
 
 slot0.DisplayBigTask = function(slot0)
@@ -144,13 +144,13 @@ slot0.DisplayBigTask = function(slot0)
 
 	assert(slot2, "without this task by id: " .. slot1)
 
-	slot3 = slot0:findTF("task/allTaskItem")
+	slot3 = slot0._tf:Find("task/allTaskItem")
 
 	updateDrop(slot3, Drop.Create(slot2:getConfig("award_display")[1]))
 	onButton(slot0, slot3, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setActive(slot0:findTF("task/taskAll/taskallReward"), slot2:getTaskStatus() == 2)
+	setActive(slot0._tf:Find("task/taskAll/taskallReward"), slot2:getTaskStatus() == 2)
 end
 
 slot0.GetProgressColor = function(slot0)

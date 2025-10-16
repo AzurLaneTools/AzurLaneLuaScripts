@@ -5,23 +5,26 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.titleTF = slot0:findTF("clues/title")
+	slot0.titleTF = slot0._tf:Find("clues/title")
 
 	setText(slot0.titleTF, i18n("liner_event_reasoning_title"))
 
-	slot0.eventNameTF = slot0:findTF("clues/name")
-	slot0.cluesTF = slot0:findTF("clues/content")
-	slot0.optionsTF = slot0:findTF("options")
+	slot0.eventNameTF = slot0._tf:Find("clues/name")
+	slot0.cluesTF = slot0._tf:Find("clues/content")
+	slot0.optionsTF = slot0._tf:Find("options")
 
-	slot0:findTF("clues/reasoning_title"):GetComponent(typeof(Image)):SetNativeSize()
+	slot0._tf:Find("clues/reasoning_title"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("mask"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("mask"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.cluesUIList = UIItemList.New(slot0.cluesTF, slot0:findTF("tpl", slot0.cluesTF))
+	slot3 = slot0.cluesTF
+	slot0.cluesUIList = UIItemList.New(slot0.cluesTF, slot3:Find("tpl"))
 	slot1 = slot0.cluesUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -33,7 +36,8 @@ slot0.OnInit = function(slot0)
 		end
 	end)
 
-	slot0.optionsUIList = UIItemList.New(slot0.optionsTF, slot0:findTF("tpl", slot0.optionsTF))
+	slot3 = slot0.optionsTF
+	slot0.optionsUIList = UIItemList.New(slot0.optionsTF, slot3:Find("tpl"))
 	slot1 = slot0.optionsUIList
 
 	slot1:make(function (slot0, slot1, slot2)

@@ -20,32 +20,32 @@ slot0.PlayBGM = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.mapTF = slot0:findTF("map")
-	slot0.bgTF = slot0:findTF("bg", slot0.mapTF)
-	slot0.roomsTF = slot0:findTF("content", slot0.mapTF)
-	slot0.topUI = slot0:findTF("top")
-	slot0.nameBgTF = slot0:findTF("name_bg", slot0.topUI)
-	slot0.nameInput = slot0:findTF("name/input", slot0.topUI)
-	slot0.logBtn = slot0:findTF("logbook", slot0.topUI)
-	slot0.timeBgTF = slot0:findTF("time/bg", slot0.topUI)
-	slot0.timeTF = slot0:findTF("time/Text", slot0.topUI)
-	slot0.targetTagTF = slot0:findTF("time/target/tag", slot0.topUI)
-	slot1 = slot0:findTF("time/target", slot0.topUI)
-	slot0.targetLayoutCom = slot1:GetComponent(typeof(HorizontalLayoutGroup))
-	slot0.targetTF = slot0:findTF("time/target/Text", slot0.topUI)
-	slot0.focusTF = slot0:findTF("focus", slot0.topUI)
+	slot0.mapTF = slot0._tf:Find("map")
+	slot0.bgTF = slot0.mapTF:Find("bg")
+	slot0.roomsTF = slot0.mapTF:Find("content")
+	slot0.topUI = slot0._tf:Find("top")
+	slot0.nameBgTF = slot0.topUI:Find("name_bg")
+	slot0.nameInput = slot0.topUI:Find("name/input")
+	slot0.logBtn = slot0.topUI:Find("logbook")
+	slot0.timeBgTF = slot0.topUI:Find("time/bg")
+	slot0.timeTF = slot0.topUI:Find("time/Text")
+	slot0.targetTagTF = slot0.topUI:Find("time/target/tag")
+	slot0.targetLayoutCom = slot0.topUI:Find("time/target"):GetComponent(typeof(HorizontalLayoutGroup))
+	slot0.targetTF = slot0.topUI:Find("time/target/Text")
+	slot1 = slot0.topUI
+	slot0.focusTF = slot1:Find("focus")
 
-	setActive(slot0:findTF("tpl", slot0.focusTF), false)
+	setActive(slot0.focusTF:Find("tpl"), false)
 
 	slot0.bgDiffList = {
 		slot0.bgTF,
 		slot0.nameBgTF,
 		slot0.timeBgTF,
-		slot0:findTF("1/icon", slot0.roomsTF),
-		slot0:findTF("3/icon", slot0.roomsTF),
-		slot0:findTF("4/icon", slot0.roomsTF)
+		slot0.roomsTF:Find("1/icon"),
+		slot0.roomsTF:Find("3/icon"),
+		slot0.roomsTF:Find("4/icon")
 	}
-	slot1 = slot0:findTF("pages")
+	slot1 = slot0._tf:Find("pages")
 	slot0.timePage = LinerPassTimePage.New(slot1, slot0)
 	slot0.roomPage = LinerRoomInfoPage.New(slot1, slot0)
 	slot2, slot3, slot4 = getSizeRate()
@@ -90,14 +90,14 @@ slot0.addListeners = function(slot0)
 	slot2 = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
 	slot0.nameInput:GetComponent(typeof(InputField)).interactable = not slot2
 
-	setActive(slot0:findTF("name/edit", slot0.topUI), not slot2)
-	onButton(slot0, slot0:findTF("back", slot0.topUI), function ()
+	setActive(slot0.topUI:Find("name/edit"), not slot2)
+	onButton(slot0, slot0.topUI:Find("back"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("home", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("home"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("help", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.liner_help.tip
@@ -109,7 +109,7 @@ slot0.addListeners = function(slot0)
 			viewComponent = LinerLogBookLayer
 		}))
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("fullview", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("fullview"), function ()
 		if uv0.mode == uv1.MODE_NORMAL then
 			uv0:SwitchMode(uv1.MODE_FULLVIEW)
 		else
@@ -134,7 +134,7 @@ slot0.didEnter = function(slot0)
 			slot1 = uv0
 
 			slot1:managedTween(LeanTween.delayedCall, function ()
-				triggerButton(uv0:findTF(tostring(uv0.targetIds[1]), uv0.roomsTF))
+				triggerButton(uv0._tf:Find(tostring(uv0.targetIds[1]), uv0.roomsTF))
 			end, uv1.AUTO_DELAY_TIME, nil)
 		else
 			slot0()
@@ -174,15 +174,11 @@ slot0.InitRooms = function(slot0)
 			slot2.name = uv0.targetIds[slot1]
 			slot4 = uv0.curTime
 			slot4 = slot4:GetType()
-			slot6 = uv0
 
-			eachChild(slot6:findTF("tag", slot2), function (slot0)
+			eachChild(slot2:Find("tag"), function (slot0)
 				setActive(slot0, slot0.name == "type" .. uv0)
 			end)
-
-			slot6 = uv0
-
-			eachChild(slot6:findTF("arrow", slot2), function (slot0)
+			eachChild(slot2:Find("arrow"), function (slot0)
 				setActive(slot0, slot0.name == "type" .. uv0)
 			end)
 			onButton(uv0, slot2, function ()
@@ -212,9 +208,9 @@ end
 
 slot0.OnUpdateRoom = function(slot0, slot1, slot2)
 	if not table.contains(slot0.roomIds, slot1) then
-		setActive(slot0:findTF("tag", slot2), false)
-		setActive(slot0:findTF("mask", slot2), false)
-		setActive(slot0:findTF("explore", slot2), false)
+		setActive(slot2:Find("tag"), false)
+		setActive(slot2:Find("mask"), false)
+		setActive(slot2:Find("explore"), false)
 		onButton(slot0, slot2, function ()
 			if uv0.mode == uv1.MODE_FULLVIEW then
 				uv0:SwitchMode(uv1.MODE_NORMAL)
@@ -226,14 +222,14 @@ slot0.OnUpdateRoom = function(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.curTime:GetType()
-	slot5 = slot0:findTF("tag", slot2)
+	slot5 = slot2:Find("tag")
 
 	setActive(slot5, table.contains(slot0.targetIds, slot1) or slot3 == LinerTime.TYPE.EXPLORE)
 	eachChild(slot5, function (slot0)
 		setActive(slot0, slot0.name == "type" .. uv0)
 	end)
-	setActive(slot0:findTF("mask", slot2), slot3 == LinerTime.TYPE.EXPLORE and table.contains(slot0.exploredRoomIds, slot1))
-	setActive(slot0:findTF("explore", slot2), slot3 == LinerTime.TYPE.EXPLORE and not table.contains(slot0.exploredRoomIds, slot1))
+	setActive(slot2:Find("mask"), slot3 == LinerTime.TYPE.EXPLORE and table.contains(slot0.exploredRoomIds, slot1))
+	setActive(slot2:Find("explore"), slot3 == LinerTime.TYPE.EXPLORE and not table.contains(slot0.exploredRoomIds, slot1))
 	onButton(slot0, slot2, function ()
 		if uv0.mode == uv1.MODE_FULLVIEW then
 			uv0:SwitchMode(uv1.MODE_NORMAL)
@@ -323,7 +319,7 @@ slot0.UpdateRoomChar = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot8 = slot0:findTF("char", slot2)
+	slot8 = slot2:Find("char")
 
 	if slot0.roomChars[slot1][1] and slot0.roomChars[slot1][2] then
 		if LeanTween.isTweening(slot0.roomChars[slot1][2]) then
@@ -433,7 +429,7 @@ slot0.InitRandomChars = function(slot0)
 				x = LinerRoomCharPoint.SCALE,
 				y = LinerRoomCharPoint.SCALE
 			})
-			setParent(slot0, uv0:findTF(uv1 .. "/char", uv0.roomsTF))
+			setParent(slot0, uv0.roomsTF:Find(uv1 .. "/char"))
 			uv0:InitCharBehavior(uv1, tf(slot0))
 		end)
 	end
@@ -496,7 +492,7 @@ slot0.FillRandomChars = function(slot0)
 				x = LinerRoomCharPoint.SCALE,
 				y = LinerRoomCharPoint.SCALE
 			})
-			setParent(slot0, uv0:findTF(uv1 .. "/char", uv0.roomsTF))
+			setParent(slot0, uv0.roomsTF:Find(uv1 .. "/char"))
 			uv0:InitCharBehavior(uv1, tf(slot0))
 		end)
 	end
@@ -676,7 +672,7 @@ slot0._getCurEventRoomId = function(slot0)
 end
 
 slot0.UpdateTips = function(slot0)
-	setActive(slot0:findTF("tip", slot0.logBtn), LinerLogBookLayer.IsTip())
+	setActive(slot0.logBtn:Find("tip"), LinerLogBookLayer.IsTip())
 end
 
 slot0.onDragFunction = function(slot0)
@@ -710,7 +706,7 @@ slot0.onDragFunction = function(slot0)
 			slot10.blocksRaycasts = slot11
 			slot10.alpha = slot11 and 1 or 0
 
-			setActive(slot0:findTF(slot5 .. "/tag", slot0.roomsTF), not slot11)
+			setActive(slot0.roomsTF:Find(slot5 .. "/tag"), not slot11)
 
 			if slot8 then
 				setAnchoredPosition(slot9, slot8 * (1 - 50 / slot8:Magnitude()))

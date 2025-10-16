@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 	slot0.inAnimPlaying = true
 
 	slot0.animEvent:SetEndEvent(function ()
@@ -17,13 +17,13 @@ slot0.init = function(slot0)
 		end)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.personalTF = slot0:findTF("personal", slot0.windowTF)
-	slot0.majorArrTF = slot0:findTF("major", slot0.windowTF)
-	slot0.minorArrTF = slot0:findTF("minor", slot0.windowTF)
-	slot0.resTF = slot0:findTF("res/content", slot0.windowTF)
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.personalTF = slot0.windowTF:Find("personal")
+	slot0.majorArrTF = slot0.windowTF:Find("major")
+	slot0.minorArrTF = slot0.windowTF:Find("minor")
+	slot0.resTF = slot0.windowTF:Find("res/content")
 
-	setText(slot0:findTF("tip", slot0.windowTF), i18n("child_close_tip"))
+	setText(slot0.windowTF:Find("tip"), i18n("child_close_tip"))
 	slot0:BlurPanel(slot0._tf, {
 		groupDelta = 1
 	})
@@ -89,18 +89,16 @@ slot0.updatePersonalPanel = function(slot0)
 	setActive(slot0.personalTF, slot1)
 
 	if slot1 then
-		slot2 = slot0:findTF("content", slot0.natureTF)
+		for slot5, slot6 in ipairs(slot0.natureIds) do
+			setText(slot0._tf:Find(tostring(slot6), slot0.personalTF):Find("old"), pg.child_attr[slot6].name .. " " .. slot0.char:GetAttrById(slot6))
 
-		for slot6, slot7 in ipairs(slot0.natureIds) do
-			setText(slot0:findTF("old", slot0:findTF(tostring(slot7), slot0.personalTF)), pg.child_attr[slot7].name .. " " .. slot0.char:GetAttrById(slot7))
+			slot9 = slot0.result[slot6] or 0
 
-			slot10 = slot0.result[slot7] or 0
+			setActive(slot7:Find("new"), slot9 ~= 0)
 
-			setActive(slot0:findTF("new", slot8), slot10 ~= 0)
-
-			if slot10 ~= 0 then
-				setText(slot0:findTF("new", slot8), (slot10 > 0 and "+" or "") .. " " .. slot10)
-				setTextColor(slot0:findTF("new", slot8), Color.NewHex(slot10 > 0 and "39BFFF" or "FF6767"))
+			if slot9 ~= 0 then
+				setText(slot7:Find("new"), (slot9 > 0 and "+" or "") .. " " .. slot9)
+				setTextColor(slot7:Find("new"), Color.NewHex(slot9 > 0 and "39BFFF" or "FF6767"))
 			end
 		end
 	end
@@ -111,23 +109,23 @@ slot0.updateMajorPanel = function(slot0)
 		slot5 = slot0.majorArrTF:GetChild(slot4 - 1)
 		slot6 = slot0.majorIds[slot4]
 
-		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot6, slot0:findTF("icon_bg/icon", slot5), true)
-		setScrollText(slot0:findTF("name_mask/name", slot5), pg.child_attr[slot6].name)
+		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot6, slot5:Find("icon_bg/icon"), true)
+		setScrollText(slot5:Find("name_mask/name"), pg.child_attr[slot6].name)
 
 		slot7 = slot0.char:GetAttrInfo(slot6)
 
-		setText(slot0:findTF("grade/Text", slot5), slot7)
-		setText(slot0:findTF("value_old", slot5), slot0.char:GetAttrById(slot6))
-		setImageColor(slot0:findTF("gradient", slot5), Color.NewHex(EducateConst.GRADE_2_COLOR[slot7][1]))
-		setImageColor(slot0:findTF("grade", slot5), Color.NewHex(EducateConst.GRADE_2_COLOR[slot7][2]))
+		setText(slot5:Find("grade/Text"), slot7)
+		setText(slot5:Find("value_old"), slot0.char:GetAttrById(slot6))
+		setImageColor(slot5:Find("gradient"), Color.NewHex(EducateConst.GRADE_2_COLOR[slot7][1]))
+		setImageColor(slot5:Find("grade"), Color.NewHex(EducateConst.GRADE_2_COLOR[slot7][2]))
 
 		slot11 = slot0.result[slot6] or 0
 		slot12 = slot11 == 0 and "39393C" or "39BFFF"
 
-		setActive(slot0:findTF("VX", slot5), slot11 ~= 0)
-		setImageColor(slot0:findTF("arrow", slot5), Color.NewHex(slot12))
-		setText(slot0:findTF("value_new", slot5), slot8 + slot11)
-		setTextColor(slot0:findTF("value_new", slot5), Color.NewHex(slot12))
+		setActive(slot5:Find("VX"), slot11 ~= 0)
+		setImageColor(slot5:Find("arrow"), Color.NewHex(slot12))
+		setText(slot5:Find("value_new"), slot8 + slot11)
+		setTextColor(slot5:Find("value_new"), Color.NewHex(slot12))
 	end
 end
 
@@ -136,18 +134,18 @@ slot0.updateMinorPanel = function(slot0)
 		slot5 = slot0.minorArrTF:GetChild(slot4 - 1)
 		slot6 = slot0.minorIds[slot4]
 
-		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot6, slot0:findTF("icon", slot5), true)
-		setText(slot0:findTF("name", slot5), pg.child_attr[slot6].name)
-		setText(slot0:findTF("value_add/value_old", slot5), slot0.char:GetAttrById(slot6))
+		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot6, slot5:Find("icon"), true)
+		setText(slot5:Find("name"), pg.child_attr[slot6].name)
+		setText(slot5:Find("value_add/value_old"), slot0.char:GetAttrById(slot6))
 
 		slot8 = slot0.result[slot6] or 0
 
-		setActive(slot0:findTF("VX", slot5), slot8 ~= 0)
-		setText(slot0:findTF("value_add", slot5), "")
+		setActive(slot5:Find("VX"), slot8 ~= 0)
+		setText(slot5:Find("value_add"), "")
 
 		if slot8 ~= 0 then
 			onDelayTick(function ()
-				setText(uv0:findTF("value_add", uv1), "+" .. uv2)
+				setText(uv0:Find("value_add"), "+" .. uv1)
 			end, 0.891)
 		end
 	end
@@ -158,18 +156,18 @@ slot0.updateResPanel = function(slot0)
 		slot5 = slot0.resTF:GetChild(slot4 - 1)
 		slot6 = slot0.resIds[slot4]
 
-		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "res_" .. slot6, slot0:findTF("icon", slot5), true)
-		setText(slot0:findTF("name", slot5), pg.child_resource[slot6].name)
+		GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "res_" .. slot6, slot5:Find("icon"), true)
+		setText(slot5:Find("name"), pg.child_resource[slot6].name)
 
 		if slot0.char:GetResById(slot6) < 0 then
 			slot7 = 0
 		end
 
-		setText(slot0:findTF("value_add/value_old", slot5), slot7)
+		setText(slot5:Find("value_add/value_old"), slot7)
 
 		slot8 = slot0.resResult[slot6] or 0
 
-		setText(slot0:findTF("value_add", slot5), slot8 == 0 and "" or "+" .. slot8)
+		setText(slot5:Find("value_add"), slot8 == 0 and "" or "+" .. slot8)
 	end
 end
 

@@ -147,7 +147,7 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.friendInfoPosition = nil
 		slot0.friendInfoMsg = nil
 	elseif slot2 == GAME.ON_APPLICATION_PAUSE then
-		if not slot3 and _IslandCore then
+		if not slot3 and _IslandCore and not slot0.exitProcessing then
 			slot0:sendNotification(GAME.ISLAND_RECONNECT, {
 				islandId = _IslandCore:GetController():GetIsland().id
 			})
@@ -155,10 +155,17 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.ISLAND_ON_HOME then
 		slot0.viewComponent:emit(BaseUI.ON_HOME)
 	elseif slot2 == GAME.ISLAND_ON_RECONNECT then
+		if slot0.exitProcessing then
+			return
+		end
+
+		slot0.exitProcessing = true
 		slot4 = slot0.viewComponent
 
 		slot4:ExitProcess(BaseUI.ON_HOME, function ()
-			pg.m02:sendNotification(GAME.ISLAND_ENTER, uv0)
+			uv0.exitProcessing = false
+
+			pg.m02:sendNotification(GAME.ISLAND_ENTER, uv1)
 		end)
 	elseif slot2 == GAME.ISLAND_SELECT_GIFT_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)

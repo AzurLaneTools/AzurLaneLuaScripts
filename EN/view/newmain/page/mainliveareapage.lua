@@ -12,29 +12,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._bg = slot0:findTF("bg")
+	slot0._bg = slot0._tf:Find("bg")
 
-	setText(slot0:findTF("day/Text", slot0._bg), i18n("word_harbour"))
-	setText(slot0:findTF("night/Text", slot0._bg), i18n("word_harbour"))
+	setText(slot0._bg:Find("day/Text"), i18n("word_harbour"))
+	setText(slot0._bg:Find("night/Text"), i18n("word_harbour"))
 
 	slot0.timeCfg = pg.gameset.main_live_area_time.description
-	slot0._coverBtn = slot0:findTF("cover_btn")
-	slot0._academyBtn = slot0:findTF("school_btn")
-	slot0._haremBtn = slot0:findTF("backyard_btn")
-	slot0._commanderBtn = slot0:findTF("commander_btn")
-	slot0._educateBtn = slot0:findTF("educate_btn")
-	slot0._islandBtn = slot0:findTF("island_btn")
+	slot0._coverBtn = slot0._tf:Find("cover_btn")
+	slot0._academyBtn = slot0._tf:Find("school_btn")
+	slot0._haremBtn = slot0._tf:Find("backyard_btn")
+	slot0._commanderBtn = slot0._tf:Find("commander_btn")
+	slot0._educateBtn = slot0._tf:Find("educate_btn")
+	slot0._islandBtn = slot0._tf:Find("island_btn")
 	slot0.islandAwardTF = slot0._islandBtn:Find("banners/award")
 
 	setText(slot0.islandAwardTF:Find("Text"), i18n("island_post_acceptable"))
 
-	slot1 = slot0._islandBtn
-	slot0.islandEmptyTF = slot1:Find("banners/empty")
+	slot0.islandEmptyTF = slot0._islandBtn:Find("banners/empty")
 
 	setText(slot0.islandEmptyTF:Find("Text"), i18n("island_post_vacant"))
 
-	slot0._dormBtn = slot0:findTF("dorm_btn")
-	slot0._islandBtnEffect = slot0:findTF("VX", slot0._islandBtn)
+	slot0._dormBtn = slot0._tf:Find("dorm_btn")
+	slot1 = slot0._islandBtn
+	slot0._islandBtnEffect = slot1:Find("VX")
 	slot0.coverPage = LivingAreaCoverPage.New(slot0._tf, slot0.event, {
 		onHide = function ()
 			uv0:UpdateCoverTip()
@@ -224,13 +224,13 @@ end
 slot0.UpdateTime = function(slot0)
 	slot3 = pg.TimeMgr.GetInstance():GetServerHour() < 12
 
-	setActive(slot0:findTF("AM", slot0._bg), slot3)
-	setActive(slot0:findTF("PM", slot0._bg), not slot3)
-	setActive(slot0:findTF("day", slot0._bg), slot0:getCoverType(slot2) == LivingAreaCover.TYPE_DAY)
-	setActive(slot0:findTF("night", slot0._bg), slot4 == LivingAreaCover.TYPE_NIGHT)
-	setActive(slot0:findTF("lock/day", slot0._islandBtn), slot4 == LivingAreaCover.TYPE_DAY)
-	setActive(slot0:findTF("lock/night", slot0._islandBtn), slot4 ~= LivingAreaCover.TYPE_DAY)
-	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
+	setActive(slot0._bg:Find("AM"), slot3)
+	setActive(slot0._bg:Find("PM"), not slot3)
+	setActive(slot0._bg:Find("day"), slot0:getCoverType(slot2) == LivingAreaCover.TYPE_DAY)
+	setActive(slot0._bg:Find("night"), slot4 == LivingAreaCover.TYPE_NIGHT)
+	setActive(slot0._islandBtn:Find("lock/day"), slot4 == LivingAreaCover.TYPE_DAY)
+	setActive(slot0._islandBtn:Find("lock/night"), slot4 ~= LivingAreaCover.TYPE_DAY)
+	setText(slot0._bg:Find("date"), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
 
 	slot6 = slot1:CurrentSTimeDesc(":%M", true)
 
@@ -238,8 +238,8 @@ slot0.UpdateTime = function(slot0)
 		slot2 = slot2 - 12
 	end
 
-	setText(slot0:findTF("time", slot0._bg), slot2 .. slot6)
-	setText(slot0:findTF("date/week", slot0._bg), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
+	setText(slot0._bg:Find("time"), slot2 .. slot6)
+	setText(slot0._bg:Find("date/week"), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
 end
 
 slot0.getCoverType = function(slot0, slot1)
@@ -275,12 +275,12 @@ slot0.UpdateCoverTemp = function(slot0, slot1)
 end
 
 slot0._loadBg = function(slot0)
-	setImageSprite(slot0:findTF("day", slot0._bg), GetSpriteFromAtlas(slot0.cover:GetBg(LivingAreaCover.TYPE_DAY), ""), true)
-	setImageSprite(slot0:findTF("night", slot0._bg), GetSpriteFromAtlas(slot0.cover:GetBg(LivingAreaCover.TYPE_NIGHT), ""), true)
+	setImageSprite(slot0._bg:Find("day"), GetSpriteFromAtlas(slot0.cover:GetBg(LivingAreaCover.TYPE_DAY), ""), true)
+	setImageSprite(slot0._bg:Find("night"), GetSpriteFromAtlas(slot0.cover:GetBg(LivingAreaCover.TYPE_NIGHT), ""), true)
 end
 
 slot0.UpdateCoverTip = function(slot0)
-	setActive(slot0:findTF("tip", slot0._coverBtn), getProxy(LivingAreaCoverProxy):IsTip())
+	setActive(slot0._coverBtn:Find("tip"), getProxy(LivingAreaCoverProxy):IsTip())
 end
 
 slot0.UpdataIslandTip = function(slot0)

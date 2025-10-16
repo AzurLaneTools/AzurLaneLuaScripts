@@ -3,11 +3,12 @@ slot0 = class("AnniV5FramePage", import(".TemplatePage.NewFrameTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.bar = slot0:findTF("AD/switcher/phase2/barContent")
-	slot0.cur = slot0:findTF("AD/switcher/phase2/progress/step")
-	slot0.target = slot0:findTF("AD/switcher/phase2/progress/all")
-	slot0.getTag = slot0:findTF("AD/switcher/phase2/get")
-	slot0.gotTag = slot0:findTF("AD/switcher/phase2/got")
+	slot0.bar = slot0._tf:Find("AD/switcher/phase2/barContent")
+	slot0.cur = slot0._tf:Find("AD/switcher/phase2/progress/step")
+	slot0.target = slot0._tf:Find("AD/switcher/phase2/progress/all")
+	slot0.getTag = slot0._tf:Find("AD/switcher/phase2/get")
+	slot1 = slot0._tf
+	slot0.gotTag = slot1:Find("AD/switcher/phase2/got")
 	slot0.titles = {
 		slot0.switchBtn:Find("2"),
 		slot0.switchBtn:Find("1")
@@ -31,7 +32,7 @@ slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.gotBtn, slot0.inPhase2 and slot5)
 	setActive(slot0.getTag, slot0.inPhase2 and not slot5 and slot4)
 	setActive(slot0.gotTag, slot0.inPhase2 and slot5)
-	setActive(slot0:findTF("AD/switcher/phase2/progress"), not slot5)
+	setActive(slot0._tf:Find("AD/switcher/phase2/progress"), not slot5)
 end
 
 slot0.Switch = function(slot0, slot1)

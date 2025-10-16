@@ -3,7 +3,7 @@ slot0 = class("Chuixue7daySkinPage", import(".TemplatePage.SkinTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.step_txt = slot0:findTF("step_text", slot0.bg)
+	slot0.step_txt = slot0.bg:Find("step_text")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -11,7 +11,7 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("item", slot2)
+			slot4 = slot2:Find("item")
 			slot6 = uv0.taskProxy:getTaskById(uv0.taskGroup[uv0.nday][slot1 + 1]) or uv0.taskProxy:getFinishTaskById(slot5)
 
 			assert(slot6, "without this task by id: " .. slot5)
@@ -30,15 +30,15 @@ slot0.OnFirstFlush = function(slot0)
 			slot9 = slot6:getProgress()
 			slot10 = slot6:getConfig("target_num")
 
-			setText(uv0:findTF("description", slot2), slot6:getConfig("desc"))
-			setText(uv0:findTF("progressText", slot2), slot9 .. "/" .. slot10)
-			setSlider(uv0:findTF("progress", slot2), 0, slot10, slot9)
+			setText(slot2:Find("description"), slot6:getConfig("desc"))
+			setText(slot2:Find("progressText"), slot9 .. "/" .. slot10)
+			setSlider(slot2:Find("progress"), 0, slot10, slot9)
 
-			slot12 = uv0:findTF("get_btn", slot2)
+			slot12 = slot2:Find("get_btn")
 
-			setActive(uv0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
+			setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 			setActive(slot12, slot14 == 1)
-			setActive(uv0:findTF("got_btn", slot2), slot14 == 2)
+			setActive(slot2:Find("got_btn"), slot14 == 2)
 			onButton(uv0, slot11, function ()
 				uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 			end, SFX_PANEL)

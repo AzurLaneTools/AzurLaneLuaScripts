@@ -3,7 +3,8 @@ slot0 = class("ChuixuePTRePage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	uv0.scrolltext = slot0:findTF("name", slot0.awardTF)
+	slot2 = slot0.awardTF
+	uv0.scrolltext = slot2:Find("name")
 
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.GO_SHOPS_LAYER_STEEET, {
@@ -25,7 +26,7 @@ slot0.SetAwardName = function(slot0)
 	if Item.getConfigData(slot0.ptData:GetAward().id) then
 		changeToScrollText(uv0.scrolltext, slot1:getName())
 	else
-		setActive(slot0:findTF("name", slot0.awardTF), false)
+		setActive(slot0.awardTF:Find("name"), false)
 	end
 end
 

@@ -21,8 +21,8 @@ slot0.OnLoaded = function(slot0)
 		slot0._tf:Find("frame/bg/content/list/3/icon/iconImg"):GetComponent(typeof(Image)).sprite
 	}
 
-	setText(slot0:findTF("frame/bg/content/Text"), i18n("commander_use_box_tip"))
-	setText(slot0:findTF("frame/bg/content/queue/title/Text"), i18n("commander_use_box_queue"))
+	setText(slot0._tf:Find("frame/bg/content/Text"), i18n("commander_use_box_tip"))
+	setText(slot0._tf:Find("frame/bg/content/queue/title/Text"), i18n("commander_use_box_queue"))
 end
 
 slot0.OnInit = function(slot0)

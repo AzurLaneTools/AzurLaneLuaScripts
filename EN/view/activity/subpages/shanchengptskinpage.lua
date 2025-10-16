@@ -1,8 +1,8 @@
 slot0 = class("ShanChengPtSkinPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.shop = slot0:findTF("go", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.shop = slot0.bg:Find("go")
 end
 
 slot0.OnFirstFlush = function(slot0)

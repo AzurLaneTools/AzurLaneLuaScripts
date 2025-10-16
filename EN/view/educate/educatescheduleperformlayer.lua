@@ -54,14 +54,14 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.windowsTF = slot0:findTF("anim_root/window")
-	slot0.leftTF = slot0:findTF("left", slot0.windowsTF)
+	slot0.windowsTF = slot0._tf:Find("anim_root/window")
+	slot0.leftTF = slot0.windowsTF:Find("left")
 
-	setText(slot0:findTF("title/Text", slot0.leftTF), i18n("child_plan_perform_title"))
+	setText(slot0.leftTF:Find("title/Text"), i18n("child_plan_perform_title"))
 
-	slot0.dayUIList = UIItemList.New(slot0:findTF("content", slot0.leftTF), slot0:findTF("content/day_tpl", slot0.leftTF))
-	slot0.rightTF = slot0:findTF("right", slot0.windowsTF)
-	slot0.planNameTF = slot0:findTF("name", slot0.rightTF)
+	slot0.dayUIList = UIItemList.New(slot0.leftTF:Find("content"), slot0.leftTF:Find("content/day_tpl"))
+	slot0.rightTF = slot0.windowsTF:Find("right")
+	slot0.planNameTF = slot0.rightTF:Find("name")
 end
 
 slot0.didEnter = function(slot0)
@@ -85,15 +85,15 @@ slot0.initDayList = function(slot0)
 			slot2.name = slot3
 			slot7 = slot3
 
-			setText(uv0:findTF("Text", slot2), EducateHelper.GetWeekStrByNumber(slot7))
+			setText(slot2:Find("Text"), EducateHelper.GetWeekStrByNumber(slot7))
 
 			for slot7 = 1, 3 do
-				setActive(uv0:findTF("phase" .. slot7, slot2), slot7 == uv0.planCnt)
+				setActive(slot2:Find("phase" .. slot7), slot7 == uv0.planCnt)
 			end
 		elseif slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("selected", slot2), uv0.curDay == slot1 + 1)
+			setActive(slot2:Find("selected"), uv0.curDay == slot1 + 1)
 
-			slot4 = uv0:findTF("Text", slot2)
+			slot4 = slot2:Find("Text")
 			slot5 = "FFFFFF"
 			slot6 = "FFFFFF"
 
@@ -110,7 +110,7 @@ slot0.initDayList = function(slot0)
 
 			setTextColor(slot4, Color.NewHex(slot5))
 
-			for slot11 = 1, uv0:findTF("phase" .. uv0.planCnt, slot2).childCount do
+			for slot11 = 1, slot2:Find("phase" .. uv0.planCnt).childCount do
 				slot12 = slot6
 
 				if uv0.curDay == slot3 and slot11 <= uv0.curIndex then

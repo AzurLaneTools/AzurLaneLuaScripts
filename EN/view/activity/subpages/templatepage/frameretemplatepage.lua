@@ -1,14 +1,14 @@
 slot0 = class("FrameReTemplatePage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
-	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
-	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
-	slot0.bar = slot0:findTF("frame/bar", slot0.bg)
-	slot0.step = slot0:findTF("frame/step", slot0.bg)
-	slot0.progress = slot0:findTF("frame/progress", slot0.bg)
-	slot0.frameGot = slot0:findTF("frame/got", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.battleBtn = slot0.bg:Find("battle_btn")
+	slot0.getBtn = slot0.bg:Find("get_btn")
+	slot0.gotBtn = slot0.bg:Find("got_btn")
+	slot0.bar = slot0.bg:Find("frame/bar")
+	slot0.step = slot0.bg:Find("frame/step")
+	slot0.progress = slot0.bg:Find("frame/progress")
+	slot0.frameGot = slot0.bg:Find("frame/got")
 end
 
 slot0.OnDataSetting = function(slot0)

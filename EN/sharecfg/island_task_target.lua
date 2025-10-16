@@ -1059,7 +1059,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100010711] = {
-		tips = "order",
+		tips = "10020009",
 		name = "Ask for Patrick's help.",
 		type = 3,
 		id = 100010711,
@@ -1295,7 +1295,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100020801] = {
-		tips = "shop",
+		tips = "10010040",
 		name = "Buy wheat seeds at the Shop.",
 		type = 5,
 		id = 100020801,
@@ -1651,7 +1651,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100022901] = {
-		tips = "",
+		tips = "10030009",
 		name = "Get your daily supplies.",
 		type = 13,
 		id = 100022901,
@@ -1699,7 +1699,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023401] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Coal.",
 		type = 4,
 		id = 100023401,
@@ -1709,7 +1709,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023402] = {
-		tips = "",
+		tips = "10040002",
 		name = "Gather Raw Timber.",
 		type = 4,
 		id = 100023402,
@@ -1877,7 +1877,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100031001] = {
-		tips = "technology",
+		tips = "10070004",
 		name = "Research Strawberry Cultivation Techniques.",
 		type = 8,
 		id = 100031001,
@@ -1905,7 +1905,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100040201] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Coal",
 		type = 4,
 		id = 100040201,
@@ -1935,7 +1935,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010021] = {
-		tips = "",
+		tips = "10040036",
 		name = "Finish logging.",
 		type = 6,
 		id = 200010021,
@@ -1975,7 +1975,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010061] = {
-		tips = "",
+		tips = "10040002",
 		name = "Look for Workable Wood around the Verdant Woods.",
 		type = 4,
 		id = 200010061,
@@ -1995,7 +1995,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010081] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Iron Ore at Rockheap Mine.",
 		type = 4,
 		id = 200010081,
@@ -2045,7 +2045,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020041] = {
-		tips = "",
+		tips = "10010003",
 		name = "Gather Wool to make a brush with.",
 		type = 4,
 		id = 200020041,
@@ -2055,7 +2055,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020051] = {
-		tips = "",
+		tips = "10040002",
 		name = "Gather Elegant Wood to make a frame with.",
 		type = 4,
 		id = 200020051,
@@ -2085,7 +2085,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200030021] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Bauxite Ore.",
 		type = 4,
 		id = 200030021,
@@ -2133,7 +2133,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200040021] = {
-		tips = "",
+		tips = "10090008",
 		name = "Make a Rolled Carrot Omelette.",
 		type = 4,
 		id = 200040021,
@@ -2343,7 +2343,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200060091] = {
-		tips = "",
+		tips = "10040002",
 		name = "Gather Raw Timber.",
 		type = 4,
 		id = 200060091,
@@ -2403,7 +2403,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070061] = {
-		tips = "",
+		tips = "10050002",
 		name = "Gather fresh Lemons.",
 		type = 4,
 		id = 200070061,
@@ -2473,7 +2473,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080021] = {
-		tips = "",
+		tips = "10040002",
 		name = "Gather Raw Timber.",
 		type = 4,
 		id = 200080021,
@@ -2483,7 +2483,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080031] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Coal.",
 		type = 4,
 		id = 200080031,
@@ -2603,7 +2603,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200100071] = {
-		tips = "",
+		tips = "10010003",
 		name = "Gather Eggs.",
 		type = 4,
 		id = 200100071,
@@ -2653,7 +2653,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110041] = {
-		tips = "",
+		tips = "10040002",
 		name = "Gather Raw Timber.",
 		type = 4,
 		id = 200110041,
@@ -2663,7 +2663,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110042] = {
-		tips = "",
+		tips = "10040022",
 		name = "Gather Iron Ore.",
 		type = 4,
 		id = 200110042,
@@ -2673,7 +2673,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110051] = {
-		tips = "",
+		tips = "10010003",
 		name = "Gather Poultry.",
 		type = 4,
 		id = 200110051,
@@ -2683,7 +2683,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110052] = {
-		tips = "",
+		tips = "10010003",
 		name = "Gather Milk.",
 		type = 4,
 		id = 200110052,
@@ -2733,7 +2733,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200120051] = {
-		tips = "",
+		tips = "10050002",
 		name = "Harvest Citrus Fruit.",
 		type = 4,
 		id = 200120051,
@@ -2851,7 +2851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130061] = {
-		tips = "",
+		tips = "10050003",
 		name = "Assign a character to plant lavenders in the nursery.",
 		type = 7,
 		id = 200130061,
@@ -2861,7 +2861,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130071] = {
-		tips = "",
+		tips = "10050003",
 		name = "Harvest the lavenders.",
 		type = 4,
 		id = 200130071,
@@ -3000,7 +3000,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[303010011] = {
-		tips = "",
+		tips = "10020004",
 		name = "Complete 1 Transport Job.",
 		type = 12,
 		id = 303010011,
@@ -3010,7 +3010,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[304010011] = {
-		tips = "",
+		tips = "10020009",
 		name = "Complete any Island Request.",
 		type = 3,
 		id = 304010011,
@@ -3368,7 +3368,7 @@ pg.base.island_task_target = {
 		target_param = ""
 	},
 	[306010011] = {
-		tips = "",
+		tips = "10030009",
 		name = "Accept your daily supplies.",
 		type = 13,
 		id = 306010011,
@@ -3417,7 +3417,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307020011] = {
-		tips = "",
+		tips = "10060002",
 		name = "Make any Golden Koi Restaurant recipe.",
 		type = 7,
 		id = 307020011,
@@ -3433,7 +3433,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307030011] = {
-		tips = "",
+		tips = "10060002",
 		name = "Make any Polar Bear Teahouse recipe.",
 		type = 7,
 		id = 307030011,
@@ -3450,7 +3450,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307040011] = {
-		tips = "",
+		tips = "10060002",
 		name = "Make any Manjuu Eatery recipe.",
 		type = 7,
 		id = 307040011,
@@ -3465,7 +3465,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307050011] = {
-		tips = "",
+		tips = "10060002",
 		name = "Make any Fin-'n'-Feather Grill recipe.",
 		type = 7,
 		id = 307050011,
@@ -3479,7 +3479,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307060011] = {
-		tips = "",
+		tips = "10090008",
 		name = "Make any Café Manjuu recipe.",
 		type = 7,
 		id = 307060011,
@@ -3494,7 +3494,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000011] = {
-		tips = "",
+		tips = "10040003",
 		name = "Gather some minerals.",
 		type = 6,
 		id = 300000011,
@@ -3509,7 +3509,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000021] = {
-		tips = "",
+		tips = "10040013",
 		name = "Gather any lumber resource.",
 		type = 6,
 		id = 300000021,
@@ -3522,7 +3522,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000031] = {
-		tips = "",
+		tips = "10020009",
 		name = "Complete any Island Request.",
 		type = 3,
 		id = 300000031,
@@ -3532,7 +3532,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000041] = {
-		tips = "",
+		tips = "10070004",
 		name = "Complete any research.",
 		type = 7,
 		id = 300000041,
@@ -3790,7 +3790,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401010011] = {
-		tips = "",
+		tips = "10040022",
 		name = "Assign a character to produce ore.",
 		type = 7,
 		id = 401010011,
@@ -3805,7 +3805,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401020011] = {
-		tips = "",
+		tips = "10040002",
 		name = "Assign a character to produce lumber.",
 		type = 7,
 		id = 401020011,
@@ -3818,7 +3818,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401030011] = {
-		tips = "",
+		tips = "10010040",
 		name = "Assign a character to produce crops.",
 		type = 7,
 		id = 401030011,
@@ -3835,7 +3835,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401040011] = {
-		tips = "",
+		tips = "10050003",
 		name = "Assign a character to produce nursery crops.",
 		type = 7,
 		id = 401040011,
@@ -3851,7 +3851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401050011] = {
-		tips = "",
+		tips = "10050002",
 		name = "Assign a character to produce orchard crops.",
 		type = 7,
 		id = 401050011,
@@ -3869,7 +3869,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401060011] = {
-		tips = "",
+		tips = "10010003",
 		name = "Assign a character to produce livestock products.",
 		type = 7,
 		id = 401060011,
@@ -3882,7 +3882,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401070011] = {
-		tips = "",
+		tips = "10070016",
 		name = "Produce an arts & crafts item.",
 		type = 7,
 		id = 401070011,
@@ -3900,7 +3900,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401080011] = {
-		tips = "",
+		tips = "10070014",
 		name = "Produce a mechanic product.",
 		type = 7,
 		id = 401080011,
@@ -3915,7 +3915,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401090011] = {
-		tips = "",
+		tips = "10070013",
 		name = "Produce a wooden product.",
 		type = 7,
 		id = 401090011,
@@ -3929,7 +3929,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401100011] = {
-		tips = "",
+		tips = "10070015",
 		name = "Produce an electronic product.",
 		type = 7,
 		id = 401100011,

@@ -1,10 +1,10 @@
 slot0 = class("Match3Page", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
-	slot0.goBtn = slot0:findTF("go", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("item")
+	slot0.items = slot0.bg:Find("items")
+	slot0.goBtn = slot0.bg:Find("go")
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
 end
 
@@ -27,10 +27,9 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			slot3 = uv0
 			slot4 = uv0.drop[slot1 + 1]
 
-			updateDrop(slot3:findTF("item", slot2), {
+			updateDrop(slot2:Find("item"), {
 				type = slot4[1],
 				id = slot4[2],
 				count = slot4[3]
@@ -43,8 +42,8 @@ slot0.OnFirstFlush = function(slot0)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("got", slot2), slot1 < uv1.usedtime)
-			setActive(uv0:findTF("mask", slot2), slot1 >= uv1.usedtime + uv1.count)
+			setActive(slot2:Find("got"), slot1 < uv1.usedtime)
+			setActive(slot2:Find("mask"), slot1 >= uv1.usedtime + uv1.count)
 		end
 	end)
 

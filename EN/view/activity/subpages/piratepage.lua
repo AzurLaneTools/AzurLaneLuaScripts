@@ -3,14 +3,14 @@ slot0.PROGRESS_TEXT = "%d/7"
 slot0.DIALOG_DELAY = 15
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.progress = slot0:findTF("progress", slot0.bg)
-	slot0.progressText = slot0:findTF("Text", slot0.progress)
-	slot0.complete = slot0:findTF("complete", slot0.bg)
-	slot0.goBtn = slot0:findTF("go_btn", slot0.bg)
-	slot0.red = slot0:findTF("red", slot0.goBtn)
-	slot0.dialogTf = slot0:findTF("dialog", slot0.bg)
-	slot0.dialogText = slot0:findTF("Text", slot0.dialogTf)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.progress = slot0.bg:Find("progress")
+	slot0.progressText = slot0.progress:Find("Text")
+	slot0.complete = slot0.bg:Find("complete")
+	slot0.goBtn = slot0.bg:Find("go_btn")
+	slot0.red = slot0.goBtn:Find("red")
+	slot0.dialogTf = slot0.bg:Find("dialog")
+	slot0.dialogText = slot0.dialogTf:Find("Text")
 end
 
 slot0.OnDataSetting = function(slot0)

@@ -27,12 +27,12 @@ slot0.OnLoaded = function(slot0)
 	setActive(slot0.hideuiMask, false)
 
 	slot0.ysScreenShoter = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.stopRecBtn = slot0:findTF("stopRec")
-	slot0.videoTipPanel = slot0:findTF("videoTipPanel")
+	slot0.stopRecBtn = slot0._tf:Find("stopRec")
+	slot0.videoTipPanel = slot0._tf:Find("videoTipPanel")
 
 	setActive(slot0.videoTipPanel, false)
 
-	slot0.photoModel = slot0:findTF("Center/photoModel")
+	slot0.photoModel = slot0._tf:Find("Center/photoModel")
 	slot0.unselectBgTF = slot0.photoModel:Find("un_select_bg")
 	slot0.select_bgTF = slot0.photoModel:Find("select_bg")
 	slot0.firstModelTF = slot0.photoModel:Find("first")
@@ -185,7 +185,7 @@ slot0.OnInit = function(slot0)
 		slot0 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
 
-			uv0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = slot0 and 1 or 0
+			uv0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = slot0 and 1 or 0
 
 			uv0:emitCore(ISLAND_EVT.SetOpMoveBtnActve, slot0, true)
 		end
@@ -227,8 +227,8 @@ slot0.OnInit = function(slot0)
 					if not PlayerPrefs.GetInt("hadShowForVideoTipDorm", 0) or slot1 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
-						slot2 = uv1
-						slot2 = slot2:findTF("Text", uv1.videoTipPanel)
+						slot2 = uv1.videoTipPanel
+						slot2 = slot2:Find("Text")
 						slot2:GetComponent("Text").text = i18n("word_take_video_tip")
 
 						onButton(uv1, uv1.videoTipPanel, function ()
@@ -275,7 +275,7 @@ slot0.OnInit = function(slot0)
 		slot1 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
 
-			uv0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = slot0 and 1 or 0
+			uv0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = slot0 and 1 or 0
 		end
 
 		if not LeanTween.isTweening(go(uv0.stopRecBtn)) then

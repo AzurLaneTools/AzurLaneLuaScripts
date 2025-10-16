@@ -24,13 +24,13 @@ slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 
 	if slot0._top then
-		slot0.viewParent:Add2TopContainer(slot0._top)
+		slot0:OverlayPanel(slot0._top)
 	end
 end
 
 slot0.Hide = function(slot0)
 	if slot0._top then
-		setParent(slot0._top, slot0._tf)
+		slot0:UnOverlayPanel(slot0._top, slot0._tf)
 	end
 
 	uv0.super.Hide(slot0)
@@ -48,14 +48,6 @@ slot0.OnDeselected = function(slot0)
 end
 
 slot0.OnBackward = function(slot0)
-end
-
-slot0.Add2LayerContainer = function(slot0, slot1)
-	setParent(slot1, slot0._tf)
-end
-
-slot0.Add2TopContainer = function(slot0, slot1)
-	setParent(slot1, slot0._top)
 end
 
 slot0.SetActive = function(slot0, slot1)

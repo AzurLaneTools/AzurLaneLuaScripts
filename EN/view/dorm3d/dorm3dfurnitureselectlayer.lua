@@ -138,10 +138,8 @@ slot0.Update = function(slot0)
 end
 
 slot0.UpdateDataZone = function(slot0)
-	slot1 = slot0.normalZones[slot0.zoneIndex]
-
 	_.each(_.reduce({
-		slot1,
+		slot0.normalZones[slot0.zoneIndex],
 		unpack(slot0.globalZones)
 	}, {}, function (slot0, slot1)
 		table.insertto(slot0, slot1:GetSlots())
@@ -151,7 +149,15 @@ slot0.UpdateDataZone = function(slot0)
 		uv0[slot0:GetType()] = true
 	end)
 
-	slot0.activeFurnitureTypes = _.keys({})
+	slot0.activeFurnitureTypes = _.keys({
+		[Dorm3dFurniture.TYPE.SPECIAL] = nil
+	})
+
+	if _.any(slot0:GetDisplayFurnitures(nil), function (slot0)
+		return slot0.template:IsSpecial()
+	end) then
+		table.insert(slot0.activeFurnitureTypes, Dorm3dFurniture.TYPE.SPECIAL)
+	end
 
 	slot1:SortTypes(slot0.activeFurnitureTypes)
 
@@ -167,9 +173,8 @@ slot0.ResetSelectSetting = function(slot0)
 	slot0.selectSlotId = nil
 end
 
-slot0.UpdateDataDisplayFurnitures = function(slot0)
-	slot1 = slot0.room
-	slot2 = slot0.furnitureType
+slot0.GetDisplayFurnitures = function(slot0, slot1)
+	slot2 = slot0.room
 	slot5 = _.reduce({
 		slot0.normalZones[slot0.zoneIndex],
 		unpack(slot0.globalZones)
@@ -180,17 +185,21 @@ slot0.UpdateDataDisplayFurnitures = function(slot0)
 	end)
 	slot8 = {}
 
-	_.each(slot1:GetFurnitureIDList(), function (slot0)
-		if Dorm3dFurniture.New({
+	_.each(slot2:GetFurnitureIDList(), function (slot0)
+		slot1 = Dorm3dFurniture.New({
 			configId = slot0
-		}):GetType() ~= uv0 then
+		})
+
+		if uv0 and slot1:GetType() ~= uv0 then
 			return
 		end
 
 		if not _.any(uv1, function (slot0)
 			return slot0:CanUseFurniture(uv0)
 		end) then
-			warning("家具没有可用槽位，检查类型是否一致 FURNITUREID = " .. slot0)
+			if uv0 then
+				warning("家具没有可用槽位，检查类型是否一致 FURNITUREID = " .. slot0)
+			end
 
 			return
 		end
@@ -204,8 +213,8 @@ slot0.UpdateDataDisplayFurnitures = function(slot0)
 
 		uv3[slot0] = #uv2
 	end)
-	_.each(slot1:GetFurnitures(), function (slot0)
-		if slot0:GetType() ~= uv0 then
+	_.each(slot2:GetFurnitures(), function (slot0)
+		if uv0 and slot0:GetType() ~= uv0 then
 			return
 		end
 
@@ -225,9 +234,19 @@ slot0.UpdateDataDisplayFurnitures = function(slot0)
 		slot2.viewedFlag = Dorm3dFurniture.GetViewedFlag(slot1) ~= 0
 	end)
 
-	slot0.displayFurnitures = _.filter({}, function (slot0)
+	return _.filter({}, function (slot0)
 		return slot0.count > 0 or slot0.template:InShopTime()
 	end)
+end
+
+slot0.UpdateDataDisplayFurnitures = function(slot0)
+	if slot0.furnitureType == Dorm3dFurniture.TYPE.SPECIAL then
+		slot0.displayFurnitures = _.filter(slot0:GetDisplayFurnitures(nil), function (slot0)
+			return slot0.template:IsSpecial()
+		end)
+	else
+		slot0.displayFurnitures = slot0:GetDisplayFurnitures(slot0.furnitureType)
+	end
 end
 
 slot0.FilterDataFurnitures = function(slot0)
@@ -406,7 +425,7 @@ slot0.UpdateView = function(slot0)
 	if slot0.selectSlotId then
 		if Dorm3dFurnitureSlot.New({
 			configId = slot0.selectSlotId
-		}):GetType() == Dorm3dFurniture.TYPE.DECORATION then
+		}):GetType() == Dorm3dFurniture.TYPE.DECORATION or slot10:GetType() == Dorm3dFurniture.TYPE.SPECIAL then
 			slot11 = slot0.room
 
 			if _.detect(slot11:GetFurnitures(), function (slot0)

@@ -15,7 +15,7 @@ return {
 			actorName = 30707,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/drom3d_Taiho_ik_tone20/drom3d_Taiho_ik_tone20",
+			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone7/drom3d_Taiho_ik_gfit1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "Heehee... Closer, now. Come closer...♡",
@@ -29,15 +29,17 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "IK_living01_idle01_fb03",
+							name = "IK_sp01_idle01_fb01",
 							time = 0,
 							type = "action",
 							skip = true
 						},
 						{
-							id = 2013,
-							name = "IK_living01_idle01_fb03_CJ",
-							type = "item_action"
+							param = "IK_sp01_idle01_fb01_PP",
+							name = "furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+							time = 0,
+							type = "extra_item_action",
+							skip = true
 						},
 						{
 							skip = true,

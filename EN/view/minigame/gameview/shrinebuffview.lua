@@ -22,9 +22,9 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.backBtn = slot0:findTF("BackBtn")
-	slot0.buffListTF = slot0:findTF("Main/BuffList")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.backBtn = slot0._tf:Find("BackBtn")
+	slot0.buffListTF = slot0._tf:Find("Main/BuffList")
 
 	for slot4 = 1, 3 do
 		slot5 = slot0.buffListTF

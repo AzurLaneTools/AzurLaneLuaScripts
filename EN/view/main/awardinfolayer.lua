@@ -66,7 +66,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.extraBouns, slot0.contextData.extraBonus)
 
-	slot0.continueBtn = slot0:findTF("items/close")
+	slot0.continueBtn = slot0._tf:Find("items/close")
 	slot2 = slot0._tf:Find("decorations")
 
 	if slot0.title == uv0.TITLE.SHIP then
@@ -81,7 +81,7 @@ slot0.init = function(slot0)
 
 	slot0._tf:SetAsLastSibling()
 
-	slot0.metaRepeatAwardTF = slot0:findTF("MetaShipRepeatAward")
+	slot0.metaRepeatAwardTF = slot0._tf:Find("MetaShipRepeatAward")
 end
 
 slot0.doAnim = function(slot0, slot1)
@@ -287,7 +287,7 @@ slot0.displayAwards = function(slot0)
 				setLocalPosition(slot8, Vector3.zero)
 				setLocalScale(slot8, Vector3.zero)
 
-				slot9 = slot0:findTF("item_tpl/bg", slot8)
+				slot9 = slot8:Find("item_tpl/bg")
 
 				updateDrop(slot9, slot7)
 				setActive(slot9:Find("name"), false)

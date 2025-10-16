@@ -5,7 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	setText(slot0:findTF("window/bg/text"), i18n("desc_defense_reward"))
+	slot2 = slot0._tf
+
+	setText(slot2:Find("window/bg/text"), i18n("desc_defense_reward"))
 
 	slot2 = slot0._tf
 	slot3 = slot0._tf

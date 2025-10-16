@@ -5,22 +5,27 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.shipListTF = slot0:findTF("window/list/scrollview/list", slot0._tf)
-	slot0.shipListTpl = slot0:findTF("window/list/scrollview/item", slot0._tf)
+	slot0.shipListTF = slot0._tf:Find("window/list/scrollview/list")
+	slot0.shipListTpl = slot0._tf:Find("window/list/scrollview/item")
 
 	setActive(slot0.shipListTpl, false)
 
-	slot0.tipListTF = slot0:findTF("window/rateList/scrollview/list", slot0._tf)
-	slot0.tipListTpl = slot0:findTF("window/rateList/scrollview/item", slot0._tf)
+	slot0.tipListTF = slot0._tf:Find("window/rateList/scrollview/list")
+	slot0.tipListTpl = slot0._tf:Find("window/rateList/scrollview/item")
 
-	setText(slot0:findTF("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
+	setText(slot0._tf:Find("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("window/close_btn", slot0._tf), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/close_btn"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("window/confirm_btn", slot0._tf), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("window/confirm_btn"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
@@ -32,7 +37,7 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.isSupport = slot2 == "support"
-	slot4 = slot0:findTF("window/rateList/title/Text")
+	slot4 = slot0._tf:Find("window/rateList/title/Text")
 
 	if slot0.isSupport then
 		setText(slot4, i18n("support_rate_title"))
@@ -97,27 +102,27 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.PlayOpenAnimation = function(slot0)
-	slot2 = slot0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+	slot2 = slot0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
 
 	slot2:Stop()
 	slot2:Play("anim_window_bg")
 
-	slot4 = slot0:findTF("window/title"):GetComponent(typeof(Animation))
+	slot4 = slot0._tf:Find("window/title"):GetComponent(typeof(Animation))
 
 	slot4:Stop()
 	slot4:Play("anim_top")
 
-	slot6 = slot0:findTF("window"):GetComponent(typeof(Animation))
+	slot6 = slot0._tf:Find("window"):GetComponent(typeof(Animation))
 
 	slot6:Stop()
 	slot6:Play("anim_content")
 
-	slot8 = slot0:findTF("print"):GetComponent(typeof(Animation))
+	slot8 = slot0._tf:Find("print"):GetComponent(typeof(Animation))
 
 	slot8:Stop()
 	slot8:Play("anim_bg_plus")
 
-	slot10 = slot0:findTF("window/confirm_btn"):GetComponent(typeof(Animation))
+	slot10 = slot0._tf:Find("window/confirm_btn"):GetComponent(typeof(Animation))
 
 	slot10:Stop()
 	slot10:Play("anim_button_container")

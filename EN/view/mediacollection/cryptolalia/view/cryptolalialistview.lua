@@ -6,7 +6,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.cards = {}
-	slot0.scrollrect = slot0:findTF("frame/view"):GetComponent("LScrollRect")
+	slot0.scrollrect = slot0._tf:Find("frame/view"):GetComponent("LScrollRect")
 
 	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -16,10 +16,10 @@ slot0.OnLoaded = function(slot0)
 		uv0:onUpdateItem(slot0, slot1)
 	end
 
-	slot0.frameTr = slot0:findTF("frame")
-	slot0.subTitleTxt = slot0:findTF("frame/subtitle"):GetComponent(typeof(Text))
+	slot0.frameTr = slot0._tf:Find("frame")
+	slot0.subTitleTxt = slot0._tf:Find("frame/subtitle"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("frame/title"), i18n("cryptolalia_list_title"))
+	setText(slot0._tf:Find("frame/title"), i18n("cryptolalia_list_title"))
 end
 
 slot0.OnInit = function(slot0)

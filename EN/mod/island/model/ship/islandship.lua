@@ -144,10 +144,14 @@ end
 slot0.InitMaxEnergy = function(slot0, slot1)
 	slot2 = slot0.maxEnerey
 	slot4 = slot0:getConfig("upgrade_power")
+	slot6 = slot0:getConfig("power")
+	slot7 = 0
 
-	for slot9 = 1, slot0:GetBreakLevel() do
-		slot0.maxEnerey = slot0.maxEnerey + (slot4[slot9] or 0)
+	for slot11 = 1, slot0:GetBreakLevel() do
+		slot7 = slot7 + (slot4[slot11] or 0)
 	end
+
+	slot0.maxEnerey = slot6 + slot7
 
 	if not slot1 then
 		return
@@ -432,6 +436,10 @@ slot0.InitAttrs = function(slot0)
 
 	for slot9, slot10 in pairs(slot0.extraAttrs) do
 		slot0.attrs[slot9] = slot0.attrs[slot9] + slot10
+	end
+
+	for slot9, slot10 in pairs(slot0.attrs) do
+		slot0.attrs[slot9] = math.floor(slot10)
 	end
 end
 

@@ -49,6 +49,7 @@ slot0.DISTANCE_TRIGGER = "Dorm3dRoomTemplateScene.DISTANCE_TRIGGER"
 slot0.WALK_DISTANCE_TRIGGER = "Dorm3dRoomTemplateScene.WALK_DISTANCE_TRIGGER"
 slot0.CHANGE_WATCH = "Dorm3dRoomTemplateScene.CHANGE_WATCH"
 slot0.PHOTO_CALL = "Dorm3dRoomTemplateScene.PHOTO_CALL"
+slot0.STOCKING_EVENT = "Dorm3dRoomTemplateScene.STOCKING_EVENT"
 slot0.POV_CLOSE_DISTANCE = 1.5
 slot0.POV_PENDING_CLOSE_DISTANCE = 2
 slot0.IK_STATUS_DELTA = 0.5
@@ -306,10 +307,13 @@ slot0.BindEvent = function(slot0)
 
 	slot0:bind(uv0.PHOTO_CALL, function (slot0, slot1, ...)
 		if uv0[slot1] then
-			uv1:__slot1_None__(uv1.ladyDict[uv1.apartment:GetConfigID()], ...)
+			uv1:__slot1_None__(uv1:GetCurrentLadyEnv(), ...)
 		else
 			uv1:__slot1_None__(...)
 		end
+	end)
+	slot0:bind(uv0.STOCKING_EVENT, function (slot0, slot1, ...)
+		uv0.stockingMgr[slot1](uv0.stockingMgr, ...)
 	end)
 end
 
@@ -318,7 +322,7 @@ slot0.RegisterIKFunc = function(slot0)
 
 	slot1:RegisterOnIKLayerActive(function (slot0)
 		uv0.blockIK = true
-		slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot1 = uv0:GetCurrentLadyEnv()
 		slot1.ikHandler = slot0
 		slot2 = _.detect(slot1.readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
@@ -334,7 +338,7 @@ slot0.RegisterIKFunc = function(slot0)
 	slot1 = pg.IKMgr.GetInstance()
 
 	slot1:RegisterOnIKLayerDrag(function (slot0)
-		uv0.ladyDict[uv0.apartment:GetConfigID()].ikHandler = slot0
+		uv0:GetCurrentLadyEnv().ikHandler = slot0
 
 		uv0:ResetIKTipTimer()
 	end)
@@ -342,7 +346,7 @@ slot0.RegisterIKFunc = function(slot0)
 	slot1 = pg.IKMgr.GetInstance()
 
 	slot1:RegisterOnIKLayerDeactive(function (slot0, slot1)
-		slot2 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot2 = uv0:GetCurrentLadyEnv()
 		slot3 = _.detect(slot2.readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
@@ -359,7 +363,7 @@ slot0.RegisterIKFunc = function(slot0)
 
 	slot1:RegisterOnIKLayerAction(function (slot0)
 		uv0.blockIK = nil
-		slot2 = _.detect(uv0.ladyDict[uv0.apartment:GetConfigID()].readyIKLayers, function (slot0)
+		slot2 = _.detect(uv0:GetCurrentLadyEnv().readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
 
@@ -661,7 +665,7 @@ slot0.SetFloatEnable = function(slot0, slot1)
 end
 
 slot0.UpdateFloatPosition = function(slot0)
-	setLocalPosition(slot0.rtFloatPage:Find("lady"), slot0:GetLocalPosition(slot0:GetScreenPosition(slot0.ladyDict[slot0.apartment:GetConfigID()].ladyHeadCenter.position + Vector3(0, 0.2, 0)), slot0.rtFloatPage))
+	setLocalPosition(slot0.rtFloatPage:Find("lady"), slot0:GetLocalPosition(slot0:GetScreenPosition(slot0:GetCurrentLadyEnv().ladyHeadCenter.position + Vector3(0, 0.2, 0)), slot0.rtFloatPage))
 end
 
 slot0.LoadCharacter = function(slot0, slot1, slot2)
@@ -1086,6 +1090,13 @@ slot0.InitExtraSystem = function(slot0, slot1)
 				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = SlideExtraSystem.New(uv0.event, uv0)
 
 				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide]:Init()
+			end,
+			[DormConst.EXTRA_SYSTEMS.StockingMgr] = function ()
+				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr] = Dorm3dStockingMgr.New(uv0.event, uv0)
+
+				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]:Init()
+
+				uv0.stockingMgr = uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]
 			end
 		})
 	end
@@ -1172,8 +1183,6 @@ slot0.Update = function(slot0)
 	slot0:CheckInSector()
 
 	if slot0.apartment then
-		slot3 = slot0.apartment
-
 		(function (slot0)
 			(function ()
 				if not uv0.ikHandler then
@@ -1295,7 +1304,7 @@ slot0.Update = function(slot0)
 				setActive(uv0.ikClickTipsRoot, slot2)
 				setActive(uv0.ikTextTipsRoot, slot2)
 			end
-		end)(slot0.ladyDict[slot3:GetConfigID()])
+		end)(slot0:GetCurrentLadyEnv())
 	end
 end
 
@@ -1458,7 +1467,7 @@ slot0.ChangeCharacterPosition = function(slot0, slot1)
 end
 
 slot0.SyncCurrentInterestTransform = function(slot0)
-	slot0:SyncInterestTransform(slot0.ladyDict[slot0.apartment:GetConfigID()])
+	slot0:SyncInterestTransform(slot0:GetCurrentLadyEnv())
 end
 
 slot0.SyncInterestTransform = function(slot0, slot1)
@@ -1601,7 +1610,8 @@ slot0.ActiveCamera = function(slot0, slot1)
 end
 
 slot0.ActiveCameraByName = function(slot0, slot1)
-	slot2 = slot0.cameraRoot:Find(slot1)
+	slot2 = slot0.cameraRoot
+	slot2 = slot2:Find(slot1)
 
 	assert(slot2, "ActiveCameraByName: " .. slot1 .. " not found")
 	table.Foreach(slot0.cameras, function (slot0, slot1)
@@ -1609,7 +1619,7 @@ slot0.ActiveCameraByName = function(slot0, slot1)
 	end)
 	setActive(slot2, true)
 
-	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2:GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
+	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2
 end
 
 slot0.ShowBlackScreen = function(slot0, slot1, slot2)
@@ -1686,8 +1696,8 @@ slot0.ActiveStateCamera = function(slot0, slot1, slot2)
 		end,
 		watch = function (slot0)
 			assert(uv0.apartment)
-			uv0:SyncInterestTransform(uv0.ladyDict[uv0.apartment:GetConfigID()])
-			uv0:SetCameraLady(uv0.ladyDict[uv0.apartment:GetConfigID()])
+			uv0:SyncInterestTransform(uv0:GetCurrentLadyEnv())
+			uv0:SetCameraLady(uv0:GetCurrentLadyEnv())
 			uv0:RegisterCameraBlendFinished(uv0.cameras[uv1.CAMERA.ROLE], slot0)
 			uv0:ActiveCamera(uv0.cameras[uv1.CAMERA.ROLE])
 		end,
@@ -1700,13 +1710,13 @@ slot0.ActiveStateCamera = function(slot0, slot1, slot2)
 		end,
 		gift = function (slot0)
 			assert(uv0.apartment)
-			uv0:SetCameraLady(uv0.ladyDict[uv0.apartment:GetConfigID()])
+			uv0:SetCameraLady(uv0:GetCurrentLadyEnv())
 			uv0:RegisterCameraBlendFinished(uv0.cameras[uv1.CAMERA.GIFT], slot0)
 			uv0:ActiveCamera(uv0.cameras[uv1.CAMERA.GIFT])
 		end,
 		standby = function (slot0)
 			assert(uv0.apartment)
-			uv0:SetCameraLady(uv0.ladyDict[uv0.apartment:GetConfigID()])
+			uv0:SetCameraLady(uv0:GetCurrentLadyEnv())
 
 			uv0.cameras[uv1.CAMERA.ROLE2].transform.position = uv0.cameraRole.transform.position
 
@@ -1715,8 +1725,8 @@ slot0.ActiveStateCamera = function(slot0, slot1, slot2)
 		end,
 		talk = function (slot0)
 			assert(uv0.apartment)
-			uv0:SetCameraLady(uv0.ladyDict[uv0.apartment:GetConfigID()])
-			uv0:SyncInterestTransform(uv0.ladyDict[uv0.apartment:GetConfigID()])
+			uv0:SetCameraLady(uv0:GetCurrentLadyEnv())
+			uv0:SyncInterestTransform(uv0:GetCurrentLadyEnv())
 			uv0:RegisterCameraBlendFinished(uv0.cameras[uv1.CAMERA.TALK], slot0)
 			uv0:ActiveCamera(uv0.cameras[uv1.CAMERA.TALK])
 		end
@@ -1786,7 +1796,38 @@ slot0.PlayEnterExtraItem = function(slot0, slot1, slot2, slot3)
 	slot0:ResetCharacterExtraItem(slot1, slot4)
 end
 
-slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
+slot0.HideSceneItem = function(slot0, slot1, slot2)
+	if slot2 and #slot2 > 0 then
+		if slot1.tempHideSceneItems and #slot1.tempHideSceneItems > 0 then
+			slot0:ResetTempHideSceneItems(slot1, slot2)
+		end
+
+		slot1.tempHideSceneItems = {}
+
+		table.Ipairs(slot2, function (slot0, slot1)
+			setActive(uv0:GetSceneItem(slot1), false)
+			table.insert(uv1.tempHideSceneItems, slot1)
+		end)
+	end
+end
+
+slot0.ResetTempHideSceneItems = function(slot0, slot1, slot2)
+	slot2 = slot2 or {}
+
+	if slot1.tempHideSceneItems and #slot1.tempHideSceneItems > 0 then
+		table.Ipairs(slot1.tempHideSceneItems, function (slot0, slot1)
+			if table.contains(uv0, slot1) then
+				return
+			end
+
+			setActive(uv1:GetSceneItem(slot1), true)
+		end)
+
+		slot1.tempHideSceneItems = nil
+	end
+end
+
+slot0.SetIKStatus = function(slot0, slot1, slot2, slot3, slot4)
 	warning("Set IKStatus " .. (slot2.id or "NIL"))
 
 	slot0.enableIKTip = true
@@ -1801,6 +1842,7 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 
 	slot0:ClearIkTouchEvents(slot1)
 
+	slot1.currentIkStatus = slot2.id
 	slot1.ikActionDict = {}
 	slot1.readyIKLayers = {}
 	slot1.iKTouchDatas = slot2.touch_data or {}
@@ -1808,7 +1850,7 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 		Colliders = slot1.ladyColliders,
 		CameraRaycaster = slot0.sceneRaycaster
 	}
-	slot5 = {}
+	slot6 = {}
 
 	_.each(slot1.iKTouchDatas, function (slot0)
 		if slot0[3][1] == 7 then
@@ -1942,18 +1984,18 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 		slot0.cameras[uv0.CAMERA.IK_WATCH] = nil
 	end
 
-	slot8 = slot0.cameraRoot:Find(slot2.ik_camera)
+	slot9 = slot0.cameraRoot:Find(slot2.ik_camera)
 
-	assert(slot8, "Missing IKCamera")
+	assert(slot9, "Missing IKCamera")
 
-	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot8
+	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot9
 
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.IK_WATCH])
 
 	slot0.camBrain.enabled = true
 
-	if slot8:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
-		slot0:RegisterOrbits(slot9)
+	if slot9:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
+		slot0:RegisterOrbits(slot10)
 	else
 		slot0:RevertCameraOrbit()
 	end
@@ -1964,16 +2006,7 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 	slot1:EnableCloth(slot2.use_cloth, slot2.cloth_colliders)
 	slot0:PlayEnterSceneAnim(slot2.enter_scene_anim)
 	slot0:PlayEnterExtraItem(slot1, slot2.enter_extra_item)
-	(function ()
-		if uv0.hide_scene_item and #slot0 > 0 then
-			uv1.tempHideSceneItems = {}
-
-			table.Ipairs(slot0, function (slot0, slot1)
-				setActive(uv0:GetSceneItem(slot1), false)
-				table.insert(uv1.tempHideSceneItems, slot1)
-			end)
-		end
-	end)()
+	slot0:HideSceneItem(slot1, slot2.hide_scene_item)
 	eachChild(slot0.ikTextTipsRoot, function (slot0)
 		setActive(slot0, false)
 	end)
@@ -1995,7 +2028,7 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
+slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.enableIKTip = false
 
 	setActive(slot1.ladyCollider, true)
@@ -2004,13 +2037,13 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
 	end)
 
 	slot0.blockIK = nil
-	slot4 = pg.IKMgr.GetInstance()
 
-	slot4:UnregisterEnv()
+	pg.IKMgr.GetInstance():UnregisterEnv()
 	setActive(slot0.ikTipsRoot, false)
 	setActive(slot0.ikClickTipsRoot, false)
 	slot0:ClearIkTouchEvents(slot1)
 
+	slot1.currentIkStatus = nil
 	slot1.ikActionDict = nil
 	slot1.readyIKLayers = nil
 	slot1.iKTouchDatas = nil
@@ -2024,16 +2057,12 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
 	slot0:ResetHeadAimIK(slot1)
 	slot0:SwitchAnim(slot1, slot2.character_action)
 	slot0:ResetSceneItemAnimators()
-	slot0:ResetCharacterExtraItem(slot1)
-	(function ()
-		if uv0.tempHideSceneItems and #uv0.tempHideSceneItems > 0 then
-			table.Ipairs(uv0.tempHideSceneItems, function (slot0, slot1)
-				setActive(uv0:GetSceneItem(slot1), true)
-			end)
 
-			uv0.tempHideSceneItems = nil
-		end
-	end)()
+	if not slot4.ignoreResetExtraItem then
+		slot0:ResetCharacterExtraItem(slot1)
+		slot0:ResetTempHideSceneItems(slot1)
+	end
+
 	onNextTick(function ()
 		if uv0.character_position then
 			uv1.ladyActiveZone = uv0.character_position
@@ -2199,7 +2228,7 @@ slot0.ClearIkTouchEvents = function(slot0, slot1)
 end
 
 slot0.EnableIKLayer = function(slot0, slot1)
-	slot2 = slot0.ladyDict[slot0.apartment:GetConfigID()]
+	slot2 = slot0:GetCurrentLadyEnv()
 
 	if #slot1:GetHeadTrackPath() > 0 then
 		slot0:SettingHeadAimIK(slot2, {
@@ -2234,7 +2263,7 @@ slot0.EnableIKLayer = function(slot0, slot1)
 end
 
 slot0.DeactiveIKLayer = function(slot0, slot1)
-	if not slot0.ladyDict[slot0.apartment:GetConfigID()].ikTimelineMode and #slot1:GetHeadTrackPath() > 0 then
+	if not slot0:GetCurrentLadyEnv().ikTimelineMode and #slot1:GetHeadTrackPath() > 0 then
 		slot0:SettingHeadAimIK(slot2, slot2.ikConfig.head_track)
 	end
 
@@ -2321,7 +2350,7 @@ slot0.ResetIKTipTimer = function(slot0)
 end
 
 slot0.EnableCurrentHeadIK = function(slot0, slot1)
-	slot0:EnableHeadIK(slot0.ladyDict[slot0.apartment:GetConfigID()], slot1)
+	slot0:EnableHeadIK(slot0:GetCurrentLadyEnv(), slot1)
 end
 
 slot0.EnableHeadIK = function(slot0, slot1, slot2)
@@ -2601,8 +2630,8 @@ slot0.ExitPhotoMode = function(slot0)
 
 			slot1:RevertCameraOrbit()
 
-			slot2 = uv0.apartment
-			slot1 = uv0.ladyDict[slot2:GetConfigID()]
+			slot1 = uv0
+			slot1 = slot1:GetCurrentLadyEnv()
 			slot2 = uv0
 
 			slot2:SwitchAnim(slot1, uv1.ANIM.IDLE)
@@ -2644,10 +2673,10 @@ slot0.SwitchCameraZone = function(slot0, slot1, slot2, slot3)
 			uv0:ShowBlackScreen(true, slot0)
 		end,
 		function (slot0)
-			slot2 = uv0.apartment
+			slot1 = uv0
 			slot2 = uv0
 
-			slot2:SwitchAnim(uv0.ladyDict[slot2:GetConfigID()], uv1)
+			slot2:SwitchAnim(slot1:GetCurrentLadyEnv(), uv1)
 			onNextTick(function ()
 				uv0:ResetCharPoint(uv1, uv2:GetWatchCameraName())
 				uv0:SyncInterestTransform(uv1)
@@ -2734,7 +2763,7 @@ slot0.ResetPhotoCameraPosition = function(slot0)
 end
 
 slot0.ResetCurrentCharPoint = function(slot0, slot1)
-	slot0:ResetCharPoint(slot0.ladyDict[slot0.apartment:GetConfigID()], slot1)
+	slot0:ResetCharPoint(slot0:GetCurrentLadyEnv(), slot1)
 end
 
 slot0.ResetCharPoint = function(slot0, slot1, slot2)
@@ -2855,7 +2884,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 				TimelineIKStart = function ()
 					uv0.selectIndex = nil
 
-					if uv2.ladyDict[uv2.apartment:GetConfigID()]:CheckIkTimelineStatus(uv1.intParameter) then
+					if uv2:GetCurrentLadyEnv():CheckIkTimelineStatus(uv1.intParameter) then
 						uv2:SetIKTimelineStatus(slot1, uv3.gameObject, slot0, uv4)
 					end
 				end,
@@ -2872,7 +2901,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 				uv1.timelineMark = slot2
 				uv1.timelineFinishCall = nil
 
-				if uv1.ladyDict[uv1.apartment:GetConfigID()].ikTimelineMode then
+				if uv1:GetCurrentLadyEnv().ikTimelineMode then
 					uv1:ExitIKTimelineStatus(slot3)
 				end
 
@@ -2930,8 +2959,16 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 	end)
 end
 
+slot0.GetCurrentLadyEnv = function(slot0)
+	if not slot0.apartment then
+		return nil
+	end
+
+	return slot0.ladyDict[slot0.apartment:GetConfigID()]
+end
+
 slot0.PlayCurrentSingleAction = function(slot0, ...)
-	return slot0:PlaySingleAction(slot0.ladyDict[slot0.apartment:GetConfigID()], ...)
+	return slot0:PlaySingleAction(slot0:GetCurrentLadyEnv(), ...)
 end
 
 slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3, slot4)
@@ -2939,7 +2976,7 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.SwitchCurrentAnim = function(slot0, ...)
-	return slot0:SwitchAnim(slot0.ladyDict[slot0.apartment:GetConfigID()], ...)
+	return slot0:SwitchAnim(slot0:GetCurrentLadyEnv(), ...)
 end
 
 slot0.SwitchAnim = function(slot0, slot1, slot2, slot3)
@@ -2951,11 +2988,11 @@ slot0.PlayFaceAnim = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.RegisterAnimCallback = function(slot0, slot1, slot2)
-	slot0.ladyDict[slot0.apartment:GetConfigID()].animCallbacks[slot1] = slot2
+	slot0:GetCurrentLadyEnv().animCallbacks[slot1] = slot2
 end
 
 slot0.SetCharacterAnimSpeed = function(slot0, slot1)
-	slot2 = slot0.ladyDict[slot0.apartment:GetConfigID()]
+	slot2 = slot0:GetCurrentLadyEnv()
 	slot2.ladyAnimator.speed = slot1
 	slot2.ladyHeadIKComp.blinkSpeed = slot2.ladyHeadIKData.blinkSpeed * slot1
 
@@ -3154,7 +3191,7 @@ slot0.PlayExpression = function(slot0, slot1)
 		uv0.instance = slot0
 
 		onNextTick(function ()
-			setParent(uv1, uv0.ladyDict[uv0.apartment:GetConfigID()].ladyHeadCenter)
+			setParent(uv1, uv0:GetCurrentLadyEnv().ladyHeadCenter)
 		end)
 		setLocalPosition(slot0, Vector3(0, 0, -0.2))
 		setActive(slot0, false)
@@ -3364,8 +3401,7 @@ slot0.ChangeSubScene = function(slot0, slot1, slot2)
 		uv0.dormSceneMgr:ChangeSubScene(uv1, slot0)
 	end)
 
-	slot5 = slot0.apartment
-	slot4 = slot0.ladyDict[slot5:GetConfigID()]
+	slot4 = slot0:GetCurrentLadyEnv()
 
 	table.insert(slot3, function (slot0)
 		if Dorm3dSceneMgr.IsSameSceneInfo(uv0, uv1.dormSceneMgr.sceneInfo) then

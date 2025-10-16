@@ -1,16 +1,25 @@
 slot0 = class("UrExchangeItemPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.exchangeBtn = slot0:findTF("AD/exchange")
-	slot0.exchangeTip = slot0:findTF("AD/exchange/tip")
-	slot0.battleBtn = slot0:findTF("AD/battle")
-	slot0.taskBtn = slot0:findTF("AD/task")
-	slot0.progress = slot0:findTF("AD/progress/Image")
-	slot1 = slot0:findTF("AD/Text")
+	slot1 = slot0._tf
+	slot0.exchangeBtn = slot1:Find("AD/exchange")
+	slot1 = slot0._tf
+	slot0.exchangeTip = slot1:Find("AD/exchange/tip")
+	slot1 = slot0._tf
+	slot0.battleBtn = slot1:Find("AD/battle")
+	slot1 = slot0._tf
+	slot0.taskBtn = slot1:Find("AD/task")
+	slot1 = slot0._tf
+	slot0.progress = slot1:Find("AD/progress/Image")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("AD/Text")
 	slot0.progressTxt = slot1:GetComponent(typeof(Text))
-	slot0.itemTF = slot0:findTF("AD/item")
-	slot0.helpBtn = slot0:findTF("AD/help")
-	slot0.moreBtn = slot0:findTF("AD/more")
+	slot1 = slot0._tf
+	slot0.itemTF = slot1:Find("AD/item")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("AD/help")
+	slot1 = slot0._tf
+	slot0.moreBtn = slot1:Find("AD/more")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

@@ -43,10 +43,10 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.infos = slot0:findTF("infos")
+	slot0.infos = slot0._tf:Find("infos")
 	slot0.infoTpl = slot0:getTpl("infos/info_tpl")
-	slot0.indicator = slot0:findTF("load")
-	slot0.bg = slot0:findTF("BG")
+	slot0.indicator = slot0._tf:Find("load")
+	slot0.bg = slot0._tf:Find("BG")
 
 	slot0:displayBG(true)
 end

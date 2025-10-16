@@ -1053,7 +1053,7 @@ pg.island_order_publish_random = {
 	[151001] = {
 		id = 151001,
 		npc_id = 100100,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151002] = {
 		id = 151002,
@@ -1068,7 +1068,7 @@ pg.island_order_publish_random = {
 	[151004] = {
 		id = 151004,
 		npc_id = 100400,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151005] = {
 		id = 151005,
@@ -1083,12 +1083,12 @@ pg.island_order_publish_random = {
 	[151007] = {
 		id = 151007,
 		npc_id = 100700,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151008] = {
 		id = 151008,
 		npc_id = 100800,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151009] = {
 		id = 151009,
@@ -1098,7 +1098,7 @@ pg.island_order_publish_random = {
 	[151010] = {
 		id = 151010,
 		npc_id = 101000,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151011] = {
 		id = 151011,
@@ -1108,7 +1108,7 @@ pg.island_order_publish_random = {
 	[151012] = {
 		id = 151012,
 		npc_id = 101200,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151013] = {
 		id = 151013,
@@ -1118,17 +1118,17 @@ pg.island_order_publish_random = {
 	[151014] = {
 		id = 151014,
 		npc_id = 101400,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[151016] = {
 		id = 151016,
 		npc_id = 101600,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161001] = {
 		id = 161001,
 		npc_id = 100100,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161002] = {
 		id = 161002,
@@ -1143,7 +1143,7 @@ pg.island_order_publish_random = {
 	[161004] = {
 		id = 161004,
 		npc_id = 100400,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161005] = {
 		id = 161005,
@@ -1158,12 +1158,12 @@ pg.island_order_publish_random = {
 	[161007] = {
 		id = 161007,
 		npc_id = 100700,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161008] = {
 		id = 161008,
 		npc_id = 100800,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161009] = {
 		id = 161009,
@@ -1173,7 +1173,7 @@ pg.island_order_publish_random = {
 	[161010] = {
 		id = 161010,
 		npc_id = 101000,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161011] = {
 		id = 161011,
@@ -1183,7 +1183,7 @@ pg.island_order_publish_random = {
 	[161012] = {
 		id = 161012,
 		npc_id = 101200,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161013] = {
 		id = 161013,
@@ -1193,12 +1193,12 @@ pg.island_order_publish_random = {
 	[161014] = {
 		id = 161014,
 		npc_id = 101400,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[161016] = {
 		id = 161016,
 		npc_id = 101600,
-		desc = "Can you help me a bit with some important materials?"
+		desc = "Could you help me with a really important material?"
 	},
 	[171001] = {
 		id = 171001,

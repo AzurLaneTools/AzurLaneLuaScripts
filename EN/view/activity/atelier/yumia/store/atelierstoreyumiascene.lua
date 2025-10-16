@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Window/Text"), i18n("yumia_atelier_tip13"))
-	setText(slot0:findTF("Window/textBg/Name"), i18n("yumia_atelier_tip16"))
+	setText(slot0._tf:Find("Window/Text"), i18n("yumia_atelier_tip13"))
+	setText(slot0._tf:Find("Window/textBg/Name"), i18n("yumia_atelier_tip16"))
 end
 
 slot0.didEnter = function(slot0)
 	slot0.activity = slot0.contextData.activity
 
-	onButton(slot0, slot0:findTF("Window/textBg/closeBtn"), function ()
+	onButton(slot0, slot0._tf:Find("Window/textBg/closeBtn"), function ()
 		uv0:PlayCloseAni()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:PlayCloseAni()
 	end, SFX_CANCEL)
 	slot0:ShowStoreHouseWindow()
@@ -56,8 +56,8 @@ slot0.ShowStoreHouseWindow = function(slot0)
 	table.sort(slot2, function (slot0, slot1)
 		return slot0:GetConfigID() < slot1:GetConfigID()
 	end)
-	setActive(slot0:findTF("Window/Empty"), #slot2 == 0)
-	setActive(slot0:findTF("Window/ScrollView"), #slot2 > 0)
+	setActive(slot0._tf:Find("Window/Empty"), #slot2 == 0)
+	setActive(slot0._tf:Find("Window/ScrollView"), #slot2 > 0)
 
 	if #slot2 == 0 then
 		return
@@ -86,7 +86,7 @@ end
 
 slot0.AddTimer = function(slot0, slot1)
 	slot2 = 0
-	slot3 = slot0:findTF("Window/ScrollView/Viewport/Content")
+	slot3 = slot0._tf:Find("Window/ScrollView/Viewport/Content")
 	slot0.timer = FrameTimer.New(function ()
 		if math.min(uv0.childCount, 15) <= uv1 then
 			uv2:StopTimer()
@@ -100,9 +100,9 @@ end
 slot0.AddTimer2 = function(slot0)
 	slot6 = false
 
-	SetComponentEnabled(slot0:findTF("Window/ScrollView"), "LScrollRect", slot6)
+	SetComponentEnabled(slot0._tf:Find("Window/ScrollView"), "LScrollRect", slot6)
 
-	for slot6 = 0, slot0:findTF("Window/ScrollView/Viewport/Content").childCount - 1 do
+	for slot6 = 0, slot0._tf:Find("Window/ScrollView/Viewport/Content").childCount - 1 do
 		SetComponentEnabled(slot1:GetChild(slot6), typeof(Animation), false)
 
 		GetComponent(slot1:GetChild(slot6), typeof(CanvasGroup)).alpha = 0
@@ -112,7 +112,7 @@ slot0.AddTimer2 = function(slot0)
 	slot0.timer = Timer.New(function ()
 		if uv1 <= uv0 then
 			uv2:StopTimer()
-			SetComponentEnabled(uv2:findTF("Window/ScrollView"), "LScrollRect", true)
+			SetComponentEnabled(uv2._tf:Find("Window/ScrollView"), "LScrollRect", true)
 
 			return
 		end

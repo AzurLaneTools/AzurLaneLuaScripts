@@ -22,15 +22,15 @@ slot0.init = function(slot0)
 	slot0.panelTemplate = slot0.layout:Find("container/Template")
 	slot0.displayList = {}
 	slot0.typeList = {}
-	slot0.btnConfirm = slot0:findTF("layout/btns/ok", slot0.panel)
-	slot0.btnCancel = slot0:findTF("layout/btns/cancel", slot0.panel)
+	slot0.btnConfirm = slot0.panel:Find("layout/btns/ok")
+	slot0.btnCancel = slot0.panel:Find("layout/btns/cancel")
 
-	setText(slot0:findTF("Image", slot0.btnConfirm), i18n("text_confirm"))
-	setText(slot0:findTF("Image", slot0.btnCancel), i18n("text_cancel"))
+	setText(slot0.btnConfirm:Find("Image"), i18n("text_confirm"))
+	setText(slot0.btnCancel:Find("Image"), i18n("text_cancel"))
 
-	slot0.greySprite = slot0:findTF("resource/grey", slot0.panel):GetComponent(typeof(Image)).sprite
-	slot0.blueSprite = slot0:findTF("resource/blue", slot0.panel):GetComponent(typeof(Image)).sprite
-	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
+	slot0.greySprite = slot0.panel:Find("resource/grey"):GetComponent(typeof(Image)).sprite
+	slot0.blueSprite = slot0.panel:Find("resource/blue"):GetComponent(typeof(Image)).sprite
+	slot0.yellowSprite = slot0.panel:Find("resource/yellow"):GetComponent(typeof(Image)).sprite
 end
 
 slot0.didEnter = function(slot0)
@@ -46,7 +46,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnCancel, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("btn", slot0.panel), function ()
+	onButton(slot0, slot0.panel:Find("btn"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:DoEnterAnimation()
@@ -113,7 +113,7 @@ slot0.InitDropdown = function(slot0, slot1)
 	for slot9, slot10 in ipairs(slot2) do
 		slot11 = slot4[slot9]
 
-		setActive(slot0:findTF("dropdown", slot11), true)
+		setActive(slot11:Find("dropdown"), true)
 		onButton(slot0, slot11, function ()
 			slot0 = uv0.panel:InverseTransformPoint(uv1.position)
 
@@ -248,7 +248,7 @@ slot0.InitCustoms = function(slot0, slot1)
 			slot19 = cloneTplTo(slot12, slot4:Find("bg"))
 			slot19.name = slot17 .. "_simple"
 
-			setActive(slot0:findTF("dropdown", slot19), true)
+			setActive(slot19:Find("dropdown"), true)
 			onButton(slot0, slot19, function ()
 				slot0 = uv0.panel:InverseTransformPoint(uv1.position)
 

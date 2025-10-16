@@ -115,7 +115,7 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/submarine_1/tip"
+				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/adapt/GridFrame/submarine_1/tip"
 			}
 		},
 		{

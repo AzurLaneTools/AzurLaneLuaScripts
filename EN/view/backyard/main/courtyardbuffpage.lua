@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/list/content"), slot0:findTF("frame/list/content/tpl"))
-	slot0.totalExp = slot0:findTF("frame/subtitle/Text"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("frame/list/content"), slot0._tf:Find("frame/list/content/tpl"))
+	slot0.totalExp = slot0._tf:Find("frame/subtitle/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("frame/title"), i18n("courtyard_label_exp_addition"))
-	setText(slot0:findTF("frame/subtitle"), i18n("courtyard_label_total_exp_addition"))
+	setText(slot0._tf:Find("frame/title"), i18n("courtyard_label_exp_addition"))
+	setText(slot0._tf:Find("frame/subtitle"), i18n("courtyard_label_total_exp_addition"))
 
 	slot0.timers = {}
 end

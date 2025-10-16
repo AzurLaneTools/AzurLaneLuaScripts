@@ -3,7 +3,7 @@ slot0 = class("NewYearWishesPtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.awardGotTag = slot0:findTF("award_got", slot0.bg)
+	slot0.awardGotTag = slot0.bg:Find("award_got")
 end
 
 slot0.OnFirstFlush = function(slot0)

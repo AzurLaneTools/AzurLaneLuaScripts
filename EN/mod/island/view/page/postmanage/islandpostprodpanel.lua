@@ -21,9 +21,14 @@ slot0.OnLoaded = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	slot0.selectPanel = IslandDelegationSelectPanel.New(slot0._tf, slot0.event, {
-		isPost = true
-	})
+	slot0.selectPanel = IslandDelegationSelectPanel.New(slot0._tf, slot0.event, setmetatable({
+		isPost = true,
+		ShowMsgBox = function (slot0, slot1)
+			uv0.contextData:ShowMsgBox(slot1)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
 end
 
 slot0.OnInit = function(slot0)

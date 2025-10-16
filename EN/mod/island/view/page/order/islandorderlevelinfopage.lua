@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.levelTxt = slot0:findTF("frame/animroot/level"):GetComponent(typeof(Text))
-	slot0.expTr = slot0:findTF("frame/animroot/slider")
-	slot0.expTxt = slot0:findTF("frame/animroot/exp"):GetComponent(typeof(Text))
-	slot0.cntTxt = slot0:findTF("frame/bg/Image/cnt"):GetComponent(typeof(Text))
-	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/animroot/rect/content"), slot0:findTF("frame/animroot/rect/content/tpl"))
+	slot0.levelTxt = slot0._tf:Find("frame/animroot/level"):GetComponent(typeof(Text))
+	slot0.expTr = slot0._tf:Find("frame/animroot/slider")
+	slot0.expTxt = slot0._tf:Find("frame/animroot/exp"):GetComponent(typeof(Text))
+	slot0.cntTxt = slot0._tf:Find("frame/bg/Image/cnt"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("frame/animroot/rect/content"), slot0._tf:Find("frame/animroot/rect/content/tpl"))
 	slot0.canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 

@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0._backBtn = slot0:findTF("back_btn")
-	slot0._box = slot0:findTF("box")
+	slot0._backBtn = slot0._tf:Find("back_btn")
+	slot0._box = slot0._tf:Find("box")
 	slot0._boxRig = GetComponent(slot0._box, "Rigidbody2D")
 	slot0._boxPhyItem = GetComponent(slot0._box, "Physics2DItem")
 
 	Physics2DMgr.Inst:AddSimulateItem(slot0._boxPhyItem)
 
-	slot0._gizmos = slot0:findTF("res/gizmos")
+	slot0._gizmos = slot0._tf:Find("res/gizmos")
 end
 
 slot0.didEnter = function(slot0)

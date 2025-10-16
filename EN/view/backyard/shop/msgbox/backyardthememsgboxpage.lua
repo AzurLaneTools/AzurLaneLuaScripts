@@ -7,8 +7,8 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.purchaseTr = slot0:findTF("frame/tip")
-	slot0.purchase = slot0:findTF("frame/tip/Text"):GetComponent(typeof(Text))
+	slot0.purchaseTr = slot0._tf:Find("frame/tip")
+	slot0.purchase = slot0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

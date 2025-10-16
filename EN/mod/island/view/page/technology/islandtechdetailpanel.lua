@@ -15,8 +15,7 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.unlockTF:Find("title"), i18n("island_tech_unlock_need"))
 
-	slot2 = slot0.unlockTF
-	slot0.unlockUIList = UIItemList.New(slot2:Find("list"), slot0.unlockTF:Find("list/tpl"))
+	slot0.unlockUIList = UIItemList.New(slot0.unlockTF:Find("list"), slot0.unlockTF:Find("list/tpl"))
 	slot0.normalTimeTextTF = slot0.panel:Find("status/normal/content/time/Text")
 	slot0.timeTextTF = slot0.panel:Find("status/studying/time/Text")
 	slot1 = slot0.panel:Find("status")
@@ -27,8 +26,16 @@ slot0.OnLoaded = function(slot0)
 	setText(slot1:Find("normal/cost/title"), i18n("island_tech_dev_cost"))
 	setText(slot1:Find("studying/Text"), i18n("island_tech_dev_starting"))
 	setText(slot1:Find("receive/Text"), i18n("island_tech_dev_success"))
-	setText(slot1:Find("finished/Text"), i18n("island_tech_dev_finish"))
+	setText(slot1:Find("finished/normal/Text"), i18n("island_tech_dev_finish"))
 
+	slot0.noramlFinsh = slot1:Find("finished/normal")
+	slot0.mapFinsh = slot1:Find("finished/map")
+	slot0.mapFinshIcon = slot0.mapFinsh:Find("mapicon")
+	slot0.mapFinshName = slot0.mapFinsh:Find("maptitle/name")
+	slot0.npcTF = slot0.mapFinsh:Find("npc")
+	slot0.npcIcon = slot0.npcTF:Find("npcicon")
+	slot2 = slot0.npcTF
+	slot0.npcName = slot2:Find("npcName")
 	slot0.statusTFs = {
 		[IslandTechnology.STATUS.LOCK] = slot1:Find("lock"),
 		[IslandTechnology.STATUS.UNLOCK] = slot1:Find("unlock"),
@@ -40,7 +47,6 @@ slot0.OnLoaded = function(slot0)
 	slot0.costTF = slot0.panel:Find("status/normal/cost")
 	slot0.costUIList = UIItemList.New(slot0.costTF:Find("list"), slot0.costTF:Find("list/tpl"))
 
-	setText(slot0._tf:Find("panel/desc/name"), i18n("island_tech_detail_desctitle"))
 	setText(slot0._tf:Find("panel/unlock/title"), i18n("island_tech_detail_unlocktitle"))
 end
 
@@ -82,6 +88,14 @@ slot0.OnInit = function(slot0)
 			else
 				setText(slot5, (slot4 < slot3.count and setColorStr(slot4, "#FF6767") or slot4) .. "/" .. slot3.count)
 			end
+
+			onButton(uv0, slot2, function ()
+				uv0.contextData:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1
+				})
+			end)
 		end
 	end)
 
@@ -128,6 +142,7 @@ slot0.Flush = function(slot0)
 	slot0.costList = slot0.showTechVO:GetCostItems()
 
 	slot0.costUIList:align(#slot0.costList)
+	setText(slot0._tf:Find("panel/desc/name"), slot0.showTechVO:getConfig("complete_title"))
 	switch(slot5, {
 		[IslandTechnology.STATUS.LOCK] = function ()
 			onButton(uv0, uv0.statusTFs[uv1], function ()
@@ -157,7 +172,7 @@ slot0.Flush = function(slot0)
 				if uv0.showTechVO:IsAutoType() then
 					existCall(uv0.contextData.onFinishImmd, uv0.showTechVO.id)
 				else
-					existCall(uv0.contextData.onSelecteShip)
+					existCall(uv0.contextData.onSelecteShip, uv0.showTechVO:GetFormulaId())
 				end
 			end, SFX_PANEL)
 		end,
@@ -172,6 +187,35 @@ slot0.Flush = function(slot0)
 					existCall(uv0.contextData.onGetAwardDone, uv0.showTechVO.id)
 				end)
 			end, SFX_PANEL)
+		end,
+		[IslandTechnology.STATUS.FINISHED] = function ()
+			if uv0.showTechVO:getConfig("complete_map_id") == 0 then
+				setActive(uv0.noramlFinsh, true)
+				setActive(uv0.mapFinsh, false)
+
+				return
+			end
+
+			setActive(uv0.noramlFinsh, false)
+			setActive(uv0.mapFinsh, true)
+
+			slot1 = slot0
+
+			LoadImageSpriteAtlasAsync("island/IslandMapIcon/" .. slot1, "", uv0.mapFinshIcon)
+			setText(uv0.mapFinshName, pg.island_map[slot1].name)
+
+			if uv0.showTechVO:getConfig("complete_character_id") == "" or #slot2 == 0 then
+				setActive(uv0.npcTF, false)
+
+				return
+			end
+
+			setActive(uv0.npcTF, true)
+
+			slot3 = pg.island_unit_character[slot2[1]]
+
+			GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. slot3.IslandShipIcon, "", uv0.npcIcon)
+			setText(uv0.npcName, slot3.name)
 		end
 	}, function ()
 	end)
@@ -227,6 +271,12 @@ slot0.Show = function(slot0, slot1, slot2)
 end
 
 slot0.OnShipSelected = function(slot0, slot1)
+	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetCurrentEnergy() < pg.island_formula[slot0.showTechVO:GetFormulaId()].stamina_cost then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_cost_notenough"))
+
+		return
+	end
+
 	slot0:emit(IslandMediator.START_DELEGATION, slot0.placeId, slot0.techAgency:GetEmptySlotId(), slot1, slot0.showTechVO:GetFormulaId(), 1)
 end
 

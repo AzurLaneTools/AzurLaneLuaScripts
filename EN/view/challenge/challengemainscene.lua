@@ -65,75 +65,75 @@ slot0.setFleet = function(slot0, slot1)
 end
 
 slot0.findUI = function(slot0)
-	slot0.northTF = slot0:findTF("ForNorth")
-	slot0.paintingListTF = slot0:findTF("PaintingList")
-	slot0.backBtn = slot0:findTF("top/back_button", slot0.northTF)
-	slot0.gradeContainer = slot0:findTF("GradeContainer", slot0.northTF)
-	slot0.seasonBestPointText = slot0:findTF("SeasonBestPoint/Text", slot0.gradeContainer)
-	slot0.activityBestPointText = slot0:findTF("ActivityBestPoint/Text", slot0.gradeContainer)
-	slot0.seasonLevelNumText = slot0:findTF("SeasonLevelNum/Text", slot0.gradeContainer)
-	slot0.activityLevelNumText = slot0:findTF("ActivityLevelNum/Text", slot0.gradeContainer)
-	slot0.timeTipTF = slot0:findTF("TimeTip", slot0.northTF)
-	slot0.activityTimeText = slot0:findTF("ActivityTimeText", slot0.timeTipTF)
-	slot0.seasonDayText = slot0:findTF("SeasonTipText/DayText", slot0.timeTipTF)
-	slot0.seasonTimeText = slot0:findTF("SeasonTimeText", slot0.timeTipTF)
-	slot0.switchModTF = slot0:findTF("SwitchMod", slot0.northTF)
-	slot0.casualModBtn = slot0:findTF("NormalBtn", slot0.switchModTF)
-	slot0.infiniteModBtn = slot0:findTF("EndlessBtn", slot0.switchModTF)
-	slot0.casualModBtnBG = slot0:findTF("BG", slot0.casualModBtn)
-	slot0.infiniteModBtnBG = slot0:findTF("BG", slot0.infiniteModBtn)
+	slot0.northTF = slot0._tf:Find("ForNorth")
+	slot0.paintingListTF = slot0._tf:Find("PaintingList")
+	slot0.backBtn = slot0.northTF:Find("top/back_button")
+	slot0.gradeContainer = slot0.northTF:Find("GradeContainer")
+	slot0.seasonBestPointText = slot0.gradeContainer:Find("SeasonBestPoint/Text")
+	slot0.activityBestPointText = slot0.gradeContainer:Find("ActivityBestPoint/Text")
+	slot0.seasonLevelNumText = slot0.gradeContainer:Find("SeasonLevelNum/Text")
+	slot0.activityLevelNumText = slot0.gradeContainer:Find("ActivityLevelNum/Text")
+	slot0.timeTipTF = slot0.northTF:Find("TimeTip")
+	slot0.activityTimeText = slot0.timeTipTF:Find("ActivityTimeText")
+	slot0.seasonDayText = slot0.timeTipTF:Find("SeasonTipText/DayText")
+	slot0.seasonTimeText = slot0.timeTipTF:Find("SeasonTimeText")
+	slot0.switchModTF = slot0.northTF:Find("SwitchMod")
+	slot0.casualModBtn = slot0.switchModTF:Find("NormalBtn")
+	slot0.infiniteModBtn = slot0.switchModTF:Find("EndlessBtn")
+	slot0.casualModBtnBG = slot0.casualModBtn:Find("BG")
+	slot0.infiniteModBtnBG = slot0.infiniteModBtn:Find("BG")
 	slot0.casualModBtnSC = GetComponent(slot0.casualModBtn, "Button")
 	slot0.infiniteModBtnSC = GetComponent(slot0.infiniteModBtn, "Button")
-	slot0.functionBtnsTF = slot0:findTF("FunctionBtns", slot0.northTF)
-	slot0.rankBtn = slot0:findTF("RankBtn", slot0.functionBtnsTF)
-	slot0.startBtn = slot0:findTF("StartBtn", slot0.functionBtnsTF)
-	slot0.resetBtn = slot0:findTF("ResetBtn", slot0.functionBtnsTF)
-	slot0.startBtnBanned = slot0:findTF("StartBtnBanned", slot0.functionBtnsTF)
-	slot0.resetBtnBanned = slot0:findTF("ResetBtnBanned", slot0.functionBtnsTF)
-	slot0.awardTF = slot0:findTF("Award", slot0.northTF)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.awardTF)
-	slot0.getBtn = slot0:findTF("GetBtn", slot0.awardTF)
-	slot0.gotBtn = slot0:findTF("GotBtn", slot0.awardTF)
-	slot0.getBtnBanned = slot0:findTF("GetBtnBanned", slot0.awardTF)
-	slot0.itemTF = slot0:findTF("ItemBG/item", slot0.awardTF)
-	slot0.scoreText = slot0:findTF("Score/ScoreText", slot0.awardTF)
-	slot0.slider = slot0:findTF("Slider", slot0.northTF)
-	slot0.squareContainer = slot0:findTF("SquareList", slot0.slider)
-	slot0.squareTpl = slot0:findTF("Squre", slot0.slider)
+	slot0.functionBtnsTF = slot0.northTF:Find("FunctionBtns")
+	slot0.rankBtn = slot0.functionBtnsTF:Find("RankBtn")
+	slot0.startBtn = slot0.functionBtnsTF:Find("StartBtn")
+	slot0.resetBtn = slot0.functionBtnsTF:Find("ResetBtn")
+	slot0.startBtnBanned = slot0.functionBtnsTF:Find("StartBtnBanned")
+	slot0.resetBtnBanned = slot0.functionBtnsTF:Find("ResetBtnBanned")
+	slot0.awardTF = slot0.northTF:Find("Award")
+	slot0.helpBtn = slot0.awardTF:Find("HelpBtn")
+	slot0.getBtn = slot0.awardTF:Find("GetBtn")
+	slot0.gotBtn = slot0.awardTF:Find("GotBtn")
+	slot0.getBtnBanned = slot0.awardTF:Find("GetBtnBanned")
+	slot0.itemTF = slot0.awardTF:Find("ItemBG/item")
+	slot0.scoreText = slot0.awardTF:Find("Score/ScoreText")
+	slot0.slider = slot0.northTF:Find("Slider")
+	slot0.squareContainer = slot0.slider:Find("SquareList")
+	slot0.squareTpl = slot0.slider:Find("Squre")
 	slot0.squareList = UIItemList.New(slot0.squareContainer, slot0.squareTpl)
 	slot0.sliderSC = GetComponent(slot0.slider, "Slider")
-	slot0.paintingContainer = slot0:findTF("PaintingList")
+	slot0.paintingContainer = slot0._tf:Find("PaintingList")
 	slot0.scrollSC = GetComponent(slot0.paintingContainer, "Slider")
-	slot0.material = slot0:findTF("material"):GetComponent(typeof(Image)).material
-	slot0.material1 = slot0:findTF("material1"):GetComponent(typeof(Image)).material
-	slot0.painting = slot0:findTF("Painting", slot0.paintingContainer)
-	slot0.paintingShadow1 = slot0:findTF("PaintingShadow1", slot0.painting)
-	slot0.paintingShadow2 = slot0:findTF("PaintingShadow2", slot0.painting)
-	slot0.bossInfoImg = slot0:findTF("InfoImg", slot0.painting)
-	slot0.roundNumText = slot0:findTF("Round/NumText", slot0.painting)
-	slot0.completeEffectTF = slot0:findTF("TZ02", slot0.painting)
+	slot0.material = slot0._tf:Find("material"):GetComponent(typeof(Image)).material
+	slot0.material1 = slot0._tf:Find("material1"):GetComponent(typeof(Image)).material
+	slot0.painting = slot0.paintingContainer:Find("Painting")
+	slot0.paintingShadow1 = slot0.painting:Find("PaintingShadow1")
+	slot0.paintingShadow2 = slot0.painting:Find("PaintingShadow2")
+	slot0.bossInfoImg = slot0.painting:Find("InfoImg")
+	slot0.roundNumText = slot0.painting:Find("Round/NumText")
+	slot0.completeEffectTF = slot0.painting:Find("TZ02")
 
 	SetActive(slot0.completeEffectTF, false)
 
-	slot0.card1TF = slot0:findTF("Card1", slot0.paintingContainer)
-	slot0.shipPaintImg_1 = slot0:findTF("Mask/ShipPaint", slot0.card1TF)
-	slot0.tag_1 = slot0:findTF("Tag", slot0.card1TF)
-	slot0.mask_1 = slot0:findTF("Mask", slot0.card1TF)
-	slot0.roundTF_1 = slot0:findTF("Round", slot0.card1TF)
-	slot0.roundText_1 = slot0:findTF("Round/RoundText", slot0.card1TF)
-	slot0.card2TF = slot0:findTF("Card2", slot0.paintingContainer)
-	slot0.shipPaintImg_2 = slot0:findTF("Mask/ShipPaint", slot0.card2TF)
-	slot0.tag_2 = slot0:findTF("Tag", slot0.card2TF)
-	slot0.mask_2 = slot0:findTF("Mask", slot0.card2TF)
-	slot0.roundTF_2 = slot0:findTF("Round", slot0.card2TF)
-	slot0.roundText_2 = slot0:findTF("Round/RoundText", slot0.card2TF)
-	slot0.modTipBtn = slot0:findTF("ModTipBtn", slot0.northTF)
-	slot0.modTipTF = slot0:findTF("TipText", slot0.northTF)
-	slot0.modTipText = slot0:findTF("Text", slot0.modTipTF)
+	slot0.card1TF = slot0.paintingContainer:Find("Card1")
+	slot0.shipPaintImg_1 = slot0.card1TF:Find("Mask/ShipPaint")
+	slot0.tag_1 = slot0.card1TF:Find("Tag")
+	slot0.mask_1 = slot0.card1TF:Find("Mask")
+	slot0.roundTF_1 = slot0.card1TF:Find("Round")
+	slot0.roundText_1 = slot0.card1TF:Find("Round/RoundText")
+	slot0.card2TF = slot0.paintingContainer:Find("Card2")
+	slot0.shipPaintImg_2 = slot0.card2TF:Find("Mask/ShipPaint")
+	slot0.tag_2 = slot0.card2TF:Find("Tag")
+	slot0.mask_2 = slot0.card2TF:Find("Mask")
+	slot0.roundTF_2 = slot0.card2TF:Find("Round")
+	slot0.roundText_2 = slot0.card2TF:Find("Round/RoundText")
+	slot0.modTipBtn = slot0.northTF:Find("ModTipBtn")
+	slot0.modTipTF = slot0.northTF:Find("TipText")
+	slot0.modTipText = slot0.modTipTF:Find("Text")
 
 	setActive(slot0.modTipTF, false)
 
-	slot0.fleetSelect = slot0:findTF("LevelFleetSelectView")
+	slot0.fleetSelect = slot0._tf:Find("LevelFleetSelectView")
 	slot0.fleetEditPanel = ActivityFleetPanel.New(slot0.fleetSelect.gameObject)
 
 	slot0.fleetEditPanel.onCancel = function()
@@ -365,7 +365,7 @@ slot0.updatePaintingList = function(slot0, slot1, slot2)
 	end
 
 	setPaintingPrefabAsync(slot0.painting, slot3[slot4], "chuanwu", function ()
-		if uv0:findTF("fitter", uv0.painting):GetChild(0) then
+		if uv0.painting:Find("fitter"):GetChild(0) then
 			slot1 = GetComponent(slot0, "MeshImage")
 			slot2 = uv1 - 1 - uv2 >= 0
 
@@ -385,12 +385,12 @@ slot0.updatePaintingList = function(slot0, slot1, slot2)
 		end
 	end)
 	setPaintingPrefabAsync(slot0.paintingShadow1, slot3[slot4], "chuanwu", function ()
-		if uv0:findTF("fitter", uv0.paintingShadow1):GetChild(0) then
+		if uv0.paintingShadow1:Find("fitter"):GetChild(0) then
 			slot0:GetComponent("Image").color = Color.New(0, 0, 0, 0.44)
 		end
 	end)
 	setPaintingPrefabAsync(slot0.paintingShadow2, slot3[slot4], "chuanwu", function ()
-		if uv0:findTF("fitter", uv0.paintingShadow2):GetChild(0) then
+		if uv0.paintingShadow2:Find("fitter"):GetChild(0) then
 			slot0:GetComponent("Image").color = Color.New(1, 1, 1, 0.15)
 		end
 	end)
@@ -483,10 +483,10 @@ slot0.updateSlider = function(slot0, slot1)
 	slot0.sliderSC.value = (slot3 - 1) * 1 / (ChallengeConst.BOSS_NUM - 1)
 
 	slot0.squareList:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("UnFinished", slot2)
-		slot4 = uv0:findTF("Finished", slot2)
-		slot5 = uv0:findTF("Challengeing", slot2)
-		slot6 = uv0:findTF("Arrow", slot2)
+		slot3 = slot2:Find("UnFinished")
+		slot4 = slot2:Find("Finished")
+		slot5 = slot2:Find("Challengeing")
+		slot6 = slot2:Find("Arrow")
 
 		slot7 = function()
 			setActive(uv0, true)
@@ -507,15 +507,15 @@ slot0.updateSlider = function(slot0, slot1)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			if slot1 + 1 < uv1 then
+			if slot1 + 1 < uv0 then
 				slot7()
-			elseif slot1 + 1 == uv1 then
+			elseif slot1 + 1 == uv0 then
 				slot9()
-			elseif uv1 < slot1 + 1 then
+			elseif uv0 < slot1 + 1 then
 				slot8()
 			end
 
-			if slot1 + 1 == uv2 then
+			if slot1 + 1 == uv1 then
 				setActive(slot6, true)
 			else
 				setActive(slot6, false)

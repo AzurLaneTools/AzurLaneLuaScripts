@@ -56,13 +56,20 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	updateCustomDrop(slot4:Find("drop"), Drop.Create(slot5.award_display), {
 		style = "island"
 	})
+	onButton(slot0, slot4, function ()
+		uv0.contextData:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
 	setText(slot4:Find("level"), string.format("%02d", slot5.level))
 	setText(slot4:Find("desc"), slot5.describe)
 
-	slot6 = table.contains(slot0.gotIds, slot3)
+	slot7 = table.contains(slot0.gotIds, slot3)
 
-	setActive(slot4:Find("drop/got"), slot6)
-	setGray(slot4, not slot6, true)
+	setActive(slot4:Find("drop/got"), slot7)
+	setGray(slot4, not slot7, true)
 end
 
 slot0.Show = function(slot0)

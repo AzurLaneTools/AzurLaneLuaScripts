@@ -8,7 +8,7 @@ slot0.OnFirstFlush = function(slot0)
 	slot1:GetSpineChar("xiaotiane_2", false, function (slot0)
 		slot0.transform.localScale = Vector3(0.7, 0.7, 1)
 
-		slot0.transform:SetParent(uv0:findTF("char", uv0.bg), false)
+		slot0.transform:SetParent(uv0.bg:Find("char"), false)
 		slot0:GetComponent(typeof(SpineAnimUI)):SetAction("stand", 0)
 
 		uv0.model = slot0
@@ -17,8 +17,8 @@ end
 
 slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
-	GetImageSpriteFromAtlasAsync("numbericon/t1/" .. slot0.nday, "", slot0:findTF("day1", slot0.bg))
-	setText(slot0:findTF("progress", slot0.bg), "進度:" .. slot0.nday .. "/10")
+	GetImageSpriteFromAtlasAsync("numbericon/t1/" .. slot0.nday, "", slot0.bg:Find("day1"))
+	setText(slot0.bg:Find("progress"), "進度:" .. slot0.nday .. "/10")
 end
 
 slot0.OnDestroy = function(slot0)

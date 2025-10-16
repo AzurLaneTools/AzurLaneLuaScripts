@@ -21,15 +21,15 @@ slot0.setCacheMsgs = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.frame = slot0:findTF("frame")
-	slot0.friendView = slot0:findTF("left_length/scrollView", slot0.frame)
-	slot0.chatPanel = slot0:findTF("notification_panel", slot0.frame)
-	slot0.chatPanelTitle = slot0:findTF("notification_panel/frame/top/name", slot0.frame)
-	slot0.sendBtn = slot0:findTF("frame/bottom/send", slot0.chatPanel)
-	slot0.inputTF = slot0:findTF("frame/bottom/input", slot0.chatPanel)
-	slot0.chatsRect = slot0:findTF("frame/list", slot0.chatPanel)
-	slot0.chatsContainer = slot0:findTF("frame/list/content", slot0.chatPanel)
-	slot0.closeBtn = slot0:findTF("frame/notification_panel/frame/top/close_btn")
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.friendView = slot0.frame:Find("left_length/scrollView")
+	slot0.chatPanel = slot0.frame:Find("notification_panel")
+	slot0.chatPanelTitle = slot0.frame:Find("notification_panel/frame/top/name")
+	slot0.sendBtn = slot0.chatPanel:Find("frame/bottom/send")
+	slot0.inputTF = slot0.chatPanel:Find("frame/bottom/input")
+	slot0.chatsRect = slot0.chatPanel:Find("frame/list")
+	slot0.chatsContainer = slot0.chatPanel:Find("frame/list/content")
+	slot0.closeBtn = slot0._tf:Find("frame/notification_panel/frame/top/close_btn")
 	slot0.otherPopTpl = slot0:getTpl("frame/list/popo_other", slot0.chatPanel)
 	slot0.selfPopTpl = slot0:getTpl("frame/list/popo_self", slot0.chatPanel)
 
@@ -37,7 +37,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("frame/bottom/emoji", slot0.chatPanel), function ()
+	onButton(slot0, slot0.chatPanel:Find("frame/bottom/emoji"), function ()
 		slot0 = uv0.position
 
 		uv1:emit(ChatRoomMediator.OPEN_EMOJI, Vector3(slot0.x, slot0.y, 0), function (slot0)
@@ -287,7 +287,7 @@ slot0.willExit = function(slot0)
 
 	slot0:UnOverlayPanel(slot0.frame, slot4)
 	eachChild(slot0.chatsContainer, function (slot0)
-		if uv0:findTF("face", slot0).childCount > 0 then
+		if slot0:Find("face").childCount > 0 then
 			slot2 = slot1:GetChild(0).gameObject
 
 			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot2.name, slot2.name, slot2)

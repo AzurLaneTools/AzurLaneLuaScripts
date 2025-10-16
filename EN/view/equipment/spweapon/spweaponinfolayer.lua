@@ -43,13 +43,13 @@ slot0.init = function(slot0)
 		"replace",
 		"display"
 	}) do
-		slot0[slot6 .. "Panel"] = slot0:findTF(slot6)
-		slot0.toggles[slot6 .. "Panel"] = slot0:findTF("toggle_controll/" .. slot6)
+		slot0[slot6 .. "Panel"] = slot0._tf:Find(slot6)
+		slot0.toggles[slot6 .. "Panel"] = slot0._tf:Find("toggle_controll/" .. slot6)
 	end
 
 	Canvas.ForceUpdateCanvases()
 
-	slot0.sample = slot0:findTF("sample")
+	slot0.sample = slot0._tf:Find("sample")
 
 	setActive(slot0.sample, false)
 
@@ -130,10 +130,10 @@ slot1 = {
 
 slot0.initAndSetBtn = function(slot0, slot1)
 	if slot1 == uv0.TYPE_DEFAULT or slot1 == uv0.TYPE_SHIP then
-		slot0.defaultEquipTF = slot0:findTF("equipment", slot0.defaultPanel) or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
+		slot0.defaultEquipTF = slot0.defaultPanel:Find("equipment") or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
 
 		table.Foreach(uv1, function (slot0, slot1)
-			slot2 = uv0:findTF("actions/action_button_" .. slot0, uv0.defaultPanel)
+			slot2 = uv0.defaultPanel:Find("actions/action_button_" .. slot0)
 			uv0["default" .. slot1[1] .. "Btn"] = slot2
 
 			setText(slot2:GetChild(0), i18n(slot1[2]))
@@ -151,10 +151,10 @@ slot0.initAndSetBtn = function(slot0, slot1)
 			uv0:emit(SpWeaponInfoMediator.ON_MODIFY)
 		end, SFX_PANEL)
 	elseif slot1 == uv0.TYPE_REPLACE then
-		slot0.replaceSrcEquipTF = slot0:findTF("equipment", slot0.replacePanel) or slot0:cloneSampleTo(slot0.replacePanel, uv0.Left, "equipment")
-		slot0.replaceDstEquipTF = slot0:findTF("equipment_on_ship", slot0.replacePanel) or slot0:cloneSampleTo(slot0.replacePanel, uv0.Right, "equipment_on_ship")
-		slot0.replaceCancelBtn = slot0:findTF("actions/cancel_button", slot0.replacePanel)
-		slot0.replaceConfirmBtn = slot0:findTF("actions/action_button_2", slot0.replacePanel)
+		slot0.replaceSrcEquipTF = slot0.replacePanel:Find("equipment") or slot0:cloneSampleTo(slot0.replacePanel, uv0.Left, "equipment")
+		slot0.replaceDstEquipTF = slot0.replacePanel:Find("equipment_on_ship") or slot0:cloneSampleTo(slot0.replacePanel, uv0.Right, "equipment_on_ship")
+		slot0.replaceCancelBtn = slot0.replacePanel:Find("actions/cancel_button")
+		slot0.replaceConfirmBtn = slot0.replacePanel:Find("actions/action_button_2")
 
 		setText(slot0.replaceConfirmBtn:Find("label"), i18n("msgbox_text_confirm"))
 		setText(slot0.replaceCancelBtn:Find("label"), i18n("msgbox_text_cancel"))
@@ -170,8 +170,8 @@ slot0.initAndSetBtn = function(slot0, slot1)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif slot1 == uv0.TYPE_DISPLAY then
-		slot0.displayEquipTF = slot0:findTF("equipment", slot0.displayPanel) or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
-		slot0.displayMoveBtn = slot0:findTF("actions/move_button", slot0.displayPanel)
+		slot0.displayEquipTF = slot0.displayPanel:Find("equipment") or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
+		slot0.displayMoveBtn = slot0.displayPanel:Find("actions/move_button")
 
 		setText(slot0.displayMoveBtn:Find("label"), i18n("msgbox_text_equipdetail"))
 		onButton(slot0, slot0.displayMoveBtn, function ()
@@ -199,7 +199,7 @@ slot0.updateOperation2 = function(slot0)
 	setActive(slot0.defaultReplaceBtn, true)
 	setActive(slot0.defaultUnloadBtn, true)
 	setActive(slot0.defaultModifyBtn, true)
-	setActive(slot0:findTF("head", slot0.defaultEquipTF), slot0.shipVO)
+	setActive(slot0.defaultEquipTF:Find("head"), slot0.shipVO)
 
 	if slot0.shipVO then
 		setImageSprite(findTF(slot2, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
@@ -219,7 +219,7 @@ slot0.updateOperation3 = function(slot0)
 		slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot0.oldEquipmentVO, SpWeaponHelper.TransformNormalInfo(slot0.oldEquipmentVO))
 	end
 
-	setActive(slot0:findTF("head", slot0.replaceDstEquipTF), slot0.oldShipVO)
+	setActive(slot0.replaceDstEquipTF:Find("head"), slot0.oldShipVO)
 
 	if slot0.oldShipVO then
 		setImageSprite(findTF(slot2, "Image"), LoadSprite("qicon/" .. slot0.oldShipVO:getPainting()))
@@ -230,7 +230,7 @@ slot0.updateOperation4 = function(slot0)
 	triggerToggle(slot0.toggles.displayPanel, true)
 	slot0:updateEquipmentPanel(slot0.displayEquipTF, slot0.equipmentVO, SpWeaponHelper.TransformNormalInfo(slot0.equipmentVO))
 	setActive(slot0.displayMoveBtn, slot0.shipVO)
-	setActive(slot0:findTF("head", slot0.displayEquipTF), slot0.shipVO)
+	setActive(slot0.displayEquipTF:Find("head"), slot0.shipVO)
 
 	if slot0.shipVO then
 		setImageSprite(findTF(slot1, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
@@ -260,8 +260,8 @@ slot0.updateOperationAward = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3)
-	setActive(slot0:findTF("info", slot1), slot2)
-	setActive(slot0:findTF("empty", slot1), not slot2)
+	setActive(slot1:Find("info"), slot2)
+	setActive(slot1:Find("empty"), not slot2)
 
 	if not slot2 then
 		return
@@ -280,7 +280,7 @@ slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 	setActive(findTF(slot7, "slv/next"), false)
 	setText(findTF(slot7, "slv/next/Text"), slot2:GetLevel() - 1)
 
-	slot8 = slot0:findTF("tier", slot7)
+	slot8 = slot7:Find("tier")
 
 	setActive(slot8, slot2)
 

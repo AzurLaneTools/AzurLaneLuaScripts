@@ -2,32 +2,32 @@ slot0 = class("JiujiuYoyoPage", import("...base.BaseActivityPage"))
 slot1 = PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_CHT
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.taskBtn = slot0:findTF("task_btn", slot0.bg)
-	slot0.taskRedDot = slot0:findTF("red_dot", slot0.taskBtn)
-	slot0.ticketNumTF = slot0:findTF("ticket_num", slot0.bg)
-	slot0.rollingCountTF = slot0:findTF("rolling_count", slot0.bg)
-	slot0.rollingBlink = slot0:findTF("blink", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.taskBtn = slot0.bg:Find("task_btn")
+	slot0.taskRedDot = slot0.taskBtn:Find("red_dot")
+	slot0.ticketNumTF = slot0.bg:Find("ticket_num")
+	slot0.rollingCountTF = slot0.bg:Find("rolling_count")
+	slot0.rollingBlink = slot0.bg:Find("blink")
 
 	if uv0 then
-		slot0.awardTpl = slot0:findTF("item_jp", slot0.bg)
-		slot0.awardContainter = slot0:findTF("award_list_jp", slot0.bg)
+		slot0.awardTpl = slot0.bg:Find("item_jp")
+		slot0.awardContainter = slot0.bg:Find("award_list_jp")
 	else
-		slot0.awardTpl = slot0:findTF("item", slot0.bg)
-		slot0.awardContainter = slot0:findTF("award_list", slot0.bg)
+		slot0.awardTpl = slot0.bg:Find("item")
+		slot0.awardContainter = slot0.bg:Find("award_list")
 	end
 
 	slot0.awardUIList = UIItemList.New(slot0.awardContainter, slot0.awardTpl)
-	slot0.finalGot = slot0:findTF("final_got_jp", slot0.bg)
-	slot0.rollingAni = slot0:findTF("rolling_mask", slot0.bg)
-	slot0.rollingSpine = slot0:findTF("rolling", slot0.rollingAni):GetComponent("SpineAnimUI")
-	slot0.rollingGraphic = slot0:findTF("rolling", slot0.rollingAni):GetComponent("SkeletonGraphic")
-	slot0.forbidMask = slot0:findTF("forbid_mask", slot0.bg)
-	slot0.taskWindow = slot0:findTF("TaskWindow")
-	slot0.closeBtn = slot0:findTF("panel/close_btn", slot0.taskWindow)
-	slot0.taskTpl = slot0:findTF("panel/scrollview/item", slot0.taskWindow)
-	slot0.taskContainter = slot0:findTF("panel/scrollview/items", slot0.taskWindow)
+	slot0.finalGot = slot0.bg:Find("final_got_jp")
+	slot0.rollingAni = slot0.bg:Find("rolling_mask")
+	slot0.rollingSpine = slot0.rollingAni:Find("rolling"):GetComponent("SpineAnimUI")
+	slot0.rollingGraphic = slot0.rollingAni:Find("rolling"):GetComponent("SkeletonGraphic")
+	slot0.forbidMask = slot0.bg:Find("forbid_mask")
+	slot0.taskWindow = slot0._tf:Find("TaskWindow")
+	slot0.closeBtn = slot0.taskWindow:Find("panel/close_btn")
+	slot0.taskTpl = slot0.taskWindow:Find("panel/scrollview/item")
+	slot0.taskContainter = slot0.taskWindow:Find("panel/scrollview/items")
 	slot0.taskUIList = UIItemList.New(slot0.taskContainter, slot0.taskTpl)
 
 	slot0:register()
@@ -73,7 +73,7 @@ slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:closeTask()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("mask", slot0.taskWindow), function ()
+	onButton(slot0, slot0.taskWindow:Find("mask"), function ()
 		uv0:closeTask()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rollingBlink, function ()
@@ -141,14 +141,14 @@ slot0.initAwardList = function(slot0)
 			slot4 = uv0.totalNumList[slot3]
 
 			if uv0.remainNumList[slot3] == 0 then
-				setTextColor(uv0:findTF("num", slot2), Color.New(0.55, 0.55, 0.55, 1))
-				setOutlineColor(uv0:findTF("num", slot2), Color.New(0.26, 0.26, 0.26, 1))
+				setTextColor(slot2:Find("num"), Color.New(0.55, 0.55, 0.55, 1))
+				setOutlineColor(slot2:Find("num"), Color.New(0.26, 0.26, 0.26, 1))
 			end
 
-			setText(uv0:findTF("num", slot2), slot5 .. "/" .. slot4)
-			setActive(uv0:findTF("got", slot2), slot5 == 0)
+			setText(slot2:Find("num"), slot5 .. "/" .. slot4)
+			setActive(slot2:Find("got"), slot5 == 0)
 
-			slot6 = uv0:findTF("award_mask/award", slot2)
+			slot6 = slot2:Find("award_mask/award")
 			slot7 = uv0.awardList[slot3]
 
 			updateDrop(slot6, {
@@ -180,21 +180,21 @@ slot0.initTaskWindow = function(slot0)
 			slot11 = slot6:getConfig("award_display")[1]
 			slot12 = uv0.curDay < slot3
 
-			setText(uv0:findTF("description", slot2), slot6:getConfig("desc"))
-			setText(uv0:findTF("progress/progressText", slot2), slot7 .. "/" .. slot8)
-			setSlider(uv0:findTF("progress", slot2), 0, slot8, slot7)
-			updateDrop(uv0:findTF("award/award", slot2), {
+			setText(slot2:Find("description"), slot6:getConfig("desc"))
+			setText(slot2:Find("progress/progressText"), slot7 .. "/" .. slot8)
+			setSlider(slot2:Find("progress"), 0, slot8, slot7)
+			updateDrop(slot2:Find("award/award"), {
 				type = slot11[1],
 				id = slot11[2],
 				count = slot11[3]
 			})
-			onButton(uv0, uv0:findTF("award/Image", slot2), function ()
+			onButton(uv0, slot2:Find("award/Image"), function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 
-			slot15 = uv0:findTF("get_btn", slot2)
+			slot15 = slot2:Find("get_btn")
 
-			setActive(uv0:findTF("go_btn", slot2), slot9 == 0)
+			setActive(slot2:Find("go_btn"), slot9 == 0)
 			setActive(slot15, slot9 == 1)
 			onButton(uv0, slot14, function ()
 				uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
@@ -202,9 +202,9 @@ slot0.initTaskWindow = function(slot0)
 			onButton(uv0, slot15, function ()
 				uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 			end, SFX_PANEL)
-			setActive(uv0:findTF("finnal", slot2), slot9 == 2 and not slot12)
-			setText(uv0:findTF("lock/tip", slot2), i18n("unlock_tips", slot3))
-			setActive(uv0:findTF("lock", slot2), slot12)
+			setActive(slot2:Find("finnal"), slot9 == 2 and not slot12)
+			setText(slot2:Find("lock/tip"), i18n("unlock_tips", slot3))
+			setActive(slot2:Find("lock"), slot12)
 
 			if slot9 == 1 and not slot12 then
 				table.insert(uv0.finishItemList, slot2)
@@ -230,7 +230,7 @@ slot0.openTask = function(slot0)
 	slot0.hasClickTask = true
 
 	eachChild(slot0.taskContainter, function (slot0)
-		if isActive(uv0:findTF("finnal", slot0)) then
+		if isActive(slot0:Find("finnal")) then
 			slot0:SetAsLastSibling()
 		end
 	end)
@@ -254,8 +254,8 @@ slot0.autoFinishTask = function(slot0)
 			end)):setOnComplete(System.Action(function ()
 				uv0.alpha = 1
 
-				setActive(uv1:findTF("finnal", uv2), true)
-				uv2:SetAsLastSibling()
+				setActive(uv1:Find("finnal"), true)
+				uv1:SetAsLastSibling()
 			end))
 		end, slot1, nil)
 

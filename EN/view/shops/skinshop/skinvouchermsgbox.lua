@@ -10,22 +10,22 @@ slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 	setActive(slot0.confirmBtn, false)
 
-	slot0.realPriceBtn = slot0:findTF("window/button_container/real_price")
-	slot0.discountPriceBtn = slot0:findTF("window/button_container/discount_price")
+	slot0.realPriceBtn = slot0._tf:Find("window/button_container/real_price")
+	slot0.discountPriceBtn = slot0._tf:Find("window/button_container/discount_price")
 
 	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 
-	slot0.nonUseBtn = slot0:findTF("window/frame/option/nonuse")
-	slot0.useBtn = slot0:findTF("window/frame/option/use")
-	slot0.scrollrect = slot0:findTF("window/frame/scrollrect")
-	slot0.optionTr = slot0:findTF("window/frame/option")
-	slot0.switchBtn = slot0:findTF("window/frame/option/use/link")
-	slot0.tipBar = slot0:findTF("window/frame/tipBar")
-	slot0.tipText = slot0:findTF("Text", slot0.tipBar)
-	slot0.linkText = slot0:findTF("window/frame/option/use/link/Text"):GetComponent(typeof(Text))
+	slot0.nonUseBtn = slot0._tf:Find("window/frame/option/nonuse")
+	slot0.useBtn = slot0._tf:Find("window/frame/option/use")
+	slot0.scrollrect = slot0._tf:Find("window/frame/scrollrect")
+	slot0.optionTr = slot0._tf:Find("window/frame/option")
+	slot0.switchBtn = slot0._tf:Find("window/frame/option/use/link")
+	slot0.tipBar = slot0._tf:Find("window/frame/tipBar")
+	slot0.tipText = slot0.tipBar:Find("Text")
+	slot0.linkText = slot0._tf:Find("window/frame/option/use/link/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
-	setText(slot0:findTF("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
+	setText(slot0._tf:Find("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
+	setText(slot0._tf:Find("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
 end
 
 slot0.RegisterBtn = function(slot0, slot1)
@@ -125,8 +125,10 @@ end
 
 slot0.UpdateItem = function(slot0, slot1)
 	slot0.itemTrs = {}
+	slot4 = slot0._tf
+	slot5 = slot0._tf
 
-	UIItemList.StaticAlign(slot0:findTF("window/frame/scrollrect/list"), slot0:findTF("window/frame/left"), #slot1.itemList, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot4:Find("window/frame/scrollrect/list"), slot5:Find("window/frame/left"), #slot1.itemList, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:FlushItem(uv1[slot1 + 1], slot2)
 		end

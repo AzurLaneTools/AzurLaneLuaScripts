@@ -7,25 +7,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.kickAllBtn = slot0:findTF("frame/public")
-	slot0.closeAccessBtn = slot0:findTF("frame/onkey")
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot1 = slot0:findTF("frame/cnt/Text")
+	slot0.kickAllBtn = slot0._tf:Find("frame/public")
+	slot0.closeAccessBtn = slot0._tf:Find("frame/onkey")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot1 = slot0._tf:Find("frame/cnt/Text")
 	slot0.peopleCntTxt = slot1:GetComponent(typeof(Text))
 	slot0.toggles = {
-		slot0:findTF("frame/toggles/1"),
-		slot0:findTF("frame/toggles/2")
+		slot0._tf:Find("frame/toggles/1"),
+		slot0._tf:Find("frame/toggles/2")
 	}
 	slot0.texts = {
-		slot0:findTF("frame/toggles/1/Text"):GetComponent(typeof(Text)),
-		slot0:findTF("frame/toggles/2/Text"):GetComponent(typeof(Text))
+		slot0._tf:Find("frame/toggles/1/Text"):GetComponent(typeof(Text)),
+		slot0._tf:Find("frame/toggles/2/Text"):GetComponent(typeof(Text))
 	}
 	slot0.names = {
 		i18n("island_curr_visitor"),
 		i18n("island_visitor_log")
 	}
-	slot0._scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	slot1 = slot0:findTF("frame/scrollrect4Log")
+	slot0._scrollrect = slot0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	slot1 = slot0._tf:Find("frame/scrollrect4Log")
 	slot0._scrollrectLog = slot1:GetComponent("LScrollRect")
 	slot0.scrollrects = {
 		slot0._scrollrect,
@@ -54,9 +54,9 @@ slot0.OnLoaded = function(slot0)
 		uv0:OnUpdateItem4Log(slot0, slot1)
 	end
 
-	setText(slot0:findTF("frame/public/Text"), i18n("island_kick_all"))
-	setText(slot0:findTF("frame/onkey/Text"), i18n("island_close_visit"))
-	setText(slot0:findTF("frame/cnt/label"), i18n("island_curr_people_cnt"))
+	setText(slot0._tf:Find("frame/public/Text"), i18n("island_kick_all"))
+	setText(slot0._tf:Find("frame/onkey/Text"), i18n("island_close_visit"))
+	setText(slot0._tf:Find("frame/cnt/label"), i18n("island_curr_people_cnt"))
 end
 
 slot0.OnInit = function(slot0)

@@ -7,7 +7,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot1 = slot0:findTF("loading")
+	slot1 = slot0._tf:Find("loading")
 	slot0._loadingProgress = slot1:Find("loading_bar"):GetComponent(typeof(Slider))
 	slot0._loadingProgress.value = 0
 	slot0._loadingText = slot1:Find("loading_label/percent"):GetComponent(typeof(Text))

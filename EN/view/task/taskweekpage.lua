@@ -13,7 +13,8 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot1 = slot0:findTF("task_progress")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("task_progress")
 
 	setActive(slot1, true)
 	setText(slot1:Find("title"), i18n("week_task_title_label"))

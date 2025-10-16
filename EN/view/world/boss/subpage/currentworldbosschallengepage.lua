@@ -43,9 +43,9 @@ slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.awardPage = WorldBossAwardPage.New(slot0._tf.parent.parent, slot0.event)
-	slot0.switchBtn = slot0:findTF("detail_btn")
-	slot0.archivesChallengeBtn = slot0:findTF("archives_list_btn")
-	slot0.awardBtn = slot0:findTF("main/award_btn")
+	slot0.switchBtn = slot0._tf:Find("detail_btn")
+	slot0.archivesChallengeBtn = slot0._tf:Find("archives_list_btn")
+	slot0.awardBtn = slot0._tf:Find("main/award_btn")
 
 	setActive(slot0.archivesChallengeBtn, not LOCK_WORLDBOSS_ARCHIVES)
 end
@@ -62,20 +62,20 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.archivesChallengeBtn, function ()
 		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_ARCHIVES_CHALLENGE)
 	end, SFX_PANEL)
-	onToggle(slot0, slot0:findTF("list_panel/frame/filter/toggles/world"), function (slot0)
+	onToggle(slot0, slot0._tf:Find("list_panel/frame/filter/toggles/world"), function (slot0)
 		uv0.filterFlags[1] = slot0 and WorldBoss.BOSS_TYPE_WORLD or -1
 
 		uv0:CheckToggle()
 		uv0:UpdateNonProcessList()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("point/help"), function ()
+	onButton(slot0, slot0._tf:Find("point/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help_meta.tip
 		})
 	end, SFX_PANEL)
 
-	slot0.ptBtn = WorldbossPtBtn.New(slot0:findTF("point"))
+	slot0.ptBtn = WorldbossPtBtn.New(slot0._tf:Find("point"))
 end
 
 slot0.CheckToggle = function(slot0)
@@ -84,7 +84,7 @@ slot0.CheckToggle = function(slot0)
 	if _.all(slot0.filterFlags, function (slot0)
 		return slot0 == -1
 	end) then
-		triggerToggle(slot0:findTF("list_panel/frame/filter/toggles/world"), true)
+		triggerToggle(slot0._tf:Find("list_panel/frame/filter/toggles/world"), true)
 	end
 end
 

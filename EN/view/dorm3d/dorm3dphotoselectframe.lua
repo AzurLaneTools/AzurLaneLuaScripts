@@ -5,10 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.cancelBtnTrans = slot0:findTF("cancelBtn")
-	slot0.confirmBtnTrans = slot0:findTF("selectPage/confirmBtn")
-	slot0.frameAdapter = slot0:findTF("frameAdapter")
-	slot1 = slot0:findTF("selectPage/Scroll/Viewport/Content")
+	slot1 = slot0._tf
+	slot0.cancelBtnTrans = slot1:Find("cancelBtn")
+	slot1 = slot0._tf
+	slot0.confirmBtnTrans = slot1:Find("selectPage/confirmBtn")
+	slot1 = slot0._tf
+	slot0.frameAdapter = slot1:Find("frameAdapter")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("selectPage/Scroll/Viewport/Content")
 
 	slot3 = function()
 		slot2 = uv0

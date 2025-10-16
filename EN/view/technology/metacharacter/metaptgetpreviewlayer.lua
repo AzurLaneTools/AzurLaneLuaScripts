@@ -20,18 +20,18 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	setText(slot0:findTF("Panel/BG/TitleText"), i18n("meta_pt_get_way"))
+	setText(slot0._tf:Find("Panel/BG/TitleText"), i18n("meta_pt_get_way"))
 end
 
 slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.panelTF = slot0:findTF("Panel")
-	slot0.bossBtn = slot0:findTF("BossTip", slot0.panelTF)
-	slot0.taskBtn = slot0:findTF("TaskTip", slot0.panelTF)
-	slot0.resetBtn = slot0:findTF("ResetTip", slot0.panelTF)
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.panelTF = slot0._tf:Find("Panel")
+	slot0.bossBtn = slot0.panelTF:Find("BossTip")
+	slot0.taskBtn = slot0.panelTF:Find("TaskTip")
+	slot0.resetBtn = slot0.panelTF:Find("ResetTip")
 end
 
 slot0.addListener = function(slot0)

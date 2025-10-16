@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.friendPanel = slot0:findTF("friend_panel")
-	slot0.friendTopTF = slot0:findTF("friend_view_top")
-	slot0.friendCountTF = slot0:findTF("friend_count/Text", slot0.friendTopTF)
-	slot0.friendIndexBtn = slot0:findTF("index_button", slot0.friendTopTF)
-	slot0.friendSortBtn = slot0:findTF("sort_button", slot0.friendTopTF)
-	slot0.sortImgAsc = slot0:findTF("asc", slot0.friendSortBtn)
-	slot0.sortImgDec = slot0:findTF("desc", slot0.friendSortBtn)
-	slot0.sortPanel = slot0:findTF("friend_sort_panel")
+	slot0.friendPanel = slot0._tf:Find("friend_panel")
+	slot0.friendTopTF = slot0._tf:Find("friend_view_top")
+	slot0.friendCountTF = slot0.friendTopTF:Find("friend_count/Text")
+	slot0.friendIndexBtn = slot0.friendTopTF:Find("index_button")
+	slot0.friendSortBtn = slot0.friendTopTF:Find("sort_button")
+	slot0.sortImgAsc = slot0.friendSortBtn:Find("asc")
+	slot0.sortImgDec = slot0.friendSortBtn:Find("desc")
+	slot0.sortPanel = slot0._tf:Find("friend_sort_panel")
 end
 
 slot0.OnInit = function(slot0)
@@ -100,7 +100,7 @@ end
 slot0.sortFriends = function(slot0)
 	if slot0.contextData.sortData then
 		slot0.contextData.sortData.data.func(slot0.friendVOs, slot0.dec)
-		setImageSprite(slot0:findTF("icon", slot0.friendIndexBtn), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
+		setImageSprite(slot0.friendIndexBtn:Find("icon"), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
 		setActive(slot0.sortImgAsc, slot0.dec)
 		setActive(slot0.sortImgDec, not slot0.dec)
 	end
@@ -113,7 +113,7 @@ slot0.updateFriendCount = function(slot0)
 end
 
 slot0.initFriendsSortPanel = function(slot0)
-	slot2 = slot0:getTpl("tpl", slot0:findTF("mask/content", slot0.sortPanel))
+	slot2 = slot0:getTpl("tpl", slot0.sortPanel:Find("mask/content"))
 	slot0.friendSortCfg = require("view.friend.FriendSortCfg")
 
 	for slot6, slot7 in ipairs(slot0.friendSortCfg.SORT_TAG) do
@@ -146,7 +146,7 @@ end
 
 slot0.openFriendsSortPanel = function(slot0)
 	if slot0.contextData.sortData then
-		setImageSprite(slot0:findTF("index_button/icon", slot0.sortPanel), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
+		setImageSprite(slot0.sortPanel:Find("index_button/icon"), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
 	end
 
 	setActive(slot0.sortPanel, true)

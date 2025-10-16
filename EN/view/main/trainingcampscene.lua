@@ -21,17 +21,17 @@ slot0.init = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.adaptPanel = slot0:findTF("blur_panel/adapt")
-	slot0.panelContainer = slot0:findTF("PanelContainer")
-	slot0.normalPanel = slot0:findTF("NormalPanel", slot0.panelContainer)
-	slot0.tecPanel = slot0:findTF("TecPanel", slot0.panelContainer)
-	slot0.switchToNormalBtn = slot0:findTF("SwitchToNormal")
-	slot0.switchToTecBtn = slot0:findTF("SwitchToTec")
-	slot0.switchToNormalLight = GetOrAddComponent(slot0:findTF("Light", slot0.switchToNormalBtn), "Animator")
-	slot0.switchToTecLight = GetOrAddComponent(slot0:findTF("Light", slot0.switchToTecBtn), "Animator")
-	slot0.awardMsg = slot0:findTF("ChooseAwardPanel")
-	slot0.helpBtn = slot0:findTF("HelpBtn")
-	slot0.titleTf = slot0:findTF("blur_panel/adapt/top/title")
+	slot0.adaptPanel = slot0._tf:Find("blur_panel/adapt")
+	slot0.panelContainer = slot0._tf:Find("PanelContainer")
+	slot0.normalPanel = slot0.panelContainer:Find("NormalPanel")
+	slot0.tecPanel = slot0.panelContainer:Find("TecPanel")
+	slot0.switchToNormalBtn = slot0._tf:Find("SwitchToNormal")
+	slot0.switchToTecBtn = slot0._tf:Find("SwitchToTec")
+	slot0.switchToNormalLight = GetOrAddComponent(slot0.switchToNormalBtn:Find("Light"), "Animator")
+	slot0.switchToTecLight = GetOrAddComponent(slot0.switchToTecBtn:Find("Light"), "Animator")
+	slot0.awardMsg = slot0._tf:Find("ChooseAwardPanel")
+	slot0.helpBtn = slot0._tf:Find("HelpBtn")
+	slot0.titleTf = slot0._tf:Find("blur_panel/adapt/top/title")
 
 	GetComponent(findTF(slot0.titleTf, "img"), typeof(Image)):SetNativeSize()
 end
@@ -47,7 +47,9 @@ slot0.initData = function(slot0)
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("top/back_button", slot0.adaptPanel), function ()
+	slot3 = slot0.adaptPanel
+
+	onButton(slot0, slot3:Find("top/back_button"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.switchToNormalBtn, function ()
@@ -97,16 +99,16 @@ slot0.updateSwitchBtns = function(slot0)
 		setActive(slot0.switchToTecBtn, true)
 	end
 
-	setActive(slot0:findTF("Tag", slot0.switchToNormalBtn), slot2)
-	setActive(slot0:findTF("Tag", slot0.switchToTecBtn), slot4)
+	setActive(slot0.switchToNormalBtn:Find("Tag"), slot2)
+	setActive(slot0.switchToTecBtn:Find("Tag"), slot4)
 end
 
 slot0.updateSwitchBtnsTag = function(slot0)
 	slot1, slot2 = TechnologyConst.isNormalActOn()
 	slot3, slot4 = TechnologyConst.isTecActOn()
 
-	setActive(slot0:findTF("Tag", slot0.switchToNormalBtn), slot2)
-	setActive(slot0:findTF("Tag", slot0.switchToTecBtn), slot4)
+	setActive(slot0.switchToNormalBtn:Find("Tag"), slot2)
+	setActive(slot0.switchToTecBtn:Find("Tag"), slot4)
 
 	slot0.switchToNormalLight.enabled = PlayerPrefs.GetInt("TrainCamp_Tec_Catchup_First_Tag", 0) == 0
 	slot0.switchToTecLight.enabled = slot7 == 0
@@ -137,16 +139,17 @@ slot0.autoSelectPanel = function(slot0)
 end
 
 slot0.initNormalPanel = function(slot0)
-	slot1 = slot0:findTF("ToggleList", slot0.normalPanel)
+	slot1 = slot0.normalPanel:Find("ToggleList")
 	slot0.normalToggles = {
-		slot0:findTF("Phase1", slot1),
-		slot0:findTF("Phase2", slot1),
-		slot0:findTF("Phase3", slot1)
+		slot1:Find("Phase1"),
+		slot1:Find("Phase2"),
+		slot1:Find("Phase3")
 	}
+	slot4 = slot0.normalPanel
+	slot5 = slot4
 	slot6 = "ScrollRect/TaskTpl"
-	slot0.normalTaskUIItemList = UIItemList.New(slot0:findTF("ScrollRect/Content", slot0.normalPanel), slot0:findTF(slot6, slot0.normalPanel))
-	slot5 = slot0.normalPanel
-	slot0.normalProgressPanel = slot0:findTF("ProgressPanel", slot5)
+	slot0.normalTaskUIItemList = UIItemList.New(slot0.normalPanel:Find("ScrollRect/Content"), slot4.Find(slot5, slot6))
+	slot0.normalProgressPanel = slot0.normalPanel:Find("ProgressPanel")
 
 	for slot5, slot6 in pairs(slot0.normalToggles) do
 		onToggle(slot0, slot6, function (slot0)
@@ -246,9 +249,9 @@ end
 slot0.initTecPanel = function(slot0)
 	slot1 = slot0.tecTaskActivity:getConfig("config_data")[3]
 	slot0.allTechPhase = #slot0.tecTaskActivity:getConfig("config_data")[3] + 1
-	slot3 = slot0:findTF("ToggleList", slot0.tecPanel)
+	slot3 = slot0.tecPanel:Find("ToggleList")
 
-	UIItemList.StaticAlign(slot3, slot0:findTF("Phase1", slot3), slot0.allTechPhase, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot3, slot3:Find("Phase1"), slot0.allTechPhase, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.name = "Phase" .. slot1
 
@@ -286,8 +289,8 @@ slot0.initTecPanel = function(slot0)
 		end
 	end)
 
-	slot0.tecTaskUIItemList = UIItemList.New(slot0:findTF("ScrollRect/Content", slot0.tecPanel), slot0:findTF("ScrollRect/TaskTpl", slot0.tecPanel))
-	slot0.tecProgressPanel = slot0:findTF("ProgressPanel", slot0.tecPanel)
+	slot0.tecTaskUIItemList = UIItemList.New(slot0.tecPanel:Find("ScrollRect/Content"), slot0.tecPanel:Find("ScrollRect/TaskTpl"))
+	slot0.tecProgressPanel = slot0.tecPanel:Find("ProgressPanel")
 end
 
 slot0.updateTecPanel = function(slot0, slot1)

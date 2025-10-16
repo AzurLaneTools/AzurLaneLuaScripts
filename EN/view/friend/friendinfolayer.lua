@@ -26,26 +26,26 @@ end
 slot0.init = function(slot0)
 	slot0:OverlayPanel(slot0._tf)
 
-	slot0.frame = slot0:findTF("frame")
-	slot0.iconTF = slot0:findTF("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
-	slot0.starsTF = slot0:findTF("frame/left_bg/icon_bg/stars")
-	slot0.starTF = slot0:findTF("frame/left_bg/icon_bg/stars/star")
-	slot0.playerNameTF = slot0:findTF("frame/left_bg/name_bg/Text"):GetComponent(typeof(Text))
-	slot0.levelTF = slot0:findTF("frame/left_bg/icon_bg/lv/Text"):GetComponent(typeof(Text))
-	slot0.resumeEmblem = slot0:findTF("frame/left_bg/emblem")
-	slot0.resumeRank = slot0:findTF("frame/left_bg/emblem/Text"):GetComponent(typeof(Text))
-	slot0.informPanel = slot0:findTF("inform_panel")
-	slot0.toggleTpl = slot0:findTF("inform_panel/frame/window/main/Toggle")
-	slot0.buttonTpl = slot0:findTF("inform_panel/frame/window/main/button")
-	slot0.toggleContainer = slot0:findTF("inform_panel/frame/window/main/toggles")
-	slot0.confirmBtn = slot0:findTF("frame/window/buttons/confirm_btn", slot0.informPanel)
-	slot0.cancelBtn = slot0:findTF("frame/window/buttons/cancel_btn", slot0.informPanel)
-	slot0.backBtn = slot0:findTF("inform_panel/frame/window/top/btnBack")
-	slot0.nameTF = slot0:findTF("inform_panel/frame/window/name"):GetComponent(typeof(Text))
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.iconTF = slot0._tf:Find("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
+	slot0.starsTF = slot0._tf:Find("frame/left_bg/icon_bg/stars")
+	slot0.starTF = slot0._tf:Find("frame/left_bg/icon_bg/stars/star")
+	slot0.playerNameTF = slot0._tf:Find("frame/left_bg/name_bg/Text"):GetComponent(typeof(Text))
+	slot0.levelTF = slot0._tf:Find("frame/left_bg/icon_bg/lv/Text"):GetComponent(typeof(Text))
+	slot0.resumeEmblem = slot0._tf:Find("frame/left_bg/emblem")
+	slot0.resumeRank = slot0._tf:Find("frame/left_bg/emblem/Text"):GetComponent(typeof(Text))
+	slot0.informPanel = slot0._tf:Find("inform_panel")
+	slot0.toggleTpl = slot0._tf:Find("inform_panel/frame/window/main/Toggle")
+	slot0.buttonTpl = slot0._tf:Find("inform_panel/frame/window/main/button")
+	slot0.toggleContainer = slot0._tf:Find("inform_panel/frame/window/main/toggles")
+	slot0.confirmBtn = slot0.informPanel:Find("frame/window/buttons/confirm_btn")
+	slot0.cancelBtn = slot0.informPanel:Find("frame/window/buttons/cancel_btn")
+	slot0.backBtn = slot0._tf:Find("inform_panel/frame/window/top/btnBack")
+	slot0.nameTF = slot0._tf:Find("inform_panel/frame/window/name"):GetComponent(typeof(Text))
 
 	if slot0.contextData.pos then
 		if slot0.contextData.backyardView then
-			slot2 = slot0:findTF("frame_for_backyard")
+			slot2 = slot0._tf:Find("frame_for_backyard")
 			slot2.position = slot0.contextData.pos
 			slot2.localPosition = Vector3(slot2.localPosition.x, slot2.localPosition.y, 0)
 		else
@@ -67,11 +67,11 @@ slot0.Init = function(slot0)
 	slot1 = slot0.contextData.backyardView
 
 	slot0:initInfo()
-	setActive(slot0:findTF("frame_for_backyard"), slot1)
-	setActive(slot0:findTF("frame"), not slot1)
+	setActive(slot0._tf:Find("frame_for_backyard"), slot1)
+	setActive(slot0._tf:Find("frame"), not slot1)
 
 	slot2 = nil
-	slot2 = (not slot1 or slot0:findTF("frame_for_backyard/right_bg")) and slot0:findTF("frame/right_bg")
+	slot2 = (not slot1 or slot0._tf:Find("frame_for_backyard/right_bg")) and slot0._tf:Find("frame/right_bg")
 	slot0.btnTFs = {}
 
 	for slot6, slot7 in ipairs(slot0:GetBtnTags()) do
@@ -109,7 +109,7 @@ slot0.Init = function(slot0)
 		setActive(slot0.btnTFs[3], false)
 	end
 
-	setActive(slot0:findTF("frame/left_bg", false))
+	setActive(slot0._tf:Find("frame/left_bg"), false)
 end
 
 slot0.openInfromPanel = function(slot0)

@@ -58,7 +58,7 @@ slot0.init = function(slot0)
 	slot0.onSelected = slot1.onSelected or function (slot0, slot1)
 		warning("not implemented.")
 	end
-	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
 	slot0.settingBtn = slot0.blurPanel:Find("adapt/left_length/frame/setting")
 	slot0.settingPanel = DockyardQuickSelectSettingPage.New(slot0._tf, slot0.event)
 
@@ -103,9 +103,9 @@ slot0.init = function(slot0)
 		uv0:filter()
 	end)
 
-	slot0.modLockFilter = slot0:findTF("mod_flter_lock", slot0.topPanel)
-	slot0.modLeveFilter = slot0:findTF("mod_flter_level", slot0.topPanel)
-	slot0.energyDescTF = slot0:findTF("energy_desc")
+	slot0.modLockFilter = slot0.topPanel:Find("mod_flter_lock")
+	slot0.modLeveFilter = slot0.topPanel:Find("mod_flter_level")
+	slot0.energyDescTF = slot0._tf:Find("energy_desc")
 	slot0.energyDescTextTF = slot0.energyDescTF:Find("Text")
 	slot0.selectPanel = slot0.blurPanel:Find("select_panel")
 	slot0.bottomTipsText = slot0.selectPanel:Find("tip")
@@ -167,10 +167,10 @@ slot0.init = function(slot0)
 	if slot0.contextData.priorEquipUpShipIDList and slot0.contextData.priorMode then
 		setActive(slot0.tipPanel, true)
 
-		slot3 = slot0:findTF("EquipUP", slot0.tipPanel)
+		slot3 = slot0.tipPanel:Find("EquipUP")
 
 		setText(slot3, i18n("fightfail_choiceequip"))
-		setText(slot0:findTF("ShipUP", slot0.tipPanel), i18n("fightfail_choicestrengthen"))
+		setText(slot0.tipPanel:Find("ShipUP"), i18n("fightfail_choicestrengthen"))
 		setActive(slot3, slot0.contextData.priorMode == uv0.PRIOR_MODE_EQUIP_UP)
 		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
@@ -201,11 +201,11 @@ slot0.init = function(slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
 
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
 
@@ -349,7 +349,7 @@ slot0.SwitchContainerDisplay = function(slot0)
 			end
 
 			uv0.initDic.ship = true
-			uv0.shipContainer = uv0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
+			uv0.shipContainer = uv0._tf:Find("main/ship_container/ships"):GetComponent("LScrollRect")
 			uv0.shipContainer.enabled = true
 			uv0.shipContainer.decelerationRate = 0.07
 
@@ -369,7 +369,7 @@ slot0.SwitchContainerDisplay = function(slot0)
 				uv0:updateSelected()
 			end
 
-			uv0.shipLayout = uv0:findTF("main/ship_container/ships")
+			uv0.shipLayout = uv0._tf:Find("main/ship_container/ships")
 			uv0.scrollItems = {}
 			uv0.cardItemDic = {}
 
@@ -438,8 +438,8 @@ slot0.SwitchContainerDisplay = function(slot0)
 			end)
 
 			uv0.isFormTactics = uv0.contextData.prevPage == "NewNavalTacticsMediator"
-			slot1 = uv0:findTF("off", uv0.attrBtn):GetComponent("Image")
-			slot2 = uv0:findTF("on", uv0.attrBtn):GetComponent("Image")
+			slot1 = uv0.attrBtn:Find("off"):GetComponent("Image")
+			slot2 = uv0.attrBtn:Find("on"):GetComponent("Image")
 
 			if uv0.isFormTactics then
 				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot1)
@@ -1091,7 +1091,7 @@ slot0.filterCommon = function(slot0)
 	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
-	setText(slot0:findTF("Image", slot0.sortBtn), i18n(slot5))
+	setText(slot0.sortBtn:Find("Image"), i18n(slot5))
 end
 
 slot0.SortShips = function(slot0, slot1)
@@ -1153,7 +1153,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.stampBtn, function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(1)
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("back", slot0.topPanel), function ()
+	onButton(slot0, slot0.topPanel:Find("back"), function ()
 		uv0:back()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.sortBtn, function ()
@@ -1527,7 +1527,7 @@ slot0.TriggerCard = function(slot0, slot1)
 
 	slot9 = slot0.cardItemDic[slot2] and slot0.scrollItems[slot8]
 
-	if (slot9 and slot9.shipVO.id == slot6.id and slot9 or nil) and not getBounds(slot0:findTF("main/ship_container")):Intersects(getBounds(slot10.tr)) then
+	if (slot9 and slot9.shipVO.id == slot6.id and slot9 or nil) and not getBounds(slot0._tf:Find("main/ship_container")):Intersects(getBounds(slot10.tr)) then
 		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + slot1 * (slot0.shipContainer:HeadIndexToValue(7) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 	end
 
@@ -2019,7 +2019,7 @@ slot0.willExit = function(slot0)
 end
 
 slot0.uiStartAnimating = function(slot0)
-	slot1 = slot0:findTF("back", slot0.topPanel)
+	slot1 = slot0.topPanel:Find("back")
 	slot2 = 0
 	slot3 = 0.3
 

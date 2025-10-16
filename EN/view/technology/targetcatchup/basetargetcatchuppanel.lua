@@ -37,12 +37,12 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.choosePanel = slot0:findTF("ChoosePanel")
-	slot0.selectedImgUIItemList = UIItemList.New(slot0:findTF("SelectedImgList", slot0.choosePanel), slot0:findTF("SelectedImgTpl", slot0.choosePanel))
+	slot0.choosePanel = slot0._tf:Find("ChoosePanel")
+	slot0.selectedImgUIItemList = UIItemList.New(slot0.choosePanel:Find("SelectedImgList"), slot0.choosePanel:Find("SelectedImgTpl"))
 
 	slot0.selectedImgUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("Selected", slot2), slot1 + 1 == uv0.curSelectedIndex)
+			setActive(slot2:Find("Selected"), slot1 + 1 == uv0.curSelectedIndex)
 
 			if slot1 == uv0.curSelectedIndex then
 				setImageAlpha(slot3, 0)
@@ -53,7 +53,7 @@ slot0.initUI = function(slot0)
 	end)
 	slot0.selectedImgUIItemList:align(#slot0.charIDList)
 
-	slot0.charUIItemList = UIItemList.New(slot0:findTF("CharList", slot0.choosePanel), slot0:findTF("CharTpl", slot0.choosePanel))
+	slot0.charUIItemList = UIItemList.New(slot0.choosePanel:Find("CharList"), slot0.choosePanel:Find("CharTpl"))
 
 	slot0.charUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -69,7 +69,7 @@ slot0.initUI = function(slot0)
 	end)
 	slot0.charUIItemList:align(#slot0.charIDList)
 
-	slot0.confirmBtn = slot0:findTF("ConfirmBtn", slot0.choosePanel)
+	slot0.confirmBtn = slot0.choosePanel:Find("ConfirmBtn")
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.curSelectedIndex and uv0.curSelectedIndex ~= 0 then
@@ -85,24 +85,24 @@ slot0.initUI = function(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot0.proTitle = slot0:findTF("ProgressTitle/Text", slot0.choosePanel)
+	slot0.proTitle = slot0.choosePanel:Find("ProgressTitle/Text")
 
 	setText(slot0.proTitle, i18n("tec_target_catchup_progress"))
 
-	slot0.ssrProgress = slot0:findTF("ProgressTitle/Progress_SSR", slot0.choosePanel)
-	slot0.urProgress = slot0:findTF("ProgressTitle/Progress_UR", slot0.choosePanel)
-	slot0.showPanel = slot0:findTF("ShowPanel", slot0.targetCatchupPanel)
-	slot0.showBG = slot0:findTF("BG", slot0.showPanel)
-	slot0.nameText = slot0:findTF("NameText", slot0.showPanel)
-	slot0.progressText = slot0:findTF("Progress/ProgressText", slot0.showPanel)
-	slot0.tipText = slot0:findTF("Progress/Text", slot0.showPanel)
+	slot0.ssrProgress = slot0.choosePanel:Find("ProgressTitle/Progress_SSR")
+	slot0.urProgress = slot0.choosePanel:Find("ProgressTitle/Progress_UR")
+	slot0.showPanel = slot0._tf:Find("ShowPanel")
+	slot0.showBG = slot0.showPanel:Find("BG")
+	slot0.nameText = slot0.showPanel:Find("NameText")
+	slot0.progressText = slot0.showPanel:Find("Progress/ProgressText")
+	slot0.tipText = slot0.showPanel:Find("Progress/Text")
 
 	setText(slot0.tipText, i18n("tec_target_catchup_progress"))
 
-	slot0.selectedImg = slot0:findTF("Selected", slot0.showPanel)
-	slot0.giveupBtn = slot0:findTF("GiveupBtn", slot0.showPanel)
-	slot0.finishedImg = slot0:findTF("Finished", slot0.showPanel)
-	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.targetCatchupPanel)
+	slot0.selectedImg = slot0.showPanel:Find("Selected")
+	slot0.giveupBtn = slot0.showPanel:Find("GiveupBtn")
+	slot0.finishedImg = slot0.showPanel:Find("Finished")
+	slot0.helpBtn = slot0._tf:Find("HelpBtn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -110,16 +110,16 @@ slot0.initUI = function(slot0)
 			helps = pg.gametip.tec_target_catchup_help_tip.tip
 		})
 	end, SFX_PANEL)
-	setText(slot0:findTF("FinishAll/BG/Text", slot0.choosePanel), i18n("tec_target_catchup_all_finish_tip"))
-	setText(slot0:findTF("CharListBG/SSRTag/Text", slot0.choosePanel), i18n("tec_target_catchup_pry_char"))
+	setText(slot0.choosePanel:Find("FinishAll/BG/Text"), i18n("tec_target_catchup_all_finish_tip"))
+	setText(slot0.choosePanel:Find("CharListBG/SSRTag/Text"), i18n("tec_target_catchup_pry_char"))
 
 	if #slot0.urList > 0 then
-		setText(slot0:findTF("FinishPart/BG/Text", slot0.choosePanel), i18n("tec_target_catchup_dr_finish_tip"))
-		setText(slot0:findTF("CharListBG/URTag/Text", slot0.choosePanel), i18n("tec_target_catchup_dr_char"))
+		setText(slot0.choosePanel:Find("FinishPart/BG/Text"), i18n("tec_target_catchup_dr_finish_tip"))
+		setText(slot0.choosePanel:Find("CharListBG/URTag/Text"), i18n("tec_target_catchup_dr_char"))
 	end
 
 	for slot8, slot9 in ipairs(slot0.urList) do
-		setText(slot0:findTF("Finish_" .. slot9 .. "/BG/Text", slot0.choosePanel), i18n("tec_target_catchup_dr_finish_tip"))
+		setText(slot0.choosePanel:Find("Finish_" .. slot9 .. "/BG/Text"), i18n("tec_target_catchup_dr_finish_tip"))
 	end
 end
 
@@ -134,15 +134,15 @@ slot0.updateTargetCatchupPage = function(slot0)
 end
 
 slot0.updateCharTpl = function(slot0, slot1, slot2)
-	setText(slot0:findTF("PrintNum/Text", slot2), i18n("tec_target_need_print"))
+	setText(slot2:Find("PrintNum/Text"), i18n("tec_target_need_print"))
 
 	slot8 = slot0.charIDList[slot1]
 	slot11 = pg.ship_data_blueprint[slot8].strengthen_item
 
-	setText(slot0:findTF("PrintNum/NumText", slot2), math.max(slot0.configCatchup[slot0.tecID].blueprint_max[slot1] - (slot0.bayProxy:findShipByGroup(slot8) and math.floor(slot0:getShipBluePrintCurExp(slot0.technologyProxy:getBluePrintVOByGroupID(slot8)) / Item.getConfigData(slot11).usage_arg[1]) or 0) - slot0.bagProxy:getItemCountById(slot11), 0))
-	setText(slot0:findTF("NameText", slot2), ShipGroup.getDefaultShipNameByGroupID(slot8))
-	setActive(slot0:findTF("LevelText", slot2), slot9)
-	setActive(slot0:findTF("NotGetTag", slot2), not slot9)
+	setText(slot2:Find("PrintNum/NumText"), math.max(slot0.configCatchup[slot0.tecID].blueprint_max[slot1] - (slot0.bayProxy:findShipByGroup(slot8) and math.floor(slot0:getShipBluePrintCurExp(slot0.technologyProxy:getBluePrintVOByGroupID(slot8)) / Item.getConfigData(slot11).usage_arg[1]) or 0) - slot0.bagProxy:getItemCountById(slot11), 0))
+	setText(slot2:Find("NameText"), ShipGroup.getDefaultShipNameByGroupID(slot8))
+	setActive(slot2:Find("LevelText"), slot9)
+	setActive(slot2:Find("NotGetTag"), not slot9)
 
 	if slot9 then
 		slot17 = slot0.technologyProxy:getBluePrintVOByGroupID(slot8)
@@ -169,7 +169,7 @@ slot0.updateShowPanel = function(slot0)
 	setActive(slot0.selectedImg, not slot6)
 	onButton(slot0, slot0.selectedImg, function ()
 		uv0:updateChoosePanel()
-		setActive(uv0:findTF("ProgressTitle", uv0.choosePanel), false)
+		setActive(uv0.choosePanel:Find("ProgressTitle"), false)
 	end, SFX_PANEL)
 end
 
@@ -180,24 +180,23 @@ slot0.updateChoosePanel = function(slot0)
 	slot1 = slot0.technologyProxy:getCatchupData(slot0.tecID)
 
 	if slot0.state == TechnologyCatchup.STATE_FINISHED_ALL then
-		setActive(slot0:findTF("FinishAll", slot0.choosePanel), true)
-		setActive(slot0:findTF("ProgressTitle", slot0.choosePanel), false)
+		setActive(slot0.choosePanel:Find("FinishAll"), true)
+		setActive(slot0.choosePanel:Find("ProgressTitle"), false)
 	elseif #slot0.urList > 0 then
-		setActive(slot0:findTF("FinishAll", slot0.choosePanel), false)
+		setActive(slot0.choosePanel:Find("FinishAll"), false)
 
 		slot7 = "FinishPart"
-		slot8 = slot0.choosePanel
 
-		setActive(slot0:findTF(slot7, slot8), slot1:isFinishSSR())
+		setActive(slot0.choosePanel:Find(slot7), slot1:isFinishSSR())
 
 		for slot7, slot8 in ipairs(slot0.urList) do
-			setActive(slot0:findTF("Finish_" .. slot8, slot0.choosePanel), slot1:isFinish(slot8))
+			setActive(slot0.choosePanel:Find("Finish_" .. slot8), slot1:isFinish(slot8))
 		end
 	end
 end
 
 slot0.updateProgress = function(slot0, slot1)
-	setActive(slot0:findTF("ProgressTitle", slot0.choosePanel), true)
+	setActive(slot0.choosePanel:Find("ProgressTitle"), true)
 
 	slot3 = slot0.technologyProxy:getCatchupData(slot0.tecID):getTargetNum(slot1)
 	slot4 = slot0:getMaxNum(slot1)
@@ -205,11 +204,11 @@ slot0.updateProgress = function(slot0, slot1)
 	if slot0:isUR(slot1) then
 		setActive(slot0.urProgress, true)
 		setActive(slot0.ssrProgress, false)
-		setText(slot0:findTF("Text", slot0.urProgress), slot3 .. "/" .. slot4)
+		setText(slot0.urProgress:Find("Text"), slot3 .. "/" .. slot4)
 	else
 		setActive(slot0.urProgress, false)
 		setActive(slot0.ssrProgress, true)
-		setText(slot0:findTF("Text", slot0.ssrProgress), slot3 .. "/" .. slot4)
+		setText(slot0.ssrProgress:Find("Text"), slot3 .. "/" .. slot4)
 	end
 end
 

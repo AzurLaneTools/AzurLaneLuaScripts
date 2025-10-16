@@ -1,11 +1,11 @@
 slot0 = class("NewServerMainPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.time = slot0:findTF("time", slot0.bg)
-	slot0.shopBtn = slot0:findTF("btn_list/shop", slot0.bg)
-	slot0.fightBtn = slot0:findTF("btn_list/fight", slot0.bg)
-	slot0.buildBtn = slot0:findTF("btn_list/build", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.time = slot0.bg:Find("time")
+	slot0.shopBtn = slot0.bg:Find("btn_list/shop")
+	slot0.fightBtn = slot0.bg:Find("btn_list/fight")
+	slot0.buildBtn = slot0.bg:Find("btn_list/build")
 end
 
 slot0.OnFirstFlush = function(slot0)

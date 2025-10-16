@@ -35,16 +35,16 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.tpl = slot0:findTF("adpter/tag/list/tpl")
-	slot0.container = slot0:findTF("adpter/tag/list")
-	slot0.pageContainer = slot0:findTF("pages")
-	slot0.backBtn = slot0:findTF("adpter/top/fanhui")
-	slot0.homeBtn = slot0:findTF("adpter/top/help")
-	slot0.goldTxt = slot0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
-	slot1 = slot0:findTF("adpter/top/res_gem/Text")
-	slot0.gemTxt = slot1:GetComponent(typeof(Text))
-	slot0.gemAddBtn = slot0:findTF("adpter/top/res_gem/jiahao")
-	slot0.goldAddBtn = slot0:findTF("adpter/top/res_gold/jiahao")
+	slot0.tpl = slot0._tf:Find("adpter/tag/list/tpl")
+	slot0.container = slot0._tf:Find("adpter/tag/list")
+	slot0.pageContainer = slot0._tf:Find("pages")
+	slot0.backBtn = slot0._tf:Find("adpter/top/fanhui")
+	slot0.homeBtn = slot0._tf:Find("adpter/top/help")
+	slot0.goldTxt = slot0._tf:Find("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
+	slot0.gemTxt = slot0._tf:Find("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
+	slot0.gemAddBtn = slot0._tf:Find("adpter/top/res_gem/jiahao")
+	slot1 = slot0._tf
+	slot0.goldAddBtn = slot1:Find("adpter/top/res_gold/jiahao")
 	slot0.tags = {
 		[BackYardConst.THEME_TEMPLATE_TYPE_SHOP] = i18n("backyard_theme_shop_title"),
 		[BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM] = i18n("backyard_theme_mine_title"),

@@ -938,11 +938,9 @@ bindComponent = function(slot0, slot1)
 		return
 	end
 
-	slot3 = slot2.componentList
-	slot5 = slot2.GetComponentValues(slot2)
-	slot6 = slot2.componentList
+	slot4 = slot2:GetComponentValues():ToTable()
 
-	for slot10 = 0, slot2.GetLuaNames(slot2).Length - 1 do
-		slot0[slot4[slot10]] = slot5[slot10]
+	for slot8, slot9 in ipairs(slot2:GetLuaNames():ToTable()) do
+		slot0[slot9] = slot4[slot8]
 	end
 end

@@ -5,23 +5,22 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.mainTF = slot0:findTF("adapt")
-	slot0.bg = slot0:findTF("bg")
-	slot0.bottom = slot0:findTF("bottom", slot0.mainTF)
-	slot4 = slot0.bottom
-	slot0.hpBar = slot0:findTF("progress", slot4)
+	slot0.mainTF = slot0._tf:Find("adapt")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.bottom = slot0.mainTF:Find("bottom")
+	slot0.hpBar = slot0.bottom:Find("progress")
 	slot0.barList = {}
 
 	for slot4 = 1, 4 do
-		slot0.barList[slot4] = slot0:findTF(slot4, slot0.hpBar)
+		slot0.barList[slot4] = slot0.hpBar:Find(slot4)
 	end
 
-	slot0.progressDigit = slot0:findTF("digit", slot0.bottom)
+	slot0.progressDigit = slot0.bottom:Find("digit")
 	slot0.digitbig = slot0.progressDigit:Find("big")
 	slot0.digitsmall = slot0.progressDigit:Find("small")
-	slot0.left = slot0:findTF("left", slot0.mainTF)
-	slot0.right = slot0:findTF("right", slot0.mainTF)
-	slot0.rankTF = slot0:findTF("rank", slot0.right)
+	slot0.left = slot0.mainTF:Find("left")
+	slot0.right = slot0.mainTF:Find("right")
+	slot0.rankTF = slot0.right:Find("rank")
 	slot4 = "layout"
 	slot0.rankList = CustomIndexLayer.Clone2Full(slot0.rankTF:Find(slot4), 3)
 
@@ -32,21 +31,21 @@ slot0.init = function(slot0)
 	slot0.stageList = {}
 
 	for slot4 = 1, 4 do
-		slot0.stageList[slot4] = slot0:findTF(slot4, slot0.right)
+		slot0.stageList[slot4] = slot0.right:Find(slot4)
 	end
 
-	slot0.stageSP = slot0:findTF("6", slot0.right)
+	slot0.stageSP = slot0.right:Find("6")
 
 	if not IsNil(slot0.stageSP) then
 		setActive(slot0.stageSP, false)
 	end
 
-	slot0.awardFlash = slot0:findTF("ptaward/flash", slot0.right)
-	slot0.awardBtn = slot0:findTF("ptaward/button", slot0.right)
-	slot0.ptScoreTxt = slot0:findTF("ptaward/Text", slot0.right)
-	slot0.top = slot0:findTF("top", slot0.mainTF)
-	slot0.ticketNum = slot0:findTF("ticket/Text", slot0.top)
-	slot0.helpBtn = slot0:findTF("help", slot0.top)
+	slot0.awardFlash = slot0.right:Find("ptaward/flash")
+	slot0.awardBtn = slot0.right:Find("ptaward/button")
+	slot0.ptScoreTxt = slot0.right:Find("ptaward/Text")
+	slot0.top = slot0.mainTF:Find("top")
+	slot0.ticketNum = slot0.top:Find("ticket/Text")
+	slot0.helpBtn = slot0.top:Find("help")
 
 	onButton(slot0, slot0.top:Find("back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
@@ -75,7 +74,8 @@ slot0.UpdateDropItems = function(slot0)
 	slot2 = slot0.contextData.DisplayItems or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		slot6 = slot0:findTF("milestone/item", slot0.barList[slot4])
+		slot6 = slot0.barList[slot4]
+		slot6 = slot6:Find("milestone/item")
 
 		updateDrop(slot6:GetChild(0), {
 			type = slot0.contextData.DisplayItems[5 - slot4][1],
@@ -102,15 +102,15 @@ slot0.UpdatePage = function(slot0)
 	for slot6 = 1, 4 do
 		slot7 = slot0.barList[slot6]
 
-		setSlider(slot0:findTF("Slider", slot7), 0, 2500, math.min(math.max(slot1 - (slot6 - 1) * 2500, 0), 2500))
+		setSlider(slot7:Find("Slider"), 0, 2500, math.min(math.max(slot1 - (slot6 - 1) * 2500, 0), 2500))
 
 		slot8 = slot0.contextData.mileStones[5 - slot6]
 
-		setActive(slot0:findTF("milestone/item", slot7), not slot8)
-		setActive(slot0:findTF("milestone/time", slot7), slot8)
+		setActive(slot7:Find("milestone/item"), not slot8)
+		setActive(slot7:Find("milestone/time"), slot8)
 
 		if slot8 then
-			setText(slot0:findTF("milestone/time/Text", slot7), slot2:STimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
+			setText(slot7:Find("milestone/time/Text"), slot2:STimeDescC(slot0.contextData.mileStones[5 - slot6], "%m/%d/%H:%M"))
 		end
 	end
 

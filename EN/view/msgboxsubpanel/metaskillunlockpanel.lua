@@ -20,15 +20,15 @@ slot0.UpdateView = function(slot0, slot1)
 end
 
 slot0.findUI = function(slot0)
-	slot0.tipText = slot0:findTF("Tip")
-	slot0.materialTpl = slot0:findTF("Material")
-	slot0.materialContainer = slot0:findTF("MaterialContainer")
+	slot0.tipText = slot0._tf:Find("Tip")
+	slot0.materialTpl = slot0._tf:Find("Material")
+	slot0.materialContainer = slot0._tf:Find("MaterialContainer")
 	slot0.uiItemList = UIItemList.New(slot0.materialContainer, slot0.materialTpl)
-	slot0.cancelBtn = slot0:findTF("Buttons/CancelBtn")
-	slot0.confirmBtn = slot0:findTF("Buttons/ConfirmBtn")
+	slot0.cancelBtn = slot0._tf:Find("Buttons/CancelBtn")
+	slot0.confirmBtn = slot0._tf:Find("Buttons/ConfirmBtn")
 
-	setText(slot0:findTF("Text", slot0.cancelBtn), i18n("word_cancel"))
-	setText(slot0:findTF("Text", slot0.confirmBtn), i18n("word_ok"))
+	setText(slot0.cancelBtn:Find("Text"), i18n("word_cancel"))
+	setText(slot0.confirmBtn:Find("Text"), i18n("word_ok"))
 end
 
 slot0.initData = function(slot0)
@@ -92,13 +92,13 @@ slot0.updateContent = function(slot0, slot1)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
-			updateDrop(uv1:findTF("Item", slot2), {
+			updateDrop(slot2:Find("Item"), {
 				type = DROP_TYPE_ITEM,
 				id = slot3[2],
 				count = slot3[3]
 			})
-			setActive(uv1:findTF("SelectedTag", slot2), false)
-			setText(uv1:findTF("Count/Text", slot2), (getProxy(BagProxy):getItemCountById(slot3[2]) < slot3[3] and setColorStr(slot10, COLOR_RED) or setColorStr(slot10, COLOR_GREEN)) .. "/" .. slot9)
+			setActive(slot2:Find("SelectedTag"), false)
+			setText(slot2:Find("Count/Text"), (getProxy(BagProxy):getItemCountById(slot3[2]) < slot3[3] and setColorStr(slot10, COLOR_RED) or setColorStr(slot10, COLOR_GREEN)) .. "/" .. slot9)
 
 			uv1.curUnlockMaterialID = slot8
 			uv1.curUnlockMaterialNeedCount = slot9

@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.title = slot0:findTF("top/title")
-	slot0.rightInfo = slot0:findTF("rightInfo")
-	slot0.rightInfoEmpty = slot0:findTF("rightInfo_empty")
-	slot0.currentformulaIcon = slot0:findTF("rightInfo/formula/currentformula")
-	slot0.sureBtn = slot0:findTF("rightInfo/sure")
-	slot0.formulaItem = slot0:findTF("rightInfo/formula")
+	slot0.backBtn = slot0._tf:Find("top/back")
+	slot0.title = slot0._tf:Find("top/title")
+	slot0.rightInfo = slot0._tf:Find("rightInfo")
+	slot0.rightInfoEmpty = slot0._tf:Find("rightInfo_empty")
+	slot0.currentformulaIcon = slot0._tf:Find("rightInfo/formula/currentformula")
+	slot0.sureBtn = slot0._tf:Find("rightInfo/sure")
+	slot0.formulaItem = slot0._tf:Find("rightInfo/formula")
 	slot0.curCountTips = slot0.formulaItem:Find("curCount")
 	slot0.addCountTips = slot0.formulaItem:Find("addCount")
 	slot0.reduceBtn = slot0.formulaItem:Find("limit/reduce")
@@ -26,10 +26,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.needTimeText = slot0.sureBtn:Find("adapt/time/time_text")
 	slot0.barLimit = slot0.formulaItem:Find("limit/hasLimit")
 	slot0.extraProductList = UIItemList.New(slot0.extraProduct:Find("process"), slot0.extraProduct:Find("process/item"))
-	slot0.uiList = UIItemList.New(slot0:findTF("formulaView/content"), slot0:findTF("formulaView/content/tpl"))
-	slot0.costuiList = UIItemList.New(slot0:findTF("rightInfo/formula/needItem/content"), slot0:findTF("rightInfo/formula/needItem/content/IslandItemTpl"))
+	slot0.uiList = UIItemList.New(slot0._tf:Find("formulaView/content"), slot0._tf:Find("formulaView/content/tpl"))
+	slot0.costuiList = UIItemList.New(slot0._tf:Find("rightInfo/formula/needItem/content"), slot0._tf:Find("rightInfo/formula/needItem/content/IslandItemTpl"))
 
-	setText(slot0:findTF("top/title/Text"), i18n("island_select_product"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_select_product"))
 	setText(slot0.formulaItem:Find("tips"), i18n("island_production_count"))
 
 	slot0.baseEffectSpeed = pg.island_set.base_efficiency.key_value_int
@@ -105,10 +105,18 @@ slot0.OnInit = function(slot0)
 		uv0:RefreshCost()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
-		uv0.curSelectCount = uv0:CheckCanAddMaxTimes()
+		if uv0.addDelegateFormulaTimes then
+			uv0.curSelectCount = uv0.productMaxTime < uv0:CheckCanAddMaxTimes() + uv0.addDelegateFormulaTimes and uv0.productMaxTime or slot0
 
-		if uv0.curSelectCount < 1 then
-			uv0.curSelectCount = 1
+			if uv0.curSelectCount < 1 then
+				uv0.curSelectCount = 1
+			end
+		else
+			uv0.curSelectCount = uv0:CheckCanAddMaxTimes()
+
+			if uv0.curSelectCount < 1 then
+				uv0.curSelectCount = 1
+			end
 		end
 
 		uv0:RefreshCost()
@@ -200,16 +208,16 @@ slot0.UpdateFormulaItem = function(slot0, slot1, slot2)
 		id = slot7,
 		count = slot9
 	}))
-	setActive(slot0:findTF("icon_bg/count_bg", slot2), true)
-	setText(slot0:findTF("name", slot2), slot6.name)
-	setText(slot0:findTF("icon_bg/product_count_bg/product_count", slot2), "×" .. slot6.commission_product[1][2])
-	setText(slot0:findTF("icon_bg/count_bg/count", slot2), i18n("island_production_hold", slot9))
+	setActive(slot2:Find("icon_bg/count_bg"), true)
+	setText(slot2:Find("name"), slot6.name)
+	setText(slot2:Find("icon_bg/product_count_bg/product_count"), "×" .. slot6.commission_product[1][2])
+	setText(slot2:Find("icon_bg/count_bg/count"), i18n("island_production_hold", slot9))
 
 	if slot0.selectedIdx == slot1 + 1 then
 		slot0:RefreshCurrentSelectFormula()
 	end
 
-	setActive(slot0:findTF("selected", slot2), slot0.selectedIdx == slot3)
+	setActive(slot2:Find("selected"), slot0.selectedIdx == slot3)
 end
 
 slot0.InitCostItem = function(slot0, slot1, slot2)
@@ -219,7 +227,7 @@ slot0.UpdateCostItem = function(slot0, slot1, slot2)
 	slot3 = slot0.commission_Cost_List[slot1 + 1]
 
 	updateCustomDrop(slot2, slot3)
-	setActive(slot0:findTF("icon_bg/count_bg", slot2), true)
+	setActive(slot2:Find("icon_bg/count_bg"), true)
 	setText(slot2:Find("icon_bg/count_bg/count"), string.format("%d/%d", slot3.itemCount, slot3.costCount))
 end
 
@@ -230,6 +238,13 @@ slot0.RefreshCurrentSelectFormula = function(slot0)
 		id = slot0.formulaCfg.item_id
 	})
 
+	onButton(slot0, slot0.currentformulaIcon, function ()
+		uv0:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
 	GetImageSpriteFromAtlasAsync("island/islandframe", IslandItemRarity.Rarity2FrameName(slot2:getConfigTable().rarity), slot0.currentformulaIcon:Find("icon_bg"))
 	GetImageSpriteFromAtlasAsync("island/" .. slot2:getConfigTable().icon, "", slot0.currentformulaIcon:Find("icon_bg/icon"))
 	slot0:RefreshCost()
@@ -544,23 +559,38 @@ slot0.RefreshExtraProduct = function(slot0)
 	end
 
 	setActive(slot0.extraProduct, true)
-	GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot0.formulaCfg.second_product_display[1][1]].icon, "", slot0.extraProductIcon)
+
+	slot2 = slot0.formulaCfg.second_product_display[1][1]
+	slot5 = Drop.New({
+		count = 0,
+		type = DROP_TYPE_ISLAND_ITEM,
+		id = slot2
+	})
+
+	onButton(slot0, slot0.extraProductIcon, function ()
+		uv0:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = uv1
+		})
+	end)
+	GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot2].icon, "", slot0.extraProductIcon)
 	setText(slot0.extraProductNum, "×" .. slot0.formulaCfg.second_product_display[1][2])
 
-	slot10 = slot0.formulaCfg.second_product[1]
-	slot15 = (getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(pg.island_production_slot[slot0.slotId].place):GetDelegationSlotData(slot0.slotId):GetFromulaTatalCount(slot0.formulaCfg.id) + (slot0.canRewardTime or 0)) % slot10 + (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
-	slot0.extraProcess = slot15 % slot10
+	slot11 = slot0.formulaCfg.second_product[1]
+	slot16 = (getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(pg.island_production_slot[slot0.slotId].place):GetDelegationSlotData(slot0.slotId):GetFromulaTatalCount(slot0.formulaCfg.id) + (slot0.canRewardTime or 0)) % slot11 + (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
+	slot0.extraProcess = slot16 % slot11
 
-	setText(slot0.extraProductName, slot4.name .. "×" .. math.floor(slot15 / slot10))
+	setText(slot0.extraProductName, slot4.name .. "×" .. math.floor(slot16 / slot11))
 
 	if slot0.addDelegateFormulaTimes then
 		setActive(slot0.extraProductAddnum, true)
-		setText(slot0.extraProductAddnum, "+" .. math.floor((slot13 + slot0.curSelectCount - slot0.addDelegateFormulaTimes) / slot10))
+		setText(slot0.extraProductAddnum, "+" .. math.floor((slot14 + slot0.curSelectCount - slot0.addDelegateFormulaTimes) / slot11))
 	else
 		setActive(slot0.extraProductAddnum, false)
 	end
 
-	slot0.extraProductList:align(slot10)
+	slot0.extraProductList:align(slot11)
 end
 
 slot0.CacaluteProductTime = function(slot0)

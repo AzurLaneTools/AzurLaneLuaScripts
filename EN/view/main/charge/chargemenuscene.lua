@@ -69,25 +69,25 @@ slot0.initUIText = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.blurTF = slot0:findTF("blur_panel")
-	slot0.topTF = slot0:findTF("adapt/top", slot0.blurTF)
-	slot0.resTF = slot0:findTF("res", slot0.topTF)
-	slot0.backBtn = slot0:findTF("back_button", slot0.topTF)
-	slot0.menuTF = slot0:findTF("menu_screen")
-	slot0.skinShopBtn = slot0:findTF("skin_shop", slot0.menuTF)
-	slot0.skinLockIcon = slot0:findTF("skin_lock", slot0.menuTF)
+	slot0.blurTF = slot0._tf:Find("blur_panel")
+	slot0.topTF = slot0.blurTF:Find("adapt/top")
+	slot0.resTF = slot0.topTF:Find("res")
+	slot0.backBtn = slot0.topTF:Find("back_button")
+	slot0.menuTF = slot0._tf:Find("menu_screen")
+	slot0.skinShopBtn = slot0.menuTF:Find("skin_shop")
+	slot0.skinLockIcon = slot0.menuTF:Find("skin_lock")
 	slot1 = LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL
 
 	setActive(slot0.skinShopBtn, not slot1)
 	setActive(slot0.skinLockIcon, slot1)
 
-	slot0.diamondShopBtn = slot0:findTF("dimond_shop", slot0.menuTF)
-	slot0.itemShopBtn = slot0:findTF("props", slot0.menuTF)
-	slot0.giftShopBtn = slot0:findTF("gift_shop", slot0.menuTF)
-	slot0.supplyShopBtn = slot0:findTF("supply", slot0.menuTF)
-	slot0.monthCardTag = slot0:findTF("monthcard_tag", slot0.diamondShopBtn)
-	slot0.giftTag = slot0:findTF("tip", slot0.giftShopBtn)
-	slot0.bannerRect = BannerScrollRect.New(slot0:findTF("menu_screen/banner/mask/content"), slot0:findTF("menu_screen/banner/dots"))
+	slot0.diamondShopBtn = slot0.menuTF:Find("dimond_shop")
+	slot0.itemShopBtn = slot0.menuTF:Find("props")
+	slot0.giftShopBtn = slot0.menuTF:Find("gift_shop")
+	slot0.supplyShopBtn = slot0.menuTF:Find("supply")
+	slot0.monthCardTag = slot0.diamondShopBtn:Find("monthcard_tag")
+	slot0.giftTag = slot0.giftShopBtn:Find("tip")
+	slot0.bannerRect = BannerScrollRect.New(slot0._tf:Find("menu_screen/banner/mask/content"), slot0._tf:Find("menu_screen/banner/dots"))
 	slot0.chargeOrPurchaseHandler = ChargeOrPurchaseHandler.New()
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 end
@@ -187,7 +187,7 @@ slot0.updatePanel = function(slot0)
 	end
 
 	if slot1:getActiveBannerByType(GAMEUI_BANNER_11) ~= nil then
-		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0:findTF("BG", slot0.giftShopBtn))
+		LoadImageSpriteAsync("activitybanner/" .. slot3.pic, slot0.giftShopBtn:Find("BG"))
 	end
 
 	setActive(slot0.monthCardTag, MonthCardOutDateTipPanel.GetShowMonthCardTag())

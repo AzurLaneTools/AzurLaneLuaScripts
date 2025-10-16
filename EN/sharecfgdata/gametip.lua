@@ -12954,22 +12954,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Hakuhou guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Clemenceau, Guichen, and more!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Lützow, Seydlitz, and Yorck added to standard build pool!"
+	tip = "São Martinho added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Emden and Elbing added to standard build pool!"
+	tip = "Golden Hind added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Leonardo da Vinci added to the standard build pool!"
+	tip = "Mary Celeste and Whydah added to standard build pool!"
 }
 
 
@@ -31285,7 +31285,7 @@ _G.pg.base.gametip.word_maingroup_updatefailure = {
 
 
 _G.pg.base.gametip.group_download_tip = {
-	tip = "You must download $1 of data to perform an update.\n Proceed with download?"
+	tip = "You must download $1 of data to perform \nan update. Proceed with download?"
 }
 
 
@@ -36570,7 +36570,7 @@ _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 
 
 _G.pg.base.gametip.dorm3d_purchase_label_special = {
-	tip = "Bonus"
+	tip = "Exclusive"
 }
 
 
@@ -41251,10 +41251,10 @@ _G.pg.base.gametip.island_visit_tip7 = {
 
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
-1. When a new season begins, your Island Development Points (IDP) will automatically reset.
-2. During a season, you can earn IDP by doing things such as exchanging resources, producing specific resources, completing transport jobs, participating in seasonal events, and making purchases in the shop.
-3. At the end of a season, the resources in your warehouse will be automatically converted to IDP, and you will be placed on the development ranking accordingly.
-4. When the season finishes, you will be unable to claim development and milestone rewards from the season that just ended.]]
+1. When a new season begins, your Island Development Points (IDP) will be <color=#FD5650>automatically reset</color>.
+2. During a season, you can earn IDP by doing things such as <color=#39bfff>converting</color> and <color=#39bfff>producing specific resources</color>, <color=#39bfff>completing transport jobs</color>, <color=#39bfff>participate in seasonal events</color>, and <color=#39bfff>making purchases in the seasonal shop</color>.
+3. At the end of a season, the resources in your warehouse will be <color=#FD5650>automatically converted into IDP</color>, and you will be placed on the development ranking accordingly.
+4. When the season finishes, you will be <color=#FD5650>unable to claim</color> development and milestone rewards from the season that just ended.]]
 }
 
 
@@ -41934,6 +41934,45 @@ _G.pg.base.gametip.island_help_greet = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_character_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info3"
 			}
 		},
 		disableScroll = true,
@@ -45228,4 +45267,89 @@ _G.pg.base.gametip.danmachi_award_get = {
 
 _G.pg.base.gametip.danmachi_award_unget = {
 	tip = "Unobtained"
+}
+
+
+_G.pg.base.gametip.dorm3d_touch2 = {
+	tip = "Touch ($1)"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_special = {
+	tip = "Exclusive"
+}
+
+
+_G.pg.base.gametip.island_helpbtn_order = {
+	tip = [[
+<color=#E58A00>Island Requests</color>: Spending the designated <color=#39bfff>resources</color> will complete the request. Completing requests gives you <color=#39bfff>Development Funds</color> and <color=#39bfff>Island Dev. EXP</color>.
+<color=#E58A00>Urgent Requests</color>: Urgent Requests are unlocked after you research them in <color=#39bfff>Tech Research</color>. They have a chance of appearing when <color=#39bfff>time passes</color>, when you <color=#39bfff>complete regular requests</color>, and when you undertake <color=#39bfff>transport jobs</color>.
+<color=#E58A00>Island Request Limit</color>: Regular requests and urgent requests have separate caps as to how many you can complete in a certain period. The regular requests limit is reset <color=#39bfff>daily</color>, while the urgent requests limit is reset <color=#39bfff>weekly</color>.
+<color=#E58A00>Request Preference</color>: This allows you to change the difficulty of the island requests that appear. The change will take effect starting from <color=#39bfff>the next time that requests are issued</color>.]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_commission = {
+	tip = [[
+The Manage All menu lets you check on the status of your <color=#39bfff>Production</color>, <color=#39bfff>Management</color>, and <color=#39bfff>Daily Supplies</color>, as well as letting you manage each.
+<color=#E58A00>Production</color>: Tap the <color=#39bfff>assignment slots</color> to assign characters and claim produce. Tap the <color=#39bfff>button to swap</color> to alternate between the respective options.
+<color=#E58A00>Management</color>: Tap the <color=#39bfff>Manage</color> button to view what staff you have assigned as well as what dishes you're selling. Tap the button to <color=#39bfff>Open Business</color> to collect your revenue.
+<color=#E58A00>Supplies</color>: Tap the <color=#39bfff>Supplies</color> button to instantly jump to the collection site on Get-Together Island.]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_speedup = {
+	tip = "You can use Express Tickets to speed up things like <color=#39bfff>the production time of an assigned slot</color>, <color=#39bfff>the refresh time of an island request</color>, and so on.\n\nDifferent tickets <color=#39bfff>speed the process up by different amounts of time</color>. Any excess time reduction <color=#FD5650>will not be reimbursed</color>. Furthermore, Express Tickets have <color=#39bfff>expiration dates</color>, and they will <color=#FD5650>expire</color> once you reach this limit."
+}
+
+
+_G.pg.base.gametip.island_helpbtn_card = {
+	tip = {
+		{
+			info = [[
+Information about the island is displayed on your profile. You can use the <color=#39bfff>Chat</color> and <color=#39bfff>Visit</color> functions to view other Commanders' profiles.
+<color=#E58A00>Achievements</color>: Tap to display the <color=#39bfff>achievements</color> you've completed on your profile.
+<color=#E58A00>Rename Island</color>: Tap to change the name of your island.
+<color=#E58A00>Change Greeting</color>: Tap to change the greeting displayed on your profile.
+<color=#E58A00>Tag Settings</color>: Tap to view the rating tags you've received.
+<color=#E58A00>Island Photos</color>: Tap to change your displayed island photos.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_helpbtn_technology = {
+	tip = [[
+Island Tech lets you assign characters to research unlocked technologies and spend resources to obtain them. Advancing your research will unlock <color=#39bfff>new production sites</color> and <color=#39bfff>new products</color>.
+
+<color=#E58A00>- Authorization -</color>
+Authorization lets you unlock many new things, including <color=#39bfff>new maps</color>, features such as <color=#39bfff>batch management</color>, <color=#39bfff>island requests</color>, <color=#39bfff>transport jobs</color>, additional <color=#39bfff>Daily Supplies</color> content, and Island Authority Permits that let you recruit <color=#39bfff>new characters</color> to your island.
+
+<color=#E58A00>- Research -</color>
+Research lets you unlock things such as <color=#39bfff>working slots</color> in various production sites, improve your efficiency when manually harvesting and working, and unlock new <color=#39bfff>recipes</color> for you to use.]]
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
+	tip = "You have already submitted this order and cannot change it."
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+	tip = "Do you want to refresh your transport jobs?"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+	tip = "Refreshing Transport Jobs"
+}
+
+
+_G.pg.base.gametip.island_information_tech = {
+	tip = "Island Tech - $1 - $2"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag8 = {
+	tip = "Unlock Tights Interaction"
 }

@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.mask = slot0:findTF("frame/mask")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.mask = slot0._tf:Find("frame/mask")
 end
 
 slot0.OnInit = function(slot0)
@@ -16,7 +16,7 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Destroy()
 	end, SFX_PANEL)
-	setText(slot0:findTF("frame/title"), i18n("word_preview"))
+	setText(slot0._tf:Find("frame/title"), i18n("word_preview"))
 end
 
 slot0.Show = function(slot0, slot1, slot2)

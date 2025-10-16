@@ -22,20 +22,23 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.nextBtn = slot0:findTF("NextBtn")
-	slot0.countText = slot0:findTF("PTCount")
+	slot0.nextBtn = slot0._tf:Find("NextBtn")
+	slot0.countText = slot0._tf:Find("PTCount")
 	slot1 = slot0.countText:GetComponent(typeof(Text))
 	slot1.material = Object.Instantiate(slot1.material)
 	slot0.faceSpriteList = {}
 
-	for slot6 = 0, slot0:findTF("Face").childCount - 1 do
+	for slot6 = 0, slot0._tf:Find("Face").childCount - 1 do
 		table.insert(slot0.faceSpriteList, getImageSprite(slot2:GetChild(slot6)))
 	end
 
-	slot0.scrollViewTF = slot0:findTF("ScrollRect")
+	slot3 = slot0._tf
+	slot0.scrollViewTF = slot3:Find("ScrollRect")
 	slot0.viewportTF = slot0.scrollViewTF
-	slot0.tpl = slot0:findTF("StepTpl")
-	slot0.tplContainerTF = slot0:findTF("ScrollRect/Container")
+	slot3 = slot0._tf
+	slot0.tpl = slot3:Find("StepTpl")
+	slot3 = slot0._tf
+	slot0.tplContainerTF = slot3:Find("ScrollRect/Container")
 	slot0.stepUIIList = UIItemList.New(slot0.tplContainerTF, slot0.tpl)
 	slot3 = slot0.stepUIIList
 
@@ -61,21 +64,21 @@ slot0.updateOutline = function(slot0)
 end
 
 slot0.updateTpl = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("item", slot1)
-	slot8 = slot0:findTF("face", slot1)
-	slot9 = slot0:findTF("progress", slot1)
-	slot10 = slot0:findTF("text", slot9)
-	slot11 = slot0:findTF("Fill Area", slot9)
-	slot12 = slot0:findTF("achieve", slot1)
+	slot3 = slot1:Find("item")
+	slot8 = slot1:Find("face")
+	slot9 = slot1:Find("progress")
+	slot10 = slot9:Find("text")
+	slot11 = slot9:Find("Fill Area")
+	slot12 = slot1:Find("achieve")
 	slot14 = slot0.refluxProxy.ptNum
 	slot17 = slot0.refluxProxy.ptStage
 
-	updateDrop(slot0:findTF("award", slot3), slot0:getAwardForShow(slot2), {
+	updateDrop(slot3:Find("award"), slot0:getAwardForShow(slot2), {
 		Q = true
 	})
-	setText(slot0:findTF("text_unlock", slot3), i18n("reflux_word_2"))
-	setText(slot0:findTF("text_pt", slot3), pg.return_pt_template[slot2].pt_require .. "PT")
-	setActive(slot0:findTF("checked", slot1), slot2 < slot0.refluxProxy.ptStage + 1)
+	setText(slot3:Find("text_unlock"), i18n("reflux_word_2"))
+	setText(slot3:Find("text_pt"), pg.return_pt_template[slot2].pt_require .. "PT")
+	setActive(slot1:Find("checked"), slot2 < slot0.refluxProxy.ptStage + 1)
 
 	slot19 = slot2 < slot16 and Color.gray or Color.white
 

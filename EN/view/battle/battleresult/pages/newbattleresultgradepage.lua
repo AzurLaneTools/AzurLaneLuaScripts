@@ -6,7 +6,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.parentTr = slot0._tf.parent
-	slot0.bgTr = slot0:findTF("bg")
+	slot0.bgTr = slot0._tf:Find("bg")
 	slot0.gradePanel = slot0.bgTr:Find("grade")
 	slot0.gradeIcon = slot0.bgTr:Find("grade/icon")
 	slot0.gradeTxt = slot0.bgTr:Find("grade/Text")

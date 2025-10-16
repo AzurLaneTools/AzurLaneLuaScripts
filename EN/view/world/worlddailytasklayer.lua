@@ -17,8 +17,10 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.rtBg = slot0:findTF("bg")
-	slot0.rtBlurPanel = slot0:findTF("blur_panel")
+	slot1 = slot0._tf
+	slot0.rtBg = slot1:Find("bg")
+	slot1 = slot0._tf
+	slot0.rtBlurPanel = slot1:Find("blur_panel")
 	slot1 = slot0.rtBlurPanel
 	slot0.rtTasks = slot1:Find("adapt/tasks")
 	slot2 = slot0.rtTasks
@@ -43,7 +45,8 @@ slot0.init = function(slot0)
 	slot0.rtImageTitleTask = slot1:Find("print/title_task")
 	slot1 = slot0.rtTopTitle
 	slot0.rtImageTitleShop = slot1:Find("print/title_shop")
-	slot0.rtTaskWindow = slot0:findTF("task_window")
+	slot1 = slot0._tf
+	slot0.rtTaskWindow = slot1:Find("task_window")
 	slot0.wsTasks = {}
 	slot1 = slot0.rtTasks
 	slot1 = slot1:Find("frame/viewport/content")

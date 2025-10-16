@@ -1,19 +1,20 @@
 slot0 = class("DexiV6FramePage", import(".TemplatePage.NewFrameTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
-	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
-	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
-	slot0.switchBtn = slot0:findTF("AD/switch_btn")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.battleBtn = slot0.bg:Find("battle_btn")
+	slot0.getBtn = slot0.bg:Find("get_btn")
+	slot0.gotBtn = slot0.bg:Find("got_btn")
+	slot1 = slot0._tf
+	slot0.switchBtn = slot1:Find("AD/switch_btn")
 	slot0.phases = {
-		slot0:findTF("AD/switcher/phase1"),
-		slot0:findTF("AD/switcher/phase2")
+		slot0._tf:Find("AD/switcher/phase1"),
+		slot0._tf:Find("AD/switcher/phase2")
 	}
-	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/barContent/bar")
-	slot0.cur = slot0:findTF("AD/switcher/phase2/Image/step")
-	slot0.gotTag = slot0:findTF("AD/switcher/phase2/Image/got")
-	slot0.getTag = slot0:findTF("AD/switcher/phase2/Image/get")
+	slot0.bar = slot0._tf:Find("AD/switcher/phase2/Image/barContent/bar")
+	slot0.cur = slot0._tf:Find("AD/switcher/phase2/Image/step")
+	slot0.gotTag = slot0._tf:Find("AD/switcher/phase2/Image/got")
+	slot0.getTag = slot0._tf:Find("AD/switcher/phase2/Image/get")
 end
 
 slot0.OnUpdateFlush = function(slot0)

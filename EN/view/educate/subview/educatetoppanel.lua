@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.helpBtn = slot0:findTF("content/btns/help")
-	slot0.homeBtn = slot0:findTF("content/btns/home")
+	slot0.helpBtn = slot0._tf:Find("content/btns/help")
+	slot0.homeBtn = slot0._tf:Find("content/btns/home")
 
 	setActive(slot0.homeBtn, not (slot0.contextData and slot0.contextData.hideBack))
 
-	slot0.refresh = slot0:findTF("content/btns/refresh")
+	slot0.refresh = slot0._tf:Find("content/btns/refresh")
 
 	slot0:addListener()
 end

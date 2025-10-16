@@ -28,79 +28,79 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.mainAnim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.bgTF = slot0:findTF("anim_root/bg")
-	slot0.blurPanel = slot0:findTF("anim_root/blur_panel")
+	slot0.mainAnim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.bgTF = slot0._tf:Find("anim_root/bg")
+	slot0.blurPanel = slot0._tf:Find("anim_root/blur_panel")
 	slot0.blurPanelAnim = slot0.blurPanel:GetComponent(typeof(Animation))
-	slot0.topTF = slot0:findTF("top", slot0.blurPanel)
-	slot0.favorBtn = slot0:findTF("favor", slot0.topTF)
-	slot0.favorLvTF = slot0:findTF("anim_root/Text", slot0.favorBtn)
-	slot0.favorMaxTF = slot0:findTF("anim_root/max", slot0.favorBtn)
-	slot0.favorBtnAnim = slot0:findTF("anim_root", slot0.favorBtn):GetComponent(typeof(Animation))
-	slot0.favorBtnAnimEvent = slot0:findTF("anim_root", slot0.favorBtn):GetComponent(typeof(DftAniEvent))
+	slot0.topTF = slot0.blurPanel:Find("top")
+	slot0.favorBtn = slot0.topTF:Find("favor")
+	slot0.favorLvTF = slot0.favorBtn:Find("anim_root/Text")
+	slot0.favorMaxTF = slot0.favorBtn:Find("anim_root/max")
+	slot0.favorBtnAnim = slot0.favorBtn:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.favorBtnAnimEvent = slot0.favorBtn:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.favorBtnAnimEvent:SetTriggerEvent(function ()
 		uv0:updateFavorBtn()
 	end)
 
-	slot0.mainTF = slot0:findTF("anim_root/main")
-	slot0.paintTF = slot0:findTF("painting", slot0.mainTF)
-	slot0.dialogueTF = slot0:findTF("dialogue", slot0.blurPanel)
-	slot0.dialogueContent = slot0:findTF("content", slot0.dialogueTF)
+	slot0.mainTF = slot0._tf:Find("anim_root/main")
+	slot0.paintTF = slot0.mainTF:Find("painting")
+	slot0.dialogueTF = slot0.blurPanel:Find("dialogue")
+	slot0.dialogueContent = slot0.dialogueTF:Find("content")
 
 	setActive(slot0.dialogueTF, false)
 
-	slot0.bubbleTF = slot0:findTF("anim_root/blur_panel/bubble")
+	slot0.bubbleTF = slot0._tf:Find("anim_root/blur_panel/bubble")
 
 	setActive(slot0.bubbleTF, false)
 
-	slot0.bubbleBtn = slot0:findTF("bubble", slot0.bubbleTF)
-	slot0.optionsTF = slot0:findTF("options", slot0.mainTF)
-	slot0.chatBtn = slot0:findTF("options/chat", slot0.optionsTF)
-	slot0.giftBtn = slot0:findTF("options/gift", slot0.optionsTF)
+	slot0.bubbleBtn = slot0.bubbleTF:Find("bubble")
+	slot0.optionsTF = slot0.mainTF:Find("options")
+	slot0.chatBtn = slot0.optionsTF:Find("options/chat")
+	slot0.giftBtn = slot0.optionsTF:Find("options/gift")
 
 	setActive(slot0.optionsTF, false)
 
-	slot0.bottomTF = slot0:findTF("bottom", slot0.blurPanel)
-	slot0.bookBtn = slot0:findTF("left/btns/book", slot0.bottomTF)
+	slot0.bottomTF = slot0.blurPanel:Find("bottom")
+	slot0.bookBtn = slot0.bottomTF:Find("left/btns/book")
 
-	setText(slot0:findTF("unlock/Text", slot0.bookBtn), i18n("child_btn_collect"))
+	setText(slot0.bookBtn:Find("unlock/Text"), i18n("child_btn_collect"))
 
-	slot0.mindBtn = slot0:findTF("left/btns/mind", slot0.bottomTF)
+	slot0.mindBtn = slot0.bottomTF:Find("left/btns/mind")
 
-	setText(slot0:findTF("unlock/Text", slot0.mindBtn), i18n("child_btn_mind"))
+	setText(slot0.mindBtn:Find("unlock/Text"), i18n("child_btn_mind"))
 
-	slot0.bagBtn = slot0:findTF("left/btns/bag", slot0.bottomTF)
+	slot0.bagBtn = slot0.bottomTF:Find("left/btns/bag")
 
-	setText(slot0:findTF("unlock/Text", slot0.bagBtn), i18n("child_btn_bag"))
+	setText(slot0.bagBtn:Find("unlock/Text"), i18n("child_btn_bag"))
 
-	slot0.datePanel = EducateDatePanel.New(slot0:findTF("date", slot0.topTF), slot0.event)
+	slot0.datePanel = EducateDatePanel.New(slot0.topTF:Find("date"), slot0.event)
 
 	slot0.datePanel:RegisterView(slot0)
 
-	slot0.favorPanel = EducateFavorPanel.New(slot0:findTF("favor_panel", slot0.topTF), slot0.event)
+	slot0.favorPanel = EducateFavorPanel.New(slot0.topTF:Find("favor_panel"), slot0.event)
 
 	slot0.favorPanel:RegisterView(slot0)
 
-	slot0.resPanel = EducateResPanel.New(slot0:findTF("res", slot0.topTF), slot0.event)
+	slot0.resPanel = EducateResPanel.New(slot0.topTF:Find("res"), slot0.event)
 
 	slot0.resPanel:RegisterView(slot0)
 
-	slot0.topPanel = EducateTopPanel.New(slot0:findTF("top_right", slot0.topTF), slot0.event)
+	slot0.topPanel = EducateTopPanel.New(slot0.topTF:Find("top_right"), slot0.event)
 
 	slot0.topPanel:RegisterView(slot0)
 
-	slot0.targetPanel = EducateTargetPanel.New(slot0:findTF("target", slot0.topTF), slot0.event)
+	slot0.targetPanel = EducateTargetPanel.New(slot0.topTF:Find("target"), slot0.event)
 
 	slot0.targetPanel:RegisterView(slot0)
 
-	slot0.bottomPanel = EducateBottomPanel.New(slot0:findTF("right", slot0.bottomTF), slot0.event, {
+	slot0.bottomPanel = EducateBottomPanel.New(slot0.bottomTF:Find("right"), slot0.event, {
 		isMainEnter = slot0.contextData.isMainEnter
 	})
 
 	slot0.bottomPanel:RegisterView(slot0)
 
-	slot0.archivePanel = EducateArchivePanel.New(slot0:findTF("archive_panel", slot0.mainTF), slot0.event, {
+	slot0.archivePanel = EducateArchivePanel.New(slot0.mainTF:Find("archive_panel"), slot0.event, {
 		isShow = true,
 		isMainEnter = slot0.contextData.isMainEnter
 	})
@@ -118,7 +118,7 @@ slot0._loadSubViews = function(slot0)
 	slot0.archivePanel:Load()
 	slot0:OverlayPanel(slot0.blurPanel, {
 		pbList = {
-			slot0:findTF("bottom/left", slot0.blurPanel)
+			slot0.blurPanel:Find("bottom/left")
 		}
 	})
 	slot0.mainAnim:Play(slot0.contextData.isMainEnter and "anim_educate_educateUI_bg_in" or "anim_educate_educateUI_bg_show")
@@ -142,7 +142,7 @@ slot0.addListener = function(slot0)
 		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mindBtn, function ()
-		if isActive(uv0:findTF("lock", uv0.mindBtn)) then
+		if isActive(uv0.mindBtn:Find("lock")) then
 			return
 		end
 
@@ -157,7 +157,7 @@ slot0.addListener = function(slot0)
 		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.bagBtn, function ()
-		if isActive(uv0:findTF("lock", uv0.bagBtn)) then
+		if isActive(uv0.bagBtn:Find("lock")) then
 			return
 		end
 
@@ -166,7 +166,10 @@ slot0.addListener = function(slot0)
 			viewComponent = EducateBagLayer
 		}))
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("fitter", slot0.paintTF), function ()
+
+	slot3 = slot0.paintTF
+
+	onButton(slot0, slot3:Find("fitter"), function ()
 		uv0:ShowDialogue()
 	end, SFX_PANEL)
 end
@@ -356,8 +359,13 @@ slot0.checkBubbleShow = function(slot0)
 	slot2 = getProxy(EducateProxy):GetCharData()
 
 	if #getProxy(EducateProxy):GetEventProxy():GetHomeSpecEvents() > 0 then
-		setActive(slot0:findTF("Text", slot0.bubbleBtn), true)
-		setActive(slot0:findTF("Image", slot0.bubbleBtn), false)
+		slot4 = slot0.bubbleBtn
+
+		setActive(slot4:Find("Text"), true)
+
+		slot4 = slot0.bubbleBtn
+
+		setActive(slot4:Find("Image"), false)
 		slot0:showBubble(function ()
 			uv0:emit(EducateMediator.ON_SPECIAL_EVENT_TRIGGER, {
 				id = uv1[1].id,
@@ -369,8 +377,13 @@ slot0.checkBubbleShow = function(slot0)
 			})
 		end)
 	elseif slot2:CheckFavor() then
-		setActive(slot0:findTF("Text", slot0.bubbleBtn), false)
-		setActive(slot0:findTF("Image", slot0.bubbleBtn), true)
+		slot4 = slot0.bubbleBtn
+
+		setActive(slot4:Find("Text"), false)
+
+		slot4 = slot0.bubbleBtn
+
+		setActive(slot4:Find("Image"), true)
 		slot0:showBubble(function ()
 			slot0 = uv0
 
@@ -408,23 +421,23 @@ end
 slot0.updateUnlockBtns = function(slot0)
 	slot1 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_MEMORY)
 
-	setActive(slot0:findTF("lock", slot0.bookBtn), not slot1)
-	setActive(slot0:findTF("unlock", slot0.bookBtn), slot1)
+	setActive(slot0.bookBtn:Find("lock"), not slot1)
+	setActive(slot0.bookBtn:Find("unlock"), slot1)
 
 	slot2 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_BAG)
 
-	setActive(slot0:findTF("lock", slot0.bagBtn), not slot2)
-	setActive(slot0:findTF("unlock", slot0.bagBtn), slot2)
+	setActive(slot0.bagBtn:Find("lock"), not slot2)
+	setActive(slot0.bagBtn:Find("unlock"), slot2)
 
 	slot3 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_FAVOR_AND_MIND)
 
-	setActive(slot0:findTF("lock", slot0.mindBtn), not slot3)
-	setActive(slot0:findTF("unlock", slot0.mindBtn), slot3)
+	setActive(slot0.mindBtn:Find("lock"), not slot3)
+	setActive(slot0.mindBtn:Find("unlock"), slot3)
 	setActive(slot0.favorBtn, slot3)
 end
 
 slot0.updateMindTip = function(slot0)
-	setActive(slot0:findTF("unlock/tip", slot0.mindBtn), getProxy(EducateProxy):GetTaskProxy():IsShowMindTasksTip())
+	setActive(slot0.mindBtn:Find("unlock/tip"), getProxy(EducateProxy):GetTaskProxy():IsShowMindTasksTip())
 end
 
 slot0.updateWeekDay = function(slot0, slot1)
@@ -472,7 +485,7 @@ slot0.ShowDialogue = function(slot0)
 
 	slot3 = GetSpriteFromAtlas("paintingface/" .. slot0.paintingName, slot0.faceList[slot1])
 
-	if slot0:findTF("fitter", slot0.paintTF):GetChild(0):Find("face") and slot3 then
+	if slot0.paintTF:Find("fitter"):GetChild(0):Find("face") and slot3 then
 		setImageSprite(slot4, slot3)
 		setActive(slot4, true)
 	end
@@ -505,13 +518,13 @@ slot0.updateNewTips = function(slot0)
 end
 
 slot0.updateBookNewTip = function(slot0)
-	setActive(slot0:findTF("unlock/new", slot0.bookBtn), underscore.any(pg.child_memory.all, function (slot0)
+	setActive(slot0.bookBtn:Find("unlock/new"), underscore.any(pg.child_memory.all, function (slot0)
 		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, slot0)
 	end) or EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
 end
 
 slot0.updateMindNewTip = function(slot0)
-	setActive(slot0:findTF("unlock/new", slot0.mindBtn), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MIND_TASK))
+	setActive(slot0.mindBtn:Find("unlock/new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MIND_TASK))
 end
 
 slot0.FlushView = function(slot0)

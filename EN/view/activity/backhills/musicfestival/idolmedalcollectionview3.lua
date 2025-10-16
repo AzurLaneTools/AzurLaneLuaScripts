@@ -16,8 +16,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	setActive(slot0:findTF("1", slot0.bg), math.random() >= 0.5)
-	setActive(slot0:findTF("2", slot0.bg), slot1 < 0.5)
+	setActive(slot0.bg:Find("1"), math.random() >= 0.5)
+	setActive(slot0.bg:Find("2"), slot1 < 0.5)
 	uv0.super.didEnter(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

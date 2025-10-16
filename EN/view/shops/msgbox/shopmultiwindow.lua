@@ -5,25 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.topItem = slot0:findTF("item/panel_bg")
+	slot0.topItem = slot0._tf:Find("item/panel_bg")
 	slot0.ownerTF = slot0.topItem:Find("left/own")
 	slot0.detailTF = slot0.topItem:Find("left/detail")
 	slot0.nameTF = slot0.topItem:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
 	slot0.descTF = slot0.topItem:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
 	slot0.timeLimitTF = slot0.topItem:Find("time_limit")
-	slot0.bottomItem = slot0:findTF("got/panel_bg/list/item")
+	slot0.bottomItem = slot0._tf:Find("got/panel_bg/list/item")
 	slot0.itemCountTF = slot0.bottomItem:Find("icon_bg/count"):GetComponent(typeof(Text))
-	slot0.maxBtn = slot0:findTF("count/max")
-	slot0.leftBtn = slot0:findTF("count/number_panel/left")
-	slot0.rightBtn = slot0:findTF("count/number_panel/right")
-	slot0.countTF = slot0:findTF("count/number_panel/value"):GetComponent(typeof(Text))
-	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
-	slot0.confirmBtn = slot0:findTF("actions/confirm_button")
+	slot0.maxBtn = slot0._tf:Find("count/max")
+	slot0.leftBtn = slot0._tf:Find("count/number_panel/left")
+	slot0.rightBtn = slot0._tf:Find("count/number_panel/right")
+	slot0.countTF = slot0._tf:Find("count/number_panel/value"):GetComponent(typeof(Text))
+	slot0.cancelBtn = slot0._tf:Find("actions/cancel_button")
+	slot0.confirmBtn = slot0._tf:Find("actions/confirm_button")
 
-	setText(slot0:findTF("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
-	setText(slot0:findTF("count/image_text"), i18n("shops_msgbox_exchange_count"))
-	setText(slot0:findTF("actions/cancel_button/label"), i18n("shop_word_cancel"))
-	setText(slot0:findTF("actions/confirm_button/label"), i18n("shop_word_exchange"))
+	setText(slot0._tf:Find("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
+	setText(slot0._tf:Find("count/image_text"), i18n("shops_msgbox_exchange_count"))
+	setText(slot0._tf:Find("actions/cancel_button/label"), i18n("shop_word_cancel"))
+	setText(slot0._tf:Find("actions/confirm_button/label"), i18n("shop_word_exchange"))
 end
 
 slot0.OnInit = function(slot0)
@@ -59,7 +59,7 @@ slot0.InitWindow = function(slot0, slot1, slot2)
 		setActive(slot0.timeLimitTF, slot4)
 
 		if slot4 and slot5 then
-			setText(slot0:findTF("Text", slot0.timeLimitTF), i18n("eventshop_time_hint", getProxy(ActivityProxy):getActivityById(Item.getConfigData(slot3.id).link_id):GetEndTimeStrByConfig()))
+			setText(slot0.timeLimitTF:Find("Text"), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(getProxy(ActivityProxy):getActivityById(Item.getConfigData(slot3.id).link_id).stopTime, "%m.%d")))
 		end
 	end
 

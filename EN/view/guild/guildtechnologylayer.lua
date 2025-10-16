@@ -10,7 +10,7 @@ end
 
 slot0.init = function(slot0)
 	slot0.technologyPage = GuildTechnologyPage.New(slot0._tf, slot0.event)
-	slot0.helpBtn = slot0:findTF("frame/help")
+	slot0.helpBtn = slot0._tf:Find("frame/help")
 end
 
 slot0.didEnter = function(slot0)

@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.contentTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
-	slot0.nextBtn = slot0:findTF("frame/btn")
-	slot0.confirmBtn = slot0:findTF("frame/btn_confrim")
-	slot0.consumeTr = slot0:findTF("frame/consume")
-	slot0.consumeTxt = slot0:findTF("frame/consume/Text"):GetComponent(typeof(Text))
-	slot0.consumeIcon = slot0:findTF("frame/consume/icon"):GetComponent(typeof(Image))
-	slot0.role = slot0:findTF("frame/role"):GetComponent(typeof(Image))
-	slot0.title = slot0:findTF("frame/title/Text"):GetComponent(typeof(Image))
+	slot0.contentTxt = slot0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	slot0.nextBtn = slot0._tf:Find("frame/btn")
+	slot0.confirmBtn = slot0._tf:Find("frame/btn_confrim")
+	slot0.consumeTr = slot0._tf:Find("frame/consume")
+	slot0.consumeTxt = slot0._tf:Find("frame/consume/Text"):GetComponent(typeof(Text))
+	slot0.consumeIcon = slot0._tf:Find("frame/consume/icon"):GetComponent(typeof(Image))
+	slot0.role = slot0._tf:Find("frame/role"):GetComponent(typeof(Image))
+	slot0.title = slot0._tf:Find("frame/title/Text"):GetComponent(typeof(Image))
 
-	setText(slot0:findTF("frame/tip"), i18n("sculpture_close_tip"))
+	setText(slot0._tf:Find("frame/tip"), i18n("sculpture_close_tip"))
 end
 
 slot0.OnInit = function(slot0)

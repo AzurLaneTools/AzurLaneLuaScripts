@@ -56,8 +56,10 @@ end
 slot0.initShowList = function(slot0)
 	slot0.showIds = {}
 	slot0.selectedIndex = 1
-	slot0.groupsTF = slot0:findTF("bg/groups", slot0.performTF)
-	slot0.showList = UIItemList.New(slot0.groupsTF, slot0:findTF("tpl", slot0.groupsTF))
+	slot1 = slot0.performTF
+	slot0.groupsTF = slot1:Find("bg/groups")
+	slot3 = slot0.groupsTF
+	slot0.showList = UIItemList.New(slot0.groupsTF, slot3:Find("tpl"))
 	slot1 = slot0.showList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -65,12 +67,12 @@ slot0.initShowList = function(slot0)
 			slot3 = uv0.showIds[slot1 + 1]
 			slot4 = uv0:IsUnlock(slot3)
 
-			setText(uv0:findTF("unlock/unselected/Text", slot2), slot3)
-			setText(uv0:findTF("unlock/selected/Text", slot2), slot3)
-			setActive(uv0:findTF("lock", slot2), not slot4)
-			setActive(uv0:findTF("unlock", slot2), slot4)
-			setActive(uv0:findTF("unlock/selected", slot2), uv0.selectedIndex == slot1 + 1)
-			setActive(uv0:findTF("unlock/unselected", slot2), uv0.selectedIndex ~= slot1 + 1)
+			setText(slot2:Find("unlock/unselected/Text"), slot3)
+			setText(slot2:Find("unlock/selected/Text"), slot3)
+			setActive(slot2:Find("lock"), not slot4)
+			setActive(slot2:Find("unlock"), slot4)
+			setActive(slot2:Find("unlock/selected"), uv0.selectedIndex == slot1 + 1)
+			setActive(slot2:Find("unlock/unselected"), uv0.selectedIndex ~= slot1 + 1)
 			onButton(uv0, slot2, function (slot0)
 				if uv0 then
 					uv1.selectedIndex = uv2 + 1
@@ -109,7 +111,7 @@ slot0.updatePage = function(slot0)
 	slot1 = (slot0.curPageIndex - 1) * slot0.onePageCnt
 
 	for slot5 = 1, slot0.onePageCnt do
-		slot6 = slot0:findTF("frame_" .. slot5, slot0.pageTF)
+		slot6 = slot0.pageTF:Find("frame_" .. slot5)
 
 		if slot0.groupIds[slot1 + slot5] then
 			setActive(slot6, true)
@@ -138,20 +140,20 @@ slot0.updateItem = function(slot0, slot1, slot2)
 	slot4 = slot0.config[slot3[1]]
 	slot5 = slot0.polaroidData[slot3[1]]
 
-	setActive(slot0:findTF("lock", slot2), not slot5)
-	setActive(slot0:findTF("unlock", slot2), slot5)
+	setActive(slot2:Find("lock"), not slot5)
+	setActive(slot2:Find("unlock"), slot5)
 
 	if slot5 then
 		slot6 = slot0.polaroidData[slot3[1]]
 
-		LoadImageSpriteAsync("educatepolaroid/" .. slot4.pic, slot0:findTF("unlock/mask/Image", slot2))
-		setText(slot0:findTF("unlock/name", slot2), slot4.title)
+		LoadImageSpriteAsync("educatepolaroid/" .. slot4.pic, slot2:Find("unlock/mask/Image"))
+		setText(slot2:Find("unlock/name"), slot4.title)
 		onButton(slot0, slot2, function ()
 			uv0:showPerformWindow(uv1)
 		end, SFX_PANEL)
 	else
 		removeOnButton(slot2)
-		setText(slot0:findTF("lock/Text", slot2), slot4.condition)
+		setText(slot2:Find("lock/Text"), slot4.condition)
 	end
 end
 
@@ -166,8 +168,8 @@ end
 slot0.updatePerform = function(slot0, slot1)
 	slot2 = slot0.config[slot1]
 
-	LoadImageSpriteAsync("educatepolaroid/" .. slot2.pic, slot0:findTF("bg/mask/Image", slot0.performTF))
-	setText(slot0:findTF("bg/Text", slot0.performTF), slot2.title)
+	LoadImageSpriteAsync("educatepolaroid/" .. slot2.pic, slot0.performTF:Find("bg/mask/Image"))
+	setText(slot0.performTF:Find("bg/Text"), slot2.title)
 end
 
 slot0.playAnimChange = function(slot0)

@@ -38,10 +38,12 @@ slot0.BONE_TO_TOUCH = {
 	Belly = "belly"
 }
 slot0.EXTRA_SYSTEMS = {
+	StockingMgr = "StockingMgr",
 	FurnitureSlide = "FurnitureSlide"
 }
 slot0.SYSTEM_LIST = {
-	slot0.EXTRA_SYSTEMS.FurnitureSlide
+	slot0.EXTRA_SYSTEMS.FurnitureSlide,
+	slot0.EXTRA_SYSTEMS.StockingMgr
 }
 slot0.DEFAULT_ANIM_FADE_IN_TIME = 0.25
 slot0.LADY_MOVE_SPEED = 0.85

@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.nameTxt = slot0:findTF("frame/name"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
-	slot0.emojiContainer = slot0:findTF("frame/icon_bg")
+	slot0.nameTxt = slot0._tf:Find("frame/name"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	slot0.emojiContainer = slot0._tf:Find("frame/icon_bg")
 
-	setText(slot0:findTF("frame/tip"), i18n("word_click_to_close"))
+	setText(slot0._tf:Find("frame/tip"), i18n("word_click_to_close"))
 end
 
 slot0.didEnter = function(slot0)

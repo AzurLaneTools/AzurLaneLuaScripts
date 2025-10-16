@@ -24,6 +24,13 @@ slot0.getUIName = function(slot0)
 	return "FormationUI"
 end
 
+slot0.preloadUIList = function(slot0)
+	return {
+		slot0:getUIName(),
+		"CommanderFormationUI"
+	}
+end
+
 slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
@@ -34,25 +41,24 @@ end
 
 slot0.init = function(slot0)
 	slot0.eventTriggers = {}
-	slot0._blurLayer = slot0:findTF("blur_panel")
-	slot0.backBtn = slot0:findTF("top/back_btn", slot0._blurLayer)
-	slot0._bgFleet = slot0:findTF("bg_fleet")
-	slot0._bgSub = slot0:findTF("bg_sub")
-	slot0._bottomPanel = slot0:findTF("bottom", slot0._blurLayer)
-	slot0._detailToggle = slot0:findTF("toggle_list/detail_toggle", slot0._bottomPanel)
-	slot0._formationToggle = slot0:findTF("toggle_list/formation_toggle", slot0._bottomPanel)
-	slot0._nextPage = slot0:findTF("nextPage")
-	slot0._prevPage = slot0:findTF("prevPage")
-	slot0._starTpl = slot0:findTF("star_tpl")
-	slot0._heroInfoTpl = slot0:findTF("heroInfo")
-	slot4 = slot0._blurLayer
-	slot0.topPanel = slot0:findTF("top", slot4)
+	slot0.backBtn = slot0._blurLayer:Find("top/back_btn")
+	slot0._bgFleet = slot0._adapt:Find("bg_fleet")
+	slot0._bgSub = slot0._adapt:Find("bg_sub")
+	slot0._bottomPanel = slot0._blurLayer:Find("bottom")
+	slot0._detailToggle = slot0._bottomPanel:Find("toggle_list/detail_toggle")
+	slot0._formationToggle = slot0._bottomPanel:Find("toggle_list/formation_toggle")
+	slot0._nextPage = slot0._adapt:Find("nextPage")
+	slot0._prevPage = slot0._adapt:Find("prevPage")
+	slot0._starTpl = slot0._tf:Find("star_tpl")
+	slot0._heroInfoTpl = slot0._tf:Find("heroInfo")
+	slot1 = slot0._blurLayer
+	slot0.topPanel = slot1:Find("top")
 	slot0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	slot0._gridFrame = slot0:findTF("GridFrame")
+	slot0._gridFrame = slot0._adapt:Find("GridFrame")
 
 	for slot4 = 1, 3 do
 		slot0._gridTFs[TeamType.Main][slot4] = slot0._gridFrame:Find("main_" .. slot4)
@@ -60,13 +66,13 @@ slot0.init = function(slot0)
 		slot0._gridTFs[TeamType.Submarine][slot4] = slot0._gridFrame:Find("submarine_" .. slot4)
 	end
 
-	slot0._heroContainer = slot0:findTF("HeroContainer")
+	slot0._heroContainer = slot0._adapt:Find("HeroContainer")
 	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfoTpl, slot0._gridTFs)
-	slot0._fleetInfo = slot0:findTF("fleet_info", slot0._blurLayer)
-	slot0._fleetNumText = slot0:findTF("fleet_number", slot0._fleetInfo)
-	slot0._fleetNameText = slot0:findTF("fleet_name/Text", slot0._fleetInfo)
-	slot0._fleetNameEditBtn = slot0:findTF("edit_btn", slot0._fleetInfo)
-	slot0._renamePanel = slot0:findTF("changeName_panel")
+	slot0._fleetInfo = slot0._blurLayer:Find("fleet_info")
+	slot0._fleetNumText = slot0._fleetInfo:Find("fleet_number")
+	slot0._fleetNameText = slot0._fleetInfo:Find("fleet_name/Text")
+	slot0._fleetNameEditBtn = slot0._fleetInfo:Find("edit_btn")
+	slot0._renamePanel = slot0._tf:Find("changeName_panel")
 	slot0._renameConfirmBtn = slot0._renamePanel:Find("frame/queren")
 	slot0._renameCancelBtn = slot0._renamePanel:Find("frame/cancel")
 
@@ -74,24 +80,25 @@ slot0.init = function(slot0)
 		z = -45
 	})
 
-	slot0._propertyFrame = slot0:findTF("property_frame", slot0._blurLayer)
-	slot0._cannonPower = slot0:findTF("cannon/Text", slot0._propertyFrame)
-	slot0._torpedoPower = slot0:findTF("torpedo/Text", slot0._propertyFrame)
-	slot0._AAPower = slot0:findTF("antiaircraft/Text", slot0._propertyFrame)
-	slot0._airPower = slot0:findTF("air/Text", slot0._propertyFrame)
-	slot0._airDominance = slot0:findTF("ac/Text", slot0._propertyFrame)
-	slot0._cost = slot0:findTF("cost/Text", slot0._propertyFrame)
-	slot0._mainGS = slot0:findTF("gear_score/main")
-	slot0._vanguardGS = slot0:findTF("gear_score/vanguard")
-	slot0._subGS = slot0:findTF("gear_score/submarine")
+	slot0._propertyFrame = slot0._blurLayer:Find("property_frame")
+	slot0._cannonPower = slot0._propertyFrame:Find("cannon/Text")
+	slot0._torpedoPower = slot0._propertyFrame:Find("torpedo/Text")
+	slot0._AAPower = slot0._propertyFrame:Find("antiaircraft/Text")
+	slot0._airPower = slot0._propertyFrame:Find("air/Text")
+	slot0._airDominance = slot0._propertyFrame:Find("ac/Text")
+	slot0._cost = slot0._propertyFrame:Find("cost/Text")
+	slot0._mainGS = slot0._adapt:Find("gear_score/main")
+	slot0._vanguardGS = slot0._adapt:Find("gear_score/vanguard")
+	slot0._subGS = slot0._adapt:Find("gear_score/submarine")
 	slot0._arrUpVan = slot0._vanguardGS:Find("up")
 	slot0._arrDownVan = slot0._vanguardGS:Find("down")
 	slot0._arrUpMain = slot0._mainGS:Find("up")
 	slot0._arrDownMain = slot0._mainGS:Find("down")
 	slot0._arrUpSub = slot0._subGS:Find("up")
 	slot0._arrDownSub = slot0._subGS:Find("down")
-	slot0._attrFrame = slot0:findTF("blur_panel/attr_frame")
-	slot0._cardTpl = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	slot0._attrFrame = slot0._blurLayer:Find("attr_frame")
+	slot4 = ItemList
+	slot0._cardTpl = slot0._tf:GetComponent(typeof(slot4)).prefabItem[0]
 	slot0._cards = {
 		[TeamType.Main] = {},
 		[TeamType.Vanguard] = {},
@@ -101,21 +108,20 @@ slot0.init = function(slot0)
 	setActive(slot0._attrFrame, false)
 	setActive(slot0._cardTpl, false)
 
-	slot0.btnRegular = slot0:findTF("fleet_select/regular", slot0._bottomPanel)
-	slot0._regularEnFllet = slot0:findTF("fleet/enFleet", slot0.btnRegular)
-	slot0._regularNum = slot0:findTF("fleet/num", slot0.btnRegular)
-	slot0._regualrCnFleet = slot0:findTF("fleet/CnFleet", slot0.btnRegular)
-	slot0.btnSub = slot0:findTF("fleet_select/sub", slot0._bottomPanel)
-	slot0._subEnFllet = slot0:findTF("fleet/enFleet", slot0.btnSub)
-	slot0._subNum = slot0:findTF("fleet/num", slot0.btnSub)
-	slot0._subCnFleet = slot0:findTF("fleet/CnFleet", slot0.btnSub)
-	slot0.fleetToggleMask = slot0:findTF("blur_panel/list_mask")
-	slot4 = slot0.fleetToggleMask
-	slot0.fleetToggleList = slot0:findTF("list", slot4)
+	slot0.btnRegular = slot0._bottomPanel:Find("fleet_select/regular")
+	slot0._regularEnFllet = slot0.btnRegular:Find("fleet/enFleet")
+	slot0._regularNum = slot0.btnRegular:Find("fleet/num")
+	slot0._regualrCnFleet = slot0.btnRegular:Find("fleet/CnFleet")
+	slot0.btnSub = slot0._bottomPanel:Find("fleet_select/sub")
+	slot0._subEnFllet = slot0.btnSub:Find("fleet/enFleet")
+	slot0._subNum = slot0.btnSub:Find("fleet/num")
+	slot0._subCnFleet = slot0.btnSub:Find("fleet/CnFleet")
+	slot0.fleetToggleMask = slot0._tf:Find("blur_panel/list_mask")
+	slot0.fleetToggleList = slot0.fleetToggleMask:Find("list")
 	slot0.fleetToggles = {}
 
 	for slot4 = 1, uv0.MAX_FLEET_NUM do
-		slot0.fleetToggles[slot4] = slot0:findTF("item" .. slot4, slot0.fleetToggleList)
+		slot0.fleetToggles[slot4] = slot0.fleetToggleList:Find("item" .. slot4)
 	end
 
 	slot0._vanGSTxt = slot0._vanguardGS:Find("Text"):GetComponent("Text")
@@ -136,9 +142,9 @@ slot0.init = function(slot0)
 		[FleetType.Submarine] = 1
 	}
 
-	setText(findTF(slot0._tf, "gear_score/main/line/Image/text1"), i18n("pre_combat_main"))
-	setText(findTF(slot0._tf, "gear_score/vanguard/line/Image/text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(slot0._adapt:Find("gear_score/main/line/Image/text1"), i18n("pre_combat_main"))
+	setText(slot0._adapt:Find("gear_score/vanguard/line/Image/text1"), i18n("pre_combat_vanguard"))
+	setText(slot0._adapt:Find("gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 end
 
 slot0.setShips = function(slot0, slot1)
@@ -325,13 +331,11 @@ slot0.didEnter = function(slot0)
 			end)
 		end
 	end, SOUND_BACK)
-	setActive(slot0:findTF("stamp"), BATTLE_DEBUG or getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
-	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp"), false)
-	end
+	slot0._stamp = slot0._adapt:Find("stamp")
 
-	onButton(slot0, slot0:findTF("stamp"), function ()
+	setActive(slot0._stamp, not LOCK_CLICK_MINGSHI and (BATTLE_DEBUG or getProxy(TaskProxy):mingshiTouchFlagEnabled()))
+	onButton(slot0, slot0._stamp, function ()
 		if BATTLE_DEBUG then
 			print(uv0._currentFleetVO:genRobotDataString())
 		end
@@ -510,7 +514,7 @@ end
 slot0.displayFleetInfo = function(slot0)
 	SetActive(slot0._prevPage, slot0:selectFleetByStep(-1))
 	SetActive(slot0._nextPage, slot0:selectFleetByStep(1))
-	setActive(slot0:findTF("gear_score"), true)
+	setActive(slot0._adapt:Find("gear_score"), true)
 	setActive(slot0._vanguardGS, false)
 	setActive(slot0._mainGS, false)
 	setActive(slot0._subGS, false)
@@ -633,7 +637,7 @@ slot0.initAttrFrame = function(slot0)
 		[TeamType.Submarine] = slot0._currentFleetVO.subShips
 	}) do
 		if #slot0._cards[slot6] == 0 then
-			slot9 = slot0:findTF(slot6 .. "/list", slot0._attrFrame)
+			slot9 = slot0._attrFrame:Find(slot6 .. "/list")
 
 			for slot13 = 1, 3 do
 				table.insert(slot8, FormationDetailCard.New(cloneTplTo(slot0._cardTpl, slot9).gameObject))
@@ -678,9 +682,9 @@ slot0.updateAttrFrame = function(slot0)
 		end
 	end
 
-	setActive(slot0:findTF(TeamType.Main, slot0._attrFrame), slot2 == FleetType.Normal)
-	setActive(slot0:findTF(TeamType.Submarine, slot0._attrFrame), slot2 == FleetType.Submarine)
-	setActive(slot0:findTF(TeamType.Vanguard .. "/vanguard", slot0._attrFrame), slot2 ~= FleetType.Submarine)
+	setActive(slot0._attrFrame:Find(TeamType.Main), slot2 == FleetType.Normal)
+	setActive(slot0._attrFrame:Find(TeamType.Submarine), slot2 == FleetType.Submarine)
+	setActive(slot0._attrFrame:Find(TeamType.Vanguard .. "/vanguard"), slot2 ~= FleetType.Submarine)
 	slot0:updateUltimateTitle()
 end
 

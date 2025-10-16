@@ -7,16 +7,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.rotateTF = slot0:findTF("progress/Image")
-	slot0.dayTF = slot0:findTF("time/day")
+	slot1 = slot0._tf
+	slot0.rotateTF = slot1:Find("progress/Image")
+	slot1 = slot0._tf
+	slot0.dayTF = slot1:Find("time/day")
 
 	setText(slot0.dayTF, "DAY")
 
-	slot0.beforeDay = slot0:findTF("time/day_1")
-	slot0.afterDay = slot0:findTF("time/day_2")
-	slot0.pointTF = slot0:findTF("time/point")
-	slot0.pointAfterTF = slot0:findTF("time/point_after")
-	slot1 = slot0:findTF("time")
+	slot1 = slot0._tf
+	slot0.beforeDay = slot1:Find("time/day_1")
+	slot1 = slot0._tf
+	slot0.afterDay = slot1:Find("time/day_2")
+	slot1 = slot0._tf
+	slot0.pointTF = slot1:Find("time/point")
+	slot1 = slot0._tf
+	slot0.pointAfterTF = slot1:Find("time/point_after")
+	slot1 = slot0._tf
+	slot1 = slot1:Find("time")
 	slot0.timeAnim = slot1:GetComponent(typeof(Animation))
 	slot1 = slot0._tf
 	slot0.anim = slot1:GetComponent(typeof(Animation))

@@ -25,8 +25,8 @@ end
 slot0.init = function(slot0)
 	slot0._animator = GetComponent(slot0._tf, "Animator")
 	slot0._canvasGroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0._shake = slot0:findTF("shake_panel")
-	slot0._shade = slot0:findTF("shade")
+	slot0._shake = slot0._tf:Find("shake_panel")
+	slot0._shade = slot0._tf:Find("shade")
 	slot0._bg = slot0._shake:Find("bg")
 	slot0._drag = slot0._shake:Find("drag")
 	slot0._paintingTF = slot0._shake:Find("paint")
@@ -44,23 +44,23 @@ slot0.init = function(slot0)
 	slot0._shareBtn = slot0._left:Find("share_btn")
 	slot0.audioBtn = slot0._shake:Find("property_btn")
 	slot0.clickTF = slot0._shake:Find("click")
-	slot0.npc = slot0:findTF("shake_panel/npc")
+	slot0.npc = slot0._tf:Find("shake_panel/npc")
 
 	setActive(slot0.npc, false)
 
 	slot0.newTF = slot0._shake:Find("New")
 	slot0.rarityTF = slot0._shake:Find("rarity")
 	slot0.starsTF = slot0.rarityTF:Find("stars")
-	slot0.starsCont = slot0:findTF("content", slot0.starsTF)
+	slot0.starsCont = slot0.starsTF:Find("content")
 	slot0._skipButton = slot0._shake:Find("ForNotch/skip")
 
 	setActive(slot0._skipButton, slot0.contextData.canSkipBatch)
 	setActive(slot0._left, true)
 	setActive(slot0.audioBtn, true)
-	slot0:OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
-	slot0.metaRepeatTF = slot0:findTF("MetaRepeat", slot0.rarityTF)
-	slot0.metaDarkTF = slot0:findTF("MetaMask", slot0._shake)
+	slot0.metaRepeatTF = slot0.rarityTF:Find("MetaRepeat")
+	slot0.metaDarkTF = slot0._shake:Find("MetaMask")
 	slot0.rarityEffect = {}
 
 	if slot0.contextData.autoExitTime then
@@ -191,13 +191,13 @@ slot0.setShip = function(slot0, slot1)
 		slot0:updateLockTF(slot1:getReMetaSpecialItemVO() ~= nil)
 
 		if slot4 then
-			slot5 = slot0:findTF("Icon", slot0.metaRepeatTF)
+			slot5 = slot0.metaRepeatTF:Find("Icon")
 
 			setImageSprite(slot5, LoadSprite(slot4:getConfig("icon")))
 			GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot5)
-			setText(slot0:findTF("Count", slot0.metaRepeatTF), slot4.count)
-			setActive(slot0:findTF("Special", slot0.metaRepeatTF), slot4.id == pg.ship_transform[slot0._shipVO.groupId].exclusive_item[1][2])
-			setActive(slot0:findTF("Commom", slot0.metaRepeatTF), slot4.id == pg.ship_transform[slot0._shipVO.groupId].common_item[1][2])
+			setText(slot0.metaRepeatTF:Find("Count"), slot4.count)
+			setActive(slot0.metaRepeatTF:Find("Special"), slot4.id == pg.ship_transform[slot0._shipVO.groupId].exclusive_item[1][2])
+			setActive(slot0.metaRepeatTF:Find("Commom"), slot4.id == pg.ship_transform[slot0._shipVO.groupId].common_item[1][2])
 		else
 			setActive(slot0.metaRepeatTF, false)
 		end
@@ -314,8 +314,8 @@ slot0.setShip = function(slot0, slot1)
 			slot0.transform:SetSiblingIndex(1)
 
 			if uv2:isMetaShip() then
-				slot1 = uv0
-				slot1 = slot1:findTF("fire_ruchang", tf(slot0))
+				slot1 = tf(slot0)
+				slot1 = slot1:Find("fire_ruchang")
 				slot2 = slot1:GetComponent(typeof(DftAniEvent))
 
 				slot2:SetEndEvent(function (slot0)
@@ -849,7 +849,7 @@ slot0.willExit = function(slot0)
 	end
 
 	slot0:recyclePainting()
-	slot0:UnOverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:stopVoice()
 
 	if slot0.loadedCVBankName then

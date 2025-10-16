@@ -16,11 +16,11 @@ slot0.edge2area = {
 }
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._closeBtn = slot0:findTF("top/return_btn")
-	slot0._homeBtn = slot0:findTF("top/return_main_btn")
-	slot0._helpBtn = slot0:findTF("top/help_btn")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("top")
+	slot0._closeBtn = slot0._tf:Find("top/return_btn")
+	slot0._homeBtn = slot0._tf:Find("top/return_main_btn")
+	slot0._helpBtn = slot0._tf:Find("top/help_btn")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
@@ -38,7 +38,7 @@ slot0.init = function(slot0)
 	}
 	slot0._shipTpl = slot0._map:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.SpringFestivalTownGraph"))
-	slot0._upper = slot0:findTF("upper")
+	slot0._upper = slot0._tf:Find("upper")
 	slot0.usableTxt = slot0.top:Find("usable_count/Text"):GetComponent(typeof(Text))
 	slot0.diedieleTF = slot0.top:Find("diediele_count")
 	slot0.diedieleTxt = slot0.diedieleTF:Find("Text"):GetComponent(typeof(Text))

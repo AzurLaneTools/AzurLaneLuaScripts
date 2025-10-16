@@ -7,30 +7,52 @@ slot0.DropType2Name = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
-	slot0.itemPanel = slot0:findTF("item_panel", slot0.bg)
-	slot0.togglesTF = slot0:findTF("toggles", slot0.itemPanel)
-	slot0.content = slot0:findTF("item_list/content", slot0.itemPanel)
-	slot0.itemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("AD")
+	slot1 = slot0.bg
+	slot0.btnList = slot1:Find("btn_list")
+	slot1 = slot0.bg
+	slot0.itemPanel = slot1:Find("item_panel")
+	slot1 = slot0.itemPanel
+	slot0.togglesTF = slot1:Find("toggles")
+	slot1 = slot0.itemPanel
+	slot0.content = slot1:Find("item_list/content")
+	slot3 = slot0.content
+	slot0.itemList = UIItemList.New(slot0.content, slot3:Find("tpl"))
+	slot2 = slot0.content
 
-	setText(slot0:findTF("tpl/owner/title", slot0.content), i18n("collect_page_got"))
+	setText(slot2:Find("tpl/owner/title"), i18n("collect_page_got"))
 
-	slot0.boxTF = slot0:findTF("Box")
-	slot0.boxBG = slot0:findTF("BG", slot0.boxTF)
-	slot0.panel = slot0:findTF("Panel", slot0.boxTF)
-	slot0.infoTF = slot0:findTF("Info", slot0.panel)
-	slot0.boxCloseBtn = slot0:findTF("CloseBtn", slot0.infoTF)
-	slot0.Title = slot0:findTF("Title", slot0.infoTF)
-	slot0.boxIconTF = slot0:findTF("Icon/Mask/IconTpl", slot0.infoTF)
-	slot0.boxNameText = slot0:findTF("NameText", slot0.infoTF)
-	slot0.boxNumTF = slot0:findTF("Num", slot0.infoTF)
-	slot0.boxNumTip = slot0:findTF("Text", slot0.boxNumTF)
-	slot0.boxNumText = slot0:findTF("NumText", slot0.boxNumTF)
-	slot0.boxDescText = slot0:findTF("DescText", slot0.infoTF)
-	slot0.boxSrcText = slot0:findTF("SrcText", slot0.infoTF)
-	slot0.boxSrcContent = slot0:findTF("Content", slot0.panel)
-	slot0.boxSrcTpl = slot0:findTF("SrcTpl", slot0.boxSrcContent)
+	slot1 = slot0._tf
+	slot0.boxTF = slot1:Find("Box")
+	slot1 = slot0.boxTF
+	slot0.boxBG = slot1:Find("BG")
+	slot1 = slot0.boxTF
+	slot0.panel = slot1:Find("Panel")
+	slot1 = slot0.panel
+	slot0.infoTF = slot1:Find("Info")
+	slot1 = slot0.infoTF
+	slot0.boxCloseBtn = slot1:Find("CloseBtn")
+	slot1 = slot0.infoTF
+	slot0.Title = slot1:Find("Title")
+	slot1 = slot0.infoTF
+	slot0.boxIconTF = slot1:Find("Icon/Mask/IconTpl")
+	slot1 = slot0.infoTF
+	slot0.boxNameText = slot1:Find("NameText")
+	slot1 = slot0.infoTF
+	slot0.boxNumTF = slot1:Find("Num")
+	slot1 = slot0.boxNumTF
+	slot0.boxNumTip = slot1:Find("Text")
+	slot1 = slot0.boxNumTF
+	slot0.boxNumText = slot1:Find("NumText")
+	slot1 = slot0.infoTF
+	slot0.boxDescText = slot1:Find("DescText")
+	slot1 = slot0.infoTF
+	slot0.boxSrcText = slot1:Find("SrcText")
+	slot1 = slot0.panel
+	slot0.boxSrcContent = slot1:Find("Content")
+	slot1 = slot0.boxSrcContent
+	slot0.boxSrcTpl = slot1:Find("SrcTpl")
 
 	onButton(slot0, slot0.boxBG, function ()
 		uv0:showBoxPanel(false)
@@ -102,7 +124,8 @@ slot0.AddTogglesListener = function(slot0)
 	assert(#slot0:GetTogglesDropTypes() == slot0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot7 = slot0:findTF(uv0.DropType2Name[slot6], slot0.togglesTF)
+		slot7 = slot0.togglesTF
+		slot7 = slot7:Find(uv0.DropType2Name[slot6])
 
 		onToggle(slot0, slot7, function (slot0)
 			if slot0 then
@@ -116,7 +139,7 @@ end
 
 slot0.AddSpecialBtnListener = function(slot0)
 	slot1 = slot0.activity:getConfig("config_client")
-	slot0.furnitureThemeBtn = slot0:findTF("furniture_theme", slot0.btnList)
+	slot0.furnitureThemeBtn = slot0.btnList:Find("furniture_theme")
 
 	if slot0.furnitureThemeBtn and slot1.furniture_theme_link then
 		onButton(slot0, slot0.furnitureThemeBtn, function ()
@@ -127,7 +150,7 @@ slot0.AddSpecialBtnListener = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.medalBtn = slot0:findTF("medal", slot0.btnList)
+	slot0.medalBtn = slot0.btnList:Find("medal")
 
 	if slot0.medalBtn and slot1.medal_link then
 		onButton(slot0, slot0.medalBtn, function ()
@@ -138,7 +161,7 @@ slot0.AddSpecialBtnListener = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.equipSkinBoxBtn = slot0:findTF("equip_skin_box", slot0.btnList)
+	slot0.equipSkinBoxBtn = slot0.btnList:Find("equip_skin_box")
 
 	if slot0.equipSkinBoxBtn and slot1.equipskin_box_link then
 		slot2 = Drop.New({
@@ -162,7 +185,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
-	slot4 = slot0:findTF("icon_mask/icon", slot2)
+	slot4 = slot2:Find("icon_mask/icon")
 
 	updateDrop(slot4, {
 		type = slot3.config.type,
@@ -171,20 +194,20 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	onButton(slot0, slot4, function ()
 		uv0:OnClickItem(uv1)
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
+	changeToScrollText(slot2:Find("name_mask/name"), Drop.New({
 		type = slot3.config.type,
 		id = slot3.config.drop_id
 	}):getName())
 	slot0:RefreshCountText(slot3, slot2)
 
-	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
+	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
 
-	setActive(slot0:findTF("got", slot2), slot3.count == slot3.config.count)
-	setActive(slot0:findTF("new", slot2), slot3.config.is_new == "1")
+	setActive(slot2:Find("got"), slot3.count == slot3.config.count)
+	setActive(slot2:Find("new"), slot3.config.is_new == "1")
 end
 
 slot0.RefreshCountText = function(slot0, slot1, slot2)
-	setText(slot0:findTF("owner/number", slot2), slot1.count .. "/" .. slot1.config.count)
+	setText(slot2:Find("owner/number"), slot1.count .. "/" .. slot1.config.count)
 end
 
 slot0.OnClickItem = function(slot0, slot1)
@@ -246,15 +269,12 @@ slot0.updateBoxPanel = function(slot0, slot1)
 			slot3 = uv0.skipable_list[slot1 + 1]
 			slot4 = slot3[1]
 			slot5 = slot3[2]
-			slot8 = uv1
 
-			changeToScrollText(slot8:findTF("SrcText", slot2), slot3[3])
+			changeToScrollText(slot2:Find("SrcText"), slot3[3])
 
-			slot7 = uv1
-			slot7 = slot7:findTF("GoBtn", slot2)
-			slot9 = uv1
+			slot7 = slot2:Find("GoBtn")
 
-			setText(slot9:findTF("go", slot7), i18n("brs_reward_tip_2"))
+			setText(slot7:Find("go"), i18n("brs_reward_tip_2"))
 			onButton(uv1, slot7, function ()
 				uv0:DoSkip(uv1, uv2)
 				uv0:showBoxPanel(false)

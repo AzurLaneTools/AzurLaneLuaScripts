@@ -21,12 +21,12 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.powerUpTipPanel = slot0:findTF("Main")
-	slot0.shipLevelUpBtn = slot0:findTF("ShipLevelUpBtn", slot0.powerUpTipPanel)
-	slot0.equipLevelUpBtn = slot0:findTF("EquipLevelUpBtn", slot0.powerUpTipPanel)
-	slot0.skillLevelUpBtn = slot0:findTF("SkillLevelUpBtn", slot0.powerUpTipPanel)
-	slot0.shipBreakUpBtn = slot0:findTF("ShipBreakUpBtn", slot0.powerUpTipPanel)
-	slot0.closeBtn = slot0:findTF("CloseBtn", slot0.powerUpTipPanel)
+	slot0.powerUpTipPanel = slot0._tf:Find("Main")
+	slot0.shipLevelUpBtn = slot0.powerUpTipPanel:Find("ShipLevelUpBtn")
+	slot0.equipLevelUpBtn = slot0.powerUpTipPanel:Find("EquipLevelUpBtn")
+	slot0.skillLevelUpBtn = slot0.powerUpTipPanel:Find("SkillLevelUpBtn")
+	slot0.shipBreakUpBtn = slot0.powerUpTipPanel:Find("ShipBreakUpBtn")
+	slot0.closeBtn = slot0.powerUpTipPanel:Find("CloseBtn")
 end
 
 slot0.addListener = function(slot0)

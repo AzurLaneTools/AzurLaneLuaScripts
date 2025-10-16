@@ -7,14 +7,14 @@ slot0.DropType2Name = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
-	slot0.itemPanel = slot0:findTF("item_panel", slot0.bg)
-	slot0.togglesTF = slot0:findTF("toggles", slot0.itemPanel)
-	slot0.content = slot0:findTF("item_list/content", slot0.itemPanel)
-	slot0.itemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.btnList = slot0.bg:Find("btn_list")
+	slot0.itemPanel = slot0.bg:Find("item_panel")
+	slot0.togglesTF = slot0.itemPanel:Find("toggles")
+	slot0.content = slot0.itemPanel:Find("item_list/content")
+	slot0.itemList = UIItemList.New(slot0.content, slot0.content:Find("tpl"))
 
-	setText(slot0:findTF("tpl/owner/title", slot0.content), i18n("collect_page_got"))
+	setText(slot0.content:Find("tpl/owner/title"), i18n("collect_page_got"))
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -79,7 +79,8 @@ slot0.AddTogglesListener = function(slot0)
 	assert(#slot0:GetTogglesDropTypes() == slot0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot7 = slot0:findTF(uv0.DropType2Name[slot6], slot0.togglesTF)
+		slot7 = slot0.togglesTF
+		slot7 = slot7:Find(uv0.DropType2Name[slot6])
 
 		onToggle(slot0, slot7, function (slot0)
 			if slot0 then
@@ -93,7 +94,7 @@ end
 
 slot0.AddSpecialBtnListener = function(slot0)
 	slot1 = slot0.activity:getConfig("config_client")
-	slot0.furnitureThemeBtn = slot0:findTF("furniture_theme", slot0.btnList)
+	slot0.furnitureThemeBtn = slot0.btnList:Find("furniture_theme")
 
 	if slot0.furnitureThemeBtn and slot1.furniture_theme_link then
 		onButton(slot0, slot0.furnitureThemeBtn, function ()
@@ -101,7 +102,7 @@ slot0.AddSpecialBtnListener = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.medalBtn = slot0:findTF("medal", slot0.btnList)
+	slot0.medalBtn = slot0.btnList:Find("medal")
 
 	if slot0.medalBtn and slot1.medal_link then
 		onButton(slot0, slot0.medalBtn, function ()
@@ -109,7 +110,7 @@ slot0.AddSpecialBtnListener = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.equipSkinBoxBtn = slot0:findTF("equip_skin_box", slot0.btnList)
+	slot0.equipSkinBoxBtn = slot0.btnList:Find("equip_skin_box")
 
 	if slot0.equipSkinBoxBtn and slot1.equipskin_box_link then
 		slot2 = Drop.New({
@@ -133,7 +134,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
-	slot4 = slot0:findTF("icon_mask/icon", slot2)
+	slot4 = slot2:Find("icon_mask/icon")
 
 	updateDrop(slot4, {
 		type = slot3.config.type,
@@ -142,16 +143,16 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	onButton(slot0, slot4, function ()
 		uv0:OnClickItem(uv1)
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
+	changeToScrollText(slot2:Find("name_mask/name"), Drop.New({
 		type = slot3.config.type,
 		id = slot3.config.drop_id
 	}):getName())
-	setText(slot0:findTF("owner/number", slot2), slot3.count .. "/" .. slot3.config.count)
+	setText(slot2:Find("owner/number"), slot3.count .. "/" .. slot3.config.count)
 
-	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
+	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
 
-	setActive(slot0:findTF("got", slot2), slot3.count == slot3.config.count)
-	setActive(slot0:findTF("new", slot2), slot3.config.is_new == "1")
+	setActive(slot2:Find("got"), slot3.count == slot3.config.count)
+	setActive(slot2:Find("new"), slot3.config.is_new == "1")
 end
 
 slot0.OnClickItem = function(slot0, slot1)

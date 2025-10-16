@@ -21,8 +21,8 @@ end
 slot0.InitUI = function(slot0)
 	slot1 = slot0._tf:Find("Panel")
 	slot0.tfFleets = {
-		[FleetType.Normal] = slot0:findTF("Panel/Fleet/Normal"),
-		[FleetType.Submarine] = slot0:findTF("Panel/Fleet/Submarine")
+		[FleetType.Normal] = slot0._tf:Find("Panel/Fleet/Normal"),
+		[FleetType.Submarine] = slot0._tf:Find("Panel/Fleet/Submarine")
 	}
 	slot0.btnRecommend = slot1:Find("Fleet/BtnRecommend")
 	slot0.btnClear = slot1:Find("Fleet/BtnClear")
@@ -389,13 +389,13 @@ slot0.updateEliteFleets = function(slot0)
 	if not slot4 then
 		slot9 = slot0.tfFleets[FleetType.Normal]
 
-		setText(slot0:findTF("bg/name", slot9), Fleet.DEFAULT_NAME[slot2])
+		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[slot2])
 		slot0:initAddButton(slot9, TeamType.Main, slot2)
 		slot0:initAddButton(slot9, TeamType.Vanguard, slot2)
 	else
 		slot9 = slot0.tfFleets[FleetType.Submarine]
 
-		setText(slot0:findTF("bg/name", slot9), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
+		setText(slot9:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
 		slot0:initAddButton(slot9, TeamType.Submarine, #slot0.contextData.fleets)
 	end
 

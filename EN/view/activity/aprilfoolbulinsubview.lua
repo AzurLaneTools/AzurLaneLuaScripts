@@ -19,7 +19,8 @@ slot0.OnInit = function(slot0)
 
 	assert(pg.activity_event_picturepuzzle[slot1.id], "Can't Find activity_event_picturepuzzle 's ID : " .. slot1.id)
 
-	slot0.bulin = slot0:findTF("bulin")
+	slot3 = slot0._tf
+	slot0.bulin = slot3:Find("bulin")
 
 	onButton(slot0, slot0.bulin, function ()
 		pg.m02:sendNotification(GAME.PUZZLE_PIECE_OP, {

@@ -30,23 +30,28 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.dotTF = slot0:findTF("frame/bottom/name/Image")
-	slot0.nameTF = slot0:findTF("frame/bottom/name/Text")
-	slot0.iconTF = slot0:findTF("frame/bottom/icon/mask/Image")
-	slot0.descTF = slot0:findTF("frame/bottom/Text")
-	slot0.nextTF = slot0:findTF("frame/bottom/next")
+	slot0.dotTF = slot0._tf:Find("frame/bottom/name/Image")
+	slot0.nameTF = slot0._tf:Find("frame/bottom/name/Text")
+	slot0.iconTF = slot0._tf:Find("frame/bottom/icon/mask/Image")
+	slot0.descTF = slot0._tf:Find("frame/bottom/Text")
+	slot0.nextTF = slot0._tf:Find("frame/bottom/next")
 	slot0.typewrite = GetComponent(slot0.descTF, typeof(Typewriter))
 
 	slot0.typewrite:setSpeed(uv0.TYPEWRITE_SPEED)
 
-	slot0.optionsTF = slot0:findTF("frame/options")
+	slot0.optionsTF = slot0._tf:Find("frame/options")
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("mask"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("mask"), function ()
 		uv0:OnClick()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("frame/bottom"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("frame/bottom"), function ()
 		uv0:OnClick()
 	end, SFX_PANEL)
 
@@ -70,7 +75,8 @@ slot0.OnInit = function(slot0)
 		uv0.curIndex = uv0.curIndex + 1
 	end
 
-	slot0.optionsUIList = UIItemList.New(slot0.optionsTF, slot0:findTF("tpl", slot0.optionsTF))
+	slot3 = slot0.optionsTF
+	slot0.optionsUIList = UIItemList.New(slot0.optionsTF, slot3:Find("tpl"))
 	slot1 = slot0.optionsUIList
 
 	slot1:make(function (slot0, slot1, slot2)

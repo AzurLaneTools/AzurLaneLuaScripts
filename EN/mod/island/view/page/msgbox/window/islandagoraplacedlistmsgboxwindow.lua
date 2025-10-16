@@ -34,11 +34,21 @@ end
 
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
-	setText(slot0:findTF("list/titles/1"), i18n("island_label_furniture"))
-	setText(slot0:findTF("list/titles/2"), i18n("island_label_furniture_cnt"))
-	setText(slot0:findTF("list/titles/3"), i18n("island_label_furniture_capacity"))
 
-	slot1 = slot0:findTF("capacity")
+	slot2 = slot0._tf
+
+	setText(slot2:Find("list/titles/1"), i18n("island_label_furniture"))
+
+	slot2 = slot0._tf
+
+	setText(slot2:Find("list/titles/2"), i18n("island_label_furniture_cnt"))
+
+	slot2 = slot0._tf
+
+	setText(slot2:Find("list/titles/3"), i18n("island_label_furniture_capacity"))
+
+	slot1 = slot0._tf
+	slot1 = slot1:Find("capacity")
 	slot0.capacityTxt = slot1:GetComponent(typeof(Text))
 	slot1 = slot0._tf
 	slot1 = slot1:Find("list/scrollrect")

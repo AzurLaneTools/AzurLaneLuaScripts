@@ -3,11 +3,11 @@ slot0 = class("CpkPerformPlayer", import(".BasePerformPlayer"))
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.bgTF = slot0:findTF("bg", slot0._tf)
-	slot0.nameTF = slot0:findTF("name", slot0.bgTF)
-	slot0.sliderTF = slot0:findTF("slider", slot0.bgTF)
-	slot0.cpkParentTF = slot0:findTF("cpk", slot0.bgTF)
-	slot0.cpkCoverTF = slot0:findTF("cpk_cover", slot0.bgTF)
+	slot0.bgTF = slot0._tf:Find("bg")
+	slot0.nameTF = slot0.bgTF:Find("name")
+	slot0.sliderTF = slot0.bgTF:Find("slider")
+	slot0.cpkParentTF = slot0.bgTF:Find("cpk")
+	slot0.cpkCoverTF = slot0.bgTF:Find("cpk_cover")
 	slot0.frameRate = Application.targetFrameRate or 60
 	slot2 = pg.child_data[1]
 	slot0.maxStage = #slot2.stage

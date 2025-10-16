@@ -6,7 +6,7 @@ end
 
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
-	setText(slot0:findTF("ticket/Desc", slot0.top), i18n("word_special_challenge_ticket"))
+	setText(slot0.top:Find("ticket/Desc"), i18n("word_special_challenge_ticket"))
 end
 
 slot0.UpdateDropItems = function(slot0)
@@ -14,7 +14,8 @@ slot0.UpdateDropItems = function(slot0)
 	slot2 = slot0.contextData.DisplayItems or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		slot6 = slot0:findTF("milestone/item/IconTpl", slot0.barList[slot4])
+		slot6 = slot0.barList[slot4]
+		slot6 = slot6:Find("milestone/item/IconTpl")
 
 		updateDrop(slot6, {
 			type = slot0.contextData.DisplayItems[5 - slot4][1],

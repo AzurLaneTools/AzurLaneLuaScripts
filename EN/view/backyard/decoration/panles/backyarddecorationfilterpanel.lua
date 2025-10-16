@@ -55,18 +55,18 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.sortTpl = slot0:findTF("bg/sort_tpl")
-	slot0.filterTpl = slot0:findTF("bg/filter_tpl")
-	slot0.sortContainer = slot0:findTF("bg/frame/sorts/sort_container")
-	slot0.filterContainer = slot0:findTF("bg/frame/filters/rect_view/conent/theme_panel")
-	slot0.selectedAllBtn = slot0:findTF("bg/frame/filters/rect_view/conent/all_panel/sort_tpl")
-	slot0.close = slot0:findTF("bg/close")
+	slot0.sortTpl = slot0._tf:Find("bg/sort_tpl")
+	slot0.filterTpl = slot0._tf:Find("bg/filter_tpl")
+	slot0.sortContainer = slot0._tf:Find("bg/frame/sorts/sort_container")
+	slot0.filterContainer = slot0._tf:Find("bg/frame/filters/rect_view/conent/theme_panel")
+	slot0.selectedAllBtn = slot0._tf:Find("bg/frame/filters/rect_view/conent/all_panel/sort_tpl")
+	slot0.close = slot0._tf:Find("bg/close")
 
-	setText(slot0:findTF("bg/frame/title"), i18n("indexsort_sort"))
-	setText(slot0:findTF("bg/frame/title_filter"), i18n("indexsort_index"))
+	setText(slot0._tf:Find("bg/frame/title"), i18n("indexsort_sort"))
+	setText(slot0._tf:Find("bg/frame/title_filter"), i18n("indexsort_index"))
 	setText(slot0.selectedAllBtn:Find("Text"), i18n("index_all"))
-	setText(slot0:findTF("bg/frame/confirm_btn/Text"), i18n("word_ok"))
-	setText(slot0:findTF("bg/title"), i18n("courtyard_label_filter"))
+	setText(slot0._tf:Find("bg/frame/confirm_btn/Text"), i18n("word_ok"))
+	setText(slot0._tf:Find("bg/title"), i18n("courtyard_label_filter"))
 end
 
 slot0.setFilterData = function(slot0, slot1)
@@ -86,7 +86,7 @@ slot0.updateOrderMode = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0:findTF("bg/frame/confirm_btn"), function ()
+	onButton(slot0, slot0._tf:Find("bg/frame/confirm_btn"), function ()
 		uv0:filter()
 		uv0:Hide()
 

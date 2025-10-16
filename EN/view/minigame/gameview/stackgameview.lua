@@ -7,11 +7,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("overview/back")
-	slot0.scrollrect = slot0:findTF("overview/levels"):GetComponent(typeof(ScrollRect))
-	slot0.levelUIlist = UIItemList.New(slot0:findTF("overview/levels/mask/content"), slot0:findTF("overview/levels/mask/content/1"))
-	slot0.topArrBtn = slot0:findTF("overview/levels/top")
-	slot0.bottomArrBtn = slot0:findTF("overview/levels/bottom")
+	slot0.backBtn = slot0._tf:Find("overview/back")
+	slot0.scrollrect = slot0._tf:Find("overview/levels"):GetComponent(typeof(ScrollRect))
+	slot0.levelUIlist = UIItemList.New(slot0._tf:Find("overview/levels/mask/content"), slot0._tf:Find("overview/levels/mask/content/1"))
+	slot0.topArrBtn = slot0._tf:Find("overview/levels/top")
+	slot0.bottomArrBtn = slot0._tf:Find("overview/levels/bottom")
 end
 
 slot1 = 7

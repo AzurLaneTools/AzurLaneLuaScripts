@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.scrollPanel = slot0:findTF("window/panel")
-	slot0.UIlist = UIItemList.New(slot0:findTF("window/panel/list"), slot0:findTF("window/panel/list/item"))
-	slot0.ptTF = slot0:findTF("window/top/pt")
-	slot0.totalTxt = slot0:findTF("window/top/pt/Text"):GetComponent(typeof(Text))
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
-	slot0.getBtn = slot0:findTF("window/btn_get")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.scrollPanel = slot0._tf:Find("window/panel")
+	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
+	slot0.ptTF = slot0._tf:Find("window/top/pt")
+	slot0.totalTxt = slot0._tf:Find("window/top/pt/Text"):GetComponent(typeof(Text))
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+	slot0.getBtn = slot0._tf:Find("window/btn_get")
 end
 
 slot0.didEnter = function(slot0)

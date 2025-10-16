@@ -7,12 +7,12 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.listBtn = slot0:findTF("list_btn")
-	slot0.metaWorldbossBtn = MetaWorldbossBtn.New(slot0:findTF("archives_btn"), slot0.event)
+	slot0.listBtn = slot0._tf:Find("list_btn")
+	slot0.metaWorldbossBtn = MetaWorldbossBtn.New(slot0._tf:Find("archives_btn"), slot0.event)
 	slot0.helpWindow = WorldBossHelpPage.New(slot0._tf, slot0.event)
-	slot0.currProgressTr = slot0:findTF("progress")
-	slot0.currProgressTxt = slot0:findTF("progress/value"):GetComponent(typeof(Text))
-	slot0.ptBtn = WorldbossPtBtn.New(slot0:findTF("point"))
+	slot0.currProgressTr = slot0._tf:Find("progress")
+	slot0.currProgressTxt = slot0._tf:Find("progress/value"):GetComponent(typeof(Text))
+	slot0.ptBtn = WorldbossPtBtn.New(slot0._tf:Find("point"))
 end
 
 slot0.OnInit = function(slot0)
@@ -32,7 +32,10 @@ slot0.OnInit = function(slot0)
 			frame = slot0.rarity
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("point/help"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("point/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help_meta.tip

@@ -47,7 +47,7 @@ slot0.onDestroy = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot1 = slot0:findTF("IconList")
+	slot1 = slot0._tf:Find("IconList")
 	slot0.nameList = {
 		"feiniao",
 		"banjiu",
@@ -69,12 +69,12 @@ slot0.findUI = function(slot0)
 	slot0.iconSpriteDict = {}
 
 	for slot5, slot6 in ipairs(slot0.nameList) do
-		slot8 = getImageSprite(slot0:findTF(slot6, slot1))
+		slot8 = getImageSprite(slot1:Find(slot6))
 		slot0.iconSpriteDict[slot5] = slot8
 		slot0.iconSpriteDict[slot6] = slot8
 	end
 
-	slot2 = slot0:findTF("HXList")
+	slot2 = slot0._tf:Find("HXList")
 	slot0.hxSpriteDict = {}
 
 	for slot7, slot8 in ipairs({
@@ -84,7 +84,7 @@ slot0.findUI = function(slot0)
 		"xuebugui",
 		"xishao"
 	}) do
-		slot0.hxSpriteDict[slot8] = getImageSprite(slot0:findTF(slot8, slot2))
+		slot0.hxSpriteDict[slot8] = getImageSprite(slot2:Find(slot8))
 	end
 
 	slot0.hxPosDict = {
@@ -139,17 +139,17 @@ slot0.findUI = function(slot0)
 			y = -1
 		}
 	}
-	slot0.posPanel = slot0:findTF("PosPanel")
-	slot0.finalLockTF = slot0:findTF("FinalAward/Lock", slot0.posPanel)
-	slot0.finalGotTF = slot0:findTF("FinalAward/Got", slot0.posPanel)
+	slot0.posPanel = slot0._tf:Find("PosPanel")
+	slot0.finalLockTF = slot0.posPanel:Find("FinalAward/Lock")
+	slot0.finalGotTF = slot0.posPanel:Find("FinalAward/Got")
 	slot0.posTFList = {}
-	slot4 = slot0:findTF("PosList", slot0.posPanel)
+	slot4 = slot0.posPanel:Find("PosList")
 
 	for slot8 = 1, #slot0.nameList do
-		slot9 = slot0:findTF(slot8, slot4)
+		slot9 = slot4:Find(slot8)
 
 		table.insert(slot0.posTFList, slot9)
-		onButton(slot0, slot0:findTF("Get", slot9), function ()
+		onButton(slot0, slot9:Find("Get"), function ()
 			if uv0:getStep() < uv0:getCurDayCount() and slot0 < uv0.groupNum then
 				uv0.markClickPos = uv1
 
@@ -158,30 +158,30 @@ slot0.findUI = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot0.taskPanel = slot0:findTF("TaskPanel")
-	slot0.paintingTF = slot0:findTF("PaintingPanel/Main/Painting", slot0.taskPanel)
-	slot0.paintingHXTF = slot0:findTF("PaintingPanel/Main/HX", slot0.taskPanel)
+	slot0.taskPanel = slot0._tf:Find("TaskPanel")
+	slot0.paintingTF = slot0.taskPanel:Find("PaintingPanel/Main/Painting")
+	slot0.paintingHXTF = slot0.taskPanel:Find("PaintingPanel/Main/HX")
 	slot0.progressTFList = {}
-	slot5 = slot0:findTF("Progress", slot0.taskPanel)
+	slot5 = slot0.taskPanel:Find("Progress")
 
 	for slot9 = 1, #slot0.nameList do
-		slot0.progressTFList[slot9] = slot0:findTF(slot9, slot5)
+		slot0.progressTFList[slot9] = slot5:Find(slot9)
 	end
 
 	slot0.taskTFList = {
-		slot0:findTF("Task1", slot0.taskPanel),
-		slot0:findTF("Task2", slot0.taskPanel)
+		slot0.taskPanel:Find("Task1"),
+		slot0.taskPanel:Find("Task2")
 	}
-	slot0.logText = slot0:findTF("LogText")
+	slot0.logText = slot0._tf:Find("LogText")
 end
 
 slot0.updatePosPanel = function(slot0)
 	slot2 = slot0.activity.data1_list
 
 	for slot6, slot7 in ipairs(slot0.posTFList) do
-		slot9 = slot0:findTF("Got", slot7)
+		slot9 = slot7:Find("Got")
 
-		setImageSprite(slot0:findTF("Icon", slot9), slot0.iconSpriteDict[slot2[slot6]], true)
+		setImageSprite(slot9:Find("Icon"), slot0.iconSpriteDict[slot2[slot6]], true)
 		setActive(slot9, slot2[slot6] > 0)
 	end
 
@@ -203,19 +203,19 @@ slot0.updateTaskList = function(slot0)
 	for slot5, slot6 in ipairs(slot0.taskTFList) do
 		slot8 = slot0.taskProxy:getTaskVO(slot1[slot5])
 
-		setText(slot0:findTF("Desc", slot6), slot8:getConfig("desc"))
+		setText(slot6:Find("Desc"), slot8:getConfig("desc"))
 
 		slot10 = slot8:getProgress()
 		slot11 = slot8:getConfig("target_num")
 
-		setText(slot0:findTF("ProgressText", slot6), slot10 .. "/" .. slot11)
-		setSlider(slot0:findTF("ProgressBar", slot6), 0, slot11, slot10)
+		setText(slot6:Find("ProgressText"), slot10 .. "/" .. slot11)
+		setSlider(slot6:Find("ProgressBar"), 0, slot11, slot10)
 
-		slot15 = slot0:findTF("GetBtn", slot6)
+		slot15 = slot6:Find("GetBtn")
 
-		setActive(slot0:findTF("GoBtn", slot6), slot8:getTaskStatus() == 0)
+		setActive(slot6:Find("GoBtn"), slot8:getTaskStatus() == 0)
 		setActive(slot15, slot14 == 1)
-		setActive(slot0:findTF("GotBtn", slot6), slot14 == 2)
+		setActive(slot6:Find("GotBtn"), slot14 == 2)
 		onButton(slot0, slot17, function ()
 			uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 		end, SFX_PANEL)
@@ -224,7 +224,7 @@ slot0.updateTaskList = function(slot0)
 		end, SFX_PANEL)
 
 		slot18 = slot8:getConfig("award_display")[1]
-		slot20 = slot0:findTF("Icon", slot6)
+		slot20 = slot6:Find("Icon")
 
 		updateDrop(slot20, {
 			type = slot18[1],
@@ -251,9 +251,9 @@ slot0.updateProgress = function(slot0)
 	slot1 = slot0:getStep()
 
 	for slot5, slot6 in ipairs(slot0.progressTFList) do
-		setActive(slot0:findTF("Got", slot6), slot5 < slot1)
-		setActive(slot0:findTF("Get", slot6), slot1 < slot5)
-		setActive(slot0:findTF("Doing", slot6), slot5 == slot1)
+		setActive(slot6:Find("Got"), slot5 < slot1)
+		setActive(slot6:Find("Get"), slot1 < slot5)
+		setActive(slot6:Find("Doing"), slot5 == slot1)
 	end
 end
 
@@ -279,14 +279,14 @@ end
 
 slot0.openTaskAni = function(slot0)
 	slot4 = slot0.posTFList[table.indexof(slot0.activity.data1_list, slot0:getCurIndex(), 1)]
-	slot5 = slot0:findTF("Get", slot4)
-	slot6 = slot0:findTF("Got", slot4)
+	slot5 = slot4:Find("Get")
+	slot6 = slot4:Find("Got")
 
 	setImageAlpha(slot5, 1)
 	setImageAlpha(slot6, 0)
 	setActive(slot5, true)
 	setActive(slot6, true)
-	setActive(slot0:findTF("Icon", slot6), false)
+	setActive(slot6:Find("Icon"), false)
 	slot4:SetAsLastSibling()
 
 	slot10 = slot0:managedTween(LeanTween.value, nil, go(slot4), System.Action_float(function (slot0)

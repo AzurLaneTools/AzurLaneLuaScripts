@@ -5,9 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.requestPanel = slot0:findTF("request_panel")
-	slot0.requestTopTF = slot0:findTF("request_view_top")
-	slot0.refuseAllBtn = slot0:findTF("refuse_all_btn", slot0.requestTopTF)
+	slot0.requestPanel = slot0._tf:Find("request_panel")
+	slot0.requestTopTF = slot0._tf:Find("request_view_top")
+	slot0.refuseAllBtn = slot0.requestTopTF:Find("refuse_all_btn")
 end
 
 slot0.OnInit = function(slot0)

@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.container = slot0:findTF("frame/container")
-	slot0.sendBtn = slot0:findTF("frame/btn")
+	slot0.container = slot0._tf:Find("frame/container")
+	slot0.sendBtn = slot0._tf:Find("frame/btn")
 
 	setAnchoredPosition(slot0.container, {
 		x = 0,

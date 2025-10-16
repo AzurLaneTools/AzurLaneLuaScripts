@@ -1,14 +1,14 @@
 slot0 = class("WorldInPictureRePage", import(".TemplatePage.SkinTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.item = slot0:findTF("items/item", slot0.bg)
-	slot0.items = slot0:findTF("items", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.item = slot0.bg:Find("items/item")
+	slot0.items = slot0.bg:Find("items")
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
-	slot0.help = slot0:findTF("AD/help")
-	slot0.start = slot0:findTF("AD/start")
-	slot0.dayTF = slot0:findTF("Text", slot0.bg)
-	slot0.tip = slot0:findTF("AD/tip")
+	slot0.help = slot0._tf:Find("AD/help")
+	slot0.start = slot0._tf:Find("AD/start")
+	slot0.dayTF = slot0.bg:Find("Text")
+	slot0.tip = slot0._tf:Find("AD/tip")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -27,7 +27,7 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("item", slot2)
+	slot4 = slot2:Find("item")
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
 	assert(slot6, "without this task by id: " .. slot5)
@@ -42,21 +42,21 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	onButton(slot0, slot4, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("description", slot2), slot6:getConfig("desc"))
-	setSlider(slot0:findTF("progress", slot2), 0, slot6:getConfig("target_num"), slot6:getProgress())
+	setText(slot2:Find("description"), slot6:getConfig("desc"))
+	setSlider(slot2:Find("progress"), 0, slot6:getConfig("target_num"), slot6:getProgress())
 
-	slot12 = slot0:findTF("get_btn", slot2)
+	slot12 = slot2:Find("get_btn")
 
-	setActive(slot0:findTF("go_btn", slot2), slot6:getTaskStatus() == 0)
+	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 	setActive(slot12, slot14 == 1)
-	setActive(slot0:findTF("got_btn", slot2), slot14 == 2)
+	setActive(slot2:Find("got_btn"), slot14 == 2)
 	onButton(slot0, slot11, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot12, function ()
 		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("progressText", slot2), "<color=#789143>" .. slot9 .. "</color><color=#a3876f>/" .. slot10 .. "</color>")
+	setText(slot2:Find("progressText"), "<color=#789143>" .. slot9 .. "</color><color=#a3876f>/" .. slot10 .. "</color>")
 end
 
 slot0.OnUpdateFlush = function(slot0)

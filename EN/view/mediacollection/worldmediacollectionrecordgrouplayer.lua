@@ -17,12 +17,17 @@ slot0.OnInit = function(slot0)
 	slot0.content = slot1:Find("Viewport/Content")
 	slot1 = slot0.scroll
 	slot0.progressText = slot1:Find("ProgressText")
-	slot0.recordTogGroup = slot0:findTF("Toggles", slot0._top)
+	slot1 = slot0._tf
+	slot0.recordTogGroup = slot1:Find("Toggles")
+	slot2 = slot0.recordTogGroup
+	slot2 = slot0.recordTogGroup
+	slot2 = slot0.recordTogGroup
+	slot2 = slot0.recordTogGroup
 	slot0.recordToggles = {
-		slot0:findTF("0", slot0.recordTogGroup),
-		slot0:findTF("1", slot0.recordTogGroup),
-		slot0:findTF("2", slot0.recordTogGroup),
-		slot0:findTF("3", slot0.recordTogGroup)
+		slot2:Find("0"),
+		slot2:Find("1"),
+		slot2:Find("2"),
+		slot2:Find("3")
 	}
 	slot0.recordFilterIndex = {
 		false,
@@ -72,7 +77,9 @@ slot0.OnInit = function(slot0)
 
 	slot0.recordGroups = {}
 
-	slot0.viewParent:Add2TopContainer(slot0.recordTogGroup)
+	slot0:OverlayPanel(slot0.recordTogGroup, {
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	})
 
 	slot0.loader = AutoLoader.New()
 

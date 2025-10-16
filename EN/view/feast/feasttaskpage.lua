@@ -7,28 +7,28 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.getAllBtn = slot0:findTF("main/getall")
+	slot0.getAllBtn = slot0._tf:Find("main/getall")
 	slot0.getAllTip = slot0.getAllBtn:Find("tip")
-	slot0.levelTxt = slot0:findTF("main/level/Text"):GetComponent(typeof(Text))
-	slot0.progressTxt = slot0:findTF("main/level/value/Text"):GetComponent(typeof(Text))
-	slot0.progress = slot0:findTF("main/level/progress/bar")
-	slot0.lastAwardItem = slot0:findTF("main/level/item")
-	slot1 = slot0.lastAwardItem:Find("lock/Text")
-	slot0.lastAwardLvTxt = slot1:GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("main/level/Text"):GetComponent(typeof(Text))
+	slot0.progressTxt = slot0._tf:Find("main/level/value/Text"):GetComponent(typeof(Text))
+	slot0.progress = slot0._tf:Find("main/level/progress/bar")
+	slot0.lastAwardItem = slot0._tf:Find("main/level/item")
+	slot0.lastAwardLvTxt = slot0.lastAwardItem:Find("lock/Text"):GetComponent(typeof(Text))
 
 	setText(slot0.lastAwardItem:Find("get"), i18n("feast_task_pt_get"))
 	setText(slot0.lastAwardItem:Find("got"), i18n("feast_task_pt_got"))
-	setText(slot0:findTF("main/tip"), i18n("feast_click_to_close"))
-	setText(slot0:findTF("main/level/value/label"), i18n("feast_task_pt_label"))
+	setText(slot0._tf:Find("main/tip"), i18n("feast_click_to_close"))
+	setText(slot0._tf:Find("main/level/value/label"), i18n("feast_task_pt_label"))
 
-	slot0.taskTip = slot0:findTF("main/toggles/task/tip")
+	slot1 = slot0._tf
+	slot0.taskTip = slot1:Find("main/toggles/task/tip")
 	slot0.toggles = {
-		slot0:findTF("main/toggles/pt"),
-		slot0:findTF("main/toggles/task")
+		slot0._tf:Find("main/toggles/pt"),
+		slot0._tf:Find("main/toggles/task")
 	}
 	slot0.scrollRects = {
-		slot0:findTF("main/pt/scrollrect"):GetComponent("LScrollRect"),
-		slot0:findTF("main/task/scrollrect"):GetComponent("LScrollRect")
+		slot0._tf:Find("main/pt/scrollrect"):GetComponent("LScrollRect"),
+		slot0._tf:Find("main/task/scrollrect"):GetComponent("LScrollRect")
 	}
 	slot0.cardCls = {
 		FeastPtCard,

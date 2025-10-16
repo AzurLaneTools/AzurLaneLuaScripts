@@ -53,14 +53,14 @@ slot1 = {
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.infonameTF = slot0:findTF("frame/info/name/Text"):GetComponent(typeof(Text))
-	slot0.infoiconTF = slot0:findTF("frame/info/shipicon/icon"):GetComponent(typeof(Image))
-	slot0.infoduty = slot0:findTF("frame/duty"):GetComponent(typeof(Image))
-	slot0.infostarsTF = slot0:findTF("frame/info/shipicon/stars")
-	slot0.infostarTF = slot0:findTF("frame/info/shipicon/stars/star")
-	slot0.infolevelTF = slot0:findTF("frame/info/level/Text"):GetComponent(typeof(Text))
-	slot0.circle = slot0:findTF("frame/info/shipicon/frame")
-	slot0.resumeInfo = slot0:findTF("frame/content")
+	slot0.infonameTF = slot0._tf:Find("frame/info/name/Text"):GetComponent(typeof(Text))
+	slot0.infoiconTF = slot0._tf:Find("frame/info/shipicon/icon"):GetComponent(typeof(Image))
+	slot0.infoduty = slot0._tf:Find("frame/duty"):GetComponent(typeof(Image))
+	slot0.infostarsTF = slot0._tf:Find("frame/info/shipicon/stars")
+	slot0.infostarTF = slot0._tf:Find("frame/info/shipicon/stars/star")
+	slot0.infolevelTF = slot0._tf:Find("frame/info/level/Text"):GetComponent(typeof(Text))
+	slot0.circle = slot0._tf:Find("frame/info/shipicon/frame")
+	slot0.resumeInfo = slot0._tf:Find("frame/content")
 end
 
 slot0.OnInit = function(slot0)

@@ -23,10 +23,10 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.poolListContainer = slot0:findTF("PoolList")
-	slot0.poolTpl = slot0:findTF("PoolTpl")
-	slot0.preBtn = slot0:findTF("PreBtn")
-	slot0.nextBtn = slot0:findTF("NextBtn")
+	slot0.poolListContainer = slot0._tf:Find("PoolList")
+	slot0.poolTpl = slot0._tf:Find("PoolTpl")
+	slot0.preBtn = slot0._tf:Find("PreBtn")
+	slot0.nextBtn = slot0._tf:Find("NextBtn")
 	slot0.nextBtnCom = GetComponent(slot0.nextBtn, "Button")
 	slot0.poolList = UIItemList.New(slot0.poolListContainer, slot0.poolTpl)
 
@@ -34,7 +34,7 @@ slot0.initUI = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
 
-			setImageSprite(uv0:findTF("PoolImg", slot2), GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3))
+			setImageSprite(slot2:Find("PoolImg"), GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3))
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.nextBtnCom.interactable = true

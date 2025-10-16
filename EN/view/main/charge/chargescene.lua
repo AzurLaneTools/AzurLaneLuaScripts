@@ -73,41 +73,41 @@ slot0.ResUISettings = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.frame = slot0:findTF("frame")
-	slot0.viewContainer = slot0:findTF("viewContainer")
-	slot0.bg = slot0:findTF("viewContainer/bg")
-	slot0.painting = slot0:findTF("frame/painting")
-	slot0.chat = slot0:findTF("viewContainer/chat")
-	slot0.chatText = slot0:findTF("Text", slot0.chat)
-	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
-	slot0.skinShopBtn = slot0:findTF("blur_panel/adapt/skin_btn")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.top = slot0.blurPanel:Find("adapt/top")
+	slot0.frame = slot0._tf:Find("frame")
+	slot0.viewContainer = slot0._tf:Find("viewContainer")
+	slot0.bg = slot0._tf:Find("viewContainer/bg")
+	slot0.painting = slot0._tf:Find("frame/painting")
+	slot0.chat = slot0._tf:Find("viewContainer/chat")
+	slot0.chatText = slot0.chat:Find("Text")
+	slot0.switchBtn = slot0._tf:Find("blur_panel/adapt/switch_btn")
+	slot0.skinShopBtn = slot0._tf:Find("blur_panel/adapt/skin_btn")
 
 	setActive(slot0.skinShopBtn, not (LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL))
 
-	slot0.itemToggle = slot0:findTF("toggle_list/item_toggle", slot0.viewContainer)
-	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
-	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
-	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
-	slot0.pickToggle = slot0:findTF("toggle_list/pick_toggle", slot0.viewContainer)
-	slot0.pickTip = slot0:findTF("tip", slot0.pickToggle)
+	slot0.itemToggle = slot0.viewContainer:Find("toggle_list/item_toggle")
+	slot0.giftToggle = slot0.viewContainer:Find("toggle_list/gift_toggle")
+	slot0.diamondToggle = slot0.viewContainer:Find("toggle_list/diamond_toggle")
+	slot0.giftTip = slot0.giftToggle:Find("tip")
+	slot0.pickToggle = slot0.viewContainer:Find("toggle_list/pick_toggle")
+	slot0.pickTip = slot0.pickToggle:Find("tip")
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
-	setText(slot0:findTF("light/title", slot0.diamondToggle), i18n("shop_diamond_title"))
-	setText(slot0:findTF("dark/title", slot0.diamondToggle), i18n("shop_diamond_title"))
-	setText(slot0:findTF("light/title", slot0.giftToggle), i18n("shop_gift_title"))
-	setText(slot0:findTF("dark/title", slot0.giftToggle), i18n("shop_gift_title"))
-	setText(slot0:findTF("light/title", slot0.itemToggle), i18n("shop_item_title"))
-	setText(slot0:findTF("dark/title", slot0.itemToggle), i18n("shop_item_title"))
-	setText(slot0:findTF("light/title", slot0.pickToggle), i18n("shop_akashi_pick_title"))
-	setText(slot0:findTF("dark/title", slot0.pickToggle), i18n("shop_akashi_pick_title"))
+	setText(slot0.diamondToggle:Find("light/title"), i18n("shop_diamond_title"))
+	setText(slot0.diamondToggle:Find("dark/title"), i18n("shop_diamond_title"))
+	setText(slot0.giftToggle:Find("light/title"), i18n("shop_gift_title"))
+	setText(slot0.giftToggle:Find("dark/title"), i18n("shop_gift_title"))
+	setText(slot0.itemToggle:Find("light/title"), i18n("shop_item_title"))
+	setText(slot0.itemToggle:Find("dark/title"), i18n("shop_item_title"))
+	setText(slot0.pickToggle:Find("light/title"), i18n("shop_akashi_pick_title"))
+	setText(slot0.pickToggle:Find("dark/title"), i18n("shop_akashi_pick_title"))
 
 	slot0.linkTitle = {
-		slot0:findTF("title/title_diamond", slot0.top),
-		slot0:findTF("title/title_gift", slot0.top),
-		slot0:findTF("title/title_item", slot0.top),
-		slot0:findTF("title/title_pick", slot0.top)
+		slot0.top:Find("title/title_diamond"),
+		slot0.top:Find("title/title_gift"),
+		slot0.top:Find("title/title_item"),
+		slot0.top:Find("title/title_pick")
 	}
 	slot0.toggleList = {
 		slot0.diamondToggle,
@@ -145,7 +145,10 @@ end
 
 slot0.didEnter = function(slot0)
 	setActive(slot0.chat, false)
-	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
+
+	slot3 = slot0.top
+
+	onButton(slot0, slot3:Find("back_button"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
@@ -158,10 +161,10 @@ slot0.didEnter = function(slot0)
 
 	for slot4 = 1, #slot0.toggleList do
 		onToggle(slot0, slot0.toggleList[slot4], function (slot0)
-			setActive(uv0:findTF("dark", uv1), not slot0)
+			setActive(uv0:Find("dark"), not slot0)
 
 			if slot0 then
-				uv0:switchSubView(uv2)
+				uv1:switchSubView(uv2)
 			end
 		end, SFX_PANEL)
 	end
@@ -225,7 +228,8 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initSubView = function(slot0)
-	slot0.subViewContainer = slot0:findTF("SubView", slot0.viewContainer)
+	slot1 = slot0.viewContainer
+	slot0.subViewContainer = slot1:Find("SubView")
 	slot0.diamondShopView = ChargeDiamondShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.giftShopView = ChargeGiftShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.itemShopView = ChargeItemShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
@@ -402,6 +406,7 @@ slot0.playHeartEffect = function(slot0)
 end
 
 slot0.createLive2D = function(slot0)
+	slot3 = slot0._tf
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = 312011
@@ -413,7 +418,7 @@ slot0.createLive2D = function(slot0)
 			75
 		},
 		position = Vector3(0, 0, 0),
-		parent = slot0:findTF("frame/painting/live2d")
+		parent = slot3:Find("frame/painting/live2d")
 	}), function (slot0)
 		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 	end)
@@ -485,7 +490,7 @@ end
 slot0.blurView = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.viewContainer, {
 		pbList = {
-			slot0:findTF("blurBg", slot0.viewContainer)
+			slot0.viewContainer:Find("blurBg")
 		}
 	})
 end
@@ -499,8 +504,8 @@ slot0.jpUIInit = function(slot0)
 		return
 	end
 
-	slot0.userAgreeBtn3 = slot0:findTF("frame/raw1Btn")
-	slot0.userAgreeBtn4 = slot0:findTF("frame/raw2Btn")
+	slot0.userAgreeBtn3 = slot0._tf:Find("frame/raw1Btn")
+	slot0.userAgreeBtn4 = slot0._tf:Find("frame/raw2Btn")
 end
 
 slot0.jpUIEnter = function(slot0)

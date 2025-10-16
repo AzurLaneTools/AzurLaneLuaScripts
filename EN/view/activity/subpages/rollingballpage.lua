@@ -2,16 +2,16 @@ slot0 = class("RollingBallPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
 	slot0.icons = {
-		slot0:findTF("AD/bg/npc1"),
-		slot0:findTF("AD/bg/npc2"),
-		slot0:findTF("AD/bg/npc3"),
-		slot0:findTF("AD/bg/npc4"),
-		slot0:findTF("AD/bg/npc5"),
-		slot0:findTF("AD/bg/npc6"),
-		slot0:findTF("AD/bg/npc7")
+		slot0._tf:Find("AD/bg/npc1"),
+		slot0._tf:Find("AD/bg/npc2"),
+		slot0._tf:Find("AD/bg/npc3"),
+		slot0._tf:Find("AD/bg/npc4"),
+		slot0._tf:Find("AD/bg/npc5"),
+		slot0._tf:Find("AD/bg/npc6"),
+		slot0._tf:Find("AD/bg/npc7")
 	}
-	slot0.helpBtn = slot0:findTF("AD/help")
-	slot0.goBtn = slot0:findTF("AD/go")
+	slot0.helpBtn = slot0._tf:Find("AD/help")
+	slot0.goBtn = slot0._tf:Find("AD/go")
 end
 
 slot0.SetData = function(slot0)

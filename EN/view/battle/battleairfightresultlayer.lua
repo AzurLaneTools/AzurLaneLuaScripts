@@ -5,26 +5,26 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0._grade = slot0:findTF("grade")
-	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
-	slot0._main = slot0:findTF("main")
-	slot0._blurConatiner = slot0:findTF("blur_container")
-	slot0._bg = slot0:findTF("main/jiesuanbeijing")
-	slot0._painting = slot0:findTF("painting", slot0._blurConatiner)
-	slot0._chat = slot0:findTF("chat", slot0._painting)
-	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
-	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+	slot0._grade = slot0._tf:Find("grade")
+	slot0._levelText = slot0._grade:Find("chapterName/Text22")
+	slot0._main = slot0._tf:Find("main")
+	slot0._blurConatiner = slot0._tf:Find("blur_container")
+	slot0._bg = slot0._tf:Find("main/jiesuanbeijing")
+	slot0._painting = slot0._blurConatiner:Find("painting")
+	slot0._chat = slot0._painting:Find("chat")
+	slot0._rightBottomPanel = slot0._blurConatiner:Find("rightBottomPanel")
+	slot0._confirmBtn = slot0._rightBottomPanel:Find("confirmBtn")
 
 	setText(slot0._confirmBtn:Find("Text"), i18n("text_confirm"))
 
-	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
-	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
-	slot0._conditions = slot0:findTF("main/conditions")
-	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
-	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
-	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
-	slot0._conditionContributeTpl = slot0:findTF("bg16/conditionContributeTpl", slot0._conditions)
-	slot0._conditionBGContribute = slot0:findTF("bg16/bg_contribute", slot0._conditions)
+	slot0._statisticsBtn = slot0._rightBottomPanel:Find("statisticsBtn")
+	slot0._skipBtn = slot0._tf:Find("skipLayer")
+	slot0._conditions = slot0._tf:Find("main/conditions")
+	slot0._conditionContainer = slot0._conditions:Find("bg16/list")
+	slot0._conditionTpl = slot0._conditions:Find("bg16/conditionTpl")
+	slot0._conditionSubTpl = slot0._conditions:Find("bg16/conditionSubTpl")
+	slot0._conditionContributeTpl = slot0._conditions:Find("bg16/conditionContributeTpl")
+	slot0._conditionBGContribute = slot0._conditions:Find("bg16/bg_contribute")
 
 	slot0:setGradeLabel()
 	SetActive(slot0._levelText, false)
@@ -39,8 +39,8 @@ slot0.setGradeLabel = function(slot0)
 	slot4, slot5, slot6 = nil
 	slot8 = ys.Battle.BattleConst.BattleScore.C < slot0.contextData.score
 
-	setActive(slot0:findTF("jieuan01/BG/bg_victory", slot0._bg), slot8)
-	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not slot8)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_victory"), slot8)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_fail"), not slot8)
 
 	slot6 = ({
 		"d",
@@ -50,8 +50,8 @@ slot0.setGradeLabel = function(slot0)
 		"s"
 	})[slot7 + 1]
 
-	LoadImageSpriteAsync("battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6, slot0:findTF("grade/Xyz/bg13"), false)
-	LoadImageSpriteAsync("battlescore/battle_score_" .. slot6 .. "/label_" .. slot6, slot0:findTF("grade/Xyz/bg14"), false)
+	LoadImageSpriteAsync("battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6, slot0._tf:Find("grade/Xyz/bg13"), false)
+	LoadImageSpriteAsync("battlescore/battle_score_" .. slot6 .. "/label_" .. slot6, slot0._tf:Find("grade/Xyz/bg14"), false)
 end
 
 slot0.didEnter = function(slot0)
@@ -82,7 +82,9 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.rankAnimaFinish = function(slot0)
-	SetActive(slot0:findTF("main/conditions"), true)
+	slot1 = slot0._tf
+
+	SetActive(slot1:Find("main/conditions"), true)
 
 	slot2 = slot0.contextData.statistics._airFightStatistics
 
@@ -92,7 +94,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -126,7 +128,7 @@ slot0.displayBG = function(slot0)
 
 		uv0._stateFlag = uv1.STATE_DISPLAYED
 	end))
-	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
+	setActive(slot0._bg:Find("jieuan01/Bomb"), false)
 end
 
 slot0.showPainting = function(slot0)

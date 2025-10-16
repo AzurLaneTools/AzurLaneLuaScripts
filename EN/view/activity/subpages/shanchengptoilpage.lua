@@ -3,7 +3,7 @@ slot0 = class("ShanchengPTOilPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	uv0.scrolltext = slot0:findTF("name", slot0.awardTF)
+	uv0.scrolltext = slot0.awardTF:Find("name")
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -22,7 +22,7 @@ slot0.SetAwardName = function(slot0)
 	if Item.getConfigData(slot0.ptData:GetAward().id) then
 		changeToScrollText(uv0.scrolltext, slot1:getName())
 	else
-		setActive(slot0:findTF("name", slot0.awardTF), false)
+		setActive(slot0.awardTF:Find("name"), false)
 	end
 end
 

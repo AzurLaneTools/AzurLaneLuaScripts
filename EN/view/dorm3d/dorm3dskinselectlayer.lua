@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.btnChange = slot0:findTF("BG/bottom/btn_change")
-	slot0.btnBuy = slot0:findTF("BG/bottom/btn_buy")
-	slot0.priceText = slot0:findTF("BG/bottom/btn_buy/Price")
-	slot0.line = slot0:findTF("BG/bottom/Line")
-	slot0.desc = slot0:findTF("BG/bottom/desc")
+	slot0.btnChange = slot0._tf:Find("BG/bottom/btn_change")
+	slot0.btnBuy = slot0._tf:Find("BG/bottom/btn_buy")
+	slot0.priceText = slot0._tf:Find("BG/bottom/btn_buy/Price")
+	slot0.line = slot0._tf:Find("BG/bottom/Line")
+	slot0.desc = slot0._tf:Find("BG/bottom/desc")
 	slot0.loader = AutoLoader.New()
 end
 

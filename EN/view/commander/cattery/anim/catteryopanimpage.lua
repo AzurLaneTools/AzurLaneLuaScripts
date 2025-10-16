@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.homeExpAnim = CatteryAddHomeExpAnim.New(slot0:findTF("bg/single"))
-	slot0.homeAndCommanderAnim = CattertAddHomeExpAndCommanderExpAnim.New(slot0:findTF("bg/both"))
+	slot0.homeExpAnim = CatteryAddHomeExpAnim.New(slot0._tf:Find("bg/single"))
+	slot0.homeAndCommanderAnim = CattertAddHomeExpAndCommanderExpAnim.New(slot0._tf:Find("bg/both"))
 end
 
 slot0.OnInit = function(slot0)

@@ -45,15 +45,15 @@ slot0.willExit = function(slot0)
 end
 
 slot0.initUITextTips = function(slot0)
-	slot1 = slot0:findTF("HidePanel/ScrollPanel/ListPanel/BannerTpl/ForScale")
+	slot1 = slot0._tf:Find("HidePanel/ScrollPanel/ListPanel/BannerTpl/ForScale")
 
-	setText(slot0:findTF("Empty/ActType/TipText", slot1), i18n("meta_syn_rate"))
-	setText(slot0:findTF("Empty/BuildType/TipText", slot1), i18n("meta_build"))
-	setText(slot0:findTF("Active/ActType/Text", slot1), i18n("meta_repair_rate"))
-	setText(slot0:findTF("Active/BuildType/Text", slot1), i18n("meta_build"))
-	setText(slot0:findTF("HidePanel/PTPanel/Progress/Story/TipText1"), i18n("meta_story_tip_1"))
-	setText(slot0:findTF("HidePanel/PTPanel/Progress/Story/TipText2"), i18n("meta_story_tip_2"))
-	setText(slot0:findTF("HidePanel/ActTimeTip/Tip"), i18n("meta_acttime_limit"))
+	setText(slot1:Find("Empty/ActType/TipText"), i18n("meta_syn_rate"))
+	setText(slot1:Find("Empty/BuildType/TipText"), i18n("meta_build"))
+	setText(slot1:Find("Active/ActType/Text"), i18n("meta_repair_rate"))
+	setText(slot1:Find("Active/BuildType/Text"), i18n("meta_build"))
+	setText(slot0._tf:Find("HidePanel/PTPanel/Progress/Story/TipText1"), i18n("meta_story_tip_1"))
+	setText(slot0._tf:Find("HidePanel/PTPanel/Progress/Story/TipText2"), i18n("meta_story_tip_2"))
+	setText(slot0._tf:Find("HidePanel/ActTimeTip/Tip"), i18n("meta_acttime_limit"))
 end
 
 slot0.initData = function(slot0)
@@ -70,61 +70,61 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.shipImg = slot0:findTF("HidePanel/ShipImg")
-	slot0.shipNameImg = slot0:findTF("HidePanel/NameImg")
-	slot0.noCharTF = slot0:findTF("BG/NoCharacter")
-	slot0.indexBtn = slot0:findTF("blur_panel/adapt/top/index")
-	slot0.hidePanel = slot0:findTF("HidePanel")
-	slot0.scrollPanel = slot0:findTF("ScrollPanel", slot0.hidePanel)
-	slot0.bannerListPanel = slot0:findTF("ListPanel", slot0.scrollPanel)
-	slot0.bannerContainer = slot0:findTF("Container", slot0.bannerListPanel)
-	slot0.bannerTpl = slot0:findTF("BannerTpl", slot0.bannerListPanel)
-	slot0.actTimePanel = slot0:findTF("ActTimeTip", slot0.hidePanel)
-	slot0.actTimeText = slot0:findTF("Text", slot0.actTimePanel)
-	slot0.menuPanel = slot0:findTF("MenuPanel", slot0.hidePanel)
-	slot0.energyBtn = slot0:findTF("EnergyBtn", slot0.menuPanel)
-	slot0.repairBtn = slot0:findTF("RepairBtn", slot0.menuPanel)
-	slot0.tacticsBtn = slot0:findTF("TacticsBtn", slot0.menuPanel)
-	slot0.synBtn = slot0:findTF("SynBtn", slot0.menuPanel)
-	slot0.synDecorateTF = slot0:findTF("SynDecorate", slot0.menuPanel)
-	slot0.synBtnLimitTimeTF = slot0:findTF("Limit", slot0.synBtn)
-	slot0.synBtnLock = slot0:findTF("LockMask", slot0.synBtn)
-	slot0.ptPanel = slot0:findTF("PTPanel", slot0.hidePanel)
-	slot0.ptRedBarImg = slot0:findTF("RedBar", slot0.ptPanel)
-	slot0.ptPreviewBtn = slot0:findTF("PreviewBtn", slot0.ptPanel)
-	slot0.ptGetBtn = slot0:findTF("SynBtn", slot0.ptPanel)
-	slot0.ptGetBtnTag = slot0:findTF("Tag", slot0.ptGetBtn)
-	slot0.ptShowWayBtn = slot0:findTF("ShowWayBtn", slot0.ptPanel)
-	slot1 = slot0:findTF("Progress", slot0.ptPanel)
-	slot0.ptProgressImg = slot0:findTF("CircleProgress/ProgressImg", slot1)
-	slot0.ptProgressScaleLine = slot0:findTF("CircleProgress/ScaleLine", slot1)
-	slot0.ptInfoPanel = slot0:findTF("PT", slot1)
-	slot0.ptProgressRedRightNumText = slot0:findTF("ProgressTextBG/PointRedText/RightNumText", slot0.ptInfoPanel)
-	slot0.ptProgressRedLeftNumText = slot0:findTF("ProgressTextBG/PointRedText/LeftNumText", slot0.ptInfoPanel)
-	slot0.ptProgressWhiteRightNumText = slot0:findTF("ProgressTextBG/PointText/RightNumText", slot0.ptInfoPanel)
-	slot0.ptProgressWhiteLeftNumText = slot0:findTF("ProgressTextBG/PointText/LeftNumText", slot0.ptInfoPanel)
-	slot0.ptIcon = slot0:findTF("PTProgressText/PTIcon", slot0.ptInfoPanel)
-	slot0.ptProgressRedText = slot0:findTF("PTProgressRedText", slot0.ptInfoPanel)
-	slot0.ptProgressWhiteText = slot0:findTF("PTProgressText", slot0.ptInfoPanel)
-	slot0.storyInfoPanel = slot0:findTF("Story", slot1)
-	slot2 = slot0:findTF("TipText1", slot0.storyInfoPanel)
-	slot3 = slot0:findTF("TipText2", slot0.storyInfoPanel)
-	slot0.storyNameText = slot0:findTF("StroyNameText", slot0.storyInfoPanel)
-	slot0.getShipBtn = slot0:findTF("FinishBtn", slot1)
-	slot0.goGetPanel = slot0:findTF("GoGetPanel", slot0.hidePanel)
-	slot0.goGetBtn = slot0:findTF("GoGetBtn", slot0.goGetPanel)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot4 = slot0:findTF("adapt", slot0.blurPanel)
-	slot0.backBtn = slot0:findTF("top/back", slot4)
-	slot0.helpBtn = slot0:findTF("top/help", slot4)
-	slot0.toggleBtnsTF = slot0:findTF("left/Btns", slot4)
+	slot0.shipImg = slot0._tf:Find("HidePanel/ShipImg")
+	slot0.shipNameImg = slot0._tf:Find("HidePanel/NameImg")
+	slot0.noCharTF = slot0._tf:Find("BG/NoCharacter")
+	slot0.indexBtn = slot0._tf:Find("blur_panel/adapt/top/index")
+	slot0.hidePanel = slot0._tf:Find("HidePanel")
+	slot0.scrollPanel = slot0.hidePanel:Find("ScrollPanel")
+	slot0.bannerListPanel = slot0.scrollPanel:Find("ListPanel")
+	slot0.bannerContainer = slot0.bannerListPanel:Find("Container")
+	slot0.bannerTpl = slot0.bannerListPanel:Find("BannerTpl")
+	slot0.actTimePanel = slot0.hidePanel:Find("ActTimeTip")
+	slot0.actTimeText = slot0.actTimePanel:Find("Text")
+	slot0.menuPanel = slot0.hidePanel:Find("MenuPanel")
+	slot0.energyBtn = slot0.menuPanel:Find("EnergyBtn")
+	slot0.repairBtn = slot0.menuPanel:Find("RepairBtn")
+	slot0.tacticsBtn = slot0.menuPanel:Find("TacticsBtn")
+	slot0.synBtn = slot0.menuPanel:Find("SynBtn")
+	slot0.synDecorateTF = slot0.menuPanel:Find("SynDecorate")
+	slot0.synBtnLimitTimeTF = slot0.synBtn:Find("Limit")
+	slot0.synBtnLock = slot0.synBtn:Find("LockMask")
+	slot0.ptPanel = slot0.hidePanel:Find("PTPanel")
+	slot0.ptRedBarImg = slot0.ptPanel:Find("RedBar")
+	slot0.ptPreviewBtn = slot0.ptPanel:Find("PreviewBtn")
+	slot0.ptGetBtn = slot0.ptPanel:Find("SynBtn")
+	slot0.ptGetBtnTag = slot0.ptGetBtn:Find("Tag")
+	slot0.ptShowWayBtn = slot0.ptPanel:Find("ShowWayBtn")
+	slot1 = slot0.ptPanel:Find("Progress")
+	slot0.ptProgressImg = slot1:Find("CircleProgress/ProgressImg")
+	slot0.ptProgressScaleLine = slot1:Find("CircleProgress/ScaleLine")
+	slot0.ptInfoPanel = slot1:Find("PT")
+	slot0.ptProgressRedRightNumText = slot0.ptInfoPanel:Find("ProgressTextBG/PointRedText/RightNumText")
+	slot0.ptProgressRedLeftNumText = slot0.ptInfoPanel:Find("ProgressTextBG/PointRedText/LeftNumText")
+	slot0.ptProgressWhiteRightNumText = slot0.ptInfoPanel:Find("ProgressTextBG/PointText/RightNumText")
+	slot0.ptProgressWhiteLeftNumText = slot0.ptInfoPanel:Find("ProgressTextBG/PointText/LeftNumText")
+	slot0.ptIcon = slot0.ptInfoPanel:Find("PTProgressText/PTIcon")
+	slot0.ptProgressRedText = slot0.ptInfoPanel:Find("PTProgressRedText")
+	slot0.ptProgressWhiteText = slot0.ptInfoPanel:Find("PTProgressText")
+	slot0.storyInfoPanel = slot1:Find("Story")
+	slot2 = slot0.storyInfoPanel:Find("TipText1")
+	slot3 = slot0.storyInfoPanel:Find("TipText2")
+	slot0.storyNameText = slot0.storyInfoPanel:Find("StroyNameText")
+	slot0.getShipBtn = slot1:Find("FinishBtn")
+	slot0.goGetPanel = slot0.hidePanel:Find("GoGetPanel")
+	slot0.goGetBtn = slot0.goGetPanel:Find("GoGetBtn")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot4 = slot0.blurPanel:Find("adapt")
+	slot0.backBtn = slot4:Find("top/back")
+	slot0.helpBtn = slot4:Find("top/help")
+	slot0.toggleBtnsTF = slot4:Find("left/Btns")
 	slot0.toggleGroupSC = GetComponent(slot0.toggleBtnsTF, "ToggleGroup")
 	slot0.toggleGroupSC.allowSwitchOff = true
-	slot0.toggleList[1] = slot0:findTF("Energy", slot0.toggleBtnsTF)
-	slot0.toggleList[2] = slot0:findTF("Tactics", slot0.toggleBtnsTF)
-	slot0.toggleList[3] = slot0:findTF("Repair", slot0.toggleBtnsTF)
-	slot0.toggleList[4] = slot0:findTF("Syn", slot0.toggleBtnsTF)
-	slot0.synToggleLock = slot0:findTF("SynLock", slot0.toggleBtnsTF)
+	slot0.toggleList[1] = slot0.toggleBtnsTF:Find("Energy")
+	slot0.toggleList[2] = slot0.toggleBtnsTF:Find("Tactics")
+	slot0.toggleList[3] = slot0.toggleBtnsTF:Find("Repair")
+	slot0.toggleList[4] = slot0.toggleBtnsTF:Find("Syn")
+	slot0.synToggleLock = slot0.toggleBtnsTF:Find("SynLock")
 end
 
 slot0.addListener = function(slot0)
@@ -211,7 +211,10 @@ slot0.addListener = function(slot0)
 	onButton(slot0, slot0.synBtnLock, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 	end)
-	onButton(slot0, slot0:findTF("RepairBtn", slot0.repairBtn), function ()
+
+	slot3 = slot0.repairBtn
+
+	onButton(slot0, slot3:Find("RepairBtn"), function ()
 		uv0:switchPage(uv1.PAGES.REPAIR)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.energyBtn, function ()
@@ -263,8 +266,8 @@ end
 
 slot0.resetToggleList = function(slot0)
 	for slot4, slot5 in ipairs(slot0.toggleList) do
-		setActive(slot0:findTF("On", slot5), false)
-		setActive(slot0:findTF("Off", slot5), true)
+		setActive(slot5:Find("On"), false)
+		setActive(slot5:Find("Off"), true)
 	end
 end
 
@@ -296,18 +299,18 @@ end
 
 slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2
-	slot5 = slot0:findTF("ForScale", slot2)
-	slot6 = slot0:findTF("WillCome", slot5)
-	slot7 = slot0:findTF("Empty", slot5)
-	slot8 = slot0:findTF("Active", slot5)
+	slot5 = slot2:Find("ForScale")
+	slot6 = slot5:Find("WillCome")
+	slot7 = slot5:Find("Empty")
+	slot8 = slot5:Find("Active")
 
 	if slot1 then
 		slot9 = slot1:isInAct()
 
-		setActive(slot0:findTF("ActType/Tag", slot7), slot9)
-		setActive(slot0:findTF("BuildType/Tag", slot7), slot9)
-		setActive(slot0:findTF("ActType/Tag", slot8), slot9)
-		setActive(slot0:findTF("BuildType/Tag", slot8), slot9)
+		setActive(slot7:Find("ActType/Tag"), slot9)
+		setActive(slot7:Find("BuildType/Tag"), slot9)
+		setActive(slot8:Find("ActType/Tag"), slot9)
+		setActive(slot8:Find("BuildType/Tag"), slot9)
 	end
 
 	if slot1 then
@@ -315,37 +318,37 @@ slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 			configId = tonumber(slot1.configId .. 1)
 		}):getName()
 		slot11 = nil
-		slot11 = slot0:findTF("Empty/ActType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Empty/ActType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Empty/BuildType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Empty/BuildType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Empty/PassType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Empty/PassType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Active/ActType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Active/ActType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Active/BuildType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Active/BuildType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
 		setActive(slot11, true)
 
-		slot11 = slot0:findTF("Active/PassType/ShipNameMask/ShipNameText", slot5)
+		slot11 = slot5:Find("Active/PassType/ShipNameMask/ShipNameText")
 
 		setText(slot11, slot10)
 		setScrollText(slot11, slot10)
@@ -369,9 +372,9 @@ slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 		slot12 = slot1:isBuildType()
 
 		if not slot9 then
-			slot13 = slot0:findTF("Empty/ActType", slot5)
-			slot14 = slot0:findTF("Empty/BuildType", slot5)
-			slot15 = slot0:findTF("Empty/PassType", slot5)
+			slot13 = slot5:Find("Empty/ActType")
+			slot14 = slot5:Find("Empty/BuildType")
+			slot15 = slot5:Find("Empty/PassType")
 
 			setActive(slot13, slot10)
 			setActive(slot14, slot12)
@@ -385,9 +388,9 @@ slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 			setImageSprite(slot15, slot18)
 
 			if slot10 then
-				setText(slot0:findTF("NumText", slot13), string.format("%d", slot1:getSynRate() * 100) .. "%")
+				setText(slot13:Find("NumText"), string.format("%d", slot1:getSynRate() * 100) .. "%")
 
-				slot21 = slot0:findTF("Slider", slot13)
+				slot21 = slot13:Find("Slider")
 
 				setSlider(slot21, 0, 1, slot1:getSynRate())
 				setActive(slot21, false)
@@ -397,41 +400,41 @@ slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 				configId = pg.ship_strengthen_meta[slot1.configId].ship_id
 			})
 			slot22 = slot20:getStar()
-			slot25 = UIItemList.New(slot0:findTF("Empty/Stars", slot5), slot0:findTF("Empty/StarTpl", slot5))
+			slot25 = UIItemList.New(slot5:Find("Empty/Stars"), slot5:Find("Empty/StarTpl"))
 
 			slot25:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
-					setActive(uv0:findTF("On", slot2), slot1 + 1 <= uv1)
+					setActive(slot2:Find("On"), slot1 + 1 <= uv0)
 				end
 			end)
 			slot25:align(slot20:getMaxStar())
 		else
-			setActive(slot0:findTF("Active/ActType", slot5), slot10)
-			setActive(slot0:findTF("Active/BuildType", slot5), slot12)
-			setActive(slot0:findTF("Active/PassType", slot5), slot11)
+			setActive(slot5:Find("Active/ActType"), slot10)
+			setActive(slot5:Find("Active/BuildType"), slot12)
+			setActive(slot5:Find("Active/PassType"), slot11)
 
 			slot16, slot17 = slot1:getBannerPathAndName()
 			slot18 = LoadSprite(slot16, slot17)
 
-			setImageSprite(slot0:findTF("Active", slot5), LoadSprite(slot16, slot17))
+			setImageSprite(slot5:Find("Active"), LoadSprite(slot16, slot17))
 
 			slot20 = slot1:getShip():getMetaCharacter()
 
 			if slot10 then
-				setText(slot0:findTF("NumText", slot13), string.format("%d", slot20:getRepairRate() * 100) .. "%")
+				setText(slot13:Find("NumText"), string.format("%d", slot20:getRepairRate() * 100) .. "%")
 
-				slot23 = slot0:findTF("Slider", slot13)
+				slot23 = slot13:Find("Slider")
 
 				setSlider(slot23, 0, 1, slot20:getRepairRate())
 				setActive(slot23, false)
 			end
 
 			slot22 = slot19:getStar()
-			slot25 = UIItemList.New(slot0:findTF("Active/Stars", slot5), slot0:findTF("Active/StarTpl", slot5))
+			slot25 = UIItemList.New(slot5:Find("Active/Stars"), slot5:Find("Active/StarTpl"))
 
 			slot25:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
-					setActive(uv0:findTF("On", slot2), slot1 + 1 <= uv1)
+					setActive(slot2:Find("On"), slot1 + 1 <= uv0)
 				end
 			end)
 			slot25:align(slot19:getMaxStar())
@@ -460,7 +463,7 @@ end
 
 slot0.changeBannerOnClick = function(slot0, slot1, slot2)
 	slot3 = slot1:GetComponent("LayoutElement")
-	slot4 = slot0:findTF("ForScale", slot1)
+	slot4 = slot1:Find("ForScale")
 
 	if slot2 == true then
 		setLocalScale(slot4, uv0.SCALE_ON_PITCH)
@@ -474,25 +477,25 @@ slot0.changeBannerOnClick = function(slot0, slot1, slot2)
 		slot3.preferredHeight = 60
 	end
 
-	setActive(slot0:findTF("SelectedTag", slot4), slot2)
+	setActive(slot4:Find("SelectedTag"), slot2)
 end
 
 slot0.updateBannerShipName = function(slot0, slot1)
-	slot2 = slot0:findTF("ForScale", slot1)
-	slot4 = isActive(slot0:findTF("SelectedTag", slot2))
+	slot2 = slot1:Find("ForScale")
+	slot4 = isActive(slot2:Find("SelectedTag"))
 	slot5 = nil
 
-	setActive(slot0:findTF("Empty/ActType/ShipNameText", slot2), slot4)
-	setActive(slot0:findTF("Empty/BuildType/ShipNameText", slot2), slot4)
-	setActive(slot0:findTF("Active/ActType/ShipNameText", slot2), slot4)
-	setActive(slot0:findTF("Active/BuildType/ShipNameText", slot2), slot4)
+	setActive(slot2:Find("Empty/ActType/ShipNameText"), slot4)
+	setActive(slot2:Find("Empty/BuildType/ShipNameText"), slot4)
+	setActive(slot2:Find("Active/ActType/ShipNameText"), slot4)
+	setActive(slot2:Find("Active/BuildType/ShipNameText"), slot4)
 
 	slot6 = nil
 
-	setActive(slot0:findTF("Empty/ActType/TipText", slot2), not slot4)
-	setActive(slot0:findTF("Empty/BuildType/TipText", slot2), not slot4)
-	setActive(slot0:findTF("Active/ActType/Text", slot2), not slot4)
-	setActive(slot0:findTF("Active/BuildType/Text", slot2), not slot4)
+	setActive(slot2:Find("Empty/ActType/TipText"), not slot4)
+	setActive(slot2:Find("Empty/BuildType/TipText"), not slot4)
+	setActive(slot2:Find("Active/ActType/Text"), not slot4)
+	setActive(slot2:Find("Active/BuildType/Text"), not slot4)
 end
 
 slot0.updateBannerUIList = function(slot0)
@@ -512,7 +515,7 @@ slot0.updateStart = function(slot0)
 		end
 	end
 
-	setActive(slot0:findTF("On", slot0.indexBtn), not slot0:isDefaultStatus())
+	setActive(slot0.indexBtn:Find("On"), not slot0:isDefaultStatus())
 	setActive(slot0.noCharTF, not slot1)
 	setActive(slot0.hidePanel, slot1)
 
@@ -534,7 +537,7 @@ slot0.resetBannerListScale = function(slot0)
 	for slot4, slot5 in ipairs(slot0.bannerTFList) do
 		slot6 = slot5:GetComponent("LayoutElement")
 
-		setLocalScale(slot0:findTF("ForScale", slot5), Vector2.one)
+		setLocalScale(slot5:Find("ForScale"), Vector2.one)
 
 		slot6.preferredWidth = 199
 		slot6.preferredHeight = 60
@@ -598,7 +601,7 @@ slot0.updateActTimePanel = function(slot0)
 		slot5 = slot1.timeConfig[2][1]
 
 		setText(slot0.actTimeText, string.format("%d.%d.%d-%d.%d.%d", slot4[1], slot4[2], slot4[3], slot5[1], slot5[2], slot5[3]))
-		setText(slot0:findTF("Text", slot0.synBtnLimitTimeTF), i18n("meta_pt_left", pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():GetServerTime(), pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.timeConfig[2]))))
+		setText(slot0.synBtnLimitTimeTF:Find("Text"), i18n("meta_pt_left", pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():GetServerTime(), pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.timeConfig[2]))))
 	end
 end
 
@@ -728,24 +731,24 @@ slot0.updateRedPoints = function(slot0)
 	slot1 = slot0:getCurMetaProgressVO()
 	slot2 = slot1.id
 
-	setActive(slot0:findTF("RepairBtn/Tag", slot0.repairBtn), MetaCharacterConst.isMetaRepairRedTag(slot2))
-	setActive(slot0:findTF("Finish", slot0.repairBtn), not MetaCharacterConst.filteMetaRepairAble(slot1))
-	setActive(slot0:findTF("Tag", slot0.energyBtn), MetaCharacterConst.isMetaEnergyRedTag(slot2))
-	setActive(slot0:findTF("Finish", slot0.energyBtn), not MetaCharacterConst.filteMetaEnergyAble(slot1))
-	setActive(slot0:findTF("Finish", slot0.tacticsBtn), not MetaCharacterConst.filteMetaTacticsAble(slot1))
+	setActive(slot0.repairBtn:Find("RepairBtn/Tag"), MetaCharacterConst.isMetaRepairRedTag(slot2))
+	setActive(slot0.repairBtn:Find("Finish"), not MetaCharacterConst.filteMetaRepairAble(slot1))
+	setActive(slot0.energyBtn:Find("Tag"), MetaCharacterConst.isMetaEnergyRedTag(slot2))
+	setActive(slot0.energyBtn:Find("Finish"), not MetaCharacterConst.filteMetaEnergyAble(slot1))
+	setActive(slot0.tacticsBtn:Find("Finish"), not MetaCharacterConst.filteMetaTacticsAble(slot1))
 
 	slot8 = MetaCharacterConst.isMetaTacticsRedTag(slot2)
 
 	if slot1.metaShipVO then
-		setActive(slot0:findTF("Tag", slot0.tacticsBtn), false)
-		setActive(slot0:findTF("Learnable", slot0.tacticsBtn), slot0.metaCharacterProxy:getMetaTacticsInfoByShipID(slot9.id):getTacticsStateForShow() == MetaTacticsInfo.States.LearnAble)
-		setActive(slot0:findTF("Learning", slot0.tacticsBtn), slot10 == MetaTacticsInfo.States.Learning)
-		setActive(slot0:findTF("LearnFinish", slot0.tacticsBtn), slot10 == MetaTacticsInfo.States.LearnFinished and slot8)
+		setActive(slot0.tacticsBtn:Find("Tag"), false)
+		setActive(slot0.tacticsBtn:Find("Learnable"), slot0.metaCharacterProxy:getMetaTacticsInfoByShipID(slot9.id):getTacticsStateForShow() == MetaTacticsInfo.States.LearnAble)
+		setActive(slot0.tacticsBtn:Find("Learning"), slot10 == MetaTacticsInfo.States.Learning)
+		setActive(slot0.tacticsBtn:Find("LearnFinish"), slot10 == MetaTacticsInfo.States.LearnFinished and slot8)
 	else
-		setActive(slot0:findTF("Tag", slot0.tacticsBtn), false)
-		setActive(slot0:findTF("Learnable", slot0.tacticsBtn), false)
-		setActive(slot0:findTF("Learning", slot0.tacticsBtn), false)
-		setActive(slot0:findTF("LearnFinish", slot0.tacticsBtn), false)
+		setActive(slot0.tacticsBtn:Find("Tag"), false)
+		setActive(slot0.tacticsBtn:Find("Learnable"), false)
+		setActive(slot0.tacticsBtn:Find("Learning"), false)
+		setActive(slot0.tacticsBtn:Find("LearnFinish"), false)
 	end
 
 	slot10 = slot1:isPtType()
@@ -761,21 +764,20 @@ slot0.updateRedPoints = function(slot0)
 	slot14 = nil
 
 	if slot13 then
-		setActive(slot0:findTF("Tag", slot0.synBtn), MetaCharacterConst.isMetaSynRedTag(slot2))
+		setActive(slot0.synBtn:Find("Tag"), MetaCharacterConst.isMetaSynRedTag(slot2))
 	end
 
-	setActive(slot0:findTF("Finish", slot0.synBtn), not MetaCharacterConst.filteMetaSynAble(slot1))
-	setActive(slot0:findTF("Tip", slot0.toggleList[uv0.PAGES.REPAIR]), slot3)
-	setActive(slot0:findTF("Tip", slot0.toggleList[uv0.PAGES.ENERGY]), slot5)
-	setActive(slot0:findTF("Tip", slot0.toggleList[uv0.PAGES.TACTICS]), slot8)
+	setActive(slot0.synBtn:Find("Finish"), not MetaCharacterConst.filteMetaSynAble(slot1))
+	setActive(slot0.toggleList[uv0.PAGES.REPAIR]:Find("Tip"), slot3)
+	setActive(slot0.toggleList[uv0.PAGES.ENERGY]:Find("Tip"), slot5)
+	setActive(slot0.toggleList[uv0.PAGES.TACTICS]:Find("Tip"), slot8)
 
 	slot19 = "Tip"
-	slot20 = slot0.toggleList[uv0.PAGES.SYN]
 
-	setActive(slot0:findTF(slot19, slot20), slot14)
+	setActive(slot0.toggleList[uv0.PAGES.SYN]:Find(slot19), slot14)
 
 	for slot19, slot20 in ipairs(slot0.metaProgressVOList) do
-		slot22 = slot0:findTF("ForScale/RedPoint", slot0.bannerTFList[slot19])
+		slot22 = slot0.bannerTFList[slot19]:Find("ForScale/RedPoint")
 
 		if slot20 then
 			setActive(slot22, MetaCharacterConst.isMetaBannerRedPoint(slot20.id))

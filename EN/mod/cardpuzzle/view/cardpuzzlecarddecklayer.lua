@@ -9,7 +9,8 @@ slot0.isLayer = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.cardListRect = slot0:findTF("Container")
+	slot1 = slot0._tf
+	slot0.cardListRect = slot1:Find("Container")
 	slot1 = slot0.cardListRect
 	slot0.cardListComp = slot1:GetComponent("LScrollRect")
 

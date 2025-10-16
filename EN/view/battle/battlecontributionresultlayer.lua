@@ -21,8 +21,8 @@ slot0.setPoint = function(slot0)
 end
 
 slot0.setGradeLabel = function(slot0)
-	setActive(slot0:findTF("grade/Xyz/bg13"), false)
-	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0:findTF("grade/Xyz/bg14"), false)
+	setActive(slot0._tf:Find("grade/Xyz/bg13"), false)
+	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0._tf:Find("grade/Xyz/bg14"), false)
 end
 
 slot0.rankAnimaFinish = function(slot0)
@@ -33,7 +33,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT

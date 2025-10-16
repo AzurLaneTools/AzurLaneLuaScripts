@@ -44,12 +44,12 @@ end
 
 slot0.init = function(slot0)
 	slot0.cg = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.themeContainer = slot0:findTF("scrollrect/content")
-	slot0.storyTpl = slot0:findTF("scrollrect/content/story")
-	slot0.storyTplSub = slot0:findTF("scrollrect/content/story/tpl")
+	slot0.themeContainer = slot0._tf:Find("scrollrect/content")
+	slot0.storyTpl = slot0._tf:Find("scrollrect/content/story")
+	slot0.storyTplSub = slot0._tf:Find("scrollrect/content/story/tpl")
 	slot0.storyTxt = slot0.storyTpl:Find("tpl/Text"):GetComponent(typeof(Text))
-	slot0.scrollContent = slot0:findTF("scrollrect/content")
-	slot0.scrollrectTr = slot0:findTF("scrollrect")
+	slot0.scrollContent = slot0._tf:Find("scrollrect/content")
+	slot0.scrollrectTr = slot0._tf:Find("scrollrect")
 	slot0.scrollrect = slot0.scrollrectTr:GetComponent(typeof(ScrollRect))
 	slot0.timeBtn = slot0._tf:Find("adapt/time")
 	slot1 = slot0._tf
@@ -65,7 +65,7 @@ slot0.init = function(slot0)
 		slot0.handBookPage,
 		slot0.hotSpringPage
 	}
-	slot0.shipTpl = slot0:findTF("root/ship")
+	slot0.shipTpl = slot0._tf:Find("root/ship")
 	slot0.handbookTip = slot0._tf:Find("adapt/handbook/tip")
 	slot0.hotSpringTip = slot0._tf:Find("adapt/hotspring/tip")
 end

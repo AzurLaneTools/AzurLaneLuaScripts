@@ -37,42 +37,52 @@ end
 
 slot0.initUI = function(slot0)
 	slot0.shipTF = {
-		slot0:findTF("Ship1"),
-		slot0:findTF("Ship2")
+		slot0._tf:Find("Ship1"),
+		slot0._tf:Find("Ship2")
 	}
 	slot0.shipRarityTF = {
-		slot0:findTF("Rarity1"),
-		slot0:findTF("Rarity2")
+		slot0._tf:Find("Rarity1"),
+		slot0._tf:Find("Rarity2")
 	}
-	slot0.boxTF = slot0:findTF("build_msg")
+	slot0.boxTF = slot0._tf:Find("build_msg")
 	slot0.buildMsgBox = uv0.MsgBox(slot0.boxTF)
-	slot0.buildBtn = slot0:findTF("BuildBtn")
-	slot0.buildCubeNumText = slot0:findTF("BuildInfo/CubeNum")
-	slot0.buildGoldNumText = slot0:findTF("BuildInfo/GoldNum")
-	slot0.curCubeNumText = slot0:findTF("CubeImg/NumText")
-	slot0.material1 = slot0:findTF("material1")
-	slot0.material2 = slot0:findTF("material2")
+	slot0.buildBtn = slot0._tf:Find("BuildBtn")
+	slot0.buildCubeNumText = slot0._tf:Find("BuildInfo/CubeNum")
+	slot0.buildGoldNumText = slot0._tf:Find("BuildInfo/GoldNum")
+	slot0.curCubeNumText = slot0._tf:Find("CubeImg/NumText")
+	slot0.material1 = slot0._tf:Find("material1")
+	slot0.material2 = slot0._tf:Find("material2")
 	slot0.ratioSpriteMap = {}
-	slot1 = slot0:findTF("Ratio")
+	slot1 = slot0._tf:Find("Ratio")
 
 	for slot5 = 2, 6 do
-		slot0.ratioSpriteMap[slot5] = getImageSprite(slot0:findTF(tostring(slot5), slot1))
+		slot0.ratioSpriteMap[slot5] = getImageSprite(slot0._tf:Find(tostring(slot5), slot1))
 	end
 
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
+	slot5 = slot0._tf
 	slot0.raritySpriteMap = {
 		Normal = {
-			Light1 = getImageSprite(slot0:findTF("Light/Normal/Light1")),
-			Light2 = getImageSprite(slot0:findTF("Light/Normal/Light2")),
-			Light2_2 = getImageSprite(slot0:findTF("Light/Normal/Light2_2")),
-			Light3 = getImageSprite(slot0:findTF("Light/Normal/Light3")),
-			RarityBG = getImageSprite(slot0:findTF("RarityBG/Normal"))
+			Light1 = getImageSprite(slot5:Find("Light/Normal/Light1")),
+			Light2 = getImageSprite(slot5:Find("Light/Normal/Light2")),
+			Light2_2 = getImageSprite(slot5:Find("Light/Normal/Light2_2")),
+			Light3 = getImageSprite(slot5:Find("Light/Normal/Light3")),
+			RarityBG = getImageSprite(slot5:Find("RarityBG/Normal"))
 		},
 		UR = {
-			Light1 = getImageSprite(slot0:findTF("Light/UR/Light1")),
-			Light2 = getImageSprite(slot0:findTF("Light/UR/Light2")),
-			Light2_2 = getImageSprite(slot0:findTF("Light/UR/Light2_2")),
-			Light3 = getImageSprite(slot0:findTF("Light/UR/Light3")),
-			RarityBG = getImageSprite(slot0:findTF("RarityBG/UR"))
+			Light1 = getImageSprite(slot5:Find("Light/UR/Light1")),
+			Light2 = getImageSprite(slot5:Find("Light/UR/Light2")),
+			Light2_2 = getImageSprite(slot5:Find("Light/UR/Light2_2")),
+			Light3 = getImageSprite(slot5:Find("Light/UR/Light3")),
+			RarityBG = getImageSprite(slot5:Find("RarityBG/UR"))
 		}
 	}
 
@@ -123,18 +133,18 @@ slot0.updatePaint = function(slot0, slot1)
 		slot8 = pg.ship_data_statistics[slot6].english_name
 		slot11 = slot0.shipTF[slot5]
 
-		setPaintingPrefabAsync(slot0:findTF("Mask/Paint", slot11), Ship.getPaintingName(slot6), "build", function ()
-			slot4 = (uv2 == 2 and uv0.material2 or uv0.material1):GetComponent(typeof(Image)).material
+		setPaintingPrefabAsync(slot11:Find("Mask/Paint"), Ship.getPaintingName(slot6), "build", function ()
+			slot4 = (uv1 == 2 and uv2.material2 or uv2.material1):GetComponent(typeof(Image)).material
 
-			slot4:SetFloat("_Range", uv2 == 2 and 0.9 or -0.57)
-			slot4:SetFloat("_Degree", uv2 == 2 and -50 or 50)
+			slot4:SetFloat("_Range", uv1 == 2 and 0.9 or -0.57)
+			slot4:SetFloat("_Degree", uv1 == 2 and -50 or 50)
 
-			GetComponent(uv0:findTF("fitter", uv1):GetChild(0), "MeshImage").material = slot4
+			GetComponent(uv0:Find("fitter"):GetChild(0), "MeshImage").material = slot4
 		end)
 
-		slot14 = slot0:findTF("Light1", slot11)
-		slot16 = slot0:findTF("Light2_2", slot0:findTF("Light2", slot11))
-		slot17 = slot0:findTF("Light3", slot11)
+		slot14 = slot11:Find("Light1")
+		slot16 = slot11:Find("Light2"):Find("Light2_2")
+		slot17 = slot11:Find("Light3")
 
 		if not (pg.ship_data_statistics[slot6].rarity == ShipRarity.SSR) then
 			setImageSprite(slot14, slot0.raritySpriteMap.Normal.Light1)
@@ -155,9 +165,9 @@ slot0.updatePaint = function(slot0, slot1)
 		slot18 = slot0.shipRarityTF[slot5]
 
 		setImageSprite(slot18, slot10 and slot0.raritySpriteMap.UR.RarityBG or slot0.raritySpriteMap.Normal.RarityBG)
-		setText(slot0:findTF("NameText", slot11), slot7)
-		setText(slot0:findTF("NameEngText", slot11), slot8)
-		setImageSprite(slot0:findTF("NumImg", slot18), slot0.ratioSpriteMap[slot9], true)
+		setText(slot11:Find("NameText"), slot7)
+		setText(slot11:Find("NameEngText"), slot8)
+		setImageSprite(slot18:Find("NumImg"), slot0.ratioSpriteMap[slot9], true)
 	end
 end
 

@@ -45,7 +45,7 @@ slot0.register = function(slot0)
 		end
 
 		if slot0.type == 1 or slot0.type == 2 then
-			getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(slot0.formula_id, slot0.num)
+			getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(slot0.formula_id, slot0.num * pg.island_formula[slot0.formula_id].commission_product[1][2])
 		end
 	end)
 	slot0:on(21519, function (slot0)

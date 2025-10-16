@@ -13,7 +13,7 @@ end
 
 slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.item = slot1
-	slot0.nameTxt.text = slot1:GetName()
+	slot0.nameTxt.text = slot0:ShortenString(slot1:GetName(), 6)
 
 	updateCustomDrop(slot0._tf, Drop.New({
 		type = DROP_TYPE_ISLAND_ITEM,
@@ -50,6 +50,33 @@ slot0.UpdateValue = function(slot0, slot1)
 end
 
 slot0.Dispose = function(slot0)
+end
+
+slot0.ShortenString = function(slot0, slot1, slot2)
+	slot3 = 1
+	slot4 = 0
+	slot5 = 0
+	slot6 = #slot1
+	slot7 = false
+
+	while slot3 <= slot6 do
+		slot9, slot10 = GetPerceptualSize(string.byte(slot1, slot3))
+		slot3 = slot3 + slot9
+
+		if math.ceil(slot4 + slot10) == slot2 - 1 then
+			slot5 = slot3
+		elseif slot2 < slot11 then
+			slot7 = true
+
+			break
+		end
+	end
+
+	if slot5 == 0 or slot6 < slot5 or not slot7 then
+		return slot1
+	end
+
+	return string.sub(slot1, 1, slot5 - 1) .. ".."
 end
 
 return slot0

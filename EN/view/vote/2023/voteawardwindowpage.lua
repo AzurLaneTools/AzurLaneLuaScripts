@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.currToggle = slot0:findTF("frame/toggle/curr")
-	slot0.accToggle = slot0:findTF("frame/toggle/acc")
+	slot0.currToggle = slot0._tf:Find("frame/toggle/curr")
+	slot0.accToggle = slot0._tf:Find("frame/toggle/acc")
 	slot0.ptWindow = VoteAwardPtWindow.New(slot0._tf, slot0)
 	slot0.closeBtn = slot0._tf:Find("frame/close")
 
-	setText(slot0:findTF("frame/title/Text"), i18n("vote_lable_window_title"))
-	setText(slot0:findTF("frame/panel/list/tpl/award1/mask/Text"), i18n("vote_lable_rearch"))
-	setText(slot0:findTF("frame/panel/list/tpl/award/mask/Text"), i18n("vote_lable_rearch"))
+	setText(slot0._tf:Find("frame/title/Text"), i18n("vote_lable_window_title"))
+	setText(slot0._tf:Find("frame/panel/list/tpl/award1/mask/Text"), i18n("vote_lable_rearch"))
+	setText(slot0._tf:Find("frame/panel/list/tpl/award/mask/Text"), i18n("vote_lable_rearch"))
 end
 
 slot0.OnInit = function(slot0)

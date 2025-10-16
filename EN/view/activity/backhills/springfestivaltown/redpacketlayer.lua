@@ -37,22 +37,22 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.packetBtn = slot0:findTF("Container/PacketBtn")
-	slot0.packetMask = slot0:findTF("Container/PacketBtnMask")
-	slot0.helpBtn = slot0:findTF("Container/HelpBtn")
-	slot0.tagTF = slot0:findTF("tag", slot0.packetBtn)
-	slot0.countTF = slot0:findTF("Container/Count")
-	slot0.specialTF = slot0:findTF("Container/Count/Special")
-	slot0.specialCountText = slot0:findTF("Text", slot0.specialTF)
-	slot0.normalTF = slot0:findTF("Container/Count/Normal")
-	slot0.normalCountText = slot0:findTF("Text", slot0.normalTF)
+	slot0.packetBtn = slot0._tf:Find("Container/PacketBtn")
+	slot0.packetMask = slot0._tf:Find("Container/PacketBtnMask")
+	slot0.helpBtn = slot0._tf:Find("Container/HelpBtn")
+	slot0.tagTF = slot0.packetBtn:Find("tag")
+	slot0.countTF = slot0._tf:Find("Container/Count")
+	slot0.specialTF = slot0._tf:Find("Container/Count/Special")
+	slot0.specialCountText = slot0.specialTF:Find("Text")
+	slot0.normalTF = slot0._tf:Find("Container/Count/Normal")
+	slot0.normalCountText = slot0.normalTF:Find("Text")
 	slot0.awardBtnList = {}
 
-	table.insert(slot0.awardBtnList, slot0:findTF("Container/Award"))
-	table.insert(slot0.awardBtnList, slot0:findTF("Container/Award2"))
+	table.insert(slot0.awardBtnList, slot0._tf:Find("Container/Award"))
+	table.insert(slot0.awardBtnList, slot0._tf:Find("Container/Award2"))
 
-	slot0.countText = slot0:findTF("Container/CountText")
-	slot0.backBtn = slot0:findTF("Top/BackBtn")
+	slot0.countText = slot0._tf:Find("Container/CountText")
+	slot0.backBtn = slot0._tf:Find("Top/BackBtn")
 end
 
 slot0.addListener = function(slot0)

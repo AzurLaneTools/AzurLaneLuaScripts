@@ -5,8 +5,8 @@ slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.switchBtns = {
-		slot0:findTF("switch_btn_1", slot0.switchBtn),
-		slot0:findTF("switch_btn_2", slot0.switchBtn)
+		slot0.switchBtn:Find("switch_btn_1"),
+		slot0.switchBtn:Find("switch_btn_2")
 	}
 end
 

@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.layer = slot0:findTF("Adapt")
+	slot0.layer = slot0._tf:Find("Adapt")
 	slot0.formulaItems = {
 		slot0.layer:Find("MaterialModule1"),
 		slot0.layer:Find("MaterialModule2"),

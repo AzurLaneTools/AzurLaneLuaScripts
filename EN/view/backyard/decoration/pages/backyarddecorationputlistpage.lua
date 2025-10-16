@@ -10,13 +10,13 @@ slot0.OnLoaded = function(slot0)
 		uv0:Selected(slot1)
 	end)
 
-	slot0._bg = slot0:findTF("frame")
-	slot0.scrollRect = slot0:findTF("frame/frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.scrollRectTF = slot0:findTF("frame/frame/scrollrect")
-	slot0.emptyTF = slot0:findTF("frame/frame/empty")
-	slot0.arr = slot0:findTF("frame/frame/arr")
+	slot0._bg = slot0._tf:Find("frame")
+	slot0.scrollRect = slot0._tf:Find("frame/frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.scrollRectTF = slot0._tf:Find("frame/frame/scrollrect")
+	slot0.emptyTF = slot0._tf:Find("frame/frame/empty")
+	slot0.arr = slot0._tf:Find("frame/frame/arr")
 
-	setText(slot0:findTF("frame/title/Text"), i18n("courtyard_label_putlist_title"))
+	setText(slot0._tf:Find("frame/title/Text"), i18n("courtyard_label_putlist_title"))
 end
 
 slot0.OnInit = function(slot0)

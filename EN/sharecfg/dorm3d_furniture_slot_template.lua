@@ -351,6 +351,15 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_df_livingroom01_0",
 		zone_id = 12003
 	},
+	[1120304] = {
+		default_furniture = 0,
+		name = "客厅特典",
+		type = 99,
+		id = 1120304,
+		room_id = 12,
+		furniture_name = "pre_db_df_tedian01",
+		zone_id = 12003
+	},
 	get_id_list_by_room_id = {
 		{
 			100101,
@@ -401,7 +410,8 @@ pg.dorm3d_furniture_slot_template = {
 			1120203,
 			1120301,
 			1120302,
-			1120303
+			1120303,
+			1120304
 		}
 	},
 	get_id_list_by_zone_id = {
@@ -476,7 +486,8 @@ pg.dorm3d_furniture_slot_template = {
 		[12003] = {
 			1120301,
 			1120302,
-			1120303
+			1120303,
+			1120304
 		}
 	},
 	all = {
@@ -518,6 +529,7 @@ pg.dorm3d_furniture_slot_template = {
 		1120203,
 		1120301,
 		1120302,
-		1120303
+		1120303,
+		1120304
 	}
 }

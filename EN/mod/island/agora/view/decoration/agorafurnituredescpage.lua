@@ -8,14 +8,14 @@ slot0.OnLoaded = function(slot0)
 	slot0.width = slot0._tf.rect.width
 	slot0.height = slot0._tf.rect.height
 	slot0.prantLeftBound = slot0._tf.parent.rect.width / 2
-	slot0.nameTxt = slot0:findTF("name"):GetComponent(typeof(Text))
-	slot0.themeNameTxt = slot0:findTF("theme"):GetComponent(typeof(Text))
-	slot0.capacityTxt = slot0:findTF("capacity/Text"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0:findTF("Text"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("icon"):GetComponent(typeof(Image))
-	slot0.cntTxt = slot0:findTF("cnt/Text"):GetComponent(typeof(Text))
+	slot0.nameTxt = slot0._tf:Find("name"):GetComponent(typeof(Text))
+	slot0.themeNameTxt = slot0._tf:Find("theme"):GetComponent(typeof(Text))
+	slot0.capacityTxt = slot0._tf:Find("capacity/Text"):GetComponent(typeof(Text))
+	slot0.descTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
+	slot0.icon = slot0._tf:Find("icon"):GetComponent(typeof(Image))
+	slot0.cntTxt = slot0._tf:Find("cnt/Text"):GetComponent(typeof(Text))
 
-	setActive(slot0:findTF("cnt"), false)
+	setActive(slot0._tf:Find("cnt"), false)
 end
 
 slot0.Show = function(slot0, slot1, slot2)

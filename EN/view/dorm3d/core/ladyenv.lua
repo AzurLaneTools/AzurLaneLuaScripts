@@ -470,4 +470,12 @@ slot0.BlockCanWatch = function(slot0, slot1)
 	slot0.blockCanWatch = slot1
 end
 
+slot0.SetPosition = function(slot0, slot1)
+	slot0.lady.position = slot1
+end
+
+slot0.SetRotation = function(slot0, slot1)
+	slot0.lady.rotation = slot1
+end
+
 return slot0

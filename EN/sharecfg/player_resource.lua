@@ -2045,6 +2045,11 @@ pg.player_resource = {
 		name = "danmachi_pt",
 		itemid = 65711
 	},
+	[572] = {
+		id = 572,
+		name = "klms_pt_2",
+		itemid = 65713
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3833,6 +3838,9 @@ pg.player_resource = {
 		danmachi_pt = {
 			571
 		},
+		klms_pt_2 = {
+			572
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4580,6 +4588,7 @@ pg.player_resource = {
 		553,
 		554,
 		571,
+		572,
 		950,
 		951,
 		952,

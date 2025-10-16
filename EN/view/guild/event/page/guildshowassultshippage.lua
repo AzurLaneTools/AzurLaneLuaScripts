@@ -5,9 +5,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	slot0.closeBtn = slot0:findTF("frame/close")
-	slot0.progress = slot0:findTF("frame/progress"):GetComponent(typeof(Text))
+	slot0.scrollrect = slot0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	slot0.closeBtn = slot0._tf:Find("frame/close")
+	slot0.progress = slot0._tf:Find("frame/progress"):GetComponent(typeof(Text))
 end
 
 slot0.OnAssultShipBeRecommanded = function(slot0, slot1)

@@ -9,22 +9,22 @@ end
 
 slot0.init = function(slot0)
 	slot0.canvasGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
-	slot0.backBtn = slot0:findTF("adapt/top_panel/back_btn")
-	slot0.homeBtn = slot0:findTF("adapt/top_panel/option")
-	slot0.indexBtn = slot0:findTF("adapt/top_panel/index_btn")
+	slot0.backBtn = slot0._tf:Find("adapt/top_panel/back_btn")
+	slot0.homeBtn = slot0._tf:Find("adapt/top_panel/option")
+	slot0.indexBtn = slot0._tf:Find("adapt/top_panel/index_btn")
 	slot0.indexBtnSel = slot0.indexBtn:Find("sel")
-	slot0.inptuTr = slot0:findTF("adapt/top_panel/search")
-	slot0.emptyTr = slot0:findTF("adapt/main_panel/empty")
-	slot0.rollingCircleRect = RollingCircleRect.New(slot0:findTF("adapt/left_panel/mask/content/0"), slot0:findTF("adapt/left_panel"))
+	slot0.inptuTr = slot0._tf:Find("adapt/top_panel/search")
+	slot0.emptyTr = slot0._tf:Find("adapt/main_panel/empty")
+	slot0.rollingCircleRect = RollingCircleRect.New(slot0._tf:Find("adapt/left_panel/mask/content/0"), slot0._tf:Find("adapt/left_panel"))
 
 	slot0.rollingCircleRect:SetCallback(slot0, uv0.OnSelectSkinPage, uv0.OnConfirmSkinPage)
 
-	slot3 = slot0:findTF("adapt/main_panel/scrollrect")
+	slot3 = slot0._tf:Find("adapt/main_panel/scrollrect")
 	slot0.scrollrect = slot3:GetComponent("LScrollRect")
 	slot0.previewPage = SkinAtlasPreviewPage.New(slot0._tf, slot0.event)
 
-	setText(slot0:findTF("adapt/main_panel/empty/Text1"), i18n("skinatlas_search_result_is_empty"))
-	setText(slot0:findTF("adapt/top_panel/search/holder"), i18n("skinatlas_search_holder"))
+	setText(slot0._tf:Find("adapt/main_panel/empty/Text1"), i18n("skinatlas_search_result_is_empty"))
+	setText(slot0._tf:Find("adapt/top_panel/search/holder"), i18n("skinatlas_search_holder"))
 
 	slot0.defaultIndex = {
 		typeIndex = ShipIndexConst.TypeAll,

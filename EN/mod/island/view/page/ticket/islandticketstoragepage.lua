@@ -54,6 +54,15 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
+	onButton(slot0, slot3:Find("frame/title/help"), function ()
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_WHITOUT_BTN,
+			content = i18n("island_helpbtn_speedup")
+		})
+	end, SFX_PANEL)
+
+	slot3 = slot0._tf
+
 	onButton(slot0, slot3:Find("frame/close"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)

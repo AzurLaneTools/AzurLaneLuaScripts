@@ -1,12 +1,12 @@
 slot0 = class("ActiveStarlightHomepage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.Build = slot0:findTF("bg/Build"):GetComponent("Button")
-	slot0.Level = slot0:findTF("bg/Level"):GetComponent("Button")
-	slot0.Shop = slot0:findTF("bg/Shop"):GetComponent("Button")
-	slot0.Manual = slot0:findTF("bg/Manual"):GetComponent("Button")
-	slot0.image = slot0:findTF("bg/Manual/image")
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.Build = slot0._tf:Find("bg/Build"):GetComponent("Button")
+	slot0.Level = slot0._tf:Find("bg/Level"):GetComponent("Button")
+	slot0.Shop = slot0._tf:Find("bg/Shop"):GetComponent("Button")
+	slot0.Manual = slot0._tf:Find("bg/Manual"):GetComponent("Button")
+	slot0.image = slot0._tf:Find("bg/Manual/image")
 end
 
 slot0.OnDataSetting = function(slot0)

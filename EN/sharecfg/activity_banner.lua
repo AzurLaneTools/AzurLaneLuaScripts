@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					0,
@@ -36,7 +36,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -46,24 +45,45 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "AEBCSCoreActivityUI"
-			}
 		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					9
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "50166",
+		type = 3,
+		id = 3,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2025,
+					10,
+					16
 				},
 				{
 					0,
@@ -98,56 +118,25 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		type = 2,
+		param = "50163",
+		type = 3,
 		id = 6,
 		pic = "temp6",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					0,
@@ -181,7 +170,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					9
+					16
 				},
 				{
 					0,
@@ -193,7 +182,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					16
+					22
 				},
 				{
 					23,
@@ -205,35 +194,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "7503",
+		time = "stop",
 		type = 3,
 		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2025,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		pic = "temp8"
 	},
 	{
 		type = 2,
@@ -247,7 +211,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					10
+					16
 				},
 				{
 					0,
@@ -259,7 +223,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					15
+					22
 				},
 				{
 					23,
@@ -368,14 +332,14 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
-			6,
 			7,
 			9
 		},
 		[3] = {
+			3,
+			6,
 			8
 		},
 		[9] = {

@@ -17,9 +17,9 @@ slot0.setSummaryInfo = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("bg/back_btn")
-	slot0.pageContainer = slot0:findTF("bg/main/pages")
-	slot0.pageFootContainer = slot0:findTF("bg/main/page_foot")
+	slot0.backBtn = slot0._tf:Find("bg/back_btn")
+	slot0.pageContainer = slot0._tf:Find("bg/main/pages")
+	slot0.pageFootContainer = slot0._tf:Find("bg/main/page_foot")
 end
 
 slot0.didEnter = function(slot0)
@@ -51,13 +51,13 @@ end
 slot0.initSummaryInfo = function(slot0)
 	slot0.loadingPage = SummaryPageLoading.New(slot0.pageContainer:Find("loading"))
 	slot0.pages = {
-		SummaryPage1.New(slot0:findTF("page1", slot0.pageContainer)),
-		SummaryPage2.New(slot0:findTF("page2", slot0.pageContainer)),
-		SummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
-		SummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
-		SummaryPage4.New(slot0:findTF("page4_1", slot0.pageContainer)),
-		SummaryPage4.New(slot0:findTF("page4_2", slot0.pageContainer)),
-		SummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
+		SummaryPage1.New(slot0.pageContainer:Find("page1")),
+		SummaryPage2.New(slot0.pageContainer:Find("page2")),
+		SummaryPage3.New(slot0.pageContainer:Find("page3")),
+		SummaryPage4.New(slot0.pageContainer:Find("page4")),
+		SummaryPage4.New(slot0.pageContainer:Find("page4_1")),
+		SummaryPage4.New(slot0.pageContainer:Find("page4_2")),
+		SummaryPage5.New(slot0.pageContainer:Find("page5"))
 	}
 
 	table.remove(slot0.pages, slot0.summaryInfoVO.isProPose and 3 or 2):Hide()
@@ -118,7 +118,9 @@ slot0.registerFootEvent = function(slot0)
 end
 
 slot0.registerDrag = function(slot0)
-	slot0:addVerticalDrag(slot0:findTF("bg"), function ()
+	slot3 = slot0._tf
+
+	slot0:addVerticalDrag(slot3:Find("bg"), function ()
 		uv0:updatePageFoot(uv0.currPage + 1)
 	end, function ()
 		uv0:updatePageFoot(uv0.currPage - 1)

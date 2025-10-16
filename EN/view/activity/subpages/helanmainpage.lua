@@ -7,7 +7,7 @@ slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.bg = slot0:findTF("AD")
-	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
+	slot0.btnList = slot0.bg:Find("btn_list")
 	slot0.build_bgtime = slot0.bg:Find("btn_list/build/build_bgtime")
 	slot0.build_time = slot0.bg:Find("btn_list/build/build_bgtime/time")
 	slot0.shop_bgtime = slot0.bg:Find("btn_list/shop/shop_bgtime")

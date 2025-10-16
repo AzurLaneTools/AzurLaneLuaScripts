@@ -18,19 +18,19 @@ slot0.OnLoaded = function(slot0)
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
 	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
-	slot0.timeTxt = slot0:findTF("adapt/en/time"):GetComponent(typeof(Text))
-	slot0.timeEnTxt = slot0:findTF("adapt/en"):GetComponent(typeof(Text))
-	slot1 = slot0:findTF("adapt/battery/Text")
+	slot0.timeTxt = slot0._tf:Find("adapt/en/time"):GetComponent(typeof(Text))
+	slot0.timeEnTxt = slot0._tf:Find("adapt/en"):GetComponent(typeof(Text))
+	slot1 = slot0._tf:Find("adapt/battery/Text")
 	slot0.batteryTxt = slot1:GetComponent(typeof(Text))
 	slot0.electric = {
-		slot0:findTF("adapt/battery/kwh/1"),
-		slot0:findTF("adapt/battery/kwh/2"),
-		slot0:findTF("adapt/battery/kwh/3")
+		slot0._tf:Find("adapt/battery/kwh/1"),
+		slot0._tf:Find("adapt/battery/kwh/2"),
+		slot0._tf:Find("adapt/battery/kwh/3")
 	}
-	slot0.dateTxt = slot0:findTF("adapt/date"):GetComponent(typeof(Text))
-	slot0.changeBtn = slot0:findTF("change")
-	slot0.tips = UIItemList.New(slot0:findTF("tips"), slot0:findTF("tips/tpl"))
-	slot0.chatTr = slot0:findTF("chat")
+	slot0.dateTxt = slot0._tf:Find("adapt/date"):GetComponent(typeof(Text))
+	slot0.changeBtn = slot0._tf:Find("change")
+	slot0.tips = UIItemList.New(slot0._tf:Find("tips"), slot0._tf:Find("tips/tpl"))
+	slot0.chatTr = slot0._tf:Find("chat")
 	slot0.chatTxt = slot0.chatTr:GetComponent(typeof(Text))
 	slot0.changeSkinBtn = MainChangeSkinBtn.New(slot0.changeBtn, slot0.event)
 	slot0.systemTimeUtil = LocalSystemTimeUtil.New()

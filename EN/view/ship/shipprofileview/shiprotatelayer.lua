@@ -15,7 +15,7 @@ slot0.didEnter = function(slot0)
 		uv0:closeView()
 	end)
 	slot0.paintingView:Start()
-	setActive(slot0:findTF("Enc"), true)
+	setActive(slot0._tf:Find("Enc"), true)
 end
 
 slot0.willExit = function(slot0)
@@ -31,7 +31,7 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.painting = slot0:findTF("paint")
+	slot0.painting = slot0._tf:Find("paint")
 	slot0.paintingFitter = findTF(slot0.painting, "fitter")
 	slot0.paintingInitPos = slot0.painting.transform.localPosition
 	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting, true)

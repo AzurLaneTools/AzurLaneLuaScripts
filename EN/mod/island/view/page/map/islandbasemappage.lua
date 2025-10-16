@@ -8,10 +8,10 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.maps = {}
-	slot0.bg = slot0:findTF("bg")
+	slot0.bg = slot0._tf:Find("bg")
 
 	slot0:InitMaps()
-	setText(slot0:findTF("adapt/title/Text"), i18n("island_map_title"))
+	setText(slot0._tf:Find("adapt/title/Text"), i18n("island_map_title"))
 end
 
 slot0.InitMaps = function(slot0)

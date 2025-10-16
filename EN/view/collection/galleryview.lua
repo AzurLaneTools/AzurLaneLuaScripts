@@ -71,49 +71,49 @@ slot0.findUI = function(slot0)
 	slot0._tf.anchorMax = Vector2.one
 	slot0._tf.offsetMax = Vector2.zero
 	slot0._tf.offsetMin = Vector2.zero
-	slot0.topPanel = slot0:findTF("TopPanel")
-	slot0.scrollBar = slot0:findTF("Scrollbar")
-	slot0.timeFilterToggle = slot0:findTF("List/TimeFilterBtn", slot0.topPanel)
-	slot0.timeTextSelected = slot0:findTF("TextSelected", slot0.timeFilterToggle)
-	slot0.timeItemContainer = slot0:findTF("Panel", slot0.timeFilterToggle)
-	slot0.timeItemTpl = slot0:findTF("Item", slot0.timeItemContainer)
+	slot0.topPanel = slot0._tf:Find("TopPanel")
+	slot0.scrollBar = slot0._tf:Find("Scrollbar")
+	slot0.timeFilterToggle = slot0.topPanel:Find("List/TimeFilterBtn")
+	slot0.timeTextSelected = slot0.timeFilterToggle:Find("TextSelected")
+	slot0.timeItemContainer = slot0.timeFilterToggle:Find("Panel")
+	slot0.timeItemTpl = slot0.timeItemContainer:Find("Item")
 
 	setActive(slot0.timeFilterToggle, #GalleryConst.DateIndex >= 2)
 
-	slot0.setFilteToggle = slot0:findTF("List/SetFilterBtn", slot0.topPanel)
+	slot0.setFilteToggle = slot0.topPanel:Find("List/SetFilterBtn")
 
 	setActive(slot0.setFilteToggle, false)
 
-	slot0.setOpenToggle = slot0:findTF("SetToggle")
+	slot0.setOpenToggle = slot0._tf:Find("SetToggle")
 
 	setActive(slot0.setOpenToggle, false)
 
-	slot0.likeFilterToggle = slot0:findTF("List/LikeFilterBtn", slot0.topPanel)
-	slot0.likeNumText = slot0:findTF("TextNum", slot0.likeFilterToggle)
+	slot0.likeFilterToggle = slot0.topPanel:Find("List/LikeFilterBtn")
+	slot0.likeNumText = slot0.likeFilterToggle:Find("TextNum")
 
 	setActive(slot0.likeFilterToggle, true)
 	setActive(slot0.likeNumText, false)
 
-	slot0.orderToggle = slot0:findTF("List/OrderBtn", slot0.topPanel)
-	slot0.resRepaireBtn = slot0:findTF("List/RepaireBtn", slot0.topPanel)
-	slot0.progressText = slot0:findTF("TextProgress", slot0.topPanel)
-	slot0.scrollPanel = slot0:findTF("Scroll")
+	slot0.orderToggle = slot0.topPanel:Find("List/OrderBtn")
+	slot0.resRepaireBtn = slot0.topPanel:Find("List/RepaireBtn")
+	slot0.progressText = slot0.topPanel:Find("TextProgress")
+	slot0.scrollPanel = slot0._tf:Find("Scroll")
 	slot0.lScrollPageSC = GetComponent(slot0.scrollPanel, "LScrollPage")
-	slot0.picPanel = slot0:findTF("PicPanel")
-	slot0.picPanelBG = slot0:findTF("PanelBG", slot0.picPanel)
-	slot0.picTopContainer = slot0:findTF("Container", slot0.picPanel)
-	slot0.picContainer = slot0:findTF("Container/Picture", slot0.picPanel)
-	slot0.picBGImg = slot0:findTF("Container/Picture/PicBG", slot0.picPanel)
-	slot0.picImg = slot0:findTF("Container/Picture/Pic", slot0.picPanel)
-	slot0.picLikeToggle = slot0:findTF("LikeBtn", slot0.picContainer)
-	slot0.picName = slot0:findTF("PicName", slot0.picContainer)
-	slot0.picPreBtn = slot0:findTF("PreBtn", slot0.picPanel)
-	slot0.picNextBtn = slot0:findTF("NextBtn", slot0.picPanel)
+	slot0.picPanel = slot0._tf:Find("PicPanel")
+	slot0.picPanelBG = slot0.picPanel:Find("PanelBG")
+	slot0.picTopContainer = slot0.picPanel:Find("Container")
+	slot0.picContainer = slot0.picPanel:Find("Container/Picture")
+	slot0.picBGImg = slot0.picPanel:Find("Container/Picture/PicBG")
+	slot0.picImg = slot0.picPanel:Find("Container/Picture/Pic")
+	slot0.picLikeToggle = slot0.picContainer:Find("LikeBtn")
+	slot0.picName = slot0.picContainer:Find("PicName")
+	slot0.picPreBtn = slot0.picPanel:Find("PreBtn")
+	slot0.picNextBtn = slot0.picPanel:Find("NextBtn")
 
 	setActive(slot0.picLikeToggle, true)
 
-	slot0.emptyPanel = slot0:findTF("EmptyPanel")
-	slot0.updatePanel = slot0:findTF("UpdatePanel")
+	slot0.emptyPanel = slot0._tf:Find("EmptyPanel")
+	slot0.updatePanel = slot0._tf:Find("UpdatePanel")
 end
 
 slot0.addListener = function(slot0)
@@ -170,7 +170,7 @@ slot0.initTimeSelectPanel = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = GalleryConst.DateIndex[slot1 + 1]
 
-			setText(uv0:findTF("Text", slot2), GalleryConst.DateIndexName[slot1 + 1])
+			setText(slot2:Find("Text"), GalleryConst.DateIndexName[slot1 + 1])
 			onButton(uv0, slot2, function ()
 				if uv0 ~= uv1.curPicSelectDateValue then
 					uv1.curPicSelectDateValue = uv0
@@ -272,10 +272,10 @@ slot0.updateCardListPanel = function(slot0)
 end
 
 slot0.initDownBtnPanel = function(slot0)
-	slot1 = slot0:findTF("Btn", slot0.updatePanel)
-	slot2 = slot0:findTF("Text", slot1)
-	slot3 = slot0:findTF("Progress", slot0.updatePanel)
-	slot4 = slot0:findTF("Slider", slot3)
+	slot1 = slot0.updatePanel:Find("Btn")
+	slot2 = slot1:Find("Text")
+	slot3 = slot0.updatePanel:Find("Progress")
+	slot4 = slot3:Find("Slider")
 
 	setActive(slot1, true)
 	setActive(slot3, false)
@@ -298,8 +298,8 @@ slot0.initDownBtnPanel = function(slot0)
 end
 
 slot0.updateDownBtnPanel = function(slot0)
-	slot2 = slot0:findTF("Text", slot0:findTF("Btn", slot0.updatePanel))
-	slot4 = slot0:findTF("Slider", slot0:findTF("Progress", slot0.updatePanel))
+	slot2 = slot0.updatePanel:Find("Btn"):Find("Text")
+	slot4 = slot0.updatePanel:Find("Progress"):Find("Slider")
 
 	if slot0.manager.state == DownloadState.None then
 		setText(slot2, "None")
@@ -572,21 +572,21 @@ slot0.tryShowTipMsgBox = function(slot0)
 end
 
 slot0.cardUpdate = function(slot0, slot1, slot2)
-	slot5 = slot0:findTF("SelectBtn", slot2)
-	slot6 = slot0:findTF("BlackMask", slot2)
-	slot8 = slot0:findTF("DownloadBtn", slot6)
-	slot9 = slot0:findTF("LockImg", slot6)
-	slot10 = slot0:findTF("TextUnlockTip", slot6)
-	slot11 = slot0:findTF("UnLockBtn", slot6)
+	slot5 = slot2:Find("SelectBtn")
+	slot6 = slot2:Find("BlackMask")
+	slot8 = slot6:Find("DownloadBtn")
+	slot9 = slot6:Find("LockImg")
+	slot10 = slot6:Find("TextUnlockTip")
+	slot11 = slot6:Find("UnLockBtn")
 
-	setActive(slot0:findTF("Update", slot6), false)
+	setActive(slot6:Find("Update"), false)
 
 	slot12 = slot1 + 1
 	slot13 = slot0:getPicConfigForShowByIndex(slot12)
 	slot14 = slot13.illustration .. "_t"
 
-	slot0.resLoader:LoadSprite(GalleryConst.CARD_PATH_PREFIX .. slot14, slot14, slot0:findTF("CardImg", slot2), false)
-	setText(slot0:findTF("CardNum/Text", slot2), "#" .. slot12)
+	slot0.resLoader:LoadSprite(GalleryConst.CARD_PATH_PREFIX .. slot14, slot14, slot2:Find("CardImg"), false)
+	setText(slot2:Find("CardNum/Text"), "#" .. slot12)
 
 	slot16 = slot13.id
 	slot17, slot18 = nil
@@ -651,9 +651,9 @@ slot0.cardUpdate = function(slot0, slot1, slot2)
 end
 
 slot0.initEmptyCard = function(slot0, slot1)
-	setActive(slot0:findTF("CardImg", slot1), true)
-	setActive(slot0:findTF("CardNum", slot1), false)
-	setActive(slot0:findTF("SelectBtn", slot1), false)
+	setActive(slot1:Find("CardImg"), true)
+	setActive(slot1:Find("CardNum"), false)
+	setActive(slot1:Find("SelectBtn"), false)
 
 	slot5, slot6 = nil
 
@@ -668,17 +668,17 @@ slot0.initEmptyCard = function(slot0, slot1)
 
 	slot0.resLoader:LoadSprite(slot5, slot6, slot2, false)
 
-	slot7 = slot0:findTF("BlackMask", slot1)
+	slot7 = slot1:Find("BlackMask")
 
 	setActive(slot7, true)
-	setActive(slot0:findTF("LockImg", slot7), false)
-	setActive(slot0:findTF("TextUnlockTip", slot7), false)
-	setActive(slot0:findTF("UnLockBtn", slot7), false)
+	setActive(slot7:Find("LockImg"), false)
+	setActive(slot7:Find("TextUnlockTip"), false)
+	setActive(slot7:Find("UnLockBtn"), false)
 
-	slot11 = slot0:findTF("Update", slot7)
-	slot12 = slot0:findTF("Btn", slot11)
-	slot13 = slot0:findTF("Progress", slot11)
-	slot14 = slot0:findTF("Slider", slot13)
+	slot11 = slot7:Find("Update")
+	slot12 = slot11:Find("Btn")
+	slot13 = slot11:Find("Progress")
+	slot14 = slot13:Find("Slider")
 
 	setActive(slot11, true)
 	setActive(slot12, true)
@@ -702,9 +702,9 @@ slot0.initEmptyCard = function(slot0, slot1)
 end
 
 slot0.updateEmptyCard = function(slot0, slot1)
-	slot3 = slot0:findTF("Update", slot0:findTF("BlackMask", slot1))
-	slot5 = slot0:findTF("Text", slot0:findTF("Btn", slot3))
-	slot7 = slot0:findTF("Slider", slot0:findTF("Progress", slot3))
+	slot3 = slot1:Find("BlackMask"):Find("Update")
+	slot5 = slot3:Find("Btn"):Find("Text")
+	slot7 = slot3:Find("Progress"):Find("Slider")
 
 	if slot0.manager.state == DownloadState.None then
 		setText(slot5, "None")

@@ -6,9 +6,9 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.cards = {}
-	slot0.title1 = slot0:findTF("stages/title1")
-	slot0.title2 = slot0:findTF("stages/title2")
-	slot0.scrollRect = slot0:findTF("scrollrect"):GetComponent("LScrollRect")
+	slot0.title1 = slot0._tf:Find("stages/title1")
+	slot0.title2 = slot0._tf:Find("stages/title2")
+	slot0.scrollRect = slot0._tf:Find("scrollrect"):GetComponent("LScrollRect")
 
 	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -18,9 +18,9 @@ slot0.OnInit = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	setText(slot0:findTF("titles/rank_title"), i18n("vote_label_rank"))
-	setText(slot0:findTF("titles/votes"), i18n("word_votes"))
-	setText(slot0:findTF("tip"), i18n("vote_label_rank_fresh_time_tip"))
+	setText(slot0._tf:Find("titles/rank_title"), i18n("vote_label_rank"))
+	setText(slot0._tf:Find("titles/votes"), i18n("word_votes"))
+	setText(slot0._tf:Find("tip"), i18n("vote_label_rank_fresh_time_tip"))
 end
 
 slot0.Update = function(slot0, slot1)
@@ -29,7 +29,7 @@ slot0.Update = function(slot0, slot1)
 
 	setActive(slot0.title1, slot0.phase == VoteGroup.VOTE_STAGE)
 	setActive(slot0.title2, slot0.phase ~= VoteGroup.VOTE_STAGE)
-	setActive(slot0:findTF("tip"), slot0.phase == VoteGroup.VOTE_STAGE)
+	setActive(slot0._tf:Find("tip"), slot0.phase == VoteGroup.VOTE_STAGE)
 	slot0:UpdateList()
 end
 

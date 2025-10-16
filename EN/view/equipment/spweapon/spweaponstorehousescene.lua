@@ -15,20 +15,20 @@ end
 slot1 = require("view.equipment.SpWeaponSortCfg")
 
 slot0.init = function(slot0)
-	slot0.topItems = slot0:findTF("topItems")
-	slot0.equipmentView = slot0:findTF("ScrollView")
+	slot0.topItems = slot0._tf:Find("topItems")
+	slot0.equipmentView = slot0.rtAdapt:Find("ScrollView")
 	slot0.equipmentsGrid = slot0.equipmentView:Find("Viewport/Content/StoreHouse/Grid")
 	slot0.craftsGrid = slot0.equipmentView:Find("Viewport/Content/Craft/Grid")
 
 	setActive(slot0.equipmentView:Find("Template"), false)
 
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
-	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
-	slot0.sortBtn = slot0:findTF("buttons/sort_button", slot0.topPanel)
-	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
-	slot0.sortContain = slot0:findTF("adapt/mask/panel", slot0.sortPanel)
-	slot0.sortTpl = slot0:findTF("tpl", slot0.sortContain)
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0.blurPanel:Find("adapt/top")
+	slot0.indexBtn = slot0.topPanel:Find("buttons/index_button")
+	slot0.sortBtn = slot0.topPanel:Find("buttons/sort_button")
+	slot0.sortPanel = slot0.topItems:Find("sort")
+	slot0.sortContain = slot0.sortPanel:Find("adapt/mask/panel")
+	slot0.sortTpl = slot0.sortContain:Find("tpl")
 
 	setActive(slot0.sortTpl, false)
 
@@ -43,20 +43,20 @@ slot0.init = function(slot0)
 
 	setActive(slot0.filterBusyToggle, false)
 
-	slot0.bottomBack = slot0:findTF("adapt/bottom_back", slot0.topItems)
-	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
-	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
+	slot0.bottomBack = slot0.topItems:Find("adapt/bottom_back")
+	slot0.capacityTF = slot0.bottomBack:Find("bottom_left/tip/capcity/Text")
+	slot0.tipTF = slot0.bottomBack:Find("bottom_left/tip")
 	slot0.tip = slot0.tipTF:Find("label")
-	slot0.helpBtn = slot0:findTF("adapt/help_btn", slot0.topItems)
+	slot0.helpBtn = slot0.topItems:Find("adapt/help_btn")
 
 	setActive(slot0.helpBtn, true)
 
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_equip"))
 	setText(slot0.equipmentView:Find("Viewport/Content/Craft/Banner/Text"), i18n("spweapon_ui_create"))
@@ -387,7 +387,7 @@ slot0.filterEquipment = function(slot0)
 		end
 	end)()
 	slot0:UpdateCraftCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot0.contextData.sortData.spr), true)
+	setImageSprite(slot0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot0.contextData.sortData.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end

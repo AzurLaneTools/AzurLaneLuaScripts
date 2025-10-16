@@ -18,13 +18,14 @@ slot0.setPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
+	slot1 = slot0._tf
+	slot0.blurPanel = slot1:Find("blur_panel")
 	slot0.toggles = {
-		slot0:findTF("adapt/left_length/frame/tagRoot/iconframe", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/chatframe", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/achievement", slot0.blurPanel),
-		slot0:findTF("adapt/left_length/frame/tagRoot/combatUI", slot0.blurPanel)
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
+		slot0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI")
 	}
 	slot0.panels = {
 		AttireIconFramePanel.New(slot0._tf, slot0.event, slot0.contextData),

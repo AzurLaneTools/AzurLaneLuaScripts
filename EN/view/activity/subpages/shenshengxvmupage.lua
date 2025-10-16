@@ -14,11 +14,12 @@ end
 slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")))
+	setActive(slot0.bg:Find("got"), not slot0.ptData:CanGetNextAward())
 
-	slot4, slot5, slot6 = slot0.ptData:GetResProgress()
+	slot5, slot6, slot7 = slot0.ptData:GetResProgress()
 
-	setText(slot0.step, slot6 >= 1 and setColorStr(slot4, COLOR_GREEN) or slot4)
-	setText(slot0.progress, "/" .. slot5)
+	setText(slot0.step, slot7 >= 1 and setColorStr(slot5, COLOR_GREEN) or slot5)
+	setText(slot0.progress, "/" .. slot6)
 end
 
 return slot0

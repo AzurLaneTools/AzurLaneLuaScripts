@@ -12,14 +12,14 @@ slot2 = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("bg")
-	slot0.tip = slot0:findTF("tip")
-	slot0.btn = slot0:findTF("btn")
-	slot0.mainAward = slot0:findTF("main_award")
-	slot0.subAward = slot0:findTF("sub_award")
-	slot0.itemIcon = slot0:findTF("icon")
-	slot0.slider = slot0:findTF("slider")
-	slot0.uilist = UIItemList.New(slot0.subAward, slot0:findTF("1", slot0.subAward))
+	slot0.bg = slot0._tf:Find("bg")
+	slot0.tip = slot0._tf:Find("tip")
+	slot0.btn = slot0._tf:Find("btn")
+	slot0.mainAward = slot0._tf:Find("main_award")
+	slot0.subAward = slot0._tf:Find("sub_award")
+	slot0.itemIcon = slot0._tf:Find("icon")
+	slot0.slider = slot0._tf:Find("slider")
+	slot0.uilist = UIItemList.New(slot0.subAward, slot0.subAward:Find("1"))
 end
 
 slot0.OnFirstFlush = function(slot0)

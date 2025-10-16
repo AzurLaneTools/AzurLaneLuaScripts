@@ -28,6 +28,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4001,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Default Model",
 		jump_page = {}
 	},
@@ -37,6 +38,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4002,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "New Jersey Model",
 		jump_page = {}
 	},
@@ -46,6 +48,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4003,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Saratoga Model",
 		jump_page = {}
 	},
@@ -55,6 +58,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4004,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Hood Model",
 		jump_page = {}
 	},
@@ -64,6 +68,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4005,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Unicorn Model",
 		jump_page = {}
 	},
@@ -73,6 +78,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4006,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Cheshire Model",
 		jump_page = {}
 	},
@@ -82,6 +88,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4007,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Shimakaze Model",
 		jump_page = {}
 	},
@@ -91,6 +98,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4008,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Amagi-chan Model",
 		jump_page = {}
 	},
@@ -100,6 +108,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4009,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Taihou Model",
 		jump_page = {}
 	},
@@ -109,6 +118,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4010,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Akashi Model",
 		jump_page = {}
 	},
@@ -118,6 +128,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4011,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Prinz Eugen Model",
 		jump_page = {}
 	},
@@ -127,6 +138,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4012,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Ying Swei Model",
 		jump_page = {}
 	},
@@ -136,6 +148,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4013,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Chao Ho Model",
 		jump_page = {}
 	},
@@ -145,6 +158,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4014,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Leonardo da Vinci Model",
 		jump_page = {}
 	},
@@ -154,6 +168,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4015,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Taskhent Model",
 		jump_page = {}
 	},
@@ -163,6 +178,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4016,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "Le Malin Model",
 		jump_page = {}
 	}

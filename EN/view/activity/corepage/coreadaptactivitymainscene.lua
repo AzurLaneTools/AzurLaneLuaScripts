@@ -11,7 +11,8 @@ slot0.optionsPath = {
 slot0.init = function(slot0, ...)
 	uv0.super.init(slot0, ...)
 
-	slot0.btnBack = slot0:findTF("adapt/TopPage/top/btn_back")
+	slot1 = slot0._tf
+	slot0.btnBack = slot1:Find("adapt/TopPage/top/btn_back")
 
 	slot0:CustomInit()
 
@@ -27,13 +28,11 @@ slot0.init = function(slot0, ...)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				setText(uv0:findTF("off/name", slot2), uv0:GetButtonNameText(slot3))
-				setText(uv0:findTF("on/name", slot2), uv0:GetButtonNameText(slot3))
+				setText(slot2:Find("off/name"), uv0:GetButtonNameText(slot3))
+				setText(slot2:Find("on/name"), uv0:GetButtonNameText(slot3))
 
 				if uv0.pageDic[slot3.id] ~= nil then
-					slot6 = uv0
-
-					setActive(slot6:findTF("tip", slot2), slot3:readyToAchieve())
+					setActive(slot2:Find("tip"), slot3:readyToAchieve())
 					onToggle(uv0, slot2, function (slot0)
 						if slot0 then
 							uv0:selectActivity(uv1)
@@ -56,7 +55,10 @@ slot0.init = function(slot0, ...)
 	end)
 
 	slot0:UpdateAdapt()
-	onButton(slot0, slot0:findTF("adapt/TopPage/top/btn_back"), function ()
+
+	slot4 = slot0._tf
+
+	onButton(slot0, slot4:Find("adapt/TopPage/top/btn_back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
 end

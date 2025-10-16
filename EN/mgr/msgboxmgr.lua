@@ -507,6 +507,9 @@ slot10 = function(slot0, slot1)
 	if slot1.helps.ImageMode then
 		setActive(slot0._top, false)
 		setActive(findTF(slot0._window, "bg"), false)
+	else
+		setActive(slot0._top, true)
+		setActive(findTF(slot0._window, "bg"), true)
 	end
 
 	for slot6 = #slot0.settings.helps, slot0._helpList.childCount - 1 do

@@ -62,8 +62,8 @@ slot0.GetPage = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
-	slot1 = slot0:findTF("pages")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back_btn")
+	slot1 = slot0._tf:Find("pages")
 	slot0.pages = {
 		SettingsOtherPage.New(slot1, slot0.event, slot0.contextData),
 		SettingsOptionPage.New(slot1, slot0.event, slot0.contextData),
@@ -71,20 +71,20 @@ slot0.init = function(slot0)
 		SettingsResPage.New(slot1, slot0.event, slot0.contextData)
 	}
 	slot0.toggles = {
-		slot0:findTF("blur_panel/adapt/left_length/other"),
-		slot0:findTF("blur_panel/adapt/left_length/options"),
-		slot0:findTF("blur_panel/adapt/left_length/battle_ui"),
-		slot0:findTF("blur_panel/adapt/left_length/resources")
+		slot0._tf:Find("blur_panel/adapt/left_length/other"),
+		slot0._tf:Find("blur_panel/adapt/left_length/options"),
+		slot0._tf:Find("blur_panel/adapt/left_length/battle_ui"),
+		slot0._tf:Find("blur_panel/adapt/left_length/resources")
 	}
 
 	setActive(slot0.toggles[5], false)
 
 	slot0.otherTip = slot0.toggles[1]:Find("tip")
-	slot0.logoutBtn = slot0:findTF("blur_panel/adapt/left_length/logout")
-	slot0.helpBtn = slot0:findTF("blur_panel/adapt/left_length/help_us")
+	slot0.logoutBtn = slot0._tf:Find("blur_panel/adapt/left_length/logout")
+	slot0.helpBtn = slot0._tf:Find("blur_panel/adapt/left_length/help_us")
 	slot0.descWindow = SettingsMsgBosPage.New(slot0._tf, slot0.event)
 
-	setActive(slot0:findTF("blur_panel/adapt/left_length/threeD"), false)
+	setActive(slot0._tf:Find("blur_panel/adapt/left_length/threeD"), false)
 end
 
 slot0.didEnter = function(slot0)

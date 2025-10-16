@@ -17,18 +17,18 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.contentTF = slot0:findTF("anim_root/content")
-	slot0.memoryBtn = slot0:findTF("memory_btn", slot0.contentTF)
-	slot0.polaroidBtn = slot0:findTF("polaroid_btn", slot0.contentTF)
-	slot0.endingBtn = slot0:findTF("ending_btn", slot0.contentTF)
-	slot0.reviewBtn = slot0:findTF("review_btn", slot0.contentTF)
+	slot0.contentTF = slot0._tf:Find("anim_root/content")
+	slot0.memoryBtn = slot0.contentTF:Find("memory_btn")
+	slot0.polaroidBtn = slot0.contentTF:Find("polaroid_btn")
+	slot0.endingBtn = slot0.contentTF:Find("ending_btn")
+	slot0.reviewBtn = slot0.contentTF:Find("review_btn")
 end
 
 slot0.addListener = function(slot0)
@@ -42,7 +42,7 @@ slot0.addListener = function(slot0)
 		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.polaroidBtn, function ()
-		if isActive(uv0:findTF("lock", uv0.polaroidBtn)) then
+		if isActive(uv0.polaroidBtn:Find("lock")) then
 			return
 		end
 
@@ -50,10 +50,10 @@ slot0.addListener = function(slot0)
 			mediator = EducateCollectMediatorTemplate,
 			viewComponent = EducatePolaroidLayer
 		}))
-		setActive(uv0:findTF("new", uv0.polaroidBtn), false)
+		setActive(uv0.polaroidBtn:Find("new"), false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.endingBtn, function ()
-		if isActive(uv0:findTF("lock", uv0.endingBtn)) then
+		if isActive(uv0.endingBtn:Find("lock")) then
 			return
 		end
 
@@ -72,27 +72,29 @@ slot0.addListener = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	setText(slot0:findTF("Text", slot0.memoryBtn), #slot0.memories .. "/" .. #pg.child_memory.all)
+	setText(slot0.memoryBtn:Find("Text"), #slot0.memories .. "/" .. #pg.child_memory.all)
 	slot0:updateMemoryTip()
 
 	slot2, slot3 = getProxy(EducateProxy):GetPolaroidGroupCnt()
 
-	setText(slot0:findTF("Text", slot0.polaroidBtn), slot2 .. "/" .. slot3)
-	setActive(slot0:findTF("lock", slot0.polaroidBtn), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_POLAROID))
-	setActive(slot0:findTF("new", slot0.polaroidBtn), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
-	setText(slot0:findTF("unlock/Text", slot0.endingBtn), #slot0.endings .. "/" .. #pg.child_ending.all)
+	setText(slot0.polaroidBtn:Find("Text"), slot2 .. "/" .. slot3)
+	setActive(slot0.polaroidBtn:Find("lock"), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_POLAROID))
+	setActive(slot0.polaroidBtn:Find("new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
+	setText(slot0.endingBtn:Find("unlock/Text"), #slot0.endings .. "/" .. #pg.child_ending.all)
 
 	slot5 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_ENDING) or #slot0.endings > 0
 
-	setActive(slot0:findTF("unlock", slot0.endingBtn), slot5)
-	setActive(slot0:findTF("lock", slot0.endingBtn), not slot5)
+	setActive(slot0.endingBtn:Find("unlock"), slot5)
+	setActive(slot0.endingBtn:Find("lock"), not slot5)
 	slot0:BlurPanel(slot0._tf)
 	EducateGuideSequence.CheckGuide(slot0.__cname, function ()
 	end)
 end
 
 slot0.updateMemoryTip = function(slot0)
-	setActive(slot0:findTF("new", slot0.memoryBtn), underscore.any(pg.child_memory.all, function (slot0)
+	slot3 = slot0.memoryBtn
+
+	setActive(slot3:Find("new"), underscore.any(pg.child_memory.all, function (slot0)
 		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, slot0)
 	end))
 end

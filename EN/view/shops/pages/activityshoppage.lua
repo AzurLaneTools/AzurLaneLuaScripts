@@ -58,8 +58,8 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.scrollRectSpecial = slot0:findTF("scrollRectSpecial")
-	slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
+	slot0.scrollRectSpecial = slot0._tf:Find("scrollRectSpecial")
+	slot0.groupList = UIItemList.New(slot0.scrollRectSpecial:Find("viewport/view"), slot0.scrollRectSpecial:Find("viewport/view/group"))
 end
 
 slot0.OnInit = function(slot0)

@@ -74,60 +74,60 @@ slot0.setExpBuff = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0._grade = slot0:findTF("grade")
-	slot0._gradeLabel = slot0:findTF("label", slot0._grade)
+	slot0._grade = slot0._tf:Find("grade")
+	slot0._gradeLabel = slot0._grade:Find("label")
 	slot0._gradeLabelImg = slot0._gradeLabel:GetComponent(typeof(Image))
-	slot0.title = slot0:findTF("main/title")
-	slot0.subTitleTxt = slot0:findTF("main/title/Text"):GetComponent(typeof(Text))
-	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
-	slot0.clearFX = slot0:findTF("clear")
+	slot0.title = slot0._tf:Find("main/title")
+	slot0.subTitleTxt = slot0._tf:Find("main/title/Text"):GetComponent(typeof(Text))
+	slot0._levelText = slot0._grade:Find("chapterName/Text22")
+	slot0.clearFX = slot0._tf:Find("clear")
 
 	setParent(slot0.title, slot0._tf)
 
-	slot0._main = slot0:findTF("main")
-	slot0._blurConatiner = slot0:findTF("blur_container")
-	slot0._bg = slot0:findTF("main/jiesuanbeijing")
-	slot0._painting = slot0:findTF("painting", slot0._blurConatiner)
-	slot0._failPainting = slot0:findTF("fail", slot0._painting)
-	slot0._chat = slot0:findTF("chat", slot0._painting)
-	slot0._leftPanel = slot0:findTF("leftPanel", slot0._main)
-	slot0._expResult = slot0:findTF("expResult", slot0._leftPanel)
-	slot0._expContainer = slot0:findTF("expContainer", slot0._expResult)
+	slot0._main = slot0._tf:Find("main")
+	slot0._blurConatiner = slot0._tf:Find("blur_container")
+	slot0._bg = slot0._tf:Find("main/jiesuanbeijing")
+	slot0._painting = slot0._blurConatiner:Find("painting")
+	slot0._failPainting = slot0._painting:Find("fail")
+	slot0._chat = slot0._painting:Find("chat")
+	slot0._leftPanel = slot0._main:Find("leftPanel")
+	slot0._expResult = slot0._leftPanel:Find("expResult")
+	slot0._expContainer = slot0._expResult:Find("expContainer")
 	slot0._extpl = slot0:getTpl("ShipCardTpl", slot0._expContainer)
-	slot0._playerExp = slot0:findTF("playerExp", slot0._leftPanel)
-	slot0._playerName = slot0:findTF("name_text", slot0._playerExp)
-	slot0._playerLv = slot0:findTF("lv_text", slot0._playerExp)
-	slot0._playerExpLabel = slot0:findTF("exp_label", slot0._playerExp)
-	slot0._playerExpProgress = slot0:findTF("exp_progress", slot0._playerExp)
-	slot0._playerBonusExp = slot0:findTF("exp_text", slot0._playerExp)
-	slot0._playerExpExtra = slot0:findTF("operation_bonus", slot0._playerExp)
-	slot0._atkBG = slot0:findTF("atkPanel", slot0._blurConatiner)
-	slot0._atkPanel = slot0:findTF("atkResult", slot0._atkBG)
-	slot0._atkResult = slot0:findTF("atkResult/result", slot0._atkBG)
-	slot0._atkContainer = slot0:findTF("Grid", slot0._atkResult)
-	slot0._atkContainerNext = slot0:findTF("Grid_next", slot0._atkResult)
-	slot0._atkToggle = slot0:findTF("switchAtk", slot0._atkPanel)
+	slot0._playerExp = slot0._leftPanel:Find("playerExp")
+	slot0._playerName = slot0._playerExp:Find("name_text")
+	slot0._playerLv = slot0._playerExp:Find("lv_text")
+	slot0._playerExpLabel = slot0._playerExp:Find("exp_label")
+	slot0._playerExpProgress = slot0._playerExp:Find("exp_progress")
+	slot0._playerBonusExp = slot0._playerExp:Find("exp_text")
+	slot0._playerExpExtra = slot0._playerExp:Find("operation_bonus")
+	slot0._atkBG = slot0._blurConatiner:Find("atkPanel")
+	slot0._atkPanel = slot0._atkBG:Find("atkResult")
+	slot0._atkResult = slot0._atkBG:Find("atkResult/result")
+	slot0._atkContainer = slot0._atkResult:Find("Grid")
+	slot0._atkContainerNext = slot0._atkResult:Find("Grid_next")
+	slot0._atkToggle = slot0._atkPanel:Find("switchAtk")
 	slot0._atkTpl = slot0:getTpl("resulttpl", slot0._atkResult)
-	slot0._mvpFX = slot0:findTF("mvpFX", slot0._atkPanel)
-	slot0._rightBottomPanel = slot0:findTF("rightBottomPanel", slot0._blurConatiner)
-	slot0._confirmBtn = slot0:findTF("confirmBtn", slot0._rightBottomPanel)
+	slot0._mvpFX = slot0._atkPanel:Find("mvpFX")
+	slot0._rightBottomPanel = slot0._blurConatiner:Find("rightBottomPanel")
+	slot0._confirmBtn = slot0._rightBottomPanel:Find("confirmBtn")
 
 	setText(slot0._confirmBtn:Find("Text"), i18n("text_confirm"))
 
-	slot0._statisticsBtn = slot0:findTF("statisticsBtn", slot0._rightBottomPanel)
-	slot0._subExpResult = slot0:findTF("subExpResult", slot0._leftPanel)
-	slot0._subExpContainer = slot0:findTF("expContainer", slot0._subExpResult)
-	slot0._subToggle = slot0:findTF("switchFleet", slot0._leftPanel)
-	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
+	slot0._statisticsBtn = slot0._rightBottomPanel:Find("statisticsBtn")
+	slot0._subExpResult = slot0._leftPanel:Find("subExpResult")
+	slot0._subExpContainer = slot0._subExpResult:Find("expContainer")
+	slot0._subToggle = slot0._leftPanel:Find("switchFleet")
+	slot0._skipBtn = slot0._tf:Find("skipLayer")
 	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
-	slot0._conditions = slot0:findTF("main/conditions")
-	slot0._conditionContainer = slot0:findTF("bg16/list", slot0._conditions)
-	slot0._conditionTpl = slot0:findTF("bg16/conditionTpl", slot0._conditions)
-	slot0._conditionSubTpl = slot0:findTF("bg16/conditionSubTpl", slot0._conditions)
-	slot0._cmdExp = slot0:findTF("commanderExp", slot0._leftPanel)
-	slot0._cmdContainer = slot0:findTF("commander_container", slot0._cmdExp)
-	slot0._cmdTpl = slot0:findTF("commander_tpl", slot0._cmdExp)
+	slot0._conditions = slot0._tf:Find("main/conditions")
+	slot0._conditionContainer = slot0._conditions:Find("bg16/list")
+	slot0._conditionTpl = slot0._conditions:Find("bg16/conditionTpl")
+	slot0._conditionSubTpl = slot0._conditions:Find("bg16/conditionSubTpl")
+	slot0._cmdExp = slot0._leftPanel:Find("commanderExp")
+	slot0._cmdContainer = slot0._cmdExp:Find("commander_container")
+	slot0._cmdTpl = slot0._cmdExp:Find("commander_tpl")
 	slot1 = {
 		"d",
 		"c",
@@ -135,14 +135,14 @@ slot0.init = function(slot0)
 		"a",
 		"s"
 	}
-	slot2 = slot0:findTF("grade/Xyz/bg13")
-	slot3 = slot0:findTF("grade/Xyz/bg14")
+	slot2 = slot0._tf:Find("grade/Xyz/bg13")
+	slot3 = slot0._tf:Find("grade/Xyz/bg14")
 	slot4, slot5, slot6 = nil
 	slot8 = nil
 	slot9 = slot0.contextData.score > 0
 
-	setActive(slot0:findTF("jieuan01/BG/bg_victory", slot0._bg), slot9)
-	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not slot9)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_victory"), slot9)
+	setActive(slot0._bg:Find("jieuan01/BG/bg_fail"), not slot9)
 
 	if slot9 then
 		slot6 = slot1[slot7 + 1]
@@ -239,7 +239,9 @@ slot0.setStageName = function(slot0)
 end
 
 slot0.rankAnimaFinish = function(slot0)
-	SetActive(slot0:findTF("main/conditions"), true)
+	slot1 = slot0._tf
+
+	SetActive(slot1:Find("main/conditions"), true)
 
 	slot3 = pg.expedition_data_template[slot0.contextData.stageId]
 
@@ -255,7 +257,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -307,8 +309,9 @@ end
 
 slot0.showRewardInfo = function(slot0, slot1)
 	slot0._stateFlag = uv0.STATE_REWARD
+	slot3 = slot0._bg
 
-	SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
+	SetActive(slot3:Find("jieuan01/tips"), false)
 	setParent(slot0._tf, slot0.UIMain)
 
 	slot2 = nil
@@ -355,7 +358,7 @@ slot0.showRewardInfo = function(slot0, slot1)
 
 		setParent(uv0._tf, uv0.overlay)
 		uv2()
-		setActive(uv0:findTF("main/jiesuanbeijing"), false)
+		setActive(uv0._tf:Find("main/jiesuanbeijing"), false)
 		setActive(uv0._conditions, false)
 	end)
 
@@ -481,9 +484,9 @@ slot0.displayShips = function(slot0)
 			slot23.x = slot23.x + (slot15 - slot22) * 74
 			slot23.y = slot23.y + (slot15 - slot22) * -124
 			slot20.localPosition = slot23
-			slot0:findTF("result/mask/icon", slot20):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot16:getPainting())
+			slot20:Find("result/mask/icon"):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot16:getPainting())
 
-			setImageSprite(slot0:findTF("result/type", slot20), GetSpriteFromAtlas("shiptype", shipType2print(slot16:getShipType())), true)
+			setImageSprite(slot20:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot16:getShipType())), true)
 			slot0:setAtkAnima(slot20, slot21, slot3[slot16.id].output / slot5, slot5, slot4 and slot16.id == slot4.id, slot3[slot16.id].output, slot3[slot16.id].kill_count)
 
 			slot11 = slot11 + slot3[slot16.id].output
@@ -744,22 +747,22 @@ slot0.displayShips = function(slot0)
 end
 
 slot0.setAtkAnima = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	slot12 = slot0:findTF("result", slot1):GetComponent(typeof(DftAniEvent))
+	slot12 = slot1:Find("result"):GetComponent(typeof(DftAniEvent))
 
-	setText(slot0:findTF("result/atk", slot1), 0)
-	setText(slot0:findTF("result/killCount", slot1), 0)
+	setText(slot1:Find("result/atk"), 0)
+	setText(slot1:Find("result/killCount"), 0)
 
-	slot0:findTF("result/dmg_progress/progress_bar", slot1):GetComponent(typeof(Image)).fillAmount = 0
+	slot1:Find("result/dmg_progress/progress_bar"):GetComponent(typeof(Image)).fillAmount = 0
 
 	if slot5 then
-		slot13 = slot0:findTF("result/mvpBG", slot1)
+		slot13 = slot1:Find("result/mvpBG")
 
 		setParent(slot0._mvpFX, slot13)
 
 		slot0._mvpFX.localPosition = Vector3(-368.5, 0, 0)
 
 		setActive(slot13, true)
-		setActive(slot0:findTF("result/bg", slot1), false)
+		setActive(slot1:Find("result/bg"), false)
 	end
 
 	slot12:SetEndEvent(function (slot0)
@@ -789,7 +792,8 @@ slot0.setAtkAnima = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	end)
 
 	if slot2.childCount > 1 then
-		slot13 = slot0:findTF("result", slot2:GetChild(slot2.childCount - 2))
+		slot13 = slot2:GetChild(slot2.childCount - 2)
+		slot13 = slot13:Find("result")
 		slot14 = slot13:GetComponent(typeof(DftAniEvent))
 
 		slot14:SetTriggerEvent(function (slot0)
@@ -971,8 +975,8 @@ slot0.closeStatistics = function(slot0)
 end
 
 slot0.enabledStatisticsGizmos = function(slot0, slot1)
-	setActive(slot0:findTF("gizmos/xuxian_down", slot0._main), slot1)
-	setActive(slot0:findTF("gizmos/xuxian_middle", slot0._main), slot1)
+	setActive(slot0._main:Find("gizmos/xuxian_down"), slot1)
+	setActive(slot0._main:Find("gizmos/xuxian_middle"), slot1)
 end
 
 slot0.PlayAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)

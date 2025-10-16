@@ -22,6 +22,8 @@ slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.viewContainer = slot0._tf:Find("Main")
 	slot0.subViews = {}
+
+	slot0:OverlayPanel(slot0.top)
 end
 
 slot1 = {
@@ -36,7 +38,6 @@ slot0.GetCurrentPage = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot0:OverlayPanel(slot0.top)
 	onButton(slot0, slot0.top:Find("blur_panel/adapt/top/option"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
@@ -101,14 +102,6 @@ end
 
 slot0.onBackPressed = function(slot0)
 	slot0:Backward()
-end
-
-slot0.Add2LayerContainer = function(slot0, slot1)
-	setParent(slot1, slot0.viewContainer)
-end
-
-slot0.Add2TopContainer = function(slot0, slot1)
-	setParent(slot1, slot0.top)
 end
 
 slot0.WorldRecordLock = function()

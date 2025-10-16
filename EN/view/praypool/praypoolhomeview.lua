@@ -21,7 +21,8 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.startBtn = slot0:findTF("StartBtn")
+	slot1 = slot0._tf
+	slot0.startBtn = slot1:Find("StartBtn")
 
 	onButton(slot0, slot0.startBtn, function ()
 		uv0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)

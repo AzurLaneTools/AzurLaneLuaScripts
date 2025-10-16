@@ -31,7 +31,8 @@ pg.dorm3d_shop_template = setmetatable({
 		27,
 		28,
 		29,
-		30
+		30,
+		31
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -678,7 +679,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1153,
 		id = 30,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -690,6 +691,29 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture1153"
+		}
+	},
+	{
+		rarity = 5,
+		name = "Floralized Rhythm",
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1222,
+		id = 31,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270502
+		},
+		banners = {
+			"banner_furniture1222"
 		}
 	}
 }

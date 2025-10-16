@@ -27,14 +27,15 @@ end
 
 slot0.CommonInit = function(slot0)
 	slot0.eventTriggers = {}
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._costContainer = slot0:findTF("right/start/cost_container")
+	slot0._startBtn = slot0._tf:Find("right/start")
+	slot0._costContainer = slot0._tf:Find("right/start/cost_container")
 	slot0._popup = slot0._costContainer:Find("popup")
 	slot0._costText = slot0._popup:Find("Text")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
-	slot0._autoToggle = slot0:findTF("auto_toggle")
-	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
+	slot0._moveLayer = slot0._tf:Find("moveLayer")
+	slot1 = slot0._tf:Find("middle")
+	slot0._autoToggle = slot0._tf:Find("auto_toggle")
+	slot2 = slot0._tf
+	slot0._autoSubToggle = slot2:Find("sub_toggle_container/sub_toggle")
 	slot0._fleetInfo = slot1:Find("fleet_info")
 	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
 	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
@@ -59,20 +60,20 @@ slot0.CommonInit = function(slot0)
 		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
 	end
 
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
+	slot0._nextPage = slot0._tf:Find("middle/nextPage")
+	slot0._prevPage = slot0._tf:Find("middle/prevPage")
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._checkBtn = slot1:Find("checkBtn")
-	slot0._blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
-	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
-	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
-	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+	slot0._blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0._blurPanel:Find("top")
+	slot0.topPanelBg = slot0._blurPanel:Find("top_bg")
+	slot0._backBtn = slot0.topPanel:Find("back_btn")
+	slot0._spoilsContainer = slot0._tf:Find("right/infomation/atlasloot/spoils/items/items_container")
+	slot0._item = slot0._tf:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(slot0._item, false)
 
-	slot0._goals = slot0:findTF("right/infomation/target/goal")
+	slot0._goals = slot0._tf:Find("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
 
@@ -85,8 +86,8 @@ slot0.CommonInit = function(slot0)
 	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
+	slot0._middle = slot0._tf:Find("middle")
+	slot0._right = slot0._tf:Find("right")
 
 	setAnchoredPosition(slot0._middle, {
 		x = -840
@@ -95,14 +96,14 @@ slot0.CommonInit = function(slot0)
 		x = 470
 	})
 
-	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
+	slot0.guideDesc = slot0._middle:Find("guideDesc")
 
 	if slot0.contextData.stageId then
 		slot0:SetStageID(slot0.contextData.stageId)
 	end
 
 	slot0._costTip = slot0._startBtn:Find("cost_container/popup/tip")
-	slot0._continuousBtn = slot0:findTF("right/multiple")
+	slot0._continuousBtn = slot0._tf:Find("right/multiple")
 
 	setText(slot0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(slot0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))

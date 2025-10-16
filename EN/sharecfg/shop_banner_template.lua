@@ -46,7 +46,7 @@ pg.shop_banner_template = {
 		pic = "shopbanner/shop_skin2",
 		id = 11,
 		relation_param = "",
-		order = 9,
+		order = 8,
 		time = {
 			{
 				{
@@ -83,10 +83,10 @@ pg.shop_banner_template = {
 		time = "stop",
 		type = 2,
 		time_lable = 1,
-		pic = "shopbanner/shop_skin",
+		pic = "shopbanner/shop_skin3",
 		id = 12,
 		relation_param = "",
-		order = 10,
+		order = 9,
 		param = {
 			"scene skinshop",
 			{}

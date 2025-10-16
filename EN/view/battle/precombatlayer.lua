@@ -39,14 +39,14 @@ end
 
 slot0.CommonInit = function(slot0)
 	slot0.eventTriggers = {}
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._costContainer = slot0:findTF("right/start/cost_container")
+	slot0._startBtn = slot0.rtAdapt:Find("right/start")
+	slot0._costContainer = slot0.rtAdapt:Find("right/start/cost_container")
 	slot0._popup = slot0._costContainer:Find("popup")
 	slot0._costText = slot0._popup:Find("Text")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
-	slot0._autoToggle = slot0:findTF("auto_toggle")
-	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
+	slot0._moveLayer = slot0._tf:Find("moveLayer")
+	slot1 = slot0.rtAdapt:Find("middle")
+	slot0._autoToggle = slot0.rtAdapt:Find("auto_toggle")
+	slot0._autoSubToggle = slot0.rtAdapt:Find("sub_toggle_container/sub_toggle")
 	slot0._fleetInfo = slot1:Find("fleet_info")
 	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
 	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
@@ -71,34 +71,34 @@ slot0.CommonInit = function(slot0)
 		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
 	end
 
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
+	slot0._nextPage = slot0.rtAdapt:Find("middle/nextPage")
+	slot0._prevPage = slot0.rtAdapt:Find("middle/prevPage")
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._checkBtn = slot1:Find("checkBtn")
-	slot0._blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
-	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
-	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
-	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+	slot0._blurPanel = slot0._tf:Find("blur_panel")
+	slot0.topPanel = slot0._blurPanel:Find("top")
+	slot0.topPanelBg = slot0._blurPanel:Find("top_bg")
+	slot0._backBtn = slot0.topPanel:Find("back_btn")
+	slot0._spoilsContainer = slot0.rtAdapt:Find("right/infomation/atlasloot/spoils/items/items_container")
+	slot0._item = slot0.rtAdapt:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(slot0._item, false)
 
-	slot0._goals = slot0:findTF("right/infomation/target/goal")
+	slot0._goals = slot0.rtAdapt:Find("right/infomation/target/goal")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
 
-	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	setText(slot0.rtAdapt:Find("middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(slot0.rtAdapt:Find("middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(slot0.rtAdapt:Find("middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 	setText(slot0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(slot0.rtAdapt:Find("right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(slot0.rtAdapt:Find("right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
+	slot0._middle = slot0.rtAdapt:Find("middle")
+	slot0._right = slot0.rtAdapt:Find("right")
 
 	setAnchoredPosition(slot0._middle, {
 		x = -840
@@ -107,7 +107,7 @@ slot0.CommonInit = function(slot0)
 		x = 470
 	})
 
-	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
+	slot0.guideDesc = slot0._middle:Find("guideDesc")
 
 	if slot0.contextData.stageId then
 		slot0:SetStageID(slot0.contextData.stageId)
@@ -133,8 +133,8 @@ slot0.Register = function(slot0)
 		SetActive(slot0, true)
 
 		slot0.name = "info"
-		slot3 = findTF(findTF(slot0, "info"), "stars")
-		slot5 = findTF(slot2, "energy")
+		slot3 = slot0:Find("info"):Find("stars")
+		slot5 = slot2:Find("energy")
 
 		if slot1.energy <= Ship.ENERGY_MID then
 			slot6, slot7 = slot1:getEnergyPrint()
@@ -156,8 +156,8 @@ slot0.Register = function(slot0)
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot2, "type"), slot9, true)
-		setText(findTF(slot2, "frame/lv_contain/lv"), slot1.level)
+		setImageSprite(slot2:Find("type"), slot9, true)
+		setText(slot2:Find("frame/lv_contain/lv"), slot1.level)
 
 		if slot7.ship_exp_award > 0 then
 			setActive(slot2:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
@@ -185,13 +185,13 @@ slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddBeginDrag(function (slot0)
-		SetActive(findTF(slot0, "info"), false)
+		SetActive(slot0:Find("info"), false)
 	end)
 
 	slot1 = slot0._formationLogic
 
 	slot1:AddEndDrag(function (slot0)
-		SetActive(findTF(slot0, "info"), true)
+		SetActive(slot0:Find("info"), true)
 	end)
 
 	slot1 = slot0._formationLogic
@@ -344,10 +344,11 @@ slot0.SetStageID = function(slot0, slot1)
 	end
 
 	slot6 = {
-		findTF(slot0._goals, "goal_tpl"),
-		findTF(slot0._goals, "goal_sink"),
-		findTF(slot0._goals, "goal_time")
+		slot0._goals:Find("goal_tpl"),
+		slot0._goals:Find("goal_sink"),
+		slot7:Find("goal_time")
 	}
+	slot7 = slot0._goals
 	slot8 = 1
 
 	for slot12, slot13 in ipairs({

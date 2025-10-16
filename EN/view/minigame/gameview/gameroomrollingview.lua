@@ -49,9 +49,12 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.goodEffect = slot0:findTF("sanxiaoGood")
-	slot0.greatEffect = slot0:findTF("sanxiaoGreat")
-	slot0.perfectEffect = slot0:findTF("sanxiaoPerfect")
+	slot4 = slot0._tf
+	slot0.goodEffect = slot4:Find("sanxiaoGood")
+	slot4 = slot0._tf
+	slot0.greatEffect = slot4:Find("sanxiaoGreat")
+	slot4 = slot0._tf
+	slot0.perfectEffect = slot4:Find("sanxiaoPerfect")
 	slot0.caidaiTf = findTF(slot0._tf, "zhuanzhu_caidai")
 
 	setActive(slot0.caidaiTf, false)

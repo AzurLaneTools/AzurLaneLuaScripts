@@ -35,52 +35,52 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.infoTF = slot0:findTF("frame/info")
-	slot0.nameTitle = slot0:findTF("infos/name/title", slot0.infoTF)
-	slot0.nameInput = slot0:findTF("infos/name/box/InputField", slot0.infoTF)
-	slot0.jobTitle = slot0:findTF("infos/job/title", slot0.infoTF)
-	slot0.jobValue = slot0:findTF("infos/job/value", slot0.infoTF)
-	slot0.guardianTitle = slot0:findTF("infos/guardian/title", slot0.infoTF)
-	slot0.guardianValue = slot0:findTF("infos/guardian/value", slot0.infoTF)
-	slot0.lvTitle = slot0:findTF("level/lv/title", slot0.infoTF)
-	slot0.lvValue = slot0:findTF("level/lv/value", slot0.infoTF)
-	slot0.lvSlider = slot0:findTF("level/slider/slider", slot0.infoTF)
+	slot0.infoTF = slot0._tf:Find("frame/info")
+	slot0.nameTitle = slot0.infoTF:Find("infos/name/title")
+	slot0.nameInput = slot0.infoTF:Find("infos/name/box/InputField")
+	slot0.jobTitle = slot0.infoTF:Find("infos/job/title")
+	slot0.jobValue = slot0.infoTF:Find("infos/job/value")
+	slot0.guardianTitle = slot0.infoTF:Find("infos/guardian/title")
+	slot0.guardianValue = slot0.infoTF:Find("infos/guardian/value")
+	slot0.lvTitle = slot0.infoTF:Find("level/lv/title")
+	slot0.lvValue = slot0.infoTF:Find("level/lv/value")
+	slot0.lvSlider = slot0.infoTF:Find("level/slider/slider")
 	slot0.lvSliderImage = slot0.lvSlider:GetComponent(typeof(Image))
-	slot0.lvUpgradeTF = slot0:findTF("level/slider/upgrade", slot0.infoTF)
+	slot0.lvUpgradeTF = slot0.infoTF:Find("level/slider/upgrade")
 
 	setActive(slot0.lvUpgradeTF, false)
 
-	slot0.propertyTF = slot0:findTF("frame/property")
-	slot0.propertyContent = slot0:findTF("content", slot0.propertyTF)
-	slot0.propertyTpl = slot0:findTF("tpl", slot0.propertyTF)
+	slot0.propertyTF = slot0._tf:Find("frame/property")
+	slot0.propertyContent = slot0.propertyTF:Find("content")
+	slot0.propertyTpl = slot0.propertyTF:Find("tpl")
 
 	setActive(slot0.propertyTpl, false)
-	setActive(slot0:findTF("upgrade", slot0.propertyTpl), false)
+	setActive(slot0.propertyTpl:Find("upgrade"), false)
 
 	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
-		slot0.abilityTF = slot0:findTF("frame/ability")
+		slot0.abilityTF = slot0._tf:Find("frame/ability")
 
-		setActive(slot0:findTF("frame/ability_2"), false)
+		setActive(slot0._tf:Find("frame/ability_2"), false)
 	else
-		slot0.abilityTF = slot0:findTF("frame/ability_2")
+		slot0.abilityTF = slot0._tf:Find("frame/ability_2")
 
-		setActive(slot0:findTF("frame/ability"), false)
+		setActive(slot0._tf:Find("frame/ability"), false)
 	end
 
 	setActive(slot0.abilityTF, true)
 
-	slot0.abilityContent = slot0:findTF("content", slot0.abilityTF)
-	slot0.abilityTpl = slot0:findTF("tpl", slot0.abilityTF)
+	slot0.abilityContent = slot0.abilityTF:Find("content")
+	slot0.abilityTpl = slot0.abilityTF:Find("tpl")
 
 	setActive(slot0.abilityTpl, false)
 
-	slot0.randomBtn = slot0:findTF("frame/random_btn")
-	slot0.helpBtn = slot0:findTF("frame/help_tips")
-	slot0.effectTF = slot0:findTF("effect")
+	slot0.randomBtn = slot0._tf:Find("frame/random_btn")
+	slot0.helpBtn = slot0._tf:Find("frame/help_tips")
+	slot0.effectTF = slot0._tf:Find("effect")
 
 	setActive(slot0.effectTF, false)
 
-	slot0.quitBtn = slot0:findTF("frame/close_btn")
+	slot0.quitBtn = slot0._tf:Find("frame/close_btn")
 	slot0.playerId = getProxy(PlayerProxy):getRawData().id
 	slot0.showName = getProxy(PlayerProxy):getRawData().name
 end
@@ -125,7 +125,7 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.randomBtn, slot0.unlockRandom)
 	setActive(slot0.helpBtn, not slot0.unlockRandom)
-	setActive(slot0:findTF("infos/name/box/edit", slot0.infoTF), slot0.unlockRandom)
+	setActive(slot0.infoTF:Find("infos/name/box/edit"), slot0.unlockRandom)
 
 	if slot0.unlockRandom and slot0:GetLocalName() ~= "" then
 		slot0.showName = slot0:GetLocalName()
@@ -136,7 +136,7 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.quitBtn, function ()
 		uv0:Hide()
 	end)
-	onButton(slot0, slot0:findTF("mask"), function ()
+	onButton(slot0, slot0._tf:Find("mask"), function ()
 		uv0:Hide()
 	end)
 	slot0:UpdateView()
@@ -232,8 +232,8 @@ slot0.UpdateProperty = function(slot0, slot1)
 		slot8.name = slot7
 		slot9, slot10 = slot0:GetRollAttrInfoById(slot7, slot1)
 
-		setText(slot0:findTF("name", slot8), slot9)
-		setText(slot0:findTF("value/Text", slot8), slot10)
+		setText(slot8:Find("name"), slot9)
+		setText(slot8:Find("value/Text"), slot10)
 
 		if slot1 then
 			uv0.personalRandomData[slot7] = slot10
@@ -273,8 +273,8 @@ slot0.UpdateAbility = function(slot0, slot1)
 		slot8.name = slot6
 		slot9, slot10 = slot0:GetRollAttrInfoById(slot7, slot1)
 
-		setScrollText(slot0:findTF("name_mask/name", slot8), slot9)
-		setText(slot0:findTF("value/Text", slot8), slot10)
+		setScrollText(slot8:Find("name_mask/name"), slot9)
+		setText(slot8:Find("value/Text"), slot10)
 
 		if slot1 then
 			uv0.personalRandomData[slot7] = slot10
@@ -401,8 +401,8 @@ slot0.PlayAbilityAnim = function(slot0, slot1)
 						end))
 
 						slot1:setOnComplete(System.Action(function ()
-							setText(uv0:findTF("name", uv1), uv2.config[uv3].name)
-							setText(uv0:findTF("value/Text", uv1), uv0.upgradeCfg[uv3])
+							setText(uv0:Find("name"), uv1.config[uv2].name)
+							setText(uv0:Find("value/Text"), uv3.upgradeCfg[uv2])
 							uv4()
 						end))
 					end)
@@ -410,12 +410,12 @@ slot0.PlayAbilityAnim = function(slot0, slot1)
 
 				table.insert(slot5, function (slot0)
 					if uv0 then
-						setText(uv1:findTF("name", uv2), uv3.config[uv4].name)
-						setText(uv1:findTF("value/Text", uv2), uv1.upgradeCfg[uv4])
+						setText(uv1:Find("name"), uv2.config[uv3].name)
+						setText(uv1:Find("value/Text"), uv4.upgradeCfg[uv3])
 					end
 
-					slot1 = uv1
-					slot1 = slot1:managedTween(LeanTween.value, nil, go(uv2), 0, 1, uv3.ABILITY_TPL_ANIM_TIME)
+					slot1 = uv4
+					slot1 = slot1:managedTween(LeanTween.value, nil, go(uv1), 0, 1, uv2.ABILITY_TPL_ANIM_TIME)
 					slot1 = slot1:setEase(LeanTweenType.easeOutBack)
 					slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 						GetOrAddComponent(uv0, typeof(CanvasGroup)).alpha = slot0

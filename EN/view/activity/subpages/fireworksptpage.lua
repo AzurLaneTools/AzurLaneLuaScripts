@@ -3,23 +3,24 @@ slot0 = class("FireworksPtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.fireworkNameText = slot0:findTF("firework_text", slot0.bg)
-	slot0.fireworkNumText = slot0:findTF("firework_text/num_text", slot0.bg)
-	slot0.ptText = slot0:findTF("pt_text", slot0.bg)
-	slot0.fireBtn = slot0:findTF("fire_btn", slot0.bg)
-	slot0.fireworkPanel = slot0:findTF("frame", slot0.bg)
+	slot0.fireworkNameText = slot0.bg:Find("firework_text")
+	slot0.fireworkNumText = slot0.bg:Find("firework_text/num_text")
+	slot0.ptText = slot0.bg:Find("pt_text")
+	slot0.fireBtn = slot0.bg:Find("fire_btn")
+	slot1 = slot0.bg
+	slot0.fireworkPanel = slot1:Find("frame")
 	slot0.dots = {
-		slot0:findTF("dots/1", slot0.fireworkPanel),
-		slot0:findTF("dots/2", slot0.fireworkPanel),
-		slot0:findTF("dots/3", slot0.fireworkPanel)
+		slot0.fireworkPanel:Find("dots/1"),
+		slot0.fireworkPanel:Find("dots/2"),
+		slot0.fireworkPanel:Find("dots/3")
 	}
 	slot0.fireworkPages = {
-		slot0:findTF("content/1", slot0.fireworkPanel),
-		slot0:findTF("content/2", slot0.fireworkPanel),
-		slot0:findTF("content/3", slot0.fireworkPanel)
+		slot0.fireworkPanel:Find("content/1"),
+		slot0.fireworkPanel:Find("content/2"),
+		slot0.fireworkPanel:Find("content/3")
 	}
-	slot0.nextPageBtn = slot0:findTF("right_btn", slot0.fireworkPanel)
-	slot0.lastPageBtn = slot0:findTF("left_btn", slot0.fireworkPanel)
+	slot0.nextPageBtn = slot0.fireworkPanel:Find("right_btn")
+	slot0.lastPageBtn = slot0.fireworkPanel:Find("left_btn")
 end
 
 slot0.OnDataSetting = function(slot0)

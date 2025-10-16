@@ -11,7 +11,7 @@ slot0.OnInit = function(slot0)
 	slot0.albumGroups = _.map(pg.activity_medal_group.all, function (slot0)
 		return pg.activity_medal_group[slot0]
 	end)
-	slot0.albumGroupList = slot0:findTF("GroupRect"):GetComponent("LScrollRect")
+	slot0.albumGroupList = slot0._tf:Find("GroupRect"):GetComponent("LScrollRect")
 
 	slot0.albumGroupList.onInitItem = function(slot0)
 		uv0:onInitAlbumGroup(slot0)
@@ -23,17 +23,17 @@ slot0.OnInit = function(slot0)
 
 	slot0.albumGroupInfos = {}
 
-	setActive(slot0:findTF("GroupItem", slot0.albumGroupList), false)
+	setActive(tf(slot0.albumGroupList):Find("GroupItem"), false)
 
-	slot0.albumGroupViewport = slot0:findTF("Viewport", slot0.albumGroupList)
-	slot0.albumGroupsGrid = slot0:findTF("Viewport/Content", slot0.albumGroupList):GetComponent(typeof(GridLayoutGroup))
+	slot0.albumGroupViewport = tf(slot0.albumGroupList):Find("Viewport")
+	slot0.albumGroupsGrid = tf(slot0.albumGroupList):Find("Viewport/Content"):GetComponent(typeof(GridLayoutGroup))
 	slot0.loader = AutoLoader.New()
 
-	setText(slot0:findTF("top/title/text"), i18n("word_limited_activity"))
-	setText(slot0:findTF("top/expireCheckBox/text"), i18n("word_show_expire_content"))
+	setText(slot0._tf:Find("top/title/text"), i18n("word_limited_activity"))
+	setText(slot0._tf:Find("top/expireCheckBox/text"), i18n("word_show_expire_content"))
 
-	slot0.showExpireBtn = slot0:findTF("top/expireCheckBox/click")
-	slot0.showExpireCheckBox = slot0:findTF("top/expireCheckBox/checkBox/check")
+	slot0.showExpireBtn = slot0._tf:Find("top/expireCheckBox/click")
+	slot0.showExpireCheckBox = slot0._tf:Find("top/expireCheckBox/checkBox/check")
 	slot0.showExpire = true
 
 	onButton(slot0, slot0.showExpireBtn, function ()
@@ -45,7 +45,7 @@ slot0.OnInit = function(slot0)
 	end)
 	triggerButton(slot0.showExpireBtn)
 
-	slot0.rectAnchorX = slot0:findTF("GroupRect").anchoredPosition.x
+	slot0.rectAnchorX = slot0._tf:Find("GroupRect").anchoredPosition.x
 
 	slot0:UpdateView(slot0.showExpireBtn)
 end
@@ -124,7 +124,7 @@ slot0.ExpireFilter = function(slot0)
 end
 
 slot0.UpdateView = function(slot0)
-	setAnchoredPosition(slot0:findTF("GroupRect"), {
+	setAnchoredPosition(slot0._tf:Find("GroupRect"), {
 		x = WorldMediaCollectionScene.WorldRecordLock() and 0 or slot0.rectAnchorX
 	})
 	slot0.albumGroupList:SetTotalCount(#slot0.albumGroups, 0)

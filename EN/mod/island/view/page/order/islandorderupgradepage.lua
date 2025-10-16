@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.levelTxt = slot0:findTF("level"):GetComponent(typeof(Text))
-	slot0.nextLevelTxt = slot0:findTF("next_level"):GetComponent(typeof(Text))
+	slot0.levelTxt = slot0._tf:Find("level"):GetComponent(typeof(Text))
+	slot0.nextLevelTxt = slot0._tf:Find("next_level"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

@@ -13,12 +13,12 @@ slot0.ClearEnterTag = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.bguo = slot0:findTF("BGUO")
-	slot0.goBtn = slot0:findTF("GO")
-	slot0.awardTF = slot0:findTF("Award")
-	slot0.itemTF = slot0:findTF("Award/IconTpl")
-	slot0.maskTF = slot0:findTF("Award/Mask")
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.bguo = slot0._tf:Find("BGUO")
+	slot0.goBtn = slot0._tf:Find("GO")
+	slot0.awardTF = slot0._tf:Find("Award")
+	slot0.itemTF = slot0._tf:Find("Award/IconTpl")
+	slot0.maskTF = slot0._tf:Find("Award/Mask")
 	slot0.actProxy = getProxy(ActivityProxy)
 	slot0.isOpen, slot0.surveyID = slot0.actProxy:isSurveyOpen()
 

@@ -4,8 +4,8 @@ slot0.TIME = 300
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.value2 = slot0:findTF("AD/value2")
-	slot0.sliderTxt = slot0:findTF("AD/slider/Text")
+	slot0.value2 = slot0._tf:Find("AD/value2")
+	slot0.sliderTxt = slot0._tf:Find("AD/slider/Text")
 end
 
 slot0.OnUpdateFlush = function(slot0)

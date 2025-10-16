@@ -26,9 +26,12 @@ slot0.OnLoaded = function(slot0)
 		removeOnButton(slot1)
 	end
 
-	slot0.cancelBtn = slot0:findTF("frame/cancel_button")
-	slot0.backBtn = slot0:findTF("frame/top/btnBack")
-	slot0.confirmBtn = slot0:findTF("frame/confirm_button")
+	slot1 = slot0._tf
+	slot0.cancelBtn = slot1:Find("frame/cancel_button")
+	slot1 = slot0._tf
+	slot0.backBtn = slot1:Find("frame/top/btnBack")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("frame/confirm_button")
 	slot2 = slot0._tf
 
 	setText(slot2:Find("frame/bg_award/label"), i18n("disassemble_available") .. ":")

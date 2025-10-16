@@ -21,25 +21,25 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.content = slot0:findTF("scrollrect/content")
-	slot0.soldOutTF = slot0:findTF("sold_out")
+	slot0.content = slot0._tf:Find("scrollrect/content")
+	slot0.soldOutTF = slot0._tf:Find("sold_out")
 
-	setText(slot0:findTF("Text", slot0.soldOutTF), i18n("newserver_soldout"))
+	setText(slot0.soldOutTF:Find("Text"), i18n("newserver_soldout"))
 	setActive(slot0.soldOutTF, #slot0.giftGoodsVOList == 0)
 
 	slot0.pagefooters = {
-		slot0:findTF("pagefooter/dailyPacks"),
-		slot0:findTF("pagefooter/specialPacks")
+		slot0._tf:Find("pagefooter/dailyPacks"),
+		slot0._tf:Find("pagefooter/specialPacks")
 	}
 
-	setText(slot0:findTF("pagefooter/dailyPacks/Text"), i18n("blackfriday_dailypack"))
-	setText(slot0:findTF("pagefooter/dailyPacks/mark"), i18n("blackfriday_dailypack"))
-	setText(slot0:findTF("pagefooter/specialPacks/Text"), i18n("blackfriday_specialpack"))
-	setText(slot0:findTF("pagefooter/specialPacks/mark"), i18n("blackfriday_specialpack"))
+	setText(slot0._tf:Find("pagefooter/dailyPacks/Text"), i18n("blackfriday_dailypack"))
+	setText(slot0._tf:Find("pagefooter/dailyPacks/mark"), i18n("blackfriday_dailypack"))
+	setText(slot0._tf:Find("pagefooter/specialPacks/Text"), i18n("blackfriday_specialpack"))
+	setText(slot0._tf:Find("pagefooter/specialPacks/mark"), i18n("blackfriday_specialpack"))
 
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x
-	slot0.giftItemList = UIItemList.New(slot0.content, slot0:findTF("gift_tpl"))
+	slot0.giftItemList = UIItemList.New(slot0.content, slot0._tf:Find("gift_tpl"))
 	slot0.chargeCardTable = {}
 
 	slot0.giftItemList:make(function (slot0, slot1, slot2)

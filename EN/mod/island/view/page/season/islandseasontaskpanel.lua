@@ -40,6 +40,13 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 			updateCustomDrop(slot2, uv0[slot1 + 1], {
 				style = "island"
 			})
+			onButton(uv1, slot2, function ()
+				uv0.contextData:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = uv1[uv2 + 1]
+				})
+			end)
 		end
 	end)
 

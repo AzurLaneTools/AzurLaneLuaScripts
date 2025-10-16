@@ -28,7 +28,7 @@ slot0.didEnter = function(slot0)
 	slot0:initRivalInfo()
 
 	slot0.isRealName = false
-	slot0.realNameToggle = slot0:findTF("info/real_name")
+	slot0.realNameToggle = slot0._tf:Find("info/real_name")
 
 	onToggle(slot0, slot0.realNameToggle, function (slot0)
 		uv0.isRealName = slot0
@@ -86,8 +86,8 @@ slot0.initRivalInfo = function(slot0)
 		slot4 = cloneTplTo(uv0.shipCardTpl, slot2)
 		slot4.localScale = Vector3(1.1, 1.1, 1)
 
-		setActive(uv0:findTF("content", slot4), slot3 ~= nil)
-		setActive(uv0:findTF("empty", slot4), slot3 == nil)
+		setActive(slot4:Find("content"), slot3 ~= nil)
+		setActive(slot4:Find("empty"), slot3 == nil)
 
 		if slot3 then
 			uv1(slot4, slot3)
@@ -98,31 +98,35 @@ slot0.initRivalInfo = function(slot0)
 		end
 	end
 
-	slot3 = slot0:findTF("ships_container/ships/main", slot0._tf)
+	slot3 = slot0._tf:Find("ships_container/ships/main")
 	slot4 = #slot0.rivalVO.mainShips
 
 	for slot8 = 1, 3 do
 		slot2(slot4, slot8, slot3, slot0.rivalVO.mainShips[slot8])
 	end
 
-	slot5 = slot0:findTF("ships_container/ships/vanguard", slot0._tf)
+	slot5 = slot0._tf:Find("ships_container/ships/vanguard")
 	slot6 = #slot0.rivalVO.vanguardShips
 
 	for slot10 = 1, 3 do
 		slot2(slot6, slot10, slot5, slot0.rivalVO.vanguardShips[slot10])
 	end
 
-	slot7 = slot0:findTF("ships_container/main_comprehensive", slot0._tf)
-	slot8 = slot0:findTF("ships_container/vanguard_comprehensive", slot0._tf)
+	slot7 = slot0._tf
+	slot7 = slot7:Find("ships_container/main_comprehensive")
+	slot8 = slot0._tf
+	slot8 = slot8:Find("ships_container/vanguard_comprehensive")
+	slot9 = slot0._tf
+	slot10 = slot0._tf
 	slot11 = slot0.rivalVO
 	slot12 = slot0.rivalVO
-	slot13 = LeanTween.value(go(slot0:findTF("ships_container/main_comprehensive/Text", slot0._tf)), 0, slot11:GetGearScoreSum(TeamType.Main), 0.5)
+	slot13 = LeanTween.value(go(slot9:Find("ships_container/main_comprehensive/Text")), 0, slot11:GetGearScoreSum(TeamType.Main), 0.5)
 
 	slot13:setOnUpdate(System.Action_float(function (slot0)
 		setText(uv0, math.floor(slot0))
 	end))
 
-	slot13 = LeanTween.value(go(slot0:findTF("ships_container/vanguard_comprehensive/Text", slot0._tf)), 0, slot12:GetGearScoreSum(TeamType.Vanguard), 0.5)
+	slot13 = LeanTween.value(go(slot10:Find("ships_container/vanguard_comprehensive/Text")), 0, slot12:GetGearScoreSum(TeamType.Vanguard), 0.5)
 	slot13 = slot13:setOnUpdate(System.Action_float(function (slot0)
 		setText(uv0, math.floor(slot0))
 	end))

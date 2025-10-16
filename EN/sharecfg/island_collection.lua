@@ -6,6 +6,7 @@ pg.island_collection = {
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16001,
 		desc = "Aircraft – Harbor",
+		tech_id = 0,
 		id = 1,
 		icon = "IslandProps/gold",
 		end_time = {
@@ -25,7 +26,8 @@ pg.island_collection = {
 			1011,
 			1012
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	{
 		name = "Aircraft",
@@ -33,6 +35,7 @@ pg.island_collection = {
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16002,
 		desc = "Aircraft – Wilderness",
+		tech_id = 0,
 		id = 2,
 		icon = "IslandProps/gold",
 		end_time = {
@@ -53,7 +56,8 @@ pg.island_collection = {
 			1008,
 			1009
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	{
 		name = "Aircraft",
@@ -61,6 +65,7 @@ pg.island_collection = {
 		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16003,
 		desc = "Aircraft – Farm",
+		tech_id = 0,
 		id = 3,
 		icon = "IslandProps/gold",
 		end_time = {
@@ -82,7 +87,8 @@ pg.island_collection = {
 			1004,
 			1005
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	all = {
 		1,

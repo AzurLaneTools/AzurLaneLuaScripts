@@ -1,10 +1,10 @@
 slot0 = class("YamaShiroSwimwearPage", import(".TemplatePage.SkinTemplatePage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.goBtn = slot0:findTF("GoBtn")
-	slot0.gotBtn = slot0:findTF("GotBtn")
-	slot0.stepText = slot0:findTF("Step")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.goBtn = slot0._tf:Find("GoBtn")
+	slot0.gotBtn = slot0._tf:Find("GotBtn")
+	slot0.stepText = slot0._tf:Find("Step")
 end
 
 slot0.OnDataSetting = function(slot0)

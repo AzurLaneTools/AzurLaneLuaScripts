@@ -5,16 +5,16 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.photoImgTrans = slot0:findTF("PhotoImg")
+	slot0.photoImgTrans = slot0._tf:Find("PhotoImg")
 	slot0.rawImage = slot0.photoImgTrans:GetComponent("RawImage")
-	slot0.shareBtnTrans = slot0:findTF("BtnPanel/ShareBtn")
-	slot0.confirmBtnTrans = slot0:findTF("BtnPanel/ConfirmBtn")
-	slot0.cancelBtnTrans = slot0:findTF("BtnPanel/CancelBtn")
-	slot0.userAgreenTF = slot0:findTF("UserAgreement")
-	slot0.userAgreenMainTF = slot0:findTF("window", slot0.userAgreenTF)
-	slot0.closeUserAgreenTF = slot0:findTF("close_btn", slot0.userAgreenMainTF)
-	slot0.userRefuseConfirmTF = slot0:findTF("refuse_btn", slot0.userAgreenMainTF)
-	slot0.userAgreenConfirmTF = slot0:findTF("accept_btn", slot0.userAgreenMainTF)
+	slot0.shareBtnTrans = slot0._tf:Find("BtnPanel/ShareBtn")
+	slot0.confirmBtnTrans = slot0._tf:Find("BtnPanel/ConfirmBtn")
+	slot0.cancelBtnTrans = slot0._tf:Find("BtnPanel/CancelBtn")
+	slot0.userAgreenTF = slot0._tf:Find("UserAgreement")
+	slot0.userAgreenMainTF = slot0.userAgreenTF:Find("window")
+	slot0.closeUserAgreenTF = slot0.userAgreenMainTF:Find("close_btn")
+	slot0.userRefuseConfirmTF = slot0.userAgreenMainTF:Find("refuse_btn")
+	slot0.userAgreenConfirmTF = slot0.userAgreenMainTF:Find("accept_btn")
 
 	setActive(slot0.userAgreenTF, false)
 
@@ -56,7 +56,8 @@ slot0.showUserAgreement = function(slot0, slot1)
 	setButtonEnabled(slot0.userAgreenConfirmTF, true)
 
 	slot2 = nil
-	slot0.userAgreenTitleTF = slot0:findTF("UserAgreement/window/title")
+	slot3 = slot0._tf
+	slot0.userAgreenTitleTF = slot3:Find("UserAgreement/window/title")
 	slot3 = slot0.userAgreenTitleTF
 	slot3:GetComponent("Text").text = i18n("word_snapshot_share_title")
 
