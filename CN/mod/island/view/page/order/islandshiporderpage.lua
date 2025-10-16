@@ -48,12 +48,18 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
 	slot0:AddListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 	slot0:AddListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
+	slot0:AddListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SHIP_ORDER_OP_DONE, slot0.OnOrderUpdate)
 	slot0:RemoveListener(GAME.ISLAND_USE_TICKET_DONE, slot0.OnUseTicketDone)
 	slot0:RemoveListener(GAME.ISLAND_REFRESH_SHIP_ORDER_DONE, slot0.OnRefreshOrder)
+	slot0:RemoveListener(IslandShipOrderCard.EVENT_CD_END, slot0.OnOrderReloadingEnd)
+end
+
+slot0.OnOrderReloadingEnd = function(slot0)
+	slot0:UpdateOnekeyBtns()
 end
 
 slot0.OnRefreshOrder = function(slot0, slot1)
@@ -73,6 +79,7 @@ slot0.OnRefreshOrder = function(slot0, slot1)
 	end
 
 	slot3:Flush(slot3.slot, slot0.mode)
+	slot0:UpdateOnekeyBtns()
 end
 
 slot0.OnOrderUpdate = function(slot0, slot1)
@@ -132,6 +139,7 @@ slot0.OnUseTicketDone = function(slot0, slot1)
 		end
 
 		slot3:Flush(slot3.slot, slot0.mode)
+		slot0:UpdateOnekeyBtns()
 	end
 end
 
@@ -199,9 +207,7 @@ end
 slot0.UpdateOnekeyBtns = function(slot0)
 	slot0.onekeySlots:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0.displays[slot1 + 1]
-
-			setActive(slot2:Find("btn"), slot4:IsWaiting())
+			setActive(slot2:Find("btn"), uv0.displays[slot1 + 1]:IsWaiting() and not slot4:IsReloading())
 
 			slot5 = slot4:IsWaiting() and not slot4:GetOrder():AnyCanLoadUp()
 
@@ -209,7 +215,11 @@ slot0.UpdateOnekeyBtns = function(slot0)
 
 			if not slot5 then
 				onButton(uv0, slot3, function ()
-					uv0:emit(IslandMediator.SUBMIT_SHIP_ORDER_ITME_ONEKEY, uv1.id)
+					if uv0:IsReloading() then
+						return
+					end
+
+					uv1:emit(IslandMediator.SUBMIT_SHIP_ORDER_ITME_ONEKEY, uv0.id)
 				end, SFX_PANEL)
 			else
 				removeOnButton(slot3)

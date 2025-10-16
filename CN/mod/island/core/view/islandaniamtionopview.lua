@@ -16,7 +16,7 @@ slot0.GetExitAnimationName = function(slot0)
 end
 
 slot0.SetUIParent = function(slot0, slot1)
-	setParent(slot1, slot0:GetView().topContainer)
+	return slot0:GetView().topContainer
 end
 
 slot0.FirstFlush = function(slot0)

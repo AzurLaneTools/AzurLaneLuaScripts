@@ -32,7 +32,7 @@ slot0.ExecuteFuncList = function(slot0)
 end
 
 slot0.SetUIParent = function(slot0, slot1)
-	setParent(slot1, slot0:GetView().pageContianer)
+	return slot0:GetView().pageContianer
 end
 
 slot0.Show = function(slot0, ...)

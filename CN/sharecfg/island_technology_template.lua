@@ -4147,11 +4147,11 @@ pg.base.island_technology_template = {
 		}
 	},
 	[500232] = {
-		complete_title = "可前往<color=#1E8FFE>繁荫农圃露西处购买<color=#1E8FFE>柑橘树种</color>",
+		complete_title = "可前往<color=#1E8FFE>繁荫农圃露西</color>处购买<color=#1E8FFE>柑橘树种</color>",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "可前往<color=#1E8FFE>繁荫农圃露西处购买<color=#1E8FFE>柑橘树种</color>",
+		complete_tips = "可前往<color=#1E8FFE>繁荫农圃露西</color>处购买<color=#1E8FFE>柑橘树种</color>",
 		island_level = 10,
 		tech_desc = "先进的柑橘树种植技术，让柑橘树能在岛屿开发区的环境中茁壮成长。",
 		tech_icon = "tech_500231",

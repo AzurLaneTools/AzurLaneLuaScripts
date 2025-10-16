@@ -135,7 +135,7 @@ slot0.updateItem = function(slot0, slot1, slot2)
 	setActive(slot4, false)
 	setActive(slot5, false)
 
-	slot9 = slot0._tf:Find("CommonItemTemplate(Clone)", slot1)
+	slot9 = findTF(slot1, "CommonItemTemplate(Clone)")
 
 	setActive(slot9, true)
 	updateDrop(slot9, {

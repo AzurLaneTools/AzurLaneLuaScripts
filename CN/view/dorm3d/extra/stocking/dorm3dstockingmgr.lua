@@ -138,7 +138,7 @@ slot0.InitStatus = function(slot0, slot1)
 	uv0 = pg.dorm3d_stocking[slot1]
 	slot0.cacheIkStatus = slot0.ladyEnv.currentIkStatus
 	slot0.inDragStocking = false
-	slot0.stockingL, slot0.stockingR = uv1.GetStockingGeo(slot0.ladyEnv, uv0.skin_id)
+	slot0.stockingL, slot0.stockingR = uv1.GetStockingGeo(slot0.ladyEnv.lady, uv0.skin_id)
 	slot0.stockingTFs = {
 		slot0.stockingL,
 		slot0.stockingR
@@ -353,12 +353,14 @@ slot0.GetStockingGeo = function(slot0, slot1)
 		return nil, 
 	end
 
-	return slot0.lady:Find(slot2[1]), slot0.lady:Find(slot2[2])
+	return slot0:Find(slot2[1]), slot0:Find(slot2[2])
 end
 
 slot0.Init = function(slot0)
 	if slot0:Func("GetCurrentLadyEnv") then
-		slot0:InitDormStocking(slot1, slot1.skinId)
+		for slot5, slot6 in pairs(slot1.skinIdList) do
+			slot0:InitDormStocking(slot0:Get("skinDict")[slot6].ladyGameObject.transform, slot6)
+		end
 	end
 end
 
@@ -381,7 +383,7 @@ slot0.InitDormStocking = function(slot0, slot1, slot2)
 		setActive(slot6, false)
 		setActive(slot7, false)
 
-		slot8 = slot1.lady:Find("all/body_geo"):GetComponent(typeof(SkinnedMeshRenderer))
+		slot8 = slot1:Find("all/body_geo"):GetComponent(typeof(SkinnedMeshRenderer))
 
 		slot8:SetBlendShapeWeight(0, 0)
 		slot8:SetBlendShapeWeight(1, 0)
@@ -404,9 +406,9 @@ end
 
 slot0.HandleNotification = function(slot0, slot1, slot2)
 	if slot1 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
-		slot3 = slot0:Func("GetCurrentLadyEnv")
-
-		slot0:InitDormStocking(slot3, slot3.skinId)
+		for slot7, slot8 in pairs(slot0:Func("GetCurrentLadyEnv").skinIdList) do
+			slot0:InitDormStocking(slot0:Get("skinDict")[slot8].ladyGameObject.transform, slot8)
+		end
 	end
 end
 

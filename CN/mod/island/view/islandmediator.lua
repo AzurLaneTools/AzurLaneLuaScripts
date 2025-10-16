@@ -678,7 +678,8 @@ slot0._listNotificationInterests = function(slot0)
 		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
 		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
+		IslandShipOrderCard.EVENT_CD_END
 	}
 end
 
