@@ -134,7 +134,6 @@ slot0.didEnter = function(slot0)
 		groupDelta = -1
 	})
 	slot0:addDragListenter()
-	checkFirstHelpShow("help_shipinfo_upgrate")
 	onButton(slot0, slot0.seaLoading, function ()
 		if not uv0.previewer then
 			uv0:showBarrage()
@@ -327,7 +326,6 @@ slot0.updateBattleView = function(slot0)
 end
 
 slot2 = {
-	"level",
 	"durability",
 	"cannon",
 	"torpedo",
@@ -398,7 +396,7 @@ slot0.updateBreakOutView = function(slot0, slot1)
 		setActive(slot6, false)
 	end
 
-	slot1:getShipProperties().level = slot1:getMaxLevel()
+	slot2 = slot1:getShipProperties()
 	Clone(slot1).configId = slot0.breakCfg.breakout_id
 	slot4 = {}
 	slot6 = slot1:getBattleTotalExpend()

@@ -4,6 +4,7 @@ slot2 = Color.New(0.8274509803921568, 0.8274509803921568, 0.8274509803921568, 1)
 slot3 = Color.New(0.8588235294117647, 0.8588235294117647, 0.8588235294117647, 1)
 slot4 = Color.New(1, 0.6823529411764706, 0.13333333333333333, 1)
 slot5 = Color.New(1, 1, 1, 1)
+slot0.EVENT_CD_END = "IslandShipOrderCard.EVENT_CD_END"
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.parent = slot2
@@ -259,6 +260,7 @@ slot0.UpdateReloadingTime = function(slot0, slot1)
 			uv1.reloadingTimerTxt.text = ""
 
 			uv1:Flush(uv2, uv1.mode)
+			pg.m02:sendNotification(uv3.EVENT_CD_END)
 		else
 			uv1.reloadingTimerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 		end

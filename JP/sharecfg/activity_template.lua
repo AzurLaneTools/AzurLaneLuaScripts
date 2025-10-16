@@ -30672,48 +30672,6 @@ pg.activity_template = {
 			}
 		}
 	},
-	[50174] = {
-		mark = 20251009,
-		page_info = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		title_res_tag = "",
-		id = 50174,
-		page_core = "",
-		config_data = {
-			23861
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
 	[50175] = {
 		mark = 20251016,
 		page_info = "",
@@ -37273,7 +37231,6 @@ pg.activity_template = {
 			50154,
 			50159,
 			50168,
-			50174,
 			1079,
 			1080,
 			1081,
@@ -39055,7 +39012,6 @@ pg.activity_template = {
 		50171,
 		50172,
 		50173,
-		50174,
 		50175,
 		7011,
 		7012,

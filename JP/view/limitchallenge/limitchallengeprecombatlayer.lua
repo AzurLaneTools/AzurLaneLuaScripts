@@ -39,7 +39,7 @@ slot0.CommonInit = function(slot0)
 
 	SetActive(slot0._item, false)
 	SetActive(slot0._heroInfo, false)
-	SetActive(slot0._starTpl, false)
+	SetActive(slot0._starTplsa, false)
 	setText(slot0._gearScore:Find("vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
 	setText(slot0._gearScore:Find("main/line/Image/Text1"), i18n("pre_combat_main"))
 	setText(slot0._gearScore:Find("submarine/line/Image/text1"), i18n("pre_combat_submarine"))
@@ -95,7 +95,7 @@ slot0.Register = function(slot0)
 		setActive(slot5, slot4 and uv0.contextData.system ~= SYSTEM_DUEL)
 
 		for slot10 = 1, slot1:getStar() do
-			cloneTplTo(uv0._starTpl, slot3)
+			cloneTplTo(uv0._starTplsa, slot3)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then

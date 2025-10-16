@@ -9,8 +9,8 @@ slot0.OnInit = function(slot0)
 
 	setActive(slot0.samllTF, true)
 
-	slot0.pos1 = slot0.topPanel:Find("small/commander1")
-	slot0.pos2 = slot0.topPanel:Find("small/commander2")
+	slot0.pos1 = slot0._tf:Find("small/commander1")
+	slot0.pos2 = slot0._tf:Find("small/commander2")
 	slot0.descPanel = slot0._tf:Find("desc")
 
 	setActive(slot0.descPanel, false)
