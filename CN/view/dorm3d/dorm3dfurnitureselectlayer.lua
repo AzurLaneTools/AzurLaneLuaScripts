@@ -425,7 +425,7 @@ slot0.UpdateView = function(slot0)
 	if slot0.selectSlotId then
 		if Dorm3dFurnitureSlot.New({
 			configId = slot0.selectSlotId
-		}):GetType() == Dorm3dFurniture.TYPE.DECORATION then
+		}):GetType() == Dorm3dFurniture.TYPE.DECORATION or slot10:GetType() == Dorm3dFurniture.TYPE.SPECIAL then
 			slot11 = slot0.room
 
 			if _.detect(slot11:GetFurnitures(), function (slot0)

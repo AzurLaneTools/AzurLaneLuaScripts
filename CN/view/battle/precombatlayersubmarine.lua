@@ -4,7 +4,7 @@ slot1 = import("..ship.FormationUI")
 slot0.init = function(slot0)
 	slot0:CommonInit()
 
-	slot1 = slot0._tf:Find("middle")
+	slot1 = slot0._tf:Find("adapt/middle")
 
 	SetActive(slot1:Find("gear_score/main"), false)
 	SetActive(slot1:Find("gear_score/vanguard"), false)

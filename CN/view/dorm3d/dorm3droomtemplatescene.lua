@@ -130,8 +130,6 @@ slot0.init = function(slot0)
 	slot0:initScene()
 	slot0:initNodeCanvas()
 
-	slot0.stockingMgr = Dorm3dStockingMgr.New(slot0.event, slot0)
-
 	if slot0.room:isPersonalRoom() then
 		slot1 = slot0.contextData.groupIds[1]
 		slot2 = getProxy(ApartmentProxy):getApartment(slot1)
@@ -1092,6 +1090,13 @@ slot0.InitExtraSystem = function(slot0, slot1)
 				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide] = SlideExtraSystem.New(uv0.event, uv0)
 
 				uv0.systemList[DormConst.EXTRA_SYSTEMS.FurnitureSlide]:Init()
+			end,
+			[DormConst.EXTRA_SYSTEMS.StockingMgr] = function ()
+				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr] = Dorm3dStockingMgr.New(uv0.event, uv0)
+
+				uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]:Init()
+
+				uv0.stockingMgr = uv0.systemList[DormConst.EXTRA_SYSTEMS.StockingMgr]
 			end
 		})
 	end

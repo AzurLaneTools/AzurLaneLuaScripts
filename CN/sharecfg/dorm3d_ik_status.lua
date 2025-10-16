@@ -19959,7 +19959,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {
-			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0/all/fbx_db_chair27"
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
 	},
 	[500520] = {
@@ -20095,7 +20095,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {
-			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0/all/fbx_db_chair27"
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
 	},
 	[500530] = {
@@ -21180,7 +21180,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {
-			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0/all/fbx_db_chair27"
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
 	},
 	[510520] = {
@@ -21311,7 +21311,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		hide_scene_item = {
-			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0/all/fbx_db_chair27"
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		}
 	},
 	[510530] = {

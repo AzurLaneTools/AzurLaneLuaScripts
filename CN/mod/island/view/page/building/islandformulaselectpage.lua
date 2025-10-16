@@ -105,10 +105,18 @@ slot0.OnInit = function(slot0)
 		uv0:RefreshCost()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
-		uv0.curSelectCount = uv0:CheckCanAddMaxTimes()
+		if uv0.addDelegateFormulaTimes then
+			uv0.curSelectCount = uv0.productMaxTime < uv0:CheckCanAddMaxTimes() + uv0.addDelegateFormulaTimes and uv0.productMaxTime or slot0
 
-		if uv0.curSelectCount < 1 then
-			uv0.curSelectCount = 1
+			if uv0.curSelectCount < 1 then
+				uv0.curSelectCount = 1
+			end
+		else
+			uv0.curSelectCount = uv0:CheckCanAddMaxTimes()
+
+			if uv0.curSelectCount < 1 then
+				uv0.curSelectCount = 1
+			end
 		end
 
 		uv0:RefreshCost()

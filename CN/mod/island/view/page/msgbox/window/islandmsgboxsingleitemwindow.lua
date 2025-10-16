@@ -61,10 +61,13 @@ slot0.FlushAcquiringWay = function(slot0, slot1)
 		end
 	end)
 	slot0.uiItemList:align(#slot3)
-	setAnchoredPosition(slot0.contentTF, {
-		x = 0,
-		y = 0
-	})
+
+	if not IsNil(slot0.contentTF) then
+		setAnchoredPosition(slot0.contentTF, {
+			x = 0,
+			y = 0
+		})
+	end
 end
 
 slot0.FlushBtn = function(slot0, slot1)

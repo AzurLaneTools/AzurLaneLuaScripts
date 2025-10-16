@@ -133,7 +133,7 @@ slot0.CheckStockingShow = function(slot0)
 	end
 end
 
-slot0.Init = function(slot0, slot1)
+slot0.InitStatus = function(slot0, slot1)
 	slot0.ladyEnv = slot0:Func("GetCurrentLadyEnv")
 	uv0 = pg.dorm3d_stocking[slot1]
 	slot0.cacheIkStatus = slot0.ladyEnv.currentIkStatus
@@ -247,7 +247,7 @@ slot0.ResetLady = function(slot0)
 end
 
 slot0.SetStockingStatus = function(slot0, slot1)
-	slot0:Init(slot1)
+	slot0:InitStatus(slot1)
 	slot0:InitHideMode()
 	warning(">>>>>>>>>>> enter stocking mode <<<<<<<<<<", slot1)
 	seriesAsync({
@@ -356,6 +356,12 @@ slot0.GetStockingGeo = function(slot0, slot1)
 	return slot0.lady:Find(slot2[1]), slot0.lady:Find(slot2[2])
 end
 
+slot0.Init = function(slot0)
+	if slot0:Func("GetCurrentLadyEnv") then
+		slot0:InitDormStocking(slot1, slot1.skinId)
+	end
+end
+
 slot0.InitDormStocking = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:IsUnlockStocking(slot2)
 
@@ -374,6 +380,11 @@ slot0.InitDormStocking = function(slot0, slot1, slot2)
 	else
 		setActive(slot6, false)
 		setActive(slot7, false)
+
+		slot8 = slot1.lady:Find("all/body_geo"):GetComponent(typeof(SkinnedMeshRenderer))
+
+		slot8:SetBlendShapeWeight(0, 0)
+		slot8:SetBlendShapeWeight(1, 0)
 	end
 end
 

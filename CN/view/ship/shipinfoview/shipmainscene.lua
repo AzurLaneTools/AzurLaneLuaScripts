@@ -503,7 +503,7 @@ slot0.showAwakenCompleteAni = function(slot0, slot1)
 		slot0 = tf(uv0.awakenAni)
 
 		pg.UIMgr.GetInstance():BlurPanel(slot0)
-		setText(uv0.awakenAni:Find("window/desc"), uv1)
+		setText(slot0:Find("window/desc"), uv1)
 		slot0:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			uv0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
 			pg.UIMgr.GetInstance():UnOverlayPanel(uv1, uv0.common)

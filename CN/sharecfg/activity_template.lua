@@ -30215,7 +30215,8 @@ pg.activity_template = {
 			ui_name = "ClemenceauMainRePage"
 		},
 		config_client = {
-			entrance_bg = "activitybanner/temp10"
+			entrance_bg = "activitybanner/temp10",
+			PTID = 572
 		}
 	},
 	[50167] = {

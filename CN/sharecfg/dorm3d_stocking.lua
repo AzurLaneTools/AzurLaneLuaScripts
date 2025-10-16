@@ -46,7 +46,7 @@ pg.dorm3d_stocking = {
 			}
 		},
 		hide_scene_item = {
-			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0/all/fbx_db_chair27"
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
 		},
 		scene_stocking_path = {
 			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_sock01/pre_db_df_sock01_l",

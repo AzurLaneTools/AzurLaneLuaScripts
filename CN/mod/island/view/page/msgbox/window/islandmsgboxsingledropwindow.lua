@@ -44,7 +44,7 @@ slot0.FlushAcquiringWay = function(slot0, slot1)
 		slot3 = {}
 
 		table.insert(slot3, slot1:GetTecDes())
-		table.insert(slot2, slot3)
+		table.insert({}, slot3)
 	end
 
 	slot3 = #slot2 > 0

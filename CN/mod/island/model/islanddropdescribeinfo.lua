@@ -22,11 +22,13 @@ end
 
 slot0.GetAcquiringWay = function(slot0)
 	slot1 = {}
-	slot3 = ipairs
-	slot4 = slot0:GetDropConfig().jump_page or {}
 
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot1, slot7)
+	if (slot0:GetDropConfig().jump_page or {}) == "" then
+		slot3 = {} or slot3
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		table.insert(slot1, slot8)
 	end
 
 	return slot1
@@ -47,7 +49,7 @@ slot0.GetTecDes = function(slot0)
 
 	slot3 = pg.island_technology_template[slot2]
 
-	return i18n("island_information_tech", IslandTechBelong.Names[slot3.belong], slot3.name)
+	return i18n("island_information_tech", IslandTechBelong.Names[slot3.tech_belong], slot3.tech_name)
 end
 
 slot0.GetDropConfig = function(slot0)

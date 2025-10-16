@@ -48,7 +48,7 @@ return {
 						},
 						{
 							skip = false,
-							time = 1.5,
+							time = 11.1,
 							type = "wait"
 						}
 					}

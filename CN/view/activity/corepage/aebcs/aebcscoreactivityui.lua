@@ -102,12 +102,8 @@ end
 slot0.skinCommdityTimeStamp = function(slot0, slot1)
 	if math.floor(math.max(slot1 - pg.TimeMgr.GetInstance():GetServerTime(), 0) / 86400) > 0 then
 		return i18n("limit_skin_time_day", slot4)
-	elseif math.floor(slot3 / 3600) > 0 then
-		return i18n("limit_skin_time_day_min", slot5, math.floor(slot3 / 60) - slot5 * 60)
-	elseif math.floor(slot3 / 60) > 0 then
-		return i18n("limit_skin_time_min", slot6)
 	else
-		return i18n("limit_skin_time_overtime")
+		return i18n("masaina_main_other_tag")
 	end
 end
 
