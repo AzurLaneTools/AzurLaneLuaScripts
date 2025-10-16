@@ -36992,7 +36992,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10094,
 		commodity_id_list_show = 0,
-		order = 0
+		order = 1
 	},
 	[10095] = {
 		commodity_id_list = "",
@@ -37007,7 +37007,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10095,
 		commodity_id_list_show = 0,
-		order = 0
+		order = 5
 	},
 	[10096] = {
 		commodity_id_list = "",
@@ -37022,7 +37022,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10096,
 		commodity_id_list_show = 0,
-		order = 0
+		order = 5
 	},
 	[10097] = {
 		commodity_id_list = "",
@@ -37037,7 +37037,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10097,
 		commodity_id_list_show = 0,
-		order = 0
+		order = 5
 	},
 	[10500] = {
 		commodity_id_list = "",
