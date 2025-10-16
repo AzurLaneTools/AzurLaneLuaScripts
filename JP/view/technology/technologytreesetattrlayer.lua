@@ -42,21 +42,21 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUITips = function(slot0)
-	setText(slot0:findTF("Adapt/Content/ResetBtn/Text"), i18n("attrset_reset"))
-	setText(slot0:findTF("Adapt/Content/SaveBtn/Text"), i18n("attrset_save"))
+	setText(slot0._tf:Find("Adapt/Content/ResetBtn/Text"), i18n("attrset_reset"))
+	setText(slot0._tf:Find("Adapt/Content/SaveBtn/Text"), i18n("attrset_save"))
 end
 
 slot0.findUI = function(slot0)
-	slot0.typeTpl = slot0:findTF("TypeTpl")
-	slot0.attrTpl = slot0:findTF("AttrTpl")
-	slot0.backBGTF = slot0:findTF("Adapt/BackBG")
-	slot1 = slot0:findTF("Adapt/Content")
-	slot0.closeBtn = slot0:findTF("CloseBtn", slot1)
-	slot0.arrowTF = slot0:findTF("Arrow", slot1)
-	slot0.typeContainer = slot0:findTF("TypeScrollView/Content", slot1)
-	slot0.attrContainer = slot0:findTF("AttrPanel", slot1)
-	slot0.resetBtn = slot0:findTF("ResetBtn", slot1)
-	slot0.saveBtn = slot0:findTF("SaveBtn", slot1)
+	slot0.typeTpl = slot0._tf:Find("TypeTpl")
+	slot0.attrTpl = slot0._tf:Find("AttrTpl")
+	slot0.backBGTF = slot0._tf:Find("Adapt/BackBG")
+	slot1 = slot0._tf:Find("Adapt/Content")
+	slot0.closeBtn = slot1:Find("CloseBtn")
+	slot0.arrowTF = slot1:Find("Arrow")
+	slot0.typeContainer = slot1:Find("TypeScrollView/Content")
+	slot0.attrContainer = slot1:Find("AttrPanel")
+	slot0.resetBtn = slot1:Find("ResetBtn")
+	slot0.saveBtn = slot1:Find("SaveBtn")
 	slot0.typeUIItemList = UIItemList.New(slot0.typeContainer, slot0.typeTpl)
 	slot0.attrUIItemList = UIItemList.New(slot0.attrContainer, slot0.attrTpl)
 end
@@ -139,12 +139,12 @@ slot0.updateTypeTF = function(slot0, slot1, slot2)
 	slot6 = slot0.typeOrderList[slot1]
 	slot7 = ShipType.Type2Name(slot6)
 
-	setText(slot0:findTF("TypeNameUnSelect", slot2), slot7)
-	setText(slot0:findTF("TypeNameSelected", slot2), slot7)
+	setText(slot2:Find("TypeNameUnSelect"), slot7)
+	setText(slot2:Find("TypeNameSelected"), slot7)
 
 	slot8 = slot0.resLoader
 
-	slot8:GetSprite("ShipType", "buffitem_tec_" .. slot6, slot0:findTF("TypeImg", slot2), false)
+	slot8:GetSprite("ShipType", "buffitem_tec_" .. slot6, slot2:Find("TypeImg"), false)
 	onToggle(slot0, slot2, function (slot0)
 		if slot0 and uv0.curType ~= uv1 then
 			if uv0:isChanged() then
@@ -188,13 +188,13 @@ slot0.updateTypeList = function(slot0)
 end
 
 slot0.updateAttrTF = function(slot0, slot1, slot2)
-	slot6 = slot0:findTF("Attr/InputField", slot2)
+	slot6 = slot2:Find("Attr/InputField")
 	slot12 = slot0.typeAttrOrderListTable[slot0.curType][slot1]
 
-	setText(slot0:findTF("AttrName", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[slot12].name))
-	setText(slot0:findTF("Attr/Value/CurValue", slot2), slot0:getAddValueForShow(slot0.curType, slot12))
-	setText(slot0:findTF("Attr/Value/MaxValue", slot2), slot0.maxAdditionMap[slot0.curType][slot12])
-	onButton(slot0, slot0:findTF("Buttons/MinusBtn", slot2), function ()
+	setText(slot2:Find("AttrName"), AttributeType.Type2Name(pg.attribute_info_by_type[slot12].name))
+	setText(slot2:Find("Attr/Value/CurValue"), slot0:getAddValueForShow(slot0.curType, slot12))
+	setText(slot2:Find("Attr/Value/MaxValue"), slot0.maxAdditionMap[slot0.curType][slot12])
+	onButton(slot0, slot2:Find("Buttons/MinusBtn"), function ()
 		if uv0:getAddValueForShow(uv0.curType, uv1) > 0 then
 			slot0 = slot0 - 1
 
@@ -202,7 +202,7 @@ slot0.updateAttrTF = function(slot0, slot1, slot2)
 			setText(uv2, slot0)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Buttons/AddBtn", slot2), function ()
+	onButton(slot0, slot2:Find("Buttons/AddBtn"), function ()
 		if uv0:getAddValueForShow(uv0.curType, uv1) < uv2 then
 			slot0 = slot0 + 1
 
@@ -210,14 +210,14 @@ slot0.updateAttrTF = function(slot0, slot1, slot2)
 			setText(uv3, slot0)
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Buttons/MaxBtn", slot2), function ()
+	onButton(slot0, slot2:Find("Buttons/MaxBtn"), function ()
 		slot0 = uv0:getAddValueForShow(uv0.curType, uv1)
 		slot0 = uv2
 
 		uv0:setAttrValue(uv0.curType, uv1, slot0)
 		setText(uv3, slot0)
 	end, SFX_PANEL)
-	onInputEndEdit(slot0, slot0:findTF("Attr/InputField", slot2), function (slot0)
+	onInputEndEdit(slot0, slot2:Find("Attr/InputField"), function (slot0)
 		if tonumber(slot0) and slot1 > 0 then
 			slot1 = (slot1 >= 0 or nil) and (math.floor(slot1) == slot1 and slot2 or nil)
 		end
@@ -246,7 +246,7 @@ slot0.updateAttrList = function(slot0, slot1)
 end
 
 slot0.setAttrTFValue = function(slot0, slot1, slot2)
-	setText(slot0:findTF("Attr/Value/CurValue", slot1), slot2)
+	setText(slot1:Find("Attr/Value/CurValue"), slot2)
 end
 
 slot0.openSaveBox = function(slot0, slot1, slot2, slot3)

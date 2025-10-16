@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.content = slot0:findTF("frame/border/tip"):GetComponent(typeof(Text))
-	slot0.confirmBtn = slot0:findTF("frame/queren")
-	slot0.cancelBtn = slot0:findTF("frame/cancel")
-	slot0.inputField = slot0:findTF("frame/name_field")
+	slot0.content = slot0._tf:Find("frame/border/tip"):GetComponent(typeof(Text))
+	slot0.confirmBtn = slot0._tf:Find("frame/queren")
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel")
+	slot0.inputField = slot0._tf:Find("frame/name_field")
 
 	setText(slot0._tf:Find("frame/top/title_list/infomation/title"), i18n("change_player_name_title"))
 	setText(slot0._tf:Find("frame/border/prompt"), i18n("change_player_name_subtitle"))

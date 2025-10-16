@@ -5,18 +5,20 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.list = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
-	slot0.confirmBtn = slot0:findTF("confirm")
-	slot0.descTxt = slot0:findTF("got/top/desc"):GetComponent(typeof(Text))
-	slot0.exchagneCnt = slot0:findTF("got/top/exchange/Text"):GetComponent(typeof(Text))
-	slot0.consumeCnt = slot0:findTF("confirm/consume/Text"):GetComponent(typeof(Text))
-	slot0.title = slot0:findTF("got/top/title")
+	slot0.list = UIItemList.New(slot0._tf:Find("got/bottom/scroll/list"), slot0._tf:Find("got/bottom/scroll/list/tpl"))
+	slot0.confirmBtn = slot0._tf:Find("confirm")
+	slot0.descTxt = slot0._tf:Find("got/top/desc"):GetComponent(typeof(Text))
+	slot0.exchagneCnt = slot0._tf:Find("got/top/exchange/Text"):GetComponent(typeof(Text))
+	slot0.consumeCnt = slot0._tf:Find("confirm/consume/Text"):GetComponent(typeof(Text))
+	slot0.title = slot0._tf:Find("got/top/title")
 
-	setText(slot0:findTF("got/top/exchange/label"), i18n("guild_shop_label_2"))
-	setText(slot0:findTF("confirm/Text"), i18n("guild_shop_label_3"))
-	setText(slot0:findTF("confirm/consume/label"), i18n("guild_shop_label_4"))
+	setText(slot0._tf:Find("got/top/exchange/label"), i18n("guild_shop_label_2"))
+	setText(slot0._tf:Find("confirm/Text"), i18n("guild_shop_label_3"))
+	setText(slot0._tf:Find("confirm/consume/label"), i18n("guild_shop_label_4"))
 
-	slot0.resIcon = slot0:findTF("confirm/consume/icon")
+	slot0.resIcon = slot0._tf:Find("confirm/consume/icon")
+
+	slot0:Hide()
 end
 
 slot0.OnInit = function(slot0)
@@ -62,7 +64,7 @@ end
 slot0.UpdateValue = function(slot0)
 	slot0.exchagneCnt.text = (slot0.maxCnt - #slot0.selectedList > 0 and "<color=#92FC63FF>" .. slot1 .. "</color>/" or "<color=#FF5C5CFF>" .. slot1 .. "</color>/") .. slot0.maxCnt
 
-	setActive(slot0:findTF("got/top/exchange"), slot0.maxCnt ~= 0)
+	setActive(slot0._tf:Find("got/top/exchange"), slot0.maxCnt ~= 0)
 
 	slot0.consumeCnt.text = slot0.data.price * #slot0.selectedList
 end

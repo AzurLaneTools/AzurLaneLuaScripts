@@ -39,7 +39,7 @@ slot0.OnInit = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	slot0.playerCard = IslandRankCard.New(slot0.playerRankTF, IslandRankCard.TYPE_SELF)
+	slot0.playerCard = IslandRankCard.New(slot0.playerRankTF, IslandRankCard.TYPE_SELF, slot0)
 	slot0.newestId = IslandSeasonAgency.GetCurrentSeason()
 
 	if slot0.newestId > 1 then
@@ -56,7 +56,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnInitItem = function(slot0, slot1)
-	slot0.cards[slot1] = IslandRankCard.New(slot1, IslandRankCard.TYPE_OTHER)
+	slot0.cards[slot1] = IslandRankCard.New(slot1, IslandRankCard.TYPE_OTHER, slot0)
 end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)

@@ -3,17 +3,18 @@ slot1 = import("Mgr.Pool.PoolPlural")
 
 slot0.InitCustom = function(slot0)
 	slot0.atelierFormulaOverlayView = AtelierFormulaOverlayYumiaView.New(slot0.layerFormulaDescriptionPanel, slot0._parentClass)
-	slot0.compositePanel = slot0:findTF("Overlay/compositePanel")
-	slot0.tipsText = slot0:findTF("tips/Text")
+	slot0.compositePanel = slot0._tf:Find("Overlay/compositePanel")
+	slot1 = slot0._tf
+	slot0.tipsText = slot1:Find("tips/Text")
 
-	setText(slot0:findTF("Overlay/compositePanel/backBtn/Text"), i18n("yumia_atelier_tip9"))
-	setText(slot0:findTF("Overlay/compositePanel/CompositeBtn/Text"), i18n("yumia_atelier_tip18"))
-	setText(slot0:findTF("Overlay/compositePanel/autoBtn/Text"), i18n("yumia_atelier_tip23"))
+	setText(slot0._tf:Find("Overlay/compositePanel/backBtn/Text"), i18n("yumia_atelier_tip9"))
+	setText(slot0._tf:Find("Overlay/compositePanel/CompositeBtn/Text"), i18n("yumia_atelier_tip18"))
+	setText(slot0._tf:Find("Overlay/compositePanel/autoBtn/Text"), i18n("yumia_atelier_tip23"))
 
 	slot0.lineGoList = {
-		slot0:findTF("ScrollView/Content/lineGo1"),
-		slot0:findTF("ScrollView/Content/lineGo2"),
-		slot0:findTF("ScrollView/Content/lineGo3")
+		slot0._tf:Find("ScrollView/Content/lineGo1"),
+		slot0._tf:Find("ScrollView/Content/lineGo2"),
+		slot0._tf:Find("ScrollView/Content/lineGo3")
 	}
 
 	SetComponentEnabled(slot0._parentClass.scrollView, typeof(ScrollRect), false)
@@ -23,13 +24,22 @@ slot0.didEnter = function(slot0)
 	slot1 = slot0.atelierFormulaOverlayView
 
 	slot1:didEnter()
-	onButton(slot0, slot0:findTF("Overlay/compositePanel/CompositeBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Overlay/compositePanel/CompositeBtn"), function ()
 		uv0:OnClickComposite()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Overlay/compositePanel/backBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Overlay/compositePanel/backBtn"), function ()
 		uv0._parentClass:OnClickFormulaBack()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("Overlay/compositePanel/autoBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Overlay/compositePanel/autoBtn"), function ()
 		uv0:OnClickAutoFill()
 	end, SFX_PANEL)
 end
@@ -40,9 +50,11 @@ slot0.Show = function(slot0, slot1)
 	slot0.unLockLayerIndex = 1
 
 	if not slot0.nodePools then
+		slot4 = slot0._tf
+		slot4 = slot0._tf
 		slot0.nodePools = {
-			core = uv0.New(slot0:findTF("coreNode").gameObject, 100),
-			material = uv0.New(slot0:findTF("materialNode").gameObject, 100)
+			core = uv0.New(slot4:Find("coreNode").gameObject, 100),
+			material = uv0.New(slot4:Find("materialNode").gameObject, 100)
 		}
 
 		table.Foreach(slot0.nodePools, function (slot0, slot1)
@@ -91,7 +103,7 @@ slot0.Show = function(slot0, slot1)
 			uv0:HideNodeLight(slot4)
 		end
 
-		setActive(uv0:findTF("select", slot3), false)
+		setActive(slot3:Find("select"), false)
 	end)
 	slot0:InitNodeLayer()
 	slot0:SetCirclePanel()
@@ -142,22 +154,22 @@ slot0.RefreshElement = function(slot0, slot1)
 	slot2 = tf(slot1.GO)
 	slot3 = slot1.Data
 
-	GetImageSpriteFromAtlasAsync("ui/ateliercommonyumiaui_atlas", "slot_" .. AtelierFormulaCircle.ELEMENT_NAME[slot3:GetProp()], slot0:findTF("icon", slot2))
-	setImageColor(slot0:findTF("light", slot2), slot3:GetElementLightColor(instance))
+	GetImageSpriteFromAtlasAsync("ui/ateliercommonyumiaui_atlas", "slot_" .. AtelierFormulaCircle.ELEMENT_NAME[slot3:GetProp()], slot2:Find("icon"))
+	setImageColor(slot2:Find("light"), slot3:GetElementLightColor(instance))
 end
 
 slot0.RefreshCategory = function(slot0, slot1)
 	slot2 = tf(slot1.GO)
 
 	if slot1.Data:GetCategory() ~= 0 then
-		GetImageSpriteFromAtlasAsync("ui/ateliercommonyumiaui_atlas", "category" .. slot4, slot0:findTF("categoryBg/category", slot2))
+		GetImageSpriteFromAtlasAsync("ui/ateliercommonyumiaui_atlas", "category" .. slot4, slot2:Find("categoryBg/category"))
 	end
 
-	setActive(slot0:findTF("categoryBg", slot2), true)
+	setActive(slot2:Find("categoryBg"), true)
 end
 
 slot0.HideCategory = function(slot0, slot1)
-	setActive(slot0:findTF("categoryBg", tf(slot1.GO)), false)
+	setActive(tf(slot1.GO):Find("categoryBg"), false)
 end
 
 slot0.DisPlayUnlockEffect = function(slot0, slot1, slot2)
@@ -283,7 +295,7 @@ slot0.HideCompositePanel = function(slot0)
 end
 
 slot0.AddStarList = function(slot0, slot1)
-	slot4 = slot0:findTF("starContant", slot1.GO)
+	slot4 = slot1.GO:Find("starContant")
 
 	slot0:HideStarList(slot1)
 
@@ -306,7 +318,7 @@ slot0.PlayStarAnimation = function(slot0, slot1)
 		return
 	end
 
-	for slot8 = 0, slot0:findTF("starContant", slot1.GO).childCount - 1 do
+	for slot8 = 0, slot1.GO:Find("starContant").childCount - 1 do
 		slot0._parentClass:managedTween(LeanTween.moveLocal, nil, slot4:GetChild(slot8).gameObject, Vector3.zero, 0.5)
 	end
 
@@ -318,7 +330,7 @@ slot0.PlayStarAnimation = function(slot0, slot1)
 end
 
 slot0.HideStarList = function(slot0, slot1)
-	for slot6 = 0, slot0:findTF("starContant", slot1.GO).childCount - 1 do
+	for slot6 = 0, slot1.GO:Find("starContant").childCount - 1 do
 		setActive(slot2:GetChild(slot6), false)
 	end
 end
@@ -328,11 +340,11 @@ slot0.ShowNodeLight = function(slot0, slot1)
 		return
 	end
 
-	setActive(slot0:findTF("light", slot1.GO), true)
+	setActive(slot1.GO:Find("light"), true)
 end
 
 slot0.HideNodeLight = function(slot0, slot1)
-	setActive(slot0:findTF("light", slot1.GO), false)
+	setActive(slot1.GO:Find("light"), false)
 end
 
 slot0.InitStr = function(slot0)

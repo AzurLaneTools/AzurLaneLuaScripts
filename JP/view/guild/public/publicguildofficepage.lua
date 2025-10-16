@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.itemList = UIItemList.New(slot0:findTF("frame/donate_panel/list"), slot0:findTF("frame/donate_panel/list/tpl"))
-	slot0.cntTxt = slot0:findTF("frame/donate_panel/cnt/Text"):GetComponent(typeof(Text))
+	slot0.itemList = UIItemList.New(slot0._tf:Find("frame/donate_panel/list"), slot0._tf:Find("frame/donate_panel/list/tpl"))
+	slot0.cntTxt = slot0._tf:Find("frame/donate_panel/cnt/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

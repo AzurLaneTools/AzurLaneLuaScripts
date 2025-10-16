@@ -3,7 +3,7 @@ slot0 = class("RoyalFortunePage", import(".TemplatePage.SkinTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.painting = slot0:findTF("painting", slot0.bg)
+	slot0.painting = slot0.bg:Find("painting")
 end
 
 slot0.OnUpdateFlush = function(slot0)

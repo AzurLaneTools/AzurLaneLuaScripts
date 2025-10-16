@@ -6,12 +6,12 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.medalCount = slot0._tf:Find("gallery/res_items/medal")
-	slot0.patingTF = slot0:findTF("painting")
-	slot0.bg = slot0:findTF("gallery/bg")
+	slot0.patingTF = slot0._tf:Find("painting")
+	slot0.bg = slot0._tf:Find("gallery/bg")
 	slot0.tipSTxt = slot0.bg:Find("type_intro/mask/title"):GetComponent("ScrollText")
 	slot0.shopBtn = slot0._tf:Find("gallery/shop_btn")
-	slot0.helpBtn = slot0:findTF("gallery/help_btn")
-	slot0.startBtn = slot0:findTF("gallery/start_btn")
+	slot0.helpBtn = slot0._tf:Find("gallery/help_btn")
+	slot0.startBtn = slot0._tf:Find("gallery/start_btn")
 end
 
 slot0.OnInit = function(slot0)
@@ -25,15 +25,17 @@ slot0.Flush = function(slot0)
 
 	slot1 = getProxy(BuildShipProxy)
 	slot2 = pg.gametip.honor_medal_support_tips_display.tip
+	slot4 = slot0._tf
 
-	setText(slot0:findTF("gallery/prints/intro/text"), slot2.support_tip_consume)
+	setText(slot4:Find("gallery/prints/intro/text"), slot2.support_tip_consume)
 	setImageSprite(slot0.bg, GetSpriteFromAtlas(slot2.bg, ""))
 
 	slot4 = slot0.tipSTxt
 
 	slot4:SetText(slot2.support_tip_ship)
 
-	slot4 = slot0:findTF("gallery/item_bg/medal")
+	slot4 = slot0._tf
+	slot4 = slot4:Find("gallery/item_bg/medal")
 	slot7 = Drop.New({
 		type = DROP_TYPE_ITEM,
 		id = ITEM_ID_SILVER_HOOK

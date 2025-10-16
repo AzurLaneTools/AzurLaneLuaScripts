@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.cancelBtn = slot0:findTF("frame/cancel")
-	slot0.confirmBtn = slot0:findTF("frame/confirm")
-	slot0.toggle = slot0:findTF("frame")
-	slot0.title = slot0:findTF("frame/title")
-	slot0.text = slot0:findTF("frame/bg/Text"):GetComponent(typeof(Text))
-	slot0.tipText = slot0:findTF("frame/bg/tipText")
-	slot0.textWithGift = slot0:findTF("frame/gift_bg/Text"):GetComponent(typeof(Text))
-	slot0.dropsList = UIItemList.New(slot0:findTF("frame/gift_bg/gift/drops"), slot0:findTF("frame/gift_bg/gift/drops/item"))
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel")
+	slot0.confirmBtn = slot0._tf:Find("frame/confirm")
+	slot0.toggle = slot0._tf:Find("frame")
+	slot0.title = slot0._tf:Find("frame/title")
+	slot0.text = slot0._tf:Find("frame/bg/Text"):GetComponent(typeof(Text))
+	slot0.tipText = slot0._tf:Find("frame/bg/tipText")
+	slot0.textWithGift = slot0._tf:Find("frame/gift_bg/Text"):GetComponent(typeof(Text))
+	slot0.dropsList = UIItemList.New(slot0._tf:Find("frame/gift_bg/gift/drops"), slot0._tf:Find("frame/gift_bg/gift/drops/item"))
 end
 
 slot0.OnInit = function(slot0)

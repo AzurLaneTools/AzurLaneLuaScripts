@@ -7,16 +7,16 @@ slot4 = Vector2(370, -144)
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.roleTF = slot0:findTF("mask/role_pos", slot0.bg)
-	slot0.effectNode = slot0:findTF("mofang_yanwu", slot0.bg)
-	slot0.foodTF = slot0:findTF("food", slot0.bg)
-	slot0.dialogTF = slot0:findTF("dialog", slot0.bg)
-	slot0.rightPanel = slot0:findTF("right_panel", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.rightPanel)
-	slot0.titleFoodTF = slot0:findTF("menu_title/icon", slot0.rightPanel)
-	slot0.cookBtn = slot0:findTF("cook_btn", slot0.rightPanel)
-	slot0.cookProgress = slot0:findTF("progress", slot0.cookBtn)
-	slot0.cookAwardTF = slot0:findTF("award", slot0.cookBtn)
+	slot0.roleTF = slot0.bg:Find("mask/role_pos")
+	slot0.effectNode = slot0.bg:Find("mofang_yanwu")
+	slot0.foodTF = slot0.bg:Find("food")
+	slot0.dialogTF = slot0.bg:Find("dialog")
+	slot0.rightPanel = slot0.bg:Find("right_panel")
+	slot0.helpBtn = slot0.rightPanel:Find("help_btn")
+	slot0.titleFoodTF = slot0.rightPanel:Find("menu_title/icon")
+	slot0.cookBtn = slot0.rightPanel:Find("cook_btn")
+	slot0.cookProgress = slot0.cookBtn:Find("progress")
+	slot0.cookAwardTF = slot0.cookBtn:Find("award")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -79,7 +79,7 @@ slot0.OnFirstFlush = function(slot0)
 			end, uv1, nil)
 		end
 	end, SFX_PANEL)
-	setActive(slot0:findTF("shine", slot0.cookBtn), false)
+	setActive(slot0.cookBtn:Find("shine"), false)
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -157,9 +157,9 @@ slot0.UpdateCookUI = function(slot0)
 
 	slot5 = slot2:getTaskStatus() == 2
 
-	setActive(slot0:findTF("got", slot0.cookAwardTF), slot5)
-	setActive(slot0:findTF("icon_bg/count", slot0.cookAwardTF), slot5)
-	setText(slot0:findTF("Text", slot0.dialogTF), i18n(slot0.cookCfg[slot0.curTaskId][3]))
+	setActive(slot0.cookAwardTF:Find("got"), slot5)
+	setActive(slot0.cookAwardTF:Find("icon_bg/count"), slot5)
+	setText(slot0.dialogTF:Find("Text"), i18n(slot0.cookCfg[slot0.curTaskId][3]))
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/NewYearsEveDinnerPage_atlas", slot0.cookCfg[slot0.curTaskId][2], slot0.foodTF, true)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/NewYearsEveDinnerPage_atlas", slot5 and slot0.cookCfg[slot0.curTaskId][2] .. "_2" or "unknown", slot0.titleFoodTF, true)
 
@@ -194,14 +194,14 @@ slot0.PlayRoleAnim = function(slot0)
 
 	setActive(slot0.foodTF, false)
 	setActive(slot0.dialogTF, false)
-	setActive(slot0:findTF("shine", slot0.cookBtn), false)
+	setActive(slot0.cookBtn:Find("shine"), false)
 
 	if slot0.taskProxy:getTaskVO(slot0.curTaskId):getTaskStatus() == 2 then
 		setAnchoredPosition(slot0.roleTF, uv0)
 		slot3:SetAction("normal", 0)
 		setActive(slot0.foodTF, true)
 		setActive(slot0.dialogTF, true)
-		setActive(slot0:findTF("shine", slot0.cookBtn), not slot2 and slot0.remainCnt > 0)
+		setActive(slot0.cookBtn:Find("shine"), not slot2 and slot0.remainCnt > 0)
 	else
 		slot3:SetAction("move", 0)
 
@@ -215,7 +215,7 @@ slot0.PlayRoleAnim = function(slot0)
 
 			setActive(uv1.foodTF, uv2)
 			setActive(uv1.dialogTF, uv2)
-			setActive(uv1:findTF("shine", uv1.cookBtn), not uv2 and uv1.remainCnt > 0)
+			setActive(uv1.cookBtn:Find("shine"), not uv2 and uv1.remainCnt > 0)
 		end, slot0.roleTF, uv0.x, uv2):setEase(LeanTweenType.linear)
 	end
 end

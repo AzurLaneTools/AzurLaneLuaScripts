@@ -296,7 +296,9 @@ pg.expedition_data_by_map = setmetatable({
 		2200100,
 		2200110,
 		2200120,
-		2200130
+		2200130,
+		2200140,
+		2200141
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4409,7 +4411,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1740001",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4565,7 +4567,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1740002",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4706,7 +4708,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1740001",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4862,7 +4864,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1740002",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -5004,7 +5006,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1740011",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -5054,7 +5056,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1740012",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -18490,7 +18492,7 @@ pg.base.expedition_data_by_map = {
 		bgm = "idol-WISHNESS-inst",
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		level_limit = 1,
 		enter_story = "JICHANG1",
@@ -18769,7 +18771,7 @@ pg.base.expedition_data_by_map = {
 		bgm = "theme-arbitrator-tower",
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		level_limit = 1,
 		enter_story = "",
@@ -18847,6 +18849,106 @@ pg.base.expedition_data_by_map = {
 					},
 					"jianzhu04"
 				}
+			}
+		}
+	},
+	[2200140] = {
+		map = 2200140,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-temepest-1",
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "1767002",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1760001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200141] = {
+		map = 2200141,
+		name = "ﾃﾝﾍﾟｽﾀと若返りの泉·後編|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-up",
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	}

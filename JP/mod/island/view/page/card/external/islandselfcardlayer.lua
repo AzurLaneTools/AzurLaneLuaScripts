@@ -109,6 +109,12 @@ slot0.didEnter = function(slot0)
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	end
 
+	onButton(slot0, slot0._tf:Find("panel/help"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_helpbtn_card.tip
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("close"), function ()
 		uv0:PlayHideAnim()
 	end, SFX_PANEL)

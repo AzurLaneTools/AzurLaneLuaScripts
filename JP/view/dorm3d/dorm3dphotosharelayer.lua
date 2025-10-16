@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.photoImgTrans = slot0:findTF("PhotoImg")
-	slot0.shareBtnTrans = slot0:findTF("ShareBtn")
-	slot0.confirmBtnTrans = slot0:findTF("ConfirmBtn")
-	slot0.cancelBtnTrans = slot0:findTF("CancelBtn")
-	slot0.frameBtn = slot0:findTF("frameBtn")
-	slot0.photoAdapter = slot0:findTF("photoAdapter")
+	slot0.photoImgTrans = slot0._tf:Find("PhotoImg")
+	slot0.shareBtnTrans = slot0._tf:Find("ShareBtn")
+	slot0.confirmBtnTrans = slot0._tf:Find("ConfirmBtn")
+	slot0.cancelBtnTrans = slot0._tf:Find("CancelBtn")
+	slot0.frameBtn = slot0._tf:Find("frameBtn")
+	slot0.photoAdapter = slot0._tf:Find("photoAdapter")
 	slot0.bytes = slot0.contextData.photoData
 	slot0.frameDic = {}
 	slot0.loadingDic = {}

@@ -9,30 +9,30 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_GUARDIAN)
-	slot0.mainViewTF = slot0:findTF("frame/view")
-	slot0.mainViewUIList = UIItemList.New(slot0:findTF("content", slot0.mainViewTF), slot0:findTF("content/tpl", slot0.mainViewTF))
-	slot0.selectViewTF = slot0:findTF("frame/select_view")
-	slot0.selectBackBtn = slot0:findTF("top/back_btn", slot0.selectViewTF)
+	slot0.mainViewTF = slot0._tf:Find("frame/view")
+	slot0.mainViewUIList = UIItemList.New(slot0.mainViewTF:Find("content"), slot0.mainViewTF:Find("content/tpl"))
+	slot0.selectViewTF = slot0._tf:Find("frame/select_view")
+	slot0.selectBackBtn = slot0.selectViewTF:Find("top/back_btn")
 
-	setText(slot0:findTF("top/Text", slot0.selectViewTF), i18n("guardian_select_title"))
+	setText(slot0.selectViewTF:Find("top/Text"), i18n("guardian_select_title"))
 
-	slot0.selectMainTF = slot0:findTF("left", slot0.selectViewTF)
-	slot0.selectdIcon = slot0:findTF("icon_bg/Image", slot0.selectMainTF)
-	slot0.selectdUnknown = slot0:findTF("icon_bg/unknown", slot0.selectMainTF)
-	slot0.selectdName = slot0:findTF("name", slot0.selectMainTF)
-	slot0.selectdDesc = slot0:findTF("desc/content/Text", slot0.selectMainTF)
-	slot0.selectdSureBtn = slot0:findTF("sure_btn", slot0.selectMainTF)
+	slot0.selectMainTF = slot0.selectViewTF:Find("left")
+	slot0.selectdIcon = slot0.selectMainTF:Find("icon_bg/Image")
+	slot0.selectdUnknown = slot0.selectMainTF:Find("icon_bg/unknown")
+	slot0.selectdName = slot0.selectMainTF:Find("name")
+	slot0.selectdDesc = slot0.selectMainTF:Find("desc/content/Text")
+	slot0.selectdSureBtn = slot0.selectMainTF:Find("sure_btn")
 
-	setText(slot0:findTF("Text", slot0.selectdSureBtn), i18n("guardian_sure_btn"))
+	setText(slot0.selectdSureBtn:Find("Text"), i18n("guardian_sure_btn"))
 
-	slot0.selectdCancelBtn = slot0:findTF("cancel_btn", slot0.selectMainTF)
+	slot0.selectdCancelBtn = slot0.selectMainTF:Find("cancel_btn")
 
-	setText(slot0:findTF("Text", slot0.selectdCancelBtn), i18n("guardian_cancel_btn"))
+	setText(slot0.selectdCancelBtn:Find("Text"), i18n("guardian_cancel_btn"))
 
-	slot0.selectdCondition = slot0:findTF("condition", slot0.selectMainTF)
-	slot0.selectViewUIList = UIItemList.New(slot0:findTF("right/content", slot0.selectViewTF), slot0:findTF("right/content/tpl", slot0.selectViewTF))
+	slot0.selectdCondition = slot0.selectMainTF:Find("condition")
+	slot0.selectViewUIList = UIItemList.New(slot0.selectViewTF:Find("right/content"), slot0.selectViewTF:Find("right/content/tpl"))
 
-	setText(slot0:findTF("right/content/tpl/active/Text", slot0.selectViewTF), i18n("guardian_active_tip"))
+	setText(slot0.selectViewTF:Find("right/content/tpl/active/Text"), i18n("guardian_active_tip"))
 end
 
 slot0.OnInit = function(slot0)
@@ -76,15 +76,15 @@ slot0.InitMainViewUI = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0.activeIds[slot1 + 1] ~= nil
 
-			setActive(uv0:findTF("content", slot2), slot4)
-			setActive(uv0:findTF("empty", slot2), not slot4)
+			setActive(slot2:Find("content"), slot4)
+			setActive(slot2:Find("empty"), not slot4)
 
 			if slot4 then
 				slot5 = uv1.config[slot3]
 
-				setText(uv0:findTF("content/name", slot2), slot5.guardian_name)
-				setText(uv0:findTF("content/desc/content/Text", slot2), slot5.guardian_desc)
-				GetImageSpriteFromAtlasAsync("shipyardicon/" .. slot5.guardian_painting, "", uv0:findTF("content/icon_mask/Image", slot2), false)
+				setText(slot2:Find("content/name"), slot5.guardian_name)
+				setText(slot2:Find("content/desc/content/Text"), slot5.guardian_desc)
+				GetImageSpriteFromAtlasAsync("shipyardicon/" .. slot5.guardian_painting, "", slot2:Find("content/icon_mask/Image"), false)
 			end
 
 			onButton(uv0, slot2, function ()
@@ -107,9 +107,7 @@ slot0.InitSelectViewUI = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			slot5 = uv0
-
-			GetImageSpriteFromAtlasAsync("shipyardicon/" .. uv1.config[uv0.allIds[slot1 + 1]].guardian_painting, "", slot5:findTF("icon_mask/Image", slot2), true)
+			GetImageSpriteFromAtlasAsync("shipyardicon/" .. uv1.config[uv0.allIds[slot1 + 1]].guardian_painting, "", slot2:Find("icon_mask/Image"), true)
 			onButton(uv0, slot2, function ()
 				uv0.selectedId = uv1
 
@@ -124,11 +122,11 @@ slot0.InitSelectViewUI = function(slot0)
 			slot5 = table.contains(uv0.unlcokIds, slot3)
 			slot7 = uv1.config[slot3].type == 2 and not slot5
 
-			setActive(uv0:findTF("icon_mask/Image", slot2), not slot7)
-			setActive(uv0:findTF("unknown", slot2), slot7)
-			setActive(uv0:findTF("lock", slot2), not slot5 and not slot7)
-			setActive(uv0:findTF("active", slot2), table.contains(uv0.activeIds, slot3))
-			setActive(uv0:findTF("selected", slot2), slot3 == uv0.selectedId)
+			setActive(slot2:Find("icon_mask/Image"), not slot7)
+			setActive(slot2:Find("unknown"), slot7)
+			setActive(slot2:Find("lock"), not slot5 and not slot7)
+			setActive(slot2:Find("active"), table.contains(uv0.activeIds, slot3))
+			setActive(slot2:Find("selected"), slot3 == uv0.selectedId)
 		end
 	end)
 end
@@ -153,7 +151,7 @@ slot0.UpdateSelectViewUI = function(slot0)
 		slot6 = slot2.guardian_gain_desc
 	end
 
-	setText(slot0:findTF("Text", slot0.selectdCondition), slot6)
+	setText(slot0.selectdCondition:Find("Text"), slot6)
 	setActive(slot0.selectdSureBtn, slot3 and not slot4)
 	setActive(slot0.selectdCancelBtn, slot3 and slot4)
 	setActive(slot0.selectdCondition, not slot3)

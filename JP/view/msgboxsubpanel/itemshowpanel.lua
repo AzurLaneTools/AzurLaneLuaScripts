@@ -20,13 +20,13 @@ slot0.UpdateView = function(slot0, slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
 
-	setText(slot0:findTF("title", slot0._tf), i18n(uv0.ConfigData.title))
-	setText(slot0:findTF("name_origin", slot0._tf), i18n(uv0.ConfigData.name_old))
-	setText(slot0:findTF("name_now", slot0._tf), i18n(uv0.ConfigData.name_new))
-	setText(slot0:findTF("before/Text", slot0._tf), i18n(uv0.ConfigData.tip_old))
-	setText(slot0:findTF("after/Text", slot0._tf), i18n(uv0.ConfigData.tip_new))
-	setImageSprite(slot0:findTF("icon_origin", slot0._tf), LoadSprite(uv0.ConfigData.icon_old))
-	setImageSprite(slot0:findTF("icon_now", slot0._tf), LoadSprite(uv0.ConfigData.icon_new))
+	setText(slot0._tf:Find("title"), i18n(uv0.ConfigData.title))
+	setText(slot0._tf:Find("name_origin"), i18n(uv0.ConfigData.name_old))
+	setText(slot0._tf:Find("name_now"), i18n(uv0.ConfigData.name_new))
+	setText(slot0._tf:Find("before/Text"), i18n(uv0.ConfigData.tip_old))
+	setText(slot0._tf:Find("after/Text"), i18n(uv0.ConfigData.tip_new))
+	setImageSprite(slot0._tf:Find("icon_origin"), LoadSprite(uv0.ConfigData.icon_old))
+	setImageSprite(slot0._tf:Find("icon_now"), LoadSprite(uv0.ConfigData.icon_new))
 	slot0:PostRefresh(slot1)
 end
 

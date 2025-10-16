@@ -7,15 +7,15 @@ end
 slot0.HUB_ID = 4
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._closeBtn = slot0:findTF("top/back")
-	slot0._homeBtn = slot0:findTF("top/home")
-	slot0._helpBtn = slot0:findTF("top/help")
+	slot0.top = slot0._tf:Find("top")
+	slot0._closeBtn = slot0._tf:Find("top/back")
+	slot0._homeBtn = slot0._tf:Find("top/home")
+	slot0._helpBtn = slot0._tf:Find("top/help")
 	slot0.ticketTimes = slot0.top:Find("ticket/text")
 	slot0.yinhuace = slot0.top:Find("sign")
 	slot0.yinhuaceTimes = slot0.yinhuace:Find("get")
 	slot0.yinhuaceTips = slot0.yinhuace:Find("tip")
-	slot0.shouce = slot0.top:Find("yinhuashouceye")
+	slot0.shouce = slot0._tf:Find("yinhuashouceye")
 	slot0.shouce_bg = slot0.shouce:Find("bg")
 	slot0.layout_shouce = slot0.shouce:Find("yinhuace/layout")
 	slot0.group_get = CustomIndexLayer.Clone2Full(slot0.layout_shouce, 7)
@@ -25,7 +25,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.shouce, false)
 
-	slot0._map = slot0:findTF("map")
+	slot0._map = slot0._tf:Find("map")
 	slot0.shrine = slot0._map:Find("shrine")
 	slot0.snack_street = slot0._map:Find("snack")
 	slot0.divination = slot0._map:Find("divination")
@@ -71,9 +71,11 @@ slot0.didEnter = function(slot0)
 		})
 	end)
 	onButton(slot0, slot0.yinhuace, function ()
+		pg.UIMgr.GetInstance():OverlayPanel(uv0.shouce)
 		setActive(uv0.shouce, true)
 	end)
 	onButton(slot0, slot0.shouce_bg, function ()
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.shouce, uv0._tf)
 		setActive(uv0.shouce, false)
 	end)
 	onButton(slot0, slot0.btn_shouce_help, function ()
@@ -183,6 +185,12 @@ end
 slot0.willExit = function(slot0)
 	slot0.effectReq:Stop()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
+
+	if isActive(slot0.shouce) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.shouce, slot0._tf)
+		setActive(slot0.shouce, false)
+	end
+
 	slot0:clearStudents()
 end
 

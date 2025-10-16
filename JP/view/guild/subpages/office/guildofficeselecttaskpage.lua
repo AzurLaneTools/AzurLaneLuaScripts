@@ -5,7 +5,7 @@ slot0.getTargetUI = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uilist = UIItemList.New(slot0:findTF("frame/bg/scrollrect/content"), slot0:findTF("frame/bg/scrollrect/content/tpl"))
+	slot0.uilist = UIItemList.New(slot0._tf:Find("frame/bg/scrollrect/content"), slot0._tf:Find("frame/bg/scrollrect/content/tpl"))
 	slot0.closeBtn = slot0._tf:Find("frame/title/close")
 end
 

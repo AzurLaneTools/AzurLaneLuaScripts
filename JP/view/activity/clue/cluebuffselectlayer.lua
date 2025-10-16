@@ -17,7 +17,7 @@ slot0.preloadUIList = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.closeBtn = slot0:findTF("Top/BackBtn")
+	slot0.closeBtn = slot0._tf:Find("Top/BackBtn")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_BACK_PRESSED)
@@ -27,37 +27,37 @@ slot0.init = function(slot0)
 		uv0:emit(uv1.ON_BACK_PRESSED)
 	end
 
-	onButton(slot0, slot0:findTF("mask"), slot4)
+	onButton(slot0, slot0._tf:Find("mask"), slot4)
 
-	slot0.buffContainer = slot0:findTF("Buff/buff_list")
+	slot0.buffContainer = slot0._tf:Find("Buff/buff_list")
 	slot0.buffTmp = slot0.buffContainer:Find("buff")
 	slot0.buffTFs = {}
 	slot0.strategyList = {}
 	slot0.buffDescList = {}
 
 	for slot4 = 1, 4 do
-		slot5 = slot0:findTF("Buff/buff_desc_list/buff_desc_" .. slot4)
+		slot5 = slot0._tf:Find("Buff/buff_desc_list/buff_desc_" .. slot4)
 
 		table.insert(slot0.buffDescList, slot5)
 		setText(slot5:Find("unselect"), i18n("clue_buff_unselect"))
 	end
 
-	slot0.stageName = slot0:findTF("Stage/stage_name_text")
-	slot0.stageLV = slot0:findTF("Stage/stage_level_text")
+	slot0.stageName = slot0._tf:Find("Stage/stage_name_text")
+	slot0.stageLV = slot0._tf:Find("Stage/stage_level_text")
 
-	setText(slot0:findTF("Stage/text_stage_reserach"), i18n("clue_buff_research"))
-	setText(slot0:findTF("Stage/text_stage_loot"), i18n("clue_buff_stage_loot"))
+	setText(slot0._tf:Find("Stage/text_stage_reserach"), i18n("clue_buff_research"))
+	setText(slot0._tf:Find("Stage/text_stage_loot"), i18n("clue_buff_stage_loot"))
 
-	slot0.awards = slot0:findTF("Loot/awards")
-	slot0.awardTpl = slot0:findTF("Loot/awards/award")
-	slot0.goBtn = slot0:findTF("Combat/go_btn")
+	slot0.awards = slot0._tf:Find("Loot/awards")
+	slot0.awardTpl = slot0._tf:Find("Loot/awards/award")
+	slot0.goBtn = slot0._tf:Find("Combat/go_btn")
 
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(ClueBuffSelectMediator.ON_FLEET_SELECT, uv0.singleID)
 	end)
 
-	slot0.detailView = slot0:findTF("Detail")
-	slot0.detailBtn = slot0:findTF("BuffDetail")
+	slot0.detailView = slot0._tf:Find("Detail")
+	slot0.detailBtn = slot0._tf:Find("BuffDetail")
 
 	setActive(slot0.detailBtn, false)
 
@@ -76,8 +76,8 @@ slot0.init = function(slot0)
 		uv0:closeDetailView()
 	end)
 
-	slot0.ticket = slot0:findTF("Ticket")
-	slot0.ticketTips = slot0:findTF("ticketTips")
+	slot0.ticket = slot0._tf:Find("Ticket")
+	slot0.ticketTips = slot0._tf:Find("ticketTips")
 	slot0.ticketCheckBox = slot0.ticket:Find("checkbox")
 	slot0.useTicket = false
 
@@ -86,7 +86,7 @@ slot0.init = function(slot0)
 	end)
 	setText(slot0.ticketTips, i18n("clue_buff_ticket_tips"))
 
-	slot0.explore = slot0:findTF("exploreTarget")
+	slot0.explore = slot0._tf:Find("exploreTarget")
 
 	setActive(slot0.explore, true)
 	BossSingleBattleFleetSelectViewComponent.AttachFleetSelect(slot0, ClueBuffSelectMediator)
@@ -193,7 +193,7 @@ slot0.updateBuffView = function(slot0)
 	PlayerPrefs.SetString(uv0.PLYAER_PREF_KEY .. slot0.singleID, table.concat({
 		unpack(slot0.strategyList)
 	}, "|"))
-	setText(slot0:findTF("Stage/text_stage_buff_count"), "(" .. #slot0.strategyList .. "/" .. slot1.strategy_num .. ")")
+	setText(slot0._tf:Find("Stage/text_stage_buff_count"), "(" .. #slot0.strategyList .. "/" .. slot1.strategy_num .. ")")
 end
 
 slot0.UpdateCluePanel = function(slot0)
@@ -221,9 +221,9 @@ slot0.UpdateCluePanel = function(slot0)
 	end
 
 	if slot4 then
-		setText(slot0:findTF("target/Text", slot0.explore), i18n("clue_unselect_tip"))
+		setText(slot0.explore:Find("target/Text"), i18n("clue_unselect_tip"))
 	else
-		setText(slot0:findTF("target/Text", slot0.explore), slot5[1].unlock_desc .. slot5[1].unlock_num .. "/" .. slot5[2].unlock_num .. "/" .. slot5[3].unlock_num .. i18n("clue_task_tip", slot6))
+		setText(slot0.explore:Find("target/Text"), slot5[1].unlock_desc .. slot5[1].unlock_num .. "/" .. slot5[2].unlock_num .. "/" .. slot5[3].unlock_num .. i18n("clue_task_tip", slot6))
 	end
 end
 
@@ -267,7 +267,7 @@ slot0.SetStageID = function(slot0, slot1)
 
 	slot8 = slot2.strategy_num
 
-	setText(slot0:findTF("Stage/text_stage_PTBoost"), i18n("clue_buff_pt_boost", slot8))
+	setText(slot0._tf:Find("Stage/text_stage_PTBoost"), i18n("clue_buff_pt_boost", slot8))
 
 	for slot8, slot9 in ipairs(slot2.strategy_id) do
 		slot10 = cloneTplTo(slot0.buffTmp, slot0.buffContainer)
@@ -282,19 +282,19 @@ slot0.SetStageID = function(slot0, slot1)
 		slot0.buffTFs[slot9] = slot10
 	end
 
-	setImageSprite(slot0:findTF("Stage/stage_icon"), LoadSprite("ui/cluebuffselectui_atlas", slot2.icon), true)
+	setImageSprite(slot0._tf:Find("Stage/stage_icon"), LoadSprite("ui/cluebuffselectui_atlas", slot2.icon), true)
 
 	if BossSingleVariableEnemyData.TYPE.SP <= slot2.type then
-		setActive(slot0:findTF("Stage/stage_type_icon"), false)
+		setActive(slot0._tf:Find("Stage/stage_type_icon"), false)
 		setActive(slot0.ticket, true)
 		setActive(slot0.ticketTips, true)
 		GetImageSpriteFromAtlasAsync(pg.item_virtual_data_statistics[slot2.enter_cost].icon, "", slot0.ticket:Find("icon"), true)
 		setText(slot0.ticket:Find("count"), getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID).data1)
 	else
-		setActive(slot0:findTF("Stage/stage_type_icon"), true)
+		setActive(slot0._tf:Find("Stage/stage_type_icon"), true)
 		setActive(slot0.ticket, false)
 		setActive(slot0.ticketTips, false)
-		setImageSprite(slot0:findTF("Stage/stage_type_icon"), LoadSprite("ui/cluebuffselectui_atlas", "tier_" .. slot2.type), true)
+		setImageSprite(slot0._tf:Find("Stage/stage_type_icon"), LoadSprite("ui/cluebuffselectui_atlas", "tier_" .. slot2.type), true)
 
 		slot0.useTicket = false
 

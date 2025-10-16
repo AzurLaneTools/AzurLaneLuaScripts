@@ -124,9 +124,9 @@ slot0.set = function(slot0, slot1, slot2)
 
 	slot8 = slot6 == 1 and Color.NewHex("FFDE38") or Color.white
 
-	setTextColor(slot0:findTF("title_index", slot0.txTitle), slot8)
-	setTextColor(slot0:findTF("title", slot0.txTitle), slot8)
-	setTextColor(slot0:findTF("title_en", slot0.txTitle), slot8)
+	setTextColor(slot0.txTitle:Find("title_index"), slot8)
+	setTextColor(slot0.txTitle:Find("title"), slot8)
+	setTextColor(slot0.txTitle:Find("title_en"), slot8)
 
 	slot9 = slot3:getConfig("boss_expedition_id")
 

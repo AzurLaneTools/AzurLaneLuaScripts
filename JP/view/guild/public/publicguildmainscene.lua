@@ -39,15 +39,17 @@ slot0.SetPlayer = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/res")
+	slot0._playerResOb = slot0._tf:Find("blur_panel/adapt/top/res")
 	slot0.resPage = PublicGuildResPage.New(slot0._playerResOb, slot0.event)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.helpBtn = slot0:findTF("blur_panel/adapt/left_length/frame/help")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("blur_panel/adapt/left_length/frame/help")
+	slot2 = slot0._tf
 	slot0.toggles = {
-		slot0:findTF("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot/office"),
-		slot0:findTF("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot/technology")
+		slot0._tf:Find("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot/office"),
+		slot2:Find("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot/technology")
 	}
-	slot1 = slot0:findTF("pages")
+	slot1 = slot0._tf:Find("pages")
 	slot0.pages = {
 		PublicGuildOfficePage.New(slot1, slot0.event),
 		PublicGuildTechnologyPage.New(slot1, slot0.event)
@@ -56,8 +58,9 @@ end
 
 slot0.didEnter = function(slot0)
 	slot1 = pg.GuildPaintingMgr.GetInstance()
+	slot3 = slot0._tf
 
-	slot1:Enter(slot0:findTF("bg/painting"))
+	slot1:Enter(slot3:Find("bg/painting"))
 
 	slot1 = slot0.resPage
 

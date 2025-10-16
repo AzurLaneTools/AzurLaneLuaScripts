@@ -36,7 +36,7 @@ slot0.init = function(slot0)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				slot5 = uv0:findTF("tip", slot2)
+				slot5 = slot2:Find("tip")
 
 				if uv0.pageDic[slot3.id]:IsShowReminder() == nil then
 					setActive(slot5, slot3:readyToAchieve())

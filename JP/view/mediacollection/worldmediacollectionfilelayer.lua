@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0._top = slot0:findTF("Top")
+	slot0._top = slot0._tf:Find("Top")
 end
 
 slot0.GetDetailLayer = function(slot0)

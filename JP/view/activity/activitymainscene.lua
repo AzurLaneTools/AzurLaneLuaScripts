@@ -89,9 +89,9 @@ slot0.init = function(slot0)
 			slot2.name = slot3.id
 
 			if slot3:getConfig("title_res_tag") then
-				setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
-				setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
-				setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
+				setImageSprite(slot2:Find("off/text"), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text", "") or GetSpriteFromAtlas("activityuitable/activity_text", ""), true)
+				setImageSprite(slot2:Find("on/text"), GetSpriteFromAtlas("activityuitable/" .. slot4 .. "_text_selected", "") or GetSpriteFromAtlas("activityuitable/activity_text_selected", ""), true)
+				setActive(slot2:Find("red"), slot3:readyToAchieve())
 				onToggle(uv0, slot2, function (slot0)
 					if slot0 then
 						uv0:selectActivity(uv1)
@@ -352,7 +352,7 @@ slot0.loadActivityPanel = function(slot0, slot1, slot2)
 end
 
 slot0.getBonusWindow = function(slot0, slot1, slot2)
-	if not slot0:findTF(slot1) then
+	if not slot0._tf:Find(slot1) then
 		slot4 = PoolMgr.GetInstance()
 
 		slot4:GetUI("ActivitybonusWindow", true, function (slot0)

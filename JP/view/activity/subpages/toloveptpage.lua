@@ -3,8 +3,10 @@ slot0.OFFSET = 0.00042
 slot0.SHOW_COUNT = 8
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("AD")
+	slot1 = slot0.bg
+	slot0.getBtn = slot1:Find("get_btn")
 	slot1 = slot0.getBtn
 	slot0.getBtnGray = slot1:Find("gray")
 	slot1 = slot0.bg

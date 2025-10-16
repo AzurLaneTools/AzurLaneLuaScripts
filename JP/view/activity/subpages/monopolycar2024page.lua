@@ -1,19 +1,19 @@
 slot0 = class("MonopolyCar2024Page", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.startBtn = slot0:findTF("AD/start")
+	slot0.startBtn = slot0._tf:Find("AD/start")
 	slot0.leftCountTxt = slot0.startBtn:Find("Text"):GetComponent(typeof(Text))
-	slot0.turnCntTxt = slot0:findTF("AD/turn"):GetComponent(typeof(Text))
-	slot1 = slot0:findTF("AD/progress")
+	slot0.turnCntTxt = slot0._tf:Find("AD/turn"):GetComponent(typeof(Text))
+	slot1 = slot0._tf:Find("AD/progress")
 	slot0.progressTxt = slot1:GetComponent(typeof(Text))
 	slot0.turnAwards = {
-		slot0:findTF("AD/turn_awards/award_1"),
-		slot0:findTF("AD/turn_awards/award_2"),
-		slot0:findTF("AD/turn_awards/award_3")
+		slot0._tf:Find("AD/turn_awards/award_1"),
+		slot0._tf:Find("AD/turn_awards/award_2"),
+		slot0._tf:Find("AD/turn_awards/award_3")
 	}
-	slot0.turnGoBtn = slot0:findTF("AD/turn_awards/battle_btn")
-	slot0.turnGetBtn = slot0:findTF("AD/turn_awards/get_btn")
-	slot0.progressImage = slot0:findTF("AD/turn_awards/progress/bar")
+	slot0.turnGoBtn = slot0._tf:Find("AD/turn_awards/battle_btn")
+	slot0.turnGetBtn = slot0._tf:Find("AD/turn_awards/get_btn")
+	slot0.progressImage = slot0._tf:Find("AD/turn_awards/progress/bar")
 
 	onButton(slot0, slot0.startBtn, function ()
 		if not uv0.activity or uv0.activity:isEnd() then
@@ -33,12 +33,12 @@ slot0.OnInit = function(slot0)
 		end)
 	end, SFX_PANEL)
 
-	slot0.taskGoBtn = slot0:findTF("AD/battle_btn")
-	slot0.taskGetBtn = slot0:findTF("AD/get_btn")
-	slot0.taskGotBtn = slot0:findTF("AD/got_btn")
-	slot0.taskDesc = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
-	slot0.taskAward = slot0:findTF("AD/award")
-	slot0.taskProgress = slot0:findTF("AD/taskProgress")
+	slot0.taskGoBtn = slot0._tf:Find("AD/battle_btn")
+	slot0.taskGetBtn = slot0._tf:Find("AD/get_btn")
+	slot0.taskGotBtn = slot0._tf:Find("AD/got_btn")
+	slot0.taskDesc = slot0._tf:Find("AD/Text"):GetComponent(typeof(Text))
+	slot0.taskAward = slot0._tf:Find("AD/award")
+	slot0.taskProgress = slot0._tf:Find("AD/taskProgress")
 end
 
 slot0.OnDataSetting = function(slot0)

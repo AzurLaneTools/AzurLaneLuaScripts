@@ -26,48 +26,48 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.topTF = slot0:findTF("ui/top")
-	slot0.homeBtn = slot0:findTF("ui/home_btn/home_btn")
+	slot0.topTF = slot0._tf:Find("ui/top")
+	slot0.homeBtn = slot0._tf:Find("ui/home_btn/home_btn")
 
-	setText(slot0:findTF("Text", slot0.homeBtn), i18n("child_btn_home"))
+	setText(slot0.homeBtn:Find("Text"), i18n("child_btn_home"))
 	setActive(slot0.homeBtn, false)
 
-	slot0.mapTF = slot0:findTF("map")
-	slot0.mapContent = slot0:findTF("content", slot0.mapTF)
-	slot0.mapSiteTpl = slot0:findTF("site_tpl", slot0.mapTF)
+	slot0.mapTF = slot0._tf:Find("map")
+	slot0.mapContent = slot0.mapTF:Find("content")
+	slot0.mapSiteTpl = slot0.mapTF:Find("site_tpl")
 
-	setText(slot0:findTF("limit/Text", slot0.mapSiteTpl), i18n("child_option_limit"))
+	setText(slot0.mapSiteTpl:Find("limit/Text"), i18n("child_option_limit"))
 	setActive(slot0.mapSiteTpl, false)
 
 	slot0.siteUIList = UIItemList.New(slot0.mapContent, slot0.mapSiteTpl)
-	slot0.datePanel = EducateDatePanel.New(slot0:findTF("date", slot0.topTF), slot0.event)
+	slot0.datePanel = EducateDatePanel.New(slot0.topTF:Find("date"), slot0.event)
 
 	slot0.datePanel:RegisterView(slot0)
 	slot0.datePanel:Load()
 
-	slot0.resPanel = EducateResPanel.New(slot0:findTF("res", slot0.topTF), slot0.event, {
+	slot0.resPanel = EducateResPanel.New(slot0.topTF:Find("res"), slot0.event, {
 		showBg = true
 	})
 
 	slot0.resPanel:RegisterView(slot0)
 	slot0.resPanel:Load()
 
-	slot0.topPanel = EducateTopPanel.New(slot0:findTF("top_right", slot0.topTF), slot0.event)
+	slot0.topPanel = EducateTopPanel.New(slot0.topTF:Find("top_right"), slot0.event)
 
 	slot0.topPanel:RegisterView(slot0)
 	slot0.topPanel:Load()
 
-	slot0.targetPanel = EducateTargetPanel.New(slot0:findTF("ui/target"), slot0.event)
+	slot0.targetPanel = EducateTargetPanel.New(slot0._tf:Find("ui/target"), slot0.event)
 
 	slot0.targetPanel:RegisterView(slot0)
 	slot0.targetPanel:Load()
 
-	slot0.archivePanel = EducateArchivePanel.New(slot0:findTF("ui/archive_panel"), slot0.event)
+	slot0.archivePanel = EducateArchivePanel.New(slot0._tf:Find("ui/archive_panel"), slot0.event)
 
 	slot0.archivePanel:RegisterView(slot0)
 	slot0.archivePanel:Load()
 
-	slot0.detailPanel = EducateSiteDetailPanel.New(slot0:findTF("ui/detail_panel"), slot0.event, {
+	slot0.detailPanel = EducateSiteDetailPanel.New(slot0._tf:Find("ui/detail_panel"), slot0.event, {
 		onEnter = function ()
 			uv0:MoveTargetPanelLeft()
 		end,
@@ -154,15 +154,15 @@ slot0.updateSiteItem = function(slot0, slot1, slot2)
 	slot3 = slot0.config[slot0.siteIdList[slot1 + 1]]
 	slot2.name = slot3.id
 
-	LoadImageSpriteAsync("educatesite/" .. slot3.icon, slot0:findTF("icon", slot2), true)
-	LoadImageSpriteAsync("educatesite/" .. slot3.name_pic, slot0:findTF("name", slot2), true)
+	LoadImageSpriteAsync("educatesite/" .. slot3.icon, slot2:Find("icon"), true)
+	LoadImageSpriteAsync("educatesite/" .. slot3.name_pic, slot2:Find("name"), true)
 
 	slot4 = getProxy(EducateProxy)
 
-	setActive(slot0:findTF("limit", slot2), underscore.any(slot4:GetOptionsBySiteId(slot3.id), function (slot0)
+	setActive(slot2:Find("limit"), underscore.any(slot4:GetOptionsBySiteId(slot3.id), function (slot0)
 		return slot0:IsShowLimit()
 	end))
-	setActive(slot0:findTF("new", slot2), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_SITE, slot3.id))
+	setActive(slot2:Find("new"), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_SITE, slot3.id))
 	setAnchoredPosition(slot2, {
 		x = slot3.coordinate[1],
 		y = slot3.coordinate[2]
@@ -175,7 +175,7 @@ end
 slot0.clearNewTip = function(slot0, slot1)
 	eachChild(slot0.mapContent, function (slot0)
 		if tonumber(slot0.name) == uv0 then
-			setActive(uv1:findTF("new", slot0), false)
+			setActive(slot0:Find("new"), false)
 		end
 	end)
 end
@@ -226,7 +226,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	slot0:UnOverlayPanel(slot0.topTF, slot0:findTF("ui"))
+	slot0:UnOverlayPanel(slot0.topTF, slot0._tf:Find("ui"))
 	slot0.datePanel:Destroy()
 
 	slot0.datePanel = nil

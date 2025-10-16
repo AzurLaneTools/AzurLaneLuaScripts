@@ -7,9 +7,9 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.scrollrect = slot0:findTF("layer/select_panel")
-	slot0.rightBtn = slot0:findTF("layer/right")
-	slot0.leftBtn = slot0:findTF("layer/left")
+	slot0.scrollrect = slot0._tf:Find("layer/select_panel")
+	slot0.rightBtn = slot0._tf:Find("layer/right")
+	slot0.leftBtn = slot0._tf:Find("layer/left")
 end
 
 slot0.didEnter = function(slot0)

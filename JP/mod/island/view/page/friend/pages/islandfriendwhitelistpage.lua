@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.titleTxt = slot0:findTF("tip/Text"):GetComponent(typeof(Text))
+	slot0.titleTxt = slot0._tf:Find("tip/Text"):GetComponent(typeof(Text))
 
 	slot0:InitTitle()
 end

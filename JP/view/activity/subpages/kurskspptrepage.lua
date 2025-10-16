@@ -17,7 +17,10 @@ slot0.OnFirstFlush = function(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("build_btn", slot0.bg), function ()
+
+	slot3 = slot0.bg
+
+	onButton(slot0, slot3:Find("build_btn"), function ()
 		slot0, slot1 = nil
 
 		if uv0.activity:getConfig("config_client").linkActID then

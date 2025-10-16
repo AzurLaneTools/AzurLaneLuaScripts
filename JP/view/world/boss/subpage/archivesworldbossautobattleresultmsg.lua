@@ -5,19 +5,19 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/close")
-	slot0.confirmBtn = slot0:findTF("window/btns/start")
+	slot0.closeBtn = slot0._tf:Find("window/top/close")
+	slot0.confirmBtn = slot0._tf:Find("window/btns/start")
 
-	setText(slot0:findTF("window/top/title"), i18n("world_boss_title_auto_battle"))
-	setText(slot0:findTF("window/msg_panel/label"), i18n("world_boss_archives_auto_battle_reusle_title"))
-	setText(slot0:findTF("window/msg_panel/battle_cnt/label"), i18n("world_boss_title_battle_cnt"))
-	setText(slot0:findTF("window/msg_panel/damage/label"), i18n("world_boss_title_total_damage"))
-	setText(slot0:findTF("window/msg_panel/oil/label"), i18n("world_boss_title_consume_oil_cnt"))
-	setText(slot0:findTF("window/btns/start/pic"), i18n("text_confirm"))
+	setText(slot0._tf:Find("window/top/title"), i18n("world_boss_title_auto_battle"))
+	setText(slot0._tf:Find("window/msg_panel/label"), i18n("world_boss_archives_auto_battle_reusle_title"))
+	setText(slot0._tf:Find("window/msg_panel/battle_cnt/label"), i18n("world_boss_title_battle_cnt"))
+	setText(slot0._tf:Find("window/msg_panel/damage/label"), i18n("world_boss_title_total_damage"))
+	setText(slot0._tf:Find("window/msg_panel/oil/label"), i18n("world_boss_title_consume_oil_cnt"))
+	setText(slot0._tf:Find("window/btns/start/pic"), i18n("text_confirm"))
 
-	slot0.battleCntTxt = slot0:findTF("window/msg_panel/battle_cnt/Text"):GetComponent(typeof(Text))
-	slot0.damageTxt = slot0:findTF("window/msg_panel/damage/Text"):GetComponent(typeof(Text))
-	slot0.oilTxt = slot0:findTF("window/msg_panel/oil/Text"):GetComponent(typeof(Text))
+	slot0.battleCntTxt = slot0._tf:Find("window/msg_panel/battle_cnt/Text"):GetComponent(typeof(Text))
+	slot0.damageTxt = slot0._tf:Find("window/msg_panel/damage/Text"):GetComponent(typeof(Text))
+	slot0.oilTxt = slot0._tf:Find("window/msg_panel/oil/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

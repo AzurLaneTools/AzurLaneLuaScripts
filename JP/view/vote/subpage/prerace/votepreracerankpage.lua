@@ -6,13 +6,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.uiitemlist = UIItemList.New(slot0:findTF("content"), slot0:findTF("content/tpl"))
-	slot0.prevBtn = slot0:findTF("prev")
-	slot0.nextBtn = slot0:findTF("next")
-	slot0.tip = slot0:findTF("tip")
-	slot0.title1 = slot0:findTF("stages/title1")
-	slot0.title2 = slot0:findTF("stages/title2")
-	slot0.rankTitle = slot0:findTF("titles/rank_title")
+	slot0.uiitemlist = UIItemList.New(slot0._tf:Find("content"), slot0._tf:Find("content/tpl"))
+	slot0.prevBtn = slot0._tf:Find("prev")
+	slot0.nextBtn = slot0._tf:Find("next")
+	slot0.tip = slot0._tf:Find("tip")
+	slot0.title1 = slot0._tf:Find("stages/title1")
+	slot0.title2 = slot0._tf:Find("stages/title2")
+	slot0.rankTitle = slot0._tf:Find("titles/rank_title")
 
 	onButton(slot0, slot0.nextBtn, function ()
 		if uv0.maxPage < uv0.page + 1 then
@@ -32,8 +32,8 @@ slot0.OnInit = function(slot0)
 
 		uv0:initRank(uv0.page)
 	end, SFX_PANEL)
-	setText(slot0:findTF("titles/rank_title"), i18n("vote_label_rank"))
-	setText(slot0:findTF("tip"), i18n("vote_label_rank_fresh_time_tip"))
+	setText(slot0._tf:Find("titles/rank_title"), i18n("vote_label_rank"))
+	setText(slot0._tf:Find("tip"), i18n("vote_label_rank_fresh_time_tip"))
 end
 
 slot0.initRank = function(slot0, slot1)

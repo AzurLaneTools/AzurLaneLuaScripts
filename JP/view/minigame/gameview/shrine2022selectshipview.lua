@@ -87,15 +87,23 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.cardTpl = slot0:findTF("CardTpl")
-	slot0.backBtn = slot0:findTF("Adapt/BackBtn")
-	slot0.helpBtn = slot0:findTF("Adapt/HelpBtn")
-	slot0.panelTF = slot0:findTF("Adapt/Panel")
-	slot0.tipTF = slot0:findTF("Adapt/Tip")
-	slot0.cardContainer = slot0:findTF("CardContainer", slot0.panelTF)
+	slot1 = slot0._tf
+	slot0.bg = slot1:Find("BG")
+	slot1 = slot0._tf
+	slot0.cardTpl = slot1:Find("CardTpl")
+	slot1 = slot0._tf
+	slot0.backBtn = slot1:Find("Adapt/BackBtn")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("Adapt/HelpBtn")
+	slot1 = slot0._tf
+	slot0.panelTF = slot1:Find("Adapt/Panel")
+	slot1 = slot0._tf
+	slot0.tipTF = slot1:Find("Adapt/Tip")
+	slot1 = slot0.panelTF
+	slot0.cardContainer = slot1:Find("CardContainer")
 	slot0.cardUIItemList = UIItemList.New(slot0.cardContainer, slot0.cardTpl)
-	slot0.confirmBtn = slot0:findTF("ConfirmBtn")
+	slot1 = slot0._tf
+	slot0.confirmBtn = slot1:Find("ConfirmBtn")
 
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeSelf()
@@ -127,7 +135,7 @@ slot0.initUI = function(slot0)
 
 			setImageSprite(slot2, LoadSprite("Shrine2022/" .. slot4, slot4), true)
 
-			slot6 = uv0:findTF("Name", slot2)
+			slot6 = slot2:Find("Name")
 			slot7 = "cardselectname_" .. slot3
 
 			setImageSprite(slot6, LoadSprite("Shrine2022/" .. slot7, slot7), true)
@@ -135,7 +143,7 @@ slot0.initUI = function(slot0)
 
 			slot10 = uv0:isSelected(slot3)
 
-			setActive(uv0:findTF("Selected", slot2), slot10)
+			setActive(slot2:Find("Selected"), slot10)
 			setActive(slot6, not slot10)
 
 			GetComponent(slot2, "Toggle").enabled = not slot10

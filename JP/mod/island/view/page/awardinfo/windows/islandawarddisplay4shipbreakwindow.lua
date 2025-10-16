@@ -5,18 +5,18 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.title = slot0:findTF("frame/Board/Top/text/text"):GetComponent("Text")
-	slot0.uiNewStart = UIItemList.New(slot0:findTF("frame/bg/starts"), slot0:findTF("frame/bg/starts/tpl"))
-	slot0.oldLevelTxt = slot0:findTF("frame/bg/item/level/Text_1"):GetComponent("Text")
-	slot0.newLevelTxt = slot0:findTF("frame/bg/item/level/Text_2"):GetComponent("Text")
-	slot0.oldEnergyTxt = slot0:findTF("frame/bg/item/energy/Text_1"):GetComponent("Text")
-	slot0.newEnergyTxt = slot0:findTF("frame/bg/item/energy/Text_2"):GetComponent("Text")
+	slot0.title = slot0._tf:Find("frame/Board/Top/text/text"):GetComponent("Text")
+	slot0.uiNewStart = UIItemList.New(slot0._tf:Find("frame/bg/starts"), slot0._tf:Find("frame/bg/starts/tpl"))
+	slot0.oldLevelTxt = slot0._tf:Find("frame/bg/item/level/Text_1"):GetComponent("Text")
+	slot0.newLevelTxt = slot0._tf:Find("frame/bg/item/level/Text_2"):GetComponent("Text")
+	slot0.oldEnergyTxt = slot0._tf:Find("frame/bg/item/energy/Text_1"):GetComponent("Text")
+	slot0.newEnergyTxt = slot0._tf:Find("frame/bg/item/energy/Text_2"):GetComponent("Text")
 
-	setText(slot0:findTF("frame/bg/item/energy/Text"), i18n("island_ship_level_limit"))
-	setText(slot0:findTF("frame/bg/item/level/Text"), i18n("island_ship_energy_limit"))
-	setText(slot0:findTF("frame/tip"), i18n("island_click_close"))
+	setText(slot0._tf:Find("frame/bg/item/energy/Text"), i18n("island_ship_level_limit"))
+	setText(slot0._tf:Find("frame/bg/item/level/Text"), i18n("island_ship_energy_limit"))
+	setText(slot0._tf:Find("frame/tip"), i18n("island_click_close"))
 
-	slot0.frameTr = slot0:findTF("frame")
+	slot0.frameTr = slot0._tf:Find("frame")
 	slot0.animator = slot0.frameTr:GetComponent(typeof(Animation))
 	slot0.aniDft = slot0.frameTr:GetComponent(typeof(DftAniEvent))
 end

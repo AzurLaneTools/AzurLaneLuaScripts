@@ -2,7 +2,10 @@ slot0 = class("FuxuPtPage", import(".TemplatePage.PtTemplatePage"))
 
 slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
-	onButton(slot0, slot0:findTF("build_btn", slot0.bg), function ()
+
+	slot3 = slot0.bg
+
+	onButton(slot0, slot3:Find("build_btn"), function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 			projectName = BuildShipScene.PROJECTS.HEAVY
 		})
@@ -26,7 +29,7 @@ slot0.OnUpdateFlush = function(slot0)
 
 	if slot7 and not slot8 or slot8 and slot8:isEnd() then
 		setActive(slot0.battleBtn, false)
-		setActive(slot0:findTF("build_btn", slot0.bg), false)
+		setActive(slot0.bg:Find("build_btn"), false)
 	end
 end
 

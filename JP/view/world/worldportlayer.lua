@@ -35,10 +35,10 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.rtBg = slot0:findTF("bg")
+	slot0.rtBg = slot0._tf:Find("bg")
 	slot0.rtEnterIcon = slot0.rtBg:Find("enter_icon")
 	slot0.rtBgNShop = slot0._tf:Find("bg_2")
-	slot0.rtBlurPanel = slot0:findTF("blur_panel")
+	slot0.rtBlurPanel = slot0._tf:Find("blur_panel")
 	slot0.rtTasks = slot0.rtBlurPanel:Find("adapt/tasks")
 	slot0.rtShop = slot0.rtBlurPanel:Find("adapt/shop")
 	slot0.rtPainting = slot0.rtShop:Find("paint")
@@ -93,7 +93,7 @@ slot0.init = function(slot0)
 
 	slot0.resPanel._tf:SetParent(slot0.rtTop:Find("title/resources"), false)
 
-	slot0.rtTaskWindow = slot0:findTF("task_window")
+	slot0.rtTaskWindow = slot0._tf:Find("task_window")
 	slot0.wsTasks = {}
 	slot0.wsGoods = {}
 	slot0.page = -1
@@ -104,7 +104,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.refreshBtn, false)
 
-	slot0.glitchArtMaterial = slot0:findTF("resource/material1"):GetComponent(typeof(Image)).material
+	slot0.glitchArtMaterial = slot0._tf:Find("resource/material1"):GetComponent(typeof(Image)).material
 	slot0.singleWindow = OriginShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.multiWindow = OriginShopMultiWindow.New(slot0._tf, slot0.event)
 end

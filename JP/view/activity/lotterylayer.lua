@@ -48,27 +48,31 @@ slot0.initActivityPools = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.lotteryPoolContainer = slot0:findTF("left_panel/pool_list/content")
-	slot0.attrs = slot0:findTF("left_panel/pool_list/arrs")
-	slot0.mainItenContainer = slot0:findTF("right_panel/main_item_list/content")
-	slot0.mainItenTpl = slot0:findTF("equipmenttpl", slot0.mainItenContainer)
-	slot0.resource = slot0:findTF("right_panel/resource")
-	slot0.launchOneBtn = slot0:findTF("left_panel/launch_one_btn")
-	slot0.launchOneBtnTxt = slot0:findTF("res/Text", slot0.launchOneBtn):GetComponent(typeof(Text))
-	slot0.launchTenBtn = slot0:findTF("left_panel/launch_ten_btn")
-	slot0.launchTenBtnTxt = slot0:findTF("res/Text", slot0.launchTenBtn):GetComponent(typeof(Text))
-	slot0.awardsCounttxt = slot0:findTF("right_panel/count_container/Text"):GetComponent(typeof(Text))
-	slot0.bgTF = slot0:findTF("right_panel"):GetComponent(typeof(Image))
-	slot0.descBtn = slot0:findTF("right_panel/desc_btn")
-	slot0.bonusWindow = slot0:findTF("Msgbox")
+	slot0.lotteryPoolContainer = slot0._tf:Find("left_panel/pool_list/content")
+	slot0.attrs = slot0._tf:Find("left_panel/pool_list/arrs")
+	slot0.mainItenContainer = slot0._tf:Find("right_panel/main_item_list/content")
+	slot0.mainItenTpl = slot0.mainItenContainer:Find("equipmenttpl")
+	slot0.resource = slot0._tf:Find("left_panel/resource")
+	slot0.launchOneBtn = slot0._tf:Find("left_panel/launch_one_btn")
+	slot0.launchOneBtnTxt = slot0.launchOneBtn:Find("res/Text"):GetComponent(typeof(Text))
+	slot0.launchTenBtn = slot0._tf:Find("left_panel/launch_ten_btn")
+	slot0.launchTenBtnTxt = slot0.launchTenBtn:Find("res/Text"):GetComponent(typeof(Text))
+	slot0.launchMaxBtn = slot0._tf:Find("left_panel/launch_max_btn")
+	slot0.launchMaxBtnTxt = slot0.launchMaxBtn:Find("res/Text"):GetComponent(typeof(Text))
+	slot0.awardsCounttxt = slot0._tf:Find("right_panel/count_container/Text"):GetComponent(typeof(Text))
+	slot0.bgTF = slot0._tf:Find("right_panel"):GetComponent(typeof(Image))
+	slot0.descBtn = slot0._tf:Find("right_panel/desc_btn")
+	slot0.bonusWindow = slot0._tf:Find("Msgbox")
 
 	setActive(slot0.bonusWindow, false)
 
-	slot0.topPanel = slot0:findTF("top")
+	slot0.topPanel = slot0._tf:Find("top")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/back"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("top/back_btn"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
 
@@ -143,10 +147,16 @@ slot0.didEnter = function(slot0)
 
 		uv0:showBonus(slot0, slot1)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.bonusWindow), function ()
+
+	slot5 = slot0.bonusWindow
+
+	onButton(slot0, slot5:Find("window/top/btnBack"), function ()
 		setActive(uv0.bonusWindow, false)
 	end)
-	onButton(slot0, slot0:findTF("window/button", slot0.bonusWindow), function ()
+
+	slot5 = slot0.bonusWindow
+
+	onButton(slot0, slot5:Find("window/button"), function ()
 		setActive(uv0.bonusWindow, false)
 	end)
 
@@ -269,8 +279,8 @@ slot0.showBonus = function(slot0, slot1, slot2)
 
 	slot0.awardMain = slot1
 	slot0.awardNormal = slot2
-	slot0.trDropTpl = slot0:findTF("Msgbox/window/items/scrollview/item")
-	slot0.trDrops = slot0:findTF("Msgbox/window/items/scrollview/list/list_main")
+	slot0.trDropTpl = slot0._tf:Find("Msgbox/window/items/scrollview/item")
+	slot0.trDrops = slot0._tf:Find("Msgbox/window/items/scrollview/list/list_main")
 	slot0.dropList = UIItemList.New(slot0.trDrops, slot0.trDropTpl)
 
 	slot0.dropList:make(function (slot0, slot1, slot2)
@@ -278,7 +288,7 @@ slot0.showBonus = function(slot0, slot1, slot2)
 	end)
 	slot0.dropList:align(#slot0.awardMain)
 
-	slot0.trDropsN = slot0:findTF("Msgbox/window/items/scrollview/list/list_normal")
+	slot0.trDropsN = slot0._tf:Find("Msgbox/window/items/scrollview/list/list_normal")
 	slot0.dropListN = UIItemList.New(slot0.trDropsN, slot0.trDropTpl)
 
 	slot0.dropListN:make(function (slot0, slot1, slot2)

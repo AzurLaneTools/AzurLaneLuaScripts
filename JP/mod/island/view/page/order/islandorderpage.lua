@@ -6,25 +6,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.favorBtn = slot0:findTF("top/favor_bg")
-	slot0.levelTxt = slot0:findTF("top/favor_bg/level"):GetComponent(typeof(Text))
-	slot0.expTxt = slot0:findTF("top/favor_bg/Text"):GetComponent(typeof(Text))
-	slot0.charTr = slot0:findTF("bottom/char")
+	slot0.backBtn = slot0._tf:Find("top/back")
+	slot0.favorBtn = slot0._tf:Find("top/favor_bg")
+	slot0.levelTxt = slot0._tf:Find("top/favor_bg/level"):GetComponent(typeof(Text))
+	slot0.expTxt = slot0._tf:Find("top/favor_bg/Text"):GetComponent(typeof(Text))
+	slot0.charTr = slot0._tf:Find("bottom/char")
 	slot0.chatTxt = slot0.charTr:Find("dialogue/Text"):GetComponent(typeof(Text))
-	slot0.trendBtn = slot0:findTF("trend_btn")
+	slot0.trendBtn = slot0._tf:Find("trend_btn")
 	slot0.trendIco = slot0.trendBtn:Find("difficulty"):GetComponent(typeof(Image))
 	slot0.trendTxt = slot0.trendBtn:Find("Text"):GetComponent(typeof(Text))
-	slot0.orderContainer = slot0:findTF("map")
+	slot0.orderContainer = slot0._tf:Find("map")
 	slot0.upgradePage = IslandOrderUpgradePage.New(slot0._parentTf)
-	slot0.countTxt = slot0:findTF("count_bg/Text"):GetComponent(typeof(Text))
-	slot0.orderTplPool = OrderTplPool.New(slot0:findTF("root/orderTpl"), 3, 6)
+	slot0.countTxt = slot0._tf:Find("count_bg/Text"):GetComponent(typeof(Text))
+	slot0.orderTplPool = OrderTplPool.New(slot0._tf:Find("root/orderTpl"), 3, 6)
 	slot0.orderTpls = {}
 	slot0.timers = {}
 	slot0.disappearTimers = {}
 
 	setActive(slot0.charTr, false)
-	setText(slot0:findTF("top/title/Text"), i18n("island_order_title"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_order_title"))
 end
 
 slot0.OnHide = function(slot0)
@@ -35,6 +35,12 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+		uv0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_WHITOUT_BTN,
+			content = i18n("island_helpbtn_order")
+		})
+	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)

@@ -5,52 +5,53 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/top/CommonTitleAndBack/back_btn")
-	slot0.helpBtn = slot0:findTF("blur_panel/top/helpBtn")
-	slot0.taskBtn = slot0:findTF("blur_panel/panel/pageBtns/taskBtn")
-	slot0.techBtn = slot0:findTF("blur_panel/panel/pageBtns/techBtn")
-	slot0.guideBtn = slot0:findTF("blur_panel/panel/pageBtns/guideBtn")
+	slot0.backBtn = slot0._tf:Find("blur_panel/top/CommonTitleAndBack/back_btn")
+	slot0.helpBtn = slot0._tf:Find("blur_panel/top/helpBtn")
+	slot0.taskBtn = slot0._tf:Find("blur_panel/panel/pageBtns/taskBtn")
+	slot0.techBtn = slot0._tf:Find("blur_panel/panel/pageBtns/techBtn")
+	slot1 = slot0._tf
+	slot0.guideBtn = slot1:Find("blur_panel/panel/pageBtns/guideBtn")
 	slot0.topBtns = {
 		slot0.taskBtn,
 		slot0.techBtn,
 		slot0.guideBtn
 	}
-	slot0.pages = slot0:findTF("blur_panel/panel/pages")
-	slot0.taskPage = slot0:findTF("blur_panel/panel/pages/taskPage")
-	slot0.techPage = slot0:findTF("blur_panel/panel/pages/techPage")
-	slot0.guidePage = slot0:findTF("blur_panel/panel/pages/guidePage")
+	slot0.pages = slot0._tf:Find("blur_panel/panel/pages")
+	slot0.taskPage = slot0._tf:Find("blur_panel/panel/pages/taskPage")
+	slot0.techPage = slot0._tf:Find("blur_panel/panel/pages/techPage")
+	slot0.guidePage = slot0._tf:Find("blur_panel/panel/pages/guidePage")
 	slot0.blurPanel = slot0._tf:Find("blur_panel")
 	slot0.pageBg = slot0._tf:Find("blur_panel/panel/mask/pageBg")
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+	slot0:OverlayPanel(slot0.blurPanel, {
 		pbList = {
 			slot0.pageBg
 		}
 	})
-	setText(slot0:findTF("blur_panel/top/CommonTitleAndBack/title"), i18n("handbook_name"))
-	setText(slot0:findTF("blur_panel/top/CommonTitleAndBack/title/en"), "HANDBOOK")
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/go_btn/Text", slot0.taskPage), i18n("handbook_process"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/get_btn/Text", slot0.taskPage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/got_btn/Text", slot0.taskPage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/ptPanel/go_btn/Text", slot0.taskPage), i18n("handbook_process"))
-	setText(slot0:findTF("page/ptPanel/get_btn/Text", slot0.taskPage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/ptPanel/got_btn/Text", slot0.taskPage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/go_btn/Text", slot0.techPage), i18n("handbook_process"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/lock_btn/Text", slot0.techPage), i18n("handbook_process"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/get_btn/Text", slot0.techPage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/got_btn/Text", slot0.techPage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/ptPanel/go_btn/Text", slot0.techPage), i18n("handbook_process"))
-	setText(slot0:findTF("page/ptPanel/get_btn/Text", slot0.techPage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/ptPanel/got_btn/Text", slot0.techPage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/go_btn/Text", slot0.guidePage), i18n("handbook_process"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/get_btn/Text", slot0.guidePage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/got_btn/Text", slot0.guidePage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/go_btn/Text", slot0.guidePage), i18n("handbook_process"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/get_btn/Text", slot0.guidePage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/got_btn/Text", slot0.guidePage), i18n("handbook_finished"))
-	setText(slot0:findTF("page/ptPanel/go_btn/Text", slot0.guidePage), i18n("handbook_process"))
-	setText(slot0:findTF("page/ptPanel/get_btn/Text", slot0.guidePage), i18n("handbook_claim"))
-	setText(slot0:findTF("page/ptPanel/got_btn/Text", slot0.guidePage), i18n("handbook_finished"))
+	setText(slot0._tf:Find("blur_panel/top/CommonTitleAndBack/title"), i18n("handbook_name"))
+	setText(slot0._tf:Find("blur_panel/top/CommonTitleAndBack/title/en"), "HANDBOOK")
+	setText(slot0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.taskPage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.taskPage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.taskPage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/lock_btn/Text"), i18n("handbook_process"))
+	setText(slot0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.techPage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.techPage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.techPage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/got_btn/Text"), i18n("handbook_finished"))
+	setText(slot0.guidePage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(slot0.guidePage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(slot0.guidePage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
 end
 
 slot0.didEnter = function(slot0)
@@ -118,21 +119,21 @@ slot0.RefreshAll = function(slot0)
 	slot4, slot5 = TechnologyConst.isTecActOn()
 
 	setActive(slot0.techBtn, slot4)
-	setActive(slot0:findTF("Text/lock", slot0.taskBtn), not slot1)
-	setActive(slot0:findTF("Text/lock", slot0.techBtn), not slot0.commanderManualProxy:IsTopUnlock(CommanderManualProxy.TOP_PAGE_TECH))
-	setActive(slot0:findTF("Text/lock", slot0.guideBtn), not slot0.commanderManualProxy:IsTopUnlock(CommanderManualProxy.TOP_PAGE_GUIDE))
-	setText(slot0:findTF("Text", slot0.taskBtn), slot1 and slot0.topTaskCfg.name or slot0.topTaskCfg.lock_name)
-	setText(slot0:findTF("Text", slot0.techBtn), slot2 and slot0.topTechCfg.name or slot0.topTechCfg.lock_name)
-	setText(slot0:findTF("Text", slot0.guideBtn), slot3 and slot0.topGuideCfg.name or slot0.topGuideCfg.lock_name)
-	setText(slot0:findTF("select/Text", slot0.taskBtn), slot0.topTaskCfg.name)
-	setText(slot0:findTF("select/Text", slot0.techBtn), slot0.topTechCfg.name)
-	setText(slot0:findTF("select/Text", slot0.guideBtn), slot0.topGuideCfg.name)
-	setText(slot0:findTF("select/en", slot0.taskBtn), slot0.topTaskCfg.eng_name)
-	setText(slot0:findTF("select/en", slot0.techBtn), slot0.topTechCfg.eng_name)
-	setText(slot0:findTF("select/en", slot0.guideBtn), slot0.topGuideCfg.eng_name)
-	setActive(slot0:findTF("tip", slot0.taskBtn), slot0.commanderManualProxy:ShouldShowTipByType(1))
-	setActive(slot0:findTF("tip", slot0.techBtn), slot5)
-	setActive(slot0:findTF("tip", slot0.guideBtn), slot0.commanderManualProxy:ShouldShowTipByType(2))
+	setActive(slot0.taskBtn:Find("Text/lock"), not slot1)
+	setActive(slot0.techBtn:Find("Text/lock"), not slot0.commanderManualProxy:IsTopUnlock(CommanderManualProxy.TOP_PAGE_TECH))
+	setActive(slot0.guideBtn:Find("Text/lock"), not slot0.commanderManualProxy:IsTopUnlock(CommanderManualProxy.TOP_PAGE_GUIDE))
+	setText(slot0.taskBtn:Find("Text"), slot1 and slot0.topTaskCfg.name or slot0.topTaskCfg.lock_name)
+	setText(slot0.techBtn:Find("Text"), slot2 and slot0.topTechCfg.name or slot0.topTechCfg.lock_name)
+	setText(slot0.guideBtn:Find("Text"), slot3 and slot0.topGuideCfg.name or slot0.topGuideCfg.lock_name)
+	setText(slot0.taskBtn:Find("select/Text"), slot0.topTaskCfg.name)
+	setText(slot0.techBtn:Find("select/Text"), slot0.topTechCfg.name)
+	setText(slot0.guideBtn:Find("select/Text"), slot0.topGuideCfg.name)
+	setText(slot0.taskBtn:Find("select/en"), slot0.topTaskCfg.eng_name)
+	setText(slot0.techBtn:Find("select/en"), slot0.topTechCfg.eng_name)
+	setText(slot0.guideBtn:Find("select/en"), slot0.topGuideCfg.eng_name)
+	setActive(slot0.taskBtn:Find("tip"), slot0.commanderManualProxy:ShouldShowTipByType(1))
+	setActive(slot0.techBtn:Find("tip"), slot5)
+	setActive(slot0.guideBtn:Find("tip"), slot0.commanderManualProxy:ShouldShowTipByType(2))
 
 	slot0.hasRefreshed = false
 
@@ -149,7 +150,7 @@ slot0.RefreshAll = function(slot0)
 				uv0:ShowTaskPage()
 
 				for slot3, slot4 in ipairs(uv0.topBtns) do
-					setActive(uv0:findTF("select", slot4), slot4 == uv0.taskBtn)
+					setActive(slot4:Find("select"), slot4 == uv0.taskBtn)
 				end
 			elseif uv0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_TASK) and slot0 ~= "" then
 				pg.TipsMgr.GetInstance():ShowTips(slot0)
@@ -169,7 +170,7 @@ slot0.RefreshAll = function(slot0)
 				uv0:ShowTechPage()
 
 				for slot3, slot4 in ipairs(uv0.topBtns) do
-					setActive(uv0:findTF("select", slot4), slot4 == uv0.techBtn)
+					setActive(slot4:Find("select"), slot4 == uv0.techBtn)
 				end
 			elseif uv0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_TECH) and slot0 ~= "" then
 				pg.TipsMgr.GetInstance():ShowTips(slot0)
@@ -189,7 +190,7 @@ slot0.RefreshAll = function(slot0)
 				uv0:ShowGuidePage()
 
 				for slot3, slot4 in ipairs(uv0.topBtns) do
-					setActive(uv0:findTF("select", slot4), slot4 == uv0.guideBtn)
+					setActive(slot4:Find("select"), slot4 == uv0.guideBtn)
 				end
 			elseif uv0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_GUIDE) and slot0 ~= "" then
 				pg.TipsMgr.GetInstance():ShowTips(slot0)
@@ -205,7 +206,7 @@ slot0.RefreshAll = function(slot0)
 		slot6 = false
 
 		for slot10, slot11 in ipairs(slot0.topBtns) do
-			if isActive(slot11) and not isActive(slot0:findTF("Text/lock", slot11)) and isActive(slot0:findTF("tip", slot11)) then
+			if isActive(slot11) and not isActive(slot11:Find("Text/lock")) and isActive(slot11:Find("tip")) then
 				triggerButton(slot11)
 
 				slot6 = true
@@ -217,7 +218,7 @@ slot0.RefreshAll = function(slot0)
 
 		if not slot6 then
 			for slot10, slot11 in ipairs(slot0.topBtns) do
-				if isActive(slot11) and not isActive(slot0:findTF("Text/lock", slot11)) then
+				if isActive(slot11) and not isActive(slot11:Find("Text/lock")) then
 					triggerButton(slot11)
 
 					slot0.hasRefreshed = true
@@ -240,8 +241,8 @@ slot0.ShowTaskPage = function(slot0)
 		slot0.taskItemAnimTime = {}
 	end
 
-	slot1 = UIItemList.New(slot0:findTF("subPageScroll/Viewport/Content", slot0.taskPage), slot0:findTF("subPageScroll/Viewport/Content/subPageBtn", slot0.taskPage))
-	slot2 = UIItemList.New(slot0:findTF("page/scroll/Viewport/Content", slot0.taskPage), slot0:findTF("page/scroll/Viewport/Content/tpl", slot0.taskPage))
+	slot1 = UIItemList.New(slot0.taskPage:Find("subPageScroll/Viewport/Content"), slot0.taskPage:Find("subPageScroll/Viewport/Content/subPageBtn"))
+	slot2 = UIItemList.New(slot0.taskPage:Find("page/scroll/Viewport/Content"), slot0.taskPage:Find("page/scroll/Viewport/Content/tpl"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -261,11 +262,11 @@ slot0.ShowTaskPage = function(slot0)
 					uv1.contextData.currentPageId = uv0.id
 					slot3 = "subPageScroll/Viewport/Content"
 
-					for slot3 = 1, uv1:findTF(slot3, uv1.taskPage).childCount do
-						setActive(uv1:findTF("select", uv1:findTF("subPageScroll/Viewport/Content", uv1.taskPage):GetChild(slot3 - 1)), slot3 == uv2 + 1)
-						setActive(uv1:findTF("name", uv1:findTF("subPageScroll/Viewport/Content", uv1.taskPage):GetChild(slot3 - 1)), slot3 ~= uv2 + 1)
+					for slot3 = 1, uv1.taskPage:Find(slot3).childCount do
+						setActive(uv1.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("select"), slot3 == uv2 + 1)
+						setActive(uv1.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("name"), slot3 ~= uv2 + 1)
 
-						uv1:findTF("tip", uv1:findTF("subPageScroll/Viewport/Content", uv1.taskPage):GetChild(slot3 - 1)).anchoredPosition = Vector2(slot3 == uv2 + 1 and -34.295 or 18, -2)
+						uv1.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("tip").anchoredPosition = Vector2(slot3 == uv2 + 1 and -34.295 or 18, -2)
 					end
 
 					uv0:SortTaskIdList()
@@ -338,8 +339,8 @@ slot0.ShowTaskPage = function(slot0)
 						end
 					end)
 					uv3:align(#uv0.taskIdList)
-					scrollTo(uv1:findTF("page/scroll", uv1.taskPage), 0, 1)
-					uv1:SetPtPanel(uv1:findTF("page/ptPanel", uv1.taskPage), uv0)
+					scrollTo(uv1.taskPage:Find("page/scroll"), 0, 1)
+					uv1:SetPtPanel(uv1.taskPage:Find("page/ptPanel"), uv0)
 				elseif uv0:GetLockTip() and slot0 ~= "" then
 					pg.TipsMgr.GetInstance():ShowTips(slot0)
 				end
@@ -364,7 +365,7 @@ slot0.ShowTaskPage = function(slot0)
 	if not false then
 		for slot7 = #slot0.taskPages, 1, -1 do
 			if slot0.taskPages[slot7].isUnlock then
-				triggerButton(slot0:findTF("subPageScroll/Viewport/Content", slot0.taskPage):GetChild(slot7 - 1))
+				triggerButton(slot0.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(slot7 - 1))
 
 				break
 			end
@@ -381,8 +382,8 @@ slot0.ShowTaskPage = function(slot0)
 end
 
 slot0.ShowGuidePage = function(slot0)
-	slot1 = UIItemList.New(slot0:findTF("subPageScroll/Viewport/Content", slot0.guidePage), slot0:findTF("subPageScroll/Viewport/Content/subPageBtn", slot0.guidePage))
-	slot2 = UIItemList.New(slot0:findTF("page/scroll/Viewport/Content", slot0.guidePage), slot0:findTF("page/scroll/Viewport/Content/tpl", slot0.guidePage))
+	slot1 = UIItemList.New(slot0.guidePage:Find("subPageScroll/Viewport/Content"), slot0.guidePage:Find("subPageScroll/Viewport/Content/subPageBtn"))
+	slot2 = UIItemList.New(slot0.guidePage:Find("page/scroll/Viewport/Content"), slot0.guidePage:Find("page/scroll/Viewport/Content/tpl"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -405,13 +406,13 @@ slot0.ShowGuidePage = function(slot0)
 					uv1.contextData.currentPageId = uv0.id
 					slot3 = "subPageScroll/Viewport/Content"
 
-					for slot3 = 1, uv1:findTF(slot3, uv1.guidePage).childCount do
-						setActive(uv1:findTF("select", uv1:findTF("subPageScroll/Viewport/Content", uv1.guidePage):GetChild(slot3 - 1)), slot3 == uv2 + 1)
-						setActive(uv1:findTF("lock0", uv1:findTF("subPageScroll/Viewport/Content", uv1.guidePage):GetChild(slot3 - 1)), slot3 ~= uv2 + 1)
-						setActive(uv1:findTF("mask", uv1:findTF("subPageScroll/Viewport/Content", uv1.guidePage):GetChild(slot3 - 1)), slot3 ~= uv2 + 1)
-						setActive(uv1:findTF("en", uv1:findTF("subPageScroll/Viewport/Content", uv1.guidePage):GetChild(slot3 - 1)), slot3 ~= uv2 + 1)
+					for slot3 = 1, uv1.guidePage:Find(slot3).childCount do
+						setActive(uv1.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("select"), slot3 == uv2 + 1)
+						setActive(uv1.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("lock0"), slot3 ~= uv2 + 1)
+						setActive(uv1.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("mask"), slot3 ~= uv2 + 1)
+						setActive(uv1.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("en"), slot3 ~= uv2 + 1)
 
-						uv1:findTF("tip", uv1:findTF("subPageScroll/Viewport/Content", uv1.guidePage):GetChild(slot3 - 1)).anchoredPosition = Vector2(slot3 == uv2 + 1 and -34.295 or 18, -2)
+						uv1.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(slot3 - 1):Find("tip").anchoredPosition = Vector2(slot3 == uv2 + 1 and -34.295 or 18, -2)
 					end
 
 					uv0:SortTaskIdList()
@@ -517,8 +518,8 @@ slot0.ShowGuidePage = function(slot0)
 						end
 					end)
 					uv3:align(#uv0.taskIdList)
-					scrollTo(uv1:findTF("page/scroll", uv1.guidePage), 0, 1)
-					uv1:SetPtPanel(uv1:findTF("page/ptPanel", uv1.guidePage), uv0)
+					scrollTo(uv1.guidePage:Find("page/scroll"), 0, 1)
+					uv1:SetPtPanel(uv1.guidePage:Find("page/ptPanel"), uv0)
 				elseif uv0:GetLockTip() and slot0 ~= "" then
 					pg.TipsMgr.GetInstance():ShowTips(slot0)
 				end
@@ -541,7 +542,7 @@ slot0.ShowGuidePage = function(slot0)
 	slot1:align(#slot0.guidePages)
 
 	if not false then
-		triggerButton(slot0:findTF("subPageScroll/Viewport/Content", slot0.guidePage):GetChild(0))
+		triggerButton(slot0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(0))
 	end
 
 	slot0:ShowBottomTip(slot0.guidePage, 1)
@@ -557,9 +558,9 @@ slot0.SetPtPanel = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfig("target")
 	slot4 = slot2:getConfig("drop_client")
 
-	setText(slot0:findTF("upgrade/progress/progress1", slot1), slot2.pt)
-	setText(slot0:findTF("upgrade/progress/progress2", slot1), "/" .. #slot2.taskIdList)
-	setSlider(slot0:findTF("slider", slot1), 0, #slot2.taskIdList, slot2.pt)
+	setText(slot1:Find("upgrade/progress/progress1"), slot2.pt)
+	setText(slot1:Find("upgrade/progress/progress2"), "/" .. #slot2.taskIdList)
+	setSlider(slot1:Find("slider"), 0, #slot2.taskIdList, slot2.pt)
 
 	if slot2.pt == #slot2.taskIdList then
 		slot1:Find("upgrade"):GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_ptPanel_upgrade")
@@ -567,15 +568,15 @@ slot0.SetPtPanel = function(slot0, slot1, slot2)
 
 	slot5 = slot2:GetCurrentPtTarget()
 
-	setText(slot0:findTF("desc", slot1), i18n("handbook_unfinished", slot5))
+	setText(slot1:Find("desc"), i18n("handbook_unfinished", slot5))
 
-	slot6 = slot0:findTF("awards", slot1)
+	slot6 = slot1:Find("awards")
 
 	slot0:updateTaskAwards(slot2:GetCurrentPtAward(), slot6, slot6:GetChild(0))
-	setActive(slot0:findTF("go_btn", slot1), slot2.pt < slot5)
-	setActive(slot0:findTF("get_btn", slot1), slot5 <= slot2.pt and slot2.award < #slot2:getConfig("target"))
-	setActive(slot0:findTF("got_btn", slot1), slot2.award == #slot2:getConfig("target"))
-	onButton(slot0, slot0:findTF("get_btn", slot1), function ()
+	setActive(slot1:Find("go_btn"), slot2.pt < slot5)
+	setActive(slot1:Find("get_btn"), slot5 <= slot2.pt and slot2.award < #slot2:getConfig("target"))
+	setActive(slot1:Find("got_btn"), slot2.award == #slot2:getConfig("target"))
+	onButton(slot0, slot1:Find("get_btn"), function ()
 		uv0:PtAwardsCheckAndSubmit(uv1)
 	end, SFX_PANEL)
 end
@@ -947,7 +948,7 @@ slot0.PtAwardsCheckAndSubmit = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 slot0.onBackPressed = function(slot0)

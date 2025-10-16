@@ -5,35 +5,37 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.tfShipTpl = slot0:findTF("panel/shiptpl")
-	slot0.tfEmptyTpl = slot0:findTF("panel/emptytpl")
-	slot4 = slot0.findTF
+	slot0.tfShipTpl = slot0._tf:Find("panel/shiptpl")
+	slot1 = slot0._tf
+	slot0.tfEmptyTpl = slot1:Find("panel/emptytpl")
+	slot4 = slot0._tf
+	slot4 = slot4.Find
 	slot0.tfFleets = {
 		[FleetType.Normal] = {
-			slot0:findTF("panel/fleet/1"),
-			slot0:findTF("panel/fleet/2")
+			slot0._tf:Find("panel/fleet/1"),
+			slot0._tf:Find("panel/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			slot4(slot0, "panel/sub/1")
+			slot4(slot4, "panel/sub/1")
 		}
 	}
-	slot0.limitList = slot0:findTF("panel/limit_list")
-	slot0.btnBack = slot0:findTF("panel/btnBack")
-	slot0.btnGo = slot0:findTF("panel/start_button")
-	slot0.btnTry = slot0:findTF("panel/try_button")
-	slot0.btnASHelp = slot0:findTF("panel/title/ASvalue")
-	slot0.commanderToggle = slot0:findTF("panel/commander_btn")
-	slot0.formationToggle = slot0:findTF("panel/formation_btn")
-	slot0.toggleMask = slot0:findTF("mask")
-	slot0.toggleList = slot0:findTF("mask/list")
+	slot0.limitList = slot0._tf:Find("panel/limit_list")
+	slot0.btnBack = slot0._tf:Find("panel/btnBack")
+	slot0.btnGo = slot0._tf:Find("panel/start_button")
+	slot0.btnTry = slot0._tf:Find("panel/try_button")
+	slot0.btnASHelp = slot0._tf:Find("panel/title/ASvalue")
+	slot0.commanderToggle = slot0._tf:Find("panel/commander_btn")
+	slot0.formationToggle = slot0._tf:Find("panel/formation_btn")
+	slot0.toggleMask = slot0._tf:Find("mask")
+	slot0.toggleList = slot0._tf:Find("mask/list")
 	slot0.toggles = {}
 
 	for slot4 = 0, slot0.toggleList.childCount - 1 do
 		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot4 + 1))
 	end
 
-	slot0.btnSp = slot0:findTF("panel/sp")
-	slot0.spMask = slot0:findTF("mask_sp")
+	slot0.btnSp = slot0._tf:Find("panel/sp")
+	slot0.spMask = slot0._tf:Find("mask_sp")
 
 	setActive(slot0.tfShipTpl, false)
 	setActive(slot0.tfEmptyTpl, false)
@@ -44,8 +46,8 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.commanderToggle, false)
 	setActive(slot0.btnTry, false)
 	setActive(slot0.limitList, false)
-	setText(slot0:findTF("panel/formation_btn/text"), i18n("autofight_formation"))
-	setText(slot0:findTF("panel/commander_btn/text"), i18n("autofight_cat"))
+	setText(slot0._tf:Find("panel/formation_btn/text"), i18n("autofight_formation"))
+	setText(slot0._tf:Find("panel/commander_btn/text"), i18n("autofight_cat"))
 	setText(slot0._tf:Find("panel/title/Image/text"), i18n("fleet_select_title"))
 	slot0:InitInteractable()
 end
@@ -162,19 +164,19 @@ end
 slot0.updateFleet = function(slot0, slot1, slot2)
 	slot6 = slot0:getFleetById(slot0.selectIds[slot1][slot2])
 	slot7 = slot0.tfFleets[slot1][slot2]
-	slot10 = slot0:findTF(TeamType.Vanguard, slot7)
-	slot11 = slot0:findTF(TeamType.Submarine, slot7)
+	slot10 = slot7:Find(TeamType.Vanguard)
+	slot11 = slot7:Find(TeamType.Submarine)
 
-	setActive(slot0:findTF("btn_recom", slot7), false)
-	setActive(slot0:findTF("btn_clear", slot7), false)
-	setActive(slot0:findTF("btn_select", slot7), slot2 <= slot0:getLimitNums(slot1))
+	setActive(slot7:Find("btn_recom"), false)
+	setActive(slot7:Find("btn_clear"), false)
+	setActive(slot7:Find("btn_select"), slot2 <= slot0:getLimitNums(slot1))
 
-	slot15 = slot0:findTF("commander", slot7)
+	slot15 = slot7:Find("commander")
 
-	setActive(slot0:findTF("selected", slot7), false)
+	setActive(slot7:Find("selected"), false)
 	setText(findTF(slot7, "bg/name"), "")
 
-	if slot0:findTF(TeamType.Main, slot7) then
+	if slot7:Find(TeamType.Main) then
 		setActive(slot9, slot3 and slot6)
 	end
 
@@ -229,7 +231,7 @@ slot0.updateShips = function(slot0, slot1, slot2, slot3, slot4)
 				setActive(slot12:Find("event_block"), false)
 			end
 
-			setActive(slot0:findTF("ship_type", slot12), false)
+			setActive(slot12:Find("ship_type"), false)
 		end
 	end
 end
@@ -275,10 +277,10 @@ slot0.clearFleets = function(slot0)
 end
 
 slot0.clearFleet = function(slot0, slot1)
-	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
-	slot4 = slot0:findTF(TeamType.Submarine, slot1)
+	slot3 = slot1:Find(TeamType.Vanguard)
+	slot4 = slot1:Find(TeamType.Submarine)
 
-	if slot0:findTF(TeamType.Main, slot1) then
+	if slot1:Find(TeamType.Main) then
 		removeAllChildren(slot2)
 	end
 

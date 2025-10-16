@@ -3,11 +3,11 @@ slot0 = class("AsideStoryPlayer", import(".StoryPlayer"))
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.hrzList = UIItemList.New(slot0:findTF("aside", slot0.asidePanel), slot0:findTF("aside/aside_txt_tpl", slot0.asidePanel))
-	slot0.vetList = UIItemList.New(slot0:findTF("aside_2", slot0.asidePanel), slot0:findTF("aside_2/aside_txt_tpl_2", slot0.asidePanel))
-	slot0.leftBotomVetList = UIItemList.New(slot0:findTF("aside_3", slot0.asidePanel), slot0:findTF("aside_3/aside_txt_tpl", slot0.asidePanel))
-	slot0.centerWithFrameVetList = UIItemList.New(slot0:findTF("aside_4", slot0.asidePanel), slot0:findTF("aside_4/aside_txt_tpl", slot0.asidePanel))
-	slot0.dataTxt = slot0:findTF("aside_sign_date", slot0.asidePanel)
+	slot0.hrzList = UIItemList.New(slot0.asidePanel:Find("aside"), slot0.asidePanel:Find("aside/aside_txt_tpl"))
+	slot0.vetList = UIItemList.New(slot0.asidePanel:Find("aside_2"), slot0.asidePanel:Find("aside_2/aside_txt_tpl_2"))
+	slot0.leftBotomVetList = UIItemList.New(slot0.asidePanel:Find("aside_3"), slot0.asidePanel:Find("aside_3/aside_txt_tpl"))
+	slot0.centerWithFrameVetList = UIItemList.New(slot0.asidePanel:Find("aside_4"), slot0.asidePanel:Find("aside_4/aside_txt_tpl"))
+	slot0.dataTxt = slot0.asidePanel:Find("aside_sign_date")
 end
 
 slot0.OnReset = function(slot0, slot1, slot2, slot3)

@@ -76,7 +76,7 @@ slot0.OnUpdateFlush = function(slot0)
 	onButton(slot0, slot0.awardTF, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("description", slot0.bg), i18n("activity_victory"))
+	setText(slot0.bg:Find("description"), i18n("activity_victory"))
 
 	if not slot6 and slot4 >= 1 and not slot5 then
 		slot0.level = slot0.level + 1

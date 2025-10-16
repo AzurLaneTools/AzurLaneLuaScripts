@@ -246,7 +246,7 @@ slot0.init = function(slot0)
 	slot0.missBossForamtionPage = GuildMissionBossFormationPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.showAssultShipPage = GuildShowAssultShipPage.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.shipEquipmentsPage = GuildShipEquipmentsPage.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.helpBtn = slot0:findTF("frame/help")
+	slot0.helpBtn = slot0._tf:Find("frame/help")
 end
 
 slot0.didEnter = function(slot0)

@@ -21,34 +21,34 @@ slot0.Set = function(slot0, slot1, slot2)
 	slot14 = slot5 <= slot13
 	slot15 = slot5 + slot13
 
-	setText(slot0:findTF("window/top/name"), slot3.name)
-	setText(slot0:findTF("window/top/name/lv"), "Lv." .. slot5)
-	setScrollText(slot0:findTF("window/frame/describe/text"), slot3.desc)
-	setText(slot0:findTF("window/frame/content/title/lv/current"), "Lv." .. slot5)
-	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot9)
+	setText(slot0._tf:Find("window/top/name"), slot3.name)
+	setText(slot0._tf:Find("window/top/name/lv"), "Lv." .. slot5)
+	setScrollText(slot0._tf:Find("window/frame/describe/text"), slot3.desc)
+	setText(slot0._tf:Find("window/frame/content/title/lv/current"), "Lv." .. slot5)
+	setActive(slot0._tf:Find("window/frame/content/title/lv/next"), not slot9)
 
 	if not slot9 then
-		setText(slot0:findTF("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
+		setText(slot0._tf:Find("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
 	end
 
 	slot16 = slot3.buff[slot5]
 	slot17 = pg.benefit_buff_template[slot16]
 
 	assert(slot17, "Can't Find benefit_buff_template Config ID: " .. slot16)
-	setText(slot0:findTF("window/frame/content/preview/current"), slot17.desc)
-	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot9)
-	setActive(slot0:findTF("window/frame/content/preview/next"), not slot9)
+	setText(slot0._tf:Find("window/frame/content/preview/current"), slot17.desc)
+	setActive(slot0._tf:Find("window/frame/content/preview/arrow"), not slot9)
+	setActive(slot0._tf:Find("window/frame/content/preview/next"), not slot9)
 
 	if not slot9 then
 		slot18 = slot3.buff[slot5 + 1]
 		slot17 = pg.benefit_buff_template[slot18]
 
 		assert(slot17, "Can't Find benefit_buff_template Config ID: " .. slot18)
-		setText(slot0:findTF("window/frame/content/preview/next"), slot17.desc)
+		setText(slot0._tf:Find("window/frame/content/preview/next"), slot17.desc)
 	end
 
-	slot0.loader:GetSprite(Item.getConfigData(slot7).icon, "", slot0:findTF("window/frame/costback/icon"))
-	setText(slot0:findTF("window/frame/costback/cost"), slot3.material[slot5] or 0)
+	slot0.loader:GetSprite(Item.getConfigData(slot7).icon, "", slot0._tf:Find("window/frame/costback/icon"))
+	setText(slot0._tf:Find("window/frame/costback/cost"), slot3.material[slot5] or 0)
 	onButton(slot0, slot0.btnUpgrade, function ()
 		if not uv0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backhill_cantupbuilding", pg.activity_event_building[uv1].name))

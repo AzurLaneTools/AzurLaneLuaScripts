@@ -9,21 +9,21 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.title = slot0:findTF("name_mask/name")
-	slot0.owner = slot0:findTF("owner")
+	slot0.title = slot0._tf:Find("name_mask/name")
+	slot0.owner = slot0._tf:Find("owner")
 
-	setText(slot0:findTF("title", slot0.owner), i18n("collect_page_got"))
+	setText(slot0.owner:Find("title"), i18n("collect_page_got"))
 
-	slot0.ownerLimit = slot0:findTF("owner_limit")
+	slot0.ownerLimit = slot0._tf:Find("owner_limit")
 
-	setText(slot0:findTF("title", slot0.ownerLimit), i18n("collect_page_got"))
+	setText(slot0.ownerLimit:Find("title"), i18n("collect_page_got"))
 
-	slot0.iconTF = slot0:findTF("left/IconTpl")
-	slot0.ownTF = slot0:findTF("left/own")
-	slot0.detailTF = slot0:findTF("left/detail")
-	slot0.desc = slot0:findTF("content/desc")
-	slot0.list = slot0:findTF("content/skipable_list")
-	slot0.tpl = slot0:findTF("tpl", slot0.list)
+	slot0.iconTF = slot0._tf:Find("left/IconTpl")
+	slot0.ownTF = slot0._tf:Find("left/own")
+	slot0.detailTF = slot0._tf:Find("left/detail")
+	slot0.desc = slot0._tf:Find("content/desc")
+	slot0.list = slot0._tf:Find("content/skipable_list")
+	slot0.tpl = slot0.list:Find("tpl")
 end
 
 slot0.OnRefresh = function(slot0, slot1)
@@ -44,11 +44,11 @@ slot0.OnRefresh = function(slot0, slot1)
 	if slot1.show_type == uv0.SHOW_TYPE_NORMAL then
 		setActive(slot0.owner, true)
 		setActive(slot0.ownerLimit, false)
-		setText(slot0:findTF("Text", slot0.owner), slot1.count)
+		setText(slot0.owner:Find("Text"), slot1.count)
 	elseif slot1.show_type == uv0.SHOW_TYPE_LIMIT then
 		setActive(slot0.owner, false)
 		setActive(slot0.ownerLimit, true)
-		setText(slot0:findTF("Text", slot0.ownerLimit), slot1.count .. "/" .. (slot1.count_limit or 0))
+		setText(slot0.ownerLimit:Find("Text"), slot1.count .. "/" .. (slot1.count_limit or 0))
 	end
 
 	UIItemList.StaticAlign(slot0.list, slot0.tpl, #slot1.skipable_list, function (slot0, slot1, slot2)
@@ -56,13 +56,9 @@ slot0.OnRefresh = function(slot0, slot1)
 			slot3 = uv0.skipable_list[slot1 + 1]
 			slot4 = slot3[1]
 			slot5 = slot3[2]
-			slot8 = uv1
 
-			changeToScrollText(slot8:findTF("mask/title", slot2), slot3[3])
-
-			slot7 = uv1
-
-			onButton(uv1, slot7:findTF("skip_btn", slot2), function ()
+			changeToScrollText(slot2:Find("mask/title"), slot3[3])
+			onButton(uv1, slot2:Find("skip_btn"), function ()
 				if uv0 == uv1.SKIP_TYPE_SCENE then
 					pg.m02:sendNotification(GAME.GO_SCENE, uv2[1], uv2[2] or {})
 				elseif uv0 == uv1.SKIP_TYPE_ACTIVITY then

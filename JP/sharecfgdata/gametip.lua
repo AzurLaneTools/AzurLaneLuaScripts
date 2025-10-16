@@ -11366,7 +11366,7 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "※<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+	tip = "※<color=#539b2c>$1</COLOR>では<color=#539b2c>装備外装箱</color>が100%出現します"
 }
 
 
@@ -12862,22 +12862,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「白鳳」を確定で入手可能！（最大4隻まで）"
+	tip = "「クレマンソー」「ギシャン」など出現率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「リュッツォウ」「ザイドリッツ」「ヨルク」常設実装！"
+	tip = "「サン・マルチーニョ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「エムデン」「エルビング」常設実装！"
+	tip = "「ゴールデン・ハインド」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「レオナルド・ダ・ヴィンチ」常設実装！"
+	tip = "「メアリー・セレスト」「ウィダー」常設実装！"
 }
 
 
@@ -41443,10 +41443,10 @@ _G.pg.base.gametip.island_visit_tip7 = {
 
 _G.pg.base.gametip.island_season_help = {
 	tip = [[
-1.新しいシーズンが開始すると、離島開発PTは自動でリセットされます
-22.開発シーズンでは、資源変換・特定の資源を生産・ショップ購入で離島開発PTを入手できます
-23.シーズン終了時、資源倉庫の資源は自動で開発PTに変換され、開発順位の計算において統計されます
-24.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が受け取れなくなります]]
+新しいシーズンが開始すると、離島開発PTは<color=#FD5650>自動でリセット</color>されます。
+開発シーズンでは、<color=#39bfff>資源変換</color>・<color=#39bfff>特定の資源を生産</color>・<color=#39bfff>輸送依頼</color>・<color=#39bfff>限定イベント参加</color>・<color=#39bfff>ショップ購入</color>で離島開発PTを入手できます。
+3.シーズン終了時、資源倉庫の資源は<color=#FD5650>自動で開発PTに変換されト</color>、開発順位の計算において統計されます
+4.シーズンが終了すると、終了したシーズンの開発計画報酬と累計PT報酬が<color=#FD5650>受け取れなくなりますト</color>。]]
 }
 
 
@@ -42126,6 +42126,45 @@ _G.pg.base.gametip.island_help_greet = {
 			icon = {
 				path = "",
 				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_character_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info3"
 			}
 		},
 		disableScroll = true,
@@ -45410,4 +45449,89 @@ _G.pg.base.gametip.danmachi_award_get = {
 
 _G.pg.base.gametip.danmachi_award_unget = {
 	tip = "未入手"
+}
+
+
+_G.pg.base.gametip.dorm3d_touch2 = {
+	tip = "タッチ($1)"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_special = {
+	tip = "特典"
+}
+
+
+_G.pg.base.gametip.island_helpbtn_order = {
+	tip = [[
+<color=#E58A00>離島依頼</color>：指定された<color=#39bfff>資源</color>を消費すると離島依頼を完遂することができます。依頼を完遂すると<color=#39bfff>開発資金</color>と<color=#39bfff>離島開発EXP</color>を入手できます。
+<color=#E58A00>緊急依頼</color>：<color=#39bfff>技術研究</color>で緊急依頼の技術を研究すると開放されます。離島での<color=#39bfff>時間経過</color>・<color=#39bfff>通常依頼完遂</color>・<color=#39bfff>輸送委託受注</color>時に確率で緊急依頼が出現します。
+<color=#E58A00>依頼上限</color>：通常依頼と緊急依頼はそれぞれ完遂数上限が存在します。通常依頼は<color=#39bfff>毎日</color>、緊急依頼は<color=#39bfff>毎週</color>上限がリセットされます。
+<color=#E58A00>依頼傾向</color>：「依頼傾向」項目で、出現する離島依頼の難易度を変更できます。変更結果は<color=#39bfff>次の依頼出現時</color>に反映されます。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_commission = {
+	tip = [[
+「一括管理」では、解放済みの<color=#39bfff>生産</color>・<color=#39bfff>経営</color>・<color=#39bfff>定期補給</color>状況を確認・管理できます。
+<color=#E58A00>生産</color>：<color=#39bfff>配置枠</color>をタップすると、キャラ配置・生産物入手を行うことができます。<color=#39bfff>切り替えボタン</color>をタップするとキャラの配置状況・生産物を確認できます。
+<color=#E58A00>経営</color>：<color=#39bfff>経営準備</color>をタップすると、スタッフ配置・販売メニュー選択を確認できます。<color=#39bfff>経営開始</color>をタップすると売上を回収できます。
+<color=#E58A00>補給</color>：<color=#39bfff>補給ボタン</color>をタップすると、集会島定期補給の受領地点に瞬時に移動できます。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_speedup = {
+	tip = "加速券を使用すると、<color=#39bfff>配置枠での生産作業時間</color>、<color=#39bfff>離島依頼の準備時間</color>などを短縮させることができます。\n\nそれぞれの加速券によって<color=#39bfff>短縮できる時間は異なります</color>。超過した短縮時間分は<color=#FD5650>返還されません</color>。また、加速券には<color=#39bfff>使用期限</color>が存在し、使用期限が過ぎると加速券が自動で<color=#FD5650>無効</color>になります。"
+}
+
+
+_G.pg.base.gametip.island_helpbtn_card = {
+	tip = {
+		{
+			info = [[
+プロフィール画面では指揮官の離島情報が展示されます。<color=#39bfff>チャット</color>と<color=#39bfff>訪問</color>機能でほかの指揮官のプロフィールを確認できます。
+<color=#E58A00>実績展示</color>：タップすると達成済みの<color=#39bfff>実績</color>をプロフィールで展示できます。
+<color=#E58A00>離島名変更</color>：タップすると離島名称を変更できます。
+<color=#E58A00>あいさつ修正</color>：タップするとプロフィールで表示されるあいさつを修正できます。
+<color=#E58A00>タグ設定</color>：入手済みの評判タグを確認できます。
+<color=#E58A00>離島写真</color>：タップで離島の表示写真を変更することができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_helpbtn_technology = {
+	tip = [[
+離島技術では、解放条件を達成済みの研究に仲間を配置し、資源を消費することで研究を開始することができます。研究を進めると、新しい<color=#39bfff>生産ポイント</color>と<color=#39bfff>生産物</color>を開放できます。
+
+<color=#E58A00>本部認証</color>
+新しい<color=#39bfff>マップ</color>、<color=#39bfff>一括管理</color>などの機能、<color=#39bfff>離島依頼</color>・<color=#39bfff>輸送委託</color>、<color=#39bfff>定期補給</color>の<color=#39bfff>追加</color>などを開放できるほか、<color=#39bfff>新しい仲間</color>の離島権限認証アイテムを入手できます。
+
+<color=#E58A00>研究</color>
+各生産ポイントの<color=#39bfff>配置作業</color>を開放できるほか、手動採集と配置作業の効率を向上させ、生産ポイントの<color=#39bfff>レシピ</color>を開放できます。]]
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
+	tip = "すでに受注したため、変更できません"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+	tip = "輸送依頼を変更しますか？"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+	tip = "輸送依頼準備中"
+}
+
+
+_G.pg.base.gametip.island_information_tech = {
+	tip = "離島技術-$1-$2"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag8 = {
+	tip = "解锁丝袜互动"
 }

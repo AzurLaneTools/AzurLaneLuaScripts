@@ -3645,7 +3645,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1000
+			100
 		},
 		items = {
 			{
@@ -3688,7 +3688,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1200
+			120
 		},
 		items = {
 			{
@@ -3731,7 +3731,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1400
+			140
 		},
 		items = {
 			{
@@ -3774,7 +3774,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1800
+			180
 		},
 		items = {
 			{
@@ -3817,7 +3817,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			800
+			80
 		},
 		items = {
 			{
@@ -3860,7 +3860,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			2400
+			240
 		},
 		items = {
 			{
@@ -3903,7 +3903,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			2800
+			280
 		},
 		items = {
 			{
@@ -3946,7 +3946,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1200
+			120
 		},
 		items = {
 			{
@@ -4012,7 +4012,7 @@ pg.base.island_shop_goods = {
 		resource_consume = {
 			41,
 			1,
-			1800
+			180
 		},
 		items = {
 			{

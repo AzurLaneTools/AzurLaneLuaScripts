@@ -44,43 +44,42 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot0.homeBtn = slot0:findTF("adapt/top/option", slot0.blurPanel)
-	slot0.backBtn = slot0:findTF("adapt/top/back_button", slot0.blurPanel)
-	slot0.helpBtn = slot0:findTF("adapt/top/HelpBtn", slot0.blurPanel)
-	slot4 = slot0.blurPanel
-	slot0.shareBtn = slot0:findTF("adapt/top/ShareBtn", slot4)
-	slot0.levelPanel = slot0:findTF("Adapt/LevelPanel")
+	slot0.blurPanel = slot0._tf:Find("blur_panel")
+	slot0.homeBtn = slot0.blurPanel:Find("adapt/top/option")
+	slot0.backBtn = slot0.blurPanel:Find("adapt/top/back_button")
+	slot0.helpBtn = slot0.blurPanel:Find("adapt/top/HelpBtn")
+	slot0.shareBtn = slot0.blurPanel:Find("adapt/top/ShareBtn")
+	slot0.levelPanel = slot0._tf:Find("Adapt/LevelPanel")
 	slot0.levelToggleList = {}
 	slot0.levelToggleLockList = {}
 
 	for slot4, slot5 in ipairs(slot0.levelList) do
-		slot7 = slot0:findTF("Level_" .. slot5, slot0.levelPanel)
-		slot0.levelToggleList[slot5] = slot0:findTF("Toggle", slot7)
-		slot0.levelToggleLockList[slot5] = slot0:findTF("Lock", slot7)
+		slot7 = slot0.levelPanel:Find("Level_" .. slot5)
+		slot0.levelToggleList[slot5] = slot7:Find("Toggle")
+		slot0.levelToggleLockList[slot5] = slot7:Find("Lock")
 	end
 
-	slot0.timePanel = slot0:findTF("Adapt/TimePanel")
-	slot1 = slot0:findTF("Left/LeftTime", slot0.timePanel)
-	slot0.leftTipText = slot0:findTF("LeftTip", slot1)
-	slot0.leftDayTipText = slot0:findTF("DayTip", slot1)
-	slot0.leftDayValueText = slot0:findTF("DayValue", slot1)
-	slot0.leftTimeValueText = slot0:findTF("TimeValue", slot1)
-	slot0.passTimeValueText = slot0:findTF("Challenge/Value", slot0.timePanel)
+	slot0.timePanel = slot0._tf:Find("Adapt/TimePanel")
+	slot1 = slot0.timePanel:Find("Left/LeftTime")
+	slot0.leftTipText = slot1:Find("LeftTip")
+	slot0.leftDayTipText = slot1:Find("DayTip")
+	slot0.leftDayValueText = slot1:Find("DayValue")
+	slot0.leftTimeValueText = slot1:Find("TimeValue")
+	slot0.passTimeValueText = slot0.timePanel:Find("Challenge/Value")
 
 	setText(slot0.leftTipText, i18n("time_remaining_tip"))
 	setText(slot0.leftDayTipText, i18n("word_date"))
 
-	slot0.iconContainer = slot0:findTF("Adapt/DescPanel/ScrollView/Viewport/Container")
-	slot0.iconTpl = slot0:findTF("Adapt/DescPanel/IconTpl")
-	slot2 = slot0:findTF("Adapt/Award")
-	slot0.awardIconTF = slot0:findTF("IconTpl", slot2)
-	slot0.awardGotTF = slot0:findTF("Got", slot2)
-	slot0.startBtn = slot0:findTF("Adapt/StartBtn")
-	slot0.bgImg = slot0:findTF("BG")
-	slot0.nameImg = slot0:findTF("Left", slot0.timePanel)
-	slot0.debugPanel = slot0:findTF("Adapt/Debug")
-	slot0.debugText = slot0:findTF("Text", slot0.debugPanel)
+	slot0.iconContainer = slot0._tf:Find("Adapt/DescPanel/ScrollView/Viewport/Container")
+	slot0.iconTpl = slot0._tf:Find("Adapt/DescPanel/IconTpl")
+	slot2 = slot0._tf:Find("Adapt/Award")
+	slot0.awardIconTF = slot2:Find("IconTpl")
+	slot0.awardGotTF = slot2:Find("Got")
+	slot0.startBtn = slot0._tf:Find("Adapt/StartBtn")
+	slot0.bgImg = slot0._tf:Find("BG")
+	slot0.nameImg = slot0.timePanel:Find("Left")
+	slot0.debugPanel = slot0._tf:Find("Adapt/Debug")
+	slot0.debugText = slot0.debugPanel:Find("Text")
 end
 
 slot0.addListener = function(slot0)
@@ -129,7 +128,7 @@ slot0.addListener = function(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Icon", slot2)
+			slot3 = slot2:Find("Icon")
 
 			if uv0.descList[slot1 + 1] ~= false then
 				slot5 = uv0
@@ -248,7 +247,7 @@ slot0.updateBossImg = function(slot0)
 	for slot13, slot14 in ipairs(slot0.levelList) do
 		slot15 = string.format(slot9, slot2.button_style, slot14)
 
-		setImageSprite(slot0:findTF("Selected", slot0.levelToggleList[slot14]), LoadSprite("limitchallenge/btn/" .. slot15, slot15), true)
+		setImageSprite(slot0.levelToggleList[slot14]:Find("Selected"), LoadSprite("limitchallenge/btn/" .. slot15, slot15), true)
 	end
 end
 

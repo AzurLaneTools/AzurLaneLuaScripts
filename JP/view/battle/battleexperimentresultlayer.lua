@@ -20,12 +20,12 @@ slot0.skip = function(slot0)
 			slot1 = slot1 - 1
 		end
 
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), true)
+		SetActive(slot0._bg:Find("jieuan01/tips"), true)
 
 		slot0._stateFlag = uv0.STATE_REPORTED
 	elseif slot0._stateFlag == uv0.STATE_REPORTED then
 		slot0:displayBG()
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
+		SetActive(slot0._bg:Find("jieuan01/tips"), false)
 	end
 end
 
@@ -42,7 +42,7 @@ slot0.displayBG = function(slot0)
 
 		uv0._stateFlag = uv1.STATE_DISPLAY
 	end))
-	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
+	setActive(slot0._bg:Find("jieuan01/Bomb"), false)
 end
 
 slot0.closeStatistics = function(slot0)
@@ -122,9 +122,9 @@ slot0.displayShips = function(slot0)
 			slot21.x = slot21.x + (slot13 - slot20) * 74
 			slot21.y = slot21.y + (slot13 - slot20) * -124
 			slot18.localPosition = slot21
-			slot0:findTF("result/mask/icon", slot18):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot14:getPainting())
+			slot18:Find("result/mask/icon"):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot14:getPainting())
 
-			setImageSprite(slot0:findTF("result/type", slot18), GetSpriteFromAtlas("shiptype", shipType2print(slot14:getShipType())), true)
+			setImageSprite(slot18:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot14:getShipType())), true)
 			slot0:setAtkAnima(slot18, slot19, slot3[slot14.id].output / slot5, slot5, slot0.mvpShipVO == slot14, slot3[slot14.id].output, slot3[slot14.id].kill_count)
 
 			if slot14.id == slot3._flagShipID then

@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.mask = slot0:findTF("mask")
-	slot0.back = slot0:findTF("back")
-	slot0.charContainer = slot0:findTF("char")
-	slot0.charRect = slot0:findTF("char/rect")
-	slot0.nameTxt = slot0:findTF("dialogue/name/Text"):GetComponent(typeof(Text))
-	slot0.dialogueTxt = slot0:findTF("dialogue/Text"):GetComponent(typeof(Text))
-	slot0.typer = slot0:findTF("dialogue/Text"):GetComponent(typeof(Typewriter))
-	slot0.giftTr = slot0:findTF("dialogue/item/icon")
-	slot0.effectTr = slot0:findTF("char/effect")
+	slot0.mask = slot0._tf:Find("mask")
+	slot0.back = slot0._tf:Find("back")
+	slot0.charContainer = slot0._tf:Find("char")
+	slot0.charRect = slot0._tf:Find("char/rect")
+	slot0.nameTxt = slot0._tf:Find("dialogue/name/Text"):GetComponent(typeof(Text))
+	slot0.dialogueTxt = slot0._tf:Find("dialogue/Text"):GetComponent(typeof(Text))
+	slot0.typer = slot0._tf:Find("dialogue/Text"):GetComponent(typeof(Typewriter))
+	slot0.giftTr = slot0._tf:Find("dialogue/item/icon")
+	slot0.effectTr = slot0._tf:Find("char/effect")
 	slot0.giftTrPos = slot0.giftTr.localPosition
-	slot0.tipTr = slot0:findTF("dialogue/tip"):GetComponent(typeof(Text))
+	slot0.tipTr = slot0._tf:Find("dialogue/tip"):GetComponent(typeof(Text))
 end
 
 slot0.BindEvents = function(slot0)

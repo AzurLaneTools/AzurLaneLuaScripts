@@ -88,10 +88,14 @@ slot0.GenerateRandomFanPosition = function(slot0, slot1, slot2, slot3, slot4, sl
 end
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._closeBtn = slot0:findTF("top/back")
-	slot0._homeBtn = slot0:findTF("top/home")
-	slot0._helpBtn = slot0:findTF("top/help")
+	slot1 = slot0._tf
+	slot0.top = slot1:Find("top")
+	slot1 = slot0._tf
+	slot0._closeBtn = slot1:Find("top/back")
+	slot1 = slot0._tf
+	slot0._homeBtn = slot1:Find("top/home")
+	slot1 = slot0._tf
+	slot0._helpBtn = slot1:Find("top/help")
 	slot1 = slot0.top
 	slot0.ticketTimes = slot1:Find("ticket/text")
 	slot1 = slot0.top
@@ -100,7 +104,7 @@ slot0.init = function(slot0)
 	slot0.yinhuaceTimes = slot1:Find("get")
 	slot1 = slot0.yinhuace
 	slot0.yinhuaceTips = slot1:Find("tip")
-	slot1 = slot0.top
+	slot1 = slot0._tf
 	slot0.shouce = slot1:Find("yinhuashouceye")
 	slot1 = slot0.shouce
 	slot0.shouce_bg = slot1:Find("bg")
@@ -116,8 +120,10 @@ slot0.init = function(slot0)
 
 	setActive(slot0.shouce, false)
 
-	slot0.sakura = slot0:findTF("effect")
-	slot0._map = slot0:findTF("scrollRect/map")
+	slot1 = slot0._tf
+	slot0.sakura = slot1:Find("effect")
+	slot1 = slot0._tf
+	slot0._map = slot1:Find("scrollRect/map")
 	slot1 = slot0._map
 	slot0.wave = slot1:Find("effect_wave")
 	slot1 = slot0._map
@@ -164,9 +170,11 @@ slot0.didEnter = function(slot0)
 		})
 	end)
 	onButton(slot0, slot0.yinhuace, function ()
+		pg.UIMgr.GetInstance():OverlayPanel(uv0.shouce)
 		setActive(uv0.shouce, true)
 	end)
 	onButton(slot0, slot0.shouce_bg, function ()
+		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.shoucem, uv0._tf)
 		setActive(uv0.shouce, false)
 	end)
 	onButton(slot0, slot0.btn_shouce_help, function ()
@@ -435,6 +443,12 @@ end
 
 slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
+
+	if isActive(slot0.shouce) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.shoucem, slot0._tf)
+		setActive(slot0.shouce, false)
+	end
+
 	slot0:clearStudents()
 	slot0:ClearEffectFirework()
 end

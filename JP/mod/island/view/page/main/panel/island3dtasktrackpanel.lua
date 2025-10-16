@@ -123,14 +123,10 @@ slot0.TrackUI = function(slot0)
 	end
 
 	if tonumber(slot0.task:GetTraceParam()) then
-		if getProxy(IslandProxy):GetIsland():GetMapId() == pg.island_world_objects[slot2].mapId then
-			if _IslandCore then
-				_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-					id = slot2
-				})
-			end
-		else
-			slot0:UnTrackUI()
+		if _IslandCore then
+			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
+				id = slot2
+			})
 		end
 	else
 		slot0:UnTrackUI()

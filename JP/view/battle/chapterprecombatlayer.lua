@@ -3,6 +3,9 @@ slot1 = import("..ship.FormationUI")
 slot2 = {
 	[99.0] = true
 }
+slot0.optionsPath = {
+	"adapt/top/option"
+}
 
 slot0.getUIName = function(slot0)
 	return "ChapterPreCombatUI"
@@ -13,14 +16,14 @@ slot0.ResUISettings = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._popup = slot0:findTF("right/popup")
-	slot0._costText = slot0:findTF("right/popup/Text")
-	slot0._costTip = slot0:findTF("right/popup/tip")
-	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
-	slot0._backBtn = slot0:findTF("top/back_btn")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
+	slot0._startBtn = slot0.rtAdapt:Find("right/start")
+	slot0._popup = slot0.rtAdapt:Find("right/popup")
+	slot0._costText = slot0.rtAdapt:Find("right/popup/Text")
+	slot0._costTip = slot0.rtAdapt:Find("right/popup/tip")
+	slot0._extraCostBuffIcon = slot0.rtAdapt:Find("right/operation_buff_icon")
+	slot0._backBtn = slot0.rtAdapt:Find("top/back_btn")
+	slot0._moveLayer = slot0._tf:Find("moveLayer")
+	slot1 = slot0.rtAdapt:Find("middle")
 	slot0._mainGS = slot1:Find("gear_score/main/Text")
 	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
 
@@ -43,36 +46,37 @@ slot0.init = function(slot0)
 
 	setActive(slot0._strategy, true)
 
-	slot0._spoilsContainer = slot0:findTF("right/infomation/spoils/items/items_container")
-	slot0._goals = slot0:findTF("right/infomation/goal")
-	slot0._item = slot0:getTpl("right/infomation/spoils/items/item_tpl")
+	slot0._spoilsContainer = slot0.rtAdapt:Find("right/infomation/spoils/items/items_container")
+	slot0._goals = slot0.rtAdapt:Find("right/infomation/goal")
+	slot0._item = slot0:getTpl("right/infomation/spoils/items/item_tpl", slot0.rtAdapt)
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
+	slot0._middle = slot0.rtAdapt:Find("middle")
+	slot2 = slot0.rtAdapt
+	slot0._right = slot2:Find("right")
 	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
 
 	setmetatable({
 		Shift = function (slot0, slot1, slot2)
 		end
 	}, slot0._formationLogic)
-	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(slot0.rtAdapt:Find("middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(slot0.rtAdapt:Find("middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
 
-	slot0._fleet = slot0:findTF("middle/fleet")
+	slot0._fleet = slot0.rtAdapt:Find("middle/fleet")
 
-	setText(findTF(slot0._fleet, "title_bg/Text"), i18n("pre_combat_team"))
+	setText(slot0._fleet:Find("title_bg/Text"), i18n("pre_combat_team"))
 
-	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
-	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
+	slot0._ship_tpl = slot0._fleet:Find("shiptpl")
+	slot0._empty_tpl = slot0._fleet:Find("emptytpl")
 
 	setActive(slot0._ship_tpl, false)
 	setActive(slot0._empty_tpl, false)
 
-	slot0._autoToggle = slot0:findTF("middle/auto_toggle")
-	slot0._autoSubToggle = slot0:findTF("middle/sub_toggle_container/sub_toggle")
-	slot0.topPanel = slot0:findTF("top")
-	slot0.strategyInfo = slot0:findTF("strategy_info")
+	slot0._autoToggle = slot0.rtAdapt:Find("middle/auto_toggle")
+	slot0._autoSubToggle = slot0.rtAdapt:Find("middle/sub_toggle_container/sub_toggle")
+	slot0.topPanel = slot0.rtAdapt:Find("top")
+	slot0.strategyInfo = slot0._tf:Find("strategy_info")
 
 	setActive(slot0.strategyInfo, false)
 
@@ -158,7 +162,10 @@ slot0.didEnter = function(slot0)
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)
-	onButton(slot0, slot0:findTF("middle/gear_score/vanguard/SonarTip"), function ()
+
+	slot3 = slot0.rtAdapt
+
+	onButton(slot0, slot3:Find("middle/gear_score/vanguard/SonarTip"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.fleet_antisub_range_tip.tip
@@ -186,8 +193,8 @@ slot0.Register = function(slot0)
 		SetActive(slot0, true)
 
 		slot0.name = "info"
-		slot4 = findTF(findTF(slot0, "info"), "stars")
-		slot6 = findTF(slot3, "energy")
+		slot4 = slot0:Find("info"):Find("stars")
+		slot6 = slot3:Find("energy")
 
 		if slot1:getEnergy() <= Ship.ENERGY_MID then
 			slot7, slot8 = slot1:getEnergyPrint()
@@ -209,13 +216,13 @@ slot0.Register = function(slot0)
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot3, "type"), slot8, true)
-		setText(findTF(slot3, "frame/lv_contain/lv"), slot1.level)
+		setImageSprite(slot3:Find("type"), slot8, true)
+		setText(slot3:Find("frame/lv_contain/lv"), slot1.level)
 
-		slot9 = findTF(slot3, "blood")
-		slot11 = findTF(slot9, "fillarea/red")
+		slot9 = slot3:Find("blood")
+		slot11 = slot9:Find("fillarea/red")
 
-		setActive(findTF(slot9, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
+		setActive(slot9:Find("fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
 		setActive(slot11, slot1.hpRant < ChapterConst.HpGreen)
 
 		(ChapterConst.HpGreen <= slot1.hpRant and slot10 or slot11):GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
@@ -342,9 +349,7 @@ slot0.updateStageView = function(slot0, slot1)
 		})
 		onButton(uv1, slot3, function ()
 			if Item.getConfigData(uv0[2]) and uv1[slot0.type] then
-				slot2 = uv2
-
-				slot2:emit(ChapterPreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)
+				uv2:emit(ChapterPreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, uv2.chapter.id, function (slot0)
 					slot2 = {}
 
 					for slot6, slot7 in ipairs(uv0.display_icon) do
@@ -379,10 +384,11 @@ slot0.updateStageView = function(slot0, slot1)
 	end
 
 	slot10 = {
-		findTF(slot0._goals, "goal_tpl"),
-		findTF(slot0._goals, "goal_sink"),
-		findTF(slot0._goals, "goal_time")
+		slot0._goals:Find("goal_tpl"),
+		slot0._goals:Find("goal_sink"),
+		slot11:Find("goal_time")
 	}
+	slot11 = slot0._goals
 	slot12 = 1
 
 	for slot16, slot17 in ipairs({
@@ -412,15 +418,15 @@ slot0.updateBattleFleetView = function(slot0)
 
 				updateShip(slot6, slot1[slot5])
 
-				slot8 = findTF(slot6, "blood")
-				slot10 = findTF(slot6, "blood/fillarea/red")
+				slot8 = slot6:Find("blood")
+				slot10 = slot6:Find("blood/fillarea/red")
 
-				setActive(findTF(slot6, "blood/fillarea/green"), ChapterConst.HpGreen <= slot1[slot5].hpRant)
+				setActive(slot6:Find("blood/fillarea/green"), ChapterConst.HpGreen <= slot1[slot5].hpRant)
 				setActive(slot10, slot7 < ChapterConst.HpGreen)
 
 				(ChapterConst.HpGreen <= slot7 and slot9 or slot10):GetComponent("Image").fillAmount = slot7 * 0.0001
 
-				setActive(findTF(slot6, "broken"), slot7 == 0)
+				setActive(slot6:Find("broken"), slot7 == 0)
 			end
 		end
 	end
@@ -486,7 +492,7 @@ slot0.displayFleetInfo = function(slot0)
 		end
 	end
 
-	setActive(slot0:findTF("middle/gear_score/vanguard"):Find("SonarActive"), ChapterFleet.StaticTransformChapterFleet2Fleet(slot1):GetFleetSonarRange() > 0)
+	setActive(slot0.rtAdapt:Find("middle/gear_score/vanguard"):Find("SonarActive"), ChapterFleet.StaticTransformChapterFleet2Fleet(slot1):GetFleetSonarRange() > 0)
 	setActive(slot10:Find("SonarInactive"), slot12 <= 0)
 
 	if slot12 > 0 then
@@ -507,8 +513,8 @@ slot0.updateStrategyIcon = function(slot0)
 	setActive(slot0._strategy:Find("mask"), slot2.count == 0)
 	setActive(slot0._strategy:Find("selected"), false)
 
-	slot4 = slot0:findTF("middle/formation_list")
-	slot5 = findTF(slot4, "formation")
+	slot4 = slot0.rtAdapt:Find("middle/formation_list")
+	slot5 = slot4:Find("formation")
 
 	setActive(slot5, false)
 

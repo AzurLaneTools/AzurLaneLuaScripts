@@ -4,7 +4,7 @@ slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.parent = slot1
-	slot0._tf = slot1:findTF("academyMap/map/" .. slot0:GetGameObjectName())
+	slot0._tf = slot1._tf:Find("academyMap/map/" .. slot0:GetGameObjectName())
 	slot0.nameTxt = findTF(slot0._tf, "name/Text"):GetComponent(typeof(Text))
 	slot0.tip = findTF(slot0._tf, "tip")
 end

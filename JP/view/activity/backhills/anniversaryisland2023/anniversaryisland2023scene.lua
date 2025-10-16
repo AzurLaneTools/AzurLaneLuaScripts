@@ -25,16 +25,16 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0._bg = slot0:findTF("BG")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("top")
+	slot0._bg = slot0._tf:Find("BG")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._upper = slot0:findTF("upper")
+	slot0._upper = slot0._tf:Find("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do
 		slot5 = slot0._upper:GetChild(slot4)
@@ -51,13 +51,13 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/Back"), function ()
+	onButton(slot0, slot0._tf:Find("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("top/Home"), function ()
+	onButton(slot0, slot0._tf:Find("top/Home"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Help"), function ()
+	onButton(slot0, slot0._tf:Find("top/Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.haidaojudian_help.tip
@@ -208,8 +208,8 @@ slot0.RegisterDataResponse = function(slot0)
 		slot6("xianshijianzao")
 		slot6("huanzhuangshangdian")
 		slot6("taskboard")
-		slot5.loader:GetSpriteQuiet("ui/" .. uv0:getUIName() .. "_atlas", "title_" .. slot4, slot5:findTF("top/Title/Number"), true)
-		slot5.loader:GetSpriteQuiet("ui/" .. uv0:getUIName() .. "_level" .. slot4, "bg", slot5:findTF("map"))
+		slot5.loader:GetSpriteQuiet("ui/" .. uv0:getUIName() .. "_atlas", "title_" .. slot4, slot5._tf:Find("top/Title/Number"), true)
+		slot5.loader:GetSpriteQuiet("ui/" .. uv0:getUIName() .. "_level" .. slot4, "bg", slot5._tf:Find("map"))
 	end, slot6)
 
 	slot2 = {

@@ -15,7 +15,7 @@ slot0.Init = function(slot0)
 end
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Frame/Text"), i18n("ryza_tip_item_access"))
+	setText(slot0._tf:Find("Frame/Text"), i18n("ryza_tip_item_access"))
 end
 
 slot0.SetContextData = function(slot0, slot1)
@@ -27,7 +27,9 @@ slot0.SetActivity = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("BG"), function ()
 		uv0:HideMaterialsPreview()
 	end, SFX_CANCEL)
 end
@@ -158,7 +160,7 @@ slot0.ShowMaterialsPreview = function(slot0, slot1)
 	table.sort({}, slot10)
 	table.sort({}, slot10)
 	(function ()
-		setActive(uv0:findTF("Frame/Scroll/Content/Owned/List").parent, #uv1 > 0)
+		setActive(uv0._tf:Find("Frame/Scroll/Content/Owned/List").parent, #uv1 > 0)
 
 		if #uv1 == 0 then
 			return
@@ -174,7 +176,7 @@ slot0.ShowMaterialsPreview = function(slot0, slot1)
 		end)
 	end)()
 	(function ()
-		setActive(uv0:findTF("Frame/Scroll/Content/Lack/List").parent, #uv1 > 0)
+		setActive(uv0._tf:Find("Frame/Scroll/Content/Lack/List").parent, #uv1 > 0)
 
 		if #uv1 == 0 then
 			return

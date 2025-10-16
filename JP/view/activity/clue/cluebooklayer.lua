@@ -8,40 +8,41 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.closeBtn = slot0:findTF("frame/close")
+	slot1 = slot0._tf
+	slot0.closeBtn = slot1:Find("frame/close")
 	slot0.pageTgs = {
-		slot0:findTF("frame/toggles/sitePageTg"),
-		slot0:findTF("frame/toggles/charaPageTg"),
-		slot0:findTF("frame/toggles/endingPageTg"),
-		slot0:findTF("frame/toggles/storyPageTg")
+		slot0._tf:Find("frame/toggles/sitePageTg"),
+		slot0._tf:Find("frame/toggles/charaPageTg"),
+		slot0._tf:Find("frame/toggles/endingPageTg"),
+		slot0._tf:Find("frame/toggles/storyPageTg")
 	}
-	slot0.pages = slot0:findTF("frame/pages")
-	slot0.sitePage = slot0:findTF("sitePage", slot0.pages)
-	slot0.charaPage = slot0:findTF("charaPage", slot0.pages)
-	slot0.endingPage = slot0:findTF("endingPage", slot0.pages)
-	slot0.storyPage = slot0:findTF("storyPage", slot0.pages)
-	slot0.award = slot0:findTF("frame/award")
+	slot0.pages = slot0._tf:Find("frame/pages")
+	slot0.sitePage = slot0.pages:Find("sitePage")
+	slot0.charaPage = slot0.pages:Find("charaPage")
+	slot0.endingPage = slot0.pages:Find("endingPage")
+	slot0.storyPage = slot0.pages:Find("storyPage")
+	slot0.award = slot0._tf:Find("frame/award")
 
-	setText(slot0:findTF("Text", slot0.pageTgs[1]), i18n("clue_title_1"))
-	setText(slot0:findTF("selected/Text", slot0.pageTgs[1]), i18n("clue_title_1"))
-	setText(slot0:findTF("Text", slot0.pageTgs[2]), i18n("clue_title_2"))
-	setText(slot0:findTF("selected/Text", slot0.pageTgs[2]), i18n("clue_title_2"))
-	setText(slot0:findTF("Text", slot0.pageTgs[3]), i18n("clue_title_3"))
-	setText(slot0:findTF("selected/Text", slot0.pageTgs[3]), i18n("clue_title_3"))
-	setText(slot0:findTF("Text", slot0.pageTgs[4]), i18n("clue_title_4"))
+	setText(slot0.pageTgs[1]:Find("Text"), i18n("clue_title_1"))
+	setText(slot0.pageTgs[1]:Find("selected/Text"), i18n("clue_title_1"))
+	setText(slot0.pageTgs[2]:Find("Text"), i18n("clue_title_2"))
+	setText(slot0.pageTgs[2]:Find("selected/Text"), i18n("clue_title_2"))
+	setText(slot0.pageTgs[3]:Find("Text"), i18n("clue_title_3"))
+	setText(slot0.pageTgs[3]:Find("selected/Text"), i18n("clue_title_3"))
+	setText(slot0.pageTgs[4]:Find("Text"), i18n("clue_title_4"))
 
 	slot4 = "clue_title_4"
 
-	setText(slot0:findTF("selected/Text", slot0.pageTgs[4]), i18n(slot4))
+	setText(slot0.pageTgs[4]:Find("selected/Text"), i18n(slot4))
 
 	for slot4 = 1, 3 do
-		setText(slot0:findTF("right/Viewport/Content/siteGroup" .. slot4 .. "/goBtn/Text", slot0.sitePage), i18n("clue_task_goto"))
+		setText(slot0.sitePage:Find("right/Viewport/Content/siteGroup" .. slot4 .. "/goBtn/Text"), i18n("clue_task_goto"))
 	end
 
-	setText(slot0:findTF("right/goBtn/Text", slot0.charaPage), i18n("clue_task_goto"))
-	setText(slot0:findTF("doing/Text", slot0.award), i18n("clue_get"))
-	setText(slot0:findTF("get/Text", slot0.award), i18n("clue_get"))
-	setText(slot0:findTF("got/Text", slot0.award), i18n("clue_got"))
+	setText(slot0.charaPage:Find("right/goBtn/Text"), i18n("clue_task_goto"))
+	setText(slot0.award:Find("doing/Text"), i18n("clue_get"))
+	setText(slot0.award:Find("get/Text"), i18n("clue_get"))
+	setText(slot0.award:Find("got/Text"), i18n("clue_got"))
 end
 
 slot0.didEnter = function(slot0)
@@ -50,7 +51,7 @@ slot0.didEnter = function(slot0)
 		uv0:StopBgm()
 		uv0:closeView()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("mask"), function ()
+	onButton(slot0, slot0._tf:Find("mask"), function ()
 		uv0:StopBgm()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -85,15 +86,15 @@ end
 
 slot0.InitView = function(slot0)
 	for slot4, slot5 in ipairs(slot0.pageTgs) do
-		setActive(slot0:findTF("selected", slot5), slot0.contextData.indexInfo.pageIndex == slot4)
+		setActive(slot5:Find("selected"), slot0.contextData.indexInfo.pageIndex == slot4)
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
 				uv0.contextData.indexInfo.pageIndex = uv1
 
 				for slot4 = 0, uv0.pages.childCount - 1 do
 					setActive(uv0.pages:GetChild(slot4), slot4 == uv1 - 1)
-					setActive(uv0:findTF("tip", uv0.pageTgs[slot4 + 1]), uv2.ShouldShowTip(slot4 + 1))
-					setActive(uv0:findTF("selected", uv0.pageTgs[slot4 + 1]), uv0.contextData.indexInfo.pageIndex == slot4 + 1)
+					setActive(uv0.pageTgs[slot4 + 1]:Find("tip"), uv2.ShouldShowTip(slot4 + 1))
+					setActive(uv0.pageTgs[slot4 + 1]:Find("selected"), uv0.contextData.indexInfo.pageIndex == slot4 + 1)
 				end
 
 				if uv1 == 1 then
@@ -128,35 +129,35 @@ slot0.SetClueGroup = function(slot0, slot1, slot2)
 		slot6[slot11] = slot0.taskProxy:getFinishTaskById(tonumber(slot5[slot11].task_id))
 	end
 
-	setText(slot0:findTF("title/Text", slot2), slot3.title)
-	setActive(slot0:findTF("title/Text", slot2), slot6[1] or slot6[2] or slot6[3])
-	setActive(slot0:findTF("title/lock", slot2), not slot6[1] and not slot6[2] and not slot6[3])
-	LoadImageSpriteAsync("cluepictures/" .. slot3.pic, slot0:findTF("picture", slot2), false)
-	setActive(slot0:findTF("picture/lock", slot2), not slot6[1] and not slot6[2] and not slot6[3])
+	setText(slot2:Find("title/Text"), slot3.title)
+	setActive(slot2:Find("title/Text"), slot6[1] or slot6[2] or slot6[3])
+	setActive(slot2:Find("title/lock"), not slot6[1] and not slot6[2] and not slot6[3])
+	LoadImageSpriteAsync("cluepictures/" .. slot3.pic, slot2:Find("picture"), false)
+	setActive(slot2:Find("picture/lock"), not slot6[1] and not slot6[2] and not slot6[3])
 
 	slot8 = false
 
 	for slot12 = 1, 3 do
 		if slot6[slot12] then
-			setText(slot0:findTF("clue" .. slot12, slot2), slot5[slot12].desc)
+			setText(slot2:Find("clue" .. slot12), slot5[slot12].desc)
 		elseif slot0.investigatingGroupId == slot1 then
-			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+			setText(slot2:Find("clue" .. slot12), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
 		elseif not slot8 then
 			slot8 = true
 
-			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+			setText(slot2:Find("clue" .. slot12), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
 		else
-			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>？？？</color>")
+			setText(slot2:Find("clue" .. slot12), "<color=#858593>？？？</color>")
 		end
 	end
 
-	setActive(slot0:findTF("goBtn", slot2), not slot6[1] or not slot6[2] or not slot6[3])
-	setActive(slot0:findTF("goBtn/selected", slot2), slot0.investigatingGroupId == slot1)
-	onButton(slot0, slot0:findTF("goBtn", slot2), function ()
+	setActive(slot2:Find("goBtn"), not slot6[1] or not slot6[2] or not slot6[3])
+	setActive(slot2:Find("goBtn/selected"), slot0.investigatingGroupId == slot1)
+	onButton(slot0, slot2:Find("goBtn"), function ()
 		uv0.investigatingGroupId = uv1
 
 		PlayerPrefs.SetInt("investigatingGroupId_" .. uv0.activityId .. "_" .. uv0.playerId, uv1)
-		setActive(uv0:findTF("goBtn/selected", uv2), true)
+		setActive(uv2:Find("goBtn/selected"), true)
 
 		if uv0.contextData.indexInfo.pageIndex == 1 then
 			uv0:ShowSitePage()
@@ -172,22 +173,24 @@ slot0.SetAward = function(slot0, slot1, slot2)
 	slot3 = slot0.taskProxy:getTaskVO(slot1)
 	slot4 = slot3:getConfig("award_display")[1]
 
-	updateDrop(slot0:findTF("mask/IconTpl", slot0.award), {
+	updateDrop(slot0.award:Find("mask/IconTpl"), {
 		type = slot4[1],
 		id = slot4[2],
 		count = slot4[3]
 	})
-	onButton(slot0, slot0:findTF("mask", slot0.award), function ()
+	onButton(slot0, slot0.award:Find("mask"), function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0:findTF("Text", slot0.award), slot3:getConfig("desc"))
-	setActive(slot0:findTF("mask/IconTpl/mask", slot0.award), slot3:getTaskStatus() == 2)
-	setActive(slot0:findTF("doing", slot0.award), slot6 == 0)
-	setActive(slot0:findTF("get", slot0.award), slot6 == 1)
-	setActive(slot0:findTF("got", slot0.award), slot6 == 2)
+	setText(slot0.award:Find("Text"), slot3:getConfig("desc"))
+	setActive(slot0.award:Find("mask/IconTpl/mask"), slot3:getTaskStatus() == 2)
+	setActive(slot0.award:Find("doing"), slot6 == 0)
+	setActive(slot0.award:Find("get"), slot6 == 1)
+	setActive(slot0.award:Find("got"), slot6 == 2)
 
 	if slot2 then
-		onButton(slot0, slot0:findTF("get", slot0.award), function ()
+		slot9 = slot0.award
+
+		onButton(slot0, slot9:Find("get"), function ()
 			slot0 = uv0
 
 			slot0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, uv0.taskActivityId, {
@@ -199,7 +202,9 @@ slot0.SetAward = function(slot0, slot1, slot2)
 			end)
 		end, SFX_PANEL)
 	else
-		onButton(slot0, slot0:findTF("get", slot0.award), function ()
+		slot9 = slot0.award
+
+		onButton(slot0, slot9:Find("get"), function ()
 			slot0 = {}
 			slot3 = getProxy(PlayerProxy):getRawData()
 			slot6, slot7 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, uv0:getConfig("award_display"))
@@ -225,7 +230,7 @@ slot0.SetAward = function(slot0, slot1, slot2)
 end
 
 slot0.ShowSitePage = function(slot0)
-	slot1 = UIItemList.New(slot0:findTF("left/Viewport/Content", slot0.sitePage), slot0:findTF("left/Viewport/Content/pageTg", slot0.sitePage))
+	slot1 = UIItemList.New(slot0.sitePage:Find("left/Viewport/Content"), slot0.sitePage:Find("left/Viewport/Content/pageTg"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -242,12 +247,12 @@ slot0.ShowSitePage = function(slot0)
 					uv0.contextData.indexInfo.subPageSiteIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueSite do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageSiteIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageSiteIndex == slot4)
+						setActive(uv0.sitePage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageSiteIndex ~= slot4)
+						setActive(uv0.sitePage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageSiteIndex == slot4)
 					end
 
 					for slot4 = 1, 3 do
-						uv0:SetClueGroup(uv2[slot4], uv0:findTF("right/Viewport/Content/siteGroup" .. slot4, uv0.sitePage))
+						uv0:SetClueGroup(uv2[slot4], uv0.sitePage:Find("right/Viewport/Content/siteGroup" .. slot4))
 					end
 
 					uv0:SetAward(uv3)
@@ -263,7 +268,9 @@ slot0.ShowSitePage = function(slot0)
 end
 
 slot0.ShowCharaPage = function(slot0)
-	slot1 = UIItemList.New(slot0:findTF("left/Viewport/Content", slot0.charaPage), slot0:findTF("left/Viewport/Content/pageTg", slot0.charaPage))
+	slot2 = slot0.charaPage
+	slot3 = slot0.charaPage
+	slot1 = UIItemList.New(slot2:Find("left/Viewport/Content"), slot3:Find("left/Viewport/Content/pageTg"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -288,11 +295,11 @@ slot0.ShowCharaPage = function(slot0)
 					uv0.contextData.indexInfo.subPageCharaIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueChara do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageCharaIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageCharaIndex == slot4)
+						setActive(uv0.charaPage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageCharaIndex ~= slot4)
+						setActive(uv0.charaPage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageCharaIndex == slot4)
 					end
 
-					uv0:SetClueGroup(uv2, uv0:findTF("right", uv0.charaPage))
+					uv0:SetClueGroup(uv2, uv0.charaPage:Find("right"))
 					uv0:SetAward(uv3)
 				end
 			end, SFX_PANEL)
@@ -303,8 +310,11 @@ slot0.ShowCharaPage = function(slot0)
 		end
 	end)
 	slot1:align(#slot0.clueChara)
-	onScroll(slot0, slot0:findTF("left", slot0.charaPage), function (slot0)
-		setActive(uv0:findTF("triangle", uv0.charaPage), slot0.y > 0.01)
+
+	slot4 = slot0.charaPage
+
+	onScroll(slot0, slot4:Find("left"), function (slot0)
+		setActive(uv0.charaPage:Find("triangle"), slot0.y > 0.01)
 	end)
 end
 
@@ -327,7 +337,7 @@ slot0.GetGroupClueCompleteCount = function(slot0, slot1)
 end
 
 slot0.ShowEndingPage = function(slot0)
-	slot1 = UIItemList.New(slot0:findTF("left/Viewport/Content", slot0.endingPage), slot0:findTF("left/Viewport/Content/pageTg", slot0.endingPage))
+	slot1 = UIItemList.New(slot0.endingPage:Find("left/Viewport/Content"), slot0.endingPage:Find("left/Viewport/Content/pageTg"))
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -365,8 +375,8 @@ slot0.ShowEndingPage = function(slot0)
 					uv0.contextData.indexInfo.subPageEndingIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueEnding do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageEndingIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageEndingIndex == slot4)
+						setActive(uv0.endingPage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageEndingIndex ~= slot4)
+						setActive(uv0.endingPage:Find("left/Viewport/Content"):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageEndingIndex == slot4)
 					end
 
 					table.sort(uv2, function (slot0, slot1)
@@ -376,41 +386,41 @@ slot0.ShowEndingPage = function(slot0)
 					slot1 = true
 
 					for slot5 = 1, #uv2 do
-						setActive(uv0:findTF("right/ending" .. slot5 .. "/icon", uv0.endingPage), slot1)
-						setActive(uv0:findTF("right/ending" .. slot5 .. "/selected", uv0.endingPage), uv0.endingIndex == slot5)
-						setActive(uv0:findTF("right/ending" .. slot5 .. "/lock", uv0.endingPage), not slot1)
-						setActive(uv0:findTF("right/ending" .. slot5 .. "/tip", uv0.endingPage), uv0.taskProxy:getTaskVO(tonumber(uv3[uv2[slot5]].task_id)):getTaskStatus() == 1 and slot1)
+						setActive(uv0.endingPage:Find("right/ending" .. slot5 .. "/icon"), slot1)
+						setActive(uv0.endingPage:Find("right/ending" .. slot5 .. "/selected"), uv0.endingIndex == slot5)
+						setActive(uv0.endingPage:Find("right/ending" .. slot5 .. "/lock"), not slot1)
+						setActive(uv0.endingPage:Find("right/ending" .. slot5 .. "/tip"), uv0.taskProxy:getTaskVO(tonumber(uv3[uv2[slot5]].task_id)):getTaskStatus() == 1 and slot1)
 
-						uv0:findTF("right/ending" .. slot5, uv0.endingPage):GetComponent(typeof(CanvasGroup)).alpha = slot1 and 1 or 0.8
+						uv0.endingPage:Find("right/ending" .. slot5):GetComponent(typeof(CanvasGroup)).alpha = slot1 and 1 or 0.8
 
 						if slot1 then
-							setText(uv0:findTF("right/ending" .. slot5 .. "/title", uv0.endingPage), slot7.title)
-							onToggle(uv0, uv0:findTF("right/ending" .. slot5, uv0.endingPage), function (slot0)
+							setText(uv0.endingPage:Find("right/ending" .. slot5 .. "/title"), slot7.title)
+							onToggle(uv0, uv0.endingPage:Find("right/ending" .. slot5), function (slot0)
 								if slot0 then
 									uv0.endingIndex = uv1
 
 									for slot4 = 1, #uv2 do
-										setActive(uv0:findTF("right/ending" .. slot4 .. "/selected", uv0.endingPage), slot4 == uv0.endingIndex)
+										setActive(uv0.endingPage:Find("right/ending" .. slot4 .. "/selected"), slot4 == uv0.endingIndex)
 									end
 
 									slot1 = uv3.clue
 									slot2 = uv3.locate
 
-									setText(uv0:findTF("middle/titleBg/Text", uv0.endingPage), uv3.title2)
-									setText(uv0:findTF("middle/endingDetail/Viewport/Content/detail", uv0.endingPage), uv3.desc)
-									onScroll(uv0, uv0:findTF("middle/endingDetail", uv0.endingPage), function (slot0)
-										setActive(uv0:findTF("middle/triangle", uv0.endingPage), slot0.y > 0.01)
+									setText(uv0.endingPage:Find("middle/titleBg/Text"), uv3.title2)
+									setText(uv0.endingPage:Find("middle/endingDetail/Viewport/Content/detail"), uv3.desc)
+									onScroll(uv0, uv0.endingPage:Find("middle/endingDetail"), function (slot0)
+										setActive(uv0.endingPage:Find("middle/triangle"), slot0.y > 0.01)
 									end)
-									setActive(uv0:findTF("right/combine", uv0.endingPage), uv4 == 1)
-									onButton(uv0, uv0:findTF("right/combine", uv0.endingPage), function ()
+									setActive(uv0.endingPage:Find("right/combine"), uv4 == 1)
+									onButton(uv0, uv0.endingPage:Find("right/combine"), function ()
 										uv0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, uv0.taskActivityId, {
 											tonumber(uv1.task_id)
 										})
 									end, SFX_PANEL)
-									setActive(uv0:findTF("middle/cluePanel", uv0.endingPage), uv4 ~= 2)
+									setActive(uv0.endingPage:Find("middle/cluePanel"), uv4 ~= 2)
 
 									if uv4 ~= 2 then
-										slot3 = UIItemList.New(uv0:findTF("middle/cluePanel", uv0.endingPage), uv0:findTF("middle/cluePanel/clueGroup", uv0.endingPage))
+										slot3 = UIItemList.New(uv0.endingPage:Find("middle/cluePanel"), uv0.endingPage:Find("middle/cluePanel/clueGroup"))
 
 										slot3:make(function (slot0, slot1, slot2)
 											if slot0 == UIItemList.EventUpdate then
@@ -431,14 +441,14 @@ slot0.ShowEndingPage = function(slot0)
 													slot2:GetChild(slot4 - 1):GetComponent(typeof(CanvasGroup)).alpha = uv4:GetGroupClueCompleteCount(slot3) == 0 and 0.4 or 1
 
 													if slot9 == 0 then
-														setText(uv4:findTF("name/Text", slot8), "？？？")
+														setText(slot8:Find("name/Text"), "？？？")
 													else
-														setText(uv4:findTF("name/Text", slot8), slot7.title)
+														setText(slot8:Find("name/Text"), slot7.title)
 													end
 
-													setText(uv4:findTF("progress", slot8), slot9 .. "/3")
-													setActive(uv4:findTF("progress", slot8), slot9 == 1 or slot9 == 2)
-													setActive(uv4:findTF("complete", slot8), slot9 == 3)
+													setText(slot8:Find("progress"), slot9 .. "/3")
+													setActive(slot8:Find("progress"), slot9 == 1 or slot9 == 2)
+													setActive(slot8:Find("complete"), slot9 == 3)
 													onButton(uv4, slot2, function ()
 														uv0:emit(ClueBookMediator.OPEN_SINGLE_CLUE_GROUP, uv1)
 													end, SFX_PANEL)
@@ -460,7 +470,7 @@ slot0.ShowEndingPage = function(slot0)
 													end
 
 													onButton(uv4, slot2, function ()
-														triggerToggle(uv0:findTF("right/ending" .. uv1 + 1, uv0.endingPage), true)
+														triggerToggle(uv0.endingPage:Find("right/ending" .. uv1 + 1), true)
 													end, SFX_PANEL)
 												end
 
@@ -479,8 +489,8 @@ slot0.ShowEndingPage = function(slot0)
 								slot10 = "6683cf"
 							end
 
-							setText(uv0:findTF("right/ending" .. slot5 .. "/title", uv0.endingPage), "<color=#" .. slot10 .. ">" .. slot7.title .. "</color>")
-							removeOnToggle(uv0:findTF("right/ending" .. slot5, uv0.endingPage))
+							setText(uv0.endingPage:Find("right/ending" .. slot5 .. "/title"), "<color=#" .. slot10 .. ">" .. slot7.title .. "</color>")
+							removeOnToggle(uv0.endingPage:Find("right/ending" .. slot5))
 						end
 
 						if slot9 ~= 2 then
@@ -488,7 +498,7 @@ slot0.ShowEndingPage = function(slot0)
 						end
 					end
 
-					triggerToggle(uv0:findTF("right/ending" .. uv0.endingIndex, uv0.endingPage), true)
+					triggerToggle(uv0.endingPage:Find("right/ending" .. uv0.endingIndex), true)
 					uv0:SetAward(uv5)
 				end
 			end, SFX_PANEL)
@@ -503,17 +513,22 @@ end
 
 slot0.ShowStoryPage = function(slot0)
 	(function ()
-		setText(uv0:findTF("pageIndex/Text", uv0.storyPage), uv0.storyIndex .. "/2")
-		setActive(uv0:findTF("leftBtn", uv0.storyPage), uv0.storyIndex == 2)
-		setActive(uv0:findTF("rightBtn", uv0.storyPage), uv0.storyIndex == 1)
-		setActive(uv0:findTF("subPages/page1", uv0.storyPage), uv0.storyIndex == 1)
-		setActive(uv0:findTF("subPages/page2", uv0.storyPage), uv0.storyIndex == 2)
+		setText(uv0.storyPage:Find("pageIndex/Text"), uv0.storyIndex .. "/2")
+		setActive(uv0.storyPage:Find("leftBtn"), uv0.storyIndex == 2)
+		setActive(uv0.storyPage:Find("rightBtn"), uv0.storyIndex == 1)
+		setActive(uv0.storyPage:Find("subPages/page1"), uv0.storyIndex == 1)
+		setActive(uv0.storyPage:Find("subPages/page2"), uv0.storyIndex == 2)
 	end)()
-	onButton(slot0, slot0:findTF("leftBtn", slot0.storyPage), function ()
+
+	slot4 = slot0.storyPage
+
+	onButton(slot0, slot4:Find("leftBtn"), function ()
 		uv0.storyIndex = 1
 
 		uv1()
 	end, SFX_PANEL)
+
+	slot4 = slot0.storyPage
 
 	slot5 = function()
 		uv0.storyIndex = 2
@@ -521,24 +536,24 @@ slot0.ShowStoryPage = function(slot0)
 		uv1()
 	end
 
-	onButton(slot0, slot0:findTF("rightBtn", slot0.storyPage), slot5, SFX_PANEL)
+	onButton(slot0, slot4:Find("rightBtn"), slot5, SFX_PANEL)
 
 	for slot5 = 1, #slot0.story do
 		slot6 = nil
-		slot6 = (slot5 > 5 or slot0:findTF("subPages/page1", slot0.storyPage):GetChild(slot5 - 1)) and slot0:findTF("subPages/page2", slot0.storyPage):GetChild(slot5 - 6)
+		slot6 = (slot5 > 5 or slot0.storyPage:Find("subPages/page1"):GetChild(slot5 - 1)) and slot0.storyPage:Find("subPages/page2"):GetChild(slot5 - 6)
 		slot7 = slot0.story[slot5]
 		slot9 = slot7[2]
 		slot11 = slot7[4]
 		slot13 = slot0.taskProxy:getTaskVO(slot7[3]):getTaskStatus()
 
 		if slot7[1] == 1 then
-			setText(slot0:findTF("lock/Text", slot6), i18n("clue_lock_tip1"))
+			setText(slot6:Find("lock/Text"), i18n("clue_lock_tip1"))
 		else
-			setText(slot0:findTF("lock/Text", slot6), i18n("clue_lock_tip2", uv0[slot9].title))
+			setText(slot6:Find("lock/Text"), i18n("clue_lock_tip2", uv0[slot9].title))
 		end
 
-		setActive(slot0:findTF("lock", slot6), slot13 == 0)
-		setActive(slot0:findTF("canGet", slot6), slot13 == 1)
+		setActive(slot6:Find("lock"), slot13 == 0)
+		setActive(slot6:Find("canGet"), slot13 == 1)
 
 		slot6:GetComponent(typeof(CanvasGroup)).alpha = slot13 == 0 and 0.4 or 1
 

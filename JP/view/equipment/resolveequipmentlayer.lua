@@ -65,30 +65,30 @@ slot0.setEquipmentByIds = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.mainPanel = slot0:findTF("main")
+	slot0.mainPanel = slot0._tf:Find("main")
 
 	setActive(slot0.mainPanel, true)
 	setText(slot0.mainPanel:Find("top/title_list/infomation/title"), i18n("title_info"))
 	setText(slot0.mainPanel:Find("title/Text"), i18n("resolve_equip_tip"))
 
-	slot0.viewRect = slot0:findTF("main/frame/view"):GetComponent("LScrollRect")
-	slot0.backBtn = slot0:findTF("main/top/btnBack")
-	slot0.cancelBtn = slot0:findTF("main/cancel_btn")
+	slot0.viewRect = slot0._tf:Find("main/frame/view"):GetComponent("LScrollRect")
+	slot0.backBtn = slot0._tf:Find("main/top/btnBack")
+	slot0.cancelBtn = slot0._tf:Find("main/cancel_btn")
 
 	setText(slot0.cancelBtn:Find("Image"), i18n("text_cancel"))
 
-	slot0.okBtn = slot0:findTF("main/ok_btn")
+	slot0.okBtn = slot0._tf:Find("main/ok_btn")
 
 	setText(slot0.okBtn:Find("Image"), i18n("text_confirm"))
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.selectedIds = {}
-	slot0.selectOptions = slot0:findTF("main/options")
+	slot0.selectOptions = slot0._tf:Find("main/options")
 
 	setText(slot0.selectOptions:Find("ALL/Label"), i18n("word_equipment_all"))
 
 	slot0.optionStatus = {}
-	slot0.destroyConfirm = slot0:findTF("destroy_confirm")
+	slot0.destroyConfirm = slot0._tf:Find("destroy_confirm")
 	slot0.destroyBonusList = slot0.destroyConfirm:Find("got/scrollview/list")
 	slot0.destroyBonusItem = slot0.destroyConfirm:Find("got/scrollview/item")
 

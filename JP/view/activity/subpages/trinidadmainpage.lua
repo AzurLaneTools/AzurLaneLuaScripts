@@ -5,7 +5,7 @@ slot3 = 5941
 
 slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
-	slot0.btn_list = slot0:findTF("btn_list", slot0.bg)
+	slot0.btn_list = slot0.bg:Find("btn_list")
 	slot0.buildbtn = slot0:findTF("build", slot0.btn_list)
 	slot0.build_bgtime = slot0:findTF("build_bgtime", slot0.buildbtn)
 	slot0.build_time = slot0:findTF("time", slot0.build_bgtime)

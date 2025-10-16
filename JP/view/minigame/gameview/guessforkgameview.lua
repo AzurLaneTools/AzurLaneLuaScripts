@@ -111,63 +111,63 @@ slot0.getBGM = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.countUI = slot0:findTF("count_ui")
-	slot0.countAnimator = slot0:findTF("count_bg/count", slot0.countUI):GetComponent(typeof(Animator))
-	slot0.countDft = slot0:findTF("count_bg/count", slot0.countUI):GetComponent(typeof(DftAniEvent))
+	slot0.countUI = slot0._tf:Find("count_ui")
+	slot0.countAnimator = slot0.countUI:Find("count_bg/count"):GetComponent(typeof(Animator))
+	slot0.countDft = slot0.countUI:Find("count_bg/count"):GetComponent(typeof(DftAniEvent))
 
 	slot0.countDft:SetEndEvent(function ()
 		setActive(uv0.countUI, false)
 		uv0:startGame()
 	end)
 
-	slot0.pauseUI = slot0:findTF("pause_ui")
-	slot0.resuemBtn = slot0:findTF("box/sure_btn", slot0.pauseUI)
+	slot0.pauseUI = slot0._tf:Find("pause_ui")
+	slot0.resuemBtn = slot0.pauseUI:Find("box/sure_btn")
 
-	setText(slot0:findTF("box/content", slot0.pauseUI), i18n("idolmaster_game_tip1"))
+	setText(slot0.pauseUI:Find("box/content"), i18n("idolmaster_game_tip1"))
 
-	slot0.exitUI = slot0:findTF("exit_ui")
-	slot0.exitSureBtn = slot0:findTF("box/sure_btn", slot0.exitUI)
-	slot0.exitCancelBtn = slot0:findTF("box/cancel_btn", slot0.exitUI)
+	slot0.exitUI = slot0._tf:Find("exit_ui")
+	slot0.exitSureBtn = slot0.exitUI:Find("box/sure_btn")
+	slot0.exitCancelBtn = slot0.exitUI:Find("box/cancel_btn")
 
-	setText(slot0:findTF("box/content", slot0.exitUI), i18n("idolmaster_game_tip2"))
+	setText(slot0.exitUI:Find("box/content"), i18n("idolmaster_game_tip2"))
 
-	slot0.endUI = slot0:findTF("end_ui")
-	slot0.endSureBtn = slot0:findTF("box/sure_btn", slot0.endUI)
+	slot0.endUI = slot0._tf:Find("end_ui")
+	slot0.endSureBtn = slot0.endUI:Find("box/sure_btn")
 
-	setText(slot0:findTF("box/cur_score", slot0.endUI), i18n("idolmaster_game_tip3"))
+	setText(slot0.endUI:Find("box/cur_score"), i18n("idolmaster_game_tip3"))
 
-	slot0.endScoreTxt = slot0:findTF("box/cur_score/score", slot0.endUI)
-	slot0.newTag = slot0:findTF("new", slot0.endScoreTxt)
+	slot0.endScoreTxt = slot0.endUI:Find("box/cur_score/score")
+	slot0.newTag = slot0.endScoreTxt:Find("new")
 
-	setText(slot0:findTF("box/highest_score", slot0.endUI), i18n("idolmaster_game_tip4"))
+	setText(slot0.endUI:Find("box/highest_score"), i18n("idolmaster_game_tip4"))
 
-	slot0.highestScoreTxt = slot0:findTF("box/highest_score/score", slot0.endUI)
-	slot0.gameUI = slot0:findTF("game_ui")
-	slot0.returnBtn = slot0:findTF("top/return_btn", slot0.gameUI)
-	slot0.pauseBtn = slot0:findTF("top/pause_btn", slot0.gameUI)
-	slot0.roundTxt = slot0:findTF("top/title/round/num", slot0.gameUI)
+	slot0.highestScoreTxt = slot0.endUI:Find("box/highest_score/score")
+	slot0.gameUI = slot0._tf:Find("game_ui")
+	slot0.returnBtn = slot0.gameUI:Find("top/return_btn")
+	slot0.pauseBtn = slot0.gameUI:Find("top/pause_btn")
+	slot0.roundTxt = slot0.gameUI:Find("top/title/round/num")
 	slot0.roundNum = 0
-	slot0.curScoreTxt = slot0:findTF("top/title/score_title/score", slot0.gameUI)
+	slot0.curScoreTxt = slot0.gameUI:Find("top/title/score_title/score")
 	slot0.curScore = 0
 
 	setText(slot0.curScoreTxt, slot0.curScore)
 
-	slot0.curTimeTxt = slot0:findTF("top/time_bg/time", slot0.gameUI)
+	slot0.curTimeTxt = slot0.gameUI:Find("top/time_bg/time")
 	slot0.curTime = 0
 
-	setText(slot0:findTF("top/title/score_title", slot0.gameUI), i18n("idolmaster_game_tip5"))
+	setText(slot0.gameUI:Find("top/title/score_title"), i18n("idolmaster_game_tip5"))
 
-	slot0.correctBar = slot0:findTF("correct_bar", slot0.gameUI)
-	slot0.failBar = slot0:findTF("fail_bar", slot0.gameUI)
-	slot0.manjuu = slot0:findTF("play/manjuu", slot0.gameUI)
+	slot0.correctBar = slot0.gameUI:Find("correct_bar")
+	slot0.failBar = slot0.gameUI:Find("fail_bar")
+	slot0.manjuu = slot0.gameUI:Find("play/manjuu")
 	slot0.manjuuAnimator = slot0.manjuu:GetComponent(typeof(Animator))
 	slot0.manjuuDft = slot0.manjuu:GetComponent(typeof(DftAniEvent))
-	slot0.result = slot0:findTF("result", slot0.gameUI)
+	slot0.result = slot0.gameUI:Find("result")
 	slot0.resultAnimator = slot0.result:GetComponent(typeof(Animator))
 	slot0.resultDft = slot0.result:GetComponent(typeof(DftAniEvent))
-	slot0.scoreAni = slot0:findTF("score", slot0.gameUI)
-	slot0.cupContainer = slot0:findTF("cup_container", slot0.gameUI)
-	slot0.fork = slot0:findTF("fork", slot0.gameUI)
+	slot0.scoreAni = slot0.gameUI:Find("score")
+	slot0.cupContainer = slot0.gameUI:Find("cup_container")
+	slot0.fork = slot0.gameUI:Find("fork")
 	slot0.isGuessTime = false
 end
 
@@ -201,7 +201,7 @@ slot0.didEnter = function(slot0)
 				return
 			end
 
-			setActive(uv0:findTF("select", uv1), true)
+			setActive(uv1:Find("select"), true)
 
 			uv0.isGuessTime = false
 			uv0.selectIndex = tonumber(string.gsub(uv1.name, "cup_", ""))
@@ -220,7 +220,7 @@ slot0.initGameData = function(slot0)
 
 	eachChild(slot0.cupContainer, function (slot0)
 		GetSpriteFromAtlasAsync("ui/minigameui/guessforkgameui", uv0, function (slot0)
-			setImageSprite(uv0:findTF("front", uv1), slot0, true)
+			setImageSprite(uv0:Find("front"), slot0, true)
 		end)
 	end)
 
@@ -249,7 +249,10 @@ slot0.startGame = function(slot0)
 end
 
 slot0.playForkAni = function(slot0, slot1)
-	setParent(slot0.fork, slot0:findTF("fork_node", slot0:findTF("cup_" .. slot0.forkIndex, slot0.cupContainer)), false)
+	slot2 = slot0.cupContainer
+	slot2 = slot2:Find("cup_" .. slot0.forkIndex)
+
+	setParent(slot0.fork, slot2:Find("fork_node"), false)
 	setLocalScale(slot0.fork, Vector3.one)
 	setLocalPosition(slot0.fork, Vector3(0, 50, 0))
 	setActive(slot0.fork, true)
@@ -280,7 +283,11 @@ slot0.startSwap = function(slot0, slot1)
 	}
 
 	table.remove(slot2, math.random(#slot2))
-	slot0:swapCup(slot0:findTF("cup_" .. slot2[1], slot0.cupContainer), slot0:findTF("cup_" .. slot2[2], slot0.cupContainer), function ()
+
+	slot4 = slot0.cupContainer
+	slot5 = slot0.cupContainer
+
+	slot0:swapCup(slot4:Find("cup_" .. slot2[1]), slot5:Find("cup_" .. slot2[2]), function ()
 		uv0:startSwap(uv1 - 1)
 	end)
 end
@@ -357,22 +364,23 @@ slot0.endRound = function(slot0, slot1)
 end
 
 slot0.playManjuuAni = function(slot0, slot1)
+	slot2 = slot0.cupContainer
 	slot5 = slot0.manjuuAnimator
 
-	slot5:Play(uv0[(slot0:findTF("cup_" .. slot0.selectIndex, slot0.cupContainer).anchoredPosition.x + 480) / 480 + 1])
+	slot5:Play(uv0[(slot2:Find("cup_" .. slot0.selectIndex).anchoredPosition.x + 480) / 480 + 1])
 
 	slot5 = slot0.manjuuDft
 
 	slot5:SetEndEvent(function ()
 		uv0.manjuuDft:SetEndEvent(nil)
-		setActive(uv0:findTF("select", uv5), false)
+		setActive(uv5:Find("select"), false)
 		uv0.manjuuAnimator:Play(uv1 and uv2[uv3] or uv4[uv3])
 		uv0:playResultAni(uv1)
 	end)
 end
 
 slot0.playResultAni = function(slot0, slot1)
-	setParent(slot0.result, slot0:findTF("result_node", slot0:findTF("cup_" .. slot0.selectIndex, slot0.cupContainer)), false)
+	setParent(slot0.result, slot0.cupContainer:Find("cup_" .. slot0.selectIndex):Find("result_node"), false)
 	setLocalScale(slot0.result, Vector3.one)
 	setLocalPosition(slot0.result, Vector3.zero)
 	setActive(slot0.result, true)
@@ -454,7 +462,10 @@ slot0.showCorrectBar = function(slot0)
 end
 
 slot0.playTimeOutAni = function(slot0)
-	setParent(slot0.result, slot0:findTF("result_node", slot0:findTF("cup_" .. slot0.forkIndex, slot0.cupContainer)), false)
+	slot1 = slot0.cupContainer
+	slot1 = slot1:Find("cup_" .. slot0.forkIndex)
+
+	setParent(slot0.result, slot1:Find("result_node"), false)
 	setLocalScale(slot0.result, Vector3.one)
 	setLocalPosition(slot0.result, Vector3.zero)
 	setActive(slot0.result, true)

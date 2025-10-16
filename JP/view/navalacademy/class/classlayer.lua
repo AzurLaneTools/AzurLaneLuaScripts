@@ -30,32 +30,32 @@ slot0.OnUpdateResField = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
-	slot0.lessonTxt = slot0:findTF("blur_panel/adapt/bottom/lesson/mask/Text"):GetComponent("ScrollText")
-	slot0.tranSpeedTxt = slot0:findTF("blur_panel/adapt/bottom/progress/proficiency/value"):GetComponent(typeof(Text))
-	slot0.proficiencyProgressTxt = slot0:findTF("blur_panel/adapt/bottom/progress/proficiency/Text"):GetComponent(typeof(Text))
-	slot0.proficiencyProgress = slot0:findTF("blur_panel/adapt/bottom/progress/proficiency/slider/Image")
-	slot0.tranProgressTxt = slot0:findTF("blur_panel/adapt/bottom/progress/book/Text/value"):GetComponent(typeof(Text))
-	slot0.tranProgress = slot0:findTF("blur_panel/adapt/bottom/progress/book/slider/Image")
-	slot0.exp2ProficiencyRatioTxt = slot0:findTF("blur_panel/adapt/top/proficiency/Text"):GetComponent(typeof(Text))
-	slot0.exp2ProficiencyRatio = slot0:findTF("blur_panel/adapt/top/proficiency")
-	slot0.chatProficiency = slot0:findTF("blur_panel/adapt/top/proficiency/chat")
-	slot1 = slot0.chatProficiency:Find("Text")
-	slot0.chatProficiencyTxt = slot1:GetComponent(typeof(Text))
-	slot0.helpBtn = slot0:findTF("blur_panel/adapt/top/btn_help")
-	slot0.upgradeBtn = slot0:findTF("blur_panel/adapt/bottom/upgarde")
-	slot0.teacherSeat = slot0:findTF("scene/desk0")
+	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back")
+	slot0.lessonTxt = slot0._tf:Find("blur_panel/adapt/bottom/lesson/mask/Text"):GetComponent("ScrollText")
+	slot0.tranSpeedTxt = slot0._tf:Find("blur_panel/adapt/bottom/progress/proficiency/value"):GetComponent(typeof(Text))
+	slot0.proficiencyProgressTxt = slot0._tf:Find("blur_panel/adapt/bottom/progress/proficiency/Text"):GetComponent(typeof(Text))
+	slot0.proficiencyProgress = slot0._tf:Find("blur_panel/adapt/bottom/progress/proficiency/slider/Image")
+	slot0.tranProgressTxt = slot0._tf:Find("blur_panel/adapt/bottom/progress/book/Text/value"):GetComponent(typeof(Text))
+	slot0.tranProgress = slot0._tf:Find("blur_panel/adapt/bottom/progress/book/slider/Image")
+	slot0.exp2ProficiencyRatioTxt = slot0._tf:Find("blur_panel/adapt/top/proficiency/Text"):GetComponent(typeof(Text))
+	slot0.exp2ProficiencyRatio = slot0._tf:Find("blur_panel/adapt/top/proficiency")
+	slot0.chatProficiency = slot0._tf:Find("blur_panel/adapt/top/proficiency/chat")
+	slot0.chatProficiencyTxt = slot0.chatProficiency:Find("Text"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0._tf:Find("blur_panel/adapt/top/btn_help")
+	slot0.upgradeBtn = slot0._tf:Find("blur_panel/adapt/bottom/upgarde")
+	slot1 = slot0._tf
+	slot0.teacherSeat = slot1:Find("scene/desk0")
 	slot0.studentSeats = {
-		slot0:findTF("scene/desk1"),
-		slot0:findTF("scene/desk2"),
-		slot0:findTF("scene/desk3"),
-		slot0:findTF("scene/desk4"),
-		slot0:findTF("scene/desk5")
+		slot0._tf:Find("scene/desk1"),
+		slot0._tf:Find("scene/desk2"),
+		slot0._tf:Find("scene/desk3"),
+		slot0._tf:Find("scene/desk4"),
+		slot0._tf:Find("scene/desk5")
 	}
 
-	setText(slot0:findTF("blur_panel/adapt/bottom/progress/book/Text/label"), i18n("class_label_gen"))
-	setText(slot0:findTF("blur_panel/adapt/bottom/progress/proficiency/label"), i18n("class_label_tran"))
-	setText(slot0:findTF("blur_panel/adapt/bottom/upgarde/Text"), i18n("word_levelup"))
+	setText(slot0._tf:Find("blur_panel/adapt/bottom/progress/book/Text/label"), i18n("class_label_gen"))
+	setText(slot0._tf:Find("blur_panel/adapt/bottom/progress/proficiency/label"), i18n("class_label_tran"))
+	setText(slot0._tf:Find("blur_panel/adapt/bottom/upgarde/Text"), i18n("word_levelup"))
 
 	slot0.chars = {}
 	slot0.resFieldPage = ClassResourcePage.New(slot0._tf, slot0.event)

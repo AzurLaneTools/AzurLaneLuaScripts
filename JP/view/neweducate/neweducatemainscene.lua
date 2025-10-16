@@ -71,7 +71,7 @@ end
 
 slot0.didEnter = function(slot0)
 	LoadImageSpriteAsync("neweducateicon/" .. slot0.contextData.char:getConfig("child2_data_personality_icon")[2], slot0.mindBtn, true)
-	onButton(slot0, slot0:findTF("fitter", slot0.paintTF), function ()
+	onButton(slot0, slot0.paintTF:Find("fitter"), function ()
 		uv0:ShowDialogue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mindBtn, function ()
@@ -191,11 +191,11 @@ slot0.ShowDialogueUI = function(slot0)
 end
 
 slot0.UpdatePaintingFace = function(slot0, slot1)
-	if slot0:findTF("fitter", slot0.paintTF).childCount == 0 then
+	if slot0.paintTF:Find("fitter").childCount == 0 then
 		return
 	end
 
-	slot2 = slot0:findTF("fitter", slot0.paintTF):GetChild(0):Find("face")
+	slot2 = slot0.paintTF:Find("fitter"):GetChild(0):Find("face")
 
 	if slot1 == 0 then
 		if slot2 then
@@ -234,7 +234,7 @@ slot0.ShowDialogue = function(slot0)
 
 	slot3 = GetSpriteFromAtlas("paintingface/" .. slot0.paintingName, slot0.faceList[slot1])
 
-	if slot0:findTF("fitter", slot0.paintTF):GetChild(0):Find("face") and slot3 then
+	if slot0.paintTF:Find("fitter"):GetChild(0):Find("face") and slot3 then
 		setImageSprite(slot4, slot3)
 		setActive(slot4, true)
 	end

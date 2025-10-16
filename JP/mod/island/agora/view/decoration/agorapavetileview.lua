@@ -5,14 +5,14 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.FirstFlush = function(slot0)
-	slot0.nameTxt = slot0:findTF("name"):GetComponent(typeof(Text))
-	slot0.icon = slot0:findTF("icon"):GetComponent(typeof(Image))
-	slot0.exitBtn = slot0:findTF("exit")
-	slot0.rotation = slot0:findTF("revert")
-	slot0.confirmBtn = slot0:findTF("confirm")
-	slot0.mode = slot0:findTF("mode")
+	slot0.nameTxt = slot0._tf:Find("name"):GetComponent(typeof(Text))
+	slot0.icon = slot0._tf:Find("icon"):GetComponent(typeof(Image))
+	slot0.exitBtn = slot0._tf:Find("exit")
+	slot0.rotation = slot0._tf:Find("revert")
+	slot0.confirmBtn = slot0._tf:Find("confirm")
+	slot0.mode = slot0._tf:Find("mode")
 
-	setText(slot0:findTF("desc"), i18n("island_agora_pave_tip"))
+	setText(slot0._tf:Find("desc"), i18n("island_agora_pave_tip"))
 	slot0:RegisterEvent()
 end
 

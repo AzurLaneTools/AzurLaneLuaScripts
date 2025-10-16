@@ -13,7 +13,7 @@ slot0.initConfig = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/close"), function ()
+	onButton(slot0, slot0._tf:Find("anim_root/close"), function ()
 		uv0:PlayAnimClose()
 	end, SFX_PANEL)
 	slot0:InitPageInfo()

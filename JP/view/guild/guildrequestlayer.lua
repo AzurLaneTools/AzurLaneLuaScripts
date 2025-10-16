@@ -9,13 +9,13 @@ slot0.setRequest = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.viewRect = slot0:findTF("request_panel/view")
-	slot0.listEmptyTF = slot0:findTF("main/frame/empty")
-	slot0.listEmptyTF = slot0:findTF("empty")
+	slot0.viewRect = slot0._tf:Find("request_panel/view")
+	slot0.listEmptyTF = slot0._tf:Find("main/frame/empty")
+	slot0.listEmptyTF = slot0._tf:Find("empty")
 
 	setActive(slot0.listEmptyTF, false)
 
-	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+	slot0.listEmptyTxt = slot0.listEmptyTF:Find("Text")
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_guildrequestui"))
 

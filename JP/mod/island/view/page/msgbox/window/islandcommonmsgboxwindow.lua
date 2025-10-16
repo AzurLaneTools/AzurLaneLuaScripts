@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.titleTxt = slot0:findTF("title"):GetComponent(typeof(Text))
-	slot0.contentTxt = slot0:findTF("content/Text"):GetComponent("RichText")
-	slot0.closeBtn = slot0:findTF("close")
-	slot0.cancelBtn = slot0:findTF("cancel")
-	slot0.confirmBtn = slot0:findTF("confirm")
-	slot0.cancelTxt = slot0:findTF("cancel/Text"):GetComponent(typeof(Text))
-	slot0.confirmTxt = slot0:findTF("confirm/Text"):GetComponent(typeof(Text))
+	slot0.titleTxt = slot0._tf:Find("title"):GetComponent(typeof(Text))
+	slot0.contentTxt = slot0._tf:Find("content/Text"):GetComponent("RichText")
+	slot0.closeBtn = slot0._tf:Find("close")
+	slot0.cancelBtn = slot0._tf:Find("cancel")
+	slot0.confirmBtn = slot0._tf:Find("confirm")
+	slot0.cancelTxt = slot0._tf:Find("cancel/Text"):GetComponent(typeof(Text))
+	slot0.confirmTxt = slot0._tf:Find("confirm/Text"):GetComponent(typeof(Text))
 end
 
 slot0.OnInit = function(slot0)

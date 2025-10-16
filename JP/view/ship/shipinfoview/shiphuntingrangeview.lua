@@ -52,12 +52,12 @@ end
 
 slot0.UpdateHuntingRange = function(slot0, slot1, slot2)
 	for slot7 = 0, slot0.cellRoot.childCount - 1 do
-		setActive(slot0:findTF("activate", slot3:GetChild(slot7)), false)
+		setActive(slot3:GetChild(slot7):Find("activate"), false)
 	end
 
 	_.each(slot1:getHuntingRange(slot2), function (slot0)
 		if uv0:GetChild(slot0[1] * 7 + slot0[2] + math.floor(24.5)) and slot3 ~= 24 then
-			setActive(uv1:findTF("activate", slot4), true)
+			setActive(slot4:Find("activate"), true)
 		end
 	end)
 

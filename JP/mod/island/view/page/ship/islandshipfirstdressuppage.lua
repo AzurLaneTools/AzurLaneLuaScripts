@@ -9,11 +9,11 @@ slot0.CanEsc = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.leftPlane = slot0:findTF("adapt/left_panel")
-	slot0.backBtn = slot0:findTF("adapt/left_panel/back")
-	slot0.homeBtn = slot0:findTF("adapt/home")
+	slot0.leftPlane = slot0._tf:Find("adapt/left_panel")
+	slot0.backBtn = slot0._tf:Find("adapt/left_panel/back")
+	slot0.homeBtn = slot0._tf:Find("adapt/home")
 
-	setText(slot0:findTF("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
+	setText(slot0._tf:Find("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
 	setActive(slot0.leftPlane, false)
 	setActive(slot0.homeBtn, false)
 end
@@ -72,7 +72,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.GetSmoothRotateObject = function(slot0)
-	return slot0:findTF("adapt/char")
+	return slot0._tf:Find("adapt/char")
 end
 
 slot0.OnCharLoaded = function(slot0)

@@ -9,20 +9,20 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.btnDiamond = slot0:findTF("window/button_container/btn_diamond")
+	slot0.btnDiamond = slot0._tf:Find("window/button_container/btn_diamond")
 
 	onButton(slot0, slot0.btnDiamond, function ()
 		uv0:emit(MailMediator.ON_EXTEND_STORE, true)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	slot0.btnGold = slot0:findTF("window/button_container/btn_gold")
+	slot0.btnGold = slot0._tf:Find("window/button_container/btn_gold")
 
 	onButton(slot0, slot0.btnGold, function ()
 		uv0:emit(MailMediator.ON_EXTEND_STORE, false)

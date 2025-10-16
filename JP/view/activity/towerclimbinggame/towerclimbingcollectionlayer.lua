@@ -66,18 +66,19 @@ slot0.GetAwardState = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.bookContainer = slot0:findTF("books")
-	slot0.book = slot0:findTF("book")
-	slot0.nextPageBtn = slot0:findTF("book/next")
-	slot0.prevPageBtn = slot0:findTF("book/prev")
-	slot0.scoreList = UIItemList.New(slot0:findTF("book/list"), slot0:findTF("book/list/tpl"))
-	slot0.getBtn = slot0:findTF("book/get")
-	slot0.gotBtn = slot0:findTF("book/got")
-	slot0.goBtn = slot0:findTF("book/go")
+	slot0.bookContainer = slot0._tf:Find("books")
+	slot0.book = slot0._tf:Find("book")
+	slot0.nextPageBtn = slot0._tf:Find("book/next")
+	slot0.prevPageBtn = slot0._tf:Find("book/prev")
+	slot0.scoreList = UIItemList.New(slot0._tf:Find("book/list"), slot0._tf:Find("book/list/tpl"))
+	slot0.getBtn = slot0._tf:Find("book/get")
+	slot0.gotBtn = slot0._tf:Find("book/got")
+	slot1 = slot0._tf
+	slot0.goBtn = slot1:Find("book/go")
 	slot0.books = {
-		slot0:findTF("books/1"),
-		slot0:findTF("books/2"),
-		slot0:findTF("books/3")
+		slot0._tf:Find("books/1"),
+		slot0._tf:Find("books/2"),
+		slot0._tf:Find("books/3")
 	}
 	slot0.parent = slot0._tf.parent
 

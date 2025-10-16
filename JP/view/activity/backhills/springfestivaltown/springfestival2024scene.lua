@@ -51,15 +51,15 @@ slot0.SFX_LIST = {
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.top = slot0:findTF("top")
-	slot0._map = slot0:findTF("map")
+	slot0.top = slot0._tf:Find("top")
+	slot0._map = slot0._tf:Find("map")
 
 	for slot4 = 0, slot0._map.childCount - 1 do
 		slot5 = slot0._map:GetChild(slot4)
 		slot0["map_" .. go(slot5).name] = slot5
 	end
 
-	slot0._upper = slot0:findTF("upper")
+	slot0._upper = slot0._tf:Find("upper")
 
 	for slot4 = 0, slot0._upper.childCount - 1 do
 		slot5 = slot0._upper:GetChild(slot4)
@@ -81,23 +81,23 @@ slot0.init = function(slot0)
 	}
 	slot0._shipTpl = slot0._map:Find("ship")
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.SpringFestival2024Graph"))
-	slot0.fireworksTF = slot0:findTF("play_fireworks")
+	slot0.fireworksTF = slot0._tf:Find("play_fireworks")
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/Back"), function ()
+	onButton(slot0, slot0._tf:Find("top/Back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
-	onButton(slot0, slot0:findTF("top/Home"), function ()
+	onButton(slot0, slot0._tf:Find("top/Home"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end)
-	onButton(slot0, slot0:findTF("top/Help"), function ()
+	onButton(slot0, slot0._tf:Find("top/Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_chunjie2024.tip
 		})
 	end)
-	onButton(slot0, slot0:findTF("top/firework_btn"), function ()
+	onButton(slot0, slot0._tf:Find("top/firework_btn"), function ()
 		uv0:OpenFireworkLayer()
 	end)
 	slot0:BindItemSkinShop()

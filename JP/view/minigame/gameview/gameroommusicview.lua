@@ -90,15 +90,15 @@ slot0.init = function(slot0)
 
 	slot0.game_speed = PlayerPrefs.GetInt("musicgame_idol_speed") > 0 and PlayerPrefs.GetInt("musicgame_idol_speed") or 1
 	slot0.game_dgree = 1
-	slot0.countContent = slot0:findTF("countContent")
+	slot0.countContent = slot0._tf:Find("countContent")
 	slot0.countTf = nil
-	slot0.top = slot0:findTF("top")
+	slot0.top = slot0._tf:Find("top")
 	slot0.btn_pause = slot0.top:Find("pause")
 	slot0.score = slot0.top:Find("score")
-	slot0.game_content = slot0:findTF("GameContent")
+	slot0.game_content = slot0._tf:Find("GameContent")
 	slot0.noteTpl = slot0.game_content:Find("noteTpl")
-	slot0.pauseview = slot0:findTF("Pauseview")
-	slot0.selectview = slot0:findTF("Selectview")
+	slot0.pauseview = slot0._tf:Find("Pauseview")
+	slot0.selectview = slot0._tf:Find("Selectview")
 	slot1 = findTF(slot0.selectview, "bg")
 
 	LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "selectbg", function (slot0)
@@ -107,8 +107,8 @@ slot0.init = function(slot0)
 		setActive(uv0, true)
 	end)
 
-	slot0.firstview = slot0:findTF("firstview")
-	slot0.scoreview = slot0:findTF("ScoreView")
+	slot0.firstview = slot0._tf:Find("firstview")
+	slot0.scoreview = slot0._tf:Find("ScoreView")
 
 	setActive(slot0.scoreview, false)
 

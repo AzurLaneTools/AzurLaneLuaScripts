@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
-	slot0.closeBtn = slot0:findTF("frame/top/close_btn")
-	slot0.cancelBtn = slot0:findTF("frame/button_list/cancel")
-	slot0.confirmBtn = slot0:findTF("frame/button_list/confirm")
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("frame/list"), slot0._tf:Find("frame/list/tpl"))
+	slot0.closeBtn = slot0._tf:Find("frame/top/close_btn")
+	slot0.cancelBtn = slot0._tf:Find("frame/button_list/cancel")
+	slot0.confirmBtn = slot0._tf:Find("frame/button_list/confirm")
 
-	setText(slot0:findTF("frame/top/title"), i18n("child_filter_title"))
+	setText(slot0._tf:Find("frame/top/title"), i18n("child_filter_title"))
 	setText(slot0.cancelBtn:Find("Text"), i18n("island_word_reset"))
 	setText(slot0.confirmBtn:Find("Text"), i18n("word_ok"))
 end

@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.trFrame = slot0:findTF("frame")
-	slot0.txtTitle = slot0:findTF("frame/title"):GetComponent("Text")
-	slot0.txtContent = slot0:findTF("frame/content"):GetComponent("RichText")
-	slot0.btnBack = slot0:findTF("frame/title_pop/btnBack")
+	slot0.trFrame = slot0._tf:Find("frame")
+	slot0.txtTitle = slot0._tf:Find("frame/title"):GetComponent("Text")
+	slot0.txtContent = slot0._tf:Find("frame/content"):GetComponent("RichText")
+	slot0.btnBack = slot0._tf:Find("frame/title_pop/btnBack")
 end
 
 slot0.didEnter = function(slot0)

@@ -3,7 +3,8 @@ slot0 = class("LittleChaijunPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
+	slot1 = slot0.bg
+	slot0.helpBtn = slot1:Find("help_btn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

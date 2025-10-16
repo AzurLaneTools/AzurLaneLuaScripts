@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._scrllPanel = slot0:findTF("right_panel/content")
+	slot0._scrllPanel = slot0._tf:Find("right_panel/content")
 	slot0._scrollView = slot0._scrllPanel:GetComponent("LScrollRect")
 end
 

@@ -5,12 +5,12 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
-	slot1 = slot0:findTF("res_pt/Text")
-	slot0.resTxt = slot1:GetComponent(typeof(Text))
-	slot0.resIcon = slot0:findTF("res_pt/icon")
+	slot0.scrollrect = slot0._tf:Find("scrollView"):GetComponent("LScrollRect")
+	slot0.resTxt = slot0._tf:Find("res_pt/Text"):GetComponent(typeof(Text))
+	slot1 = slot0._tf
+	slot0.resIcon = slot1:Find("res_pt/icon")
 	slot0.pagefooters = {
-		slot0:findTF("pagefooter/tpl")
+		slot0._tf:Find("pagefooter/tpl")
 	}
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x

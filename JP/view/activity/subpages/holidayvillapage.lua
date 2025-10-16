@@ -1,21 +1,22 @@
 slot0 = class("HolidayVillaPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.signTF = slot0:findTF("sign", slot0.bg)
-	slot0.getBtn = slot0:findTF("get", slot0.signTF)
-	slot0.got = slot0:findTF("got", slot0.signTF)
-	slot0.getBtn_tip = slot0:findTF("get/tip", slot0.signTF)
-	slot0.countbg = slot0:findTF("count_bg", slot0.signTF)
-	slot0.countText = slot0:findTF("count_bg/count", slot0.signTF)
-	slot0.go = slot0:findTF("go_btn", slot0.signTF)
-	slot0.Notbtn = slot0:findTF("Not_unlocked", slot0.signTF)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.signTF = slot0.bg:Find("sign")
+	slot0.getBtn = slot0.signTF:Find("get")
+	slot0.got = slot0.signTF:Find("got")
+	slot0.getBtn_tip = slot0.signTF:Find("get/tip")
+	slot0.countbg = slot0.signTF:Find("count_bg")
+	slot0.countText = slot0.signTF:Find("count_bg/count")
+	slot0.go = slot0.signTF:Find("go_btn")
+	slot1 = slot0.signTF
+	slot0.Notbtn = slot1:Find("Not_unlocked")
 	slot0.list = {
-		slot0:findTF("list/unfinished_1", slot0.signTF),
-		slot0:findTF("list/unfinished_2", slot0.signTF),
-		slot0:findTF("list/unfinished_3", slot0.signTF),
-		slot0:findTF("list/unfinished_4", slot0.signTF),
-		slot0:findTF("list/unfinished_5", slot0.signTF)
+		slot0.signTF:Find("list/unfinished_1"),
+		slot0.signTF:Find("list/unfinished_2"),
+		slot0.signTF:Find("list/unfinished_3"),
+		slot0.signTF:Find("list/unfinished_4"),
+		slot0.signTF:Find("list/unfinished_5")
 	}
 
 	setActive(slot0.go, false)
@@ -97,9 +98,9 @@ slot0.OnUpdateFlush = function(slot0)
 	end
 
 	for slot5, slot6 in ipairs(slot0.list) do
-		setActive(slot0:findTF("accomplish", slot0.list[slot5]), slot1 or slot5 < slot0.nday)
+		setActive(slot0.list[slot5]:Find("accomplish"), slot1 or slot5 < slot0.nday)
 		setImageAlpha(slot6, (slot1 or slot5 < slot0.nday) and 0 or 1)
-		setActive(slot0:findTF("Check_point", slot0.list[slot5]), not slot1 and slot5 == slot0.nday)
+		setActive(slot0.list[slot5]:Find("Check_point"), not slot1 and slot5 == slot0.nday)
 	end
 end
 

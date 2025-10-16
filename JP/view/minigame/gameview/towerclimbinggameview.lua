@@ -13,15 +13,20 @@ slot0.GetMGHubData = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("overview/back"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("overview/back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("overview/collection"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("overview/collection"), function ()
 		uv0:emit(TowerClimbingMediator.ON_COLLECTION)
 	end, SFX_PANEL)
 
 	if LOCK_TOWERCLIMBING_AWARD then
-		setActive(slot0:findTF("overview/collection"), false)
+		setActive(slot0._tf:Find("overview/collection"), false)
 	end
 end
 
@@ -29,7 +34,10 @@ slot0.UpdateTip = function(slot0)
 	slot2 = TowerClimbingCollectionLayer.New()
 
 	slot2:SetData(slot0:GetMGData())
-	setActive(slot0:findTF("overview/collection/tip"), _.any({
+
+	slot5 = slot0._tf
+
+	setActive(slot5:Find("overview/collection/tip"), _.any({
 		1,
 		2,
 		3

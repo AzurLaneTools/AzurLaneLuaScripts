@@ -2,9 +2,9 @@ slot0 = class("AprilFoolDiscovery2023Page", import(".AprilFoolDiscoveryRePage"))
 slot1 = "superburin"
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.items = CustomIndexLayer.Clone2Full(slot0:findTF("AD/list1"), 5)
-	slot5 = slot0:findTF("AD/list2")
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.items = CustomIndexLayer.Clone2Full(slot0._tf:Find("AD/list1"), 5)
+	slot5 = slot0._tf:Find("AD/list2")
 
 	table.insertto(slot0.items, CustomIndexLayer.Clone2Full(slot5, 5))
 

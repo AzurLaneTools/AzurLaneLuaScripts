@@ -69,15 +69,15 @@ slot0.initTargetList = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.targetContent = slot0:findTF("content", slot0.windowTF)
-	slot0.targetTpl = slot0:findTF("tpl", slot0.targetContent)
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.targetContent = slot0.windowTF:Find("content")
+	slot0.targetTpl = slot0.targetContent:Find("tpl")
 
 	setActive(slot0.targetTpl, false)
 
-	slot0.sureBtn = slot0:findTF("sure_btn", slot0.windowTF)
+	slot0.sureBtn = slot0.windowTF:Find("sure_btn")
 
-	setText(slot0:findTF("Text", slot0.sureBtn), i18n("word_ok"))
+	setText(slot0.sureBtn:Find("Text"), i18n("word_ok"))
 end
 
 slot0.addListener = function(slot0)
@@ -89,11 +89,11 @@ slot0.addListener = function(slot0)
 					open = true,
 					id = uv1
 				})
-				uv0:findTF("anim_root"):GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+				uv0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 					uv0:SetEndEvent(nil)
 					uv1:emit(uv2.ON_CLOSE)
 				end)
-				uv0:findTF("anim_root"):GetComponent(typeof(Animation)):Play("anim_educate_targetset_out")
+				uv0._tf:Find("anim_root"):GetComponent(typeof(Animation)):Play("anim_educate_targetset_out")
 			end
 		})
 	end, SFX_PANEL)
@@ -109,8 +109,8 @@ slot0.initTarget = function(slot0)
 		slot5 = cloneTplTo(slot0.targetTpl, slot0.targetContent, tostring(slot4))
 		slot6 = slot0.targetList[slot4]
 
-		setImageSprite(slot0:findTF("animroot/icon/Image", slot5), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].icon), true)
-		setImageSprite(slot0:findTF("animroot/name", slot5), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].pic), true)
+		setImageSprite(slot5:Find("animroot/icon/Image"), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].icon), true)
+		setImageSprite(slot5:Find("animroot/name"), LoadSprite("educatetarget/" .. pg.child_target_set[slot6].pic), true)
 		onButton(slot0, slot5, function ()
 			if uv0.selectedIndex == uv1 then
 				return
@@ -120,7 +120,7 @@ slot0.initTarget = function(slot0)
 
 			uv0:updateTarget()
 		end, SFX_PANEL)
-		setActive(slot0:findTF("animroot/recommand", slot5), pg.child_target_set[slot6].recommend_attr == slot0.maxAttrId)
+		setActive(slot5:Find("animroot/recommand"), pg.child_target_set[slot6].recommend_attr == slot0.maxAttrId)
 	end
 
 	slot0:updateTarget()
@@ -132,8 +132,8 @@ slot0.initTarget = function(slot0)
 
 	for slot5 = 1, #slot0.targetList do
 		table.insert(slot1, function (slot0)
-			slot1 = uv0
-			slot1 = slot1:findTF(tostring(uv1), uv0.targetContent)
+			slot1 = uv0.targetContent
+			slot1 = slot1:Find(tostring(uv1))
 			slot2 = slot1:GetComponent(typeof(Animation))
 
 			slot2:Play("anim_educate_targetset_tpl_in")
@@ -149,7 +149,7 @@ end
 
 slot0.updateTarget = function(slot0)
 	eachChild(slot0.targetContent, function (slot0)
-		setActive(uv0:findTF("animroot/selected", slot0), uv0.selectedIndex == tonumber(slot0.name))
+		setActive(slot0:Find("animroot/selected"), uv0.selectedIndex == tonumber(slot0.name))
 	end)
 end
 

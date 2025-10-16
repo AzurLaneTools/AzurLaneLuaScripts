@@ -5,17 +5,17 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.contentTF = slot0:findTF("content")
-	slot0.planBtn = slot0:findTF("btns/schedule", slot0.contentTF)
-	slot0.mapBtn = slot0:findTF("btns/map", slot0.contentTF)
+	slot0.contentTF = slot0._tf:Find("content")
+	slot0.planBtn = slot0.contentTF:Find("btns/schedule")
+	slot0.mapBtn = slot0.contentTF:Find("btns/map")
 
-	setText(slot0:findTF("tips/limit/Text", slot0.mapBtn), i18n("child_option_limit"))
+	setText(slot0.mapBtn:Find("tips/limit/Text"), i18n("child_option_limit"))
 
-	slot0.schoolBtn = slot0:findTF("btns/enter_school", slot0.contentTF)
-	slot0.upgradeBtn = slot0:findTF("btns/system_upgrade", slot0.contentTF)
-	slot0.targetSetBtn = slot0:findTF("btns/target_set", slot0.contentTF)
-	slot0.endingBtn = slot0:findTF("btns/ending", slot0.contentTF)
-	slot0.resetBtn = slot0:findTF("btns/reset", slot0.contentTF)
+	slot0.schoolBtn = slot0.contentTF:Find("btns/enter_school")
+	slot0.upgradeBtn = slot0.contentTF:Find("btns/system_upgrade")
+	slot0.targetSetBtn = slot0.contentTF:Find("btns/target_set")
+	slot0.endingBtn = slot0.contentTF:Find("btns/ending")
+	slot0.resetBtn = slot0.contentTF:Find("btns/reset")
 
 	slot0:addListener()
 
@@ -29,7 +29,7 @@ slot0.addListener = function(slot0)
 		uv0:emit(EducateBaseUI.EDUCATE_GO_SCENE, SCENE.EDUCATE_SCHEDULE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mapBtn, function ()
-		if isActive(uv0:findTF("lock", uv0.mapBtn)) then
+		if isActive(uv0.mapBtn:Find("lock")) then
 			return
 		end
 
@@ -132,7 +132,7 @@ slot0.Flush = function(slot0)
 	slot0.status = getProxy(EducateProxy):GetGameStatus()
 	slot2 = getProxy(EducateProxy):InVirtualStage()
 
-	setActive(slot0:findTF("lock", slot0.mapBtn), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_GO_OUT) or slot2)
+	setActive(slot0.mapBtn:Find("lock"), not EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_GO_OUT) or slot2)
 	setActive(slot0.planBtn, slot0.status ~= EducateConst.STATUES_ENDING and slot0.status ~= EducateConst.STATUES_RESET)
 	setActive(slot0.mapBtn, slot0.status ~= EducateConst.STATUES_ENDING and slot0.status ~= EducateConst.STATUES_RESET)
 	slot0:updateMapBtnTips()
@@ -165,7 +165,7 @@ slot0.updateTargetSetBtn = function(slot0)
 	setActive(slot0.targetSetBtn, slot1)
 
 	if slot1 then
-		setActive(slot0:findTF("lock", slot0.mapBtn), true)
+		setActive(slot0.mapBtn:Find("lock"), true)
 	end
 end
 
@@ -174,11 +174,15 @@ slot0.updateMapBtnTips = function(slot0)
 
 	slot1 = getProxy(EducateProxy)
 	slot1 = slot1:GetShowSiteIds()
+	slot5 = slot0.mapBtn
 
-	setActive(slot0:findTF("tips/new", slot0.mapBtn), underscore.any(slot1, function (slot0)
+	setActive(slot5:Find("tips/new"), underscore.any(slot1, function (slot0)
 		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_SITE, slot0)
 	end))
-	setActive(slot0:findTF("tips/limit", slot0.mapBtn), underscore.any(slot1, function (slot0)
+
+	slot5 = slot0.mapBtn
+
+	setActive(slot5:Find("tips/limit"), underscore.any(slot1, function (slot0)
 		slot1 = getProxy(EducateProxy)
 
 		return underscore.any(slot1:GetOptionsBySiteId(slot0), function (slot0)

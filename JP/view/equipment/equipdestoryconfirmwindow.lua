@@ -5,28 +5,28 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("window/top/btnBack")
+	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 
-	setActive(slot0:findTF("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
-	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("title_info"))
+	setActive(slot0._tf:Find("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
+	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 
-	slot0.cancelBtn = slot0:findTF("window/cancel_btn")
-	slot0.confirmBtn = slot0:findTF("window/confirm_btn")
+	slot0.cancelBtn = slot0._tf:Find("window/cancel_btn")
+	slot0.confirmBtn = slot0._tf:Find("window/confirm_btn")
 
 	setText(findTF(slot0.confirmBtn, "pic"), i18n("destroy_confirm_access"))
 	setText(findTF(slot0.cancelBtn, "pic"), i18n("destroy_confirm_cancel"))
 
-	slot0.title = slot0:findTF("window/content/Text")
-	slot0.label = slot0:findTF("window/content/desc/label")
+	slot0.title = slot0._tf:Find("window/content/Text")
+	slot0.label = slot0._tf:Find("window/content/desc/label")
 
 	setText(slot0.label, i18n("destory_ship_before_tip"))
 
-	slot0.urLabel = slot0:findTF("window/content/desc/label1")
-	slot0.urInput = slot0:findTF("window/content/desc/InputField")
-	slot0.urOverflowLabel = slot0:findTF("window/content/desc/label2")
+	slot0.urLabel = slot0._tf:Find("window/content/desc/label1")
+	slot0.urInput = slot0._tf:Find("window/content/desc/InputField")
+	slot0.urOverflowLabel = slot0._tf:Find("window/content/desc/label2")
 
 	setText(slot0.urOverflowLabel, i18n("destory_ur_pt_overflowa"))
-	setText(slot0:findTF("Placeholder", slot0.urInput), i18n("box_ship_del_click"))
+	setText(slot0.urInput:Find("Placeholder"), i18n("box_ship_del_click"))
 end
 
 slot0.OnInit = function(slot0)

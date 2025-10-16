@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.timeTxt = slot0:findTF("time/Text"):GetComponent(typeof(Text))
+	slot0.timeTxt = slot0._tf:Find("time/Text"):GetComponent(typeof(Text))
 
 	slot0:UpdateUseItemStyle(WorldBossConst.GetCurrBossGroup() or "")
 end
@@ -32,7 +32,10 @@ slot0.OnInit = function(slot0)
 			frame = slot0.rarity
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("list_btn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("list_btn"), function ()
 		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_CHALLENGE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.activeBtn, function ()
@@ -56,8 +59,8 @@ slot0.OnUpdate = function(slot0)
 		slot0.timeTxt.text = ""
 	end
 
-	slot0.metaWorldbossBtn = slot0.metaWorldbossBtn or MetaWorldbossBtn.New(slot0:findTF("archives_btn"), slot0.event)
-	slot0.ptBtn = slot0.ptBtn or WorldbossPtBtn.New(slot0:findTF("point"))
+	slot0.metaWorldbossBtn = slot0.metaWorldbossBtn or MetaWorldbossBtn.New(slot0._tf:Find("archives_btn"), slot0.event)
+	slot0.ptBtn = slot0.ptBtn or WorldbossPtBtn.New(slot0._tf:Find("point"))
 end
 
 slot0.OnUpdateRes = function(slot0)

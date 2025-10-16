@@ -15,9 +15,9 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.switchBtn = slot0:findTF("detail_btn")
-	slot0.currentChallengeBtn = slot0:findTF("current_list_btn")
-	slot0.tipTr = slot0:findTF("tip")
+	slot0.switchBtn = slot0._tf:Find("detail_btn")
+	slot0.currentChallengeBtn = slot0._tf:Find("current_list_btn")
+	slot0.tipTr = slot0._tf:Find("tip")
 
 	setText(slot0.tipTr, i18n("world_boss_archives_boss_tip"))
 end
@@ -34,7 +34,10 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.currentChallengeBtn, function ()
 		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_CHALLENGE)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("help"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_archives_boss_help.tip
@@ -43,7 +46,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.UpdateEmptyCard = function(slot0)
-	slot2 = slot0:findTF("list_panel/mask/tpl"):Find("empty"):GetComponent(typeof(Image))
+	slot2 = slot0._tf:Find("list_panel/mask/tpl"):Find("empty"):GetComponent(typeof(Image))
 
 	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_STARTING then
 		slot2.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. WorldBossConst.BossId2MetaId(WorldBossConst.GetArchivesId()), "item_04")

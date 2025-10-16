@@ -1,12 +1,15 @@
 slot0 = class("AtelierCompositeConfirmYumiaView", import("view.activity.Atelier.base.AtelierCompositeConfirmView"))
 
 slot0.InitCustom = function(slot0)
-	setText(slot0:findTF("Window/titleBg/Name"), i18n("yumia_atelier_tip14"))
+	setText(slot0._tf:Find("Window/titleBg/Name"), i18n("yumia_atelier_tip14"))
 end
 
 slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
-	onButton(slot0, slot0:findTF("Window/titleBg/closeBtn"), function ()
+
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("Window/titleBg/closeBtn"), function ()
 		uv0:HideCompositeConfirmWindow()
 	end, SFX_CANCEL)
 end
@@ -59,7 +62,7 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 		uv1[slot1] = (uv1[slot1] or 0) + 1
 	end)
-	onButton(slot0, slot0:findTF("Window/Confirm"), function ()
+	onButton(slot0, slot0._tf:Find("Window/Confirm"), function ()
 		uv0._parentClass:emit(GAME.COMPOSITE_ATELIER_RECIPE, uv1, uv2)
 		uv0._parentClass:PlaySoundEffect(uv0._parentClass.soundStr.compositeConfirm)
 	end, SFX_PANEL)
@@ -76,8 +79,8 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 		1,
 		slot7 and slot8 or 1
 	}
-	slot13 = slot0:findTF("Window/Icon")
-	slot14 = slot0:findTF("Window/AtelierCommonYumiaItem")
+	slot13 = slot0._tf:Find("Window/Icon")
+	slot14 = slot0._tf:Find("Window/AtelierCommonYumiaItem")
 
 	if Drop.New({
 		type = slot6:GetProduction()[1],
@@ -99,15 +102,15 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 	slot16 = slot12:getConfig("name")
 
-	setActive(slot0:findTF("Window/Counters"), slot7)
+	setActive(slot0._tf:Find("Window/Counters"), slot7)
 
 	if slot7 then
 		(function ()
-			setText(uv0:findTF("Number", uv1), uv2)
-			setText(uv0:findTF("Window/Text"), i18n("yumia_atelier_tip20", uv3, uv2))
-			setText(uv0:findTF("cntText", uv4), uv2)
+			setText(uv0:Find("Number"), uv1)
+			setText(uv2._tf:Find("Window/Text"), i18n("yumia_atelier_tip20", uv3, uv1))
+			setText(uv4:Find("cntText"), uv1)
 		end)()
-		onButton(slot0, slot0:findTF("Plus", slot15), function ()
+		onButton(slot0, slot15:Find("Plus"), function ()
 			uv0 = uv0 + 1
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -119,13 +122,13 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Minus", slot15), function ()
+		onButton(slot0, slot15:Find("Minus"), function ()
 			uv0 = uv0 - 1
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Plus10", slot15), function ()
+		onButton(slot0, slot15:Find("Plus10"), function ()
 			uv0 = uv0 + 10
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -137,7 +140,7 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 
 			uv2()
 		end)
-		onButton(slot0, slot0:findTF("Minus10", slot15), function ()
+		onButton(slot0, slot15:Find("Minus10"), function ()
 			uv0 = uv0 - 10
 			uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -147,7 +150,7 @@ slot0.ShowCompositeConfirmWindow = function(slot0, slot1)
 		return
 	end
 
-	setText(slot0:findTF("Window/Text"), i18n("yumia_atelier_tip19", slot16, slot3))
+	setText(slot0._tf:Find("Window/Text"), i18n("yumia_atelier_tip19", slot16, slot3))
 end
 
 return slot0

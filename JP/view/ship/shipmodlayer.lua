@@ -15,16 +15,16 @@ slot0.setShipVOs = function(slot0, slot1)
 end
 
 slot0.init = function(slot0)
-	slot0.blurPanelTF = slot0:findTF("blur_panel")
-	slot0.mainPanel = slot0:findTF("blur_panel/main")
-	slot0.shipContainer = slot0:findTF("bg/add_ship_panel/ships", slot0.mainPanel)
-	slot0.attrsPanel = slot0:findTF("bg/property_panel/attrs", slot0.mainPanel)
+	slot0.blurPanelTF = slot0._tf:Find("blur_panel")
+	slot0.mainPanel = slot0._tf:Find("blur_panel/main")
+	slot0.shipContainer = slot0.mainPanel:Find("bg/add_ship_panel/ships")
+	slot0.attrsPanel = slot0.mainPanel:Find("bg/property_panel/attrs")
 
-	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
+	setText(slot0.mainPanel:Find("bg/add_ship_panel/title/tip"), i18n("ship_mod_exp_to_attr_tip"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("ok_btn", slot0.mainPanel), function ()
+	onButton(slot0, slot0.mainPanel:Find("ok_btn"), function ()
 		slot0 = function()
 			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
@@ -52,14 +52,14 @@ slot0.didEnter = function(slot0)
 			slot0()
 		end
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("cancel_btn", slot0.mainPanel), function ()
+	onButton(slot0, slot0.mainPanel:Find("cancel_btn"), function ()
 		if not uv0.contextData.materialShipIds or table.getCount(slot0) == 0 then
 			return
 		end
 
 		uv0:clearAllShip()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("select_btn", slot0.mainPanel), function ()
+	onButton(slot0, slot0.mainPanel:Find("select_btn"), function ()
 		uv0:emit(ShipModMediator.ON_AUTO_SELECT_SHIP)
 	end, SFX_CANCEL)
 	slot0:initAttrs()
@@ -157,7 +157,7 @@ slot0.updateShip = function(slot0, slot1, slot2)
 			end
 		end
 	end, SFX_PANEL)
-	updateShip(slot0:findTF("IconTpl", slot1), slot3, {
+	updateShip(slot1:Find("IconTpl"), slot3, {
 		initStar = true
 	})
 	setText(slot1:Find("IconTpl/icon_bg/lv/Text"), slot3.level)
@@ -185,7 +185,7 @@ end
 
 slot0.updateAttr = function(slot0, slot1)
 	slot2 = slot0.attrTFs[slot1]
-	slot3 = slot0:findTF("info", slot2)
+	slot3 = slot2:Find("info")
 	slot4 = slot2:GetComponent(typeof(CanvasGroup))
 	slot5 = ShipModAttr.ID_TO_ATTR[slot1]
 	slot6 = slot0.shipVO:getModAttrTopLimit(slot5)
@@ -199,14 +199,14 @@ slot0.updateAttr = function(slot0, slot1)
 
 	slot12 = slot0.shipVO:getModAttrBaseMax(slot5)
 
-	setText(slot0:findTF("info_container/addition", slot3), "+" .. math.max(math.min(math.floor((slot0.getRemainExp(slot0.shipVO, slot5) + slot9) / slot11), slot12 - slot7[slot5]), 0))
-	setText(slot0:findTF("info_container/name", slot3), AttributeType.Type2Name(slot5))
-	setText(slot0:findTF("max_container/Text", slot3), slot12)
-	setText(slot0:findTF("info_container/value", slot3), slot7[slot5])
+	setText(slot3:Find("info_container/addition"), "+" .. math.max(math.min(math.floor((slot0.getRemainExp(slot0.shipVO, slot5) + slot9) / slot11), slot12 - slot7[slot5]), 0))
+	setText(slot3:Find("info_container/name"), AttributeType.Type2Name(slot5))
+	setText(slot3:Find("max_container/Text"), slot12)
+	setText(slot3:Find("info_container/value"), slot7[slot5])
 
 	slot4.alpha = slot7[slot5] == 0 and 0.3 or 1
 
-	slot0:setSliderValue(slot0:findTF("prev_slider", slot3):GetComponent(typeof(Slider)), (slot9 + slot13) / slot11)
+	slot0:setSliderValue(slot3:Find("prev_slider"):GetComponent(typeof(Slider)), (slot9 + slot13) / slot11)
 
 	slot16 = slot13 / slot11
 	slot17 = slot13 + slot9 .. "/" .. slot10
@@ -216,8 +216,8 @@ slot0.updateAttr = function(slot0, slot1)
 		slot17 = "MAX"
 	end
 
-	slot0:setSliderValue(slot0:findTF("cur_slider", slot3):GetComponent(typeof(Slider)), slot16)
-	setText(slot0:findTF("exp_container/Text", slot2), slot17)
+	slot0:setSliderValue(slot3:Find("cur_slider"):GetComponent(typeof(Slider)), slot16)
+	setText(slot2:Find("exp_container/Text"), slot17)
 end
 
 slot0.modAttrAnim = function(slot0, slot1, slot2, slot3)
@@ -234,16 +234,16 @@ slot0.modAttrAnim = function(slot0, slot1, slot2, slot3)
 			slot0:updateAttr(slot10)
 		else
 			slot15 = slot0.attrTFs[slot10]
-			slot16 = slot0:findTF("info", slot15)
-			slot17 = slot0:findTF("info_container/value", slot16)
-			slot20 = slot0:findTF("cur_slider", slot16)
-			slot21 = slot0:findTF("prev_slider", slot16)
+			slot16 = slot15:Find("info")
+			slot17 = slot16:Find("info_container/value")
+			slot20 = slot16:Find("cur_slider")
+			slot21 = slot16:Find("prev_slider")
 			slot22 = slot20:GetComponent(typeof(Slider))
-			slot25 = slot0:findTF("info_container/addition", slot16)
-			slot26 = slot0:findTF("exp_container/Text", slot15)
+			slot25 = slot16:Find("info_container/addition")
+			slot26 = slot15:Find("exp_container/Text")
 
 			slot0:setSliderValue(slot21:GetComponent(typeof(Slider)), 0)
-			setText(slot0:findTF("exp_container/Text", slot15), slot0.getRemainExp(slot1, slot12) .. "/" .. math.max(slot1:getModExpRatio(slot12), 1))
+			setText(slot15:Find("exp_container/Text"), slot0.getRemainExp(slot1, slot12) .. "/" .. math.max(slot1:getModExpRatio(slot12), 1))
 
 			slot27 = function(slot0, slot1)
 				setText(uv0, slot0)

@@ -1,13 +1,13 @@
 slot0 = class("SandiegoReformPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.progress = slot0:findTF("progress/left", slot0.bg)
-	slot0.gameBtn = slot0:findTF("start", slot0.bg)
-	slot0.helpBtn = slot0:findTF("mic", slot0.bg)
-	slot0.getSign = slot0:findTF("get", slot0.bg)
-	slot0.days = slot0:findTF("days", slot0.bg)
-	slot0.nums = slot0:findTF("count", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.progress = slot0.bg:Find("progress/left")
+	slot0.gameBtn = slot0.bg:Find("start")
+	slot0.helpBtn = slot0.bg:Find("mic")
+	slot0.getSign = slot0.bg:Find("get")
+	slot0.days = slot0.bg:Find("days")
+	slot0.nums = slot0.bg:Find("count")
 end
 
 slot0.OnDataSetting = function(slot0)

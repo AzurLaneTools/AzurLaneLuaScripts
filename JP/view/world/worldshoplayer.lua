@@ -21,11 +21,11 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.btnBack = slot0:findTF("adapt/top/title/back_button")
-	slot0.rtRes = slot0:findTF("adapt/middle/content/res")
-	slot0.rtResetTime = slot0:findTF("adapt/middle/content/resetTimer")
-	slot0.rtResetTip = slot0:findTF("adapt/middle/content/resetTip")
-	slot0.rtShop = slot0:findTF("adapt/middle/content/world_shop")
+	slot0.btnBack = slot0._tf:Find("adapt/top/title/back_button")
+	slot0.rtRes = slot0._tf:Find("adapt/middle/content/res")
+	slot0.rtResetTime = slot0._tf:Find("adapt/middle/content/resetTimer")
+	slot0.rtResetTip = slot0._tf:Find("adapt/middle/content/resetTip")
+	slot0.rtShop = slot0._tf:Find("adapt/middle/content/world_shop")
 	slot0.goodsItemList = UIItemList.New(slot0.rtShop:Find("content"), slot0.rtShop:Find("content/item_tpl"))
 	slot0.singleWindow = OriginShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0.multiWindow = OriginShopMultiWindow.New(slot0._tf, slot0.event)

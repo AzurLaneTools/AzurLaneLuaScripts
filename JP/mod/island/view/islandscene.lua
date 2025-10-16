@@ -34,7 +34,7 @@ slot0.GetIsland = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.visitorBtn = slot0:findTF("top/visitor")
+	slot0.visitorBtn = slot0._tf:Find("top/visitor")
 	slot0.levelPanel = IslandLevelPanel.New(slot0._tf, slot0.event)
 	slot0.taskTrackPanel = Island3dTaskTrackPanel.New(slot0._tf, slot0.event)
 	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)

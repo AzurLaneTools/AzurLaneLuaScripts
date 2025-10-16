@@ -13,10 +13,10 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.transcodeAlert = slot0._tf
-	slot0.tcSureBtn = slot0:findTF("transcode_sure", slot0.transcodeAlert)
-	slot0.uidTxt = slot0:findTF("uid_input_txt", slot0.transcodeAlert):GetComponent(typeof(InputField))
-	slot0.transcodeTxt = slot0:findTF("transcode_input_txt", slot0.transcodeAlert):GetComponent(typeof(InputField))
-	slot0.tcDesc = slot0:findTF("desc", slot0.transcodeAlert)
+	slot0.tcSureBtn = slot0.transcodeAlert:Find("transcode_sure")
+	slot0.uidTxt = slot0.transcodeAlert:Find("uid_input_txt"):GetComponent(typeof(InputField))
+	slot0.transcodeTxt = slot0.transcodeAlert:Find("transcode_input_txt"):GetComponent(typeof(InputField))
+	slot0.tcDesc = slot0.transcodeAlert:Find("desc")
 
 	setText(slot0.tcDesc, i18n("transcode_desc"))
 	slot0:InitEvent()

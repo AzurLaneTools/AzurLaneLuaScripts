@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.num1TF = slot0:findTF("content/head/num1")
-	slot0.num2TF = slot0:findTF("content/head/num2")
-	slot0.num3TF = slot0:findTF("content/head/num3")
-	slot0.UIlist = UIItemList.New(slot0:findTF("content/ships"), slot0:findTF("content/ships/ship_tpl"))
+	slot0.num1TF = slot0._tf:Find("content/head/num1")
+	slot0.num2TF = slot0._tf:Find("content/head/num2")
+	slot0.num3TF = slot0._tf:Find("content/head/num3")
+	slot0.UIlist = UIItemList.New(slot0._tf:Find("content/ships"), slot0._tf:Find("content/ships/ship_tpl"))
 end
 
 slot0.SetCallBack = function(slot0, slot1)

@@ -4,10 +4,10 @@ slot2 = 2
 slot3 = 3
 
 slot0.OnInit = function(slot0)
-	slot0.shopBtn = slot0:findTF("AD/shop_btn")
-	slot0.uiList = UIItemList.New(slot0:findTF("AD/list"), slot0:findTF("AD/list/award"))
-	slot0.finishCntTxt = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
-	slot0.helpBtn = slot0:findTF("AD/help")
+	slot0.shopBtn = slot0._tf:Find("AD/shop_btn")
+	slot0.uiList = UIItemList.New(slot0._tf:Find("AD/list"), slot0._tf:Find("AD/list/award"))
+	slot0.finishCntTxt = slot0._tf:Find("AD/Text"):GetComponent(typeof(Text))
+	slot0.helpBtn = slot0._tf:Find("AD/help")
 end
 
 slot0.OnDataSetting = function(slot0)

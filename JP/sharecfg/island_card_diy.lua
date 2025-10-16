@@ -28,6 +28,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4001,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "基本",
 		jump_page = {}
 	},
@@ -37,6 +38,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4002,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "ニュージャージー (イメージ)",
 		jump_page = {}
 	},
@@ -46,6 +48,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4003,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "サラトガ (イメージ)",
 		jump_page = {}
 	},
@@ -55,6 +58,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4004,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "フッド (イメージ)",
 		jump_page = {}
 	},
@@ -64,6 +68,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4005,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "ユニコーン (イメージ)",
 		jump_page = {}
 	},
@@ -73,6 +78,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4006,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "チェシャー (イメージ)",
 		jump_page = {}
 	},
@@ -82,6 +88,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4007,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "島風 (イメージ)",
 		jump_page = {}
 	},
@@ -91,6 +98,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4008,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "天城ちゃん (イメージ)",
 		jump_page = {}
 	},
@@ -100,6 +108,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4009,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "大鳳 (イメージ)",
 		jump_page = {}
 	},
@@ -109,6 +118,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4010,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "明石 (イメージ)",
 		jump_page = {}
 	},
@@ -118,6 +128,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4011,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "プリンツ・オイゲン (イメージ)",
 		jump_page = {}
 	},
@@ -127,6 +138,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4012,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "応瑞 (イメージ)",
 		jump_page = {}
 	},
@@ -136,6 +148,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4013,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "肇和 (イメージ)",
 		jump_page = {}
 	},
@@ -145,6 +158,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4014,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "レオナルド・ダ・ヴィンチ (イメージ)",
 		jump_page = {}
 	},
@@ -154,6 +168,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4015,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "タシュケント (イメージ)",
 		jump_page = {}
 	},
@@ -163,6 +178,7 @@ pg.base.island_card_diy = {
 		type = 4,
 		id = 4016,
 		icon = "islandprops/morensuipian",
+		tech_id = 0,
 		desc = "ル・マラン (イメージ)",
 		jump_page = {}
 	}

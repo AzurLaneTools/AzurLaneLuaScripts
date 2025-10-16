@@ -25,22 +25,22 @@ slot0.OnCatteryStyleUpdate = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.closeBtn = slot0:findTF("right/close_btn")
-	slot0.styleIcon = slot0:findTF("left/bg/mask/icon"):GetComponent(typeof(Image))
-	slot0.char = slot0:findTF("left/bg/char")
-	slot0.commanderEmpty = slot0:findTF("left/bg/info/empty")
+	slot0.closeBtn = slot0._tf:Find("right/close_btn")
+	slot0.styleIcon = slot0._tf:Find("left/bg/mask/icon"):GetComponent(typeof(Image))
+	slot0.char = slot0._tf:Find("left/bg/char")
+	slot0.commanderEmpty = slot0._tf:Find("left/bg/info/empty")
 	slot0.styleInfo = slot0.commanderEmpty
-	slot0.commanderExp = slot0:findTF("left/bg/info/commander_exp")
+	slot0.commanderExp = slot0._tf:Find("left/bg/info/commander_exp")
 	slot0.commanderLevelTxt = slot0.commanderExp:Find("level/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpTxt = slot0.commanderExp:Find("value_bg/Text"):GetComponent(typeof(Text))
 	slot0.commanderExpImg = slot0.commanderExp:Find("exp/Image")
 	slot0.pageContainer = slot0._tf:Find("")
-	slot1 = slot0:findTF("left/tags")
-	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
-	slot0.pagesTF = slot0:findTF("right/pages")
+	slot0.toggleGroup = slot0._tf:Find("left/tags"):GetComponent(typeof(ToggleGroup))
+	slot1 = slot0._tf
+	slot0.pagesTF = slot1:Find("right/pages")
 	slot0.tags = {
-		slot0:findTF("left/tags/commander"),
-		slot0:findTF("left/tags/home")
+		slot0._tf:Find("left/tags/commander"),
+		slot0._tf:Find("left/tags/home")
 	}
 	slot0.pages = {
 		CommanderHomeSelCommanderPage.New(slot0.pagesTF, slot0.event),

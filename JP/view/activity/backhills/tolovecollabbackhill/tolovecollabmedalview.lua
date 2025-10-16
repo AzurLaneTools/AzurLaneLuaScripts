@@ -11,9 +11,8 @@ slot0.init = function(slot0)
 end
 
 slot0.FindUI = function(slot0)
-	slot0.bg = slot0:findTF("mask")
-	slot5 = slot0:findTF("Top")
-	slot0.backBtn = slot0:findTF("BackBtn", slot5)
+	slot0.bg = slot0._tf:Find("mask")
+	slot0.backBtn = slot0._tf:Find("Top"):Find("BackBtn")
 	slot0.slots = {}
 
 	for slot5 = 1, 6 do

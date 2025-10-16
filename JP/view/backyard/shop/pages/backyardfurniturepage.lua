@@ -11,13 +11,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.scrollRect = slot0:findTF("adpter/frame/bg"):GetComponent("LScrollRect")
-	slot0.searchInput = slot0:findTF("adpter/search")
-	slot0.searchClear = slot0:findTF("adpter/search/clear")
-	slot0.filterBtn = slot0:findTF("adpter/filter")
+	slot0.scrollRect = slot0._tf:Find("adpter/frame/bg"):GetComponent("LScrollRect")
+	slot0.searchInput = slot0._tf:Find("adpter/search")
+	slot0.searchClear = slot0._tf:Find("adpter/search/clear")
+	slot0.filterBtn = slot0._tf:Find("adpter/filter")
 	slot0.filterBtnTxt = slot0.filterBtn:Find("Text"):GetComponent(typeof(Text))
 	slot0.filterBtnTxt.text = i18n("word_default")
-	slot0.orderBtn = slot0:findTF("adpter/order")
+	slot0.orderBtn = slot0._tf:Find("adpter/order")
 	slot0.orderBtnIcon = slot0.orderBtn:Find("icon")
 	slot0.orderBtnTxt = slot0.orderBtn:Find("Text"):GetComponent(typeof(Text))
 

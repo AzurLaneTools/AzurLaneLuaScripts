@@ -5,25 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.skillPanel = slot0:findTF("skill")
-	slot0.cancelBtn = slot0:findTF("cancel_btn")
-	slot0.confirmBtn = slot0:findTF("confirm_btn")
-	slot0.toggleGroup = slot0:findTF("items"):GetComponent(typeof(ToggleGroup))
-	slot0.lessonNameTxt = slot0:findTF("introl/name"):GetComponent(typeof(Text))
-	slot0.lessonDescTxt = slot0:findTF("introl/desc"):GetComponent(typeof(Text))
-	slot0.lessonExpTxt = slot0:findTF("introl/exp_Text"):GetComponent(typeof(Text))
-	slot1 = slot0:findTF("introl/timer_Text")
+	slot0.skillPanel = slot0._tf:Find("skill")
+	slot0.cancelBtn = slot0._tf:Find("cancel_btn")
+	slot0.confirmBtn = slot0._tf:Find("confirm_btn")
+	slot0.toggleGroup = slot0._tf:Find("items"):GetComponent(typeof(ToggleGroup))
+	slot0.lessonNameTxt = slot0._tf:Find("introl/name"):GetComponent(typeof(Text))
+	slot0.lessonDescTxt = slot0._tf:Find("introl/desc"):GetComponent(typeof(Text))
+	slot0.lessonExpTxt = slot0._tf:Find("introl/exp_Text"):GetComponent(typeof(Text))
+	slot1 = slot0._tf:Find("introl/timer_Text")
 	slot0.lessonTimeTxt = slot1:GetComponent(typeof(Text))
-	slot0.skillCard = NewNavalTacticsAdditionSkillCard.New(slot0:findTF("skill/info"))
+	slot0.skillCard = NewNavalTacticsAdditionSkillCard.New(slot0._tf:Find("skill/info"))
 	slot0.itemTpls = {
-		slot0:findTF("items/scorll/content/item")
+		slot0._tf:Find("items/scorll/content/item")
 	}
 	slot0.startPos = slot0.itemTpls[1].anchoredPosition
 	slot0.space = Vector2(60, 30)
 	slot0.cloumnCnt = 6
 
-	setText(slot0:findTF("introl/exp_label"), i18n("tactics_class_get_exp"))
-	setText(slot0:findTF("introl/timer_label"), i18n("tactics_class_spend_time"))
+	setText(slot0._tf:Find("introl/exp_label"), i18n("tactics_class_get_exp"))
+	setText(slot0._tf:Find("introl/timer_label"), i18n("tactics_class_spend_time"))
 	setText(slot0.confirmBtn:Find("Image"), i18n("tactics_class_start"))
 	setText(slot0.cancelBtn:Find("Image"), i18n("tactics_class_cancel"))
 end

@@ -37,11 +37,11 @@ slot0.init = function(slot0)
 		"destroy",
 		"revert"
 	}) do
-		slot0[slot6 .. "Panel"] = slot0:findTF(slot6)
-		slot0.toggles[slot6 .. "Panel"] = slot0:findTF("toggle_controll/" .. slot6)
+		slot0[slot6 .. "Panel"] = slot0._tf:Find(slot6)
+		slot0.toggles[slot6 .. "Panel"] = slot0._tf:Find("toggle_controll/" .. slot6)
 	end
 
-	slot0.sample = slot0:findTF("sample")
+	slot0.sample = slot0._tf:Find("sample")
 
 	setActive(slot0.sample, false)
 	setActive(slot0.defaultPanel:Find("transform_tip"), false)
@@ -118,13 +118,13 @@ end
 
 slot0.initAndSetBtn = function(slot0, slot1)
 	if slot1 == EquipmentInfoMediator.TYPE_DEFAULT or slot1 == EquipmentInfoMediator.TYPE_SHIP then
-		slot0.defaultEquipTF = slot0:findTF("equipment", slot0.defaultPanel) or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
-		slot0.defaultReplaceBtn = slot0:findTF("actions/action_button_3", slot0.defaultPanel)
-		slot0.defaultDestroyBtn = slot0:findTF("actions/action_button_1", slot0.defaultPanel)
-		slot0.defaultEnhanceBtn = slot0:findTF("actions/action_button_2", slot0.defaultPanel)
-		slot0.defaultUnloadBtn = slot0:findTF("actions/action_button_4", slot0.defaultPanel)
-		slot0.defaultRevertBtn = slot0:findTF("info/equip/revert_btn", slot0.defaultEquipTF)
-		slot0.defaultTransformTipBar = slot0:findTF("transform_tip", slot0.defaultEquipTF)
+		slot0.defaultEquipTF = slot0.defaultPanel:Find("equipment") or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
+		slot0.defaultReplaceBtn = slot0.defaultPanel:Find("actions/action_button_3")
+		slot0.defaultDestroyBtn = slot0.defaultPanel:Find("actions/action_button_1")
+		slot0.defaultEnhanceBtn = slot0.defaultPanel:Find("actions/action_button_2")
+		slot0.defaultUnloadBtn = slot0.defaultPanel:Find("actions/action_button_4")
+		slot0.defaultRevertBtn = slot0.defaultEquipTF:Find("info/equip/revert_btn")
+		slot0.defaultTransformTipBar = slot0.defaultEquipTF:Find("transform_tip")
 
 		if slot1 == EquipmentInfoMediator.TYPE_DEFAULT and not slot0.defaultTransformTipBar then
 			slot2 = slot0.defaultPanel:Find("transform_tip")
@@ -198,10 +198,10 @@ slot0.initAndSetBtn = function(slot0, slot1)
 			uv0:updateRevertPanel()
 		end, SFX_PANEL)
 	elseif slot1 == EquipmentInfoMediator.TYPE_REPLACE then
-		slot0.replaceSrcEquipTF = slot0:findTF("equipment", slot0.replacePanel) or slot0:cloneSampleTo(slot0.replacePanel, uv0.Left, "equipment")
-		slot0.replaceDstEquipTF = slot0:findTF("equipment_on_ship", slot0.replacePanel) or slot0:cloneSampleTo(slot0.replacePanel, uv0.Right, "equipment_on_ship")
-		slot0.replaceCancelBtn = slot0:findTF("actions/cancel_button", slot0.replacePanel)
-		slot0.replaceConfirmBtn = slot0:findTF("actions/action_button_2", slot0.replacePanel)
+		slot0.replaceSrcEquipTF = slot0.replacePanel:Find("equipment") or slot0:cloneSampleTo(slot0.replacePanel, uv0.Left, "equipment")
+		slot0.replaceDstEquipTF = slot0.replacePanel:Find("equipment_on_ship") or slot0:cloneSampleTo(slot0.replacePanel, uv0.Right, "equipment_on_ship")
+		slot0.replaceCancelBtn = slot0.replacePanel:Find("actions/cancel_button")
+		slot0.replaceConfirmBtn = slot0.replacePanel:Find("actions/action_button_2")
 
 		onButton(slot0, slot0.replaceCancelBtn, function ()
 			if isActive(uv0.destroyPanel) then
@@ -229,9 +229,9 @@ slot0.initAndSetBtn = function(slot0, slot1)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif slot1 == EquipmentInfoMediator.TYPE_DISPLAY then
-		slot0.displayEquipTF = slot0:findTF("equipment", slot0.displayPanel) or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
-		slot0.displayMoveBtn = slot0:findTF("actions/move_button", slot0.displayPanel)
-		slot0.defaultTransformTipBar = slot0:findTF("transform_tip", slot0.displayEquipTF)
+		slot0.displayEquipTF = slot0.displayPanel:Find("equipment") or slot0:cloneSampleTo(slot0.displayPanel, uv0.Middle, "equipment")
+		slot0.displayMoveBtn = slot0.displayPanel:Find("actions/move_button")
+		slot0.defaultTransformTipBar = slot0.displayEquipTF:Find("transform_tip")
 
 		if slot0.contextData.showTransformTip and not slot0.defaultTransformTipBar then
 			slot2 = slot0.defaultPanel:Find("transform_tip")
@@ -252,15 +252,15 @@ slot0.initAndSetBtn = function(slot0, slot1)
 		end)
 	elseif slot1 == uv0.PANEL_DESTROY then
 		slot0.initDestroyPanel = true
-		slot0.destroyEquipTF = slot0:findTF("equipment", slot0.destroyPanel) or slot0:cloneSampleTo(slot0.destroyPanel, uv0.Left, "equipment")
-		slot0.destroyCounter = slot0:findTF("destroy", slot0.destroyPanel)
-		slot0.destroyValue = slot0:findTF("count/number_panel/value", slot0.destroyCounter)
-		slot0.destroyLeftButton = slot0:findTF("count/number_panel/left", slot0.destroyCounter)
-		slot0.destroyRightButton = slot0:findTF("count/number_panel/right", slot0.destroyCounter)
-		slot0.destroyBonusList = slot0:findTF("got/list", slot0.destroyCounter)
-		slot0.destroyBonusItem = slot0:findTF("got/item", slot0.destroyCounter)
-		slot0.destroyCancelBtn = slot0:findTF("actions/cancel_button", slot0.destroyPanel)
-		slot0.destroyConfirmBtn = slot0:findTF("actions/destroy_button", slot0.destroyPanel)
+		slot0.destroyEquipTF = slot0.destroyPanel:Find("equipment") or slot0:cloneSampleTo(slot0.destroyPanel, uv0.Left, "equipment")
+		slot0.destroyCounter = slot0.destroyPanel:Find("destroy")
+		slot0.destroyValue = slot0.destroyCounter:Find("count/number_panel/value")
+		slot0.destroyLeftButton = slot0.destroyCounter:Find("count/number_panel/left")
+		slot0.destroyRightButton = slot0.destroyCounter:Find("count/number_panel/right")
+		slot0.destroyBonusList = slot0.destroyCounter:Find("got/list")
+		slot0.destroyBonusItem = slot0.destroyCounter:Find("got/item")
+		slot0.destroyCancelBtn = slot0.destroyPanel:Find("actions/cancel_button")
+		slot0.destroyConfirmBtn = slot0.destroyPanel:Find("actions/destroy_button")
 
 		onButton(slot0, slot0.destroyLeftButton, function ()
 			uv0:setDestroyCount(uv0.destroyCount - 1)
@@ -268,7 +268,7 @@ slot0.initAndSetBtn = function(slot0, slot1)
 		onButton(slot0, slot0.destroyRightButton, function ()
 			uv0:setDestroyCount(uv0.destroyCount + 1)
 		end, SFX_PANEL)
-		onButton(slot0, slot0:findTF("count/max", slot0.destroyCounter), function ()
+		onButton(slot0, slot0.destroyCounter:Find("count/max"), function ()
 			uv0:setDestroyCount(uv0.equipmentVO.count)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.destroyCancelBtn, function ()
@@ -300,10 +300,10 @@ slot0.initAndSetBtn = function(slot0, slot1)
 		end, SFX_UI_EQUIPMENT_RESOLVE)
 	elseif slot1 == uv0.PANEL_REVERT then
 		slot0.initRevertPanel = true
-		slot0.revertEquipTF = slot0:findTF("equipment", slot0.revertPanel) or slot0:cloneSampleTo(slot0.revertPanel, uv0.Left, "equipment")
-		slot0.revertAwardContainer = slot0:findTF("item_panel/got/list", slot0.revertPanel)
-		slot0.revertCancelBtn = slot0:findTF("actions/cancel_button", slot0.revertPanel)
-		slot0.revertConfirmBtn = slot0:findTF("actions/revert_button", slot0.revertPanel)
+		slot0.revertEquipTF = slot0.revertPanel:Find("equipment") or slot0:cloneSampleTo(slot0.revertPanel, uv0.Left, "equipment")
+		slot0.revertAwardContainer = slot0.revertPanel:Find("item_panel/got/list")
+		slot0.revertCancelBtn = slot0.revertPanel:Find("actions/cancel_button")
+		slot0.revertConfirmBtn = slot0.revertPanel:Find("actions/revert_button")
 		slot0.itemTpl = slot0:getTpl("item_panel/got/item", slot0.revertPanel)
 
 		onButton(slot0, slot0.revertCancelBtn, function ()
@@ -336,7 +336,7 @@ slot0.updateOperation2 = function(slot0)
 	setActive(slot0.defaultReplaceBtn, true)
 	setActive(slot0.defaultUnloadBtn, true)
 	setActive(slot0.defaultRevertBtn, false)
-	setActive(slot0:findTF("head", slot0.defaultEquipTF), slot0.shipVO)
+	setActive(slot0.defaultEquipTF:Find("head"), slot0.shipVO)
 
 	if slot0.shipVO then
 		setImageSprite(findTF(slot1, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
@@ -365,7 +365,7 @@ slot0.updateOperation3 = function(slot0)
 		slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot0.equipmentVO)
 	end
 
-	setActive(slot0:findTF("head", slot0.replaceDstEquipTF), slot0.oldShipVO)
+	setActive(slot0.replaceDstEquipTF:Find("head"), slot0.oldShipVO)
 
 	if slot0.oldShipVO then
 		setImageSprite(findTF(slot2, "Image"), LoadSprite("qicon/" .. slot0.oldShipVO:getPainting()))
@@ -376,7 +376,7 @@ slot0.updateOperation4 = function(slot0)
 	triggerToggle(slot0.toggles.displayPanel, true)
 	slot0:updateEquipmentPanel(slot0.displayEquipTF, slot0.equipmentVO)
 	setActive(slot0.displayMoveBtn, slot0.shipVO)
-	setActive(slot0:findTF("head", slot0.displayEquipTF), slot0.shipVO)
+	setActive(slot0.displayEquipTF:Find("head"), slot0.shipVO)
 
 	if slot0.shipVO then
 		setImageSprite(findTF(slot1, "Image"), LoadSprite("qicon/" .. slot0.shipVO:getPainting()))
@@ -440,8 +440,8 @@ slot0.updateOperationAward = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3, slot4)
-	setActive(slot0:findTF("info", slot1), slot2)
-	setActive(slot0:findTF("empty", slot1), not slot2)
+	setActive(slot1:Find("info"), slot2)
+	setActive(slot1:Find("empty"), not slot2)
 
 	if slot2 then
 		slot7 = findTF(slot5, "name")
@@ -460,7 +460,7 @@ slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3, slot4)
 		setText(findTF(slot8, "slv/Text"), slot4 and slot4 - 1 or slot2:getConfig("level") - 1)
 		setActive(findTF(slot8, "slv/next"), slot4)
 		setText(findTF(slot8, "slv/next/Text"), slot2:getConfig("level") - 1)
-		setActive(slot0:findTF("tier", slot8), slot2)
+		setActive(slot8:Find("tier"), slot2)
 
 		slot10 = slot2:getConfig("tech") or 1
 

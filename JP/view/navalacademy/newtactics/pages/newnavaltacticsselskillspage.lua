@@ -5,10 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.confrimBtn = slot0:findTF("frame/confirm_btn")
-	slot0.skillTpl = slot0:findTF("frame/skill_container/content/skill")
-	slot0.emptyTpl = slot0:findTF("frame/skill_container/content/empty")
-	slot1 = slot0:findTF("frame/skill_container/content")
+	slot0.confrimBtn = slot0._tf:Find("frame/confirm_btn")
+	slot0.skillTpl = slot0._tf:Find("frame/skill_container/content/skill")
+	slot0.emptyTpl = slot0._tf:Find("frame/skill_container/content/empty")
+	slot1 = slot0._tf:Find("frame/skill_container/content")
 	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
 	slot0.skillCards = {
 		NewNavalTacticsSkillCard.New(slot0.skillTpl)
@@ -18,7 +18,7 @@ slot0.OnLoaded = function(slot0)
 	}
 
 	setText(slot0.confrimBtn:Find("Image"), i18n("tactics_class_start"))
-	setText(slot0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
+	setText(slot0._tf:Find("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
 slot0.SetCancelCallback = function(slot0, slot1)

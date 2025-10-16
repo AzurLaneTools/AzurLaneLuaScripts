@@ -40,40 +40,40 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.mapTF = slot0:findTF("map")
-	slot0.bgTF = slot0:findTF("bg", slot0.mapTF)
-	slot0.mapContent = slot0:findTF("content", slot0.mapTF)
-	slot0.storiesTF = slot0:findTF("stories", slot0.mapContent)
-	slot0.storyTpl = slot0:findTF("story_node", slot0.storiesTF)
+	slot0.mapTF = slot0._tf:Find("map")
+	slot0.bgTF = slot0.mapTF:Find("bg")
+	slot0.mapContent = slot0.mapTF:Find("content")
+	slot0.storiesTF = slot0.mapContent:Find("stories")
+	slot0.storyTpl = slot0.storiesTF:Find("story_node")
 
 	setActive(slot0.storyTpl, false)
 
-	slot0.strongholdsTF = slot0:findTF("strongholds", slot0.mapContent)
-	slot0.locationsTF = slot0:findTF("locations", slot0.mapContent)
-	slot0.uiTF = slot0:findTF("ui")
-	slot0.focusTF = slot0:findTF("focus", slot0.uiTF)
+	slot0.strongholdsTF = slot0.mapContent:Find("strongholds")
+	slot0.locationsTF = slot0.mapContent:Find("locations")
+	slot0.uiTF = slot0._tf:Find("ui")
+	slot0.focusTF = slot0.uiTF:Find("focus")
 
-	setActive(slot0:findTF("tpl", slot0.focusTF), false)
+	setActive(slot0.focusTF:Find("tpl"), false)
 
-	slot0.topUI = slot0:findTF("top", slot0.uiTF)
-	slot0.ptIconTF = slot0:findTF("res_panel/icon", slot0.topUI)
-	slot0.ptValueTF = slot0:findTF("res_panel/Text", slot0.topUI)
-	slot0.leftUI = slot0:findTF("left", slot0.uiTF)
-	slot0.battleBtn = slot0:findTF("battle_btn", slot0.leftUI)
-	slot0.storyBtn = slot0:findTF("story_btn", slot0.leftUI)
-	slot0.leftArrow = slot0:findTF("arrow", slot0.leftUI)
-	slot0.rightArrow = slot0:findTF("right/arrow", slot0.uiTF)
+	slot0.topUI = slot0.uiTF:Find("top")
+	slot0.ptIconTF = slot0.topUI:Find("res_panel/icon")
+	slot0.ptValueTF = slot0.topUI:Find("res_panel/Text")
+	slot0.leftUI = slot0.uiTF:Find("left")
+	slot0.battleBtn = slot0.leftUI:Find("battle_btn")
+	slot0.storyBtn = slot0.leftUI:Find("story_btn")
+	slot0.leftArrow = slot0.leftUI:Find("arrow")
+	slot0.rightArrow = slot0.uiTF:Find("right/arrow")
 	slot1 = getProxy(PlayerProxy)
 	slot0.playerId = slot1:getRawData().id
 	slot0.battleHideLocations = {
-		slot0:findTF("2/xifangjudian", slot0.locationsTF),
-		slot0:findTF("3/zhongbujudian", slot0.locationsTF),
-		slot0:findTF("4/dongfangjudian", slot0.locationsTF),
-		slot0:findTF("5/julongchaoxue", slot0.locationsTF),
-		slot0:findTF("5/mowangcheng", slot0.locationsTF),
-		slot0:findTF("wangdu", slot0.locationsTF)
+		slot0.locationsTF:Find("2/xifangjudian"),
+		slot0.locationsTF:Find("3/zhongbujudian"),
+		slot0.locationsTF:Find("4/dongfangjudian"),
+		slot0.locationsTF:Find("5/julongchaoxue"),
+		slot0.locationsTF:Find("5/mowangcheng"),
+		slot0.locationsTF:Find("wangdu")
 	}
-	slot0.clickMask = slot0:findTF("click_mask", slot0.uiTF)
+	slot0.clickMask = slot0.uiTF:Find("click_mask")
 
 	setActive(slot0.clickMask, false)
 end
@@ -81,13 +81,13 @@ end
 slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	slot0:SetNativeSizes()
-	onButton(slot0, slot0:findTF("return_btn", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("return_btn"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("home_btn", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("home_btn"), function ()
 		uv0:quickExitFunc()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("help_btn", slot0.topUI), function ()
+	onButton(slot0, slot0.topUI:Find("help_btn"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.otherworld_map_help.tip
@@ -109,7 +109,10 @@ slot0.didEnter = function(slot0)
 			uv0:ShowStoryMode()
 		end)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("terminal_btn", slot0.leftUI), function ()
+
+	slot3 = slot0.leftUI
+
+	onButton(slot0, slot3:Find("terminal_btn"), function ()
 		uv0:OpenTerminal()
 	end, SFX_CANCEL)
 	onScroll(slot0, slot0.mapTF, function (slot0)
@@ -237,8 +240,8 @@ slot0.SetNativeSizes = function(slot0)
 end
 
 slot0.BindStronghold = function(slot0, slot1, slot2)
-	onButton(slot0, slot0:findTF(slot1 .. "/icon", slot0.strongholdsTF), slot2, SFX_PANEL)
-	onButton(slot0, slot0:findTF(slot1 .. "/name", slot0.strongholdsTF), slot2, SFX_PANEL)
+	onButton(slot0, slot0.strongholdsTF:Find(slot1 .. "/icon"), slot2, SFX_PANEL)
+	onButton(slot0, slot0.strongholdsTF:Find(slot1 .. "/name"), slot2, SFX_PANEL)
 end
 
 slot0.InitStrongholds = function(slot0, slot1, slot2)
@@ -382,8 +385,7 @@ slot0.onDragFunction = function(slot0)
 	if slot0.contextData.mode == uv0.MODE_BATTLE then
 		slot1 = nil
 		slot6 = "wangdu"
-		slot7 = slot0.strongholdsTF
-		slot2 = slot0._tf:InverseTransformPoint(slot0:findTF(slot6, slot7).position)
+		slot2 = slot0._tf:InverseTransformPoint(slot0.strongholdsTF:Find(slot6).position)
 		slot2.x = slot2.x + 150
 
 		for slot6, slot7 in ipairs(uv0.screenPoints) do
@@ -396,10 +398,10 @@ slot0.onDragFunction = function(slot0)
 			end
 		end
 
-		setActive(slot0:findTF("tip", slot0.leftArrow), slot0.isShowWangduTip and slot1)
+		setActive(slot0.leftArrow:Find("tip"), slot0.isShowWangduTip and slot1)
 
 		slot3 = nil
-		slot4 = slot0._tf:InverseTransformPoint(slot0:findTF("mowangcheng", slot0.strongholdsTF).position)
+		slot4 = slot0._tf:InverseTransformPoint(slot0.strongholdsTF:Find("mowangcheng").position)
 		slot4.x = slot4.x + 100
 
 		for slot8, slot9 in ipairs(uv0.screenPoints) do
@@ -412,7 +414,7 @@ slot0.onDragFunction = function(slot0)
 			end
 		end
 
-		setActive(slot0:findTF("tip", slot0.rightArrow), slot0.isShowSpTip and slot3)
+		setActive(slot0.rightArrow:Find("tip"), slot0.isShowSpTip and slot3)
 	end
 end
 
@@ -512,19 +514,23 @@ end
 
 slot0.UpdateToggleTip = function(slot0)
 	if not slot0.eventAct then
-		setActive(slot0:findTF("new", slot0.storyBtn), false)
-		setActive(slot0:findTF("new", slot0.battleBtn), false)
+		setActive(slot0.storyBtn:Find("new"), false)
+		setActive(slot0.battleBtn:Find("new"), false)
 
 		return
 	end
 
 	slot1 = slot0.eventAct
 	slot1 = slot1:GetAllEventIds()
+	slot5 = slot0.storyBtn
 
-	setActive(slot0:findTF("new", slot0.storyBtn), underscore.any(slot1, function (slot0)
+	setActive(slot5:Find("new"), underscore.any(slot1, function (slot0)
 		return uv0.eventAct:GetEventById(slot0) and uv0.eventAct:CheckTrigger(slot1.id) and slot1:GetMode() == SingleEvent.MODE_TYPE.STORY
 	end))
-	setActive(slot0:findTF("new", slot0.battleBtn), underscore.any(slot1, function (slot0)
+
+	slot5 = slot0.battleBtn
+
+	setActive(slot5:Find("new"), underscore.any(slot1, function (slot0)
 		return uv0.eventAct:GetEventById(slot0) and uv0.eventAct:CheckTrigger(slot1.id) and slot1:GetMode() == SingleEvent.MODE_TYPE.BATTLE
 	end))
 end
@@ -540,16 +546,16 @@ slot0.UpdateMapArea = function(slot0)
 	for slot6 = uv0.MAP_AREA_START, uv0.MAP_AREA_CNT do
 		slot7 = table.contains(slot2, slot6)
 
-		setActive(slot0:findTF(tostring(slot6), slot0.locationsTF), not slot1 or not slot7)
-		setActive(slot0:findTF(tostring(slot6), slot0.bgTF), slot7 and slot1)
+		setActive(slot0._tf:Find(tostring(slot6), slot0.locationsTF), not slot1 or not slot7)
+		setActive(slot0._tf:Find(tostring(slot6), slot0.bgTF), slot7 and slot1)
 	end
 end
 
 slot0.PlayMapAnim = function(slot0, slot1, slot2)
 	slot3 = slot0.eventAct:GetEventById(slot1):GetMapOptions()
-	slot5 = slot0:findTF(slot3, slot0.locationsTF)
+	slot5 = slot0.locationsTF:Find(slot3)
 
-	if slot0:findTF(slot3, slot0.bgTF) and slot5 then
+	if slot0.bgTF:Find(slot3) and slot5 then
 		setActive(slot4, true)
 
 		GetOrAddComponent(slot4, typeof(CanvasGroup)).alpha = 0
@@ -579,29 +585,29 @@ end
 slot0.UpdateWangduBtn = function(slot0)
 	slot0.isShowWangduTip = OtherworldBackHillScene.IsShowTip()
 
-	setActive(slot0:findTF("wangdu/name/tip", slot0.strongholdsTF), slot0.isShowWangduTip)
-	setActive(slot0:findTF("tip", slot0.leftArrow), slot0.isShowWangduTip and slot0.contextData.mode == uv0.MODE_BATTLE)
+	setActive(slot0.strongholdsTF:Find("wangdu/name/tip"), slot0.isShowWangduTip)
+	setActive(slot0.leftArrow:Find("tip"), slot0.isShowWangduTip and slot0.contextData.mode == uv0.MODE_BATTLE)
 end
 
 slot0.UpdateEntrances = function(slot0)
 	for slot5, slot6 in pairs(slot0.contextData.bossActivity:GetEnemyDatas()) do
 		slot7 = slot1:IsUnlockByEnemyId(slot6.id)
 
-		if slot0:findTF("lock", slot0:findTF(uv0.TYPE2NAME[slot6:GetType()], slot0.strongholdsTF)) then
+		if slot0.strongholdsTF:Find(uv0.TYPE2NAME[slot6:GetType()]):Find("lock") then
 			setActive(slot10, not slot7)
 		end
 
 		if slot8 == BossSingleEnemyData.TYPE.SP then
-			setActive(slot0:findTF("count", slot9), slot7 and slot6:InTime())
+			setActive(slot9:Find("count"), slot7 and slot6:InTime())
 
 			slot11, slot12 = slot1:GetCounts(slot6.id)
 
-			setText(slot0:findTF("count/Text", slot9), i18n("levelScene_chapter_count_tip") .. slot11 .. "/" .. slot12)
+			setText(slot9:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. slot11 .. "/" .. slot12)
 
 			slot13 = slot7 and slot11 > 0 and slot6:InTime()
 
-			setActive(slot0:findTF("name/tip", slot9), slot13)
-			setActive(slot0:findTF("tip", slot0.rightArrow), slot13 and slot0.contextData.mode == uv0.MODE_BATTLE)
+			setActive(slot9:Find("name/tip"), slot13)
+			setActive(slot0.rightArrow:Find("tip"), slot13 and slot0.contextData.mode == uv0.MODE_BATTLE)
 		end
 	end
 end
@@ -730,7 +736,7 @@ slot0.UpdateRes = function(slot0)
 end
 
 slot0.UpdateTerminalTip = function(slot0)
-	setActive(slot0:findTF("terminal_btn/tip", slot0.leftUI), TerminalAdventurePage.IsTip())
+	setActive(slot0.leftUI:Find("terminal_btn/tip"), TerminalAdventurePage.IsTip())
 end
 
 slot0.ShowBattleMode = function(slot0)
@@ -756,8 +762,8 @@ slot0.ShowBattleMode = function(slot0)
 		slot0.isShowSpTip = slot4 > 0
 	end
 
-	setActive(slot0:findTF("tip", slot0.rightArrow), slot0.isShowSpTip)
-	setActive(slot0:findTF("tip", slot0.leftArrow), slot0.isShowWangduTip)
+	setActive(slot0.rightArrow:Find("tip"), slot0.isShowSpTip)
+	setActive(slot0.leftArrow:Find("tip"), slot0.isShowWangduTip)
 	PlayerPrefs.SetInt(uv1 .. slot0.playerId, slot0.contextData.mode)
 	PlayerPrefs.Save()
 end
@@ -775,8 +781,8 @@ slot0.ShowStoryMode = function(slot0)
 
 	slot0:UpdateEvents()
 	slot0:UpdateMapArea()
-	setActive(slot0:findTF("tip", slot0.rightArrow), false)
-	setActive(slot0:findTF("tip", slot0.leftArrow), false)
+	setActive(slot0.rightArrow:Find("tip"), false)
+	setActive(slot0.leftArrow:Find("tip"), false)
 	PlayerPrefs.SetInt(uv1 .. slot0.playerId, slot0.contextData.mode)
 	PlayerPrefs.Save()
 end

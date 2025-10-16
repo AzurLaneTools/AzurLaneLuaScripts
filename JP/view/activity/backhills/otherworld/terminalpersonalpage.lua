@@ -35,60 +35,60 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_PERSONAL)
-	slot0.infoTF = slot0:findTF("frame/info")
+	slot0.infoTF = slot0._tf:Find("frame/info")
 
-	setText(slot0:findTF("title/content/Text", slot0.infoTF), i18n("personal_info_title"))
+	setText(slot0.infoTF:Find("title/content/Text"), i18n("personal_info_title"))
 
-	slot0.nameTitle = slot0:findTF("infos/name/title", slot0.infoTF)
-	slot0.nameInput = slot0:findTF("infos/name/box/InputField", slot0.infoTF)
-	slot0.jobTitle = slot0:findTF("infos/job/title", slot0.infoTF)
-	slot0.jobValue = slot0:findTF("infos/job/value", slot0.infoTF)
-	slot0.guardianTitle = slot0:findTF("infos/guardian/title", slot0.infoTF)
-	slot0.guardianValue = slot0:findTF("infos/guardian/value", slot0.infoTF)
-	slot0.lvTitle = slot0:findTF("level/lv/title", slot0.infoTF)
-	slot0.lvValue = slot0:findTF("level/lv/value", slot0.infoTF)
-	slot0.lvSlider = slot0:findTF("level/slider", slot0.infoTF)
-	slot0.lvUpgradeTF = slot0:findTF("level/slider/upgrade", slot0.infoTF)
+	slot0.nameTitle = slot0.infoTF:Find("infos/name/title")
+	slot0.nameInput = slot0.infoTF:Find("infos/name/box/InputField")
+	slot0.jobTitle = slot0.infoTF:Find("infos/job/title")
+	slot0.jobValue = slot0.infoTF:Find("infos/job/value")
+	slot0.guardianTitle = slot0.infoTF:Find("infos/guardian/title")
+	slot0.guardianValue = slot0.infoTF:Find("infos/guardian/value")
+	slot0.lvTitle = slot0.infoTF:Find("level/lv/title")
+	slot0.lvValue = slot0.infoTF:Find("level/lv/value")
+	slot0.lvSlider = slot0.infoTF:Find("level/slider")
+	slot0.lvUpgradeTF = slot0.infoTF:Find("level/slider/upgrade")
 
 	setActive(slot0.lvUpgradeTF, false)
 
-	slot0.propertyTF = slot0:findTF("frame/property")
+	slot0.propertyTF = slot0._tf:Find("frame/property")
 
-	setText(slot0:findTF("title/content/Text", slot0.propertyTF), i18n("personal_property_title"))
+	setText(slot0.propertyTF:Find("title/content/Text"), i18n("personal_property_title"))
 
-	slot0.propertyContent = slot0:findTF("content", slot0.propertyTF)
-	slot0.propertyTpl = slot0:findTF("tpl", slot0.propertyTF)
+	slot0.propertyContent = slot0.propertyTF:Find("content")
+	slot0.propertyTpl = slot0.propertyTF:Find("tpl")
 
 	setActive(slot0.propertyTpl, false)
-	setActive(slot0:findTF("upgrade", slot0.propertyTpl), false)
+	setActive(slot0.propertyTpl:Find("upgrade"), false)
 
 	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
-		slot0.abilityTF = slot0:findTF("frame/ability")
+		slot0.abilityTF = slot0._tf:Find("frame/ability")
 
-		setActive(slot0:findTF("frame/ability_2"), false)
+		setActive(slot0._tf:Find("frame/ability_2"), false)
 	else
-		slot0.abilityTF = slot0:findTF("frame/ability_2")
+		slot0.abilityTF = slot0._tf:Find("frame/ability_2")
 
-		setActive(slot0:findTF("frame/ability"), false)
+		setActive(slot0._tf:Find("frame/ability"), false)
 	end
 
 	setActive(slot0.abilityTF, true)
-	setText(slot0:findTF("title/content/Text", slot0.abilityTF), i18n("personal_ability_title"))
+	setText(slot0.abilityTF:Find("title/content/Text"), i18n("personal_ability_title"))
 
-	slot0.abilityContent = slot0:findTF("content", slot0.abilityTF)
-	slot0.abilityTpl = slot0:findTF("tpl", slot0.abilityTF)
+	slot0.abilityContent = slot0.abilityTF:Find("content")
+	slot0.abilityTpl = slot0.abilityTF:Find("tpl")
 
 	setActive(slot0.abilityTpl, false)
 
-	slot0.randomBtn = slot0:findTF("frame/random_btn")
+	slot0.randomBtn = slot0._tf:Find("frame/random_btn")
 
-	setText(slot0:findTF("Text", slot0.randomBtn), i18n("personal_random"))
+	setText(slot0.randomBtn:Find("Text"), i18n("personal_random"))
 
-	slot0.randomGreyBtn = slot0:findTF("frame/random_btn_grey")
+	slot0.randomGreyBtn = slot0._tf:Find("frame/random_btn_grey")
 
-	setText(slot0:findTF("Text", slot0.randomGreyBtn), i18n("personal_random"))
+	setText(slot0.randomGreyBtn:Find("Text"), i18n("personal_random"))
 
-	slot0.effectTF = slot0:findTF("effect")
+	slot0.effectTF = slot0._tf:Find("effect")
 
 	setActive(slot0.effectTF, false)
 
@@ -137,7 +137,7 @@ slot0.OnInit = function(slot0)
 
 	setActive(slot0.randomBtn, slot0.unlockRandom)
 	setActive(slot0.randomGreyBtn, not slot0.unlockRandom)
-	setActive(slot0:findTF("infos/name/box/edit", slot0.infoTF), slot0.unlockRandom)
+	setActive(slot0.infoTF:Find("infos/name/box/edit"), slot0.unlockRandom)
 
 	if slot0.unlockRandom and slot0:GetLocalName() ~= "" then
 		slot0.showName = slot0:GetLocalName()
@@ -210,8 +210,8 @@ slot0.UpdateProperty = function(slot0, slot1)
 		slot8.name = slot7
 		slot9, slot10 = slot0:GetRollAttrInfoById(slot7, slot1)
 
-		setText(slot0:findTF("name", slot8), slot9)
-		setText(slot0:findTF("value/Text", slot8), slot10)
+		setText(slot8:Find("name"), slot9)
+		setText(slot8:Find("value/Text"), slot10)
 
 		if slot1 then
 			OtherworldMapScene.personalRandomData[slot7] = slot10
@@ -251,8 +251,8 @@ slot0.UpdateAbility = function(slot0, slot1)
 		slot8.name = slot6
 		slot9, slot10 = slot0:GetRollAttrInfoById(slot7, slot1)
 
-		setText(slot0:findTF("name", slot8), slot9)
-		setText(slot0:findTF("value/Text", slot8), slot10)
+		setText(slot8:Find("name"), slot9)
+		setText(slot8:Find("value/Text"), slot10)
 
 		if slot1 then
 			OtherworldMapScene.personalRandomData[slot7] = slot10
@@ -374,26 +374,26 @@ slot0.PlayPropertyAnim = function(slot0, slot1)
 		slot10, slot11, slot12 = slot0:GetStaticInfo(uv0.PROPERTY_IDS[slot6])
 
 		if slot7 then
-			setText(slot0:findTF("name", slot8), uv0.config[slot9].name)
-			setText(slot0:findTF("value/Text", slot8), slot10)
+			setText(slot8:Find("name"), uv0.config[slot9].name)
+			setText(slot8:Find("value/Text"), slot10)
 		end
 
 		if slot12 then
 			table.insert(slot2, function (slot0)
 				slot2 = uv0
 
-				setActive(slot2:findTF("upgrade", uv1), uv2)
+				setActive(slot2:Find("upgrade"), uv1)
 
-				slot1 = uv0
+				slot1 = uv2
 
 				slot1:managedTween(LeanTween.delayedCall, function ()
-					setActive(uv0:findTF("upgrade", uv1), false)
+					setActive(uv0:Find("upgrade"), false)
 				end, uv3.UPGRADE_TAG_SHOW_TIME, nil)
 
-				slot1 = uv0
-				slot1 = slot1:managedTween(LeanTween.value, nil, go(uv1), uv4, uv5, uv3.PROPERTY_TPL_ANIM_TIME)
+				slot1 = uv2
+				slot1 = slot1:managedTween(LeanTween.value, nil, go(uv0), uv4, uv5, uv3.PROPERTY_TPL_ANIM_TIME)
 				slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
-					setText(uv0:findTF("value/Text", uv1), math.floor(slot0))
+					setText(uv0:Find("value/Text"), math.floor(slot0))
 				end))
 
 				slot1:setOnComplete(System.Action(function ()
@@ -454,8 +454,8 @@ slot0.PlayAbilityAnim = function(slot0, slot1)
 						end))
 
 						slot1:setOnComplete(System.Action(function ()
-							setText(uv0:findTF("name", uv1), uv2.config[uv3].name)
-							setText(uv0:findTF("value/Text", uv1), uv0.upgradeCfg[uv3])
+							setText(uv0:Find("name"), uv1.config[uv2].name)
+							setText(uv0:Find("value/Text"), uv3.upgradeCfg[uv2])
 							uv4()
 						end))
 					end)
@@ -463,12 +463,12 @@ slot0.PlayAbilityAnim = function(slot0, slot1)
 
 				table.insert(slot5, function (slot0)
 					if uv0 then
-						setText(uv1:findTF("name", uv2), uv3.config[uv4].name)
-						setText(uv1:findTF("value/Text", uv2), uv1.upgradeCfg[uv4])
+						setText(uv1:Find("name"), uv2.config[uv3].name)
+						setText(uv1:Find("value/Text"), uv4.upgradeCfg[uv3])
 					end
 
-					slot1 = uv1
-					slot1 = slot1:managedTween(LeanTween.value, nil, go(uv2), 0, 1, uv3.ABILITY_TPL_ANIM_TIME)
+					slot1 = uv4
+					slot1 = slot1:managedTween(LeanTween.value, nil, go(uv1), 0, 1, uv2.ABILITY_TPL_ANIM_TIME)
 					slot1 = slot1:setEase(LeanTweenType.easeOutBack)
 					slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 						GetOrAddComponent(uv0, typeof(CanvasGroup)).alpha = slot0

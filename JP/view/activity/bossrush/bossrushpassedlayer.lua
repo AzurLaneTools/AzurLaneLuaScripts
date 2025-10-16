@@ -55,10 +55,10 @@ slot0.updateSlider = function(slot0, slot1)
 	slot8 = (slot0.squareContainer.rect.width - slot6) * slot4
 
 	slot0.squareList:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("UnFinished", slot2)
-		slot4 = uv0:findTF("Finished", slot2)
-		slot5 = uv0:findTF("Challengeing", slot2)
-		slot6 = uv0:findTF("Arrow", slot2)
+		slot3 = slot2:Find("UnFinished")
+		slot4 = slot2:Find("Finished")
+		slot5 = slot2:Find("Challengeing")
+		slot6 = slot2:Find("Arrow")
 
 		slot7 = function()
 			setActive(uv0, true)
@@ -79,20 +79,20 @@ slot0.updateSlider = function(slot0, slot1)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			if slot1 + 1 < uv1 then
+			if slot1 + 1 < uv0 then
 				setActive(slot6, false)
 				slot7()
-			elseif slot1 + 1 == uv1 then
+			elseif slot1 + 1 == uv0 then
 				setActive(slot6, true)
 				slot9()
-			elseif uv1 < slot1 + 1 then
+			elseif uv0 < slot1 + 1 then
 				setActive(slot6, false)
 				slot8()
 			end
 
 			setAnchoredPosition(slot2, {
 				y = 0,
-				x = uv2 + uv3 * slot1
+				x = uv1 + uv2 * slot1
 			})
 		end
 	end)

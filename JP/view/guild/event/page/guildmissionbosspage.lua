@@ -5,27 +5,27 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.hp = slot0:findTF("hp/bar")
-	slot0.hpProgress = slot0:findTF("hp/bar/Text"):GetComponent(typeof(Text))
+	slot0.hp = slot0._tf:Find("hp/bar")
+	slot0.hpProgress = slot0._tf:Find("hp/bar/Text"):GetComponent(typeof(Text))
 	slot0.hpL = slot0.hp.rect.width
-	slot0.titleTxt = slot0:findTF("title"):GetComponent(typeof(Text))
-	slot0.assaultBtn = slot0:findTF("btn_a_formation")
-	slot0.battleBtn = slot0:findTF("btn_go")
-	slot0.reportBtn = slot0:findTF("btn_report")
-	slot0.reportTip = slot0:findTF("btn_report/tip")
-	slot0.reportTipTxt = slot0:findTF("btn_report/tip/Text"):GetComponent(typeof(Text))
-	slot0.cntTxt = slot0:findTF("btn_go/cnt/Text"):GetComponent(typeof(Text))
-	slot0.rankList = UIItemList.New(slot0:findTF("rank/content"), slot0:findTF("rank/content/tpl"))
-	slot0.paintingTF = slot0:findTF("painting")
-	slot0.prefabTF = slot0:findTF("prefab")
-	slot0.viewAllBtn = slot0:findTF("rank/view_all")
+	slot0.titleTxt = slot0._tf:Find("title"):GetComponent(typeof(Text))
+	slot0.assaultBtn = slot0.rtAdapt:Find("btn_a_formation")
+	slot0.battleBtn = slot0.rtAdapt:Find("btn_go")
+	slot0.reportBtn = slot0.rtAdapt:Find("btn_report")
+	slot0.reportTip = slot0.rtAdapt:Find("btn_report/tip")
+	slot0.reportTipTxt = slot0.rtAdapt:Find("btn_report/tip/Text"):GetComponent(typeof(Text))
+	slot0.cntTxt = slot0.rtAdapt:Find("btn_go/cnt/Text"):GetComponent(typeof(Text))
+	slot0.rankList = UIItemList.New(slot0._tf:Find("rank/content"), slot0._tf:Find("rank/content/tpl"))
+	slot0.paintingTF = slot0._tf:Find("painting")
+	slot0.prefabTF = slot0._tf:Find("prefab")
+	slot0.viewAllBtn = slot0._tf:Find("rank/view_all")
 	slot0.allRankPage = GuildBossRankPage.New(slot0._parentTf, slot0.event)
 
 	setActive(slot0.viewAllBtn, PLATFORM_CODE ~= PLATFORM_JP)
 
-	slot0.eventTimerTxt = slot0:findTF("timer/Text"):GetComponent(typeof(Text))
+	slot0.eventTimerTxt = slot0._tf:Find("timer/Text"):GetComponent(typeof(Text))
 
-	setText(slot0:findTF("timer/label"), i18n("guild_time_remaining_tip"))
+	setText(slot0._tf:Find("timer/label"), i18n("guild_time_remaining_tip"))
 
 	slot0.timeView = GuildEventTimerView.New()
 end
@@ -154,7 +154,7 @@ slot0.UpdatePainting = function(slot0)
 			end
 		end)
 
-		slot5 = slot0:findTF("name/Image", slot0.prefabTF):GetComponent(typeof(Image))
+		slot5 = slot0.prefabTF:Find("name/Image"):GetComponent(typeof(Image))
 		slot5.sprite = GetSpriteFromAtlas("guildboss/name_" .. slot4, "")
 
 		slot5:SetNativeSize()

@@ -33,8 +33,10 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.subViewContainer = slot0:findTF("BG/SubViewContainer")
-	slot0.helpBtn = slot0:findTF("BG/HelpBtn")
+	slot1 = slot0._tf
+	slot0.subViewContainer = slot1:Find("BG/SubViewContainer")
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("BG/HelpBtn")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.pray_build_help then

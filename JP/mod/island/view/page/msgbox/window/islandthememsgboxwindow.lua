@@ -7,12 +7,12 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.iconRaw = slot0:findTF("icon_raw"):GetComponent(typeof(RawImage))
-	slot0.icon = slot0:findTF("icon"):GetComponent(typeof(Image))
-	slot0.delBtn = slot0:findTF("delete")
+	slot0.iconRaw = slot0._tf:Find("icon_raw"):GetComponent(typeof(RawImage))
+	slot0.icon = slot0._tf:Find("icon"):GetComponent(typeof(Image))
+	slot0.delBtn = slot0._tf:Find("delete")
 
 	setText(slot0.delBtn:Find("Text"), i18n("island_btn_label_del"))
-	setText(slot0:findTF("confirm/Text"), i18n("island_word_place"))
+	setText(slot0._tf:Find("confirm/Text"), i18n("island_word_place"))
 end
 
 slot0.OnInit = function(slot0)

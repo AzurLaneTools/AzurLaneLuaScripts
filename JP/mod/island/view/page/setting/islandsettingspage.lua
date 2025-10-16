@@ -41,17 +41,17 @@ slot0.GetPage = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0:findTF("top/closeBtn")
-	slot1 = slot0:findTF("pages")
+	slot0.backBtn = slot0._tf:Find("top/closeBtn")
+	slot1 = slot0._tf:Find("pages")
 	slot0.pages = {
 		IslandSettings3DPage.New(slot1, slot0.event, {}),
 		IslandSettingsOperationPage.New(slot1, slot0.event),
 		IslandSettingsCommonPage.New(slot1, slot0.event, slot0.contextData)
 	}
 	slot0.toggles = {
-		slot0:findTF("adapt/left_length/imageQuality"),
-		slot0:findTF("adapt/left_length/operation"),
-		slot0:findTF("adapt/left_length/common")
+		slot0._tf:Find("adapt/left_length/imageQuality"),
+		slot0._tf:Find("adapt/left_length/operation"),
+		slot0._tf:Find("adapt/left_length/common")
 	}
 
 	slot2 = function(slot0, slot1)
@@ -59,11 +59,11 @@ slot0.OnLoaded = function(slot0)
 		setText(slot0:Find("name"), slot1)
 	end
 
-	slot2(slot0:findTF("adapt/left_length/imageQuality"), i18n("grapihcs3d_setting_3Dquality"))
-	slot2(slot0:findTF("adapt/left_length/operation"), i18n("grapihcs3d_setting_control"))
-	slot2(slot0:findTF("adapt/left_length/common"), i18n("grapihcs3d_setting_general"))
-	setText(slot0:findTF("top/title/Text"), i18n("island_settings"))
-	setText(slot0:findTF("top/title/Text/en"), i18n("island_settings_en"))
+	slot2(slot0._tf:Find("adapt/left_length/imageQuality"), i18n("grapihcs3d_setting_3Dquality"))
+	slot2(slot0._tf:Find("adapt/left_length/operation"), i18n("grapihcs3d_setting_control"))
+	slot2(slot0._tf:Find("adapt/left_length/common"), i18n("grapihcs3d_setting_general"))
+	setText(slot0._tf:Find("top/title/Text"), i18n("island_settings"))
+	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_settings_en"))
 end
 
 slot0.OnShow = function(slot0)

@@ -9,18 +9,18 @@ slot2 = {
 }
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD/mask")
-	slot0.countTF = slot0:findTF("rightPanel/count", slot0.bg)
-	slot0.itemTpl = slot0:findTF("itemTpl", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD/mask")
+	slot0.countTF = slot0.bg:Find("rightPanel/count")
+	slot0.itemTpl = slot0.bg:Find("itemTpl")
 
 	setActive(slot0.itemTpl, false)
 
-	slot0.items = slot0:findTF("rightPanel/items", slot0.bg)
-	slot0.countImg = slot0:findTF("countImg", slot0.bg)
-	slot0.paintings = slot0:findTF("paintings", slot0.bg)
-	slot0.paintingsSelected = slot0:findTF("paintingsSelected", slot0.bg)
-	slot0.descTf = slot0:findTF("rightPanel/desc", slot0.bg)
-	slot0.rightPanel = slot0:findTF("rightPanel", slot0.bg)
+	slot0.items = slot0.bg:Find("rightPanel/items")
+	slot0.countImg = slot0.bg:Find("countImg")
+	slot0.paintings = slot0.bg:Find("paintings")
+	slot0.paintingsSelected = slot0.bg:Find("paintingsSelected")
+	slot0.descTf = slot0.bg:Find("rightPanel/desc")
+	slot0.rightPanel = slot0.bg:Find("rightPanel")
 	slot0.itemTfs = {}
 	slot0.selectedIndex = 1
 	slot0.paintingTfs = {}
@@ -62,7 +62,7 @@ slot0.OnFirstFlush = function(slot0)
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 		table.insert(slot0.itemTfs, slot7)
-		onButton(slot0, slot0:findTF("get", slot7), function ()
+		onButton(slot0, slot7:Find("get"), function ()
 			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
 		end, SFX_PANEL)
 
@@ -150,11 +150,11 @@ end
 
 slot0.updateUI = function(slot0)
 	for slot4 = 1, #slot0.itemTfs do
-		slot7 = slot0:findTF("item", slot0.itemTfs[slot4])
+		slot7 = slot0.itemTfs[slot4]:Find("item")
 		slot12 = slot8 == 2
 
-		setActive(slot0:findTF("get", slot0.itemTfs[slot4]), (slot0.taskProxy:getTaskById(slot0.taskList[slot4]) or slot0.taskProxy:getFinishTaskById(slot5)):getTaskStatus() == 1 and slot0.remainCnt > 0)
-		setActive(slot0:findTF("got", slot0.itemTfs[slot4]), slot12)
+		setActive(slot0.itemTfs[slot4]:Find("get"), (slot0.taskProxy:getTaskById(slot0.taskList[slot4]) or slot0.taskProxy:getFinishTaskById(slot5)):getTaskStatus() == 1 and slot0.remainCnt > 0)
+		setActive(slot0.itemTfs[slot4]:Find("got"), slot12)
 
 		slot13 = slot0.paintingTfs[slot4]
 

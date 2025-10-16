@@ -9,14 +9,14 @@ slot0.ResUISettings = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.ani = slot0:findTF("TV01")
-	slot0.progress = slot0:findTF("progress/Text")
-	slot0.nodes = slot0:findTF("nodes")
-	slot0.nodeInfo = slot0:findTF("node_info")
-	slot0.titleTxt = slot0:findTF("progress/title")
-	slot0.titleNum = slot0:findTF("progress/cur")
-	slot0.helpBtn = slot0:findTF("help_btn")
-	slot0.storyTip = slot0:findTF("get_story")
+	slot0.ani = slot0._tf:Find("TV01")
+	slot0.progress = slot0._tf:Find("progress/Text")
+	slot0.nodes = slot0._tf:Find("nodes")
+	slot0.nodeInfo = slot0._tf:Find("node_info")
+	slot0.titleTxt = slot0._tf:Find("progress/title")
+	slot0.titleNum = slot0._tf:Find("progress/cur")
+	slot0.helpBtn = slot0._tf:Find("help_btn")
+	slot0.storyTip = slot0._tf:Find("get_story")
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot1 = pg.activity_template[ActivityConst.NEWMEIXIV4_SKIRMISH_ID]
 	slot0.storyGroup = slot1.config_client.storys
@@ -24,10 +24,10 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/back_btn"), function ()
+	onButton(slot0, slot0._tf:Find("top/back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
-	onButton(slot0, slot0:findTF("top/option"), function ()
+	onButton(slot0, slot0._tf:Find("top/option"), function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -36,7 +36,7 @@ slot0.didEnter = function(slot0)
 			helps = i18n("MeixiV4_help")
 		})
 	end, SFX_PANEL)
-	setText(slot0:findTF("bar/tip", slot0.storyTip), i18n("world_collection_back"))
+	setText(slot0.storyTip:Find("bar/tip"), i18n("world_collection_back"))
 	slot0:playAni()
 	slot0:updateNodes()
 end
@@ -101,7 +101,7 @@ slot0.updateNodes = function(slot0)
 end
 
 slot0.nodeInfoTween = function(slot0, slot1)
-	slot2 = tf(slot0:findTF(tostring(slot1), slot0.nodes)).localPosition
+	slot2 = tf(slot0._tf:Find(tostring(slot1), slot0.nodes)).localPosition
 
 	if slot1 == 9 then
 		slot2.x = slot2.x - 80
@@ -146,16 +146,16 @@ slot0.updateNodeInfo = function(slot0, slot1)
 	slot7 = slot4 and slot4:getConfig("target_num") or slot5.target_num
 	slot8 = slot4 and slot4:getTaskStatus() or 2
 
-	setSlider(slot0:findTF("progress", slot0.nodeInfo), 0, slot7, slot6)
-	setText(slot0:findTF("step", slot0.nodeInfo), slot6 .. "/" .. slot7)
-	setText(slot0:findTF("content", slot0.nodeInfo), slot4 and slot4:getConfig("desc") or slot5.desc)
-	setText(slot0:findTF("title", slot0.nodeInfo), string.format("%02d", slot1))
+	setSlider(slot0.nodeInfo:Find("progress"), 0, slot7, slot6)
+	setText(slot0.nodeInfo:Find("step"), slot6 .. "/" .. slot7)
+	setText(slot0.nodeInfo:Find("content"), slot4 and slot4:getConfig("desc") or slot5.desc)
+	setText(slot0.nodeInfo:Find("title"), string.format("%02d", slot1))
 
-	slot11 = slot0:findTF("get_btn", slot0.nodeInfo)
+	slot11 = slot0.nodeInfo:Find("get_btn")
 
-	setActive(slot0:findTF("go_btn", slot0.nodeInfo), slot8 == 0)
+	setActive(slot0.nodeInfo:Find("go_btn"), slot8 == 0)
 	setActive(slot11, slot8 == 1)
-	setActive(slot0:findTF("step/finish", slot0.nodeInfo), slot8 == 2)
+	setActive(slot0.nodeInfo:Find("step/finish"), slot8 == 2)
 	onButton(slot0, slot10, function ()
 		uv0:emit(NewMeixiV4Mediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
@@ -163,12 +163,12 @@ slot0.updateNodeInfo = function(slot0, slot1)
 		uv0:emit(NewMeixiV4Mediator.ON_TASK_SUBMIT, uv1)
 	end, SFX_PANEL)
 	eachChild(slot0.nodes, function (slot0)
-		slot1 = uv0:findTF("arrow", slot0)
+		slot1 = slot0:Find("arrow")
 
 		LeanTween.cancel(slot1.gameObject)
 		setLocalPosition(slot1, Vector3(0, 27, 0))
 
-		if tonumber(slot0.name) == uv1 then
+		if tonumber(slot0.name) == uv0 then
 			setActive(slot1, true)
 			LeanTween.moveY(slot1, 40, 0.5):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 		else
@@ -196,15 +196,22 @@ slot0.getStory = function(slot0, slot1, slot2)
 	slot4 = pg.NewStoryMgr.GetInstance()
 
 	slot4:SetPlayedFlag(slot2)
-	setText(slot0:findTF("bar/Anim/Frame/Mask/Name", slot0.storyTip), pg.memory_template[slot1].title)
+
+	slot5 = slot0.storyTip
+
+	setText(slot5:Find("bar/Anim/Frame/Mask/Name"), pg.memory_template[slot1].title)
 	removeOnButton(slot0.storyTip)
-	removeOnButton(slot0:findTF("bar/Button", slot0.storyTip))
+
+	slot5 = slot0.storyTip
+
+	removeOnButton(slot5:Find("bar/Button"))
 
 	slot4 = pg.UIMgr.GetInstance()
 
 	slot4:BlurPanel(slot0.storyTip)
 
-	slot4 = slot0:findTF("bar", slot0.storyTip)
+	slot4 = slot0.storyTip
+	slot4 = slot4:Find("bar")
 	slot4 = slot4:GetComponent(typeof(DftAniEvent))
 
 	slot4:SetEndEvent(function ()
@@ -213,9 +220,9 @@ slot0.getStory = function(slot0, slot1, slot2)
 			setActive(uv0.storyTip, false)
 		end)
 
-		slot2 = uv0
+		slot2 = uv0.storyTip
 
-		onButton(uv0, slot2:findTF("bar/Button", uv0.storyTip), function ()
+		onButton(uv0, slot2:Find("bar/Button"), function ()
 			uv0:emit(NewMeixiV4Mediator.GO_STORY, uv0.memoryGroup)
 			triggerButton(uv0.storyTip)
 		end, SFX_PANEL)

@@ -45,10 +45,10 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.initTipText = function(slot0)
-	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemCannon/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
-	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemTorpedo/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
-	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemAir/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
-	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemReload/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
+	setText(slot0._tf:Find("Repair/AttrListPanel/AttrItemContainer/AttrItemCannon/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
+	setText(slot0._tf:Find("Repair/AttrListPanel/AttrItemContainer/AttrItemTorpedo/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
+	setText(slot0._tf:Find("Repair/AttrListPanel/AttrItemContainer/AttrItemAir/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
+	setText(slot0._tf:Find("Repair/AttrListPanel/AttrItemContainer/AttrItemReload/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
 end
 
 slot0.initData = function(slot0)
@@ -64,31 +64,31 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.repairPanel = slot0:findTF("Repair")
-	slot0.attrListPanel = slot0:findTF("AttrListPanel", slot0.repairPanel)
-	slot0.attrItemContainer = slot0:findTF("AttrItemContainer", slot0.attrListPanel)
-	slot0.attrCannonTF = slot0:findTF("AttrItemCannon", slot0.attrItemContainer)
-	slot0.attrTorpedoTF = slot0:findTF("AttrItemTorpedo", slot0.attrItemContainer)
-	slot0.attrAirTF = slot0:findTF("AttrItemAir", slot0.attrItemContainer)
-	slot0.attrReloadTF = slot0:findTF("AttrItemReload", slot0.attrItemContainer)
+	slot0.repairPanel = slot0._tf:Find("Repair")
+	slot0.attrListPanel = slot0.repairPanel:Find("AttrListPanel")
+	slot0.attrItemContainer = slot0.attrListPanel:Find("AttrItemContainer")
+	slot0.attrCannonTF = slot0.attrItemContainer:Find("AttrItemCannon")
+	slot0.attrTorpedoTF = slot0.attrItemContainer:Find("AttrItemTorpedo")
+	slot0.attrAirTF = slot0.attrItemContainer:Find("AttrItemAir")
+	slot0.attrReloadTF = slot0.attrItemContainer:Find("AttrItemReload")
 	slot0.attrTFList.cannon = slot0.attrCannonTF
 	slot0.attrTFList.torpedo = slot0.attrTorpedoTF
 	slot0.attrTFList.air = slot0.attrAirTF
 	slot0.attrTFList.reload = slot0.attrReloadTF
-	slot0.repairPercentText = slot0:findTF("SynProgressPanel/SynRate/NumTextText", slot0.repairPanel)
-	slot0.repairSliderTF = slot0:findTF("SynProgressPanel/Slider", slot0.repairPanel)
-	slot0.repairBtn = slot0:findTF("RepairBtn", slot0.repairPanel)
-	slot0.repairBtnDisable = slot0:findTF("RepairBtnDisable", slot0.repairPanel)
-	slot0.showDetailLine = slot0:findTF("ShowDetailLine")
-	slot0.showDetailBtn = slot0:findTF("ShowDetailBtn", slot0.showDetailLine)
-	slot0.detailPanel = slot0:findTF("Detail")
-	slot0.detailBG = slot0:findTF("BG", slot0.detailPanel)
-	slot0.detailTF = slot0:findTF("Panel", slot0.detailPanel)
-	slot0.detailCloseBtn = slot0:findTF("CloseBtn", slot0.detailTF)
-	slot0.detailLineTpl = slot0:findTF("DetailLineTpl", slot0.detailTF)
-	slot0.detailItemTpl = slot0:findTF("DetailItemTpl", slot0.detailTF)
-	slot0.detailItemContainer = slot0:findTF("ScrollView/Viewport/Content", slot0.detailTF)
-	slot0.repairEffectBoxPanel = slot0:findTF("RepairEffectBox")
+	slot0.repairPercentText = slot0.repairPanel:Find("SynProgressPanel/SynRate/NumTextText")
+	slot0.repairSliderTF = slot0.repairPanel:Find("SynProgressPanel/Slider")
+	slot0.repairBtn = slot0.repairPanel:Find("RepairBtn")
+	slot0.repairBtnDisable = slot0.repairPanel:Find("RepairBtnDisable")
+	slot0.showDetailLine = slot0._tf:Find("ShowDetailLine")
+	slot0.showDetailBtn = slot0.showDetailLine:Find("ShowDetailBtn")
+	slot0.detailPanel = slot0._tf:Find("Detail")
+	slot0.detailBG = slot0.detailPanel:Find("BG")
+	slot0.detailTF = slot0.detailPanel:Find("Panel")
+	slot0.detailCloseBtn = slot0.detailTF:Find("CloseBtn")
+	slot0.detailLineTpl = slot0.detailTF:Find("DetailLineTpl")
+	slot0.detailItemTpl = slot0.detailTF:Find("DetailItemTpl")
+	slot0.detailItemContainer = slot0.detailTF:Find("ScrollView/Viewport/Content")
+	slot0.repairEffectBoxPanel = slot0._tf:Find("RepairEffectBox")
 end
 
 slot0.addListener = function(slot0)
@@ -168,10 +168,10 @@ slot0.updateAttrListPanel = function(slot0)
 end
 
 slot0.updateAttrItem = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF("LockPanel", slot1)
-	slot4 = slot0:findTF("UnSelectPanel", slot1)
+	slot3 = slot1:Find("LockPanel")
+	slot4 = slot1:Find("UnSelectPanel")
 
-	GetComponent(slot0:findTF("TitleImg", slot0:findTF("SelectedPanel", slot1)), "Image"):SetNativeSize()
+	GetComponent(slot1:Find("SelectedPanel"):Find("TitleImg"), "Image"):SetNativeSize()
 
 	if slot0.curMetaCharacterVO:getAttrVO(slot2):isLock() then
 		setActive(slot4, false)
@@ -187,15 +187,15 @@ slot0.updateAttrItem = function(slot0, slot1, slot2)
 		setActive(slot3, false)
 
 		slot9.interactable = true
-		slot13 = slot0:findTF("AttrRepairValue/Image", slot5)
-		slot14 = slot0:findTF("AttrRepairValue/NextValueText", slot5)
-		slot15 = slot0:findTF("IconTpl", slot5)
-		slot17 = slot0:findTF("NumText", slot0:findTF("ItemCount", slot5))
+		slot13 = slot5:Find("AttrRepairValue/Image")
+		slot14 = slot5:Find("AttrRepairValue/NextValueText")
+		slot15 = slot5:Find("IconTpl")
+		slot17 = slot5:Find("ItemCount"):Find("NumText")
 		slot18 = slot7:getAddition()
 
-		setText(slot0:findTF("ValueText", slot4), "+" .. slot18)
-		setText(slot0:findTF("ValueText", slot5), "+" .. slot18)
-		setText(slot0:findTF("AttrRepairValue/CurValueText", slot5), "+" .. slot18)
+		setText(slot4:Find("ValueText"), "+" .. slot18)
+		setText(slot5:Find("ValueText"), "+" .. slot18)
+		setText(slot5:Find("AttrRepairValue/CurValueText"), "+" .. slot18)
 
 		slot21 = nil
 		slot21 = (slot7:isMaxLevel() or slot7:getItem()) and slot7:getItemByLevel(slot7:getLevel() - 1)
@@ -260,43 +260,43 @@ slot0.updateRepairBtn = function(slot0, slot1)
 end
 
 slot0.updateDetailItem = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("LockPanel", slot1)
+	slot4 = slot1:Find("LockPanel")
 	slot6 = slot2.progress
 
-	setText(slot0:findTF("TipText", slot4), i18n("meta_repair_effect_unlock", slot6))
+	setText(slot4:Find("TipText"), i18n("meta_repair_effect_unlock", slot6))
 	setActive(slot4, slot6 > slot0.curMetaCharacterVO:getRepairRate() * 100)
 
-	slot13 = UIItemList.New(slot0:findTF("LineContainer", slot1), slot0.detailLineTpl)
+	slot13 = UIItemList.New(slot1:Find("LineContainer"), slot0.detailLineTpl)
 
 	slot13:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("AttrLine", slot2)
-		slot4 = uv0:findTF("UnlockTipLine", slot2)
-		slot5 = uv0:findTF("Text", slot2)
+		slot3 = slot2:Find("AttrLine")
+		slot4 = slot2:Find("UnlockTipLine")
+		slot5 = slot2:Find("Text")
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 == 1 then
 				setActive(slot3, false)
 				setActive(slot4, false)
 				setActive(slot5, true)
-				setText(slot5, i18n("meta_repair_effect_unlock", uv1))
+				setText(slot5, i18n("meta_repair_effect_unlock", uv0))
 
 				return
 			end
 
-			if slot1 <= uv2 + 1 then
+			if slot1 <= uv1 + 1 then
 				setActive(slot3, true)
 				setActive(slot4, false)
 
-				slot9 = uv3[slot1 - 1]
+				slot9 = uv2[slot1 - 1]
 				slot10 = slot9[1]
 
-				setImageSprite(uv0:findTF("AttrIcon", slot3), LoadSprite("attricon", slot10))
-				setText(uv0:findTF("AttrNameText", slot3), AttributeType.Type2Name(slot10))
-				setText(uv0:findTF("NumText", slot3), "+" .. slot9[2])
+				setImageSprite(slot3:Find("AttrIcon"), LoadSprite("attricon", slot10))
+				setText(slot3:Find("AttrNameText"), AttributeType.Type2Name(slot10))
+				setText(slot3:Find("NumText"), "+" .. slot9[2])
 			else
 				setActive(slot3, false)
 				setActive(slot4, true)
-				setScrollText(uv0:findTF("Text", slot4), uv4[slot1 - 1 - uv2])
+				setScrollText(slot4:Find("Text"), uv3[slot1 - 1 - uv1])
 			end
 		end
 	end)
@@ -337,38 +337,38 @@ end
 
 slot0.openRepairEffectBoxPanel = function(slot0, slot1)
 	slot7 = slot1.progress
-	slot8 = slot0:findTF("BG", slot0.repairEffectBoxPanel)
+	slot8 = slot0.repairEffectBoxPanel:Find("BG")
 
-	onButton(slot0, slot0:findTF("Box/BtnContainer/ConfirmBtn", slot0.repairEffectBoxPanel), function ()
+	onButton(slot0, slot0.repairEffectBoxPanel:Find("Box/BtnContainer/ConfirmBtn"), function ()
 		uv0:closeRepairEffectBoxPanel()
 	end, SFX_CANCEL)
 
-	slot10 = slot0:findTF("Box/Panel/TypeRepairEffect", slot0.repairEffectBoxPanel)
-	slot12 = UIItemList.New(slot10, slot0:findTF("DetailLineTpl", slot10))
+	slot10 = slot0.repairEffectBoxPanel:Find("Box/Panel/TypeRepairEffect")
+	slot12 = UIItemList.New(slot10, slot10:Find("DetailLineTpl"))
 
 	slot12:make(function (slot0, slot1, slot2)
-		slot3 = uv0:findTF("AttrLine", slot2)
-		slot4 = uv0:findTF("UnlockTipLine", slot2)
+		slot3 = slot2:Find("AttrLine")
+		slot4 = slot2:Find("UnlockTipLine")
 
 		if slot0 == UIItemList.EventUpdate then
 			if slot1 + 1 == 1 then
 				setActive(slot3, false)
 				setActive(slot4, true)
-				setScrollText(uv0:findTF("Text", slot4), i18n("meta_repair_effect_special", uv1))
-			elseif slot1 > 1 and slot1 <= 1 + uv2 then
+				setScrollText(slot4:Find("Text"), i18n("meta_repair_effect_special", uv0))
+			elseif slot1 > 1 and slot1 <= 1 + uv1 then
 				setActive(slot3, true)
 				setActive(slot4, false)
 
-				slot8 = uv3[slot1 - 1]
+				slot8 = uv2[slot1 - 1]
 				slot9 = slot8[1]
 
-				setImageSprite(uv0:findTF("AttrIcon", slot3), LoadSprite("attricon", slot9))
-				setText(uv0:findTF("AttrNameText", slot3), AttributeType.Type2Name(slot9))
-				setText(uv0:findTF("NumText", slot3), "+" .. slot8[2])
-			elseif slot1 > 1 + uv2 and slot1 <= uv4 then
+				setImageSprite(slot3:Find("AttrIcon"), LoadSprite("attricon", slot9))
+				setText(slot3:Find("AttrNameText"), AttributeType.Type2Name(slot9))
+				setText(slot3:Find("NumText"), "+" .. slot8[2])
+			elseif slot1 > 1 + uv1 and slot1 <= uv3 then
 				setActive(slot3, false)
 				setActive(slot4, true)
-				setScrollText(uv0:findTF("Text", slot4), uv5[slot1 - (1 + uv2)])
+				setScrollText(slot4:Find("Text"), uv4[slot1 - (1 + uv1)])
 			end
 		end
 	end)

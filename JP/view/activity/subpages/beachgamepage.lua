@@ -3,10 +3,10 @@ slot0.MINIGAME_HUB_ID = 37
 slot0.MINIGAME_ID = 44
 
 slot0.OnInit = function(slot0)
-	slot0.goBtn = slot0:findTF("AD/go")
-	slot0.indexTpl = slot0:findTF("AD/index")
-	slot0.markContainer = slot0:findTF("AD/marks")
-	slot0.markTpl = slot0:findTF("AD/marks/1")
+	slot0.goBtn = slot0._tf:Find("AD/go")
+	slot0.indexTpl = slot0._tf:Find("AD/index")
+	slot0.markContainer = slot0._tf:Find("AD/marks")
+	slot0.markTpl = slot0._tf:Find("AD/marks/1")
 	slot0.markTrs = {}
 
 	for slot4 = 1, 7 do

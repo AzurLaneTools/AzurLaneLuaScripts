@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.InitCustom = function(slot0)
-	slot0.layerEmpty = slot0:findTF("bg/Empty")
+	slot0.layerEmpty = slot0._tf:Find("bg/Empty")
 
-	setText(slot0:findTF("bg/Empty/bg/Text"), i18n(slot0.unlockText))
+	setText(slot0._tf:Find("bg/Empty/bg/Text"), i18n(slot0.unlockText))
 
-	slot0.painting = slot0:findTF("bg/painting")
-	slot0.topBar = slot0:findTF("Top/TopBar")
-	slot0.chat = slot0:findTF("bg/Chat")
+	slot0.painting = slot0._tf:Find("bg/painting")
+	slot0.topBar = slot0._tf:Find("Top/TopBar")
+	slot0.chat = slot0._tf:Find("bg/Chat")
 
 	setActive(slot0.chat, false)
 end
@@ -138,10 +138,10 @@ end
 
 slot0.UpdateRyzaDrop = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot1, slot2)
-	SetCompomentEnabled(slot0:findTF("icon_bg", slot1), typeof(Image), false)
-	setActive(slot0:findTF("bg", slot1), false)
-	setActive(slot0:findTF("icon_bg/frame", slot1), false)
-	setActive(slot0:findTF("icon_bg/stars", slot1), false)
+	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), false)
+	setActive(slot1:Find("bg"), false)
+	setActive(slot1:Find("icon_bg/frame"), false)
+	setActive(slot1:Find("icon_bg/stars"), false)
 
 	slot4 = slot2:getConfig("rarity")
 
@@ -149,7 +149,7 @@ slot0.UpdateRyzaDrop = function(slot0, slot1, slot2, slot3)
 		slot4 = slot4 - 1
 	end
 
-	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot4), slot0:findTF("icon_bg", slot1))
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot4), slot1:Find("icon_bg"))
 
 	if slot2.type ~= DROP_TYPE_RYZA_DROP then
 		onButton(slot0, slot1, function ()

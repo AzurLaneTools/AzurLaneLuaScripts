@@ -554,16 +554,9 @@ slot0.SetMapSwitch = function(slot0)
 			slot5:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
 					slot3 = uv0[slot1 + 1]
-					slot4 = pg.dorm3d_rooms[slot3]
-					slot6 = getProxy(ApartmentProxy):getRoom(slot3) and slot5:getState() or "lock"
 
-					setActive(slot2:Find("lock"), slot6 ~= "complete")
-					setActive(slot2:Find("normal"), slot6 == "complete")
-
-					if slot6 == "complete" then
-						GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_icon_%s", string.lower(slot4.assets_prefix)), "", slot2:Find("normal/mask/icon"), false)
-					end
-
+					setActive(slot2:Find("lock"), (getProxy(ApartmentProxy):getRoom(slot3) and slot5:getState() or "lock") ~= "complete")
+					GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_icon_%s", string.lower(pg.dorm3d_rooms[slot3].assets_prefix)), "", slot2:Find("normal/mask/icon"), false)
 					setText(slot2:Find("roomId"), slot3)
 				end
 			end)

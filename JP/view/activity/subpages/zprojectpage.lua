@@ -3,7 +3,7 @@ slot0 = class("ZProjectPage", import(".TemplatePage.PreviewTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.awardTF = slot0:findTF("AD/award")
+	slot0.awardTF = slot0._tf:Find("AD/award")
 end
 
 slot0.OnFirstFlush = function(slot0)

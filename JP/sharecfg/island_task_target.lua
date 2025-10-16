@@ -1059,7 +1059,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100010711] = {
-		tips = "order",
+		tips = "10020009",
 		name = "パトリックに手伝ってもらおう",
 		type = 3,
 		id = 100010711,
@@ -1295,7 +1295,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100020801] = {
-		tips = "shop",
+		tips = "10010040",
 		name = "小麦の種を買う",
 		type = 5,
 		id = 100020801,
@@ -1651,7 +1651,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100022901] = {
-		tips = "",
+		tips = "10030009",
 		name = "定期補給を入手しよう",
 		type = 13,
 		id = 100022901,
@@ -1699,7 +1699,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023401] = {
-		tips = "",
+		tips = "10040022",
 		name = "石炭を集める",
 		type = 4,
 		id = 100023401,
@@ -1709,7 +1709,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100023402] = {
-		tips = "",
+		tips = "10040002",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 100023402,
@@ -1877,7 +1877,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100031001] = {
-		tips = "technology",
+		tips = "10070004",
 		name = "「いちご栽培」を研究する",
 		type = 8,
 		id = 100031001,
@@ -1905,7 +1905,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100040201] = {
-		tips = "",
+		tips = "10040022",
 		name = "石炭を集める",
 		type = 4,
 		id = 100040201,
@@ -1935,7 +1935,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010021] = {
-		tips = "",
+		tips = "10040036",
 		name = "伐採完了",
 		type = 6,
 		id = 200010021,
@@ -1975,7 +1975,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010061] = {
-		tips = "",
+		tips = "10040002",
 		name = "実用の木材を集める",
 		type = 4,
 		id = 200010061,
@@ -1995,7 +1995,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200010081] = {
-		tips = "",
+		tips = "10040022",
 		name = "鉄鉱石を集める",
 		type = 4,
 		id = 200010081,
@@ -2045,7 +2045,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020041] = {
-		tips = "",
+		tips = "10010003",
 		name = "絵筆制作用の羊毛を収集",
 		type = 4,
 		id = 200020041,
@@ -2055,7 +2055,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200020051] = {
-		tips = "",
+		tips = "10040002",
 		name = "額縁制作用のエレガント木材を集める",
 		type = 4,
 		id = 200020051,
@@ -2085,7 +2085,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200030021] = {
-		tips = "",
+		tips = "10040022",
 		name = "アルミ鉱石を集める",
 		type = 4,
 		id = 200030021,
@@ -2133,7 +2133,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200040021] = {
-		tips = "",
+		tips = "10090008",
 		name = "ニンジン厚焼き玉子を作る",
 		type = 4,
 		id = 200040021,
@@ -2343,7 +2343,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200060091] = {
-		tips = "",
+		tips = "10040002",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 200060091,
@@ -2403,7 +2403,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200070061] = {
-		tips = "",
+		tips = "10050002",
 		name = "新鮮なレモンを手に入れる",
 		type = 4,
 		id = 200070061,
@@ -2473,7 +2473,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080021] = {
-		tips = "",
+		tips = "10040002",
 		name = "大自然の原木を集める",
 		type = 4,
 		id = 200080021,
@@ -2483,7 +2483,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200080031] = {
-		tips = "",
+		tips = "10040022",
 		name = "石炭を集める",
 		type = 4,
 		id = 200080031,
@@ -2603,7 +2603,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200100071] = {
-		tips = "",
+		tips = "10010003",
 		name = "卵を収集する",
 		type = 4,
 		id = 200100071,
@@ -2653,7 +2653,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110041] = {
-		tips = "",
+		tips = "10040002",
 		name = "大自然の原木を収集",
 		type = 4,
 		id = 200110041,
@@ -2663,7 +2663,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110042] = {
-		tips = "",
+		tips = "10040022",
 		name = "鉄鉱石を集める",
 		type = 4,
 		id = 200110042,
@@ -2673,7 +2673,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110051] = {
-		tips = "",
+		tips = "10010003",
 		name = "鶏肉を集める",
 		type = 4,
 		id = 200110051,
@@ -2683,7 +2683,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200110052] = {
-		tips = "",
+		tips = "10010003",
 		name = "牛乳を集める",
 		type = 4,
 		id = 200110052,
@@ -2733,7 +2733,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200120051] = {
-		tips = "",
+		tips = "10050002",
 		name = "柑橘を収穫しよう",
 		type = 4,
 		id = 200120051,
@@ -2851,7 +2851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130061] = {
-		tips = "",
+		tips = "10050003",
 		name = "仲間を配置して苗場でラベンダーを植える",
 		type = 7,
 		id = 200130061,
@@ -2861,7 +2861,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[200130071] = {
-		tips = "",
+		tips = "10050003",
 		name = "ラベンダーを集める",
 		type = 4,
 		id = 200130071,
@@ -3000,7 +3000,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[303010011] = {
-		tips = "",
+		tips = "10020004",
 		name = "輸送委託を1回完了する",
 		type = 12,
 		id = 303010011,
@@ -3010,7 +3010,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[304010011] = {
-		tips = "",
+		tips = "10020009",
 		name = "離島依頼を1回こなす",
 		type = 3,
 		id = 304010011,
@@ -3368,7 +3368,7 @@ pg.base.island_task_target = {
 		target_param = ""
 	},
 	[306010011] = {
-		tips = "",
+		tips = "10030009",
 		name = "定期補給を受け取る",
 		type = 13,
 		id = 306010011,
@@ -3417,7 +3417,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307020011] = {
-		tips = "",
+		tips = "10060002",
 		name = "任意の有魚飯店のメニューを作る",
 		type = 7,
 		id = 307020011,
@@ -3433,7 +3433,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307030011] = {
-		tips = "",
+		tips = "10060002",
 		name = "任意の白クマ茶房のメニューを作る",
 		type = 7,
 		id = 307030011,
@@ -3450,7 +3450,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307040011] = {
-		tips = "",
+		tips = "10060002",
 		name = "任意の饅頭軽食のメニューを作る",
 		type = 7,
 		id = 307040011,
@@ -3465,7 +3465,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307050011] = {
-		tips = "",
+		tips = "10060002",
 		name = "任意の乌魚焼肉のメニューを作る",
 		type = 7,
 		id = 307050011,
@@ -3479,7 +3479,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[307060011] = {
-		tips = "",
+		tips = "10090008",
 		name = "任意の饅頭カフェのメニューを作る",
 		type = 7,
 		id = 307060011,
@@ -3494,7 +3494,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000011] = {
-		tips = "",
+		tips = "10040003",
 		name = "任意の鉱物を採集",
 		type = 6,
 		id = 300000011,
@@ -3509,7 +3509,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000021] = {
-		tips = "",
+		tips = "10040013",
 		name = "任意の木材を採集",
 		type = 6,
 		id = 300000021,
@@ -3522,7 +3522,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000031] = {
-		tips = "",
+		tips = "10020009",
 		name = "任意の離島依頼をこなす",
 		type = 3,
 		id = 300000031,
@@ -3532,7 +3532,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[300000041] = {
-		tips = "",
+		tips = "10070004",
 		name = "任意の研究を完了する",
 		type = 7,
 		id = 300000041,
@@ -3790,7 +3790,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401010011] = {
-		tips = "",
+		tips = "10040022",
 		name = "仲間を配置し、鉱石を生産させる",
 		type = 7,
 		id = 401010011,
@@ -3805,7 +3805,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401020011] = {
-		tips = "",
+		tips = "10040002",
 		name = "仲間を配置し、木材を生産させる",
 		type = 7,
 		id = 401020011,
@@ -3818,7 +3818,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401030011] = {
-		tips = "",
+		tips = "10010040",
 		name = "仲間を配置し、農作物を生産させる",
 		type = 7,
 		id = 401030011,
@@ -3835,7 +3835,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401040011] = {
-		tips = "",
+		tips = "10050003",
 		name = "仲間を配置し、苗圃産物を生産させる",
 		type = 7,
 		id = 401040011,
@@ -3851,7 +3851,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401050011] = {
-		tips = "",
+		tips = "10050002",
 		name = "仲間を配置し、果樹園産物を生産させる",
 		type = 7,
 		id = 401050011,
@@ -3869,7 +3869,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401060011] = {
-		tips = "",
+		tips = "10010003",
 		name = "仲間を配置し、牧場産物を生産させる",
 		type = 7,
 		id = 401060011,
@@ -3882,7 +3882,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401070011] = {
-		tips = "",
+		tips = "10070016",
 		name = "手工製品を生産する",
 		type = 7,
 		id = 401070011,
@@ -3900,7 +3900,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401080011] = {
-		tips = "",
+		tips = "10070014",
 		name = "機械製品を生産する",
 		type = 7,
 		id = 401080011,
@@ -3915,7 +3915,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401090011] = {
-		tips = "",
+		tips = "10070013",
 		name = "木製品を生産する",
 		type = 7,
 		id = 401090011,
@@ -3929,7 +3929,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[401100011] = {
-		tips = "",
+		tips = "10070015",
 		name = "電子製品を生産する",
 		type = 7,
 		id = 401100011,

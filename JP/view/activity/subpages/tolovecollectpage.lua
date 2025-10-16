@@ -12,20 +12,20 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	setImageRaycastTarget(slot0:findTF("tpl/Frame", slot0.content), false)
+	setImageRaycastTarget(slot0.content:Find("tpl/Frame"), false)
 
-	slot0.boxTF = slot0:findTF("Box")
-	slot0.boxBG = slot0:findTF("BG", slot0.boxTF)
-	slot0.panel = slot0:findTF("Panel", slot0.boxTF)
-	slot0.infoTF = slot0:findTF("Info", slot0.panel)
-	slot0.boxCloseBtn = slot0:findTF("CloseBtn", slot0.infoTF)
-	slot0.boxIconTF = slot0:findTF("Icon/Mask/IconTpl", slot0.infoTF)
-	slot0.boxNameText = slot0:findTF("NameText", slot0.infoTF)
-	slot0.boxNumTF = slot0:findTF("Num", slot0.infoTF)
-	slot0.boxNumTip = slot0:findTF("Text", slot0.boxNumTF)
-	slot0.boxNumText = slot0:findTF("NumText", slot0.boxNumTF)
-	slot0.boxDescText = slot0:findTF("DescText", slot0.infoTF)
-	slot0.boxSrcText = slot0:findTF("SrcText", slot0.infoTF)
+	slot0.boxTF = slot0._tf:Find("Box")
+	slot0.boxBG = slot0.boxTF:Find("BG")
+	slot0.panel = slot0.boxTF:Find("Panel")
+	slot0.infoTF = slot0.panel:Find("Info")
+	slot0.boxCloseBtn = slot0.infoTF:Find("CloseBtn")
+	slot0.boxIconTF = slot0.infoTF:Find("Icon/Mask/IconTpl")
+	slot0.boxNameText = slot0.infoTF:Find("NameText")
+	slot0.boxNumTF = slot0.infoTF:Find("Num")
+	slot0.boxNumTip = slot0.boxNumTF:Find("Text")
+	slot0.boxNumText = slot0.boxNumTF:Find("NumText")
+	slot0.boxDescText = slot0.infoTF:Find("DescText")
+	slot0.boxSrcText = slot0.infoTF:Find("SrcText")
 
 	onButton(slot0, slot0.boxBG, function ()
 		uv0:showBoxPanel(false)
@@ -34,12 +34,12 @@ slot0.findUI = function(slot0)
 		uv0:showBoxPanel(false)
 	end, SFX_PANEL)
 
-	slot0.boxSrcContent = slot0:findTF("Content", slot0.panel)
-	slot0.boxSrcTpl = slot0:findTF("SrcTpl", slot0.boxSrcContent)
+	slot0.boxSrcContent = slot0.panel:Find("Content")
+	slot0.boxSrcTpl = slot0.boxSrcContent:Find("SrcTpl")
 
-	GetComponent(slot0:findTF("furniture_theme/Title", slot0.btnList), "Image"):SetNativeSize()
-	GetComponent(slot0:findTF("equip_skin_box/Title", slot0.btnList), "Image"):SetNativeSize()
-	GetComponent(slot0:findTF("medal/Title", slot0.btnList), "Image"):SetNativeSize()
+	GetComponent(slot0.btnList:Find("furniture_theme/Title"), "Image"):SetNativeSize()
+	GetComponent(slot0.btnList:Find("equip_skin_box/Title"), "Image"):SetNativeSize()
+	GetComponent(slot0.btnList:Find("medal/Title"), "Image"):SetNativeSize()
 end
 
 slot0.rewriteEquipSkinBtn = function(slot0)
@@ -83,13 +83,9 @@ slot0.updateBoxPanel = function(slot0, slot1)
 			slot3 = uv0.skipable_list[slot1 + 1]
 			slot4 = slot3[1]
 			slot5 = slot3[2]
-			slot8 = uv1
 
-			changeToScrollText(slot8:findTF("SrcText", slot2), slot3[3])
-
-			slot7 = uv1
-
-			onButton(uv1, slot7:findTF("GoBtn", slot2), function ()
+			changeToScrollText(slot2:Find("SrcText"), slot3[3])
+			onButton(uv1, slot2:Find("GoBtn"), function ()
 				if uv0 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 					pg.m02:sendNotification(GAME.GO_SCENE, uv1[1], uv1[2] or {})
 				elseif uv0 == Msgbox4LinkCollectGuide.SKIP_TYPE_ACTIVITY then
@@ -113,7 +109,7 @@ end
 
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
-	slot4 = slot0:findTF("icon_mask/icon", slot2)
+	slot4 = slot2:Find("icon_mask/icon")
 
 	updateDrop(slot4, {
 		type = slot3.config.type,
@@ -131,16 +127,16 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		})
 		uv1:showBoxPanel(true)
 	end, SFX_PANEL)
-	changeToScrollText(slot0:findTF("name_mask/name", slot2), Drop.New({
+	changeToScrollText(slot2:Find("name_mask/name"), Drop.New({
 		type = slot3.config.type,
 		id = slot3.config.drop_id
 	}):getName())
-	setText(slot0:findTF("owner/number", slot2), slot3.count .. "/" .. slot3.config.count)
+	setText(slot2:Find("owner/number"), slot3.count .. "/" .. slot3.config.count)
 
-	GetOrAddComponent(slot0:findTF("owner", slot2), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
+	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
 
-	setActive(slot0:findTF("got", slot2), slot3.count == slot3.config.count)
-	setActive(slot0:findTF("new", slot2), slot3.config.is_new == "1")
+	setActive(slot2:Find("got"), slot3.count == slot3.config.count)
+	setActive(slot2:Find("new"), slot3.config.is_new == "1")
 end
 
 return slot0

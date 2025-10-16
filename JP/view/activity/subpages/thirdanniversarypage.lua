@@ -6,10 +6,10 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.paintBackTF = slot0:findTF("Paints/PaintBack")
-	slot0.paintFrontTF = slot0:findTF("Paints/PaintFront")
-	slot0.skinShopBtn = slot0:findTF("BtnShop")
-	slot0.btnContainer = slot0:findTF("BtnList/Viewport/Content")
+	slot0.paintBackTF = slot0._tf:Find("Paints/PaintBack")
+	slot0.paintFrontTF = slot0._tf:Find("Paints/PaintFront")
+	slot0.skinShopBtn = slot0._tf:Find("BtnShop")
+	slot0.btnContainer = slot0._tf:Find("BtnList/Viewport/Content")
 	slot0.btnList1 = {}
 
 	for slot5 = 0, slot0.btnContainer.childCount / 2 - 1 do

@@ -23,7 +23,7 @@ slot0.setData = function(slot0, slot1, slot2)
 end
 
 slot0.initUITip = function(slot0)
-	setText(slot0:findTF("Notch/Panel/Title/Text"), i18n("battle_end_subtitle2"))
+	setText(slot0._tf:Find("Notch/Panel/Title/Text"), i18n("battle_end_subtitle2"))
 end
 
 slot0.initData = function(slot0)
@@ -31,12 +31,12 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.bg = slot0:findTF("BG")
-	slot0.iconTpl = slot0:findTF("IconTpl")
-	slot0.panelTF = slot0:findTF("Notch/Panel")
-	slot0.iconContainer = slot0:findTF("ScrollView/Content", slot0.panelTF)
+	slot0.bg = slot0._tf:Find("BG")
+	slot0.iconTpl = slot0._tf:Find("IconTpl")
+	slot0.panelTF = slot0._tf:Find("Notch/Panel")
+	slot0.iconContainer = slot0.panelTF:Find("ScrollView/Content")
 	slot0.gridLayoutGroupSC = GetComponent(slot0.iconContainer, typeof(GridLayoutGroup))
-	slot0.closeBtn = slot0:findTF("Button", slot0.panelTF)
+	slot0.closeBtn = slot0.panelTF:Find("Button")
 	slot0.iconUIItemList = UIItemList.New(slot0.iconContainer, slot0.iconTpl)
 end
 
@@ -56,17 +56,17 @@ slot0.updateIconList = function(slot0)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			slot6 = uv0:findTF("LevelMaxText", slot2)
-			slot7 = uv0:findTF("ExpMaxText", slot2)
-			slot8 = uv0:findTF("Slider", slot2)
-			slot9 = uv1[slot1]
+			slot6 = slot2:Find("LevelMaxText")
+			slot7 = slot2:Find("ExpMaxText")
+			slot8 = slot2:Find("Slider")
+			slot9 = uv0[slot1]
 			slot14 = slot9.isExpMax
 			slot15 = slot9.progress
 			slot17 = getProxy(BayProxy):getShipById(slot9.shipID):getPainting()
 
-			setImageSprite(uv0:findTF("Icon", slot2), LoadSprite("SquareIcon/" .. slot17, slot17))
-			setText(uv0:findTF("AddExpText", slot2), "EXP + " .. slot9.addDayExp)
-			setActive(uv0:findTF("Light", slot2), slot9.isUpLevel and slot9.isMaxLevel)
+			setImageSprite(slot2:Find("Icon"), LoadSprite("SquareIcon/" .. slot17, slot17))
+			setText(slot2:Find("AddExpText"), "EXP + " .. slot9.addDayExp)
+			setActive(slot2:Find("Light"), slot9.isUpLevel and slot9.isMaxLevel)
 
 			if slot12 and slot13 then
 				setActive(slot5, false)
@@ -83,7 +83,7 @@ slot0.updateIconList = function(slot0)
 			end
 
 			setSlider(slot8, 0, 1, slot15)
-			onButton(uv0, slot2, function ()
+			onButton(uv1, slot2, function ()
 				LoadContextCommand.LoadLayerOnTopContext(Context.New({
 					viewComponent = MetaSkillDetailBoxLayer,
 					mediator = MetaSkillDetailBoxMediator,

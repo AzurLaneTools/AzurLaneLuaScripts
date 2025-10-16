@@ -130,8 +130,8 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.backBtn = slot0:findTF("back_btn")
-	slot0.pagesTF = slot0:findTF("pages")
+	slot0.backBtn = slot0._tf:Find("back_btn")
+	slot0.pagesTF = slot0._tf:Find("pages")
 
 	slot0:AddListeners()
 end

@@ -3,8 +3,11 @@ slot0 = class("XiaoTianChengPtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.hearts = UIItemList.New(slot0:findTF("AD/heart"), slot0:findTF("AD/heart/mark"))
-	slot0.helpBtn = slot0:findTF("AD/Image")
+	slot2 = slot0._tf
+	slot3 = slot0._tf
+	slot0.hearts = UIItemList.New(slot2:Find("AD/heart"), slot3:Find("AD/heart/mark"))
+	slot1 = slot0._tf
+	slot0.helpBtn = slot1:Find("AD/Image")
 
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

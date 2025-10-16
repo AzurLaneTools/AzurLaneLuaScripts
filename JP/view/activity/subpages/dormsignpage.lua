@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
-	slot0.items = slot0:findTF("items", slot0.bg)
-	slot0.uilist = UIItemList.New(slot0.items, slot0:findTF("tpl", slot0.items))
-	slot0.goBtn = slot0:findTF("btn_go", slot0.bg)
-	slot0.lockTF = slot0:findTF("lock", slot0.bg)
+	slot0.bg = slot0._tf:Find("AD")
+	slot0.items = slot0.bg:Find("items")
+	slot0.uilist = UIItemList.New(slot0.items, slot0.items:Find("tpl"))
+	slot0.goBtn = slot0.bg:Find("btn_go")
+	slot0.lockTF = slot0.bg:Find("lock")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -37,7 +37,7 @@ slot0.OnFirstFlush = function(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
-			slot5 = uv0:findTF("item", slot2)
+			slot5 = slot2:Find("item")
 			slot6 = Drop.Create(uv0.taskConfig[uv0.taskGroup[slot3]].award_display[1])
 
 			if slot3 > 1 then
@@ -59,8 +59,8 @@ slot0.OnFirstFlush = function(slot0)
 		end
 
 		if slot0 == UIItemList.EventUpdate then
-			setActive(uv0:findTF("got", slot2), uv0.taskDic[uv0.taskGroup[slot1 + 1]] and slot5:isOver())
-			setActive(uv0:findTF("tip", slot2), slot5 and slot5:getTaskStatus() == 1 and not slot5:isOver())
+			setActive(slot2:Find("got"), uv0.taskDic[uv0.taskGroup[slot1 + 1]] and slot5:isOver())
+			setActive(slot2:Find("tip"), slot5 and slot5:getTaskStatus() == 1 and not slot5:isOver())
 		end
 	end)
 	onButton(slot0, slot0.goBtn, function ()

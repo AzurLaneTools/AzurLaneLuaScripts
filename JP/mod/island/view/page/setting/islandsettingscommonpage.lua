@@ -5,7 +5,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.panelContainer = slot0:findTF("content")
+	slot0.panelContainer = slot0._tf:Find("content")
 	slot0.panels = {}
 
 	for slot5, slot6 in ipairs(slot0:GetPanels()) do

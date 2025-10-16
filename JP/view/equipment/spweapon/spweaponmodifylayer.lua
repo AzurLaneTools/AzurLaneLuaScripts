@@ -5,25 +5,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.equipmentPanel = slot0:findTF("Main/panel/equipment_panel")
-	slot0.materialPanel = slot0:findTF("Main/panel/material_panel")
-	slot0.equipmentIcon = slot0:findTF("Icon", slot0.equipmentPanel)
-	slot0.equipmentName = slot0:findTF("Name", slot0.equipmentPanel)
-	slot0.attributeList = slot0:findTF("Attribute/Rect/Attrs", slot0.equipmentPanel)
-	slot0.attributeButtons = slot0:findTF("Attribute/Rect/Buttons", slot0.equipmentPanel)
-	slot0.attributeExchangeButton = slot0:findTF("Exchange", slot0.attributeButtons)
-	slot0.attributeDiscardButton = slot0:findTF("Discard", slot0.attributeButtons)
+	slot0.equipmentPanel = slot0._tf:Find("Main/panel/equipment_panel")
+	slot0.materialPanel = slot0._tf:Find("Main/panel/material_panel")
+	slot0.equipmentIcon = slot0.equipmentPanel:Find("Icon")
+	slot0.equipmentName = slot0.equipmentPanel:Find("Name")
+	slot0.attributeList = slot0.equipmentPanel:Find("Attribute/Rect/Attrs")
+	slot0.attributeButtons = slot0.equipmentPanel:Find("Attribute/Rect/Buttons")
+	slot0.attributeExchangeButton = slot0.attributeButtons:Find("Exchange")
+	slot0.attributeDiscardButton = slot0.attributeButtons:Find("Discard")
 
-	setText(slot0:findTF("Attribute/Text", slot0.equipmentPanel), i18n("spweapon_ui_transform_attr_text"))
+	setText(slot0.equipmentPanel:Find("Attribute/Text"), i18n("spweapon_ui_transform_attr_text"))
 	setText(slot0.attributeExchangeButton:Find("Text"), i18n("spweapon_ui_change_attr"))
 	setText(slot0.attributeDiscardButton:Find("Text"), i18n("spweapon_ui_keep_attr"))
 
-	slot0.materialItems = CustomIndexLayer.Clone2Full(slot0:findTF("materials/materials", slot0.materialPanel), 3)
-	slot0.materialLimit = slot0:findTF("materials/limit", slot0.materialPanel)
-	slot0.materialCostText = slot0:findTF("cost/consume", slot0.materialPanel)
-	slot0.materialStartButton = slot0:findTF("start_btn", slot0.materialPanel)
+	slot0.materialItems = CustomIndexLayer.Clone2Full(slot0.materialPanel:Find("materials/materials"), 3)
+	slot0.materialLimit = slot0.materialPanel:Find("materials/limit")
+	slot0.materialCostText = slot0.materialPanel:Find("cost/consume")
+	slot0.materialStartButton = slot0.materialPanel:Find("start_btn")
 
-	setText(slot0:findTF("materials/panel_title", slot0.materialPanel), i18n("spweapon_ui_need_resource"))
+	setText(slot0.materialPanel:Find("materials/panel_title"), i18n("spweapon_ui_need_resource"))
 	setText(slot0.materialStartButton:Find("Image"), i18n("spweapon_ui_transform"))
 end
 
@@ -36,7 +36,7 @@ slot0.SetItems = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("BG"), function ()
+	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:closeView()
 	end)
 	slot0:UpdateView()

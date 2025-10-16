@@ -17,45 +17,45 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.windowTF = slot0:findTF("anim_root/window")
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
 
-	setText(slot0:findTF("title/Text", slot0.windowTF), i18n("child_btn_bag"))
+	setText(slot0.windowTF:Find("title/Text"), i18n("child_btn_bag"))
 
-	slot0.closeBtn = slot0:findTF("close_btn", slot0.windowTF)
-	slot0.togglesTF = slot0:findTF("toggles", slot0.windowTF)
-	slot0.itemView = slot0:findTF("item_scrollview", slot0.windowTF)
-	slot0.emptyTF = slot0:findTF("empty", slot0.windowTF)
+	slot0.closeBtn = slot0.windowTF:Find("close_btn")
+	slot0.togglesTF = slot0.windowTF:Find("toggles")
+	slot0.itemView = slot0.windowTF:Find("item_scrollview")
+	slot0.emptyTF = slot0.windowTF:Find("empty")
 
-	setText(slot0:findTF("Text", slot0.emptyTF), i18n("child_bag_empty_tip"))
+	setText(slot0.emptyTF:Find("Text"), i18n("child_bag_empty_tip"))
 end
 
 slot0.addListener = function(slot0)
-	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
+	slot3 = slot0._tf
+
+	onButton(slot0, slot3:Find("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	eachChild(slot0.togglesTF, function (slot0)
-		slot2 = uv0
-
-		setText(slot2:findTF("Text", slot0), i18n("child_item_type" .. slot0.name))
+		setText(slot0:Find("Text"), i18n("child_item_type" .. slot0.name))
 		onToggle(uv0, slot0, function (slot0)
 			slot1 = slot0 and uv0 or uv1
 
-			setImageColor(uv2:findTF("icon", uv3), Color.NewHex(slot1))
-			setTextColor(uv2:findTF("Text", uv3), Color.NewHex(slot1))
+			setImageColor(uv2:Find("icon"), Color.NewHex(slot1))
+			setTextColor(uv2:Find("Text"), Color.NewHex(slot1))
 
 			if slot0 then
-				uv2.anim:Play("anim_educate_bag_change")
-				uv2:updateItems(tonumber(uv3.name))
+				uv3.anim:Play("anim_educate_bag_change")
+				uv3:updateItems(tonumber(uv2.name))
 			end
 		end)
 	end)
@@ -66,7 +66,7 @@ slot0.didEnter = function(slot0)
 		groupDelta = 1
 	})
 	slot0:initItems()
-	triggerToggle(slot0:findTF("0", slot0.togglesTF), true)
+	triggerToggle(slot0.togglesTF:Find("0"), true)
 end
 
 slot0.initItems = function(slot0)

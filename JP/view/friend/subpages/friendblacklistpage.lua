@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.blackListPanel = slot0:findTF("blacklist_panel")
-	slot0.blacklistTopTF = slot0:findTF("blacklist_view_top")
+	slot0.blackListPanel = slot0._tf:Find("blacklist_panel")
+	slot0.blacklistTopTF = slot0._tf:Find("blacklist_view_top")
 end
 
 slot0.OnInit = function(slot0)

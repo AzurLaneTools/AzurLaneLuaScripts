@@ -67,10 +67,8 @@ slot0.Load = function(slot0, slot1)
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv2:ReturnUI(uv0:getUIName(), slot0)
 		else
-			onNextTick(function ()
-				uv0:Loaded(uv1)
-				uv0:Init()
-			end)
+			uv0:Loaded(slot0)
+			uv0:Init()
 		end
 	end)
 end
@@ -229,14 +227,8 @@ slot0.StopBgm = function(slot0)
 	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 end
 
-slot0.findTF = function(slot0, slot1, slot2)
-	assert(slot0._tf, "transform should exist")
-
-	return findTF(slot2 or slot0._tf, slot1)
-end
-
 slot0.getTpl = function(slot0, slot1, slot2)
-	slot3 = slot0:findTF(slot1, slot2)
+	slot3 = (slot2 or slot0._tf):Find(slot1)
 
 	slot3:SetParent(slot0._tf, false)
 	SetActive(slot3, false)

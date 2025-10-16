@@ -3,14 +3,14 @@ slot0 = class("XimuLoginPage", import(".TemplatePage.LoginTemplatePage"))
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.items2 = slot0:findTF("items2", slot0.bg)
+	slot0.items2 = slot0.bg:Find("items2")
 end
 
 slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	removeAllChildren(slot0.items2)
 	eachChild(slot0.items, function (slot0)
-		slot1 = uv0:findTF("day/Text", slot0)
+		slot1 = slot0:Find("day/Text")
 
 		setText(slot1, setColorStr(getText(slot1), slot0:GetSiblingIndex() < uv0.nday and COLOR_GREY or COLOR_WHITE))
 	end)

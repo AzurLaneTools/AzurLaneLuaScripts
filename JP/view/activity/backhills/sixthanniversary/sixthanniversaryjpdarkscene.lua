@@ -13,44 +13,44 @@ end
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.top = slot0:findTF("top")
-	slot0._bg = slot0:findTF("BG")
-	slot0.countText = slot0:findTF("top/Count/Text")
+	slot0.top = slot0._tf:Find("top")
+	slot0._bg = slot0._tf:Find("BG")
+	slot0.countText = slot0._tf:Find("top/Count/Text")
 	slot4 = "jp6th_lihoushan_pt1"
 
-	setText(slot0:findTF("top/Count/explain"), i18n(slot4))
+	setText(slot0._tf:Find("top/Count/explain"), i18n(slot4))
 
-	slot0.levelcontainer = slot0:findTF("upper")
+	slot0.levelcontainer = slot0._tf:Find("upper")
 	slot0.player = getProxy(PlayerProxy):getRawData()
 	slot0.activityID = ActivityConst.MINIGAME_ZUMA
 	slot0.config = pg.activity_template[slot0.activityID]
 	slot0.arrowPosYList = {}
 
 	for slot4 = 1, 7 do
-		slot0.arrowPosYList[slot4] = slot0:findTF("arrow", slot0:findTF(tostring(slot4), slot0.levelcontainer)).localPosition.y
+		slot0.arrowPosYList[slot4] = slot0._tf:Find(tostring(slot4), slot0.levelcontainer):Find("arrow").localPosition.y
 	end
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0:findTF("top/Back"), function ()
+	onButton(slot0, slot0._tf:Find("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("top/Home"), function ()
+	onButton(slot0, slot0._tf:Find("top/Home"), function ()
 		uv0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Help"), function ()
+	onButton(slot0, slot0._tf:Find("top/Help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.jp6th_lihoushan_help.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Shop"), function ()
+	onButton(slot0, slot0._tf:Find("top/Shop"), function ()
 		uv0:emit(SixthAnniversaryJPDarkMediator.GO_SCENE, SCENE.ZUMA_PT_SHOP)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("top/Task"), function ()
+	onButton(slot0, slot0._tf:Find("top/Task"), function ()
 		uv0:emit(SixthAnniversaryJPDarkMediator.GO_SCENE, SCENE.LAUNCH_BALL_TASK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("BG/door"), function ()
+	onButton(slot0, slot0._tf:Find("BG/door"), function ()
 		pg.SceneAnimMgr.GetInstance():SixthAnniversaryJPCoverGoScene(SCENE.SIXTH_ANNIVERSARY_JP)
 	end, SFX_PANEL)
 	slot0:UpdateView()
@@ -70,11 +70,11 @@ slot0.UpdateLevels = function(slot0)
 	slot0.curIndex = slot0.finishCnt < slot0.maxCnt and slot0.finishCnt + 1 or -1
 
 	for slot4 = 1, 7 do
-		slot0:UpdateLevelByStatus(slot0:findTF(tostring(slot4), slot0.levelcontainer), slot0:GetLevelStatus(slot4))
+		slot0:UpdateLevelByStatus(slot0._tf:Find(tostring(slot4), slot0.levelcontainer), slot0:GetLevelStatus(slot4))
 	end
 
 	for slot4 = 1, 3 do
-		setActive(slot0:findTF("role" .. slot4, slot0.levelcontainer), LaunchBallActivityMgr.CheckZhuanShuAble(slot0.activityID, slot4) and not LaunchBallActivityMgr.IsFinishZhuanShu(slot0.activityID, slot4))
+		setActive(slot0.levelcontainer:Find("role" .. slot4), LaunchBallActivityMgr.CheckZhuanShuAble(slot0.activityID, slot4) and not LaunchBallActivityMgr.IsFinishZhuanShu(slot0.activityID, slot4))
 		onButton(slot0, slot5, function ()
 			pg.NewStoryMgr.GetInstance():Play(uv0.config.config_client.roleStory[uv1], function ()
 				LaunchBallActivityMgr.OpenGame(LaunchBallGameConst.round_type_zhuanshu, uv0)
@@ -82,7 +82,7 @@ slot0.UpdateLevels = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot1 = slot0:findTF("endless", slot0.levelcontainer)
+	slot1 = slot0.levelcontainer:Find("endless")
 
 	setActive(slot1, slot0.maxCnt <= slot0.finishCnt)
 	onButton(slot0, slot1, function ()
@@ -98,26 +98,26 @@ end
 
 slot0.UpdateLevelByStatus = function(slot0, slot1, slot2)
 	if slot2 == uv0.STATUS_LOCK then
-		setActive(slot0:findTF("lock", slot1), true)
-		setActive(slot0:findTF("title/lock", slot1), true)
-		setActive(slot0:findTF("fog", slot1), false)
-		setActive(slot0:findTF("tag", slot1), false)
+		setActive(slot1:Find("lock"), true)
+		setActive(slot1:Find("title/lock"), true)
+		setActive(slot1:Find("fog"), false)
+		setActive(slot1:Find("tag"), false)
 		onButton(slot0, slot1, function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("jp6th_lihoushan_time"))
 		end, SFX_PANEL)
 	elseif slot2 == uv0.STATUS_FOG then
-		setActive(slot0:findTF("lock", slot1), false)
-		setActive(slot0:findTF("title/lock", slot1), false)
-		setActive(slot0:findTF("fog", slot1), true)
-		setActive(slot0:findTF("tag", slot1), false)
+		setActive(slot1:Find("lock"), false)
+		setActive(slot1:Find("title/lock"), false)
+		setActive(slot1:Find("fog"), true)
+		setActive(slot1:Find("tag"), false)
 		onButton(slot0, slot1, function ()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("jp6th_lihoushan_order"))
 		end, SFX_PANEL)
 	elseif slot2 == uv0.STATUS_STORY then
-		setActive(slot0:findTF("lock", slot1), false)
-		setActive(slot0:findTF("title/lock", slot1), false)
-		setActive(slot0:findTF("fog", slot1), false)
-		setActive(slot0:findTF("tag", slot1), false)
+		setActive(slot1:Find("lock"), false)
+		setActive(slot1:Find("title/lock"), false)
+		setActive(slot1:Find("fog"), false)
+		setActive(slot1:Find("tag"), false)
 		onButton(slot0, slot1, function ()
 			slot1 = pg.NewStoryMgr.GetInstance()
 
@@ -126,16 +126,16 @@ slot0.UpdateLevelByStatus = function(slot0, slot1, slot2)
 			end)
 		end, SFX_PANEL)
 	elseif slot2 == uv0.STATUS_NOROMAL then
-		setActive(slot0:findTF("lock", slot1), false)
-		setActive(slot0:findTF("title/lock", slot1), false)
-		setActive(slot0:findTF("fog", slot1), false)
-		setActive(slot0:findTF("tag", slot1), true)
+		setActive(slot1:Find("lock"), false)
+		setActive(slot1:Find("title/lock"), false)
+		setActive(slot1:Find("fog"), false)
+		setActive(slot1:Find("tag"), true)
 		onButton(slot0, slot1, function ()
 			LaunchBallActivityMgr.OpenGame(LaunchBallGameConst.round_type_juqing, tonumber(uv0.name))
 		end, SFX_PANEL)
 	end
 
-	LeanTween.cancel(slot0:findTF("arrow", slot1).gameObject)
+	LeanTween.cancel(slot1:Find("arrow").gameObject)
 
 	if tonumber(slot1.name) == slot0.curIndex then
 		setLocalPosition(slot3, {
@@ -153,7 +153,7 @@ slot0.UpdateCount = function(slot0)
 end
 
 slot0.UpdateTaskTip = function(slot0)
-	setActive(slot0:findTF("Task/Tip", slot0.top), LaunchBallTaskMgr.GetRedTip())
+	setActive(slot0.top:Find("Task/Tip"), LaunchBallTaskMgr.GetRedTip())
 end
 
 slot0.onBackPressed = function(slot0)

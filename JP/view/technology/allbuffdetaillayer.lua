@@ -27,17 +27,17 @@ slot0.initData = function(slot0)
 end
 
 slot0.findUI = function(slot0)
-	slot0.backBtn = slot0:findTF("BG")
-	slot0.scrollView = slot0:findTF("Scroll View")
-	slot0.viewport = slot0:findTF("Viewport", slot0.scrollView)
-	slot0.typeContainer = slot0:findTF("Content", slot0.viewport)
-	slot0.typeItemTpl = slot0:findTF("TypeItemTpl")
-	slot0.buffItemTpl = slot0:findTF("BuffItemTpl")
+	slot0.backBtn = slot0._tf:Find("BG")
+	slot0.scrollView = slot0._tf:Find("Scroll View")
+	slot0.viewport = slot0.scrollView:Find("Viewport")
+	slot0.typeContainer = slot0.viewport:Find("Content")
+	slot0.typeItemTpl = slot0._tf:Find("TypeItemTpl")
+	slot0.buffItemTpl = slot0._tf:Find("BuffItemTpl")
 	slot0.scrollViewGroupCom = GetComponent(slot0.scrollView, "VerticalLayoutGroup")
 	slot0.scrollViewFitterCom = GetComponent(slot0.scrollView, "ContentSizeFitter")
 	slot0.viewportGroupCom = GetComponent(slot0.viewport, "VerticalLayoutGroup")
 	slot0.viewportFitterCom = GetComponent(slot0.viewport, "ContentSizeFitter")
-	slot0.setValueBtn = slot0:findTF("Scroll View/bg/SetValueBtn")
+	slot0.setValueBtn = slot0._tf:Find("Scroll View/bg/SetValueBtn")
 end
 
 slot0.onBackPressed = function(slot0)
@@ -64,10 +64,10 @@ slot0.updateDetail = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot6 = uv0.typeOrder[slot1 + 1]
 
-			setImageSprite(uv0:findTF("TypeTitle/TypeTextImg", slot2), GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6))
-			setImageSprite(uv0:findTF("TypeTitle/TypeImg", slot2), GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot6), true)
+			setImageSprite(slot2:Find("TypeTitle/TypeTextImg"), GetSpriteFromAtlas("ShipType", "ch_title_" .. slot6))
+			setImageSprite(slot2:Find("TypeTitle/TypeImg"), GetSpriteFromAtlas("ShipType", "buffitem_tec_" .. slot6), true)
 			Canvas.ForceUpdateCanvases()
-			uv0:updateBuffList(uv0:findTF("Container", slot2), slot6)
+			uv0:updateBuffList(slot2:Find("Container"), slot6)
 		end
 	end)
 	slot1:align(#slot0.typeOrder)
@@ -91,14 +91,14 @@ slot0.updateBuffList = function(slot0, slot1, slot2)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot4 = uv0:findTF("ValueText", slot2)
-			slot5 = uv1[slot1 + 1]
+			slot4 = slot2:Find("ValueText")
+			slot5 = uv0[slot1 + 1]
 
-			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[slot5].name))
+			setText(slot2:Find("AttrText"), AttributeType.Type2Name(pg.attribute_info_by_type[slot5].name))
 
 			slot8 = nil
 
-			if uv0.technologyNationProxy:getSetableAttrAdditionValueByTypeAttr(uv3, slot5) == uv2[slot5] then
+			if uv2.technologyNationProxy:getSetableAttrAdditionValueByTypeAttr(uv3, slot5) == uv1[slot5] then
 				slot8 = "#00FF32FF"
 			elseif slot7 == 0 then
 				slot8 = "#CA5B5BFF"

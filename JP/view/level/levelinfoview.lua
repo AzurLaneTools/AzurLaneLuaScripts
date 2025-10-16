@@ -44,37 +44,37 @@ slot0.setCBFunc = function(slot0, slot1, slot2)
 end
 
 slot0.InitUI = function(slot0)
-	slot0.titleBG = slot0:findTF("panel/title")
-	slot0.titleBGDecoration = slot0:findTF("panel/title/Image")
-	slot0.titleIcon = slot0:findTF("panel/title/icon")
-	slot0.txTitle = slot0:findTF("panel/title_form")
+	slot0.titleBG = slot0._tf:Find("panel/title")
+	slot0.titleBGDecoration = slot0._tf:Find("panel/title/Image")
+	slot0.titleIcon = slot0._tf:Find("panel/title/icon")
+	slot0.txTitle = slot0._tf:Find("panel/title_form")
 	slot0.txTitleOriginPosY = slot0.txTitle.anchoredPosition.y
-	slot0.txTitleHead = slot0:findTF("panel/title_head")
+	slot0.txTitleHead = slot0._tf:Find("panel/title_head")
 
 	setActive(slot0.txTitleHead, false)
 
-	slot0.txIntro = slot0:findTF("panel/intro")
-	slot0.txCost = slot0:findTF("panel/cost/text")
-	slot0.progressBar = slot0:findTF("panel/progress")
-	slot0.txProgress = slot0:findTF("panel/progress/Text/value")
-	slot0.progress = slot0:findTF("panel/progress")
-	slot0.head = slot0:findTF("panel/head/Image")
-	slot0.trAchieveTpl = slot0:findTF("panel/achieve")
-	slot0.trAchieves = slot0:findTF("panel/achieves")
-	slot0.passStateMask = slot0:findTF("panel/passState")
-	slot0.passState = slot0:findTF("panel/passState/Image")
+	slot0.txIntro = slot0._tf:Find("panel/intro")
+	slot0.txCost = slot0._tf:Find("panel/cost/text")
+	slot0.progressBar = slot0._tf:Find("panel/progress")
+	slot0.txProgress = slot0._tf:Find("panel/progress/Text/value")
+	slot0.progress = slot0._tf:Find("panel/progress")
+	slot0.head = slot0._tf:Find("panel/head/Image")
+	slot0.trAchieveTpl = slot0._tf:Find("panel/achieve")
+	slot0.trAchieves = slot0._tf:Find("panel/achieves")
+	slot0.passStateMask = slot0._tf:Find("panel/passState")
+	slot0.passState = slot0._tf:Find("panel/passState/Image")
 
 	setActive(slot0.passState, true)
 
-	slot0.winCondDesc = slot0:findTF("panel/win_conditions/desc")
-	slot0.winCondAwardBtn = slot0:findTF("panel/win_conditions/icon")
-	slot0.loseCondDesc = slot0:findTF("panel/lose_conditions/desc")
+	slot0.winCondDesc = slot0._tf:Find("panel/win_conditions/desc")
+	slot0.winCondAwardBtn = slot0._tf:Find("panel/win_conditions/icon")
+	slot0.loseCondDesc = slot0._tf:Find("panel/lose_conditions/desc")
 	slot0.achieveList = UIItemList.New(slot0.trAchieves, slot0.trAchieveTpl)
 
 	setActive(slot0.trAchieveTpl, false)
 
-	slot0.trDropTpl = slot0:findTF("panel/drops/frame/list/item")
-	slot0.trDrops = slot0:findTF("panel/drops/frame/list")
+	slot0.trDropTpl = slot0._tf:Find("panel/drops/frame/list/item")
+	slot0.trDrops = slot0._tf:Find("panel/drops/frame/list")
 	slot0.dropList = UIItemList.New(slot0.trDrops, slot0.trDropTpl)
 
 	slot0.dropList:make(function (slot0, slot1, slot2)
@@ -82,12 +82,12 @@ slot0.InitUI = function(slot0)
 	end)
 	setActive(slot0.trDropTpl, false)
 
-	slot0.btnConfirm = slot0:findTF("panel/start_button")
-	slot0.btnCancel = slot0:findTF("panel/btnBack")
-	slot0.quickPlayGroup = slot0:findTF("panel/quickPlay")
-	slot0.descQuickPlay = slot0:findTF("desc", slot0.quickPlayGroup)
+	slot0.btnConfirm = slot0._tf:Find("panel/start_button")
+	slot0.btnCancel = slot0._tf:Find("panel/btnBack")
+	slot0.quickPlayGroup = slot0._tf:Find("panel/quickPlay")
+	slot0.descQuickPlay = slot0.quickPlayGroup:Find("desc")
 	slot0.toggleQuickPlay = slot0.quickPlayGroup:GetComponent(typeof(Toggle))
-	slot0.bottomExtra = slot0:findTF("panel/BottomExtra")
+	slot0.bottomExtra = slot0._tf:Find("panel/BottomExtra")
 	slot0.layoutView = GetComponent(slot0.bottomExtra:Find("LoopGroup/view"), typeof(LayoutElement))
 	slot0.rtViewContainer = slot0.bottomExtra:Find("LoopGroup/view/container")
 
@@ -137,9 +137,9 @@ slot0.set = function(slot0, slot1, slot2)
 	slot8.x = slot7 and uv0 or uv1
 	slot0.progressBar.sizeDelta = slot8
 
-	setText(slot0:findTF("title_index", slot0.txTitle), slot5.chapter_name .. "  ")
-	setText(slot0:findTF("title", slot0.txTitle), slot6[1])
-	setText(slot0:findTF("title_en", slot0.txTitle), slot6[2] or "")
+	setText(slot0.txTitle:Find("title_index"), slot5.chapter_name .. "  ")
+	setText(slot0.txTitle:Find("title"), slot6[1])
+	setText(slot0.txTitle:Find("title_en"), slot6[2] or "")
 	setActive(slot0.txTitleHead, slot6[3] and #slot6[3] > 0)
 	setAnchoredPosition(slot0.txTitle, {
 		y = slot6[3] and #slot6[3] > 0 and slot0.txTitleOriginPosY or slot0.txTitleOriginPosY + 8
@@ -347,7 +347,7 @@ slot0.set = function(slot0, slot1, slot2)
 	end
 
 	if slot0.doEaseIn then
-		slot13 = slot0:findTF("panel")
+		slot13 = slot0._tf:Find("panel")
 		slot13.transform.localPosition = slot0.posStart
 
 		table.insert(slot0.delayTween, LeanTween.move(slot13, Vector3.zero, 0.2).uniqueId)

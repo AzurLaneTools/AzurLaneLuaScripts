@@ -83,11 +83,11 @@ slot0.updateCommanderBtn = function(slot0, slot1, slot2)
 	slot4 = slot0.fleets[slot1][slot2]
 	slot5 = slot0.tfFleets[slot1][slot2]
 
-	setActive(slot0:findTF("btn_select", slot5), false)
-	setActive(slot0:findTF("btn_clear", slot5), slot3 and not slot0.parent.contextData.showCommander)
-	setActive(slot0:findTF("btn_recom", slot5), slot3 and not slot0.parent.contextData.showCommander)
-	setActive(slot0:findTF("blank", slot5), not slot3 or slot3 and not slot4 and slot0.parent.contextData.showCommander)
-	setActive(slot0:findTF("commander", slot5), slot0.parent.contextData.showCommander and slot3 and slot4)
+	setActive(slot5:Find("btn_select"), false)
+	setActive(slot5:Find("btn_clear"), slot3 and not slot0.parent.contextData.showCommander)
+	setActive(slot5:Find("btn_recom"), slot3 and not slot0.parent.contextData.showCommander)
+	setActive(slot5:Find("blank"), not slot3 or slot3 and not slot4 and slot0.parent.contextData.showCommander)
+	setActive(slot5:Find("commander"), slot0.parent.contextData.showCommander and slot3 and slot4)
 end
 
 slot0.updateFleet = function(slot0, slot1, slot2)
@@ -96,18 +96,18 @@ slot0.updateFleet = function(slot0, slot1, slot2)
 	slot3 = slot0.fleets[slot1][slot2]
 	slot4 = slot2 <= slot0:getLimitNums(slot1)
 	slot5 = slot0.tfFleets[slot1][slot2]
-	slot8 = slot0:findTF(TeamType.Vanguard, slot5)
-	slot9 = slot0:findTF(TeamType.Submarine, slot5)
-	slot10 = slot0:findTF("btn_select", slot5)
-	slot11 = slot0:findTF("btn_recom", slot5)
-	slot12 = slot0:findTF("btn_clear", slot5)
-	slot13 = slot0:findTF("blank", slot5)
-	slot15 = slot0:findTF("commander", slot5)
+	slot8 = slot5:Find(TeamType.Vanguard)
+	slot9 = slot5:Find(TeamType.Submarine)
+	slot10 = slot5:Find("btn_select")
+	slot11 = slot5:Find("btn_recom")
+	slot12 = slot5:Find("btn_clear")
+	slot13 = slot5:Find("blank")
+	slot15 = slot5:Find("commander")
 
-	setActive(slot0:findTF("selected", slot5), false)
+	setActive(slot5:Find("selected"), false)
 	setText(findTF(slot5, "bg/name"), "")
 
-	if slot0:findTF(TeamType.Main, slot5) then
+	if slot5:Find(TeamType.Main) then
 		setActive(slot7, slot4 and slot3)
 	end
 
@@ -277,10 +277,10 @@ slot0.clearFleets = function(slot0)
 end
 
 slot0.clearFleet = function(slot0, slot1)
-	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
-	slot4 = slot0:findTF(TeamType.Submarine, slot1)
+	slot3 = slot1:Find(TeamType.Vanguard)
+	slot4 = slot1:Find(TeamType.Submarine)
 
-	if slot0:findTF(TeamType.Main, slot1) then
+	if slot1:Find(TeamType.Main) then
 		removeAllChildren(slot2)
 	end
 

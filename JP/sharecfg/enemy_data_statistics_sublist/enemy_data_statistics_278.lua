@@ -686,7 +686,7 @@ pg.enemy_data_statistics_278 = {
 		air = 0,
 		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
+		id = 16545022,
 		reload = 150,
 		armor = 0,
 		dodge = 11,
@@ -699,29 +699,17 @@ pg.enemy_data_statistics_278 = {
 		hit = 14,
 		antisub_growth = 0,
 		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90800,
+		antiaircraft_growth = 0,
+		base = 90535,
 		durability = 999999,
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 115,
 		speed = 20,
 		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16545022,
 		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
+		antisub = 0,
+		equipment_list = {}
 	},
 	[16545101] = {
 		cannon = 0,

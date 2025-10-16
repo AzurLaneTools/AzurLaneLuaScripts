@@ -43,14 +43,14 @@ slot0.PlayerUpdated = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.adpter = slot0:findTF("adpter")
-	slot0.frame = slot0:findTF("adpter/frame")
-	slot0.icon = slot0:findTF("adpter/frame/icon"):GetComponent(typeof(Image))
-	slot0.idTxt = slot0:findTF("adpter/frame/ID"):GetComponent(typeof(Text))
-	slot0.idLabel = slot0:findTF("adpter/frame/ID_label"):GetComponent(typeof(Text))
-	slot0.copyBtn = slot0:findTF("adpter/frame/copy")
-	slot0.nameTxt = slot0:findTF("adpter/frame/name"):GetComponent(typeof(Text))
-	slot0.mainPanel = slot0:findTF("adpter/frame/main")
+	slot0.adpter = slot0._tf:Find("adpter")
+	slot0.frame = slot0._tf:Find("adpter/frame")
+	slot0.icon = slot0._tf:Find("adpter/frame/icon"):GetComponent(typeof(Image))
+	slot0.idTxt = slot0._tf:Find("adpter/frame/ID"):GetComponent(typeof(Text))
+	slot0.idLabel = slot0._tf:Find("adpter/frame/ID_label"):GetComponent(typeof(Text))
+	slot0.copyBtn = slot0._tf:Find("adpter/frame/copy")
+	slot0.nameTxt = slot0._tf:Find("adpter/frame/name"):GetComponent(typeof(Text))
+	slot0.mainPanel = slot0._tf:Find("adpter/frame/main")
 	slot0.timeTxt = slot0.mainPanel:Find("time"):GetComponent(typeof(Text))
 	slot0.btn1 = slot0.mainPanel:Find("desc_btn")
 	slot0.btn1Txt = slot0.mainPanel:Find("desc_btn/Text"):GetComponent(typeof(Text))
@@ -267,7 +267,7 @@ slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.adpter, {
 		pbList = {
-			slot0:findTF("adpter/frame")
+			slot0._tf:Find("adpter/frame")
 		}
 	})
 end

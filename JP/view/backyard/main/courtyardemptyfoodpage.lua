@@ -5,13 +5,13 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.confirmBtn = slot0:findTF("frame/ok_btn")
-	slot0.cancelBtn = slot0:findTF("frame/cancel_btn")
+	slot0.confirmBtn = slot0._tf:Find("frame/ok_btn")
+	slot0.cancelBtn = slot0._tf:Find("frame/cancel_btn")
 
 	setButtonText(slot0.confirmBtn, i18n("text_nofood_yes"))
 	setButtonText(slot0.cancelBtn, i18n("text_nofood_no"))
 
-	slot0.frame = slot0:findTF("frame")
+	slot0.frame = slot0._tf:Find("frame")
 end
 
 slot0.OnInit = function(slot0)

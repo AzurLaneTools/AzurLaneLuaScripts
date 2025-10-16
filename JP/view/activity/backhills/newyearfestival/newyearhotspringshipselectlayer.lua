@@ -6,9 +6,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.counterTxt = slot0:findTF("frame/top/value/Text"):GetComponent(typeof(Text))
-	slot0.cardContainer = slot0:findTF("frame/panel")
-	slot0.mainPanel = slot0:findTF("frame")
+	slot0.counterTxt = slot0._tf:Find("frame/top/value/Text"):GetComponent(typeof(Text))
+	slot0.cardContainer = slot0._tf:Find("frame/panel")
+	slot0.mainPanel = slot0._tf:Find("frame")
 	slot0.addShipTpl = slot0.cardContainer:Find("AddShipTpl")
 	slot0.extendShipTpl = slot0.cardContainer:Find("ExtendShipTpl")
 	slot0.shipCardTpl = slot0.cardContainer:Find("ShipCardTpl")
@@ -20,7 +20,7 @@ slot0.init = function(slot0)
 	slot0.cardContainer = slot0.cardContainer:Find("Scroll View/Content")
 	slot0.shipCards = {}
 
-	setText(slot0:findTF("frame/desc"), i18n("hotspring_tip1"))
+	setText(slot0._tf:Find("frame/desc"), i18n("hotspring_tip1"))
 end
 
 slot0.SetActivity = function(slot0, slot1)
@@ -34,8 +34,8 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 
 	slot1 = function(slot0)
-		setActive(uv0:findTF("frame/panel/ArrowRight"), slot0.x < 0.01)
-		setActive(uv0:findTF("frame/panel/ArrowLeft"), slot0.x > 0.99)
+		setActive(uv0._tf:Find("frame/panel/ArrowRight"), slot0.x < 0.01)
+		setActive(uv0._tf:Find("frame/panel/ArrowLeft"), slot0.x > 0.99)
 	end
 
 	onScroll(slot0, slot0.cardContainer.parent, slot1)

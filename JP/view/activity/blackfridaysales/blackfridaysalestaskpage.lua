@@ -33,10 +33,10 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUI = function(slot0)
-	slot0.getAllBtn = slot0:findTF("get_all")
-	slot0.extendTpl = slot0:findTF("extend_tpl")
-	slot0.content = slot0:findTF("view/content")
-	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
+	slot0.getAllBtn = slot0._tf:Find("get_all")
+	slot0.extendTpl = slot0._tf:Find("extend_tpl")
+	slot0.content = slot0._tf:Find("view/content")
+	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0.content:Find("tpl"))
 
 	setActive(slot0.getAllBtn, false)
 end

@@ -11,42 +11,43 @@ slot0.InvokeParent = function(slot0, slot1, ...)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.tfShipTpl = slot0:findTF("panel/shiptpl")
-	slot0.tfEmptyTpl = slot0:findTF("panel/emptytpl")
+	slot0.tfShipTpl = slot0._tf:Find("panel/shiptpl")
+	slot1 = slot0._tf
+	slot0.tfEmptyTpl = slot1:Find("panel/emptytpl")
 	slot0.tfFleets = {
 		[FleetType.Normal] = {
-			slot0:findTF("panel/fleet/1"),
-			slot0:findTF("panel/fleet/2")
+			slot0._tf:Find("panel/fleet/1"),
+			slot0._tf:Find("panel/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			slot0:findTF("panel/sub/1")
+			slot0._tf:Find("panel/sub/1")
 		}
 	}
-	slot0.tfLimit = slot0:findTF("panel/limit_list/limit")
-	slot0.tfLimitTips = slot0:findTF("panel/limit_list/limit_tip")
-	slot0.tfLimitElite = slot0:findTF("panel/limit_list/limit_elite")
+	slot0.tfLimit = slot0._tf:Find("panel/limit_list/limit")
+	slot0.tfLimitTips = slot0._tf:Find("panel/limit_list/limit_tip")
+	slot0.tfLimitElite = slot0._tf:Find("panel/limit_list/limit_elite")
 	slot4 = "ship_limit_notice"
 
-	setText(slot0:findTF("sub/Text", slot0.tfLimitElite), i18n(slot4))
+	setText(slot0.tfLimitElite:Find("sub/Text"), i18n(slot4))
 
-	slot0.tfLimitContainer = slot0:findTF("panel/limit_list/limit_elite/limit_list")
+	slot0.tfLimitContainer = slot0._tf:Find("panel/limit_list/limit_elite/limit_list")
 	slot0.rtCostLimit = slot0._tf:Find("panel/limit_list/cost_limit")
-	slot0.btnBack = slot0:findTF("panel/btnBack")
-	slot0.btnGo = slot0:findTF("panel/start_button")
-	slot0.btnTry = slot0:findTF("panel/try_button")
-	slot0.btnASHelp = slot0:findTF("panel/title/ASvalue")
-	slot0.commanderToggle = slot0:findTF("panel/commander_btn")
-	slot0.formationToggle = slot0:findTF("panel/formation_btn")
-	slot0.toggleMask = slot0:findTF("mask")
-	slot0.toggleList = slot0:findTF("mask/list")
+	slot0.btnBack = slot0._tf:Find("panel/btnBack")
+	slot0.btnGo = slot0._tf:Find("panel/start_button")
+	slot0.btnTry = slot0._tf:Find("panel/try_button")
+	slot0.btnASHelp = slot0._tf:Find("panel/title/ASvalue")
+	slot0.commanderToggle = slot0._tf:Find("panel/commander_btn")
+	slot0.formationToggle = slot0._tf:Find("panel/formation_btn")
+	slot0.toggleMask = slot0._tf:Find("mask")
+	slot0.toggleList = slot0._tf:Find("mask/list")
 	slot0.toggles = {}
 
 	for slot4 = 0, slot0.toggleList.childCount - 1 do
 		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot4 + 1))
 	end
 
-	slot0.btnSp = slot0:findTF("panel/sp")
-	slot0.spMask = slot0:findTF("mask_sp")
+	slot0.btnSp = slot0._tf:Find("panel/sp")
+	slot0.spMask = slot0._tf:Find("mask_sp")
 
 	setActive(slot0.tfShipTpl, false)
 	setActive(slot0.tfEmptyTpl, false)
@@ -56,9 +57,9 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.tfLimitElite, false)
 	setActive(slot0.tfLimitTips, false)
 	setActive(slot0.tfLimit, false)
-	setActive(slot0:findTF("panel/title/ASvalue"), false)
-	setText(slot0:findTF("panel/formation_btn/text"), i18n("autofight_formation"))
-	setText(slot0:findTF("panel/commander_btn/text"), i18n("autofight_cat"))
+	setActive(slot0._tf:Find("panel/title/ASvalue"), false)
+	setText(slot0._tf:Find("panel/formation_btn/text"), i18n("autofight_formation"))
+	setText(slot0._tf:Find("panel/commander_btn/text"), i18n("autofight_cat"))
 	setText(slot0._tf:Find("panel/title/Image/text"), i18n("fleet_select_title"))
 	slot0:InitInteractable()
 end
@@ -195,16 +196,16 @@ slot0.updateFleet = function(slot0, slot1, slot2)
 
 	slot4 = slot2 <= slot0:getLimitNums(slot1) and slot0.fleets[slot1][slot2]
 	slot5 = slot0.tfFleets[slot1][slot2]
-	slot8 = slot0:findTF(TeamType.Vanguard, slot5)
-	slot9 = slot0:findTF(TeamType.Submarine, slot5)
-	slot10 = slot0:findTF("btn_recom", slot5)
-	slot11 = slot0:findTF("btn_clear", slot5)
-	slot13 = slot0:findTF("commander", slot5)
+	slot8 = slot5:Find(TeamType.Vanguard)
+	slot9 = slot5:Find(TeamType.Submarine)
+	slot10 = slot5:Find("btn_recom")
+	slot11 = slot5:Find("btn_clear")
+	slot13 = slot5:Find("commander")
 
-	setActive(slot0:findTF("selected", slot5), false)
+	setActive(slot5:Find("selected"), false)
 	setText(findTF(slot5, "bg/name"), "")
 
-	if slot0:findTF(TeamType.Main, slot5) then
+	if slot5:Find(TeamType.Main) then
 		setActive(slot7, slot3 and slot4)
 	end
 
@@ -251,7 +252,7 @@ slot0.updateShips = function(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot12:Find("event_block"), slot10:getFlag("inEvent"))
 		end
 
-		setActive(slot0:findTF("ship_type", slot12), false)
+		setActive(slot12:Find("ship_type"), false)
 
 		slot13 = GetOrAddComponent(slot12, typeof(UILongPressTrigger))
 		slot14 = slot13.onLongPressed
@@ -283,11 +284,11 @@ slot0.updateCommanderBtn = function(slot0, slot1, slot2)
 	slot4 = slot3 and slot0.fleets[slot1][slot2]
 	slot5 = slot0.tfFleets[slot1][slot2]
 
-	setActive(slot0:findTF("btn_select", slot5), false)
-	setActive(slot0:findTF("btn_clear", slot5), slot3 and not slot0.viewParent.contextData.showCommander)
-	setActive(slot0:findTF("btn_recom", slot5), slot3 and not slot0.viewParent.contextData.showCommander)
-	setActive(slot0:findTF("commander", slot5), slot3 and slot4 and slot0.viewParent.contextData.showCommander)
-	setActive(slot0:findTF("blank", slot5), not slot3 or slot3 and not slot4 and slot0.viewParent.contextData.showCommander)
+	setActive(slot5:Find("btn_select"), false)
+	setActive(slot5:Find("btn_clear"), slot3 and not slot0.viewParent.contextData.showCommander)
+	setActive(slot5:Find("btn_recom"), slot3 and not slot0.viewParent.contextData.showCommander)
+	setActive(slot5:Find("commander"), slot3 and slot4 and slot0.viewParent.contextData.showCommander)
+	setActive(slot5:Find("blank"), not slot3 or slot3 and not slot4 and slot0.viewParent.contextData.showCommander)
 end
 
 slot0.updateCommanders = function(slot0, slot1, slot2)
@@ -321,10 +322,10 @@ slot0.clearFleets = function(slot0)
 end
 
 slot0.clearFleet = function(slot0, slot1)
-	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
-	slot4 = slot0:findTF(TeamType.Submarine, slot1)
+	slot3 = slot1:Find(TeamType.Vanguard)
+	slot4 = slot1:Find(TeamType.Submarine)
 
-	if slot0:findTF(TeamType.Main, slot1) then
+	if slot1:Find(TeamType.Main) then
 		removeAllChildren(slot2)
 	end
 
@@ -354,13 +355,13 @@ slot0.updatePropetyLimit = function(slot0)
 				slot4, slot5, slot6, slot7 = unpack(uv0.propetyLimitation[slot1])
 
 				if uv1[slot1] == 1 then
-					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+					slot2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 				else
-					uv0:findTF("Text", slot2):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+					slot2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 				end
 
 				setActive(slot2, true)
-				setText(uv0:findTF("Text", slot2), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6)
+				setText(slot2:Find("Text"), AttributeType.EliteCondition2Name(slot4, slot7) .. AttributeType.eliteConditionCompareTip(slot5) .. slot6)
 			end
 		end)
 		slot1:align(#slot0.propetyLimitation)

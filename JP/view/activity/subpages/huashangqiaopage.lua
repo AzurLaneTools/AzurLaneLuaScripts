@@ -1,7 +1,7 @@
 slot0 = class("HuaShangQiaoPage", import("...base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
-	slot0.bg = slot0:findTF("AD")
+	slot0.bg = slot0._tf:Find("AD")
 	slot0.Build = slot0.bg:Find("build"):GetComponent("Button")
 	slot0.build_times = slot0.bg:Find("build/build_times")
 	slot0.build_time = slot0.bg:Find("build/build_times/time"):GetComponent("Text")

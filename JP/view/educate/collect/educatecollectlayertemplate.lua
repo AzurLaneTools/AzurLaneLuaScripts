@@ -9,22 +9,22 @@ slot0.initConfig = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
-	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	slot0.anim = slot0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	slot0.animEvent = slot0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.closeBtn = slot0:findTF("anim_root/bg")
-	slot0.windowTF = slot0:findTF("anim_root/window")
-	slot0.curCntTF = slot0:findTF("collect/cur", slot0.windowTF)
-	slot0.allCntTF = slot0:findTF("collect/all", slot0.windowTF)
-	slot0.pageTF = slot0:findTF("page", slot0.windowTF)
-	slot0.nextBtn = slot0:findTF("next_btn", slot0.windowTF)
-	slot0.lastBtn = slot0:findTF("last_btn", slot0.windowTF)
-	slot0.paginationTF = slot0:findTF("pagination", slot0.windowTF)
-	slot0.performTF = slot0:findTF("anim_root/perform")
+	slot0.closeBtn = slot0._tf:Find("anim_root/bg")
+	slot0.windowTF = slot0._tf:Find("anim_root/window")
+	slot0.curCntTF = slot0.windowTF:Find("collect/cur")
+	slot0.allCntTF = slot0.windowTF:Find("collect/all")
+	slot0.pageTF = slot0.windowTF:Find("page")
+	slot0.nextBtn = slot0.windowTF:Find("next_btn")
+	slot0.lastBtn = slot0.windowTF:Find("last_btn")
+	slot0.paginationTF = slot0.windowTF:Find("pagination")
+	slot0.performTF = slot0._tf:Find("anim_root/perform")
 
 	setActive(slot0.performTF, false)
 	slot0:initConfig()
@@ -63,7 +63,7 @@ slot0.updatePage = function(slot0)
 	slot1 = (slot0.curPageIndex - 1) * slot0.onePageCnt
 
 	for slot5 = 1, slot0.onePageCnt do
-		slot6 = slot0:findTF("frame_" .. slot5, slot0.pageTF)
+		slot6 = slot0.pageTF:Find("frame_" .. slot5)
 
 		if slot0.config[slot0.config.all[slot1 + slot5]] then
 			setActive(slot6, true)

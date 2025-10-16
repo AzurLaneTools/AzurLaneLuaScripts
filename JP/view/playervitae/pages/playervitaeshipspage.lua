@@ -69,22 +69,22 @@ slot0.RefreshShips = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.cardContainer = slot0:findTF("frame")
-	slot0.shipTpl = slot0:findTF("frame/shipCard")
-	slot0.emptyTpl = slot0:findTF("frame/addCard")
-	slot0.lockTpl = slot0:findTF("frame/lockCard")
-	slot0.helpBtn = slot0:findTF("help_btn")
-	slot0.settingBtn = slot0:findTF("setting_btn")
-	slot0.settingBtnSlider = slot0:findTF("toggle/on", slot0.settingBtn)
-	slot0.randomBtn = slot0:findTF("ran_setting_btn")
-	slot0.randomBtnSlider = slot0:findTF("toggle/on", slot0.randomBtn)
-	slot0.settingSeceneBtn = slot0:findTF("setting_scene_btn")
-	slot0.nativeBtn = slot0:findTF("native_setting_btn")
+	slot0.cardContainer = slot0._tf:Find("frame")
+	slot0.shipTpl = slot0._tf:Find("frame/shipCard")
+	slot0.emptyTpl = slot0._tf:Find("frame/addCard")
+	slot0.lockTpl = slot0._tf:Find("frame/lockCard")
+	slot0.helpBtn = slot0._tf:Find("help_btn")
+	slot0.settingBtn = slot0._tf:Find("setting_btn")
+	slot0.settingBtnSlider = slot0.settingBtn:Find("toggle/on")
+	slot0.randomBtn = slot0._tf:Find("ran_setting_btn")
+	slot0.randomBtnSlider = slot0.randomBtn:Find("toggle/on")
+	slot0.settingSeceneBtn = slot0._tf:Find("setting_scene_btn")
+	slot0.nativeBtn = slot0._tf:Find("native_setting_btn")
 	slot0.nativeBtnOn = slot0.nativeBtn:Find("on")
 	slot0.nativeBtnOff = slot0.nativeBtn:Find("off")
-	slot0.educateCharTr = slot0:findTF("educate_char")
-	slot0.educateCharSettingList = UIItemList.New(slot0:findTF("educate_char/shipCard/settings/panel"), slot0:findTF("educate_char/shipCard/settings/panel/tpl"))
-	slot0.educateCharSettingBtn = slot0:findTF("educate_char/shipCard/settings/tpl")
+	slot0.educateCharTr = slot0._tf:Find("educate_char")
+	slot0.educateCharSettingList = UIItemList.New(slot0._tf:Find("educate_char/shipCard/settings/panel"), slot0._tf:Find("educate_char/shipCard/settings/panel/tpl"))
+	slot0.educateCharSettingBtn = slot0._tf:Find("educate_char/shipCard/settings/tpl")
 	slot0.educateCharTrTip = slot0.educateCharTr:Find("tip")
 
 	if LOCK_EDUCATE_SYSTEM then
@@ -92,24 +92,24 @@ slot0.OnLoaded = function(slot0)
 		setAnchoredPosition(slot0.cardContainer, {
 			x = 0
 		})
-		setAnchoredPosition(slot0:findTF("flagship"), {
+		setAnchoredPosition(slot0._tf:Find("flagship"), {
 			x = -720
 		})
-		setAnchoredPosition(slot0:findTF("zs"), {
+		setAnchoredPosition(slot0._tf:Find("zs"), {
 			x = 763
 		})
-		setAnchoredPosition(slot0:findTF("line"), {
+		setAnchoredPosition(slot0._tf:Find("line"), {
 			x = 740
 		})
 	end
 
 	slot0.educateCharCards = {
-		[uv0] = PlayerVitaeEducateShipCard.New(slot0:findTF("educate_char/shipCard"), slot0.event),
-		[uv1] = PlayerVitaeEducateAddCard.New(slot0:findTF("educate_char/addCard"), slot0.event),
-		[uv2] = PlayerVitaeEducateLockCard.New(slot0:findTF("educate_char/lockCard"), slot0.event)
+		[uv0] = PlayerVitaeEducateShipCard.New(slot0._tf:Find("educate_char/shipCard"), slot0.event),
+		[uv1] = PlayerVitaeEducateAddCard.New(slot0._tf:Find("educate_char/addCard"), slot0.event),
+		[uv2] = PlayerVitaeEducateLockCard.New(slot0._tf:Find("educate_char/lockCard"), slot0.event)
 	}
-	slot0.tip = slot0:findTF("tip"):GetComponent(typeof(Text))
-	slot0.flagShipMark = slot0:findTF("flagship")
+	slot0.tip = slot0._tf:Find("tip"):GetComponent(typeof(Text))
+	slot0.flagShipMark = slot0._tf:Find("flagship")
 
 	slot0:bind(uv3.ON_BEGIN_DRAG_CARD, function (slot0, slot1)
 		uv0:OnBeginDragCard(slot1)

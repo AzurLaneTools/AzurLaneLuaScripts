@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
-	slot0.uiItemList = UIItemList.New(slot0:findTF("scrollrect/list"), slot0:findTF("scrollrect/list/tpl"))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("scrollrect/list"), slot0._tf:Find("scrollrect/list/tpl"))
 	slot0.timers = {}
 end
 

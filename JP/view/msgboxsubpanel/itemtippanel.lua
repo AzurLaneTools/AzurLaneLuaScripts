@@ -117,9 +117,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot0.list = slot0:findTF("skipable_list")
-	slot0.tpl = slot0:findTF("tpl", slot0.list)
-	slot0.title = slot0:findTF("name")
+	slot0.list = slot0._tf:Find("skipable_list")
+	slot0.tpl = slot0.list:Find("tpl")
+	slot0.title = slot0._tf:Find("name")
 end
 
 slot0.OnRefresh = function(slot0, slot1)

@@ -25,32 +25,32 @@ slot0.initData = function(slot0)
 end
 
 slot0.initUIText = function(slot0)
-	setText(slot0:findTF("window/button_container/button_cancel/Image"), i18n("text_cancel"))
-	setText(slot0:findTF("window/button_container/button_ok/Image"), i18n("text_buy"))
+	setText(slot0._tf:Find("window/button_container/button_cancel/Image"), i18n("text_cancel"))
+	setText(slot0._tf:Find("window/button_container/button_ok/Image"), i18n("text_buy"))
 end
 
 slot0.findUI = function(slot0)
-	slot0.bg = slot0:findTF("back_sign")
-	slot0.detailWindow = slot0:findTF("window")
-	slot0.cancelBtn = slot0:findTF("button_container/button_cancel", slot0.detailWindow)
-	slot0.confirmBtn = slot0:findTF("button_container/button_ok", slot0.detailWindow)
-	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
-	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
-	slot0.detailRmb = slot0:findTF("prince_bg/contain/icon_rmb", slot0.detailWindow)
-	slot0.detailGem = slot0:findTF("prince_bg/contain/icon_gem", slot0.detailWindow)
-	slot0.detailPrice = slot0:findTF("prince_bg/contain/Text", slot0.detailWindow)
-	slot0.detailTag = slot0:findTF("goods/tag", slot0.detailWindow)
+	slot0.bg = slot0._tf:Find("back_sign")
+	slot0.detailWindow = slot0._tf:Find("window")
+	slot0.cancelBtn = slot0.detailWindow:Find("button_container/button_cancel")
+	slot0.confirmBtn = slot0.detailWindow:Find("button_container/button_ok")
+	slot0.detailName = slot0.detailWindow:Find("goods/name")
+	slot0.detailIcon = slot0.detailWindow:Find("goods/icon")
+	slot0.detailRmb = slot0.detailWindow:Find("prince_bg/contain/icon_rmb")
+	slot0.detailGem = slot0.detailWindow:Find("prince_bg/contain/icon_gem")
+	slot0.detailPrice = slot0.detailWindow:Find("prince_bg/contain/Text")
+	slot0.detailTag = slot0.detailWindow:Find("goods/tag")
 	slot0.detailTags = {}
 
-	table.insert(slot0.detailTags, slot0:findTF("hot", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("new", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("advice", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("double", slot0.detailTag))
-	table.insert(slot0.detailTags, slot0:findTF("discount", slot0.detailTag))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("hot"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("new"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("advice"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("double"))
+	table.insert(slot0.detailTags, slot0.detailTag:Find("discount"))
 
 	slot0.detailTagAdviceTF = slot0.detailTags[3]
 	slot0.detailTagDoubleTF = slot0.detailTags[4]
-	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
+	slot0.detailNormalTip = slot0.detailWindow:Find("NormalTips")
 end
 
 slot0.addListener = function(slot0)

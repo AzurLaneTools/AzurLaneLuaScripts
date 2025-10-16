@@ -83,14 +83,14 @@ end
 
 slot0.init = function(slot0)
 	slot0.toggleType = uv0.TOGGLE_UNDEFINED
-	slot0.topTF = slot0:findTF("blur_panel/adapt/top")
-	slot0.backBtn = slot0:findTF("back_btn", slot0.topTF)
-	slot0.indexBtn = slot0:findTF("index_button", slot0.topTF)
-	slot0.toggleChar = slot0:findTF("list_card/types/char")
-	slot0.toggleLink = slot0:findTF("list_card/types/link")
-	slot0.toggleBlueprint = slot0:findTF("list_card/types/blueprint")
+	slot0.topTF = slot0._tf:Find("blur_panel/adapt/top")
+	slot0.backBtn = slot0.topTF:Find("back_btn")
+	slot0.indexBtn = slot0.topTF:Find("index_button")
+	slot0.toggleChar = slot0._tf:Find("list_card/types/char")
+	slot0.toggleLink = slot0._tf:Find("list_card/types/link")
+	slot0.toggleBlueprint = slot0._tf:Find("list_card/types/blueprint")
 	slot0.cardItems = {}
-	slot0.cardList = slot0:findTF("list_card/scroll"):GetComponent("LScrollRect")
+	slot0.cardList = slot0._tf:Find("list_card/scroll"):GetComponent("LScrollRect")
 
 	slot0.cardList.onInitItem = function(slot0)
 		uv0:onInitCard(slot0)
@@ -324,14 +324,14 @@ slot0.onReturnCard = function(slot0, slot1, slot2)
 end
 
 slot0.initSelectSkinPanel = function(slot0)
-	slot0.skinPanel = slot0:findTF("selectSkinPnl")
+	slot0.skinPanel = slot0._tf:Find("selectSkinPnl")
 
-	onButton(slot0, slot0:findTF("select_skin/btnBack", slot0.skinPanel), function ()
+	onButton(slot0, slot0.skinPanel:Find("select_skin/btnBack"), function ()
 		uv0:closeSelectSkinPanel()
 	end)
 
-	slot0.skinScroll = slot0:findTF("select_skin/style_scroll", slot0.skinPanel)
-	slot0.skinContainer = slot0:findTF("view_port", slot0.skinScroll)
+	slot0.skinScroll = slot0.skinPanel:Find("select_skin/style_scroll")
+	slot0.skinContainer = slot0.skinScroll:Find("view_port")
 	slot0.skinCard = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 
 	setActive(slot0.skinCard, false)

@@ -15,9 +15,9 @@ slot0.getGroupName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.container = slot0:findTF("main/bg/container")
-	slot0.gridContainer = slot0:findTF("grids", slot0.container)
-	slot0.gridTF = slot0:findTF("grid_tpl", slot0.gridContainer)
+	slot0.container = slot0._tf:Find("main/bg/container")
+	slot0.gridContainer = slot0.container:Find("grids")
+	slot0.gridTF = slot0.gridContainer:Find("grid_tpl")
 	slot0.height = slot0.gridTF.sizeDelta.y + uv0
 	slot0.width = slot0.gridTF.sizeDelta.x + uv1
 	slot0.startPos = Vector2(-1 * (uv2 / 2 - 0.5) * slot0.width + uv3.x, (uv4 / 2 - 0.5) * slot0.height + uv3.y)
@@ -27,28 +27,28 @@ slot0.init = function(slot0)
 
 	setActive(slot0.gridTF, false)
 
-	slot0.infoPanel = slot0:findTF("main/info_panel")
-	slot0.itemContainer = slot0:findTF("usages/items", slot0.infoPanel)
-	slot0.itemTF = slot0:findTF("itemTF", slot0.itemContainer)
-	slot0.infoName = slot0:findTF("name_container/Text", slot0.infoPanel):GetComponent(typeof(Text))
-	slot0.attrContainer = slot0:findTF("align/attrs", slot0.infoPanel)
+	slot0.infoPanel = slot0._tf:Find("main/info_panel")
+	slot0.itemContainer = slot0.infoPanel:Find("usages/items")
+	slot0.itemTF = slot0.itemContainer:Find("itemTF")
+	slot0.infoName = slot0.infoPanel:Find("name_container/Text"):GetComponent(typeof(Text))
+	slot0.attrContainer = slot0.infoPanel:Find("align/attrs")
 	slot0.attrTpl = slot0:getTpl("attr", slot0.attrContainer)
 	slot0.attrTplD = slot0:getTpl("attrd", slot0.attrContainer)
-	slot0.confirmBtn = slot0:findTF("confirm_btn/activity", slot0.infoPanel)
-	slot0.inactiveBtn = slot0:findTF("confirm_btn/inactivity", slot0.infoPanel)
-	slot0.completedteBtn = slot0:findTF("confirm_btn/complete", slot0.infoPanel)
-	slot0.shipTF = slot0:findTF("main/info_panel/usages/shipTF")
-	slot0.skillDesc = slot0:findTF("align/skill_desc/text", slot0.infoPanel)
-	slot0.shipContainer = slot0:findTF("char_container", slot0.infoPanel)
-	slot0.lineTpl = slot0:findTF("resources/line")
-	slot0.lineContainer = slot0:findTF("grids/lines", slot0.container)
+	slot0.confirmBtn = slot0.infoPanel:Find("confirm_btn/activity")
+	slot0.inactiveBtn = slot0.infoPanel:Find("confirm_btn/inactivity")
+	slot0.completedteBtn = slot0.infoPanel:Find("confirm_btn/complete")
+	slot0.shipTF = slot0._tf:Find("main/info_panel/usages/shipTF")
+	slot0.skillDesc = slot0.infoPanel:Find("align/skill_desc/text")
+	slot0.shipContainer = slot0.infoPanel:Find("char_container")
+	slot0.lineTpl = slot0._tf:Find("resources/line")
+	slot0.lineContainer = slot0.container:Find("grids/lines")
 	slot0.helpBtn = GameObject.Find("/OverlayCamera/Overlay/UIMain/common/help_btn")
 
 	if not IsNil(slot0.helpBtn) then
 		setActive(slot0.helpBtn, false)
 	end
 
-	slot0.tooltip = slot0:findTF("tooltip")
+	slot0.tooltip = slot0._tf:Find("tooltip")
 
 	setActive(slot0.tooltip, false)
 end
@@ -356,7 +356,7 @@ slot0.updateFinished = function(slot0, slot1)
 		setActive(slot0.itemContainer:GetChild(slot9 - 1), slot9 <= #slot4)
 
 		if slot9 <= #slot4 then
-			updateDrop(slot0:findTF("IconTpl", slot10), slot4[slot9])
+			updateDrop(slot10:Find("IconTpl"), slot4[slot9])
 			RemoveComponent(slot10, typeof(Button))
 		end
 	end
@@ -366,7 +366,7 @@ slot0.updateFinished = function(slot0, slot1)
 	if slot3.use_ship > 0 then
 		setActive(slot0.shipTF:Find("addTF"), false)
 		setActive(slot0.shipTF:Find("IconTpl"), true)
-		updateDrop(slot0:findTF("IconTpl", slot0.shipTF), {
+		updateDrop(slot0.shipTF:Find("IconTpl"), {
 			type = DROP_TYPE_SHIP,
 			id = slot0.shipVO.configId
 		})
@@ -467,7 +467,7 @@ slot0.updateProgress = function(slot0, slot1)
 		setActive(slot0.shipTF:Find("addTF"), not slot9)
 
 		if slot9 then
-			updateDrop(slot0:findTF("IconTpl", slot0.shipTF), {
+			updateDrop(slot0.shipTF:Find("IconTpl"), {
 				id = getProxy(BayProxy):getShipById(slot8[1]).configId,
 				type = DROP_TYPE_SHIP
 			})
@@ -528,7 +528,7 @@ slot0.updateProgress = function(slot0, slot1)
 				end
 			end
 
-			updateDrop(slot0:findTF("IconTpl", slot13), {
+			updateDrop(slot13:Find("IconTpl"), {
 				id = slot14[1],
 				type = DROP_TYPE_ITEM,
 				count = slot15

@@ -6,14 +6,14 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.slots = {}
-	slot0.uiItemList = UIItemList.New(slot0:findTF("bg/list"), slot0:findTF("bg/list/tpl"))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("bg/list"), slot0._tf:Find("bg/list/tpl"))
 	slot0.iconList = {
 		"icon_1",
 		"icon_2",
 		"icon_3"
 	}
 
-	setText(slot0:findTF("bg/list/tpl/lock/Text"), i18n("dreamland_spring_lock_tip"))
+	setText(slot0._tf:Find("bg/list/tpl/lock/Text"), i18n("dreamland_spring_lock_tip"))
 end
 
 slot0.OnInit = function(slot0)
@@ -53,7 +53,7 @@ end
 slot0.Flush = function(slot0, slot1)
 	slot0.shipList = slot1:GetHotSpringData()
 
-	setText(slot0:findTF("bg/Text"), i18n("dreamland_spring_tip", slot1:GetHotSpringAddition()))
+	setText(slot0._tf:Find("bg/Text"), i18n("dreamland_spring_tip", slot1:GetHotSpringAddition()))
 
 	slot0.gameData = slot1
 

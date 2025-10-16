@@ -8,15 +8,15 @@ slot0.TEXT_MAX_SCALE = Vector3(3, 3, 3)
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
-	slot0.heartTpl = slot0:findTF("HeartTpl", slot0.bg)
-	slot0.heartContainer = slot0:findTF("HeartContainer", slot0.bg)
-	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
-	slot0.getFinalBtn = slot0:findTF("get_final_btn", slot0.bg)
-	slot0.gotFinalBtn = slot0:findTF("got_final_btn", slot0.bg)
-	slot0.performBtn = slot0:findTF("perform_btn", slot0.bg)
-	slot0.performImage = slot0:findTF("image", slot0.performBtn)
-	slot0.performText = slot0:findTF("text", slot0.performBtn)
-	slot0.performReBtn = slot0:findTF("perform_re_btn", slot0.bg)
+	slot0.heartTpl = slot0.bg:Find("HeartTpl")
+	slot0.heartContainer = slot0.bg:Find("HeartContainer")
+	slot0.helpBtn = slot0.bg:Find("help_btn")
+	slot0.getFinalBtn = slot0.bg:Find("get_final_btn")
+	slot0.gotFinalBtn = slot0.bg:Find("got_final_btn")
+	slot0.performBtn = slot0.bg:Find("perform_btn")
+	slot0.performImage = slot0.performBtn:Find("image")
+	slot0.performText = slot0.performBtn:Find("text")
+	slot0.performReBtn = slot0.bg:Find("perform_re_btn")
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -33,7 +33,7 @@ slot0.OnFirstFlush = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
 			slot2.name = slot3
-			slot5 = uv0:findTF("Full", slot2)
+			slot5 = slot2:Find("Full")
 
 			setFillAmount(slot5, 1)
 			setActive(slot5, slot3 <= uv0.ptData:GetLevel())
@@ -142,8 +142,8 @@ slot0.OnGetBtnClick = function(slot0)
 
 	table.insert(slot1, function (slot0)
 		slot1 = uv0.ptData
-		slot2 = uv0
-		slot2 = slot2:findTF(slot1:GetLevelProgress() .. "/Full", uv0.heartContainer)
+		slot2 = uv0.heartContainer
+		slot2 = slot2:Find(slot1:GetLevelProgress() .. "/Full")
 
 		setFillAmount(slot2, 0)
 		setActive(slot2, true)

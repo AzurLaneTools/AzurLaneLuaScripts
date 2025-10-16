@@ -23,8 +23,8 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.setGradeLabel = function(slot0)
-	setActive(slot0:findTF("grade/Xyz/bg13"), false)
-	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0:findTF("grade/Xyz/bg14"), false)
+	setActive(slot0._tf:Find("grade/Xyz/bg13"), false)
+	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0._tf:Find("grade/Xyz/bg14"), false)
 end
 
 slot0.rankAnimaFinish = function(slot0)
@@ -35,7 +35,7 @@ slot0.rankAnimaFinish = function(slot0)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
 		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
+		SetActive(uv0._bg:Find("jieuan01/tips"), true)
 	end)).id)
 
 	slot0._stateFlag = uv0.STATE_REPORT
@@ -65,7 +65,7 @@ end
 slot0.showRewardInfo = function(slot0)
 	slot0._stateFlag = uv0.STATE_REWARD
 
-	SetActive(slot0:findTF("jieuan01/tips", slot0._bg), false)
+	SetActive(slot0._bg:Find("jieuan01/tips"), false)
 	slot0:displayBG()
 end
 
@@ -79,7 +79,7 @@ slot0.setPoint = function(slot0)
 		end
 	end
 
-	setActive(slot0:findTF("blur_container/activitybossConfirmPanel/playAgain"), false)
+	setActive(slot0._tf:Find("blur_container/activitybossConfirmPanel/playAgain"), false)
 end
 
 slot0.displayShips = function(slot0)
@@ -153,9 +153,9 @@ slot0.displayShips = function(slot0)
 				slot26 = slot26 - 1
 			end
 
-			slot0:findTF("result/mask/icon", slot19):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot15:getPainting())
+			slot19:Find("result/mask/icon"):GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. slot15:getPainting())
 
-			setImageSprite(slot0:findTF("result/type", slot19), GetSpriteFromAtlas("shiptype", shipType2print(slot15:getShipType())), true)
+			setImageSprite(slot19:Find("result/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot15:getShipType())), true)
 			slot0:setAtkAnima(slot19, slot20, slot3[slot15.id].output / slot5, slot5, slot4 and slot15.id == slot4.id, slot3[slot15.id].output, slot3[slot15.id].kill_count)
 
 			slot31 = nil

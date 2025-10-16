@@ -5,20 +5,28 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	uv0.super.OnLoaded(slot0)
+	uv0.super.super.OnLoaded(slot0)
 
-	slot0.valueInput = slot0:findTF("calc/value/InputField")
-	slot0.addBtn = slot0:findTF("calc/add")
-	slot0.reduceBtn = slot0:findTF("calc/reduce")
-	slot0.sellBtn = slot0:findTF("calc/sell_btn")
-	slot0.priceTxt = slot0:findTF("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
+	slot0.itemTr = slot0._tf:Find("IslandItemTpl")
+	slot0.nameTxt = slot0._tf:Find("name"):GetComponent(typeof(Text))
+	slot0.ownTxt = slot0._tf:Find("own"):GetComponent(typeof(Text))
+	slot0.uiItemList = UIItemList.New(slot0._tf:Find("list"), slot0._tf:Find("list/tpl"))
 
-	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0:findTF("calc/sell_btn/price/res"))
-	setText(slot0:findTF("calc/sell_btn/Text"), i18n("island_word_convert"))
+	setText(slot0._tf:Find("label/Text"), i18n("island_get_way"))
+
+	slot0.valueInput = slot0._tf:Find("calc/value/InputField")
+	slot0.addBtn = slot0._tf:Find("calc/add")
+	slot0.reduceBtn = slot0._tf:Find("calc/reduce")
+	slot0.sellBtn = slot0._tf:Find("calc/sell_btn")
+	slot0.priceTxt = slot0._tf:Find("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
+
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, slot0._tf:Find("calc/sell_btn/price/res"))
+	setText(slot0._tf:Find("calc/sell_btn/Text"), i18n("island_word_convert"))
 end
 
 slot0.OnShow = function(slot0)
 	uv0.super.OnShow(slot0)
+	setActive(slot0._tf:Find("label"), false)
 	onButton(slot0, slot0.addBtn, function ()
 		uv0:UpdateValue(uv0.value + 1)
 	end, SFX_PANEL)
