@@ -12349,7 +12349,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*Available During:<color=#FFCF81>$1</color>"
+	tip = "*Available During:<color=#2E852C>$1</color>"
 }
 
 
@@ -43959,7 +43959,7 @@ _G.pg.base.gametip.island_card_no_achv_other = {
 
 
 _G.pg.base.gametip.island_leave = {
-	tip = "Return to the Port"
+	tip = "Return"
 }
 
 
