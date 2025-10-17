@@ -4,8 +4,9 @@ slot0.Init = function(slot0, ...)
 	slot1 = packEx(...)
 	slot2 = IslandAssetLoadDispatcher.Instance
 	slot0.loadingId = slot2:Enqueue("UI/" .. slot0:GetUIName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot2 = FrameAsyncInstantiateManager.Instance
-		uv0.uiInstID = slot2:EnqueueInstantiate(slot0, function (slot0)
+		slot1 = uv0
+		slot3 = FrameAsyncInstantiateManager.Instance
+		uv0.uiInstID = slot3:EnqueueInstantiate(slot0, Vector3.zero, Quaternion.identity, slot1:SetUIParent(), function (slot0)
 			uv0:DoInit(slot0, uv1)
 		end)
 	end), true, true)
@@ -16,7 +17,9 @@ slot0.DoInit = function(slot0, slot1, slot2)
 	slot0._tf = slot1.transform
 
 	uv0.super.Init(slot0, slot1)
-	slot0:SetUIParent(slot1)
+
+	slot0._tf.localPosition = Vector3.zero
+
 	slot1.transform:SetAsFirstSibling()
 	slot0:OnBeforeLoaded()
 	slot0:FirstFlush()

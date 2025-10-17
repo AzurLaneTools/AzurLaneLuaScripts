@@ -17,7 +17,7 @@ slot0.DoInit = function(slot0, slot1, slot2)
 end
 
 slot0.SetUIParent = function(slot0, slot1)
-	setParent(slot1, slot0:GetView().opContainer)
+	return slot0:GetView().opContainer
 end
 
 slot0.TryDisable = function(slot0, slot1)

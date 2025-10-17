@@ -11,7 +11,7 @@ slot0.GetUIName = function(slot0)
 end
 
 slot0.SetUIParent = function(slot0, slot1)
-	setParent(slot1, slot0.parent)
+	return slot0.parent
 end
 
 slot0.FirstFlush = function(slot0)
