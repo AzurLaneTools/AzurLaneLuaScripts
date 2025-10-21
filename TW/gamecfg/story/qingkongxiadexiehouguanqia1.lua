@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "這件事還需要兩位的配合.",
+			say = "這件事還需要兩位的配合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
