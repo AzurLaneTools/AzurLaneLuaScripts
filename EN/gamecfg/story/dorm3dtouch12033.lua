@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit4_tone3/drom3d_Taiho_ik_gfit4_tone3",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "每次被指挥官触碰的地方……都变得滚烫呢……",
+			say = "Every time you touch me, I get all hot...♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

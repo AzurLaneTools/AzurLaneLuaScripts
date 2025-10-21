@@ -96,7 +96,7 @@ pg.island_action = {
 		responder_feedback = "",
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
@@ -113,7 +113,7 @@ pg.island_action = {
 		responder_feedback = "",
 		jump_page = {
 			{
-				"开发商店",
+				"Island Seasonal Shop",
 				{}
 			}
 		}
@@ -142,7 +142,7 @@ pg.island_action = {
 		responder_feedback = "",
 		jump_page = {
 			{
-				"开发商店",
+				"Island Seasonal Shop",
 				{}
 			}
 		}
@@ -191,7 +191,7 @@ pg.island_action = {
 		},
 		jump_page = {
 			{
-				"开发商店",
+				"Island Seasonal Shop",
 				{}
 			}
 		}

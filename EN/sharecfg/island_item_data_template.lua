@@ -7486,8 +7486,8 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[300001] = {
-		name = "丰壤农田委派效率提高 4%",
-		desc = "获得后，丰壤农田委派效率提高 4%",
+		name = "Working Efficiency at Faircrop Fields +4%",
+		desc = "When obtained, Working Efficiency at Faircrop Fields +4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7509,14 +7509,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
 	},
 	[300002] = {
-		name = "坠香果园委派效率提高 4%",
-		desc = "获得后，坠香果园委派效率提高 4%",
+		name = "Working Efficiency at Sweetscent Orchard +4%",
+		desc = "When obtained, Working Efficiency at Sweetscent Orchard +4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7538,14 +7538,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
 	},
 	[300003] = {
-		name = "青芽苗圃委派效率提高 4%",
-		desc = "获得后，青芽苗圃委派效率提高 4%",
+		name = "Working Efficiency at Newsprout Nursery +4%",
+		desc = "When obtained, Working Efficiency at Newsprout Nursery +4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7567,14 +7567,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
 	},
 	[300004] = {
-		name = "丰壤农田委派效率提高 8%",
-		desc = "获得后，丰壤农田委派效率提高 8%",
+		name = "Working Efficiency at Faircrop Fields +8%",
+		desc = "When obtained, Working Efficiency at Faircrop Fields +8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7596,14 +7596,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
 	},
 	[300005] = {
-		name = "坠香果园委派效率提高 8%",
-		desc = "获得后，坠香果园委派效率提高 8%",
+		name = "Working Efficiency at Sweetscent Orchard +8%",
+		desc = "When obtained, Working Efficiency at Sweetscent Orchard +8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7625,14 +7625,14 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
 	},
 	[300006] = {
-		name = "青芽苗圃委派效率提高 8%",
-		desc = "获得后，青芽苗圃委派效率提高 8%",
+		name = "Working Efficiency at Newsprout Nursery +8%",
+		desc = "When obtained, Working Efficiency at Newsprout Nursery +8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -7654,7 +7654,7 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}

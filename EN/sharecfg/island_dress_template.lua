@@ -1118,7 +1118,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
@@ -1175,7 +1175,7 @@ pg.island_dress_template = {
 		},
 		jump_page = {
 			{
-				"图鉴",
+				"Island Collection",
 				{}
 			}
 		}
