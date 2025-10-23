@@ -324,6 +324,10 @@ slot1.IsPassTimeByZero = function(slot0, slot1, slot2)
 	return slot2 < math.fmod(slot1 - slot0._sAnchorTime, uv0)
 end
 
+slot1.GetZeroTimeStamp = function(slot0, slot1)
+	return slot1 - (slot1 - slot0._sAnchorTime) % uv0
+end
+
 slot1.CalcMonthDays = function(slot0, slot1, slot2)
 	slot3 = 30
 

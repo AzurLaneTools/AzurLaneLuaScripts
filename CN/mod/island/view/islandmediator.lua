@@ -542,20 +542,22 @@ slot0._register = function(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.START_DELEGATION, function (slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0:bind(uv0.START_DELEGATION, function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		uv0:sendNotification(GAME.ISLAND_START_DELEGATION, {
 			build_id = slot1,
 			area_id = slot2,
 			ship_id = slot3,
 			formula_id = slot4,
-			num = slot5
+			num = slot5,
+			extraCost = slot6
 		})
 	end)
-	slot0:bind(uv0.ADD_DELEGATION, function (slot0, slot1, slot2, slot3)
+	slot0:bind(uv0.ADD_DELEGATION, function (slot0, slot1, slot2, slot3, slot4)
 		uv0:sendNotification(GAME.ISLAND_ADD_DELEGATION, {
 			build_id = slot1,
 			area_id = slot2,
-			add_num = slot3
+			add_num = slot3,
+			extraCost = slot4
 		})
 	end)
 	slot0:bind(uv0.STOP_DELEGATION, function (slot0, slot1, slot2)

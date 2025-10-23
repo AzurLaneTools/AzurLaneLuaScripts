@@ -9,6 +9,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.sceneObject = slot2
 	slot0.animator = slot2:GetAnimator()
+	slot0.inTimeline = false
 end
 
 slot0.GetStatus = function(slot0)

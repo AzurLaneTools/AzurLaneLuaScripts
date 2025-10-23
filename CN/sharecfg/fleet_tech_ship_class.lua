@@ -3814,6 +3814,61 @@ pg.fleet_tech_ship_class = {
 			960011
 		}
 	},
+	[960012] = {
+		shiptype = 24,
+		name = "安妮女王复仇号",
+		t_level = 1,
+		id = 960012,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960012
+		}
+	},
+	[960013] = {
+		shiptype = 23,
+		name = "莱姆号",
+		t_level = 1,
+		id = 960013,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960013
+		}
+	},
+	[960014] = {
+		shiptype = 24,
+		name = "珍珠号",
+		t_level = 2,
+		id = 960014,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960014
+		}
+	},
+	[960015] = {
+		shiptype = 23,
+		name = "皇家詹姆斯号",
+		t_level = 1,
+		id = 960015,
+		t_level_1 = 15,
+		nation = 96,
+		ships = {
+			960015
+		}
+	},
+	[960016] = {
+		shiptype = 22,
+		name = "冒险号",
+		t_level = 1,
+		id = 960016,
+		t_level_1 = 11,
+		nation = 96,
+		ships = {
+			960016
+		}
+	},
 	[970101] = {
 		shiptype = 1,
 		name = "猎人·META",
@@ -4704,6 +4759,11 @@ pg.fleet_tech_ship_class = {
 		960009,
 		960010,
 		960011,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
 		970101,
 		970102,
 		970103,

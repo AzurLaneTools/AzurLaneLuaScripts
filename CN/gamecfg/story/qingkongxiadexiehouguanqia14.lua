@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			actor = 11400010,
 			nameColor = "#A9F548FF",
 			say = "精灵小姐，看地图！附近这几处应该都是补给点！",

@@ -23,6 +23,16 @@ slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+slot0.preloadCv = function(slot0, slot1, slot2)
+	slot3 = pg.CriMgr.GetInstance()
+
+	slot3:LoadCueSheet(slot1, function (slot0)
+		if uv0 then
+			uv0()
+		end
+	end)
+end
+
 slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot0:Stop()
 

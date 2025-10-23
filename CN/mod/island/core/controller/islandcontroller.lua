@@ -90,6 +90,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
 	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
+	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_UPDATE, slot0.OnCollectSlotUnitUpdate)
 	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, slot0.OnCollectSloSlotUnitRemove)
 	slot0:AddIslandListener(IslandStartDelegationCommand.START_DELEGATION, slot0.OnStartDelegation)
 	slot0:AddIslandListener(IslandFinishDelegationCommand.END_DELEGATION, slot0.OnEndDelegation)
@@ -139,6 +140,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
 	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
+	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_UPDATE, slot0.OnCollectSlotUnitUpdate)
 	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, slot0.OnCollectSloSlotUnitRemove)
 	slot0:RemoveIslandListener(IslandStartDelegationCommand.START_DELEGATION, slot0.OnStartDelegation)
 	slot0:RemoveIslandListener(IslandFinishDelegationCommand.END_DELEGATION, slot0.OnEndDelegation)
@@ -678,11 +680,29 @@ slot0.OnCollectSlotUnitInit = function(slot0, slot1)
 	end
 
 	if slot4:InitHandCollectSlotBySlotId(slot2) then
-		if slot5.delayTime then
-			slot0.timeDelayCreate:DelayInitUnit(slot5)
-		else
-			slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+		slot0:NotifiyCore(ISLAND_EVT.GEN_UNIT, slot5)
+	end
+end
+
+slot0.OnCollectSlotUnitUpdate = function(slot0, slot1)
+	slot3 = pg.island_production_slot[slot1.slotId].place
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot0.sceneData.productSystems) do
+		if slot9.id == slot3 then
+			slot4 = slot9
+
+			break
 		end
+	end
+
+	if not slot4 then
+		return
+	end
+
+	if slot4:GetUnitIdBySlotId(slot1.slotId) then
+		slot0:NotifiyCore(ISLAND_EVT.UPDATE_UNIT_HAND_COLLECT, slot5)
+		slot0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, slot5)
 	end
 end
 

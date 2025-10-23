@@ -231,15 +231,21 @@ slot0.FlushInfos = function(slot0)
 		setActive(slot0.inprocessFormulaTF, not slot6)
 
 		if slot6 then
-			slot7 = slot5.formula_id
-			slot8 = pg.island_formula[slot7].commission_product
+			slot8 = pg.island_formula[slot5.formula_id].commission_product
 
 			GetImageSpriteFromAtlasAsync("island/" .. Drop.New({
 				count = 0,
 				type = DROP_TYPE_ISLAND_ITEM,
 				id = slot8[1][1]
 			}):getConfigTable().icon, "", slot0.canRewardIcon)
-			setText(slot0.canRewardNum, "×" .. slot5.formula_drop_list[1].num * slot8[1][2])
+
+			slot13 = "×" .. slot5.formula_drop_list[1].num * slot8[1][2]
+
+			if slot5.main_num and slot14 > 0 then
+				slot13 = string.format("%s+%d", slot13, slot14)
+			end
+
+			setText(slot0.canRewardNum, slot13)
 			GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[pg.island_formula[slot7].item_id].icon, "", slot0.finishFurmalaIcon)
 		end
 
@@ -365,22 +371,43 @@ slot0.UpdateTime = function(slot0)
 	setText(slot0.timeTF, slot0.timeMgr:DescCDTime(slot5))
 	setSlider(slot0.roleDelegationSliderTF, 0, 1, 1 - slot5 / slot3:GetAllTime())
 
-	slot6 = slot3:CanRewardTimes()
-	slot8 = pg.island_formula[slot3.formula_id]
+	slot10 = "×" .. tostring(pg.island_formula[slot3.formula_id].commission_product[1][2] * slot3:CanRewardTimes())
 
-	setText(slot0.canRewardNum, "×" .. tostring(slot8.commission_product[1][2] * slot6))
+	if slot3:GetCurrentCanRewardExtraMainNum() and slot9 > 0 then
+		slot10 = string.format("%s+%d", slot10, slot9)
+	end
 
-	slot9 = slot3:InCurrentTime()
-	slot0.formulaProcess.fillAmount = (slot0.timeMgr:GetServerTime() - slot3:InCurrentTimeStart(slot9)) / slot3:CurrentTimeNeed(slot9)
+	setText(slot0.canRewardNum, slot10)
+
+	slot11 = slot3:InCurrentTime()
+	slot0.formulaProcess.fillAmount = (slot0.timeMgr:GetServerTime() - slot3:InCurrentTimeStart(slot11)) / slot3:CurrentTimeNeed(slot11)
 
 	GetImageSpriteFromAtlasAsync("island/" .. pg.island_item_data_template[slot8.commission_product[1][1]].icon, "", slot0.canRewardIcon)
 	setText(slot0.currentFormulaLastNum, slot3:LastTimes())
+
+	slot17 = "×" .. slot8.commission_product[1][2]
+
+	if slot3:GetExtraMainProduct(slot11) > 0 then
+		slot17 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.commission_product[1][2], slot16)
+	end
+
+	setText(slot0.currentFormulaNum, slot17)
+
+	if #slot8.second_product > 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(slot7) then
+		slot19 = "×" .. slot8.second_product_display[1][2]
+
+		if slot3:GetExtraExtraProduct(slot11) > 0 then
+			slot19 = string.format("×(%s<color=#7df39f>+%d</color>)", slot8.second_product_display[1][2], slot18)
+		end
+
+		setText(slot0.extraProductNum, slot19)
+	end
 
 	if slot6 > 0 then
 		setActive(slot0.getBtn, true)
 		setActive(slot0.addBtn, false)
 	else
-		setActive(slot0.addBtn, slot13 < 5)
+		setActive(slot0.addBtn, slot15 < 5)
 		onButton(slot0, slot0.addBtn, function ()
 			uv0:OpenFormulaSelectPage(uv1, uv2, uv3, uv4.ship_id)
 		end, SFX_PANEL)
@@ -390,17 +417,17 @@ slot0.UpdateTime = function(slot0)
 		return
 	end
 
-	slot14 = slot2:GetFromulaTatalCount(slot8.id) + slot6
-	slot15 = slot8.second_product[1]
-	slot16 = math.floor(slot14 / slot15)
+	slot18 = slot2:GetFromulaTatalCount(slot8.id) + slot6
+	slot19 = slot8.second_product[1]
+	slot20 = math.floor(slot18 / slot19)
 
-	if slot14 % slot15 ~= slot0.extraProcess then
-		slot0.extraProcess = slot17
+	if slot18 % slot19 ~= slot0.extraProcess then
+		slot0.extraProcess = slot21
 
-		slot0.extraProductList:align(slot15)
+		slot0.extraProductList:align(slot19)
 	end
 
-	setText(slot0.extraProductLastNum, "×" .. math.floor((slot13 + slot17) / slot15))
+	setText(slot0.extraProductLastNum, "×" .. math.floor((slot15 + slot21) / slot19))
 end
 
 slot0.StartTimer = function(slot0)

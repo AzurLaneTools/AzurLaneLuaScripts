@@ -142733,6 +142733,61 @@ _G.pg.base.equip_data_statistics[80532] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80541] = {
+	name = "专属弹幕-莱姆号I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80541,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170891
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80542] = {
+	name = "专属弹幕-莱姆号II",
+	base = 80541,
+	id = 80542,
+	weapon_id = {
+		170892
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 双联装130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
@@ -171741,7 +171796,7 @@ _G.pg.base.equip_data_statistics[150020] = {
 	icon = "150020",
 	value_1 = "10",
 	rarity = 4,
-	descrip = "说明未填写",
+	descrip = "飓风船团的旗帜迎风飘扬~",
 	nationality = 96,
 	ammo = 10,
 	value_3 = 0,
@@ -172667,7 +172722,7 @@ _G.pg.base.equip_data_statistics[150180] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 96,
-	descrip = "说明未填写",
+	descrip = "航海中观察远方海况的必备物品。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "hit",
@@ -177300,6 +177355,135 @@ _G.pg.base.equip_data_statistics[150831] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150840] = {
+	name = "自由群岛邀请函",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150840",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "向往自由之人，自由群岛欢迎你——",
+	nationality = 96,
+	ammo = 10,
+	value_3 = 0,
+	id = 150840,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60940,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"MOT",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150841] = {
+	id = 150841,
+	value_1 = "230",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150842] = {
+	id = 150842,
+	value_1 = "260",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150843] = {
+	id = 150843,
+	value_1 = "290",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150844] = {
+	id = 150844,
+	value_1 = "320",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150845] = {
+	id = 150845,
+	value_1 = "350",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150846] = {
+	id = 150846,
+	value_1 = "380",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150847] = {
+	id = 150847,
+	value_1 = "410",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150848] = {
+	id = 150848,
+	value_1 = "440",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150849] = {
+	id = 150849,
+	value_1 = "470",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150850] = {
+	id = 150850,
+	value_1 = "500",
+	base = 150840,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150851] = {
+	anti_siren = 100,
+	base = 150840,
+	id = 150851,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,
@@ -178990,6 +179174,116 @@ _G.pg.base.equip_data_statistics[170862] = {
 	id = 170862,
 	weapon_id = {
 		170862
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170871] = {
+	name = "专属弹幕-冒险号I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170871,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170871
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170872] = {
+	name = "专属弹幕-冒险号II",
+	base = 170871,
+	id = 170872,
+	weapon_id = {
+		170872
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170881] = {
+	name = "专属弹幕-皇家詹姆斯",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170881,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170881
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170882] = {
+	name = "专属弹幕-皇家詹姆斯",
+	base = 170881,
+	id = 170882,
+	weapon_id = {
+		170882
 	},
 	hidden_skill_id = {}
 }

@@ -18,6 +18,16 @@ return {
 			arg_list = {
 				value = -100
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 201266,
+				target = "TargetPlayerFlagShip"
+			}
 		}
 	}
 }

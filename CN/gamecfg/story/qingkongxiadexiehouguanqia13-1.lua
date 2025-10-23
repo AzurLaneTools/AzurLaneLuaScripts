@@ -7,7 +7,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			soundeffect = "event:/battle/boom2",
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			nameColor = "#A9F548FF",
 			say = "轰————！",
 			typewriter = {

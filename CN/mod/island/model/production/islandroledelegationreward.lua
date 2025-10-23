@@ -9,6 +9,8 @@ slot0.UpdateData = function(slot0, slot1)
 	slot0.formula_drop_list = slot1.formula_drop_list
 	slot0.ship_id = slot1.ship_id
 	slot0.exp = slot1.exp
+	slot0.main_num = slot1.main_num
+	slot0.other_num = slot1.other_num
 end
 
 slot0.GetState = function(slot0)

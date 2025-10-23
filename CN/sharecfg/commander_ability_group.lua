@@ -85,6 +85,13 @@ pg.commander_ability_group = {
 			313
 		}
 	},
+	[32] = {
+		id = 32,
+		ability_list = {
+			321,
+			322
+		}
+	},
 	[40] = {
 		id = 40,
 		ability_list = {
@@ -219,6 +226,14 @@ pg.commander_ability_group = {
 			761,
 			762,
 			763
+		}
+	},
+	[77] = {
+		id = 77,
+		ability_list = {
+			771,
+			772,
+			773
 		}
 	},
 	[80] = {
@@ -477,6 +492,18 @@ pg.commander_ability_group = {
 			5161
 		}
 	},
+	[517] = {
+		id = 517,
+		ability_list = {
+			5171
+		}
+	},
+	[518] = {
+		id = 518,
+		ability_list = {
+			5181
+		}
+	},
 	all = {
 		10,
 		11,
@@ -489,6 +516,7 @@ pg.commander_ability_group = {
 		22,
 		30,
 		31,
+		32,
 		40,
 		41,
 		50,
@@ -506,6 +534,7 @@ pg.commander_ability_group = {
 		74,
 		75,
 		76,
+		77,
 		80,
 		81,
 		82,
@@ -541,6 +570,8 @@ pg.commander_ability_group = {
 		513,
 		514,
 		515,
-		516
+		516,
+		517,
+		518
 	}
 }

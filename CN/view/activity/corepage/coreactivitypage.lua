@@ -57,6 +57,10 @@ slot0.BindPageLink = function(slot0)
 	end
 end
 
+slot0.SwitchOut = function(slot0, slot1)
+	slot1()
+end
+
 slot0.OnInit = function(slot0)
 end
 
@@ -80,12 +84,6 @@ slot0.OnShowFlush = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-end
-
-slot0.OnLoadLayers = function(slot0)
-end
-
-slot0.OnRemoveLayers = function(slot0)
 end
 
 slot0.UseSecondPage = function(slot0, slot1)

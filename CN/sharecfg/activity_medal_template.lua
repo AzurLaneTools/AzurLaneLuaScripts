@@ -948,6 +948,102 @@ pg.activity_medal_template = {
 		id = 5013608,
 		medal_asset = "ActivityMedal/5013608"
 	},
+	[5020901] = {
+		activity_medal_desc = "这是自由群岛，属于向往自由之人的群岛。",
+		next_medal = 0,
+		item = 65723,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "1",
+		task_id = 21850,
+		activity_medal_name = "纪念贴：自由群岛",
+		id = 5020901,
+		medal_asset = "ActivityMedal/5020901"
+	},
+	[5020902] = {
+		activity_medal_desc = "这是一张属于复仇女王船团的纪念贴！",
+		next_medal = 0,
+		item = 65724,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "2",
+		task_id = 21851,
+		activity_medal_name = "纪念贴：复仇女王船团",
+		id = 5020902,
+		medal_asset = "ActivityMedal/5020902"
+	},
+	[5020903] = {
+		activity_medal_desc = "这是一张属于飓风船团的纪念贴！",
+		next_medal = 0,
+		item = 65725,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "3",
+		task_id = 21852,
+		activity_medal_name = "纪念贴：飓风船团",
+		id = 5020903,
+		medal_asset = "ActivityMedal/5020903"
+	},
+	[5020904] = {
+		activity_medal_desc = "这是一张属于云墙守卫的纪念贴！",
+		next_medal = 0,
+		item = 65726,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "4",
+		task_id = 21853,
+		activity_medal_name = "纪念贴：云墙守卫",
+		id = 5020904,
+		medal_asset = "ActivityMedal/5020904"
+	},
+	[5020905] = {
+		activity_medal_desc = "位于自由群岛上的遗迹灯塔，内藏秘密。",
+		next_medal = 0,
+		item = 65727,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "5",
+		task_id = 21854,
+		activity_medal_name = "纪念贴：遗迹灯塔",
+		id = 5020905,
+		medal_asset = "ActivityMedal/5020905"
+	},
+	[5020906] = {
+		activity_medal_desc = "这是一张属于女神教会的纪念贴！",
+		next_medal = 0,
+		item = 65728,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "6",
+		task_id = 21855,
+		activity_medal_name = "纪念贴：女神教会",
+		id = 5020906,
+		medal_asset = "ActivityMedal/5020906"
+	},
+	[5020907] = {
+		activity_medal_desc = "皇家财富号亲手雕刻的木质罗盘，惟妙惟肖，甚至栩栩如生。",
+		next_medal = 0,
+		item = 65729,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "7",
+		task_id = 21856,
+		activity_medal_name = "纪念贴：木质罗盘",
+		id = 5020907,
+		medal_asset = "ActivityMedal/5020907"
+	},
+	[5020908] = {
+		activity_medal_desc = "这是一张属于寻宝猎人的纪念贴！",
+		next_medal = 0,
+		item = 65730,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "8",
+		task_id = 21857,
+		activity_medal_name = "纪念贴：寻宝猎人",
+		id = 5020908,
+		medal_asset = "ActivityMedal/5020908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1047,6 +1143,16 @@ pg.activity_medal_template = {
 			5013606,
 			5013607,
 			5013608
+		},
+		[50209] = {
+			5020901,
+			5020902,
+			5020903,
+			5020904,
+			5020905,
+			5020906,
+			5020907,
+			5020908
 		}
 	},
 	all = {
@@ -1128,6 +1234,14 @@ pg.activity_medal_template = {
 		5013605,
 		5013606,
 		5013607,
-		5013608
+		5013608,
+		5020901,
+		5020902,
+		5020903,
+		5020904,
+		5020905,
+		5020906,
+		5020907,
+		5020908
 	}
 }

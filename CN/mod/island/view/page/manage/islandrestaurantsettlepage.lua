@@ -140,4 +140,8 @@ slot0.GetAttrsFactorsRatio = function(slot0, slot1)
 	return slot0.shipCnt * (slot0.maxAttrEffect + slot0.maxAttrEffect * slot3) == 0 and 0 or (IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, IslandShipAttr.MANAGE_KEY) + IslandRestaurantPage.CaclShipAttrFactors(slot0.ships, slot2[1]) * slot3) / slot7
 end
 
+slot0.OnDestroy = function(slot0)
+	slot0:UnBlurPanel()
+end
+
 return slot0

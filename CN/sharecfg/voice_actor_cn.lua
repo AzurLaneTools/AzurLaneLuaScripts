@@ -1903,5 +1903,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "新崎瑞季",
 		code = 476
+	},
+	{
+		actor_name = "天知遥 ",
+		code = 477
+	},
+	{
+		actor_name = "矢野优美华",
+		code = 478
+	},
+	{
+		actor_name = "逢坂成美 ",
+		code = 479
+	},
+	{
+		actor_name = "小泽丽那",
+		code = 480
+	},
+	{
+		actor_name = "山田美鈴 ",
+		code = 481
 	}
 }

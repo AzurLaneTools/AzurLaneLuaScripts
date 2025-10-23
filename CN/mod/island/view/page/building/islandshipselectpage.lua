@@ -440,6 +440,7 @@ end
 slot0.OnDestroy = function(slot0)
 	ClearLScrollrect(slot0.shipRectCom)
 	slot0:StopTimer()
+	slot0:OnHide()
 end
 
 slot0.OnHide = function(slot0)

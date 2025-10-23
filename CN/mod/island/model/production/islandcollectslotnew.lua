@@ -5,9 +5,8 @@ slot0.slotType = {
 }
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	slot0.id = slot2.id
+	slot0.id = slot2
 	slot0.configId = slot0.id
-	slot0.pos = slot2.pos
 	slot0.placeData = slot1
 	slot0.slotType = slot3
 end
@@ -15,7 +14,6 @@ end
 slot0.UpdateData = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
-	slot0.pos = slot1.pos
 end
 
 slot0.GetCanCollectTimeStamps = function(slot0)
@@ -27,7 +25,7 @@ slot0.GetCanCollectTimeStamps = function(slot0)
 		return 0
 	end
 
-	return slot0.placeData:GetNextRecoverTimes(slot2 - slot1)
+	return slot0.placeData:GetNextRecoverTimes()
 end
 
 slot0.UpdateCollectData = function(slot0, slot1, slot2)
@@ -41,23 +39,13 @@ slot0.UpdateCollectData = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot4 = nil
-
-	if slot1.pos ~= slot0.pos then
+	if slot0.placeData.placeId == IslandProductConst.MinePlaceId then
 		slot3:DispatchEvent(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, {
 			slotId = slot0.configId
 		})
-
-		slot4 = true
 	end
 
 	slot0:UpdateData(slot1)
-
-	if slot4 then
-		slot3:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-			slotId = slot0.configId
-		})
-	end
 end
 
 slot0.StartColloct = function(slot0)

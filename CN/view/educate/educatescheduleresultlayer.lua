@@ -90,7 +90,7 @@ slot0.updatePersonalPanel = function(slot0)
 
 	if slot1 then
 		for slot5, slot6 in ipairs(slot0.natureIds) do
-			setText(slot0._tf:Find(tostring(slot6), slot0.personalTF):Find("old"), pg.child_attr[slot6].name .. " " .. slot0.char:GetAttrById(slot6))
+			setText(slot0.personalTF:Find(tostring(slot6)):Find("old"), pg.child_attr[slot6].name .. " " .. slot0.char:GetAttrById(slot6))
 
 			slot9 = slot0.result[slot6] or 0
 

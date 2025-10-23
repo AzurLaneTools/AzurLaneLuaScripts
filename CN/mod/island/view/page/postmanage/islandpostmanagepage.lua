@@ -168,6 +168,8 @@ slot0.OnDisable = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:UnBlurPanel()
+
 	for slot4, slot5 in pairs(slot0.pages) do
 		if slot5 then
 			slot5:Destroy()

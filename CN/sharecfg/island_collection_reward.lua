@@ -476,7 +476,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 3200,
-		describe = "累计获得3200收集点：林中小屋*1",
+		describe = "累计获得3200收集点：森林木屋*1",
 		id = 39,
 		level = 39,
 		award_display = {
@@ -531,7 +531,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 4200,
-		describe = "累计获得4200收集点：林中小屋*1",
+		describe = "累计获得4200收集点：森林木屋*1",
 		id = 44,
 		level = 44,
 		award_display = {
@@ -586,7 +586,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 5500,
-		describe = "累计获得5500收集点：林中小屋*1",
+		describe = "累计获得5500收集点：森林木屋*1",
 		id = 49,
 		level = 49,
 		award_display = {

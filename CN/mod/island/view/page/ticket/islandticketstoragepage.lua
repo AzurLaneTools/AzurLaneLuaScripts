@@ -179,6 +179,7 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:OnHide()
 	ClearLScrollrect(slot0.scrollRect)
 
 	for slot4, slot5 in pairs(slot0.cards) do

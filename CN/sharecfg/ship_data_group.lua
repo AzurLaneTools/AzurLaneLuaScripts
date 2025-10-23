@@ -1934,6 +1934,21 @@ pg.ship_data_group = setmetatable({
 		[960011] = {
 			668
 		},
+		[960012] = {
+			709
+		},
+		[960013] = {
+			710
+		},
+		[960014] = {
+			711
+		},
+		[960015] = {
+			712
+		},
+		[960016] = {
+			713
+		},
 		[1010001] = {
 			10001
 		},
@@ -3099,7 +3114,12 @@ pg.ship_data_group = setmetatable({
 			665,
 			666,
 			667,
-			668
+			668,
+			709,
+			710,
+			711,
+			712,
+			713
 		},
 		{
 			10001,
@@ -3926,6 +3946,11 @@ pg.ship_data_group = setmetatable({
 		666,
 		667,
 		668,
+		709,
+		710,
+		711,
+		712,
+		713,
 		10001,
 		10002,
 		10003,
@@ -31979,6 +32004,166 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限时活动：飓风与沉眠之海",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[709] = {
+		nationality = 96,
+		type = 24,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960012,
+		index_id = 646,
+		code = 709,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与自由群岛",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[710] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960013,
+		index_id = 647,
+		code = 710,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与自由群岛",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[711] = {
+		nationality = 96,
+		type = 24,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960014,
+		index_id = 646,
+		code = 711,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与自由群岛",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[712] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960015,
+		index_id = 646,
+		code = 712,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与自由群岛",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[713] = {
+		nationality = 96,
+		type = 22,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960016,
+		index_id = 647,
+		code = 713,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：飓风与自由群岛",
 				{
 					""
 				},

@@ -180,6 +180,10 @@ pg.expedition_data_by_map = setmetatable({
 		1960012,
 		1960025,
 		1960026,
+		1970001,
+		1970002,
+		1970003,
+		1970004,
 		2100000,
 		2100001,
 		2100010,
@@ -12909,6 +12913,355 @@ pg.base.expedition_data_by_map = {
 			267,
 			268,
 			269
+		}
+	},
+	[1970001] = {
+		map = 1970001,
+		name = "飓风与自由群岛·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-light",
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970001",
+		ani_controller = "",
+		default_background = "bg_jufengv3_1",
+		on_activity = 50181,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1970001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970001
+			},
+			{
+				1970002
+			},
+			{
+				1970003
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970002] = {
+		map = 1970002,
+		name = "飓风与自由群岛·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-temepest-2",
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970002",
+		ani_controller = "",
+		default_background = "bg_jufengv3_1",
+		on_activity = 50181,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1970002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970004
+			},
+			{
+				1970005
+			},
+			{
+				1970006
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970003] = {
+		map = 1970003,
+		name = "飓风与自由群岛·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-light",
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970001",
+		ani_controller = "",
+		default_background = "bg_jufengv3_1",
+		on_activity = 50181,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1970001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		bind_map = 1970002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970041
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970004] = {
+		map = 1970004,
+		name = "飓风与自由群岛·EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-tempest-freedom",
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1970002",
+		ani_controller = "",
+		default_background = "bg_jufengv3_1",
+		on_activity = 50181,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1970002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		bind_map = 1970002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970051,
+				1970052
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
 		}
 	},
 	[2100000] = {

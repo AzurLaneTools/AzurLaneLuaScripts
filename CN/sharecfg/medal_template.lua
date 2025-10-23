@@ -2632,6 +2632,27 @@ pg.medal_template = {
 		explain1 = "「起舞于天原之上」",
 		explain2 = "活动纪念"
 	},
+	[200101] = {
+		target_id = "50209",
+		name = "自由群岛纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "这里是自由群岛，属于所有向往自由之人的群岛，属于自由城邦的群岛。\n——如果你心向自由的话，自由城邦欢迎你。",
+		next = 0,
+		icon = "9101",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9101",
+		condition = "收集8个「飓风与自由群岛」纪念贴纸。",
+		rank = 1,
+		id = 200101,
+		explain1 = "「飓风与自由群岛」",
+		explain2 = "活动纪念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2752,6 +2773,7 @@ pg.medal_template = {
 		200061,
 		200071,
 		200081,
-		200091
+		200091,
+		200101
 	}
 }

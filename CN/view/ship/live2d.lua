@@ -752,7 +752,7 @@ slot20 = function(slot0, slot1)
 	end
 
 	uv13(slot0, "idle", true)
-	slot0:offsetL2dPositonDelay(0.3, 5)
+	slot0:offsetL2dPositonDelay(0.6, 6)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -792,32 +792,41 @@ slot0.SetVisible = function(slot0, slot1)
 		end
 
 		slot0:setReactPos(false)
-
-		slot0._animator.speed = 1
-
 		uv0(slot0, true)
 
 		if Live2dConst.GetLive2dDirty(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id, true) then
 			slot0:resetL2dData()
 		end
+
+		if slot0._tf and isActive(slot0._tf) then
+			setActive(slot0._tf, false)
+		end
+
+		onNextTick(function ()
+			setActive(uv0._tf, true)
+
+			slot0 = uv0
+
+			slot0:loadLive2dData()
+			uv1(uv0, "idle", true)
+
+			slot0 = uv0
+
+			slot0:offsetL2dPositonDelay(0.8, 5, function ()
+			end)
+		end)
 	else
 		slot0:stopVoice()
 		slot0:setReactPos(true)
 		slot0:saveLive2dData()
-		slot0:loadLive2dData()
+		slot0:changeIdleIndex(0)
+		uv1(slot0, "idle", true)
 
 		if slot0._stopCallback then
 			slot0._stopCallback()
 		end
 
 		slot0._readlyToStop = true
-
-		uv1(slot0, "idle", true)
-		slot0:offsetL2dPositonDelay(0.3, 5, function ()
-			if uv0._readlyToStop then
-				uv0._animator.speed = 0
-			end
-		end)
 	end
 end
 
@@ -1343,6 +1352,10 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.state = uv0.STATE_DISPOSE
+end
+
+slot0.settempOffsetPosTime = function(slot0, slot1)
+	slot0.tempOffsetPosTime = slot1
 end
 
 slot0.getParameterDic = function(slot0)

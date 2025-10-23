@@ -237,16 +237,16 @@ slot0.emojiIconFliter = function(slot0)
 	end
 
 	for slot9 = slot0.emojiIconContent.childCount + 1, slot5 do
-		slot10 = Instantiate(slot0.emojiIconItem)
-		slot11 = slot10:Find("TitleCommom")
-		slot12 = slot10:Find("TitleAll")
-		slot13 = slot10:Find("CommomIconContainer")
-		slot15 = GetComponent(slot10:Find("AllIconContainer"), "GridLayoutGroup")
+		slot11 = tf(Instantiate(slot0.emojiIconItem))
+		slot12 = slot11:Find("TitleCommom")
+		slot13 = slot11:Find("TitleAll")
+		slot14 = slot11:Find("CommomIconContainer")
+		slot16 = GetComponent(slot11:Find("AllIconContainer"), "GridLayoutGroup")
 
 		if slot9 == 1 then
-			slot17 = UIItemList.New(slot13, slot13:Find("Icon"))
+			slot18 = UIItemList.New(slot14, slot14:Find("Icon"))
 
-			slot17:make(function (slot0, slot1, slot2)
+			slot18:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -265,12 +265,12 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot17:align(#slot2)
+			slot18:align(#slot2)
 
-			slot15.padding.left = 20
-			slot19 = UIItemList.New(slot14, slot14:Find("Icon"))
+			slot16.padding.left = 20
+			slot20 = UIItemList.New(slot15, slot15:Find("Icon"))
 
-			slot19:make(function (slot0, slot1, slot2)
+			slot20:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -289,13 +289,13 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot19:align(uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num)
+			slot20:align(uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num)
 		else
-			slot16 = uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num
-			slot15.padding.left = 60
-			slot19 = UIItemList.New(slot14, slot14:Find("Icon"))
+			slot17 = uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num
+			slot16.padding.left = 60
+			slot20 = UIItemList.New(slot15, slot15:Find("Icon"))
 
-			slot19:make(function (slot0, slot1, slot2)
+			slot20:make(function (slot0, slot1, slot2)
 				slot3 = uv0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
@@ -314,12 +314,12 @@ slot0.emojiIconFliter = function(slot0)
 					end)
 				end
 			end)
-			slot19:align(#_.slice(slot1, (slot9 - 2) * uv0.True_Emoji_Num_Of_Page + 9 + 1, uv0.True_Emoji_Num_Of_Page))
+			slot20:align(#_.slice(slot1, (slot9 - 2) * uv0.True_Emoji_Num_Of_Page + 9 + 1, uv0.True_Emoji_Num_Of_Page))
 		end
 
-		setActive(slot11, slot9 == 1)
 		setActive(slot12, slot9 == 1)
 		setActive(slot13, slot9 == 1)
+		setActive(slot14, slot9 == 1)
 		setActive(slot10, true)
 		slot0.emojiIconSnap:AddChild(slot10)
 	end
