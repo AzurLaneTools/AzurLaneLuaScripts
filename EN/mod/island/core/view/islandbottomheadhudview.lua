@@ -51,6 +51,17 @@ slot0.ShowAnimationOp = function(slot0, slot1, slot2)
 	slot0.animationOpTpls[slot3.key] = slot5
 
 	table.insert(slot0.animationOpShowFlags, slot3.key)
+	setActive(slot5.transform:Find("effect"), false)
+end
+
+slot0.UpdateAnimationOpEffect = function(slot0, slot1, slot2)
+	slot3, slot4 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot1)
+
+	if not slot0.animationOpTpls[slot0:GenUnitData(slot4, slot3).key] then
+		return
+	end
+
+	setActive(slot6.transform:Find("effect"), slot2)
 end
 
 slot0.HideAnimationOp = function(slot0, slot1)
@@ -63,6 +74,7 @@ slot0.HideAnimationOp = function(slot0, slot1)
 	end
 
 	setActive(slot3, false)
+	setActive(slot3.transform:Find("effect"), false)
 end
 
 slot0.OnDispose = function(slot0)

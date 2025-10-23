@@ -375,9 +375,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					25
+					2025,
+					10,
+					23
 				},
 				{
 					0,
@@ -387,9 +387,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					5,
-					1
+					2025,
+					10,
+					29
 				},
 				{
 					23,
@@ -1221,6 +1221,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "Monster's Dietary Observation Log",
+		story_resource_JP = "soundStory26_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Tsubame Yuzuki",
+		audition_resource_JP = "ss-960008-1",
+		overview = "You are worried after hearing that Fancy has been eating some strange things.\nShe makes you accompany her, and you end up learning more about her \"feeding behaviors\" than you bargained for...",
+		order = 2,
+		audition_text = "Are you not afraid of being devoured, my sweet...delicious...Commander?",
+		ship_id = 960008,
+		id = 26,
+		captions_color = "#274576",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "A Mesmerizing Respite",
+		story_resource_JP = "soundStory27_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Lynn",
+		audition_resource_JP = "ss-30510-1",
+		overview = "Where, oh where, can one find the ultimate relaxation spot that is comfortable, worry-free, and utterly irresistible?\nThe answer might just be found betwixt Musashi's gently-swaying tails.",
+		order = 2,
+		audition_text = "Now then, Commander...you have my full trust...",
+		ship_id = 30510,
+		id = 27,
+		captions_color = "#3a343a",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1246,6 +1352,8 @@ pg.soundstory_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26,
+		27
 	}
 }

@@ -41,16 +41,8 @@ slot0.CalculateTimeToProductFormula = function(slot0, slot1, slot2, slot3, slot4
 		slot12 = slot12 + slot5:GetAblityAgency():GetProductAdditionSpeedByAblityType(slot13)
 	end
 
-	slot14 = 0
-
-	if slot3 == IslandProductConst.PasturePlaceId then
-		for slot22, slot23 in ipairs(slot5:GetBuildingAgency():GetBuilding(slot3):GetDelegationSlotData(slot4):GetPartList()) do
-			slot14 = slot14 + pg.island_ranch_animal[slot23].efficiency_gains
-		end
-	end
-
 	slot17 = pg.island_chara_att[slot7:GetAttrGradeByValue(slot7:GetAttr(IslandShipAttr.ATTRS[slot10]))].effect
-	slot18 = slot8 * (1 + 0.01 * (slot11 + slot12 + slot14))
+	slot18 = slot8 * (1 + 0.01 * (slot11 + slot12 + 0))
 	slot19 = slot7:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
 	table.sort(slot19, function (slot0, slot1)

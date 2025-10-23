@@ -46,45 +46,6 @@ slot0.UpdateHandCollet = function(slot0)
 		end
 
 		slot0.hasEffect = false
-
-		slot0:StopEffectTimer()
-		slot0:StartEffectTimer(slot0.slotData:GetCanCollectTimeStamps() - pg.TimeMgr.GetInstance():GetServerTime())
-	end
-
-	(function ()
-		if uv0.slotData:GetCanCollectTimeStamps() ~= 0 then
-			uv0.delayInfoTimer = Timer.New(function ()
-				uv0:NotifiyCore(ISLAND_EVT.UPDATE_HUD, tonumber(uv0.id))
-			end, slot0 - pg.TimeMgr.GetInstance():GetServerTime(), 1)
-
-			uv0.delayInfoTimer:Start()
-		end
-	end)()
-end
-
-slot0.StartEffectTimer = function(slot0, slot1)
-	slot0.effectTimer = Timer.New(function ()
-		uv0.hasEffect = true
-
-		uv0:LoadEffectItem()
-	end, slot1, 1)
-
-	slot0.effectTimer:Start()
-end
-
-slot0.StopEffectTimer = function(slot0)
-	if slot0.effectTimer ~= nil then
-		slot0.effectTimer:Stop()
-
-		slot0.effectTimer = nil
-	end
-end
-
-slot0.StopUpdateInfoTimer = function(slot0)
-	if slot0.delayInfoTimer ~= nil then
-		slot0.delayInfoTimer:Stop()
-
-		slot0.delayInfoTimer = nil
 	end
 end
 
@@ -195,16 +156,7 @@ slot0.OnDispose = function(slot0)
 		slot0:UnLoadSceneItemRes(slot0.effectPath, slot0.effectGo)
 	end
 
-	slot0:StopUpdateInfoTimer()
-	slot0:StopEffectTimer()
-
 	slot0.hasEffect = false
-
-	if slot0.modelDelayTimer then
-		slot0.modelDelayTimer:Stop()
-
-		slot0.modelDelayTimer = nil
-	end
 end
 
 return slot0

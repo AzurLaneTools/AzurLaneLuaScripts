@@ -776,7 +776,8 @@ slot0.IsShowTipById = function(slot0)
 			end
 
 			return false
-		end
+		end,
+		[ActivityConst.SAILING_SHIP_3_SKIN_ACT_ID] = SailingShip3SkinLayer.ShouldShowTip
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 

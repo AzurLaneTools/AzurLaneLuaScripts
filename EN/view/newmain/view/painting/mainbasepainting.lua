@@ -321,6 +321,10 @@ slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot3, 0, slot4)
 end
 
+slot0.preloadCv = function(slot0, slot1)
+	slot0.cvLoader:preloadCv(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot1)
+end
+
 slot0.setReplaceWord = function(slot0, slot1)
 	slot0.replaceWord = slot1
 end

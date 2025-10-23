@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			dir = 1,
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			actor = 11400020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

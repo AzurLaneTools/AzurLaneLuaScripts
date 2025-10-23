@@ -382,6 +382,46 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50209] = {
+		id = 50209,
+		entrance_picture = "medalAlbum/50209",
+		group_name = "Tempesta and Islas de Libertád",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50209,
+				{
+					21849,
+					21850,
+					21851,
+					21852,
+					21853,
+					21854,
+					21855,
+					21856,
+					21857,
+					21858
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "SailingShip3MedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				319,
+				1
+			},
+			{
+				8,
+				65722,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -392,6 +432,7 @@ pg.activity_medal_group = {
 		5971,
 		50021,
 		50087,
-		50136
+		50136,
+		50209
 	}
 }

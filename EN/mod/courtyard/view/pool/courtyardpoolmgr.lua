@@ -70,9 +70,7 @@ slot0.GenPool = function(slot0, slot1)
 
 				table.insert(uv0.goList, slot0)
 
-				if Object.Instantiate(slot0) then
-					uv0.pools[uv1] = CourtYardEffectPool.New(uv2, Object.Instantiate(slot0), 0, 3)
-				end
+				uv0.pools[uv1] = CourtYardEffectPool.New(uv2, Object.Instantiate(slot0), 0, 3)
 
 				uv3()
 			end), true, true)

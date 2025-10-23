@@ -136,7 +136,8 @@ slot0.onUILoaded = function(slot0, slot1)
 		IslandAwardDisplayPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandQueueUpMsgBox.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
 		IslandTimelineMgr.New(slot0:GetPoolMgr(), pg.UIMgr.GetInstance().OverlayToast, slot0.event),
-		Island3dTaskAcceptPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event)
+		Island3dTaskAcceptPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event),
+		IslandSystemUnlockPage.New(pg.UIMgr.GetInstance().OverlayToast, slot0.event)
 	}
 	slot0.monitors = {
 		IslandPlayerDataMonitor.New(slot0:GetIsland()),
@@ -276,6 +277,37 @@ end
 
 slot0.PlayPerformance = function(slot0, slot1)
 	slot0.poppingQueue:Enqueue(IslandPoppingQueue.PERFORMANCE, slot1)
+end
+
+slot0.DisplaySystemUnlock = function(slot0, slot1, slot2)
+	if not slot1 or #slot1 <= 0 then
+		slot2()
+
+		return
+	end
+
+	if #_.select(slot1, function (slot0)
+		return pg.island_ability_template[slot0.id].show_pop == 1
+	end) <= 0 then
+		slot2()
+
+		return
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot3) do
+		table.insert(slot4, function (slot0)
+			slot1 = uv0
+			slot1 = slot1:GetSubView(IslandSystemUnlockPage)
+
+			slot1:ExecuteAction("Show", uv1.id, function ()
+				onNextTick(uv0)
+			end)
+		end)
+	end
+
+	seriesAsync(slot4, slot2)
 end
 
 slot0.HandleAwardDisplay = function(slot0, slot1, slot2, slot3)

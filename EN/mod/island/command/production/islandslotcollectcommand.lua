@@ -15,22 +15,25 @@ slot0.execute = function(slot0, slot1)
 	}, 21508, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0:GetBuilding(uv1)
-			slot2 = slot0.collect_area
+			slot2 = {
+				id = uv2
+			}
 
-			if uv2 == 2 then
+			if uv3 == 2 then
 				slot2 = {
-					id = uv3
+					id = uv2
 				}
 			end
 
-			slot1:GetBuildingCollectData():UpdateCollectRefreshtTime(slot0.refresh_time, uv2)
-			slot1:UpdateCollectDataBySlotId(slot2, uv2)
+			slot1:GetBuildingCollectData():UpdateCollectRefreshtTime(slot0.refresh_time)
+			slot1:GetBuildingCollectData():UpdateGetCollectNum(uv3)
+			slot1:UpdateCollectDataBySlotId(slot2, uv3)
 			uv4:sendNotification(GAME.ISLAND_DROPMAIN_AWARD, {
 				dropData = IslandDropHelper.AddItems(slot0)
 			})
 			uv5:DispatchEvent(uv6.START_HAND_COLLECT_DONE, {
 				build_id = uv1,
-				area_id = uv3
+				area_id = uv2
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

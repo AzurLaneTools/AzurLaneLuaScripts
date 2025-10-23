@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400020,
 			nameColor = "#A9F548FF",
 			say = "The exit is just ahead. By the look of things, there's a good chance that there is a Floor Boss.",

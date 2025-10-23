@@ -35,6 +35,10 @@ slot0.ShouldShowTip = function()
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.NINJA_CITY_SP_TASK)
 	slot3 = slot2:getConfig("config_data")
 
+	if slot2.data3 then
+		return false
+	end
+
 	if slot2.data3 == 0 or slot4 == nil then
 		return false
 	end

@@ -163,6 +163,12 @@ slot0.ExecuteAwardDisplay = function(slot0, slot1, slot2, slot3)
 			onNextTick(slot0)
 		end,
 		function (slot0)
+			uv0:GetSceneView():DisplaySystemUnlock(uv1.abilitys, slot0)
+		end,
+		function (slot0)
+			onNextTick(slot0)
+		end,
+		function (slot0)
 			pg.m02:sendNotification(GAME.ISLAND_UPGRADE, {
 				callback = slot0
 			})

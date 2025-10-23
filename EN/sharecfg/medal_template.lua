@@ -2632,6 +2632,27 @@ pg.medal_template = {
 		explain1 = "A Dance for Amahara Above",
 		explain2 = "Event"
 	},
+	[200101] = {
+		target_id = "50209",
+		name = "Islas de Libertád Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Islas de Libertád – a free place where seekers of liberty may find it.\nIf it is freedom you desire, Libertypolis welcomes you.",
+		next = 0,
+		icon = "9101",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9101",
+		condition = "Collect 8 stickers in Tempesta and Islas de Libertád.",
+		rank = 1,
+		id = 200101,
+		explain1 = "Tempesta and Islas de Libertád",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2752,6 +2773,7 @@ pg.medal_template = {
 		200061,
 		200071,
 		200081,
-		200091
+		200091,
+		200101
 	}
 }

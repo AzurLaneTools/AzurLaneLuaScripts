@@ -1914,6 +1914,23 @@ pg.skill_data_display = setmetatable({
 		151667,
 		151670,
 		151671,
+		151711,
+		151722,
+		151723,
+		151732,
+		151733,
+		151750,
+		151751,
+		151752,
+		151753,
+		151761,
+		151763,
+		151771,
+		151781,
+		151791,
+		151792,
+		151801,
+		151802,
 		18010,
 		18040,
 		18041,
@@ -3566,6 +3583,8 @@ pg.skill_data_display = setmetatable({
 		201530,
 		201531,
 		201532,
+		201547,
+		201550,
 		1011540,
 		1011541,
 		1090010,
@@ -3656,6 +3675,8 @@ pg.skill_data_display = setmetatable({
 		10150601,
 		10150640,
 		10150642,
+		10151761,
+		10151763,
 		1010481,
 		1010491,
 		1019021,
@@ -3710,6 +3731,7 @@ pg.skill_data_display = setmetatable({
 		1012431,
 		1012432,
 		1012435,
+		10151811,
 		1090020,
 		1090042,
 		1090043,
@@ -11438,6 +11460,74 @@ pg.base.skill_data_display = {
 		id = 151671,
 		name = "Stream Chases Thunder's Traces"
 	},
+	[151711] = {
+		id = 151711,
+		name = "Horror From the Deeps+"
+	},
+	[151722] = {
+		id = 151722,
+		name = "Dreams in the Pirate's House"
+	},
+	[151723] = {
+		id = 151723,
+		name = "Dreams in the Pirate's House"
+	},
+	[151732] = {
+		id = 151732,
+		name = "Horror From the Deeps"
+	},
+	[151733] = {
+		id = 151733,
+		name = "Horror From the Deeps+"
+	},
+	[151750] = {
+		id = 151750,
+		name = "The Blackmane Tempesta"
+	},
+	[151751] = {
+		id = 151751,
+		name = "The Blackmane Tempesta"
+	},
+	[151752] = {
+		id = 151752,
+		name = "The Blackmane Tempesta"
+	},
+	[151753] = {
+		id = 151753,
+		name = "The Blackmane Tempesta"
+	},
+	[151761] = {
+		id = 151761,
+		name = "Share the Spoils"
+	},
+	[151763] = {
+		id = 151763,
+		name = "Share the Spoils"
+	},
+	[151771] = {
+		id = 151771,
+		name = "Pearl of the Sky, Sapphire of the Sea"
+	},
+	[151781] = {
+		id = 151781,
+		name = "Moon's Splendour, Pearl's Shimmer"
+	},
+	[151791] = {
+		id = 151791,
+		name = "Moon's Splendour, Pearl's Shimmer+"
+	},
+	[151792] = {
+		id = 151792,
+		name = "Moon's Splendour, Pearl's Shimmer+"
+	},
+	[151801] = {
+		id = 151801,
+		name = "Judgment of Spear and Sword"
+	},
+	[151802] = {
+		id = 151802,
+		name = "Judgment of Spear and Sword"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -18046,6 +18136,14 @@ pg.base.skill_data_display = {
 		id = 201532,
 		name = "Amahara's Blessing - Uroko"
 	},
+	[201547] = {
+		id = 201547,
+		name = "Island Ruins Support"
+	},
+	[201550] = {
+		id = 201550,
+		name = "Island Ruins Support"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -18406,6 +18504,14 @@ pg.base.skill_data_display = {
 		id = 10150642,
 		name = "\"Spiritual\" Healing+"
 	},
+	[10151761] = {
+		id = 10151761,
+		name = "Share the Spoils+"
+	},
+	[10151763] = {
+		id = 10151763,
+		name = "Share the Spoils+"
+	},
 	[1010481] = {
 		id = 1010481,
 		name = "Sisterly Bond+"
@@ -18621,6 +18727,10 @@ pg.base.skill_data_display = {
 	[1012435] = {
 		id = 1012435,
 		name = "Lucky A +"
+	},
+	[10151811] = {
+		id = 10151811,
+		name = "Final Sacrament+"
 	},
 	[1090020] = {
 		id = 1090020,

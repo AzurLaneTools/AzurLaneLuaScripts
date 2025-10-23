@@ -12349,7 +12349,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*Available During:<color=#2E852C>$1</color>"
+	tip = "*Available During:<color=#539b2c>$1</color>"
 }
 
 
@@ -41424,7 +41424,7 @@ _G.pg.base.gametip.island_season_window_end2 = {
 
 
 _G.pg.base.gametip.island_season_window_rule = {
-	tip = "1. At the end of a season, the resources in your warehouse will be automatically converted to IDP, and you will be placed on the development ranking accordingly. Additionally, the contents of your temporary warehouse will be cleared, and all active requests, transport commissions, food production, and character assignments will be reset.\n2. When the season finishes, you will be unable to claim development and milestone rewards from the season that just ended.\n3. When a new season begins, your Island Development Points (IDP) will automatically reset."
+	tip = "1. At the end of a season, the <color=#39bfff>resources in your warehouse</color> will be automatically <color=#FD5650>converted to Island Development Points (IDP)</color>, and you will be placed on the development ranking accordingly. Additionally, the contents of your <color=#FD5650>temporary warehouse will be cleared</color>, and all <color=#39bfff>active requests, transport jobs, food production, and character assignments will be reset</color>.\n2. When the season finishes, you will be <color=#39bfff>unable to claim development and milestone rewards from the season that just ended</color>.\n3. When a new season begins, your IDP will <color=#FD5650>automatically reset</color>."
 }
 
 
@@ -45093,14 +45093,14 @@ _G.pg.base.gametip.dorm3d_dafeng_bed = {
 
 _G.pg.base.gametip.island_draw_help = {
 	tip = [[
-You can spend Stellar Tickets on the Stellar Prize Draw to draw various prizes, ranging in grade from S (highest) to C (lowest).
+You can spend <color=#39bfff>Stellar Tickets</color> in the Premium Booth to draw various prizes, ranging in grade from <color=#39bfff>S (highest)</color> to C (lowest).
 1. There are two ways to obtain Stellar Tickets. They can be earned through playing Island Planner, or purchased using Gems.
 2. There is a fixed number of prizes of each grade, and the probability of receiving each respective prize within a grade is the same. Once you get a certain prize, it will not appear again during the duration of the Stellar Prize Draw.
-· S-grade prizes are special in that you may change the order you acquire them if you so like.
-3. The Stellar Prize Draw lineup is exclusive to each limited period during which it runs. Once one run of it ends, the next one will have a different lineup of prizes.
+· S-grade prizes are special in that you may <color=#39bfff>change the order you acquire them</color> if you so like.
+3. The Stellar Prize Draw lineup is exclusive to each limited period during which it runs. Once one run of it ends, the next one will have a <color=#39bfff>different lineup</color> of prizes.
 4. During a single Stellar Prize Draw run, once you've won a certain number of prizes, you may select a prize from the Total Draws shown on the Stellar Prize Draw menu. Your total number of draws is reset between individual runs of the Stellar Prize Draw.
-5. When a given run of the Stellar Prize Draw ends, if you have yet to obtain all the prizes and you still possess any Stellar Tickets, as many of them as possible will automatically be used in order to give you all the prizes.
-· If you've won all the prizes, any leftover Stellar Tickets will be converted to Gems.
+5. When a given run of the Stellar Prize Draw ends, if you have yet to obtain all the prizes and you still possess any Stellar Tickets, <color=#39bfff>as many of them as possible will automatically be used</color> in order to give you all the prizes.
+· If you've won all the prizes, any leftover Stellar Tickets will be <color=#39bfff>converted to Gems</color>.
 · Prizes and Gems obtained through the above method will be sent to your Mailbox.]]
 }
 
@@ -45352,4 +45352,38 @@ _G.pg.base.gametip.island_information_tech = {
 
 _G.pg.base.gametip.dorm3d_shop_tag8 = {
 	tip = "Unlock Tights Interaction"
+}
+
+
+_G.pg.base.gametip.island_chara_attr_help = {
+	tip = [[
+1. The higher a character's <color=#39bfff>stats</color> are, the higher their corresponding <color=#39bfff>grade</color> will be.
+2. A character with a high <color=#39bfff>grade</color> works with <color=#39bfff>superior efficiency</color> when performing a task <color=#39bfff>related to that stat</color>.
+3.<color=#39bfff>Grades</color> are defined as follows based on the <color=#39bfff>stat</color> in question:
+	<color=#E79CC6>S</color> Stat>=200
+	<color=#FFDC1C>A</color> 120<=Stat<200
+	<color=#B7A4FF>B</color> 80<=Stat<120
+	<color=#97CFF6>C</color> 50<=Stat<80
+	<color=#757577>D</color> 25<=Stat<50
+	<color=#757577>E</color> 0<=Stat<25]]
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar1 = {
+	tip = "Main Event "
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar2 = {
+	tip = "Milestone "
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
+	tip = "Side Event "
+}
+
+
+_G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
+	tip = "Achievements"
 }

@@ -1630,7 +1630,7 @@ pg.base.island_item_data_template = {
 	},
 	[1022] = {
 		name = "Rubber Tree Seeds",
-		desc = "Can be cultivated and harvested at any time. It's available all year round!",
+		desc = "A bunch of the port's premium rubber tree seeds. Can be used to grow quality rubber.",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,

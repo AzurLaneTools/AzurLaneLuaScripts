@@ -108,7 +108,9 @@ slot0.OnInit = function(slot0)
 		end, SFX_UI_TAG)
 	end
 
-	slot0:OverlayPanel(slot0.memoryTogGroup)
+	slot0:OverlayPanel(slot0.memoryTogGroup, {
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	})
 
 	slot0.loader = AutoLoader.New()
 	slot3 = slot0._tf
@@ -391,6 +393,7 @@ end
 slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 	slot0.storyLineView:Dispose()
+	slot0:UnOverlayPanel(slot0.memoryTogGroup, slot0._tf)
 end
 
 slot0.GetMatchGroupList = function(slot0, slot1, slot2)

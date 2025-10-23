@@ -5070,6 +5070,39 @@ pg.backyard_theme_template = {
 			330101
 		}
 	},
+	[132] = {
+		Cfg_1 = 5,
+		name = "Temple of Phantom Light",
+		desc = "Open the lost door and search for the secret, ancient words amidst the twinkling light.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 132,
+		id = 132,
+		icon = "mfthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5187,6 +5220,7 @@ pg.backyard_theme_template = {
 		126,
 		127,
 		129,
-		130
+		130,
+		132
 	}
 }

@@ -103,22 +103,6 @@ slot0.OnUpdateFlush = function(slot0)
 	slot0.itemList:align(#slot0.taskList)
 end
 
-slot0.OnLoadLayers = function(slot0)
-	slot1 = slot0.itemList
-
-	slot1:each(function (slot0, slot1)
-		setActive(slot1, false)
-	end)
-end
-
-slot0.OnRemoveLayers = function(slot0)
-	slot1 = slot0.itemList
-
-	slot1:each(function (slot0, slot1)
-		setActive(slot1, true)
-	end)
-end
-
 slot0.OnShowFlush = function(slot0)
 	slot1 = slot0.itemList
 

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400010,
 			nameColor = "#A9F548FF",
 			say = "I can't deal any damage, but I sure can provide some good support!",

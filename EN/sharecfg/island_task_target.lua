@@ -1019,7 +1019,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100010401] = {
-		tips = "10040040",
+		tips = "10040017",
 		name = "Gather Raw Timber.",
 		type = 4,
 		id = 100010401,

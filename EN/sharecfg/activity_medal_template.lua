@@ -948,6 +948,102 @@ pg.activity_medal_template = {
 		id = 5013608,
 		medal_asset = "ActivityMedal/5013608"
 	},
+	[5020901] = {
+		activity_medal_desc = "If liberty you seek, then Islas de Libertád is where you belong.",
+		next_medal = 0,
+		item = 65723,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "1",
+		task_id = 21850,
+		activity_medal_name = "Sticker: Islas de Libertád",
+		id = 5020901,
+		medal_asset = "ActivityMedal/5020901"
+	},
+	[5020902] = {
+		activity_medal_desc = "Don't mess with them, or you'll taste their vengeance!",
+		next_medal = 0,
+		item = 65724,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "2",
+		task_id = 21851,
+		activity_medal_name = "Sticker: The Vengeful Queen Fleet",
+		id = 5020902,
+		medal_asset = "ActivityMedal/5020902"
+	},
+	[5020903] = {
+		activity_medal_desc = "Adventure and treasure! That is what Tempesta is all about!",
+		next_medal = 0,
+		item = 65725,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "3",
+		task_id = 21852,
+		activity_medal_name = "Sticker: Tempesta",
+		id = 5020903,
+		medal_asset = "ActivityMedal/5020903"
+	},
+	[5020904] = {
+		activity_medal_desc = "In a world where rules are but suggestions, someone has to uphold the law.",
+		next_medal = 0,
+		item = 65726,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "4",
+		task_id = 21853,
+		activity_medal_name = "Sticker: The Nebula Guardians",
+		id = 5020904,
+		medal_asset = "ActivityMedal/5020904"
+	},
+	[5020905] = {
+		activity_medal_desc = "The great, ancient lighthouse on Islas de Libertád. Secrets hide within it.",
+		next_medal = 0,
+		item = 65727,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "5",
+		task_id = 21854,
+		activity_medal_name = "Sticker: Lighthouse Ruins",
+		id = 5020905,
+		medal_asset = "ActivityMedal/5020905"
+	},
+	[5020906] = {
+		activity_medal_desc = "O Goddess, may your light guide our path.",
+		next_medal = 0,
+		item = 65728,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "6",
+		task_id = 21855,
+		activity_medal_name = "Sticker: Church of the Goddess",
+		id = 5020906,
+		medal_asset = "ActivityMedal/5020906"
+	},
+	[5020907] = {
+		activity_medal_desc = "The wooden compass Royal Fortune made. It was carved to look like her original one.",
+		next_medal = 0,
+		item = 65729,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "7",
+		task_id = 21856,
+		activity_medal_name = "Sticker: Wooden Compass",
+		id = 5020907,
+		medal_asset = "ActivityMedal/5020907"
+	},
+	[5020908] = {
+		activity_medal_desc = "Follow the treasure map, the rainbow, and the money, and riches will be yours!",
+		next_medal = 0,
+		item = 65730,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "8",
+		task_id = 21857,
+		activity_medal_name = "Sticker: The Treasure Hunters",
+		id = 5020908,
+		medal_asset = "ActivityMedal/5020908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1047,6 +1143,16 @@ pg.activity_medal_template = {
 			5013606,
 			5013607,
 			5013608
+		},
+		[50209] = {
+			5020901,
+			5020902,
+			5020903,
+			5020904,
+			5020905,
+			5020906,
+			5020907,
+			5020908
 		}
 	},
 	all = {
@@ -1128,6 +1234,14 @@ pg.activity_medal_template = {
 		5013605,
 		5013606,
 		5013607,
-		5013608
+		5013608,
+		5020901,
+		5020902,
+		5020903,
+		5020904,
+		5020905,
+		5020906,
+		5020907,
+		5020908
 	}
 }

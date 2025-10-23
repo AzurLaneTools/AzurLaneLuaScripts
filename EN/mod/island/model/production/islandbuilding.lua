@@ -202,6 +202,10 @@ slot0.UpdatePerSecond = function(slot0)
 	for slot4, slot5 in pairs(slot0.delegationSlotData) do
 		slot5:UpdatePerSecond(slot0.isSelf)
 	end
+
+	if slot0.collectPlaceSystem then
+		slot0.collectPlaceSystem:UpdatePerSecond()
+	end
 end
 
 slot0.GetSlotUnitDataByModelData = function(slot0)

@@ -201,6 +201,11 @@ pg.island_set = {
 			}
 		}
 	},
+	mining_recovery_tim_new = {
+		key_value_varchar = "",
+		key = "mining_recovery_tim_new",
+		key_value_int = 10800
+	},
 	collection_point_recovery_time = {
 		key = "collection_point_recovery_time",
 		key_value_int = 0,
@@ -226,6 +231,40 @@ pg.island_set = {
 			{
 				2015,
 				10040040
+			}
+		}
+	},
+	mining_default_slot = {
+		key = "mining_default_slot",
+		key_value_int = 0,
+		key_value_varchar = {
+			{
+				401,
+				{
+					2001,
+					2002,
+					2003,
+					2004,
+					2006,
+					2007,
+					2008,
+					2009,
+					2010
+				}
+			},
+			{
+				402,
+				{
+					2011,
+					2012,
+					2013,
+					2014,
+					2016,
+					2017,
+					2018,
+					2019,
+					2020
+				}
 			}
 		}
 	},
@@ -276,7 +315,10 @@ pg.island_set = {
 			10040005,
 			10040006,
 			10040007,
-			10040008
+			10040008,
+			10040070,
+			10040071,
+			10040072
 		}
 	},
 	task_daily = {
@@ -943,8 +985,10 @@ pg.island_set = {
 		"favorite_gifts_state",
 		"work_points",
 		"mining_recovery_time",
+		"mining_recovery_tim_new",
 		"collection_point_recovery_time",
 		"mission_gather_point",
+		"mining_default_slot",
 		"base_efficiency",
 		"stamina_cost",
 		"detection_parameters",

@@ -368,6 +368,7 @@ pg.skill_data_template = setmetatable({
 		60910,
 		60920,
 		60930,
+		60940,
 		7000,
 		9010,
 		9020,
@@ -1342,6 +1343,20 @@ pg.skill_data_template = setmetatable({
 		151650,
 		151660,
 		151670,
+		151680,
+		151690,
+		151700,
+		151710,
+		151720,
+		151730,
+		151740,
+		151750,
+		151760,
+		151770,
+		151780,
+		151790,
+		151800,
+		151810,
 		18010,
 		18040,
 		18050,
@@ -2040,6 +2055,12 @@ pg.skill_data_template = setmetatable({
 		30512,
 		30521,
 		30522,
+		30531,
+		30532,
+		30541,
+		30542,
+		30551,
+		30552,
 		101010,
 		101020,
 		101030,
@@ -2674,6 +2695,7 @@ pg.skill_data_template = setmetatable({
 		902310,
 		902320,
 		902330,
+		902340,
 		1010140,
 		1010390,
 		1010410,
@@ -2742,6 +2764,7 @@ pg.skill_data_template = setmetatable({
 		10150580,
 		10150640,
 		10150600,
+		10151760,
 		1019020,
 		1019090,
 		1019110,
@@ -2769,6 +2792,7 @@ pg.skill_data_template = setmetatable({
 		1011240,
 		1011450,
 		1012430,
+		10151810,
 		1090010,
 		1090020,
 		1090030,
@@ -13255,6 +13279,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		max_level = 0,
 		desc = "When equipped by a non-Sakura Empire ship who's sortied with Unzen, activates the following effects: 1) When the battle starts, increases this ship's SPD by 5 for 8s and deploys a shield (lasting 8s; can negate up to 6 enemy shells); 2) When the battle starts, for 30s, increases this ship's DMG dealt with HE ammo by 5.0%.",
 		id = 60930,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60940] = {
+		desc_get = "",
+		name = "Invitation to Islas de Libertád",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Tempesta ship: increases that ship's Main Gun efficiency by 5.0% in battle.",
+		id = 60940,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -112953,6 +112991,1482 @@ Increases this ship's EVA by $1 and SPD by $2. Every 15s after the battle starts
 			}
 		}
 	},
+	[151680] = {
+		desc_get = "",
+		name = "The Best-Laid Plans go Boom!",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. 30s after the battle starts: fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 151680,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151690] = {
+		desc_get = "",
+		name = "Blessings from the Sea!",
+		type = 3,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken by 20.0%. When this ship hits an enemy with the Main Gun weapon in her first Gear Slot: 10.0% chance to decrease that enemy's ACC by $1 for 5s. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: restores $2 of this ship's max HP.",
+		id = 151690,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[151700] = {
+		desc_get = "",
+		name = "Horror From the Deeps",
+		type = 2,
+		max_level = 10,
+		desc = "When this ship enters the battle: every second for 10s, restores $1 of this ship's max HP. 5s after this ship's HP falls below 30.0% as a result of DMG taken, or 60s after this ship enters the battle: this ship leaves the battlefield.",
+		id = 151700,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[151710] = {
+		desc_get = "",
+		name = "Horror From the Deeps+",
+		type = 2,
+		max_level = 10,
+		desc = "When this ship enters the battle: every second for 10s, restores $1 of this ship's max HP and increases this ship's EVA by 1.0% (can be stacked up to 10 times). 5s after this ship's HP falls below 30.0% as a result of DMG taken, or 60s after this ship enters the battle: fires a $2 special barrage (DMG is based on the skill's level), then this ship leaves the battlefield.",
+		id = 151710,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"2.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151720] = {
+		desc_get = "",
+		name = "Dreams in the Pirate's House",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship enters the battle: every second for 15s, increases this ship's FP and RLD by 1.0% (can be stacked up to 15 times). Every 15s: this ship becomes immobile for 1s and fires a $1 special barrage (DMG is based on the skill's level); if this barrage sinks an enemy, additionally performs a $1 special attack (DMG is based on the skill's level; 15s cooldown between activations; enemies hit by this attack have their SPD decreased by 30.0% for 3s).",
+		id = 151720,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151730] = {
+		desc_get = "",
+		name = "冒险号撤退用buff",
+		type = 1,
+		max_level = 10,
+		desc = "",
+		id = 151730,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			0
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[151740] = {
+		desc_get = "",
+		name = "The Best-Laid Plans go Boom!+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. 30s after the battle starts: fires an improved $3 special barrage (DMG is based on the skill's level) and increases this ship's DMG dealt by $2 until the battle ends.",
+		id = 151740,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151750] = {
+		desc_get = "",
+		name = "The Blackmane Tempesta",
+		type = 1,
+		max_level = 10,
+		desc = "If this ship is your Flagship: increases your Tempesta ships' FP, ACC, and EVA by $1; if she is not your Flagship: increases this ship's FP and EVA by $2. When this ship fires her Main Guns: $3 chance to fire a $4 special barrage (DMG is based on the skill's level); if there is another Tempesta ship in your fleet, increases this barrage's activation chance by 30.0%.",
+		id = 151750,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151760] = {
+		desc_get = "",
+		name = "Share the Spoils",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship finishes loading her Main Guns, if there is no enemy with Plunder Target on the battlefield, inflicts Plunder Target to a random enemy (prioritizes humanoid enemies); enemies with Plunder Target have $1 decreased EVA and take $1 more DMG from Queen Anne's Revenge. When an enemy with Plunder Target is sunk, all your Tempesta ships recover $2 of their max HP.",
+		id = 151760,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[151770] = {
+		desc_get = "",
+		name = "Pearl of the Sky, Sapphire of the Sea",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level) that inflicts Pearl Moon to enemies hit. Enemies with Pearl Moon have their ACC decreased by 15.0% until the battle ends (this effect does not stack).",
+		id = 151770,
+		system_transform = {
+			[3.0] = 151773
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151780] = {
+		desc_get = "",
+		name = "Moon's Splendour, Pearl's Shimmer",
+		type = 3,
+		max_level = 10,
+		desc = "Every odd-numbered time this ship fires her Main Guns: decreases your Vanguard's DMG taken by $1 for 8s; every even-numbered time she fires her Main Guns: restores $2 of this ship's max HP and inflicts 500 DMG to enemies with the Pearl Moon debuff.",
+		id = 151780,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[151790] = {
+		desc_get = "",
+		name = "Moon's Splendour, Pearl's Shimmer+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. 30s after the battle starts: increases this ship's DMG dealt by $3 until the battle ends. When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level) that inflicts Pearl Moon to enemies hit. Enemies with Pearl Moon have their ACC decreased by 15.0% until the battle ends (this effect does not stack).",
+		id = 151790,
+		system_transform = {
+			[3.0] = 151793
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[151800] = {
+		desc_get = "",
+		name = "Judgment of Spear and Sword",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. Increases this ship's DMG dealt by $2 against enemies with less than 25.0% HP. Every 5s: fires a $3 special shell, and every 20s: fires a $3 special barrage (DMG of the shell and the barrage is based on the skill's level).",
+		id = 151800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[151810] = {
+		desc_get = "",
+		name = "Final Sacrament",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's EVA by $1 and deploys a barrier (lasting 30s) that can negate DMG equal to $2 of this ship's max HP. When the battle starts, if there is another Tempesta ship in your fleet: once per battle, when this ship takes DMG that would sink her, this ship does not sink, recovers 10.0% of her max HP, and evades all DMG for 3s; when this effect activates, increases this ship's DMG dealt by 10.0% and decreases her DMG taken by 15.0% until the battle ends.",
+		id = 151810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells+",
@@ -135338,6 +136852,90 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		max_level = 1,
 		desc = "When this boat's OXY reaches 0 and she resurfaces: activates All Out Assault - I-404 II and decreases this boat's DMG taken by 40.0% for 5s.",
 		id = 30522,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30531] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Royal James once every 22 times the Main Guns are fired.",
+		id = 30531,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30532] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Royal James once every 30 times the Main Guns are fired.",
+		id = 30532,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30541] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Adventure once every 28 times the Main Guns are fired.",
+		id = 30541,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30542] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Adventure once every 40 times the Main Guns are fired.",
+		id = 30542,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30551] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Lyme once every 30 times the Main Guns are fired.",
+		id = 30551,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30552] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Lyme once every 20 times the Main Guns are fired.",
+		id = 30552,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -175389,10 +176987,10 @@ Additionally, once per battle each, the following effects activate based on the 
 	},
 	[902240] = {
 		desc_get = "",
-		name = "Tempesta's Blessing",
+		name = "The Blessed Tempesta",
 		type = 2,
 		max_level = 1,
-		desc = "Decreases the wearer's aircraft DMG taken by 25.0%. When the battle starts: decreases the wearer's DMG taken by 10.0% for 40s.",
+		desc = "Decreases this ship's DMG taken from aircraft by 25.0%. When the battle starts: decreases this ship's DMG taken by 10.0% for 40s.",
 		id = 902240,
 		system_transform = {},
 		world_death_mark = {
@@ -175520,6 +177118,20 @@ Additionally, once per battle each, the following effects activate based on the 
 		max_level = 1,
 		desc = "Increases the wearer's aircraft efficiency by 10.0%.",
 		id = 902330,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[902340] = {
+		desc_get = "",
+		name = "Tempesta Heist",
+		type = 1,
+		max_level = 1,
+		desc = "Decreases this ship's DMG taken from aircraft by 30.0% and increases her DMG dealt by 5.0%.",
+		id = 902340,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -183817,6 +185429,112 @@ The DMG of both these barrages is based on the skill's level.]],
 			}
 		}
 	},
+	[10151760] = {
+		desc_get = "",
+		name = "Share the Spoils+",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship finishes loading her Main Guns, if there is an enemy with Plunder Target on the battlefield: decreases that enemy's SPD by 20.0% for 5s; if there is no enemy with Plunder Target, inflicts Plunder Target to a random enemy (prioritizes humanoid enemies); enemies with Plunder Target have $1 decreased EVA and take $1 more DMG from Queen Anne's Revenge. When an enemy with Plunder Target is sunk, all your Tempesta ships recover $2 of their max HP and their DMG taken is decreased by $2 until the battle ends (this effect can be stacked up to 3 times).",
+		id = 10151760,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
 	[1019020] = {
 		desc_get = "",
 		name = "Goddess of the Sea+",
@@ -188152,6 +189870,157 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 				},
 				{
 					"100%"
+				}
+			}
+		}
+	},
+	[10151810] = {
+		desc_get = "",
+		name = "Final Sacrament+",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: increases this ship's EVA by $1 and DMG dealt against Medium Armor enemies by $2 and deploys a barrier (lasting until the battle ends) that can negate DMG equal to $3 of this ship's max HP. Once per battle, when this ship takes DMG that would sink her, this ship does not sink, recovers 20.0% of her max HP, and evades all DMG for 5s; when this effect activates, increases this ship's DMG dealt by 10.0% and decreases her DMG taken by 15.0% until the battle ends.",
+		id = 10151810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
 				}
 			}
 		}

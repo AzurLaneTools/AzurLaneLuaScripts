@@ -27661,6 +27661,131 @@ _G.pg.base.item_data_statistics[30375] = {
 }
 
 
+_G.pg.base.item_data_statistics[30376] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Deep-Sea Treasure Hunt)",
+	type = 11,
+	display = "Use to obtain a random Deep-Sea Treasure Hunt-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30373",
+	id = 30376,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -41839,6 +41964,219 @@ _G.pg.base.item_data_statistics[30559] = {
 		{
 			9,
 			4239,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30560] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Deep-Sea Treasure Hunt)",
+	type = 13,
+	display = "Can be opened to receive 1 Deep-Sea Treasure Hunt-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshenhaixunbaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30560,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4240,
+			1
+		},
+		{
+			9,
+			4241,
+			1
+		},
+		{
+			9,
+			4242,
+			1
+		},
+		{
+			9,
+			4243,
+			1
+		},
+		{
+			9,
+			4244,
+			1
+		},
+		{
+			9,
+			4245,
+			1
+		},
+		{
+			9,
+			4246,
+			1
+		},
+		{
+			9,
+			4247,
+			1
+		},
+		{
+			9,
+			4248,
+			1
+		},
+		{
+			9,
+			4249,
+			1
+		},
+		{
+			9,
+			4250,
+			1
+		},
+		{
+			9,
+			4251,
+			1
+		},
+		{
+			9,
+			4252,
+			1
+		},
+		{
+			9,
+			4253,
+			1
+		},
+		{
+			9,
+			4254,
+			1
+		},
+		{
+			9,
+			4255,
+			1
+		},
+		{
+			9,
+			4256,
+			1
+		},
+		{
+			9,
+			4257,
 			1
 		}
 	},
@@ -105193,6 +105531,114 @@ _G.pg.base.item_data_statistics[60564] = {
 }
 
 
+_G.pg.base.item_data_statistics[68133] = {
+	open_directly = 0,
+	name = "换装体验券(隐秘之拥的呼唤)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>安妮女王复仇号</color>换装<color=#92fc63FF>隐秘之拥的呼唤</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年10月26日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68133,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90390
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68134] = {
+	open_directly = 0,
+	name = "换装体验券(魔堡中的堕天使)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>珍珠号</color>换装<color=#92fc63FF>魔堡中的堕天使</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年10月26日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68134,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90391
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68135] = {
+	open_directly = 0,
+	name = "换装体验券(动物特工)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>喀琅施塔得</color>换装<color=#92fc63FF>动物特工</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年10月26日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68135,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90392
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -108172,6 +108618,73 @@ _G.pg.base.item_data_statistics[81427] = {
 		{
 			2,
 			86417,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81428] = {
+	open_directly = 1,
+	name = "Halloween Lucky Box 2025",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 8, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai98",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998562",
+	id = 81428,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86418,
 			1
 		},
 		{

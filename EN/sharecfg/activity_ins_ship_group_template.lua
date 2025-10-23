@@ -4864,6 +4864,54 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[960012] = {
+		ship_group = 960012,
+		name = "Queen Anne's Revenge",
+		background = "",
+		sculpture = "anninvwang",
+		nationality = 10,
+		type = 1
+	},
+	[960013] = {
+		ship_group = 960013,
+		name = "Lyme",
+		background = "",
+		sculpture = "laimuhao",
+		nationality = 10,
+		type = 1
+	},
+	[960014] = {
+		ship_group = 960014,
+		name = "Pearl ",
+		background = "",
+		sculpture = "zhenzhuhao",
+		nationality = 10,
+		type = 1
+	},
+	[960015] = {
+		ship_group = 960015,
+		name = "Royal James",
+		background = "",
+		sculpture = "huangjiazhanmusi",
+		nationality = 10,
+		type = 1
+	},
+	[960016] = {
+		ship_group = 960016,
+		name = "Adventure",
+		background = "",
+		sculpture = "maoxianhao",
+		nationality = 10,
+		type = 1
+	},
+	[30121] = {
+		ship_group = 30121,
+		name = "Hatsuharu",
+		background = "",
+		sculpture = "chuchun",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5472,6 +5520,12 @@ pg.activity_ins_ship_group_template = {
 		10201,
 		69903,
 		1140001,
-		1140002
+		1140002,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
+		30121
 	}
 }

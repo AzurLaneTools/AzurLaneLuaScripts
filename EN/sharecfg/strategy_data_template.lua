@@ -337,6 +337,10 @@ pg.strategy_data_template = setmetatable({
 		201530,
 		201531,
 		201532,
+		201547,
+		201550,
+		201551,
+		201552,
 		205001,
 		205002,
 		205003,
@@ -4194,6 +4198,69 @@ Your ships become briefly invulnerable after taking DMG.
 		iconSize = "",
 		buff_type = 0,
 		id = 201532,
+		icon = "200908",
+		arg = {}
+	},
+	[201547] = {
+		buff_id = 201547,
+		name = "Island Ruins Support",
+		desc = "Every 20s, your fleet receives supporting fire from the island ruins.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201547,
+		icon = "201547",
+		arg = {}
+	},
+	[201550] = {
+		buff_id = 201550,
+		name = "Island Ruins Support",
+		desc = "Every 20s, your fleet receives supporting fire from the island ruins.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201550,
+		icon = "201547",
+		arg = {}
+	},
+	[201551] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+"A True Duel Must Be Fair!"
+Lyme aims to eliminate "unfair" elements from the battle:
+1. Both your ships and the enemy are <color=#92fc63>unable to recover HP</color>.
+2. If any of your ships gain a buff that provides complete evasion or invincibility, Lyme gains <color=#92fc63>a barrier that fixes her DMG taken to 1</color>.
+3. If your ships launch an airstrike which clears the screen of enemy shells, 1.5 seconds later, Lyme will <color=#92fc63>clear all shells on the screen and fire a retaliatory barrage</color>. When your ships launch an airstrike, this effect cannot activate more than 2 times within 5 seconds.
+
+]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201551,
+		icon = "200908",
+		arg = {}
+	},
+	[201552] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+"A True Duel Must Be Fair!"
+Lyme aims to eliminate "unfair" elements from the battle:
+1. Both your ships and the enemy are <color=#92fc63>unable to recover HP</color>.
+2. If any of your ships gain a buff that provides complete evasion or invincibility, Lyme gains <color=#92fc63>a barrier that fixes her DMG taken to 1</color>.
+3. If your ships launch an airstrike which clears the screen of enemy shells, 1.5 seconds later, Lyme will <color=#92fc63>clear all shells on the screen and fire a retaliatory barrage</color>. When your ships launch an airstrike, this effect cannot activate more than 2 times within 5 seconds.
+
+- Hard Mode Details -
+Enemies <color=#ffc038>deal significantly more DMG.</color> Their large shells cannot be negated by shields or launching an airstrike.
+<color=#92fc63>Your Vanguard's hitbox is substantially smaller than usual, and only the frontmost ship in your Vanguard possesses a hitbox,</color> while the rest of your Vanguard cannot be damaged.
+Your ships become briefly invulnerable after taking DMG.
+
+· The skill "Fiercer When Cornered" is rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201552,
 		icon = "200908",
 		arg = {}
 	},
