@@ -948,6 +948,102 @@ pg.activity_medal_template = {
 		id = 5013608,
 		medal_asset = "ActivityMedal/5013608"
 	},
+	[5020901] = {
+		activity_medal_desc = "自由群島。自由を求める人々の群島。",
+		next_medal = 0,
+		item = 65723,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "1",
+		task_id = 21850,
+		activity_medal_name = "ステッカー：自由群島",
+		id = 5020901,
+		medal_asset = "ActivityMedal/5020901"
+	},
+	[5020902] = {
+		activity_medal_desc = "復讐の女王船団のステッカー！",
+		next_medal = 0,
+		item = 65724,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "2",
+		task_id = 21851,
+		activity_medal_name = "ステッカー：復讐の女王船団",
+		id = 5020902,
+		medal_asset = "ActivityMedal/5020902"
+	},
+	[5020903] = {
+		activity_medal_desc = "テンペスタ船団のステッカー！",
+		next_medal = 0,
+		item = 65725,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "3",
+		task_id = 21852,
+		activity_medal_name = "ステッカー：テンペスタ船団",
+		id = 5020903,
+		medal_asset = "ActivityMedal/5020903"
+	},
+	[5020904] = {
+		activity_medal_desc = "壁雲の守り手のステッカー！",
+		next_medal = 0,
+		item = 65726,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "4",
+		task_id = 21853,
+		activity_medal_name = "ステッカー：壁雲の守り手",
+		id = 5020904,
+		medal_asset = "ActivityMedal/5020904"
+	},
+	[5020905] = {
+		activity_medal_desc = "自由群島に位置する遺跡灯台。秘密が隠されている。",
+		next_medal = 0,
+		item = 65727,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "5",
+		task_id = 21854,
+		activity_medal_name = "ステッカー：遺跡灯台",
+		id = 5020905,
+		medal_asset = "ActivityMedal/5020905"
+	},
+	[5020906] = {
+		activity_medal_desc = "女神教会のステッカー！",
+		next_medal = 0,
+		item = 65728,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "6",
+		task_id = 21855,
+		activity_medal_name = "ステッカー：女神教会",
+		id = 5020906,
+		medal_asset = "ActivityMedal/5020906"
+	},
+	[5020907] = {
+		activity_medal_desc = "ロイヤル・フォーチュン手製の木のコンパス。とてつもなく本物に見える",
+		next_medal = 0,
+		item = 65729,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "7",
+		task_id = 21856,
+		activity_medal_name = "ステッカー：木のコンパス",
+		id = 5020907,
+		medal_asset = "ActivityMedal/5020907"
+	},
+	[5020908] = {
+		activity_medal_desc = "トレジャーハンターのステッカー！",
+		next_medal = 0,
+		item = 65730,
+		remake_task_id = 0,
+		group = 50209,
+		prefab_node = "8",
+		task_id = 21857,
+		activity_medal_name = "ステッカー：トレジャーハンター",
+		id = 5020908,
+		medal_asset = "ActivityMedal/5020908"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1047,6 +1143,16 @@ pg.activity_medal_template = {
 			5013606,
 			5013607,
 			5013608
+		},
+		[50209] = {
+			5020901,
+			5020902,
+			5020903,
+			5020904,
+			5020905,
+			5020906,
+			5020907,
+			5020908
 		}
 	},
 	all = {
@@ -1128,6 +1234,14 @@ pg.activity_medal_template = {
 		5013605,
 		5013606,
 		5013607,
-		5013608
+		5013608,
+		5020901,
+		5020902,
+		5020903,
+		5020904,
+		5020905,
+		5020906,
+		5020907,
+		5020908
 	}
 }

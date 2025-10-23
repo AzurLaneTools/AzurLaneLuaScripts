@@ -2632,6 +2632,27 @@ pg.medal_template = {
 		explain1 = "「アマハラに舞い奉れ」",
 		explain2 = "イベント"
 	},
+	[200101] = {
+		target_id = "50209",
+		name = "自由群島記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "自由群島。自由を求める人々の群島。フリーダムポリスの群島。\n——自由を求めるのなら、フリーダムポリスはあなたを歓迎する",
+		next = 0,
+		icon = "9101",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9101",
+		condition = "「テンペスタと自由群島」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200101,
+		explain1 = "「テンペスタと自由群島」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2752,6 +2773,7 @@ pg.medal_template = {
 		200061,
 		200071,
 		200081,
-		200091
+		200091,
+		200101
 	}
 }

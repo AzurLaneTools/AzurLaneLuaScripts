@@ -1634,7 +1634,7 @@ pg.base.island_item_data_template = {
 	},
 	[1022] = {
 		name = "ゴムの木の種",
-		desc = "栽培・採集はいつでも。休眠期がない！",
+		desc = "母港厳選のゴムの木の種。上質なゴムを入手できる。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,

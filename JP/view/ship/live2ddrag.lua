@@ -420,7 +420,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot7 = slot0.actionTrigger.target or nil
 			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 
-			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
+			if (slot0.actionTrigger.circle ~= nil and true or false) and slot7 and slot7 == slot0.parameterTargetValue then
 				slot7 = slot0.startValue
 			end
 
@@ -429,13 +429,18 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot0:triggerAction()
 			slot11()
 		elseif slot0.actionTrigger.action_list then
+			slot5 = slot0:fillterAction(slot0.actionTrigger.action_list[slot0.actionListIndex].action)
 			slot4 = (not slot0.actionTriggerActive.active_list or slot0.actionListIndex > #slot0.actionTriggerActive.active_list or slot0.actionTriggerActive.active_list[slot0.actionListIndex]) and slot0.actionTriggerActive
-			slot6 = slot12.focus == 1 and true or false
+
+			if not (slot12.focus == 1 and true or false) and slot0.actionTrigger.focus then
+				slot6 = slot0.actionTrigger.focus == 1 and true or false
+			end
+
 			slot7 = slot12.target or nil
 			slot10 = slot12.target_focus == 1 and true or false
 			slot8 = slot12.react or nil
 
-			if slot0:fillterAction(slot0.actionTrigger.action_list[slot0.actionListIndex].action) and #slot5 > 0 then
+			if slot5 and #slot5 > 0 then
 				slot0:triggerAction()
 			end
 
@@ -456,7 +461,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 			slot8 = slot0.actionTrigger.react or nil
 
-			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
+			if (slot0.actionTrigger.circle ~= nil and true or false) and slot7 and slot7 == slot0.parameterTargetValue then
 				slot7 = slot0.startValue
 			end
 

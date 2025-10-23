@@ -94,6 +94,58 @@ slot0.getIcon = function(slot0)
 	end)
 end
 
+slot0.getDefaultIcon = function(slot0)
+	return switch(slot0.type, {
+		[DROP_TYPE_DORM3D_FURNITURE] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function ()
+			return "props/missing_icon_dorm"
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_OVERFLOWITEM] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_INVITATION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_FURNITURE] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_DRESS] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION_FRAMENT] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_COLLECTION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_ACTION] = function ()
+			return "props/missing_icon_island"
+		end,
+		[DROP_TYPE_ISLAND_CARD_DIY] = function ()
+			return "props/missing_icon_island"
+		end
+	}, function ()
+		return "props/missing_icon"
+	end)
+end
+
 slot0.getIslandRarity = function(slot0)
 	return switch(slot0.type, {
 		[DROP_TYPE_ISLAND_ITEM] = function ()

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "danmachi-3",
+			bgm = "danmachi-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ヘスティアはためらうことなく艤装を身に着けた―ー",

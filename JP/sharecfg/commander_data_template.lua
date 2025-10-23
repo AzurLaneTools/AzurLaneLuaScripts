@@ -653,6 +653,62 @@ pg.commander_data_template = {
 			5131
 		}
 	},
+	[960061] = {
+		tactic_value = 67,
+		name = "てぃーち",
+		painting = "diqimiao",
+		max_level = 30,
+		exp = 500,
+		desc = "オフニャ「てぃーち」――イベント「テンペスタと自由群島」にて入手可能",
+		exp_cost = 30,
+		ability_refresh_type = 1,
+		support_value = 40,
+		skill_id = 960061,
+		command_value = 55,
+		rarity = 5,
+		nationality = 96,
+		bg = "1",
+		group_type = 96006,
+		id = 960061,
+		ability_show = {
+			5171,
+			831,
+			832,
+			321,
+			833,
+			5101,
+			322,
+			5131
+		}
+	},
+	[960071] = {
+		tactic_value = 37,
+		name = "ぼねっと",
+		painting = "bangnimiao",
+		max_level = 30,
+		exp = 300,
+		desc = "オフニャ「ぼねっと」――イベント「テンペスタと自由群島」にて入手可能",
+		exp_cost = 20,
+		ability_refresh_type = 1,
+		support_value = 55,
+		skill_id = 960071,
+		command_value = 42,
+		rarity = 4,
+		nationality = 96,
+		bg = "1",
+		group_type = 96007,
+		id = 960071,
+		ability_show = {
+			5181,
+			771,
+			772,
+			141,
+			773,
+			5111,
+			142,
+			5121
+		}
+	},
 	all = {
 		10011,
 		10021,
@@ -685,6 +741,8 @@ pg.commander_data_template = {
 		960021,
 		960031,
 		960041,
-		960051
+		960051,
+		960061,
+		960071
 	}
 }

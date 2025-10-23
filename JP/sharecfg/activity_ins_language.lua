@@ -7158,7 +7158,73 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_598_1_1",
 		"op_reply_598_1_1",
 		"ins_op_598_1_2",
-		"op_reply_598_1_2"
+		"op_reply_598_1_2",
+		"ins_599",
+		"ins_discuss_599_1",
+		"ins_reply_599_1_1",
+		"ins_reply_599_1_2",
+		"ins_reply_599_1_3",
+		"ins_discuss_599_2",
+		"ins_reply_599_2_1",
+		"ins_reply_599_2_2",
+		"ins_reply_599_2_3",
+		"ins_op_599_1_1",
+		"op_reply_599_1_1",
+		"ins_op_599_1_2",
+		"op_reply_599_1_2",
+		"ins_600",
+		"ins_discuss_600_1",
+		"ins_reply_600_1_1",
+		"ins_reply_600_1_2",
+		"ins_reply_600_1_3",
+		"ins_reply_600_1_4",
+		"ins_discuss_600_2",
+		"ins_reply_600_2_1",
+		"ins_reply_600_2_2",
+		"ins_reply_600_2_3",
+		"ins_op_600_1_1",
+		"op_reply_600_1_1",
+		"ins_op_600_1_2",
+		"op_reply_600_1_2",
+		"ins_601",
+		"ins_discuss_601_1",
+		"ins_reply_601_1_1",
+		"ins_reply_601_1_2",
+		"ins_reply_601_1_3",
+		"ins_reply_601_1_4",
+		"ins_discuss_601_2",
+		"ins_reply_601_2_1",
+		"ins_reply_601_2_2",
+		"ins_reply_601_2_3",
+		"ins_op_601_1_1",
+		"op_reply_601_1_1",
+		"ins_op_601_1_2",
+		"op_reply_601_1_2",
+		"ins_602",
+		"ins_discuss_602_1",
+		"ins_reply_602_1_1",
+		"ins_reply_602_1_2",
+		"ins_discuss_602_2",
+		"ins_reply_602_2_1",
+		"ins_reply_602_2_2",
+		"ins_op_602_1_1",
+		"op_reply_602_1_1",
+		"ins_op_602_1_2",
+		"op_reply_602_1_2",
+		"ins_603",
+		"ins_discuss_603_1",
+		"ins_reply_603_1_1",
+		"ins_reply_603_1_2",
+		"ins_reply_603_1_3",
+		"ins_discuss_603_2",
+		"ins_reply_603_2_1",
+		"ins_reply_603_2_2",
+		"ins_reply_603_2_3",
+		"ins_reply_603_2_4",
+		"ins_op_603_1_1",
+		"op_reply_603_1_1",
+		"ins_op_603_1_2",
+		"op_reply_603_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -28554,84 +28620,282 @@ pg.base.activity_ins_language = {
 		value = "指揮官！お酒がさらに美味しくなった！"
 	},
 	ins_597 = {
-		value = ""
+		value = "すごいアイテムだね！"
 	},
 	ins_discuss_597_1 = {
-		value = ""
+		value = "ヘスティア、電子レンジの使い方は分かりましたか？"
 	},
 	ins_reply_597_1_1 = {
-		value = ""
+		value = "うんうん！このつまみを回せばいいんだろう？こんなの楽勝さ！"
 	},
 	ins_reply_597_1_2 = {
-		value = ""
+		value = "あの……加熱時間が長すぎませんか…？"
 	},
 	ins_reply_597_1_3 = {
-		value = ""
+		value = "加熱時間？どういうことだい？"
 	},
 	ins_discuss_597_2 = {
-		value = ""
+		value = "動かせてすごいです！私なんてなぜか毎回煙が出てしまうというのに…"
 	},
 	ins_reply_597_2_1 = {
-		value = ""
+		value = "なんだか焦げた匂いが…？"
 	},
 	ins_reply_597_2_2 = {
-		value = ""
+		value = "爆発の予感！点検させてくださーい！"
 	},
 	ins_reply_597_2_3 = {
-		value = ""
+		value = "キッチン、ピンチ！"
 	},
 	ins_op_597_1_1 = {
-		value = ""
+		value = "何を温めているんだ？"
 	},
 	op_reply_597_1_1 = {
-		value = ""
+		value = "ジャガ丸くんさ！"
 	},
 	ins_op_597_1_2 = {
-		value = ""
+		value = "アイテムのチャージは分かったか？"
 	},
 	op_reply_597_1_2 = {
-		value = ""
+		value = "あぁ、問題ないよ。ジャガ丸くんもとても美味しくできた！"
 	},
 	ins_598 = {
-		value = ""
+		value = "私も参加させてください"
 	},
 	ins_discuss_598_1 = {
-		value = ""
+		value = "リュー・リオンさまを歓迎いたします"
 	},
 	ins_reply_598_1_1 = {
-		value = ""
+		value = "『豊穣の女主人』で培った経験を活かせると良いのですが…。"
 	},
 	ins_discuss_598_2 = {
-		value = ""
+		value = "カウンターにある炭の塊って…サンドイッチですか…？"
 	},
 	ins_reply_598_2_1 = {
-		value = ""
+		value = "こ、これは、その……。少しは上達したと思ったのですが…"
 	},
 	ins_reply_598_2_2 = {
-		value = ""
+		value = "黒いサンドイッチですか。処分済みです"
 	},
 	ins_reply_598_2_3 = {
-		value = ""
+		value = "処分済みです"
 	},
 	ins_reply_598_2_4 = {
-		value = ""
+		value = "あ！どこかで見たような……"
 	},
 	ins_reply_598_2_5 = {
-		value = ""
+		value = "くろいサンドイッチ…？チョコあじなの？睦月たべたい！"
 	},
 	ins_reply_598_2_6 = {
-		value = ""
+		value = "……チョコ味がご希望でしたら、今度作ってみましょうか"
 	},
 	ins_op_598_1_1 = {
-		value = ""
+		value = "自分への差し入れ…じゃないよな…？"
 	},
 	op_reply_598_1_1 = {
-		value = ""
+		value = "指揮官さんのものは執務室の机に置いておきました"
 	},
 	ins_op_598_1_2 = {
-		value = ""
+		value = "完全にウェルダンだな……"
 	},
 	op_reply_598_1_2 = {
+		value = "うぅ……私はいつもやりすぎてしまう……"
+	},
+	ins_599 = {
+		value = ""
+	},
+	ins_discuss_599_1 = {
+		value = ""
+	},
+	ins_reply_599_1_1 = {
+		value = ""
+	},
+	ins_reply_599_1_2 = {
+		value = ""
+	},
+	ins_reply_599_1_3 = {
+		value = ""
+	},
+	ins_discuss_599_2 = {
+		value = ""
+	},
+	ins_reply_599_2_1 = {
+		value = ""
+	},
+	ins_reply_599_2_2 = {
+		value = ""
+	},
+	ins_reply_599_2_3 = {
+		value = ""
+	},
+	ins_op_599_1_1 = {
+		value = ""
+	},
+	op_reply_599_1_1 = {
+		value = ""
+	},
+	ins_op_599_1_2 = {
+		value = ""
+	},
+	op_reply_599_1_2 = {
+		value = ""
+	},
+	ins_600 = {
+		value = ""
+	},
+	ins_discuss_600_1 = {
+		value = ""
+	},
+	ins_reply_600_1_1 = {
+		value = ""
+	},
+	ins_reply_600_1_2 = {
+		value = ""
+	},
+	ins_reply_600_1_3 = {
+		value = ""
+	},
+	ins_reply_600_1_4 = {
+		value = ""
+	},
+	ins_discuss_600_2 = {
+		value = ""
+	},
+	ins_reply_600_2_1 = {
+		value = ""
+	},
+	ins_reply_600_2_2 = {
+		value = ""
+	},
+	ins_reply_600_2_3 = {
+		value = ""
+	},
+	ins_op_600_1_1 = {
+		value = ""
+	},
+	op_reply_600_1_1 = {
+		value = ""
+	},
+	ins_op_600_1_2 = {
+		value = ""
+	},
+	op_reply_600_1_2 = {
+		value = ""
+	},
+	ins_601 = {
+		value = ""
+	},
+	ins_discuss_601_1 = {
+		value = ""
+	},
+	ins_reply_601_1_1 = {
+		value = ""
+	},
+	ins_reply_601_1_2 = {
+		value = ""
+	},
+	ins_reply_601_1_3 = {
+		value = ""
+	},
+	ins_reply_601_1_4 = {
+		value = ""
+	},
+	ins_discuss_601_2 = {
+		value = ""
+	},
+	ins_reply_601_2_1 = {
+		value = ""
+	},
+	ins_reply_601_2_2 = {
+		value = ""
+	},
+	ins_reply_601_2_3 = {
+		value = ""
+	},
+	ins_op_601_1_1 = {
+		value = ""
+	},
+	op_reply_601_1_1 = {
+		value = ""
+	},
+	ins_op_601_1_2 = {
+		value = ""
+	},
+	op_reply_601_1_2 = {
+		value = ""
+	},
+	ins_602 = {
+		value = ""
+	},
+	ins_discuss_602_1 = {
+		value = ""
+	},
+	ins_reply_602_1_1 = {
+		value = ""
+	},
+	ins_reply_602_1_2 = {
+		value = ""
+	},
+	ins_discuss_602_2 = {
+		value = ""
+	},
+	ins_reply_602_2_1 = {
+		value = ""
+	},
+	ins_reply_602_2_2 = {
+		value = ""
+	},
+	ins_op_602_1_1 = {
+		value = ""
+	},
+	op_reply_602_1_1 = {
+		value = ""
+	},
+	ins_op_602_1_2 = {
+		value = ""
+	},
+	op_reply_602_1_2 = {
+		value = ""
+	},
+	ins_603 = {
+		value = ""
+	},
+	ins_discuss_603_1 = {
+		value = ""
+	},
+	ins_reply_603_1_1 = {
+		value = ""
+	},
+	ins_reply_603_1_2 = {
+		value = ""
+	},
+	ins_reply_603_1_3 = {
+		value = ""
+	},
+	ins_discuss_603_2 = {
+		value = ""
+	},
+	ins_reply_603_2_1 = {
+		value = ""
+	},
+	ins_reply_603_2_2 = {
+		value = ""
+	},
+	ins_reply_603_2_3 = {
+		value = ""
+	},
+	ins_reply_603_2_4 = {
+		value = ""
+	},
+	ins_op_603_1_1 = {
+		value = ""
+	},
+	op_reply_603_1_1 = {
+		value = ""
+	},
+	ins_op_603_1_2 = {
+		value = ""
+	},
+	op_reply_603_1_2 = {
 		value = ""
 	}
 }

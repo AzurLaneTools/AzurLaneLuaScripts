@@ -248,6 +248,16 @@ slot0.HandleIslandAbilityByType = function(slot0)
 		end,
 		[IslandAblityAgency.TYPE_ANIMAL] = function ()
 			uv0:GetBuildingAgency():InitBuildAnimalDataByAbility(uv1)
+		end,
+		[IslandAblityAgency.TYPE_RECOVER_CAMP] = function ()
+			if pg.TimeMgr.GetInstance():GetZeroTimeStamp(pg.TimeMgr.GetInstance():GetServerTime()) + uv1 < uv0:GetBuildingAgency():GetBuilding(IslandProductConst.FellingPlaceId):GetBuildingCollectData():GetNextRecoverTimes() then
+				slot1:UpdateCollectRefreshtTime(slot4)
+			end
+		end,
+		[IslandAblityAgency.TYPE_RECOVER_ORE] = function ()
+			if pg.TimeMgr.GetInstance():GetZeroTimeStamp(pg.TimeMgr.GetInstance():GetServerTime()) + uv1 < uv0:GetBuildingAgency():GetBuilding(IslandProductConst.MinePlaceId):GetBuildingCollectData():GetNextRecoverTimes() then
+				slot1:UpdateCollectRefreshtTime(slot4)
+			end
 		end
 	})
 end

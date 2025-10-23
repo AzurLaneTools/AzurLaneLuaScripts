@@ -334,9 +334,24 @@ slot0.OnUnlockTechnology = function(slot0)
 end
 
 slot0.OnUpgrade = function(slot0, slot1)
-	slot0.levelPanel:ExecuteAction("UpdateTip")
-	slot0.levelPanel:ExecuteAction("UpdateIslandInfo")
-	slot0:OpenPage(IslandUpgradeDisplayPage, slot1.dropData.abilitys, slot1.callback)
+	slot2 = slot0.levelPanel
+
+	slot2:ExecuteAction("UpdateTip")
+
+	slot2 = slot0.levelPanel
+
+	slot2:ExecuteAction("UpdateIslandInfo")
+
+	slot2 = {}
+
+	seriesAsync({
+		function (slot0)
+			uv0:OpenPage(IslandUpgradeDisplayPage, uv1.dropData.abilitys, slot0)
+		end,
+		function (slot0)
+			uv0:DisplaySystemUnlock(uv1.dropData.abilitys, slot0)
+		end
+	}, slot1.callback)
 end
 
 slot0.OnModifyName = function(slot0)

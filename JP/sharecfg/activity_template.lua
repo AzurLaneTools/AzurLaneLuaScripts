@@ -29428,6 +29428,7 @@ pg.activity_template = {
 	},
 	[50140] = {
 		mark = 20250925,
+		time = "stop",
 		type = 124,
 		login_pop = 0,
 		config_id = 998560,
@@ -29466,33 +29467,6 @@ pg.activity_template = {
 				70337
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SportAndRacingSkinEncoreLoginPage",
 			ui_name = "SportAndRacingSkinEncoreLoginPage"
@@ -29505,6 +29479,7 @@ pg.activity_template = {
 	[50141] = {
 		mark = 20250925,
 		page_info = "",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -29523,38 +29498,12 @@ pg.activity_template = {
 			{
 				21847
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50142] = {
 		mark = 20250925,
 		page_info = "",
+		time = "stop",
 		type = 68,
 		login_pop = 0,
 		config_id = 0,
@@ -29563,34 +29512,7 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50142,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50151] = {
 		mark = 20251009,
@@ -29982,10 +29904,10 @@ pg.activity_template = {
 		mark = 20251009,
 		type = 87,
 		login_pop = 0,
-		config_id = 32,
+		config_id = 31,
 		is_show = 45,
 		config_client = "",
-		title_res_tag = "sading_frame",
+		title_res_tag = "dexiV3_frame",
 		id = 50161,
 		page_core = "",
 		config_data = {},
@@ -30168,7 +30090,7 @@ pg.activity_template = {
 		id = 50164,
 		page_core = "",
 		config_data = {
-			4
+			10
 		},
 		time = {
 			"timer",
@@ -30250,7 +30172,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 0,
 		is_show = 48,
-		title_res_tag = "clemenceau_main",
+		title_res_tag = "dexiV5_main",
 		id = 50166,
 		page_core = "",
 		config_data = {
@@ -30293,8 +30215,7 @@ pg.activity_template = {
 			ui_name = "ClemenceauMainRePage"
 		},
 		config_client = {
-			entrance_bg = "activitybanner/temp10",
-			PTID = 572
+			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[50167] = {
@@ -30543,6 +30464,7 @@ pg.activity_template = {
 	[50171] = {
 		mark = 20251009,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -30558,33 +30480,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50172] = {
@@ -30708,6 +30603,845 @@ pg.activity_template = {
 					16,
 					0,
 					0
+				}
+			}
+		}
+	},
+	[50181] = {
+		mark = 20251023,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "StormSeaMainPage",
+		id = 50181,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {
+			1970001,
+			1970002,
+			1970003,
+			1970004,
+			1970005,
+			1970006,
+			1970041,
+			1970051,
+			1970052
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3MainPage",
+			ui_name = "SailingShip3MainPage"
+		},
+		config_client = {
+			task_id = 24600,
+			entrance_bg = "activitybanner/temp10",
+			PTID = 577
+		}
+	},
+	[50182] = {
+		mark = 20251023,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50182,
+		page_core = "",
+		config_data = {
+			24579,
+			24580,
+			24581,
+			24582,
+			24583,
+			24584,
+			24585,
+			24586,
+			24587,
+			24588,
+			24589,
+			24590,
+			24591,
+			24592,
+			24593,
+			24594,
+			24595,
+			24596,
+			24597,
+			24598,
+			24599,
+			24600,
+			24601
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50183] = {
+		mark = 20251023,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 577,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 50183,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50184] = {
+		mark = 20251023,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50184,
+		page_core = "",
+		config_data = {
+			1977002,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50202] = {
+		mark = 20251023,
+		type = 117,
+		login_pop = 0,
+		config_id = 65720,
+		is_show = 3,
+		title_res_tag = "GhostSkinStory",
+		id = 50202,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3SkinActPage",
+			ui_name = "SailingShip3SkinActUI"
+		},
+		config_client = {
+			story = {
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII5"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII8"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII7"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII3"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII1"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII6"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII2"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII4"
+				}
+			},
+			group_1 = {
+				24561,
+				24562,
+				24563,
+				24564,
+				24565,
+				24566,
+				24567,
+				24568
+			},
+			group_2 = {
+				24569,
+				24570,
+				24571,
+				24572,
+				24573,
+				24574,
+				24575,
+				24576
+			},
+			group_3 = {
+				24577
+			}
+		}
+	},
+	[50203] = {
+		mark = 20251023,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50203,
+		page_core = "",
+		config_data = {
+			24561,
+			24562,
+			24563,
+			24564,
+			24565,
+			24566,
+			24567,
+			24568,
+			24569,
+			24570,
+			24571,
+			24572,
+			24573,
+			24574,
+			24575,
+			24576,
+			24577
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50204] = {
+		mark = 20251023,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 58,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50204,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50205] = {
+		mark = 20251023,
+		type = 74,
+		login_pop = 0,
+		config_id = 50205,
+		is_show = 2,
+		title_res_tag = "StormSeaPtPage",
+		id = 50205,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3PtPage",
+			ui_name = "SailingShip3PtPage"
+		},
+		config_client = {
+			shopLinkActID = 50206,
+			highValueItemSort = {
+				23,
+				30,
+				36,
+				40
+			}
+		}
+	},
+	[50206] = {
+		mark = 20251023,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50206,
+		page_core = "",
+		config_data = {
+			3301,
+			3302,
+			3303,
+			3304,
+			3305,
+			3306,
+			3307,
+			3308,
+			3309,
+			3310,
+			3311,
+			3312,
+			3313,
+			3314,
+			3315,
+			3316,
+			3317,
+			3318,
+			3319,
+			3320,
+			3321,
+			3322,
+			3323,
+			3324,
+			3325,
+			3326,
+			3327,
+			3328,
+			3329,
+			3330,
+			3331,
+			3332
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_aersasi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 577,
+			use_secretary = false,
+			painting = "zhenzhuhao_pt"
+		}
+	},
+	[50207] = {
+		mark = 20251023,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50207,
+		page_core = "",
+		config_data = {
+			24578
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50208] = {
+		mark = 20251023,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50208,
+		page_core = "",
+		config_data = {
+			{
+				31930,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50209] = {
+		mark = 20251023,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50209,
+		page_core = "",
+		config_data = {
+			21849,
+			21850,
+			21851,
+			21852,
+			21853,
+			21854,
+			21855,
+			21856,
+			21857,
+			21858
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50210] = {
+		mark = 20251023,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50210,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「クイーン・アンズ・リベンジ」「ライム」など出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>クイーン・アンズ・リベンジ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ライム</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>パール</color>：0.5%",
+				" ",
+				"<color=#ffde38>ガンズウェイ</color>：0.5%",
+				" ",
+				"<color=#ffde38>ファンシー</color>：0.5%",
+				" ",
+				"<color=#ffde38>アミティ</color>：0.5%",
+				" ",
+				"<color=#d797ff>ロイヤル・ジェームズ</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>ポーツマウス・アドベンチャー</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50211] = {
+		mark = 20251023,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50211,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 5,
+			bg = "loadingbg/bg_build_5_act",
+			buildship_tip = "「ガンズウェイ」「ファンシー」など出現率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>ガンズウェイ</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>ファンシー</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>アミティ</color>：0.5%",
+				" ",
+				"<color=#d797ff>ポーツマウス・アドベンチャー</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50212] = {
+		mark = 20251023,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50212,
+		page_core = "",
+		config_data = {
+			{
+				31942,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -36940,7 +37674,9 @@ pg.activity_template = {
 			50062,
 			50093,
 			50127,
-			50175
+			50175,
+			50210,
+			50211
 		},
 		{
 			100003
@@ -37231,6 +37967,10 @@ pg.activity_template = {
 			50154,
 			50159,
 			50168,
+			50182,
+			50203,
+			50207,
+			50209,
 			1079,
 			1080,
 			1081,
@@ -37402,6 +38142,7 @@ pg.activity_template = {
 			50151,
 			50153,
 			50169,
+			50205,
 			1086,
 			6006,
 			6010,
@@ -37450,7 +38191,8 @@ pg.activity_template = {
 			50061,
 			50088,
 			50129,
-			50170
+			50170,
+			50206
 		},
 		[102] = {
 			4887
@@ -37503,7 +38245,8 @@ pg.activity_template = {
 			50059,
 			50089,
 			50119,
-			50171
+			50171,
+			50184
 		},
 		[16] = {
 			4896,
@@ -37549,7 +38292,8 @@ pg.activity_template = {
 			50060,
 			50090,
 			50131,
-			50172
+			50172,
+			50183
 		},
 		[12] = {
 			4898,
@@ -37613,7 +38357,8 @@ pg.activity_template = {
 			50114,
 			50115,
 			50166,
-			50167
+			50167,
+			50181
 		},
 		[27] = {
 			4900,
@@ -37660,7 +38405,9 @@ pg.activity_template = {
 			50056,
 			50092,
 			50135,
-			50173
+			50173,
+			50208,
+			50212
 		},
 		[80] = {
 			4902,
@@ -37842,6 +38589,7 @@ pg.activity_template = {
 			5976,
 			50046,
 			50083,
+			50204,
 			100005
 		},
 		[51] = {
@@ -38019,7 +38767,8 @@ pg.activity_template = {
 		},
 		[117] = {
 			5535,
-			5623
+			5623,
+			50202
 		},
 		[118] = {
 			5560
@@ -39013,6 +39762,21 @@ pg.activity_template = {
 		50172,
 		50173,
 		50175,
+		50181,
+		50182,
+		50183,
+		50184,
+		50202,
+		50203,
+		50204,
+		50205,
+		50206,
+		50207,
+		50208,
+		50209,
+		50210,
+		50211,
+		50212,
 		7011,
 		7012,
 		7013,

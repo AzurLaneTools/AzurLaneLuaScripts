@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			dir = 1,
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			actor = 11400020,
 			nameColor = "#A9F548FF",
 			say = "出口はこの先です。しかしこの様子だと、高確率で「階層主」がいる……",

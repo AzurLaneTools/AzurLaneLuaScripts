@@ -185,6 +185,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100002,
 			100003,
 			100004,
@@ -261,6 +262,7 @@ pg.furniture_data_template = setmetatable({
 			100075,
 			100076,
 			100077,
+			100078,
 			200001,
 			200002,
 			200003,
@@ -3580,6 +3582,24 @@ pg.furniture_data_template = setmetatable({
 			329118,
 			329119,
 			329120
+		},
+		[132] = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113,
+			332301
 		}
 	},
 	get_id_list_by_tag = {
@@ -5704,7 +5724,19 @@ pg.furniture_data_template = setmetatable({
 			329116,
 			329117,
 			329118,
-			329119
+			329119,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112
 		},
 		{
 			1108,
@@ -6051,6 +6083,7 @@ pg.furniture_data_template = setmetatable({
 			100075,
 			100076,
 			100077,
+			100078,
 			31101,
 			54104,
 			54105
@@ -6125,7 +6158,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			314,
 			316,
-			318
+			318,
+			319
 		},
 		[7] = {
 			223,
@@ -6334,7 +6368,8 @@ pg.furniture_data_template = setmetatable({
 			325126,
 			328118,
 			330102,
-			329120
+			329120,
+			332113
 		},
 		[4] = {
 			1001,
@@ -6451,7 +6486,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		[3] = {
 			1002,
@@ -6569,7 +6605,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		[5] = {
 			1301,
@@ -6944,7 +6981,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		}
 	},
 	get_id_list_by_type = {
@@ -7064,7 +7102,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		[7] = {
 			1,
@@ -7225,6 +7264,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100002,
 			100004,
 			100005,
@@ -7280,7 +7320,8 @@ pg.furniture_data_template = setmetatable({
 			100072,
 			100074,
 			100075,
-			100076
+			100076,
+			100078
 		},
 		[2] = {
 			120,
@@ -9397,7 +9438,19 @@ pg.furniture_data_template = setmetatable({
 			329117,
 			329118,
 			329119,
-			329120
+			329120,
+			332101,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113
 		},
 		[11] = {
 			143,
@@ -9836,7 +9889,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		},
 		[13] = {
 			100015,
@@ -9965,7 +10019,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		[5] = {
 			1101,
@@ -10126,7 +10181,8 @@ pg.furniture_data_template = setmetatable({
 			328104,
 			330102,
 			329103,
-			329108
+			329108,
+			332102
 		},
 		[3] = {
 			1108,
@@ -10511,6 +10567,7 @@ pg.furniture_data_template = setmetatable({
 		316,
 		317,
 		318,
+		319,
 		100002,
 		100003,
 		100004,
@@ -10587,6 +10644,7 @@ pg.furniture_data_template = setmetatable({
 		100075,
 		100076,
 		100077,
+		100078,
 		200001,
 		200002,
 		200003,
@@ -13673,7 +13731,23 @@ pg.furniture_data_template = setmetatable({
 		329117,
 		329118,
 		329119,
-		329120
+		329120,
+		332001,
+		332002,
+		332101,
+		332102,
+		332103,
+		332104,
+		332105,
+		332106,
+		332107,
+		332108,
+		332109,
+		332110,
+		332111,
+		332112,
+		332113,
+		332301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22993,6 +23067,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[319] = {
+		can_rotate = 0,
+		describe = "自由群島の大灯台をモチーフとしたミニチュア。ミニチュアとはいえ、雄大さを感じさせる。――「テンペスタと自由群島」に参加した指揮官に贈る",
+		gain_by = "テンペスタと自由群島",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "群島灯台ミニチュア",
+		advice = 0,
+		id = 319,
+		tag = 8,
+		comfortable = 0,
+		icon = "fengfan3xunzhangicon",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fengfan3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		name = "友情の空気ポンプ",
@@ -28376,6 +28494,58 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100078] = {
+		can_rotate = 0,
+		describe = "自然の精霊たちよ、ここに現れよ――",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "サモンスタッフ",
+		advice = 0,
+		id = 100078,
+		tag = 6,
+		comfortable = 0,
+		icon = "zhaohuanfazhangicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhaohuanfazhang",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -167772,6 +167942,715 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[332001] = {
+		can_rotate = 0,
+		describe = "失われた扉を開き、瞬く光の中で、秘められし古の言葉を探そう",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/dibanmf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "神殿の床",
+		advice = 0,
+		tag = 4,
+		id = 332001,
+		icon = "dibanmficon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332002] = {
+		can_rotate = 0,
+		describe = "失われた扉を開き、瞬く光の中で、秘められし古の言葉を探そう",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/qiangbimf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "神殿の壁",
+		advice = 0,
+		tag = 3,
+		id = 332002,
+		icon = "qiangbimficon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332101] = {
+		can_rotate = 0,
+		describe = "すべすべの触手は池の岸にすがっていて、湿っぽい痕跡を残している",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の聖水池",
+		advice = 0,
+		id = 332101,
+		tag = 1,
+		comfortable = 4,
+		icon = "chitangmficon",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chitangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332102] = {
+		can_rotate = 0,
+		describe = "星々から何かを呼び出すつもりか？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の間絨毯",
+		advice = 0,
+		id = 332102,
+		tag = 1,
+		comfortable = 2,
+		icon = "ditanmficon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditanmf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332103] = {
+		can_rotate = 0,
+		describe = "Carcosa~Carcosa~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の壁画",
+		advice = 0,
+		id = 332103,
+		tag = 1,
+		comfortable = 2,
+		icon = "huaxiangmficon",
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxiangmf",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332104] = {
+		can_rotate = 0,
+		describe = "階段が続く。静けさへ、深い未知へ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "神殿の階段",
+		advice = 0,
+		id = 332104,
+		tag = 1,
+		comfortable = 2,
+		icon = "loutimficon",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"loutimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332105] = {
+		can_rotate = 0,
+		describe = "過剰な好奇心はいずれその存在に終止符を打つ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "眠りし地",
+		advice = 0,
+		id = 332105,
+		tag = 1,
+		comfortable = 1,
+		icon = "mubeimficon",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mubeimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332106] = {
+		can_rotate = 0,
+		describe = "役に立たないお清めのはじまりはじまり～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "清めの桶",
+		advice = 0,
+		id = 332106,
+		tag = 1,
+		comfortable = 1,
+		icon = "mutongmficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mutongmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332107] = {
+		can_rotate = 0,
+		describe = "遠航の夢を寄せられた形代は、絡みつく囁きとともに沈んでいる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "沈没の夢",
+		advice = 0,
+		id = 332107,
+		tag = 1,
+		comfortable = 3,
+		icon = "pofengfanmficon",
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pofengfanmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332108] = {
+		can_rotate = 0,
+		describe = "失われた扉を開き、瞬く光の中で、秘められし古の言葉を探そう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の入口",
+		advice = 0,
+		id = 332108,
+		tag = 1,
+		comfortable = 3,
+		icon = "shiqiangmficon",
+		size = {
+			3,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shiqiangmf",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332109] = {
+		can_rotate = 0,
+		describe = "古の神像は静かに佇んでいる。言葉にできぬ威容を感じ取ろう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の石像",
+		advice = 0,
+		id = 332109,
+		tag = 1,
+		comfortable = 3,
+		icon = "shixiangmficon",
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332110] = {
+		can_rotate = 0,
+		describe = "忘れられし石柱。どうやらとある生物に我が物にされているようだ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "神殿の石柱",
+		advice = 0,
+		id = 332110,
+		tag = 1,
+		comfortable = 1,
+		icon = "shizhumficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhumf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332111] = {
+		can_rotate = 0,
+		describe = "乱雑に落ちている瓦礫。その表面には古の印が刻まれている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "神殿の瓦礫",
+		advice = 0,
+		id = 332111,
+		tag = 1,
+		comfortable = 2,
+		icon = "suishikuaimficon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"suishikuaimf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332112] = {
+		can_rotate = 0,
+		describe = "蝋燭の火が影とともに揺れる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "神殿の蝋燭",
+		advice = 0,
+		id = 332112,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhutaimficon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhutaimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332113] = {
+		can_rotate = 0,
+		describe = "注意：距離を保ってください！サプライズかドッキリか、全ては運次第",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽光の呼び声",
+		advice = 0,
+		id = 332113,
+		tag = 7,
+		comfortable = 4,
+		icon = "shenmipenmficon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenmipenmf",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332301] = {
+		can_rotate = 0,
+		describe = "たとえ火に飛び入っても、夏の虫には光が必要なのだ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mf/diaodengmf",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "神殿の掛けランタン",
+		advice = 0,
+		tag = 5,
+		id = 332301,
+		icon = "diaodengmficon",
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

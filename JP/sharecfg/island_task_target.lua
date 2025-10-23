@@ -1019,7 +1019,7 @@ pg.base.island_task_target = {
 		}
 	},
 	[100010401] = {
-		tips = "10040040",
+		tips = "10040017",
 		name = "大自然の原木を採集",
 		type = 4,
 		id = 100010401,
@@ -3466,7 +3466,7 @@ pg.base.island_task_target = {
 	},
 	[307050011] = {
 		tips = "10060002",
-		name = "任意の乌魚焼肉のメニューを作る",
+		name = "任意の鳥魚焼肉のメニューを作る",
 		type = 7,
 		id = 307050011,
 		target_num = 3,

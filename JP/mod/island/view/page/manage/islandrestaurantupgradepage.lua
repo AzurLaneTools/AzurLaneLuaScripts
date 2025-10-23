@@ -109,4 +109,8 @@ slot0.OnHide = function(slot0)
 	slot0.callback = nil
 end
 
+slot0.OnDestroy = function(slot0)
+	slot0:UnBlurPanel()
+end
+
 return slot0

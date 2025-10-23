@@ -297,10 +297,12 @@ slot0.BindEvent = function(slot0)
 	end)
 
 	slot3 = {
-		ResetCharacterExtraItem = true,
+		HideSceneItem = true,
 		SetExtraAnimSpeed = true,
 		EnableHeadIK = true,
+		ResetCharacterExtraItem = true,
 		PlayEnterExtraItem = true,
+		ResetTempHideSceneItems = true,
 		HideCharacterBylayer = true,
 		RevertCharacterBylayer = true
 	}

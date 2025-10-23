@@ -476,7 +476,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 3200,
-		describe = "図鑑Pt累計獲得3200：森の小屋*1",
+		describe = "図鑑Pt累計獲得3200：フォレストハウス*1",
 		id = 39,
 		level = 39,
 		award_display = {
@@ -531,7 +531,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 4200,
-		describe = "図鑑Pt累計獲得4200：森の小屋*1",
+		describe = "図鑑Pt累計獲得4200：フォレストハウス*1",
 		id = 44,
 		level = 44,
 		award_display = {
@@ -586,7 +586,7 @@ pg.base.island_collection_reward = {
 	},
 	{
 		need_exp = 5500,
-		describe = "図鑑Pt累計獲得5500：森の小屋*1",
+		describe = "図鑑Pt累計獲得5500：フォレストハウス*1",
 		id = 49,
 		level = 49,
 		award_display = {

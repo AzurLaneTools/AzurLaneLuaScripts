@@ -60,4 +60,12 @@ slot0.GetEnterExtraItem = function(slot0)
 	end
 end
 
+slot0.GetHideSceneItem = function(slot0)
+	if slot0:getConfig("hide_scene_item") and slot1 ~= "" and #slot1 > 0 then
+		return slot1
+	else
+		return {}
+	end
+end
+
 return slot0

@@ -171,7 +171,7 @@ return {
 			},
 			movableNode = {
 				{
-					name = "fengfan_haigu04",
+					name = "fengfan_lingti_quzhu",
 					time = 3,
 					spine = {
 						action = "move",
@@ -189,7 +189,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu04",
+					name = "fengfan_lingti_quzhu",
 					time = 3,
 					delay = 0.3,
 					spine = {
@@ -208,7 +208,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu05",
+					name = "fengfan_lingti_zhongxun",
 					time = 3,
 					delay = 0.8,
 					spine = {
@@ -227,7 +227,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu05",
+					name = "fengfan_lingti_zhongxun",
 					time = 3,
 					delay = 1.6,
 					spine = {
@@ -246,7 +246,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu06",
+					name = "fengfan_lingti_boss01",
 					time = 3,
 					delay = 0.8,
 					spine = {
@@ -619,7 +619,7 @@ return {
 			},
 			movableNode = {
 				{
-					name = "fengfan_haigu01",
+					name = "fengfan_haigu_quzhu",
 					time = 3,
 					spine = {
 						action = "move",
@@ -637,7 +637,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu01",
+					name = "fengfan_haigu_quzhu",
 					time = 3,
 					delay = 0.3,
 					spine = {
@@ -656,7 +656,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu02",
+					name = "fengfan_haigu_zhongxun",
 					time = 3,
 					delay = 0.8,
 					spine = {
@@ -675,7 +675,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu02",
+					name = "fengfan_haigu_zhongxun",
 					time = 3,
 					delay = 1.6,
 					spine = {
@@ -694,7 +694,7 @@ return {
 					}
 				},
 				{
-					name = "fengfan_haigu03",
+					name = "fengfan_haigu_boss01",
 					time = 3,
 					delay = 0.8,
 					spine = {

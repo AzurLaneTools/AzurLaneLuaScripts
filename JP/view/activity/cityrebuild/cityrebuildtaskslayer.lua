@@ -39,6 +39,10 @@ slot0.ShouldShowTip = function()
 		return false
 	end
 
+	if slot2.data3 then
+		return false
+	end
+
 	for slot8 = 1, #slot3[slot4] do
 		if slot1:getTaskVO(slot3[slot4][slot8]):getTaskStatus() == 1 then
 			return true

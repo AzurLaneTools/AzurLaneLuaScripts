@@ -574,6 +574,8 @@ slot0.OnSceneInited = function(slot0, slot1)
 		slot8:Start()
 	end
 
+	slot0:GetSubView(IslandOpView):LaterInit()
+
 	slot0.isInit = true
 end
 
@@ -599,7 +601,11 @@ slot0.OnNpcDetectorSelected = function(slot0, slot1)
 		return
 	end
 
-	slot0.selectedNpcId = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
+	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
+	slot0.selectedNpcId = slot4
+
+	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4, true)
+	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4, true)
 end
 
 slot0.GetSelectedNpcId = function(slot0)
@@ -611,7 +617,12 @@ slot0.OnNpcDetectorUnSelected = function(slot0, slot1)
 		return
 	end
 
-	if slot0.selectedNpcId ~= slot2:GetComponent(typeof(WorldObjectItem)).uniqueId then
+	slot4 = slot2:GetComponent(typeof(WorldObjectItem)).uniqueId
+
+	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4)
+	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4)
+
+	if slot0.selectedNpcId ~= slot4 then
 		return
 	end
 
@@ -826,6 +837,7 @@ end
 
 slot0.OnTracking = function(slot0, slot1)
 	slot0.trackId = tonumber(slot1.id)
+	slot0.trackType = slot1.typ or IslandTaskType.MAIN
 	slot0.needTryTrack = true
 end
 
@@ -838,7 +850,7 @@ slot0.TrySetTrack = function(slot0, slot1)
 		return
 	end
 
-	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1)
+	slot0:GetSubView(IslandDistanceView):SetTrackingTarget(slot0.player, slot2, slot1, slot0.trackType)
 
 	slot0.needTryTrack = false
 end

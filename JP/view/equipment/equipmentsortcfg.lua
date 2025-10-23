@@ -176,13 +176,17 @@ return {
 		},
 		{
 			types = {
+				Nation.MOT
+			}
+		},
+		{
+			types = {
 				Nation.LINK
 			}
 		},
 		{
 			types = {
 				Nation.CM,
-				Nation.MOT,
 				Nation.NL
 			}
 		}

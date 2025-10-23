@@ -164,16 +164,32 @@ end
 slot0.itemFollow = function(slot0, slot1)
 	for slot5 = 1, #slot0.items do
 		if (slot0.items[slot5].data.type == Fushun3GameConst.item_type_buff or slot6.data.type == Fushun3GameConst.item_type_score) and math.abs(slot1.x - slot6.tf.anchoredPosition.x) <= 600 and math.abs(slot1.y - slot7.y) <= 700 then
-			slot9 = 2000 * Time.deltaTime * math.sign(slot1.x - slot7.x)
-			slot10 = 25 * math.sign(slot1.y - slot7.y)
+			slot8 = false
 
-			if math.abs(slot1.y - slot7.y) < 25 then
-				slot10 = 0
+			if not slot6.catchTime then
+				slot6.catchTime = 1
+			else
+				slot6.catchTime = slot6.catchTime - Time.deltaTime
+
+				if slot6.catchTime <= 0 then
+					slot6.catchTime = nil
+					slot6.tf.anchoredPosition = slot1
+					slot8 = true
+				end
 			end
 
-			slot7.x = slot7.x + slot9
-			slot7.y = slot7.y + slot10
-			slot6.tf.anchoredPosition = slot7
+			if not slot8 then
+				slot10 = 2000 * Time.deltaTime * math.sign(slot1.x - slot7.x)
+				slot11 = 25 * math.sign(slot1.y - slot7.y)
+
+				if math.abs(slot1.y - slot7.y) < 25 then
+					slot11 = 0
+				end
+
+				slot7.x = slot7.x + slot10
+				slot7.y = slot7.y + slot11
+				slot6.tf.anchoredPosition = slot7
+			end
 		end
 	end
 end
@@ -250,6 +266,11 @@ end
 
 slot0.returnItemToPool = function(slot0, slot1)
 	setActive(slot1.tf, false)
+
+	if slot1.catchTime then
+		slot1.catchTime = nil
+	end
+
 	table.insert(slot0.itemPools, slot1)
 end
 

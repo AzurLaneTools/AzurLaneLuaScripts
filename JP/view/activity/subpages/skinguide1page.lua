@@ -163,12 +163,6 @@ slot0.updateUI = function(slot0)
 	end
 end
 
-slot0.OnLoadLayers = function(slot0)
-end
-
-slot0.OnRemoveLayers = function(slot0)
-end
-
 slot0.OnShowFlush = function(slot0)
 end
 

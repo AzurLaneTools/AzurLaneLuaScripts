@@ -63,7 +63,7 @@ end
 
 slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, #slot0.config.front_drops do
-		slot6 = slot0._tf:Find("award" .. tostring(slot4), slot0.content)
+		slot6 = slot0.content:Find("award" .. tostring(slot4))
 		slot7 = slot6:Find("btnAchieve")
 		slot8 = slot6:Find("achieve_sign")
 

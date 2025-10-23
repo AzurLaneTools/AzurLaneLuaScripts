@@ -76,14 +76,14 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "danmachi-1",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "danmachi-1"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "danmachi-1",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "danmachi-1"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	ActivityShop50170 = {
-		default_bgm = "story-expo-lastday",
+	ActivityShop50206 = {
+		default_bgm = "theme-tempest-light",
 		special_bgm = "",
-		bgm = "story-expo-lastday"
+		bgm = "theme-tempest-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2514,5 +2514,25 @@ pg.voice_bgm = {
 		default_bgm = "theme-irisangel",
 		special_bgm = "",
 		bgm = "theme-irisangel"
+	},
+	SailingShip3MainPage = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
+	},
+	SailingShip3PtPage = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
+	},
+	SailingShip3SkinActPage = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
+	},
+	SailingShip3MedalAlbumView = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
 	}
 }

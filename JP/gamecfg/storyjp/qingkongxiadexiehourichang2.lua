@@ -238,7 +238,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_500",
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくして…",

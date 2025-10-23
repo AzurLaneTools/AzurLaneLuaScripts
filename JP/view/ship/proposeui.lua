@@ -580,6 +580,7 @@ slot0.stampWindow = function(slot0)
 	end)
 	setActive(slot0.window, true)
 	setActive(slot0.button, false)
+	setActive(slot0.giftButton, false)
 	setActive(slot0.targetActorTF:Find("live2d"), false)
 
 	slot1 = nil
