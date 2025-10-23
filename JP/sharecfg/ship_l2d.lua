@@ -107891,13 +107891,13 @@ pg.ship_l2d = {
 		id = 960014137,
 		offset_y = 0,
 		revert_smooth = 100,
-		limit_time = 0.1,
+		limit_time = 0.2,
 		parts_data = "",
 		relation_parameter = "",
 		ignore_react = 1,
 		gyro = 0,
 		gyro_x = 0,
-		ignore_action = 1,
+		ignore_action = 0,
 		parameter = "empty",
 		save_parameter = 0,
 		revert_idle_index = "",
@@ -107908,7 +107908,7 @@ pg.ship_l2d = {
 		offset_circle = "",
 		range = {
 			0,
-			10
+			1
 		},
 		action_trigger = {
 			focus = 1,
