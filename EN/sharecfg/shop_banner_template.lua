@@ -13,7 +13,7 @@ pg.shop_banner_template = {
 				{
 					2025,
 					10,
-					9
+					23
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					23,
@@ -51,8 +51,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					9,
-					25
+					10,
+					23
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					23,
@@ -430,8 +430,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					9,
-					12
+					10,
+					23
 				},
 				{
 					0,
@@ -442,8 +442,8 @@ pg.shop_banner_template = {
 			{
 				{
 					2025,
-					10,
-					8
+					11,
+					12
 				},
 				{
 					23,

@@ -753,7 +753,7 @@ slot20 = function(slot0, slot1)
 		slot0.delayChangeParamater = nil
 	end
 
-	slot0:offsetL2dPositonDelay(0.6, 6)
+	slot0:offsetL2dPositonDelay(0.3, 6)
 	uv13(slot0, "idle", true)
 end
 
@@ -809,7 +809,7 @@ slot0.SetVisible = function(slot0, slot1)
 
 			slot0 = uv0
 
-			slot0:offsetL2dPositonDelay(0.6, 5, function ()
+			slot0:offsetL2dPositonDelay(0.3, 5, function ()
 			end)
 			uv1(uv0, "idle", true)
 		end)
