@@ -1287,6 +1287,10 @@ slot0.setSortingModeFrontZ = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	if slot0.state == uv0.STATE_DISPOSE then
+		return
+	end
+
 	if table.contains(ChangeSkinLink.L2D_SAVE_TEMPLATE_DISPOSE, slot0.live2dData.skinId) then
 		slot1 = slot0:getParameterDic()
 
@@ -1302,7 +1306,10 @@ slot0.Dispose = function(slot0)
 		slot0.liveCom:SetMouseInputActions(nil, )
 	end
 
-	slot0.dftCom:SetCommonEvent(nil)
+	if slot0.dftCom then
+		slot0.dftCom:SetCommonEvent(nil)
+	end
+
 	slot0:stopVoice()
 	slot0:unloadCueSheet()
 
@@ -1375,6 +1382,10 @@ slot0.getParameterDic = function(slot0)
 end
 
 slot0.unloadCueSheet = function(slot0)
+	if not slot0.loadSheets then
+		return
+	end
+
 	for slot4, slot5 in ipairs(slot0.loadSheets) do
 		pg.CriMgr.GetInstance():UnloadCueSheet(slot5)
 	end
@@ -1383,6 +1394,10 @@ slot0.unloadCueSheet = function(slot0)
 end
 
 slot0.stopVoice = function(slot0)
+	if not slot0.playingSheetInfo then
+		return
+	end
+
 	for slot4, slot5 in ipairs(slot0.playingSheetInfo) do
 		if slot5 then
 			slot5:PlaybackStop()

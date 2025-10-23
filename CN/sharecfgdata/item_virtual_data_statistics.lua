@@ -230220,8 +230220,8 @@ _G.pg.base.item_virtual_data_statistics[200596] = {
 
 _G.pg.base.item_virtual_data_statistics[200597] = {
 	drop_gold_max = 0,
-	name = "外观装备(深海寻宝II)",
-	display = "随机获得一件「深海寻宝II」主题外观装备",
+	name = "外观装备(深海寻宝)",
+	display = "随机获得一件「深海寻宝」主题外观装备",
 	type = 99,
 	is_world = 0,
 	shop_id = -1,

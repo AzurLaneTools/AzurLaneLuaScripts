@@ -179,7 +179,7 @@ end
 slot0.GetReturnExtraNum = function(slot0, slot1)
 	slot3 = 0
 
-	for slot7 = #slot0.cost_time_list, #slot0.cost_time_list - slot1, -1 do
+	for slot7 = #slot0.cost_time_list, #slot0.cost_time_list - slot1 + 1, -1 do
 		slot3 = slot3 + slot0:GetExtraExtraCost(slot7)
 	end
 
