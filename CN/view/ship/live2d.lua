@@ -228,6 +228,10 @@ slot14 = function(slot0, slot1, slot2)
 			if slot1 == "idle" then
 				slot0:live2dActionChange(false)
 			else
+				if slot0._animator.speed ~= 1 then
+					slot0:resumeSpeed()
+				end
+
 				slot0:live2dActionChange(true)
 			end
 
@@ -737,8 +741,6 @@ slot20 = function(slot0, slot1)
 		uv11(slot0)
 	end
 
-	slot0:addKeyBoard()
-
 	slot0.state = uv12.STATE_INITED
 
 	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
@@ -751,8 +753,8 @@ slot20 = function(slot0, slot1)
 		slot0.delayChangeParamater = nil
 	end
 
+	slot0:offsetL2dPositonDelay(0.3, 6)
 	uv13(slot0, "idle", true)
-	slot0:offsetL2dPositonDelay(0.6, 6)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -772,10 +774,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	end)
 	Input.gyro.enabled = slot0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 	slot0.useEventTriggerFlag = true
-end
-
-slot0.setStopCallback = function(slot0, slot1)
-	slot0._stopCallback = slot1
 end
 
 slot0.SetVisible = function(slot0, slot1)
@@ -808,12 +806,12 @@ slot0.SetVisible = function(slot0, slot1)
 			slot0 = uv0
 
 			slot0:loadLive2dData()
-			uv1(uv0, "idle", true)
 
 			slot0 = uv0
 
-			slot0:offsetL2dPositonDelay(0.8, 5, function ()
+			slot0:offsetL2dPositonDelay(0.3, 5, function ()
 			end)
+			uv1(uv0, "idle", true)
 		end)
 	else
 		slot0:stopVoice()
@@ -821,10 +819,6 @@ slot0.SetVisible = function(slot0, slot1)
 		slot0:saveLive2dData()
 		slot0:changeIdleIndex(0)
 		uv1(slot0, "idle", true)
-
-		if slot0._stopCallback then
-			slot0._stopCallback()
-		end
 
 		slot0._readlyToStop = true
 	end
@@ -1080,6 +1074,12 @@ slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end
 	end))
+end
+
+slot0.resumeSpeed = function(slot0)
+	if slot0._animator then
+		slot0._animator.speed = 1
+	end
 end
 
 slot0.resetL2dData = function(slot0)
@@ -1432,9 +1432,6 @@ slot0.AtomSouceFresh = function(slot0)
 	if slot0.updateAtom then
 		slot0.updateAtom = false
 	end
-end
-
-slot0.addKeyBoard = function(slot0)
 end
 
 slot0.SetL2dSortingLayer = function(slot0, slot1)

@@ -29642,16 +29642,42 @@ pg.activity_template = {
 	},
 	[50161] = {
 		mark = 20251009,
-		time = "stop",
 		type = 87,
 		login_pop = 0,
-		config_id = 31,
+		config_id = 32,
 		is_show = 45,
 		config_client = "",
-		title_res_tag = "dexiV3_frame",
+		title_res_tag = "sading_frame",
 		id = 50161,
 		page_core = "",
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "SaDingFrameRePage",
 			ui_name = "SaDingFrameRePage"
