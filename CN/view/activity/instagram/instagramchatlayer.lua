@@ -817,7 +817,7 @@ slot0.SetFilterPanel = function(slot0)
 			SetActive(uv2:GetChild(slot3):Find("selectedFrame"), uv0.readFilter == slot4)
 			onButton(uv0, slot5, function ()
 				for slot3, slot4 in ipairs(uv0.ReadType) do
-					SetActive(uv1:GetChild(slot3:Find("selectedFrame")), false)
+					SetActive(uv1:GetChild(slot3):Find("selectedFrame"), false)
 				end
 
 				SetActive(uv2, true)
@@ -828,7 +828,7 @@ slot0.SetFilterPanel = function(slot0)
 			SetActive(uv3:GetChild(slot3):Find("selectedFrame"), uv0.typeFilter == slot4)
 			onButton(uv0, slot5, function ()
 				for slot3, slot4 in ipairs(uv0.TypeType) do
-					SetActive(uv1:GetChild(slot3:Find("selectedFrame")), false)
+					SetActive(uv1:GetChild(slot3):Find("selectedFrame"), false)
 				end
 
 				SetActive(uv2, true)

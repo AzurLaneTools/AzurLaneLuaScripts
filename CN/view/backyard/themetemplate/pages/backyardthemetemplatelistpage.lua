@@ -403,7 +403,7 @@ slot0.SetTotalCount = function(slot0)
 		end
 	end
 
-	slot0.scrollRect.enabsled = true
+	slot0.scrollRect.enabled = true
 
 	slot0.scrollRect:SetTotalCount(#slot0.disPlays)
 end

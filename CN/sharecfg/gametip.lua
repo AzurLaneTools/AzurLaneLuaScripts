@@ -34485,5 +34485,10 @@ cs.gametip = {
 		1182926,
 		107,
 		true
+	},
+	shop_sell_ended = {
+		1183033,
+		91,
+		true
 	}
 }

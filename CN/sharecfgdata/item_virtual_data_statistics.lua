@@ -231092,11 +231092,6 @@ _G.pg.base.item_virtual_data_statistics[200612] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231123,11 +231118,6 @@ _G.pg.base.item_virtual_data_statistics[200612] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{
@@ -231228,11 +231218,6 @@ _G.pg.base.item_virtual_data_statistics[200613] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231259,11 +231244,6 @@ _G.pg.base.item_virtual_data_statistics[200613] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{
@@ -231364,11 +231344,6 @@ _G.pg.base.item_virtual_data_statistics[200614] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231395,11 +231370,6 @@ _G.pg.base.item_virtual_data_statistics[200614] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{
@@ -231500,11 +231470,6 @@ _G.pg.base.item_virtual_data_statistics[200615] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231531,11 +231496,6 @@ _G.pg.base.item_virtual_data_statistics[200615] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{
@@ -231636,11 +231596,6 @@ _G.pg.base.item_virtual_data_statistics[200616] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231667,11 +231622,6 @@ _G.pg.base.item_virtual_data_statistics[200616] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{
@@ -231777,11 +231727,6 @@ _G.pg.base.item_virtual_data_statistics[200617] = {
 		},
 		{
 			4,
-			101041,
-			1
-		},
-		{
-			4,
 			101031,
 			1
 		},
@@ -231808,11 +231753,6 @@ _G.pg.base.item_virtual_data_statistics[200617] = {
 		{
 			4,
 			101041,
-			1
-		},
-		{
-			4,
-			101031,
 			1
 		},
 		{

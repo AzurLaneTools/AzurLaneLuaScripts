@@ -45070,3 +45070,8 @@ _G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
 _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 	tip = "纪念手册"
 }
+
+
+_G.pg.base.gametip.shop_sell_ended = {
+	tip = "不可购买"
+}
