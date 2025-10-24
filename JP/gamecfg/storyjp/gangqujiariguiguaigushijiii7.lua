@@ -1,7 +1,7 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUJIARIGUIGUAIGUSHIJIⅡ7",
+	id = "GANGQUJIARIGUIGUAIGUSHIJIII7",
 	placeholder = {
 		"playername"
 	},

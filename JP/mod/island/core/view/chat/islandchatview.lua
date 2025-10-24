@@ -189,7 +189,9 @@ slot0.InsertMsg = function(slot0, slot1, slot2)
 		return
 	end
 
-	table.insert(slot1, slot2)
+	if slot2.player and slot2.content then
+		table.insert(slot1, slot2)
+	end
 end
 
 slot0.MatchChannel = function(slot0, slot1)

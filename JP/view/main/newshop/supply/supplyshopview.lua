@@ -250,6 +250,8 @@ slot0.IsSupplyShop = function(slot0)
 end
 
 slot0.SetPlayer = function(slot0, slot1)
+	slot0.player = slot1
+
 	slot0.page:SetPlayer(slot1)
 end
 
