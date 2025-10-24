@@ -27,17 +27,6 @@ return {
 				buff_id = 151752,
 				nationality = 96
 			}
-		},
-		{
-			targetAniEffect = "",
-			casterAniEffect = "",
-			type = "BattleSkillAddBuff",
-			target_choise = {
-				"TargetSelf"
-			},
-			arg_list = {
-				buff_id = 151754
-			}
 		}
 	}
 }

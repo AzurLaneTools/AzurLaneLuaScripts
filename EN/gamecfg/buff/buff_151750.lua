@@ -50,6 +50,36 @@ return {
 				skill_id = 151753,
 				target = "TargetSelf"
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				buff_id = 151753,
+				minTargetNumber = 2,
+				nationality = 96,
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				buff_id = 151754,
+				maxTargetNumber = 1,
+				nationality = 96,
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				}
+			}
 		}
 	}
 }

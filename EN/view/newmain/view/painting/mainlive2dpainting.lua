@@ -330,6 +330,14 @@ end
 slot0.SetContainerVisible = function(slot0, slot1)
 end
 
+slot0.IsLoaded = function(slot0)
+	if not slot0.live2dChar then
+		return false
+	end
+
+	return uv0.super.IsLoaded(slot0)
+end
+
 slot0.OnResume = function(slot0)
 	slot0:SetContainerVisible(true)
 	slot0:AddScreenChangeTimer()
