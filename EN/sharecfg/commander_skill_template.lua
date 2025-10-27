@@ -1859,7 +1859,7 @@ pg.commander_skill_template = {
 	},
 	[960061] = {
 		name = "Unfinished Legend",
-		desc_world = "依据指挥喵战术属性，提高所在舰队中战列、战巡、航战、风帆M的炮击属性(效果中)",
+		desc_world = "When assigned to a fleet: increases the FP of your BBs, BCs, BBVs, and IXMs by a moderate amount based on the Tactics stat.",
 		next_id = 960062,
 		exp = 0,
 		prev_id = 0,

@@ -54774,7 +54774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[5421] = {
-		param = "It's a means of cultivation, an appreciation of aesthetics, and most of all, spiritual sustenance.",
+		param = "It's an elegant way to soothe the mind, too.",
 		ship_group = 30716,
 		option = "",
 		type = 1,
